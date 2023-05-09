@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 145
+  "SuggestedDocumentId": 805
 }
 ```
 
@@ -120,88 +120,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 656,
+  "DocumentId": 919,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "qui",
-  "Header": "aut",
-  "Name": "Bechtelar-Weimann",
-  "OurRef": "earum",
-  "YourRef": "repellendus",
-  "CreatedDate": "2011-11-09T15:29:21.634812+01:00",
-  "UpdatedDate": "2010-03-29T15:29:21.634812+02:00",
-  "Description": "Diverse bottom-line open architecture",
+  "Attention": "provident",
+  "Header": "quia",
+  "Name": "Kiehn, Renner and Labadie",
+  "OurRef": "ipsa",
+  "YourRef": "facilis",
+  "CreatedDate": "2007-10-23T03:51:27.1311241+02:00",
+  "UpdatedDate": "2003-09-25T03:51:27.1311241+02:00",
+  "Description": "Versatile executive instruction set",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-03-22T15:29:21.6388111+01:00",
-  "ExternalRef": "reiciendis",
+  "Date": "2011-03-17T03:51:27.1311241+01:00",
+  "ExternalRef": "ea",
   "Completed": "Completed",
-  "ActiveLinks": 100,
+  "ActiveLinks": 610,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hettinger, Walter and Gibson",
-      "Id": 70,
-      "Description": "Decentralized web-enabled interface",
-      "ExtraInfo": "aliquid",
-      "LinkId": 403,
+      "EntityName": "Quigley-Homenick",
+      "Id": 897,
+      "Description": "Proactive incremental matrices",
+      "ExtraInfo": "qui",
+      "LinkId": 559,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 686
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 913,
-  "Snum": 30,
+  "SuggestedDocumentId": 293,
+  "Snum": 885,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mikel Monahan",
-    "SuperOffice:2": "Wava Yost"
+    "SuperOffice:1": "Prof. Eloy Leffler DDS",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "dolore"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "ut"
+    "CustomFields1": "omnis",
+    "CustomFields2": "vel"
   },
-  "PublishEventDate": "1996-02-24T15:29:21.6398115+01:00",
-  "PublishTo": "2004-06-14T15:29:21.6398115+02:00",
-  "PublishFrom": "2003-06-29T15:29:21.6398115+02:00",
+  "PublishEventDate": "2016-05-06T03:51:27.1311241+02:00",
+  "PublishTo": "2005-03-09T03:51:27.1311241+01:00",
+  "PublishFrom": "2014-09-16T03:51:27.1311241+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 244,
+      "VisibleId": 673,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldLength": 175
         }
       }
     },
     {
-      "VisibleId": 244,
+      "VisibleId": 673,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldLength": 175
         }
       }
     }

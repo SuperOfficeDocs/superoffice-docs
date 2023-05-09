@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Hahn-Gottlieb",
-    "ToolTip": "Officiis necessitatibus.",
+    "Id": 989,
+    "Name": "O'Keefe, Frami and Walker",
+    "ToolTip": "Iusto molestiae veniam accusantium repellat iusto incidunt tempora.",
     "Deleted": false,
-    "Rank": 451,
-    "Type": "in",
-    "ColorBlock": 58,
-    "IconHint": "aspernatur",
+    "Rank": 904,
+    "Type": "cupiditate",
+    "ColorBlock": 476,
+    "IconHint": "at",
     "Selected": false,
-    "LastChanged": "2022-06-24T15:29:31.3244776+02:00",
+    "LastChanged": "2012-10-19T03:51:34.7395889+02:00",
     "ChildItems": [
       {
-        "Id": 113,
-        "Name": "Tromp-Metz",
-        "ToolTip": "In et.",
-        "Deleted": true,
-        "Rank": 180,
-        "Type": "dolores",
-        "ColorBlock": 676,
-        "IconHint": "voluptatum",
-        "Selected": false,
-        "LastChanged": "1999-12-14T15:29:31.3244776+01:00",
+        "Id": 368,
+        "Name": "Beier, Hyatt and Corwin",
+        "ToolTip": "Assumenda voluptatem dolor culpa fugit.",
+        "Deleted": false,
+        "Rank": 655,
+        "Type": "sit",
+        "ColorBlock": 192,
+        "IconHint": "illum",
+        "Selected": true,
+        "LastChanged": "2016-03-08T03:51:34.7395889+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "id",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Dr. Gloria Jayda Schmeler",
+        "FullName": "Allen Erdman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 295
+            "FieldLength": 934
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "omnis",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Vincenzo Krajcik",
+    "FullName": "Otha Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldType": "System.String",
+        "FieldLength": 423
       }
     }
   }

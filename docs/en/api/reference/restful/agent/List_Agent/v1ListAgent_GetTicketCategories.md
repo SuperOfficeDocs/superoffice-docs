@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,36 +92,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 679,
-    "ParentId": 939,
-    "Name": "Hansen, Corkery and Carter",
-    "Fullname": "id",
-    "CategoryMaster": 260,
+    "TicketCategoryId": 396,
+    "ParentId": 568,
+    "Name": "Farrell-Kreiger",
+    "Fullname": "quas",
+    "CategoryMaster": 28,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Kozey LLC",
+    "ExternalName": "Tremblay, Cassin and Renner",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 825,
-    "ReplyTemplate": 901,
-    "NotificationEmail": "mauricio.bednar@ondricka.name",
+    "AssignmentLag": 735,
+    "ReplyTemplate": 925,
+    "NotificationEmail": "sigmund.west@kovacek.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 814,
+    "EffectiveReplyTemplateId": 460,
     "ExtraFields": {
-      "ExtraFields1": "necessitatibus",
-      "ExtraFields2": "rerum"
+      "ExtraFields1": "tempora",
+      "ExtraFields2": "sunt"
     },
     "CustomFields": {
-      "CustomFields1": "ut",
-      "CustomFields2": "consectetur"
+      "CustomFields1": "quisquam",
+      "CustomFields2": "ab"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 264
+        "FieldLength": 146
       }
     }
   }

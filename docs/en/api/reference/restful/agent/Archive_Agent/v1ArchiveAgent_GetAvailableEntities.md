@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hodkiewicz-O'Conner",
-  "Context": "suscipit"
+  "ProviderName": "Lindgren Inc and Sons",
+  "Context": "doloribus"
 }
 ```
 
@@ -186,50 +186,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Labadie-Schmitt",
-    "ToolTip": "Vitae excepturi quo deserunt aut.",
-    "Deleted": true,
-    "Rank": 382,
-    "Type": "consequatur",
+    "Id": 404,
+    "Name": "Krajcik, Lang and Bechtelar",
+    "ToolTip": "Aut voluptas tempora aut exercitationem corrupti.",
+    "Deleted": false,
+    "Rank": 737,
+    "Type": "atque",
     "ChildItems": [
       {
-        "Id": 920,
-        "Name": "Rempel-Mraz",
-        "ToolTip": "Id voluptate excepturi.",
+        "Id": 793,
+        "Name": "Lemke, Gutkowski and Hamill",
+        "ToolTip": "Ut fuga a repellendus.",
         "Deleted": true,
-        "Rank": 565,
-        "Type": "eveniet",
+        "Rank": 446,
+        "Type": "doloremque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iure",
-        "ColorBlock": 496,
-        "ExtraInfo": "et",
-        "StyleHint": "modi",
-        "FullName": "Ms. Ava Candace Swift",
+        "IconHint": "enim",
+        "ColorBlock": 240,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "nisi",
+        "FullName": "Reymundo Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 20
+            "FieldLength": 920
           }
         }
       }
     ],
-    "IconHint": "temporibus",
-    "ColorBlock": 339,
-    "ExtraInfo": "iusto",
-    "StyleHint": "aut",
-    "FullName": "Miss Jeromy Rodriguez",
+    "IconHint": "quisquam",
+    "ColorBlock": 751,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "quod",
+    "FullName": "Gayle Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 398
       }
     }
   }

@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "labore",
-    "et"
+    "omnis",
+    "ullam"
   ]
 }
 ```
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Goyette, Dach and Lehner",
-    "Delimiter": "hic",
-    "Flags": "dolorum",
-    "TotalItems": 270,
-    "UnreadItems": 167,
+    "Name": "Larkin Group",
+    "Delimiter": "qui",
+    "Flags": "eum",
+    "TotalItems": 829,
+    "UnreadItems": 824,
     "Subscribed": false,
-    "EmailFolderId": 373,
+    "EmailFolderId": 206,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldType": "System.String",
+        "FieldLength": 525
       }
     }
   }

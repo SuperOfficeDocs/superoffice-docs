@@ -91,10 +91,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 823,
-  "AttachmentId": "debitis",
-  "AttachmentType": "magni",
-  "AttachmentFilename": "id"
+  "MailItemId": 487,
+  "AttachmentId": "perspiciatis",
+  "AttachmentType": "repellat",
+  "AttachmentFilename": "delectus"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Visionary multi-state orchestration",
-  "Filename": "sit",
-  "Size": 895,
-  "Type": "est",
-  "Encoding": "culpa",
-  "Id": "vitae",
-  "Disposition": "nam",
+  "Description": "Cross-group intangible moderator",
+  "Filename": "non",
+  "Size": 523,
+  "Type": "voluptatibus",
+  "Encoding": "aut",
+  "Id": "non",
+  "Disposition": "ex",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldType": "System.String",
+      "FieldLength": 509
     }
   }
 }

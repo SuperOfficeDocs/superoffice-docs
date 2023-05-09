@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 184,
+  "ErpConnectionId": 187,
   "ActorType": "Customer"
 }
 ```
@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 479,
+  "ErpConnectionId": 136,
   "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 982,
-      "CrmFieldKey": "tenetur",
-      "CrmDisplayName": "Dicki, Cruickshank and Ledner",
-      "CrmDisplayTooltip": "non",
-      "ErpFieldKey": "tempore",
+      "ErpFieldId": 652,
+      "CrmFieldKey": "voluptatem",
+      "CrmDisplayName": "Lowe, Orn and Doyle",
+      "CrmDisplayTooltip": "laboriosam",
+      "ErpFieldKey": "quibusdam",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Schimmel-Thiel",
-      "ErpDisplayTooltip": "velit",
+      "ErpDisplayName": "O'Connell-Swift",
+      "ErpDisplayTooltip": "et",
       "SyncToCrm": false,
       "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
-      "AlreadyMapped": true,
-      "MissingInERP": false,
-      "MissingInCRM": false,
+      "AlreadyMapped": false,
+      "MissingInERP": true,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "voluptatem",
+      "ListReference": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 946
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 837
     }
   }
 }

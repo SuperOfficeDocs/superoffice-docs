@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 507,
-    "Name": "Predovic, Zboncak and Botsford",
-    "Tooltip": "libero",
+    "HeadingId": 672,
+    "Name": "Funk-Runolfsson",
+    "Tooltip": "doloremque",
     "Deleted": false,
-    "Rank": 903,
-    "UdListDefinitionId": 99
+    "Rank": 575,
+    "UdListDefinitionId": 950
   },
   {
-    "HeadingId": 507,
-    "Name": "Predovic, Zboncak and Botsford",
-    "Tooltip": "libero",
+    "HeadingId": 672,
+    "Name": "Funk-Runolfsson",
+    "Tooltip": "doloremque",
     "Deleted": false,
-    "Rank": 903,
-    "UdListDefinitionId": 99
+    "Rank": 575,
+    "UdListDefinitionId": 950
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 132,
-    "Name": "Frami, Veum and Emmerich",
-    "Tooltip": "vero",
+    "HeadingId": 920,
+    "Name": "Lockman Inc and Sons",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 354,
-    "UdListDefinitionId": 998,
+    "Rank": 583,
+    "UdListDefinitionId": 825,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldType": "System.String",
+        "FieldLength": 890
       }
     }
   }

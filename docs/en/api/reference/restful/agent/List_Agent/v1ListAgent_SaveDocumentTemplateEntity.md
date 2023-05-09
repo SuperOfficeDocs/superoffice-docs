@@ -110,34 +110,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 718,
-  "Name": "Ledner-Gerlach",
-  "Tooltip": "quasi",
-  "SaveInDb": 364,
-  "Filename": "nam",
-  "DefaultOref": "molestiae",
+  "DocumentTemplateId": 81,
+  "Name": "Bernier Group",
+  "Tooltip": "dolor",
+  "SaveInDb": 973,
+  "Filename": "ut",
+  "DefaultOref": "modi",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 384,
-  "IntentId": 903,
+  "AutoeventId": 247,
+  "IntentId": 475,
   "IsDefaultPublished": false,
-  "Rank": 449,
-  "LoadTemplateFromPlugin": 59,
-  "MimeType": "ipsa",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 675,
+  "Rank": 129,
+  "LoadTemplateFromPlugin": 670,
+  "MimeType": "hic",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 976,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "maggie.baumbach@abernathyernser.ca",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "rhett_yundt@walker.biz",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "augustus@sipes.com",
+  "SenderEmailAddress": "newell@welchhartmann.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -149,37 +149,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 933,
-  "Name": "Weissnat Inc and Sons",
-  "Tooltip": "fuga",
-  "SaveInDb": 736,
-  "Filename": "mollitia",
-  "DefaultOref": "expedita",
+  "DocumentTemplateId": 554,
+  "Name": "Dibbert, Von and Boyle",
+  "Tooltip": "repellendus",
+  "SaveInDb": 794,
+  "Filename": "et",
+  "DefaultOref": "omnis",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 769,
-  "IntentId": 366,
+  "AutoeventId": 414,
+  "IntentId": 762,
   "IsDefaultPublished": false,
-  "Rank": 969,
-  "LoadTemplateFromPlugin": 712,
-  "MimeType": "dolores",
+  "Rank": 66,
+  "LoadTemplateFromPlugin": 343,
+  "MimeType": "deserunt",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 599,
+  "DocumentTypeKey": 57,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "willow@sporer.name",
-  "IncludeSignature": true,
+  "EmailSubject": "vivien@schultz.biz",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "eryn@breitenberg.info",
+  "SenderEmailAddress": "willa@hahn.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 653
+      "FieldLength": 210
     }
   }
 }

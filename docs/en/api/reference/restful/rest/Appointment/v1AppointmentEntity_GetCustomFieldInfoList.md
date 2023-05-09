@@ -66,7 +66,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Hamill Group",
-    "DisplayName": "Haag, Rice and Herzog",
-    "Description": "Adaptive next generation website",
-    "ShortLabel": "ex",
+    "FieldName": "Anderson Group",
+    "DisplayName": "Keebler, Sanford and Predovic",
+    "Description": "Switchable empowering infrastructure",
+    "ShortLabel": "repudiandae",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 998,
-    "TemplateVariableName": "Ziemann, Barrows and Homenick"
+    "HideField": true,
+    "IsIndexed": true,
+    "IsMandatory": true,
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "Rank": 673,
+    "TemplateVariableName": "Brakus, Heller and Wehner"
   }
 ]
 ```

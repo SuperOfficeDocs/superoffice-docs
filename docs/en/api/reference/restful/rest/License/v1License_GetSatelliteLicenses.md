@@ -61,7 +61,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,56 +72,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bosco-Denesik",
-    "Description": "Sharable leading edge productivity",
+    "Name": "White-Schumm",
+    "Description": "Polarised radical orchestration",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 352,
-        "Tooltip": "nihil",
-        "CanAssign": false,
-        "Free": 930,
-        "InUse": 671,
-        "IsHidden": false,
+        "Total": 517,
+        "Tooltip": "tempora",
+        "CanAssign": true,
+        "Free": 858,
+        "InUse": 231,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 81,
-        "Name": "Von Group",
-        "Description": "Horizontal assymetric capacity",
-        "PrerequisiteModuleName": "Gleichner, Wisoky and Langworth",
-        "SortOrder": 448,
-        "ExtraFlags": 88,
+        "ModuleLicenseId": 278,
+        "Name": "Lemke, Kling and Lehner",
+        "Description": "Reduced needs-based forecast",
+        "PrerequisiteModuleName": "Bruen-Spinka",
+        "SortOrder": 533,
+        "ExtraFlags": 448,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 572
+            "FieldLength": 743
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 401,
-        "Tooltip": "omnis",
-        "CanAssign": true,
-        "Free": 90,
-        "InUse": 787,
+        "Unrestricted": false,
+        "Total": 339,
+        "Tooltip": "non",
+        "CanAssign": false,
+        "Free": 287,
+        "InUse": 593,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 104,
-        "Name": "Ankunding, Howell and Grimes",
-        "Description": "Managed client-server hierarchy",
-        "PrerequisiteModuleName": "Rath Group",
-        "SortOrder": 618,
-        "ExtraFlags": 99,
+        "ModuleLicenseId": 526,
+        "Name": "Balistreri-Walter",
+        "Description": "Function-based holistic infrastructure",
+        "PrerequisiteModuleName": "Rempel-Ruecker",
+        "SortOrder": 135,
+        "ExtraFlags": 660,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 326
+            "FieldType": "System.String",
+            "FieldLength": 987
           }
         }
       }
@@ -131,61 +131,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldLength": 196
       }
     }
   },
   {
-    "Name": "Bosco-Denesik",
-    "Description": "Sharable leading edge productivity",
+    "Name": "White-Schumm",
+    "Description": "Polarised radical orchestration",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 352,
-        "Tooltip": "nihil",
-        "CanAssign": false,
-        "Free": 930,
-        "InUse": 671,
-        "IsHidden": false,
+        "Total": 517,
+        "Tooltip": "tempora",
+        "CanAssign": true,
+        "Free": 858,
+        "InUse": 231,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 81,
-        "Name": "Von Group",
-        "Description": "Horizontal assymetric capacity",
-        "PrerequisiteModuleName": "Gleichner, Wisoky and Langworth",
-        "SortOrder": 448,
-        "ExtraFlags": 88,
+        "ModuleLicenseId": 278,
+        "Name": "Lemke, Kling and Lehner",
+        "Description": "Reduced needs-based forecast",
+        "PrerequisiteModuleName": "Bruen-Spinka",
+        "SortOrder": 533,
+        "ExtraFlags": 448,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 572
+            "FieldLength": 743
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 401,
-        "Tooltip": "omnis",
-        "CanAssign": true,
-        "Free": 90,
-        "InUse": 787,
+        "Unrestricted": false,
+        "Total": 339,
+        "Tooltip": "non",
+        "CanAssign": false,
+        "Free": 287,
+        "InUse": 593,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 104,
-        "Name": "Ankunding, Howell and Grimes",
-        "Description": "Managed client-server hierarchy",
-        "PrerequisiteModuleName": "Rath Group",
-        "SortOrder": 618,
-        "ExtraFlags": 99,
+        "ModuleLicenseId": 526,
+        "Name": "Balistreri-Walter",
+        "Description": "Function-based holistic infrastructure",
+        "PrerequisiteModuleName": "Rempel-Ruecker",
+        "SortOrder": 135,
+        "ExtraFlags": 660,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 326
+            "FieldType": "System.String",
+            "FieldLength": 987
           }
         }
       }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldLength": 196
       }
     }
   }

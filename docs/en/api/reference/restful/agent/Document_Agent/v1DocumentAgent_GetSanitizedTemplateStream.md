@@ -75,9 +75,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Wyman-Doyle",
-  "AllowPersonal": false,
-  "UiCulture": "expedita"
+  "TemplateName": "Reinger Inc and Sons",
+  "AllowPersonal": true,
+  "UiCulture": "ea"
 }
 ```
 

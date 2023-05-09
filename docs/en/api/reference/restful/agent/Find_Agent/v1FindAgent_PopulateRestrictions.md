@@ -82,22 +82,22 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Leannon-Boyer",
+  "ProviderName": "Ankunding LLC",
   "Restrictions": [
     {
-      "Name": "Haley, Jaskolski and Nader",
-      "Operator": "laudantium",
+      "Name": "Lesch LLC",
+      "Operator": "in",
       "Values": [
-        "rem",
-        "nulla"
+        "voluptas",
+        "earum"
       ],
       "DisplayValues": [
-        "et",
-        "temporibus"
+        "amet",
+        "cum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -105,9 +105,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 216,
+      "InterParenthesis": 492,
       "InterOperator": "And",
-      "UniqueHash": 289
+      "UniqueHash": 276
     }
   ]
 }
@@ -121,29 +121,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kozey, Kozey and Haley",
-    "Operator": "magnam",
+    "Name": "Balistreri, O'Kon and Luettgen",
+    "Operator": "distinctio",
     "Values": [
-      "laborum",
-      "molestiae"
+      "autem",
+      "ullam"
     ],
     "DisplayValues": [
-      "itaque",
-      "aperiam"
+      "nisi",
+      "rem"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Carter-Hilll",
-        "Operator": "voluptates",
+        "Name": "Ledner-Osinski",
+        "Operator": "voluptatem",
         "Values": [
-          "officia",
-          "eveniet"
+          "consectetur",
+          "et"
         ],
         "DisplayValues": [
-          "doloremque",
-          "voluptate"
+          "in",
+          "dolore"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -151,14 +151,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 109,
+        "InterParenthesis": 403,
         "InterOperator": "And",
-        "UniqueHash": 229
+        "UniqueHash": 957
       }
     ],
     "InterParenthesis": 10,
     "InterOperator": "And",
-    "UniqueHash": 709
+    "UniqueHash": 724
   }
 ]
 ```

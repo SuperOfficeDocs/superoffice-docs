@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Value": "esse",
-    "Tooltip": "provident",
+    "Id": 783,
+    "Value": "vitae",
+    "Tooltip": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldLength": 369
       }
     }
   },
   {
-    "Id": 975,
-    "Value": "esse",
-    "Tooltip": "provident",
+    "Id": 783,
+    "Value": "vitae",
+    "Tooltip": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldLength": 369
       }
     }
   }

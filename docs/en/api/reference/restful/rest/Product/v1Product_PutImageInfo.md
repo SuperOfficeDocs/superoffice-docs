@@ -96,19 +96,19 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 909,
-  "BlobSize": 432,
-  "Description": "Configurable logistical task-force",
-  "ExtraInfo": "nihil",
+  "BlobId": 608,
+  "BlobSize": 367,
+  "Description": "Visionary even-keeled firmware",
+  "ExtraInfo": "facere",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "voluptatibus",
-  "OriginalSize": 899,
-  "CreatedDate": "2004-04-18T15:29:30.8874835+02:00",
-  "UpdatedDate": "2020-10-12T15:29:30.8874835+02:00",
+  "MimeType": "quia",
+  "OriginalSize": 832,
+  "CreatedDate": "2018-05-31T03:51:34.2396907+02:00",
+  "UpdatedDate": "2008-08-29T03:51:34.2396907+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nam"
+  "ConceptualType": "laborum"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 611,
-  "BlobSize": 490,
-  "Description": "Cloned system-worthy interface",
-  "ExtraInfo": "deleniti",
+  "BlobId": 184,
+  "BlobSize": 492,
+  "Description": "Re-engineered bottom-line software",
+  "ExtraInfo": "ut",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "quasi",
-  "OriginalSize": 273,
-  "CreatedDate": "2013-03-31T15:29:30.8894834+02:00",
-  "UpdatedDate": "2018-10-20T15:29:30.8894834+02:00",
+  "IsZipped": false,
+  "MimeType": "aperiam",
+  "OriginalSize": 750,
+  "CreatedDate": "2008-11-09T03:51:34.2396907+01:00",
+  "UpdatedDate": "2001-06-07T03:51:34.2396907+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iste",
+  "ConceptualType": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 938
+      "FieldLength": 981
     }
   }
 }

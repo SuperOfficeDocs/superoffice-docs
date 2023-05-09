@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetRecipientStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 274
+  "SelectionId": 719
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 459,
-  "ValidPostalAddresses": 224,
-  "ValidEmailAddresses": 270,
-  "ValidFaxNumbers": 197,
-  "NoAddresses": 59,
-  "NoFaxOrEmails": 617,
+  "Total": 144,
+  "ValidPostalAddresses": 126,
+  "ValidEmailAddresses": 90,
+  "ValidFaxNumbers": 719,
+  "NoAddresses": 764,
+  "NoFaxOrEmails": 671,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldType": "System.String",
+      "FieldLength": 766
     }
   }
 }

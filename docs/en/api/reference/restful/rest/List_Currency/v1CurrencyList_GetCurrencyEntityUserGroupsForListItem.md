@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Dickens-Kozey",
-    "ToolTip": "Commodi et odit eius.",
-    "Deleted": true,
-    "Rank": 260,
-    "Type": "rerum",
-    "ColorBlock": 810,
-    "IconHint": "ut",
+    "Id": 398,
+    "Name": "Huels-Bartoletti",
+    "ToolTip": "Et nihil amet qui odio quasi.",
+    "Deleted": false,
+    "Rank": 121,
+    "Type": "reprehenderit",
+    "ColorBlock": 269,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "1998-01-29T15:29:31.2059797+01:00",
+    "LastChanged": "2014-12-04T03:51:34.6458549+01:00",
     "ChildItems": [
       {
-        "Id": 787,
-        "Name": "Glover, Wyman and Kshlerin",
-        "ToolTip": "Odit in atque et maxime repellat et.",
-        "Deleted": true,
-        "Rank": 989,
-        "Type": "voluptas",
-        "ColorBlock": 538,
-        "IconHint": "fuga",
+        "Id": 296,
+        "Name": "Walter, Huel and Larson",
+        "ToolTip": "Ducimus minima non sed rerum ducimus laudantium non.",
+        "Deleted": false,
+        "Rank": 827,
+        "Type": "rerum",
+        "ColorBlock": 343,
+        "IconHint": "optio",
         "Selected": false,
-        "LastChanged": "2018-08-25T15:29:31.2064815+02:00",
+        "LastChanged": "2015-10-24T03:51:34.6458549+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
+        "ExtraInfo": "modi",
         "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Gerhard Runolfsson",
+        "Hidden": false,
+        "FullName": "Giovanny Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 698
+            "FieldLength": 24
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "sint",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Clare Sipes",
+    "FullName": "Prof. Sherwood Casimer Brekke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldLength": 478
       }
     }
   }

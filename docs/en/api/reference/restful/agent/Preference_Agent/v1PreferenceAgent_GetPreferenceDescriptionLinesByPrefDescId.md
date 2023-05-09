@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 638
+  "PrefDescId": 787
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 305,
-    "PrefDescId": 292,
-    "PrefValue": "dolores",
-    "PrefShowValue": "illo",
-    "Description": "Multi-layered even-keeled open system",
-    "IsBuiltin": false,
+    "PrefDescLineId": 103,
+    "PrefDescId": 165,
+    "PrefValue": "doloremque",
+    "PrefShowValue": "quis",
+    "Description": "Organic homogeneous hierarchy",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldLength": 381
       }
     }
   }

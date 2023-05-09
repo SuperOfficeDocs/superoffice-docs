@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 506
+  "TicketEntityId": 255
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 919,
-    "Name": "Conn LLC",
-    "ContentType": "dolor",
-    "AttSize": 805,
+    "AttachmentId": 579,
+    "Name": "Kiehn Inc and Sons",
+    "ContentType": "nam",
+    "AttSize": 470,
     "InlineImage": false,
-    "ContentId": "aspernatur",
+    "ContentId": "non",
     "AuthKey": "accusamus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 815
       }
     }
   }

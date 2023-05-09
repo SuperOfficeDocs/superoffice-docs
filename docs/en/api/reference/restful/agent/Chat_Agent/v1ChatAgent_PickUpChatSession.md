@@ -108,7 +108,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 300
+  "ChatSessionId": 559
 }
 ```
 
@@ -119,43 +119,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 638,
-  "TopicId": 802,
+  "ChatSessionId": 383,
+  "TopicId": 815,
   "User": null,
   "Person": null,
-  "CustomerAlias": "incidunt",
-  "CustomerHost": "vel",
-  "CustomerName": "Schoen, Kessler and Bechtelar",
-  "CustomerEmail": "alexandre@rowebreitenberg.info",
-  "CustomerPhone": "795.883.3600",
+  "CustomerAlias": "fuga",
+  "CustomerHost": "quisquam",
+  "CustomerName": "Runolfsson Group",
+  "CustomerEmail": "felicity.terry@turcotteadams.uk",
+  "CustomerPhone": "875-884-2944",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Little-Auer",
+  "CustomerCompanyName": "Schimmel, Ankunding and Strosin",
   "Status": "Closed",
-  "FirstMessage": "excepturi",
-  "LastMessage": "veniam",
-  "WhenRequested": "2007-06-25T15:29:20.9682864+02:00",
-  "WhenStarted": "2000-06-04T15:29:20.9682864+02:00",
-  "WhenEnded": "2020-09-16T15:29:20.9682864+02:00",
-  "WhenIdle": "2014-10-18T15:29:20.9682864+02:00",
-  "WhenFetched": "1996-05-14T15:29:20.9682864+02:00",
-  "SessionKey": "sint",
-  "InitialQueuePos": 51,
-  "AlertLevel": 78,
-  "Rank": 187,
+  "FirstMessage": "iure",
+  "LastMessage": "voluptate",
+  "WhenRequested": "2000-06-27T03:51:26.7249697+02:00",
+  "WhenStarted": "2011-12-01T03:51:26.7249697+01:00",
+  "WhenEnded": "1996-08-31T03:51:26.7249697+02:00",
+  "WhenIdle": "1998-04-25T03:51:26.7249697+02:00",
+  "WhenFetched": "2021-12-11T03:51:26.7249697+01:00",
+  "SessionKey": "consequatur",
+  "InitialQueuePos": 483,
+  "AlertLevel": 930,
+  "Rank": 277,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 43,
+  "ChatbotIsActive": true,
+  "Rating": 301,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 129
     }
   }
 }

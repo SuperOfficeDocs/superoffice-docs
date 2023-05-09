@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kuvalis Group",
-  "Context": "mollitia"
+  "TableName": "Collins-Jewess",
+  "Context": "voluptatum"
 }
 ```
 
@@ -108,72 +108,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "id",
-    "ValueType": "ut",
+    "Key": "quos",
+    "ValueType": "enim",
     "Mandatory": false,
-    "EncodedDisplayName": "Brekke Group",
-    "EncodedDisplayDescription": "Profound 5th generation access",
-    "IconHint": "sunt",
+    "EncodedDisplayName": "Kertzmann, Stracke and O'Connell",
+    "EncodedDisplayDescription": "Synergized hybrid success",
+    "IconHint": "commodi",
     "ControlInfos": [
       {
-        "Type": "sequi",
-        "Label": "illum",
-        "Dimension": 65,
-        "ListProviderName": "Bechtelar, Bartoletti and Hammes",
-        "ListProviderExtraInfo": "nam",
-        "ListProviderPrimaryKeyName": "Tromp, Ortiz and Lesch",
-        "ListLeadText": "et",
+        "Type": "optio",
+        "Label": "cupiditate",
+        "Dimension": 536,
+        "ListProviderName": "Emard Group",
+        "ListProviderExtraInfo": "laboriosam",
+        "ListProviderPrimaryKeyName": "Deckow-Mraz",
+        "ListLeadText": "cupiditate",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldLength": 980
           }
         }
       }
     ],
-    "EncodedDataCaption": "ea",
-    "EncodedDataCaptionDescription": "Configurable empowering protocol",
-    "CurrentOperationType": "iure",
+    "EncodedDataCaption": "voluptatibus",
+    "EncodedDataCaptionDescription": "Versatile local alliance",
+    "CurrentOperationType": "ut",
     "Values": [
-      "sit",
-      "totam"
+      "et",
+      "ab"
     ],
     "DisplayValues": [
-      "molestiae",
-      "et"
+      "officiis",
+      "perferendis"
     ],
     "OperationInfos": [
       {
-        "Key": "et",
-        "EncodedDisplayName": "Maggio, Wyman and Simonis",
+        "Key": "voluptate",
+        "EncodedDisplayName": "Rogahn, Wyman and Daugherty",
         "EncodedLeadTexts": [
-          "quod",
-          "sint"
+          "itaque",
+          "suscipit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 421
+            "FieldLength": 402
           }
         }
       },
       {
-        "Key": "et",
-        "EncodedDisplayName": "Maggio, Wyman and Simonis",
+        "Key": "voluptate",
+        "EncodedDisplayName": "Rogahn, Wyman and Daugherty",
         "EncodedLeadTexts": [
-          "quod",
-          "sint"
+          "itaque",
+          "suscipit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 421
+            "FieldLength": 402
           }
         }
       }

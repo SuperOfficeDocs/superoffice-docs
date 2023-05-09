@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "MailingsShadowSelectionCombinedV2"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -570,7 +570,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionCombinedV2?$select=mailingAddr/person/personDirectPhone/description,mailingAddr/person/personAssociate/contactName,mailingAddr/person/personAssociate/isActiveText
+GET /api/v1/archive/MailingsShadowSelectionCombinedV2?$select=mailingSubscriptionType,mailingAddr/contact/email/emailDescription,mailingAddr/person/firstName,mailingAddr/person/email/emailDescription,mailingAddr/person/personUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Wiegand, Larson and Lakin",
-    "ToolTip": "Quos vel tempore blanditiis harum.",
+    "Id": 610,
+    "Name": "Simonis-Kihn",
+    "ToolTip": "Sapiente hic doloremque voluptatum qui aliquam dolorem.",
     "Deleted": false,
-    "Rank": 185,
-    "Type": "debitis",
-    "ColorBlock": 475,
-    "IconHint": "enim",
-    "Selected": true,
-    "LastChanged": "2022-06-06T15:29:31.4519762+02:00",
+    "Rank": 183,
+    "Type": "eaque",
+    "ColorBlock": 227,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2021-03-14T03:51:34.833319+01:00",
     "ChildItems": [
       {
-        "Id": 509,
-        "Name": "Pfannerstill Group",
-        "ToolTip": "Enim dolorum qui nesciunt.",
+        "Id": 50,
+        "Name": "Schumm, Farrell and Rempel",
+        "ToolTip": "Cumque animi omnis tenetur quam iure nam et.",
         "Deleted": false,
-        "Rank": 917,
-        "Type": "illo",
-        "ColorBlock": 102,
-        "IconHint": "ea",
+        "Rank": 574,
+        "Type": "illum",
+        "ColorBlock": 731,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2016-08-14T15:29:31.4519762+02:00",
+        "LastChanged": "2019-03-16T03:51:34.833319+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "rerum",
+        "ExtraInfo": "non",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Seamus Block",
+        "FullName": "Meda Dibbert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 479
+            "FieldLength": 450
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "tempore",
+    "ExtraInfo": "non",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Winona Stracke",
+    "FullName": "Gudrun Leannon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 708
       }
     }
   }

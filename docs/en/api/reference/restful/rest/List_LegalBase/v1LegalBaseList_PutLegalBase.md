@@ -83,11 +83,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 267,
-  "Name": "Rutherford-Abshire",
-  "Tooltip": "ipsum",
-  "Rank": 776,
-  "Key": "id",
+  "LegalBaseId": 834,
+  "Name": "Hagenes, Kunze and Morissette",
+  "Tooltip": "autem",
+  "Rank": 228,
+  "Key": "maxime",
   "Deleted": false
 }
 ```
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 506,
-  "Name": "Block-Batz",
-  "Tooltip": "facilis",
-  "Rank": 874,
-  "Key": "architecto",
-  "Deleted": false,
+  "LegalBaseId": 605,
+  "Name": "Huel-Johns",
+  "Tooltip": "corrupti",
+  "Rank": 5,
+  "Key": "unde",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 846
+      "FieldType": "System.String",
+      "FieldLength": 655
     }
   }
 }

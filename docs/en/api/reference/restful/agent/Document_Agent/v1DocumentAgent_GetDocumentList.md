@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,32 +99,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 374,
-    "Attention": "debitis",
-    "Header": "asperiores",
-    "Name": "Lubowitz, Kemmer and Goldner",
-    "OurRef": "consectetur",
-    "YourRef": "aut",
-    "Description": "Networked clear-thinking knowledge user",
-    "DocumentTemplate": "quibusdam",
+    "DocumentId": 875,
+    "Attention": "amet",
+    "Header": "excepturi",
+    "Name": "Leuschke, Watsica and Jewess",
+    "OurRef": "vero",
+    "YourRef": "porro",
+    "Description": "User-friendly bi-directional ability",
+    "DocumentTemplate": "possimus",
     "IsPublished": true,
-    "PersonId": 237,
-    "PersonFullName": "Davin Wisozk",
-    "AssociateFullName": "Danika King",
-    "ContactId": 690,
-    "ContactName": "Bergnaum, Kunde and Little",
-    "ProjectId": 662,
-    "ProjectName": "Hills-Kuhic",
-    "AssociateId": 168,
-    "Snum": 947,
-    "SaleId": 702,
-    "SaleName": "Hand Group",
+    "PersonId": 236,
+    "PersonFullName": "Ozella Botsford III",
+    "AssociateFullName": "Conor Alison Auer IV",
+    "ContactId": 943,
+    "ContactName": "Feeney-Roberts",
+    "ProjectId": 177,
+    "ProjectName": "Mueller, Purdy and Prosacco",
+    "AssociateId": 23,
+    "Snum": 411,
+    "SaleId": 716,
+    "SaleName": "Haag LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldType": "System.String",
+        "FieldLength": 133
       }
     }
   }

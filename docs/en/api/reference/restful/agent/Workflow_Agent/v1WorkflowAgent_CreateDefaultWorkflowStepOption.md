@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,24 +72,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 664,
-  "WorkflowStepId": 804,
-  "WorkflowId": 826,
-  "Key": "a",
-  "Name": "Hudson, Brakus and Welch",
-  "Rank": 61,
+  "WorkflowStepOptionId": 635,
+  "WorkflowStepId": 728,
+  "WorkflowId": 842,
+  "Key": "molestiae",
+  "Name": "Stanton, Smitham and Kozey",
+  "Rank": 900,
   "Steps": [
     {
-      "WorkflowStepId": 787,
-      "WorkflowId": 710,
+      "WorkflowStepId": 85,
+      "WorkflowId": 944,
       "StepType": "AddToList",
-      "Rank": 56
+      "Rank": 482
     },
     {
-      "WorkflowStepId": 787,
-      "WorkflowId": 710,
+      "WorkflowStepId": 85,
+      "WorkflowId": 944,
       "StepType": "AddToList",
-      "Rank": 56
+      "Rank": 482
     }
   ],
   "TableRight": null,
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 264
     }
   }
 }

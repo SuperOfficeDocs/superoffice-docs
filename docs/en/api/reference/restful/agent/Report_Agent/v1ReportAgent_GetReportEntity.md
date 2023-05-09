@@ -25,7 +25,7 @@ Gets a ReportEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=210
+POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=732
 POST /api/v1/Agents/Report/GetReportEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Report/GetReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 29,
+  "ReportId": 979,
   "ReportCategory": "All",
-  "Description": "Profit-focused high-level matrices",
+  "Description": "Quality-focused assymetric protocol",
   "ReportLayout": "CalendarMonth",
-  "Name": "Dare Inc and Sons",
-  "AssociateId": 465,
-  "TemplateId": 570,
-  "Published": true,
+  "Name": "Eichmann, Conroy and Osinski",
+  "AssociateId": 557,
+  "TemplateId": 893,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldType": "System.String",
+      "FieldLength": 202
     }
   }
 }

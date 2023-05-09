@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 338,
-    "Name": "Rice-Morissette",
-    "ToolTip": "Aut quisquam.",
+    "Id": 582,
+    "Name": "Feeney, Kulas and Konopelski",
+    "ToolTip": "Tempora est porro non.",
     "Deleted": false,
-    "Rank": 443,
-    "Type": "voluptatem",
-    "ColorBlock": 52,
-    "IconHint": "quia",
+    "Rank": 938,
+    "Type": "magni",
+    "ColorBlock": 800,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "1998-04-29T15:29:31.1009784+02:00",
+    "LastChanged": "2002-01-18T03:51:34.505269+01:00",
     "ChildItems": [
       {
-        "Id": 562,
-        "Name": "Hayes LLC",
-        "ToolTip": "Tenetur assumenda saepe nobis ab quis neque.",
+        "Id": 966,
+        "Name": "Bernier, Davis and Mosciski",
+        "ToolTip": "Dolorem culpa.",
         "Deleted": false,
-        "Rank": 763,
-        "Type": "veritatis",
-        "ColorBlock": 808,
-        "IconHint": "mollitia",
+        "Rank": 819,
+        "Type": "placeat",
+        "ColorBlock": 112,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2015-02-17T15:29:31.1009784+01:00",
+        "LastChanged": "2011-06-14T03:51:34.5208913+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "laborum",
-        "Hidden": true,
-        "FullName": "Alexandria Heidenreich"
+        "ExtraInfo": "mollitia",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Cornelius Turcotte"
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "earum",
+    "ExtraInfo": "est",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Wendy Sharon Rath III"
+    "FullName": "Bethany Bechtelar"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Murphy-Ferry",
-    "ToolTip": "Rerum iure.",
+    "Id": 417,
+    "Name": "Rath LLC",
+    "ToolTip": "Minima labore eum unde labore dolore rem.",
     "Deleted": false,
-    "Rank": 918,
-    "Type": "ut",
-    "ColorBlock": 409,
-    "IconHint": "nostrum",
+    "Rank": 633,
+    "Type": "officiis",
+    "ColorBlock": 107,
+    "IconHint": "cumque",
     "Selected": false,
-    "LastChanged": "2013-04-20T15:29:31.1029786+02:00",
+    "LastChanged": "2019-12-11T03:51:34.5365055+01:00",
     "ChildItems": [
       {
-        "Id": 963,
-        "Name": "Schimmel-Lockman",
-        "ToolTip": "Harum cupiditate.",
+        "Id": 596,
+        "Name": "Medhurst-Howe",
+        "ToolTip": "Expedita quis.",
         "Deleted": true,
-        "Rank": 451,
-        "Type": "voluptatem",
-        "ColorBlock": 88,
-        "IconHint": "porro",
-        "Selected": true,
-        "LastChanged": "2007-04-08T15:29:31.1029786+02:00",
+        "Rank": 435,
+        "Type": "dicta",
+        "ColorBlock": 96,
+        "IconHint": "fugiat",
+        "Selected": false,
+        "LastChanged": "2011-06-10T03:51:34.5521277+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "quos",
-        "Hidden": true,
-        "FullName": "Mary Tina Hansen IV",
+        "ExtraInfo": "natus",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Kiel Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 27
+            "FieldLength": 276
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "eveniet",
-    "Hidden": true,
-    "FullName": "Ms. Cyril Schmidt",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Delta Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldLength": 391
       }
     }
   }

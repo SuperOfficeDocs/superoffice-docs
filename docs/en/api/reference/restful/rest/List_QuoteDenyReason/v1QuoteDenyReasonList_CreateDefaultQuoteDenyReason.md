@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 487,
-  "Name": "Fahey Inc and Sons",
-  "Tooltip": "corporis",
+  "Id": 282,
+  "Name": "Satterfield-Prohaska",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 819,
-  "Rank": 579,
+  "UdListDefinitionId": 674,
+  "Rank": 839,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldLength": 552
     }
   }
 }

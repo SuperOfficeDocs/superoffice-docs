@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Jacobs-Smitham",
-    "ToolTip": "Et nostrum qui inventore.",
+    "Id": 140,
+    "Name": "Lynch Group",
+    "ToolTip": "Ut nisi quasi ut officiis accusamus.",
     "Deleted": true,
-    "Rank": 361,
-    "Type": "consequatur",
-    "ColorBlock": 193,
-    "IconHint": "totam",
-    "Selected": true,
-    "LastChanged": "1997-10-31T15:29:31.2279804+01:00",
+    "Rank": 677,
+    "Type": "iste",
+    "ColorBlock": 61,
+    "IconHint": "labore",
+    "Selected": false,
+    "LastChanged": "1999-03-31T03:51:34.6614813+02:00",
     "ChildItems": [
       {
-        "Id": 648,
-        "Name": "Macejkovic LLC",
-        "ToolTip": "Optio voluptatem et commodi unde.",
+        "Id": 644,
+        "Name": "Kub, Gerlach and Monahan",
+        "ToolTip": "Commodi deserunt consequuntur nihil tempora accusamus aliquid debitis.",
         "Deleted": false,
-        "Rank": 477,
-        "Type": "rerum",
-        "ColorBlock": 795,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2011-12-19T15:29:31.2279804+01:00",
+        "Rank": 780,
+        "Type": "similique",
+        "ColorBlock": 426,
+        "IconHint": "voluptates",
+        "Selected": false,
+        "LastChanged": "2004-03-02T03:51:34.6614813+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "odio",
+        "ExtraInfo": "quidem",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Mr. Tito Matilde Kuhn I",
+        "FullName": "Gust Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 855
+            "FieldType": "System.String",
+            "FieldLength": 199
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "quos",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mr. Earlene Ziemann DDS",
+    "FullName": "Ms. Jacynthe Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldType": "System.String",
+        "FieldLength": 280
       }
     }
   }

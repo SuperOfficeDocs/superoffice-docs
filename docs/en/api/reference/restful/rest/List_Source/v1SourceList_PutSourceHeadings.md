@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 952,
-    "Name": "Christiansen, Carroll and Paucek",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 365,
-    "UdListDefinitionId": 666
+    "HeadingId": 76,
+    "Name": "Hintz Inc and Sons",
+    "Tooltip": "asperiores",
+    "Deleted": true,
+    "Rank": 46,
+    "UdListDefinitionId": 392
   },
   {
-    "HeadingId": 952,
-    "Name": "Christiansen, Carroll and Paucek",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 365,
-    "UdListDefinitionId": 666
+    "HeadingId": 76,
+    "Name": "Hintz Inc and Sons",
+    "Tooltip": "asperiores",
+    "Deleted": true,
+    "Rank": 46,
+    "UdListDefinitionId": 392
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 514,
-    "Name": "King-Johns",
-    "Tooltip": "voluptatem",
+    "HeadingId": 169,
+    "Name": "Leuschke LLC",
+    "Tooltip": "natus",
     "Deleted": false,
-    "Rank": 423,
-    "UdListDefinitionId": 509,
+    "Rank": 852,
+    "UdListDefinitionId": 822,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldType": "System.String",
+        "FieldLength": 783
       }
     }
   }

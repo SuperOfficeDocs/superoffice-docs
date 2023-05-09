@@ -111,7 +111,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,62 +119,62 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-04-15T15:29:29.2327064+02:00",
-  "AppointmentId": 497,
-  "Description": "Extended exuding application",
-  "StartDate": "2017-12-07T15:29:29.2327064+01:00",
-  "EndDate": "2022-03-03T15:29:29.2327064+01:00",
+  "CreatedDate": "2017-06-11T03:51:33.0835907+02:00",
+  "AppointmentId": 466,
+  "Description": "Function-based tertiary analyzer",
+  "StartDate": "2011-04-30T03:51:33.0835907+02:00",
+  "EndDate": "2016-12-24T03:51:33.0835907+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 714,
+  "MotherId": 705,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-12-20T15:29:29.2362143+01:00",
+  "UpdatedDate": "2007-05-30T03:51:33.0992097+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 216,
+  "ActiveLinks": 652,
   "Links": [
     {
-      "EntityName": "Rohan, Stamm and Pfeffer",
-      "Id": 470,
-      "Description": "Right-sized optimal contingency",
-      "ExtraInfo": "animi",
-      "LinkId": 480
+      "EntityName": "Kutch Inc and Sons",
+      "Id": 957,
+      "Description": "Cross-platform reciprocal hub",
+      "ExtraInfo": "inventore",
+      "LinkId": 430
     },
     {
-      "EntityName": "Rohan, Stamm and Pfeffer",
-      "Id": 470,
-      "Description": "Right-sized optimal contingency",
-      "ExtraInfo": "animi",
-      "LinkId": 480
+      "EntityName": "Kutch Inc and Sons",
+      "Id": 957,
+      "Description": "Cross-platform reciprocal hub",
+      "ExtraInfo": "inventore",
+      "LinkId": 430
     }
   ],
-  "AlarmLeadTime": "odit",
-  "HasAlarm": false,
-  "ColorIndex": 583,
+  "AlarmLeadTime": "explicabo",
+  "HasAlarm": true,
+  "ColorIndex": 720,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "quod",
-  "Location": "ad",
-  "RejectCounter": 264,
+  "LagTime": "aut",
+  "LeadTime": "voluptatem",
+  "Location": "atque",
+  "RejectCounter": 10,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 258,
-      "PersonId": 575,
-      "ContactId": 962,
-      "EmailId": 421,
+      "AssociateId": 868,
+      "PersonId": 959,
+      "ContactId": 346,
+      "EmailId": 171,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 258,
-      "PersonId": 575,
-      "ContactId": 962,
-      "EmailId": 421,
+      "AssociateId": 868,
+      "PersonId": 959,
+      "ContactId": 346,
+      "EmailId": 171,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -182,44 +182,44 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-03-04T15:29:29.2367059+01:00",
+  "ActiveDate": "2004-06-03T03:51:33.0992097+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 829,
+  "PreferredTZLocation": 148,
   "Sale": null,
-  "SuggestedAppointmentId": 622,
+  "SuggestedAppointmentId": 548,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eos",
+  "CentralserviceVideomeetId": "sequi",
   "UserDefinedFields": {
-    "SuperOffice:1": "Bailey Marquardt Jr.",
-    "SuperOffice:2": "Miss Craig Neil Kessler Sr."
+    "SuperOffice:1": "Mr. Bert Ryan",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "veniam"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "est",
+    "CustomFields2": "consequatur"
   },
-  "PublishEventDate": "2007-07-19T15:29:29.2382085+02:00",
-  "PublishTo": "2015-01-26T15:29:29.2382085+01:00",
-  "PublishFrom": "2022-04-19T15:29:29.2382085+02:00",
+  "PublishEventDate": "2020-08-24T03:51:33.0992097+02:00",
+  "PublishTo": "2014-02-06T03:51:33.0992097+01:00",
+  "PublishFrom": "2010-03-02T03:51:33.0992097+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 911,
+      "VisibleId": 613,
       "Visibility": "All",
-      "DisplayValue": "laborum"
+      "DisplayValue": "enim"
     },
     {
-      "VisibleId": 911,
+      "VisibleId": 613,
       "Visibility": "All",
-      "DisplayValue": "laborum"
+      "DisplayValue": "enim"
     }
   ]
 }
@@ -232,7 +232,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "veritatis",
-  "2": "veritatis"
+  "1": "at",
+  "2": "deserunt"
 }
 ```

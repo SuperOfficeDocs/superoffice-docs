@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 733,
-    "Name": "Jenkins-Jacobson",
-    "ToolTip": "Autem eum vel earum labore rerum ratione.",
-    "Deleted": false,
-    "Rank": 123,
-    "Type": "omnis",
-    "ColorBlock": 511,
-    "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "2006-02-21T15:29:31.2834822+01:00",
+    "Id": 727,
+    "Name": "Lockman, Schuster and Schaefer",
+    "ToolTip": "Debitis quidem voluptate rerum.",
+    "Deleted": true,
+    "Rank": 678,
+    "Type": "ut",
+    "ColorBlock": 339,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2000-03-30T03:51:34.7083411+02:00",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Smitham, Sauer and Rempel",
-        "ToolTip": "Optio sunt maiores itaque.",
+        "Id": 577,
+        "Name": "Dickinson Group",
+        "ToolTip": "Atque provident et laudantium repudiandae error officia.",
         "Deleted": false,
-        "Rank": 644,
-        "Type": "magni",
-        "ColorBlock": 557,
-        "IconHint": "maxime",
+        "Rank": 161,
+        "Type": "ad",
+        "ColorBlock": 941,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2002-10-06T15:29:31.2834822+02:00",
+        "LastChanged": "2002-11-24T03:51:34.7083411+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "sequi",
         "Hidden": true,
-        "FullName": "Juston Breitenberg"
+        "FullName": "Dr. Viviane Emely Gottlieb"
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "at",
     "Hidden": true,
-    "FullName": "Kayleigh Hegmann"
+    "FullName": "Ms. Zakary Lemke"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Mueller, Heidenreich and Dibbert",
-    "ToolTip": "Nostrum aut exercitationem ut corporis quos numquam.",
-    "Deleted": false,
-    "Rank": 181,
-    "Type": "dolore",
-    "ColorBlock": 477,
-    "IconHint": "occaecati",
-    "Selected": true,
-    "LastChanged": "2012-12-26T15:29:31.2849868+01:00",
+    "Id": 366,
+    "Name": "Boehm-Eichmann",
+    "ToolTip": "Iusto aut.",
+    "Deleted": true,
+    "Rank": 540,
+    "Type": "qui",
+    "ColorBlock": 386,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2015-12-10T03:51:34.7083411+01:00",
     "ChildItems": [
       {
-        "Id": 301,
-        "Name": "Nolan, Lang and Emmerich",
-        "ToolTip": "Et consequatur at aut expedita.",
-        "Deleted": false,
-        "Rank": 314,
-        "Type": "soluta",
-        "ColorBlock": 800,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2002-09-23T15:29:31.2849868+02:00",
+        "Id": 176,
+        "Name": "Tremblay LLC",
+        "ToolTip": "Totam sit ut libero.",
+        "Deleted": true,
+        "Rank": 989,
+        "Type": "reprehenderit",
+        "ColorBlock": 421,
+        "IconHint": "veniam",
+        "Selected": true,
+        "LastChanged": "2019-04-11T03:51:34.7083411+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "et",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Johnpaul Foster Davis III",
+        "FullName": "Larue Cruickshank",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 285
+            "FieldType": "System.String",
+            "FieldLength": 283
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "vitae",
-    "Hidden": true,
-    "FullName": "Ms. Jensen Rupert Rohan MD",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "nulla",
+    "Hidden": false,
+    "FullName": "Price Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 702
+        "FieldType": "System.Int32",
+        "FieldLength": 791
       }
     }
   }

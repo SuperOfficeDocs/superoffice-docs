@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 75,
-  "Name": "Daniel Group",
-  "Tooltip": "mollitia",
+  "Id": 141,
+  "Name": "Haley, Lubowitz and Lubowitz",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 884,
-  "IsCustomList": true,
+  "Rank": 375,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "debitis",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "eos",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 407,
-  "Name": "Kautzer-O'Hara",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 165,
+  "Id": 420,
+  "Name": "Gerhold, Feil and Zieme",
+  "Tooltip": "aspernatur",
+  "Deleted": true,
+  "Rank": 645,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "hic",
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 994
+      "FieldLength": 721
     }
   }
 }

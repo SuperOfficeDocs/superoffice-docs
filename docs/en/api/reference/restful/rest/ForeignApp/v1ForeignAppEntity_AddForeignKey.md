@@ -82,18 +82,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "necessitatibus",
-  "RecordId": 423,
-  "CreatedDate": "2013-01-16T15:29:29.7781985+01:00",
-  "UpdatedDate": "2009-05-04T15:29:29.7781985+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "accusamus",
-  "TableName": "Schamberger, Kshlerin and Lynch"
+  "Key": "autem",
+  "Value": "corporis",
+  "RecordId": 955,
+  "CreatedDate": "2010-11-02T03:51:33.6928335+01:00",
+  "UpdatedDate": "1996-01-01T03:51:33.6928335+01:00",
+  "UpdatedBy": "aliquam",
+  "CreatedBy": "aut",
+  "TableName": "Greenholt, Lang and Sporer"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dicta",
-  "Value": "est",
-  "RecordId": 455,
-  "CreatedDate": "2013-03-13T15:29:29.7786963+01:00",
-  "UpdatedDate": "2006-12-22T15:29:29.7786963+01:00",
-  "UpdatedBy": "suscipit",
-  "CreatedBy": "delectus",
-  "TableName": "Fahey-Sawayn",
+  "Key": "ut",
+  "Value": "saepe",
+  "RecordId": 979,
+  "CreatedDate": "1997-01-23T03:51:33.6928335+01:00",
+  "UpdatedDate": "2006-07-20T03:51:33.6928335+02:00",
+  "UpdatedBy": "autem",
+  "CreatedBy": "cum",
+  "TableName": "Lowe-Ryan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldType": "System.String",
+      "FieldLength": 718
     }
   }
 }

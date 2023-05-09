@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 405,
-  "EmailAddress": "ronaldo@reingerswaniawski.ca",
+  "PersonId": 317,
+  "EmailAddress": "marielle@bernhard.us",
   "SetAsPrimaryEmail": false
 }
 ```

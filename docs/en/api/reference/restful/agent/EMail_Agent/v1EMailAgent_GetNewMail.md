@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    171,
-    71
+    548,
+    829
   ]
 }
 ```
@@ -102,45 +102,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 67,
-    "MessageId": "voluptates",
-    "Subject": "eius",
+    "ServerId": 535,
+    "MessageId": "sed",
+    "Subject": "blanditiis",
     "From": null,
     "To": [
       {
-        "ContactId": 241,
-        "ContactName": "McKenzie-McLaughlin",
-        "PersonId": 245,
-        "PersonName": "Murazik LLC",
-        "AssociateId": 70,
-        "Address": "at",
-        "EmailId": 678,
+        "ContactId": 814,
+        "ContactName": "Parker, Bergnaum and Klocko",
+        "PersonId": 965,
+        "PersonName": "Turcotte, Stanton and Lang",
+        "AssociateId": 586,
+        "Address": "vel",
+        "EmailId": 653,
         "DuplicatePersonIds": [
-          511,
-          559
+          60,
+          193
         ],
-        "Name": "Cremin Group",
+        "Name": "Lueilwitz, Keeling and Wintheiser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 134
+            "FieldType": "System.String",
+            "FieldLength": 127
           }
         }
       }
     ],
-    "Sent": "2007-12-30T15:29:21.6933125+01:00",
+    "Sent": "2009-01-19T03:51:27.1623664+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 673,
+    "Size": 547,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 192
+        "FieldType": "System.String",
+        "FieldLength": 731
       }
     }
   }

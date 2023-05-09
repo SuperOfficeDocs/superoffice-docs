@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2013-02-04T15:29:21.1027846+01:00",
+  "ActivityStartTime": "2019-07-04T03:51:26.8343195+02:00",
   "ContactCategories": [
-    857,
-    32
+    661,
+    438
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -110,26 +110,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 920,
+    "ContactId": 693,
     "Department": "",
-    "OrgNr": "1190068",
-    "Name": "Cremin, VonRueden and Nicolas",
+    "OrgNr": "1418562",
+    "Name": "Hauck, Cummerata and Jewess",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Grover Gibson",
+    "AssociateFullName": "Mrs. Mary Ward Sawayn",
     "Action": "ActivityCompleted",
-    "ActionTime": "2019-08-31T15:29:21.1032846+02:00",
+    "ActionTime": "2021-07-17T03:51:26.8343195+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Rogahn, Abshire and Romaguera",
-    "ActionId": 438,
-    "PersonId": 50,
-    "ActivityPersonId": 974,
-    "AssociateId": 927,
+    "ActivityPersonName": "Stroman, Wiza and Ortiz",
+    "ActionId": 580,
+    "PersonId": 998,
+    "ActivityPersonId": 788,
+    "AssociateId": 890,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 983
       }
     }
   }

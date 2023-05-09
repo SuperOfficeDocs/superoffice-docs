@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "DocumentQuoteLineInnerData"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -246,7 +246,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/extraField1,alternative/version/quote/registeredDate,alternative/version/quote/sale/associate/otherGroups
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/approvalRegisteredBy,alternative/version/quote/connection/erpConnection/active,alternative/version/number
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

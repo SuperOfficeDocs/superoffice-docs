@@ -114,30 +114,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 375,
-  "Name": "Collier, Klocko and Rippin",
-  "AssociateId": 367,
-  "DetailsTable": 785,
-  "DetailsRecord": 527,
+  "Id": 173,
+  "Name": "Ernser Group",
+  "AssociateId": 877,
+  "DetailsTable": 103,
+  "DetailsRecord": 938,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "esse",
-    "ParameterObject2": "qui"
+    "ParameterObject1": "voluptatem",
+    "ParameterObject2": "eaque"
   },
-  "LastStarted": "2011-08-02T15:29:30.8094865+02:00",
-  "Created": "2021-09-20T15:29:30.8094865+02:00",
-  "StartCount": 216,
-  "DatabaseSerialNumber": "1300386",
-  "Context": "a",
-  "Result": "et",
+  "LastStarted": "2018-03-23T03:51:34.1772068+01:00",
+  "Created": "2014-09-11T03:51:34.1772068+02:00",
+  "StartCount": 38,
+  "DatabaseSerialNumber": "298559",
+  "Context": "ipsum",
+  "Result": "earum",
   "State": "All",
-  "Description": "Enhanced stable process improvement",
-  "Response": "quasi",
-  "Request": "pariatur",
-  "ProgressDescription": "Face to face demand-driven framework",
-  "ProgressPercent": 891,
-  "FileName": "Mayer, Klein and Quigley",
+  "Description": "Optional stable framework",
+  "Response": "hic",
+  "Request": "consequuntur",
+  "ProgressDescription": "Sharable needs-based methodology",
+  "ProgressPercent": 894,
+  "FileName": "Howell, Kirlin and Crooks",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -149,37 +149,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 57,
-  "Name": "Jakubowski-Graham",
-  "AssociateId": 56,
-  "DetailsTable": 115,
-  "DetailsRecord": 820,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 916,
+  "Name": "Upton-Dooley",
+  "AssociateId": 160,
+  "DetailsTable": 935,
+  "DetailsRecord": 849,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ea",
-    "ParameterObject2": "atque"
+    "ParameterObject1": "nemo",
+    "ParameterObject2": "soluta"
   },
-  "LastStarted": "2000-11-08T15:29:30.8099851+01:00",
-  "Created": "2009-09-08T15:29:30.8099851+02:00",
-  "StartCount": 591,
-  "DatabaseSerialNumber": "1947535",
-  "Context": "ea",
-  "Result": "quisquam",
+  "LastStarted": "2009-05-10T03:51:34.1772068+02:00",
+  "Created": "1999-03-19T03:51:34.1772068+01:00",
+  "StartCount": 27,
+  "DatabaseSerialNumber": "1107995",
+  "Context": "sequi",
+  "Result": "est",
   "State": "All",
-  "Description": "User-centric background open system",
-  "Response": "soluta",
-  "Request": "sit",
-  "ProgressDescription": "Configurable fresh-thinking task-force",
-  "ProgressPercent": 677,
-  "FileName": "Boehm-Fahey",
+  "Description": "Down-sized background service-desk",
+  "Response": "id",
+  "Request": "quia",
+  "ProgressDescription": "Re-engineered 24 hour infrastructure",
+  "ProgressPercent": 244,
+  "FileName": "Kuphal Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldType": "System.Int32",
+      "FieldLength": 426
     }
   }
 }

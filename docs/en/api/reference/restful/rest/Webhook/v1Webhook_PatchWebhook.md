@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "nemo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "nemo",
     "value": {}
   }
 ]
@@ -144,30 +144,30 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 5,
-  "Name": "Moen-Barton",
+  "WebhookId": 135,
+  "Name": "Reynolds Inc and Sons",
   "Events": [
-    "ut",
-    "laudantium"
+    "quia",
+    "non"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dolores",
+  "Secret": "non",
   "State": "Active",
-  "Type": "quidem",
+  "Type": "sed",
   "Headers": {
-    "Headers1": "labore",
-    "Headers2": "eos"
+    "Headers1": "commodi",
+    "Headers2": "modi"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2012-05-07T15:29:31.0249469+02:00",
+  "Registered": "2009-05-04T03:51:34.3490406+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-10-18T15:29:31.0249469+02:00",
+  "Updated": "2000-02-29T03:51:34.3490406+01:00",
   "UpdatedAssociate": null,
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

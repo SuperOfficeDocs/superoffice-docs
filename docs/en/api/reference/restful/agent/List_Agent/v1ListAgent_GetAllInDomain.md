@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 393,
+    "HierarchyId": 330,
     "Domain": "Dashboards",
-    "Name": "Baumbach-Padberg",
-    "Fullname": "sit",
-    "ParentId": 6,
+    "Name": "Connelly Inc and Sons",
+    "Fullname": "est",
+    "ParentId": 523,
     "Children": [
       {
-        "HierarchyId": 288,
+        "HierarchyId": 179,
         "Domain": "Dashboards",
-        "Name": "Parker-Ortiz",
-        "Fullname": "consequatur",
-        "ParentId": 592,
+        "Name": "Boyer, Lindgren and Rempel",
+        "Fullname": "pariatur",
+        "ParentId": 629,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2019-05-17T15:29:22.071271+02:00",
-        "RegisteredAssociateId": 796,
-        "Updated": "1998-12-07T15:29:22.071271+01:00",
-        "UpdatedAssociateId": 307,
+        "Registered": "2000-07-30T03:51:27.4591714+02:00",
+        "RegisteredAssociateId": 395,
+        "Updated": "2010-01-15T03:51:27.4591714+01:00",
+        "UpdatedAssociateId": 655,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 469
+            "FieldType": "System.String",
+            "FieldLength": 462
           }
         }
       }
     ],
-    "Registered": "2020-01-31T15:29:22.071271+01:00",
-    "RegisteredAssociateId": 724,
-    "Updated": "2020-11-25T15:29:22.071271+01:00",
-    "UpdatedAssociateId": 545,
+    "Registered": "2007-10-16T03:51:27.4591714+02:00",
+    "RegisteredAssociateId": 339,
+    "Updated": "2019-07-28T03:51:27.4591714+02:00",
+    "UpdatedAssociateId": 140,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldLength": 520
       }
     }
   }

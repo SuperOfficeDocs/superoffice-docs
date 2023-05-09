@@ -97,7 +97,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 45,
-  "ColumnId": 465,
-  "FieldDefault": "sapiente",
-  "FieldHeight": 752,
-  "FieldLabel": "consequuntur",
-  "FieldLeft": 610,
-  "FieldTop": 776,
+  "UDefFieldId": 106,
+  "ColumnId": 186,
+  "FieldDefault": "doloribus",
+  "FieldHeight": 264,
+  "FieldLabel": "sint",
+  "FieldLeft": 621,
+  "FieldTop": 201,
   "FieldType": "Checkbox",
-  "FieldWidth": 497,
-  "FormatMask": "at",
+  "FieldWidth": 265,
+  "FormatMask": "officiis",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 765,
-  "LabelLeft": 365,
-  "LabelTop": 692,
-  "LabelWidth": 233,
-  "LastVersionId": 701,
-  "ListTableId": 373,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 488,
+  "LabelLeft": 745,
+  "LabelTop": 427,
+  "LabelWidth": 484,
+  "LastVersionId": 780,
+  "ListTableId": 119,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 556,
-  "ProgId": "dicta",
+  "Page1LineNo": 149,
+  "ProgId": "repellat",
   "IsReadOnly": true,
-  "ShortLabel": "facilis",
-  "TabOrder": 624,
-  "TextLength": 637,
-  "Tooltip": "maiores",
-  "UdefIdentity": 189,
-  "UDListDefinitionId": 582,
+  "ShortLabel": "iure",
+  "TabOrder": 87,
+  "TextLength": 347,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 908,
+  "UDListDefinitionId": 604,
   "Justification": "Center",
-  "Version": 561,
-  "TemplateVariableName": "Zboncak LLC",
+  "Version": 762,
+  "TemplateVariableName": "O'Connell-Robel",
   "HasBeenPublished": true,
-  "MdoListName": "Kuvalis Inc and Sons",
+  "MdoListName": "Altenwerth-Abernathy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 735
+      "FieldType": "System.Int32",
+      "FieldLength": 297
     }
   }
 }

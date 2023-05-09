@@ -98,29 +98,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Tillman Inc and Sons",
-  "Comment": "numquam",
-  "StakeholderRoleId": 170,
-  "CountryId": 184,
-  "PersonId": 589,
-  "EmailDescription": "emery@mann.com",
-  "EmailId": 380,
-  "EmailAddress": "michele_mohr@mcdermottcorwin.us",
-  "PhoneId": 270,
-  "ContactName": "Cummings, Powlowski and Schamberger",
-  "ContactId": 282,
-  "SaleId": 680,
-  "Mrmrs": "beatae",
-  "Firstname": "Liliane",
-  "MiddleName": "Becker Inc and Sons",
-  "Lastname": "Kris",
-  "SaleStakeholderId": 622,
-  "Rank": 906,
-  "Phone": "309.051.6028"
+  "StakeholderRoleName": "Satterfield-Beatty",
+  "Comment": "dolores",
+  "StakeholderRoleId": 493,
+  "CountryId": 273,
+  "PersonId": 988,
+  "EmailDescription": "green@boyer.uk",
+  "EmailId": 40,
+  "EmailAddress": "rosalia.boyle@jakubowski.us",
+  "PhoneId": 601,
+  "ContactName": "Blick Group",
+  "ContactId": 933,
+  "SaleId": 746,
+  "Mrmrs": "id",
+  "Firstname": "Zion",
+  "MiddleName": "Walsh-Kutch",
+  "Lastname": "Turner",
+  "SaleStakeholderId": 836,
+  "Rank": 237,
+  "Phone": "(754)218-2692 x7102"
 }
 ```
 
@@ -131,31 +131,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Koelpin LLC",
-  "Comment": "aut",
-  "StakeholderRoleId": 89,
-  "CountryId": 466,
-  "PersonId": 220,
-  "EmailDescription": "miller@lefflerpfeffer.co.uk",
-  "EmailId": 977,
-  "EmailAddress": "myah.cremin@beier.uk",
-  "PhoneId": 53,
-  "ContactName": "Hoppe-Effertz",
-  "ContactId": 527,
-  "SaleId": 846,
-  "Mrmrs": "a",
-  "Firstname": "Neva",
-  "MiddleName": "Renner, Abernathy and Schamberger",
-  "Lastname": "Schroeder",
-  "SaleStakeholderId": 524,
-  "Rank": 925,
-  "Phone": "824.505.9396 x611",
+  "StakeholderRoleName": "Kuvalis LLC",
+  "Comment": "dolores",
+  "StakeholderRoleId": 294,
+  "CountryId": 679,
+  "PersonId": 165,
+  "EmailDescription": "trystan@langosh.biz",
+  "EmailId": 745,
+  "EmailAddress": "dante@naderskiles.co.uk",
+  "PhoneId": 611,
+  "ContactName": "Leuschke Inc and Sons",
+  "ContactId": 710,
+  "SaleId": 663,
+  "Mrmrs": "dolor",
+  "Firstname": "Mervin",
+  "MiddleName": "Goldner LLC",
+  "Lastname": "Koelpin",
+  "SaleStakeholderId": 934,
+  "Rank": 530,
+  "Phone": "587-739-1763 x080",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 94
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   }
 }

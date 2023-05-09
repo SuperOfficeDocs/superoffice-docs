@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 98
+  "ProjectId": 438
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Integrated bi-directional access",
-  "Postit": "aut",
+  "Description": "Grass-roots static workforce",
+  "Postit": "quia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 55,
-  "IncludePerson": 178,
-  "MemberCount": 237,
-  "Name": "Stehr, Reynolds and Cummings",
-  "PostitTextId": 12,
-  "CreatedDate": "2006-04-16T15:29:22.7982967+02:00",
-  "SelectionId": 850,
-  "SoundEx": "deleniti",
-  "Source": 18,
-  "TextId": 843,
-  "UpdatedDate": "2008-04-07T15:29:22.7982967+02:00",
-  "UpdatedCount": 184,
-  "Visibility": 592,
+  "GroupIdx": 836,
+  "IncludePerson": 216,
+  "MemberCount": 720,
+  "Name": "Rice-Ratke",
+  "PostitTextId": 465,
+  "CreatedDate": "1996-01-16T03:51:28.1777523+01:00",
+  "SelectionId": 386,
+  "SoundEx": "odio",
+  "Source": 746,
+  "TextId": 760,
+  "UpdatedDate": "2008-09-05T03:51:28.1777523+02:00",
+  "UpdatedCount": 880,
+  "Visibility": 970,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 143,
-  "TargetTableName": "Lang-Feest",
-  "Completed": true,
-  "LeftSelectionId": 577,
-  "RightSelectionId": 381,
+  "CompanyUnique": true,
+  "TargetTableNumber": 456,
+  "TargetTableName": "Corkery Group",
+  "Completed": false,
+  "LeftSelectionId": 764,
+  "RightSelectionId": 830,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Osinski-Considine",
-  "ShadowProviderName": "Bayer, Sipes and Weber",
-  "ChartKey": "nam",
-  "LastLoaded": "2018-07-13T15:29:22.7982967+02:00",
-  "LastLoadedBy": 622,
+  "MainProviderName": "Brown Inc and Sons",
+  "ShadowProviderName": "Rutherford, Schulist and Lakin",
+  "ChartKey": "inventore",
+  "LastLoaded": "2009-10-15T03:51:28.1777523+02:00",
+  "LastLoadedBy": 237,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-12-11T15:29:22.7987971+01:00",
-  "LastMembershipChangeBy": 356,
+  "LastMembershipChange": "1998-11-22T03:51:28.1777523+01:00",
+  "LastMembershipChangeBy": 591,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "facilis",
-  "MemberTabHeading": "quibusdam",
-  "MailingsProviderName": "Klein-Weimann",
-  "DashboardTileDefinitionId": 155,
+  "MainHeading": "iste",
+  "MemberTabHeading": "eveniet",
+  "MailingsProviderName": "Kling Inc and Sons",
+  "DashboardTileDefinitionId": 166,
   "VisibleFor": [
     {
-      "VisibleId": 404,
+      "VisibleId": 981,
       "Visibility": "All",
-      "DisplayValue": "soluta",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldType": "System.String",
+          "FieldLength": 283
         }
       }
     },
     {
-      "VisibleId": 404,
+      "VisibleId": 981,
       "Visibility": "All",
-      "DisplayValue": "soluta",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldType": "System.String",
+          "FieldLength": 283
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldType": "System.Int32",
+      "FieldLength": 345
     }
   }
 }

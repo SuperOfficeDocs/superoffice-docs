@@ -127,18 +127,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "laborum",
+    "path": "ad",
     "value": {}
   },
   {
     "op": "add",
-    "path": "laborum",
+    "path": "ad",
     "value": {}
   }
 ]
@@ -151,33 +151,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 355,
-  "PlainMessage": "distinctio",
-  "HtmlMessage": "minima",
-  "SmsMessage": "et",
-  "Description": "Expanded background knowledge user",
-  "Subject": "qui",
-  "FolderId": 29,
-  "HeaderField": "amet",
-  "Design": "rerum",
+  "ShipmentMessageId": 332,
+  "PlainMessage": "sit",
+  "HtmlMessage": "ut",
+  "SmsMessage": "nam",
+  "Description": "User-friendly systemic service-desk",
+  "Subject": "autem",
+  "FolderId": 434,
+  "HeaderField": "at",
+  "Design": "voluptates",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Seamless 24/7 system engine",
-  "AccessKey": "aut",
-  "DocumentMessage": 595,
-  "Registered": "2003-01-05T15:29:30.6264873+01:00",
-  "RegisteredAssociateId": 901,
-  "Updated": "2023-03-08T15:29:30.6264873+01:00",
-  "UpdatedAssociateId": 530,
-  "UpdatedCount": 518,
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Focused content-based hierarchy",
+  "AccessKey": "et",
+  "DocumentMessage": 594,
+  "Registered": "1999-01-15T03:51:34.0208828+01:00",
+  "RegisteredAssociateId": 836,
+  "Updated": "2015-02-28T03:51:34.0208828+01:00",
+  "UpdatedAssociateId": 473,
+  "UpdatedCount": 589,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 738
+      "FieldLength": 542
     }
   },
   "_Links": {

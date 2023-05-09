@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 22,
-  "Name": "Rolfson-Friesen",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 225,
+  "Id": 435,
+  "Name": "Schaefer, Cronin and Hoeger",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "Rank": 995,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "minus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldType": "System.String",
+      "FieldLength": 312
     }
   },
   "_Links": {

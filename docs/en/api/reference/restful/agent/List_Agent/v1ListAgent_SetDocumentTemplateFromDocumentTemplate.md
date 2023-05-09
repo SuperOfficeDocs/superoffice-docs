@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 3,
+  "SourceDocumentTemplateId": 712,
   "DocumentTemplateEntity": null
 }
 ```
@@ -113,37 +113,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 526,
-  "Name": "Miller-Maggio",
-  "Tooltip": "et",
-  "SaveInDb": 892,
-  "Filename": "quo",
-  "DefaultOref": "fuga",
+  "DocumentTemplateId": 947,
+  "Name": "King LLC",
+  "Tooltip": "animi",
+  "SaveInDb": 809,
+  "Filename": "autem",
+  "DefaultOref": "illo",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 474,
-  "IntentId": 854,
+  "AutoeventId": 668,
+  "IntentId": 459,
   "IsDefaultPublished": false,
-  "Rank": 414,
-  "LoadTemplateFromPlugin": 452,
-  "MimeType": "vitae",
+  "Rank": 850,
+  "LoadTemplateFromPlugin": 489,
+  "MimeType": "quaerat",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 200,
+  "DocumentTypeKey": 318,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "della.mcglynn@legrosgreen.biz",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "athena_borer@hirthe.info",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "evalyn_schinner@heaney.info",
+  "SenderEmailAddress": "trisha.farrell@morar.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldLength": 11
     }
   }
 }

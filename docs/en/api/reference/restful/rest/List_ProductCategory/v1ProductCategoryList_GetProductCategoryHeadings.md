@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 647,
-    "Name": "Hartmann LLC",
-    "Tooltip": "distinctio",
-    "Deleted": true,
-    "Rank": 802,
-    "UdListDefinitionId": 727,
+    "HeadingId": 740,
+    "Name": "Weissnat, Rice and Wolf",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "Rank": 901,
+    "UdListDefinitionId": 354,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldLength": 510
       }
     }
   }

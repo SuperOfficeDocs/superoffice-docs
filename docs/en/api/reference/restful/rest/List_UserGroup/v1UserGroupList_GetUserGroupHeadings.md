@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 526,
-    "Name": "Howe-Klein",
-    "Tooltip": "quis",
+    "HeadingId": 721,
+    "Name": "Koepp Group",
+    "Tooltip": "quam",
     "Deleted": true,
-    "Rank": 440,
-    "UdListDefinitionId": 128,
+    "Rank": 177,
+    "UdListDefinitionId": 779,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 884
+        "FieldType": "System.Int32",
+        "FieldLength": 689
       }
     }
   }

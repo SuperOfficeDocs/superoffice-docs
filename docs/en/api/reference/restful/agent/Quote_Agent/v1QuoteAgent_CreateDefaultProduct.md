@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 559,
-  "ERPProductKey": "autem",
-  "ERPPriceListKey": "nulla",
-  "Name": "Dare-Nitzsche",
-  "Description": "Versatile multi-state benchmark",
-  "Code": "ab",
-  "PriceUnit": "doloremque",
-  "QuantityUnit": "esse",
+  "ProductId": 669,
+  "ERPProductKey": "a",
+  "ERPPriceListKey": "voluptatem",
+  "Name": "Cremin, Harber and Rice",
+  "Description": "Future-proofed background benchmark",
+  "Code": "nulla",
+  "PriceUnit": "vitae",
+  "QuantityUnit": "ratione",
   "IsSubscription": false,
-  "SubscriptionUnit": "molestiae",
-  "DefaultSubscriptionQuantity": 30011.183999999997,
-  "ItemNumber": "1707255",
+  "SubscriptionUnit": "qui",
+  "DefaultSubscriptionQuantity": 8317.636,
+  "ItemNumber": "1370824",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "debitis",
-  "ProductTypeKey": "illo",
-  "VAT": 6142.6399999999994,
-  "VATInfo": "enim",
-  "UnitCost": 22762.242,
-  "UnitMinimumPrice": 15340.93,
-  "UnitListPrice": 21872.185999999998,
-  "InAssortment": true,
-  "Supplier": "eum",
-  "SupplierCode": "eos",
-  "Rights": "eligendi",
-  "Rule": "fuga",
+  "ProductFamilyKey": "quaerat",
+  "ProductTypeKey": "architecto",
+  "VAT": 26005.932,
+  "VATInfo": "unde",
+  "UnitCost": 31305.525999999998,
+  "UnitMinimumPrice": 23633.494,
+  "UnitListPrice": 28124.516,
+  "InAssortment": false,
+  "Supplier": "illo",
+  "SupplierCode": "aut",
+  "Rights": "doloribus",
+  "Rule": "omnis",
   "ExtraInfo": [
     {
-      "Name": "Hartmann, Keeling and Herman",
-      "Value": "praesentium",
+      "Name": "Boyer, Mayer and Hyatt",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldLength": 525
         }
       }
     },
     {
-      "Name": "Hartmann, Keeling and Herman",
-      "Value": "praesentium",
+      "Name": "Boyer, Mayer and Hyatt",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldLength": 525
         }
       }
     }
   ],
-  "RawExtraInfo": "perspiciatis",
-  "ExtraField1": "sed",
-  "ExtraField2": "sequi",
-  "ExtraField3": "ducimus",
-  "ExtraField4": "sapiente",
-  "ExtraField5": "doloribus",
-  "InStock": 6387.092,
+  "RawExtraInfo": "et",
+  "ExtraField1": "tempore",
+  "ExtraField2": "necessitatibus",
+  "ExtraField3": "voluptates",
+  "ExtraField4": "in",
+  "ExtraField5": "magnam",
+  "InStock": 28889.212,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 86
+      "FieldType": "System.Int32",
+      "FieldLength": 769
     }
   }
 }

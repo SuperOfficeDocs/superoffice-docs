@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 247
+  "UserGroupId": 782
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 399,
-    "ColumnId": 146,
-    "FieldDefault": "veniam",
-    "FieldHeight": 581,
-    "FieldLabel": "minima",
-    "FieldLeft": 165,
-    "FieldTop": 407,
+    "UDefFieldId": 34,
+    "ColumnId": 711,
+    "FieldDefault": "quaerat",
+    "FieldHeight": 692,
+    "FieldLabel": "aut",
+    "FieldLeft": 563,
+    "FieldTop": 607,
     "FieldType": "Checkbox",
-    "FieldWidth": 848,
-    "FormatMask": "maiores",
+    "FieldWidth": 140,
+    "FormatMask": "voluptas",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 41,
-    "LabelLeft": 479,
-    "LabelTop": 999,
-    "LabelWidth": 17,
-    "LastVersionId": 442,
-    "ListTableId": 908,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "LabelHeight": 239,
+    "LabelLeft": 431,
+    "LabelTop": 326,
+    "LabelWidth": 947,
+    "LastVersionId": 453,
+    "ListTableId": 525,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 5,
-    "ProgId": "maiores",
+    "Page1LineNo": 757,
+    "ProgId": "vero",
     "IsReadOnly": false,
-    "ShortLabel": "maxime",
-    "TabOrder": 608,
-    "TextLength": 5,
-    "Tooltip": "laudantium",
-    "UdefIdentity": 504,
-    "UDListDefinitionId": 831,
+    "ShortLabel": "facilis",
+    "TabOrder": 817,
+    "TextLength": 733,
+    "Tooltip": "recusandae",
+    "UdefIdentity": 45,
+    "UDListDefinitionId": 492,
     "Justification": "Center",
-    "Version": 855,
-    "TemplateVariableName": "Bauch LLC",
+    "Version": 769,
+    "TemplateVariableName": "Auer, Ebert and Heaney",
     "HasBeenPublished": false,
-    "MdoListName": "Labadie-Jast",
+    "MdoListName": "Hoeger-Jacobi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 317
+        "FieldLength": 566
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,19 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 731,
-    "Name": "Altenwerth-Reichert",
-    "Tooltip": "tempora",
-    "Rank": 896,
-    "Key": "unde",
-    "MailTemplateId": 12,
+    "ConsentSourceId": 649,
+    "Name": "Thompson Group",
+    "Tooltip": "ut",
+    "Rank": 280,
+    "Key": "porro",
+    "MailTemplateId": 753,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 308
       }
     }
   }

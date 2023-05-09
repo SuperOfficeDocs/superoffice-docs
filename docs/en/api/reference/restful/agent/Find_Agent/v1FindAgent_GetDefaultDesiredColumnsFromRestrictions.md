@@ -85,32 +85,32 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wilderman-Moen",
+  "ProviderName": "Swaniawski LLC",
   "Restrictions": [
     {
-      "Name": "Gleason LLC",
-      "Operator": "harum",
+      "Name": "Heathcote Inc and Sons",
+      "Operator": "fugit",
       "Values": [
-        "porro",
-        "voluptatem"
-      ],
-      "DisplayValues": [
-        "corrupti",
+        "non",
         "et"
       ],
+      "DisplayValues": [
+        "quia",
+        "expedita"
+      ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 311,
+      "InterParenthesis": 392,
       "InterOperator": "And",
-      "UniqueHash": 269
+      "UniqueHash": 346
     }
   ]
 }
@@ -124,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bogan LLC",
-    "DisplayTooltip": "neque",
-    "DisplayType": "iure",
+    "DisplayName": "Willms, Hoeger and Cronin",
+    "DisplayTooltip": "eaque",
+    "DisplayType": "iste",
     "CanOrderBy": true,
-    "Name": "Aufderhar-Brakus",
+    "Name": "Kutch-Trantow",
     "CanRestrictBy": true,
-    "RestrictionType": "aperiam",
-    "RestrictionListName": "Gorczany Inc and Sons",
+    "RestrictionType": "deserunt",
+    "RestrictionListName": "Terry Group",
     "IsVisible": false,
-    "ExtraInfo": "autem",
-    "Width": "sunt",
-    "IconHint": "cumque",
-    "HeadingIconHint": "odit"
+    "ExtraInfo": "et",
+    "Width": "illum",
+    "IconHint": "suscipit",
+    "HeadingIconHint": "iure"
   }
 ]
 ```

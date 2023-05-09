@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 757,
-  "Name": "Flatley-Gutkowski",
-  "Tooltip": "est",
-  "Rank": 117,
-  "Rate": 24263.428,
-  "Units": 14187.618,
+  "CurrencyId": 857,
+  "Name": "Conroy-Huel",
+  "Tooltip": "dolore",
+  "Rank": 937,
+  "Rate": 12379.3,
+  "Units": 15560.31,
   "Deleted": true
 }
 ```
@@ -102,19 +102,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 791,
-  "Name": "Schiller LLC",
-  "Tooltip": "est",
-  "Rank": 956,
-  "Rate": 16641.54,
-  "Units": 11467.306,
-  "Deleted": true,
+  "CurrencyId": 950,
+  "Name": "Crist LLC",
+  "Tooltip": "et",
+  "Rank": 710,
+  "Rate": 28287.484,
+  "Units": 27011.946,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldLength": 226
     }
   }
 }

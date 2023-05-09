@@ -80,20 +80,20 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Lynch, Goodwin and Schiller",
-      "EntityOrParentId": 109,
-      "RequestForNewRecord": false
+      "EntityName": "Harris Group",
+      "EntityOrParentId": 748,
+      "RequestForNewRecord": true
     },
     {
-      "EntityName": "Lynch, Goodwin and Schiller",
-      "EntityOrParentId": 109,
-      "RequestForNewRecord": false
+      "EntityName": "Harris Group",
+      "EntityOrParentId": 748,
+      "RequestForNewRecord": true
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 968,
-    "Id": 653,
-    "HistoryName": "Hodkiewicz, Jacobson and Baumbach",
-    "HistoryId": 207,
-    "AssociateId": 377,
-    "Name": "Kessler-Skiles",
-    "ItemInfo": "explicabo",
+    "Rank": 502,
+    "Id": 479,
+    "HistoryName": "Emard LLC",
+    "HistoryId": 246,
+    "AssociateId": 685,
+    "Name": "Schinner LLC",
+    "ItemInfo": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldLength": 882
       }
     }
   }

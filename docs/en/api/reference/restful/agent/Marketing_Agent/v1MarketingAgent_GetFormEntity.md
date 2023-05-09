@@ -25,7 +25,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=575
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=507
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 404,
-  "FormKey": "corrupti",
-  "Name": "Kutch, Sawayn and Bernhard",
-  "Description": "Innovative bottom-line knowledge user",
-  "Config": "soluta",
-  "FolderId": 614,
-  "ScriptId": 188,
-  "ResponseShipmentId": 27,
-  "Active": true,
-  "Expires": "2006-08-02T15:29:22.13177+02:00",
-  "MaxSubmits": 638,
+  "FormId": 735,
+  "FormKey": "delectus",
+  "Name": "Bernier-Denesik",
+  "Description": "Cloned cohesive open system",
+  "Config": "et",
+  "FolderId": 231,
+  "ScriptId": 518,
+  "ResponseShipmentId": 250,
+  "Active": false,
+  "Expires": "2009-11-26T03:51:27.5060342+01:00",
+  "MaxSubmits": 16,
   "Type": "Normal",
-  "Recipe": "delectus",
-  "GroupId": 982,
+  "Recipe": "quia",
+  "GroupId": 965,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1998-04-24T15:29:22.13177+02:00",
-  "RegisteredAssociateId": 244,
-  "Updated": "2012-06-18T15:29:22.13177+02:00",
-  "UpdatedAssociateId": 838,
-  "UpdatedCount": 255,
-  "FolderName": "Mante Group",
+  "Registered": "2007-09-16T03:51:27.5060342+02:00",
+  "RegisteredAssociateId": 724,
+  "Updated": "2000-08-13T03:51:27.5060342+02:00",
+  "UpdatedAssociateId": 850,
+  "UpdatedCount": 22,
+  "FolderName": "Renner-Quitzon",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 539
     }
   }
 }

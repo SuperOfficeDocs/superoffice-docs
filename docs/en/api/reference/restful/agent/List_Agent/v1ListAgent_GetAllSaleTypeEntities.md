@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,53 +109,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 845,
-    "Name": "Schultz Group",
-    "Tooltip": "vero",
-    "Rank": 899,
+    "SaleTypeId": 749,
+    "Name": "Johnston Group",
+    "Tooltip": "doloremque",
+    "Rank": 856,
     "DurationUnit": "Century",
-    "SaleDuration": 210,
-    "SaleTypeCatId": 396,
-    "Deleted": false,
-    "HasGuide": false,
+    "SaleDuration": 482,
+    "SaleTypeCatId": 891,
+    "Deleted": true,
+    "HasGuide": true,
     "HasStakeholders": false,
-    "IsAutoAdvance": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 219,
-    "QuoteLinesTemplate": 618,
-    "ConfirmationLinesTemplate": 700,
+    "DefaultQuoteValidity": 127,
+    "QuoteLinesTemplate": 881,
+    "ConfirmationLinesTemplate": 387,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 639,
-    "MinEarningPercent": 476,
-    "GroupQuoteLinesBy": 163,
-    "SortGroupLinesBy": 138,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 657,
+    "MinEarningPercent": 204,
+    "GroupQuoteLinesBy": 360,
+    "SortGroupLinesBy": 505,
     "Stages": [
       {
-        "Id": 674,
-        "Name": "Crooks-Balistreri",
-        "ToolTip": "Ut quo voluptas explicabo accusantium.",
-        "Deleted": false,
-        "Rank": 666,
-        "Type": "animi",
-        "ColorBlock": 955,
-        "IconHint": "ducimus",
-        "Selected": false,
-        "LastChanged": "2017-01-30T15:29:21.9967722+01:00",
+        "Id": 226,
+        "Name": "Ferry-Ferry",
+        "ToolTip": "Omnis ad occaecati laudantium ipsam.",
+        "Deleted": true,
+        "Rank": 519,
+        "Type": "ab",
+        "ColorBlock": 442,
+        "IconHint": "eligendi",
+        "Selected": true,
+        "LastChanged": "2006-01-22T03:51:27.4123074+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Jamar Rosenbaum",
+        "ExtraInfo": "nulla",
+        "StyleHint": "assumenda",
+        "Hidden": false,
+        "FullName": "Lavinia Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 763
+            "FieldType": "System.Int32",
+            "FieldLength": 696
           }
         }
       }
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 580
+        "FieldType": "System.Int32",
+        "FieldLength": 974
       }
     }
   }

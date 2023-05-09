@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 575
+  "QuoteLineId": 697
 }
 ```
 
@@ -135,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 734,
-  "ERPQuoteLineKey": "repellat",
-  "QuoteAlternativeId": 90,
-  "ERPProductKey": "corporis",
+  "QuoteLineId": 852,
+  "ERPQuoteLineKey": "rem",
+  "QuoteAlternativeId": 827,
+  "ERPProductKey": "eveniet",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 9803.152,
-  "DeliveredQuantity": 3964.5099999999998,
-  "Rank": 730,
-  "Name": "Schowalter-Green",
-  "Description": "Balanced bandwidth-monitored structure",
-  "Code": "consequatur",
-  "QuantityUnit": "optio",
-  "PriceUnit": "velit",
-  "ItemNumber": "1687539",
+  "Reason": "architect rich partnerships",
+  "Quantity": 29092.922,
+  "DeliveredQuantity": 28904.881999999998,
+  "Rank": 737,
+  "Name": "Welch, Hauck and Stehr",
+  "Description": "Robust solution-oriented analyzer",
+  "Code": "natus",
+  "QuantityUnit": "eos",
+  "PriceUnit": "error",
+  "ItemNumber": "129262",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "molestiae",
-  "ProductTypeKey": "eius",
-  "Supplier": "sed",
-  "SupplierCode": "sit",
-  "Thumbnail": "deleniti",
-  "VATInfo": "consectetur",
-  "VAT": 18067.51,
-  "UnitCost": 18778.928,
-  "UnitMinimumPrice": 9975.521999999999,
-  "UnitListPrice": 3108.928,
+  "ProductFamilyKey": "nihil",
+  "ProductTypeKey": "laudantium",
+  "Supplier": "esse",
+  "SupplierCode": "iste",
+  "Thumbnail": "odio",
+  "VATInfo": "est",
+  "VAT": 16450.365999999998,
+  "UnitCost": 12824.328,
+  "UnitMinimumPrice": 15569.712,
+  "UnitListPrice": 2457.056,
   "ExtraInfo": [
     {
-      "Name": "Dickens Inc and Sons",
-      "Value": "natus",
+      "Name": "Hilll-Walter",
+      "Value": "enim",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 934
+          "FieldType": "System.Int32",
+          "FieldLength": 865
         }
       }
     },
     {
-      "Name": "Dickens Inc and Sons",
-      "Value": "natus",
+      "Name": "Hilll-Walter",
+      "Value": "enim",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 934
+          "FieldType": "System.Int32",
+          "FieldLength": 865
         }
       }
     }
   ],
-  "RawExtraInfo": "nisi",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ea",
-  "SubscriptionQuantity": 15074.539999999999,
-  "SubscriptionStart": "2014-10-03T15:29:22.5977646+02:00",
-  "ERPDiscountPercent": 14146.876,
-  "ERPDiscountAmount": 29559.888,
-  "DiscountPercent": 7317.8899999999994,
-  "DiscountAmount": 31048.538,
+  "RawExtraInfo": "ipsum",
+  "IsSubscription": true,
+  "SubscriptionUnit": "vero",
+  "SubscriptionQuantity": 5531.51,
+  "SubscriptionStart": "1998-07-19T03:51:28.0371601+02:00",
+  "ERPDiscountPercent": 20587.246,
+  "ERPDiscountAmount": 13861.681999999999,
+  "DiscountPercent": 18910.556,
+  "DiscountAmount": 9367.526,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 4760.546,
-  "EarningAmount": 8088.8539999999994,
-  "SubTotal": 23291.888,
-  "TotalPrice": 25748.944,
-  "Rights": "voluptatibus",
-  "Rule": "fugit",
-  "ExtraField1": "officiis",
-  "ExtraField2": "labore",
-  "ExtraField3": "rerum",
-  "ExtraField4": "iure",
-  "ExtraField5": "saepe",
+  "EarningPercent": 23868.543999999998,
+  "EarningAmount": 22169.916,
+  "SubTotal": 9815.688,
+  "TotalPrice": 26501.104,
+  "Rights": "id",
+  "Rule": "fugiat",
+  "ExtraField1": "voluptas",
+  "ExtraField2": "similique",
+  "ExtraField3": "saepe",
+  "ExtraField4": "reiciendis",
+  "ExtraField5": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 736
     }
   }
 }

@@ -74,24 +74,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 288,
+  "TargetDimensionId": 323,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "a",
-  "DimensionListName": "Vandervort Inc and Sons",
-  "DimensionListId": 293,
-  "DimensionListLabel": "omnis",
+  "DimensionListField": "nam",
+  "DimensionListName": "Leuschke, Considine and Lakin",
+  "DimensionListId": 460,
+  "DimensionListLabel": "reprehenderit",
   "SelectedDimensions": [
-    174,
-    572
+    730,
+    401
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 292
     }
   }
 }

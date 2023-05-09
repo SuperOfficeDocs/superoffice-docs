@@ -99,30 +99,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 59,
-  "Section": "aut",
-  "Key": "sed",
-  "Name": "Schinner Group",
+  "PrefDescId": 746,
+  "Section": "quia",
+  "Key": "a",
+  "Name": "Parker-Treutel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Triple-buffered didactic extranet",
-  "IsBuiltin": true,
-  "TableName": "Corwin Inc and Sons",
-  "UserDefinedListId": 32,
-  "Rank": 606,
-  "SubGroup": "iure",
-  "MinLevel": 277,
-  "MaxValue": 696,
-  "MinValue": 504,
-  "RequiredLicense": "quia",
+  "Description": "Face to face multi-state adapter",
+  "IsBuiltin": false,
+  "TableName": "Emmerich-Brekke",
+  "UserDefinedListId": 596,
+  "Rank": 794,
+  "SubGroup": "nihil",
+  "MinLevel": 862,
+  "MaxValue": 115,
+  "MinValue": 301,
+  "RequiredLicense": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 485
+      "FieldType": "System.Int32",
+      "FieldLength": 461
     }
   },
   "_Links": {

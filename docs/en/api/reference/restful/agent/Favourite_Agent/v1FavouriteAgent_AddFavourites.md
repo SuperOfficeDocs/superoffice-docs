@@ -66,17 +66,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schoen Inc and Sons",
+  "TableName": "Kovacek, Murazik and Roob",
   "RecordIds": [
-    29,
-    129
+    374,
+    804
   ],
-  "AssociateId": 694,
-  "ExtraInfo": "minus"
+  "AssociateId": 334,
+  "ExtraInfo": "facere"
 }
 ```
 

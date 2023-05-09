@@ -114,7 +114,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 747
+  "QuoteVersionId": 278
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 542,
-  "ERPQuoteVersionKey": "itaque",
-  "QuoteId": 460,
-  "Description": "Horizontal 5th generation service-desk",
-  "Number": "678792",
+  "QuoteVersionId": 367,
+  "ERPQuoteVersionKey": "quia",
+  "QuoteId": 893,
+  "Description": "Organized 4th generation contingency",
+  "Number": "733706",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 208,
-  "SentDate": "1998-06-23T15:29:22.5187646+02:00",
-  "FollowupId": 421,
-  "ExpirationDate": "1998-02-08T15:29:22.5187646+01:00",
-  "DeliveryCountryId": 158,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 306,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "id",
-  "ERPPaymentTypeKey": "optio",
-  "ERPDeliveryTermsKey": "accusantium",
-  "ERPDeliveryTypeKey": "quod",
-  "Rank": 892,
-  "ApprovedBy": 337,
-  "ApprovedText": "quia",
-  "ApprovedRegisteredBy": 45,
-  "ApprovedRegisteredDate": "1999-04-26T15:29:22.5187646+02:00",
-  "ExtraField1": "accusantium",
-  "ExtraField2": "iure",
-  "ExtraField3": "veniam",
-  "ExtraField4": "ipsa",
-  "ExtraField5": "et",
-  "LastRecalculated": "2001-05-14T15:29:22.5187646+02:00",
-  "Updated": "2001-02-17T15:29:22.5187646+01:00",
-  "UpdatedAssociateId": 842,
-  "Registered": "2001-07-22T15:29:22.5187646+02:00",
-  "RegisteredAssociateId": 97,
-  "RequestAssociateId": 169,
-  "RequestComment": "in",
+  "LikelyQuoteAlternativeId": 351,
+  "SentDate": "1996-07-05T03:51:27.9746798+02:00",
+  "FollowupId": 483,
+  "ExpirationDate": "2020-03-14T03:51:27.9746798+01:00",
+  "DeliveryCountryId": 872,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 813,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "hic",
+  "ERPPaymentTypeKey": "nobis",
+  "ERPDeliveryTermsKey": "laborum",
+  "ERPDeliveryTypeKey": "officiis",
+  "Rank": 93,
+  "ApprovedBy": 925,
+  "ApprovedText": "nobis",
+  "ApprovedRegisteredBy": 589,
+  "ApprovedRegisteredDate": "2009-05-05T03:51:27.9746798+02:00",
+  "ExtraField1": "omnis",
+  "ExtraField2": "et",
+  "ExtraField3": "minima",
+  "ExtraField4": "quo",
+  "ExtraField5": "aut",
+  "LastRecalculated": "2023-05-06T03:51:27.9746798+02:00",
+  "Updated": "1998-09-07T03:51:27.9746798+02:00",
+  "UpdatedAssociateId": 445,
+  "Registered": "2020-11-03T03:51:27.9746798+01:00",
+  "RegisteredAssociateId": 487,
+  "RequestAssociateId": 232,
+  "RequestComment": "error",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 580,
-      "ERPQuoteAlternativeKey": "numquam",
-      "QuoteVersionId": 167,
-      "Name": "Skiles, Jenkins and Bergnaum",
-      "Description": "Business-focused incremental interface",
+      "QuoteAlternativeId": 108,
+      "ERPQuoteAlternativeKey": "unde",
+      "QuoteVersionId": 138,
+      "Name": "Hessel-Doyle",
+      "Description": "Polarised zero tolerance contingency",
       "Status": "Error",
-      "Reason": "utilize cutting-edge markets",
-      "ERPDiscountPercent": 14607.573999999999,
-      "ERPDiscountAmount": 29218.282,
-      "DiscountPercent": 106.556,
-      "DiscountAmount": 24818.146,
+      "Reason": "",
+      "ERPDiscountPercent": 3237.422,
+      "ERPDiscountAmount": 12376.166,
+      "DiscountPercent": 3735.728,
+      "DiscountAmount": 14710.996,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "qui",
-      "VAT": 26667.206,
-      "EarningPercent": 4425.208,
-      "EarningAmount": 6437.236,
-      "SubTotal": 18597.156,
-      "TotalPrice": 20399.206,
-      "ExtraField1": "pariatur",
-      "ExtraField2": "et",
-      "ExtraField3": "excepturi",
-      "ExtraField4": "aut",
-      "ExtraField5": "consequatur",
+      "VATInfo": "cum",
+      "VAT": 4124.344,
+      "EarningPercent": 1604.608,
+      "EarningAmount": 19907.167999999998,
+      "SubTotal": 3870.49,
+      "TotalPrice": 11423.43,
+      "ExtraField1": "minus",
+      "ExtraField2": "est",
+      "ExtraField3": "quia",
+      "ExtraField4": "vitae",
+      "ExtraField5": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldLength": 223
         }
       }
     }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldType": "System.String",
+      "FieldLength": 193
     }
   }
 }

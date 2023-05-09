@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 797,
-  "Name": "Stoltenberg Group",
-  "Tooltip": "quia",
+  "Id": 480,
+  "Name": "Larson Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 209,
-  "IsCustomList": true,
+  "Rank": 763,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "sequi",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 489,
-  "Name": "Lockman-Runolfsdottir",
-  "Tooltip": "ducimus",
+  "Id": 613,
+  "Name": "Heaney-Nicolas",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "Rank": 483,
+  "Rank": 156,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
-  "InUseByUserDefinedFields": false,
+  "ListType": "eum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldType": "System.String",
+      "FieldLength": 299
     }
   }
 }

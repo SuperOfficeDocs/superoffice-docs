@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 276,
-    "Name": "Moore, Bartoletti and Streich",
-    "Description": "Object-based bandwidth-monitored intranet",
+    "ProjectId": 639,
+    "Name": "Smith Inc and Sons",
+    "Description": "Stand-alone empowering concept",
     "URL": "http://www.example.com/",
-    "Type": "doloribus",
-    "AssociateId": 876,
-    "AssociateFullName": "Mr. Jaime Magali Rau II",
-    "TypeId": 429,
-    "Updated": "2017-10-08T15:29:22.4847663+02:00",
-    "StatusId": 758,
-    "Status": "numquam",
-    "TextId": 556,
-    "PublishTo": "1997-06-21T15:29:22.4847663+02:00",
-    "PublishFrom": "2020-04-19T15:29:22.4847663+02:00",
+    "Type": "eum",
+    "AssociateId": 482,
+    "AssociateFullName": "Caleb Carter DDS",
+    "TypeId": 356,
+    "Updated": "2012-12-26T03:51:27.943438+01:00",
+    "StatusId": 97,
+    "Status": "molestiae",
+    "TextId": 358,
+    "PublishTo": "2000-06-01T03:51:27.943438+02:00",
+    "PublishFrom": "2004-09-15T03:51:27.943438+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "508850",
-    "ActiveErpLinks": 532,
+    "ProjectNumber": "774832",
+    "ActiveErpLinks": 449,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldType": "System.Int32",
+        "FieldLength": 748
       }
     }
   }

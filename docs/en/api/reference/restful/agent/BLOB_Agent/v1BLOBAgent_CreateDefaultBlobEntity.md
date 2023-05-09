@@ -78,25 +78,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 853,
-  "BlobSize": 2,
-  "Description": "Enterprise-wide attitude-oriented initiative",
-  "ExtraInfo": "fugit",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "perspiciatis",
-  "OriginalSize": 388,
-  "CreatedDate": "2017-11-19T15:29:20.8332887+01:00",
-  "UpdatedDate": "2004-10-11T15:29:20.8332887+02:00",
+  "BlobId": 965,
+  "BlobSize": 1001,
+  "Description": "Cloned eco-centric process improvement",
+  "ExtraInfo": "quae",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "sapiente",
+  "OriginalSize": 557,
+  "CreatedDate": "2006-06-11T03:51:26.6156255+02:00",
+  "UpdatedDate": "2010-04-13T03:51:26.6156255+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "atque",
+  "ConceptualType": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldLength": 621
     }
   }
 }

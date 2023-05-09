@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 234,
-  "Name": "Koelpin-O'Connell",
-  "Tooltip": "a",
+  "Id": 364,
+  "Name": "Schuster Inc and Sons",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "UdListDefinitionId": 652,
-  "Rank": 905,
+  "UdListDefinitionId": 645,
+  "Rank": 479,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 13
     }
   }
 }

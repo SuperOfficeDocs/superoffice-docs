@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 496,
-  "Name": "Lakin-Roob",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 33,
-  "UdListDefinitionId": 484
+  "HeadingId": 790,
+  "Name": "Pacocha-Mohr",
+  "Tooltip": "facere",
+  "Deleted": false,
+  "Rank": 652,
+  "UdListDefinitionId": 554
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 245,
-  "Name": "Thompson Inc and Sons",
-  "Tooltip": "est",
+  "HeadingId": 134,
+  "Name": "Blanda, Lueilwitz and Welch",
+  "Tooltip": "itaque",
   "Deleted": true,
-  "Rank": 486,
-  "UdListDefinitionId": 201,
+  "Rank": 834,
+  "UdListDefinitionId": 655,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 274
+      "FieldType": "System.String",
+      "FieldLength": 531
     }
   }
 }

@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 257,
-  "Name": "Connelly-Auer",
-  "Tooltip": "est",
+  "Id": 47,
+  "Name": "Hackett, Brakus and Bode",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "UdListDefinitionId": 513,
-  "Rank": 962
+  "UdListDefinitionId": 261,
+  "Rank": 439
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 565,
-  "Name": "Bergnaum Group",
-  "Tooltip": "odit",
+  "Id": 617,
+  "Name": "Schneider Group",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "UdListDefinitionId": 977,
-  "Rank": 728,
+  "UdListDefinitionId": 212,
+  "Rank": 784,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldType": "System.String",
+      "FieldLength": 743
     }
   }
 }

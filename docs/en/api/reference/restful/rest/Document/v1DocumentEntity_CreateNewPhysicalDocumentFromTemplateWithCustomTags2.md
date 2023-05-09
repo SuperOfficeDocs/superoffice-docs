@@ -36,13 +36,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=679
-POST /api/v1/Document/{documentId}/Content?personId=850
-POST /api/v1/Document/{documentId}/Content?appointmentId=294
-POST /api/v1/Document/{documentId}/Content?saleId=688
-POST /api/v1/Document/{documentId}/Content?selectionId=930
-POST /api/v1/Document/{documentId}/Content?projectId=477
-POST /api/v1/Document/{documentId}/Content?uiCulture=rerum
+POST /api/v1/Document/{documentId}/Content?contactId=690
+POST /api/v1/Document/{documentId}/Content?personId=647
+POST /api/v1/Document/{documentId}/Content?appointmentId=80
+POST /api/v1/Document/{documentId}/Content?saleId=997
+POST /api/v1/Document/{documentId}/Content?selectionId=676
+POST /api/v1/Document/{documentId}/Content?projectId=774
+POST /api/v1/Document/{documentId}/Content?uiCulture=non
 ```
 
 
@@ -120,7 +120,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -130,88 +130,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 388,
+  "DocumentId": 911,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "vitae",
-  "Name": "Koelpin Inc and Sons",
-  "OurRef": "veritatis",
-  "YourRef": "omnis",
-  "CreatedDate": "2016-09-28T15:29:29.7231993+02:00",
-  "UpdatedDate": "2005-04-21T15:29:29.7231993+02:00",
-  "Description": "Automated national alliance",
+  "Attention": "sed",
+  "Header": "quas",
+  "Name": "Schamberger, Beier and Marquardt",
+  "OurRef": "aperiam",
+  "YourRef": "consequuntur",
+  "CreatedDate": "2020-07-26T03:51:33.645969+02:00",
+  "UpdatedDate": "2021-09-28T03:51:33.645969+02:00",
+  "Description": "Decentralized maximized installation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-06-21T15:29:29.7257047+02:00",
-  "ExternalRef": "aspernatur",
+  "Date": "2019-01-20T03:51:33.645969+01:00",
+  "ExternalRef": "nobis",
   "Completed": "Completed",
-  "ActiveLinks": 811,
+  "ActiveLinks": 44,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bayer-Cormier",
-      "Id": 679,
-      "Description": "Mandatory hybrid circuit",
-      "ExtraInfo": "et",
-      "LinkId": 529,
+      "EntityName": "Walsh, Schmitt and Hickle",
+      "Id": 22,
+      "Description": "Grass-roots responsive standardization",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 720,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 922
+          "FieldType": "System.Int32",
+          "FieldLength": 238
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 566,
-  "Snum": 37,
+  "SuggestedDocumentId": 108,
+  "Snum": 533,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Meda Stroman"
+    "SuperOffice:2": "Edythe Wuckert"
   },
   "ExtraFields": {
-    "ExtraFields1": "dignissimos",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "suscipit",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "natus",
+    "CustomFields2": "suscipit"
   },
-  "PublishEventDate": "2021-07-09T15:29:29.7267008+02:00",
-  "PublishTo": "2000-11-09T15:29:29.7267008+01:00",
-  "PublishFrom": "1997-06-17T15:29:29.7267008+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2003-07-15T03:51:33.645969+02:00",
+  "PublishTo": "2011-05-21T03:51:33.645969+02:00",
+  "PublishFrom": "1998-01-26T03:51:33.645969+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 117,
+      "VisibleId": 767,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldType": "System.String",
+          "FieldLength": 556
         }
       }
     },
     {
-      "VisibleId": 117,
+      "VisibleId": 767,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldType": "System.String",
+          "FieldLength": 556
         }
       }
     }
@@ -221,7 +221,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 319
     }
   }
 }

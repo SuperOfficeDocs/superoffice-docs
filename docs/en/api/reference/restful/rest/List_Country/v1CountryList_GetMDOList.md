@@ -25,8 +25,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=sed
+GET /api/v1/List/Country/MDOItems?flat=True
+GET /api/v1/List/Country/MDOItems?query=harum
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Dietrich, Zieme and Corwin",
-    "ToolTip": "Rerum ut ut quidem autem nisi ab ea.",
+    "Id": 210,
+    "Name": "Torp-Howell",
+    "ToolTip": "Sit occaecati ea accusamus veritatis ex officiis vero.",
     "Deleted": false,
-    "Rank": 995,
-    "Type": "sed",
+    "Rank": 969,
+    "Type": "corrupti",
     "ChildItems": [
       {
-        "Id": 726,
-        "Name": "Homenick-Muller",
-        "ToolTip": "Illum ipsa ea delectus nulla.",
-        "Deleted": true,
-        "Rank": 687,
-        "Type": "praesentium",
+        "Id": 901,
+        "Name": "D'Amore-Kovacek",
+        "ToolTip": "Voluptas nobis.",
+        "Deleted": false,
+        "Rank": 119,
+        "Type": "laboriosam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 811,
-        "ExtraInfo": "perferendis",
-        "StyleHint": "sed",
-        "FullName": "Paxton Wisoky",
+        "IconHint": "dolorum",
+        "ColorBlock": 983,
+        "ExtraInfo": "sed",
+        "StyleHint": "qui",
+        "FullName": "Prof. Shyanne Mac Marks DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 662
+            "FieldType": "System.Int32",
+            "FieldLength": 912
           }
         }
       }
     ],
-    "IconHint": "adipisci",
-    "ColorBlock": 400,
-    "ExtraInfo": "animi",
-    "StyleHint": "consequatur",
-    "FullName": "Maymie Dooley",
+    "IconHint": "sint",
+    "ColorBlock": 673,
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "quod",
+    "FullName": "Eden Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 78
+        "FieldType": "System.String",
+        "FieldLength": 740
       }
     }
   }

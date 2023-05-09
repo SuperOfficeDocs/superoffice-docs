@@ -62,7 +62,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,32 +70,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 07 Jan 2000 15:29:29 G1T
+Last-Modified: Sat, 19 Aug 2017 03:51:33 G8T
 
 {
-  "ForeignAppId": 767,
-  "Name": "Mueller Group",
-  "CreatedDate": "2006-04-30T15:29:29.7521995+02:00",
-  "UpdatedDate": "2000-01-07T15:29:29.7521995+01:00",
+  "ForeignAppId": 308,
+  "Name": "Carter-Kuphal",
+  "CreatedDate": "2002-01-07T03:51:33.6615947+01:00",
+  "UpdatedDate": "2017-08-19T03:51:33.6615947+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 421,
-      "Name": "Kautzer Inc and Sons",
-      "CreatedDate": "1999-08-10T15:29:29.7531987+02:00",
-      "UpdatedDate": "2010-08-11T15:29:29.7531987+02:00",
-      "AssociateFullName": "Prof. Angelita Marisol Hilll",
-      "CreatedBy": "earum",
-      "UpdatedBy": "inventore",
-      "DeviceIdentifier": "repellat",
-      "ForeignAppId": 958,
+      "ForeignDeviceId": 662,
+      "Name": "Sporer, Orn and Weber",
+      "CreatedDate": "2011-08-08T03:51:33.6615947+02:00",
+      "UpdatedDate": "2003-04-24T03:51:33.6615947+02:00",
+      "AssociateFullName": "Emil Dennis Baumbach PhD",
+      "CreatedBy": "sapiente",
+      "UpdatedBy": "dolores",
+      "DeviceIdentifier": "sit",
+      "ForeignAppId": 973,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldType": "System.String",
+          "FieldLength": 174
         }
       }
     }
@@ -104,8 +104,8 @@ Last-Modified: Fri, 07 Jan 2000 15:29:29 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 673
+      "FieldType": "System.Int32",
+      "FieldLength": 319
     }
   }
 }

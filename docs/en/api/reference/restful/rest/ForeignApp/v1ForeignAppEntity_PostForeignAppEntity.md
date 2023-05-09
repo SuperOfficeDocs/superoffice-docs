@@ -87,27 +87,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 585,
-  "Name": "Wuckert, Rosenbaum and Cruickshank",
-  "CreatedDate": "2017-03-08T15:29:29.7551997+01:00",
-  "UpdatedDate": "2003-12-07T15:29:29.7551997+01:00",
+  "ForeignAppId": 352,
+  "Name": "Steuber-Parker",
+  "CreatedDate": "1999-08-15T03:51:33.677213+02:00",
+  "UpdatedDate": "1997-09-09T03:51:33.677213+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 350,
-      "Name": "Sauer LLC",
-      "CreatedDate": "2023-01-20T15:29:29.7557007+01:00",
-      "UpdatedDate": "2018-02-07T15:29:29.7557007+01:00",
-      "AssociateFullName": "Gisselle Geovany Gottlieb IV",
-      "CreatedBy": "hic",
-      "UpdatedBy": "dolor",
-      "DeviceIdentifier": "delectus",
-      "ForeignAppId": 824
+      "ForeignDeviceId": 484,
+      "Name": "Kohler-Langosh",
+      "CreatedDate": "2012-05-11T03:51:33.677213+02:00",
+      "UpdatedDate": "2004-10-22T03:51:33.677213+02:00",
+      "AssociateFullName": "Robert Quigley",
+      "CreatedBy": "numquam",
+      "UpdatedBy": "debitis",
+      "DeviceIdentifier": "repudiandae",
+      "ForeignAppId": 885
     }
   ]
 }
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 174,
-  "Name": "Kohler, Gerhold and Bayer",
-  "CreatedDate": "2009-07-10T15:29:29.7572001+02:00",
-  "UpdatedDate": "2008-04-02T15:29:29.7572001+02:00",
+  "ForeignAppId": 83,
+  "Name": "Stiedemann LLC",
+  "CreatedDate": "2008-08-31T03:51:33.677213+02:00",
+  "UpdatedDate": "2001-01-29T03:51:33.677213+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 15,
-      "Name": "Fisher Group",
-      "CreatedDate": "2017-11-24T15:29:29.7576988+01:00",
-      "UpdatedDate": "2023-01-15T15:29:29.7576988+01:00",
-      "AssociateFullName": "Ms. Irwin Harber",
-      "CreatedBy": "debitis",
-      "UpdatedBy": "omnis",
-      "DeviceIdentifier": "eum",
-      "ForeignAppId": 588,
+      "ForeignDeviceId": 696,
+      "Name": "Kassulke, Rath and Jacobi",
+      "CreatedDate": "2015-05-08T03:51:33.677213+02:00",
+      "UpdatedDate": "2011-06-26T03:51:33.677213+02:00",
+      "AssociateFullName": "Nora Klocko",
+      "CreatedBy": "in",
+      "UpdatedBy": "excepturi",
+      "DeviceIdentifier": "sed",
+      "ForeignAppId": 752,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 717
+          "FieldType": "System.Int32",
+          "FieldLength": 921
         }
       }
     }
@@ -151,8 +151,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldType": "System.String",
+      "FieldLength": 356
     }
   },
   "_Links": {

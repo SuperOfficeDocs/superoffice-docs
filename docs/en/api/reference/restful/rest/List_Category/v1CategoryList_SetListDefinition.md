@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 811,
-  "Name": "Watsica Group",
-  "Tooltip": "et",
+  "Id": 401,
+  "Name": "Wunsch-Bogisich",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "Rank": 720,
+  "Rank": 275,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quas",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 512,
-  "Name": "Keeling, Cole and Walter",
-  "Tooltip": "esse",
+  "Id": 303,
+  "Name": "Rohan-Hintz",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 849,
+  "Rank": 344,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "beatae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 945
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

@@ -107,13 +107,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 266,
-  "UserInput": "doloremque",
-  "PriceListKey": "quisquam"
+  "QuoteAlternativeId": 241,
+  "UserInput": "expedita",
+  "PriceListKey": "ex"
 }
 ```
 
@@ -125,73 +125,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 129,
-    "ERPProductKey": "debitis",
-    "ERPPriceListKey": "ut",
-    "Name": "O'Reilly Inc and Sons",
-    "Description": "Operative hybrid analyzer",
-    "Code": "et",
-    "PriceUnit": "exercitationem",
-    "QuantityUnit": "voluptatem",
-    "IsSubscription": false,
-    "SubscriptionUnit": "in",
-    "DefaultSubscriptionQuantity": 25313.318,
-    "ItemNumber": "1052208",
+    "ProductId": 194,
+    "ERPProductKey": "id",
+    "ERPPriceListKey": "quaerat",
+    "Name": "Thiel-Labadie",
+    "Description": "Decentralized methodical attitude",
+    "Code": "suscipit",
+    "PriceUnit": "cupiditate",
+    "QuantityUnit": "velit",
+    "IsSubscription": true,
+    "SubscriptionUnit": "molestiae",
+    "DefaultSubscriptionQuantity": 122.226,
+    "ItemNumber": "1073170",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "aut",
-    "ProductTypeKey": "odio",
-    "VAT": 13028.038,
-    "VATInfo": "et",
-    "UnitCost": 12172.456,
-    "UnitMinimumPrice": 2375.572,
-    "UnitListPrice": 11291.802,
-    "InAssortment": true,
-    "Supplier": "atque",
-    "SupplierCode": "sed",
-    "Rights": "quasi",
-    "Rule": "eum",
+    "ProductFamilyKey": "eos",
+    "ProductTypeKey": "consequatur",
+    "VAT": 4133.746,
+    "VATInfo": "aut",
+    "UnitCost": 10104.016,
+    "UnitMinimumPrice": 17205.66,
+    "UnitListPrice": 902.592,
+    "InAssortment": false,
+    "Supplier": "placeat",
+    "SupplierCode": "magni",
+    "Rights": "repellendus",
+    "Rule": "similique",
     "ExtraInfo": [
       {
-        "Name": "Kunde-Gislason",
-        "Value": "illo",
+        "Name": "Abernathy, Bayer and Trantow",
+        "Value": "id",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 675
+            "FieldType": "System.Int32",
+            "FieldLength": 19
           }
         }
       },
       {
-        "Name": "Kunde-Gislason",
-        "Value": "illo",
+        "Name": "Abernathy, Bayer and Trantow",
+        "Value": "id",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 675
+            "FieldType": "System.Int32",
+            "FieldLength": 19
           }
         }
       }
     ],
-    "RawExtraInfo": "rem",
-    "ExtraField1": "quam",
-    "ExtraField2": "eveniet",
-    "ExtraField3": "nam",
-    "ExtraField4": "harum",
-    "ExtraField5": "deleniti",
-    "InStock": 19625.108,
+    "RawExtraInfo": "quam",
+    "ExtraField1": "itaque",
+    "ExtraField2": "omnis",
+    "ExtraField3": "nihil",
+    "ExtraField4": "et",
+    "ExtraField5": "aut",
+    "InStock": 7549.806,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldType": "System.String",
+        "FieldLength": 654
       }
     }
   }

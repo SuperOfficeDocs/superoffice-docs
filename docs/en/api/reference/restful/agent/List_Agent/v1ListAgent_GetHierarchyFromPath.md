@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "quaerat",
+  "Path": "mollitia",
   "Children": false
 }
 ```
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 476,
+  "HierarchyId": 31,
   "Domain": "Dashboards",
-  "Name": "Koss-Dicki",
-  "Fullname": "deserunt",
-  "ParentId": 270,
+  "Name": "Kautzer Inc and Sons",
+  "Fullname": "in",
+  "ParentId": 974,
   "Children": [
     {
-      "HierarchyId": 138,
+      "HierarchyId": 983,
       "Domain": "Dashboards",
-      "Name": "Sipes-O'Connell",
-      "Fullname": "ut",
-      "ParentId": 150,
+      "Name": "VonRueden-Crona",
+      "Fullname": "quibusdam",
+      "ParentId": 226,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1996-11-18T15:29:22.0732707+01:00",
-      "RegisteredAssociateId": 733,
-      "Updated": "2012-05-12T15:29:22.0732707+02:00",
-      "UpdatedAssociateId": 1001,
+      "Registered": "2013-05-11T03:51:27.4591714+02:00",
+      "RegisteredAssociateId": 788,
+      "Updated": "2016-09-18T03:51:27.4591714+02:00",
+      "UpdatedAssociateId": 425,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 899
+          "FieldType": "System.Int32",
+          "FieldLength": 142
         }
       }
     }
   ],
-  "Registered": "1999-12-17T15:29:22.0732707+01:00",
-  "RegisteredAssociateId": 104,
-  "Updated": "2004-12-06T15:29:22.0732707+01:00",
-  "UpdatedAssociateId": 241,
+  "Registered": "2019-05-11T03:51:27.4591714+02:00",
+  "RegisteredAssociateId": 584,
+  "Updated": "2011-04-25T03:51:27.4591714+02:00",
+  "UpdatedAssociateId": 836,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldLength": 982
     }
   }
 }

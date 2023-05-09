@@ -78,8 +78,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 94,
-  "TableName": "Dare Inc and Sons",
+  "RoleId": 81,
+  "TableName": "Beahan-Dicki",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"autem"
+"eos"
 ```

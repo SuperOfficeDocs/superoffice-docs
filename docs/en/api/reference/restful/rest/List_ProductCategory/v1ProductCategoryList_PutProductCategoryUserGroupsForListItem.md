@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 595,
-    "Name": "Mante, Heaney and Wiegand",
-    "ToolTip": "Sit aut suscipit sunt quisquam.",
-    "Deleted": true,
-    "Rank": 356,
-    "Type": "cum",
-    "ColorBlock": 238,
-    "IconHint": "nesciunt",
+    "Id": 964,
+    "Name": "Crona, O'Reilly and Jerde",
+    "ToolTip": "Voluptas possimus enim voluptatem nulla.",
+    "Deleted": false,
+    "Rank": 326,
+    "Type": "velit",
+    "ColorBlock": 115,
+    "IconHint": "molestias",
     "Selected": true,
-    "LastChanged": "2012-05-20T15:29:31.3969746+02:00",
+    "LastChanged": "2010-09-25T03:51:34.8020755+02:00",
     "ChildItems": [
       {
-        "Id": 829,
-        "Name": "Fritsch, Rippin and Carroll",
-        "ToolTip": "Voluptatem laboriosam.",
+        "Id": 544,
+        "Name": "Sipes Inc and Sons",
+        "ToolTip": "Culpa tenetur ratione totam ut in.",
         "Deleted": false,
-        "Rank": 846,
-        "Type": "quo",
-        "ColorBlock": 884,
-        "IconHint": "veritatis",
+        "Rank": 246,
+        "Type": "aut",
+        "ColorBlock": 868,
+        "IconHint": "temporibus",
         "Selected": true,
-        "LastChanged": "2017-05-24T15:29:31.3969746+02:00",
+        "LastChanged": "2022-05-31T03:51:34.8020755+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "impedit",
+        "ExtraInfo": "quam",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Lorna Sipes"
+        "FullName": "Antonina Schaefer"
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "sed",
+    "ExtraInfo": "error",
+    "StyleHint": "quas",
     "Hidden": true,
-    "FullName": "Vernie Stiedemann"
+    "FullName": "Randal Emard"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Swaniawski, Hammes and Wiegand",
-    "ToolTip": "Maiores cumque at occaecati qui qui.",
+    "Id": 810,
+    "Name": "Witting Group",
+    "ToolTip": "Rem fuga ex exercitationem dolor perspiciatis perferendis sunt.",
     "Deleted": true,
-    "Rank": 815,
-    "Type": "fugiat",
-    "ColorBlock": 361,
-    "IconHint": "est",
+    "Rank": 186,
+    "Type": "natus",
+    "ColorBlock": 406,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2001-05-25T15:29:31.3989786+02:00",
+    "LastChanged": "2019-08-13T03:51:34.8020755+02:00",
     "ChildItems": [
       {
-        "Id": 369,
-        "Name": "Beahan-Hauck",
-        "ToolTip": "Dolor consequuntur quidem magni et voluptatibus.",
+        "Id": 59,
+        "Name": "Erdman Group",
+        "ToolTip": "Dolor sequi omnis eligendi perferendis nobis eligendi.",
         "Deleted": false,
-        "Rank": 598,
-        "Type": "hic",
-        "ColorBlock": 617,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "1996-02-04T15:29:31.3994772+01:00",
+        "Rank": 806,
+        "Type": "non",
+        "ColorBlock": 381,
+        "IconHint": "ad",
+        "Selected": false,
+        "LastChanged": "2017-02-11T03:51:34.8020755+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "qui",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Mr. Hassie Lakin DDS",
+        "FullName": "Johnathon Alyson Dickinson V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 96
+            "FieldType": "System.Int32",
+            "FieldLength": 699
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Aurelio Stoltenberg",
+    "ExtraInfo": "amet",
+    "StyleHint": "consectetur",
+    "Hidden": false,
+    "FullName": "Rhianna Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldLength": 275
       }
     }
   }

@@ -69,17 +69,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Rice-Schmitt",
-  "ProviderName": "Labadie, Connelly and Wiegand",
-  "Context": "voluptates",
-  "OwnerKeys": "sint",
+  "GuiName": "Hamill, Lynch and Tremblay",
+  "ProviderName": "Lehner LLC",
+  "Context": "ipsum",
+  "OwnerKeys": "eos",
   "ChosenColumns": [
-    "ipsum",
-    "totam"
+    "modi",
+    "doloribus"
   ]
 }
 ```

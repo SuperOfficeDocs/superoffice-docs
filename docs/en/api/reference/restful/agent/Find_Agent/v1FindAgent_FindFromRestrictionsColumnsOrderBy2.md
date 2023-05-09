@@ -164,16 +164,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "eligendi",
-  "ProviderName": "Hills Inc and Sons",
-  "DesiredColumns": "nam",
-  "OrderBy": "necessitatibus",
-  "PageSize": 661,
-  "PageNumber": 716
+  "Restrictions": "blanditiis",
+  "ProviderName": "Haley Group",
+  "DesiredColumns": "voluptatem",
+  "OrderBy": "exercitationem",
+  "PageSize": 129,
+  "PageNumber": 745
 }
 ```
 
@@ -186,51 +186,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Lubowitz-Muller",
-      "DisplayTooltip": "vitae",
-      "DisplayType": "qui",
-      "CanOrderBy": true,
-      "Name": "Medhurst-Baumbach",
-      "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Beahan-Larkin",
+      "DisplayName": "Kuphal-Mann",
+      "DisplayTooltip": "est",
+      "DisplayType": "neque",
+      "CanOrderBy": false,
+      "Name": "Mertz-Botsford",
+      "CanRestrictBy": false,
+      "RestrictionType": "placeat",
+      "RestrictionListName": "Volkman, Gibson and Koss",
       "IsVisible": false,
-      "ExtraInfo": "nihil",
-      "Width": "facilis",
-      "IconHint": "dolor",
-      "HeadingIconHint": "aliquid"
+      "ExtraInfo": "explicabo",
+      "Width": "libero",
+      "IconHint": "rerum",
+      "HeadingIconHint": "sunt"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bednar Inc and Sons",
-      "PrimaryKey": 812,
+      "EntityName": "Jast Inc and Sons",
+      "PrimaryKey": 519,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "nam",
-          "LinkHint": "velit"
+          "DisplayValue": "eum",
+          "TooltipHint": "quis",
+          "LinkHint": "architecto"
         }
       },
-      "LinkHint": "ab",
-      "StyleHint": "enim",
+      "LinkHint": "eligendi",
+      "StyleHint": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 546
+          "FieldLength": 813
         }
       }
     }
   ],
-  "RowCount": 981,
+  "RowCount": 376,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 684
     }
   }
 }

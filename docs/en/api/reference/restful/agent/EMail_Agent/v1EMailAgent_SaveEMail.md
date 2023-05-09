@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,155 +118,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 37,
-      "ContactName": "Windler-Toy",
-      "PersonId": 208,
-      "PersonName": "Lakin, Watsica and Runolfsdottir",
-      "AssociateId": 698,
-      "Address": "perspiciatis",
-      "EmailId": 733,
+      "ContactId": 420,
+      "ContactName": "Gerhold, Donnelly and Hauck",
+      "PersonId": 718,
+      "PersonName": "Rohan-Ullrich",
+      "AssociateId": 940,
+      "Address": "qui",
+      "EmailId": 827,
       "DuplicatePersonIds": [
-        139,
-        645
+        463,
+        942
       ],
-      "Name": "Schmitt-Rodriguez",
+      "Name": "Stracke Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 404
+          "FieldLength": 247
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 443,
-      "ContactName": "Ondricka, Bednar and Homenick",
-      "PersonId": 700,
-      "PersonName": "Williamson Group",
-      "AssociateId": 51,
-      "Address": "soluta",
-      "EmailId": 431,
+      "ContactId": 876,
+      "ContactName": "Miller-Dickens",
+      "PersonId": 215,
+      "PersonName": "Herzog-Mayer",
+      "AssociateId": 95,
+      "Address": "eveniet",
+      "EmailId": 189,
       "DuplicatePersonIds": [
-        220,
-        786
+        593,
+        620
       ],
-      "Name": "Ward-Rosenbaum",
+      "Name": "Boyle, Botsford and Reynolds",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 433
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 994,
-      "ContactName": "Prohaska-Robel",
-      "PersonId": 6,
-      "PersonName": "Ankunding Inc and Sons",
-      "AssociateId": 808,
-      "Address": "voluptas",
-      "EmailId": 698,
+      "ContactId": 326,
+      "ContactName": "Simonis, Lockman and Wintheiser",
+      "PersonId": 133,
+      "PersonName": "Hamill, Waelchi and Daugherty",
+      "AssociateId": 471,
+      "Address": "sed",
+      "EmailId": 87,
       "DuplicatePersonIds": [
-        128,
-        114
+        870,
+        712
       ],
-      "Name": "Parisian-Donnelly",
+      "Name": "McKenzie LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 28
+          "FieldType": "System.Int32",
+          "FieldLength": 859
         }
       }
     }
   ],
-  "Subject": "inventore",
-  "HTMLBody": "eum",
+  "Subject": "rerum",
+  "HTMLBody": "maiores",
   "From": null,
-  "Sent": "2007-12-23T15:29:21.775775+01:00",
-  "Size": 467,
+  "Sent": "2015-03-24T03:51:27.2404741+01:00",
+  "Size": 175,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "nemo",
-  "PlainBody": "sed",
+  "MessageID": "architecto",
+  "PlainBody": "iste",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 607,
+  "ServerId": 277,
   "Attachments": [
     {
-      "Description": "Profit-focused cohesive paradigm",
-      "Filename": "consequuntur",
-      "Size": 146,
-      "Type": "et",
-      "Encoding": "possimus",
-      "Id": "ea",
-      "Disposition": "soluta",
+      "Description": "Distributed homogeneous algorithm",
+      "Filename": "ad",
+      "Size": 307,
+      "Type": "qui",
+      "Encoding": "voluptatem",
+      "Id": "sint",
+      "Disposition": "et",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 107
+          "FieldType": "System.Int32",
+          "FieldLength": 225
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Wiza LLC",
+      "Name": "Kub-Parker",
       "Values": [
-        "adipisci",
-        "saepe"
+        "voluptate",
+        "illum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 469
         }
       }
     },
     {
-      "Name": "Wiza LLC",
+      "Name": "Kub-Parker",
       "Values": [
-        "adipisci",
-        "saepe"
+        "voluptate",
+        "illum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 469
         }
       }
     }
   ],
-  "FolderName": "Gaylord-Keebler",
-  "EmailItemId": 238,
-  "AccountId": 676,
-  "ReceivedAt": "2002-05-12T15:29:21.7762749+02:00",
+  "FolderName": "Walter, Kautzer and Goyette",
+  "EmailItemId": 527,
+  "AccountId": 191,
+  "ReceivedAt": "2015-10-02T03:51:27.2404741+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-04-26T15:29:21.7762749+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "1998-09-14T03:51:27.2404741+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   }
 }

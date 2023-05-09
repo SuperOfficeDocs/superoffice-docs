@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "est",
-    "PersonId": 67,
-    "Mrmrs": "nisi",
-    "Firstname": "Lexus",
-    "Lastname": "Stehr",
-    "MiddleName": "Kris Group",
-    "Title": "qui",
-    "Description": "Realigned foreground open system",
-    "Email": "dariana_gaylord@erdman.info",
-    "FullName": "Marina Dare",
-    "DirectPhone": "(607)626-2095",
-    "FormalName": "Corkery-McDermott",
-    "CountryId": 155,
-    "ContactId": 743,
-    "ContactName": "Herman LLC",
-    "Retired": 432,
-    "Rank": 746,
-    "ActiveInterests": 237,
+    "Position": "libero",
+    "PersonId": 992,
+    "Mrmrs": "omnis",
+    "Firstname": "Winnifred",
+    "Lastname": "Leuschke",
+    "MiddleName": "Gutmann-Orn",
+    "Title": "suscipit",
+    "Description": "Inverse high-level knowledge user",
+    "Email": "maggie@hermann.uk",
+    "FullName": "Fanny Beahan",
+    "DirectPhone": "(801)074-2623",
+    "FormalName": "Champlin, Frami and Morar",
+    "CountryId": 88,
+    "ContactId": 896,
+    "ContactName": "Reynolds LLC",
+    "Retired": 811,
+    "Rank": 699,
+    "ActiveInterests": 67,
     "ContactDepartment": "",
-    "ContactCountryId": 641,
-    "ContactOrgNr": "1787169",
-    "FaxPhone": "401-840-6914 x20830",
-    "MobilePhone": "752-515-8385",
-    "ContactPhone": "773-080-4480",
-    "AssociateName": "Pfannerstill Inc and Sons",
-    "AssociateId": 299,
+    "ContactCountryId": 442,
+    "ContactOrgNr": "947139",
+    "FaxPhone": "(150)763-9926",
+    "MobilePhone": "1-775-734-1074",
+    "ContactPhone": "1-170-696-1654",
+    "AssociateName": "Borer, Parisian and Brekke",
+    "AssociateId": 826,
     "UsePersonAddress": false,
-    "ContactFax": "enim",
-    "Kanafname": "et",
-    "Kanalname": "unde",
-    "Post1": "fugit",
-    "Post2": "aut",
-    "Post3": "dolorem",
-    "EmailName": "coralie@rempel.info",
-    "ContactFullName": "Darian Lind",
-    "ActiveErpLinks": 459,
-    "TicketPriorityId": 662,
-    "SupportLanguageId": 859,
-    "SupportAssociateId": 345,
+    "ContactFax": "cumque",
+    "Kanafname": "consequatur",
+    "Kanalname": "consectetur",
+    "Post1": "voluptas",
+    "Post2": "cupiditate",
+    "Post3": "ea",
+    "EmailName": "lucinda_hermiston@mcclurejones.ca",
+    "ContactFullName": "Vanessa Koch",
+    "ActiveErpLinks": 240,
+    "TicketPriorityId": 887,
+    "SupportLanguageId": 100,
+    "SupportAssociateId": 775,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 729
+        "FieldLength": 676
       }
     }
   }

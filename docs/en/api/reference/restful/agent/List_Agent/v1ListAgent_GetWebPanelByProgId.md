@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "et"
+  "ProgId": "eum"
 }
 ```
 
@@ -107,33 +107,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 155,
-  "Name": "Bayer LLC",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 665,
+  "WebPanelId": 122,
+  "Name": "Murray-Cronin",
+  "Tooltip": "necessitatibus",
+  "Deleted": true,
+  "Rank": 803,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Kirlin LLC",
+  "WindowName": "Fisher Group",
   "Url": "http://www.example.com/",
-  "ProgId": "cum",
-  "Icon": 548,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "deleniti",
+  "Icon": 984,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 734
+      "FieldType": "System.Int32",
+      "FieldLength": 986
     }
   }
 }

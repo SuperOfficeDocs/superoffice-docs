@@ -31,8 +31,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=De-engineered disintermediate circuit
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=et,aspernatur
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Profound tangible capacity
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=aut,est
 ```
 
 
@@ -85,11 +85,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "quod",
-  "VersionId": "quia",
+  "ExternalReference": "id",
+  "VersionId": "deserunt",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "blanditiis",
-  "AdditionalInfo": "aut"
+  "Value": "et",
+  "AdditionalInfo": "perferendis"
 }
 ```

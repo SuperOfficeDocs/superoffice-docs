@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 452
+  "Id": 573
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "perferendis",
+  "RawValue": "necessitatibus",
   "Specification": null,
-  "DisplayValue": "consequuntur",
-  "DisplayTooltip": "corporis",
+  "DisplayValue": "eum",
+  "DisplayTooltip": "provident",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 122,
-  "PrefDescId": 185,
-  "TableName": "Olson Group",
-  "UserPreferenceId": 647,
+  "TargetId": 766,
+  "PrefDescId": 478,
+  "TableName": "Tillman-Blanda",
+  "UserPreferenceId": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 838
+      "FieldType": "System.Int32",
+      "FieldLength": 454
     }
   }
 }

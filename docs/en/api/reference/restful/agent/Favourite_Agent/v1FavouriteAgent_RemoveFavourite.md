@@ -69,9 +69,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Huel-Hayes",
-  "RecordId": 435,
-  "AssociateId": 362
+  "TableName": "Stroman, Gaylord and Funk",
+  "RecordId": 772,
+  "AssociateId": 549
 }
 ```
 

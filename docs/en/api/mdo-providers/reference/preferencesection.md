@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "preferencesection"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -52,25 +52,25 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1000003|Customer Centre password policy||ccAuthentication|
 |1000013|Statistics||DataCollection|
-|1000024|Default values||Defaults|
-|1000059|Diary||DiaryView|
-|1000084|Filter Dialog||FilterDialog|
-|1000086|Freetext search||Freetext|
-|1000094|Functions||Functions|
-|1000148|E-mail||Mail|
-|1000210|Marketing||Mailing|
-|1000216|Grouped lists||MDOList|
-|1000513|Data mirroring||Mirroring|
-|1000287|Web Services||NetServices|
-|1000306|Notifications via popup||notification|
-|1000314|Notifications via e-mail||notificationEmail|
-|1000322|Notifications via SMS||notificationSms|
-|1000338|Contact||Person|
-|1000357|Mobile CRM||PocketTasks|
-|1000361|Request||request|
-|1000380|Sale||Sale|
-|1000397|SuperOffice Service system settings||serviceSettings|
-|1000423|Service outbox||serviceSMTP|
+|1000025|Default values||Defaults|
+|1000060|Diary||DiaryView|
+|1000085|Filter Dialog||FilterDialog|
+|1000087|Freetext search||Freetext|
+|1000095|Functions||Functions|
+|1000517|In-app communication||InApp|
+|1000149|E-mail||Mail|
+|1000211|Marketing||Mailing|
+|1000217|Grouped lists||MDOList|
+|1000514|Data mirroring||Mirroring|
+|1000288|Web Services||NetServices|
+|1000307|Notifications via popup||notification|
+|1000315|Notifications via e-mail||notificationEmail|
+|1000323|Notifications via SMS||notificationSms|
+|1000339|Contact||Person|
+|1000358|Mobile CRM||PocketTasks|
+|1000362|Request||request|
+|1000381|Sale||Sale|
+|1000398|SuperOffice Service system settings||serviceSettings|
 
 
 ## Related MDO Lists

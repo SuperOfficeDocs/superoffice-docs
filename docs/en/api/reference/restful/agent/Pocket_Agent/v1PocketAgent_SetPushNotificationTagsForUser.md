@@ -70,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 91,
-  "Tags": "dolore"
+  "AssociateId": 594,
+  "Tags": "sit"
 }
 ```
 

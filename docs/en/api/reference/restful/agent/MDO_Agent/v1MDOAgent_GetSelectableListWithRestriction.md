@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Stroman Group",
-  "AdditionalInfo": "laudantium",
-  "SearchValue": "ratione"
+  "Name": "Kunde-Bergstrom",
+  "AdditionalInfo": "eligendi",
+  "SearchValue": "quaerat"
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Jewess-Blick",
-    "ToolTip": "Quisquam magni maxime velit quam.",
+    "Id": 321,
+    "Name": "O'Reilly-Dare",
+    "ToolTip": "Quo voluptatem molestiae impedit.",
     "Deleted": false,
-    "Rank": 476,
-    "Type": "aliquid",
-    "ColorBlock": 288,
-    "IconHint": "minus",
-    "Selected": false,
-    "LastChanged": "2016-08-29T15:29:22.1493106+02:00",
+    "Rank": 884,
+    "Type": "quae",
+    "ColorBlock": 996,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2002-12-31T03:51:27.5216578+01:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Medhurst-Stoltenberg",
-        "ToolTip": "Maiores nobis voluptates a ex.",
-        "Deleted": false,
-        "Rank": 102,
-        "Type": "ut",
-        "ColorBlock": 80,
-        "IconHint": "aspernatur",
-        "Selected": true,
-        "LastChanged": "2015-03-24T15:29:22.1493106+01:00",
+        "Id": 70,
+        "Name": "Bartoletti, Frami and Maggio",
+        "ToolTip": "Autem doloremque.",
+        "Deleted": true,
+        "Rank": 969,
+        "Type": "possimus",
+        "ColorBlock": 482,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2008-07-13T03:51:27.5216578+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "qui",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "ex",
         "Hidden": false,
-        "FullName": "Fredy Cummerata",
+        "FullName": "Arlo Kub",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 569
+            "FieldLength": 458
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "harum",
-    "Hidden": false,
-    "FullName": "Miss Freeman Consuelo Moore I",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "maxime",
+    "Hidden": true,
+    "FullName": "Quinten Forest Casper I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 485
+        "FieldLength": 210
       }
     }
   }

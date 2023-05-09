@@ -81,24 +81,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "perferendis",
-  "ProviderName": "Roberts LLC",
-  "StorageKey": "error",
+  "StorageType": "explicabo",
+  "ProviderName": "Beahan, Boehm and Bauch",
+  "StorageKey": "ab",
   "Restrictions": [
     {
-      "Name": "Jenkins-Ortiz",
-      "Operator": "non",
+      "Name": "Kihn, Huel and DuBuque",
+      "Operator": "optio",
       "Values": [
-        "non",
-        "pariatur"
+        "sunt",
+        "nihil"
       ],
       "DisplayValues": [
-        "commodi",
-        "ut"
+        "vel",
+        "deleniti"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,14 +106,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 195,
+      "InterParenthesis": 244,
       "InterOperator": "And",
-      "UniqueHash": 235
+      "UniqueHash": 901
     }
   ],
   "StaticColumns": [
-    "et",
-    "sint"
+    "dolore",
+    "id"
   ]
 }
 ```
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wuckert, Stiedemann and Hettinger",
-      "Operator": "officia",
+      "Name": "Paucek-Herman",
+      "Operator": "voluptas",
       "Values": [
-        "cumque",
-        "alias"
+        "assumenda",
+        "libero"
       ],
       "DisplayValues": [
-        "deleniti",
-        "quod"
+        "dicta",
+        "nihil"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 896,
+      "InterParenthesis": 462,
       "InterOperator": "And",
-      "UniqueHash": 202
+      "UniqueHash": 719
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kunde Inc and Sons",
-      "DisplayTooltip": "id",
-      "DisplayType": "voluptate",
+      "DisplayName": "Ernser-Reichel",
+      "DisplayTooltip": "ea",
+      "DisplayType": "distinctio",
       "CanOrderBy": false,
-      "Name": "Weissnat-Denesik",
-      "CanRestrictBy": false,
-      "RestrictionType": "eaque",
-      "RestrictionListName": "Kassulke-Crona",
+      "Name": "Kautzer-Hessel",
+      "CanRestrictBy": true,
+      "RestrictionType": "veritatis",
+      "RestrictionListName": "Kautzer-Spinka",
       "IsVisible": false,
-      "ExtraInfo": "in",
-      "Width": "sed",
-      "IconHint": "qui",
-      "HeadingIconHint": "ut"
+      "ExtraInfo": "minima",
+      "Width": "voluptas",
+      "IconHint": "consequatur",
+      "HeadingIconHint": "autem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Koepp LLC",
-      "PrimaryKey": 14,
+      "EntityName": "Powlowski, Stokes and Pfannerstill",
+      "PrimaryKey": 617,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptates",
-          "TooltipHint": "dolorum",
-          "LinkHint": "sit"
+          "DisplayValue": "repellendus",
+          "TooltipHint": "minima",
+          "LinkHint": "adipisci"
         }
       },
-      "LinkHint": "modi",
-      "StyleHint": "aut",
+      "LinkHint": "non",
+      "StyleHint": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 389
+          "FieldType": "System.Int32",
+          "FieldLength": 615
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Larson-Weissnat",
-      "Description": "Multi-layered systematic product",
-      "Rank": 191,
+      "Name": "Altenwerth-Hartmann",
+      "Description": "Multi-channelled cohesive solution",
+      "Rank": 809,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Larson-Weissnat",
-      "Description": "Multi-layered systematic product",
-      "Rank": 191,
+      "Name": "Altenwerth-Hartmann",
+      "Description": "Multi-channelled cohesive solution",
+      "Rank": 809,
       "Restrictions": [
         {},
         {}
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 25
     }
   }
 }

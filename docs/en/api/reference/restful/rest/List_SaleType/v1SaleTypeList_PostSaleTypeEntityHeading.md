@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 52,
-  "Name": "Conroy, Hagenes and Denesik",
-  "Tooltip": "doloribus",
-  "Deleted": true,
-  "Rank": 102,
-  "UdListDefinitionId": 169
+  "HeadingId": 401,
+  "Name": "Murphy Group",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "Rank": 384,
+  "UdListDefinitionId": 160
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 267,
-  "Name": "Osinski, Hane and Cronin",
-  "Tooltip": "harum",
+  "HeadingId": 777,
+  "Name": "Marvin, Purdy and Reichel",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "Rank": 431,
-  "UdListDefinitionId": 138,
+  "Rank": 250,
+  "UdListDefinitionId": 871,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 126
     }
   }
 }

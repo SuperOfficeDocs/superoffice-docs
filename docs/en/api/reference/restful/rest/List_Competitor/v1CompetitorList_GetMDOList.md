@@ -25,8 +25,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=dolorem
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=omnis
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Borer, Kulas and Mraz",
-    "ToolTip": "Voluptatum aliquid hic non omnis.",
+    "Id": 878,
+    "Name": "Cremin-O'Conner",
+    "ToolTip": "Nesciunt soluta pariatur.",
     "Deleted": false,
-    "Rank": 712,
-    "Type": "consequuntur",
+    "Rank": 11,
+    "Type": "saepe",
     "ChildItems": [
       {
-        "Id": 809,
-        "Name": "Rau, D'Amore and Conroy",
-        "ToolTip": "Totam iure quo ut ea et est et.",
+        "Id": 178,
+        "Name": "Collier Inc and Sons",
+        "ToolTip": "Est beatae.",
         "Deleted": true,
-        "Rank": 967,
-        "Type": "blanditiis",
+        "Rank": 222,
+        "Type": "soluta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugiat",
-        "ColorBlock": 640,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "minima",
-        "FullName": "Ms. Raquel Howell",
+        "IconHint": "velit",
+        "ColorBlock": 414,
+        "ExtraInfo": "unde",
+        "StyleHint": "sed",
+        "FullName": "Royal Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 529
+            "FieldType": "System.Int32",
+            "FieldLength": 233
           }
         }
       }
     ],
-    "IconHint": "odio",
-    "ColorBlock": 44,
-    "ExtraInfo": "aut",
-    "StyleHint": "nulla",
-    "FullName": "Dr. Annie Anika Klein MD",
+    "IconHint": "magnam",
+    "ColorBlock": 984,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "rem",
+    "FullName": "Dr. Bill Albina Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 456
       }
     }
   }

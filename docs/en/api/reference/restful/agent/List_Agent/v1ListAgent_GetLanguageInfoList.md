@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,19 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 621,
-    "LCID": 432,
-    "EnglishName": "Kohler, Mohr and Kulas",
-    "NativeName": "Runolfsson-Wyman",
-    "ThreeLetterISOLanguageName": "Collier LLC",
-    "TwoLetterISOLanguageName": "Lehner Inc and Sons",
+    "LanguageInfoId": 753,
+    "LCID": 534,
+    "EnglishName": "Weimann LLC",
+    "NativeName": "Pacocha-Pfannerstill",
+    "ThreeLetterISOLanguageName": "Leannon-Sanford",
+    "TwoLetterISOLanguageName": "Gusikowski, Borer and Halvorson",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldType": "System.String",
+        "FieldLength": 372
       }
     }
   }

@@ -25,7 +25,7 @@ Gets a WorkflowTrigger object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=721
+POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=581
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 107,
-  "WorkflowId": 492,
+  "WorkflowTriggerId": 278,
+  "WorkflowId": 146,
   "TriggerType": "AddToList",
   "RestrictionGroups": [
     {
-      "Name": "Baumbach LLC",
-      "Description": "Polarised system-worthy initiative",
-      "Rank": 590,
+      "Name": "Fay Group",
+      "Description": "Networked impactful solution",
+      "Rank": 599,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Baumbach LLC",
-      "Description": "Polarised system-worthy initiative",
-      "Rank": 590,
+      "Name": "Fay Group",
+      "Description": "Networked impactful solution",
+      "Rank": 599,
       "Restrictions": [
         {},
         {}
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldType": "System.Int32",
+      "FieldLength": 237
     }
   }
 }

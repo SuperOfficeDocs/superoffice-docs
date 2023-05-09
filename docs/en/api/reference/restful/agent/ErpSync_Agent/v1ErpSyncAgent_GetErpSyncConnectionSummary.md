@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 137
+  "ErpSyncConnectionId": 717
 }
 ```
 
@@ -94,37 +94,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Armstrong-Willms",
-  "DisplayDescription": "Right-sized background architecture",
+  "DisplayName": "Koch, Bergstrom and Gleason",
+  "DisplayDescription": "Front-line 4th generation workforce",
   "Active": false,
-  "Deleted": false,
-  "LastSync": "2015-04-28T15:29:21.8407749+02:00",
+  "Deleted": true,
+  "LastSync": "2006-01-20T03:51:27.287336+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "velit",
-      "Mappings": "illum",
+      "Defaults": "et",
+      "Mappings": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 89
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "velit",
-      "Mappings": "illum",
+      "Defaults": "et",
+      "Mappings": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 89
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldType": "System.String",
+      "FieldLength": 677
     }
   }
 }

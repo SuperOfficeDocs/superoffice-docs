@@ -25,7 +25,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=240
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=939
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 587,
-  "PlainMessage": "excepturi",
-  "HtmlMessage": "quia",
-  "SmsMessage": "dolorum",
-  "Description": "Reduced well-modulated structure",
-  "Subject": "porro",
-  "FolderId": 101,
-  "HeaderField": "eos",
-  "Design": "iure",
+  "ShipmentMessageId": 861,
+  "PlainMessage": "modi",
+  "HtmlMessage": "dolores",
+  "SmsMessage": "et",
+  "Description": "Public-key next generation adapter",
+  "Subject": "illo",
+  "FolderId": 204,
+  "HeaderField": "et",
+  "Design": "placeat",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Upgradable analyzing hierarchy",
-  "AccessKey": "deserunt",
-  "DocumentMessage": 878,
-  "Registered": "1998-08-30T15:29:22.1352708+02:00",
-  "RegisteredAssociateId": 575,
-  "Updated": "2017-08-12T15:29:22.1352708+02:00",
-  "UpdatedAssociateId": 481,
-  "UpdatedCount": 843,
+  "LongDescription": "Managed incremental database",
+  "AccessKey": "et",
+  "DocumentMessage": 598,
+  "Registered": "1996-02-11T03:51:27.5216578+01:00",
+  "RegisteredAssociateId": 448,
+  "Updated": "2003-02-19T03:51:27.5216578+01:00",
+  "UpdatedAssociateId": 882,
+  "UpdatedCount": 177,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 116
     }
   }
 }

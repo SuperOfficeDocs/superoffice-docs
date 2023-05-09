@@ -100,21 +100,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 306,
-  "UniqueIdentifier": "rerum",
-  "Name": "Boehm, Wintheiser and Mayer",
-  "Description": "Synergistic global neural-net",
-  "IncludeId": "sit",
-  "HierarchyId": 919,
-  "Source": "et",
-  "Registered": "2000-01-08T15:29:29.6282015+01:00",
-  "RegisteredAssociateId": 142,
-  "Updated": "2017-03-13T15:29:29.6282015+01:00",
-  "UpdatedAssociateId": 944
+  "EjscriptId": 53,
+  "UniqueIdentifier": "iusto",
+  "Name": "Hahn, Nienow and Ondricka",
+  "Description": "Down-sized responsive complexity",
+  "IncludeId": "nihil",
+  "HierarchyId": 97,
+  "Source": "est",
+  "Registered": "2020-07-29T03:51:33.5678642+02:00",
+  "RegisteredAssociateId": 273,
+  "Updated": "2005-07-24T03:51:33.5678642+02:00",
+  "UpdatedAssociateId": 846
 }
 ```
 
@@ -125,28 +125,28 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 107,
-  "UniqueIdentifier": "rerum",
-  "Name": "Schneider-Miller",
-  "Description": "Intuitive motivating knowledge user",
-  "IncludeId": "ullam",
-  "HierarchyId": 10,
-  "Source": "repudiandae",
-  "Registered": "1999-06-01T15:29:29.6287007+02:00",
-  "RegisteredAssociateId": 847,
-  "Updated": "2013-03-13T15:29:29.6287007+01:00",
-  "UpdatedAssociateId": 840,
+  "EjscriptId": 422,
+  "UniqueIdentifier": "eos",
+  "Name": "Mills, Dooley and Kohler",
+  "Description": "Persevering client-driven ability",
+  "IncludeId": "eos",
+  "HierarchyId": 876,
+  "Source": "rerum",
+  "Registered": "2017-10-21T03:51:33.5678642+02:00",
+  "RegisteredAssociateId": 793,
+  "Updated": "2000-11-12T03:51:33.5678642+01:00",
+  "UpdatedAssociateId": 454,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldLength": 568
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

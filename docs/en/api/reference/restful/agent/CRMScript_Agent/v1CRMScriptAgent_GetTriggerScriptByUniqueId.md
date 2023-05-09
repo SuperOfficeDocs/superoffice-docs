@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "fugit"
+  "TriggerScriptUniqueId": "tempora"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 215,
-  "Name": "Schuppe-Lang",
+  "ScreenChooserId": 920,
+  "Name": "Bayer-Conroy",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "dolor",
-  "Source": "dolorem",
-  "Registered": "2012-06-23T15:29:21.2607834+02:00",
-  "RegisteredAssociateId": 206,
-  "Updated": "2017-02-02T15:29:21.2607834+01:00",
-  "UpdatedAssociateId": 645,
+  "Enabled": false,
+  "UniqueIdentifier": "pariatur",
+  "Source": "ad",
+  "Registered": "2006-04-16T03:51:26.9436626+02:00",
+  "RegisteredAssociateId": 218,
+  "Updated": "2014-08-13T03:51:26.9436626+02:00",
+  "UpdatedAssociateId": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldType": "System.String",
+      "FieldLength": 580
     }
   }
 }

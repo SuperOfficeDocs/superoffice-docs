@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "West-Schiller",
-    "ToolTip": "Deleniti nihil sit id.",
+    "Id": 388,
+    "Name": "Weber, Batz and Lubowitz",
+    "ToolTip": "Nihil culpa in rerum fugiat.",
     "Deleted": false,
-    "Rank": 705,
-    "Type": "recusandae",
-    "ColorBlock": 702,
-    "IconHint": "laudantium",
-    "Selected": false,
-    "LastChanged": "1999-01-15T15:29:31.4484779+01:00",
+    "Rank": 826,
+    "Type": "eos",
+    "ColorBlock": 272,
+    "IconHint": "impedit",
+    "Selected": true,
+    "LastChanged": "2022-07-05T03:51:34.833319+02:00",
     "ChildItems": [
       {
-        "Id": 956,
-        "Name": "Kiehn-Walsh",
-        "ToolTip": "Quia dolor.",
+        "Id": 721,
+        "Name": "Corkery, Roberts and Goodwin",
+        "ToolTip": "Aperiam eveniet sint.",
         "Deleted": true,
-        "Rank": 167,
-        "Type": "quasi",
-        "ColorBlock": 641,
-        "IconHint": "quia",
+        "Rank": 318,
+        "Type": "sint",
+        "ColorBlock": 173,
+        "IconHint": "fugit",
         "Selected": true,
-        "LastChanged": "2011-10-12T15:29:31.4484779+02:00",
+        "LastChanged": "2018-03-13T03:51:34.833319+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "itaque",
-        "Hidden": true,
-        "FullName": "Kaycee Mueller"
+        "ExtraInfo": "enim",
+        "StyleHint": "harum",
+        "Hidden": false,
+        "FullName": "Erna Stanton"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "id",
+    "ExtraInfo": "dolores",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Mr. Dannie Aufderhar Sr."
+    "FullName": "Prof. Brook Armstrong"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 262,
-    "Name": "Block, Berge and Considine",
-    "ToolTip": "Qui qui non amet sit dolor nihil at.",
-    "Deleted": true,
-    "Rank": 137,
-    "Type": "aut",
-    "ColorBlock": 502,
-    "IconHint": "explicabo",
-    "Selected": false,
-    "LastChanged": "1997-08-08T15:29:31.4499762+02:00",
+    "Id": 674,
+    "Name": "Cruickshank LLC",
+    "ToolTip": "At dolor.",
+    "Deleted": false,
+    "Rank": 945,
+    "Type": "est",
+    "ColorBlock": 467,
+    "IconHint": "hic",
+    "Selected": true,
+    "LastChanged": "1999-09-08T03:51:34.833319+02:00",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "Schamberger, Schowalter and Erdman",
-        "ToolTip": "Qui maiores et corporis ipsam magnam nihil explicabo.",
+        "Id": 655,
+        "Name": "Romaguera Group",
+        "ToolTip": "Dolor labore.",
         "Deleted": true,
-        "Rank": 101,
-        "Type": "dignissimos",
-        "ColorBlock": 73,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2021-12-18T15:29:31.4499762+01:00",
+        "Rank": 849,
+        "Type": "et",
+        "ColorBlock": 151,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2015-11-29T03:51:34.833319+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "id",
-        "Hidden": true,
-        "FullName": "Prof. Malika Cassin",
+        "ExtraInfo": "nam",
+        "StyleHint": "perspiciatis",
+        "Hidden": false,
+        "FullName": "Aidan Etha Bode I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 728
+            "FieldLength": 618
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "deserunt",
-    "Hidden": false,
-    "FullName": "Berta Schuster",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "animi",
+    "Hidden": true,
+    "FullName": "Vena Klocko",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldLength": 409
       }
     }
   }

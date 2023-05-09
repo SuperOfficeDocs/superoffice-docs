@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,53 +85,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 450,
-  "Name": "McDermott-Ullrich",
-  "Tooltip": "incidunt",
-  "Rank": 803,
+  "SaleTypeId": 529,
+  "Name": "Stracke, Will and Rohan",
+  "Tooltip": "dolorum",
+  "Rank": 746,
   "DurationUnit": "Century",
-  "SaleDuration": 140,
-  "SaleTypeCatId": 828,
+  "SaleDuration": 385,
+  "SaleTypeCatId": 503,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 869,
-  "QuoteLinesTemplate": 172,
-  "ConfirmationLinesTemplate": 317,
+  "DefaultQuoteValidity": 114,
+  "QuoteLinesTemplate": 14,
+  "ConfirmationLinesTemplate": 712,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 489,
-  "MinEarningPercent": 831,
-  "GroupQuoteLinesBy": 652,
-  "SortGroupLinesBy": 850,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 752,
+  "MinEarningPercent": 691,
+  "GroupQuoteLinesBy": 799,
+  "SortGroupLinesBy": 272,
   "Stages": [
     {
-      "Id": 221,
-      "Name": "Kozey-Bosco",
-      "ToolTip": "Non explicabo quod deserunt itaque.",
-      "Deleted": false,
-      "Rank": 346,
-      "Type": "ducimus",
-      "ColorBlock": 1001,
-      "IconHint": "ea",
+      "Id": 604,
+      "Name": "Rogahn Inc and Sons",
+      "ToolTip": "Dolore labore quis id ut.",
+      "Deleted": true,
+      "Rank": 460,
+      "Type": "architecto",
+      "ColorBlock": 225,
+      "IconHint": "sed",
       "Selected": false,
-      "LastChanged": "2014-07-29T15:29:31.5859738+02:00",
+      "LastChanged": "2019-04-03T03:51:34.9426529+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "ut",
-      "Hidden": true,
-      "FullName": "Beth Jast",
+      "ExtraInfo": "a",
+      "StyleHint": "earum",
+      "Hidden": false,
+      "FullName": "Mr. Cristobal Kerluke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 180
+          "FieldLength": 668
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldLength": 230
     }
   }
 }

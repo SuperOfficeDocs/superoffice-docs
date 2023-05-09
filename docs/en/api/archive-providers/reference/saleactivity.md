@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleActivity"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -710,7 +710,7 @@ Activity archive provider for the Sale card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=person/supportAssociateFullName,person/personPrivate/formattedNumber,person/personExtra/x_person_request_relation,contact/countryId,contact/NumberOfNotCompletedTicketsInPeriod
+GET /api/v1/archive/SaleActivity?$select=time,person/personHasInterests,person/email/emailProtocol,contact/registeredBy,contact/contactInterestIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

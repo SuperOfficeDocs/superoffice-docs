@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=consequuntur
+GET /api/v1/List/ConsentPurpose/MDOItems?query=pariatur
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Toy Inc and Sons",
-    "ToolTip": "Animi porro sed asperiores sit quos.",
-    "Deleted": true,
-    "Rank": 903,
-    "Type": "perspiciatis",
+    "Id": 879,
+    "Name": "Jacobs Inc and Sons",
+    "ToolTip": "Voluptatem ullam odio et natus ad aut.",
+    "Deleted": false,
+    "Rank": 944,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Grant-Hauck",
-        "ToolTip": "Dolores iste omnis autem.",
-        "Deleted": true,
-        "Rank": 698,
-        "Type": "sunt",
+        "Id": 124,
+        "Name": "Metz Inc and Sons",
+        "ToolTip": "Quasi in assumenda voluptate incidunt illum.",
+        "Deleted": false,
+        "Rank": 649,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 746,
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "sunt",
-        "FullName": "Roderick Hessel",
+        "IconHint": "libero",
+        "ColorBlock": 451,
+        "ExtraInfo": "libero",
+        "StyleHint": "voluptates",
+        "FullName": "Skylar Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 326
+            "FieldType": "System.String",
+            "FieldLength": 479
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 847,
-    "ExtraInfo": "aliquam",
-    "StyleHint": "id",
-    "FullName": "Mrs. Rhoda Lura Considine",
+    "IconHint": "ut",
+    "ColorBlock": 585,
+    "ExtraInfo": "minima",
+    "StyleHint": "nam",
+    "FullName": "Ms. Morris Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldLength": 84
       }
     }
   }

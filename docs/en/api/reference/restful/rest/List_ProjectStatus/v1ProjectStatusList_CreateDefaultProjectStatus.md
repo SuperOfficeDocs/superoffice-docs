@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 387,
-  "Name": "Berge-Cronin",
-  "Tooltip": "culpa",
+  "Id": 136,
+  "Name": "Keeling LLC",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "UdListDefinitionId": 791,
-  "Rank": 135,
+  "UdListDefinitionId": 236,
+  "Rank": 552,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldLength": 169
     }
   }
 }

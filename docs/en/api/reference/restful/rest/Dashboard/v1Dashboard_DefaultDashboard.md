@@ -60,7 +60,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 935,
-  "AssociateId": 154,
-  "Caption": "pariatur",
+  "DashboardId": 683,
+  "AssociateId": 902,
+  "Caption": "fuga",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 307,
-      "Caption": "provident",
-      "Description": "Profit-focused cohesive infrastructure",
-      "ChartName": "Ankunding Inc and Sons",
-      "ChartId": "quaerat",
-      "IsDefault": true,
-      "AssociateId": 164,
-      "GroupId": 571,
-      "SelectionId": 620,
-      "Config": "ducimus",
+      "DashboardTileId": 630,
+      "Caption": "rerum",
+      "Description": "Extended 5th generation installation",
+      "ChartName": "Gorczany, Schaden and Runolfsdottir",
+      "ChartId": "qui",
+      "IsDefault": false,
+      "AssociateId": 71,
+      "GroupId": 455,
+      "SelectionId": 476,
+      "Config": "eligendi",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 848
         }
       }
     }
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 231
     }
   }
 }

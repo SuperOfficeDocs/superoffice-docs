@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=aut
-GET /api/v1/Script?$top=506
-GET /api/v1/Script?$skip=586
+GET /api/v1/Script?$entities=labore
+GET /api/v1/Script?$top=935
+GET /api/v1/Script?$skip=787
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=saepe
+GET /api/v1/Script?$context=perferendis
 GET /api/v1/Script?$format=JSON
 GET /api/v1/Script?$jsonSafe=False
 GET /api/v1/Script?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Script
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "a",
+  "odata.nextLink": "corrupti",
   "value": [
     {
-      "PrimaryKey": 1464,
+      "PrimaryKey": 6364,
       "EntityName": "sale",
-      "saleId": 1464,
-      "contactId": 2636,
-      "name": "Thompson-Quigley"
+      "saleId": 6364,
+      "contactId": 7612,
+      "name": "Gusikowski, Hand and Jacobi"
     },
     {
-      "PrimaryKey": 262,
+      "PrimaryKey": 7745,
       "EntityName": "sale",
-      "saleId": 262,
-      "contactId": 5426,
-      "name": "Bogan, Watsica and Harris"
+      "saleId": 7745,
+      "contactId": 467,
+      "name": "Sauer-Goodwin"
     }
   ]
 }

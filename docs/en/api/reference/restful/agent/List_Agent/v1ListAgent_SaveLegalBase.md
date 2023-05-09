@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 638,
-  "Name": "Maggio-Connelly",
-  "Tooltip": "voluptas",
-  "Rank": 608,
-  "Key": "porro",
+  "LegalBaseId": 453,
+  "Name": "Beahan, Moore and Jacobson",
+  "Tooltip": "mollitia",
+  "Rank": 55,
+  "Key": "aut",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 894
     }
   }
 }

@@ -80,28 +80,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 22 Dec 2004 15:29:29 G12T
+Last-Modified: Fri, 26 Aug 2011 03:51:33 G8T
 
 {
-  "BlobId": 169,
-  "BlobSize": 848,
-  "Description": "Upgradable well-modulated standardization",
-  "ExtraInfo": "repudiandae",
+  "BlobId": 883,
+  "BlobSize": 862,
+  "Description": "Configurable non-volatile leverage",
+  "ExtraInfo": "quisquam",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "laboriosam",
-  "OriginalSize": 449,
-  "CreatedDate": "2008-07-20T15:29:29.9256978+02:00",
-  "UpdatedDate": "2004-12-22T15:29:29.9256978+01:00",
+  "IsZipped": true,
+  "MimeType": "debitis",
+  "OriginalSize": 441,
+  "CreatedDate": "1997-07-16T03:51:33.802183+02:00",
+  "UpdatedDate": "2011-08-26T03:51:33.802183+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "modi",
+  "ConceptualType": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 395
     }
   }
 }

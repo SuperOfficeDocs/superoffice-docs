@@ -69,13 +69,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Grady Group",
-  "EntityId": 983,
-  "TargetLanguage": "a"
+  "EntityName": "Howe, Ratke and Skiles",
+  "EntityId": 312,
+  "TargetLanguage": "doloribus"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eos"
+"sit"
 ```

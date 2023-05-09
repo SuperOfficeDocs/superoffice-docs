@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,36 +88,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 361,
-  "ParentId": 292,
-  "Name": "O'Conner-Hickle",
-  "Fullname": "fuga",
-  "CategoryMaster": 161,
+  "TicketCategoryId": 410,
+  "ParentId": 897,
+  "Name": "Jaskolski LLC",
+  "Fullname": "placeat",
+  "CategoryMaster": 609,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Grimes Group",
+  "ExternalName": "Huel Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 106,
-  "ReplyTemplate": 128,
-  "NotificationEmail": "jaylon.cummings@heidenreich.info",
+  "AssignmentLag": 751,
+  "ReplyTemplate": 489,
+  "NotificationEmail": "hanna@wiza.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 4,
+  "EffectiveReplyTemplateId": 266,
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "veritatis"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "culpa"
+    "CustomFields1": "ut",
+    "CustomFields2": "unde"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 6
+      "FieldType": "System.Int32",
+      "FieldLength": 911
     }
   }
 }

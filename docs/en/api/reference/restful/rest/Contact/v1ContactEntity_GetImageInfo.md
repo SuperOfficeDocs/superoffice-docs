@@ -80,28 +80,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 09 Jan 2023 15:29:29 G1T
+Last-Modified: Thu, 21 Apr 2011 03:51:33 G4T
 
 {
-  "BlobId": 765,
-  "BlobSize": 20,
-  "Description": "Cross-group multimedia open system",
-  "ExtraInfo": "molestias",
+  "BlobId": 13,
+  "BlobSize": 220,
+  "Description": "Horizontal zero tolerance frame",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quisquam",
-  "OriginalSize": 151,
-  "CreatedDate": "2009-05-11T15:29:29.4657052+02:00",
-  "UpdatedDate": "2023-01-09T15:29:29.4657052+01:00",
+  "MimeType": "recusandae",
+  "OriginalSize": 795,
+  "CreatedDate": "2011-04-10T03:51:33.2554342+02:00",
+  "UpdatedDate": "2011-04-21T03:51:33.2554342+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cumque",
+  "ConceptualType": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldType": "System.String",
+      "FieldLength": 81
     }
   }
 }

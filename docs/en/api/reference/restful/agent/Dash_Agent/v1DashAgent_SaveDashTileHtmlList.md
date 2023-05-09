@@ -78,15 +78,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 776,
+  "DashboardTileDefinitionId": 452,
   "Languages": [
     {
-      "LanguageCode": "quidem",
-      "Html": "possimus"
+      "LanguageCode": "vero",
+      "Html": "quod"
     },
     {
-      "LanguageCode": "quidem",
-      "Html": "possimus"
+      "LanguageCode": "vero",
+      "Html": "quod"
     }
   ]
 }
@@ -100,26 +100,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "corrupti",
-    "Html": "atque",
+    "LanguageCode": "porro",
+    "Html": "repellat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 310
+        "FieldLength": 127
       }
     }
   },
   {
-    "LanguageCode": "corrupti",
-    "Html": "atque",
+    "LanguageCode": "porro",
+    "Html": "repellat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 310
+        "FieldLength": 127
       }
     }
   }

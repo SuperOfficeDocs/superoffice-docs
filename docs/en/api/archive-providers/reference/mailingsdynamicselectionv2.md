@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "MailingsDynamicSelectionV2"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -567,7 +567,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionV2?$select=date,mailingAddr/contact/NumberOfNotCompletedActivities,mailingAddr/person/personInfo/infoText
+GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingAddr/contact/countryId,mailingAddr/contact/email/emailBounceCount,mailingAddr/contact/restrictionAddress/addressId,mailingAddr/contact/contactExtra/x_contact_date,mailingAddr/person/associateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

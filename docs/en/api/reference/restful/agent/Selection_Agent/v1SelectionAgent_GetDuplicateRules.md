@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Boyer-Lind",
-    "DisplayName": "Hyatt, Miller and Schroeder",
-    "DisplayTooltip": "reiciendis",
-    "IsActive": false,
+    "Name": "Leannon, Emard and Sanford",
+    "DisplayName": "Balistreri-Reinger",
+    "DisplayTooltip": "enim",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 188
+        "FieldType": "System.Int32",
+        "FieldLength": 721
       }
     }
   },
   {
-    "Name": "Boyer-Lind",
-    "DisplayName": "Hyatt, Miller and Schroeder",
-    "DisplayTooltip": "reiciendis",
-    "IsActive": false,
+    "Name": "Leannon, Emard and Sanford",
+    "DisplayName": "Balistreri-Reinger",
+    "DisplayTooltip": "enim",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 188
+        "FieldType": "System.Int32",
+        "FieldLength": 721
       }
     }
   }

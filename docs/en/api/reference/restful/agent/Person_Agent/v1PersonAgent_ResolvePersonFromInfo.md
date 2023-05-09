@@ -78,19 +78,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 651,
-  "PersonName": "Bergstrom-Flatley",
+  "ContactId": 67,
+  "PersonName": "Ritchie Inc and Sons",
   "PhoneNumbers": [
-    "534057",
-    "1048541"
+    "365924",
+    "1578571"
   ],
   "Emails": [
-    "nat_purdy@gibson.com",
-    "lacy@kulas.ca"
+    "lisandro@dooley.us",
+    "maddison@kohlervon.co.uk"
   ]
 }
 ```
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldType": "System.Int32",
+      "FieldLength": 593
     }
   }
 }

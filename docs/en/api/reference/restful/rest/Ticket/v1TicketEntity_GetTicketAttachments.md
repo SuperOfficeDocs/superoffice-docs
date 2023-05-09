@@ -64,7 +64,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,19 +75,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 336,
-    "Name": "Kemmer LLC",
-    "ContentType": "tenetur",
-    "AttSize": 748,
+    "AttachmentId": 527,
+    "Name": "Stark Inc and Sons",
+    "ContentType": "at",
+    "AttSize": 291,
     "InlineImage": false,
-    "ContentId": "iusto",
-    "AuthKey": "quae",
+    "ContentId": "mollitia",
+    "AuthKey": "quisquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 914
+        "FieldType": "System.Int32",
+        "FieldLength": 881
       }
     }
   }

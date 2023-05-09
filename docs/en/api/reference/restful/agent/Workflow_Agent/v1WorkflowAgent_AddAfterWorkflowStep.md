@@ -78,7 +78,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 14,
+  "WorkflowStepId": 155,
   "SubStep": null
 }
 ```
@@ -90,9 +90,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 434,
-  "WorkflowId": 955,
+  "WorkflowStepId": 117,
+  "WorkflowId": 819,
   "StepType": "AddToList",
-  "Rank": 189
+  "Rank": 932
 }
 ```

@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 462,
-  "Restrictions": "ipsa"
+  "DashboardTileId": 885,
+  "Restrictions": "enim"
 }
 ```
 
@@ -91,19 +91,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Doyle, Kunde and Schmitt",
-        "DisplayTooltip": "eveniet",
-        "DisplayType": "sint",
-        "CanOrderBy": false,
-        "Name": "Balistreri, Nitzsche and Koepp",
+        "DisplayName": "Metz-Cummings",
+        "DisplayTooltip": "consequatur",
+        "DisplayType": "et",
+        "CanOrderBy": true,
+        "Name": "Hessel-Haag",
         "CanRestrictBy": false,
-        "RestrictionType": "qui",
-        "RestrictionListName": "Durgan LLC",
-        "IsVisible": false,
-        "ExtraInfo": "qui",
-        "Width": "asperiores",
-        "IconHint": "illum",
-        "HeadingIconHint": "non"
+        "RestrictionType": "illo",
+        "RestrictionListName": "Williamson-Walsh",
+        "IsVisible": true,
+        "ExtraInfo": "eaque",
+        "Width": "aut",
+        "IconHint": "omnis",
+        "HeadingIconHint": "quasi"
       }
     ],
     "Result": null
@@ -111,19 +111,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Doyle, Kunde and Schmitt",
-        "DisplayTooltip": "eveniet",
-        "DisplayType": "sint",
-        "CanOrderBy": false,
-        "Name": "Balistreri, Nitzsche and Koepp",
+        "DisplayName": "Metz-Cummings",
+        "DisplayTooltip": "consequatur",
+        "DisplayType": "et",
+        "CanOrderBy": true,
+        "Name": "Hessel-Haag",
         "CanRestrictBy": false,
-        "RestrictionType": "qui",
-        "RestrictionListName": "Durgan LLC",
-        "IsVisible": false,
-        "ExtraInfo": "qui",
-        "Width": "asperiores",
-        "IconHint": "illum",
-        "HeadingIconHint": "non"
+        "RestrictionType": "illo",
+        "RestrictionListName": "Williamson-Walsh",
+        "IsVisible": true,
+        "ExtraInfo": "eaque",
+        "Width": "aut",
+        "IconHint": "omnis",
+        "HeadingIconHint": "quasi"
       }
     ],
     "Result": null

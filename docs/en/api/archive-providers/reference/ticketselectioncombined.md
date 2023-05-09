@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TicketSelectionCombined"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -720,7 +720,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionCombined?$select=numberOfReplies,timeToReply,createdBy/ejDisplayName,extra/x_ticket_short_text,sale/saleStatus
+GET /api/v1/archive/TicketSelectionCombined?$select=realTimeToClose,person/correspondingAssociate/contactDepartment,contact/department,contact/contactDeleted,contact/contactAssociate/credentialType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

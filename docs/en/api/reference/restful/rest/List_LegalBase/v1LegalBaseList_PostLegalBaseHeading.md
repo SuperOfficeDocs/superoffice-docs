@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 166,
-  "Name": "Willms, Mitchell and Lakin",
-  "Tooltip": "id",
+  "HeadingId": 559,
+  "Name": "Krajcik Group",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 205,
-  "UdListDefinitionId": 272
+  "Rank": 220,
+  "UdListDefinitionId": 598
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 332,
-  "Name": "Hoppe LLC",
-  "Tooltip": "laborum",
-  "Deleted": false,
-  "Rank": 717,
-  "UdListDefinitionId": 591,
+  "HeadingId": 681,
+  "Name": "Kunze-Nikolaus",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 746,
+  "UdListDefinitionId": 73,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldType": "System.Int32",
+      "FieldLength": 262
     }
   }
 }

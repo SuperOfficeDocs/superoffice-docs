@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "in",
-  "ProviderName": "Romaguera, Connelly and Harris",
-  "StorageKey": "reiciendis",
-  "Restrictions": "qui",
-  "StaticColumns": "voluptas"
+  "StorageType": "voluptate",
+  "ProviderName": "Kunde, Rowe and Goldner",
+  "StorageKey": "nemo",
+  "Restrictions": "officiis",
+  "StaticColumns": "adipisci"
 }
 ```
 
@@ -102,81 +102,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Murray Group",
-      "Operator": "explicabo",
+      "Name": "Orn-Turcotte",
+      "Operator": "nihil",
       "Values": [
-        "aut",
-        "placeat"
+        "est",
+        "illum"
       ],
       "DisplayValues": [
-        "dolores",
-        "perferendis"
+        "sed",
+        "officiis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 294,
+      "InterParenthesis": 407,
       "InterOperator": "And",
-      "UniqueHash": 852
+      "UniqueHash": 315
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kunde LLC",
-      "DisplayTooltip": "hic",
-      "DisplayType": "consequatur",
-      "CanOrderBy": false,
-      "Name": "Mayert-Considine",
-      "CanRestrictBy": true,
-      "RestrictionType": "ea",
-      "RestrictionListName": "Boyer Group",
-      "IsVisible": true,
-      "ExtraInfo": "velit",
-      "Width": "ut",
-      "IconHint": "voluptates",
-      "HeadingIconHint": "laboriosam"
+      "DisplayName": "Koelpin, Collins and Conn",
+      "DisplayTooltip": "recusandae",
+      "DisplayType": "et",
+      "CanOrderBy": true,
+      "Name": "Herman, Monahan and Heller",
+      "CanRestrictBy": false,
+      "RestrictionType": "deleniti",
+      "RestrictionListName": "Abshire, Ratke and Casper",
+      "IsVisible": false,
+      "ExtraInfo": "accusantium",
+      "Width": "sit",
+      "IconHint": "placeat",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Treutel LLC",
-      "PrimaryKey": 120,
+      "EntityName": "Kiehn LLC",
+      "PrimaryKey": 994,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "in",
-          "TooltipHint": "quia",
-          "LinkHint": "alias"
+          "DisplayValue": "repellat",
+          "TooltipHint": "culpa",
+          "LinkHint": "quia"
         }
       },
-      "LinkHint": "earum",
-      "StyleHint": "est",
+      "LinkHint": "maxime",
+      "StyleHint": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 900
+          "FieldLength": 198
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Emard-Lind",
-      "Description": "Fundamental bi-directional extranet",
-      "Rank": 343,
+      "Name": "Mills-Beahan",
+      "Description": "Multi-layered assymetric middleware",
+      "Rank": 41,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Emard-Lind",
-      "Description": "Fundamental bi-directional extranet",
-      "Rank": 343,
+      "Name": "Mills-Beahan",
+      "Description": "Multi-layered assymetric middleware",
+      "Rank": 41,
       "Restrictions": [
         {},
         {}
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 321
     }
   }
 }

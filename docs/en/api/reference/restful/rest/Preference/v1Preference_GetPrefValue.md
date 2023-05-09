@@ -82,22 +82,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "magni",
+  "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "dolor",
-  "DisplayTooltip": "exercitationem",
+  "DisplayValue": "quos",
+  "DisplayTooltip": "omnis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 928,
-  "PrefDescId": 840,
-  "TableName": "Maggio, Stracke and Monahan",
-  "UserPreferenceId": 392,
+  "TargetId": 700,
+  "PrefDescId": 238,
+  "TableName": "Bednar Inc and Sons",
+  "UserPreferenceId": 79,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 905
     }
   }
 }

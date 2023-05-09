@@ -72,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 313,
-  "Name": "White, Lebsack and Barton",
-  "CreatedDate": "2007-01-15T15:29:21.9048072+01:00",
-  "UpdatedDate": "2010-07-02T15:29:21.9048072+02:00",
+  "ForeignAppId": 322,
+  "Name": "Luettgen-Boyer",
+  "CreatedDate": "2019-03-16T03:51:27.3342054+01:00",
+  "UpdatedDate": "2004-10-21T03:51:27.3342054+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 782,
-      "Name": "Nitzsche, Dietrich and Okuneva",
-      "CreatedDate": "2001-12-24T15:29:21.9058172+01:00",
-      "UpdatedDate": "2003-06-13T15:29:21.9058172+02:00",
-      "AssociateFullName": "Kaitlyn Beer I",
-      "CreatedBy": "necessitatibus",
-      "UpdatedBy": "consequuntur",
-      "DeviceIdentifier": "explicabo",
-      "ForeignAppId": 981,
+      "ForeignDeviceId": 390,
+      "Name": "Fritsch Inc and Sons",
+      "CreatedDate": "2016-02-08T03:51:27.3342054+01:00",
+      "UpdatedDate": "2006-12-16T03:51:27.3342054+01:00",
+      "AssociateFullName": "Karson Johnston",
+      "CreatedBy": "expedita",
+      "UpdatedBy": "dolorem",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 335,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldLength": 318
         }
       }
     }
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 982
     }
   }
 }

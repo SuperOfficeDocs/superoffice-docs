@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 714
+  "SelectedListId": 452
 }
 ```
 
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 898,
-  "ColumnId": 184,
-  "FieldDefault": "inventore",
-  "FieldHeight": 787,
-  "FieldLabel": "minus",
-  "FieldLeft": 622,
-  "FieldTop": 634,
+  "UDefFieldId": 181,
+  "ColumnId": 332,
+  "FieldDefault": "omnis",
+  "FieldHeight": 81,
+  "FieldLabel": "nostrum",
+  "FieldLeft": 320,
+  "FieldTop": 904,
   "FieldType": "Checkbox",
-  "FieldWidth": 89,
+  "FieldWidth": 358,
   "FormatMask": "ut",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 191,
-  "LabelLeft": 64,
-  "LabelTop": 619,
-  "LabelWidth": 49,
-  "LastVersionId": 669,
-  "ListTableId": 110,
+  "IsIndexed": true,
+  "LabelHeight": 179,
+  "LabelLeft": 53,
+  "LabelTop": 884,
+  "LabelWidth": 371,
+  "LastVersionId": 53,
+  "ListTableId": 120,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 664,
-  "ProgId": "magni",
-  "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 118,
-  "TextLength": 514,
-  "Tooltip": "laboriosam",
-  "UdefIdentity": 934,
-  "UDListDefinitionId": 679,
+  "Page1LineNo": 245,
+  "ProgId": "omnis",
+  "IsReadOnly": true,
+  "ShortLabel": "sed",
+  "TabOrder": 426,
+  "TextLength": 125,
+  "Tooltip": "cupiditate",
+  "UdefIdentity": 446,
+  "UDListDefinitionId": 486,
   "Justification": "Center",
-  "Version": 692,
-  "TemplateVariableName": "Rowe, Dicki and Waters",
-  "HasBeenPublished": true,
-  "MdoListName": "Walsh-Kiehn",
+  "Version": 506,
+  "TemplateVariableName": "Goyette, Crona and Rodriguez",
+  "HasBeenPublished": false,
+  "MdoListName": "Halvorson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 737
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   }
 }

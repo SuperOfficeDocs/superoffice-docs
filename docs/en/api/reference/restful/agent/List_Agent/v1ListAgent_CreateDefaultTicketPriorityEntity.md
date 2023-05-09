@@ -93,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 196,
-  "Name": "Keebler, Howell and DuBuque",
+  "TicketPriorityId": 516,
+  "Name": "Schiller, O'Reilly and Jacobs",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 702,
+  "SortOrder": 279,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 528,
-  "MonStart": "2014-08-23T15:29:22.1067718+02:00",
-  "MonStop": "2016-08-21T15:29:22.1067718+02:00",
-  "TueStart": "2006-08-21T15:29:22.1067718+02:00",
-  "TueStop": "2019-05-28T15:29:22.1067718+02:00",
-  "WedStart": "1999-02-16T15:29:22.1067718+01:00",
-  "WedStop": "2004-08-29T15:29:22.1067718+02:00",
-  "ThuStart": "2001-01-05T15:29:22.1067718+01:00",
-  "ThuStop": "2014-08-22T15:29:22.1067718+02:00",
-  "FriStart": "2008-01-19T15:29:22.1067718+01:00",
-  "FriStop": "2002-09-03T15:29:22.1067718+02:00",
-  "SatStart": "2021-07-05T15:29:22.1067718+02:00",
-  "SatStop": "2008-08-16T15:29:22.1067718+02:00",
-  "SunStart": "1999-04-01T15:29:22.1067718+02:00",
-  "SunStop": "2009-04-02T15:29:22.1067718+02:00",
+  "Deadline": 951,
+  "MonStart": "2013-03-19T03:51:27.4904158+01:00",
+  "MonStop": "2000-03-06T03:51:27.4904158+01:00",
+  "TueStart": "1996-10-13T03:51:27.4904158+02:00",
+  "TueStop": "2009-07-28T03:51:27.4904158+02:00",
+  "WedStart": "2012-08-13T03:51:27.4904158+02:00",
+  "WedStop": "2000-06-19T03:51:27.4904158+02:00",
+  "ThuStart": "2001-12-23T03:51:27.4904158+01:00",
+  "ThuStop": "1997-08-21T03:51:27.4904158+02:00",
+  "FriStart": "2007-12-26T03:51:27.4904158+01:00",
+  "FriStop": "1996-11-12T03:51:27.4904158+01:00",
+  "SatStart": "2005-01-08T03:51:27.4904158+01:00",
+  "SatStop": "2022-06-10T03:51:27.4904158+02:00",
+  "SunStart": "2014-09-12T03:51:27.4904158+02:00",
+  "SunStop": "2019-12-25T03:51:27.4904158+01:00",
   "NonDates": [
-    "totam",
-    "ducimus"
+    "odit",
+    "nisi"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 886,
-      "AlertLevel": 146,
-      "AlertTimeout": 464,
-      "Action": 238,
-      "DelegateTo": 121,
-      "ScriptId": 800,
-      "EmailTo": "milford@erdman.com",
-      "SmsTo": "non",
-      "ReplyTemplateIdCustomer": 305,
-      "ReplyTemplateIdUser": 7,
-      "ReplyTemplateIdCatmast": 882,
-      "ReplyTemplateIdEmail": 237,
-      "RtiCustomerSms": 777,
-      "ReplyTemplateIdUserSms": 548,
-      "ReplyTemplateIdCatmastSms": 583,
-      "ReplyTemplateIdSms": 797,
+      "TicketAlertId": 876,
+      "AlertLevel": 862,
+      "AlertTimeout": 283,
+      "Action": 47,
+      "DelegateTo": 558,
+      "ScriptId": 127,
+      "EmailTo": "abe_paucek@towne.com",
+      "SmsTo": "ea",
+      "ReplyTemplateIdCustomer": 23,
+      "ReplyTemplateIdUser": 283,
+      "ReplyTemplateIdCatmast": 271,
+      "ReplyTemplateIdEmail": 486,
+      "RtiCustomerSms": 999,
+      "ReplyTemplateIdUserSms": 429,
+      "ReplyTemplateIdCatmastSms": 194,
+      "ReplyTemplateIdSms": 434,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 662
+          "FieldLength": 830
         }
       }
     }
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 850
     }
   }
 }

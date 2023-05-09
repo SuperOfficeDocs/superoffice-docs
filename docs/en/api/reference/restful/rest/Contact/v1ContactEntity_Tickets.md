@@ -73,9 +73,9 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Tickets?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Tickets?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Tickets?$orderBy=name asc
-GET /api/v1/Contact/{id}/Tickets?$entities=tempora
-GET /api/v1/Contact/{id}/Tickets?$top=905
-GET /api/v1/Contact/{id}/Tickets?$skip=125
+GET /api/v1/Contact/{id}/Tickets?$entities=incidunt
+GET /api/v1/Contact/{id}/Tickets?$top=566
+GET /api/v1/Contact/{id}/Tickets?$skip=599
 GET /api/v1/Contact/{id}/Tickets?$mode=Full
 GET /api/v1/Contact/{id}/Tickets?$options=GrandTotal=true
 GET /api/v1/Contact/{id}/Tickets?$context=tempora
@@ -133,21 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "tempora",
+  "odata.nextLink": "iusto",
   "value": [
     {
-      "PrimaryKey": 6395,
+      "PrimaryKey": 1007,
       "EntityName": "sale",
-      "saleId": 6395,
-      "contactId": 2807,
-      "name": "Reynolds-O'Conner"
+      "saleId": 1007,
+      "contactId": 8006,
+      "name": "Langworth-Denesik"
     },
     {
-      "PrimaryKey": 7039,
+      "PrimaryKey": 3189,
       "EntityName": "sale",
-      "saleId": 7039,
-      "contactId": 2156,
-      "name": "Schimmel, Satterfield and Bartell"
+      "saleId": 3189,
+      "contactId": 207,
+      "name": "Larkin-Crona"
     }
   ]
 }

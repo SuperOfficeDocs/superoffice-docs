@@ -64,14 +64,14 @@ No Content
 POST /api/v1/Agents/List/SetRankOnHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 264,
+  "UdListDefinitionId": 298,
   "HeadingIds": [
-    55,
-    519
+    259,
+    203
   ]
 }
 ```

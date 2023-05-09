@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 127,
-  "ModuleOwner": "non",
+  "AssociateId": 896,
+  "ModuleOwner": "consequatur",
   "ModuleLicenseNames": [
-    "Lehner-Adams",
-    "Nader, Witting and Dach"
+    "Dickinson-Yundt",
+    "Goldner, Trantow and King"
   ]
 }
 ```
@@ -109,25 +109,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 182,
-    "Tooltip": "ut",
+    "Total": 973,
+    "Tooltip": "ullam",
     "CanAssign": true,
-    "Free": 512,
-    "InUse": 232,
+    "Free": 684,
+    "InUse": 385,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 291,
-    "Name": "Ondricka Group",
-    "Description": "Diverse optimizing hub",
-    "PrerequisiteModuleName": "Pagac-Bednar",
-    "SortOrder": 792,
-    "ExtraFlags": 949,
+    "ModuleLicenseId": 528,
+    "Name": "Franecki Group",
+    "Description": "Compatible local intranet",
+    "PrerequisiteModuleName": "Hirthe Group",
+    "SortOrder": 22,
+    "ExtraFlags": 171,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 268
       }
     }
   }

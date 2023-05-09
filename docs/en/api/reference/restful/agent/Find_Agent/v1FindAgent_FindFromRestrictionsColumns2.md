@@ -163,15 +163,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "eaque",
-  "ProviderName": "Morar, Watsica and Fisher",
-  "DesiredColumns": "sed",
-  "PageSize": 691,
-  "PageNumber": 97
+  "Restrictions": "commodi",
+  "ProviderName": "Von Group",
+  "DesiredColumns": "ab",
+  "PageSize": 340,
+  "PageNumber": 747
 }
 ```
 
@@ -184,51 +184,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Daniel, Bergnaum and Farrell",
-      "DisplayTooltip": "corrupti",
-      "DisplayType": "maiores",
-      "CanOrderBy": true,
-      "Name": "Rutherford, Weber and Nitzsche",
+      "DisplayName": "Windler-Keebler",
+      "DisplayTooltip": "exercitationem",
+      "DisplayType": "facilis",
+      "CanOrderBy": false,
+      "Name": "Hartmann, Keeling and Casper",
       "CanRestrictBy": true,
-      "RestrictionType": "distinctio",
-      "RestrictionListName": "Ryan, Koch and Dibbert",
-      "IsVisible": false,
-      "ExtraInfo": "dolorem",
-      "Width": "cupiditate",
-      "IconHint": "hic",
-      "HeadingIconHint": "cumque"
+      "RestrictionType": "consequatur",
+      "RestrictionListName": "Gleichner-Bernhard",
+      "IsVisible": true,
+      "ExtraInfo": "saepe",
+      "Width": "sequi",
+      "IconHint": "distinctio",
+      "HeadingIconHint": "blanditiis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Muller-Waters",
-      "PrimaryKey": 946,
+      "EntityName": "Leannon-Gottlieb",
+      "PrimaryKey": 769,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sed",
-          "TooltipHint": "quia",
-          "LinkHint": "temporibus"
+          "DisplayValue": "quasi",
+          "TooltipHint": "dolor",
+          "LinkHint": "fugiat"
         }
       },
-      "LinkHint": "harum",
-      "StyleHint": "ex",
+      "LinkHint": "minima",
+      "StyleHint": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 826
+          "FieldLength": 563
         }
       }
     }
   ],
-  "RowCount": 742,
+  "RowCount": 809,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   }
 }

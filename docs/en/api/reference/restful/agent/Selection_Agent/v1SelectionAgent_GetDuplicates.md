@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Trantow-Streich"
+  "Name": "Lakin, McCullough and Will"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Volkman-O'Conner",
-    "SoPrimaryKey": 774,
-    "EntryName": "Swift, Reichel and Gutmann",
-    "EntryIdentifier": "porro",
-    "RuleDisplayName": "Block-Kshlerin",
+    "RuleName": "Lesch Inc and Sons",
+    "SoPrimaryKey": 498,
+    "EntryName": "Pfeffer Inc and Sons",
+    "EntryIdentifier": "sunt",
+    "RuleDisplayName": "Jacobs-Jaskolski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldType": "System.Int32",
+        "FieldLength": 93
       }
     }
   }

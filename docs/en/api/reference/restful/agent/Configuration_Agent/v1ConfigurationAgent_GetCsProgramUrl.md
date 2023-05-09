@@ -70,14 +70,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "aliquam",
-  "ProgramName": "Waelchi, Rau and Prohaska",
-  "Action": "quis",
-  "ExtraParameters": "quia"
+  "Language": "rerum",
+  "ProgramName": "Carroll, Bednar and Gibson",
+  "Action": "pariatur",
+  "ExtraParameters": "impedit"
 }
 ```
 

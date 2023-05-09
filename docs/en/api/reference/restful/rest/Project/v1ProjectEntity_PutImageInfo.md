@@ -30,7 +30,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=743
+PUT /api/v1/Project/{id}/ImageInfo?projectId=121
 ```
 
 
@@ -103,23 +103,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 183,
-  "BlobSize": 862,
-  "Description": "Operative upward-trending approach",
-  "ExtraInfo": "rerum",
+  "BlobId": 743,
+  "BlobSize": 942,
+  "Description": "Secured 24 hour array",
+  "ExtraInfo": "nihil",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "sed",
-  "OriginalSize": 589,
-  "CreatedDate": "2002-08-28T15:29:30.0046598+02:00",
-  "UpdatedDate": "1997-10-14T15:29:30.0046598+02:00",
+  "MimeType": "enim",
+  "OriginalSize": 309,
+  "CreatedDate": "2022-03-15T03:51:33.864677+01:00",
+  "UpdatedDate": "2021-03-03T03:51:33.864677+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cupiditate"
+  "ConceptualType": "non"
 }
 ```
 
@@ -130,25 +130,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 28,
-  "BlobSize": 966,
-  "Description": "Cloned non-volatile firmware",
-  "ExtraInfo": "sed",
+  "BlobId": 197,
+  "BlobSize": 63,
+  "Description": "Innovative asynchronous flexibility",
+  "ExtraInfo": "reiciendis",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 588,
-  "CreatedDate": "2022-12-13T15:29:30.0076591+01:00",
-  "UpdatedDate": "2006-03-16T15:29:30.0076591+01:00",
+  "MimeType": "sunt",
+  "OriginalSize": 842,
+  "CreatedDate": "2020-08-26T03:51:33.864677+02:00",
+  "UpdatedDate": "2019-03-12T03:51:33.864677+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ipsa",
+  "ConceptualType": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 527
+      "FieldType": "System.Int32",
+      "FieldLength": 866
     }
   }
 }

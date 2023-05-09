@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 579
+  "QuoteVersionId": 384
 }
 ```
 
@@ -95,41 +95,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 13996.444,
-    "Wgs84Longitude": 5193.038,
+    "Wgs84Latitude": 7994.834,
+    "Wgs84Longitude": 12485.856,
     "LocalizedAddress": [
       [
         {
-          "Name": "Abbott, Terry and Kihn",
-          "Value": "nulla",
-          "Tooltip": "ut",
-          "Label": "voluptates",
-          "ValueLength": 845,
-          "AddressType": "quo",
+          "Name": "Krajcik-Kulas",
+          "Value": "ab",
+          "Tooltip": "occaecati",
+          "Label": "et",
+          "ValueLength": 598,
+          "AddressType": "officia",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 761
+              "FieldType": "System.String",
+              "FieldLength": 669
             }
           }
         }
       ],
       [
         {
-          "Name": "Volkman-Kessler",
-          "Value": "animi",
-          "Tooltip": "delectus",
-          "Label": "delectus",
-          "ValueLength": 230,
-          "AddressType": "doloribus",
+          "Name": "Jenkins-Schmeler",
+          "Value": "omnis",
+          "Tooltip": "consequatur",
+          "Label": "perferendis",
+          "ValueLength": 830,
+          "AddressType": "reiciendis",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 164
+              "FieldLength": 583
             }
           }
         }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "ut",
+    "Formatted": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 158
+        "FieldType": "System.Int32",
+        "FieldLength": 812
       }
     }
   }

@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 680,
-  "Name": "Gleichner, Lehner and Goodwin",
-  "Tooltip": "nulla",
-  "Deleted": true,
-  "Rank": 748,
-  "IsCustomList": true,
+  "Id": 362,
+  "Name": "Blanda, Luettgen and Spencer",
+  "Tooltip": "explicabo",
+  "Deleted": false,
+  "Rank": 18,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "hic",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldLength": 735
     }
   },
   "_Links": {

@@ -66,7 +66,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Wunsch Inc and Sons",
-    "DisplayName": "Hoeger-Hills",
-    "Description": "Programmable discrete ability",
-    "ShortLabel": "placeat",
-    "HideLabel": false,
+    "FieldName": "Blanda Group",
+    "DisplayName": "Schoen, Considine and Kuhn",
+    "Description": "Configurable human-resource knowledge user",
+    "ShortLabel": "et",
+    "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 511,
-    "TemplateVariableName": "Little, Leannon and Kihn"
+    "Rank": 968,
+    "TemplateVariableName": "Rath LLC"
   }
 ]
 ```

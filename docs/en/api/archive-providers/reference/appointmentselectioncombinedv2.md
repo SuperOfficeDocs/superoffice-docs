@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "AppointmentSelectionCombinedV2"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -687,7 +687,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionCombinedV2?$select=projectId,registeredDate,person/personAddress/line1,person/personExtra/x_person_float,project/projectAssociate/assocName
+GET /api/v1/archive/AppointmentSelectionCombinedV2?$select=appointmentId,contact/email/emailBounceCount,contact/contactUdef/SuperOffice:2,person/correspondingAssociate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

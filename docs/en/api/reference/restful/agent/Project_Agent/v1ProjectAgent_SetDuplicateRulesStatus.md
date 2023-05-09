@@ -63,21 +63,21 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Feil-Stokes",
-      "DisplayName": "Orn Group",
-      "DisplayTooltip": "inventore",
+      "Name": "Daniel, Jenkins and Hirthe",
+      "DisplayName": "Lindgren LLC",
+      "DisplayTooltip": "maxime",
       "IsActive": false
     },
     {
-      "Name": "Feil-Stokes",
-      "DisplayName": "Orn Group",
-      "DisplayTooltip": "inventore",
+      "Name": "Daniel, Jenkins and Hirthe",
+      "DisplayName": "Lindgren LLC",
+      "DisplayTooltip": "maxime",
       "IsActive": false
     }
   ]

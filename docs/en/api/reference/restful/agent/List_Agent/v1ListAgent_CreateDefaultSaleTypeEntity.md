@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 578,
-  "Name": "VonRueden-Kling",
-  "Tooltip": "impedit",
-  "Rank": 474,
+  "SaleTypeId": 129,
+  "Name": "Conroy-Schaefer",
+  "Tooltip": "neque",
+  "Rank": 710,
   "DurationUnit": "Century",
-  "SaleDuration": 361,
-  "SaleTypeCatId": 604,
+  "SaleDuration": 219,
+  "SaleTypeCatId": 796,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 663,
-  "QuoteLinesTemplate": 13,
-  "ConfirmationLinesTemplate": 95,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 116,
-  "MinEarningPercent": 773,
-  "GroupQuoteLinesBy": 336,
-  "SortGroupLinesBy": 632,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 94,
+  "QuoteLinesTemplate": 874,
+  "ConfirmationLinesTemplate": 422,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 373,
+  "MinEarningPercent": 784,
+  "GroupQuoteLinesBy": 13,
+  "SortGroupLinesBy": 159,
   "Stages": [
     {
-      "Id": 933,
-      "Name": "Corkery, Grimes and Rippin",
-      "ToolTip": "Et quis qui molestias et qui.",
-      "Deleted": false,
-      "Rank": 95,
-      "Type": "quis",
-      "ColorBlock": 252,
-      "IconHint": "ut",
+      "Id": 493,
+      "Name": "Larkin, Koch and Hermann",
+      "ToolTip": "Non occaecati numquam minus enim.",
+      "Deleted": true,
+      "Rank": 345,
+      "Type": "et",
+      "ColorBlock": 213,
+      "IconHint": "non",
       "Selected": true,
-      "LastChanged": "2017-12-15T15:29:22.0967714+01:00",
+      "LastChanged": "1996-04-23T03:51:27.4904158+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Ms. Alexandria Bechtelar Sr.",
+      "ExtraInfo": "illum",
+      "StyleHint": "aspernatur",
+      "Hidden": false,
+      "FullName": "Miss Dax Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldType": "System.String",
+          "FieldLength": 186
         }
       }
     }
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 226
+      "FieldType": "System.Int32",
+      "FieldLength": 653
     }
   }
 }

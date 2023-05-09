@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 920,
-    "Name": "Dare Inc and Sons",
-    "Tooltip": "similique",
-    "Deleted": false,
-    "Rank": 703,
-    "UdListDefinitionId": 96
+    "HeadingId": 817,
+    "Name": "Schmeler Inc and Sons",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 258,
+    "UdListDefinitionId": 84
   },
   {
-    "HeadingId": 920,
-    "Name": "Dare Inc and Sons",
-    "Tooltip": "similique",
-    "Deleted": false,
-    "Rank": 703,
-    "UdListDefinitionId": 96
+    "HeadingId": 817,
+    "Name": "Schmeler Inc and Sons",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 258,
+    "UdListDefinitionId": 84
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 195,
-    "Name": "Stokes LLC",
-    "Tooltip": "architecto",
-    "Deleted": false,
-    "Rank": 337,
-    "UdListDefinitionId": 172,
+    "HeadingId": 800,
+    "Name": "Nicolas LLC",
+    "Tooltip": "alias",
+    "Deleted": true,
+    "Rank": 62,
+    "UdListDefinitionId": 104,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldLength": 627
       }
     }
   }

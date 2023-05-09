@@ -25,7 +25,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=197
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=898
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 421,
-  "Section": "harum",
-  "Key": "ipsum",
-  "Name": "O'Kon Inc and Sons",
+  "PrefDescId": 468,
+  "Section": "saepe",
+  "Key": "ullam",
+  "Name": "Purdy Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-layered mission-critical middleware",
-  "IsBuiltin": false,
-  "TableName": "Rath-Jacobs",
-  "UserDefinedListId": 576,
-  "Rank": 124,
-  "SubGroup": "omnis",
-  "MinLevel": 97,
-  "MaxValue": 191,
-  "MinValue": 795,
-  "RequiredLicense": "et",
+  "Description": "Open-architected content-based migration",
+  "IsBuiltin": true,
+  "TableName": "Rutherford, Muller and Steuber",
+  "UserDefinedListId": 520,
+  "Rank": 798,
+  "SubGroup": "itaque",
+  "MinLevel": 934,
+  "MaxValue": 14,
+  "MinValue": 821,
+  "RequiredLicense": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldLength": 823
     }
   }
 }

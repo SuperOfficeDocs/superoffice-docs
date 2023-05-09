@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 819
+  "PersonId": 996
 }
 ```
 
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 517,
-    "Comment": "quod",
-    "Registered": "2013-12-12T15:29:22.3267673+01:00",
-    "RegisteredAssociateId": 44,
-    "Updated": "2004-10-17T15:29:22.3267673+02:00",
-    "UpdatedAssociateId": 207,
-    "LegalBaseId": 223,
-    "LegalBaseKey": "aut",
-    "LegalBaseName": "Nader, Moen and Brekke",
-    "ConsentPurposeId": 705,
-    "ConsentPurposeKey": "voluptatem",
-    "ConsentPurposeName": "Jacobs, Kuhn and Frami",
-    "ConsentSourceId": 644,
-    "ConsentSourceKey": "eos",
-    "ConsentSourceName": "Moen-Kulas",
+    "ConsentPersonId": 198,
+    "Comment": "doloremque",
+    "Registered": "1999-12-16T03:51:27.8340855+01:00",
+    "RegisteredAssociateId": 176,
+    "Updated": "2018-09-02T03:51:27.8340855+02:00",
+    "UpdatedAssociateId": 44,
+    "LegalBaseId": 348,
+    "LegalBaseKey": "placeat",
+    "LegalBaseName": "Hauck, Mohr and McKenzie",
+    "ConsentPurposeId": 959,
+    "ConsentPurposeKey": "magni",
+    "ConsentPurposeName": "Ullrich, Kozey and Larkin",
+    "ConsentSourceId": 264,
+    "ConsentSourceKey": "in",
+    "ConsentSourceName": "Wisoky-Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 354
+        "FieldType": "System.Int32",
+        "FieldLength": 454
       }
     }
   }

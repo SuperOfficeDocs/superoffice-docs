@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 714,
-    "Name": "Kessler Inc and Sons",
-    "Tooltip": "beatae",
-    "Deleted": false,
-    "Rank": 85,
-    "UdListDefinitionId": 165,
+    "HeadingId": 977,
+    "Name": "Grady, Wyman and Rowe",
+    "Tooltip": "quisquam",
+    "Deleted": true,
+    "Rank": 850,
+    "UdListDefinitionId": 758,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 648
+        "FieldType": "System.Int32",
+        "FieldLength": 762
       }
     }
   }

@@ -25,7 +25,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=895
+POST /api/v1/Agents/Person/GetPerson?personId=777
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "aspernatur",
-  "PersonId": 135,
-  "Mrmrs": "perspiciatis",
-  "Firstname": "Kaylie",
-  "Lastname": "Deckow",
-  "MiddleName": "Kuvalis-O'Conner",
-  "Title": "quibusdam",
-  "Description": "Optional stable strategy",
-  "Email": "steve.kutch@watsica.info",
-  "FullName": "Jacynthe Cecile Haley DVM",
-  "DirectPhone": "282.057.4621 x76077",
-  "FormalName": "Trantow, Mills and Nader",
-  "CountryId": 5,
-  "ContactId": 236,
-  "ContactName": "Hodkiewicz, Reilly and Ankunding",
-  "Retired": 844,
-  "Rank": 103,
-  "ActiveInterests": 850,
+  "Position": "est",
+  "PersonId": 620,
+  "Mrmrs": "at",
+  "Firstname": "Mandy",
+  "Lastname": "Durgan",
+  "MiddleName": "Heidenreich-Jewess",
+  "Title": "quae",
+  "Description": "De-engineered motivating flexibility",
+  "Email": "hettie.bahringer@padberglynch.us",
+  "FullName": "Martin Juana Gorczany MD",
+  "DirectPhone": "230.096.0854 x6062",
+  "FormalName": "McLaughlin-Quitzon",
+  "CountryId": 863,
+  "ContactId": 369,
+  "ContactName": "Hills LLC",
+  "Retired": 602,
+  "Rank": 189,
+  "ActiveInterests": 227,
   "ContactDepartment": "",
-  "ContactCountryId": 939,
-  "ContactOrgNr": "766634",
-  "FaxPhone": "(191)012-0019",
-  "MobilePhone": "211-076-3126",
-  "ContactPhone": "(228)281-5788 x331",
-  "AssociateName": "Senger, Tromp and Morissette",
-  "AssociateId": 15,
+  "ContactCountryId": 174,
+  "ContactOrgNr": "1240944",
+  "FaxPhone": "937-440-0842 x624",
+  "MobilePhone": "1-001-549-0991 x62298",
+  "ContactPhone": "(808)778-4024",
+  "AssociateName": "Torp, Klein and Leffler",
+  "AssociateId": 449,
   "UsePersonAddress": false,
-  "ContactFax": "alias",
-  "Kanafname": "quia",
-  "Kanalname": "ullam",
-  "Post1": "blanditiis",
-  "Post2": "accusantium",
-  "Post3": "explicabo",
-  "EmailName": "mariane_johns@schmittjacobson.ca",
-  "ContactFullName": "Antwon Ankunding",
-  "ActiveErpLinks": 714,
-  "TicketPriorityId": 40,
-  "SupportLanguageId": 176,
-  "SupportAssociateId": 176,
+  "ContactFax": "amet",
+  "Kanafname": "temporibus",
+  "Kanalname": "eligendi",
+  "Post1": "ea",
+  "Post2": "aut",
+  "Post3": "commodi",
+  "EmailName": "alexis@jewessbosco.com",
+  "ContactFullName": "Josefina Braun",
+  "ActiveErpLinks": 705,
+  "TicketPriorityId": 748,
+  "SupportLanguageId": 505,
+  "SupportAssociateId": 57,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldType": "System.String",
+      "FieldLength": 99
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,43 +100,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 624,
-  "TopicId": 829,
+  "ChatSessionId": 937,
+  "TopicId": 51,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eveniet",
-  "CustomerHost": "non",
-  "CustomerName": "Raynor-Brakus",
-  "CustomerEmail": "kitty@corwin.name",
-  "CustomerPhone": "(610)165-8999 x674",
+  "CustomerAlias": "quam",
+  "CustomerHost": "necessitatibus",
+  "CustomerName": "Stoltenberg-Boyle",
+  "CustomerEmail": "magnolia@brown.ca",
+  "CustomerPhone": "(015)630-2446",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Cummings LLC",
+  "CustomerCompanyName": "Thompson-Gleason",
   "Status": "Closed",
-  "FirstMessage": "corporis",
-  "LastMessage": "voluptatem",
-  "WhenRequested": "2007-03-08T15:29:29.3637043+01:00",
-  "WhenStarted": "2015-01-14T15:29:29.3637043+01:00",
-  "WhenEnded": "1999-08-18T15:29:29.3637043+02:00",
-  "WhenIdle": "2011-05-28T15:29:29.3637043+02:00",
-  "WhenFetched": "2021-09-24T15:29:29.3637043+02:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 323,
-  "AlertLevel": 653,
-  "Rank": 889,
+  "FirstMessage": "accusantium",
+  "LastMessage": "ipsam",
+  "WhenRequested": "2019-06-04T03:51:33.1773265+02:00",
+  "WhenStarted": "2012-09-20T03:51:33.1773265+02:00",
+  "WhenEnded": "2004-01-27T03:51:33.1773265+01:00",
+  "WhenIdle": "1997-05-05T03:51:33.1773265+02:00",
+  "WhenFetched": "2011-05-05T03:51:33.1773265+02:00",
+  "SessionKey": "quam",
+  "InitialQueuePos": 776,
+  "AlertLevel": 574,
+  "Rank": 558,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 859,
+  "ChatbotIsActive": false,
+  "Rating": 946,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 362
+      "FieldLength": 894
     }
   }
 }

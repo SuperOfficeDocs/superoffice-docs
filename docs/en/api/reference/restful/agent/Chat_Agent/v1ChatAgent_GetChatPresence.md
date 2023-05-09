@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 170,
-    "DisplayName": "Davis Inc and Sons",
-    "OngoingChats": 472,
-    "Present": true,
+    "UserId": 367,
+    "DisplayName": "Jacobson, Zemlak and Schmitt",
+    "OngoingChats": 749,
+    "Present": false,
     "ChatTopics": [
-      386,
-      663
+      794,
+      674
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldType": "System.String",
+        "FieldLength": 433
       }
     }
   }

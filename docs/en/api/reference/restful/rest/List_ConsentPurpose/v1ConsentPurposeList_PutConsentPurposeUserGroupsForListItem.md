@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Kozey, Price and Leannon",
-    "ToolTip": "Aut et possimus veniam sint tempore sit unde.",
+    "Id": 182,
+    "Name": "Bahringer-Kovacek",
+    "ToolTip": "Facere id officiis est illum.",
     "Deleted": false,
-    "Rank": 811,
-    "Type": "commodi",
-    "ColorBlock": 951,
-    "IconHint": "modi",
+    "Rank": 878,
+    "Type": "et",
+    "ColorBlock": 581,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2000-12-04T15:29:31.1384782+01:00",
+    "LastChanged": "1996-10-21T03:51:34.5989925+02:00",
     "ChildItems": [
       {
-        "Id": 198,
-        "Name": "Strosin, Cole and Bergstrom",
-        "ToolTip": "Voluptatem est in.",
+        "Id": 49,
+        "Name": "Lueilwitz Group",
+        "ToolTip": "Unde delectus pariatur sed.",
         "Deleted": false,
-        "Rank": 262,
-        "Type": "cumque",
-        "ColorBlock": 787,
-        "IconHint": "veniam",
-        "Selected": true,
-        "LastChanged": "2020-10-21T15:29:31.1389785+02:00",
+        "Rank": 628,
+        "Type": "autem",
+        "ColorBlock": 527,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2022-05-16T03:51:34.5989925+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "veniam",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Maurice Berge"
+        "FullName": "Jeff Goodwin"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Prof. Keshaun Charity Pacocha"
+    "ExtraInfo": "non",
+    "StyleHint": "ipsa",
+    "Hidden": true,
+    "FullName": "Ms. Taya McClure"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Pollich LLC",
-    "ToolTip": "Maiores rem aut et minima.",
-    "Deleted": false,
-    "Rank": 333,
-    "Type": "deserunt",
-    "ColorBlock": 34,
-    "IconHint": "voluptates",
-    "Selected": true,
-    "LastChanged": "2022-03-22T15:29:31.1414782+01:00",
+    "Id": 442,
+    "Name": "Koch-Price",
+    "ToolTip": "Maiores porro ea exercitationem.",
+    "Deleted": true,
+    "Rank": 884,
+    "Type": "illo",
+    "ColorBlock": 960,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "1998-07-16T03:51:34.5989925+02:00",
     "ChildItems": [
       {
-        "Id": 65,
-        "Name": "McKenzie LLC",
-        "ToolTip": "Harum aperiam ipsam doloremque ea quia est nam.",
-        "Deleted": false,
-        "Rank": 539,
-        "Type": "fugit",
-        "ColorBlock": 966,
-        "IconHint": "illo",
+        "Id": 26,
+        "Name": "Prosacco-Block",
+        "ToolTip": "Quo a quae odio.",
+        "Deleted": true,
+        "Rank": 246,
+        "Type": "harum",
+        "ColorBlock": 215,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2017-03-25T15:29:31.1414782+01:00",
+        "LastChanged": "1999-09-09T03:51:34.5989925+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "facere",
-        "Hidden": true,
-        "FullName": "Genesis Bogan",
+        "ExtraInfo": "alias",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Ricardo Volkman Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 660
+            "FieldType": "System.String",
+            "FieldLength": 807
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Ms. Jeffry Mosciski DDS",
+    "ExtraInfo": "iste",
+    "StyleHint": "voluptates",
+    "Hidden": false,
+    "FullName": "Hilbert Greenfelder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 747
+        "FieldType": "System.Int32",
+        "FieldLength": 127
       }
     }
   }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 56
+  "SaleId": 821
 }
 ```
 
@@ -99,58 +99,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 649,
-  "SaleId": 934,
-  "QuoteConnectionId": 481,
-  "ERPQuoteKey": "cumque",
-  "ERPOrderKey": "amet",
-  "ActiveQuoteVersionId": 707,
-  "AcceptedQuoteAlternativeId": 576,
-  "UseValuesFromQuote": 738,
-  "DocumentId": 346,
-  "PoNumber": "688967",
-  "OrderComment": "consequuntur",
-  "PreferredEmailCulture": "raymundo@franeckicorkery.co.uk",
+  "QuoteId": 134,
+  "SaleId": 114,
+  "QuoteConnectionId": 801,
+  "ERPQuoteKey": "vel",
+  "ERPOrderKey": "odit",
+  "ActiveQuoteVersionId": 980,
+  "AcceptedQuoteAlternativeId": 281,
+  "UseValuesFromQuote": 205,
+  "DocumentId": 817,
+  "PoNumber": "1483728",
+  "OrderComment": "veniam",
+  "PreferredEmailCulture": "jean@schmeler.com",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 821,
-      "ERPQuoteVersionKey": "tempore",
-      "QuoteId": 163,
-      "Description": "Customer-focused 4th generation website",
-      "Number": "1757068",
+      "QuoteVersionId": 710,
+      "ERPQuoteVersionKey": "quidem",
+      "QuoteId": 192,
+      "Description": "Enterprise-wide coherent time-frame",
+      "Number": "229870",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 983,
-      "SentDate": "2011-04-02T15:29:22.5837646+02:00",
-      "FollowupId": 891,
-      "ExpirationDate": "2001-07-24T15:29:22.5837646+02:00",
-      "DeliveryCountryId": 113,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 240,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "omnis",
-      "ERPPaymentTypeKey": "quia",
-      "ERPDeliveryTermsKey": "exercitationem",
-      "ERPDeliveryTypeKey": "sapiente",
-      "Rank": 445,
-      "ApprovedBy": 697,
-      "ApprovedText": "nesciunt",
-      "ApprovedRegisteredBy": 639,
-      "ApprovedRegisteredDate": "2004-03-28T15:29:22.5837646+02:00",
-      "ExtraField1": "omnis",
-      "ExtraField2": "dolore",
-      "ExtraField3": "alias",
-      "ExtraField4": "quis",
-      "ExtraField5": "et",
-      "LastRecalculated": "2003-08-02T15:29:22.5842639+02:00",
-      "Updated": "2022-06-29T15:29:22.5842639+02:00",
-      "UpdatedAssociateId": 682,
-      "Registered": "2020-06-09T15:29:22.5842639+02:00",
-      "RegisteredAssociateId": 183,
-      "RequestAssociateId": 386,
-      "RequestComment": "iusto",
+      "LikelyQuoteAlternativeId": 291,
+      "SentDate": "2010-01-26T03:51:28.0215395+01:00",
+      "FollowupId": 400,
+      "ExpirationDate": "2011-10-29T03:51:28.0215395+02:00",
+      "DeliveryCountryId": 433,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 141,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "ut",
+      "ERPPaymentTypeKey": "iusto",
+      "ERPDeliveryTermsKey": "sit",
+      "ERPDeliveryTypeKey": "enim",
+      "Rank": 493,
+      "ApprovedBy": 738,
+      "ApprovedText": "molestiae",
+      "ApprovedRegisteredBy": 485,
+      "ApprovedRegisteredDate": "2007-01-14T03:51:28.0215395+01:00",
+      "ExtraField1": "quia",
+      "ExtraField2": "adipisci",
+      "ExtraField3": "labore",
+      "ExtraField4": "at",
+      "ExtraField5": "officia",
+      "LastRecalculated": "1996-08-29T03:51:28.0215395+02:00",
+      "Updated": "2002-03-03T03:51:28.0215395+01:00",
+      "UpdatedAssociateId": 824,
+      "Registered": "2007-11-28T03:51:28.0215395+01:00",
+      "RegisteredAssociateId": 9,
+      "RequestAssociateId": 635,
+      "RequestComment": "quam",
       "QuoteAlternatives": [
         {},
         {}
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 350
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldType": "System.String",
+      "FieldLength": 597
     }
   }
 }

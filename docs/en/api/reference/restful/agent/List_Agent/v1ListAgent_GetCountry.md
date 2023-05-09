@@ -25,7 +25,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=123
+POST /api/v1/Agents/List/GetCountry?countryId=827
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 727,
-  "Name": "West LLC",
-  "CurrencyId": 897,
-  "EnglishName": "Johnson, Boehm and Daugherty",
+  "CountryId": 380,
+  "Name": "Robel-Pfannerstill",
+  "CurrencyId": 345,
+  "EnglishName": "Senger, Bogan and Gutmann",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Synergistic 24/7 groupware",
-  "OrgNrText": "1094451",
-  "InterAreaPrefix": "sunt",
-  "DialInPrefix": "commodi",
-  "ZipPrefix": "tempora",
-  "DomainName": "Green Group",
-  "AddressLayoutId": 861,
-  "DomesticAddressLayoutId": 215,
-  "ForeignAddressLayoutId": 811,
-  "Rank": 9,
-  "Tooltip": "natus",
+  "ImageDescription": "Realigned 5th generation hardware",
+  "OrgNrText": "532275",
+  "InterAreaPrefix": "placeat",
+  "DialInPrefix": "sunt",
+  "ZipPrefix": "inventore",
+  "DomainName": "Schneider, Senger and Watsica",
+  "AddressLayoutId": 635,
+  "DomesticAddressLayoutId": 780,
+  "ForeignAddressLayoutId": 946,
+  "Rank": 55,
+  "Tooltip": "incidunt",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 767
     }
   }
 }

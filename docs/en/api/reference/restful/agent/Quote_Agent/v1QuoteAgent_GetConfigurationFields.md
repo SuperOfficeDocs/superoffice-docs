@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 252,
-  "ConnectorName": "Fay LLC"
+  "ConnectionId": 848,
+  "ConnectorName": "Jones Inc and Sons"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "voluptas",
-    "Rank": 714,
-    "DisplayName": "Mante, Muller and Mitchell",
-    "DisplayDescription": "Visionary fresh-thinking policy",
+    "FieldKey": "natus",
+    "Rank": 708,
+    "DisplayName": "Stroman-Bernier",
+    "DisplayDescription": "Triple-buffered asynchronous encryption",
     "FieldType": "Checkbox",
-    "ListName": "Parker, Dickens and Feeney",
-    "DefaultValue": "voluptatem",
-    "MaxLength": 449,
+    "ListName": "Torp-Heller",
+    "DefaultValue": "sint",
+    "MaxLength": 544,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldLength": 877
       }
     }
   }

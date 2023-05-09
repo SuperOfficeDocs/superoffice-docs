@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 230,
-  "IncludeAttachments": true
+  "Id": 180,
+  "IncludeAttachments": false
 }
 ```
 
@@ -118,146 +118,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 512,
-      "ContactName": "Klocko, Fritsch and Corkery",
-      "PersonId": 161,
-      "PersonName": "Botsford, Ebert and Willms",
-      "AssociateId": 662,
-      "Address": "repellendus",
-      "EmailId": 771,
+      "ContactId": 200,
+      "ContactName": "Buckridge-Gibson",
+      "PersonId": 489,
+      "PersonName": "Boyer-Bruen",
+      "AssociateId": 691,
+      "Address": "iusto",
+      "EmailId": 804,
       "DuplicatePersonIds": [
-        583,
-        263
+        912,
+        22
       ],
-      "Name": "Fadel-O'Hara",
+      "Name": "Vandervort, Larkin and Tromp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 468
+          "FieldType": "System.Int32",
+          "FieldLength": 345
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 130,
-      "ContactName": "Hilll-Hegmann",
-      "PersonId": 661,
-      "PersonName": "Hilpert Inc and Sons",
-      "AssociateId": 893,
-      "Address": "fugit",
-      "EmailId": 753,
+      "ContactId": 664,
+      "ContactName": "Greenholt LLC",
+      "PersonId": 384,
+      "PersonName": "Bogisich-Tremblay",
+      "AssociateId": 66,
+      "Address": "ullam",
+      "EmailId": 597,
       "DuplicatePersonIds": [
-        286,
-        914
+        784,
+        81
       ],
-      "Name": "Terry, Stark and Homenick",
+      "Name": "Haley LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 819
+          "FieldType": "System.Int32",
+          "FieldLength": 568
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 508,
-      "ContactName": "Ward, Grant and Smith",
-      "PersonId": 628,
-      "PersonName": "Hilll, Wolf and Feeney",
-      "AssociateId": 447,
+      "ContactId": 201,
+      "ContactName": "Denesik, Armstrong and Gottlieb",
+      "PersonId": 380,
+      "PersonName": "Spencer, Nicolas and Armstrong",
+      "AssociateId": 400,
       "Address": "quis",
-      "EmailId": 929,
+      "EmailId": 735,
       "DuplicatePersonIds": [
-        165,
-        405
+        167,
+        756
       ],
-      "Name": "Lowe Inc and Sons",
+      "Name": "Lueilwitz, Von and Lehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 675
+          "FieldLength": 538
         }
       }
     }
   ],
-  "Subject": "nobis",
-  "HTMLBody": "est",
+  "Subject": "voluptatem",
+  "HTMLBody": "soluta",
   "From": null,
-  "Sent": "2014-04-18T15:29:21.8217756+02:00",
-  "Size": 811,
+  "Sent": "2016-01-25T03:51:27.2717144+01:00",
+  "Size": 524,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "iusto",
-  "PlainBody": "omnis",
+  "MessageID": "et",
+  "PlainBody": "cum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 886,
+  "ServerId": 70,
   "Attachments": [
     {
-      "Description": "Fundamental 5th generation flexibility",
-      "Filename": "voluptas",
-      "Size": 952,
-      "Type": "sequi",
-      "Encoding": "sit",
-      "Id": "rerum",
-      "Disposition": "officia",
+      "Description": "Up-sized web-enabled project",
+      "Filename": "dignissimos",
+      "Size": 261,
+      "Type": "delectus",
+      "Encoding": "cupiditate",
+      "Id": "laudantium",
+      "Disposition": "nesciunt",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 365
+          "FieldLength": 424
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Lubowitz, Ferry and Hagenes",
+      "Name": "Schmitt, Keebler and Nader",
       "Values": [
-        "similique",
-        "et"
+        "suscipit",
+        "consequuntur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldType": "System.String",
+          "FieldLength": 342
         }
       }
     },
     {
-      "Name": "Lubowitz, Ferry and Hagenes",
+      "Name": "Schmitt, Keebler and Nader",
       "Values": [
-        "similique",
-        "et"
+        "suscipit",
+        "consequuntur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldType": "System.String",
+          "FieldLength": 342
         }
       }
     }
   ],
-  "FolderName": "Flatley, Macejkovic and Tremblay",
-  "EmailItemId": 763,
-  "AccountId": 25,
-  "ReceivedAt": "1997-04-23T15:29:21.8222744+02:00",
+  "FolderName": "Hauck Inc and Sons",
+  "EmailItemId": 679,
+  "AccountId": 393,
+  "ReceivedAt": "2015-06-18T03:51:27.2717144+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-11-10T15:29:21.8222744+01:00",
+  "RepliedAt": "2005-03-26T03:51:27.2717144+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldType": "System.String",
+      "FieldLength": 190
     }
   }
 }

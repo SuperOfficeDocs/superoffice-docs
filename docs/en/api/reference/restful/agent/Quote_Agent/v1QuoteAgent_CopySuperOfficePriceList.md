@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 683,
-  "NewName": "Mayert-Schumm",
-  "ValidFrom": "1998-10-29T15:29:22.5442643+01:00",
-  "ValidTo": "2001-11-13T15:29:22.5442643+01:00",
-  "NewCurrencyId": 530,
+  "OriginalPriceListId": 702,
+  "NewName": "Mraz-Wisoky",
+  "ValidFrom": "2017-07-03T03:51:27.9902963+02:00",
+  "ValidTo": "1999-03-24T03:51:27.9902963+01:00",
+  "NewCurrencyId": 139,
   "ConvertCurrency": true
 }
 ```
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 862,
-  "ERPPriceListKey": "voluptas",
-  "QuoteConnectionId": 542,
-  "Name": "McClure, Nicolas and Watsica",
-  "Description": "Visionary disintermediate success",
-  "Currency": "possimus",
-  "CurrencyName": "Friesen, Schiller and Torphy",
-  "ValidFrom": "1996-04-25T15:29:22.5452653+02:00",
-  "ValidTo": "1997-09-07T15:29:22.5452653+02:00",
-  "IsActive": true,
+  "PriceListId": 472,
+  "ERPPriceListKey": "fugit",
+  "QuoteConnectionId": 860,
+  "Name": "Cole, Eichmann and Wolf",
+  "Description": "Integrated executive migration",
+  "Currency": "quo",
+  "CurrencyName": "Ankunding Inc and Sons",
+  "ValidFrom": "1997-09-23T03:51:27.9902963+02:00",
+  "ValidTo": "2000-10-23T03:51:27.9902963+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldType": "System.String",
+      "FieldLength": 995
     }
   }
 }

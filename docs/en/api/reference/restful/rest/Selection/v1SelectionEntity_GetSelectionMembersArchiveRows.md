@@ -85,21 +85,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "exercitationem",
   "value": [
     {
-      "PrimaryKey": 2247,
+      "PrimaryKey": 8326,
       "EntityName": "sale",
-      "saleId": 2247,
-      "contactId": 4500,
-      "name": "Christiansen, Grant and Hermann"
+      "saleId": 8326,
+      "contactId": 2130,
+      "name": "Johnston-D'Amore"
     },
     {
-      "PrimaryKey": 4697,
+      "PrimaryKey": 455,
       "EntityName": "sale",
-      "saleId": 4697,
-      "contactId": 7401,
-      "name": "Wuckert Inc and Sons"
+      "saleId": 455,
+      "contactId": 8372,
+      "name": "Cruickshank LLC"
     }
   ]
 }

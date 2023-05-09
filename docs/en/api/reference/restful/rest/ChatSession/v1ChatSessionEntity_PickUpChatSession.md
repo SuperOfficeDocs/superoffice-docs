@@ -90,7 +90,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,43 +100,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 813,
-  "TopicId": 280,
+  "ChatSessionId": 560,
+  "TopicId": 809,
   "User": null,
   "Person": null,
-  "CustomerAlias": "libero",
-  "CustomerHost": "aperiam",
-  "CustomerName": "Weimann Group",
-  "CustomerEmail": "august@reilly.co.uk",
-  "CustomerPhone": "121-743-6365",
+  "CustomerAlias": "delectus",
+  "CustomerHost": "reiciendis",
+  "CustomerName": "Bode, Haley and Crona",
+  "CustomerEmail": "donny_wisozk@dubuqueondricka.biz",
+  "CustomerPhone": "925.396.7116 x03965",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Sanford-Bradtke",
+  "CustomerCompanyName": "Breitenberg Group",
   "Status": "Closed",
-  "FirstMessage": "natus",
-  "LastMessage": "laborum",
-  "WhenRequested": "2023-01-01T15:29:29.3897041+01:00",
-  "WhenStarted": "2010-12-07T15:29:29.3897041+01:00",
-  "WhenEnded": "2014-09-23T15:29:29.3897041+02:00",
-  "WhenIdle": "2019-05-07T15:29:29.3897041+02:00",
-  "WhenFetched": "2022-02-19T15:29:29.3897041+01:00",
-  "SessionKey": "laboriosam",
-  "InitialQueuePos": 80,
-  "AlertLevel": 681,
-  "Rank": 561,
+  "FirstMessage": "illum",
+  "LastMessage": "sapiente",
+  "WhenRequested": "2002-07-16T03:51:33.208575+02:00",
+  "WhenStarted": "2000-10-28T03:51:33.208575+02:00",
+  "WhenEnded": "2011-08-18T03:51:33.208575+02:00",
+  "WhenIdle": "2020-09-15T03:51:33.208575+02:00",
+  "WhenFetched": "2016-03-16T03:51:33.208575+01:00",
+  "SessionKey": "quaerat",
+  "InitialQueuePos": 862,
+  "AlertLevel": 778,
+  "Rank": 795,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 373,
+  "ChatbotIsActive": false,
+  "Rating": 428,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldLength": 122
     }
   }
 }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Wiegand, Treutel and Lebsack",
-    "Tooltip": "ad",
+    "Id": 81,
+    "Name": "Mante Group",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "UdListDefinitionId": 881,
-    "Rank": 575,
+    "UdListDefinitionId": 288,
+    "Rank": 749,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldType": "System.String",
+        "FieldLength": 171
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 530,
+  "RecordId": 726,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -97,10 +97,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Mohr, Sipes and Schimmel",
-    "CrmFieldKey": "ipsa",
-    "Value": "impedit",
-    "DisplayValue": "dolor",
+    "DisplayName": "Klocko-Kutch",
+    "CrmFieldKey": "corrupti",
+    "Value": "praesentium",
+    "DisplayValue": "exercitationem",
     "SyncToCrm": false,
     "SyncToErp": true,
     "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 417
       }
     }
   }

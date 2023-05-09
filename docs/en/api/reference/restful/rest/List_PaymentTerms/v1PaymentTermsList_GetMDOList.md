@@ -25,8 +25,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=est
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=voluptatem
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 719,
-    "Name": "Robel, Boyer and Harris",
-    "ToolTip": "Et aut.",
+    "Id": 712,
+    "Name": "Dietrich, Kling and Maggio",
+    "ToolTip": "Ullam harum at dolores aperiam accusantium.",
     "Deleted": false,
-    "Rank": 801,
-    "Type": "cum",
+    "Rank": 329,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 868,
-        "Name": "Kilback-Deckow",
-        "ToolTip": "Natus accusamus cum quibusdam facilis aut aperiam repellat.",
-        "Deleted": false,
-        "Rank": 62,
-        "Type": "sed",
+        "Id": 60,
+        "Name": "Pollich-Lockman",
+        "ToolTip": "Id impedit facilis et minima repudiandae rerum.",
+        "Deleted": true,
+        "Rank": 603,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsum",
-        "ColorBlock": 590,
+        "IconHint": "neque",
+        "ColorBlock": 486,
         "ExtraInfo": "ut",
-        "StyleHint": "minima",
-        "FullName": "Mr. Elva Monica Howell",
+        "StyleHint": "ut",
+        "FullName": "Alene Lowe V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 602
+            "FieldType": "System.Int32",
+            "FieldLength": 774
           }
         }
       }
     ],
-    "IconHint": "soluta",
-    "ColorBlock": 28,
-    "ExtraInfo": "nulla",
-    "StyleHint": "et",
-    "FullName": "Emelia Kling MD",
+    "IconHint": "iusto",
+    "ColorBlock": 274,
+    "ExtraInfo": "iure",
+    "StyleHint": "eaque",
+    "FullName": "Domenica Conn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldType": "System.String",
+        "FieldLength": 394
       }
     }
   }

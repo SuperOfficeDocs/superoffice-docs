@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 347,
-  "Name": "Gorczany Inc and Sons",
-  "Config": "quam",
-  "Rank": 769,
-  "Client": "quo",
-  "Style": "non",
+  "DashboardThemeId": 613,
+  "Name": "Lebsack Group",
+  "Config": "inventore",
+  "Rank": 142,
+  "Client": "omnis",
+  "Style": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldType": "System.String",
+      "FieldLength": 463
     }
   }
 }

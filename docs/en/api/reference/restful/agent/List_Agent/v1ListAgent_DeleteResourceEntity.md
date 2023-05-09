@@ -24,7 +24,7 @@ Deletes the ResourceEntity
 | ResourceEntityId | int32 | **Required** The id of the ResourceEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteResourceEntity?ResourceEntityId=751
+POST /api/v1/Agents/List/DeleteResourceEntity?ResourceEntityId=829
 ```
 
 

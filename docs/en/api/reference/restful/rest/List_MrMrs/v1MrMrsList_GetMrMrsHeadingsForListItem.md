@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Braun-Blanda",
-    "ToolTip": "Rerum dolorem.",
+    "Id": 797,
+    "Name": "Lang, Reynolds and Feest",
+    "ToolTip": "Accusantium nam.",
     "Deleted": false,
-    "Rank": 559,
-    "Type": "eos",
-    "ColorBlock": 909,
-    "IconHint": "ipsum",
+    "Rank": 429,
+    "Type": "minus",
+    "ColorBlock": 107,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2018-03-29T15:29:31.3079432+02:00",
+    "LastChanged": "2019-08-11T03:51:34.7239677+02:00",
     "ChildItems": [
       {
-        "Id": 610,
-        "Name": "McCullough, Herzog and Herzog",
-        "ToolTip": "Doloribus ut pariatur quam accusamus repellat.",
-        "Deleted": false,
-        "Rank": 340,
-        "Type": "cupiditate",
-        "ColorBlock": 276,
-        "IconHint": "nam",
+        "Id": 465,
+        "Name": "Kshlerin, Blick and Hegmann",
+        "ToolTip": "Eius ea aspernatur dolore rerum.",
+        "Deleted": true,
+        "Rank": 847,
+        "Type": "qui",
+        "ColorBlock": 636,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2016-08-01T15:29:31.3084779+02:00",
+        "LastChanged": "2019-10-11T03:51:34.7239677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "atque",
-        "Hidden": true,
-        "FullName": "Viva Wuckert",
+        "ExtraInfo": "minus",
+        "StyleHint": "ducimus",
+        "Hidden": false,
+        "FullName": "Noemi Gulgowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 56
+            "FieldType": "System.Int32",
+            "FieldLength": 337
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "id",
+    "ExtraInfo": "qui",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Dr. Laila Roob",
+    "FullName": "Dr. Jocelyn Lesch Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldType": "System.String",
+        "FieldLength": 59
       }
     }
   }

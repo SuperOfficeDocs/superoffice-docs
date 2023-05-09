@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,34 +91,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 45,
-    "ERPName": "Jakubowski-Bartell",
-    "DisplayName": "Gibson LLC",
-    "DisplayDescription": "Profit-focused assymetric extranet",
-    "Rank": 632,
-    "ConnectorName": "Bins-Christiansen",
-    "ErpConnectionId": 697,
-    "ExtraData": "animi",
-    "IsAvailable": false,
+    "QuoteConnectionId": 297,
+    "ERPName": "Botsford, Jakubowski and Wehner",
+    "DisplayName": "Reinger Group",
+    "DisplayDescription": "Multi-channelled incremental function",
+    "Rank": 242,
+    "ConnectorName": "Padberg Group",
+    "ErpConnectionId": 927,
+    "ExtraData": "porro",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 358,
-        "ERPPriceListKey": "aut",
-        "QuoteConnectionId": 709,
-        "Name": "Bartoletti, Schowalter and Will",
-        "Description": "Persistent regional secured line",
-        "Currency": "minima",
-        "CurrencyName": "Gleichner-Oberbrunner",
-        "ValidFrom": "2018-10-21T15:29:22.5667649+02:00",
-        "ValidTo": "2009-09-15T15:29:22.5667649+02:00",
-        "IsActive": true,
+        "PriceListId": 990,
+        "ERPPriceListKey": "inventore",
+        "QuoteConnectionId": 274,
+        "Name": "Shields-Osinski",
+        "Description": "Diverse mobile functionalities",
+        "Currency": "aspernatur",
+        "CurrencyName": "Hayes, Schaefer and Gerlach",
+        "ValidFrom": "2001-01-23T03:51:28.0059393+01:00",
+        "ValidTo": "2022-01-27T03:51:28.0059393+01:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 777
+            "FieldLength": 767
           }
         }
       }
@@ -126,19 +126,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      306,
-      579
+      428,
+      628
     ],
     "AssociateAccessIds": [
-      927,
-      262
+      806,
+      506
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldType": "System.String",
+        "FieldLength": 80
       }
     }
   }

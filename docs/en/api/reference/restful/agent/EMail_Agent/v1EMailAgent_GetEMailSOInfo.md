@@ -27,7 +27,7 @@ Gets a EMailSOInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=489
+POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=171
 POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/EMail/GetEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,20 +85,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 770,
-  "AppointmentId": 193,
-  "ProjectId": 53,
-  "SaleId": 97,
+  "DocumentId": 514,
+  "AppointmentId": 129,
+  "ProjectId": 402,
+  "SaleId": 609,
   "Archived": true,
-  "ArchivedAt": "1997-07-09T15:29:21.7252759+02:00",
-  "ArchivedBy": 469,
-  "ArchivedDisplayName": "Buckridge Inc and Sons",
+  "ArchivedAt": "1999-05-29T03:51:27.1936087+02:00",
+  "ArchivedBy": 810,
+  "ArchivedDisplayName": "Bogan Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 609
+      "FieldType": "System.Int32",
+      "FieldLength": 858
     }
   }
 }

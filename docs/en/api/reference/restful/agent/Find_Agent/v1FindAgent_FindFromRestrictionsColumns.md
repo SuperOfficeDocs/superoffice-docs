@@ -99,40 +99,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Kris Inc and Sons",
-      "Operator": "ex",
+      "Name": "Monahan Inc and Sons",
+      "Operator": "magnam",
       "Values": [
-        "quis",
-        "rerum"
+        "nihil",
+        "ut"
       ],
       "DisplayValues": [
-        "quas",
-        "autem"
+        "quia",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 721,
+      "InterParenthesis": 119,
       "InterOperator": "And",
-      "UniqueHash": 348
+      "UniqueHash": 288
     }
   ],
-  "ProviderName": "Welch-Marvin",
+  "ProviderName": "Zieme LLC",
   "DesiredColumns": [
-    "voluptatem",
-    "voluptatem"
+    "facilis",
+    "et"
   ],
-  "PageSize": 28,
-  "PageNumber": 462
+  "PageSize": 51,
+  "PageNumber": 862
 }
 ```
 
@@ -145,51 +145,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Rempel, Rodriguez and Olson",
-      "DisplayTooltip": "qui",
-      "DisplayType": "aspernatur",
-      "CanOrderBy": true,
-      "Name": "Beatty-Lemke",
-      "CanRestrictBy": true,
-      "RestrictionType": "nulla",
-      "RestrictionListName": "Cole Group",
+      "DisplayName": "Bernier Group",
+      "DisplayTooltip": "ut",
+      "DisplayType": "repudiandae",
+      "CanOrderBy": false,
+      "Name": "Ortiz LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "debitis",
+      "RestrictionListName": "Dare, Maggio and Johns",
       "IsVisible": false,
-      "ExtraInfo": "consequatur",
-      "Width": "numquam",
-      "IconHint": "illo",
-      "HeadingIconHint": "ut"
+      "ExtraInfo": "laborum",
+      "Width": "facere",
+      "IconHint": "corrupti",
+      "HeadingIconHint": "labore"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Heidenreich-Konopelski",
-      "PrimaryKey": 400,
+      "EntityName": "Bartoletti, Huels and Kunze",
+      "PrimaryKey": 846,
       "ColumnData": {
         "fieldName": {
           "DisplayValue": "ut",
-          "TooltipHint": "distinctio",
-          "LinkHint": "dolores"
+          "TooltipHint": "quibusdam",
+          "LinkHint": "adipisci"
         }
       },
-      "LinkHint": "a",
-      "StyleHint": "odit",
+      "LinkHint": "maiores",
+      "StyleHint": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 596
         }
       }
     }
   ],
-  "RowCount": 182,
+  "RowCount": 99,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 956
     }
   }
 }

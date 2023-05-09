@@ -70,7 +70,7 @@ OK
 GET /api/v1/Ticket/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Corwin-Gutmann",
-  "DisplayName": "Haag-Abbott",
-  "Description": "Total foreground portal",
-  "ShortLabel": "omnis",
+  "FieldName": "Dietrich, Mohr and Cormier",
+  "DisplayName": "Breitenberg-Schroeder",
+  "Description": "Monitored zero administration adapter",
+  "ShortLabel": "itaque",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": true,
-  "Rank": 560,
-  "TemplateVariableName": "Wyman Inc and Sons"
+  "Rank": 332,
+  "TemplateVariableName": "Hessel-Feil"
 }
 ```

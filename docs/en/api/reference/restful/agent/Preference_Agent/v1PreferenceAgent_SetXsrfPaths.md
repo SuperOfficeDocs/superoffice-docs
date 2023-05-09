@@ -68,10 +68,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "corporis",
+  "Hostname": "omnis",
   "Paths": [
-    "molestiae",
-    "ipsum"
+    "quos",
+    "adipisci"
   ]
 }
 ```

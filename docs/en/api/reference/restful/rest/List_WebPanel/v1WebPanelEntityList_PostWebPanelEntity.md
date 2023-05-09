@@ -108,27 +108,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 92,
-  "Name": "Murazik-Marquardt",
-  "Tooltip": "explicabo",
+  "WebPanelId": 239,
+  "Name": "Lang-Stark",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "Rank": 262,
+  "Rank": 734,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "WindowName": "Bergnaum-Jakubowski",
+  "WindowName": "Gusikowski-Zemlak",
   "Url": "http://www.example.com/",
-  "ProgId": "nisi",
-  "Icon": 629,
-  "AlwaysReloadOnShow": false
+  "ProgId": "ut",
+  "Icon": 626,
+  "AlwaysReloadOnShow": true
 }
 ```
 
@@ -139,33 +139,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 654,
-  "Name": "Boyer, Rippin and Gusikowski",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "Rank": 24,
+  "WebPanelId": 775,
+  "Name": "Price-Moen",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "Rank": 151,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Kautzer-Harber",
+  "WindowName": "Feeney, Frami and Keebler",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 992,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "voluptate",
+  "Icon": 598,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 438
     }
   }
 }

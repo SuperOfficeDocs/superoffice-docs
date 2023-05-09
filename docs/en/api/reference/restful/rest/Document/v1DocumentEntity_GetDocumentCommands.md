@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Emard Group",
-    "DisplayName": "Maggio-Morissette",
-    "DisplayTooltip": "exercitationem",
-    "IconHint": "itaque",
+    "Name": "Marks, Cronin and Pagac",
+    "DisplayName": "Auer-Hermiston",
+    "DisplayTooltip": "adipisci",
+    "IconHint": "asperiores",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Emard Group",
-    "DisplayName": "Maggio-Morissette",
-    "DisplayTooltip": "exercitationem",
-    "IconHint": "itaque",
+    "Name": "Marks, Cronin and Pagac",
+    "DisplayName": "Auer-Hermiston",
+    "DisplayTooltip": "adipisci",
+    "IconHint": "asperiores",
     "ReturnType": "CustomGui"
   }
 ]

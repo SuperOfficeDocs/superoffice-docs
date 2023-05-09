@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,25 +87,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 21,
-    "Name": "Reynolds, Hilll and Trantow",
-    "ConsentText": "sunt",
-    "FormText": "sint",
-    "Key": "dignissimos",
-    "Tooltip": "voluptatem",
-    "Active": 222,
-    "UpdatedDate": "2000-10-27T15:29:22.1222701+02:00",
+    "ConsentPurposeId": 132,
+    "Name": "Bednar LLC",
+    "ConsentText": "asperiores",
+    "FormText": "possimus",
+    "Key": "delectus",
+    "Tooltip": "nobis",
+    "Active": 596,
+    "UpdatedDate": "2009-03-11T03:51:27.5060342+01:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 901,
-    "PrivacyStatementDesc": "et",
+    "Rank": 817,
+    "PrivacyStatementDesc": "cum",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldType": "System.String",
+        "FieldLength": 956
       }
     }
   }

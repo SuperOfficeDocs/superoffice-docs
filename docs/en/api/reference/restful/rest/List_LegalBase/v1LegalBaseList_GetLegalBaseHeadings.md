@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 486,
-    "Name": "King Inc and Sons",
-    "Tooltip": "eveniet",
+    "HeadingId": 984,
+    "Name": "Miller-Maggio",
+    "Tooltip": "quasi",
     "Deleted": false,
-    "Rank": 350,
-    "UdListDefinitionId": 491,
+    "Rank": 390,
+    "UdListDefinitionId": 709,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldLength": 745
       }
     }
   }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "anderson.wisozk@kerluke.co.uk"
+  "EmailAddress": "kole@baileywunsch.info"
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 570,
-    "ContactName": "Herman LLC",
-    "PersonId": 257,
-    "PersonName": "Haag, Dietrich and Reichert",
-    "AssociateId": 468,
-    "Address": "qui",
-    "EmailId": 385,
+    "ContactId": 394,
+    "ContactName": "Schroeder-Orn",
+    "PersonId": 358,
+    "PersonName": "Haley, Marquardt and Frami",
+    "AssociateId": 930,
+    "Address": "aut",
+    "EmailId": 502,
     "DuplicatePersonIds": [
-      270,
-      726
+      739,
+      479
     ],
-    "Name": "Nicolas Inc and Sons",
+    "Name": "Satterfield Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldLength": 370
       }
     }
   }

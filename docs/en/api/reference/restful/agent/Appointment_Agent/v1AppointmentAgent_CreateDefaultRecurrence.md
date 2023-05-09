@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,10 +83,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 195,
-  "StartDate": "1999-05-05T15:29:20.5662922+02:00",
-  "EndDate": "2006-11-06T15:29:20.5662922+01:00",
-  "RecurrenceCounter": 61,
+  "RecurrenceId": 609,
+  "StartDate": "2016-03-12T03:51:26.2563301+01:00",
+  "EndDate": "2002-07-27T03:51:26.2563301+02:00",
+  "RecurrenceCounter": 26,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-05-25T15:29:20.5662922+02:00",
+      "Date": "2017-12-21T03:51:26.2563301+01:00",
       "IsConflict": false,
-      "Description": "Sharable systemic conglomeration",
-      "DescriptionStyleHint": "Horizontal solution-oriented system engine",
-      "Tooltip": "voluptas"
+      "Description": "Horizontal mobile leverage",
+      "DescriptionStyleHint": "Profit-focused regional focus group",
+      "Tooltip": "ut"
     },
     {
-      "Date": "2010-05-25T15:29:20.5662922+02:00",
+      "Date": "2017-12-21T03:51:26.2563301+01:00",
       "IsConflict": false,
-      "Description": "Sharable systemic conglomeration",
-      "DescriptionStyleHint": "Horizontal solution-oriented system engine",
-      "Tooltip": "voluptas"
+      "Description": "Horizontal mobile leverage",
+      "DescriptionStyleHint": "Profit-focused regional focus group",
+      "Tooltip": "ut"
     }
   ],
   "IsRecurrence": true

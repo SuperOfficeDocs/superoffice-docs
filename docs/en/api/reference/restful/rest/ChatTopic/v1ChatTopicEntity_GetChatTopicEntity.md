@@ -102,7 +102,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -112,43 +112,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 815,
-  "Name": "Bosco, Labadie and Batz",
-  "Description": "Function-based 24/7 firmware",
-  "WelcomeMessage": "et",
+  "ChatTopicId": 552,
+  "Name": "Jerde-Gulgowski",
+  "Description": "Cross-platform well-modulated ability",
+  "WelcomeMessage": "sint",
   "Language": null,
-  "LastAccept": "2021-09-01T15:29:29.4292035+02:00",
-  "SecondsPrAccept": 861,
-  "AlertRecipient": "ad",
+  "LastAccept": "1998-04-10T03:51:33.2241895+02:00",
+  "SecondsPrAccept": 95,
+  "AlertRecipient": "dolor",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "sunt",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "quo",
-  "WarnNewChatMinutes": 819,
-  "WarnManagerNewChatMinutes": 389,
-  "TicketEnabled": true,
+  "BadgeHeader": "sint",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "asperiores",
+  "WarnNewChatMinutes": 248,
+  "WarnManagerNewChatMinutes": 573,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 595,
-  "WarnManagerChatMessageMinutes": 250,
+  "WarnChatMessageMinutes": 630,
+  "WarnManagerChatMessageMinutes": 444,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 102,
-  "OfflineFormQueueLength": 442,
+  "OfflineFormTimeLimit": 562,
+  "OfflineFormQueueLength": 692,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "non",
+  "WidgetRatingText": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 658
     }
   },
   "_Links": {

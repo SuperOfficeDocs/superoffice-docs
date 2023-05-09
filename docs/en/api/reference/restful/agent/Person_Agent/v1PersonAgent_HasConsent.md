@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Person/HasConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 686,
-  "Purpose": "libero"
+  "PersonId": 853,
+  "Purpose": "eius"
 }
 ```
 

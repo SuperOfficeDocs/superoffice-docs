@@ -80,24 +80,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 761,
-  "Name": "Wehner, Keeling and Metz",
-  "Tooltip": "est",
+  "RoleId": 355,
+  "Name": "Johnston-Reynolds",
+  "Tooltip": "quos",
   "RoleType": "Anonymous",
-  "Deleted": 98,
-  "Rank": 118,
-  "Created": "2021-04-08T15:29:23.3012547+02:00",
-  "UseCategories": 985,
+  "Deleted": 255,
+  "Rank": 359,
+  "Created": "2000-11-18T03:51:28.4589368+01:00",
+  "UseCategories": 8,
   "CreatedBy": null,
-  "Updated": "2016-08-16T15:29:23.3012547+02:00",
+  "Updated": "2018-08-01T03:51:28.4589368+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldType": "System.String",
+      "FieldLength": 522
     }
   }
 }

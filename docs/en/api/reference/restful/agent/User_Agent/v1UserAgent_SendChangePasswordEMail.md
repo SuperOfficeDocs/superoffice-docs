@@ -73,11 +73,11 @@ OK
 POST /api/v1/Agents/User/SendChangePasswordEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 840
+  "AssociateId": 351
 }
 ```
 
@@ -89,6 +89,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "ut"
+  "Message": "repudiandae"
 }
 ```

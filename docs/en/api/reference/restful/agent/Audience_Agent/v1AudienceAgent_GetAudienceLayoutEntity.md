@@ -25,7 +25,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=765
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=188
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 601,
-  "InstanceLayout": "nihil",
-  "InstanceName": "Medhurst Inc and Sons",
-  "CreatedDate": "2002-10-26T15:29:20.8112899+02:00",
-  "UpdatedDate": "2005-02-06T15:29:20.8112899+01:00",
+  "AudienceLayoutId": 198,
+  "InstanceLayout": "dolor",
+  "InstanceName": "Rosenbaum Inc and Sons",
+  "CreatedDate": "1997-09-18T03:51:26.5999985+02:00",
+  "UpdatedDate": "2015-01-14T03:51:26.5999985+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldType": "System.String",
+      "FieldLength": 545
     }
   }
 }

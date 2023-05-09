@@ -109,28 +109,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 998,
-  "Section": "voluptas",
+  "PrefDescId": 340,
+  "Section": "aut",
   "Key": "quia",
-  "Name": "Abbott, Stoltenberg and Nader",
+  "Name": "Strosin, Pagac and Mertz",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reverse-engineered dynamic Graphical User Interface",
+  "Description": "Assimilated mobile artificial intelligence",
   "IsBuiltin": false,
-  "TableName": "Lebsack-Ratke",
-  "UserDefinedListId": 153,
-  "Rank": 971,
-  "SubGroup": "asperiores",
-  "MinLevel": 89,
-  "MaxValue": 594,
-  "MinValue": 56,
-  "RequiredLicense": "sint"
+  "TableName": "Haag Inc and Sons",
+  "UserDefinedListId": 717,
+  "Rank": 159,
+  "SubGroup": "nulla",
+  "MinLevel": 276,
+  "MaxValue": 696,
+  "MinValue": 380,
+  "RequiredLicense": "veniam"
 }
 ```
 
@@ -141,30 +141,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 265,
-  "Section": "aut",
-  "Key": "debitis",
-  "Name": "Bednar-DuBuque",
+  "PrefDescId": 416,
+  "Section": "voluptates",
+  "Key": "ut",
+  "Name": "Cartwright Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Grass-roots even-keeled hub",
-  "IsBuiltin": false,
-  "TableName": "Stoltenberg Inc and Sons",
-  "UserDefinedListId": 837,
-  "Rank": 623,
-  "SubGroup": "quos",
-  "MinLevel": 590,
-  "MaxValue": 348,
-  "MinValue": 439,
-  "RequiredLicense": "dolor",
+  "Description": "Ameliorated 3rd generation application",
+  "IsBuiltin": true,
+  "TableName": "Turner-Koepp",
+  "UserDefinedListId": 918,
+  "Rank": 348,
+  "SubGroup": "sint",
+  "MinLevel": 842,
+  "MaxValue": 562,
+  "MinValue": 691,
+  "RequiredLicense": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 113
     }
   },
   "_Links": {

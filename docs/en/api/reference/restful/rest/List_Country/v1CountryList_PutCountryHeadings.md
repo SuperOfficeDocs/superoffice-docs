@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 973,
-    "Name": "Casper Inc and Sons",
-    "Tooltip": "assumenda",
+    "HeadingId": 369,
+    "Name": "Halvorson Group",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 384,
-    "UdListDefinitionId": 571
+    "Rank": 592,
+    "UdListDefinitionId": 468
   },
   {
-    "HeadingId": 973,
-    "Name": "Casper Inc and Sons",
-    "Tooltip": "assumenda",
+    "HeadingId": 369,
+    "Name": "Halvorson Group",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 384,
-    "UdListDefinitionId": 571
+    "Rank": 592,
+    "UdListDefinitionId": 468
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 325,
-    "Name": "Muller, Mraz and Quigley",
-    "Tooltip": "a",
+    "HeadingId": 937,
+    "Name": "Pfannerstill, Aufderhar and Yundt",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 981,
-    "UdListDefinitionId": 602,
+    "Rank": 307,
+    "UdListDefinitionId": 372,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldLength": 956
       }
     }
   }

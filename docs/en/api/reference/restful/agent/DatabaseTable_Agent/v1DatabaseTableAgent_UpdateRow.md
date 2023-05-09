@@ -65,15 +65,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Krajcik Inc and Sons",
-  "Id": 380,
+  "TableName": "Pacocha-Lubowitz",
+  "Id": 844,
   "Values": {
-    "Values1": "qui",
-    "Values2": "placeat"
+    "Values1": "aut",
+    "Values2": "repellat"
   }
 }
 ```

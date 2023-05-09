@@ -137,18 +137,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "facilis",
+    "path": "neque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "facilis",
+    "path": "neque",
     "value": {}
   }
 ]
@@ -161,48 +161,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 268,
-  "Name": "Stehr, Hoeger and Crooks",
-  "Description": "Optional 24/7 portal",
-  "WelcomeMessage": "beatae",
+  "ChatTopicId": 731,
+  "Name": "Quitzon-Schulist",
+  "Description": "Sharable actuating array",
+  "WelcomeMessage": "enim",
   "Language": null,
-  "LastAccept": "1996-08-31T15:29:29.4377032+02:00",
-  "SecondsPrAccept": 432,
-  "AlertRecipient": "atque",
+  "LastAccept": "2010-10-29T03:51:33.2398098+02:00",
+  "SecondsPrAccept": 718,
+  "AlertRecipient": "repellat",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "sunt",
+  "CollectConsent": false,
+  "BadgeHeader": "sed",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "iusto",
-  "WarnNewChatMinutes": 551,
-  "WarnManagerNewChatMinutes": 460,
+  "CustomQueueText": "maiores",
+  "WarnNewChatMinutes": 194,
+  "WarnManagerNewChatMinutes": 423,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 311,
-  "WarnManagerChatMessageMinutes": 986,
+  "WarnChatMessageMinutes": 665,
+  "WarnManagerChatMessageMinutes": 133,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 311,
-  "OfflineFormQueueLength": 575,
+  "OfflineFormTimeLimit": 775,
+  "OfflineFormQueueLength": 88,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quaerat",
+  "WidgetRatingText": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldType": "System.String",
+      "FieldLength": 461
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

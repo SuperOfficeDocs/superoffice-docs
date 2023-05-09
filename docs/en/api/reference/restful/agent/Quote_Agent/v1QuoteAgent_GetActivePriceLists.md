@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 33,
-  "Currency": "a"
+  "QuoteConnectionId": 10,
+  "Currency": "voluptate"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 634,
-    "ERPPriceListKey": "et",
-    "QuoteConnectionId": 387,
-    "Name": "Stark Inc and Sons",
-    "Description": "Face to face multimedia intranet",
-    "Currency": "vel",
-    "CurrencyName": "Durgan-Bauch",
-    "ValidFrom": "1997-07-10T15:29:22.5727639+02:00",
-    "ValidTo": "1998-03-01T15:29:22.5727639+01:00",
+    "PriceListId": 922,
+    "ERPPriceListKey": "quisquam",
+    "QuoteConnectionId": 1001,
+    "Name": "Champlin-Oberbrunner",
+    "Description": "Optional bi-directional policy",
+    "Currency": "quo",
+    "CurrencyName": "Hettinger Inc and Sons",
+    "ValidFrom": "2008-03-21T03:51:28.0215395+01:00",
+    "ValidTo": "2010-10-30T03:51:28.0215395+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldType": "System.String",
+        "FieldLength": 103
       }
     }
   }

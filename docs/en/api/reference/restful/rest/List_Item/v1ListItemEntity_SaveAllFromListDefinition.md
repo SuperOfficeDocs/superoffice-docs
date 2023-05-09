@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Treutel Group",
-    "Tooltip": "consequatur",
+    "Id": 725,
+    "Name": "Zieme-Hettinger",
+    "Tooltip": "excepturi",
     "Deleted": false,
-    "UdListDefinitionId": 21,
-    "Rank": 193
+    "UdListDefinitionId": 888,
+    "Rank": 123
   },
   {
-    "Id": 927,
-    "Name": "Treutel Group",
-    "Tooltip": "consequatur",
+    "Id": 725,
+    "Name": "Zieme-Hettinger",
+    "Tooltip": "excepturi",
     "Deleted": false,
-    "UdListDefinitionId": 21,
-    "Rank": 193
+    "UdListDefinitionId": 888,
+    "Rank": 123
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Fahey, Purdy and Ratke",
-    "Tooltip": "dignissimos",
+    "Id": 495,
+    "Name": "Gutmann-Thiel",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "UdListDefinitionId": 408,
-    "Rank": 501,
+    "UdListDefinitionId": 148,
+    "Rank": 790,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 939
+        "FieldLength": 220
       }
     }
   }

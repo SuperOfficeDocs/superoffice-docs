@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 844,
-  "Name": "Spinka-Thompson",
+  "WebhookId": 843,
+  "Name": "Bradtke, Paucek and Auer",
   "Events": [
-    "provident",
-    "placeat"
+    "aliquam",
+    "corrupti"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "facilis",
+  "Secret": "excepturi",
   "State": "Active",
-  "Type": "quia",
+  "Type": "tempore",
   "Headers": {
-    "Headers1": "veniam",
-    "Headers2": "consequuntur"
+    "Headers1": "impedit",
+    "Headers2": "quia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-12-01T15:29:23.439288+01:00",
+  "Registered": "2016-11-05T03:51:28.5526663+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-01-09T15:29:23.4407879+01:00",
+  "Updated": "2011-08-18T03:51:28.5526663+02:00",
   "UpdatedAssociate": null
 }
 ```

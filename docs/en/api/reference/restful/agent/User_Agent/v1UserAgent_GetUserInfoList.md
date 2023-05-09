@@ -97,29 +97,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": true,
-    "UserInfoId": 339,
-    "UserName": "Kuvalis, Leffler and Kulas",
-    "PersonId": 160,
-    "Rank": 683,
-    "Tooltip": "exercitationem",
-    "UserGroupId": 921,
-    "EjUserId": 672,
+    "UserInfoId": 369,
+    "UserName": "Bogisich, Rolfson and Willms",
+    "PersonId": 36,
+    "Rank": 147,
+    "Tooltip": "at",
+    "UserGroupId": 250,
+    "EjUserId": 377,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "non",
-      "pariatur"
+      "id",
+      "qui"
     ],
-    "CanLogon": true,
-    "RoleName": "Greenfelder-Klein",
-    "RoleTooltip": "quia",
-    "UserGroupName": "Quitzon Group",
-    "UserGroupTooltip": "illo",
+    "CanLogon": false,
+    "RoleName": "Rempel Inc and Sons",
+    "RoleTooltip": "praesentium",
+    "UserGroupName": "Price, Roberts and Baumbach",
+    "UserGroupTooltip": "repellat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 94
+        "FieldType": "System.Int32",
+        "FieldLength": 22
       }
     }
   }

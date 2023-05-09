@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Windler Group",
-  "StorageKey": "praesentium",
-  "ExtraRestrictions": "explicabo",
-  "OrderBy": "voluptatem",
-  "DesiredColumns": "sunt",
-  "PageSize": 998,
-  "PageNumber": 530
+  "StorageType": "voluptatibus",
+  "ProviderName": "Wehner, Braun and Weissnat",
+  "StorageKey": "tempora",
+  "ExtraRestrictions": "omnis",
+  "OrderBy": "commodi",
+  "DesiredColumns": "mollitia",
+  "PageSize": 83,
+  "PageNumber": 249
 }
 ```
 
@@ -190,51 +190,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Mann-Mohr",
-      "DisplayTooltip": "libero",
-      "DisplayType": "et",
+      "DisplayName": "Buckridge, Schmitt and Ebert",
+      "DisplayTooltip": "deleniti",
+      "DisplayType": "consequuntur",
       "CanOrderBy": false,
-      "Name": "Schulist-Kemmer",
+      "Name": "Keebler-Cruickshank",
       "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Gerlach-Zieme",
+      "RestrictionType": "vitae",
+      "RestrictionListName": "Herman-Hartmann",
       "IsVisible": false,
-      "ExtraInfo": "ut",
-      "Width": "ut",
-      "IconHint": "laborum",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "ratione",
+      "Width": "molestiae",
+      "IconHint": "nobis",
+      "HeadingIconHint": "similique"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kuhn, Monahan and Nikolaus",
-      "PrimaryKey": 245,
+      "EntityName": "Block Inc and Sons",
+      "PrimaryKey": 890,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "odit",
-          "TooltipHint": "saepe",
-          "LinkHint": "est"
+          "DisplayValue": "asperiores",
+          "TooltipHint": "sit",
+          "LinkHint": "sit"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "labore",
+      "LinkHint": "quae",
+      "StyleHint": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 59
+          "FieldType": "System.Int32",
+          "FieldLength": 656
         }
       }
     }
   ],
-  "RowCount": 640,
+  "RowCount": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 424
     }
   }
 }

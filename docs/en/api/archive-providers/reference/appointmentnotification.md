@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "AppointmentNotification"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -47,11 +47,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |invitedPersonId| *None* |!!invitedPersonId| x |
 |isSeen| *None* |!!isSeen|  |
 |hasConflict| *None* |!!hasConflict|  |
+|recurrencePattern| *None* |!!recurrencePattern| x |
+|rejectReason| *None* |!!rejectReason| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentNotification?$select=notifyDateTime,startDateTime
+GET /api/v1/archive/AppointmentNotification?$select=startDateTime,isEmailInvitation,title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

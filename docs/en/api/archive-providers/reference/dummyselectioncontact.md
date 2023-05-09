@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "DummySelectionContact"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -522,7 +522,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DummySelectionContact?$select=sale/source,appointment/appointmentPublish/publishedTo,appointment/associate/firstName,document/yourref
+GET /api/v1/archive/DummySelectionContact?$select=streetAddress/line2,sourceRelation/csRelation,sale/associate/ejUserId,appointment/visibleFor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

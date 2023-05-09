@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 984,
-  "Name": "Beahan-Prosacco",
-  "Tooltip": "itaque",
+  "Id": 195,
+  "Name": "Ziemann, Kessler and Orn",
+  "Tooltip": "optio",
   "Deleted": false,
-  "Rank": 687,
+  "Rank": 110,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "blanditiis",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "eum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 590,
-  "Name": "Runte LLC",
-  "Tooltip": "ab",
+  "Id": 578,
+  "Name": "Auer Group",
+  "Tooltip": "ad",
   "Deleted": true,
-  "Rank": 618,
-  "IsCustomList": true,
+  "Rank": 169,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldType": "System.Int32",
+      "FieldLength": 592
     }
   }
 }

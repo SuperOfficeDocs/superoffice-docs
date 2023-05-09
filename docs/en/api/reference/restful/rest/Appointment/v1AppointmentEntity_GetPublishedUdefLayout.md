@@ -87,7 +87,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 377,
-    "ColumnId": 197,
-    "FieldDefault": "vel",
-    "FieldHeight": 532,
-    "FieldLabel": "corrupti",
-    "FieldLeft": 709,
-    "FieldTop": 96,
+    "UDefFieldId": 672,
+    "ColumnId": 59,
+    "FieldDefault": "atque",
+    "FieldHeight": 288,
+    "FieldLabel": "error",
+    "FieldLeft": 957,
+    "FieldTop": 532,
     "FieldType": "Checkbox",
-    "FieldWidth": 311,
-    "FormatMask": "laboriosam",
-    "HideLabel": false,
+    "FieldWidth": 395,
+    "FormatMask": "impedit",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 286,
-    "LabelLeft": 764,
-    "LabelTop": 173,
-    "LabelWidth": 297,
-    "LastVersionId": 302,
-    "ListTableId": 258,
+    "LabelHeight": 499,
+    "LabelLeft": 209,
+    "LabelTop": 149,
+    "LabelWidth": 284,
+    "LastVersionId": 831,
+    "ListTableId": 306,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 577,
-    "ProgId": "soluta",
-    "IsReadOnly": false,
-    "ShortLabel": "possimus",
-    "TabOrder": 773,
-    "TextLength": 538,
-    "Tooltip": "in",
-    "UdefIdentity": 327,
-    "UDListDefinitionId": 97,
+    "Page1LineNo": 836,
+    "ProgId": "laboriosam",
+    "IsReadOnly": true,
+    "ShortLabel": "sint",
+    "TabOrder": 347,
+    "TextLength": 431,
+    "Tooltip": "provident",
+    "UdefIdentity": 433,
+    "UDListDefinitionId": 652,
     "Justification": "Center",
-    "Version": 409,
-    "TemplateVariableName": "Shields, Batz and Hartmann",
-    "HasBeenPublished": true,
-    "MdoListName": "Braun, Grady and Von",
+    "Version": 27,
+    "TemplateVariableName": "Mann Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Dicki LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldLength": 958
       }
     }
   }

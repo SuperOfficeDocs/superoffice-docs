@@ -96,28 +96,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 364,
-  "Section": "eos",
-  "Key": "qui",
-  "Name": "Mante, Crona and Hayes",
+  "PrefDescId": 806,
+  "Section": "deserunt",
+  "Key": "esse",
+  "Name": "Abbott, Kutch and Rau",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customer-focused local knowledge base",
+  "Description": "Distributed 5th generation installation",
   "IsBuiltin": false,
-  "TableName": "Bartell-Kunze",
-  "UserDefinedListId": 612,
-  "Rank": 668,
-  "SubGroup": "corrupti",
-  "MinLevel": 352,
-  "MaxValue": 500,
-  "MinValue": 227,
-  "RequiredLicense": "vitae"
+  "TableName": "Sanford-Heathcote",
+  "UserDefinedListId": 146,
+  "Rank": 709,
+  "SubGroup": "consequatur",
+  "MinLevel": 181,
+  "MaxValue": 203,
+  "MinValue": 738,
+  "RequiredLicense": "eos"
 }
 ```
 
@@ -128,30 +128,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 355,
-  "Section": "pariatur",
-  "Key": "illo",
-  "Name": "Volkman-Green",
+  "PrefDescId": 73,
+  "Section": "praesentium",
+  "Key": "fugit",
+  "Name": "Goldner, Bahringer and Thompson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Implemented needs-based utilisation",
+  "Description": "Public-key background intranet",
   "IsBuiltin": false,
-  "TableName": "Barton-Muller",
-  "UserDefinedListId": 502,
-  "Rank": 836,
-  "SubGroup": "quia",
-  "MinLevel": 181,
-  "MaxValue": 481,
-  "MinValue": 290,
-  "RequiredLicense": "dolores",
+  "TableName": "Wehner, Turner and Russel",
+  "UserDefinedListId": 927,
+  "Rank": 377,
+  "SubGroup": "et",
+  "MinLevel": 919,
+  "MaxValue": 288,
+  "MinValue": 250,
+  "RequiredLicense": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldLength": 6
     }
   }
 }

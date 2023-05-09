@@ -29,7 +29,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Mraz, Russel and Heathcote",
-    "ToolTip": "Non reiciendis fugiat quis soluta eius.",
+    "Id": 86,
+    "Name": "Runolfsdottir, Boyle and Rau",
+    "ToolTip": "Reprehenderit magnam.",
     "Deleted": false,
-    "Rank": 440,
-    "Type": "pariatur",
-    "ColorBlock": 698,
-    "IconHint": "voluptatem",
+    "Rank": 125,
+    "Type": "nihil",
+    "ColorBlock": 562,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2014-04-07T15:29:31.0439464+02:00",
+    "LastChanged": "2020-03-22T03:51:34.3490406+01:00",
     "ChildItems": [
       {
-        "Id": 247,
-        "Name": "Corwin-D'Amore",
-        "ToolTip": "Sit consequatur in omnis necessitatibus modi.",
+        "Id": 939,
+        "Name": "Williamson, Davis and Schaefer",
+        "ToolTip": "Consequuntur sit quae ut sint velit autem.",
         "Deleted": false,
-        "Rank": 32,
-        "Type": "dolores",
-        "ColorBlock": 927,
-        "IconHint": "tempora",
+        "Rank": 202,
+        "Type": "eligendi",
+        "ColorBlock": 75,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2013-07-25T15:29:31.0449467+02:00",
+        "LastChanged": "2021-12-23T03:51:34.3490406+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Mr. Houston Colt Beier",
+        "ExtraInfo": "est",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Ewald Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 302
+            "FieldLength": 471
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "consequuntur",
-    "Hidden": true,
-    "FullName": "Dr. Alice Toy Reynolds PhD",
+    "ExtraInfo": "inventore",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Kirsten Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldType": "System.Int32",
+        "FieldLength": 551
       }
     }
   }

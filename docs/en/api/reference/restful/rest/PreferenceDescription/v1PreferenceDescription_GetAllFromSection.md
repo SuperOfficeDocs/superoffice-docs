@@ -75,7 +75,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,30 +86,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 652,
-    "Section": "enim",
-    "Key": "quo",
-    "Name": "McLaughlin, Greenfelder and Leuschke",
+    "PrefDescId": 538,
+    "Section": "quia",
+    "Key": "porro",
+    "Name": "Paucek, Schoen and Stark",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Reactive intermediate time-frame",
-    "IsBuiltin": true,
-    "TableName": "Turner-Cartwright",
-    "UserDefinedListId": 857,
-    "Rank": 478,
-    "SubGroup": "ad",
-    "MinLevel": 348,
-    "MaxValue": 530,
-    "MinValue": 709,
-    "RequiredLicense": "soluta",
+    "Description": "Balanced object-oriented neural-net",
+    "IsBuiltin": false,
+    "TableName": "Rippin, Mayer and Carter",
+    "UserDefinedListId": 931,
+    "Rank": 143,
+    "SubGroup": "ratione",
+    "MinLevel": 501,
+    "MaxValue": 129,
+    "MinValue": 979,
+    "RequiredLicense": "eaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldLength": 714
       }
     }
   }

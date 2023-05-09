@@ -122,16 +122,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    278,
-    614
+    629,
+    520
   ],
-  "StartTime": "2004-03-18T15:29:20.4233332+01:00",
-  "EndTime": "2018-06-18T15:29:20.4233332+02:00"
+  "StartTime": "2005-02-03T03:51:26.1469713+01:00",
+  "EndTime": "2005-02-18T03:51:26.1469713+01:00"
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 662,
-    "StartDate": "2012-04-30T15:29:20.4243307+02:00",
-    "EndDate": "1997-11-02T15:29:20.4243307+01:00",
+    "AppointmentId": 121,
+    "StartDate": "1996-10-04T03:51:26.1469713+02:00",
+    "EndDate": "2017-04-18T03:51:26.1469713+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quam",
-    "AssociateFullName": "Marianne Angel Fahey DVM",
-    "ContactName": "Waters, Ritchie and Labadie",
-    "Description": "Upgradable systemic capacity",
-    "PersonFullName": "Oswaldo Bechtelar",
-    "PersonId": 578,
-    "ContactId": 110,
-    "ProjectId": 550,
-    "ProjectName": "Schulist, Hills and Murray",
+    "Task": "facilis",
+    "AssociateFullName": "Prof. Kasey Adaline Cummings Jr.",
+    "ContactName": "Gerhold LLC",
+    "Description": "Seamless disintermediate conglomeration",
+    "PersonFullName": "Crystel Turcotte",
+    "PersonId": 237,
+    "ContactId": 197,
+    "ProjectId": 947,
+    "ProjectName": "Toy Group",
     "IsPublished": true,
-    "AssociateId": 909,
-    "ColorIndex": 385,
-    "IsFree": true,
+    "AssociateId": 603,
+    "ColorIndex": 309,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 947,
-    "PriorityName": "Jewess Group",
+    "PriorityId": 423,
+    "PriorityName": "Turner, Bayer and Rosenbaum",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2021-05-24T15:29:20.4248329+02:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2008-01-07T03:51:26.1469713+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-11-09T15:29:20.4248329+01:00",
-    "RecurringEndDate": "1996-08-05T15:29:20.4248329+02:00",
-    "MotherId": 308,
-    "AssignedBy": 118,
-    "AssignedByFullName": "Natasha Jason Ortiz V",
-    "RejectReason": "exploit vertical e-commerce",
+    "RecurringStartDate": "2012-03-17T03:51:26.1469713+01:00",
+    "RecurringEndDate": "2012-10-15T03:51:26.1469713+02:00",
+    "MotherId": 333,
+    "AssignedBy": 108,
+    "AssignedByFullName": "Ryleigh Alberta Reichel Sr.",
+    "RejectReason": "",
     "Location": "nobis",
-    "AlarmLeadTime": "vero",
-    "SaleId": 743,
-    "SaleName": "Bahringer-Johns",
-    "AssociateName": "Kuphal-Emmerich",
-    "CreatedDate": "2003-04-24T15:29:20.4253309+02:00",
-    "CreatedBy": "quibusdam",
-    "CreatedByFullName": "Bertram Marvin",
-    "CreatedByAssociateId": 559,
+    "AlarmLeadTime": "sunt",
+    "SaleId": 676,
+    "SaleName": "Zulauf-O'Hara",
+    "AssociateName": "Rolfson, Stanton and Roberts",
+    "CreatedDate": "2003-12-09T03:51:26.1469713+01:00",
+    "CreatedBy": "iste",
+    "CreatedByFullName": "Prof. Davin Feil",
+    "CreatedByAssociateId": 712,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldLength": 302
       }
     }
   }

@@ -28,7 +28,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=False
+PUT /api/v1/TicketMessage/{id}?notify=True
 ```
 
 
@@ -127,66 +127,66 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 707,
+  "EjMessageId": 854,
   "Ticket": null,
-  "CreatedAt": "2007-08-25T15:29:30.7719568+02:00",
+  "CreatedAt": "2021-11-11T03:51:34.1459634+01:00",
   "CreatedBy": null,
-  "Author": "placeat",
+  "Author": "veritatis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ipsum",
-  "TimeSpent": 624,
-  "Body": "dolores",
-  "HtmlBody": "nemo",
-  "EmailHeader": "cristopher_runolfsdottir@kihn.us",
-  "DebugInfo": "enim",
-  "MailSorter": "et",
+  "MessageId": "rem",
+  "TimeSpent": 999,
+  "Body": "qui",
+  "HtmlBody": "est",
+  "EmailHeader": "maribel.wolf@jacobidenesik.info",
+  "DebugInfo": "similique",
+  "MailSorter": "illum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "itaque",
+  "SearchTitle": "non",
   "MessageHeaders": [
     {
-      "Id": 817,
-      "Name": "Kshlerin, Effertz and Weissnat",
-      "Value": "possimus",
+      "Id": 585,
+      "Name": "Jast, Hauck and Ankunding",
+      "Value": "numquam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 817,
-      "Name": "Kshlerin, Effertz and Weissnat",
-      "Value": "possimus",
+      "Id": 585,
+      "Name": "Jast, Hauck and Ankunding",
+      "Value": "numquam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "aut",
-  "Sentiment": 65,
-  "SentimentConfidence": 568,
+  "Language": "dolores",
+  "Sentiment": 191,
+  "SentimentConfidence": 7,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 688,
-      "Name": "Waters, Will and Hilpert",
-      "ContentType": "aut",
-      "AttSize": 859,
+      "AttachmentId": 156,
+      "Name": "Howell Group",
+      "ContentType": "architecto",
+      "AttSize": 458,
       "InlineImage": true,
-      "ContentId": "qui",
-      "AuthKey": "illo"
+      "ContentId": "at",
+      "AuthKey": "qui"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "laudantium",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "at"
   }
 }
 ```
@@ -198,28 +198,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 670,
+  "EjMessageId": 951,
   "Ticket": null,
-  "CreatedAt": "2016-12-15T15:29:30.7799831+01:00",
+  "CreatedAt": "2000-12-02T03:51:34.1459634+01:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "ea",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nihil",
-  "TimeSpent": 315,
-  "Body": "et",
-  "HtmlBody": "veritatis",
-  "EmailHeader": "hellen_kunde@kreiger.name",
-  "DebugInfo": "illo",
-  "MailSorter": "voluptas",
+  "MessageId": "ea",
+  "TimeSpent": 228,
+  "Body": "sit",
+  "HtmlBody": "et",
+  "EmailHeader": "chaya@mann.info",
+  "DebugInfo": "rerum",
+  "MailSorter": "accusantium",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quis",
+  "SearchTitle": "dolores",
   "MessageHeaders": [
     {
       "Id": 389,
-      "Name": "Terry Inc and Sons",
-      "Value": "dicta",
+      "Name": "Purdy, Jenkins and Casper",
+      "Value": "magni",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -227,49 +227,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldLength": 81
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "repudiandae",
-  "Sentiment": 554,
-  "SentimentConfidence": 400,
+  "Important": false,
+  "Language": "ratione",
+  "Sentiment": 56,
+  "SentimentConfidence": 112,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 9,
-      "Name": "Pacocha LLC",
-      "ContentType": "sint",
-      "AttSize": 268,
-      "InlineImage": true,
-      "ContentId": "consequatur",
-      "AuthKey": "dolores",
+      "AttachmentId": 203,
+      "Name": "Berge Inc and Sons",
+      "ContentType": "doloribus",
+      "AttSize": 636,
+      "InlineImage": false,
+      "ContentId": "cupiditate",
+      "AuthKey": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 397
+          "FieldLength": 795
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "quae"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "sunt"
+    "CustomFields1": "enim",
+    "CustomFields2": "temporibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 333
     }
   }
 }

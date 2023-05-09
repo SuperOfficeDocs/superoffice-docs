@@ -69,7 +69,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 475,
-  "Name": "Weber, Zieme and Graham",
+  "WebhookId": 353,
+  "Name": "Nicolas-Quigley",
   "Events": [
-    "hic",
-    "quis"
+    "repellat",
+    "qui"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "non",
+  "Secret": "iusto",
   "State": "Active",
-  "Type": "officia",
+  "Type": "quos",
   "Headers": {
-    "Headers1": "odit",
-    "Headers2": "blanditiis"
+    "Headers1": "explicabo",
+    "Headers2": "dolorum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2007-05-06T15:29:31.0109819+02:00",
+  "Registered": "2015-03-22T03:51:34.3334209+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2013-06-13T15:29:31.0114822+02:00",
+  "Updated": "2007-01-23T03:51:34.3334209+01:00",
   "UpdatedAssociate": null
 }
 ```

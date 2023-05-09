@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SuperListColumnSize"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -78,7 +78,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SuperListColumnSize?$select=associate/fullName,groupId,associate/mrMrs
+GET /api/v1/archive/SuperListColumnSize?$select=groupId,associate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

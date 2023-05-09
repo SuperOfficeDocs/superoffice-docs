@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Walter-Metz",
-  "ForceFlatList": false,
-  "AdditionalInfo": "voluptatibus",
+  "Name": "Thiel, Marvin and Dickinson",
+  "ForceFlatList": true,
+  "AdditionalInfo": "et",
   "OnlyHistory": false
 }
 ```
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Thiel, Jakubowski and Larson",
-    "ToolTip": "Est magni.",
+    "Id": 621,
+    "Name": "Parisian Inc and Sons",
+    "ToolTip": "Molestias non non.",
     "Deleted": true,
-    "Rank": 67,
-    "Type": "dolor",
+    "Rank": 881,
+    "Type": "explicabo",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Carter-Leannon",
-        "ToolTip": "Tempore quasi.",
+        "Id": 144,
+        "Name": "Stracke Inc and Sons",
+        "ToolTip": "Consequatur quasi veritatis odit iure culpa repudiandae excepturi.",
         "Deleted": false,
-        "Rank": 914,
-        "Type": "vitae",
+        "Rank": 881,
+        "Type": "quod",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "distinctio",
-        "ColorBlock": 917,
-        "ExtraInfo": "enim",
-        "StyleHint": "magni",
-        "FullName": "Prof. Anastacio Enid Hermiston",
+        "IconHint": "inventore",
+        "ColorBlock": 137,
+        "ExtraInfo": "officia",
+        "StyleHint": "eum",
+        "FullName": "Mrs. Beau Dicki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 582
+            "FieldType": "System.Int32",
+            "FieldLength": 496
           }
         }
       }
     ],
-    "IconHint": "labore",
-    "ColorBlock": 408,
-    "ExtraInfo": "atque",
-    "StyleHint": "animi",
-    "FullName": "Connor Auer",
+    "IconHint": "aut",
+    "ColorBlock": 132,
+    "ExtraInfo": "rerum",
+    "StyleHint": "ut",
+    "FullName": "Kylie Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 801
       }
     }
   }

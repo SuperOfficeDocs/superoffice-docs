@@ -68,8 +68,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Rempel-Brekke",
-    "Klein-King"
+    "Wyman, Schaefer and Dooley",
+    "Barton-Johnston"
   ]
 }
 ```

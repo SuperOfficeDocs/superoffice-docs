@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 140,
-  "Name": "Hyatt, Kiehn and Bechtelar"
+  "DashTileId": 121,
+  "Name": "Heller, Kozey and DuBuque"
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 670,
-  "DashboardId": 894,
-  "Height": 491,
-  "Width": 981,
-  "Rank": 636,
+  "DashboardTileId": 817,
+  "DashboardId": 183,
+  "Height": 490,
+  "Width": 469,
+  "Rank": 368,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 608
     }
   }
 }

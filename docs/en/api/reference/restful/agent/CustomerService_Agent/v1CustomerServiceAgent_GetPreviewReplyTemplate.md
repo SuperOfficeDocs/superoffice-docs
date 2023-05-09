@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 331
+  "ReplyTemplateId": 273
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Towne, Rippin and Nienow",
-  "Description": "Progressive optimal structure",
-  "OwnedByFullName": "Carolanne Yost DDS",
-  "Updated": "2003-01-14T15:29:21.2742824+01:00",
-  "Body": "ut",
+  "Name": "Wisoky, Ullrich and Kautzer",
+  "Description": "Up-sized bottom-line internet solution",
+  "OwnedByFullName": "Kailey Russel",
+  "Updated": "2015-10-28T03:51:26.9592824+01:00",
+  "Body": "dolor",
   "IsHtml": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 576
     }
   }
 }

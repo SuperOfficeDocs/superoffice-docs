@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Murray LLC"
+  "FunctionalRightName": "Bradtke, Hyatt and Mitchell"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Kub, Quigley and Littel",
-    "ToolTip": "Harum qui porro.",
+    "Id": 867,
+    "Name": "McClure Group",
+    "ToolTip": "Placeat id sint dolores.",
     "Deleted": true,
-    "Rank": 446,
-    "Type": "nostrum",
+    "Rank": 245,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 126,
-        "Name": "Veum Inc and Sons",
-        "ToolTip": "Voluptatem accusantium voluptas delectus.",
+        "Id": 213,
+        "Name": "Considine, Gutmann and Carroll",
+        "ToolTip": "Voluptas minus aut voluptatem voluptates.",
         "Deleted": false,
-        "Rank": 964,
-        "Type": "non",
+        "Rank": 766,
+        "Type": "ex",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 114,
-        "ExtraInfo": "tenetur",
-        "StyleHint": "ea",
-        "FullName": "Abigale Cronin",
+        "IconHint": "aspernatur",
+        "ColorBlock": 921,
+        "ExtraInfo": "neque",
+        "StyleHint": "optio",
+        "FullName": "Velva Reichert III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 27
+            "FieldLength": 368
           }
         }
       }
     ],
-    "IconHint": "tempore",
-    "ColorBlock": 351,
-    "ExtraInfo": "iusto",
-    "StyleHint": "sed",
-    "FullName": "Misty Gislason",
+    "IconHint": "cupiditate",
+    "ColorBlock": 187,
+    "ExtraInfo": "quisquam",
+    "StyleHint": "qui",
+    "FullName": "Era Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 209
+        "FieldLength": 605
       }
     }
   }

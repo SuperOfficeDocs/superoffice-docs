@@ -86,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Reichel Inc and Sons",
-  "DeviceName": "Schmitt LLC",
-  "DeviceIdentifier": "quaerat",
-  "TableName": "Sauer, Vandervort and Conroy"
+  "ApplicationName": "Goodwin-Emard",
+  "DeviceName": "Deckow-Hilpert",
+  "DeviceIdentifier": "voluptate",
+  "TableName": "Langworth Inc and Sons"
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quibusdam",
-    "Value": "enim",
-    "RecordId": 529,
-    "CreatedDate": "2011-05-09T15:29:21.9313087+02:00",
-    "UpdatedDate": "2018-07-05T15:29:21.9313087+02:00",
-    "UpdatedBy": "distinctio",
-    "CreatedBy": "non",
-    "TableName": "Herman, Lakin and Heidenreich",
+    "Key": "dolor",
+    "Value": "dolore",
+    "RecordId": 205,
+    "CreatedDate": "2017-06-21T03:51:27.3498217+02:00",
+    "UpdatedDate": "2015-06-20T03:51:27.3498217+02:00",
+    "UpdatedBy": "eos",
+    "CreatedBy": "consequatur",
+    "TableName": "Tremblay-Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 685
+        "FieldType": "System.Int32",
+        "FieldLength": 55
       }
     }
   }

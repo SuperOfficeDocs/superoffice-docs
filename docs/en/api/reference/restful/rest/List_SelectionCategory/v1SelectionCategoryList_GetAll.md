@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 263,
-    "Name": "Hermann-Tillman",
-    "Tooltip": "aperiam",
-    "Deleted": true,
-    "UdListDefinitionId": 615,
-    "Rank": 840,
+    "Id": 233,
+    "Name": "Monahan-Farrell",
+    "Tooltip": "deleniti",
+    "Deleted": false,
+    "UdListDefinitionId": 208,
+    "Rank": 847,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldLength": 766
       }
     }
   }

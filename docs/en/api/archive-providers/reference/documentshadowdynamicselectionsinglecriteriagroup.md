@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "DocumentShadowDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -674,7 +674,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=associateId,documentPublish/publishedTo,person/personRegisteredBy,person/personAssociate/personEmail,contact/contactAssociate/ejDisplayName
+GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=date,person/middleName,person/email/emailProtocol,person/restrictionAddress/wgs84latitude,person/personAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

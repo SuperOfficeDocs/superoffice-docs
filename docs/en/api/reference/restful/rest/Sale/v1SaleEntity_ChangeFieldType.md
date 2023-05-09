@@ -29,7 +29,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -103,7 +103,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 441,
-  "ColumnId": 178,
-  "FieldDefault": "cupiditate",
-  "FieldHeight": 555,
-  "FieldLabel": "illum",
-  "FieldLeft": 323,
-  "FieldTop": 549,
+  "UDefFieldId": 224,
+  "ColumnId": 281,
+  "FieldDefault": "ea",
+  "FieldHeight": 633,
+  "FieldLabel": "quo",
+  "FieldLeft": 453,
+  "FieldTop": 633,
   "FieldType": "Checkbox",
-  "FieldWidth": 986,
-  "FormatMask": "debitis",
-  "HideLabel": true,
+  "FieldWidth": 519,
+  "FormatMask": "earum",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 929,
-  "LabelLeft": 689,
-  "LabelTop": 815,
-  "LabelWidth": 402,
-  "LastVersionId": 465,
-  "ListTableId": 219,
+  "LabelHeight": 496,
+  "LabelLeft": 348,
+  "LabelTop": 106,
+  "LabelWidth": 214,
+  "LastVersionId": 444,
+  "ListTableId": 307,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 348,
-  "ProgId": "earum",
+  "Page1LineNo": 276,
+  "ProgId": "nobis",
   "IsReadOnly": false,
-  "ShortLabel": "ullam",
-  "TabOrder": 896,
-  "TextLength": 89,
-  "Tooltip": "velit",
-  "UdefIdentity": 276,
-  "UDListDefinitionId": 797,
+  "ShortLabel": "non",
+  "TabOrder": 162,
+  "TextLength": 1001,
+  "Tooltip": "natus",
+  "UdefIdentity": 874,
+  "UDListDefinitionId": 169,
   "Justification": "Center",
-  "Version": 752,
-  "TemplateVariableName": "Oberbrunner, Collier and Nitzsche",
-  "HasBeenPublished": true,
-  "MdoListName": "Larson, Goyette and Leuschke",
+  "Version": 311,
+  "TemplateVariableName": "Rohan LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Okuneva-Langosh",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldLength": 754
     }
   }
 }

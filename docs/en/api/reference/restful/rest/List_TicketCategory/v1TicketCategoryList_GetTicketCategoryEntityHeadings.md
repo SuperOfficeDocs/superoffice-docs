@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 725,
-    "Name": "Ernser Group",
-    "Tooltip": "aut",
+    "HeadingId": 345,
+    "Name": "Gleason, Rippin and Quigley",
+    "Tooltip": "alias",
     "Deleted": false,
-    "Rank": 828,
-    "UdListDefinitionId": 900,
+    "Rank": 308,
+    "UdListDefinitionId": 116,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldLength": 73
       }
     }
   }

@@ -90,12 +90,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 624,
-  "EmailBodyTemplateId": 463,
+  "QuoteVersionId": 436,
+  "EmailBodyTemplateId": 939,
   "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 405,
-  "IncludeAttachments": false,
-  "RawMailSubject": "odit"
+  "QuotedProductsTemplateId": 715,
+  "IncludeAttachments": true,
+  "RawMailSubject": "ea"
 }
 ```
 
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 309,
-  "QuotedProductsId": 100,
+  "QuoteDocumentId": 795,
+  "QuotedProductsId": 924,
   "QuoteAttachmentIds": [
-    370,
-    48
+    39,
+    996
   ],
-  "MailBody": "nostrum",
-  "MailSubject": "id",
-  "ToEmail": "rusty.carroll@strackefisher.co.uk",
-  "ToFullName": "Enrique Collier",
-  "ErrorMessage": "quaerat",
+  "MailBody": "optio",
+  "MailSubject": "velit",
+  "ToEmail": "alycia_koepp@parisian.info",
+  "ToFullName": "Francis Schoen",
+  "ErrorMessage": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldType": "System.String",
+      "FieldLength": 431
     }
   }
 }

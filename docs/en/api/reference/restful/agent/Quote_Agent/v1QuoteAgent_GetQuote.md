@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 287
+  "QuoteId": 159
 }
 ```
 
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 688,
-  "SaleId": 898,
-  "QuoteConnectionId": 254,
-  "ERPQuoteKey": "rerum",
-  "ERPOrderKey": "repellat",
-  "ActiveQuoteVersionId": 362,
-  "AcceptedQuoteAlternativeId": 310,
-  "UseValuesFromQuote": 847,
-  "DocumentId": 625,
-  "PoNumber": "841638",
-  "OrderComment": "sapiente",
-  "PreferredEmailCulture": "ezra@schowalter.biz",
+  "QuoteId": 580,
+  "SaleId": 493,
+  "QuoteConnectionId": 480,
+  "ERPQuoteKey": "enim",
+  "ERPOrderKey": "velit",
+  "ActiveQuoteVersionId": 314,
+  "AcceptedQuoteAlternativeId": 387,
+  "UseValuesFromQuote": 253,
+  "DocumentId": 825,
+  "PoNumber": "1031330",
+  "OrderComment": "consequatur",
+  "PreferredEmailCulture": "ewald_steuber@kulaswelch.co.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 802
     }
   }
 }

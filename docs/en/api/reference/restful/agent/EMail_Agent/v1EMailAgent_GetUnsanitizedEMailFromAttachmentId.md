@@ -108,12 +108,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 154,
+  "EmailId": 490,
   "AttachmentIds": [
-    "aut",
-    "in"
+    "tenetur",
+    "qui"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -126,146 +126,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 957,
-      "ContactName": "Moore LLC",
-      "PersonId": 250,
-      "PersonName": "Schimmel Inc and Sons",
-      "AssociateId": 942,
-      "Address": "beatae",
-      "EmailId": 757,
+      "ContactId": 140,
+      "ContactName": "Monahan-Homenick",
+      "PersonId": 681,
+      "PersonName": "Jacobson-Tromp",
+      "AssociateId": 547,
+      "Address": "ad",
+      "EmailId": 706,
       "DuplicatePersonIds": [
-        737,
-        666
+        489,
+        524
       ],
-      "Name": "Buckridge-Considine",
+      "Name": "Feest-Hirthe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 999
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 64,
-      "ContactName": "White, Breitenberg and Champlin",
-      "PersonId": 497,
-      "PersonName": "Huel Inc and Sons",
-      "AssociateId": 960,
-      "Address": "dignissimos",
-      "EmailId": 800,
+      "ContactId": 159,
+      "ContactName": "Nienow-Bechtelar",
+      "PersonId": 660,
+      "PersonName": "Ortiz LLC",
+      "AssociateId": 901,
+      "Address": "quibusdam",
+      "EmailId": 475,
       "DuplicatePersonIds": [
-        859,
-        621
+        247,
+        113
       ],
-      "Name": "Yundt Inc and Sons",
+      "Name": "Lindgren-Lindgren",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 617
+          "FieldType": "System.Int32",
+          "FieldLength": 939
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 29,
-      "ContactName": "Reichel, Bogan and Leannon",
-      "PersonId": 828,
-      "PersonName": "Hessel-Collier",
-      "AssociateId": 969,
-      "Address": "facilis",
-      "EmailId": 242,
+      "ContactId": 369,
+      "ContactName": "Pfannerstill-Satterfield",
+      "PersonId": 462,
+      "PersonName": "Ullrich, Funk and Gleason",
+      "AssociateId": 886,
+      "Address": "enim",
+      "EmailId": 624,
       "DuplicatePersonIds": [
-        332,
-        815
+        809,
+        65
       ],
-      "Name": "Will-Schowalter",
+      "Name": "Herman LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 471
+          "FieldType": "System.Int32",
+          "FieldLength": 258
         }
       }
     }
   ],
-  "Subject": "delectus",
-  "HTMLBody": "illo",
+  "Subject": "occaecati",
+  "HTMLBody": "velit",
   "From": null,
-  "Sent": "2020-03-05T15:29:21.7937751+01:00",
-  "Size": 260,
+  "Sent": "2022-11-25T03:51:27.2404741+01:00",
+  "Size": 786,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "fuga",
-  "PlainBody": "facere",
+  "MessageID": "qui",
+  "PlainBody": "dicta",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 232,
+  "ServerId": 970,
   "Attachments": [
     {
-      "Description": "Function-based hybrid migration",
-      "Filename": "qui",
-      "Size": 356,
-      "Type": "quos",
-      "Encoding": "numquam",
-      "Id": "aut",
-      "Disposition": "nobis",
+      "Description": "User-centric intangible data-warehouse",
+      "Filename": "ea",
+      "Size": 836,
+      "Type": "illo",
+      "Encoding": "et",
+      "Id": "magni",
+      "Disposition": "qui",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldLength": 115
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ortiz LLC",
+      "Name": "Carter, Franecki and Steuber",
       "Values": [
-        "consequatur",
-        "mollitia"
+        "non",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 140
+          "FieldLength": 939
         }
       }
     },
     {
-      "Name": "Ortiz LLC",
+      "Name": "Carter, Franecki and Steuber",
       "Values": [
-        "consequatur",
-        "mollitia"
+        "non",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 140
+          "FieldLength": 939
         }
       }
     }
   ],
-  "FolderName": "Botsford-Reilly",
-  "EmailItemId": 231,
-  "AccountId": 669,
-  "ReceivedAt": "2017-01-14T15:29:21.7942749+01:00",
+  "FolderName": "Pfeffer, Bahringer and Rippin",
+  "EmailItemId": 239,
+  "AccountId": 819,
+  "ReceivedAt": "2013-02-15T03:51:27.2404741+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-12-04T15:29:21.7942749+01:00",
+  "RepliedAt": "1997-11-21T03:51:27.2404741+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldType": "System.String",
+      "FieldLength": 170
     }
   }
 }

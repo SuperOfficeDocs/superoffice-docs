@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 253,
-  "Name": "Leuschke, Bradtke and Kuphal",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 161,
+  "Id": 250,
+  "Name": "West, Prosacco and Boehm",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 793,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nisi",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 687,
-  "Name": "Haley, Brekke and Upton",
-  "Tooltip": "a",
+  "Id": 757,
+  "Name": "Mayer LLC",
+  "Tooltip": "neque",
   "Deleted": false,
-  "Rank": 372,
-  "IsCustomList": false,
+  "Rank": 79,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "facilis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 71
     }
   }
 }

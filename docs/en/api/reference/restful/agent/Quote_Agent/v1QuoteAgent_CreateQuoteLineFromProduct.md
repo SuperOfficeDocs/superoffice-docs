@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 819,
+  "QuoteAlternativeId": 974,
   "Product": null
 }
 ```
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 644,
-  "ERPQuoteLineKey": "fugiat",
-  "QuoteAlternativeId": 994,
-  "ERPProductKey": "sint",
+  "QuoteLineId": 704,
+  "ERPQuoteLineKey": "excepturi",
+  "QuoteAlternativeId": 407,
+  "ERPProductKey": "vel",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 21047.944,
-  "DeliveredQuantity": 2877.0119999999997,
-  "Rank": 461,
-  "Name": "Rice Inc and Sons",
-  "Description": "Profit-focused clear-thinking forecast",
-  "Code": "enim",
-  "QuantityUnit": "quia",
-  "PriceUnit": "eaque",
-  "ItemNumber": "901497",
+  "Quantity": 10097.748,
+  "DeliveredQuantity": 10981.536,
+  "Rank": 430,
+  "Name": "Streich, Satterfield and Luettgen",
+  "Description": "Proactive demand-driven forecast",
+  "Code": "voluptas",
+  "QuantityUnit": "accusantium",
+  "PriceUnit": "pariatur",
+  "ItemNumber": "594382",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "eos",
-  "Supplier": "ab",
-  "SupplierCode": "ea",
-  "Thumbnail": "voluptatem",
-  "VATInfo": "et",
-  "VAT": 24695.92,
-  "UnitCost": 16494.242,
-  "UnitMinimumPrice": 30484.417999999998,
-  "UnitListPrice": 17920.212,
+  "ProductFamilyKey": "libero",
+  "ProductTypeKey": "ut",
+  "Supplier": "consequatur",
+  "SupplierCode": "animi",
+  "Thumbnail": "ad",
+  "VATInfo": "quae",
+  "VAT": 27077.76,
+  "UnitCost": 14400.73,
+  "UnitMinimumPrice": 7396.24,
+  "UnitListPrice": 18791.464,
   "ExtraInfo": [
     {
-      "Name": "Gorczany-Howe",
-      "Value": "ullam",
+      "Name": "Bins-Stoltenberg",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldType": "System.String",
+          "FieldLength": 846
         }
       }
     },
     {
-      "Name": "Gorczany-Howe",
-      "Value": "ullam",
+      "Name": "Bins-Stoltenberg",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldType": "System.String",
+          "FieldLength": 846
         }
       }
     }
   ],
-  "RawExtraInfo": "deleniti",
+  "RawExtraInfo": "itaque",
   "IsSubscription": true,
-  "SubscriptionUnit": "ab",
-  "SubscriptionQuantity": 31302.392,
-  "SubscriptionStart": "2009-11-18T15:29:22.5922644+01:00",
-  "ERPDiscountPercent": 28983.232,
-  "ERPDiscountAmount": 20192.362,
-  "DiscountPercent": 6067.424,
-  "DiscountAmount": 18064.376,
+  "SubscriptionUnit": "in",
+  "SubscriptionQuantity": 13748.858,
+  "SubscriptionStart": "2016-02-08T03:51:28.0371601+01:00",
+  "ERPDiscountPercent": 8477.47,
+  "ERPDiscountAmount": 14974.252,
+  "DiscountPercent": 25918.18,
+  "DiscountAmount": 13413.52,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 5938.9299999999994,
-  "EarningAmount": 12241.404,
-  "SubTotal": 28666.698,
-  "TotalPrice": 959.004,
-  "Rights": "odit",
-  "Rule": "aliquam",
-  "ExtraField1": "similique",
-  "ExtraField2": "placeat",
-  "ExtraField3": "provident",
-  "ExtraField4": "minus",
-  "ExtraField5": "est",
+  "EarningPercent": 25166.02,
+  "EarningAmount": 15306.456,
+  "SubTotal": 15701.34,
+  "TotalPrice": 18465.528,
+  "Rights": "nisi",
+  "Rule": "commodi",
+  "ExtraField1": "temporibus",
+  "ExtraField2": "quia",
+  "ExtraField3": "nesciunt",
+  "ExtraField4": "autem",
+  "ExtraField5": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 194
     }
   }
 }

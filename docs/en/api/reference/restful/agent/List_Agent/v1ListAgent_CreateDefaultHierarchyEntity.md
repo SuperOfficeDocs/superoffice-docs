@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 204,
+  "HierarchyId": 210,
   "Domain": "Dashboards",
-  "Name": "Braun-Donnelly",
-  "Fullname": "velit",
-  "ParentId": 888,
+  "Name": "Deckow, Langworth and Braun",
+  "Fullname": "sit",
+  "ParentId": 648,
   "Children": [
     {
-      "HierarchyId": 72,
+      "HierarchyId": 51,
       "Domain": "Dashboards",
-      "Name": "Abernathy, Will and Spinka",
-      "Fullname": "ut",
-      "ParentId": 727,
+      "Name": "Cummings, Schoen and Bogisich",
+      "Fullname": "eos",
+      "ParentId": 187,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-08-13T15:29:22.0877706+02:00",
-      "RegisteredAssociateId": 948,
-      "Updated": "2003-07-18T15:29:22.0877706+02:00",
-      "UpdatedAssociateId": 240,
+      "Registered": "2004-06-24T03:51:27.4747952+02:00",
+      "RegisteredAssociateId": 64,
+      "Updated": "2022-08-18T03:51:27.4747952+02:00",
+      "UpdatedAssociateId": 69,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 363
+          "FieldType": "System.Int32",
+          "FieldLength": 490
         }
       }
     }
   ],
-  "Registered": "1997-01-25T15:29:22.0877706+01:00",
-  "RegisteredAssociateId": 492,
-  "Updated": "1996-03-28T15:29:22.0877706+01:00",
-  "UpdatedAssociateId": 399,
+  "Registered": "2017-07-25T03:51:27.4747952+02:00",
+  "RegisteredAssociateId": 448,
+  "Updated": "2017-11-03T03:51:27.4747952+01:00",
+  "UpdatedAssociateId": 113,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldType": "System.String",
+      "FieldLength": 826
     }
   }
 }

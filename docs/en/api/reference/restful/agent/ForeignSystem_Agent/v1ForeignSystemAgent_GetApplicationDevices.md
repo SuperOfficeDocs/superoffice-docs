@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lowe, Stoltenberg and Nienow"
+  "ApplicationName": "Hilpert Inc and Sons"
 }
 ```
 
@@ -96,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 759,
-    "Name": "Boehm-Lehner",
-    "CreatedDate": "2005-09-14T15:29:21.9153074+02:00",
-    "UpdatedDate": "2008-12-31T15:29:21.9153074+01:00",
-    "AssociateFullName": "Jess Nader",
-    "CreatedBy": "consequatur",
-    "UpdatedBy": "nihil",
-    "DeviceIdentifier": "recusandae",
-    "ForeignAppId": 569,
+    "ForeignDeviceId": 987,
+    "Name": "Grimes, Langosh and Jones",
+    "CreatedDate": "1996-10-29T03:51:27.3498217+01:00",
+    "UpdatedDate": "2006-12-02T03:51:27.3498217+01:00",
+    "AssociateFullName": "Mr. Favian Marilyne Hartmann",
+    "CreatedBy": "in",
+    "UpdatedBy": "maxime",
+    "DeviceIdentifier": "non",
+    "ForeignAppId": 391,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldLength": 186
       }
     }
   }

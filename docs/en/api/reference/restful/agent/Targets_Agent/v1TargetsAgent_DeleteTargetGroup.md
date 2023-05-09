@@ -24,7 +24,7 @@ Deletes the TargetGroup
 | TargetGroupId | int32 | **Required** The id of the TargetGroup to be deleted. |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetGroup?TargetGroupId=818
+POST /api/v1/Agents/Targets/DeleteTargetGroup?TargetGroupId=666
 ```
 
 

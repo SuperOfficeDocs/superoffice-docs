@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    73,
-    179
+    662,
+    315
   ]
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 956,
-    "Name": "Kutch-Douglas",
-    "AssociateId": 391,
-    "DetailsTable": 385,
-    "DetailsRecord": 779,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 580,
+    "Name": "Feeney, Watsica and Davis",
+    "AssociateId": 421,
+    "DetailsTable": 966,
+    "DetailsRecord": 123,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "qui",
-      "ParameterObject2": "dolores"
+      "ParameterObject1": "veniam",
+      "ParameterObject2": "perspiciatis"
     },
-    "LastStarted": "2021-09-13T15:29:20.8212888+02:00",
-    "Created": "1999-11-07T15:29:20.8212888+01:00",
-    "StartCount": 728,
-    "DatabaseSerialNumber": "760590",
-    "Context": "aut",
-    "Result": "sit",
+    "LastStarted": "2002-06-09T03:51:26.6156255+02:00",
+    "Created": "2002-07-19T03:51:26.6156255+02:00",
+    "StartCount": 201,
+    "DatabaseSerialNumber": "1933973",
+    "Context": "ut",
+    "Result": "nulla",
     "State": "All",
-    "Description": "Advanced solution-oriented interface",
-    "Response": "ea",
-    "Request": "quis",
-    "ProgressDescription": "Multi-lateral holistic complexity",
-    "ProgressPercent": 81,
-    "FileName": "Funk-Labadie",
+    "Description": "Programmable leading edge policy",
+    "Response": "voluptatibus",
+    "Request": "neque",
+    "ProgressDescription": "Synergistic fresh-thinking standardization",
+    "ProgressPercent": 310,
+    "FileName": "Dicki Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 427
       }
     }
   }

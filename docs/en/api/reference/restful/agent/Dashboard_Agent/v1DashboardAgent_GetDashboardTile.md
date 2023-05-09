@@ -25,7 +25,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=308
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=235
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -89,64 +89,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 266,
-  "Caption": "facilis",
-  "Description": "Open-architected grid-enabled forecast",
-  "ChartName": "Fritsch LLC",
-  "ChartId": "et",
+  "DashboardTileId": 900,
+  "Caption": "saepe",
+  "Description": "Upgradable high-level approach",
+  "ChartName": "Casper-Zieme",
+  "ChartId": "eius",
   "IsDefault": true,
-  "AssociateId": 812,
-  "GroupId": 182,
-  "SelectionId": 147,
-  "Config": "unde",
+  "AssociateId": 800,
+  "GroupId": 151,
+  "SelectionId": 69,
+  "Config": "ab",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Morar, Roob and Weber",
-      "Description": "Managed composite hardware",
+      "Name": "Bernier-Muller",
+      "Description": "Intuitive asynchronous strategy",
       "Type": "Boolean",
-      "ListName": "Langosh-Cronin",
+      "ListName": "Leannon LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ut",
+      "Value": "dolor",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldLength": 236
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 557,
+      "VisibleId": 203,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldLength": 31
         }
       }
     },
     {
-      "VisibleId": 557,
+      "VisibleId": 203,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldLength": 31
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 167
+      "FieldType": "System.Int32",
+      "FieldLength": 168
     }
   }
 }

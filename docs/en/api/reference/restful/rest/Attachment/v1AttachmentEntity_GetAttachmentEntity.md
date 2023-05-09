@@ -88,19 +88,19 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 194,
-  "Name": "Brekke LLC",
-  "ContentType": "est",
-  "AttSize": 287,
-  "InlineImage": false,
-  "ContentId": "adipisci",
-  "AuthKey": "at",
+  "AttachmentId": 671,
+  "Name": "Kulas LLC",
+  "ContentType": "eum",
+  "AttSize": 141,
+  "InlineImage": true,
+  "ContentId": "explicabo",
+  "AuthKey": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldLength": 66
     }
   },
   "_Links": {

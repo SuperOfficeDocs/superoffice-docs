@@ -86,23 +86,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 511,
-  "BlobSize": 909,
-  "Description": "Grass-roots 24/7 ability",
-  "ExtraInfo": "corrupti",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "laboriosam",
-  "OriginalSize": 607,
-  "CreatedDate": "2001-05-19T15:29:20.8342894+02:00",
-  "UpdatedDate": "2014-07-30T15:29:20.8342894+02:00",
+  "BlobId": 975,
+  "BlobSize": 805,
+  "Description": "Centralized optimal implementation",
+  "ExtraInfo": "quod",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "consequatur",
+  "OriginalSize": 605,
+  "CreatedDate": "2008-12-08T03:51:26.6156255+01:00",
+  "UpdatedDate": "2015-02-09T03:51:26.6156255+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "vel"
+  "ConceptualType": "iste"
 }
 ```
 
@@ -113,25 +113,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 40,
-  "BlobSize": 716,
-  "Description": "Balanced executive core",
-  "ExtraInfo": "perferendis",
-  "IsEncrypted": true,
+  "BlobId": 665,
+  "BlobSize": 90,
+  "Description": "Open-source human-resource product",
+  "ExtraInfo": "est",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 426,
-  "CreatedDate": "2014-02-28T15:29:20.8357883+01:00",
-  "UpdatedDate": "1998-06-12T15:29:20.8357883+02:00",
+  "MimeType": "et",
+  "OriginalSize": 479,
+  "CreatedDate": "2004-05-13T03:51:26.6156255+02:00",
+  "UpdatedDate": "2003-01-27T03:51:26.6156255+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "illo",
+  "ConceptualType": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 181
     }
   }
 }

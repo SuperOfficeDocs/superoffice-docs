@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "assumenda",
-  "ProviderName": "Block-Gleason",
-  "StorageKey": "ut",
-  "Restrictions": "magnam",
-  "Context": "saepe"
+  "StorageType": "amet",
+  "ProviderName": "Parker, Kunde and Veum",
+  "StorageKey": "ipsum",
+  "Restrictions": "eos",
+  "Context": "facere"
 }
 ```
 

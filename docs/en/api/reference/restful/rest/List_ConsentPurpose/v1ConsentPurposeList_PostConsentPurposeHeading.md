@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 334,
-  "Name": "Hermann-Von",
-  "Tooltip": "laboriosam",
+  "HeadingId": 231,
+  "Name": "Boehm Group",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "Rank": 379,
-  "UdListDefinitionId": 415
+  "Rank": 160,
+  "UdListDefinitionId": 913
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 54,
-  "Name": "Bogisich-Bergnaum",
-  "Tooltip": "odio",
+  "HeadingId": 578,
+  "Name": "Walker Inc and Sons",
+  "Tooltip": "sit",
   "Deleted": true,
-  "Rank": 304,
-  "UdListDefinitionId": 583,
+  "Rank": 697,
+  "UdListDefinitionId": 154,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 659
+      "FieldType": "System.Int32",
+      "FieldLength": 835
     }
   }
 }

@@ -166,19 +166,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hessel, Will and Torphy",
-  "Columns": "dolor",
-  "SortOrder": "magni",
-  "Restriction": "facilis",
-  "Entities": "aperiam",
-  "Page": 913,
-  "PageSize": 405,
-  "Options": "sed",
-  "Context": "animi"
+  "ProviderName": "Rodriguez-Towne",
+  "Columns": "totam",
+  "SortOrder": "aperiam",
+  "Restriction": "odit",
+  "Entities": "labore",
+  "Page": 26,
+  "PageSize": 982,
+  "Options": "quia",
+  "Context": "mollitia"
 }
 ```
 
@@ -189,26 +189,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 109,
+  "RowCount": 156,
   "Rows": [
     {
-      "EntityName": "Morissette-Krajcik",
-      "PrimaryKey": 280,
+      "EntityName": "Zboncak-Grimes",
+      "PrimaryKey": 815,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nisi",
-          "TooltipHint": "in",
-          "LinkHint": "est"
+          "DisplayValue": "est",
+          "TooltipHint": "vitae",
+          "LinkHint": "dolores"
         }
       },
-      "LinkHint": "quaerat",
-      "StyleHint": "quod",
+      "LinkHint": "deleniti",
+      "StyleHint": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldLength": 871
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldType": "System.Int32",
+      "FieldLength": 346
     }
   }
 }

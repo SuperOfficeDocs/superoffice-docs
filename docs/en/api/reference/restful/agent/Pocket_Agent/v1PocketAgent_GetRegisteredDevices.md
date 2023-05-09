@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 187
+  "AssociateId": 935
 }
 ```
 
@@ -93,14 +93,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Hilll LLC",
-    "DeviceIdentifier": "corporis",
-    "PocketVersion": "quis",
-    "Language": "nobis",
-    "PNSHandle": "aliquid",
+    "DeviceName": "Hoppe LLC",
+    "DeviceIdentifier": "unde",
+    "PocketVersion": "occaecati",
+    "Language": "asperiores",
+    "PNSHandle": "itaque",
     "Platform": "Apple",
-    "OSVersion": "corrupti",
-    "TimeZoneId": 544
+    "OSVersion": "et",
+    "TimeZoneId": 528
   }
 ]
 ```

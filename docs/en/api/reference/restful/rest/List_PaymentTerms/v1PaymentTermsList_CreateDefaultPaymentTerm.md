@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 90,
-  "Name": "Wunsch Inc and Sons",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 745,
-  "Rank": 580,
+  "Id": 466,
+  "Name": "Lindgren Group",
+  "Tooltip": "tempora",
+  "Deleted": true,
+  "UdListDefinitionId": 729,
+  "Rank": 864,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldType": "System.Int32",
+      "FieldLength": 409
     }
   }
 }

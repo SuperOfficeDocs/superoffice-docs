@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,34 +91,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 372,
-    "ERPName": "Hessel LLC",
-    "DisplayName": "Daniel Group",
-    "DisplayDescription": "Reactive executive leverage",
-    "Rank": 307,
-    "ConnectorName": "Cremin, Hirthe and Kirlin",
-    "ErpConnectionId": 831,
-    "ExtraData": "exercitationem",
-    "IsAvailable": true,
+    "QuoteConnectionId": 651,
+    "ERPName": "Feil Inc and Sons",
+    "DisplayName": "Powlowski, Hilpert and Okuneva",
+    "DisplayDescription": "Front-line logistical groupware",
+    "Rank": 590,
+    "ConnectorName": "Jacobi-Rosenbaum",
+    "ErpConnectionId": 732,
+    "ExtraData": "et",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 414,
-        "ERPPriceListKey": "ut",
-        "QuoteConnectionId": 624,
-        "Name": "Miller-Mayert",
-        "Description": "Customer-focused content-based solution",
-        "Currency": "temporibus",
-        "CurrencyName": "Fritsch LLC",
-        "ValidFrom": "2005-08-31T15:29:22.5647642+02:00",
-        "ValidTo": "2001-09-11T15:29:22.5647642+02:00",
-        "IsActive": false,
+        "PriceListId": 307,
+        "ERPPriceListKey": "qui",
+        "QuoteConnectionId": 109,
+        "Name": "Kertzmann Inc and Sons",
+        "Description": "Organic bi-directional hub",
+        "Currency": "porro",
+        "CurrencyName": "Reynolds-Ullrich",
+        "ValidFrom": "2021-09-30T03:51:28.0059393+02:00",
+        "ValidTo": "1998-09-20T03:51:28.0059393+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 78
+            "FieldLength": 24
           }
         }
       }
@@ -126,19 +126,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      150,
-      855
+      218,
+      189
     ],
     "AssociateAccessIds": [
-      273,
-      324
+      559,
+      166
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 950
+        "FieldType": "System.Int32",
+        "FieldLength": 708
       }
     }
   }

@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 146
+  "ProjectId": 626
 }
 ```
 
@@ -108,33 +108,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 243,
-    "ContactId": 881,
-    "ProjectId": 871,
-    "ContactName": "Kemmer Inc and Sons",
+    "ProjectmemberId": 584,
+    "ContactId": 731,
+    "ProjectId": 784,
+    "ContactName": "Nader-Schmidt",
     "ContactDepartment": "",
-    "ProjectName": "Walker LLC",
-    "EmailId": 796,
-    "EmailAddress": "abel@bogisich.info",
-    "CountryId": 137,
-    "Firstname": "Brandyn",
-    "MiddleName": "Denesik-Leffler",
-    "Lastname": "Cole",
-    "PersonId": 496,
-    "Mrmrs": "ad",
-    "ProjectMemberTypeName": "Kerluke Inc and Sons",
-    "Phone": "078-361-2639",
-    "PhoneId": 909,
-    "ProjectMemberTypeId": 414,
-    "EmailAddressName": "britney@lockman.com",
-    "Comment": "eum",
-    "FullName": "Prof. Genoveva Wiza",
+    "ProjectName": "Schimmel-Lueilwitz",
+    "EmailId": 726,
+    "EmailAddress": "riley_klocko@carter.biz",
+    "CountryId": 903,
+    "Firstname": "Cruz",
+    "MiddleName": "Quigley-Feeney",
+    "Lastname": "Smitham",
+    "PersonId": 700,
+    "Mrmrs": "non",
+    "ProjectMemberTypeName": "Hand LLC",
+    "Phone": "(386)377-2326 x33062",
+    "PhoneId": 153,
+    "ProjectMemberTypeId": 158,
+    "EmailAddressName": "roma_farrell@smith.us",
+    "Comment": "et",
+    "FullName": "Elwin Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldType": "System.String",
+        "FieldLength": 330
       }
     }
   }

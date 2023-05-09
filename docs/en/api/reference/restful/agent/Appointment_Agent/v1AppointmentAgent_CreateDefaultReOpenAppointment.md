@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 977
+  "SaleId": 552
 }
 ```
 
@@ -145,122 +145,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-01-03T15:29:20.6653271+01:00",
-  "AppointmentId": 653,
-  "Description": "Total secondary parallelism",
-  "StartDate": "2008-11-24T15:29:20.6653271+01:00",
-  "EndDate": "2022-02-20T15:29:20.6653271+01:00",
+  "CreatedDate": "2019-12-24T03:51:26.3344358+01:00",
+  "AppointmentId": 8,
+  "Description": "Reduced object-oriented workforce",
+  "StartDate": "2017-02-12T03:51:26.3344358+01:00",
+  "EndDate": "2015-10-03T03:51:26.3344358+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 730,
+  "MotherId": 615,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-06-02T15:29:20.6693276+02:00",
+  "UpdatedDate": "2013-12-27T03:51:26.3344358+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 538,
+  "ActiveLinks": 796,
   "Links": [
     {
-      "EntityName": "Towne-Block",
-      "Id": 434,
-      "Description": "Organic optimizing model",
-      "ExtraInfo": "voluptas",
-      "LinkId": 837,
+      "EntityName": "Green Group",
+      "Id": 926,
+      "Description": "Function-based responsive budgetary management",
+      "ExtraInfo": "sapiente",
+      "LinkId": 292,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 825
         }
       }
     }
   ],
-  "AlarmLeadTime": "in",
+  "AlarmLeadTime": "aut",
   "HasAlarm": false,
-  "ColorIndex": 372,
+  "ColorIndex": 435,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "iure",
-  "LeadTime": "officiis",
-  "Location": "et",
-  "RejectCounter": 621,
+  "IsAlldayEvent": true,
+  "LagTime": "quia",
+  "LeadTime": "at",
+  "Location": "amet",
+  "RejectCounter": 438,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 270,
-      "PersonId": 797,
-      "ContactId": 872,
-      "EmailId": 677,
-      "SendEmail": true,
+      "AssociateId": 280,
+      "PersonId": 968,
+      "ContactId": 1000,
+      "EmailId": 927,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 270,
-      "PersonId": 797,
-      "ContactId": 872,
-      "EmailId": 677,
-      "SendEmail": true,
+      "AssociateId": 280,
+      "PersonId": 968,
+      "ContactId": 1000,
+      "EmailId": 927,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-05-01T15:29:20.6693276+02:00",
-  "HasConflict": false,
+  "ActiveDate": "1996-01-11T03:51:26.3344358+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 928,
+  "PreferredTZLocation": 372,
   "Sale": null,
-  "SuggestedAppointmentId": 320,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 798,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dignissimos",
+  "CentralserviceVideomeetId": "iusto",
   "UserDefinedFields": {
-    "SuperOffice:1": "2068811051",
-    "SuperOffice:2": "982679856"
+    "SuperOffice:1": "Cleveland Brekke III",
+    "SuperOffice:2": "Green Zaria Bradtke II"
   },
   "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "magni",
+    "ExtraFields2": "officiis"
   },
   "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "doloribus"
+    "CustomFields1": "qui",
+    "CustomFields2": "excepturi"
   },
-  "PublishEventDate": "1997-01-24T15:29:20.670827+01:00",
-  "PublishTo": "2012-07-01T15:29:20.670827+02:00",
-  "PublishFrom": "2006-02-09T15:29:20.670827+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-10-04T03:51:26.3344358+02:00",
+  "PublishTo": "2002-03-04T03:51:26.3344358+01:00",
+  "PublishFrom": "2013-02-26T03:51:26.3344358+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 960,
+      "VisibleId": 580,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 500
         }
       }
     },
     {
-      "VisibleId": 960,
+      "VisibleId": 580,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 500
         }
       }
     }
@@ -269,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldType": "System.String",
+      "FieldLength": 20
     }
   }
 }

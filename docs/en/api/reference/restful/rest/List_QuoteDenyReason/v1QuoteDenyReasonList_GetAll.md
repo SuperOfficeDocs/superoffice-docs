@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Blick, Klocko and Stamm",
-    "Tooltip": "libero",
+    "Id": 636,
+    "Name": "Beahan Group",
+    "Tooltip": "inventore",
     "Deleted": true,
-    "UdListDefinitionId": 897,
-    "Rank": 196,
+    "UdListDefinitionId": 926,
+    "Rank": 774,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldLength": 68
       }
     }
   }

@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 811,
-  "MinDate": "2004-11-14T15:29:21.6738128+01:00",
-  "MaxDate": "2003-01-02T15:29:21.6738128+01:00",
+  "DocumentPluginId": 320,
+  "MinDate": "1998-07-19T03:51:27.1467458+02:00",
+  "MaxDate": "2012-12-04T03:51:27.1467458+01:00",
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 1000,
-  "NumDocumentsAlreadyMigrated": 184,
+  "NumDocumentsOmitted": 236,
+  "NumDocumentsAlreadyMigrated": 889,
   "Documents": [
     {
-      "DocumentId": 966,
-      "ContactId": 471,
-      "PersonId": 938,
-      "SaleId": 585,
-      "ProjectId": 575,
-      "DocTmplId": 689,
-      "AssociateId": 39,
-      "UserGroupId": 648,
-      "VisibleForId": 418
+      "DocumentId": 563,
+      "ContactId": 908,
+      "PersonId": 287,
+      "SaleId": 108,
+      "ProjectId": 998,
+      "DocTmplId": 138,
+      "AssociateId": 394,
+      "UserGroupId": 925,
+      "VisibleForId": 394
     }
   ],
   "Associates": [
     {
-      "AssociateId": 282,
-      "EmailAddress": "fredrick_smith@dach.com"
+      "AssociateId": 827,
+      "EmailAddress": "mona@schowalterlynch.info"
     },
     {
-      "AssociateId": 282,
-      "EmailAddress": "fredrick_smith@dach.com"
+      "AssociateId": 827,
+      "EmailAddress": "mona@schowalterlynch.info"
     }
   ]
 }

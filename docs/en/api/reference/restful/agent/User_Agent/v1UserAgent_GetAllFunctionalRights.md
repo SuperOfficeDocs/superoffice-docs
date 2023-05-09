@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 273,
-    "Name": "Schaden, Spinka and Feeney",
-    "ToolTip": "Deserunt fugit.",
+    "Id": 972,
+    "Name": "Breitenberg, Bauch and Boyle",
+    "ToolTip": "Omnis earum.",
     "Deleted": false,
-    "Rank": 303,
-    "Type": "aut",
-    "ColorBlock": 101,
-    "IconHint": "ut",
+    "Rank": 422,
+    "Type": "nesciunt",
+    "ColorBlock": 778,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "2021-12-21T15:29:23.3377541+01:00",
+    "LastChanged": "2005-05-24T03:51:28.4901768+02:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Ledner Group",
-        "ToolTip": "Hic iste a quia.",
-        "Deleted": true,
-        "Rank": 117,
-        "Type": "unde",
-        "ColorBlock": 564,
-        "IconHint": "aut",
+        "Id": 708,
+        "Name": "Hodkiewicz-Zieme",
+        "ToolTip": "Deserunt explicabo.",
+        "Deleted": false,
+        "Rank": 467,
+        "Type": "rem",
+        "ColorBlock": 537,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2003-06-14T15:29:23.3377541+02:00",
+        "LastChanged": "2005-09-29T03:51:28.4901768+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
+        "ExtraInfo": "ut",
         "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Ruthie Zieme",
+        "FullName": "Ryley Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 375
+            "FieldLength": 147
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "minima",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Marilyne Mayert",
+    "FullName": "Gilbert O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 414
+        "FieldLength": 798
       }
     }
   }

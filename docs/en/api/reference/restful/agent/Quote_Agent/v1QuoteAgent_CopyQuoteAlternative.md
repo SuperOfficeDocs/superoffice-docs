@@ -96,13 +96,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 671,
-  "QuoteAlternativeId": 996,
-  "QuoteAlternativeName": "Bashirian LLC"
+  "QuoteVersionId": 66,
+  "QuoteAlternativeId": 621,
+  "QuoteAlternativeName": "King Inc and Sons"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 799,
-  "ERPQuoteAlternativeKey": "sit",
-  "QuoteVersionId": 385,
-  "Name": "O'Kon-Batz",
-  "Description": "Horizontal well-modulated monitoring",
+  "QuoteAlternativeId": 893,
+  "ERPQuoteAlternativeKey": "vel",
+  "QuoteVersionId": 311,
+  "Name": "Borer Group",
+  "Description": "Cross-platform bottom-line help-desk",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 18327.631999999998,
-  "ERPDiscountAmount": 21959.938,
-  "DiscountPercent": 13338.304,
-  "DiscountAmount": 20455.618,
+  "Reason": "integrate holistic solutions",
+  "ERPDiscountPercent": 3594.698,
+  "ERPDiscountAmount": 5647.468,
+  "DiscountPercent": 28227.938,
+  "DiscountAmount": 25482.554,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "aut",
-  "VAT": 18390.311999999998,
-  "EarningPercent": 19631.376,
-  "EarningAmount": 877.52,
-  "SubTotal": 15845.503999999999,
-  "TotalPrice": 31158.228,
-  "ExtraField1": "sunt",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "sit",
-  "ExtraField4": "impedit",
-  "ExtraField5": "magni",
+  "VATInfo": "maxime",
+  "VAT": 18431.054,
+  "EarningPercent": 31318.061999999998,
+  "EarningAmount": 3550.8219999999997,
+  "SubTotal": 28704.306,
+  "TotalPrice": 24727.26,
+  "ExtraField1": "adipisci",
+  "ExtraField2": "magni",
+  "ExtraField3": "saepe",
+  "ExtraField4": "atque",
+  "ExtraField5": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldLength": 6
     }
   }
 }

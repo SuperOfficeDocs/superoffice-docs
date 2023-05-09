@@ -26,7 +26,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=False
+GET /api/v1/List/Country/Items?includeDeleted=True
 ```
 
 
@@ -94,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 207,
-    "Name": "Keeling, Hills and Davis",
-    "CurrencyId": 225,
-    "EnglishName": "Tromp Group",
+    "CountryId": 325,
+    "Name": "Keebler, Littel and Waelchi",
+    "CurrencyId": 113,
+    "EnglishName": "Wisozk Inc and Sons",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Down-sized fresh-thinking contingency",
-    "OrgNrText": "1550427",
-    "InterAreaPrefix": "qui",
-    "DialInPrefix": "perferendis",
-    "ZipPrefix": "soluta",
-    "DomainName": "DuBuque-Bartoletti",
-    "AddressLayoutId": 810,
-    "DomesticAddressLayoutId": 559,
-    "ForeignAddressLayoutId": 178,
-    "Rank": 548,
-    "Tooltip": "dolore",
-    "Deleted": false,
+    "ImageDescription": "Distributed zero tolerance implementation",
+    "OrgNrText": "768765",
+    "InterAreaPrefix": "eius",
+    "DialInPrefix": "quam",
+    "ZipPrefix": "quis",
+    "DomainName": "Hessel, Hagenes and Smith",
+    "AddressLayoutId": 165,
+    "DomesticAddressLayoutId": 474,
+    "ForeignAddressLayoutId": 210,
+    "Rank": 151,
+    "Tooltip": "doloremque",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 797
+        "FieldLength": 362
       }
     }
   }

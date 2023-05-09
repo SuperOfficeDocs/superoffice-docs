@@ -90,17 +90,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 416,
-  "Name": "Wisoky Inc and Sons",
-  "ContentType": "quod",
-  "AttSize": 277,
+  "AttachmentId": 892,
+  "Name": "Roberts-Block",
+  "ContentType": "sed",
+  "AttSize": 329,
   "InlineImage": false,
-  "ContentId": "velit",
-  "AuthKey": "voluptatem"
+  "ContentId": "veniam",
+  "AuthKey": "et"
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 870,
-  "Name": "Morissette Group",
-  "ContentType": "dolore",
-  "AttSize": 794,
+  "AttachmentId": 318,
+  "Name": "Roob-Jacobi",
+  "ContentType": "fugit",
+  "AttSize": 514,
   "InlineImage": true,
-  "ContentId": "quibusdam",
-  "AuthKey": "laudantium",
+  "ContentId": "excepturi",
+  "AuthKey": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 167
+      "FieldType": "System.Int32",
+      "FieldLength": 506
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

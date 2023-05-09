@@ -82,36 +82,36 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 333,
-  "Field": "deleniti",
-  "RecordId": 641,
+  "RefCountsId": 774,
+  "Field": "accusamus",
+  "RecordId": 798,
   "SuggestedRecords": [
     {
-      "Id": 91,
-      "Name": "Gutmann-Grant",
-      "ToolTip": "Molestias est.",
+      "Id": 783,
+      "Name": "Blanda, Abshire and Daniel",
+      "ToolTip": "Porro aut deserunt deserunt sit ex cumque.",
       "Deleted": false,
-      "Rank": 262,
-      "Type": "ipsa",
+      "Rank": 295,
+      "Type": "assumenda",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ipsum",
-      "ColorBlock": 291,
-      "ExtraInfo": "possimus",
-      "StyleHint": "odio",
-      "FullName": "Mrs. Jamar Davis"
+      "IconHint": "quia",
+      "ColorBlock": 590,
+      "ExtraInfo": "optio",
+      "StyleHint": "totam",
+      "FullName": "Mrs. Louisa Nya McKenzie IV"
     }
   ],
-  "CurrentValue": 773,
-  "TravelPrefix": 905,
-  "SatPrefix": 552,
-  "Allocate": false,
+  "CurrentValue": 155,
+  "TravelPrefix": 798,
+  "SatPrefix": 781,
+  "Allocate": true,
   "Unique": true,
   "ReadOnly": false,
   "AllowBlank": false
@@ -125,49 +125,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 634,
-  "Field": "hic",
-  "RecordId": 176,
+  "RefCountsId": 325,
+  "Field": "non",
+  "RecordId": 914,
   "SuggestedRecords": [
     {
-      "Id": 601,
-      "Name": "Roob-Kautzer",
-      "ToolTip": "Quia enim.",
+      "Id": 479,
+      "Name": "Yost, Lebsack and Barrows",
+      "ToolTip": "Omnis nostrum.",
       "Deleted": false,
-      "Rank": 942,
-      "Type": "est",
+      "Rank": 903,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "laborum",
-      "ColorBlock": 419,
-      "ExtraInfo": "ad",
-      "StyleHint": "veritatis",
-      "FullName": "Cara Gutmann III",
+      "IconHint": "eius",
+      "ColorBlock": 450,
+      "ExtraInfo": "blanditiis",
+      "StyleHint": "possimus",
+      "FullName": "Marjorie Windler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 808
         }
       }
     }
   ],
-  "CurrentValue": 236,
-  "TravelPrefix": 686,
-  "SatPrefix": 122,
+  "CurrentValue": 665,
+  "TravelPrefix": 663,
+  "SatPrefix": 682,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 16
     }
   }
 }

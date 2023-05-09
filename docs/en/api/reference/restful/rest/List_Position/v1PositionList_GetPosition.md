@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 685,
-  "Name": "Kuhn-Feil",
-  "Tooltip": "dolorem",
+  "Id": 93,
+  "Name": "Schaefer-Collins",
+  "Tooltip": "nulla",
   "Deleted": true,
-  "UdListDefinitionId": 799,
-  "Rank": 559,
+  "UdListDefinitionId": 25,
+  "Rank": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 29
     }
   }
 }

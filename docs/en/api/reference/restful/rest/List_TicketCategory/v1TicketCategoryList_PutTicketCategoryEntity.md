@@ -103,33 +103,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 501,
-  "ParentId": 747,
-  "Name": "Labadie, Gorczany and Marks",
-  "Fullname": "sit",
-  "CategoryMaster": 420,
+  "TicketCategoryId": 491,
+  "ParentId": 61,
+  "Name": "Goodwin LLC",
+  "Fullname": "quisquam",
+  "CategoryMaster": 813,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Larkin Inc and Sons",
+  "ExternalName": "Hahn Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 778,
-  "ReplyTemplate": 853,
-  "NotificationEmail": "ron@mills.com",
+  "AssignmentLag": 441,
+  "ReplyTemplate": 411,
+  "NotificationEmail": "josianne@cummerata.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 599,
+  "EffectiveReplyTemplateId": 837,
   "ExtraFields": {
-    "ExtraFields1": "natus",
-    "ExtraFields2": "commodi"
+    "ExtraFields1": "quibusdam",
+    "ExtraFields2": "ipsa"
   },
   "CustomFields": {
-    "CustomFields1": "tempore",
-    "CustomFields2": "in"
+    "CustomFields1": "nihil",
+    "CustomFields2": "architecto"
   }
 }
 ```
@@ -141,36 +141,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 655,
-  "ParentId": 893,
-  "Name": "Kuhic, Conn and Gottlieb",
-  "Fullname": "culpa",
-  "CategoryMaster": 97,
+  "TicketCategoryId": 664,
+  "ParentId": 589,
+  "Name": "Skiles-Glover",
+  "Fullname": "incidunt",
+  "CategoryMaster": 549,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kunze, Walker and Osinski",
+  "ExternalName": "Emmerich LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 750,
-  "ReplyTemplate": 520,
-  "NotificationEmail": "roselyn@davis.info",
+  "AssignmentLag": 872,
+  "ReplyTemplate": 907,
+  "NotificationEmail": "rodrigo_franecki@hilpert.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 213,
+  "EffectiveReplyTemplateId": 437,
   "ExtraFields": {
-    "ExtraFields1": "doloribus",
-    "ExtraFields2": "quisquam"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "quod"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "error"
+    "CustomFields1": "omnis",
+    "CustomFields2": "porro"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 704
+      "FieldLength": 64
     }
   }
 }

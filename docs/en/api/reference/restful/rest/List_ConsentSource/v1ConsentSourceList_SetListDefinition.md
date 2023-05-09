@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 109,
-  "Name": "Stark, Doyle and Kunde",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "Rank": 93,
+  "Id": 454,
+  "Name": "Doyle Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 477,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolores",
+  "ListType": "soluta",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 756,
-  "Name": "Beier-Collier",
-  "Tooltip": "assumenda",
+  "Id": 3,
+  "Name": "Waters, Zboncak and Fahey",
+  "Tooltip": "natus",
   "Deleted": false,
-  "Rank": 718,
+  "Rank": 434,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aperiam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 2
+      "FieldType": "System.Int32",
+      "FieldLength": 198
     }
   }
 }

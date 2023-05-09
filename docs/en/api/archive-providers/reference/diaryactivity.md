@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "DiaryActivity"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -711,7 +711,7 @@ Activity archive provider for the Diary (checklist)
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryActivity?$select=person/phone/formattedNumber,person/personExtra/x_person_boolean,contact/country,contact/streetAddress/wgs84latitude,project/projectUrl/URLAddress
+GET /api/v1/archive/DiaryActivity?$select=person/email/emailBounceCount,person/restrictionAddress/state,person/personUdef/SuperOffice:5,contact/number,sale/projectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

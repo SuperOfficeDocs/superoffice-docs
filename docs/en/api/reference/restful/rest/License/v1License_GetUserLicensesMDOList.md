@@ -68,7 +68,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,56 +79,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 852,
-    "Name": "Donnelly, Nitzsche and Abshire",
-    "ToolTip": "Nam pariatur debitis repudiandae quo recusandae doloribus quia.",
+    "Id": 339,
+    "Name": "Olson Group",
+    "ToolTip": "Maiores ut doloribus vero deserunt laboriosam.",
     "Deleted": false,
-    "Rank": 96,
-    "Type": "nulla",
-    "ColorBlock": 477,
-    "IconHint": "eligendi",
-    "Selected": true,
-    "LastChanged": "2001-08-27T15:29:30.8554841+02:00",
+    "Rank": 780,
+    "Type": "nihil",
+    "ColorBlock": 264,
+    "IconHint": "soluta",
+    "Selected": false,
+    "LastChanged": "2005-07-08T03:51:34.2084568+02:00",
     "ChildItems": [
       {
-        "Id": 183,
-        "Name": "Dietrich LLC",
-        "ToolTip": "Voluptatem molestiae ipsam exercitationem.",
-        "Deleted": false,
-        "Rank": 470,
-        "Type": "nihil",
-        "ColorBlock": 889,
-        "IconHint": "id",
+        "Id": 543,
+        "Name": "Turner Group",
+        "ToolTip": "Voluptatibus officiis ut quod rerum ut nihil sint.",
+        "Deleted": true,
+        "Rank": 193,
+        "Type": "fugiat",
+        "ColorBlock": 926,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2007-10-14T15:29:30.8554841+02:00",
+        "LastChanged": "2020-09-24T03:51:34.2084568+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "voluptatem",
-        "StyleHint": "architecto",
+        "StyleHint": "ipsam",
         "Hidden": true,
-        "FullName": "Annamae Parker",
+        "FullName": "Ms. Mack Kianna Powlowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 162
+            "FieldLength": 937
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "molestias",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Dakota Clovis Pouros PhD",
+    "FullName": "Callie Marvin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 545
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

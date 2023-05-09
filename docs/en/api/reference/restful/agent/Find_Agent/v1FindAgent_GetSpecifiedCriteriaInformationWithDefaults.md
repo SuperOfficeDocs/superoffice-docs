@@ -85,16 +85,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "odit",
-  "ProviderName": "Hayes-Breitenberg",
-  "StorageKey": "odio",
+  "StorageType": "eligendi",
+  "ProviderName": "Skiles-Sipes",
+  "StorageKey": "quos",
   "DesiredColumnNames": [
-    "Ankunding Group",
-    "Kunze LLC"
+    "McClure, Abbott and Kirlin",
+    "Smitham, Hettinger and Dare"
   ],
   "StaticColumns": [
-    "suscipit",
-    "cumque"
+    "voluptatem",
+    "et"
   ]
 }
 ```
@@ -108,15 +108,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Daugherty-Daugherty",
-      "Operator": "accusamus",
+      "Name": "Bechtelar, Doyle and Daniel",
+      "Operator": "consequatur",
       "Values": [
-        "aut",
-        "blanditiis"
+        "a",
+        "iure"
       ],
       "DisplayValues": [
-        "autem",
-        "natus"
+        "nisi",
+        "rerum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -124,65 +124,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 499,
+      "InterParenthesis": 945,
       "InterOperator": "And",
-      "UniqueHash": 273
+      "UniqueHash": 962
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Berge, Breitenberg and Hoeger",
-      "DisplayTooltip": "officia",
-      "DisplayType": "rerum",
+      "DisplayName": "Wolff Group",
+      "DisplayTooltip": "reiciendis",
+      "DisplayType": "omnis",
       "CanOrderBy": false,
-      "Name": "Hilll Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "officiis",
-      "RestrictionListName": "Nikolaus, Olson and Kuhic",
-      "IsVisible": false,
-      "ExtraInfo": "non",
-      "Width": "libero",
+      "Name": "Denesik-Cassin",
+      "CanRestrictBy": true,
+      "RestrictionType": "omnis",
+      "RestrictionListName": "Gulgowski-Mueller",
+      "IsVisible": true,
+      "ExtraInfo": "corporis",
+      "Width": "rerum",
       "IconHint": "reiciendis",
-      "HeadingIconHint": "voluptatem"
+      "HeadingIconHint": "accusantium"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Champlin, Heathcote and Lowe",
-      "PrimaryKey": 875,
+      "EntityName": "Heathcote-Becker",
+      "PrimaryKey": 58,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "autem",
-          "LinkHint": "in"
+          "DisplayValue": "harum",
+          "TooltipHint": "accusamus",
+          "LinkHint": "a"
         }
       },
-      "LinkHint": "autem",
-      "StyleHint": "est",
+      "LinkHint": "voluptatem",
+      "StyleHint": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldType": "System.String",
+          "FieldLength": 725
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hessel Inc and Sons",
-      "Description": "Cross-group content-based architecture",
-      "Rank": 227,
+      "Name": "Funk, Gerhold and Oberbrunner",
+      "Description": "Managed multi-tasking approach",
+      "Rank": 469,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hessel Inc and Sons",
-      "Description": "Cross-group content-based architecture",
-      "Rank": 227,
+      "Name": "Funk, Gerhold and Oberbrunner",
+      "Description": "Managed multi-tasking approach",
+      "Rank": 469,
       "Restrictions": [
         {},
         {}
@@ -193,8 +193,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldType": "System.String",
+      "FieldLength": 964
     }
   }
 }

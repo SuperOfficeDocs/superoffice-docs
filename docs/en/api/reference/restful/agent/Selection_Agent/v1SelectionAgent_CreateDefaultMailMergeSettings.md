@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 568,
-  "DocumentId": 817,
+  "SelectionId": 967,
+  "DocumentId": 897,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "accusamus",
-  "AlwaysUseCustomAttention": true,
+  "CustomAttention": "vero",
+  "AlwaysUseCustomAttention": false,
   "SaveDocument": false,
-  "CustomMailBody": "voluptatum",
+  "CustomMailBody": "qui",
   "TaskEntity": null,
-  "AddCompanyInterest": 61,
-  "AddPersonInterest": 189,
-  "RemoveCompanyInterest": 461,
-  "RemovePersonInterest": 15,
+  "AddCompanyInterest": 504,
+  "AddPersonInterest": 212,
+  "RemoveCompanyInterest": 400,
+  "RemovePersonInterest": 83,
   "IncludeNoMailingsRecipient": false,
   "TestOnly": false,
-  "ProjectId": 245,
+  "ProjectId": 686,
   "IncludeRetiredRecipients": false,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "facere",
-  "ExtraInfo": "expedita",
-  "Synchronous": false,
-  "IsTemporarySelection": true,
+  "CustomMailSubject": "nulla",
+  "ExtraInfo": "sint",
+  "Synchronous": true,
+  "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldLength": 424
     }
   }
 }

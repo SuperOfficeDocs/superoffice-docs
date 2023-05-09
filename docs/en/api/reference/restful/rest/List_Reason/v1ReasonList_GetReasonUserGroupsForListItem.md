@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Mraz Group",
-    "ToolTip": "Eius necessitatibus quis.",
-    "Deleted": true,
-    "Rank": 281,
-    "Type": "beatae",
-    "ColorBlock": 906,
-    "IconHint": "sed",
+    "Id": 474,
+    "Name": "Nolan-Fadel",
+    "ToolTip": "Laudantium quam praesentium.",
+    "Deleted": false,
+    "Rank": 982,
+    "Type": "ipsum",
+    "ColorBlock": 312,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2016-12-05T15:29:31.5304745+01:00",
+    "LastChanged": "2008-08-10T03:51:34.8957999+02:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Turner-Farrell",
-        "ToolTip": "Ut qui cumque.",
+        "Id": 750,
+        "Name": "Kautzer LLC",
+        "ToolTip": "Sunt repudiandae totam exercitationem explicabo.",
         "Deleted": false,
-        "Rank": 716,
-        "Type": "mollitia",
-        "ColorBlock": 261,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2010-04-26T15:29:31.5304745+02:00",
+        "Rank": 682,
+        "Type": "rerum",
+        "ColorBlock": 585,
+        "IconHint": "architecto",
+        "Selected": false,
+        "LastChanged": "2015-03-08T03:51:34.8957999+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "modi",
-        "Hidden": false,
-        "FullName": "Durward Reichel",
+        "ExtraInfo": "et",
+        "StyleHint": "assumenda",
+        "Hidden": true,
+        "FullName": "Willie Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 550
+            "FieldLength": 231
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "nihil",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "nobis",
     "Hidden": false,
-    "FullName": "Shanie Steuber",
+    "FullName": "Zora Keira Mraz I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldType": "System.String",
+        "FieldLength": 346
       }
     }
   }

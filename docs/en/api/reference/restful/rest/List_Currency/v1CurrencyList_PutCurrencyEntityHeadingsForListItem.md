@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Deckow, Reinger and Leffler",
-    "ToolTip": "Omnis quibusdam omnis vero odit quo.",
+    "Id": 932,
+    "Name": "Hauck-Emmerich",
+    "ToolTip": "Omnis repudiandae harum.",
     "Deleted": true,
-    "Rank": 3,
-    "Type": "aut",
-    "ColorBlock": 562,
-    "IconHint": "velit",
+    "Rank": 729,
+    "Type": "ut",
+    "ColorBlock": 188,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2002-12-17T15:29:31.2124794+01:00",
+    "LastChanged": "2010-09-23T03:51:34.6614813+02:00",
     "ChildItems": [
       {
-        "Id": 637,
-        "Name": "Hayes, Ankunding and Rogahn",
-        "ToolTip": "Nihil deserunt et ea non ab nisi.",
+        "Id": 742,
+        "Name": "Witting, Carter and Dare",
+        "ToolTip": "Eaque alias exercitationem totam.",
         "Deleted": false,
-        "Rank": 194,
-        "Type": "inventore",
-        "ColorBlock": 367,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2009-01-28T15:29:31.2124794+01:00",
+        "Rank": 124,
+        "Type": "dolores",
+        "ColorBlock": 769,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "1998-02-18T03:51:34.6614813+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "ab",
-        "Hidden": false,
-        "FullName": "Kiana O'Conner Sr."
+        "ExtraInfo": "est",
+        "StyleHint": "consectetur",
+        "Hidden": true,
+        "FullName": "Pinkie Ankunding"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Mrs. Lauriane Myah Sauer DDS"
+    "ExtraInfo": "doloribus",
+    "StyleHint": "quas",
+    "Hidden": true,
+    "FullName": "Miss Lucile Ondricka"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Luettgen LLC",
-    "ToolTip": "Iste fuga velit hic officiis harum.",
+    "Id": 601,
+    "Name": "Goyette-Weimann",
+    "ToolTip": "Et soluta quo dolore itaque amet.",
     "Deleted": true,
     "Rank": 599,
-    "Type": "placeat",
-    "ColorBlock": 149,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2003-04-05T15:29:31.2144793+02:00",
+    "Type": "deserunt",
+    "ColorBlock": 838,
+    "IconHint": "officiis",
+    "Selected": false,
+    "LastChanged": "2002-04-30T03:51:34.6614813+02:00",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Stark, Wiegand and Kutch",
-        "ToolTip": "Eaque possimus aut non.",
+        "Id": 445,
+        "Name": "Kassulke Group",
+        "ToolTip": "Distinctio vel eius illo et sequi.",
         "Deleted": false,
-        "Rank": 979,
-        "Type": "sed",
-        "ColorBlock": 102,
-        "IconHint": "sunt",
+        "Rank": 348,
+        "Type": "maiores",
+        "ColorBlock": 556,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2013-04-06T15:29:31.2149793+02:00",
+        "LastChanged": "1998-09-26T03:51:34.6614813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "iusto",
+        "ExtraInfo": "rerum",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Burdette Parker",
+        "FullName": "Dayana Jaskolski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 877
+            "FieldLength": 471
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "provident",
+    "ExtraInfo": "alias",
+    "StyleHint": "exercitationem",
     "Hidden": false,
-    "FullName": "Nakia Ryan",
+    "FullName": "Mrs. Lia Marlin Kassulke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 119
+        "FieldType": "System.Int32",
+        "FieldLength": 505
       }
     }
   }

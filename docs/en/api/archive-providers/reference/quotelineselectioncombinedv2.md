@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteLineSelectionCombinedV2"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -723,7 +723,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=productCategoryKey,status,alternative/version/quote/sale/probPercent,alternative/version/quote/sale/person/personAddress/line3,alternative/version/quote/sale/contact/contactId
+GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=alternative/version/quote/sale/person/title,alternative/version/quote/sale/person/personExtra/x_person_user_relation,alternative/version/quote/sale/person/correspondingAssociate/contactId,alternative/version/quote/sale/contact/restrictionAddress/county,alternative/version/quote/sale/contact/contactAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

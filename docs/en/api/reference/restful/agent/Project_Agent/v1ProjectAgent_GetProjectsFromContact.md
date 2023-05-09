@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 469
+  "ContactId": 286
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 629,
-    "Name": "Kutch, Terry and Lakin",
-    "Description": "Advanced impactful projection",
+    "ProjectId": 683,
+    "Name": "Ortiz-Borer",
+    "Description": "Front-line zero administration instruction set",
     "URL": "http://www.example.com/",
-    "Type": "architecto",
-    "AssociateId": 92,
-    "AssociateFullName": "Rasheed Rod Luettgen V",
-    "TypeId": 957,
-    "Updated": "2004-08-20T15:29:22.4877653+02:00",
-    "StatusId": 741,
-    "Status": "quas",
-    "TextId": 43,
-    "PublishTo": "2004-09-28T15:29:22.4877653+02:00",
-    "PublishFrom": "2012-09-18T15:29:22.4877653+02:00",
+    "Type": "nam",
+    "AssociateId": 291,
+    "AssociateFullName": "Dr. Davon Johns",
+    "TypeId": 175,
+    "Updated": "2008-02-11T03:51:27.943438+01:00",
+    "StatusId": 928,
+    "Status": "assumenda",
+    "TextId": 786,
+    "PublishTo": "2019-05-13T03:51:27.943438+02:00",
+    "PublishFrom": "2011-11-13T03:51:27.943438+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "633795",
-    "ActiveErpLinks": 365,
+    "ProjectNumber": "946074",
+    "ActiveErpLinks": 739,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldType": "System.String",
+        "FieldLength": 282
       }
     }
   }

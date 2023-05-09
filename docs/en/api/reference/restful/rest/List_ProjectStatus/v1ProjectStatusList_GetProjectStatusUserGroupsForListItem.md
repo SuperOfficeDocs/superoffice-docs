@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Kunze-Hermann",
-    "ToolTip": "Delectus dolor pariatur tenetur veritatis.",
-    "Deleted": true,
-    "Rank": 758,
-    "Type": "consequatur",
-    "ColorBlock": 336,
-    "IconHint": "veritatis",
-    "Selected": false,
-    "LastChanged": "2009-03-05T15:29:31.4474758+01:00",
+    "Id": 370,
+    "Name": "Friesen, Pouros and Douglas",
+    "ToolTip": "Ut accusamus dolor tempore in unde.",
+    "Deleted": false,
+    "Rank": 329,
+    "Type": "voluptatem",
+    "ColorBlock": 748,
+    "IconHint": "doloremque",
+    "Selected": true,
+    "LastChanged": "2023-01-14T03:51:34.833319+01:00",
     "ChildItems": [
       {
-        "Id": 561,
-        "Name": "Leannon-Lemke",
-        "ToolTip": "Consequuntur hic error eligendi accusamus dolor quod.",
-        "Deleted": true,
-        "Rank": 919,
-        "Type": "animi",
-        "ColorBlock": 646,
-        "IconHint": "qui",
+        "Id": 178,
+        "Name": "Koch Group",
+        "ToolTip": "Enim est fuga.",
+        "Deleted": false,
+        "Rank": 980,
+        "Type": "quas",
+        "ColorBlock": 799,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "1998-10-19T15:29:31.4474758+02:00",
+        "LastChanged": "1999-06-14T03:51:34.833319+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "nam",
-        "Hidden": true,
-        "FullName": "William Louvenia Lakin III",
+        "ExtraInfo": "minus",
+        "StyleHint": "laboriosam",
+        "Hidden": false,
+        "FullName": "Bradly Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 910
+            "FieldType": "System.String",
+            "FieldLength": 117
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "qui",
+    "ExtraInfo": "enim",
+    "StyleHint": "dolor",
     "Hidden": true,
-    "FullName": "Angelina Moen",
+    "FullName": "Mireille Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 66
       }
     }
   }

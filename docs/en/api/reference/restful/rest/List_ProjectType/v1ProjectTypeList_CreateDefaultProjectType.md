@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 23,
-  "Name": "Veum-Keeling",
-  "Tooltip": "quo",
+  "Id": 855,
+  "Name": "Metz Inc and Sons",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 552,
-  "Rank": 294,
+  "UdListDefinitionId": 24,
+  "Rank": 391,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 852
+      "FieldType": "System.Int32",
+      "FieldLength": 383
     }
   }
 }

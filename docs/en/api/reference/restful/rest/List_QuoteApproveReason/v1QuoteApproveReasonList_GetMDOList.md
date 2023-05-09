@@ -25,8 +25,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=corporis
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=et
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Berge, Carter and Parisian",
-    "ToolTip": "Reprehenderit alias eum cupiditate sunt.",
+    "Id": 572,
+    "Name": "Pfannerstill-Herzog",
+    "ToolTip": "Et quibusdam.",
     "Deleted": true,
-    "Rank": 533,
-    "Type": "dolore",
+    "Rank": 399,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 22,
-        "Name": "Gusikowski, Cole and Oberbrunner",
-        "ToolTip": "Dicta et illo.",
-        "Deleted": false,
-        "Rank": 424,
-        "Type": "asperiores",
+        "Id": 294,
+        "Name": "Dietrich LLC",
+        "ToolTip": "Aspernatur aut aut ea cum fugiat dolorum.",
+        "Deleted": true,
+        "Rank": 249,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 766,
-        "ExtraInfo": "ducimus",
-        "StyleHint": "dolore",
-        "FullName": "Palma Turcotte",
+        "IconHint": "itaque",
+        "ColorBlock": 332,
+        "ExtraInfo": "laudantium",
+        "StyleHint": "harum",
+        "FullName": "Maryse Jakubowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 505
+            "FieldType": "System.String",
+            "FieldLength": 835
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 641,
-    "ExtraInfo": "et",
-    "StyleHint": "quis",
-    "FullName": "Naomi Brakus Jr.",
+    "IconHint": "molestiae",
+    "ColorBlock": 906,
+    "ExtraInfo": "nisi",
+    "StyleHint": "doloremque",
+    "FullName": "Marianna Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldLength": 610
       }
     }
   }

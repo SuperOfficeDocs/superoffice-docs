@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 788,
-  "SelectionId": 158,
-  "IncludeEmails": true
+  "DocumentPluginId": 294,
+  "SelectionId": 382,
+  "IncludeEmails": false
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 958,
-  "NumDocumentsAlreadyMigrated": 169,
+  "NumDocumentsOmitted": 594,
+  "NumDocumentsAlreadyMigrated": 22,
   "Documents": [
     {
-      "DocumentId": 38,
-      "ContactId": 233,
-      "PersonId": 191,
-      "SaleId": 296,
-      "ProjectId": 36,
-      "DocTmplId": 12,
-      "AssociateId": 699,
-      "UserGroupId": 384,
-      "VisibleForId": 253
+      "DocumentId": 220,
+      "ContactId": 990,
+      "PersonId": 160,
+      "SaleId": 447,
+      "ProjectId": 371,
+      "DocTmplId": 900,
+      "AssociateId": 828,
+      "UserGroupId": 786,
+      "VisibleForId": 737
     }
   ],
   "Associates": [
     {
-      "AssociateId": 362,
-      "EmailAddress": "brook_weimann@oberbrunnerwiza.co.uk"
+      "AssociateId": 384,
+      "EmailAddress": "unique@gutkowskikeeling.biz"
     },
     {
-      "AssociateId": 362,
-      "EmailAddress": "brook_weimann@oberbrunnerwiza.co.uk"
+      "AssociateId": 384,
+      "EmailAddress": "unique@gutkowskikeeling.biz"
     }
   ]
 }

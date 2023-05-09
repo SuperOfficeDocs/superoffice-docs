@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 579
+  "QuoteId": 341
 }
 ```
 
@@ -126,75 +126,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 163,
-    "ERPQuoteVersionKey": "ut",
-    "QuoteId": 997,
-    "Description": "Inverse high-level hub",
-    "Number": "990653",
+    "QuoteVersionId": 744,
+    "ERPQuoteVersionKey": "aut",
+    "QuoteId": 726,
+    "Description": "Integrated asynchronous forecast",
+    "Number": "1392170",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 905,
-    "SentDate": "1997-12-02T15:29:22.5197648+01:00",
-    "FollowupId": 804,
-    "ExpirationDate": "2007-03-03T15:29:22.5197648+01:00",
-    "DeliveryCountryId": 228,
+    "LikelyQuoteAlternativeId": 551,
+    "SentDate": "2022-05-12T03:51:27.9746798+02:00",
+    "FollowupId": 393,
+    "ExpirationDate": "1997-04-08T03:51:27.9746798+02:00",
+    "DeliveryCountryId": 891,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 263,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "labore",
-    "ERPPaymentTypeKey": "vitae",
-    "ERPDeliveryTermsKey": "sint",
-    "ERPDeliveryTypeKey": "iusto",
-    "Rank": 193,
-    "ApprovedBy": 236,
-    "ApprovedText": "quisquam",
-    "ApprovedRegisteredBy": 705,
-    "ApprovedRegisteredDate": "2006-03-29T15:29:22.5197648+02:00",
-    "ExtraField1": "dolores",
-    "ExtraField2": "ut",
-    "ExtraField3": "rerum",
-    "ExtraField4": "consectetur",
-    "ExtraField5": "quaerat",
-    "LastRecalculated": "2002-06-25T15:29:22.5202647+02:00",
-    "Updated": "2009-07-27T15:29:22.5202647+02:00",
-    "UpdatedAssociateId": 665,
-    "Registered": "2016-12-24T15:29:22.5202647+01:00",
-    "RegisteredAssociateId": 596,
-    "RequestAssociateId": 941,
-    "RequestComment": "sint",
+    "InvoiceCountryId": 703,
+    "HasOwnInvoiceAddress": true,
+    "ERPPaymentTermsKey": "enim",
+    "ERPPaymentTypeKey": "quam",
+    "ERPDeliveryTermsKey": "eius",
+    "ERPDeliveryTypeKey": "itaque",
+    "Rank": 481,
+    "ApprovedBy": 854,
+    "ApprovedText": "porro",
+    "ApprovedRegisteredBy": 51,
+    "ApprovedRegisteredDate": "2021-07-30T03:51:27.9746798+02:00",
+    "ExtraField1": "est",
+    "ExtraField2": "maxime",
+    "ExtraField3": "beatae",
+    "ExtraField4": "assumenda",
+    "ExtraField5": "sit",
+    "LastRecalculated": "2020-09-30T03:51:27.9746798+02:00",
+    "Updated": "1997-11-20T03:51:27.9746798+01:00",
+    "UpdatedAssociateId": 386,
+    "Registered": "2022-07-15T03:51:27.9746798+02:00",
+    "RegisteredAssociateId": 983,
+    "RequestAssociateId": 375,
+    "RequestComment": "nostrum",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 633,
-        "ERPQuoteAlternativeKey": "animi",
-        "QuoteVersionId": 26,
-        "Name": "Parisian-Rutherford",
-        "Description": "Face to face analyzing emulation",
+        "QuoteAlternativeId": 849,
+        "ERPQuoteAlternativeKey": "quam",
+        "QuoteVersionId": 832,
+        "Name": "Weber, Beier and Stanton",
+        "Description": "Horizontal system-worthy moderator",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 4390.7339999999995,
-        "ERPDiscountAmount": 9066.662,
-        "DiscountPercent": 1209.724,
-        "DiscountAmount": 18296.291999999998,
+        "ERPDiscountPercent": 18587.754,
+        "ERPDiscountAmount": 16773.167999999998,
+        "DiscountPercent": 14077.928,
+        "DiscountAmount": 19882.095999999998,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "vero",
-        "VAT": 14817.552,
-        "EarningPercent": 4045.9939999999997,
-        "EarningAmount": 7960.36,
-        "SubTotal": 4174.488,
-        "TotalPrice": 27040.152,
-        "ExtraField1": "et",
-        "ExtraField2": "qui",
-        "ExtraField3": "aperiam",
-        "ExtraField4": "animi",
-        "ExtraField5": "deleniti",
+        "VATInfo": "illo",
+        "VAT": 2215.738,
+        "EarningPercent": 3701.254,
+        "EarningAmount": 3713.79,
+        "SubTotal": 17500.256,
+        "TotalPrice": 12576.742,
+        "ExtraField1": "omnis",
+        "ExtraField2": "quasi",
+        "ExtraField3": "suscipit",
+        "ExtraField4": "beatae",
+        "ExtraField5": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldType": "System.String",
+            "FieldLength": 760
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 814
       }
     }
   }

@@ -73,15 +73,15 @@ No Content
 POST /api/v1/Agents/User/SetExternalUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 383,
-  "UserName": "Schowalter, Metz and Bins",
-  "Password": "quod",
+  "AssociateId": 714,
+  "UserName": "Rau LLC",
+  "Password": "possimus",
   "IsActive": true,
-  "RoleId": 535,
+  "RoleId": 128,
   "ExternalUserInfoModification": "Active"
 }
 ```

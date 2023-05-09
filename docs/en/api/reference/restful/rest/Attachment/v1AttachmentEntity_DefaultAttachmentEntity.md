@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 67,
-  "Name": "Baumbach, Gaylord and Larkin",
-  "ContentType": "expedita",
-  "AttSize": 175,
+  "AttachmentId": 755,
+  "Name": "Greenholt Inc and Sons",
+  "ContentType": "sed",
+  "AttSize": 280,
   "InlineImage": false,
-  "ContentId": "laboriosam",
-  "AuthKey": "totam",
+  "ContentId": "necessitatibus",
+  "AuthKey": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   }
 }

@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 789,
-  "Name": "Nolan Inc and Sons",
-  "Tooltip": "officia",
+  "Id": 594,
+  "Name": "Miller-Feeney",
+  "Tooltip": "ex",
   "Deleted": false,
-  "Rank": 17,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "inventore",
+  "Rank": 705,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "saepe",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 679,
-  "Name": "Strosin Inc and Sons",
-  "Tooltip": "soluta",
-  "Deleted": false,
-  "Rank": 58,
+  "Id": 878,
+  "Name": "Bayer-Parisian",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 674,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 621
+      "FieldLength": 530
     }
   }
 }

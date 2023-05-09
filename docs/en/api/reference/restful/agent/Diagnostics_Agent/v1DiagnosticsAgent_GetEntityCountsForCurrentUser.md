@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetEntityCountsForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,26 +76,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Braun Group",
-    "Records": 951,
+    "EntityName": "Homenick, Vandervort and Ankunding",
+    "Records": 711,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 453
       }
     }
   },
   {
-    "EntityName": "Braun Group",
-    "Records": 951,
+    "EntityName": "Homenick, Vandervort and Ankunding",
+    "Records": 711,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 453
       }
     }
   }

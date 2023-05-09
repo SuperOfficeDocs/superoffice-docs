@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 {
   "License": [
     {
-      "Name": "Sanford LLC",
-      "Description": "Advanced mobile success",
+      "Name": "Schoen LLC",
+      "Description": "Phased content-based artificial intelligence",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Sanford LLC",
-      "Description": "Advanced mobile success",
+      "Name": "Schoen LLC",
+      "Description": "Phased content-based artificial intelligence",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -118,56 +118,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pacocha, O'Kon and Lebsack",
-    "Description": "Reverse-engineered discrete local area network",
+    "Name": "Kuphal, Morissette and Hickle",
+    "Description": "Future-proofed even-keeled secured line",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 163,
-        "Tooltip": "occaecati",
+        "Total": 799,
+        "Tooltip": "repudiandae",
         "CanAssign": true,
-        "Free": 723,
-        "InUse": 129,
+        "Free": 390,
+        "InUse": 95,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 310,
-        "Name": "Conroy, Metz and Weissnat",
-        "Description": "Switchable human-resource info-mediaries",
-        "PrerequisiteModuleName": "Adams, Veum and Smith",
-        "SortOrder": 304,
-        "ExtraFlags": 432,
+        "ModuleLicenseId": 883,
+        "Name": "Hansen-Botsford",
+        "Description": "Decentralized secondary moratorium",
+        "PrerequisiteModuleName": "Haley Group",
+        "SortOrder": 184,
+        "ExtraFlags": 814,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 371
+            "FieldType": "System.Int32",
+            "FieldLength": 874
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 882,
-        "Tooltip": "impedit",
+        "Unrestricted": false,
+        "Total": 296,
+        "Tooltip": "enim",
         "CanAssign": true,
-        "Free": 942,
-        "InUse": 600,
+        "Free": 54,
+        "InUse": 956,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 987,
-        "Name": "Schimmel, Deckow and Gibson",
-        "Description": "Ameliorated 3rd generation knowledge user",
-        "PrerequisiteModuleName": "Rice, Goldner and Beahan",
-        "SortOrder": 259,
-        "ExtraFlags": 418,
+        "ModuleLicenseId": 844,
+        "Name": "Casper, Armstrong and Langworth",
+        "Description": "Secured eco-centric parallelism",
+        "PrerequisiteModuleName": "Lemke, Haag and Littel",
+        "SortOrder": 150,
+        "ExtraFlags": 1000,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 853
+            "FieldLength": 9
           }
         }
       }
@@ -176,62 +176,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldType": "System.String",
+        "FieldLength": 39
       }
     }
   },
   {
-    "Name": "Pacocha, O'Kon and Lebsack",
-    "Description": "Reverse-engineered discrete local area network",
+    "Name": "Kuphal, Morissette and Hickle",
+    "Description": "Future-proofed even-keeled secured line",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 163,
-        "Tooltip": "occaecati",
+        "Total": 799,
+        "Tooltip": "repudiandae",
         "CanAssign": true,
-        "Free": 723,
-        "InUse": 129,
+        "Free": 390,
+        "InUse": 95,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 310,
-        "Name": "Conroy, Metz and Weissnat",
-        "Description": "Switchable human-resource info-mediaries",
-        "PrerequisiteModuleName": "Adams, Veum and Smith",
-        "SortOrder": 304,
-        "ExtraFlags": 432,
+        "ModuleLicenseId": 883,
+        "Name": "Hansen-Botsford",
+        "Description": "Decentralized secondary moratorium",
+        "PrerequisiteModuleName": "Haley Group",
+        "SortOrder": 184,
+        "ExtraFlags": 814,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 371
+            "FieldType": "System.Int32",
+            "FieldLength": 874
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 882,
-        "Tooltip": "impedit",
+        "Unrestricted": false,
+        "Total": 296,
+        "Tooltip": "enim",
         "CanAssign": true,
-        "Free": 942,
-        "InUse": 600,
+        "Free": 54,
+        "InUse": 956,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 987,
-        "Name": "Schimmel, Deckow and Gibson",
-        "Description": "Ameliorated 3rd generation knowledge user",
-        "PrerequisiteModuleName": "Rice, Goldner and Beahan",
-        "SortOrder": 259,
-        "ExtraFlags": 418,
+        "ModuleLicenseId": 844,
+        "Name": "Casper, Armstrong and Langworth",
+        "Description": "Secured eco-centric parallelism",
+        "PrerequisiteModuleName": "Lemke, Haag and Littel",
+        "SortOrder": 150,
+        "ExtraFlags": 1000,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 853
+            "FieldLength": 9
           }
         }
       }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldType": "System.String",
+        "FieldLength": 39
       }
     }
   }

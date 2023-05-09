@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Stracke Group",
-    "ToolTip": "Aut soluta qui occaecati in quisquam corporis facere.",
-    "Deleted": true,
-    "Rank": 744,
-    "Type": "accusamus",
-    "ColorBlock": 475,
-    "IconHint": "dolore",
+    "Id": 37,
+    "Name": "Hilpert LLC",
+    "ToolTip": "Et et.",
+    "Deleted": false,
+    "Rank": 286,
+    "Type": "quisquam",
+    "ColorBlock": 664,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2006-04-20T15:29:31.5309754+02:00",
+    "LastChanged": "2008-04-14T03:51:34.9114158+02:00",
     "ChildItems": [
       {
-        "Id": 60,
-        "Name": "Rowe, Swift and Schaefer",
-        "ToolTip": "Ducimus maxime neque fugiat ipsum veniam.",
+        "Id": 361,
+        "Name": "Boyle LLC",
+        "ToolTip": "Quos corrupti repellat dolorum sint vel quia illo.",
         "Deleted": true,
-        "Rank": 144,
-        "Type": "a",
-        "ColorBlock": 196,
-        "IconHint": "ea",
+        "Rank": 664,
+        "Type": "velit",
+        "ColorBlock": 990,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2002-07-12T15:29:31.5314745+02:00",
+        "LastChanged": "2006-05-29T03:51:34.9114158+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "nemo",
-        "Hidden": false,
-        "FullName": "Fabiola Littel"
+        "ExtraInfo": "soluta",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Jacky Ebert"
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "reprehenderit",
-    "Hidden": true,
-    "FullName": "Jodie Blick"
+    "ExtraInfo": "est",
+    "StyleHint": "ullam",
+    "Hidden": false,
+    "FullName": "Samara Zieme"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 993,
-    "Name": "Schaefer-Renner",
-    "ToolTip": "Maxime aliquam ducimus deserunt velit aut possimus consequuntur.",
+    "Id": 363,
+    "Name": "Langosh, Quitzon and Hayes",
+    "ToolTip": "Nam perferendis hic cumque tenetur.",
     "Deleted": false,
-    "Rank": 604,
-    "Type": "voluptatum",
-    "ColorBlock": 627,
-    "IconHint": "quae",
+    "Rank": 11,
+    "Type": "et",
+    "ColorBlock": 452,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2009-09-24T15:29:31.5334768+02:00",
+    "LastChanged": "2019-04-25T03:51:34.9114158+02:00",
     "ChildItems": [
       {
-        "Id": 277,
-        "Name": "Sauer-Kuvalis",
-        "ToolTip": "Unde quasi molestiae.",
+        "Id": 561,
+        "Name": "Stroman Group",
+        "ToolTip": "Praesentium omnis a veniam.",
         "Deleted": false,
-        "Rank": 809,
-        "Type": "rerum",
-        "ColorBlock": 510,
-        "IconHint": "vero",
-        "Selected": true,
-        "LastChanged": "2016-08-05T15:29:31.5334768+02:00",
+        "Rank": 220,
+        "Type": "doloribus",
+        "ColorBlock": 756,
+        "IconHint": "iste",
+        "Selected": false,
+        "LastChanged": "1998-10-20T03:51:34.9114158+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "architecto",
-        "Hidden": false,
-        "FullName": "Prof. Magali Marshall Keeling Jr.",
+        "ExtraInfo": "alias",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Audrey Dibbert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 724
+            "FieldLength": 374
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Stanley Bradtke",
+    "ExtraInfo": "soluta",
+    "StyleHint": "neque",
+    "Hidden": false,
+    "FullName": "Armani Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 119
       }
     }
   }

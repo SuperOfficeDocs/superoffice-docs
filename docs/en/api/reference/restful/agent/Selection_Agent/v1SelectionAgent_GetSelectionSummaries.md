@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    947,
-    724
+    71,
+    969
   ]
 }
 ```
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 268,
-    "Name": "Nitzsche-Jast",
-    "TargetTable": "et",
-    "Registered": "1997-03-15T15:29:22.977759+01:00",
-    "ProviderName": "Hammes, Rogahn and Ebert"
+    "SelectionId": 783,
+    "Name": "Kertzmann, Gorczany and Rempel",
+    "TargetTable": "pariatur",
+    "Registered": "2013-10-17T03:51:28.2089972+02:00",
+    "ProviderName": "McDermott Group"
   },
   {
-    "SelectionId": 268,
-    "Name": "Nitzsche-Jast",
-    "TargetTable": "et",
-    "Registered": "1997-03-15T15:29:22.977759+01:00",
-    "ProviderName": "Hammes, Rogahn and Ebert"
+    "SelectionId": 783,
+    "Name": "Kertzmann, Gorczany and Rempel",
+    "TargetTable": "pariatur",
+    "Registered": "2013-10-17T03:51:28.2089972+02:00",
+    "ProviderName": "McDermott Group"
   }
 ]
 ```

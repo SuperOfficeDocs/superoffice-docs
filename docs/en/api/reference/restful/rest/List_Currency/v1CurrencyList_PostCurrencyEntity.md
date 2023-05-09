@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 530,
-  "Name": "Swift LLC",
-  "Tooltip": "in",
-  "Rank": 295,
-  "Rate": 26964.935999999998,
-  "Units": 5111.554,
+  "CurrencyId": 115,
+  "Name": "Paucek LLC",
+  "Tooltip": "dolores",
+  "Rank": 785,
+  "Rate": 24040.914,
+  "Units": 22928.344,
   "Deleted": false
 }
 ```
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 818,
-  "Name": "Mueller, Borer and Gerhold",
+  "CurrencyId": 948,
+  "Name": "Kuvalis-Harvey",
   "Tooltip": "quod",
-  "Rank": 568,
-  "Rate": 28337.628,
-  "Units": 21377.014,
+  "Rank": 455,
+  "Rate": 6562.596,
+  "Units": 228.78199999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 838
+      "FieldType": "System.Int32",
+      "FieldLength": 637
     }
   }
 }

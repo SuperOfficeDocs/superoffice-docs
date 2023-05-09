@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 518,
-  "AssociateId": 465,
-  "Caption": "iste",
+  "DashboardId": 843,
+  "AssociateId": 170,
+  "Caption": "eaque",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 528,
+      "DashboardTileId": 375,
       "Caption": "et",
-      "Description": "Progressive well-modulated installation",
-      "ChartName": "Senger, Walter and Beer",
-      "ChartId": "voluptates",
+      "Description": "Phased discrete customer loyalty",
+      "ChartName": "Spencer, Adams and Lueilwitz",
+      "ChartId": "similique",
       "IsDefault": false,
-      "AssociateId": 712,
-      "GroupId": 539,
-      "SelectionId": 6,
-      "Config": "quia",
+      "AssociateId": 235,
+      "GroupId": 630,
+      "SelectionId": 239,
+      "Config": "voluptatum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 866
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldType": "System.Int32",
+      "FieldLength": 556
     }
   }
 }

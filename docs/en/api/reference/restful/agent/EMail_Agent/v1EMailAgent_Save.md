@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 97,
-      "ContactName": "Reilly, Zemlak and Corwin",
-      "PersonId": 232,
-      "PersonName": "Walsh Group",
-      "AssociateId": 197,
-      "Address": "aut",
-      "EmailId": 586,
+      "ContactId": 903,
+      "ContactName": "Kshlerin, Hammes and Hudson",
+      "PersonId": 936,
+      "PersonName": "Rau LLC",
+      "AssociateId": 649,
+      "Address": "dolores",
+      "EmailId": 853,
       "DuplicatePersonIds": [
-        215,
-        885
+        647,
+        684
       ],
-      "Name": "Gutkowski Group",
+      "Name": "Tromp, Crooks and Hodkiewicz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 694
+          "FieldType": "System.Int32",
+          "FieldLength": 108
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 747,
-      "ContactName": "Roob, Paucek and Considine",
-      "PersonId": 140,
-      "PersonName": "Towne, Feeney and Rau",
-      "AssociateId": 940,
-      "Address": "fugiat",
-      "EmailId": 960,
+      "ContactId": 374,
+      "ContactName": "Will, Bednar and Wunsch",
+      "PersonId": 767,
+      "PersonName": "Herman, Harris and Toy",
+      "AssociateId": 75,
+      "Address": "ut",
+      "EmailId": 185,
       "DuplicatePersonIds": [
-        284,
-        478
+        790,
+        593
       ],
-      "Name": "Cummings, Legros and O'Kon",
+      "Name": "Batz-Feest",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldLength": 869
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 155,
-      "ContactName": "Fadel-Jenkins",
-      "PersonId": 186,
-      "PersonName": "Ratke-Durgan",
-      "AssociateId": 367,
-      "Address": "eos",
-      "EmailId": 105,
+      "ContactId": 635,
+      "ContactName": "Franecki, Adams and Kessler",
+      "PersonId": 652,
+      "PersonName": "Streich-Osinski",
+      "AssociateId": 785,
+      "Address": "quia",
+      "EmailId": 747,
       "DuplicatePersonIds": [
-        178,
-        318
+        947,
+        484
       ],
-      "Name": "Block, Kreiger and Goodwin",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 495
-        }
-      }
-    }
-  ],
-  "Subject": "adipisci",
-  "HTMLBody": "nemo",
-  "From": null,
-  "Sent": "2014-05-05T15:29:21.6783149+02:00",
-  "Size": 258,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "commodi",
-  "PlainBody": "minus",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 201,
-  "Attachments": [
-    {
-      "Description": "Business-focused cohesive knowledge user",
-      "Filename": "aut",
-      "Size": 435,
-      "Type": "dolorem",
-      "Encoding": "odio",
-      "Id": "molestiae",
-      "Disposition": "laudantium",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Bayer Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 817
+          "FieldLength": 54
+        }
+      }
+    }
+  ],
+  "Subject": "quisquam",
+  "HTMLBody": "esse",
+  "From": null,
+  "Sent": "2006-03-25T03:51:27.1623664+01:00",
+  "Size": 208,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "magnam",
+  "PlainBody": "omnis",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 994,
+  "Attachments": [
+    {
+      "Description": "Optimized explicit website",
+      "Filename": "rerum",
+      "Size": 110,
+      "Type": "sed",
+      "Encoding": "hic",
+      "Id": "voluptatem",
+      "Disposition": "et",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 41
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Little-Wisozk",
+      "Name": "Rempel, Fritsch and Feeney",
       "Values": [
-        "quae",
-        "distinctio"
+        "corrupti",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 84
+          "FieldLength": 373
         }
       }
     },
     {
-      "Name": "Little-Wisozk",
+      "Name": "Rempel, Fritsch and Feeney",
       "Values": [
-        "quae",
-        "distinctio"
+        "corrupti",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 84
+          "FieldLength": 373
         }
       }
     }
   ],
-  "FolderName": "Nolan Group",
-  "EmailItemId": 366,
-  "AccountId": 634,
-  "ReceivedAt": "1995-12-05T15:29:21.6788126+01:00",
+  "FolderName": "Gaylord, Medhurst and Hartmann",
+  "EmailItemId": 793,
+  "AccountId": 811,
+  "ReceivedAt": "2015-06-20T03:51:27.1623664+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-07-31T15:29:21.6788126+02:00",
+  "RepliedAt": "2015-09-26T03:51:27.1623664+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 898
     }
   }
 }

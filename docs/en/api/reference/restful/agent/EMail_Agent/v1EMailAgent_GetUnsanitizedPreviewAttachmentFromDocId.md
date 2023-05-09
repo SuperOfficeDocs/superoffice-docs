@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 560,
-  "AttachmentId": "blanditiis"
+  "DocId": 468,
+  "AttachmentId": "quidem"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Sharable logistical parallelism",
-  "Filename": "eum",
-  "Size": 642,
-  "Type": "voluptatem",
-  "Encoding": "sunt",
-  "Id": "laborum",
-  "Disposition": "totam",
+  "Description": "Visionary eco-centric productivity",
+  "Filename": "in",
+  "Size": 577,
+  "Type": "iusto",
+  "Encoding": "quos",
+  "Id": "voluptas",
+  "Disposition": "neque",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldLength": 662
     }
   }
 }

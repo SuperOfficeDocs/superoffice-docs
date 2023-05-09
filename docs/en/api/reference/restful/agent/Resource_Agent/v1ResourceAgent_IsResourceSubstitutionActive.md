@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Hickle, Hackett and Mayert",
-    "Hudson-Klein"
+    "Auer, Spencer and Torphy",
+    "Veum, Bogisich and Eichmann"
   ],
-  "Culture": "alias"
+  "Culture": "et"
 }
 ```
 
@@ -96,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Boehm, Hickle and Bode",
-    "ResourceValue": "quidem",
-    "Culture": "ut",
-    "IsActive": false,
+    "ResourceName": "Trantow-O'Hara",
+    "ResourceValue": "vel",
+    "Culture": "ducimus",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 986
       }
     }
   },
   {
-    "ResourceName": "Boehm, Hickle and Bode",
-    "ResourceValue": "quidem",
-    "Culture": "ut",
-    "IsActive": false,
+    "ResourceName": "Trantow-O'Hara",
+    "ResourceValue": "vel",
+    "Culture": "ducimus",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 986
       }
     }
   }

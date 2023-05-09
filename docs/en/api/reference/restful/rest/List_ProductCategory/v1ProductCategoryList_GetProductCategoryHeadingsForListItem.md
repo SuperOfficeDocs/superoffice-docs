@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Williamson-Muller",
-    "ToolTip": "Voluptas magni non.",
+    "Id": 577,
+    "Name": "Satterfield Group",
+    "ToolTip": "Quis dolorem.",
     "Deleted": false,
-    "Rank": 91,
-    "Type": "aut",
-    "ColorBlock": 217,
-    "IconHint": "voluptatibus",
-    "Selected": true,
-    "LastChanged": "2011-10-25T15:29:31.4009772+02:00",
+    "Rank": 662,
+    "Type": "voluptas",
+    "ColorBlock": 290,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2002-03-03T03:51:34.8020755+01:00",
     "ChildItems": [
       {
-        "Id": 881,
-        "Name": "Konopelski, Muller and Mosciski",
-        "ToolTip": "Praesentium sit et est perferendis.",
-        "Deleted": false,
-        "Rank": 555,
-        "Type": "aliquam",
-        "ColorBlock": 127,
-        "IconHint": "exercitationem",
+        "Id": 375,
+        "Name": "Boyer LLC",
+        "ToolTip": "Et ad ipsa et ut dignissimos ut dolore.",
+        "Deleted": true,
+        "Rank": 915,
+        "Type": "et",
+        "ColorBlock": 585,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "2000-04-22T15:29:31.4009772+02:00",
+        "LastChanged": "1999-05-01T03:51:34.8020755+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "perferendis",
-        "Hidden": true,
-        "FullName": "Edgar Funk DDS",
+        "ExtraInfo": "nisi",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Deshawn Carroll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 668
+            "FieldLength": 57
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "at",
+    "ExtraInfo": "debitis",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Mack Yundt",
+    "FullName": "Ethelyn Bernadine Sporer DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 650
+        "FieldType": "System.Int32",
+        "FieldLength": 648
       }
     }
   }

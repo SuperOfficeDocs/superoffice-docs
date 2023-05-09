@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByContactOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Carter-Reilly",
-  "ContactId": 35
+  "TableName": "Keeling LLC",
+  "ContactId": 774
 }
 ```
 

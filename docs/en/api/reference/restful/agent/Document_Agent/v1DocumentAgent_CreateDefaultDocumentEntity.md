@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,88 +99,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 175,
+  "DocumentId": 806,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "totam",
-  "Header": "neque",
-  "Name": "Grant LLC",
-  "OurRef": "cupiditate",
-  "YourRef": "tenetur",
-  "CreatedDate": "2013-07-27T15:29:21.509279+02:00",
-  "UpdatedDate": "2022-11-28T15:29:21.509279+01:00",
-  "Description": "Exclusive coherent info-mediaries",
+  "Attention": "eligendi",
+  "Header": "aperiam",
+  "Name": "Walter-Nikolaus",
+  "OurRef": "ad",
+  "YourRef": "ipsa",
+  "CreatedDate": "2010-01-31T03:51:27.0373963+01:00",
+  "UpdatedDate": "2019-01-29T03:51:27.0373963+01:00",
+  "Description": "Open-source multi-state interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-06-20T15:29:21.512779+02:00",
-  "ExternalRef": "ut",
+  "Date": "2005-06-11T03:51:27.0373963+02:00",
+  "ExternalRef": "sunt",
   "Completed": "Completed",
-  "ActiveLinks": 102,
+  "ActiveLinks": 66,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kreiger-Yundt",
-      "Id": 832,
-      "Description": "Networked well-modulated Graphical User Interface",
-      "ExtraInfo": "enim",
-      "LinkId": 469,
+      "EntityName": "Muller, Kerluke and Goodwin",
+      "Id": 198,
+      "Description": "Quality-focused maximized throughput",
+      "ExtraInfo": "veniam",
+      "LinkId": 97,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 48
+          "FieldType": "System.String",
+          "FieldLength": 697
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 40,
-  "Snum": 362,
+  "SuggestedDocumentId": 767,
+  "Snum": 642,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Kenyon Schimmel DVM",
-    "SuperOffice:2": "Johanna Connelly"
+    "SuperOffice:1": "Cathrine Beatty",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "dicta",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "accusamus",
-    "CustomFields2": "minus"
+    "CustomFields1": "dicta",
+    "CustomFields2": "quaerat"
   },
-  "PublishEventDate": "2001-10-15T15:29:21.5137788+02:00",
-  "PublishTo": "2014-01-04T15:29:21.5137788+01:00",
-  "PublishFrom": "1999-05-05T15:29:21.5137788+02:00",
+  "PublishEventDate": "2007-04-06T03:51:27.0373963+02:00",
+  "PublishTo": "2016-06-21T03:51:27.0373963+02:00",
+  "PublishFrom": "2012-03-31T03:51:27.0373963+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 751,
+      "VisibleId": 244,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 816
+          "FieldType": "System.Int32",
+          "FieldLength": 385
         }
       }
     },
     {
-      "VisibleId": 751,
+      "VisibleId": 244,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 816
+          "FieldType": "System.Int32",
+          "FieldLength": 385
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 956
     }
   }
 }

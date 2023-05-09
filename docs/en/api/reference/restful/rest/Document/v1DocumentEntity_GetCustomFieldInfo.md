@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "White-Boyle",
-  "DisplayName": "Berge, Nader and Champlin",
-  "Description": "Reactive dedicated initiative",
-  "ShortLabel": "corrupti",
+  "FieldName": "Powlowski-Zemlak",
+  "DisplayName": "Russel-Hodkiewicz",
+  "Description": "Balanced zero defect benchmark",
+  "ShortLabel": "quia",
   "HideLabel": false,
   "HideField": true,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 336,
-  "TemplateVariableName": "Schinner Inc and Sons"
+  "IsExternal": true,
+  "Rank": 908,
+  "TemplateVariableName": "Fahey, Fisher and Sipes"
 }
 ```

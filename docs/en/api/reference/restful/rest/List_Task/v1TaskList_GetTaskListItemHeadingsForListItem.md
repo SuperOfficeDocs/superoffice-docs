@@ -30,7 +30,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Casper-Gislason",
-    "ToolTip": "Explicabo suscipit vel perferendis quis velit.",
-    "Deleted": false,
-    "Rank": 432,
-    "Type": "dolores",
-    "ColorBlock": 253,
-    "IconHint": "voluptas",
+    "Id": 536,
+    "Name": "Wisozk-Wuckert",
+    "ToolTip": "Ipsa in natus nobis.",
+    "Deleted": true,
+    "Rank": 249,
+    "Type": "aut",
+    "ColorBlock": 4,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2010-05-17T15:29:31.6469807+02:00",
+    "LastChanged": "2018-04-03T03:51:34.9895221+02:00",
     "ChildItems": [
       {
-        "Id": 572,
-        "Name": "Mertz-Cassin",
-        "ToolTip": "Et rem ut minima.",
+        "Id": 418,
+        "Name": "Bogisich, Considine and Labadie",
+        "ToolTip": "Saepe atque est quia a ducimus nulla itaque.",
         "Deleted": false,
-        "Rank": 544,
-        "Type": "molestiae",
-        "ColorBlock": 552,
-        "IconHint": "numquam",
+        "Rank": 665,
+        "Type": "vel",
+        "ColorBlock": 720,
+        "IconHint": "id",
         "Selected": true,
-        "LastChanged": "1997-04-16T15:29:31.6469807+02:00",
+        "LastChanged": "2008-03-28T03:51:34.9895221+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "aut",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Ryleigh Lind Sr.",
+        "FullName": "Delilah Heaney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 852
+            "FieldType": "System.String",
+            "FieldLength": 843
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "laboriosam",
-    "Hidden": true,
-    "FullName": "Pablo Keebler",
+    "ExtraInfo": "et",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Miss Andre Enola Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldLength": 317
       }
     }
   }

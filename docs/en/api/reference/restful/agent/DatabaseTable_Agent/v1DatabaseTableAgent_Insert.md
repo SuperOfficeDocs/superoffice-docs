@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wilkinson-Anderson",
+  "TableName": "Cormier, Nikolaus and Conn",
   "Columns": [
-    "voluptas",
-    "aperiam"
+    "vitae",
+    "earum"
   ],
   "Data": [
     [
@@ -109,40 +109,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "ea",
-  "Inserts": 115,
-  "Updates": 743,
-  "Deletes": 676,
+  "Message": "veniam",
+  "Inserts": 873,
+  "Updates": 456,
+  "Deletes": 125,
   "RowStatus": [
     {
-      "PrimaryKey": 281,
+      "PrimaryKey": 261,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "vero",
-        "officia"
+        "repudiandae",
+        "quas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 801
+          "FieldLength": 637
         }
       }
     },
     {
-      "PrimaryKey": 281,
+      "PrimaryKey": 261,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "vero",
-        "officia"
+        "repudiandae",
+        "quas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 801
+          "FieldLength": 637
         }
       }
     }
@@ -151,8 +151,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldType": "System.String",
+      "FieldLength": 157
     }
   }
 }

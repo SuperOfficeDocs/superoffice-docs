@@ -85,23 +85,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 812,
-    "Name": "Bartoletti-Walker",
-    "Tooltip": "esse",
-    "SaveInDb": 563,
-    "Filename": "alias",
-    "DefaultOref": "ut",
+    "DocumentTemplateId": 353,
+    "Name": "Bauch, Boyer and McCullough",
+    "Tooltip": "repellendus",
+    "SaveInDb": 128,
+    "Filename": "ut",
+    "DefaultOref": "nemo",
     "RecordType": "Appointment",
-    "Deleted": 68,
+    "Deleted": 579,
     "Direction": "Incoming",
-    "AutoeventId": 146,
+    "AutoeventId": 825,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldType": "System.String",
+        "FieldLength": 417
       }
     }
   }

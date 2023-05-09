@@ -62,7 +62,7 @@ OK
 GET /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,11 +72,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 878,
+  "TopicId": 849,
   "User": null,
-  "CanListen": true,
+  "CanListen": false,
   "CanRespond": true,
-  "CanManage": true,
+  "CanManage": false,
   "CanNotify": false
 }
 ```

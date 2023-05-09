@@ -97,17 +97,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 561,
-  "StartTime": "2021-09-25T15:29:21.4672793+02:00",
-  "EndTime": "1999-02-27T15:29:21.4672793+01:00",
-  "Count": 776,
+  "ContactId": 73,
+  "StartTime": "2014-01-10T03:51:27.0061522+01:00",
+  "EndTime": "2023-04-14T03:51:27.0061522+02:00",
+  "Count": 890,
   "DocumentTemplateIds": [
-    388,
-    949
+    78,
+    627
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 155,
-    "Attention": "quia",
-    "Header": "eos",
-    "Name": "DuBuque, Mohr and Russel",
-    "OurRef": "impedit",
-    "YourRef": "sit",
-    "Description": "Virtual executive contingency",
-    "DocumentTemplate": "delectus",
+    "DocumentId": 57,
+    "Attention": "nemo",
+    "Header": "voluptatibus",
+    "Name": "Kihn Group",
+    "OurRef": "laborum",
+    "YourRef": "voluptatem",
+    "Description": "Upgradable 3rd generation application",
+    "DocumentTemplate": "architecto",
     "IsPublished": false,
-    "PersonId": 1002,
-    "PersonFullName": "Leopold Bartoletti",
-    "AssociateFullName": "Mr. Caesar Francisco Little",
-    "ContactId": 718,
-    "ContactName": "Kovacek-Schiller",
-    "ProjectId": 292,
-    "ProjectName": "Koss-Rodriguez",
-    "AssociateId": 443,
-    "Snum": 71,
-    "SaleId": 256,
-    "SaleName": "Greenholt Inc and Sons",
+    "PersonId": 841,
+    "PersonFullName": "Kim Weimann",
+    "AssociateFullName": "Dr. Christa Bradtke",
+    "ContactId": 71,
+    "ContactName": "Brekke LLC",
+    "ProjectId": 183,
+    "ProjectName": "Casper-Dooley",
+    "AssociateId": 748,
+    "Snum": 187,
+    "SaleId": 743,
+    "SaleName": "Kertzmann, Johnson and Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 373
+        "FieldLength": 331
       }
     }
   }

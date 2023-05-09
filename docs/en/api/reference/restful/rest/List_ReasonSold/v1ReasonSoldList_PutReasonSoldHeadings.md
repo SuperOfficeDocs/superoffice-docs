@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 333,
-    "Name": "Mertz Group",
-    "Tooltip": "quidem",
+    "HeadingId": 663,
+    "Name": "Windler Inc and Sons",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "Rank": 372,
-    "UdListDefinitionId": 999
+    "Rank": 633,
+    "UdListDefinitionId": 171
   },
   {
-    "HeadingId": 333,
-    "Name": "Mertz Group",
-    "Tooltip": "quidem",
+    "HeadingId": 663,
+    "Name": "Windler Inc and Sons",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "Rank": 372,
-    "UdListDefinitionId": 999
+    "Rank": 633,
+    "UdListDefinitionId": 171
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 810,
-    "Name": "Schulist, Jewess and Wisoky",
-    "Tooltip": "vitae",
-    "Deleted": true,
-    "Rank": 449,
-    "UdListDefinitionId": 256,
+    "HeadingId": 886,
+    "Name": "Schultz, Ernser and Prosacco",
+    "Tooltip": "quibusdam",
+    "Deleted": false,
+    "Rank": 374,
+    "UdListDefinitionId": 790,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 496
       }
     }
   }

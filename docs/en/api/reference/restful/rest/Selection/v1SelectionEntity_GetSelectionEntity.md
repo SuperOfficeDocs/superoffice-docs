@@ -113,7 +113,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -121,73 +121,73 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 20 Nov 2005 15:29:30 G11T
+Last-Modified: Sun, 27 May 2012 03:51:34 G5T
 
 {
-  "Description": "Down-sized client-driven success",
-  "Postit": "hic",
+  "Description": "Implemented client-server open architecture",
+  "Postit": "facilis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 503,
-  "IncludePerson": 351,
-  "MemberCount": 898,
-  "Name": "Rutherford LLC",
-  "PostitTextId": 596,
-  "CreatedDate": "2001-07-17T15:29:30.5964876+02:00",
-  "SelectionId": 162,
-  "SoundEx": "ut",
-  "Source": 630,
-  "TextId": 19,
-  "UpdatedDate": "2005-11-20T15:29:30.5964876+01:00",
-  "UpdatedCount": 298,
-  "Visibility": 248,
+  "GroupIdx": 337,
+  "IncludePerson": 48,
+  "MemberCount": 949,
+  "Name": "Mann Inc and Sons",
+  "PostitTextId": 927,
+  "CreatedDate": "2010-01-28T03:51:34.0052619+01:00",
+  "SelectionId": 32,
+  "SoundEx": "quidem",
+  "Source": 968,
+  "TextId": 535,
+  "UpdatedDate": "2012-05-27T03:51:34.0052619+02:00",
+  "UpdatedCount": 750,
+  "Visibility": 219,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 824,
-  "TargetTableName": "Murphy, Gaylord and Mills",
-  "Completed": true,
-  "LeftSelectionId": 469,
-  "RightSelectionId": 813,
+  "CompanyUnique": true,
+  "TargetTableNumber": 240,
+  "TargetTableName": "Cummings LLC",
+  "Completed": false,
+  "LeftSelectionId": 54,
+  "RightSelectionId": 829,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Greenfelder, Franecki and Leannon",
-  "ShadowProviderName": "Nader Inc and Sons",
-  "ChartKey": "minima",
-  "LastLoaded": "2014-07-14T15:29:30.5964876+02:00",
-  "LastLoadedBy": 155,
+  "MainProviderName": "Maggio Inc and Sons",
+  "ShadowProviderName": "Cole LLC",
+  "ChartKey": "cum",
+  "LastLoaded": "2002-02-10T03:51:34.0052619+01:00",
+  "LastLoadedBy": 855,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-01-24T15:29:30.5969879+01:00",
-  "LastMembershipChangeBy": 871,
+  "LastMembershipChange": "2002-05-15T03:51:34.0052619+02:00",
+  "LastMembershipChangeBy": 461,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "alias",
-  "MemberTabHeading": "enim",
-  "MailingsProviderName": "Kassulke Inc and Sons",
-  "DashboardTileDefinitionId": 652,
+  "MainHeading": "similique",
+  "MemberTabHeading": "sequi",
+  "MailingsProviderName": "Yundt, Reynolds and Toy",
+  "DashboardTileDefinitionId": 417,
   "VisibleFor": [
     {
-      "VisibleId": 892,
+      "VisibleId": 393,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 278
         }
       }
     },
     {
-      "VisibleId": 892,
+      "VisibleId": 393,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 278
         }
       }
     }
@@ -197,7 +197,7 @@ Last-Modified: Sun, 20 Nov 2005 15:29:30 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 324
     }
   },
   "_Links": {

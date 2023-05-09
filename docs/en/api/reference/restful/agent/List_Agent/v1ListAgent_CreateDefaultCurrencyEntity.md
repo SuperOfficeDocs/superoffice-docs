@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 470,
-  "Name": "McLaughlin, Daugherty and Wiza",
-  "Tooltip": "labore",
-  "Rank": 316,
-  "Rate": 2732.848,
-  "Units": 23414.113999999998,
-  "Deleted": true,
+  "CurrencyId": 106,
+  "Name": "Wisoky-Murray",
+  "Tooltip": "ipsum",
+  "Rank": 553,
+  "Rate": 29030.242,
+  "Units": 4400.1359999999995,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldLength": 696
     }
   }
 }

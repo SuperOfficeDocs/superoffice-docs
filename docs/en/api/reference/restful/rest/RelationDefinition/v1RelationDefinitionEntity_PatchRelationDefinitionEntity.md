@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "eos",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eos",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -138,20 +138,20 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 605,
-  "Name": "Beahan-Hagenes",
-  "Tooltip": "dolorum",
-  "PassiveText": "dicta",
+  "ReldefId": 186,
+  "Name": "Gerlach Inc and Sons",
+  "Tooltip": "asperiores",
+  "PassiveText": "nemo",
   "Deleted": false,
-  "Rank": 80,
+  "Rank": 577,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldType": "System.String",
+      "FieldLength": 390
     }
   },
   "_Links": {

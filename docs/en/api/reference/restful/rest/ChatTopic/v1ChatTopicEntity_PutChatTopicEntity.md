@@ -138,25 +138,25 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 838,
-  "Name": "Pfannerstill Group",
-  "Description": "Seamless modular encryption",
-  "WelcomeMessage": "sunt",
+  "ChatTopicId": 635,
+  "Name": "Cremin-Dibbert",
+  "Description": "Stand-alone content-based architecture",
+  "WelcomeMessage": "hic",
   "Language": null,
-  "LastAccept": "2020-02-11T15:29:29.431204+01:00",
-  "SecondsPrAccept": 176,
-  "AlertRecipient": "fuga",
+  "LastAccept": "1997-06-01T03:51:33.2398098+02:00",
+  "SecondsPrAccept": 805,
+  "AlertRecipient": "ratione",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "mollitia",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "iure",
-  "WarnNewChatMinutes": 442,
-  "WarnManagerNewChatMinutes": 949,
+  "CollectConsent": false,
+  "BadgeHeader": "facere",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "eveniet",
+  "WarnNewChatMinutes": 825,
+  "WarnManagerNewChatMinutes": 108,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -166,13 +166,13 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 582,
-  "WarnManagerChatMessageMinutes": 413,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 389,
-  "OfflineFormQueueLength": 901,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "perferendis"
+  "WarnChatMessageMinutes": 531,
+  "WarnManagerChatMessageMinutes": 402,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 707,
+  "OfflineFormQueueLength": 74,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "adipisci"
 }
 ```
 
@@ -183,43 +183,43 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 1000,
-  "Name": "Stoltenberg, Sipes and Gibson",
-  "Description": "Centralized needs-based firmware",
-  "WelcomeMessage": "itaque",
+  "ChatTopicId": 635,
+  "Name": "Waters-Huels",
+  "Description": "Automated content-based budgetary management",
+  "WelcomeMessage": "quibusdam",
   "Language": null,
-  "LastAccept": "2011-11-14T15:29:29.4337034+01:00",
-  "SecondsPrAccept": 150,
-  "AlertRecipient": "quae",
+  "LastAccept": "2019-04-14T03:51:33.2398098+02:00",
+  "SecondsPrAccept": 290,
+  "AlertRecipient": "porro",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "ratione",
+  "BadgeHeader": "facere",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "saepe",
-  "WarnNewChatMinutes": 693,
-  "WarnManagerNewChatMinutes": 3,
+  "CustomQueueText": "omnis",
+  "WarnNewChatMinutes": 974,
+  "WarnManagerNewChatMinutes": 286,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 503,
-  "WarnManagerChatMessageMinutes": 222,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 388,
-  "OfflineFormQueueLength": 114,
+  "WarnChatMessageMinutes": 833,
+  "WarnManagerChatMessageMinutes": 459,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 578,
+  "OfflineFormQueueLength": 973,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quisquam",
+  "WidgetRatingText": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 464
+      "FieldLength": 601
     }
   },
   "_Links": {

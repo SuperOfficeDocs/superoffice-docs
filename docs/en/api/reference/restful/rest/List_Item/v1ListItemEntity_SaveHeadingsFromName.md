@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 876,
-    "Name": "Wuckert, Mueller and Nikolaus",
-    "Tooltip": "quod",
+    "HeadingId": 642,
+    "Name": "Veum Inc and Sons",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "Rank": 92,
-    "UdListDefinitionId": 781
+    "Rank": 813,
+    "UdListDefinitionId": 229
   },
   {
-    "HeadingId": 876,
-    "Name": "Wuckert, Mueller and Nikolaus",
-    "Tooltip": "quod",
+    "HeadingId": 642,
+    "Name": "Veum Inc and Sons",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "Rank": 92,
-    "UdListDefinitionId": 781
+    "Rank": 813,
+    "UdListDefinitionId": 229
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 620,
-    "Name": "Muller Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 502,
-    "UdListDefinitionId": 6,
+    "HeadingId": 173,
+    "Name": "Jewess-Beahan",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "Rank": 697,
+    "UdListDefinitionId": 886,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 847
+        "FieldType": "System.Int32",
+        "FieldLength": 173
       }
     }
   }

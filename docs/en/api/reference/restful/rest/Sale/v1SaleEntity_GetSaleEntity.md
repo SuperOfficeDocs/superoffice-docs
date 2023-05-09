@@ -118,7 +118,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 26 Aug 2020 15:29:30 G8T
+Last-Modified: Sun, 09 Jan 2022 03:51:33 G1T
 
 {
   "Appointment": null,
@@ -135,7 +135,7 @@ Last-Modified: Wed, 26 Aug 2020 15:29:30 G8T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "aperiam",
+  "SaleText": "quos",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -144,113 +144,113 @@ Last-Modified: Wed, 26 Aug 2020 15:29:30 G8T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2003-03-19T15:29:30.5169871+01:00",
-  "Amount": 14037.186,
-  "SaleId": 547,
-  "Earning": 21251.654,
-  "EarningPercent": 22091.566,
-  "Heading": "quae",
-  "Number": "393981",
-  "Probability": 118,
-  "CreatedDate": "2018-05-25T15:29:30.5169871+02:00",
-  "UpdatedDate": "2020-08-26T15:29:30.5169871+02:00",
+  "Saledate": "2021-12-14T03:51:33.9271534+01:00",
+  "Amount": 6719.2959999999994,
+  "SaleId": 297,
+  "Earning": 4845.164,
+  "EarningPercent": 12542.268,
+  "Heading": "ratione",
+  "Number": "1096230",
+  "Probability": 499,
+  "CreatedDate": "1997-11-21T03:51:33.9271534+01:00",
+  "UpdatedDate": "2022-01-09T03:51:33.9271534+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 977,
+  "ActiveLinks": 13,
   "Links": [
     {
-      "EntityName": "Towne, Larson and Ledner",
-      "Id": 893,
-      "Description": "Stand-alone bandwidth-monitored software",
-      "ExtraInfo": "fugiat",
-      "LinkId": 591,
+      "EntityName": "Rolfson-Muller",
+      "Id": 557,
+      "Description": "Synergized encompassing info-mediaries",
+      "ExtraInfo": "numquam",
+      "LinkId": 117,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 541
         }
       }
     }
   ],
-  "NextDueDate": "2004-02-01T15:29:30.5174888+01:00",
-  "Postit": "recusandae",
+  "NextDueDate": "1996-02-03T03:51:33.9271534+01:00",
+  "Postit": "accusamus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2006-10-22T15:29:30.5174888+02:00",
+  "ReopenDate": "2002-10-23T03:51:33.9271534+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Stamm, Roob and Rutherford",
-      "Comment": "consequatur",
-      "StakeholderRoleId": 174,
-      "CountryId": 96,
-      "PersonId": 136,
-      "EmailDescription": "leilani_cummings@parisian.co.uk",
-      "EmailId": 208,
-      "EmailAddress": "minnie@goyette.com",
-      "PhoneId": 475,
-      "ContactName": "Hodkiewicz Inc and Sons",
-      "ContactId": 837,
-      "SaleId": 197,
-      "Mrmrs": "est",
-      "Firstname": "Michel",
-      "MiddleName": "Zboncak-Stracke",
-      "Lastname": "Gislason",
-      "SaleStakeholderId": 694,
-      "Rank": 15,
-      "Phone": "1-863-754-2690 x6941",
+      "StakeholderRoleName": "Lindgren LLC",
+      "Comment": "et",
+      "StakeholderRoleId": 615,
+      "CountryId": 105,
+      "PersonId": 706,
+      "EmailDescription": "vincenza.rath@terry.info",
+      "EmailId": 857,
+      "EmailAddress": "alicia@green.uk",
+      "PhoneId": 832,
+      "ContactName": "Hermiston-Rodriguez",
+      "ContactId": 69,
+      "SaleId": 207,
+      "Mrmrs": "officiis",
+      "Firstname": "Gillian",
+      "MiddleName": "Hagenes-Ankunding",
+      "Lastname": "Harris",
+      "SaleStakeholderId": 434,
+      "Rank": 761,
+      "Phone": "1-187-023-8446",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 64
+          "FieldType": "System.String",
+          "FieldLength": 417
         }
       }
     }
   ],
-  "ActiveErpLinks": 677,
+  "ActiveErpLinks": 157,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Ms. Kaya Stamm"
+    "SuperOffice:1": "1744514323",
+    "SuperOffice:2": "Christian Mohr"
   },
   "ExtraFields": {
-    "ExtraFields1": "suscipit",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "fugit",
+    "ExtraFields2": "aliquam"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "aut",
+    "CustomFields2": "tenetur"
   },
-  "PublishEventDate": "2001-07-11T15:29:30.5184889+02:00",
-  "PublishTo": "2021-08-25T15:29:30.5184889+02:00",
-  "PublishFrom": "2022-04-18T15:29:30.5184889+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2016-11-04T03:51:33.9271534+01:00",
+  "PublishTo": "2012-07-29T03:51:33.9271534+02:00",
+  "PublishFrom": "1996-02-20T03:51:33.9271534+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 250,
+      "VisibleId": 887,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 185
         }
       }
     },
     {
-      "VisibleId": 250,
+      "VisibleId": 887,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 185
         }
       }
     }
@@ -260,7 +260,7 @@ Last-Modified: Wed, 26 Aug 2020 15:29:30 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 237
     }
   },
   "_Links": {

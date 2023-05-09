@@ -73,7 +73,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 336,
-  "Section": "eaque",
-  "Key": "ut",
-  "Name": "Herman, Schamberger and O'Hara",
+  "PrefDescId": 587,
+  "Section": "ex",
+  "Key": "blanditiis",
+  "Name": "Hartmann-Hauck",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Managed regional Graphic Interface",
+  "Description": "Decentralized holistic local area network",
   "IsBuiltin": false,
-  "TableName": "Schuppe-Weber",
-  "UserDefinedListId": 620,
-  "Rank": 301,
-  "SubGroup": "numquam",
-  "MinLevel": 192,
-  "MaxValue": 308,
-  "MinValue": 248,
-  "RequiredLicense": "sed",
+  "TableName": "Ruecker LLC",
+  "UserDefinedListId": 357,
+  "Rank": 178,
+  "SubGroup": "quidem",
+  "MinLevel": 710,
+  "MaxValue": 697,
+  "MinValue": 605,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldType": "System.String",
+      "FieldLength": 982
     }
   }
 }

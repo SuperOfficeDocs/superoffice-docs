@@ -85,7 +85,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 537,
-  "Name": "Stiedemann-Reichel",
+  "WebhookId": 513,
+  "Name": "Stiedemann, Luettgen and Corwin",
   "Events": [
     "dolorem",
-    "autem"
+    "voluptatum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "pariatur",
+  "Secret": "harum",
   "State": "Active",
-  "Type": "sequi",
+  "Type": "et",
   "Headers": {
-    "Headers1": "eos",
-    "Headers2": "sunt"
+    "Headers1": "quis",
+    "Headers2": "deleniti"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1998-09-07T15:29:31.0194818+02:00",
+  "Registered": "2012-02-12T03:51:34.3334209+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2006-05-13T15:29:31.019948+02:00",
+  "Updated": "1999-09-25T03:51:34.3334209+02:00",
   "UpdatedAssociate": null,
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

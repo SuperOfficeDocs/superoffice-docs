@@ -113,8 +113,9 @@ OK
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
-| Sale | Sale | The sale that this ticket connected to  <para>Use MDO List name "sale" to get list items.</para> |
-| Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
+| Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
+| Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
+| FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -126,14 +127,14 @@ OK
 POST /api/v1/Agents/Ticket/MergeTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "MergedTicketEntity": null,
   "SecondaryTicketIds": [
-    549,
-    345
+    26,
+    400
   ]
 }
 ```
@@ -145,21 +146,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 667,
-  "Title": "sint",
-  "CreatedAt": "2003-11-01T15:29:23.215291+01:00",
-  "LastChanged": "2009-10-05T15:29:23.215291+02:00",
-  "ReadByOwner": "1997-03-23T15:29:23.215291+01:00",
-  "ReadByCustomer": "2022-05-23T15:29:23.215291+02:00",
-  "FirstReadByOwner": "2011-11-06T15:29:23.215291+01:00",
-  "FirstReadByUser": "2008-11-08T15:29:23.215291+01:00",
-  "Activate": "2009-11-05T15:29:23.215291+01:00",
-  "ClosedAt": "1996-11-21T15:29:23.215291+01:00",
-  "RepliedAt": "1999-05-06T15:29:23.215291+02:00",
-  "AlertTimeout": "1996-09-13T15:29:23.215291+02:00",
-  "Deadline": "2006-12-27T15:29:23.215291+01:00",
+  "TicketId": 733,
+  "Title": "molestiae",
+  "CreatedAt": "2011-08-31T03:51:28.3964515+02:00",
+  "LastChanged": "2009-03-08T03:51:28.3964515+01:00",
+  "ReadByOwner": "2008-11-08T03:51:28.3964515+01:00",
+  "ReadByCustomer": "2002-10-23T03:51:28.3964515+02:00",
+  "FirstReadByOwner": "2009-12-18T03:51:28.3964515+01:00",
+  "FirstReadByUser": "2008-01-24T03:51:28.3964515+01:00",
+  "Activate": "2007-09-22T03:51:28.3964515+02:00",
+  "ClosedAt": "2018-07-08T03:51:28.3964515+02:00",
+  "RepliedAt": "2000-09-27T03:51:28.3964515+02:00",
+  "AlertTimeout": "1995-12-22T03:51:28.3964515+01:00",
+  "Deadline": "2015-12-02T03:51:28.3964515+01:00",
   "CreatedBy": null,
-  "Author": "voluptates",
+  "Author": "suscipit",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -170,158 +171,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "vitae",
-      "PersonId": 722,
-      "Mrmrs": "consequatur",
-      "Firstname": "Wallace",
-      "Lastname": "Greenfelder",
-      "MiddleName": "Littel Inc and Sons",
-      "Title": "necessitatibus",
-      "Description": "Customizable intermediate secured line",
-      "Email": "sarina_feeney@oconner.name",
-      "FullName": "Lenny Veum",
-      "DirectPhone": "706.025.5144 x822",
-      "FormalName": "Lesch LLC",
-      "CountryId": 553,
-      "ContactId": 966,
-      "ContactName": "Lesch LLC",
-      "Retired": 132,
-      "Rank": 968,
-      "ActiveInterests": 990,
+      "Position": "facilis",
+      "PersonId": 545,
+      "Mrmrs": "qui",
+      "Firstname": "Jerod",
+      "Lastname": "Kshlerin",
+      "MiddleName": "Bergstrom, Emmerich and Adams",
+      "Title": "occaecati",
+      "Description": "Universal bottom-line internet solution",
+      "Email": "edwin@leuschke.biz",
+      "FullName": "Casey Thompson",
+      "DirectPhone": "(493)268-5083 x6428",
+      "FormalName": "Willms LLC",
+      "CountryId": 874,
+      "ContactId": 720,
+      "ContactName": "Robel LLC",
+      "Retired": 374,
+      "Rank": 650,
+      "ActiveInterests": 677,
       "ContactDepartment": "",
-      "ContactCountryId": 703,
-      "ContactOrgNr": "694957",
-      "FaxPhone": "167.336.7756",
-      "MobilePhone": "1-942-446-4497 x03806",
-      "ContactPhone": "791.699.1841",
-      "AssociateName": "Frami LLC",
-      "AssociateId": 93,
+      "ContactCountryId": 304,
+      "ContactOrgNr": "954295",
+      "FaxPhone": "(609)055-4757 x8842",
+      "MobilePhone": "(076)461-1876",
+      "ContactPhone": "767.059.6886 x6528",
+      "AssociateName": "Nicolas-Jaskolski",
+      "AssociateId": 947,
       "UsePersonAddress": false,
-      "ContactFax": "aliquid",
-      "Kanafname": "facilis",
-      "Kanalname": "nihil",
-      "Post1": "repellat",
-      "Post2": "ducimus",
-      "Post3": "aut",
-      "EmailName": "blake@schmitt.co.uk",
-      "ContactFullName": "Ms. Chandler Giles Johns",
-      "ActiveErpLinks": 769,
-      "TicketPriorityId": 842,
-      "SupportLanguageId": 706,
-      "SupportAssociateId": 668,
+      "ContactFax": "natus",
+      "Kanafname": "nesciunt",
+      "Kanalname": "iste",
+      "Post1": "sunt",
+      "Post2": "est",
+      "Post3": "beatae",
+      "EmailName": "alysson.kub@walter.com",
+      "ContactFullName": "Ila Kassulke",
+      "ActiveErpLinks": 532,
+      "TicketPriorityId": 996,
+      "SupportLanguageId": 482,
+      "SupportAssociateId": 878,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 776
+          "FieldType": "System.Int32",
+          "FieldLength": 604
         }
       }
     }
   ],
-  "AlertLevel": 424,
-  "ConnectId": 552,
+  "AlertLevel": 531,
+  "ConnectId": 518,
   "ReadStatus": "Green",
-  "TimeToReply": 655,
-  "RealTimeToReply": 110,
-  "TimeToClose": 804,
-  "RealTimeToClose": 311,
-  "TimeSpentInternally": 924,
-  "TimeSpentExternally": 978,
-  "TimeSpentQueue": 708,
-  "RealTimeSpentInternally": 177,
-  "RealTimeSpentExternally": 910,
-  "RealTimeSpentQueue": 648,
-  "HasAttachment": false,
-  "NumReplies": 180,
-  "NumMessages": 535,
-  "FromAddress": "quod",
+  "TimeToReply": 137,
+  "RealTimeToReply": 925,
+  "TimeToClose": 483,
+  "RealTimeToClose": 477,
+  "TimeSpentInternally": 724,
+  "TimeSpentExternally": 418,
+  "TimeSpentQueue": 957,
+  "RealTimeSpentInternally": 467,
+  "RealTimeSpentExternally": 421,
+  "RealTimeSpentQueue": 276,
+  "HasAttachment": true,
+  "NumReplies": 334,
+  "NumMessages": 51,
+  "FromAddress": "consequuntur",
   "Messages": [
     {
-      "TicketMessageId": 9,
-      "CreatedAt": "2010-05-26T15:29:23.219793+02:00",
+      "TicketMessageId": 275,
+      "CreatedAt": "2009-12-12T03:51:28.3964515+01:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "fugit",
-      "PersonId": 651,
-      "PersonFullName": "Kolby Chester Feest Jr.",
-      "ContactId": 554,
-      "ContactName": "Leannon Inc and Sons",
+      "Important": true,
+      "Author": "reiciendis",
+      "PersonId": 468,
+      "PersonFullName": "Lia Douglas",
+      "ContactId": 944,
+      "ContactName": "Mann, Bahringer and Langosh",
       "ContactDepartment": "",
-      "NumAttachments": 649,
-      "EmailHeader": "maynard@oconnellreynolds.biz",
+      "NumAttachments": 712,
+      "EmailHeader": "emmett_gerhold@barrowspadberg.us",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "quasi",
-      "Sentiment": 527,
-      "SentimentConfidence": 945,
-      "CreatedBy": 293,
-      "ChangedAt": "2002-04-13T15:29:23.2202915+02:00",
+      "Language": "qui",
+      "Sentiment": 183,
+      "SentimentConfidence": 874,
+      "CreatedBy": 973,
+      "ChangedAt": "2018-10-12T03:51:28.3964515+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 423
+          "FieldType": "System.Int32",
+          "FieldLength": 378
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 903,
-      "Name": "McLaughlin-Douglas",
-      "ToolTip": "Corrupti maiores.",
+      "Id": 125,
+      "Name": "Schamberger Inc and Sons",
+      "ToolTip": "Corporis exercitationem laboriosam veritatis sint id.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 689
         }
       }
     },
     {
-      "Id": 903,
-      "Name": "McLaughlin-Douglas",
-      "ToolTip": "Corrupti maiores.",
+      "Id": 125,
+      "Name": "Schamberger Inc and Sons",
+      "ToolTip": "Corporis exercitationem laboriosam veritatis sint id.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 689
         }
       }
     }
   ],
-  "Language": "sint",
-  "Sentiment": 502,
-  "SentimentConfidence": 4,
-  "SuggestedCategoryId": 185,
+  "Language": "illum",
+  "Sentiment": 63,
+  "SentimentConfidence": 964,
+  "SuggestedCategoryId": 235,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 410,
-  "IconHint": "dolores",
+  "OrigHumanCategoryId": 948,
+  "IconHint": "consequuntur",
   "Sale": null,
   "Project": null,
+  "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "iure"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "eaque",
-    "CustomFields2": "libero"
+    "CustomFields1": "vitae",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldType": "System.String",
+      "FieldLength": 750
     }
   }
 }

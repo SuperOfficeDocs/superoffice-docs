@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Bednar, Herzog and Aufderhar",
+  "UserName": "Medhurst, Mosciski and Nicolas",
   "User": null
 }
 ```
@@ -115,14 +115,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 263,
-  "Name": "Bogisich, Lesch and Mraz",
-  "Rank": 82,
-  "Tooltip": "consequuntur",
+  "AssociateId": 844,
+  "Name": "Kuphal-Will",
+  "Rank": 515,
+  "Tooltip": "est",
   "LicenseOwners": [
     {
-      "Name": "McCullough LLC",
-      "Description": "Reduced encompassing solution",
+      "Name": "Leffler-Rodriguez",
+      "Description": "Inverse maximized data-warehouse",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 414
         }
       }
     },
     {
-      "Name": "McCullough LLC",
-      "Description": "Reduced encompassing solution",
+      "Name": "Leffler-Rodriguez",
+      "Description": "Inverse maximized data-warehouse",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 414
         }
       }
     }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nihil",
-      "Tooltip": "nihil",
-      "Id": 209,
-      "Rank": 652,
+      "Value": "molestias",
+      "Tooltip": "temporibus",
+      "Id": 751,
+      "Rank": 935,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 744
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2017-08-27T15:29:23.3712525+02:00",
-  "Lastlogout": "2022-01-04T15:29:23.3712525+01:00",
-  "EjUserId": 133,
-  "RequestSignature": "nihil",
+  "Deleted": false,
+  "Lastlogin": "2018-05-26T03:51:28.5058+02:00",
+  "Lastlogout": "2022-10-27T03:51:28.5058+02:00",
+  "EjUserId": 950,
+  "RequestSignature": "quod",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "architecto",
-      "DisplayValue": "qui",
+      "Value": "occaecati",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 52
+          "FieldLength": 399
         }
       }
     },
     {
       "Type": null,
-      "Value": "architecto",
-      "DisplayValue": "qui",
+      "Value": "occaecati",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 52
+          "FieldLength": 399
         }
       }
     }
   ],
-  "UserName": "Schiller, Rowe and Sanford",
+  "UserName": "Leuschke Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 212,
-      "Name": "Padberg Inc and Sons",
-      "ToolTip": "Consequatur necessitatibus et eos eligendi est ab minus.",
+      "Id": 37,
+      "Name": "Shields, Nolan and Doyle",
+      "ToolTip": "Enim dolorem assumenda explicabo quae natus quos placeat.",
       "Deleted": false,
-      "Rank": 357,
-      "Type": "a",
+      "Rank": 767,
+      "Type": "modi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "blanditiis",
-      "ColorBlock": 312,
-      "ExtraInfo": "facilis",
-      "StyleHint": "ipsam",
-      "FullName": "Mrs. Fredy O'Keefe",
+      "IconHint": "harum",
+      "ColorBlock": 457,
+      "ExtraInfo": "laborum",
+      "StyleHint": "recusandae",
+      "FullName": "Virginie Funk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 129
+          "FieldLength": 181
         }
       }
     }
   ],
-  "NickName": "Pouros, Morar and Armstrong",
+  "NickName": "Quitzon Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "blanditiis"
   },
   "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "temporibus",
+    "CustomFields2": "aspernatur"
   },
   "PostSaveCommands": [
     {
-      "Name": "Dicki, Mante and Huel",
-      "DisplayName": "Ledner LLC",
-      "Description": "Assimilated high-level challenge",
-      "ToolTip": "Ipsum tenetur temporibus consectetur.",
+      "Name": "Schaden, Conroy and Dicki",
+      "DisplayName": "Nolan, Langosh and Koepp",
+      "Description": "Diverse incremental data-warehouse",
+      "ToolTip": "Quo nemo dicta exercitationem et.",
       "Actions": "Implicit",
-      "ActionData": "enim",
+      "ActionData": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 17
+          "FieldLength": 663
         }
       }
     }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldLength": 32
     }
   }
 }

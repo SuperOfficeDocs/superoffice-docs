@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 329
+  "PersonId": 314
 }
 ```
 
@@ -98,24 +98,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 782,
-  "Name": "Volkman-Bruen",
-  "PersonId": 267,
-  "Rank": 686,
-  "Tooltip": "iste",
+  "AssociateId": 251,
+  "Name": "Ondricka-Zulauf",
+  "PersonId": 200,
+  "Rank": 369,
+  "Tooltip": "distinctio",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 533,
-  "FullName": "Mrs. Marjorie Bayer DDS",
-  "FormalName": "Thompson LLC",
-  "Deleted": true,
-  "EjUserId": 153,
-  "UserName": "Huel, Brakus and Ullrich",
+  "GroupIdx": 798,
+  "FullName": "Waino Terry DDS",
+  "FormalName": "Hoeger Group",
+  "Deleted": false,
+  "EjUserId": 381,
+  "UserName": "Feil-Osinski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldType": "System.Int32",
+      "FieldLength": 547
     }
   }
 }

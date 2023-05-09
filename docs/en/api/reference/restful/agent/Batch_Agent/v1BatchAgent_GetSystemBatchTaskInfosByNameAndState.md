@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Hoeger, Vandervort and Stamm",
+  "TaskName": "Doyle Group",
   "State": "All"
 }
 ```
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 526,
-    "Name": "Pacocha, Konopelski and Reichert",
-    "AssociateId": 820,
-    "DetailsTable": 657,
-    "DetailsRecord": 581,
+    "Id": 815,
+    "Name": "Marks, Crist and Hills",
+    "AssociateId": 937,
+    "DetailsTable": 658,
+    "DetailsRecord": 106,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "magni",
-      "ParameterObject2": "optio"
+      "ParameterObject1": "hic",
+      "ParameterObject2": "inventore"
     },
-    "LastStarted": "2011-04-22T15:29:20.8312896+02:00",
-    "Created": "2008-01-19T15:29:20.8312896+01:00",
-    "StartCount": 464,
-    "DatabaseSerialNumber": "580663",
-    "Context": "eligendi",
-    "Result": "iure",
+    "LastStarted": "2007-04-01T03:51:26.6156255+02:00",
+    "Created": "1998-06-19T03:51:26.6156255+02:00",
+    "StartCount": 1000,
+    "DatabaseSerialNumber": "924532",
+    "Context": "atque",
+    "Result": "perspiciatis",
     "State": "All",
-    "Description": "Stand-alone discrete knowledge base",
-    "Response": "sapiente",
-    "Request": "fugit",
-    "ProgressDescription": "Compatible heuristic implementation",
-    "ProgressPercent": 187,
-    "FileName": "Langosh Group",
+    "Description": "Optional bottom-line access",
+    "Response": "qui",
+    "Request": "nihil",
+    "ProgressDescription": "Distributed non-volatile approach",
+    "ProgressPercent": 686,
+    "FileName": "Hudson, Conn and Cruickshank",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldType": "System.String",
+        "FieldLength": 469
       }
     }
   }

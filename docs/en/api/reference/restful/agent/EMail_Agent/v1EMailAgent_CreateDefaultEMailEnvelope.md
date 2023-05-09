@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,45 +78,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 813,
-  "MessageId": "nesciunt",
-  "Subject": "repellat",
+  "ServerId": 633,
+  "MessageId": "dolor",
+  "Subject": "aut",
   "From": null,
   "To": [
     {
-      "ContactId": 146,
-      "ContactName": "Trantow, Wunsch and O'Connell",
-      "PersonId": 641,
-      "PersonName": "Klein, Luettgen and Bednar",
-      "AssociateId": 305,
-      "Address": "beatae",
-      "EmailId": 906,
+      "ContactId": 571,
+      "ContactName": "Beatty, Gerhold and Herzog",
+      "PersonId": 768,
+      "PersonName": "Runte, Bartoletti and Moen",
+      "AssociateId": 642,
+      "Address": "ducimus",
+      "EmailId": 143,
       "DuplicatePersonIds": [
-        456,
-        836
+        243,
+        941
       ],
-      "Name": "Swift LLC",
+      "Name": "Lang-Gerlach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 362
         }
       }
     }
   ],
-  "Sent": "2000-09-21T15:29:21.7382756+02:00",
+  "Sent": "2013-10-25T03:51:27.2092335+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 528,
+  "Size": 507,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldType": "System.String",
+      "FieldLength": 966
     }
   }
 }

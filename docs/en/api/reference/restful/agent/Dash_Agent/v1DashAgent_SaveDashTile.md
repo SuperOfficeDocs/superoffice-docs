@@ -76,11 +76,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 931,
-  "DashboardId": 377,
-  "Height": 922,
-  "Width": 446,
-  "Rank": 414,
+  "DashboardTileId": 634,
+  "DashboardId": 865,
+  "Height": 778,
+  "Width": 291,
+  "Rank": 978,
   "DashTileDefinition": null
 }
 ```
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 540,
-  "DashboardId": 76,
-  "Height": 215,
-  "Width": 495,
-  "Rank": 700,
+  "DashboardTileId": 728,
+  "DashboardId": 609,
+  "Height": 904,
+  "Width": 94,
+  "Rank": 407,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 752
     }
   }
 }

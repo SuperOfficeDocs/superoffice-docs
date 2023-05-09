@@ -88,15 +88,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 145,
-  "PrefDescId": 370,
-  "PrefValue": "laboriosam",
-  "PrefShowValue": "et",
-  "Description": "Mandatory hybrid time-frame",
+  "PrefDescLineId": 125,
+  "PrefDescId": 687,
+  "PrefValue": "quidem",
+  "PrefShowValue": "odio",
+  "Description": "Persistent web-enabled matrices",
   "IsBuiltin": true
 }
 ```
@@ -108,18 +108,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 788,
-  "PrefDescId": 931,
-  "PrefValue": "iste",
-  "PrefShowValue": "facere",
-  "Description": "Managed foreground extranet",
-  "IsBuiltin": false,
+  "PrefDescLineId": 703,
+  "PrefDescId": 72,
+  "PrefValue": "commodi",
+  "PrefShowValue": "dolor",
+  "Description": "Front-line user-facing concept",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldType": "System.String",
+      "FieldLength": 362
     }
   },
   "_Links": {

@@ -109,31 +109,31 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 149,
-  "Name": "Sipes-Hahn",
-  "Tooltip": "rerum",
+  "WebPanelId": 135,
+  "Name": "Gutmann, Zulauf and Von",
+  "Tooltip": "nam",
   "Deleted": true,
-  "Rank": 802,
+  "Rank": 705,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Cartwright-Prohaska",
+  "WindowName": "Flatley, O'Reilly and Sanford",
   "Url": "http://www.example.com/",
-  "ProgId": "doloremque",
-  "Icon": 994,
-  "AlwaysReloadOnShow": true
+  "ProgId": "eius",
+  "Icon": 525,
+  "AlwaysReloadOnShow": false
 }
 ```
 
@@ -144,33 +144,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 417,
-  "Name": "Jast LLC",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "Rank": 416,
+  "WebPanelId": 903,
+  "Name": "Wiza Inc and Sons",
+  "Tooltip": "dolore",
+  "Deleted": false,
+  "Rank": 706,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Zieme, Beier and O'Connell",
+  "WindowName": "Collier Group",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptatem",
-  "Icon": 176,
+  "ProgId": "quia",
+  "Icon": 695,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldType": "System.Int32",
+      "FieldLength": 221
     }
   }
 }

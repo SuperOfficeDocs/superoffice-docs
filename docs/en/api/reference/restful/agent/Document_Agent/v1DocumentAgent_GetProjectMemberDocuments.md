@@ -96,14 +96,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 919,
-  "StartTime": "1997-10-18T15:29:21.4827791+02:00",
-  "EndTime": "2017-07-20T15:29:21.4827791+02:00",
-  "Count": 596
+  "PersonId": 272,
+  "StartTime": "1999-11-04T03:51:27.0217725+01:00",
+  "EndTime": "2020-12-24T03:51:27.0217725+01:00",
+  "Count": 703
 }
 ```
 
@@ -115,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 139,
-    "Attention": "sunt",
-    "Header": "reprehenderit",
-    "Name": "Dach-Grimes",
-    "OurRef": "aut",
-    "YourRef": "maiores",
-    "Description": "Function-based impactful superstructure",
-    "DocumentTemplate": "enim",
+    "DocumentId": 442,
+    "Attention": "autem",
+    "Header": "atque",
+    "Name": "Pouros-Purdy",
+    "OurRef": "neque",
+    "YourRef": "voluptatem",
+    "Description": "Total encompassing strategy",
+    "DocumentTemplate": "neque",
     "IsPublished": false,
-    "PersonId": 991,
-    "PersonFullName": "Dagmar Schoen",
-    "AssociateFullName": "Mr. Richmond Isom Dooley V",
-    "ContactId": 642,
-    "ContactName": "Feest Inc and Sons",
-    "ProjectId": 212,
-    "ProjectName": "Weimann-Greenholt",
-    "AssociateId": 739,
-    "Snum": 485,
-    "SaleId": 794,
-    "SaleName": "Grady, Waters and Schiller",
+    "PersonId": 237,
+    "PersonFullName": "Waylon VonRueden",
+    "AssociateFullName": "Cathrine Klein",
+    "ContactId": 557,
+    "ContactName": "Reichel Group",
+    "ProjectId": 391,
+    "ProjectName": "Lesch-Kshlerin",
+    "AssociateId": 335,
+    "Snum": 596,
+    "SaleId": 702,
+    "SaleName": "McLaughlin Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 344
+        "FieldType": "System.Int32",
+        "FieldLength": 57
       }
     }
   }

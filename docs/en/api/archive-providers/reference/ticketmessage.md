@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TicketMessage"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -783,7 +783,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/realTimeToReply,ticket/person/correspondingAssociate/ejUserId,ticket/person/correspondingAssociate/ejDisplayName,ticket/person/legalBaseStore,ticket/contact/registeredBy
+GET /api/v1/archive/TicketMessage?$select=ticket/createdBy/title,ticket/person/personDirectFax/formattedNumber,ticket/person/personInfo/infoText,ticket/contact/updatedByFullName,ticket/contact/contactFax/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

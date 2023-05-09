@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 970,
-  "ParentId": 569,
-  "Name": "Reinger-Berge",
-  "Fullname": "et",
-  "CategoryMaster": 975,
+  "TicketCategoryId": 98,
+  "ParentId": 928,
+  "Name": "Altenwerth-Beier",
+  "Fullname": "voluptatem",
+  "CategoryMaster": 404,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Stracke-Langworth",
+  "ExternalName": "Reilly, Grant and Quigley",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 275,
-  "ReplyTemplate": 143,
-  "NotificationEmail": "keanu@grimesbauch.com",
+  "AssignmentLag": 889,
+  "ReplyTemplate": 959,
+  "NotificationEmail": "maxine.damore@brekke.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 523,
+  "EffectiveReplyTemplateId": 252,
   "ExtraFields": {
-    "ExtraFields1": "placeat",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "voluptatibus",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "reiciendis"
+    "CustomFields1": "rem",
+    "CustomFields2": "placeat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 806
+      "FieldType": "System.Int32",
+      "FieldLength": 749
     }
   }
 }

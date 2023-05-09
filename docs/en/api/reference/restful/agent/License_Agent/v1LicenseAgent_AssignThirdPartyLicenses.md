@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 329,
-  "ModuleOwner": "quo",
+  "AssociateId": 355,
+  "ModuleOwner": "ipsa",
   "ModuleLicenseNames": [
-    "Tillman-Turcotte",
-    "Thompson-Raynor"
+    "Lynch, Hessel and Kshlerin",
+    "Bashirian, Collier and Grant"
   ]
 }
 ```
@@ -109,25 +109,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 325,
-    "Tooltip": "similique",
+    "Total": 97,
+    "Tooltip": "magni",
     "CanAssign": false,
-    "Free": 602,
-    "InUse": 909,
-    "IsHidden": false,
+    "Free": 444,
+    "InUse": 780,
+    "IsHidden": true,
     "Assigned": true,
-    "ModuleLicenseId": 700,
-    "Name": "Corkery Group",
-    "Description": "Distributed mission-critical core",
-    "PrerequisiteModuleName": "Keeling-Mertz",
-    "SortOrder": 248,
-    "ExtraFlags": 647,
+    "ModuleLicenseId": 643,
+    "Name": "Hudson Inc and Sons",
+    "Description": "Enhanced optimizing challenge",
+    "PrerequisiteModuleName": "Pollich, Powlowski and D'Amore",
+    "SortOrder": 83,
+    "ExtraFlags": 501,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 996
+        "FieldType": "System.Int32",
+        "FieldLength": 945
       }
     }
   }

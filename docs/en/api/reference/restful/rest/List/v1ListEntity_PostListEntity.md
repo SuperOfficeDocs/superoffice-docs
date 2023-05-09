@@ -93,19 +93,19 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 970,
-  "Name": "Waters-Carter",
-  "Tooltip": "omnis",
+  "Id": 799,
+  "Name": "Leffler Group",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "Rank": 239,
+  "Rank": 171,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "UseGroupsAndHeadings": false,
+  "ListType": "dignissimos",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -117,27 +117,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 327,
-  "Name": "Lueilwitz, Gibson and Kautzer",
-  "Tooltip": "nemo",
+  "Id": 556,
+  "Name": "Gusikowski Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 411,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 52,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vel",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldType": "System.String",
+      "FieldLength": 133
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

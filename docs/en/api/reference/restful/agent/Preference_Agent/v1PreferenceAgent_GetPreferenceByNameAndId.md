@@ -89,10 +89,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "labore",
-  "PrefKey": "nihil",
+  "PrefSection": "quia",
+  "PrefKey": "sint",
   "PrefLevel": "Database",
-  "OwnerId": 162
+  "OwnerId": 200
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sit",
+  "RawValue": "magni",
   "Specification": null,
-  "DisplayValue": "corrupti",
-  "DisplayTooltip": "aut",
+  "DisplayValue": "amet",
+  "DisplayTooltip": "ratione",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 251,
-  "PrefDescId": 992,
-  "TableName": "Collins LLC",
-  "UserPreferenceId": 540,
+  "TargetId": 127,
+  "PrefDescId": 356,
+  "TableName": "Steuber, Carroll and Goodwin",
+  "UserPreferenceId": 80,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 985
+      "FieldLength": 524
     }
   }
 }

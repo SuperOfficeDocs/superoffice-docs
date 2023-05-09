@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    467,
-    941
+    165,
+    177
   ]
 }
 ```
@@ -109,31 +109,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Gusikowski Inc and Sons",
-    "Comment": "rem",
-    "StakeholderRoleId": 115,
-    "CountryId": 588,
-    "PersonId": 942,
-    "EmailDescription": "maximo_crona@barrows.us",
-    "EmailId": 913,
-    "EmailAddress": "lewis_kihn@kirlin.biz",
-    "PhoneId": 750,
-    "ContactName": "Spinka-Stokes",
-    "ContactId": 792,
-    "SaleId": 568,
-    "Mrmrs": "libero",
-    "Firstname": "Coleman",
-    "MiddleName": "O'Kon Group",
-    "Lastname": "Bosco",
-    "SaleStakeholderId": 888,
-    "Rank": 6,
-    "Phone": "(809)476-9824 x91639",
+    "StakeholderRoleName": "Jacobi LLC",
+    "Comment": "porro",
+    "StakeholderRoleId": 219,
+    "CountryId": 968,
+    "PersonId": 297,
+    "EmailDescription": "glennie@croninturner.us",
+    "EmailId": 871,
+    "EmailAddress": "eden@parkerkovacek.co.uk",
+    "PhoneId": 521,
+    "ContactName": "Emard Inc and Sons",
+    "ContactId": 94,
+    "SaleId": 553,
+    "Mrmrs": "dolore",
+    "Firstname": "Evans",
+    "MiddleName": "Treutel-Rogahn",
+    "Lastname": "Mitchell",
+    "SaleStakeholderId": 149,
+    "Rank": 849,
+    "Phone": "399-581-1533",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 178
       }
     }
   }

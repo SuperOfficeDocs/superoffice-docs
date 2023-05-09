@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FormSubmissionShadowDynamicSelectionV2"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -455,7 +455,7 @@ FormSubmission shadow selection archive with OR-able selection groups. Each grou
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowDynamicSelectionV2?$select=person/isProjectMember,person/personAddress/zip,person/restrictionAddress/city
+GET /api/v1/archive/FormSubmissionShadowDynamicSelectionV2?$select=associate/personId,associate/associateDbId,person/correspondingAssociate/firstName,person/correspondingAssociate/assocName,person/correspondingAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

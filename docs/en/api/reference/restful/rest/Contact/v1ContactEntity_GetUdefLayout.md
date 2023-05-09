@@ -89,7 +89,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 88,
-    "ColumnId": 78,
-    "FieldDefault": "recusandae",
-    "FieldHeight": 972,
-    "FieldLabel": "consequatur",
-    "FieldLeft": 140,
-    "FieldTop": 231,
+    "UDefFieldId": 453,
+    "ColumnId": 560,
+    "FieldDefault": "non",
+    "FieldHeight": 941,
+    "FieldLabel": "cumque",
+    "FieldLeft": 540,
+    "FieldTop": 399,
     "FieldType": "Checkbox",
-    "FieldWidth": 503,
+    "FieldWidth": 727,
     "FormatMask": "officia",
-    "HideLabel": true,
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 469,
-    "LabelLeft": 959,
-    "LabelTop": 403,
-    "LabelWidth": 934,
-    "LastVersionId": 737,
-    "ListTableId": 433,
-    "IsMandatory": false,
+    "LabelHeight": 902,
+    "LabelLeft": 427,
+    "LabelTop": 176,
+    "LabelWidth": 308,
+    "LastVersionId": 753,
+    "ListTableId": 817,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 36,
-    "ProgId": "laudantium",
+    "Page1LineNo": 895,
+    "ProgId": "amet",
     "IsReadOnly": false,
-    "ShortLabel": "aut",
-    "TabOrder": 586,
-    "TextLength": 791,
-    "Tooltip": "harum",
-    "UdefIdentity": 667,
-    "UDListDefinitionId": 180,
+    "ShortLabel": "voluptas",
+    "TabOrder": 52,
+    "TextLength": 221,
+    "Tooltip": "necessitatibus",
+    "UdefIdentity": 318,
+    "UDListDefinitionId": 149,
     "Justification": "Center",
-    "Version": 13,
-    "TemplateVariableName": "Hirthe Inc and Sons",
+    "Version": 564,
+    "TemplateVariableName": "Heller, Hilpert and Goodwin",
     "HasBeenPublished": false,
-    "MdoListName": "Tillman LLC",
+    "MdoListName": "Bartoletti Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 474
+        "FieldLength": 978
       }
     }
   }

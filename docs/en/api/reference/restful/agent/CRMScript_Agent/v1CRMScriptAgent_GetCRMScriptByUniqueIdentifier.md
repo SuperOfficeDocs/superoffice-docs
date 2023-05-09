@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "architecto"
+  "UniqueIdentifier": "expedita"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "et",
-  "Name": "Wiegand Inc and Sons",
-  "Description": "Adaptive actuating methodology",
-  "IncludeId": "voluptatem",
-  "Source": "doloremque",
-  "Registered": "2014-12-11T15:29:21.2517826+01:00",
-  "RegisteredBy": "nesciunt",
-  "Updated": "2019-05-23T15:29:21.2517826+02:00",
-  "UpdatedBy": "aut",
-  "Path": "architecto",
+  "UniqueIdentifier": "velit",
+  "Name": "Abernathy LLC",
+  "Description": "Multi-lateral intangible orchestration",
+  "IncludeId": "nobis",
+  "Source": "consequatur",
+  "Registered": "2006-04-03T03:51:26.9436626+02:00",
+  "RegisteredBy": "sed",
+  "Updated": "2021-10-26T03:51:26.9436626+02:00",
+  "UpdatedBy": "repellat",
+  "Path": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 410
     }
   }
 }

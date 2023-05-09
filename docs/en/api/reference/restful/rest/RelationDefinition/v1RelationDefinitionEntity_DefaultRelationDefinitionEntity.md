@@ -63,7 +63,7 @@ OK
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 388,
-  "Name": "Renner, O'Hara and Gibson",
-  "Tooltip": "aut",
-  "PassiveText": "laborum",
+  "ReldefId": 421,
+  "Name": "Stokes LLC",
+  "Tooltip": "earum",
+  "PassiveText": "praesentium",
   "Deleted": true,
-  "Rank": 259,
+  "Rank": 675,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 118
+      "FieldType": "System.String",
+      "FieldLength": 951
     }
   }
 }

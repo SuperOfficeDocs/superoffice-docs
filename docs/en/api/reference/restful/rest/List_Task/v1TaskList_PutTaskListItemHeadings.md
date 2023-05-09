@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 593,
-    "Name": "Carter, Dach and Rice",
-    "Tooltip": "sunt",
-    "Deleted": false,
-    "Rank": 924,
-    "UdListDefinitionId": 60
+    "HeadingId": 377,
+    "Name": "Spinka, Frami and Graham",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 998,
+    "UdListDefinitionId": 894
   },
   {
-    "HeadingId": 593,
-    "Name": "Carter, Dach and Rice",
-    "Tooltip": "sunt",
-    "Deleted": false,
-    "Rank": 924,
-    "UdListDefinitionId": 60
+    "HeadingId": 377,
+    "Name": "Spinka, Frami and Graham",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 998,
+    "UdListDefinitionId": 894
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 903,
-    "Name": "Runolfsson, Kuhlman and Hessel",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 432,
-    "UdListDefinitionId": 525,
+    "HeadingId": 930,
+    "Name": "Reichert Inc and Sons",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "Rank": 330,
+    "UdListDefinitionId": 245,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 424
       }
     }
   }

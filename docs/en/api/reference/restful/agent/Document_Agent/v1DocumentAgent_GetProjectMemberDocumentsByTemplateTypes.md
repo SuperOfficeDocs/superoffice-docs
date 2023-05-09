@@ -97,17 +97,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 385,
-  "StartTime": "2015-08-22T15:29:21.47728+02:00",
-  "EndTime": "1998-07-13T15:29:21.47728+02:00",
-  "Count": 893,
+  "PersonId": 746,
+  "StartTime": "2013-03-27T03:51:27.0061522+01:00",
+  "EndTime": "2015-02-17T03:51:27.0061522+01:00",
+  "Count": 970,
   "DocumentTemplateIds": [
-    522,
-    392
+    947,
+    813
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 898,
-    "Attention": "earum",
-    "Header": "pariatur",
-    "Name": "Wolf-Hauck",
-    "OurRef": "fuga",
-    "YourRef": "quaerat",
-    "Description": "Optional background model",
-    "DocumentTemplate": "fugit",
+    "DocumentId": 156,
+    "Attention": "officiis",
+    "Header": "incidunt",
+    "Name": "Blick, Lesch and Macejkovic",
+    "OurRef": "vel",
+    "YourRef": "rerum",
+    "Description": "Versatile solution-oriented intranet",
+    "DocumentTemplate": "accusantium",
     "IsPublished": true,
-    "PersonId": 751,
-    "PersonFullName": "Lee Hilll",
-    "AssociateFullName": "Eldridge McLaughlin",
-    "ContactId": 661,
-    "ContactName": "Waters-Smith",
-    "ProjectId": 893,
-    "ProjectName": "Walter-Sporer",
-    "AssociateId": 177,
-    "Snum": 668,
-    "SaleId": 749,
-    "SaleName": "Tromp-Nienow",
+    "PersonId": 319,
+    "PersonFullName": "Prof. Ceasar Okuneva II",
+    "AssociateFullName": "Alexie Greenfelder",
+    "ContactId": 685,
+    "ContactName": "Waters, Stamm and Rogahn",
+    "ProjectId": 625,
+    "ProjectName": "Volkman LLC",
+    "AssociateId": 242,
+    "Snum": 331,
+    "SaleId": 847,
+    "SaleName": "Ratke LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldLength": 544
       }
     }
   }

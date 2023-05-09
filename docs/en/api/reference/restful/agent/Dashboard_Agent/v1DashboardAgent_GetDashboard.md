@@ -25,7 +25,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=936
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=291
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 570,
-  "AssociateId": 902,
-  "Caption": "nemo",
+  "DashboardId": 216,
+  "AssociateId": 498,
+  "Caption": "dolorem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 423,
-      "Caption": "laudantium",
-      "Description": "Assimilated modular encryption",
-      "ChartName": "Cruickshank Group",
-      "ChartId": "ut",
-      "IsDefault": true,
-      "AssociateId": 499,
-      "GroupId": 805,
-      "SelectionId": 492,
-      "Config": "beatae",
+      "DashboardTileId": 907,
+      "Caption": "iste",
+      "Description": "Fully-configurable motivating complexity",
+      "ChartName": "McDermott Inc and Sons",
+      "ChartId": "reprehenderit",
+      "IsDefault": false,
+      "AssociateId": 150,
+      "GroupId": 504,
+      "SelectionId": 422,
+      "Config": "cum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldType": "System.Int32",
+          "FieldLength": 617
         }
       }
     }
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldLength": 765
     }
   }
 }

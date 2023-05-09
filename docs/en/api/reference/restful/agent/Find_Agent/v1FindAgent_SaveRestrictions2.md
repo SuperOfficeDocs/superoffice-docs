@@ -66,14 +66,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "est",
-  "ProviderName": "Farrell, Cremin and Weissnat",
-  "StorageKey": "expedita",
-  "Restrictions": "amet"
+  "StorageType": "assumenda",
+  "ProviderName": "Braun-Cassin",
+  "StorageKey": "repudiandae",
+  "Restrictions": "aut"
 }
 ```
 

@@ -132,18 +132,18 @@ TicketMessageEntity  updated.
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "vero",
+    "path": "voluptas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vero",
+    "path": "voluptas",
     "value": {}
   }
 ]
@@ -156,28 +156,28 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 719,
+  "EjMessageId": 747,
   "Ticket": null,
-  "CreatedAt": "2009-11-18T15:29:30.7874852+01:00",
+  "CreatedAt": "2003-09-20T03:51:34.1615868+02:00",
   "CreatedBy": null,
-  "Author": "asperiores",
+  "Author": "aspernatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "officiis",
-  "TimeSpent": 629,
-  "Body": "quis",
-  "HtmlBody": "quo",
-  "EmailHeader": "willy_steuber@schroeder.name",
-  "DebugInfo": "itaque",
-  "MailSorter": "officia",
+  "MessageId": "omnis",
+  "TimeSpent": 521,
+  "Body": "et",
+  "HtmlBody": "pariatur",
+  "EmailHeader": "lucio_barrows@lemkejerde.name",
+  "DebugInfo": "magni",
+  "MailSorter": "iste",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "delectus",
+  "SearchTitle": "eum",
   "MessageHeaders": [
     {
-      "Id": 139,
-      "Name": "Walsh, Kihn and Borer",
-      "Value": "impedit",
+      "Id": 886,
+      "Name": "Johnson Group",
+      "Value": "perferendis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -185,49 +185,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 498
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "veniam",
-  "Sentiment": 819,
-  "SentimentConfidence": 590,
+  "Important": false,
+  "Language": "maxime",
+  "Sentiment": 725,
+  "SentimentConfidence": 877,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 862,
-      "Name": "Volkman, Jacobi and Bernhard",
-      "ContentType": "asperiores",
-      "AttSize": 363,
+      "AttachmentId": 231,
+      "Name": "Runolfsdottir, Wisoky and Schiller",
+      "ContentType": "corporis",
+      "AttSize": 231,
       "InlineImage": false,
-      "ContentId": "quae",
-      "AuthKey": "consequatur",
+      "ContentId": "labore",
+      "AuthKey": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
+          "FieldType": "System.String",
           "FieldLength": 461
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "tenetur",
+    "ExtraFields2": "sapiente"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "perspiciatis"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "dolores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldLength": 589
     }
   },
   "_Links": {

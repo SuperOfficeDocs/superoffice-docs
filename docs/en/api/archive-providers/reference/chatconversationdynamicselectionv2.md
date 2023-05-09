@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ChatConversationDynamicSelectionV2"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -463,7 +463,7 @@ ChatConversation selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationDynamicSelectionV2?$select=contact/contactAssociate/assocName,person/restrictionAddress/addressId,person/personAssociate/isActiveText
+GET /api/v1/archive/ChatConversationDynamicSelectionV2?$select=person/rank,person/email/emailHasBounced,person/personAssociate/ejUserId,person/correspondingAssociate/assocType,contact/contactExtra/x_contact_default_integer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 488,
-  "IncludeDeleted": true
+  "UdListDefinitionId": 784,
+  "IncludeDeleted": false
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Graham-Bins",
-    "Tooltip": "qui",
+    "Id": 245,
+    "Name": "Farrell Group",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "UdListDefinitionId": 971,
-    "Rank": 413,
+    "UdListDefinitionId": 900,
+    "Rank": 371,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 673
+        "FieldLength": 488
       }
     }
   }

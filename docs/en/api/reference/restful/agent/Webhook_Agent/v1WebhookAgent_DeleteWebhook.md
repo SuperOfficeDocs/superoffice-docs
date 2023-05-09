@@ -26,7 +26,7 @@ Deletes the Webhook
 | WebhookId | int32 | **Required** The id of the Webhook to be deleted. |
 
 ```http
-POST /api/v1/Agents/Webhook/DeleteWebhook?WebhookId=594
+POST /api/v1/Agents/Webhook/DeleteWebhook?WebhookId=389
 ```
 
 
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/Webhook/DeleteWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

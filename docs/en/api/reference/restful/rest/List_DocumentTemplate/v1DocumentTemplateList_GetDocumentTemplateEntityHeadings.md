@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 688,
-    "Name": "Cassin-Olson",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 135,
-    "UdListDefinitionId": 178,
+    "HeadingId": 437,
+    "Name": "Zemlak LLC",
+    "Tooltip": "suscipit",
+    "Deleted": false,
+    "Rank": 442,
+    "UdListDefinitionId": 989,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldType": "System.String",
+        "FieldLength": 255
       }
     }
   }

@@ -79,10 +79,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "sapiente",
-  "TechExplanation": "debitis",
-  "ErrorCode": "cum",
+  "IsOk": false,
+  "UserExplanation": "dolores",
+  "TechExplanation": "aut",
+  "ErrorCode": "facilis",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -90,7 +90,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldLength": 429
     }
   }
 }

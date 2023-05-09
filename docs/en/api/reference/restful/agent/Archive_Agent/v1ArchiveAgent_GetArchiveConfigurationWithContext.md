@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Maggio LLC",
-  "ProviderName": "Kshlerin, Will and Weissnat",
-  "Context": "temporibus"
+  "GuiName": "Borer LLC",
+  "ProviderName": "Schumm Group",
+  "Context": "hic"
 }
 ```
 
@@ -98,68 +98,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Ortiz, Barton and Haley",
-      "DisplayTooltip": "corrupti",
-      "DisplayType": "numquam",
+      "DisplayName": "Fahey, Simonis and Beer",
+      "DisplayTooltip": "sed",
+      "DisplayType": "eaque",
       "CanOrderBy": true,
-      "Name": "Cruickshank, Will and Daniel",
+      "Name": "Beier, Wilkinson and Schowalter",
       "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Shields-Zieme",
+      "RestrictionType": "eum",
+      "RestrictionListName": "Fritsch Group",
       "IsVisible": false,
-      "ExtraInfo": "nostrum",
-      "Width": "adipisci",
-      "IconHint": "qui",
-      "HeadingIconHint": "voluptate"
+      "ExtraInfo": "voluptatem",
+      "Width": "dignissimos",
+      "IconHint": "omnis",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 225,
-      "Name": "Doyle Group",
-      "ToolTip": "Autem totam occaecati beatae.",
+      "Id": 792,
+      "Name": "Padberg, Pollich and Marks",
+      "ToolTip": "Nesciunt praesentium officia explicabo vitae quae ut consequatur.",
       "Deleted": false,
-      "Rank": 838,
-      "Type": "molestias",
-      "ColorBlock": 436,
-      "IconHint": "qui",
-      "Selected": false,
-      "LastChanged": "2002-10-17T15:29:20.7657902+02:00",
+      "Rank": 770,
+      "Type": "et",
+      "ColorBlock": 869,
+      "IconHint": "excepturi",
+      "Selected": true,
+      "LastChanged": "2003-02-15T03:51:26.568754+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "unde",
-      "StyleHint": "in",
-      "Hidden": true,
-      "FullName": "Teresa Schinner",
+      "ExtraInfo": "aut",
+      "StyleHint": "eos",
+      "Hidden": false,
+      "FullName": "Milton Jakubowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 657
+          "FieldType": "System.String",
+          "FieldLength": 945
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Runolfsson-Zemlak",
+      "Name": "Haley Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Runolfsson-Zemlak",
+      "Name": "Haley Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "enim",
+  "OwnerKeys": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 259
+      "FieldType": "System.Int32",
+      "FieldLength": 44
     }
   }
 }

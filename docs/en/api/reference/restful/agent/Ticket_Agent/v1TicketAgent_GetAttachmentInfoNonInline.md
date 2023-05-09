@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 569
+  "TicketMessageEntityId": 399
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 334,
-    "Name": "Gleichner, Howe and Kirlin",
-    "ContentType": "veritatis",
-    "AttSize": 450,
+    "AttachmentId": 511,
+    "Name": "Koch LLC",
+    "ContentType": "et",
+    "AttSize": 71,
     "InlineImage": false,
-    "ContentId": "ut",
-    "AuthKey": "at",
+    "ContentId": "cumque",
+    "AuthKey": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 319
+        "FieldType": "System.Int32",
+        "FieldLength": 743
       }
     }
   }

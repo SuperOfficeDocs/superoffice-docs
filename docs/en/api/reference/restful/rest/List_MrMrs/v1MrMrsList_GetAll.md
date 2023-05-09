@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Crist-Kirlin",
-    "Tooltip": "eos",
-    "Deleted": false,
-    "UdListDefinitionId": 373,
-    "Rank": 360,
+    "Id": 608,
+    "Name": "Huel-Borer",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "UdListDefinitionId": 483,
+    "Rank": 787,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 766
+        "FieldType": "System.Int32",
+        "FieldLength": 645
       }
     }
   }

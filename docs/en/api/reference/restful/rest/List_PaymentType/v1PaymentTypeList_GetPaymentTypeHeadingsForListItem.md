@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 30,
-    "Name": "Gislason-Douglas",
-    "ToolTip": "Ut quae temporibus quo voluptatem aliquam.",
+    "Id": 257,
+    "Name": "Murphy, Schaefer and Haag",
+    "ToolTip": "Hic ex aspernatur perferendis corporis.",
     "Deleted": false,
-    "Rank": 720,
-    "Type": "iste",
-    "ColorBlock": 21,
-    "IconHint": "modi",
+    "Rank": 824,
+    "Type": "natus",
+    "ColorBlock": 296,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2022-04-13T15:29:31.3454771+02:00",
+    "LastChanged": "2019-06-09T03:51:34.7552114+02:00",
     "ChildItems": [
       {
-        "Id": 161,
-        "Name": "Mayer LLC",
-        "ToolTip": "Incidunt reprehenderit vitae illo delectus quod est placeat.",
-        "Deleted": true,
-        "Rank": 617,
-        "Type": "itaque",
-        "ColorBlock": 481,
-        "IconHint": "expedita",
-        "Selected": false,
-        "LastChanged": "1999-01-03T15:29:31.3454771+01:00",
+        "Id": 502,
+        "Name": "Von Group",
+        "ToolTip": "Soluta possimus voluptas qui.",
+        "Deleted": false,
+        "Rank": 907,
+        "Type": "et",
+        "ColorBlock": 22,
+        "IconHint": "nobis",
+        "Selected": true,
+        "LastChanged": "2007-05-13T03:51:34.7552114+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "quis",
+        "ExtraInfo": "quos",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Mr. Ransom Bernhard I",
+        "FullName": "Alexane Labadie DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 491
+            "FieldType": "System.String",
+            "FieldLength": 351
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "eius",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Miss Ryann Gottlieb",
+    "FullName": "Mrs. Lauretta O'Kon DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 524
+        "FieldLength": 702
       }
     }
   }

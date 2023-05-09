@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 252,
-    "ResourceId": 843,
-    "Text": "dolores",
+    "LanguageId": 817,
+    "ResourceId": 596,
+    "Text": "qui",
     "Type": "Column",
-    "LocalizedTextId": 197,
+    "LocalizedTextId": 209,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 455
+        "FieldType": "System.Int32",
+        "FieldLength": 52
       }
     }
   }

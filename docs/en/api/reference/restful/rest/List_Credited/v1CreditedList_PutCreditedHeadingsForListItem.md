@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 189,
-    "Name": "Crooks LLC",
-    "ToolTip": "Neque deserunt temporibus illo neque illum ut maiores.",
+    "Id": 440,
+    "Name": "Rippin-Barrows",
+    "ToolTip": "Vero voluptatem.",
     "Deleted": false,
-    "Rank": 285,
-    "Type": "minus",
-    "ColorBlock": 883,
-    "IconHint": "sunt",
+    "Rank": 882,
+    "Type": "tempore",
+    "ColorBlock": 641,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2013-05-09T15:29:31.1954856+02:00",
+    "LastChanged": "2002-08-17T03:51:34.6458549+02:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Prohaska, Glover and Corkery",
-        "ToolTip": "Ut tempore.",
+        "Id": 593,
+        "Name": "Gulgowski, Nikolaus and West",
+        "ToolTip": "Iusto quo aut provident architecto.",
         "Deleted": false,
-        "Rank": 636,
-        "Type": "cupiditate",
-        "ColorBlock": 77,
-        "IconHint": "fugiat",
+        "Rank": 15,
+        "Type": "eius",
+        "ColorBlock": 506,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2010-09-30T15:29:31.1954856+02:00",
+        "LastChanged": "2005-10-31T03:51:34.6458549+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "nesciunt",
-        "Hidden": true,
-        "FullName": "Waino Jast"
+        "ExtraInfo": "a",
+        "StyleHint": "quidem",
+        "Hidden": false,
+        "FullName": "Sunny Gusikowski"
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Twila Goodwin"
+    "ExtraInfo": "recusandae",
+    "StyleHint": "fuga",
+    "Hidden": false,
+    "FullName": "Mr. Rhett Russel Schulist"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "Gutkowski LLC",
-    "ToolTip": "Ex a pariatur veritatis atque voluptas ducimus eligendi.",
+    "Id": 913,
+    "Name": "Von-Kling",
+    "ToolTip": "Et consequatur ullam atque.",
     "Deleted": false,
-    "Rank": 567,
-    "Type": "voluptatem",
-    "ColorBlock": 126,
-    "IconHint": "quisquam",
-    "Selected": true,
-    "LastChanged": "2011-07-17T15:29:31.1969795+02:00",
+    "Rank": 124,
+    "Type": "sed",
+    "ColorBlock": 6,
+    "IconHint": "maiores",
+    "Selected": false,
+    "LastChanged": "2021-10-09T03:51:34.6458549+02:00",
     "ChildItems": [
       {
-        "Id": 884,
-        "Name": "Kilback Group",
-        "ToolTip": "Nisi rem velit odio minus ducimus qui.",
-        "Deleted": true,
-        "Rank": 867,
-        "Type": "libero",
-        "ColorBlock": 867,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2000-02-14T15:29:31.1974793+01:00",
+        "Id": 559,
+        "Name": "Bins, Stiedemann and Kassulke",
+        "ToolTip": "Ea et et dicta.",
+        "Deleted": false,
+        "Rank": 530,
+        "Type": "rerum",
+        "ColorBlock": 558,
+        "IconHint": "velit",
+        "Selected": true,
+        "LastChanged": "1997-11-29T03:51:34.6458549+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "quos",
+        "ExtraInfo": "dolores",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Lafayette Schmidt",
+        "FullName": "Alana Michael D'Amore V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldLength": 505
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "laudantium",
-    "Hidden": true,
-    "FullName": "Weston Lemke",
+    "ExtraInfo": "enim",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Damion Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 784
+        "FieldType": "System.Int32",
+        "FieldLength": 742
       }
     }
   }

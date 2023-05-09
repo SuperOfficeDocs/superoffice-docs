@@ -133,12 +133,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "rem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "rem",
     "value": {}
   }
 ]
@@ -151,38 +151,38 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 209,
-  "ContactId": 880,
-  "ProjectId": 87,
-  "ContactName": "Jenkins Group",
+  "ProjectmemberId": 70,
+  "ContactId": 225,
+  "ProjectId": 479,
+  "ContactName": "Denesik, Watsica and Feest",
   "ContactDepartment": "",
-  "ProjectName": "Ferry, Schamberger and Mosciski",
-  "EmailId": 610,
-  "EmailAddress": "quincy@rolfson.com",
-  "CountryId": 556,
-  "Firstname": "Colin",
-  "MiddleName": "McClure Group",
-  "Lastname": "Schumm",
-  "PersonId": 569,
-  "Mrmrs": "aut",
-  "ProjectMemberTypeName": "Russel, Lowe and Willms",
-  "Phone": "(113)323-4821",
-  "PhoneId": 959,
-  "ProjectMemberTypeId": 529,
-  "EmailAddressName": "simeon@kuhn.info",
-  "Comment": "culpa",
-  "FullName": "Aileen Stamm",
+  "ProjectName": "Senger-Bradtke",
+  "EmailId": 29,
+  "EmailAddress": "brennon@toy.co.uk",
+  "CountryId": 113,
+  "Firstname": "Marilyne",
+  "MiddleName": "Shields-Wilderman",
+  "Lastname": "Wisozk",
+  "PersonId": 119,
+  "Mrmrs": "consectetur",
+  "ProjectMemberTypeName": "Predovic Inc and Sons",
+  "Phone": "420-318-4434 x50889",
+  "PhoneId": 762,
+  "ProjectMemberTypeId": 836,
+  "EmailAddressName": "rosie.macejkovic@roob.uk",
+  "Comment": "possimus",
+  "FullName": "Miss Edwin Orn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 195
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

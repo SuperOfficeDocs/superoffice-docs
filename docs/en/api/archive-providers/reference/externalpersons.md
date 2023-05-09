@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ExternalPersons"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -645,7 +645,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=personTargetRelation/contactPersonRelation,projectMembers/name,personTargetRelation/rank
+GET /api/v1/archive/ExternalPersons?$select=personSourceRelation/birthMonth,request/readByOwner,projectMembers/completed,personAppointment/recurring,personAppointment/associate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

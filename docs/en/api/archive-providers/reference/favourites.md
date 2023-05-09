@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Favourites"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -305,10 +305,6 @@ blah....
 |person/legalBaseEmarketing| *None* |Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |person/consentSourceStore| *None* |Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |person/consentSourceEmarketing| *None* |Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-
-## Supported Columns
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/contactId| *None* |Company ID: Database ID of company|  |
 |contact/name| *None* |Company name|  |
 |contact/department| *None* |Department|  |
@@ -479,10 +475,6 @@ blah....
 |contact/saintIntention| *None* |Intention|  |
 |contact/saintTicketStatus| *None* |Status|  |
 |contact/saintTicketCategory| *None* |Category|  |
-
-## Supported Columns
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |associate/firstName| *None* |First name: Displays the contact's first name|  |
 |associate/lastName| *None* |Last name: Displays the contact's last name|  |
 |associate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
@@ -618,10 +610,6 @@ blah....
 |project/saintTicketCategory| *None* |Category|  |
 |project/project/textId| *None* |Text ID|  |
 |project/project/infoText| *None* |Information: Displays the text entered in the description field|  |
-
-## Supported Columns
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/saleStakeholderId| *None* |Stakeholder - Stakeholder ID: Database ID of the stakeholder row|  |
 |saleStakeholder/saleId| *None* |Stakeholder - Sale ID: The database ID of the sale record|  |
 |saleStakeholder/comment| *None* |Stakeholder - Sales role comment text: Sales role comment text|  |
@@ -1091,10 +1079,6 @@ blah....
 |quote/version/alternative/quoteline/vatAmount| *None* |VAT (amount: The calculated VAT amount|  |
 |quote/version/alternative/quoteline/totalPriceIncVAT| *None* |Total incl. VAT: Total including VAT|  |
 |quote/version/alternative/quoteline/totalPriceWithAlternativeDiscount| *None* |Total incl. alt. disc: Total, including any discount percentage set on the alternative|  |
-
-## Supported Columns
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |name| *None* |Company name|  |
 |department| *None* |Department|  |
 |nameDepartment| *None* |Company: Displays the company an activity is linked to|  |
@@ -1663,10 +1647,6 @@ blah....
 |correspondingAssociate/otherGroups| *None* |Other groups: Other groups|  |
 |correspondingAssociate/userName| *None* |User name: User name|  |
 |correspondingAssociate/personEmail| *None* |E-mail|  |
-
-## Supported Columns
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personContact/contactId| *None* |Company ID: Database ID of company|  |
 |personContact/name| *None* |Company name|  |
 |personContact/department| *None* |Department|  |
@@ -2104,10 +2084,6 @@ blah....
 |request/extra/x\_ticket\_faq| *None* |Extra FAQ Relation|  |
 |request/extra/x\_ticket\_category\_relation| *None* |Extra category relation: Category relation on request|  |
 |request/extra/y\_equipment/x\_name| *None* |Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
-
-## Supported Columns
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/completed| *None* |Completed: Displays a check mark indicating if the project has been completed.|  |
 |projectMembers/projectId| *None* |DB ID: Displays the database ID for a project row|  |
 |projectMembers/name| *None* |Project name: Displays the Project's name|  |
@@ -2794,10 +2770,6 @@ blah....
 |isReport| *None* |Report: Is this document a saved report run?|  |
 |suggestedDocumentId| *None* |Document ID (suggestion: The database ID of a document that originates in a suggestion|  |
 |isMail| *None* |E-mail|  |
-
-## Supported Columns
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |documentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |documentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |documentPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
@@ -3054,7 +3026,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=person/personMobilePhone/formattedNumber,contact/postAddress/line1,contact/contactAssociate/ejDisplayName,project/projectEvent/isExternalEvent,project/projectAssociate/associateDbId
+GET /api/v1/archive/Favourites?$select=time,person/email/emailProtocol,person/personUdef/SuperOffice:4,person/correspondingAssociate/credentialDisplayValue,saleStakeholder/person/personBusiness
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

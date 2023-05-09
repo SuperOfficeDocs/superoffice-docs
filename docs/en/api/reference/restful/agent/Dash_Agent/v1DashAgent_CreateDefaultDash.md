@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 962,
-  "UniqueId": "consectetur",
-  "Name": "Sipes LLC",
-  "Description": "Mandatory fresh-thinking parallelism",
-  "AssociateId": 274,
-  "Columns": 786,
+  "DashboardId": 995,
+  "UniqueId": "similique",
+  "Name": "Padberg, Hilpert and Heathcote",
+  "Description": "Organized explicit superstructure",
+  "AssociateId": 627,
+  "Columns": 835,
   "Theme": null,
-  "VisibleForAll": 234,
+  "VisibleForAll": 498,
   "VisibleForAssociates": [
-    420,
-    740
+    185,
+    971
   ],
   "VisibleForGroups": [
-    248,
-    373
+    928,
+    973
   ],
-  "PinForAll": 625,
+  "PinForAll": 548,
   "PinForAssociates": [
-    374,
-    617
+    806,
+    94
   ],
   "PinForGroups": [
-    594,
-    845
+    130,
+    158
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 774
+      "FieldLength": 692
     }
   }
 }

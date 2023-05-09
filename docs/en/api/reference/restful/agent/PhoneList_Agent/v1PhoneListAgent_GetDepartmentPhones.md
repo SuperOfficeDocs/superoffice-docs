@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 930
+  "DepartmentId": 319
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "125-602-8256 x693",
-    "PersonCellPhone": "1-809-266-1085 x4071",
-    "PersonPrivatePhone": "1-357-293-2453",
-    "PersonFaxNumber": "701414",
-    "PersonPagerNumber": "1805535",
-    "PersonEmail": "jennifer_lockman@willcarter.name",
-    "Id": 321,
-    "Name": "Champlin Group",
-    "Tooltip": "ipsum",
-    "UniqueId": "suscipit",
+    "PersonDirectPhone": "308.755.6983",
+    "PersonCellPhone": "431.248.4852",
+    "PersonPrivatePhone": "525.688.8023",
+    "PersonFaxNumber": "932265",
+    "PersonPagerNumber": "877196",
+    "PersonEmail": "rosanna@muller.ca",
+    "Id": 733,
+    "Name": "Schroeder-Hansen",
+    "Tooltip": "nesciunt",
+    "UniqueId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldLength": 793
       }
     }
   }

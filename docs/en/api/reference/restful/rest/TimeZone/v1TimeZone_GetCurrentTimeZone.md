@@ -60,7 +60,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 227,
-  "Name": "Donnelly-Wilderman",
-  "TZLocationCode": "rerum",
-  "TZLocationCities": "eligendi",
-  "IsoNumber": 498,
+  "TZLocationID": 398,
+  "Name": "Corwin-McClure",
+  "TZLocationCode": "voluptatibus",
+  "TZLocationCities": "ipsa",
+  "IsoNumber": 467,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 109,
-      "StartMonth": 914,
-      "EndDay": 421,
-      "EndMonth": 155,
-      "TZOffset": 745,
-      "StartRulePattern": "voluptate",
-      "EndRulePattern": "eaque"
+      "StartDay": 520,
+      "StartMonth": 875,
+      "EndDay": 857,
+      "EndMonth": 204,
+      "TZOffset": 220,
+      "StartRulePattern": "vero",
+      "EndRulePattern": "fugit"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 596,
-      "StartMonth": 231,
-      "EndDay": 533,
-      "EndMonth": 597,
-      "TZOffset": 931,
-      "StartRulePattern": "alias",
-      "EndRulePattern": "impedit"
+      "StartDay": 310,
+      "StartMonth": 666,
+      "EndDay": 378,
+      "EndMonth": 665,
+      "TZOffset": 354,
+      "StartRulePattern": "beatae",
+      "EndRulePattern": "cupiditate"
     }
   }
 }

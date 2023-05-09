@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Mraz-Gutmann",
-  "ProviderName": "Thompson, Veum and Tillman"
+  "GuiName": "Will LLC",
+  "ProviderName": "Schamberger Group"
 }
 ```
 
@@ -96,68 +96,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Padberg, D'Amore and Herman",
-      "DisplayTooltip": "sit",
-      "DisplayType": "porro",
+      "DisplayName": "Stamm-Stoltenberg",
+      "DisplayTooltip": "consequatur",
+      "DisplayType": "eum",
       "CanOrderBy": false,
-      "Name": "Maggio Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "beatae",
-      "RestrictionListName": "Swift, Gleason and Greenholt",
-      "IsVisible": false,
-      "ExtraInfo": "ipsum",
-      "Width": "nihil",
-      "IconHint": "molestiae",
-      "HeadingIconHint": "adipisci"
+      "Name": "Skiles, Kub and Klein",
+      "CanRestrictBy": true,
+      "RestrictionType": "enim",
+      "RestrictionListName": "Fay-Runolfsdottir",
+      "IsVisible": true,
+      "ExtraInfo": "quidem",
+      "Width": "quia",
+      "IconHint": "ut",
+      "HeadingIconHint": "sit"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 207,
-      "Name": "Lehner Inc and Sons",
-      "ToolTip": "Illum illum.",
+      "Id": 750,
+      "Name": "Gottlieb-Larkin",
+      "ToolTip": "Non et dolorem quisquam qui.",
       "Deleted": false,
-      "Rank": 834,
-      "Type": "ut",
-      "ColorBlock": 917,
-      "IconHint": "necessitatibus",
-      "Selected": true,
-      "LastChanged": "2023-02-10T15:29:20.7642903+01:00",
+      "Rank": 618,
+      "Type": "accusantium",
+      "ColorBlock": 357,
+      "IconHint": "impedit",
+      "Selected": false,
+      "LastChanged": "2021-08-07T03:51:26.568754+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iste",
-      "StyleHint": "tempore",
-      "Hidden": true,
-      "FullName": "Omer Okuneva",
+      "ExtraInfo": "quo",
+      "StyleHint": "accusantium",
+      "Hidden": false,
+      "FullName": "Connie Zulauf",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldType": "System.String",
+          "FieldLength": 166
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Mueller, Lakin and Waters",
+      "Name": "Corkery Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Mueller, Lakin and Waters",
+      "Name": "Corkery Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "et",
+  "OwnerKeys": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 812
+      "FieldType": "System.Int32",
+      "FieldLength": 22
     }
   }
 }

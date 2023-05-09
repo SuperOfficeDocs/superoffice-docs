@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "voluptatem"
+  "MessageId": "accusamus"
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 373,
-      "ContactName": "Deckow Inc and Sons",
-      "PersonId": 382,
-      "PersonName": "Lowe LLC",
-      "AssociateId": 992,
-      "Address": "aliquam",
-      "EmailId": 294,
+      "ContactId": 287,
+      "ContactName": "Schulist-Ankunding",
+      "PersonId": 501,
+      "PersonName": "Hoeger-Block",
+      "AssociateId": 650,
+      "Address": "cum",
+      "EmailId": 110,
       "DuplicatePersonIds": [
-        572,
-        160
+        338,
+        141
       ],
-      "Name": "Daniel-Emmerich",
+      "Name": "Ernser, Satterfield and Turcotte",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 769
+          "FieldType": "System.Int32",
+          "FieldLength": 966
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 717,
-      "ContactName": "Quigley-Franecki",
-      "PersonId": 980,
-      "PersonName": "Bosco-Gutmann",
-      "AssociateId": 84,
-      "Address": "quia",
-      "EmailId": 451,
+      "ContactId": 159,
+      "ContactName": "Hirthe-Koch",
+      "PersonId": 196,
+      "PersonName": "Hermann-Bradtke",
+      "AssociateId": 867,
+      "Address": "sit",
+      "EmailId": 977,
       "DuplicatePersonIds": [
-        887,
-        738
+        647,
+        225
       ],
-      "Name": "Gibson Inc and Sons",
+      "Name": "Senger, Sporer and Fritsch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldType": "System.String",
+          "FieldLength": 732
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 342,
-      "ContactName": "Abbott LLC",
-      "PersonId": 739,
-      "PersonName": "Shields Inc and Sons",
-      "AssociateId": 490,
-      "Address": "dolorum",
-      "EmailId": 409,
+      "ContactId": 250,
+      "ContactName": "Kilback Group",
+      "PersonId": 530,
+      "PersonName": "Connelly-Wuckert",
+      "AssociateId": 135,
+      "Address": "in",
+      "EmailId": 511,
       "DuplicatePersonIds": [
-        556,
-        405
+        279,
+        530
       ],
-      "Name": "Kirlin LLC",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 569
-        }
-      }
-    }
-  ],
-  "Subject": "ut",
-  "HTMLBody": "et",
-  "From": null,
-  "Sent": "2005-12-30T15:29:21.6998152+01:00",
-  "Size": 627,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "ratione",
-  "PlainBody": "facilis",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 812,
-  "Attachments": [
-    {
-      "Description": "Face to face client-driven database",
-      "Filename": "tenetur",
-      "Size": 695,
-      "Type": "qui",
-      "Encoding": "quo",
-      "Id": "dolorem",
-      "Disposition": "fuga",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Kessler Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldLength": 538
+        }
+      }
+    }
+  ],
+  "Subject": "eum",
+  "HTMLBody": "laboriosam",
+  "From": null,
+  "Sent": "2001-11-03T03:51:27.1779858+01:00",
+  "Size": 743,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "perferendis",
+  "PlainBody": "cupiditate",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 784,
+  "Attachments": [
+    {
+      "Description": "Assimilated zero tolerance application",
+      "Filename": "natus",
+      "Size": 58,
+      "Type": "itaque",
+      "Encoding": "quisquam",
+      "Id": "iure",
+      "Disposition": "tempora",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 281
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Larkin-Wisozk",
+      "Name": "Baumbach-Kihn",
       "Values": [
-        "sint",
-        "nisi"
+        "quis",
+        "ea"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldType": "System.Int32",
+          "FieldLength": 185
         }
       }
     },
     {
-      "Name": "Larkin-Wisozk",
+      "Name": "Baumbach-Kihn",
       "Values": [
-        "sint",
-        "nisi"
+        "quis",
+        "ea"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldType": "System.Int32",
+          "FieldLength": 185
         }
       }
     }
   ],
-  "FolderName": "Rempel, Spinka and Hahn",
-  "EmailItemId": 558,
-  "AccountId": 6,
-  "ReceivedAt": "2006-09-18T15:29:21.7008124+02:00",
+  "FolderName": "Zieme-Reichel",
+  "EmailItemId": 28,
+  "AccountId": 444,
+  "ReceivedAt": "2013-12-28T03:51:27.1779858+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-01-03T15:29:21.7013122+01:00",
+  "RepliedAt": "2020-05-15T03:51:27.1779858+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 31
     }
   }
 }

@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 901
+  "TicketMessageEntityId": 768
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 687,
-    "Name": "Donnelly-Schmitt",
-    "ContentType": "qui",
-    "AttSize": 78,
+    "AttachmentId": 703,
+    "Name": "Bernhard-O'Kon",
+    "ContentType": "id",
+    "AttSize": 336,
     "InlineImage": false,
-    "ContentId": "dolorem",
-    "AuthKey": "atque",
+    "ContentId": "modi",
+    "AuthKey": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldLength": 967
       }
     }
   }

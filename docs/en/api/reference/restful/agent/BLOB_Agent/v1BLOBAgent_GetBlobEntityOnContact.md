@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 997
+  "ContactId": 478
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 56,
-  "BlobSize": 626,
-  "Description": "Polarised national benchmark",
-  "ExtraInfo": "sint",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "consequuntur",
-  "OriginalSize": 995,
-  "CreatedDate": "2005-02-17T15:29:20.8522889+01:00",
-  "UpdatedDate": "2018-04-19T15:29:20.8522889+02:00",
+  "BlobId": 556,
+  "BlobSize": 685,
+  "Description": "Stand-alone mobile archive",
+  "ExtraInfo": "consequatur",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "aspernatur",
+  "OriginalSize": 788,
+  "CreatedDate": "2004-09-09T03:51:26.6312416+02:00",
+  "UpdatedDate": "1998-02-09T03:51:26.6312416+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "corporis",
+  "ConceptualType": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 127
     }
   }
 }

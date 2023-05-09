@@ -74,17 +74,17 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 275,
-  "Name": "Schaefer-Sipes",
-  "Tooltip": "natus",
-  "Rank": 386,
-  "Rate": 12047.096,
-  "Units": 10730.815999999999,
-  "Deleted": true
+  "CurrencyId": 383,
+  "Name": "Bosco-Little",
+  "Tooltip": "esse",
+  "Rank": 456,
+  "Rate": 29713.453999999998,
+  "Units": 11692.954,
+  "Deleted": false
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 212,
-  "Name": "Beatty-Orn",
-  "Tooltip": "iusto",
-  "Rank": 61,
-  "Rate": 16190.243999999999,
-  "Units": 26422.754,
+  "CurrencyId": 800,
+  "Name": "Labadie-O'Keefe",
+  "Tooltip": "amet",
+  "Rank": 153,
+  "Rate": 17089.702,
+  "Units": 501.44,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 938
     }
   }
 }

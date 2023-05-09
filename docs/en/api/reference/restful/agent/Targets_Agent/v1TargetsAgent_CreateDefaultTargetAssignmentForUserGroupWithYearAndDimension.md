@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 833,
-  "Year": 55,
-  "TargetDimensionId": 258
+  "UserGroupId": 860,
+  "Year": 932,
+  "TargetDimensionId": 467
 }
 ```
 
@@ -100,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 680,
+    "TargetAssignmentInfoId": 170,
     "Values": [
-      528,
-      215
+      858,
+      375
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 126,
-    "DimensionListItemDisplayName": "Oberbrunner Inc and Sons",
+    "DimensionListItem": 868,
+    "DimensionListItemDisplayName": "Hermann Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 443
+        "FieldType": "System.String",
+        "FieldLength": 902
       }
     }
   }

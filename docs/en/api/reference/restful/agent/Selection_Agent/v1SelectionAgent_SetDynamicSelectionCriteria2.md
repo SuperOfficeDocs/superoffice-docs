@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 852,
-  "Filter": "asperiores"
+  "SelectionId": 813,
+  "Filter": "voluptatem"
 }
 ```
 
@@ -99,44 +99,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Spinka-Bernier",
-    "Operator": "maiores",
+    "Name": "Marvin, Reilly and Predovic",
+    "Operator": "fugiat",
     "Values": [
-      "tenetur",
-      "temporibus"
+      "enim",
+      "consequatur"
     ],
     "DisplayValues": [
       "provident",
-      "amet"
+      "repellendus"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Lubowitz, Cruickshank and Kautzer",
-        "Operator": "placeat",
+        "Name": "Beatty-Schoen",
+        "Operator": "fuga",
         "Values": [
-          "ducimus",
-          "officia"
+          "voluptates",
+          "sed"
         ],
         "DisplayValues": [
-          "dolorum",
-          "beatae"
+          "repudiandae",
+          "facere"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 949,
+        "InterParenthesis": 315,
         "InterOperator": "And",
-        "UniqueHash": 261
+        "UniqueHash": 248
       }
     ],
-    "InterParenthesis": 714,
+    "InterParenthesis": 564,
     "InterOperator": "And",
-    "UniqueHash": 268
+    "UniqueHash": 871
   }
 ]
 ```

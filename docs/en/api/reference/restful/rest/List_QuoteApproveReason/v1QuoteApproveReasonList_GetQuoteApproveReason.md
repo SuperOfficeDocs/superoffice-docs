@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 668,
-  "Name": "Homenick, Schuster and Pagac",
-  "Tooltip": "ut",
+  "Id": 563,
+  "Name": "Haag, Langworth and Keebler",
+  "Tooltip": "asperiores",
   "Deleted": true,
-  "UdListDefinitionId": 570,
-  "Rank": 379,
+  "UdListDefinitionId": 246,
+  "Rank": 456,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldType": "System.String",
+      "FieldLength": 670
     }
   }
 }

@@ -89,20 +89,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 515,
-  "AssociateId": 390,
-  "Block": "quisquam",
-  "Registered": "2017-03-20T15:29:30.6209875+01:00",
-  "RegisteredAssociateId": 69,
-  "Updated": "2002-02-28T15:29:30.6209875+01:00",
-  "UpdatedAssociateId": 465,
-  "UpdatedCount": 279,
+  "ShipmentMessageBlockId": 712,
+  "AssociateId": 961,
+  "Block": "velit",
+  "Registered": "2019-05-07T03:51:34.0208828+02:00",
+  "RegisteredAssociateId": 293,
+  "Updated": "1998-02-23T03:51:34.0208828+01:00",
+  "UpdatedAssociateId": 713,
+  "UpdatedCount": 691,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 337
     }
   },
   "_Links": {

@@ -29,7 +29,7 @@ Writes content in stream to document template file
 | pluginId | int32 |  Plugin to use for storing document content. 0 = SOARC. Use -1 to use the plugin specified in the template. |
 
 ```http
-PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=890
+PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=987
 ```
 
 
@@ -76,7 +76,7 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,10 +86,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Veum Inc and Sons",
-  "Description": "Integrated neutral methodology",
-  "ExternalReference": "aut",
-  "MimeType": "molestiae",
-  "PluginId": 226
+  "Name": "Luettgen Inc and Sons",
+  "Description": "Re-engineered leading edge database",
+  "ExternalReference": "assumenda",
+  "MimeType": "nisi",
+  "PluginId": 360
 }
 ```

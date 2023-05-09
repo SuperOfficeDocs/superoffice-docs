@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 730,
-  "TargetDimensionId": 166
+  "UserGroupId": 858,
+  "TargetDimensionId": 55
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 262,
+    "TargetAssignmentInfoId": 29,
     "Values": [
-      477,
-      631
+      161,
+      514
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 911,
-    "DimensionListItemDisplayName": "Carroll LLC",
+    "DimensionListItem": 544,
+    "DimensionListItemDisplayName": "Littel Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 870
+        "FieldType": "System.Int32",
+        "FieldLength": 180
       }
     }
   }

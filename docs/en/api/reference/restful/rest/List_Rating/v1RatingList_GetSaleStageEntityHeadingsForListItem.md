@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 471,
-    "Name": "Gleason-Wolf",
-    "ToolTip": "Voluptates magnam sit autem et hic.",
-    "Deleted": true,
-    "Rank": 761,
-    "Type": "perspiciatis",
-    "ColorBlock": 531,
-    "IconHint": "ducimus",
+    "Id": 132,
+    "Name": "Mueller Group",
+    "ToolTip": "In veniam error saepe tempora est.",
+    "Deleted": false,
+    "Rank": 992,
+    "Type": "temporibus",
+    "ColorBlock": 355,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2007-09-14T15:29:31.5179736+02:00",
+    "LastChanged": "2018-09-10T03:51:34.8957999+02:00",
     "ChildItems": [
       {
-        "Id": 303,
-        "Name": "Ledner Group",
-        "ToolTip": "Similique facere laboriosam quo ea voluptas reiciendis.",
+        "Id": 75,
+        "Name": "Jones LLC",
+        "ToolTip": "Autem magnam optio architecto accusantium totam recusandae.",
         "Deleted": false,
-        "Rank": 605,
-        "Type": "praesentium",
-        "ColorBlock": 775,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2023-03-25T15:29:31.5179736+01:00",
+        "Rank": 846,
+        "Type": "ut",
+        "ColorBlock": 778,
+        "IconHint": "beatae",
+        "Selected": true,
+        "LastChanged": "2013-05-02T03:51:34.8957999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "nisi",
-        "Hidden": false,
-        "FullName": "Mrs. Bernardo Clifford Ritchie IV",
+        "ExtraInfo": "sit",
+        "StyleHint": "atque",
+        "Hidden": true,
+        "FullName": "Ms. Cary Powlowski MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 390
+            "FieldType": "System.String",
+            "FieldLength": 693
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "fuga",
+    "StyleHint": "distinctio",
     "Hidden": true,
-    "FullName": "Bertram Satterfield",
+    "FullName": "Terrell McCullough",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 96
+        "FieldType": "System.Int32",
+        "FieldLength": 430
       }
     }
   }

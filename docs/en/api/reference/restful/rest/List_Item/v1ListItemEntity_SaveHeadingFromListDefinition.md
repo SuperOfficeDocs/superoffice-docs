@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 142,
-  "Name": "Orn LLC",
-  "Tooltip": "nobis",
+  "HeadingId": 215,
+  "Name": "O'Conner Group",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 487,
-  "UdListDefinitionId": 312
+  "Rank": 730,
+  "UdListDefinitionId": 866
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 454,
-  "Name": "Harber, Rogahn and Waelchi",
-  "Tooltip": "aliquid",
+  "HeadingId": 754,
+  "Name": "Denesik, Moore and Koch",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 835,
-  "UdListDefinitionId": 788,
+  "Rank": 15,
+  "UdListDefinitionId": 674,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldLength": 866
     }
   }
 }

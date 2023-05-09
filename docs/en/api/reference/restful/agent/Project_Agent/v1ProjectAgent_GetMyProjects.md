@@ -95,7 +95,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 319,
-    "Name": "Nikolaus, Pfeffer and Langosh",
-    "Description": "Centralized contextually-based framework",
+    "ProjectId": 231,
+    "Name": "O'Conner-Swaniawski",
+    "Description": "Decentralized grid-enabled knowledge base",
     "URL": "http://www.example.com/",
-    "Type": "nam",
-    "AssociateId": 554,
-    "AssociateFullName": "Dorian McKenzie",
-    "TypeId": 168,
-    "Updated": "2005-12-21T15:29:22.4837662+01:00",
-    "StatusId": 108,
-    "Status": "quia",
-    "TextId": 807,
-    "PublishTo": "2007-01-28T15:29:22.4837662+01:00",
-    "PublishFrom": "2005-02-28T15:29:22.4837662+01:00",
+    "Type": "velit",
+    "AssociateId": 431,
+    "AssociateFullName": "Dr. Janelle Bahringer",
+    "TypeId": 700,
+    "Updated": "2017-09-27T03:51:27.943438+02:00",
+    "StatusId": 106,
+    "Status": "harum",
+    "TextId": 485,
+    "PublishTo": "2010-01-10T03:51:27.943438+01:00",
+    "PublishFrom": "2003-09-07T03:51:27.943438+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1199893",
-    "ActiveErpLinks": 147,
+    "ProjectNumber": "1176023",
+    "ActiveErpLinks": 599,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 931
+        "FieldLength": 362
       }
     }
   }

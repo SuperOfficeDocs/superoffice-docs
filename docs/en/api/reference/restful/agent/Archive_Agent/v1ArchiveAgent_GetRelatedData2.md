@@ -79,9 +79,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "suscipit",
-  "RecordId": 458,
-  "Fields": "porro"
+  "Table": "adipisci",
+  "RecordId": 647,
+  "Fields": "dolores"
 }
 ```
 
@@ -93,11 +93,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "fugit",
+    "Field": "unde",
     "FieldValue": null
   },
   {
-    "Field": "fugit",
+    "Field": "unde",
     "FieldValue": null
   }
 ]

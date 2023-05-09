@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "King-Lubowitz",
-    "Id": 76,
-    "Description": "Integrated grid-enabled workforce",
-    "ExtraInfo": "sapiente",
-    "LinkId": 986,
+    "EntityName": "Cartwright LLC",
+    "Id": 989,
+    "Description": "Diverse uniform help-desk",
+    "ExtraInfo": "quo",
+    "LinkId": 238,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 776
+        "FieldType": "System.Int32",
+        "FieldLength": 425
       }
     }
   }

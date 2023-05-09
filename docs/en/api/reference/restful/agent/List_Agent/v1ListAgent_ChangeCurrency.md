@@ -73,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 25391.667999999998,
-  "FromCurrency": "omnis",
-  "ToCurrency": "ipsa"
+  "Amount": 25015.588,
+  "FromCurrency": "natus",
+  "ToCurrency": "natus"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-1043.622
+19411.996
 ```

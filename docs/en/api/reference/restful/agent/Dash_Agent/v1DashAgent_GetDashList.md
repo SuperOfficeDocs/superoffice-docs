@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    757,
-    378
+    521,
+    157
   ]
 }
 ```
@@ -103,37 +103,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 391,
-    "UniqueId": "enim",
-    "Name": "Balistreri LLC",
-    "Description": "Open-architected directional Graphic Interface",
-    "AssociateId": 306,
-    "Columns": 483,
+    "DashboardId": 663,
+    "UniqueId": "sed",
+    "Name": "Altenwerth LLC",
+    "Description": "Seamless mission-critical application",
+    "AssociateId": 471,
+    "Columns": 692,
     "Theme": null,
-    "VisibleForAll": 493,
+    "VisibleForAll": 923,
     "VisibleForAssociates": [
-      670,
-      202
+      444,
+      784
     ],
     "VisibleForGroups": [
-      636,
-      736
+      958,
+      441
     ],
-    "PinForAll": 940,
+    "PinForAll": 734,
     "PinForAssociates": [
-      967,
-      730
+      371,
+      709
     ],
     "PinForGroups": [
-      657,
-      330
+      857,
+      531
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

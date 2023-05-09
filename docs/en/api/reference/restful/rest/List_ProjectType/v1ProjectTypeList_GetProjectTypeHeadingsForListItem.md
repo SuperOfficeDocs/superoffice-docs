@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Jast LLC",
-    "ToolTip": "Et placeat.",
-    "Deleted": false,
-    "Rank": 173,
-    "Type": "beatae",
-    "ColorBlock": 392,
+    "Id": 562,
+    "Name": "Crooks LLC",
+    "ToolTip": "Recusandae adipisci expedita dolore vel ut.",
+    "Deleted": true,
+    "Rank": 929,
+    "Type": "sequi",
+    "ColorBlock": 994,
     "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2019-05-14T15:29:31.4679765+02:00",
+    "LastChanged": "2014-01-07T03:51:34.8489374+01:00",
     "ChildItems": [
       {
-        "Id": 871,
-        "Name": "Reilly LLC",
-        "ToolTip": "Et praesentium possimus ipsum.",
+        "Id": 267,
+        "Name": "Stokes LLC",
+        "ToolTip": "Nemo illo rerum est a.",
         "Deleted": false,
-        "Rank": 587,
-        "Type": "qui",
-        "ColorBlock": 685,
-        "IconHint": "esse",
+        "Rank": 663,
+        "Type": "minima",
+        "ColorBlock": 952,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2014-08-22T15:29:31.4679765+02:00",
+        "LastChanged": "2020-01-30T03:51:34.8489374+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "repellat",
-        "Hidden": false,
-        "FullName": "Dr. Cory Spencer Jr.",
+        "ExtraInfo": "et",
+        "StyleHint": "explicabo",
+        "Hidden": true,
+        "FullName": "Mrs. Hoyt Ernser DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 148
+            "FieldType": "System.Int32",
+            "FieldLength": 465
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "quos",
-    "Hidden": true,
-    "FullName": "Dexter Strosin II",
+    "ExtraInfo": "commodi",
+    "StyleHint": "ipsa",
+    "Hidden": false,
+    "FullName": "Roslyn Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 191
+        "FieldType": "System.Int32",
+        "FieldLength": 273
       }
     }
   }

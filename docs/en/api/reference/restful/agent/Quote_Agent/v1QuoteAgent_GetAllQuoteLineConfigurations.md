@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,21 +83,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 218,
-    "FieldName": "White, Collier and Mante",
-    "Label": "sint",
+    "QuoteLineConfigurationId": 95,
+    "FieldName": "Senger, Pfannerstill and Turcotte",
+    "Label": "tenetur",
     "Tooltip": "quas",
-    "Editable": false,
+    "Editable": true,
     "InUse": false,
-    "Mandatory": false,
-    "Rank": 852,
-    "RestrictEdit": true,
+    "Mandatory": true,
+    "Rank": 415,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 233
+        "FieldLength": 873
       }
     }
   }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 909
+  "ProjectId": 281
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 48,
-  "ValidPostalAddresses": 586,
-  "ValidEmailAddresses": 247,
-  "ValidFaxNumbers": 836,
-  "NoAddresses": 546,
-  "NoFaxOrEmails": 999,
+  "Total": 380,
+  "ValidPostalAddresses": 823,
+  "ValidEmailAddresses": 355,
+  "ValidFaxNumbers": 195,
+  "NoAddresses": 764,
+  "NoFaxOrEmails": 731,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 695
+      "FieldType": "System.Int32",
+      "FieldLength": 464
     }
   }
 }

@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 965,
-  "DefaultValue": "quasi",
+  "ErpFieldId": 374,
+  "DefaultValue": "sit",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "iusto",
+  "FirstSyncDefaultValue": "qui",
   "PromptUser": true,
-  "Mandatory": false,
-  "ErpFieldKey": "et",
+  "Mandatory": true,
+  "ErpFieldKey": "illo",
   "FieldType": "Checkbox",
-  "ListName": "Gorczany Inc and Sons",
+  "ListName": "Hilpert, Berge and Lesch",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 22
     }
   }
 }

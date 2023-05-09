@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Cole, Rohan and Johns",
-    "ToolTip": "Omnis ratione.",
+    "Id": 320,
+    "Name": "Green LLC",
+    "ToolTip": "Totam quam quasi et.",
     "Deleted": false,
-    "Rank": 793,
-    "Type": "excepturi",
-    "ColorBlock": 271,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "2010-09-07T15:29:31.4179768+02:00",
+    "Rank": 144,
+    "Type": "in",
+    "ColorBlock": 999,
+    "IconHint": "amet",
+    "Selected": true,
+    "LastChanged": "2017-06-26T03:51:34.8176965+02:00",
     "ChildItems": [
       {
-        "Id": 611,
-        "Name": "Cormier LLC",
-        "ToolTip": "A ullam quisquam repellendus qui deserunt.",
-        "Deleted": false,
-        "Rank": 984,
-        "Type": "odio",
-        "ColorBlock": 282,
-        "IconHint": "ex",
+        "Id": 908,
+        "Name": "Leffler LLC",
+        "ToolTip": "Nisi doloremque ipsa ea perferendis eum.",
+        "Deleted": true,
+        "Rank": 205,
+        "Type": "esse",
+        "ColorBlock": 160,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2005-10-24T15:29:31.4184804+02:00",
+        "LastChanged": "2013-02-19T03:51:34.8176965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "iure",
+        "StyleHint": "eum",
         "Hidden": true,
-        "FullName": "Miss Edythe Larissa Wilderman Jr.",
+        "FullName": "Maxime Sauer DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 938
+            "FieldLength": 352
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "ad",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "molestiae",
     "Hidden": true,
-    "FullName": "Shawna Frami",
+    "FullName": "Ms. Vinnie Kurtis Botsford DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldLength": 276
       }
     }
   }

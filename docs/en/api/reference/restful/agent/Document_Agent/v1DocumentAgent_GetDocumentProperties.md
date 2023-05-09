@@ -74,10 +74,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 346,
+  "DocumentId": 381,
   "RequestedProperties": [
-    "ipsam",
-    "asperiores"
+    "nesciunt",
+    "sunt"
   ]
 }
 ```
@@ -89,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dignissimos",
-  "2": "fuga"
+  "1": "adipisci",
+  "2": "temporibus"
 }
 ```

@@ -92,7 +92,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 63,
-  "ColumnId": 522,
-  "FieldDefault": "mollitia",
-  "FieldHeight": 238,
-  "FieldLabel": "corporis",
-  "FieldLeft": 904,
-  "FieldTop": 993,
+  "UDefFieldId": 96,
+  "ColumnId": 321,
+  "FieldDefault": "debitis",
+  "FieldHeight": 393,
+  "FieldLabel": "et",
+  "FieldLeft": 681,
+  "FieldTop": 367,
   "FieldType": "Checkbox",
-  "FieldWidth": 491,
-  "FormatMask": "iste",
+  "FieldWidth": 722,
+  "FormatMask": "qui",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 347,
-  "LabelLeft": 199,
-  "LabelTop": 915,
-  "LabelWidth": 527,
-  "LastVersionId": 877,
-  "ListTableId": 187,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 25,
+  "LabelLeft": 554,
+  "LabelTop": 471,
+  "LabelWidth": 893,
+  "LastVersionId": 14,
+  "ListTableId": 611,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 663,
-  "ProgId": "qui",
+  "Page1LineNo": 313,
+  "ProgId": "debitis",
   "IsReadOnly": false,
-  "ShortLabel": "placeat",
-  "TabOrder": 993,
-  "TextLength": 743,
-  "Tooltip": "repellat",
-  "UdefIdentity": 552,
-  "UDListDefinitionId": 524,
+  "ShortLabel": "eos",
+  "TabOrder": 735,
+  "TextLength": 864,
+  "Tooltip": "eveniet",
+  "UdefIdentity": 65,
+  "UDListDefinitionId": 784,
   "Justification": "Center",
-  "Version": 921,
-  "TemplateVariableName": "Leannon Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Ernser, Lang and Deckow",
+  "Version": 916,
+  "TemplateVariableName": "Romaguera Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Emmerich, Kunde and Corkery",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldType": "System.String",
+      "FieldLength": 407
     }
   }
 }

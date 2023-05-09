@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SaleStakeholder?$select=name,department,category/id
 GET /api/v1/SaleStakeholder?$filter=name begins 'S'
 GET /api/v1/SaleStakeholder?$orderBy=name asc
-GET /api/v1/SaleStakeholder?$entities=voluptatem
-GET /api/v1/SaleStakeholder?$top=351
-GET /api/v1/SaleStakeholder?$skip=417
+GET /api/v1/SaleStakeholder?$entities=et
+GET /api/v1/SaleStakeholder?$top=905
+GET /api/v1/SaleStakeholder?$skip=593
 GET /api/v1/SaleStakeholder?$mode=Full
 GET /api/v1/SaleStakeholder?$options=GrandTotal=true
-GET /api/v1/SaleStakeholder?$context=distinctio
+GET /api/v1/SaleStakeholder?$context=minus
 GET /api/v1/SaleStakeholder?$format=JSON
 GET /api/v1/SaleStakeholder?$jsonSafe=False
 GET /api/v1/SaleStakeholder?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "consequuntur",
+  "odata.nextLink": "dolorum",
   "value": [
     {
-      "PrimaryKey": 9201,
+      "PrimaryKey": 9727,
       "EntityName": "sale",
-      "saleId": 9201,
-      "contactId": 3372,
-      "name": "Willms Group"
+      "saleId": 9727,
+      "contactId": 8235,
+      "name": "Donnelly Group"
     },
     {
-      "PrimaryKey": 7473,
+      "PrimaryKey": 5731,
       "EntityName": "sale",
-      "saleId": 7473,
-      "contactId": 6712,
-      "name": "Reilly LLC"
+      "saleId": 5731,
+      "contactId": 6238,
+      "name": "Doyle, Koss and Treutel"
     }
   ]
 }

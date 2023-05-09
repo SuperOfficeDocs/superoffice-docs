@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 658,
-  "Name": "Durgan, Legros and Hilpert",
-  "ContentType": "ut",
-  "AttSize": 604,
-  "InlineImage": false,
-  "ContentId": "aut",
-  "AuthKey": "nam",
+  "AttachmentId": 654,
+  "Name": "Walter-Carroll",
+  "ContentType": "mollitia",
+  "AttSize": 377,
+  "InlineImage": true,
+  "ContentId": "vero",
+  "AuthKey": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldType": "System.String",
+      "FieldLength": 719
     }
   }
 }

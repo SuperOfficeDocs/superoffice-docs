@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 165,
-  "Name": "Legros-Moen",
-  "Tooltip": "enim",
+  "Id": 916,
+  "Name": "Streich Group",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 567,
-  "Rank": 285
+  "UdListDefinitionId": 512,
+  "Rank": 319
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 629,
-  "Name": "Rippin, Bernier and Berge",
-  "Tooltip": "autem",
+  "Id": 828,
+  "Name": "Purdy, Emmerich and Erdman",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "UdListDefinitionId": 17,
-  "Rank": 692,
+  "UdListDefinitionId": 623,
+  "Rank": 956,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 146
     }
   }
 }

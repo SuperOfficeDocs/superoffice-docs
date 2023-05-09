@@ -86,30 +86,30 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 79,
-  "Name": "Walsh, Watsica and Mayer",
+  "WebhookId": 115,
+  "Name": "Weimann-Williamson",
   "Events": [
-    "non",
-    "dolor"
+    "voluptate",
+    "soluta"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "possimus",
+  "Secret": "veritatis",
   "State": "Active",
-  "Type": "sapiente",
+  "Type": "sed",
   "Headers": {
-    "Headers1": "nesciunt",
-    "Headers2": "alias"
+    "Headers1": "quo",
+    "Headers2": "autem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2019-01-29T15:29:23.441288+01:00",
+  "Registered": "2009-08-05T03:51:28.5526663+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-05-21T15:29:23.4417878+02:00",
+  "Updated": "1999-11-20T03:51:28.5526663+01:00",
   "UpdatedAssociate": null
 }
 ```
@@ -121,26 +121,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 972,
-  "Name": "Christiansen, McClure and Kris",
+  "WebhookId": 428,
+  "Name": "Larson-Welch",
   "Events": [
-    "nihil",
-    "sit"
+    "vero",
+    "amet"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "velit",
+  "Secret": "voluptas",
   "State": "Active",
-  "Type": "omnis",
+  "Type": "qui",
   "Headers": {
-    "Headers1": "temporibus",
-    "Headers2": "voluptatem"
+    "Headers1": "est",
+    "Headers2": "iusto"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-07-03T15:29:23.4432942+02:00",
+  "Registered": "2004-10-07T03:51:28.5526663+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-07-04T15:29:23.4432942+02:00",
+  "Updated": "2016-12-13T03:51:28.5526663+01:00",
   "UpdatedAssociate": null
 }
 ```

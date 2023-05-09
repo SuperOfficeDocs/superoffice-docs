@@ -116,18 +116,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ipsam",
+    "path": "porro",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsam",
+    "path": "porro",
     "value": {}
   }
 ]
@@ -140,22 +140,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 930,
-  "ERPPriceListKey": "accusamus",
-  "QuoteConnectionId": 763,
-  "Name": "Lemke-Mosciski",
-  "Description": "Stand-alone intangible Graphical User Interface",
-  "Currency": "est",
-  "CurrencyName": "Mraz LLC",
-  "ValidFrom": "1996-10-27T15:29:31.371977+01:00",
-  "ValidTo": "2008-03-21T15:29:31.371977+01:00",
+  "PriceListId": 583,
+  "ERPPriceListKey": "veniam",
+  "QuoteConnectionId": 106,
+  "Name": "McClure LLC",
+  "Description": "Team-oriented composite capacity",
+  "Currency": "non",
+  "CurrencyName": "Mayert LLC",
+  "ValidFrom": "1996-05-27T03:51:34.7708309+02:00",
+  "ValidTo": "2013-02-17T03:51:34.7708309+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldLength": 470
     }
   },
   "_Links": {

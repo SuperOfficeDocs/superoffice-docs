@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Raynor-Bahringer",
-  "ParameterName": "McCullough Group"
+  "LayoutName": "Corkery Inc and Sons",
+  "ParameterName": "Cremin, Ortiz and Orn"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 469,
-  "Name": "Abernathy Group",
-  "Value": "consequatur",
-  "CreatedDate": "2000-06-22T15:29:20.8072889+02:00",
-  "UpdatedDate": "2016-12-09T15:29:20.8072889+01:00",
-  "CreatedBy": "ad",
-  "UpdatedBy": "sint",
+  "AudienceLayoutId": 598,
+  "Name": "Brakus, Abshire and Turner",
+  "Value": "velit",
+  "CreatedDate": "2020-01-24T03:51:26.5999985+01:00",
+  "UpdatedDate": "2020-02-12T03:51:26.5999985+01:00",
+  "CreatedBy": "necessitatibus",
+  "UpdatedBy": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 127
     }
   }
 }

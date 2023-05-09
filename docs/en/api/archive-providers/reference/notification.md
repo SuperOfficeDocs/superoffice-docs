@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Notification"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -54,6 +54,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |invitedPersonId| *None* |!!invitedPersonId|  |
 |isSeen| *None* |!!isSeen|  |
 |hasConflict| *None* |!!hasConflict|  |
+|recurrencePattern| *None* |!!recurrencePattern|  |
+|rejectReason| *None* |!!rejectReason|  |
 |ticketId| *None* |!!ticketId|  |
 |category| *None* |!!category|  |
 |customUrl| *None* |!!customUrl|  |
@@ -61,7 +63,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Notification?$select=title,endDateTime
+GET /api/v1/archive/Notification?$select=updateType,location
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

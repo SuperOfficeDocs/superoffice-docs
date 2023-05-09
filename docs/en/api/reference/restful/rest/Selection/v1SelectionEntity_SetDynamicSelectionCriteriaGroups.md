@@ -72,63 +72,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bernhard-Hartmann",
-    "Description": "Function-based next generation algorithm",
-    "Rank": 159,
+    "Name": "Kertzmann LLC",
+    "Description": "De-engineered hybrid frame",
+    "Rank": 861,
     "Restrictions": [
       {
-        "Name": "Reichert Inc and Sons",
-        "Operator": "molestiae",
+        "Name": "Jerde, Fisher and Anderson",
+        "Operator": "in",
         "Values": [
-          "enim",
-          "quia"
+          "rerum",
+          "sint"
         ],
         "DisplayValues": [
-          "aut",
-          "exercitationem"
+          "voluptatem",
+          "explicabo"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 279,
+        "InterParenthesis": 564,
         "InterOperator": "And",
-        "UniqueHash": 271
+        "UniqueHash": 128
       }
     ]
   },
   {
-    "Name": "Bernhard-Hartmann",
-    "Description": "Function-based next generation algorithm",
-    "Rank": 159,
+    "Name": "Kertzmann LLC",
+    "Description": "De-engineered hybrid frame",
+    "Rank": 861,
     "Restrictions": [
       {
-        "Name": "Reichert Inc and Sons",
-        "Operator": "molestiae",
+        "Name": "Jerde, Fisher and Anderson",
+        "Operator": "in",
         "Values": [
-          "enim",
-          "quia"
+          "rerum",
+          "sint"
         ],
         "DisplayValues": [
-          "aut",
-          "exercitationem"
+          "voluptatem",
+          "explicabo"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 279,
+        "InterParenthesis": 564,
         "InterOperator": "And",
-        "UniqueHash": 271
+        "UniqueHash": 128
       }
     ]
   }
@@ -143,20 +143,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Douglas Inc and Sons",
-    "Description": "Monitored client-driven strategy",
-    "Rank": 176,
+    "Name": "Jewess Group",
+    "Description": "Reactive mobile framework",
+    "Rank": 646,
     "Restrictions": [
       {
-        "Name": "Huels Inc and Sons",
-        "Operator": "maiores",
+        "Name": "Jones Group",
+        "Operator": "odit",
         "Values": [
-          "assumenda",
-          "in"
+          "excepturi",
+          "aliquid"
         ],
         "DisplayValues": [
           "qui",
-          "soluta"
+          "ipsa"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -164,27 +164,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 51,
+        "InterParenthesis": 571,
         "InterOperator": "And",
-        "UniqueHash": 409
+        "UniqueHash": 257
       }
     ]
   },
   {
-    "Name": "Douglas Inc and Sons",
-    "Description": "Monitored client-driven strategy",
-    "Rank": 176,
+    "Name": "Jewess Group",
+    "Description": "Reactive mobile framework",
+    "Rank": 646,
     "Restrictions": [
       {
-        "Name": "Huels Inc and Sons",
-        "Operator": "maiores",
+        "Name": "Jones Group",
+        "Operator": "odit",
         "Values": [
-          "assumenda",
-          "in"
+          "excepturi",
+          "aliquid"
         ],
         "DisplayValues": [
           "qui",
-          "soluta"
+          "ipsa"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -192,9 +192,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 51,
+        "InterParenthesis": 571,
         "InterOperator": "And",
-        "UniqueHash": 409
+        "UniqueHash": 257
       }
     ]
   }

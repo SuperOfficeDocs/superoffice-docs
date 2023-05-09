@@ -25,7 +25,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=253
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=124
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "provident",
+  "SaleText": "quia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -134,113 +134,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-07-20T15:29:22.7017986+02:00",
-  "Amount": 11642.81,
-  "SaleId": 813,
-  "Earning": 28682.368,
-  "EarningPercent": 13347.706,
-  "Heading": "eius",
-  "Number": "787562",
-  "Probability": 174,
-  "CreatedDate": "2005-02-09T15:29:22.7017986+01:00",
-  "UpdatedDate": "2008-06-11T15:29:22.7017986+02:00",
+  "Saledate": "2023-03-27T03:51:28.1152684+02:00",
+  "Amount": 8295.698,
+  "SaleId": 728,
+  "Earning": 18615.96,
+  "EarningPercent": 29747.928,
+  "Heading": "delectus",
+  "Number": "483494",
+  "Probability": 169,
+  "CreatedDate": "1996-09-01T03:51:28.1152684+02:00",
+  "UpdatedDate": "2012-07-07T03:51:28.1152684+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 192,
+  "ActiveLinks": 872,
   "Links": [
     {
-      "EntityName": "Block, Wiza and Schoen",
-      "Id": 32,
-      "Description": "Pre-emptive object-oriented workforce",
-      "ExtraInfo": "blanditiis",
-      "LinkId": 467,
+      "EntityName": "Kutch, Pagac and Jacobs",
+      "Id": 867,
+      "Description": "Focused cohesive implementation",
+      "ExtraInfo": "pariatur",
+      "LinkId": 53,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 828
+          "FieldType": "System.Int32",
+          "FieldLength": 331
         }
       }
     }
   ],
-  "NextDueDate": "2016-09-02T15:29:22.7023006+02:00",
-  "Postit": "ratione",
+  "NextDueDate": "2017-07-23T03:51:28.1152684+02:00",
+  "Postit": "cupiditate",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-10-02T15:29:22.7023006+02:00",
+  "ReopenDate": "2009-09-27T03:51:28.1152684+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Green, Denesik and Shields",
-      "Comment": "dolor",
-      "StakeholderRoleId": 776,
-      "CountryId": 732,
-      "PersonId": 476,
-      "EmailDescription": "kamille@hegmann.name",
-      "EmailId": 903,
-      "EmailAddress": "eldred_oreilly@oreillylubowitz.info",
-      "PhoneId": 829,
-      "ContactName": "Douglas Group",
-      "ContactId": 37,
-      "SaleId": 503,
-      "Mrmrs": "debitis",
-      "Firstname": "Braulio",
-      "MiddleName": "Jaskolski, Howe and Schmidt",
-      "Lastname": "Rodriguez",
-      "SaleStakeholderId": 977,
-      "Rank": 463,
-      "Phone": "840-861-3560",
+      "StakeholderRoleName": "Sanford Group",
+      "Comment": "repudiandae",
+      "StakeholderRoleId": 166,
+      "CountryId": 489,
+      "PersonId": 898,
+      "EmailDescription": "brooks@luettgenhyatt.name",
+      "EmailId": 952,
+      "EmailAddress": "caleb_bahringer@hammes.info",
+      "PhoneId": 881,
+      "ContactName": "Windler Inc and Sons",
+      "ContactId": 500,
+      "SaleId": 824,
+      "Mrmrs": "blanditiis",
+      "Firstname": "Isai",
+      "MiddleName": "Schneider-Mayert",
+      "Lastname": "Padberg",
+      "SaleStakeholderId": 819,
+      "Rank": 823,
+      "Phone": "683-160-6227 x7743",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 419
+          "FieldLength": 306
         }
       }
     }
   ],
-  "ActiveErpLinks": 584,
+  "ActiveErpLinks": 926,
   "UserDefinedFields": {
-    "SuperOffice:1": "293131512",
-    "SuperOffice:2": "Lonny Kuhlman"
+    "SuperOffice:1": "1361031325",
+    "SuperOffice:2": "1401806427"
   },
   "ExtraFields": {
-    "ExtraFields1": "mollitia",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "ex"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "eius",
+    "CustomFields2": "dicta"
   },
-  "PublishEventDate": "1999-02-27T15:29:22.7032982+01:00",
-  "PublishTo": "2000-11-15T15:29:22.7032982+01:00",
-  "PublishFrom": "2020-05-29T15:29:22.7032982+02:00",
+  "PublishEventDate": "2002-06-11T03:51:28.1152684+02:00",
+  "PublishTo": "2021-10-21T03:51:28.1152684+02:00",
+  "PublishFrom": "2020-06-23T03:51:28.1152684+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 258,
+      "VisibleId": 74,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 602
+          "FieldLength": 137
         }
       }
     },
     {
-      "VisibleId": 258,
+      "VisibleId": 74,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 602
+          "FieldLength": 137
         }
       }
     }
@@ -249,8 +249,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldType": "System.String",
+      "FieldLength": 603
     }
   }
 }

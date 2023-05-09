@@ -125,14 +125,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 51,
-  "StartTime": "1996-07-07T15:29:20.2038333+02:00",
-  "EndTime": "2005-07-18T15:29:20.2038333+02:00",
-  "Count": 293
+  "ContactId": 622,
+  "StartTime": "1996-12-29T03:51:26.0688614+01:00",
+  "EndTime": "2016-09-19T03:51:26.0688614+02:00",
+  "Count": 648
 }
 ```
 
@@ -144,61 +144,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 569,
-    "StartDate": "2007-08-16T15:29:20.223825+02:00",
-    "EndDate": "2012-09-05T15:29:20.223825+02:00",
+    "AppointmentId": 602,
+    "StartDate": "2001-09-10T03:51:26.0844949+02:00",
+    "EndDate": "2008-02-11T03:51:26.0844949+01:00",
     "Type": "BookingForChecklist",
-    "Task": "sunt",
-    "AssociateFullName": "Miss Barrett Grimes",
-    "ContactName": "Hagenes-Cassin",
-    "Description": "De-engineered bi-directional protocol",
-    "PersonFullName": "Noe Bednar Jr.",
-    "PersonId": 549,
-    "ContactId": 930,
-    "ProjectId": 174,
-    "ProjectName": "Wiza Inc and Sons",
+    "Task": "qui",
+    "AssociateFullName": "Dr. Dale Doyle",
+    "ContactName": "Dare LLC",
+    "Description": "Self-enabling 24/7 flexibility",
+    "PersonFullName": "Kole Treutel",
+    "PersonId": 21,
+    "ContactId": 500,
+    "ProjectId": 543,
+    "ProjectName": "Wiza LLC",
     "IsPublished": false,
-    "AssociateId": 531,
-    "ColorIndex": 770,
+    "AssociateId": 2,
+    "ColorIndex": 857,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 838,
-    "PriorityName": "Friesen Group",
+    "PriorityId": 903,
+    "PriorityName": "Abshire LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2009-01-28T15:29:20.2243247+01:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2021-07-14T03:51:26.0844949+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-07-08T15:29:20.2243247+02:00",
-    "RecurringEndDate": "2022-10-29T15:29:20.2243247+02:00",
-    "MotherId": 161,
-    "AssignedBy": 963,
-    "AssignedByFullName": "Dr. Myles Pfannerstill",
+    "RecurringStartDate": "2020-07-16T03:51:26.0844949+02:00",
+    "RecurringEndDate": "1996-01-16T03:51:26.0844949+01:00",
+    "MotherId": 367,
+    "AssignedBy": 810,
+    "AssignedByFullName": "Kellen Langworth",
     "RejectReason": "",
-    "Location": "perferendis",
-    "AlarmLeadTime": "ab",
-    "SaleId": 306,
-    "SaleName": "Funk-Crist",
-    "AssociateName": "Stark, Labadie and Thompson",
-    "CreatedDate": "2005-02-10T15:29:20.2248249+01:00",
-    "CreatedBy": "consectetur",
-    "CreatedByFullName": "Dr. Stephany Efrain Auer",
-    "CreatedByAssociateId": 975,
+    "Location": "dolor",
+    "AlarmLeadTime": "aut",
+    "SaleId": 370,
+    "SaleName": "Schmitt, Anderson and Parker",
+    "AssociateName": "Ziemann LLC",
+    "CreatedDate": "2020-05-16T03:51:26.0844949+02:00",
+    "CreatedBy": "at",
+    "CreatedByFullName": "Piper Vandervort PhD",
+    "CreatedByAssociateId": 895,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 806
+        "FieldType": "System.Int32",
+        "FieldLength": 969
       }
     }
   }

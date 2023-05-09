@@ -85,7 +85,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Zieme-Davis",
-  "SaleDate": "2008-04-11T15:29:30.5694885+02:00",
-  "SaleId": 945,
-  "Probability": 406,
-  "Title": "nostrum",
-  "Amount": 708.284,
-  "Currency": "nihil",
-  "ProjectName": "Gaylord Group",
-  "AssociateFullName": "Conrad Bogisich",
-  "Description": "Customer-focused grid-enabled focus group",
+  "ContactName": "Goodwin LLC",
+  "SaleDate": "2022-02-02T03:51:33.9740156+01:00",
+  "SaleId": 533,
+  "Probability": 956,
+  "Title": "quis",
+  "Amount": 6603.338,
+  "Currency": "dolorem",
+  "ProjectName": "Paucek, Rau and Wolff",
+  "AssociateFullName": "Richard Ruecker",
+  "Description": "Balanced didactic policy",
   "Status": "Lost",
-  "WeightedAmount": 14795.614,
-  "ProjectId": 651,
-  "EarningPercent": 18644.166,
-  "Earning": 28196.597999999998,
-  "ContactId": 834,
-  "AssociateId": 41,
-  "PersonId": 282,
-  "SaleTypeId": 803,
-  "SaleTypeName": "Maggio, Nikolaus and Lynch",
-  "PersonFullName": "Javon Wunsch",
+  "WeightedAmount": 30753.942,
+  "ProjectId": 522,
+  "EarningPercent": 15021.261999999999,
+  "Earning": 7060.902,
+  "ContactId": 290,
+  "AssociateId": 601,
+  "PersonId": 584,
+  "SaleTypeId": 864,
+  "SaleTypeName": "Harber, Batz and Powlowski",
+  "PersonFullName": "Rickey Lindgren",
   "Completed": "Completed",
-  "ActiveErpLinks": 205,
-  "NextDueDate": "1999-02-13T15:29:30.5699884+01:00",
-  "Number": "1230797",
+  "ActiveErpLinks": 711,
+  "NextDueDate": "2006-05-18T03:51:33.9740156+02:00",
+  "Number": "560873",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldType": "System.String",
+      "FieldLength": 382
     }
   }
 }

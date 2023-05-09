@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 613,
-  "Name": "Altenwerth-Schmitt",
-  "Tooltip": "architecto",
+  "Id": 824,
+  "Name": "Price Group",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 229,
-  "Rank": 75,
+  "UdListDefinitionId": 744,
+  "Rank": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 884
+      "FieldType": "System.Int32",
+      "FieldLength": 491
     }
   }
 }

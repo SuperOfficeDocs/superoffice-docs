@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 405
+  "DocumentId": 248
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 971,
-      "ContactName": "Spencer-Yost",
-      "PersonId": 718,
-      "PersonName": "Tillman-Nader",
-      "AssociateId": 914,
-      "Address": "saepe",
-      "EmailId": 596,
+      "ContactId": 609,
+      "ContactName": "Weimann Inc and Sons",
+      "PersonId": 927,
+      "PersonName": "Schumm Group",
+      "AssociateId": 772,
+      "Address": "ducimus",
+      "EmailId": 298,
       "DuplicatePersonIds": [
-        484,
-        55
+        362,
+        639
       ],
-      "Name": "Schoen Inc and Sons",
+      "Name": "VonRueden, Spinka and Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 871
+          "FieldType": "System.String",
+          "FieldLength": 923
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 631,
-      "ContactName": "Toy Group",
-      "PersonId": 773,
-      "PersonName": "Fisher Inc and Sons",
-      "AssociateId": 674,
-      "Address": "voluptatem",
-      "EmailId": 864,
+      "ContactId": 347,
+      "ContactName": "Beatty-Bergstrom",
+      "PersonId": 669,
+      "PersonName": "Marks, Cormier and Daniel",
+      "AssociateId": 874,
+      "Address": "ut",
+      "EmailId": 540,
       "DuplicatePersonIds": [
-        105,
-        374
+        372,
+        132
       ],
-      "Name": "Mraz, Pfeffer and Willms",
+      "Name": "Abbott Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 222
+          "FieldLength": 914
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 474,
-      "ContactName": "Pouros-Connelly",
-      "PersonId": 450,
-      "PersonName": "Mills-Cruickshank",
-      "AssociateId": 773,
-      "Address": "vitae",
-      "EmailId": 417,
+      "ContactId": 631,
+      "ContactName": "Leffler, Jerde and McCullough",
+      "PersonId": 601,
+      "PersonName": "Dooley, Raynor and Cormier",
+      "AssociateId": 778,
+      "Address": "enim",
+      "EmailId": 326,
       "DuplicatePersonIds": [
-        51,
-        909
+        804,
+        623
       ],
-      "Name": "Dietrich Group",
+      "Name": "Krajcik-Erdman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1000
+          "FieldType": "System.Int32",
+          "FieldLength": 143
         }
       }
     }
   ],
-  "Subject": "corporis",
-  "HTMLBody": "est",
+  "Subject": "distinctio",
+  "HTMLBody": "optio",
   "From": null,
-  "Sent": "2000-02-21T15:29:21.7842761+01:00",
-  "Size": 906,
+  "Sent": "2009-05-04T03:51:27.2404741+02:00",
+  "Size": 272,
   "Priority": "High",
   "Flags": "Answered",
   "MessageID": "nihil",
-  "PlainBody": "non",
-  "IsSent": false,
+  "PlainBody": "saepe",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 682,
+  "ServerId": 461,
   "Attachments": [
     {
-      "Description": "Inverse dynamic methodology",
-      "Filename": "deserunt",
-      "Size": 558,
-      "Type": "aut",
-      "Encoding": "porro",
-      "Id": "harum",
-      "Disposition": "ad",
+      "Description": "Distributed discrete functionalities",
+      "Filename": "minima",
+      "Size": 226,
+      "Type": "sint",
+      "Encoding": "libero",
+      "Id": "non",
+      "Disposition": "sit",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 268
+          "FieldLength": 263
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Yundt, Hamill and Stehr",
+      "Name": "Crist, Wehner and Reichel",
       "Values": [
-        "soluta",
-        "excepturi"
+        "quia",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldLength": 574
         }
       }
     },
     {
-      "Name": "Yundt, Hamill and Stehr",
+      "Name": "Crist, Wehner and Reichel",
       "Values": [
-        "soluta",
-        "excepturi"
+        "quia",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldLength": 574
         }
       }
     }
   ],
-  "FolderName": "Wyman, Hermiston and Miller",
-  "EmailItemId": 50,
-  "AccountId": 686,
-  "ReceivedAt": "2022-11-06T15:29:21.7847773+01:00",
+  "FolderName": "Nikolaus, Vandervort and Mayert",
+  "EmailItemId": 588,
+  "AccountId": 803,
+  "ReceivedAt": "2012-10-29T03:51:27.2404741+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-08-20T15:29:21.7847773+02:00",
+  "RepliedAt": "2003-05-08T03:51:27.2404741+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 32
     }
   }
 }

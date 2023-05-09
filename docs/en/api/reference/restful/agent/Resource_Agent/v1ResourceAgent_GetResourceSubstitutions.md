@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Hane-D'Amore",
-    "Beahan-King"
+    "Cremin Inc and Sons",
+    "McKenzie-Conroy"
   ],
-  "Culture": "expedita",
+  "Culture": "nisi",
   "ActiveOnly": true
 }
 ```
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Stoltenberg-Ruecker",
-    "ResourceValue": "maiores",
-    "Culture": "voluptate",
+    "ResourceName": "Rowe-Feil",
+    "ResourceValue": "quae",
+    "Culture": "placeat",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 575
       }
     }
   },
   {
-    "ResourceName": "Stoltenberg-Ruecker",
-    "ResourceValue": "maiores",
-    "Culture": "voluptate",
+    "ResourceName": "Rowe-Feil",
+    "ResourceValue": "quae",
+    "Culture": "placeat",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 575
       }
     }
   }

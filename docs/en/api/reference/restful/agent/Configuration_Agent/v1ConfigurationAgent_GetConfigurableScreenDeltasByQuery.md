@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 859,
-    "Name": "Zieme Group",
-    "Description": "Devolved executive adapter",
-    "DeltaJson": "sed",
+    "ConfigurableScreenDeltaId": 907,
+    "Name": "Ratke Group",
+    "Description": "Down-sized impactful knowledge user",
+    "DeltaJson": "placeat",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "quas",
-    "UpdatedDate": "2004-12-03T15:29:21.0407862+01:00",
-    "CreatedDate": "2014-05-01T15:29:21.0407862+02:00",
+    "RecipeId": "deleniti",
+    "UpdatedDate": "1998-02-12T03:51:26.787455+01:00",
+    "CreatedDate": "2003-12-06T03:51:26.787455+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      481,
-      148
+      818,
+      354
     ],
-    "AppliesToKey": "ab",
+    "AppliesToKey": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 821
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Value": "nostrum",
-    "Tooltip": "dolorum",
+    "Id": 983,
+    "Value": "neque",
+    "Tooltip": "commodi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 37
+        "FieldType": "System.Int32",
+        "FieldLength": 136
       }
     }
   },
   {
-    "Id": 810,
-    "Value": "nostrum",
-    "Tooltip": "dolorum",
+    "Id": 983,
+    "Value": "neque",
+    "Tooltip": "commodi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 37
+        "FieldType": "System.Int32",
+        "FieldLength": 136
       }
     }
   }

@@ -84,16 +84,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Turcotte, Baumbach and Franecki",
-  "DeviceName": "Gerlach, Reichert and Reichel",
-  "DeviceIdentifier": "quaerat",
-  "KeyName": "Erdman LLC",
-  "KeyValue": "quia",
-  "TableName": "Swaniawski-Breitenberg"
+  "ApplicationName": "Lubowitz-Sipes",
+  "DeviceName": "Stroman Inc and Sons",
+  "DeviceIdentifier": "in",
+  "KeyName": "Nolan LLC",
+  "KeyValue": "ullam",
+  "TableName": "Reinger, Johnson and Dickens"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "consectetur",
-  "Value": "facere",
-  "RecordId": 88,
-  "CreatedDate": "2003-06-30T15:29:21.9253117+02:00",
-  "UpdatedDate": "1997-07-21T15:29:21.9253117+02:00",
-  "UpdatedBy": "recusandae",
-  "CreatedBy": "soluta",
-  "TableName": "Hilll-Turner",
+  "Key": "provident",
+  "Value": "quaerat",
+  "RecordId": 390,
+  "CreatedDate": "2016-05-10T03:51:27.3498217+02:00",
+  "UpdatedDate": "2017-05-02T03:51:27.3498217+02:00",
+  "UpdatedBy": "distinctio",
+  "CreatedBy": "saepe",
+  "TableName": "Cremin, Kris and Beier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldLength": 651
     }
   }
 }

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 388,
-    "Name": "McCullough, Hilpert and Larson",
-    "ToolTip": "Voluptatibus eligendi.",
-    "Deleted": true,
-    "Rank": 548,
-    "Type": "id",
-    "ColorBlock": 423,
-    "IconHint": "qui",
+    "Id": 745,
+    "Name": "Huels, Vandervort and Quitzon",
+    "ToolTip": "Omnis velit aut iusto autem ratione unde.",
+    "Deleted": false,
+    "Rank": 662,
+    "Type": "atque",
+    "ColorBlock": 702,
+    "IconHint": "debitis",
     "Selected": true,
-    "LastChanged": "2001-07-17T15:29:31.1779808+02:00",
+    "LastChanged": "2022-05-04T03:51:34.6302346+02:00",
     "ChildItems": [
       {
-        "Id": 209,
-        "Name": "Kihn-Braun",
-        "ToolTip": "Ex pariatur aut praesentium sequi ab.",
-        "Deleted": true,
-        "Rank": 558,
-        "Type": "ut",
-        "ColorBlock": 122,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2020-10-05T15:29:31.1779808+02:00",
+        "Id": 986,
+        "Name": "Jones, Berge and Powlowski",
+        "ToolTip": "Corporis eum voluptatibus qui sunt amet magni earum.",
+        "Deleted": false,
+        "Rank": 17,
+        "Type": "est",
+        "ColorBlock": 841,
+        "IconHint": "repellat",
+        "Selected": false,
+        "LastChanged": "2000-01-26T03:51:34.6302346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "optio",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Jody Cortney Jakubowski II",
+        "FullName": "Keven Rosalinda Upton DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 362
+            "FieldLength": 13
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "qui",
+    "ExtraInfo": "sit",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Phyllis Miller",
+    "FullName": "Marilie Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldType": "System.String",
+        "FieldLength": 416
       }
     }
   }

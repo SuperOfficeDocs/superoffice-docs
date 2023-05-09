@@ -104,8 +104,9 @@ OK
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
-| Sale | Sale | The sale that this ticket connected to  <para>Use MDO List name "sale" to get list items.</para> |
-| Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
+| Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
+| Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
+| FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -117,7 +118,7 @@ OK
 POST /api/v1/Agents/Ticket/GetNextInQueue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -127,21 +128,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 179,
-  "Title": "inventore",
-  "CreatedAt": "2003-11-20T15:29:23.1567903+01:00",
-  "LastChanged": "2003-09-19T15:29:23.1567903+02:00",
-  "ReadByOwner": "2000-07-12T15:29:23.1567903+02:00",
-  "ReadByCustomer": "2020-03-19T15:29:23.1567903+01:00",
-  "FirstReadByOwner": "2002-06-14T15:29:23.1567903+02:00",
-  "FirstReadByUser": "2002-04-17T15:29:23.1567903+02:00",
-  "Activate": "2005-06-05T15:29:23.1567903+02:00",
-  "ClosedAt": "1999-01-03T15:29:23.1567903+01:00",
-  "RepliedAt": "2004-04-26T15:29:23.1567903+02:00",
-  "AlertTimeout": "2010-06-02T15:29:23.1567903+02:00",
-  "Deadline": "2013-11-13T15:29:23.1567903+01:00",
+  "TicketId": 395,
+  "Title": "sed",
+  "CreatedAt": "2015-10-04T03:51:28.3495774+02:00",
+  "LastChanged": "2006-02-05T03:51:28.3495774+01:00",
+  "ReadByOwner": "2019-10-14T03:51:28.3495774+02:00",
+  "ReadByCustomer": "2001-01-26T03:51:28.3495774+01:00",
+  "FirstReadByOwner": "1996-03-23T03:51:28.3495774+01:00",
+  "FirstReadByUser": "2006-03-23T03:51:28.3495774+01:00",
+  "Activate": "2008-01-03T03:51:28.3495774+01:00",
+  "ClosedAt": "2004-07-01T03:51:28.3495774+02:00",
+  "RepliedAt": "2016-12-01T03:51:28.3495774+01:00",
+  "AlertTimeout": "2015-12-11T03:51:28.3495774+01:00",
+  "Deadline": "1998-06-26T03:51:28.3495774+02:00",
   "CreatedBy": null,
-  "Author": "vero",
+  "Author": "repudiandae",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -152,158 +153,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "dolorum",
-      "PersonId": 226,
-      "Mrmrs": "voluptatem",
-      "Firstname": "Milford",
-      "Lastname": "Jacobi",
-      "MiddleName": "Kertzmann, Kilback and McGlynn",
-      "Title": "tempore",
-      "Description": "Reactive zero defect system engine",
-      "Email": "ashlynn_larkin@ferryankunding.co.uk",
-      "FullName": "Mrs. Shirley Mayert V",
-      "DirectPhone": "320-280-0153 x3604",
-      "FormalName": "Rohan, Jast and Robel",
-      "CountryId": 903,
-      "ContactId": 522,
-      "ContactName": "Bode Inc and Sons",
-      "Retired": 107,
-      "Rank": 668,
-      "ActiveInterests": 833,
+      "Position": "alias",
+      "PersonId": 426,
+      "Mrmrs": "repellendus",
+      "Firstname": "Cary",
+      "Lastname": "Weimann",
+      "MiddleName": "Stokes-Koch",
+      "Title": "est",
+      "Description": "Down-sized systemic database",
+      "Email": "alfredo_metz@torp.uk",
+      "FullName": "Enrico Rodriguez",
+      "DirectPhone": "1-112-783-9878",
+      "FormalName": "Kub, Sanford and Feil",
+      "CountryId": 942,
+      "ContactId": 662,
+      "ContactName": "Kassulke, Legros and Rogahn",
+      "Retired": 835,
+      "Rank": 773,
+      "ActiveInterests": 306,
       "ContactDepartment": "",
-      "ContactCountryId": 367,
-      "ContactOrgNr": "498780",
-      "FaxPhone": "(248)513-1814 x44317",
-      "MobilePhone": "1-015-104-8325 x79229",
-      "ContactPhone": "(027)414-3080",
-      "AssociateName": "Hauck, Crist and Paucek",
-      "AssociateId": 983,
+      "ContactCountryId": 534,
+      "ContactOrgNr": "1816418",
+      "FaxPhone": "097.743.3586 x619",
+      "MobilePhone": "(239)639-5537",
+      "ContactPhone": "1-563-787-8209 x65468",
+      "AssociateName": "Shanahan Group",
+      "AssociateId": 302,
       "UsePersonAddress": false,
-      "ContactFax": "aliquid",
-      "Kanafname": "non",
-      "Kanalname": "sunt",
-      "Post1": "voluptas",
-      "Post2": "quibusdam",
-      "Post3": "aliquam",
-      "EmailName": "rosa.hansen@cremin.name",
-      "ContactFullName": "Jose Cronin",
-      "ActiveErpLinks": 922,
-      "TicketPriorityId": 434,
-      "SupportLanguageId": 338,
-      "SupportAssociateId": 254,
+      "ContactFax": "voluptatem",
+      "Kanafname": "delectus",
+      "Kanalname": "eaque",
+      "Post1": "eum",
+      "Post2": "qui",
+      "Post3": "ut",
+      "EmailName": "winona.erdman@heidenreich.co.uk",
+      "ContactFullName": "Miss German Arjun Sauer",
+      "ActiveErpLinks": 173,
+      "TicketPriorityId": 421,
+      "SupportLanguageId": 914,
+      "SupportAssociateId": 223,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 60
         }
       }
     }
   ],
-  "AlertLevel": 4,
-  "ConnectId": 369,
+  "AlertLevel": 853,
+  "ConnectId": 348,
   "ReadStatus": "Green",
-  "TimeToReply": 414,
-  "RealTimeToReply": 512,
-  "TimeToClose": 657,
-  "RealTimeToClose": 948,
-  "TimeSpentInternally": 496,
-  "TimeSpentExternally": 460,
-  "TimeSpentQueue": 750,
-  "RealTimeSpentInternally": 514,
-  "RealTimeSpentExternally": 309,
-  "RealTimeSpentQueue": 511,
+  "TimeToReply": 418,
+  "RealTimeToReply": 173,
+  "TimeToClose": 317,
+  "RealTimeToClose": 129,
+  "TimeSpentInternally": 549,
+  "TimeSpentExternally": 831,
+  "TimeSpentQueue": 682,
+  "RealTimeSpentInternally": 29,
+  "RealTimeSpentExternally": 342,
+  "RealTimeSpentQueue": 958,
   "HasAttachment": false,
-  "NumReplies": 687,
-  "NumMessages": 965,
-  "FromAddress": "dolores",
+  "NumReplies": 180,
+  "NumMessages": 66,
+  "FromAddress": "voluptas",
   "Messages": [
     {
-      "TicketMessageId": 277,
-      "CreatedAt": "1998-10-23T15:29:23.1607894+02:00",
+      "TicketMessageId": 607,
+      "CreatedAt": "2009-12-11T03:51:28.3495774+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "sint",
-      "PersonId": 866,
-      "PersonFullName": "Ari Douglas",
-      "ContactId": 218,
-      "ContactName": "Howell LLC",
+      "Author": "cumque",
+      "PersonId": 943,
+      "PersonFullName": "Mrs. Cierra Isabelle Mueller",
+      "ContactId": 151,
+      "ContactName": "Dickinson, Treutel and Farrell",
       "ContactDepartment": "",
-      "NumAttachments": 488,
-      "EmailHeader": "oren.konopelski@hammes.info",
+      "NumAttachments": 103,
+      "EmailHeader": "jerome.batz@kemmermcdermott.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "fugiat",
-      "Sentiment": 782,
-      "SentimentConfidence": 981,
-      "CreatedBy": 450,
-      "ChangedAt": "2007-05-18T15:29:23.1612892+02:00",
+      "Language": "eum",
+      "Sentiment": 900,
+      "SentimentConfidence": 586,
+      "CreatedBy": 18,
+      "ChangedAt": "2019-04-07T03:51:28.3495774+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 369
+          "FieldType": "System.Int32",
+          "FieldLength": 76
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 97,
-      "Name": "Douglas Inc and Sons",
-      "ToolTip": "Rem cumque molestiae eum ipsam fugit.",
+      "Id": 747,
+      "Name": "Eichmann-Runolfsson",
+      "ToolTip": "Ut sed et.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldType": "System.String",
+          "FieldLength": 90
         }
       }
     },
     {
-      "Id": 97,
-      "Name": "Douglas Inc and Sons",
-      "ToolTip": "Rem cumque molestiae eum ipsam fugit.",
+      "Id": 747,
+      "Name": "Eichmann-Runolfsson",
+      "ToolTip": "Ut sed et.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldType": "System.String",
+          "FieldLength": 90
         }
       }
     }
   ],
-  "Language": "et",
-  "Sentiment": 949,
-  "SentimentConfidence": 914,
-  "SuggestedCategoryId": 482,
+  "Language": "ut",
+  "Sentiment": 995,
+  "SentimentConfidence": 509,
+  "SuggestedCategoryId": 319,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 194,
-  "IconHint": "quia",
+  "OrigHumanCategoryId": 893,
+  "IconHint": "et",
   "Sale": null,
   "Project": null,
+  "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "suscipit",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "animi"
   },
   "CustomFields": {
-    "CustomFields1": "vero",
-    "CustomFields2": "ut"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "repudiandae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 857
     }
   }
 }

@@ -76,12 +76,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 156,
+  "ConsentPersonId": 64,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 884,
+  "PersonId": 97,
   "ConsentPurpose": null,
-  "Comment": "vel"
+  "Comment": "accusamus"
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 958,
+  "ConsentPersonId": 533,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 503,
+  "PersonId": 357,
   "ConsentPurpose": null,
-  "Comment": "ut",
+  "Comment": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 6
+      "FieldType": "System.Int32",
+      "FieldLength": 35
     }
   }
 }

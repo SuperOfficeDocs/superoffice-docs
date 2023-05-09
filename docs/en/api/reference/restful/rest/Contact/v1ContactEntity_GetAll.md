@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=voluptas
-GET /api/v1/Contact?$top=968
-GET /api/v1/Contact?$skip=205
+GET /api/v1/Contact?$entities=eius
+GET /api/v1/Contact?$top=6
+GET /api/v1/Contact?$skip=776
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=est
+GET /api/v1/Contact?$context=quisquam
 GET /api/v1/Contact?$format=JSON
-GET /api/v1/Contact?$jsonSafe=True
+GET /api/v1/Contact?$jsonSafe=False
 GET /api/v1/Contact?$output=Display
 ```
 
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Contact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "deleniti",
+  "odata.nextLink": "rem",
   "value": [
     {
-      "PrimaryKey": 5610,
+      "PrimaryKey": 1981,
       "EntityName": "sale",
-      "saleId": 5610,
-      "contactId": 4329,
-      "name": "Wintheiser-Green"
+      "saleId": 1981,
+      "contactId": 292,
+      "name": "D'Amore-Turcotte"
     },
     {
-      "PrimaryKey": 5046,
+      "PrimaryKey": 1128,
       "EntityName": "sale",
-      "saleId": 5046,
-      "contactId": 9229,
-      "name": "Denesik Inc and Sons"
+      "saleId": 1128,
+      "contactId": 8798,
+      "name": "Collier, Brakus and Bruen"
     }
   ]
 }

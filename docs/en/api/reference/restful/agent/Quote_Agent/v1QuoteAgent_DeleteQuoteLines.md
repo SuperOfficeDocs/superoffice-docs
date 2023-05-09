@@ -68,8 +68,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineIds": [
-    105,
-    146
+    509,
+    300
   ]
 }
 ```

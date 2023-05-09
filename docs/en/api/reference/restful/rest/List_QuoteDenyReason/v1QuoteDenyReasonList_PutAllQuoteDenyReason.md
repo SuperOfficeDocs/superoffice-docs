@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Maggio Group",
-    "Tooltip": "vel",
-    "Deleted": true,
-    "UdListDefinitionId": 147,
-    "Rank": 817
+    "Id": 73,
+    "Name": "Funk Inc and Sons",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "UdListDefinitionId": 882,
+    "Rank": 61
   },
   {
-    "Id": 459,
-    "Name": "Maggio Group",
-    "Tooltip": "vel",
-    "Deleted": true,
-    "UdListDefinitionId": 147,
-    "Rank": 817
+    "Id": 73,
+    "Name": "Funk Inc and Sons",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "UdListDefinitionId": 882,
+    "Rank": 61
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Hudson, Little and Beatty",
-    "Tooltip": "esse",
+    "Id": 869,
+    "Name": "Cronin, Barton and Hoeger",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "UdListDefinitionId": 609,
-    "Rank": 632,
+    "UdListDefinitionId": 490,
+    "Rank": 474,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 453
+        "FieldType": "System.Int32",
+        "FieldLength": 495
       }
     }
   }

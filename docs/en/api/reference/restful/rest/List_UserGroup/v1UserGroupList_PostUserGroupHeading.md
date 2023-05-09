@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 836,
-  "Name": "Prohaska Inc and Sons",
-  "Tooltip": "aspernatur",
-  "Deleted": true,
-  "Rank": 388,
-  "UdListDefinitionId": 385
+  "HeadingId": 332,
+  "Name": "Littel Inc and Sons",
+  "Tooltip": "laboriosam",
+  "Deleted": false,
+  "Rank": 190,
+  "UdListDefinitionId": 360
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 555,
-  "Name": "McLaughlin, Cruickshank and Dare",
-  "Tooltip": "tempore",
+  "HeadingId": 130,
+  "Name": "Bartell-Hoppe",
+  "Tooltip": "quas",
   "Deleted": false,
-  "Rank": 587,
-  "UdListDefinitionId": 935,
+  "Rank": 733,
+  "UdListDefinitionId": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   }
 }

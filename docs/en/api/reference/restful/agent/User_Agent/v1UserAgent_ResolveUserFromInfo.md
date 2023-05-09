@@ -83,19 +83,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 681,
-  "PersonName": "Bosco-Hartmann",
+  "ContactId": 615,
+  "PersonName": "Walker-Champlin",
   "PhoneNumbers": [
-    "1819769",
-    "1081109"
+    "703043",
+    "1391986"
   ],
   "Emails": [
-    "manley_jaskolski@erdman.us",
-    "renee.rolfson@zemlak.name"
+    "gerhard@jacobson.name",
+    "damon@pfannerstill.name"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -115,8 +115,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldType": "System.Int32",
+      "FieldLength": 769
     }
   }
 }

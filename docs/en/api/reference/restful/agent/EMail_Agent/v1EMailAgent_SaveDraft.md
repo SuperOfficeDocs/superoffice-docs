@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,147 +116,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 304,
-      "ContactName": "Welch Inc and Sons",
-      "PersonId": 718,
-      "PersonName": "Jakubowski-Gaylord",
-      "AssociateId": 300,
-      "Address": "accusantium",
-      "EmailId": 937,
+      "ContactId": 144,
+      "ContactName": "Cormier, Turcotte and Lubowitz",
+      "PersonId": 213,
+      "PersonName": "Hermiston, Robel and Schuster",
+      "AssociateId": 206,
+      "Address": "quae",
+      "EmailId": 206,
       "DuplicatePersonIds": [
-        946,
-        377
+        530,
+        769
       ],
-      "Name": "Carroll, Collier and Goyette",
+      "Name": "Shields Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 952
+          "FieldLength": 64
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 762,
-      "ContactName": "Mante Inc and Sons",
-      "PersonId": 731,
-      "PersonName": "Kutch, Zieme and Hirthe",
-      "AssociateId": 657,
-      "Address": "porro",
-      "EmailId": 383,
+      "ContactId": 158,
+      "ContactName": "Shanahan Inc and Sons",
+      "PersonId": 805,
+      "PersonName": "Mayer, Schimmel and Spencer",
+      "AssociateId": 690,
+      "Address": "consequatur",
+      "EmailId": 351,
       "DuplicatePersonIds": [
-        865,
-        305
+        841,
+        799
       ],
-      "Name": "Langosh LLC",
+      "Name": "Rutherford, Hansen and Shields",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 370
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 193,
-      "ContactName": "Hirthe, Jacobi and Schaden",
-      "PersonId": 87,
-      "PersonName": "Beahan LLC",
-      "AssociateId": 659,
-      "Address": "amet",
-      "EmailId": 207,
+      "ContactId": 443,
+      "ContactName": "Baumbach-DuBuque",
+      "PersonId": 626,
+      "PersonName": "Beier-Russel",
+      "AssociateId": 892,
+      "Address": "sed",
+      "EmailId": 463,
       "DuplicatePersonIds": [
-        206,
-        818
+        833,
+        866
       ],
-      "Name": "Stamm Inc and Sons",
+      "Name": "Wyman LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 387
+          "FieldLength": 369
         }
       }
     }
   ],
-  "Subject": "magnam",
-  "HTMLBody": "ut",
+  "Subject": "in",
+  "HTMLBody": "blanditiis",
   "From": null,
-  "Sent": "2010-07-14T15:29:21.7047772+02:00",
-  "Size": 159,
+  "Sent": "2000-08-23T03:51:27.1779858+02:00",
+  "Size": 358,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "repudiandae",
-  "PlainBody": "eaque",
+  "MessageID": "nesciunt",
+  "PlainBody": "quos",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 884,
+  "ServerId": 288,
   "Attachments": [
     {
-      "Description": "Fully-configurable disintermediate access",
-      "Filename": "porro",
-      "Size": 161,
-      "Type": "velit",
-      "Encoding": "ut",
-      "Id": "et",
-      "Disposition": "optio",
+      "Description": "Organized composite infrastructure",
+      "Filename": "qui",
+      "Size": 581,
+      "Type": "dolores",
+      "Encoding": "eum",
+      "Id": "distinctio",
+      "Disposition": "hic",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldLength": 939
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Buckridge, Becker and Wyman",
+      "Name": "Padberg, Konopelski and Ankunding",
       "Values": [
-        "incidunt",
-        "commodi"
+        "rerum",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldType": "System.Int32",
+          "FieldLength": 105
         }
       }
     },
     {
-      "Name": "Buckridge, Becker and Wyman",
+      "Name": "Padberg, Konopelski and Ankunding",
       "Values": [
-        "incidunt",
-        "commodi"
+        "rerum",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldType": "System.Int32",
+          "FieldLength": 105
         }
       }
     }
   ],
-  "FolderName": "Nikolaus LLC",
-  "EmailItemId": 455,
-  "AccountId": 990,
-  "ReceivedAt": "2003-01-08T15:29:21.7062771+01:00",
+  "FolderName": "Gaylord-Armstrong",
+  "EmailItemId": 959,
+  "AccountId": 23,
+  "ReceivedAt": "2014-08-27T03:51:27.1779858+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-06-01T15:29:21.7062771+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2016-04-07T03:51:27.1779858+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 523
     }
   }
 }

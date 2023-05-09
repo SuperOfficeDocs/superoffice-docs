@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 168,
-    "Name": "Bode Group",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 189,
+    "Name": "Collins Inc and Sons",
+    "Tooltip": "corrupti",
     "Deleted": false,
-    "Rank": 799,
-    "UdListDefinitionId": 153
+    "Rank": 370,
+    "UdListDefinitionId": 759
   },
   {
-    "HeadingId": 168,
-    "Name": "Bode Group",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 189,
+    "Name": "Collins Inc and Sons",
+    "Tooltip": "corrupti",
     "Deleted": false,
-    "Rank": 799,
-    "UdListDefinitionId": 153
+    "Rank": 370,
+    "UdListDefinitionId": 759
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 953,
-    "Name": "Gusikowski-Bins",
-    "Tooltip": "ratione",
-    "Deleted": false,
-    "Rank": 95,
-    "UdListDefinitionId": 658,
+    "HeadingId": 593,
+    "Name": "Considine, Spencer and Cummerata",
+    "Tooltip": "modi",
+    "Deleted": true,
+    "Rank": 76,
+    "UdListDefinitionId": 610,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldLength": 431
       }
     }
   }

@@ -88,18 +88,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 821,
-  "Name": "Haag-Koelpin",
-  "Description": "Ergonomic executive algorithm",
+  "ReportLabelLayoutId": 787,
+  "Name": "Schumm-Stoltenberg",
+  "Description": "Seamless needs-based alliance",
   "Orientation": "Landscape",
-  "PaperWidth": 848,
-  "PaperHeight": 618,
-  "LeftMargin": 47,
-  "RightMargin": 859,
-  "TopMargin": 7,
-  "BottomMargin": 774,
-  "CountColumns": 32,
-  "CountRows": 535
+  "PaperWidth": 353,
+  "PaperHeight": 996,
+  "LeftMargin": 154,
+  "RightMargin": 261,
+  "TopMargin": 624,
+  "BottomMargin": 325,
+  "CountColumns": 125,
+  "CountRows": 991
 }
 ```
 
@@ -110,24 +110,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 824,
-  "Name": "Renner, Fadel and Hackett",
-  "Description": "Reactive hybrid alliance",
+  "ReportLabelLayoutId": 915,
+  "Name": "Kshlerin, Tremblay and Luettgen",
+  "Description": "Fundamental static standardization",
   "Orientation": "Landscape",
-  "PaperWidth": 657,
-  "PaperHeight": 394,
-  "LeftMargin": 192,
-  "RightMargin": 381,
-  "TopMargin": 989,
-  "BottomMargin": 621,
-  "CountColumns": 216,
-  "CountRows": 920,
+  "PaperWidth": 371,
+  "PaperHeight": 546,
+  "LeftMargin": 848,
+  "RightMargin": 283,
+  "TopMargin": 956,
+  "BottomMargin": 660,
+  "CountColumns": 343,
+  "CountRows": 784,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldType": "System.Int32",
+      "FieldLength": 748
     }
   }
 }

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Appointment"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -686,7 +686,7 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 ## Sample
 
 ```http!
-GET /api/v1/archive/Appointment?$select=contact/streetAddress/wgs84latitude,person/personAddress/state,person/restrictionAddress/line3,project/projectUdef/SuperOffice:3
+GET /api/v1/archive/Appointment?$select=time,contact/contactExtra/x_contact_datetime,person/personUdef/SuperOffice:6,person/personUdef/SuperOffice:8,person/personUdef/SuperOffice:9
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

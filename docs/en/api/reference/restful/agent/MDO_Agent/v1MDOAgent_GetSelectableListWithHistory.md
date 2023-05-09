@@ -90,18 +90,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bosco, Fritsch and Armstrong",
-  "ForceFlatList": false,
-  "AdditionalInfo": "voluptas",
+  "Name": "Bins, Collins and Schneider",
+  "ForceFlatList": true,
+  "AdditionalInfo": "optio",
   "HistoryItems": [
-    897,
-    734
+    3,
+    214
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -113,56 +113,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 533,
-    "Name": "Ullrich Group",
-    "ToolTip": "Ut tempore nihil ullam.",
+    "Id": 989,
+    "Name": "Yost Inc and Sons",
+    "ToolTip": "Eum doloribus deserunt ad eius.",
     "Deleted": false,
-    "Rank": 904,
-    "Type": "dicta",
-    "ColorBlock": 339,
-    "IconHint": "quidem",
+    "Rank": 779,
+    "Type": "ea",
+    "ColorBlock": 617,
+    "IconHint": "numquam",
     "Selected": true,
-    "LastChanged": "2014-10-19T15:29:22.1513042+02:00",
+    "LastChanged": "2012-07-06T03:51:27.5216578+02:00",
     "ChildItems": [
       {
-        "Id": 339,
-        "Name": "Lesch LLC",
-        "ToolTip": "Ut et ab velit ut.",
+        "Id": 979,
+        "Name": "Welch-Lebsack",
+        "ToolTip": "Sunt rerum.",
         "Deleted": false,
-        "Rank": 453,
-        "Type": "ut",
-        "ColorBlock": 359,
-        "IconHint": "non",
+        "Rank": 104,
+        "Type": "occaecati",
+        "ColorBlock": 486,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "1997-05-22T15:29:22.1518039+02:00",
+        "LastChanged": "2020-10-08T03:51:27.5216578+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "nihil",
-        "StyleHint": "corporis",
-        "Hidden": true,
-        "FullName": "Prof. Della Yost MD",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Chet Brakus II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 21
+            "FieldLength": 984
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "earum",
-    "Hidden": true,
-    "FullName": "Darrin Philip Pfannerstill Sr.",
+    "ExtraInfo": "et",
+    "StyleHint": "quis",
+    "Hidden": false,
+    "FullName": "Louie Weissnat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldType": "System.String",
+        "FieldLength": 849
       }
     }
   }

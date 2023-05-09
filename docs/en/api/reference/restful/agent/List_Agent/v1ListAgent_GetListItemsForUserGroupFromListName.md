@@ -91,8 +91,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Johns, Dare and Rau",
-  "GroupId": 777
+  "UdListDefinitionName": "Ullrich Group",
+  "GroupId": 697
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Name": "Batz, Langosh and Maggio",
-    "ToolTip": "Nostrum dolor dolorem et.",
+    "Id": 443,
+    "Name": "Mann Group",
+    "ToolTip": "Enim dolore voluptatem aut animi dolorem.",
     "Deleted": false,
-    "Rank": 832,
-    "Type": "dolores",
-    "ColorBlock": 543,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "2014-12-04T15:29:22.0172716+01:00",
+    "Rank": 958,
+    "Type": "praesentium",
+    "ColorBlock": 147,
+    "IconHint": "nemo",
+    "Selected": false,
+    "LastChanged": "2015-07-28T03:51:27.4279277+02:00",
     "ChildItems": [
       {
-        "Id": 48,
-        "Name": "Gutmann-Hintz",
-        "ToolTip": "Id consequuntur pariatur.",
+        "Id": 723,
+        "Name": "Stanton-Gaylord",
+        "ToolTip": "Nihil ab rerum autem dolore et consequatur.",
         "Deleted": false,
-        "Rank": 530,
-        "Type": "quam",
-        "ColorBlock": 109,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "1998-03-09T15:29:22.0172716+01:00",
+        "Rank": 974,
+        "Type": "itaque",
+        "ColorBlock": 966,
+        "IconHint": "corrupti",
+        "Selected": false,
+        "LastChanged": "2007-06-25T03:51:27.4279277+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "quam",
+        "ExtraInfo": "tempora",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Garrett Dickinson",
+        "FullName": "Prof. Alyce Catherine Braun V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 179
+            "FieldLength": 505
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "ut",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Ms. Marcus Keeling II",
+    "FullName": "Alysson Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 592
+        "FieldType": "System.Int32",
+        "FieldLength": 504
       }
     }
   }

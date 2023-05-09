@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 326,
-  "TargetDimensionId": 849
+  "Year": 190,
+  "TargetDimensionId": 49
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 1000,
+    "TargetAssignmentInfoId": 278,
     "Values": [
-      730,
-      143
+      553,
+      809
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 571,
-    "DimensionListItemDisplayName": "Schulist-Haley",
+    "DimensionListItem": 636,
+    "DimensionListItemDisplayName": "Oberbrunner-Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldType": "System.String",
+        "FieldLength": 570
       }
     }
   }

@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    486,
-    657
+    523,
+    383
   ]
 }
 ```
@@ -102,50 +102,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "Lehner-West",
-    "ToolTip": "Natus doloremque tempora delectus.",
+    "Id": 564,
+    "Name": "Eichmann, Nienow and Padberg",
+    "ToolTip": "Nihil quis esse dolor architecto harum inventore voluptatem.",
     "Deleted": false,
-    "Rank": 340,
-    "Type": "perferendis",
+    "Rank": 154,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 450,
-        "Name": "Dickinson LLC",
-        "ToolTip": "Nemo eum nobis ipsum dolorem minus sit.",
+        "Id": 36,
+        "Name": "Hahn, Smitham and Kertzmann",
+        "ToolTip": "Eos autem numquam.",
         "Deleted": false,
-        "Rank": 293,
-        "Type": "id",
+        "Rank": 178,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reiciendis",
-        "ColorBlock": 163,
-        "ExtraInfo": "voluptates",
-        "StyleHint": "itaque",
-        "FullName": "Misael Casper",
+        "IconHint": "repellat",
+        "ColorBlock": 77,
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "vero",
+        "FullName": "Mathilde Towne",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 247
+            "FieldType": "System.Int32",
+            "FieldLength": 463
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 215,
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "sequi",
-    "FullName": "Adolph Lizzie Morissette Jr.",
+    "IconHint": "distinctio",
+    "ColorBlock": 232,
+    "ExtraInfo": "est",
+    "StyleHint": "consequatur",
+    "FullName": "Haskell Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 37
+        "FieldType": "System.Int32",
+        "FieldLength": 688
       }
     }
   }

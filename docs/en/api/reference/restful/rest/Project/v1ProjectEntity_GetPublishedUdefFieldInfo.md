@@ -92,7 +92,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 638,
-  "ColumnId": 935,
-  "FieldDefault": "quia",
-  "FieldHeight": 352,
-  "FieldLabel": "possimus",
-  "FieldLeft": 879,
-  "FieldTop": 336,
+  "UDefFieldId": 570,
+  "ColumnId": 58,
+  "FieldDefault": "et",
+  "FieldHeight": 525,
+  "FieldLabel": "soluta",
+  "FieldLeft": 240,
+  "FieldTop": 618,
   "FieldType": "Checkbox",
-  "FieldWidth": 282,
-  "FormatMask": "corporis",
+  "FieldWidth": 144,
+  "FormatMask": "id",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 464,
-  "LabelLeft": 934,
-  "LabelTop": 884,
-  "LabelWidth": 516,
-  "LastVersionId": 616,
-  "ListTableId": 443,
+  "IsIndexed": true,
+  "LabelHeight": 47,
+  "LabelLeft": 929,
+  "LabelTop": 215,
+  "LabelWidth": 540,
+  "LastVersionId": 624,
+  "ListTableId": 90,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 984,
-  "ProgId": "numquam",
-  "IsReadOnly": true,
-  "ShortLabel": "velit",
-  "TabOrder": 228,
-  "TextLength": 809,
-  "Tooltip": "ratione",
-  "UdefIdentity": 279,
-  "UDListDefinitionId": 963,
+  "Page1LineNo": 179,
+  "ProgId": "voluptas",
+  "IsReadOnly": false,
+  "ShortLabel": "aperiam",
+  "TabOrder": 189,
+  "TextLength": 644,
+  "Tooltip": "ea",
+  "UdefIdentity": 179,
+  "UDListDefinitionId": 544,
   "Justification": "Center",
-  "Version": 682,
-  "TemplateVariableName": "Leffler-Volkman",
+  "Version": 324,
+  "TemplateVariableName": "Kunze Group",
   "HasBeenPublished": false,
-  "MdoListName": "Emmerich, Pfannerstill and O'Kon",
+  "MdoListName": "Boyer LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldLength": 522
     }
   }
 }

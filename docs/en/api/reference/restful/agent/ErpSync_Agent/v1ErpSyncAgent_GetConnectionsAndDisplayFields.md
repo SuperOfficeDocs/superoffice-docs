@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 263
+  "EntityId": 668
 }
 ```
 
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 75,
-    "ConnectionName": "Russel, Ernser and Schuppe",
+    "ErpConnectionId": 299,
+    "ConnectionName": "Wilkinson-Wisozk",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "facilis",
-        "Rank": 12,
-        "DisplayName": "Rosenbaum Inc and Sons",
-        "DisplayDescription": "Streamlined 3rd generation productivity",
+        "FieldKey": "autem",
+        "Rank": 742,
+        "DisplayName": "Mayert, Baumbach and Hyatt",
+        "DisplayDescription": "Optional 24/7 projection",
         "FieldType": "Checkbox",
-        "ListName": "Waelchi-Stracke",
-        "DefaultValue": "est",
-        "MaxLength": 236,
+        "ListName": "Block LLC",
+        "DefaultValue": "ipsam",
+        "MaxLength": 597,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 736
+            "FieldLength": 583
           }
         }
       }
@@ -126,15 +126,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "ex",
-      "est"
+      "quae",
+      "sed"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 323
       }
     }
   }

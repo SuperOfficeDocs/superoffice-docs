@@ -95,8 +95,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ex",
-  "Key": "harum",
+  "Section": "modi",
+  "Key": "quia",
   "PreferenceDescription": null
 }
 ```
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 873,
-  "Section": "in",
-  "Key": "tempore",
-  "Name": "Wolf Inc and Sons",
+  "PrefDescId": 23,
+  "Section": "non",
+  "Key": "aut",
+  "Name": "Goyette-Brakus",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cross-platform bi-directional task-force",
-  "IsBuiltin": true,
-  "TableName": "Kemmer, Thompson and Schaefer",
-  "UserDefinedListId": 727,
-  "Rank": 898,
-  "SubGroup": "quo",
-  "MinLevel": 245,
-  "MaxValue": 831,
-  "MinValue": 164,
-  "RequiredLicense": "voluptatem",
+  "Description": "Realigned impactful approach",
+  "IsBuiltin": false,
+  "TableName": "Kihn, Effertz and O'Keefe",
+  "UserDefinedListId": 367,
+  "Rank": 357,
+  "SubGroup": "consectetur",
+  "MinLevel": 26,
+  "MaxValue": 295,
+  "MinValue": 119,
+  "RequiredLicense": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 799
     }
   }
 }

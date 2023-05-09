@@ -74,26 +74,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 787,
-  "CrmRecordId": 210,
+  "ErpConnectionId": 150,
+  "CrmRecordId": 19,
   "CrmActorType": "Contact",
-  "ErpKey": "repudiandae",
+  "ErpKey": "facere",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Kertzmann Inc and Sons",
-      "CrmFieldKey": "consequatur",
-      "Value": "rerum",
-      "DisplayValue": "voluptas",
-      "SyncToCrm": false,
+      "DisplayName": "Hahn-Schroeder",
+      "CrmFieldKey": "blanditiis",
+      "Value": "vel",
+      "DisplayValue": "suscipit",
+      "SyncToCrm": true,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Kertzmann Inc and Sons",
-      "CrmFieldKey": "consequatur",
-      "Value": "rerum",
-      "DisplayValue": "voluptas",
-      "SyncToCrm": false,
+      "DisplayName": "Hahn-Schroeder",
+      "CrmFieldKey": "blanditiis",
+      "Value": "vel",
+      "DisplayValue": "suscipit",
+      "SyncToCrm": true,
       "SyncToErp": false
     }
   ]

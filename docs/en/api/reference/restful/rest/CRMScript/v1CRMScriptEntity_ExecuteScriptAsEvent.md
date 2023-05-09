@@ -87,28 +87,28 @@ OK
 POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "qui",
-    "InputValues2": "aperiam"
+    "InputValues1": "repudiandae",
+    "InputValues2": "repellendus"
   },
   "BlockExecution": false,
-  "NavigateTo": "sed",
-  "Message": "pariatur",
-  "ShowDialog": "et",
+  "NavigateTo": "expedita",
+  "Message": "culpa",
+  "ShowDialog": "quis",
   "OutputValues": {
-    "OutputValues1": "consequatur",
-    "OutputValues2": "et"
+    "OutputValues1": "aliquid",
+    "OutputValues2": "corporis"
   },
   "StateValues": {
-    "StateValues1": "ut",
-    "StateValues2": "ut"
+    "StateValues1": "quia",
+    "StateValues2": "iusto"
   },
-  "Exception": "ducimus"
+  "Exception": "provident"
 }
 ```
 
@@ -121,28 +121,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "recusandae",
-    "InputValues2": "eos"
+    "InputValues1": "expedita",
+    "InputValues2": "sint"
   },
   "BlockExecution": false,
-  "NavigateTo": "laboriosam",
-  "Message": "rem",
-  "ShowDialog": "eum",
+  "NavigateTo": "velit",
+  "Message": "omnis",
+  "ShowDialog": "odit",
   "OutputValues": {
-    "OutputValues1": "ut",
-    "OutputValues2": "eos"
+    "OutputValues1": "dicta",
+    "OutputValues2": "dolor"
   },
   "StateValues": {
-    "StateValues1": "dolorem",
-    "StateValues2": "reiciendis"
+    "StateValues1": "dolores",
+    "StateValues2": "qui"
   },
-  "Exception": "dolores",
+  "Exception": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldLength": 946
     }
   }
 }

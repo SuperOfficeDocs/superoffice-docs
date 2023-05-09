@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 636
+  "QuoteVersionId": 327
 }
 ```
 
@@ -110,35 +110,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 764,
-    "ERPQuoteAlternativeKey": "eius",
-    "QuoteVersionId": 518,
-    "Name": "Reichel Inc and Sons",
-    "Description": "Seamless exuding alliance",
+    "QuoteAlternativeId": 262,
+    "ERPQuoteAlternativeKey": "qui",
+    "QuoteVersionId": 425,
+    "Name": "Gottlieb-Ernser",
+    "Description": "Polarised hybrid open system",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 21837.712,
-    "ERPDiscountAmount": 21956.804,
-    "DiscountPercent": 557.852,
-    "DiscountAmount": 5879.384,
+    "ERPDiscountPercent": 9157.5479999999989,
+    "ERPDiscountAmount": 18957.566,
+    "DiscountPercent": 11642.81,
+    "DiscountAmount": 15090.21,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "quidem",
-    "VAT": 6293.072,
-    "EarningPercent": 21323.736,
-    "EarningAmount": 24476.54,
-    "SubTotal": 9627.648,
-    "TotalPrice": 22445.708,
-    "ExtraField1": "quod",
-    "ExtraField2": "nisi",
-    "ExtraField3": "enim",
-    "ExtraField4": "mollitia",
-    "ExtraField5": "vero",
+    "VATInfo": "omnis",
+    "VAT": 8850.416,
+    "EarningPercent": 21151.365999999998,
+    "EarningAmount": 17628.75,
+    "SubTotal": 19054.72,
+    "TotalPrice": 21229.716,
+    "ExtraField1": "velit",
+    "ExtraField2": "quaerat",
+    "ExtraField3": "placeat",
+    "ExtraField4": "corrupti",
+    "ExtraField5": "eveniet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldType": "System.String",
+        "FieldLength": 320
       }
     }
   }

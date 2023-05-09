@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "suscipit",
+  "SearchString": "veniam",
   "Preferences": null
 }
 ```
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-364-872-8963",
-    "PersonCellPhone": "808-598-0261",
-    "PersonPrivatePhone": "524-716-9328",
-    "PersonFaxNumber": "798029",
-    "PersonPagerNumber": "1502495",
-    "PersonEmail": "kellen@block.uk",
-    "Id": 179,
-    "Name": "Wiegand, Boyle and Keeling",
-    "Tooltip": "a",
-    "UniqueId": "voluptates",
+    "PersonDirectPhone": "836-545-5292 x93740",
+    "PersonCellPhone": "051-991-2309 x798",
+    "PersonPrivatePhone": "576-917-1944 x410",
+    "PersonFaxNumber": "1389460",
+    "PersonPagerNumber": "589389",
+    "PersonEmail": "hallie@shields.biz",
+    "Id": 327,
+    "Name": "Parisian-Barrows",
+    "Tooltip": "qui",
+    "UniqueId": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldLength": 917
       }
     }
   }

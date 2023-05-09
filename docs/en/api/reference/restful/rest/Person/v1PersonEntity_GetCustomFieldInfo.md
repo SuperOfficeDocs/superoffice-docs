@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Bogan, McCullough and Rath",
-  "DisplayName": "Homenick, Tremblay and Herzog",
-  "Description": "Secured heuristic success",
-  "ShortLabel": "dolorem",
-  "HideLabel": false,
+  "FieldName": "Kihn-Borer",
+  "DisplayName": "Jacobs Inc and Sons",
+  "Description": "Visionary explicit secured line",
+  "ShortLabel": "sit",
+  "HideLabel": true,
   "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 620,
-  "TemplateVariableName": "Feil Group"
+  "Rank": 601,
+  "TemplateVariableName": "Kling, Luettgen and Willms"
 }
 ```

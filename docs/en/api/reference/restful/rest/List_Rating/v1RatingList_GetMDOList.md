@@ -26,7 +26,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=quidem
+GET /api/v1/List/Rating/MDOItems?query=et
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 168,
-    "Name": "O'Reilly, Dibbert and Hand",
-    "ToolTip": "Rerum atque fugiat similique.",
+    "Id": 1002,
+    "Name": "Cummings Group",
+    "ToolTip": "Inventore distinctio et et laboriosam aut.",
     "Deleted": false,
-    "Rank": 428,
-    "Type": "excepturi",
+    "Rank": 281,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 451,
-        "Name": "Sauer-Witting",
-        "ToolTip": "Sit reprehenderit et quia.",
+        "Id": 786,
+        "Name": "Runte-Rippin",
+        "ToolTip": "Aspernatur itaque eaque fugiat velit culpa.",
         "Deleted": true,
-        "Rank": 50,
-        "Type": "veniam",
+        "Rank": 971,
+        "Type": "amet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 774,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "aliquid",
-        "FullName": "Keven Langworth",
+        "IconHint": "inventore",
+        "ColorBlock": 908,
+        "ExtraInfo": "doloremque",
+        "StyleHint": "ipsa",
+        "FullName": "Crystel Roberts Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 383
+            "FieldType": "System.Int32",
+            "FieldLength": 677
           }
         }
       }
     ],
-    "IconHint": "facilis",
-    "ColorBlock": 716,
-    "ExtraInfo": "incidunt",
-    "StyleHint": "voluptatem",
-    "FullName": "Miss Delmer Retha Senger",
+    "IconHint": "veniam",
+    "ColorBlock": 426,
+    "ExtraInfo": "minus",
+    "StyleHint": "quia",
+    "FullName": "Mrs. Coty Erdman PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldLength": 578
       }
     }
   }

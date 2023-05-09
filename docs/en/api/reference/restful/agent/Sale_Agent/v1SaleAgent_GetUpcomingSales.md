@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 303,
-  "Count": 974
+  "WeightedAmountLimit": 909,
+  "Count": 670
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hoeger, Hoeger and Pouros",
-    "SaleDate": "2011-10-11T15:29:22.7302983+02:00",
-    "SaleId": 533,
-    "Probability": 720,
+    "ContactName": "Kub-Dare",
+    "SaleDate": "2004-11-10T03:51:28.1308861+01:00",
+    "SaleId": 634,
+    "Probability": 330,
     "Title": "et",
-    "Amount": 31161.361999999997,
-    "Currency": "quis",
-    "ProjectName": "Schmitt, Ward and Wintheiser",
-    "AssociateFullName": "Ms. Amparo Garnet Konopelski Jr.",
-    "Description": "Optional modular algorithm",
+    "Amount": 30603.51,
+    "Currency": "quibusdam",
+    "ProjectName": "Jast-Raynor",
+    "AssociateFullName": "Mr. Amelia Runolfsson I",
+    "Description": "Visionary tertiary success",
     "Status": "Lost",
-    "WeightedAmount": 13256.82,
-    "ProjectId": 144,
-    "EarningPercent": 20173.558,
-    "Earning": 19672.118,
-    "ContactId": 472,
-    "AssociateId": 691,
-    "PersonId": 200,
-    "SaleTypeId": 868,
-    "SaleTypeName": "Deckow, Thiel and Hane",
-    "PersonFullName": "Shanon Hegmann Sr.",
+    "WeightedAmount": 24630.106,
+    "ProjectId": 140,
+    "EarningPercent": 14099.866,
+    "Earning": 29143.066,
+    "ContactId": 764,
+    "AssociateId": 16,
+    "PersonId": 789,
+    "SaleTypeId": 855,
+    "SaleTypeName": "Murray-West",
+    "PersonFullName": "Vicente Abshire",
     "Completed": "Completed",
-    "ActiveErpLinks": 644,
-    "NextDueDate": "2009-01-13T15:29:22.7307952+01:00",
-    "Number": "1274532",
+    "ActiveErpLinks": 398,
+    "NextDueDate": "2008-06-27T03:51:28.1308861+02:00",
+    "Number": "863726",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 335
+        "FieldType": "System.Int32",
+        "FieldLength": 742
       }
     }
   }

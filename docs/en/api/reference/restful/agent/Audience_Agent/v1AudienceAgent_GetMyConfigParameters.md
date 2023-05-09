@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 129,
-    "Name": "Ankunding Group",
-    "Value": "modi",
-    "CreatedDate": "2011-11-23T15:29:20.8097897+01:00",
-    "UpdatedDate": "2021-03-03T15:29:20.8097897+01:00",
-    "CreatedBy": "aut",
-    "UpdatedBy": "consectetur",
+    "AudienceLayoutId": 476,
+    "Name": "Zemlak-Will",
+    "Value": "ipsam",
+    "CreatedDate": "2010-01-26T03:51:26.5999985+01:00",
+    "UpdatedDate": "2005-04-25T03:51:26.5999985+02:00",
+    "CreatedBy": "vel",
+    "UpdatedBy": "dolor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 203
+        "FieldType": "System.Int32",
+        "FieldLength": 602
       }
     }
   }

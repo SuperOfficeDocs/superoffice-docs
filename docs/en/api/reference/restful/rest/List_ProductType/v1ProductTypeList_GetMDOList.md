@@ -25,8 +25,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=laboriosam
+GET /api/v1/List/ProductType/MDOItems?flat=False
+GET /api/v1/List/ProductType/MDOItems?query=nam
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Corwin, Tromp and Brakus",
-    "ToolTip": "Provident vitae provident quibusdam neque harum provident aliquid.",
+    "Id": 758,
+    "Name": "D'Amore Group",
+    "ToolTip": "Quibusdam ipsum culpa nesciunt incidunt et quae et.",
     "Deleted": false,
-    "Rank": 420,
-    "Type": "et",
+    "Rank": 85,
+    "Type": "modi",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "Yost-DuBuque",
-        "ToolTip": "Nulla a temporibus.",
-        "Deleted": true,
-        "Rank": 578,
-        "Type": "odit",
+        "Id": 466,
+        "Name": "Koch-Schuster",
+        "ToolTip": "Qui rerum.",
+        "Deleted": false,
+        "Rank": 744,
+        "Type": "similique",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 766,
-        "ExtraInfo": "vel",
-        "StyleHint": "odio",
-        "FullName": "Mrs. Calista West",
+        "IconHint": "sapiente",
+        "ColorBlock": 391,
+        "ExtraInfo": "et",
+        "StyleHint": "iusto",
+        "FullName": "Mrs. Makenzie Elbert Zemlak DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 556
+            "FieldLength": 128
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 332,
-    "ExtraInfo": "et",
-    "StyleHint": "illo",
-    "FullName": "Edyth Stoltenberg",
+    "IconHint": "ullam",
+    "ColorBlock": 734,
+    "ExtraInfo": "aperiam",
+    "StyleHint": "deserunt",
+    "FullName": "Mrs. Carli Kianna Kuvalis IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 164
       }
     }
   }

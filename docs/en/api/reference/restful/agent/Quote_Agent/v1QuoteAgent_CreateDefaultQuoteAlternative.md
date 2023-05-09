@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,35 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 216,
-  "ERPQuoteAlternativeKey": "optio",
-  "QuoteVersionId": 903,
-  "Name": "Cummerata Inc and Sons",
-  "Description": "Diverse disintermediate encryption",
+  "QuoteAlternativeId": 54,
+  "ERPQuoteAlternativeKey": "nisi",
+  "QuoteVersionId": 708,
+  "Name": "Roob, Towne and Fay",
+  "Description": "Polarised disintermediate synergy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 7963.494,
-  "ERPDiscountAmount": 6734.9659999999994,
-  "DiscountPercent": 8562.088,
-  "DiscountAmount": 21273.592,
+  "ERPDiscountPercent": 18581.486,
+  "ERPDiscountAmount": 30691.262,
+  "DiscountPercent": 12376.166,
+  "DiscountAmount": 21571.322,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 21771.898,
-  "EarningPercent": 8496.274,
-  "EarningAmount": 22154.246,
-  "SubTotal": 29650.773999999998,
-  "TotalPrice": 23063.106,
-  "ExtraField1": "atque",
-  "ExtraField2": "distinctio",
-  "ExtraField3": "perspiciatis",
-  "ExtraField4": "est",
-  "ExtraField5": "magnam",
+  "VATInfo": "quis",
+  "VAT": 28030.496,
+  "EarningPercent": 6020.414,
+  "EarningAmount": 18399.714,
+  "SubTotal": 21054.212,
+  "TotalPrice": 5089.616,
+  "ExtraField1": "tempora",
+  "ExtraField2": "totam",
+  "ExtraField3": "repellat",
+  "ExtraField4": "beatae",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldLength": 481
     }
   }
 }

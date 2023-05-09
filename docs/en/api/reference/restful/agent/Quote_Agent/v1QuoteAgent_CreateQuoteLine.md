@@ -121,12 +121,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 539,
-  "ERPProductKey": "cumque"
+  "QuoteAlternativeId": 41,
+  "ERPProductKey": "cupiditate"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 634,
-  "ERPQuoteLineKey": "molestias",
-  "QuoteAlternativeId": 345,
-  "ERPProductKey": "ipsam",
+  "QuoteLineId": 640,
+  "ERPQuoteLineKey": "ut",
+  "QuoteAlternativeId": 455,
+  "ERPProductKey": "pariatur",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 4397.0019999999995,
-  "DeliveredQuantity": 6659.75,
-  "Rank": 226,
-  "Name": "Schuppe Inc and Sons",
-  "Description": "Automated analyzing encryption",
-  "Code": "qui",
-  "QuantityUnit": "incidunt",
-  "PriceUnit": "non",
-  "ItemNumber": "428646",
+  "Quantity": 27986.62,
+  "DeliveredQuantity": 112.824,
+  "Rank": 922,
+  "Name": "Connelly, Auer and Blanda",
+  "Description": "Inverse interactive hub",
+  "Code": "vel",
+  "QuantityUnit": "quam",
+  "PriceUnit": "quibusdam",
+  "ItemNumber": "1806115",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aliquid",
-  "ProductTypeKey": "vitae",
-  "Supplier": "quibusdam",
-  "SupplierCode": "et",
-  "Thumbnail": "suscipit",
-  "VATInfo": "rerum",
-  "VAT": 14685.923999999999,
-  "UnitCost": 5236.914,
-  "UnitMinimumPrice": 1673.556,
-  "UnitListPrice": 28597.75,
+  "ProductFamilyKey": "reprehenderit",
+  "ProductTypeKey": "officiis",
+  "Supplier": "aliquid",
+  "SupplierCode": "debitis",
+  "Thumbnail": "magnam",
+  "VATInfo": "est",
+  "VAT": 31145.692,
+  "UnitCost": 18305.694,
+  "UnitMinimumPrice": 12771.05,
+  "UnitListPrice": 25996.53,
   "ExtraInfo": [
     {
-      "Name": "Bode LLC",
-      "Value": "id",
+      "Name": "Watsica-Hilll",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 816
+          "FieldLength": 981
         }
       }
     },
     {
-      "Name": "Bode LLC",
-      "Value": "id",
+      "Name": "Watsica-Hilll",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 816
+          "FieldLength": 981
         }
       }
     }
   ],
-  "RawExtraInfo": "dicta",
+  "RawExtraInfo": "nesciunt",
   "IsSubscription": false,
-  "SubscriptionUnit": "ratione",
-  "SubscriptionQuantity": 18556.414,
-  "SubscriptionStart": "2019-05-26T15:29:22.5902644+02:00",
-  "ERPDiscountPercent": 22944.014,
-  "ERPDiscountAmount": 18979.504,
-  "DiscountPercent": 27341.016,
-  "DiscountAmount": 7791.124,
+  "SubscriptionUnit": "vitae",
+  "SubscriptionQuantity": 28835.933999999997,
+  "SubscriptionStart": "2021-02-19T03:51:28.0215395+01:00",
+  "ERPDiscountPercent": 23457.989999999998,
+  "ERPDiscountAmount": 19612.572,
+  "DiscountPercent": 21931.732,
+  "DiscountAmount": 16907.93,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 19885.23,
-  "EarningAmount": 20750.214,
-  "SubTotal": 19048.452,
-  "TotalPrice": 5490.768,
-  "Rights": "omnis",
-  "Rule": "ut",
-  "ExtraField1": "possimus",
-  "ExtraField2": "unde",
-  "ExtraField3": "modi",
-  "ExtraField4": "ducimus",
-  "ExtraField5": "veritatis",
+  "EarningPercent": 1187.786,
+  "EarningAmount": 21527.446,
+  "SubTotal": 10345.333999999999,
+  "TotalPrice": 29324.838,
+  "Rights": "aut",
+  "Rule": "atque",
+  "ExtraField1": "et",
+  "ExtraField2": "autem",
+  "ExtraField3": "accusantium",
+  "ExtraField4": "delectus",
+  "ExtraField5": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 824
     }
   }
 }

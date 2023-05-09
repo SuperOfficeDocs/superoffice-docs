@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Marquardt-Kertzmann",
-  "EventFilter": "similique",
+  "NameFilter": "Hane, Erdman and Towne",
+  "EventFilter": "est",
   "StatusFilter": "Active"
 }
 ```
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 260,
-    "Name": "Hand-Stehr",
+    "WebhookId": 424,
+    "Name": "Little LLC",
     "Events": [
-      "doloremque",
-      "sequi"
+      "quis",
+      "voluptatem"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "inventore",
+    "Secret": "et",
     "State": "Active",
-    "Type": "nostrum",
+    "Type": "omnis",
     "Headers": {
-      "Headers1": "autem",
-      "Headers2": "dolor"
+      "Headers1": "quo",
+      "Headers2": "reprehenderit"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2012-06-30T15:29:23.4477875+02:00",
+    "Registered": "2002-02-18T03:51:28.5682842+01:00",
     "RegisteredAssociate": null,
-    "Updated": "1998-05-21T15:29:23.4477875+02:00",
+    "Updated": "2006-09-26T03:51:28.5682842+02:00",
     "UpdatedAssociate": null
   }
 ]

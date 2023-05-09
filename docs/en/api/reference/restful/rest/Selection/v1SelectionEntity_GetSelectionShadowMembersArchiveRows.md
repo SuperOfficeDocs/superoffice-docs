@@ -74,7 +74,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aliquid",
+  "odata.nextLink": "id",
   "value": [
     {
-      "PrimaryKey": 7522,
+      "PrimaryKey": 8338,
       "EntityName": "sale",
-      "saleId": 7522,
-      "contactId": 3903,
-      "name": "O'Hara LLC"
+      "saleId": 8338,
+      "contactId": 6499,
+      "name": "D'Amore, Spinka and Skiles"
     },
     {
-      "PrimaryKey": 8259,
+      "PrimaryKey": 6073,
       "EntityName": "sale",
-      "saleId": 8259,
-      "contactId": 1645,
-      "name": "Tremblay Inc and Sons"
+      "saleId": 6073,
+      "contactId": 958,
+      "name": "Gorczany-Brakus"
     }
   ]
 }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,25 +83,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 813,
-  "Name": "Kuhlman Inc and Sons",
-  "ConsentText": "vel",
-  "FormText": "maiores",
-  "Key": "perferendis",
-  "Tooltip": "est",
-  "Active": 450,
-  "UpdatedDate": "2020-05-13T15:29:31.1324779+02:00",
+  "ConsentPurposeId": 677,
+  "Name": "Hand, Barrows and Monahan",
+  "ConsentText": "eaque",
+  "FormText": "nostrum",
+  "Key": "eos",
+  "Tooltip": "et",
+  "Active": 172,
+  "UpdatedDate": "1997-02-16T03:51:34.5989925+01:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 955,
-  "PrivacyStatementDesc": "enim",
+  "Rank": 546,
+  "PrivacyStatementDesc": "ut",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldType": "System.String",
+      "FieldLength": 706
     }
   }
 }

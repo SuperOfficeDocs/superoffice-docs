@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 463
+  "ChatSessionId": 352
 }
 ```
 
@@ -119,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 764,
-  "TopicId": 110,
+  "ChatSessionId": 486,
+  "TopicId": 825,
   "User": null,
   "Person": null,
-  "CustomerAlias": "recusandae",
-  "CustomerHost": "est",
-  "CustomerName": "Bartell Group",
-  "CustomerEmail": "nico@oconner.biz",
-  "CustomerPhone": "435.907.2326 x74051",
+  "CustomerAlias": "cumque",
+  "CustomerHost": "dolor",
+  "CustomerName": "Turcotte, Gislason and Klein",
+  "CustomerEmail": "maybell.vonrueden@schowalter.biz",
+  "CustomerPhone": "231.059.1350",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Lynch Inc and Sons",
+  "CustomerCompanyName": "Romaguera-Kuhlman",
   "Status": "Closed",
-  "FirstMessage": "porro",
-  "LastMessage": "et",
-  "WhenRequested": "1998-08-04T15:29:20.9562872+02:00",
-  "WhenStarted": "2021-11-29T15:29:20.9562872+01:00",
-  "WhenEnded": "2004-10-01T15:29:20.9562872+02:00",
-  "WhenIdle": "2000-10-03T15:29:20.9562872+02:00",
-  "WhenFetched": "2017-01-19T15:29:20.9562872+01:00",
-  "SessionKey": "sit",
-  "InitialQueuePos": 828,
-  "AlertLevel": 462,
-  "Rank": 808,
+  "FirstMessage": "ab",
+  "LastMessage": "aut",
+  "WhenRequested": "2011-02-18T03:51:26.7093472+01:00",
+  "WhenStarted": "1997-07-13T03:51:26.7093472+02:00",
+  "WhenEnded": "2018-09-11T03:51:26.7093472+02:00",
+  "WhenIdle": "2003-04-25T03:51:26.7093472+02:00",
+  "WhenFetched": "2005-02-19T03:51:26.7093472+01:00",
+  "SessionKey": "maxime",
+  "InitialQueuePos": 329,
+  "AlertLevel": 321,
+  "Rank": 956,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 558,
+  "Rating": 531,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 227
+      "FieldType": "System.Int32",
+      "FieldLength": 65
     }
   }
 }

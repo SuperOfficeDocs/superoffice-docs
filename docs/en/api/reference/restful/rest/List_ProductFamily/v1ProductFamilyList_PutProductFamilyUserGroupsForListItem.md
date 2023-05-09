@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "Hodkiewicz, Towne and Littel",
-    "ToolTip": "Itaque minima ut cupiditate repudiandae odit qui.",
-    "Deleted": false,
-    "Rank": 702,
-    "Type": "quia",
-    "ColorBlock": 202,
-    "IconHint": "vel",
+    "Id": 431,
+    "Name": "Langworth-Dickens",
+    "ToolTip": "Eum molestiae qui blanditiis reiciendis.",
+    "Deleted": true,
+    "Rank": 97,
+    "Type": "magni",
+    "ColorBlock": 695,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2018-06-14T15:29:31.4144765+02:00",
+    "LastChanged": "1998-08-22T03:51:34.8176965+02:00",
     "ChildItems": [
       {
-        "Id": 311,
-        "Name": "Barrows LLC",
-        "ToolTip": "Quia quo facere sed.",
+        "Id": 187,
+        "Name": "McGlynn LLC",
+        "ToolTip": "Qui vero veniam.",
         "Deleted": false,
-        "Rank": 253,
-        "Type": "omnis",
-        "ColorBlock": 933,
-        "IconHint": "harum",
-        "Selected": true,
-        "LastChanged": "2004-08-27T15:29:31.4149777+02:00",
+        "Rank": 976,
+        "Type": "cum",
+        "ColorBlock": 960,
+        "IconHint": "impedit",
+        "Selected": false,
+        "LastChanged": "1996-10-08T03:51:34.8176965+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "fugit",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Miss Dale Heaney"
+        "FullName": "Elyssa Erdman"
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Ruthie Kemmer"
+    "ExtraInfo": "saepe",
+    "StyleHint": "distinctio",
+    "Hidden": false,
+    "FullName": "Domingo Crist"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Marvin, Mann and Douglas",
-    "ToolTip": "Et quia quis enim omnis cupiditate temporibus nam.",
-    "Deleted": true,
-    "Rank": 579,
-    "Type": "fuga",
-    "ColorBlock": 174,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "1999-08-12T15:29:31.4159771+02:00",
+    "Id": 732,
+    "Name": "Denesik-Donnelly",
+    "ToolTip": "Sit magni ut id.",
+    "Deleted": false,
+    "Rank": 237,
+    "Type": "amet",
+    "ColorBlock": 506,
+    "IconHint": "accusantium",
+    "Selected": false,
+    "LastChanged": "2004-05-10T03:51:34.8176965+02:00",
     "ChildItems": [
       {
-        "Id": 819,
-        "Name": "Sipes Inc and Sons",
-        "ToolTip": "Et minus omnis velit voluptas eum enim quas.",
-        "Deleted": true,
-        "Rank": 589,
-        "Type": "suscipit",
-        "ColorBlock": 719,
-        "IconHint": "quidem",
+        "Id": 377,
+        "Name": "Howe-Marvin",
+        "ToolTip": "Molestiae est rem.",
+        "Deleted": false,
+        "Rank": 408,
+        "Type": "officiis",
+        "ColorBlock": 392,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2011-01-23T15:29:31.4159771+01:00",
+        "LastChanged": "2007-10-13T03:51:34.8176965+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "vero",
+        "ExtraInfo": "sed",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Maynard Will",
+        "FullName": "Verona Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 601
+            "FieldType": "System.String",
+            "FieldLength": 130
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "magnam",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Mrs. Eleonore Zackary Buckridge",
+    "FullName": "Miss Rosalee Gorczany",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 234
+        "FieldType": "System.Int32",
+        "FieldLength": 861
       }
     }
   }

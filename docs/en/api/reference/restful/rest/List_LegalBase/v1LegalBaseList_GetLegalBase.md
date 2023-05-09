@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 914,
-  "Name": "Oberbrunner-Gorczany",
-  "Tooltip": "corporis",
-  "Rank": 648,
-  "Key": "voluptatibus",
+  "LegalBaseId": 399,
+  "Name": "O'Connell, Schumm and Ziemann",
+  "Tooltip": "vitae",
+  "Rank": 165,
+  "Key": "sit",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 690
     }
   }
 }

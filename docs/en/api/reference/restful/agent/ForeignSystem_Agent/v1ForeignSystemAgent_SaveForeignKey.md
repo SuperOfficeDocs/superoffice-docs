@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Hansen Group",
-  "DeviceName": "Schaefer, Moore and Dibbert",
-  "DeviceIdentifier": "aut"
+  "ApplicationName": "Boyer, Gleason and Konopelski",
+  "DeviceName": "Simonis LLC",
+  "DeviceIdentifier": "eligendi"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolores",
-  "Value": "maiores",
-  "RecordId": 110,
-  "CreatedDate": "1997-04-14T15:29:21.9233092+02:00",
-  "UpdatedDate": "2013-10-23T15:29:21.9233092+02:00",
-  "UpdatedBy": "reprehenderit",
-  "CreatedBy": "veritatis",
-  "TableName": "Sporer-Reynolds",
+  "Key": "autem",
+  "Value": "in",
+  "RecordId": 667,
+  "CreatedDate": "2012-08-01T03:51:27.3498217+02:00",
+  "UpdatedDate": "2019-10-25T03:51:27.3498217+02:00",
+  "UpdatedBy": "commodi",
+  "CreatedBy": "alias",
+  "TableName": "Schiller-Thompson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   }
 }

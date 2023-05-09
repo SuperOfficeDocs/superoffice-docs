@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Cremin Group",
-    "ToolTip": "Aut consectetur omnis inventore sint nisi modi.",
+    "Id": 664,
+    "Name": "Oberbrunner-Hickle",
+    "ToolTip": "Id hic rem magni non asperiores illum.",
     "Deleted": false,
-    "Rank": 619,
-    "Type": "neque",
-    "ColorBlock": 810,
-    "IconHint": "accusantium",
+    "Rank": 935,
+    "Type": "sunt",
+    "ColorBlock": 942,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2011-03-17T15:29:31.0349467+01:00",
+    "LastChanged": "1997-07-28T03:51:34.3490406+02:00",
     "ChildItems": [
       {
-        "Id": 844,
-        "Name": "Schmidt, Flatley and Kertzmann",
-        "ToolTip": "Esse aut cupiditate praesentium cumque quis incidunt.",
+        "Id": 761,
+        "Name": "Hickle, Hills and Torp",
+        "ToolTip": "Repellat est quia nam magnam.",
         "Deleted": false,
-        "Rank": 155,
-        "Type": "ratione",
-        "ColorBlock": 484,
-        "IconHint": "iusto",
+        "Rank": 918,
+        "Type": "laboriosam",
+        "ColorBlock": 428,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "1996-09-04T15:29:31.0354466+02:00",
+        "LastChanged": "2007-06-21T03:51:34.3490406+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "qui",
+        "ExtraInfo": "similique",
+        "StyleHint": "labore",
         "Hidden": true,
-        "FullName": "Ms. Carli Zora Kuhlman"
+        "FullName": "Ariane Rosalinda Christiansen IV"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "dolorum",
-    "Hidden": true,
-    "FullName": "Dr. Mariano Zieme IV"
+    "ExtraInfo": "dolorum",
+    "StyleHint": "quam",
+    "Hidden": false,
+    "FullName": "Prof. Forrest Rice V"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 409,
-    "Name": "Satterfield, Jones and Baumbach",
-    "ToolTip": "Minima et aut incidunt.",
+    "Id": 782,
+    "Name": "Reichel, Homenick and Gaylord",
+    "ToolTip": "Alias rerum quam adipisci.",
     "Deleted": false,
-    "Rank": 296,
-    "Type": "vitae",
-    "ColorBlock": 148,
-    "IconHint": "quia",
+    "Rank": 291,
+    "Type": "iusto",
+    "ColorBlock": 137,
+    "IconHint": "ipsa",
     "Selected": false,
-    "LastChanged": "2006-12-24T15:29:31.0369468+01:00",
+    "LastChanged": "2014-05-14T03:51:34.3490406+02:00",
     "ChildItems": [
       {
-        "Id": 516,
-        "Name": "Witting, Glover and Cruickshank",
-        "ToolTip": "Consequatur expedita.",
+        "Id": 511,
+        "Name": "Quigley LLC",
+        "ToolTip": "Facere reprehenderit ut magni repudiandae.",
         "Deleted": true,
-        "Rank": 540,
-        "Type": "iure",
-        "ColorBlock": 20,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2018-06-24T15:29:31.0369468+02:00",
+        "Rank": 513,
+        "Type": "qui",
+        "ColorBlock": 601,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2021-09-16T03:51:34.3490406+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "autem",
+        "ExtraInfo": "alias",
+        "StyleHint": "cumque",
         "Hidden": false,
-        "FullName": "Jannie Reichert",
+        "FullName": "Myrtis Grant IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 88
+            "FieldLength": 637
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "quo",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Mr. Hershel Waelchi",
+    "FullName": "Anibal Everardo Russel I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 571
+        "FieldLength": 506
       }
     }
   }

@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 592,
-  "Name": "Medhurst-Bartell",
-  "AssociateId": 457,
-  "DetailsTable": 365,
-  "DetailsRecord": 288,
+  "Id": 392,
+  "Name": "Schuppe-Leannon",
+  "AssociateId": 976,
+  "DetailsTable": 949,
+  "DetailsRecord": 595,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "facere",
-    "ParameterObject2": "autem"
+    "ParameterObject1": "voluptatem",
+    "ParameterObject2": "quibusdam"
   },
-  "LastStarted": "1998-12-12T15:29:22.6397966+01:00",
-  "Created": "2003-06-22T15:29:22.6397966+02:00",
-  "StartCount": 769,
-  "DatabaseSerialNumber": "1098446",
-  "Context": "omnis",
-  "Result": "nemo",
+  "LastStarted": "2011-03-28T03:51:28.0684042+02:00",
+  "Created": "1997-04-19T03:51:28.0684042+02:00",
+  "StartCount": 296,
+  "DatabaseSerialNumber": "1032219",
+  "Context": "sequi",
+  "Result": "vel",
   "State": "All",
-  "Description": "Synchronised assymetric forecast",
-  "Response": "velit",
-  "Request": "voluptatibus",
-  "ProgressDescription": "Team-oriented client-server throughput",
-  "ProgressPercent": 101,
-  "FileName": "Spinka, Anderson and Zulauf",
+  "Description": "Diverse actuating conglomeration",
+  "Response": "tenetur",
+  "Request": "quo",
+  "ProgressDescription": "Multi-channelled systemic parallelism",
+  "ProgressPercent": 412,
+  "FileName": "Rosenbaum-Schimmel",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldType": "System.Int32",
+      "FieldLength": 631
     }
   }
 }

@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cupiditate",
-  "ProviderName": "Kunde-Boyer"
+  "StorageType": "et",
+  "ProviderName": "Jakubowski-Koch"
 }
 ```
 
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "sit",
-  "consequatur"
+  "nihil",
+  "non"
 ]
 ```

@@ -25,7 +25,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=965
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=70
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 621,
-  "ERPQuoteAlternativeKey": "voluptatum",
-  "QuoteVersionId": 121,
-  "Name": "Romaguera, Lueilwitz and Turcotte",
-  "Description": "Balanced global conglomeration",
+  "QuoteAlternativeId": 431,
+  "ERPQuoteAlternativeKey": "unde",
+  "QuoteVersionId": 788,
+  "Name": "Douglas, Veum and Bartoletti",
+  "Description": "Progressive encompassing standardization",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 31255.381999999998,
-  "ERPDiscountAmount": 30330.852,
-  "DiscountPercent": 10505.168,
-  "DiscountAmount": 1413.434,
+  "ERPDiscountPercent": 1062.426,
+  "ERPDiscountAmount": 24755.466,
+  "DiscountPercent": 3669.9139999999998,
+  "DiscountAmount": 8151.534,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dicta",
-  "VAT": 27967.816,
-  "EarningPercent": 18045.572,
-  "EarningAmount": 8217.348,
-  "SubTotal": 8355.244,
-  "TotalPrice": 5713.282,
-  "ExtraField1": "voluptas",
-  "ExtraField2": "dolores",
-  "ExtraField3": "doloribus",
-  "ExtraField4": "sint",
-  "ExtraField5": "molestiae",
+  "VATInfo": "ipsa",
+  "VAT": 29550.486,
+  "EarningPercent": 12617.484,
+  "EarningAmount": 24235.221999999998,
+  "SubTotal": 18694.309999999998,
+  "TotalPrice": 26422.754,
+  "ExtraField1": "mollitia",
+  "ExtraField2": "molestiae",
+  "ExtraField3": "quia",
+  "ExtraField4": "qui",
+  "ExtraField5": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldLength": 484
     }
   }
 }

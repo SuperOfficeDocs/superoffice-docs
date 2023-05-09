@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 856,
-  "StartTime": "2006-05-03T15:29:20.7552901+02:00",
-  "EndTime": "2009-11-18T15:29:20.7552901+01:00",
-  "Count": 584,
+  "ProjectId": 407,
+  "StartTime": "2006-09-26T03:51:26.5531332+02:00",
+  "EndTime": "1998-09-20T03:51:26.5531332+02:00",
+  "Count": 424,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 737,
-    "StartDate": "1996-03-31T15:29:20.7567904+02:00",
-    "EndDate": "2002-03-11T15:29:20.7567904+01:00",
+    "AppointmentId": 936,
+    "StartDate": "2010-07-20T03:51:26.5531332+02:00",
+    "EndDate": "2012-03-12T03:51:26.5531332+01:00",
     "Type": "BookingForChecklist",
-    "Task": "optio",
-    "AssociateFullName": "Prof. Larry Dorian Ziemann",
-    "ContactName": "Murray LLC",
-    "Description": "Switchable optimizing definition",
-    "PersonFullName": "Myriam Darius Hackett V",
-    "PersonId": 340,
-    "ContactId": 392,
-    "ProjectId": 405,
-    "ProjectName": "Armstrong Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 59,
-    "ColorIndex": 37,
+    "Task": "exercitationem",
+    "AssociateFullName": "Raymundo Herzog",
+    "ContactName": "Schmitt Inc and Sons",
+    "Description": "Fundamental bandwidth-monitored focus group",
+    "PersonFullName": "Hope Emely Bahringer MD",
+    "PersonId": 874,
+    "ContactId": 121,
+    "ProjectId": 268,
+    "ProjectName": "Homenick Group",
+    "IsPublished": false,
+    "AssociateId": 926,
+    "ColorIndex": 145,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 674,
-    "PriorityName": "Fahey, Senger and Rempel",
+    "PriorityId": 165,
+    "PriorityName": "Kshlerin LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2011-12-09T15:29:20.7577907+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2004-12-26T03:51:26.5531332+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-06-28T15:29:20.7577907+02:00",
-    "RecurringEndDate": "2017-01-20T15:29:20.7577907+01:00",
-    "MotherId": 439,
-    "AssignedBy": 395,
-    "AssignedByFullName": "Brice Weimann",
+    "RecurringStartDate": "2001-11-14T03:51:26.5531332+01:00",
+    "RecurringEndDate": "2016-05-07T03:51:26.5531332+02:00",
+    "MotherId": 365,
+    "AssignedBy": 139,
+    "AssignedByFullName": "Mr. Jaren Caesar Hansen",
     "RejectReason": "",
-    "Location": "vero",
-    "AlarmLeadTime": "consectetur",
-    "SaleId": 821,
-    "SaleName": "Schulist, Bergstrom and Parker",
-    "AssociateName": "Batz, Schulist and Cremin",
-    "CreatedDate": "2012-11-23T15:29:20.7577907+01:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Alyson Anderson",
-    "CreatedByAssociateId": 452,
+    "Location": "nam",
+    "AlarmLeadTime": "dolores",
+    "SaleId": 587,
+    "SaleName": "Stanton Group",
+    "AssociateName": "Emmerich-Connelly",
+    "CreatedDate": "2004-01-18T03:51:26.5531332+01:00",
+    "CreatedBy": "cumque",
+    "CreatedByFullName": "Moriah Hansen",
+    "CreatedByAssociateId": 741,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 402
       }
     }
   }

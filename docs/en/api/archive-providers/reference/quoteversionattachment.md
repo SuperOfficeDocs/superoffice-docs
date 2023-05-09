@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteVersionAttachment"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -116,7 +116,7 @@ This is the archive Provider for quote version attachments.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteVersionAttachment?$select=registeredByFullName,subject,documentPublish/publishedTo
+GET /api/v1/archive/QuoteVersionAttachment?$select=subject,documentPublish/publishedTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

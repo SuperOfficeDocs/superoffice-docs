@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 651
+  "ProjectId": 737
 }
 ```
 
@@ -107,32 +107,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 53,
-    "Attention": "velit",
-    "Header": "libero",
-    "Name": "Dickens LLC",
-    "OurRef": "dolor",
-    "YourRef": "impedit",
-    "Description": "Virtual mission-critical throughput",
-    "DocumentTemplate": "placeat",
+    "DocumentId": 194,
+    "Attention": "aliquid",
+    "Header": "voluptatum",
+    "Name": "Hirthe-Nikolaus",
+    "OurRef": "quibusdam",
+    "YourRef": "odit",
+    "Description": "Mandatory 3rd generation superstructure",
+    "DocumentTemplate": "sint",
     "IsPublished": false,
-    "PersonId": 993,
-    "PersonFullName": "Jarvis Hyatt",
-    "AssociateFullName": "Regan Hessel",
-    "ContactId": 934,
-    "ContactName": "Gislason-Halvorson",
-    "ProjectId": 289,
-    "ProjectName": "Kohler, Pollich and Hayes",
-    "AssociateId": 335,
-    "Snum": 286,
-    "SaleId": 645,
-    "SaleName": "Metz, Stiedemann and DuBuque",
+    "PersonId": 225,
+    "PersonFullName": "Tiffany Thompson Jr.",
+    "AssociateFullName": "Gunnar Sawayn",
+    "ContactId": 337,
+    "ContactName": "Grady, Gutkowski and Waters",
+    "ProjectId": 728,
+    "ProjectName": "Koepp, Kirlin and Swaniawski",
+    "AssociateId": 769,
+    "Snum": 231,
+    "SaleId": 970,
+    "SaleName": "Trantow Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 317
+        "FieldType": "System.Int32",
+        "FieldLength": 574
       }
     }
   }

@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 909,
-  "Name": "Ortiz, Farrell and Considine",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 873,
-  "Rank": 28,
+  "Id": 756,
+  "Name": "Crona Group",
+  "Tooltip": "architecto",
+  "Deleted": false,
+  "UdListDefinitionId": 719,
+  "Rank": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldType": "System.Int32",
+      "FieldLength": 480
     }
   }
 }

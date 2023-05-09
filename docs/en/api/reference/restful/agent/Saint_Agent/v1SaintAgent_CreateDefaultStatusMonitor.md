@@ -80,27 +80,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 768,
-  "Rank": 112,
-  "DefaultTask": 425,
-  "DefaultTaskText": "qui",
-  "IsVisual": true,
-  "LastGenerated": "1999-02-27T15:29:22.6352634+01:00",
-  "Description": "Enhanced national complexity",
-  "Name": "Braun-Grimes",
-  "StatusMonitorId": 481,
-  "PictureId": 364,
+  "OwnerTable": 81,
+  "Rank": 373,
+  "DefaultTask": 996,
+  "DefaultTaskText": "officiis",
+  "IsVisual": false,
+  "LastGenerated": "2006-04-06T03:51:28.0684042+02:00",
+  "Description": "Persevering multi-state projection",
+  "Name": "Dare, Padberg and Simonis",
+  "StatusMonitorId": 318,
+  "PictureId": 587,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 552,
-  "NumNeedUpdate": 517,
-  "GenerationStart": "2021-07-10T15:29:22.6352634+02:00",
+  "Deleted": true,
+  "NumMatches": 361,
+  "NumNeedUpdate": 58,
+  "GenerationStart": "2018-08-06T03:51:28.0684042+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 811
     }
   }
 }

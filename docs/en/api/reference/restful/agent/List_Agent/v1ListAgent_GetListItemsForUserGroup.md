@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 528,
-  "GroupId": 432
+  "UdListDefinitionId": 557,
+  "GroupId": 15
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 489,
-    "Name": "Bayer, Kessler and Walter",
-    "ToolTip": "Eum quas omnis qui eum distinctio.",
+    "Id": 206,
+    "Name": "Connelly-Medhurst",
+    "ToolTip": "Harum aliquam omnis expedita.",
     "Deleted": false,
-    "Rank": 73,
-    "Type": "ea",
-    "ColorBlock": 567,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2015-06-20T15:29:22.0152726+02:00",
+    "Rank": 531,
+    "Type": "repellendus",
+    "ColorBlock": 640,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2000-12-31T03:51:27.4279277+01:00",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Kertzmann, Fadel and Kovacek",
-        "ToolTip": "Aliquam ut nobis hic a eos ea.",
-        "Deleted": true,
-        "Rank": 309,
-        "Type": "ut",
-        "ColorBlock": 120,
+        "Id": 73,
+        "Name": "Roberts LLC",
+        "ToolTip": "Minima velit expedita incidunt dolores dolor autem reiciendis.",
+        "Deleted": false,
+        "Rank": 738,
+        "Type": "cupiditate",
+        "ColorBlock": 452,
         "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "2009-04-26T15:29:22.0152726+02:00",
+        "LastChanged": "2022-05-07T03:51:27.4279277+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "officiis",
+        "ExtraInfo": "fugit",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Aliyah Reichel",
+        "FullName": "Blanche Bahringer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 105
+            "FieldType": "System.String",
+            "FieldLength": 317
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "repellat",
+    "ExtraInfo": "quo",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Mr. Boris Emard",
+    "FullName": "Alvina Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 954
+        "FieldType": "System.Int32",
+        "FieldLength": 117
       }
     }
   }

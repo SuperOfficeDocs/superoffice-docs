@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "esse",
-  "SearchString": "itaque"
+  "Type": "sed",
+  "SearchString": "facilis"
 }
 ```
 
@@ -96,26 +96,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heller, Ryan and Conn",
-    "DisplayName": "Fahey, Heller and Kiehn",
+    "Name": "Thompson-Grady",
+    "DisplayName": "Bashirian Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 175
       }
     }
   },
   {
-    "Name": "Heller, Ryan and Conn",
-    "DisplayName": "Fahey, Heller and Kiehn",
+    "Name": "Thompson-Grady",
+    "DisplayName": "Bashirian Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 175
       }
     }
   }

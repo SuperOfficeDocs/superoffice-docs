@@ -25,7 +25,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=435
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=759
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,53 +97,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 303,
-  "Name": "Christiansen, Howe and Ankunding",
-  "Tooltip": "voluptatum",
-  "Rank": 904,
+  "SaleTypeId": 973,
+  "Name": "Koch, Nikolaus and Bahringer",
+  "Tooltip": "architecto",
+  "Rank": 673,
   "DurationUnit": "Century",
-  "SaleDuration": 775,
-  "SaleTypeCatId": 359,
+  "SaleDuration": 561,
+  "SaleTypeCatId": 213,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 747,
-  "QuoteLinesTemplate": 871,
-  "ConfirmationLinesTemplate": 775,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 92,
+  "QuoteLinesTemplate": 955,
+  "ConfirmationLinesTemplate": 294,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 367,
-  "MinEarningPercent": 327,
-  "GroupQuoteLinesBy": 32,
-  "SortGroupLinesBy": 808,
+  "MaxDiscountPercent": 60,
+  "MinEarningPercent": 238,
+  "GroupQuoteLinesBy": 977,
+  "SortGroupLinesBy": 832,
   "Stages": [
     {
-      "Id": 725,
-      "Name": "Tremblay, Cormier and Hamill",
-      "ToolTip": "Itaque est beatae rerum quis voluptatum.",
-      "Deleted": false,
-      "Rank": 169,
-      "Type": "voluptatem",
-      "ColorBlock": 8,
-      "IconHint": "non",
-      "Selected": false,
-      "LastChanged": "2022-03-24T15:29:21.9947722+01:00",
+      "Id": 363,
+      "Name": "Boyle-Toy",
+      "ToolTip": "Magnam quam magni rerum temporibus quia ullam.",
+      "Deleted": true,
+      "Rank": 63,
+      "Type": "qui",
+      "ColorBlock": 415,
+      "IconHint": "ea",
+      "Selected": true,
+      "LastChanged": "2007-01-27T03:51:27.4123074+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "totam",
-      "StyleHint": "occaecati",
-      "Hidden": false,
-      "FullName": "Lamar Paucek",
+      "ExtraInfo": "ducimus",
+      "StyleHint": "repellendus",
+      "Hidden": true,
+      "FullName": "Heloise Bartell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 35
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldLength": 117
     }
   }
 }

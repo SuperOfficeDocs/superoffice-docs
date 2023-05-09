@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -104,33 +104,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 61,
-    "ErpConnectorId": 720,
-    "DisplayName": "Effertz Inc and Sons",
-    "DisplayDescription": "Advanced local portal",
-    "Active": false,
-    "ConnectionId": "nam",
-    "MostRecentTimestamp": "sint",
+    "ErpConnectionId": 344,
+    "ErpConnectorId": 519,
+    "DisplayName": "Moore LLC",
+    "DisplayDescription": "Stand-alone demand-driven leverage",
+    "Active": true,
+    "ConnectionId": "eum",
+    "MostRecentTimestamp": "magnam",
     "ConfigFields": {
-      "ConfigFields1": "iste",
-      "ConfigFields2": "alias"
+      "ConfigFields1": "vel",
+      "ConfigFields2": "exercitationem"
     },
     "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      485,
-      336
+      225,
+      259
     ],
     "AssociateAccessIds": [
-      102,
-      8
+      529,
+      265
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 941
       }
     }
   }

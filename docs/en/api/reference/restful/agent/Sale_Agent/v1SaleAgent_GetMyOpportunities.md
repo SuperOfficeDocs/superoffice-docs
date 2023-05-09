@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 230
+  "Count": 627
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Rolfson, Brekke and McDermott",
-    "SaleDate": "1997-02-20T15:29:22.7262978+01:00",
-    "SaleId": 486,
-    "Probability": 652,
-    "Title": "illum",
-    "Amount": 7640.692,
-    "Currency": "amet",
-    "ProjectName": "Stanton Inc and Sons",
-    "AssociateFullName": "Frederik Gorczany IV",
-    "Description": "De-engineered 24 hour matrices",
+    "ContactName": "Halvorson, Ortiz and Konopelski",
+    "SaleDate": "2016-01-12T03:51:28.1152684+01:00",
+    "SaleId": 751,
+    "Probability": 847,
+    "Title": "autem",
+    "Amount": 9859.564,
+    "Currency": "et",
+    "ProjectName": "Feeney-Greenfelder",
+    "AssociateFullName": "Gregg Wisozk",
+    "Description": "Public-key 5th generation matrix",
     "Status": "Lost",
-    "WeightedAmount": 30500.088,
-    "ProjectId": 230,
-    "EarningPercent": 8941.302,
-    "Earning": 27895.734,
-    "ContactId": 518,
-    "AssociateId": 358,
-    "PersonId": 546,
-    "SaleTypeId": 116,
-    "SaleTypeName": "Stanton, Connelly and Goodwin",
-    "PersonFullName": "Junior Crooks",
+    "WeightedAmount": 1993.224,
+    "ProjectId": 906,
+    "EarningPercent": 26040.406,
+    "Earning": 16519.314,
+    "ContactId": 649,
+    "AssociateId": 989,
+    "PersonId": 524,
+    "SaleTypeId": 74,
+    "SaleTypeName": "Harvey-Hodkiewicz",
+    "PersonFullName": "Sedrick O'Kon",
     "Completed": "Completed",
-    "ActiveErpLinks": 370,
-    "NextDueDate": "2002-06-14T15:29:22.7268019+02:00",
-    "Number": "1635416",
+    "ActiveErpLinks": 145,
+    "NextDueDate": "1998-11-13T03:51:28.1152684+01:00",
+    "Number": "834554",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 945
+        "FieldLength": 184
       }
     }
   }

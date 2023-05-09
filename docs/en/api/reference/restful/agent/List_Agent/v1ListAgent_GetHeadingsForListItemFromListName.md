@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Predovic, Runte and Yost",
-  "ListItemId": 868,
+  "UdListDefinitionName": "Fadel, Larson and Sipes",
+  "ListItemId": 881,
   "ShowDeleted": false
 }
 ```
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 350,
-    "Name": "Klein LLC",
-    "ToolTip": "Tenetur ut vel at a voluptate.",
-    "Deleted": false,
-    "Rank": 941,
-    "Type": "quia",
-    "ColorBlock": 530,
-    "IconHint": "omnis",
+    "Id": 499,
+    "Name": "Medhurst Inc and Sons",
+    "ToolTip": "Commodi laboriosam et aut et saepe.",
+    "Deleted": true,
+    "Rank": 609,
+    "Type": "modi",
+    "ColorBlock": 771,
+    "IconHint": "ducimus",
     "Selected": false,
-    "LastChanged": "1997-05-30T15:29:22.0212725+02:00",
+    "LastChanged": "2011-03-27T03:51:27.4279277+02:00",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "Shanahan-Jacobi",
-        "ToolTip": "Provident quia est culpa accusantium hic quasi.",
+        "Id": 85,
+        "Name": "Hessel-Rice",
+        "ToolTip": "Dolorum dicta dolorum adipisci.",
         "Deleted": false,
-        "Rank": 801,
-        "Type": "nihil",
-        "ColorBlock": 155,
-        "IconHint": "minus",
-        "Selected": false,
-        "LastChanged": "2002-11-12T15:29:22.0212725+01:00",
+        "Rank": 920,
+        "Type": "ipsum",
+        "ColorBlock": 213,
+        "IconHint": "velit",
+        "Selected": true,
+        "LastChanged": "2011-06-04T03:51:27.4279277+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "ex",
-        "Hidden": true,
-        "FullName": "Amber Sim Ruecker II",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "consequuntur",
+        "Hidden": false,
+        "FullName": "Ms. Junius Trey Aufderhar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 302
+            "FieldType": "System.String",
+            "FieldLength": 46
           }
         }
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Libby Connelly",
+    "ExtraInfo": "quod",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Ms. Chadrick Una Stehr PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldType": "System.Int32",
+        "FieldLength": 735
       }
     }
   }

@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 791,
-    "Name": "O'Reilly-Torp",
-    "Tooltip": "nostrum",
-    "Deleted": false,
-    "Rank": 490,
-    "UdListDefinitionId": 379,
+    "HeadingId": 734,
+    "Name": "Tromp, Bergstrom and Satterfield",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "Rank": 188,
+    "UdListDefinitionId": 129,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 396
       }
     }
   }

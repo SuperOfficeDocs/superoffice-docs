@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 888,
-    "Name": "Jacobson, Paucek and Ebert",
-    "Description": "Reduced object-oriented pricing structure",
+    "ProjectId": 429,
+    "Name": "Frami-Okuneva",
+    "Description": "Robust holistic middleware",
     "URL": "http://www.example.com/",
-    "Type": "modi",
-    "AssociateId": 589,
-    "AssociateFullName": "Hayden D'Amore",
-    "TypeId": 980,
-    "Updated": "2015-08-08T15:29:22.489765+02:00",
-    "StatusId": 114,
-    "Status": "voluptatem",
-    "TextId": 64,
-    "PublishTo": "2010-06-15T15:29:22.489765+02:00",
-    "PublishFrom": "2010-04-05T15:29:22.489765+02:00",
+    "Type": "impedit",
+    "AssociateId": 171,
+    "AssociateFullName": "Treva Shields",
+    "TypeId": 486,
+    "Updated": "2002-10-13T03:51:27.9590553+02:00",
+    "StatusId": 620,
+    "Status": "quidem",
+    "TextId": 612,
+    "PublishTo": "1996-01-04T03:51:27.9590553+01:00",
+    "PublishFrom": "2006-05-17T03:51:27.9590553+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1066726",
-    "ActiveErpLinks": 54,
+    "ProjectNumber": "872154",
+    "ActiveErpLinks": 403,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldLength": 175
       }
     }
   }

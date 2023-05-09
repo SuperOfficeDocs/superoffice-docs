@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 966,
-  "StartTime": "2004-02-11T15:29:20.2253274+01:00",
-  "EndTime": "2008-05-28T15:29:20.2253274+02:00",
-  "Count": 54,
+  "ContactId": 200,
+  "StartTime": "2003-01-27T03:51:26.0844949+01:00",
+  "EndTime": "1999-06-11T03:51:26.0844949+02:00",
+  "Count": 442,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 810,
-    "StartDate": "1999-10-12T15:29:20.2263292+02:00",
-    "EndDate": "2004-01-15T15:29:20.2263292+01:00",
+    "AppointmentId": 718,
+    "StartDate": "2005-10-20T03:51:26.0844949+02:00",
+    "EndDate": "1999-04-26T03:51:26.0844949+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nemo",
-    "AssociateFullName": "Miss Veronica Finn Frami III",
-    "ContactName": "Konopelski, Green and Johns",
-    "Description": "Re-engineered didactic moderator",
-    "PersonFullName": "Nils Osinski II",
-    "PersonId": 184,
-    "ContactId": 450,
-    "ProjectId": 618,
-    "ProjectName": "Quigley, Purdy and Ruecker",
+    "Task": "beatae",
+    "AssociateFullName": "Pascale Stehr",
+    "ContactName": "Thompson Group",
+    "Description": "Secured assymetric contingency",
+    "PersonFullName": "Blanca Pollich",
+    "PersonId": 980,
+    "ContactId": 860,
+    "ProjectId": 164,
+    "ProjectName": "Swaniawski-Hammes",
     "IsPublished": false,
-    "AssociateId": 548,
-    "ColorIndex": 727,
+    "AssociateId": 764,
+    "ColorIndex": 86,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 960,
-    "PriorityName": "Grant-Hessel",
+    "PriorityId": 283,
+    "PriorityName": "Denesik Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2007-09-12T15:29:20.2273229+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2005-01-23T03:51:26.0844949+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-08-26T15:29:20.2273229+02:00",
-    "RecurringEndDate": "2010-08-08T15:29:20.2273229+02:00",
-    "MotherId": 54,
-    "AssignedBy": 528,
-    "AssignedByFullName": "Nathanial Ward",
+    "RecurringStartDate": "2010-12-25T03:51:26.0844949+01:00",
+    "RecurringEndDate": "1998-10-20T03:51:26.0844949+02:00",
+    "MotherId": 74,
+    "AssignedBy": 306,
+    "AssignedByFullName": "Dayana O'Conner",
     "RejectReason": "",
-    "Location": "consectetur",
-    "AlarmLeadTime": "enim",
-    "SaleId": 212,
-    "SaleName": "Hamill Group",
-    "AssociateName": "Prohaska Group",
-    "CreatedDate": "2004-09-12T15:29:20.2273229+02:00",
-    "CreatedBy": "id",
-    "CreatedByFullName": "Berenice Koepp",
-    "CreatedByAssociateId": 31,
+    "Location": "quis",
+    "AlarmLeadTime": "dolorum",
+    "SaleId": 758,
+    "SaleName": "Jacobson, Goodwin and Turcotte",
+    "AssociateName": "Keeling, Haag and Bayer",
+    "CreatedDate": "2011-03-31T03:51:26.1001041+02:00",
+    "CreatedBy": "distinctio",
+    "CreatedByFullName": "Vaughn O'Hara",
+    "CreatedByAssociateId": 892,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 879
+        "FieldType": "System.Int32",
+        "FieldLength": 815
       }
     }
   }

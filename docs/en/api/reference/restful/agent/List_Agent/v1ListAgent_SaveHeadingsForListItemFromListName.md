@@ -92,28 +92,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bartell, Abbott and Klocko",
-  "ListItemId": 195,
+  "UdListDefinitionName": "Orn, Rice and Cummings",
+  "ListItemId": 272,
   "Headings": [
     {
-      "Id": 780,
-      "Name": "Stokes, Langosh and Effertz",
-      "ToolTip": "Maxime laborum.",
+      "Id": 115,
+      "Name": "Christiansen-Prohaska",
+      "ToolTip": "Rerum tenetur et.",
       "Deleted": false,
-      "Rank": 191,
-      "Type": "nostrum",
-      "ColorBlock": 736,
-      "IconHint": "quia",
+      "Rank": 651,
+      "Type": "asperiores",
+      "ColorBlock": 378,
+      "IconHint": "aut",
       "Selected": true,
-      "LastChanged": "2008-10-07T15:29:22.0237728+02:00",
+      "LastChanged": "2019-05-24T03:51:27.4279277+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repudiandae",
-      "StyleHint": "aperiam",
+      "ExtraInfo": "iure",
+      "StyleHint": "iusto",
       "Hidden": false,
-      "FullName": "Miss Claud Barrows"
+      "FullName": "Mr. Aurelio Clarissa Braun"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Stehr, Bruen and Gibson",
-    "ToolTip": "Recusandae mollitia earum hic ipsam illum quis sit.",
-    "Deleted": false,
-    "Rank": 463,
-    "Type": "facilis",
-    "ColorBlock": 250,
-    "IconHint": "cupiditate",
+    "Id": 890,
+    "Name": "Altenwerth-Schneider",
+    "ToolTip": "Hic consequatur.",
+    "Deleted": true,
+    "Rank": 37,
+    "Type": "voluptatibus",
+    "ColorBlock": 792,
+    "IconHint": "pariatur",
     "Selected": false,
-    "LastChanged": "2015-01-01T15:29:22.0257725+01:00",
+    "LastChanged": "2016-08-19T03:51:27.4279277+02:00",
     "ChildItems": [
       {
-        "Id": 203,
-        "Name": "Williamson, Ebert and Buckridge",
-        "ToolTip": "Nihil quaerat sed aliquid consequuntur earum cumque et.",
+        "Id": 383,
+        "Name": "Fay-Lehner",
+        "ToolTip": "Corporis veritatis quia sunt consequatur in commodi.",
         "Deleted": false,
-        "Rank": 787,
-        "Type": "et",
-        "ColorBlock": 399,
-        "IconHint": "in",
+        "Rank": 139,
+        "Type": "consequatur",
+        "ColorBlock": 686,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2020-06-14T15:29:22.0257725+02:00",
+        "LastChanged": "2020-02-20T03:51:27.4279277+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "officia",
-        "Hidden": false,
-        "FullName": "Jordi Lueilwitz",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Dr. Dean Nat Mayer II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 968
+            "FieldLength": 178
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "officiis",
+    "ExtraInfo": "unde",
+    "StyleHint": "soluta",
     "Hidden": false,
-    "FullName": "Zoe Schiller",
+    "FullName": "Ms. Bethany O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 920
+        "FieldType": "System.Int32",
+        "FieldLength": 228
       }
     }
   }

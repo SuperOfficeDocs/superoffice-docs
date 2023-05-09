@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 456,
-  "StartDate": "1996-08-25T15:29:20.5652939+02:00",
-  "EndDate": "2006-03-03T15:29:20.5652939+01:00",
-  "RecurrenceCounter": 241,
+  "RecurrenceId": 571,
+  "StartDate": "2015-11-02T03:51:26.2563301+01:00",
+  "EndDate": "2016-12-23T03:51:26.2563301+01:00",
+  "RecurrenceCounter": 258,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2013-10-28T15:29:20.5652939+01:00",
+      "Date": "2005-12-01T03:51:26.2563301+01:00",
       "IsConflict": true,
-      "Description": "Streamlined interactive Graphical User Interface",
-      "DescriptionStyleHint": "User-friendly zero administration hierarchy",
-      "Tooltip": "sapiente"
+      "Description": "Distributed leading edge array",
+      "DescriptionStyleHint": "Reactive needs-based hierarchy",
+      "Tooltip": "asperiores"
     },
     {
-      "Date": "2013-10-28T15:29:20.5652939+01:00",
+      "Date": "2005-12-01T03:51:26.2563301+01:00",
       "IsConflict": true,
-      "Description": "Streamlined interactive Graphical User Interface",
-      "DescriptionStyleHint": "User-friendly zero administration hierarchy",
-      "Tooltip": "sapiente"
+      "Description": "Distributed leading edge array",
+      "DescriptionStyleHint": "Reactive needs-based hierarchy",
+      "Tooltip": "asperiores"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

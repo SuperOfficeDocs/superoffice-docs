@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 134
+  "KbEntryId": 516
 }
 ```
 
@@ -91,17 +91,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "officiis",
-  "RegisteredByFullName": "Graham Ivory Ortiz Sr.",
-  "Updated": "1996-01-19T15:29:21.2722826+01:00",
-  "Question": "voluptatum",
-  "Answer": "sit",
+  "Title": "occaecati",
+  "RegisteredByFullName": "Willard Block",
+  "Updated": "2001-09-29T03:51:26.9592824+02:00",
+  "Question": "facere",
+  "Answer": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 11
     }
   }
 }

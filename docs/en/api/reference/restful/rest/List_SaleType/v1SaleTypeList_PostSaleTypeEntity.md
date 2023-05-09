@@ -106,51 +106,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 488,
-  "Name": "Donnelly Group",
-  "Tooltip": "a",
-  "Rank": 119,
+  "SaleTypeId": 155,
+  "Name": "Bartell, Simonis and Berge",
+  "Tooltip": "voluptates",
+  "Rank": 948,
   "DurationUnit": "Century",
-  "SaleDuration": 135,
-  "SaleTypeCatId": 658,
+  "SaleDuration": 904,
+  "SaleTypeCatId": 154,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 420,
-  "QuoteLinesTemplate": 532,
-  "ConfirmationLinesTemplate": 891,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 781,
+  "QuoteLinesTemplate": 10,
+  "ConfirmationLinesTemplate": 918,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 253,
-  "MinEarningPercent": 563,
-  "GroupQuoteLinesBy": 179,
-  "SortGroupLinesBy": 760,
+  "MaxDiscountPercent": 894,
+  "MinEarningPercent": 896,
+  "GroupQuoteLinesBy": 648,
+  "SortGroupLinesBy": 554,
   "Stages": [
     {
-      "Id": 724,
-      "Name": "Ward, Pfeffer and Kutch",
-      "ToolTip": "Vel repellendus.",
-      "Deleted": true,
-      "Rank": 755,
-      "Type": "sit",
-      "ColorBlock": 682,
-      "IconHint": "rerum",
+      "Id": 451,
+      "Name": "Murazik LLC",
+      "ToolTip": "Dolor aliquam.",
+      "Deleted": false,
+      "Rank": 418,
+      "Type": "omnis",
+      "ColorBlock": 108,
+      "IconHint": "porro",
       "Selected": false,
-      "LastChanged": "2013-02-01T15:29:31.5824741+01:00",
+      "LastChanged": "2006-02-10T03:51:34.9426529+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ullam",
-      "StyleHint": "dolores",
+      "ExtraInfo": "distinctio",
+      "StyleHint": "atque",
       "Hidden": false,
-      "FullName": "Ms. Christiana Makayla Hagenes"
+      "FullName": "Emmalee Gaylord"
     }
   ]
 }
@@ -163,53 +163,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 429,
-  "Name": "Langworth, Howell and Keebler",
-  "Tooltip": "vitae",
-  "Rank": 313,
+  "SaleTypeId": 799,
+  "Name": "Casper Group",
+  "Tooltip": "quod",
+  "Rank": 986,
   "DurationUnit": "Century",
-  "SaleDuration": 767,
-  "SaleTypeCatId": 399,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 738,
+  "SaleTypeCatId": 515,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 294,
-  "QuoteLinesTemplate": 473,
-  "ConfirmationLinesTemplate": 599,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 776,
+  "QuoteLinesTemplate": 723,
+  "ConfirmationLinesTemplate": 867,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 15,
-  "MinEarningPercent": 401,
-  "GroupQuoteLinesBy": 224,
-  "SortGroupLinesBy": 556,
+  "MaxDiscountPercent": 37,
+  "MinEarningPercent": 656,
+  "GroupQuoteLinesBy": 699,
+  "SortGroupLinesBy": 30,
   "Stages": [
     {
-      "Id": 969,
-      "Name": "Cronin, Rippin and Fay",
-      "ToolTip": "Placeat voluptate aliquam dolores dolorem voluptatem beatae.",
+      "Id": 72,
+      "Name": "Prohaska, Yost and Erdman",
+      "ToolTip": "Autem atque placeat dolorum est consequatur quia amet.",
       "Deleted": false,
-      "Rank": 84,
-      "Type": "a",
-      "ColorBlock": 796,
-      "IconHint": "accusantium",
+      "Rank": 610,
+      "Type": "magni",
+      "ColorBlock": 623,
+      "IconHint": "pariatur",
       "Selected": false,
-      "LastChanged": "2014-06-24T15:29:31.583974+02:00",
+      "LastChanged": "2006-03-31T03:51:34.9426529+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "rerum",
-      "StyleHint": "est",
+      "ExtraInfo": "dicta",
+      "StyleHint": "possimus",
       "Hidden": false,
-      "FullName": "Mrs. Neha Schimmel",
+      "FullName": "Breanna Corkery I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 130
+          "FieldLength": 72
         }
       }
     }
@@ -219,7 +219,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 241
+      "FieldLength": 865
     }
   }
 }

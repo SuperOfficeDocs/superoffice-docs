@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 895,
-    "Name": "Smitham, Block and Schmitt",
-    "ToolTip": "Doloremque itaque sunt.",
+    "Id": 249,
+    "Name": "Veum Group",
+    "ToolTip": "Qui cupiditate.",
     "Deleted": true,
-    "Rank": 195,
-    "Type": "quia",
-    "ColorBlock": 102,
-    "IconHint": "reiciendis",
+    "Rank": 829,
+    "Type": "et",
+    "ColorBlock": 599,
+    "IconHint": "sapiente",
     "Selected": false,
-    "LastChanged": "2008-01-27T15:29:31.5139761+01:00",
+    "LastChanged": "1999-11-07T03:51:34.8957999+01:00",
     "ChildItems": [
       {
-        "Id": 305,
-        "Name": "Wehner-Okuneva",
-        "ToolTip": "Dicta natus.",
-        "Deleted": false,
-        "Rank": 352,
-        "Type": "qui",
-        "ColorBlock": 432,
-        "IconHint": "minus",
+        "Id": 700,
+        "Name": "Watsica, Pouros and Labadie",
+        "ToolTip": "Dolor magnam enim nostrum ut sunt quia ut.",
+        "Deleted": true,
+        "Rank": 358,
+        "Type": "sit",
+        "ColorBlock": 170,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2014-08-16T15:29:31.5139761+02:00",
+        "LastChanged": "2019-12-09T03:51:34.8957999+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "fugit",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Miss Maeve Jaqueline Smitham I"
+        "FullName": "Jayce Kunze"
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "aut",
+    "ExtraInfo": "quidem",
+    "StyleHint": "veritatis",
     "Hidden": false,
-    "FullName": "Danny Hodkiewicz"
+    "FullName": "Mertie Jan Streich Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 695,
-    "Name": "Wolff LLC",
-    "ToolTip": "Omnis amet aut odit in voluptates.",
-    "Deleted": true,
-    "Rank": 890,
-    "Type": "deserunt",
-    "ColorBlock": 914,
-    "IconHint": "nobis",
+    "Id": 450,
+    "Name": "Stokes LLC",
+    "ToolTip": "Reiciendis dignissimos possimus optio.",
+    "Deleted": false,
+    "Rank": 739,
+    "Type": "temporibus",
+    "ColorBlock": 523,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2015-12-21T15:29:31.5164747+01:00",
+    "LastChanged": "2004-09-12T03:51:34.8957999+02:00",
     "ChildItems": [
       {
-        "Id": 973,
-        "Name": "Botsford-Watsica",
-        "ToolTip": "In atque molestiae consequuntur qui aut deserunt sunt.",
+        "Id": 942,
+        "Name": "King, Bayer and Wiza",
+        "ToolTip": "Quam enim aliquam qui.",
         "Deleted": true,
-        "Rank": 860,
-        "Type": "esse",
-        "ColorBlock": 855,
-        "IconHint": "a",
-        "Selected": true,
-        "LastChanged": "2004-11-26T15:29:31.5164747+01:00",
+        "Rank": 162,
+        "Type": "natus",
+        "ColorBlock": 467,
+        "IconHint": "delectus",
+        "Selected": false,
+        "LastChanged": "2012-01-09T03:51:34.8957999+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Etha Beahan",
+        "ExtraInfo": "sint",
+        "StyleHint": "corporis",
+        "Hidden": false,
+        "FullName": "Mollie Ferry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 132
+            "FieldLength": 999
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Elwin Gutkowski Jr.",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "at",
+    "Hidden": true,
+    "FullName": "Shea Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 315
       }
     }
   }

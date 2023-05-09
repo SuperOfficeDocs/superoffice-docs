@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FreetextTicket"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -716,7 +716,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextTicket?$select=numberOfMessages,createdBy/otherGroups,contact/contactAssociate/ejUserId,contact/contactUdef/SuperOffice:4
+GET /api/v1/archive/FreetextTicket?$select=createdBy/personId,person/personAssociate/personId,contact/updatedByFullName,contact/contactUdef/SuperOffice:5,sale/associate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

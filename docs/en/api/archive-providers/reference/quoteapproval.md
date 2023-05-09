@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteApproval"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -61,7 +61,7 @@ Retrieves pending sale quotes for current associate with state approved, denied,
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteApproval?$select=approvedById,quoteVersionState,amount
+GET /api/v1/archive/QuoteApproval?$select=quoteVersionState,amount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

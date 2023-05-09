@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,64 +79,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 454,
-  "Caption": "iste",
-  "Description": "Ergonomic bi-directional benchmark",
-  "ChartName": "Kuhlman LLC",
-  "ChartId": "beatae",
-  "IsDefault": true,
-  "AssociateId": 555,
-  "GroupId": 512,
-  "SelectionId": 694,
-  "Config": "eius",
+  "DashboardTileId": 204,
+  "Caption": "occaecati",
+  "Description": "Balanced well-modulated encryption",
+  "ChartName": "Gislason Group",
+  "ChartId": "iure",
+  "IsDefault": false,
+  "AssociateId": 835,
+  "GroupId": 802,
+  "SelectionId": 377,
+  "Config": "tempora",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "O'Keefe-Koch",
-      "Description": "Re-engineered client-driven open system",
+      "Name": "Johnson Inc and Sons",
+      "Description": "Open-source solution-oriented knowledge base",
       "Type": "Boolean",
-      "ListName": "Hagenes, Schamberger and Jenkins",
+      "ListName": "Beahan-Kozey",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptate",
+      "Value": "omnis",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 578
+          "FieldLength": 951
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 66,
+      "VisibleId": 903,
       "Visibility": "All",
-      "DisplayValue": "veritatis",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 193
+          "FieldLength": 744
         }
       }
     },
     {
-      "VisibleId": 66,
+      "VisibleId": 903,
       "Visibility": "All",
-      "DisplayValue": "veritatis",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 193
+          "FieldLength": 744
         }
       }
     }
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 360
+      "FieldType": "System.Int32",
+      "FieldLength": 367
     }
   }
 }

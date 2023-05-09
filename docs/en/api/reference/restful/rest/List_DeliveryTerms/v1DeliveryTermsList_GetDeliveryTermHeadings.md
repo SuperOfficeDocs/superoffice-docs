@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 13,
-    "Name": "Kuhic, Orn and O'Hara",
-    "Tooltip": "nostrum",
+    "HeadingId": 507,
+    "Name": "Wyman Inc and Sons",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 927,
-    "UdListDefinitionId": 829,
+    "Rank": 3,
+    "UdListDefinitionId": 528,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 415
+        "FieldType": "System.Int32",
+        "FieldLength": 893
       }
     }
   }

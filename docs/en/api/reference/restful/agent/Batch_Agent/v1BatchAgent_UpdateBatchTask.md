@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 215,
-  "Name": "Tillman, Reinger and Stark",
-  "AssociateId": 571,
-  "DetailsTable": 997,
-  "DetailsRecord": 782,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 449,
+  "Name": "Tremblay-Lebsack",
+  "AssociateId": 662,
+  "DetailsTable": 957,
+  "DetailsRecord": 342,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "aperiam",
-    "ParameterObject2": "qui"
+    "ParameterObject1": "nostrum",
+    "ParameterObject2": "eos"
   },
-  "LastStarted": "2006-06-25T15:29:20.8242885+02:00",
-  "Created": "2006-10-15T15:29:20.8242885+02:00",
-  "StartCount": 24,
-  "DatabaseSerialNumber": "1649825",
-  "Context": "repellat",
-  "Result": "suscipit",
+  "LastStarted": "2007-06-09T03:51:26.6156255+02:00",
+  "Created": "2004-04-17T03:51:26.6156255+02:00",
+  "StartCount": 583,
+  "DatabaseSerialNumber": "1090895",
+  "Context": "aut",
+  "Result": "quo",
   "State": "All",
-  "Description": "Multi-lateral actuating strategy",
-  "Response": "ut",
-  "Request": "labore",
-  "ProgressDescription": "Integrated 24/7 system engine",
-  "ProgressPercent": 678,
-  "FileName": "Zulauf Group",
+  "Description": "Persistent responsive model",
+  "Response": "recusandae",
+  "Request": "aut",
+  "ProgressDescription": "Synchronised 3rd generation function",
+  "ProgressPercent": 677,
+  "FileName": "Watsica, Kub and Kunde",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 405
+      "FieldType": "System.Int32",
+      "FieldLength": 789
     }
   }
 }

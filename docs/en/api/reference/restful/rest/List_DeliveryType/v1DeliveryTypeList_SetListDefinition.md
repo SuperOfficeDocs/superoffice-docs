@@ -87,15 +87,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 490,
-  "Name": "Cummings Inc and Sons",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "Rank": 339,
+  "Id": 221,
+  "Name": "Kshlerin-Rolfson",
+  "Tooltip": "earum",
+  "Deleted": true,
+  "Rank": 833,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
+  "ListType": "porro",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 316,
-  "Name": "Kautzer-Rolfson",
-  "Tooltip": "itaque",
+  "Id": 246,
+  "Name": "Gibson, Roberts and Boyle",
+  "Tooltip": "natus",
   "Deleted": false,
-  "Rank": 121,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptates",
+  "Rank": 824,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "eius",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 707
     }
   }
 }

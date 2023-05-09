@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 126,
-  "Name": "Mayer-Lesch",
-  "Tooltip": "placeat",
-  "Deleted": true,
-  "UdListDefinitionId": 456,
-  "Rank": 955
+  "Id": 880,
+  "Name": "Goodwin, Leannon and Kub",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 817,
+  "Rank": 290
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 78,
-  "Name": "Herman, Weber and Ritchie",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "UdListDefinitionId": 120,
-  "Rank": 656,
+  "Id": 104,
+  "Name": "Klein LLC",
+  "Tooltip": "placeat",
+  "Deleted": false,
+  "UdListDefinitionId": 533,
+  "Rank": 905,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldType": "System.Int32",
+      "FieldLength": 596
     }
   }
 }

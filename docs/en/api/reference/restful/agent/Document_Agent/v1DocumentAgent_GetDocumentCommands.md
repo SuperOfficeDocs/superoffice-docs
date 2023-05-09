@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 371,
+  "DocumentId": 438,
   "AllowedReturnTypes": [
-    "qui",
-    "sit"
+    "aut",
+    "excepturi"
   ]
 }
 ```
@@ -97,17 +97,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Graham, Okuneva and Will",
-    "DisplayName": "Hoeger, West and Christiansen",
-    "DisplayTooltip": "earum",
-    "IconHint": "in",
+    "Name": "Mills, Miller and Schmidt",
+    "DisplayName": "Jacobson Group",
+    "DisplayTooltip": "eligendi",
+    "IconHint": "officiis",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Graham, Okuneva and Will",
-    "DisplayName": "Hoeger, West and Christiansen",
-    "DisplayTooltip": "earum",
-    "IconHint": "in",
+    "Name": "Mills, Miller and Schmidt",
+    "DisplayName": "Jacobson Group",
+    "DisplayTooltip": "eligendi",
+    "IconHint": "officiis",
     "ReturnType": "CustomGui"
   }
 ]

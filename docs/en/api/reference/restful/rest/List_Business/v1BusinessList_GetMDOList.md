@@ -26,7 +26,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=quia
+GET /api/v1/List/Business/MDOItems?query=et
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 956,
-    "Name": "Flatley-Jenkins",
-    "ToolTip": "Eveniet ut laborum et harum.",
+    "Id": 435,
+    "Name": "Boyer-Altenwerth",
+    "ToolTip": "Voluptate velit aliquam eaque dolores fuga.",
     "Deleted": false,
-    "Rank": 325,
-    "Type": "dicta",
+    "Rank": 646,
+    "Type": "aliquid",
     "ChildItems": [
       {
-        "Id": 966,
-        "Name": "Green-Dietrich",
-        "ToolTip": "Voluptatum modi dolorem et inventore adipisci.",
+        "Id": 297,
+        "Name": "Hoppe Group",
+        "ToolTip": "Ipsa nulla doloremque.",
         "Deleted": false,
-        "Rank": 745,
-        "Type": "non",
+        "Rank": 906,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 842,
-        "ExtraInfo": "praesentium",
-        "StyleHint": "et",
-        "FullName": "Alexanne Daugherty II",
+        "IconHint": "magnam",
+        "ColorBlock": 459,
+        "ExtraInfo": "quasi",
+        "StyleHint": "nam",
+        "FullName": "Toney Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 754
+            "FieldType": "System.Int32",
+            "FieldLength": 802
           }
         }
       }
     ],
-    "IconHint": "pariatur",
-    "ColorBlock": 78,
-    "ExtraInfo": "velit",
-    "StyleHint": "et",
-    "FullName": "Mckayla Roob",
+    "IconHint": "et",
+    "ColorBlock": 772,
+    "ExtraInfo": "placeat",
+    "StyleHint": "ut",
+    "FullName": "Ms. Brenna Kaelyn Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 307
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

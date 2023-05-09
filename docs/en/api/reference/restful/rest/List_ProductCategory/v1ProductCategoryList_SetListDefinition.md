@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 397,
-  "Name": "Heathcote, Schaden and Senger",
-  "Tooltip": "deleniti",
+  "Id": 791,
+  "Name": "Lynch-Breitenberg",
+  "Tooltip": "nam",
   "Deleted": true,
-  "Rank": 35,
+  "Rank": 568,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
+  "ListType": "pariatur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 49,
-  "Name": "Wunsch LLC",
-  "Tooltip": "dolorem",
-  "Deleted": true,
-  "Rank": 940,
+  "Id": 362,
+  "Name": "Monahan, Ondricka and Lind",
+  "Tooltip": "unde",
+  "Deleted": false,
+  "Rank": 394,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "accusamus",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldType": "System.String",
+      "FieldLength": 573
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 661,
-    "ColumnId": 232,
-    "FieldDefault": "quis",
-    "FieldHeight": 103,
-    "FieldLabel": "maiores",
-    "FieldLeft": 491,
-    "FieldTop": 496,
+    "UDefFieldId": 27,
+    "ColumnId": 344,
+    "FieldDefault": "asperiores",
+    "FieldHeight": 332,
+    "FieldLabel": "autem",
+    "FieldLeft": 276,
+    "FieldTop": 530,
     "FieldType": "Checkbox",
-    "FieldWidth": 571,
-    "FormatMask": "explicabo",
+    "FieldWidth": 685,
+    "FormatMask": "voluptate",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 601,
-    "LabelLeft": 613,
-    "LabelTop": 202,
-    "LabelWidth": 948,
-    "LastVersionId": 17,
-    "ListTableId": 639,
+    "LabelHeight": 702,
+    "LabelLeft": 25,
+    "LabelTop": 818,
+    "LabelWidth": 713,
+    "LastVersionId": 872,
+    "ListTableId": 906,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 182,
-    "ProgId": "rerum",
-    "IsReadOnly": false,
-    "ShortLabel": "saepe",
-    "TabOrder": 174,
-    "TextLength": 293,
-    "Tooltip": "repellat",
-    "UdefIdentity": 48,
-    "UDListDefinitionId": 322,
+    "Page1LineNo": 455,
+    "ProgId": "enim",
+    "IsReadOnly": true,
+    "ShortLabel": "praesentium",
+    "TabOrder": 670,
+    "TextLength": 647,
+    "Tooltip": "enim",
+    "UdefIdentity": 615,
+    "UDListDefinitionId": 90,
     "Justification": "Center",
-    "Version": 553,
-    "TemplateVariableName": "Monahan, Kohler and Schmeler",
+    "Version": 151,
+    "TemplateVariableName": "Ebert-Krajcik",
     "HasBeenPublished": true,
-    "MdoListName": "Roberts, Rath and Dare",
+    "MdoListName": "Mayert, Rath and Sauer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 618
+        "FieldType": "System.Int32",
+        "FieldLength": 921
       }
     }
   }

@@ -25,7 +25,7 @@ Gets a DashTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTile?dashTileId=566
+POST /api/v1/Agents/Dash/GetDashTile?dashTileId=9
 POST /api/v1/Agents/Dash/GetDashTile?$select=name,department,category/id
 ```
 
@@ -81,18 +81,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 90,
-  "DashboardId": 913,
-  "Height": 49,
-  "Width": 827,
-  "Rank": 22,
+  "DashboardTileId": 599,
+  "DashboardId": 291,
+  "Height": 385,
+  "Width": 363,
+  "Rank": 656,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 749
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=598
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=689
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -119,157 +119,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 705,
-  "Name": "Halvorson, Buckridge and Davis",
+  "ContactId": 976,
+  "Name": "Williamson, Zemlak and Carter",
   "Department": "",
-  "OrgNr": "619898",
-  "Number1": "513840",
-  "Number2": "602689",
-  "UpdatedDate": "2022-07-28T15:29:21.1128185+02:00",
-  "CreatedDate": "2014-06-01T15:29:21.1128185+02:00",
+  "OrgNr": "950912",
+  "Number1": "708343",
+  "Number2": "1858996",
+  "UpdatedDate": "2012-07-04T03:51:26.8343195+02:00",
+  "CreatedDate": "2008-06-29T03:51:26.8343195+02:00",
   "Emails": [
     {
-      "Value": "voluptas",
-      "StrippedValue": "fugit",
-      "Description": "Monitored 6th generation initiative",
+      "Value": "tenetur",
+      "StrippedValue": "quisquam",
+      "Description": "Open-architected clear-thinking portal",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 936
+          "FieldLength": 577
         }
       }
     },
     {
-      "Value": "voluptas",
-      "StrippedValue": "fugit",
-      "Description": "Monitored 6th generation initiative",
+      "Value": "tenetur",
+      "StrippedValue": "quisquam",
+      "Description": "Open-architected clear-thinking portal",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 936
+          "FieldLength": 577
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 460,
-      "Name": "Gerlach Inc and Sons",
-      "ToolTip": "Odio ea dolor ea nisi.",
-      "Deleted": true,
-      "Rank": 805,
-      "Type": "sit",
-      "ColorBlock": 94,
-      "IconHint": "quis",
+      "Id": 121,
+      "Name": "Pouros Group",
+      "ToolTip": "Excepturi sint aspernatur ea incidunt quidem dolorem.",
+      "Deleted": false,
+      "Rank": 739,
+      "Type": "excepturi",
+      "ColorBlock": 139,
+      "IconHint": "cum",
       "Selected": false,
-      "LastChanged": "1999-04-20T15:29:21.1133182+02:00",
+      "LastChanged": "2006-09-03T03:51:26.8343195+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "repellat",
+      "ExtraInfo": "deleniti",
+      "StyleHint": "harum",
       "Hidden": true,
-      "FullName": "Ms. Kavon Eden Wisoky",
+      "FullName": "Mr. Dewayne Predovic DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldLength": 583
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "eveniet",
-      "StrippedValue": "ex",
-      "Description": "Proactive explicit parallelism",
+      "Value": "corporis",
+      "StrippedValue": "nihil",
+      "Description": "Versatile solution-oriented local area network",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 372
+          "FieldLength": 422
         }
       }
     },
     {
-      "Value": "eveniet",
-      "StrippedValue": "ex",
-      "Description": "Proactive explicit parallelism",
+      "Value": "corporis",
+      "StrippedValue": "nihil",
+      "Description": "Versatile solution-oriented local area network",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 372
+          "FieldLength": 422
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "perferendis",
-      "StrippedValue": "et",
-      "Description": "Customizable explicit projection",
+      "Value": "inventore",
+      "StrippedValue": "reiciendis",
+      "Description": "Integrated foreground attitude",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldType": "System.String",
+          "FieldLength": 789
         }
       }
     },
     {
-      "Value": "perferendis",
-      "StrippedValue": "et",
-      "Description": "Customizable explicit projection",
+      "Value": "inventore",
+      "StrippedValue": "reiciendis",
+      "Description": "Integrated foreground attitude",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldType": "System.String",
+          "FieldLength": 789
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "eligendi",
-      "StrippedValue": "cum",
-      "Description": "Organized static secured line",
+      "Value": "repellat",
+      "StrippedValue": "sit",
+      "Description": "Upgradable local infrastructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldLength": 888
         }
       }
     },
     {
-      "Value": "eligendi",
-      "StrippedValue": "cum",
-      "Description": "Organized static secured line",
+      "Value": "repellat",
+      "StrippedValue": "sit",
+      "Description": "Upgradable local infrastructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldLength": 888
         }
       }
     }
   ],
-  "Description": "Synergized encompassing encoding",
+  "Description": "Horizontal tangible customer loyalty",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -278,100 +278,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "id",
-      "PersonId": 545,
-      "Mrmrs": "est",
-      "Firstname": "Gregoria",
-      "Lastname": "Torphy",
-      "MiddleName": "Mayert, Goyette and Waters",
-      "Title": "nam",
-      "Description": "Open-architected methodical frame",
-      "Email": "delilah@veum.ca",
-      "FullName": "Kaela Jerde",
-      "DirectPhone": "(814)198-5763 x8308",
-      "FormalName": "Maggio, Dach and Klocko",
-      "CountryId": 763,
-      "ContactId": 748,
-      "ContactName": "Abshire-Rogahn",
-      "Retired": 1002,
-      "Rank": 429,
-      "ActiveInterests": 482,
+      "Position": "magni",
+      "PersonId": 988,
+      "Mrmrs": "iusto",
+      "Firstname": "Sharon",
+      "Lastname": "Wehner",
+      "MiddleName": "Runte-Schultz",
+      "Title": "tempore",
+      "Description": "Multi-lateral mission-critical website",
+      "Email": "rosario.walker@gusikowskipredovic.co.uk",
+      "FullName": "Molly Ondricka DDS",
+      "DirectPhone": "364-536-9117 x496",
+      "FormalName": "Jacobi-Hilll",
+      "CountryId": 578,
+      "ContactId": 449,
+      "ContactName": "Nader-Hessel",
+      "Retired": 680,
+      "Rank": 534,
+      "ActiveInterests": 97,
       "ContactDepartment": "",
-      "ContactCountryId": 59,
-      "ContactOrgNr": "893838",
-      "FaxPhone": "637.247.0987",
-      "MobilePhone": "005-034-8604 x6776",
-      "ContactPhone": "895-977-8480",
-      "AssociateName": "O'Keefe, Rodriguez and Schultz",
-      "AssociateId": 140,
-      "UsePersonAddress": false,
-      "ContactFax": "impedit",
-      "Kanafname": "nemo",
-      "Kanalname": "sequi",
-      "Post1": "ut",
-      "Post2": "et",
-      "Post3": "excepturi",
-      "EmailName": "heather@schuppe.co.uk",
-      "ContactFullName": "Modesta Hodkiewicz IV",
-      "ActiveErpLinks": 385,
-      "TicketPriorityId": 542,
-      "SupportLanguageId": 573,
-      "SupportAssociateId": 249,
+      "ContactCountryId": 809,
+      "ContactOrgNr": "697588",
+      "FaxPhone": "701-482-2624 x933",
+      "MobilePhone": "(541)134-7828 x259",
+      "ContactPhone": "(602)487-0797 x40965",
+      "AssociateName": "Kulas LLC",
+      "AssociateId": 105,
+      "UsePersonAddress": true,
+      "ContactFax": "aut",
+      "Kanafname": "dolor",
+      "Kanalname": "eos",
+      "Post1": "et",
+      "Post2": "rerum",
+      "Post3": "ut",
+      "EmailName": "rickey@welch.ca",
+      "ContactFullName": "Miss Daisy Bednar",
+      "ActiveErpLinks": 525,
+      "TicketPriorityId": 205,
+      "SupportLanguageId": 345,
+      "SupportAssociateId": 145,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 610
+          "FieldType": "System.Int32",
+          "FieldLength": 201
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "molestias",
+  "NoMailing": true,
+  "Kananame": "laboriosam",
   "Xstop": false,
-  "ActiveInterests": 718,
-  "GroupId": 763,
-  "ActiveStatusMonitorId": 729,
+  "ActiveInterests": 870,
+  "GroupId": 350,
+  "ActiveStatusMonitorId": 813,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 9,
-  "DbiAgentId": 586,
-  "DbiLastSyncronized": "1999-12-15T15:29:21.117318+01:00",
-  "DbiKey": "nesciunt",
-  "DbiLastModified": "2013-03-13T15:29:21.1178182+01:00",
+  "Deleted": 684,
+  "DbiAgentId": 460,
+  "DbiLastSyncronized": "2016-12-06T03:51:26.8499374+01:00",
+  "DbiKey": "in",
+  "DbiLastModified": "2023-04-19T03:51:26.8499374+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 291,
-  "ActiveErpLinks": 101,
+  "Source": 4,
+  "ActiveErpLinks": 37,
   "BounceEmails": [
-    "otto@keeling.info",
-    "maiya.gaylord@fisher.us"
+    "leilani_harvey@mannmurphy.us",
+    "cameron@funkfadel.name"
   ],
   "Domains": [
-    "sunt",
-    "quas"
+    "ab",
+    "perferendis"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Colleen Kunde",
-    "SuperOffice:2": "1207237315"
+    "SuperOffice:1": "Miss Deon Rudolph Cole",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "quisquam"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "nesciunt"
+    "CustomFields1": "qui",
+    "CustomFields2": "id"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 653
+      "FieldType": "System.Int32",
+      "FieldLength": 978
     }
   }
 }

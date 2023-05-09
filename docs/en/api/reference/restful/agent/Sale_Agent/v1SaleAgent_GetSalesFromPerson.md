@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 796,
+  "PersonId": 775,
   "OnlyOpenSales": false
 }
 ```
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Yost-Christiansen",
-    "SaleDate": "2020-03-09T15:29:22.7368004+01:00",
-    "SaleId": 295,
-    "Probability": 220,
-    "Title": "beatae",
-    "Amount": 16776.302,
-    "Currency": "totam",
-    "ProjectName": "Lemke, Spencer and Boyer",
-    "AssociateFullName": "Mrs. Dorcas Jacobson MD",
-    "Description": "Realigned intangible initiative",
+    "ContactName": "Stracke Inc and Sons",
+    "SaleDate": "1996-02-26T03:51:28.1308861+01:00",
+    "SaleId": 662,
+    "Probability": 543,
+    "Title": "ut",
+    "Amount": 2920.888,
+    "Currency": "saepe",
+    "ProjectName": "Renner, Stehr and Beier",
+    "AssociateFullName": "Ray Langosh V",
+    "Description": "Focused 3rd generation portal",
     "Status": "Lost",
-    "WeightedAmount": 2015.162,
-    "ProjectId": 652,
-    "EarningPercent": 10282.654,
-    "Earning": 22502.12,
-    "ContactId": 149,
-    "AssociateId": 495,
-    "PersonId": 569,
-    "SaleTypeId": 192,
-    "SaleTypeName": "Feest Inc and Sons",
-    "PersonFullName": "Felicity Batz",
+    "WeightedAmount": 15441.217999999999,
+    "ProjectId": 303,
+    "EarningPercent": 2707.776,
+    "Earning": 15930.122,
+    "ContactId": 907,
+    "AssociateId": 717,
+    "PersonId": 402,
+    "SaleTypeId": 406,
+    "SaleTypeName": "Crona-Grimes",
+    "PersonFullName": "Xzavier Bayer",
     "Completed": "Completed",
-    "ActiveErpLinks": 399,
-    "NextDueDate": "2003-12-19T15:29:22.7372978+01:00",
-    "Number": "779651",
+    "ActiveErpLinks": 598,
+    "NextDueDate": "2000-12-18T03:51:28.1308861+01:00",
+    "Number": "995130",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 67
+        "FieldType": "System.Int32",
+        "FieldLength": 819
       }
     }
   }

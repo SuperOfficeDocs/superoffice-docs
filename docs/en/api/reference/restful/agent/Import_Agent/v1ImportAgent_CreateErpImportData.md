@@ -82,32 +82,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Hirthe Group",
-      "Operator": "odit",
+      "Name": "Lubowitz-Watsica",
+      "Operator": "esse",
       "Values": [
-        "dolore",
-        "molestiae"
+        "soluta",
+        "expedita"
       ],
       "DisplayValues": [
-        "excepturi",
-        "minima"
+        "iste",
+        "provident"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 568,
+      "InterParenthesis": 169,
       "InterOperator": "And",
-      "UniqueHash": 356
+      "UniqueHash": 957
     }
   ],
   "Columns": [
-    "expedita",
-    "enim"
+    "inventore",
+    "quis"
   ],
-  "ConnectionId": 886,
+  "ConnectionId": 74,
   "ErpActorType": "Customer"
 }
 ```
@@ -122,47 +122,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "cumque",
-        "quis"
+        "repellat",
+        "recusandae"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "et",
+      "ExternalKey": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 55
+          "FieldType": "System.String",
+          "FieldLength": 439
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Pollich Group",
-      "DisplayName": "Kerluke Group",
-      "Locked": false,
+      "Name": "Breitenberg Inc and Sons",
+      "DisplayName": "Bode, Jakubowski and Harris",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 190
+          "FieldLength": 74
         }
       }
     },
     {
-      "Name": "Pollich Group",
-      "DisplayName": "Kerluke Group",
-      "Locked": false,
+      "Name": "Breitenberg Inc and Sons",
+      "DisplayName": "Bode, Jakubowski and Harris",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 190
+          "FieldLength": 74
         }
       }
     }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 608
+      "FieldType": "System.Int32",
+      "FieldLength": 624
     }
   }
 }

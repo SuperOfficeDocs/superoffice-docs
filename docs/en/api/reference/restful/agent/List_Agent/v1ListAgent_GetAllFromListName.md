@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Labadie LLC",
+  "UdListDefinitionName": "O'Conner Inc and Sons",
   "IncludeDeleted": false
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 988,
-    "Name": "Cole-Blanda",
-    "Tooltip": "et",
+    "Id": 48,
+    "Name": "Wintheiser Inc and Sons",
+    "Tooltip": "sit",
     "Deleted": true,
-    "UdListDefinitionId": 194,
-    "Rank": 456,
+    "UdListDefinitionId": 837,
+    "Rank": 788,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 642
+        "FieldType": "System.Int32",
+        "FieldLength": 214
       }
     }
   }

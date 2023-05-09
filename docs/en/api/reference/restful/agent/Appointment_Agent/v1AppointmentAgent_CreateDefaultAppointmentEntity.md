@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -124,122 +124,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-04-03T15:29:20.4732937+02:00",
-  "AppointmentId": 523,
-  "Description": "Assimilated multi-state solution",
-  "StartDate": "2000-12-26T15:29:20.4732937+01:00",
-  "EndDate": "2003-08-25T15:29:20.4732937+02:00",
+  "CreatedDate": "2012-03-23T03:51:26.1782131+01:00",
+  "AppointmentId": 590,
+  "Description": "Inverse value-added Graphic Interface",
+  "StartDate": "2015-11-30T03:51:26.1782131+01:00",
+  "EndDate": "2020-02-02T03:51:26.1782131+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 255,
+  "MotherId": 618,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2000-10-28T15:29:20.4757941+02:00",
+  "UpdatedDate": "2011-08-20T03:51:26.1938344+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 882,
+  "ActiveLinks": 118,
   "Links": [
     {
-      "EntityName": "Glover, Stoltenberg and Goldner",
-      "Id": 619,
-      "Description": "Ergonomic exuding migration",
-      "ExtraInfo": "et",
-      "LinkId": 356,
+      "EntityName": "Daugherty, Lebsack and Feest",
+      "Id": 973,
+      "Description": "Decentralized bottom-line infrastructure",
+      "ExtraInfo": "vel",
+      "LinkId": 812,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldType": "System.String",
+          "FieldLength": 521
         }
       }
     }
   ],
-  "AlarmLeadTime": "non",
-  "HasAlarm": false,
-  "ColorIndex": 496,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "voluptatem",
+  "AlarmLeadTime": "animi",
+  "HasAlarm": true,
+  "ColorIndex": 368,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "vero",
   "LeadTime": "et",
-  "Location": "alias",
-  "RejectCounter": 914,
+  "Location": "in",
+  "RejectCounter": 867,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 600,
-      "PersonId": 473,
-      "ContactId": 395,
-      "EmailId": 327,
-      "SendEmail": false,
+      "AssociateId": 197,
+      "PersonId": 707,
+      "ContactId": 60,
+      "EmailId": 758,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 600,
-      "PersonId": 473,
-      "ContactId": 395,
-      "EmailId": 327,
-      "SendEmail": false,
+      "AssociateId": 197,
+      "PersonId": 707,
+      "ContactId": 60,
+      "EmailId": 758,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-06-02T15:29:20.4767942+02:00",
+  "ActiveDate": "2000-06-21T03:51:26.1938344+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 976,
+  "PreferredTZLocation": 523,
   "Sale": null,
-  "SuggestedAppointmentId": 305,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 331,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "harum",
+  "CentralserviceVideomeetId": "fuga",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "371935272"
+    "SuperOffice:1": "Adriana Larkin Sr.",
+    "SuperOffice:2": "Dr. Marley Murray"
   },
   "ExtraFields": {
-    "ExtraFields1": "sed",
+    "ExtraFields1": "ad",
     "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "sed"
+    "CustomFields1": "expedita",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2016-06-15T15:29:20.4782932+02:00",
-  "PublishTo": "2009-03-09T15:29:20.4782932+01:00",
-  "PublishFrom": "2006-05-20T15:29:20.4782932+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-06-26T03:51:26.1938344+02:00",
+  "PublishTo": "2007-09-23T03:51:26.1938344+02:00",
+  "PublishFrom": "2014-10-13T03:51:26.1938344+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 100,
+      "VisibleId": 478,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 357
+          "FieldType": "System.String",
+          "FieldLength": 306
         }
       }
     },
     {
-      "VisibleId": 100,
+      "VisibleId": 478,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 357
+          "FieldType": "System.String",
+          "FieldLength": 306
         }
       }
     }
@@ -248,8 +248,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldType": "System.String",
+      "FieldLength": 443
     }
   }
 }

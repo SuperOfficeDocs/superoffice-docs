@@ -69,13 +69,13 @@ OK
 POST /api/v1/Agents/BLOB/GetChatImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 694,
-  "Width": 751,
-  "Height": 483
+  "ChatTopicId": 142,
+  "Width": 497,
+  "Height": 406
 }
 ```
 

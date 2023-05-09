@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Langosh LLC",
+  "CommandName": "Torphy Inc and Sons",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -86,14 +86,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "officiis",
+  "Message": "harum",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldLength": 162
     }
   }
 }

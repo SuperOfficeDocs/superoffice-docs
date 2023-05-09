@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 811,
-  "Name": "Larkin-Mann",
-  "Tooltip": "aut",
-  "Rank": 262,
-  "AmountFrom": 19214.554,
-  "AmountTo": 31070.476,
+  "AmountClassId": 408,
+  "Name": "Cummerata LLC",
+  "Tooltip": "ut",
+  "Rank": 84,
+  "AmountFrom": 11664.748,
+  "AmountTo": 5230.646,
   "Deleted": true,
-  "CurrencyId": 867,
+  "CurrencyId": 668,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   }
 }

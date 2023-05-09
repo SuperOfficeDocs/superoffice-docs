@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Auer-Kulas",
-    "ToolTip": "Porro et saepe sunt dolore assumenda officia facilis.",
+    "Id": 676,
+    "Name": "Mayert-Muller",
+    "ToolTip": "Odit ad reprehenderit expedita eos.",
     "Deleted": false,
-    "Rank": 470,
-    "Type": "ex",
-    "ColorBlock": 975,
-    "IconHint": "voluptatum",
+    "Rank": 840,
+    "Type": "dolorem",
+    "ColorBlock": 291,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2016-01-10T15:29:31.3839773+01:00",
+    "LastChanged": "2007-05-21T03:51:34.7864536+02:00",
     "ChildItems": [
       {
-        "Id": 302,
-        "Name": "Moen Group",
-        "ToolTip": "Et laboriosam omnis ipsa.",
+        "Id": 721,
+        "Name": "Berge-Bernhard",
+        "ToolTip": "Quas ea harum.",
         "Deleted": false,
-        "Rank": 347,
-        "Type": "eum",
-        "ColorBlock": 949,
-        "IconHint": "reprehenderit",
+        "Rank": 120,
+        "Type": "error",
+        "ColorBlock": 702,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2006-12-17T15:29:31.3839773+01:00",
+        "LastChanged": "2001-09-24T03:51:34.7864536+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Laisha Schmitt",
+        "ExtraInfo": "harum",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Jean VonRueden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 961
+            "FieldLength": 555
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Mrs. Broderick Chelsea Christiansen",
+    "FullName": "Lenora Cameron Schaden V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 5
+        "FieldType": "System.Int32",
+        "FieldLength": 859
       }
     }
   }

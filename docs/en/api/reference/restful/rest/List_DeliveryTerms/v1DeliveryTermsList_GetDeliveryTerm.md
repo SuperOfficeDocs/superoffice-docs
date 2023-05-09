@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 297,
-  "Name": "Torphy Inc and Sons",
-  "Tooltip": "in",
-  "Deleted": false,
-  "UdListDefinitionId": 263,
-  "Rank": 73,
+  "Id": 563,
+  "Name": "Grimes, Aufderhar and Reichert",
+  "Tooltip": "a",
+  "Deleted": true,
+  "UdListDefinitionId": 903,
+  "Rank": 32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldLength": 422
     }
   }
 }

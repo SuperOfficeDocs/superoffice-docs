@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 977,
-  "ERPQuoteVersionKey": "iusto",
-  "QuoteId": 343,
-  "Description": "Total incremental local area network",
-  "Number": "1956984",
+  "QuoteVersionId": 907,
+  "ERPQuoteVersionKey": "ipsam",
+  "QuoteId": 623,
+  "Description": "Intuitive background secured line",
+  "Number": "1008224",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 955,
-  "SentDate": "2008-10-09T15:29:22.5227657+02:00",
-  "FollowupId": 264,
-  "ExpirationDate": "2008-12-05T15:29:22.5227657+01:00",
-  "DeliveryCountryId": 346,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 657,
+  "LikelyQuoteAlternativeId": 268,
+  "SentDate": "2005-01-23T03:51:27.9746798+01:00",
+  "FollowupId": 584,
+  "ExpirationDate": "2011-09-11T03:51:27.9746798+02:00",
+  "DeliveryCountryId": 957,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 888,
   "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "assumenda",
-  "ERPPaymentTypeKey": "qui",
-  "ERPDeliveryTermsKey": "nihil",
-  "ERPDeliveryTypeKey": "et",
-  "Rank": 614,
-  "ApprovedBy": 416,
-  "ApprovedText": "soluta",
-  "ApprovedRegisteredBy": 627,
-  "ApprovedRegisteredDate": "2018-05-27T15:29:22.5227657+02:00",
-  "ExtraField1": "aspernatur",
-  "ExtraField2": "deserunt",
-  "ExtraField3": "doloremque",
-  "ExtraField4": "voluptatem",
-  "ExtraField5": "voluptatem",
-  "LastRecalculated": "1995-12-11T15:29:22.5232655+01:00",
-  "Updated": "2021-06-11T15:29:22.5232655+02:00",
-  "UpdatedAssociateId": 816,
-  "Registered": "2009-07-13T15:29:22.5232655+02:00",
-  "RegisteredAssociateId": 585,
-  "RequestAssociateId": 750,
-  "RequestComment": "quisquam",
+  "ERPPaymentTermsKey": "ut",
+  "ERPPaymentTypeKey": "ea",
+  "ERPDeliveryTermsKey": "totam",
+  "ERPDeliveryTypeKey": "voluptatem",
+  "Rank": 72,
+  "ApprovedBy": 73,
+  "ApprovedText": "vel",
+  "ApprovedRegisteredBy": 77,
+  "ApprovedRegisteredDate": "2021-09-08T03:51:27.9746798+02:00",
+  "ExtraField1": "provident",
+  "ExtraField2": "consectetur",
+  "ExtraField3": "magnam",
+  "ExtraField4": "et",
+  "ExtraField5": "dicta",
+  "LastRecalculated": "2004-05-09T03:51:27.9746798+02:00",
+  "Updated": "2014-03-28T03:51:27.9746798+01:00",
+  "UpdatedAssociateId": 424,
+  "Registered": "2015-01-02T03:51:27.9746798+01:00",
+  "RegisteredAssociateId": 509,
+  "RequestAssociateId": 621,
+  "RequestComment": "saepe",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 956,
-      "ERPQuoteAlternativeKey": "quas",
-      "QuoteVersionId": 156,
-      "Name": "Ernser-Cassin",
-      "Description": "Optional radical task-force",
+      "QuoteAlternativeId": 790,
+      "ERPQuoteAlternativeKey": "et",
+      "QuoteVersionId": 326,
+      "Name": "Goodwin, Bailey and Hagenes",
+      "Description": "Progressive modular frame",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 8236.152,
-      "ERPDiscountAmount": 25498.224,
-      "DiscountPercent": 7079.706,
-      "DiscountAmount": 20910.048,
+      "ERPDiscountPercent": 24564.291999999998,
+      "ERPDiscountAmount": 18051.84,
+      "DiscountPercent": 26284.858,
+      "DiscountAmount": 5334.068,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "sunt",
-      "VAT": 27670.086,
-      "EarningPercent": 20866.172,
-      "EarningAmount": 31245.98,
-      "SubTotal": 11833.984,
-      "TotalPrice": 19512.284,
-      "ExtraField1": "rerum",
-      "ExtraField2": "impedit",
-      "ExtraField3": "magni",
-      "ExtraField4": "in",
-      "ExtraField5": "temporibus",
+      "VATInfo": "quis",
+      "VAT": 19270.966,
+      "EarningPercent": 26250.384,
+      "EarningAmount": 28071.237999999998,
+      "SubTotal": 676.944,
+      "TotalPrice": 11442.234,
+      "ExtraField1": "unde",
+      "ExtraField2": "suscipit",
+      "ExtraField3": "sit",
+      "ExtraField4": "asperiores",
+      "ExtraField5": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 415
         }
       }
     }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 488
     }
   }
 }

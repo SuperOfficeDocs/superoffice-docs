@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 580,
-  "UdListDefinitionId": 87,
+  "Id": 926,
+  "UdListDefinitionId": 454,
   "Item": null
 }
 ```
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 897,
-  "Name": "Waelchi, Johnson and Wilderman",
-  "Tooltip": "nemo",
-  "Deleted": true,
-  "UdListDefinitionId": 800,
-  "Rank": 489,
+  "Id": 135,
+  "Name": "Littel, Kessler and Connelly",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "UdListDefinitionId": 538,
+  "Rank": 668,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 24
+      "FieldLength": 123
     }
   }
 }

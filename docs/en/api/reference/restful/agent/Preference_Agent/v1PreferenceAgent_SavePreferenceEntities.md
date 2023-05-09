@@ -64,26 +64,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "est",
+      "RawValue": "qui",
       "Specification": null,
-      "DisplayValue": "blanditiis",
-      "DisplayTooltip": "molestiae",
+      "DisplayValue": "ut",
+      "DisplayTooltip": "doloribus",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 667,
-      "PrefDescId": 686,
-      "TableName": "Eichmann, Borer and Purdy",
-      "UserPreferenceId": 277
+      "TargetId": 858,
+      "PrefDescId": 30,
+      "TableName": "Stiedemann LLC",
+      "UserPreferenceId": 210
     }
   ],
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 

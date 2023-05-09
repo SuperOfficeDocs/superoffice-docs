@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 249,
-  "Name": "Block, Hirthe and Bauch",
-  "Tooltip": "atque",
+  "Id": 584,
+  "Name": "Kirlin Group",
+  "Tooltip": "quis",
   "Deleted": false,
-  "UdListDefinitionId": 91,
-  "Rank": 162,
+  "UdListDefinitionId": 926,
+  "Rank": 835,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 706
+      "FieldLength": 230
     }
   }
 }

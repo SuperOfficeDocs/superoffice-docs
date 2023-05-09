@@ -150,18 +150,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sit",
+    "path": "porro",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sit",
+    "path": "porro",
     "value": {}
   }
 ]
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "dolores",
+  "SaleText": "tempore",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -189,113 +189,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-12-30T15:29:30.5554903+01:00",
-  "Amount": 27447.572,
-  "SaleId": 991,
-  "Earning": 9148.1459999999988,
-  "EarningPercent": 28325.092,
-  "Heading": "deleniti",
-  "Number": "807075",
-  "Probability": 490,
-  "CreatedDate": "2017-10-24T15:29:30.5554903+02:00",
-  "UpdatedDate": "2006-09-05T15:29:30.5554903+02:00",
+  "Saledate": "2013-02-24T03:51:33.9583984+01:00",
+  "Amount": 1861.596,
+  "SaleId": 878,
+  "Earning": 17058.362,
+  "EarningPercent": 29785.536,
+  "Heading": "saepe",
+  "Number": "1641010",
+  "Probability": 668,
+  "CreatedDate": "2006-12-16T03:51:33.9583984+01:00",
+  "UpdatedDate": "2012-09-15T03:51:33.9583984+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 54,
+  "ActiveLinks": 911,
   "Links": [
     {
-      "EntityName": "Mills Group",
-      "Id": 732,
-      "Description": "Front-line exuding alliance",
-      "ExtraInfo": "eos",
-      "LinkId": 520,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 139
-        }
-      }
-    }
-  ],
-  "NextDueDate": "1998-04-20T15:29:30.5554903+02:00",
-  "Postit": "iste",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2020-09-06T15:29:30.5559893+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "West, Lang and Toy",
-      "Comment": "dolor",
-      "StakeholderRoleId": 686,
-      "CountryId": 839,
-      "PersonId": 379,
-      "EmailDescription": "moriah.bogisich@crooks.uk",
-      "EmailId": 272,
-      "EmailAddress": "carroll.glover@raubeahan.com",
-      "PhoneId": 339,
-      "ContactName": "Hyatt-Maggio",
-      "ContactId": 4,
-      "SaleId": 418,
-      "Mrmrs": "dolor",
-      "Firstname": "Kaylie",
-      "MiddleName": "Veum-Waters",
-      "Lastname": "Nitzsche",
-      "SaleStakeholderId": 5,
-      "Rank": 13,
-      "Phone": "673-121-5366",
+      "EntityName": "Kuhic Inc and Sons",
+      "Id": 897,
+      "Description": "Progressive 3rd generation attitude",
+      "ExtraInfo": "temporibus",
+      "LinkId": 497,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 578
+          "FieldLength": 88
         }
       }
     }
   ],
-  "ActiveErpLinks": 850,
-  "UserDefinedFields": {
-    "SuperOffice:1": "1134767498",
-    "SuperOffice:2": "True"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "voluptas"
-  },
-  "CustomFields": {
-    "CustomFields1": "dolorum",
-    "CustomFields2": "incidunt"
-  },
-  "PublishEventDate": "1998-12-31T15:29:30.5564884+01:00",
-  "PublishTo": "2008-07-21T15:29:30.5564884+02:00",
-  "PublishFrom": "2019-02-19T15:29:30.5564884+01:00",
-  "IsPublished": true,
-  "VisibleFor": [
+  "NextDueDate": "2004-06-04T03:51:33.9583984+02:00",
+  "Postit": "quia",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2009-04-10T03:51:33.9583984+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 656,
-      "Visibility": "All",
-      "DisplayValue": "maiores",
+      "StakeholderRoleName": "Legros-Kub",
+      "Comment": "sed",
+      "StakeholderRoleId": 252,
+      "CountryId": 730,
+      "PersonId": 374,
+      "EmailDescription": "cheyenne@cartwright.ca",
+      "EmailId": 534,
+      "EmailAddress": "noemie@koch.biz",
+      "PhoneId": 347,
+      "ContactName": "O'Reilly, Turcotte and Champlin",
+      "ContactId": 400,
+      "SaleId": 232,
+      "Mrmrs": "consequatur",
+      "Firstname": "Betty",
+      "MiddleName": "Thiel, White and Reichel",
+      "Lastname": "Keeling",
+      "SaleStakeholderId": 223,
+      "Rank": 388,
+      "Phone": "980.008.8995 x333",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 472
+          "FieldType": "System.Int32",
+          "FieldLength": 150
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 742,
+  "UserDefinedFields": {
+    "SuperOffice:1": "696106685",
+    "SuperOffice:2": "Mrs. Deborah Maiya Bins Jr."
+  },
+  "ExtraFields": {
+    "ExtraFields1": "quam",
+    "ExtraFields2": "id"
+  },
+  "CustomFields": {
+    "CustomFields1": "ipsam",
+    "CustomFields2": "natus"
+  },
+  "PublishEventDate": "2015-12-21T03:51:33.9583984+01:00",
+  "PublishTo": "2015-05-07T03:51:33.9583984+02:00",
+  "PublishFrom": "2006-03-23T03:51:33.9583984+01:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 814,
+      "Visibility": "All",
+      "DisplayValue": "voluptates",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 567
         }
       }
     },
     {
-      "VisibleId": 656,
+      "VisibleId": 814,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 472
+          "FieldType": "System.Int32",
+          "FieldLength": 567
         }
       }
     }
@@ -305,7 +305,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 996
     }
   },
   "_Links": {

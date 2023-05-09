@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 549,
-  "Name": "Lakin, Dach and McGlynn",
-  "Tooltip": "aliquam",
-  "Deleted": false,
-  "Rank": 14,
+  "Id": 647,
+  "Name": "Swift-D'Amore",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 40,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "inventore",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "laborum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 913,
-  "Name": "Kreiger Group",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "Rank": 516,
-  "IsCustomList": false,
+  "Id": 625,
+  "Name": "Toy-Mosciski",
+  "Tooltip": "numquam",
+  "Deleted": true,
+  "Rank": 302,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "odit",
+  "ListType": "omnis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldLength": 438
     }
   }
 }

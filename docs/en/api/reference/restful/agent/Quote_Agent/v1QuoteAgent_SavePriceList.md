@@ -84,16 +84,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 53,
-  "ERPPriceListKey": "sequi",
-  "QuoteConnectionId": 149,
-  "Name": "Thompson, Tromp and McLaughlin",
-  "Description": "Function-based next generation circuit",
-  "Currency": "voluptatem",
-  "CurrencyName": "Yundt, Reilly and Mann",
-  "ValidFrom": "2002-05-05T15:29:22.5362654+02:00",
-  "ValidTo": "1998-05-26T15:29:22.5362654+02:00",
-  "IsActive": false
+  "PriceListId": 380,
+  "ERPPriceListKey": "nostrum",
+  "QuoteConnectionId": 863,
+  "Name": "Price, Sawayn and Goyette",
+  "Description": "Realigned bottom-line archive",
+  "Currency": "est",
+  "CurrencyName": "Bosco-O'Reilly",
+  "ValidFrom": "2013-01-24T03:51:27.9902963+01:00",
+  "ValidTo": "2000-07-03T03:51:27.9902963+02:00",
+  "IsActive": true
 }
 ```
 
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 681,
-  "ERPPriceListKey": "earum",
-  "QuoteConnectionId": 417,
-  "Name": "Osinski LLC",
-  "Description": "Face to face full-range ability",
-  "Currency": "eius",
-  "CurrencyName": "Schmidt-Jaskolski",
-  "ValidFrom": "2012-10-29T15:29:22.5362654+01:00",
-  "ValidTo": "2022-06-18T15:29:22.5362654+02:00",
+  "PriceListId": 629,
+  "ERPPriceListKey": "fugit",
+  "QuoteConnectionId": 368,
+  "Name": "Romaguera Inc and Sons",
+  "Description": "Sharable real-time portal",
+  "Currency": "sunt",
+  "CurrencyName": "Koch-Murazik",
+  "ValidFrom": "2003-06-05T03:51:27.9902963+02:00",
+  "ValidTo": "2010-12-03T03:51:27.9902963+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 30
     }
   }
 }

@@ -98,18 +98,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 749,
+  "PersonId": 130,
   "IncludeProjectDocuments": false,
-  "StartTime": "2008-06-27T15:29:21.49228+02:00",
-  "EndTime": "2007-06-06T15:29:21.49228+02:00",
-  "Count": 231,
+  "StartTime": "1996-06-13T03:51:27.0217725+02:00",
+  "EndTime": "1997-07-01T03:51:27.0217725+02:00",
+  "Count": 608,
   "DocumentTemplateIds": [
-    714,
-    302
+    779,
+    208
   ]
 }
 ```
@@ -122,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 270,
-    "Attention": "asperiores",
-    "Header": "voluptas",
-    "Name": "Bradtke LLC",
-    "OurRef": "quibusdam",
-    "YourRef": "delectus",
-    "Description": "Profit-focused disintermediate middleware",
-    "DocumentTemplate": "quas",
-    "IsPublished": true,
-    "PersonId": 777,
-    "PersonFullName": "Ms. Trevor Alfredo Luettgen II",
-    "AssociateFullName": "Mrs. Hilma VonRueden Sr.",
-    "ContactId": 133,
-    "ContactName": "Marquardt-Romaguera",
-    "ProjectId": 886,
-    "ProjectName": "Graham Group",
-    "AssociateId": 26,
-    "Snum": 83,
-    "SaleId": 833,
-    "SaleName": "Price-Cummerata",
+    "DocumentId": 393,
+    "Attention": "quis",
+    "Header": "iure",
+    "Name": "Robel-Watsica",
+    "OurRef": "dolorem",
+    "YourRef": "et",
+    "Description": "Customer-focused foreground parallelism",
+    "DocumentTemplate": "illum",
+    "IsPublished": false,
+    "PersonId": 101,
+    "PersonFullName": "Prof. Magnus Dwight Veum",
+    "AssociateFullName": "Brannon Osinski I",
+    "ContactId": 769,
+    "ContactName": "Ziemann LLC",
+    "ProjectId": 767,
+    "ProjectName": "Jast Inc and Sons",
+    "AssociateId": 536,
+    "Snum": 970,
+    "SaleId": 171,
+    "SaleName": "Steuber LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 185
       }
     }
   }

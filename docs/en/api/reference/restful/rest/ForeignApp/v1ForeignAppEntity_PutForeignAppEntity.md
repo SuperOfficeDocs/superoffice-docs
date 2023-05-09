@@ -91,27 +91,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 108,
-  "Name": "Wyman LLC",
-  "CreatedDate": "2000-06-15T15:29:29.7611987+02:00",
-  "UpdatedDate": "2019-11-08T15:29:29.7611987+01:00",
+  "ForeignAppId": 143,
+  "Name": "McLaughlin-Satterfield",
+  "CreatedDate": "2011-02-04T03:51:33.677213+01:00",
+  "UpdatedDate": "2015-07-09T03:51:33.677213+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 694,
-      "Name": "Yost Inc and Sons",
-      "CreatedDate": "2006-06-02T15:29:29.7616989+02:00",
-      "UpdatedDate": "2005-12-05T15:29:29.7616989+01:00",
-      "AssociateFullName": "Laury Gutkowski",
-      "CreatedBy": "possimus",
-      "UpdatedBy": "nesciunt",
-      "DeviceIdentifier": "aspernatur",
-      "ForeignAppId": 645
+      "ForeignDeviceId": 452,
+      "Name": "O'Conner Inc and Sons",
+      "CreatedDate": "1998-08-10T03:51:33.677213+02:00",
+      "UpdatedDate": "1996-01-22T03:51:33.677213+01:00",
+      "AssociateFullName": "Dr. Sherwood Lora Schimmel",
+      "CreatedBy": "unde",
+      "UpdatedBy": "minima",
+      "DeviceIdentifier": "velit",
+      "ForeignAppId": 845
     }
   ]
 }
@@ -124,29 +124,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 115,
-  "Name": "Mueller LLC",
-  "CreatedDate": "1996-07-22T15:29:29.7626962+02:00",
-  "UpdatedDate": "2015-06-16T15:29:29.7626962+02:00",
+  "ForeignAppId": 316,
+  "Name": "Mayert LLC",
+  "CreatedDate": "2019-08-21T03:51:33.677213+02:00",
+  "UpdatedDate": "2013-08-22T03:51:33.677213+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 501,
-      "Name": "Ferry, Rosenbaum and Hane",
-      "CreatedDate": "2008-07-06T15:29:29.7647015+02:00",
-      "UpdatedDate": "2015-01-26T15:29:29.7647015+01:00",
-      "AssociateFullName": "Velda Streich",
-      "CreatedBy": "et",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "voluptatem",
-      "ForeignAppId": 135,
+      "ForeignDeviceId": 358,
+      "Name": "Conroy Group",
+      "CreatedDate": "1998-07-31T03:51:33.677213+02:00",
+      "UpdatedDate": "2013-11-02T03:51:33.677213+01:00",
+      "AssociateFullName": "Josiah Zieme",
+      "CreatedBy": "vitae",
+      "UpdatedBy": "accusantium",
+      "DeviceIdentifier": "similique",
+      "ForeignAppId": 420,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 11
+          "FieldType": "System.String",
+          "FieldLength": 530
         }
       }
     }
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 316
     }
   },
   "_Links": {

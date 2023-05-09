@@ -167,17 +167,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Cronin, Connelly and DuBuque",
-  "ProviderName": "Brown-Nitzsche",
-  "SortOrder": "tenetur",
-  "Restriction": "ipsa",
-  "Entities": "atque",
-  "Page": 831,
-  "PageSize": 463
+  "GuiName": "VonRueden, Mann and Gulgowski",
+  "ProviderName": "Ledner-Walsh",
+  "SortOrder": "sequi",
+  "Restriction": "fugit",
+  "Entities": "nobis",
+  "Page": 437,
+  "PageSize": 123
 }
 ```
 
@@ -189,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schultz-Yundt",
-    "PrimaryKey": 303,
+    "EntityName": "Pfeffer Inc and Sons",
+    "PrimaryKey": 11,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "magni",
-        "TooltipHint": "quia",
-        "LinkHint": "molestias"
+        "DisplayValue": "saepe",
+        "TooltipHint": "deleniti",
+        "LinkHint": "deleniti"
       }
     },
-    "LinkHint": "autem",
-    "StyleHint": "tenetur",
+    "LinkHint": "tempora",
+    "StyleHint": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldLength": 583
       }
     }
   }

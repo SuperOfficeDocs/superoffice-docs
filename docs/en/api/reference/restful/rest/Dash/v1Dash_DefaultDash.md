@@ -68,7 +68,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 686,
-  "UniqueId": "inventore",
-  "Name": "McKenzie-Friesen",
-  "Description": "Total background knowledge base",
-  "AssociateId": 653,
-  "Columns": 438,
+  "DashboardId": 507,
+  "UniqueId": "iusto",
+  "Name": "Koss LLC",
+  "Description": "User-centric 3rd generation challenge",
+  "AssociateId": 876,
+  "Columns": 989,
   "Theme": null,
-  "VisibleForAll": 26,
+  "VisibleForAll": 311,
   "VisibleForAssociates": [
-    740,
-    35
+    348,
+    154
   ],
   "VisibleForGroups": [
-    757,
-    297
+    51,
+    507
   ],
-  "PinForAll": 995,
+  "PinForAll": 65,
   "PinForAssociates": [
-    949,
-    123
+    590,
+    157
   ],
   "PinForGroups": [
-    65,
-    858
+    515,
+    911
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldType": "System.String",
+      "FieldLength": 643
     }
   }
 }

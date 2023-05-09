@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=quae
-GET /api/v1/Product?$top=815
-GET /api/v1/Product?$skip=737
+GET /api/v1/Product?$entities=assumenda
+GET /api/v1/Product?$top=529
+GET /api/v1/Product?$skip=70
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=quos
+GET /api/v1/Product?$context=dolor
 GET /api/v1/Product?$format=JSON
-GET /api/v1/Product?$jsonSafe=True
+GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
 ```
 
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolorum",
+  "odata.nextLink": "rem",
   "value": [
     {
-      "PrimaryKey": 31,
+      "PrimaryKey": 2268,
       "EntityName": "sale",
-      "saleId": 31,
-      "contactId": 627,
-      "name": "Langosh, Zemlak and Dibbert"
+      "saleId": 2268,
+      "contactId": 8610,
+      "name": "Moore-Paucek"
     },
     {
-      "PrimaryKey": 9456,
+      "PrimaryKey": 4511,
       "EntityName": "sale",
-      "saleId": 9456,
-      "contactId": 9336,
-      "name": "Tillman, Conroy and Hoeger"
+      "saleId": 4511,
+      "contactId": 6713,
+      "name": "Wolf Group"
     }
   ]
 }

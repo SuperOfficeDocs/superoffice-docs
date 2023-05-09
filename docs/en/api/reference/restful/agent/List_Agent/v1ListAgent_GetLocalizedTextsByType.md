@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "aut",
-    "vero"
+    "enim",
+    "quae"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 596,
-    "ResourceId": 383,
+    "LanguageId": 109,
+    "ResourceId": 902,
     "Text": "minus",
     "Type": "Column",
-    "LocalizedTextId": 492,
+    "LocalizedTextId": 121,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldLength": 514
       }
     }
   }

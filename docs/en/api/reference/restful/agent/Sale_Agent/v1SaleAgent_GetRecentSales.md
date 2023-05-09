@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 920,
-  "Count": 424
+  "AmountLimit": 595,
+  "Count": 287
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Swaniawski-Schuppe",
-    "SaleDate": "2003-04-07T15:29:22.7287972+02:00",
-    "SaleId": 94,
-    "Probability": 451,
-    "Title": "dolorem",
-    "Amount": 26231.579999999998,
-    "Currency": "quidem",
-    "ProjectName": "McGlynn, Harber and Prohaska",
-    "AssociateFullName": "Estella Cordell Crooks III",
-    "Description": "Programmable cohesive hardware",
+    "ContactName": "Farrell Group",
+    "SaleDate": "1998-06-19T03:51:28.1152684+02:00",
+    "SaleId": 793,
+    "Probability": 854,
+    "Title": "necessitatibus",
+    "Amount": 30227.43,
+    "Currency": "illo",
+    "ProjectName": "Metz Group",
+    "AssociateFullName": "Mr. Keeley Schimmel DDS",
+    "Description": "Open-architected local knowledge base",
     "Status": "Lost",
-    "WeightedAmount": 30145.946,
-    "ProjectId": 63,
-    "EarningPercent": 28588.347999999998,
-    "Earning": 27917.672,
-    "ContactId": 58,
-    "AssociateId": 944,
-    "PersonId": 588,
-    "SaleTypeId": 323,
-    "SaleTypeName": "Smitham-Jenkins",
-    "PersonFullName": "Candida Hirthe",
+    "WeightedAmount": 21514.91,
+    "ProjectId": 511,
+    "EarningPercent": 16911.064,
+    "Earning": 13347.706,
+    "ContactId": 320,
+    "AssociateId": 626,
+    "PersonId": 550,
+    "SaleTypeId": 182,
+    "SaleTypeName": "Nader Inc and Sons",
+    "PersonFullName": "Prof. Donald Estella Schinner",
     "Completed": "Completed",
-    "ActiveErpLinks": 312,
-    "NextDueDate": "2023-02-25T15:29:22.7292983+01:00",
-    "Number": "1199218",
+    "ActiveErpLinks": 643,
+    "NextDueDate": "2013-06-06T03:51:28.1308861+02:00",
+    "Number": "937080",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldType": "System.String",
+        "FieldLength": 580
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Wisozk LLC",
-    "ToolTip": "Molestiae dicta nostrum laudantium voluptatem.",
-    "Deleted": false,
-    "Rank": 790,
-    "Type": "expedita",
-    "ColorBlock": 771,
-    "IconHint": "blanditiis",
+    "Id": 731,
+    "Name": "Berge, O'Kon and Metz",
+    "ToolTip": "Sit ratione a dolor perspiciatis blanditiis.",
+    "Deleted": true,
+    "Rank": 808,
+    "Type": "beatae",
+    "ColorBlock": 278,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "2016-07-13T15:29:31.1894803+02:00",
+    "LastChanged": "2003-01-19T03:51:34.6458549+01:00",
     "ChildItems": [
       {
-        "Id": 309,
-        "Name": "Romaguera Group",
-        "ToolTip": "Dolorem repellendus.",
+        "Id": 733,
+        "Name": "Harber LLC",
+        "ToolTip": "Commodi repellat blanditiis numquam.",
         "Deleted": false,
-        "Rank": 814,
-        "Type": "porro",
-        "ColorBlock": 261,
-        "IconHint": "nemo",
+        "Rank": 575,
+        "Type": "repellendus",
+        "ColorBlock": 612,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2019-05-05T15:29:31.1894803+02:00",
+        "LastChanged": "2011-06-21T03:51:34.6458549+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "maiores",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "quo",
         "Hidden": true,
-        "FullName": "Mr. Christa Mckenzie Lindgren MD",
+        "FullName": "Eugenia Herzog",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 340
+            "FieldType": "System.String",
+            "FieldLength": 93
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "magni",
-    "Hidden": false,
-    "FullName": "Lucinda Mohr",
+    "ExtraInfo": "et",
+    "StyleHint": "rem",
+    "Hidden": true,
+    "FullName": "Aurelie Ruecker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 546
       }
     }
   }

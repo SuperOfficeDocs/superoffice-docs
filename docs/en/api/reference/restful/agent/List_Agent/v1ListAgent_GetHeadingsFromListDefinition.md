@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 738
+  "Id": 114
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 189,
-    "Name": "Harber Group",
-    "Tooltip": "porro",
-    "Deleted": true,
-    "Rank": 761,
-    "UdListDefinitionId": 951,
+    "HeadingId": 916,
+    "Name": "Balistreri Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 165,
+    "UdListDefinitionId": 45,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldType": "System.String",
+        "FieldLength": 253
       }
     }
   }

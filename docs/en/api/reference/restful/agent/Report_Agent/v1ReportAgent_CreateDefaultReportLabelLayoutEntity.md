@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 961,
-  "Name": "Bradtke, Yost and Lesch",
-  "Description": "Extended motivating alliance",
+  "ReportLabelLayoutId": 147,
+  "Name": "Mohr-Erdman",
+  "Description": "Programmable bottom-line secured line",
   "Orientation": "Landscape",
-  "PaperWidth": 502,
-  "PaperHeight": 312,
-  "LeftMargin": 659,
-  "RightMargin": 804,
-  "TopMargin": 486,
-  "BottomMargin": 375,
-  "CountColumns": 434,
-  "CountRows": 176,
+  "PaperWidth": 305,
+  "PaperHeight": 284,
+  "LeftMargin": 371,
+  "RightMargin": 60,
+  "TopMargin": 557,
+  "BottomMargin": 125,
+  "CountColumns": 963,
+  "CountRows": 799,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 280
     }
   }
 }

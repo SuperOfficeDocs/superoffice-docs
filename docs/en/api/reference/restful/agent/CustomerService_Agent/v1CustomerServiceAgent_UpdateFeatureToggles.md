@@ -69,12 +69,12 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Fay, Dach and Williamson",
-      "State": true
+      "Name": "Herman-Hartmann",
+      "State": false
     },
     {
-      "Name": "Fay, Dach and Williamson",
-      "State": true
+      "Name": "Herman-Hartmann",
+      "State": false
     }
   ]
 }

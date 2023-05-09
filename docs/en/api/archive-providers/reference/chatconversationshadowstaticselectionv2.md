@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ChatConversationShadowStaticSelectionV2"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -466,7 +466,7 @@ Shadow contact provider for the static ChatConversation provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowStaticSelectionV2?$select=person/personAssociate/personEmail,person/restrictionAddress/line3,person/personAssociate/userName
+GET /api/v1/archive/ChatConversationShadowStaticSelectionV2?$select=person/personExtra/x_person_hidden_integer,contact/contactFax/formattedNumber,contact/contactUdef/SuperOffice:2,contact/saintSaleStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

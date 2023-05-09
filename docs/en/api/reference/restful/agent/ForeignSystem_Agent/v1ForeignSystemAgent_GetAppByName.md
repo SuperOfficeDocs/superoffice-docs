@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Okuneva Group"
+  "ApplicationName": "Tromp, Cremin and Kuhlman"
 }
 ```
 
@@ -93,29 +93,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 487,
-  "Name": "Lueilwitz, Nader and West",
-  "CreatedDate": "2002-05-01T15:29:21.9138069+02:00",
-  "UpdatedDate": "2011-08-15T15:29:21.9138069+02:00",
+  "ForeignAppId": 802,
+  "Name": "Nikolaus, Hagenes and Reichert",
+  "CreatedDate": "2014-03-03T03:51:27.3342054+01:00",
+  "UpdatedDate": "2002-01-11T03:51:27.3342054+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 188,
-      "Name": "Bartell, Hilll and Legros",
-      "CreatedDate": "2003-03-18T15:29:21.9143088+01:00",
-      "UpdatedDate": "2007-11-02T15:29:21.9143088+01:00",
-      "AssociateFullName": "Rhea Wisozk",
-      "CreatedBy": "in",
-      "UpdatedBy": "qui",
-      "DeviceIdentifier": "dolore",
-      "ForeignAppId": 863,
+      "ForeignDeviceId": 423,
+      "Name": "Prohaska-Windler",
+      "CreatedDate": "2008-03-11T03:51:27.3498217+01:00",
+      "UpdatedDate": "2002-04-16T03:51:27.3498217+02:00",
+      "AssociateFullName": "Sigmund Conroy",
+      "CreatedBy": "aut",
+      "UpdatedBy": "ratione",
+      "DeviceIdentifier": "nesciunt",
+      "ForeignAppId": 897,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 441
+          "FieldType": "System.String",
+          "FieldLength": 928
         }
       }
     }
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 713
     }
   }
 }

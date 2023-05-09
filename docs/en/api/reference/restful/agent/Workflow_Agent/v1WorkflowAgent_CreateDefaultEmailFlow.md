@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,43 +103,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 587,
-  "Name": "Klocko-Hirthe",
-  "Description": "Secured asynchronous flexibility",
+  "EmailFlowId": 82,
+  "Name": "Gislason Group",
+  "Description": "Right-sized leading edge success",
   "Status": "None",
-  "VisibleForAll": false,
+  "VisibleForAll": true,
   "VisibleForAssociates": [
-    930,
-    883
+    941,
+    102
   ],
   "VisibleForGroups": [
-    244,
-    395
+    645,
+    222
   ],
   "JumpToFinish": false,
-  "StartOnlyOnce": true,
+  "StartOnlyOnce": false,
   "OverrideConsentSubscription": false,
   "FromType": "FromOnlySpecified",
-  "FromName": "Hackett, Satterfield and Bechtelar",
-  "FromAddr": "ipsa",
+  "FromName": "Raynor LLC",
+  "FromAddr": "et",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "ut",
-  "ReplyToName": "Howell, Wiegand and Reilly",
-  "SmsSender": "saepe",
+  "ReplyToAddr": "ratione",
+  "ReplyToName": "Langosh Group",
+  "SmsSender": "praesentium",
   "UseGoogleAnalytics": false,
-  "GaSource": "dolor",
-  "GaCampaign": "nam",
-  "UseTimeframe": false,
+  "GaSource": "optio",
+  "GaCampaign": "pariatur",
+  "UseTimeframe": true,
   "SelectedDays": "Friday",
-  "TimeframeStart": "1996-08-02T15:29:23.4512902+02:00",
-  "TimeframeEnd": "2023-02-07T15:29:23.4512902+01:00",
-  "UseWorkflowStart": true,
-  "WorkflowStart": "2003-04-11T15:29:23.4512902+02:00",
-  "UseEnrollmentEnd": false,
-  "EnrollmentEnd": "2009-01-01T15:29:23.4512902+01:00",
+  "TimeframeStart": "2010-03-10T03:51:28.5682842+01:00",
+  "TimeframeEnd": "2001-11-05T03:51:28.5682842+01:00",
+  "UseWorkflowStart": false,
+  "WorkflowStart": "2001-04-22T03:51:28.5682842+02:00",
+  "UseEnrollmentEnd": true,
+  "EnrollmentEnd": "2005-01-04T03:51:28.5682842+01:00",
   "RemoveFromFlows": [
-    737,
-    806
+    727,
+    728
   ],
   "TzLocation": null,
   "Folder": null,
@@ -147,22 +147,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 689,
-      "WorkflowId": 610,
+      "WorkflowStepId": 973,
+      "WorkflowId": 833,
       "StepType": "AddToList",
-      "Rank": 492
+      "Rank": 167
     },
     {
-      "WorkflowStepId": 689,
-      "WorkflowId": 610,
+      "WorkflowStepId": 973,
+      "WorkflowId": 833,
       "StepType": "AddToList",
-      "Rank": 492
+      "Rank": 167
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 587,
-      "WorkflowId": 622,
+      "WorkflowTriggerId": 506,
+      "WorkflowId": 804,
       "TriggerType": "AddToList",
       "RestrictionGroups": [
         {},
@@ -172,14 +172,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldType": "System.String",
+          "FieldLength": 35
         }
       }
     },
     {
-      "WorkflowTriggerId": 587,
-      "WorkflowId": 622,
+      "WorkflowTriggerId": 506,
+      "WorkflowId": 804,
       "TriggerType": "AddToList",
       "RestrictionGroups": [
         {},
@@ -189,16 +189,16 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldType": "System.String",
+          "FieldLength": 35
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 657,
-      "WorkflowId": 999,
+      "WorkflowGoalId": 915,
+      "WorkflowId": 679,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -209,13 +209,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 804
         }
       }
     },
     {
-      "WorkflowGoalId": 657,
-      "WorkflowId": 999,
+      "WorkflowGoalId": 915,
+      "WorkflowId": 679,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -226,22 +226,22 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 804
         }
       }
     }
   ],
   "Filter": null,
   "BlockLists": [
-    432,
-    426
+    511,
+    831
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 211
+      "FieldType": "System.Int32",
+      "FieldLength": 440
     }
   }
 }

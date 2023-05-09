@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 394,
+  "TargetYear": 552,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 211,
-  "DimensionId": 579
+  "Id": 491,
+  "DimensionId": 748
 }
 ```
 
@@ -103,24 +103,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 746,
+  "TargetAssignmentInfoId": 790,
   "Values": [
-    196,
-    392
+    407,
+    900
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 800,
-  "DimensionListItemDisplayName": "Bartoletti, Baumbach and Howe",
+  "DimensionListItem": 526,
+  "DimensionListItemDisplayName": "Dickinson Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldLength": 750
     }
   }
 }

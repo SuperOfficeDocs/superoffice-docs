@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=cum
-GET /api/v1/ForeignApp?$top=452
-GET /api/v1/ForeignApp?$skip=286
+GET /api/v1/ForeignApp?$entities=autem
+GET /api/v1/ForeignApp?$top=827
+GET /api/v1/ForeignApp?$skip=620
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=enim
+GET /api/v1/ForeignApp?$context=sunt
 GET /api/v1/ForeignApp?$format=JSON
 GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "officia",
+  "odata.nextLink": "ut",
   "value": [
     {
-      "PrimaryKey": 2252,
+      "PrimaryKey": 9227,
       "EntityName": "sale",
-      "saleId": 2252,
-      "contactId": 8336,
-      "name": "Tremblay-Stehr"
+      "saleId": 9227,
+      "contactId": 2690,
+      "name": "Marks LLC"
     },
     {
-      "PrimaryKey": 4820,
+      "PrimaryKey": 8053,
       "EntityName": "sale",
-      "saleId": 4820,
-      "contactId": 4524,
-      "name": "Feeney, Conn and Keeling"
+      "saleId": 8053,
+      "contactId": 3264,
+      "name": "Swift-Kemmer"
     }
   ]
 }

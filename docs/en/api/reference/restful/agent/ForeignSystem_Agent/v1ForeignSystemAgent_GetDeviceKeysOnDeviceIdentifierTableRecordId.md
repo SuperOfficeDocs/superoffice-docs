@@ -87,11 +87,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kunze-Corwin",
-  "DeviceName": "Hilll-Jerde",
-  "DeviceIdentifier": "ratione",
-  "TableName": "Kemmer, Daniel and Mueller",
-  "RecordId": 350
+  "ApplicationName": "Wisozk-Hodkiewicz",
+  "DeviceName": "Ledner, Walsh and Braun",
+  "DeviceIdentifier": "et",
+  "TableName": "Kiehn Group",
+  "RecordId": 258
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "qui",
-    "Value": "natus",
-    "RecordId": 221,
-    "CreatedDate": "2005-02-04T15:29:21.931809+01:00",
-    "UpdatedDate": "2000-09-12T15:29:21.931809+02:00",
-    "UpdatedBy": "modi",
-    "CreatedBy": "molestias",
-    "TableName": "Buckridge-Barton",
+    "Key": "distinctio",
+    "Value": "aliquam",
+    "RecordId": 244,
+    "CreatedDate": "2023-02-21T03:51:27.3498217+01:00",
+    "UpdatedDate": "2001-08-10T03:51:27.3498217+02:00",
+    "UpdatedBy": "accusamus",
+    "CreatedBy": "exercitationem",
+    "TableName": "Hyatt LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldType": "System.String",
+        "FieldLength": 381
       }
     }
   }

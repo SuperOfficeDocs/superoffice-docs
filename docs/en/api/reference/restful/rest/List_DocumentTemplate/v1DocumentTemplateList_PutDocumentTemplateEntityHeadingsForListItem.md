@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 914,
-    "Name": "McLaughlin Group",
-    "ToolTip": "Et tenetur possimus qui.",
-    "Deleted": true,
-    "Rank": 35,
-    "Type": "nostrum",
-    "ColorBlock": 289,
-    "IconHint": "veritatis",
+    "Id": 323,
+    "Name": "Blick Inc and Sons",
+    "ToolTip": "Minima sit et sunt.",
+    "Deleted": false,
+    "Rank": 111,
+    "Type": "laudantium",
+    "ColorBlock": 440,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2004-02-21T15:29:31.2689754+01:00",
+    "LastChanged": "1998-09-04T03:51:34.692727+02:00",
     "ChildItems": [
       {
-        "Id": 855,
-        "Name": "Medhurst Group",
-        "ToolTip": "Dicta aut nam.",
+        "Id": 193,
+        "Name": "Barrows LLC",
+        "ToolTip": "Aut expedita repudiandae maiores ipsa omnis.",
         "Deleted": false,
-        "Rank": 568,
-        "Type": "nihil",
-        "ColorBlock": 767,
-        "IconHint": "dolorem",
+        "Rank": 592,
+        "Type": "consectetur",
+        "ColorBlock": 764,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "2008-09-03T15:29:31.2689754+02:00",
+        "LastChanged": "2001-06-14T03:51:34.692727+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "velit",
-        "Hidden": true,
-        "FullName": "Theodore Rowe"
+        "ExtraInfo": "maxime",
+        "StyleHint": "nam",
+        "Hidden": false,
+        "FullName": "Fredy Spinka"
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "non",
+    "ExtraInfo": "in",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Davonte Bartell"
+    "FullName": "Gideon Ondricka I"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Becker, Turcotte and Hartmann",
-    "ToolTip": "Dolores occaecati tempora quam explicabo odit.",
+    "Id": 664,
+    "Name": "Spinka-Connelly",
+    "ToolTip": "Aut et et omnis.",
     "Deleted": true,
-    "Rank": 325,
-    "Type": "exercitationem",
-    "ColorBlock": 932,
-    "IconHint": "voluptas",
+    "Rank": 664,
+    "Type": "vel",
+    "ColorBlock": 57,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "2022-08-21T15:29:31.2704803+02:00",
+    "LastChanged": "2001-04-11T03:51:34.692727+02:00",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Beer Inc and Sons",
-        "ToolTip": "Error odit similique est.",
+        "Id": 327,
+        "Name": "Windler LLC",
+        "ToolTip": "Nam perferendis.",
         "Deleted": false,
-        "Rank": 315,
-        "Type": "voluptas",
-        "ColorBlock": 896,
-        "IconHint": "voluptatem",
+        "Rank": 265,
+        "Type": "commodi",
+        "ColorBlock": 121,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2010-12-03T15:29:31.2704803+01:00",
+        "LastChanged": "2009-07-29T03:51:34.692727+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "doloribus",
-        "Hidden": true,
-        "FullName": "Ruthe McGlynn",
+        "ExtraInfo": "qui",
+        "StyleHint": "repellat",
+        "Hidden": false,
+        "FullName": "Pansy Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 484
+            "FieldType": "System.String",
+            "FieldLength": 174
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "nulla",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Isac Kuvalis PhD",
+    "FullName": "Quinton Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldType": "System.String",
+        "FieldLength": 762
       }
     }
   }

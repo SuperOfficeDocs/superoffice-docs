@@ -64,7 +64,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,32 +72,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 08 Dec 2022 15:29:29 G12T
+Last-Modified: Thu, 28 Oct 2004 03:51:33 G10T
 
 {
-  "ForeignAppId": 469,
-  "Name": "Douglas Group",
-  "CreatedDate": "2021-08-08T15:29:29.7681982+02:00",
-  "UpdatedDate": "2022-12-08T15:29:29.7681982+01:00",
+  "ForeignAppId": 21,
+  "Name": "Fay-Ankunding",
+  "CreatedDate": "2022-11-06T03:51:33.677213+01:00",
+  "UpdatedDate": "2004-10-28T03:51:33.677213+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 114,
-      "Name": "Yost-Volkman",
-      "CreatedDate": "2011-07-04T15:29:29.7701984+02:00",
-      "UpdatedDate": "2015-07-29T15:29:29.7701984+02:00",
-      "AssociateFullName": "Tate Greenfelder",
-      "CreatedBy": "incidunt",
-      "UpdatedBy": "ex",
-      "DeviceIdentifier": "at",
-      "ForeignAppId": 435,
+      "ForeignDeviceId": 912,
+      "Name": "Yundt LLC",
+      "CreatedDate": "2022-11-25T03:51:33.677213+01:00",
+      "UpdatedDate": "2003-05-28T03:51:33.677213+02:00",
+      "AssociateFullName": "Mario Deonte Rolfson MD",
+      "CreatedBy": "et",
+      "UpdatedBy": "minima",
+      "DeviceIdentifier": "eius",
+      "ForeignAppId": 612,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 671
+          "FieldLength": 595
         }
       }
     }
@@ -107,7 +107,7 @@ Last-Modified: Thu, 08 Dec 2022 15:29:29 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldLength": 124
     }
   }
 }

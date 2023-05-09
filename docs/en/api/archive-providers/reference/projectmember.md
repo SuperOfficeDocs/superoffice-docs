@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ProjectMember"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -517,7 +517,7 @@ from the result.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMember?$select=project/projectPublish/publishedTo,project/projectAssociate/assocType,project/LastSale,contact/department,contact/LastActivity
+GET /api/v1/archive/ProjectMember?$select=person/restrictionAddress/zip,person/personPrivate/formattedNumber,person/personAssociate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

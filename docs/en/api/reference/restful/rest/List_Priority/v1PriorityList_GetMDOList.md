@@ -25,8 +25,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=odio
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=mollitia
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "Upton, Larson and Cummings",
-    "ToolTip": "Corporis dignissimos quod odio facilis.",
+    "Id": 679,
+    "Name": "Waelchi-Haag",
+    "ToolTip": "Unde quis dicta soluta voluptas in.",
     "Deleted": false,
-    "Rank": 330,
-    "Type": "nihil",
+    "Rank": 552,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 216,
-        "Name": "Barrows Inc and Sons",
-        "ToolTip": "Quia reprehenderit consequatur est ratione sit deleniti sit.",
+        "Id": 820,
+        "Name": "Cummerata Group",
+        "ToolTip": "Minus tenetur est mollitia odit.",
         "Deleted": false,
-        "Rank": 339,
-        "Type": "autem",
+        "Rank": 520,
+        "Type": "impedit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsam",
-        "ColorBlock": 419,
-        "ExtraInfo": "quasi",
-        "StyleHint": "aut",
-        "FullName": "Coleman Will",
+        "IconHint": "vero",
+        "ColorBlock": 884,
+        "ExtraInfo": "in",
+        "StyleHint": "sit",
+        "FullName": "Gabriel Lowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 150
+            "FieldLength": 452
           }
         }
       }
     ],
-    "IconHint": "tempore",
-    "ColorBlock": 304,
-    "ExtraInfo": "nihil",
-    "StyleHint": "placeat",
-    "FullName": "Will Trevor Funk V",
+    "IconHint": "labore",
+    "ColorBlock": 722,
+    "ExtraInfo": "culpa",
+    "StyleHint": "odio",
+    "FullName": "Solon Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 388
+        "FieldType": "System.Int32",
+        "FieldLength": 734
       }
     }
   }

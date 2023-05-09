@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 338,
-  "CurrentAppointmentId": 93,
+  "SaleId": 514,
+  "CurrentAppointmentId": 394,
   "SkipCompleteCheck": false
 }
 ```
@@ -104,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 45,
-  "Deleted": 275,
-  "DaysFuture": 344,
-  "Tooltip": "earum",
-  "Text": "quam",
-  "TaskId": 812,
-  "SuggestedAppointmentId": 493,
-  "SaleTypeStageLinkId": 345,
-  "RegisteredAssociateId": 141,
-  "Rank": 411,
-  "ProjectTypeStatusLinkId": 762,
-  "Name": "Brekke LLC",
-  "Duration": 25,
+  "AutoSuggest": 72,
+  "Deleted": 149,
+  "DaysFuture": 174,
+  "Tooltip": "totam",
+  "Text": "autem",
+  "TaskId": 357,
+  "SuggestedAppointmentId": 381,
+  "SaleTypeStageLinkId": 578,
+  "RegisteredAssociateId": 45,
+  "Rank": 770,
+  "ProjectTypeStatusLinkId": 33,
+  "Name": "Hintz LLC",
+  "Duration": 334,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldType": "System.Int32",
+      "FieldLength": 690
     }
   }
 }

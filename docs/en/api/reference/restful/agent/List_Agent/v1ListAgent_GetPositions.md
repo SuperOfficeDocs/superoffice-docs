@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/GetPositions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 396,
-    "Value": "architecto",
-    "Tooltip": "expedita",
+    "Id": 877,
+    "Value": "voluptates",
+    "Tooltip": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 464
+        "FieldType": "System.Int32",
+        "FieldLength": 900
       }
     }
   },
   {
-    "Id": 396,
-    "Value": "architecto",
-    "Tooltip": "expedita",
+    "Id": 877,
+    "Value": "voluptates",
+    "Tooltip": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 464
+        "FieldType": "System.Int32",
+        "FieldLength": 900
       }
     }
   }

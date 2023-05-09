@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 812
+  "SatelliteId": 173
 }
 ```
 
@@ -91,56 +91,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Anderson LLC",
-    "Description": "Organic multimedia collaboration",
+    "Name": "Kirlin LLC",
+    "Description": "Organic context-sensitive superstructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 734,
-        "Tooltip": "quibusdam",
+        "Unrestricted": true,
+        "Total": 974,
+        "Tooltip": "in",
         "CanAssign": true,
-        "Free": 605,
-        "InUse": 781,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 807,
-        "Name": "D'Amore-Schultz",
-        "Description": "Exclusive incremental moderator",
-        "PrerequisiteModuleName": "Mayert, Gerlach and Mills",
-        "SortOrder": 602,
-        "ExtraFlags": 422,
+        "Free": 960,
+        "InUse": 341,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 402,
+        "Name": "Klocko Inc and Sons",
+        "Description": "Triple-buffered discrete parallelism",
+        "PrerequisiteModuleName": "Trantow LLC",
+        "SortOrder": 952,
+        "ExtraFlags": 537,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 679
+            "FieldType": "System.Int32",
+            "FieldLength": 316
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 369,
-        "Tooltip": "et",
-        "CanAssign": false,
-        "Free": 720,
-        "InUse": 770,
-        "IsHidden": false,
+        "Unrestricted": true,
+        "Total": 396,
+        "Tooltip": "tempora",
+        "CanAssign": true,
+        "Free": 524,
+        "InUse": 52,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 863,
-        "Name": "Price-Bednar",
-        "Description": "Synergistic 3rd generation firmware",
-        "PrerequisiteModuleName": "Bailey Inc and Sons",
-        "SortOrder": 749,
-        "ExtraFlags": 510,
+        "ModuleLicenseId": 891,
+        "Name": "Koelpin-Murazik",
+        "Description": "Monitored local open architecture",
+        "PrerequisiteModuleName": "Koepp Inc and Sons",
+        "SortOrder": 209,
+        "ExtraFlags": 323,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 363
+            "FieldLength": 846
           }
         }
       }
@@ -150,61 +150,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 756
       }
     }
   },
   {
-    "Name": "Anderson LLC",
-    "Description": "Organic multimedia collaboration",
+    "Name": "Kirlin LLC",
+    "Description": "Organic context-sensitive superstructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 734,
-        "Tooltip": "quibusdam",
+        "Unrestricted": true,
+        "Total": 974,
+        "Tooltip": "in",
         "CanAssign": true,
-        "Free": 605,
-        "InUse": 781,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 807,
-        "Name": "D'Amore-Schultz",
-        "Description": "Exclusive incremental moderator",
-        "PrerequisiteModuleName": "Mayert, Gerlach and Mills",
-        "SortOrder": 602,
-        "ExtraFlags": 422,
+        "Free": 960,
+        "InUse": 341,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 402,
+        "Name": "Klocko Inc and Sons",
+        "Description": "Triple-buffered discrete parallelism",
+        "PrerequisiteModuleName": "Trantow LLC",
+        "SortOrder": 952,
+        "ExtraFlags": 537,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 679
+            "FieldType": "System.Int32",
+            "FieldLength": 316
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 369,
-        "Tooltip": "et",
-        "CanAssign": false,
-        "Free": 720,
-        "InUse": 770,
-        "IsHidden": false,
+        "Unrestricted": true,
+        "Total": 396,
+        "Tooltip": "tempora",
+        "CanAssign": true,
+        "Free": 524,
+        "InUse": 52,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 863,
-        "Name": "Price-Bednar",
-        "Description": "Synergistic 3rd generation firmware",
-        "PrerequisiteModuleName": "Bailey Inc and Sons",
-        "SortOrder": 749,
-        "ExtraFlags": 510,
+        "ModuleLicenseId": 891,
+        "Name": "Koelpin-Murazik",
+        "Description": "Monitored local open architecture",
+        "PrerequisiteModuleName": "Koepp Inc and Sons",
+        "SortOrder": 209,
+        "ExtraFlags": 323,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 363
+            "FieldLength": 846
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 756
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 735,
-    "Name": "Ernser-Durgan",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "UdListDefinitionId": 552,
-    "Rank": 939,
+    "Id": 353,
+    "Name": "Okuneva Group",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "UdListDefinitionId": 783,
+    "Rank": 1002,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldType": "System.String",
+        "FieldLength": 280
       }
     }
   }

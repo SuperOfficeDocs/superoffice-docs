@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 23
+  "SelectionId": 365
 }
 ```
 
@@ -91,20 +91,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Metz LLC",
-    "Description": "Expanded radical algorithm",
-    "Rank": 954,
+    "Name": "Braun-Stark",
+    "Description": "Expanded demand-driven time-frame",
+    "Rank": 855,
     "Restrictions": [
       {
-        "Name": "Cruickshank, Olson and Brakus",
-        "Operator": "ratione",
+        "Name": "Gulgowski-Rutherford",
+        "Operator": "fugiat",
         "Values": [
-          "ut",
-          "qui"
+          "in",
+          "deserunt"
         ],
         "DisplayValues": [
           "consequatur",
-          "fuga"
+          "voluptas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -112,27 +112,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 261,
+        "InterParenthesis": 972,
         "InterOperator": "And",
-        "UniqueHash": 826
+        "UniqueHash": 589
       }
     ]
   },
   {
-    "Name": "Metz LLC",
-    "Description": "Expanded radical algorithm",
-    "Rank": 954,
+    "Name": "Braun-Stark",
+    "Description": "Expanded demand-driven time-frame",
+    "Rank": 855,
     "Restrictions": [
       {
-        "Name": "Cruickshank, Olson and Brakus",
-        "Operator": "ratione",
+        "Name": "Gulgowski-Rutherford",
+        "Operator": "fugiat",
         "Values": [
-          "ut",
-          "qui"
+          "in",
+          "deserunt"
         ],
         "DisplayValues": [
           "consequatur",
-          "fuga"
+          "voluptas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -140,9 +140,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 261,
+        "InterParenthesis": 972,
         "InterOperator": "And",
-        "UniqueHash": 826
+        "UniqueHash": 589
       }
     ]
   }

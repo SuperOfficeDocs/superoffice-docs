@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 985,
-  "Name": "Hickle-Wintheiser",
-  "Tooltip": "modi",
+  "Id": 660,
+  "Name": "Metz LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 509,
-  "IsCustomList": true,
+  "Rank": 287,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "deserunt",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 941
+      "FieldLength": 376
     }
   },
   "_Links": {

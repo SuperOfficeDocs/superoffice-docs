@@ -70,18 +70,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kuhic, Ortiz and Murray",
+  "ProviderName": "Pouros Inc and Sons",
   "Restrictions": [
     {
-      "Name": "Kuphal-Daugherty",
-      "Operator": "sit",
+      "Name": "Doyle-Barton",
+      "Operator": "labore",
       "Values": [
-        "sed",
-        "fugiat"
+        "incidunt",
+        "minima"
       ],
       "DisplayValues": [
-        "libero",
-        "culpa"
+        "voluptatibus",
+        "voluptates"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,13 +89,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 682,
+      "InterParenthesis": 356,
       "InterOperator": "And",
-      "UniqueHash": 69
+      "UniqueHash": 672
     }
   ],
-  "AssociateId": 813,
-  "ExtraInfo": "explicabo"
+  "AssociateId": 273,
+  "ExtraInfo": "consequatur"
 }
 ```
 

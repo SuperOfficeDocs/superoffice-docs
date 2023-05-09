@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 214,
-    "Name": "Schulist-Ziemann",
-    "Tooltip": "tenetur",
+    "HeadingId": 541,
+    "Name": "Osinski Inc and Sons",
+    "Tooltip": "accusantium",
     "Deleted": true,
-    "Rank": 748,
-    "UdListDefinitionId": 865,
+    "Rank": 984,
+    "UdListDefinitionId": 723,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldType": "System.String",
+        "FieldLength": 420
       }
     }
   }

@@ -76,20 +76,20 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "repellat",
+  "Source": "possimus",
   "GeneratorEncoding": "Html",
-  "ContactId": 975,
-  "PersonId": 742,
-  "AppointmentId": 91,
-  "DocumentId": 655,
-  "SaleId": 44,
-  "SelectionId": 271,
-  "ProjectId": 132,
-  "CultureName": "sv"
+  "ContactId": 18,
+  "PersonId": 687,
+  "AppointmentId": 975,
+  "DocumentId": 77,
+  "SaleId": 791,
+  "SelectionId": 146,
+  "ProjectId": 415,
+  "CultureName": "en"
 }
 ```
 
@@ -99,5 +99,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nobis"
+"accusantium"
 ```

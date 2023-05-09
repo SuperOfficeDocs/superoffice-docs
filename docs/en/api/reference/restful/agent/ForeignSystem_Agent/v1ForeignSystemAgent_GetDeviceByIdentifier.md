@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Heller-Paucek",
-  "DeviceName": "Ratke Group",
-  "DeviceIdentifier": "omnis"
+  "ApplicationName": "Veum-Ebert",
+  "DeviceName": "Beatty-Schmitt",
+  "DeviceIdentifier": "esse"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 380,
-  "Name": "Carroll Inc and Sons",
-  "CreatedDate": "2008-06-15T15:29:21.9173078+02:00",
-  "UpdatedDate": "2012-08-29T15:29:21.9173078+02:00",
-  "AssociateFullName": "Rozella Cummings",
-  "CreatedBy": "impedit",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "ab",
-  "ForeignAppId": 832,
+  "ForeignDeviceId": 596,
+  "Name": "Bahringer-Monahan",
+  "CreatedDate": "2019-11-15T03:51:27.3498217+01:00",
+  "UpdatedDate": "2011-03-13T03:51:27.3498217+01:00",
+  "AssociateFullName": "Christop Ortiz",
+  "CreatedBy": "repellat",
+  "UpdatedBy": "velit",
+  "DeviceIdentifier": "id",
+  "ForeignAppId": 355,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 354
+      "FieldLength": 890
     }
   }
 }

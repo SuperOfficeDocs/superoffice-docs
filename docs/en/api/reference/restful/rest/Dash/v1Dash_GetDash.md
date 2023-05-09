@@ -84,7 +84,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,37 +94,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 175,
-  "UniqueId": "et",
-  "Name": "Bode-Brown",
-  "Description": "Open-architected upward-trending capacity",
-  "AssociateId": 251,
-  "Columns": 183,
+  "DashboardId": 13,
+  "UniqueId": "illo",
+  "Name": "Stracke-Balistreri",
+  "Description": "Multi-lateral web-enabled concept",
+  "AssociateId": 202,
+  "Columns": 620,
   "Theme": null,
-  "VisibleForAll": 983,
+  "VisibleForAll": 39,
   "VisibleForAssociates": [
-    486,
-    138
+    192,
+    264
   ],
   "VisibleForGroups": [
-    255,
-    694
+    500,
+    962
   ],
-  "PinForAll": 13,
+  "PinForAll": 277,
   "PinForAssociates": [
-    558,
-    457
+    80,
+    865
   ],
   "PinForGroups": [
-    736,
-    742
+    336,
+    879
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldType": "System.String",
+      "FieldLength": 66
     }
   },
   "_Links": {

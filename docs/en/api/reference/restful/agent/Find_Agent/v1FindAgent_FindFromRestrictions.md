@@ -98,21 +98,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Harber, Ruecker and Wehner",
-      "Operator": "et",
+      "Name": "Lemke Group",
+      "Operator": "maiores",
       "Values": [
-        "non",
-        "autem"
+        "autem",
+        "molestiae"
       ],
       "DisplayValues": [
-        "quisquam",
-        "iste"
+        "praesentium",
+        "voluptate"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,14 +120,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 364,
+      "InterParenthesis": 800,
       "InterOperator": "And",
-      "UniqueHash": 395
+      "UniqueHash": 763
     }
   ],
-  "ProviderName": "Wuckert Group",
-  "PageSize": 673,
-  "PageNumber": 953
+  "ProviderName": "Schuster-Tillman",
+  "PageSize": 796,
+  "PageNumber": 400
 }
 ```
 
@@ -140,51 +140,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Morissette, Swaniawski and Nikolaus",
-      "DisplayTooltip": "necessitatibus",
-      "DisplayType": "quos",
-      "CanOrderBy": false,
-      "Name": "Bayer, Lubowitz and Smitham",
+      "DisplayName": "Bradtke-Kuhlman",
+      "DisplayTooltip": "fuga",
+      "DisplayType": "molestias",
+      "CanOrderBy": true,
+      "Name": "DuBuque Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "odio",
-      "RestrictionListName": "Hamill-Hoppe",
+      "RestrictionType": "accusamus",
+      "RestrictionListName": "Leannon LLC",
       "IsVisible": false,
-      "ExtraInfo": "aperiam",
-      "Width": "a",
-      "IconHint": "ipsa",
-      "HeadingIconHint": "vitae"
+      "ExtraInfo": "hic",
+      "Width": "nam",
+      "IconHint": "recusandae",
+      "HeadingIconHint": "excepturi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Heller-Bashirian",
-      "PrimaryKey": 70,
+      "EntityName": "Reynolds, Hirthe and Beer",
+      "PrimaryKey": 855,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "rerum",
+          "DisplayValue": "sunt",
+          "TooltipHint": "impedit",
           "LinkHint": "omnis"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "maiores",
+      "LinkHint": "odio",
+      "StyleHint": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 654
+          "FieldLength": 914
         }
       }
     }
   ],
-  "RowCount": 263,
+  "RowCount": 893,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 432
     }
   }
 }

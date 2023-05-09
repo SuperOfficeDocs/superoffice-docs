@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "DocumentDynamicSelection"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -676,7 +676,7 @@ Document selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelection?$select=person/restrictionAddress/state,person/personAssociate/userName,person/correspondingAssociate/isActiveText,contact/postAddress/county,project/projectUdef/SuperOffice:6
+GET /api/v1/archive/DocumentDynamicSelection?$select=contact/contactAssociate/userName,project/name,project/projectEvent/eventDate,project/projectAssociate/credentialDisplayValue,project/LastCompletedActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -100,15 +100,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": true,
   "AttachmentIds": [
-    278,
-    153
+    735,
+    851
   ],
   "UpdateRepliedAt": false
 }
@@ -121,28 +121,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 624,
+  "EjMessageId": 464,
   "Ticket": null,
-  "CreatedAt": "2015-09-20T15:29:23.250755+02:00",
+  "CreatedAt": "2008-05-10T03:51:28.4120734+02:00",
   "CreatedBy": null,
-  "Author": "consequatur",
+  "Author": "dicta",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolorum",
-  "TimeSpent": 92,
-  "Body": "sed",
-  "HtmlBody": "est",
-  "EmailHeader": "elyse@jerdewisoky.com",
-  "DebugInfo": "minus",
-  "MailSorter": "nisi",
+  "MessageId": "omnis",
+  "TimeSpent": 503,
+  "Body": "numquam",
+  "HtmlBody": "sapiente",
+  "EmailHeader": "nathen@luettgen.uk",
+  "DebugInfo": "dolorem",
+  "MailSorter": "eligendi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "omnis",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 121,
-      "Name": "Larson, Turner and Hettinger",
-      "Value": "sit",
+      "Id": 938,
+      "Name": "Robel-O'Hara",
+      "Value": "reprehenderit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -150,49 +150,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 901
+          "FieldLength": 152
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "aperiam",
-  "Sentiment": 467,
-  "SentimentConfidence": 531,
+  "Important": true,
+  "Language": "tempore",
+  "Sentiment": 357,
+  "SentimentConfidence": 613,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 918,
-      "Name": "Welch, Bahringer and Bergstrom",
-      "ContentType": "temporibus",
-      "AttSize": 654,
+      "AttachmentId": 811,
+      "Name": "Hahn LLC",
+      "ContentType": "eos",
+      "AttSize": 301,
       "InlineImage": false,
-      "ContentId": "deleniti",
-      "AuthKey": "id",
+      "ContentId": "fugiat",
+      "AuthKey": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 571
+          "FieldLength": 202
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "harum"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "eum"
+    "CustomFields1": "quas",
+    "CustomFields2": "dolorum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 866
     }
   }
 }

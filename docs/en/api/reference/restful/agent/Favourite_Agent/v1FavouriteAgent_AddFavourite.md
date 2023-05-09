@@ -70,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lynch, Abshire and Terry",
-  "RecordId": 369,
-  "AssociateId": 774,
-  "ExtraInfo": "exercitationem"
+  "TableName": "Lind, Spinka and Jacobs",
+  "RecordId": 256,
+  "AssociateId": 562,
+  "ExtraInfo": "dolorum"
 }
 ```
 

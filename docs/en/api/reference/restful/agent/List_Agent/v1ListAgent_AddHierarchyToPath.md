@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "nihil",
-  "Name": "Goldner-Cummings"
+  "Path": "consequatur",
+  "Name": "Predovic Group"
 }
 ```
 
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 193,
+  "HierarchyId": 893,
   "Domain": "Dashboards",
-  "Name": "Littel-Moen",
-  "Fullname": "ad",
-  "ParentId": 457,
+  "Name": "Hegmann LLC",
+  "Fullname": "incidunt",
+  "ParentId": 747,
   "Children": [
     {
-      "HierarchyId": 386,
+      "HierarchyId": 648,
       "Domain": "Dashboards",
-      "Name": "Tromp, Hilpert and Thiel",
-      "Fullname": "explicabo",
-      "ParentId": 630,
+      "Name": "Cremin Group",
+      "Fullname": "et",
+      "ParentId": 735,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-12-16T15:29:22.0737718+01:00",
-      "RegisteredAssociateId": 363,
-      "Updated": "2021-09-04T15:29:22.0737718+02:00",
-      "UpdatedAssociateId": 517,
+      "Registered": "2022-05-02T03:51:27.4591714+02:00",
+      "RegisteredAssociateId": 544,
+      "Updated": "1999-09-10T03:51:27.4591714+02:00",
+      "UpdatedAssociateId": 10,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 46
         }
       }
     }
   ],
-  "Registered": "2011-09-11T15:29:22.0737718+02:00",
-  "RegisteredAssociateId": 850,
-  "Updated": "2018-04-10T15:29:22.0737718+02:00",
-  "UpdatedAssociateId": 152,
+  "Registered": "2001-12-25T03:51:27.4591714+01:00",
+  "RegisteredAssociateId": 372,
+  "Updated": "2008-10-19T03:51:27.4591714+02:00",
+  "UpdatedAssociateId": 474,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 838
     }
   }
 }

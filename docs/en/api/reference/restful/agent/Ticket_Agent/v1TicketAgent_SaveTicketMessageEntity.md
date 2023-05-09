@@ -112,66 +112,66 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 451,
+  "EjMessageId": 341,
   "Ticket": null,
-  "CreatedAt": "2004-04-16T15:29:23.0747577+02:00",
+  "CreatedAt": "2012-08-06T03:51:28.2870905+02:00",
   "CreatedBy": null,
-  "Author": "consequatur",
+  "Author": "rerum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 487,
-  "Body": "dolorem",
-  "HtmlBody": "debitis",
-  "EmailHeader": "percy_balistreri@rowe.ca",
-  "DebugInfo": "odio",
-  "MailSorter": "rerum",
+  "MessageId": "iure",
+  "TimeSpent": 202,
+  "Body": "dolores",
+  "HtmlBody": "unde",
+  "EmailHeader": "margarete@veumfahey.info",
+  "DebugInfo": "aperiam",
+  "MailSorter": "temporibus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "omnis",
+  "SearchTitle": "temporibus",
   "MessageHeaders": [
     {
-      "Id": 357,
-      "Name": "Wilkinson, Auer and Connelly",
-      "Value": "cumque",
+      "Id": 156,
+      "Name": "Langosh Group",
+      "Value": "odit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 357,
-      "Name": "Wilkinson, Auer and Connelly",
-      "Value": "cumque",
+      "Id": 156,
+      "Name": "Langosh Group",
+      "Value": "odit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "delectus",
-  "Sentiment": 633,
-  "SentimentConfidence": 699,
+  "Important": true,
+  "Language": "esse",
+  "Sentiment": 733,
+  "SentimentConfidence": 249,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 223,
-      "Name": "Deckow, Klein and Hartmann",
-      "ContentType": "reiciendis",
-      "AttSize": 515,
-      "InlineImage": true,
-      "ContentId": "ducimus",
-      "AuthKey": "nemo"
+      "AttachmentId": 635,
+      "Name": "Hirthe Inc and Sons",
+      "ContentType": "sapiente",
+      "AttSize": 4,
+      "InlineImage": false,
+      "ContentId": "rem",
+      "AuthKey": "sit"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "minima"
   },
   "CustomFields": {
-    "CustomFields1": "recusandae",
-    "CustomFields2": "dolor"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "impedit"
   }
 }
 ```
@@ -183,28 +183,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 33,
+  "EjMessageId": 289,
   "Ticket": null,
-  "CreatedAt": "2008-10-26T15:29:23.0822578+01:00",
+  "CreatedAt": "2000-12-07T03:51:28.2870905+01:00",
   "CreatedBy": null,
-  "Author": "odio",
+  "Author": "architecto",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "repellat",
-  "TimeSpent": 236,
-  "Body": "omnis",
-  "HtmlBody": "tenetur",
-  "EmailHeader": "bryana.stoltenberg@mante.uk",
-  "DebugInfo": "numquam",
-  "MailSorter": "optio",
+  "MessageId": "voluptate",
+  "TimeSpent": 995,
+  "Body": "in",
+  "HtmlBody": "occaecati",
+  "EmailHeader": "ted@steuber.us",
+  "DebugInfo": "corporis",
+  "MailSorter": "vel",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ab",
+  "SearchTitle": "velit",
   "MessageHeaders": [
     {
-      "Id": 724,
-      "Name": "Franecki-Emard",
-      "Value": "quisquam",
+      "Id": 739,
+      "Name": "Kautzer Inc and Sons",
+      "Value": "voluptates",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -212,49 +212,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldLength": 873
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "rerum",
-  "Sentiment": 904,
-  "SentimentConfidence": 84,
+  "Important": false,
+  "Language": "non",
+  "Sentiment": 504,
+  "SentimentConfidence": 58,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 763,
-      "Name": "Goyette Inc and Sons",
-      "ContentType": "fugiat",
-      "AttSize": 270,
+      "AttachmentId": 57,
+      "Name": "Pagac, Tillman and Breitenberg",
+      "ContentType": "dolor",
+      "AttSize": 184,
       "InlineImage": true,
-      "ContentId": "beatae",
-      "AuthKey": "suscipit",
+      "ContentId": "dolorum",
+      "AuthKey": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 447
+          "FieldLength": 162
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "excepturi"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "quisquam"
+    "CustomFields1": "et",
+    "CustomFields2": "consectetur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldLength": 152
     }
   }
 }

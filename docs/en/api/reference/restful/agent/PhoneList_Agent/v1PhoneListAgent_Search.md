@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "quaerat"
+  "SearchString": "ut"
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(778)612-8127",
-    "PersonCellPhone": "(273)461-0237",
-    "PersonPrivatePhone": "(755)892-0303 x76686",
-    "PersonFaxNumber": "777602",
-    "PersonPagerNumber": "501990",
-    "PersonEmail": "kacie.klocko@greenholt.co.uk",
-    "Id": 625,
-    "Name": "Senger LLC",
-    "Tooltip": "fugiat",
-    "UniqueId": "unde",
+    "PersonDirectPhone": "(718)197-0521",
+    "PersonCellPhone": "009.375.7839 x1036",
+    "PersonPrivatePhone": "953-594-4540 x242",
+    "PersonFaxNumber": "623000",
+    "PersonPagerNumber": "292241",
+    "PersonEmail": "daphnee@murazikhackett.biz",
+    "Id": 808,
+    "Name": "Runolfsdottir Inc and Sons",
+    "Tooltip": "necessitatibus",
+    "UniqueId": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldLength": 140
       }
     }
   }

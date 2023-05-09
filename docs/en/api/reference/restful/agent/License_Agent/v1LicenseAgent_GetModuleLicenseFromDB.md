@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Beatty Group",
-  "ModuleName": "Mann-Nolan"
+  "OwnerName": "Runolfsson, McGlynn and Runolfsson",
+  "ModuleName": "Kirlin-Quigley"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Schoen, Kassulke and Ullrich",
-  "ModuleName": "Graham-Bernhard",
-  "ModuleDescription": "Universal incremental capability",
-  "ModuleTooltip": "ad",
-  "ModuleVersion": "consectetur",
+  "OwnerName": "Zemlak-Kuhic",
+  "ModuleName": "Kuphal, Cummerata and Lubowitz",
+  "ModuleDescription": "Future-proofed web-enabled Graphic Interface",
+  "ModuleTooltip": "adipisci",
+  "ModuleVersion": "eum",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 53,
-  "ExtraFlags": 972,
-  "ExtraInfo": "assumenda",
-  "SortOrder": 24,
+  "NumberOfLicenses": 471,
+  "ExtraFlags": 595,
+  "ExtraInfo": "provident",
+  "SortOrder": 837,
   "IsHidden": true,
-  "PrerequisiteModuleName": "Hilll Group",
-  "Signature": "ut"
+  "PrerequisiteModuleName": "VonRueden, Goyette and Roob",
+  "Signature": "repudiandae"
 }
 ```

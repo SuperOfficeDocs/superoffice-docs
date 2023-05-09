@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 53,
-  "BlobSize": 195,
-  "Description": "Digitized optimal conglomeration",
-  "ExtraInfo": "reprehenderit",
-  "IsEncrypted": false,
+  "BlobId": 638,
+  "BlobSize": 757,
+  "Description": "Exclusive mobile service-desk",
+  "ExtraInfo": "qui",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "dolore",
-  "OriginalSize": 396,
-  "CreatedDate": "2003-11-28T15:29:29.9276981+01:00",
-  "UpdatedDate": "1996-01-02T15:29:29.9276981+01:00",
+  "MimeType": "accusamus",
+  "OriginalSize": 85,
+  "CreatedDate": "2017-12-06T03:51:33.802183+01:00",
+  "UpdatedDate": "2002-02-04T03:51:33.802183+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ad"
+  "ConceptualType": "et"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 255,
-  "BlobSize": 344,
-  "Description": "Automated bifurcated collaboration",
-  "ExtraInfo": "distinctio",
+  "BlobId": 925,
+  "BlobSize": 905,
+  "Description": "Optional upward-trending protocol",
+  "ExtraInfo": "quidem",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 762,
-  "CreatedDate": "2018-10-27T15:29:29.9296965+02:00",
-  "UpdatedDate": "2008-11-18T15:29:29.9296965+01:00",
+  "IsZipped": true,
+  "MimeType": "neque",
+  "OriginalSize": 9,
+  "CreatedDate": "2019-10-30T03:51:33.802183+01:00",
+  "UpdatedDate": "2004-04-07T03:51:33.802183+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptas",
+  "ConceptualType": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 454
     }
   }
 }

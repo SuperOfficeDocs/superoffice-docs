@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 846,
-  "Name": "Botsford-Hilll",
-  "Tooltip": "numquam",
-  "Deleted": false,
-  "Rank": 570,
-  "UdListDefinitionId": 986
+  "HeadingId": 668,
+  "Name": "Nader, Bergnaum and Harris",
+  "Tooltip": "odit",
+  "Deleted": true,
+  "Rank": 455,
+  "UdListDefinitionId": 595
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 148,
-  "Name": "Hamill Group",
-  "Tooltip": "aperiam",
+  "HeadingId": 314,
+  "Name": "Carroll Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 620,
-  "UdListDefinitionId": 860,
+  "Rank": 51,
+  "UdListDefinitionId": 21,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldLength": 302
     }
   }
 }

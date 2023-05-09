@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/User/SaveUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,17 +96,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "quia",
-  "Tooltip": "voluptate",
-  "Id": 642,
-  "Rank": 914,
-  "Deleted": true,
+  "Value": "et",
+  "Tooltip": "id",
+  "Id": 213,
+  "Rank": 931,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 438
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   }
 }

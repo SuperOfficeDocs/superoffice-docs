@@ -71,10 +71,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    818,
-    164
+    739,
+    978
   ],
-  "MoveToFolder": "ratione"
+  "MoveToFolder": "beatae"
 }
 ```
 

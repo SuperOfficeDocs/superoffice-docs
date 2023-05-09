@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 667
+  "ErpConnectionId": 7
 }
 ```
 
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 591,
-  "ErpConnectorId": 356,
-  "DisplayName": "Towne LLC",
-  "DisplayDescription": "Robust cohesive hardware",
+  "ErpConnectionId": 290,
+  "ErpConnectorId": 310,
+  "DisplayName": "Johns, Batz and Leffler",
+  "DisplayDescription": "Cross-platform neutral model",
   "Active": false,
-  "ConnectionId": "alias",
-  "MostRecentTimestamp": "suscipit",
+  "ConnectionId": "eos",
+  "MostRecentTimestamp": "quaerat",
   "ConfigFields": {
-    "ConfigFields1": "qui",
-    "ConfigFields2": "cum"
+    "ConfigFields1": "sunt",
+    "ConfigFields2": "id"
   },
-  "Deleted": false,
+  "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    35,
-    786
+    535,
+    678
   ],
   "AssociateAccessIds": [
-    51,
-    403
+    958,
+    510
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldType": "System.String",
+      "FieldLength": 615
     }
   }
 }

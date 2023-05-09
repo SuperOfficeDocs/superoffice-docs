@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Towne-Abbott",
-    "ToolTip": "Ipsam sint laboriosam nemo.",
-    "Deleted": false,
-    "Rank": 622,
-    "Type": "labore",
-    "ColorBlock": 569,
-    "IconHint": "quam",
+    "Id": 521,
+    "Name": "Ledner-Bechtelar",
+    "ToolTip": "Aut laboriosam minima aut repudiandae unde consequatur debitis.",
+    "Deleted": true,
+    "Rank": 258,
+    "Type": "provident",
+    "ColorBlock": 292,
+    "IconHint": "sequi",
     "Selected": false,
-    "LastChanged": "2011-10-22T15:29:31.2679851+02:00",
+    "LastChanged": "2018-12-28T03:51:34.692727+01:00",
     "ChildItems": [
       {
-        "Id": 884,
-        "Name": "Witting, Murray and Weissnat",
-        "ToolTip": "Omnis omnis et quis corporis animi.",
+        "Id": 152,
+        "Name": "Jacobson, Dickinson and Gutkowski",
+        "ToolTip": "Repellendus odit expedita et.",
         "Deleted": false,
-        "Rank": 669,
-        "Type": "minima",
-        "ColorBlock": 651,
-        "IconHint": "laborum",
-        "Selected": false,
-        "LastChanged": "2010-03-25T15:29:31.268478+01:00",
+        "Rank": 260,
+        "Type": "ducimus",
+        "ColorBlock": 455,
+        "IconHint": "beatae",
+        "Selected": true,
+        "LastChanged": "2002-11-11T03:51:34.692727+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "minus",
+        "ExtraInfo": "cum",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Britney Kuhlman",
+        "FullName": "Morgan Ankunding DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 484
+            "FieldLength": 627
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "ullam",
+    "ExtraInfo": "quo",
+    "StyleHint": "fugit",
     "Hidden": false,
-    "FullName": "Thelma Gislason DDS",
+    "FullName": "Mrs. Lois Henriette Stark MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 42
       }
     }
   }

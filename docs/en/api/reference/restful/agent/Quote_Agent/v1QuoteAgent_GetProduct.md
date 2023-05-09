@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 710,
-  "ERPProductKey": "quas"
+  "QuoteConnectionId": 551,
+  "ERPProductKey": "sed"
 }
 ```
 
@@ -122,73 +122,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 214,
-  "ERPProductKey": "sit",
-  "ERPPriceListKey": "asperiores",
-  "Name": "Cummerata, Grimes and Dooley",
-  "Description": "Diverse multimedia groupware",
-  "Code": "unde",
-  "PriceUnit": "illo",
-  "QuantityUnit": "et",
+  "ProductId": 381,
+  "ERPProductKey": "accusantium",
+  "ERPPriceListKey": "doloribus",
+  "Name": "Mohr LLC",
+  "Description": "Re-contextualized 5th generation secured line",
+  "Code": "qui",
+  "PriceUnit": "deserunt",
+  "QuantityUnit": "architecto",
   "IsSubscription": true,
-  "SubscriptionUnit": "tenetur",
-  "DefaultSubscriptionQuantity": 11304.338,
-  "ItemNumber": "1548743",
+  "SubscriptionUnit": "ad",
+  "DefaultSubscriptionQuantity": 1820.854,
+  "ItemNumber": "1326080",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eos",
-  "ProductTypeKey": "natus",
-  "VAT": 19418.264,
-  "VATInfo": "voluptate",
-  "UnitCost": 27400.561999999998,
-  "UnitMinimumPrice": 4509.826,
-  "UnitListPrice": 24423.262,
+  "ProductFamilyKey": "libero",
+  "ProductTypeKey": "praesentium",
+  "VAT": 14830.088,
+  "VATInfo": "sit",
+  "UnitCost": 26902.255999999998,
+  "UnitMinimumPrice": 28864.14,
+  "UnitListPrice": 23865.41,
   "InAssortment": true,
-  "Supplier": "suscipit",
-  "SupplierCode": "maxime",
-  "Rights": "error",
-  "Rule": "minima",
+  "Supplier": "sunt",
+  "SupplierCode": "quis",
+  "Rights": "voluptatem",
+  "Rule": "velit",
   "ExtraInfo": [
     {
-      "Name": "Abernathy LLC",
-      "Value": "et",
+      "Name": "Windler Group",
+      "Value": "dolores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 762
+          "FieldType": "System.Int32",
+          "FieldLength": 117
         }
       }
     },
     {
-      "Name": "Abernathy LLC",
-      "Value": "et",
+      "Name": "Windler Group",
+      "Value": "dolores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 762
+          "FieldType": "System.Int32",
+          "FieldLength": 117
         }
       }
     }
   ],
-  "RawExtraInfo": "deleniti",
-  "ExtraField1": "rerum",
-  "ExtraField2": "aut",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "odio",
-  "ExtraField5": "voluptas",
-  "InStock": 25542.1,
+  "RawExtraInfo": "esse",
+  "ExtraField1": "dolor",
+  "ExtraField2": "occaecati",
+  "ExtraField3": "quo",
+  "ExtraField4": "cum",
+  "ExtraField5": "totam",
+  "InStock": 19079.791999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 565
     }
   }
 }

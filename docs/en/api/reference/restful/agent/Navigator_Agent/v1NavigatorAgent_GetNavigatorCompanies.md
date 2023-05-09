@@ -78,7 +78,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schamberger-Larkin"
+  "Name": "Macejkovic Group"
 }
 ```
 
@@ -90,28 +90,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Value": "voluptate",
-    "Tooltip": "voluptatibus",
+    "Id": 690,
+    "Value": "rem",
+    "Tooltip": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 667
+        "FieldType": "System.Int32",
+        "FieldLength": 838
       }
     }
   },
   {
-    "Id": 15,
-    "Value": "voluptate",
-    "Tooltip": "voluptatibus",
+    "Id": 690,
+    "Value": "rem",
+    "Tooltip": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 667
+        "FieldType": "System.Int32",
+        "FieldLength": 838
       }
     }
   }

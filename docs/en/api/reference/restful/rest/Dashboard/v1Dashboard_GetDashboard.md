@@ -76,7 +76,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 953,
-  "AssociateId": 678,
-  "Caption": "totam",
+  "DashboardId": 287,
+  "AssociateId": 948,
+  "Caption": "autem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 787,
-      "Caption": "autem",
-      "Description": "Implemented assymetric initiative",
-      "ChartName": "Emard Group",
-      "ChartId": "sint",
+      "DashboardTileId": 725,
+      "Caption": "eligendi",
+      "Description": "Object-based static orchestration",
+      "ChartName": "Krajcik-Gorczany",
+      "ChartId": "voluptates",
       "IsDefault": false,
-      "AssociateId": 150,
-      "GroupId": 791,
-      "SelectionId": 484,
-      "Config": "suscipit",
+      "AssociateId": 636,
+      "GroupId": 305,
+      "SelectionId": 331,
+      "Config": "ut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldType": "System.String",
+          "FieldLength": 16
         }
       }
     }
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldLength": 17
     }
   },
   "_Links": {

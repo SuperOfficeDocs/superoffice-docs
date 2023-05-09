@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleDynamicSelection"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1231,7 +1231,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelection?$select=person/personExtra/x_person_shorttext,contact/contactUdef/SuperOffice:9,appointment/recurring,saleStakeholder/person/personExtra/y_rental/x_contact,saleStakeholder/contact/postAddress/zip
+GET /api/v1/archive/SaleDynamicSelection?$select=person/personInterestIds,person/correspondingAssociate/simultaneousEjUser,contact/hasInfoText,associate/assocType,appointment/updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

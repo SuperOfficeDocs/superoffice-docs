@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,36 +113,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 948,
-    "Name": "Howe Inc and Sons",
-    "OrgNr": "1493740",
+    "ContactId": 115,
+    "Name": "Bartell, Gorczany and Cronin",
+    "OrgNr": "733044",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "aspernatur",
-    "DirectPhone": "124-168-2332 x190",
-    "AssociateId": 521,
-    "CountryId": 511,
-    "EmailAddress": "nicholaus@rippin.ca",
+    "City": "nostrum",
+    "DirectPhone": "(744)719-2099 x1533",
+    "AssociateId": 875,
+    "CountryId": 536,
+    "EmailAddress": "gerhard_denesik@macejkovic.uk",
     "Kananame": "soluta",
-    "EmailAddressName": "shaylee.heathcote@franecki.us",
+    "EmailAddressName": "delta_toy@cole.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Caleb Witting",
+    "AssociateFullName": "Rodrigo Grady",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "reprehenderit",
-    "FullName": "Prof. Shanon Earlene Schimmel III",
+    "FormattedAddress": "quo",
+    "FullName": "Jamison Adams",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 878,
-    "Number1": "1303239",
-    "Number2": "1070546",
+    "ActiveErpLinks": 782,
+    "Number1": "260261",
+    "Number2": "1359458",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 437
       }
     }
   }

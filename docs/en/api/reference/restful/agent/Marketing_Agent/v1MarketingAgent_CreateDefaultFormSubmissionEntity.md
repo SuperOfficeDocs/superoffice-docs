@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 540,
-  "FormId": 96,
-  "WhenSubmitted": "2009-09-26T15:29:22.1257712+02:00",
-  "ContactId": 280,
-  "PersonId": 206,
-  "EmailAddress": "laury.gleason@langworthupton.name",
-  "ResponseShipmentAddrId": 160,
-  "Response": "non",
+  "FormSubmissionId": 33,
+  "FormId": 849,
+  "WhenSubmitted": "2008-12-07T03:51:27.5060342+01:00",
+  "ContactId": 265,
+  "PersonId": 759,
+  "EmailAddress": "zaria_hauck@murrayhamill.us",
+  "ResponseShipmentAddrId": 938,
+  "Response": "ea",
   "Status": "EmailVerification",
-  "ProcessingLog": "assumenda",
+  "ProcessingLog": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 752
+      "FieldType": "System.Int32",
+      "FieldLength": 365
     }
   }
 }

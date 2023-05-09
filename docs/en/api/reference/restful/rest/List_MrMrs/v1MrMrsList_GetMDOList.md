@@ -26,7 +26,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=a
+GET /api/v1/List/MrMrs/MDOItems?query=est
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "Littel Group",
-    "ToolTip": "Sunt eos ut sed aliquid beatae cupiditate est.",
-    "Deleted": false,
-    "Rank": 362,
-    "Type": "rem",
+    "Id": 544,
+    "Name": "Funk LLC",
+    "ToolTip": "Quos ex eos laboriosam perferendis nihil voluptate.",
+    "Deleted": true,
+    "Rank": 505,
+    "Type": "repellendus",
     "ChildItems": [
       {
-        "Id": 398,
-        "Name": "Will Inc and Sons",
-        "ToolTip": "Minima itaque ut eos beatae molestias sit.",
+        "Id": 212,
+        "Name": "Swaniawski, Nitzsche and Robel",
+        "ToolTip": "Sunt doloremque ut.",
         "Deleted": false,
-        "Rank": 369,
-        "Type": "molestiae",
+        "Rank": 707,
+        "Type": "eveniet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "mollitia",
-        "ColorBlock": 306,
-        "ExtraInfo": "aperiam",
-        "StyleHint": "nulla",
-        "FullName": "Will Champlin",
+        "IconHint": "praesentium",
+        "ColorBlock": 44,
+        "ExtraInfo": "est",
+        "StyleHint": "beatae",
+        "FullName": "Mrs. Jailyn Laury Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 512
+            "FieldType": "System.String",
+            "FieldLength": 500
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 415,
+    "IconHint": "quas",
+    "ColorBlock": 529,
     "ExtraInfo": "et",
-    "StyleHint": "hic",
-    "FullName": "Ms. Johann Elsa McClure",
+    "StyleHint": "ullam",
+    "FullName": "Paxton Simonis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldType": "System.String",
+        "FieldLength": 179
       }
     }
   }

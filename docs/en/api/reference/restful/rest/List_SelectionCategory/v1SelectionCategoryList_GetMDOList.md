@@ -25,8 +25,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=nisi
+GET /api/v1/List/SelectionCategory/MDOItems?flat=True
+GET /api/v1/List/SelectionCategory/MDOItems?query=deserunt
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Schiller-Kuhlman",
-    "ToolTip": "Quibusdam architecto qui omnis et architecto dignissimos.",
+    "Id": 138,
+    "Name": "Schimmel-Wiza",
+    "ToolTip": "Nihil vero asperiores eveniet molestiae error.",
     "Deleted": false,
-    "Rank": 820,
-    "Type": "corporis",
+    "Rank": 904,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 8,
-        "Name": "Hauck, Bauch and Walker",
-        "ToolTip": "Eveniet perferendis.",
-        "Deleted": false,
-        "Rank": 440,
-        "Type": "molestiae",
+        "Id": 618,
+        "Name": "Russel, Barton and Zboncak",
+        "ToolTip": "Optio voluptatibus in nisi sequi et fuga.",
+        "Deleted": true,
+        "Rank": 377,
+        "Type": "alias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 673,
-        "ExtraInfo": "et",
-        "StyleHint": "tenetur",
-        "FullName": "Dr. Samantha Raynor",
+        "IconHint": "minima",
+        "ColorBlock": 905,
+        "ExtraInfo": "natus",
+        "StyleHint": "sint",
+        "FullName": "Ms. Marguerite Rolfson IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 29
+            "FieldLength": 236
           }
         }
       }
     ],
-    "IconHint": "ducimus",
-    "ColorBlock": 529,
-    "ExtraInfo": "illum",
-    "StyleHint": "temporibus",
-    "FullName": "Haley Lueilwitz",
+    "IconHint": "veniam",
+    "ColorBlock": 113,
+    "ExtraInfo": "architecto",
+    "StyleHint": "voluptatem",
+    "FullName": "Miss Rex Dion Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldType": "System.String",
+        "FieldLength": 815
       }
     }
   }

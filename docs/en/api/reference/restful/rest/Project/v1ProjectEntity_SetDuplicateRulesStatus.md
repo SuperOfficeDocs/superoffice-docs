@@ -56,20 +56,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mraz-Morar",
-    "DisplayName": "Satterfield-Heathcote",
-    "DisplayTooltip": "qui",
+    "Name": "Ryan-Lakin",
+    "DisplayName": "Kling Group",
+    "DisplayTooltip": "aperiam",
     "IsActive": true
   },
   {
-    "Name": "Mraz-Morar",
-    "DisplayName": "Satterfield-Heathcote",
-    "DisplayTooltip": "qui",
+    "Name": "Ryan-Lakin",
+    "DisplayName": "Kling Group",
+    "DisplayTooltip": "aperiam",
     "IsActive": true
   }
 ]

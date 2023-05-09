@@ -25,7 +25,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=578
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=209
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 293,
-  "SourcePersonId": 252,
-  "DestinationContactId": 789,
-  "DestinationPersonId": 371,
-  "RelationId": 416,
-  "Comment": "cum",
-  "RelationDefinitionId": 533,
-  "Reversed": 302,
-  "UpdatedDate": "2017-09-11T15:29:22.6032642+02:00",
-  "CreatedDate": "1996-08-05T15:29:22.6032642+02:00",
+  "SourceContactId": 737,
+  "SourcePersonId": 109,
+  "DestinationContactId": 695,
+  "DestinationPersonId": 52,
+  "RelationId": 807,
+  "Comment": "aut",
+  "RelationDefinitionId": 473,
+  "Reversed": 220,
+  "UpdatedDate": "2023-02-11T03:51:28.0371601+01:00",
+  "CreatedDate": "2001-04-20T03:51:28.0371601+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Powlowski, Pollich and Sawayn",
-  "SourcePersonName": "Jaskolski-Jaskolski",
-  "DestinationContactName": "McLaughlin-Moen",
-  "DestinationPersonName": "Beatty LLC",
-  "ActiveText": "et",
-  "PassiveText": "provident",
+  "SourceContactName": "Hilpert-Schmeler",
+  "SourcePersonName": "Weimann-Hagenes",
+  "DestinationContactName": "Davis LLC",
+  "DestinationPersonName": "Lesch LLC",
+  "ActiveText": "rerum",
+  "PassiveText": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 77
     }
   }
 }

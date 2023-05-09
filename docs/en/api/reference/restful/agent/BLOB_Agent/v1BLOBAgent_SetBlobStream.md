@@ -68,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobEntityId": 511,
+  "BlobEntityId": 148,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```

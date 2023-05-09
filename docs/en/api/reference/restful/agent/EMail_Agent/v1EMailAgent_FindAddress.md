@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/EMail/FindAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "ut"
+  "Address": "sint"
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 868,
-    "ContactName": "Lang-Feil",
-    "PersonId": 134,
-    "PersonName": "Willms LLC",
-    "AssociateId": 256,
-    "Address": "ea",
-    "EmailId": 107,
+    "ContactId": 549,
+    "ContactName": "Simonis LLC",
+    "PersonId": 1002,
+    "PersonName": "Yundt Inc and Sons",
+    "AssociateId": 349,
+    "Address": "culpa",
+    "EmailId": 72,
     "DuplicatePersonIds": [
-      242,
-      337
+      313,
+      433
     ],
-    "Name": "Mosciski LLC",
+    "Name": "Ryan Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldType": "System.String",
+        "FieldLength": 131
       }
     }
   }

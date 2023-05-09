@@ -81,7 +81,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,60 +91,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 180,
-  "Name": "Johnson-Schuster",
+  "TicketPriorityId": 796,
+  "Name": "Cummerata-Predovic",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 182,
+  "SortOrder": 790,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 763,
-  "MonStart": "2001-06-01T15:29:31.6679724+02:00",
-  "MonStop": "2014-11-01T15:29:31.6679724+01:00",
-  "TueStart": "2004-02-20T15:29:31.6679724+01:00",
-  "TueStop": "2001-02-02T15:29:31.6679724+01:00",
-  "WedStart": "2016-11-29T15:29:31.6679724+01:00",
-  "WedStop": "2003-08-08T15:29:31.6679724+02:00",
-  "ThuStart": "2013-07-04T15:29:31.6679724+02:00",
-  "ThuStop": "2022-03-17T15:29:31.6679724+01:00",
-  "FriStart": "2012-01-17T15:29:31.6679724+01:00",
-  "FriStop": "1997-06-22T15:29:31.6679724+02:00",
-  "SatStart": "2007-04-13T15:29:31.6679724+02:00",
-  "SatStop": "2020-01-09T15:29:31.6679724+01:00",
-  "SunStart": "2020-07-19T15:29:31.6679724+02:00",
-  "SunStop": "1996-12-21T15:29:31.6679724+01:00",
+  "Deadline": 647,
+  "MonStart": "2012-05-13T03:51:35.0051461+02:00",
+  "MonStop": "2020-05-11T03:51:35.0051461+02:00",
+  "TueStart": "2005-09-27T03:51:35.0051461+02:00",
+  "TueStop": "2001-10-06T03:51:35.0051461+02:00",
+  "WedStart": "2018-05-06T03:51:35.0051461+02:00",
+  "WedStop": "2003-10-12T03:51:35.0051461+02:00",
+  "ThuStart": "2000-10-09T03:51:35.0051461+02:00",
+  "ThuStop": "2007-10-06T03:51:35.0051461+02:00",
+  "FriStart": "1999-04-14T03:51:35.0051461+02:00",
+  "FriStop": "2002-10-01T03:51:35.0051461+02:00",
+  "SatStart": "2021-11-14T03:51:35.0051461+01:00",
+  "SatStop": "2000-10-14T03:51:35.0051461+02:00",
+  "SunStart": "2019-04-23T03:51:35.0051461+02:00",
+  "SunStop": "2008-04-19T03:51:35.0051461+02:00",
   "NonDates": [
-    "modi",
-    "totam"
+    "voluptatem",
+    "quibusdam"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 753,
-      "AlertLevel": 101,
-      "AlertTimeout": 955,
-      "Action": 428,
-      "DelegateTo": 546,
-      "ScriptId": 32,
-      "EmailTo": "edmund_jenkins@kuhlman.ca",
-      "SmsTo": "ullam",
-      "ReplyTemplateIdCustomer": 437,
-      "ReplyTemplateIdUser": 107,
-      "ReplyTemplateIdCatmast": 911,
-      "ReplyTemplateIdEmail": 572,
-      "RtiCustomerSms": 690,
-      "ReplyTemplateIdUserSms": 235,
-      "ReplyTemplateIdCatmastSms": 85,
-      "ReplyTemplateIdSms": 158,
+      "TicketAlertId": 207,
+      "AlertLevel": 69,
+      "AlertTimeout": 763,
+      "Action": 239,
+      "DelegateTo": 20,
+      "ScriptId": 641,
+      "EmailTo": "annabelle_russel@adams.ca",
+      "SmsTo": "id",
+      "ReplyTemplateIdCustomer": 160,
+      "ReplyTemplateIdUser": 168,
+      "ReplyTemplateIdCatmast": 118,
+      "ReplyTemplateIdEmail": 544,
+      "RtiCustomerSms": 974,
+      "ReplyTemplateIdUserSms": 804,
+      "ReplyTemplateIdCatmastSms": 1001,
+      "ReplyTemplateIdSms": 34,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldType": "System.String",
+          "FieldLength": 523
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldType": "System.Int32",
+      "FieldLength": 160
     }
   }
 }

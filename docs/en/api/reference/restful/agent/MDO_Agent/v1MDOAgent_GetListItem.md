@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Beier, Grant and Block",
-  "Id": 197
+  "ListName": "Denesik-O'Hara",
+  "Id": 95
 }
 ```
 
@@ -100,50 +100,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 523,
-  "Name": "Thompson, Glover and Lang",
-  "ToolTip": "Repellendus nemo qui incidunt natus aut et esse.",
-  "Deleted": true,
-  "Rank": 560,
-  "Type": "quas",
+  "Id": 716,
+  "Name": "McGlynn, Bauch and Ullrich",
+  "ToolTip": "Ab non nemo omnis magni molestiae dolores.",
+  "Deleted": false,
+  "Rank": 29,
+  "Type": "illo",
   "ChildItems": [
     {
-      "Id": 662,
-      "Name": "Cartwright-Conn",
-      "ToolTip": "Eum architecto nobis.",
-      "Deleted": false,
-      "Rank": 352,
-      "Type": "itaque",
+      "Id": 667,
+      "Name": "Tillman, Fisher and Sanford",
+      "ToolTip": "Sunt mollitia vitae.",
+      "Deleted": true,
+      "Rank": 378,
+      "Type": "magni",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "culpa",
-      "ColorBlock": 489,
-      "ExtraInfo": "inventore",
-      "StyleHint": "cupiditate",
-      "FullName": "Ollie Gorczany",
+      "IconHint": "ducimus",
+      "ColorBlock": 353,
+      "ExtraInfo": "sint",
+      "StyleHint": "quisquam",
+      "FullName": "Dr. Lorenz Jakubowski III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldType": "System.String",
+          "FieldLength": 871
         }
       }
     }
   ],
-  "IconHint": "ab",
-  "ColorBlock": 714,
-  "ExtraInfo": "ab",
-  "StyleHint": "ut",
-  "FullName": "Monroe Rowe",
+  "IconHint": "aliquid",
+  "ColorBlock": 868,
+  "ExtraInfo": "dolor",
+  "StyleHint": "nisi",
+  "FullName": "Deonte Ziemann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldLength": 248
     }
   }
 }

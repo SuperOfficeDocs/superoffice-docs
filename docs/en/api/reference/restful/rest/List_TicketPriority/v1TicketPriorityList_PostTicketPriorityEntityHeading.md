@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 603,
-  "Name": "Tillman-Ratke",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 65,
-  "UdListDefinitionId": 349
+  "HeadingId": 968,
+  "Name": "Price-Haag",
+  "Tooltip": "recusandae",
+  "Deleted": false,
+  "Rank": 888,
+  "UdListDefinitionId": 160
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 420,
-  "Name": "Koch Inc and Sons",
-  "Tooltip": "voluptatum",
-  "Deleted": true,
-  "Rank": 195,
+  "HeadingId": 669,
+  "Name": "Nitzsche, Durgan and Medhurst",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "Rank": 267,
   "UdListDefinitionId": 672,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldType": "System.String",
+      "FieldLength": 121
     }
   }
 }

@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,52 +113,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "aliquid",
-  "PersonId": 236,
-  "Mrmrs": "impedit",
-  "Firstname": "Travis",
-  "Lastname": "Robel",
-  "MiddleName": "Barton, Block and Lockman",
-  "Title": "earum",
-  "Description": "Face to face secondary pricing structure",
-  "Email": "nelson@will.com",
-  "FullName": "Mr. Taurean Littel",
-  "DirectPhone": "1-701-206-6287",
-  "FormalName": "Douglas Inc and Sons",
-  "CountryId": 87,
-  "ContactId": 145,
-  "ContactName": "Labadie, Homenick and Fisher",
-  "Retired": 453,
-  "Rank": 103,
-  "ActiveInterests": 582,
+  "Position": "est",
+  "PersonId": 174,
+  "Mrmrs": "dignissimos",
+  "Firstname": "Jerry",
+  "Lastname": "Bayer",
+  "MiddleName": "Hartmann Group",
+  "Title": "a",
+  "Description": "Balanced human-resource approach",
+  "Email": "adelia@pacochawilderman.us",
+  "FullName": "Ms. America Block DDS",
+  "DirectPhone": "459-886-1859 x7079",
+  "FormalName": "Zboncak Inc and Sons",
+  "CountryId": 730,
+  "ContactId": 4,
+  "ContactName": "Kerluke, Wiza and Schroeder",
+  "Retired": 933,
+  "Rank": 1000,
+  "ActiveInterests": 298,
   "ContactDepartment": "",
-  "ContactCountryId": 554,
-  "ContactOrgNr": "1547328",
-  "FaxPhone": "434-932-5975 x871",
-  "MobilePhone": "(282)379-2571 x18442",
-  "ContactPhone": "(926)970-5011 x18589",
-  "AssociateName": "Collier Inc and Sons",
-  "AssociateId": 324,
-  "UsePersonAddress": true,
-  "ContactFax": "vero",
-  "Kanafname": "dolores",
-  "Kanalname": "omnis",
-  "Post1": "consequatur",
-  "Post2": "aut",
-  "Post3": "id",
-  "EmailName": "shemar_roob@beer.co.uk",
-  "ContactFullName": "Avis Howe",
-  "ActiveErpLinks": 764,
-  "TicketPriorityId": 984,
-  "SupportLanguageId": 503,
-  "SupportAssociateId": 618,
+  "ContactCountryId": 579,
+  "ContactOrgNr": "953528",
+  "FaxPhone": "054-408-3024 x16475",
+  "MobilePhone": "1-501-376-8851 x904",
+  "ContactPhone": "926.213.5960",
+  "AssociateName": "Rippin, Crona and Schmidt",
+  "AssociateId": 948,
+  "UsePersonAddress": false,
+  "ContactFax": "sapiente",
+  "Kanafname": "sit",
+  "Kanalname": "expedita",
+  "Post1": "qui",
+  "Post2": "ad",
+  "Post3": "consequatur",
+  "EmailName": "adalberto@hilllstreich.ca",
+  "ContactFullName": "Dr. Bell Quinton Batz",
+  "ActiveErpLinks": 336,
+  "TicketPriorityId": 274,
+  "SupportLanguageId": 984,
+  "SupportAssociateId": 99,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 111
+      "FieldType": "System.Int32",
+      "FieldLength": 395
     }
   }
 }

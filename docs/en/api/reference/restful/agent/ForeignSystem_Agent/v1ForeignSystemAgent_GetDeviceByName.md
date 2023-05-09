@@ -85,8 +85,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wuckert-Larson",
-  "DeviceName": "Schinner-Conroy"
+  "ApplicationName": "Luettgen, Bergstrom and Okuneva",
+  "DeviceName": "Ratke, West and Kulas"
 }
 ```
 
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 36,
-  "Name": "Feest-Osinski",
-  "CreatedDate": "2014-04-23T15:29:21.9163077+02:00",
-  "UpdatedDate": "2012-07-31T15:29:21.9163077+02:00",
-  "AssociateFullName": "Lauren Zieme",
-  "CreatedBy": "sint",
-  "UpdatedBy": "ducimus",
-  "DeviceIdentifier": "ut",
-  "ForeignAppId": 214,
+  "ForeignDeviceId": 700,
+  "Name": "Ferry, Hoppe and Greenfelder",
+  "CreatedDate": "2020-12-20T03:51:27.3498217+01:00",
+  "UpdatedDate": "2014-05-20T03:51:27.3498217+02:00",
+  "AssociateFullName": "Dr. Roxanne Kohler I",
+  "CreatedBy": "autem",
+  "UpdatedBy": "aperiam",
+  "DeviceIdentifier": "consequatur",
+  "ForeignAppId": 415,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldType": "System.Int32",
+      "FieldLength": 32
     }
   }
 }

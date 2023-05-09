@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 969,
-    "Name": "McGlynn-Kerluke",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "UdListDefinitionId": 781,
-    "Rank": 841,
+    "Id": 133,
+    "Name": "Hand-Wehner",
+    "Tooltip": "ex",
+    "Deleted": false,
+    "UdListDefinitionId": 452,
+    "Rank": 846,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 667
+        "FieldLength": 890
       }
     }
   }

@@ -116,8 +116,9 @@ OK
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
-| Sale | Sale | The sale that this ticket connected to  <para>Use MDO List name "sale" to get list items.</para> |
-| Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
+| Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
+| Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
+| FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -133,10 +134,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceTicketEntityId": 251,
+  "SourceTicketEntityId": 611,
   "TransferMessageIds": [
-    698,
-    58
+    710,
+    257
   ],
   "NewTicketEntity": null
 }
@@ -149,21 +150,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 447,
-  "Title": "ullam",
-  "CreatedAt": "2008-02-01T15:29:23.1842924+01:00",
-  "LastChanged": "2011-10-31T15:29:23.1842924+01:00",
-  "ReadByOwner": "2001-03-31T15:29:23.1842924+02:00",
-  "ReadByCustomer": "2020-02-06T15:29:23.1842924+01:00",
-  "FirstReadByOwner": "2001-06-05T15:29:23.1842924+02:00",
-  "FirstReadByUser": "2022-09-04T15:29:23.1842924+02:00",
-  "Activate": "2017-01-22T15:29:23.1842924+01:00",
-  "ClosedAt": "2013-10-08T15:29:23.1842924+02:00",
-  "RepliedAt": "2009-11-07T15:29:23.1842924+01:00",
-  "AlertTimeout": "2003-02-02T15:29:23.1842924+01:00",
-  "Deadline": "2002-07-06T15:29:23.1842924+02:00",
+  "TicketId": 682,
+  "Title": "consequuntur",
+  "CreatedAt": "1999-03-05T03:51:28.3652065+01:00",
+  "LastChanged": "1996-05-21T03:51:28.3652065+02:00",
+  "ReadByOwner": "1996-07-14T03:51:28.3652065+02:00",
+  "ReadByCustomer": "2003-01-12T03:51:28.3652065+01:00",
+  "FirstReadByOwner": "2014-01-23T03:51:28.3652065+01:00",
+  "FirstReadByUser": "2001-02-02T03:51:28.3652065+01:00",
+  "Activate": "2012-09-06T03:51:28.3652065+02:00",
+  "ClosedAt": "2013-02-28T03:51:28.3652065+01:00",
+  "RepliedAt": "2000-08-14T03:51:28.3652065+02:00",
+  "AlertTimeout": "2009-12-14T03:51:28.3652065+01:00",
+  "Deadline": "2005-02-15T03:51:28.3652065+01:00",
   "CreatedBy": null,
-  "Author": "totam",
+  "Author": "occaecati",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -174,158 +175,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "eaque",
-      "PersonId": 548,
-      "Mrmrs": "dicta",
-      "Firstname": "Kale",
-      "Lastname": "Gleason",
-      "MiddleName": "Mueller-Predovic",
-      "Title": "dolorem",
-      "Description": "Public-key system-worthy software",
-      "Email": "murphy.durgan@yost.us",
-      "FullName": "Miss Carolyne Ayla Turner",
-      "DirectPhone": "656-257-0421 x82665",
-      "FormalName": "Quitzon, Langworth and Botsford",
-      "CountryId": 421,
-      "ContactId": 143,
-      "ContactName": "Schneider, Marquardt and Greenfelder",
-      "Retired": 581,
-      "Rank": 206,
-      "ActiveInterests": 663,
+      "Position": "officiis",
+      "PersonId": 202,
+      "Mrmrs": "dolor",
+      "Firstname": "Emiliano",
+      "Lastname": "Brakus",
+      "MiddleName": "Wiegand LLC",
+      "Title": "omnis",
+      "Description": "Innovative intangible function",
+      "Email": "elinor@schroeder.info",
+      "FullName": "Ryann Abshire",
+      "DirectPhone": "856-578-2156 x684",
+      "FormalName": "Gutmann-Frami",
+      "CountryId": 718,
+      "ContactId": 696,
+      "ContactName": "Harvey LLC",
+      "Retired": 342,
+      "Rank": 144,
+      "ActiveInterests": 47,
       "ContactDepartment": "",
-      "ContactCountryId": 520,
-      "ContactOrgNr": "811846",
-      "FaxPhone": "1-102-324-2839 x47821",
-      "MobilePhone": "471-218-4400 x73027",
-      "ContactPhone": "524-127-2975 x2389",
-      "AssociateName": "Hills-Kihn",
-      "AssociateId": 244,
+      "ContactCountryId": 405,
+      "ContactOrgNr": "382235",
+      "FaxPhone": "(906)186-3861",
+      "MobilePhone": "081-690-3788",
+      "ContactPhone": "(580)983-0975",
+      "AssociateName": "Farrell-Stehr",
+      "AssociateId": 941,
       "UsePersonAddress": false,
-      "ContactFax": "aliquid",
-      "Kanafname": "enim",
-      "Kanalname": "dignissimos",
-      "Post1": "assumenda",
-      "Post2": "est",
-      "Post3": "laborum",
-      "EmailName": "libby_will@nolanwiza.info",
-      "ContactFullName": "Jakayla Feeney",
-      "ActiveErpLinks": 13,
-      "TicketPriorityId": 453,
-      "SupportLanguageId": 888,
-      "SupportAssociateId": 810,
+      "ContactFax": "ad",
+      "Kanafname": "voluptatum",
+      "Kanalname": "beatae",
+      "Post1": "consequatur",
+      "Post2": "id",
+      "Post3": "iusto",
+      "EmailName": "abe@parkerwalter.uk",
+      "ContactFullName": "Zoe Buckridge",
+      "ActiveErpLinks": 585,
+      "TicketPriorityId": 794,
+      "SupportLanguageId": 938,
+      "SupportAssociateId": 946,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 783
+          "FieldLength": 221
         }
       }
     }
   ],
-  "AlertLevel": 339,
-  "ConnectId": 126,
+  "AlertLevel": 648,
+  "ConnectId": 199,
   "ReadStatus": "Green",
-  "TimeToReply": 859,
-  "RealTimeToReply": 340,
-  "TimeToClose": 651,
-  "RealTimeToClose": 513,
-  "TimeSpentInternally": 397,
-  "TimeSpentExternally": 918,
-  "TimeSpentQueue": 776,
-  "RealTimeSpentInternally": 818,
-  "RealTimeSpentExternally": 263,
-  "RealTimeSpentQueue": 617,
+  "TimeToReply": 965,
+  "RealTimeToReply": 653,
+  "TimeToClose": 459,
+  "RealTimeToClose": 156,
+  "TimeSpentInternally": 448,
+  "TimeSpentExternally": 634,
+  "TimeSpentQueue": 743,
+  "RealTimeSpentInternally": 844,
+  "RealTimeSpentExternally": 41,
+  "RealTimeSpentQueue": 354,
   "HasAttachment": false,
-  "NumReplies": 442,
-  "NumMessages": 983,
-  "FromAddress": "in",
+  "NumReplies": 66,
+  "NumMessages": 794,
+  "FromAddress": "impedit",
   "Messages": [
     {
-      "TicketMessageId": 417,
-      "CreatedAt": "2003-09-25T15:29:23.1892979+02:00",
+      "TicketMessageId": 414,
+      "CreatedAt": "2021-03-31T03:51:28.3652065+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "nihil",
-      "PersonId": 392,
-      "PersonFullName": "Deshaun Zieme",
-      "ContactId": 209,
-      "ContactName": "Ryan-Rohan",
+      "Author": "doloribus",
+      "PersonId": 430,
+      "PersonFullName": "Princess Mayert",
+      "ContactId": 446,
+      "ContactName": "Beier, Dare and Rohan",
       "ContactDepartment": "",
-      "NumAttachments": 183,
-      "EmailHeader": "camryn.kuhn@mcdermottsenger.biz",
+      "NumAttachments": 293,
+      "EmailHeader": "vernie.boyer@kutch.us",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "nihil",
-      "Sentiment": 530,
-      "SentimentConfidence": 455,
-      "CreatedBy": 994,
-      "ChangedAt": "2012-04-23T15:29:23.1897914+02:00",
+      "Language": "eum",
+      "Sentiment": 213,
+      "SentimentConfidence": 954,
+      "CreatedBy": 337,
+      "ChangedAt": "2020-02-25T03:51:28.3652065+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 930
+          "FieldLength": 255
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 607,
-      "Name": "Stark LLC",
-      "ToolTip": "Occaecati cupiditate.",
+      "Id": 736,
+      "Name": "Zemlak, Goldner and Sporer",
+      "ToolTip": "Assumenda consequuntur rerum quia.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 165
+          "FieldLength": 849
         }
       }
     },
     {
-      "Id": 607,
-      "Name": "Stark LLC",
-      "ToolTip": "Occaecati cupiditate.",
+      "Id": 736,
+      "Name": "Zemlak, Goldner and Sporer",
+      "ToolTip": "Assumenda consequuntur rerum quia.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 165
+          "FieldLength": 849
         }
       }
     }
   ],
-  "Language": "assumenda",
-  "Sentiment": 940,
-  "SentimentConfidence": 565,
+  "Language": "in",
+  "Sentiment": 369,
+  "SentimentConfidence": 251,
   "SuggestedCategoryId": 822,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 172,
-  "IconHint": "dolore",
+  "OrigHumanCategoryId": 304,
+  "IconHint": "dolores",
   "Sale": null,
   "Project": null,
+  "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "eius",
-    "CustomFields2": "qui"
+    "CustomFields1": "ea",
+    "CustomFields2": "laboriosam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldType": "System.String",
+      "FieldLength": 281
     }
   }
 }

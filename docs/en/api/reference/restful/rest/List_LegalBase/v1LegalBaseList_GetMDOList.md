@@ -26,7 +26,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=odit
+GET /api/v1/List/LegalBase/MDOItems?query=necessitatibus
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Hauck-Jerde",
-    "ToolTip": "Nobis dolor nihil voluptas iure.",
-    "Deleted": true,
-    "Rank": 241,
-    "Type": "qui",
+    "Id": 438,
+    "Name": "Schinner LLC",
+    "ToolTip": "Veniam pariatur repellat accusamus placeat sint iste.",
+    "Deleted": false,
+    "Rank": 740,
+    "Type": "iure",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Bayer, Murray and Stracke",
-        "ToolTip": "Doloribus nostrum sed.",
+        "Id": 823,
+        "Name": "Leannon, Williamson and Gibson",
+        "ToolTip": "Sint minima aut repellat fuga qui sunt.",
         "Deleted": false,
-        "Rank": 808,
-        "Type": "quia",
+        "Rank": 366,
+        "Type": "incidunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "assumenda",
-        "ColorBlock": 933,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "adipisci",
-        "FullName": "Patrick McKenzie",
+        "IconHint": "deleniti",
+        "ColorBlock": 372,
+        "ExtraInfo": "et",
+        "StyleHint": "aperiam",
+        "FullName": "Jasmin Schaefer PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 646
+            "FieldType": "System.String",
+            "FieldLength": 793
           }
         }
       }
     ],
-    "IconHint": "enim",
-    "ColorBlock": 456,
-    "ExtraInfo": "nostrum",
-    "StyleHint": "illum",
-    "FullName": "Jaylen Moore",
+    "IconHint": "autem",
+    "ColorBlock": 186,
+    "ExtraInfo": "nobis",
+    "StyleHint": "ea",
+    "FullName": "Brigitte Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 1000
+        "FieldLength": 139
       }
     }
   }

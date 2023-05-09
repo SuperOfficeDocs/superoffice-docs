@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 994,
-  "Name": "Abbott Group",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 402,
+  "Id": 868,
+  "Name": "Gleason Inc and Sons",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "Rank": 808,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "odit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "non",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 903,
-  "Name": "Beahan, Maggio and Borer",
-  "Tooltip": "facere",
-  "Deleted": true,
-  "Rank": 542,
+  "Id": 799,
+  "Name": "Feeney LLC",
+  "Tooltip": "fugiat",
+  "Deleted": false,
+  "Rank": 711,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "sed",
+  "ListType": "cumque",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldLength": 762
     }
   }
 }

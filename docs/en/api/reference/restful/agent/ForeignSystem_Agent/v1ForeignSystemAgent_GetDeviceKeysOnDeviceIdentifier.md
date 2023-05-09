@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Erdman, Bartell and Torphy",
-  "DeviceName": "Gutmann Inc and Sons",
-  "DeviceIdentifier": "quia"
+  "ApplicationName": "Stiedemann Inc and Sons",
+  "DeviceName": "Zboncak, Stark and Weimann",
+  "DeviceIdentifier": "laboriosam"
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "assumenda",
-    "Value": "qui",
-    "RecordId": 438,
-    "CreatedDate": "2006-04-07T15:29:21.9308088+02:00",
-    "UpdatedDate": "2012-02-25T15:29:21.9308088+01:00",
-    "UpdatedBy": "aspernatur",
-    "CreatedBy": "fugiat",
-    "TableName": "Schaefer Inc and Sons",
+    "Key": "eum",
+    "Value": "sit",
+    "RecordId": 360,
+    "CreatedDate": "1999-10-20T03:51:27.3498217+02:00",
+    "UpdatedDate": "2009-03-01T03:51:27.3498217+01:00",
+    "UpdatedBy": "officiis",
+    "CreatedBy": "minus",
+    "TableName": "Krajcik-Wiza",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldLength": 249
       }
     }
   }

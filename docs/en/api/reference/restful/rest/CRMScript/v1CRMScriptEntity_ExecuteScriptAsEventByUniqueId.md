@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "possimus",
-    "InputValues2": "culpa"
+    "InputValues1": "error",
+    "InputValues2": "rerum"
   },
-  "BlockExecution": false,
-  "NavigateTo": "voluptatum",
-  "Message": "aperiam",
-  "ShowDialog": "soluta",
+  "BlockExecution": true,
+  "NavigateTo": "enim",
+  "Message": "voluptatem",
+  "ShowDialog": "et",
   "OutputValues": {
-    "OutputValues1": "porro",
-    "OutputValues2": "quis"
+    "OutputValues1": "veritatis",
+    "OutputValues2": "voluptatem"
   },
   "StateValues": {
-    "StateValues1": "minus",
-    "StateValues2": "aut"
+    "StateValues1": "saepe",
+    "StateValues2": "qui"
   },
-  "Exception": "omnis"
+  "Exception": "tempore"
 }
 ```
 
@@ -121,28 +121,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "modi",
-    "InputValues2": "quos"
+    "InputValues1": "omnis",
+    "InputValues2": "odio"
   },
   "BlockExecution": false,
-  "NavigateTo": "dolor",
-  "Message": "est",
-  "ShowDialog": "aliquid",
+  "NavigateTo": "et",
+  "Message": "voluptas",
+  "ShowDialog": "error",
   "OutputValues": {
-    "OutputValues1": "sequi",
-    "OutputValues2": "et"
+    "OutputValues1": "maiores",
+    "OutputValues2": "consequatur"
   },
   "StateValues": {
-    "StateValues1": "quibusdam",
-    "StateValues2": "aut"
+    "StateValues1": "repellendus",
+    "StateValues2": "possimus"
   },
-  "Exception": "molestias",
+  "Exception": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 909
+      "FieldType": "System.Int32",
+      "FieldLength": 798
     }
   }
 }

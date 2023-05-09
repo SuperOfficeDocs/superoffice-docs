@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 751,
-    "Name": "Kshlerin Inc and Sons",
-    "Tooltip": "eaque",
-    "Deleted": true,
-    "Rank": 4,
+    "WebPanelId": 541,
+    "Name": "Runolfsson, Kerluke and Bins",
+    "Tooltip": "eligendi",
+    "Deleted": false,
+    "Rank": 63,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
-    "OnSatellite": false,
-    "OnTravel": true,
+    "OnCentral": false,
+    "OnSatellite": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": true,
-    "WindowName": "Gislason LLC",
+    "OnSalesMarketingPocket": true,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": false,
+    "WindowName": "Block-Hoeger",
     "Url": "http://www.example.com/",
-    "ProgId": "ducimus",
-    "Icon": 632,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "dolor",
+    "Icon": 602,
+    "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldLength": 808
       }
     }
   }

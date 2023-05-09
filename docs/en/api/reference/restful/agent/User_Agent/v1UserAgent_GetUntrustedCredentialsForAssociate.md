@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 418,
-  "Type": "dolorem"
+  "AssociateId": 600,
+  "Type": "sint"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2002-12-08T15:29:23.3737537+01:00",
-    "ValidTo": "2012-10-11T15:29:23.3737537+02:00",
-    "Comment": "voluptate",
-    "SecretValue": "mollitia",
-    "PublicValue": "aut",
+    "ValidFrom": "2004-01-07T03:51:28.5058+01:00",
+    "ValidTo": "2008-08-24T03:51:28.5058+02:00",
+    "Comment": "magni",
+    "SecretValue": "assumenda",
+    "PublicValue": "vel",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 543
+        "FieldLength": 460
       }
     }
   }

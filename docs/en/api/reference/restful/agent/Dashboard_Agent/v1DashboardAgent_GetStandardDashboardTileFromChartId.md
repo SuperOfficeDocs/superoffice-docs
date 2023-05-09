@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "odio"
+  "ChartId": "et"
 }
 ```
 
@@ -100,64 +100,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 246,
-  "Caption": "velit",
-  "Description": "Polarised non-volatile installation",
-  "ChartName": "Weissnat-Green",
-  "ChartId": "id",
+  "DashboardTileId": 490,
+  "Caption": "ut",
+  "Description": "Digitized coherent throughput",
+  "ChartName": "Bins Group",
+  "ChartId": "est",
   "IsDefault": false,
-  "AssociateId": 90,
-  "GroupId": 699,
-  "SelectionId": 975,
-  "Config": "sint",
+  "AssociateId": 164,
+  "GroupId": 196,
+  "SelectionId": 94,
+  "Config": "libero",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Ortiz Inc and Sons",
-      "Description": "Self-enabling reciprocal throughput",
+      "Name": "Dietrich Group",
+      "Description": "Managed national product",
       "Type": "Boolean",
-      "ListName": "Rice, Yost and Kunde",
+      "ListName": "DuBuque, Pouros and Maggio",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "doloremque",
+      "Value": "voluptas",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldLength": 937
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 705,
+      "VisibleId": 365,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 834
+          "FieldType": "System.String",
+          "FieldLength": 420
         }
       }
     },
     {
-      "VisibleId": 705,
+      "VisibleId": 365,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 834
+          "FieldType": "System.String",
+          "FieldLength": 420
         }
       }
     }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 583
     }
   }
 }

@@ -80,28 +80,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 21 Jan 2009 15:29:30 G1T
+Last-Modified: Wed, 15 Apr 2009 03:51:33 G4T
 
 {
-  "BlobId": 441,
-  "BlobSize": 986,
-  "Description": "Adaptive content-based throughput",
-  "ExtraInfo": "et",
+  "BlobId": 84,
+  "BlobSize": 120,
+  "Description": "Visionary solution-oriented instruction set",
+  "ExtraInfo": "praesentium",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "eligendi",
-  "OriginalSize": 164,
-  "CreatedDate": "2021-09-21T15:29:30.0041605+02:00",
-  "UpdatedDate": "2009-01-21T15:29:30.0041605+01:00",
+  "IsZipped": false,
+  "MimeType": "facere",
+  "OriginalSize": 534,
+  "CreatedDate": "2013-03-01T03:51:33.864677+01:00",
+  "UpdatedDate": "2009-04-15T03:51:33.864677+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "earum",
+  "ConceptualType": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldLength": 207
     }
   }
 }

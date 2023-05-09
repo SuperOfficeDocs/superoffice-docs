@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "libero",
-    "Tooltip": "ipsum",
-    "Id": 29,
-    "Rank": 109,
-    "Deleted": false,
+    "Value": "voluptatibus",
+    "Tooltip": "magni",
+    "Id": 748,
+    "Rank": 471,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldType": "System.String",
+        "FieldLength": 689
       }
     }
   }

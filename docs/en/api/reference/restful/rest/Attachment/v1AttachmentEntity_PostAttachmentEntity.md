@@ -91,13 +91,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 370,
-  "Name": "Abernathy, Spinka and Feest",
-  "ContentType": "est",
-  "AttSize": 817,
-  "InlineImage": true,
-  "ContentId": "non",
-  "AuthKey": "tempore"
+  "AttachmentId": 73,
+  "Name": "Dickens LLC",
+  "ContentType": "nisi",
+  "AttSize": 184,
+  "InlineImage": false,
+  "ContentId": "laboriosam",
+  "AuthKey": "non"
 }
 ```
 
@@ -108,24 +108,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 788,
-  "Name": "Kiehn-Hagenes",
-  "ContentType": "dicta",
-  "AttSize": 425,
-  "InlineImage": false,
-  "ContentId": "reiciendis",
-  "AuthKey": "accusantium",
+  "AttachmentId": 61,
+  "Name": "Schmitt Group",
+  "ContentType": "quae",
+  "AttSize": 958,
+  "InlineImage": true,
+  "ContentId": "eius",
+  "AuthKey": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldLength": 117
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

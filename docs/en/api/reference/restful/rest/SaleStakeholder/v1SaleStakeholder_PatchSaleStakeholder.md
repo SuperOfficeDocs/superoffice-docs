@@ -125,18 +125,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "ea",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "ea",
     "value": {}
   }
 ]
@@ -149,36 +149,36 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wintheiser Inc and Sons",
-  "Comment": "quis",
-  "StakeholderRoleId": 943,
-  "CountryId": 66,
-  "PersonId": 710,
-  "EmailDescription": "karlie@jones.info",
-  "EmailId": 820,
-  "EmailAddress": "crawford.rice@powlowski.info",
-  "PhoneId": 10,
-  "ContactName": "Casper-Boyle",
-  "ContactId": 53,
-  "SaleId": 157,
-  "Mrmrs": "numquam",
-  "Firstname": "Leonardo",
-  "MiddleName": "Greenholt-Schmitt",
-  "Lastname": "Wiegand",
-  "SaleStakeholderId": 654,
-  "Rank": 914,
-  "Phone": "1-791-647-0266",
+  "StakeholderRoleName": "Spencer, Monahan and Wolff",
+  "Comment": "voluptate",
+  "StakeholderRoleId": 71,
+  "CountryId": 62,
+  "PersonId": 911,
+  "EmailDescription": "beau@jenkins.info",
+  "EmailId": 909,
+  "EmailAddress": "shaylee@abshiregreen.uk",
+  "PhoneId": 52,
+  "ContactName": "Morar-Durgan",
+  "ContactId": 360,
+  "SaleId": 826,
+  "Mrmrs": "rerum",
+  "Firstname": "Jewell",
+  "MiddleName": "Lemke Group",
+  "Lastname": "Cruickshank",
+  "SaleStakeholderId": 281,
+  "Rank": 498,
+  "Phone": "692-491-5342 x269",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldLength": 292
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

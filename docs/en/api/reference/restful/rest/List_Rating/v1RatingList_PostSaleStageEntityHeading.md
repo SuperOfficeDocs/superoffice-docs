@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 813,
-  "Name": "Aufderhar, Champlin and Quitzon",
-  "Tooltip": "id",
-  "Deleted": true,
-  "Rank": 167,
-  "UdListDefinitionId": 711
+  "HeadingId": 518,
+  "Name": "Bauch, Yost and Mann",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 381,
+  "UdListDefinitionId": 737
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 97,
-  "Name": "Kirlin-Bayer",
-  "Tooltip": "aperiam",
-  "Deleted": true,
-  "Rank": 506,
-  "UdListDefinitionId": 401,
+  "HeadingId": 846,
+  "Name": "Aufderhar LLC",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "Rank": 789,
+  "UdListDefinitionId": 325,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldType": "System.String",
+      "FieldLength": 857
     }
   }
 }

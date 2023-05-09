@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 360,
-    "Name": "Quigley Group",
-    "Tooltip": "asperiores",
+    "HeadingId": 521,
+    "Name": "Toy, Schultz and Nienow",
+    "Tooltip": "molestias",
     "Deleted": true,
-    "Rank": 737,
-    "UdListDefinitionId": 124
+    "Rank": 791,
+    "UdListDefinitionId": 986
   },
   {
-    "HeadingId": 360,
-    "Name": "Quigley Group",
-    "Tooltip": "asperiores",
+    "HeadingId": 521,
+    "Name": "Toy, Schultz and Nienow",
+    "Tooltip": "molestias",
     "Deleted": true,
-    "Rank": 737,
-    "UdListDefinitionId": 124
+    "Rank": 791,
+    "UdListDefinitionId": 986
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 587,
-    "Name": "Jones-Brown",
-    "Tooltip": "alias",
+    "HeadingId": 560,
+    "Name": "Cruickshank, Feil and Goodwin",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 995,
-    "UdListDefinitionId": 869,
+    "Rank": 599,
+    "UdListDefinitionId": 110,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldType": "System.String",
+        "FieldLength": 262
       }
     }
   }

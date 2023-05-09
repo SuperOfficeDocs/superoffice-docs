@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 37,
+  "DocumentPluginId": 715,
   "IncludeEmails": true
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 987,
-  "NumDocumentsAlreadyMigrated": 37,
+  "NumDocumentsOmitted": 72,
+  "NumDocumentsAlreadyMigrated": 448,
   "Documents": [
     {
-      "DocumentId": 427,
-      "ContactId": 586,
-      "PersonId": 334,
-      "SaleId": 143,
-      "ProjectId": 363,
-      "DocTmplId": 106,
-      "AssociateId": 127,
-      "UserGroupId": 373,
-      "VisibleForId": 829
+      "DocumentId": 772,
+      "ContactId": 792,
+      "PersonId": 700,
+      "SaleId": 467,
+      "ProjectId": 929,
+      "DocTmplId": 851,
+      "AssociateId": 733,
+      "UserGroupId": 562,
+      "VisibleForId": 718
     }
   ],
   "Associates": [
     {
-      "AssociateId": 898,
-      "EmailAddress": "izabella@cummeratacorkery.uk"
+      "AssociateId": 665,
+      "EmailAddress": "edna@lindgren.uk"
     },
     {
-      "AssociateId": 898,
-      "EmailAddress": "izabella@cummeratacorkery.uk"
+      "AssociateId": 665,
+      "EmailAddress": "edna@lindgren.uk"
     }
   ]
 }

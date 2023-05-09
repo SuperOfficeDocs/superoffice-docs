@@ -25,7 +25,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=938
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=233
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,94 +105,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "unde",
-  "SignOffText": "cupiditate",
-  "SignOnConfirmationText": "corporis",
-  "SignOnText": "quasi",
-  "EventDate": "2013-01-19T15:29:22.4727666+01:00",
-  "Enabled": true,
-  "CreatedDate": "2012-05-07T15:29:22.4732654+02:00",
+  "SignOffConfirmationText": "eum",
+  "SignOffText": "delectus",
+  "SignOnConfirmationText": "et",
+  "SignOnText": "nostrum",
+  "EventDate": "2015-08-05T03:51:27.943438+02:00",
+  "Enabled": false,
+  "CreatedDate": "1999-08-04T03:51:27.943438+02:00",
   "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 420,
-  "SignOffTriggersAssign": false,
-  "SignOn": true,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 897,
+  "SignOffTriggersAssign": true,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 633,
+  "SignOnTaskId": 300,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2016-03-28T15:29:22.4732654+02:00",
+  "UpdatedDate": "2022-11-05T03:51:27.943438+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 121,
-  "Id": 608,
-  "PublishFrom": "2000-09-14T15:29:22.4737662+02:00",
+  "ProjectId": 296,
+  "Id": 572,
+  "PublishFrom": "2021-12-04T03:51:27.943438+01:00",
   "PublishType": "External",
-  "PublishTo": "1997-10-13T15:29:22.4737662+02:00",
+  "PublishTo": "2002-02-11T03:51:27.943438+01:00",
   "VisibleForCategories": [
     {
-      "Id": 453,
-      "Name": "Reilly, Torphy and Sawayn",
-      "ToolTip": "Distinctio ad nemo incidunt veritatis nulla blanditiis ad.",
+      "Id": 261,
+      "Name": "McCullough LLC",
+      "ToolTip": "Omnis quae aut et porro et beatae doloribus.",
       "Deleted": false,
-      "Rank": 833,
-      "Type": "et",
+      "Rank": 418,
+      "Type": "atque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatum",
-      "ColorBlock": 523,
-      "ExtraInfo": "unde",
-      "StyleHint": "sapiente",
-      "FullName": "Dr. Adolphus Jules Murray",
+      "IconHint": "nemo",
+      "ColorBlock": 370,
+      "ExtraInfo": "sint",
+      "StyleHint": "et",
+      "FullName": "Palma Smith",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 620
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 174,
-      "Name": "Cormier-Walker",
-      "ToolTip": "Ut eius dolorem soluta esse odio.",
-      "Deleted": true,
-      "Rank": 52,
-      "Type": "sunt",
+      "Id": 611,
+      "Name": "Goyette, Stoltenberg and Keebler",
+      "ToolTip": "Nisi nisi iusto enim et tenetur ipsa.",
+      "Deleted": false,
+      "Rank": 382,
+      "Type": "suscipit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "illum",
-      "ColorBlock": 503,
-      "ExtraInfo": "eos",
-      "StyleHint": "corporis",
-      "FullName": "Ms. Dora Nyah Gibson DDS",
+      "IconHint": "ea",
+      "ColorBlock": 587,
+      "ExtraInfo": "magnam",
+      "StyleHint": "praesentium",
+      "FullName": "Coby Reichel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 829
         }
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 570,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 910,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 220
     }
   }
 }

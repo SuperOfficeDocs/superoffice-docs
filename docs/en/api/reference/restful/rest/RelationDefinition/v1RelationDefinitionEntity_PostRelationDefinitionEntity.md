@@ -89,16 +89,16 @@ OK
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 284,
-  "Name": "Gerlach Group",
-  "Tooltip": "dolorum",
-  "PassiveText": "sint",
-  "Deleted": true,
-  "Rank": 236,
+  "ReldefId": 725,
+  "Name": "Hansen LLC",
+  "Tooltip": "quisquam",
+  "PassiveText": "quibusdam",
+  "Deleted": false,
+  "Rank": 303,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -111,25 +111,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 249,
-  "Name": "Wilderman, Bergstrom and Pouros",
-  "Tooltip": "rerum",
-  "PassiveText": "consequatur",
-  "Deleted": false,
-  "Rank": 978,
+  "ReldefId": 730,
+  "Name": "Ullrich Group",
+  "Tooltip": "et",
+  "PassiveText": "sed",
+  "Deleted": true,
+  "Rank": 1001,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldType": "System.String",
+      "FieldLength": 628
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Treutel, Hahn and Lang",
-    "Tooltip": "consequuntur",
-    "Deleted": false,
-    "UdListDefinitionId": 536,
-    "Rank": 816,
+    "Id": 671,
+    "Name": "Hegmann LLC",
+    "Tooltip": "earum",
+    "Deleted": true,
+    "UdListDefinitionId": 738,
+    "Rank": 937,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldLength": 50
       }
     }
   }

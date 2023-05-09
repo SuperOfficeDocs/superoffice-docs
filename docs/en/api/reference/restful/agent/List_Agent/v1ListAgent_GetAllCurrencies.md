@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 777,
-    "Name": "Morar, Toy and Jast",
-    "Tooltip": "sit",
-    "Rank": 380,
-    "Rate": 11993.818,
-    "Units": 4058.5299999999997,
+    "CurrencyId": 840,
+    "Name": "Kuhlman, Franecki and Ziemann",
+    "Tooltip": "pariatur",
+    "Rank": 942,
+    "Rate": 29274.694,
+    "Units": 26516.773999999998,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 120
+        "FieldType": "System.Int32",
+        "FieldLength": 328
       }
     }
   }

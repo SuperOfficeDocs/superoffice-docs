@@ -68,8 +68,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 180,
-  "UdListDefinitionId": 270
+  "Id": 167,
+  "UdListDefinitionId": 804
 }
 ```
 

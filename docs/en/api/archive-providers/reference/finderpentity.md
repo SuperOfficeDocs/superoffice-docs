@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FindErpEntity"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,7 +37,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.ErpSync.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindErpEntity?$select=ErpActorType,Connected
+GET /api/v1/archive/FindErpEntity?$select=ConnectionId,ErpActorType,Connected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

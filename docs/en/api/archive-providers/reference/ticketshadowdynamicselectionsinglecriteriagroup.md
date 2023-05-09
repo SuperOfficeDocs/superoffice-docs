@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TicketShadowDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -715,7 +715,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=content,person/personAssociate/role,contact/restrictionAddress/county,contact/NumberOfSales,contact/saintTicketStatus
+GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=person/personAssociate/assocTooltip,extra/x_ticket_faq,sale/associate/personEmail,project/description,project/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

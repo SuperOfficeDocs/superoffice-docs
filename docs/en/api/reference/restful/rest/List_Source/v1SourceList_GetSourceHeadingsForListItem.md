@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 583,
-    "Name": "Ryan Inc and Sons",
-    "ToolTip": "Facilis beatae sed dolorem omnis.",
-    "Deleted": true,
-    "Rank": 580,
-    "Type": "itaque",
-    "ColorBlock": 538,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2008-09-15T15:29:31.6299732+02:00",
+    "Id": 916,
+    "Name": "O'Conner Inc and Sons",
+    "ToolTip": "Rem quo adipisci blanditiis omnis quia.",
+    "Deleted": false,
+    "Rank": 816,
+    "Type": "illum",
+    "ColorBlock": 358,
+    "IconHint": "velit",
+    "Selected": true,
+    "LastChanged": "2022-04-07T03:51:34.9738936+02:00",
     "ChildItems": [
       {
-        "Id": 354,
-        "Name": "Mertz-Stoltenberg",
-        "ToolTip": "Dicta quae omnis eum veritatis beatae optio aut.",
+        "Id": 423,
+        "Name": "Cole Group",
+        "ToolTip": "Omnis voluptas aliquid.",
         "Deleted": false,
-        "Rank": 987,
-        "Type": "ut",
-        "ColorBlock": 714,
-        "IconHint": "corrupti",
-        "Selected": true,
-        "LastChanged": "2021-06-07T15:29:31.6299732+02:00",
+        "Rank": 434,
+        "Type": "occaecati",
+        "ColorBlock": 437,
+        "IconHint": "nemo",
+        "Selected": false,
+        "LastChanged": "2013-12-07T03:51:34.9738936+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "minus",
-        "Hidden": false,
-        "FullName": "Dr. Annabel O'Kon",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "voluptates",
+        "Hidden": true,
+        "FullName": "Jacquelyn Walter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 562
+            "FieldType": "System.Int32",
+            "FieldLength": 599
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "nemo",
+    "ExtraInfo": "placeat",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Modesto Stark",
+    "FullName": "Greta Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 786
+        "FieldLength": 34
       }
     }
   }

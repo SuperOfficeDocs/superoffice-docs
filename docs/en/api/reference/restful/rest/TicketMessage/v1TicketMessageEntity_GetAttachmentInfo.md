@@ -64,7 +64,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,19 +75,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 57,
-    "Name": "Beatty Inc and Sons",
-    "ContentType": "accusantium",
-    "AttSize": 581,
-    "InlineImage": false,
-    "ContentId": "saepe",
-    "AuthKey": "harum",
+    "AttachmentId": 130,
+    "Name": "Jacobson Inc and Sons",
+    "ContentType": "consequatur",
+    "AttSize": 429,
+    "InlineImage": true,
+    "ContentId": "qui",
+    "AuthKey": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldLength": 976
       }
     }
   }

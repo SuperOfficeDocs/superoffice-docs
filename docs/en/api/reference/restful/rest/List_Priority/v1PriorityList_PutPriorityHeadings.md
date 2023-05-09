@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 657,
-    "Name": "Nader Group",
-    "Tooltip": "deserunt",
-    "Deleted": true,
-    "Rank": 333,
-    "UdListDefinitionId": 583
+    "HeadingId": 933,
+    "Name": "DuBuque-Moore",
+    "Tooltip": "similique",
+    "Deleted": false,
+    "Rank": 810,
+    "UdListDefinitionId": 580
   },
   {
-    "HeadingId": 657,
-    "Name": "Nader Group",
-    "Tooltip": "deserunt",
-    "Deleted": true,
-    "Rank": 333,
-    "UdListDefinitionId": 583
+    "HeadingId": 933,
+    "Name": "DuBuque-Moore",
+    "Tooltip": "similique",
+    "Deleted": false,
+    "Rank": 810,
+    "UdListDefinitionId": 580
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 123,
-    "Name": "Stanton-Reichel",
-    "Tooltip": "eaque",
+    "HeadingId": 797,
+    "Name": "O'Kon LLC",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "Rank": 206,
-    "UdListDefinitionId": 914,
+    "Rank": 780,
+    "UdListDefinitionId": 55,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 642
       }
     }
   }

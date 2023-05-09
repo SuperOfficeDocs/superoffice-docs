@@ -77,7 +77,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,18 +87,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 767,
-  "PrefDescId": 628,
-  "PrefValue": "modi",
-  "PrefShowValue": "numquam",
-  "Description": "Optimized 24/7 algorithm",
-  "IsBuiltin": false,
+  "PrefDescLineId": 591,
+  "PrefDescId": 795,
+  "PrefValue": "aspernatur",
+  "PrefShowValue": "ex",
+  "Description": "Self-enabling logistical frame",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldType": "System.String",
+      "FieldLength": 706
     }
   },
   "_Links": {

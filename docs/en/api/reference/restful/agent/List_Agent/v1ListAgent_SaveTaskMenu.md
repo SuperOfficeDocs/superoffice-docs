@@ -92,19 +92,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 856,
-  "Name": "Sanford, Baumbach and Bogisich",
-  "Tooltip": "necessitatibus",
-  "TableName": "Kuphal-Wunsch",
-  "Area": "at",
+  "TaskMenuId": 914,
+  "Name": "McClure Group",
+  "Tooltip": "aliquam",
+  "TableName": "Terry Inc and Sons",
+  "Area": "quasi",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 302,
+  "CrmScriptId": 389,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 455,
+  "Rank": 271,
   "Encoding": "ANSI",
-  "ProgId": "vero",
+  "ProgId": "amet",
   "Deleted": false
 }
 ```
@@ -116,26 +116,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 592,
-  "Name": "Cronin-Botsford",
-  "Tooltip": "aut",
-  "TableName": "Williamson LLC",
-  "Area": "aut",
+  "TaskMenuId": 549,
+  "Name": "O'Reilly, Spencer and Gutkowski",
+  "Tooltip": "facilis",
+  "TableName": "Conroy Inc and Sons",
+  "Area": "ut",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 108,
+  "CrmScriptId": 865,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 930,
+  "Rank": 603,
   "Encoding": "ANSI",
-  "ProgId": "dolores",
-  "Deleted": false,
+  "ProgId": "libero",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldType": "System.String",
+      "FieldLength": 420
     }
   }
 }

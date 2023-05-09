@@ -98,33 +98,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 637,
-  "ParentId": 466,
-  "Name": "Ratke, Jakubowski and Jacobi",
-  "Fullname": "sit",
-  "CategoryMaster": 840,
+  "TicketCategoryId": 869,
+  "ParentId": 415,
+  "Name": "Lowe Inc and Sons",
+  "Fullname": "aut",
+  "CategoryMaster": 331,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Dare-Reichert",
+  "ExternalName": "Hansen, Gaylord and Jones",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 985,
-  "ReplyTemplate": 127,
-  "NotificationEmail": "devonte@labadie.ca",
+  "AssignmentLag": 168,
+  "ReplyTemplate": 454,
+  "NotificationEmail": "alexane_wyman@wizabruen.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 622,
+  "EffectiveReplyTemplateId": 925,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "animi",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "laudantium"
+    "CustomFields1": "magni",
+    "CustomFields2": "itaque"
   }
 }
 ```
@@ -136,36 +136,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 254,
-  "ParentId": 999,
-  "Name": "Simonis, Turcotte and Stanton",
-  "Fullname": "nihil",
-  "CategoryMaster": 350,
+  "TicketCategoryId": 891,
+  "ParentId": 546,
+  "Name": "Skiles Inc and Sons",
+  "Fullname": "sit",
+  "CategoryMaster": 6,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Grant Group",
+  "ExternalName": "Wuckert, King and Feeney",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 170,
-  "ReplyTemplate": 76,
-  "NotificationEmail": "allison_kemmer@hilll.biz",
+  "AssignmentLag": 200,
+  "ReplyTemplate": 932,
+  "NotificationEmail": "nicholaus_considine@blicksenger.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 1001,
+  "EffectiveReplyTemplateId": 144,
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "tenetur"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "illo"
   },
   "CustomFields": {
-    "CustomFields1": "incidunt",
-    "CustomFields2": "commodi"
+    "CustomFields1": "animi",
+    "CustomFields2": "eum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 893
     }
   }
 }

@@ -24,7 +24,7 @@ Deletes the DiaryViewEntity
 | DiaryViewEntityId | int32 | **Required** The id of the DiaryViewEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity?DiaryViewEntityId=18
+POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity?DiaryViewEntityId=827
 ```
 
 
@@ -55,7 +55,7 @@ No Content
 POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

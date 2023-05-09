@@ -86,7 +86,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,24 +96,24 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 560,
-  "Name": "Stark, Trantow and Barrows",
-  "Tooltip": "atque",
+  "RoleId": 719,
+  "Name": "Lockman Inc and Sons",
+  "Tooltip": "accusamus",
   "RoleType": "Anonymous",
-  "Deleted": 105,
-  "Rank": 776,
-  "Created": "2007-08-12T15:29:30.020159+02:00",
-  "UseCategories": 27,
+  "Deleted": 578,
+  "Rank": 27,
+  "Created": "2015-01-04T03:51:33.8802911+01:00",
+  "UseCategories": 900,
   "CreatedBy": null,
-  "Updated": "2010-05-22T15:29:30.0206599+02:00",
+  "Updated": "2004-02-26T03:51:33.8802911+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 305
+      "FieldType": "System.Int32",
+      "FieldLength": 990
     }
   },
   "_Links": {

@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "fuga",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "fuga",
     "value": {}
   }
 ]
@@ -144,23 +144,23 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 452,
-  "UniqueIdentifier": "laudantium",
-  "Name": "Aufderhar Inc and Sons",
-  "Description": "De-engineered multimedia software",
-  "IncludeId": "voluptatem",
-  "HierarchyId": 485,
-  "Source": "rerum",
-  "Registered": "2017-07-31T15:29:29.6292022+02:00",
-  "RegisteredAssociateId": 110,
-  "Updated": "2014-06-12T15:29:29.6292022+02:00",
-  "UpdatedAssociateId": 736,
+  "EjscriptId": 468,
+  "UniqueIdentifier": "facere",
+  "Name": "Bechtelar-Gerhold",
+  "Description": "Quality-focused dynamic superstructure",
+  "IncludeId": "aut",
+  "HierarchyId": 944,
+  "Source": "temporibus",
+  "Registered": "2020-11-21T03:51:33.5678642+01:00",
+  "RegisteredAssociateId": 250,
+  "Updated": "2018-07-29T03:51:33.5678642+02:00",
+  "UpdatedAssociateId": 921,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 619
     }
   },
   "_Links": {

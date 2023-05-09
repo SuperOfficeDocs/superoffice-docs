@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Larkin-Swaniawski",
-    "ToolTip": "Occaecati est eum est autem repellendus ratione cupiditate.",
+    "Id": 26,
+    "Name": "Bogan LLC",
+    "ToolTip": "A tempora accusantium in esse quas molestiae.",
     "Deleted": false,
-    "Rank": 668,
-    "Type": "aut",
-    "ColorBlock": 102,
-    "IconHint": "ut",
+    "Rank": 340,
+    "Type": "optio",
+    "ColorBlock": 194,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "1998-06-25T15:29:31.5024752+02:00",
+    "LastChanged": "2018-11-24T03:51:34.8801783+01:00",
     "ChildItems": [
       {
-        "Id": 580,
-        "Name": "Towne, Bergstrom and Grady",
-        "ToolTip": "Cumque rem.",
-        "Deleted": true,
-        "Rank": 261,
-        "Type": "voluptas",
-        "ColorBlock": 165,
-        "IconHint": "nesciunt",
-        "Selected": false,
-        "LastChanged": "1997-02-07T15:29:31.5029751+01:00",
+        "Id": 789,
+        "Name": "Corkery-Heathcote",
+        "ToolTip": "Est est dolor vitae.",
+        "Deleted": false,
+        "Rank": 66,
+        "Type": "aut",
+        "ColorBlock": 826,
+        "IconHint": "dignissimos",
+        "Selected": true,
+        "LastChanged": "2020-01-01T03:51:34.8801783+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "cum",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Adrian Turner"
+        "FullName": "Tavares Kihn"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "nam",
-    "Hidden": false,
-    "FullName": "Orrin Erdman Sr."
+    "ExtraInfo": "vel",
+    "StyleHint": "blanditiis",
+    "Hidden": true,
+    "FullName": "Shawna Katharina Wintheiser I"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 556,
-    "Name": "White Group",
-    "ToolTip": "Molestiae sint eligendi atque sunt.",
+    "Id": 653,
+    "Name": "Bergstrom-Zboncak",
+    "ToolTip": "Animi perspiciatis ut.",
     "Deleted": false,
-    "Rank": 749,
-    "Type": "cumque",
-    "ColorBlock": 686,
-    "IconHint": "veniam",
-    "Selected": true,
-    "LastChanged": "2006-10-20T15:29:31.5049755+02:00",
+    "Rank": 813,
+    "Type": "voluptas",
+    "ColorBlock": 802,
+    "IconHint": "assumenda",
+    "Selected": false,
+    "LastChanged": "2001-05-10T03:51:34.8801783+02:00",
     "ChildItems": [
       {
-        "Id": 56,
-        "Name": "Weber-Kihn",
-        "ToolTip": "Est minus.",
-        "Deleted": false,
-        "Rank": 270,
-        "Type": "consequatur",
-        "ColorBlock": 476,
-        "IconHint": "quod",
+        "Id": 498,
+        "Name": "Johnston, Johnston and Hegmann",
+        "ToolTip": "Officia qui eveniet exercitationem est adipisci.",
+        "Deleted": true,
+        "Rank": 928,
+        "Type": "quas",
+        "ColorBlock": 603,
+        "IconHint": "tenetur",
         "Selected": false,
-        "LastChanged": "2017-03-31T15:29:31.5049755+02:00",
+        "LastChanged": "2018-04-29T03:51:34.8801783+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "nam",
+        "ExtraInfo": "eius",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Jedediah Greenholt Jr.",
+        "FullName": "Hope Smitham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 607
+            "FieldLength": 839
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "sed",
+    "ExtraInfo": "libero",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Kaitlin Aniya Emmerich II",
+    "FullName": "Cyril Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 368
       }
     }
   }

@@ -67,7 +67,7 @@ OK
 GET /api/v1/User/currentAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 287,
-  "Name": "Goyette Inc and Sons",
-  "PersonId": 115,
-  "Rank": 389,
-  "Tooltip": "tempora",
+  "AssociateId": 63,
+  "Name": "Durgan-Schmeler",
+  "PersonId": 327,
+  "Rank": 177,
+  "Tooltip": "nesciunt",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 470,
-  "FullName": "Laurel Will",
-  "FormalName": "Anderson, Kub and Leffler",
+  "GroupIdx": 508,
+  "FullName": "Gloria Balistreri",
+  "FormalName": "Moen LLC",
   "Deleted": false,
-  "EjUserId": 451,
-  "UserName": "Sanford, Hegmann and Bergstrom",
+  "EjUserId": 860,
+  "UserName": "Krajcik-Torp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 798
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   }
 }

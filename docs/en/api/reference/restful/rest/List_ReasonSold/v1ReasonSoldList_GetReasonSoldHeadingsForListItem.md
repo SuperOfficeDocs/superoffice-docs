@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 368,
-    "Name": "Bosco-Cronin",
-    "ToolTip": "Itaque ducimus explicabo.",
+    "Id": 953,
+    "Name": "Schaden, Mann and Treutel",
+    "ToolTip": "Facere aut ut rerum voluptatem occaecati sint.",
     "Deleted": false,
-    "Rank": 236,
-    "Type": "repellat",
-    "ColorBlock": 936,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2009-02-24T15:29:31.5519812+01:00",
+    "Rank": 700,
+    "Type": "quaerat",
+    "ColorBlock": 337,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2005-08-25T03:51:34.9270326+02:00",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Considine-Halvorson",
-        "ToolTip": "Vitae ut ad.",
-        "Deleted": false,
-        "Rank": 636,
-        "Type": "eum",
-        "ColorBlock": 532,
-        "IconHint": "at",
-        "Selected": true,
-        "LastChanged": "2006-12-20T15:29:31.5519812+01:00",
+        "Id": 702,
+        "Name": "Feil-Grimes",
+        "ToolTip": "Ipsam voluptatem enim sunt in incidunt voluptatem.",
+        "Deleted": true,
+        "Rank": 998,
+        "Type": "explicabo",
+        "ColorBlock": 939,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2011-03-05T03:51:34.9270326+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "veritatis",
-        "Hidden": false,
-        "FullName": "Ms. Devonte Howe MD",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "sapiente",
+        "Hidden": true,
+        "FullName": "Julianne Bergstrom",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 655
+            "FieldLength": 374
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Mrs. Christy Bennett Bernier IV",
+    "FullName": "Andreane Adela Bradtke DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldLength": 496
       }
     }
   }

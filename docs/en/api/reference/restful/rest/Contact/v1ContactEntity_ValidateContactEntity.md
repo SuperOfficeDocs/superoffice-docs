@@ -100,89 +100,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 284,
-  "Name": "Block Group",
+  "ContactId": 551,
+  "Name": "Gleichner, Marquardt and Mraz",
   "Department": "",
-  "OrgNr": "809114",
-  "Number1": "1095511",
-  "Number2": "1127642",
-  "UpdatedDate": "1997-12-20T15:29:29.5797043+01:00",
-  "CreatedDate": "2022-06-14T15:29:29.5797043+02:00",
+  "OrgNr": "1079756",
+  "Number1": "1234100",
+  "Number2": "685169",
+  "UpdatedDate": "2015-12-17T03:51:33.5366222+01:00",
+  "CreatedDate": "1998-05-21T03:51:33.5366222+02:00",
   "Emails": [
     {
-      "Value": "delectus",
-      "StrippedValue": "ipsam",
-      "Description": "Grass-roots even-keeled success"
+      "Value": "temporibus",
+      "StrippedValue": "quia",
+      "Description": "Multi-layered neutral application"
     },
     {
-      "Value": "delectus",
-      "StrippedValue": "ipsam",
-      "Description": "Grass-roots even-keeled success"
+      "Value": "temporibus",
+      "StrippedValue": "quia",
+      "Description": "Multi-layered neutral application"
     }
   ],
   "Interests": [
     {
-      "Id": 412,
-      "Name": "Toy LLC",
-      "ToolTip": "Error et voluptatem laborum nemo omnis et et.",
+      "Id": 879,
+      "Name": "Moore, Feest and Mohr",
+      "ToolTip": "Quibusdam ut.",
       "Deleted": false,
-      "Rank": 865,
-      "Type": "aut",
-      "ColorBlock": 955,
-      "IconHint": "et",
-      "Selected": false,
-      "LastChanged": "2013-02-17T15:29:29.5802088+01:00",
+      "Rank": 216,
+      "Type": "in",
+      "ColorBlock": 808,
+      "IconHint": "necessitatibus",
+      "Selected": true,
+      "LastChanged": "2017-04-23T03:51:33.5366222+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "autem",
+      "ExtraInfo": "laborum",
+      "StyleHint": "reprehenderit",
       "Hidden": true,
-      "FullName": "Miss Darien Moshe Hermiston"
+      "FullName": "Dr. Lindsey Tara Zboncak"
     }
   ],
   "Urls": [
     {
-      "Value": "omnis",
-      "StrippedValue": "cumque",
-      "Description": "Switchable scalable encoding"
+      "Value": "laboriosam",
+      "StrippedValue": "cupiditate",
+      "Description": "Progressive fault-tolerant encoding"
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "cumque",
-      "Description": "Switchable scalable encoding"
+      "Value": "laboriosam",
+      "StrippedValue": "cupiditate",
+      "Description": "Progressive fault-tolerant encoding"
     }
   ],
   "Phones": [
     {
-      "Value": "dolor",
-      "StrippedValue": "exercitationem",
-      "Description": "Triple-buffered intermediate functionalities"
+      "Value": "deserunt",
+      "StrippedValue": "corrupti",
+      "Description": "Upgradable contextually-based function"
     },
     {
-      "Value": "dolor",
-      "StrippedValue": "exercitationem",
-      "Description": "Triple-buffered intermediate functionalities"
+      "Value": "deserunt",
+      "StrippedValue": "corrupti",
+      "Description": "Upgradable contextually-based function"
     }
   ],
   "Faxes": [
     {
-      "Value": "rerum",
-      "StrippedValue": "tempora",
-      "Description": "Profit-focused foreground array"
+      "Value": "voluptas",
+      "StrippedValue": "consequatur",
+      "Description": "Diverse bandwidth-monitored instruction set"
     },
     {
-      "Value": "rerum",
-      "StrippedValue": "tempora",
-      "Description": "Profit-focused foreground array"
+      "Value": "voluptas",
+      "StrippedValue": "consequatur",
+      "Description": "Diverse bandwidth-monitored instruction set"
     }
   ],
-  "Description": "Sharable explicit framework",
+  "Description": "Assimilated optimal solution",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -191,85 +191,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quibusdam",
-      "PersonId": 368,
-      "Mrmrs": "corrupti",
-      "Firstname": "Virgie",
-      "Lastname": "Schmitt",
-      "MiddleName": "Boehm, Considine and Botsford",
-      "Title": "perferendis",
-      "Description": "Distributed heuristic customer loyalty",
-      "Email": "edwina@reillyritchie.com",
-      "FullName": "Hans Kulas",
-      "DirectPhone": "1-928-547-9366 x9202",
-      "FormalName": "Schultz, Deckow and Leffler",
-      "CountryId": 589,
-      "ContactId": 518,
-      "ContactName": "Erdman, Stamm and Kessler",
-      "Retired": 29,
-      "Rank": 540,
-      "ActiveInterests": 381,
-      "ContactDepartment": "",
-      "ContactCountryId": 190,
-      "ContactOrgNr": "811145",
-      "FaxPhone": "(102)269-9845",
-      "MobilePhone": "1-725-403-0129",
-      "ContactPhone": "(005)572-4625",
-      "AssociateName": "Roob LLC",
-      "AssociateId": 866,
+      "Position": "ad",
+      "PersonId": 101,
+      "Mrmrs": "rerum",
+      "Firstname": "Darien",
+      "Lastname": "Gorczany",
+      "MiddleName": "Cassin Group",
+      "Title": "est",
+      "Description": "Realigned secondary matrix",
+      "Email": "kattie.kirlin@huelsstamm.info",
+      "FullName": "Prof. Alexane Parisian",
+      "DirectPhone": "1-062-894-7342 x4977",
+      "FormalName": "Jacobs Group",
+      "CountryId": 578,
+      "ContactId": 836,
+      "ContactName": "Toy, Ziemann and Quigley",
+      "Retired": 6,
+      "Rank": 19,
+      "ActiveInterests": 267,
+      "ContactDepartment": "seize world-class content",
+      "ContactCountryId": 417,
+      "ContactOrgNr": "730090",
+      "FaxPhone": "039-611-4712 x5105",
+      "MobilePhone": "1-176-342-1886",
+      "ContactPhone": "(905)712-6568 x783",
+      "AssociateName": "Zboncak-O'Connell",
+      "AssociateId": 992,
       "UsePersonAddress": false,
-      "ContactFax": "inventore",
-      "Kanafname": "ea",
-      "Kanalname": "ut",
-      "Post1": "quo",
-      "Post2": "illum",
-      "Post3": "ratione",
-      "EmailName": "cassie@rosenbaum.name",
-      "ContactFullName": "Mrs. Rachael Evan Funk",
-      "ActiveErpLinks": 380,
-      "TicketPriorityId": 246,
-      "SupportLanguageId": 4,
-      "SupportAssociateId": 678,
+      "ContactFax": "dolores",
+      "Kanafname": "debitis",
+      "Kanalname": "aut",
+      "Post1": "fugit",
+      "Post2": "repellendus",
+      "Post3": "autem",
+      "EmailName": "malcolm.hirthe@stehr.co.uk",
+      "ContactFullName": "Mrs. Francesca Vito Streich",
+      "ActiveErpLinks": 918,
+      "TicketPriorityId": 722,
+      "SupportLanguageId": 200,
+      "SupportAssociateId": 902,
       "CategoryName": "VIP Customer"
     }
   ],
-  "NoMailing": false,
-  "Kananame": "eaque",
+  "NoMailing": true,
+  "Kananame": "asperiores",
   "Xstop": false,
-  "ActiveInterests": 751,
-  "GroupId": 197,
-  "ActiveStatusMonitorId": 976,
+  "ActiveInterests": 250,
+  "GroupId": 829,
+  "ActiveStatusMonitorId": 979,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 99,
-  "DbiAgentId": 682,
-  "DbiLastSyncronized": "2022-05-07T15:29:29.5857024+02:00",
-  "DbiKey": "provident",
-  "DbiLastModified": "2021-10-13T15:29:29.5857024+02:00",
+  "Deleted": 427,
+  "DbiAgentId": 506,
+  "DbiLastSyncronized": "2019-04-13T03:51:33.5366222+02:00",
+  "DbiKey": "enim",
+  "DbiLastModified": "2017-09-14T03:51:33.5366222+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 404,
-  "ActiveErpLinks": 639,
+  "Source": 790,
+  "ActiveErpLinks": 466,
   "BounceEmails": [
-    "reginald.legros@spinkawhite.name",
-    "jerome@prohaskanitzsche.co.uk"
+    "melyssa@schneider.uk",
+    "kari_kshlerin@denesik.info"
   ],
   "Domains": [
-    "ut",
-    "animi"
+    "dolorum",
+    "temporibus"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Reta Oberbrunner",
-    "SuperOffice:2": "Mr. Laverne Williamson IV"
+    "SuperOffice:1": "Caitlyn Erdman",
+    "SuperOffice:2": "Mrs. Creola Hudson"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "numquam"
+    "ExtraFields1": "error",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "animi"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "ipsa"
   }
 }
 ```
@@ -281,7 +281,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "et",
-  "2": "dolores"
+  "1": "quas",
+  "2": "et"
 }
 ```

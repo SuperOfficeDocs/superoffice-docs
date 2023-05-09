@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 637,
-    "Name": "Boyle, Blanda and Rutherford",
-    "Tooltip": "voluptatem",
+    "HeadingId": 833,
+    "Name": "Bergnaum-Olson",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 86,
-    "UdListDefinitionId": 117
+    "Rank": 584,
+    "UdListDefinitionId": 570
   },
   {
-    "HeadingId": 637,
-    "Name": "Boyle, Blanda and Rutherford",
-    "Tooltip": "voluptatem",
+    "HeadingId": 833,
+    "Name": "Bergnaum-Olson",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 86,
-    "UdListDefinitionId": 117
+    "Rank": 584,
+    "UdListDefinitionId": 570
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 978,
-    "Name": "Runte, Russel and Schmitt",
-    "Tooltip": "laborum",
-    "Deleted": false,
-    "Rank": 710,
-    "UdListDefinitionId": 727,
+    "HeadingId": 309,
+    "Name": "Hartmann, Hilll and Powlowski",
+    "Tooltip": "aliquam",
+    "Deleted": true,
+    "Rank": 116,
+    "UdListDefinitionId": 414,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 127
+        "FieldType": "System.Int32",
+        "FieldLength": 263
       }
     }
   }

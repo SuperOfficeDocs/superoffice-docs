@@ -82,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 74,
+  "AssociateId": 222,
   "Type": "AnonymousAssociate",
-  "PersonId": 904,
-  "UserName": "Altenwerth Inc and Sons"
+  "PersonId": 162,
+  "UserName": "Harber Group"
 }
 ```
 
@@ -102,8 +102,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 208
+      "FieldType": "System.Int32",
+      "FieldLength": 310
     }
   }
 }

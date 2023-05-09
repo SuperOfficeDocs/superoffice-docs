@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 446,
-  "AttachmentId": "et"
+  "MessageServerId": 512,
+  "AttachmentId": "vero"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Horizontal upward-trending Graphic Interface",
-  "Filename": "illo",
-  "Size": 148,
-  "Type": "iusto",
-  "Encoding": "molestiae",
-  "Id": "deserunt",
-  "Disposition": "et",
+  "Description": "Multi-channelled explicit Graphic Interface",
+  "Filename": "sunt",
+  "Size": 41,
+  "Type": "sint",
+  "Encoding": "suscipit",
+  "Id": "hic",
+  "Disposition": "quasi",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldType": "System.Int32",
+      "FieldLength": 334
     }
   }
 }

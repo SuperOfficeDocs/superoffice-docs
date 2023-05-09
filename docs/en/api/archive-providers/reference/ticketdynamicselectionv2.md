@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TicketDynamicSelectionV2"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -717,7 +717,7 @@ Ticket selection archive with OR-able selection groups. Each group is represente
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketDynamicSelectionV2?$select=person/fullName,person/personAddress/wgs84latitude,person/personUdef/SuperOffice:9,person/isMailingRecipient,contact/streetAddress/zip
+GET /api/v1/archive/TicketDynamicSelectionV2?$select=person/personUpdatedDate,sale/stage,project/LastSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

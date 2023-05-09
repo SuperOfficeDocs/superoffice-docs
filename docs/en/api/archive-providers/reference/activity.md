@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Activity"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -710,7 +710,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/personNoMail,person/personAddress/line1,contact/contactAssociate/ejStatus,contact/LastActivity,sale/currencyId
+GET /api/v1/archive/Activity?$select=person/restrictionAddress/wgs84latitude,contact/code,contact/url/URLAddress,contact/contactAssociate/usergroup,sale/saleNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

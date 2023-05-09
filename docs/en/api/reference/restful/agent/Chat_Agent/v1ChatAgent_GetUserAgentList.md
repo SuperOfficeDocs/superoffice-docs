@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Flat": false,
-  "OnlyPresent": true
+  "OnlyPresent": false
 }
 ```
 
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Haag Inc and Sons",
-    "ToolTip": "Dolore corporis.",
+    "Id": 971,
+    "Name": "Glover Group",
+    "ToolTip": "Voluptas voluptas error et consequatur sapiente aut quis.",
     "Deleted": false,
-    "Rank": 345,
-    "Type": "quis",
+    "Rank": 274,
+    "Type": "possimus",
     "ChildItems": [
       {
-        "Id": 581,
-        "Name": "Batz-Hyatt",
-        "ToolTip": "Possimus quia sed.",
+        "Id": 941,
+        "Name": "VonRueden Group",
+        "ToolTip": "Praesentium aspernatur a necessitatibus.",
         "Deleted": false,
-        "Rank": 355,
-        "Type": "ut",
+        "Rank": 394,
+        "Type": "culpa",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 320,
-        "ExtraInfo": "sapiente",
-        "StyleHint": "eum",
-        "FullName": "Lelia Satterfield",
+        "IconHint": "illo",
+        "ColorBlock": 427,
+        "ExtraInfo": "sint",
+        "StyleHint": "aut",
+        "FullName": "Leon Aufderhar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 953
+            "FieldType": "System.String",
+            "FieldLength": 841
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 322,
-    "ExtraInfo": "fuga",
-    "StyleHint": "velit",
-    "FullName": "Mr. Melyna Terry V",
+    "IconHint": "ea",
+    "ColorBlock": 344,
+    "ExtraInfo": "aut",
+    "StyleHint": "eligendi",
+    "FullName": "Tianna Talia Rohan IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldLength": 569
       }
     }
   }

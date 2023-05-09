@@ -69,31 +69,31 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schulist-Spinka",
+  "ProviderName": "Bergnaum-Beatty",
   "Restrictions": [
     {
-      "Name": "Wolff-Leffler",
-      "Operator": "qui",
+      "Name": "Carroll Inc and Sons",
+      "Operator": "veritatis",
       "Values": [
-        "facilis",
-        "dolores"
+        "vitae",
+        "voluptas"
       ],
       "DisplayValues": [
-        "et",
-        "expedita"
+        "sit",
+        "ea"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 711,
+      "InterParenthesis": 447,
       "InterOperator": "And",
-      "UniqueHash": 895
+      "UniqueHash": 744
     }
   ],
-  "AssociateId": 549
+  "AssociateId": 947
 }
 ```
 

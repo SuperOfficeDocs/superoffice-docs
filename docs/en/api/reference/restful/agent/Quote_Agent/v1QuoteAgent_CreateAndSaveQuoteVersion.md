@@ -114,7 +114,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 510
+  "QuoteVersionId": 801
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 408,
-  "ERPQuoteVersionKey": "qui",
-  "QuoteId": 843,
-  "Description": "Pre-emptive interactive framework",
-  "Number": "1514260",
+  "QuoteVersionId": 863,
+  "ERPQuoteVersionKey": "facere",
+  "QuoteId": 554,
+  "Description": "Exclusive multi-tasking hardware",
+  "Number": "248203",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 962,
-  "SentDate": "1999-09-10T15:29:22.5172647+02:00",
-  "FollowupId": 939,
-  "ExpirationDate": "1997-10-21T15:29:22.5172647+02:00",
-  "DeliveryCountryId": 379,
+  "LikelyQuoteAlternativeId": 501,
+  "SentDate": "2011-12-24T03:51:27.9746798+01:00",
+  "FollowupId": 957,
+  "ExpirationDate": "2017-05-15T03:51:27.9746798+02:00",
+  "DeliveryCountryId": 858,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 559,
+  "InvoiceCountryId": 977,
   "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "ex",
-  "ERPPaymentTypeKey": "nemo",
-  "ERPDeliveryTermsKey": "culpa",
-  "ERPDeliveryTypeKey": "voluptas",
-  "Rank": 734,
-  "ApprovedBy": 125,
-  "ApprovedText": "quos",
-  "ApprovedRegisteredBy": 687,
-  "ApprovedRegisteredDate": "2004-07-11T15:29:22.5172647+02:00",
-  "ExtraField1": "illo",
-  "ExtraField2": "labore",
-  "ExtraField3": "dolorem",
-  "ExtraField4": "ipsa",
-  "ExtraField5": "repudiandae",
-  "LastRecalculated": "2018-09-22T15:29:22.5172647+02:00",
-  "Updated": "2016-08-11T15:29:22.5172647+02:00",
-  "UpdatedAssociateId": 715,
-  "Registered": "2006-04-13T15:29:22.5172647+02:00",
-  "RegisteredAssociateId": 68,
-  "RequestAssociateId": 280,
-  "RequestComment": "iste",
+  "ERPPaymentTermsKey": "odio",
+  "ERPPaymentTypeKey": "soluta",
+  "ERPDeliveryTermsKey": "suscipit",
+  "ERPDeliveryTypeKey": "quas",
+  "Rank": 754,
+  "ApprovedBy": 652,
+  "ApprovedText": "aut",
+  "ApprovedRegisteredBy": 117,
+  "ApprovedRegisteredDate": "2013-06-07T03:51:27.9746798+02:00",
+  "ExtraField1": "sunt",
+  "ExtraField2": "consectetur",
+  "ExtraField3": "iste",
+  "ExtraField4": "qui",
+  "ExtraField5": "sit",
+  "LastRecalculated": "2022-01-14T03:51:27.9746798+01:00",
+  "Updated": "2017-02-07T03:51:27.9746798+01:00",
+  "UpdatedAssociateId": 899,
+  "Registered": "2001-01-26T03:51:27.9746798+01:00",
+  "RegisteredAssociateId": 378,
+  "RequestAssociateId": 943,
+  "RequestComment": "aut",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 77,
-      "ERPQuoteAlternativeKey": "hic",
-      "QuoteVersionId": 158,
-      "Name": "Swift, Murphy and Ritchie",
-      "Description": "Progressive next generation analyzer",
+      "QuoteAlternativeId": 163,
+      "ERPQuoteAlternativeKey": "eius",
+      "QuoteVersionId": 370,
+      "Name": "Brakus-Haag",
+      "Description": "Decentralized encompassing budgetary management",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 19631.376,
-      "ERPDiscountAmount": 8634.17,
-      "DiscountPercent": 14516.688,
-      "DiscountAmount": 8195.41,
+      "ERPDiscountPercent": 7167.458,
+      "ERPDiscountAmount": 4255.972,
+      "DiscountPercent": 16933.002,
+      "DiscountAmount": 29462.734,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "aut",
-      "VAT": 13015.502,
-      "EarningPercent": 21768.764,
-      "EarningAmount": 12583.01,
-      "SubTotal": 13115.789999999999,
-      "TotalPrice": 30130.275999999998,
-      "ExtraField1": "dolorum",
-      "ExtraField2": "in",
-      "ExtraField3": "distinctio",
-      "ExtraField4": "occaecati",
-      "ExtraField5": "dolorem",
+      "VATInfo": "dolorem",
+      "VAT": 14159.412,
+      "EarningPercent": 16089.956,
+      "EarningAmount": 9699.73,
+      "SubTotal": 6083.094,
+      "TotalPrice": 14601.305999999999,
+      "ExtraField1": "quisquam",
+      "ExtraField2": "dolorem",
+      "ExtraField3": "rerum",
+      "ExtraField4": "sed",
+      "ExtraField5": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldLength": 129
         }
       }
     }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldType": "System.String",
+      "FieldLength": 611
     }
   }
 }

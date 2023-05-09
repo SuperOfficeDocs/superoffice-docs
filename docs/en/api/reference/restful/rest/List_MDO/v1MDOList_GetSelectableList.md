@@ -29,7 +29,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=vel
+GET /api/v1/MDOList/{listname}/selectable?additional=odio
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "O'Reilly-Simonis",
-    "ToolTip": "Ea vel.",
+    "Id": 694,
+    "Name": "Hartmann-Okuneva",
+    "ToolTip": "Unde modi laborum.",
     "Deleted": false,
-    "Rank": 593,
-    "Type": "unde",
-    "ColorBlock": 914,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2013-01-19T15:29:31.2959786+01:00",
+    "Rank": 222,
+    "Type": "commodi",
+    "ColorBlock": 884,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2001-03-19T03:51:34.7239677+01:00",
     "ChildItems": [
       {
-        "Id": 836,
-        "Name": "Williamson-Simonis",
-        "ToolTip": "Nihil dolorem non est.",
-        "Deleted": false,
-        "Rank": 701,
-        "Type": "est",
-        "ColorBlock": 263,
-        "IconHint": "possimus",
+        "Id": 635,
+        "Name": "O'Kon Inc and Sons",
+        "ToolTip": "Vel quo debitis nostrum nihil molestias.",
+        "Deleted": true,
+        "Rank": 25,
+        "Type": "vel",
+        "ColorBlock": 904,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2015-03-29T15:29:31.2959786+02:00",
+        "LastChanged": "1998-02-15T03:51:34.7239677+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "et",
+        "ExtraInfo": "modi",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Delmer Connelly",
+        "FullName": "Brennon Fritsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldType": "System.String",
+            "FieldLength": 991
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Macy Donnelly",
+    "FullName": "Mr. Adriel Geraldine Dach I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 877
+        "FieldType": "System.Int32",
+        "FieldLength": 82
       }
     }
   }

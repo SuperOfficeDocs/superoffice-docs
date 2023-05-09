@@ -69,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 906,
+  "AppointmentId": 548,
   "RejectReason": "",
   "UpdateMode": "OnlyThis"
 }

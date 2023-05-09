@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 691,
-  "Name": "Hyatt-Volkman",
-  "Tooltip": "omnis",
+  "Id": 199,
+  "Name": "Zulauf-Walker",
+  "Tooltip": "earum",
   "Deleted": true,
-  "UdListDefinitionId": 674,
-  "Rank": 217,
+  "UdListDefinitionId": 441,
+  "Rank": 586,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldLength": 251
     }
   }
 }

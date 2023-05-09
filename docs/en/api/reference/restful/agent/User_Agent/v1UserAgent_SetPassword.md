@@ -74,8 +74,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 220,
-  "Password": "iure"
+  "AssociateId": 269,
+  "Password": "hic"
 }
 ```
 

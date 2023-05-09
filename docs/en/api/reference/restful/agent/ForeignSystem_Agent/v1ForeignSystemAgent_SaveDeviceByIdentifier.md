@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Frami-Gerhold",
-  "DeviceName": "Effertz-Heaney",
-  "DeviceIdentifier": "tempora",
+  "ApplicationName": "Rau-Emard",
+  "DeviceName": "Beier, Dickens and Reilly",
+  "DeviceIdentifier": "consequuntur",
   "ForeignDevice": null
 }
 ```
@@ -101,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 487,
-  "Name": "Senger, Mosciski and Kub",
-  "CreatedDate": "2004-10-19T15:29:21.9193073+02:00",
-  "UpdatedDate": "1996-01-13T15:29:21.9193073+01:00",
-  "AssociateFullName": "Oma Hand",
-  "CreatedBy": "nobis",
+  "ForeignDeviceId": 949,
+  "Name": "Kunde-O'Reilly",
+  "CreatedDate": "2006-09-10T03:51:27.3498217+02:00",
+  "UpdatedDate": "2019-04-20T03:51:27.3498217+02:00",
+  "AssociateFullName": "Zola Herman",
+  "CreatedBy": "quae",
   "UpdatedBy": "consectetur",
-  "DeviceIdentifier": "ea",
-  "ForeignAppId": 82,
+  "DeviceIdentifier": "maiores",
+  "ForeignAppId": 344,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 792
     }
   }
 }

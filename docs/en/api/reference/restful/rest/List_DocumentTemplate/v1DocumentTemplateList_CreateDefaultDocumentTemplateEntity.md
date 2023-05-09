@@ -88,37 +88,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 768,
-  "Name": "O'Connell-Mosciski",
-  "Tooltip": "voluptas",
-  "SaveInDb": 316,
-  "Filename": "perferendis",
-  "DefaultOref": "atque",
+  "DocumentTemplateId": 75,
+  "Name": "Windler, Labadie and Morissette",
+  "Tooltip": "est",
+  "SaveInDb": 431,
+  "Filename": "illum",
+  "DefaultOref": "explicabo",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 14,
-  "IntentId": 276,
-  "IsDefaultPublished": false,
-  "Rank": 470,
-  "LoadTemplateFromPlugin": 444,
-  "MimeType": "nemo",
+  "AutoeventId": 982,
+  "IntentId": 832,
+  "IsDefaultPublished": true,
+  "Rank": 728,
+  "LoadTemplateFromPlugin": 531,
+  "MimeType": "aut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 45,
+  "DocumentTypeKey": 187,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "loraine_johnston@kiehn.com",
-  "IncludeSignature": true,
+  "EmailSubject": "cecelia_hansen@blandapowlowski.info",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "luciano.nolan@mayermann.uk",
+  "SenderEmailAddress": "lucinda@kreiger.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldType": "System.String",
+      "FieldLength": 43
     }
   }
 }

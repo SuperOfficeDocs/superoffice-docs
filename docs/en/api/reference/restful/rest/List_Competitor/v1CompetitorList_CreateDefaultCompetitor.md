@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 524,
-  "Name": "Huels, Weimann and Predovic",
-  "Tooltip": "molestiae",
+  "Id": 914,
+  "Name": "VonRueden Group",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "UdListDefinitionId": 642,
-  "Rank": 856,
+  "UdListDefinitionId": 820,
+  "Rank": 331,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 214
+      "FieldType": "System.Int32",
+      "FieldLength": 26
     }
   }
 }

@@ -82,59 +82,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Reichert LLC",
-  "Context": "in",
+  "ProviderName": "Mueller-O'Conner",
+  "Context": "corrupti",
   "DesiredEntities": [
-    "quasi",
-    "iusto"
+    "animi",
+    "dolores"
   ],
   "Columns": [
-    "earum",
-    "odit"
+    "quo",
+    "esse"
   ],
   "SortOrder": [
     {
-      "Name": "Kutch Inc and Sons",
+      "Name": "Rohan-Yundt",
       "Direction": "ASC"
     },
     {
-      "Name": "Kutch Inc and Sons",
+      "Name": "Rohan-Yundt",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Cole, Kuhic and Marvin",
-      "Operator": "est",
+      "Name": "Morissette LLC",
+      "Operator": "quo",
       "Values": [
-        "quo",
-        "non"
+        "nesciunt",
+        "repudiandae"
       ],
       "DisplayValues": [
-        "qui",
-        "et"
+        "nihil",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 827,
+      "InterParenthesis": 873,
       "InterOperator": "And",
-      "UniqueHash": 231
+      "UniqueHash": 722
     }
   ],
-  "ExportType": "minus",
+  "ExportType": "facere",
   "SelectedRowIds": [
-    "voluptatum",
-    "expedita"
+    "aliquam",
+    "esse"
   ],
-  "EstimatedRowCount": 277
+  "EstimatedRowCount": 863
 }
 ```
 
@@ -145,15 +145,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 355,
-  "FileName": "DuBuque, Morar and Nienow",
-  "Message": "omnis",
+  "BatchTaskId": 500,
+  "FileName": "DuBuque LLC",
+  "Message": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldType": "System.String",
+      "FieldLength": 721
     }
   }
 }

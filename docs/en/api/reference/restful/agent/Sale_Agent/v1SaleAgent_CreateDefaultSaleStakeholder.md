@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jerde-Auer",
-  "Comment": "est",
-  "StakeholderRoleId": 695,
-  "CountryId": 170,
-  "PersonId": 787,
-  "EmailDescription": "kolby_kuvalis@zulauf.us",
-  "EmailId": 472,
-  "EmailAddress": "noemi.hettinger@flatleyebert.ca",
-  "PhoneId": 307,
-  "ContactName": "Bode LLC",
-  "ContactId": 944,
-  "SaleId": 640,
-  "Mrmrs": "asperiores",
-  "Firstname": "Quinn",
-  "MiddleName": "Mosciski LLC",
-  "Lastname": "Nienow",
-  "SaleStakeholderId": 374,
-  "Rank": 804,
-  "Phone": "378-532-3721 x57007",
+  "StakeholderRoleName": "Kuphal, Herman and Brekke",
+  "Comment": "numquam",
+  "StakeholderRoleId": 507,
+  "CountryId": 777,
+  "PersonId": 270,
+  "EmailDescription": "olin.block@wiegand.biz",
+  "EmailId": 396,
+  "EmailAddress": "marilyne.rosenbaum@mohr.com",
+  "PhoneId": 789,
+  "ContactName": "Trantow LLC",
+  "ContactId": 553,
+  "SaleId": 621,
+  "Mrmrs": "tenetur",
+  "Firstname": "Beryl",
+  "MiddleName": "McCullough-Balistreri",
+  "Lastname": "Hahn",
+  "SaleStakeholderId": 180,
+  "Rank": 168,
+  "Phone": "727-854-5667 x9820",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldLength": 376
     }
   }
 }

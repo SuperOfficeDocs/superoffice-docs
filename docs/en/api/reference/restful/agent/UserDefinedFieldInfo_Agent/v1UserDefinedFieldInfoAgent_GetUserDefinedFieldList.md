@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 105,
-    "ColumnId": 366,
-    "FieldDefault": "et",
-    "FieldHeight": 194,
-    "FieldLabel": "quod",
-    "FieldLeft": 138,
-    "FieldTop": 175,
+    "UDefFieldId": 565,
+    "ColumnId": 881,
+    "FieldDefault": "aut",
+    "FieldHeight": 922,
+    "FieldLabel": "voluptatibus",
+    "FieldLeft": 304,
+    "FieldTop": 642,
     "FieldType": "Checkbox",
-    "FieldWidth": 804,
-    "FormatMask": "sit",
-    "HideLabel": false,
+    "FieldWidth": 314,
+    "FormatMask": "quas",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 643,
-    "LabelLeft": 423,
-    "LabelTop": 372,
-    "LabelWidth": 712,
-    "LastVersionId": 92,
-    "ListTableId": 300,
+    "LabelHeight": 92,
+    "LabelLeft": 149,
+    "LabelTop": 504,
+    "LabelWidth": 846,
+    "LastVersionId": 385,
+    "ListTableId": 685,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 604,
-    "ProgId": "excepturi",
+    "Page1LineNo": 19,
+    "ProgId": "vel",
     "IsReadOnly": false,
-    "ShortLabel": "est",
-    "TabOrder": 792,
-    "TextLength": 927,
-    "Tooltip": "sint",
-    "UdefIdentity": 876,
-    "UDListDefinitionId": 898,
+    "ShortLabel": "perspiciatis",
+    "TabOrder": 178,
+    "TextLength": 938,
+    "Tooltip": "et",
+    "UdefIdentity": 833,
+    "UDListDefinitionId": 476,
     "Justification": "Center",
-    "Version": 684,
-    "TemplateVariableName": "Hodkiewicz-Schultz",
-    "HasBeenPublished": false,
-    "MdoListName": "Pfannerstill, Olson and Mayer",
+    "Version": 316,
+    "TemplateVariableName": "Farrell LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Powlowski Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 389
+        "FieldType": "System.String",
+        "FieldLength": 514
       }
     }
   }

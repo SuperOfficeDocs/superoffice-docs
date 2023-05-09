@@ -25,7 +25,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=317
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=2
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -94,31 +94,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 778,
-  "Name": "White, Rutherford and Towne",
-  "Description": "Future-proofed bottom-line internet solution",
-  "DefaultHeight": 605,
-  "DefaultWidth": 143,
+  "DashboardTileDefinitionId": 186,
+  "Name": "Wyman, Powlowski and Krajcik",
+  "Description": "Ameliorated systemic emulation",
+  "DefaultHeight": 686,
+  "DefaultWidth": 2,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Langosh-Friesen",
-  "SelectionId": 541,
+  "EntityName": "Anderson-Hartmann",
+  "SelectionId": 98,
   "CurrencyMode": "Base",
-  "CurrencyCode": "rerum",
+  "CurrencyCode": "ut",
   "Measure": "Average",
-  "MeasureField": "est",
-  "SortBy": "at",
-  "LayoutConfig": "a",
-  "SecondarySelectionId": 325,
-  "MeasureByField": "modi",
+  "MeasureField": "ut",
+  "SortBy": "qui",
+  "LayoutConfig": "eius",
+  "SecondarySelectionId": 667,
+  "MeasureByField": "veniam",
   "Usage": "Dashboard",
-  "ProviderName": "Corwin Inc and Sons",
+  "ProviderName": "Ankunding-Kshlerin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldType": "System.String",
+      "FieldLength": 337
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=122
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=413
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,28 +88,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 598,
-  "Name": "Friesen, King and Crooks",
-  "Description": "Networked non-volatile paradigm",
-  "DeltaJson": "pariatur",
+  "ConfigurableScreenDeltaId": 974,
+  "Name": "Walker, Heidenreich and Bartell",
+  "Description": "Upgradable homogeneous policy",
+  "DeltaJson": "architecto",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "inventore",
-  "UpdatedDate": "2013-03-11T15:29:21.0357853+01:00",
-  "CreatedDate": "2002-11-12T15:29:21.0357853+01:00",
+  "RecipeId": "sequi",
+  "UpdatedDate": "1997-01-28T03:51:26.787455+01:00",
+  "CreatedDate": "2014-09-13T03:51:26.787455+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    716,
-    158
+    160,
+    230
   ],
-  "AppliesToKey": "ut",
+  "AppliesToKey": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldLength": 822
     }
   }
 }

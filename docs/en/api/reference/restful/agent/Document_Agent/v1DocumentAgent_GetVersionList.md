@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 163
+  "DocumentId": 519
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "autem",
-    "DocumentId": 75,
-    "VersionId": "voluptatum",
-    "CheckedInDate": "2014-03-01T15:29:21.6248111+01:00",
-    "CheckedInByName": "Ondricka Group",
-    "CheckedInByAssociateId": 919,
-    "Description": "Centralized clear-thinking infrastructure",
-    "DisplayText": "eveniet",
+    "ExternalReference": "vitae",
+    "DocumentId": 596,
+    "VersionId": "est",
+    "CheckedInDate": "2005-03-13T03:51:27.1155029+01:00",
+    "CheckedInByName": "Mante LLC",
+    "CheckedInByAssociateId": 511,
+    "Description": "Horizontal dynamic collaboration",
+    "DisplayText": "eius",
     "ExtraFields": [
-      "dignissimos",
-      "cum"
+      "sequi",
+      "quidem"
     ]
   }
 ]

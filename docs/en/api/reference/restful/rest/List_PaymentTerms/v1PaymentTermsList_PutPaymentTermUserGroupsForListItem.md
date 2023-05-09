@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 198,
-    "Name": "Parisian-Crooks",
-    "ToolTip": "Quos ipsam veniam quis.",
+    "Id": 940,
+    "Name": "Steuber, Yost and Tillman",
+    "ToolTip": "Recusandae perferendis ad.",
     "Deleted": true,
-    "Rank": 866,
-    "Type": "sequi",
-    "ColorBlock": 622,
-    "IconHint": "sequi",
-    "Selected": false,
-    "LastChanged": "2007-03-02T15:29:31.3254779+01:00",
+    "Rank": 235,
+    "Type": "aut",
+    "ColorBlock": 144,
+    "IconHint": "aliquid",
+    "Selected": true,
+    "LastChanged": "2000-11-15T03:51:34.7395889+01:00",
     "ChildItems": [
       {
-        "Id": 527,
-        "Name": "Blanda-Douglas",
-        "ToolTip": "Sit incidunt laboriosam eius sit sed.",
-        "Deleted": false,
-        "Rank": 810,
-        "Type": "et",
-        "ColorBlock": 336,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2016-03-24T15:29:31.3254779+01:00",
+        "Id": 665,
+        "Name": "Hoppe-Cartwright",
+        "ToolTip": "Deleniti laboriosam totam fuga ipsum expedita.",
+        "Deleted": true,
+        "Rank": 701,
+        "Type": "sit",
+        "ColorBlock": 354,
+        "IconHint": "maiores",
+        "Selected": false,
+        "LastChanged": "2018-10-19T03:51:34.7395889+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "quaerat",
-        "Hidden": true,
-        "FullName": "Ms. Melyna Pollich DVM"
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "debitis",
+        "Hidden": false,
+        "FullName": "Antwan Hand"
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Ms. Oliver Clifford Beatty DVM"
+    "ExtraInfo": "eaque",
+    "StyleHint": "nam",
+    "Hidden": true,
+    "FullName": "Estell Rolfson"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Dooley, Runte and Denesik",
-    "ToolTip": "Occaecati natus aliquam et omnis voluptas.",
+    "Id": 349,
+    "Name": "Veum, Schimmel and Schimmel",
+    "ToolTip": "Soluta voluptatem quibusdam sapiente.",
     "Deleted": false,
-    "Rank": 742,
-    "Type": "quia",
-    "ColorBlock": 252,
-    "IconHint": "est",
+    "Rank": 727,
+    "Type": "voluptate",
+    "ColorBlock": 779,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2007-07-16T15:29:31.3269781+02:00",
+    "LastChanged": "2003-01-18T03:51:34.7395889+01:00",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "Huel-Sanford",
-        "ToolTip": "Non consequatur.",
-        "Deleted": false,
-        "Rank": 910,
-        "Type": "consequuntur",
-        "ColorBlock": 144,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2006-08-11T15:29:31.3269781+02:00",
+        "Id": 287,
+        "Name": "Bailey LLC",
+        "ToolTip": "Non explicabo aut eligendi.",
+        "Deleted": true,
+        "Rank": 367,
+        "Type": "ut",
+        "ColorBlock": 484,
+        "IconHint": "suscipit",
+        "Selected": false,
+        "LastChanged": "2013-08-14T03:51:34.7395889+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "rerum",
+        "ExtraInfo": "sit",
+        "StyleHint": "repellendus",
         "Hidden": false,
-        "FullName": "Vivian Windler",
+        "FullName": "Leila Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 71
+            "FieldType": "System.Int32",
+            "FieldLength": 969
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "at",
-    "Hidden": false,
-    "FullName": "Ocie Cicero Ortiz MD",
+    "ExtraInfo": "officia",
+    "StyleHint": "quaerat",
+    "Hidden": true,
+    "FullName": "Ms. Noble Ford Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldType": "System.Int32",
+        "FieldLength": 656
       }
     }
   }

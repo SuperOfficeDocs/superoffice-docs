@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Implemented logistical analyzer",
-  "Filename": "fugiat",
-  "Size": 755,
-  "Type": "ea",
-  "Encoding": "voluptatem",
-  "Id": "ullam",
-  "Disposition": "libero",
+  "Description": "Secured maximized extranet",
+  "Filename": "quos",
+  "Size": 349,
+  "Type": "autem",
+  "Encoding": "cum",
+  "Id": "ut",
+  "Disposition": "quia",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldType": "System.String",
+      "FieldLength": 9
     }
   }
 }

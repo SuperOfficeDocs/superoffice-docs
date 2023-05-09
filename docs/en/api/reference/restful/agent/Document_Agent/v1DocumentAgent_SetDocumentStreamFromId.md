@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 828,
+  "DocumentId": 161,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -124,88 +124,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 404,
+  "DocumentId": 963,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sed",
-  "Header": "ipsum",
-  "Name": "Kling-Legros",
-  "OurRef": "illum",
-  "YourRef": "quo",
-  "CreatedDate": "2003-05-07T15:29:21.6488106+02:00",
-  "UpdatedDate": "2001-12-24T15:29:21.6488106+01:00",
-  "Description": "Synergistic asynchronous protocol",
+  "Attention": "rerum",
+  "Header": "quisquam",
+  "Name": "Lind, Yost and Abernathy",
+  "OurRef": "odit",
+  "YourRef": "vero",
+  "CreatedDate": "2010-12-18T03:51:27.1311241+01:00",
+  "UpdatedDate": "1999-11-12T03:51:27.1311241+01:00",
+  "Description": "Programmable systemic attitude",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-08-25T15:29:21.6528108+02:00",
-  "ExternalRef": "adipisci",
+  "Date": "1999-09-13T03:51:27.1467458+02:00",
+  "ExternalRef": "voluptates",
   "Completed": "Completed",
-  "ActiveLinks": 792,
+  "ActiveLinks": 785,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Brekke-Mosciski",
-      "Id": 731,
-      "Description": "Innovative clear-thinking frame",
-      "ExtraInfo": "qui",
-      "LinkId": 674,
+      "EntityName": "Jaskolski Group",
+      "Id": 299,
+      "Description": "Triple-buffered web-enabled matrices",
+      "ExtraInfo": "dolorum",
+      "LinkId": 836,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 235
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 678,
-  "Snum": 990,
+  "SuggestedDocumentId": 335,
+  "Snum": 481,
   "UserDefinedFields": {
-    "SuperOffice:1": "1099289829",
-    "SuperOffice:2": "Nettie Lindgren"
+    "SuperOffice:1": "Dr. Emory Cydney Hodkiewicz",
+    "SuperOffice:2": "Charles Thiel"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "tempora"
+    "ExtraFields1": "quae",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "aliquam",
-    "CustomFields2": "ea"
+    "CustomFields1": "esse",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2004-10-29T15:29:21.6533107+02:00",
-  "PublishTo": "2004-10-26T15:29:21.6533107+02:00",
-  "PublishFrom": "1998-01-23T15:29:21.6533107+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2021-04-08T03:51:27.1467458+02:00",
+  "PublishTo": "2022-07-10T03:51:27.1467458+02:00",
+  "PublishFrom": "2007-03-25T03:51:27.1467458+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 486,
+      "VisibleId": 699,
       "Visibility": "All",
-      "DisplayValue": "reiciendis",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 658
+          "FieldType": "System.String",
+          "FieldLength": 63
         }
       }
     },
     {
-      "VisibleId": 486,
+      "VisibleId": 699,
       "Visibility": "All",
-      "DisplayValue": "reiciendis",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 658
+          "FieldType": "System.String",
+          "FieldLength": 63
         }
       }
     }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 333
     }
   }
 }

@@ -121,18 +121,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "assumenda",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "assumenda",
     "value": {}
   }
 ]
@@ -145,29 +145,29 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 588,
-  "Name": "Leuschke Group",
-  "Tooltip": "nihil",
+  "RoleId": 331,
+  "Name": "Stroman Group",
+  "Tooltip": "quis",
   "RoleType": "Anonymous",
-  "Deleted": 482,
-  "Rank": 331,
-  "Created": "2020-07-01T15:29:30.0266606+02:00",
-  "UseCategories": 44,
+  "Deleted": 71,
+  "Rank": 749,
+  "Created": "2019-08-20T03:51:33.8802911+02:00",
+  "UseCategories": 60,
   "CreatedBy": null,
-  "Updated": "1999-02-24T15:29:30.0266606+01:00",
+  "Updated": "2013-04-24T03:51:33.8802911+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

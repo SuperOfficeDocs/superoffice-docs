@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 26 Aug 1996 15:29:29 G8T
+Last-Modified: Mon, 06 Sep 2021 03:51:33 G9T
 
 {
-  "Key": "harum",
-  "Value": "nihil",
-  "RecordId": 912,
-  "CreatedDate": "1999-07-08T15:29:29.7761987+02:00",
-  "UpdatedDate": "1996-08-26T15:29:29.7766985+02:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "eos",
-  "TableName": "Koss, Johnson and Mosciski",
+  "Key": "asperiores",
+  "Value": "officia",
+  "RecordId": 570,
+  "CreatedDate": "2009-07-06T03:51:33.6928335+02:00",
+  "UpdatedDate": "2021-09-06T03:51:33.6928335+02:00",
+  "UpdatedBy": "quis",
+  "CreatedBy": "esse",
+  "TableName": "Stamm, Purdy and Lockman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldType": "System.String",
+      "FieldLength": 278
     }
   }
 }

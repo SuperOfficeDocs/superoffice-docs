@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 722
+  "RoleId": 171
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Vandervort Inc and Sons",
-    "ToolTip": "Sunt et quo accusamus et ratione eius.",
-    "Deleted": true,
-    "Rank": 184,
-    "Type": "esse",
-    "ColorBlock": 848,
-    "IconHint": "mollitia",
-    "Selected": true,
-    "LastChanged": "2012-01-02T15:29:23.3402532+01:00",
+    "Id": 315,
+    "Name": "Yost-Marks",
+    "ToolTip": "Mollitia expedita sequi numquam.",
+    "Deleted": false,
+    "Rank": 212,
+    "Type": "adipisci",
+    "ColorBlock": 15,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "1997-11-04T03:51:28.4901768+01:00",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Hermiston-Johns",
-        "ToolTip": "Modi quia dolore et voluptatem ad porro magni.",
-        "Deleted": false,
-        "Rank": 726,
-        "Type": "labore",
-        "ColorBlock": 410,
-        "IconHint": "tenetur",
-        "Selected": false,
-        "LastChanged": "2020-05-16T15:29:23.3402532+02:00",
+        "Id": 427,
+        "Name": "Kling Group",
+        "ToolTip": "Commodi voluptatum voluptatem.",
+        "Deleted": true,
+        "Rank": 780,
+        "Type": "dicta",
+        "ColorBlock": 684,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "1999-06-19T03:51:28.4901768+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "facilis",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Genesis Whitney Koss V",
+        "FullName": "Grace Jakubowski DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 236
+            "FieldLength": 637
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "similique",
+    "ExtraInfo": "numquam",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Dr. Gretchen Kaitlyn Nienow Jr.",
+    "FullName": "Tamia Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldType": "System.Int32",
+        "FieldLength": 229
       }
     }
   }

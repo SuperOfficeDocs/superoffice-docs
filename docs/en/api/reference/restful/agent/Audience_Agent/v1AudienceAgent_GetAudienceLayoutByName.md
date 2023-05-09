@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Pfeffer LLC"
+  "LayoutName": "Brekke, Jacobson and Goyette"
 }
 ```
 
@@ -93,11 +93,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 526,
-  "InstanceLayout": "quibusdam",
-  "InstanceName": "Thompson, D'Amore and Okuneva",
-  "CreatedDate": "2023-02-10T15:29:20.8137888+01:00",
-  "UpdatedDate": "2000-05-20T15:29:20.8137888+02:00",
+  "AudienceLayoutId": 398,
+  "InstanceLayout": "est",
+  "InstanceName": "Grimes, Larkin and Wiegand",
+  "CreatedDate": "2021-07-31T03:51:26.5999985+02:00",
+  "UpdatedDate": "2009-09-25T03:51:26.5999985+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 214
     }
   }
 }

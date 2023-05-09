@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 546,
-  "Name": "Armstrong Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 762,
-  "UdListDefinitionId": 975
+  "HeadingId": 136,
+  "Name": "Oberbrunner, Batz and Bergnaum",
+  "Tooltip": "quisquam",
+  "Deleted": true,
+  "Rank": 169,
+  "UdListDefinitionId": 287
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 557,
-  "Name": "Stracke LLC",
-  "Tooltip": "doloremque",
+  "HeadingId": 735,
+  "Name": "O'Connell, Fisher and Ruecker",
+  "Tooltip": "at",
   "Deleted": false,
-  "Rank": 92,
-  "UdListDefinitionId": 698,
+  "Rank": 947,
+  "UdListDefinitionId": 140,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldType": "System.String",
+      "FieldLength": 77
     }
   }
 }

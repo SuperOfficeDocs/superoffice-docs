@@ -104,14 +104,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 190,
+  "DocId": 174,
   "AttachmentIds": [
-    "nihil",
-    "qui"
+    "eveniet",
+    "odio"
   ],
   "IncludeAttachments": false
 }
@@ -126,96 +126,96 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 308,
-      "ContactName": "Schuppe-Hamill",
-      "PersonId": 625,
-      "PersonName": "Stehr LLC",
-      "AssociateId": 45,
-      "Address": "iste",
-      "EmailId": 124,
+      "ContactId": 147,
+      "ContactName": "Schimmel Inc and Sons",
+      "PersonId": 28,
+      "PersonName": "Fisher-Hamill",
+      "AssociateId": 205,
+      "Address": "minus",
+      "EmailId": 78,
       "DuplicatePersonIds": [
-        34,
-        438
+        140,
+        754
       ],
-      "Name": "Huel LLC",
+      "Name": "O'Reilly Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 800
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 329,
-      "ContactName": "Auer LLC",
-      "PersonId": 117,
-      "PersonName": "Hudson-Hauck",
-      "AssociateId": 187,
-      "Address": "impedit",
-      "EmailId": 939,
+      "ContactId": 605,
+      "ContactName": "Williamson-Wuckert",
+      "PersonId": 879,
+      "PersonName": "Baumbach, Schneider and Herman",
+      "AssociateId": 95,
+      "Address": "est",
+      "EmailId": 821,
       "DuplicatePersonIds": [
-        830,
-        769
+        31,
+        51
       ],
-      "Name": "Lynch, Weimann and Marvin",
+      "Name": "Tromp-Runte",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 147
+          "FieldLength": 334
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 609,
-      "ContactName": "Kemmer, Hegmann and Stehr",
-      "PersonId": 188,
-      "PersonName": "Jewess, Schmidt and Schaden",
-      "AssociateId": 619,
-      "Address": "quisquam",
-      "EmailId": 354,
+      "ContactId": 700,
+      "ContactName": "Jones Group",
+      "PersonId": 479,
+      "PersonName": "Will-Morar",
+      "AssociateId": 781,
+      "Address": "unde",
+      "EmailId": 392,
       "DuplicatePersonIds": [
-        154,
-        715
+        994,
+        632
       ],
-      "Name": "Bernhard-Streich",
+      "Name": "Gutmann-Wiegand",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 298
+          "FieldType": "System.Int32",
+          "FieldLength": 285
         }
       }
     }
   ],
-  "Subject": "mollitia",
-  "HTMLBody": "quos",
+  "Subject": "quasi",
+  "HTMLBody": "quod",
   "From": null,
-  "Sent": "2007-12-20T15:29:21.8002748+01:00",
-  "Size": 34,
+  "Sent": "2012-10-12T03:51:27.2560919+02:00",
+  "Size": 861,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quia",
-  "PlainBody": "dignissimos",
+  "MessageID": "sed",
+  "PlainBody": "optio",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 884,
+  "ServerId": 776,
   "Attachments": [
     {
-      "Description": "Self-enabling optimizing installation",
-      "Filename": "omnis",
-      "Size": 228,
-      "Type": "at",
-      "Encoding": "omnis",
-      "Id": "doloribus",
+      "Description": "Fully-configurable contextually-based open architecture",
+      "Filename": "id",
+      "Size": 100,
+      "Type": "explicabo",
+      "Encoding": "quo",
+      "Id": "suscipit",
       "Disposition": "cumque",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -223,50 +223,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldLength": 185
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Moore, Reynolds and Lebsack",
+      "Name": "O'Connell-Waelchi",
       "Values": [
-        "non",
-        "vel"
+        "quaerat",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldType": "System.String",
+          "FieldLength": 420
         }
       }
     },
     {
-      "Name": "Moore, Reynolds and Lebsack",
+      "Name": "O'Connell-Waelchi",
       "Values": [
-        "non",
-        "vel"
+        "quaerat",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldType": "System.String",
+          "FieldLength": 420
         }
       }
     }
   ],
-  "FolderName": "Schoen-Lemke",
-  "EmailItemId": 820,
-  "AccountId": 280,
-  "ReceivedAt": "2006-07-04T15:29:21.8007759+02:00",
+  "FolderName": "Fay, Collins and Kuhic",
+  "EmailItemId": 669,
+  "AccountId": 211,
+  "ReceivedAt": "2000-06-10T03:51:27.2560919+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-06-13T15:29:21.8007759+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2004-08-11T03:51:27.2560919+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -274,7 +274,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 702
     }
   }
 }

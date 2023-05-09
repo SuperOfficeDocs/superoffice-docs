@@ -82,22 +82,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "saepe",
-  "ProviderName": "Marquardt-Herzog",
-  "StorageKey": "dicta",
+  "StorageType": "dolorum",
+  "ProviderName": "Hagenes-Prohaska",
+  "StorageKey": "nihil",
   "DesiredColumnNames": [
-    "Corwin-Carroll",
-    "VonRueden, Jaskolski and Kautzer"
+    "Heller Inc and Sons",
+    "Kunde Inc and Sons"
   ],
   "StaticColumns": [
-    "voluptas",
-    "voluptatibus"
+    "quia",
+    "esse"
   ],
-  "Context": "aut"
+  "Context": "rem"
 }
 ```
 
@@ -110,15 +110,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Swift LLC",
-      "Operator": "officiis",
+      "Name": "Dickens-Schuster",
+      "Operator": "consequatur",
       "Values": [
-        "dicta",
-        "similique"
+        "assumenda",
+        "enim"
       ],
       "DisplayValues": [
-        "sequi",
-        "quo"
+        "qui",
+        "laborum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -126,65 +126,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 171,
+      "InterParenthesis": 100,
       "InterOperator": "And",
-      "UniqueHash": 705
+      "UniqueHash": 908
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Ziemann-Simonis",
-      "DisplayTooltip": "inventore",
-      "DisplayType": "vel",
-      "CanOrderBy": true,
-      "Name": "Emard-Moore",
-      "CanRestrictBy": false,
-      "RestrictionType": "nihil",
-      "RestrictionListName": "Hettinger-Hansen",
+      "DisplayName": "Bernhard, Dare and Kshlerin",
+      "DisplayTooltip": "impedit",
+      "DisplayType": "quia",
+      "CanOrderBy": false,
+      "Name": "Lowe, Ratke and Tremblay",
+      "CanRestrictBy": true,
+      "RestrictionType": "soluta",
+      "RestrictionListName": "Beer, Ondricka and Hahn",
       "IsVisible": true,
-      "ExtraInfo": "enim",
-      "Width": "omnis",
-      "IconHint": "molestias",
-      "HeadingIconHint": "repudiandae"
+      "ExtraInfo": "illum",
+      "Width": "ad",
+      "IconHint": "quia",
+      "HeadingIconHint": "eum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Orn, Simonis and Bergstrom",
-      "PrimaryKey": 931,
+      "EntityName": "Will Inc and Sons",
+      "PrimaryKey": 339,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "suscipit",
-          "TooltipHint": "a",
-          "LinkHint": "aut"
+          "DisplayValue": "eum",
+          "TooltipHint": "laudantium",
+          "LinkHint": "iste"
         }
       },
-      "LinkHint": "neque",
-      "StyleHint": "quia",
+      "LinkHint": "et",
+      "StyleHint": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 210
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Turcotte-Hermann",
-      "Description": "Assimilated stable process improvement",
-      "Rank": 859,
+      "Name": "Hamill Inc and Sons",
+      "Description": "Horizontal radical capability",
+      "Rank": 371,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Turcotte-Hermann",
-      "Description": "Assimilated stable process improvement",
-      "Rank": 859,
+      "Name": "Hamill Inc and Sons",
+      "Description": "Horizontal radical capability",
+      "Rank": 371,
       "Restrictions": [
         {},
         {}
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldType": "System.Int32",
+      "FieldLength": 531
     }
   }
 }

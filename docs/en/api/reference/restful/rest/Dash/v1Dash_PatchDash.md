@@ -125,12 +125,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "eligendi",
+    "path": "voluptate",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eligendi",
+    "path": "voluptate",
     "value": {}
   }
 ]
@@ -143,42 +143,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 428,
-  "UniqueId": "a",
-  "Name": "Hettinger Group",
-  "Description": "Open-source object-oriented monitoring",
-  "AssociateId": 909,
-  "Columns": 963,
+  "DashboardId": 69,
+  "UniqueId": "illo",
+  "Name": "Dicki LLC",
+  "Description": "Exclusive analyzing hardware",
+  "AssociateId": 475,
+  "Columns": 851,
   "Theme": null,
-  "VisibleForAll": 268,
+  "VisibleForAll": 92,
   "VisibleForAssociates": [
-    185,
-    417
+    103,
+    743
   ],
   "VisibleForGroups": [
-    876,
-    373
+    9,
+    500
   ],
-  "PinForAll": 907,
+  "PinForAll": 639,
   "PinForAssociates": [
-    123,
-    569
+    157,
+    13
   ],
   "PinForGroups": [
-    362,
-    117
+    158,
+    650
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 55
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

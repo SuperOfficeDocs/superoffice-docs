@@ -25,8 +25,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=voluptatum
+GET /api/v1/List/Source/MDOItems?flat=False
+GET /api/v1/List/Source/MDOItems?query=aut
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 917,
-    "Name": "Predovic, Johnston and Will",
-    "ToolTip": "Rerum doloribus ut qui.",
+    "Id": 340,
+    "Name": "Greenholt-Ziemann",
+    "ToolTip": "Molestiae soluta error dicta dolore magnam.",
     "Deleted": false,
-    "Rank": 77,
-    "Type": "corrupti",
+    "Rank": 704,
+    "Type": "atque",
     "ChildItems": [
       {
-        "Id": 386,
-        "Name": "Wilkinson LLC",
-        "ToolTip": "Eum dicta quia blanditiis quas velit aut.",
+        "Id": 896,
+        "Name": "Romaguera, Mills and D'Amore",
+        "ToolTip": "Et aliquam ex vel aspernatur excepturi.",
         "Deleted": false,
-        "Rank": 191,
-        "Type": "sit",
+        "Rank": 257,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eius",
-        "ColorBlock": 224,
-        "ExtraInfo": "animi",
-        "StyleHint": "incidunt",
-        "FullName": "Nikolas Bailey Keebler Jr.",
+        "IconHint": "corrupti",
+        "ColorBlock": 489,
+        "ExtraInfo": "aut",
+        "StyleHint": "ea",
+        "FullName": "Mrs. Jennyfer Triston Stamm V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 143
+            "FieldLength": 820
           }
         }
       }
     ],
-    "IconHint": "itaque",
-    "ColorBlock": 452,
-    "ExtraInfo": "nihil",
-    "StyleHint": "numquam",
-    "FullName": "Enos Kilback",
+    "IconHint": "quasi",
+    "ColorBlock": 700,
+    "ExtraInfo": "doloremque",
+    "StyleHint": "voluptas",
+    "FullName": "Miller McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 146
+        "FieldLength": 187
       }
     }
   }

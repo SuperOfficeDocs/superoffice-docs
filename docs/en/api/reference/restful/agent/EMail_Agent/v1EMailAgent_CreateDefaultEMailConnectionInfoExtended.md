@@ -75,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 935,
-  "ServerName": "Torp Group",
-  "Protocol": "adipisci",
-  "UserName": "Hartmann Group",
-  "Password": "sint",
+  "Port": 746,
+  "ServerName": "Tremblay, Leffler and Lakin",
+  "Protocol": "sed",
+  "UserName": "Carter-Willms",
+  "Password": "ipsam",
   "UseSSL": true,
-  "Folder": "labore",
+  "Folder": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldType": "System.String",
+      "FieldLength": 145
     }
   }
 }

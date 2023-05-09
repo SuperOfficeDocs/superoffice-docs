@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 124,
-  "Name": "Gaylord Group",
-  "Tooltip": "unde",
+  "Id": 645,
+  "Name": "Farrell LLC",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "UdListDefinitionId": 599,
-  "Rank": 872
+  "UdListDefinitionId": 888,
+  "Rank": 589
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 405,
-  "Name": "Kirlin-Schmidt",
-  "Tooltip": "alias",
+  "Id": 325,
+  "Name": "Daniel-Conn",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 230,
-  "Rank": 720,
+  "UdListDefinitionId": 914,
+  "Rank": 275,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 432
+      "FieldType": "System.Int32",
+      "FieldLength": 438
     }
   }
 }

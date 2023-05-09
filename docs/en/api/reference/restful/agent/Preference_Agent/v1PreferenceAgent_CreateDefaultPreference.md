@@ -77,22 +77,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "blanditiis",
+  "RawValue": "similique",
   "Specification": null,
-  "DisplayValue": "facilis",
-  "DisplayTooltip": "delectus",
+  "DisplayValue": "enim",
+  "DisplayTooltip": "necessitatibus",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 101,
-  "PrefDescId": 520,
-  "TableName": "Bashirian LLC",
-  "UserPreferenceId": 1001,
+  "TargetId": 613,
+  "PrefDescId": 300,
+  "TableName": "Langosh Inc and Sons",
+  "UserPreferenceId": 722,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 762
     }
   }
 }

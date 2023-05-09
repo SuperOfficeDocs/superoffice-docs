@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 349,
-  "Name": "Price, Wiegand and Cartwright",
+  "SelectionId": 593,
+  "Name": "Brekke Inc and Sons",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reduced incremental extranet",
-  "Postit": "quia",
+  "Description": "Advanced 24 hour throughput",
+  "Postit": "minus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 41,
-  "IncludePerson": 552,
-  "MemberCount": 212,
-  "Name": "Hauck LLC",
-  "PostitTextId": 910,
-  "CreatedDate": "1998-04-20T15:29:22.9568001+02:00",
-  "SelectionId": 411,
-  "SoundEx": "accusamus",
-  "Source": 395,
-  "TextId": 621,
-  "UpdatedDate": "2005-11-22T15:29:22.9568001+01:00",
-  "UpdatedCount": 42,
-  "Visibility": 860,
+  "GroupIdx": 688,
+  "IncludePerson": 907,
+  "MemberCount": 157,
+  "Name": "Kohler-Moore",
+  "PostitTextId": 355,
+  "CreatedDate": "2016-01-08T03:51:28.1933756+01:00",
+  "SelectionId": 962,
+  "SoundEx": "in",
+  "Source": 344,
+  "TextId": 432,
+  "UpdatedDate": "1998-12-19T03:51:28.1933756+01:00",
+  "UpdatedCount": 550,
+  "Visibility": 627,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 993,
-  "TargetTableName": "Beatty, Block and Lind",
+  "TargetTableNumber": 316,
+  "TargetTableName": "Wintheiser LLC",
   "Completed": false,
-  "LeftSelectionId": 708,
-  "RightSelectionId": 871,
+  "LeftSelectionId": 317,
+  "RightSelectionId": 517,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Macejkovic Inc and Sons",
-  "ShadowProviderName": "DuBuque-O'Connell",
-  "ChartKey": "totam",
-  "LastLoaded": "2021-12-09T15:29:22.9572945+01:00",
-  "LastLoadedBy": 224,
+  "MainProviderName": "Eichmann LLC",
+  "ShadowProviderName": "Dibbert, Dickens and O'Keefe",
+  "ChartKey": "repellat",
+  "LastLoaded": "2020-12-22T03:51:28.1933756+01:00",
+  "LastLoadedBy": 553,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-09-21T15:29:22.9572945+02:00",
-  "LastMembershipChangeBy": 948,
+  "LastMembershipChange": "2016-01-05T03:51:28.1933756+01:00",
+  "LastMembershipChangeBy": 617,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "omnis",
-  "MemberTabHeading": "ea",
-  "MailingsProviderName": "Homenick-Bartell",
-  "DashboardTileDefinitionId": 501,
+  "MainHeading": "perferendis",
+  "MemberTabHeading": "exercitationem",
+  "MailingsProviderName": "Labadie, Carroll and Kovacek",
+  "DashboardTileDefinitionId": 508,
   "VisibleFor": [
     {
-      "VisibleId": 594,
+      "VisibleId": 424,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 307
+          "FieldType": "System.String",
+          "FieldLength": 349
         }
       }
     },
     {
-      "VisibleId": 594,
+      "VisibleId": 424,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 307
+          "FieldType": "System.String",
+          "FieldLength": 349
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldType": "System.String",
+      "FieldLength": 258
     }
   }
 }

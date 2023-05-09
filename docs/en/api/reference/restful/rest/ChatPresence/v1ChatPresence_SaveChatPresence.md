@@ -57,28 +57,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 955,
-    "DisplayName": "Stokes Inc and Sons",
-    "OngoingChats": 52,
-    "Present": false,
+    "UserId": 2,
+    "DisplayName": "Watsica Group",
+    "OngoingChats": 478,
+    "Present": true,
     "ChatTopics": [
-      729,
-      550
+      279,
+      313
     ]
   },
   {
-    "UserId": 955,
-    "DisplayName": "Stokes Inc and Sons",
-    "OngoingChats": 52,
-    "Present": false,
+    "UserId": 2,
+    "DisplayName": "Watsica Group",
+    "OngoingChats": 478,
+    "Present": true,
     "ChatTopics": [
-      729,
-      550
+      279,
+      313
     ]
   }
 ]

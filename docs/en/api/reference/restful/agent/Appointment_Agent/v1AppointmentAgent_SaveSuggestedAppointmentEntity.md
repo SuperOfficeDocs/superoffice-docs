@@ -88,21 +88,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 963,
-  "Name": "Brekke Inc and Sons",
-  "Tooltip": "reiciendis",
-  "Rank": 863,
+  "SuggestedAppointmentId": 623,
+  "Name": "Kertzmann, Kuhn and Zieme",
+  "Tooltip": "ut",
+  "Rank": 27,
   "Deleted": false,
-  "DaysFuture": 141,
-  "Duration": "culpa",
-  "AutoSuggest": true,
+  "DaysFuture": 968,
+  "Duration": "saepe",
+  "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "necessitatibus",
+  "Text": "eos",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -116,17 +116,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 278,
-  "Name": "Bradtke, Bauch and Ryan",
-  "Tooltip": "vero",
-  "Rank": 740,
-  "Deleted": false,
-  "DaysFuture": 699,
-  "Duration": "eligendi",
-  "AutoSuggest": true,
-  "IsMilestone": true,
-  "AssignToMember": true,
-  "Text": "est",
+  "SuggestedAppointmentId": 719,
+  "Name": "Schultz Inc and Sons",
+  "Tooltip": "ipsum",
+  "Rank": 340,
+  "Deleted": true,
+  "DaysFuture": 248,
+  "Duration": "recusandae",
+  "AutoSuggest": false,
+  "IsMilestone": false,
+  "AssignToMember": false,
+  "Text": "cum",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldLength": 536
     }
   }
 }

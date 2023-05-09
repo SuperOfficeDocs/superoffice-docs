@@ -116,26 +116,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 886,
-  "PersonId": 701,
-  "AppointmentId": 684,
-  "DocumentId": 821,
-  "SaleId": 241,
-  "SelectionId": 692,
-  "ProjectId": 931,
+  "ContactId": 47,
+  "PersonId": 530,
+  "AppointmentId": 809,
+  "DocumentId": 311,
+  "SaleId": 407,
+  "SelectionId": 948,
+  "ProjectId": 174,
   "CustomTags": [
-    "dolore",
-    "odit"
+    "debitis",
+    "dolore"
   ],
   "CustomValues": [
-    "corporis",
-    "commodi"
+    "omnis",
+    "eum"
   ],
-  "UiCulture": "voluptates"
+  "UiCulture": "ipsa"
 }
 ```
 
@@ -146,88 +146,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 151,
+  "DocumentId": 28,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "consequuntur",
-  "Header": "nam",
-  "Name": "Grimes Group",
-  "OurRef": "et",
-  "YourRef": "facere",
-  "CreatedDate": "2014-08-16T15:29:21.589778+02:00",
-  "UpdatedDate": "1998-10-02T15:29:21.589778+02:00",
-  "Description": "Profound high-level interface",
+  "Attention": "culpa",
+  "Header": "natus",
+  "Name": "Morar, Keeling and Lockman",
+  "OurRef": "sit",
+  "YourRef": "iure",
+  "CreatedDate": "2017-08-01T03:51:27.0998796+02:00",
+  "UpdatedDate": "2002-09-06T03:51:27.0998796+02:00",
+  "Description": "Re-engineered hybrid help-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-09-02T15:29:21.5922786+02:00",
-  "ExternalRef": "quia",
+  "Date": "1998-04-08T03:51:27.0998796+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 641,
+  "ActiveLinks": 797,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Batz Inc and Sons",
-      "Id": 414,
-      "Description": "Seamless multi-tasking ability",
-      "ExtraInfo": "laborum",
-      "LinkId": 724,
+      "EntityName": "Gerhold Group",
+      "Id": 546,
+      "Description": "De-engineered uniform ability",
+      "ExtraInfo": "sit",
+      "LinkId": 606,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 389
+          "FieldLength": 962
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 678,
-  "Snum": 972,
+  "SuggestedDocumentId": 797,
+  "Snum": 390,
   "UserDefinedFields": {
-    "SuperOffice:1": "801763107",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "397629224",
+    "SuperOffice:2": "1042694200"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "deserunt"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "ab",
+    "CustomFields2": "occaecati"
   },
-  "PublishEventDate": "2008-08-17T15:29:21.5932778+02:00",
-  "PublishTo": "2011-06-17T15:29:21.5932778+02:00",
-  "PublishFrom": "2021-06-02T15:29:21.5932778+02:00",
+  "PublishEventDate": "2019-03-17T03:51:27.0998796+01:00",
+  "PublishTo": "2021-09-21T03:51:27.0998796+02:00",
+  "PublishFrom": "2000-04-27T03:51:27.0998796+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 83,
+      "VisibleId": 1001,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 105
+          "FieldType": "System.Int32",
+          "FieldLength": 611
         }
       }
     },
     {
-      "VisibleId": 83,
+      "VisibleId": 1001,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 105
+          "FieldType": "System.Int32",
+          "FieldLength": 611
         }
       }
     }
@@ -237,7 +237,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 569
     }
   }
 }

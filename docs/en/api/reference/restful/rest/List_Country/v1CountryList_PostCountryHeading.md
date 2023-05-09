@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 753,
-  "Name": "Hoeger-Aufderhar",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 771,
-  "UdListDefinitionId": 961
+  "HeadingId": 930,
+  "Name": "Runolfsdottir Inc and Sons",
+  "Tooltip": "saepe",
+  "Deleted": false,
+  "Rank": 16,
+  "UdListDefinitionId": 88
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 652,
-  "Name": "Rolfson Inc and Sons",
-  "Tooltip": "qui",
+  "HeadingId": 612,
+  "Name": "Boehm-Crona",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 804,
-  "UdListDefinitionId": 317,
+  "Rank": 556,
+  "UdListDefinitionId": 215,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 300
     }
   }
 }

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Bergnaum-Wolff",
-    "ToolTip": "Iste sapiente est veritatis nulla inventore.",
+    "Id": 77,
+    "Name": "Boyle Group",
+    "ToolTip": "Quo repellendus optio non.",
     "Deleted": true,
-    "Rank": 540,
-    "Type": "cumque",
-    "ColorBlock": 908,
-    "IconHint": "explicabo",
+    "Rank": 293,
+    "Type": "facilis",
+    "ColorBlock": 886,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "1997-11-18T15:29:31.1944791+01:00",
+    "LastChanged": "2004-06-06T03:51:34.6458549+02:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Jenkins Group",
-        "ToolTip": "Nobis sit et delectus non voluptatem.",
+        "Id": 292,
+        "Name": "Bins-Altenwerth",
+        "ToolTip": "Ullam voluptas nam et adipisci perferendis quod.",
         "Deleted": true,
-        "Rank": 208,
-        "Type": "aliquam",
-        "ColorBlock": 421,
-        "IconHint": "temporibus",
+        "Rank": 494,
+        "Type": "est",
+        "ColorBlock": 598,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2015-01-31T15:29:31.1944791+01:00",
+        "LastChanged": "2012-03-20T03:51:34.6458549+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Ashtyn Zulauf",
+        "ExtraInfo": "non",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Clarissa Conroy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 920
+            "FieldType": "System.Int32",
+            "FieldLength": 565
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "dolores",
+    "ExtraInfo": "vel",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Sigrid Morar",
+    "FullName": "Dr. Efren Icie Hermiston DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldLength": 104
       }
     }
   }

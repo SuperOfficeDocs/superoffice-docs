@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 928,
-  "Name": "Zemlak Inc and Sons",
-  "Tooltip": "porro",
+  "HeadingId": 821,
+  "Name": "Hermiston, Cummings and Kozey",
+  "Tooltip": "beatae",
   "Deleted": false,
-  "Rank": 206,
-  "UdListDefinitionId": 710
+  "Rank": 73,
+  "UdListDefinitionId": 11
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 231,
-  "Name": "Koepp-Thiel",
-  "Tooltip": "facilis",
-  "Deleted": false,
-  "Rank": 287,
-  "UdListDefinitionId": 948,
+  "HeadingId": 345,
+  "Name": "Rogahn, Cronin and Schuster",
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "Rank": 306,
+  "UdListDefinitionId": 390,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 42
     }
   }
 }

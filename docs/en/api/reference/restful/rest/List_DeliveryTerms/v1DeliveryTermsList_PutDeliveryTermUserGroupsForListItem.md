@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "Stokes Inc and Sons",
-    "ToolTip": "Ullam illum aliquam.",
-    "Deleted": false,
-    "Rank": 535,
-    "Type": "aut",
-    "ColorBlock": 675,
-    "IconHint": "vero",
-    "Selected": true,
-    "LastChanged": "2006-01-09T15:29:31.2239794+01:00",
+    "Id": 974,
+    "Name": "Gaylord, Mayer and Sauer",
+    "ToolTip": "Cumque iure unde voluptas.",
+    "Deleted": true,
+    "Rank": 647,
+    "Type": "autem",
+    "ColorBlock": 346,
+    "IconHint": "minima",
+    "Selected": false,
+    "LastChanged": "2011-06-29T03:51:34.6614813+02:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Moore, Macejkovic and Thompson",
-        "ToolTip": "Aut voluptatem alias natus.",
+        "Id": 313,
+        "Name": "Howe-Bernier",
+        "ToolTip": "Nihil ad.",
         "Deleted": false,
-        "Rank": 287,
-        "Type": "explicabo",
-        "ColorBlock": 10,
-        "IconHint": "in",
+        "Rank": 976,
+        "Type": "culpa",
+        "ColorBlock": 536,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "1997-05-03T15:29:31.2239794+02:00",
+        "LastChanged": "2016-07-10T03:51:34.6614813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "et",
+        "ExtraInfo": "dolor",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Mrs. Burdette Freeman Nolan"
+        "FullName": "Miss Einar Laurel Eichmann"
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "facere",
-    "Hidden": false,
-    "FullName": "Jackeline Larue Ziemann II"
+    "ExtraInfo": "animi",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Alvera Lillie Hoppe MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 587,
-    "Name": "Hamill-Vandervort",
-    "ToolTip": "Asperiores dolor occaecati eos.",
+    "Id": 372,
+    "Name": "Moore-Harber",
+    "ToolTip": "Consequatur cum est quia facere quo.",
     "Deleted": false,
-    "Rank": 441,
-    "Type": "sed",
-    "ColorBlock": 988,
-    "IconHint": "ullam",
-    "Selected": false,
-    "LastChanged": "2018-11-04T15:29:31.226482+01:00",
+    "Rank": 144,
+    "Type": "praesentium",
+    "ColorBlock": 362,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2022-10-08T03:51:34.6614813+02:00",
     "ChildItems": [
       {
-        "Id": 534,
-        "Name": "Rohan, Little and Swaniawski",
-        "ToolTip": "Illum corporis aperiam quas.",
-        "Deleted": false,
-        "Rank": 516,
-        "Type": "cumque",
-        "ColorBlock": 119,
-        "IconHint": "quis",
+        "Id": 855,
+        "Name": "Boyer LLC",
+        "ToolTip": "Facere rem sit aut sapiente dolor molestiae dolorum.",
+        "Deleted": true,
+        "Rank": 824,
+        "Type": "error",
+        "ColorBlock": 658,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2016-03-25T15:29:31.226482+01:00",
+        "LastChanged": "2010-01-17T03:51:34.6614813+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "occaecati",
-        "Hidden": false,
-        "FullName": "Pinkie Stokes",
+        "ExtraInfo": "et",
+        "StyleHint": "recusandae",
+        "Hidden": true,
+        "FullName": "Ephraim Frami IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 526
+            "FieldType": "System.Int32",
+            "FieldLength": 557
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Berry McLaughlin",
+    "ExtraInfo": "nemo",
+    "StyleHint": "nesciunt",
+    "Hidden": false,
+    "FullName": "Mrs. Agnes Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldType": "System.String",
+        "FieldLength": 25
       }
     }
   }

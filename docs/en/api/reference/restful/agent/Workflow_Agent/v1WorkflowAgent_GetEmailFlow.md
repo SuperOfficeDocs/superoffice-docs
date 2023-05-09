@@ -25,7 +25,7 @@ Gets a EmailFlow object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetEmailFlow?emailFlowId=879
+POST /api/v1/Agents/Workflow/GetEmailFlow?emailFlowId=454
 POST /api/v1/Agents/Workflow/GetEmailFlow?$select=name,department,category/id
 ```
 
@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/Workflow/GetEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,43 +113,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 407,
-  "Name": "Ebert, Lowe and Stracke",
-  "Description": "User-centric 24 hour moratorium",
+  "EmailFlowId": 846,
+  "Name": "Funk, Wilderman and Harvey",
+  "Description": "Optimized full-range challenge",
   "Status": "None",
   "VisibleForAll": false,
   "VisibleForAssociates": [
-    534,
-    195
+    236,
+    330
   ],
   "VisibleForGroups": [
-    1002,
-    132
+    978,
+    847
   ],
   "JumpToFinish": false,
-  "StartOnlyOnce": true,
+  "StartOnlyOnce": false,
   "OverrideConsentSubscription": false,
   "FromType": "FromOnlySpecified",
-  "FromName": "Jast Inc and Sons",
-  "FromAddr": "occaecati",
+  "FromName": "Cummings, Lakin and Trantow",
+  "FromAddr": "sed",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "voluptates",
-  "ReplyToName": "Kihn Inc and Sons",
-  "SmsSender": "libero",
+  "ReplyToAddr": "sed",
+  "ReplyToName": "Effertz, Schaefer and McKenzie",
+  "SmsSender": "id",
   "UseGoogleAnalytics": false,
-  "GaSource": "est",
-  "GaCampaign": "laborum",
+  "GaSource": "sit",
+  "GaCampaign": "corrupti",
   "UseTimeframe": false,
   "SelectedDays": "Friday",
-  "TimeframeStart": "1998-04-26T15:29:23.4637876+02:00",
-  "TimeframeEnd": "2019-04-13T15:29:23.4637876+02:00",
-  "UseWorkflowStart": true,
-  "WorkflowStart": "2020-03-28T15:29:23.4637876+01:00",
+  "TimeframeStart": "2017-07-10T03:51:28.5839089+02:00",
+  "TimeframeEnd": "2016-04-26T03:51:28.5839089+02:00",
+  "UseWorkflowStart": false,
+  "WorkflowStart": "2012-03-07T03:51:28.5839089+01:00",
   "UseEnrollmentEnd": true,
-  "EnrollmentEnd": "2002-07-04T15:29:23.4637876+02:00",
+  "EnrollmentEnd": "2013-10-28T03:51:28.5839089+01:00",
   "RemoveFromFlows": [
-    754,
-    385
+    282,
+    682
   ],
   "TzLocation": null,
   "Folder": null,
@@ -157,22 +157,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 480,
-      "WorkflowId": 708,
+      "WorkflowStepId": 84,
+      "WorkflowId": 548,
       "StepType": "AddToList",
-      "Rank": 483
+      "Rank": 844
     },
     {
-      "WorkflowStepId": 480,
-      "WorkflowId": 708,
+      "WorkflowStepId": 84,
+      "WorkflowId": 548,
       "StepType": "AddToList",
-      "Rank": 483
+      "Rank": 844
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 814,
-      "WorkflowId": 623,
+      "WorkflowTriggerId": 313,
+      "WorkflowId": 827,
       "TriggerType": "AddToList",
       "RestrictionGroups": [
         {},
@@ -182,14 +182,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldType": "System.String",
+          "FieldLength": 293
         }
       }
     },
     {
-      "WorkflowTriggerId": 814,
-      "WorkflowId": 623,
+      "WorkflowTriggerId": 313,
+      "WorkflowId": 827,
       "TriggerType": "AddToList",
       "RestrictionGroups": [
         {},
@@ -199,16 +199,16 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldType": "System.String",
+          "FieldLength": 293
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 206,
-      "WorkflowId": 869,
+      "WorkflowGoalId": 417,
+      "WorkflowId": 961,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -219,13 +219,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 170
+          "FieldLength": 381
         }
       }
     },
     {
-      "WorkflowGoalId": 206,
-      "WorkflowId": 869,
+      "WorkflowGoalId": 417,
+      "WorkflowId": 961,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -236,22 +236,22 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 170
+          "FieldLength": 381
         }
       }
     }
   ],
   "Filter": null,
   "BlockLists": [
-    956,
-    999
+    124,
+    155
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldLength": 209
     }
   }
 }

@@ -25,8 +25,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=voluptas
+GET /api/v1/List/Task/MDOItems?flat=False
+GET /api/v1/List/Task/MDOItems?query=modi
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Quigley Group",
-    "ToolTip": "Asperiores sed repellat repellat dicta.",
+    "Id": 204,
+    "Name": "Hartmann, Bernhard and Feest",
+    "ToolTip": "Sit ut omnis dolor autem quibusdam eius nam.",
     "Deleted": false,
-    "Rank": 677,
-    "Type": "perferendis",
+    "Rank": 395,
+    "Type": "ex",
     "ChildItems": [
       {
-        "Id": 28,
-        "Name": "Bauch-Ryan",
-        "ToolTip": "Id expedita laboriosam.",
+        "Id": 607,
+        "Name": "Shields Inc and Sons",
+        "ToolTip": "Culpa molestiae ab dolorem sit quibusdam nemo.",
         "Deleted": false,
-        "Rank": 508,
-        "Type": "fuga",
+        "Rank": 168,
+        "Type": "praesentium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quisquam",
-        "ColorBlock": 347,
-        "ExtraInfo": "aperiam",
-        "StyleHint": "iure",
-        "FullName": "Jacinto Upton",
+        "IconHint": "qui",
+        "ColorBlock": 789,
+        "ExtraInfo": "itaque",
+        "StyleHint": "doloremque",
+        "FullName": "Gloria Pacocha DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 930
+            "FieldLength": 90
           }
         }
       }
     ],
-    "IconHint": "molestias",
-    "ColorBlock": 287,
-    "ExtraInfo": "suscipit",
-    "StyleHint": "dolorem",
-    "FullName": "Serena Jeanie Weber DVM",
+    "IconHint": "animi",
+    "ColorBlock": 934,
+    "ExtraInfo": "a",
+    "StyleHint": "voluptatem",
+    "FullName": "Ms. Julien Una Goyette DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 212
       }
     }
   }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "veniam",
+  "UniqueIdentifier": "quia",
   "Crmscript": null
 }
 ```
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "sed",
-  "Name": "Ruecker, Bayer and Emmerich",
-  "Description": "Up-sized neutral implementation",
-  "IncludeId": "ipsam",
-  "Source": "voluptate",
-  "Registered": "2013-06-02T15:29:21.2527832+02:00",
-  "RegisteredBy": "et",
-  "Updated": "2004-02-10T15:29:21.2527832+01:00",
-  "UpdatedBy": "iste",
-  "Path": "sed",
+  "UniqueIdentifier": "iusto",
+  "Name": "Walker Inc and Sons",
+  "Description": "Adaptive local standardization",
+  "IncludeId": "est",
+  "Source": "commodi",
+  "Registered": "2022-08-29T03:51:26.9436626+02:00",
+  "RegisteredBy": "laudantium",
+  "Updated": "2008-10-31T03:51:26.9436626+01:00",
+  "UpdatedBy": "inventore",
+  "Path": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldType": "System.Int32",
+      "FieldLength": 721
     }
   }
 }

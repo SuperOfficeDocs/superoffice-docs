@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "nobis",
+  "TriggerScriptUniqueId": "nam",
   "Entity": null
 }
 ```
@@ -103,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 22,
-  "Name": "Pollich-Kuhic",
+  "ScreenChooserId": 285,
+  "Name": "Harris Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sint",
-  "Source": "dignissimos",
-  "Registered": "1996-07-05T15:29:21.2617831+02:00",
-  "RegisteredAssociateId": 793,
-  "Updated": "2023-03-19T15:29:21.2617831+01:00",
-  "UpdatedAssociateId": 741,
+  "UniqueIdentifier": "dolores",
+  "Source": "officiis",
+  "Registered": "2001-03-01T03:51:26.9436626+01:00",
+  "RegisteredAssociateId": 288,
+  "Updated": "2011-05-19T03:51:26.9436626+02:00",
+  "UpdatedAssociateId": 251,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldLength": 192
     }
   }
 }

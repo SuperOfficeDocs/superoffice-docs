@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Nader Inc and Sons",
-    "Tooltip": "culpa",
-    "Deleted": true,
-    "UdListDefinitionId": 444,
-    "Rank": 21
+    "Id": 513,
+    "Name": "Kshlerin, Stroman and Heaney",
+    "Tooltip": "eveniet",
+    "Deleted": false,
+    "UdListDefinitionId": 945,
+    "Rank": 561
   },
   {
-    "Id": 256,
-    "Name": "Nader Inc and Sons",
-    "Tooltip": "culpa",
-    "Deleted": true,
-    "UdListDefinitionId": 444,
-    "Rank": 21
+    "Id": 513,
+    "Name": "Kshlerin, Stroman and Heaney",
+    "Tooltip": "eveniet",
+    "Deleted": false,
+    "UdListDefinitionId": 945,
+    "Rank": 561
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Shanahan Group",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "UdListDefinitionId": 394,
-    "Rank": 310,
+    "Id": 327,
+    "Name": "Moen, Green and Tromp",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "UdListDefinitionId": 243,
+    "Rank": 901,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 688
       }
     }
   }

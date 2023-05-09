@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 288
+  "DashboardId": 632
 }
 ```
 
@@ -91,32 +91,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Brekke-Moore",
-  "Description": "De-engineered incremental software",
-  "OwnedByFullName": "Isabella Rogahn",
-  "Registered": "2022-03-23T15:29:21.4447811+01:00",
+  "Name": "Beahan-Grady",
+  "Description": "Future-proofed dedicated matrices",
+  "OwnedByFullName": "Cristal Bode",
+  "Registered": "2014-03-23T03:51:26.9749126+01:00",
   "Tiles": [
     {
-      "Name": "Erdman, Jaskolski and Collier",
+      "Name": "Monahan-Blick",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldLength": 503
         }
       }
     },
     {
-      "Name": "Erdman, Jaskolski and Collier",
+      "Name": "Monahan-Blick",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldLength": 503
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 706
+      "FieldType": "System.Int32",
+      "FieldLength": 997
     }
   }
 }

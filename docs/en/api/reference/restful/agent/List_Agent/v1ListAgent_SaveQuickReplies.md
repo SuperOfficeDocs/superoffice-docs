@@ -69,14 +69,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 882,
-      "Name": "Nader Group",
-      "HtmlBody": "ex"
+      "QuickReplyId": 70,
+      "Name": "Daugherty Group",
+      "HtmlBody": "voluptates"
     },
     {
-      "QuickReplyId": 882,
-      "Name": "Nader Group",
-      "HtmlBody": "ex"
+      "QuickReplyId": 70,
+      "Name": "Daugherty Group",
+      "HtmlBody": "voluptates"
     }
   ]
 }

@@ -82,17 +82,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 325,
+  "TargetDimensionId": 184,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "nihil",
-  "DimensionListName": "Roberts, Upton and Walsh",
-  "DimensionListId": 363,
-  "DimensionListLabel": "enim",
+  "DimensionListField": "totam",
+  "DimensionListName": "Wintheiser Inc and Sons",
+  "DimensionListId": 332,
+  "DimensionListLabel": "veritatis",
   "SelectedDimensions": [
-    939,
-    293
+    266,
+    773
   ]
 }
 ```
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 863,
+  "TargetDimensionId": 741,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "blanditiis",
-  "DimensionListName": "Beahan LLC",
-  "DimensionListId": 189,
-  "DimensionListLabel": "ex",
+  "DimensionListField": "at",
+  "DimensionListName": "Miller LLC",
+  "DimensionListId": 697,
+  "DimensionListLabel": "atque",
   "SelectedDimensions": [
-    639,
-    357
+    121,
+    150
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

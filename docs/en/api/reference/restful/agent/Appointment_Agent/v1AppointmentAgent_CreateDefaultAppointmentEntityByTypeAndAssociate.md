@@ -127,12 +127,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 710
+  "AssociateId": 862
 }
 ```
 
@@ -147,122 +147,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-09-01T15:29:20.6287947+02:00",
-  "AppointmentId": 139,
-  "Description": "Switchable grid-enabled Graphical User Interface",
-  "StartDate": "2014-08-09T15:29:20.6287947+02:00",
-  "EndDate": "2008-01-14T15:29:20.6287947+01:00",
+  "CreatedDate": "2012-07-19T03:51:26.3031944+02:00",
+  "AppointmentId": 728,
+  "Description": "Polarised needs-based flexibility",
+  "StartDate": "2021-06-10T03:51:26.3031944+02:00",
+  "EndDate": "2004-11-21T03:51:26.3031944+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 547,
+  "MotherId": 517,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-05-13T15:29:20.6323302+02:00",
+  "UpdatedDate": "2003-12-05T03:51:26.3031944+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 608,
+  "ActiveLinks": 185,
   "Links": [
     {
-      "EntityName": "Cole Inc and Sons",
-      "Id": 925,
-      "Description": "Diverse clear-thinking hardware",
-      "ExtraInfo": "odit",
-      "LinkId": 483,
+      "EntityName": "Krajcik LLC",
+      "Id": 99,
+      "Description": "Integrated solution-oriented function",
+      "ExtraInfo": "ea",
+      "LinkId": 20,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 832
+          "FieldType": "System.String",
+          "FieldLength": 303
         }
       }
     }
   ],
-  "AlarmLeadTime": "dolore",
-  "HasAlarm": true,
-  "ColorIndex": 779,
+  "AlarmLeadTime": "explicabo",
+  "HasAlarm": false,
+  "ColorIndex": 448,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "velit",
-  "LeadTime": "aut",
-  "Location": "odio",
-  "RejectCounter": 857,
-  "RejectReason": "",
+  "LagTime": "aperiam",
+  "LeadTime": "incidunt",
+  "Location": "esse",
+  "RejectCounter": 43,
+  "RejectReason": "implement B2C architectures",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 863,
-      "PersonId": 260,
-      "ContactId": 530,
-      "EmailId": 326,
-      "SendEmail": true,
+      "AssociateId": 747,
+      "PersonId": 892,
+      "ContactId": 586,
+      "EmailId": 752,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 863,
-      "PersonId": 260,
-      "ContactId": 530,
-      "EmailId": 326,
-      "SendEmail": true,
+      "AssociateId": 747,
+      "PersonId": 892,
+      "ContactId": 586,
+      "EmailId": 752,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2001-12-11T15:29:20.6323302+01:00",
+  "ActiveDate": "2004-09-29T03:51:26.3031944+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 37,
+  "PreferredTZLocation": 822,
   "Sale": null,
-  "SuggestedAppointmentId": 496,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 688,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "deleniti",
+  "CentralserviceVideomeetId": "facere",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dylan Haley",
-    "SuperOffice:2": "Ivah Keebler"
+    "SuperOffice:1": "Marianne Blanda",
+    "SuperOffice:2": "Fabian Ankunding"
   },
   "ExtraFields": {
-    "ExtraFields1": "a",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "nisi"
   },
   "CustomFields": {
-    "CustomFields1": "delectus",
-    "CustomFields2": "iste"
+    "CustomFields1": "quod",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2019-05-16T15:29:20.6343259+02:00",
-  "PublishTo": "2001-10-21T15:29:20.6343259+02:00",
-  "PublishFrom": "2022-03-05T15:29:20.6343259+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2022-12-02T03:51:26.3031944+01:00",
+  "PublishTo": "2020-12-25T03:51:26.3031944+01:00",
+  "PublishFrom": "2011-06-01T03:51:26.3031944+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 386,
+      "VisibleId": 1001,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 864
+          "FieldType": "System.Int32",
+          "FieldLength": 719
         }
       }
     },
     {
-      "VisibleId": 386,
+      "VisibleId": 1001,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 864
+          "FieldType": "System.Int32",
+          "FieldLength": 719
         }
       }
     }
@@ -271,8 +271,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldType": "System.String",
+      "FieldLength": 697
     }
   }
 }

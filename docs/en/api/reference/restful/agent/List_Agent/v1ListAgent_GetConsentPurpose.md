@@ -25,7 +25,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=747
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=772
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 791,
-  "Name": "Dickinson LLC",
-  "ConsentText": "qui",
-  "FormText": "et",
-  "Key": "ea",
-  "Tooltip": "dolores",
-  "Active": 850,
-  "UpdatedDate": "2012-06-11T15:29:22.1177704+02:00",
+  "ConsentPurposeId": 493,
+  "Name": "Hodkiewicz-West",
+  "ConsentText": "eveniet",
+  "FormText": "quis",
+  "Key": "aspernatur",
+  "Tooltip": "vitae",
+  "Active": 52,
+  "UpdatedDate": "2010-02-07T03:51:27.5060342+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 583,
-  "PrivacyStatementDesc": "doloribus",
+  "Deleted": true,
+  "Rank": 473,
+  "PrivacyStatementDesc": "cum",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 720
     }
   }
 }

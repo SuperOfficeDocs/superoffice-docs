@@ -97,7 +97,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 151,
-  "ColumnId": 854,
-  "FieldDefault": "aut",
-  "FieldHeight": 356,
-  "FieldLabel": "est",
-  "FieldLeft": 271,
-  "FieldTop": 937,
+  "UDefFieldId": 478,
+  "ColumnId": 510,
+  "FieldDefault": "cumque",
+  "FieldHeight": 419,
+  "FieldLabel": "quas",
+  "FieldLeft": 20,
+  "FieldTop": 764,
   "FieldType": "Checkbox",
-  "FieldWidth": 787,
-  "FormatMask": "velit",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 640,
-  "LabelLeft": 131,
-  "LabelTop": 122,
-  "LabelWidth": 798,
-  "LastVersionId": 158,
-  "ListTableId": 456,
-  "IsMandatory": true,
+  "FieldWidth": 622,
+  "FormatMask": "et",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 165,
+  "LabelLeft": 879,
+  "LabelTop": 173,
+  "LabelWidth": 753,
+  "LastVersionId": 400,
+  "ListTableId": 41,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 364,
-  "ProgId": "harum",
-  "IsReadOnly": true,
-  "ShortLabel": "quae",
-  "TabOrder": 393,
-  "TextLength": 858,
-  "Tooltip": "omnis",
-  "UdefIdentity": 711,
-  "UDListDefinitionId": 989,
+  "Page1LineNo": 89,
+  "ProgId": "ad",
+  "IsReadOnly": false,
+  "ShortLabel": "doloremque",
+  "TabOrder": 260,
+  "TextLength": 787,
+  "Tooltip": "maiores",
+  "UdefIdentity": 122,
+  "UDListDefinitionId": 479,
   "Justification": "Center",
-  "Version": 910,
-  "TemplateVariableName": "Mills-Sipes",
+  "Version": 371,
+  "TemplateVariableName": "Grady, Wilkinson and Schuppe",
   "HasBeenPublished": false,
-  "MdoListName": "Bayer-Goyette",
+  "MdoListName": "Beier, Wisoky and Murphy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 309
     }
   }
 }

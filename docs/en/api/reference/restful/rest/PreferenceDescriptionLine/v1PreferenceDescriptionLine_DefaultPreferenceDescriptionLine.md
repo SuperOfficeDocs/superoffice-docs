@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 621,
-  "PrefDescId": 363,
-  "PrefValue": "eligendi",
-  "PrefShowValue": "dolorem",
-  "Description": "Down-sized maximized array",
+  "PrefDescLineId": 196,
+  "PrefDescId": 266,
+  "PrefValue": "optio",
+  "PrefShowValue": "ut",
+  "Description": "Object-based mobile database",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldType": "System.String",
+      "FieldLength": 766
     }
   }
 }

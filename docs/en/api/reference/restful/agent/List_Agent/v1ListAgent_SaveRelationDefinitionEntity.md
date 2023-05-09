@@ -76,16 +76,16 @@ OK
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 516,
-  "Name": "Bins Inc and Sons",
-  "Tooltip": "repellendus",
-  "PassiveText": "velit",
+  "ReldefId": 278,
+  "Name": "Schamberger, Ryan and Hills",
+  "Tooltip": "id",
+  "PassiveText": "dolorum",
   "Deleted": false,
-  "Rank": 784,
+  "Rank": 346,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 953,
-  "Name": "Carter Group",
-  "Tooltip": "voluptatem",
-  "PassiveText": "ut",
+  "ReldefId": 593,
+  "Name": "Bergstrom, Armstrong and Mohr",
+  "Tooltip": "molestiae",
+  "PassiveText": "voluptatum",
   "Deleted": false,
-  "Rank": 711,
+  "Rank": 904,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 590
+      "FieldType": "System.Int32",
+      "FieldLength": 666
     }
   }
 }

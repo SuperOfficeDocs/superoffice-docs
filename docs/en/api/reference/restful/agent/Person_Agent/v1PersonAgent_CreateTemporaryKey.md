@@ -77,9 +77,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 898,
-  "PersonId": 690,
-  "Expires": "2008-01-28T15:29:22.3317682+01:00"
+  "TargetId": 892,
+  "PersonId": 229,
+  "Expires": "2009-10-13T03:51:27.8340855+02:00"
 }
 ```
 
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ea"
+"beatae"
 ```

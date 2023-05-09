@@ -74,7 +74,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 809,
-  "Name": "Hartmann Inc and Sons",
-  "Tooltip": "commodi",
+  "RoleId": 140,
+  "Name": "Mayert LLC",
+  "Tooltip": "nihil",
   "RoleType": "Anonymous",
-  "Deleted": 481,
-  "Rank": 481,
-  "Created": "2022-10-15T15:29:30.0371593+02:00",
-  "UseCategories": 34,
+  "Deleted": 199,
+  "Rank": 336,
+  "Created": "2001-08-13T03:51:33.8802911+02:00",
+  "UseCategories": 936,
   "CreatedBy": null,
-  "Updated": "1999-01-02T15:29:30.0376598+01:00",
+  "Updated": "2015-02-16T03:51:33.8959111+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 910
+      "FieldType": "System.Int32",
+      "FieldLength": 94
     }
   }
 }

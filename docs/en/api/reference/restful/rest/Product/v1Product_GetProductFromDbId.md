@@ -91,7 +91,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 804,
-  "ERPProductKey": "error",
-  "ERPPriceListKey": "architecto",
-  "Name": "Monahan, Gislason and Buckridge",
-  "Description": "Up-sized didactic capability",
-  "Code": "autem",
-  "PriceUnit": "ducimus",
-  "QuantityUnit": "sunt",
+  "ProductId": 387,
+  "ERPProductKey": "temporibus",
+  "ERPPriceListKey": "harum",
+  "Name": "Jakubowski-Rempel",
+  "Description": "Distributed discrete approach",
+  "Code": "omnis",
+  "PriceUnit": "officiis",
+  "QuantityUnit": "similique",
   "IsSubscription": false,
-  "SubscriptionUnit": "enim",
-  "DefaultSubscriptionQuantity": 14184.484,
-  "ItemNumber": "1156056",
+  "SubscriptionUnit": "quis",
+  "DefaultSubscriptionQuantity": 7405.642,
+  "ItemNumber": "465451",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "eligendi",
-  "VAT": 13911.826,
-  "VATInfo": "est",
-  "UnitCost": 12510.928,
-  "UnitMinimumPrice": 29434.528,
-  "UnitListPrice": 5424.954,
+  "ProductFamilyKey": "suscipit",
+  "ProductTypeKey": "nemo",
+  "VAT": 5888.786,
+  "VATInfo": "non",
+  "UnitCost": 23222.94,
+  "UnitMinimumPrice": 7537.2699999999995,
+  "UnitListPrice": 12040.828,
   "InAssortment": false,
-  "Supplier": "voluptas",
-  "SupplierCode": "ipsum",
-  "Rights": "vel",
-  "Rule": "laborum",
+  "Supplier": "ad",
+  "SupplierCode": "iure",
+  "Rights": "deserunt",
+  "Rule": "ipsam",
   "ExtraInfo": [
     {
-      "Name": "Ankunding, Krajcik and Collins",
-      "Value": "est",
+      "Name": "Shields Group",
+      "Value": "autem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 220
+          "FieldType": "System.Int32",
+          "FieldLength": 357
         }
       }
     },
     {
-      "Name": "Ankunding, Krajcik and Collins",
-      "Value": "est",
+      "Name": "Shields Group",
+      "Value": "autem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 220
+          "FieldType": "System.Int32",
+          "FieldLength": 357
         }
       }
     }
   ],
-  "RawExtraInfo": "id",
-  "ExtraField1": "assumenda",
-  "ExtraField2": "et",
-  "ExtraField3": "perferendis",
-  "ExtraField4": "minima",
-  "ExtraField5": "quia",
-  "InStock": 7527.8679999999995,
+  "RawExtraInfo": "qui",
+  "ExtraField1": "quos",
+  "ExtraField2": "accusamus",
+  "ExtraField3": "ullam",
+  "ExtraField4": "quia",
+  "ExtraField5": "dolores",
+  "InStock": 9599.442,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldLength": 711
     }
   }
 }

@@ -25,8 +25,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=sint
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=et
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Yundt-Schamberger",
-    "ToolTip": "Corrupti aut necessitatibus quaerat laborum.",
-    "Deleted": true,
-    "Rank": 523,
-    "Type": "officiis",
+    "Id": 628,
+    "Name": "Lynch, Schuppe and Wehner",
+    "ToolTip": "Non alias facere ullam.",
+    "Deleted": false,
+    "Rank": 765,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Schmeler, Kohler and Cartwright",
-        "ToolTip": "Occaecati dolorem aut et sit hic tenetur.",
+        "Id": 538,
+        "Name": "Bartell Inc and Sons",
+        "ToolTip": "Eius explicabo soluta.",
         "Deleted": false,
-        "Rank": 739,
-        "Type": "dolore",
+        "Rank": 248,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 919,
-        "ExtraInfo": "at",
-        "StyleHint": "modi",
-        "FullName": "Ruth Hoeger",
+        "IconHint": "facilis",
+        "ColorBlock": 9,
+        "ExtraInfo": "in",
+        "StyleHint": "dicta",
+        "FullName": "Brody Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 530
+            "FieldType": "System.String",
+            "FieldLength": 882
           }
         }
       }
     ],
-    "IconHint": "saepe",
-    "ColorBlock": 896,
-    "ExtraInfo": "dolorum",
-    "StyleHint": "sint",
-    "FullName": "Walter Rutherford",
+    "IconHint": "voluptas",
+    "ColorBlock": 697,
+    "ExtraInfo": "officia",
+    "StyleHint": "rem",
+    "FullName": "Liam Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 699
       }
     }
   }

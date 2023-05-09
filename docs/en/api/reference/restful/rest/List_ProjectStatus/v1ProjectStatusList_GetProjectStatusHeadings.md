@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 921,
-    "Name": "Nicolas, Shanahan and Jacobi",
-    "Tooltip": "facilis",
+    "HeadingId": 798,
+    "Name": "Carroll, Ritchie and Pollich",
+    "Tooltip": "ab",
     "Deleted": false,
-    "Rank": 380,
-    "UdListDefinitionId": 672,
+    "Rank": 28,
+    "UdListDefinitionId": 970,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 128
+        "FieldLength": 684
       }
     }
   }

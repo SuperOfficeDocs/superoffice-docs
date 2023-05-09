@@ -74,17 +74,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 196,
-  "Name": "Bradtke LLC",
-  "Rank": 410,
-  "Tooltip": "voluptate",
+  "ResourceId": 923,
+  "Name": "Kshlerin-Hegmann",
+  "Rank": 886,
+  "Tooltip": "dolores",
   "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "iste"
+  "LocationAddress": "in"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 8,
-  "Name": "Morissette-Schneider",
-  "Rank": 996,
-  "Tooltip": "officiis",
+  "ResourceId": 25,
+  "Name": "Botsford Inc and Sons",
+  "Rank": 350,
+  "Tooltip": "exercitationem",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "molestias",
+  "LocationAddress": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 730
     }
   }
 }

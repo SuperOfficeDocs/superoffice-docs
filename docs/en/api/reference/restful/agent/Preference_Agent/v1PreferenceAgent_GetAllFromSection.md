@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "qui"
+  "Section": "deleniti"
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 684,
-    "Section": "tempore",
-    "Key": "nam",
-    "Name": "Harvey Group",
+    "PrefDescId": 533,
+    "Section": "et",
+    "Key": "hic",
+    "Name": "Rolfson-Quigley",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Streamlined executive Graphical User Interface",
-    "IsBuiltin": true,
-    "TableName": "Dickens LLC",
-    "UserDefinedListId": 997,
-    "Rank": 102,
-    "SubGroup": "accusamus",
-    "MinLevel": 536,
-    "MaxValue": 724,
-    "MinValue": 459,
-    "RequiredLicense": "maxime",
+    "Description": "Automated 3rd generation array",
+    "IsBuiltin": false,
+    "TableName": "Zieme-Labadie",
+    "UserDefinedListId": 489,
+    "Rank": 7,
+    "SubGroup": "molestiae",
+    "MinLevel": 720,
+    "MaxValue": 712,
+    "MinValue": 858,
+    "RequiredLicense": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldLength": 698
       }
     }
   }

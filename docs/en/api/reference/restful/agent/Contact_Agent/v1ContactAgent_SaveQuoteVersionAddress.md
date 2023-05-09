@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 871,
+  "QuoteVersionId": 465,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 583
+  "CountryId": 258
 }
 ```
 
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 16509.912,
-  "Wgs84Longitude": 18584.62,
+  "Wgs84Latitude": 18575.218,
+  "Wgs84Longitude": 14432.07,
   "LocalizedAddress": [
     [
       {
-        "Name": "Dach, Champlin and Deckow",
-        "Value": "cum",
-        "Tooltip": "aut",
-        "Label": "in",
-        "ValueLength": 478,
-        "AddressType": "molestiae",
+        "Name": "O'Reilly LLC",
+        "Value": "quibusdam",
+        "Tooltip": "est",
+        "Label": "non",
+        "ValueLength": 523,
+        "AddressType": "iste",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 800
+            "FieldLength": 616
           }
         }
       }
     ],
     [
       {
-        "Name": "McCullough Inc and Sons",
-        "Value": "fuga",
-        "Tooltip": "praesentium",
-        "Label": "consequatur",
-        "ValueLength": 784,
-        "AddressType": "debitis",
+        "Name": "Casper Group",
+        "Value": "occaecati",
+        "Tooltip": "voluptatem",
+        "Label": "non",
+        "ValueLength": 179,
+        "AddressType": "voluptatem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 631
+            "FieldLength": 819
           }
         }
       }
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "sint",
+  "Formatted": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 598
     }
   }
 }

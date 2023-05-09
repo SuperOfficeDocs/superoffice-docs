@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 298,
-  "Name": "Zulauf-Armstrong",
-  "Tooltip": "ut",
+  "Id": 444,
+  "Name": "Aufderhar LLC",
+  "Tooltip": "ratione",
   "Deleted": true,
-  "Rank": 135,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": false
+  "Rank": 296,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "assumenda",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 653,
-  "Name": "Stracke Group",
-  "Tooltip": "ratione",
+  "Id": 783,
+  "Name": "Feil, Langosh and Swift",
+  "Tooltip": "at",
   "Deleted": false,
-  "Rank": 406,
-  "IsCustomList": true,
+  "Rank": 986,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "error",
+  "ListType": "veniam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 399
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   }
 }

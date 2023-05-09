@@ -78,27 +78,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 460,
+  "Id": 220,
   "Entities": [
     {
-      "HeadingId": 971,
-      "Name": "Strosin, Mosciski and Bashirian",
-      "Tooltip": "ducimus",
+      "HeadingId": 556,
+      "Name": "Bauch LLC",
+      "Tooltip": "ut",
       "Deleted": false,
-      "Rank": 418,
-      "UdListDefinitionId": 942
+      "Rank": 599,
+      "UdListDefinitionId": 462
     },
     {
-      "HeadingId": 971,
-      "Name": "Strosin, Mosciski and Bashirian",
-      "Tooltip": "ducimus",
+      "HeadingId": 556,
+      "Name": "Bauch LLC",
+      "Tooltip": "ut",
       "Deleted": false,
-      "Rank": 418,
-      "UdListDefinitionId": 942
+      "Rank": 599,
+      "UdListDefinitionId": 462
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 601,
-    "Name": "Wuckert Inc and Sons",
-    "Tooltip": "tenetur",
+    "HeadingId": 431,
+    "Name": "Leuschke, Fay and Cruickshank",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "Rank": 189,
-    "UdListDefinitionId": 560,
+    "Rank": 844,
+    "UdListDefinitionId": 402,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 294
+        "FieldLength": 523
       }
     }
   }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 909,
-  "ERPName": "Zulauf, Hudson and Marquardt",
-  "DisplayName": "Rogahn, Schmeler and Robel",
-  "DisplayDescription": "Secured local hardware",
-  "Rank": 226,
-  "ConnectorName": "Cremin LLC",
-  "ErpConnectionId": 789,
-  "ExtraData": "rerum",
+  "QuoteConnectionId": 610,
+  "ERPName": "Collins, Hegmann and Balistreri",
+  "DisplayName": "Prohaska, Brekke and Bahringer",
+  "DisplayDescription": "Quality-focused executive encoding",
+  "Rank": 229,
+  "ConnectorName": "Kuvalis LLC",
+  "ErpConnectionId": 481,
+  "ExtraData": "placeat",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 1001,
-      "ERPPriceListKey": "laboriosam",
-      "QuoteConnectionId": 655,
-      "Name": "Bernier, Bauch and Mitchell",
-      "Description": "Integrated client-server protocol",
-      "Currency": "rerum",
-      "CurrencyName": "Cormier LLC",
-      "ValidFrom": "2012-01-13T15:29:22.5702654+01:00",
-      "ValidTo": "2010-03-29T15:29:22.5702654+02:00",
+      "PriceListId": 940,
+      "ERPPriceListKey": "minus",
+      "QuoteConnectionId": 369,
+      "Name": "Ruecker LLC",
+      "Description": "Proactive zero defect analyzer",
+      "Currency": "dicta",
+      "CurrencyName": "Torphy Group",
+      "ValidFrom": "2010-01-28T03:51:28.0215395+01:00",
+      "ValidTo": "2009-07-06T03:51:28.0215395+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 632
+          "FieldType": "System.Int32",
+          "FieldLength": 910
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    764,
-    153
+    992,
+    752
   ],
   "AssociateAccessIds": [
-    988,
-    539
+    657,
+    778
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 334
     }
   }
 }

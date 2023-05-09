@@ -26,7 +26,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=magni
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=neque
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Roob LLC",
-    "ToolTip": "Modi laboriosam qui minima architecto.",
-    "Deleted": true,
-    "Rank": 27,
-    "Type": "quia",
+    "Id": 256,
+    "Name": "Morar Group",
+    "ToolTip": "Alias autem quidem et perferendis.",
+    "Deleted": false,
+    "Rank": 352,
+    "Type": "repellendus",
     "ChildItems": [
       {
-        "Id": 477,
-        "Name": "Haley LLC",
-        "ToolTip": "Porro molestiae laborum consequatur nam est sed aut.",
-        "Deleted": false,
-        "Rank": 183,
-        "Type": "laudantium",
+        "Id": 747,
+        "Name": "Schumm LLC",
+        "ToolTip": "Possimus sed commodi nesciunt excepturi incidunt.",
+        "Deleted": true,
+        "Rank": 168,
+        "Type": "enim",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "similique",
-        "ColorBlock": 596,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "fugiat",
-        "FullName": "Adeline Romaguera Jr.",
+        "IconHint": "inventore",
+        "ColorBlock": 97,
+        "ExtraInfo": "officia",
+        "StyleHint": "minima",
+        "FullName": "Ahmad Steuber DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 630
+            "FieldLength": 718
           }
         }
       }
     ],
-    "IconHint": "odio",
-    "ColorBlock": 302,
-    "ExtraInfo": "non",
-    "StyleHint": "et",
-    "FullName": "Miss Murphy Malvina Hayes I",
+    "IconHint": "soluta",
+    "ColorBlock": 174,
+    "ExtraInfo": "earum",
+    "StyleHint": "maxime",
+    "FullName": "Unique Jordyn Heaney Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 376
+        "FieldType": "System.String",
+        "FieldLength": 41
       }
     }
   }

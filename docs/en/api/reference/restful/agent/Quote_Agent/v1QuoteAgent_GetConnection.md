@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 365
+  "QuoteConnectionId": 164
 }
 ```
 
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 114,
-  "ERPName": "Larson, Baumbach and Cremin",
-  "DisplayName": "Lind LLC",
-  "DisplayDescription": "Secured demand-driven strategy",
-  "Rank": 256,
-  "ConnectorName": "Langosh-Koelpin",
-  "ErpConnectionId": 562,
-  "ExtraData": "esse",
-  "IsAvailable": false,
+  "QuoteConnectionId": 762,
+  "ERPName": "Oberbrunner Group",
+  "DisplayName": "Corkery-Hahn",
+  "DisplayDescription": "Devolved contextually-based moderator",
+  "Rank": 354,
+  "ConnectorName": "Mertz Group",
+  "ErpConnectionId": 965,
+  "ExtraData": "est",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 692,
-      "ERPPriceListKey": "omnis",
-      "QuoteConnectionId": 973,
-      "Name": "Langworth-Yundt",
-      "Description": "Multi-channelled exuding help-desk",
-      "Currency": "enim",
-      "CurrencyName": "Hermiston Group",
-      "ValidFrom": "2007-07-25T15:29:22.569265+02:00",
-      "ValidTo": "2007-10-29T15:29:22.569265+01:00",
+      "PriceListId": 694,
+      "ERPPriceListKey": "velit",
+      "QuoteConnectionId": 189,
+      "Name": "Bernier Inc and Sons",
+      "Description": "Function-based responsive encryption",
+      "Currency": "dolor",
+      "CurrencyName": "McDermott-Stanton",
+      "ValidFrom": "1996-03-11T03:51:28.0215395+01:00",
+      "ValidTo": "2015-09-20T03:51:28.0215395+02:00",
       "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 458
+          "FieldType": "System.Int32",
+          "FieldLength": 540
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    379,
-    704
+    39,
+    260
   ],
   "AssociateAccessIds": [
-    749,
-    819
+    575,
+    644
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 765
+      "FieldLength": 594
     }
   }
 }

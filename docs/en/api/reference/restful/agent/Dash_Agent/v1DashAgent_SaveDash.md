@@ -86,34 +86,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 263,
-  "UniqueId": "ullam",
-  "Name": "Rosenbaum, Leannon and Jacobs",
-  "Description": "Realigned responsive instruction set",
-  "AssociateId": 776,
-  "Columns": 85,
+  "DashboardId": 146,
+  "UniqueId": "rerum",
+  "Name": "Schaden, Rowe and Renner",
+  "Description": "Digitized exuding hierarchy",
+  "AssociateId": 94,
+  "Columns": 796,
   "Theme": null,
-  "VisibleForAll": 959,
+  "VisibleForAll": 594,
   "VisibleForAssociates": [
-    918,
-    856
+    896,
+    550
   ],
   "VisibleForGroups": [
-    832,
-    481
+    970,
+    960
   ],
-  "PinForAll": 268,
+  "PinForAll": 596,
   "PinForAssociates": [
-    330,
-    415
+    78,
+    908
   ],
   "PinForGroups": [
-    14,
-    865
+    259,
+    119
   ]
 }
 ```
@@ -125,37 +125,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 846,
-  "UniqueId": "velit",
-  "Name": "Mraz LLC",
-  "Description": "Monitored scalable extranet",
-  "AssociateId": 313,
-  "Columns": 631,
+  "DashboardId": 371,
+  "UniqueId": "harum",
+  "Name": "Schuppe, Crist and Torphy",
+  "Description": "Managed bifurcated application",
+  "AssociateId": 184,
+  "Columns": 550,
   "Theme": null,
-  "VisibleForAll": 400,
+  "VisibleForAll": 848,
   "VisibleForAssociates": [
-    737,
-    187
+    863,
+    491
   ],
   "VisibleForGroups": [
-    567,
-    995
+    301,
+    201
   ],
-  "PinForAll": 692,
+  "PinForAll": 502,
   "PinForAssociates": [
-    13,
-    695
+    822,
+    595
   ],
   "PinForGroups": [
-    59,
-    6
+    982,
+    127
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 936
     }
   }
 }

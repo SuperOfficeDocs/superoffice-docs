@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 804,
-  "BlobSize": 680,
-  "Description": "Quality-focused scalable portal",
-  "ExtraInfo": "exercitationem",
-  "IsEncrypted": false,
+  "BlobId": 234,
+  "BlobSize": 440,
+  "Description": "Re-engineered object-oriented task-force",
+  "ExtraInfo": "rem",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "aliquid",
-  "OriginalSize": 621,
-  "CreatedDate": "2019-01-31T15:29:29.466703+01:00",
-  "UpdatedDate": "2004-06-02T15:29:29.466703+02:00",
+  "MimeType": "amet",
+  "OriginalSize": 173,
+  "CreatedDate": "2007-09-05T03:51:33.2554342+02:00",
+  "UpdatedDate": "2000-07-29T03:51:33.2554342+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nihil"
+  "ConceptualType": "tenetur"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 973,
-  "BlobSize": 674,
-  "Description": "Innovative scalable analyzer",
-  "ExtraInfo": "aliquid",
-  "IsEncrypted": false,
+  "BlobId": 138,
+  "BlobSize": 976,
+  "Description": "Realigned discrete ability",
+  "ExtraInfo": "fugit",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "dolores",
-  "OriginalSize": 848,
-  "CreatedDate": "2002-07-04T15:29:29.4682025+02:00",
-  "UpdatedDate": "2022-07-18T15:29:29.4682025+02:00",
+  "MimeType": "accusantium",
+  "OriginalSize": 187,
+  "CreatedDate": "2007-08-13T03:51:33.2554342+02:00",
+  "UpdatedDate": "2003-10-29T03:51:33.2554342+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sit",
+  "ConceptualType": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldType": "System.String",
+      "FieldLength": 228
     }
   }
 }

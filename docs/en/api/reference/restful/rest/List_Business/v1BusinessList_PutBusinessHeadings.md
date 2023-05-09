@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 584,
-    "Name": "Haley-Schaden",
-    "Tooltip": "nisi",
-    "Deleted": false,
-    "Rank": 153,
-    "UdListDefinitionId": 681
+    "HeadingId": 133,
+    "Name": "Langworth Group",
+    "Tooltip": "fugiat",
+    "Deleted": true,
+    "Rank": 261,
+    "UdListDefinitionId": 944
   },
   {
-    "HeadingId": 584,
-    "Name": "Haley-Schaden",
-    "Tooltip": "nisi",
-    "Deleted": false,
-    "Rank": 153,
-    "UdListDefinitionId": 681
+    "HeadingId": 133,
+    "Name": "Langworth Group",
+    "Tooltip": "fugiat",
+    "Deleted": true,
+    "Rank": 261,
+    "UdListDefinitionId": 944
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 388,
-    "Name": "Olson LLC",
-    "Tooltip": "tenetur",
-    "Deleted": false,
-    "Rank": 308,
-    "UdListDefinitionId": 690,
+    "HeadingId": 663,
+    "Name": "Walter Inc and Sons",
+    "Tooltip": "ducimus",
+    "Deleted": true,
+    "Rank": 443,
+    "UdListDefinitionId": 170,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldType": "System.Int32",
+        "FieldLength": 167
       }
     }
   }

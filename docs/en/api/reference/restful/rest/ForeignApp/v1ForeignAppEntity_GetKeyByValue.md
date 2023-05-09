@@ -31,7 +31,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=vel
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 17 Aug 2017 15:29:29 G8T
+Last-Modified: Tue, 04 Feb 2014 03:51:33 G2T
 
 {
-  "Key": "nesciunt",
-  "Value": "autem",
-  "RecordId": 876,
-  "CreatedDate": "2007-04-17T15:29:29.7791988+02:00",
-  "UpdatedDate": "2017-08-17T15:29:29.7791988+02:00",
-  "UpdatedBy": "quibusdam",
-  "CreatedBy": "ea",
-  "TableName": "Rempel, Heaney and Bednar",
+  "Key": "ullam",
+  "Value": "quaerat",
+  "RecordId": 114,
+  "CreatedDate": "2022-05-08T03:51:33.6928335+02:00",
+  "UpdatedDate": "2014-02-04T03:51:33.6928335+01:00",
+  "UpdatedBy": "ducimus",
+  "CreatedBy": "molestias",
+  "TableName": "Davis, Paucek and Lindgren",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 23
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   }
 }

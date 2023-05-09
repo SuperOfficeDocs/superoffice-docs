@@ -111,29 +111,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 255,
-  "Name": "Bins-Trantow",
-  "Description": "Triple-buffered full-range standardization",
-  "DefaultHeight": 632,
-  "DefaultWidth": 814,
+  "DashboardTileDefinitionId": 848,
+  "Name": "Tromp, Bechtelar and Herman",
+  "Description": "Down-sized multimedia info-mediaries",
+  "DefaultHeight": 647,
+  "DefaultWidth": 663,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rohan, Ryan and Willms",
-  "SelectionId": 906,
+  "EntityName": "Lubowitz Inc and Sons",
+  "SelectionId": 840,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ut",
+  "CurrencyCode": "quod",
   "Measure": "Average",
-  "MeasureField": "provident",
-  "SortBy": "est",
-  "LayoutConfig": "aut",
-  "SecondarySelectionId": 874,
-  "MeasureByField": "placeat",
+  "MeasureField": "nihil",
+  "SortBy": "occaecati",
+  "LayoutConfig": "reprehenderit",
+  "SecondarySelectionId": 818,
+  "MeasureByField": "ducimus",
   "Usage": "Dashboard",
-  "ProviderName": "Upton, Schmitt and Walter"
+  "ProviderName": "Crist, Pacocha and Ruecker"
 }
 ```
 
@@ -144,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 792,
-  "Name": "Cole Group",
-  "Description": "Reduced logistical framework",
-  "DefaultHeight": 349,
-  "DefaultWidth": 647,
+  "DashboardTileDefinitionId": 303,
+  "Name": "Rutherford, Quitzon and Wilkinson",
+  "Description": "Multi-layered logistical budgetary management",
+  "DefaultHeight": 492,
+  "DefaultWidth": 366,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bode Inc and Sons",
-  "SelectionId": 691,
+  "EntityName": "Kirlin-Senger",
+  "SelectionId": 875,
   "CurrencyMode": "Base",
-  "CurrencyCode": "sequi",
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "distinctio",
-  "SortBy": "suscipit",
-  "LayoutConfig": "voluptatem",
-  "SecondarySelectionId": 345,
-  "MeasureByField": "voluptatem",
+  "MeasureField": "accusamus",
+  "SortBy": "tempora",
+  "LayoutConfig": "nihil",
+  "SecondarySelectionId": 616,
+  "MeasureByField": "fugiat",
   "Usage": "Dashboard",
-  "ProviderName": "Thompson Inc and Sons",
+  "ProviderName": "Zulauf, Friesen and Gorczany",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldType": "System.String",
+      "FieldLength": 898
     }
   },
   "_Links": {

@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 504,
-  "Name": "Romaguera-Simonis",
-  "Tooltip": "cupiditate",
+  "HeadingId": 578,
+  "Name": "Prohaska Group",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 712,
-  "UdListDefinitionId": 809
+  "Rank": 409,
+  "UdListDefinitionId": 185
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 117,
-  "Name": "Marks LLC",
-  "Tooltip": "mollitia",
-  "Deleted": true,
-  "Rank": 405,
-  "UdListDefinitionId": 825,
+  "HeadingId": 749,
+  "Name": "Rowe-Brown",
+  "Tooltip": "architecto",
+  "Deleted": false,
+  "Rank": 811,
+  "UdListDefinitionId": 743,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldType": "System.Int32",
+      "FieldLength": 40
     }
   }
 }

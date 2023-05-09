@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 10,
-  "SourcePersonId": 714,
-  "DestinationContactId": 259,
-  "DestinationPersonId": 87,
-  "RelationId": 557,
-  "Comment": "voluptas",
-  "RelationDefinitionId": 276,
-  "Reversed": 681,
-  "UpdatedDate": "2011-09-09T15:29:22.6007646+02:00",
-  "CreatedDate": "2007-09-17T15:29:22.6007646+02:00",
+  "SourceContactId": 756,
+  "SourcePersonId": 545,
+  "DestinationContactId": 635,
+  "DestinationPersonId": 147,
+  "RelationId": 712,
+  "Comment": "omnis",
+  "RelationDefinitionId": 524,
+  "Reversed": 59,
+  "UpdatedDate": "2011-01-14T03:51:28.0371601+01:00",
+  "CreatedDate": "2007-01-15T03:51:28.0371601+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Donnelly-Roberts",
-  "SourcePersonName": "Mante Inc and Sons",
-  "DestinationContactName": "Beatty Group",
-  "DestinationPersonName": "Collins-Reichel",
-  "ActiveText": "consequuntur",
-  "PassiveText": "consequatur",
+  "SourceContactName": "Bernier, Lemke and Oberbrunner",
+  "SourcePersonName": "Howe, Ruecker and Rempel",
+  "DestinationContactName": "Morar-Kemmer",
+  "DestinationPersonName": "Powlowski-Kuvalis",
+  "ActiveText": "cum",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldType": "System.String",
+      "FieldLength": 994
     }
   }
 }

@@ -80,16 +80,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatibus",
-  "ProviderName": "Torp Inc and Sons",
-  "StorageKey": "eum",
+  "StorageType": "dolorem",
+  "ProviderName": "Brown-Ebert",
+  "StorageKey": "recusandae",
   "StaticColumns": [
-    "excepturi",
-    "ipsum"
+    "tempora",
+    "a"
   ]
 }
 ```
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Brown, Boyer and McGlynn",
-      "Operator": "adipisci",
+      "Name": "Torphy-Lueilwitz",
+      "Operator": "quasi",
       "Values": [
-        "sit",
-        "quo"
+        "et",
+        "possimus"
       ],
       "DisplayValues": [
-        "itaque",
-        "eos"
+        "et",
+        "maxime"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 17,
+      "InterParenthesis": 490,
       "InterOperator": "And",
-      "UniqueHash": 766
+      "UniqueHash": 562
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Homenick-Daniel",
-      "DisplayTooltip": "assumenda",
-      "DisplayType": "consequatur",
+      "DisplayName": "Will, Deckow and Heller",
+      "DisplayTooltip": "vitae",
+      "DisplayType": "fuga",
       "CanOrderBy": false,
-      "Name": "DuBuque LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "nostrum",
-      "RestrictionListName": "Kozey, Durgan and Abshire",
-      "IsVisible": true,
-      "ExtraInfo": "animi",
-      "Width": "eligendi",
-      "IconHint": "et",
-      "HeadingIconHint": "quisquam"
+      "Name": "Macejkovic, Renner and Heathcote",
+      "CanRestrictBy": true,
+      "RestrictionType": "iusto",
+      "RestrictionListName": "DuBuque, Runte and Rice",
+      "IsVisible": false,
+      "ExtraInfo": "sunt",
+      "Width": "qui",
+      "IconHint": "quasi",
+      "HeadingIconHint": "ullam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Zemlak, Kuvalis and Franecki",
-      "PrimaryKey": 542,
+      "EntityName": "Beahan LLC",
+      "PrimaryKey": 674,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestias",
-          "TooltipHint": "facere",
-          "LinkHint": "sint"
+          "DisplayValue": "placeat",
+          "TooltipHint": "necessitatibus",
+          "LinkHint": "ea"
         }
       },
-      "LinkHint": "labore",
-      "StyleHint": "exercitationem",
+      "LinkHint": "quibusdam",
+      "StyleHint": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldType": "System.String",
+          "FieldLength": 917
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Parker, Kovacek and Botsford",
-      "Description": "Optional grid-enabled instruction set",
-      "Rank": 744,
+      "Name": "Renner-Parisian",
+      "Description": "Right-sized non-volatile flexibility",
+      "Rank": 510,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Parker, Kovacek and Botsford",
-      "Description": "Optional grid-enabled instruction set",
-      "Rank": 744,
+      "Name": "Renner-Parisian",
+      "Description": "Right-sized non-volatile flexibility",
+      "Rank": 510,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 330
+      "FieldLength": 479
     }
   }
 }

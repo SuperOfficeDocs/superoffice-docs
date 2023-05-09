@@ -92,53 +92,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 99,
-  "Name": "Quigley LLC",
-  "Tooltip": "sit",
-  "Rank": 285,
+  "SaleTypeId": 238,
+  "Name": "Wilderman-Marks",
+  "Tooltip": "minima",
+  "Rank": 38,
   "DurationUnit": "Century",
-  "SaleDuration": 876,
-  "SaleTypeCatId": 833,
+  "SaleDuration": 798,
+  "SaleTypeCatId": 37,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 294,
-  "QuoteLinesTemplate": 914,
-  "ConfirmationLinesTemplate": 913,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 458,
-  "MinEarningPercent": 216,
-  "GroupQuoteLinesBy": 869,
-  "SortGroupLinesBy": 959,
+  "DefaultQuoteValidity": 164,
+  "QuoteLinesTemplate": 791,
+  "ConfirmationLinesTemplate": 641,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 961,
+  "MinEarningPercent": 127,
+  "GroupQuoteLinesBy": 297,
+  "SortGroupLinesBy": 301,
   "Stages": [
     {
-      "Id": 43,
-      "Name": "Windler Group",
-      "ToolTip": "Accusantium magnam itaque mollitia expedita magni.",
+      "Id": 967,
+      "Name": "Mertz-Hermann",
+      "ToolTip": "Quisquam facilis.",
       "Deleted": false,
-      "Rank": 149,
-      "Type": "praesentium",
-      "ColorBlock": 191,
-      "IconHint": "laboriosam",
-      "Selected": true,
-      "LastChanged": "2011-09-20T15:29:31.586974+02:00",
+      "Rank": 662,
+      "Type": "eos",
+      "ColorBlock": 983,
+      "IconHint": "maiores",
+      "Selected": false,
+      "LastChanged": "2003-12-04T03:51:34.9426529+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nesciunt",
-      "StyleHint": "minima",
+      "ExtraInfo": "soluta",
+      "StyleHint": "rerum",
       "Hidden": true,
-      "FullName": "Mrs. Joshuah Greenholt",
+      "FullName": "Federico Kasey Jaskolski DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldLength": 253
         }
       }
     }
@@ -147,8 +147,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldType": "System.String",
+      "FieldLength": 212
     }
   }
 }

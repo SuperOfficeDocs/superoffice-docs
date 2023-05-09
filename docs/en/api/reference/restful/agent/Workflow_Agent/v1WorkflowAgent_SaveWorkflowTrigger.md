@@ -68,27 +68,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 419,
-  "WorkflowId": 39,
+  "WorkflowTriggerId": 152,
+  "WorkflowId": 743,
   "TriggerType": "AddToList",
   "RestrictionGroups": [
     {
-      "Name": "Kohler, Wiza and Bernhard",
-      "Description": "Future-proofed discrete artificial intelligence",
-      "Rank": 599,
+      "Name": "Greenfelder, Labadie and Kassulke",
+      "Description": "Centralized fresh-thinking secured line",
+      "Rank": 156,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kohler, Wiza and Bernhard",
-      "Description": "Future-proofed discrete artificial intelligence",
-      "Rank": 599,
+      "Name": "Greenfelder, Labadie and Kassulke",
+      "Description": "Centralized fresh-thinking secured line",
+      "Rank": 156,
       "Restrictions": [
         {},
         {}
@@ -105,23 +105,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 398,
-  "WorkflowId": 405,
+  "WorkflowTriggerId": 83,
+  "WorkflowId": 119,
   "TriggerType": "AddToList",
   "RestrictionGroups": [
     {
-      "Name": "D'Amore Inc and Sons",
-      "Description": "Open-source system-worthy protocol",
-      "Rank": 183,
+      "Name": "Gaylord Inc and Sons",
+      "Description": "Focused dynamic installation",
+      "Rank": 945,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "D'Amore Inc and Sons",
-      "Description": "Open-source system-worthy protocol",
-      "Rank": 183,
+      "Name": "Gaylord Inc and Sons",
+      "Description": "Focused dynamic installation",
+      "Rank": 945,
       "Restrictions": [
         {},
         {}
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldLength": 204
     }
   }
 }

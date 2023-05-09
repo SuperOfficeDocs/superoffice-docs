@@ -82,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 324,
-    "Section": "recusandae",
-    "Key": "eius",
-    "Name": "Friesen-Reilly",
+    "PrefDescId": 757,
+    "Section": "distinctio",
+    "Key": "est",
+    "Name": "Corwin-Kassulke",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Open-architected background knowledge base",
-    "IsBuiltin": true,
-    "TableName": "Wunsch, Stokes and Marks",
-    "UserDefinedListId": 981,
-    "Rank": 815,
-    "SubGroup": "cupiditate",
-    "MinLevel": 373,
-    "MaxValue": 444,
-    "MinValue": 394,
-    "RequiredLicense": "et",
+    "Description": "Optimized multi-tasking installation",
+    "IsBuiltin": false,
+    "TableName": "Larson Group",
+    "UserDefinedListId": 789,
+    "Rank": 353,
+    "SubGroup": "accusamus",
+    "MinLevel": 535,
+    "MaxValue": 920,
+    "MinValue": 689,
+    "RequiredLicense": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 484
       }
     }
   }

@@ -102,38 +102,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 157,
-  "PlainMessage": "esse",
-  "HtmlMessage": "consequuntur",
-  "SmsMessage": "non",
-  "Description": "Synergized non-volatile moratorium",
-  "Subject": "cumque",
-  "FolderId": 474,
-  "HeaderField": "maxime",
-  "Design": "voluptate",
+  "ShipmentMessageId": 302,
+  "PlainMessage": "dolores",
+  "HtmlMessage": "quis",
+  "SmsMessage": "reiciendis",
+  "Description": "Enterprise-wide optimizing initiative",
+  "Subject": "et",
+  "FolderId": 901,
+  "HeaderField": "molestiae",
+  "Design": "quasi",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Horizontal transitional groupware",
-  "AccessKey": "possimus",
-  "DocumentMessage": 844,
-  "Registered": "2014-04-16T15:29:30.6244873+02:00",
-  "RegisteredAssociateId": 511,
-  "Updated": "1997-06-04T15:29:30.6244873+02:00",
-  "UpdatedAssociateId": 773,
-  "UpdatedCount": 948,
+  "InlineImages": false,
+  "LongDescription": "Networked explicit matrices",
+  "AccessKey": "maiores",
+  "DocumentMessage": 555,
+  "Registered": "1996-10-17T03:51:34.0208828+02:00",
+  "RegisteredAssociateId": 519,
+  "Updated": "1996-07-14T03:51:34.0208828+02:00",
+  "UpdatedAssociateId": 205,
+  "UpdatedCount": 567,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldType": "System.String",
+      "FieldLength": 466
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

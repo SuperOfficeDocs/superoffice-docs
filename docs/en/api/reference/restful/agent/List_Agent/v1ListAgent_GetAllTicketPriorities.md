@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,60 +115,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 442,
-    "Name": "Abbott Inc and Sons",
+    "TicketPriorityId": 851,
+    "Name": "Ritchie, Predovic and Shields",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 317,
+    "SortOrder": 388,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 435,
-    "MonStart": "2003-04-02T15:29:21.9653087+02:00",
-    "MonStop": "1996-09-14T15:29:21.9653087+02:00",
-    "TueStart": "2000-01-05T15:29:21.9653087+01:00",
-    "TueStop": "2022-05-26T15:29:21.9653087+02:00",
-    "WedStart": "1996-01-23T15:29:21.9653087+01:00",
-    "WedStop": "2015-07-01T15:29:21.9653087+02:00",
-    "ThuStart": "2001-06-17T15:29:21.9653087+02:00",
-    "ThuStop": "2021-03-23T15:29:21.9653087+01:00",
-    "FriStart": "2017-10-26T15:29:21.9653087+02:00",
-    "FriStop": "1996-10-15T15:29:21.9653087+02:00",
-    "SatStart": "2009-11-13T15:29:21.9653087+01:00",
-    "SatStop": "2017-09-08T15:29:21.9653087+02:00",
-    "SunStart": "2004-03-11T15:29:21.9653087+01:00",
-    "SunStop": "2017-08-10T15:29:21.9653087+02:00",
+    "Deadline": 622,
+    "MonStart": "1999-06-18T03:51:27.3810657+02:00",
+    "MonStop": "2014-12-21T03:51:27.3810657+01:00",
+    "TueStart": "2009-03-27T03:51:27.3810657+01:00",
+    "TueStop": "2017-01-21T03:51:27.3810657+01:00",
+    "WedStart": "2013-10-19T03:51:27.3810657+02:00",
+    "WedStop": "2003-10-07T03:51:27.3810657+02:00",
+    "ThuStart": "2005-04-24T03:51:27.3810657+02:00",
+    "ThuStop": "2018-11-15T03:51:27.3810657+01:00",
+    "FriStart": "2011-02-14T03:51:27.3810657+01:00",
+    "FriStop": "2001-02-11T03:51:27.3810657+01:00",
+    "SatStart": "2000-03-31T03:51:27.3810657+02:00",
+    "SatStop": "2005-02-17T03:51:27.3810657+01:00",
+    "SunStart": "2007-12-21T03:51:27.3810657+01:00",
+    "SunStop": "1996-05-24T03:51:27.3810657+02:00",
     "NonDates": [
-      "natus",
-      "et"
+      "molestias",
+      "dolor"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 476,
-        "AlertLevel": 487,
-        "AlertTimeout": 563,
-        "Action": 631,
-        "DelegateTo": 895,
-        "ScriptId": 364,
-        "EmailTo": "timothy@reichert.ca",
-        "SmsTo": "dolor",
-        "ReplyTemplateIdCustomer": 819,
-        "ReplyTemplateIdUser": 620,
-        "ReplyTemplateIdCatmast": 654,
-        "ReplyTemplateIdEmail": 669,
-        "RtiCustomerSms": 57,
-        "ReplyTemplateIdUserSms": 751,
-        "ReplyTemplateIdCatmastSms": 504,
-        "ReplyTemplateIdSms": 854,
+        "TicketAlertId": 739,
+        "AlertLevel": 832,
+        "AlertTimeout": 816,
+        "Action": 109,
+        "DelegateTo": 598,
+        "ScriptId": 991,
+        "EmailTo": "zechariah.reynolds@walshmarquardt.us",
+        "SmsTo": "est",
+        "ReplyTemplateIdCustomer": 350,
+        "ReplyTemplateIdUser": 699,
+        "ReplyTemplateIdCatmast": 764,
+        "ReplyTemplateIdEmail": 756,
+        "RtiCustomerSms": 504,
+        "ReplyTemplateIdUserSms": 936,
+        "ReplyTemplateIdCatmastSms": 938,
+        "ReplyTemplateIdSms": 844,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 340
+            "FieldLength": 272
           }
         }
       }
@@ -178,7 +178,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 97
+        "FieldLength": 145
       }
     }
   }

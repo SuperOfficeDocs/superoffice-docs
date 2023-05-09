@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 323,
-    "Name": "Runolfsson-Gottlieb",
-    "Tooltip": "aut",
-    "Rank": 661,
-    "Key": "eos",
+    "LegalBaseId": 612,
+    "Name": "Padberg Inc and Sons",
+    "Tooltip": "incidunt",
+    "Rank": 962,
+    "Key": "accusamus",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 559
+        "FieldType": "System.Int32",
+        "FieldLength": 116
       }
     }
   }

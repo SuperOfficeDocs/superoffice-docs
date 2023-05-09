@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 482,
-  "LanguageId": 214
+  "ReplyTemplateId": 172,
+  "LanguageId": 184
 }
 ```
 
@@ -95,35 +95,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 794,
-  "PlainParsed": "eius",
-  "HtmlParsed": "occaecati",
+  "ReplyTemplateId": 741,
+  "PlainParsed": "eos",
+  "HtmlParsed": "quos",
   "Attachments": [
     {
-      "AttachmentId": 103,
-      "Name": "White Group",
-      "ContentType": "cumque",
-      "AttSize": 524,
-      "InlineImage": true,
-      "ContentId": "quas",
-      "AuthKey": "sed",
+      "AttachmentId": 902,
+      "Name": "Boehm-Volkman",
+      "ContentType": "qui",
+      "AttSize": 463,
+      "InlineImage": false,
+      "ContentId": "qui",
+      "AuthKey": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldLength": 3
         }
       }
     }
   ],
-  "Subject": "doloremque",
+  "Subject": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 314
+      "FieldType": "System.Int32",
+      "FieldLength": 285
     }
   }
 }

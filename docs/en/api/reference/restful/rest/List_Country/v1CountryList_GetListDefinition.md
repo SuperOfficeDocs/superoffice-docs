@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 271,
-  "Name": "Huels, Lindgren and Dach",
-  "Tooltip": "repellendus",
+  "Id": 818,
+  "Name": "Parker-McKenzie",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 365,
+  "Rank": 185,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "similique",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "maiores",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 253
+      "FieldType": "System.Int32",
+      "FieldLength": 711
     }
   },
   "_Links": {

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Eichmann-Mertz",
-    "ToolTip": "Molestiae et et fuga et modi ut.",
+    "Id": 21,
+    "Name": "Treutel LLC",
+    "ToolTip": "Pariatur quasi ut voluptas dolores illum deleniti ullam.",
     "Deleted": true,
-    "Rank": 184,
-    "Type": "placeat",
-    "ColorBlock": 153,
-    "IconHint": "quia",
+    "Rank": 877,
+    "Type": "earum",
+    "ColorBlock": 920,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2000-04-17T15:29:31.597474+02:00",
+    "LastChanged": "2023-01-03T03:51:34.9582718+01:00",
     "ChildItems": [
       {
-        "Id": 713,
-        "Name": "Dibbert LLC",
-        "ToolTip": "Unde voluptas id voluptatem inventore eaque molestiae.",
-        "Deleted": false,
-        "Rank": 607,
-        "Type": "doloribus",
-        "ColorBlock": 815,
-        "IconHint": "atque",
+        "Id": 942,
+        "Name": "Conroy LLC",
+        "ToolTip": "Exercitationem recusandae animi consequatur.",
+        "Deleted": true,
+        "Rank": 89,
+        "Type": "illo",
+        "ColorBlock": 410,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2000-08-24T15:29:31.5979718+02:00",
+        "LastChanged": "2017-04-16T03:51:34.9582718+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Mr. Skyla Stan Runte III"
+        "ExtraInfo": "iusto",
+        "StyleHint": "voluptates",
+        "Hidden": true,
+        "FullName": "Lera Shanahan V"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "nemo",
-    "Hidden": true,
-    "FullName": "Claude Lubowitz"
+    "ExtraInfo": "molestias",
+    "StyleHint": "nobis",
+    "Hidden": false,
+    "FullName": "Anissa Gregoria Johnston IV"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 95,
-    "Name": "Cole Group",
-    "ToolTip": "Pariatur ipsum non qui voluptas aperiam.",
+    "Id": 131,
+    "Name": "Crooks-Dietrich",
+    "ToolTip": "Error sint omnis ratione.",
     "Deleted": false,
-    "Rank": 85,
-    "Type": "voluptatem",
-    "ColorBlock": 253,
-    "IconHint": "praesentium",
+    "Rank": 321,
+    "Type": "maxime",
+    "ColorBlock": 446,
+    "IconHint": "aperiam",
     "Selected": false,
-    "LastChanged": "2000-10-22T15:29:31.598974+02:00",
+    "LastChanged": "2013-08-25T03:51:34.9582718+02:00",
     "ChildItems": [
       {
-        "Id": 776,
-        "Name": "Hagenes-Kihn",
-        "ToolTip": "Vel voluptatem esse aliquam.",
+        "Id": 218,
+        "Name": "Williamson-Spencer",
+        "ToolTip": "Error odio illo earum odio.",
         "Deleted": false,
-        "Rank": 290,
-        "Type": "et",
-        "ColorBlock": 205,
-        "IconHint": "aperiam",
-        "Selected": false,
-        "LastChanged": "2007-03-01T15:29:31.598974+01:00",
+        "Rank": 360,
+        "Type": "saepe",
+        "ColorBlock": 763,
+        "IconHint": "quam",
+        "Selected": true,
+        "LastChanged": "2007-03-27T03:51:34.9582718+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "itaque",
-        "Hidden": true,
-        "FullName": "Dr. Dorian Cummings Sr.",
+        "ExtraInfo": "in",
+        "StyleHint": "blanditiis",
+        "Hidden": false,
+        "FullName": "Edd Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 67
+            "FieldLength": 63
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "eos",
+    "ExtraInfo": "placeat",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Alana Kale Bogisich MD",
+    "FullName": "Miss Eino Ottis Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 537
       }
     }
   }

@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 880
+  "ProjectId": 295
 }
 ```
 
@@ -135,53 +135,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 568,
-  "StartDate": "2007-07-22T15:29:22.4668012+02:00",
-  "EndDate": "1996-05-13T15:29:22.4668012+02:00",
+  "AppointmentId": 499,
+  "StartDate": "2000-12-24T03:51:27.9278166+01:00",
+  "EndDate": "2020-02-20T03:51:27.9278166+01:00",
   "Type": "BookingForChecklist",
-  "Task": "non",
-  "AssociateFullName": "Aron Lueilwitz MD",
-  "ContactName": "Jakubowski, Raynor and Corkery",
-  "Description": "Enterprise-wide encompassing pricing structure",
-  "PersonFullName": "Earnestine Klein",
-  "PersonId": 1001,
-  "ContactId": 457,
-  "ProjectId": 683,
-  "ProjectName": "Hilpert, Osinski and Bruen",
-  "IsPublished": true,
-  "AssociateId": 774,
-  "ColorIndex": 935,
+  "Task": "doloremque",
+  "AssociateFullName": "Florine Metz",
+  "ContactName": "Johnston, Mueller and Kuhn",
+  "Description": "Triple-buffered tertiary support",
+  "PersonFullName": "Abbigail Runolfsson",
+  "PersonId": 67,
+  "ContactId": 738,
+  "ProjectId": 477,
+  "ProjectName": "Schoen, Wolf and Ledner",
+  "IsPublished": false,
+  "AssociateId": 410,
+  "ColorIndex": 812,
   "IsFree": false,
-  "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "HasAlarm": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 724,
-  "PriorityName": "Prosacco Group",
+  "PriorityId": 631,
+  "PriorityName": "Schulist-Ruecker",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2008-01-03T15:29:22.4673027+01:00",
+  "ActiveDate": "1999-02-09T03:51:27.943438+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2020-10-19T15:29:22.4673027+02:00",
-  "RecurringEndDate": "2019-10-16T15:29:22.4673027+02:00",
-  "MotherId": 249,
-  "AssignedBy": 775,
-  "AssignedByFullName": "Prof. Jermain Freeda Bogan II",
+  "RecurringStartDate": "2015-08-15T03:51:27.943438+02:00",
+  "RecurringEndDate": "2016-08-24T03:51:27.943438+02:00",
+  "MotherId": 426,
+  "AssignedBy": 15,
+  "AssignedByFullName": "Katrine McClure",
   "RejectReason": "",
-  "Location": "in",
-  "AlarmLeadTime": "sunt",
-  "SaleId": 740,
-  "SaleName": "McLaughlin-Macejkovic",
-  "AssociateName": "Reichert Inc and Sons",
-  "CreatedDate": "1997-01-14T15:29:22.4678036+01:00",
-  "CreatedBy": "sunt",
-  "CreatedByFullName": "Jasper Batz",
-  "CreatedByAssociateId": 560,
+  "Location": "id",
+  "AlarmLeadTime": "nulla",
+  "SaleId": 661,
+  "SaleName": "Kuphal-Yost",
+  "AssociateName": "Bednar-Emmerich",
+  "CreatedDate": "2008-09-07T03:51:27.943438+02:00",
+  "CreatedBy": "sit",
+  "CreatedByFullName": "Hazle Hyatt",
+  "CreatedByAssociateId": 951,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 864
     }
   }
 }

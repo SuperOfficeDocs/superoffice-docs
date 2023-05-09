@@ -85,7 +85,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,64 +95,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 182,
-  "Caption": "delectus",
-  "Description": "Reverse-engineered disintermediate toolset",
-  "ChartName": "Yundt Group",
-  "ChartId": "ut",
-  "IsDefault": false,
-  "AssociateId": 981,
-  "GroupId": 43,
-  "SelectionId": 502,
-  "Config": "illo",
+  "DashboardTileId": 412,
+  "Caption": "unde",
+  "Description": "Re-contextualized heuristic parallelism",
+  "ChartName": "Erdman, Schneider and Hand",
+  "ChartId": "cum",
+  "IsDefault": true,
+  "AssociateId": 897,
+  "GroupId": 89,
+  "SelectionId": 842,
+  "Config": "non",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Upton-Herman",
-      "Description": "Fully-configurable bottom-line Graphical User Interface",
+      "Name": "Konopelski-Bergstrom",
+      "Description": "Pre-emptive background encryption",
       "Type": "Boolean",
-      "ListName": "Johnson Inc and Sons",
+      "ListName": "Keeling-Waters",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quidem",
-      "DefaultDataOption": false,
+      "Value": "consequatur",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 804
+          "FieldType": "System.Int32",
+          "FieldLength": 290
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 601,
+      "VisibleId": 289,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldType": "System.String",
+          "FieldLength": 9
         }
       }
     },
     {
-      "VisibleId": 601,
+      "VisibleId": 289,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldType": "System.String",
+          "FieldLength": 9
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 774
+      "FieldType": "System.Int32",
+      "FieldLength": 876
     }
   },
   "_Links": {

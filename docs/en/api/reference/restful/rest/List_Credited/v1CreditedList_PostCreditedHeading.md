@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 501,
-  "Name": "Blick LLC",
-  "Tooltip": "porro",
+  "HeadingId": 876,
+  "Name": "Toy Inc and Sons",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 702,
-  "UdListDefinitionId": 350
+  "Rank": 398,
+  "UdListDefinitionId": 862
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 260,
-  "Name": "Ritchie Group",
-  "Tooltip": "labore",
-  "Deleted": false,
-  "Rank": 709,
-  "UdListDefinitionId": 866,
+  "HeadingId": 151,
+  "Name": "Wyman, Casper and Leffler",
+  "Tooltip": "ipsum",
+  "Deleted": true,
+  "Rank": 546,
+  "UdListDefinitionId": 919,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldType": "System.String",
+      "FieldLength": 436
     }
   }
 }

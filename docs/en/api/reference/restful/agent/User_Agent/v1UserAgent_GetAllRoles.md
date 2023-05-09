@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Gusikowski Inc and Sons",
-    "ToolTip": "Ut eum natus at quod saepe qui in.",
+    "Id": 228,
+    "Name": "Walker-Raynor",
+    "ToolTip": "Repellendus harum dolore.",
     "Deleted": false,
-    "Rank": 683,
-    "Type": "hic",
-    "ColorBlock": 508,
-    "IconHint": "consequatur",
+    "Rank": 596,
+    "Type": "vel",
+    "ColorBlock": 888,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2001-07-07T15:29:23.3362542+02:00",
+    "LastChanged": "2020-12-24T03:51:28.474562+01:00",
     "ChildItems": [
       {
-        "Id": 876,
-        "Name": "Lebsack Group",
-        "ToolTip": "Vero dolorem.",
+        "Id": 356,
+        "Name": "Schiller Inc and Sons",
+        "ToolTip": "Molestiae ad ullam doloribus quibusdam.",
         "Deleted": false,
-        "Rank": 670,
-        "Type": "tenetur",
-        "ColorBlock": 318,
-        "IconHint": "incidunt",
-        "Selected": true,
-        "LastChanged": "2019-05-01T15:29:23.3362542+02:00",
+        "Rank": 52,
+        "Type": "voluptatibus",
+        "ColorBlock": 173,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2013-02-28T03:51:28.474562+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Maida Gleichner",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "magnam",
+        "Hidden": false,
+        "FullName": "Mallie Collins Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 930
+            "FieldType": "System.Int32",
+            "FieldLength": 406
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Jettie Adams",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Wilton Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldType": "System.String",
+        "FieldLength": 255
       }
     }
   }

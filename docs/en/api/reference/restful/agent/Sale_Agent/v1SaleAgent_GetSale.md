@@ -25,7 +25,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=184
+POST /api/v1/Agents/Sale/GetSale?saleId=484
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -100,37 +100,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Koelpin-Pacocha",
-  "SaleDate": "2002-03-24T15:29:22.6867969+01:00",
-  "SaleId": 315,
-  "Probability": 421,
-  "Title": "aliquam",
-  "Amount": 27870.662,
-  "Currency": "odit",
-  "ProjectName": "Stehr, Runolfsson and Effertz",
-  "AssociateFullName": "Johnny Corwin",
-  "Description": "Grass-roots next generation model",
+  "ContactName": "Ryan-Botsford",
+  "SaleDate": "1996-07-04T03:51:28.0996448+02:00",
+  "SaleId": 874,
+  "Probability": 152,
+  "Title": "dolor",
+  "Amount": 10433.086,
+  "Currency": "veritatis",
+  "ProjectName": "Morissette, Heaney and Gerlach",
+  "AssociateFullName": "Theresa Rice",
+  "Description": "Mandatory zero tolerance architecture",
   "Status": "Lost",
-  "WeightedAmount": 14472.812,
-  "ProjectId": 773,
-  "EarningPercent": 14936.644,
-  "Earning": 6631.544,
-  "ContactId": 905,
-  "AssociateId": 947,
-  "PersonId": 522,
-  "SaleTypeId": 968,
-  "SaleTypeName": "Grimes, Buckridge and Hammes",
-  "PersonFullName": "Miss Vern Ullrich DVM",
+  "WeightedAmount": 16575.726,
+  "ProjectId": 224,
+  "EarningPercent": 14529.224,
+  "Earning": 18509.404,
+  "ContactId": 874,
+  "AssociateId": 314,
+  "PersonId": 791,
+  "SaleTypeId": 519,
+  "SaleTypeName": "Maggio Inc and Sons",
+  "PersonFullName": "Karson Macejkovic",
   "Completed": "Completed",
-  "ActiveErpLinks": 91,
-  "NextDueDate": "2009-04-01T15:29:22.6873041+02:00",
-  "Number": "1616538",
+  "ActiveErpLinks": 172,
+  "NextDueDate": "2015-07-04T03:51:28.0996448+02:00",
+  "Number": "1062041",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 220
     }
   }
 }

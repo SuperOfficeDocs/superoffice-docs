@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 260,
-  "Section": "accusamus",
-  "Key": "sequi",
-  "Name": "Mayer Inc and Sons",
+  "PrefDescId": 217,
+  "Section": "qui",
+  "Key": "sint",
+  "Name": "Hintz LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-layered optimal conglomeration",
+  "Description": "Networked multimedia service-desk",
   "IsBuiltin": false,
-  "TableName": "O'Keefe LLC",
-  "UserDefinedListId": 583,
-  "Rank": 397,
-  "SubGroup": "ducimus",
-  "MinLevel": 360,
-  "MaxValue": 745,
-  "MinValue": 136,
-  "RequiredLicense": "corrupti",
+  "TableName": "Fay LLC",
+  "UserDefinedListId": 538,
+  "Rank": 341,
+  "SubGroup": "sit",
+  "MinLevel": 62,
+  "MaxValue": 856,
+  "MinValue": 124,
+  "RequiredLicense": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 780
+      "FieldType": "System.Int32",
+      "FieldLength": 820
     }
   }
 }

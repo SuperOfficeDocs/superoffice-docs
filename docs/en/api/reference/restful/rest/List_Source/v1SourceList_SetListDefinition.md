@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 883,
-  "Name": "Reichel, Konopelski and Herzog",
-  "Tooltip": "expedita",
-  "Deleted": false,
-  "Rank": 398,
+  "Id": 201,
+  "Name": "Osinski LLC",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "Rank": 391,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 718,
-  "Name": "Lebsack Inc and Sons",
-  "Tooltip": "omnis",
+  "Id": 99,
+  "Name": "Conn-Johnston",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 633,
+  "Rank": 340,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 960
     }
   }
 }
