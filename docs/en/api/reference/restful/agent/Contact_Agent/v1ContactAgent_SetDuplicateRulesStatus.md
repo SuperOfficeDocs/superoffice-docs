@@ -69,16 +69,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Jacobi-Rippin",
-      "DisplayName": "Von-Hirthe",
-      "DisplayTooltip": "sint",
-      "IsActive": false
+      "Name": "Kulas Group",
+      "DisplayName": "Bernhard-Botsford",
+      "DisplayTooltip": "sed",
+      "IsActive": true
     },
     {
-      "Name": "Jacobi-Rippin",
-      "DisplayName": "Von-Hirthe",
-      "DisplayTooltip": "sint",
-      "IsActive": false
+      "Name": "Kulas Group",
+      "DisplayName": "Bernhard-Botsford",
+      "DisplayTooltip": "sed",
+      "IsActive": true
     }
   ]
 }

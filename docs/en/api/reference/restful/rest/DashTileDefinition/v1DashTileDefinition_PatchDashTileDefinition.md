@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "quas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "quas",
     "value": {}
   }
 ]
@@ -149,31 +149,31 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 240,
-  "Name": "Glover LLC",
-  "Description": "Innovative tertiary interface",
-  "DefaultHeight": 517,
-  "DefaultWidth": 279,
+  "DashboardTileDefinitionId": 298,
+  "Name": "Hessel, Zboncak and Bednar",
+  "Description": "Enterprise-wide didactic secured line",
+  "DefaultHeight": 13,
+  "DefaultWidth": 497,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hickle-Von",
-  "SelectionId": 42,
+  "EntityName": "Auer Group",
+  "SelectionId": 359,
   "CurrencyMode": "Base",
-  "CurrencyCode": "eum",
+  "CurrencyCode": "mollitia",
   "Measure": "Average",
-  "MeasureField": "expedita",
-  "SortBy": "aliquid",
-  "LayoutConfig": "rem",
-  "SecondarySelectionId": 855,
-  "MeasureByField": "asperiores",
+  "MeasureField": "et",
+  "SortBy": "necessitatibus",
+  "LayoutConfig": "autem",
+  "SecondarySelectionId": 744,
+  "MeasureByField": "possimus",
   "Usage": "Dashboard",
-  "ProviderName": "Kerluke Group",
+  "ProviderName": "Nitzsche, Wisozk and Waelchi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldType": "System.String",
+      "FieldLength": 723
     }
   },
   "_Links": {

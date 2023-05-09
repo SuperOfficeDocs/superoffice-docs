@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 677,
-    "Name": "Bahringer LLC",
-    "Tooltip": "accusantium",
-    "Deleted": false,
-    "Rank": 690,
-    "UdListDefinitionId": 353,
+    "HeadingId": 156,
+    "Name": "Pouros-Nicolas",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 45,
+    "UdListDefinitionId": 990,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldLength": 679
       }
     }
   }

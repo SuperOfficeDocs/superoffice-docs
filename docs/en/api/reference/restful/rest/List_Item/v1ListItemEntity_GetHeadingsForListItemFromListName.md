@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Kuvalis-Wolff",
-    "ToolTip": "Quo ut repellat omnis aut amet ut.",
-    "Deleted": true,
-    "Rank": 403,
-    "Type": "quia",
-    "ColorBlock": 864,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2013-08-29T15:29:31.0504464+02:00",
+    "Id": 357,
+    "Name": "Harris, Koch and Becker",
+    "ToolTip": "Harum voluptatem.",
+    "Deleted": false,
+    "Rank": 902,
+    "Type": "facere",
+    "ColorBlock": 268,
+    "IconHint": "natus",
+    "Selected": false,
+    "LastChanged": "2001-02-05T03:51:34.3646689+01:00",
     "ChildItems": [
       {
-        "Id": 542,
-        "Name": "McKenzie Inc and Sons",
-        "ToolTip": "Et unde qui.",
+        "Id": 506,
+        "Name": "Heaney-Collins",
+        "ToolTip": "Consectetur qui commodi.",
         "Deleted": false,
-        "Rank": 306,
-        "Type": "sed",
-        "ColorBlock": 63,
-        "IconHint": "tempore",
-        "Selected": false,
-        "LastChanged": "2020-12-20T15:29:31.0504464+01:00",
+        "Rank": 889,
+        "Type": "quibusdam",
+        "ColorBlock": 305,
+        "IconHint": "hic",
+        "Selected": true,
+        "LastChanged": "2006-05-24T03:51:34.3646689+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "commodi",
-        "Hidden": false,
-        "FullName": "Eileen Clara Kreiger PhD",
+        "ExtraInfo": "quae",
+        "StyleHint": "sequi",
+        "Hidden": true,
+        "FullName": "Prof. Neha Koby Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 792
+            "FieldLength": 763
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "temporibus",
-    "Hidden": false,
-    "FullName": "Dr. Cleve Dan Treutel V",
+    "ExtraInfo": "ut",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Prof. Hattie Alayna Marks III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 736
       }
     }
   }

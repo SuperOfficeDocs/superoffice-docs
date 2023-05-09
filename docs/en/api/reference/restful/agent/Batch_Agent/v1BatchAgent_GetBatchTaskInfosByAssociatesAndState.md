@@ -99,8 +99,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    230,
-    81
+    369,
+    73
   ],
   "State": "All"
 }
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Gorczany LLC",
-    "AssociateId": 25,
-    "DetailsTable": 662,
-    "DetailsRecord": 445,
+    "Id": 994,
+    "Name": "Cassin-Wisoky",
+    "AssociateId": 895,
+    "DetailsTable": 187,
+    "DetailsRecord": 759,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ullam",
-      "ParameterObject2": "tempore"
+      "ParameterObject1": "ipsum",
+      "ParameterObject2": "quas"
     },
-    "LastStarted": "2009-01-16T15:29:20.8267892+01:00",
-    "Created": "2006-11-28T15:29:20.8267892+01:00",
-    "StartCount": 733,
-    "DatabaseSerialNumber": "828830",
-    "Context": "ea",
-    "Result": "officiis",
+    "LastStarted": "2010-02-13T03:51:26.6156255+01:00",
+    "Created": "2020-05-01T03:51:26.6156255+02:00",
+    "StartCount": 167,
+    "DatabaseSerialNumber": "1262606",
+    "Context": "qui",
+    "Result": "molestias",
     "State": "All",
-    "Description": "Total systemic conglomeration",
-    "Response": "aut",
-    "Request": "modi",
-    "ProgressDescription": "Profit-focused reciprocal conglomeration",
-    "ProgressPercent": 465,
-    "FileName": "Hoeger-Davis",
+    "Description": "Devolved secondary ability",
+    "Response": "magni",
+    "Request": "magnam",
+    "ProgressDescription": "Networked static solution",
+    "ProgressPercent": 361,
+    "FileName": "Vandervort-Treutel",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldType": "System.String",
+        "FieldLength": 809
       }
     }
   }

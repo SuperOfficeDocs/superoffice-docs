@@ -28,8 +28,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=provident
-GET /api/v1/Webhook?eventFilter=est
+GET /api/v1/Webhook?nameFilter=enim
+GET /api/v1/Webhook?eventFilter=velit
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 723,
-    "Name": "Bashirian-Leannon",
+    "WebhookId": 302,
+    "Name": "Feil Inc and Sons",
     "Events": [
-      "rerum",
-      "et"
+      "non",
+      "aut"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "ratione",
+    "Secret": "aut",
     "State": "Active",
-    "Type": "sunt",
+    "Type": "in",
     "Headers": {
-      "Headers1": "excepturi",
-      "Headers2": "fugit"
+      "Headers1": "quia",
+      "Headers2": "eius"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2012-02-23T15:29:31.0139825+01:00",
+    "Registered": "2008-08-22T03:51:34.3334209+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2002-02-24T15:29:31.0144848+01:00",
+    "Updated": "1998-04-09T03:51:34.3334209+02:00",
     "UpdatedAssociate": null
   }
 ]

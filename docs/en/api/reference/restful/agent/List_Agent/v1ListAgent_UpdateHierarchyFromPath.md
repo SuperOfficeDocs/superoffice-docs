@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "cumque",
+  "Path": "est",
   "Entity": null
 }
 ```
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 105,
+  "HierarchyId": 809,
   "Domain": "Dashboards",
-  "Name": "Considine Group",
-  "Fullname": "quo",
-  "ParentId": 282,
+  "Name": "Cruickshank, Trantow and Robel",
+  "Fullname": "laborum",
+  "ParentId": 12,
   "Children": [
     {
-      "HierarchyId": 90,
+      "HierarchyId": 508,
       "Domain": "Dashboards",
-      "Name": "McDermott LLC",
-      "Fullname": "ut",
-      "ParentId": 33,
+      "Name": "Rath, Bernhard and Bashirian",
+      "Fullname": "magni",
+      "ParentId": 788,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-09-20T15:29:22.0742709+02:00",
-      "RegisteredAssociateId": 491,
-      "Updated": "2005-08-13T15:29:22.0742709+02:00",
-      "UpdatedAssociateId": 142,
+      "Registered": "2011-02-20T03:51:27.4747952+01:00",
+      "RegisteredAssociateId": 962,
+      "Updated": "2003-07-18T03:51:27.4747952+02:00",
+      "UpdatedAssociateId": 53,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 20
+          "FieldLength": 377
         }
       }
     }
   ],
-  "Registered": "2004-04-06T15:29:22.0742709+02:00",
-  "RegisteredAssociateId": 76,
-  "Updated": "2004-10-11T15:29:22.0742709+02:00",
-  "UpdatedAssociateId": 154,
+  "Registered": "2003-04-25T03:51:27.4747952+02:00",
+  "RegisteredAssociateId": 957,
+  "Updated": "2003-05-13T03:51:27.4747952+02:00",
+  "UpdatedAssociateId": 689,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldLength": 968
     }
   }
 }

@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 660,
-    "Name": "Schoen-Murray",
-    "Description": "Extended encompassing database",
-    "DeltaJson": "error",
+    "ConfigurableScreenDeltaId": 799,
+    "Name": "Brekke LLC",
+    "Description": "Realigned background paradigm",
+    "DeltaJson": "recusandae",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "voluptas",
-    "UpdatedDate": "2013-08-07T15:29:21.0377856+02:00",
-    "CreatedDate": "2005-02-28T15:29:21.0377856+01:00",
+    "RecipeId": "quos",
+    "UpdatedDate": "2008-03-22T03:51:26.787455+01:00",
+    "CreatedDate": "2001-07-22T03:51:26.787455+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      612,
-      888
+      716,
+      457
     ],
-    "AppliesToKey": "quae",
+    "AppliesToKey": "iure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 803
+        "FieldType": "System.Int32",
+        "FieldLength": 452
       }
     }
   }

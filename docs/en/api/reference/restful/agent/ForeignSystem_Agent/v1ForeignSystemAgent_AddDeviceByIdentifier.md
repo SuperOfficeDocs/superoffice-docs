@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Grant Inc and Sons",
-  "DeviceName": "Tillman Inc and Sons",
-  "DeviceIdentifier": "quia"
+  "ApplicationName": "Beier-Hermann",
+  "DeviceName": "Torp-Zboncak",
+  "DeviceIdentifier": "quisquam"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 707,
-  "Name": "Murazik, Ryan and Gislason",
-  "CreatedDate": "2008-11-04T15:29:21.9178076+01:00",
-  "UpdatedDate": "2022-03-08T15:29:21.9178076+01:00",
-  "AssociateFullName": "Desiree Ullrich",
-  "CreatedBy": "aut",
-  "UpdatedBy": "in",
-  "DeviceIdentifier": "perferendis",
-  "ForeignAppId": 165,
+  "ForeignDeviceId": 219,
+  "Name": "Purdy Group",
+  "CreatedDate": "2017-01-19T03:51:27.3498217+01:00",
+  "UpdatedDate": "2021-02-18T03:51:27.3498217+01:00",
+  "AssociateFullName": "Modesto Botsford",
+  "CreatedBy": "quia",
+  "UpdatedBy": "officia",
+  "DeviceIdentifier": "earum",
+  "ForeignAppId": 648,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 477
+      "FieldType": "System.Int32",
+      "FieldLength": 683
     }
   }
 }

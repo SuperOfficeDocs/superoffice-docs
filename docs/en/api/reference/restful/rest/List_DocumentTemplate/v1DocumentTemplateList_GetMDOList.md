@@ -26,7 +26,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=omnis
+GET /api/v1/List/DocumentTemplate/MDOItems?query=illum
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Runolfsdottir Group",
-    "ToolTip": "Quo atque facere ducimus similique dolores.",
+    "Id": 24,
+    "Name": "Nicolas-Beier",
+    "ToolTip": "Quo est est iusto ipsum amet.",
     "Deleted": false,
-    "Rank": 376,
-    "Type": "iste",
+    "Rank": 894,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 230,
-        "Name": "Wisoky, Kerluke and Pfeffer",
-        "ToolTip": "Qui illo porro autem autem ullam quaerat.",
-        "Deleted": true,
-        "Rank": 231,
-        "Type": "facilis",
+        "Id": 442,
+        "Name": "Ratke-Marquardt",
+        "ToolTip": "Aut fugit veritatis voluptatem.",
+        "Deleted": false,
+        "Rank": 487,
+        "Type": "aliquid",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quis",
-        "ColorBlock": 757,
-        "ExtraInfo": "adipisci",
-        "StyleHint": "explicabo",
-        "FullName": "Miss Maurine Casimir Larkin",
+        "IconHint": "dolores",
+        "ColorBlock": 131,
+        "ExtraInfo": "repellendus",
+        "StyleHint": "consequatur",
+        "FullName": "Miss Kade Lemke MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 803
+            "FieldLength": 528
           }
         }
       }
     ],
-    "IconHint": "explicabo",
-    "ColorBlock": 360,
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "fugiat",
-    "FullName": "Theodore Kerluke",
+    "IconHint": "sint",
+    "ColorBlock": 33,
+    "ExtraInfo": "nam",
+    "StyleHint": "sit",
+    "FullName": "Clint Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 239
       }
     }
   }

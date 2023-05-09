@@ -104,52 +104,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Gerlach-Feest",
-  "ProviderName": "Schinner, Bergstrom and Upton",
+  "GuiName": "Thiel Group",
+  "ProviderName": "Deckow, Price and Sanford",
   "SortOrder": [
     {
-      "Name": "Bins-Macejkovic",
+      "Name": "Gerlach Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Bins-Macejkovic",
+      "Name": "Gerlach Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Kautzer, Harber and Dicki",
-      "Operator": "qui",
+      "Name": "Paucek LLC",
+      "Operator": "voluptatem",
       "Values": [
-        "ullam",
-        "ea"
+        "dolore",
+        "quis"
       ],
       "DisplayValues": [
-        "repellendus",
-        "corporis"
+        "consectetur",
+        "illo"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 990,
+      "InterParenthesis": 128,
       "InterOperator": "And",
-      "UniqueHash": 334
+      "UniqueHash": 844
     }
   ],
   "Entities": [
-    "et",
-    "vitae"
+    "magni",
+    "voluptates"
   ],
-  "Page": 225,
-  "PageSize": 87,
-  "Context": "nesciunt"
+  "Page": 164,
+  "PageSize": 154,
+  "Context": "sint"
 }
 ```
 
@@ -161,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Corwin, Price and Hammes",
-    "PrimaryKey": 962,
+    "EntityName": "Halvorson-Zulauf",
+    "PrimaryKey": 677,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sed",
-        "TooltipHint": "vel",
-        "LinkHint": "autem"
+        "DisplayValue": "quis",
+        "TooltipHint": "doloremque",
+        "LinkHint": "facere"
       }
     },
-    "LinkHint": "dolor",
-    "StyleHint": "ipsa",
+    "LinkHint": "at",
+    "StyleHint": "temporibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 892
+        "FieldLength": 493
       }
     }
   }

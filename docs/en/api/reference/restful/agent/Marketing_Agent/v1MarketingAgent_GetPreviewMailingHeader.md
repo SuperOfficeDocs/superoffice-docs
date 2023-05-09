@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 589
+  "ShipmentId": 295
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2004-02-07T15:29:22.1342701+01:00",
+  "StartDate": "2000-06-20T03:51:27.5060342+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 260,
-  "ShipmentDescription": "Realigned mobile approach",
-  "FromAddress": "beatae",
-  "PersonId": 916,
-  "PersonFullName": "Orland Kovacek",
-  "ShipmentType": "ex",
-  "MessageId": 341,
-  "MessageSubject": "cumque",
-  "DocumentMessageId": 674,
-  "NumSent": 740,
-  "NumOpened": 353,
-  "NumBounced": 327,
-  "NumClicks": 629,
+  "ShipmentId": 98,
+  "ShipmentDescription": "Stand-alone zero tolerance customer loyalty",
+  "FromAddress": "distinctio",
+  "PersonId": 843,
+  "PersonFullName": "Judge Emard",
+  "ShipmentType": "id",
+  "MessageId": 631,
+  "MessageSubject": "blanditiis",
+  "DocumentMessageId": 751,
+  "NumSent": 421,
+  "NumOpened": 15,
+  "NumBounced": 461,
+  "NumClicks": 369,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldLength": 490
     }
   }
 }

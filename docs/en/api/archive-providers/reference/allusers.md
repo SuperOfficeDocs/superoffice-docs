@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "AllUsers"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -93,7 +93,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AllUsers?$select=superoffice_admin-system-user,assocName,ejDisplayName
+GET /api/v1/archive/AllUsers?$select=superoffice_ten-salesservicemarketing,title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

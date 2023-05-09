@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Huel, Considine and Koelpin",
-    "ToolTip": "Nostrum ipsum aut qui.",
+    "Id": 818,
+    "Name": "Hegmann Group",
+    "ToolTip": "Quia aut qui praesentium labore quo.",
     "Deleted": false,
-    "Rank": 614,
-    "Type": "iste",
-    "ColorBlock": 442,
-    "IconHint": "aut",
+    "Rank": 447,
+    "Type": "id",
+    "ColorBlock": 674,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2013-04-11T15:29:31.5129755+02:00",
+    "LastChanged": "2014-12-14T03:51:34.8957999+01:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Robel, Rice and Roob",
-        "ToolTip": "Reiciendis expedita accusantium.",
+        "Id": 749,
+        "Name": "Schulist-Nikolaus",
+        "ToolTip": "Et iste provident.",
         "Deleted": false,
-        "Rank": 686,
-        "Type": "blanditiis",
-        "ColorBlock": 80,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2013-02-09T15:29:31.5129755+01:00",
+        "Rank": 94,
+        "Type": "eum",
+        "ColorBlock": 349,
+        "IconHint": "tempore",
+        "Selected": true,
+        "LastChanged": "1997-05-11T03:51:34.8957999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Pinkie Boyer II",
+        "ExtraInfo": "nihil",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "David Marquardt I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 202
+            "FieldType": "System.Int32",
+            "FieldLength": 552
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "fugiat",
-    "Hidden": true,
-    "FullName": "Marlon Lebsack DVM",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "corrupti",
+    "Hidden": false,
+    "FullName": "Erik Hailee Klocko II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 328
       }
     }
   }

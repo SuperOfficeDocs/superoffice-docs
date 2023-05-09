@@ -74,24 +74,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 554,
+  "TargetAssignmentInfoId": 75,
   "Values": [
-    709,
-    354
+    521,
+    916
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 984,
-  "DimensionListItemDisplayName": "Christiansen, Trantow and Shields",
+  "DimensionListItem": 285,
+  "DimensionListItemDisplayName": "Rutherford LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 66
     }
   }
 }

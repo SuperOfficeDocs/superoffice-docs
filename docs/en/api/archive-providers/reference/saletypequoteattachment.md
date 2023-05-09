@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleTypeQuoteAttachment"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -116,7 +116,7 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/associate/credentialType,document/ourref,document/documentPublish/publishedTo
+GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/ourref,document/documentPublish/publishedTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

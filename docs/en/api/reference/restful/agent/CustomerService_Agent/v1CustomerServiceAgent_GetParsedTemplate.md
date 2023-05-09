@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 448,
-  "LanguageId": 640,
-  "PersonId": 484,
-  "TicketId": 364
+  "ReplyTemplateId": 328,
+  "LanguageId": 396,
+  "PersonId": 322,
+  "TicketId": 152
 }
 ```
 
@@ -97,35 +97,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 599,
-  "PlainParsed": "veritatis",
-  "HtmlParsed": "expedita",
+  "ReplyTemplateId": 84,
+  "PlainParsed": "iusto",
+  "HtmlParsed": "at",
   "Attachments": [
     {
-      "AttachmentId": 730,
-      "Name": "Gleason, Goldner and Klocko",
-      "ContentType": "voluptas",
-      "AttSize": 515,
+      "AttachmentId": 575,
+      "Name": "Bahringer, Hermann and Morar",
+      "ContentType": "totam",
+      "AttSize": 481,
       "InlineImage": false,
-      "ContentId": "omnis",
-      "AuthKey": "aut",
+      "ContentId": "deserunt",
+      "AuthKey": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 435
         }
       }
     }
   ],
-  "Subject": "tenetur",
+  "Subject": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldType": "System.String",
+      "FieldLength": 506
     }
   }
 }

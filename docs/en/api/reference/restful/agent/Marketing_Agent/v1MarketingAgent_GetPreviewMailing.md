@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 161
+  "ShipmentAddrId": 550
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2006-07-06T15:29:22.1332708+02:00",
+  "SendingTime": "1999-11-28T03:51:27.5060342+01:00",
   "Status": "Blocked",
-  "ShipmentId": 343,
-  "ShipmentDescription": "Function-based intangible infrastructure",
-  "FromAddress": "provident",
-  "ContactId": 217,
-  "ContactName": "Boehm Group",
-  "PersonId": 932,
-  "PersonFullName": "Randal Patrick Hoppe PhD",
-  "ShipmentType": "maxime",
-  "MessageId": 170,
-  "MessageSubject": "sit",
-  "DocumentMessageId": 902,
-  "Opened": "2020-03-11T15:29:22.1337709+01:00",
-  "LinkClicks": 419,
+  "ShipmentId": 106,
+  "ShipmentDescription": "Enhanced heuristic benchmark",
+  "FromAddress": "et",
+  "ContactId": 204,
+  "ContactName": "Haley, Hartmann and Macejkovic",
+  "PersonId": 316,
+  "PersonFullName": "Prof. Allie Rogahn",
+  "ShipmentType": "voluptates",
+  "MessageId": 173,
+  "MessageSubject": "placeat",
+  "DocumentMessageId": 794,
+  "Opened": "2013-07-06T03:51:27.5060342+02:00",
+  "LinkClicks": 60,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldType": "System.String",
+      "FieldLength": 348
     }
   }
 }

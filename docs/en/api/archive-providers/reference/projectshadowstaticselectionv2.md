@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ProjectShadowStaticSelectionV2"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -746,7 +746,7 @@ Shadow contact provider for the static Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowStaticSelectionV2?$select=projectUdef/SuperOffice:1,sale/contactId,document/registeredDate,projectMember/postAddress/wgs84longitude,projectMember/contactExtra/x_contact_contact
+GET /api/v1/archive/ProjectShadowStaticSelectionV2?$select=updatedBy,imageThumbnail,activeErpLinks,projectEvent/hasSignOn,projectAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

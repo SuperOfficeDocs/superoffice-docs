@@ -73,9 +73,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 943,
+  "DocumentTemplateId": 526,
   "WritableUrl": false,
-  "LanguageCode": "voluptatem"
+  "LanguageCode": "nesciunt"
 }
 ```
 

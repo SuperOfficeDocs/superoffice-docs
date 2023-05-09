@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Selection/GenerateFollowUps
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 989,
+  "SelectionId": 633,
   "AppointmentEntity": null,
-  "AssociateId": 97,
-  "SaveOnContactOwner": false,
+  "AssociateId": 746,
+  "SaveOnContactOwner": true,
   "UniqueContact": false
 }
 ```

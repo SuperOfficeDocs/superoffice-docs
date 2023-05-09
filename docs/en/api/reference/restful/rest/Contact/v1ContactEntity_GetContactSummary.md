@@ -28,7 +28,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=283
+GET /api/v1/Contact/{contactId}/Summary?limit=592
 ```
 
 
@@ -84,79 +84,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 244,
-      "TicketStatus": 778,
-      "Title": "magnam",
-      "Registered": "2017-12-13T15:29:29.5792028+01:00",
+      "TicketId": 140,
+      "TicketStatus": 461,
+      "Title": "nesciunt",
+      "Registered": "2004-02-17T03:51:33.5366222+01:00",
       "IconHint": "maiores"
     },
     {
-      "TicketId": 244,
-      "TicketStatus": 778,
-      "Title": "magnam",
-      "Registered": "2017-12-13T15:29:29.5792028+01:00",
+      "TicketId": 140,
+      "TicketStatus": 461,
+      "Title": "nesciunt",
+      "Registered": "2004-02-17T03:51:33.5366222+01:00",
       "IconHint": "maiores"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 985,
-      "DocumentId": 157,
-      "Date": "2006-04-01T15:29:29.5792028+02:00",
-      "Description": "Business-focused system-worthy access",
+      "AppointmentId": 393,
+      "DocumentId": 331,
+      "Date": "2018-02-28T03:51:33.5366222+01:00",
+      "Description": "Pre-emptive user-facing circuit",
       "Completed": "Completed",
-      "Registered": "2006-03-29T15:29:29.5792028+02:00"
+      "Registered": "2007-01-02T03:51:33.5366222+01:00"
     },
     {
-      "AppointmentId": 985,
-      "DocumentId": 157,
-      "Date": "2006-04-01T15:29:29.5792028+02:00",
-      "Description": "Business-focused system-worthy access",
+      "AppointmentId": 393,
+      "DocumentId": 331,
+      "Date": "2018-02-28T03:51:33.5366222+01:00",
+      "Description": "Pre-emptive user-facing circuit",
       "Completed": "Completed",
-      "Registered": "2006-03-29T15:29:29.5792028+02:00"
+      "Registered": "2007-01-02T03:51:33.5366222+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 999,
-      "DocumentId": 272,
-      "Date": "2020-02-10T15:29:29.5792028+01:00",
-      "Description": "Object-based explicit conglomeration",
+      "AppointmentId": 757,
+      "DocumentId": 960,
+      "Date": "2009-10-02T03:51:33.5366222+02:00",
+      "Description": "Optional encompassing support",
       "Completed": "Completed",
-      "Registered": "2001-06-29T15:29:29.5792028+02:00"
+      "Registered": "2008-08-02T03:51:33.5366222+02:00"
     },
     {
-      "AppointmentId": 999,
-      "DocumentId": 272,
-      "Date": "2020-02-10T15:29:29.5792028+01:00",
-      "Description": "Object-based explicit conglomeration",
+      "AppointmentId": 757,
+      "DocumentId": 960,
+      "Date": "2009-10-02T03:51:33.5366222+02:00",
+      "Description": "Optional encompassing support",
       "Completed": "Completed",
-      "Registered": "2001-06-29T15:29:29.5792028+02:00"
+      "Registered": "2008-08-02T03:51:33.5366222+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 450,
-      "SaleDate": "2022-09-29T15:29:29.5792028+02:00",
-      "Probability": 930,
-      "Heading": "molestias",
-      "Amount": 26783.164,
-      "Currency": "odio",
-      "AmountInBaseCurrency": 22865.664,
+      "SaleId": 517,
+      "SaleDate": "1999-09-30T03:51:33.5366222+02:00",
+      "Probability": 140,
+      "Heading": "asperiores",
+      "Amount": 13162.8,
+      "Currency": "qui",
+      "AmountInBaseCurrency": 24946.64,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2001-08-29T15:29:29.5797043+02:00"
+      "Registered": "2021-04-29T03:51:33.5366222+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 919,
-      "Name": "Jakubowski, McClure and Wunsch",
-      "CompanyName": "Franecki-Nicolas",
+      "ChatSessionId": 69,
+      "Name": "Kunze Group",
+      "CompanyName": "Stanton Inc and Sons",
       "FirstMessage": "qui",
-      "LastMessage": "enim",
-      "WhenRequested": "2015-04-24T15:29:29.5797043+02:00",
-      "WhenEnded": "2008-03-15T15:29:29.5797043+01:00"
+      "LastMessage": "voluptate",
+      "WhenRequested": "2019-04-01T03:51:33.5366222+02:00",
+      "WhenEnded": "2005-04-23T03:51:33.5366222+02:00"
     }
   ]
 }

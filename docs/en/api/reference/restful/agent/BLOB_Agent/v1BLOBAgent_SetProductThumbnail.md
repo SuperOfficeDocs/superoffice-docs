@@ -66,11 +66,11 @@ No Content
 POST /api/v1/Agents/BLOB/SetProductThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 232,
+  "ProductId": 650,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

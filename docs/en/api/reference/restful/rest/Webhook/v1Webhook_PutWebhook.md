@@ -106,26 +106,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 966,
-  "Name": "Gulgowski Inc and Sons",
+  "WebhookId": 60,
+  "Name": "Senger-Fadel",
   "Events": [
-    "quis",
-    "fugit"
+    "odit",
+    "velit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "iusto",
+  "Secret": "perferendis",
   "State": "Active",
-  "Type": "quas",
+  "Type": "aut",
   "Headers": {
-    "Headers1": "sint",
-    "Headers2": "soluta"
+    "Headers1": "unde",
+    "Headers2": "ut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-12-17T15:29:31.0204472+01:00",
+  "Registered": "2020-03-18T03:51:34.3334209+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-07-15T15:29:31.0209471+02:00",
+  "Updated": "2005-04-09T03:51:34.3334209+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -137,26 +137,26 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 652,
-  "Name": "Swift LLC",
+  "WebhookId": 151,
+  "Name": "Marvin-Walker",
   "Events": [
-    "magnam",
-    "rerum"
+    "provident",
+    "aut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "commodi",
+  "Secret": "autem",
   "State": "Active",
-  "Type": "qui",
+  "Type": "tempora",
   "Headers": {
-    "Headers1": "nihil",
-    "Headers2": "non"
+    "Headers1": "ipsa",
+    "Headers2": "quisquam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-02-07T15:29:31.0229469+01:00",
+  "Registered": "2016-04-06T03:51:34.3334209+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-12-28T15:29:31.0234471+01:00",
+  "Updated": "2012-04-22T03:51:34.3334209+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",

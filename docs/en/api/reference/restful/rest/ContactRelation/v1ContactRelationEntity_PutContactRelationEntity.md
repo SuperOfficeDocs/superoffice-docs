@@ -113,28 +113,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 755,
-  "SourcePersonId": 82,
-  "DestinationContactId": 722,
-  "DestinationPersonId": 748,
-  "RelationId": 863,
-  "Comment": "rerum",
-  "RelationDefinitionId": 913,
-  "Reversed": 555,
-  "UpdatedDate": "2000-01-14T15:29:29.6127038+01:00",
-  "CreatedDate": "2006-10-09T15:29:29.6127038+02:00",
+  "SourceContactId": 865,
+  "SourcePersonId": 171,
+  "DestinationContactId": 135,
+  "DestinationPersonId": 375,
+  "RelationId": 727,
+  "Comment": "similique",
+  "RelationDefinitionId": 629,
+  "Reversed": 548,
+  "UpdatedDate": "2017-12-25T03:51:33.552243+01:00",
+  "CreatedDate": "2001-03-27T03:51:33.552243+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Dare-Daugherty",
-  "SourcePersonName": "Batz, Kovacek and Keebler",
-  "DestinationContactName": "Littel-Lind",
-  "DestinationPersonName": "Runolfsson, Conroy and Schoen",
-  "ActiveText": "recusandae",
-  "PassiveText": "magni"
+  "SourceContactName": "Balistreri, Tillman and Carroll",
+  "SourcePersonName": "McLaughlin Inc and Sons",
+  "DestinationContactName": "Swaniawski, Sanford and Schaefer",
+  "DestinationPersonName": "Stamm LLC",
+  "ActiveText": "nam",
+  "PassiveText": "earum"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 384,
-  "SourcePersonId": 348,
-  "DestinationContactId": 541,
-  "DestinationPersonId": 311,
-  "RelationId": 755,
-  "Comment": "aut",
-  "RelationDefinitionId": 54,
-  "Reversed": 399,
-  "UpdatedDate": "2001-09-18T15:29:29.6147019+02:00",
-  "CreatedDate": "2017-03-09T15:29:29.6147019+01:00",
+  "SourceContactId": 705,
+  "SourcePersonId": 83,
+  "DestinationContactId": 561,
+  "DestinationPersonId": 894,
+  "RelationId": 199,
+  "Comment": "nobis",
+  "RelationDefinitionId": 790,
+  "Reversed": 525,
+  "UpdatedDate": "2013-12-21T03:51:33.552243+01:00",
+  "CreatedDate": "2006-10-03T03:51:33.552243+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Brakus, Schmidt and Breitenberg",
-  "SourcePersonName": "Zulauf Inc and Sons",
-  "DestinationContactName": "Kuvalis Inc and Sons",
-  "DestinationPersonName": "Mayer-Durgan",
-  "ActiveText": "qui",
-  "PassiveText": "et",
+  "SourceContactName": "Hahn Inc and Sons",
+  "SourcePersonName": "Bashirian-Rice",
+  "DestinationContactName": "Quitzon, Gorczany and Altenwerth",
+  "DestinationPersonName": "Bahringer, Predovic and Konopelski",
+  "ActiveText": "temporibus",
+  "PassiveText": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldLength": 144
     }
   },
   "_Links": {

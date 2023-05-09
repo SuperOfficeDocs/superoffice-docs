@@ -25,7 +25,7 @@ Gets a Credited object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCredited?creditedId=848
+POST /api/v1/Agents/List/GetCredited?creditedId=146
 POST /api/v1/Agents/List/GetCredited?$select=name,department,category/id
 ```
 
@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 788,
-  "Value": "pariatur",
-  "Tooltip": "voluptatem",
+  "Id": 602,
+  "Value": "corporis",
+  "Tooltip": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 997
     }
   }
 }

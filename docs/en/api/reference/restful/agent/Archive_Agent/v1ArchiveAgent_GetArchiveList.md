@@ -103,51 +103,51 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Olson Inc and Sons",
-  "ProviderName": "Beahan-Hegmann",
+  "GuiName": "Donnelly, McCullough and Ritchie",
+  "ProviderName": "Cassin Group",
   "SortOrder": [
     {
-      "Name": "O'Conner, Wolf and Harris",
+      "Name": "Lynch, Streich and Okuneva",
       "Direction": "ASC"
     },
     {
-      "Name": "O'Conner, Wolf and Harris",
+      "Name": "Lynch, Streich and Okuneva",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Turner, Champlin and Mann",
-      "Operator": "dignissimos",
+      "Name": "Morar-Lebsack",
+      "Operator": "laudantium",
       "Values": [
-        "aut",
-        "ut"
+        "molestias",
+        "a"
       ],
       "DisplayValues": [
-        "saepe",
-        "labore"
+        "fugit",
+        "in"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 365,
+      "InterParenthesis": 234,
       "InterOperator": "And",
-      "UniqueHash": 684
+      "UniqueHash": 808
     }
   ],
   "Entities": [
-    "doloribus",
-    "et"
+    "quibusdam",
+    "soluta"
   ],
-  "Page": 761,
-  "PageSize": 885
+  "Page": 866,
+  "PageSize": 262
 }
 ```
 
@@ -159,23 +159,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Collins, Wiza and Hyatt",
-    "PrimaryKey": 82,
+    "EntityName": "Shanahan-Howell",
+    "PrimaryKey": 503,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quia",
-        "TooltipHint": "non",
-        "LinkHint": "mollitia"
+        "DisplayValue": "amet",
+        "TooltipHint": "laborum",
+        "LinkHint": "rerum"
       }
     },
-    "LinkHint": "labore",
-    "StyleHint": "velit",
+    "LinkHint": "quibusdam",
+    "StyleHint": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 109
+        "FieldLength": 398
       }
     }
   }

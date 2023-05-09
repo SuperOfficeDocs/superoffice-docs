@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 467
+  "AssociateId": 552
 }
 ```
 
@@ -102,54 +102,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 483,
-    "ERPName": "Trantow-Walker",
-    "DisplayName": "Mann, Barton and Dicki",
-    "DisplayDescription": "Ergonomic zero tolerance monitoring",
-    "Rank": 723,
-    "ConnectorName": "Dickens LLC",
-    "ErpConnectionId": 502,
-    "ExtraData": "beatae",
-    "IsAvailable": false,
+    "QuoteConnectionId": 92,
+    "ERPName": "Runolfsdottir-Rowe",
+    "DisplayName": "Kirlin Group",
+    "DisplayDescription": "Ameliorated static array",
+    "Rank": 688,
+    "ConnectorName": "Stanton-Stracke",
+    "ErpConnectionId": 357,
+    "ExtraData": "tempora",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 577,
-        "ERPPriceListKey": "impedit",
-        "QuoteConnectionId": 63,
-        "Name": "Homenick LLC",
-        "Description": "Managed bottom-line time-frame",
-        "Currency": "quod",
-        "CurrencyName": "Runte LLC",
-        "ValidFrom": "2002-03-28T15:29:22.572264+01:00",
-        "ValidTo": "2019-08-10T15:29:22.572264+02:00",
-        "IsActive": true,
+        "PriceListId": 174,
+        "ERPPriceListKey": "quia",
+        "QuoteConnectionId": 529,
+        "Name": "Rice Inc and Sons",
+        "Description": "Reduced logistical toolset",
+        "Currency": "deleniti",
+        "CurrencyName": "Cummerata-Hand",
+        "ValidFrom": "2005-12-04T03:51:28.0215395+01:00",
+        "ValidTo": "2010-01-31T03:51:28.0215395+01:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldLength": 850
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      950,
-      859
+      914,
+      32
     ],
     "AssociateAccessIds": [
-      673,
-      930
+      405,
+      624
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 221
+        "FieldType": "System.Int32",
+        "FieldLength": 104
       }
     }
   }

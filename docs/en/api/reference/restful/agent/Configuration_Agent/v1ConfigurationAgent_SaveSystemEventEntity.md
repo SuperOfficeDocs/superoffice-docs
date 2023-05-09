@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 18,
+  "SystemEventId": 577,
   "Scope": "Database",
-  "Eta": "1997-12-03T15:29:21.0322863+01:00",
-  "Eventkey": "quae",
-  "Eventmess": "similique",
-  "ExtraInfo": 62,
-  "Owner": 417,
-  "UpdatedCount": 737,
-  "Registered": "1999-08-12T15:29:21.0322863+02:00",
+  "Eta": "1999-08-28T03:51:26.7718335+02:00",
+  "Eventkey": "explicabo",
+  "Eventmess": "pariatur",
+  "ExtraInfo": 698,
+  "Owner": 840,
+  "UpdatedCount": 190,
+  "Registered": "2014-06-26T03:51:26.7718335+02:00",
   "ActivatedBy": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 47,
+  "SystemEventId": 141,
   "Scope": "Database",
-  "Eta": "1999-02-14T15:29:21.0332856+01:00",
-  "Eventkey": "qui",
-  "Eventmess": "necessitatibus",
-  "ExtraInfo": 180,
-  "Owner": 307,
-  "UpdatedCount": 855,
-  "Registered": "2016-04-02T15:29:21.0342867+02:00",
+  "Eta": "2008-10-04T03:51:26.7718335+02:00",
+  "Eventkey": "consequuntur",
+  "Eventmess": "et",
+  "ExtraInfo": 848,
+  "Owner": 748,
+  "UpdatedCount": 128,
+  "Registered": "2002-01-28T03:51:26.7718335+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 992
+      "FieldType": "System.Int32",
+      "FieldLength": 462
     }
   }
 }

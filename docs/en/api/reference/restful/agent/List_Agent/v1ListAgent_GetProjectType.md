@@ -25,7 +25,7 @@ Gets a ProjectType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectType?projectTypeId=355
+POST /api/v1/Agents/List/GetProjectType?projectTypeId=526
 POST /api/v1/Agents/List/GetProjectType?$select=name,department,category/id
 ```
 
@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 221,
-  "Value": "quas",
-  "Tooltip": "enim",
+  "Id": 350,
+  "Value": "non",
+  "Tooltip": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 254
     }
   }
 }

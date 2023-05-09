@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Buckridge, Pfannerstill and Homenick",
+  "ProviderName": "Stamm-Mann",
   "DesiredColumns": [
-    "distinctio",
-    "tenetur"
+    "saepe",
+    "sapiente"
   ]
 }
 ```
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ondricka Group",
+    "Name": "Simonis-Bradtke",
     "Direction": "ASC"
   },
   {
-    "Name": "Ondricka Group",
+    "Name": "Simonis-Bradtke",
     "Direction": "ASC"
   }
 ]

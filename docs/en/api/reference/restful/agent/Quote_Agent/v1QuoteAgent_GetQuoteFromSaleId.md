@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 570
+  "SaleId": 773
 }
 ```
 
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 312,
-  "SaleId": 723,
-  "QuoteConnectionId": 816,
-  "ERPQuoteKey": "et",
-  "ERPOrderKey": "qui",
-  "ActiveQuoteVersionId": 841,
-  "AcceptedQuoteAlternativeId": 82,
-  "UseValuesFromQuote": 742,
-  "DocumentId": 853,
-  "PoNumber": "1260770",
-  "OrderComment": "alias",
-  "PreferredEmailCulture": "kale.buckridge@watersvon.com",
+  "QuoteId": 692,
+  "SaleId": 516,
+  "QuoteConnectionId": 242,
+  "ERPQuoteKey": "dolor",
+  "ERPOrderKey": "nulla",
+  "ActiveQuoteVersionId": 1002,
+  "AcceptedQuoteAlternativeId": 271,
+  "UseValuesFromQuote": 808,
+  "DocumentId": 620,
+  "PoNumber": "1321160",
+  "OrderComment": "voluptate",
+  "PreferredEmailCulture": "benjamin_walker@breitenberg.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 246
+      "FieldLength": 251
     }
   }
 }

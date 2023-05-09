@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=qui
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sint
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 11 Feb 2006 15:29:29 G2T
+Last-Modified: Sat, 05 Dec 1998 03:51:33 G12T
 
 {
-  "Key": "eos",
-  "Value": "neque",
-  "RecordId": 534,
-  "CreatedDate": "2001-09-03T15:29:29.7806984+02:00",
-  "UpdatedDate": "2006-02-11T15:29:29.7806984+01:00",
-  "UpdatedBy": "dolores",
-  "CreatedBy": "quisquam",
-  "TableName": "Rohan-Breitenberg",
+  "Key": "repellat",
+  "Value": "culpa",
+  "RecordId": 976,
+  "CreatedDate": "1996-01-27T03:51:33.6928335+01:00",
+  "UpdatedDate": "1998-12-05T03:51:33.6928335+01:00",
+  "UpdatedBy": "totam",
+  "CreatedBy": "voluptatibus",
+  "TableName": "Swaniawski-Corkery",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 563
+      "FieldType": "System.Int32",
+      "FieldLength": 329
     }
   }
 }

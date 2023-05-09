@@ -88,12 +88,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "odit",
-      "Key": "impedit"
+      "Section": "id",
+      "Key": "quo"
     },
     {
-      "Section": "odit",
-      "Key": "impedit"
+      "Section": "id",
+      "Key": "quo"
     }
   ]
 }
@@ -108,22 +108,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "est",
+    "RawValue": "sed",
     "Specification": null,
-    "DisplayValue": "ut",
-    "DisplayTooltip": "autem",
+    "DisplayValue": "enim",
+    "DisplayTooltip": "rerum",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 964,
-    "PrefDescId": 819,
-    "TableName": "Weissnat-Veum",
-    "UserPreferenceId": 231,
+    "TargetId": 4,
+    "PrefDescId": 428,
+    "TableName": "Monahan LLC",
+    "UserPreferenceId": 575,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 695
+        "FieldType": "System.Int32",
+        "FieldLength": 837
       }
     }
   }

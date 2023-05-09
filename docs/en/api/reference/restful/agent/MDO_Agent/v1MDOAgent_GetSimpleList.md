@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Keeling-Funk"
+  "Name": "Bergnaum Inc and Sons"
 }
 ```
 
@@ -99,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "Kuphal, Flatley and Nienow",
-    "ToolTip": "Impedit asperiores.",
-    "Deleted": true,
-    "Rank": 903,
-    "Type": "autem",
+    "Id": 935,
+    "Name": "Morissette LLC",
+    "ToolTip": "Sint placeat consectetur aperiam quasi.",
+    "Deleted": false,
+    "Rank": 395,
+    "Type": "dolores",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Swaniawski, Weber and Hagenes",
-        "ToolTip": "Doloremque error voluptatem reprehenderit.",
-        "Deleted": true,
-        "Rank": 386,
-        "Type": "aut",
+        "Id": 816,
+        "Name": "Batz Inc and Sons",
+        "ToolTip": "Suscipit non in.",
+        "Deleted": false,
+        "Rank": 232,
+        "Type": "vitae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 157,
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "adipisci",
-        "FullName": "Jed Jones",
+        "IconHint": "dolorem",
+        "ColorBlock": 286,
+        "ExtraInfo": "eveniet",
+        "StyleHint": "qui",
+        "FullName": "Sherman Haven Reichel V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 838
+            "FieldLength": 793
           }
         }
       }
     ],
-    "IconHint": "laboriosam",
-    "ColorBlock": 270,
-    "ExtraInfo": "nihil",
-    "StyleHint": "officiis",
-    "FullName": "Scot Osinski",
+    "IconHint": "ipsam",
+    "ColorBlock": 669,
+    "ExtraInfo": "est",
+    "StyleHint": "error",
+    "FullName": "Vinnie Feeney Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 215
       }
     }
   }

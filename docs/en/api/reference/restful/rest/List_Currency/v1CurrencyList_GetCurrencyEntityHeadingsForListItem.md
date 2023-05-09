@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Schimmel-Conroy",
-    "ToolTip": "Accusantium minima sit qui ab molestias adipisci odit.",
-    "Deleted": false,
-    "Rank": 911,
-    "Type": "voluptatem",
-    "ColorBlock": 684,
-    "IconHint": "commodi",
-    "Selected": false,
-    "LastChanged": "1997-08-30T15:29:31.2114793+02:00",
+    "Id": 985,
+    "Name": "Rice, Barton and Kilback",
+    "ToolTip": "Placeat enim officia.",
+    "Deleted": true,
+    "Rank": 634,
+    "Type": "est",
+    "ColorBlock": 525,
+    "IconHint": "debitis",
+    "Selected": true,
+    "LastChanged": "2003-08-12T03:51:34.6614813+02:00",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "McLaughlin LLC",
-        "ToolTip": "Esse deleniti a dolores dolorem repudiandae perferendis.",
+        "Id": 925,
+        "Name": "Daugherty-Flatley",
+        "ToolTip": "Molestiae nemo necessitatibus quis facere quidem.",
         "Deleted": false,
-        "Rank": 125,
-        "Type": "distinctio",
-        "ColorBlock": 532,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2020-11-25T15:29:31.2119855+01:00",
+        "Rank": 967,
+        "Type": "quia",
+        "ColorBlock": 358,
+        "IconHint": "repudiandae",
+        "Selected": false,
+        "LastChanged": "2004-03-05T03:51:34.6614813+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "et",
+        "ExtraInfo": "enim",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Corbin Kozey",
+        "FullName": "Prof. Ed Herzog DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 391
+            "FieldType": "System.String",
+            "FieldLength": 382
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "error",
-    "Hidden": false,
-    "FullName": "Daija Homenick",
+    "ExtraInfo": "totam",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Enoch Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 145
+        "FieldType": "System.Int32",
+        "FieldLength": 76
       }
     }
   }

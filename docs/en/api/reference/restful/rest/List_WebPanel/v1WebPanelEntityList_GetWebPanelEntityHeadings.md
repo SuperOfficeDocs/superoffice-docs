@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 192,
-    "Name": "Cole-Lesch",
-    "Tooltip": "tempore",
+    "HeadingId": 654,
+    "Name": "Greenholt Inc and Sons",
+    "Tooltip": "atque",
     "Deleted": false,
-    "Rank": 974,
-    "UdListDefinitionId": 518,
+    "Rank": 568,
+    "UdListDefinitionId": 605,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 204
+        "FieldType": "System.String",
+        "FieldLength": 472
       }
     }
   }

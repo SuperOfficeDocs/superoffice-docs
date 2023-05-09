@@ -25,7 +25,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=968
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=961
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 437,
-  "ColumnId": 444,
-  "FieldDefault": "quam",
-  "FieldHeight": 951,
-  "FieldLabel": "et",
-  "FieldLeft": 302,
-  "FieldTop": 784,
+  "UDefFieldId": 881,
+  "ColumnId": 202,
+  "FieldDefault": "error",
+  "FieldHeight": 850,
+  "FieldLabel": "harum",
+  "FieldLeft": 865,
+  "FieldTop": 534,
   "FieldType": "Checkbox",
-  "FieldWidth": 678,
-  "FormatMask": "rerum",
-  "HideLabel": true,
+  "FieldWidth": 653,
+  "FormatMask": "quisquam",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 39,
-  "LabelLeft": 714,
-  "LabelTop": 176,
-  "LabelWidth": 202,
-  "LastVersionId": 605,
-  "ListTableId": 390,
-  "IsMandatory": false,
+  "LabelHeight": 905,
+  "LabelLeft": 19,
+  "LabelTop": 341,
+  "LabelWidth": 709,
+  "LastVersionId": 269,
+  "ListTableId": 601,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 252,
-  "ProgId": "ut",
-  "IsReadOnly": true,
-  "ShortLabel": "qui",
-  "TabOrder": 577,
-  "TextLength": 713,
-  "Tooltip": "officia",
-  "UdefIdentity": 399,
-  "UDListDefinitionId": 200,
+  "Page1LineNo": 609,
+  "ProgId": "cupiditate",
+  "IsReadOnly": false,
+  "ShortLabel": "molestiae",
+  "TabOrder": 759,
+  "TextLength": 357,
+  "Tooltip": "laudantium",
+  "UdefIdentity": 613,
+  "UDListDefinitionId": 90,
   "Justification": "Center",
-  "Version": 305,
-  "TemplateVariableName": "Bergstrom-Goyette",
-  "HasBeenPublished": true,
-  "MdoListName": "Hoeger-Rice",
+  "Version": 604,
+  "TemplateVariableName": "Ratke, Cremin and Kunze",
+  "HasBeenPublished": false,
+  "MdoListName": "Gottlieb, Feeney and Huel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 386
+      "FieldLength": 933
     }
   }
 }

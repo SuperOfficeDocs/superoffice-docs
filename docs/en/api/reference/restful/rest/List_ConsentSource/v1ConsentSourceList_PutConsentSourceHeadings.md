@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 61,
-    "Name": "Becker, Robel and Pfannerstill",
-    "Tooltip": "qui",
+    "HeadingId": 841,
+    "Name": "Heidenreich-Kozey",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 228,
-    "UdListDefinitionId": 319
+    "Rank": 943,
+    "UdListDefinitionId": 825
   },
   {
-    "HeadingId": 61,
-    "Name": "Becker, Robel and Pfannerstill",
-    "Tooltip": "qui",
+    "HeadingId": 841,
+    "Name": "Heidenreich-Kozey",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 228,
-    "UdListDefinitionId": 319
+    "Rank": 943,
+    "UdListDefinitionId": 825
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 213,
-    "Name": "Lemke LLC",
-    "Tooltip": "sunt",
+    "HeadingId": 799,
+    "Name": "Fay, Grant and Legros",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 156,
-    "UdListDefinitionId": 136,
+    "Rank": 993,
+    "UdListDefinitionId": 75,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 176
+        "FieldLength": 173
       }
     }
   }

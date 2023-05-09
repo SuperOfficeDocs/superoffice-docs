@@ -76,12 +76,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 992,
-  "Name": "Rau-Greenholt",
-  "Tooltip": "numquam",
+  "Id": 558,
+  "Name": "Ullrich, Kemmer and Treutel",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "UdListDefinitionId": 856,
-  "Rank": 465
+  "UdListDefinitionId": 703,
+  "Rank": 233
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 349,
-  "Name": "Cruickshank-Langworth",
-  "Tooltip": "non",
+  "Id": 112,
+  "Name": "Tromp, Kiehn and Lang",
+  "Tooltip": "laborum",
   "Deleted": true,
-  "UdListDefinitionId": 138,
-  "Rank": 460,
+  "UdListDefinitionId": 148,
+  "Rank": 11,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldType": "System.String",
+      "FieldLength": 219
     }
   }
 }

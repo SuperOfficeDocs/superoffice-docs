@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Larkin, Halvorson and Price",
-    "ToolTip": "Voluptas totam nihil blanditiis necessitatibus adipisci unde tempora.",
+    "Id": 222,
+    "Name": "Schneider Group",
+    "ToolTip": "Delectus ut omnis nihil.",
     "Deleted": false,
-    "Rank": 679,
-    "Type": "et",
-    "ColorBlock": 649,
-    "IconHint": "sunt",
+    "Rank": 832,
+    "Type": "voluptatibus",
+    "ColorBlock": 920,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2017-06-16T15:29:31.2884777+02:00",
+    "LastChanged": "2017-04-04T03:51:34.7239677+02:00",
     "ChildItems": [
       {
-        "Id": 796,
-        "Name": "Nitzsche-Sanford",
-        "ToolTip": "Sed eos non vero rerum voluptatem.",
-        "Deleted": false,
-        "Rank": 968,
-        "Type": "voluptas",
-        "ColorBlock": 288,
-        "IconHint": "quo",
+        "Id": 122,
+        "Name": "Rippin-Labadie",
+        "ToolTip": "Sit ducimus excepturi dolore quis et dolore vero.",
+        "Deleted": true,
+        "Rank": 711,
+        "Type": "autem",
+        "ColorBlock": 459,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "1996-06-24T15:29:31.2884777+02:00",
+        "LastChanged": "2005-05-27T03:51:34.7239677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Dovie Schumm"
+        "ExtraInfo": "ut",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Isidro Okuneva"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Skyla Gutmann"
+    "FullName": "Prof. Glennie Krystina Mayer DDS"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 350,
-    "Name": "Langworth, Mante and Howe",
-    "ToolTip": "Excepturi et possimus.",
+    "Id": 283,
+    "Name": "McKenzie-Sawayn",
+    "ToolTip": "Vero rerum quasi.",
     "Deleted": false,
-    "Rank": 660,
-    "Type": "laboriosam",
-    "ColorBlock": 43,
-    "IconHint": "placeat",
-    "Selected": false,
-    "LastChanged": "2001-11-03T15:29:31.2899787+01:00",
+    "Rank": 704,
+    "Type": "molestias",
+    "ColorBlock": 577,
+    "IconHint": "deserunt",
+    "Selected": true,
+    "LastChanged": "2017-07-20T03:51:34.7239677+02:00",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Padberg, Lang and Haley",
-        "ToolTip": "Quisquam temporibus vero et voluptatibus.",
+        "Id": 691,
+        "Name": "Legros-Daniel",
+        "ToolTip": "Aut impedit.",
         "Deleted": true,
-        "Rank": 77,
-        "Type": "praesentium",
-        "ColorBlock": 391,
-        "IconHint": "veniam",
+        "Rank": 313,
+        "Type": "earum",
+        "ColorBlock": 358,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2020-05-24T15:29:31.2899787+02:00",
+        "LastChanged": "2007-07-14T03:51:34.7239677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "tempore",
-        "Hidden": true,
-        "FullName": "Violet Reilly",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "quis",
+        "Hidden": false,
+        "FullName": "Prof. Casandra Alfonso Kemmer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 825
+            "FieldType": "System.String",
+            "FieldLength": 220
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "eum",
+    "ExtraInfo": "qui",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Bradley Renner",
+    "FullName": "Dr. Ena Brenda Wunsch I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldType": "System.String",
+        "FieldLength": 387
       }
     }
   }

@@ -81,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Zemlak-Nicolas",
-  "Department": "brand bleeding-edge niches"
+  "Name": "Medhurst Inc and Sons",
+  "Department": ""
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Kuvalis-Legros",
-    "SoPrimaryKey": 245,
-    "EntryName": "Streich Inc and Sons",
-    "EntryIdentifier": "est",
-    "RuleDisplayName": "Nicolas-Rempel",
+    "RuleName": "Mertz, Haley and Sporer",
+    "SoPrimaryKey": 432,
+    "EntryName": "Schaefer LLC",
+    "EntryIdentifier": "et",
+    "RuleDisplayName": "Runte Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 956
+        "FieldLength": 930
       }
     }
   }

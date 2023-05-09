@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 717,
-  "HeadingId": 234
+  "UdListDefinitionId": 263,
+  "HeadingId": 360
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 929,
-    "Name": "Howell-Predovic",
-    "ToolTip": "Autem consequatur ut debitis.",
+    "Id": 107,
+    "Name": "Ratke-Marks",
+    "ToolTip": "Quo et harum commodi rem.",
     "Deleted": true,
-    "Rank": 602,
-    "Type": "expedita",
-    "ColorBlock": 20,
-    "IconHint": "consectetur",
-    "Selected": true,
-    "LastChanged": "2005-11-05T15:29:22.0272723+01:00",
+    "Rank": 619,
+    "Type": "sit",
+    "ColorBlock": 330,
+    "IconHint": "molestiae",
+    "Selected": false,
+    "LastChanged": "1995-12-28T03:51:27.4279277+01:00",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Kshlerin, Keebler and Tromp",
-        "ToolTip": "Ad vel.",
+        "Id": 219,
+        "Name": "Harris LLC",
+        "ToolTip": "Deserunt tempore fuga fugit alias architecto.",
         "Deleted": false,
-        "Rank": 434,
-        "Type": "et",
-        "ColorBlock": 191,
-        "IconHint": "qui",
+        "Rank": 296,
+        "Type": "sapiente",
+        "ColorBlock": 621,
+        "IconHint": "pariatur",
         "Selected": true,
-        "LastChanged": "2018-11-23T15:29:22.0272723+01:00",
+        "LastChanged": "2020-02-23T03:51:27.4279277+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "odio",
+        "ExtraInfo": "rerum",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Helena Kuhic I",
+        "FullName": "Marquis Rosalinda Osinski Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 211
+            "FieldLength": 733
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Elbert Seth Berge I",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "optio",
+    "Hidden": false,
+    "FullName": "Kayli Bogan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 17
+        "FieldLength": 217
       }
     }
   }

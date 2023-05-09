@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Ticket/CalculateMessageRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 739,
+  "TicketId": 65,
   "ActionType": "Forward",
-  "MessageId": 610
+  "MessageId": 314
 }
 ```
 
@@ -93,13 +93,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Type": "BCC",
-    "Value": "et",
-    "DisplayValue": "amet"
+    "Value": "corporis",
+    "DisplayValue": "rem"
   },
   {
     "Type": "BCC",
-    "Value": "et",
-    "DisplayValue": "amet"
+    "Value": "corporis",
+    "DisplayValue": "rem"
   }
 ]
 ```

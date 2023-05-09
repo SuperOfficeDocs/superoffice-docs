@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Schamberger-Pollich"
+  "OwnerName": "Rice Group"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 809,
-      "NumberOfLicensesFree": 144,
-      "NumberOfLicensesAdded": 248,
-      "NumberOfLicensesNewTotal": 601,
-      "NumberOfLicensesNewFree": 770,
-      "NumberOfLicensesTotal": 342
+      "NumberOfLicensesInUse": 634,
+      "NumberOfLicensesFree": 418,
+      "NumberOfLicensesAdded": 173,
+      "NumberOfLicensesNewTotal": 468,
+      "NumberOfLicensesNewFree": 119,
+      "NumberOfLicensesTotal": 939
     }
   ],
-  "AccumulatedNextCheckDate": "2007-05-11T15:29:21.9433148+02:00"
+  "AccumulatedNextCheckDate": "1997-04-09T03:51:27.3654441+02:00"
 }
 ```

@@ -93,19 +93,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 990,
-  "ERPPriceListKey": "molestiae",
-  "QuoteConnectionId": 904,
-  "Name": "Friesen, Kuhn and McGlynn",
-  "Description": "Versatile clear-thinking complexity",
-  "Currency": "et",
-  "CurrencyName": "Wyman, Hermann and Sawayn",
-  "ValidFrom": "2008-12-23T15:29:31.3684742+01:00",
-  "ValidTo": "1997-07-08T15:29:31.3684742+02:00",
+  "PriceListId": 523,
+  "ERPPriceListKey": "aut",
+  "QuoteConnectionId": 563,
+  "Name": "Haley, Carroll and Gislason",
+  "Description": "Monitored neutral alliance",
+  "Currency": "minus",
+  "CurrencyName": "Cremin, Boyer and Hermann",
+  "ValidFrom": "2001-01-09T03:51:34.7708309+01:00",
+  "ValidTo": "1997-09-30T03:51:34.7708309+02:00",
   "IsActive": false
 }
 ```
@@ -117,27 +117,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 810,
-  "ERPPriceListKey": "voluptas",
-  "QuoteConnectionId": 521,
-  "Name": "Doyle, Bergstrom and Gibson",
-  "Description": "Polarised grid-enabled standardization",
-  "Currency": "rem",
-  "CurrencyName": "Collier Inc and Sons",
-  "ValidFrom": "1997-05-25T15:29:31.368978+02:00",
-  "ValidTo": "2001-08-05T15:29:31.368978+02:00",
+  "PriceListId": 714,
+  "ERPPriceListKey": "officia",
+  "QuoteConnectionId": 530,
+  "Name": "Skiles-Macejkovic",
+  "Description": "Proactive encompassing productivity",
+  "Currency": "esse",
+  "CurrencyName": "Crooks, Keebler and Bashirian",
+  "ValidFrom": "2022-02-07T03:51:34.7708309+01:00",
+  "ValidTo": "2018-12-28T03:51:34.7708309+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 110
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

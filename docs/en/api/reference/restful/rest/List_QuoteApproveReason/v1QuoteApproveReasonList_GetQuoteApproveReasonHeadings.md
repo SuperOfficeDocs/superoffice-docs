@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 840,
-    "Name": "Williamson, Altenwerth and Breitenberg",
-    "Tooltip": "numquam",
+    "HeadingId": 724,
+    "Name": "Jaskolski, Upton and Larson",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 582,
-    "UdListDefinitionId": 690,
+    "Rank": 202,
+    "UdListDefinitionId": 539,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 810
+        "FieldType": "System.String",
+        "FieldLength": 103
       }
     }
   }

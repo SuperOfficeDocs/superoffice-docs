@@ -103,30 +103,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 714,
-  "UniqueId": "nemo",
-  "Name": "Eichmann Inc and Sons",
-  "Description": "Persistent multimedia emulation",
-  "AssociateId": 121,
-  "Columns": 12,
+  "DashboardId": 586,
+  "UniqueId": "deserunt",
+  "Name": "Nienow, Klocko and Harvey",
+  "Description": "Networked static utilisation",
+  "AssociateId": 81,
+  "Columns": 731,
   "Theme": null,
-  "VisibleForAll": 770,
+  "VisibleForAll": 222,
   "VisibleForAssociates": [
-    409,
-    877
+    161,
+    82
   ],
   "VisibleForGroups": [
-    726,
-    873
+    561,
+    274
   ],
-  "PinForAll": 339,
+  "PinForAll": 810,
   "PinForAssociates": [
-    961,
-    48
+    554,
+    635
   ],
   "PinForGroups": [
-    767,
-    567
+    457,
+    514
   ]
 }
 ```
@@ -138,37 +138,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 547,
-  "UniqueId": "consectetur",
-  "Name": "Jones-Beatty",
-  "Description": "Progressive 3rd generation product",
-  "AssociateId": 430,
-  "Columns": 662,
+  "DashboardId": 608,
+  "UniqueId": "inventore",
+  "Name": "Senger, Eichmann and Bergstrom",
+  "Description": "Realigned motivating help-desk",
+  "AssociateId": 351,
+  "Columns": 852,
   "Theme": null,
-  "VisibleForAll": 446,
+  "VisibleForAll": 793,
   "VisibleForAssociates": [
-    550,
-    769
+    895,
+    137
   ],
   "VisibleForGroups": [
-    909,
-    219
+    157,
+    854
   ],
-  "PinForAll": 208,
+  "PinForAll": 944,
   "PinForAssociates": [
-    622,
-    111
+    503,
+    269
   ],
   "PinForGroups": [
-    284,
-    347
+    997,
+    477
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 101
     }
   },
   "_Links": {

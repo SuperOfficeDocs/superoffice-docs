@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Zboncak, Rolfson and Grimes",
-    "ToolTip": "Natus repudiandae occaecati.",
+    "Id": 550,
+    "Name": "Wintheiser, Boehm and Kovacek",
+    "ToolTip": "Et id non ut molestias quas tenetur eos.",
     "Deleted": false,
-    "Rank": 204,
-    "Type": "quidem",
-    "ColorBlock": 295,
-    "IconHint": "est",
+    "Rank": 809,
+    "Type": "at",
+    "ColorBlock": 13,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "2006-09-17T15:29:31.6129736+02:00",
+    "LastChanged": "2016-01-13T03:51:34.9738936+01:00",
     "ChildItems": [
       {
-        "Id": 530,
-        "Name": "Heller-Crona",
-        "ToolTip": "Odit vel sunt.",
-        "Deleted": false,
-        "Rank": 574,
-        "Type": "eveniet",
-        "ColorBlock": 5,
-        "IconHint": "fugiat",
+        "Id": 120,
+        "Name": "Bechtelar LLC",
+        "ToolTip": "Est rerum sed aut sit non quaerat magni.",
+        "Deleted": true,
+        "Rank": 44,
+        "Type": "sed",
+        "ColorBlock": 777,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2014-09-01T15:29:31.6129736+02:00",
+        "LastChanged": "2021-02-22T03:51:34.9738936+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "minima",
-        "Hidden": false,
-        "FullName": "Dr. Karolann Cassin",
+        "ExtraInfo": "expedita",
+        "StyleHint": "eligendi",
+        "Hidden": true,
+        "FullName": "Mr. Karlie Mallory Towne",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 201
+            "FieldLength": 471
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "iste",
+    "ExtraInfo": "est",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mrs. Taya Little",
+    "FullName": "Jessica Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 795
+        "FieldLength": 499
       }
     }
   }

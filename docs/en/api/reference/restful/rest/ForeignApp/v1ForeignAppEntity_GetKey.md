@@ -71,7 +71,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 11 Feb 2018 15:29:29 G2T
+Last-Modified: Tue, 03 Jul 2007 03:51:33 G7T
 
 {
-  "Key": "sint",
-  "Value": "ut",
-  "RecordId": 334,
-  "CreatedDate": "2020-02-07T15:29:29.7756983+01:00",
-  "UpdatedDate": "2018-02-11T15:29:29.7756983+01:00",
-  "UpdatedBy": "aliquam",
-  "CreatedBy": "dignissimos",
-  "TableName": "Stamm Group",
+  "Key": "aut",
+  "Value": "laboriosam",
+  "RecordId": 324,
+  "CreatedDate": "2017-09-29T03:51:33.6928335+02:00",
+  "UpdatedDate": "2007-07-03T03:51:33.6928335+02:00",
+  "UpdatedBy": "quis",
+  "CreatedBy": "sed",
+  "TableName": "Gaylord-Franecki",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 122
     }
   }
 }

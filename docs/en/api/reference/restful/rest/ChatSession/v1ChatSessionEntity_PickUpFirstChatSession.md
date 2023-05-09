@@ -86,7 +86,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 881,
-  "TopicId": 984,
+  "ChatSessionId": 569,
+  "TopicId": 584,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quia",
-  "CustomerHost": "quis",
-  "CustomerName": "Gottlieb Inc and Sons",
-  "CustomerEmail": "noble_kautzer@trantow.uk",
-  "CustomerPhone": "179-205-0531",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Frami, Runolfsson and Nikolaus",
+  "CustomerAlias": "corrupti",
+  "CustomerHost": "consectetur",
+  "CustomerName": "Corwin, Padberg and Rodriguez",
+  "CustomerEmail": "carlo@kulasmiller.com",
+  "CustomerPhone": "314.277.5745 x442",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Connelly-Connelly",
   "Status": "Closed",
-  "FirstMessage": "porro",
-  "LastMessage": "ut",
-  "WhenRequested": "2009-03-29T15:29:29.4027037+02:00",
-  "WhenStarted": "2003-01-09T15:29:29.4027037+01:00",
-  "WhenEnded": "2002-11-21T15:29:29.4027037+01:00",
-  "WhenIdle": "2006-01-28T15:29:29.4027037+01:00",
-  "WhenFetched": "2011-12-29T15:29:29.4027037+01:00",
-  "SessionKey": "quae",
-  "InitialQueuePos": 184,
-  "AlertLevel": 133,
-  "Rank": 578,
+  "FirstMessage": "voluptas",
+  "LastMessage": "ea",
+  "WhenRequested": "2003-03-22T03:51:33.208575+01:00",
+  "WhenStarted": "2020-05-15T03:51:33.208575+02:00",
+  "WhenEnded": "2003-06-06T03:51:33.208575+02:00",
+  "WhenIdle": "2020-05-21T03:51:33.208575+02:00",
+  "WhenFetched": "2022-01-07T03:51:33.208575+01:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 180,
+  "AlertLevel": 157,
+  "Rank": 399,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 2,
+  "ChatbotIsActive": false,
+  "Rating": 143,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 981
     }
   }
 }

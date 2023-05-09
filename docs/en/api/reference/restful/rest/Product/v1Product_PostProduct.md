@@ -140,55 +140,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 932,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "natus",
-  "Name": "Spinka Inc and Sons",
-  "Description": "Ameliorated optimizing synergy",
-  "Code": "cumque",
-  "PriceUnit": "ut",
-  "QuantityUnit": "nulla",
+  "ProductId": 721,
+  "ERPProductKey": "iste",
+  "ERPPriceListKey": "sunt",
+  "Name": "Hettinger Group",
+  "Description": "Ameliorated 6th generation moderator",
+  "Code": "sed",
+  "PriceUnit": "dignissimos",
+  "QuantityUnit": "neque",
   "IsSubscription": false,
-  "SubscriptionUnit": "libero",
-  "DefaultSubscriptionQuantity": 17349.824,
-  "ItemNumber": "505188",
+  "SubscriptionUnit": "beatae",
+  "DefaultSubscriptionQuantity": 9759.276,
+  "ItemNumber": "165113",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "maiores",
-  "ProductTypeKey": "aut",
-  "VAT": 10019.398,
-  "VATInfo": "aut",
-  "UnitCost": 23389.041999999998,
-  "UnitMinimumPrice": 21198.376,
-  "UnitListPrice": 8831.612,
-  "InAssortment": false,
-  "Supplier": "aliquid",
-  "SupplierCode": "mollitia",
-  "Rights": "aut",
-  "Rule": "ut",
+  "ProductFamilyKey": "dignissimos",
+  "ProductTypeKey": "earum",
+  "VAT": 22514.656,
+  "VATInfo": "et",
+  "UnitCost": 24652.043999999998,
+  "UnitMinimumPrice": 16096.224,
+  "UnitListPrice": 9326.784,
+  "InAssortment": true,
+  "Supplier": "enim",
+  "SupplierCode": "alias",
+  "Rights": "sint",
+  "Rule": "quia",
   "ExtraInfo": [
     {
-      "Name": "Hilll-Ledner",
-      "Value": "totam",
+      "Name": "Raynor Group",
+      "Value": "aut",
       "Type": "Image"
     },
     {
-      "Name": "Hilll-Ledner",
-      "Value": "totam",
+      "Name": "Raynor Group",
+      "Value": "aut",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "pariatur",
-  "ExtraField1": "sed",
-  "ExtraField2": "quis",
-  "ExtraField3": "totam",
-  "ExtraField4": "deleniti",
-  "ExtraField5": "unde",
-  "InStock": 8944.436
+  "RawExtraInfo": "a",
+  "ExtraField1": "quo",
+  "ExtraField2": "non",
+  "ExtraField3": "aperiam",
+  "ExtraField4": "quia",
+  "ExtraField5": "aspernatur",
+  "InStock": 7239.54
 }
 ```
 
@@ -199,73 +199,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 827,
-  "ERPProductKey": "dolor",
-  "ERPPriceListKey": "quos",
-  "Name": "Franecki, Witting and Stanton",
-  "Description": "Object-based modular collaboration",
-  "Code": "eos",
-  "PriceUnit": "possimus",
-  "QuantityUnit": "unde",
+  "ProductId": 921,
+  "ERPProductKey": "voluptates",
+  "ERPPriceListKey": "provident",
+  "Name": "Welch-Legros",
+  "Description": "Down-sized non-volatile budgetary management",
+  "Code": "architecto",
+  "PriceUnit": "blanditiis",
+  "QuantityUnit": "ullam",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 18957.566,
-  "ItemNumber": "765007",
+  "SubscriptionUnit": "saepe",
+  "DefaultSubscriptionQuantity": 12595.546,
+  "ItemNumber": "604216",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ducimus",
-  "ProductTypeKey": "inventore",
-  "VAT": 24134.933999999997,
-  "VATInfo": "aperiam",
-  "UnitCost": 17086.568,
-  "UnitMinimumPrice": 22489.584,
-  "UnitListPrice": 20458.752,
-  "InAssortment": true,
-  "Supplier": "eveniet",
-  "SupplierCode": "nihil",
-  "Rights": "est",
-  "Rule": "consequatur",
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "rem",
+  "VAT": 26162.631999999998,
+  "VATInfo": "magnam",
+  "UnitCost": 15760.885999999999,
+  "UnitMinimumPrice": 11965.612,
+  "UnitListPrice": 18255.55,
+  "InAssortment": false,
+  "Supplier": "labore",
+  "SupplierCode": "consequatur",
+  "Rights": "commodi",
+  "Rule": "iste",
   "ExtraInfo": [
     {
-      "Name": "Tromp, Swaniawski and Boyle",
-      "Value": "suscipit",
+      "Name": "Cummerata, Feeney and Kiehn",
+      "Value": "tempore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 903
+          "FieldType": "System.Int32",
+          "FieldLength": 203
         }
       }
     },
     {
-      "Name": "Tromp, Swaniawski and Boyle",
-      "Value": "suscipit",
+      "Name": "Cummerata, Feeney and Kiehn",
+      "Value": "tempore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 903
+          "FieldType": "System.Int32",
+          "FieldLength": 203
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "ExtraField1": "aut",
-  "ExtraField2": "unde",
-  "ExtraField3": "quis",
-  "ExtraField4": "dolorum",
-  "ExtraField5": "dolor",
-  "InStock": 21361.344,
+  "RawExtraInfo": "at",
+  "ExtraField1": "nihil",
+  "ExtraField2": "repudiandae",
+  "ExtraField3": "quidem",
+  "ExtraField4": "laudantium",
+  "ExtraField5": "accusamus",
+  "InStock": 10364.137999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldType": "System.String",
+      "FieldLength": 605
     }
   }
 }

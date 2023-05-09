@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "numquam",
+  "SaleText": "aut",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -124,113 +124,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2016-10-19T15:29:22.6537966+02:00",
-  "Amount": 23602.154,
-  "SaleId": 957,
-  "Earning": 30512.624,
-  "EarningPercent": 11492.377999999999,
-  "Heading": "aperiam",
-  "Number": "365654",
-  "Probability": 292,
-  "CreatedDate": "2001-05-01T15:29:22.6537966+02:00",
-  "UpdatedDate": "1998-02-08T15:29:22.6537966+01:00",
+  "Saledate": "2018-02-06T03:51:28.0840246+01:00",
+  "Amount": 30578.438,
+  "SaleId": 766,
+  "Earning": 586.058,
+  "EarningPercent": 8787.735999999999,
+  "Heading": "id",
+  "Number": "996022",
+  "Probability": 454,
+  "CreatedDate": "2017-12-11T03:51:28.0840246+01:00",
+  "UpdatedDate": "2003-02-07T03:51:28.0840246+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 208,
+  "ActiveLinks": 719,
   "Links": [
     {
-      "EntityName": "Frami-Ruecker",
-      "Id": 551,
-      "Description": "Customer-focused 3rd generation installation",
-      "ExtraInfo": "natus",
-      "LinkId": 1001,
+      "EntityName": "Deckow Inc and Sons",
+      "Id": 907,
+      "Description": "Down-sized demand-driven toolset",
+      "ExtraInfo": "deleniti",
+      "LinkId": 581,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 978
+          "FieldLength": 493
         }
       }
     }
   ],
-  "NextDueDate": "2022-10-08T15:29:22.6537966+02:00",
-  "Postit": "perferendis",
+  "NextDueDate": "2010-03-15T03:51:28.0840246+01:00",
+  "Postit": "ut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2011-08-23T15:29:22.6542966+02:00",
+  "ReopenDate": "2008-05-08T03:51:28.0840246+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hoeger, Harvey and Boyer",
-      "Comment": "ut",
-      "StakeholderRoleId": 357,
-      "CountryId": 369,
-      "PersonId": 447,
-      "EmailDescription": "charity_bayer@russel.us",
-      "EmailId": 31,
-      "EmailAddress": "harmony@dubuque.ca",
-      "PhoneId": 356,
-      "ContactName": "Mante-Towne",
-      "ContactId": 843,
-      "SaleId": 630,
-      "Mrmrs": "ut",
-      "Firstname": "Kaci",
-      "MiddleName": "Hane, Osinski and Huels",
-      "Lastname": "Smith",
-      "SaleStakeholderId": 668,
-      "Rank": 401,
-      "Phone": "(242)346-6542",
+      "StakeholderRoleName": "Christiansen, Effertz and Gislason",
+      "Comment": "nisi",
+      "StakeholderRoleId": 764,
+      "CountryId": 957,
+      "PersonId": 510,
+      "EmailDescription": "jana@mann.ca",
+      "EmailId": 753,
+      "EmailAddress": "blaze@collier.info",
+      "PhoneId": 662,
+      "ContactName": "Nicolas, Reichel and Tromp",
+      "ContactId": 238,
+      "SaleId": 864,
+      "Mrmrs": "in",
+      "Firstname": "Thurman",
+      "MiddleName": "McClure-Kuhlman",
+      "Lastname": "Bogisich",
+      "SaleStakeholderId": 858,
+      "Rank": 775,
+      "Phone": "809-535-5115 x2312",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldLength": 785
         }
       }
     }
   ],
-  "ActiveErpLinks": 990,
+  "ActiveErpLinks": 771,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Kirstin Bahringer"
+    "SuperOffice:1": "Myrtice Becker",
+    "SuperOffice:2": "Retha Bins"
   },
   "ExtraFields": {
-    "ExtraFields1": "minus",
-    "ExtraFields2": "neque"
+    "ExtraFields1": "illum",
+    "ExtraFields2": "praesentium"
   },
   "CustomFields": {
-    "CustomFields1": "facere",
-    "CustomFields2": "dicta"
+    "CustomFields1": "omnis",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2007-12-01T15:29:22.6552966+01:00",
-  "PublishTo": "2000-12-28T15:29:22.6552966+01:00",
-  "PublishFrom": "2023-03-10T15:29:22.6552966+01:00",
+  "PublishEventDate": "2022-08-22T03:51:28.0840246+02:00",
+  "PublishTo": "2012-07-29T03:51:28.0840246+02:00",
+  "PublishFrom": "2011-12-25T03:51:28.0840246+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 583,
+      "VisibleId": 493,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 774
+          "FieldLength": 757
         }
       }
     },
     {
-      "VisibleId": 583,
+      "VisibleId": 493,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 774
+          "FieldLength": 757
         }
       }
     }
@@ -240,7 +240,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 5
     }
   }
 }

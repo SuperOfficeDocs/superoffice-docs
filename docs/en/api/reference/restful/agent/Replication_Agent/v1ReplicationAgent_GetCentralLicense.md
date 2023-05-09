@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Treutel, Stoltenberg and Berge",
-    "Description": "Ergonomic reciprocal process improvement",
+    "Name": "Collins, Ruecker and Hand",
+    "Description": "Customizable intangible orchestration",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 669,
-        "Tooltip": "reprehenderit",
+        "Total": 325,
+        "Tooltip": "et",
         "CanAssign": true,
-        "Free": 74,
-        "InUse": 122,
-        "IsHidden": true,
+        "Free": 787,
+        "InUse": 311,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 189,
-        "Name": "Gorczany Group",
-        "Description": "Versatile disintermediate function",
-        "PrerequisiteModuleName": "Rath-Heathcote",
-        "SortOrder": 918,
-        "ExtraFlags": 886,
+        "ModuleLicenseId": 261,
+        "Name": "Streich Inc and Sons",
+        "Description": "Persevering national circuit",
+        "PrerequisiteModuleName": "Hessel Inc and Sons",
+        "SortOrder": 789,
+        "ExtraFlags": 108,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 353
+            "FieldLength": 269
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 421,
-        "Tooltip": "quia",
+        "Unrestricted": true,
+        "Total": 610,
+        "Tooltip": "minus",
         "CanAssign": false,
-        "Free": 18,
-        "InUse": 785,
-        "IsHidden": false,
+        "Free": 679,
+        "InUse": 161,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 343,
-        "Name": "Cruickshank, Pagac and Bins",
-        "Description": "Multi-layered optimizing installation",
-        "PrerequisiteModuleName": "Pagac Inc and Sons",
-        "SortOrder": 419,
-        "ExtraFlags": 384,
+        "ModuleLicenseId": 726,
+        "Name": "Altenwerth, Rath and Quitzon",
+        "Description": "Stand-alone modular throughput",
+        "PrerequisiteModuleName": "Bosco-Klocko",
+        "SortOrder": 196,
+        "ExtraFlags": 148,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 986
+            "FieldLength": 957
           }
         }
       }
@@ -139,61 +139,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldLength": 543
       }
     }
   },
   {
-    "Name": "Treutel, Stoltenberg and Berge",
-    "Description": "Ergonomic reciprocal process improvement",
+    "Name": "Collins, Ruecker and Hand",
+    "Description": "Customizable intangible orchestration",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 669,
-        "Tooltip": "reprehenderit",
+        "Total": 325,
+        "Tooltip": "et",
         "CanAssign": true,
-        "Free": 74,
-        "InUse": 122,
-        "IsHidden": true,
+        "Free": 787,
+        "InUse": 311,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 189,
-        "Name": "Gorczany Group",
-        "Description": "Versatile disintermediate function",
-        "PrerequisiteModuleName": "Rath-Heathcote",
-        "SortOrder": 918,
-        "ExtraFlags": 886,
+        "ModuleLicenseId": 261,
+        "Name": "Streich Inc and Sons",
+        "Description": "Persevering national circuit",
+        "PrerequisiteModuleName": "Hessel Inc and Sons",
+        "SortOrder": 789,
+        "ExtraFlags": 108,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 353
+            "FieldLength": 269
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 421,
-        "Tooltip": "quia",
+        "Unrestricted": true,
+        "Total": 610,
+        "Tooltip": "minus",
         "CanAssign": false,
-        "Free": 18,
-        "InUse": 785,
-        "IsHidden": false,
+        "Free": 679,
+        "InUse": 161,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 343,
-        "Name": "Cruickshank, Pagac and Bins",
-        "Description": "Multi-layered optimizing installation",
-        "PrerequisiteModuleName": "Pagac Inc and Sons",
-        "SortOrder": 419,
-        "ExtraFlags": 384,
+        "ModuleLicenseId": 726,
+        "Name": "Altenwerth, Rath and Quitzon",
+        "Description": "Stand-alone modular throughput",
+        "PrerequisiteModuleName": "Bosco-Klocko",
+        "SortOrder": 196,
+        "ExtraFlags": 148,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 986
+            "FieldLength": 957
           }
         }
       }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldLength": 543
       }
     }
   }

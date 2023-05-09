@@ -78,23 +78,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 295,
-  "Name": "Conroy LLC",
-  "CreatedDate": "2007-06-05T15:29:21.906282+02:00",
-  "UpdatedDate": "2007-07-22T15:29:21.906282+02:00",
+  "ForeignAppId": 916,
+  "Name": "Boyle Group",
+  "CreatedDate": "2006-04-05T03:51:27.3342054+02:00",
+  "UpdatedDate": "1998-07-24T03:51:27.3342054+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 675,
-      "Name": "Lemke Inc and Sons",
-      "CreatedDate": "2001-02-12T15:29:21.9073085+01:00",
-      "UpdatedDate": "2023-03-13T15:29:21.9073085+01:00",
-      "AssociateFullName": "Freida Block",
-      "CreatedBy": "ut",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "atque",
-      "ForeignAppId": 293
+      "ForeignDeviceId": 716,
+      "Name": "Rempel LLC",
+      "CreatedDate": "2021-09-24T03:51:27.3342054+02:00",
+      "UpdatedDate": "2017-11-12T03:51:27.3342054+01:00",
+      "AssociateFullName": "Prof. Mireya Dach DVM",
+      "CreatedBy": "laudantium",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "dolorem",
+      "ForeignAppId": 347
     }
   ]
 }
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 581,
-  "Name": "Olson Group",
-  "CreatedDate": "2020-10-12T15:29:21.9083071+02:00",
-  "UpdatedDate": "2004-10-25T15:29:21.9083071+02:00",
+  "ForeignAppId": 354,
+  "Name": "Sporer, Hermiston and Smitham",
+  "CreatedDate": "2022-02-04T03:51:27.3342054+01:00",
+  "UpdatedDate": "2017-04-07T03:51:27.3342054+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 966,
-      "Name": "Collins LLC",
-      "CreatedDate": "2012-11-23T15:29:21.9088074+01:00",
-      "UpdatedDate": "2022-06-10T15:29:21.9088074+02:00",
-      "AssociateFullName": "Mrs. Betty Aufderhar",
-      "CreatedBy": "tempora",
-      "UpdatedBy": "commodi",
-      "DeviceIdentifier": "veritatis",
-      "ForeignAppId": 523,
+      "ForeignDeviceId": 266,
+      "Name": "White, Anderson and Schoen",
+      "CreatedDate": "2004-04-12T03:51:27.3342054+02:00",
+      "UpdatedDate": "2017-01-19T03:51:27.3342054+01:00",
+      "AssociateFullName": "Bartholome Becker",
+      "CreatedBy": "eveniet",
+      "UpdatedBy": "maxime",
+      "DeviceIdentifier": "doloribus",
+      "ForeignAppId": 230,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 966
+          "FieldLength": 313
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 125
+      "FieldLength": 354
     }
   }
 }

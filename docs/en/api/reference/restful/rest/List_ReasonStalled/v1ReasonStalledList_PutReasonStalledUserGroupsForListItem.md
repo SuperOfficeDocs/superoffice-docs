@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Cummerata Group",
-    "ToolTip": "Et totam voluptas possimus expedita.",
+    "Id": 590,
+    "Name": "Pagac Inc and Sons",
+    "ToolTip": "Et et ullam aut commodi eos et rerum.",
     "Deleted": false,
-    "Rank": 208,
-    "Type": "odit",
-    "ColorBlock": 185,
-    "IconHint": "natus",
+    "Rank": 462,
+    "Type": "corrupti",
+    "ColorBlock": 265,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "2015-05-21T15:29:31.5664738+02:00",
+    "LastChanged": "2011-09-09T03:51:34.9426529+02:00",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Conroy-Roob",
-        "ToolTip": "Est illum.",
-        "Deleted": false,
-        "Rank": 70,
-        "Type": "saepe",
-        "ColorBlock": 338,
-        "IconHint": "magnam",
+        "Id": 616,
+        "Name": "Langworth-Hayes",
+        "ToolTip": "Quasi amet aut aut cupiditate temporibus nobis hic.",
+        "Deleted": true,
+        "Rank": 61,
+        "Type": "aliquid",
+        "ColorBlock": 887,
+        "IconHint": "consectetur",
         "Selected": true,
-        "LastChanged": "2008-09-24T15:29:31.5664738+02:00",
+        "LastChanged": "2009-09-27T03:51:34.9426529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Glen Franecki"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "excepturi",
+        "Hidden": false,
+        "FullName": "Camila Will"
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "doloremque",
-    "Hidden": false,
-    "FullName": "Mrs. Aaron Joaquin Kutch"
+    "ExtraInfo": "voluptates",
+    "StyleHint": "facilis",
+    "Hidden": true,
+    "FullName": "Josefa Satterfield"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Zieme-Kozey",
-    "ToolTip": "Ea ut.",
+    "Id": 479,
+    "Name": "Olson Group",
+    "ToolTip": "Et vel dolorum.",
     "Deleted": false,
-    "Rank": 799,
-    "Type": "ut",
-    "ColorBlock": 946,
-    "IconHint": "dolorem",
+    "Rank": 810,
+    "Type": "quia",
+    "ColorBlock": 705,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2007-02-14T15:29:31.5679742+01:00",
+    "LastChanged": "2006-01-23T03:51:34.9426529+01:00",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Lynch LLC",
-        "ToolTip": "Suscipit velit quaerat enim est.",
+        "Id": 71,
+        "Name": "Hoeger Inc and Sons",
+        "ToolTip": "Debitis fugiat.",
         "Deleted": false,
-        "Rank": 59,
-        "Type": "molestias",
-        "ColorBlock": 289,
-        "IconHint": "commodi",
+        "Rank": 960,
+        "Type": "doloremque",
+        "ColorBlock": 24,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2017-03-11T15:29:31.5679742+01:00",
+        "LastChanged": "1998-02-07T03:51:34.9426529+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "porro",
+        "ExtraInfo": "quae",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Sylvan Mayer",
+        "FullName": "Ahmed Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 347
+            "FieldType": "System.String",
+            "FieldLength": 794
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Aurelia Sanford",
+    "ExtraInfo": "placeat",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Lauriane Becker IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldType": "System.Int32",
+        "FieldLength": 328
       }
     }
   }

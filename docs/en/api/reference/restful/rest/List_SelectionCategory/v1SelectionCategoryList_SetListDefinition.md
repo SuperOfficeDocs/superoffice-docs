@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 212,
-  "Name": "McCullough-Hagenes",
-  "Tooltip": "ut",
+  "Id": 100,
+  "Name": "Rolfson-Hills",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 660,
-  "IsCustomList": true,
+  "Rank": 605,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eligendi",
-  "InUseByUserDefinedFields": false
+  "ListType": "hic",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 153,
-  "Name": "O'Reilly-Cronin",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "Rank": 473,
+  "Id": 889,
+  "Name": "Schultz, Haley and Hirthe",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 804,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quis",
+  "ListType": "inventore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldType": "System.String",
+      "FieldLength": 30
     }
   }
 }

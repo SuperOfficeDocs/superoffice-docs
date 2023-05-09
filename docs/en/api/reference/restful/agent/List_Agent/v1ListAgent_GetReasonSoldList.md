@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 585,
-    "Value": "consequatur",
-    "Tooltip": "perspiciatis",
+    "Id": 735,
+    "Value": "mollitia",
+    "Tooltip": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 239
+        "FieldLength": 827
       }
     }
   },
   {
-    "Id": 585,
-    "Value": "consequatur",
-    "Tooltip": "perspiciatis",
+    "Id": 735,
+    "Value": "mollitia",
+    "Tooltip": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 239
+        "FieldLength": 827
       }
     }
   }

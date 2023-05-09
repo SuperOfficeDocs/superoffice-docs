@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 178,
+  "AppointmentId": 547,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -147,122 +147,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-02-14T15:29:20.6113223+01:00",
-  "AppointmentId": 538,
-  "Description": "Optimized transitional frame",
-  "StartDate": "2014-02-22T15:29:20.6113223+01:00",
-  "EndDate": "2011-09-20T15:29:20.6113223+02:00",
+  "CreatedDate": "2013-05-07T03:51:26.2875764+02:00",
+  "AppointmentId": 496,
+  "Description": "Stand-alone zero defect extranet",
+  "StartDate": "2003-09-20T03:51:26.2875764+02:00",
+  "EndDate": "2001-01-28T03:51:26.2875764+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 885,
+  "MotherId": 142,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-01-08T15:29:20.6138261+01:00",
+  "UpdatedDate": "2020-11-25T03:51:26.2875764+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 134,
+  "ActiveLinks": 802,
   "Links": [
     {
-      "EntityName": "Bayer-Wilkinson",
-      "Id": 353,
-      "Description": "De-engineered zero tolerance forecast",
-      "ExtraInfo": "veniam",
-      "LinkId": 769,
+      "EntityName": "Morissette-Murphy",
+      "Id": 770,
+      "Description": "Vision-oriented context-sensitive success",
+      "ExtraInfo": "nisi",
+      "LinkId": 775,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 123
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     }
   ],
-  "AlarmLeadTime": "harum",
+  "AlarmLeadTime": "sunt",
   "HasAlarm": false,
-  "ColorIndex": 146,
+  "ColorIndex": 431,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "qui",
-  "Location": "qui",
-  "RejectCounter": 357,
+  "LagTime": "libero",
+  "LeadTime": "occaecati",
+  "Location": "provident",
+  "RejectCounter": 1001,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 427,
-      "PersonId": 381,
-      "ContactId": 566,
-      "EmailId": 790,
-      "SendEmail": true,
+      "AssociateId": 529,
+      "PersonId": 880,
+      "ContactId": 152,
+      "EmailId": 863,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 427,
-      "PersonId": 381,
-      "ContactId": 566,
-      "EmailId": 790,
-      "SendEmail": true,
+      "AssociateId": 529,
+      "PersonId": 880,
+      "ContactId": 152,
+      "EmailId": 863,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-03-18T15:29:20.6148255+01:00",
+  "ActiveDate": "2021-08-30T03:51:26.2875764+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 916,
+  "PreferredTZLocation": 776,
   "Sale": null,
-  "SuggestedAppointmentId": 177,
+  "SuggestedAppointmentId": 458,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "accusamus",
+  "CentralserviceVideomeetId": "impedit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Stuart Stoltenberg",
-    "SuperOffice:2": "Vito Mills"
+    "SuperOffice:1": "Ms. Shyanne Marcellus Hills",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "laudantium"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "omnis"
+    "CustomFields1": "dolore",
+    "CustomFields2": "quam"
   },
-  "PublishEventDate": "2013-12-19T15:29:20.6163287+01:00",
-  "PublishTo": "2019-09-13T15:29:20.6163287+02:00",
-  "PublishFrom": "1998-02-14T15:29:20.6163287+01:00",
+  "PublishEventDate": "2020-09-06T03:51:26.2875764+02:00",
+  "PublishTo": "2018-09-07T03:51:26.2875764+02:00",
+  "PublishFrom": "1997-11-01T03:51:26.2875764+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 465,
+      "VisibleId": 918,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 416
+          "FieldType": "System.Int32",
+          "FieldLength": 497
         }
       }
     },
     {
-      "VisibleId": 465,
+      "VisibleId": 918,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 416
+          "FieldType": "System.Int32",
+          "FieldLength": 497
         }
       }
     }
@@ -271,8 +271,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldType": "System.String",
+      "FieldLength": 219
     }
   }
 }

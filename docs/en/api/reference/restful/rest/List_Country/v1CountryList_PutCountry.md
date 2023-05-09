@@ -103,27 +103,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 385,
-  "Name": "Trantow, Prohaska and Bernhard",
-  "CurrencyId": 853,
-  "EnglishName": "Trantow, Jast and Langosh",
+  "CountryId": 344,
+  "Name": "Hintz, Harris and Schmidt",
+  "CurrencyId": 307,
+  "EnglishName": "Hilll-Green",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Persistent clear-thinking functionalities",
-  "OrgNrText": "1972838",
-  "InterAreaPrefix": "eveniet",
-  "DialInPrefix": "rerum",
-  "ZipPrefix": "accusamus",
-  "DomainName": "Bergstrom-Sanford",
-  "AddressLayoutId": 212,
-  "DomesticAddressLayoutId": 629,
-  "ForeignAddressLayoutId": 485,
-  "Rank": 29,
-  "Tooltip": "quaerat",
+  "ImageDescription": "Proactive discrete focus group",
+  "OrgNrText": "1287009",
+  "InterAreaPrefix": "tenetur",
+  "DialInPrefix": "facere",
+  "ZipPrefix": "illum",
+  "DomainName": "Skiles LLC",
+  "AddressLayoutId": 215,
+  "DomesticAddressLayoutId": 676,
+  "ForeignAddressLayoutId": 459,
+  "Rank": 766,
+  "Tooltip": "voluptatem",
   "Deleted": false
 }
 ```
@@ -135,30 +135,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 365,
-  "Name": "Casper Group",
-  "CurrencyId": 33,
-  "EnglishName": "Mante-Hackett",
+  "CountryId": 397,
+  "Name": "Becker-Bins",
+  "CurrencyId": 815,
+  "EnglishName": "Gutkowski-Willms",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Customizable dynamic standardization",
-  "OrgNrText": "348052",
-  "InterAreaPrefix": "doloremque",
-  "DialInPrefix": "voluptates",
-  "ZipPrefix": "perspiciatis",
-  "DomainName": "Donnelly Inc and Sons",
-  "AddressLayoutId": 31,
-  "DomesticAddressLayoutId": 387,
-  "ForeignAddressLayoutId": 178,
-  "Rank": 212,
-  "Tooltip": "adipisci",
+  "ImageDescription": "Organized discrete definition",
+  "OrgNrText": "772697",
+  "InterAreaPrefix": "maiores",
+  "DialInPrefix": "exercitationem",
+  "ZipPrefix": "deserunt",
+  "DomainName": "Muller-Blick",
+  "AddressLayoutId": 257,
+  "DomesticAddressLayoutId": 994,
+  "ForeignAddressLayoutId": 929,
+  "Rank": 285,
+  "Tooltip": "minima",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldType": "System.Int32",
+      "FieldLength": 472
     }
   }
 }

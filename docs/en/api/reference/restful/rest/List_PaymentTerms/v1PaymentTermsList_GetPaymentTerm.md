@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 362,
-  "Name": "Streich Inc and Sons",
-  "Tooltip": "consequatur",
+  "Id": 252,
+  "Name": "Ankunding-Bergnaum",
+  "Tooltip": "id",
   "Deleted": false,
-  "UdListDefinitionId": 886,
-  "Rank": 513,
+  "UdListDefinitionId": 829,
+  "Rank": 489,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 421
     }
   }
 }

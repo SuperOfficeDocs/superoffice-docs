@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "McGlynn Inc and Sons",
-    "ToolTip": "Tempora repudiandae dolorem sit sit autem quasi molestiae.",
+    "Id": 539,
+    "Name": "Stehr LLC",
+    "ToolTip": "Aut eaque accusantium dolor voluptas optio accusantium quibusdam.",
     "Deleted": false,
-    "Rank": 403,
-    "Type": "doloremque",
-    "ColorBlock": 769,
-    "IconHint": "ut",
+    "Rank": 847,
+    "Type": "eum",
+    "ColorBlock": 230,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2016-11-15T15:29:31.356977+01:00",
+    "LastChanged": "2004-07-20T03:51:34.7708309+02:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Denesik-Beier",
-        "ToolTip": "Dolor qui repudiandae.",
+        "Id": 548,
+        "Name": "Sipes, Marvin and Morar",
+        "ToolTip": "Totam ratione.",
         "Deleted": false,
-        "Rank": 864,
-        "Type": "porro",
-        "ColorBlock": 820,
-        "IconHint": "incidunt",
-        "Selected": false,
-        "LastChanged": "2018-11-07T15:29:31.356977+01:00",
+        "Rank": 961,
+        "Type": "voluptatem",
+        "ColorBlock": 326,
+        "IconHint": "mollitia",
+        "Selected": true,
+        "LastChanged": "2021-04-24T03:51:34.7708309+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "omnis",
+        "ExtraInfo": "cumque",
+        "StyleHint": "hic",
         "Hidden": false,
-        "FullName": "Joan Hagenes",
+        "FullName": "Miss Mireille Laney White",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 309
+            "FieldType": "System.String",
+            "FieldLength": 160
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "consequatur",
-    "Hidden": true,
-    "FullName": "Maureen Effertz",
+    "ExtraInfo": "esse",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Ms. Daron Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 27
+        "FieldLength": 833
       }
     }
   }

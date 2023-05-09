@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 463,
-    "Name": "Dach Group",
-    "ToolTip": "Quibusdam et recusandae ex quos recusandae ab.",
-    "Deleted": true,
-    "Rank": 502,
-    "Type": "fugit",
-    "ColorBlock": 743,
-    "IconHint": "et",
+    "Id": 711,
+    "Name": "Waters-Barton",
+    "ToolTip": "Nam in blanditiis nihil earum placeat culpa aperiam.",
+    "Deleted": false,
+    "Rank": 987,
+    "Type": "nulla",
+    "ColorBlock": 194,
+    "IconHint": "perspiciatis",
     "Selected": false,
-    "LastChanged": "2016-07-17T15:29:31.303478+02:00",
+    "LastChanged": "2021-11-20T03:51:34.7239677+01:00",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Witting Group",
-        "ToolTip": "Enim omnis quia nobis amet et distinctio.",
-        "Deleted": true,
-        "Rank": 994,
-        "Type": "ut",
-        "ColorBlock": 280,
-        "IconHint": "autem",
+        "Id": 281,
+        "Name": "Johnson, Marvin and Carroll",
+        "ToolTip": "Eaque quod dolorem ut deserunt.",
+        "Deleted": false,
+        "Rank": 527,
+        "Type": "in",
+        "ColorBlock": 856,
+        "IconHint": "quam",
         "Selected": true,
-        "LastChanged": "2015-03-29T15:29:31.303478+02:00",
+        "LastChanged": "2015-10-12T03:51:34.7239677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Domenic Howell",
+        "ExtraInfo": "beatae",
+        "StyleHint": "maxime",
+        "Hidden": true,
+        "FullName": "Prof. Shane Keebler V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 822
+            "FieldType": "System.Int32",
+            "FieldLength": 164
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "inventore",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "vero",
     "Hidden": true,
-    "FullName": "Alisha Morissette",
+    "FullName": "Mr. Maxie Ernser Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldType": "System.String",
+        "FieldLength": 71
       }
     }
   }

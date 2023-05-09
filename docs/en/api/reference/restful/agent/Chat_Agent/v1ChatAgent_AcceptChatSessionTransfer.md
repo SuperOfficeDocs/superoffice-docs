@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 748
+  "ChatSessionId": 247
 }
 ```
 
@@ -119,43 +119,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 522,
-  "TopicId": 332,
+  "ChatSessionId": 486,
+  "TopicId": 788,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eum",
-  "CustomerHost": "rerum",
-  "CustomerName": "Kling-Nienow",
-  "CustomerEmail": "keshawn_wisoky@terrystamm.biz",
-  "CustomerPhone": "803-250-3997 x647",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Legros-Renner",
+  "CustomerAlias": "non",
+  "CustomerHost": "ipsum",
+  "CustomerName": "Bradtke-Johnson",
+  "CustomerEmail": "lane@kirlin.name",
+  "CustomerPhone": "1-680-379-4372 x471",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Johnston Group",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "adipisci",
-  "WhenRequested": "2000-05-18T15:29:20.9442878+02:00",
-  "WhenStarted": "2000-10-07T15:29:20.9442878+02:00",
-  "WhenEnded": "1996-03-31T15:29:20.9442878+02:00",
-  "WhenIdle": "2009-03-03T15:29:20.9442878+01:00",
-  "WhenFetched": "2010-01-26T15:29:20.9442878+01:00",
-  "SessionKey": "quia",
-  "InitialQueuePos": 990,
-  "AlertLevel": 86,
-  "Rank": 874,
+  "FirstMessage": "culpa",
+  "LastMessage": "non",
+  "WhenRequested": "2015-08-16T03:51:26.7093472+02:00",
+  "WhenStarted": "2004-10-14T03:51:26.7093472+02:00",
+  "WhenEnded": "2015-05-08T03:51:26.7093472+02:00",
+  "WhenIdle": "2017-07-29T03:51:26.7093472+02:00",
+  "WhenFetched": "2015-09-13T03:51:26.7093472+02:00",
+  "SessionKey": "labore",
+  "InitialQueuePos": 153,
+  "AlertLevel": 599,
+  "Rank": 900,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 269,
+  "ChatbotIsActive": false,
+  "Rating": 76,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 708
+      "FieldType": "System.Int32",
+      "FieldLength": 777
     }
   }
 }

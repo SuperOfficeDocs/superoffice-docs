@@ -80,19 +80,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 742,
-  "Name": "Kovacek, Wolff and Kreiger",
-  "Tooltip": "est",
-  "Rank": 741,
-  "Rate": 28187.196,
-  "Units": 23661.7,
+  "CurrencyId": 912,
+  "Name": "Torphy LLC",
+  "Tooltip": "et",
+  "Rank": 818,
+  "Rate": 30487.552,
+  "Units": 13178.47,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldLength": 879
     }
   }
 }

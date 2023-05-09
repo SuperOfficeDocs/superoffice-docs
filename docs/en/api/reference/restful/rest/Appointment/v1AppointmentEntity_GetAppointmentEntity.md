@@ -129,7 +129,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -137,70 +137,70 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 05 Oct 2008 15:29:29 G10T
+Last-Modified: Fri, 31 Jul 2020 03:51:33 G7T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-01-19T15:29:29.168707+01:00",
-  "AppointmentId": 395,
-  "Description": "Automated well-modulated middleware",
-  "StartDate": "2004-12-31T15:29:29.168707+01:00",
-  "EndDate": "2013-10-02T15:29:29.168707+02:00",
+  "CreatedDate": "2016-04-17T03:51:33.0523479+02:00",
+  "AppointmentId": 667,
+  "Description": "Managed upward-trending workforce",
+  "StartDate": "2009-08-26T03:51:33.0523479+02:00",
+  "EndDate": "2017-07-15T03:51:33.0523479+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 115,
+  "MotherId": 741,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-10-05T15:29:29.1722126+02:00",
+  "UpdatedDate": "2020-07-31T03:51:33.0523479+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 940,
+  "ActiveLinks": 490,
   "Links": [
     {
-      "EntityName": "Ullrich LLC",
-      "Id": 783,
-      "Description": "Phased disintermediate challenge",
-      "ExtraInfo": "ex",
-      "LinkId": 845,
+      "EntityName": "Schuster-Barton",
+      "Id": 283,
+      "Description": "Ergonomic value-added knowledge base",
+      "ExtraInfo": "magni",
+      "LinkId": 135,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldType": "System.Int32",
+          "FieldLength": 700
         }
       }
     }
   ],
   "AlarmLeadTime": "et",
   "HasAlarm": false,
-  "ColorIndex": 403,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "quibusdam",
-  "LeadTime": "fuga",
-  "Location": "facere",
-  "RejectCounter": 741,
-  "RejectReason": "",
+  "ColorIndex": 878,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "debitis",
+  "LeadTime": "vero",
+  "Location": "fugiat",
+  "RejectCounter": 735,
+  "RejectReason": "monetize holistic relationships",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 222,
-      "PersonId": 921,
-      "ContactId": 485,
-      "EmailId": 703,
+      "AssociateId": 881,
+      "PersonId": 104,
+      "ContactId": 888,
+      "EmailId": 459,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 222,
-      "PersonId": 921,
-      "ContactId": 485,
-      "EmailId": 703,
+      "AssociateId": 881,
+      "PersonId": 104,
+      "ContactId": 888,
+      "EmailId": 459,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -208,58 +208,58 @@ Last-Modified: Sun, 05 Oct 2008 15:29:29 G10T
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-07-22T15:29:29.1727069+02:00",
+  "ActiveDate": "2013-04-03T03:51:33.0523479+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 314,
+  "PreferredTZLocation": 161,
   "Sale": null,
-  "SuggestedAppointmentId": 192,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 57,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "consequatur",
+  "CentralserviceVideomeetId": "eum",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Miracle Schumm"
+    "SuperOffice:1": "438487839",
+    "SuperOffice:2": "2076191629"
   },
   "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "natus"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "ducimus"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "2008-04-22T15:29:29.1752068+02:00",
-  "PublishTo": "2010-05-15T15:29:29.1752068+02:00",
-  "PublishFrom": "1996-02-29T15:29:29.1752068+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2006-02-25T03:51:33.0523479+01:00",
+  "PublishTo": "2014-11-30T03:51:33.0523479+01:00",
+  "PublishFrom": "2002-02-24T03:51:33.0523479+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 301,
+      "VisibleId": 61,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 270
+          "FieldLength": 849
         }
       }
     },
     {
-      "VisibleId": 301,
+      "VisibleId": 61,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 270
+          "FieldLength": 849
         }
       }
     }
@@ -269,7 +269,7 @@ Last-Modified: Sun, 05 Oct 2008 15:29:29 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldLength": 603
     }
   },
   "_Links": {

@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "id"
+  "MimeMessage": "quo"
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 58,
-      "ContactName": "Auer-Tremblay",
-      "PersonId": 877,
-      "PersonName": "Lindgren Inc and Sons",
-      "AssociateId": 969,
-      "Address": "eos",
-      "EmailId": 261,
+      "ContactId": 438,
+      "ContactName": "Botsford LLC",
+      "PersonId": 888,
+      "PersonName": "Ritchie LLC",
+      "AssociateId": 164,
+      "Address": "quae",
+      "EmailId": 143,
       "DuplicatePersonIds": [
-        627,
-        784
+        384,
+        729
       ],
-      "Name": "Wolff-Stanton",
+      "Name": "Willms Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 392
+          "FieldType": "System.String",
+          "FieldLength": 398
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 745,
-      "ContactName": "Casper-Kunde",
-      "PersonId": 133,
-      "PersonName": "Haley, Ullrich and Kunde",
-      "AssociateId": 704,
-      "Address": "facilis",
-      "EmailId": 41,
+      "ContactId": 344,
+      "ContactName": "Halvorson LLC",
+      "PersonId": 941,
+      "PersonName": "Klein LLC",
+      "AssociateId": 909,
+      "Address": "quasi",
+      "EmailId": 849,
       "DuplicatePersonIds": [
-        866,
-        557
+        677,
+        293
       ],
-      "Name": "Mosciski-Gusikowski",
+      "Name": "Jones Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldType": "System.String",
+          "FieldLength": 215
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 91,
-      "ContactName": "Raynor-Prohaska",
-      "PersonId": 440,
-      "PersonName": "Emard Inc and Sons",
-      "AssociateId": 70,
-      "Address": "dolor",
-      "EmailId": 960,
+      "ContactId": 987,
+      "ContactName": "Runolfsson, Jacobs and Botsford",
+      "PersonId": 560,
+      "PersonName": "Langosh Inc and Sons",
+      "AssociateId": 845,
+      "Address": "molestiae",
+      "EmailId": 664,
       "DuplicatePersonIds": [
-        615,
-        81
+        24,
+        657
       ],
-      "Name": "Sanford Group",
+      "Name": "Reynolds-Cronin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 769
         }
       }
     }
   ],
-  "Subject": "ut",
-  "HTMLBody": "in",
+  "Subject": "dolore",
+  "HTMLBody": "temporibus",
   "From": null,
-  "Sent": "1996-08-30T15:29:21.8107747+02:00",
-  "Size": 991,
+  "Sent": "2012-06-05T03:51:27.2560919+02:00",
+  "Size": 51,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "error",
-  "PlainBody": "eos",
-  "IsSent": false,
+  "MessageID": "veritatis",
+  "PlainBody": "ex",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 65,
+  "ServerId": 598,
   "Attachments": [
     {
-      "Description": "Secured 6th generation archive",
-      "Filename": "ut",
-      "Size": 97,
-      "Type": "fuga",
-      "Encoding": "repellat",
-      "Id": "doloribus",
-      "Disposition": "voluptas",
+      "Description": "Implemented regional forecast",
+      "Filename": "labore",
+      "Size": 850,
+      "Type": "praesentium",
+      "Encoding": "expedita",
+      "Id": "laboriosam",
+      "Disposition": "nobis",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 508
+          "FieldLength": 202
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "VonRueden-Schoen",
+      "Name": "Swift-Langosh",
       "Values": [
-        "quidem",
-        "voluptate"
+        "veritatis",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldLength": 538
         }
       }
     },
     {
-      "Name": "VonRueden-Schoen",
+      "Name": "Swift-Langosh",
       "Values": [
-        "quidem",
-        "voluptate"
+        "veritatis",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldLength": 538
         }
       }
     }
   ],
-  "FolderName": "Herman Group",
-  "EmailItemId": 834,
-  "AccountId": 797,
-  "ReceivedAt": "2021-07-04T15:29:21.8107747+02:00",
+  "FolderName": "Harris-Sporer",
+  "EmailItemId": 870,
+  "AccountId": 68,
+  "ReceivedAt": "2011-02-20T03:51:27.2560919+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-02-11T15:29:21.8112757+01:00",
+  "RepliedAt": "2000-10-07T03:51:27.2560919+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 597
     }
   }
 }

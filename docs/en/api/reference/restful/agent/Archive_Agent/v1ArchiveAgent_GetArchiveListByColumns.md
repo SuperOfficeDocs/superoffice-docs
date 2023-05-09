@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Prohaska LLC",
+  "ProviderName": "Veum-Krajcik",
   "Columns": [
-    "sunt",
-    "nostrum"
+    "quia",
+    "aut"
   ],
   "SortOrder": [
     {
-      "Name": "Kuhn-Boehm",
+      "Name": "Prohaska Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Kuhn-Boehm",
+      "Name": "Prohaska Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Legros Group",
-      "Operator": "ea",
+      "Name": "Cole LLC",
+      "Operator": "aspernatur",
       "Values": [
-        "repudiandae",
-        "sit"
+        "et",
+        "dicta"
       ],
       "DisplayValues": [
-        "veritatis",
-        "sint"
+        "rerum",
+        "quia"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,17 +139,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 338,
+      "InterParenthesis": 557,
       "InterOperator": "And",
-      "UniqueHash": 483
+      "UniqueHash": 4
     }
   ],
   "Entities": [
-    "dolores",
-    "incidunt"
+    "dicta",
+    "eaque"
   ],
-  "Page": 354,
-  "PageSize": 637
+  "Page": 370,
+  "PageSize": 461
 }
 ```
 
@@ -161,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Boyer, VonRueden and Effertz",
-    "PrimaryKey": 289,
+    "EntityName": "Stoltenberg, Borer and Schaefer",
+    "PrimaryKey": 331,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "odio",
-        "TooltipHint": "consequatur",
-        "LinkHint": "sint"
+        "DisplayValue": "cumque",
+        "TooltipHint": "mollitia",
+        "LinkHint": "ut"
       }
     },
-    "LinkHint": "molestiae",
-    "StyleHint": "autem",
+    "LinkHint": "vitae",
+    "StyleHint": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldLength": 753
       }
     }
   }

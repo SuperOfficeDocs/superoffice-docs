@@ -100,15 +100,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 922,
-  "ERPPriceListKey": "illum",
-  "QuoteConnectionId": 187,
-  "Name": "Hintz Group",
-  "Description": "Public-key neutral portal",
-  "Currency": "est",
-  "CurrencyName": "Bruen, Trantow and Daniel",
-  "ValidFrom": "1997-01-01T15:29:31.3694769+01:00",
-  "ValidTo": "2002-09-15T15:29:31.3694769+02:00",
+  "PriceListId": 406,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 78,
+  "Name": "Block-Barton",
+  "Description": "Ergonomic homogeneous Graphical User Interface",
+  "Currency": "nihil",
+  "CurrencyName": "Kautzer, Orn and Kuhic",
+  "ValidFrom": "2014-12-30T03:51:34.7708309+01:00",
+  "ValidTo": "2000-07-01T03:51:34.7708309+02:00",
   "IsActive": false
 }
 ```
@@ -120,27 +120,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 27,
-  "ERPPriceListKey": "voluptate",
-  "QuoteConnectionId": 512,
-  "Name": "Koelpin, Howe and Stoltenberg",
-  "Description": "Cross-group impactful system engine",
-  "Currency": "in",
-  "CurrencyName": "Orn-Quigley",
-  "ValidFrom": "1995-12-07T15:29:31.3709856+01:00",
-  "ValidTo": "2014-09-15T15:29:31.3709856+02:00",
-  "IsActive": false,
+  "PriceListId": 449,
+  "ERPPriceListKey": "aspernatur",
+  "QuoteConnectionId": 63,
+  "Name": "Adams, Walker and Bernier",
+  "Description": "Fundamental high-level encryption",
+  "Currency": "earum",
+  "CurrencyName": "Ziemann, Wolff and Raynor",
+  "ValidFrom": "2004-04-28T03:51:34.7708309+02:00",
+  "ValidTo": "2008-03-03T03:51:34.7708309+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldType": "System.String",
+      "FieldLength": 238
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

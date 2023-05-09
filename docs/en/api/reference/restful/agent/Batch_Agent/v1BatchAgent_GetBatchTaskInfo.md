@@ -97,7 +97,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 401
+  "Id": 590
 }
 ```
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 482,
-  "Name": "Hahn, Toy and Bayer",
-  "AssociateId": 518,
-  "DetailsTable": 199,
-  "DetailsRecord": 141,
+  "Id": 724,
+  "Name": "Homenick, Moen and Schumm",
+  "AssociateId": 118,
+  "DetailsTable": 595,
+  "DetailsRecord": 849,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "recusandae",
-    "ParameterObject2": "suscipit"
+    "ParameterObject1": "qui",
+    "ParameterObject2": "aut"
   },
-  "LastStarted": "2015-09-17T15:29:20.8202886+02:00",
-  "Created": "2006-03-21T15:29:20.8202886+01:00",
-  "StartCount": 449,
-  "DatabaseSerialNumber": "233997",
-  "Context": "perferendis",
-  "Result": "facilis",
+  "LastStarted": "2000-04-03T03:51:26.5999985+02:00",
+  "Created": "2020-10-31T03:51:26.5999985+01:00",
+  "StartCount": 702,
+  "DatabaseSerialNumber": "1262458",
+  "Context": "sapiente",
+  "Result": "quia",
   "State": "All",
-  "Description": "Upgradable bifurcated installation",
-  "Response": "sint",
-  "Request": "corrupti",
-  "ProgressDescription": "Focused holistic info-mediaries",
-  "ProgressPercent": 520,
-  "FileName": "Bergnaum, Hodkiewicz and Wiza",
+  "Description": "Public-key mission-critical alliance",
+  "Response": "ducimus",
+  "Request": "placeat",
+  "ProgressDescription": "Distributed incremental ability",
+  "ProgressPercent": 85,
+  "FileName": "Gorczany-Lind",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldType": "System.String",
+      "FieldLength": 149
     }
   }
 }

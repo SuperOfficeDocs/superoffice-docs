@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 396,
-    "Tooltip": "ut",
-    "CanAssign": false,
-    "Free": 850,
-    "InUse": 600,
+    "Total": 516,
+    "Tooltip": "fugit",
+    "CanAssign": true,
+    "Free": 576,
+    "InUse": 403,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 756,
-    "Name": "Zieme Group",
-    "Description": "Business-focused bi-directional migration",
-    "PrerequisiteModuleName": "Kassulke LLC",
-    "SortOrder": 534,
-    "ExtraFlags": 602,
+    "Assigned": false,
+    "ModuleLicenseId": 794,
+    "Name": "Kassulke LLC",
+    "Description": "Multi-lateral zero tolerance groupware",
+    "PrerequisiteModuleName": "Reynolds, Kunze and Reinger",
+    "SortOrder": 836,
+    "ExtraFlags": 394,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 96
+        "FieldLength": 386
       }
     }
   }

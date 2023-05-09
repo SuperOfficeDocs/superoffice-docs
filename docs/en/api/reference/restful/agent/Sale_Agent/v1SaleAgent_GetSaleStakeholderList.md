@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,31 +98,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "West-Weber",
-    "Comment": "ullam",
-    "StakeholderRoleId": 211,
-    "CountryId": 331,
-    "PersonId": 42,
-    "EmailDescription": "westley_farrell@marvin.uk",
-    "EmailId": 628,
-    "EmailAddress": "eugenia@moen.us",
-    "PhoneId": 97,
-    "ContactName": "Shanahan LLC",
-    "ContactId": 640,
-    "SaleId": 87,
-    "Mrmrs": "sit",
-    "Firstname": "Ernest",
-    "MiddleName": "Bashirian Inc and Sons",
-    "Lastname": "Schuster",
-    "SaleStakeholderId": 810,
-    "Rank": 251,
-    "Phone": "953.175.4036 x69744",
+    "StakeholderRoleName": "Nicolas, Towne and Heller",
+    "Comment": "et",
+    "StakeholderRoleId": 81,
+    "CountryId": 442,
+    "PersonId": 322,
+    "EmailDescription": "gianni@lueilwitzmarvin.uk",
+    "EmailId": 365,
+    "EmailAddress": "sylvan.towne@beer.biz",
+    "PhoneId": 928,
+    "ContactName": "Beatty, Gulgowski and Ruecker",
+    "ContactId": 586,
+    "SaleId": 516,
+    "Mrmrs": "doloribus",
+    "Firstname": "Linnea",
+    "MiddleName": "Harvey LLC",
+    "Lastname": "Schinner",
+    "SaleStakeholderId": 277,
+    "Rank": 93,
+    "Phone": "(770)559-0092",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 669
+        "FieldLength": 80
       }
     }
   }

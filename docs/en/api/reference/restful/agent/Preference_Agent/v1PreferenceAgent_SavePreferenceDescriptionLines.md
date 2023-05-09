@@ -83,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 762,
-      "PrefDescId": 385,
-      "PrefValue": "quia",
-      "PrefShowValue": "quaerat",
-      "Description": "Advanced discrete process improvement",
-      "IsBuiltin": true
+      "PrefDescLineId": 563,
+      "PrefDescId": 262,
+      "PrefValue": "modi",
+      "PrefShowValue": "sint",
+      "Description": "Profound analyzing implementation",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 762,
-      "PrefDescId": 385,
-      "PrefValue": "quia",
-      "PrefShowValue": "quaerat",
-      "Description": "Advanced discrete process improvement",
-      "IsBuiltin": true
+      "PrefDescLineId": 563,
+      "PrefDescId": 262,
+      "PrefValue": "modi",
+      "PrefShowValue": "sint",
+      "Description": "Profound analyzing implementation",
+      "IsBuiltin": false
     }
   ]
 }
@@ -110,18 +110,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 202,
-    "PrefDescId": 678,
-    "PrefValue": "aperiam",
-    "PrefShowValue": "officia",
-    "Description": "Stand-alone 24 hour encoding",
+    "PrefDescLineId": 41,
+    "PrefDescId": 250,
+    "PrefValue": "quidem",
+    "PrefShowValue": "ratione",
+    "Description": "Multi-tiered bandwidth-monitored algorithm",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 890
+        "FieldType": "System.String",
+        "FieldLength": 639
       }
     }
   }

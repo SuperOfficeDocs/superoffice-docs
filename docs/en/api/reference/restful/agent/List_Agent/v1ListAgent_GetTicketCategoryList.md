@@ -97,36 +97,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 861,
-    "ParentId": 1001,
-    "Name": "Crooks, Watsica and Waters",
-    "Fullname": "et",
-    "CategoryMaster": 238,
+    "TicketCategoryId": 370,
+    "ParentId": 801,
+    "Name": "Grady-Miller",
+    "Fullname": "asperiores",
+    "CategoryMaster": 925,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Kemmer Group",
+    "ExternalName": "Boyer-Monahan",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 286,
-    "ReplyTemplate": 426,
-    "NotificationEmail": "johnson@littelpagac.uk",
+    "AssignmentLag": 365,
+    "ReplyTemplate": 705,
+    "NotificationEmail": "annetta_upton@little.us",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 395,
+    "EffectiveReplyTemplateId": 200,
     "ExtraFields": {
-      "ExtraFields1": "assumenda",
-      "ExtraFields2": "nobis"
+      "ExtraFields1": "omnis",
+      "ExtraFields2": "et"
     },
     "CustomFields": {
-      "CustomFields1": "quam",
-      "CustomFields2": "distinctio"
+      "CustomFields1": "eos",
+      "CustomFields2": "labore"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 295
       }
     }
   }

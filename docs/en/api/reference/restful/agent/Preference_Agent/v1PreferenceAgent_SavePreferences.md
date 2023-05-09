@@ -65,23 +65,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "veritatis",
+      "RawValue": "repellendus",
       "Specification": null,
-      "DisplayValue": "animi",
-      "DisplayTooltip": "nihil",
+      "DisplayValue": "quam",
+      "DisplayTooltip": "dolore",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 133,
-      "PrefDescId": 405,
-      "TableName": "Bogan Inc and Sons",
-      "UserPreferenceId": 186
+      "TargetId": 994,
+      "PrefDescId": 209,
+      "TableName": "Cartwright Group",
+      "UserPreferenceId": 106
     }
   ]
 }

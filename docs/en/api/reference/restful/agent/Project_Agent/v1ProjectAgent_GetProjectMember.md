@@ -25,7 +25,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=472
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=919
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 624,
-  "ContactId": 754,
-  "ProjectId": 642,
-  "ContactName": "Borer-Okuneva",
-  "ContactDepartment": "monetize dot-com solutions",
-  "ProjectName": "Bartoletti Group",
-  "EmailId": 773,
-  "EmailAddress": "meaghan@will.info",
-  "CountryId": 708,
-  "Firstname": "Yessenia",
-  "MiddleName": "McKenzie Group",
-  "Lastname": "Murray",
-  "PersonId": 721,
-  "Mrmrs": "nihil",
-  "ProjectMemberTypeName": "Feest, Farrell and Hirthe",
-  "Phone": "543.924.1661 x9266",
-  "PhoneId": 12,
-  "ProjectMemberTypeId": 246,
-  "EmailAddressName": "whitney.hartmann@gusikowski.co.uk",
-  "Comment": "repellat",
-  "FullName": "Prof. Elvis Rebeka Lockman",
+  "ProjectmemberId": 358,
+  "ContactId": 437,
+  "ProjectId": 180,
+  "ContactName": "Streich-Botsford",
+  "ContactDepartment": "",
+  "ProjectName": "Braun Group",
+  "EmailId": 439,
+  "EmailAddress": "glenda.corwin@franecki.biz",
+  "CountryId": 621,
+  "Firstname": "Stacy",
+  "MiddleName": "Kuphal Group",
+  "Lastname": "Nikolaus",
+  "PersonId": 451,
+  "Mrmrs": "porro",
+  "ProjectMemberTypeName": "Wunsch-Beer",
+  "Phone": "1-251-075-0617",
+  "PhoneId": 899,
+  "ProjectMemberTypeId": 804,
+  "EmailAddressName": "may@ratke.ca",
+  "Comment": "sed",
+  "FullName": "Adah Fay",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldType": "System.String",
+      "FieldLength": 203
     }
   }
 }

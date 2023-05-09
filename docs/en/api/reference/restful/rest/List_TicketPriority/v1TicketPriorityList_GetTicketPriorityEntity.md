@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,60 +98,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 219,
-  "Name": "Rosenbaum-Nitzsche",
+  "TicketPriorityId": 668,
+  "Name": "Stanton, Balistreri and Harris",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 909,
+  "SortOrder": 146,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 220,
-  "MonStart": "2018-10-08T15:29:31.6689755+02:00",
-  "MonStop": "2002-10-05T15:29:31.6689755+02:00",
-  "TueStart": "2007-09-14T15:29:31.6689755+02:00",
-  "TueStop": "2009-05-22T15:29:31.6689755+02:00",
-  "WedStart": "1999-12-05T15:29:31.6689755+01:00",
-  "WedStop": "2004-03-26T15:29:31.6689755+01:00",
-  "ThuStart": "2022-08-16T15:29:31.6689755+02:00",
-  "ThuStop": "1997-08-21T15:29:31.6689755+02:00",
-  "FriStart": "2016-11-27T15:29:31.6689755+01:00",
-  "FriStop": "2009-05-22T15:29:31.6689755+02:00",
-  "SatStart": "2017-08-20T15:29:31.6689755+02:00",
-  "SatStop": "2011-04-28T15:29:31.6689755+02:00",
-  "SunStart": "2019-03-16T15:29:31.6689755+01:00",
-  "SunStop": "2005-05-13T15:29:31.6689755+02:00",
+  "Deadline": 685,
+  "MonStart": "2003-07-15T03:51:35.0051461+02:00",
+  "MonStop": "2020-02-06T03:51:35.0051461+01:00",
+  "TueStart": "2010-01-17T03:51:35.0051461+01:00",
+  "TueStop": "2015-12-13T03:51:35.0051461+01:00",
+  "WedStart": "1998-02-21T03:51:35.0051461+01:00",
+  "WedStop": "2002-08-13T03:51:35.0051461+02:00",
+  "ThuStart": "2003-04-08T03:51:35.0051461+02:00",
+  "ThuStop": "2023-02-16T03:51:35.0051461+01:00",
+  "FriStart": "2012-04-28T03:51:35.0051461+02:00",
+  "FriStop": "2012-02-14T03:51:35.0051461+01:00",
+  "SatStart": "2019-03-31T03:51:35.0051461+02:00",
+  "SatStop": "2018-12-07T03:51:35.0051461+01:00",
+  "SunStart": "1997-09-08T03:51:35.0051461+02:00",
+  "SunStop": "2011-01-17T03:51:35.0051461+01:00",
   "NonDates": [
-    "aut",
-    "sint"
+    "suscipit",
+    "doloribus"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 913,
-      "AlertLevel": 161,
-      "AlertTimeout": 856,
-      "Action": 674,
-      "DelegateTo": 796,
-      "ScriptId": 808,
-      "EmailTo": "forest@schmitt.us",
-      "SmsTo": "atque",
-      "ReplyTemplateIdCustomer": 799,
-      "ReplyTemplateIdUser": 107,
-      "ReplyTemplateIdCatmast": 526,
-      "ReplyTemplateIdEmail": 453,
-      "RtiCustomerSms": 539,
-      "ReplyTemplateIdUserSms": 329,
-      "ReplyTemplateIdCatmastSms": 541,
-      "ReplyTemplateIdSms": 108,
+      "TicketAlertId": 893,
+      "AlertLevel": 175,
+      "AlertTimeout": 107,
+      "Action": 345,
+      "DelegateTo": 616,
+      "ScriptId": 893,
+      "EmailTo": "ethyl@upton.ca",
+      "SmsTo": "omnis",
+      "ReplyTemplateIdCustomer": 76,
+      "ReplyTemplateIdUser": 80,
+      "ReplyTemplateIdCatmast": 761,
+      "ReplyTemplateIdEmail": 406,
+      "RtiCustomerSms": 689,
+      "ReplyTemplateIdUserSms": 689,
+      "ReplyTemplateIdCatmastSms": 392,
+      "ReplyTemplateIdSms": 785,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 76
+          "FieldType": "System.String",
+          "FieldLength": 871
         }
       }
     }
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 989
     }
   }
 }

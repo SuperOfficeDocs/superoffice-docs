@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Runolfsdottir-Tillman",
+  "Id": 512,
+  "Name": "Reichel Inc and Sons",
   "Tooltip": "quibusdam",
-  "Deleted": false,
-  "UdListDefinitionId": 727,
-  "Rank": 214,
+  "Deleted": true,
+  "UdListDefinitionId": 584,
+  "Rank": 317,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldType": "System.String",
+      "FieldLength": 448
     }
   }
 }

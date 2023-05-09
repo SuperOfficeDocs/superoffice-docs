@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "emailaddress"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,6 +37,13 @@ Type = "Person" or "Contact"
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.EmailAddressProvider">EmailAddressProvider</see> class.
 The name of the MDO list is 'emailaddress'.
+
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|excludeEmailDescription| |false|
+
 
 
 

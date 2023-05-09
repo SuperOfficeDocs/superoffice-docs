@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 603,
-    "Name": "Jast Inc and Sons",
-    "Tooltip": "laborum",
+    "HeadingId": 463,
+    "Name": "Kessler-Emard",
+    "Tooltip": "suscipit",
     "Deleted": true,
-    "Rank": 662,
-    "UdListDefinitionId": 745,
+    "Rank": 140,
+    "UdListDefinitionId": 722,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 36
+        "FieldType": "System.Int32",
+        "FieldLength": 482
       }
     }
   }

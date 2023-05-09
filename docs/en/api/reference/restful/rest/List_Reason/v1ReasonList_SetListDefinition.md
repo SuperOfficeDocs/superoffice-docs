@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 627,
-  "Name": "Dare-Pollich",
-  "Tooltip": "quae",
-  "Deleted": true,
-  "Rank": 932,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatibus",
-  "InUseByUserDefinedFields": true
+  "Id": 778,
+  "Name": "Lowe, Lubowitz and Hudson",
+  "Tooltip": "cupiditate",
+  "Deleted": false,
+  "Rank": 955,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 401,
-  "Name": "Abshire-Keebler",
-  "Tooltip": "ratione",
-  "Deleted": true,
-  "Rank": 897,
+  "Id": 668,
+  "Name": "Stracke Inc and Sons",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "Rank": 310,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldType": "System.String",
+      "FieldLength": 804
     }
   }
 }

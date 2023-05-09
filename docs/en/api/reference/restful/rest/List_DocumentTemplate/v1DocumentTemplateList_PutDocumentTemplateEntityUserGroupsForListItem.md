@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Schinner LLC",
-    "ToolTip": "Assumenda sit.",
+    "Id": 601,
+    "Name": "Mann LLC",
+    "ToolTip": "Harum ab voluptatem sed ut suscipit aut iure.",
     "Deleted": false,
-    "Rank": 178,
-    "Type": "magni",
-    "ColorBlock": 821,
-    "IconHint": "qui",
+    "Rank": 668,
+    "Type": "quisquam",
+    "ColorBlock": 740,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "2012-01-10T15:29:31.2644786+01:00",
+    "LastChanged": "2004-12-20T03:51:34.692727+01:00",
     "ChildItems": [
       {
-        "Id": 895,
-        "Name": "Farrell-Hamill",
-        "ToolTip": "Dolorem recusandae repellendus.",
-        "Deleted": true,
-        "Rank": 184,
-        "Type": "ut",
-        "ColorBlock": 251,
-        "IconHint": "illum",
+        "Id": 876,
+        "Name": "Bosco Group",
+        "ToolTip": "Asperiores hic.",
+        "Deleted": false,
+        "Rank": 734,
+        "Type": "occaecati",
+        "ColorBlock": 646,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2015-12-21T15:29:31.2644786+01:00",
+        "LastChanged": "1997-02-13T03:51:34.692727+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "ipsa",
-        "Hidden": true,
-        "FullName": "Sienna Macejkovic"
+        "ExtraInfo": "enim",
+        "StyleHint": "suscipit",
+        "Hidden": false,
+        "FullName": "Tressa King"
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "aliquam",
-    "Hidden": true,
-    "FullName": "Dr. Mario Davis MD"
+    "ExtraInfo": "sequi",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Gail Carter DVM"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 689,
-    "Name": "Herzog-Altenwerth",
-    "ToolTip": "Ex dignissimos nihil dolorem.",
-    "Deleted": false,
-    "Rank": 104,
-    "Type": "nam",
-    "ColorBlock": 995,
-    "IconHint": "beatae",
+    "Id": 160,
+    "Name": "Rempel Inc and Sons",
+    "ToolTip": "Sit labore et omnis vel.",
+    "Deleted": true,
+    "Rank": 57,
+    "Type": "nostrum",
+    "ColorBlock": 550,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2013-07-29T15:29:31.2654783+02:00",
+    "LastChanged": "1996-08-21T03:51:34.692727+02:00",
     "ChildItems": [
       {
-        "Id": 100,
-        "Name": "Klocko Inc and Sons",
-        "ToolTip": "Consequuntur molestiae voluptas.",
+        "Id": 590,
+        "Name": "Fahey, Dibbert and Feil",
+        "ToolTip": "Corrupti dolore.",
         "Deleted": false,
-        "Rank": 927,
-        "Type": "inventore",
-        "ColorBlock": 311,
-        "IconHint": "ullam",
+        "Rank": 520,
+        "Type": "distinctio",
+        "ColorBlock": 72,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2018-01-15T15:29:31.2659833+01:00",
+        "LastChanged": "1997-12-09T03:51:34.692727+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "expedita",
+        "ExtraInfo": "autem",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Mr. Reed Tommie Schneider",
+        "FullName": "Miss Rick Evans Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 808
+            "FieldLength": 624
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Carolyne Colten Spinka DDS",
+    "FullName": "Mrs. Alize Stanton III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 686
+        "FieldLength": 333
       }
     }
   }

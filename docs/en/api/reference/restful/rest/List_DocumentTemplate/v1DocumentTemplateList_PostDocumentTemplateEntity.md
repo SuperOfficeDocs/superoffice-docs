@@ -112,34 +112,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 235,
-  "Name": "Hansen LLC",
-  "Tooltip": "autem",
-  "SaveInDb": 159,
-  "Filename": "hic",
-  "DefaultOref": "animi",
+  "DocumentTemplateId": 857,
+  "Name": "Kirlin, Durgan and Stanton",
+  "Tooltip": "rerum",
+  "SaveInDb": 519,
+  "Filename": "nostrum",
+  "DefaultOref": "facere",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 596,
-  "IntentId": 632,
-  "IsDefaultPublished": false,
-  "Rank": 864,
-  "LoadTemplateFromPlugin": 125,
-  "MimeType": "sint",
+  "AutoeventId": 93,
+  "IntentId": 679,
+  "IsDefaultPublished": true,
+  "Rank": 265,
+  "LoadTemplateFromPlugin": 962,
+  "MimeType": "est",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 413,
+  "DocumentTypeKey": 240,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kevon@klingkub.name",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "elsie@kuhlman.biz",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "danial@schneider.uk",
+  "SenderEmailAddress": "katelyn@monahanlittle.name",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -151,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 470,
-  "Name": "Stehr Group",
-  "Tooltip": "eum",
-  "SaveInDb": 925,
-  "Filename": "et",
-  "DefaultOref": "voluptatem",
+  "DocumentTemplateId": 472,
+  "Name": "Hartmann, Borer and Mraz",
+  "Tooltip": "eveniet",
+  "SaveInDb": 685,
+  "Filename": "provident",
+  "DefaultOref": "iste",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 98,
-  "IntentId": 244,
+  "AutoeventId": 343,
+  "IntentId": 226,
   "IsDefaultPublished": false,
-  "Rank": 449,
-  "LoadTemplateFromPlugin": 63,
-  "MimeType": "magni",
+  "Rank": 923,
+  "LoadTemplateFromPlugin": 707,
+  "MimeType": "quidem",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 41,
+  "DocumentTypeKey": 634,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rowan_ziemann@aufderhar.biz",
-  "IncludeSignature": false,
+  "EmailSubject": "cielo@lockman.name",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "davonte_oconnell@berniercummings.com",
+  "SenderEmailAddress": "sandy@wuckertturcotte.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 725
+      "FieldLength": 122
     }
   }
 }

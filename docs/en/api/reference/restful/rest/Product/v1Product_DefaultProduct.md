@@ -89,7 +89,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 426,
-  "ERPProductKey": "natus",
-  "ERPPriceListKey": "eius",
-  "Name": "Medhurst, Adams and Feest",
-  "Description": "Visionary motivating application",
-  "Code": "ea",
-  "PriceUnit": "consequuntur",
-  "QuantityUnit": "illum",
+  "ProductId": 904,
+  "ERPProductKey": "vitae",
+  "ERPPriceListKey": "ea",
+  "Name": "Block Inc and Sons",
+  "Description": "Down-sized solution-oriented task-force",
+  "Code": "natus",
+  "PriceUnit": "nisi",
+  "QuantityUnit": "aut",
   "IsSubscription": false,
-  "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 30484.417999999998,
-  "ItemNumber": "450586",
+  "SubscriptionUnit": "ea",
+  "DefaultSubscriptionQuantity": 1695.494,
+  "ItemNumber": "774484",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quidem",
-  "ProductTypeKey": "in",
-  "VAT": 8217.348,
-  "VATInfo": "repellat",
-  "UnitCost": 16368.882,
-  "UnitMinimumPrice": 11473.574,
-  "UnitListPrice": 2027.6979999999999,
-  "InAssortment": false,
-  "Supplier": "itaque",
-  "SupplierCode": "modi",
-  "Rights": "asperiores",
-  "Rule": "beatae",
+  "ProductFamilyKey": "dolor",
+  "ProductTypeKey": "labore",
+  "VAT": 12172.456,
+  "VATInfo": "voluptas",
+  "UnitCost": 10498.9,
+  "UnitMinimumPrice": 19217.688,
+  "UnitListPrice": 8884.89,
+  "InAssortment": true,
+  "Supplier": "perspiciatis",
+  "SupplierCode": "autem",
+  "Rights": "nam",
+  "Rule": "id",
   "ExtraInfo": [
     {
-      "Name": "Wisozk LLC",
-      "Value": "voluptatem",
+      "Name": "Deckow Group",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldLength": 488
         }
       }
     },
     {
-      "Name": "Wisozk LLC",
-      "Value": "voluptatem",
+      "Name": "Deckow Group",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldLength": 488
         }
       }
     }
   ],
-  "RawExtraInfo": "sed",
-  "ExtraField1": "et",
-  "ExtraField2": "beatae",
-  "ExtraField3": "laboriosam",
-  "ExtraField4": "quo",
-  "ExtraField5": "qui",
-  "InStock": 3861.0879999999997,
+  "RawExtraInfo": "aut",
+  "ExtraField1": "ut",
+  "ExtraField2": "quaerat",
+  "ExtraField3": "nam",
+  "ExtraField4": "repudiandae",
+  "ExtraField5": "quidem",
+  "InStock": 7625.022,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 168
     }
   }
 }

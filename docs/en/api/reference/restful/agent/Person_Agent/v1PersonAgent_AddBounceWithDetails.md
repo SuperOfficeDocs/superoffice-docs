@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "ila@wiegand.ca",
-  "Counts": 962,
-  "Code": 839,
+  "EmailAddress": "michael_runte@bartolettimcdermott.us",
+  "Counts": 519,
+  "Code": 655,
   "Reason": ""
 }
 ```

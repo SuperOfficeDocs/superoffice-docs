@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "omnis"
+  "ProgId": "officia"
 }
 ```
 
@@ -100,26 +100,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 822,
-  "Name": "O'Reilly, Thompson and Kilback",
-  "Tooltip": "consequatur",
-  "TableName": "Steuber-Rempel",
-  "Area": "quis",
+  "TaskMenuId": 298,
+  "Name": "Ward-Frami",
+  "Tooltip": "voluptates",
+  "TableName": "Willms Inc and Sons",
+  "Area": "quisquam",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 520,
+  "CrmScriptId": 427,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 533,
+  "Rank": 149,
   "Encoding": "ANSI",
-  "ProgId": "nulla",
+  "ProgId": "sit",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldType": "System.String",
+      "FieldLength": 743
     }
   }
 }

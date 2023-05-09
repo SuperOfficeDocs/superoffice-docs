@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Konopelski-Zulauf",
-  "AssociateId": 193
+  "TableName": "Schuster, Batz and Franecki",
+  "AssociateId": 849
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Prohaska, Stark and Turner",
-    "RecordId": 266,
-    "AssociateId": 882,
-    "ExtraInfo": "dolor",
-    "Rank": 501,
+    "TableName": "Schowalter-Rath",
+    "RecordId": 380,
+    "AssociateId": 708,
+    "ExtraInfo": "eveniet",
+    "Rank": 866,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldLength": 206
       }
     }
   }

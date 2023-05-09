@@ -109,28 +109,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 147,
-  "SourcePersonId": 525,
-  "DestinationContactId": 141,
-  "DestinationPersonId": 952,
-  "RelationId": 988,
-  "Comment": "hic",
-  "RelationDefinitionId": 517,
-  "Reversed": 412,
-  "UpdatedDate": "2010-06-01T15:29:29.6067049+02:00",
-  "CreatedDate": "2012-08-10T15:29:29.6067049+02:00",
+  "SourceContactId": 229,
+  "SourcePersonId": 62,
+  "DestinationContactId": 644,
+  "DestinationPersonId": 785,
+  "RelationId": 640,
+  "Comment": "facere",
+  "RelationDefinitionId": 320,
+  "Reversed": 700,
+  "UpdatedDate": "2015-01-20T03:51:33.552243+01:00",
+  "CreatedDate": "1996-07-05T03:51:33.552243+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Denesik-Altenwerth",
-  "SourcePersonName": "Steuber Group",
-  "DestinationContactName": "Steuber Inc and Sons",
-  "DestinationPersonName": "Steuber, Rogahn and Vandervort",
-  "ActiveText": "facilis",
-  "PassiveText": "ad"
+  "SourceContactName": "Muller-Stroman",
+  "SourcePersonName": "Swaniawski, Parker and Goyette",
+  "DestinationContactName": "Yundt, Wilkinson and Eichmann",
+  "DestinationPersonName": "Langosh, Schuster and Schulist",
+  "ActiveText": "cupiditate",
+  "PassiveText": "commodi"
 }
 ```
 
@@ -141,30 +141,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 182,
-  "SourcePersonId": 365,
-  "DestinationContactId": 613,
-  "DestinationPersonId": 163,
-  "RelationId": 863,
-  "Comment": "maiores",
-  "RelationDefinitionId": 942,
-  "Reversed": 669,
-  "UpdatedDate": "2002-02-06T15:29:29.6082035+01:00",
-  "CreatedDate": "2001-10-25T15:29:29.6082035+02:00",
+  "SourceContactId": 477,
+  "SourcePersonId": 354,
+  "DestinationContactId": 998,
+  "DestinationPersonId": 595,
+  "RelationId": 990,
+  "Comment": "non",
+  "RelationDefinitionId": 152,
+  "Reversed": 637,
+  "UpdatedDate": "2011-02-23T03:51:33.552243+01:00",
+  "CreatedDate": "2011-10-14T03:51:33.552243+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kilback-Padberg",
-  "SourcePersonName": "Dibbert Inc and Sons",
-  "DestinationContactName": "Padberg LLC",
-  "DestinationPersonName": "Funk, Stoltenberg and Wolff",
-  "ActiveText": "eius",
-  "PassiveText": "nihil",
+  "SourceContactName": "Goodwin, Johnston and Blick",
+  "SourcePersonName": "Kunze Group",
+  "DestinationContactName": "Reynolds, Kessler and Mosciski",
+  "DestinationPersonName": "Kreiger-Marks",
+  "ActiveText": "fugiat",
+  "PassiveText": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldType": "System.String",
+      "FieldLength": 788
     }
   },
   "_Links": {

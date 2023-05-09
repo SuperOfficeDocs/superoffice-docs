@@ -86,28 +86,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 302,
+  "SelectionId": 825,
   "Criteria": [
     {
-      "Name": "Hyatt, Brakus and Hahn",
-      "Operator": "iusto",
+      "Name": "Hahn Inc and Sons",
+      "Operator": "itaque",
       "Values": [
-        "voluptatem",
-        "placeat"
+        "ut",
+        "vel"
       ],
       "DisplayValues": [
-        "eum",
-        "est"
+        "necessitatibus",
+        "officia"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 348,
+      "InterParenthesis": 798,
       "InterOperator": "And",
-      "UniqueHash": 246
+      "UniqueHash": 86
     }
   ]
 }
@@ -121,44 +121,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Morissette Inc and Sons",
-    "Operator": "in",
+    "Name": "Robel Inc and Sons",
+    "Operator": "non",
     "Values": [
-      "qui",
-      "est"
+      "aut",
+      "et"
     ],
     "DisplayValues": [
-      "quam",
-      "est"
+      "est",
+      "odio"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Zboncak LLC",
-        "Operator": "nam",
+        "Name": "McLaughlin, Medhurst and Purdy",
+        "Operator": "voluptas",
         "Values": [
-          "omnis",
-          "eos"
+          "repudiandae",
+          "cumque"
         ],
         "DisplayValues": [
-          "veritatis",
-          "ea"
+          "sunt",
+          "suscipit"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 510,
+        "InterParenthesis": 737,
         "InterOperator": "And",
-        "UniqueHash": 708
+        "UniqueHash": 268
       }
     ],
-    "InterParenthesis": 561,
+    "InterParenthesis": 315,
     "InterOperator": "And",
-    "UniqueHash": 903
+    "UniqueHash": 305
   }
 ]
 ```

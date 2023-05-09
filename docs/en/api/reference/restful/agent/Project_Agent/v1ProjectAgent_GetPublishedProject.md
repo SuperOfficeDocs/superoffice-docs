@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 900
+  "ProjectId": 247
 }
 ```
 
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 562,
-  "Name": "Littel, Osinski and Braun",
-  "Description": "Profit-focused radical analyzer",
+  "ProjectId": 852,
+  "Name": "Altenwerth LLC",
+  "Description": "Assimilated hybrid service-desk",
   "URL": "http://www.example.com/",
-  "Type": "sunt",
-  "AssociateId": 394,
-  "AssociateFullName": "Blaise Leuschke",
-  "TypeId": 559,
-  "Updated": "1996-06-07T15:29:22.4882661+02:00",
-  "StatusId": 75,
-  "Status": "harum",
-  "TextId": 835,
-  "PublishTo": "2000-04-10T15:29:22.4882661+02:00",
-  "PublishFrom": "2003-09-13T15:29:22.4882661+02:00",
+  "Type": "expedita",
+  "AssociateId": 347,
+  "AssociateFullName": "Dr. Soledad Armstrong",
+  "TypeId": 259,
+  "Updated": "2016-08-21T03:51:27.9590553+02:00",
+  "StatusId": 630,
+  "Status": "autem",
+  "TextId": 31,
+  "PublishTo": "2011-05-09T03:51:27.9590553+02:00",
+  "PublishFrom": "1998-10-13T03:51:27.9590553+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1401316",
-  "ActiveErpLinks": 548,
+  "ProjectNumber": "1112115",
+  "ActiveErpLinks": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldLength": 522
     }
   }
 }

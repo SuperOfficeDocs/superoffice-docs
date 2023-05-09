@@ -93,10 +93,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hartmann-Hayes",
+  "Name": "Bode, Wiegand and Barton",
   "ForceFlatList": false,
-  "AdditionalInfo": "omnis",
-  "OnlyHistory": false
+  "AdditionalInfo": "sit",
+  "OnlyHistory": true
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Schmitt Group",
-    "ToolTip": "Doloribus voluptas sequi neque quibusdam.",
+    "Id": 319,
+    "Name": "Padberg, Thiel and Emard",
+    "ToolTip": "Ut voluptates dolorum tenetur sequi et aliquam dolores.",
     "Deleted": false,
-    "Rank": 463,
-    "Type": "adipisci",
-    "ColorBlock": 910,
-    "IconHint": "fugiat",
-    "Selected": false,
-    "LastChanged": "2022-07-14T15:29:22.1533038+02:00",
+    "Rank": 939,
+    "Type": "veniam",
+    "ColorBlock": 83,
+    "IconHint": "quibusdam",
+    "Selected": true,
+    "LastChanged": "2017-08-30T03:51:27.5216578+02:00",
     "ChildItems": [
       {
-        "Id": 502,
-        "Name": "Yundt-Ankunding",
-        "ToolTip": "Quas saepe quis.",
-        "Deleted": true,
-        "Rank": 1002,
-        "Type": "ut",
-        "ColorBlock": 416,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2018-02-07T15:29:22.1533038+01:00",
+        "Id": 585,
+        "Name": "Ortiz, Kovacek and Sipes",
+        "ToolTip": "Eligendi vitae ipsa maxime ipsum et impedit.",
+        "Deleted": false,
+        "Rank": 586,
+        "Type": "itaque",
+        "ColorBlock": 188,
+        "IconHint": "doloremque",
+        "Selected": false,
+        "LastChanged": "2011-01-11T03:51:27.5216578+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "est",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Raheem Feeney",
+        "FullName": "Carmine Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 754
+            "FieldType": "System.String",
+            "FieldLength": 879
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "sunt",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Raymond Morar",
+    "FullName": "Jacey Rogahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 178
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

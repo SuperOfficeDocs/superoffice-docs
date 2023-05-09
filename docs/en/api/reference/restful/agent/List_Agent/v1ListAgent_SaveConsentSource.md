@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 41,
-  "Name": "Schimmel, Lubowitz and Kshlerin",
-  "Tooltip": "minus",
-  "Rank": 373,
-  "Key": "consequatur",
-  "MailTemplateId": 482,
-  "Deleted": false,
+  "ConsentSourceId": 811,
+  "Name": "Adams-Gusikowski",
+  "Tooltip": "inventore",
+  "Rank": 722,
+  "Key": "accusamus",
+  "MailTemplateId": 27,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   }
 }

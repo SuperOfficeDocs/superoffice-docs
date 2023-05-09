@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Kassulke, Feest and Schultz",
+  "HistoryName": "VonRueden, Cronin and Schroeder",
   "History": [
     {
-      "Rank": 444,
-      "Id": 817,
-      "HistoryName": "Kilback Inc and Sons",
-      "HistoryId": 944,
-      "AssociateId": 340,
-      "Name": "Smith LLC",
-      "ItemInfo": "deleniti"
+      "Rank": 837,
+      "Id": 470,
+      "HistoryName": "Littel-Kunde",
+      "HistoryId": 146,
+      "AssociateId": 835,
+      "Name": "Ferry-Mayert",
+      "ItemInfo": "eligendi"
     }
   ]
 }
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 653,
-    "Id": 303,
-    "HistoryName": "Heller, Franecki and Emmerich",
-    "HistoryId": 273,
-    "AssociateId": 20,
-    "Name": "Rutherford, Conn and Zboncak",
-    "ItemInfo": "nobis",
+    "Rank": 882,
+    "Id": 239,
+    "HistoryName": "Rutherford Inc and Sons",
+    "HistoryId": 74,
+    "AssociateId": 518,
+    "Name": "Lind Group",
+    "ItemInfo": "distinctio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldLength": 243
       }
     }
   }

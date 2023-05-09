@@ -68,13 +68,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 682,
-  "Year": 812,
+  "TargetGroupId": 965,
+  "Year": 925,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2008-03-18T15:29:22.988258+01:00",
+      "When": "2011-11-13T03:51:28.2089972+01:00",
       "Changes": [
         {},
         {}
@@ -84,14 +84,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 563
+          "FieldLength": 764
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2008-03-18T15:29:22.988258+01:00",
+      "When": "2011-11-13T03:51:28.2089972+01:00",
       "Changes": [
         {},
         {}
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 563
+          "FieldLength": 764
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   }
 }

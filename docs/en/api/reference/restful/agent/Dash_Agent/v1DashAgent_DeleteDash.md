@@ -24,7 +24,7 @@ Deletes the Dash
 | DashId | int32 | **Required** The id of the Dash to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDash?DashId=303
+POST /api/v1/Agents/Dash/DeleteDash?DashId=196
 ```
 
 

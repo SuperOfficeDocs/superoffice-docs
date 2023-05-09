@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,49 +73,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 647,
-  "Name": "Hermiston LLC",
-  "Tooltip": "eaque",
-  "VisibleColumns": 964,
-  "Rank": 307,
-  "AssocId": 518,
+  "DiaryViewId": 14,
+  "Name": "Borer Inc and Sons",
+  "Tooltip": "quia",
+  "VisibleColumns": 260,
+  "Rank": 258,
+  "AssocId": 381,
   "AssociateList": [
     {
-      "Id": 463,
-      "Name": "Gleason-Hahn",
-      "ToolTip": "Quisquam culpa quaerat quo.",
+      "Id": 462,
+      "Name": "Keeling, Tillman and Hickle",
+      "ToolTip": "Temporibus consectetur eveniet voluptatem officia qui.",
       "Deleted": false,
-      "Rank": 977,
-      "Type": "consectetur",
-      "ColorBlock": 426,
-      "IconHint": "soluta",
-      "Selected": false,
-      "LastChanged": "2001-08-09T15:29:21.0292855+02:00",
+      "Rank": 654,
+      "Type": "corrupti",
+      "ColorBlock": 784,
+      "IconHint": "eos",
+      "Selected": true,
+      "LastChanged": "2016-07-24T03:51:26.7718335+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "id",
-      "StyleHint": "minus",
+      "ExtraInfo": "beatae",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Kariane Dach",
+      "FullName": "Ms. Domenica Mylene Wyman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldLength": 858
         }
       }
     }
   ],
-  "TzLocationId": 104,
+  "TzLocationId": 48,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 486
     }
   }
 }

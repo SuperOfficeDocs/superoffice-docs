@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 390,
-    "Name": "Rosenbaum, Wolf and Koss",
-    "ToolTip": "Voluptates consectetur odio.",
-    "Deleted": true,
-    "Rank": 299,
-    "Type": "saepe",
-    "ColorBlock": 814,
-    "IconHint": "voluptatem",
+    "Id": 22,
+    "Name": "Hilpert LLC",
+    "ToolTip": "Qui sed omnis velit eum illum.",
+    "Deleted": false,
+    "Rank": 757,
+    "Type": "quibusdam",
+    "ColorBlock": 149,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2004-11-01T15:29:31.2814783+01:00",
+    "LastChanged": "2007-10-11T03:51:34.7083411+02:00",
     "ChildItems": [
       {
-        "Id": 511,
-        "Name": "Leannon-Jewess",
-        "ToolTip": "Omnis provident adipisci possimus veniam et nihil minus.",
-        "Deleted": true,
-        "Rank": 629,
-        "Type": "consectetur",
-        "ColorBlock": 837,
-        "IconHint": "facere",
+        "Id": 300,
+        "Name": "Ortiz Group",
+        "ToolTip": "Eum dicta placeat tempore.",
+        "Deleted": false,
+        "Rank": 585,
+        "Type": "incidunt",
+        "ColorBlock": 734,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2002-03-05T15:29:31.2814783+01:00",
+        "LastChanged": "2020-11-26T03:51:34.7083411+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "illo",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Marco Erick Weissnat Jr.",
+        "FullName": "Miss Carleton Myah Runolfsdottir",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldType": "System.String",
+            "FieldLength": 522
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "impedit",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Prof. Willow Gage Brekke I",
+    "FullName": "Tamia Jayme Douglas II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldType": "System.String",
+        "FieldLength": 495
       }
     }
   }

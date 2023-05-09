@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 474,
-    "Name": "Funk-Thiel",
-    "ToolTip": "Iusto quis voluptas nesciunt ea quae ipsum assumenda.",
-    "Deleted": false,
-    "Rank": 488,
-    "Type": "provident",
-    "ColorBlock": 903,
-    "IconHint": "ipsum",
-    "Selected": false,
-    "LastChanged": "2019-05-15T15:29:31.6419738+02:00",
+    "Id": 642,
+    "Name": "Strosin, Gulgowski and Champlin",
+    "ToolTip": "Et ducimus.",
+    "Deleted": true,
+    "Rank": 282,
+    "Type": "dolorem",
+    "ColorBlock": 301,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2001-09-24T03:51:34.9895221+02:00",
     "ChildItems": [
       {
-        "Id": 653,
-        "Name": "DuBuque LLC",
-        "ToolTip": "Qui quidem est et est.",
-        "Deleted": true,
-        "Rank": 927,
-        "Type": "nulla",
-        "ColorBlock": 461,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2008-10-18T15:29:31.6419738+02:00",
+        "Id": 787,
+        "Name": "Baumbach, Wolff and Ferry",
+        "ToolTip": "Qui et quo.",
+        "Deleted": false,
+        "Rank": 272,
+        "Type": "fuga",
+        "ColorBlock": 491,
+        "IconHint": "mollitia",
+        "Selected": true,
+        "LastChanged": "2005-03-13T03:51:34.9895221+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "sunt",
+        "StyleHint": "veniam",
         "Hidden": false,
-        "FullName": "Samara Roberts",
+        "FullName": "Rae Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 812
+            "FieldLength": 853
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Elouise O'Hara",
+    "ExtraInfo": "magnam",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Mr. Kiley Kuhlman MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 275
       }
     }
   }

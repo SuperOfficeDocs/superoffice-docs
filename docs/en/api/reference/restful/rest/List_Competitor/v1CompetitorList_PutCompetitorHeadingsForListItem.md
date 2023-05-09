@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Grimes-Bosco",
-    "ToolTip": "Earum nostrum totam delectus saepe dolores.",
+    "Id": 92,
+    "Name": "Breitenberg Inc and Sons",
+    "ToolTip": "Facere quo alias quod quibusdam perferendis facere.",
     "Deleted": true,
-    "Rank": 333,
-    "Type": "molestiae",
-    "ColorBlock": 30,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "2016-01-26T15:29:31.1224859+01:00",
+    "Rank": 406,
+    "Type": "autem",
+    "ColorBlock": 956,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2004-08-28T03:51:34.5833707+02:00",
     "ChildItems": [
       {
-        "Id": 751,
-        "Name": "Simonis-King",
-        "ToolTip": "Beatae maxime.",
+        "Id": 199,
+        "Name": "Olson Group",
+        "ToolTip": "Vitae et labore.",
         "Deleted": false,
-        "Rank": 543,
-        "Type": "delectus",
-        "ColorBlock": 163,
-        "IconHint": "maxime",
-        "Selected": true,
-        "LastChanged": "2003-06-25T15:29:31.1224859+02:00",
+        "Rank": 578,
+        "Type": "voluptate",
+        "ColorBlock": 94,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "1996-06-22T03:51:34.5833707+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "earum",
+        "ExtraInfo": "hic",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Prof. Adelle Ava Bins Jr."
+        "FullName": "Verna Orn"
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "quas",
+    "ExtraInfo": "velit",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Gunner Christiansen"
+    "FullName": "Norwood McLaughlin"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Hackett, Abbott and Schultz",
-    "ToolTip": "Quis nihil quibusdam repudiandae blanditiis sequi quia minus.",
+    "Id": 689,
+    "Name": "Kessler, D'Amore and Osinski",
+    "ToolTip": "At iusto aliquid officiis ipsa est corrupti.",
     "Deleted": true,
-    "Rank": 727,
-    "Type": "consequatur",
-    "ColorBlock": 631,
-    "IconHint": "veniam",
+    "Rank": 692,
+    "Type": "corporis",
+    "ColorBlock": 458,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2019-09-28T15:29:31.1249803+02:00",
+    "LastChanged": "2003-04-02T03:51:34.5833707+02:00",
     "ChildItems": [
       {
-        "Id": 318,
-        "Name": "Predovic LLC",
-        "ToolTip": "Est vero.",
-        "Deleted": true,
-        "Rank": 964,
-        "Type": "et",
-        "ColorBlock": 284,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "1999-06-27T15:29:31.1249803+02:00",
+        "Id": 27,
+        "Name": "Ebert, Lubowitz and Tremblay",
+        "ToolTip": "Alias magni numquam hic dolores ex voluptatibus laborum.",
+        "Deleted": false,
+        "Rank": 279,
+        "Type": "vitae",
+        "ColorBlock": 556,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2003-03-24T03:51:34.5833707+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Yasmeen O'Conner",
+        "ExtraInfo": "tempore",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Prof. Jarret Micheal Wiegand DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 885
+            "FieldType": "System.Int32",
+            "FieldLength": 823
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "commodi",
-    "Hidden": false,
-    "FullName": "Britney Conn III",
+    "ExtraInfo": "et",
+    "StyleHint": "fugit",
+    "Hidden": true,
+    "FullName": "Mr. Loy Lessie Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldType": "System.String",
+        "FieldLength": 57
       }
     }
   }

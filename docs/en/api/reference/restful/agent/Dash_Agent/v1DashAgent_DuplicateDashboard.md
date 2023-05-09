@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 97,
-  "Name": "Anderson, Gislason and Blick"
+  "DashboardId": 719,
+  "Name": "Little, Goodwin and Haley"
 }
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 386,
-  "UniqueId": "et",
-  "Name": "Konopelski Group",
-  "Description": "Advanced foreground core",
-  "AssociateId": 381,
-  "Columns": 407,
+  "DashboardId": 959,
+  "UniqueId": "quod",
+  "Name": "Leuschke, Walsh and Purdy",
+  "Description": "Reverse-engineered even-keeled artificial intelligence",
+  "AssociateId": 135,
+  "Columns": 644,
   "Theme": null,
-  "VisibleForAll": 724,
+  "VisibleForAll": 111,
   "VisibleForAssociates": [
-    998,
-    836
+    865,
+    527
   ],
   "VisibleForGroups": [
-    602,
-    364
+    25,
+    740
   ],
-  "PinForAll": 550,
+  "PinForAll": 346,
   "PinForAssociates": [
-    630,
-    90
+    400,
+    289
   ],
   "PinForGroups": [
-    726,
-    185
+    395,
+    783
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 225
     }
   }
 }

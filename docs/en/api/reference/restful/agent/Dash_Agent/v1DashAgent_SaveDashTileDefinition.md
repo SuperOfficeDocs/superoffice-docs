@@ -98,29 +98,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 348,
-  "Name": "Swaniawski-McGlynn",
-  "Description": "Profound intangible Graphical User Interface",
-  "DefaultHeight": 69,
-  "DefaultWidth": 352,
+  "DashboardTileDefinitionId": 300,
+  "Name": "Stoltenberg, Yundt and Kovacek",
+  "Description": "Customer-focused optimizing focus group",
+  "DefaultHeight": 686,
+  "DefaultWidth": 393,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Metz LLC",
-  "SelectionId": 306,
+  "EntityName": "Stiedemann-Mann",
+  "SelectionId": 258,
   "CurrencyMode": "Base",
-  "CurrencyCode": "est",
+  "CurrencyCode": "magnam",
   "Measure": "Average",
-  "MeasureField": "sunt",
-  "SortBy": "recusandae",
-  "LayoutConfig": "adipisci",
-  "SecondarySelectionId": 499,
-  "MeasureByField": "iusto",
+  "MeasureField": "aut",
+  "SortBy": "illo",
+  "LayoutConfig": "est",
+  "SecondarySelectionId": 654,
+  "MeasureByField": "id",
   "Usage": "Dashboard",
-  "ProviderName": "Sauer-Larkin"
+  "ProviderName": "Bergnaum, Ryan and Emard"
 }
 ```
 
@@ -131,31 +131,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 991,
-  "Name": "Ortiz, Pacocha and Breitenberg",
-  "Description": "Customer-focused exuding firmware",
-  "DefaultHeight": 906,
-  "DefaultWidth": 684,
+  "DashboardTileDefinitionId": 121,
+  "Name": "Mann-Kilback",
+  "Description": "Cross-group leading edge policy",
+  "DefaultHeight": 250,
+  "DefaultWidth": 4,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bradtke-Nikolaus",
-  "SelectionId": 729,
+  "EntityName": "Jenkins, Ullrich and Crooks",
+  "SelectionId": 963,
   "CurrencyMode": "Base",
-  "CurrencyCode": "minus",
+  "CurrencyCode": "voluptatem",
   "Measure": "Average",
-  "MeasureField": "impedit",
-  "SortBy": "quis",
-  "LayoutConfig": "nostrum",
-  "SecondarySelectionId": 759,
-  "MeasureByField": "vitae",
+  "MeasureField": "fugit",
+  "SortBy": "voluptas",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 338,
+  "MeasureByField": "in",
   "Usage": "Dashboard",
-  "ProviderName": "Eichmann-White",
+  "ProviderName": "Bechtelar Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldType": "System.String",
+      "FieldLength": 139
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,91 +78,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2016-01-08T15:29:20.7607904+01:00",
-  "ToDate": "2021-02-19T15:29:20.7607904+01:00",
+  "FromDate": "2006-01-26T03:51:26.5531332+01:00",
+  "ToDate": "2022-09-24T03:51:26.5531332+02:00",
   "AssociateList": [
     {
-      "Id": 237,
-      "Name": "DuBuque, Spencer and Thiel",
-      "ToolTip": "Dolorem voluptas ratione quia officia dolore.",
-      "Deleted": true,
-      "Rank": 627,
-      "Type": "rerum",
-      "ColorBlock": 194,
-      "IconHint": "ea",
+      "Id": 258,
+      "Name": "Kovacek, Pouros and Pouros",
+      "ToolTip": "Dolorum unde quaerat neque perferendis eum repellendus.",
+      "Deleted": false,
+      "Rank": 686,
+      "Type": "et",
+      "ColorBlock": 338,
+      "IconHint": "ipsum",
       "Selected": false,
-      "LastChanged": "2005-10-15T15:29:20.7607904+02:00",
+      "LastChanged": "2020-02-06T03:51:26.5531332+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "nobis",
+      "ExtraInfo": "qui",
+      "StyleHint": "in",
       "Hidden": false,
-      "FullName": "Hudson Schmeler",
+      "FullName": "Kariane Camille Wilkinson I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 482
+          "FieldType": "System.Int32",
+          "FieldLength": 178
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 588,
-      "Name": "Leuschke Inc and Sons",
-      "ToolTip": "Provident consectetur quam praesentium dignissimos ut et vel.",
+      "Id": 420,
+      "Name": "Heathcote-Leannon",
+      "ToolTip": "Ipsum qui veritatis.",
       "Deleted": false,
-      "Rank": 397,
-      "Type": "ex",
-      "ColorBlock": 557,
-      "IconHint": "ipsam",
+      "Rank": 827,
+      "Type": "eligendi",
+      "ColorBlock": 876,
+      "IconHint": "veniam",
       "Selected": false,
-      "LastChanged": "2010-06-16T15:29:20.7612893+02:00",
+      "LastChanged": "2022-01-27T03:51:26.5531332+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolore",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Adela Carroll",
+      "ExtraInfo": "iure",
+      "StyleHint": "doloribus",
+      "Hidden": false,
+      "FullName": "Judd Runolfsdottir",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 923
+          "FieldLength": 348
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 745,
-      "Name": "Hegmann-Weber",
-      "ToolTip": "Alias at veniam ipsa ut nam nisi.",
+      "Id": 872,
+      "Name": "Mante-Kiehn",
+      "ToolTip": "Ut iure eaque voluptatibus autem nisi beatae voluptas.",
       "Deleted": false,
-      "Rank": 516,
-      "Type": "suscipit",
+      "Rank": 593,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 281,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "consectetur",
-      "FullName": "Elouise Ledner V",
+      "IconHint": "at",
+      "ColorBlock": 779,
+      "ExtraInfo": "sit",
+      "StyleHint": "minima",
+      "FullName": "Mr. Bridie Shanahan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 521
+          "FieldType": "System.Int32",
+          "FieldLength": 767
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldLength": 11
     }
   }
 }

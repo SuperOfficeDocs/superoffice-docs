@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 380,
-    "Name": "Green, Murray and Pagac",
-    "Tooltip": "in",
+    "HeadingId": 620,
+    "Name": "Anderson Group",
+    "Tooltip": "quod",
     "Deleted": true,
-    "Rank": 489,
-    "UdListDefinitionId": 890
+    "Rank": 448,
+    "UdListDefinitionId": 785
   },
   {
-    "HeadingId": 380,
-    "Name": "Green, Murray and Pagac",
-    "Tooltip": "in",
+    "HeadingId": 620,
+    "Name": "Anderson Group",
+    "Tooltip": "quod",
     "Deleted": true,
-    "Rank": 489,
-    "UdListDefinitionId": 890
+    "Rank": 448,
+    "UdListDefinitionId": 785
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 116,
-    "Name": "Marks, Bogisich and Crona",
-    "Tooltip": "repellendus",
+    "HeadingId": 904,
+    "Name": "Frami-Shields",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "Rank": 968,
-    "UdListDefinitionId": 435,
+    "Rank": 837,
+    "UdListDefinitionId": 814,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 143
+        "FieldType": "System.Int32",
+        "FieldLength": 543
       }
     }
   }

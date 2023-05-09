@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 550,
-  "Name": "Hand, Mayert and Padberg",
-  "AssociateId": 609,
-  "DetailsTable": 991,
-  "DetailsRecord": 143,
+  "Id": 702,
+  "Name": "Hirthe-Eichmann",
+  "AssociateId": 835,
+  "DetailsTable": 938,
+  "DetailsRecord": 830,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "aut",
-    "ParameterObject2": "iure"
+    "ParameterObject1": "qui",
+    "ParameterObject2": "quibusdam"
   },
-  "LastStarted": "2002-12-07T15:29:30.806988+01:00",
-  "Created": "2022-11-12T15:29:30.806988+01:00",
-  "StartCount": 840,
-  "DatabaseSerialNumber": "1104306",
-  "Context": "eum",
-  "Result": "quasi",
+  "LastStarted": "2017-03-09T03:51:34.1772068+01:00",
+  "Created": "2008-10-09T03:51:34.1772068+02:00",
+  "StartCount": 828,
+  "DatabaseSerialNumber": "976499",
+  "Context": "aut",
+  "Result": "illum",
   "State": "All",
-  "Description": "Profound zero tolerance infrastructure",
-  "Response": "esse",
-  "Request": "dignissimos",
-  "ProgressDescription": "Proactive mission-critical parallelism",
-  "ProgressPercent": 552,
-  "FileName": "Abshire-Batz",
+  "Description": "Profit-focused actuating alliance",
+  "Response": "consequatur",
+  "Request": "voluptatibus",
+  "ProgressDescription": "Organic human-resource framework",
+  "ProgressPercent": 365,
+  "FileName": "Toy Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   }
 }

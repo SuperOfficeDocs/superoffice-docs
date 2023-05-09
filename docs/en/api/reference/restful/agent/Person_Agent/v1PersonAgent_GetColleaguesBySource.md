@@ -114,12 +114,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 423
+  "Count": 231
 }
 ```
 
@@ -131,52 +131,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptatibus",
-    "PersonId": 130,
+    "Position": "repellendus",
+    "PersonId": 751,
     "Mrmrs": "est",
-    "Firstname": "Domenico",
-    "Lastname": "Thompson",
-    "MiddleName": "Dietrich, Keebler and Steuber",
-    "Title": "impedit",
-    "Description": "Future-proofed empowering artificial intelligence",
-    "Email": "matilde.lowe@hodkiewicz.com",
-    "FullName": "Prof. Oda Nicklaus Gutmann Sr.",
-    "DirectPhone": "885.539.3455 x437",
-    "FormalName": "Herzog LLC",
-    "CountryId": 178,
-    "ContactId": 458,
-    "ContactName": "Rau-Kautzer",
-    "Retired": 938,
-    "Rank": 789,
-    "ActiveInterests": 335,
+    "Firstname": "Brent",
+    "Lastname": "Cronin",
+    "MiddleName": "Mayert, Ortiz and Heidenreich",
+    "Title": "recusandae",
+    "Description": "Open-source empowering Graphical User Interface",
+    "Email": "mossie@rau.ca",
+    "FullName": "Bertrand Upton",
+    "DirectPhone": "213-321-2763",
+    "FormalName": "Simonis-Mayert",
+    "CountryId": 209,
+    "ContactId": 791,
+    "ContactName": "Kunze LLC",
+    "Retired": 563,
+    "Rank": 983,
+    "ActiveInterests": 513,
     "ContactDepartment": "",
-    "ContactCountryId": 571,
-    "ContactOrgNr": "1063194",
-    "FaxPhone": "665.520.4341",
-    "MobilePhone": "166.216.6147",
-    "ContactPhone": "1-140-729-0124",
-    "AssociateName": "O'Hara Inc and Sons",
-    "AssociateId": 259,
-    "UsePersonAddress": false,
-    "ContactFax": "eaque",
-    "Kanafname": "qui",
-    "Kanalname": "et",
-    "Post1": "non",
-    "Post2": "harum",
-    "Post3": "odio",
-    "EmailName": "justine_larkin@schaden.info",
-    "ContactFullName": "Keon Weber",
-    "ActiveErpLinks": 684,
-    "TicketPriorityId": 104,
-    "SupportLanguageId": 72,
-    "SupportAssociateId": 974,
+    "ContactCountryId": 291,
+    "ContactOrgNr": "269032",
+    "FaxPhone": "1-453-095-7334",
+    "MobilePhone": "413-767-8582",
+    "ContactPhone": "(466)226-1635",
+    "AssociateName": "Spencer, Quitzon and Abernathy",
+    "AssociateId": 530,
+    "UsePersonAddress": true,
+    "ContactFax": "et",
+    "Kanafname": "dolorum",
+    "Kanalname": "laboriosam",
+    "Post1": "voluptatem",
+    "Post2": "quibusdam",
+    "Post3": "repellendus",
+    "EmailName": "devyn@purdy.co.uk",
+    "ContactFullName": "Eric Kulas",
+    "ActiveErpLinks": 733,
+    "TicketPriorityId": 995,
+    "SupportLanguageId": 378,
+    "SupportAssociateId": 763,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 53
       }
     }
   }

@@ -26,7 +26,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -90,7 +90,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 631,
-    "Name": "Wyman, Johns and Swaniawski",
-    "Tooltip": "et",
-    "SaveInDb": 804,
-    "Filename": "facilis",
-    "DefaultOref": "sed",
+    "DocumentTemplateId": 945,
+    "Name": "Windler-Ondricka",
+    "Tooltip": "repellendus",
+    "SaveInDb": 305,
+    "Filename": "praesentium",
+    "DefaultOref": "odit",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 881,
-    "IntentId": 235,
+    "AutoeventId": 860,
+    "IntentId": 724,
     "IsDefaultPublished": false,
-    "Rank": 563,
-    "LoadTemplateFromPlugin": 836,
-    "MimeType": "est",
+    "Rank": 660,
+    "LoadTemplateFromPlugin": 137,
+    "MimeType": "similique",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 921,
+    "DocumentTypeKey": 27,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "rose.ernser@conroy.info",
+    "EmailSubject": "palma_schinner@thiel.uk",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "cyril@jacobischuppe.ca",
+    "SenderEmailAddress": "bradly_runte@leffler.name",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 999
+        "FieldLength": 680
       }
     }
   }

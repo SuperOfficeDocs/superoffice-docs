@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 712,
-  "Name": "Harris, Gusikowski and Beatty",
-  "Tooltip": "ut",
+  "Id": 808,
+  "Name": "Heaney, Jast and Dibbert",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 405,
-  "Rank": 553,
+  "UdListDefinitionId": 432,
+  "Rank": 311,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldType": "System.String",
+      "FieldLength": 502
     }
   }
 }

@@ -106,27 +106,27 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 413,
-  "Name": "Doyle Inc and Sons",
-  "Tooltip": "numquam",
+  "WebPanelId": 756,
+  "Name": "Gaylord Group",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 815,
+  "Rank": 857,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Kunze-Johns",
+  "WindowName": "Toy, Harvey and Kilback",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptas",
-  "Icon": 208,
-  "AlwaysReloadOnShow": true
+  "ProgId": "libero",
+  "Icon": 643,
+  "AlwaysReloadOnShow": false
 }
 ```
 
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 853,
-  "Name": "Hegmann-Jacobson",
-  "Tooltip": "et",
+  "WebPanelId": 768,
+  "Name": "Cruickshank, Green and Wolff",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "Rank": 592,
+  "Rank": 515,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Hand, Huel and Mitchell",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Johnston-Wolff",
   "Url": "http://www.example.com/",
-  "ProgId": "harum",
-  "Icon": 20,
+  "ProgId": "neque",
+  "Icon": 895,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 152
+      "FieldType": "System.Int32",
+      "FieldLength": 793
     }
   }
 }

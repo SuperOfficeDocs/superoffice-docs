@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,30 +86,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 687,
-  "Section": "ex",
-  "Key": "reiciendis",
-  "Name": "Mayert Inc and Sons",
+  "PrefDescId": 925,
+  "Section": "facere",
+  "Key": "veritatis",
+  "Name": "Funk-Littel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Versatile impactful utilisation",
-  "IsBuiltin": false,
-  "TableName": "McGlynn LLC",
-  "UserDefinedListId": 822,
-  "Rank": 357,
-  "SubGroup": "voluptatibus",
-  "MinLevel": 46,
-  "MaxValue": 225,
-  "MinValue": 595,
-  "RequiredLicense": "repellat",
+  "Description": "De-engineered even-keeled secured line",
+  "IsBuiltin": true,
+  "TableName": "Jacobson, Lebsack and Stracke",
+  "UserDefinedListId": 448,
+  "Rank": 594,
+  "SubGroup": "libero",
+  "MinLevel": 1002,
+  "MaxValue": 759,
+  "MinValue": 119,
+  "RequiredLicense": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   }
 }

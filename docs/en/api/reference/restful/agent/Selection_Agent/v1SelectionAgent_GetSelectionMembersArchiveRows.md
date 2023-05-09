@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 990,
-  "Select": "omnis"
+  "SelectionId": 394,
+  "Select": "natus"
 }
 ```
 
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Dach Group",
-    "PrimaryKey": 1000,
+    "EntityName": "Mohr, Jerde and Hamill",
+    "PrimaryKey": 11,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "officiis",
-        "TooltipHint": "qui",
-        "LinkHint": "quidem"
+        "DisplayValue": "illo",
+        "TooltipHint": "modi",
+        "LinkHint": "ipsa"
       }
     },
-    "LinkHint": "ad",
-    "StyleHint": "et",
+    "LinkHint": "debitis",
+    "StyleHint": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldLength": 320
       }
     }
   }

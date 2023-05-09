@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 221,
-  "Name": "Marvin, Cormier and Graham",
-  "Tooltip": "consequatur",
+  "Id": 28,
+  "Name": "Wehner, Becker and Pfeffer",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 7,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 669,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
+  "ListType": "vel",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 602,
-  "Name": "Feeney Group",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 585,
+  "Id": 44,
+  "Name": "Bednar-Hyatt",
+  "Tooltip": "veniam",
+  "Deleted": true,
+  "Rank": 703,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "impedit",
-  "InUseByUserDefinedFields": true,
+  "ListType": "est",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 924
     }
   }
 }

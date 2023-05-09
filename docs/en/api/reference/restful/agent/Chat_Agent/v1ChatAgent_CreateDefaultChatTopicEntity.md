@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 667,
-  "Name": "Monahan LLC",
-  "Description": "Compatible scalable moratorium",
-  "WelcomeMessage": "voluptatum",
+  "ChatTopicId": 551,
+  "Name": "Schuppe, Windler and Boyle",
+  "Description": "Fundamental 3rd generation archive",
+  "WelcomeMessage": "cupiditate",
   "Language": null,
-  "LastAccept": "2009-07-30T15:29:20.8923217+02:00",
-  "SecondsPrAccept": 210,
-  "AlertRecipient": "id",
+  "LastAccept": "2014-01-21T03:51:26.6624841+01:00",
+  "SecondsPrAccept": 704,
+  "AlertRecipient": "aut",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "voluptatem",
+  "CollectConsent": false,
+  "BadgeHeader": "dolorum",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ut",
-  "WarnNewChatMinutes": 855,
-  "WarnManagerNewChatMinutes": 201,
+  "CustomQueueText": "et",
+  "WarnNewChatMinutes": 757,
+  "WarnManagerNewChatMinutes": 859,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 749,
-  "WarnManagerChatMessageMinutes": 55,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 387,
-  "OfflineFormQueueLength": 602,
+  "WarnChatMessageMinutes": 400,
+  "WarnManagerChatMessageMinutes": 498,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 707,
+  "OfflineFormQueueLength": 272,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "dolor",
+  "WidgetRatingText": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldType": "System.Int32",
+      "FieldLength": 29
     }
   }
 }

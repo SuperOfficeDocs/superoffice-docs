@@ -82,8 +82,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 237,
-  "DimensionId": 571
+  "TargetYear": 751,
+  "DimensionId": 638
 }
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 158,
-  "Year": 671,
+  "TargetGroupId": 356,
+  "Year": 748,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 644,
+      "TargetAssignmentInfoId": 218,
       "Values": [
-        281,
-        165
+        513,
+        330
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 697,
-      "DimensionListItemDisplayName": "Nienow, Cassin and Schinner",
+      "DimensionListItem": 375,
+      "DimensionListItemDisplayName": "Prosacco Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 832
+          "FieldLength": 884
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 454
     }
   }
 }

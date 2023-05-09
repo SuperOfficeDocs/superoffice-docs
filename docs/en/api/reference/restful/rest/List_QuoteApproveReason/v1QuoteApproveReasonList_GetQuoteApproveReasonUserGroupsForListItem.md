@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Hand Inc and Sons",
-    "ToolTip": "Deleniti cumque id facere mollitia.",
+    "Id": 680,
+    "Name": "Mraz Group",
+    "ToolTip": "Atque consequatur occaecati ut quae sapiente deleniti consequatur.",
     "Deleted": false,
-    "Rank": 903,
-    "Type": "perferendis",
-    "ColorBlock": 237,
-    "IconHint": "doloremque",
+    "Rank": 997,
+    "Type": "nobis",
+    "ColorBlock": 946,
+    "IconHint": "harum",
     "Selected": true,
-    "LastChanged": "2021-12-09T15:29:31.480476+01:00",
+    "LastChanged": "1996-06-17T03:51:34.864573+02:00",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Roob, Jast and Balistreri",
-        "ToolTip": "Quidem hic dolore.",
-        "Deleted": false,
-        "Rank": 481,
-        "Type": "quo",
-        "ColorBlock": 81,
-        "IconHint": "nam",
-        "Selected": false,
-        "LastChanged": "2002-05-15T15:29:31.480476+02:00",
+        "Id": 535,
+        "Name": "Price-Pagac",
+        "ToolTip": "Adipisci exercitationem fugit occaecati.",
+        "Deleted": true,
+        "Rank": 359,
+        "Type": "eligendi",
+        "ColorBlock": 602,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2004-09-09T03:51:34.864573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Eldred Oberbrunner",
+        "ExtraInfo": "qui",
+        "StyleHint": "mollitia",
+        "Hidden": false,
+        "FullName": "Beulah Erdman IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 102
+            "FieldLength": 654
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "enim",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "vel",
     "Hidden": true,
-    "FullName": "Marianne Merle Bashirian V",
+    "FullName": "Noemie Wintheiser DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldType": "System.String",
+        "FieldLength": 272
       }
     }
   }

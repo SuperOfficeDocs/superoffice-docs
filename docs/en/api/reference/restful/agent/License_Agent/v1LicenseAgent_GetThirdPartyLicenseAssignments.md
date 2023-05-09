@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 334,
-  "ModuleOwner": "corporis"
+  "AssociateId": 574,
+  "ModuleOwner": "et"
 }
 ```
 
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 47,
-    "Tooltip": "deleniti",
-    "CanAssign": false,
-    "Free": 609,
-    "InUse": 347,
+    "Total": 636,
+    "Tooltip": "ullam",
+    "CanAssign": true,
+    "Free": 691,
+    "InUse": 234,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 368,
-    "Name": "Kertzmann-Bergnaum",
-    "Description": "Polarised 24 hour monitoring",
-    "PrerequisiteModuleName": "Hintz-Altenwerth",
-    "SortOrder": 846,
-    "ExtraFlags": 650,
+    "Assigned": true,
+    "ModuleLicenseId": 516,
+    "Name": "Leffler-Streich",
+    "Description": "Public-key static database",
+    "PrerequisiteModuleName": "Ruecker-Kohler",
+    "SortOrder": 511,
+    "ExtraFlags": 457,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldLength": 353
       }
     }
   }

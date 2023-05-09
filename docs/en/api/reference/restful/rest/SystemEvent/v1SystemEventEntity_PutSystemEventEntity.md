@@ -96,19 +96,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 384,
+  "SystemEventId": 509,
   "Scope": "Database",
-  "Eta": "2007-12-05T15:29:30.6309873+01:00",
-  "Eventkey": "et",
-  "Eventmess": "non",
-  "ExtraInfo": 83,
-  "Owner": 204,
-  "UpdatedCount": 467,
-  "Registered": "2021-09-04T15:29:30.6319875+02:00",
+  "Eta": "1997-11-20T03:51:34.0399931+01:00",
+  "Eventkey": "excepturi",
+  "Eventmess": "ea",
+  "ExtraInfo": 401,
+  "Owner": 771,
+  "UpdatedCount": 973,
+  "Registered": "2011-04-07T03:51:34.0399931+02:00",
   "ActivatedBy": null
 }
 ```
@@ -120,22 +120,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 942,
+  "SystemEventId": 981,
   "Scope": "Database",
-  "Eta": "2016-01-09T15:29:30.632987+01:00",
-  "Eventkey": "eveniet",
-  "Eventmess": "voluptates",
-  "ExtraInfo": 747,
-  "Owner": 193,
-  "UpdatedCount": 310,
-  "Registered": "1996-03-31T15:29:30.632987+02:00",
+  "Eta": "2020-05-23T03:51:34.041019+02:00",
+  "Eventkey": "exercitationem",
+  "Eventmess": "officiis",
+  "ExtraInfo": 46,
+  "Owner": 382,
+  "UpdatedCount": 980,
+  "Registered": "2023-04-01T03:51:34.041019+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 692
+      "FieldLength": 207
     }
   },
   "_Links": {

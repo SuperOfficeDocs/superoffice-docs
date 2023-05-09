@@ -123,12 +123,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 39,
-  "RecurrenceRuleId": 966
+  "MotherId": 333,
+  "RecurrenceRuleId": 448
 }
 ```
 
@@ -140,53 +140,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 999,
-    "StartDate": "2022-09-23T15:29:20.4268301+02:00",
-    "EndDate": "2021-10-31T15:29:20.4268301+01:00",
+    "AppointmentId": 778,
+    "StartDate": "2008-10-31T03:51:26.1469713+01:00",
+    "EndDate": "1996-03-24T03:51:26.1469713+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatibus",
-    "AssociateFullName": "Alize Pfeffer",
-    "ContactName": "Jakubowski, Cummings and Lakin",
-    "Description": "Realigned directional initiative",
-    "PersonFullName": "Mr. Greg Bianka Fahey",
-    "PersonId": 380,
-    "ContactId": 140,
-    "ProjectId": 504,
-    "ProjectName": "O'Reilly-Mills",
+    "Task": "ea",
+    "AssociateFullName": "Rhianna Braun",
+    "ContactName": "Schaefer-Zieme",
+    "Description": "Diverse exuding ability",
+    "PersonFullName": "Kenyon Boyer DDS",
+    "PersonId": 589,
+    "ContactId": 807,
+    "ProjectId": 418,
+    "ProjectName": "Kemmer Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 619,
-    "ColorIndex": 925,
+    "AssociateId": 937,
+    "ColorIndex": 807,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 583,
-    "PriorityName": "Runolfsson-Bartoletti",
+    "PriorityId": 625,
+    "PriorityName": "Conroy LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2015-02-05T15:29:20.4283303+01:00",
+    "ActiveDate": "1996-11-08T03:51:26.1469713+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-11-01T15:29:20.4283303+01:00",
-    "RecurringEndDate": "2000-03-14T15:29:20.4283303+01:00",
-    "MotherId": 441,
-    "AssignedBy": 919,
-    "AssignedByFullName": "Dr. Nella Sabrina Wyman V",
+    "RecurringStartDate": "2012-01-20T03:51:26.1469713+01:00",
+    "RecurringEndDate": "2002-03-04T03:51:26.1469713+01:00",
+    "MotherId": 400,
+    "AssignedBy": 518,
+    "AssignedByFullName": "Maximillia Veum",
     "RejectReason": "",
-    "Location": "eligendi",
-    "AlarmLeadTime": "et",
-    "SaleId": 321,
-    "SaleName": "Anderson LLC",
-    "AssociateName": "Bradtke, Lebsack and McLaughlin",
-    "CreatedDate": "2011-11-02T15:29:20.4288321+01:00",
-    "CreatedBy": "enim",
-    "CreatedByFullName": "Leta Langosh",
-    "CreatedByAssociateId": 166,
+    "Location": "illo",
+    "AlarmLeadTime": "laborum",
+    "SaleId": 115,
+    "SaleName": "Padberg Group",
+    "AssociateName": "Feil, Buckridge and Walter",
+    "CreatedDate": "2003-05-16T03:51:26.1469713+02:00",
+    "CreatedBy": "voluptatem",
+    "CreatedByFullName": "Brielle Turner",
+    "CreatedByAssociateId": 801,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 169
+        "FieldLength": 818
       }
     }
   }

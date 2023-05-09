@@ -100,20 +100,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 610,
-  "Name": "Gusikowski LLC",
-  "Tooltip": "placeat",
+  "RoleId": 546,
+  "Name": "O'Conner Group",
+  "Tooltip": "sed",
   "RoleType": "Anonymous",
-  "Deleted": 918,
-  "Rank": 850,
-  "Created": "2004-09-01T15:29:30.0151595+02:00",
-  "UseCategories": 398,
+  "Deleted": 454,
+  "Rank": 307,
+  "Created": "2001-02-23T03:51:33.864677+01:00",
+  "UseCategories": 120,
   "CreatedBy": null,
-  "Updated": "2018-10-04T15:29:30.0151595+02:00",
+  "Updated": "2009-05-14T03:51:33.864677+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -126,16 +126,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 465,
-  "Name": "Stanton Inc and Sons",
-  "Tooltip": "quia",
+  "RoleId": 350,
+  "Name": "McClure-Paucek",
+  "Tooltip": "quae",
   "RoleType": "Anonymous",
-  "Deleted": 521,
-  "Rank": 257,
-  "Created": "2005-03-21T15:29:30.0166597+01:00",
-  "UseCategories": 676,
+  "Deleted": 197,
+  "Rank": 37,
+  "Created": "2014-03-06T03:51:33.8802911+01:00",
+  "UseCategories": 158,
   "CreatedBy": null,
-  "Updated": "2010-03-14T15:29:30.0181593+01:00",
+  "Updated": "2007-01-12T03:51:33.8802911+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -143,12 +143,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 27
+      "FieldLength": 986
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

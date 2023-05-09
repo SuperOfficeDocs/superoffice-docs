@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Bogisich Group",
-    "ToolTip": "Sed asperiores tempora et.",
-    "Deleted": true,
-    "Rank": 982,
-    "Type": "qui",
-    "ColorBlock": 515,
-    "IconHint": "magnam",
+    "Id": 352,
+    "Name": "Yost-Doyle",
+    "ToolTip": "Dolorum assumenda quam voluptatibus.",
+    "Deleted": false,
+    "Rank": 789,
+    "Type": "earum",
+    "ColorBlock": 551,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2023-02-17T15:29:31.1054764+01:00",
+    "LastChanged": "2023-03-14T03:51:34.5521277+01:00",
     "ChildItems": [
       {
-        "Id": 893,
-        "Name": "Schulist, Luettgen and Auer",
-        "ToolTip": "Voluptas iusto quia.",
+        "Id": 769,
+        "Name": "Legros, Rath and McKenzie",
+        "ToolTip": "Aut voluptas.",
         "Deleted": false,
-        "Rank": 341,
-        "Type": "id",
-        "ColorBlock": 395,
-        "IconHint": "id",
+        "Rank": 982,
+        "Type": "molestiae",
+        "ColorBlock": 611,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2016-05-09T15:29:31.1054764+02:00",
+        "LastChanged": "2010-11-05T03:51:34.5521277+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "velit",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Elnora Pfannerstill"
+        "FullName": "Dr. Raymond Andre Rutherford MD"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "quia",
+    "StyleHint": "placeat",
     "Hidden": true,
-    "FullName": "Mrs. Johnathan Zemlak DDS"
+    "FullName": "Edgardo Olaf Thompson I"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Denesik, Ward and Sporer",
-    "ToolTip": "Libero veritatis.",
+    "Id": 297,
+    "Name": "Ratke LLC",
+    "ToolTip": "Aut sit quasi et voluptas aut aut.",
     "Deleted": false,
-    "Rank": 868,
-    "Type": "deleniti",
-    "ColorBlock": 672,
-    "IconHint": "voluptate",
-    "Selected": false,
-    "LastChanged": "1997-05-28T15:29:31.1079781+02:00",
+    "Rank": 161,
+    "Type": "vero",
+    "ColorBlock": 793,
+    "IconHint": "ullam",
+    "Selected": true,
+    "LastChanged": "2007-03-15T03:51:34.5521277+01:00",
     "ChildItems": [
       {
-        "Id": 277,
-        "Name": "Olson-Baumbach",
-        "ToolTip": "Velit voluptatem ut.",
-        "Deleted": false,
-        "Rank": 606,
-        "Type": "voluptas",
-        "ColorBlock": 883,
-        "IconHint": "eum",
+        "Id": 266,
+        "Name": "Koss, Hills and Kutch",
+        "ToolTip": "Libero nemo facere qui amet dolores est quia.",
+        "Deleted": true,
+        "Rank": 294,
+        "Type": "architecto",
+        "ColorBlock": 385,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "1997-01-24T15:29:31.1079781+01:00",
+        "LastChanged": "2009-03-22T03:51:34.5521277+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Miss Niko Elwyn Friesen",
+        "ExtraInfo": "molestias",
+        "StyleHint": "culpa",
+        "Hidden": true,
+        "FullName": "Ofelia Feil III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldLength": 348
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "delectus",
-    "Hidden": false,
-    "FullName": "Ms. Janiya Rohan",
+    "ExtraInfo": "sint",
+    "StyleHint": "quidem",
+    "Hidden": true,
+    "FullName": "Cierra Crist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 511
+        "FieldLength": 131
       }
     }
   }

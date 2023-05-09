@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Green, Ferry and Shields",
+  "LayoutName": "Batz Inc and Sons",
   "ConfigParameter": null
 }
 ```
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 674,
-  "Name": "Heller, Oberbrunner and King",
-  "Value": "veniam",
-  "CreatedDate": "2021-02-25T15:29:20.8057899+01:00",
-  "UpdatedDate": "2003-05-19T15:29:20.8057899+02:00",
-  "CreatedBy": "autem",
-  "UpdatedBy": "commodi",
+  "AudienceLayoutId": 593,
+  "Name": "Purdy-Rogahn",
+  "Value": "voluptas",
+  "CreatedDate": "2022-03-30T03:51:26.5999985+02:00",
+  "UpdatedDate": "2008-05-16T03:51:26.5999985+02:00",
+  "CreatedBy": "illo",
+  "UpdatedBy": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 54
+      "FieldLength": 581
     }
   }
 }

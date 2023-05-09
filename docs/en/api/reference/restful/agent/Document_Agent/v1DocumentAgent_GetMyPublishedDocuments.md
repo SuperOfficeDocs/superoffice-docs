@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,32 +94,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 950,
-    "Attention": "dolores",
-    "Header": "facere",
-    "Name": "Goldner-Hudson",
-    "OurRef": "sapiente",
-    "YourRef": "corrupti",
-    "Description": "Phased even-keeled capacity",
+    "DocumentId": 751,
+    "Attention": "veritatis",
+    "Header": "et",
+    "Name": "Bernhard, Gulgowski and McLaughlin",
+    "OurRef": "officia",
+    "YourRef": "consequuntur",
+    "Description": "Front-line real-time encryption",
     "DocumentTemplate": "accusamus",
     "IsPublished": false,
-    "PersonId": 328,
-    "PersonFullName": "Llewellyn Corwin",
-    "AssociateFullName": "Brennon Berge",
-    "ContactId": 478,
-    "ContactName": "Crona, Hintz and Schmitt",
-    "ProjectId": 91,
-    "ProjectName": "Green LLC",
-    "AssociateId": 178,
-    "Snum": 524,
-    "SaleId": 637,
-    "SaleName": "Schumm Group",
+    "PersonId": 211,
+    "PersonFullName": "Erick Connelly",
+    "AssociateFullName": "Miss Price Gorczany DVM",
+    "ContactId": 809,
+    "ContactName": "Kessler Inc and Sons",
+    "ProjectId": 172,
+    "ProjectName": "Klocko Group",
+    "AssociateId": 172,
+    "Snum": 221,
+    "SaleId": 669,
+    "SaleName": "Langworth Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 416
+        "FieldLength": 117
       }
     }
   }

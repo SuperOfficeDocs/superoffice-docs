@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "EmailFlowInstances"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -467,7 +467,7 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=emailFlow/workflowInProgressCount,person/personUrl/URLDescription,person/personAddress/state,contact/contactAssociate/contactId
+GET /api/v1/archive/EmailFlowInstances?$select=person/personDirectPhone/formattedNumber,person/restrictionAddress/line1,person/personExtra/x_person_timespan,contact/nameDepartment,contact/searchPhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

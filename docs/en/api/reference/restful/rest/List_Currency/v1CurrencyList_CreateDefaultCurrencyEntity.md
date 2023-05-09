@@ -70,19 +70,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 946,
-  "Name": "Gaylord, Anderson and Krajcik",
-  "Tooltip": "et",
-  "Rank": 364,
-  "Rate": 20483.824,
-  "Units": 19553.025999999998,
-  "Deleted": false,
+  "CurrencyId": 840,
+  "Name": "Daniel, Hickle and Metz",
+  "Tooltip": "suscipit",
+  "Rank": 533,
+  "Rate": 17117.908,
+  "Units": 13535.746,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 37
     }
   }
 }

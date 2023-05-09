@@ -88,21 +88,21 @@ OK
 POST /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 348,
-  "Value": "repellat",
+  "TaskListItemId": 453,
+  "Value": "ut",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "aspernatur",
-  "Deleted": false,
-  "IntentId": 284,
-  "Rank": 337,
-  "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "IntentId": 686,
+  "Rank": 157,
+  "IsDefaultAlldayEvent": false,
+  "IsDefaultFree": true,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }
@@ -115,25 +115,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 762,
-  "Value": "deleniti",
+  "TaskListItemId": 536,
+  "Value": "consequatur",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "autem",
-  "Deleted": false,
-  "IntentId": 918,
-  "Rank": 545,
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "IntentId": 71,
+  "Rank": 495,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": true,
+  "IsDefaultFree": true,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 324
+      "FieldType": "System.Int32",
+      "FieldLength": 51
     }
   }
 }

@@ -114,8 +114,9 @@ OK
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
-| Sale | Sale | The sale that this ticket connected to  <para>Use MDO List name "sale" to get list items.</para> |
-| Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
+| Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
+| Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
+| FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -127,11 +128,11 @@ OK
 POST /api/v1/Agents/Ticket/GetForRmUi
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 910
+  "TicketId": 22
 }
 ```
 
@@ -142,21 +143,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 331,
-  "Title": "culpa",
-  "CreatedAt": "1998-09-20T15:29:23.1122568+02:00",
-  "LastChanged": "2003-12-04T15:29:23.1122568+01:00",
-  "ReadByOwner": "2012-12-10T15:29:23.1122568+01:00",
-  "ReadByCustomer": "2008-01-31T15:29:23.1122568+01:00",
-  "FirstReadByOwner": "2011-03-31T15:29:23.1122568+02:00",
-  "FirstReadByUser": "2007-08-16T15:29:23.1122568+02:00",
-  "Activate": "2021-12-19T15:29:23.1122568+01:00",
-  "ClosedAt": "2010-07-14T15:29:23.1122568+02:00",
-  "RepliedAt": "1996-08-07T15:29:23.1122568+02:00",
-  "AlertTimeout": "2000-10-08T15:29:23.1122568+02:00",
-  "Deadline": "2019-03-12T15:29:23.1122568+01:00",
+  "TicketId": 666,
+  "Title": "sapiente",
+  "CreatedAt": "2003-04-30T03:51:28.3183354+02:00",
+  "LastChanged": "2012-06-17T03:51:28.3183354+02:00",
+  "ReadByOwner": "1996-05-16T03:51:28.3183354+02:00",
+  "ReadByCustomer": "2004-02-04T03:51:28.3183354+01:00",
+  "FirstReadByOwner": "2012-03-17T03:51:28.3183354+01:00",
+  "FirstReadByUser": "1999-11-20T03:51:28.3183354+01:00",
+  "Activate": "2017-01-28T03:51:28.3183354+01:00",
+  "ClosedAt": "2006-10-14T03:51:28.3183354+02:00",
+  "RepliedAt": "2017-07-27T03:51:28.3183354+02:00",
+  "AlertTimeout": "2012-12-02T03:51:28.3183354+01:00",
+  "Deadline": "2017-12-10T03:51:28.3183354+01:00",
   "CreatedBy": null,
-  "Author": "dignissimos",
+  "Author": "quibusdam",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -167,158 +168,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "et",
-      "PersonId": 471,
-      "Mrmrs": "in",
-      "Firstname": "Hipolito",
-      "Lastname": "Von",
-      "MiddleName": "Dickens LLC",
-      "Title": "et",
-      "Description": "Synergistic dedicated frame",
-      "Email": "durward@quigleyroberts.name",
-      "FullName": "Neil Ebert",
-      "DirectPhone": "888-424-5481 x52470",
-      "FormalName": "Quigley LLC",
-      "CountryId": 461,
-      "ContactId": 763,
-      "ContactName": "Abbott LLC",
-      "Retired": 131,
-      "Rank": 538,
-      "ActiveInterests": 25,
+      "Position": "incidunt",
+      "PersonId": 244,
+      "Mrmrs": "soluta",
+      "Firstname": "Joe",
+      "Lastname": "O'Conner",
+      "MiddleName": "Price, Stokes and Roob",
+      "Title": "commodi",
+      "Description": "Enhanced client-server hardware",
+      "Email": "josefa@kohlerhills.info",
+      "FullName": "Domenica Sporer",
+      "DirectPhone": "(659)225-7163 x71045",
+      "FormalName": "Borer, Murphy and Funk",
+      "CountryId": 755,
+      "ContactId": 379,
+      "ContactName": "Weissnat Inc and Sons",
+      "Retired": 759,
+      "Rank": 468,
+      "ActiveInterests": 373,
       "ContactDepartment": "",
-      "ContactCountryId": 786,
-      "ContactOrgNr": "1246877",
-      "FaxPhone": "765.049.1726",
-      "MobilePhone": "(252)706-5594 x2820",
-      "ContactPhone": "772.126.2368 x9347",
-      "AssociateName": "Macejkovic Inc and Sons",
-      "AssociateId": 958,
+      "ContactCountryId": 980,
+      "ContactOrgNr": "1367384",
+      "FaxPhone": "1-052-066-1755",
+      "MobilePhone": "1-829-411-4379 x81190",
+      "ContactPhone": "1-374-802-5025",
+      "AssociateName": "Monahan, Becker and Adams",
+      "AssociateId": 85,
       "UsePersonAddress": false,
-      "ContactFax": "fugit",
-      "Kanafname": "incidunt",
-      "Kanalname": "quia",
-      "Post1": "ut",
-      "Post2": "omnis",
-      "Post3": "suscipit",
-      "EmailName": "hugh.turcotte@turner.biz",
-      "ContactFullName": "Prof. Tito Roel Monahan",
-      "ActiveErpLinks": 932,
-      "TicketPriorityId": 735,
-      "SupportLanguageId": 815,
-      "SupportAssociateId": 827,
+      "ContactFax": "tenetur",
+      "Kanafname": "tempore",
+      "Kanalname": "voluptatibus",
+      "Post1": "mollitia",
+      "Post2": "sed",
+      "Post3": "ut",
+      "EmailName": "evie@hyatt.com",
+      "ContactFullName": "Lavina Huels",
+      "ActiveErpLinks": 755,
+      "TicketPriorityId": 772,
+      "SupportLanguageId": 572,
+      "SupportAssociateId": 664,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 32
+          "FieldType": "System.Int32",
+          "FieldLength": 989
         }
       }
     }
   ],
-  "AlertLevel": 871,
-  "ConnectId": 175,
+  "AlertLevel": 712,
+  "ConnectId": 276,
   "ReadStatus": "Green",
-  "TimeToReply": 294,
-  "RealTimeToReply": 640,
-  "TimeToClose": 794,
-  "RealTimeToClose": 385,
-  "TimeSpentInternally": 220,
-  "TimeSpentExternally": 94,
-  "TimeSpentQueue": 558,
-  "RealTimeSpentInternally": 187,
-  "RealTimeSpentExternally": 871,
-  "RealTimeSpentQueue": 347,
+  "TimeToReply": 393,
+  "RealTimeToReply": 436,
+  "TimeToClose": 910,
+  "RealTimeToClose": 966,
+  "TimeSpentInternally": 646,
+  "TimeSpentExternally": 635,
+  "TimeSpentQueue": 250,
+  "RealTimeSpentInternally": 180,
+  "RealTimeSpentExternally": 102,
+  "RealTimeSpentQueue": 724,
   "HasAttachment": false,
-  "NumReplies": 452,
-  "NumMessages": 550,
-  "FromAddress": "tenetur",
+  "NumReplies": 382,
+  "NumMessages": 705,
+  "FromAddress": "deserunt",
   "Messages": [
     {
-      "TicketMessageId": 446,
-      "CreatedAt": "1998-01-08T15:29:23.1167572+01:00",
+      "TicketMessageId": 176,
+      "CreatedAt": "2002-11-21T03:51:28.3183354+01:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "minima",
-      "PersonId": 231,
-      "PersonFullName": "Heaven Bauch",
-      "ContactId": 498,
-      "ContactName": "Swaniawski Group",
+      "Important": true,
+      "Author": "qui",
+      "PersonId": 685,
+      "PersonFullName": "Shad Willms",
+      "ContactId": 93,
+      "ContactName": "Turner Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 119,
-      "EmailHeader": "holden.turcotte@stark.info",
+      "NumAttachments": 200,
+      "EmailHeader": "cara.shanahan@millerbartoletti.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "quis",
-      "Sentiment": 23,
-      "SentimentConfidence": 767,
-      "CreatedBy": 720,
-      "ChangedAt": "2011-11-03T15:29:23.1172564+01:00",
+      "Language": "quia",
+      "Sentiment": 21,
+      "SentimentConfidence": 613,
+      "CreatedBy": 642,
+      "ChangedAt": "1996-08-13T03:51:28.3183354+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 138
+          "FieldLength": 877
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 651,
-      "Name": "Lubowitz Group",
-      "ToolTip": "Distinctio dignissimos incidunt explicabo vitae.",
+      "Id": 134,
+      "Name": "Rippin, Weissnat and Boehm",
+      "ToolTip": "Saepe voluptas est deleniti dolore sit consectetur.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 844
+          "FieldType": "System.Int32",
+          "FieldLength": 894
         }
       }
     },
     {
-      "Id": 651,
-      "Name": "Lubowitz Group",
-      "ToolTip": "Distinctio dignissimos incidunt explicabo vitae.",
+      "Id": 134,
+      "Name": "Rippin, Weissnat and Boehm",
+      "ToolTip": "Saepe voluptas est deleniti dolore sit consectetur.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 844
+          "FieldType": "System.Int32",
+          "FieldLength": 894
         }
       }
     }
   ],
-  "Language": "consequatur",
-  "Sentiment": 138,
-  "SentimentConfidence": 938,
-  "SuggestedCategoryId": 774,
+  "Language": "in",
+  "Sentiment": 930,
+  "SentimentConfidence": 632,
+  "SuggestedCategoryId": 256,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 179,
-  "IconHint": "doloremque",
+  "OrigHumanCategoryId": 74,
+  "IconHint": "hic",
   "Sale": null,
   "Project": null,
+  "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "repudiandae"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "et",
+    "CustomFields2": "asperiores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   }
 }

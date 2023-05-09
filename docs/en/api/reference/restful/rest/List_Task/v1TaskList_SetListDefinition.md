@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 13,
-  "Name": "Schmidt-Yundt",
-  "Tooltip": "alias",
+  "Id": 800,
+  "Name": "Bradtke Inc and Sons",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "Rank": 606,
+  "Rank": 138,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsam",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 807,
-  "Name": "Mertz, Torphy and Schulist",
-  "Tooltip": "corrupti",
-  "Deleted": false,
-  "Rank": 889,
+  "Id": 919,
+  "Name": "Mayert-Feeney",
+  "Tooltip": "neque",
+  "Deleted": true,
+  "Rank": 51,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "at",
+  "UseGroupsAndHeadings": false,
+  "ListType": "corrupti",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 389
     }
   }
 }

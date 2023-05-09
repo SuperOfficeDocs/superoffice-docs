@@ -172,8 +172,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Farrell Group",
-  "Restrictions": "quis"
+  "ProviderName": "Wunsch, Gorczany and Hoppe",
+  "Restrictions": "ad"
 }
 ```
 
@@ -185,19 +185,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Ryan-Dare",
-    "DisplayTooltip": "necessitatibus",
-    "DisplayType": "expedita",
-    "CanOrderBy": true,
-    "Name": "Emard LLC",
+    "DisplayName": "Bogan-Metz",
+    "DisplayTooltip": "aut",
+    "DisplayType": "et",
+    "CanOrderBy": false,
+    "Name": "Gislason-Kohler",
     "CanRestrictBy": true,
-    "RestrictionType": "placeat",
-    "RestrictionListName": "Walsh Inc and Sons",
+    "RestrictionType": "pariatur",
+    "RestrictionListName": "Crist, Baumbach and O'Connell",
     "IsVisible": false,
-    "ExtraInfo": "facilis",
-    "Width": "et",
-    "IconHint": "aut",
-    "HeadingIconHint": "qui"
+    "ExtraInfo": "voluptas",
+    "Width": "aliquid",
+    "IconHint": "explicabo",
+    "HeadingIconHint": "aut"
   }
 ]
 ```

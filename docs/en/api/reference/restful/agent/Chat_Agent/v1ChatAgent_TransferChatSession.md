@@ -105,12 +105,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 577,
-  "ToAssociate": "ipsa"
+  "ChatSessionId": 418,
+  "ToAssociate": "ut"
 }
 ```
 
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 511,
-  "TopicId": 629,
+  "ChatSessionId": 559,
+  "TopicId": 627,
   "User": null,
   "Person": null,
-  "CustomerAlias": "accusantium",
-  "CustomerHost": "voluptas",
-  "CustomerName": "Hermann-Lang",
-  "CustomerEmail": "arturo.johnson@johns.co.uk",
-  "CustomerPhone": "845-728-3423",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Hane, Effertz and Christiansen",
+  "CustomerAlias": "voluptatibus",
+  "CustomerHost": "at",
+  "CustomerName": "Ankunding, Stark and Glover",
+  "CustomerEmail": "dejuan@hartmann.uk",
+  "CustomerPhone": "1-706-652-0343",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Hartmann, Bednar and Franecki",
   "Status": "Closed",
-  "FirstMessage": "ipsam",
-  "LastMessage": "et",
-  "WhenRequested": "2012-09-28T15:29:20.9323234+02:00",
-  "WhenStarted": "2017-04-28T15:29:20.9323234+02:00",
-  "WhenEnded": "2014-01-18T15:29:20.9323234+01:00",
-  "WhenIdle": "2003-10-30T15:29:20.9323234+01:00",
-  "WhenFetched": "2020-02-15T15:29:20.9323234+01:00",
-  "SessionKey": "ipsum",
-  "InitialQueuePos": 756,
-  "AlertLevel": 828,
-  "Rank": 481,
+  "FirstMessage": "qui",
+  "LastMessage": "illum",
+  "WhenRequested": "2015-10-27T03:51:26.6937299+01:00",
+  "WhenStarted": "1996-11-26T03:51:26.6937299+01:00",
+  "WhenEnded": "2021-09-24T03:51:26.6937299+02:00",
+  "WhenIdle": "2009-10-30T03:51:26.6937299+01:00",
+  "WhenFetched": "2003-04-03T03:51:26.6937299+02:00",
+  "SessionKey": "sit",
+  "InitialQueuePos": 256,
+  "AlertLevel": 827,
+  "Rank": 851,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -151,13 +151,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 647,
+  "Rating": 771,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 778
     }
   }
 }

@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "sit",
-      "Key": "molestiae"
+      "Section": "qui",
+      "Key": "omnis"
     },
     {
-      "Section": "sit",
-      "Key": "molestiae"
+      "Section": "qui",
+      "Key": "omnis"
     }
   ]
 }
@@ -110,22 +110,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "similique",
+    "RawValue": "commodi",
     "Specification": null,
-    "DisplayValue": "id",
-    "DisplayTooltip": "quo",
+    "DisplayValue": "voluptatem",
+    "DisplayTooltip": "aspernatur",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 844,
-    "PrefDescId": 244,
-    "TableName": "Bins, Marks and Carroll",
-    "UserPreferenceId": 409,
+    "TargetId": 899,
+    "PrefDescId": 829,
+    "TableName": "Howe Group",
+    "UserPreferenceId": 772,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldLength": 107
       }
     }
   }

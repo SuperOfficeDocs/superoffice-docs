@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 238,
-  "FieldName": "Vandervort, Ebert and Berge",
-  "Label": "eos",
-  "Tooltip": "et",
-  "Editable": false,
-  "InUse": false,
+  "QuoteLineConfigurationId": 141,
+  "FieldName": "Shanahan-Sauer",
+  "Label": "et",
+  "Tooltip": "cupiditate",
+  "Editable": true,
+  "InUse": true,
   "Mandatory": true,
-  "Rank": 403,
+  "Rank": 602,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldLength": 98
     }
   }
 }

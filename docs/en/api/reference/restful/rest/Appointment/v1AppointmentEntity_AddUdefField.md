@@ -97,7 +97,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 943,
-  "ColumnId": 45,
-  "FieldDefault": "at",
-  "FieldHeight": 946,
-  "FieldLabel": "aliquam",
-  "FieldLeft": 900,
-  "FieldTop": 690,
+  "UDefFieldId": 926,
+  "ColumnId": 991,
+  "FieldDefault": "enim",
+  "FieldHeight": 255,
+  "FieldLabel": "aspernatur",
+  "FieldLeft": 903,
+  "FieldTop": 511,
   "FieldType": "Checkbox",
-  "FieldWidth": 60,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 687,
+  "FormatMask": "magni",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 816,
-  "LabelLeft": 673,
-  "LabelTop": 149,
-  "LabelWidth": 348,
-  "LastVersionId": 332,
-  "ListTableId": 786,
+  "IsIndexed": true,
+  "LabelHeight": 916,
+  "LabelLeft": 574,
+  "LabelTop": 813,
+  "LabelWidth": 786,
+  "LastVersionId": 268,
+  "ListTableId": 373,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 328,
-  "ProgId": "est",
+  "Page1LineNo": 749,
+  "ProgId": "rerum",
   "IsReadOnly": true,
-  "ShortLabel": "libero",
-  "TabOrder": 968,
-  "TextLength": 432,
-  "Tooltip": "nulla",
-  "UdefIdentity": 547,
-  "UDListDefinitionId": 482,
+  "ShortLabel": "harum",
+  "TabOrder": 479,
+  "TextLength": 738,
+  "Tooltip": "ut",
+  "UdefIdentity": 185,
+  "UDListDefinitionId": 558,
   "Justification": "Center",
-  "Version": 618,
-  "TemplateVariableName": "Hermiston Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Koch, Mohr and Dietrich",
+  "Version": 286,
+  "TemplateVariableName": "Smitham, Tremblay and Lueilwitz",
+  "HasBeenPublished": true,
+  "MdoListName": "Jones LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 587
     }
   }
 }

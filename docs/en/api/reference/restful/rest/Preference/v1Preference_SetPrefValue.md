@@ -75,16 +75,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "rerum",
+  "RawValue": "harum",
   "Specification": null,
-  "DisplayValue": "assumenda",
-  "DisplayTooltip": "non",
+  "DisplayValue": "dolores",
+  "DisplayTooltip": "vero",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 85,
-  "PrefDescId": 43,
-  "TableName": "Crist, Marks and Schinner",
-  "UserPreferenceId": 298
+  "TargetId": 757,
+  "PrefDescId": 352,
+  "TableName": "Considine Inc and Sons",
+  "UserPreferenceId": 558
 }
 ```
 

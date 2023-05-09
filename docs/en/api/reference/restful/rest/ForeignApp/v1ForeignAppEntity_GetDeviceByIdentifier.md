@@ -68,7 +68,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,24 +76,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 28 Feb 2002 15:29:29 G2T
+Last-Modified: Fri, 05 May 2017 03:51:33 G5T
 
 {
-  "ForeignDeviceId": 842,
-  "Name": "Towne Inc and Sons",
-  "CreatedDate": "2007-04-25T15:29:29.7717034+02:00",
-  "UpdatedDate": "2002-02-28T15:29:29.7717034+01:00",
-  "AssociateFullName": "Jany Bashirian",
-  "CreatedBy": "repudiandae",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "qui",
-  "ForeignAppId": 908,
+  "ForeignDeviceId": 503,
+  "Name": "Cole, Swift and Waters",
+  "CreatedDate": "2008-08-31T03:51:33.677213+02:00",
+  "UpdatedDate": "2017-05-05T03:51:33.677213+02:00",
+  "AssociateFullName": "Mr. Walter Parker DDS",
+  "CreatedBy": "reiciendis",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "ut",
+  "ForeignAppId": 775,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 693
     }
   }
 }

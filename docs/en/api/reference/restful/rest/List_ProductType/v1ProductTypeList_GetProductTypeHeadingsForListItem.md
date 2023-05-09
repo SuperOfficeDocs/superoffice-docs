@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 532,
-    "Name": "Doyle LLC",
-    "ToolTip": "Porro voluptatem.",
+    "Id": 233,
+    "Name": "Turcotte, Orn and Hagenes",
+    "ToolTip": "Est minima quia nemo voluptatibus similique.",
     "Deleted": false,
-    "Rank": 904,
-    "Type": "ut",
-    "ColorBlock": 514,
-    "IconHint": "architecto",
+    "Rank": 121,
+    "Type": "voluptatem",
+    "ColorBlock": 765,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2002-09-19T15:29:31.4349763+02:00",
+    "LastChanged": "2022-05-04T03:51:34.833319+02:00",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Hartmann LLC",
-        "ToolTip": "Reiciendis officiis.",
-        "Deleted": true,
-        "Rank": 541,
-        "Type": "ea",
-        "ColorBlock": 247,
-        "IconHint": "fugiat",
+        "Id": 635,
+        "Name": "Klocko Inc and Sons",
+        "ToolTip": "Eveniet et quia minus ipsa quaerat aut.",
+        "Deleted": false,
+        "Rank": 602,
+        "Type": "at",
+        "ColorBlock": 463,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2003-12-30T15:29:31.4354763+01:00",
+        "LastChanged": "1996-06-03T03:51:34.833319+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "ab",
-        "Hidden": true,
-        "FullName": "Miss Joanne Alexie Berge DVM",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "molestias",
+        "Hidden": false,
+        "FullName": "Prof. Tessie Lauriane Romaguera",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 441
+            "FieldLength": 610
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "aut",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Dr. Ashton Schroeder",
+    "FullName": "Prof. Juwan Gleichner I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 83
+        "FieldLength": 557
       }
     }
   }

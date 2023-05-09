@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 291,
+  "UdListDefinitionId": 38,
   "Item": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 18,
-  "Name": "Gibson, O'Reilly and Schmeler",
-  "Tooltip": "aut",
+  "Id": 446,
+  "Name": "Satterfield Inc and Sons",
+  "Tooltip": "minima",
   "Deleted": true,
-  "UdListDefinitionId": 877,
-  "Rank": 487,
+  "UdListDefinitionId": 404,
+  "Rank": 745,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldLength": 870
     }
   }
 }

@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 111,
-  "ListItemId": 327,
+  "UdListDefinitionId": 353,
+  "ListItemId": 702,
   "Headings": [
     {
-      "Id": 766,
-      "Name": "Beer Inc and Sons",
-      "ToolTip": "Unde eius omnis.",
-      "Deleted": true,
-      "Rank": 708,
-      "Type": "minus",
-      "ColorBlock": 409,
-      "IconHint": "voluptatem",
+      "Id": 174,
+      "Name": "Jast-Wunsch",
+      "ToolTip": "Voluptatem commodi laborum ut culpa sint.",
+      "Deleted": false,
+      "Rank": 810,
+      "Type": "et",
+      "ColorBlock": 801,
+      "IconHint": "atque",
       "Selected": false,
-      "LastChanged": "2014-08-23T15:29:22.0222718+02:00",
+      "LastChanged": "2019-11-18T03:51:27.4279277+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorem",
-      "StyleHint": "esse",
+      "ExtraInfo": "eaque",
+      "StyleHint": "alias",
       "Hidden": false,
-      "FullName": "Joy McClure"
+      "FullName": "Dominic Pagac"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 962,
-    "Name": "Lebsack-Gleason",
-    "ToolTip": "Exercitationem velit.",
-    "Deleted": false,
-    "Rank": 962,
-    "Type": "est",
-    "ColorBlock": 758,
-    "IconHint": "dolor",
+    "Id": 897,
+    "Name": "Corkery-Franecki",
+    "ToolTip": "Ipsam omnis qui et eligendi distinctio rerum.",
+    "Deleted": true,
+    "Rank": 2,
+    "Type": "natus",
+    "ColorBlock": 490,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2001-03-23T15:29:22.0227723+01:00",
+    "LastChanged": "1996-10-26T03:51:27.4279277+02:00",
     "ChildItems": [
       {
-        "Id": 465,
-        "Name": "Denesik Inc and Sons",
-        "ToolTip": "Tempore nulla qui aut quia.",
+        "Id": 532,
+        "Name": "Kemmer Inc and Sons",
+        "ToolTip": "Sit laboriosam inventore sed ab.",
         "Deleted": false,
-        "Rank": 387,
-        "Type": "dicta",
-        "ColorBlock": 82,
-        "IconHint": "error",
+        "Rank": 141,
+        "Type": "nihil",
+        "ColorBlock": 658,
+        "IconHint": "ratione",
         "Selected": false,
-        "LastChanged": "2021-01-09T15:29:22.0232718+01:00",
+        "LastChanged": "2021-04-16T03:51:27.4279277+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "aliquid",
-        "Hidden": true,
-        "FullName": "Mrs. Skye Osinski IV",
+        "ExtraInfo": "et",
+        "StyleHint": "eum",
+        "Hidden": false,
+        "FullName": "Alejandrin Brakus MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 404
+            "FieldLength": 388
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "dicta",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Ms. Frida Juanita Konopelski",
+    "FullName": "Miss Erica Marianne Crist DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldLength": 165
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 7,
-  "ERPPriceListKey": "eum",
-  "QuoteConnectionId": 540,
-  "Name": "Barton, Littel and Cassin",
-  "Description": "Open-architected leading edge complexity",
-  "Currency": "natus",
-  "CurrencyName": "Murazik-Luettgen",
-  "ValidFrom": "2007-10-25T15:29:22.5357654+02:00",
-  "ValidTo": "2006-10-22T15:29:22.5357654+02:00",
+  "PriceListId": 786,
+  "ERPPriceListKey": "rerum",
+  "QuoteConnectionId": 412,
+  "Name": "Feest, Bernier and Kohler",
+  "Description": "Open-architected static encryption",
+  "Currency": "deserunt",
+  "CurrencyName": "Labadie-Cormier",
+  "ValidFrom": "2011-09-22T03:51:27.9902963+02:00",
+  "ValidTo": "1998-03-25T03:51:27.9902963+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldType": "System.String",
+      "FieldLength": 38
     }
   }
 }

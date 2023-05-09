@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 344,
+  "AssociateId": 673,
   "Type": "AnonymousAssociate",
-  "PersonId": 644,
-  "Password": "quia"
+  "PersonId": 144,
+  "Password": "enim"
 }
 ```
 
@@ -102,8 +102,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 358
+      "FieldType": "System.Int32",
+      "FieldLength": 501
     }
   }
 }

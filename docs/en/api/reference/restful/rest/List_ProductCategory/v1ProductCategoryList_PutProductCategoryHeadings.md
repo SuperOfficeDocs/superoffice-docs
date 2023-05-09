@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 384,
-    "Name": "Schneider-Lesch",
-    "Tooltip": "voluptas",
+    "HeadingId": 844,
+    "Name": "Howe-Cormier",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 174,
-    "UdListDefinitionId": 551
+    "Rank": 125,
+    "UdListDefinitionId": 373
   },
   {
-    "HeadingId": 384,
-    "Name": "Schneider-Lesch",
-    "Tooltip": "voluptas",
+    "HeadingId": 844,
+    "Name": "Howe-Cormier",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 174,
-    "UdListDefinitionId": 551
+    "Rank": 125,
+    "UdListDefinitionId": 373
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 671,
-    "Name": "Ebert-Eichmann",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 446,
-    "UdListDefinitionId": 999,
+    "HeadingId": 990,
+    "Name": "Kuhn Group",
+    "Tooltip": "odit",
+    "Deleted": false,
+    "Rank": 484,
+    "UdListDefinitionId": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 897
+        "FieldType": "System.Int32",
+        "FieldLength": 548
       }
     }
   }

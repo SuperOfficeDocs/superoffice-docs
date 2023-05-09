@@ -78,7 +78,7 @@ OK
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,18 +90,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Jaskolski Group",
-    "DisplayName": "Stracke-Herman",
-    "Description": "Triple-buffered secondary middleware",
-    "ShortLabel": "mollitia",
+    "FieldName": "Bayer-Gutmann",
+    "DisplayName": "Collins Group",
+    "Description": "Multi-channelled zero administration utilisation",
+    "ShortLabel": "similique",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 423,
-    "TemplateVariableName": "Connelly-Hermann"
+    "IsExternal": false,
+    "Rank": 645,
+    "TemplateVariableName": "Wuckert-Gulgowski"
   }
 ]
 ```

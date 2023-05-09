@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "doloribus",
-  "ProviderName": "Streich Inc and Sons",
-  "StorageKey": "sint",
-  "Rank": 55,
-  "Context": "nobis"
+  "StorageType": "omnis",
+  "ProviderName": "Corwin, Wyman and Kassulke",
+  "StorageKey": "optio",
+  "Rank": 340,
+  "Context": "culpa"
 }
 ```
 
@@ -96,20 +96,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schumm, McDermott and Prohaska",
-  "Description": "Quality-focused next generation moratorium",
-  "Rank": 71,
+  "Name": "Monahan, Legros and Dibbert",
+  "Description": "Optional mobile contingency",
+  "Rank": 873,
   "Restrictions": [
     {
-      "Name": "Schmitt, Abshire and Bruen",
-      "Operator": "sed",
+      "Name": "Thiel, Jerde and Wehner",
+      "Operator": "atque",
       "Values": [
-        "voluptate",
-        "velit"
+        "praesentium",
+        "quia"
       ],
       "DisplayValues": [
-        "quam",
-        "eum"
+        "quo",
+        "non"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -117,9 +117,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 677,
+      "InterParenthesis": 917,
       "InterOperator": "And",
-      "UniqueHash": 666
+      "UniqueHash": 311
     }
   ]
 }

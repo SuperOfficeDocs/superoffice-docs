@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Ryan, Upton and Howe",
-    "ToolTip": "Provident sit dolor non adipisci.",
-    "Deleted": true,
-    "Rank": 947,
-    "Type": "et",
-    "ColorBlock": 348,
-    "IconHint": "voluptatem",
+    "Id": 958,
+    "Name": "Fay Inc and Sons",
+    "ToolTip": "Ea dolore ipsa aut fugit veritatis sunt dicta.",
+    "Deleted": false,
+    "Rank": 882,
+    "Type": "voluptas",
+    "ColorBlock": 871,
+    "IconHint": "tempora",
     "Selected": true,
-    "LastChanged": "2021-01-16T15:29:31.5694726+01:00",
+    "LastChanged": "2008-10-28T03:51:34.9426529+01:00",
     "ChildItems": [
       {
-        "Id": 799,
-        "Name": "Stroman, Marquardt and Davis",
-        "ToolTip": "Ab porro fugit consectetur sit nobis.",
+        "Id": 196,
+        "Name": "Macejkovic LLC",
+        "ToolTip": "Et repellat.",
         "Deleted": false,
-        "Rank": 712,
-        "Type": "officia",
-        "ColorBlock": 249,
-        "IconHint": "minus",
+        "Rank": 59,
+        "Type": "quia",
+        "ColorBlock": 395,
+        "IconHint": "aperiam",
         "Selected": false,
-        "LastChanged": "2012-06-13T15:29:31.5694726+02:00",
+        "LastChanged": "2016-10-12T03:51:34.9426529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "dolorem",
-        "Hidden": false,
-        "FullName": "Manuel Roob",
+        "ExtraInfo": "eos",
+        "StyleHint": "vitae",
+        "Hidden": true,
+        "FullName": "Chyna Spinka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldLength": 769
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "adipisci",
-    "Hidden": false,
-    "FullName": "Carmelo Conroy DDS",
+    "ExtraInfo": "corporis",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Milford Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldLength": 171
       }
     }
   }

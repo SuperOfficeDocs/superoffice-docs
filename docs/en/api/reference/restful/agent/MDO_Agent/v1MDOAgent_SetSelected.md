@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Deckow, McCullough and Hahn",
-  "AdditionalInfo": "recusandae",
+  "Name": "Langworth Group",
+  "AdditionalInfo": "ratione",
   "SelectableMDOList": [
     {
-      "Id": 998,
-      "Name": "Reinger, Wolff and Mohr",
-      "ToolTip": "Iusto unde officiis velit corporis quidem.",
+      "Id": 397,
+      "Name": "Berge-Bailey",
+      "ToolTip": "Molestiae recusandae repudiandae natus pariatur quas unde.",
       "Deleted": false,
-      "Rank": 139,
-      "Type": "quidem",
-      "ColorBlock": 19,
-      "IconHint": "enim",
-      "Selected": false,
-      "LastChanged": "2021-11-13T15:29:22.1543035+01:00",
+      "Rank": 686,
+      "Type": "eligendi",
+      "ColorBlock": 572,
+      "IconHint": "pariatur",
+      "Selected": true,
+      "LastChanged": "2004-06-13T03:51:27.5216578+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ipsa",
-      "StyleHint": "ullam",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "rerum",
       "Hidden": false,
-      "FullName": "Jerrell Graham"
+      "FullName": "Stella Morar I"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 362,
-    "Name": "Wintheiser, Hintz and Jewess",
-    "ToolTip": "Sit culpa architecto.",
-    "Deleted": false,
-    "Rank": 17,
-    "Type": "quia",
-    "ColorBlock": 10,
-    "IconHint": "amet",
+    "Id": 130,
+    "Name": "Adams-Nicolas",
+    "ToolTip": "Consequatur maiores.",
+    "Deleted": true,
+    "Rank": 898,
+    "Type": "a",
+    "ColorBlock": 470,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "1997-02-13T15:29:22.1553036+01:00",
+    "LastChanged": "2018-02-04T03:51:27.5372792+01:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Williamson, Moen and Cartwright",
-        "ToolTip": "Alias sed consequuntur sequi.",
+        "Id": 159,
+        "Name": "Ryan, Gibson and Connelly",
+        "ToolTip": "Sunt ut natus accusamus ut asperiores sit praesentium.",
         "Deleted": true,
-        "Rank": 271,
-        "Type": "at",
-        "ColorBlock": 953,
-        "IconHint": "exercitationem",
+        "Rank": 746,
+        "Type": "fugit",
+        "ColorBlock": 134,
+        "IconHint": "fuga",
         "Selected": true,
-        "LastChanged": "2018-04-29T15:29:22.1553036+02:00",
+        "LastChanged": "1996-11-11T03:51:27.5372792+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "saepe",
+        "ExtraInfo": "unde",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Isaac Jakubowski",
+        "FullName": "Kirstin Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 510
+            "FieldType": "System.Int32",
+            "FieldLength": 669
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "dolore",
-    "Hidden": false,
-    "FullName": "Wallace Grimes",
+    "ExtraInfo": "delectus",
+    "StyleHint": "exercitationem",
+    "Hidden": true,
+    "FullName": "Miss Rory Zboncak Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 457
+        "FieldType": "System.Int32",
+        "FieldLength": 532
       }
     }
   }

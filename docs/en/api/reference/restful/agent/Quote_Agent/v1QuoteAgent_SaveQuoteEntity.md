@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,58 +101,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 167,
-  "SaleId": 864,
-  "QuoteConnectionId": 522,
-  "ERPQuoteKey": "eaque",
-  "ERPOrderKey": "commodi",
-  "ActiveQuoteVersionId": 905,
-  "AcceptedQuoteAlternativeId": 612,
-  "UseValuesFromQuote": 292,
-  "DocumentId": 328,
-  "PoNumber": "1667045",
-  "OrderComment": "quis",
-  "PreferredEmailCulture": "sally_beier@auerweissnat.uk",
+  "QuoteId": 105,
+  "SaleId": 424,
+  "QuoteConnectionId": 434,
+  "ERPQuoteKey": "aut",
+  "ERPOrderKey": "possimus",
+  "ActiveQuoteVersionId": 412,
+  "AcceptedQuoteAlternativeId": 572,
+  "UseValuesFromQuote": 594,
+  "DocumentId": 425,
+  "PoNumber": "1188362",
+  "OrderComment": "hic",
+  "PreferredEmailCulture": "constantin@effertz.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 878,
-      "ERPQuoteVersionKey": "quisquam",
-      "QuoteId": 559,
-      "Description": "De-engineered motivating complexity",
-      "Number": "363697",
+      "QuoteVersionId": 671,
+      "ERPQuoteVersionKey": "velit",
+      "QuoteId": 622,
+      "Description": "Multi-tiered scalable capability",
+      "Number": "1066284",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 918,
-      "SentDate": "2009-07-12T15:29:22.5857648+02:00",
-      "FollowupId": 448,
-      "ExpirationDate": "2015-10-02T15:29:22.5857648+02:00",
-      "DeliveryCountryId": 982,
+      "LikelyQuoteAlternativeId": 200,
+      "SentDate": "2018-06-25T03:51:28.0215395+02:00",
+      "FollowupId": 126,
+      "ExpirationDate": "2006-02-02T03:51:28.0215395+01:00",
+      "DeliveryCountryId": 19,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 980,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "eos",
-      "ERPPaymentTypeKey": "non",
-      "ERPDeliveryTermsKey": "velit",
+      "InvoiceCountryId": 291,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "qui",
+      "ERPPaymentTypeKey": "voluptas",
+      "ERPDeliveryTermsKey": "nisi",
       "ERPDeliveryTypeKey": "et",
-      "Rank": 71,
-      "ApprovedBy": 190,
-      "ApprovedText": "iusto",
-      "ApprovedRegisteredBy": 261,
-      "ApprovedRegisteredDate": "2006-11-10T15:29:22.5862645+01:00",
-      "ExtraField1": "facilis",
-      "ExtraField2": "commodi",
-      "ExtraField3": "optio",
-      "ExtraField4": "odit",
-      "ExtraField5": "ducimus",
-      "LastRecalculated": "2010-08-25T15:29:22.5862645+02:00",
-      "Updated": "1999-07-27T15:29:22.5862645+02:00",
-      "UpdatedAssociateId": 384,
-      "Registered": "2017-11-16T15:29:22.5862645+01:00",
-      "RegisteredAssociateId": 714,
-      "RequestAssociateId": 747,
-      "RequestComment": "aut",
+      "Rank": 271,
+      "ApprovedBy": 560,
+      "ApprovedText": "at",
+      "ApprovedRegisteredBy": 111,
+      "ApprovedRegisteredDate": "2017-06-21T03:51:28.0215395+02:00",
+      "ExtraField1": "consectetur",
+      "ExtraField2": "sequi",
+      "ExtraField3": "repellendus",
+      "ExtraField4": "nulla",
+      "ExtraField5": "laudantium",
+      "LastRecalculated": "1996-08-18T03:51:28.0215395+02:00",
+      "Updated": "2021-04-30T03:51:28.0215395+02:00",
+      "UpdatedAssociateId": 792,
+      "Registered": "2014-12-20T03:51:28.0215395+01:00",
+      "RegisteredAssociateId": 1002,
+      "RequestAssociateId": 922,
+      "RequestComment": "velit",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 915
+          "FieldLength": 333
         }
       }
     }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

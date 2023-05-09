@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    441,
-    111
+    192,
+    16
   ]
 }
 ```
@@ -104,64 +104,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 985,
-    "Caption": "reprehenderit",
-    "Description": "Cross-group 24 hour encoding",
-    "ChartName": "Heller Inc and Sons",
-    "ChartId": "voluptas",
-    "IsDefault": true,
-    "AssociateId": 89,
-    "GroupId": 787,
-    "SelectionId": 195,
-    "Config": "et",
+    "DashboardTileId": 220,
+    "Caption": "et",
+    "Description": "Team-oriented zero defect system engine",
+    "ChartName": "Sipes-Emard",
+    "ChartId": "est",
+    "IsDefault": false,
+    "AssociateId": 944,
+    "GroupId": 168,
+    "SelectionId": 505,
+    "Config": "perspiciatis",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Hermiston-Carter",
-        "Description": "Quality-focused explicit capacity",
+        "Name": "Schulist-Littel",
+        "Description": "Enterprise-wide fault-tolerant paradigm",
         "Type": "Boolean",
-        "ListName": "Feeney LLC",
+        "ListName": "Hagenes, Mante and Bogan",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "repellat",
+        "Value": "rerum",
         "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 325
+            "FieldLength": 381
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 27,
+        "VisibleId": 326,
         "Visibility": "All",
-        "DisplayValue": "eum",
+        "DisplayValue": "minima",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 874
+            "FieldLength": 633
           }
         }
       },
       {
-        "VisibleId": 27,
+        "VisibleId": 326,
         "Visibility": "All",
-        "DisplayValue": "eum",
+        "DisplayValue": "minima",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 874
+            "FieldLength": 633
           }
         }
       }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 296
+        "FieldLength": 876
       }
     }
   }

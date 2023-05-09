@@ -96,19 +96,19 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 298,
-  "Name": "Weber LLC",
-  "Tooltip": "soluta",
+  "Id": 708,
+  "Name": "Prohaska-O'Conner",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "Rank": 297,
+  "Rank": 303,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
+  "ListType": "ut",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -120,22 +120,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 288,
-  "Name": "Hettinger, Kuhn and Oberbrunner",
-  "Tooltip": "voluptatem",
+  "Id": 671,
+  "Name": "Braun, Jast and Dickens",
+  "Tooltip": "possimus",
   "Deleted": true,
-  "Rank": 996,
+  "Rank": 692,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sed",
+  "ListType": "vitae",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldType": "System.Int32",
+      "FieldLength": 513
     }
   },
   "_Links": {

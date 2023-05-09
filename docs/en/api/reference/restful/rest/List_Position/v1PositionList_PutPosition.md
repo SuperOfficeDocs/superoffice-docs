@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 851,
-  "Name": "Pacocha, Walker and Bogisich",
-  "Tooltip": "corporis",
-  "Deleted": true,
-  "UdListDefinitionId": 745,
-  "Rank": 685
+  "Id": 925,
+  "Name": "Abshire Inc and Sons",
+  "Tooltip": "amet",
+  "Deleted": false,
+  "UdListDefinitionId": 973,
+  "Rank": 560
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 750,
-  "Name": "Fay Group",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "UdListDefinitionId": 693,
-  "Rank": 215,
+  "Id": 659,
+  "Name": "Emard Inc and Sons",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "UdListDefinitionId": 100,
+  "Rank": 339,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldLength": 743
     }
   }
 }

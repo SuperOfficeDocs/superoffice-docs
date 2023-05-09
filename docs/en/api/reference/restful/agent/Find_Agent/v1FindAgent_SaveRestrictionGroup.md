@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "asperiores",
-  "ProviderName": "Smith Group",
-  "StorageKey": "repellat",
+  "StorageType": "quo",
+  "ProviderName": "Cremin-Turner",
+  "StorageKey": "reiciendis",
   "RestrictionGroup": null,
-  "Context": "et"
+  "Context": "facere"
 }
 ```
 

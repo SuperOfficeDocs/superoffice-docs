@@ -87,15 +87,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 935,
-  "Name": "McKenzie Group",
+  "Id": 702,
+  "Name": "Wintheiser, Schumm and Vandervort",
   "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 781,
+  "Rank": 593,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "incidunt",
+  "UseGroupsAndHeadings": true,
+  "ListType": "fuga",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 992,
-  "Name": "Lehner Inc and Sons",
-  "Tooltip": "perferendis",
+  "Id": 15,
+  "Name": "Braun-Stehr",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 953,
+  "Rank": 153,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eaque",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 893
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 95,
-  "Name": "Nader, Hahn and Kling",
-  "TZLocationCode": "sequi",
-  "TZLocationCities": "tenetur",
-  "IsoNumber": 678,
+  "TZLocationID": 503,
+  "Name": "O'Reilly, Barton and Quitzon",
+  "TZLocationCode": "autem",
+  "TZLocationCities": "occaecati",
+  "IsoNumber": 289,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 267,
-      "StartMonth": 433,
-      "EndDay": 438,
-      "EndMonth": 793,
-      "TZOffset": 699,
-      "StartRulePattern": "error",
-      "EndRulePattern": "est"
+      "StartDay": 435,
+      "StartMonth": 710,
+      "EndDay": 636,
+      "EndMonth": 618,
+      "TZOffset": 936,
+      "StartRulePattern": "numquam",
+      "EndRulePattern": "impedit"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 191,
-      "StartMonth": 195,
-      "EndDay": 21,
-      "EndMonth": 387,
-      "TZOffset": 539,
-      "StartRulePattern": "labore",
-      "EndRulePattern": "repellat"
+      "StartDay": 572,
+      "StartMonth": 782,
+      "EndDay": 457,
+      "EndMonth": 318,
+      "TZOffset": 300,
+      "StartRulePattern": "veniam",
+      "EndRulePattern": "sunt"
     }
   }
 }

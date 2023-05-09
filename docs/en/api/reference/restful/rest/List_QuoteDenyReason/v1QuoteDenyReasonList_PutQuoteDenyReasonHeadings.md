@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 985,
-    "Name": "Bartoletti-Sanford",
-    "Tooltip": "iure",
+    "HeadingId": 590,
+    "Name": "Schaden, Haag and Schaefer",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 302,
-    "UdListDefinitionId": 742
+    "Rank": 10,
+    "UdListDefinitionId": 808
   },
   {
-    "HeadingId": 985,
-    "Name": "Bartoletti-Sanford",
-    "Tooltip": "iure",
+    "HeadingId": 590,
+    "Name": "Schaden, Haag and Schaefer",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 302,
-    "UdListDefinitionId": 742
+    "Rank": 10,
+    "UdListDefinitionId": 808
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 395,
-    "Name": "Ernser Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 350,
-    "UdListDefinitionId": 571,
+    "HeadingId": 422,
+    "Name": "Sporer-Bayer",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "Rank": 549,
+    "UdListDefinitionId": 773,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldType": "System.String",
+        "FieldLength": 998
       }
     }
   }

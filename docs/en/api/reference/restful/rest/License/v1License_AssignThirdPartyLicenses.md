@@ -77,7 +77,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,26 +88,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 160,
-    "Tooltip": "enim",
+    "Unrestricted": true,
+    "Total": 377,
+    "Tooltip": "perferendis",
     "CanAssign": false,
-    "Free": 901,
-    "InUse": 481,
+    "Free": 379,
+    "InUse": 504,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 333,
-    "Name": "Mann Group",
-    "Description": "Up-sized responsive moratorium",
-    "PrerequisiteModuleName": "Heathcote, Brekke and Roob",
-    "SortOrder": 398,
-    "ExtraFlags": 666,
+    "Assigned": true,
+    "ModuleLicenseId": 469,
+    "Name": "Raynor, Dach and Okuneva",
+    "Description": "Ergonomic holistic task-force",
+    "PrerequisiteModuleName": "Keeling Inc and Sons",
+    "SortOrder": 390,
+    "ExtraFlags": 309,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 157
+        "FieldLength": 270
       }
     }
   }

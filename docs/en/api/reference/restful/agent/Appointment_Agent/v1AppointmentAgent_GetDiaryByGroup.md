@@ -124,15 +124,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 748,
-  "GroupType": 519,
-  "StartTime": "2013-10-24T15:29:20.417834+02:00",
-  "EndTime": "2000-07-26T15:29:20.417834+02:00",
-  "Count": 227
+  "GroupId": 742,
+  "GroupType": 249,
+  "StartTime": "1997-03-09T03:51:26.1469713+01:00",
+  "EndTime": "2007-07-13T03:51:26.1469713+02:00",
+  "Count": 682
 }
 ```
 
@@ -144,53 +144,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 808,
-    "StartDate": "2003-08-30T15:29:20.4193279+02:00",
-    "EndDate": "2017-05-03T15:29:20.4193279+02:00",
+    "AppointmentId": 23,
+    "StartDate": "2010-03-29T03:51:26.1469713+02:00",
+    "EndDate": "2005-09-23T03:51:26.1469713+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nihil",
-    "AssociateFullName": "Mrs. Oscar Declan Lemke",
-    "ContactName": "Shanahan, Farrell and Rowe",
-    "Description": "Intuitive bandwidth-monitored capacity",
-    "PersonFullName": "Bell Erick Dickens Sr.",
-    "PersonId": 723,
-    "ContactId": 601,
-    "ProjectId": 121,
-    "ProjectName": "Rodriguez, Carroll and Mills",
+    "Task": "et",
+    "AssociateFullName": "Dr. Aubree Barton PhD",
+    "ContactName": "Crooks Group",
+    "Description": "Enterprise-wide dedicated neural-net",
+    "PersonFullName": "Ms. Rosella Margarita Johnson",
+    "PersonId": 625,
+    "ContactId": 936,
+    "ProjectId": 870,
+    "ProjectName": "Prosacco, Corwin and Rosenbaum",
     "IsPublished": false,
-    "AssociateId": 928,
-    "ColorIndex": 36,
-    "IsFree": false,
-    "HasAlarm": true,
+    "AssociateId": 978,
+    "ColorIndex": 234,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 814,
-    "PriorityName": "Wiza Inc and Sons",
+    "PriorityId": 671,
+    "PriorityName": "Dickinson LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1998-06-03T15:29:20.4198304+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2008-06-19T03:51:26.1469713+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-02-15T15:29:20.4198304+01:00",
-    "RecurringEndDate": "2021-09-02T15:29:20.4198304+02:00",
-    "MotherId": 383,
-    "AssignedBy": 435,
-    "AssignedByFullName": "Darwin Stamm",
+    "RecurringStartDate": "2007-12-06T03:51:26.1469713+01:00",
+    "RecurringEndDate": "1996-08-27T03:51:26.1469713+02:00",
+    "MotherId": 613,
+    "AssignedBy": 634,
+    "AssignedByFullName": "Miss Jayda Wiza",
     "RejectReason": "",
-    "Location": "occaecati",
-    "AlarmLeadTime": "asperiores",
-    "SaleId": 866,
-    "SaleName": "Ankunding, Heller and Kuphal",
-    "AssociateName": "Hills-Rohan",
-    "CreatedDate": "2003-10-30T15:29:20.4203301+01:00",
-    "CreatedBy": "distinctio",
-    "CreatedByFullName": "Holly Hagenes",
-    "CreatedByAssociateId": 546,
+    "Location": "vero",
+    "AlarmLeadTime": "quasi",
+    "SaleId": 634,
+    "SaleName": "Barrows Inc and Sons",
+    "AssociateName": "Murazik, Boyle and Kuphal",
+    "CreatedDate": "2015-07-18T03:51:26.1469713+02:00",
+    "CreatedBy": "sit",
+    "CreatedByFullName": "Dr. Adolfo Effertz",
+    "CreatedByAssociateId": 376,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -198,7 +198,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldLength": 357
       }
     }
   }

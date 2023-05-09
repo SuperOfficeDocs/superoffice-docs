@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "CancelledInvitation"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -688,7 +688,7 @@ This is an optional entity and is fetched only if the user checks the correspond
 ## Sample
 
 ```http!
-GET /api/v1/archive/CancelledInvitation?$select=contact/contactUdef/SuperOffice:6,contact/contactUdef/SuperOffice:8,person/personAssociateFullName,associate/credentialDisplayValue
+GET /api/v1/archive/CancelledInvitation?$select=contact/postAddress/city,contact/LastSale,person/personAssociate/userName,person/correspondingAssociate/role,project/projectPublish/isPublished
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

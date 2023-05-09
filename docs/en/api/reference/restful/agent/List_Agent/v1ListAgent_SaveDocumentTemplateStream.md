@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 95,
+  "DocumentTemplateId": 23,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "iure",
-  "PluginId": 908
+  "LanguageCode": "quia",
+  "PluginId": 78
 }
 ```
 
@@ -95,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Larson, Dooley and Wunsch",
-  "Description": "Enhanced system-worthy archive",
-  "ExternalReference": "nihil",
-  "MimeType": "et",
-  "PluginId": 641
+  "Name": "Trantow-Robel",
+  "Description": "Diverse attitude-oriented collaboration",
+  "ExternalReference": "sed",
+  "MimeType": "blanditiis",
+  "PluginId": 329
 }
 ```

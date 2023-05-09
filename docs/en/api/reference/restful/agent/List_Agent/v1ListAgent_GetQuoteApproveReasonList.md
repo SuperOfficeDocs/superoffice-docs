@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Value": "assumenda",
+    "Id": 922,
+    "Value": "non",
     "Tooltip": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 776
+        "FieldLength": 768
       }
     }
   },
   {
-    "Id": 290,
-    "Value": "assumenda",
+    "Id": 922,
+    "Value": "non",
     "Tooltip": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 776
+        "FieldLength": 768
       }
     }
   }

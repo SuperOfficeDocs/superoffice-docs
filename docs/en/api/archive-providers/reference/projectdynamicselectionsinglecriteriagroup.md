@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ProjectDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -747,7 +747,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionSingleCriteriaGroup?$select=associateId,projectUdef/SuperOffice:3,sale/associate/simultaneousEjUser,projectMember/personBusiness,projectMember/postAddress/zip
+GET /api/v1/archive/ProjectDynamicSelectionSingleCriteriaGroup?$select=NumberOfActivitiesInPeriod,appointment/associate/contactDepartment,document/saleId,document/document/textId,projectMember/isProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

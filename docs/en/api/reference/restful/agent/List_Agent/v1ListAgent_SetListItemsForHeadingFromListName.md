@@ -66,17 +66,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Tromp, Will and Steuber",
-  "HeadingId": 224,
+  "UdListDefinitionName": "Ferry, Kuphal and Von",
+  "HeadingId": 485,
   "ListItemIds": [
-    632,
-    100
+    520,
+    635
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

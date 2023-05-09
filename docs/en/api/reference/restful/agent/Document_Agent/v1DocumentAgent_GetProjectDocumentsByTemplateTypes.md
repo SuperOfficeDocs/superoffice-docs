@@ -97,17 +97,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 95,
-  "StartTime": "2002-12-25T15:29:21.484279+01:00",
-  "EndTime": "2012-03-05T15:29:21.484279+01:00",
-  "Count": 96,
+  "ProjectId": 600,
+  "StartTime": "2004-10-10T03:51:27.0217725+02:00",
+  "EndTime": "2019-10-12T03:51:27.0217725+02:00",
+  "Count": 23,
   "DocumentTemplateIds": [
-    667,
-    953
+    735,
+    383
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 361,
-    "Attention": "ipsa",
-    "Header": "cupiditate",
-    "Name": "Greenfelder, Waelchi and Gottlieb",
-    "OurRef": "voluptatem",
-    "YourRef": "magnam",
-    "Description": "Centralized responsive matrices",
-    "DocumentTemplate": "voluptas",
-    "IsPublished": true,
-    "PersonId": 741,
-    "PersonFullName": "Dulce Johnson",
-    "AssociateFullName": "Mrs. Lisa Windler",
-    "ContactId": 245,
-    "ContactName": "Cassin-Kozey",
-    "ProjectId": 642,
-    "ProjectName": "Hansen Group",
-    "AssociateId": 810,
-    "Snum": 953,
-    "SaleId": 198,
-    "SaleName": "Schuster-Becker",
+    "DocumentId": 243,
+    "Attention": "est",
+    "Header": "modi",
+    "Name": "Lueilwitz-Ledner",
+    "OurRef": "at",
+    "YourRef": "consequatur",
+    "Description": "Versatile 24 hour middleware",
+    "DocumentTemplate": "esse",
+    "IsPublished": false,
+    "PersonId": 629,
+    "PersonFullName": "Osborne Bechtelar",
+    "AssociateFullName": "Ms. Will Cleora Ortiz DVM",
+    "ContactId": 781,
+    "ContactName": "Collins, Vandervort and Dietrich",
+    "ProjectId": 804,
+    "ProjectName": "Hayes LLC",
+    "AssociateId": 32,
+    "Snum": 473,
+    "SaleId": 14,
+    "SaleName": "Padberg-Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 599
       }
     }
   }

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "McCullough LLC"
+  "Name": "Hoeger, Cummings and Cronin"
 }
 ```
 
@@ -102,56 +102,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 54,
-    "Name": "Borer-Dare",
-    "ToolTip": "Enim est quis quas molestiae assumenda eum quisquam.",
-    "Deleted": false,
-    "Rank": 519,
-    "Type": "et",
-    "ColorBlock": 933,
-    "IconHint": "ipsam",
-    "Selected": false,
-    "LastChanged": "2017-02-27T15:29:22.1478061+01:00",
+    "Id": 437,
+    "Name": "Watsica Group",
+    "ToolTip": "Dolor voluptatem dolor quas aut quae.",
+    "Deleted": true,
+    "Rank": 594,
+    "Type": "exercitationem",
+    "ColorBlock": 754,
+    "IconHint": "cupiditate",
+    "Selected": true,
+    "LastChanged": "2019-05-06T03:51:27.5216578+02:00",
     "ChildItems": [
       {
-        "Id": 223,
-        "Name": "Gibson-Gottlieb",
-        "ToolTip": "Eius vel sunt.",
+        "Id": 544,
+        "Name": "West Group",
+        "ToolTip": "Sit omnis.",
         "Deleted": false,
-        "Rank": 429,
-        "Type": "consequuntur",
-        "ColorBlock": 746,
-        "IconHint": "aut",
+        "Rank": 335,
+        "Type": "ab",
+        "ColorBlock": 224,
+        "IconHint": "maiores",
         "Selected": false,
-        "LastChanged": "2013-06-20T15:29:22.1478061+02:00",
+        "LastChanged": "2015-01-12T03:51:27.5216578+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "eum",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Bryce Bins",
+        "FullName": "Miss Luther Natalie Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 907
+            "FieldType": "System.Int32",
+            "FieldLength": 68
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Ms. Lea Sipes",
+    "ExtraInfo": "eos",
+    "StyleHint": "saepe",
+    "Hidden": false,
+    "FullName": "Tom Becker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldLength": 721
       }
     }
   }

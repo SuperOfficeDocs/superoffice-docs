@@ -88,17 +88,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 764,
-  "UniqueIdentifier": "sed",
-  "Name": "Kohler, Hackett and Spinka",
-  "Description": "Phased systematic parallelism",
-  "IncludeId": "suscipit",
-  "HierarchyId": 563,
-  "Source": "sequi",
-  "Registered": "2021-12-22T15:29:21.2477836+01:00",
-  "RegisteredAssociateId": 201,
-  "Updated": "2013-10-08T15:29:21.2477836+02:00",
-  "UpdatedAssociateId": 93
+  "EjscriptId": 108,
+  "UniqueIdentifier": "soluta",
+  "Name": "Reichert Inc and Sons",
+  "Description": "Focused exuding knowledge user",
+  "IncludeId": "itaque",
+  "HierarchyId": 852,
+  "Source": "rerum",
+  "Registered": "2002-05-10T03:51:26.9436626+02:00",
+  "RegisteredAssociateId": 357,
+  "Updated": "2000-06-08T03:51:26.9436626+02:00",
+  "UpdatedAssociateId": 594
 }
 ```
 
@@ -109,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 318,
-  "UniqueIdentifier": "fuga",
-  "Name": "Fadel-Hamill",
-  "Description": "Phased content-based paradigm",
-  "IncludeId": "voluptatem",
-  "HierarchyId": 720,
-  "Source": "quos",
-  "Registered": "2014-05-14T15:29:21.2482826+02:00",
-  "RegisteredAssociateId": 225,
-  "Updated": "2007-12-08T15:29:21.2482826+01:00",
-  "UpdatedAssociateId": 531,
+  "EjscriptId": 963,
+  "UniqueIdentifier": "voluptas",
+  "Name": "Lehner Inc and Sons",
+  "Description": "Horizontal high-level neural-net",
+  "IncludeId": "et",
+  "HierarchyId": 45,
+  "Source": "saepe",
+  "Registered": "2020-02-23T03:51:26.9436626+01:00",
+  "RegisteredAssociateId": 918,
+  "Updated": "2016-10-12T03:51:26.9436626+02:00",
+  "UpdatedAssociateId": 154,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   }
 }

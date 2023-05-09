@@ -92,18 +92,18 @@ ShipmentMessageBlockEntity updated.
 PUT /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 241,
-  "AssociateId": 597,
-  "Block": "nesciunt",
-  "Registered": "1996-10-23T15:29:30.6214888+02:00",
-  "RegisteredAssociateId": 70,
-  "Updated": "2006-02-15T15:29:30.6214888+01:00",
-  "UpdatedAssociateId": 52,
-  "UpdatedCount": 466
+  "ShipmentMessageBlockId": 620,
+  "AssociateId": 66,
+  "Block": "rerum",
+  "Registered": "2014-11-09T03:51:34.0208828+01:00",
+  "RegisteredAssociateId": 933,
+  "Updated": "2018-12-16T03:51:34.0208828+01:00",
+  "UpdatedAssociateId": 470,
+  "UpdatedCount": 192
 }
 ```
 
@@ -114,20 +114,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 123,
-  "AssociateId": 785,
-  "Block": "fuga",
-  "Registered": "2018-02-04T15:29:30.6214888+01:00",
-  "RegisteredAssociateId": 407,
-  "Updated": "2006-03-12T15:29:30.6214888+01:00",
-  "UpdatedAssociateId": 160,
-  "UpdatedCount": 39,
+  "ShipmentMessageBlockId": 843,
+  "AssociateId": 708,
+  "Block": "voluptas",
+  "Registered": "2019-09-20T03:51:34.0208828+02:00",
+  "RegisteredAssociateId": 690,
+  "Updated": "2002-01-25T03:51:34.0208828+01:00",
+  "UpdatedAssociateId": 145,
+  "UpdatedCount": 573,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldType": "System.Int32",
+      "FieldLength": 979
     }
   },
   "_Links": {

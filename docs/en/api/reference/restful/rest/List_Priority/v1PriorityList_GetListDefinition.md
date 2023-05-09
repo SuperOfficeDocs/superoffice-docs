@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 54,
-  "Name": "Cremin Group",
-  "Tooltip": "illo",
-  "Deleted": true,
-  "Rank": 533,
+  "Id": 452,
+  "Name": "Kulas Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 444,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "exercitationem",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quisquam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldType": "System.String",
+      "FieldLength": 842
     }
   },
   "_Links": {

@@ -98,16 +98,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 993,
-  "IncludeProjectDocuments": true,
-  "StartTime": "1996-04-28T15:29:21.4937789+02:00",
-  "EndTime": "2021-05-13T15:29:21.4937789+02:00",
-  "Count": 683,
-  "DocumentTemplateId": 116
+  "PersonId": 794,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2005-03-08T03:51:27.0217725+01:00",
+  "EndTime": "2013-02-20T03:51:27.0217725+01:00",
+  "Count": 111,
+  "DocumentTemplateId": 303
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 230,
-    "Attention": "eius",
-    "Header": "quia",
-    "Name": "Rau LLC",
-    "OurRef": "error",
-    "YourRef": "doloremque",
-    "Description": "Visionary multi-tasking frame",
-    "DocumentTemplate": "voluptatibus",
+    "DocumentId": 591,
+    "Attention": "accusantium",
+    "Header": "sed",
+    "Name": "Koch, O'Keefe and Hahn",
+    "OurRef": "omnis",
+    "YourRef": "fuga",
+    "Description": "Seamless transitional concept",
+    "DocumentTemplate": "non",
     "IsPublished": false,
-    "PersonId": 408,
-    "PersonFullName": "Ms. Dulce Dach",
-    "AssociateFullName": "Yolanda Greenfelder",
-    "ContactId": 370,
-    "ContactName": "Bogisich Group",
-    "ProjectId": 107,
-    "ProjectName": "Ryan-Cartwright",
-    "AssociateId": 294,
-    "Snum": 676,
-    "SaleId": 947,
-    "SaleName": "Reilly, Mayert and Schowalter",
+    "PersonId": 6,
+    "PersonFullName": "Miss Willard Madyson Bernhard",
+    "AssociateFullName": "Miss Alena Kovacek PhD",
+    "ContactId": 14,
+    "ContactName": "Konopelski, Littel and Kuhic",
+    "ProjectId": 293,
+    "ProjectName": "Schmitt LLC",
+    "AssociateId": 526,
+    "Snum": 990,
+    "SaleId": 825,
+    "SaleName": "Jast LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldLength": 905
       }
     }
   }

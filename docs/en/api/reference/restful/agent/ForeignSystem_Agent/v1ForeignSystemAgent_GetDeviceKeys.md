@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Spinka-Nolan",
-  "DeviceName": "DuBuque-Cartwright"
+  "ApplicationName": "Miller Inc and Sons",
+  "DeviceName": "Johnston Inc and Sons"
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "alias",
-    "Value": "dolor",
-    "RecordId": 11,
-    "CreatedDate": "1996-03-11T15:29:21.9288088+01:00",
-    "UpdatedDate": "2012-09-30T15:29:21.9288088+02:00",
-    "UpdatedBy": "in",
-    "CreatedBy": "dicta",
-    "TableName": "Boehm-Pagac",
+    "Key": "facilis",
+    "Value": "nesciunt",
+    "RecordId": 609,
+    "CreatedDate": "2023-04-15T03:51:27.3498217+02:00",
+    "UpdatedDate": "1996-07-04T03:51:27.3498217+02:00",
+    "UpdatedBy": "error",
+    "CreatedBy": "amet",
+    "TableName": "Kihn-Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldType": "System.Int32",
+        "FieldLength": 602
       }
     }
   }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "Schaefer, Eichmann and Johnston",
-    "ToolTip": "Voluptatem id.",
+    "Id": 894,
+    "Name": "Boyle, Farrell and Emmerich",
+    "ToolTip": "Temporibus sequi placeat.",
     "Deleted": false,
-    "Rank": 580,
-    "Type": "qui",
-    "ColorBlock": 62,
-    "IconHint": "harum",
+    "Rank": 728,
+    "Type": "eum",
+    "ColorBlock": 430,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "2017-11-13T15:29:31.4359758+01:00",
+    "LastChanged": "2000-06-26T03:51:34.833319+02:00",
     "ChildItems": [
       {
-        "Id": 911,
-        "Name": "Farrell Inc and Sons",
-        "ToolTip": "Sit odit dignissimos et molestias dignissimos cum.",
-        "Deleted": true,
-        "Rank": 670,
-        "Type": "mollitia",
-        "ColorBlock": 819,
-        "IconHint": "excepturi",
+        "Id": 48,
+        "Name": "Shields LLC",
+        "ToolTip": "Et explicabo veniam.",
+        "Deleted": false,
+        "Rank": 54,
+        "Type": "ex",
+        "ColorBlock": 194,
+        "IconHint": "consequatur",
         "Selected": true,
-        "LastChanged": "2010-01-27T15:29:31.4359758+01:00",
+        "LastChanged": "2015-10-04T03:51:34.833319+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "non",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "at",
         "Hidden": true,
-        "FullName": "Miss Hank Tillman"
+        "FullName": "Jewell Gleason"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "sint",
+    "ExtraInfo": "enim",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Nova Beier"
+    "FullName": "Chanelle Lynch"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "Simonis-Pouros",
-    "ToolTip": "Eum hic nostrum tempore et.",
+    "Id": 864,
+    "Name": "Koelpin-Morar",
+    "ToolTip": "Ducimus odit culpa.",
     "Deleted": false,
-    "Rank": 328,
-    "Type": "vel",
-    "ColorBlock": 887,
-    "IconHint": "labore",
+    "Rank": 916,
+    "Type": "doloribus",
+    "ColorBlock": 994,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2007-01-02T15:29:31.4374764+01:00",
+    "LastChanged": "1996-10-20T03:51:34.833319+02:00",
     "ChildItems": [
       {
-        "Id": 906,
-        "Name": "Metz Inc and Sons",
-        "ToolTip": "Animi omnis.",
+        "Id": 620,
+        "Name": "Huel, Crooks and Herman",
+        "ToolTip": "Repellendus dignissimos voluptas ducimus sed id aspernatur voluptatem.",
         "Deleted": false,
-        "Rank": 491,
-        "Type": "aliquam",
-        "ColorBlock": 66,
-        "IconHint": "voluptates",
-        "Selected": true,
-        "LastChanged": "2011-08-08T15:29:31.4374764+02:00",
+        "Rank": 146,
+        "Type": "adipisci",
+        "ColorBlock": 381,
+        "IconHint": "nulla",
+        "Selected": false,
+        "LastChanged": "2002-01-11T03:51:34.833319+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Geovany Prohaska",
+        "FullName": "Ila Bogan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 360
+            "FieldType": "System.Int32",
+            "FieldLength": 286
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "at",
-    "Hidden": false,
-    "FullName": "Lexi Willms",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Mrs. Dee Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 863
       }
     }
   }

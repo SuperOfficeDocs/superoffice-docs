@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 734,
-  "Name": "Anderson Inc and Sons",
-  "Tooltip": "quos",
-  "Deleted": false,
-  "Rank": 612,
-  "UdListDefinitionId": 808
+  "HeadingId": 266,
+  "Name": "Cremin Inc and Sons",
+  "Tooltip": "harum",
+  "Deleted": true,
+  "Rank": 489,
+  "UdListDefinitionId": 883
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 755,
-  "Name": "Friesen LLC",
-  "Tooltip": "animi",
+  "HeadingId": 361,
+  "Name": "Rowe, Bruen and Murphy",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 55,
-  "UdListDefinitionId": 710,
+  "Rank": 822,
+  "UdListDefinitionId": 623,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 708
     }
   }
 }

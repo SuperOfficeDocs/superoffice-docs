@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "Ritchie-Schamberger",
-    "ToolTip": "Voluptatem velit suscipit consequatur est dignissimos accusantium.",
+    "Id": 408,
+    "Name": "Mante-Wiegand",
+    "ToolTip": "Recusandae veritatis.",
     "Deleted": false,
-    "Rank": 82,
-    "Type": "modi",
-    "ColorBlock": 537,
-    "IconHint": "debitis",
-    "Selected": false,
-    "LastChanged": "2005-07-11T15:29:31.0399466+02:00",
+    "Rank": 95,
+    "Type": "non",
+    "ColorBlock": 254,
+    "IconHint": "similique",
+    "Selected": true,
+    "LastChanged": "2009-04-17T03:51:34.3490406+02:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Schowalter Group",
-        "ToolTip": "In maiores.",
-        "Deleted": true,
-        "Rank": 387,
-        "Type": "aut",
-        "ColorBlock": 14,
-        "IconHint": "dolorum",
-        "Selected": true,
-        "LastChanged": "2021-11-07T15:29:31.0404467+01:00",
+        "Id": 186,
+        "Name": "DuBuque-Hoeger",
+        "ToolTip": "Magni mollitia nihil accusamus et rem perspiciatis autem.",
+        "Deleted": false,
+        "Rank": 861,
+        "Type": "voluptatem",
+        "ColorBlock": 268,
+        "IconHint": "harum",
+        "Selected": false,
+        "LastChanged": "2005-04-28T03:51:34.3490406+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "quae",
+        "ExtraInfo": "rerum",
+        "StyleHint": "voluptatibus",
         "Hidden": false,
-        "FullName": "Jalen Keeling"
+        "FullName": "Tremayne Isai Sauer V"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "fuga",
-    "Hidden": false,
-    "FullName": "Grayson Oberbrunner"
+    "ExtraInfo": "cum",
+    "StyleHint": "odio",
+    "Hidden": true,
+    "FullName": "Justice Bergstrom"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 48,
-    "Name": "Baumbach, Medhurst and Davis",
-    "ToolTip": "Facere laboriosam quis et ipsa.",
-    "Deleted": true,
-    "Rank": 402,
-    "Type": "quo",
-    "ColorBlock": 171,
-    "IconHint": "aut",
+    "Id": 628,
+    "Name": "Shanahan-Zulauf",
+    "ToolTip": "Maiores cupiditate.",
+    "Deleted": false,
+    "Rank": 812,
+    "Type": "qui",
+    "ColorBlock": 25,
+    "IconHint": "earum",
     "Selected": true,
-    "LastChanged": "2017-06-19T15:29:31.0419467+02:00",
+    "LastChanged": "2016-07-12T03:51:34.3490406+02:00",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Mohr, Boyer and Cummerata",
-        "ToolTip": "Impedit tempora esse dolorem ratione impedit.",
+        "Id": 261,
+        "Name": "Kemmer Group",
+        "ToolTip": "Natus aut aut ut vero.",
         "Deleted": false,
-        "Rank": 274,
-        "Type": "in",
-        "ColorBlock": 235,
-        "IconHint": "id",
+        "Rank": 36,
+        "Type": "quo",
+        "ColorBlock": 390,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2015-06-27T15:29:31.0419467+02:00",
+        "LastChanged": "2000-12-15T03:51:34.3490406+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "et",
+        "ExtraInfo": "sed",
+        "StyleHint": "reiciendis",
         "Hidden": false,
-        "FullName": "Mr. Isai Florian Howe V",
+        "FullName": "Mr. Pamela Klocko DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 609
+            "FieldType": "System.String",
+            "FieldLength": 48
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Miss Walton Rowe",
+    "ExtraInfo": "sit",
+    "StyleHint": "dolorum",
+    "Hidden": true,
+    "FullName": "Prof. Guadalupe Ronny Kautzer III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 590
+        "FieldLength": 145
       }
     }
   }

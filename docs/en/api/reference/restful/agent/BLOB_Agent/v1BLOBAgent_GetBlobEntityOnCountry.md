@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 481
+  "CountryId": 870
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 188,
-  "BlobSize": 899,
-  "Description": "Re-engineered national knowledge base",
-  "ExtraInfo": "facere",
-  "IsEncrypted": true,
+  "BlobId": 311,
+  "BlobSize": 269,
+  "Description": "Compatible 5th generation instruction set",
+  "ExtraInfo": "sed",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "non",
-  "OriginalSize": 665,
-  "CreatedDate": "2021-03-01T15:29:20.8457891+01:00",
-  "UpdatedDate": "2022-02-04T15:29:20.8457891+01:00",
+  "MimeType": "mollitia",
+  "OriginalSize": 971,
+  "CreatedDate": "2011-03-15T03:51:26.6312416+01:00",
+  "UpdatedDate": "2013-06-09T03:51:26.6312416+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "minus",
+  "ConceptualType": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldType": "System.Int32",
+      "FieldLength": 155
     }
   }
 }

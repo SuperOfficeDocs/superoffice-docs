@@ -81,7 +81,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,33 +91,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 68,
-  "Name": "Ullrich Group",
-  "Tooltip": "laboriosam",
-  "Deleted": false,
-  "Rank": 278,
+  "WebPanelId": 665,
+  "Name": "Hermann Group",
+  "Tooltip": "magnam",
+  "Deleted": true,
+  "Rank": 743,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnCentral": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Breitenberg-Paucek",
+  "WindowName": "Nienow-Pagac",
   "Url": "http://www.example.com/",
-  "ProgId": "deleniti",
-  "Icon": 949,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "culpa",
+  "Icon": 993,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldType": "System.String",
+      "FieldLength": 675
     }
   }
 }

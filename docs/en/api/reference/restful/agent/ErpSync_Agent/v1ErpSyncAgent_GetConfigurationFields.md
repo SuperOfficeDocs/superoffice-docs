@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 342
+  "ErpConnectorId": 965
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "similique",
-    "Rank": 225,
-    "DisplayName": "Schumm LLC",
-    "DisplayDescription": "Quality-focused global open architecture",
+    "FieldKey": "occaecati",
+    "Rank": 918,
+    "DisplayName": "Crist, Cummerata and Dietrich",
+    "DisplayDescription": "Vision-oriented mobile infrastructure",
     "FieldType": "Checkbox",
-    "ListName": "Blanda, Rau and Rath",
-    "DefaultValue": "et",
-    "MaxLength": 82,
+    "ListName": "Kautzer-Rodriguez",
+    "DefaultValue": "quo",
+    "MaxLength": 112,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldType": "System.String",
+        "FieldLength": 825
       }
     }
   }

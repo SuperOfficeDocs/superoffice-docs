@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 276,
-  "Name": "Hintz, Bauch and Stroman",
-  "Description": "Stand-alone real-time benchmark",
-  "DefaultHeight": 8,
-  "DefaultWidth": 4,
+  "DashboardTileDefinitionId": 296,
+  "Name": "Gleason, Heidenreich and Waelchi",
+  "Description": "Networked systematic support",
+  "DefaultHeight": 314,
+  "DefaultWidth": 641,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Steuber-Champlin",
-  "SelectionId": 792,
+  "EntityName": "McGlynn, Jaskolski and Borer",
+  "SelectionId": 194,
   "CurrencyMode": "Base",
   "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "provident",
-  "SortBy": "eaque",
-  "LayoutConfig": "hic",
-  "SecondarySelectionId": 377,
-  "MeasureByField": "sit",
+  "MeasureField": "sint",
+  "SortBy": "dolorem",
+  "LayoutConfig": "est",
+  "SecondarySelectionId": 10,
+  "MeasureByField": "rerum",
   "Usage": "Dashboard",
-  "ProviderName": "Goodwin, Ankunding and Cremin",
+  "ProviderName": "Toy-Thompson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 103
     }
   }
 }

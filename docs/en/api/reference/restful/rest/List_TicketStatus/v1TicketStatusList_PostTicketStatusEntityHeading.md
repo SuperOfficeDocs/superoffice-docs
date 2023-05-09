@@ -78,12 +78,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 83,
-  "Name": "Muller, Collins and Stroman",
-  "Tooltip": "impedit",
-  "Deleted": false,
-  "Rank": 410,
-  "UdListDefinitionId": 995
+  "HeadingId": 606,
+  "Name": "Spinka, Wiegand and Bashirian",
+  "Tooltip": "quaerat",
+  "Deleted": true,
+  "Rank": 796,
+  "UdListDefinitionId": 895
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 818,
-  "Name": "Johnson Group",
-  "Tooltip": "vero",
+  "HeadingId": 641,
+  "Name": "Thompson Group",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "Rank": 892,
-  "UdListDefinitionId": 184,
+  "Rank": 958,
+  "UdListDefinitionId": 694,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldType": "System.Int32",
+      "FieldLength": 593
     }
   }
 }

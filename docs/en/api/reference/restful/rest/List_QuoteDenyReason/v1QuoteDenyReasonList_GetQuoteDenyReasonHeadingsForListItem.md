@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Rath-Weissnat",
-    "ToolTip": "Temporibus architecto vero.",
+    "Id": 361,
+    "Name": "Powlowski, Wiegand and Lubowitz",
+    "ToolTip": "Natus rerum eum sed magnam quibusdam.",
     "Deleted": true,
-    "Rank": 406,
+    "Rank": 147,
     "Type": "et",
-    "ColorBlock": 905,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2017-02-05T15:29:31.5019764+01:00",
+    "ColorBlock": 381,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2012-05-19T03:51:34.8801783+02:00",
     "ChildItems": [
       {
-        "Id": 127,
-        "Name": "Berge Group",
-        "ToolTip": "Exercitationem deserunt nam.",
+        "Id": 890,
+        "Name": "Carter, Becker and Ledner",
+        "ToolTip": "Incidunt voluptatem quis.",
         "Deleted": false,
-        "Rank": 107,
-        "Type": "fuga",
-        "ColorBlock": 27,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2006-12-17T15:29:31.5019764+01:00",
+        "Rank": 938,
+        "Type": "qui",
+        "ColorBlock": 131,
+        "IconHint": "ea",
+        "Selected": false,
+        "LastChanged": "2019-07-19T03:51:34.8801783+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "eius",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Mrs. Willow Boyer",
+        "FullName": "Miss Domingo Nils Ledner II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 827
+            "FieldLength": 445
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "dicta",
-    "Hidden": true,
-    "FullName": "Mrs. Birdie Will",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "quos",
+    "Hidden": false,
+    "FullName": "Miss Makenna Grant",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldType": "System.String",
+        "FieldLength": 994
       }
     }
   }

@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "nemo",
-    "quidem"
+    "quia",
+    "natus"
   ]
 }
 ```
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 191,
-  "ERPQuoteLineKey": "quia",
-  "QuoteAlternativeId": 787,
-  "ERPProductKey": "recusandae",
+  "QuoteLineId": 231,
+  "ERPQuoteLineKey": "repellendus",
+  "QuoteAlternativeId": 666,
+  "ERPProductKey": "minus",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 25795.953999999998,
-  "DeliveredQuantity": 5738.3539999999994,
-  "Rank": 33,
-  "Name": "Mohr-Gusikowski",
-  "Description": "Upgradable cohesive emulation",
-  "Code": "deserunt",
-  "QuantityUnit": "cum",
-  "PriceUnit": "unde",
-  "ItemNumber": "802568",
+  "Quantity": 11736.83,
+  "DeliveredQuantity": 6910.4699999999993,
+  "Rank": 256,
+  "Name": "Feest-D'Amore",
+  "Description": "Cloned fault-tolerant approach",
+  "Code": "et",
+  "QuantityUnit": "quae",
+  "PriceUnit": "quaerat",
+  "ItemNumber": "1405585",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "pariatur",
-  "ProductTypeKey": "delectus",
-  "Supplier": "consequatur",
-  "SupplierCode": "delectus",
-  "Thumbnail": "et",
-  "VATInfo": "hic",
-  "VAT": 24949.773999999998,
-  "UnitCost": 1551.33,
-  "UnitMinimumPrice": 10878.114,
-  "UnitListPrice": 30108.338,
+  "ProductFamilyKey": "laudantium",
+  "ProductTypeKey": "qui",
+  "Supplier": "dolores",
+  "SupplierCode": "tenetur",
+  "Thumbnail": "est",
+  "VATInfo": "voluptas",
+  "VAT": 11116.297999999999,
+  "UnitCost": 1733.1019999999999,
+  "UnitMinimumPrice": 10705.743999999999,
+  "UnitListPrice": 21254.788,
   "ExtraInfo": [
     {
-      "Name": "McClure Inc and Sons",
-      "Value": "molestias",
+      "Name": "Kunde Group",
+      "Value": "quo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 162
+          "FieldType": "System.Int32",
+          "FieldLength": 283
         }
       }
     },
     {
-      "Name": "McClure Inc and Sons",
-      "Value": "molestias",
+      "Name": "Kunde Group",
+      "Value": "quo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 162
+          "FieldType": "System.Int32",
+          "FieldLength": 283
         }
       }
     }
   ],
-  "RawExtraInfo": "harum",
-  "IsSubscription": false,
-  "SubscriptionUnit": "quam",
-  "SubscriptionQuantity": 15109.014,
-  "SubscriptionStart": "2012-08-12T15:29:22.5082658+02:00",
-  "ERPDiscountPercent": 18311.962,
-  "ERPDiscountAmount": 28375.236,
-  "DiscountPercent": 14328.648,
-  "DiscountAmount": 8270.626,
+  "RawExtraInfo": "occaecati",
+  "IsSubscription": true,
+  "SubscriptionUnit": "totam",
+  "SubscriptionQuantity": 23984.502,
+  "SubscriptionStart": "2008-10-22T03:51:27.9746798+02:00",
+  "ERPDiscountPercent": 29381.25,
+  "ERPDiscountAmount": 21709.218,
+  "DiscountPercent": 5052.008,
+  "DiscountAmount": 24228.953999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 17155.516,
-  "EarningAmount": 17986.025999999998,
-  "SubTotal": 28923.685999999998,
-  "TotalPrice": 25714.469999999998,
-  "Rights": "laudantium",
-  "Rule": "officia",
-  "ExtraField1": "aut",
-  "ExtraField2": "repellendus",
-  "ExtraField3": "dicta",
-  "ExtraField4": "aut",
-  "ExtraField5": "pariatur",
+  "EarningPercent": 30728.87,
+  "EarningAmount": 6086.228,
+  "SubTotal": 10947.062,
+  "TotalPrice": 30622.314,
+  "Rights": "ullam",
+  "Rule": "accusantium",
+  "ExtraField1": "alias",
+  "ExtraField2": "debitis",
+  "ExtraField3": "molestiae",
+  "ExtraField4": "sint",
+  "ExtraField5": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldLength": 91
     }
   }
 }

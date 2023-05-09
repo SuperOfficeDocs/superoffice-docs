@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SimpleChatSession"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -459,7 +459,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleChatSession?$select=contact/contactUdef/SuperOffice:9,contact/saintIntention,person/restrictionAddress/line1
+GET /api/v1/archive/SimpleChatSession?$select=associate/lastName,associate/contactCategory,person/personAssociate/contactId,contact/SaintStatus1,contact/saintActivityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

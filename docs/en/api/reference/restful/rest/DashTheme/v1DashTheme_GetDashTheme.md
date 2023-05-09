@@ -77,7 +77,7 @@ DashTheme found.
 GET /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,18 +87,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 886,
-  "Name": "Schimmel, Mante and Bode",
-  "Config": "est",
-  "Rank": 593,
-  "Client": "facere",
-  "Style": "delectus",
+  "DashboardThemeId": 733,
+  "Name": "Dickinson Inc and Sons",
+  "Config": "impedit",
+  "Rank": 499,
+  "Client": "nihil",
+  "Style": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldLength": 322
     }
   },
   "_Links": {

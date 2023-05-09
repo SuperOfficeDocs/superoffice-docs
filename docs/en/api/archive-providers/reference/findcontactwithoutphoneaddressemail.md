@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FindContactWithoutPhoneAddressEmail"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -706,7 +706,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindContactWithoutPhoneAddressEmail?$select=getNoRows,associateId,postAddress/addressId,targetRelation/orgnr
+GET /api/v1/archive/FindContactWithoutPhoneAddressEmail?$select=email/emailId,document/recordType,document/ourref,retired,personExtra/x_person_integer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

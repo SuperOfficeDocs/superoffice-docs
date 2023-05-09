@@ -69,13 +69,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kiehn Inc and Sons",
-  "RecordId": 420,
-  "AssociateId": 222
+  "TableName": "Smitham, Altenwerth and Erdman",
+  "RecordId": 502,
+  "AssociateId": 452
 }
 ```
 

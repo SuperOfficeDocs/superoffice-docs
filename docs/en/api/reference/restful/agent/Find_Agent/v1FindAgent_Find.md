@@ -80,15 +80,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "commodi",
-  "ProviderName": "Jaskolski Group",
-  "StorageKey": "corporis",
-  "PageSize": 196,
-  "PageNumber": 17
+  "StorageType": "molestias",
+  "ProviderName": "Schimmel, Boyle and Gaylord",
+  "StorageKey": "et",
+  "PageSize": 883,
+  "PageNumber": 706
 }
 ```
 
@@ -101,51 +101,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Rath-Ferry",
-      "DisplayTooltip": "ex",
-      "DisplayType": "repellat",
+      "DisplayName": "Harber-Breitenberg",
+      "DisplayTooltip": "illo",
+      "DisplayType": "ipsa",
       "CanOrderBy": false,
-      "Name": "Larkin-Pouros",
+      "Name": "Johnson-Jewess",
       "CanRestrictBy": false,
-      "RestrictionType": "accusantium",
-      "RestrictionListName": "Grady, Muller and DuBuque",
-      "IsVisible": true,
-      "ExtraInfo": "libero",
-      "Width": "perspiciatis",
-      "IconHint": "nihil",
-      "HeadingIconHint": "tempora"
+      "RestrictionType": "dolor",
+      "RestrictionListName": "Littel, Fahey and Jacobson",
+      "IsVisible": false,
+      "ExtraInfo": "commodi",
+      "Width": "esse",
+      "IconHint": "magnam",
+      "HeadingIconHint": "voluptate"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schoen, Cassin and Bernier",
-      "PrimaryKey": 848,
+      "EntityName": "Deckow-Bartell",
+      "PrimaryKey": 585,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "error",
-          "TooltipHint": "eos",
-          "LinkHint": "eligendi"
+          "DisplayValue": "qui",
+          "TooltipHint": "quia",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "provident",
-      "StyleHint": "hic",
+      "LinkHint": "dolore",
+      "StyleHint": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldType": "System.String",
+          "FieldLength": 386
         }
       }
     }
   ],
-  "RowCount": 821,
+  "RowCount": 977,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 917
     }
   }
 }

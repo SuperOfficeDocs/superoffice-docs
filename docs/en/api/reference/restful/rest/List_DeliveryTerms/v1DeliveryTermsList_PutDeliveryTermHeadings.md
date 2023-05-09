@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 68,
-    "Name": "Dicki LLC",
-    "Tooltip": "illum",
-    "Deleted": true,
-    "Rank": 921,
-    "UdListDefinitionId": 625
+    "HeadingId": 60,
+    "Name": "Balistreri LLC",
+    "Tooltip": "aliquid",
+    "Deleted": false,
+    "Rank": 973,
+    "UdListDefinitionId": 610
   },
   {
-    "HeadingId": 68,
-    "Name": "Dicki LLC",
-    "Tooltip": "illum",
-    "Deleted": true,
-    "Rank": 921,
-    "UdListDefinitionId": 625
+    "HeadingId": 60,
+    "Name": "Balistreri LLC",
+    "Tooltip": "aliquid",
+    "Deleted": false,
+    "Rank": 973,
+    "UdListDefinitionId": 610
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 646,
-    "Name": "Kemmer, Medhurst and Bergstrom",
-    "Tooltip": "modi",
-    "Deleted": false,
-    "Rank": 581,
-    "UdListDefinitionId": 932,
+    "HeadingId": 736,
+    "Name": "Rice, Bechtelar and Simonis",
+    "Tooltip": "aperiam",
+    "Deleted": true,
+    "Rank": 757,
+    "UdListDefinitionId": 387,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldLength": 786
       }
     }
   }

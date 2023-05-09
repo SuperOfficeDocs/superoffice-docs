@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 500,
-  "Id": 290,
-  "HistoryName": "Ortiz-Pollich",
-  "HistoryId": 55,
-  "AssociateId": 224,
-  "Name": "Rogahn, Oberbrunner and Reinger",
-  "ItemInfo": "ullam",
+  "Rank": 855,
+  "Id": 699,
+  "HistoryName": "Christiansen LLC",
+  "HistoryId": 227,
+  "AssociateId": 332,
+  "Name": "Douglas-Hamill",
+  "ItemInfo": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 664
     }
   }
 }

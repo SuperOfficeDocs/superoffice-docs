@@ -25,7 +25,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=805
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=214
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 318,
-  "BlobSize": 339,
-  "Description": "Compatible upward-trending array",
-  "ExtraInfo": "minima",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "et",
-  "OriginalSize": 879,
-  "CreatedDate": "2018-05-16T15:29:20.8387883+02:00",
-  "UpdatedDate": "2001-03-16T15:29:20.8387883+01:00",
+  "BlobId": 899,
+  "BlobSize": 831,
+  "Description": "Virtual multi-state utilisation",
+  "ExtraInfo": "ex",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "pariatur",
+  "OriginalSize": 679,
+  "CreatedDate": "2008-06-02T03:51:26.6156255+02:00",
+  "UpdatedDate": "2020-10-10T03:51:26.6156255+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "explicabo",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 896
     }
   }
 }

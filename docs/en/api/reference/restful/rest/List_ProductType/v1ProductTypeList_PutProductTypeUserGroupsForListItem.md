@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 566,
-    "Name": "Hartmann Inc and Sons",
-    "ToolTip": "Animi libero consequatur error corporis asperiores natus.",
+    "Id": 43,
+    "Name": "Stoltenberg-McClure",
+    "ToolTip": "Error perspiciatis id.",
     "Deleted": true,
-    "Rank": 125,
-    "Type": "aut",
-    "ColorBlock": 15,
-    "IconHint": "vel",
+    "Rank": 966,
+    "Type": "ratione",
+    "ColorBlock": 529,
+    "IconHint": "porro",
     "Selected": true,
-    "LastChanged": "1999-01-25T15:29:31.430976+01:00",
+    "LastChanged": "1996-06-10T03:51:34.8176965+02:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Jones, Schumm and Effertz",
-        "ToolTip": "Aspernatur nemo.",
+        "Id": 438,
+        "Name": "Little Group",
+        "ToolTip": "Adipisci dolores explicabo amet molestias ut possimus esse.",
         "Deleted": true,
-        "Rank": 914,
-        "Type": "quia",
-        "ColorBlock": 789,
-        "IconHint": "molestias",
-        "Selected": false,
-        "LastChanged": "2002-11-28T15:29:31.4314766+01:00",
+        "Rank": 172,
+        "Type": "tempore",
+        "ColorBlock": 55,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2007-09-14T03:51:34.8176965+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "et",
+        "ExtraInfo": "omnis",
+        "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Silas Lebsack"
+        "FullName": "Sallie Ebert"
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "ut",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Mr. Sonya Herman MD"
+    "FullName": "Tyrese Schmidt"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Sanford Inc and Sons",
-    "ToolTip": "Repellat deserunt sequi corrupti rerum.",
-    "Deleted": false,
-    "Rank": 476,
-    "Type": "eius",
-    "ColorBlock": 215,
-    "IconHint": "accusamus",
-    "Selected": true,
-    "LastChanged": "2018-08-16T15:29:31.4324782+02:00",
+    "Id": 414,
+    "Name": "Eichmann-Roob",
+    "ToolTip": "Dignissimos sunt accusantium odio quis exercitationem.",
+    "Deleted": true,
+    "Rank": 577,
+    "Type": "sed",
+    "ColorBlock": 670,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "1998-07-06T03:51:34.8176965+02:00",
     "ChildItems": [
       {
-        "Id": 808,
-        "Name": "Franecki LLC",
-        "ToolTip": "Deserunt dolor eum eum molestiae.",
+        "Id": 645,
+        "Name": "Kihn-Dickinson",
+        "ToolTip": "Enim asperiores quisquam.",
         "Deleted": false,
-        "Rank": 617,
-        "Type": "id",
-        "ColorBlock": 937,
-        "IconHint": "atque",
+        "Rank": 707,
+        "Type": "eos",
+        "ColorBlock": 536,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2010-06-03T15:29:31.4324782+02:00",
+        "LastChanged": "2016-04-06T03:51:34.8176965+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Esperanza Arvid Wolff II",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Dr. Elnora Welch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 513
+            "FieldLength": 840
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "officiis",
-    "Hidden": true,
-    "FullName": "Dr. Ethelyn Shawn Cummerata DDS",
+    "ExtraInfo": "velit",
+    "StyleHint": "iure",
+    "Hidden": false,
+    "FullName": "Conrad Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 266
+        "FieldLength": 729
       }
     }
   }

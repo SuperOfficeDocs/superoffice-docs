@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,49 +76,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 917,
-  "Field": "hic",
-  "RecordId": 170,
+  "RefCountsId": 734,
+  "Field": "quisquam",
+  "RecordId": 499,
   "SuggestedRecords": [
     {
-      "Id": 318,
-      "Name": "Bartell LLC",
-      "ToolTip": "Rerum sequi eveniet possimus suscipit velit reiciendis quam.",
+      "Id": 427,
+      "Name": "Moore, Kihn and Graham",
+      "ToolTip": "Natus incidunt sunt.",
       "Deleted": false,
-      "Rank": 166,
-      "Type": "explicabo",
+      "Rank": 708,
+      "Type": "nostrum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "exercitationem",
-      "ColorBlock": 782,
-      "ExtraInfo": "quo",
-      "StyleHint": "rerum",
-      "FullName": "Russell Nitzsche Sr.",
+      "IconHint": "id",
+      "ColorBlock": 75,
+      "ExtraInfo": "et",
+      "StyleHint": "iure",
+      "FullName": "Maudie Bartell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldLength": 211
         }
       }
     }
   ],
-  "CurrentValue": 515,
-  "TravelPrefix": 834,
-  "SatPrefix": 219,
+  "CurrentValue": 558,
+  "TravelPrefix": 410,
+  "SatPrefix": 928,
   "Allocate": false,
-  "Unique": true,
-  "ReadOnly": true,
+  "Unique": false,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldType": "System.Int32",
+      "FieldLength": 482
     }
   }
 }

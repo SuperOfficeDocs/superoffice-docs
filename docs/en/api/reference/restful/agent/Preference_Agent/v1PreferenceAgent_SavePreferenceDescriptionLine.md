@@ -72,15 +72,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 45,
-  "PrefDescId": 764,
-  "PrefValue": "porro",
-  "PrefShowValue": "unde",
-  "Description": "Devolved heuristic ability",
+  "PrefDescLineId": 168,
+  "PrefDescId": 184,
+  "PrefValue": "eius",
+  "PrefShowValue": "eum",
+  "Description": "Optimized methodical success",
   "IsBuiltin": false
 }
 ```
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 882,
-  "PrefDescId": 489,
-  "PrefValue": "praesentium",
-  "PrefShowValue": "tempore",
-  "Description": "Polarised user-facing throughput",
+  "PrefDescLineId": 557,
+  "PrefDescId": 143,
+  "PrefValue": "modi",
+  "PrefShowValue": "placeat",
+  "Description": "Automated secondary info-mediaries",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 161
     }
   }
 }

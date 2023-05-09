@@ -88,17 +88,17 @@ Content-Type: application/json; charset=utf-8
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "laudantium",
-      "PersonId": 409,
-      "AssociateId": 80,
-      "ExtraId": 862,
-      "ExtraInfo": "perferendis",
-      "Height": 548,
-      "LeftX": 553,
+      "OwnerWindow": "et",
+      "PersonId": 72,
+      "AssociateId": 598,
+      "ExtraId": 249,
+      "ExtraInfo": "provident",
+      "Height": 910,
+      "LeftX": 978,
       "State": "Maximized",
-      "UpperY": 57,
-      "Width": 962,
-      "WindowPosSizeId": 706
+      "UpperY": 137,
+      "Width": 116,
+      "WindowPosSizeId": 982
     }
   ]
 }
@@ -112,23 +112,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "et",
-    "PersonId": 820,
-    "AssociateId": 665,
-    "ExtraId": 104,
-    "ExtraInfo": "id",
-    "Height": 248,
-    "LeftX": 196,
+    "OwnerWindow": "sit",
+    "PersonId": 652,
+    "AssociateId": 359,
+    "ExtraId": 965,
+    "ExtraInfo": "quo",
+    "Height": 558,
+    "LeftX": 403,
     "State": "Maximized",
-    "UpperY": 5,
-    "Width": 168,
-    "WindowPosSizeId": 257,
+    "UpperY": 302,
+    "Width": 213,
+    "WindowPosSizeId": 572,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldType": "System.String",
+        "FieldLength": 349
       }
     }
   }

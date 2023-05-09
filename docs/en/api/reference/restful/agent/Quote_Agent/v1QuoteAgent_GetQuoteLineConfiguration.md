@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 305
+  "QuoteLineConfigurationId": 608
 }
 ```
 
@@ -95,21 +95,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 406,
-  "FieldName": "Treutel, Labadie and Ward",
-  "Label": "sapiente",
-  "Tooltip": "temporibus",
+  "QuoteLineConfigurationId": 100,
+  "FieldName": "Runolfsdottir, Hintz and Rowe",
+  "Label": "voluptatem",
+  "Tooltip": "dolorem",
   "Editable": false,
   "InUse": false,
-  "Mandatory": true,
-  "Rank": 3,
+  "Mandatory": false,
+  "Rank": 597,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 771
     }
   }
 }

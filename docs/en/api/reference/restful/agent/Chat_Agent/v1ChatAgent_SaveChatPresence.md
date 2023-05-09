@@ -63,29 +63,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 59,
-      "DisplayName": "Zulauf-O'Kon",
-      "OngoingChats": 977,
+      "UserId": 528,
+      "DisplayName": "Becker Group",
+      "OngoingChats": 90,
       "Present": false,
       "ChatTopics": [
-        822,
-        880
+        727,
+        17
       ]
     },
     {
-      "UserId": 59,
-      "DisplayName": "Zulauf-O'Kon",
-      "OngoingChats": 977,
+      "UserId": 528,
+      "DisplayName": "Becker Group",
+      "OngoingChats": 90,
       "Present": false,
       "ChatTopics": [
-        822,
-        880
+        727,
+        17
       ]
     }
   ]

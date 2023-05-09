@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 773,
-  "Name": "Volkman, Abshire and Koch",
-  "Tooltip": "quaerat",
+  "Id": 978,
+  "Name": "Dickens, Streich and Stiedemann",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 757,
-  "IsCustomList": true,
+  "Rank": 62,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "minima",
+  "ListType": "porro",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 308,
-  "Name": "Schiller LLC",
-  "Tooltip": "rerum",
+  "Id": 6,
+  "Name": "Schinner-Abernathy",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "Rank": 717,
-  "IsCustomList": false,
+  "Rank": 260,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "inventore",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 287
+      "FieldLength": 432
     }
   }
 }

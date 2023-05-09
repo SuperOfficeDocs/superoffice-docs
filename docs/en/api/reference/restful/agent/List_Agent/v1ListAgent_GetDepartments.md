@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 748,
-    "Value": "nesciunt",
-    "Tooltip": "eligendi",
+    "Id": 351,
+    "Value": "sit",
+    "Tooltip": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldType": "System.String",
+        "FieldLength": 199
       }
     }
   },
   {
-    "Id": 748,
-    "Value": "nesciunt",
-    "Tooltip": "eligendi",
+    "Id": 351,
+    "Value": "sit",
+    "Tooltip": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldType": "System.String",
+        "FieldLength": 199
       }
     }
   }

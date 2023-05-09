@@ -70,8 +70,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "animi",
-  "PublicValue": "laudantium"
+  "Type": "ipsam",
+  "PublicValue": "aut"
 }
 ```
 

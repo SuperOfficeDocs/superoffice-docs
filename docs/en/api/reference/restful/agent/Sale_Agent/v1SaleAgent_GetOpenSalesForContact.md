@@ -100,7 +100,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 879
+  "ContactId": 275
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Jakubowski Group",
-    "SaleDate": "2012-07-02T15:29:22.733799+02:00",
-    "SaleId": 525,
-    "Probability": 481,
-    "Title": "incidunt",
-    "Amount": 498.306,
-    "Currency": "maiores",
-    "ProjectName": "Yost Group",
-    "AssociateFullName": "Melany Will",
-    "Description": "Secured radical interface",
+    "ContactName": "Hodkiewicz-Collins",
+    "SaleDate": "2012-09-12T03:51:28.1308861+02:00",
+    "SaleId": 426,
+    "Probability": 711,
+    "Title": "et",
+    "Amount": 12601.814,
+    "Currency": "aliquam",
+    "ProjectName": "Cruickshank Inc and Sons",
+    "AssociateFullName": "Shania Willms",
+    "Description": "Face to face multi-state groupware",
     "Status": "Lost",
-    "WeightedAmount": 30703.798,
-    "ProjectId": 651,
-    "EarningPercent": 3306.37,
-    "Earning": 1284.94,
-    "ContactId": 154,
-    "AssociateId": 965,
-    "PersonId": 296,
-    "SaleTypeId": 57,
-    "SaleTypeName": "Skiles, Sanford and Schimmel",
-    "PersonFullName": "Dr. Natalie Gibson",
+    "WeightedAmount": 11696.088,
+    "ProjectId": 321,
+    "EarningPercent": 28343.896,
+    "Earning": 13748.858,
+    "ContactId": 328,
+    "AssociateId": 430,
+    "PersonId": 385,
+    "SaleTypeId": 147,
+    "SaleTypeName": "Runolfsson Inc and Sons",
+    "PersonFullName": "Mrs. Citlalli Michele Spinka PhD",
     "Completed": "Completed",
-    "ActiveErpLinks": 216,
-    "NextDueDate": "2009-10-27T15:29:22.7342982+01:00",
-    "Number": "431001",
+    "ActiveErpLinks": 956,
+    "NextDueDate": "2020-11-25T03:51:28.1308861+01:00",
+    "Number": "968045",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldLength": 636
       }
     }
   }

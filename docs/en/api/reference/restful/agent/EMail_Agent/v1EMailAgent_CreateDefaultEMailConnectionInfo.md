@@ -73,17 +73,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Vandervort, Zboncak and Nolan",
-  "UserName": "Weimann Inc and Sons",
-  "Password": "nisi",
-  "Folder": "illum",
+  "ServerName": "Auer-Luettgen",
+  "UserName": "Wunsch-Nikolaus",
+  "Password": "est",
+  "Folder": "aperiam",
   "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 10
+      "FieldType": "System.Int32",
+      "FieldLength": 793
     }
   }
 }

@@ -114,8 +114,9 @@ OK
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
-| Sale | Sale | The sale that this ticket connected to  <para>Use MDO List name "sale" to get list items.</para> |
-| Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
+| Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
+| Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
+| FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -131,7 +132,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 828
+  "TicketEntityId": 282
 }
 ```
 
@@ -142,21 +143,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 355,
-  "Title": "dolor",
-  "CreatedAt": "2018-03-13T15:29:23.1702895+01:00",
-  "LastChanged": "1998-04-23T15:29:23.1702895+02:00",
-  "ReadByOwner": "2020-10-09T15:29:23.1702895+02:00",
-  "ReadByCustomer": "2005-04-22T15:29:23.1702895+02:00",
-  "FirstReadByOwner": "2009-09-03T15:29:23.1702895+02:00",
-  "FirstReadByUser": "2005-04-26T15:29:23.1702895+02:00",
-  "Activate": "2021-01-01T15:29:23.1702895+01:00",
-  "ClosedAt": "2007-03-13T15:29:23.1702895+01:00",
-  "RepliedAt": "2007-01-26T15:29:23.1702895+01:00",
-  "AlertTimeout": "2016-06-05T15:29:23.1702895+02:00",
-  "Deadline": "1997-11-15T15:29:23.1702895+01:00",
+  "TicketId": 200,
+  "Title": "velit",
+  "CreatedAt": "2014-12-22T03:51:28.3495774+01:00",
+  "LastChanged": "2005-06-17T03:51:28.3495774+02:00",
+  "ReadByOwner": "2009-02-23T03:51:28.3495774+01:00",
+  "ReadByCustomer": "1998-12-01T03:51:28.3495774+01:00",
+  "FirstReadByOwner": "2002-10-30T03:51:28.3495774+01:00",
+  "FirstReadByUser": "2013-10-14T03:51:28.3495774+02:00",
+  "Activate": "2004-10-28T03:51:28.3495774+02:00",
+  "ClosedAt": "2000-01-08T03:51:28.3495774+01:00",
+  "RepliedAt": "1996-08-25T03:51:28.3495774+02:00",
+  "AlertTimeout": "2004-11-17T03:51:28.3495774+01:00",
+  "Deadline": "1998-05-25T03:51:28.3495774+02:00",
   "CreatedBy": null,
-  "Author": "atque",
+  "Author": "vero",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -167,158 +168,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "incidunt",
-      "PersonId": 698,
-      "Mrmrs": "nemo",
-      "Firstname": "Greg",
-      "Lastname": "Rosenbaum",
-      "MiddleName": "Keebler, Windler and Frami",
+      "Position": "explicabo",
+      "PersonId": 283,
+      "Mrmrs": "sunt",
+      "Firstname": "Alva",
+      "Lastname": "Will",
+      "MiddleName": "Windler-Pacocha",
       "Title": "et",
-      "Description": "Profit-focused context-sensitive customer loyalty",
-      "Email": "derek_parker@hilpert.us",
-      "FullName": "Lindsey Little",
-      "DirectPhone": "1-316-788-0741",
-      "FormalName": "Gerlach Group",
-      "CountryId": 426,
-      "ContactId": 143,
-      "ContactName": "Grady Inc and Sons",
-      "Retired": 294,
-      "Rank": 181,
-      "ActiveInterests": 631,
-      "ContactDepartment": "",
-      "ContactCountryId": 767,
-      "ContactOrgNr": "1128681",
-      "FaxPhone": "670.519.3766",
-      "MobilePhone": "546-394-0367",
-      "ContactPhone": "170-483-5334 x58940",
-      "AssociateName": "Kuphal-Casper",
-      "AssociateId": 10,
+      "Description": "Implemented even-keeled groupware",
+      "Email": "maribel_pacocha@rodriguezrosenbaum.name",
+      "FullName": "Prof. Cornelius Johnson",
+      "DirectPhone": "263-137-8297",
+      "FormalName": "O'Keefe Group",
+      "CountryId": 988,
+      "ContactId": 248,
+      "ContactName": "Cormier Inc and Sons",
+      "Retired": 948,
+      "Rank": 988,
+      "ActiveInterests": 984,
+      "ContactDepartment": "productize enterprise mindshare",
+      "ContactCountryId": 766,
+      "ContactOrgNr": "1034929",
+      "FaxPhone": "(080)748-3893 x72668",
+      "MobilePhone": "947.020.2649",
+      "ContactPhone": "1-835-102-6888",
+      "AssociateName": "Anderson, Kulas and Grant",
+      "AssociateId": 329,
       "UsePersonAddress": false,
-      "ContactFax": "quas",
-      "Kanafname": "qui",
-      "Kanalname": "harum",
-      "Post1": "aut",
-      "Post2": "eum",
-      "Post3": "est",
-      "EmailName": "arno_hettinger@mclaughlin.ca",
-      "ContactFullName": "Adella Schumm",
-      "ActiveErpLinks": 751,
-      "TicketPriorityId": 119,
-      "SupportLanguageId": 588,
-      "SupportAssociateId": 661,
+      "ContactFax": "et",
+      "Kanafname": "repellendus",
+      "Kanalname": "ex",
+      "Post1": "excepturi",
+      "Post2": "amet",
+      "Post3": "nihil",
+      "EmailName": "jamar.osinski@bernier.co.uk",
+      "ContactFullName": "Carter Champlin",
+      "ActiveErpLinks": 940,
+      "TicketPriorityId": 322,
+      "SupportLanguageId": 62,
+      "SupportAssociateId": 593,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 797
         }
       }
     }
   ],
-  "AlertLevel": 925,
-  "ConnectId": 534,
+  "AlertLevel": 910,
+  "ConnectId": 461,
   "ReadStatus": "Green",
-  "TimeToReply": 803,
-  "RealTimeToReply": 951,
-  "TimeToClose": 427,
-  "RealTimeToClose": 108,
-  "TimeSpentInternally": 437,
-  "TimeSpentExternally": 553,
-  "TimeSpentQueue": 909,
-  "RealTimeSpentInternally": 368,
-  "RealTimeSpentExternally": 410,
-  "RealTimeSpentQueue": 702,
+  "TimeToReply": 568,
+  "RealTimeToReply": 92,
+  "TimeToClose": 371,
+  "RealTimeToClose": 450,
+  "TimeSpentInternally": 634,
+  "TimeSpentExternally": 918,
+  "TimeSpentQueue": 167,
+  "RealTimeSpentInternally": 550,
+  "RealTimeSpentExternally": 670,
+  "RealTimeSpentQueue": 760,
   "HasAttachment": true,
-  "NumReplies": 511,
-  "NumMessages": 528,
-  "FromAddress": "consequatur",
+  "NumReplies": 480,
+  "NumMessages": 412,
+  "FromAddress": "et",
   "Messages": [
     {
-      "TicketMessageId": 484,
-      "CreatedAt": "2012-05-18T15:29:23.1747902+02:00",
+      "TicketMessageId": 523,
+      "CreatedAt": "2004-01-04T03:51:28.3652065+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "aliquam",
-      "PersonId": 146,
-      "PersonFullName": "Henri Fritsch",
-      "ContactId": 950,
-      "ContactName": "Schneider-Legros",
-      "ContactDepartment": "embrace global paradigms",
-      "NumAttachments": 334,
-      "EmailHeader": "arvilla_greenholt@stoltenberg.uk",
+      "Author": "sit",
+      "PersonId": 565,
+      "PersonFullName": "Annamae Flatley",
+      "ContactId": 289,
+      "ContactName": "Veum, Langworth and Gleason",
+      "ContactDepartment": "",
+      "NumAttachments": 191,
+      "EmailHeader": "alessandra@green.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "doloribus",
-      "Sentiment": 258,
-      "SentimentConfidence": 503,
-      "CreatedBy": 770,
-      "ChangedAt": "1999-09-05T15:29:23.1747902+02:00",
+      "Language": "voluptas",
+      "Sentiment": 311,
+      "SentimentConfidence": 163,
+      "CreatedBy": 91,
+      "ChangedAt": "2011-04-01T03:51:28.3652065+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 943
+          "FieldLength": 333
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 818,
-      "Name": "Schuster-Reilly",
-      "ToolTip": "Quis tempora ratione libero sit dolore.",
+      "Id": 324,
+      "Name": "Kassulke, Hintz and Mann",
+      "ToolTip": "Nesciunt blanditiis ut alias reprehenderit qui blanditiis.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 834
+          "FieldType": "System.Int32",
+          "FieldLength": 685
         }
       }
     },
     {
-      "Id": 818,
-      "Name": "Schuster-Reilly",
-      "ToolTip": "Quis tempora ratione libero sit dolore.",
+      "Id": 324,
+      "Name": "Kassulke, Hintz and Mann",
+      "ToolTip": "Nesciunt blanditiis ut alias reprehenderit qui blanditiis.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 834
+          "FieldType": "System.Int32",
+          "FieldLength": 685
         }
       }
     }
   ],
-  "Language": "quo",
-  "Sentiment": 945,
-  "SentimentConfidence": 783,
-  "SuggestedCategoryId": 457,
+  "Language": "ullam",
+  "Sentiment": 346,
+  "SentimentConfidence": 741,
+  "SuggestedCategoryId": 931,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 391,
-  "IconHint": "maiores",
+  "OrigHumanCategoryId": 259,
+  "IconHint": "repellat",
   "Sale": null,
   "Project": null,
+  "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "quisquam",
-    "ExtraFields2": "ad"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "cum"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "quidem",
+    "CustomFields2": "saepe"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 156
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

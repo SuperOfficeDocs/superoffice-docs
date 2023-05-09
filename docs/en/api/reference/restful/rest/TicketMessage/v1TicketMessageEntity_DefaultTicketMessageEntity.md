@@ -91,78 +91,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 803,
+  "EjMessageId": 303,
   "Ticket": null,
-  "CreatedAt": "2004-06-19T15:29:30.7484854+02:00",
+  "CreatedAt": "2012-05-15T03:51:34.1303414+02:00",
   "CreatedBy": null,
-  "Author": "occaecati",
+  "Author": "ducimus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sunt",
-  "TimeSpent": 610,
-  "Body": "delectus",
-  "HtmlBody": "voluptas",
-  "EmailHeader": "jackie.gottlieb@runte.uk",
+  "MessageId": "accusamus",
+  "TimeSpent": 371,
+  "Body": "quibusdam",
+  "HtmlBody": "doloremque",
+  "EmailHeader": "ena_vonrueden@hand.name",
   "DebugInfo": "rerum",
-  "MailSorter": "atque",
+  "MailSorter": "ipsam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "vero",
+  "SearchTitle": "consequuntur",
   "MessageHeaders": [
     {
-      "Id": 385,
-      "Name": "Harber-Cummerata",
-      "Value": "quam",
+      "Id": 451,
+      "Name": "Beier-Purdy",
+      "Value": "necessitatibus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldType": "System.String",
+          "FieldLength": 763
         }
       }
     }
   ],
   "Important": false,
-  "Language": "voluptates",
-  "Sentiment": 353,
-  "SentimentConfidence": 250,
+  "Language": "sit",
+  "Sentiment": 150,
+  "SentimentConfidence": 106,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 258,
-      "Name": "Rolfson-Toy",
-      "ContentType": "voluptas",
-      "AttSize": 400,
-      "InlineImage": false,
-      "ContentId": "beatae",
-      "AuthKey": "voluptas",
+      "AttachmentId": 941,
+      "Name": "Smith-Hauck",
+      "ContentType": "corrupti",
+      "AttSize": 575,
+      "InlineImage": true,
+      "ContentId": "praesentium",
+      "AuthKey": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldLength": 538
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "praesentium"
+    "ExtraFields1": "in",
+    "ExtraFields2": "nobis"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "totam"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "veritatis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldLength": 387
     }
   }
 }

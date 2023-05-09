@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 601,
-    "Name": "Rowe-Huel",
-    "Tooltip": "et",
+    "HeadingId": 595,
+    "Name": "Rippin-Shields",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "Rank": 432,
-    "UdListDefinitionId": 795
+    "Rank": 22,
+    "UdListDefinitionId": 927
   },
   {
-    "HeadingId": 601,
-    "Name": "Rowe-Huel",
-    "Tooltip": "et",
+    "HeadingId": 595,
+    "Name": "Rippin-Shields",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "Rank": 432,
-    "UdListDefinitionId": 795
+    "Rank": 22,
+    "UdListDefinitionId": 927
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 967,
-    "Name": "Durgan LLC",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 937,
-    "UdListDefinitionId": 869,
+    "HeadingId": 856,
+    "Name": "Mann-Lesch",
+    "Tooltip": "molestiae",
+    "Deleted": false,
+    "Rank": 504,
+    "UdListDefinitionId": 942,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldType": "System.String",
+        "FieldLength": 32
       }
     }
   }

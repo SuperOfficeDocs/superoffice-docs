@@ -68,30 +68,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wolf-Cruickshank",
-    "DisplayName": "Volkman Inc and Sons",
-    "DisplayTooltip": "architecto",
+    "Name": "Hoppe, Dicki and Torphy",
+    "DisplayName": "Klein-Hansen",
+    "DisplayTooltip": "libero",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 380
       }
     }
   },
   {
-    "Name": "Wolf-Cruickshank",
-    "DisplayName": "Volkman Inc and Sons",
-    "DisplayTooltip": "architecto",
+    "Name": "Hoppe, Dicki and Torphy",
+    "DisplayName": "Klein-Hansen",
+    "DisplayTooltip": "libero",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 380
       }
     }
   }

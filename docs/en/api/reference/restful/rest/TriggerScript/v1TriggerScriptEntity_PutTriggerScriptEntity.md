@@ -98,20 +98,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 935,
-  "Name": "Grady, D'Amore and Raynor",
+  "ScreenChooserId": 739,
+  "Name": "Mills LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "aut",
-  "Source": "voluptas",
-  "Registered": "2002-06-15T15:29:30.7984848+02:00",
-  "RegisteredAssociateId": 919,
-  "Updated": "2013-12-03T15:29:30.7984848+01:00",
-  "UpdatedAssociateId": 531
+  "Enabled": true,
+  "UniqueIdentifier": "suscipit",
+  "Source": "quisquam",
+  "Registered": "1998-06-29T03:51:34.1615868+02:00",
+  "RegisteredAssociateId": 608,
+  "Updated": "2003-02-10T03:51:34.1615868+01:00",
+  "UpdatedAssociateId": 983
 }
 ```
 
@@ -122,27 +122,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 551,
-  "Name": "Carroll, Shanahan and Schinner",
+  "ScreenChooserId": 819,
+  "Name": "Conn, Davis and Kertzmann",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "expedita",
-  "Source": "ut",
-  "Registered": "2019-02-24T15:29:30.7994863+01:00",
-  "RegisteredAssociateId": 771,
-  "Updated": "2014-06-13T15:29:30.7994863+02:00",
-  "UpdatedAssociateId": 97,
+  "UniqueIdentifier": "voluptates",
+  "Source": "dolorum",
+  "Registered": "2008-09-23T03:51:34.1615868+02:00",
+  "RegisteredAssociateId": 741,
+  "Updated": "2022-01-10T03:51:34.1615868+01:00",
+  "UpdatedAssociateId": 281,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldLength": 421
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

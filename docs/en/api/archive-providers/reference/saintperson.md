@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaintPerson"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -709,7 +709,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintPerson?$select=contactAssociate/contactFullName,contactInterestIds,saintIntention,targetRelation/personContactRelation,sale/currencyId
+GET /api/v1/archive/SaintPerson?$select=saintAmountClass,sale/associate/ejDisplayName,appointment/rawStatus,document/projectId,document/associate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

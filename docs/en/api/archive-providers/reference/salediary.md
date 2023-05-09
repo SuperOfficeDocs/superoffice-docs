@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleDiary"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1065,7 +1065,7 @@ Sale archive provider for the Diary card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDiary?$select=person/correspondingAssociate/contactId,contact/countryId,associate/assocType,saleStakeholder/person/supportAssociateFullName
+GET /api/v1/archive/SaleDiary?$select=person/personAddress/zip,contact/contactUdef/SuperOffice:1,contact/contactExtra/x_contact_timespan,associate/contactDepartment,project/projectUdef/SuperOffice:2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

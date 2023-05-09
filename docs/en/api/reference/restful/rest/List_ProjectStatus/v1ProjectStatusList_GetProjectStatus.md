@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 224,
-  "Name": "Quitzon Group",
-  "Tooltip": "veniam",
+  "Id": 824,
+  "Name": "Steuber Inc and Sons",
+  "Tooltip": "iste",
   "Deleted": false,
-  "UdListDefinitionId": 110,
-  "Rank": 519,
+  "UdListDefinitionId": 591,
+  "Rank": 379,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldLength": 454
     }
   }
 }

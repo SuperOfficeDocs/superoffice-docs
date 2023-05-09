@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 548,
-  "AppointmentId": 351,
-  "ProjectId": 985,
-  "SaleId": 716,
-  "Archived": true,
-  "ArchivedAt": "2009-08-15T15:29:21.7402756+02:00",
-  "ArchivedBy": 192,
-  "ArchivedDisplayName": "Wisoky Group",
+  "DocumentId": 22,
+  "AppointmentId": 942,
+  "ProjectId": 139,
+  "SaleId": 356,
+  "Archived": false,
+  "ArchivedAt": "2001-08-22T03:51:27.2092335+02:00",
+  "ArchivedBy": 417,
+  "ArchivedDisplayName": "Emmerich, Osinski and Dickinson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldType": "System.String",
+      "FieldLength": 552
     }
   }
 }

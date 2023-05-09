@@ -96,7 +96,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,73 +104,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 04 Jun 2008 15:29:30 G6T
+Last-Modified: Thu, 19 Feb 2009 03:51:33 G2T
 
 {
-  "Description": "Up-sized regional framework",
-  "Postit": "mollitia",
+  "Description": "Customizable responsive artificial intelligence",
+  "Postit": "omnis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 291,
-  "IncludePerson": 110,
-  "MemberCount": 712,
-  "Name": "Fadel Inc and Sons",
-  "PostitTextId": 660,
-  "CreatedDate": "2004-03-11T15:29:30.5829891+01:00",
-  "SelectionId": 832,
-  "SoundEx": "voluptate",
-  "Source": 708,
-  "TextId": 447,
-  "UpdatedDate": "2008-06-04T15:29:30.5829891+02:00",
-  "UpdatedCount": 21,
-  "Visibility": 486,
+  "GroupIdx": 818,
+  "IncludePerson": 755,
+  "MemberCount": 24,
+  "Name": "DuBuque Inc and Sons",
+  "PostitTextId": 269,
+  "CreatedDate": "1999-11-02T03:51:33.9896399+01:00",
+  "SelectionId": 662,
+  "SoundEx": "error",
+  "Source": 598,
+  "TextId": 401,
+  "UpdatedDate": "2009-02-19T03:51:33.9896399+01:00",
+  "UpdatedCount": 850,
+  "Visibility": 752,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 165,
-  "TargetTableName": "Kessler, Powlowski and Rempel",
+  "CompanyUnique": true,
+  "TargetTableNumber": 885,
+  "TargetTableName": "Greenfelder, Vandervort and Russel",
   "Completed": false,
-  "LeftSelectionId": 423,
-  "RightSelectionId": 20,
+  "LeftSelectionId": 892,
+  "RightSelectionId": 392,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Corwin, Borer and Hamill",
-  "ShadowProviderName": "Nicolas LLC",
-  "ChartKey": "vitae",
-  "LastLoaded": "2022-03-31T15:29:30.5829891+02:00",
-  "LastLoadedBy": 662,
+  "MainProviderName": "Collins Inc and Sons",
+  "ShadowProviderName": "Schoen LLC",
+  "ChartKey": "eaque",
+  "LastLoaded": "2014-06-30T03:51:33.9896399+02:00",
+  "LastLoadedBy": 313,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-04-05T15:29:30.5834877+02:00",
-  "LastMembershipChangeBy": 48,
+  "LastMembershipChange": "2004-06-03T03:51:33.9896399+02:00",
+  "LastMembershipChangeBy": 374,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Parker, Johnston and Powlowski",
-  "DashboardTileDefinitionId": 568,
+  "MainHeading": "ratione",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Lueilwitz-Bartell",
+  "DashboardTileDefinitionId": 741,
   "VisibleFor": [
     {
-      "VisibleId": 280,
+      "VisibleId": 9,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 999
+          "FieldType": "System.Int32",
+          "FieldLength": 953
         }
       }
     },
     {
-      "VisibleId": 280,
+      "VisibleId": 9,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 999
+          "FieldType": "System.Int32",
+          "FieldLength": 953
         }
       }
     }
@@ -179,8 +179,8 @@ Last-Modified: Wed, 04 Jun 2008 15:29:30 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 116
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   }
 }

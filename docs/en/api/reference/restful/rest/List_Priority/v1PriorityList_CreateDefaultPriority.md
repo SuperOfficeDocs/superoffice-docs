@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 424,
-  "Name": "Kihn LLC",
-  "Tooltip": "mollitia",
+  "Id": 911,
+  "Name": "Steuber Inc and Sons",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "UdListDefinitionId": 449,
-  "Rank": 460,
+  "UdListDefinitionId": 404,
+  "Rank": 917,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldType": "System.String",
+      "FieldLength": 344
     }
   }
 }

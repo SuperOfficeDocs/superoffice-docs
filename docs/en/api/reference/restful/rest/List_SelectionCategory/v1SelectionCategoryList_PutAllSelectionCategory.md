@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "Bartoletti-Lockman",
-    "Tooltip": "dolores",
-    "Deleted": false,
-    "UdListDefinitionId": 802,
-    "Rank": 857
+    "Id": 601,
+    "Name": "Terry-Gorczany",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "UdListDefinitionId": 462,
+    "Rank": 603
   },
   {
-    "Id": 619,
-    "Name": "Bartoletti-Lockman",
-    "Tooltip": "dolores",
-    "Deleted": false,
-    "UdListDefinitionId": 802,
-    "Rank": 857
+    "Id": 601,
+    "Name": "Terry-Gorczany",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "UdListDefinitionId": 462,
+    "Rank": 603
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Blanda-Renner",
-    "Tooltip": "ullam",
-    "Deleted": false,
-    "UdListDefinitionId": 288,
-    "Rank": 744,
+    "Id": 679,
+    "Name": "Vandervort-Runte",
+    "Tooltip": "blanditiis",
+    "Deleted": true,
+    "UdListDefinitionId": 693,
+    "Rank": 610,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldType": "System.String",
+        "FieldLength": 841
       }
     }
   }

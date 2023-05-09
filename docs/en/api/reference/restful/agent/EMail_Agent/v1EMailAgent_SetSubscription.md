@@ -66,20 +66,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Skiles, Hills and Hills",
-      "Delimiter": "repellendus",
-      "Flags": "laboriosam",
-      "TotalItems": 582,
-      "UnreadItems": 761,
+      "Name": "Steuber, Hackett and Runolfsson",
+      "Delimiter": "excepturi",
+      "Flags": "nam",
+      "TotalItems": 276,
+      "UnreadItems": 171,
       "Subscribed": true,
-      "EmailFolderId": 974
+      "EmailFolderId": 960
     }
   ]
 }

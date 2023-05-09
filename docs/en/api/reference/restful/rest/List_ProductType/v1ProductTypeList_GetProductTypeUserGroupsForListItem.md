@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 755,
-    "Name": "Kovacek LLC",
-    "ToolTip": "Occaecati enim aperiam.",
-    "Deleted": false,
-    "Rank": 395,
-    "Type": "eum",
-    "ColorBlock": 803,
-    "IconHint": "reiciendis",
+    "Id": 772,
+    "Name": "Braun LLC",
+    "ToolTip": "Et minima similique rerum.",
+    "Deleted": true,
+    "Rank": 915,
+    "Type": "itaque",
+    "ColorBlock": 904,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2017-01-16T15:29:31.4304762+01:00",
+    "LastChanged": "1998-06-19T03:51:34.8176965+02:00",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "Wolff Inc and Sons",
-        "ToolTip": "Commodi dolorum ad in eum inventore.",
+        "Id": 197,
+        "Name": "Muller LLC",
+        "ToolTip": "Sed ducimus est omnis dolorum non exercitationem amet.",
         "Deleted": false,
-        "Rank": 739,
-        "Type": "incidunt",
-        "ColorBlock": 488,
-        "IconHint": "iste",
-        "Selected": true,
-        "LastChanged": "2010-09-29T15:29:31.4304762+02:00",
+        "Rank": 709,
+        "Type": "earum",
+        "ColorBlock": 244,
+        "IconHint": "nesciunt",
+        "Selected": false,
+        "LastChanged": "2000-08-05T03:51:34.8176965+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "delectus",
+        "ExtraInfo": "ut",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Mrs. Edythe Lavern Lynch",
+        "FullName": "Matilde Boyer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 424
+            "FieldType": "System.String",
+            "FieldLength": 909
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Lonnie Walter",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "fuga",
+    "Hidden": true,
+    "FullName": "Rick Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldType": "System.String",
+        "FieldLength": 132
       }
     }
   }

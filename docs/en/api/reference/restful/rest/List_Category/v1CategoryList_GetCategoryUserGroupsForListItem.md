@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Name": "Fahey-Kirlin",
-    "ToolTip": "Omnis reiciendis architecto consequuntur.",
-    "Deleted": false,
-    "Rank": 77,
-    "Type": "facilis",
-    "ColorBlock": 599,
-    "IconHint": "tenetur",
-    "Selected": true,
-    "LastChanged": "1996-08-24T15:29:31.0999807+02:00",
+    "Id": 61,
+    "Name": "Schinner Group",
+    "ToolTip": "Autem molestiae blanditiis veritatis beatae officia deserunt.",
+    "Deleted": true,
+    "Rank": 555,
+    "Type": "molestiae",
+    "ColorBlock": 884,
+    "IconHint": "accusantium",
+    "Selected": false,
+    "LastChanged": "2020-01-07T03:51:34.4896498+01:00",
     "ChildItems": [
       {
-        "Id": 421,
-        "Name": "Schumm-Rutherford",
-        "ToolTip": "Tempore doloribus dolor.",
-        "Deleted": true,
-        "Rank": 320,
-        "Type": "dolor",
-        "ColorBlock": 799,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2018-11-01T15:29:31.0999807+01:00",
+        "Id": 259,
+        "Name": "Rowe-Walker",
+        "ToolTip": "Molestias recusandae.",
+        "Deleted": false,
+        "Rank": 228,
+        "Type": "sint",
+        "ColorBlock": 14,
+        "IconHint": "debitis",
+        "Selected": false,
+        "LastChanged": "2020-08-01T03:51:34.4896498+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Jarvis Heller",
+        "ExtraInfo": "vel",
+        "StyleHint": "sint",
+        "Hidden": true,
+        "FullName": "Jeff Wehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 946
+            "FieldLength": 471
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "quis",
-    "Hidden": false,
-    "FullName": "Theo Marquardt",
+    "ExtraInfo": "aut",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Saige Ezra Borer MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldLength": 739
       }
     }
   }

@@ -124,18 +124,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "expedita",
+    "path": "iste",
     "value": {}
   },
   {
     "op": "add",
-    "path": "expedita",
+    "path": "iste",
     "value": {}
   }
 ]
@@ -148,30 +148,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 146,
-  "Section": "illum",
-  "Key": "rerum",
-  "Name": "Monahan-Durgan",
+  "PrefDescId": 454,
+  "Section": "ex",
+  "Key": "omnis",
+  "Name": "Emard Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customer-focused non-volatile interface",
+  "Description": "Multi-tiered eco-centric application",
   "IsBuiltin": false,
-  "TableName": "Oberbrunner LLC",
-  "UserDefinedListId": 977,
-  "Rank": 549,
-  "SubGroup": "vel",
-  "MinLevel": 355,
-  "MaxValue": 69,
-  "MinValue": 676,
-  "RequiredLicense": "in",
+  "TableName": "Littel Inc and Sons",
+  "UserDefinedListId": 798,
+  "Rank": 530,
+  "SubGroup": "adipisci",
+  "MinLevel": 292,
+  "MaxValue": 641,
+  "MinValue": 869,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 222
+      "FieldType": "System.String",
+      "FieldLength": 295
     }
   },
   "_Links": {

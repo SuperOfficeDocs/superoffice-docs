@@ -27,7 +27,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=537
+POST /api/v1/Agents/User/GetUser?userId=358
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -102,14 +102,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 547,
-  "Name": "Pagac Inc and Sons",
-  "Rank": 805,
-  "Tooltip": "corrupti",
+  "AssociateId": 551,
+  "Name": "Kohler, Price and Osinski",
+  "Rank": 227,
+  "Tooltip": "nostrum",
   "LicenseOwners": [
     {
-      "Name": "Buckridge LLC",
-      "Description": "Business-focused dynamic secured line",
+      "Name": "Turcotte Inc and Sons",
+      "Description": "Ergonomic discrete Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,13 +123,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 681
         }
       }
     },
     {
-      "Name": "Buckridge LLC",
-      "Description": "Business-focused dynamic secured line",
+      "Name": "Turcotte Inc and Sons",
+      "Description": "Ergonomic discrete Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 681
         }
       }
     }
@@ -152,110 +152,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eum",
-      "Tooltip": "perferendis",
-      "Id": 633,
-      "Rank": 137,
+      "Value": "sunt",
+      "Tooltip": "nostrum",
+      "Id": 74,
+      "Rank": 575,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldLength": 39
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2010-08-21T15:29:23.3542535+02:00",
-  "Lastlogout": "2010-02-14T15:29:23.3542535+01:00",
-  "EjUserId": 411,
-  "RequestSignature": "aut",
+  "Deleted": false,
+  "Lastlogin": "1997-04-27T03:51:28.4901768+02:00",
+  "Lastlogout": "2020-09-23T03:51:28.4901768+02:00",
+  "EjUserId": 571,
+  "RequestSignature": "ea",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sunt",
-      "DisplayValue": "neque",
+      "Value": "maxime",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldLength": 771
         }
       }
     },
     {
       "Type": null,
-      "Value": "sunt",
-      "DisplayValue": "neque",
+      "Value": "maxime",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldLength": 771
         }
       }
     }
   ],
-  "UserName": "Schuppe-Dickinson",
+  "UserName": "Kunde-Dickens",
   "TicketCategories": [
     {
-      "Id": 863,
-      "Name": "Nitzsche, Mraz and Jacobi",
-      "ToolTip": "Totam ducimus rerum dolorem quibusdam maiores totam aut.",
-      "Deleted": true,
-      "Rank": 351,
-      "Type": "eaque",
+      "Id": 593,
+      "Name": "Schultz Group",
+      "ToolTip": "Dolores culpa numquam.",
+      "Deleted": false,
+      "Rank": 335,
+      "Type": "reprehenderit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "fuga",
-      "ColorBlock": 250,
-      "ExtraInfo": "quis",
-      "StyleHint": "dolorum",
-      "FullName": "Haleigh Purdy",
+      "IconHint": "pariatur",
+      "ColorBlock": 604,
+      "ExtraInfo": "enim",
+      "StyleHint": "in",
+      "FullName": "Orlando Rohan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldLength": 264
         }
       }
     }
   ],
-  "NickName": "Powlowski, Mraz and Halvorson",
-  "WaitingForApproval": true,
+  "NickName": "Reilly LLC",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "ratione",
+    "CustomFields2": "eligendi"
   },
   "PostSaveCommands": [
     {
-      "Name": "Leffler, Ratke and Heathcote",
-      "DisplayName": "Kilback, Klein and Fadel",
-      "Description": "Grass-roots human-resource Graphical User Interface",
-      "ToolTip": "Rem sit reiciendis velit fuga.",
+      "Name": "Davis, Botsford and Hackett",
+      "DisplayName": "Watsica Inc and Sons",
+      "Description": "Right-sized contextually-based alliance",
+      "ToolTip": "Non harum incidunt assumenda odio.",
       "Actions": "Implicit",
-      "ActionData": "labore",
+      "ActionData": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldType": "System.String",
+          "FieldLength": 733
         }
       }
     }
@@ -265,7 +265,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldLength": 27
     }
   }
 }

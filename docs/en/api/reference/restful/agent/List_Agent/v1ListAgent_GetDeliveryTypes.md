@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Value": "occaecati",
-    "Tooltip": "rerum",
+    "Id": 845,
+    "Value": "harum",
+    "Tooltip": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldType": "System.String",
+        "FieldLength": 64
       }
     }
   },
   {
-    "Id": 136,
-    "Value": "occaecati",
-    "Tooltip": "rerum",
+    "Id": 845,
+    "Value": "harum",
+    "Tooltip": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldType": "System.String",
+        "FieldLength": 64
       }
     }
   }

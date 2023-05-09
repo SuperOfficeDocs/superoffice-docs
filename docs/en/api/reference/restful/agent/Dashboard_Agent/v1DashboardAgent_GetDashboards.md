@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 904
+  "AssociateId": 274
 }
 ```
 
@@ -92,22 +92,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 108,
-    "AssociateId": 946,
-    "Caption": "dolor",
+    "DashboardId": 359,
+    "AssociateId": 81,
+    "Caption": "dolore",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 526,
-        "Caption": "molestiae",
-        "Description": "Ergonomic multimedia definition",
-        "ChartName": "Lang-Borer",
-        "ChartId": "et",
-        "IsDefault": true,
-        "AssociateId": 297,
-        "GroupId": 810,
-        "SelectionId": 222,
-        "Config": "ipsum",
+        "DashboardTileId": 281,
+        "Caption": "dolores",
+        "Description": "Digitized asynchronous archive",
+        "ChartName": "Gerlach Group",
+        "ChartId": "dolor",
+        "IsDefault": false,
+        "AssociateId": 955,
+        "GroupId": 264,
+        "SelectionId": 907,
+        "Config": "sed",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 59
+            "FieldType": "System.String",
+            "FieldLength": 240
           }
         }
       }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldLength": 801
       }
     }
   }

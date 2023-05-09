@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 330,
-    "Name": "Robel, Doyle and Deckow",
-    "ToolTip": "Impedit quo.",
+    "Id": 367,
+    "Name": "Schuppe, Lynch and West",
+    "ToolTip": "Voluptas distinctio illum inventore.",
     "Deleted": false,
-    "Rank": 376,
-    "Type": "culpa",
-    "ColorBlock": 658,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "1998-07-09T15:29:31.4979756+02:00",
+    "Rank": 276,
+    "Type": "tempore",
+    "ColorBlock": 607,
+    "IconHint": "reiciendis",
+    "Selected": true,
+    "LastChanged": "2019-10-06T03:51:34.8801783+02:00",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Bins-Hahn",
-        "ToolTip": "Impedit eos harum soluta tempora.",
+        "Id": 277,
+        "Name": "Green Inc and Sons",
+        "ToolTip": "Blanditiis vel perferendis.",
         "Deleted": false,
-        "Rank": 361,
-        "Type": "esse",
-        "ColorBlock": 538,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2017-03-08T15:29:31.4979756+01:00",
+        "Rank": 160,
+        "Type": "ex",
+        "ColorBlock": 242,
+        "IconHint": "asperiores",
+        "Selected": false,
+        "LastChanged": "2007-06-12T03:51:34.8801783+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "iste",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Prof. Polly Cassandre Beahan DDS"
+        "FullName": "Bryce Beatty"
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "ea",
+    "ExtraInfo": "rem",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Miss Helen Althea Gusikowski"
+    "FullName": "Dr. Rolando Balistreri IV"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Shields-Tillman",
-    "ToolTip": "Voluptatem placeat.",
+    "Id": 201,
+    "Name": "Keebler, Davis and Kub",
+    "ToolTip": "Nobis ratione et ut nihil labore aut.",
     "Deleted": false,
-    "Rank": 932,
-    "Type": "laborum",
-    "ColorBlock": 157,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2023-02-09T15:29:31.5004762+01:00",
+    "Rank": 817,
+    "Type": "maxime",
+    "ColorBlock": 611,
+    "IconHint": "error",
+    "Selected": true,
+    "LastChanged": "2018-08-17T03:51:34.8801783+02:00",
     "ChildItems": [
       {
-        "Id": 508,
-        "Name": "Pouros-Shields",
-        "ToolTip": "Rerum aut assumenda cupiditate quos.",
+        "Id": 498,
+        "Name": "Romaguera-Towne",
+        "ToolTip": "Quo harum neque atque.",
         "Deleted": true,
-        "Rank": 509,
-        "Type": "tenetur",
-        "ColorBlock": 507,
-        "IconHint": "temporibus",
+        "Rank": 39,
+        "Type": "amet",
+        "ColorBlock": 663,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2020-04-22T15:29:31.5004762+02:00",
+        "LastChanged": "2004-07-06T03:51:34.8801783+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "beatae",
-        "Hidden": true,
-        "FullName": "Breanna O'Conner",
+        "ExtraInfo": "quasi",
+        "StyleHint": "at",
+        "Hidden": false,
+        "FullName": "Marcella Joe Bruen MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 51
+            "FieldType": "System.String",
+            "FieldLength": 912
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "cumque",
+    "ExtraInfo": "omnis",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Miss Juliet Reichel IV",
+    "FullName": "Daisha Hammes PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldType": "System.String",
+        "FieldLength": 300
       }
     }
   }

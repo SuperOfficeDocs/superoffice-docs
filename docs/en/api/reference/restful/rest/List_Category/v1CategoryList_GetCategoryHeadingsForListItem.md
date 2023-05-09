@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Friesen, Quigley and Kirlin",
-    "ToolTip": "Ut ut quod.",
+    "Id": 498,
+    "Name": "Borer-Jewess",
+    "ToolTip": "Deserunt quae doloremque et.",
     "Deleted": false,
-    "Rank": 329,
-    "Type": "quae",
-    "ColorBlock": 891,
-    "IconHint": "odio",
+    "Rank": 463,
+    "Type": "voluptates",
+    "ColorBlock": 964,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2008-09-11T15:29:31.1049791+02:00",
+    "LastChanged": "2001-02-12T03:51:34.5521277+01:00",
     "ChildItems": [
       {
-        "Id": 219,
-        "Name": "Weissnat Group",
-        "ToolTip": "Qui reprehenderit facilis et consequatur illo minima placeat.",
+        "Id": 391,
+        "Name": "Pacocha-Schmitt",
+        "ToolTip": "Rem fuga iusto quasi sunt.",
         "Deleted": false,
-        "Rank": 980,
-        "Type": "voluptatem",
-        "ColorBlock": 658,
-        "IconHint": "blanditiis",
+        "Rank": 906,
+        "Type": "et",
+        "ColorBlock": 189,
+        "IconHint": "nisi",
         "Selected": true,
-        "LastChanged": "2020-07-06T15:29:31.1049791+02:00",
+        "LastChanged": "2005-12-21T03:51:34.5521277+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "error",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "America Abernathy",
+        "FullName": "Prof. Garnett Gaylord II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 345
+            "FieldType": "System.String",
+            "FieldLength": 498
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "est",
+    "ExtraInfo": "rerum",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Mr. Aditya Cormier",
+    "FullName": "Lavern Jacobi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 891
       }
     }
   }

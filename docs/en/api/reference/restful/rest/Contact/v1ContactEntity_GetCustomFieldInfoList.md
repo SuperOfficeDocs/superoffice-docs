@@ -66,7 +66,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Larkin, Adams and Brekke",
-    "DisplayName": "Douglas-Huels",
-    "Description": "Balanced zero tolerance capability",
-    "ShortLabel": "occaecati",
+    "FieldName": "Rowe Inc and Sons",
+    "DisplayName": "Steuber, Hartmann and Koelpin",
+    "Description": "Right-sized solution-oriented approach",
+    "ShortLabel": "dolores",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 512,
-    "TemplateVariableName": "Bauch LLC"
+    "IsExternal": true,
+    "Rank": 891,
+    "TemplateVariableName": "Pouros-O'Keefe"
   }
 ]
 ```

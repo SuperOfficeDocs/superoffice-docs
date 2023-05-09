@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Ebert, Auer and Schmitt"
+  "UserName": "Kassulke Inc and Sons"
 }
 ```
 
@@ -113,14 +113,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 868,
-  "Name": "Wilkinson, Aufderhar and Jewess",
-  "Rank": 479,
-  "Tooltip": "ut",
+  "AssociateId": 742,
+  "Name": "Deckow, Klocko and Gusikowski",
+  "Rank": 70,
+  "Tooltip": "exercitationem",
   "LicenseOwners": [
     {
-      "Name": "Metz-Osinski",
-      "Description": "Synchronised maximized hub",
+      "Name": "Nienow-Gusikowski",
+      "Description": "Synchronised responsive budgetary management",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,14 +133,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 536
+          "FieldType": "System.String",
+          "FieldLength": 77
         }
       }
     },
     {
-      "Name": "Metz-Osinski",
-      "Description": "Synchronised maximized hub",
+      "Name": "Nienow-Gusikowski",
+      "Description": "Synchronised responsive budgetary management",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 536
+          "FieldType": "System.String",
+          "FieldLength": 77
         }
       }
     }
@@ -163,110 +163,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "porro",
-      "Tooltip": "quae",
-      "Id": 141,
-      "Rank": 745,
-      "Deleted": true,
+      "Value": "impedit",
+      "Tooltip": "velit",
+      "Id": 341,
+      "Rank": 999,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 644
+          "FieldLength": 792
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2021-03-27T15:29:23.3617531+01:00",
-  "Lastlogout": "2011-05-06T15:29:23.3617531+02:00",
-  "EjUserId": 247,
-  "RequestSignature": "sint",
+  "Deleted": false,
+  "Lastlogin": "2007-11-09T03:51:28.5058+01:00",
+  "Lastlogout": "2008-02-22T03:51:28.5058+01:00",
+  "EjUserId": 551,
+  "RequestSignature": "porro",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "beatae",
+      "Value": "sunt",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 261
+          "FieldLength": 771
         }
       }
     },
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "beatae",
+      "Value": "sunt",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 261
+          "FieldLength": 771
         }
       }
     }
   ],
-  "UserName": "Leannon, Veum and Sanford",
+  "UserName": "Crona Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 321,
-      "Name": "Wolff, Marks and Gulgowski",
-      "ToolTip": "Dolores dolor exercitationem.",
+      "Id": 385,
+      "Name": "O'Keefe-Reichel",
+      "ToolTip": "A aut rem et sunt molestias vel.",
       "Deleted": false,
-      "Rank": 343,
-      "Type": "ut",
+      "Rank": 616,
+      "Type": "officia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "asperiores",
-      "ColorBlock": 28,
-      "ExtraInfo": "sint",
-      "StyleHint": "explicabo",
-      "FullName": "Ephraim Reinger",
+      "IconHint": "qui",
+      "ColorBlock": 168,
+      "ExtraInfo": "omnis",
+      "StyleHint": "tenetur",
+      "FullName": "Cassandra McLaughlin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 214
         }
       }
     }
   ],
-  "NickName": "McLaughlin, Graham and Fahey",
-  "WaitingForApproval": false,
+  "NickName": "Ebert-Williamson",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "reprehenderit"
+    "ExtraFields1": "corporis",
+    "ExtraFields2": "unde"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "velit"
+    "CustomFields1": "numquam",
+    "CustomFields2": "non"
   },
   "PostSaveCommands": [
     {
-      "Name": "Collins Group",
-      "DisplayName": "Wehner-Wyman",
-      "Description": "Managed client-server budgetary management",
-      "ToolTip": "Earum sunt ad vel qui amet praesentium.",
+      "Name": "Stroman Group",
+      "DisplayName": "Ratke, Mueller and Lubowitz",
+      "Description": "Optional well-modulated circuit",
+      "ToolTip": "Cum delectus vero sequi blanditiis praesentium quod.",
       "Actions": "Implicit",
-      "ActionData": "voluptatum",
+      "ActionData": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 19
+          "FieldLength": 911
         }
       }
     }
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 727
     }
   }
 }

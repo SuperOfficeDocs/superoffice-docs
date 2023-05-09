@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 513,
-  "Name": "Bailey, Nitzsche and West",
-  "Tooltip": "neque",
+  "HeadingId": 787,
+  "Name": "Haag, Gutmann and Smith",
+  "Tooltip": "eos",
   "Deleted": true,
-  "Rank": 936,
-  "UdListDefinitionId": 233
+  "Rank": 416,
+  "UdListDefinitionId": 682
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 764,
-  "Name": "Greenfelder-Greenholt",
-  "Tooltip": "tenetur",
+  "HeadingId": 758,
+  "Name": "Deckow, Wyman and Kemmer",
+  "Tooltip": "minima",
   "Deleted": false,
-  "Rank": 158,
-  "UdListDefinitionId": 926,
+  "Rank": 392,
+  "UdListDefinitionId": 954,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldLength": 127
     }
   }
 }

@@ -71,7 +71,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,20 +81,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Pouros, Cartwright and Bernhard",
-  "ModuleName": "Kunde Group",
-  "ModuleDescription": "Automated didactic knowledge base",
-  "ModuleTooltip": "fugiat",
-  "ModuleVersion": "labore",
+  "OwnerName": "Stokes-Tromp",
+  "ModuleName": "Schuppe-Streich",
+  "ModuleDescription": "Universal stable workforce",
+  "ModuleTooltip": "blanditiis",
+  "ModuleVersion": "odit",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 244,
-  "ExtraFlags": 727,
-  "ExtraInfo": "ea",
-  "SortOrder": 323,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Okuneva, Bauch and Stehr",
-  "Signature": "quo"
+  "NumberOfLicenses": 4,
+  "ExtraFlags": 119,
+  "ExtraInfo": "architecto",
+  "SortOrder": 499,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Larson-Lockman",
+  "Signature": "aut"
 }
 ```

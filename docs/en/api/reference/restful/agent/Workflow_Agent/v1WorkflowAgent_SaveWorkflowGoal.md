@@ -68,27 +68,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 85,
-  "WorkflowId": 223,
+  "WorkflowGoalId": 849,
+  "WorkflowId": 514,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Leannon Group",
-      "Description": "Self-enabling stable extranet",
-      "Rank": 609,
+      "Name": "Davis LLC",
+      "Description": "Phased assymetric orchestration",
+      "Rank": 241,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Leannon Group",
-      "Description": "Self-enabling stable extranet",
-      "Rank": 609,
+      "Name": "Davis LLC",
+      "Description": "Phased assymetric orchestration",
+      "Rank": 241,
       "Restrictions": [
         {},
         {}
@@ -105,23 +105,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 723,
-  "WorkflowId": 579,
+  "WorkflowGoalId": 407,
+  "WorkflowId": 749,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Gutkowski, Prohaska and Rau",
-      "Description": "Extended regional model",
-      "Rank": 15,
+      "Name": "Kunde, Nader and Wilkinson",
+      "Description": "Devolved radical archive",
+      "Rank": 641,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gutkowski, Prohaska and Rau",
-      "Description": "Extended regional model",
-      "Rank": 15,
+      "Name": "Kunde, Nader and Wilkinson",
+      "Description": "Devolved radical archive",
+      "Rank": 641,
       "Restrictions": [
         {},
         {}
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 864
     }
   }
 }

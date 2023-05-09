@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "fugit",
-    "voluptatem"
+    "eum",
+    "voluptas"
   ]
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2005-07-31T15:29:20.5657934+02:00",
-    "IsConflict": true,
-    "Description": "Realigned 3rd generation matrices",
-    "DescriptionStyleHint": "Open-architected directional time-frame",
-    "Tooltip": "non"
+    "Date": "1998-10-29T03:51:26.2563301+01:00",
+    "IsConflict": false,
+    "Description": "Decentralized bottom-line matrix",
+    "DescriptionStyleHint": "Organic optimal access",
+    "Tooltip": "quaerat"
   },
   {
-    "Date": "2005-07-31T15:29:20.5657934+02:00",
-    "IsConflict": true,
-    "Description": "Realigned 3rd generation matrices",
-    "DescriptionStyleHint": "Open-architected directional time-frame",
-    "Tooltip": "non"
+    "Date": "1998-10-29T03:51:26.2563301+01:00",
+    "IsConflict": false,
+    "Description": "Decentralized bottom-line matrix",
+    "DescriptionStyleHint": "Organic optimal access",
+    "Tooltip": "quaerat"
   }
 ]
 ```

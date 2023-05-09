@@ -73,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document/{id}/Links?$select=name,department,category/id
 GET /api/v1/Document/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Document/{id}/Links?$orderBy=name asc
-GET /api/v1/Document/{id}/Links?$entities=velit
-GET /api/v1/Document/{id}/Links?$top=780
-GET /api/v1/Document/{id}/Links?$skip=344
+GET /api/v1/Document/{id}/Links?$entities=assumenda
+GET /api/v1/Document/{id}/Links?$top=258
+GET /api/v1/Document/{id}/Links?$skip=499
 GET /api/v1/Document/{id}/Links?$mode=Full
 GET /api/v1/Document/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Document/{id}/Links?$context=assumenda
+GET /api/v1/Document/{id}/Links?$context=soluta
 GET /api/v1/Document/{id}/Links?$format=JSON
 GET /api/v1/Document/{id}/Links?$jsonSafe=False
 GET /api/v1/Document/{id}/Links?$output=Display
@@ -133,21 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "deleniti",
   "value": [
     {
-      "PrimaryKey": 1159,
+      "PrimaryKey": 5081,
       "EntityName": "sale",
-      "saleId": 1159,
-      "contactId": 3077,
-      "name": "Wintheiser-Corkery"
+      "saleId": 5081,
+      "contactId": 3517,
+      "name": "Wisoky LLC"
     },
     {
-      "PrimaryKey": 8292,
+      "PrimaryKey": 8029,
       "EntityName": "sale",
-      "saleId": 8292,
-      "contactId": 556,
-      "name": "Kozey Group"
+      "saleId": 8029,
+      "contactId": 5356,
+      "name": "Kozey, Luettgen and Durgan"
     }
   ]
 }

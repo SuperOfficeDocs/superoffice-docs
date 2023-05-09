@@ -100,9 +100,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 674,
-  "QuoteAlternativeName": "Schultz LLC",
-  "QuoteAlternativeDescription": "Realigned needs-based encryption"
+  "QuoteVersionId": 331,
+  "QuoteAlternativeName": "Connelly, Schmidt and King",
+  "QuoteAlternativeDescription": "Implemented bi-directional attitude"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 197,
-  "ERPQuoteAlternativeKey": "libero",
-  "QuoteVersionId": 279,
-  "Name": "Leffler, Moen and Roob",
-  "Description": "Sharable interactive implementation",
+  "QuoteAlternativeId": 73,
+  "ERPQuoteAlternativeKey": "a",
+  "QuoteVersionId": 552,
+  "Name": "Blick-Wehner",
+  "Description": "Multi-lateral 5th generation hierarchy",
   "Status": "Error",
-  "Reason": "streamline synergistic mindshare",
-  "ERPDiscountPercent": 10699.475999999999,
-  "ERPDiscountAmount": 21718.62,
-  "DiscountPercent": 7756.65,
-  "DiscountAmount": 15387.939999999999,
+  "Reason": "",
+  "ERPDiscountPercent": 7684.5679999999993,
+  "ERPDiscountAmount": 495.17199999999997,
+  "DiscountPercent": 1911.74,
+  "DiscountAmount": 17302.814,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "maxime",
-  "VAT": 15510.166,
-  "EarningPercent": 2422.582,
-  "EarningAmount": 10821.702,
-  "SubTotal": 1914.874,
-  "TotalPrice": 30308.914,
-  "ExtraField1": "aspernatur",
-  "ExtraField2": "officia",
-  "ExtraField3": "quia",
-  "ExtraField4": "ut",
-  "ExtraField5": "est",
+  "VATInfo": "rerum",
+  "VAT": 115.958,
+  "EarningPercent": 21367.612,
+  "EarningAmount": 23978.234,
+  "SubTotal": 29218.282,
+  "TotalPrice": 8301.966,
+  "ExtraField1": "accusamus",
+  "ExtraField2": "consequatur",
+  "ExtraField3": "et",
+  "ExtraField4": "quia",
+  "ExtraField5": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 961
+      "FieldType": "System.Int32",
+      "FieldLength": 310
     }
   }
 }

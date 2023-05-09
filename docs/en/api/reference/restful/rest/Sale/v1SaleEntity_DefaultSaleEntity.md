@@ -99,7 +99,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,7 +107,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 03 Jul 2009 15:29:30 G7T
+Last-Modified: Fri, 11 Dec 2015 03:51:33 G12T
 
 {
   "Appointment": null,
@@ -116,7 +116,7 @@ Last-Modified: Fri, 03 Jul 2009 15:29:30 G7T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "eos",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Last-Modified: Fri, 03 Jul 2009 15:29:30 G7T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-02-19T15:29:30.0556595+01:00",
-  "Amount": 21235.984,
-  "SaleId": 551,
-  "Earning": 16165.171999999999,
-  "EarningPercent": 23893.615999999998,
-  "Heading": "quae",
-  "Number": "1024167",
-  "Probability": 995,
-  "CreatedDate": "2000-02-14T15:29:30.0556595+01:00",
-  "UpdatedDate": "2009-07-03T15:29:30.0556595+02:00",
+  "Saledate": "1997-02-09T03:51:33.8959111+01:00",
+  "Amount": 17691.43,
+  "SaleId": 766,
+  "Earning": 15848.637999999999,
+  "EarningPercent": 2312.892,
+  "Heading": "ad",
+  "Number": "1503243",
+  "Probability": 748,
+  "CreatedDate": "1996-05-14T03:51:33.8959111+02:00",
+  "UpdatedDate": "2015-12-11T03:51:33.8959111+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 481,
+  "ActiveLinks": 292,
   "Links": [
     {
-      "EntityName": "Quigley, Friesen and Kiehn",
-      "Id": 971,
-      "Description": "Future-proofed empowering conglomeration",
-      "ExtraInfo": "blanditiis",
-      "LinkId": 670,
+      "EntityName": "Luettgen-Homenick",
+      "Id": 394,
+      "Description": "User-centric secondary architecture",
+      "ExtraInfo": "aspernatur",
+      "LinkId": 599,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 362
+          "FieldLength": 136
         }
       }
     }
   ],
-  "NextDueDate": "2001-10-16T15:29:30.0556595+02:00",
-  "Postit": "error",
+  "NextDueDate": "1997-04-14T03:51:33.8959111+02:00",
+  "Postit": "quo",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2003-03-05T15:29:30.0556595+01:00",
+  "ReopenDate": "1996-05-09T03:51:33.8959111+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Metz, DuBuque and Schroeder",
-      "Comment": "molestias",
-      "StakeholderRoleId": 263,
-      "CountryId": 262,
-      "PersonId": 747,
-      "EmailDescription": "amari@kassulke.ca",
-      "EmailId": 500,
-      "EmailAddress": "wilmer_rosenbaum@pacochawalsh.com",
-      "PhoneId": 181,
-      "ContactName": "Schmitt-Carroll",
-      "ContactId": 797,
-      "SaleId": 697,
-      "Mrmrs": "quis",
-      "Firstname": "Carley",
-      "MiddleName": "Balistreri, Zemlak and Bechtelar",
-      "Lastname": "Brakus",
-      "SaleStakeholderId": 577,
-      "Rank": 971,
-      "Phone": "715.027.0914",
+      "StakeholderRoleName": "Bogan Group",
+      "Comment": "non",
+      "StakeholderRoleId": 324,
+      "CountryId": 718,
+      "PersonId": 403,
+      "EmailDescription": "troy.stanton@rodriguezrolfson.ca",
+      "EmailId": 509,
+      "EmailAddress": "kailyn@pouros.name",
+      "PhoneId": 759,
+      "ContactName": "Gusikowski-Hickle",
+      "ContactId": 756,
+      "SaleId": 81,
+      "Mrmrs": "consequatur",
+      "Firstname": "Vilma",
+      "MiddleName": "Von-Nikolaus",
+      "Lastname": "Haag",
+      "SaleStakeholderId": 375,
+      "Rank": 818,
+      "Phone": "630.713.0382 x436",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 137
         }
       }
     }
   ],
-  "ActiveErpLinks": 295,
+  "ActiveErpLinks": 136,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mr. Janet Matilda Brown IV",
+    "SuperOffice:2": "Lonzo Beier"
   },
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "in"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "debitis"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "sunt"
+    "CustomFields1": "rerum",
+    "CustomFields2": "earum"
   },
-  "PublishEventDate": "2009-06-29T15:29:30.0566593+02:00",
-  "PublishTo": "2002-11-21T15:29:30.0566593+01:00",
-  "PublishFrom": "1999-04-14T15:29:30.0566593+02:00",
+  "PublishEventDate": "2000-08-21T03:51:33.8959111+02:00",
+  "PublishTo": "1996-08-26T03:51:33.8959111+02:00",
+  "PublishFrom": "2001-01-05T03:51:33.8959111+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 493,
+      "VisibleId": 887,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldType": "System.String",
+          "FieldLength": 706
         }
       }
     },
     {
-      "VisibleId": 493,
+      "VisibleId": 887,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldType": "System.String",
+          "FieldLength": 706
         }
       }
     }
@@ -241,7 +241,7 @@ Last-Modified: Fri, 03 Jul 2009 15:29:30 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 157
     }
   }
 }

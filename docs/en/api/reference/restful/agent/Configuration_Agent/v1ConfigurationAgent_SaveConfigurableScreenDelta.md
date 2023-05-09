@@ -90,22 +90,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 265,
-  "Name": "Hudson Group",
-  "Description": "Cross-platform user-facing Graphical User Interface",
-  "DeltaJson": "quaerat",
+  "ConfigurableScreenDeltaId": 533,
+  "Name": "Bode LLC",
+  "Description": "User-centric tertiary application",
+  "DeltaJson": "veniam",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "debitis",
-  "UpdatedDate": "2009-03-25T15:29:21.0247866+01:00",
-  "CreatedDate": "2004-12-06T15:29:21.0247866+01:00",
+  "RecipeId": "doloremque",
+  "UpdatedDate": "2007-10-03T03:51:26.7718335+02:00",
+  "CreatedDate": "2013-05-20T03:51:26.7718335+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    995,
-    577
+    494,
+    360
   ],
-  "AppliesToKey": "ab"
+  "AppliesToKey": "dolorem"
 }
 ```
 
@@ -116,28 +116,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 275,
-  "Name": "Crona LLC",
-  "Description": "Diverse uniform extranet",
-  "DeltaJson": "quidem",
+  "ConfigurableScreenDeltaId": 457,
+  "Name": "Hammes-Baumbach",
+  "Description": "Multi-tiered web-enabled pricing structure",
+  "DeltaJson": "velit",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "optio",
-  "UpdatedDate": "1996-04-28T15:29:21.0262858+02:00",
-  "CreatedDate": "1996-05-11T15:29:21.0262858+02:00",
+  "RecipeId": "quaerat",
+  "UpdatedDate": "2020-03-04T03:51:26.7718335+01:00",
+  "CreatedDate": "2007-08-27T03:51:26.7718335+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    607,
-    582
+    864,
+    191
   ],
-  "AppliesToKey": "non",
+  "AppliesToKey": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldLength": 652
     }
   }
 }

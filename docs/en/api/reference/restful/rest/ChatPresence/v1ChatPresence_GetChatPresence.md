@@ -69,20 +69,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 685,
-    "DisplayName": "Nitzsche, McCullough and Stark",
-    "OngoingChats": 461,
+    "UserId": 910,
+    "DisplayName": "Bauch LLC",
+    "OngoingChats": 454,
     "Present": false,
     "ChatTopics": [
-      956,
-      314
+      836,
+      220
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldLength": 334
       }
     }
   }

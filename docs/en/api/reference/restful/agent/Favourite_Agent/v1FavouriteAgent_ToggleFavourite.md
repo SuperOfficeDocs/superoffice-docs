@@ -74,10 +74,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Feil-McGlynn",
-  "RecordId": 66,
-  "AssociateId": 229,
-  "ExtraInfo": "dignissimos"
+  "TableName": "Runte, Watsica and Jacobson",
+  "RecordId": 440,
+  "AssociateId": 800,
+  "ExtraInfo": "eos"
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

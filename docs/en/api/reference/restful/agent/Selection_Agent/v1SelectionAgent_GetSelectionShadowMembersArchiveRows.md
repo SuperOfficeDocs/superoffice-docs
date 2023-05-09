@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 180,
-  "Select": "facilis"
+  "SelectionId": 724,
+  "Select": "dolores"
 }
 ```
 
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ferry Group",
-    "PrimaryKey": 801,
+    "EntityName": "Stracke Inc and Sons",
+    "PrimaryKey": 112,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "accusamus",
-        "TooltipHint": "praesentium",
-        "LinkHint": "nobis"
+        "DisplayValue": "aspernatur",
+        "TooltipHint": "aliquam",
+        "LinkHint": "omnis"
       }
     },
-    "LinkHint": "suscipit",
-    "StyleHint": "sed",
+    "LinkHint": "accusantium",
+    "StyleHint": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldLength": 447
       }
     }
   }

@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kris, Farrell and Haag",
-  "DeviceName": "Johns-Kuvalis",
-  "KeyName": "Hudson, Toy and Gutmann",
-  "KeyValue": "molestiae",
-  "TableName": "Lesch-Zulauf"
+  "ApplicationName": "Wiza-O'Keefe",
+  "DeviceName": "Ryan LLC",
+  "KeyName": "Ankunding-Marquardt",
+  "KeyValue": "eos",
+  "TableName": "Osinski-Hammes"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptas",
-  "Value": "animi",
-  "RecordId": 960,
-  "CreatedDate": "2022-06-29T15:29:21.9248094+02:00",
-  "UpdatedDate": "2014-10-12T15:29:21.9248094+02:00",
-  "UpdatedBy": "unde",
-  "CreatedBy": "optio",
-  "TableName": "Stark, Jakubowski and Schinner",
+  "Key": "aspernatur",
+  "Value": "similique",
+  "RecordId": 228,
+  "CreatedDate": "2002-07-12T03:51:27.3498217+02:00",
+  "UpdatedDate": "2007-11-28T03:51:27.3498217+01:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "sunt",
+  "TableName": "McCullough-Fisher",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 644
+      "FieldType": "System.Int32",
+      "FieldLength": 695
     }
   }
 }

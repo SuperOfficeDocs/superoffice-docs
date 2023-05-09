@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 662
+  "ContactId": 428
 }
 ```
 
@@ -92,41 +92,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 30854.23,
-  "Wgs84Longitude": 28989.5,
+  "Wgs84Latitude": 47.01,
+  "Wgs84Longitude": 29055.314,
   "LocalizedAddress": [
     [
       {
-        "Name": "Hickle Group",
-        "Value": "autem",
-        "Tooltip": "dolorem",
-        "Label": "consequatur",
-        "ValueLength": 239,
-        "AddressType": "omnis",
+        "Name": "Turner, Yundt and Raynor",
+        "Value": "rerum",
+        "Tooltip": "voluptatem",
+        "Label": "sit",
+        "ValueLength": 617,
+        "AddressType": "occaecati",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 548
+            "FieldLength": 918
           }
         }
       }
     ],
     [
       {
-        "Name": "Bechtelar, Donnelly and Weber",
-        "Value": "numquam",
-        "Tooltip": "quasi",
-        "Label": "ab",
-        "ValueLength": 502,
-        "AddressType": "est",
+        "Name": "Daniel, Batz and Johns",
+        "Value": "corrupti",
+        "Tooltip": "dolorum",
+        "Label": "maxime",
+        "ValueLength": 267,
+        "AddressType": "in",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 534
+            "FieldLength": 581
           }
         }
       }
@@ -134,13 +134,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "rem",
+  "Formatted": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 82
     }
   }
 }

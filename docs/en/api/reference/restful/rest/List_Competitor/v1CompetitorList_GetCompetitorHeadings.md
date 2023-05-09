@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 672,
-    "Name": "Schumm-Hayes",
-    "Tooltip": "dolorem",
+    "HeadingId": 390,
+    "Name": "Heidenreich-Von",
+    "Tooltip": "ea",
     "Deleted": true,
-    "Rank": 327,
-    "UdListDefinitionId": 417,
+    "Rank": 158,
+    "UdListDefinitionId": 923,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 9
       }
     }
   }

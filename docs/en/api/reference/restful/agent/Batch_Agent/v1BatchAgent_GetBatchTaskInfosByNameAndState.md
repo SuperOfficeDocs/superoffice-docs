@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "McDermott, Brekke and Larson",
+  "Name": "Wyman, Tromp and Hintz",
   "State": "All"
 }
 ```
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 626,
-    "Name": "Gislason-Hoppe",
-    "AssociateId": 262,
-    "DetailsTable": 440,
-    "DetailsRecord": 331,
+    "Id": 452,
+    "Name": "Mosciski Inc and Sons",
+    "AssociateId": 184,
+    "DetailsTable": 95,
+    "DetailsRecord": 517,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "rerum",
-      "ParameterObject2": "possimus"
+      "ParameterObject1": "molestias",
+      "ParameterObject2": "officia"
     },
-    "LastStarted": "2019-04-07T15:29:20.8247892+02:00",
-    "Created": "2017-12-25T15:29:20.8252885+01:00",
-    "StartCount": 324,
-    "DatabaseSerialNumber": "1165454",
-    "Context": "aut",
-    "Result": "fuga",
+    "LastStarted": "2010-07-17T03:51:26.6156255+02:00",
+    "Created": "2021-04-07T03:51:26.6156255+02:00",
+    "StartCount": 462,
+    "DatabaseSerialNumber": "982865",
+    "Context": "quibusdam",
+    "Result": "omnis",
     "State": "All",
-    "Description": "Operative 24/7 hierarchy",
-    "Response": "accusamus",
-    "Request": "officia",
-    "ProgressDescription": "Cross-group assymetric focus group",
-    "ProgressPercent": 391,
-    "FileName": "Blick-Wolff",
+    "Description": "Down-sized demand-driven access",
+    "Response": "et",
+    "Request": "eos",
+    "ProgressDescription": "Decentralized multi-tasking database",
+    "ProgressPercent": 463,
+    "FileName": "Koepp LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 862
+        "FieldLength": 513
       }
     }
   }

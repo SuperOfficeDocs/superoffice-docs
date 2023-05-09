@@ -111,51 +111,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 827,
-  "Name": "Krajcik Group",
-  "Tooltip": "est",
-  "Rank": 964,
+  "SaleTypeId": 494,
+  "Name": "Simonis, Ziemann and Morar",
+  "Tooltip": "consequatur",
+  "Rank": 420,
   "DurationUnit": "Century",
-  "SaleDuration": 336,
-  "SaleTypeCatId": 189,
+  "SaleDuration": 400,
+  "SaleTypeCatId": 430,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 103,
-  "QuoteLinesTemplate": 565,
-  "ConfirmationLinesTemplate": 695,
+  "DefaultQuoteValidity": 671,
+  "QuoteLinesTemplate": 141,
+  "ConfirmationLinesTemplate": 985,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 111,
-  "MinEarningPercent": 871,
-  "GroupQuoteLinesBy": 632,
-  "SortGroupLinesBy": 379,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 225,
+  "MinEarningPercent": 806,
+  "GroupQuoteLinesBy": 122,
+  "SortGroupLinesBy": 540,
   "Stages": [
     {
-      "Id": 123,
-      "Name": "Greenfelder, Kerluke and Grant",
-      "ToolTip": "Voluptatibus illo sit nesciunt officia commodi.",
+      "Id": 942,
+      "Name": "Reinger-Franecki",
+      "ToolTip": "Veniam facere minima quasi.",
       "Deleted": false,
-      "Rank": 209,
-      "Type": "tempora",
-      "ColorBlock": 993,
-      "IconHint": "quaerat",
+      "Rank": 910,
+      "Type": "corporis",
+      "ColorBlock": 276,
+      "IconHint": "eum",
       "Selected": true,
-      "LastChanged": "2023-03-02T15:29:31.5874814+01:00",
+      "LastChanged": "2007-02-25T03:51:34.9426529+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "asperiores",
-      "StyleHint": "aspernatur",
-      "Hidden": true,
-      "FullName": "Fatima Hansen"
+      "ExtraInfo": "accusamus",
+      "StyleHint": "rerum",
+      "Hidden": false,
+      "FullName": "Mrs. Bryon Bartoletti III"
     }
   ]
 }
@@ -168,53 +168,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 175,
-  "Name": "Runte Group",
-  "Tooltip": "deserunt",
-  "Rank": 794,
+  "SaleTypeId": 77,
+  "Name": "Kris-Marks",
+  "Tooltip": "accusamus",
+  "Rank": 37,
   "DurationUnit": "Century",
-  "SaleDuration": 919,
-  "SaleTypeCatId": 466,
-  "Deleted": true,
+  "SaleDuration": 104,
+  "SaleTypeCatId": 813,
+  "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 765,
-  "QuoteLinesTemplate": 840,
-  "ConfirmationLinesTemplate": 740,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 674,
+  "QuoteLinesTemplate": 251,
+  "ConfirmationLinesTemplate": 817,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 893,
-  "MinEarningPercent": 796,
-  "GroupQuoteLinesBy": 636,
-  "SortGroupLinesBy": 374,
+  "MaxDiscountPercent": 40,
+  "MinEarningPercent": 766,
+  "GroupQuoteLinesBy": 91,
+  "SortGroupLinesBy": 728,
   "Stages": [
     {
-      "Id": 784,
-      "Name": "Mills-Zieme",
-      "ToolTip": "Consequatur ratione qui fuga non aliquid quia.",
+      "Id": 249,
+      "Name": "Green LLC",
+      "ToolTip": "Et assumenda dolorem.",
       "Deleted": false,
-      "Rank": 374,
-      "Type": "placeat",
-      "ColorBlock": 292,
-      "IconHint": "corrupti",
+      "Rank": 739,
+      "Type": "ullam",
+      "ColorBlock": 265,
+      "IconHint": "facilis",
       "Selected": false,
-      "LastChanged": "2020-05-28T15:29:31.5884742+02:00",
+      "LastChanged": "1999-09-11T03:51:34.9426529+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "reprehenderit",
-      "StyleHint": "dolore",
+      "ExtraInfo": "et",
+      "StyleHint": "facilis",
       "Hidden": false,
-      "FullName": "Gerda Charlotte Legros DDS",
+      "FullName": "Prof. Gust Bernhard",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 361
         }
       }
     }
@@ -224,7 +224,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 826
+      "FieldLength": 871
     }
   }
 }

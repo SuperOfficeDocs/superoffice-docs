@@ -112,18 +112,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 518,
-      "ContactId": 88
+      "PersonId": 986,
+      "ContactId": 819
     },
     {
-      "PersonId": 518,
-      "ContactId": 88
+      "PersonId": 986,
+      "ContactId": 819
     }
   ]
 }
@@ -136,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-channelled systemic hardware",
-  "Postit": "corrupti",
+  "Description": "Grass-roots holistic toolset",
+  "Postit": "perferendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 901,
-  "IncludePerson": 112,
-  "MemberCount": 85,
-  "Name": "Beier-Heathcote",
-  "PostitTextId": 851,
-  "CreatedDate": "2013-07-23T15:29:22.7928031+02:00",
-  "SelectionId": 668,
-  "SoundEx": "sit",
-  "Source": 5,
-  "TextId": 603,
-  "UpdatedDate": "2003-03-17T15:29:22.7928031+01:00",
-  "UpdatedCount": 227,
-  "Visibility": 696,
+  "GroupIdx": 368,
+  "IncludePerson": 866,
+  "MemberCount": 696,
+  "Name": "Marks Group",
+  "PostitTextId": 10,
+  "CreatedDate": "2010-07-18T03:51:28.1621313+02:00",
+  "SelectionId": 285,
+  "SoundEx": "impedit",
+  "Source": 469,
+  "TextId": 772,
+  "UpdatedDate": "2003-03-28T03:51:28.1621313+01:00",
+  "UpdatedCount": 446,
+  "Visibility": 504,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 809,
-  "TargetTableName": "Emmerich, Mayert and Bartoletti",
+  "CompanyUnique": false,
+  "TargetTableNumber": 665,
+  "TargetTableName": "Spinka-Boehm",
   "Completed": false,
-  "LeftSelectionId": 956,
-  "RightSelectionId": 682,
+  "LeftSelectionId": 113,
+  "RightSelectionId": 335,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Beier, Terry and Barrows",
-  "ShadowProviderName": "Borer LLC",
-  "ChartKey": "aliquam",
-  "LastLoaded": "2019-06-16T15:29:22.7928031+02:00",
-  "LastLoadedBy": 580,
+  "MainProviderName": "Schulist, Wolff and Hagenes",
+  "ShadowProviderName": "Littel, Ebert and Lang",
+  "ChartKey": "occaecati",
+  "LastLoaded": "2010-09-30T03:51:28.1621313+02:00",
+  "LastLoadedBy": 980,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-08-18T15:29:22.7932972+02:00",
-  "LastMembershipChangeBy": 680,
+  "LastMembershipChange": "1997-03-01T03:51:28.1621313+01:00",
+  "LastMembershipChangeBy": 135,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptates",
-  "MemberTabHeading": "sed",
-  "MailingsProviderName": "Hoeger, Purdy and Romaguera",
-  "DashboardTileDefinitionId": 744,
+  "MainHeading": "repudiandae",
+  "MemberTabHeading": "officia",
+  "MailingsProviderName": "Hessel-Klocko",
+  "DashboardTileDefinitionId": 870,
   "VisibleFor": [
     {
-      "VisibleId": 400,
+      "VisibleId": 290,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 282
+          "FieldType": "System.Int32",
+          "FieldLength": 476
         }
       }
     },
     {
-      "VisibleId": 400,
+      "VisibleId": 290,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 282
+          "FieldType": "System.Int32",
+          "FieldLength": 476
         }
       }
     }
@@ -209,7 +209,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 648
     }
   }
 }

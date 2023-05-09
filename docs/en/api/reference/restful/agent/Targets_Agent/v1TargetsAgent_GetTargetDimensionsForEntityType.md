@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 483,
+    "TargetDimensionId": 124,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "est",
-    "DimensionListName": "McClure, Ryan and Schowalter",
-    "DimensionListId": 560,
-    "DimensionListLabel": "eos",
+    "DimensionListField": "a",
+    "DimensionListName": "Ryan-Upton",
+    "DimensionListId": 47,
+    "DimensionListLabel": "nam",
     "SelectedDimensions": [
-      244,
-      931
+      994,
+      490
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 901
       }
     }
   }

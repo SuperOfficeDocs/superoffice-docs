@@ -79,7 +79,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 612,
-    "Name": "Monahan LLC",
-    "AssociateId": 827,
-    "DetailsTable": 779,
-    "DetailsRecord": 93,
+    "Id": 739,
+    "Name": "Skiles LLC",
+    "AssociateId": 629,
+    "DetailsTable": 324,
+    "DetailsRecord": 648,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "maxime",
-      "ParameterObject2": "et"
+      "ParameterObject1": "occaecati",
+      "ParameterObject2": "assumenda"
     },
-    "LastStarted": "2010-06-10T15:29:30.8089848+02:00",
-    "Created": "2022-07-31T15:29:30.8089848+02:00",
-    "StartCount": 392,
-    "DatabaseSerialNumber": "705295",
-    "Context": "hic",
-    "Result": "at",
+    "LastStarted": "2001-05-15T03:51:34.1772068+02:00",
+    "Created": "2008-06-01T03:51:34.1772068+02:00",
+    "StartCount": 328,
+    "DatabaseSerialNumber": "1092006",
+    "Context": "atque",
+    "Result": "ipsam",
     "State": "All",
-    "Description": "Centralized zero tolerance open system",
-    "Response": "voluptatum",
-    "Request": "optio",
-    "ProgressDescription": "Optional local analyzer",
-    "ProgressPercent": 779,
-    "FileName": "Russel Inc and Sons",
+    "Description": "Optimized multi-state alliance",
+    "Response": "harum",
+    "Request": "consequatur",
+    "ProgressDescription": "Profit-focused 3rd generation flexibility",
+    "ProgressPercent": 43,
+    "FileName": "Rohan-Veum",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldLength": 307
       }
     }
   }

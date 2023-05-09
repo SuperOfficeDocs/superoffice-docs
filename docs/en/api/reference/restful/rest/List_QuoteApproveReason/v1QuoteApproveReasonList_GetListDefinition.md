@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 817,
-  "Name": "Rodriguez LLC",
-  "Tooltip": "esse",
+  "Id": 150,
+  "Name": "Auer LLC",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 715,
+  "Rank": 495,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptates",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 958
     }
   },
   "_Links": {

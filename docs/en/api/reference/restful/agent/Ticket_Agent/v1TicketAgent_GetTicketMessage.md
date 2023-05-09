@@ -25,7 +25,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=364
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=909
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -94,47 +94,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 524,
-  "CreatedAt": "2001-02-10T15:29:23.2242555+01:00",
+  "TicketMessageId": 928,
+  "CreatedAt": "2002-02-06T03:51:28.3964515+01:00",
   "Slevel": "External",
-  "Important": false,
-  "Author": "sit",
-  "PersonId": 230,
-  "PersonFullName": "Ms. Evans Batz DVM",
-  "ContactId": 910,
-  "ContactName": "Hodkiewicz Group",
+  "Important": true,
+  "Author": "alias",
+  "PersonId": 49,
+  "PersonFullName": "Miss Kali Johnson",
+  "ContactId": 185,
+  "ContactName": "Boyle, Cormier and Sipes",
   "ContactDepartment": "",
-  "NumAttachments": 555,
-  "EmailHeader": "giles@hammes.name",
+  "NumAttachments": 363,
+  "EmailHeader": "summer@halvorson.uk",
   "MessageHeaders": [
     {
-      "Id": 274,
-      "Name": "Wyman Group",
-      "Value": "dicta",
+      "Id": 37,
+      "Name": "Reynolds, Ratke and Reynolds",
+      "Value": "adipisci",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldType": "System.String",
+          "FieldLength": 868
         }
       }
     }
   ],
-  "Language": "quaerat",
-  "Sentiment": 797,
-  "SentimentConfidence": 43,
-  "CreatedBy": 211,
-  "ChangedAt": "1996-07-13T15:29:23.2247552+02:00",
+  "Language": "laudantium",
+  "Sentiment": 202,
+  "SentimentConfidence": 721,
+  "CreatedBy": 827,
+  "ChangedAt": "2017-12-18T03:51:28.3964515+01:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldLength": 453
     }
   }
 }

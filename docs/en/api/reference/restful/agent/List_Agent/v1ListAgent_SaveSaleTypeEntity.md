@@ -104,51 +104,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 665,
-  "Name": "Mertz, Terry and Reichert",
-  "Tooltip": "autem",
-  "Rank": 22,
+  "SaleTypeId": 381,
+  "Name": "Stracke-Trantow",
+  "Tooltip": "commodi",
+  "Rank": 699,
   "DurationUnit": "Century",
-  "SaleDuration": 308,
-  "SaleTypeCatId": 829,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 103,
+  "SaleTypeCatId": 376,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 939,
-  "QuoteLinesTemplate": 863,
-  "ConfirmationLinesTemplate": 453,
+  "DefaultQuoteValidity": 698,
+  "QuoteLinesTemplate": 110,
+  "ConfirmationLinesTemplate": 392,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 614,
-  "MinEarningPercent": 829,
-  "GroupQuoteLinesBy": 765,
-  "SortGroupLinesBy": 902,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 381,
+  "MinEarningPercent": 435,
+  "GroupQuoteLinesBy": 990,
+  "SortGroupLinesBy": 528,
   "Stages": [
     {
-      "Id": 1001,
-      "Name": "O'Kon LLC",
-      "ToolTip": "Voluptatem iusto et cum et quia iusto.",
+      "Id": 890,
+      "Name": "Brown, Rippin and Pacocha",
+      "ToolTip": "Quos exercitationem explicabo veniam corrupti vero id.",
       "Deleted": false,
-      "Rank": 858,
-      "Type": "cumque",
-      "ColorBlock": 141,
-      "IconHint": "sunt",
-      "Selected": false,
-      "LastChanged": "1996-09-26T15:29:22.1007714+02:00",
+      "Rank": 804,
+      "Type": "cum",
+      "ColorBlock": 299,
+      "IconHint": "ipsum",
+      "Selected": true,
+      "LastChanged": "2016-04-27T03:51:27.4904158+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "rerum",
-      "StyleHint": "debitis",
+      "ExtraInfo": "pariatur",
+      "StyleHint": "nam",
       "Hidden": false,
-      "FullName": "Dr. Scotty Jakubowski DVM"
+      "FullName": "Miss Elody Arlie Kreiger"
     }
   ]
 }
@@ -161,53 +161,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 177,
-  "Name": "Schiller-Anderson",
+  "SaleTypeId": 821,
+  "Name": "Dietrich-VonRueden",
   "Tooltip": "sed",
-  "Rank": 928,
+  "Rank": 167,
   "DurationUnit": "Century",
-  "SaleDuration": 146,
-  "SaleTypeCatId": 86,
+  "SaleDuration": 573,
+  "SaleTypeCatId": 155,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 163,
-  "QuoteLinesTemplate": 135,
-  "ConfirmationLinesTemplate": 46,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 754,
+  "QuoteLinesTemplate": 317,
+  "ConfirmationLinesTemplate": 941,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 796,
-  "MinEarningPercent": 846,
-  "GroupQuoteLinesBy": 564,
-  "SortGroupLinesBy": 787,
+  "MaxDiscountPercent": 594,
+  "MinEarningPercent": 413,
+  "GroupQuoteLinesBy": 813,
+  "SortGroupLinesBy": 966,
   "Stages": [
     {
-      "Id": 990,
-      "Name": "Schmidt Group",
-      "ToolTip": "Adipisci placeat sapiente.",
+      "Id": 181,
+      "Name": "Abshire, Powlowski and Ernser",
+      "ToolTip": "Est ipsa asperiores exercitationem aut ut harum.",
       "Deleted": false,
-      "Rank": 468,
-      "Type": "ut",
-      "ColorBlock": 916,
-      "IconHint": "doloribus",
+      "Rank": 120,
+      "Type": "beatae",
+      "ColorBlock": 180,
+      "IconHint": "voluptates",
       "Selected": true,
-      "LastChanged": "1999-01-22T15:29:22.1017706+01:00",
+      "LastChanged": "2020-10-07T03:51:27.4904158+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cumque",
-      "StyleHint": "aut",
-      "Hidden": true,
-      "FullName": "Bo Hayes",
+      "ExtraInfo": "aperiam",
+      "StyleHint": "eius",
+      "Hidden": false,
+      "FullName": "Mrs. Houston Zemlak",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldLength": 838
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldLength": 38
     }
   }
 }

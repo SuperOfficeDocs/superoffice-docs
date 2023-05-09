@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 203,
-  "Name": "Borer-Bechtelar",
-  "Tooltip": "ut",
+  "HeadingId": 944,
+  "Name": "Beatty-Roberts",
+  "Tooltip": "cum",
   "Deleted": false,
-  "Rank": 525,
-  "UdListDefinitionId": 536
+  "Rank": 898,
+  "UdListDefinitionId": 816
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 872,
-  "Name": "Terry LLC",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 351,
-  "UdListDefinitionId": 459,
+  "HeadingId": 683,
+  "Name": "Bergstrom LLC",
+  "Tooltip": "unde",
+  "Deleted": true,
+  "Rank": 837,
+  "UdListDefinitionId": 179,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldType": "System.Int32",
+      "FieldLength": 80
     }
   }
 }

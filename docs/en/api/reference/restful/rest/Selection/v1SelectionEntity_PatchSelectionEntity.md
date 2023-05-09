@@ -153,12 +153,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "nihil",
+    "path": "cum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nihil",
+    "path": "cum",
     "value": {}
   }
 ]
@@ -171,70 +171,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Down-sized 24/7 monitoring",
-  "Postit": "dolore",
+  "Description": "Multi-lateral systematic protocol",
+  "Postit": "quos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 41,
-  "IncludePerson": 51,
-  "MemberCount": 216,
-  "Name": "Robel-Dickinson",
-  "PostitTextId": 866,
-  "CreatedDate": "2013-01-07T15:29:30.6104922+01:00",
-  "SelectionId": 250,
-  "SoundEx": "voluptas",
-  "Source": 242,
-  "TextId": 288,
-  "UpdatedDate": "2019-07-29T15:29:30.6104922+02:00",
-  "UpdatedCount": 588,
-  "Visibility": 759,
+  "GroupIdx": 350,
+  "IncludePerson": 343,
+  "MemberCount": 810,
+  "Name": "Abshire LLC",
+  "PostitTextId": 922,
+  "CreatedDate": "2017-07-08T03:51:34.0052619+02:00",
+  "SelectionId": 988,
+  "SoundEx": "minima",
+  "Source": 504,
+  "TextId": 803,
+  "UpdatedDate": "1997-08-09T03:51:34.0052619+02:00",
+  "UpdatedCount": 353,
+  "Visibility": 824,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 472,
-  "TargetTableName": "Abernathy, Orn and Glover",
+  "CompanyUnique": false,
+  "TargetTableNumber": 90,
+  "TargetTableName": "Cummerata, Paucek and Huel",
   "Completed": false,
-  "LeftSelectionId": 321,
-  "RightSelectionId": 458,
+  "LeftSelectionId": 366,
+  "RightSelectionId": 46,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gerlach Group",
-  "ShadowProviderName": "Gleason, Paucek and Howell",
-  "ChartKey": "architecto",
-  "LastLoaded": "1999-02-24T15:29:30.6109873+01:00",
-  "LastLoadedBy": 736,
+  "MainProviderName": "Schiller, Pfannerstill and Stroman",
+  "ShadowProviderName": "Spinka Group",
+  "ChartKey": "explicabo",
+  "LastLoaded": "1996-07-31T03:51:34.0052619+02:00",
+  "LastLoadedBy": 472,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-09-19T15:29:30.6109873+02:00",
-  "LastMembershipChangeBy": 1001,
+  "LastMembershipChange": "2020-03-23T03:51:34.0052619+01:00",
+  "LastMembershipChangeBy": 263,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "beatae",
-  "MemberTabHeading": "voluptas",
-  "MailingsProviderName": "Pollich, Dare and Turcotte",
-  "DashboardTileDefinitionId": 547,
+  "MainHeading": "optio",
+  "MemberTabHeading": "consequuntur",
+  "MailingsProviderName": "Carter, Kertzmann and Schuppe",
+  "DashboardTileDefinitionId": 331,
   "VisibleFor": [
     {
-      "VisibleId": 559,
+      "VisibleId": 496,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldType": "System.String",
+          "FieldLength": 686
         }
       }
     },
     {
-      "VisibleId": 559,
+      "VisibleId": 496,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldType": "System.String",
+          "FieldLength": 686
         }
       }
     }
@@ -243,8 +243,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldType": "System.String",
+      "FieldLength": 567
     }
   },
   "_Links": {

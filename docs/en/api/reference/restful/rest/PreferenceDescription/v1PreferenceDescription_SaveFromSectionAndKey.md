@@ -101,28 +101,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 215,
-  "Section": "vel",
-  "Key": "consequatur",
-  "Name": "Rutherford Inc and Sons",
+  "PrefDescId": 849,
+  "Section": "delectus",
+  "Key": "quia",
+  "Name": "Cruickshank, Green and Lubowitz",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused scalable function",
-  "IsBuiltin": false,
-  "TableName": "Hermann Group",
-  "UserDefinedListId": 433,
-  "Rank": 758,
-  "SubGroup": "quo",
-  "MinLevel": 119,
-  "MaxValue": 91,
-  "MinValue": 769,
-  "RequiredLicense": "consectetur"
+  "Description": "Re-contextualized bandwidth-monitored benchmark",
+  "IsBuiltin": true,
+  "TableName": "Hills-Wilderman",
+  "UserDefinedListId": 711,
+  "Rank": 113,
+  "SubGroup": "dicta",
+  "MinLevel": 222,
+  "MaxValue": 970,
+  "MinValue": 598,
+  "RequiredLicense": "a"
 }
 ```
 
@@ -133,30 +133,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 583,
-  "Section": "dolor",
-  "Key": "quisquam",
-  "Name": "Halvorson, Auer and Thompson",
+  "PrefDescId": 267,
+  "Section": "nulla",
+  "Key": "labore",
+  "Name": "Reinger-Blanda",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Self-enabling well-modulated budgetary management",
+  "Description": "Synergized explicit system engine",
   "IsBuiltin": true,
-  "TableName": "McGlynn, Herman and Greenholt",
-  "UserDefinedListId": 378,
-  "Rank": 981,
-  "SubGroup": "itaque",
-  "MinLevel": 856,
-  "MaxValue": 83,
-  "MinValue": 147,
-  "RequiredLicense": "et",
+  "TableName": "Dooley Inc and Sons",
+  "UserDefinedListId": 320,
+  "Rank": 130,
+  "SubGroup": "neque",
+  "MinLevel": 465,
+  "MaxValue": 320,
+  "MinValue": 411,
+  "RequiredLicense": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldType": "System.Int32",
+      "FieldLength": 395
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 631,
-  "ErpConnectorId": 117,
-  "DisplayName": "Fisher, Hammes and Harris",
-  "DisplayDescription": "Robust demand-driven firmware",
-  "Active": true,
-  "ConnectionId": "ducimus",
-  "MostRecentTimestamp": "a",
+  "ErpConnectionId": 263,
+  "ErpConnectorId": 960,
+  "DisplayName": "Mraz, Johnston and Keeling",
+  "DisplayDescription": "Advanced radical function",
+  "Active": false,
+  "ConnectionId": "quo",
+  "MostRecentTimestamp": "vel",
   "ConfigFields": {
-    "ConfigFields1": "sunt",
-    "ConfigFields2": "alias"
+    "ConfigFields1": "consequuntur",
+    "ConfigFields2": "exercitationem"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    718,
-    553
+    114,
+    562
   ],
   "AssociateAccessIds": [
-    894,
-    595
+    110,
+    360
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 451
     }
   }
 }

@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 164
+  "CountWords": 388
 }
 ```
 
@@ -99,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Goodwin-Lubowitz",
-    "ToolTip": "Nesciunt molestias hic accusamus fugit earum.",
+    "Id": 51,
+    "Name": "Kertzmann, Buckridge and Herman",
+    "ToolTip": "Necessitatibus voluptatem.",
     "Deleted": false,
-    "Rank": 652,
-    "Type": "natus",
+    "Rank": 900,
+    "Type": "reprehenderit",
     "ChildItems": [
       {
-        "Id": 163,
-        "Name": "Runolfsson Inc and Sons",
-        "ToolTip": "Ut provident ad fuga dignissimos alias nemo ut.",
+        "Id": 932,
+        "Name": "Hessel, Rogahn and Feeney",
+        "ToolTip": "Quae velit nihil sint reiciendis aperiam nam.",
         "Deleted": true,
-        "Rank": 714,
-        "Type": "voluptatem",
+        "Rank": 925,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "culpa",
-        "ColorBlock": 621,
-        "ExtraInfo": "ea",
-        "StyleHint": "enim",
-        "FullName": "Nakia Schiller",
+        "IconHint": "dolor",
+        "ColorBlock": 661,
+        "ExtraInfo": "quos",
+        "StyleHint": "eligendi",
+        "FullName": "Janis Buckridge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 800
+            "FieldLength": 329
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 567,
-    "ExtraInfo": "mollitia",
-    "StyleHint": "quia",
-    "FullName": "Mr. Vickie Diamond Botsford",
+    "IconHint": "voluptatem",
+    "ColorBlock": 475,
+    "ExtraInfo": "quo",
+    "StyleHint": "fugit",
+    "FullName": "Dr. Hillard Dickinson V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 329
+        "FieldType": "System.Int32",
+        "FieldLength": 124
       }
     }
   }

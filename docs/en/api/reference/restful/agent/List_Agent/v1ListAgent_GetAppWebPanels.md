@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 223,
-    "Name": "Zulauf-Kris",
-    "Tooltip": "optio",
+    "WebPanelId": 728,
+    "Name": "Parker LLC",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 549,
+    "Rank": 962,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
-    "OnTravel": true,
-    "OnSalesMarketingWeb": true,
+    "OnSatellite": false,
+    "OnTravel": false,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Nader LLC",
+    "ShowInStatusBar": true,
+    "WindowName": "Nikolaus Group",
     "Url": "http://www.example.com/",
-    "ProgId": "est",
-    "Icon": 841,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "id",
+    "Icon": 831,
+    "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldLength": 85
       }
     }
   }

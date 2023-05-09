@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 972,
-  "SelectionId": 707,
-  "Restrictions": "commodi"
+  "DashboardTileId": 807,
+  "SelectionId": 123,
+  "Restrictions": "alias"
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Weimann-Mueller",
-        "DisplayTooltip": "vero",
-        "DisplayType": "voluptatem",
-        "CanOrderBy": true,
-        "Name": "Mann Inc and Sons",
+        "DisplayName": "Schultz, Bernier and McKenzie",
+        "DisplayTooltip": "doloribus",
+        "DisplayType": "dolores",
+        "CanOrderBy": false,
+        "Name": "Ullrich, Koepp and Ankunding",
         "CanRestrictBy": false,
-        "RestrictionType": "voluptatum",
-        "RestrictionListName": "Stamm Inc and Sons",
-        "IsVisible": true,
-        "ExtraInfo": "odit",
-        "Width": "perspiciatis",
-        "IconHint": "eos",
-        "HeadingIconHint": "nisi"
+        "RestrictionType": "nesciunt",
+        "RestrictionListName": "Kuhic Inc and Sons",
+        "IsVisible": false,
+        "ExtraInfo": "et",
+        "Width": "error",
+        "IconHint": "ut",
+        "HeadingIconHint": "nesciunt"
       }
     ],
     "Result": null
@@ -113,19 +113,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Weimann-Mueller",
-        "DisplayTooltip": "vero",
-        "DisplayType": "voluptatem",
-        "CanOrderBy": true,
-        "Name": "Mann Inc and Sons",
+        "DisplayName": "Schultz, Bernier and McKenzie",
+        "DisplayTooltip": "doloribus",
+        "DisplayType": "dolores",
+        "CanOrderBy": false,
+        "Name": "Ullrich, Koepp and Ankunding",
         "CanRestrictBy": false,
-        "RestrictionType": "voluptatum",
-        "RestrictionListName": "Stamm Inc and Sons",
-        "IsVisible": true,
-        "ExtraInfo": "odit",
-        "Width": "perspiciatis",
-        "IconHint": "eos",
-        "HeadingIconHint": "nisi"
+        "RestrictionType": "nesciunt",
+        "RestrictionListName": "Kuhic Inc and Sons",
+        "IsVisible": false,
+        "ExtraInfo": "et",
+        "Width": "error",
+        "IconHint": "ut",
+        "HeadingIconHint": "nesciunt"
       }
     ],
     "Result": null

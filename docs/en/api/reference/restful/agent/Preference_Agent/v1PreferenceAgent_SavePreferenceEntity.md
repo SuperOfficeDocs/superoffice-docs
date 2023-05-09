@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "debitis",
+  "RawValue": "inventore",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "ut",
+  "DisplayValue": "placeat",
+  "DisplayTooltip": "voluptas",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 212,
-  "PrefDescId": 820,
-  "TableName": "Goyette Group",
-  "UserPreferenceId": 756,
+  "TargetId": 872,
+  "PrefDescId": 231,
+  "TableName": "Bruen, Feil and Price",
+  "UserPreferenceId": 267,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 363
     }
   }
 }

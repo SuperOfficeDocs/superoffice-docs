@@ -76,25 +76,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 865,
+  "SelectionId": 327,
   "Criteria": [
     {
-      "Name": "Walker Inc and Sons",
-      "Description": "Monitored full-range analyzer",
-      "Rank": 548,
+      "Name": "Grady Group",
+      "Description": "Progressive national product",
+      "Rank": 121,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Walker Inc and Sons",
-      "Description": "Monitored full-range analyzer",
-      "Rank": 548,
+      "Name": "Grady Group",
+      "Description": "Progressive national product",
+      "Rank": 121,
       "Restrictions": [
         {},
         {}
@@ -112,20 +112,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Osinski-Douglas",
-    "Description": "Ameliorated cohesive Graphical User Interface",
-    "Rank": 416,
+    "Name": "Nienow, Heller and Bins",
+    "Description": "Managed bifurcated leverage",
+    "Rank": 688,
     "Restrictions": [
       {
-        "Name": "Reilly, Willms and Grant",
-        "Operator": "odio",
+        "Name": "Stark Group",
+        "Operator": "sit",
         "Values": [
-          "non",
-          "eligendi"
+          "quam",
+          "aspernatur"
         ],
         "DisplayValues": [
-          "sit",
-          "quam"
+          "autem",
+          "adipisci"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -133,27 +133,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 480,
+        "InterParenthesis": 738,
         "InterOperator": "And",
-        "UniqueHash": 421
+        "UniqueHash": 741
       }
     ]
   },
   {
-    "Name": "Osinski-Douglas",
-    "Description": "Ameliorated cohesive Graphical User Interface",
-    "Rank": 416,
+    "Name": "Nienow, Heller and Bins",
+    "Description": "Managed bifurcated leverage",
+    "Rank": 688,
     "Restrictions": [
       {
-        "Name": "Reilly, Willms and Grant",
-        "Operator": "odio",
+        "Name": "Stark Group",
+        "Operator": "sit",
         "Values": [
-          "non",
-          "eligendi"
+          "quam",
+          "aspernatur"
         ],
         "DisplayValues": [
-          "sit",
-          "quam"
+          "autem",
+          "adipisci"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -161,9 +161,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 480,
+        "InterParenthesis": 738,
         "InterOperator": "And",
-        "UniqueHash": 421
+        "UniqueHash": 741
       }
     ]
   }

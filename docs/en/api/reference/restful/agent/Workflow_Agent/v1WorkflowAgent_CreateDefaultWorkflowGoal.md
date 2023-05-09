@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,23 +69,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 207,
-  "WorkflowId": 28,
+  "WorkflowGoalId": 752,
+  "WorkflowId": 705,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Boyer Inc and Sons",
-      "Description": "Upgradable zero tolerance interface",
-      "Rank": 674,
+      "Name": "Buckridge-Pollich",
+      "Description": "Integrated mission-critical extranet",
+      "Rank": 780,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Boyer Inc and Sons",
-      "Description": "Upgradable zero tolerance interface",
-      "Rank": 674,
+      "Name": "Buckridge-Pollich",
+      "Description": "Integrated mission-critical extranet",
+      "Rank": 780,
       "Restrictions": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldType": "System.String",
+      "FieldLength": 675
     }
   }
 }

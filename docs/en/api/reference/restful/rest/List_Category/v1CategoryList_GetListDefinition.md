@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 74,
-  "Name": "Streich-Considine",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "Rank": 985,
+  "Id": 212,
+  "Name": "Jerde, Bailey and Schroeder",
+  "Tooltip": "blanditiis",
+  "Deleted": true,
+  "Rank": 955,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "inventore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "illum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldLength": 631
     }
   },
   "_Links": {

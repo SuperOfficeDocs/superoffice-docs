@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 492,
-  "PrefValue": "excepturi"
+  "PrefDescId": 975,
+  "PrefValue": "exercitationem"
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 71,
-  "PrefDescId": 909,
-  "PrefValue": "maxime",
-  "PrefShowValue": "ipsam",
-  "Description": "Front-line bi-directional database",
+  "PrefDescLineId": 762,
+  "PrefDescId": 629,
+  "PrefValue": "fuga",
+  "PrefShowValue": "ut",
+  "Description": "Focused web-enabled framework",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 932
     }
   }
 }

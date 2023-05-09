@@ -70,7 +70,7 @@ OK
 GET /api/v1/Sale/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Jacobi Inc and Sons",
-  "DisplayName": "Green LLC",
-  "Description": "Pre-emptive full-range solution",
-  "ShortLabel": "reprehenderit",
-  "HideLabel": true,
-  "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": true,
+  "FieldName": "Hagenes, Robel and Metz",
+  "DisplayName": "Paucek, Beahan and Rodriguez",
+  "Description": "Function-based motivating support",
+  "ShortLabel": "expedita",
+  "HideLabel": false,
+  "HideField": true,
+  "IsIndexed": true,
+  "IsMandatory": false,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 209,
-  "TemplateVariableName": "Gutmann-Torp"
+  "Rank": 455,
+  "TemplateVariableName": "Brakus Inc and Sons"
 }
 ```

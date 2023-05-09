@@ -83,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 910,
-  "After": 130
+  "ChatSessionId": 261,
+  "After": 606
 }
 ```
 
@@ -96,15 +96,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 80,
-    "ChatSessionId": 246,
+    "ChatMessageId": 899,
+    "ChatSessionId": 925,
     "Type": "Invalid",
-    "Message": "incidunt",
-    "Author": "alias",
-    "ReadByCustomer": 528,
+    "Message": "recusandae",
+    "Author": "deserunt",
+    "ReadByCustomer": 221,
     "SpecialType": "Block",
-    "SpecialParam": "illum",
-    "WhenPosted": "2007-03-20T15:29:20.9967869+01:00"
+    "SpecialParam": "quasi",
+    "WhenPosted": "2016-04-16T03:51:26.7562093+02:00"
   }
 ]
 ```

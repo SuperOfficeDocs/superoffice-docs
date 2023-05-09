@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Schmidt Group",
-    "ToolTip": "Corporis molestiae voluptatem et.",
+    "Id": 668,
+    "Name": "Volkman-Haag",
+    "ToolTip": "Rem molestias dolores est alias iste.",
     "Deleted": false,
-    "Rank": 457,
-    "Type": "autem",
-    "ColorBlock": 453,
-    "IconHint": "cumque",
-    "Selected": false,
-    "LastChanged": "2001-09-02T15:29:31.329981+02:00",
+    "Rank": 707,
+    "Type": "quaerat",
+    "ColorBlock": 837,
+    "IconHint": "eius",
+    "Selected": true,
+    "LastChanged": "1996-09-24T03:51:34.7395889+02:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Hills-Cummerata",
-        "ToolTip": "Ducimus architecto occaecati.",
-        "Deleted": false,
-        "Rank": 560,
-        "Type": "dolor",
-        "ColorBlock": 707,
-        "IconHint": "nostrum",
-        "Selected": true,
-        "LastChanged": "2018-01-10T15:29:31.329981+01:00",
+        "Id": 502,
+        "Name": "O'Conner, Denesik and Connelly",
+        "ToolTip": "Accusantium possimus excepturi quasi et.",
+        "Deleted": true,
+        "Rank": 909,
+        "Type": "voluptas",
+        "ColorBlock": 439,
+        "IconHint": "tenetur",
+        "Selected": false,
+        "LastChanged": "2014-01-17T03:51:34.7395889+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "cumque",
+        "ExtraInfo": "dolores",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Marlin Kovacek"
+        "FullName": "Muhammad Kuhlman"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "tempora",
-    "Hidden": true,
-    "FullName": "Jevon Wunsch III"
+    "ExtraInfo": "deserunt",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Colleen Renner"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Walker-Lesch",
-    "ToolTip": "Libero voluptates quia consequatur consequatur omnis assumenda.",
-    "Deleted": false,
-    "Rank": 481,
-    "Type": "ut",
-    "ColorBlock": 58,
-    "IconHint": "corporis",
+    "Id": 862,
+    "Name": "Orn Group",
+    "ToolTip": "Sed neque.",
+    "Deleted": true,
+    "Rank": 943,
+    "Type": "aut",
+    "ColorBlock": 297,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2019-03-04T15:29:31.3314772+01:00",
+    "LastChanged": "2002-10-09T03:51:34.7395889+02:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Ledner, Corwin and Spinka",
-        "ToolTip": "Id repellat quae aliquam voluptatibus aperiam velit.",
+        "Id": 132,
+        "Name": "Walsh Inc and Sons",
+        "ToolTip": "Facere ipsam atque soluta in minima veritatis autem.",
         "Deleted": false,
-        "Rank": 453,
-        "Type": "fugit",
-        "ColorBlock": 862,
-        "IconHint": "veritatis",
-        "Selected": false,
-        "LastChanged": "2016-06-21T15:29:31.3314772+02:00",
+        "Rank": 305,
+        "Type": "iusto",
+        "ColorBlock": 762,
+        "IconHint": "corporis",
+        "Selected": true,
+        "LastChanged": "2006-12-16T03:51:34.7395889+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "error",
+        "StyleHint": "enim",
         "Hidden": true,
-        "FullName": "Burnice Will",
+        "FullName": "Deshaun Herzog",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 840
+            "FieldType": "System.String",
+            "FieldLength": 113
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Dr. Tod Adelle Erdman PhD",
+    "ExtraInfo": "maxime",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Serenity Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 399
+        "FieldLength": 988
       }
     }
   }

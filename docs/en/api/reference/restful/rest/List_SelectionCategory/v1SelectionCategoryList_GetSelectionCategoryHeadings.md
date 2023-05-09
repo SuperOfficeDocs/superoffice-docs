@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 862,
-    "Name": "Russel-Keebler",
-    "Tooltip": "vero",
+    "HeadingId": 43,
+    "Name": "Thompson, Kautzer and Bosco",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 418,
-    "UdListDefinitionId": 474,
+    "Rank": 255,
+    "UdListDefinitionId": 135,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldType": "System.String",
+        "FieldLength": 336
       }
     }
   }

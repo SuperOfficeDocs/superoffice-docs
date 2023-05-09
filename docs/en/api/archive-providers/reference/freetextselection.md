@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FreetextSelection"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -98,7 +98,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSelection?$select=selectionAssociate/mrMrs,selectionAssociate/isActive,selectionAssociate/isActiveText
+GET /api/v1/archive/FreetextSelection?$select=lastLoadedBy,selectionAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -114,29 +114,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "O'Hara, Murray and McGlynn",
-  "Comment": "nisi",
-  "StakeholderRoleId": 95,
-  "CountryId": 200,
-  "PersonId": 941,
-  "EmailDescription": "jimmie@blanda.name",
-  "EmailId": 306,
-  "EmailAddress": "kariane@haagkautzer.com",
-  "PhoneId": 179,
-  "ContactName": "Bailey Inc and Sons",
-  "ContactId": 791,
-  "SaleId": 950,
-  "Mrmrs": "quos",
-  "Firstname": "Ivy",
-  "MiddleName": "Stoltenberg-Goodwin",
-  "Lastname": "Wolff",
-  "SaleStakeholderId": 716,
-  "Rank": 84,
-  "Phone": "395.225.2463 x429"
+  "StakeholderRoleName": "Murphy Inc and Sons",
+  "Comment": "optio",
+  "StakeholderRoleId": 670,
+  "CountryId": 477,
+  "PersonId": 939,
+  "EmailDescription": "myron_kohler@hirthe.co.uk",
+  "EmailId": 59,
+  "EmailAddress": "benjamin.willms@olson.name",
+  "PhoneId": 196,
+  "ContactName": "Gibson-Kreiger",
+  "ContactId": 556,
+  "SaleId": 289,
+  "Mrmrs": "ut",
+  "Firstname": "Celia",
+  "MiddleName": "Cummerata-Predovic",
+  "Lastname": "Reichert",
+  "SaleStakeholderId": 762,
+  "Rank": 546,
+  "Phone": "(553)148-3914"
 }
 ```
 
@@ -147,31 +147,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Reichel Group",
-  "Comment": "soluta",
-  "StakeholderRoleId": 530,
-  "CountryId": 468,
-  "PersonId": 808,
-  "EmailDescription": "rhea_pacocha@klein.name",
-  "EmailId": 601,
-  "EmailAddress": "liam_stracke@bode.name",
-  "PhoneId": 68,
-  "ContactName": "Morissette LLC",
-  "ContactId": 805,
-  "SaleId": 349,
-  "Mrmrs": "quam",
-  "Firstname": "Brandt",
-  "MiddleName": "Berge-Kautzer",
-  "Lastname": "Aufderhar",
-  "SaleStakeholderId": 858,
-  "Rank": 506,
-  "Phone": "589.441.8503 x3771",
+  "StakeholderRoleName": "Bernier, Goodwin and Connelly",
+  "Comment": "ut",
+  "StakeholderRoleId": 227,
+  "CountryId": 688,
+  "PersonId": 649,
+  "EmailDescription": "emmanuel@yost.us",
+  "EmailId": 364,
+  "EmailAddress": "roxanne@runolfsdottirbatz.name",
+  "PhoneId": 310,
+  "ContactName": "Waters Inc and Sons",
+  "ContactId": 822,
+  "SaleId": 659,
+  "Mrmrs": "cumque",
+  "Firstname": "Salvador",
+  "MiddleName": "Dibbert LLC",
+  "Lastname": "Haley",
+  "SaleStakeholderId": 456,
+  "Rank": 903,
+  "Phone": "1-995-568-7807 x0242",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 618
+      "FieldType": "System.String",
+      "FieldLength": 766
     }
   },
   "_Links": {

@@ -92,28 +92,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 831,
-  "ListItemId": 62,
+  "UdListDefinitionId": 313,
+  "ListItemId": 162,
   "UserGroups": [
     {
-      "Id": 436,
-      "Name": "Nikolaus-Rempel",
-      "ToolTip": "Harum reprehenderit velit blanditiis in quasi commodi excepturi.",
-      "Deleted": true,
-      "Rank": 185,
-      "Type": "et",
-      "ColorBlock": 557,
-      "IconHint": "voluptas",
-      "Selected": true,
-      "LastChanged": "2013-03-23T15:29:22.0097725+01:00",
+      "Id": 425,
+      "Name": "Ebert-Schmidt",
+      "ToolTip": "Nesciunt quisquam omnis.",
+      "Deleted": false,
+      "Rank": 295,
+      "Type": "est",
+      "ColorBlock": 109,
+      "IconHint": "nam",
+      "Selected": false,
+      "LastChanged": "2018-02-05T03:51:27.4123074+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "suscipit",
-      "StyleHint": "labore",
+      "ExtraInfo": "quis",
+      "StyleHint": "omnis",
       "Hidden": false,
-      "FullName": "Mitchell Conn"
+      "FullName": "Elfrieda Dana Crooks Jr."
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 712,
-    "Name": "Osinski, Kirlin and Bergstrom",
-    "ToolTip": "Voluptatibus laboriosam qui odit natus sunt.",
-    "Deleted": true,
-    "Rank": 548,
-    "Type": "qui",
-    "ColorBlock": 556,
-    "IconHint": "aperiam",
+    "Id": 342,
+    "Name": "Beier-Sawayn",
+    "ToolTip": "Qui ullam quam quia ad ullam.",
+    "Deleted": false,
+    "Rank": 384,
+    "Type": "aut",
+    "ColorBlock": 850,
+    "IconHint": "tenetur",
     "Selected": false,
-    "LastChanged": "2021-02-16T15:29:22.0112727+01:00",
+    "LastChanged": "2004-07-22T03:51:27.4123074+02:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Rogahn Inc and Sons",
-        "ToolTip": "Laudantium eos ipsa possimus optio enim porro.",
-        "Deleted": true,
-        "Rank": 98,
-        "Type": "error",
-        "ColorBlock": 549,
-        "IconHint": "quia",
+        "Id": 394,
+        "Name": "Leffler, Roberts and Lehner",
+        "ToolTip": "Inventore quia quibusdam omnis expedita repudiandae incidunt dicta.",
+        "Deleted": false,
+        "Rank": 114,
+        "Type": "occaecati",
+        "ColorBlock": 592,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2015-08-15T15:29:22.0112727+02:00",
+        "LastChanged": "2019-06-22T03:51:27.4123074+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "odio",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "natus",
         "Hidden": true,
-        "FullName": "Ima Price",
+        "FullName": "Korey Alva Mitchell DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 371
+            "FieldType": "System.Int32",
+            "FieldLength": 376
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Carlo Konopelski",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Wilford Hailey Jacobi Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldLength": 720
       }
     }
   }

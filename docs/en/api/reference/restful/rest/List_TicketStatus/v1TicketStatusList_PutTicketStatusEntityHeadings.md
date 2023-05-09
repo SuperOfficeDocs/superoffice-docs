@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 123,
-    "Name": "Bode, Kilback and Turner",
-    "Tooltip": "laudantium",
-    "Deleted": false,
-    "Rank": 800,
-    "UdListDefinitionId": 726
+    "HeadingId": 348,
+    "Name": "Nader LLC",
+    "Tooltip": "explicabo",
+    "Deleted": true,
+    "Rank": 267,
+    "UdListDefinitionId": 167
   },
   {
-    "HeadingId": 123,
-    "Name": "Bode, Kilback and Turner",
-    "Tooltip": "laudantium",
-    "Deleted": false,
-    "Rank": 800,
-    "UdListDefinitionId": 726
+    "HeadingId": 348,
+    "Name": "Nader LLC",
+    "Tooltip": "explicabo",
+    "Deleted": true,
+    "Rank": 267,
+    "UdListDefinitionId": 167
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 126,
-    "Name": "Bernhard, Schaden and Flatley",
-    "Tooltip": "magni",
+    "HeadingId": 244,
+    "Name": "Pollich Group",
+    "Tooltip": "enim",
     "Deleted": false,
-    "Rank": 122,
-    "UdListDefinitionId": 233,
+    "Rank": 588,
+    "UdListDefinitionId": 425,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 899
+        "FieldType": "System.Int32",
+        "FieldLength": 601
       }
     }
   }

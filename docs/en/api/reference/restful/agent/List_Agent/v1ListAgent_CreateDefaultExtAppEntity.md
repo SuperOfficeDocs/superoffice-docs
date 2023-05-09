@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 20,
-  "Name": "Veum Group",
-  "Tooltip": "harum",
+  "ExtAppId": 832,
+  "Name": "Bergstrom, Volkman and Hettinger",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 388,
-  "Filename": "quia",
-  "Parameters": "laudantium",
-  "Workdir": "ipsam",
+  "Rank": 822,
+  "Filename": "in",
+  "Parameters": "dignissimos",
+  "Workdir": "autem",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 911,
-  "WaitToFinish": false,
+  "Icon": 354,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "soluta",
+  "Path": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 989
+      "FieldType": "System.Int32",
+      "FieldLength": 198
     }
   }
 }

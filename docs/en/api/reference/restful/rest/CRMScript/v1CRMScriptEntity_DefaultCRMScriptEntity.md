@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 755,
+  "EjscriptId": 334,
   "UniqueIdentifier": "ducimus",
-  "Name": "Heller, Stoltenberg and Lesch",
-  "Description": "Integrated multi-tasking superstructure",
-  "IncludeId": "in",
-  "HierarchyId": 23,
-  "Source": "ut",
-  "Registered": "2008-10-05T15:29:29.6187011+02:00",
-  "RegisteredAssociateId": 689,
-  "Updated": "2002-04-01T15:29:29.6187011+02:00",
-  "UpdatedAssociateId": 578,
+  "Name": "Dach-Blanda",
+  "Description": "Profound client-driven intranet",
+  "IncludeId": "et",
+  "HierarchyId": 603,
+  "Source": "iste",
+  "Registered": "1996-02-21T03:51:33.5678642+01:00",
+  "RegisteredAssociateId": 783,
+  "Updated": "2002-08-24T03:51:33.5678642+02:00",
+  "UpdatedAssociateId": 175,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 385
     }
   }
 }

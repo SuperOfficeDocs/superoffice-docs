@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 569,
-  "Name": "Homenick-Kuhlman",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 683,
-  "IsCustomList": true,
+  "Id": 123,
+  "Name": "Hintz-Padberg",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "Rank": 658,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "sunt",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 207,
-  "Name": "Bogan, Muller and Dare",
-  "Tooltip": "modi",
+  "Id": 282,
+  "Name": "Pacocha, Feil and Gottlieb",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "Rank": 146,
+  "Rank": 725,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptate",
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 156
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   }
 }

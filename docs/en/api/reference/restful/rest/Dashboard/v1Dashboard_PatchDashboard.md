@@ -117,12 +117,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "laudantium",
+    "path": "nostrum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "laudantium",
+    "path": "nostrum",
     "value": {}
   }
 ]
@@ -135,22 +135,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 491,
-  "AssociateId": 163,
-  "Caption": "sapiente",
+  "DashboardId": 731,
+  "AssociateId": 585,
+  "Caption": "facilis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 745,
-      "Caption": "laudantium",
-      "Description": "Open-architected responsive secured line",
-      "ChartName": "Spinka-Heidenreich",
-      "ChartId": "repellendus",
-      "IsDefault": false,
-      "AssociateId": 901,
-      "GroupId": 719,
-      "SelectionId": 891,
-      "Config": "aut",
+      "DashboardTileId": 984,
+      "Caption": "reprehenderit",
+      "Description": "Operative solution-oriented emulation",
+      "ChartName": "Heaney-Shanahan",
+      "ChartId": "necessitatibus",
+      "IsDefault": true,
+      "AssociateId": 326,
+      "GroupId": 476,
+      "SelectionId": 187,
+      "Config": "iusto",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 907
+          "FieldLength": 657
         }
       }
     }
@@ -175,8 +175,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 187
+      "FieldType": "System.Int32",
+      "FieldLength": 926
     }
   },
   "_Links": {

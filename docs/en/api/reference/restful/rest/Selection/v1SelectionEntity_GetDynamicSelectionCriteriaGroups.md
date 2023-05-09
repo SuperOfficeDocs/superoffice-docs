@@ -72,20 +72,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Haley-Mosciski",
-    "Description": "Open-source content-based process improvement",
-    "Rank": 431,
+    "Name": "Hickle LLC",
+    "Description": "Universal reciprocal concept",
+    "Rank": 463,
     "Restrictions": [
       {
-        "Name": "Bogisich-Wiegand",
-        "Operator": "fugiat",
+        "Name": "Zemlak-Grady",
+        "Operator": "voluptates",
         "Values": [
-          "provident",
-          "impedit"
+          "sit",
+          "placeat"
         ],
         "DisplayValues": [
-          "sit",
-          "magni"
+          "sapiente",
+          "voluptatibus"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -93,27 +93,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 904,
+        "InterParenthesis": 846,
         "InterOperator": "And",
-        "UniqueHash": 290
+        "UniqueHash": 724
       }
     ]
   },
   {
-    "Name": "Haley-Mosciski",
-    "Description": "Open-source content-based process improvement",
-    "Rank": 431,
+    "Name": "Hickle LLC",
+    "Description": "Universal reciprocal concept",
+    "Rank": 463,
     "Restrictions": [
       {
-        "Name": "Bogisich-Wiegand",
-        "Operator": "fugiat",
+        "Name": "Zemlak-Grady",
+        "Operator": "voluptates",
         "Values": [
-          "provident",
-          "impedit"
+          "sit",
+          "placeat"
         ],
         "DisplayValues": [
-          "sit",
-          "magni"
+          "sapiente",
+          "voluptatibus"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -121,9 +121,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 904,
+        "InterParenthesis": 846,
         "InterOperator": "And",
-        "UniqueHash": 290
+        "UniqueHash": 724
       }
     ]
   }

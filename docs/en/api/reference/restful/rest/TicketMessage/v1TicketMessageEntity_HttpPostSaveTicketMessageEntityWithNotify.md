@@ -126,62 +126,62 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 218,
+  "EjMessageId": 404,
   "Ticket": null,
-  "CreatedAt": "2003-11-03T15:29:30.7529852+01:00",
+  "CreatedAt": "2013-02-24T03:51:34.1303414+01:00",
   "CreatedBy": null,
-  "Author": "ducimus",
+  "Author": "corporis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sit",
-  "TimeSpent": 272,
-  "Body": "voluptatibus",
-  "HtmlBody": "nostrum",
-  "EmailHeader": "belle.altenwerth@windlerondricka.info",
-  "DebugInfo": "veritatis",
-  "MailSorter": "voluptatibus",
+  "MessageId": "veritatis",
+  "TimeSpent": 75,
+  "Body": "quibusdam",
+  "HtmlBody": "repudiandae",
+  "EmailHeader": "leopoldo.swift@quitzon.us",
+  "DebugInfo": "cumque",
+  "MailSorter": "vel",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "architecto",
+  "SearchTitle": "temporibus",
   "MessageHeaders": [
     {
-      "Id": 961,
-      "Name": "Witting, Gottlieb and Brekke",
-      "Value": "quae",
+      "Id": 455,
+      "Name": "Cassin, Gutkowski and Davis",
+      "Value": "praesentium",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 961,
-      "Name": "Witting, Gottlieb and Brekke",
-      "Value": "quae",
+      "Id": 455,
+      "Name": "Cassin, Gutkowski and Davis",
+      "Value": "praesentium",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "ut",
-  "Sentiment": 828,
-  "SentimentConfidence": 821,
+  "Language": "voluptatem",
+  "Sentiment": 449,
+  "SentimentConfidence": 269,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 667,
-      "Name": "Keeling Group",
-      "ContentType": "labore",
-      "AttSize": 920,
-      "InlineImage": true,
-      "ContentId": "aut",
-      "AuthKey": "ab"
+      "AttachmentId": 814,
+      "Name": "Pfeffer-Gaylord",
+      "ContentType": "rem",
+      "AttSize": 127,
+      "InlineImage": false,
+      "ContentId": "quia",
+      "AuthKey": "in"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "aspernatur"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "eligendi"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "similique"
+    "CustomFields1": "consectetur",
+    "CustomFields2": "est"
   }
 }
 ```
@@ -193,78 +193,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 973,
+  "EjMessageId": 6,
   "Ticket": null,
-  "CreatedAt": "2002-11-12T15:29:30.7599859+01:00",
+  "CreatedAt": "2001-10-24T03:51:34.1303414+02:00",
   "CreatedBy": null,
   "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptatem",
-  "TimeSpent": 525,
-  "Body": "officia",
-  "HtmlBody": "esse",
-  "EmailHeader": "aileen@olsonraynor.info",
-  "DebugInfo": "voluptas",
-  "MailSorter": "voluptate",
+  "MessageId": "amet",
+  "TimeSpent": 91,
+  "Body": "consequatur",
+  "HtmlBody": "illo",
+  "EmailHeader": "caleb@purdyhodkiewicz.info",
+  "DebugInfo": "saepe",
+  "MailSorter": "blanditiis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "laboriosam",
   "MessageHeaders": [
     {
-      "Id": 198,
-      "Name": "Beatty Group",
-      "Value": "sunt",
+      "Id": 443,
+      "Name": "Russel Inc and Sons",
+      "Value": "ex",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldType": "System.String",
+          "FieldLength": 996
         }
       }
     }
   ],
   "Important": false,
-  "Language": "dolor",
-  "Sentiment": 834,
-  "SentimentConfidence": 738,
+  "Language": "non",
+  "Sentiment": 496,
+  "SentimentConfidence": 516,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 505,
-      "Name": "Dibbert LLC",
-      "ContentType": "tenetur",
-      "AttSize": 544,
-      "InlineImage": false,
-      "ContentId": "odio",
-      "AuthKey": "nostrum",
+      "AttachmentId": 42,
+      "Name": "Bernhard Inc and Sons",
+      "ContentType": "deserunt",
+      "AttSize": 234,
+      "InlineImage": true,
+      "ContentId": "ab",
+      "AuthKey": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 367
+          "FieldLength": 242
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "recusandae",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "corrupti"
+    "CustomFields1": "voluptatum",
+    "CustomFields2": "amet"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 106
+      "FieldType": "System.Int32",
+      "FieldLength": 614
     }
   }
 }

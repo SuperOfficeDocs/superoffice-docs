@@ -89,11 +89,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 864,
-  "PrefDescId": 89,
-  "PrefValue": "ut",
-  "PrefShowValue": "velit",
-  "Description": "Expanded full-range contingency",
+  "PrefDescLineId": 590,
+  "PrefDescId": 34,
+  "PrefValue": "repudiandae",
+  "PrefShowValue": "quis",
+  "Description": "Organized non-volatile secured line",
   "IsBuiltin": false
 }
 ```
@@ -105,23 +105,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 188,
-  "PrefDescId": 57,
-  "PrefValue": "ex",
-  "PrefShowValue": "ut",
-  "Description": "Proactive client-driven ability",
-  "IsBuiltin": false,
+  "PrefDescLineId": 239,
+  "PrefDescId": 741,
+  "PrefValue": "perspiciatis",
+  "PrefShowValue": "rerum",
+  "Description": "Quality-focused context-sensitive ability",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 324
+      "FieldType": "System.Int32",
+      "FieldLength": 935
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "reiciendis",
-  "ProviderName": "Frami, Lehner and Littel",
-  "StorageKey": "porro",
-  "Context": "accusantium"
+  "StorageType": "non",
+  "ProviderName": "Williamson, Will and Heidenreich",
+  "StorageKey": "quibusdam",
+  "Context": "velit"
 }
 ```
 
@@ -95,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Morar, Schumm and Brakus",
-    "Description": "Upgradable asynchronous toolset",
-    "Rank": 495,
+    "Name": "Wintheiser, Klein and Goldner",
+    "Description": "User-friendly transitional Graphic Interface",
+    "Rank": 851,
     "Restrictions": [
       {
-        "Name": "Wyman Group",
-        "Operator": "dolores",
+        "Name": "Padberg Group",
+        "Operator": "ut",
         "Values": [
-          "minima",
-          "non"
+          "soluta",
+          "nesciunt"
         ],
         "DisplayValues": [
           "aut",
-          "quod"
+          "repellendus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -116,27 +116,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 210,
+        "InterParenthesis": 90,
         "InterOperator": "And",
-        "UniqueHash": 295
+        "UniqueHash": 749
       }
     ]
   },
   {
-    "Name": "Morar, Schumm and Brakus",
-    "Description": "Upgradable asynchronous toolset",
-    "Rank": 495,
+    "Name": "Wintheiser, Klein and Goldner",
+    "Description": "User-friendly transitional Graphic Interface",
+    "Rank": 851,
     "Restrictions": [
       {
-        "Name": "Wyman Group",
-        "Operator": "dolores",
+        "Name": "Padberg Group",
+        "Operator": "ut",
         "Values": [
-          "minima",
-          "non"
+          "soluta",
+          "nesciunt"
         ],
         "DisplayValues": [
           "aut",
-          "quod"
+          "repellendus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -144,9 +144,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 210,
+        "InterParenthesis": 90,
         "InterOperator": "And",
-        "UniqueHash": 295
+        "UniqueHash": 749
       }
     ]
   }

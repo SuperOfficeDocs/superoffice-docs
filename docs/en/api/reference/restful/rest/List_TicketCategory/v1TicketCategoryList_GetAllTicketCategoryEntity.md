@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 113,
-    "ParentId": 298,
-    "Name": "Purdy-Ankunding",
-    "Fullname": "vitae",
-    "CategoryMaster": 634,
+    "TicketCategoryId": 77,
+    "ParentId": 44,
+    "Name": "Bins LLC",
+    "Fullname": "totam",
+    "CategoryMaster": 946,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Maggio-Frami",
+    "ExternalName": "O'Kon, Baumbach and Heathcote",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 994,
-    "ReplyTemplate": 992,
-    "NotificationEmail": "clement@fritschharris.us",
+    "AssignmentLag": 109,
+    "ReplyTemplate": 76,
+    "NotificationEmail": "maybelle@hagenes.us",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 355,
+    "EffectiveReplyTemplateId": 301,
     "ExtraFields": {
-      "ExtraFields1": "facere",
-      "ExtraFields2": "est"
+      "ExtraFields1": "ut",
+      "ExtraFields2": "sint"
     },
     "CustomFields": {
-      "CustomFields1": "quo",
-      "CustomFields2": "sed"
+      "CustomFields1": "alias",
+      "CustomFields2": "vel"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 975
+        "FieldType": "System.Int32",
+        "FieldLength": 911
       }
     }
   }

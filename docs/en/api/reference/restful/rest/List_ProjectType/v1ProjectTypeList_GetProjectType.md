@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 530,
-  "Name": "Graham-Hoppe",
-  "Tooltip": "sequi",
+  "Id": 107,
+  "Name": "Moore Inc and Sons",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "UdListDefinitionId": 480,
-  "Rank": 647,
+  "UdListDefinitionId": 50,
+  "Rank": 745,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 987
     }
   }
 }

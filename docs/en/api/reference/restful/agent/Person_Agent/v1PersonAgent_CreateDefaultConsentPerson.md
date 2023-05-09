@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 520,
+  "ConsentPersonId": 54,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 884,
+  "PersonId": 353,
   "ConsentPurpose": null,
-  "Comment": "sunt",
+  "Comment": "doloribus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldLength": 490
     }
   }
 }

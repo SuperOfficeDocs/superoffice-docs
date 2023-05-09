@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Quigley, Runolfsson and Miller",
-    "Tooltip": "temporibus",
+    "Id": 837,
+    "Name": "Harber-Koelpin",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 324,
-    "Rank": 20,
+    "UdListDefinitionId": 653,
+    "Rank": 753,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 228
       }
     }
   }

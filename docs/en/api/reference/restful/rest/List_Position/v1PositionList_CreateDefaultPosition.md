@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 299,
-  "Name": "Schneider Group",
-  "Tooltip": "ipsa",
-  "Deleted": true,
-  "UdListDefinitionId": 69,
-  "Rank": 851,
+  "Id": 419,
+  "Name": "Rogahn-Gleason",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "UdListDefinitionId": 668,
+  "Rank": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 387
+      "FieldLength": 547
     }
   }
 }

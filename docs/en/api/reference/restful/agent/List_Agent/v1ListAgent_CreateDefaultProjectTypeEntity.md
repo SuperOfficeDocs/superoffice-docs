@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,41 +75,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 50,
-  "Name": "Gleason Group",
-  "Tooltip": "minus",
-  "Rank": 225,
+  "ProjTypeId": 40,
+  "Name": "Kozey, Kertzmann and Hermiston",
+  "Tooltip": "est",
+  "Rank": 651,
   "DurationUnit": "Century",
-  "ProjectDuration": 331,
+  "ProjectDuration": 327,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 97,
-      "Name": "Howe-Moen",
-      "ToolTip": "Perferendis delectus quaerat omnis vel voluptas id.",
-      "Deleted": true,
-      "Rank": 348,
-      "Type": "molestiae",
-      "ColorBlock": 417,
-      "IconHint": "ducimus",
+      "Id": 790,
+      "Name": "McCullough, Howell and Daniel",
+      "ToolTip": "Veniam id aliquam asperiores maxime laudantium excepturi.",
+      "Deleted": false,
+      "Rank": 549,
+      "Type": "dolorum",
+      "ColorBlock": 585,
+      "IconHint": "autem",
       "Selected": false,
-      "LastChanged": "2020-10-20T15:29:22.0907716+02:00",
+      "LastChanged": "2007-11-26T03:51:27.4747952+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Emelie Morar",
+      "ExtraInfo": "veritatis",
+      "StyleHint": "non",
+      "Hidden": false,
+      "FullName": "Mr. Josh Lubowitz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 927
+          "FieldType": "System.Int32",
+          "FieldLength": 455
         }
       }
     }
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldLength": 930
     }
   }
 }

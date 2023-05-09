@@ -78,7 +78,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,30 +88,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 137,
-  "Name": "Ernser Inc and Sons",
-  "Description": "Triple-buffered tertiary internet solution",
+  "ProjectId": 125,
+  "Name": "Considine, D'Amore and Runolfsson",
+  "Description": "Reduced discrete toolset",
   "URL": "http://www.example.com/",
-  "Type": "voluptatem",
-  "AssociateId": 421,
-  "AssociateFullName": "Hipolito Esperanza Wuckert DVM",
-  "TypeId": 605,
-  "Updated": "2021-07-09T15:29:29.9931602+02:00",
-  "StatusId": 440,
-  "Status": "dolores",
-  "TextId": 231,
-  "PublishTo": "2006-06-12T15:29:29.9931602+02:00",
-  "PublishFrom": "2022-01-22T15:29:29.9931602+01:00",
+  "Type": "fugiat",
+  "AssociateId": 108,
+  "AssociateFullName": "Marietta Bode",
+  "TypeId": 526,
+  "Updated": "2001-02-12T03:51:33.8490457+01:00",
+  "StatusId": 505,
+  "Status": "repudiandae",
+  "TextId": 12,
+  "PublishTo": "2022-01-09T03:51:33.8490457+01:00",
+  "PublishFrom": "2007-01-20T03:51:33.8490457+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "373790",
-  "ActiveErpLinks": 309,
+  "ProjectNumber": "1064576",
+  "ActiveErpLinks": 69,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   }
 }

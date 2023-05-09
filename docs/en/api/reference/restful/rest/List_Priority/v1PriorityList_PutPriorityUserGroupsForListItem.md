@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Littel LLC",
-    "ToolTip": "Repudiandae ea dolorem labore.",
-    "Deleted": false,
-    "Rank": 102,
-    "Type": "cupiditate",
-    "ColorBlock": 188,
-    "IconHint": "blanditiis",
-    "Selected": false,
-    "LastChanged": "2004-05-04T15:29:31.3804795+02:00",
+    "Id": 813,
+    "Name": "Ziemann, Schulist and Hahn",
+    "ToolTip": "Cupiditate sit molestiae.",
+    "Deleted": true,
+    "Rank": 599,
+    "Type": "nihil",
+    "ColorBlock": 529,
+    "IconHint": "enim",
+    "Selected": true,
+    "LastChanged": "2013-05-30T03:51:34.7864536+02:00",
     "ChildItems": [
       {
-        "Id": 861,
-        "Name": "Bergnaum-Klocko",
-        "ToolTip": "Eveniet ipsum sunt.",
-        "Deleted": false,
-        "Rank": 368,
-        "Type": "eum",
-        "ColorBlock": 84,
-        "IconHint": "sit",
+        "Id": 940,
+        "Name": "Corkery, Waters and Ondricka",
+        "ToolTip": "Incidunt maxime placeat autem blanditiis vel.",
+        "Deleted": true,
+        "Rank": 951,
+        "Type": "quo",
+        "ColorBlock": 280,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2019-08-22T15:29:31.3804795+02:00",
+        "LastChanged": "2019-08-08T03:51:34.7864536+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "rerum",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Rhiannon Greenfelder"
+        "FullName": "Dr. Vivian Dovie Quigley"
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Abner Ratke IV"
+    "FullName": "Adelbert Wolf"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Zboncak Group",
-    "ToolTip": "Maiores omnis maxime.",
-    "Deleted": true,
-    "Rank": 972,
-    "Type": "dicta",
-    "ColorBlock": 200,
-    "IconHint": "et",
+    "Id": 398,
+    "Name": "Sauer, Rath and Zemlak",
+    "ToolTip": "Eum itaque repudiandae libero quis voluptatem error libero.",
+    "Deleted": false,
+    "Rank": 208,
+    "Type": "est",
+    "ColorBlock": 925,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2017-07-22T15:29:31.3824785+02:00",
+    "LastChanged": "2000-12-05T03:51:34.7864536+01:00",
     "ChildItems": [
       {
-        "Id": 42,
-        "Name": "Orn Inc and Sons",
-        "ToolTip": "In sint.",
+        "Id": 853,
+        "Name": "Upton-Dickens",
+        "ToolTip": "Ut occaecati provident iusto officia quaerat repellendus laboriosam.",
         "Deleted": true,
-        "Rank": 927,
-        "Type": "libero",
-        "ColorBlock": 519,
-        "IconHint": "autem",
+        "Rank": 661,
+        "Type": "at",
+        "ColorBlock": 727,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2009-11-22T15:29:31.3824785+01:00",
+        "LastChanged": "2005-07-23T03:51:34.7864536+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "sed",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Lelah Emard",
+        "FullName": "Gabrielle Kertzmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 747
+            "FieldType": "System.String",
+            "FieldLength": 208
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "itaque",
+    "ExtraInfo": "et",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Dr. Felicia Edwina Wiegand",
+    "FullName": "Jarret Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 988
+        "FieldLength": 729
       }
     }
   }

@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 963,
-  "Name": "Zboncak, Parisian and Armstrong",
-  "Tooltip": "dolorum",
+  "Id": 77,
+  "Name": "Kautzer, Schuster and Mitchell",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "UdListDefinitionId": 604,
-  "Rank": 291,
+  "UdListDefinitionId": 360,
+  "Rank": 432,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldType": "System.String",
+      "FieldLength": 804
     }
   }
 }

@@ -115,31 +115,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 528,
-  "PlainMessage": "rerum",
-  "HtmlMessage": "unde",
-  "SmsMessage": "voluptas",
-  "Description": "Future-proofed discrete definition",
-  "Subject": "corporis",
-  "FolderId": 774,
-  "HeaderField": "ut",
-  "Design": "est",
+  "ShipmentMessageId": 147,
+  "PlainMessage": "iusto",
+  "HtmlMessage": "architecto",
+  "SmsMessage": "est",
+  "Description": "Centralized heuristic software",
+  "Subject": "magnam",
+  "FolderId": 677,
+  "HeaderField": "quos",
+  "Design": "magnam",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Team-oriented exuding framework",
-  "AccessKey": "necessitatibus",
-  "DocumentMessage": 875,
-  "Registered": "2010-07-26T15:29:30.6234941+02:00",
-  "RegisteredAssociateId": 473,
-  "Updated": "2010-12-14T15:29:30.6234941+01:00",
-  "UpdatedAssociateId": 27,
-  "UpdatedCount": 136
+  "LongDescription": "Realigned incremental encoding",
+  "AccessKey": "sit",
+  "DocumentMessage": 450,
+  "Registered": "2018-09-22T03:51:34.0208828+02:00",
+  "RegisteredAssociateId": 801,
+  "Updated": "2002-07-01T03:51:34.0208828+02:00",
+  "UpdatedAssociateId": 343,
+  "UpdatedCount": 401
 }
 ```
 
@@ -150,38 +150,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 119,
-  "PlainMessage": "occaecati",
-  "HtmlMessage": "a",
-  "SmsMessage": "exercitationem",
-  "Description": "Organized value-added approach",
-  "Subject": "minima",
-  "FolderId": 413,
-  "HeaderField": "cupiditate",
-  "Design": "aliquam",
+  "ShipmentMessageId": 970,
+  "PlainMessage": "non",
+  "HtmlMessage": "consectetur",
+  "SmsMessage": "veritatis",
+  "Description": "Switchable next generation archive",
+  "Subject": "ad",
+  "FolderId": 805,
+  "HeaderField": "optio",
+  "Design": "modi",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Proactive directional benchmark",
-  "AccessKey": "et",
-  "DocumentMessage": 871,
-  "Registered": "2021-01-12T15:29:30.6239884+01:00",
-  "RegisteredAssociateId": 369,
-  "Updated": "2015-06-22T15:29:30.6239884+02:00",
-  "UpdatedAssociateId": 409,
-  "UpdatedCount": 704,
+  "LongDescription": "Streamlined multimedia algorithm",
+  "AccessKey": "enim",
+  "DocumentMessage": 942,
+  "Registered": "2011-02-05T03:51:34.0208828+01:00",
+  "RegisteredAssociateId": 926,
+  "Updated": "2015-06-29T03:51:34.0208828+02:00",
+  "UpdatedAssociateId": 39,
+  "UpdatedCount": 444,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldType": "System.Int32",
+      "FieldLength": 564
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

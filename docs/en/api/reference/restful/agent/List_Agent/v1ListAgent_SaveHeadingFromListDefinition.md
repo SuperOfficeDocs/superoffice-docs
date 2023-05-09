@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 953,
+  "Id": 885,
   "Entity": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 180,
-  "Name": "Gottlieb-Feil",
-  "Tooltip": "omnis",
+  "HeadingId": 815,
+  "Name": "Kertzmann Inc and Sons",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 405,
-  "UdListDefinitionId": 737,
+  "Rank": 316,
+  "UdListDefinitionId": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldLength": 339
     }
   }
 }

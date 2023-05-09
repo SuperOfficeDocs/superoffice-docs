@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 334,
-  "IncludeNonInlineAttachmentsInfo": true
+  "TicketMessageEntityId": 763,
+  "IncludeNonInlineAttachmentsInfo": false
 }
 ```
 
@@ -114,28 +114,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 689,
+  "EjMessageId": 564,
   "Ticket": null,
-  "CreatedAt": "2012-09-11T15:29:23.2672545+02:00",
+  "CreatedAt": "2005-07-20T03:51:28.4276928+02:00",
   "CreatedBy": null,
-  "Author": "culpa",
+  "Author": "voluptate",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 288,
-  "Body": "omnis",
-  "HtmlBody": "rerum",
-  "EmailHeader": "alva@jacobson.ca",
-  "DebugInfo": "esse",
-  "MailSorter": "nam",
+  "MessageId": "aut",
+  "TimeSpent": 810,
+  "Body": "qui",
+  "HtmlBody": "molestiae",
+  "EmailHeader": "damien_toy@dietrich.biz",
+  "DebugInfo": "dolores",
+  "MailSorter": "sequi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "fuga",
   "MessageHeaders": [
     {
-      "Id": 922,
-      "Name": "Halvorson-Walker",
-      "Value": "in",
+      "Id": 201,
+      "Name": "Stracke, Sanford and Rempel",
+      "Value": "quia",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -143,49 +143,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 485
         }
       }
     }
   ],
   "Important": true,
-  "Language": "quo",
-  "Sentiment": 105,
-  "SentimentConfidence": 575,
+  "Language": "voluptatem",
+  "Sentiment": 375,
+  "SentimentConfidence": 632,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 538,
-      "Name": "Johnson, Legros and Stehr",
+      "AttachmentId": 724,
+      "Name": "Rohan-Robel",
       "ContentType": "sit",
-      "AttSize": 62,
+      "AttSize": 920,
       "InlineImage": false,
-      "ContentId": "voluptas",
-      "AuthKey": "adipisci",
+      "ContentId": "earum",
+      "AuthKey": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 784
+          "FieldType": "System.Int32",
+          "FieldLength": 595
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "temporibus",
+    "ExtraFields2": "reiciendis"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "nihil"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "suscipit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldType": "System.String",
+      "FieldLength": 998
     }
   }
 }

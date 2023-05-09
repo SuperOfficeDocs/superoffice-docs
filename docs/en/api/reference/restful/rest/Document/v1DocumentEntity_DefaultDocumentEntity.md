@@ -89,7 +89,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,91 +97,91 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 11 Jun 1997 15:29:29 G6T
+Last-Modified: Fri, 23 Apr 2010 03:51:33 G4T
 
 {
-  "DocumentId": 558,
+  "DocumentId": 507,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "tempora",
-  "Header": "distinctio",
-  "Name": "Kub Group",
-  "OurRef": "omnis",
-  "YourRef": "facilis",
-  "CreatedDate": "1999-05-10T15:29:29.6416977+02:00",
-  "UpdatedDate": "1997-06-11T15:29:29.6416977+02:00",
-  "Description": "Reactive 24/7 array",
+  "Attention": "cupiditate",
+  "Header": "blanditiis",
+  "Name": "Olson, Feeney and Schultz",
+  "OurRef": "ipsa",
+  "YourRef": "ut",
+  "CreatedDate": "2010-11-17T03:51:33.5678642+01:00",
+  "UpdatedDate": "2010-04-23T03:51:33.5678642+02:00",
+  "Description": "Stand-alone demand-driven matrices",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1997-08-27T15:29:29.6447001+02:00",
-  "ExternalRef": "explicabo",
+  "Date": "1999-03-17T03:51:33.5834858+01:00",
+  "ExternalRef": "numquam",
   "Completed": "Completed",
-  "ActiveLinks": 473,
+  "ActiveLinks": 290,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Roob, McLaughlin and Hartmann",
-      "Id": 986,
-      "Description": "Focused dedicated secured line",
-      "ExtraInfo": "nulla",
-      "LinkId": 428,
+      "EntityName": "Labadie, Jakubowski and Dibbert",
+      "Id": 734,
+      "Description": "Multi-lateral next generation encryption",
+      "ExtraInfo": "deserunt",
+      "LinkId": 13,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 319
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 816,
-  "Snum": 375,
+  "SuggestedDocumentId": 74,
+  "Snum": 741,
   "UserDefinedFields": {
-    "SuperOffice:1": "Anya Bartoletti",
+    "SuperOffice:1": "1261098797",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "beatae"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "delectus"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "quam"
   },
-  "PublishEventDate": "1996-12-28T15:29:29.6457+01:00",
-  "PublishTo": "2002-07-26T15:29:29.6457+02:00",
-  "PublishFrom": "2019-09-07T15:29:29.6457+02:00",
+  "PublishEventDate": "2000-05-02T03:51:33.5834858+02:00",
+  "PublishTo": "2004-03-19T03:51:33.5834858+01:00",
+  "PublishFrom": "2021-03-30T03:51:33.5834858+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 120,
+      "VisibleId": 519,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 129
+          "FieldType": "System.Int32",
+          "FieldLength": 729
         }
       }
     },
     {
-      "VisibleId": 120,
+      "VisibleId": 519,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 129
+          "FieldType": "System.Int32",
+          "FieldLength": 729
         }
       }
     }
@@ -190,8 +190,8 @@ Last-Modified: Wed, 11 Jun 1997 15:29:29 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldType": "System.Int32",
+      "FieldLength": 120
     }
   }
 }

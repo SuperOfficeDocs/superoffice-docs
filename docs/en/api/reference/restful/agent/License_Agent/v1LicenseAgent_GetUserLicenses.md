@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 506
+  "AssociateId": 219
 }
 ```
 
@@ -91,56 +91,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marquardt-Marvin",
-    "Description": "Total next generation Graphical User Interface",
+    "Name": "D'Amore-Lindgren",
+    "Description": "Reduced modular archive",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 949,
-        "Tooltip": "et",
+        "Unrestricted": true,
+        "Total": 283,
+        "Tooltip": "eveniet",
         "CanAssign": false,
-        "Free": 6,
-        "InUse": 479,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 987,
-        "Name": "McGlynn-Lang",
-        "Description": "Streamlined optimal function",
-        "PrerequisiteModuleName": "Collier, VonRueden and Rogahn",
-        "SortOrder": 802,
-        "ExtraFlags": 981,
+        "Free": 406,
+        "InUse": 540,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 222,
+        "Name": "Schulist, Wiza and Wisoky",
+        "Description": "Grass-roots user-facing hardware",
+        "PrerequisiteModuleName": "Abshire-Jakubowski",
+        "SortOrder": 888,
+        "ExtraFlags": 56,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 774
+            "FieldLength": 84
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 445,
-        "Tooltip": "id",
-        "CanAssign": true,
-        "Free": 795,
-        "InUse": 223,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 760,
+        "Tooltip": "tempora",
+        "CanAssign": false,
+        "Free": 815,
+        "InUse": 434,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 236,
-        "Name": "Reichert LLC",
-        "Description": "Multi-channelled stable projection",
-        "PrerequisiteModuleName": "Simonis, Crist and Botsford",
-        "SortOrder": 763,
-        "ExtraFlags": 164,
+        "ModuleLicenseId": 365,
+        "Name": "Wilkinson Inc and Sons",
+        "Description": "Adaptive mobile migration",
+        "PrerequisiteModuleName": "Wilderman, Schroeder and Prosacco",
+        "SortOrder": 279,
+        "ExtraFlags": 331,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 288
+            "FieldType": "System.Int32",
+            "FieldLength": 649
           }
         }
       }
@@ -150,61 +150,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 600
+        "FieldLength": 66
       }
     }
   },
   {
-    "Name": "Marquardt-Marvin",
-    "Description": "Total next generation Graphical User Interface",
+    "Name": "D'Amore-Lindgren",
+    "Description": "Reduced modular archive",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 949,
-        "Tooltip": "et",
+        "Unrestricted": true,
+        "Total": 283,
+        "Tooltip": "eveniet",
         "CanAssign": false,
-        "Free": 6,
-        "InUse": 479,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 987,
-        "Name": "McGlynn-Lang",
-        "Description": "Streamlined optimal function",
-        "PrerequisiteModuleName": "Collier, VonRueden and Rogahn",
-        "SortOrder": 802,
-        "ExtraFlags": 981,
+        "Free": 406,
+        "InUse": 540,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 222,
+        "Name": "Schulist, Wiza and Wisoky",
+        "Description": "Grass-roots user-facing hardware",
+        "PrerequisiteModuleName": "Abshire-Jakubowski",
+        "SortOrder": 888,
+        "ExtraFlags": 56,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 774
+            "FieldLength": 84
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 445,
-        "Tooltip": "id",
-        "CanAssign": true,
-        "Free": 795,
-        "InUse": 223,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 760,
+        "Tooltip": "tempora",
+        "CanAssign": false,
+        "Free": 815,
+        "InUse": 434,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 236,
-        "Name": "Reichert LLC",
-        "Description": "Multi-channelled stable projection",
-        "PrerequisiteModuleName": "Simonis, Crist and Botsford",
-        "SortOrder": 763,
-        "ExtraFlags": 164,
+        "ModuleLicenseId": 365,
+        "Name": "Wilkinson Inc and Sons",
+        "Description": "Adaptive mobile migration",
+        "PrerequisiteModuleName": "Wilderman, Schroeder and Prosacco",
+        "SortOrder": 279,
+        "ExtraFlags": 331,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 288
+            "FieldType": "System.Int32",
+            "FieldLength": 649
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 600
+        "FieldLength": 66
       }
     }
   }

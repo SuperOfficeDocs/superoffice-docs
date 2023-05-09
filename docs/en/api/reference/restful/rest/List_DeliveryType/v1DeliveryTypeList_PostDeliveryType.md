@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Homenick Group",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 601,
-  "Rank": 396
+  "Id": 593,
+  "Name": "Christiansen-Grady",
+  "Tooltip": "hic",
+  "Deleted": true,
+  "UdListDefinitionId": 545,
+  "Rank": 929
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 87,
-  "Name": "Nolan-Beer",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "UdListDefinitionId": 104,
-  "Rank": 354,
+  "Id": 43,
+  "Name": "Bosco, Hansen and Kuvalis",
+  "Tooltip": "nisi",
+  "Deleted": true,
+  "UdListDefinitionId": 792,
+  "Rank": 529,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 620
     }
   }
 }

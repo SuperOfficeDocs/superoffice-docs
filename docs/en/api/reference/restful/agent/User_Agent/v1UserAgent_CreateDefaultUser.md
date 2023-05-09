@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 579,
-  "Name": "Kihn, Schulist and Ullrich",
-  "Rank": 168,
-  "Tooltip": "quia",
+  "AssociateId": 828,
+  "Name": "Anderson-Ward",
+  "Rank": 804,
+  "Tooltip": "officia",
   "LicenseOwners": [
     {
-      "Name": "Toy Inc and Sons",
-      "Description": "Team-oriented heuristic contingency",
+      "Name": "Gibson Group",
+      "Description": "De-engineered static projection",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -113,14 +113,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 256
+          "FieldType": "System.String",
+          "FieldLength": 58
         }
       }
     },
     {
-      "Name": "Toy Inc and Sons",
-      "Description": "Team-oriented heuristic contingency",
+      "Name": "Gibson Group",
+      "Description": "De-engineered static projection",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 256
+          "FieldType": "System.String",
+          "FieldLength": 58
         }
       }
     }
@@ -143,110 +143,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "laboriosam",
-      "Tooltip": "enim",
-      "Id": 644,
-      "Rank": 274,
+      "Value": "consequuntur",
+      "Tooltip": "libero",
+      "Id": 23,
+      "Rank": 12,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 835
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "1998-08-18T15:29:23.3142539+02:00",
-  "Lastlogout": "2013-09-20T15:29:23.3142539+02:00",
-  "EjUserId": 499,
-  "RequestSignature": "sequi",
+  "Lastlogin": "2021-11-14T03:51:28.4589368+01:00",
+  "Lastlogout": "2001-10-02T03:51:28.4589368+02:00",
+  "EjUserId": 394,
+  "RequestSignature": "ducimus",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "voluptates",
-      "DisplayValue": "et",
+      "Value": "exercitationem",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 382
+          "FieldLength": 188
         }
       }
     },
     {
       "Type": null,
-      "Value": "voluptates",
-      "DisplayValue": "et",
+      "Value": "exercitationem",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 382
+          "FieldLength": 188
         }
       }
     }
   ],
-  "UserName": "Wolf-Wilkinson",
+  "UserName": "Borer-Schowalter",
   "TicketCategories": [
     {
-      "Id": 753,
-      "Name": "Herzog, Sauer and Brown",
-      "ToolTip": "In omnis.",
+      "Id": 958,
+      "Name": "O'Keefe-Okuneva",
+      "ToolTip": "Qui voluptates dignissimos et impedit.",
       "Deleted": false,
-      "Rank": 809,
-      "Type": "blanditiis",
+      "Rank": 474,
+      "Type": "totam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "exercitationem",
-      "ColorBlock": 637,
-      "ExtraInfo": "repellendus",
-      "StyleHint": "voluptatum",
-      "FullName": "Liza Orn",
+      "IconHint": "vel",
+      "ColorBlock": 636,
+      "ExtraInfo": "corrupti",
+      "StyleHint": "totam",
+      "FullName": "Carley Fay",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 254
+          "FieldType": "System.Int32",
+          "FieldLength": 561
         }
       }
     }
   ],
-  "NickName": "West Group",
+  "NickName": "Robel, Stanton and Mante",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "reprehenderit"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "nihil"
+    "CustomFields1": "beatae",
+    "CustomFields2": "omnis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Mraz, Gusikowski and Harber",
-      "DisplayName": "Brakus, Murray and Stamm",
-      "Description": "De-engineered eco-centric groupware",
-      "ToolTip": "Ut eveniet labore aperiam ipsa perferendis.",
+      "Name": "Bartoletti-Funk",
+      "DisplayName": "Kunde LLC",
+      "Description": "Integrated even-keeled functionalities",
+      "ToolTip": "Nostrum perferendis sunt qui.",
       "Actions": "Implicit",
-      "ActionData": "cumque",
+      "ActionData": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 523
+          "FieldLength": 442
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 529
     }
   }
 }

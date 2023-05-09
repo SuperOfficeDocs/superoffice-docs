@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project"
+  "Tablename": "contact"
 }
 ```
 
@@ -103,75 +103,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "et",
-    "ValueType": "adipisci",
-    "Mandatory": false,
-    "EncodedDisplayName": "Mueller LLC",
-    "EncodedDisplayDescription": "Balanced actuating internet solution",
-    "IconHint": "soluta",
+    "Key": "unde",
+    "ValueType": "nesciunt",
+    "Mandatory": true,
+    "EncodedDisplayName": "Fahey-Auer",
+    "EncodedDisplayDescription": "Business-focused explicit artificial intelligence",
+    "IconHint": "minima",
     "ControlInfos": [
       {
-        "Type": "ut",
-        "Label": "et",
-        "Dimension": 983,
-        "ListProviderName": "Gerlach Inc and Sons",
-        "ListProviderExtraInfo": "adipisci",
-        "ListProviderPrimaryKeyName": "Schowalter-Goodwin",
-        "ListLeadText": "perferendis",
+        "Type": "eum",
+        "Label": "modi",
+        "Dimension": 5,
+        "ListProviderName": "Donnelly, Romaguera and Schowalter",
+        "ListProviderExtraInfo": "et",
+        "ListProviderPrimaryKeyName": "Huels LLC",
+        "ListLeadText": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 526
+            "FieldType": "System.Int32",
+            "FieldLength": 708
           }
         }
       }
     ],
-    "EncodedDataCaption": "asperiores",
-    "EncodedDataCaptionDescription": "User-friendly optimizing Graphical User Interface",
-    "CurrentOperationType": "sed",
+    "EncodedDataCaption": "dolorem",
+    "EncodedDataCaptionDescription": "Managed methodical model",
+    "CurrentOperationType": "autem",
     "Values": [
-      "in",
-      "a"
+      "aperiam",
+      "earum"
     ],
     "DisplayValues": [
-      "voluptatibus",
-      "inventore"
+      "molestiae",
+      "deleniti"
     ],
     "OperationInfos": [
       {
-        "Key": "molestias",
-        "EncodedDisplayName": "Cassin LLC",
+        "Key": "cupiditate",
+        "EncodedDisplayName": "Hand-Wolff",
         "EncodedLeadTexts": [
-          "autem",
-          "sunt"
+          "quam",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 875
+            "FieldLength": 502
           }
         }
       },
       {
-        "Key": "molestias",
-        "EncodedDisplayName": "Cassin LLC",
+        "Key": "cupiditate",
+        "EncodedDisplayName": "Hand-Wolff",
         "EncodedLeadTexts": [
-          "autem",
-          "sunt"
+          "quam",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 875
+            "FieldLength": 502
           }
         }
       }

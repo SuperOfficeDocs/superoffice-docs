@@ -113,15 +113,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    316,
-    714
+    565,
+    95
   ],
-  "TargetTableNumber": 936
+  "TargetTableNumber": 424
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Focused modular installation",
-  "Postit": "molestias",
+  "Description": "Future-proofed eco-centric customer loyalty",
+  "Postit": "veritatis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 760,
-  "IncludePerson": 21,
-  "MemberCount": 994,
-  "Name": "Doyle Group",
-  "PostitTextId": 234,
-  "CreatedDate": "2005-06-14T15:29:22.9502972+02:00",
-  "SelectionId": 309,
-  "SoundEx": "maiores",
-  "Source": 154,
-  "TextId": 62,
-  "UpdatedDate": "2017-08-08T15:29:22.9502972+02:00",
-  "UpdatedCount": 666,
-  "Visibility": 71,
+  "GroupIdx": 549,
+  "IncludePerson": 775,
+  "MemberCount": 16,
+  "Name": "Waters, Schumm and Runolfsdottir",
+  "PostitTextId": 12,
+  "CreatedDate": "2013-11-30T03:51:28.1933756+01:00",
+  "SelectionId": 661,
+  "SoundEx": "eos",
+  "Source": 670,
+  "TextId": 89,
+  "UpdatedDate": "2008-02-04T03:51:28.1933756+01:00",
+  "UpdatedCount": 369,
+  "Visibility": 649,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 438,
-  "TargetTableName": "Ritchie LLC",
+  "TargetTableNumber": 308,
+  "TargetTableName": "Hirthe, Wilkinson and Bauch",
   "Completed": false,
-  "LeftSelectionId": 258,
-  "RightSelectionId": 522,
+  "LeftSelectionId": 823,
+  "RightSelectionId": 353,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wehner Inc and Sons",
-  "ShadowProviderName": "Powlowski Inc and Sons",
-  "ChartKey": "quibusdam",
-  "LastLoaded": "2019-08-24T15:29:22.9502972+02:00",
-  "LastLoadedBy": 105,
+  "MainProviderName": "Jenkins, Stanton and Pagac",
+  "ShadowProviderName": "Bosco, White and Raynor",
+  "ChartKey": "ab",
+  "LastLoaded": "2003-12-27T03:51:28.1933756+01:00",
+  "LastLoadedBy": 216,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-10-29T15:29:22.9502972+01:00",
-  "LastMembershipChangeBy": 760,
+  "LastMembershipChange": "2008-12-08T03:51:28.1933756+01:00",
+  "LastMembershipChangeBy": 159,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "rerum",
-  "MailingsProviderName": "Becker, Grant and Hoeger",
-  "DashboardTileDefinitionId": 755,
+  "MainHeading": "consequatur",
+  "MemberTabHeading": "quo",
+  "MailingsProviderName": "Lubowitz-Kutch",
+  "DashboardTileDefinitionId": 826,
   "VisibleFor": [
     {
-      "VisibleId": 179,
+      "VisibleId": 538,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 778
+          "FieldType": "System.Int32",
+          "FieldLength": 137
         }
       }
     },
     {
-      "VisibleId": 179,
+      "VisibleId": 538,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 778
+          "FieldType": "System.Int32",
+          "FieldLength": 137
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 138
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

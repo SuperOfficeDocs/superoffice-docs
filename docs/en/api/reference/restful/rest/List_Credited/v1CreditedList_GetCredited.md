@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 759,
-  "Name": "Stroman-Jones",
-  "Tooltip": "quibusdam",
+  "Id": 953,
+  "Name": "Bauch LLC",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "UdListDefinitionId": 478,
-  "Rank": 416,
+  "UdListDefinitionId": 66,
+  "Rank": 430,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldType": "System.Int32",
+      "FieldLength": 335
     }
   }
 }

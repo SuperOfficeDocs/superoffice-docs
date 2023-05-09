@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 157,
-  "Name": "Bartoletti LLC",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "UdListDefinitionId": 249,
-  "Rank": 715,
+  "Id": 483,
+  "Name": "Bode, Durgan and Konopelski",
+  "Tooltip": "officiis",
+  "Deleted": false,
+  "UdListDefinitionId": 54,
+  "Rank": 939,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldType": "System.Int32",
+      "FieldLength": 919
     }
   }
 }

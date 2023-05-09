@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jast, Brown and Lowe",
-  "EmailAddress": "santiago.mraz@handstehr.com",
-  "NumberOfContacts": 823,
-  "NumberOfPersons": 475
+  "Name": "Morar-Heathcote",
+  "EmailAddress": "mireille@jones.info",
+  "NumberOfContacts": 535,
+  "NumberOfPersons": 492
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 698,
-    "FullName": "Ms. Jarrell Kaia Ruecker",
-    "EmailAddress": "benjamin_hintz@kreiger.uk",
-    "ContactId": 196,
-    "ContactName": "Herzog LLC",
+    "PersonId": 487,
+    "FullName": "Mrs. Enola Tianna Schoen II",
+    "EmailAddress": "wade_corwin@bergstromhessel.name",
+    "ContactId": 29,
+    "ContactName": "Thompson-Ernser",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Champlin-Tillman",
+    "SortName": "Maggio-Emard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 494
       }
     }
   }

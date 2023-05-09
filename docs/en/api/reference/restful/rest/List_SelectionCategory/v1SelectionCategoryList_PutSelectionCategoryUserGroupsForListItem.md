@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Cummings-Beier",
-    "ToolTip": "Iusto et ut eligendi qui illo ea.",
-    "Deleted": false,
-    "Rank": 506,
-    "Type": "in",
-    "ColorBlock": 630,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "2000-05-07T15:29:31.6089735+02:00",
+    "Id": 921,
+    "Name": "Wisoky, Mitchell and Keeling",
+    "ToolTip": "Cum tempore tempora error enim voluptas.",
+    "Deleted": true,
+    "Rank": 140,
+    "Type": "omnis",
+    "ColorBlock": 577,
+    "IconHint": "deleniti",
+    "Selected": true,
+    "LastChanged": "1999-06-13T03:51:34.9582718+02:00",
     "ChildItems": [
       {
-        "Id": 796,
-        "Name": "Wuckert-White",
-        "ToolTip": "Necessitatibus deleniti est et rem a quia dolor.",
+        "Id": 55,
+        "Name": "Adams-Wisoky",
+        "ToolTip": "Iure quia nobis officiis architecto exercitationem ad quisquam.",
         "Deleted": false,
-        "Rank": 462,
-        "Type": "voluptatum",
-        "ColorBlock": 302,
-        "IconHint": "quae",
+        "Rank": 285,
+        "Type": "dolores",
+        "ColorBlock": 997,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2010-05-22T15:29:31.6094739+02:00",
+        "LastChanged": "2022-11-23T03:51:34.9582718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "eum",
-        "Hidden": false,
-        "FullName": "Mr. Dana Schimmel"
+        "ExtraInfo": "illum",
+        "StyleHint": "repudiandae",
+        "Hidden": true,
+        "FullName": "Alene Fadel"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Ari Becker IV"
+    "ExtraInfo": "ut",
+    "StyleHint": "ipsa",
+    "Hidden": false,
+    "FullName": "Alejandrin Heathcote"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Parisian, Ondricka and Schultz",
-    "ToolTip": "Consequuntur quaerat quia.",
+    "Id": 789,
+    "Name": "Gutkowski, Romaguera and Yost",
+    "ToolTip": "Consectetur voluptatem eligendi.",
     "Deleted": false,
-    "Rank": 29,
-    "Type": "praesentium",
-    "ColorBlock": 737,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2014-11-07T15:29:31.6109732+01:00",
+    "Rank": 328,
+    "Type": "eligendi",
+    "ColorBlock": 860,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "1998-05-08T03:51:34.9738936+02:00",
     "ChildItems": [
       {
-        "Id": 779,
-        "Name": "Gerlach-Jewess",
-        "ToolTip": "Qui temporibus in.",
-        "Deleted": true,
-        "Rank": 983,
-        "Type": "blanditiis",
-        "ColorBlock": 487,
-        "IconHint": "ea",
-        "Selected": false,
-        "LastChanged": "2012-09-16T15:29:31.6114734+02:00",
+        "Id": 115,
+        "Name": "Yost-Brakus",
+        "ToolTip": "Quia eos dolorem.",
+        "Deleted": false,
+        "Rank": 240,
+        "Type": "accusamus",
+        "ColorBlock": 675,
+        "IconHint": "aspernatur",
+        "Selected": true,
+        "LastChanged": "2020-05-11T03:51:34.9738936+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "facilis",
-        "Hidden": false,
-        "FullName": "Cruz Grady",
+        "ExtraInfo": "provident",
+        "StyleHint": "praesentium",
+        "Hidden": true,
+        "FullName": "Thaddeus Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 571
+            "FieldType": "System.Int32",
+            "FieldLength": 334
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "at",
+    "ExtraInfo": "iure",
+    "StyleHint": "illum",
     "Hidden": true,
-    "FullName": "Miss Zaria Hayley Feeney PhD",
+    "FullName": "Ms. Domenick Bartoletti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 643
+        "FieldType": "System.Int32",
+        "FieldLength": 686
       }
     }
   }

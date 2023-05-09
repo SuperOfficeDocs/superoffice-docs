@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "in",
-  "PrefKey": "aut",
+  "PrefSection": "sunt",
+  "PrefKey": "mollitia",
   "PrefLevel": "Database"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quam",
+  "RawValue": "quos",
   "Specification": null,
-  "DisplayValue": "qui",
-  "DisplayTooltip": "sit",
+  "DisplayValue": "assumenda",
+  "DisplayTooltip": "et",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 583,
-  "PrefDescId": 504,
-  "TableName": "Williamson-Dooley",
-  "UserPreferenceId": 149,
+  "TargetId": 721,
+  "PrefDescId": 655,
+  "TableName": "Walker, Paucek and Lemke",
+  "UserPreferenceId": 322,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 155
     }
   }
 }

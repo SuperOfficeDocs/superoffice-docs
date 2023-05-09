@@ -147,51 +147,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 572,
-  "ERPProductKey": "iusto",
-  "ERPPriceListKey": "ut",
-  "Name": "Ondricka, Williamson and Stanton",
-  "Description": "Diverse multi-tasking secured line",
+  "ProductId": 831,
+  "ERPProductKey": "ducimus",
+  "ERPPriceListKey": "vero",
+  "Name": "Turcotte-Stokes",
+  "Description": "Adaptive systematic core",
   "Code": "ipsum",
-  "PriceUnit": "omnis",
-  "QuantityUnit": "accusamus",
+  "PriceUnit": "sunt",
+  "QuantityUnit": "ea",
   "IsSubscription": true,
-  "SubscriptionUnit": "enim",
-  "DefaultSubscriptionQuantity": 6484.246,
-  "ItemNumber": "1304049",
+  "SubscriptionUnit": "assumenda",
+  "DefaultSubscriptionQuantity": 30359.057999999997,
+  "ItemNumber": "1598932",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "assumenda",
-  "ProductTypeKey": "laudantium",
-  "VAT": 22430.038,
-  "VATInfo": "et",
-  "UnitCost": 13824.073999999999,
-  "UnitMinimumPrice": 5424.954,
-  "UnitListPrice": 29892.092,
-  "InAssortment": true,
-  "Supplier": "ipsum",
-  "SupplierCode": "consectetur",
-  "Rights": "enim",
-  "Rule": "sint",
+  "ProductFamilyKey": "blanditiis",
+  "ProductTypeKey": "cupiditate",
+  "VAT": 4860.834,
+  "VATInfo": "voluptatum",
+  "UnitCost": 29349.91,
+  "UnitMinimumPrice": 19158.142,
+  "UnitListPrice": 3246.824,
+  "InAssortment": false,
+  "Supplier": "et",
+  "SupplierCode": "harum",
+  "Rights": "commodi",
+  "Rule": "assumenda",
   "ExtraInfo": [
     {
-      "Name": "Jaskolski, Cummerata and Kemmer",
-      "Value": "omnis",
+      "Name": "Kub, Altenwerth and Romaguera",
+      "Value": "consequatur",
       "Type": "Image"
     },
     {
-      "Name": "Jaskolski, Cummerata and Kemmer",
-      "Value": "omnis",
+      "Name": "Kub, Altenwerth and Romaguera",
+      "Value": "consequatur",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "est",
-  "ExtraField1": "possimus",
-  "ExtraField2": "dolor",
-  "ExtraField3": "iusto",
-  "ExtraField4": "repellat",
-  "ExtraField5": "sit",
-  "InStock": 21753.094
+  "RawExtraInfo": "totam",
+  "ExtraField1": "quia",
+  "ExtraField2": "animi",
+  "ExtraField3": "est",
+  "ExtraField4": "dolorum",
+  "ExtraField5": "quis",
+  "InStock": 15209.302
 }
 ```
 
@@ -202,73 +202,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 501,
-  "ERPProductKey": "voluptas",
-  "ERPPriceListKey": "deserunt",
-  "Name": "Deckow LLC",
-  "Description": "Universal systematic concept",
-  "Code": "ratione",
-  "PriceUnit": "qui",
-  "QuantityUnit": "fugiat",
-  "IsSubscription": true,
-  "SubscriptionUnit": "harum",
-  "DefaultSubscriptionQuantity": 17685.162,
-  "ItemNumber": "1205291",
+  "ProductId": 702,
+  "ERPProductKey": "totam",
+  "ERPPriceListKey": "inventore",
+  "Name": "Hickle-Vandervort",
+  "Description": "Streamlined directional strategy",
+  "Code": "non",
+  "PriceUnit": "et",
+  "QuantityUnit": "ab",
+  "IsSubscription": false,
+  "SubscriptionUnit": "expedita",
+  "DefaultSubscriptionQuantity": 10655.6,
+  "ItemNumber": "1253164",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sit",
-  "ProductTypeKey": "error",
-  "VAT": 21887.856,
-  "VATInfo": "ratione",
-  "UnitCost": 22251.399999999998,
-  "UnitMinimumPrice": 1968.152,
-  "UnitListPrice": 9079.198,
-  "InAssortment": false,
-  "Supplier": "deleniti",
-  "SupplierCode": "quasi",
-  "Rights": "excepturi",
-  "Rule": "qui",
+  "ProductFamilyKey": "ratione",
+  "ProductTypeKey": "eum",
+  "VAT": 27858.126,
+  "VATInfo": "unde",
+  "UnitCost": 7048.366,
+  "UnitMinimumPrice": 821.108,
+  "UnitListPrice": 11100.627999999999,
+  "InAssortment": true,
+  "Supplier": "quo",
+  "SupplierCode": "repellendus",
+  "Rights": "vel",
+  "Rule": "quia",
   "ExtraInfo": [
     {
-      "Name": "Schaden Inc and Sons",
-      "Value": "et",
+      "Name": "Nicolas LLC",
+      "Value": "deserunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldType": "System.String",
+          "FieldLength": 546
         }
       }
     },
     {
-      "Name": "Schaden Inc and Sons",
-      "Value": "et",
+      "Name": "Nicolas LLC",
+      "Value": "deserunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldType": "System.String",
+          "FieldLength": 546
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptatem",
-  "ExtraField1": "laboriosam",
-  "ExtraField2": "omnis",
-  "ExtraField3": "nihil",
-  "ExtraField4": "ullam",
-  "ExtraField5": "neque",
-  "InStock": 19706.592,
+  "RawExtraInfo": "consequatur",
+  "ExtraField1": "culpa",
+  "ExtraField2": "rem",
+  "ExtraField3": "blanditiis",
+  "ExtraField4": "ut",
+  "ExtraField5": "ex",
+  "InStock": 6619.008,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 134
+      "FieldType": "System.Int32",
+      "FieldLength": 320
     }
   }
 }

@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 575,
-  "LabelLayoutId": 527,
-  "Filename": "omnis",
-  "Language": "sint",
-  "FileType": "est",
+  "ReportId": 260,
+  "LabelLayoutId": 327,
+  "Filename": "fuga",
+  "Language": "ea",
+  "FileType": "voluptatem",
   "Restrictions": [
     {
-      "Name": "Vandervort, Moore and Hane",
-      "Operator": "nostrum",
+      "Name": "Schroeder LLC",
+      "Operator": "sit",
       "Values": [
-        "minus",
-        "quasi"
+        "ut",
+        "ab"
       ],
       "DisplayValues": [
-        "similique",
-        "in"
+        "dolore",
+        "repudiandae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 865,
+      "InterParenthesis": 184,
       "InterOperator": "And",
-      "UniqueHash": 434
+      "UniqueHash": 11
     }
   ]
 }
@@ -113,5 +113,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ut"
+"doloremque"
 ```

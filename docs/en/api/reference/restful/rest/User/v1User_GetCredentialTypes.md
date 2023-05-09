@@ -61,7 +61,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "explicabo",
-    "Type": "porro",
-    "Description": "Streamlined client-server intranet",
+    "DisplayType": "facilis",
+    "Type": "ex",
+    "Description": "Grass-roots context-sensitive projection",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
-    "IsUserNameSupported": true,
+    "CanCreatePerson": true,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 708
+        "FieldLength": 82
       }
     }
   }

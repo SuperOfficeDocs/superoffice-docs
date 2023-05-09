@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "AppointmenthadowSelectionCombined"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -687,7 +687,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmenthadowSelectionCombined?$select=contact/streetAddress/line1,person/lastName,person/middleName,person/supportAssociate,project/NumberOfActivitiesInPeriod
+GET /api/v1/archive/AppointmenthadowSelectionCombined?$select=contact/postAddress/city,contact/postAddress/formattedMultiLineAddress,contact/restrictionAddress/formattedAddress,contact/contactAssociate/ejStatus,person/personExtra/x_person_boolean
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

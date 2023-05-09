@@ -76,13 +76,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 417,
-  "Name": "Hartmann-Terry",
-  "Tooltip": "enim",
-  "Rank": 68,
-  "DoctmplId": 907,
-  "Header": "dolores",
-  "OurRef": "maxime",
+  "SuggestedDocumentId": 817,
+  "Name": "Muller-Dickinson",
+  "Tooltip": "animi",
+  "Rank": 49,
+  "DoctmplId": 971,
+  "Header": "illum",
+  "OurRef": "ut",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 955
+      "FieldType": "System.Int32",
+      "FieldLength": 979
     }
   }
 }

@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 264,
-    "Name": "Bergstrom-Ankunding",
-    "Tooltip": "ad",
-    "Deleted": true,
-    "Rank": 899,
-    "UdListDefinitionId": 807
+    "HeadingId": 303,
+    "Name": "Koss-Witting",
+    "Tooltip": "temporibus",
+    "Deleted": false,
+    "Rank": 620,
+    "UdListDefinitionId": 331
   },
   {
-    "HeadingId": 264,
-    "Name": "Bergstrom-Ankunding",
-    "Tooltip": "ad",
-    "Deleted": true,
-    "Rank": 899,
-    "UdListDefinitionId": 807
+    "HeadingId": 303,
+    "Name": "Koss-Witting",
+    "Tooltip": "temporibus",
+    "Deleted": false,
+    "Rank": 620,
+    "UdListDefinitionId": 331
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 747,
-    "Name": "Windler-Carter",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 839,
-    "UdListDefinitionId": 243,
+    "HeadingId": 587,
+    "Name": "Kuhlman, Breitenberg and Nikolaus",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 799,
+    "UdListDefinitionId": 680,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 245
+        "FieldType": "System.Int32",
+        "FieldLength": 930
       }
     }
   }

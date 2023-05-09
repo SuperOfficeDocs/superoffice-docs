@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 583,
-  "Name": "Berge-Bradtke",
-  "Description": "Configurable zero tolerance encoding"
+  "SourceId": 700,
+  "Name": "Jacobson LLC",
+  "Description": "Open-architected coherent application"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 399,
+  "ReportId": 36,
   "ReportCategory": "All",
-  "Description": "Devolved 3rd generation pricing structure",
+  "Description": "Sharable logistical implementation",
   "ReportLayout": "CalendarMonth",
-  "Name": "Walsh LLC",
-  "AssociateId": 648,
-  "TemplateId": 553,
-  "Published": true,
+  "Name": "Streich-Weber",
+  "AssociateId": 170,
+  "TemplateId": 127,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldType": "System.Int32",
+      "FieldLength": 350
     }
   }
 }

@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 807,
-  "SourcePersonId": 984,
-  "DestinationContactId": 633,
-  "DestinationPersonId": 766,
-  "RelationId": 648,
-  "Comment": "minus",
-  "RelationDefinitionId": 22,
-  "Reversed": 452,
-  "UpdatedDate": "2007-08-12T15:29:22.6052643+02:00",
-  "CreatedDate": "2019-12-17T15:29:22.6052643+01:00",
+  "SourceContactId": 404,
+  "SourcePersonId": 243,
+  "DestinationContactId": 386,
+  "DestinationPersonId": 893,
+  "RelationId": 847,
+  "Comment": "et",
+  "RelationDefinitionId": 141,
+  "Reversed": 633,
+  "UpdatedDate": "2020-01-15T03:51:28.0371601+01:00",
+  "CreatedDate": "1998-02-19T03:51:28.0371601+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schimmel-Kub",
-  "SourcePersonName": "Rau-Kshlerin",
-  "DestinationContactName": "Dooley-Kshlerin",
-  "DestinationPersonName": "Johnson Group",
-  "ActiveText": "totam",
-  "PassiveText": "voluptas",
+  "SourceContactName": "Lueilwitz-Bins",
+  "SourcePersonName": "Emard Group",
+  "DestinationContactName": "Jenkins LLC",
+  "DestinationPersonName": "Murphy-Greenholt",
+  "ActiveText": "et",
+  "PassiveText": "voluptates",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 589
     }
   }
 }

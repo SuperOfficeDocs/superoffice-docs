@@ -96,14 +96,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 968,
-  "StartTime": "2022-10-21T15:29:21.4897799+02:00",
-  "EndTime": "1998-09-16T15:29:21.4897799+02:00",
-  "Count": 550
+  "ProjectId": 870,
+  "StartTime": "1998-05-18T03:51:27.0217725+02:00",
+  "EndTime": "2014-03-17T03:51:27.0217725+01:00",
+  "Count": 727
 }
 ```
 
@@ -115,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 22,
-    "Attention": "eaque",
-    "Header": "est",
-    "Name": "Nolan, Feeney and Hermann",
-    "OurRef": "est",
-    "YourRef": "blanditiis",
-    "Description": "Profound incremental neural-net",
-    "DocumentTemplate": "quibusdam",
-    "IsPublished": true,
-    "PersonId": 442,
-    "PersonFullName": "Dr. Grant Shields",
-    "AssociateFullName": "Ryleigh Bruen",
-    "ContactId": 515,
-    "ContactName": "Johnson LLC",
-    "ProjectId": 596,
-    "ProjectName": "Bergstrom Inc and Sons",
-    "AssociateId": 904,
-    "Snum": 612,
-    "SaleId": 97,
-    "SaleName": "Feil Inc and Sons",
+    "DocumentId": 506,
+    "Attention": "ex",
+    "Header": "non",
+    "Name": "Morar Group",
+    "OurRef": "dolor",
+    "YourRef": "pariatur",
+    "Description": "Horizontal directional data-warehouse",
+    "DocumentTemplate": "alias",
+    "IsPublished": false,
+    "PersonId": 521,
+    "PersonFullName": "Marilyne Schinner",
+    "AssociateFullName": "Ms. Alexa Parisian III",
+    "ContactId": 729,
+    "ContactName": "Schoen Inc and Sons",
+    "ProjectId": 884,
+    "ProjectName": "Eichmann, Eichmann and Jakubowski",
+    "AssociateId": 622,
+    "Snum": 267,
+    "SaleId": 572,
+    "SaleName": "Nikolaus, Fisher and Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 12
+        "FieldType": "System.Int32",
+        "FieldLength": 727
       }
     }
   }

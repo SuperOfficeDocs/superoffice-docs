@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 372,
-  "Name": "Swaniawski Inc and Sons",
-  "Tooltip": "nostrum",
+  "HeadingId": 907,
+  "Name": "Borer-Bechtelar",
+  "Tooltip": "quae",
   "Deleted": false,
-  "Rank": 312,
-  "UdListDefinitionId": 514
+  "Rank": 77,
+  "UdListDefinitionId": 832
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 659,
-  "Name": "Gleichner-O'Keefe",
-  "Tooltip": "laudantium",
+  "HeadingId": 734,
+  "Name": "Douglas Group",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 431,
-  "UdListDefinitionId": 594,
+  "Rank": 801,
+  "UdListDefinitionId": 889,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 555
     }
   }
 }

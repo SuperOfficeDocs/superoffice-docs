@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 703,
-  "IncludeAttachments": false
+  "Id": 133,
+  "IncludeAttachments": true
 }
 ```
 
@@ -121,146 +121,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 117,
-      "ContactName": "Legros LLC",
-      "PersonId": 15,
-      "PersonName": "Carter, Feest and Smith",
-      "AssociateId": 137,
-      "Address": "et",
-      "EmailId": 88,
+      "ContactId": 737,
+      "ContactName": "Medhurst LLC",
+      "PersonId": 354,
+      "PersonName": "Fadel-Ebert",
+      "AssociateId": 645,
+      "Address": "maiores",
+      "EmailId": 788,
       "DuplicatePersonIds": [
-        405,
-        956
+        398,
+        247
       ],
-      "Name": "Mitchell LLC",
+      "Name": "Ward-Bernier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 150
+          "FieldType": "System.Int32",
+          "FieldLength": 928
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 904,
-      "ContactName": "Schinner LLC",
-      "PersonId": 57,
-      "PersonName": "Schinner, Littel and Schamberger",
-      "AssociateId": 170,
-      "Address": "quisquam",
-      "EmailId": 805,
+      "ContactId": 605,
+      "ContactName": "Hahn, Jones and Gaylord",
+      "PersonId": 501,
+      "PersonName": "McDermott Group",
+      "AssociateId": 610,
+      "Address": "labore",
+      "EmailId": 913,
       "DuplicatePersonIds": [
-        192,
-        421
+        665,
+        300
       ],
-      "Name": "Feeney-Cummings",
+      "Name": "Bailey, Lehner and Wilderman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 514
+          "FieldType": "System.String",
+          "FieldLength": 314
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 689,
-      "ContactName": "Flatley Inc and Sons",
-      "PersonId": 926,
-      "PersonName": "Bailey-Smitham",
-      "AssociateId": 799,
-      "Address": "iusto",
-      "EmailId": 797,
+      "ContactId": 482,
+      "ContactName": "Ledner-Reichel",
+      "PersonId": 586,
+      "PersonName": "Auer Group",
+      "AssociateId": 519,
+      "Address": "tempora",
+      "EmailId": 909,
       "DuplicatePersonIds": [
-        695,
-        14
+        639,
+        753
       ],
-      "Name": "Mante, Schowalter and Hirthe",
+      "Name": "Ryan-Abernathy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 831
+          "FieldType": "System.String",
+          "FieldLength": 733
         }
       }
     }
   ],
-  "Subject": "sed",
-  "HTMLBody": "vitae",
+  "Subject": "distinctio",
+  "HTMLBody": "labore",
   "From": null,
-  "Sent": "2003-04-16T15:29:21.8252744+02:00",
-  "Size": 82,
+  "Sent": "2020-02-27T03:51:27.2717144+01:00",
+  "Size": 425,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "unde",
-  "PlainBody": "odio",
+  "MessageID": "pariatur",
+  "PlainBody": "quia",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 379,
+  "ServerId": 746,
   "Attachments": [
     {
-      "Description": "Multi-layered didactic extranet",
-      "Filename": "exercitationem",
-      "Size": 765,
-      "Type": "et",
-      "Encoding": "voluptas",
-      "Id": "laudantium",
-      "Disposition": "totam",
+      "Description": "Profit-focused methodical encryption",
+      "Filename": "et",
+      "Size": 435,
+      "Type": "eaque",
+      "Encoding": "libero",
+      "Id": "repellat",
+      "Disposition": "hic",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldLength": 704
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ruecker LLC",
+      "Name": "Littel Group",
       "Values": [
-        "sint",
-        "quaerat"
+        "ut",
+        "voluptatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 921
+          "FieldType": "System.Int32",
+          "FieldLength": 612
         }
       }
     },
     {
-      "Name": "Ruecker LLC",
+      "Name": "Littel Group",
       "Values": [
-        "sint",
-        "quaerat"
+        "ut",
+        "voluptatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 921
+          "FieldType": "System.Int32",
+          "FieldLength": 612
         }
       }
     }
   ],
-  "FolderName": "Predovic Group",
-  "EmailItemId": 40,
-  "AccountId": 732,
-  "ReceivedAt": "1997-11-05T15:29:21.8257754+01:00",
+  "FolderName": "Breitenberg, Stehr and Parisian",
+  "EmailItemId": 879,
+  "AccountId": 284,
+  "ReceivedAt": "2021-08-12T03:51:27.2717144+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1996-07-27T15:29:21.8257754+02:00",
+  "RepliedAt": "2022-05-19T03:51:27.2717144+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,8 +268,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 588
+      "FieldType": "System.Int32",
+      "FieldLength": 101
     }
   }
 }

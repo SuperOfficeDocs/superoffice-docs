@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 801,
-  "AttachmentId": "hic"
+  "DocId": 975,
+  "AttachmentId": "consequuntur"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Down-sized analyzing open system",
-  "Filename": "et",
-  "Size": 942,
-  "Type": "temporibus",
-  "Encoding": "sit",
-  "Id": "voluptas",
-  "Disposition": "aliquid",
+  "Description": "Secured client-server groupware",
+  "Filename": "eum",
+  "Size": 441,
+  "Type": "et",
+  "Encoding": "libero",
+  "Id": "veniam",
+  "Disposition": "earum",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldLength": 262
     }
   }
 }

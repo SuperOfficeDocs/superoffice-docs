@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 737,
-    "Name": "Grady, Corkery and Abshire",
-    "ToolTip": "Qui odit facere dolores temporibus provident iure.",
+    "Id": 157,
+    "Name": "Hauck, Botsford and Grant",
+    "ToolTip": "Ullam blanditiis magnam est sit aut aut molestias.",
     "Deleted": true,
-    "Rank": 270,
-    "Type": "impedit",
-    "ColorBlock": 29,
-    "IconHint": "dolorem",
+    "Rank": 500,
+    "Type": "nulla",
+    "ColorBlock": 999,
+    "IconHint": "incidunt",
     "Selected": true,
-    "LastChanged": "2012-05-21T15:29:31.286978+02:00",
+    "LastChanged": "2003-01-31T03:51:34.7083411+01:00",
     "ChildItems": [
       {
-        "Id": 372,
-        "Name": "Runolfsson, Stroman and Bashirian",
-        "ToolTip": "Non architecto.",
+        "Id": 430,
+        "Name": "Mills-Nolan",
+        "ToolTip": "Facilis placeat laudantium autem.",
         "Deleted": false,
-        "Rank": 165,
-        "Type": "nisi",
-        "ColorBlock": 292,
-        "IconHint": "qui",
+        "Rank": 542,
+        "Type": "dolorem",
+        "ColorBlock": 772,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2001-11-06T15:29:31.286978+01:00",
+        "LastChanged": "1999-12-09T03:51:34.7083411+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "accusantium",
-        "Hidden": true,
-        "FullName": "Elenora Brakus",
+        "ExtraInfo": "quasi",
+        "StyleHint": "corporis",
+        "Hidden": false,
+        "FullName": "Delilah Monahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 140
+            "FieldType": "System.String",
+            "FieldLength": 650
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "facere",
-    "Hidden": false,
-    "FullName": "Barbara Trantow",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Mable Clifton Hagenes V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldLength": 368
       }
     }
   }

@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 868,
-  "CustomerCustomerReplyTemplateId": 28,
-  "CustomerPasswordTemplateId": 857,
-  "CustomerConfirmEmailTemplateId": 408,
-  "CustomerChatLogTemplateId": 90,
-  "NewLinkTemplateId": 177,
-  "HotlistNewMessageTemplateId": 36,
-  "HotlistTicketActivatedTemplateId": 835,
-  "UserTicketAlarmTemplateId": 353,
-  "HotlistTicketTakenOverTemplateId": 983,
-  "UserActiveTicketsTemplateId": 11,
-  "UserNewMessageTemplateId": 292,
-  "UserTicketActivatedTemplateId": 532,
-  "UserNewTicketTemplateId": 131,
-  "PublishKbQuestionTemplateId": 806,
-  "PublishKbAnswerTemplateId": 816,
-  "UserTicketTakenOverTemplateId": 508,
-  "PrintTicketTemplateId": 640,
-  "WeekStatTemplateId": 809,
-  "TicketAlarmHotlistTemplateId": 591,
-  "EmailAddresses": "adrien_grant@wiegand.com",
+  "CustomerNewCustomerTemplateId": 7,
+  "CustomerCustomerReplyTemplateId": 838,
+  "CustomerPasswordTemplateId": 712,
+  "CustomerConfirmEmailTemplateId": 47,
+  "CustomerChatLogTemplateId": 472,
+  "NewLinkTemplateId": 887,
+  "HotlistNewMessageTemplateId": 203,
+  "HotlistTicketActivatedTemplateId": 948,
+  "UserTicketAlarmTemplateId": 959,
+  "HotlistTicketTakenOverTemplateId": 15,
+  "UserActiveTicketsTemplateId": 551,
+  "UserNewMessageTemplateId": 540,
+  "UserTicketActivatedTemplateId": 382,
+  "UserNewTicketTemplateId": 389,
+  "PublishKbQuestionTemplateId": 454,
+  "PublishKbAnswerTemplateId": 119,
+  "UserTicketTakenOverTemplateId": 791,
+  "PrintTicketTemplateId": 988,
+  "WeekStatTemplateId": 205,
+  "TicketAlarmHotlistTemplateId": 772,
+  "EmailAddresses": "leanne@dach.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 801
     }
   }
 }

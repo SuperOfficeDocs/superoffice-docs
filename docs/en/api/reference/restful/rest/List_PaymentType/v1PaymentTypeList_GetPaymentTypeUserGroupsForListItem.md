@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 857,
-    "Name": "Larkin Group",
-    "ToolTip": "Aliquid ullam excepturi sint molestiae molestias.",
+    "Id": 880,
+    "Name": "Gleichner-Krajcik",
+    "ToolTip": "Est non id.",
     "Deleted": false,
-    "Rank": 489,
-    "Type": "provident",
-    "ColorBlock": 382,
-    "IconHint": "consectetur",
+    "Rank": 359,
+    "Type": "saepe",
+    "ColorBlock": 644,
+    "IconHint": "quod",
     "Selected": true,
-    "LastChanged": "2002-04-29T15:29:31.3409783+02:00",
+    "LastChanged": "2016-03-30T03:51:34.7552114+02:00",
     "ChildItems": [
       {
-        "Id": 564,
-        "Name": "Shields, Jenkins and Bauch",
-        "ToolTip": "Deserunt voluptatem dolore et maiores tempora.",
-        "Deleted": true,
-        "Rank": 767,
-        "Type": "ipsum",
-        "ColorBlock": 884,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2000-06-15T15:29:31.3409783+02:00",
+        "Id": 608,
+        "Name": "Reichert, Wolf and Stracke",
+        "ToolTip": "Incidunt velit aut sed.",
+        "Deleted": false,
+        "Rank": 329,
+        "Type": "et",
+        "ColorBlock": 546,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "1998-12-15T03:51:34.7552114+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "animi",
-        "Hidden": false,
-        "FullName": "Miss Brooks Bartoletti DDS",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "quaerat",
+        "Hidden": true,
+        "FullName": "Mabel Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 796
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "amet",
+    "StyleHint": "praesentium",
     "Hidden": true,
-    "FullName": "Karolann Mertz II",
+    "FullName": "Carole Mitchell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 672
+        "FieldType": "System.Int32",
+        "FieldLength": 590
       }
     }
   }

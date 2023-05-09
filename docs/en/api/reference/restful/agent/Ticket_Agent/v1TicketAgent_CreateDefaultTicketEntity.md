@@ -96,8 +96,9 @@ OK
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
-| Sale | Sale | The sale that this ticket connected to  <para>Use MDO List name "sale" to get list items.</para> |
-| Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
+| Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
+| Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
+| FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -109,7 +110,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -119,21 +120,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 958,
-  "Title": "omnis",
-  "CreatedAt": "2004-07-25T15:29:23.0387574+02:00",
-  "LastChanged": "2004-10-07T15:29:23.0387574+02:00",
-  "ReadByOwner": "2003-07-23T15:29:23.0387574+02:00",
-  "ReadByCustomer": "2016-08-04T15:29:23.0387574+02:00",
-  "FirstReadByOwner": "2021-05-02T15:29:23.0387574+02:00",
-  "FirstReadByUser": "2019-10-29T15:29:23.0387574+01:00",
-  "Activate": "1998-12-26T15:29:23.0387574+01:00",
-  "ClosedAt": "2018-01-17T15:29:23.0387574+01:00",
-  "RepliedAt": "1996-02-24T15:29:23.0387574+01:00",
-  "AlertTimeout": "2010-01-14T15:29:23.0387574+01:00",
-  "Deadline": "1999-01-29T15:29:23.0387574+01:00",
+  "TicketId": 977,
+  "Title": "exercitationem",
+  "CreatedAt": "2017-09-15T03:51:28.2558597+02:00",
+  "LastChanged": "2010-06-27T03:51:28.2558597+02:00",
+  "ReadByOwner": "2020-03-13T03:51:28.2558597+01:00",
+  "ReadByCustomer": "2006-08-02T03:51:28.2558597+02:00",
+  "FirstReadByOwner": "1996-11-03T03:51:28.2558597+01:00",
+  "FirstReadByUser": "2015-04-10T03:51:28.2558597+02:00",
+  "Activate": "2005-02-26T03:51:28.2558597+01:00",
+  "ClosedAt": "2001-05-05T03:51:28.2558597+02:00",
+  "RepliedAt": "2019-05-17T03:51:28.2558597+02:00",
+  "AlertTimeout": "2004-05-30T03:51:28.2558597+02:00",
+  "Deadline": "2021-11-12T03:51:28.2558597+01:00",
   "CreatedBy": null,
-  "Author": "consequatur",
+  "Author": "nostrum",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -144,158 +145,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "consequuntur",
-      "PersonId": 970,
-      "Mrmrs": "est",
-      "Firstname": "Shanna",
-      "Lastname": "Murazik",
-      "MiddleName": "Dickinson LLC",
-      "Title": "quasi",
-      "Description": "Expanded bi-directional contingency",
-      "Email": "casimer@schumm.info",
-      "FullName": "Alfonso Kunde",
-      "DirectPhone": "1-686-827-0324 x0143",
-      "FormalName": "Schultz, Welch and Lesch",
-      "CountryId": 430,
-      "ContactId": 104,
-      "ContactName": "Schowalter-Bogan",
-      "Retired": 319,
-      "Rank": 402,
-      "ActiveInterests": 59,
+      "Position": "quia",
+      "PersonId": 437,
+      "Mrmrs": "tenetur",
+      "Firstname": "Katherine",
+      "Lastname": "Durgan",
+      "MiddleName": "Brekke-Aufderhar",
+      "Title": "voluptas",
+      "Description": "Down-sized holistic orchestration",
+      "Email": "abdullah@padbergwalsh.biz",
+      "FullName": "Fern D'Amore",
+      "DirectPhone": "(107)527-0984 x898",
+      "FormalName": "Koelpin, Little and Carter",
+      "CountryId": 5,
+      "ContactId": 541,
+      "ContactName": "Roob-Mayert",
+      "Retired": 282,
+      "Rank": 728,
+      "ActiveInterests": 419,
       "ContactDepartment": "",
-      "ContactCountryId": 729,
-      "ContactOrgNr": "1198307",
-      "FaxPhone": "107.414.5113 x312",
-      "MobilePhone": "1-156-261-0661 x98998",
-      "ContactPhone": "(142)579-8837",
-      "AssociateName": "Block Group",
-      "AssociateId": 987,
+      "ContactCountryId": 59,
+      "ContactOrgNr": "1404454",
+      "FaxPhone": "002.289.2852",
+      "MobilePhone": "360-445-9553",
+      "ContactPhone": "1-975-979-0622 x04072",
+      "AssociateName": "Stamm, Spinka and Heller",
+      "AssociateId": 494,
       "UsePersonAddress": true,
-      "ContactFax": "reprehenderit",
-      "Kanafname": "et",
-      "Kanalname": "natus",
-      "Post1": "delectus",
-      "Post2": "eos",
-      "Post3": "ut",
-      "EmailName": "peyton@powlowskimohr.com",
-      "ContactFullName": "Kameron Leannon",
-      "ActiveErpLinks": 738,
-      "TicketPriorityId": 300,
-      "SupportLanguageId": 276,
-      "SupportAssociateId": 340,
+      "ContactFax": "illum",
+      "Kanafname": "ratione",
+      "Kanalname": "minima",
+      "Post1": "voluptatibus",
+      "Post2": "dolores",
+      "Post3": "sunt",
+      "EmailName": "rosalia_hickle@harvey.biz",
+      "ContactFullName": "Mr. Jane Considine V",
+      "ActiveErpLinks": 114,
+      "TicketPriorityId": 23,
+      "SupportLanguageId": 878,
+      "SupportAssociateId": 142,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldLength": 881
         }
       }
     }
   ],
-  "AlertLevel": 340,
-  "ConnectId": 31,
+  "AlertLevel": 49,
+  "ConnectId": 508,
   "ReadStatus": "Green",
-  "TimeToReply": 968,
-  "RealTimeToReply": 678,
-  "TimeToClose": 402,
-  "RealTimeToClose": 484,
-  "TimeSpentInternally": 897,
-  "TimeSpentExternally": 738,
-  "TimeSpentQueue": 521,
-  "RealTimeSpentInternally": 204,
-  "RealTimeSpentExternally": 111,
-  "RealTimeSpentQueue": 957,
+  "TimeToReply": 897,
+  "RealTimeToReply": 869,
+  "TimeToClose": 642,
+  "RealTimeToClose": 913,
+  "TimeSpentInternally": 665,
+  "TimeSpentExternally": 670,
+  "TimeSpentQueue": 369,
+  "RealTimeSpentInternally": 100,
+  "RealTimeSpentExternally": 66,
+  "RealTimeSpentQueue": 744,
   "HasAttachment": false,
-  "NumReplies": 313,
-  "NumMessages": 270,
-  "FromAddress": "quo",
+  "NumReplies": 249,
+  "NumMessages": 928,
+  "FromAddress": "ut",
   "Messages": [
     {
-      "TicketMessageId": 896,
-      "CreatedAt": "2005-12-31T15:29:23.0437582+01:00",
+      "TicketMessageId": 891,
+      "CreatedAt": "2009-01-25T03:51:28.2558597+01:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "doloremque",
-      "PersonId": 757,
-      "PersonFullName": "Clyde Krajcik",
-      "ContactId": 279,
-      "ContactName": "Erdman Group",
+      "Author": "numquam",
+      "PersonId": 408,
+      "PersonFullName": "Murl Schuster",
+      "ContactId": 337,
+      "ContactName": "Hartmann-Pollich",
       "ContactDepartment": "",
-      "NumAttachments": 212,
-      "EmailHeader": "vincent_grant@dietrich.ca",
+      "NumAttachments": 635,
+      "EmailHeader": "janick@luettgen.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "sunt",
-      "Sentiment": 575,
-      "SentimentConfidence": 899,
-      "CreatedBy": 635,
-      "ChangedAt": "1998-04-22T15:29:23.0437582+02:00",
+      "Language": "pariatur",
+      "Sentiment": 370,
+      "SentimentConfidence": 923,
+      "CreatedBy": 267,
+      "ChangedAt": "1998-03-11T03:51:28.2558597+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 504
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 782,
-      "Name": "Fritsch-Jacobi",
-      "ToolTip": "Nulla ea vel et eos nesciunt officiis.",
+      "Id": 274,
+      "Name": "Swift, Friesen and Ruecker",
+      "ToolTip": "Nam deleniti.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 644
+          "FieldType": "System.String",
+          "FieldLength": 493
         }
       }
     },
     {
-      "Id": 782,
-      "Name": "Fritsch-Jacobi",
-      "ToolTip": "Nulla ea vel et eos nesciunt officiis.",
+      "Id": 274,
+      "Name": "Swift, Friesen and Ruecker",
+      "ToolTip": "Nam deleniti.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 644
+          "FieldType": "System.String",
+          "FieldLength": 493
         }
       }
     }
   ],
-  "Language": "molestiae",
-  "Sentiment": 561,
-  "SentimentConfidence": 220,
-  "SuggestedCategoryId": 627,
+  "Language": "eos",
+  "Sentiment": 824,
+  "SentimentConfidence": 129,
+  "SuggestedCategoryId": 217,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 750,
-  "IconHint": "ipsam",
+  "OrigHumanCategoryId": 939,
+  "IconHint": "rem",
   "Sale": null,
   "Project": null,
+  "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "illo",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "aliquid"
+    "CustomFields1": "minima",
+    "CustomFields2": "laboriosam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldType": "System.Int32",
+      "FieldLength": 909
     }
   }
 }

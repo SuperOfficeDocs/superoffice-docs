@@ -68,7 +68,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 476,
-  "Name": "Powlowski-Armstrong",
+  "ScreenChooserId": 267,
+  "Name": "Reinger, Stracke and Braun",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "amet",
-  "Source": "commodi",
-  "Registered": "2016-12-23T15:29:30.7939901+01:00",
-  "RegisteredAssociateId": 446,
-  "Updated": "1997-05-10T15:29:30.7939901+02:00",
-  "UpdatedAssociateId": 712,
+  "UniqueIdentifier": "eligendi",
+  "Source": "fugit",
+  "Registered": "2006-12-23T03:51:34.1615868+01:00",
+  "RegisteredAssociateId": 462,
+  "Updated": "2008-07-08T03:51:34.1615868+02:00",
+  "UpdatedAssociateId": 745,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldType": "System.Int32",
+      "FieldLength": 80
     }
   }
 }

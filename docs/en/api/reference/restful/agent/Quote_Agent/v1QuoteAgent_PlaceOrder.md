@@ -86,11 +86,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 203,
+  "QuoteAlternativeId": 403,
   "MarkSaleAsSold": false,
-  "PoNumber": "1452661",
-  "OrderComment": "quis",
-  "Culture": "vel"
+  "PoNumber": "756982",
+  "OrderComment": "asperiores",
+  "Culture": "iste"
 }
 ```
 
@@ -102,9 +102,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "impedit",
-  "TechExplanation": "qui",
-  "ErrorCode": "occaecati",
+  "UserExplanation": "dolore",
+  "TechExplanation": "cupiditate",
+  "ErrorCode": "eum",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldLength": 683
     }
   }
 }

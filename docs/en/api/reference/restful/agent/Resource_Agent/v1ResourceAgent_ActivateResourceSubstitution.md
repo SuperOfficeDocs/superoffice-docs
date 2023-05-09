@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Wintheiser LLC",
+  "ResourceName": "Klein Inc and Sons",
   "Culture": "rerum",
   "IsActive": false
 }

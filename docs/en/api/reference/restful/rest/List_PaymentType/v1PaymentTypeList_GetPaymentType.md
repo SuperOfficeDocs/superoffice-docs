@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 656,
-  "Name": "Upton-Kutch",
-  "Tooltip": "excepturi",
-  "Deleted": true,
-  "UdListDefinitionId": 540,
-  "Rank": 174,
+  "Id": 95,
+  "Name": "Collier, Kub and Thompson",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "UdListDefinitionId": 927,
+  "Rank": 865,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldType": "System.Int32",
+      "FieldLength": 923
     }
   }
 }

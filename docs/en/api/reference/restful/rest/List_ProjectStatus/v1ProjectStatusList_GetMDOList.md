@@ -25,8 +25,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=tempora
+GET /api/v1/List/ProjectStatus/MDOItems?flat=True
+GET /api/v1/List/ProjectStatus/MDOItems?query=eos
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 901,
-    "Name": "Strosin-Fadel",
-    "ToolTip": "Fugiat voluptatem.",
+    "Id": 435,
+    "Name": "Gutkowski Inc and Sons",
+    "ToolTip": "Ipsa deleniti voluptate tempora voluptatem.",
     "Deleted": false,
-    "Rank": 295,
-    "Type": "temporibus",
+    "Rank": 88,
+    "Type": "adipisci",
     "ChildItems": [
       {
-        "Id": 200,
-        "Name": "Turner-Schamberger",
-        "ToolTip": "Eos amet non excepturi.",
+        "Id": 305,
+        "Name": "Boyle, Green and Dach",
+        "ToolTip": "Et molestiae quasi.",
         "Deleted": false,
-        "Rank": 553,
-        "Type": "unde",
+        "Rank": 65,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 747,
-        "ExtraInfo": "quaerat",
-        "StyleHint": "autem",
-        "FullName": "Ada Kemmer III",
+        "IconHint": "eum",
+        "ColorBlock": 142,
+        "ExtraInfo": "omnis",
+        "StyleHint": "qui",
+        "FullName": "Amie Kihn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 887
+            "FieldType": "System.Int32",
+            "FieldLength": 191
           }
         }
       }
     ],
-    "IconHint": "laborum",
-    "ColorBlock": 114,
-    "ExtraInfo": "ducimus",
-    "StyleHint": "quod",
-    "FullName": "Rollin Yundt",
+    "IconHint": "ut",
+    "ColorBlock": 751,
+    "ExtraInfo": "aut",
+    "StyleHint": "nihil",
+    "FullName": "Keagan Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldLength": 842
       }
     }
   }

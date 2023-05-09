@@ -122,33 +122,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 100,
-  "TopicId": 797,
+  "ChatSessionId": 950,
+  "TopicId": 562,
   "User": null,
   "Person": null,
-  "CustomerAlias": "occaecati",
-  "CustomerHost": "quo",
-  "CustomerName": "Hilpert-Carroll",
-  "CustomerEmail": "eliseo@cormier.com",
-  "CustomerPhone": "658-896-1032 x5279",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Pagac-Pfannerstill",
+  "CustomerAlias": "exercitationem",
+  "CustomerHost": "accusamus",
+  "CustomerName": "Goyette LLC",
+  "CustomerEmail": "wilfredo@daughertycremin.uk",
+  "CustomerPhone": "602-260-9788",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Klein, Bartoletti and Goldner",
   "Status": "Closed",
-  "FirstMessage": "id",
-  "LastMessage": "velit",
-  "WhenRequested": "2017-11-09T15:29:20.8763216+01:00",
-  "WhenStarted": "1996-03-16T15:29:20.8763216+01:00",
-  "WhenEnded": "1999-05-27T15:29:20.8763216+02:00",
-  "WhenIdle": "2001-12-15T15:29:20.8763216+01:00",
-  "WhenFetched": "2009-03-27T15:29:20.8763216+01:00",
-  "SessionKey": "esse",
-  "InitialQueuePos": 261,
-  "AlertLevel": 86,
-  "Rank": 204,
+  "FirstMessage": "blanditiis",
+  "LastMessage": "et",
+  "WhenRequested": "2011-09-17T03:51:26.6468635+02:00",
+  "WhenStarted": "2010-10-08T03:51:26.6468635+02:00",
+  "WhenEnded": "2018-03-13T03:51:26.6468635+01:00",
+  "WhenIdle": "1999-09-08T03:51:26.6468635+02:00",
+  "WhenFetched": "1998-11-21T03:51:26.6468635+01:00",
+  "SessionKey": "eius",
+  "InitialQueuePos": 457,
+  "AlertLevel": 89,
+  "Rank": 764,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 247
+  "Rating": 694
 }
 ```
 
@@ -167,29 +167,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 587,
-  "TopicId": 950,
+  "ChatSessionId": 125,
+  "TopicId": 229,
   "User": null,
   "Person": null,
-  "CustomerAlias": "doloribus",
-  "CustomerHost": "eum",
-  "CustomerName": "Glover-Roob",
-  "CustomerEmail": "jeanie@gusikowski.us",
-  "CustomerPhone": "235.423.5313",
+  "CustomerAlias": "molestias",
+  "CustomerHost": "et",
+  "CustomerName": "Gutmann Inc and Sons",
+  "CustomerEmail": "kenton@dooley.uk",
+  "CustomerPhone": "282.258.6232",
   "CustomerConsented": false,
-  "CustomerCompanyName": "VonRueden-Hirthe",
+  "CustomerCompanyName": "Daugherty, Mante and Beier",
   "Status": "Closed",
   "FirstMessage": "similique",
-  "LastMessage": "facere",
-  "WhenRequested": "2008-02-19T15:29:20.8873224+01:00",
-  "WhenStarted": "2018-01-21T15:29:20.8873224+01:00",
-  "WhenEnded": "2015-11-14T15:29:20.8873224+01:00",
-  "WhenIdle": "1999-07-28T15:29:20.8873224+02:00",
-  "WhenFetched": "2011-12-18T15:29:20.8873224+01:00",
-  "SessionKey": "veritatis",
-  "InitialQueuePos": 920,
-  "AlertLevel": 492,
-  "Rank": 473,
+  "LastMessage": "distinctio",
+  "WhenRequested": "2001-03-12T03:51:26.6624841+01:00",
+  "WhenStarted": "2008-03-01T03:51:26.6624841+01:00",
+  "WhenEnded": "2022-12-08T03:51:26.6624841+01:00",
+  "WhenIdle": "2012-11-04T03:51:26.6624841+01:00",
+  "WhenFetched": "2015-09-06T03:51:26.6624841+02:00",
+  "SessionKey": "blanditiis",
+  "InitialQueuePos": 361,
+  "AlertLevel": 940,
+  "Rank": 501,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -197,13 +197,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 348,
+  "Rating": 662,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 969
+      "FieldType": "System.Int32",
+      "FieldLength": 941
     }
   }
 }

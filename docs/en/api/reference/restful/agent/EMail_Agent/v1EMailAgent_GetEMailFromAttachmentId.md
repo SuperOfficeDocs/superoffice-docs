@@ -101,14 +101,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 84,
+  "EmailId": 581,
   "AttachmentIds": [
-    "ratione",
-    "et"
+    "ad",
+    "dolorum"
   ],
   "IncludeAttachments": false
 }
@@ -123,147 +123,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 632,
-      "ContactName": "Graham Group",
-      "PersonId": 16,
-      "PersonName": "Spinka Inc and Sons",
-      "AssociateId": 632,
-      "Address": "qui",
-      "EmailId": 267,
+      "ContactId": 357,
+      "ContactName": "DuBuque-Quitzon",
+      "PersonId": 399,
+      "PersonName": "Stark-Tillman",
+      "AssociateId": 648,
+      "Address": "aliquam",
+      "EmailId": 338,
       "DuplicatePersonIds": [
-        108,
-        768
+        523,
+        200
       ],
-      "Name": "Schmitt, Brekke and Howell",
+      "Name": "Conn, Weber and Sauer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 376
+          "FieldType": "System.String",
+          "FieldLength": 780
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 708,
-      "ContactName": "Kohler LLC",
-      "PersonId": 32,
-      "PersonName": "Considine Inc and Sons",
-      "AssociateId": 421,
-      "Address": "sed",
-      "EmailId": 277,
+      "ContactId": 3,
+      "ContactName": "Cronin LLC",
+      "PersonId": 791,
+      "PersonName": "Howell Inc and Sons",
+      "AssociateId": 181,
+      "Address": "occaecati",
+      "EmailId": 978,
       "DuplicatePersonIds": [
-        264,
-        116
+        326,
+        11
       ],
-      "Name": "Farrell-Kautzer",
+      "Name": "Hand, Casper and Simonis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldLength": 958
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 363,
-      "ContactName": "Walker Group",
-      "PersonId": 651,
-      "PersonName": "Stiedemann-Welch",
-      "AssociateId": 804,
-      "Address": "sunt",
-      "EmailId": 235,
+      "ContactId": 341,
+      "ContactName": "Carter, Mante and Krajcik",
+      "PersonId": 514,
+      "PersonName": "Gibson LLC",
+      "AssociateId": 166,
+      "Address": "tempora",
+      "EmailId": 295,
       "DuplicatePersonIds": [
-        75,
-        568
+        523,
+        33
       ],
-      "Name": "Gerhold Group",
+      "Name": "Kohler LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 107
+          "FieldType": "System.String",
+          "FieldLength": 415
         }
       }
     }
   ],
-  "Subject": "adipisci",
-  "HTMLBody": "animi",
+  "Subject": "dolor",
+  "HTMLBody": "quas",
   "From": null,
-  "Sent": "2010-06-03T15:29:21.7902749+02:00",
-  "Size": 38,
+  "Sent": "1999-07-05T03:51:27.2404741+02:00",
+  "Size": 691,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quod",
-  "PlainBody": "rerum",
+  "MessageID": "et",
+  "PlainBody": "qui",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 705,
+  "ServerId": 426,
   "Attachments": [
     {
-      "Description": "Configurable demand-driven matrix",
-      "Filename": "saepe",
-      "Size": 373,
-      "Type": "sunt",
-      "Encoding": "voluptatem",
-      "Id": "illum",
-      "Disposition": "est",
+      "Description": "Decentralized demand-driven model",
+      "Filename": "sequi",
+      "Size": 384,
+      "Type": "temporibus",
+      "Encoding": "facilis",
+      "Id": "necessitatibus",
+      "Disposition": "suscipit",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldLength": 504
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kovacek LLC",
+      "Name": "Gleichner-O'Hara",
       "Values": [
-        "et",
-        "harum"
+        "dolore",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldLength": 251
         }
       }
     },
     {
-      "Name": "Kovacek LLC",
+      "Name": "Gleichner-O'Hara",
       "Values": [
-        "et",
-        "harum"
+        "dolore",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldLength": 251
         }
       }
     }
   ],
-  "FolderName": "Rau Inc and Sons",
-  "EmailItemId": 895,
-  "AccountId": 926,
-  "ReceivedAt": "2010-02-08T15:29:21.7907756+01:00",
+  "FolderName": "Stehr, Morissette and Kutch",
+  "EmailItemId": 144,
+  "AccountId": 538,
+  "ReceivedAt": "2022-07-27T03:51:27.2404741+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-01-06T15:29:21.7907756+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2004-03-15T03:51:27.2404741+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 161
     }
   }
 }

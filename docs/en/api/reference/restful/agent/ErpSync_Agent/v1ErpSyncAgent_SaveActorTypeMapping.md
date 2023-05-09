@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 47,
-  "IsActive": false,
+  "ErpConnectionId": 773,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 95,
-      "CrmFieldKey": "ullam",
-      "CrmDisplayName": "Conroy, Herman and Labadie",
-      "CrmDisplayTooltip": "et",
-      "ErpFieldKey": "non",
+      "ErpFieldId": 885,
+      "CrmFieldKey": "dolorum",
+      "CrmDisplayName": "McCullough, Hilll and Medhurst",
+      "CrmDisplayTooltip": "necessitatibus",
+      "ErpFieldKey": "aut",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Hodkiewicz-Hirthe",
-      "ErpDisplayTooltip": "omnis",
+      "ErpDisplayName": "Corwin-Prosacco",
+      "ErpDisplayTooltip": "distinctio",
       "SyncToCrm": false,
-      "SyncToErp": true,
+      "SyncToErp": false,
       "ShowInGui": false,
-      "ShowInSearch": true,
+      "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
-      "MissingInCRM": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "reprehenderit",
+      "ListReference": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 888
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldType": "System.String",
+      "FieldLength": 307
     }
   }
 }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Predovic LLC"
+  "EntityName": "Tremblay, Hand and Koss"
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 277,
-  "DashboardId": 14,
-  "Height": 865,
-  "Width": 407,
-  "Rank": 656,
+  "DashboardTileId": 465,
+  "DashboardId": 761,
+  "Height": 523,
+  "Width": 970,
+  "Rank": 760,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldLength": 165
     }
   }
 }

@@ -25,8 +25,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=possimus
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
+GET /api/v1/List/DeliveryTerm/MDOItems?query=id
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 71,
-    "Name": "Fisher, Corkery and Maggio",
-    "ToolTip": "Rerum explicabo eum eos.",
+    "Id": 80,
+    "Name": "Koss-Volkman",
+    "ToolTip": "Enim eaque vel.",
     "Deleted": false,
-    "Rank": 421,
-    "Type": "ea",
+    "Rank": 462,
+    "Type": "accusantium",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Lynch Group",
-        "ToolTip": "In molestias eos.",
+        "Id": 609,
+        "Name": "Fahey, Gutkowski and Fisher",
+        "ToolTip": "Eos nihil.",
         "Deleted": false,
-        "Rank": 886,
-        "Type": "voluptas",
+        "Rank": 128,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 297,
-        "ExtraInfo": "aliquid",
-        "StyleHint": "sit",
-        "FullName": "Price Padberg",
+        "IconHint": "sapiente",
+        "ColorBlock": 276,
+        "ExtraInfo": "asperiores",
+        "StyleHint": "aut",
+        "FullName": "Stephen Greenfelder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 469
+            "FieldType": "System.Int32",
+            "FieldLength": 621
           }
         }
       }
     ],
-    "IconHint": "distinctio",
-    "ColorBlock": 66,
-    "ExtraInfo": "autem",
-    "StyleHint": "natus",
-    "FullName": "Dr. Aletha Audie Feeney",
+    "IconHint": "sint",
+    "ColorBlock": 808,
+    "ExtraInfo": "corrupti",
+    "StyleHint": "voluptates",
+    "FullName": "Leora Huel I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 27
+        "FieldLength": 412
       }
     }
   }

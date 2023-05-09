@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Murazik, Roberts and Mueller",
-  "PersonId": 647
+  "ParameterName": "Rodriguez-Gutmann",
+  "PersonId": 576
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 198,
-  "Name": "Reinger, Jewess and Schuppe",
-  "Value": "fugit",
-  "CreatedDate": "2010-11-11T15:29:20.8087886+01:00",
-  "UpdatedDate": "2012-09-06T15:29:20.8087886+02:00",
-  "CreatedBy": "harum",
-  "UpdatedBy": "deleniti",
+  "AudienceLayoutId": 384,
+  "Name": "Schneider, Reichert and Kuhn",
+  "Value": "molestiae",
+  "CreatedDate": "2005-02-11T03:51:26.5999985+01:00",
+  "UpdatedDate": "2012-09-09T03:51:26.5999985+02:00",
+  "CreatedBy": "ratione",
+  "UpdatedBy": "excepturi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldLength": 952
     }
   }
 }

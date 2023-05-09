@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 359,
-  "Name": "Kub-Luettgen",
-  "Tooltip": "quod",
-  "Rank": 268,
-  "Key": "est",
-  "Deleted": false
+  "LegalBaseId": 398,
+  "Name": "Corwin, Herzog and Cronin",
+  "Tooltip": "dolores",
+  "Rank": 301,
+  "Key": "in",
+  "Deleted": true
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 779,
-  "Name": "Gottlieb-Gorczany",
-  "Tooltip": "aliquam",
-  "Rank": 540,
-  "Key": "et",
-  "Deleted": true,
+  "LegalBaseId": 655,
+  "Name": "West-Becker",
+  "Tooltip": "consequuntur",
+  "Rank": 917,
+  "Key": "voluptate",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 959
+      "FieldLength": 100
     }
   }
 }

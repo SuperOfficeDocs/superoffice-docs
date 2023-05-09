@@ -66,7 +66,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 72,
-  "Name": "Heathcote, Little and Gusikowski",
-  "CreatedDate": "2013-02-10T15:29:29.7501967+01:00",
-  "UpdatedDate": "2012-04-01T15:29:29.7501967+02:00",
+  "ForeignAppId": 863,
+  "Name": "King-Mohr",
+  "CreatedDate": "2004-11-07T03:51:33.6615947+01:00",
+  "UpdatedDate": "2019-10-26T03:51:33.6615947+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 786,
-      "Name": "Von-Leannon",
-      "CreatedDate": "2012-04-23T15:29:29.7506989+02:00",
-      "UpdatedDate": "2016-12-08T15:29:29.7506989+01:00",
-      "AssociateFullName": "Miss Jodie Cremin",
-      "CreatedBy": "tempore",
-      "UpdatedBy": "sunt",
-      "DeviceIdentifier": "consequatur",
-      "ForeignAppId": 830,
+      "ForeignDeviceId": 163,
+      "Name": "Purdy, Gleason and Quigley",
+      "CreatedDate": "2021-05-05T03:51:33.6615947+02:00",
+      "UpdatedDate": "2003-08-16T03:51:33.6615947+02:00",
+      "AssociateFullName": "Prof. Raymundo Layla Ernser DVM",
+      "CreatedBy": "minus",
+      "UpdatedBy": "nobis",
+      "DeviceIdentifier": "soluta",
+      "ForeignAppId": 249,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 271
+          "FieldLength": 727
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 430
     }
   }
 }

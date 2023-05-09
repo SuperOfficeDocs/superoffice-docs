@@ -63,20 +63,20 @@ No Content
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CustConfigs": [
     {
-      "CustConfigId": 622,
+      "CustConfigId": 560,
       "Type": "Options",
-      "Config": "laboriosam",
-      "CustLangId": 744,
-      "Registered": "2008-05-21T15:29:21.2682822+02:00",
-      "RegisteredAssociateId": 877,
-      "Updated": "2016-05-06T15:29:21.2682822+02:00",
-      "UpdatedAssociateId": 22
+      "Config": "et",
+      "CustLangId": 42,
+      "Registered": "2013-01-04T03:51:26.9436626+01:00",
+      "RegisteredAssociateId": 110,
+      "Updated": "2001-05-04T03:51:26.9436626+02:00",
+      "UpdatedAssociateId": 678
     }
   ]
 }

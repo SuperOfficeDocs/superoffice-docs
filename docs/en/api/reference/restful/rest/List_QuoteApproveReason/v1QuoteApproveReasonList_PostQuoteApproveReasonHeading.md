@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 513,
-  "Name": "Howe, Roberts and Hermiston",
-  "Tooltip": "vero",
-  "Deleted": true,
-  "Rank": 399,
-  "UdListDefinitionId": 976
+  "HeadingId": 143,
+  "Name": "Predovic, Huels and Ebert",
+  "Tooltip": "a",
+  "Deleted": false,
+  "Rank": 334,
+  "UdListDefinitionId": 85
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 798,
-  "Name": "Homenick-Walsh",
-  "Tooltip": "commodi",
+  "HeadingId": 393,
+  "Name": "Bernier-Homenick",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "Rank": 82,
-  "UdListDefinitionId": 648,
+  "Rank": 322,
+  "UdListDefinitionId": 1000,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldLength": 245
     }
   }
 }

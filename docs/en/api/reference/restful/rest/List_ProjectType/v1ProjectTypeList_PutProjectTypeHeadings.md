@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 435,
-    "Name": "Mann Inc and Sons",
-    "Tooltip": "corporis",
-    "Deleted": false,
-    "Rank": 988,
-    "UdListDefinitionId": 510
+    "HeadingId": 307,
+    "Name": "Rutherford-Schumm",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 878,
+    "UdListDefinitionId": 707
   },
   {
-    "HeadingId": 435,
-    "Name": "Mann Inc and Sons",
-    "Tooltip": "corporis",
-    "Deleted": false,
-    "Rank": 988,
-    "UdListDefinitionId": 510
+    "HeadingId": 307,
+    "Name": "Rutherford-Schumm",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 878,
+    "UdListDefinitionId": 707
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 499,
-    "Name": "Ledner-Wunsch",
-    "Tooltip": "aut",
+    "HeadingId": 257,
+    "Name": "Bahringer Inc and Sons",
+    "Tooltip": "earum",
     "Deleted": true,
-    "Rank": 501,
-    "UdListDefinitionId": 574,
+    "Rank": 684,
+    "UdListDefinitionId": 53,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldLength": 662
       }
     }
   }

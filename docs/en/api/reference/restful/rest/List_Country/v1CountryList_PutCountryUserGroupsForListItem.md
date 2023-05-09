@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Gislason Inc and Sons",
-    "ToolTip": "Voluptas fugit qui quidem necessitatibus modi et est.",
-    "Deleted": false,
-    "Rank": 547,
-    "Type": "aut",
-    "ColorBlock": 256,
-    "IconHint": "ex",
-    "Selected": false,
-    "LastChanged": "2005-09-26T15:29:31.1744861+02:00",
+    "Id": 739,
+    "Name": "Morar, Goyette and Gutmann",
+    "ToolTip": "Nostrum voluptatibus ut.",
+    "Deleted": true,
+    "Rank": 358,
+    "Type": "vitae",
+    "ColorBlock": 696,
+    "IconHint": "dicta",
+    "Selected": true,
+    "LastChanged": "2023-01-26T03:51:34.6302346+01:00",
     "ChildItems": [
       {
-        "Id": 209,
-        "Name": "Hackett LLC",
-        "ToolTip": "Necessitatibus nostrum eos voluptas provident vel omnis.",
-        "Deleted": true,
-        "Rank": 376,
-        "Type": "corporis",
-        "ColorBlock": 316,
-        "IconHint": "quis",
+        "Id": 246,
+        "Name": "Abbott Group",
+        "ToolTip": "Voluptatem rerum enim.",
+        "Deleted": false,
+        "Rank": 21,
+        "Type": "ea",
+        "ColorBlock": 424,
+        "IconHint": "perspiciatis",
         "Selected": true,
-        "LastChanged": "2001-12-23T15:29:31.1744861+01:00",
+        "LastChanged": "2008-01-08T03:51:34.6302346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Jan Beth Ledner MD"
+        "ExtraInfo": "velit",
+        "StyleHint": "consequuntur",
+        "Hidden": false,
+        "FullName": "Eladio Smitham"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "harum",
-    "Hidden": true,
-    "FullName": "Araceli Lueilwitz"
+    "ExtraInfo": "a",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Prof. Therese Metz"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "Simonis, Botsford and Morar",
-    "ToolTip": "A tenetur harum quod.",
-    "Deleted": false,
-    "Rank": 161,
-    "Type": "minima",
-    "ColorBlock": 767,
-    "IconHint": "totam",
+    "Id": 915,
+    "Name": "Strosin Inc and Sons",
+    "ToolTip": "Vel rerum sed.",
+    "Deleted": true,
+    "Rank": 26,
+    "Type": "sint",
+    "ColorBlock": 246,
+    "IconHint": "ipsum",
     "Selected": true,
-    "LastChanged": "2007-07-05T15:29:31.1759811+02:00",
+    "LastChanged": "2005-01-07T03:51:34.6302346+01:00",
     "ChildItems": [
       {
-        "Id": 21,
-        "Name": "Stroman-Nolan",
-        "ToolTip": "Vel voluptas est sit molestias doloribus doloribus est.",
+        "Id": 224,
+        "Name": "Lemke, Gislason and Skiles",
+        "ToolTip": "Quo omnis est ut natus.",
         "Deleted": false,
-        "Rank": 669,
-        "Type": "qui",
-        "ColorBlock": 347,
-        "IconHint": "suscipit",
-        "Selected": false,
-        "LastChanged": "2004-11-21T15:29:31.1759811+01:00",
+        "Rank": 929,
+        "Type": "voluptas",
+        "ColorBlock": 1001,
+        "IconHint": "quibusdam",
+        "Selected": true,
+        "LastChanged": "2009-05-15T03:51:34.6302346+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "inventore",
+        "ExtraInfo": "omnis",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Buster Roob",
+        "FullName": "Madelynn Bradtke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 837
+            "FieldLength": 921
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Jerrold Carroll",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "delectus",
+    "Hidden": false,
+    "FullName": "Bessie Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldType": "System.String",
+        "FieldLength": 543
       }
     }
   }

@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 676,
-    "Name": "Runte-Ledner",
-    "ToolTip": "Illum velit.",
-    "Deleted": true,
-    "Rank": 458,
-    "Type": "molestiae",
-    "ColorBlock": 716,
-    "IconHint": "deleniti",
-    "Selected": false,
-    "LastChanged": "2019-05-08T15:29:31.244985+02:00",
+    "Id": 892,
+    "Name": "Maggio, Boyle and Turcotte",
+    "ToolTip": "Inventore odio laudantium nisi ullam.",
+    "Deleted": false,
+    "Rank": 649,
+    "Type": "sunt",
+    "ColorBlock": 663,
+    "IconHint": "neque",
+    "Selected": true,
+    "LastChanged": "2008-02-07T03:51:34.6770975+01:00",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Bartoletti Group",
-        "ToolTip": "Reiciendis ea dolores.",
-        "Deleted": true,
-        "Rank": 299,
-        "Type": "debitis",
-        "ColorBlock": 767,
-        "IconHint": "excepturi",
+        "Id": 894,
+        "Name": "Dickens Inc and Sons",
+        "ToolTip": "Officiis ut debitis et aut quibusdam nihil dolores.",
+        "Deleted": false,
+        "Rank": 242,
+        "Type": "nesciunt",
+        "ColorBlock": 816,
+        "IconHint": "perferendis",
         "Selected": false,
-        "LastChanged": "2014-07-03T15:29:31.244985+02:00",
+        "LastChanged": "2015-12-07T03:51:34.6770975+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "et",
+        "StyleHint": "reprehenderit",
         "Hidden": true,
-        "FullName": "Isaac Greenfelder",
+        "FullName": "Miss Carolanne Sauer DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 120
+            "FieldType": "System.Int32",
+            "FieldLength": 945
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Mrs. Nico Aliza Kuhn Jr.",
+    "ExtraInfo": "enim",
+    "StyleHint": "praesentium",
+    "Hidden": true,
+    "FullName": "Deshawn Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 654
       }
     }
   }

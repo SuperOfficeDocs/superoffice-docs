@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 32,
-    "Name": "Becker, Wunsch and Greenfelder",
-    "Tooltip": "delectus",
+    "HeadingId": 590,
+    "Name": "Flatley, Oberbrunner and Weissnat",
+    "Tooltip": "adipisci",
     "Deleted": false,
-    "Rank": 658,
-    "UdListDefinitionId": 173
+    "Rank": 589,
+    "UdListDefinitionId": 143
   },
   {
-    "HeadingId": 32,
-    "Name": "Becker, Wunsch and Greenfelder",
-    "Tooltip": "delectus",
+    "HeadingId": 590,
+    "Name": "Flatley, Oberbrunner and Weissnat",
+    "Tooltip": "adipisci",
     "Deleted": false,
-    "Rank": 658,
-    "UdListDefinitionId": 173
+    "Rank": 589,
+    "UdListDefinitionId": 143
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 84,
-    "Name": "Gerhold Inc and Sons",
-    "Tooltip": "maiores",
-    "Deleted": true,
-    "Rank": 769,
-    "UdListDefinitionId": 16,
+    "HeadingId": 411,
+    "Name": "Jaskolski-Adams",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 522,
+    "UdListDefinitionId": 754,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 950
+        "FieldType": "System.Int32",
+        "FieldLength": 495
       }
     }
   }

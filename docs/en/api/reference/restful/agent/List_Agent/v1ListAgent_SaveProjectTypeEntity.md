@@ -80,39 +80,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 934,
-  "Name": "Spinka, Fritsch and O'Keefe",
-  "Tooltip": "commodi",
-  "Rank": 44,
+  "ProjTypeId": 621,
+  "Name": "Turcotte-Wisoky",
+  "Tooltip": "dolorem",
+  "Rank": 220,
   "DurationUnit": "Century",
-  "ProjectDuration": 346,
+  "ProjectDuration": 941,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 328,
-      "Name": "Schroeder Inc and Sons",
-      "ToolTip": "Ex possimus eius voluptates.",
+      "Id": 263,
+      "Name": "Huels, Gottlieb and Kihn",
+      "ToolTip": "Maxime pariatur quis placeat in molestiae.",
       "Deleted": false,
-      "Rank": 880,
-      "Type": "similique",
-      "ColorBlock": 437,
-      "IconHint": "qui",
+      "Rank": 365,
+      "Type": "vero",
+      "ColorBlock": 103,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2002-03-06T15:29:22.0922712+01:00",
+      "LastChanged": "2003-02-16T03:51:27.4747952+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "neque",
-      "StyleHint": "consequuntur",
-      "Hidden": false,
-      "FullName": "Levi Runte"
+      "ExtraInfo": "beatae",
+      "StyleHint": "eos",
+      "Hidden": true,
+      "FullName": "Ruby Heller"
     }
   ]
 }
@@ -125,41 +125,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 781,
-  "Name": "Schmidt, O'Reilly and Veum",
-  "Tooltip": "quo",
-  "Rank": 878,
+  "ProjTypeId": 441,
+  "Name": "Tremblay LLC",
+  "Tooltip": "quasi",
+  "Rank": 912,
   "DurationUnit": "Century",
-  "ProjectDuration": 849,
+  "ProjectDuration": 541,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 777,
-      "Name": "Zemlak Inc and Sons",
-      "ToolTip": "Minima dolores in commodi.",
-      "Deleted": true,
-      "Rank": 177,
-      "Type": "totam",
-      "ColorBlock": 738,
-      "IconHint": "voluptatibus",
-      "Selected": false,
-      "LastChanged": "2013-11-12T15:29:22.0932707+01:00",
+      "Id": 417,
+      "Name": "Franecki, Sporer and Prosacco",
+      "ToolTip": "Beatae quo.",
+      "Deleted": false,
+      "Rank": 810,
+      "Type": "dolorem",
+      "ColorBlock": 433,
+      "IconHint": "quas",
+      "Selected": true,
+      "LastChanged": "2017-05-08T03:51:27.4747952+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quisquam",
-      "StyleHint": "laborum",
+      "ExtraInfo": "pariatur",
+      "StyleHint": "dolorem",
       "Hidden": false,
-      "FullName": "Chanelle Jewess",
+      "FullName": "Leopoldo Stark",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldType": "System.String",
+          "FieldLength": 713
         }
       }
     }
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 659
+      "FieldLength": 448
     }
   }
 }

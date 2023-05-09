@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gislason-Sporer",
+  "TableName": "Gibson LLC",
   "Columns": [
-    "exercitationem",
-    "dolor"
+    "rerum",
+    "omnis"
   ],
   "Keys": [
-    "sit",
-    "quidem"
+    "eius",
+    "at"
   ],
   "Data": [
     [
@@ -117,41 +117,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "dolor",
-  "Inserts": 638,
-  "Updates": 929,
-  "Deletes": 838,
+  "Success": false,
+  "Message": "alias",
+  "Inserts": 215,
+  "Updates": 254,
+  "Deletes": 884,
   "RowStatus": [
     {
-      "PrimaryKey": 868,
+      "PrimaryKey": 829,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "vel",
-        "libero"
+        "quo",
+        "facilis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 90
+          "FieldType": "System.Int32",
+          "FieldLength": 411
         }
       }
     },
     {
-      "PrimaryKey": 868,
+      "PrimaryKey": 829,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "vel",
-        "libero"
+        "quo",
+        "facilis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 90
+          "FieldType": "System.Int32",
+          "FieldLength": 411
         }
       }
     }
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 536
     }
   }
 }

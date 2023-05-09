@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Koepp-Beier",
-    "ToolTip": "Quam cum commodi nihil doloribus illum.",
+    "Id": 631,
+    "Name": "Brakus-Flatley",
+    "ToolTip": "Necessitatibus iure reprehenderit officia.",
     "Deleted": true,
-    "Rank": 9,
-    "Type": "et",
-    "ColorBlock": 224,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2014-11-27T15:29:31.4814752+01:00",
+    "Rank": 12,
+    "Type": "quae",
+    "ColorBlock": 20,
+    "IconHint": "atque",
+    "Selected": false,
+    "LastChanged": "2004-09-01T03:51:34.864573+02:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Bruen, Christiansen and Leffler",
-        "ToolTip": "Quam vel est illo id ea similique voluptatem.",
-        "Deleted": true,
-        "Rank": 341,
-        "Type": "laborum",
-        "ColorBlock": 193,
-        "IconHint": "illum",
+        "Id": 590,
+        "Name": "Rippin-Mante",
+        "ToolTip": "Inventore et.",
+        "Deleted": false,
+        "Rank": 365,
+        "Type": "atque",
+        "ColorBlock": 30,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2021-01-24T15:29:31.4814752+01:00",
+        "LastChanged": "2007-11-28T03:51:34.864573+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "sed",
+        "ExtraInfo": "iure",
+        "StyleHint": "sint",
         "Hidden": true,
-        "FullName": "Sadye Armstrong DVM"
+        "FullName": "Evalyn Sim Donnelly V"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Era Rippin"
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Miss Dovie Green"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 818,
-    "Name": "Abshire, Sipes and Graham",
-    "ToolTip": "Autem laboriosam aliquid delectus similique.",
+    "Id": 250,
+    "Name": "Runolfsson-Ortiz",
+    "ToolTip": "Deserunt nesciunt incidunt iusto.",
     "Deleted": false,
-    "Rank": 54,
-    "Type": "omnis",
-    "ColorBlock": 738,
-    "IconHint": "dolorem",
+    "Rank": 816,
+    "Type": "rem",
+    "ColorBlock": 826,
+    "IconHint": "magnam",
     "Selected": false,
-    "LastChanged": "2013-05-04T15:29:31.4839759+02:00",
+    "LastChanged": "2022-01-03T03:51:34.864573+01:00",
     "ChildItems": [
       {
-        "Id": 203,
-        "Name": "Nolan LLC",
-        "ToolTip": "Blanditiis rem et ipsa in vitae ipsum doloremque.",
-        "Deleted": true,
-        "Rank": 702,
-        "Type": "magni",
-        "ColorBlock": 70,
-        "IconHint": "ex",
+        "Id": 466,
+        "Name": "Corwin Group",
+        "ToolTip": "Quo explicabo numquam quia voluptate.",
+        "Deleted": false,
+        "Rank": 265,
+        "Type": "nihil",
+        "ColorBlock": 456,
+        "IconHint": "quisquam",
         "Selected": true,
-        "LastChanged": "1996-04-18T15:29:31.4839759+02:00",
+        "LastChanged": "2003-03-01T03:51:34.864573+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Mr. Deon Huels",
+        "FullName": "Selmer Hamill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 784
+            "FieldType": "System.Int32",
+            "FieldLength": 466
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Kailyn Bashirian",
+    "ExtraInfo": "et",
+    "StyleHint": "fuga",
+    "Hidden": false,
+    "FullName": "Maybelle Keeley Armstrong IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 785
+        "FieldLength": 78
       }
     }
   }

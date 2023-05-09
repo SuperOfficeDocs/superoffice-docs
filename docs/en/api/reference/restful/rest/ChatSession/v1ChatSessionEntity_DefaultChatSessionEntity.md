@@ -86,7 +86,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 695,
-  "TopicId": 182,
+  "ChatSessionId": 694,
+  "TopicId": 727,
   "User": null,
   "Person": null,
-  "CustomerAlias": "numquam",
-  "CustomerHost": "voluptatum",
-  "CustomerName": "Bartoletti, Mann and Ward",
-  "CustomerEmail": "mose@harvey.uk",
-  "CustomerPhone": "1-577-450-6291",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Witting Group",
+  "CustomerAlias": "laudantium",
+  "CustomerHost": "dolor",
+  "CustomerName": "Casper LLC",
+  "CustomerEmail": "torey@morissette.info",
+  "CustomerPhone": "1-586-180-6409",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "King, Abshire and Erdman",
   "Status": "Closed",
-  "FirstMessage": "ea",
-  "LastMessage": "ipsum",
-  "WhenRequested": "2019-02-16T15:29:29.2642058+01:00",
-  "WhenStarted": "2003-10-20T15:29:29.2642058+02:00",
-  "WhenEnded": "2008-10-12T15:29:29.2642058+02:00",
-  "WhenIdle": "2008-06-05T15:29:29.2642058+02:00",
-  "WhenFetched": "2017-06-09T15:29:29.2642058+02:00",
-  "SessionKey": "itaque",
-  "InitialQueuePos": 315,
-  "AlertLevel": 429,
-  "Rank": 971,
+  "FirstMessage": "quasi",
+  "LastMessage": "sint",
+  "WhenRequested": "1996-06-14T03:51:33.1148316+02:00",
+  "WhenStarted": "1998-09-06T03:51:33.1148316+02:00",
+  "WhenEnded": "2018-05-15T03:51:33.1148316+02:00",
+  "WhenIdle": "2000-08-31T03:51:33.1148316+02:00",
+  "WhenFetched": "2018-02-10T03:51:33.1148316+01:00",
+  "SessionKey": "autem",
+  "InitialQueuePos": 22,
+  "AlertLevel": 977,
+  "Rank": 52,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 780,
+  "ChatbotIsActive": true,
+  "Rating": 205,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 309
+      "FieldType": "System.Int32",
+      "FieldLength": 97
     }
   }
 }

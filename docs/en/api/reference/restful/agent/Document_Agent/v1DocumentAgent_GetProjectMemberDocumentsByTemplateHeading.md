@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 646,
-  "StartTime": "2012-11-24T15:29:21.4812789+01:00",
-  "EndTime": "2023-01-18T15:29:21.4812789+01:00",
-  "Count": 460,
-  "TemplateHeadingId": 70
+  "PersonId": 47,
+  "StartTime": "2011-08-26T03:51:27.0217725+02:00",
+  "EndTime": "1996-08-16T03:51:27.0217725+02:00",
+  "Count": 914,
+  "TemplateHeadingId": 250
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 956,
-    "Attention": "quaerat",
-    "Header": "sapiente",
-    "Name": "Cummings Group",
-    "OurRef": "saepe",
-    "YourRef": "fugit",
-    "Description": "Public-key system-worthy moderator",
-    "DocumentTemplate": "assumenda",
+    "DocumentId": 181,
+    "Attention": "adipisci",
+    "Header": "qui",
+    "Name": "Reichert-Lesch",
+    "OurRef": "beatae",
+    "YourRef": "molestiae",
+    "Description": "Robust empowering core",
+    "DocumentTemplate": "temporibus",
     "IsPublished": true,
-    "PersonId": 520,
-    "PersonFullName": "Kobe June Hermiston DDS",
-    "AssociateFullName": "Ms. Trudie Allen Schamberger",
-    "ContactId": 70,
-    "ContactName": "Jacobi, Kautzer and Osinski",
-    "ProjectId": 399,
-    "ProjectName": "Sipes Group",
-    "AssociateId": 933,
-    "Snum": 340,
-    "SaleId": 969,
-    "SaleName": "Weissnat Group",
+    "PersonId": 724,
+    "PersonFullName": "King Rempel",
+    "AssociateFullName": "Rachel Johnston",
+    "ContactId": 981,
+    "ContactName": "Treutel-Dach",
+    "ProjectId": 52,
+    "ProjectName": "Altenwerth-Nicolas",
+    "AssociateId": 5,
+    "Snum": 542,
+    "SaleId": 656,
+    "SaleName": "Hansen, Cremin and Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 238
+        "FieldType": "System.Int32",
+        "FieldLength": 38
       }
     }
   }

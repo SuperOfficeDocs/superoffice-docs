@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 810,
-    "Name": "Skiles Group",
-    "Tooltip": "ducimus",
-    "Deleted": false,
-    "Rank": 617,
-    "UdListDefinitionId": 271,
+    "HeadingId": 40,
+    "Name": "West Group",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 330,
+    "UdListDefinitionId": 340,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldType": "System.String",
+        "FieldLength": 208
       }
     }
   }

@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Hermiston LLC"
+  "OwnerName": "Weber, Bergnaum and Witting"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 906,
-      "NumberOfLicensesFree": 417,
-      "NumberOfLicensesAdded": 46,
-      "NumberOfLicensesNewTotal": 429,
-      "NumberOfLicensesNewFree": 114,
-      "NumberOfLicensesTotal": 617
+      "NumberOfLicensesInUse": 945,
+      "NumberOfLicensesFree": 260,
+      "NumberOfLicensesAdded": 160,
+      "NumberOfLicensesNewTotal": 690,
+      "NumberOfLicensesNewFree": 290,
+      "NumberOfLicensesTotal": 855
     }
   ],
-  "AccumulatedNextCheckDate": "2011-04-19T15:29:21.9413115+02:00"
+  "AccumulatedNextCheckDate": "2018-07-31T03:51:27.3654441+02:00"
 }
 ```

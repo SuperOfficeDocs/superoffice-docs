@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 618,
-  "Name": "Miller-Mohr",
-  "Tooltip": "modi",
+  "Id": 781,
+  "Name": "Kuphal-Kutch",
+  "Tooltip": "neque",
   "Deleted": false,
-  "UdListDefinitionId": 377,
-  "Rank": 896
+  "UdListDefinitionId": 386,
+  "Rank": 745
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 607,
-  "Name": "Kreiger LLC",
-  "Tooltip": "laboriosam",
-  "Deleted": false,
-  "UdListDefinitionId": 677,
-  "Rank": 920,
+  "Id": 583,
+  "Name": "Hilpert, Berge and Corkery",
+  "Tooltip": "blanditiis",
+  "Deleted": true,
+  "UdListDefinitionId": 227,
+  "Rank": 673,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 635
     }
   }
 }

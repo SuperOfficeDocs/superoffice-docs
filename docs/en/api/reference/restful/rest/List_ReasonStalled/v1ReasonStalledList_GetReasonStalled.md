@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 152,
-  "Name": "Baumbach, Hilll and Farrell",
-  "Tooltip": "ratione",
+  "Id": 336,
+  "Name": "Gerhold-Beier",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "UdListDefinitionId": 907,
-  "Rank": 949,
+  "UdListDefinitionId": 582,
+  "Rank": 345,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 919
     }
   }
 }

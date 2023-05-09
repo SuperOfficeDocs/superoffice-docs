@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 816,
-  "Name": "Hackett, Schultz and Breitenberg",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 261,
+  "Id": 886,
+  "Name": "Grimes LLC",
+  "Tooltip": "blanditiis",
+  "Deleted": false,
+  "Rank": 349,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldLength": 80
     }
   }
 }

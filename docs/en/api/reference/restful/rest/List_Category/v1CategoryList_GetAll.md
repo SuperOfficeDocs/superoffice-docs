@@ -24,7 +24,7 @@ Gets all the Category items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Category/Items?includeDeleted=False
+GET /api/v1/List/Category/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Ratke Group",
-    "Tooltip": "ab",
+    "Id": 105,
+    "Name": "Corkery Inc and Sons",
+    "Tooltip": "nostrum",
     "Deleted": true,
-    "UdListDefinitionId": 86,
-    "Rank": 413,
+    "UdListDefinitionId": 825,
+    "Rank": 266,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 348
+        "FieldType": "System.Int32",
+        "FieldLength": 989
       }
     }
   }

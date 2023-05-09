@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,23 +90,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 590,
-    "Name": "Schultz LLC",
-    "Tooltip": "sed",
-    "SaveInDb": 451,
-    "Filename": "sunt",
-    "DefaultOref": "ratione",
+    "DocumentTemplateId": 603,
+    "Name": "Beer-Bradtke",
+    "Tooltip": "laborum",
+    "SaveInDb": 255,
+    "Filename": "et",
+    "DefaultOref": "est",
     "RecordType": "Appointment",
-    "Deleted": 104,
+    "Deleted": 303,
     "Direction": "Incoming",
-    "AutoeventId": 130,
+    "AutoeventId": 690,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldType": "System.String",
+        "FieldLength": 925
       }
     }
   }

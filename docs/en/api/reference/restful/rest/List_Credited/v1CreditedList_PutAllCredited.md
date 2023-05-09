@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Kovacek Group",
-    "Tooltip": "et",
+    "Id": 314,
+    "Name": "Moore-Kuhn",
+    "Tooltip": "perspiciatis",
     "Deleted": true,
-    "UdListDefinitionId": 524,
-    "Rank": 62
+    "UdListDefinitionId": 454,
+    "Rank": 613
   },
   {
-    "Id": 187,
-    "Name": "Kovacek Group",
-    "Tooltip": "et",
+    "Id": 314,
+    "Name": "Moore-Kuhn",
+    "Tooltip": "perspiciatis",
     "Deleted": true,
-    "UdListDefinitionId": 524,
-    "Rank": 62
+    "UdListDefinitionId": 454,
+    "Rank": 613
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Marks, Schneider and Reynolds",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "UdListDefinitionId": 310,
-    "Rank": 946,
+    "Id": 221,
+    "Name": "Hagenes, Stehr and Johnson",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 546,
+    "Rank": 888,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldLength": 604
       }
     }
   }

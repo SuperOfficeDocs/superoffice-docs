@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 448,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2011-09-30T15:29:21.4972813+02:00",
-  "EndTime": "2001-09-18T15:29:21.4972813+02:00",
-  "Count": 108
+  "PersonId": 1001,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2021-01-21T03:51:27.0217725+01:00",
+  "EndTime": "2004-12-30T03:51:27.0217725+01:00",
+  "Count": 416
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 179,
-    "Attention": "accusamus",
-    "Header": "asperiores",
-    "Name": "Kohler-Johns",
-    "OurRef": "eum",
-    "YourRef": "cumque",
-    "Description": "Balanced solution-oriented frame",
-    "DocumentTemplate": "dolorem",
+    "DocumentId": 613,
+    "Attention": "tempora",
+    "Header": "totam",
+    "Name": "Haley-Fadel",
+    "OurRef": "et",
+    "YourRef": "voluptatem",
+    "Description": "Enterprise-wide intangible moderator",
+    "DocumentTemplate": "asperiores",
     "IsPublished": false,
-    "PersonId": 585,
-    "PersonFullName": "Lindsay Pfeffer",
-    "AssociateFullName": "Miss Irwin Cremin I",
-    "ContactId": 951,
-    "ContactName": "Reinger, Friesen and Purdy",
-    "ProjectId": 686,
-    "ProjectName": "O'Reilly, Greenholt and Harris",
-    "AssociateId": 160,
-    "Snum": 590,
-    "SaleId": 886,
-    "SaleName": "Quigley, Stiedemann and Cummings",
+    "PersonId": 502,
+    "PersonFullName": "Skylar Grimes",
+    "AssociateFullName": "Mrs. Lambert Justice Tromp I",
+    "ContactId": 45,
+    "ContactName": "Dach, Lehner and Leannon",
+    "ProjectId": 866,
+    "ProjectName": "Macejkovic, Stoltenberg and Labadie",
+    "AssociateId": 647,
+    "Snum": 333,
+    "SaleId": 366,
+    "SaleName": "Strosin, Morissette and Littel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 870
+        "FieldLength": 351
       }
     }
   }

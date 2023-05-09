@@ -80,36 +80,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 82,
+  "HierarchyId": 391,
   "Domain": "Dashboards",
-  "Name": "Gerhold, Bins and Konopelski",
-  "Fullname": "et",
-  "ParentId": 763,
+  "Name": "Heaney, Ortiz and O'Keefe",
+  "Fullname": "similique",
+  "ParentId": 835,
   "Children": [
     {
-      "HierarchyId": 184,
+      "HierarchyId": 324,
       "Domain": "Dashboards",
-      "Name": "Bins Inc and Sons",
-      "Fullname": "corporis",
+      "Name": "Hyatt, Berge and Hills",
+      "Fullname": "quo",
       "ParentId": 26,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-08-22T15:29:22.0877706+02:00",
-      "RegisteredAssociateId": 868,
-      "Updated": "2001-08-13T15:29:22.0877706+02:00",
-      "UpdatedAssociateId": 153
+      "Registered": "1999-04-21T03:51:27.4747952+02:00",
+      "RegisteredAssociateId": 955,
+      "Updated": "2003-02-12T03:51:27.4747952+01:00",
+      "UpdatedAssociateId": 186
     }
   ],
-  "Registered": "2009-02-22T15:29:22.0877706+01:00",
-  "RegisteredAssociateId": 563,
-  "Updated": "2003-05-28T15:29:22.0877706+02:00",
-  "UpdatedAssociateId": 963
+  "Registered": "2019-12-26T03:51:27.4747952+01:00",
+  "RegisteredAssociateId": 169,
+  "Updated": "2008-12-02T03:51:27.4747952+01:00",
+  "UpdatedAssociateId": 681
 }
 ```
 
@@ -120,46 +120,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 284,
+  "HierarchyId": 121,
   "Domain": "Dashboards",
-  "Name": "Jaskolski LLC",
-  "Fullname": "est",
-  "ParentId": 415,
+  "Name": "Eichmann, Beier and Lockman",
+  "Fullname": "incidunt",
+  "ParentId": 770,
   "Children": [
     {
-      "HierarchyId": 81,
+      "HierarchyId": 913,
       "Domain": "Dashboards",
-      "Name": "Marvin-Franecki",
-      "Fullname": "magni",
-      "ParentId": 810,
+      "Name": "Gusikowski-Wehner",
+      "Fullname": "rerum",
+      "ParentId": 877,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-01-11T15:29:22.0882716+01:00",
-      "RegisteredAssociateId": 248,
-      "Updated": "2002-05-07T15:29:22.0882716+02:00",
-      "UpdatedAssociateId": 931,
+      "Registered": "1997-01-30T03:51:27.4747952+01:00",
+      "RegisteredAssociateId": 783,
+      "Updated": "1999-02-27T03:51:27.4747952+01:00",
+      "UpdatedAssociateId": 417,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldType": "System.String",
+          "FieldLength": 834
         }
       }
     }
   ],
-  "Registered": "2014-11-07T15:29:22.0882716+01:00",
-  "RegisteredAssociateId": 509,
-  "Updated": "2011-12-07T15:29:22.0882716+01:00",
-  "UpdatedAssociateId": 695,
+  "Registered": "2016-07-22T03:51:27.4747952+02:00",
+  "RegisteredAssociateId": 94,
+  "Updated": "2018-08-29T03:51:27.4747952+02:00",
+  "UpdatedAssociateId": 554,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 996
     }
   }
 }

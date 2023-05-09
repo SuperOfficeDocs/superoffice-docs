@@ -79,7 +79,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,32 +87,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 11 Aug 2002 15:29:29 G8T
+Last-Modified: Sat, 10 May 2008 03:51:33 G5T
 
 {
-  "ForeignAppId": 505,
-  "Name": "Ward-Nikolaus",
-  "CreatedDate": "2022-03-09T15:29:29.7596984+01:00",
-  "UpdatedDate": "2002-08-11T15:29:29.7596984+02:00",
+  "ForeignAppId": 386,
+  "Name": "Reilly Group",
+  "CreatedDate": "2016-03-11T03:51:33.677213+01:00",
+  "UpdatedDate": "2008-05-10T03:51:33.677213+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 733,
-      "Name": "Romaguera Group",
-      "CreatedDate": "2005-06-17T15:29:29.7606988+02:00",
-      "UpdatedDate": "1998-09-12T15:29:29.7606988+02:00",
-      "AssociateFullName": "Mrs. Charlene Kariane Schuppe MD",
-      "CreatedBy": "harum",
-      "UpdatedBy": "accusantium",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 5,
+      "ForeignDeviceId": 890,
+      "Name": "Powlowski Group",
+      "CreatedDate": "1997-10-11T03:51:33.677213+02:00",
+      "UpdatedDate": "2003-08-09T03:51:33.677213+02:00",
+      "AssociateFullName": "Prof. Maynard Lucious Nader",
+      "CreatedBy": "doloribus",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "cum",
+      "ForeignAppId": 132,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldType": "System.String",
+          "FieldLength": 48
         }
       }
     }
@@ -122,12 +122,12 @@ Last-Modified: Sun, 11 Aug 2002 15:29:29 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 186
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

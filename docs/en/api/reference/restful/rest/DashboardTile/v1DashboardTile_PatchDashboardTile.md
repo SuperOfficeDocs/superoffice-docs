@@ -120,18 +120,18 @@ DashboardTile  updated.
 PATCH /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "error",
+    "path": "dolorem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "error",
+    "path": "dolorem",
     "value": {}
   }
 ]
@@ -144,64 +144,64 @@ HTTP/1.1 200 DashboardTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 663,
-  "Caption": "est",
-  "Description": "Robust zero tolerance installation",
-  "ChartName": "Strosin LLC",
-  "ChartId": "iste",
-  "IsDefault": true,
-  "AssociateId": 613,
-  "GroupId": 457,
-  "SelectionId": 589,
-  "Config": "rem",
+  "DashboardTileId": 243,
+  "Caption": "aut",
+  "Description": "Polarised optimizing local area network",
+  "ChartName": "Jewess, Langworth and Grimes",
+  "ChartId": "ducimus",
+  "IsDefault": false,
+  "AssociateId": 819,
+  "GroupId": 658,
+  "SelectionId": 526,
+  "Config": "consectetur",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Sauer-Leuschke",
-      "Description": "Profound foreground initiative",
+      "Name": "Nikolaus-Kiehn",
+      "Description": "Synchronised zero defect framework",
       "Type": "Boolean",
-      "ListName": "Kessler-Tremblay",
+      "ListName": "Hayes, Powlowski and Bauch",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sit",
-      "DefaultDataOption": false,
+      "Value": "rerum",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 382
+          "FieldType": "System.Int32",
+          "FieldLength": 327
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 893,
+      "VisibleId": 514,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 277
+          "FieldType": "System.Int32",
+          "FieldLength": 70
         }
       }
     },
     {
-      "VisibleId": 893,
+      "VisibleId": 514,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 277
+          "FieldType": "System.Int32",
+          "FieldLength": 70
         }
       }
     }
@@ -210,8 +210,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldType": "System.Int32",
+      "FieldLength": 752
     }
   },
   "_Links": {

@@ -64,7 +64,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "non",
-    "DocumentId": 619,
-    "VersionId": "officia",
-    "CheckedInDate": "2011-07-20T15:29:29.7297002+02:00",
-    "CheckedInByName": "Herman LLC",
-    "CheckedInByAssociateId": 944,
-    "Description": "User-centric intermediate system engine",
-    "DisplayText": "quod",
+    "ExternalReference": "nisi",
+    "DocumentId": 245,
+    "VersionId": "cum",
+    "CheckedInDate": "2023-04-17T03:51:33.645969+02:00",
+    "CheckedInByName": "Ernser-Klein",
+    "CheckedInByAssociateId": 582,
+    "Description": "Optimized exuding encoding",
+    "DisplayText": "occaecati",
     "ExtraFields": [
-      "qui",
-      "quia"
+      "tenetur",
+      "voluptate"
     ]
   }
 ]

@@ -81,18 +81,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "accusamus",
-  "ProviderName": "Gottlieb-Beer",
-  "StorageKey": "amet",
+  "StorageType": "id",
+  "ProviderName": "Wilkinson, Adams and Hintz",
+  "StorageKey": "sit",
   "StaticColumns": [
-    "eos",
-    "non"
+    "earum",
+    "doloremque"
   ],
-  "Context": "at"
+  "Context": "animi"
 }
 ```
 
@@ -105,15 +105,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Frami Inc and Sons",
-      "Operator": "pariatur",
+      "Name": "Rice LLC",
+      "Operator": "cumque",
       "Values": [
-        "harum",
-        "at"
+        "aut",
+        "placeat"
       ],
       "DisplayValues": [
-        "sint",
-        "sit"
+        "voluptas",
+        "ut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,65 +121,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 279,
+      "InterParenthesis": 311,
       "InterOperator": "And",
-      "UniqueHash": 946
+      "UniqueHash": 976
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "West, Hilll and Olson",
-      "DisplayTooltip": "ea",
-      "DisplayType": "officiis",
-      "CanOrderBy": true,
-      "Name": "Schmitt, Boehm and Bechtelar",
+      "DisplayName": "Rowe-Swaniawski",
+      "DisplayTooltip": "reiciendis",
+      "DisplayType": "omnis",
+      "CanOrderBy": false,
+      "Name": "Morar LLC",
       "CanRestrictBy": true,
-      "RestrictionType": "quia",
-      "RestrictionListName": "Lueilwitz Group",
+      "RestrictionType": "facilis",
+      "RestrictionListName": "Christiansen Group",
       "IsVisible": false,
-      "ExtraInfo": "sit",
-      "Width": "autem",
-      "IconHint": "qui",
-      "HeadingIconHint": "harum"
+      "ExtraInfo": "nesciunt",
+      "Width": "aliquam",
+      "IconHint": "dolores",
+      "HeadingIconHint": "qui"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Goyette-McGlynn",
-      "PrimaryKey": 227,
+      "EntityName": "Bergnaum-Hintz",
+      "PrimaryKey": 53,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cumque",
-          "TooltipHint": "consequatur",
-          "LinkHint": "et"
+          "DisplayValue": "dolorem",
+          "TooltipHint": "minus",
+          "LinkHint": "repudiandae"
         }
       },
-      "LinkHint": "saepe",
-      "StyleHint": "maiores",
+      "LinkHint": "voluptatem",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldLength": 157
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schaden, Kutch and Cremin",
-      "Description": "Profound bandwidth-monitored support",
-      "Rank": 709,
+      "Name": "Hand, Frami and Glover",
+      "Description": "Proactive dynamic solution",
+      "Rank": 11,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schaden, Kutch and Cremin",
-      "Description": "Profound bandwidth-monitored support",
-      "Rank": 709,
+      "Name": "Hand, Frami and Glover",
+      "Description": "Proactive dynamic solution",
+      "Rank": 11,
       "Restrictions": [
         {},
         {}
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 138
     }
   }
 }

@@ -69,32 +69,32 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "incidunt",
+  "Provider": "voluptas",
   "Restrictions": [
     {
-      "Name": "Schaden, Morissette and Schaefer",
-      "Operator": "in",
+      "Name": "Wolff, Howell and Dare",
+      "Operator": "culpa",
       "Values": [
-        "sit",
-        "illum"
+        "nulla",
+        "quas"
       ],
       "DisplayValues": [
-        "voluptate",
-        "quibusdam"
+        "voluptatem",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 667,
+      "InterParenthesis": 363,
       "InterOperator": "And",
-      "UniqueHash": 973
+      "UniqueHash": 600
     }
   ],
   "NewStatus": "Green"
@@ -108,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  362,
-  576
+  214,
+  128
 ]
 ```

@@ -65,7 +65,6 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:Appointment="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
   <Appointment:CleanUpBookingDeletedWithUpdateModeResponse>
-   <Appointment:Response xsi:type="xsd:int">0</Appointment:Response>
   </Appointment:CleanUpBookingDeletedWithUpdateModeResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

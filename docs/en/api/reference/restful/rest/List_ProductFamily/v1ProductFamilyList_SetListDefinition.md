@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 214,
-  "Name": "Bayer, Bayer and Kuphal",
-  "Tooltip": "aut",
+  "Id": 542,
+  "Name": "Marvin, Feeney and Keebler",
+  "Tooltip": "atque",
   "Deleted": false,
-  "Rank": 520,
+  "Rank": 698,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "corrupti",
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 23,
-  "Name": "Bartoletti, Littel and DuBuque",
-  "Tooltip": "quia",
+  "Id": 481,
+  "Name": "Auer LLC",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 227,
-  "IsCustomList": false,
+  "Rank": 463,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "debitis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 894
     }
   }
 }

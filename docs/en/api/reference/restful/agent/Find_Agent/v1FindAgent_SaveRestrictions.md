@@ -66,34 +66,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "Daniel, Hirthe and Mills",
-  "StorageKey": "est",
+  "StorageType": "at",
+  "ProviderName": "Nader-Kilback",
+  "StorageKey": "aut",
   "Restrictions": [
     {
-      "Name": "Kemmer-Strosin",
-      "Operator": "porro",
+      "Name": "Yundt Inc and Sons",
+      "Operator": "deleniti",
       "Values": [
-        "nulla",
-        "velit"
+        "explicabo",
+        "error"
       ],
       "DisplayValues": [
-        "necessitatibus",
-        "expedita"
+        "optio",
+        "quae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 327,
+      "InterParenthesis": 385,
       "InterOperator": "And",
-      "UniqueHash": 986
+      "UniqueHash": 361
     }
   ]
 }

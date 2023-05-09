@@ -97,7 +97,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 882,
-  "Name": "Schinner Inc and Sons",
-  "AssociateId": 309,
-  "DetailsTable": 348,
-  "DetailsRecord": 212,
+  "Id": 49,
+  "Name": "Effertz-Koch",
+  "AssociateId": 532,
+  "DetailsTable": 783,
+  "DetailsRecord": 409,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "natus",
-    "ParameterObject2": "natus"
+    "ParameterObject1": "qui",
+    "ParameterObject2": "voluptas"
   },
-  "LastStarted": "2016-04-22T15:29:21.9363137+02:00",
-  "Created": "2001-07-14T15:29:21.9363137+02:00",
-  "StartCount": 293,
-  "DatabaseSerialNumber": "742775",
-  "Context": "iusto",
-  "Result": "velit",
+  "LastStarted": "2004-04-20T03:51:27.3654441+02:00",
+  "Created": "2004-04-20T03:51:27.3654441+02:00",
+  "StartCount": 402,
+  "DatabaseSerialNumber": "766444",
+  "Context": "occaecati",
+  "Result": "dolorum",
   "State": "All",
-  "Description": "Centralized eco-centric middleware",
-  "Response": "omnis",
-  "Request": "dolorem",
-  "ProgressDescription": "Synergistic optimizing support",
-  "ProgressPercent": 486,
-  "FileName": "Kub-Tremblay",
+  "Description": "Networked next generation database",
+  "Response": "nam",
+  "Request": "hic",
+  "ProgressDescription": "Front-line solution-oriented productivity",
+  "ProgressPercent": 603,
+  "FileName": "McKenzie-Hermiston",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   }
 }

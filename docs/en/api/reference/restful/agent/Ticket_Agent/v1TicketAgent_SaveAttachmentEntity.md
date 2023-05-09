@@ -74,17 +74,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 821,
-  "Name": "Waters Group",
-  "ContentType": "in",
-  "AttSize": 157,
-  "InlineImage": false,
-  "ContentId": "amet",
-  "AuthKey": "sint"
+  "AttachmentId": 292,
+  "Name": "Mayer-Ortiz",
+  "ContentType": "sed",
+  "AttSize": 128,
+  "InlineImage": true,
+  "ContentId": "recusandae",
+  "AuthKey": "magni"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 710,
-  "Name": "Ward, Hansen and Homenick",
-  "ContentType": "repellat",
-  "AttSize": 397,
+  "AttachmentId": 431,
+  "Name": "Hilpert Inc and Sons",
+  "ContentType": "enim",
+  "AttSize": 111,
   "InlineImage": false,
-  "ContentId": "ut",
-  "AuthKey": "ullam",
+  "ContentId": "nostrum",
+  "AuthKey": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 411
+      "FieldType": "System.Int32",
+      "FieldLength": 940
     }
   }
 }

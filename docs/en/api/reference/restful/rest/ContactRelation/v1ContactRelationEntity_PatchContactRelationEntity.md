@@ -124,18 +124,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "enim",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "enim",
     "value": {}
   }
 ]
@@ -148,35 +148,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 421,
-  "SourcePersonId": 363,
-  "DestinationContactId": 402,
-  "DestinationPersonId": 743,
-  "RelationId": 560,
-  "Comment": "aut",
-  "RelationDefinitionId": 554,
-  "Reversed": 635,
-  "UpdatedDate": "1997-06-15T15:29:29.6172087+02:00",
-  "CreatedDate": "1996-10-23T15:29:29.6172087+02:00",
+  "SourceContactId": 473,
+  "SourcePersonId": 65,
+  "DestinationContactId": 196,
+  "DestinationPersonId": 914,
+  "RelationId": 980,
+  "Comment": "labore",
+  "RelationDefinitionId": 642,
+  "Reversed": 453,
+  "UpdatedDate": "2011-07-17T03:51:33.552243+02:00",
+  "CreatedDate": "2018-05-25T03:51:33.552243+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Sawayn Group",
-  "SourcePersonName": "Roob, Rosenbaum and Gottlieb",
-  "DestinationContactName": "Emmerich Inc and Sons",
-  "DestinationPersonName": "Schuster, O'Conner and Gorczany",
-  "ActiveText": "provident",
-  "PassiveText": "quibusdam",
+  "SourceContactName": "Huels, Casper and Cartwright",
+  "SourcePersonName": "Strosin, Armstrong and McCullough",
+  "DestinationContactName": "Schimmel Inc and Sons",
+  "DestinationPersonName": "Shields Inc and Sons",
+  "ActiveText": "sed",
+  "PassiveText": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 60
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

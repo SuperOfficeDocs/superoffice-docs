@@ -96,8 +96,9 @@ OK
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
-| Sale | Sale | The sale that this ticket connected to  <para>Use MDO List name "sale" to get list items.</para> |
-| Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
+| Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
+| Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
+| FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -109,7 +110,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -119,21 +120,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 907,
-  "Title": "beatae",
-  "CreatedAt": "2010-12-13T15:29:30.6419878+01:00",
-  "LastChanged": "2013-06-07T15:29:30.6419878+02:00",
-  "ReadByOwner": "2023-02-09T15:29:30.6419878+01:00",
-  "ReadByCustomer": "2006-06-29T15:29:30.6419878+02:00",
-  "FirstReadByOwner": "2020-04-30T15:29:30.6419878+02:00",
-  "FirstReadByUser": "2004-01-26T15:29:30.6419878+01:00",
-  "Activate": "1999-04-15T15:29:30.6419878+02:00",
-  "ClosedAt": "2011-07-27T15:29:30.6419878+02:00",
-  "RepliedAt": "2008-09-19T15:29:30.6419878+02:00",
-  "AlertTimeout": "1996-04-13T15:29:30.6419878+02:00",
-  "Deadline": "1996-09-20T15:29:30.6419878+02:00",
+  "TicketId": 129,
+  "Title": "at",
+  "CreatedAt": "2001-10-16T03:51:34.04818+02:00",
+  "LastChanged": "2018-12-21T03:51:34.04818+01:00",
+  "ReadByOwner": "2013-12-26T03:51:34.04818+01:00",
+  "ReadByCustomer": "2018-01-09T03:51:34.04818+01:00",
+  "FirstReadByOwner": "2015-07-06T03:51:34.04818+02:00",
+  "FirstReadByUser": "1996-07-16T03:51:34.04818+02:00",
+  "Activate": "2011-01-15T03:51:34.04818+01:00",
+  "ClosedAt": "1996-08-07T03:51:34.04818+02:00",
+  "RepliedAt": "2009-12-05T03:51:34.04818+01:00",
+  "AlertTimeout": "2012-02-18T03:51:34.04818+01:00",
+  "Deadline": "2010-04-22T03:51:34.04818+02:00",
   "CreatedBy": null,
-  "Author": "ea",
+  "Author": "consectetur",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -144,158 +145,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ut",
-      "PersonId": 239,
-      "Mrmrs": "numquam",
-      "Firstname": "Christiana",
-      "Lastname": "Hoeger",
-      "MiddleName": "Hoppe LLC",
-      "Title": "et",
-      "Description": "Networked interactive help-desk",
-      "Email": "carolina@johnstonstanton.com",
-      "FullName": "Izaiah Greenfelder",
-      "DirectPhone": "883.273.4485",
-      "FormalName": "Dooley-Jerde",
-      "CountryId": 192,
-      "ContactId": 958,
-      "ContactName": "Metz-Schmidt",
-      "Retired": 656,
-      "Rank": 202,
-      "ActiveInterests": 859,
+      "Position": "perferendis",
+      "PersonId": 51,
+      "Mrmrs": "et",
+      "Firstname": "Raul",
+      "Lastname": "Bradtke",
+      "MiddleName": "Cummings-Hoppe",
+      "Title": "odio",
+      "Description": "Inverse stable knowledge user",
+      "Email": "buck@beier.ca",
+      "FullName": "Kitty Koepp",
+      "DirectPhone": "1-606-836-6011 x51490",
+      "FormalName": "Corwin, Beahan and Ward",
+      "CountryId": 611,
+      "ContactId": 663,
+      "ContactName": "Stoltenberg, Spinka and Blanda",
+      "Retired": 745,
+      "Rank": 154,
+      "ActiveInterests": 733,
       "ContactDepartment": "",
-      "ContactCountryId": 531,
-      "ContactOrgNr": "915015",
-      "FaxPhone": "077-679-3280",
-      "MobilePhone": "981-567-8381 x238",
-      "ContactPhone": "819.586.0479",
-      "AssociateName": "Ernser LLC",
-      "AssociateId": 349,
-      "UsePersonAddress": false,
-      "ContactFax": "consectetur",
-      "Kanafname": "commodi",
-      "Kanalname": "vitae",
-      "Post1": "velit",
-      "Post2": "rerum",
-      "Post3": "ut",
-      "EmailName": "freddie@little.name",
-      "ContactFullName": "Mr. Camren Lesch",
-      "ActiveErpLinks": 834,
-      "TicketPriorityId": 89,
-      "SupportLanguageId": 122,
-      "SupportAssociateId": 366,
+      "ContactCountryId": 371,
+      "ContactOrgNr": "1169628",
+      "FaxPhone": "1-164-744-6505 x131",
+      "MobilePhone": "359-844-7010 x26729",
+      "ContactPhone": "646.252.1432",
+      "AssociateName": "Crist Group",
+      "AssociateId": 952,
+      "UsePersonAddress": true,
+      "ContactFax": "et",
+      "Kanafname": "voluptas",
+      "Kanalname": "aut",
+      "Post1": "dolorum",
+      "Post2": "distinctio",
+      "Post3": "et",
+      "EmailName": "enola@mann.biz",
+      "ContactFullName": "Tracey Gardner Reilly MD",
+      "ActiveErpLinks": 224,
+      "TicketPriorityId": 140,
+      "SupportLanguageId": 649,
+      "SupportAssociateId": 272,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 458
+          "FieldLength": 745
         }
       }
     }
   ],
-  "AlertLevel": 231,
-  "ConnectId": 423,
+  "AlertLevel": 513,
+  "ConnectId": 390,
   "ReadStatus": "Green",
-  "TimeToReply": 367,
-  "RealTimeToReply": 201,
-  "TimeToClose": 28,
-  "RealTimeToClose": 525,
-  "TimeSpentInternally": 335,
-  "TimeSpentExternally": 109,
-  "TimeSpentQueue": 165,
-  "RealTimeSpentInternally": 847,
-  "RealTimeSpentExternally": 242,
-  "RealTimeSpentQueue": 812,
+  "TimeToReply": 519,
+  "RealTimeToReply": 968,
+  "TimeToClose": 995,
+  "RealTimeToClose": 126,
+  "TimeSpentInternally": 410,
+  "TimeSpentExternally": 666,
+  "TimeSpentQueue": 298,
+  "RealTimeSpentInternally": 855,
+  "RealTimeSpentExternally": 412,
+  "RealTimeSpentQueue": 395,
   "HasAttachment": false,
-  "NumReplies": 480,
-  "NumMessages": 176,
-  "FromAddress": "labore",
+  "NumReplies": 146,
+  "NumMessages": 831,
+  "FromAddress": "a",
   "Messages": [
     {
-      "TicketMessageId": 537,
-      "CreatedAt": "2022-02-05T15:29:30.6464559+01:00",
+      "TicketMessageId": 1002,
+      "CreatedAt": "2011-02-14T03:51:34.052187+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "voluptas",
-      "PersonId": 354,
-      "PersonFullName": "Dr. Carolyne Cummerata",
-      "ContactId": 474,
-      "ContactName": "Emard Inc and Sons",
+      "Author": "consequuntur",
+      "PersonId": 929,
+      "PersonFullName": "Prof. Michele Jayden Lynch Sr.",
+      "ContactId": 23,
+      "ContactName": "Marvin, Stehr and Stroman",
       "ContactDepartment": "",
-      "NumAttachments": 925,
-      "EmailHeader": "hattie_ledner@von.name",
+      "NumAttachments": 554,
+      "EmailHeader": "litzy@grady.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "vel",
-      "Sentiment": 823,
-      "SentimentConfidence": 384,
-      "CreatedBy": 476,
-      "ChangedAt": "2019-10-26T15:29:30.6469871+02:00",
+      "Language": "recusandae",
+      "Sentiment": 90,
+      "SentimentConfidence": 777,
+      "CreatedBy": 167,
+      "ChangedAt": "1999-01-17T03:51:34.052187+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 780
+          "FieldLength": 994
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 814,
-      "Name": "Metz Group",
-      "ToolTip": "Optio in facilis itaque animi.",
+      "Id": 586,
+      "Name": "Glover-Langosh",
+      "ToolTip": "Eligendi eum repellat architecto a odio quisquam amet.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldLength": 110
         }
       }
     },
     {
-      "Id": 814,
-      "Name": "Metz Group",
-      "ToolTip": "Optio in facilis itaque animi.",
+      "Id": 586,
+      "Name": "Glover-Langosh",
+      "ToolTip": "Eligendi eum repellat architecto a odio quisquam amet.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldLength": 110
         }
       }
     }
   ],
-  "Language": "voluptatem",
-  "Sentiment": 394,
-  "SentimentConfidence": 597,
-  "SuggestedCategoryId": 710,
+  "Language": "harum",
+  "Sentiment": 158,
+  "SentimentConfidence": 217,
+  "SuggestedCategoryId": 139,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 969,
-  "IconHint": "distinctio",
+  "OrigHumanCategoryId": 698,
+  "IconHint": "modi",
   "Sale": null,
   "Project": null,
+  "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "ut"
+    "CustomFields1": "totam",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 622
     }
   }
 }

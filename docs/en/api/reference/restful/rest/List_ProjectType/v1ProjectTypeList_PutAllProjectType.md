@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 648,
-    "Name": "Wiegand-Lang",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "UdListDefinitionId": 543,
-    "Rank": 85
+    "Id": 492,
+    "Name": "Daugherty-Bruen",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "UdListDefinitionId": 100,
+    "Rank": 516
   },
   {
-    "Id": 648,
-    "Name": "Wiegand-Lang",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "UdListDefinitionId": 543,
-    "Rank": 85
+    "Id": 492,
+    "Name": "Daugherty-Bruen",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "UdListDefinitionId": 100,
+    "Rank": 516
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Koelpin Inc and Sons",
-    "Tooltip": "veritatis",
-    "Deleted": true,
-    "UdListDefinitionId": 574,
-    "Rank": 8,
+    "Id": 208,
+    "Name": "Hyatt, Gislason and Greenholt",
+    "Tooltip": "neque",
+    "Deleted": false,
+    "UdListDefinitionId": 469,
+    "Rank": 954,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 564
+        "FieldType": "System.Int32",
+        "FieldLength": 889
       }
     }
   }

@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 919,
-  "Name": "Kuhn, Keebler and Veum",
-  "Tooltip": "iusto",
-  "Deleted": false,
-  "Rank": 554,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cumque",
+  "Id": 974,
+  "Name": "Lehner-Stamm",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 575,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "iusto",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1002,
-  "Name": "Wiza Inc and Sons",
-  "Tooltip": "repellendus",
+  "Id": 86,
+  "Name": "Walter Inc and Sons",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 898,
+  "Rank": 886,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "ListType": "cumque",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 490
+      "FieldLength": 204
     }
   }
 }

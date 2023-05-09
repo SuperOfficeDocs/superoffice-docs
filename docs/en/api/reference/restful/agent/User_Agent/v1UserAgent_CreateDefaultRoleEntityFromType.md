@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,24 +103,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 506,
-  "Name": "Yundt Group",
-  "Tooltip": "nihil",
+  "RoleId": 65,
+  "Name": "Gusikowski Inc and Sons",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 940,
-  "Rank": 697,
-  "Created": "2000-07-31T15:29:23.3432539+02:00",
-  "UseCategories": 618,
+  "Deleted": 53,
+  "Rank": 646,
+  "Created": "2007-12-16T03:51:28.4901768+01:00",
+  "UseCategories": 353,
   "CreatedBy": null,
-  "Updated": "2019-02-21T15:29:23.3432539+01:00",
+  "Updated": "2007-06-10T03:51:28.4901768+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldType": "System.String",
+      "FieldLength": 931
     }
   }
 }

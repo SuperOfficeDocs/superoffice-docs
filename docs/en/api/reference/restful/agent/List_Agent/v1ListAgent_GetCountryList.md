@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 184,
-    "Name": "Walter, Lueilwitz and Green",
-    "CurrencyId": 258,
-    "EnglishName": "Hyatt LLC",
+    "CountryId": 453,
+    "Name": "Bode, McKenzie and Ortiz",
+    "CurrencyId": 185,
+    "EnglishName": "Batz, Mraz and Schroeder",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Persistent intangible adapter",
-    "OrgNrText": "620605",
-    "InterAreaPrefix": "inventore",
-    "DialInPrefix": "ducimus",
-    "ZipPrefix": "aut",
-    "DomainName": "Welch-Schuppe",
-    "AddressLayoutId": 567,
-    "DomesticAddressLayoutId": 269,
-    "ForeignAddressLayoutId": 79,
-    "Rank": 817,
-    "Tooltip": "debitis",
+    "ImageDescription": "Public-key well-modulated leverage",
+    "OrgNrText": "1259086",
+    "InterAreaPrefix": "eveniet",
+    "DialInPrefix": "illo",
+    "ZipPrefix": "expedita",
+    "DomainName": "Mertz-Harris",
+    "AddressLayoutId": 441,
+    "DomesticAddressLayoutId": 45,
+    "ForeignAddressLayoutId": 696,
+    "Rank": 813,
+    "Tooltip": "nihil",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 18
       }
     }
   }

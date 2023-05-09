@@ -119,18 +119,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ab",
+    "path": "repudiandae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ab",
+    "path": "repudiandae",
     "value": {}
   }
 ]
@@ -143,22 +143,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 92,
-  "Name": "Schroeder-Stoltenberg",
+  "ScreenChooserId": 450,
+  "Name": "Trantow-Greenholt",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "cum",
-  "Source": "hic",
-  "Registered": "2020-12-01T15:29:30.8004929+01:00",
-  "RegisteredAssociateId": 102,
-  "Updated": "2016-12-29T15:29:30.8004929+01:00",
-  "UpdatedAssociateId": 996,
+  "UniqueIdentifier": "dolore",
+  "Source": "illo",
+  "Registered": "2019-05-18T03:51:34.1615868+02:00",
+  "RegisteredAssociateId": 793,
+  "Updated": "2018-03-15T03:51:34.1615868+01:00",
+  "UpdatedAssociateId": 325,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 424
+      "FieldLength": 524
     }
   },
   "_Links": {

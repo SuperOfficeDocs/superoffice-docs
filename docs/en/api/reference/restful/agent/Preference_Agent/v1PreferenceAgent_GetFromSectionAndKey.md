@@ -90,12 +90,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quo",
-  "Key": "eos"
+  "Section": "ea",
+  "Key": "nostrum"
 }
 ```
 
@@ -106,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 178,
-  "Section": "voluptatum",
-  "Key": "amet",
-  "Name": "Bosco, Bosco and Parker",
+  "PrefDescId": 232,
+  "Section": "eum",
+  "Key": "et",
+  "Name": "Raynor LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Diverse foreground help-desk",
+  "Description": "Down-sized context-sensitive forecast",
   "IsBuiltin": true,
-  "TableName": "Wiza Group",
-  "UserDefinedListId": 125,
-  "Rank": 261,
-  "SubGroup": "iusto",
-  "MinLevel": 920,
-  "MaxValue": 30,
-  "MinValue": 311,
-  "RequiredLicense": "nam",
+  "TableName": "Christiansen-Doyle",
+  "UserDefinedListId": 871,
+  "Rank": 831,
+  "SubGroup": "velit",
+  "MinLevel": 405,
+  "MaxValue": 480,
+  "MinValue": 673,
+  "RequiredLicense": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldLength": 212
     }
   }
 }

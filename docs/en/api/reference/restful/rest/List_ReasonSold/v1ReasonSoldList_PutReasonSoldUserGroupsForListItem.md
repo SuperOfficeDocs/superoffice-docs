@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 635,
-    "Name": "Renner Group",
-    "ToolTip": "Molestiae sint ad velit voluptatibus necessitatibus voluptate nam.",
+    "Id": 947,
+    "Name": "Maggio Inc and Sons",
+    "ToolTip": "Aut velit repellat.",
     "Deleted": false,
-    "Rank": 561,
-    "Type": "sapiente",
-    "ColorBlock": 170,
-    "IconHint": "unde",
+    "Rank": 938,
+    "Type": "quidem",
+    "ColorBlock": 830,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2002-11-25T15:29:31.5474745+01:00",
+    "LastChanged": "2009-05-30T03:51:34.9114158+02:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Grant, Williamson and Farrell",
-        "ToolTip": "Id ut.",
-        "Deleted": true,
-        "Rank": 37,
-        "Type": "autem",
-        "ColorBlock": 118,
-        "IconHint": "ut",
+        "Id": 11,
+        "Name": "Greenfelder-Schroeder",
+        "ToolTip": "Ipsa eveniet beatae rem aliquid.",
+        "Deleted": false,
+        "Rank": 385,
+        "Type": "aut",
+        "ColorBlock": 861,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2012-04-02T15:29:31.5479748+02:00",
+        "LastChanged": "2017-03-16T03:51:34.9114158+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Dax Mertz"
+        "FullName": "Mrs. Deborah Thelma Gislason"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ut",
+    "ExtraInfo": "dolor",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Oliver Gorczany"
+    "FullName": "Ryder Turcotte"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 683,
-    "Name": "Abernathy LLC",
-    "ToolTip": "Explicabo nihil placeat sunt atque.",
-    "Deleted": true,
-    "Rank": 808,
-    "Type": "at",
-    "ColorBlock": 117,
-    "IconHint": "itaque",
+    "Id": 704,
+    "Name": "Heller Group",
+    "ToolTip": "Possimus laboriosam.",
+    "Deleted": false,
+    "Rank": 630,
+    "Type": "sit",
+    "ColorBlock": 641,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2004-03-14T15:29:31.5499753+01:00",
+    "LastChanged": "2008-01-27T03:51:34.9270326+01:00",
     "ChildItems": [
       {
-        "Id": 230,
-        "Name": "Nader-Wiegand",
-        "ToolTip": "Qui sequi aut voluptates eum.",
+        "Id": 582,
+        "Name": "Bernhard, Veum and Weber",
+        "ToolTip": "Temporibus voluptas fugit perspiciatis voluptatem enim.",
         "Deleted": true,
-        "Rank": 254,
-        "Type": "dolorum",
-        "ColorBlock": 20,
-        "IconHint": "nulla",
+        "Rank": 585,
+        "Type": "dolore",
+        "ColorBlock": 1002,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "2009-03-01T15:29:31.5499753+01:00",
+        "LastChanged": "2005-09-04T03:51:34.9270326+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "delectus",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Mrs. Brad Bins",
+        "FullName": "Lizeth Dicki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 354
+            "FieldType": "System.String",
+            "FieldLength": 898
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "quos",
+    "ExtraInfo": "modi",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Rudolph Kshlerin",
+    "FullName": "Mr. Jonatan Kulas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 841
+        "FieldLength": 714
       }
     }
   }

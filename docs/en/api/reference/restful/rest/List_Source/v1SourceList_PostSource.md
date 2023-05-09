@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 559,
-  "Name": "Daugherty, Abbott and Vandervort",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "UdListDefinitionId": 624,
-  "Rank": 951
+  "Id": 364,
+  "Name": "O'Reilly-Lockman",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "UdListDefinitionId": 296,
+  "Rank": 44
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 980,
-  "Name": "Maggio-Wolff",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 480,
-  "Rank": 839,
+  "Id": 78,
+  "Name": "Green Group",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "UdListDefinitionId": 449,
+  "Rank": 865,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldLength": 534
     }
   }
 }

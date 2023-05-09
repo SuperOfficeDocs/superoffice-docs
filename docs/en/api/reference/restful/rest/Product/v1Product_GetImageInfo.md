@@ -72,7 +72,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 05 Jan 2013 15:29:30 G1T
+Last-Modified: Sat, 12 Apr 1997 03:51:34 G4T
 
 {
-  "BlobId": 640,
-  "BlobSize": 335,
-  "Description": "Secured context-sensitive neural-net",
-  "ExtraInfo": "et",
+  "BlobId": 35,
+  "BlobSize": 738,
+  "Description": "Enterprise-wide systemic help-desk",
+  "ExtraInfo": "dolorum",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "aut",
-  "OriginalSize": 366,
-  "CreatedDate": "2006-06-03T15:29:30.8864871+02:00",
-  "UpdatedDate": "2013-01-05T15:29:30.8864871+01:00",
+  "MimeType": "ipsa",
+  "OriginalSize": 145,
+  "CreatedDate": "1996-04-07T03:51:34.2396907+02:00",
+  "UpdatedDate": "1997-04-12T03:51:34.2396907+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "temporibus",
+  "ConceptualType": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 334
     }
   }
 }

@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "distinctio",
-  "ProviderName": "Powlowski Inc and Sons",
-  "StorageKey": "est"
+  "StorageType": "vel",
+  "ProviderName": "Walter Group",
+  "StorageKey": "soluta"
 }
 ```
 
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Abbott, Feest and Bednar",
-    "DisplayTooltip": "totam",
-    "DisplayType": "provident",
-    "CanOrderBy": true,
-    "Name": "Kling LLC",
-    "CanRestrictBy": true,
-    "RestrictionType": "similique",
-    "RestrictionListName": "Wintheiser LLC",
-    "IsVisible": false,
-    "ExtraInfo": "et",
-    "Width": "cumque",
-    "IconHint": "suscipit",
-    "HeadingIconHint": "enim"
+    "DisplayName": "Reinger-Wisoky",
+    "DisplayTooltip": "quaerat",
+    "DisplayType": "voluptatem",
+    "CanOrderBy": false,
+    "Name": "Greenholt, Wilderman and Miller",
+    "CanRestrictBy": false,
+    "RestrictionType": "adipisci",
+    "RestrictionListName": "Schmidt, Thompson and Brown",
+    "IsVisible": true,
+    "ExtraInfo": "quia",
+    "Width": "est",
+    "IconHint": "omnis",
+    "HeadingIconHint": "ut"
   }
 ]
 ```

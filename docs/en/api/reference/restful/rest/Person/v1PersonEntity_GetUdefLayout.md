@@ -89,7 +89,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,40 +100,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 519,
-    "ColumnId": 405,
-    "FieldDefault": "aut",
-    "FieldHeight": 810,
-    "FieldLabel": "sint",
-    "FieldLeft": 566,
-    "FieldTop": 825,
+    "UDefFieldId": 201,
+    "ColumnId": 29,
+    "FieldDefault": "quam",
+    "FieldHeight": 955,
+    "FieldLabel": "eos",
+    "FieldLeft": 698,
+    "FieldTop": 732,
     "FieldType": "Checkbox",
-    "FieldWidth": 645,
-    "FormatMask": "iste",
-    "HideLabel": false,
+    "FieldWidth": 427,
+    "FormatMask": "quas",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 855,
-    "LabelLeft": 67,
-    "LabelTop": 553,
-    "LabelWidth": 110,
-    "LastVersionId": 903,
-    "ListTableId": 814,
+    "LabelHeight": 367,
+    "LabelLeft": 107,
+    "LabelTop": 859,
+    "LabelWidth": 210,
+    "LastVersionId": 367,
+    "ListTableId": 610,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 433,
-    "ProgId": "dolorem",
+    "Page1LineNo": 166,
+    "ProgId": "officiis",
     "IsReadOnly": false,
-    "ShortLabel": "earum",
-    "TabOrder": 661,
-    "TextLength": 349,
-    "Tooltip": "eum",
-    "UdefIdentity": 763,
-    "UDListDefinitionId": 750,
+    "ShortLabel": "nisi",
+    "TabOrder": 126,
+    "TextLength": 752,
+    "Tooltip": "voluptas",
+    "UdefIdentity": 257,
+    "UDListDefinitionId": 968,
     "Justification": "Center",
-    "Version": 546,
-    "TemplateVariableName": "Murazik, Hettinger and Gorczany",
-    "HasBeenPublished": false,
-    "MdoListName": "Kling LLC",
+    "Version": 887,
+    "TemplateVariableName": "West, Paucek and Kassulke",
+    "HasBeenPublished": true,
+    "MdoListName": "Pagac-Schinner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

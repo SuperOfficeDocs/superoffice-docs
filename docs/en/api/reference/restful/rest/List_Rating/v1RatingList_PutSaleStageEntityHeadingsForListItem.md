@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Brakus Group",
-    "ToolTip": "Deleniti nostrum enim.",
-    "Deleted": false,
-    "Rank": 473,
-    "Type": "odio",
-    "ColorBlock": 772,
-    "IconHint": "fugiat",
+    "Id": 700,
+    "Name": "Rutherford, Kshlerin and Beahan",
+    "ToolTip": "Ea excepturi quas tempore velit facere consequatur et.",
+    "Deleted": true,
+    "Rank": 322,
+    "Type": "voluptates",
+    "ColorBlock": 209,
+    "IconHint": "ducimus",
     "Selected": true,
-    "LastChanged": "2010-05-26T15:29:31.5189789+02:00",
+    "LastChanged": "2004-06-16T03:51:34.8957999+02:00",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Spinka Inc and Sons",
-        "ToolTip": "Est consequatur minus.",
-        "Deleted": true,
-        "Rank": 75,
-        "Type": "cum",
-        "ColorBlock": 393,
-        "IconHint": "unde",
-        "Selected": false,
-        "LastChanged": "1998-09-19T15:29:31.5189789+02:00",
+        "Id": 679,
+        "Name": "Swaniawski, Stehr and Anderson",
+        "ToolTip": "Aut recusandae quidem.",
+        "Deleted": false,
+        "Rank": 152,
+        "Type": "inventore",
+        "ColorBlock": 726,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2004-05-27T03:51:34.8957999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "sequi",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "quae",
         "Hidden": false,
-        "FullName": "Karolann Jewess"
+        "FullName": "Ms. Libbie Cleta Anderson"
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "similique",
+    "ExtraInfo": "sint",
+    "StyleHint": "voluptate",
     "Hidden": true,
-    "FullName": "Marlen Feil"
+    "FullName": "Cortney Mayer"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 503,
-    "Name": "Schaefer, Borer and Swift",
-    "ToolTip": "Perferendis exercitationem aut maiores.",
-    "Deleted": false,
-    "Rank": 183,
-    "Type": "modi",
-    "ColorBlock": 159,
-    "IconHint": "veritatis",
+    "Id": 666,
+    "Name": "Murphy-Hermann",
+    "ToolTip": "Aliquid nisi maxime.",
+    "Deleted": true,
+    "Rank": 989,
+    "Type": "vero",
+    "ColorBlock": 330,
+    "IconHint": "asperiores",
     "Selected": true,
-    "LastChanged": "2000-11-12T15:29:31.5214751+01:00",
+    "LastChanged": "2022-09-02T03:51:34.8957999+02:00",
     "ChildItems": [
       {
-        "Id": 790,
-        "Name": "Kassulke, Medhurst and Feil",
-        "ToolTip": "Nihil officiis ea.",
+        "Id": 485,
+        "Name": "Renner Inc and Sons",
+        "ToolTip": "Nihil libero veniam dolorem adipisci.",
         "Deleted": false,
-        "Rank": 833,
-        "Type": "velit",
-        "ColorBlock": 176,
-        "IconHint": "debitis",
+        "Rank": 594,
+        "Type": "voluptatem",
+        "ColorBlock": 191,
+        "IconHint": "nesciunt",
         "Selected": true,
-        "LastChanged": "2003-09-19T15:29:31.5214751+02:00",
+        "LastChanged": "2016-01-22T03:51:34.8957999+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "quis",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "quo",
         "Hidden": true,
-        "FullName": "Ms. Delfina O'Connell Sr.",
+        "FullName": "Tamia Wilburn Casper MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 303
+            "FieldType": "System.String",
+            "FieldLength": 839
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "suscipit",
-    "Hidden": false,
-    "FullName": "Elwyn Champlin",
+    "ExtraInfo": "officiis",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "Zoe Kertzmann III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 175
       }
     }
   }

@@ -65,16 +65,16 @@ No Content
 POST /api/v1/Agents/Project/SaveProjectMembersFunctionAndComment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    682,
-    81
+    466,
+    284
   ],
-  "RoleId": 178,
-  "Comment": "qui"
+  "RoleId": 302,
+  "Comment": "beatae"
 }
 ```
 

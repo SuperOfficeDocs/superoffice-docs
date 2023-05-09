@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Mailings"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -565,7 +565,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mailings?$select=mailingAddr/contact/contactUdef/SuperOffice:2,mailingAddr/contact/contactUdef/SuperOffice:12,mailingAddr/contact/NumberOfNotCompletedActivitiesInPeriod
+GET /api/v1/archive/Mailings?$select=mailingAddr/person/personAddress/formattedMultiLineAddress,mailingAddr/contact/NumberOfNotCompletedActivitiesInPeriod,mailingAddr/person/email/emailProtocol
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

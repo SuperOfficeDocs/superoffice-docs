@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ParticipantsWithConflictRemoval"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -177,7 +177,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=userName,personContact/email/emailHasBounced,personEmail
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=personId,isActiveText,email/emailDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

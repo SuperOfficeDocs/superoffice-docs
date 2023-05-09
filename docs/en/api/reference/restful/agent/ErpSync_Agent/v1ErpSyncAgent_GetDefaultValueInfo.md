@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 284
+  "ErpFieldId": 666
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 262,
-  "DefaultValue": "cumque",
+  "ErpFieldId": 843,
+  "DefaultValue": "sint",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "odit",
+  "FirstSyncDefaultValue": "officiis",
   "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "molestiae",
+  "Mandatory": true,
+  "ErpFieldKey": "odio",
   "FieldType": "Checkbox",
-  "ListName": "Bradtke-Borer",
+  "ListName": "Pollich-Bartell",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldType": "System.String",
+      "FieldLength": 698
     }
   }
 }

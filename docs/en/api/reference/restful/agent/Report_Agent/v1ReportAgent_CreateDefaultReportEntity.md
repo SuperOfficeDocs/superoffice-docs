@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 9,
+  "ReportId": 23,
   "ReportCategory": "All",
-  "Description": "Synergized incremental productivity",
+  "Description": "Adaptive zero defect local area network",
   "ReportLayout": "CalendarMonth",
-  "Name": "Nikolaus-Hermann",
-  "AssociateId": 737,
-  "TemplateId": 994,
+  "Name": "Jast, Balistreri and Cummerata",
+  "AssociateId": 980,
+  "TemplateId": 265,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldLength": 859
     }
   }
 }

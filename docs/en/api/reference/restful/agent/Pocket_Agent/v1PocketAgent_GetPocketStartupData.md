@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "et",
-    "et"
+    "ratione",
+    "reiciendis"
   ],
-  "CurrentClientTime": "2019-03-14T15:29:22.3888004+01:00"
+  "CurrentClientTime": "2006-09-02T03:51:27.8809522+02:00"
 }
 ```
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "in",
-    "dolore"
+    "corporis",
+    "error"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 591,
-  "NotificationsCount": 950,
+  "OverdueSalesCount": 174,
+  "NotificationsCount": 986,
   "SystemWebPanels": [
     {
-      "WebPanelId": 693,
-      "Name": "Moore, Spinka and O'Conner",
-      "Tooltip": "quod",
+      "WebPanelId": 282,
+      "Name": "Kulas-Ebert",
+      "Tooltip": "eum",
       "Deleted": false,
-      "Rank": 982,
+      "Rank": 66,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": false,
+      "OnCentral": true,
       "OnSatellite": false,
-      "OnTravel": true,
-      "OnSalesMarketingWeb": false,
+      "OnTravel": false,
+      "OnSalesMarketingWeb": true,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
-      "ShowInToolBar": false,
+      "ShowInToolBar": true,
       "ShowInAddressBar": true,
       "ShowInStatusBar": false,
-      "WindowName": "Wolf-Gutmann",
+      "WindowName": "Shanahan-Towne",
       "Url": "http://www.example.com/",
-      "ProgId": "consequuntur",
-      "Icon": 890,
-      "AlwaysReloadOnShow": false,
+      "ProgId": "quia",
+      "Icon": 896,
+      "AlwaysReloadOnShow": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 904
+          "FieldType": "System.Int32",
+          "FieldLength": 672
         }
       }
     }
@@ -144,34 +144,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "voluptate",
+      "RawValue": "dolor",
       "Specification": null,
-      "DisplayValue": "earum",
-      "DisplayTooltip": "rerum",
+      "DisplayValue": "laborum",
+      "DisplayTooltip": "eum",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 816,
-      "PrefDescId": 628,
-      "TableName": "Hodkiewicz, Upton and Smitham",
-      "UserPreferenceId": 612,
+      "TargetId": 965,
+      "PrefDescId": 844,
+      "TableName": "Schneider Inc and Sons",
+      "UserPreferenceId": 886,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 51
+          "FieldType": "System.Int32",
+          "FieldLength": 124
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": true,
-  "CustomData": "quasi",
+  "IsPushNotificationEnabled": false,
+  "CustomData": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldType": "System.String",
+      "FieldLength": 652
     }
   }
 }

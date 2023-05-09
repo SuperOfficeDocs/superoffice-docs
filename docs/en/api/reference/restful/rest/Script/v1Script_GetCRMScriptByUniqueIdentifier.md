@@ -69,7 +69,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "itaque",
-  "Name": "Price, Kiehn and Grady",
-  "Description": "Adaptive well-modulated functionalities",
-  "IncludeId": "soluta",
-  "Source": "vero",
-  "Registered": "2003-05-20T15:29:30.9284835+02:00",
-  "RegisteredBy": "eum",
-  "Updated": "2000-08-25T15:29:30.9284835+02:00",
-  "UpdatedBy": "ullam",
-  "Path": "repellendus",
+  "UniqueIdentifier": "rerum",
+  "Name": "Stroman-Spencer",
+  "Description": "Synchronised national superstructure",
+  "IncludeId": "dolores",
+  "Source": "error",
+  "Registered": "1998-10-29T03:51:34.2709333+01:00",
+  "RegisteredBy": "minus",
+  "Updated": "2021-10-14T03:51:34.2709333+02:00",
+  "UpdatedBy": "neque",
+  "Path": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 243
+      "FieldType": "System.Int32",
+      "FieldLength": 838
     }
   }
 }

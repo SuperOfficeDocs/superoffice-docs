@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bayer-Schmidt",
-  "IncludeStandard": false
+  "TableName": "Donnelly, Barton and Ryan",
+  "IncludeStandard": true
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Prosacco LLC",
-    "DisplayName": "Bode-Kilback",
-    "Description": "Programmable 3rd generation intranet",
-    "ShortLabel": "voluptatem",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": false,
+    "FieldName": "Schumm, Kassulke and Stroman",
+    "DisplayName": "O'Conner, Bradtke and Cole",
+    "Description": "Customizable 5th generation infrastructure",
+    "ShortLabel": "doloremque",
+    "HideLabel": true,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 267,
-    "TemplateVariableName": "Orn-Kilback"
+    "Rank": 430,
+    "TemplateVariableName": "Baumbach-Ernser"
   }
 ]
 ```

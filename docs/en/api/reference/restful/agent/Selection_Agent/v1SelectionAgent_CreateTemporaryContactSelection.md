@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,70 +114,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profit-focused high-level array",
-  "Postit": "sint",
+  "Description": "Public-key holistic process improvement",
+  "Postit": "consectetur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 771,
-  "IncludePerson": 448,
-  "MemberCount": 209,
-  "Name": "Mills-Cormier",
-  "PostitTextId": 292,
-  "CreatedDate": "2019-06-16T15:29:22.805302+02:00",
-  "SelectionId": 527,
-  "SoundEx": "quia",
-  "Source": 428,
-  "TextId": 407,
-  "UpdatedDate": "2013-03-01T15:29:22.805302+01:00",
-  "UpdatedCount": 989,
-  "Visibility": 503,
+  "GroupIdx": 241,
+  "IncludePerson": 839,
+  "MemberCount": 539,
+  "Name": "Larson LLC",
+  "PostitTextId": 114,
+  "CreatedDate": "2003-08-24T03:51:28.1777523+02:00",
+  "SelectionId": 459,
+  "SoundEx": "nesciunt",
+  "Source": 754,
+  "TextId": 154,
+  "UpdatedDate": "2005-10-31T03:51:28.1777523+01:00",
+  "UpdatedCount": 861,
+  "Visibility": 530,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 220,
-  "TargetTableName": "Anderson-Kirlin",
-  "Completed": false,
-  "LeftSelectionId": 578,
-  "RightSelectionId": 127,
+  "CompanyUnique": false,
+  "TargetTableNumber": 609,
+  "TargetTableName": "Orn-Kertzmann",
+  "Completed": true,
+  "LeftSelectionId": 599,
+  "RightSelectionId": 442,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Tillman-Treutel",
-  "ShadowProviderName": "Senger Inc and Sons",
-  "ChartKey": "eaque",
-  "LastLoaded": "2006-10-29T15:29:22.805302+01:00",
-  "LastLoadedBy": 128,
+  "MainProviderName": "Trantow Inc and Sons",
+  "ShadowProviderName": "Wehner, Witting and Lakin",
+  "ChartKey": "enim",
+  "LastLoaded": "1999-06-03T03:51:28.1777523+02:00",
+  "LastLoadedBy": 918,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-02-17T15:29:22.8057976+01:00",
-  "LastMembershipChangeBy": 999,
+  "LastMembershipChange": "2014-03-20T03:51:28.1777523+01:00",
+  "LastMembershipChangeBy": 960,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fugit",
-  "MemberTabHeading": "modi",
-  "MailingsProviderName": "Friesen, Wolf and Erdman",
-  "DashboardTileDefinitionId": 382,
+  "MainHeading": "praesentium",
+  "MemberTabHeading": "esse",
+  "MailingsProviderName": "Feeney-Blanda",
+  "DashboardTileDefinitionId": 641,
   "VisibleFor": [
     {
-      "VisibleId": 607,
+      "VisibleId": 273,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 568
         }
       }
     },
     {
-      "VisibleId": 607,
+      "VisibleId": 273,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 568
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 382
     }
   }
 }

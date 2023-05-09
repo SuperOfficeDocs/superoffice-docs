@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 432,
-    "Name": "Runolfsson, Doyle and Welch",
-    "Tooltip": "velit",
-    "Rank": 355,
-    "Key": "sint",
-    "Deleted": false,
+    "LegalBaseId": 334,
+    "Name": "Braun Inc and Sons",
+    "Tooltip": "facilis",
+    "Rank": 128,
+    "Key": "accusantium",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldLength": 25
       }
     }
   }

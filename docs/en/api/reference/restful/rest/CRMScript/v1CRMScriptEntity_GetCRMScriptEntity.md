@@ -85,7 +85,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 396,
-  "UniqueIdentifier": "autem",
-  "Name": "Senger-Homenick",
-  "Description": "Diverse uniform attitude",
-  "IncludeId": "sed",
-  "HierarchyId": 449,
-  "Source": "repellat",
-  "Registered": "2014-07-25T15:29:29.6276691+02:00",
-  "RegisteredAssociateId": 601,
-  "Updated": "2018-11-16T15:29:29.6276691+01:00",
-  "UpdatedAssociateId": 164,
+  "EjscriptId": 433,
+  "UniqueIdentifier": "laborum",
+  "Name": "Schinner-Hills",
+  "Description": "Down-sized actuating policy",
+  "IncludeId": "repellendus",
+  "HierarchyId": 566,
+  "Source": "amet",
+  "Registered": "2018-03-23T03:51:33.5678642+01:00",
+  "RegisteredAssociateId": 392,
+  "Updated": "1997-08-28T03:51:33.5678642+02:00",
+  "UpdatedAssociateId": 430,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 516
     }
   },
   "_Links": {

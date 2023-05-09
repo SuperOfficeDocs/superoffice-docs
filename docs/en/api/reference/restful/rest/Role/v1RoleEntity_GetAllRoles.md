@@ -77,7 +77,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 446,
-    "Name": "Baumbach-Marquardt",
-    "ToolTip": "Nesciunt animi est.",
-    "Deleted": false,
-    "Rank": 736,
-    "Type": "delectus",
-    "ColorBlock": 980,
-    "IconHint": "fugiat",
+    "Id": 39,
+    "Name": "Collier Inc and Sons",
+    "ToolTip": "Qui et quam voluptate tempore.",
+    "Deleted": true,
+    "Rank": 232,
+    "Type": "ad",
+    "ColorBlock": 609,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2015-02-25T15:29:30.0286601+01:00",
+    "LastChanged": "2022-01-21T03:51:33.8802911+01:00",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Leuschke-Veum",
-        "ToolTip": "Eos quia sit sit vel voluptatem vel labore.",
-        "Deleted": true,
-        "Rank": 247,
-        "Type": "odit",
-        "ColorBlock": 694,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2000-11-25T15:29:30.0291589+01:00",
+        "Id": 642,
+        "Name": "Abshire, Schimmel and Murray",
+        "ToolTip": "Ea est molestiae consequatur.",
+        "Deleted": false,
+        "Rank": 937,
+        "Type": "voluptatem",
+        "ColorBlock": 906,
+        "IconHint": "illo",
+        "Selected": true,
+        "LastChanged": "2019-11-23T03:51:33.8802911+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "quae",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Mr. Maximo Becker IV",
+        "FullName": "Mrs. Rico Hills MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 687
+            "FieldType": "System.Int32",
+            "FieldLength": 618
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "commodi",
-    "Hidden": false,
-    "FullName": "Macy Gutkowski",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Nicolas Corkery",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldLength": 781
       }
     }
   }

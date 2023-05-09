@@ -87,9 +87,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Vandervort-Robel",
-  "DeviceName": "Ritchie, Lynch and Hansen",
-  "DeviceIdentifier": "earum"
+  "ApplicationName": "Tremblay-Lind",
+  "DeviceName": "Reinger, Walter and Farrell",
+  "DeviceIdentifier": "consectetur"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nihil",
-  "Value": "pariatur",
-  "RecordId": 469,
-  "CreatedDate": "1997-06-20T15:29:21.9228093+02:00",
-  "UpdatedDate": "2013-01-23T15:29:21.9228093+01:00",
-  "UpdatedBy": "pariatur",
-  "CreatedBy": "nemo",
-  "TableName": "Bins-Johns",
+  "Key": "aliquam",
+  "Value": "dolores",
+  "RecordId": 410,
+  "CreatedDate": "2019-09-25T03:51:27.3498217+02:00",
+  "UpdatedDate": "2007-08-14T03:51:27.3498217+02:00",
+  "UpdatedBy": "in",
+  "CreatedBy": "natus",
+  "TableName": "Tillman-Shields",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldType": "System.String",
+      "FieldLength": 344
     }
   }
 }

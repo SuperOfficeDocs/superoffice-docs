@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 201,
-  "PlainMessage": "excepturi",
-  "HtmlMessage": "dolor",
-  "SmsMessage": "dolorem",
-  "Description": "Distributed 6th generation moratorium",
-  "Subject": "ut",
-  "FolderId": 392,
-  "HeaderField": "ipsam",
-  "Design": "voluptatem",
+  "ShipmentMessageId": 723,
+  "PlainMessage": "enim",
+  "HtmlMessage": "sunt",
+  "SmsMessage": "et",
+  "Description": "Exclusive system-worthy software",
+  "Subject": "consequatur",
+  "FolderId": 256,
+  "HeaderField": "qui",
+  "Design": "ipsum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Managed 4th generation monitoring",
-  "AccessKey": "et",
-  "DocumentMessage": 501,
-  "Registered": "2021-02-07T15:29:22.12827+01:00",
-  "RegisteredAssociateId": 513,
-  "Updated": "2012-03-09T15:29:22.12827+01:00",
-  "UpdatedAssociateId": 748,
-  "UpdatedCount": 827,
+  "LongDescription": "Synergistic fault-tolerant utilisation",
+  "AccessKey": "dolores",
+  "DocumentMessage": 573,
+  "Registered": "2000-05-20T03:51:27.5060342+02:00",
+  "RegisteredAssociateId": 958,
+  "Updated": "2022-11-23T03:51:27.5060342+01:00",
+  "UpdatedAssociateId": 487,
+  "UpdatedCount": 678,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 693
+      "FieldType": "System.Int32",
+      "FieldLength": 833
     }
   }
 }

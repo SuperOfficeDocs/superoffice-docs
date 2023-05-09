@@ -26,7 +26,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=exercitationem
+GET /api/v1/List/DeliveryType/MDOItems?query=id
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Runolfsdottir LLC",
-    "ToolTip": "Distinctio est suscipit voluptatibus illo vero sed sequi.",
+    "Id": 872,
+    "Name": "Mann-Conn",
+    "ToolTip": "Magni omnis voluptas dolores sed dolorem quis voluptas.",
     "Deleted": false,
-    "Rank": 847,
-    "Type": "est",
+    "Rank": 390,
+    "Type": "quod",
     "ChildItems": [
       {
-        "Id": 628,
-        "Name": "Goodwin-Muller",
-        "ToolTip": "Dolorem veritatis aut atque assumenda.",
+        "Id": 132,
+        "Name": "Aufderhar, Blanda and Ondricka",
+        "ToolTip": "Assumenda id similique in natus error vitae ut.",
         "Deleted": false,
-        "Rank": 866,
-        "Type": "aut",
+        "Rank": 523,
+        "Type": "dolorum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 321,
-        "ExtraInfo": "recusandae",
-        "StyleHint": "nostrum",
-        "FullName": "Camylle Francisco Lynch MD",
+        "IconHint": "quos",
+        "ColorBlock": 472,
+        "ExtraInfo": "nisi",
+        "StyleHint": "aut",
+        "FullName": "Waino Schulist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 218
+            "FieldType": "System.String",
+            "FieldLength": 220
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 690,
-    "ExtraInfo": "quisquam",
-    "StyleHint": "et",
-    "FullName": "Kristina Lavada Dicki IV",
+    "IconHint": "soluta",
+    "ColorBlock": 313,
+    "ExtraInfo": "aut",
+    "StyleHint": "rem",
+    "FullName": "Alexandre Kling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 165
+        "FieldType": "System.Int32",
+        "FieldLength": 119
       }
     }
   }

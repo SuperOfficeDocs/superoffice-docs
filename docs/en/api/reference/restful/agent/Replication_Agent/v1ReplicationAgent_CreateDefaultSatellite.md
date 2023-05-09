@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 634,
-  "Created": "1999-06-15T15:29:22.6097646+02:00",
+  "SatelliteId": 934,
+  "Created": "2003-09-23T03:51:28.0527796+02:00",
   "CreatedBy": null,
-  "Updated": "1998-07-31T15:29:22.6102643+02:00",
+  "Updated": "2001-02-01T03:51:28.0527796+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Bailey, Stroman and Heathcote",
-      "Description": "User-centric impactful complexity",
+      "Name": "Streich LLC",
+      "Description": "Distributed discrete benchmark",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldType": "System.Int32",
+          "FieldLength": 236
         }
       }
     },
     {
-      "Name": "Bailey, Stroman and Heathcote",
-      "Description": "User-centric impactful complexity",
+      "Name": "Streich LLC",
+      "Description": "Distributed discrete benchmark",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldType": "System.Int32",
+          "FieldLength": 236
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 223
     }
   }
 }

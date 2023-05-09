@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 591,
-  "Name": "Nikolaus Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 318,
-  "IsCustomList": false,
+  "Id": 667,
+  "Name": "Gibson, Collier and Schulist",
+  "Tooltip": "veritatis",
+  "Deleted": true,
+  "Rank": 833,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "distinctio",
+  "UseGroupsAndHeadings": true,
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 76
     }
   },
   "_Links": {

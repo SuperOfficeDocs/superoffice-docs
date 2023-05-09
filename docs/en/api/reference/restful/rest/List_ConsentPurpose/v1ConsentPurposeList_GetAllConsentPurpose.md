@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,25 +79,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 271,
-    "Name": "Bruen-Donnelly",
-    "ConsentText": "non",
-    "FormText": "eum",
-    "Key": "sint",
-    "Tooltip": "consequuntur",
-    "Active": 563,
-    "UpdatedDate": "2009-08-12T15:29:31.1294786+02:00",
+    "ConsentPurposeId": 735,
+    "Name": "Rutherford-Farrell",
+    "ConsentText": "repellendus",
+    "FormText": "facere",
+    "Key": "ea",
+    "Tooltip": "sequi",
+    "Active": 423,
+    "UpdatedDate": "2008-09-14T03:51:34.5989925+02:00",
     "UpdatedBy": null,
     "Deleted": true,
-    "Rank": 123,
-    "PrivacyStatementDesc": "sed",
+    "Rank": 461,
+    "PrivacyStatementDesc": "voluptatum",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 849
       }
     }
   }

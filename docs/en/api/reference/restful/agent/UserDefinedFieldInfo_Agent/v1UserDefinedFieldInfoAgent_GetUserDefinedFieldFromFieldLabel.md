@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "aut",
+  "FieldLabel": "quis",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 779,
-  "ColumnId": 295,
-  "FieldDefault": "reiciendis",
-  "FieldHeight": 787,
-  "FieldLabel": "ut",
-  "FieldLeft": 589,
-  "FieldTop": 961,
+  "UDefFieldId": 317,
+  "ColumnId": 87,
+  "FieldDefault": "aut",
+  "FieldHeight": 892,
+  "FieldLabel": "ab",
+  "FieldLeft": 242,
+  "FieldTop": 65,
   "FieldType": "Checkbox",
-  "FieldWidth": 866,
-  "FormatMask": "saepe",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 612,
-  "LabelLeft": 385,
-  "LabelTop": 824,
-  "LabelWidth": 185,
-  "LastVersionId": 928,
-  "ListTableId": 73,
-  "IsMandatory": true,
+  "FieldWidth": 482,
+  "FormatMask": "cum",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 328,
+  "LabelLeft": 585,
+  "LabelTop": 317,
+  "LabelWidth": 125,
+  "LastVersionId": 674,
+  "ListTableId": 290,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 640,
-  "ProgId": "quae",
-  "IsReadOnly": false,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 795,
-  "TextLength": 923,
-  "Tooltip": "voluptates",
-  "UdefIdentity": 282,
-  "UDListDefinitionId": 950,
+  "Page1LineNo": 703,
+  "ProgId": "sed",
+  "IsReadOnly": true,
+  "ShortLabel": "quae",
+  "TabOrder": 361,
+  "TextLength": 331,
+  "Tooltip": "dignissimos",
+  "UdefIdentity": 677,
+  "UDListDefinitionId": 872,
   "Justification": "Center",
-  "Version": 705,
-  "TemplateVariableName": "White, Heidenreich and Conroy",
-  "HasBeenPublished": true,
-  "MdoListName": "Wiegand LLC",
+  "Version": 206,
+  "TemplateVariableName": "Braun-Cummerata",
+  "HasBeenPublished": false,
+  "MdoListName": "Harber LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldType": "System.String",
+      "FieldLength": 489
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=744
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=705
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 698,
-  "Name": "Harber LLC",
-  "CreatedDate": "2020-10-26T15:29:21.9263094+01:00",
-  "UpdatedDate": "1995-12-27T15:29:21.9263094+01:00",
-  "AssociateFullName": "Aiyana Leuschke",
-  "CreatedBy": "aperiam",
-  "UpdatedBy": "eaque",
-  "DeviceIdentifier": "explicabo",
-  "ForeignAppId": 628,
+  "ForeignDeviceId": 913,
+  "Name": "Greenfelder, Von and Harber",
+  "CreatedDate": "2017-02-05T03:51:27.3498217+01:00",
+  "UpdatedDate": "1997-01-28T03:51:27.3498217+01:00",
+  "AssociateFullName": "Kareem Ezra Swift MD",
+  "CreatedBy": "eos",
+  "UpdatedBy": "est",
+  "DeviceIdentifier": "fugiat",
+  "ForeignAppId": 924,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 813
     }
   }
 }

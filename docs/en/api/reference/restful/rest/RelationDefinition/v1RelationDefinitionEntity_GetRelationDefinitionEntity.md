@@ -89,20 +89,20 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 861,
-  "Name": "Towne, Kutch and Kunde",
-  "Tooltip": "ducimus",
-  "PassiveText": "nobis",
+  "ReldefId": 974,
+  "Name": "Corwin Inc and Sons",
+  "Tooltip": "voluptas",
+  "PassiveText": "quia",
   "Deleted": false,
-  "Rank": 309,
+  "Rank": 660,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldType": "System.Int32",
+      "FieldLength": 783
     }
   },
   "_Links": {

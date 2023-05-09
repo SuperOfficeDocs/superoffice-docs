@@ -102,56 +102,56 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kihn Group",
+  "ProviderName": "Farrell-Fritsch",
   "Columns": [
-    "consectetur",
-    "in"
+    "illum",
+    "quia"
   ],
   "SortOrder": [
     {
-      "Name": "Barton-Boehm",
+      "Name": "Grady, Parisian and Hudson",
       "Direction": "ASC"
     },
     {
-      "Name": "Barton-Boehm",
+      "Name": "Grady, Parisian and Hudson",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Gutmann, Wunsch and Hamill",
-      "Operator": "omnis",
+      "Name": "Shanahan Group",
+      "Operator": "voluptatem",
       "Values": [
-        "rem",
-        "eaque"
+        "error",
+        "reiciendis"
       ],
       "DisplayValues": [
-        "illo",
+        "molestiae",
         "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 672,
+      "InterParenthesis": 740,
       "InterOperator": "And",
-      "UniqueHash": 372
+      "UniqueHash": 771
     }
   ],
   "Entities": [
-    "magni",
-    "exercitationem"
+    "inventore",
+    "eligendi"
   ],
-  "Page": 967,
-  "PageSize": 752,
-  "Options": "est",
-  "Context": "magnam"
+  "Page": 104,
+  "PageSize": 254,
+  "Options": "corrupti",
+  "Context": "quo"
 }
 ```
 
@@ -162,26 +162,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 329,
+  "RowCount": 59,
   "Rows": [
     {
-      "EntityName": "Nicolas, Ernser and Ziemann",
-      "PrimaryKey": 568,
+      "EntityName": "Marquardt Group",
+      "PrimaryKey": 357,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "aut",
-          "LinkHint": "qui"
+          "DisplayValue": "ea",
+          "TooltipHint": "autem",
+          "LinkHint": "iusto"
         }
       },
-      "LinkHint": "velit",
-      "StyleHint": "dolorum",
+      "LinkHint": "qui",
+      "StyleHint": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 21
+          "FieldLength": 918
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

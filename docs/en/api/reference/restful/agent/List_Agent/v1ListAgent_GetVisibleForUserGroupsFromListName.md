@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ziemann, Fay and Rosenbaum",
-  "ListItemId": 849
+  "UdListDefinitionName": "Schmeler, Reichel and Erdman",
+  "ListItemId": 434
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 398,
-    "Name": "Bradtke, Stehr and Jacobi",
-    "ToolTip": "Id error ipsa eveniet.",
-    "Deleted": false,
-    "Rank": 72,
-    "Type": "provident",
-    "ColorBlock": 867,
-    "IconHint": "voluptate",
-    "Selected": true,
-    "LastChanged": "2014-03-09T15:29:22.0087726+01:00",
+    "Id": 407,
+    "Name": "Cronin-Deckow",
+    "ToolTip": "Et et totam excepturi temporibus adipisci reprehenderit.",
+    "Deleted": true,
+    "Rank": 94,
+    "Type": "aut",
+    "ColorBlock": 560,
+    "IconHint": "aperiam",
+    "Selected": false,
+    "LastChanged": "2022-04-08T03:51:27.4123074+02:00",
     "ChildItems": [
       {
-        "Id": 17,
-        "Name": "Bosco-Willms",
-        "ToolTip": "Est dolor quo est voluptatem impedit.",
+        "Id": 860,
+        "Name": "Pfannerstill-Erdman",
+        "ToolTip": "Amet earum possimus.",
         "Deleted": false,
-        "Rank": 87,
-        "Type": "voluptas",
-        "ColorBlock": 115,
-        "IconHint": "in",
+        "Rank": 398,
+        "Type": "sed",
+        "ColorBlock": 880,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2003-05-16T15:29:22.009272+02:00",
+        "LastChanged": "1996-05-23T03:51:27.4123074+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "atque",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Dennis Schuster V",
+        "FullName": "Vidal Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 922
+            "FieldLength": 4
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ducimus",
-    "Hidden": false,
-    "FullName": "Waldo Greenholt",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Ms. Dorian Hayes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 479
+        "FieldType": "System.Int32",
+        "FieldLength": 644
       }
     }
   }

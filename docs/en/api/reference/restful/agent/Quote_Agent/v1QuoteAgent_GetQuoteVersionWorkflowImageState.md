@@ -80,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 785
+  "QuoteVersionId": 709
 }
 ```
 
@@ -92,16 +92,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Action": "Approve",
-  "ImageHint": "pariatur",
-  "DisplayText": "perspiciatis",
-  "TooltipText": "ea",
+  "ImageHint": "non",
+  "DisplayText": "mollitia",
+  "TooltipText": "omnis",
   "Enabled": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 116
     }
   }
 }

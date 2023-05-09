@@ -76,17 +76,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 953,
+  "ReportId": 747,
   "ReportCategory": "All",
-  "Description": "Realigned 5th generation product",
+  "Description": "Multi-layered uniform project",
   "ReportLayout": "CalendarMonth",
-  "Name": "Feeney, Blick and Herzog",
-  "AssociateId": 745,
-  "TemplateId": 890,
+  "Name": "Armstrong, Schultz and Hirthe",
+  "AssociateId": 276,
+  "TemplateId": 733,
   "Published": false
 }
 ```
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 590,
+  "ReportId": 372,
   "ReportCategory": "All",
-  "Description": "Public-key object-oriented service-desk",
+  "Description": "Optional mobile groupware",
   "ReportLayout": "CalendarMonth",
-  "Name": "Osinski-Cole",
-  "AssociateId": 540,
-  "TemplateId": 25,
+  "Name": "Mueller-Hackett",
+  "AssociateId": 791,
+  "TemplateId": 255,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 386
     }
   }
 }

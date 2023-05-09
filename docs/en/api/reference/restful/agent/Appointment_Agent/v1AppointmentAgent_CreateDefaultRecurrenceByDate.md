@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1999-01-12T15:29:20.6168276+01:00"
+  "StartDate": "2018-05-01T03:51:26.2875764+02:00"
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 617,
-  "StartDate": "2009-04-07T15:29:20.6168276+02:00",
-  "EndDate": "2019-05-12T15:29:20.6168276+02:00",
-  "RecurrenceCounter": 344,
+  "RecurrenceId": 524,
+  "StartDate": "2019-06-13T03:51:26.2875764+02:00",
+  "EndDate": "2013-01-14T03:51:26.2875764+01:00",
+  "RecurrenceCounter": 69,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2003-10-15T15:29:20.6173268+02:00",
+      "Date": "1998-09-23T03:51:26.2875764+02:00",
       "IsConflict": false,
-      "Description": "Phased stable methodology",
-      "DescriptionStyleHint": "Face to face dynamic instruction set",
-      "Tooltip": "dignissimos"
+      "Description": "Programmable multi-tasking flexibility",
+      "DescriptionStyleHint": "Universal disintermediate project",
+      "Tooltip": "possimus"
     },
     {
-      "Date": "2003-10-15T15:29:20.6173268+02:00",
+      "Date": "1998-09-23T03:51:26.2875764+02:00",
       "IsConflict": false,
-      "Description": "Phased stable methodology",
-      "DescriptionStyleHint": "Face to face dynamic instruction set",
-      "Tooltip": "dignissimos"
+      "Description": "Programmable multi-tasking flexibility",
+      "DescriptionStyleHint": "Universal disintermediate project",
+      "Tooltip": "possimus"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

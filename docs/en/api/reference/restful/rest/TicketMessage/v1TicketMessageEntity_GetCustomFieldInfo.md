@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Oberbrunner-Ondricka",
-  "DisplayName": "Wiza-Stiedemann",
-  "Description": "Stand-alone non-volatile encryption",
-  "ShortLabel": "ut",
+  "FieldName": "Schmidt-Kihn",
+  "DisplayName": "Parker, Spinka and Bailey",
+  "Description": "Down-sized content-based emulation",
+  "ShortLabel": "odit",
   "HideLabel": true,
-  "HideField": true,
-  "IsIndexed": false,
+  "HideField": false,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 215,
-  "TemplateVariableName": "Hartmann, Block and Kiehn"
+  "Rank": 474,
+  "TemplateVariableName": "Funk-Botsford"
 }
 ```

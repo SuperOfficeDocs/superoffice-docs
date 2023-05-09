@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 197,
-  "Name": "Reilly Inc and Sons",
-  "Tooltip": "mollitia",
-  "Deleted": true,
-  "Rank": 377,
+  "Id": 228,
+  "Name": "Rowe, Batz and Hane",
+  "Tooltip": "perspiciatis",
+  "Deleted": false,
+  "Rank": 706,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nesciunt",
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 836
+      "FieldType": "System.Int32",
+      "FieldLength": 990
     }
   },
   "_Links": {

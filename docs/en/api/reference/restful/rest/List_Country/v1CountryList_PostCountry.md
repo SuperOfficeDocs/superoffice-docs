@@ -102,24 +102,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 504,
-  "Name": "Kovacek-Powlowski",
-  "CurrencyId": 249,
-  "EnglishName": "Mohr, Kris and Douglas",
+  "CountryId": 341,
+  "Name": "Kohler LLC",
+  "CurrencyId": 967,
+  "EnglishName": "Moore-Wehner",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Managed system-worthy process improvement",
-  "OrgNrText": "1472474",
-  "InterAreaPrefix": "non",
-  "DialInPrefix": "quasi",
-  "ZipPrefix": "repellendus",
-  "DomainName": "Sauer-Wisoky",
-  "AddressLayoutId": 283,
-  "DomesticAddressLayoutId": 542,
-  "ForeignAddressLayoutId": 964,
-  "Rank": 913,
-  "Tooltip": "beatae",
-  "Deleted": false
+  "ImageDescription": "Distributed demand-driven hierarchy",
+  "OrgNrText": "1347931",
+  "InterAreaPrefix": "totam",
+  "DialInPrefix": "voluptatem",
+  "ZipPrefix": "ad",
+  "DomainName": "Keeling, Koelpin and Kerluke",
+  "AddressLayoutId": 304,
+  "DomesticAddressLayoutId": 670,
+  "ForeignAddressLayoutId": 741,
+  "Rank": 144,
+  "Tooltip": "sed",
+  "Deleted": true
 }
 ```
 
@@ -130,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 58,
-  "Name": "Macejkovic-Gleichner",
-  "CurrencyId": 630,
-  "EnglishName": "Hartmann-Stokes",
+  "CountryId": 804,
+  "Name": "Toy-Rempel",
+  "CurrencyId": 295,
+  "EnglishName": "Schultz, Boyer and Herman",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "User-friendly system-worthy matrix",
-  "OrgNrText": "1252525",
-  "InterAreaPrefix": "rerum",
-  "DialInPrefix": "non",
-  "ZipPrefix": "sunt",
-  "DomainName": "Parisian-Brakus",
-  "AddressLayoutId": 976,
-  "DomesticAddressLayoutId": 165,
-  "ForeignAddressLayoutId": 125,
-  "Rank": 591,
-  "Tooltip": "dignissimos",
-  "Deleted": true,
+  "ImageDescription": "Progressive national Graphical User Interface",
+  "OrgNrText": "586812",
+  "InterAreaPrefix": "eaque",
+  "DialInPrefix": "maiores",
+  "ZipPrefix": "qui",
+  "DomainName": "Streich-Boyle",
+  "AddressLayoutId": 487,
+  "DomesticAddressLayoutId": 183,
+  "ForeignAddressLayoutId": 129,
+  "Rank": 836,
+  "Tooltip": "aut",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

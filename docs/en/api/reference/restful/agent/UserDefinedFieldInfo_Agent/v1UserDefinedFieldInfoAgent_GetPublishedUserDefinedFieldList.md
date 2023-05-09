@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,46 +121,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 636,
-    "ColumnId": 176,
-    "FieldDefault": "voluptatibus",
-    "FieldHeight": 961,
-    "FieldLabel": "quos",
-    "FieldLeft": 268,
-    "FieldTop": 70,
+    "UDefFieldId": 766,
+    "ColumnId": 511,
+    "FieldDefault": "ex",
+    "FieldHeight": 665,
+    "FieldLabel": "unde",
+    "FieldLeft": 178,
+    "FieldTop": 134,
     "FieldType": "Checkbox",
-    "FieldWidth": 855,
-    "FormatMask": "doloremque",
+    "FieldWidth": 922,
+    "FormatMask": "autem",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 922,
-    "LabelLeft": 810,
-    "LabelTop": 304,
-    "LabelWidth": 512,
-    "LastVersionId": 330,
-    "ListTableId": 725,
+    "IsIndexed": true,
+    "LabelHeight": 770,
+    "LabelLeft": 778,
+    "LabelTop": 452,
+    "LabelWidth": 720,
+    "LastVersionId": 868,
+    "ListTableId": 235,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 237,
-    "ProgId": "non",
+    "Page1LineNo": 289,
+    "ProgId": "recusandae",
     "IsReadOnly": false,
-    "ShortLabel": "sunt",
-    "TabOrder": 691,
-    "TextLength": 558,
-    "Tooltip": "dolor",
-    "UdefIdentity": 230,
-    "UDListDefinitionId": 123,
+    "ShortLabel": "numquam",
+    "TabOrder": 852,
+    "TextLength": 785,
+    "Tooltip": "sed",
+    "UdefIdentity": 692,
+    "UDListDefinitionId": 631,
     "Justification": "Center",
-    "Version": 122,
-    "TemplateVariableName": "Crona-Metz",
+    "Version": 458,
+    "TemplateVariableName": "Treutel, Raynor and Bashirian",
     "HasBeenPublished": false,
-    "MdoListName": "Williamson, Legros and Bode",
+    "MdoListName": "Morissette LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldType": "System.String",
+        "FieldLength": 179
       }
     }
   }

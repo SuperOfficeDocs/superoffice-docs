@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 737,
+  "ErpConnectionId": 128,
   "ErpActorType": "Customer"
 }
 ```
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "a",
-    "Rank": 72,
-    "DisplayName": "Wilderman-Lynch",
-    "DisplayDescription": "Enterprise-wide 3rd generation algorithm",
+    "FieldKey": "quis",
+    "Rank": 634,
+    "DisplayName": "Mayer LLC",
+    "DisplayDescription": "Object-based asynchronous access",
     "FieldType": "Checkbox",
-    "ListName": "McKenzie-Zulauf",
-    "DefaultValue": "aut",
-    "MaxLength": 733,
+    "ListName": "Terry-Koepp",
+    "DefaultValue": "dolor",
+    "MaxLength": 578,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldLength": 291
       }
     }
   }

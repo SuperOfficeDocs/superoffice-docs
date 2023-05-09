@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    782,
-    248
+    182,
+    552
   ]
 }
 ```
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 906,
-    "Name": "Schowalter, Hauck and Willms",
-    "Description": "Business-focused value-added throughput",
+    "ProjectId": 852,
+    "Name": "Purdy LLC",
+    "Description": "Fully-configurable zero defect toolset",
     "URL": "http://www.example.com/",
-    "Type": "hic",
-    "AssociateId": 10,
-    "AssociateFullName": "Alva Nitzsche",
-    "TypeId": 397,
-    "Updated": "2010-01-12T15:29:22.4892661+01:00",
-    "StatusId": 589,
-    "Status": "sit",
-    "TextId": 214,
-    "PublishTo": "2014-04-09T15:29:22.4892661+02:00",
-    "PublishFrom": "2018-03-31T15:29:22.4892661+02:00",
+    "Type": "repudiandae",
+    "AssociateId": 63,
+    "AssociateFullName": "Annetta Bruen",
+    "TypeId": 893,
+    "Updated": "2002-10-29T03:51:27.9590553+01:00",
+    "StatusId": 247,
+    "Status": "tempora",
+    "TextId": 206,
+    "PublishTo": "2002-02-24T03:51:27.9590553+01:00",
+    "PublishFrom": "2006-08-17T03:51:27.9590553+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "325974",
-    "ActiveErpLinks": 597,
+    "ProjectNumber": "1737622",
+    "ActiveErpLinks": 323,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 200
+        "FieldType": "System.Int32",
+        "FieldLength": 221
       }
     }
   }

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "AppointmentDynamicSelection"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -685,7 +685,7 @@ Appointment selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelection?$select=contact/NumberOfNotCompletedSales,person/personExtra/x_person_longtext,project/updatedBy,project/SaintStatus3
+GET /api/v1/archive/AppointmentDynamicSelection?$select=contact/postAddress/line3,project/project/textId,associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

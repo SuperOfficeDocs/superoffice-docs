@@ -81,36 +81,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 313,
-  "ParentId": 472,
-  "Name": "Wehner-Hegmann",
-  "Fullname": "voluptas",
-  "CategoryMaster": 202,
+  "TicketCategoryId": 928,
+  "ParentId": 522,
+  "Name": "Hoppe, Windler and Haag",
+  "Fullname": "quisquam",
+  "CategoryMaster": 77,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Lesch-Erdman",
+  "ExternalName": "Lebsack Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 734,
-  "ReplyTemplate": 19,
-  "NotificationEmail": "arnaldo@reichert.biz",
+  "AssignmentLag": 491,
+  "ReplyTemplate": 485,
+  "NotificationEmail": "dusty.christiansen@keeling.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 501,
+  "EffectiveReplyTemplateId": 24,
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "asperiores",
-    "CustomFields2": "inventore"
+    "CustomFields1": "perspiciatis",
+    "CustomFields2": "molestiae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldType": "System.Int32",
+      "FieldLength": 10
     }
   }
 }

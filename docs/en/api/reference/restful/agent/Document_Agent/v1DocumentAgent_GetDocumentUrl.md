@@ -75,9 +75,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 394,
-  "VersionId": "laudantium",
-  "WriteableUrl": false
+  "DocumentId": 834,
+  "VersionId": "consequuntur",
+  "WriteableUrl": true
 }
 ```
 

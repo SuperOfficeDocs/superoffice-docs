@@ -27,7 +27,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=360
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=710
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 70,
-  "UniqueIdentifier": "est",
-  "Name": "Murphy LLC",
-  "Description": "Intuitive dynamic installation",
-  "IncludeId": "ducimus",
-  "HierarchyId": 464,
-  "Source": "amet",
-  "Registered": "1996-05-27T15:29:21.2532824+02:00",
-  "RegisteredAssociateId": 990,
-  "Updated": "1999-10-09T15:29:21.2532824+02:00",
-  "UpdatedAssociateId": 992,
+  "EjscriptId": 445,
+  "UniqueIdentifier": "velit",
+  "Name": "Douglas, McKenzie and Altenwerth",
+  "Description": "Focused stable orchestration",
+  "IncludeId": "minima",
+  "HierarchyId": 321,
+  "Source": "voluptas",
+  "Registered": "2010-09-12T03:51:26.9436626+02:00",
+  "RegisteredAssociateId": 139,
+  "Updated": "2020-03-03T03:51:26.9436626+01:00",
+  "UpdatedAssociateId": 950,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 692
     }
   }
 }

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Person"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -751,7 +751,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=restrictionAddress/formattedMultiLineAddress,personSourceRelation/supportAssociateFullName,correspondingAssociate/simultaneousEjUser,personContact/postAddress/line3,projectMembers/LastActivity
+GET /api/v1/archive/Person?$select=personId,personTargetRelation/useAsMailingAddress,personContact/streetAddress/formattedMultiLineAddress,request/timeSpentInternally,projectMembers/projectUrl/URLDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

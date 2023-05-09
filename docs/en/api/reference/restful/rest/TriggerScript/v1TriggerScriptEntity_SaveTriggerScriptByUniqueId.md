@@ -89,20 +89,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 726,
-  "Name": "Nienow, Ledner and Bailey",
+  "ScreenChooserId": 508,
+  "Name": "Littel, Powlowski and Bode",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "est",
-  "Source": "odit",
-  "Registered": "2008-08-16T15:29:30.8024849+02:00",
-  "RegisteredAssociateId": 326,
-  "Updated": "2018-03-01T15:29:30.8024849+01:00",
-  "UpdatedAssociateId": 372
+  "Enabled": false,
+  "UniqueIdentifier": "accusantium",
+  "Source": "culpa",
+  "Registered": "2009-03-16T03:51:34.1615868+01:00",
+  "RegisteredAssociateId": 87,
+  "Updated": "2007-04-27T03:51:34.1615868+02:00",
+  "UpdatedAssociateId": 825
 }
 ```
 
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 961,
-  "Name": "Rodriguez Group",
+  "ScreenChooserId": 732,
+  "Name": "O'Hara LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "impedit",
-  "Source": "iste",
-  "Registered": "2017-06-24T15:29:30.8029857+02:00",
-  "RegisteredAssociateId": 212,
-  "Updated": "2015-03-18T15:29:30.8029857+01:00",
-  "UpdatedAssociateId": 417,
+  "Enabled": true,
+  "UniqueIdentifier": "non",
+  "Source": "dolor",
+  "Registered": "2021-03-08T03:51:34.1615868+01:00",
+  "RegisteredAssociateId": 997,
+  "Updated": "2003-10-05T03:51:34.1615868+02:00",
+  "UpdatedAssociateId": 324,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 239
     }
   }
 }

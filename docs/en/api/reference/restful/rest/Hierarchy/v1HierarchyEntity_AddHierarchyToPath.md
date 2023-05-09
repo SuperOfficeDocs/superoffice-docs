@@ -73,7 +73,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,46 +83,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 37,
+  "HierarchyId": 396,
   "Domain": "Dashboards",
-  "Name": "Feeney Inc and Sons",
-  "Fullname": "sequi",
-  "ParentId": 932,
+  "Name": "Jacobs, Jast and Wyman",
+  "Fullname": "porro",
+  "ParentId": 773,
   "Children": [
     {
-      "HierarchyId": 798,
+      "HierarchyId": 185,
       "Domain": "Dashboards",
-      "Name": "King Inc and Sons",
-      "Fullname": "eaque",
-      "ParentId": 116,
+      "Name": "Simonis LLC",
+      "Fullname": "et",
+      "ParentId": 986,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-10-01T15:29:29.7881985+02:00",
-      "RegisteredAssociateId": 32,
-      "Updated": "2020-02-20T15:29:29.7881985+01:00",
-      "UpdatedAssociateId": 325,
+      "Registered": "1996-07-07T03:51:33.6928335+02:00",
+      "RegisteredAssociateId": 187,
+      "Updated": "2012-03-04T03:51:33.6928335+01:00",
+      "UpdatedAssociateId": 27,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldType": "System.String",
+          "FieldLength": 719
         }
       }
     }
   ],
-  "Registered": "2023-01-31T15:29:29.7881985+01:00",
-  "RegisteredAssociateId": 295,
-  "Updated": "2000-12-16T15:29:29.7881985+01:00",
-  "UpdatedAssociateId": 590,
+  "Registered": "1999-12-03T03:51:33.6928335+01:00",
+  "RegisteredAssociateId": 167,
+  "Updated": "2003-04-23T03:51:33.6928335+02:00",
+  "UpdatedAssociateId": 40,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 746
     }
   }
 }

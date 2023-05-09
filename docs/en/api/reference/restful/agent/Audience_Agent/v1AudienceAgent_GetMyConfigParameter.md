@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Collins-Tremblay"
+  "ParameterName": "Howell-Marks"
 }
 ```
 
@@ -93,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 479,
-  "Name": "Gleason LLC",
-  "Value": "explicabo",
-  "CreatedDate": "2014-04-23T15:29:20.8077889+02:00",
-  "UpdatedDate": "2004-05-17T15:29:20.8077889+02:00",
-  "CreatedBy": "commodi",
-  "UpdatedBy": "adipisci",
+  "AudienceLayoutId": 853,
+  "Name": "Raynor, Kuhic and Johnston",
+  "Value": "est",
+  "CreatedDate": "2018-09-16T03:51:26.5999985+02:00",
+  "UpdatedDate": "2013-12-23T03:51:26.5999985+01:00",
+  "CreatedBy": "ut",
+  "UpdatedBy": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldType": "System.Int32",
+      "FieldLength": 850
     }
   }
 }

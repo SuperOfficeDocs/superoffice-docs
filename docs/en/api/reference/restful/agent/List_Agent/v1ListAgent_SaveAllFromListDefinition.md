@@ -82,23 +82,23 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 507,
+  "UdListDefinitionId": 795,
   "Items": [
     {
-      "Id": 10,
-      "Name": "Hickle-Fay",
-      "Tooltip": "odit",
+      "Id": 545,
+      "Name": "Cummings-Hegmann",
+      "Tooltip": "qui",
       "Deleted": false,
-      "UdListDefinitionId": 620,
-      "Rank": 274
+      "UdListDefinitionId": 490,
+      "Rank": 634
     },
     {
-      "Id": 10,
-      "Name": "Hickle-Fay",
-      "Tooltip": "odit",
+      "Id": 545,
+      "Name": "Cummings-Hegmann",
+      "Tooltip": "qui",
       "Deleted": false,
-      "UdListDefinitionId": 620,
-      "Rank": 274
+      "UdListDefinitionId": 490,
+      "Rank": 634
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "Watsica, Renner and Beier",
-    "Tooltip": "veniam",
-    "Deleted": false,
-    "UdListDefinitionId": 59,
-    "Rank": 757,
+    "Id": 860,
+    "Name": "Nolan, Bartell and Sawayn",
+    "Tooltip": "nulla",
+    "Deleted": true,
+    "UdListDefinitionId": 845,
+    "Rank": 412,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 161
+        "FieldType": "System.Int32",
+        "FieldLength": 30
       }
     }
   }

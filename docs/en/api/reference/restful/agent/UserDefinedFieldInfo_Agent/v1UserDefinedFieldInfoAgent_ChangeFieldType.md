@@ -107,13 +107,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
   "FieldType": "Checkbox",
-  "IsIndexed": false
+  "IsIndexed": true
 }
 ```
 
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 520,
-  "ColumnId": 601,
-  "FieldDefault": "minima",
-  "FieldHeight": 258,
-  "FieldLabel": "praesentium",
-  "FieldLeft": 142,
-  "FieldTop": 366,
+  "UDefFieldId": 492,
+  "ColumnId": 694,
+  "FieldDefault": "tempora",
+  "FieldHeight": 995,
+  "FieldLabel": "perspiciatis",
+  "FieldLeft": 500,
+  "FieldTop": 243,
   "FieldType": "Checkbox",
-  "FieldWidth": 909,
-  "FormatMask": "quaerat",
-  "HideLabel": false,
+  "FieldWidth": 587,
+  "FormatMask": "voluptates",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 896,
-  "LabelLeft": 437,
-  "LabelTop": 170,
-  "LabelWidth": 125,
-  "LastVersionId": 15,
-  "ListTableId": 467,
-  "IsMandatory": true,
+  "LabelHeight": 322,
+  "LabelLeft": 96,
+  "LabelTop": 971,
+  "LabelWidth": 375,
+  "LastVersionId": 770,
+  "ListTableId": 98,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 701,
-  "ProgId": "sint",
+  "Page1LineNo": 303,
+  "ProgId": "maiores",
   "IsReadOnly": false,
-  "ShortLabel": "eveniet",
-  "TabOrder": 615,
-  "TextLength": 523,
-  "Tooltip": "nam",
-  "UdefIdentity": 127,
-  "UDListDefinitionId": 961,
+  "ShortLabel": "eos",
+  "TabOrder": 851,
+  "TextLength": 72,
+  "Tooltip": "eum",
+  "UdefIdentity": 504,
+  "UDListDefinitionId": 363,
   "Justification": "Center",
-  "Version": 104,
-  "TemplateVariableName": "Russel-Wolf",
-  "HasBeenPublished": false,
-  "MdoListName": "Ortiz-Ledner",
+  "Version": 234,
+  "TemplateVariableName": "Feest, Roob and McLaughlin",
+  "HasBeenPublished": true,
+  "MdoListName": "Nienow LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   }
 }

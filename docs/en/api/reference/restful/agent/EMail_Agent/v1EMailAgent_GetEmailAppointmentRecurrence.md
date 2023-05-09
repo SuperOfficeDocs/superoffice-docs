@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 171
+  "MailItemId": 668
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 777,
-  "StartDate": "2001-08-19T15:29:21.7197768+02:00",
-  "EndDate": "2015-02-02T15:29:21.7197768+01:00",
-  "RecurrenceCounter": 644,
+  "RecurrenceId": 720,
+  "StartDate": "1999-05-09T03:51:27.1936087+02:00",
+  "EndDate": "2022-12-31T03:51:27.1936087+01:00",
+  "RecurrenceCounter": 51,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,18 +110,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2005-05-09T15:29:21.7197768+02:00",
+      "Date": "1998-01-08T03:51:27.1936087+01:00",
       "IsConflict": true,
-      "Description": "Distributed zero tolerance access",
-      "DescriptionStyleHint": "Self-enabling disintermediate portal",
-      "Tooltip": "et"
+      "Description": "Upgradable radical internet solution",
+      "DescriptionStyleHint": "Balanced asynchronous projection",
+      "Tooltip": "ipsum"
     },
     {
-      "Date": "2005-05-09T15:29:21.7197768+02:00",
+      "Date": "1998-01-08T03:51:27.1936087+01:00",
       "IsConflict": true,
-      "Description": "Distributed zero tolerance access",
-      "DescriptionStyleHint": "Self-enabling disintermediate portal",
-      "Tooltip": "et"
+      "Description": "Upgradable radical internet solution",
+      "DescriptionStyleHint": "Balanced asynchronous projection",
+      "Tooltip": "ipsum"
     }
   ],
   "IsRecurrence": false

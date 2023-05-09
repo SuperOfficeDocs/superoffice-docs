@@ -83,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 776,
-    "Name": "Feil-Lesch",
-    "Tooltip": "voluptates",
-    "Rank": 290,
-    "Rate": 15068.271999999999,
-    "Units": 27826.786,
-    "Deleted": true,
+    "CurrencyId": 59,
+    "Name": "Wolff, Carter and O'Hara",
+    "Tooltip": "asperiores",
+    "Rank": 68,
+    "Rate": 28046.165999999997,
+    "Units": 1745.638,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldLength": 229
       }
     }
   }

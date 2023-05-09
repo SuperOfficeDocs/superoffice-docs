@@ -25,8 +25,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=animi
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=quidem
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 347,
-    "Name": "Stanton Inc and Sons",
-    "ToolTip": "Quis saepe eligendi voluptatem quia molestiae.",
-    "Deleted": false,
-    "Rank": 945,
-    "Type": "minus",
+    "Id": 21,
+    "Name": "Ortiz-Larson",
+    "ToolTip": "Aliquam labore.",
+    "Deleted": true,
+    "Rank": 470,
+    "Type": "nam",
     "ChildItems": [
       {
-        "Id": 61,
-        "Name": "Friesen Inc and Sons",
-        "ToolTip": "In temporibus.",
+        "Id": 454,
+        "Name": "Nitzsche-Beatty",
+        "ToolTip": "Ab et.",
         "Deleted": false,
-        "Rank": 410,
-        "Type": "numquam",
+        "Rank": 322,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsum",
-        "ColorBlock": 54,
-        "ExtraInfo": "illum",
-        "StyleHint": "ipsa",
-        "FullName": "Oswaldo Renner",
+        "IconHint": "consequuntur",
+        "ColorBlock": 977,
+        "ExtraInfo": "explicabo",
+        "StyleHint": "ea",
+        "FullName": "Ms. Deangelo Kiehn I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 435
+            "FieldType": "System.String",
+            "FieldLength": 987
           }
         }
       }
     ],
-    "IconHint": "nisi",
-    "ColorBlock": 235,
-    "ExtraInfo": "praesentium",
-    "StyleHint": "ratione",
-    "FullName": "Johnpaul Mann",
+    "IconHint": "et",
+    "ColorBlock": 96,
+    "ExtraInfo": "adipisci",
+    "StyleHint": "perferendis",
+    "FullName": "Sandrine Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldLength": 617
       }
     }
   }

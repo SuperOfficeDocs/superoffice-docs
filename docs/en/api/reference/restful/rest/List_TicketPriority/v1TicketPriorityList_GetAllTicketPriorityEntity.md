@@ -26,7 +26,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=True
+GET /api/v1/List/TicketPriority/Items?includeDeleted=False
 ```
 
 
@@ -93,7 +93,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,60 +104,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 959,
-    "Name": "Labadie, Gibson and Schoen",
+    "TicketPriorityId": 986,
+    "Name": "Feil, Wuckert and Lebsack",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 651,
+    "SortOrder": 299,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 667,
-    "MonStart": "2014-12-05T15:29:31.6659729+01:00",
-    "MonStop": "2023-01-08T15:29:31.6659729+01:00",
-    "TueStart": "2001-08-23T15:29:31.6659729+02:00",
-    "TueStop": "2019-05-07T15:29:31.6659729+02:00",
-    "WedStart": "2010-09-04T15:29:31.6659729+02:00",
-    "WedStop": "2017-10-10T15:29:31.6659729+02:00",
-    "ThuStart": "2010-04-29T15:29:31.6659729+02:00",
-    "ThuStop": "2019-06-24T15:29:31.6659729+02:00",
-    "FriStart": "2011-06-11T15:29:31.6659729+02:00",
-    "FriStop": "2023-03-01T15:29:31.6659729+01:00",
-    "SatStart": "2008-03-03T15:29:31.6659729+01:00",
-    "SatStop": "1999-05-21T15:29:31.6659729+02:00",
-    "SunStart": "2020-07-01T15:29:31.6659729+02:00",
-    "SunStop": "2010-05-04T15:29:31.6659729+02:00",
+    "Deadline": 349,
+    "MonStart": "2018-03-01T03:51:35.0051461+01:00",
+    "MonStop": "1998-05-29T03:51:35.0051461+02:00",
+    "TueStart": "2001-04-10T03:51:35.0051461+02:00",
+    "TueStop": "2004-04-14T03:51:35.0051461+02:00",
+    "WedStart": "2004-12-20T03:51:35.0051461+01:00",
+    "WedStop": "2008-10-21T03:51:35.0051461+02:00",
+    "ThuStart": "1998-06-02T03:51:35.0051461+02:00",
+    "ThuStop": "2010-11-07T03:51:35.0051461+01:00",
+    "FriStart": "2012-02-05T03:51:35.0051461+01:00",
+    "FriStop": "2022-07-06T03:51:35.0051461+02:00",
+    "SatStart": "2013-06-12T03:51:35.0051461+02:00",
+    "SatStop": "2005-02-19T03:51:35.0051461+01:00",
+    "SunStart": "2010-10-28T03:51:35.0051461+02:00",
+    "SunStop": "2000-04-23T03:51:35.0051461+02:00",
     "NonDates": [
-      "eveniet",
-      "quasi"
+      "dolore",
+      "praesentium"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 538,
-        "AlertLevel": 507,
-        "AlertTimeout": 567,
-        "Action": 312,
-        "DelegateTo": 611,
-        "ScriptId": 677,
-        "EmailTo": "catalina@marks.info",
-        "SmsTo": "magni",
-        "ReplyTemplateIdCustomer": 909,
-        "ReplyTemplateIdUser": 274,
-        "ReplyTemplateIdCatmast": 264,
-        "ReplyTemplateIdEmail": 605,
-        "RtiCustomerSms": 908,
-        "ReplyTemplateIdUserSms": 333,
-        "ReplyTemplateIdCatmastSms": 617,
-        "ReplyTemplateIdSms": 976,
+        "TicketAlertId": 388,
+        "AlertLevel": 132,
+        "AlertTimeout": 847,
+        "Action": 334,
+        "DelegateTo": 798,
+        "ScriptId": 400,
+        "EmailTo": "scottie@boyle.name",
+        "SmsTo": "voluptatibus",
+        "ReplyTemplateIdCustomer": 572,
+        "ReplyTemplateIdUser": 892,
+        "ReplyTemplateIdCatmast": 182,
+        "ReplyTemplateIdEmail": 262,
+        "RtiCustomerSms": 822,
+        "ReplyTemplateIdUserSms": 267,
+        "ReplyTemplateIdCatmastSms": 245,
+        "ReplyTemplateIdSms": 642,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 432
+            "FieldLength": 794
           }
         }
       }
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 430
+        "FieldType": "System.Int32",
+        "FieldLength": 293
       }
     }
   }

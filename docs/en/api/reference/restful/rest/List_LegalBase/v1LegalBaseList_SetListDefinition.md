@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 864,
-  "Name": "Rice, Macejkovic and Bruen",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 322,
-  "IsCustomList": true,
+  "Id": 506,
+  "Name": "Hilpert Inc and Sons",
+  "Tooltip": "excepturi",
+  "Deleted": true,
+  "Rank": 169,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "quae",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 861,
-  "Name": "Collier LLC",
-  "Tooltip": "veniam",
-  "Deleted": false,
-  "Rank": 470,
+  "Id": 351,
+  "Name": "Hirthe, Rohan and Corkery",
+  "Tooltip": "exercitationem",
+  "Deleted": true,
+  "Rank": 139,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "vitae",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldType": "System.Int32",
+      "FieldLength": 799
     }
   }
 }

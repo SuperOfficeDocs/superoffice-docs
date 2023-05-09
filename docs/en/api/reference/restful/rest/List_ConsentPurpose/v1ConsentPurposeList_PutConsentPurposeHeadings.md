@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 378,
-    "Name": "Zieme Group",
-    "Tooltip": "porro",
+    "HeadingId": 941,
+    "Name": "Brown, Stiedemann and Robel",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "Rank": 65,
-    "UdListDefinitionId": 8
+    "Rank": 483,
+    "UdListDefinitionId": 548
   },
   {
-    "HeadingId": 378,
-    "Name": "Zieme Group",
-    "Tooltip": "porro",
+    "HeadingId": 941,
+    "Name": "Brown, Stiedemann and Robel",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "Rank": 65,
-    "UdListDefinitionId": 8
+    "Rank": 483,
+    "UdListDefinitionId": 548
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 316,
-    "Name": "Nitzsche Inc and Sons",
-    "Tooltip": "quia",
+    "HeadingId": 564,
+    "Name": "Block-Adams",
+    "Tooltip": "ab",
     "Deleted": false,
-    "Rank": 334,
-    "UdListDefinitionId": 695,
+    "Rank": 385,
+    "UdListDefinitionId": 293,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 28
+        "FieldType": "System.Int32",
+        "FieldLength": 53
       }
     }
   }

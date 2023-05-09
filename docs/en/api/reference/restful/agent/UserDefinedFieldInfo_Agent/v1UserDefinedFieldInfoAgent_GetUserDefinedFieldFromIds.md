@@ -105,13 +105,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    284,
-    824
+    237,
+    29
   ]
 }
 ```
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 7,
-    "ColumnId": 382,
-    "FieldDefault": "dignissimos",
-    "FieldHeight": 816,
-    "FieldLabel": "dolores",
-    "FieldLeft": 38,
-    "FieldTop": 622,
+    "UDefFieldId": 523,
+    "ColumnId": 29,
+    "FieldDefault": "libero",
+    "FieldHeight": 163,
+    "FieldLabel": "sequi",
+    "FieldLeft": 192,
+    "FieldTop": 310,
     "FieldType": "Checkbox",
-    "FieldWidth": 452,
-    "FormatMask": "omnis",
+    "FieldWidth": 307,
+    "FormatMask": "officiis",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 28,
-    "LabelLeft": 349,
-    "LabelTop": 782,
-    "LabelWidth": 605,
-    "LastVersionId": 411,
-    "ListTableId": 777,
+    "IsIndexed": true,
+    "LabelHeight": 878,
+    "LabelLeft": 146,
+    "LabelTop": 348,
+    "LabelWidth": 640,
+    "LastVersionId": 551,
+    "ListTableId": 726,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 1000,
-    "ProgId": "est",
-    "IsReadOnly": true,
+    "Page1LineNo": 919,
+    "ProgId": "cum",
+    "IsReadOnly": false,
     "ShortLabel": "rerum",
-    "TabOrder": 124,
-    "TextLength": 288,
-    "Tooltip": "molestias",
-    "UdefIdentity": 723,
-    "UDListDefinitionId": 802,
+    "TabOrder": 229,
+    "TextLength": 62,
+    "Tooltip": "laboriosam",
+    "UdefIdentity": 75,
+    "UDListDefinitionId": 616,
     "Justification": "Center",
-    "Version": 759,
-    "TemplateVariableName": "Gleason Group",
+    "Version": 699,
+    "TemplateVariableName": "Connelly Inc and Sons",
     "HasBeenPublished": true,
-    "MdoListName": "Streich-Klein",
+    "MdoListName": "Eichmann LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 832
+        "FieldLength": 969
       }
     }
   }

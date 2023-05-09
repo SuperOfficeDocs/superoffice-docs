@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 21,
+  "DocumentTemplateId": 514,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "nam",
-  "PluginId": 178
+  "LanguageCode": "mollitia",
+  "PluginId": 299
 }
 ```
 
@@ -95,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rolfson LLC",
-  "Description": "Implemented 5th generation process improvement",
-  "ExternalReference": "unde",
-  "MimeType": "aperiam",
-  "PluginId": 601
+  "Name": "Abbott-Harris",
+  "Description": "Reverse-engineered user-facing standardization",
+  "ExternalReference": "distinctio",
+  "MimeType": "officia",
+  "PluginId": 535
 }
 ```

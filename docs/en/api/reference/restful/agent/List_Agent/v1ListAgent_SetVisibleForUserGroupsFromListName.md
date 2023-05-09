@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Konopelski Group",
-  "ListItemId": 961,
+  "UdListDefinitionName": "Harvey, Pagac and Kemmer",
+  "ListItemId": 539,
   "UserGroups": [
     {
-      "Id": 281,
-      "Name": "Bernier, Kuhic and Barrows",
-      "ToolTip": "Eligendi id ut sed sequi.",
-      "Deleted": false,
-      "Rank": 378,
-      "Type": "accusantium",
-      "ColorBlock": 543,
-      "IconHint": "quam",
+      "Id": 782,
+      "Name": "Walsh, Jewess and Nitzsche",
+      "ToolTip": "Ut alias harum et sunt.",
+      "Deleted": true,
+      "Rank": 174,
+      "Type": "quo",
+      "ColorBlock": 889,
+      "IconHint": "eligendi",
       "Selected": false,
-      "LastChanged": "2021-06-26T15:29:22.012272+02:00",
+      "LastChanged": "2012-03-09T03:51:27.4123074+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "expedita",
-      "Hidden": false,
-      "FullName": "Mr. Keanu Little"
+      "ExtraInfo": "ut",
+      "StyleHint": "perspiciatis",
+      "Hidden": true,
+      "FullName": "Ms. Rogers Boyle I"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Gislason Inc and Sons",
-    "ToolTip": "Voluptates nemo vero suscipit voluptates magni ex odio.",
-    "Deleted": false,
-    "Rank": 788,
-    "Type": "incidunt",
-    "ColorBlock": 74,
-    "IconHint": "corrupti",
-    "Selected": true,
-    "LastChanged": "2012-07-02T15:29:22.0132728+02:00",
+    "Id": 858,
+    "Name": "Reichert, Bashirian and Littel",
+    "ToolTip": "Provident optio nulla porro in ad esse.",
+    "Deleted": true,
+    "Rank": 653,
+    "Type": "suscipit",
+    "ColorBlock": 217,
+    "IconHint": "deleniti",
+    "Selected": false,
+    "LastChanged": "2012-03-30T03:51:27.4123074+02:00",
     "ChildItems": [
       {
-        "Id": 267,
-        "Name": "Stroman-Buckridge",
-        "ToolTip": "Doloribus ipsam labore et adipisci doloribus.",
-        "Deleted": false,
-        "Rank": 781,
-        "Type": "enim",
-        "ColorBlock": 64,
-        "IconHint": "illo",
+        "Id": 765,
+        "Name": "Kuhlman LLC",
+        "ToolTip": "Temporibus veniam dolor consectetur.",
+        "Deleted": true,
+        "Rank": 197,
+        "Type": "mollitia",
+        "ColorBlock": 509,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2014-12-22T15:29:22.0132728+01:00",
+        "LastChanged": "1996-12-31T03:51:27.4123074+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Prof. Anibal Randy Stamm",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Lorna Lia Gleichner I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 598
+            "FieldType": "System.Int32",
+            "FieldLength": 326
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "doloribus",
-    "Hidden": true,
-    "FullName": "Vilma Eichmann",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "veniam",
+    "Hidden": false,
+    "FullName": "Prof. Chase Hegmann Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 852
       }
     }
   }

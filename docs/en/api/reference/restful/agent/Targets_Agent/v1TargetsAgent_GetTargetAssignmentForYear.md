@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 839,
+  "TargetYear": 327,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 10
+  "Id": 871
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 349,
+  "TargetAssignmentInfoId": 686,
   "Values": [
-    561,
-    941
+    473,
+    313
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 415,
-  "DimensionListItemDisplayName": "Morissette Inc and Sons",
+  "DimensionListItem": 300,
+  "DimensionListItemDisplayName": "Murray-Renner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 375
+      "FieldType": "System.Int32",
+      "FieldLength": 705
     }
   }
 }

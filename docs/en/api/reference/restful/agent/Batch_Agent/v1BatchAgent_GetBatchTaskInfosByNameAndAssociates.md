@@ -98,10 +98,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boyer, Schiller and Mills",
+  "Name": "Anderson, Harvey and Hand",
   "AssociateIds": [
-    112,
-    278
+    597,
+    85
   ]
 }
 ```
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Cremin Group",
-    "AssociateId": 277,
-    "DetailsTable": 468,
-    "DetailsRecord": 647,
+    "Id": 734,
+    "Name": "Kihn-Heaney",
+    "AssociateId": 210,
+    "DetailsTable": 459,
+    "DetailsRecord": 835,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quia",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "inventore",
+      "ParameterObject2": "rerum"
     },
-    "LastStarted": "2008-05-06T15:29:20.8257894+02:00",
-    "Created": "2016-10-25T15:29:20.8257894+02:00",
-    "StartCount": 253,
-    "DatabaseSerialNumber": "1357855",
-    "Context": "accusantium",
-    "Result": "excepturi",
+    "LastStarted": "2014-08-03T03:51:26.6156255+02:00",
+    "Created": "2013-10-12T03:51:26.6156255+02:00",
+    "StartCount": 433,
+    "DatabaseSerialNumber": "695535",
+    "Context": "aut",
+    "Result": "nobis",
     "State": "All",
-    "Description": "Upgradable dedicated adapter",
-    "Response": "nihil",
-    "Request": "consectetur",
-    "ProgressDescription": "Devolved transitional data-warehouse",
-    "ProgressPercent": 699,
-    "FileName": "Bins-Johnston",
+    "Description": "Vision-oriented static encoding",
+    "Response": "perferendis",
+    "Request": "sint",
+    "ProgressDescription": "User-centric national Graphic Interface",
+    "ProgressPercent": 623,
+    "FileName": "Lowe-Wisoky",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 787
+        "FieldType": "System.Int32",
+        "FieldLength": 131
       }
     }
   }

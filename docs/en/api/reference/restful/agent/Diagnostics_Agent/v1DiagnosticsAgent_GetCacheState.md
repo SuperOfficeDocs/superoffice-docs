@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Orn Inc and Sons",
-    "Hoeger-Stokes"
+    "Altenwerth Group",
+    "Wisoky Group"
   ]
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptatum"
+"esse"
 ```

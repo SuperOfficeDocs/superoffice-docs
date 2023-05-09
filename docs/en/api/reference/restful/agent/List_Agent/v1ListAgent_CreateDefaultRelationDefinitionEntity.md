@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 684,
-  "Name": "Gulgowski LLC",
-  "Tooltip": "fuga",
-  "PassiveText": "vel",
+  "ReldefId": 636,
+  "Name": "Rosenbaum-Breitenberg",
+  "Tooltip": "distinctio",
+  "PassiveText": "error",
   "Deleted": false,
-  "Rank": 671,
+  "Rank": 807,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 769
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   }
 }

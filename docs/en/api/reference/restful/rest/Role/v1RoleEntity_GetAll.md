@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=est
-GET /api/v1/Role?$top=599
-GET /api/v1/Role?$skip=517
+GET /api/v1/Role?$entities=eveniet
+GET /api/v1/Role?$top=270
+GET /api/v1/Role?$skip=690
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=officia
+GET /api/v1/Role?$context=maiores
 GET /api/v1/Role?$format=JSON
 GET /api/v1/Role?$jsonSafe=True
 GET /api/v1/Role?$output=Display
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aspernatur",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 8625,
+      "PrimaryKey": 1714,
       "EntityName": "sale",
-      "saleId": 8625,
-      "contactId": 3816,
-      "name": "Gleichner-Trantow"
+      "saleId": 1714,
+      "contactId": 6202,
+      "name": "Hagenes Inc and Sons"
     },
     {
-      "PrimaryKey": 3663,
+      "PrimaryKey": 7167,
       "EntityName": "sale",
-      "saleId": 3663,
-      "contactId": 7419,
-      "name": "Jast, Labadie and Abernathy"
+      "saleId": 7167,
+      "contactId": 1957,
+      "name": "Mohr, Pouros and Lesch"
     }
   ]
 }

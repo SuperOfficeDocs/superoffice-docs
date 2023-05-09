@@ -65,7 +65,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 673,
-  "ERPPriceListKey": "sed",
-  "QuoteConnectionId": 793,
-  "Name": "Corwin Group",
-  "Description": "Customizable attitude-oriented approach",
-  "Currency": "qui",
-  "CurrencyName": "Gerhold LLC",
-  "ValidFrom": "2001-12-02T15:29:31.3674847+01:00",
-  "ValidTo": "2008-08-04T15:29:31.3674847+02:00",
+  "PriceListId": 728,
+  "ERPPriceListKey": "unde",
+  "QuoteConnectionId": 621,
+  "Name": "Gerhold-Hammes",
+  "Description": "Face to face system-worthy local area network",
+  "Currency": "omnis",
+  "CurrencyName": "Quigley Inc and Sons",
+  "ValidFrom": "2001-06-07T03:51:34.7708309+02:00",
+  "ValidTo": "2022-01-19T03:51:34.7708309+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 549
+      "FieldType": "System.Int32",
+      "FieldLength": 829
     }
   }
 }

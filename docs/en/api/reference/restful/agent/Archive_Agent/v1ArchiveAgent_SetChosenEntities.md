@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Johns-McKenzie",
-  "ProviderName": "Spinka, Vandervort and Mayer",
+  "GuiName": "Kuvalis Inc and Sons",
+  "ProviderName": "Goyette-Dietrich",
   "Entities": [
-    "sit",
-    "rem"
+    "iusto",
+    "amet"
   ]
 }
 ```

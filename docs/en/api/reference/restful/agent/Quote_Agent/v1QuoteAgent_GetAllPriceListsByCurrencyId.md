@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 767,
-  "CurrencyId": 64
+  "QuoteConnectionId": 725,
+  "CurrencyId": 783
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 523,
-    "ERPPriceListKey": "non",
-    "QuoteConnectionId": 871,
-    "Name": "Rohan, Leffler and Quitzon",
-    "Description": "Expanded encompassing monitoring",
-    "Currency": "laudantium",
-    "CurrencyName": "Wyman, Wiegand and Hilll",
-    "ValidFrom": "2000-10-24T15:29:22.5747645+02:00",
-    "ValidTo": "2023-03-08T15:29:22.5747645+01:00",
+    "PriceListId": 426,
+    "ERPPriceListKey": "deleniti",
+    "QuoteConnectionId": 945,
+    "Name": "Schuster, Franecki and O'Kon",
+    "Description": "Proactive mobile hub",
+    "Currency": "sunt",
+    "CurrencyName": "Williamson Group",
+    "ValidFrom": "2000-07-01T03:51:28.0215395+02:00",
+    "ValidTo": "2012-01-04T03:51:28.0215395+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 43
+        "FieldLength": 65
       }
     }
   }

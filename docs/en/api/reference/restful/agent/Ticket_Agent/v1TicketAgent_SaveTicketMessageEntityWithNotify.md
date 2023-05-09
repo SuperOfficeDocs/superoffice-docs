@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,28 +114,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 301,
+  "EjMessageId": 630,
   "Ticket": null,
-  "CreatedAt": "2014-11-30T15:29:23.2427545+01:00",
+  "CreatedAt": "2000-07-03T03:51:28.4120734+02:00",
   "CreatedBy": null,
-  "Author": "consequuntur",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "facere",
-  "TimeSpent": 284,
-  "Body": "similique",
-  "HtmlBody": "aperiam",
-  "EmailHeader": "annabelle@senger.us",
-  "DebugInfo": "expedita",
-  "MailSorter": "quisquam",
+  "MessageId": "corporis",
+  "TimeSpent": 993,
+  "Body": "voluptate",
+  "HtmlBody": "quae",
+  "EmailHeader": "kirsten@wittingstiedemann.co.uk",
+  "DebugInfo": "nemo",
+  "MailSorter": "magnam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolores",
+  "SearchTitle": "fuga",
   "MessageHeaders": [
     {
-      "Id": 46,
-      "Name": "Hegmann-McKenzie",
-      "Value": "voluptatem",
+      "Id": 429,
+      "Name": "Bartell-Tillman",
+      "Value": "quo",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -143,49 +143,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldLength": 838
         }
       }
     }
   ],
   "Important": false,
-  "Language": "praesentium",
-  "Sentiment": 570,
-  "SentimentConfidence": 358,
+  "Language": "voluptates",
+  "Sentiment": 255,
+  "SentimentConfidence": 165,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 712,
-      "Name": "Block, Veum and O'Keefe",
-      "ContentType": "autem",
-      "AttSize": 111,
-      "InlineImage": true,
-      "ContentId": "nostrum",
-      "AuthKey": "nihil",
+      "AttachmentId": 718,
+      "Name": "Volkman Inc and Sons",
+      "ContentType": "ea",
+      "AttSize": 665,
+      "InlineImage": false,
+      "ContentId": "corporis",
+      "AuthKey": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 444
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "corrupti"
+    "ExtraFields1": "natus",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "accusamus",
-    "CustomFields2": "autem"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "voluptate"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 769
+      "FieldType": "System.Int32",
+      "FieldLength": 548
     }
   }
 }

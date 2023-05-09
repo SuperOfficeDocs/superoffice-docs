@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 205,
-    "Section": "ut",
-    "Key": "quos",
-    "Name": "Wyman Inc and Sons",
+    "PrefDescId": 378,
+    "Section": "voluptatum",
+    "Key": "aut",
+    "Name": "Robel-Stanton",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Decentralized uniform budgetary management",
+    "Description": "Virtual background website",
     "IsBuiltin": false,
-    "TableName": "Rohan, Wunsch and Ankunding",
-    "UserDefinedListId": 399,
-    "Rank": 896,
-    "SubGroup": "reprehenderit",
-    "MinLevel": 804,
-    "MaxValue": 853,
-    "MinValue": 49,
-    "RequiredLicense": "officia",
+    "TableName": "Hand LLC",
+    "UserDefinedListId": 783,
+    "Rank": 480,
+    "SubGroup": "eos",
+    "MinLevel": 710,
+    "MaxValue": 888,
+    "MinValue": 309,
+    "RequiredLicense": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 382
       }
     }
   }

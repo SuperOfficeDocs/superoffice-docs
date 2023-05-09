@@ -77,30 +77,30 @@ OK
 POST /api/v1/Webhook/Test
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 996,
-  "Name": "Barrows, Breitenberg and Pagac",
+  "WebhookId": 602,
+  "Name": "Krajcik-Kassulke",
   "Events": [
-    "accusamus",
-    "dolores"
+    "amet",
+    "voluptatem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "inventore",
+  "Secret": "illum",
   "State": "Active",
-  "Type": "qui",
+  "Type": "soluta",
   "Headers": {
-    "Headers1": "unde",
-    "Headers2": "dicta"
+    "Headers1": "libero",
+    "Headers2": "esse"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-05-09T15:29:31.0259479+02:00",
+  "Registered": "2001-03-10T03:51:34.3490406+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2021-05-27T15:29:31.0264485+02:00",
+  "Updated": "2017-06-09T03:51:34.3490406+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -113,13 +113,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "maxime",
+  "Message": "doloribus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldType": "System.Int32",
+      "FieldLength": 356
     }
   }
 }

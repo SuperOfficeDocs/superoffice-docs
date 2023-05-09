@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 513
+  "ProductId": 699
 }
 ```
 
@@ -120,73 +120,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 398,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "voluptatem",
-  "Name": "Zboncak, Macejkovic and Cartwright",
-  "Description": "Cloned intangible archive",
-  "Code": "fuga",
-  "PriceUnit": "deserunt",
-  "QuantityUnit": "nisi",
+  "ProductId": 381,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "rem",
+  "Name": "Johnson, Hessel and O'Keefe",
+  "Description": "Exclusive intermediate superstructure",
+  "Code": "et",
+  "PriceUnit": "occaecati",
+  "QuantityUnit": "cumque",
   "IsSubscription": false,
-  "SubscriptionUnit": "porro",
-  "DefaultSubscriptionQuantity": 24138.068,
-  "ItemNumber": "570896",
+  "SubscriptionUnit": "quia",
+  "DefaultSubscriptionQuantity": 723.954,
+  "ItemNumber": "1208465",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "fuga",
-  "ProductTypeKey": "adipisci",
-  "VAT": 20941.388,
-  "VATInfo": "repellat",
-  "UnitCost": 13191.006,
-  "UnitMinimumPrice": 6387.092,
-  "UnitListPrice": 7462.054,
+  "ProductFamilyKey": "voluptatibus",
+  "ProductTypeKey": "tenetur",
+  "VAT": 11743.098,
+  "VATInfo": "non",
+  "UnitCost": 20524.566,
+  "UnitMinimumPrice": 15839.235999999999,
+  "UnitListPrice": 18280.622,
   "InAssortment": false,
-  "Supplier": "ipsam",
-  "SupplierCode": "quibusdam",
-  "Rights": "repellendus",
-  "Rule": "at",
+  "Supplier": "aut",
+  "SupplierCode": "voluptas",
+  "Rights": "quos",
+  "Rule": "quam",
   "ExtraInfo": [
     {
-      "Name": "Hand, Franecki and Feeney",
-      "Value": "voluptas",
+      "Name": "Kuvalis, Lindgren and Toy",
+      "Value": "quibusdam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 739
+          "FieldType": "System.String",
+          "FieldLength": 270
         }
       }
     },
     {
-      "Name": "Hand, Franecki and Feeney",
-      "Value": "voluptas",
+      "Name": "Kuvalis, Lindgren and Toy",
+      "Value": "quibusdam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 739
+          "FieldType": "System.String",
+          "FieldLength": 270
         }
       }
     }
   ],
-  "RawExtraInfo": "eos",
-  "ExtraField1": "at",
-  "ExtraField2": "dolorem",
-  "ExtraField3": "cupiditate",
-  "ExtraField4": "voluptates",
-  "ExtraField5": "nihil",
-  "InStock": 11119.431999999999,
+  "RawExtraInfo": "sed",
+  "ExtraField1": "quia",
+  "ExtraField2": "corporis",
+  "ExtraField3": "blanditiis",
+  "ExtraField4": "dolorem",
+  "ExtraField5": "facilis",
+  "InStock": 17249.536,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldType": "System.String",
+      "FieldLength": 395
     }
   }
 }

@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Will LLC",
-  "Tooltip": "tempora",
-  "Deleted": false,
-  "UdListDefinitionId": 674,
-  "Rank": 998,
+  "Id": 618,
+  "Name": "Kessler Group",
+  "Tooltip": "soluta",
+  "Deleted": true,
+  "UdListDefinitionId": 603,
+  "Rank": 487,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldType": "System.String",
+      "FieldLength": 215
     }
   }
 }

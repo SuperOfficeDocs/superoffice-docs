@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 339,
-    "Name": "Stokes-Larkin",
-    "ToolTip": "Et itaque vel ut sit ad aspernatur omnis.",
+    "Id": 232,
+    "Name": "Schaden-Purdy",
+    "ToolTip": "Non provident et ratione occaecati aut ducimus.",
     "Deleted": false,
-    "Rank": 669,
-    "Type": "modi",
-    "ColorBlock": 135,
-    "IconHint": "itaque",
-    "Selected": true,
-    "LastChanged": "2008-08-14T15:29:31.3289778+02:00",
+    "Rank": 887,
+    "Type": "ut",
+    "ColorBlock": 461,
+    "IconHint": "labore",
+    "Selected": false,
+    "LastChanged": "2016-11-27T03:51:34.7395889+01:00",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Bruen Group",
-        "ToolTip": "Cum aut ullam sint atque.",
+        "Id": 529,
+        "Name": "Flatley, Kunde and Raynor",
+        "ToolTip": "Doloremque incidunt harum.",
         "Deleted": false,
-        "Rank": 347,
-        "Type": "odit",
-        "ColorBlock": 629,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2010-04-28T15:29:31.3289778+02:00",
+        "Rank": 582,
+        "Type": "perferendis",
+        "ColorBlock": 667,
+        "IconHint": "minima",
+        "Selected": true,
+        "LastChanged": "2002-03-22T03:51:34.7395889+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "vero",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Mrs. Meta Rachel Casper DVM",
+        "FullName": "Adela Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 357
+            "FieldLength": 743
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "deleniti",
-    "Hidden": true,
-    "FullName": "Prof. Gerard Curt Hettinger",
+    "ExtraInfo": "eius",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Javier Wilkinson V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 699
+        "FieldType": "System.String",
+        "FieldLength": 377
       }
     }
   }

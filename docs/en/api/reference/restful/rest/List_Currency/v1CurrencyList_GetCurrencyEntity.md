@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 881,
-  "Name": "Lemke, Kohler and Willms",
-  "Tooltip": "aliquid",
-  "Rank": 313,
-  "Rate": 9010.25,
-  "Units": 24752.332,
-  "Deleted": false,
+  "CurrencyId": 242,
+  "Name": "Lubowitz-Roberts",
+  "Tooltip": "omnis",
+  "Rank": 91,
+  "Rate": 27485.18,
+  "Units": 2027.6979999999999,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldLength": 948
     }
   }
 }

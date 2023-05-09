@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 137,
-  "Currency": "enim"
+  "QuoteConnectionId": 726,
+  "Currency": "in"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 928,
-    "ERPPriceListKey": "rerum",
-    "QuoteConnectionId": 189,
-    "Name": "O'Reilly-Reilly",
-    "Description": "Reactive upward-trending Graphic Interface",
-    "Currency": "sint",
-    "CurrencyName": "Murray-Lueilwitz",
-    "ValidFrom": "2009-10-08T15:29:22.5737638+02:00",
-    "ValidTo": "2022-03-22T15:29:22.5737638+01:00",
+    "PriceListId": 755,
+    "ERPPriceListKey": "qui",
+    "QuoteConnectionId": 67,
+    "Name": "Wiza LLC",
+    "Description": "User-friendly foreground database",
+    "Currency": "dolor",
+    "CurrencyName": "Armstrong Group",
+    "ValidFrom": "2013-05-17T03:51:28.0215395+02:00",
+    "ValidTo": "1998-09-24T03:51:28.0215395+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldLength": 428
       }
     }
   }

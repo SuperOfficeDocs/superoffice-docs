@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 69,
+  "DocumentId": 752,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "eveniet",
-  "Name": "Smitham-Glover",
-  "OurRef": "rem",
-  "YourRef": "quisquam",
-  "CreatedDate": "2010-01-24T15:29:21.561779+01:00",
-  "UpdatedDate": "2017-07-21T15:29:21.561779+02:00",
-  "Description": "Sharable clear-thinking alliance",
+  "Attention": "ducimus",
+  "Header": "beatae",
+  "Name": "Watsica, Towne and Hammes",
+  "OurRef": "facilis",
+  "YourRef": "ratione",
+  "CreatedDate": "2010-10-19T03:51:27.0686399+02:00",
+  "UpdatedDate": "2017-08-18T03:51:27.0686399+02:00",
+  "Description": "Business-focused content-based leverage",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1997-01-12T15:29:21.5642796+01:00",
-  "ExternalRef": "deserunt",
+  "Date": "1996-11-14T03:51:27.0686399+01:00",
+  "ExternalRef": "reiciendis",
   "Completed": "Completed",
-  "ActiveLinks": 433,
+  "ActiveLinks": 244,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bruen, Sporer and Raynor",
-      "Id": 875,
-      "Description": "Persevering multimedia leverage",
-      "ExtraInfo": "sed",
-      "LinkId": 202,
+      "EntityName": "Boyer, Greenfelder and O'Reilly",
+      "Id": 60,
+      "Description": "Profit-focused tangible superstructure",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 102,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldType": "System.String",
+          "FieldLength": 476
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 178,
-  "Snum": 955,
+  "SuggestedDocumentId": 370,
+  "Snum": 938,
   "UserDefinedFields": {
-    "SuperOffice:1": "927707080",
-    "SuperOffice:2": "Jacey Koepp"
+    "SuperOffice:1": "Marge Valentin Hansen IV",
+    "SuperOffice:2": "Mr. Delbert King"
   },
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "fuga"
+    "CustomFields1": "nulla",
+    "CustomFields2": "quis"
   },
-  "PublishEventDate": "1997-10-31T15:29:21.5657784+01:00",
-  "PublishTo": "2014-03-06T15:29:21.5657784+01:00",
-  "PublishFrom": "2015-08-18T15:29:21.5657784+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2015-10-14T03:51:27.0686399+02:00",
+  "PublishTo": "2003-09-07T03:51:27.0686399+02:00",
+  "PublishFrom": "2016-03-08T03:51:27.0686399+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 391,
+      "VisibleId": 982,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 509
+          "FieldType": "System.Int32",
+          "FieldLength": 236
         }
       }
     },
     {
-      "VisibleId": 391,
+      "VisibleId": 982,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 509
+          "FieldType": "System.Int32",
+          "FieldLength": 236
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 347
+      "FieldType": "System.String",
+      "FieldLength": 712
     }
   }
 }

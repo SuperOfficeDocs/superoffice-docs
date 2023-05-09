@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 455,
-  "StartTime": "2000-08-18T15:29:20.233326+02:00",
-  "EndTime": "2010-01-02T15:29:20.233326+01:00",
-  "Count": 117,
+  "PersonId": 51,
+  "StartTime": "1998-06-29T03:51:26.1001041+02:00",
+  "EndTime": "2004-07-14T03:51:26.1001041+02:00",
+  "Count": 956,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 507,
-    "StartDate": "2001-11-03T15:29:20.2348252+01:00",
-    "EndDate": "2015-09-21T15:29:20.2348252+02:00",
+    "AppointmentId": 809,
+    "StartDate": "1999-08-13T03:51:26.1001041+02:00",
+    "EndDate": "2019-04-27T03:51:26.1001041+02:00",
     "Type": "BookingForChecklist",
-    "Task": "magnam",
-    "AssociateFullName": "Prof. Dulce Olson IV",
-    "ContactName": "Hessel-Erdman",
-    "Description": "Cross-group client-driven frame",
-    "PersonFullName": "Aiden Rosa Gusikowski V",
-    "PersonId": 77,
-    "ContactId": 637,
-    "ProjectId": 909,
-    "ProjectName": "Marvin-Ebert",
-    "IsPublished": true,
-    "AssociateId": 980,
-    "ColorIndex": 743,
-    "IsFree": false,
-    "HasAlarm": false,
+    "Task": "laborum",
+    "AssociateFullName": "Eleazar McKenzie",
+    "ContactName": "Kozey LLC",
+    "Description": "Centralized optimizing success",
+    "PersonFullName": "Kristofer Ward I",
+    "PersonId": 454,
+    "ContactId": 10,
+    "ProjectId": 382,
+    "ProjectName": "Kassulke, Hamill and Klocko",
+    "IsPublished": false,
+    "AssociateId": 181,
+    "ColorIndex": 283,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 708,
-    "PriorityName": "D'Amore Inc and Sons",
+    "PriorityId": 756,
+    "PriorityName": "Hermiston, Shields and Lueilwitz",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2005-02-26T15:29:20.2353248+01:00",
+    "ActiveDate": "2018-08-08T03:51:26.1001041+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-04-18T15:29:20.2353248+02:00",
-    "RecurringEndDate": "2001-02-16T15:29:20.2353248+01:00",
-    "MotherId": 233,
-    "AssignedBy": 835,
-    "AssignedByFullName": "Keegan Farrell",
+    "RecurringStartDate": "2010-11-30T03:51:26.1001041+01:00",
+    "RecurringEndDate": "2009-04-06T03:51:26.1001041+02:00",
+    "MotherId": 556,
+    "AssignedBy": 428,
+    "AssignedByFullName": "Westley Kihn",
     "RejectReason": "",
-    "Location": "aperiam",
-    "AlarmLeadTime": "et",
-    "SaleId": 235,
-    "SaleName": "Raynor Group",
-    "AssociateName": "McLaughlin-Bogan",
-    "CreatedDate": "2015-09-26T15:29:20.2358246+02:00",
-    "CreatedBy": "autem",
-    "CreatedByFullName": "Ottis Kautzer",
-    "CreatedByAssociateId": 873,
+    "Location": "eligendi",
+    "AlarmLeadTime": "qui",
+    "SaleId": 692,
+    "SaleName": "Rippin Inc and Sons",
+    "AssociateName": "Prosacco-Zemlak",
+    "CreatedDate": "2014-03-28T03:51:26.1001041+01:00",
+    "CreatedBy": "dolores",
+    "CreatedByFullName": "Kaia Koch I",
+    "CreatedByAssociateId": 102,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 538
+        "FieldLength": 50
       }
     }
   }

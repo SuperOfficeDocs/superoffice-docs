@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,14 +115,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 767,
-  "Name": "Windler, Weber and Koepp",
-  "Rank": 536,
-  "Tooltip": "praesentium",
+  "AssociateId": 245,
+  "Name": "Dach Group",
+  "Rank": 321,
+  "Tooltip": "non",
   "LicenseOwners": [
     {
-      "Name": "Dickinson, Hessel and Gleason",
-      "Description": "De-engineered 24 hour adapter",
+      "Name": "Schaden-Daniel",
+      "Description": "Advanced global database",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 652
         }
       }
     },
     {
-      "Name": "Dickinson, Hessel and Gleason",
-      "Description": "De-engineered 24 hour adapter",
+      "Name": "Schaden-Daniel",
+      "Description": "Advanced global database",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 652
         }
       }
     }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptates",
-      "Tooltip": "aut",
-      "Id": 350,
-      "Rank": 690,
+      "Value": "et",
+      "Tooltip": "quia",
+      "Id": 324,
+      "Rank": 825,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldLength": 38
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2019-02-03T15:29:23.2822546+01:00",
-  "Lastlogout": "2017-08-27T15:29:23.2822546+02:00",
-  "EjUserId": 3,
-  "RequestSignature": "ut",
+  "Lastlogin": "2001-11-22T03:51:28.4433187+01:00",
+  "Lastlogout": "2006-06-02T03:51:28.4433187+02:00",
+  "EjUserId": 317,
+  "RequestSignature": "dicta",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "doloribus",
-      "DisplayValue": "aliquid",
+      "Value": "reiciendis",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 231
         }
       }
     },
     {
       "Type": null,
-      "Value": "doloribus",
-      "DisplayValue": "aliquid",
+      "Value": "reiciendis",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 231
         }
       }
     }
   ],
-  "UserName": "Witting, Collins and Jakubowski",
+  "UserName": "Lang-Welch",
   "TicketCategories": [
     {
-      "Id": 554,
-      "Name": "Beier LLC",
-      "ToolTip": "Ut officia voluptatem nisi vel quibusdam occaecati et.",
-      "Deleted": false,
-      "Rank": 528,
-      "Type": "quia",
+      "Id": 644,
+      "Name": "Wuckert-Yost",
+      "ToolTip": "Adipisci non.",
+      "Deleted": true,
+      "Rank": 734,
+      "Type": "incidunt",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sed",
-      "ColorBlock": 144,
-      "ExtraInfo": "dolorum",
-      "StyleHint": "et",
-      "FullName": "Randal Terry",
+      "IconHint": "cupiditate",
+      "ColorBlock": 999,
+      "ExtraInfo": "cupiditate",
+      "StyleHint": "natus",
+      "FullName": "Woodrow Stiedemann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 843
+          "FieldLength": 150
         }
       }
     }
   ],
-  "NickName": "Pollich LLC",
+  "NickName": "Champlin, O'Kon and Bartell",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "et"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "iste"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "est"
+    "CustomFields1": "aut",
+    "CustomFields2": "in"
   },
   "PostSaveCommands": [
     {
-      "Name": "Monahan-Torp",
-      "DisplayName": "Bins Inc and Sons",
-      "Description": "Balanced maximized help-desk",
-      "ToolTip": "Et dolor magnam rem ut.",
+      "Name": "Goodwin Inc and Sons",
+      "DisplayName": "Gulgowski, Nienow and Olson",
+      "Description": "Adaptive impactful capacity",
+      "ToolTip": "Excepturi aut sit.",
       "Actions": "Implicit",
-      "ActionData": "ullam",
+      "ActionData": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldType": "System.String",
+          "FieldLength": 6
         }
       }
     }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 878
     }
   }
 }

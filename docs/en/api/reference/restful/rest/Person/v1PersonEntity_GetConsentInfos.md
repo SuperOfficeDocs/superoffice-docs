@@ -74,7 +74,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,27 +85,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 662,
-    "Comment": "ab",
-    "Registered": "2014-11-13T15:29:29.8966987+01:00",
-    "RegisteredAssociateId": 170,
-    "Updated": "2013-03-04T15:29:29.8966987+01:00",
-    "UpdatedAssociateId": 557,
-    "LegalBaseId": 775,
-    "LegalBaseKey": "doloremque",
-    "LegalBaseName": "Johnston, Hyatt and Cormier",
-    "ConsentPurposeId": 202,
-    "ConsentPurposeKey": "veritatis",
-    "ConsentPurposeName": "Kozey, Cartwright and Wiegand",
-    "ConsentSourceId": 702,
-    "ConsentSourceKey": "molestias",
-    "ConsentSourceName": "McClure-Ankunding",
+    "ConsentPersonId": 518,
+    "Comment": "illum",
+    "Registered": "2020-05-10T03:51:33.7865602+02:00",
+    "RegisteredAssociateId": 179,
+    "Updated": "2004-07-11T03:51:33.7865602+02:00",
+    "UpdatedAssociateId": 606,
+    "LegalBaseId": 137,
+    "LegalBaseKey": "incidunt",
+    "LegalBaseName": "Anderson Inc and Sons",
+    "ConsentPurposeId": 499,
+    "ConsentPurposeKey": "voluptas",
+    "ConsentPurposeName": "Prohaska, Strosin and Stehr",
+    "ConsentSourceId": 915,
+    "ConsentSourceKey": "qui",
+    "ConsentSourceName": "Moen, Dare and Mohr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 22
+        "FieldType": "System.Int32",
+        "FieldLength": 858
       }
     }
   }

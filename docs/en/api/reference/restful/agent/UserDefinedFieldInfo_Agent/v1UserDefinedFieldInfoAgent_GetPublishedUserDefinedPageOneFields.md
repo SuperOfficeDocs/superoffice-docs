@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 715
+  "UserGroupId": 219
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 917,
-    "ColumnId": 674,
-    "FieldDefault": "nulla",
-    "FieldHeight": 364,
-    "FieldLabel": "atque",
-    "FieldLeft": 866,
-    "FieldTop": 578,
+    "UDefFieldId": 747,
+    "ColumnId": 11,
+    "FieldDefault": "eveniet",
+    "FieldHeight": 904,
+    "FieldLabel": "sed",
+    "FieldLeft": 912,
+    "FieldTop": 694,
     "FieldType": "Checkbox",
-    "FieldWidth": 49,
-    "FormatMask": "omnis",
+    "FieldWidth": 69,
+    "FormatMask": "eos",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 482,
-    "LabelLeft": 559,
-    "LabelTop": 864,
-    "LabelWidth": 438,
-    "LastVersionId": 27,
-    "ListTableId": 766,
+    "LabelHeight": 69,
+    "LabelLeft": 174,
+    "LabelTop": 240,
+    "LabelWidth": 252,
+    "LastVersionId": 360,
+    "ListTableId": 905,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 808,
-    "ProgId": "vel",
-    "IsReadOnly": false,
-    "ShortLabel": "recusandae",
-    "TabOrder": 162,
-    "TextLength": 334,
-    "Tooltip": "consequatur",
-    "UdefIdentity": 890,
-    "UDListDefinitionId": 283,
+    "Page1LineNo": 470,
+    "ProgId": "a",
+    "IsReadOnly": true,
+    "ShortLabel": "eligendi",
+    "TabOrder": 39,
+    "TextLength": 608,
+    "Tooltip": "iure",
+    "UdefIdentity": 99,
+    "UDListDefinitionId": 458,
     "Justification": "Center",
-    "Version": 793,
-    "TemplateVariableName": "Daniel-Turcotte",
-    "HasBeenPublished": true,
-    "MdoListName": "Franecki-Blick",
+    "Version": 728,
+    "TemplateVariableName": "Nicolas, Yundt and Schumm",
+    "HasBeenPublished": false,
+    "MdoListName": "Rohan, Simonis and Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 987
+        "FieldType": "System.Int32",
+        "FieldLength": 499
       }
     }
   }

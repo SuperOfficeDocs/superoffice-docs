@@ -66,7 +66,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,25 +74,25 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 23 Apr 2013 15:29:29 G4T
+Last-Modified: Tue, 05 Oct 1999 03:51:33 G10T
 
 [
   {
-    "ForeignDeviceId": 469,
-    "Name": "Gislason Inc and Sons",
-    "CreatedDate": "1997-04-22T15:29:29.7706984+02:00",
-    "UpdatedDate": "2013-04-23T15:29:29.7706984+02:00",
-    "AssociateFullName": "Abigale Nader",
-    "CreatedBy": "saepe",
-    "UpdatedBy": "nihil",
-    "DeviceIdentifier": "corporis",
-    "ForeignAppId": 449,
+    "ForeignDeviceId": 536,
+    "Name": "Dare-Schaden",
+    "CreatedDate": "2001-04-02T03:51:33.677213+02:00",
+    "UpdatedDate": "1999-10-05T03:51:33.677213+02:00",
+    "AssociateFullName": "Earlene Kutch I",
+    "CreatedBy": "suscipit",
+    "UpdatedBy": "aut",
+    "DeviceIdentifier": "molestias",
+    "ForeignAppId": 464,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 851
+        "FieldLength": 992
       }
     }
   }

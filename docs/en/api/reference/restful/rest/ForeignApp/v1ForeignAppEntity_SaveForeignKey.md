@@ -86,14 +86,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "molestiae",
-  "Value": "tempora",
-  "RecordId": 189,
-  "CreatedDate": "2010-06-20T15:29:29.7771982+02:00",
-  "UpdatedDate": "1996-08-05T15:29:29.7771982+02:00",
-  "UpdatedBy": "commodi",
-  "CreatedBy": "consequatur",
-  "TableName": "Watsica-Batz"
+  "Key": "et",
+  "Value": "sed",
+  "RecordId": 879,
+  "CreatedDate": "2000-05-26T03:51:33.6928335+02:00",
+  "UpdatedDate": "1999-10-25T03:51:33.6928335+02:00",
+  "UpdatedBy": "rem",
+  "CreatedBy": "sed",
+  "TableName": "O'Conner, Christiansen and Hermann"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "numquam",
-  "Value": "ratione",
-  "RecordId": 909,
-  "CreatedDate": "2011-06-10T15:29:29.7776992+02:00",
-  "UpdatedDate": "2022-08-30T15:29:29.7776992+02:00",
-  "UpdatedBy": "unde",
-  "CreatedBy": "vel",
-  "TableName": "Thompson, Abshire and Volkman",
+  "Key": "perspiciatis",
+  "Value": "similique",
+  "RecordId": 630,
+  "CreatedDate": "2002-05-10T03:51:33.6928335+02:00",
+  "UpdatedDate": "2022-07-22T03:51:33.6928335+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "nulla",
+  "TableName": "Moore Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldType": "System.String",
+      "FieldLength": 684
     }
   }
 }

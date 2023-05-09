@@ -25,7 +25,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=766
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=383
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -116,70 +116,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-architected cohesive infrastructure",
-  "Postit": "molestiae",
+  "Description": "Organic neutral implementation",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 348,
-  "IncludePerson": 538,
-  "MemberCount": 443,
-  "Name": "Connelly, Ernser and Homenick",
-  "PostitTextId": 319,
-  "CreatedDate": "2016-07-18T15:29:22.774797+02:00",
-  "SelectionId": 190,
-  "SoundEx": "fuga",
-  "Source": 244,
-  "TextId": 519,
-  "UpdatedDate": "1998-02-21T15:29:22.774797+01:00",
-  "UpdatedCount": 378,
-  "Visibility": 374,
+  "GroupIdx": 684,
+  "IncludePerson": 2,
+  "MemberCount": 65,
+  "Name": "Watsica-Hand",
+  "PostitTextId": 477,
+  "CreatedDate": "2017-10-29T03:51:28.1621313+01:00",
+  "SelectionId": 793,
+  "SoundEx": "est",
+  "Source": 823,
+  "TextId": 791,
+  "UpdatedDate": "2005-07-27T03:51:28.1621313+02:00",
+  "UpdatedCount": 637,
+  "Visibility": 490,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 463,
-  "TargetTableName": "Brown Group",
+  "TargetTableNumber": 877,
+  "TargetTableName": "Runolfsson, Stark and Stroman",
   "Completed": false,
-  "LeftSelectionId": 411,
-  "RightSelectionId": 473,
+  "LeftSelectionId": 567,
+  "RightSelectionId": 869,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Crist-Pfannerstill",
-  "ShadowProviderName": "Heidenreich LLC",
-  "ChartKey": "dolorem",
-  "LastLoaded": "2018-02-17T15:29:22.774797+01:00",
-  "LastLoadedBy": 208,
+  "MainProviderName": "Wilderman, Spinka and Walker",
+  "ShadowProviderName": "Smith-Spinka",
+  "ChartKey": "tempore",
+  "LastLoaded": "1997-05-17T03:51:28.1621313+02:00",
+  "LastLoadedBy": 843,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-12-09T15:29:22.7753026+01:00",
-  "LastMembershipChangeBy": 515,
+  "LastMembershipChange": "2002-12-05T03:51:28.1621313+01:00",
+  "LastMembershipChangeBy": 882,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "in",
-  "MemberTabHeading": "perspiciatis",
-  "MailingsProviderName": "Moen Group",
-  "DashboardTileDefinitionId": 235,
+  "MainHeading": "eius",
+  "MemberTabHeading": "sit",
+  "MailingsProviderName": "Kris, Quitzon and Rohan",
+  "DashboardTileDefinitionId": 281,
   "VisibleFor": [
     {
-      "VisibleId": 672,
+      "VisibleId": 735,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldType": "System.String",
+          "FieldLength": 3
         }
       }
     },
     {
-      "VisibleId": 672,
+      "VisibleId": 735,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldType": "System.String",
+          "FieldLength": 3
         }
       }
     }
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldType": "System.String",
+      "FieldLength": 701
     }
   }
 }

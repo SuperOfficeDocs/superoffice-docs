@@ -293,6 +293,7 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Sale" nillable="true" type="tns:Sale" />
               <xs:element minOccurs="0" name="Project" nillable="true" type="tns:Project" />
+              <xs:element minOccurs="0" name="FormSubmission" nillable="true" type="tns:TicketFormSubmission" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
             </xs:sequence>
@@ -954,6 +955,30 @@ title: Services88.TicketAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="Project" nillable="true" type="tns:Project" />
+      <xs:complexType name="TicketFormSubmission">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="FormSubmissionId" type="xs:int" />
+          <xs:element minOccurs="0" name="EmailAddress" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Status" type="tns:FormSubmissionStatus" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="TicketFormSubmission" nillable="true" type="tns:TicketFormSubmission" />
+      <xs:simpleType name="FormSubmissionStatus">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="InProgress" />
+          <xs:enumeration value="EmailVerification" />
+          <xs:enumeration value="Submitted" />
+          <xs:enumeration value="Processed" />
+          <xs:enumeration value="Failed" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="FormSubmissionStatus" nillable="true" type="tns:FormSubmissionStatus" />
       <xs:element name="SaveTicketEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1078,6 +1103,7 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
               <xs:element minOccurs="0" name="SaleHeading" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ProjectName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FormSubmissionId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

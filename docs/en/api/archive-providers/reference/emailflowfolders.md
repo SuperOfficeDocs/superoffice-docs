@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "EmailFlowFolders"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -41,7 +41,7 @@ Lists all email flow folders
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowFolders?$select=hierarchyParentId,hierarchyId,hierarchyFullname
+GET /api/v1/archive/EmailFlowFolders?$select=hierarchyId,hierarchyFullname
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

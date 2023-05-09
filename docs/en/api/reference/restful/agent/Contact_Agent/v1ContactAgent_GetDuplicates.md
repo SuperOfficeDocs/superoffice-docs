@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Beer, Hessel and Nolan"
+  "Name": "King LLC"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Stokes-Williamson",
-    "SoPrimaryKey": 751,
-    "EntryName": "Strosin-Crist",
-    "EntryIdentifier": "doloremque",
-    "RuleDisplayName": "Koelpin Inc and Sons",
+    "RuleName": "Klein, Runolfsdottir and Hoeger",
+    "SoPrimaryKey": 959,
+    "EntryName": "Halvorson, Towne and Quitzon",
+    "EntryIdentifier": "quo",
+    "RuleDisplayName": "Tromp LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 906
+        "FieldLength": 390
       }
     }
   }

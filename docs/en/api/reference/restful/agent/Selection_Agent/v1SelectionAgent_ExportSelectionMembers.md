@@ -73,8 +73,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 625,
-  "TemplateName": "Streich Group",
+  "SelectionId": 178,
+  "TemplateName": "Schiller-Emard",
   "UseContacts": false
 }
 ```

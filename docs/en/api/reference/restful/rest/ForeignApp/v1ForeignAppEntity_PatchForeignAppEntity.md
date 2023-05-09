@@ -113,18 +113,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatum",
+    "path": "quae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatum",
+    "path": "quae",
     "value": {}
   }
 ]
@@ -137,29 +137,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 911,
-  "Name": "Jerde LLC",
-  "CreatedDate": "2016-05-09T15:29:29.7661984+02:00",
-  "UpdatedDate": "1996-09-02T15:29:29.7661984+02:00",
+  "ForeignAppId": 882,
+  "Name": "Schulist Group",
+  "CreatedDate": "2018-12-25T03:51:33.677213+01:00",
+  "UpdatedDate": "2019-04-11T03:51:33.677213+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 993,
-      "Name": "DuBuque, Swift and Wiza",
-      "CreatedDate": "2014-12-27T15:29:29.7667035+01:00",
-      "UpdatedDate": "1996-02-12T15:29:29.7667035+01:00",
-      "AssociateFullName": "Jordyn Mills",
-      "CreatedBy": "dignissimos",
-      "UpdatedBy": "mollitia",
-      "DeviceIdentifier": "molestiae",
-      "ForeignAppId": 466,
+      "ForeignDeviceId": 317,
+      "Name": "Howell, Harris and Stroman",
+      "CreatedDate": "2016-11-17T03:51:33.677213+01:00",
+      "UpdatedDate": "1999-03-25T03:51:33.677213+01:00",
+      "AssociateFullName": "Mr. Palma Eveline Herman I",
+      "CreatedBy": "voluptates",
+      "UpdatedBy": "voluptatibus",
+      "DeviceIdentifier": "a",
+      "ForeignAppId": 170,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldType": "System.String",
+          "FieldLength": 193
         }
       }
     }
@@ -168,13 +168,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 711
+      "FieldType": "System.Int32",
+      "FieldLength": 381
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

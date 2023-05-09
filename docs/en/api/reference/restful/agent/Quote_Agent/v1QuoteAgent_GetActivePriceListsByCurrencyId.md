@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 340,
-  "CurrencyId": 122
+  "QuoteConnectionId": 360,
+  "CurrencyId": 706
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 679,
-    "ERPPriceListKey": "nostrum",
-    "QuoteConnectionId": 594,
-    "Name": "Ortiz LLC",
-    "Description": "Assimilated stable pricing structure",
-    "Currency": "impedit",
-    "CurrencyName": "Jast, Stokes and Torphy",
-    "ValidFrom": "2008-04-19T15:29:22.5732638+02:00",
-    "ValidTo": "2017-11-02T15:29:22.5732638+01:00",
-    "IsActive": true,
+    "PriceListId": 322,
+    "ERPPriceListKey": "cupiditate",
+    "QuoteConnectionId": 5,
+    "Name": "Dibbert Inc and Sons",
+    "Description": "Upgradable impactful portal",
+    "Currency": "laudantium",
+    "CurrencyName": "Roberts Inc and Sons",
+    "ValidFrom": "1996-03-15T03:51:28.0215395+01:00",
+    "ValidTo": "2021-05-25T03:51:28.0215395+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldType": "System.String",
+        "FieldLength": 988
       }
     }
   }

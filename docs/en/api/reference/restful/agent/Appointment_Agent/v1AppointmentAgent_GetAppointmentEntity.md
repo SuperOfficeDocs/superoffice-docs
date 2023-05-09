@@ -25,7 +25,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=513
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=712
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -120,7 +120,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -134,122 +134,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-07-14T15:29:20.5232928+02:00",
-  "AppointmentId": 211,
-  "Description": "Managed hybrid internet solution",
-  "StartDate": "2001-01-24T15:29:20.5232928+01:00",
-  "EndDate": "1999-04-01T15:29:20.5232928+02:00",
+  "CreatedDate": "2002-06-24T03:51:26.2250827+02:00",
+  "AppointmentId": 647,
+  "Description": "Total dedicated attitude",
+  "StartDate": "2008-12-06T03:51:26.2250827+01:00",
+  "EndDate": "2019-05-30T03:51:26.2250827+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 527,
+  "MotherId": 458,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-02-25T15:29:20.5267928+01:00",
+  "UpdatedDate": "2021-06-28T03:51:26.2250827+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 495,
+  "ActiveLinks": 768,
   "Links": [
     {
-      "EntityName": "Kertzmann Group",
-      "Id": 843,
-      "Description": "Open-architected directional encoding",
-      "ExtraInfo": "neque",
-      "LinkId": 985,
+      "EntityName": "Kuhlman Group",
+      "Id": 282,
+      "Description": "Right-sized 4th generation process improvement",
+      "ExtraInfo": "quas",
+      "LinkId": 70,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 913
+          "FieldLength": 294
         }
       }
     }
   ],
-  "AlarmLeadTime": "exercitationem",
-  "HasAlarm": true,
-  "ColorIndex": 228,
-  "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "in",
-  "LeadTime": "aut",
-  "Location": "laboriosam",
-  "RejectCounter": 696,
+  "AlarmLeadTime": "non",
+  "HasAlarm": false,
+  "ColorIndex": 39,
+  "IsFree": false,
+  "IsAlldayEvent": true,
+  "LagTime": "vitae",
+  "LeadTime": "saepe",
+  "Location": "fugiat",
+  "RejectCounter": 26,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 67,
-      "PersonId": 305,
-      "ContactId": 917,
-      "EmailId": 372,
-      "SendEmail": true,
+      "AssociateId": 319,
+      "PersonId": 87,
+      "ContactId": 821,
+      "EmailId": 117,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 67,
-      "PersonId": 305,
-      "ContactId": 917,
-      "EmailId": 372,
-      "SendEmail": true,
+      "AssociateId": 319,
+      "PersonId": 87,
+      "ContactId": 821,
+      "EmailId": 117,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-08-27T15:29:20.5267928+02:00",
+  "ActiveDate": "2019-03-10T03:51:26.2250827+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 931,
+  "PreferredTZLocation": 187,
   "Sale": null,
-  "SuggestedAppointmentId": 101,
+  "SuggestedAppointmentId": 942,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ipsam",
+  "CentralserviceVideomeetId": "sapiente",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Gerda Hal Cole PhD",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Emmy Koepp",
+    "SuperOffice:2": "1769913037"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "saepe",
+    "ExtraFields2": "ipsa"
   },
   "CustomFields": {
-    "CustomFields1": "facere",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "porro",
+    "CustomFields2": "dolor"
   },
-  "PublishEventDate": "2009-03-10T15:29:20.5287938+01:00",
-  "PublishTo": "2008-10-08T15:29:20.5287938+02:00",
-  "PublishFrom": "1996-09-12T15:29:20.5287938+02:00",
+  "PublishEventDate": "2013-12-11T03:51:26.2250827+01:00",
+  "PublishTo": "2013-09-14T03:51:26.2250827+02:00",
+  "PublishFrom": "2009-08-29T03:51:26.2250827+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 805,
+      "VisibleId": 699,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldLength": 310
         }
       }
     },
     {
-      "VisibleId": 805,
+      "VisibleId": 699,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldLength": 310
         }
       }
     }
@@ -259,7 +259,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldLength": 708
     }
   }
 }

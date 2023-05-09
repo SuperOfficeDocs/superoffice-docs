@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,33 +84,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 646,
-  "Name": "Feeney, Dickens and Langworth",
-  "Tooltip": "corrupti",
+  "WebPanelId": 831,
+  "Name": "Kulas-Ward",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 889,
+  "Rank": 606,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": true,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Schiller Group",
+  "ShowInStatusBar": false,
+  "WindowName": "Bednar LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "pariatur",
-  "Icon": 621,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "id",
+  "Icon": 537,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldType": "System.Int32",
+      "FieldLength": 405
     }
   }
 }

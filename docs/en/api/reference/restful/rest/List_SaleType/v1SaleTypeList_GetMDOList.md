@@ -26,7 +26,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=aut
+GET /api/v1/List/SaleType/MDOItems?query=distinctio
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Schinner, O'Kon and Walter",
-    "ToolTip": "Et expedita atque nobis harum qui quisquam.",
-    "Deleted": true,
-    "Rank": 931,
-    "Type": "autem",
+    "Id": 795,
+    "Name": "Hane-Schuster",
+    "ToolTip": "Inventore quo laudantium dolores aspernatur.",
+    "Deleted": false,
+    "Rank": 33,
+    "Type": "enim",
     "ChildItems": [
       {
-        "Id": 387,
-        "Name": "Renner, Herman and Douglas",
-        "ToolTip": "Sunt quod velit reiciendis.",
+        "Id": 723,
+        "Name": "Wiza, Hauck and Hackett",
+        "ToolTip": "Non dolorem ducimus est et.",
         "Deleted": false,
-        "Rank": 202,
-        "Type": "occaecati",
+        "Rank": 587,
+        "Type": "ipsam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "illo",
-        "ColorBlock": 773,
-        "ExtraInfo": "perferendis",
-        "StyleHint": "omnis",
-        "FullName": "Freeda Wisoky",
+        "IconHint": "maxime",
+        "ColorBlock": 864,
+        "ExtraInfo": "et",
+        "StyleHint": "fuga",
+        "FullName": "Prof. Everette Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 843
+            "FieldLength": 329
           }
         }
       }
     ],
-    "IconHint": "placeat",
-    "ColorBlock": 922,
-    "ExtraInfo": "corrupti",
+    "IconHint": "voluptatibus",
+    "ColorBlock": 558,
+    "ExtraInfo": "quia",
     "StyleHint": "qui",
-    "FullName": "Brooke Schroeder",
+    "FullName": "Mr. Will Erin Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldLength": 646
       }
     }
   }

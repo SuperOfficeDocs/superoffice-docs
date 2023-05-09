@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 392
+  "QuoteAlternativeId": 982
 }
 ```
 
@@ -136,88 +136,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 697,
-    "ERPQuoteLineKey": "ea",
-    "QuoteAlternativeId": 3,
-    "ERPProductKey": "eaque",
+    "QuoteLineId": 216,
+    "ERPQuoteLineKey": "molestiae",
+    "QuoteAlternativeId": 711,
+    "ERPProductKey": "assumenda",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 7496.5279999999993,
-    "DeliveredQuantity": 19258.43,
-    "Rank": 445,
-    "Name": "Waters-Prosacco",
-    "Description": "Multi-tiered global portal",
-    "Code": "soluta",
-    "QuantityUnit": "nobis",
-    "PriceUnit": "voluptas",
-    "ItemNumber": "748845",
+    "Quantity": 9953.5839999999989,
+    "DeliveredQuantity": 10498.9,
+    "Rank": 394,
+    "Name": "Vandervort-Halvorson",
+    "Description": "Open-source tertiary benchmark",
+    "Code": "velit",
+    "QuantityUnit": "est",
+    "PriceUnit": "eum",
+    "ItemNumber": "784109",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "quam",
-    "ProductTypeKey": "reprehenderit",
-    "Supplier": "nemo",
-    "SupplierCode": "quos",
-    "Thumbnail": "dolorem",
-    "VATInfo": "velit",
-    "VAT": 22633.748,
-    "UnitCost": 30753.942,
-    "UnitMinimumPrice": 31327.464,
-    "UnitListPrice": 14046.588,
+    "ProductFamilyKey": "assumenda",
+    "ProductTypeKey": "libero",
+    "Supplier": "animi",
+    "SupplierCode": "aliquid",
+    "Thumbnail": "voluptas",
+    "VATInfo": "ut",
+    "VAT": 2262.748,
+    "UnitCost": 18741.32,
+    "UnitMinimumPrice": 30277.574,
+    "UnitListPrice": 10790.362,
     "ExtraInfo": [
       {
-        "Name": "McKenzie-Hamill",
-        "Value": "soluta",
+        "Name": "Kemmer, Mayert and Kutch",
+        "Value": "at",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 250
+            "FieldLength": 667
           }
         }
       },
       {
-        "Name": "McKenzie-Hamill",
-        "Value": "soluta",
+        "Name": "Kemmer, Mayert and Kutch",
+        "Value": "at",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 250
+            "FieldLength": 667
           }
         }
       }
     ],
-    "RawExtraInfo": "est",
-    "IsSubscription": true,
-    "SubscriptionUnit": "deleniti",
-    "SubscriptionQuantity": 23821.534,
-    "SubscriptionStart": "2016-04-28T15:29:22.5997634+02:00",
-    "ERPDiscountPercent": 23671.102,
-    "ERPDiscountAmount": 9398.866,
-    "DiscountPercent": 27905.136,
-    "DiscountAmount": 23157.126,
+    "RawExtraInfo": "corrupti",
+    "IsSubscription": false,
+    "SubscriptionUnit": "fugiat",
+    "SubscriptionQuantity": 14197.02,
+    "SubscriptionStart": "2002-12-11T03:51:28.0371601+01:00",
+    "ERPDiscountPercent": 20678.131999999998,
+    "ERPDiscountAmount": 17763.512,
+    "DiscountPercent": 203.70999999999998,
+    "DiscountAmount": 13159.666,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 27902.002,
-    "EarningAmount": 745.89199999999994,
-    "SubTotal": 14372.524,
-    "TotalPrice": 26278.59,
-    "Rights": "omnis",
-    "Rule": "laudantium",
-    "ExtraField1": "nulla",
-    "ExtraField2": "quam",
-    "ExtraField3": "omnis",
-    "ExtraField4": "inventore",
-    "ExtraField5": "dolores",
+    "EarningPercent": 22558.532,
+    "EarningAmount": 29337.374,
+    "SubTotal": 10918.856,
+    "TotalPrice": 9975.521999999999,
+    "Rights": "et",
+    "Rule": "laboriosam",
+    "ExtraField1": "non",
+    "ExtraField2": "quisquam",
+    "ExtraField3": "debitis",
+    "ExtraField4": "omnis",
+    "ExtraField5": "eaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldType": "System.String",
+        "FieldLength": 542
       }
     }
   }

@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 650,
-    "Name": "Ebert-Durgan",
-    "Tooltip": "aut",
+    "WebPanelId": 163,
+    "Name": "Bednar, Lang and Wilderman",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 362,
+    "Rank": 537,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": true,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": true,
-    "WindowName": "Lesch, Klein and Balistreri",
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": false,
+    "WindowName": "Kulas, Towne and Pagac",
     "Url": "http://www.example.com/",
-    "ProgId": "et",
-    "Icon": 49,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "enim",
+    "Icon": 95,
+    "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldType": "System.String",
+        "FieldLength": 969
       }
     }
   }

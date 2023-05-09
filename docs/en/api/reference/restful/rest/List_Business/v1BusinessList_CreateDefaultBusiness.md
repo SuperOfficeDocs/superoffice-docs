@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 308,
-  "Name": "King-Tremblay",
-  "Tooltip": "est",
+  "Id": 299,
+  "Name": "Olson-Legros",
+  "Tooltip": "odit",
   "Deleted": false,
-  "UdListDefinitionId": 294,
-  "Rank": 393,
+  "UdListDefinitionId": 772,
+  "Rank": 262,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 336
     }
   }
 }

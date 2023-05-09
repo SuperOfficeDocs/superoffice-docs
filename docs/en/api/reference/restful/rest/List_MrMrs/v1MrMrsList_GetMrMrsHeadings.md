@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 795,
-    "Name": "Schowalter, Runolfsson and Schmeler",
-    "Tooltip": "commodi",
+    "HeadingId": 876,
+    "Name": "Morissette, Waelchi and Hoppe",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "Rank": 702,
-    "UdListDefinitionId": 783,
+    "Rank": 150,
+    "UdListDefinitionId": 894,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldType": "System.String",
+        "FieldLength": 171
       }
     }
   }

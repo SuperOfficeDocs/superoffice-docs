@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Ebert, Hettinger and Skiles",
-    "Tooltip": "aut",
+    "Id": 76,
+    "Name": "Doyle-Marks",
+    "Tooltip": "facere",
     "Deleted": true,
-    "UdListDefinitionId": 576,
-    "Rank": 878
+    "UdListDefinitionId": 533,
+    "Rank": 792
   },
   {
-    "Id": 98,
-    "Name": "Ebert, Hettinger and Skiles",
-    "Tooltip": "aut",
+    "Id": 76,
+    "Name": "Doyle-Marks",
+    "Tooltip": "facere",
     "Deleted": true,
-    "UdListDefinitionId": 576,
-    "Rank": 878
+    "UdListDefinitionId": 533,
+    "Rank": 792
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 442,
-    "Name": "Skiles, Steuber and Kulas",
-    "Tooltip": "sed",
+    "Id": 944,
+    "Name": "Jaskolski, Jacobi and McGlynn",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 983,
-    "Rank": 15,
+    "UdListDefinitionId": 862,
+    "Rank": 835,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 358
+        "FieldType": "System.String",
+        "FieldLength": 47
       }
     }
   }

@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 228,
-  "Channel": "eligendi",
-  "Regarding": "dolor",
-  "ContactName": "Gislason-Herzog",
-  "PersonFirstname": "Devonte",
-  "PersonLastname": "Reynolds",
-  "EmailAddress": "felicity@grahamhamill.co.uk",
-  "PhoneNumber": "1101609"
+  "AssociateIdForNewContact": 740,
+  "Channel": "rerum",
+  "Regarding": "velit",
+  "ContactName": "Rowe-Feeney",
+  "PersonFirstname": "Jolie",
+  "PersonLastname": "Thompson",
+  "EmailAddress": "piper@yost.biz",
+  "PhoneNumber": "1422489"
 }
 ```
 
@@ -107,36 +107,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 14,
-      "Name": "Schumm-Pouros",
-      "OrgNr": "1207467",
+      "ContactId": 631,
+      "Name": "Labadie, Douglas and Ryan",
+      "OrgNr": "1074397",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "magnam",
-      "DirectPhone": "438.708.4835 x43126",
-      "AssociateId": 370,
-      "CountryId": 874,
-      "EmailAddress": "duane_mayert@marks.com",
-      "Kananame": "facilis",
-      "EmailAddressName": "curt@homenick.us",
+      "City": "voluptatum",
+      "DirectPhone": "339-111-1093",
+      "AssociateId": 722,
+      "CountryId": 395,
+      "EmailAddress": "estevan@waters.com",
+      "Kananame": "voluptatem",
+      "EmailAddressName": "eli@torp.us",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Dr. Mitchel Hyatt",
+      "AssociateFullName": "Saul Layne Kutch IV",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "eligendi",
-      "FullName": "Mrs. Dillan McLaughlin",
+      "FormattedAddress": "similique",
+      "FullName": "Hayley Ondricka V",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 992,
-      "Number1": "1759668",
-      "Number2": "1596813",
+      "ActiveErpLinks": 191,
+      "Number1": "511866",
+      "Number2": "523314",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldType": "System.String",
+          "FieldLength": 1000
         }
       }
     }
@@ -147,8 +147,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   }
 }

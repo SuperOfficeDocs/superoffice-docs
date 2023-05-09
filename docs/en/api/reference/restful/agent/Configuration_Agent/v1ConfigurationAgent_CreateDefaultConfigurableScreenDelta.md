@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 790,
-  "Name": "Hodkiewicz, Bradtke and Nolan",
-  "Description": "Realigned 24/7 process improvement",
-  "DeltaJson": "qui",
+  "ConfigurableScreenDeltaId": 213,
+  "Name": "Abshire, Mertz and Langworth",
+  "Description": "Enhanced incremental standardization",
+  "DeltaJson": "velit",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "aut",
-  "UpdatedDate": "2011-07-05T15:29:21.0237854+02:00",
-  "CreatedDate": "1997-07-25T15:29:21.0237854+02:00",
+  "RecipeId": "vitae",
+  "UpdatedDate": "2018-09-11T03:51:26.7718335+02:00",
+  "CreatedDate": "2005-11-03T03:51:26.7718335+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    549,
-    843
+    258,
+    13
   ],
-  "AppliesToKey": "aut",
+  "AppliesToKey": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldType": "System.String",
+      "FieldLength": 469
     }
   }
 }

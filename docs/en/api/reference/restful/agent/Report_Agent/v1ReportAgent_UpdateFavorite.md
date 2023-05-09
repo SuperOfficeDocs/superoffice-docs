@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,20 +94,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 885,
+  "ReportId": 381,
   "ReportCategory": "All",
-  "Description": "Multi-layered tangible firmware",
+  "Description": "Distributed tertiary function",
   "ReportLayout": "CalendarMonth",
-  "Name": "Beatty Inc and Sons",
-  "AssociateId": 552,
-  "TemplateId": 929,
+  "Name": "McGlynn-Emmerich",
+  "AssociateId": 828,
+  "TemplateId": 65,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldLength": 554
     }
   }
 }

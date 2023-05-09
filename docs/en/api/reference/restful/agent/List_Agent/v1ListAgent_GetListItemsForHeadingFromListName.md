@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kris LLC",
-  "HeadingId": 859
+  "UdListDefinitionName": "Walker Inc and Sons",
+  "HeadingId": 609
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Medhurst Group",
-    "ToolTip": "Reprehenderit voluptatem debitis aperiam porro corrupti sed nobis.",
-    "Deleted": true,
-    "Rank": 46,
-    "Type": "sit",
-    "ColorBlock": 451,
-    "IconHint": "placeat",
-    "Selected": true,
-    "LastChanged": "2008-07-10T15:29:22.0287718+02:00",
+    "Id": 568,
+    "Name": "Bogisich, Hermiston and Huel",
+    "ToolTip": "Quis quas.",
+    "Deleted": false,
+    "Rank": 330,
+    "Type": "quibusdam",
+    "ColorBlock": 374,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2001-12-10T03:51:27.4279277+01:00",
     "ChildItems": [
       {
-        "Id": 491,
-        "Name": "Veum, Stracke and Steuber",
-        "ToolTip": "Quae ut non sapiente sed voluptatem fugiat voluptates.",
-        "Deleted": false,
-        "Rank": 128,
-        "Type": "quae",
-        "ColorBlock": 142,
-        "IconHint": "nobis",
+        "Id": 696,
+        "Name": "Yundt, Hauck and Beier",
+        "ToolTip": "Pariatur sit quisquam temporibus enim et.",
+        "Deleted": true,
+        "Rank": 232,
+        "Type": "sequi",
+        "ColorBlock": 860,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2015-01-11T15:29:22.0297723+01:00",
+        "LastChanged": "2016-10-20T03:51:27.4279277+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "ratione",
-        "Hidden": false,
-        "FullName": "Lawrence Laila Lindgren I",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "voluptatum",
+        "Hidden": true,
+        "FullName": "Dr. Coralie Colten Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 445
+            "FieldLength": 123
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "quasi",
-    "Hidden": false,
-    "FullName": "Kim Laisha McClure I",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Mrs. Barrett Wilderman II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 618
       }
     }
   }

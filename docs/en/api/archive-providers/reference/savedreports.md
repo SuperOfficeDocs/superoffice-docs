@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SavedReports"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -679,7 +679,7 @@ documents that represent saved reports are shown</description></item></list>
 ## Sample
 
 ```http!
-GET /api/v1/archive/SavedReports?$select=associateId,sale/visibleFor,person/correspondingAssociate/contactFullName
+GET /api/v1/archive/SavedReports?$select=person/birthMonth,person/personDirectPhone/description,person/personAssociate/lastName,person/personAssociate/userName,person/correspondingAssociate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

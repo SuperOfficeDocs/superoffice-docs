@@ -89,24 +89,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 375,
-  "Caption": "nostrum",
-  "Description": "Operative bifurcated complexity",
-  "SelectionId": 88,
+  "DashboardTileId": 847,
+  "Caption": "non",
+  "Description": "Diverse maximized monitoring",
+  "SelectionId": 194,
   "VisibleFor": [
     {
-      "VisibleId": 267,
+      "VisibleId": 502,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "ipsa"
     },
     {
-      "VisibleId": 267,
+      "VisibleId": 502,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "ipsa"
     }
   ]
 }
@@ -119,64 +119,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 501,
-  "Caption": "aut",
-  "Description": "Streamlined explicit functionalities",
-  "ChartName": "Wiegand-Raynor",
-  "ChartId": "voluptatem",
+  "DashboardTileId": 477,
+  "Caption": "debitis",
+  "Description": "Total solution-oriented info-mediaries",
+  "ChartName": "Heathcote, Prosacco and Rutherford",
+  "ChartId": "a",
   "IsDefault": false,
-  "AssociateId": 215,
-  "GroupId": 883,
-  "SelectionId": 929,
-  "Config": "a",
+  "AssociateId": 9,
+  "GroupId": 94,
+  "SelectionId": 719,
+  "Config": "voluptatem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Rohan, Heaney and Zemlak",
-      "Description": "Upgradable systematic analyzer",
+      "Name": "Mertz-Shanahan",
+      "Description": "Multi-channelled holistic superstructure",
       "Type": "Boolean",
-      "ListName": "Heaney-Schimmel",
+      "ListName": "Steuber Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "inventore",
+      "Value": "id",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 76
+          "FieldLength": 463
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 455,
+      "VisibleId": 335,
       "Visibility": "All",
-      "DisplayValue": "reiciendis",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldType": "System.String",
+          "FieldLength": 788
         }
       }
     },
     {
-      "VisibleId": 455,
+      "VisibleId": 335,
       "Visibility": "All",
-      "DisplayValue": "reiciendis",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldType": "System.String",
+          "FieldLength": 788
         }
       }
     }
@@ -186,7 +186,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 618
+      "FieldLength": 560
     }
   }
 }

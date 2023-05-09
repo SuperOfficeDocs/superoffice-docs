@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 178,
-  "Name": "Kshlerin Group",
-  "Tooltip": "occaecati",
+  "Id": 681,
+  "Name": "Sauer, O'Connell and Rowe",
+  "Tooltip": "consectetur",
   "Deleted": true,
-  "UdListDefinitionId": 470,
-  "Rank": 266
+  "UdListDefinitionId": 86,
+  "Rank": 986
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 881,
-  "Name": "Reinger, Orn and Johnson",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 226,
-  "Rank": 804,
+  "Id": 597,
+  "Name": "Muller-Moen",
+  "Tooltip": "reprehenderit",
+  "Deleted": true,
+  "UdListDefinitionId": 73,
+  "Rank": 120,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 567
     }
   }
 }

@@ -101,13 +101,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2013-10-14T15:29:22.7307952+02:00",
-  "ToDate": "2018-03-08T15:29:22.7307952+01:00",
-  "AmountLimit": 410,
+  "FromDate": "2001-07-14T03:51:28.1308861+02:00",
+  "ToDate": "1998-01-06T03:51:28.1308861+01:00",
+  "AmountLimit": 550,
   "Status": "Lost"
 }
 ```
@@ -120,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Nader, Murray and Hoeger",
-    "SaleDate": "2012-12-10T15:29:22.7312977+01:00",
-    "SaleId": 460,
-    "Probability": 44,
-    "Title": "vel",
-    "Amount": 14203.287999999999,
-    "Currency": "cupiditate",
-    "ProjectName": "Lesch, Aufderhar and Batz",
-    "AssociateFullName": "America Roob",
-    "Description": "Integrated cohesive array",
+    "ContactName": "Auer-Gerhold",
+    "SaleDate": "1996-10-12T03:51:28.1308861+02:00",
+    "SaleId": 16,
+    "Probability": 388,
+    "Title": "est",
+    "Amount": 2745.384,
+    "Currency": "ut",
+    "ProjectName": "Morar Inc and Sons",
+    "AssociateFullName": "Pearlie Bosco",
+    "Description": "Function-based stable collaboration",
     "Status": "Lost",
-    "WeightedAmount": 16760.631999999998,
-    "ProjectId": 592,
-    "EarningPercent": 25244.37,
-    "Earning": 24319.84,
-    "ContactId": 432,
-    "AssociateId": 7,
-    "PersonId": 708,
-    "SaleTypeId": 516,
-    "SaleTypeName": "Witting, Sawayn and Little",
-    "PersonFullName": "Mr. Marcelle Clementina Schmitt III",
+    "WeightedAmount": 20377.268,
+    "ProjectId": 778,
+    "EarningPercent": 13980.774,
+    "Earning": 20411.742,
+    "ContactId": 792,
+    "AssociateId": 61,
+    "PersonId": 199,
+    "SaleTypeId": 368,
+    "SaleTypeName": "Jacobson, Kuphal and Wolf",
+    "PersonFullName": "Dr. Osvaldo Purdy I",
     "Completed": "Completed",
-    "ActiveErpLinks": 719,
-    "NextDueDate": "2007-06-07T15:29:22.7317981+02:00",
-    "Number": "1284554",
+    "ActiveErpLinks": 537,
+    "NextDueDate": "1997-03-19T03:51:28.1308861+01:00",
+    "Number": "1470499",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 695
+        "FieldType": "System.Int32",
+        "FieldLength": 42
       }
     }
   }

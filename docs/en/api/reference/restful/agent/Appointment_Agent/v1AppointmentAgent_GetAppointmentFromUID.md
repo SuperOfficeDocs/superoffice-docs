@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "fugiat"
+  "UID": "quis"
 }
 ```
 
@@ -145,63 +145,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2022-11-14T15:29:20.7177911+01:00",
-  "AppointmentId": 380,
-  "Description": "Implemented optimizing orchestration",
-  "StartDate": "2003-11-07T15:29:20.7177911+01:00",
-  "EndDate": "2007-09-30T15:29:20.7177911+02:00",
+  "CreatedDate": "2013-05-23T03:51:26.3656781+02:00",
+  "AppointmentId": 137,
+  "Description": "Synergistic leading edge emulation",
+  "StartDate": "2018-03-05T03:51:26.3656781+01:00",
+  "EndDate": "2015-03-22T03:51:26.3656781+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 662,
+  "MotherId": 642,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-04-16T15:29:20.7212908+02:00",
+  "UpdatedDate": "2014-12-24T03:51:26.3813013+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 462,
+  "ActiveLinks": 749,
   "Links": [
     {
-      "EntityName": "Batz, Jones and Larkin",
-      "Id": 673,
-      "Description": "Horizontal 5th generation encoding",
-      "ExtraInfo": "itaque",
-      "LinkId": 173,
+      "EntityName": "Abernathy, Lueilwitz and Kuhn",
+      "Id": 321,
+      "Description": "Ergonomic executive matrices",
+      "ExtraInfo": "et",
+      "LinkId": 960,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldType": "System.String",
+          "FieldLength": 123
         }
       }
     }
   ],
-  "AlarmLeadTime": "nisi",
-  "HasAlarm": false,
-  "ColorIndex": 111,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "adipisci",
-  "LeadTime": "delectus",
-  "Location": "accusantium",
-  "RejectCounter": 145,
+  "AlarmLeadTime": "magnam",
+  "HasAlarm": true,
+  "ColorIndex": 424,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "doloremque",
+  "LeadTime": "odit",
+  "Location": "exercitationem",
+  "RejectCounter": 374,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 934,
-      "PersonId": 868,
-      "ContactId": 613,
-      "EmailId": 695,
+      "AssociateId": 806,
+      "PersonId": 391,
+      "ContactId": 337,
+      "EmailId": 348,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 934,
-      "PersonId": 868,
-      "ContactId": 613,
-      "EmailId": 695,
+      "AssociateId": 806,
+      "PersonId": 391,
+      "ContactId": 337,
+      "EmailId": 348,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
@@ -209,58 +209,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-03-23T15:29:20.7212908+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2012-02-04T03:51:26.3813013+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 225,
+  "PreferredTZLocation": 809,
   "Sale": null,
-  "SuggestedAppointmentId": 150,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 18,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "facilis",
+  "CentralserviceVideomeetId": "debitis",
   "UserDefinedFields": {
-    "SuperOffice:1": "1776473458",
-    "SuperOffice:2": "Mr. Jordi Spencer MD"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Oren Harris"
   },
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "nisi"
   },
   "CustomFields": {
-    "CustomFields1": "a",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "commodi",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2000-07-20T15:29:20.72279+02:00",
-  "PublishTo": "2015-11-11T15:29:20.72279+01:00",
-  "PublishFrom": "2017-02-16T15:29:20.72279+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2015-05-19T03:51:26.3813013+02:00",
+  "PublishTo": "2011-07-24T03:51:26.3813013+02:00",
+  "PublishFrom": "2001-12-07T03:51:26.3813013+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 424,
+      "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 6
+          "FieldType": "System.Int32",
+          "FieldLength": 181
         }
       }
     },
     {
-      "VisibleId": 424,
+      "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 6
+          "FieldType": "System.Int32",
+          "FieldLength": 181
         }
       }
     }
@@ -269,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldType": "System.String",
+      "FieldLength": 600
     }
   }
 }

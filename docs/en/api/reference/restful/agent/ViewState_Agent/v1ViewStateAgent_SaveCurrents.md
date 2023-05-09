@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 782,
-      "Id": 774,
-      "HistoryName": "Bayer-Hyatt",
-      "HistoryId": 95,
-      "AssociateId": 130,
-      "Name": "Mante, Grady and Volkman",
-      "ItemInfo": "eius"
+      "Rank": 407,
+      "Id": 988,
+      "HistoryName": "Blick-Durgan",
+      "HistoryId": 221,
+      "AssociateId": 554,
+      "Name": "Schaden-Reichert",
+      "ItemInfo": "dolor"
     }
   ]
 }
@@ -106,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 434,
-    "Id": 38,
-    "HistoryName": "Ebert Inc and Sons",
-    "HistoryId": 493,
-    "AssociateId": 310,
-    "Name": "Rau, Bailey and Dickens",
-    "ItemInfo": "voluptatibus",
+    "Rank": 917,
+    "Id": 615,
+    "HistoryName": "Hane, Beier and Bauch",
+    "HistoryId": 472,
+    "AssociateId": 606,
+    "Name": "Champlin-Walter",
+    "ItemInfo": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldType": "System.String",
+        "FieldLength": 109
       }
     }
   }

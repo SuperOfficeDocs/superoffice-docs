@@ -106,7 +106,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 662
+  "ChatTopicId": 925
 }
 ```
 
@@ -117,43 +117,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 323,
-  "TopicId": 126,
+  "ChatSessionId": 293,
+  "TopicId": 384,
   "User": null,
   "Person": null,
-  "CustomerAlias": "alias",
-  "CustomerHost": "nisi",
-  "CustomerName": "Wolf, Hickle and Rogahn",
-  "CustomerEmail": "jarod@deckow.us",
-  "CustomerPhone": "(986)434-4063 x59184",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Sporer-Hilll",
+  "CustomerAlias": "unde",
+  "CustomerHost": "non",
+  "CustomerName": "Abshire, Moen and Wunsch",
+  "CustomerEmail": "bernadine.morissette@waelchi.name",
+  "CustomerPhone": "888-128-5175 x08787",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Monahan Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "rerum",
-  "LastMessage": "et",
-  "WhenRequested": "2005-09-24T15:29:21.0192857+02:00",
-  "WhenStarted": "2016-04-19T15:29:21.0192857+02:00",
-  "WhenEnded": "2010-05-08T15:29:21.0192857+02:00",
-  "WhenIdle": "2014-04-29T15:29:21.0192857+02:00",
-  "WhenFetched": "2002-03-15T15:29:21.0192857+01:00",
-  "SessionKey": "temporibus",
-  "InitialQueuePos": 21,
-  "AlertLevel": 204,
-  "Rank": 648,
+  "FirstMessage": "eos",
+  "LastMessage": "omnis",
+  "WhenRequested": "2003-08-17T03:51:26.7718335+02:00",
+  "WhenStarted": "2015-07-19T03:51:26.7718335+02:00",
+  "WhenEnded": "2001-08-12T03:51:26.7718335+02:00",
+  "WhenIdle": "2020-04-01T03:51:26.7718335+02:00",
+  "WhenFetched": "2001-04-12T03:51:26.7718335+02:00",
+  "SessionKey": "tenetur",
+  "InitialQueuePos": 390,
+  "AlertLevel": 970,
+  "Rank": 292,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 284,
+  "ChatbotIsActive": false,
+  "Rating": 723,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldType": "System.String",
+      "FieldLength": 613
     }
   }
 }

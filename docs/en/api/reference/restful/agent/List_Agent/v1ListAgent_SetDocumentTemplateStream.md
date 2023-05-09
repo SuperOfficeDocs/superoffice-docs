@@ -101,14 +101,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "est",
-  "PluginId": 100
+  "LanguageCode": "dolore",
+  "PluginId": 95
 }
 ```
 
@@ -119,37 +119,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 337,
-  "Name": "Howe-Zieme",
-  "Tooltip": "sit",
-  "SaveInDb": 887,
-  "Filename": "quasi",
-  "DefaultOref": "sed",
+  "DocumentTemplateId": 248,
+  "Name": "Reichert, Littel and Klocko",
+  "Tooltip": "dolorem",
+  "SaveInDb": 556,
+  "Filename": "porro",
+  "DefaultOref": "sapiente",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 353,
-  "IntentId": 883,
+  "AutoeventId": 877,
+  "IntentId": 147,
   "IsDefaultPublished": false,
-  "Rank": 346,
-  "LoadTemplateFromPlugin": 741,
-  "MimeType": "et",
+  "Rank": 640,
+  "LoadTemplateFromPlugin": 961,
+  "MimeType": "praesentium",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 756,
+  "DocumentTypeKey": 30,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "gisselle@senger.ca",
-  "IncludeSignature": false,
+  "EmailSubject": "ressie@zulaufjacobi.uk",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dulce.stiedemann@buckridge.co.uk",
+  "SenderEmailAddress": "anne@blocklittle.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 33
     }
   }
 }

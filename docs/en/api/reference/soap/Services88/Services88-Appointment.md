@@ -1724,9 +1724,7 @@ title: Services88.AppointmentAgent WSDL
       </xs:element>
       <xs:element name="CleanUpBookingDeletedWithUpdateModeResponse">
         <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:int" />
-          </xs:sequence>
+          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="CleanUpRecurringBookingDeleted">

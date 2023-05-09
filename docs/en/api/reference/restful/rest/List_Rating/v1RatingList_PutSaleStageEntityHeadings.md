@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 53,
-    "Name": "Nienow-Larkin",
-    "Tooltip": "nulla",
+    "HeadingId": 482,
+    "Name": "Nader, Dickens and Marquardt",
+    "Tooltip": "optio",
     "Deleted": false,
-    "Rank": 232,
-    "UdListDefinitionId": 246
+    "Rank": 793,
+    "UdListDefinitionId": 476
   },
   {
-    "HeadingId": 53,
-    "Name": "Nienow-Larkin",
-    "Tooltip": "nulla",
+    "HeadingId": 482,
+    "Name": "Nader, Dickens and Marquardt",
+    "Tooltip": "optio",
     "Deleted": false,
-    "Rank": 232,
-    "UdListDefinitionId": 246
+    "Rank": 793,
+    "UdListDefinitionId": 476
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 806,
-    "Name": "Eichmann, Wisoky and Becker",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "Rank": 407,
-    "UdListDefinitionId": 410,
+    "HeadingId": 946,
+    "Name": "Bauch, Tillman and Nader",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 845,
+    "UdListDefinitionId": 946,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldType": "System.String",
+        "FieldLength": 505
       }
     }
   }

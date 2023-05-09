@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 57,
-  "Name": "Funk LLC",
-  "Tooltip": "maiores",
+  "WebPanelId": 379,
+  "Name": "Nienow, Kilback and Prosacco",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 299,
+  "Rank": 817,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Rosenbaum-Lehner",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Windler Group",
   "Url": "http://www.example.com/",
-  "ProgId": "perferendis",
-  "Icon": 82,
+  "ProgId": "incidunt",
+  "Icon": 41,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 172
+      "FieldType": "System.Int32",
+      "FieldLength": 16
     }
   }
 }

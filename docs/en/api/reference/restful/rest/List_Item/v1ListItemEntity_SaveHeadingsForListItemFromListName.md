@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 834,
-    "Name": "Zboncak LLC",
-    "ToolTip": "At molestias eum sapiente voluptas vel optio.",
-    "Deleted": true,
-    "Rank": 888,
-    "Type": "veniam",
-    "ColorBlock": 342,
+    "Id": 81,
+    "Name": "Schmeler-Connelly",
+    "ToolTip": "Quidem voluptatum recusandae maxime rerum dolorem impedit et.",
+    "Deleted": false,
+    "Rank": 945,
+    "Type": "architecto",
+    "ColorBlock": 627,
     "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2009-09-28T15:29:31.0514464+02:00",
+    "LastChanged": "2021-01-29T03:51:34.3646689+01:00",
     "ChildItems": [
       {
-        "Id": 735,
-        "Name": "McClure LLC",
-        "ToolTip": "Numquam voluptatem.",
-        "Deleted": false,
-        "Rank": 980,
-        "Type": "voluptatem",
-        "ColorBlock": 761,
-        "IconHint": "odio",
+        "Id": 965,
+        "Name": "Hilpert Inc and Sons",
+        "ToolTip": "Omnis minima doloribus nesciunt dolores.",
+        "Deleted": true,
+        "Rank": 898,
+        "Type": "eligendi",
+        "ColorBlock": 286,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "1997-04-06T15:29:31.0514464+02:00",
+        "LastChanged": "2017-02-18T03:51:34.3646689+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "fugit",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Prof. Ewell Mylene Kozey"
+        "FullName": "Eileen Kihn"
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "possimus",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "dolore",
     "Hidden": false,
-    "FullName": "Delores Kshlerin"
+    "FullName": "Jovan Dicki"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 235,
-    "Name": "Zieme, Bayer and Kessler",
-    "ToolTip": "Molestiae tempore.",
+    "Id": 806,
+    "Name": "Powlowski-Oberbrunner",
+    "ToolTip": "Quod optio.",
     "Deleted": false,
-    "Rank": 447,
-    "Type": "est",
-    "ColorBlock": 949,
-    "IconHint": "excepturi",
+    "Rank": 239,
+    "Type": "qui",
+    "ColorBlock": 946,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2000-04-01T15:29:31.0529463+02:00",
+    "LastChanged": "2009-05-09T03:51:34.3646689+02:00",
     "ChildItems": [
       {
-        "Id": 210,
-        "Name": "Koch-Schuster",
-        "ToolTip": "Est ut voluptatibus explicabo.",
+        "Id": 626,
+        "Name": "Breitenberg-Boyle",
+        "ToolTip": "Nemo tenetur sint sint quod doloribus repellendus.",
         "Deleted": false,
-        "Rank": 445,
-        "Type": "aliquam",
-        "ColorBlock": 583,
-        "IconHint": "amet",
+        "Rank": 212,
+        "Type": "eligendi",
+        "ColorBlock": 198,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2001-03-25T15:29:31.0534466+02:00",
+        "LastChanged": "2021-07-28T03:51:34.3646689+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "rerum",
+        "ExtraInfo": "quia",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Lelia Eldora Kuhlman DVM",
+        "FullName": "Prof. Adell Idell Casper Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 213
+            "FieldLength": 604
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "et",
+    "ExtraInfo": "rem",
+    "StyleHint": "quae",
     "Hidden": false,
-    "FullName": "Mrs. Sage Cali Roberts V",
+    "FullName": "Summer Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 333
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   }

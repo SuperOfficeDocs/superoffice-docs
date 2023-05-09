@@ -65,13 +65,13 @@ No Content
 POST /api/v1/Agents/Sale/SetAsLost
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    443,
-    707
+    542,
+    543
   ]
 }
 ```

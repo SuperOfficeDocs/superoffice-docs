@@ -63,22 +63,22 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Robel Group",
-      "DisplayName": "Glover-Leannon",
-      "DisplayTooltip": "distinctio",
-      "IsActive": false
+      "Name": "Wunsch, Kutch and Balistreri",
+      "DisplayName": "Moen, Hamill and Roob",
+      "DisplayTooltip": "aliquam",
+      "IsActive": true
     },
     {
-      "Name": "Robel Group",
-      "DisplayName": "Glover-Leannon",
-      "DisplayTooltip": "distinctio",
-      "IsActive": false
+      "Name": "Wunsch, Kutch and Balistreri",
+      "DisplayName": "Moen, Hamill and Roob",
+      "DisplayTooltip": "aliquam",
+      "IsActive": true
     }
   ]
 }

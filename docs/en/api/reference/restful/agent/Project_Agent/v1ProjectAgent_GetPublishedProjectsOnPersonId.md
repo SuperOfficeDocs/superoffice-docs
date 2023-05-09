@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 309
+  "PersonId": 729
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 407,
-    "Name": "Kerluke, Christiansen and Smitham",
-    "Description": "Proactive tertiary benchmark",
+    "ProjectId": 578,
+    "Name": "Cummerata-Greenfelder",
+    "Description": "Configurable zero tolerance pricing structure",
     "URL": "http://www.example.com/",
-    "Type": "reprehenderit",
-    "AssociateId": 733,
-    "AssociateFullName": "Mrs. Antonetta Odessa Koss MD",
-    "TypeId": 365,
-    "Updated": "2006-08-18T15:29:22.4907653+02:00",
-    "StatusId": 930,
-    "Status": "est",
-    "TextId": 987,
-    "PublishTo": "2013-10-10T15:29:22.4907653+02:00",
-    "PublishFrom": "2002-05-31T15:29:22.4907653+02:00",
+    "Type": "sunt",
+    "AssociateId": 527,
+    "AssociateFullName": "Blake Kshlerin",
+    "TypeId": 931,
+    "Updated": "2014-09-30T03:51:27.9590553+02:00",
+    "StatusId": 274,
+    "Status": "ut",
+    "TextId": 921,
+    "PublishTo": "2013-12-01T03:51:27.9590553+01:00",
+    "PublishFrom": "2016-08-06T03:51:27.9590553+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "902761",
-    "ActiveErpLinks": 550,
+    "ProjectNumber": "305341",
+    "ActiveErpLinks": 913,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldLength": 582
       }
     }
   }

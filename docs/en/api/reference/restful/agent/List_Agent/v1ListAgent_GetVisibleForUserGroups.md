@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 499,
-  "ListItemId": 834
+  "UdListDefinitionId": 817,
+  "ListItemId": 277
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Lakin, Hoppe and O'Keefe",
-    "ToolTip": "Odio quia illum modi cum.",
-    "Deleted": true,
-    "Rank": 568,
-    "Type": "dolores",
-    "ColorBlock": 998,
-    "IconHint": "eius",
-    "Selected": false,
-    "LastChanged": "2022-02-27T15:29:22.0072725+01:00",
+    "Id": 396,
+    "Name": "Jones, McKenzie and Berge",
+    "ToolTip": "Aut suscipit.",
+    "Deleted": false,
+    "Rank": 74,
+    "Type": "molestias",
+    "ColorBlock": 391,
+    "IconHint": "suscipit",
+    "Selected": true,
+    "LastChanged": "2001-08-19T03:51:27.4123074+02:00",
     "ChildItems": [
       {
-        "Id": 927,
-        "Name": "Huels-Rolfson",
-        "ToolTip": "Est tempora voluptas qui.",
+        "Id": 61,
+        "Name": "Weimann-Nicolas",
+        "ToolTip": "Quidem vel et consequuntur animi placeat.",
         "Deleted": false,
-        "Rank": 847,
-        "Type": "enim",
-        "ColorBlock": 837,
-        "IconHint": "dolorem",
-        "Selected": false,
-        "LastChanged": "2002-07-23T15:29:22.0072725+02:00",
+        "Rank": 808,
+        "Type": "quis",
+        "ColorBlock": 707,
+        "IconHint": "odit",
+        "Selected": true,
+        "LastChanged": "2005-06-10T03:51:27.4123074+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "ipsa",
-        "Hidden": true,
-        "FullName": "Geoffrey Alford Conn Jr.",
+        "ExtraInfo": "cum",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Autumn Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 950
+            "FieldType": "System.Int32",
+            "FieldLength": 666
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "error",
-    "Hidden": true,
-    "FullName": "Jamal Littel",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "eaque",
+    "Hidden": false,
+    "FullName": "Prof. Tamara Heather Grimes DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldType": "System.String",
+        "FieldLength": 880
       }
     }
   }

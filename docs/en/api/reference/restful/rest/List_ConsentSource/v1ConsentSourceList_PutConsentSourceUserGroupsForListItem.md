@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "Grant-Hane",
-    "ToolTip": "Mollitia quia.",
+    "Id": 982,
+    "Name": "Wolff, Satterfield and Brakus",
+    "ToolTip": "Hic voluptatum quibusdam et laboriosam quasi et.",
     "Deleted": false,
-    "Rank": 352,
-    "Type": "nemo",
-    "ColorBlock": 148,
-    "IconHint": "inventore",
+    "Rank": 500,
+    "Type": "iure",
+    "ColorBlock": 130,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "2008-04-19T15:29:31.1549839+02:00",
+    "LastChanged": "2008-05-13T03:51:34.6146173+02:00",
     "ChildItems": [
       {
-        "Id": 493,
-        "Name": "Jacobi Group",
-        "ToolTip": "Rerum fuga eveniet ipsam aspernatur.",
-        "Deleted": false,
-        "Rank": 287,
-        "Type": "non",
-        "ColorBlock": 339,
-        "IconHint": "voluptas",
+        "Id": 590,
+        "Name": "Gulgowski-Schuster",
+        "ToolTip": "Sapiente error sunt accusantium similique quibusdam corrupti.",
+        "Deleted": true,
+        "Rank": 33,
+        "Type": "est",
+        "ColorBlock": 663,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2005-10-27T15:29:31.1559801+02:00",
+        "LastChanged": "2021-09-24T03:51:34.6146173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "illum",
+        "StyleHint": "nemo",
         "Hidden": false,
-        "FullName": "Imani Schuster"
+        "FullName": "Keshaun Bosco"
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "labore",
+    "StyleHint": "quis",
     "Hidden": true,
-    "FullName": "Christy Keeling"
+    "FullName": "Domenic Bins"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Lynch, Friesen and Stroman",
-    "ToolTip": "Ut nemo doloremque dolorem quas.",
+    "Id": 577,
+    "Name": "Jerde Group",
+    "ToolTip": "Quam sit consequatur dolor.",
     "Deleted": false,
-    "Rank": 386,
-    "Type": "commodi",
-    "ColorBlock": 459,
-    "IconHint": "et",
+    "Rank": 652,
+    "Type": "similique",
+    "ColorBlock": 831,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2012-01-27T15:29:31.1574804+01:00",
+    "LastChanged": "2008-03-01T03:51:34.6146173+01:00",
     "ChildItems": [
       {
-        "Id": 459,
-        "Name": "Mante, Witting and Hessel",
-        "ToolTip": "Quod fugit id placeat tempore voluptatem ut.",
+        "Id": 959,
+        "Name": "Bashirian Inc and Sons",
+        "ToolTip": "Et culpa vitae.",
         "Deleted": false,
-        "Rank": 538,
-        "Type": "velit",
-        "ColorBlock": 48,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2015-02-28T15:29:31.1574804+01:00",
+        "Rank": 977,
+        "Type": "voluptas",
+        "ColorBlock": 799,
+        "IconHint": "amet",
+        "Selected": false,
+        "LastChanged": "2016-11-14T03:51:34.6146173+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "dicta",
+        "ExtraInfo": "in",
+        "StyleHint": "repellat",
         "Hidden": true,
-        "FullName": "Miss Pink Syble Watsica",
+        "FullName": "Kevon Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 541
+            "FieldLength": 621
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "magnam",
+    "ExtraInfo": "inventore",
+    "StyleHint": "deleniti",
     "Hidden": true,
-    "FullName": "Nona Lakin",
+    "FullName": "Drake Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 224
       }
     }
   }

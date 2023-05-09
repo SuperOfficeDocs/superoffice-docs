@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Schuster-Casper",
-    "ToolTip": "Est quia possimus.",
+    "Id": 377,
+    "Name": "Wisoky Inc and Sons",
+    "ToolTip": "Aut cumque repellendus amet esse aliquam eaque.",
     "Deleted": false,
-    "Rank": 352,
-    "Type": "similique",
-    "ColorBlock": 680,
-    "IconHint": "fugiat",
+    "Rank": 995,
+    "Type": "eveniet",
+    "ColorBlock": 19,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "1999-07-10T15:29:31.15398+02:00",
+    "LastChanged": "2016-10-18T03:51:34.6146173+02:00",
     "ChildItems": [
       {
-        "Id": 70,
-        "Name": "Anderson, Johnson and Stanton",
-        "ToolTip": "Adipisci similique et laudantium odio.",
+        "Id": 985,
+        "Name": "Hegmann Group",
+        "ToolTip": "Odio quidem iste autem sit qui sed ut.",
         "Deleted": false,
-        "Rank": 555,
-        "Type": "sed",
-        "ColorBlock": 136,
-        "IconHint": "repellendus",
-        "Selected": true,
-        "LastChanged": "2012-04-22T15:29:31.1544804+02:00",
+        "Rank": 411,
+        "Type": "aut",
+        "ColorBlock": 547,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2010-07-10T03:51:34.6146173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "architecto",
-        "Hidden": true,
-        "FullName": "Arturo Fritsch",
+        "ExtraInfo": "et",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Obie Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 458
+            "FieldLength": 882
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "ad",
+    "ExtraInfo": "sed",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Kathleen Ullrich",
+    "FullName": "Ayla Axel Crona III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldType": "System.String",
+        "FieldLength": 156
       }
     }
   }

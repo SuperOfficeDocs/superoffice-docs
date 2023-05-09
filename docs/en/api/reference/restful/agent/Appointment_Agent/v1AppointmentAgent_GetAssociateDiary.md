@@ -123,14 +123,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 760,
-  "StartTime": "2006-07-31T15:29:20.4148303+02:00",
-  "EndTime": "2004-12-06T15:29:20.4148303+01:00",
-  "Count": 20
+  "AssociateId": 203,
+  "StartTime": "2021-01-29T03:51:26.1313562+01:00",
+  "EndTime": "2022-11-10T03:51:26.1313562+01:00",
+  "Count": 635
 }
 ```
 
@@ -142,53 +142,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 8,
-    "StartDate": "2013-07-06T15:29:20.4158303+02:00",
-    "EndDate": "2008-10-13T15:29:20.4158303+02:00",
+    "AppointmentId": 375,
+    "StartDate": "2009-07-01T03:51:26.1469713+02:00",
+    "EndDate": "2012-01-08T03:51:26.1469713+01:00",
     "Type": "BookingForChecklist",
-    "Task": "rerum",
-    "AssociateFullName": "Kiana Mitchell",
-    "ContactName": "Kerluke, Smitham and Larkin",
-    "Description": "Integrated modular Graphic Interface",
-    "PersonFullName": "Laura Arch Nolan Jr.",
-    "PersonId": 227,
-    "ContactId": 254,
-    "ProjectId": 533,
-    "ProjectName": "Moen, Kemmer and Eichmann",
+    "Task": "repudiandae",
+    "AssociateFullName": "Anibal Beahan",
+    "ContactName": "Carter LLC",
+    "Description": "Seamless 3rd generation standardization",
+    "PersonFullName": "Holden Wehner",
+    "PersonId": 332,
+    "ContactId": 695,
+    "ProjectId": 532,
+    "ProjectName": "Grady Group",
     "IsPublished": false,
-    "AssociateId": 599,
-    "ColorIndex": 904,
+    "AssociateId": 36,
+    "ColorIndex": 496,
     "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 319,
-    "PriorityName": "Boehm-Walker",
+    "PriorityId": 702,
+    "PriorityName": "Lesch Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1996-10-21T15:29:20.416831+02:00",
+    "ActiveDate": "2010-10-14T03:51:26.1469713+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-05-16T15:29:20.416831+02:00",
-    "RecurringEndDate": "2005-09-08T15:29:20.416831+02:00",
-    "MotherId": 579,
-    "AssignedBy": 820,
-    "AssignedByFullName": "Ms. Percy Oswald Kessler MD",
-    "RejectReason": "orchestrate turn-key bandwidth",
-    "Location": "fugit",
-    "AlarmLeadTime": "cupiditate",
-    "SaleId": 423,
-    "SaleName": "Durgan Inc and Sons",
-    "AssociateName": "Grady-Witting",
-    "CreatedDate": "2004-08-10T15:29:20.417834+02:00",
-    "CreatedBy": "tempora",
-    "CreatedByFullName": "Deon Christiansen IV",
-    "CreatedByAssociateId": 291,
+    "RecurringStartDate": "2020-11-08T03:51:26.1469713+01:00",
+    "RecurringEndDate": "2000-11-13T03:51:26.1469713+01:00",
+    "MotherId": 964,
+    "AssignedBy": 108,
+    "AssignedByFullName": "Dr. Aryanna Kuphal",
+    "RejectReason": "",
+    "Location": "dolor",
+    "AlarmLeadTime": "atque",
+    "SaleId": 939,
+    "SaleName": "Schroeder-Stehr",
+    "AssociateName": "Block, Weimann and Gerlach",
+    "CreatedDate": "2004-08-09T03:51:26.1469713+02:00",
+    "CreatedBy": "porro",
+    "CreatedByFullName": "Mr. Myrna Clemens Satterfield",
+    "CreatedByAssociateId": 510,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldLength": 10
       }
     }
   }

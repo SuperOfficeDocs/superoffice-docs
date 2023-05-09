@@ -98,21 +98,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 610,
-  "UniqueIdentifier": "pariatur",
-  "Name": "Runte-Mohr",
-  "Description": "Optimized scalable success",
-  "IncludeId": "quis",
-  "HierarchyId": 988,
-  "Source": "omnis",
-  "Registered": "2011-09-25T15:29:29.620205+02:00",
-  "RegisteredAssociateId": 619,
-  "Updated": "2022-10-02T15:29:29.620205+02:00",
-  "UpdatedAssociateId": 403
+  "EjscriptId": 390,
+  "UniqueIdentifier": "sapiente",
+  "Name": "McDermott Inc and Sons",
+  "Description": "Re-engineered modular functionalities",
+  "IncludeId": "sint",
+  "HierarchyId": 408,
+  "Source": "eum",
+  "Registered": "2001-11-13T03:51:33.5678642+01:00",
+  "RegisteredAssociateId": 800,
+  "Updated": "2022-03-11T03:51:33.5678642+01:00",
+  "UpdatedAssociateId": 470
 }
 ```
 
@@ -123,23 +123,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 180,
-  "UniqueIdentifier": "enim",
-  "Name": "Mitchell, Mills and Kris",
-  "Description": "Ergonomic high-level concept",
-  "IncludeId": "ut",
-  "HierarchyId": 657,
-  "Source": "consectetur",
-  "Registered": "2013-10-24T15:29:29.627202+02:00",
-  "RegisteredAssociateId": 966,
-  "Updated": "2005-08-17T15:29:29.627202+02:00",
-  "UpdatedAssociateId": 695,
+  "EjscriptId": 159,
+  "UniqueIdentifier": "magni",
+  "Name": "Stehr LLC",
+  "Description": "Organic contextually-based superstructure",
+  "IncludeId": "delectus",
+  "HierarchyId": 56,
+  "Source": "facere",
+  "Registered": "2021-10-05T03:51:33.5678642+02:00",
+  "RegisteredAssociateId": 511,
+  "Updated": "1998-09-10T03:51:33.5678642+02:00",
+  "UpdatedAssociateId": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 741
+      "FieldType": "System.Int32",
+      "FieldLength": 449
     }
   },
   "_Links": {

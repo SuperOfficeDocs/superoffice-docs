@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 819,
-  "Name": "Donnelly-Cummerata",
-  "Tooltip": "animi",
+  "HeadingId": 704,
+  "Name": "Collier-Thompson",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 382,
-  "UdListDefinitionId": 582
+  "Rank": 227,
+  "UdListDefinitionId": 339
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 12,
-  "Name": "Ryan LLC",
-  "Tooltip": "et",
+  "HeadingId": 938,
+  "Name": "Schuppe, Wunsch and Trantow",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 978,
-  "UdListDefinitionId": 749,
+  "Rank": 806,
+  "UdListDefinitionId": 901,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 73
     }
   }
 }

@@ -84,10 +84,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Borer LLC",
+  "ConnectorName": "Block LLC",
   "ConnectionData": {
-    "ConnectionData1": "quaerat",
-    "ConnectionData2": "quia"
+    "ConnectionData1": "dolores",
+    "ConnectionData2": "rem"
   }
 }
 ```
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "consectetur",
-  "TechExplanation": "et",
-  "ErrorCode": "est",
+  "IsOk": true,
+  "UserExplanation": "aliquam",
+  "TechExplanation": "voluptates",
+  "ErrorCode": "et",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldType": "System.String",
+      "FieldLength": 409
     }
   }
 }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Jerde, Roob and Parker",
-    "ToolTip": "Nihil consequuntur sint enim delectus sequi voluptas.",
+    "Id": 301,
+    "Name": "Witting-Roob",
+    "ToolTip": "Sed esse.",
     "Deleted": false,
-    "Rank": 587,
-    "Type": "alias",
-    "ColorBlock": 763,
-    "IconHint": "dolorem",
+    "Rank": 711,
+    "Type": "accusamus",
+    "ColorBlock": 125,
+    "IconHint": "nesciunt",
     "Selected": false,
-    "LastChanged": "2015-02-04T15:29:31.0334468+01:00",
+    "LastChanged": "2019-03-20T03:51:34.3490406+01:00",
     "ChildItems": [
       {
-        "Id": 667,
-        "Name": "Zulauf-Barton",
-        "ToolTip": "Accusantium expedita aut necessitatibus.",
+        "Id": 823,
+        "Name": "Sporer, Hartmann and Carter",
+        "ToolTip": "Vero provident praesentium nostrum blanditiis.",
         "Deleted": false,
-        "Rank": 206,
-        "Type": "odio",
-        "ColorBlock": 562,
-        "IconHint": "repellendus",
+        "Rank": 957,
+        "Type": "non",
+        "ColorBlock": 731,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "1997-08-30T15:29:31.0344467+02:00",
+        "LastChanged": "2022-04-26T03:51:34.3490406+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "aliquid",
-        "Hidden": true,
-        "FullName": "Miss Carson Sylvester Stokes DDS",
+        "ExtraInfo": "expedita",
+        "StyleHint": "ratione",
+        "Hidden": false,
+        "FullName": "Kirk Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 141
+            "FieldLength": 661
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "ullam",
+    "ExtraInfo": "sunt",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Wendell Nolan",
+    "FullName": "Jermain Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 253
+        "FieldLength": 570
       }
     }
   }

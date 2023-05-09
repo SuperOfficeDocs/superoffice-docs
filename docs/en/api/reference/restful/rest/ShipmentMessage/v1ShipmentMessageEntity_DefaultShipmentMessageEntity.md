@@ -76,7 +76,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 918,
-  "PlainMessage": "unde",
-  "HtmlMessage": "non",
-  "SmsMessage": "possimus",
-  "Description": "Re-contextualized didactic system engine",
-  "Subject": "autem",
-  "FolderId": 651,
-  "HeaderField": "fuga",
-  "Design": "quaerat",
+  "ShipmentMessageId": 292,
+  "PlainMessage": "natus",
+  "HtmlMessage": "veritatis",
+  "SmsMessage": "enim",
+  "Description": "Grass-roots 6th generation complexity",
+  "Subject": "qui",
+  "FolderId": 650,
+  "HeaderField": "molestiae",
+  "Design": "dolor",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Business-focused client-server portal",
-  "AccessKey": "veritatis",
-  "DocumentMessage": 95,
-  "Registered": "2006-10-03T15:29:30.6229875+02:00",
-  "RegisteredAssociateId": 980,
-  "Updated": "1997-05-21T15:29:30.6229875+02:00",
-  "UpdatedAssociateId": 361,
-  "UpdatedCount": 203,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Compatible assymetric hierarchy",
+  "AccessKey": "dolorum",
+  "DocumentMessage": 138,
+  "Registered": "2004-12-21T03:51:34.0208828+01:00",
+  "RegisteredAssociateId": 647,
+  "Updated": "2020-01-05T03:51:34.0208828+01:00",
+  "UpdatedAssociateId": 133,
+  "UpdatedCount": 116,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldLength": 439
     }
   }
 }

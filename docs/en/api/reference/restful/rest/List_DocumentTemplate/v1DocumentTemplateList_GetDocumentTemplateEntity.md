@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 678,
-  "Name": "Mante Inc and Sons",
-  "Tooltip": "magnam",
-  "SaveInDb": 110,
-  "Filename": "voluptatum",
-  "DefaultOref": "est",
+  "DocumentTemplateId": 53,
+  "Name": "Schulist, Funk and Bechtelar",
+  "Tooltip": "qui",
+  "SaveInDb": 380,
+  "Filename": "facilis",
+  "DefaultOref": "modi",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 745,
-  "IntentId": 494,
+  "AutoeventId": 500,
+  "IntentId": 242,
   "IsDefaultPublished": false,
-  "Rank": 361,
-  "LoadTemplateFromPlugin": 523,
-  "MimeType": "temporibus",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 483,
+  "Rank": 216,
+  "LoadTemplateFromPlugin": 534,
+  "MimeType": "exercitationem",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 960,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "roxanne@maggio.ca",
+  "EmailSubject": "thelma@emard.ca",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ferne@romagueracremin.info",
+  "SenderEmailAddress": "sheridan.thiel@cronin.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldType": "System.String",
+      "FieldLength": 393
     }
   }
 }

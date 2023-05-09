@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,31 +79,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 643,
-    "Name": "Lind-Bartoletti",
-    "TZLocationCode": "in",
-    "TZLocationCities": "sit",
-    "IsoNumber": 789,
+    "TZLocationID": 314,
+    "Name": "Mertz-Collins",
+    "TZLocationCode": "quisquam",
+    "TZLocationCities": "nemo",
+    "IsoNumber": 586,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 345,
-        "StartMonth": 521,
-        "EndDay": 261,
-        "EndMonth": 29,
-        "TZOffset": 551,
-        "StartRulePattern": "quia",
-        "EndRulePattern": "illum"
+        "StartDay": 90,
+        "StartMonth": 98,
+        "EndDay": 386,
+        "EndMonth": 621,
+        "TZOffset": 465,
+        "StartRulePattern": "delectus",
+        "EndRulePattern": "magnam"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 245,
-        "StartMonth": 39,
-        "EndDay": 99,
-        "EndMonth": 355,
-        "TZOffset": 20,
-        "StartRulePattern": "consequatur",
-        "EndRulePattern": "sunt"
+        "StartDay": 344,
+        "StartMonth": 174,
+        "EndDay": 736,
+        "EndMonth": 280,
+        "TZOffset": 530,
+        "StartRulePattern": "rem",
+        "EndRulePattern": "accusamus"
       }
     }
   }

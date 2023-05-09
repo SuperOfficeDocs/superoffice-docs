@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 105,
-  "ListItemId": 42,
-  "ShowDeleted": false
+  "UdListDefinitionId": 162,
+  "ListItemId": 117,
+  "ShowDeleted": true
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Bruen, Skiles and Frami",
-    "ToolTip": "Eaque facere totam unde error.",
+    "Id": 250,
+    "Name": "Kunde Group",
+    "ToolTip": "Incidunt dolorem hic occaecati debitis veniam.",
     "Deleted": false,
-    "Rank": 831,
-    "Type": "aspernatur",
-    "ColorBlock": 388,
-    "IconHint": "in",
+    "Rank": 900,
+    "Type": "ea",
+    "ColorBlock": 217,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "1998-11-29T15:29:22.0187716+01:00",
+    "LastChanged": "2018-09-15T03:51:27.4279277+02:00",
     "ChildItems": [
       {
-        "Id": 39,
-        "Name": "Gutkowski-Fay",
-        "ToolTip": "Ullam aliquid non fuga voluptas nesciunt cupiditate.",
-        "Deleted": true,
-        "Rank": 287,
-        "Type": "rerum",
-        "ColorBlock": 296,
-        "IconHint": "illum",
+        "Id": 887,
+        "Name": "Mertz-Lemke",
+        "ToolTip": "Porro qui vel.",
+        "Deleted": false,
+        "Rank": 112,
+        "Type": "reprehenderit",
+        "ColorBlock": 939,
+        "IconHint": "voluptatum",
         "Selected": true,
-        "LastChanged": "2000-08-13T15:29:22.0187716+02:00",
+        "LastChanged": "2004-10-29T03:51:27.4279277+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "ut",
-        "StyleHint": "ut",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Prof. Vivien Pollich",
+        "FullName": "Dr. Nikki Deron Kuhlman DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 255
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "magni",
-    "Hidden": false,
-    "FullName": "Hallie Schneider",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Arturo Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldLength": 674
       }
     }
   }

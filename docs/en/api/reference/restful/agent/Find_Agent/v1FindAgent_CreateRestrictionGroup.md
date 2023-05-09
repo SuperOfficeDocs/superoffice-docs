@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "modi",
-  "ProviderName": "Crooks-Shields",
-  "StorageKey": "placeat",
-  "Context": "sed"
+  "StorageType": "aliquam",
+  "ProviderName": "McCullough, Kautzer and Ullrich",
+  "StorageKey": "aspernatur",
+  "Context": "et"
 }
 ```
 
@@ -94,20 +94,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Brekke-Johnston",
-  "Description": "Reverse-engineered reciprocal architecture",
-  "Rank": 98,
+  "Name": "Ernser Group",
+  "Description": "Devolved interactive array",
+  "Rank": 434,
   "Restrictions": [
     {
-      "Name": "Monahan, Connelly and Cormier",
-      "Operator": "qui",
+      "Name": "Schamberger, Ebert and Ferry",
+      "Operator": "numquam",
       "Values": [
-        "voluptatem",
-        "exercitationem"
+        "vel",
+        "soluta"
       ],
       "DisplayValues": [
-        "accusantium",
-        "aut"
+        "nisi",
+        "voluptates"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -115,9 +115,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 271,
+      "InterParenthesis": 311,
       "InterOperator": "And",
-      "UniqueHash": 37
+      "UniqueHash": 106
     }
   ]
 }

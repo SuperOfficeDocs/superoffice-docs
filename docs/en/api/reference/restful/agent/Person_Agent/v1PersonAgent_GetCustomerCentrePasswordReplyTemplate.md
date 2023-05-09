@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 363
+  "PersonId": 612
 }
 ```
 
@@ -91,35 +91,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 4,
-  "PlainParsed": "voluptates",
-  "HtmlParsed": "nobis",
+  "ReplyTemplateId": 592,
+  "PlainParsed": "ea",
+  "HtmlParsed": "perferendis",
   "Attachments": [
     {
-      "AttachmentId": 834,
-      "Name": "Schneider-Labadie",
-      "ContentType": "architecto",
-      "AttSize": 739,
+      "AttachmentId": 757,
+      "Name": "Kovacek LLC",
+      "ContentType": "maxime",
+      "AttSize": 933,
       "InlineImage": false,
-      "ContentId": "error",
-      "AuthKey": "nesciunt",
+      "ContentId": "et",
+      "AuthKey": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 808
         }
       }
     }
   ],
-  "Subject": "sapiente",
+  "Subject": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 735
     }
   }
 }

@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Hand, Johns and Crist"
+  "ApplicationName": "Crist Group"
 }
 ```
 
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 942,
-  "Name": "Murray Inc and Sons",
-  "CreatedDate": "2013-06-17T15:29:21.9273122+02:00",
-  "UpdatedDate": "2021-07-01T15:29:21.9273122+02:00",
-  "AssociateFullName": "Nelle Keebler",
-  "CreatedBy": "est",
-  "UpdatedBy": "voluptatem",
-  "DeviceIdentifier": "nihil",
-  "ForeignAppId": 216,
+  "ForeignDeviceId": 536,
+  "Name": "Schulist-Deckow",
+  "CreatedDate": "1998-08-04T03:51:27.3498217+02:00",
+  "UpdatedDate": "1996-11-24T03:51:27.3498217+01:00",
+  "AssociateFullName": "Prof. Mireya Feest",
+  "CreatedBy": "earum",
+  "UpdatedBy": "ab",
+  "DeviceIdentifier": "nulla",
+  "ForeignAppId": 356,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldType": "System.Int32",
+      "FieldLength": 250
     }
   }
 }

@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=distinctio
-GET /api/v1/CRMScript?$top=405
-GET /api/v1/CRMScript?$skip=639
+GET /api/v1/CRMScript?$entities=ut
+GET /api/v1/CRMScript?$top=657
+GET /api/v1/CRMScript?$skip=276
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=libero
+GET /api/v1/CRMScript?$context=quisquam
 GET /api/v1/CRMScript?$format=JSON
 GET /api/v1/CRMScript?$jsonSafe=False
 GET /api/v1/CRMScript?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quia",
+  "odata.nextLink": "dolor",
   "value": [
     {
-      "PrimaryKey": 247,
+      "PrimaryKey": 8162,
       "EntityName": "sale",
-      "saleId": 247,
-      "contactId": 5876,
-      "name": "Vandervort, Mitchell and Jerde"
+      "saleId": 8162,
+      "contactId": 7014,
+      "name": "Runolfsdottir, Kohler and Cummerata"
     },
     {
-      "PrimaryKey": 633,
+      "PrimaryKey": 4945,
       "EntityName": "sale",
-      "saleId": 633,
-      "contactId": 8536,
-      "name": "Sawayn-Marks"
+      "saleId": 4945,
+      "contactId": 2130,
+      "name": "Mraz, Fay and Lind"
     }
   ]
 }

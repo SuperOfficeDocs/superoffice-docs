@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 433,
-  "Name": "Swift-Heathcote",
-  "Tooltip": "quis",
+  "Id": 209,
+  "Name": "Medhurst Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 794,
-  "IsCustomList": true,
+  "Rank": 980,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "odit",
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 450,
-  "Name": "Kunde-Bartell",
-  "Tooltip": "culpa",
+  "Id": 236,
+  "Name": "Lynch-Gibson",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 382,
+  "Rank": 28,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "officia",
+  "UseGroupsAndHeadings": true,
+  "ListType": "aliquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 626
     }
   }
 }

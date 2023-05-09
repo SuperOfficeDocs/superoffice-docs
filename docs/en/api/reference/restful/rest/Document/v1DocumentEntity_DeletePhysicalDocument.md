@@ -77,11 +77,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "et",
-  "VersionId": "sit",
+  "ExternalReference": "id",
+  "VersionId": "pariatur",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "quas",
-  "AdditionalInfo": "voluptatem"
+  "Value": "hic",
+  "AdditionalInfo": "soluta"
 }
 ```

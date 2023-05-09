@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Name": "O'Conner Inc and Sons",
-    "Tooltip": "id",
-    "Deleted": false,
-    "UdListDefinitionId": 113,
-    "Rank": 625,
+    "Id": 916,
+    "Name": "Towne, Howe and O'Reilly",
+    "Tooltip": "nostrum",
+    "Deleted": true,
+    "UdListDefinitionId": 44,
+    "Rank": 342,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldType": "System.Int32",
+        "FieldLength": 591
       }
     }
   }

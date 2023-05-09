@@ -116,24 +116,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 896,
-  "Section": "qui",
-  "Key": "perspiciatis",
-  "Name": "Ferry LLC",
+  "PrefDescId": 512,
+  "Section": "et",
+  "Key": "repudiandae",
+  "Name": "Kulas LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Realigned client-server interface",
+  "Description": "Progressive regional Graphical User Interface",
   "IsBuiltin": true,
-  "TableName": "Prosacco LLC",
-  "UserDefinedListId": 945,
-  "Rank": 50,
-  "SubGroup": "modi",
-  "MinLevel": 959,
-  "MaxValue": 416,
-  "MinValue": 621,
-  "RequiredLicense": "architecto"
+  "TableName": "Treutel-Zieme",
+  "UserDefinedListId": 86,
+  "Rank": 778,
+  "SubGroup": "iure",
+  "MinLevel": 157,
+  "MaxValue": 317,
+  "MinValue": 301,
+  "RequiredLicense": "nulla"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 673,
-  "Section": "alias",
-  "Key": "repellendus",
-  "Name": "Nicolas Inc and Sons",
+  "PrefDescId": 519,
+  "Section": "ipsum",
+  "Key": "pariatur",
+  "Name": "Ebert-Kerluke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cross-group local focus group",
+  "Description": "Stand-alone executive internet solution",
   "IsBuiltin": true,
-  "TableName": "Reilly-Douglas",
-  "UserDefinedListId": 270,
-  "Rank": 5,
-  "SubGroup": "dolores",
-  "MinLevel": 831,
-  "MaxValue": 593,
-  "MinValue": 164,
-  "RequiredLicense": "et",
+  "TableName": "Ortiz Group",
+  "UserDefinedListId": 661,
+  "Rank": 474,
+  "SubGroup": "velit",
+  "MinLevel": 643,
+  "MaxValue": 360,
+  "MinValue": 939,
+  "RequiredLicense": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldLength": 12
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

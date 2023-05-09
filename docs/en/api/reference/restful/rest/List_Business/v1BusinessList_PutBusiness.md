@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 709,
-  "Name": "Rath-Skiles",
-  "Tooltip": "officiis",
-  "Deleted": true,
-  "UdListDefinitionId": 430,
-  "Rank": 782
+  "Id": 725,
+  "Name": "Hills, Cole and Dietrich",
+  "Tooltip": "in",
+  "Deleted": false,
+  "UdListDefinitionId": 701,
+  "Rank": 64
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 372,
-  "Name": "Bahringer LLC",
-  "Tooltip": "repellat",
-  "Deleted": true,
-  "UdListDefinitionId": 258,
-  "Rank": 936,
+  "Id": 816,
+  "Name": "Tillman-Kuhic",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "UdListDefinitionId": 761,
+  "Rank": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 583
     }
   }
 }

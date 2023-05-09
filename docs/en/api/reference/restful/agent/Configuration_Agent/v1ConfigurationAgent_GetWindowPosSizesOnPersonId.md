@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 42
+  "PersonId": 714
 }
 ```
 
@@ -98,23 +98,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "dolor",
-    "PersonId": 945,
-    "AssociateId": 543,
-    "ExtraId": 497,
-    "ExtraInfo": "id",
-    "Height": 996,
-    "LeftX": 309,
+    "OwnerWindow": "voluptas",
+    "PersonId": 435,
+    "AssociateId": 24,
+    "ExtraId": 173,
+    "ExtraInfo": "et",
+    "Height": 471,
+    "LeftX": 28,
     "State": "Maximized",
-    "UpperY": 681,
-    "Width": 640,
-    "WindowPosSizeId": 313,
+    "UpperY": 875,
+    "Width": 756,
+    "WindowPosSizeId": 350,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldLength": 503
       }
     }
   }

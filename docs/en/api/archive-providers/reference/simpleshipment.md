@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "simpleshipment"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -565,7 +565,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/name,mailingAddr/contact/contactExtra/x_contact_date,mailingAddr/person/personRegisteredBy,mailingAddr/person/personAddress/city,mailingAddr/person/personAssociate/middleName
+GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/NumberOfTicketsInPeriod,mailingAddr/person/contactId,mailingAddr/person/personBusiness,mailingAddr/person/personUdef/SuperOffice:1,project/nextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

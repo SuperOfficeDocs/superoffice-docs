@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,23 +69,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 152,
-  "WorkflowId": 129,
+  "WorkflowTriggerId": 115,
+  "WorkflowId": 5,
   "TriggerType": "AddToList",
   "RestrictionGroups": [
     {
-      "Name": "Howe-Donnelly",
-      "Description": "Profound multi-tasking model",
-      "Rank": 139,
+      "Name": "Cole-Bergnaum",
+      "Description": "Proactive empowering Graphical User Interface",
+      "Rank": 295,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Howe-Donnelly",
-      "Description": "Profound multi-tasking model",
-      "Rank": 139,
+      "Name": "Cole-Bergnaum",
+      "Description": "Proactive empowering Graphical User Interface",
+      "Rank": 295,
       "Restrictions": [
         {},
         {}
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 486
+      "FieldLength": 926
     }
   }
 }

@@ -76,12 +76,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 582,
-  "Name": "Ryan Inc and Sons",
-  "Tooltip": "accusamus",
+  "Id": 500,
+  "Name": "Altenwerth, Daniel and Effertz",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 101,
-  "Rank": 409
+  "UdListDefinitionId": 886,
+  "Rank": 158
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 843,
-  "Name": "Auer, Bogisich and Boehm",
-  "Tooltip": "et",
+  "Id": 7,
+  "Name": "Konopelski-Walker",
+  "Tooltip": "beatae",
   "Deleted": false,
-  "UdListDefinitionId": 923,
-  "Rank": 804,
+  "UdListDefinitionId": 445,
+  "Rank": 79,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldType": "System.String",
+      "FieldLength": 265
     }
   }
 }

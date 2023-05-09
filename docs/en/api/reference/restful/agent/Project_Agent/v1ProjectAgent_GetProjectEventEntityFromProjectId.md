@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 253
+  "ProjectId": 819
 }
 ```
 
@@ -116,94 +116,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "velit",
-  "SignOffText": "repellendus",
-  "SignOnConfirmationText": "sapiente",
-  "SignOnText": "eius",
-  "EventDate": "2009-07-18T15:29:22.477265+02:00",
-  "Enabled": true,
-  "CreatedDate": "2022-09-21T15:29:22.477265+02:00",
+  "SignOffConfirmationText": "quidem",
+  "SignOffText": "aliquid",
+  "SignOnConfirmationText": "quibusdam",
+  "SignOnText": "animi",
+  "EventDate": "1999-09-10T03:51:27.943438+02:00",
+  "Enabled": false,
+  "CreatedDate": "2010-08-19T03:51:27.943438+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 418,
-  "SignOffTriggersAssign": false,
-  "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 376,
+  "SignOffTaskId": 132,
+  "SignOffTriggersAssign": true,
+  "SignOn": true,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 917,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2011-09-03T15:29:22.477265+02:00",
+  "UpdatedDate": "2006-09-01T03:51:27.943438+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 455,
-  "Id": 429,
-  "PublishFrom": "2018-04-10T15:29:22.4782661+02:00",
+  "ProjectId": 512,
+  "Id": 563,
+  "PublishFrom": "2015-02-08T03:51:27.943438+01:00",
   "PublishType": "External",
-  "PublishTo": "2013-05-22T15:29:22.4782661+02:00",
+  "PublishTo": "2014-02-04T03:51:27.943438+01:00",
   "VisibleForCategories": [
     {
-      "Id": 486,
-      "Name": "Casper Group",
-      "ToolTip": "Et veritatis.",
-      "Deleted": true,
-      "Rank": 814,
-      "Type": "quaerat",
+      "Id": 196,
+      "Name": "Strosin, Davis and Stracke",
+      "ToolTip": "Nam ut ducimus optio rerum.",
+      "Deleted": false,
+      "Rank": 22,
+      "Type": "tempora",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "laborum",
-      "ColorBlock": 921,
-      "ExtraInfo": "omnis",
+      "IconHint": "sed",
+      "ColorBlock": 119,
+      "ExtraInfo": "et",
       "StyleHint": "ut",
-      "FullName": "Mr. Dario Meredith Beer",
+      "FullName": "Mrs. Kieran Alford Borer PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 637
+          "FieldType": "System.Int32",
+          "FieldLength": 941
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 930,
-      "Name": "Rowe, Runolfsdottir and Welch",
-      "ToolTip": "Perspiciatis facere fuga suscipit saepe natus dolor autem.",
+      "Id": 171,
+      "Name": "Bins-Stroman",
+      "ToolTip": "Et asperiores ut fuga occaecati eum nostrum autem.",
       "Deleted": true,
-      "Rank": 990,
-      "Type": "autem",
+      "Rank": 299,
+      "Type": "rem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eligendi",
-      "ColorBlock": 261,
-      "ExtraInfo": "quos",
-      "StyleHint": "iusto",
-      "FullName": "Shayne Swift",
+      "IconHint": "exercitationem",
+      "ColorBlock": 443,
+      "ExtraInfo": "qui",
+      "StyleHint": "quia",
+      "FullName": "Miss Kip Mckayla Hansen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 319
+          "FieldLength": 410
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
+  "IsVisibleForMembers": true,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 812,
+  "ProjectEventId": 64,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldLength": 762
     }
   }
 }

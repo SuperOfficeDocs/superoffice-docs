@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 449,
-  "Name": "McDermott, Harris and Herzog",
-  "Tooltip": "illum",
+  "Id": 293,
+  "Name": "Botsford, Mante and Lind",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "UdListDefinitionId": 635,
-  "Rank": 316,
+  "UdListDefinitionId": 642,
+  "Rank": 242,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 209
     }
   }
 }

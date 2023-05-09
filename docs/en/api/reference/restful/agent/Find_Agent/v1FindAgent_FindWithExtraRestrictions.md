@@ -83,24 +83,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Conn-Leffler",
-  "StorageKey": "cupiditate",
+  "StorageType": "eaque",
+  "ProviderName": "Stiedemann Inc and Sons",
+  "StorageKey": "rerum",
   "ExtraRestrictions": [
     {
-      "Name": "Altenwerth-Rutherford",
-      "Operator": "iusto",
+      "Name": "Bashirian, O'Reilly and Schinner",
+      "Operator": "hic",
       "Values": [
-        "deleniti",
-        "sunt"
+        "eligendi",
+        "optio"
       ],
       "DisplayValues": [
-        "molestiae",
-        "dolorem"
+        "enim",
+        "velit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -108,27 +108,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 63,
+      "InterParenthesis": 699,
       "InterOperator": "And",
-      "UniqueHash": 225
+      "UniqueHash": 284
     }
   ],
   "OrderBy": [
     {
-      "Name": "Vandervort, Jerde and Koelpin",
+      "Name": "Kuvalis, Flatley and Runolfsdottir",
       "Direction": "ASC"
     },
     {
-      "Name": "Vandervort, Jerde and Koelpin",
+      "Name": "Kuvalis, Flatley and Runolfsdottir",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "eligendi",
-    "nobis"
+    "eius",
+    "cumque"
   ],
-  "PageSize": 278,
-  "PageNumber": 392
+  "PageSize": 490,
+  "PageNumber": 414
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bailey Inc and Sons",
-      "DisplayTooltip": "consectetur",
-      "DisplayType": "aut",
-      "CanOrderBy": false,
-      "Name": "Torphy LLC",
+      "DisplayName": "Langworth, Jacobs and Cummerata",
+      "DisplayTooltip": "eveniet",
+      "DisplayType": "eligendi",
+      "CanOrderBy": true,
+      "Name": "Nikolaus, Douglas and Luettgen",
       "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Wilkinson Group",
+      "RestrictionType": "eos",
+      "RestrictionListName": "Harris, Volkman and Harvey",
       "IsVisible": false,
-      "ExtraInfo": "sit",
-      "Width": "quia",
-      "IconHint": "quis",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "ipsa",
+      "Width": "nesciunt",
+      "IconHint": "delectus",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jacobson-Christiansen",
-      "PrimaryKey": 815,
+      "EntityName": "Greenholt Group",
+      "PrimaryKey": 172,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quaerat",
-          "TooltipHint": "adipisci",
-          "LinkHint": "sequi"
+          "DisplayValue": "aut",
+          "TooltipHint": "doloribus",
+          "LinkHint": "velit"
         }
       },
-      "LinkHint": "eos",
-      "StyleHint": "et",
+      "LinkHint": "officia",
+      "StyleHint": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 870
         }
       }
     }
   ],
-  "RowCount": 530,
+  "RowCount": 976,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 896
     }
   }
 }

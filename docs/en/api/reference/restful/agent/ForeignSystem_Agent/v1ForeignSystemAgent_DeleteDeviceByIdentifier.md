@@ -69,9 +69,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Collier Group",
-  "DeviceName": "Renner Group",
-  "DeviceIdentifier": "quam"
+  "ApplicationName": "Schinner-Koss",
+  "DeviceName": "Effertz, Bode and Daniel",
+  "DeviceIdentifier": "sunt"
 }
 ```
 

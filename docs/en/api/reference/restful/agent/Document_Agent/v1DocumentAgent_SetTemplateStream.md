@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/Document/SetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "excepturi",
+  "Filename": "adipisci",
   "Personal": false,
   "Stream": "GIF89....File contents as raw bytes..."
 }

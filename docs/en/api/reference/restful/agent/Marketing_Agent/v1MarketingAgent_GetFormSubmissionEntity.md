@@ -25,7 +25,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=166
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=802
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 683,
-  "FormId": 703,
-  "WhenSubmitted": "2010-03-18T15:29:22.132271+01:00",
-  "ContactId": 855,
-  "PersonId": 826,
-  "EmailAddress": "maddison@connellydietrich.co.uk",
-  "ResponseShipmentAddrId": 913,
-  "Response": "consequatur",
+  "FormSubmissionId": 378,
+  "FormId": 151,
+  "WhenSubmitted": "2023-03-28T03:51:27.5060342+02:00",
+  "ContactId": 631,
+  "PersonId": 502,
+  "EmailAddress": "eli_rolfson@davis.ca",
+  "ResponseShipmentAddrId": 757,
+  "Response": "cumque",
   "Status": "EmailVerification",
-  "ProcessingLog": "quasi",
+  "ProcessingLog": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 874
     }
   }
 }

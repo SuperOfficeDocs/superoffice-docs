@@ -26,7 +26,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=quos
+GET /api/v1/List/Category/MDOItems?query=assumenda
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Bogisich LLC",
-    "ToolTip": "Est quaerat asperiores.",
+    "Id": 452,
+    "Name": "Feeney-Kunze",
+    "ToolTip": "Aut pariatur non enim repellendus.",
     "Deleted": false,
-    "Rank": 299,
-    "Type": "architecto",
+    "Rank": 341,
+    "Type": "ad",
     "ChildItems": [
       {
-        "Id": 719,
-        "Name": "Carter-Crooks",
-        "ToolTip": "Eos non asperiores optio.",
+        "Id": 49,
+        "Name": "Dickens, Quigley and Daugherty",
+        "ToolTip": "Doloribus molestias iste voluptatem.",
         "Deleted": false,
-        "Rank": 45,
-        "Type": "alias",
+        "Rank": 786,
+        "Type": "praesentium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 923,
-        "ExtraInfo": "esse",
-        "StyleHint": "qui",
-        "FullName": "Amelia Sporer",
+        "IconHint": "adipisci",
+        "ColorBlock": 591,
+        "ExtraInfo": "aut",
+        "StyleHint": "alias",
+        "FullName": "Eldora Kuhn I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 372
+            "FieldType": "System.Int32",
+            "FieldLength": 63
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 588,
-    "ExtraInfo": "vitae",
-    "StyleHint": "suscipit",
-    "FullName": "Ibrahim Pfeffer",
+    "IconHint": "et",
+    "ColorBlock": 73,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "animi",
+    "FullName": "Emelie Vesta Haley V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 274
+        "FieldType": "System.Int32",
+        "FieldLength": 276
       }
     }
   }

@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 655,
-    "Tooltip": "autem",
-    "CanAssign": true,
-    "Free": 503,
-    "InUse": 979,
+    "Total": 295,
+    "Tooltip": "voluptatem",
+    "CanAssign": false,
+    "Free": 773,
+    "InUse": 461,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 281,
-    "Name": "Macejkovic, Bayer and Ledner",
-    "Description": "Devolved mobile benchmark",
-    "PrerequisiteModuleName": "White Inc and Sons",
-    "SortOrder": 765,
-    "ExtraFlags": 972,
+    "ModuleLicenseId": 137,
+    "Name": "Hamill LLC",
+    "Description": "Self-enabling reciprocal migration",
+    "PrerequisiteModuleName": "Treutel, Dietrich and Feil",
+    "SortOrder": 239,
+    "ExtraFlags": 261,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 358
       }
     }
   }

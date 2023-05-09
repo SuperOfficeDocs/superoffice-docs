@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 730,
-    "Name": "Langworth LLC",
-    "ToolTip": "Illum non.",
-    "Deleted": false,
-    "Rank": 64,
-    "Type": "harum",
-    "ColorBlock": 17,
-    "IconHint": "labore",
+    "Id": 355,
+    "Name": "Tromp-Mosciski",
+    "ToolTip": "Quibusdam et quod et voluptate.",
+    "Deleted": true,
+    "Rank": 492,
+    "Type": "voluptate",
+    "ColorBlock": 604,
+    "IconHint": "optio",
     "Selected": false,
-    "LastChanged": "1998-04-16T15:29:31.0384467+02:00",
+    "LastChanged": "2005-08-13T03:51:34.3490406+02:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Johns-Sawayn",
-        "ToolTip": "Earum et ut et neque.",
-        "Deleted": true,
-        "Rank": 669,
-        "Type": "porro",
-        "ColorBlock": 799,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2016-05-29T15:29:31.0394467+02:00",
+        "Id": 308,
+        "Name": "Gleichner-Brekke",
+        "ToolTip": "Perferendis delectus est iste maxime accusantium.",
+        "Deleted": false,
+        "Rank": 339,
+        "Type": "molestiae",
+        "ColorBlock": 207,
+        "IconHint": "quisquam",
+        "Selected": false,
+        "LastChanged": "1996-09-03T03:51:34.3490406+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Jodie Mayer",
+        "ExtraInfo": "iusto",
+        "StyleHint": "eaque",
+        "Hidden": false,
+        "FullName": "Marlin Ezequiel Rowe PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 55
+            "FieldType": "System.Int32",
+            "FieldLength": 819
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "et",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Alexandria O'Conner",
+    "FullName": "Madelynn Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldLength": 131
       }
     }
   }

@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Wiza LLC"
+  "TargetTableName": "Rosenbaum, Gusikowski and Kuhlman"
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Diverse composite policy",
-  "Postit": "ut",
+  "Description": "Team-oriented scalable attitude",
+  "Postit": "dignissimos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 90,
-  "IncludePerson": 674,
-  "MemberCount": 155,
-  "Name": "Leffler-Bradtke",
-  "PostitTextId": 725,
-  "CreatedDate": "1999-06-13T15:29:22.7803+02:00",
-  "SelectionId": 709,
-  "SoundEx": "dolorem",
-  "Source": 576,
-  "TextId": 424,
-  "UpdatedDate": "2005-04-18T15:29:22.7803+02:00",
-  "UpdatedCount": 156,
-  "Visibility": 622,
+  "GroupIdx": 547,
+  "IncludePerson": 754,
+  "MemberCount": 186,
+  "Name": "Beier Inc and Sons",
+  "PostitTextId": 293,
+  "CreatedDate": "2007-12-04T03:51:28.1621313+01:00",
+  "SelectionId": 52,
+  "SoundEx": "voluptates",
+  "Source": 339,
+  "TextId": 742,
+  "UpdatedDate": "2012-01-27T03:51:28.1621313+01:00",
+  "UpdatedCount": 431,
+  "Visibility": 853,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 810,
-  "TargetTableName": "Terry Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 673,
-  "RightSelectionId": 862,
+  "TargetTableNumber": 194,
+  "TargetTableName": "Bechtelar-Quigley",
+  "Completed": false,
+  "LeftSelectionId": 925,
+  "RightSelectionId": 676,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jacobi-Kulas",
-  "ShadowProviderName": "Schumm-Hickle",
-  "ChartKey": "consequatur",
-  "LastLoaded": "2018-10-22T15:29:22.7803+02:00",
-  "LastLoadedBy": 837,
+  "MainProviderName": "Bartoletti-Pfeffer",
+  "ShadowProviderName": "Kozey, Moen and Botsford",
+  "ChartKey": "rerum",
+  "LastLoaded": "1997-04-23T03:51:28.1621313+02:00",
+  "LastLoadedBy": 555,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-11-05T15:29:22.7817976+01:00",
-  "LastMembershipChangeBy": 6,
+  "LastMembershipChange": "2023-03-09T03:51:28.1621313+01:00",
+  "LastMembershipChangeBy": 408,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "delectus",
-  "MailingsProviderName": "Marvin, O'Connell and Thiel",
-  "DashboardTileDefinitionId": 326,
+  "MainHeading": "delectus",
+  "MemberTabHeading": "dicta",
+  "MailingsProviderName": "Jacobson, Boyer and Jacobson",
+  "DashboardTileDefinitionId": 522,
   "VisibleFor": [
     {
-      "VisibleId": 616,
+      "VisibleId": 852,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 75
+          "FieldLength": 378
         }
       }
     },
     {
-      "VisibleId": 616,
+      "VisibleId": 852,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 75
+          "FieldLength": 378
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 461
     }
   }
 }

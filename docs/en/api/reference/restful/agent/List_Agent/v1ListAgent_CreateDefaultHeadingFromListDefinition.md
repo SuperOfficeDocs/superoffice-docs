@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 254
+  "UdListDefinitionId": 664
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 798,
-  "Name": "Ziemann-Beier",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 135,
-  "UdListDefinitionId": 317,
+  "HeadingId": 998,
+  "Name": "Okuneva Inc and Sons",
+  "Tooltip": "autem",
+  "Deleted": false,
+  "Rank": 631,
+  "UdListDefinitionId": 638,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 379
     }
   }
 }

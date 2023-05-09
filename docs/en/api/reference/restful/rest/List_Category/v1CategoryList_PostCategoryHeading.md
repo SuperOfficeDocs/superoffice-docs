@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 327,
-  "Name": "Kovacek-Doyle",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 754,
-  "UdListDefinitionId": 127
+  "HeadingId": 584,
+  "Name": "Connelly Group",
+  "Tooltip": "soluta",
+  "Deleted": true,
+  "Rank": 818,
+  "UdListDefinitionId": 86
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 694,
-  "Name": "Kassulke, Schumm and McCullough",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "Rank": 396,
-  "UdListDefinitionId": 536,
+  "HeadingId": 153,
+  "Name": "Krajcik Inc and Sons",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 824,
+  "UdListDefinitionId": 459,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 405
     }
   }
 }

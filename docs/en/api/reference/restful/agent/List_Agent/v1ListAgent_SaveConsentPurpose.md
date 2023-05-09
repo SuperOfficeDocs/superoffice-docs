@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 987,
-  "Name": "Lang-Torphy",
-  "ConsentText": "dolores",
-  "FormText": "quia",
-  "Key": "est",
-  "Tooltip": "maiores",
-  "Active": 124,
-  "UpdatedDate": "2006-11-14T15:29:22.1197701+01:00",
+  "ConsentPurposeId": 785,
+  "Name": "Mraz-Koch",
+  "ConsentText": "velit",
+  "FormText": "laboriosam",
+  "Key": "quia",
+  "Tooltip": "dolorem",
+  "Active": 116,
+  "UpdatedDate": "2021-05-22T03:51:27.5060342+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 2,
-  "PrivacyStatementDesc": "esse",
+  "Rank": 635,
+  "PrivacyStatementDesc": "qui",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldType": "System.Int32",
+      "FieldLength": 167
     }
   }
 }

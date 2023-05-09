@@ -86,16 +86,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Pacocha, Funk and Gleichner",
-  "DeviceName": "Jones, Murray and D'Amore",
-  "DeviceIdentifier": "et",
-  "KeyName": "Boyle LLC",
-  "TableName": "Marks-Bayer",
-  "RecordId": 851
+  "ApplicationName": "Hettinger LLC",
+  "DeviceName": "Krajcik, Schroeder and Sipes",
+  "DeviceIdentifier": "voluptatum",
+  "KeyName": "Hettinger-Volkman",
+  "TableName": "Weissnat-Rolfson",
+  "RecordId": 114
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "non",
-  "Value": "saepe",
-  "RecordId": 936,
-  "CreatedDate": "2004-07-17T15:29:21.9218146+02:00",
-  "UpdatedDate": "2006-07-14T15:29:21.9218146+02:00",
-  "UpdatedBy": "dolor",
-  "CreatedBy": "tenetur",
-  "TableName": "Schuster Group",
+  "Key": "qui",
+  "Value": "harum",
+  "RecordId": 718,
+  "CreatedDate": "2019-09-09T03:51:27.3498217+02:00",
+  "UpdatedDate": "2004-08-12T03:51:27.3498217+02:00",
+  "UpdatedBy": "sint",
+  "CreatedBy": "perferendis",
+  "TableName": "Dicki, Russel and Tillman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldLength": 907
     }
   }
 }

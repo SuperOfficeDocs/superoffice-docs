@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 944,
-  "Name": "Sipes, Jakubowski and Grimes",
-  "Tooltip": "qui",
+  "Id": 607,
+  "Name": "Metz-Huels",
+  "Tooltip": "rem",
   "Deleted": false,
-  "UdListDefinitionId": 754,
-  "Rank": 146,
+  "UdListDefinitionId": 488,
+  "Rank": 76,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 740
+      "FieldLength": 234
     }
   }
 }

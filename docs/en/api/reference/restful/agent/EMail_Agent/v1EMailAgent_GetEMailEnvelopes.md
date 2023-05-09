@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    482,
-    212
+    257,
+    48
   ]
 }
 ```
@@ -104,45 +104,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 924,
-    "MessageId": "nesciunt",
-    "Subject": "ut",
+    "ServerId": 199,
+    "MessageId": "et",
+    "Subject": "autem",
     "From": null,
     "To": [
       {
-        "ContactId": 228,
-        "ContactName": "Muller-Rohan",
-        "PersonId": 539,
-        "PersonName": "Jast, Wisoky and Reichert",
-        "AssociateId": 632,
-        "Address": "voluptates",
-        "EmailId": 127,
+        "ContactId": 724,
+        "ContactName": "Becker-Franecki",
+        "PersonId": 270,
+        "PersonName": "Sauer, Hintz and Luettgen",
+        "AssociateId": 962,
+        "Address": "quis",
+        "EmailId": 208,
         "DuplicatePersonIds": [
-          581,
-          19
+          391,
+          909
         ],
-        "Name": "Schmidt-Berge",
+        "Name": "Steuber Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 299
+            "FieldLength": 191
           }
         }
       }
     ],
-    "Sent": "2010-11-06T15:29:21.8017755+01:00",
+    "Sent": "2015-03-20T03:51:27.2560919+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 656,
+    "Size": 582,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldLength": 181
       }
     }
   }

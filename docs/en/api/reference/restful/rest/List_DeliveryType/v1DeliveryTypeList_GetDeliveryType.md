@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 253,
-  "Name": "Kuhlman, Gerlach and Runte",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "UdListDefinitionId": 421,
-  "Rank": 772,
+  "Id": 780,
+  "Name": "Goyette-Schaefer",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "UdListDefinitionId": 405,
+  "Rank": 605,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 538
     }
   }
 }

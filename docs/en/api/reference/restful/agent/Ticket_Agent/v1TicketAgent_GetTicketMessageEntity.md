@@ -25,7 +25,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=240
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=66
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -101,78 +101,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 602,
+  "EjMessageId": 636,
   "Ticket": null,
-  "CreatedAt": "2010-05-18T15:29:23.2302557+02:00",
+  "CreatedAt": "2010-12-31T03:51:28.3964515+01:00",
   "CreatedBy": null,
-  "Author": "incidunt",
+  "Author": "pariatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quas",
-  "TimeSpent": 139,
-  "Body": "qui",
-  "HtmlBody": "atque",
-  "EmailHeader": "dedrick_franecki@runolfsson.ca",
-  "DebugInfo": "quisquam",
-  "MailSorter": "non",
+  "MessageId": "et",
+  "TimeSpent": 525,
+  "Body": "ut",
+  "HtmlBody": "repudiandae",
+  "EmailHeader": "larue@beahanhegmann.com",
+  "DebugInfo": "molestias",
+  "MailSorter": "dolorem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "temporibus",
+  "SearchTitle": "in",
   "MessageHeaders": [
     {
-      "Id": 584,
-      "Name": "Anderson-Bernhard",
-      "Value": "exercitationem",
+      "Id": 264,
+      "Name": "Auer-Orn",
+      "Value": "labore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 854
+          "FieldType": "System.Int32",
+          "FieldLength": 900
         }
       }
     }
   ],
   "Important": true,
-  "Language": "amet",
-  "Sentiment": 94,
-  "SentimentConfidence": 784,
+  "Language": "modi",
+  "Sentiment": 571,
+  "SentimentConfidence": 674,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 232,
-      "Name": "Watsica LLC",
-      "ContentType": "voluptatem",
-      "AttSize": 111,
+      "AttachmentId": 551,
+      "Name": "Herzog, Bednar and Wolff",
+      "ContentType": "optio",
+      "AttSize": 694,
       "InlineImage": false,
-      "ContentId": "esse",
-      "AuthKey": "qui",
+      "ContentId": "ea",
+      "AuthKey": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 31
+          "FieldType": "System.Int32",
+          "FieldLength": 441
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "repellendus"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "minima"
+    "CustomFields1": "itaque",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 134
     }
   }
 }

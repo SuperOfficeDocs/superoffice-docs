@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 577,
-  "Name": "Hermann, Abbott and Wiza",
-  "Tooltip": "sint",
+  "Id": 549,
+  "Name": "Schmitt-Wintheiser",
+  "Tooltip": "rem",
   "Deleted": false,
-  "Rank": 898,
-  "IsCustomList": false,
+  "Rank": 841,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "tempora",
+  "ListType": "praesentium",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldType": "System.String",
+      "FieldLength": 167
     }
   },
   "_Links": {

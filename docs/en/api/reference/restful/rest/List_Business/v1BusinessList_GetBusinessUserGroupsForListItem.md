@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Name": "Gaylord, Hermann and Herman",
-    "ToolTip": "Omnis quam corrupti numquam ab quisquam.",
+    "Id": 971,
+    "Name": "Beatty Inc and Sons",
+    "ToolTip": "Molestias repellendus.",
     "Deleted": false,
-    "Rank": 283,
-    "Type": "autem",
-    "ColorBlock": 159,
-    "IconHint": "qui",
+    "Rank": 550,
+    "Type": "amet",
+    "ColorBlock": 407,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2019-03-03T15:29:31.0784461+01:00",
+    "LastChanged": "2007-12-13T03:51:34.3802934+01:00",
     "ChildItems": [
       {
-        "Id": 495,
-        "Name": "Zieme LLC",
-        "ToolTip": "Illo eum asperiores non repudiandae cumque atque enim.",
-        "Deleted": false,
-        "Rank": 607,
-        "Type": "eligendi",
-        "ColorBlock": 234,
-        "IconHint": "provident",
+        "Id": 932,
+        "Name": "Olson, Legros and Grimes",
+        "ToolTip": "Itaque dignissimos.",
+        "Deleted": true,
+        "Rank": 392,
+        "Type": "nemo",
+        "ColorBlock": 259,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2014-08-17T15:29:31.078946+02:00",
+        "LastChanged": "2014-12-06T03:51:34.3802934+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "laudantium",
-        "Hidden": false,
-        "FullName": "Ms. Hector Stracke",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Dr. Allene Wilkinson III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 855
+            "FieldLength": 497
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Mrs. Matilde Abshire III",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Christy Wolf Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldLength": 882
       }
     }
   }

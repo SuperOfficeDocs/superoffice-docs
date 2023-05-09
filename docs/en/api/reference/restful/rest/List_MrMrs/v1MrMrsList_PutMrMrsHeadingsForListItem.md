@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 296,
-    "Name": "Ebert Group",
-    "ToolTip": "Voluptas ullam recusandae atque.",
+    "Id": 784,
+    "Name": "Ledner, Boyle and Skiles",
+    "ToolTip": "Vel quas commodi aperiam ab alias dolorem.",
     "Deleted": false,
-    "Rank": 828,
-    "Type": "dolores",
-    "ColorBlock": 45,
-    "IconHint": "itaque",
+    "Rank": 741,
+    "Type": "quia",
+    "ColorBlock": 22,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2016-06-22T15:29:31.3089782+02:00",
+    "LastChanged": "1996-02-19T03:51:34.7239677+01:00",
     "ChildItems": [
       {
-        "Id": 485,
-        "Name": "Dare Group",
-        "ToolTip": "Pariatur velit molestiae eos quae aut blanditiis officia.",
-        "Deleted": false,
-        "Rank": 505,
-        "Type": "alias",
-        "ColorBlock": 774,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2003-01-21T15:29:31.3139776+01:00",
+        "Id": 68,
+        "Name": "Murazik Group",
+        "ToolTip": "Voluptates quod neque natus qui.",
+        "Deleted": true,
+        "Rank": 931,
+        "Type": "in",
+        "ColorBlock": 79,
+        "IconHint": "ad",
+        "Selected": true,
+        "LastChanged": "1998-09-28T03:51:34.7239677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Ms. Harvey Hoyt Goyette"
+        "ExtraInfo": "dicta",
+        "StyleHint": "quos",
+        "Hidden": false,
+        "FullName": "Christine Littel"
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Ms. Celia Adell Ledner II"
+    "ExtraInfo": "in",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Skye Julian Tremblay DDS"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 194,
-    "Name": "Glover Inc and Sons",
-    "ToolTip": "Blanditiis nisi deserunt et quisquam quas maxime.",
-    "Deleted": true,
-    "Rank": 399,
-    "Type": "enim",
-    "ColorBlock": 460,
-    "IconHint": "excepturi",
-    "Selected": true,
-    "LastChanged": "2019-04-14T15:29:31.3154777+02:00",
+    "Id": 132,
+    "Name": "Green Group",
+    "ToolTip": "Dolores non reiciendis perspiciatis tempora fugiat quibusdam eum.",
+    "Deleted": false,
+    "Rank": 928,
+    "Type": "sequi",
+    "ColorBlock": 799,
+    "IconHint": "dolore",
+    "Selected": false,
+    "LastChanged": "2020-07-07T03:51:34.7395889+02:00",
     "ChildItems": [
       {
-        "Id": 891,
-        "Name": "Champlin-Gerlach",
-        "ToolTip": "Aperiam accusantium sed expedita id ut vel.",
-        "Deleted": true,
-        "Rank": 335,
-        "Type": "repellat",
-        "ColorBlock": 862,
-        "IconHint": "consectetur",
+        "Id": 709,
+        "Name": "Becker-Schultz",
+        "ToolTip": "Nobis rerum quia recusandae.",
+        "Deleted": false,
+        "Rank": 753,
+        "Type": "nihil",
+        "ColorBlock": 806,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "2022-06-12T15:29:31.3154777+02:00",
+        "LastChanged": "2016-04-05T03:51:34.7395889+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Preston Auer",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "adipisci",
+        "Hidden": false,
+        "FullName": "Kenton Kub",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 680
+            "FieldLength": 808
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "suscipit",
-    "Hidden": false,
-    "FullName": "Keely Rodriguez",
+    "ExtraInfo": "natus",
+    "StyleHint": "inventore",
+    "Hidden": true,
+    "FullName": "Clifford Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldLength": 699
       }
     }
   }

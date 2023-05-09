@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 467,
-  "ColumnId": 125,
-  "FieldDefault": "ducimus",
-  "FieldHeight": 698,
-  "FieldLabel": "ut",
-  "FieldLeft": 134,
-  "FieldTop": 880,
+  "UDefFieldId": 925,
+  "ColumnId": 660,
+  "FieldDefault": "est",
+  "FieldHeight": 838,
+  "FieldLabel": "ipsum",
+  "FieldLeft": 208,
+  "FieldTop": 159,
   "FieldType": "Checkbox",
-  "FieldWidth": 74,
-  "FormatMask": "voluptas",
+  "FieldWidth": 411,
+  "FormatMask": "placeat",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 665,
-  "LabelLeft": 655,
-  "LabelTop": 574,
-  "LabelWidth": 670,
-  "LastVersionId": 613,
-  "ListTableId": 600,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 218,
+  "LabelLeft": 885,
+  "LabelTop": 352,
+  "LabelWidth": 525,
+  "LastVersionId": 687,
+  "ListTableId": 330,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 53,
-  "ProgId": "quidem",
+  "Page1LineNo": 614,
+  "ProgId": "ut",
   "IsReadOnly": true,
-  "ShortLabel": "consectetur",
-  "TabOrder": 585,
-  "TextLength": 324,
+  "ShortLabel": "eaque",
+  "TabOrder": 228,
+  "TextLength": 562,
   "Tooltip": "est",
-  "UdefIdentity": 742,
-  "UDListDefinitionId": 446,
+  "UdefIdentity": 919,
+  "UDListDefinitionId": 853,
   "Justification": "Center",
-  "Version": 566,
-  "TemplateVariableName": "Kuvalis, Swift and Kautzer",
+  "Version": 923,
+  "TemplateVariableName": "Schmidt-Rau",
   "HasBeenPublished": false,
-  "MdoListName": "McDermott-Price",
+  "MdoListName": "Dibbert, Altenwerth and Powlowski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 179
     }
   }
 }

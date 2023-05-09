@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cummings-Batz",
+  "ProviderName": "Baumbach-Bailey",
   "Restrictions": [
     {
-      "Name": "Runolfsson, Sauer and Johns",
-      "Operator": "ipsum",
+      "Name": "Halvorson Group",
+      "Operator": "aut",
       "Values": [
-        "dolor",
-        "ut"
+        "et",
+        "dolor"
       ],
       "DisplayValues": [
-        "omnis",
-        "voluptate"
+        "quo",
+        "laborum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 419,
+      "InterParenthesis": 129,
       "InterOperator": "And",
-      "UniqueHash": 785
+      "UniqueHash": 9
     }
   ]
 }
@@ -108,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  607,
-  449
+  791,
+  119
 ]
 ```

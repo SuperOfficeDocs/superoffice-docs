@@ -113,18 +113,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "perferendis",
+    "path": "recusandae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "perferendis",
+    "path": "recusandae",
     "value": {}
   }
 ]
@@ -137,19 +137,19 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 107,
-  "Name": "Walsh Group",
-  "ContentType": "sit",
-  "AttSize": 850,
-  "InlineImage": true,
-  "ContentId": "earum",
-  "AuthKey": "expedita",
+  "AttachmentId": 185,
+  "Name": "Schuster LLC",
+  "ContentType": "adipisci",
+  "AttSize": 965,
+  "InlineImage": false,
+  "ContentId": "inventore",
+  "AuthKey": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldLength": 362
     }
   },
   "_Links": {

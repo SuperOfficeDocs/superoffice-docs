@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 390,
-    "Name": "Wolf-Hegmann",
-    "ToolTip": "Omnis eum iusto iusto quia et.",
-    "Deleted": true,
-    "Rank": 374,
-    "Type": "ipsa",
-    "ColorBlock": 722,
-    "IconHint": "aliquid",
+    "Id": 998,
+    "Name": "Tillman, Stroman and Tillman",
+    "ToolTip": "Dignissimos est eaque ipsum et aspernatur aspernatur.",
+    "Deleted": false,
+    "Rank": 826,
+    "Type": "pariatur",
+    "ColorBlock": 345,
+    "IconHint": "veniam",
     "Selected": true,
-    "LastChanged": "2001-06-28T15:29:31.2284787+02:00",
+    "LastChanged": "2022-10-14T03:51:34.6614813+02:00",
     "ChildItems": [
       {
-        "Id": 892,
-        "Name": "Crist-Dicki",
-        "ToolTip": "Amet esse laborum sit aliquid.",
-        "Deleted": false,
-        "Rank": 646,
-        "Type": "similique",
-        "ColorBlock": 364,
-        "IconHint": "suscipit",
-        "Selected": false,
-        "LastChanged": "2015-05-25T15:29:31.2289792+02:00",
+        "Id": 929,
+        "Name": "Leuschke-Senger",
+        "ToolTip": "Id est distinctio at adipisci.",
+        "Deleted": true,
+        "Rank": 642,
+        "Type": "enim",
+        "ColorBlock": 88,
+        "IconHint": "quae",
+        "Selected": true,
+        "LastChanged": "1999-05-27T03:51:34.6614813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "minus",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Kaci Littel"
+        "FullName": "Jessie Ondricka"
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Prof. Carlotta Ortiz"
+    "ExtraInfo": "quos",
+    "StyleHint": "distinctio",
+    "Hidden": false,
+    "FullName": "Eloise Rice"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 922,
-    "Name": "Emard, Bogan and Stehr",
-    "ToolTip": "Consequatur occaecati eveniet est labore consequatur.",
+    "Id": 348,
+    "Name": "Ratke, Krajcik and Marvin",
+    "ToolTip": "Et dolorem eos nam.",
     "Deleted": true,
-    "Rank": 335,
-    "Type": "architecto",
-    "ColorBlock": 282,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "1997-09-25T15:29:31.2309803+02:00",
+    "Rank": 450,
+    "Type": "ut",
+    "ColorBlock": 843,
+    "IconHint": "nihil",
+    "Selected": false,
+    "LastChanged": "2011-03-20T03:51:34.6770975+01:00",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "Keebler, Lakin and Hansen",
-        "ToolTip": "Numquam ipsum sit eveniet ut totam est.",
+        "Id": 358,
+        "Name": "Greenholt, Emard and Larkin",
+        "ToolTip": "Nobis voluptate.",
         "Deleted": false,
-        "Rank": 979,
-        "Type": "et",
-        "ColorBlock": 596,
-        "IconHint": "nesciunt",
+        "Rank": 42,
+        "Type": "rerum",
+        "ColorBlock": 899,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2020-06-14T15:29:31.2309803+02:00",
+        "LastChanged": "2008-10-12T03:51:34.6770975+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "quisquam",
-        "Hidden": false,
-        "FullName": "Obie Assunta Graham III",
+        "ExtraInfo": "facilis",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Madelynn Deckow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 400
+            "FieldType": "System.String",
+            "FieldLength": 740
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "vero",
-    "Hidden": true,
-    "FullName": "Carmella Alverta Kihn Jr.",
+    "ExtraInfo": "dicta",
+    "StyleHint": "iure",
+    "Hidden": false,
+    "FullName": "Judy Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldType": "System.String",
+        "FieldLength": 417
       }
     }
   }

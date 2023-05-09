@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Hand Inc and Sons",
-    "ToolTip": "Qui maxime veritatis harum.",
+    "Id": 806,
+    "Name": "Walter LLC",
+    "ToolTip": "Excepturi sint voluptas.",
     "Deleted": false,
-    "Rank": 601,
-    "Type": "est",
-    "ColorBlock": 950,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2022-03-03T15:29:31.5924773+01:00",
+    "Rank": 851,
+    "Type": "id",
+    "ColorBlock": 12,
+    "IconHint": "pariatur",
+    "Selected": true,
+    "LastChanged": "2013-09-11T03:51:34.9582718+02:00",
     "ChildItems": [
       {
-        "Id": 917,
-        "Name": "Hahn, Veum and Jacobs",
-        "ToolTip": "Non sed perferendis.",
-        "Deleted": false,
-        "Rank": 787,
-        "Type": "error",
-        "ColorBlock": 145,
-        "IconHint": "omnis",
+        "Id": 231,
+        "Name": "Bergnaum Inc and Sons",
+        "ToolTip": "Nesciunt eum libero omnis cupiditate.",
+        "Deleted": true,
+        "Rank": 861,
+        "Type": "fugiat",
+        "ColorBlock": 472,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2010-01-03T15:29:31.5924773+01:00",
+        "LastChanged": "2002-01-15T03:51:34.9582718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "doloremque",
-        "Hidden": true,
-        "FullName": "Nelson Fadel",
+        "ExtraInfo": "repellat",
+        "StyleHint": "beatae",
+        "Hidden": false,
+        "FullName": "Ms. Janelle Alyson Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 759
+            "FieldLength": 630
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "nisi",
+    "ExtraInfo": "sunt",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Dr. Karianne Upton",
+    "FullName": "Garrett Marina Hahn MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 981
+        "FieldLength": 334
       }
     }
   }

@@ -81,7 +81,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,22 +91,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 730,
-  "ERPPriceListKey": "est",
-  "QuoteConnectionId": 883,
-  "Name": "Rau, Jerde and Borer",
-  "Description": "Pre-emptive fresh-thinking budgetary management",
-  "Currency": "voluptas",
-  "CurrencyName": "Barton, VonRueden and Weimann",
-  "ValidFrom": "2017-01-28T15:29:31.3694769+01:00",
-  "ValidTo": "2010-04-25T15:29:31.3694769+02:00",
-  "IsActive": true,
+  "PriceListId": 526,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 36,
+  "Name": "McCullough, Murazik and Sauer",
+  "Description": "Progressive non-volatile process improvement",
+  "Currency": "facere",
+  "CurrencyName": "Rippin-Walter",
+  "ValidFrom": "2018-06-06T03:51:34.7708309+02:00",
+  "ValidTo": "2011-12-01T03:51:34.7708309+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldType": "System.String",
+      "FieldLength": 4
     }
   },
   "_Links": {

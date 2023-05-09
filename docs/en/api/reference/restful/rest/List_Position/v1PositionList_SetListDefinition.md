@@ -87,16 +87,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 893,
-  "Name": "Breitenberg Group",
-  "Tooltip": "eos",
+  "Id": 776,
+  "Name": "Tremblay Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 74,
-  "IsCustomList": false,
+  "Rank": 125,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "laudantium",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 910,
-  "Name": "Stroman, Koelpin and Lubowitz",
-  "Tooltip": "assumenda",
+  "Id": 926,
+  "Name": "Huel-Keeling",
+  "Tooltip": "magni",
   "Deleted": false,
-  "Rank": 174,
+  "Rank": 274,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "excepturi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 437
+      "FieldType": "System.Int32",
+      "FieldLength": 446
     }
   }
 }

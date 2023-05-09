@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaintProject"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -748,7 +748,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintProject?$select=saintAmountClass,sale/nextDueDate,projectMember/email/emailAddress,projectMember/personUdef/SuperOffice:6
+GET /api/v1/archive/SaintProject?$select=nextMilestone,sale/probPercent,sale/saleUdef/SuperOffice:3,projectMember/personCountryId,projectMember/supportAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

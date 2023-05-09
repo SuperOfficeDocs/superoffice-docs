@@ -79,7 +79,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Hills Group",
-    "ToolTip": "Illo assumenda autem sed dolorem consectetur inventore velit.",
+    "Id": 808,
+    "Name": "Block, Christiansen and Labadie",
+    "ToolTip": "Ipsum pariatur.",
     "Deleted": true,
-    "Rank": 638,
-    "Type": "rem",
+    "Rank": 204,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 685,
-        "Name": "Goldner, Schinner and Cruickshank",
-        "ToolTip": "Adipisci velit.",
+        "Id": 340,
+        "Name": "Gaylord Inc and Sons",
+        "ToolTip": "Possimus qui.",
         "Deleted": false,
-        "Rank": 594,
-        "Type": "facere",
+        "Rank": 666,
+        "Type": "soluta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequuntur",
-        "ColorBlock": 128,
-        "ExtraInfo": "eum",
-        "StyleHint": "sequi",
-        "FullName": "Mrs. Braulio Kuhlman Jr.",
+        "IconHint": "placeat",
+        "ColorBlock": 636,
+        "ExtraInfo": "officia",
+        "StyleHint": "laborum",
+        "FullName": "Mrs. Kian Jaquelin Jakubowski Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 87
+            "FieldLength": 405
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 641,
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "harum",
-    "FullName": "Cielo Dulce Raynor MD",
+    "IconHint": "quia",
+    "ColorBlock": 849,
+    "ExtraInfo": "ducimus",
+    "StyleHint": "ullam",
+    "FullName": "Ms. Nikita Alejandra Olson V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 465
+        "FieldLength": 490
       }
     }
   }

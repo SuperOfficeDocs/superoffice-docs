@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 61,
-    "Name": "Hilll, Schmeler and Leuschke",
-    "Tooltip": "officia",
+    "HeadingId": 788,
+    "Name": "Prosacco-Howell",
+    "Tooltip": "qui",
     "Deleted": true,
-    "Rank": 548,
-    "UdListDefinitionId": 896
+    "Rank": 385,
+    "UdListDefinitionId": 164
   },
   {
-    "HeadingId": 61,
-    "Name": "Hilll, Schmeler and Leuschke",
-    "Tooltip": "officia",
+    "HeadingId": 788,
+    "Name": "Prosacco-Howell",
+    "Tooltip": "qui",
     "Deleted": true,
-    "Rank": 548,
-    "UdListDefinitionId": 896
+    "Rank": 385,
+    "UdListDefinitionId": 164
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 688,
-    "Name": "Mraz, Stroman and Goldner",
-    "Tooltip": "repellendus",
+    "HeadingId": 174,
+    "Name": "Kerluke-Howell",
+    "Tooltip": "dignissimos",
     "Deleted": false,
-    "Rank": 387,
-    "UdListDefinitionId": 861,
+    "Rank": 541,
+    "UdListDefinitionId": 101,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldType": "System.String",
+        "FieldLength": 920
       }
     }
   }

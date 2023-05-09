@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 185
+  "SelectionId": 59
 }
 ```
 
@@ -95,29 +95,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cremin LLC",
-    "Operator": "reiciendis",
+    "Name": "Hane Inc and Sons",
+    "Operator": "debitis",
     "Values": [
-      "dolorem",
-      "omnis"
+      "quibusdam",
+      "fuga"
     ],
     "DisplayValues": [
-      "quae",
-      "ut"
+      "occaecati",
+      "veritatis"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Thompson, Heller and Bernhard",
-        "Operator": "consequatur",
+        "Name": "Treutel LLC",
+        "Operator": "non",
         "Values": [
-          "voluptas",
-          "aut"
+          "ut",
+          "sit"
         ],
         "DisplayValues": [
-          "nulla",
-          "rem"
+          "a",
+          "repudiandae"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -125,14 +125,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 23,
+        "InterParenthesis": 958,
         "InterOperator": "And",
-        "UniqueHash": 738
+        "UniqueHash": 11
       }
     ],
-    "InterParenthesis": 362,
+    "InterParenthesis": 485,
     "InterOperator": "And",
-    "UniqueHash": 634
+    "UniqueHash": 932
   }
 ]
 ```

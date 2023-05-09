@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Name": "Maggio, Bergnaum and Graham",
-  "Tooltip": "omnis",
+  "Id": 906,
+  "Name": "Quitzon-Waelchi",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "UdListDefinitionId": 752,
-  "Rank": 786,
+  "UdListDefinitionId": 418,
+  "Rank": 897,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 821
     }
   }
 }

@@ -81,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "optio",
-  "VersionId": "sint",
-  "Success": true,
+  "ExternalReference": "est",
+  "VersionId": "et",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "vel",
-  "AdditionalInfo": "ut"
+  "Value": "sint",
+  "AdditionalInfo": "aut"
 }
 ```

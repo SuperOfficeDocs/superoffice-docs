@@ -98,53 +98,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 112,
-    "Name": "Muller-Mante",
-    "Tooltip": "laborum",
-    "Rank": 46,
+    "SaleTypeId": 13,
+    "Name": "Gaylord, Bernier and Heller",
+    "Tooltip": "nulla",
+    "Rank": 195,
     "DurationUnit": "Century",
-    "SaleDuration": 503,
-    "SaleTypeCatId": 22,
-    "Deleted": false,
-    "HasGuide": true,
+    "SaleDuration": 824,
+    "SaleTypeCatId": 747,
+    "Deleted": true,
+    "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 398,
-    "QuoteLinesTemplate": 853,
-    "ConfirmationLinesTemplate": 506,
+    "DefaultQuoteValidity": 368,
+    "QuoteLinesTemplate": 829,
+    "ConfirmationLinesTemplate": 964,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 663,
-    "MinEarningPercent": 664,
-    "GroupQuoteLinesBy": 480,
-    "SortGroupLinesBy": 534,
+    "MaxDiscountPercent": 622,
+    "MinEarningPercent": 902,
+    "GroupQuoteLinesBy": 554,
+    "SortGroupLinesBy": 347,
     "Stages": [
       {
-        "Id": 783,
-        "Name": "Fahey Group",
-        "ToolTip": "Asperiores blanditiis quos laboriosam qui atque.",
-        "Deleted": true,
-        "Rank": 897,
-        "Type": "ex",
-        "ColorBlock": 801,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2007-09-05T15:29:31.581972+02:00",
+        "Id": 2,
+        "Name": "Gulgowski, Medhurst and Kassulke",
+        "ToolTip": "Perspiciatis et eos voluptatem enim nam placeat.",
+        "Deleted": false,
+        "Rank": 106,
+        "Type": "quos",
+        "ColorBlock": 706,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2019-07-21T03:51:34.9426529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "natus",
+        "ExtraInfo": "rem",
+        "StyleHint": "hic",
         "Hidden": false,
-        "FullName": "Mrs. Wilma Bashirian V",
+        "FullName": "Mr. Adrian Ransom Brekke IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 598
+            "FieldLength": 712
           }
         }
       }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 388
       }
     }
   }

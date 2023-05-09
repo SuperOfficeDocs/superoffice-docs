@@ -99,28 +99,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 262,
-  "Name": "Will, Maggio and Swift",
-  "Description": "Multi-lateral 5th generation migration",
-  "DeltaJson": "maiores",
+  "ConfigurableScreenDeltaId": 614,
+  "Name": "Mitchell-Labadie",
+  "Description": "Organic client-server instruction set",
+  "DeltaJson": "quasi",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "tenetur",
-  "UpdatedDate": "2013-08-08T15:29:21.0432852+02:00",
-  "CreatedDate": "2007-12-23T15:29:21.0432852+01:00",
+  "RecipeId": "ex",
+  "UpdatedDate": "2009-06-06T03:51:26.787455+02:00",
+  "CreatedDate": "2009-07-18T03:51:26.787455+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    48,
-    629
+    941,
+    445
   ],
-  "AppliesToKey": "laborum",
+  "AppliesToKey": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 859
+      "FieldLength": 449
     }
   }
 }

@@ -77,34 +77,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "praesentium",
-  "ProviderName": "Mertz, Quitzon and Marks",
-  "StorageKey": "ut",
+  "StorageType": "perspiciatis",
+  "ProviderName": "Schmitt-Lang",
+  "StorageKey": "voluptas",
   "RestrictionGroups": [
     {
-      "Name": "Dicki-Walter",
-      "Description": "Profit-focused modular complexity",
-      "Rank": 828,
+      "Name": "Leuschke-Cruickshank",
+      "Description": "Programmable demand-driven strategy",
+      "Rank": 135,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Dicki-Walter",
-      "Description": "Profit-focused modular complexity",
-      "Rank": 828,
+      "Name": "Leuschke-Cruickshank",
+      "Description": "Programmable demand-driven strategy",
+      "Rank": 135,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "laudantium"
+  "Context": "nemo"
 }
 ```
 
@@ -116,58 +116,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marvin, McCullough and Powlowski",
-    "Description": "Synchronised asynchronous encoding",
-    "Rank": 712,
+    "Name": "Stoltenberg Inc and Sons",
+    "Description": "Front-line 24/7 intranet",
+    "Rank": 53,
     "Restrictions": [
       {
-        "Name": "Williamson-Padberg",
-        "Operator": "dolores",
+        "Name": "Schamberger-Green",
+        "Operator": "et",
         "Values": [
-          "cum",
-          "enim"
+          "quia",
+          "impedit"
         ],
         "DisplayValues": [
-          "esse",
-          "omnis"
+          "qui",
+          "non"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 744,
+        "InterParenthesis": 865,
         "InterOperator": "And",
-        "UniqueHash": 6
+        "UniqueHash": 147
       }
     ]
   },
   {
-    "Name": "Marvin, McCullough and Powlowski",
-    "Description": "Synchronised asynchronous encoding",
-    "Rank": 712,
+    "Name": "Stoltenberg Inc and Sons",
+    "Description": "Front-line 24/7 intranet",
+    "Rank": 53,
     "Restrictions": [
       {
-        "Name": "Williamson-Padberg",
-        "Operator": "dolores",
+        "Name": "Schamberger-Green",
+        "Operator": "et",
         "Values": [
-          "cum",
-          "enim"
+          "quia",
+          "impedit"
         ],
         "DisplayValues": [
-          "esse",
-          "omnis"
+          "qui",
+          "non"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 744,
+        "InterParenthesis": 865,
         "InterOperator": "And",
-        "UniqueHash": 6
+        "UniqueHash": 147
       }
     ]
   }

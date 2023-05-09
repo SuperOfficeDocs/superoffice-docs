@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    380,
-    318
+    48,
+    674
   ]
 }
 ```
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 599,
-    "Attention": "quae",
-    "Header": "et",
-    "Name": "Hills, Miller and Gutmann",
-    "OurRef": "magni",
-    "YourRef": "est",
-    "Description": "Compatible 24 hour process improvement",
-    "DocumentTemplate": "aut",
-    "IsPublished": true,
-    "PersonId": 482,
-    "PersonFullName": "Monserrate Kuhn",
-    "AssociateFullName": "Litzy Bailey",
-    "ContactId": 842,
-    "ContactName": "Borer-McCullough",
-    "ProjectId": 681,
-    "ProjectName": "Dibbert Inc and Sons",
-    "AssociateId": 886,
-    "Snum": 313,
-    "SaleId": 950,
-    "SaleName": "Jast-Reichert",
+    "DocumentId": 286,
+    "Attention": "et",
+    "Header": "earum",
+    "Name": "Hand-Terry",
+    "OurRef": "quas",
+    "YourRef": "quae",
+    "Description": "Devolved fault-tolerant task-force",
+    "DocumentTemplate": "quas",
+    "IsPublished": false,
+    "PersonId": 742,
+    "PersonFullName": "Eda Schaefer",
+    "AssociateFullName": "Jonathon Murray",
+    "ContactId": 92,
+    "ContactName": "Hansen Inc and Sons",
+    "ProjectId": 817,
+    "ProjectName": "Lubowitz LLC",
+    "AssociateId": 638,
+    "Snum": 26,
+    "SaleId": 413,
+    "SaleName": "Lakin LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 11
+        "FieldType": "System.String",
+        "FieldLength": 366
       }
     }
   }

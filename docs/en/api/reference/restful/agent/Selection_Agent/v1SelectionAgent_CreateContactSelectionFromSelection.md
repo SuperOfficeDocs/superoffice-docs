@@ -119,8 +119,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 943,
-  "Name": "Greenfelder-Wilderman",
+  "SelectionId": 809,
+  "Name": "Bradtke, Russel and Hoppe",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Face to face even-keeled matrix",
-  "Postit": "modi",
+  "Description": "Enterprise-wide interactive groupware",
+  "Postit": "culpa",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 373,
-  "IncludePerson": 233,
-  "MemberCount": 627,
-  "Name": "Marquardt, Barton and Bosco",
-  "PostitTextId": 426,
-  "CreatedDate": "2008-06-16T15:29:22.7867974+02:00",
-  "SelectionId": 815,
-  "SoundEx": "quibusdam",
-  "Source": 921,
-  "TextId": 648,
-  "UpdatedDate": "1996-09-13T15:29:22.7867974+02:00",
-  "UpdatedCount": 322,
-  "Visibility": 130,
+  "GroupIdx": 502,
+  "IncludePerson": 61,
+  "MemberCount": 647,
+  "Name": "Littel-Weber",
+  "PostitTextId": 372,
+  "CreatedDate": "2014-04-10T03:51:28.1621313+02:00",
+  "SelectionId": 480,
+  "SoundEx": "tenetur",
+  "Source": 76,
+  "TextId": 899,
+  "UpdatedDate": "2009-07-24T03:51:28.1621313+02:00",
+  "UpdatedCount": 514,
+  "Visibility": 734,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 61,
-  "TargetTableName": "Nitzsche, Koelpin and Volkman",
+  "CompanyUnique": true,
+  "TargetTableNumber": 101,
+  "TargetTableName": "Kling-Will",
   "Completed": true,
-  "LeftSelectionId": 584,
-  "RightSelectionId": 782,
+  "LeftSelectionId": 756,
+  "RightSelectionId": 778,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Konopelski-Heaney",
-  "ShadowProviderName": "Bartell Inc and Sons",
-  "ChartKey": "optio",
-  "LastLoaded": "2020-03-22T15:29:22.7872971+01:00",
-  "LastLoadedBy": 968,
+  "MainProviderName": "Schmeler Inc and Sons",
+  "ShadowProviderName": "Casper-Rosenbaum",
+  "ChartKey": "eos",
+  "LastLoaded": "2019-12-25T03:51:28.1621313+01:00",
+  "LastLoadedBy": 116,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-09-29T15:29:22.7872971+02:00",
-  "LastMembershipChangeBy": 855,
+  "LastMembershipChange": "1998-05-18T03:51:28.1621313+02:00",
+  "LastMembershipChangeBy": 521,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "delectus",
-  "MemberTabHeading": "hic",
-  "MailingsProviderName": "VonRueden Group",
-  "DashboardTileDefinitionId": 348,
+  "MainHeading": "provident",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "McDermott LLC",
+  "DashboardTileDefinitionId": 766,
   "VisibleFor": [
     {
-      "VisibleId": 644,
+      "VisibleId": 269,
       "Visibility": "All",
-      "DisplayValue": "vitae",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 164
+          "FieldLength": 850
         }
       }
     },
     {
-      "VisibleId": 644,
+      "VisibleId": 269,
       "Visibility": "All",
-      "DisplayValue": "vitae",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 164
+          "FieldLength": 850
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 427
+      "FieldLength": 49
     }
   }
 }

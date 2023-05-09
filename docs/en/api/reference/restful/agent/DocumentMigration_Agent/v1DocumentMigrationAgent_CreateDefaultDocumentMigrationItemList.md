@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,29 +70,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 103,
-  "NumDocumentsAlreadyMigrated": 816,
+  "NumDocumentsOmitted": 747,
+  "NumDocumentsAlreadyMigrated": 941,
   "Documents": [
     {
-      "DocumentId": 73,
-      "ContactId": 417,
-      "PersonId": 201,
-      "SaleId": 631,
-      "ProjectId": 114,
-      "DocTmplId": 243,
-      "AssociateId": 245,
-      "UserGroupId": 132,
-      "VisibleForId": 65
+      "DocumentId": 472,
+      "ContactId": 615,
+      "PersonId": 692,
+      "SaleId": 129,
+      "ProjectId": 432,
+      "DocTmplId": 146,
+      "AssociateId": 575,
+      "UserGroupId": 12,
+      "VisibleForId": 503
     }
   ],
   "Associates": [
     {
-      "AssociateId": 798,
-      "EmailAddress": "michael.harris@kuphal.co.uk"
+      "AssociateId": 449,
+      "EmailAddress": "helena@bahringer.info"
     },
     {
-      "AssociateId": 798,
-      "EmailAddress": "michael.harris@kuphal.co.uk"
+      "AssociateId": 449,
+      "EmailAddress": "helena@bahringer.info"
     }
   ]
 }

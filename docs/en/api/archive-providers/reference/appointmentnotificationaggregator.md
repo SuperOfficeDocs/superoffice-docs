@@ -1,14 +1,14 @@
 ---
 uid: AppointmentNotificationAggregator
 title: AppointmentNotificationAggregator
-description: Aggregates all subproviders, doing some work on linkhints.
+description: 
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
   - "AppointmentNotificationAggregator"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -18,8 +18,6 @@ so.envir:
 # "AppointmentNotificationAggregator"
 
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider">SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider</see> inside NetServer's SODatabase assembly.
-
-Aggregates all subproviders, doing some work on linkhints.
 
 ## Supported Entities
 | Name | Description |
@@ -49,11 +47,13 @@ Aggregates all subproviders, doing some work on linkhints.
 |invitedPersonId| *None* |!!invitedPersonId| x |
 |isSeen| *None* |!!isSeen|  |
 |hasConflict| *None* |!!hasConflict|  |
+|recurrencePattern| *None* |!!recurrencePattern| x |
+|rejectReason| *None* |!!rejectReason| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentNotificationAggregator?$select=notifyDateTime,startDateTime
+GET /api/v1/archive/AppointmentNotificationAggregator?$select=title,endDateTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

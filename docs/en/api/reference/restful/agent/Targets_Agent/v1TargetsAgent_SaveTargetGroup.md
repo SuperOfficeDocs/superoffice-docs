@@ -76,24 +76,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 370,
-  "Year": 2,
+  "TargetGroupId": 733,
+  "Year": 539,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 213,
+      "TargetAssignmentInfoId": 224,
       "Values": [
-        311,
-        760
+        891,
+        728
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 64,
-      "DimensionListItemDisplayName": "Quitzon, Ebert and Wunsch"
+      "DimensionListItem": 385,
+      "DimensionListItemDisplayName": "Luettgen-Crist"
     }
   ],
   "TargetDimension": null
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 67,
-  "Year": 178,
+  "TargetGroupId": 619,
+  "Year": 434,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 209,
+      "TargetAssignmentInfoId": 264,
       "Values": [
-        127,
-        595
+        416,
+        506
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 346,
-      "DimensionListItemDisplayName": "Reynolds-Marquardt",
+      "DimensionListItem": 87,
+      "DimensionListItemDisplayName": "Grady LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 284
+          "FieldType": "System.Int32",
+          "FieldLength": 712
         }
       }
     }
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,79 +95,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "temporibus",
-  "SignOffText": "in",
-  "SignOnConfirmationText": "repellendus",
-  "SignOnText": "tenetur",
-  "EventDate": "1996-10-08T15:29:22.4388028+02:00",
+  "SignOffConfirmationText": "quaerat",
+  "SignOffText": "ad",
+  "SignOnConfirmationText": "cupiditate",
+  "SignOnText": "ad",
+  "EventDate": "2022-01-10T03:51:27.912192+01:00",
   "Enabled": false,
-  "CreatedDate": "2019-08-20T15:29:22.4388028+02:00",
-  "SignOff": false,
+  "CreatedDate": "2003-08-19T03:51:27.912192+02:00",
+  "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 384,
+  "SignOffTaskId": 801,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOn": true,
   "SignOnTaskEnable": true,
-  "SignOnTaskId": 660,
+  "SignOnTaskId": 407,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "1997-04-10T15:29:22.4388028+02:00",
+  "UpdatedDate": "2022-10-16T03:51:27.912192+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 853,
-  "Id": 775,
-  "PublishFrom": "2019-08-05T15:29:22.4398027+02:00",
+  "ProjectId": 297,
+  "Id": 773,
+  "PublishFrom": "1997-05-28T03:51:27.912192+02:00",
   "PublishType": "External",
-  "PublishTo": "2022-09-16T15:29:22.4398027+02:00",
+  "PublishTo": "1996-01-22T03:51:27.912192+01:00",
   "VisibleForCategories": [
     {
-      "Id": 313,
-      "Name": "O'Keefe-Walter",
-      "ToolTip": "At fuga explicabo.",
+      "Id": 153,
+      "Name": "Weissnat LLC",
+      "ToolTip": "Animi accusantium cupiditate.",
       "Deleted": false,
-      "Rank": 509,
-      "Type": "ab",
+      "Rank": 662,
+      "Type": "dolorum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 953,
-      "ExtraInfo": "quos",
-      "StyleHint": "quasi",
-      "FullName": "Elenor Smith DDS",
+      "IconHint": "quis",
+      "ColorBlock": 330,
+      "ExtraInfo": "officia",
+      "StyleHint": "neque",
+      "FullName": "Priscilla Daniel V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 646
+          "FieldLength": 111
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 659,
-      "Name": "Rippin, Emard and Ziemann",
-      "ToolTip": "Modi aspernatur aperiam eaque aliquam id perferendis.",
+      "Id": 156,
+      "Name": "Yost Group",
+      "ToolTip": "Praesentium et possimus.",
       "Deleted": false,
-      "Rank": 493,
-      "Type": "et",
+      "Rank": 746,
+      "Type": "deleniti",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sit",
-      "ColorBlock": 458,
-      "ExtraInfo": "asperiores",
-      "StyleHint": "expedita",
-      "FullName": "Maybelle Reinger",
+      "IconHint": "velit",
+      "ColorBlock": 383,
+      "ExtraInfo": "temporibus",
+      "StyleHint": "quos",
+      "FullName": "Dr. Brando Kayden O'Kon IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 864
+          "FieldType": "System.String",
+          "FieldLength": 245
         }
       }
     }
@@ -176,13 +176,13 @@ Content-Type: application/json; charset=utf-8
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 756,
+  "ProjectEventId": 760,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 14
     }
   }
 }

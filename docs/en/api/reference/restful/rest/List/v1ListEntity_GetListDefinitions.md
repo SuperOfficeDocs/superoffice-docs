@@ -73,7 +73,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Grant-Harber",
-    "Tooltip": "facere",
-    "Deleted": true,
-    "Rank": 701,
-    "IsCustomList": true,
+    "Id": 213,
+    "Name": "Weimann-Bergstrom",
+    "Tooltip": "quas",
+    "Deleted": false,
+    "Rank": 441,
+    "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "iste",
-    "InUseByUserDefinedFields": false,
+    "ListType": "magni",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 984
+        "FieldType": "System.Int32",
+        "FieldLength": 906
       }
     }
   }

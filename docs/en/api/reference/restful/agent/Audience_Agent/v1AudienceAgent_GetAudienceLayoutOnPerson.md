@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 71
+  "PersonId": 597
 }
 ```
 
@@ -93,11 +93,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 997,
-  "InstanceLayout": "voluptatem",
-  "InstanceName": "Durgan, Lowe and Kertzmann",
-  "CreatedDate": "2011-03-02T15:29:20.8182897+01:00",
-  "UpdatedDate": "2021-11-12T15:29:20.8182897+01:00",
+  "AudienceLayoutId": 228,
+  "InstanceLayout": "et",
+  "InstanceName": "Stark, Kautzer and Glover",
+  "CreatedDate": "2019-02-16T03:51:26.5999985+01:00",
+  "UpdatedDate": "2006-07-04T03:51:26.5999985+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 27
     }
   }
 }

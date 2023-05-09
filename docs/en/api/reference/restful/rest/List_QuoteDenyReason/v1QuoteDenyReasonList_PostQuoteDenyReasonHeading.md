@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 937,
-  "Name": "Donnelly Inc and Sons",
-  "Tooltip": "voluptatum",
+  "HeadingId": 390,
+  "Name": "Douglas, Huel and Collins",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 387,
-  "UdListDefinitionId": 120
+  "Rank": 604,
+  "UdListDefinitionId": 799
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 490,
-  "Name": "Koch-Anderson",
-  "Tooltip": "consequatur",
+  "HeadingId": 621,
+  "Name": "Tromp-Kunde",
+  "Tooltip": "harum",
   "Deleted": false,
-  "Rank": 169,
-  "UdListDefinitionId": 513,
+  "Rank": 725,
+  "UdListDefinitionId": 503,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldType": "System.Int32",
+      "FieldLength": 557
     }
   }
 }

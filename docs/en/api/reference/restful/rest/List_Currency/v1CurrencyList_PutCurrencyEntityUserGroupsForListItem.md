@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "Aufderhar, Bartell and Stark",
-    "ToolTip": "Molestiae repudiandae id ea sit at.",
-    "Deleted": true,
-    "Rank": 777,
-    "Type": "odit",
-    "ColorBlock": 179,
-    "IconHint": "molestias",
+    "Id": 97,
+    "Name": "Kiehn-Keebler",
+    "ToolTip": "Alias sed.",
+    "Deleted": false,
+    "Rank": 685,
+    "Type": "minima",
+    "ColorBlock": 291,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2012-05-20T15:29:31.2069829+02:00",
+    "LastChanged": "1999-03-16T03:51:34.6458549+01:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Steuber, Stracke and Harvey",
-        "ToolTip": "Nobis debitis eligendi soluta et.",
-        "Deleted": true,
-        "Rank": 779,
-        "Type": "et",
-        "ColorBlock": 917,
-        "IconHint": "non",
+        "Id": 670,
+        "Name": "Roob-Kris",
+        "ToolTip": "Mollitia nam blanditiis recusandae corrupti quia.",
+        "Deleted": false,
+        "Rank": 83,
+        "Type": "voluptatem",
+        "ColorBlock": 795,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2003-08-02T15:29:31.2069829+02:00",
+        "LastChanged": "2013-04-17T03:51:34.6458549+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "facilis",
+        "StyleHint": "eos",
         "Hidden": true,
-        "FullName": "Candace Hills"
+        "FullName": "Kennedy Streich"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "dicta",
+    "StyleHint": "provident",
     "Hidden": false,
-    "FullName": "Audreanne White"
+    "FullName": "Edmund Marks"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Mayert Inc and Sons",
-    "ToolTip": "Et facere.",
-    "Deleted": true,
-    "Rank": 792,
-    "Type": "enim",
-    "ColorBlock": 932,
-    "IconHint": "velit",
+    "Id": 42,
+    "Name": "Morar, Schaefer and Lebsack",
+    "ToolTip": "Eum amet rerum atque natus.",
+    "Deleted": false,
+    "Rank": 683,
+    "Type": "alias",
+    "ColorBlock": 13,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2016-07-05T15:29:31.2099795+02:00",
+    "LastChanged": "2015-09-13T03:51:34.6458549+02:00",
     "ChildItems": [
       {
-        "Id": 485,
-        "Name": "Tromp-Stroman",
-        "ToolTip": "Aut magni eaque sed eligendi officiis.",
-        "Deleted": false,
-        "Rank": 563,
-        "Type": "voluptates",
-        "ColorBlock": 136,
-        "IconHint": "a",
-        "Selected": true,
-        "LastChanged": "2015-05-19T15:29:31.2104792+02:00",
+        "Id": 649,
+        "Name": "Stark LLC",
+        "ToolTip": "Esse magnam sunt libero id voluptatem libero consequatur.",
+        "Deleted": true,
+        "Rank": 280,
+        "Type": "doloremque",
+        "ColorBlock": 782,
+        "IconHint": "porro",
+        "Selected": false,
+        "LastChanged": "2009-10-23T03:51:34.6458549+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "accusantium",
-        "Hidden": false,
-        "FullName": "Kelton Gibson MD",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Ramiro Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 450
+            "FieldLength": 665
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "officia",
-    "Hidden": true,
-    "FullName": "Cordell Ritchie DVM",
+    "ExtraInfo": "velit",
+    "StyleHint": "vero",
+    "Hidden": false,
+    "FullName": "Andrew Simonis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldLength": 497
       }
     }
   }

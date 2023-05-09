@@ -84,7 +84,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,22 +94,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 350,
-  "Name": "Anderson-Marquardt",
+  "ScreenChooserId": 859,
+  "Name": "Sporer-Medhurst",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "nobis",
-  "Source": "eos",
-  "Registered": "2019-12-04T15:29:30.7969861+01:00",
-  "RegisteredAssociateId": 189,
-  "Updated": "1996-05-27T15:29:30.7969861+02:00",
-  "UpdatedAssociateId": 923,
+  "UniqueIdentifier": "velit",
+  "Source": "provident",
+  "Registered": "1999-03-03T03:51:34.1615868+01:00",
+  "RegisteredAssociateId": 982,
+  "Updated": "1997-08-06T03:51:34.1615868+02:00",
+  "UpdatedAssociateId": 510,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 588
     }
   },
   "_Links": {

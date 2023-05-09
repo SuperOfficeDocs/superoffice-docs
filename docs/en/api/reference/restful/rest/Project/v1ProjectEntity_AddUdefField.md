@@ -97,7 +97,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 99,
-  "ColumnId": 172,
-  "FieldDefault": "facere",
-  "FieldHeight": 8,
-  "FieldLabel": "id",
-  "FieldLeft": 470,
-  "FieldTop": 875,
+  "UDefFieldId": 226,
+  "ColumnId": 277,
+  "FieldDefault": "debitis",
+  "FieldHeight": 987,
+  "FieldLabel": "non",
+  "FieldLeft": 25,
+  "FieldTop": 667,
   "FieldType": "Checkbox",
-  "FieldWidth": 1000,
-  "FormatMask": "et",
+  "FieldWidth": 284,
+  "FormatMask": "nemo",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 754,
-  "LabelLeft": 7,
-  "LabelTop": 997,
-  "LabelWidth": 557,
-  "LastVersionId": 139,
-  "ListTableId": 375,
-  "IsMandatory": true,
+  "LabelHeight": 129,
+  "LabelLeft": 913,
+  "LabelTop": 768,
+  "LabelWidth": 236,
+  "LastVersionId": 808,
+  "ListTableId": 990,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 210,
-  "ProgId": "aut",
-  "IsReadOnly": false,
-  "ShortLabel": "molestiae",
-  "TabOrder": 312,
-  "TextLength": 435,
-  "Tooltip": "esse",
-  "UdefIdentity": 619,
-  "UDListDefinitionId": 20,
+  "Page1LineNo": 244,
+  "ProgId": "est",
+  "IsReadOnly": true,
+  "ShortLabel": "repellat",
+  "TabOrder": 492,
+  "TextLength": 250,
+  "Tooltip": "ut",
+  "UdefIdentity": 728,
+  "UDListDefinitionId": 661,
   "Justification": "Center",
-  "Version": 893,
-  "TemplateVariableName": "Corwin-Haley",
+  "Version": 128,
+  "TemplateVariableName": "Quigley, Braun and Douglas",
   "HasBeenPublished": true,
-  "MdoListName": "Padberg Inc and Sons",
+  "MdoListName": "Labadie Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 222
+      "FieldLength": 244
     }
   }
 }

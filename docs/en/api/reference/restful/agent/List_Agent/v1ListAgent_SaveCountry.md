@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 901,
-  "Name": "Wolff LLC",
-  "CurrencyId": 323,
-  "EnglishName": "Barton-Boyer",
+  "CountryId": 162,
+  "Name": "Mann, Jones and Stark",
+  "CurrencyId": 489,
+  "EnglishName": "Lehner, Dibbert and Kunde",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Integrated intangible interface",
-  "OrgNrText": "1403233",
-  "InterAreaPrefix": "consequatur",
-  "DialInPrefix": "deleniti",
-  "ZipPrefix": "aut",
-  "DomainName": "Effertz Group",
-  "AddressLayoutId": 477,
-  "DomesticAddressLayoutId": 351,
-  "ForeignAddressLayoutId": 960,
-  "Rank": 954,
-  "Tooltip": "autem",
-  "Deleted": true,
+  "ImageDescription": "Robust dedicated portal",
+  "OrgNrText": "684651",
+  "InterAreaPrefix": "est",
+  "DialInPrefix": "officia",
+  "ZipPrefix": "veritatis",
+  "DomainName": "Hauck-Sawayn",
+  "AddressLayoutId": 30,
+  "DomesticAddressLayoutId": 381,
+  "ForeignAddressLayoutId": 981,
+  "Rank": 76,
+  "Tooltip": "minima",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldType": "System.Int32",
+      "FieldLength": 376
     }
   }
 }

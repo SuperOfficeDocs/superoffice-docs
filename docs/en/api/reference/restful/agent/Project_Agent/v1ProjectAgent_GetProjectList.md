@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 442,
-    "Name": "Leannon Inc and Sons",
-    "Description": "Persevering reciprocal knowledge base",
+    "ProjectId": 781,
+    "Name": "Beahan-Gorczany",
+    "Description": "Upgradable value-added moratorium",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 60,
-    "AssociateFullName": "Miss Alexandra White",
-    "TypeId": 580,
-    "Updated": "2003-07-22T15:29:22.483265+02:00",
-    "StatusId": 865,
-    "Status": "in",
-    "TextId": 956,
-    "PublishTo": "2022-10-06T15:29:22.483265+02:00",
-    "PublishFrom": "2015-12-20T15:29:22.483265+01:00",
+    "Type": "sed",
+    "AssociateId": 749,
+    "AssociateFullName": "Philip Bartoletti",
+    "TypeId": 228,
+    "Updated": "2008-12-14T03:51:27.943438+01:00",
+    "StatusId": 217,
+    "Status": "et",
+    "TextId": 106,
+    "PublishTo": "2007-05-16T03:51:27.943438+02:00",
+    "PublishFrom": "2018-06-11T03:51:27.943438+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "561245",
-    "ActiveErpLinks": 268,
+    "ProjectNumber": "576831",
+    "ActiveErpLinks": 727,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 456
+        "FieldType": "System.String",
+        "FieldLength": 219
       }
     }
   }

@@ -86,13 +86,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 149,
-  "Name": "Buckridge-Jerde",
-  "Tooltip": "possimus",
-  "Rank": 818,
-  "DoctmplId": 759,
-  "Header": "sit",
-  "OurRef": "accusantium",
+  "SuggestedDocumentId": 22,
+  "Name": "Stoltenberg Inc and Sons",
+  "Tooltip": "rem",
+  "Rank": 453,
+  "DoctmplId": 804,
+  "Header": "suscipit",
+  "OurRef": "quos",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -107,14 +107,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 63,
-  "Name": "Halvorson, Kovacek and Witting",
-  "Tooltip": "quia",
-  "Rank": 859,
-  "DoctmplId": 899,
-  "Header": "sunt",
-  "OurRef": "ea",
-  "Deleted": true,
+  "SuggestedDocumentId": 221,
+  "Name": "Berge Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 53,
+  "DoctmplId": 93,
+  "Header": "qui",
+  "OurRef": "rerum",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldType": "System.String",
+      "FieldLength": 172
     }
   }
 }

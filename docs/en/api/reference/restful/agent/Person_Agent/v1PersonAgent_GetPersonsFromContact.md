@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 935
+  "ContactId": 630
 }
 ```
 
@@ -127,52 +127,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ut",
-    "PersonId": 632,
-    "Mrmrs": "eum",
-    "Firstname": "Macy",
-    "Lastname": "Ruecker",
-    "MiddleName": "DuBuque-Fadel",
-    "Title": "et",
-    "Description": "Reverse-engineered coherent framework",
-    "Email": "jerry@little.us",
-    "FullName": "Gerald Daugherty DDS",
-    "DirectPhone": "(591)850-7665 x824",
-    "FormalName": "Klein LLC",
-    "CountryId": 541,
-    "ContactId": 700,
-    "ContactName": "Herzog LLC",
-    "Retired": 422,
-    "Rank": 865,
-    "ActiveInterests": 228,
+    "Position": "doloribus",
+    "PersonId": 504,
+    "Mrmrs": "officiis",
+    "Firstname": "Ivah",
+    "Lastname": "Marquardt",
+    "MiddleName": "Daniel-Roob",
+    "Title": "officiis",
+    "Description": "Visionary assymetric paradigm",
+    "Email": "foster_farrell@beier.biz",
+    "FullName": "Lyda Simonis Jr.",
+    "DirectPhone": "077-094-1904",
+    "FormalName": "Senger Inc and Sons",
+    "CountryId": 74,
+    "ContactId": 170,
+    "ContactName": "Lueilwitz Group",
+    "Retired": 644,
+    "Rank": 556,
+    "ActiveInterests": 782,
     "ContactDepartment": "",
-    "ContactCountryId": 997,
-    "ContactOrgNr": "1050267",
-    "FaxPhone": "(312)922-4217 x5922",
-    "MobilePhone": "(537)219-5717",
-    "ContactPhone": "1-440-888-4454",
-    "AssociateName": "King-Bartell",
-    "AssociateId": 270,
-    "UsePersonAddress": false,
-    "ContactFax": "maiores",
-    "Kanafname": "qui",
-    "Kanalname": "adipisci",
-    "Post1": "sint",
-    "Post2": "vero",
-    "Post3": "voluptatum",
-    "EmailName": "shaun@barrowsmueller.info",
-    "ContactFullName": "Prof. Lucienne Haskell Turner MD",
-    "ActiveErpLinks": 963,
-    "TicketPriorityId": 289,
-    "SupportLanguageId": 398,
-    "SupportAssociateId": 934,
+    "ContactCountryId": 875,
+    "ContactOrgNr": "476668",
+    "FaxPhone": "1-081-800-2567",
+    "MobilePhone": "1-025-623-8651",
+    "ContactPhone": "(152)550-6374 x2768",
+    "AssociateName": "Adams-Schoen",
+    "AssociateId": 962,
+    "UsePersonAddress": true,
+    "ContactFax": "voluptates",
+    "Kanafname": "voluptatem",
+    "Kanalname": "aspernatur",
+    "Post1": "corporis",
+    "Post2": "iusto",
+    "Post3": "aliquam",
+    "EmailName": "myriam@ondrickabeier.ca",
+    "ContactFullName": "Prof. Tamia Johnathon Feil II",
+    "ActiveErpLinks": 409,
+    "TicketPriorityId": 885,
+    "SupportLanguageId": 914,
+    "SupportAssociateId": 169,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldType": "System.String",
+        "FieldLength": 632
       }
     }
   }

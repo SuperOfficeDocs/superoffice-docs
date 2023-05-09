@@ -26,7 +26,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=nesciunt
+GET /api/v1/List/PaymentType/MDOItems?query=illo
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 86,
-    "Name": "Yundt, Mills and Bartell",
-    "ToolTip": "Sequi sit accusamus possimus unde voluptatem.",
-    "Deleted": false,
-    "Rank": 297,
-    "Type": "expedita",
+    "Id": 787,
+    "Name": "Bergnaum-Christiansen",
+    "ToolTip": "Voluptatem accusamus ullam vel.",
+    "Deleted": true,
+    "Rank": 560,
+    "Type": "id",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Johnston, Funk and Crona",
-        "ToolTip": "Est autem ipsam consequuntur.",
+        "Id": 558,
+        "Name": "Labadie, White and Willms",
+        "ToolTip": "Quia facilis.",
         "Deleted": false,
-        "Rank": 719,
-        "Type": "eaque",
+        "Rank": 78,
+        "Type": "odio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eligendi",
-        "ColorBlock": 256,
-        "ExtraInfo": "est",
-        "StyleHint": "nulla",
-        "FullName": "Pat Jarod Haley DVM",
+        "IconHint": "placeat",
+        "ColorBlock": 667,
+        "ExtraInfo": "eos",
+        "StyleHint": "aut",
+        "FullName": "Ms. Barney Tracy Bednar I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 643
+            "FieldLength": 824
           }
         }
       }
     ],
-    "IconHint": "error",
-    "ColorBlock": 740,
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "porro",
-    "FullName": "Jessie Heaney",
+    "IconHint": "rerum",
+    "ColorBlock": 806,
+    "ExtraInfo": "accusamus",
+    "StyleHint": "id",
+    "FullName": "Mrs. Laisha Robbie Gerhold DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 219
       }
     }
   }

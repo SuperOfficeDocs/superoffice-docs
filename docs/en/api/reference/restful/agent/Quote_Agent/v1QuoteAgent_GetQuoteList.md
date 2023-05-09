@@ -80,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "velit"
+  "QuoteListType": "alias"
 }
 ```
 
@@ -92,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "voluptatibus",
-    "DisplayValue": "dolorem",
-    "DisplayDescription": "Persevering leading edge project",
+    "ERPQuoteListItemKey": "ipsam",
+    "DisplayValue": "sunt",
+    "DisplayDescription": "Fully-configurable clear-thinking parallelism",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldLength": 121
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "voluptatibus",
-    "DisplayValue": "dolorem",
-    "DisplayDescription": "Persevering leading edge project",
+    "ERPQuoteListItemKey": "ipsam",
+    "DisplayValue": "sunt",
+    "DisplayDescription": "Fully-configurable clear-thinking parallelism",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldLength": 121
       }
     }
   }

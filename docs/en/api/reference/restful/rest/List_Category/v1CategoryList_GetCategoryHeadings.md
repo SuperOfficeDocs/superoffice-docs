@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 257,
-    "Name": "Hermiston, Kiehn and Tillman",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 913,
-    "UdListDefinitionId": 419,
+    "HeadingId": 132,
+    "Name": "Kassulke Inc and Sons",
+    "Tooltip": "sit",
+    "Deleted": false,
+    "Rank": 552,
+    "UdListDefinitionId": 272,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 999
+        "FieldType": "System.Int32",
+        "FieldLength": 331
       }
     }
   }

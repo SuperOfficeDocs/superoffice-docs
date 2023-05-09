@@ -70,36 +70,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": true,
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "autem",
-      "ValueType": "dicta",
+      "IsActive": false,
+      "Key": "iste",
+      "ValueType": "optio",
       "Mandatory": false,
-      "EncodedDisplayName": "Mann Inc and Sons",
-      "EncodedDisplayDescription": "Triple-buffered secondary model",
-      "IconHint": "est",
+      "EncodedDisplayName": "Thiel-Cummings",
+      "EncodedDisplayDescription": "Reactive client-driven architecture",
+      "IconHint": "nostrum",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "enim",
-      "EncodedDataCaptionDescription": "Up-sized logistical local area network",
-      "CurrentOperationType": "libero",
+      "EncodedDataCaption": "labore",
+      "EncodedDataCaptionDescription": "Total assymetric interface",
+      "CurrentOperationType": "labore",
       "Values": [
-        "dicta",
-        "aut"
+        "id",
+        "similique"
       ],
       "DisplayValues": [
-        "non",
-        "distinctio"
+        "ducimus",
+        "possimus"
       ],
       "OperationInfos": [
         {},
@@ -107,9 +107,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Bruen-Quitzon",
-  "Context": "distinctio",
-  "Ids": "delectus"
+  "TableName": "Berge-Prosacco",
+  "Context": "earum",
+  "Ids": "necessitatibus"
 }
 ```
 
@@ -119,5 +119,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-556
+194
 ```

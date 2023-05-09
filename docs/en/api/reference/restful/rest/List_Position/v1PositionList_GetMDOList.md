@@ -26,7 +26,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=omnis
+GET /api/v1/List/Position/MDOItems?query=quos
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Name": "Stroman, Fahey and Brown",
-    "ToolTip": "Corrupti facilis quo voluptatem quisquam delectus vero assumenda.",
-    "Deleted": false,
-    "Rank": 795,
-    "Type": "tenetur",
+    "Id": 369,
+    "Name": "Williamson LLC",
+    "ToolTip": "Omnis eveniet quia natus eius est suscipit.",
+    "Deleted": true,
+    "Rank": 306,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 170,
-        "Name": "Bernier LLC",
-        "ToolTip": "Odio consequatur ratione inventore ratione.",
+        "Id": 774,
+        "Name": "Douglas-Koss",
+        "ToolTip": "Dolor perferendis omnis quisquam.",
         "Deleted": false,
-        "Rank": 621,
-        "Type": "occaecati",
+        "Rank": 711,
+        "Type": "nesciunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "error",
-        "ColorBlock": 333,
-        "ExtraInfo": "recusandae",
-        "StyleHint": "eveniet",
-        "FullName": "Dr. Thaddeus Kaleigh Eichmann",
+        "IconHint": "aut",
+        "ColorBlock": 295,
+        "ExtraInfo": "repellendus",
+        "StyleHint": "atque",
+        "FullName": "Birdie Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 483
+            "FieldType": "System.Int32",
+            "FieldLength": 990
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 914,
-    "ExtraInfo": "laudantium",
-    "StyleHint": "et",
-    "FullName": "Dolly Hagenes",
+    "IconHint": "ut",
+    "ColorBlock": 919,
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "repudiandae",
+    "FullName": "Price D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldLength": 819
       }
     }
   }

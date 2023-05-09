@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 605,
-    "Name": "Hagenes, Effertz and Schuppe",
-    "Tooltip": "expedita",
-    "Deleted": true,
-    "Rank": 580,
-    "UdListDefinitionId": 469,
+    "HeadingId": 692,
+    "Name": "Jerde-Greenfelder",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "Rank": 335,
+    "UdListDefinitionId": 154,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 823
+        "FieldType": "System.Int32",
+        "FieldLength": 990
       }
     }
   }

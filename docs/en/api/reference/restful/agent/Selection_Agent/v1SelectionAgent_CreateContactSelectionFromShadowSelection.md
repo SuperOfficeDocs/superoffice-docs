@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 897,
-  "Name": "Macejkovic, Larson and Medhurst"
+  "SelectionId": 784,
+  "Name": "Mohr Inc and Sons"
 }
 ```
 
@@ -131,70 +131,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-layered content-based paradigm",
-  "Postit": "sed",
+  "Description": "Intuitive static Graphical User Interface",
+  "Postit": "consequatur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 134,
-  "IncludePerson": 368,
-  "MemberCount": 872,
-  "Name": "Windler LLC",
-  "PostitTextId": 825,
-  "CreatedDate": "2014-07-18T15:29:22.9662943+02:00",
-  "SelectionId": 892,
-  "SoundEx": "hic",
-  "Source": 432,
-  "TextId": 653,
-  "UpdatedDate": "2021-03-15T15:29:22.9662943+01:00",
-  "UpdatedCount": 937,
-  "Visibility": 267,
+  "GroupIdx": 195,
+  "IncludePerson": 197,
+  "MemberCount": 928,
+  "Name": "Beatty, Blanda and Kovacek",
+  "PostitTextId": 24,
+  "CreatedDate": "2015-09-11T03:51:28.1933756+02:00",
+  "SelectionId": 51,
+  "SoundEx": "ut",
+  "Source": 835,
+  "TextId": 875,
+  "UpdatedDate": "2007-09-07T03:51:28.1933756+02:00",
+  "UpdatedCount": 535,
+  "Visibility": 117,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 44,
-  "TargetTableName": "Howell-Hodkiewicz",
+  "CompanyUnique": true,
+  "TargetTableNumber": 331,
+  "TargetTableName": "Mills-Becker",
   "Completed": false,
-  "LeftSelectionId": 137,
-  "RightSelectionId": 224,
+  "LeftSelectionId": 359,
+  "RightSelectionId": 206,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Crona-Huels",
-  "ShadowProviderName": "Hilll Inc and Sons",
-  "ChartKey": "ut",
-  "LastLoaded": "2003-05-16T15:29:22.9667942+02:00",
-  "LastLoadedBy": 709,
+  "MainProviderName": "Swaniawski, Purdy and Leannon",
+  "ShadowProviderName": "Cummings LLC",
+  "ChartKey": "omnis",
+  "LastLoaded": "2000-04-25T03:51:28.1933756+02:00",
+  "LastLoadedBy": 700,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-03-07T15:29:22.9667942+01:00",
-  "LastMembershipChangeBy": 699,
+  "LastMembershipChange": "2013-10-13T03:51:28.1933756+02:00",
+  "LastMembershipChangeBy": 618,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "pariatur",
+  "MainHeading": "debitis",
   "MemberTabHeading": "et",
-  "MailingsProviderName": "Jacobi, Turcotte and Lindgren",
-  "DashboardTileDefinitionId": 353,
+  "MailingsProviderName": "Rodriguez LLC",
+  "DashboardTileDefinitionId": 630,
   "VisibleFor": [
     {
-      "VisibleId": 122,
+      "VisibleId": 402,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 406
+          "FieldType": "System.Int32",
+          "FieldLength": 86
         }
       }
     },
     {
-      "VisibleId": 122,
+      "VisibleId": 402,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 406
+          "FieldType": "System.Int32",
+          "FieldLength": 86
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 500
+      "FieldType": "System.Int32",
+      "FieldLength": 680
     }
   }
 }

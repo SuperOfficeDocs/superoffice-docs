@@ -90,7 +90,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,33 +98,33 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 07 Jan 2016 15:29:29 G1T
+Last-Modified: Sun, 05 Aug 2001 03:51:33 G8T
 
 {
-  "SourceContactId": 871,
-  "SourcePersonId": 938,
-  "DestinationContactId": 884,
-  "DestinationPersonId": 661,
-  "RelationId": 657,
-  "Comment": "ut",
-  "RelationDefinitionId": 441,
-  "Reversed": 460,
-  "UpdatedDate": "2016-01-07T15:29:29.6117014+01:00",
-  "CreatedDate": "2018-05-11T15:29:29.6117014+02:00",
+  "SourceContactId": 520,
+  "SourcePersonId": 209,
+  "DestinationContactId": 271,
+  "DestinationPersonId": 548,
+  "RelationId": 865,
+  "Comment": "provident",
+  "RelationDefinitionId": 970,
+  "Reversed": 456,
+  "UpdatedDate": "2001-08-05T03:51:33.552243+02:00",
+  "CreatedDate": "2013-01-29T03:51:33.552243+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Stanton-Wolf",
-  "SourcePersonName": "Waelchi, Welch and Thiel",
-  "DestinationContactName": "Hettinger Group",
-  "DestinationPersonName": "Wintheiser Inc and Sons",
-  "ActiveText": "aut",
-  "PassiveText": "sit",
+  "SourceContactName": "Shanahan-Durgan",
+  "SourcePersonName": "Bins, Ondricka and Haag",
+  "DestinationContactName": "Jenkins-O'Reilly",
+  "DestinationPersonName": "Wyman, Purdy and McCullough",
+  "ActiveText": "animi",
+  "PassiveText": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldType": "System.Int32",
+      "FieldLength": 130
     }
   },
   "_Links": {

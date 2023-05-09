@@ -116,8 +116,9 @@ OK
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
-| Sale | Sale | The sale that this ticket connected to  <para>Use MDO List name "sale" to get list items.</para> |
-| Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
+| Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
+| Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
+| FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -129,13 +130,13 @@ OK
 POST /api/v1/Agents/Ticket/SetTicketReadByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 57,
+  "TicketEntityId": 815,
   "ReadStatus": "Green",
-  "CheckEscalating": false
+  "CheckEscalating": true
 }
 ```
 
@@ -146,21 +147,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 530,
-  "Title": "ut",
-  "CreatedAt": "2020-10-15T15:29:23.126757+02:00",
-  "LastChanged": "2006-05-05T15:29:23.126757+02:00",
-  "ReadByOwner": "2022-04-26T15:29:23.126757+02:00",
-  "ReadByCustomer": "2012-11-22T15:29:23.126757+01:00",
-  "FirstReadByOwner": "2002-08-28T15:29:23.126757+02:00",
-  "FirstReadByUser": "2002-05-14T15:29:23.126757+02:00",
-  "Activate": "2016-01-13T15:29:23.126757+01:00",
-  "ClosedAt": "2010-07-27T15:29:23.126757+02:00",
-  "RepliedAt": "1999-07-18T15:29:23.126757+02:00",
-  "AlertTimeout": "1997-11-09T15:29:23.126757+01:00",
-  "Deadline": "1996-05-13T15:29:23.126757+02:00",
+  "TicketId": 377,
+  "Title": "autem",
+  "CreatedAt": "1999-08-26T03:51:28.3183354+02:00",
+  "LastChanged": "2007-09-28T03:51:28.3183354+02:00",
+  "ReadByOwner": "2005-09-14T03:51:28.3183354+02:00",
+  "ReadByCustomer": "2013-01-22T03:51:28.3183354+01:00",
+  "FirstReadByOwner": "2017-11-24T03:51:28.3183354+01:00",
+  "FirstReadByUser": "2007-09-04T03:51:28.3183354+02:00",
+  "Activate": "2010-05-21T03:51:28.3183354+02:00",
+  "ClosedAt": "2018-07-18T03:51:28.3183354+02:00",
+  "RepliedAt": "1998-03-03T03:51:28.3183354+01:00",
+  "AlertTimeout": "2009-04-05T03:51:28.3183354+02:00",
+  "Deadline": "2011-12-19T03:51:28.3183354+01:00",
   "CreatedBy": null,
-  "Author": "consequatur",
+  "Author": "recusandae",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -171,158 +172,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "voluptas",
-      "PersonId": 975,
-      "Mrmrs": "et",
-      "Firstname": "Marianne",
-      "Lastname": "Cummings",
-      "MiddleName": "Carroll-Schmitt",
-      "Title": "ea",
-      "Description": "Multi-channelled bottom-line pricing structure",
-      "Email": "broderick.balistreri@wisokylynch.co.uk",
-      "FullName": "Vesta Sauer",
-      "DirectPhone": "(042)974-0770 x6165",
-      "FormalName": "Kuhic LLC",
-      "CountryId": 518,
-      "ContactId": 699,
-      "ContactName": "Waters, Beier and Roberts",
-      "Retired": 766,
-      "Rank": 690,
-      "ActiveInterests": 322,
+      "Position": "earum",
+      "PersonId": 560,
+      "Mrmrs": "fuga",
+      "Firstname": "Celine",
+      "Lastname": "Cormier",
+      "MiddleName": "Bartoletti Group",
+      "Title": "sint",
+      "Description": "Stand-alone logistical internet solution",
+      "Email": "rossie_kuphal@bruen.com",
+      "FullName": "Callie DuBuque",
+      "DirectPhone": "988.455.2966",
+      "FormalName": "Shanahan-Lind",
+      "CountryId": 251,
+      "ContactId": 476,
+      "ContactName": "Shields-Emmerich",
+      "Retired": 243,
+      "Rank": 161,
+      "ActiveInterests": 94,
       "ContactDepartment": "",
-      "ContactCountryId": 577,
-      "ContactOrgNr": "1433485",
-      "FaxPhone": "515-979-9378 x615",
-      "MobilePhone": "1-502-316-2447",
-      "ContactPhone": "1-403-289-8084 x5410",
-      "AssociateName": "Gorczany-Kohler",
-      "AssociateId": 509,
+      "ContactCountryId": 585,
+      "ContactOrgNr": "1874881",
+      "FaxPhone": "(551)327-5707",
+      "MobilePhone": "1-409-979-3384 x2720",
+      "ContactPhone": "864.543.0473 x7628",
+      "AssociateName": "Thiel Inc and Sons",
+      "AssociateId": 437,
       "UsePersonAddress": false,
-      "ContactFax": "dolore",
-      "Kanafname": "deleniti",
-      "Kanalname": "facere",
-      "Post1": "praesentium",
-      "Post2": "quos",
-      "Post3": "molestiae",
-      "EmailName": "terrence_hand@mayer.ca",
-      "ContactFullName": "Ms. Noelia Veum Sr.",
-      "ActiveErpLinks": 250,
-      "TicketPriorityId": 943,
-      "SupportLanguageId": 888,
-      "SupportAssociateId": 43,
+      "ContactFax": "dolores",
+      "Kanafname": "sit",
+      "Kanalname": "tempore",
+      "Post1": "fuga",
+      "Post2": "facilis",
+      "Post3": "tenetur",
+      "EmailName": "lon@hilllgleason.us",
+      "ContactFullName": "Justice Morissette",
+      "ActiveErpLinks": 947,
+      "TicketPriorityId": 774,
+      "SupportLanguageId": 350,
+      "SupportAssociateId": 812,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldLength": 386
         }
       }
     }
   ],
-  "AlertLevel": 405,
-  "ConnectId": 946,
+  "AlertLevel": 285,
+  "ConnectId": 542,
   "ReadStatus": "Green",
-  "TimeToReply": 263,
-  "RealTimeToReply": 859,
-  "TimeToClose": 886,
-  "RealTimeToClose": 4,
-  "TimeSpentInternally": 563,
-  "TimeSpentExternally": 542,
-  "TimeSpentQueue": 349,
-  "RealTimeSpentInternally": 132,
-  "RealTimeSpentExternally": 122,
-  "RealTimeSpentQueue": 40,
+  "TimeToReply": 226,
+  "RealTimeToReply": 302,
+  "TimeToClose": 228,
+  "RealTimeToClose": 372,
+  "TimeSpentInternally": 17,
+  "TimeSpentExternally": 75,
+  "TimeSpentQueue": 155,
+  "RealTimeSpentInternally": 683,
+  "RealTimeSpentExternally": 50,
+  "RealTimeSpentQueue": 136,
   "HasAttachment": false,
-  "NumReplies": 815,
-  "NumMessages": 42,
-  "FromAddress": "in",
+  "NumReplies": 476,
+  "NumMessages": 749,
+  "FromAddress": "et",
   "Messages": [
     {
-      "TicketMessageId": 38,
-      "CreatedAt": "2009-04-07T15:29:23.1312572+02:00",
+      "TicketMessageId": 957,
+      "CreatedAt": "2010-02-23T03:51:28.3339538+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "deleniti",
-      "PersonId": 83,
-      "PersonFullName": "Gabe Boehm",
-      "ContactId": 775,
-      "ContactName": "Legros Inc and Sons",
+      "Author": "est",
+      "PersonId": 312,
+      "PersonFullName": "Ms. Green Baumbach V",
+      "ContactId": 172,
+      "ContactName": "Gleichner, Mertz and Tillman",
       "ContactDepartment": "",
-      "NumAttachments": 128,
-      "EmailHeader": "randy_gerhold@walter.co.uk",
+      "NumAttachments": 725,
+      "EmailHeader": "charles@roob.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "dolorum",
-      "Sentiment": 920,
-      "SentimentConfidence": 18,
-      "CreatedBy": 911,
-      "ChangedAt": "1997-07-14T15:29:23.131757+02:00",
+      "Language": "quasi",
+      "Sentiment": 461,
+      "SentimentConfidence": 988,
+      "CreatedBy": 452,
+      "ChangedAt": "2018-11-14T03:51:28.3339538+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 395
+          "FieldType": "System.Int32",
+          "FieldLength": 373
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 182,
-      "Name": "Walter, Bosco and Herman",
-      "ToolTip": "Repellat sint quasi velit laudantium.",
+      "Id": 420,
+      "Name": "Daugherty-Ryan",
+      "ToolTip": "Magnam quos quo corrupti natus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldType": "System.String",
+          "FieldLength": 608
         }
       }
     },
     {
-      "Id": 182,
-      "Name": "Walter, Bosco and Herman",
-      "ToolTip": "Repellat sint quasi velit laudantium.",
+      "Id": 420,
+      "Name": "Daugherty-Ryan",
+      "ToolTip": "Magnam quos quo corrupti natus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldType": "System.String",
+          "FieldLength": 608
         }
       }
     }
   ],
-  "Language": "voluptas",
-  "Sentiment": 4,
-  "SentimentConfidence": 866,
-  "SuggestedCategoryId": 786,
+  "Language": "molestiae",
+  "Sentiment": 980,
+  "SentimentConfidence": 163,
+  "SuggestedCategoryId": 186,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 593,
-  "IconHint": "nam",
+  "OrigHumanCategoryId": 432,
+  "IconHint": "quas",
   "Sale": null,
   "Project": null,
+  "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "nostrum",
-    "CustomFields2": "possimus"
+    "CustomFields1": "qui",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldLength": 571
     }
   }
 }

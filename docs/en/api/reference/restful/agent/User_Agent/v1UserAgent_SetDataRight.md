@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 9,
-  "TableName": "Deckow Group",
+  "RoleId": 738,
+  "TableName": "Turcotte, Prosacco and Armstrong",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "velit"
+  "DataRightValue": "ut"
 }
 ```
 

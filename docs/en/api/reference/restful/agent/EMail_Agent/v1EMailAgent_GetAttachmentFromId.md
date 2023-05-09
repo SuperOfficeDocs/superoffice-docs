@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 24,
-  "AttachmentId": "explicabo"
+  "MailItemId": 389,
+  "AttachmentId": "qui"
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Sharable uniform benchmark",
-  "Filename": "accusantium",
-  "Size": 906,
-  "Type": "quia",
-  "Encoding": "necessitatibus",
-  "Id": "ullam",
-  "Disposition": "quia",
+  "Description": "Polarised stable project",
+  "Filename": "quia",
+  "Size": 86,
+  "Type": "delectus",
+  "Encoding": "rerum",
+  "Id": "repudiandae",
+  "Disposition": "et",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldLength": 259
     }
   }
 }

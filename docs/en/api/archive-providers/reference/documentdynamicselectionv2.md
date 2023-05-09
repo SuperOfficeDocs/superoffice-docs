@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "DocumentDynamicSelectionV2"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -676,7 +676,7 @@ Document selection archive with OR-able selection groups. Each group is represen
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelectionV2?$select=type,projectId,person/personSource,contact/restrictionAddress/county,contact/restrictionAddress/zip
+GET /api/v1/archive/DocumentDynamicSelectionV2?$select=getAllRows,contact/contactSource,contact/postAddress/wgs84latitude,contact/contactAssociate/lastName,contact/contactAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -71,9 +71,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 118,
-  "Type": "quas",
-  "PublicValue": "nisi"
+  "AssociateId": 309,
+  "Type": "eum",
+  "PublicValue": "asperiores"
 }
 ```
 

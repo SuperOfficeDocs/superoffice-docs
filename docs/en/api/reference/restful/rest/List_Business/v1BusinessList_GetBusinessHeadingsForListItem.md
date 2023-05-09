@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Bashirian LLC",
-    "ToolTip": "Nemo ut blanditiis rerum dolorem sint a voluptatum.",
-    "Deleted": true,
-    "Rank": 32,
-    "Type": "est",
-    "ColorBlock": 868,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2019-03-21T15:29:31.0879461+01:00",
+    "Id": 489,
+    "Name": "Stroman Inc and Sons",
+    "ToolTip": "Recusandae illo deserunt quas.",
+    "Deleted": false,
+    "Rank": 7,
+    "Type": "facilis",
+    "ColorBlock": 393,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2009-09-14T03:51:34.3802934+02:00",
     "ChildItems": [
       {
-        "Id": 283,
-        "Name": "Kemmer LLC",
-        "ToolTip": "Delectus ab voluptatibus sapiente reprehenderit.",
-        "Deleted": false,
-        "Rank": 964,
-        "Type": "recusandae",
-        "ColorBlock": 521,
-        "IconHint": "maiores",
-        "Selected": false,
-        "LastChanged": "2010-08-26T15:29:31.0879461+02:00",
+        "Id": 417,
+        "Name": "Homenick-Moen",
+        "ToolTip": "A non deserunt laborum sed.",
+        "Deleted": true,
+        "Rank": 857,
+        "Type": "sunt",
+        "ColorBlock": 14,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "1998-02-10T03:51:34.3802934+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "maxime",
+        "ExtraInfo": "porro",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Asha Alivia Sipes DDS",
+        "FullName": "Carmela Swift",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 718
+            "FieldType": "System.Int32",
+            "FieldLength": 804
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "illo",
+    "ExtraInfo": "sequi",
+    "StyleHint": "blanditiis",
     "Hidden": true,
-    "FullName": "Brent Boehm",
+    "FullName": "Dr. Brannon Kris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldLength": 221
       }
     }
   }

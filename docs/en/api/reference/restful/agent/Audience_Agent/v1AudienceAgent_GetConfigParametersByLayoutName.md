@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Mosciski-Abbott"
+  "LayoutName": "Collier, Ernser and Hettinger"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 522,
-    "Name": "Smitham-Harvey",
-    "Value": "odio",
-    "CreatedDate": "2016-10-21T15:29:20.8092896+02:00",
-    "UpdatedDate": "2022-09-25T15:29:20.8092896+02:00",
-    "CreatedBy": "dolores",
-    "UpdatedBy": "quia",
+    "AudienceLayoutId": 720,
+    "Name": "Stroman, Schroeder and Huel",
+    "Value": "quia",
+    "CreatedDate": "2005-01-16T03:51:26.5999985+01:00",
+    "UpdatedDate": "2019-10-23T03:51:26.5999985+02:00",
+    "CreatedBy": "voluptatem",
+    "UpdatedBy": "repellat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 269
+        "FieldLength": 287
       }
     }
   }

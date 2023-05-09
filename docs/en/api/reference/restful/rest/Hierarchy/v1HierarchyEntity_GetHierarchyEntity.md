@@ -81,7 +81,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,46 +91,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 338,
+  "HierarchyId": 779,
   "Domain": "Dashboards",
-  "Name": "Dicki-Armstrong",
-  "Fullname": "voluptas",
-  "ParentId": 842,
+  "Name": "Stark-Stokes",
+  "Fullname": "perferendis",
+  "ParentId": 304,
   "Children": [
     {
-      "HierarchyId": 814,
+      "HierarchyId": 835,
       "Domain": "Dashboards",
-      "Name": "Strosin LLC",
-      "Fullname": "tenetur",
-      "ParentId": 440,
+      "Name": "Leffler, Howell and Strosin",
+      "Fullname": "repellat",
+      "ParentId": 59,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2003-02-21T15:29:29.7831984+01:00",
-      "RegisteredAssociateId": 147,
-      "Updated": "2007-06-04T15:29:29.7831984+02:00",
-      "UpdatedAssociateId": 684,
+      "Registered": "2019-11-18T03:51:33.6928335+01:00",
+      "RegisteredAssociateId": 326,
+      "Updated": "2015-07-16T03:51:33.6928335+02:00",
+      "UpdatedAssociateId": 159,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldType": "System.Int32",
+          "FieldLength": 889
         }
       }
     }
   ],
-  "Registered": "2012-02-29T15:29:29.7831984+01:00",
-  "RegisteredAssociateId": 155,
-  "Updated": "2004-03-21T15:29:29.7831984+01:00",
-  "UpdatedAssociateId": 855,
+  "Registered": "2003-10-20T03:51:33.6928335+02:00",
+  "RegisteredAssociateId": 886,
+  "Updated": "2018-04-04T03:51:33.6928335+02:00",
+  "UpdatedAssociateId": 474,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldType": "System.Int32",
+      "FieldLength": 911
     }
   },
   "_Links": {

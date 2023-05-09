@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 275,
-  "Name": "Fritsch-Friesen",
-  "Tooltip": "est",
+  "Id": 905,
+  "Name": "Little-Schinner",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "UdListDefinitionId": 635,
-  "Rank": 456,
+  "UdListDefinitionId": 355,
+  "Rank": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 348
     }
   }
 }

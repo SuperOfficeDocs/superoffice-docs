@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Leuschke, Becker and Pfannerstill",
-  "Tooltip": "tempore",
+  "Id": 366,
+  "Name": "Dicki LLC",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 325,
+  "Rank": 917,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "molestiae",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldLength": 990
     }
   },
   "_Links": {

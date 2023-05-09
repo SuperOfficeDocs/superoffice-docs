@@ -115,8 +115,9 @@ OK
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
-| Sale | Sale | The sale that this ticket connected to  <para>Use MDO List name "sale" to get list items.</para> |
-| Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
+| Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
+| Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
+| FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -136,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "NewTicketEntity": null,
   "NewTicketMessage": null,
   "TransferAttachmentsIds": [
-    703,
-    186
+    778,
+    354
   ]
 }
 ```
@@ -149,21 +150,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 345,
-  "Title": "voluptate",
-  "CreatedAt": "2003-03-24T15:29:23.2007919+01:00",
-  "LastChanged": "2017-05-20T15:29:23.2007919+02:00",
-  "ReadByOwner": "2010-01-02T15:29:23.2007919+01:00",
-  "ReadByCustomer": "2018-01-03T15:29:23.2007919+01:00",
-  "FirstReadByOwner": "2005-08-10T15:29:23.2007919+02:00",
-  "FirstReadByUser": "2014-08-17T15:29:23.2007919+02:00",
-  "Activate": "2009-02-25T15:29:23.2007919+01:00",
-  "ClosedAt": "1998-01-24T15:29:23.2007919+01:00",
-  "RepliedAt": "2018-01-24T15:29:23.2007919+01:00",
-  "AlertTimeout": "1997-02-24T15:29:23.2007919+01:00",
-  "Deadline": "2001-11-17T15:29:23.2007919+01:00",
+  "TicketId": 320,
+  "Title": "qui",
+  "CreatedAt": "2007-03-07T03:51:28.3808319+01:00",
+  "LastChanged": "2004-12-16T03:51:28.3808319+01:00",
+  "ReadByOwner": "2000-09-27T03:51:28.3808319+02:00",
+  "ReadByCustomer": "1999-08-21T03:51:28.3808319+02:00",
+  "FirstReadByOwner": "2002-01-31T03:51:28.3808319+01:00",
+  "FirstReadByUser": "1997-07-30T03:51:28.3808319+02:00",
+  "Activate": "2005-02-17T03:51:28.3808319+01:00",
+  "ClosedAt": "2014-04-16T03:51:28.3808319+02:00",
+  "RepliedAt": "1996-07-07T03:51:28.3808319+02:00",
+  "AlertTimeout": "2011-12-08T03:51:28.3808319+01:00",
+  "Deadline": "1996-04-14T03:51:28.3808319+02:00",
   "CreatedBy": null,
-  "Author": "non",
+  "Author": "voluptatem",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -174,158 +175,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ullam",
-      "PersonId": 753,
-      "Mrmrs": "aut",
-      "Firstname": "Robin",
-      "Lastname": "Breitenberg",
-      "MiddleName": "Braun-Franecki",
-      "Title": "occaecati",
-      "Description": "Mandatory holistic projection",
-      "Email": "iliana.luettgen@damore.ca",
-      "FullName": "Hershel Hilpert",
-      "DirectPhone": "120.746.8056 x291",
-      "FormalName": "Frami-Thompson",
-      "CountryId": 126,
-      "ContactId": 149,
-      "ContactName": "Gorczany, McGlynn and Kessler",
-      "Retired": 238,
-      "Rank": 463,
-      "ActiveInterests": 311,
+      "Position": "quasi",
+      "PersonId": 946,
+      "Mrmrs": "quia",
+      "Firstname": "Gene",
+      "Lastname": "Lang",
+      "MiddleName": "Simonis-Lynch",
+      "Title": "animi",
+      "Description": "Multi-tiered national process improvement",
+      "Email": "ellie_schroeder@bins.ca",
+      "FullName": "Carissa Buckridge",
+      "DirectPhone": "080.586.4166 x54095",
+      "FormalName": "Runolfsson-Walter",
+      "CountryId": 398,
+      "ContactId": 609,
+      "ContactName": "Smitham Inc and Sons",
+      "Retired": 271,
+      "Rank": 541,
+      "ActiveInterests": 80,
       "ContactDepartment": "",
-      "ContactCountryId": 687,
-      "ContactOrgNr": "1306602",
-      "FaxPhone": "708-970-4124",
-      "MobilePhone": "1-585-792-9565 x33331",
-      "ContactPhone": "633-415-3052 x8746",
-      "AssociateName": "Schroeder, Connelly and Lynch",
-      "AssociateId": 789,
+      "ContactCountryId": 95,
+      "ContactOrgNr": "418462",
+      "FaxPhone": "261-874-4067 x621",
+      "MobilePhone": "1-321-179-4527",
+      "ContactPhone": "008.916.1278",
+      "AssociateName": "Lubowitz-Fisher",
+      "AssociateId": 408,
       "UsePersonAddress": true,
-      "ContactFax": "nisi",
-      "Kanafname": "quos",
-      "Kanalname": "soluta",
-      "Post1": "quam",
-      "Post2": "incidunt",
-      "Post3": "impedit",
-      "EmailName": "penelope.simonis@fay.name",
-      "ContactFullName": "Eunice Treutel",
-      "ActiveErpLinks": 283,
-      "TicketPriorityId": 298,
-      "SupportLanguageId": 637,
-      "SupportAssociateId": 571,
+      "ContactFax": "facere",
+      "Kanafname": "aut",
+      "Kanalname": "quibusdam",
+      "Post1": "repellendus",
+      "Post2": "facilis",
+      "Post3": "quo",
+      "EmailName": "modesta.bosco@gusikowskijacobson.com",
+      "ContactFullName": "Miss Tre Jamir Herzog I",
+      "ActiveErpLinks": 699,
+      "TicketPriorityId": 983,
+      "SupportLanguageId": 697,
+      "SupportAssociateId": 285,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 710
+          "FieldLength": 738
         }
       }
     }
   ],
-  "AlertLevel": 372,
-  "ConnectId": 345,
+  "AlertLevel": 290,
+  "ConnectId": 178,
   "ReadStatus": "Green",
-  "TimeToReply": 490,
-  "RealTimeToReply": 135,
-  "TimeToClose": 121,
-  "RealTimeToClose": 191,
-  "TimeSpentInternally": 471,
-  "TimeSpentExternally": 873,
-  "TimeSpentQueue": 329,
-  "RealTimeSpentInternally": 254,
-  "RealTimeSpentExternally": 680,
-  "RealTimeSpentQueue": 756,
-  "HasAttachment": false,
-  "NumReplies": 664,
-  "NumMessages": 364,
-  "FromAddress": "reiciendis",
+  "TimeToReply": 495,
+  "RealTimeToReply": 478,
+  "TimeToClose": 125,
+  "RealTimeToClose": 380,
+  "TimeSpentInternally": 779,
+  "TimeSpentExternally": 220,
+  "TimeSpentQueue": 295,
+  "RealTimeSpentInternally": 601,
+  "RealTimeSpentExternally": 187,
+  "RealTimeSpentQueue": 82,
+  "HasAttachment": true,
+  "NumReplies": 982,
+  "NumMessages": 406,
+  "FromAddress": "beatae",
   "Messages": [
     {
-      "TicketMessageId": 330,
-      "CreatedAt": "2010-11-27T15:29:23.2052905+01:00",
+      "TicketMessageId": 447,
+      "CreatedAt": "1997-01-19T03:51:28.3808319+01:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "modi",
-      "PersonId": 992,
-      "PersonFullName": "Dr. Hudson Hartmann IV",
-      "ContactId": 495,
-      "ContactName": "Crona Inc and Sons",
+      "Important": false,
+      "Author": "rerum",
+      "PersonId": 962,
+      "PersonFullName": "Rusty Parisian",
+      "ContactId": 143,
+      "ContactName": "Ullrich Group",
       "ContactDepartment": "",
-      "NumAttachments": 625,
-      "EmailHeader": "abby@yostmcclure.name",
+      "NumAttachments": 360,
+      "EmailHeader": "arne@vonlangosh.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "necessitatibus",
-      "Sentiment": 736,
-      "SentimentConfidence": 955,
-      "CreatedBy": 253,
-      "ChangedAt": "1999-01-29T15:29:23.2057908+01:00",
+      "Language": "nostrum",
+      "Sentiment": 702,
+      "SentimentConfidence": 431,
+      "CreatedBy": 617,
+      "ChangedAt": "2020-12-18T03:51:28.3808319+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 379
+          "FieldType": "System.String",
+          "FieldLength": 518
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 423,
-      "Name": "Sauer Inc and Sons",
-      "ToolTip": "Ad qui repellendus quam.",
+      "Id": 243,
+      "Name": "Hammes-Hoeger",
+      "ToolTip": "Modi non eveniet autem velit ipsum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 768
+          "FieldLength": 736
         }
       }
     },
     {
-      "Id": 423,
-      "Name": "Sauer Inc and Sons",
-      "ToolTip": "Ad qui repellendus quam.",
+      "Id": 243,
+      "Name": "Hammes-Hoeger",
+      "ToolTip": "Modi non eveniet autem velit ipsum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 768
+          "FieldLength": 736
         }
       }
     }
   ],
-  "Language": "officia",
-  "Sentiment": 473,
-  "SentimentConfidence": 755,
-  "SuggestedCategoryId": 318,
+  "Language": "quibusdam",
+  "Sentiment": 77,
+  "SentimentConfidence": 739,
+  "SuggestedCategoryId": 577,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 307,
-  "IconHint": "non",
+  "OrigHumanCategoryId": 228,
+  "IconHint": "dicta",
   "Sale": null,
   "Project": null,
+  "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "est"
+    "ExtraFields1": "repellat",
+    "ExtraFields2": "aspernatur"
   },
   "CustomFields": {
-    "CustomFields1": "cumque",
-    "CustomFields2": "magni"
+    "CustomFields1": "illum",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldLength": 669
     }
   }
 }

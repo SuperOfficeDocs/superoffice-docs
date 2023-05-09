@@ -99,44 +99,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Metz-Kreiger",
-    "Operator": "fugiat",
+    "Name": "Douglas-Hane",
+    "Operator": "et",
     "Values": [
-      "praesentium",
-      "explicabo"
+      "maiores",
+      "voluptatem"
     ],
     "DisplayValues": [
-      "fugit",
-      "atque"
+      "sunt",
+      "perferendis"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Fisher, Tromp and Gislason",
-        "Operator": "ipsum",
+        "Name": "Heller Group",
+        "Operator": "cum",
         "Values": [
-          "consequatur",
-          "quia"
+          "et",
+          "amet"
         ],
         "DisplayValues": [
-          "corporis",
-          "velit"
+          "quae",
+          "tempore"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 288,
+        "InterParenthesis": 60,
         "InterOperator": "And",
-        "UniqueHash": 683
+        "UniqueHash": 25
       }
     ],
-    "InterParenthesis": 750,
+    "InterParenthesis": 543,
     "InterOperator": "And",
-    "UniqueHash": 849
+    "UniqueHash": 237
   }
 ]
 ```
@@ -149,29 +149,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jones Inc and Sons",
-    "Operator": "aut",
+    "Name": "Franecki, Ankunding and Ward",
+    "Operator": "temporibus",
     "Values": [
-      "ut",
-      "quod"
+      "autem",
+      "quam"
     ],
     "DisplayValues": [
-      "consequatur",
-      "deleniti"
+      "ducimus",
+      "sint"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Fadel, Gutkowski and Smith",
-        "Operator": "accusantium",
+        "Name": "Jewess-Howe",
+        "Operator": "asperiores",
         "Values": [
-          "hic",
-          "optio"
+          "ipsa",
+          "incidunt"
         ],
         "DisplayValues": [
-          "ipsam",
-          "quae"
+          "in",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -179,14 +179,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 263,
+        "InterParenthesis": 54,
         "InterOperator": "And",
-        "UniqueHash": 380
+        "UniqueHash": 986
       }
     ],
-    "InterParenthesis": 28,
+    "InterParenthesis": 996,
     "InterOperator": "And",
-    "UniqueHash": 389
+    "UniqueHash": 73
   }
 ]
 ```

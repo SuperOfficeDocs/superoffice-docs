@@ -84,19 +84,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 889,
-  "Name": "Haag, Medhurst and Swaniawski",
-  "CreatedDate": "2002-09-05T15:29:29.7721983+02:00",
-  "UpdatedDate": "2002-06-27T15:29:29.7721983+02:00",
-  "AssociateFullName": "Don Breitenberg",
-  "CreatedBy": "aspernatur",
-  "UpdatedBy": "tenetur",
-  "DeviceIdentifier": "sit",
-  "ForeignAppId": 775
+  "ForeignDeviceId": 198,
+  "Name": "Fahey LLC",
+  "CreatedDate": "2011-04-26T03:51:33.677213+02:00",
+  "UpdatedDate": "1998-11-03T03:51:33.677213+01:00",
+  "AssociateFullName": "Ms. Lurline Oberbrunner",
+  "CreatedBy": "in",
+  "UpdatedBy": "cupiditate",
+  "DeviceIdentifier": "minus",
+  "ForeignAppId": 672
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 719,
-  "Name": "Christiansen LLC",
-  "CreatedDate": "1996-03-13T15:29:29.7726987+01:00",
-  "UpdatedDate": "2007-08-31T15:29:29.7726987+02:00",
-  "AssociateFullName": "Mrs. Broderick Heidenreich",
-  "CreatedBy": "fugit",
-  "UpdatedBy": "aspernatur",
-  "DeviceIdentifier": "enim",
-  "ForeignAppId": 440,
+  "ForeignDeviceId": 492,
+  "Name": "Miller, Aufderhar and Zulauf",
+  "CreatedDate": "2014-03-11T03:51:33.677213+01:00",
+  "UpdatedDate": "1998-04-23T03:51:33.677213+02:00",
+  "AssociateFullName": "Maximo Annabell Kulas I",
+  "CreatedBy": "et",
+  "UpdatedBy": "possimus",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 977,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 637
     }
   }
 }

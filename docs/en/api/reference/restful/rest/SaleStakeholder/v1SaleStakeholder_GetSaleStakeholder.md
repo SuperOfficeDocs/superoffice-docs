@@ -90,7 +90,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,31 +100,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hagenes-Kling",
-  "Comment": "nihil",
-  "StakeholderRoleId": 842,
-  "CountryId": 815,
-  "PersonId": 138,
-  "EmailDescription": "kariane@eichmann.us",
-  "EmailId": 751,
-  "EmailAddress": "ramon@kihn.biz",
-  "PhoneId": 281,
-  "ContactName": "Bailey-Brown",
-  "ContactId": 159,
-  "SaleId": 263,
-  "Mrmrs": "veniam",
-  "Firstname": "Jared",
-  "MiddleName": "Langosh, Cole and Swaniawski",
-  "Lastname": "Gorczany",
-  "SaleStakeholderId": 259,
-  "Rank": 79,
-  "Phone": "223-901-2979 x198",
+  "StakeholderRoleName": "Renner, Olson and Mosciski",
+  "Comment": "enim",
+  "StakeholderRoleId": 65,
+  "CountryId": 105,
+  "PersonId": 15,
+  "EmailDescription": "josefina@beatty.us",
+  "EmailId": 204,
+  "EmailAddress": "sasha_paucek@padbergnolan.info",
+  "PhoneId": 795,
+  "ContactName": "Berge Group",
+  "ContactId": 512,
+  "SaleId": 265,
+  "Mrmrs": "optio",
+  "Firstname": "Ryleigh",
+  "MiddleName": "Pfeffer, Gerhold and Parisian",
+  "Lastname": "Ratke",
+  "SaleStakeholderId": 47,
+  "Rank": 404,
+  "Phone": "(096)625-3105",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 378
     }
   },
   "_Links": {

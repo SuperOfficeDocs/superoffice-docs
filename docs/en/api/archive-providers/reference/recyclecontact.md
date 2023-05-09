@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "RecycleContact"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -204,7 +204,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecycleContact?$select=deletedDate,streetAddress/line1,contactAssociate/contactId
+GET /api/v1/archive/RecycleContact?$select=contactAssociate/lastName,streetAddress/line1,contactAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

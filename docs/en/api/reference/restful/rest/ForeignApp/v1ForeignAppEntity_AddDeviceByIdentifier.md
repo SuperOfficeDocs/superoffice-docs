@@ -68,7 +68,7 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 202,
-  "Name": "Gottlieb Inc and Sons",
-  "CreatedDate": "2006-07-29T15:29:29.7736985+02:00",
-  "UpdatedDate": "2012-07-02T15:29:29.7736985+02:00",
-  "AssociateFullName": "Mrs. Delbert Daphney Fisher MD",
-  "CreatedBy": "est",
-  "UpdatedBy": "aut",
-  "DeviceIdentifier": "nobis",
-  "ForeignAppId": 504,
+  "ForeignDeviceId": 487,
+  "Name": "Lehner-Hauck",
+  "CreatedDate": "1998-01-13T03:51:33.677213+01:00",
+  "UpdatedDate": "2006-02-10T03:51:33.677213+01:00",
+  "AssociateFullName": "Taya Philip King Jr.",
+  "CreatedBy": "sit",
+  "UpdatedBy": "sunt",
+  "DeviceIdentifier": "itaque",
+  "ForeignAppId": 966,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 727
     }
   }
 }

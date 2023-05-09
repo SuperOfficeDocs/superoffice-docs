@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schoen-Borer",
-  "AdditionalInfo": "totam",
-  "SearchValue": "nulla"
+  "Name": "Bashirian, Rohan and Raynor",
+  "AdditionalInfo": "dolor",
+  "SearchValue": "sit"
 }
 ```
 
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Olson Inc and Sons",
-    "ToolTip": "Quos sint aliquid at id.",
+    "Id": 684,
+    "Name": "Collier, Jast and Greenholt",
+    "ToolTip": "Ipsum dolorem consequuntur reprehenderit.",
     "Deleted": true,
-    "Rank": 728,
-    "Type": "eos",
+    "Rank": 223,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 399,
-        "Name": "Turner Inc and Sons",
-        "ToolTip": "Qui mollitia dolores ipsam in voluptas cum est.",
+        "Id": 875,
+        "Name": "Koelpin, Romaguera and Kub",
+        "ToolTip": "Sunt at laboriosam soluta aut iusto voluptas.",
         "Deleted": false,
-        "Rank": 844,
-        "Type": "sed",
+        "Rank": 329,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minima",
-        "ColorBlock": 559,
-        "ExtraInfo": "saepe",
-        "StyleHint": "quo",
-        "FullName": "Sterling Simonis DVM",
+        "IconHint": "aut",
+        "ColorBlock": 509,
+        "ExtraInfo": "iste",
+        "StyleHint": "minus",
+        "FullName": "Velva Bashirian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 795
+            "FieldLength": 683
           }
         }
       }
     ],
-    "IconHint": "quos",
-    "ColorBlock": 527,
-    "ExtraInfo": "veniam",
-    "StyleHint": "libero",
-    "FullName": "Zoe Senger IV",
+    "IconHint": "non",
+    "ColorBlock": 874,
+    "ExtraInfo": "aut",
+    "StyleHint": "corrupti",
+    "FullName": "Lela Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldLength": 749
       }
     }
   }

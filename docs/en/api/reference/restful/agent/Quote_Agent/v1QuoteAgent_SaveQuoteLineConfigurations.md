@@ -82,21 +82,21 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 1002,
-      "FieldName": "Greenfelder, Bernier and Borer",
-      "Label": "asperiores",
-      "Tooltip": "corrupti",
+      "QuoteLineConfigurationId": 864,
+      "FieldName": "Dickinson Inc and Sons",
+      "Label": "porro",
+      "Tooltip": "non",
       "Editable": false,
-      "InUse": true,
+      "InUse": false,
       "Mandatory": false,
-      "Rank": 989,
-      "RestrictEdit": false
+      "Rank": 962,
+      "RestrictEdit": true
     }
   ]
 }
@@ -110,21 +110,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 826,
-    "FieldName": "Bergstrom-Ernser",
-    "Label": "repellat",
-    "Tooltip": "rerum",
-    "Editable": true,
-    "InUse": true,
-    "Mandatory": false,
-    "Rank": 939,
-    "RestrictEdit": true,
+    "QuoteLineConfigurationId": 364,
+    "FieldName": "Willms, Pacocha and Kunze",
+    "Label": "iusto",
+    "Tooltip": "temporibus",
+    "Editable": false,
+    "InUse": false,
+    "Mandatory": true,
+    "Rank": 532,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldLength": 673
       }
     }
   }

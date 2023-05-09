@@ -74,22 +74,22 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 474,
-  "AssociateId": 221,
-  "Caption": "molestias",
+  "DashboardId": 911,
+  "AssociateId": 567,
+  "Caption": "fugit",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 959,
-      "Caption": "reprehenderit",
-      "Description": "Synchronised exuding support",
-      "ChartName": "Marquardt-Labadie",
-      "ChartId": "sunt",
+      "DashboardTileId": 714,
+      "Caption": "unde",
+      "Description": "Assimilated executive migration",
+      "ChartName": "O'Keefe, Ward and Doyle",
+      "ChartId": "ea",
       "IsDefault": false,
-      "AssociateId": 453,
-      "GroupId": 838,
-      "SelectionId": 599,
-      "Config": "neque",
+      "AssociateId": 273,
+      "GroupId": 712,
+      "SelectionId": 487,
+      "Config": "dolor",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,22 +112,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 603,
-  "AssociateId": 928,
-  "Caption": "tenetur",
+  "DashboardId": 705,
+  "AssociateId": 122,
+  "Caption": "enim",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 849,
-      "Caption": "iste",
-      "Description": "Visionary responsive instruction set",
-      "ChartName": "Mohr-Funk",
-      "ChartId": "sint",
+      "DashboardTileId": 950,
+      "Caption": "unde",
+      "Description": "Optimized local portal",
+      "ChartName": "Upton-Vandervort",
+      "ChartId": "et",
       "IsDefault": false,
-      "AssociateId": 427,
-      "GroupId": 253,
-      "SelectionId": 263,
-      "Config": "a",
+      "AssociateId": 559,
+      "GroupId": 480,
+      "SelectionId": 42,
+      "Config": "facere",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 805
+          "FieldType": "System.Int32",
+          "FieldLength": 531
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldType": "System.Int32",
+      "FieldLength": 604
     }
   }
 }

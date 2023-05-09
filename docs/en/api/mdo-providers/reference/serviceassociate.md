@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "serviceassociate"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,7 +26,8 @@ The name of the MDO list is 'serviceassociate'.
 
 | Description | Name | Example Value |
 |-----|-----|------|
-|Flag to include/exclude defaul values (currentUser, autoAssign = int.maxValue, unAssigned = 0)| ShouldIncludeDefaultItems|False|
+|Flag to include defaul values (currentUser, autoAssign = int.maxValue, unAssigned = 0)| IncludeDefaultItems|False|
+|Flag to add related user's 'not present' status message to fullname| AddNotPresentStatus|False|
 
 
 

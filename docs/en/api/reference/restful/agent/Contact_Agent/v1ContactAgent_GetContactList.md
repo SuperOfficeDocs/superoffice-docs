@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 944,
-    "Name": "Howe, Wiza and Mraz",
-    "OrgNr": "1057361",
+    "ContactId": 376,
+    "Name": "Wehner LLC",
+    "OrgNr": "1170044",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "reiciendis",
-    "DirectPhone": "921-710-8249",
-    "AssociateId": 799,
-    "CountryId": 455,
-    "EmailAddress": "mckenna_dare@becker.us",
-    "Kananame": "tempore",
-    "EmailAddressName": "raleigh.rutherford@connellymayer.biz",
+    "City": "similique",
+    "DirectPhone": "777-098-6119",
+    "AssociateId": 973,
+    "CountryId": 324,
+    "EmailAddress": "elmo_dubuque@okon.biz",
+    "Kananame": "aperiam",
+    "EmailAddressName": "florida@wunsch.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Eryn Streich",
+    "AssociateFullName": "Luis Simonis Jr.",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "aut",
-    "FullName": "Mrs. Dominic Stracke II",
+    "FormattedAddress": "culpa",
+    "FullName": "Marshall Zieme",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 756,
-    "Number1": "1104806",
-    "Number2": "1084267",
+    "ActiveErpLinks": 278,
+    "Number1": "945283",
+    "Number2": "1045899",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldType": "System.Int32",
+        "FieldLength": 720
       }
     }
   }

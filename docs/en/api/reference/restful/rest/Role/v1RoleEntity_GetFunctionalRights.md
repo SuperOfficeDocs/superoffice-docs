@@ -77,7 +77,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Brown Inc and Sons",
-    "ToolTip": "Repudiandae ea expedita et explicabo.",
+    "Id": 467,
+    "Name": "Kilback-Wilderman",
+    "ToolTip": "Similique inventore enim similique.",
     "Deleted": false,
-    "Rank": 906,
-    "Type": "numquam",
-    "ColorBlock": 90,
-    "IconHint": "labore",
+    "Rank": 314,
+    "Type": "ad",
+    "ColorBlock": 509,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2017-10-01T15:29:30.0331601+02:00",
+    "LastChanged": "2014-07-18T03:51:33.8802911+02:00",
     "ChildItems": [
       {
-        "Id": 73,
-        "Name": "Lubowitz-Hayes",
-        "ToolTip": "Vel voluptatem velit.",
-        "Deleted": true,
-        "Rank": 351,
-        "Type": "expedita",
-        "ColorBlock": 642,
-        "IconHint": "perspiciatis",
-        "Selected": false,
-        "LastChanged": "2008-06-25T15:29:30.0331601+02:00",
+        "Id": 981,
+        "Name": "Mante, Wyman and Pollich",
+        "ToolTip": "Placeat et recusandae impedit quisquam unde.",
+        "Deleted": false,
+        "Rank": 47,
+        "Type": "amet",
+        "ColorBlock": 558,
+        "IconHint": "eaque",
+        "Selected": true,
+        "LastChanged": "2005-03-02T03:51:33.8802911+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Freeman Weber",
+        "ExtraInfo": "omnis",
+        "StyleHint": "eum",
+        "Hidden": true,
+        "FullName": "Mr. Chaya Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 716
+            "FieldType": "System.String",
+            "FieldLength": 67
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "debitis",
+    "ExtraInfo": "et",
+    "StyleHint": "facere",
     "Hidden": false,
-    "FullName": "Celine Bernier",
+    "FullName": "Veda Tillman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 331
       }
     }
   }

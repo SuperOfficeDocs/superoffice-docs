@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,78 +91,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 439,
+  "EjMessageId": 396,
   "Ticket": null,
-  "CreatedAt": "2022-04-11T15:29:23.0712574+02:00",
+  "CreatedAt": "1996-08-20T03:51:28.2870905+02:00",
   "CreatedBy": null,
-  "Author": "nostrum",
+  "Author": "a",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "id",
-  "TimeSpent": 197,
-  "Body": "ratione",
-  "HtmlBody": "nostrum",
-  "EmailHeader": "xavier.pfannerstill@gulgowskisenger.uk",
-  "DebugInfo": "est",
-  "MailSorter": "impedit",
+  "MessageId": "eveniet",
+  "TimeSpent": 354,
+  "Body": "dolores",
+  "HtmlBody": "aliquam",
+  "EmailHeader": "sydnee.hayes@wizacronin.info",
+  "DebugInfo": "repellendus",
+  "MailSorter": "assumenda",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatum",
+  "SearchTitle": "minus",
   "MessageHeaders": [
     {
-      "Id": 12,
-      "Name": "Littel-Shields",
-      "Value": "modi",
+      "Id": 645,
+      "Name": "Borer, Conn and Marquardt",
+      "Value": "debitis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldType": "System.String",
+          "FieldLength": 624
         }
       }
     }
   ],
   "Important": false,
-  "Language": "optio",
-  "Sentiment": 749,
-  "SentimentConfidence": 616,
+  "Language": "iure",
+  "Sentiment": 383,
+  "SentimentConfidence": 149,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 318,
-      "Name": "Haag, Rohan and Fadel",
-      "ContentType": "alias",
-      "AttSize": 712,
+      "AttachmentId": 279,
+      "Name": "Powlowski Inc and Sons",
+      "ContentType": "quos",
+      "AttSize": 971,
       "InlineImage": false,
-      "ContentId": "necessitatibus",
-      "AuthKey": "repellat",
+      "ContentId": "ut",
+      "AuthKey": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 39
+          "FieldLength": 799
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "facere"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "odit"
   },
   "CustomFields": {
-    "CustomFields1": "repellat",
-    "CustomFields2": "alias"
+    "CustomFields1": "similique",
+    "CustomFields2": "quos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldType": "System.String",
+      "FieldLength": 689
     }
   }
 }

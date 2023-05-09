@@ -100,15 +100,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 51,
-    "Value": "voluptatum",
+    "TaskListItemId": 190,
+    "Value": "et",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "vel",
+    "Tooltip": "et",
     "Deleted": false,
-    "IntentId": 911,
-    "Rank": 51,
-    "IsDefaultAlldayEvent": true,
+    "IntentId": 685,
+    "Rank": 890,
+    "IsDefaultAlldayEvent": false,
     "IsDefaultFree": false,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldType": "System.String",
+        "FieldLength": 443
       }
     }
   }

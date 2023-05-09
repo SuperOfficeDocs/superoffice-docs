@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=harum
-GET /api/v1/Sale?$top=807
-GET /api/v1/Sale?$skip=79
+GET /api/v1/Sale?$entities=nobis
+GET /api/v1/Sale?$top=382
+GET /api/v1/Sale?$skip=666
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=minima
+GET /api/v1/Sale?$context=harum
 GET /api/v1/Sale?$format=JSON
 GET /api/v1/Sale?$jsonSafe=False
 GET /api/v1/Sale?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "autem",
+  "odata.nextLink": "ipsam",
   "value": [
     {
-      "PrimaryKey": 1169,
+      "PrimaryKey": 2756,
       "EntityName": "sale",
-      "saleId": 1169,
-      "contactId": 51,
-      "name": "Friesen Group"
+      "saleId": 2756,
+      "contactId": 2000,
+      "name": "Skiles LLC"
     },
     {
-      "PrimaryKey": 5629,
+      "PrimaryKey": 6527,
       "EntityName": "sale",
-      "saleId": 5629,
-      "contactId": 2057,
-      "name": "Renner Group"
+      "saleId": 6527,
+      "contactId": 794,
+      "name": "Parker-Morissette"
     }
   ]
 }

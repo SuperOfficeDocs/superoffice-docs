@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 322,
-    "Name": "Schaden-Kshlerin",
-    "ToolTip": "Repellendus id repellendus quibusdam totam omnis.",
+    "Id": 462,
+    "Name": "Treutel, Reichel and Harvey",
+    "ToolTip": "Accusamus dolores quod nobis veniam.",
     "Deleted": false,
-    "Rank": 56,
-    "Type": "et",
-    "ColorBlock": 370,
-    "IconHint": "rerum",
+    "Rank": 118,
+    "Type": "dolore",
+    "ColorBlock": 275,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "1998-08-01T15:29:31.1164861+02:00",
+    "LastChanged": "2021-12-15T03:51:34.5833707+01:00",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Lubowitz, Kuhlman and O'Hara",
-        "ToolTip": "At eligendi voluptas deserunt aut.",
-        "Deleted": false,
-        "Rank": 959,
-        "Type": "dicta",
-        "ColorBlock": 660,
-        "IconHint": "quaerat",
-        "Selected": true,
-        "LastChanged": "2003-04-11T15:29:31.1164861+02:00",
+        "Id": 750,
+        "Name": "Quitzon, Shields and Thiel",
+        "ToolTip": "Qui voluptates labore quia sunt assumenda.",
+        "Deleted": true,
+        "Rank": 366,
+        "Type": "possimus",
+        "ColorBlock": 145,
+        "IconHint": "tempora",
+        "Selected": false,
+        "LastChanged": "2000-02-13T03:51:34.5833707+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "maiores",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Henderson Abbott",
+        "FullName": "Ms. Julie Sanford V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 264
+            "FieldLength": 486
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "impedit",
-    "Hidden": true,
-    "FullName": "Prof. Mathias Hodkiewicz",
+    "ExtraInfo": "numquam",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Vilma Turcotte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 440
+        "FieldLength": 27
       }
     }
   }

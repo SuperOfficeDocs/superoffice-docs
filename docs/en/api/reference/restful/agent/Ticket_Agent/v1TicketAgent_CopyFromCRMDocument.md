@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 445
+  "DocumentId": 792
 }
 ```
 
@@ -93,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 906,
-  "Name": "Armstrong Inc and Sons",
-  "ContentType": "aut",
-  "AttSize": 123,
-  "InlineImage": false,
-  "ContentId": "quia",
-  "AuthKey": "ut",
+  "AttachmentId": 299,
+  "Name": "Klein-Jaskolski",
+  "ContentType": "ipsum",
+  "AttSize": 972,
+  "InlineImage": true,
+  "ContentId": "illum",
+  "AuthKey": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldLength": 7
     }
   }
 }

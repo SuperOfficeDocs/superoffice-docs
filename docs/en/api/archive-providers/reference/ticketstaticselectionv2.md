@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TicketStaticSelectionV2"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -720,7 +720,7 @@ Static archive Provider for a Selection of tickets archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketStaticSelectionV2?$select=saleId,readStatus,timeToClose,person/personUpdatedDate,person/personUrl/URLDescription
+GET /api/v1/archive/TicketStaticSelectionV2?$select=person/personAddress/wgs84longitude,contact/NumberOfNotCompletedActivitiesInPeriod,project/nextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

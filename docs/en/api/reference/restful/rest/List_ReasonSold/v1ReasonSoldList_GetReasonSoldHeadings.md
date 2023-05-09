@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 7,
-    "Name": "Heathcote-Heidenreich",
-    "Tooltip": "nostrum",
+    "HeadingId": 529,
+    "Name": "Olson, Veum and Crooks",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "Rank": 930,
-    "UdListDefinitionId": 63,
+    "Rank": 627,
+    "UdListDefinitionId": 195,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldLength": 746
       }
     }
   }

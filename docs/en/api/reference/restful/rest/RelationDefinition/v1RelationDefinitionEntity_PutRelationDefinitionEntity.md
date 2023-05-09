@@ -92,16 +92,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 544,
-  "Name": "Heathcote-Kuhlman",
-  "Tooltip": "aliquam",
-  "PassiveText": "dolor",
+  "ReldefId": 936,
+  "Name": "Mann-Mitchell",
+  "Tooltip": "distinctio",
+  "PassiveText": "porro",
   "Deleted": false,
-  "Rank": 294,
+  "Rank": 517,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -114,12 +114,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 513,
-  "Name": "Mertz Inc and Sons",
-  "Tooltip": "adipisci",
-  "PassiveText": "adipisci",
+  "ReldefId": 854,
+  "Name": "Smith Group",
+  "Tooltip": "quasi",
+  "PassiveText": "et",
   "Deleted": false,
-  "Rank": 567,
+  "Rank": 570,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -127,12 +127,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 666
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

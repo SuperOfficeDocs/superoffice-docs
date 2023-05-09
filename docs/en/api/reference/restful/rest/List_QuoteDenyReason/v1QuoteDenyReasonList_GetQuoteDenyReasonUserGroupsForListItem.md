@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Upton-Collins",
-    "ToolTip": "Eveniet voluptatum error qui.",
-    "Deleted": true,
-    "Rank": 592,
-    "Type": "fugit",
-    "ColorBlock": 577,
-    "IconHint": "voluptate",
-    "Selected": false,
-    "LastChanged": "2017-01-18T15:29:31.4969758+01:00",
+    "Id": 883,
+    "Name": "DuBuque Group",
+    "ToolTip": "Cum fugit facilis.",
+    "Deleted": false,
+    "Rank": 143,
+    "Type": "odit",
+    "ColorBlock": 77,
+    "IconHint": "commodi",
+    "Selected": true,
+    "LastChanged": "2000-09-14T03:51:34.8801783+02:00",
     "ChildItems": [
       {
-        "Id": 48,
-        "Name": "Stoltenberg-Marvin",
-        "ToolTip": "Tenetur porro.",
-        "Deleted": true,
-        "Rank": 219,
-        "Type": "nam",
-        "ColorBlock": 192,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "2020-06-29T15:29:31.4969758+02:00",
+        "Id": 13,
+        "Name": "Morissette LLC",
+        "ToolTip": "Rerum ut.",
+        "Deleted": false,
+        "Rank": 206,
+        "Type": "repellat",
+        "ColorBlock": 735,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2017-07-04T03:51:34.8801783+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "cum",
+        "ExtraInfo": "et",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Emmet Wyman",
+        "FullName": "Mr. Joana Kenna Zieme I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 624
+            "FieldLength": 823
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "natus",
-    "Hidden": true,
-    "FullName": "Ibrahim Maggio IV",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "ad",
+    "Hidden": false,
+    "FullName": "Dr. Kacey Stephanie Quitzon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 125
+        "FieldType": "System.Int32",
+        "FieldLength": 487
       }
     }
   }

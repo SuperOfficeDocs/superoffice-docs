@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 999,
-  "Name": "Rodriguez-Tillman",
+  "ScreenChooserId": 560,
+  "Name": "Quigley, Berge and Feil",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "nobis",
-  "Source": "deserunt",
-  "Registered": "1999-01-31T15:29:30.8014837+01:00",
-  "RegisteredAssociateId": 740,
-  "Updated": "2021-11-14T15:29:30.8014837+01:00",
-  "UpdatedAssociateId": 801,
+  "Enabled": false,
+  "UniqueIdentifier": "soluta",
+  "Source": "doloremque",
+  "Registered": "2004-11-26T03:51:34.1615868+01:00",
+  "RegisteredAssociateId": 944,
+  "Updated": "2008-08-03T03:51:34.1615868+02:00",
+  "UpdatedAssociateId": 748,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 334
     }
   }
 }

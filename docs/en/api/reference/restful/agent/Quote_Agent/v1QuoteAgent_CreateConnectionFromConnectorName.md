@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Collier-Legros"
+  "ConnectorName": "Ankunding, Ratke and Welch"
 }
 ```
 
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 855,
-  "ERPName": "Orn, Nitzsche and Hoppe",
-  "DisplayName": "Wiegand, Koss and Fritsch",
-  "DisplayDescription": "Persistent neutral circuit",
-  "Rank": 103,
-  "ConnectorName": "Kunde, Stiedemann and Prohaska",
-  "ErpConnectionId": 934,
-  "ExtraData": "eveniet",
-  "IsAvailable": false,
+  "QuoteConnectionId": 352,
+  "ERPName": "Glover, Smith and Botsford",
+  "DisplayName": "Cummings Group",
+  "DisplayDescription": "Synergized zero tolerance success",
+  "Rank": 745,
+  "ConnectorName": "Runte, Kling and Wolff",
+  "ErpConnectionId": 788,
+  "ExtraData": "similique",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 344,
-      "ERPPriceListKey": "et",
-      "QuoteConnectionId": 653,
-      "Name": "Willms-Padberg",
-      "Description": "Switchable 5th generation frame",
-      "Currency": "assumenda",
-      "CurrencyName": "Denesik, Schroeder and Thiel",
-      "ValidFrom": "2002-03-13T15:29:22.5682642+01:00",
-      "ValidTo": "1997-04-11T15:29:22.5682642+02:00",
-      "IsActive": true,
+      "PriceListId": 742,
+      "ERPPriceListKey": "commodi",
+      "QuoteConnectionId": 278,
+      "Name": "Boyle, Pfannerstill and Hansen",
+      "Description": "Enterprise-wide reciprocal circuit",
+      "Currency": "distinctio",
+      "CurrencyName": "Ondricka LLC",
+      "ValidFrom": "2003-10-01T03:51:28.0059393+02:00",
+      "ValidTo": "1997-04-24T03:51:28.0059393+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 141
+          "FieldType": "System.Int32",
+          "FieldLength": 90
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    962,
-    411
+    984,
+    813
   ],
   "AssociateAccessIds": [
-    403,
-    222
+    353,
+    506
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldLength": 280
     }
   }
 }

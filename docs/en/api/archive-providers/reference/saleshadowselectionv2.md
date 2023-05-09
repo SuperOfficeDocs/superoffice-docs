@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleShadowSelectionV2"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1234,7 +1234,7 @@ Shadow contact provider for the sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionV2?$select=person/personAssociate/assocName,person/personAssociate/ejDisplayName,contact/associateId,contact/country,contact/contactFax/description
+GET /api/v1/archive/SaleShadowSelectionV2?$select=person/rank,person/restrictionAddress/wgs84latitude,person/personAssociate/personId,person/personAssociate/personEmail,document/associate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

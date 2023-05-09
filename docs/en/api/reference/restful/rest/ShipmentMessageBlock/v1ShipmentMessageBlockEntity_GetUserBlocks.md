@@ -65,7 +65,7 @@ OK
 GET /api/v1/ShipmentMessageBlock/Associate/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,20 +76,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 546,
-    "AssociateId": 953,
-    "Block": "reprehenderit",
-    "Registered": "2003-11-14T15:29:30.6224879+01:00",
-    "RegisteredAssociateId": 882,
-    "Updated": "2000-11-15T15:29:30.6224879+01:00",
-    "UpdatedAssociateId": 961,
-    "UpdatedCount": 197,
+    "ShipmentMessageBlockId": 349,
+    "AssociateId": 172,
+    "Block": "tenetur",
+    "Registered": "2001-07-30T03:51:34.0208828+02:00",
+    "RegisteredAssociateId": 33,
+    "Updated": "2016-04-25T03:51:34.0208828+02:00",
+    "UpdatedAssociateId": 856,
+    "UpdatedCount": 65,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldType": "System.String",
+        "FieldLength": 893
       }
     }
   }

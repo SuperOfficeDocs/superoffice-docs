@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Name": "Hettinger LLC",
-    "ToolTip": "Ex facere.",
+    "Id": 997,
+    "Name": "Lesch, Johnston and Koss",
+    "ToolTip": "Nisi omnis consequatur quaerat officiis iste tenetur.",
     "Deleted": false,
-    "Rank": 682,
-    "Type": "totam",
-    "ColorBlock": 35,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "1996-07-13T15:29:31.190482+02:00",
+    "Rank": 649,
+    "Type": "ut",
+    "ColorBlock": 918,
+    "IconHint": "natus",
+    "Selected": false,
+    "LastChanged": "2000-03-10T03:51:34.6458549+01:00",
     "ChildItems": [
       {
-        "Id": 303,
-        "Name": "Kutch LLC",
-        "ToolTip": "Beatae quam velit.",
+        "Id": 502,
+        "Name": "Durgan-Hyatt",
+        "ToolTip": "Iste dolorem.",
         "Deleted": false,
-        "Rank": 679,
-        "Type": "quis",
-        "ColorBlock": 443,
-        "IconHint": "dolores",
+        "Rank": 365,
+        "Type": "eum",
+        "ColorBlock": 117,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2013-12-21T15:29:31.190482+01:00",
+        "LastChanged": "2019-07-15T03:51:34.6458549+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "vel",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Dr. Helmer Windler DVM"
+        "FullName": "Omer Feest"
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "et",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "dolore",
     "Hidden": true,
-    "FullName": "Dr. Albert Ledner PhD"
+    "FullName": "Ms. Grover Erin Franecki MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Hessel-Smith",
-    "ToolTip": "Nulla voluptatem molestiae nobis amet architecto est.",
+    "Id": 959,
+    "Name": "Walsh Inc and Sons",
+    "ToolTip": "Aut dolor mollitia.",
     "Deleted": false,
-    "Rank": 576,
-    "Type": "itaque",
-    "ColorBlock": 11,
-    "IconHint": "tempora",
+    "Rank": 334,
+    "Type": "voluptate",
+    "ColorBlock": 506,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2003-10-08T15:29:31.1924823+02:00",
+    "LastChanged": "2022-05-15T03:51:34.6458549+02:00",
     "ChildItems": [
       {
-        "Id": 179,
-        "Name": "Langosh, Bins and Gutkowski",
-        "ToolTip": "Accusamus corrupti numquam.",
+        "Id": 289,
+        "Name": "Marvin, Adams and Kirlin",
+        "ToolTip": "Quas ratione consequatur quia modi.",
         "Deleted": false,
-        "Rank": 256,
-        "Type": "qui",
-        "ColorBlock": 487,
-        "IconHint": "placeat",
+        "Rank": 426,
+        "Type": "ducimus",
+        "ColorBlock": 213,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "1996-08-29T15:29:31.1929801+02:00",
+        "LastChanged": "2016-02-09T03:51:34.6458549+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "non",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Lilly Alford Bradtke MD",
+        "FullName": "Ibrahim Marks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 618
+            "FieldLength": 488
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Travon Ferne Miller MD",
+    "ExtraInfo": "debitis",
+    "StyleHint": "tenetur",
+    "Hidden": false,
+    "FullName": "Samson Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldLength": 847
       }
     }
   }

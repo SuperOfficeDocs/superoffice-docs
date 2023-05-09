@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Name": "Bergstrom-Yundt",
-    "ToolTip": "Asperiores sunt voluptatem necessitatibus aut.",
+    "Id": 326,
+    "Name": "Halvorson-Lesch",
+    "ToolTip": "Magni quia numquam aut quis quae veritatis.",
     "Deleted": true,
-    "Rank": 211,
-    "Type": "rerum",
-    "ColorBlock": 321,
-    "IconHint": "omnis",
+    "Rank": 52,
+    "Type": "dolor",
+    "ColorBlock": 472,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2015-10-27T15:29:31.6079749+01:00",
+    "LastChanged": "1997-01-21T03:51:34.9582718+01:00",
     "ChildItems": [
       {
-        "Id": 382,
-        "Name": "Schuster Group",
-        "ToolTip": "Reprehenderit exercitationem exercitationem at.",
-        "Deleted": true,
-        "Rank": 280,
-        "Type": "nihil",
-        "ColorBlock": 993,
-        "IconHint": "dolores",
+        "Id": 691,
+        "Name": "Runte, Lind and Sawayn",
+        "ToolTip": "Explicabo ea sequi natus.",
+        "Deleted": false,
+        "Rank": 208,
+        "Type": "quod",
+        "ColorBlock": 852,
+        "IconHint": "tempore",
         "Selected": true,
-        "LastChanged": "2005-08-13T15:29:31.6084745+02:00",
+        "LastChanged": "2016-06-13T03:51:34.9582718+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "et",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Vicente Grayce Lubowitz III",
+        "FullName": "Drake Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 174
+            "FieldLength": 250
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Aliya Vandervort",
+    "FullName": "Ms. Allen Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 750
+        "FieldType": "System.String",
+        "FieldLength": 135
       }
     }
   }

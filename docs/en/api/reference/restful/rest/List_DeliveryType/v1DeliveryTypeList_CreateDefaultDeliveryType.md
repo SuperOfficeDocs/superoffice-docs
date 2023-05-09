@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 698,
-  "Name": "Mueller-Abernathy",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 284,
-  "Rank": 503,
+  "Id": 900,
+  "Name": "Runte, Medhurst and Weissnat",
+  "Tooltip": "esse",
+  "Deleted": true,
+  "UdListDefinitionId": 740,
+  "Rank": 933,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldType": "System.Int32",
+      "FieldLength": 200
     }
   }
 }

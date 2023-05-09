@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 179,
-  "Name": "Terry Inc and Sons",
-  "Tooltip": "alias",
+  "Id": 746,
+  "Name": "Balistreri-Dietrich",
+  "Tooltip": "amet",
   "Deleted": false,
-  "Rank": 81,
+  "Rank": 516,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dignissimos",
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 179
     }
   },
   "_Links": {

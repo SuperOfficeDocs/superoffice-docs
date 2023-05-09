@@ -66,7 +66,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 24,
-  "Name": "Schmitt-McKenzie",
-  "CreatedDate": "1997-02-05T15:29:29.7471997+01:00",
-  "UpdatedDate": "2005-09-14T15:29:29.7471997+02:00",
+  "ForeignAppId": 410,
+  "Name": "Schowalter Group",
+  "CreatedDate": "2021-10-01T03:51:33.6615947+02:00",
+  "UpdatedDate": "2005-12-17T03:51:33.6615947+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 145,
-      "Name": "Pfannerstill-Dicki",
-      "CreatedDate": "2006-12-31T15:29:29.7476994+01:00",
-      "UpdatedDate": "2004-06-26T15:29:29.7476994+02:00",
-      "AssociateFullName": "Hester White",
-      "CreatedBy": "quisquam",
-      "UpdatedBy": "non",
-      "DeviceIdentifier": "amet",
-      "ForeignAppId": 752,
+      "ForeignDeviceId": 673,
+      "Name": "Mueller-Tremblay",
+      "CreatedDate": "2019-06-02T03:51:33.6615947+02:00",
+      "UpdatedDate": "2009-04-16T03:51:33.6615947+02:00",
+      "AssociateFullName": "Amber Gutkowski",
+      "CreatedBy": "in",
+      "UpdatedBy": "in",
+      "DeviceIdentifier": "dolorem",
+      "ForeignAppId": 354,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 175
+          "FieldType": "System.Int32",
+          "FieldLength": 755
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 472
+      "FieldType": "System.Int32",
+      "FieldLength": 251
     }
   }
 }

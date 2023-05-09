@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 697,
-  "Name": "Moore, Fahey and Vandervort",
-  "Tooltip": "incidunt",
-  "Deleted": true,
-  "UdListDefinitionId": 624,
-  "Rank": 284
+  "Id": 990,
+  "Name": "Heidenreich Inc and Sons",
+  "Tooltip": "adipisci",
+  "Deleted": false,
+  "UdListDefinitionId": 664,
+  "Rank": 589
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 234,
-  "Name": "Luettgen, Moore and Gulgowski",
-  "Tooltip": "non",
-  "Deleted": true,
-  "UdListDefinitionId": 980,
-  "Rank": 408,
+  "Id": 875,
+  "Name": "Waelchi, Kassulke and Oberbrunner",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 692,
+  "Rank": 655,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 748
+      "FieldLength": 309
     }
   }
 }

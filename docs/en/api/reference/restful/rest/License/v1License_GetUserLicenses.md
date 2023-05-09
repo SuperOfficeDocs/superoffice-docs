@@ -72,30 +72,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Harvey, Williamson and Bechtelar",
-    "Description": "Switchable eco-centric product",
+    "Name": "Lowe LLC",
+    "Description": "Automated executive standardization",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 678,
-        "Tooltip": "qui",
-        "CanAssign": false,
-        "Free": 854,
-        "InUse": 213,
+        "Unrestricted": true,
+        "Total": 235,
+        "Tooltip": "provident",
+        "CanAssign": true,
+        "Free": 898,
+        "InUse": 985,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 873,
-        "Name": "Shields LLC",
-        "Description": "De-engineered tangible toolset",
-        "PrerequisiteModuleName": "Hessel, D'Amore and McKenzie",
-        "SortOrder": 796,
-        "ExtraFlags": 370,
+        "ModuleLicenseId": 951,
+        "Name": "Lang, Spinka and Breitenberg",
+        "Description": "Future-proofed dedicated hierarchy",
+        "PrerequisiteModuleName": "Gerhold Group",
+        "SortOrder": 217,
+        "ExtraFlags": 752,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 267
+            "FieldLength": 100
           }
         }
       }
@@ -103,25 +103,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 189,
-        "Tooltip": "vel",
+        "Total": 886,
+        "Tooltip": "eaque",
         "CanAssign": true,
-        "Free": 161,
-        "InUse": 146,
-        "IsHidden": false,
+        "Free": 11,
+        "InUse": 407,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 165,
-        "Name": "Volkman, Walker and Adams",
-        "Description": "Extended multi-tasking functionalities",
-        "PrerequisiteModuleName": "Gottlieb-Pacocha",
-        "SortOrder": 348,
-        "ExtraFlags": 782,
+        "ModuleLicenseId": 48,
+        "Name": "Nienow, Schimmel and Cremin",
+        "Description": "Team-oriented multi-state functionalities",
+        "PrerequisiteModuleName": "Hudson-Moore",
+        "SortOrder": 726,
+        "ExtraFlags": 458,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 864
+            "FieldLength": 968
           }
         }
       }
@@ -130,36 +130,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   },
   {
-    "Name": "Harvey, Williamson and Bechtelar",
-    "Description": "Switchable eco-centric product",
+    "Name": "Lowe LLC",
+    "Description": "Automated executive standardization",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 678,
-        "Tooltip": "qui",
-        "CanAssign": false,
-        "Free": 854,
-        "InUse": 213,
+        "Unrestricted": true,
+        "Total": 235,
+        "Tooltip": "provident",
+        "CanAssign": true,
+        "Free": 898,
+        "InUse": 985,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 873,
-        "Name": "Shields LLC",
-        "Description": "De-engineered tangible toolset",
-        "PrerequisiteModuleName": "Hessel, D'Amore and McKenzie",
-        "SortOrder": 796,
-        "ExtraFlags": 370,
+        "ModuleLicenseId": 951,
+        "Name": "Lang, Spinka and Breitenberg",
+        "Description": "Future-proofed dedicated hierarchy",
+        "PrerequisiteModuleName": "Gerhold Group",
+        "SortOrder": 217,
+        "ExtraFlags": 752,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 267
+            "FieldLength": 100
           }
         }
       }
@@ -167,25 +167,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 189,
-        "Tooltip": "vel",
+        "Total": 886,
+        "Tooltip": "eaque",
         "CanAssign": true,
-        "Free": 161,
-        "InUse": 146,
-        "IsHidden": false,
+        "Free": 11,
+        "InUse": 407,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 165,
-        "Name": "Volkman, Walker and Adams",
-        "Description": "Extended multi-tasking functionalities",
-        "PrerequisiteModuleName": "Gottlieb-Pacocha",
-        "SortOrder": 348,
-        "ExtraFlags": 782,
+        "ModuleLicenseId": 48,
+        "Name": "Nienow, Schimmel and Cremin",
+        "Description": "Team-oriented multi-state functionalities",
+        "PrerequisiteModuleName": "Hudson-Moore",
+        "SortOrder": 726,
+        "ExtraFlags": 458,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 864
+            "FieldLength": 968
           }
         }
       }
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   }

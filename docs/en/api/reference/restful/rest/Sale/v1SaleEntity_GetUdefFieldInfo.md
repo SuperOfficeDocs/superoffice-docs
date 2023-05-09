@@ -92,7 +92,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 297,
-  "ColumnId": 854,
-  "FieldDefault": "similique",
-  "FieldHeight": 417,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 581,
-  "FieldTop": 18,
+  "UDefFieldId": 291,
+  "ColumnId": 967,
+  "FieldDefault": "laborum",
+  "FieldHeight": 990,
+  "FieldLabel": "nulla",
+  "FieldLeft": 156,
+  "FieldTop": 41,
   "FieldType": "Checkbox",
-  "FieldWidth": 377,
-  "FormatMask": "aut",
+  "FieldWidth": 365,
+  "FormatMask": "est",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 884,
-  "LabelLeft": 420,
-  "LabelTop": 678,
-  "LabelWidth": 121,
-  "LastVersionId": 147,
-  "ListTableId": 511,
+  "LabelHeight": 951,
+  "LabelLeft": 125,
+  "LabelTop": 997,
+  "LabelWidth": 924,
+  "LastVersionId": 580,
+  "ListTableId": 562,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 58,
-  "ProgId": "aliquid",
+  "Page1LineNo": 855,
+  "ProgId": "quos",
   "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 32,
-  "TextLength": 947,
-  "Tooltip": "laborum",
-  "UdefIdentity": 493,
-  "UDListDefinitionId": 969,
+  "ShortLabel": "qui",
+  "TabOrder": 513,
+  "TextLength": 463,
+  "Tooltip": "et",
+  "UdefIdentity": 803,
+  "UDListDefinitionId": 520,
   "Justification": "Center",
-  "Version": 263,
-  "TemplateVariableName": "Jaskolski, Morissette and Kemmer",
+  "Version": 634,
+  "TemplateVariableName": "Murazik, Langworth and Hermann",
   "HasBeenPublished": false,
-  "MdoListName": "Keebler Inc and Sons",
+  "MdoListName": "Hand, Crona and Kuvalis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

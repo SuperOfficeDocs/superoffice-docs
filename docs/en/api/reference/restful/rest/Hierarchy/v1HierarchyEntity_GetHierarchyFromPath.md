@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,46 +88,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 500,
+  "HierarchyId": 839,
   "Domain": "Dashboards",
-  "Name": "Sipes-Cruickshank",
-  "Fullname": "tempore",
-  "ParentId": 937,
+  "Name": "Romaguera, Koch and Watsica",
+  "Fullname": "et",
+  "ParentId": 316,
   "Children": [
     {
-      "HierarchyId": 452,
+      "HierarchyId": 940,
       "Domain": "Dashboards",
-      "Name": "Upton-Ritchie",
-      "Fullname": "consequatur",
-      "ParentId": 60,
+      "Name": "Donnelly Inc and Sons",
+      "Fullname": "rem",
+      "ParentId": 790,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-09-02T15:29:29.7866983+02:00",
-      "RegisteredAssociateId": 442,
-      "Updated": "2012-02-07T15:29:29.7866983+01:00",
-      "UpdatedAssociateId": 510,
+      "Registered": "2003-08-11T03:51:33.6928335+02:00",
+      "RegisteredAssociateId": 652,
+      "Updated": "2022-01-13T03:51:33.6928335+01:00",
+      "UpdatedAssociateId": 527,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldLength": 726
         }
       }
     }
   ],
-  "Registered": "2002-11-17T15:29:29.787198+01:00",
-  "RegisteredAssociateId": 177,
-  "Updated": "2002-01-11T15:29:29.787198+01:00",
-  "UpdatedAssociateId": 470,
+  "Registered": "1996-04-06T03:51:33.6928335+02:00",
+  "RegisteredAssociateId": 732,
+  "Updated": "2008-05-22T03:51:33.6928335+02:00",
+  "UpdatedAssociateId": 262,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 903
     }
   }
 }

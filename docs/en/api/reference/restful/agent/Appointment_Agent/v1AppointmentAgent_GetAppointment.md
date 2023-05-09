@@ -25,7 +25,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=438
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=708
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -124,53 +124,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 558,
-  "StartDate": "2010-06-05T15:29:20.5092929+02:00",
-  "EndDate": "2009-11-30T15:29:20.5092929+01:00",
+  "AppointmentId": 350,
+  "StartDate": "2012-02-01T03:51:26.2094622+01:00",
+  "EndDate": "2022-05-23T03:51:26.2094622+02:00",
   "Type": "BookingForChecklist",
-  "Task": "quibusdam",
-  "AssociateFullName": "Dr. Lorna Joel Feest DDS",
-  "ContactName": "Schumm Inc and Sons",
-  "Description": "Enhanced cohesive emulation",
-  "PersonFullName": "Parker Goodwin",
-  "PersonId": 525,
-  "ContactId": 238,
-  "ProjectId": 129,
-  "ProjectName": "Buckridge, Collier and O'Kon",
+  "Task": "voluptatem",
+  "AssociateFullName": "Melany Mayert",
+  "ContactName": "Langworth-Davis",
+  "Description": "Devolved systemic protocol",
+  "PersonFullName": "Lolita Kiera Crist II",
+  "PersonId": 947,
+  "ContactId": 445,
+  "ProjectId": 556,
+  "ProjectName": "Ernser, Schmidt and Jerde",
   "IsPublished": false,
-  "AssociateId": 166,
-  "ColorIndex": 489,
+  "AssociateId": 479,
+  "ColorIndex": 556,
   "IsFree": false,
-  "HasAlarm": false,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 233,
-  "PriorityName": "Ruecker-Monahan",
+  "PriorityId": 459,
+  "PriorityName": "Lehner, Block and Dickinson",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2001-11-20T15:29:20.5097929+01:00",
+  "ActiveDate": "2018-08-20T03:51:26.2094622+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1996-10-11T15:29:20.5097929+02:00",
-  "RecurringEndDate": "2014-04-18T15:29:20.5097929+02:00",
-  "MotherId": 851,
-  "AssignedBy": 843,
-  "AssignedByFullName": "Manuela Gusikowski",
+  "RecurringStartDate": "2019-04-08T03:51:26.2094622+02:00",
+  "RecurringEndDate": "2014-12-18T03:51:26.2094622+01:00",
+  "MotherId": 951,
+  "AssignedBy": 486,
+  "AssignedByFullName": "Felicity Sipes",
   "RejectReason": "",
-  "Location": "repellendus",
-  "AlarmLeadTime": "autem",
-  "SaleId": 600,
-  "SaleName": "Cormier-Hills",
-  "AssociateName": "Satterfield, Daniel and Lueilwitz",
-  "CreatedDate": "1997-08-29T15:29:20.5102938+02:00",
-  "CreatedBy": "iusto",
-  "CreatedByFullName": "Gwendolyn Kutch",
-  "CreatedByAssociateId": 459,
+  "Location": "pariatur",
+  "AlarmLeadTime": "error",
+  "SaleId": 228,
+  "SaleName": "Franecki LLC",
+  "AssociateName": "Abshire, Kris and Herzog",
+  "CreatedDate": "2013-04-27T03:51:26.2094622+02:00",
+  "CreatedBy": "aliquid",
+  "CreatedByFullName": "Eldon Baumbach DDS",
+  "CreatedByAssociateId": 174,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -178,7 +178,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldLength": 921
     }
   }
 }

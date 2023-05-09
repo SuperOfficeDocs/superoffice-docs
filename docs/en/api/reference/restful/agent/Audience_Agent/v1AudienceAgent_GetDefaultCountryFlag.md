@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Audience/GetDefaultCountryFlag
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Keeling Inc and Sons"
+  "LayoutName": "Predovic, Zieme and Collins"
 }
 ```
 

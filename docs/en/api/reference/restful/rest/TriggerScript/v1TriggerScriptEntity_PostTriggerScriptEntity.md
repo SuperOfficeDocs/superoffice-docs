@@ -96,20 +96,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 795,
-  "Name": "Beahan Group",
+  "ScreenChooserId": 570,
+  "Name": "Bergnaum-Cruickshank",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "quia",
-  "Source": "sequi",
-  "Registered": "2005-05-12T15:29:30.7949857+02:00",
-  "RegisteredAssociateId": 672,
-  "Updated": "2013-09-25T15:29:30.7949857+02:00",
-  "UpdatedAssociateId": 177
+  "Enabled": true,
+  "UniqueIdentifier": "nesciunt",
+  "Source": "sint",
+  "Registered": "2006-12-26T03:51:34.1615868+01:00",
+  "RegisteredAssociateId": 335,
+  "Updated": "2004-06-03T03:51:34.1615868+02:00",
+  "UpdatedAssociateId": 302
 }
 ```
 
@@ -120,22 +120,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 509,
-  "Name": "Crist, Kub and Schmitt",
+  "ScreenChooserId": 653,
+  "Name": "Crona-Baumbach",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "perspiciatis",
-  "Source": "nesciunt",
-  "Registered": "1998-06-04T15:29:30.7959917+02:00",
-  "RegisteredAssociateId": 407,
-  "Updated": "1998-11-25T15:29:30.7959917+01:00",
-  "UpdatedAssociateId": 483,
+  "UniqueIdentifier": "quia",
+  "Source": "et",
+  "Registered": "2016-12-24T03:51:34.1615868+01:00",
+  "RegisteredAssociateId": 502,
+  "Updated": "2016-11-02T03:51:34.1615868+01:00",
+  "UpdatedAssociateId": 934,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 859
     }
   },
   "_Links": {

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Hickle-Nolan",
-    "ToolTip": "Debitis consequatur dolorem error eveniet.",
-    "Deleted": false,
-    "Rank": 120,
-    "Type": "labore",
-    "ColorBlock": 343,
-    "IconHint": "in",
+    "Id": 574,
+    "Name": "Swift Inc and Sons",
+    "ToolTip": "Eum quasi.",
+    "Deleted": true,
+    "Rank": 878,
+    "Type": "voluptatibus",
+    "ColorBlock": 459,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2012-05-04T15:29:31.6244749+02:00",
+    "LastChanged": "2012-09-21T03:51:34.9738936+02:00",
     "ChildItems": [
       {
-        "Id": 505,
-        "Name": "Roberts Group",
-        "ToolTip": "Cumque consequatur occaecati earum rerum.",
-        "Deleted": true,
-        "Rank": 182,
-        "Type": "vero",
-        "ColorBlock": 169,
-        "IconHint": "repellendus",
-        "Selected": true,
-        "LastChanged": "2012-07-19T15:29:31.6249733+02:00",
+        "Id": 300,
+        "Name": "Thompson-Gutkowski",
+        "ToolTip": "Omnis et soluta reprehenderit repudiandae sed ex.",
+        "Deleted": false,
+        "Rank": 829,
+        "Type": "aspernatur",
+        "ColorBlock": 751,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2019-04-14T03:51:34.9738936+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "fuga",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Giovani Pfeffer",
+        "FullName": "Ms. Blanca Russ Littel Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 469
+            "FieldType": "System.String",
+            "FieldLength": 137
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quaerat",
-    "Hidden": true,
-    "FullName": "Prof. Emerald Pearl Homenick",
+    "ExtraInfo": "aut",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Miss Mertie Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 238
+        "FieldType": "System.Int32",
+        "FieldLength": 63
       }
     }
   }

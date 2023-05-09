@@ -98,7 +98,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,88 +108,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 628,
+  "DocumentId": 326,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "adipisci",
-  "Header": "deserunt",
-  "Name": "Ernser Group",
-  "OurRef": "et",
-  "YourRef": "rerum",
-  "CreatedDate": "2014-01-22T15:29:29.7107+01:00",
-  "UpdatedDate": "2013-03-15T15:29:29.7107+01:00",
-  "Description": "Function-based zero administration architecture",
+  "Attention": "laborum",
+  "Header": "eligendi",
+  "Name": "Nicolas Inc and Sons",
+  "OurRef": "nobis",
+  "YourRef": "debitis",
+  "CreatedDate": "2015-06-03T03:51:33.6303483+02:00",
+  "UpdatedDate": "1999-07-24T03:51:33.6303483+02:00",
+  "Description": "Organic object-oriented artificial intelligence",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-04-06T15:29:29.7141999+02:00",
-  "ExternalRef": "facere",
+  "Date": "2002-01-22T03:51:33.6303483+01:00",
+  "ExternalRef": "nobis",
   "Completed": "Completed",
-  "ActiveLinks": 963,
+  "ActiveLinks": 389,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kertzmann, Willms and Trantow",
-      "Id": 770,
-      "Description": "Profound multi-state intranet",
-      "ExtraInfo": "quia",
-      "LinkId": 87,
+      "EntityName": "Carter Inc and Sons",
+      "Id": 395,
+      "Description": "Synergistic assymetric installation",
+      "ExtraInfo": "praesentium",
+      "LinkId": 636,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 598
+          "FieldType": "System.String",
+          "FieldLength": 881
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 753,
-  "Snum": 865,
+  "SuggestedDocumentId": 435,
+  "Snum": 283,
   "UserDefinedFields": {
-    "SuperOffice:1": "Adan Hahn",
-    "SuperOffice:2": "Ms. Iva Corwin"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Juston Kub"
   },
   "ExtraFields": {
-    "ExtraFields1": "soluta",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "officia"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "delectus"
+    "CustomFields1": "aut",
+    "CustomFields2": "inventore"
   },
-  "PublishEventDate": "2004-06-16T15:29:29.7147049+02:00",
-  "PublishTo": "1999-08-02T15:29:29.7147049+02:00",
-  "PublishFrom": "2000-04-11T15:29:29.7147049+02:00",
+  "PublishEventDate": "2013-05-24T03:51:33.6303483+02:00",
+  "PublishTo": "2014-08-15T03:51:33.6303483+02:00",
+  "PublishFrom": "2011-09-05T03:51:33.6303483+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 680,
+      "VisibleId": 689,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldType": "System.String",
+          "FieldLength": 921
         }
       }
     },
     {
-      "VisibleId": 680,
+      "VisibleId": 689,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldType": "System.String",
+          "FieldLength": 921
         }
       }
     }
@@ -198,8 +198,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldType": "System.String",
+      "FieldLength": 1000
     }
   }
 }

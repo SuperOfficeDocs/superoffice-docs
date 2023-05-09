@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 688,
-    "Name": "Weber, King and Daugherty",
-    "Tooltip": "officia",
+    "HeadingId": 743,
+    "Name": "Schuster, Spencer and Howe",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 742,
-    "UdListDefinitionId": 24
+    "Rank": 674,
+    "UdListDefinitionId": 684
   },
   {
-    "HeadingId": 688,
-    "Name": "Weber, King and Daugherty",
-    "Tooltip": "officia",
+    "HeadingId": 743,
+    "Name": "Schuster, Spencer and Howe",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 742,
-    "UdListDefinitionId": 24
+    "Rank": 674,
+    "UdListDefinitionId": 684
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 106,
-    "Name": "Osinski, Swift and Adams",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "Rank": 344,
-    "UdListDefinitionId": 323,
+    "HeadingId": 94,
+    "Name": "Homenick, Toy and Klocko",
+    "Tooltip": "in",
+    "Deleted": false,
+    "Rank": 297,
+    "UdListDefinitionId": 643,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldType": "System.String",
+        "FieldLength": 690
       }
     }
   }

@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=officia
+GET /api/v1/List/ConsentSource/MDOItems?query=eum
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Stehr-Botsford",
-    "ToolTip": "Quia omnis eum.",
-    "Deleted": true,
-    "Rank": 504,
-    "Type": "voluptatibus",
+    "Id": 535,
+    "Name": "Torp-Kassulke",
+    "ToolTip": "Amet numquam et voluptate maiores et.",
+    "Deleted": false,
+    "Rank": 524,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 617,
-        "Name": "Moore, Ratke and Keeling",
-        "ToolTip": "Aspernatur ea minima.",
-        "Deleted": true,
-        "Rank": 424,
-        "Type": "odit",
+        "Id": 705,
+        "Name": "Lueilwitz, Quigley and Denesik",
+        "ToolTip": "Et fugiat architecto et possimus.",
+        "Deleted": false,
+        "Rank": 155,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reiciendis",
-        "ColorBlock": 715,
-        "ExtraInfo": "incidunt",
-        "StyleHint": "non",
-        "FullName": "Earl Louvenia Hane Jr.",
+        "IconHint": "repellat",
+        "ColorBlock": 158,
+        "ExtraInfo": "odio",
+        "StyleHint": "in",
+        "FullName": "Myrna Hahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 151
+            "FieldLength": 11
           }
         }
       }
     ],
-    "IconHint": "dignissimos",
-    "ColorBlock": 448,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "voluptas",
-    "FullName": "Gardner Cornell Bernhard I",
+    "IconHint": "aut",
+    "ColorBlock": 691,
+    "ExtraInfo": "vel",
+    "StyleHint": "omnis",
+    "FullName": "Napoleon Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldLength": 838
       }
     }
   }

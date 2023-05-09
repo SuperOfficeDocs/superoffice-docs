@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 369,
-    "Name": "Ruecker LLC",
-    "Tooltip": "voluptatem",
+    "HeadingId": 413,
+    "Name": "Halvorson Group",
+    "Tooltip": "magnam",
     "Deleted": false,
-    "Rank": 448,
-    "UdListDefinitionId": 174
+    "Rank": 540,
+    "UdListDefinitionId": 644
   },
   {
-    "HeadingId": 369,
-    "Name": "Ruecker LLC",
-    "Tooltip": "voluptatem",
+    "HeadingId": 413,
+    "Name": "Halvorson Group",
+    "Tooltip": "magnam",
     "Deleted": false,
-    "Rank": 448,
-    "UdListDefinitionId": 174
+    "Rank": 540,
+    "UdListDefinitionId": 644
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 452,
-    "Name": "Bode-Sawayn",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 110,
-    "UdListDefinitionId": 351,
+    "HeadingId": 279,
+    "Name": "Murphy Inc and Sons",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "Rank": 226,
+    "UdListDefinitionId": 713,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldType": "System.String",
+        "FieldLength": 750
       }
     }
   }

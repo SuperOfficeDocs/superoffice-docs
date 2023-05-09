@@ -137,18 +137,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "expedita",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "expedita",
     "value": {}
   }
 ]
@@ -161,48 +161,48 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 217,
-  "TopicId": 189,
+  "ChatSessionId": 782,
+  "TopicId": 102,
   "User": null,
   "Person": null,
-  "CustomerAlias": "harum",
-  "CustomerHost": "et",
-  "CustomerName": "Lowe-Spinka",
-  "CustomerEmail": "kristy@shieldscollins.biz",
-  "CustomerPhone": "137-242-2997 x6342",
+  "CustomerAlias": "exercitationem",
+  "CustomerHost": "excepturi",
+  "CustomerName": "Ledner, Langosh and Hegmann",
+  "CustomerEmail": "dorcas.jacobi@cronin.ca",
+  "CustomerPhone": "(958)984-7779",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Powlowski, Green and Howe",
+  "CustomerCompanyName": "Rogahn Group",
   "Status": "Closed",
-  "FirstMessage": "reprehenderit",
-  "LastMessage": "odio",
-  "WhenRequested": "2019-06-27T15:29:29.3262054+02:00",
-  "WhenStarted": "2007-11-20T15:29:29.3262054+01:00",
-  "WhenEnded": "2005-12-28T15:29:29.3262054+01:00",
-  "WhenIdle": "2017-10-10T15:29:29.3262054+02:00",
-  "WhenFetched": "2020-12-30T15:29:29.3262054+01:00",
-  "SessionKey": "reiciendis",
-  "InitialQueuePos": 540,
-  "AlertLevel": 581,
-  "Rank": 959,
+  "FirstMessage": "asperiores",
+  "LastMessage": "atque",
+  "WhenRequested": "2016-05-21T03:51:33.161706+02:00",
+  "WhenStarted": "2002-02-07T03:51:33.161706+01:00",
+  "WhenEnded": "2008-08-26T03:51:33.161706+02:00",
+  "WhenIdle": "2000-07-20T03:51:33.161706+02:00",
+  "WhenFetched": "2007-09-11T03:51:33.161706+02:00",
+  "SessionKey": "unde",
+  "InitialQueuePos": 938,
+  "AlertLevel": 354,
+  "Rank": 371,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 254,
+  "ChatbotIsActive": false,
+  "Rating": 330,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 1002
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

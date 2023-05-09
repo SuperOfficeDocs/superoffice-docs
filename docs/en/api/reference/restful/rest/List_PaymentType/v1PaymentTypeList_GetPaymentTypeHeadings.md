@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 768,
-    "Name": "Becker-Hermann",
-    "Tooltip": "ut",
+    "HeadingId": 120,
+    "Name": "Carroll Inc and Sons",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 984,
-    "UdListDefinitionId": 613,
+    "Rank": 30,
+    "UdListDefinitionId": 943,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldLength": 314
       }
     }
   }

@@ -113,14 +113,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 907,
+  "SelectionId": 521,
   "SelectionMemberIds": [
-    809,
-    967
+    94,
+    549
   ]
 }
 ```
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Triple-buffered global groupware",
-  "Postit": "mollitia",
+  "Description": "Seamless uniform customer loyalty",
+  "Postit": "explicabo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 641,
-  "IncludePerson": 50,
-  "MemberCount": 940,
-  "Name": "Mayert, O'Hara and Hirthe",
-  "PostitTextId": 417,
-  "CreatedDate": "2011-05-28T15:29:22.8102976+02:00",
-  "SelectionId": 49,
-  "SoundEx": "placeat",
-  "Source": 118,
-  "TextId": 212,
-  "UpdatedDate": "1998-08-02T15:29:22.8102976+02:00",
-  "UpdatedCount": 165,
-  "Visibility": 669,
+  "GroupIdx": 429,
+  "IncludePerson": 507,
+  "MemberCount": 325,
+  "Name": "Braun, Reinger and Kassulke",
+  "PostitTextId": 758,
+  "CreatedDate": "1996-04-06T03:51:28.1777523+02:00",
+  "SelectionId": 203,
+  "SoundEx": "maiores",
+  "Source": 771,
+  "TextId": 931,
+  "UpdatedDate": "2008-09-27T03:51:28.1777523+02:00",
+  "UpdatedCount": 47,
+  "Visibility": 128,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 798,
-  "TargetTableName": "Gulgowski, Adams and Lind",
+  "CompanyUnique": true,
+  "TargetTableNumber": 860,
+  "TargetTableName": "Hayes, Aufderhar and Balistreri",
   "Completed": false,
-  "LeftSelectionId": 396,
-  "RightSelectionId": 99,
+  "LeftSelectionId": 616,
+  "RightSelectionId": 201,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Walker, Wisoky and Torp",
-  "ShadowProviderName": "Hayes Inc and Sons",
-  "ChartKey": "velit",
-  "LastLoaded": "2020-04-25T15:29:22.8102976+02:00",
-  "LastLoadedBy": 513,
+  "MainProviderName": "Zemlak Group",
+  "ShadowProviderName": "Thiel-Legros",
+  "ChartKey": "aut",
+  "LastLoaded": "2016-11-24T03:51:28.1777523+01:00",
+  "LastLoadedBy": 39,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-10-07T15:29:22.8107964+02:00",
-  "LastMembershipChangeBy": 46,
+  "LastMembershipChange": "2015-01-17T03:51:28.1777523+01:00",
+  "LastMembershipChangeBy": 515,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "a",
-  "MemberTabHeading": "voluptatum",
-  "MailingsProviderName": "Metz, Hauck and Wintheiser",
-  "DashboardTileDefinitionId": 69,
+  "MainHeading": "eius",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Mayer, Torphy and Bechtelar",
+  "DashboardTileDefinitionId": 478,
   "VisibleFor": [
     {
-      "VisibleId": 274,
+      "VisibleId": 735,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 961
+          "FieldLength": 515
         }
       }
     },
     {
-      "VisibleId": 274,
+      "VisibleId": 735,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 961
+          "FieldLength": 515
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 511
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

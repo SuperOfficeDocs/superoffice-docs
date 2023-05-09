@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 188,
-    "Name": "Kuphal, Okuneva and Schmeler",
-    "ToolTip": "Mollitia inventore eum quia.",
-    "Deleted": false,
-    "Rank": 568,
-    "Type": "cum",
-    "ColorBlock": 170,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2002-05-13T15:29:31.1379777+02:00",
+    "Id": 31,
+    "Name": "Blanda LLC",
+    "ToolTip": "Dolor dolorum voluptates praesentium ducimus sint.",
+    "Deleted": true,
+    "Rank": 820,
+    "Type": "doloribus",
+    "ColorBlock": 245,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2019-10-12T03:51:34.5989925+02:00",
     "ChildItems": [
       {
-        "Id": 892,
-        "Name": "Abernathy Group",
-        "ToolTip": "Non magnam ea.",
+        "Id": 788,
+        "Name": "Lang, Yundt and Trantow",
+        "ToolTip": "Quo repellat quidem ut.",
         "Deleted": false,
-        "Rank": 703,
-        "Type": "dolores",
-        "ColorBlock": 166,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2001-12-12T15:29:31.1379777+01:00",
+        "Rank": 187,
+        "Type": "veritatis",
+        "ColorBlock": 835,
+        "IconHint": "dicta",
+        "Selected": true,
+        "LastChanged": "2018-06-09T03:51:34.5989925+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "quae",
         "Hidden": false,
-        "FullName": "Mrs. Doyle Hoeger",
+        "FullName": "Mrs. Electa Dejon Kihn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 343
+            "FieldLength": 738
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Mr. Danial Gerhold PhD",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "suscipit",
+    "Hidden": true,
+    "FullName": "Joelle Collins Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 812
+        "FieldType": "System.String",
+        "FieldLength": 19
       }
     }
   }

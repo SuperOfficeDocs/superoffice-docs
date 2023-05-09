@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 827,
-    "Name": "Leannon Group",
-    "ToolTip": "Sed fugiat reprehenderit.",
-    "Deleted": false,
-    "Rank": 916,
-    "Type": "nulla",
-    "ColorBlock": 740,
-    "IconHint": "aliquid",
-    "Selected": false,
-    "LastChanged": "2016-09-02T15:29:31.6254742+02:00",
+    "Id": 642,
+    "Name": "Yost, Krajcik and Miller",
+    "ToolTip": "Voluptate quo exercitationem.",
+    "Deleted": true,
+    "Rank": 329,
+    "Type": "est",
+    "ColorBlock": 814,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "1999-02-03T03:51:34.9738936+01:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Barton Inc and Sons",
-        "ToolTip": "Dolor provident aliquam.",
+        "Id": 820,
+        "Name": "Jones Group",
+        "ToolTip": "Ut tenetur excepturi et atque alias.",
         "Deleted": false,
-        "Rank": 802,
-        "Type": "consequatur",
-        "ColorBlock": 536,
-        "IconHint": "consequatur",
+        "Rank": 165,
+        "Type": "similique",
+        "ColorBlock": 200,
+        "IconHint": "quae",
         "Selected": false,
-        "LastChanged": "2007-10-26T15:29:31.6254742+02:00",
+        "LastChanged": "2005-10-01T03:51:34.9738936+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Willis Stefan Ebert V"
+        "ExtraInfo": "corporis",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Arturo Nitzsche"
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "dolores",
+    "ExtraInfo": "facere",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Mr. Shania Thalia Hermiston"
+    "FullName": "Lolita Blanda Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Howell-Senger",
-    "ToolTip": "Vitae corrupti autem occaecati.",
+    "Id": 676,
+    "Name": "Reynolds, Mann and Stanton",
+    "ToolTip": "Esse eligendi officiis officia ipsum atque.",
     "Deleted": false,
-    "Rank": 480,
-    "Type": "excepturi",
-    "ColorBlock": 279,
-    "IconHint": "sit",
+    "Rank": 410,
+    "Type": "et",
+    "ColorBlock": 478,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2005-07-29T15:29:31.6279816+02:00",
+    "LastChanged": "1996-10-02T03:51:34.9738936+02:00",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Koss-Collier",
-        "ToolTip": "Ut fugit blanditiis fugiat velit.",
+        "Id": 172,
+        "Name": "Schowalter LLC",
+        "ToolTip": "At et corporis.",
         "Deleted": false,
-        "Rank": 782,
-        "Type": "quod",
-        "ColorBlock": 779,
-        "IconHint": "cumque",
-        "Selected": true,
-        "LastChanged": "1998-04-09T15:29:31.6279816+02:00",
+        "Rank": 499,
+        "Type": "perferendis",
+        "ColorBlock": 59,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2015-02-18T03:51:34.9738936+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "commodi",
-        "Hidden": true,
-        "FullName": "Prof. Citlalli Trisha O'Connell",
+        "ExtraInfo": "sequi",
+        "StyleHint": "atque",
+        "Hidden": false,
+        "FullName": "Kale Wunsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 184
+            "FieldType": "System.Int32",
+            "FieldLength": 231
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "dicta",
+    "ExtraInfo": "non",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Kaylee Thiel",
+    "FullName": "Mrs. Burdette Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldType": "System.String",
+        "FieldLength": 462
       }
     }
   }

@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 24,
-  "Name": "Boyer, Thiel and Quitzon",
-  "Tooltip": "sapiente",
-  "SaveInDb": 939,
-  "Filename": "eveniet",
-  "DefaultOref": "voluptate",
+  "DocumentTemplateId": 540,
+  "Name": "Bergstrom-Ryan",
+  "Tooltip": "voluptas",
+  "SaveInDb": 839,
+  "Filename": "architecto",
+  "DefaultOref": "doloribus",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 121,
-  "IntentId": 405,
-  "IsDefaultPublished": false,
-  "Rank": 500,
-  "LoadTemplateFromPlugin": 828,
-  "MimeType": "laborum",
+  "AutoeventId": 116,
+  "IntentId": 376,
+  "IsDefaultPublished": true,
+  "Rank": 324,
+  "LoadTemplateFromPlugin": 771,
+  "MimeType": "praesentium",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 148,
+  "DocumentTypeKey": 339,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "geovany@gaylord.co.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "ralph.shanahan@runolfsson.info",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ethan@kulasoreilly.name",
+  "SenderEmailAddress": "carlotta.hyatt@homenickschuster.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 102
     }
   }
 }

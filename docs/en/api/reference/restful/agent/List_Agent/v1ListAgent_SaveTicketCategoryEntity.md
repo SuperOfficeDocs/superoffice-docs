@@ -96,33 +96,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 391,
-  "ParentId": 512,
-  "Name": "Gusikowski Group",
-  "Fullname": "sit",
-  "CategoryMaster": 46,
+  "TicketCategoryId": 760,
+  "ParentId": 418,
+  "Name": "Homenick, Crist and Adams",
+  "Fullname": "dolore",
+  "CategoryMaster": 130,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Purdy, Pagac and Koelpin",
+  "ExternalName": "Schroeder-Turcotte",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 90,
-  "ReplyTemplate": 490,
-  "NotificationEmail": "aubree.kilback@bradtkeromaguera.uk",
+  "AssignmentLag": 704,
+  "ReplyTemplate": 493,
+  "NotificationEmail": "jayson@glover.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 300,
+  "EffectiveReplyTemplateId": 384,
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "ducimus"
+    "ExtraFields1": "minus",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "quod"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "dolores"
   }
 }
 ```
@@ -134,36 +134,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 304,
-  "ParentId": 879,
-  "Name": "Lowe-Bartoletti",
-  "Fullname": "laudantium",
-  "CategoryMaster": 613,
+  "TicketCategoryId": 949,
+  "ParentId": 203,
+  "Name": "Bradtke LLC",
+  "Fullname": "ut",
+  "CategoryMaster": 552,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Spinka, Schiller and Ullrich",
+  "ExternalName": "Gerhold-Batz",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 493,
-  "ReplyTemplate": 66,
-  "NotificationEmail": "emelia_douglas@rolfson.biz",
+  "AssignmentLag": 956,
+  "ReplyTemplate": 934,
+  "NotificationEmail": "verlie.marvin@aufderhar.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 723,
+  "EffectiveReplyTemplateId": 162,
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "et"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "vero"
+    "CustomFields1": "odio",
+    "CustomFields2": "optio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 459
     }
   }
 }

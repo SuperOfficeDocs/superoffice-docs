@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 226,
-    "Name": "Smith-Wyman",
-    "Tooltip": "nesciunt",
+    "HeadingId": 277,
+    "Name": "Mohr, Runte and Hermiston",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 559,
-    "UdListDefinitionId": 492,
+    "Rank": 718,
+    "UdListDefinitionId": 209,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 842
+        "FieldType": "System.Int32",
+        "FieldLength": 874
       }
     }
   }

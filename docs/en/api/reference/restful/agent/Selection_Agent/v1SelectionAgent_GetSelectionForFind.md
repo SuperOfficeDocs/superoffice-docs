@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Sauer, Rodriguez and Lockman",
-  "TypicalSearchId": 298
+  "EntityName": "Brekke Inc and Sons",
+  "TypicalSearchId": 787
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Konopelski Inc and Sons",
-  "SelectionId": 491,
+  "ProviderName": "Christiansen Inc and Sons",
+  "SelectionId": 117,
   "CanSaveAsSelection": false,
-  "MainHeading": "iste",
-  "FilterScreenHeading": "omnis",
-  "SelectionEntityHeading": "qui",
+  "MainHeading": "quae",
+  "FilterScreenHeading": "ut",
+  "SelectionEntityHeading": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 93
     }
   }
 }

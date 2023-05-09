@@ -102,7 +102,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -112,29 +112,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 1001,
-  "TopicId": 361,
+  "ChatSessionId": 503,
+  "TopicId": 646,
   "User": null,
   "Person": null,
-  "CustomerAlias": "blanditiis",
-  "CustomerHost": "iste",
-  "CustomerName": "Kris, McGlynn and Wiza",
-  "CustomerEmail": "judd_hegmann@farrellrohan.biz",
-  "CustomerPhone": "814-057-6976 x93615",
+  "CustomerAlias": "aperiam",
+  "CustomerHost": "esse",
+  "CustomerName": "Ortiz Group",
+  "CustomerEmail": "florence@hintz.us",
+  "CustomerPhone": "211.113.9207 x584",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Russel, Monahan and Dietrich",
+  "CustomerCompanyName": "Gutmann Group",
   "Status": "Closed",
-  "FirstMessage": "deserunt",
-  "LastMessage": "dolores",
-  "WhenRequested": "1999-06-02T15:29:29.2947062+02:00",
-  "WhenStarted": "2014-07-07T15:29:29.2947062+02:00",
-  "WhenEnded": "2006-06-15T15:29:29.2947062+02:00",
-  "WhenIdle": "2018-12-25T15:29:29.2947062+01:00",
-  "WhenFetched": "2002-12-02T15:29:29.2947062+01:00",
-  "SessionKey": "eveniet",
-  "InitialQueuePos": 540,
-  "AlertLevel": 700,
-  "Rank": 948,
+  "FirstMessage": "ea",
+  "LastMessage": "repellat",
+  "WhenRequested": "1998-08-28T03:51:33.1304604+02:00",
+  "WhenStarted": "2013-02-26T03:51:33.1304604+01:00",
+  "WhenEnded": "2022-11-28T03:51:33.1304604+01:00",
+  "WhenIdle": "2002-09-25T03:51:33.1304604+02:00",
+  "WhenFetched": "2015-06-14T03:51:33.1304604+02:00",
+  "SessionKey": "autem",
+  "InitialQueuePos": 764,
+  "AlertLevel": 974,
+  "Rank": 407,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -142,13 +142,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 674,
+  "Rating": 574,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 201
     }
   },
   "_Links": {

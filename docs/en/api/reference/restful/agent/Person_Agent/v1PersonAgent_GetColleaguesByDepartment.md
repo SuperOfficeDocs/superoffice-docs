@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 100
+  "DepartmentId": 706
 }
 ```
 
@@ -129,52 +129,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "deserunt",
-    "PersonId": 103,
-    "Mrmrs": "consequatur",
-    "Firstname": "Gregoria",
-    "Lastname": "Maggio",
-    "MiddleName": "Mayer Group",
-    "Title": "velit",
-    "Description": "Universal disintermediate flexibility",
-    "Email": "mariana_bernhard@romaguerarippin.us",
-    "FullName": "Dale Wehner",
-    "DirectPhone": "(290)362-4144 x97235",
-    "FormalName": "Cummerata Group",
-    "CountryId": 310,
-    "ContactId": 691,
-    "ContactName": "Grady, Reichel and Nolan",
-    "Retired": 728,
-    "Rank": 348,
-    "ActiveInterests": 103,
+    "Position": "ut",
+    "PersonId": 337,
+    "Mrmrs": "vitae",
+    "Firstname": "Yasmine",
+    "Lastname": "Greenholt",
+    "MiddleName": "Quitzon-Legros",
+    "Title": "aspernatur",
+    "Description": "Optional exuding artificial intelligence",
+    "Email": "mohamed.eichmann@gleason.co.uk",
+    "FullName": "Myrtice Hermann",
+    "DirectPhone": "(687)304-4834",
+    "FormalName": "Barton-Hammes",
+    "CountryId": 256,
+    "ContactId": 264,
+    "ContactName": "Haag-Strosin",
+    "Retired": 564,
+    "Rank": 253,
+    "ActiveInterests": 82,
     "ContactDepartment": "",
-    "ContactCountryId": 515,
-    "ContactOrgNr": "731249",
-    "FaxPhone": "367.764.6038",
-    "MobilePhone": "(436)789-1087 x7009",
-    "ContactPhone": "1-816-466-3710 x4466",
-    "AssociateName": "Haley, Hand and Murray",
-    "AssociateId": 751,
+    "ContactCountryId": 418,
+    "ContactOrgNr": "1432970",
+    "FaxPhone": "155-912-4054",
+    "MobilePhone": "(432)602-9865",
+    "ContactPhone": "083.965.5485",
+    "AssociateName": "Schmeler-Dibbert",
+    "AssociateId": 60,
     "UsePersonAddress": false,
-    "ContactFax": "unde",
-    "Kanafname": "amet",
-    "Kanalname": "consequatur",
-    "Post1": "debitis",
-    "Post2": "eum",
-    "Post3": "expedita",
-    "EmailName": "braeden_moen@kutchhauck.biz",
-    "ContactFullName": "Glennie Weimann",
-    "ActiveErpLinks": 659,
-    "TicketPriorityId": 42,
-    "SupportLanguageId": 495,
-    "SupportAssociateId": 761,
+    "ContactFax": "illum",
+    "Kanafname": "ad",
+    "Kanalname": "temporibus",
+    "Post1": "dolorem",
+    "Post2": "nulla",
+    "Post3": "perferendis",
+    "EmailName": "arielle.hyatt@kuvalis.com",
+    "ContactFullName": "Nicklaus Grant",
+    "ActiveErpLinks": 632,
+    "TicketPriorityId": 357,
+    "SupportLanguageId": 37,
+    "SupportAssociateId": 100,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 181
+        "FieldLength": 157
       }
     }
   }

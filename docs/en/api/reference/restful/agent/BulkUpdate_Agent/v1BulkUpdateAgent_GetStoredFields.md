@@ -91,8 +91,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact",
-  "Context": "eum"
+  "Tablename": "project",
+  "Context": "magni"
 }
 ```
 
@@ -104,76 +104,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
-    "DefaultShowInGui": true,
+    "CanSupportMultiUse": false,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "suscipit",
-    "ValueType": "a",
-    "Mandatory": true,
-    "EncodedDisplayName": "Hahn Group",
-    "EncodedDisplayDescription": "Optional empowering moratorium",
-    "IconHint": "ex",
+    "Key": "nemo",
+    "ValueType": "maxime",
+    "Mandatory": false,
+    "EncodedDisplayName": "Fisher, Weissnat and Schmidt",
+    "EncodedDisplayDescription": "Horizontal executive capacity",
+    "IconHint": "quo",
     "ControlInfos": [
       {
-        "Type": "quis",
-        "Label": "qui",
-        "Dimension": 371,
-        "ListProviderName": "Bashirian LLC",
-        "ListProviderExtraInfo": "porro",
-        "ListProviderPrimaryKeyName": "Zieme-Kerluke",
-        "ListLeadText": "aut",
+        "Type": "ea",
+        "Label": "voluptatibus",
+        "Dimension": 710,
+        "ListProviderName": "Green, Hane and Parisian",
+        "ListProviderExtraInfo": "nihil",
+        "ListProviderPrimaryKeyName": "Swaniawski, Yundt and Hilll",
+        "ListLeadText": "velit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 408
+            "FieldType": "System.Int32",
+            "FieldLength": 810
           }
         }
       }
     ],
-    "EncodedDataCaption": "rem",
-    "EncodedDataCaptionDescription": "Automated dynamic Graphic Interface",
-    "CurrentOperationType": "quae",
+    "EncodedDataCaption": "dolorum",
+    "EncodedDataCaptionDescription": "Exclusive client-driven conglomeration",
+    "CurrentOperationType": "dolores",
     "Values": [
-      "architecto",
-      "vel"
+      "ut",
+      "qui"
     ],
     "DisplayValues": [
-      "reprehenderit",
-      "sapiente"
+      "rerum",
+      "quasi"
     ],
     "OperationInfos": [
       {
-        "Key": "laboriosam",
-        "EncodedDisplayName": "Ullrich Inc and Sons",
+        "Key": "consequatur",
+        "EncodedDisplayName": "Quigley, Bashirian and Hauck",
         "EncodedLeadTexts": [
-          "iste",
-          "similique"
+          "facilis",
+          "quisquam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 395
+            "FieldLength": 301
           }
         }
       },
       {
-        "Key": "laboriosam",
-        "EncodedDisplayName": "Ullrich Inc and Sons",
+        "Key": "consequatur",
+        "EncodedDisplayName": "Quigley, Bashirian and Hauck",
         "EncodedLeadTexts": [
-          "iste",
-          "similique"
+          "facilis",
+          "quisquam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 395
+            "FieldLength": 301
           }
         }
       }

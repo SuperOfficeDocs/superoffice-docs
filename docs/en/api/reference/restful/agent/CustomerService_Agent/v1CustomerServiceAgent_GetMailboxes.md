@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 966,
-    "Address": "magnam",
+    "MailInFilterId": 767,
+    "Address": "eos",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Wehner, Conn and Marks",
+    "PriorityName": "Hintz-Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldType": "System.String",
+        "FieldLength": 795
       }
     }
   },
   {
-    "MailInFilterId": 966,
-    "Address": "magnam",
+    "MailInFilterId": 767,
+    "Address": "eos",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Wehner, Conn and Marks",
+    "PriorityName": "Hintz-Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldType": "System.String",
+        "FieldLength": 795
       }
     }
   }

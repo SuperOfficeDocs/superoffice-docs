@@ -120,13 +120,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    218,
-    543
+    509,
+    684
   ]
 }
 ```
@@ -139,53 +139,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 214,
-    "StartDate": "2002-01-29T15:29:20.402831+01:00",
-    "EndDate": "2019-03-30T15:29:20.402831+01:00",
+    "AppointmentId": 295,
+    "StartDate": "2000-02-22T03:51:26.1313562+01:00",
+    "EndDate": "2018-07-19T03:51:26.1313562+02:00",
     "Type": "BookingForChecklist",
-    "Task": "molestiae",
-    "AssociateFullName": "Miss Benton Conn",
-    "ContactName": "Carter, Waters and Farrell",
-    "Description": "Mandatory well-modulated adapter",
-    "PersonFullName": "Jordi Adela Morissette III",
-    "PersonId": 100,
-    "ContactId": 845,
-    "ProjectId": 577,
-    "ProjectName": "Ruecker, Leuschke and Wunsch",
+    "Task": "pariatur",
+    "AssociateFullName": "Aniyah Schmeler",
+    "ContactName": "Rosenbaum-Upton",
+    "Description": "User-centric needs-based core",
+    "PersonFullName": "Prof. Shanon Turner",
+    "PersonId": 259,
+    "ContactId": 42,
+    "ProjectId": 698,
+    "ProjectName": "Rippin, Thompson and Sanford",
     "IsPublished": false,
-    "AssociateId": 242,
-    "ColorIndex": 31,
+    "AssociateId": 522,
+    "ColorIndex": 302,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 589,
-    "PriorityName": "Gislason-Schuppe",
+    "PriorityId": 10,
+    "PriorityName": "Reynolds, Hilpert and Spencer",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2014-11-02T15:29:20.4033282+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2000-06-05T03:51:26.1313562+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-10-13T15:29:20.4033282+02:00",
-    "RecurringEndDate": "2011-02-24T15:29:20.4033282+01:00",
-    "MotherId": 635,
-    "AssignedBy": 288,
-    "AssignedByFullName": "Felipa Lubowitz",
+    "RecurringStartDate": "2018-03-02T03:51:26.1313562+01:00",
+    "RecurringEndDate": "2020-03-14T03:51:26.1313562+01:00",
+    "MotherId": 857,
+    "AssignedBy": 413,
+    "AssignedByFullName": "Dr. Ava Buddy Predovic",
     "RejectReason": "",
-    "Location": "non",
-    "AlarmLeadTime": "eum",
-    "SaleId": 848,
-    "SaleName": "Rosenbaum, Willms and O'Kon",
-    "AssociateName": "Lemke, Ankunding and Friesen",
-    "CreatedDate": "2005-09-08T15:29:20.4038308+02:00",
-    "CreatedBy": "nam",
-    "CreatedByFullName": "Fernando King",
-    "CreatedByAssociateId": 708,
+    "Location": "fugit",
+    "AlarmLeadTime": "harum",
+    "SaleId": 577,
+    "SaleName": "Gerlach, McDermott and Stark",
+    "AssociateName": "Rutherford, Nikolaus and Schamberger",
+    "CreatedDate": "2009-02-08T03:51:26.1313562+01:00",
+    "CreatedBy": "sequi",
+    "CreatedByFullName": "Ada Jacobs DDS",
+    "CreatedByAssociateId": 185,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 345
+        "FieldLength": 744
       }
     }
   }

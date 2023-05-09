@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -106,70 +106,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Quality-focused local hub",
-  "Postit": "earum",
+  "Description": "Multi-lateral heuristic info-mediaries",
+  "Postit": "reiciendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 22,
-  "IncludePerson": 971,
-  "MemberCount": 751,
-  "Name": "Gusikowski-Buckridge",
-  "PostitTextId": 573,
-  "CreatedDate": "2009-06-26T15:29:22.7602982+02:00",
-  "SelectionId": 1002,
-  "SoundEx": "ut",
-  "Source": 928,
-  "TextId": 661,
-  "UpdatedDate": "2011-05-18T15:29:22.7602982+02:00",
-  "UpdatedCount": 739,
-  "Visibility": 880,
+  "GroupIdx": 751,
+  "IncludePerson": 11,
+  "MemberCount": 867,
+  "Name": "Witting Inc and Sons",
+  "PostitTextId": 994,
+  "CreatedDate": "2008-10-09T03:51:28.14651+02:00",
+  "SelectionId": 606,
+  "SoundEx": "quas",
+  "Source": 38,
+  "TextId": 38,
+  "UpdatedDate": "2003-10-21T03:51:28.14651+02:00",
+  "UpdatedCount": 236,
+  "Visibility": 859,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 332,
-  "TargetTableName": "Ratke-Pollich",
-  "Completed": false,
-  "LeftSelectionId": 429,
-  "RightSelectionId": 177,
+  "TargetTableNumber": 46,
+  "TargetTableName": "Herman, O'Kon and Hane",
+  "Completed": true,
+  "LeftSelectionId": 165,
+  "RightSelectionId": 245,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Feil-Bradtke",
-  "ShadowProviderName": "Boyle-Dietrich",
-  "ChartKey": "laborum",
-  "LastLoaded": "2007-03-25T15:29:22.7607971+02:00",
-  "LastLoadedBy": 17,
+  "MainProviderName": "Wintheiser, Harvey and Paucek",
+  "ShadowProviderName": "Hermann Inc and Sons",
+  "ChartKey": "sint",
+  "LastLoaded": "2006-03-17T03:51:28.14651+01:00",
+  "LastLoadedBy": 625,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-12-17T15:29:22.7617974+01:00",
-  "LastMembershipChangeBy": 566,
+  "LastMembershipChange": "1997-03-23T03:51:28.14651+01:00",
+  "LastMembershipChangeBy": 111,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsa",
-  "MemberTabHeading": "soluta",
-  "MailingsProviderName": "Funk, Lubowitz and Schultz",
-  "DashboardTileDefinitionId": 911,
+  "MainHeading": "vel",
+  "MemberTabHeading": "sint",
+  "MailingsProviderName": "Lind Inc and Sons",
+  "DashboardTileDefinitionId": 607,
   "VisibleFor": [
     {
-      "VisibleId": 443,
+      "VisibleId": 915,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 417
         }
       }
     },
     {
-      "VisibleId": 443,
+      "VisibleId": 915,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 417
         }
       }
     }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldLength": 223
     }
   }
 }

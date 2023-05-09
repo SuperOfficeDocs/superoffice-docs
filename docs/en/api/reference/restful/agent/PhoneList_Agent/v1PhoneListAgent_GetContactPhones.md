@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 350
+  "ContactId": 469
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "667.662.3045",
-    "PersonCellPhone": "(231)219-7056",
-    "PersonPrivatePhone": "(034)951-7041 x848",
-    "PersonFaxNumber": "1476447",
-    "PersonPagerNumber": "1471202",
-    "PersonEmail": "timmy@ratkebogisich.us",
-    "Id": 451,
-    "Name": "Glover-Weimann",
-    "Tooltip": "tempora",
-    "UniqueId": "aliquam",
+    "PersonDirectPhone": "1-785-116-1034",
+    "PersonCellPhone": "116-295-5646 x402",
+    "PersonPrivatePhone": "(854)323-5711",
+    "PersonFaxNumber": "1767785",
+    "PersonPagerNumber": "920730",
+    "PersonEmail": "arianna@ohara.ca",
+    "Id": 431,
+    "Name": "Spinka, Russel and Gottlieb",
+    "Tooltip": "harum",
+    "UniqueId": "corrupti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 274
+        "FieldType": "System.Int32",
+        "FieldLength": 181
       }
     }
   }

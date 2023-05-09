@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "Wiegand, Klocko and Bashirian",
-    "Tooltip": "sit",
+    "Id": 916,
+    "Name": "Thompson Group",
+    "Tooltip": "eum",
     "Deleted": false,
-    "UdListDefinitionId": 937,
-    "Rank": 959,
+    "UdListDefinitionId": 333,
+    "Rank": 968,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 528
+        "FieldType": "System.Int32",
+        "FieldLength": 129
       }
     }
   }

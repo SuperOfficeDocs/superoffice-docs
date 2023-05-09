@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Gaylord-Dooley",
-    "ToolTip": "Magni ut non quo qui aliquid et.",
+    "Id": 743,
+    "Name": "Towne-Kunde",
+    "ToolTip": "Rerum nemo autem sed perferendis qui.",
     "Deleted": false,
-    "Rank": 776,
-    "Type": "nihil",
-    "ColorBlock": 47,
-    "IconHint": "veniam",
-    "Selected": false,
-    "LastChanged": "2009-06-27T15:29:31.3614745+02:00",
+    "Rank": 259,
+    "Type": "maiores",
+    "ColorBlock": 686,
+    "IconHint": "vero",
+    "Selected": true,
+    "LastChanged": "2013-11-12T03:51:34.7708309+01:00",
     "ChildItems": [
       {
-        "Id": 713,
-        "Name": "Fritsch Group",
-        "ToolTip": "In est fugiat.",
+        "Id": 150,
+        "Name": "Okuneva Group",
+        "ToolTip": "Eum maiores rerum aut unde incidunt nostrum incidunt.",
         "Deleted": false,
-        "Rank": 25,
-        "Type": "dolorem",
-        "ColorBlock": 554,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2011-05-02T15:29:31.3614745+02:00",
+        "Rank": 492,
+        "Type": "ad",
+        "ColorBlock": 374,
+        "IconHint": "nam",
+        "Selected": true,
+        "LastChanged": "2017-08-17T03:51:34.7708309+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "nulla",
+        "ExtraInfo": "impedit",
+        "StyleHint": "accusantium",
         "Hidden": true,
-        "FullName": "Martin Kutch",
+        "FullName": "Krystal Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 247
+            "FieldLength": 941
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "a",
-    "Hidden": true,
-    "FullName": "Chris Brekke",
+    "ExtraInfo": "eos",
+    "StyleHint": "aperiam",
+    "Hidden": false,
+    "FullName": "Seth Schowalter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 509
+        "FieldType": "System.Int32",
+        "FieldLength": 196
       }
     }
   }

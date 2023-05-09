@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
     {
       "CanSupportMultiUse": false,
       "DefaultShowInGui": true,
-      "DefaultShowInSelector": true,
+      "DefaultShowInSelector": false,
       "IsActive": true,
-      "Key": "porro",
-      "ValueType": "et",
+      "Key": "voluptatem",
+      "ValueType": "labore",
       "Mandatory": false,
-      "EncodedDisplayName": "Abbott LLC",
-      "EncodedDisplayDescription": "Horizontal background focus group",
-      "IconHint": "aliquid",
+      "EncodedDisplayName": "Doyle, Bernhard and Cremin",
+      "EncodedDisplayDescription": "Virtual secondary toolset",
+      "IconHint": "distinctio",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "qui",
-      "EncodedDataCaptionDescription": "Vision-oriented multi-tasking website",
-      "CurrentOperationType": "iure",
+      "EncodedDataCaption": "rerum",
+      "EncodedDataCaptionDescription": "Realigned next generation capability",
+      "CurrentOperationType": "id",
       "Values": [
         "et",
-        "est"
+        "aliquam"
       ],
       "DisplayValues": [
-        "accusantium",
-        "cumque"
+        "est",
+        "deleniti"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Russel, Smith and Zemlak",
-  "Context": "occaecati",
-  "SelectionId": 722,
+  "TableName": "Boyle Group",
+  "Context": "et",
+  "SelectionId": 218,
   "IsShadow": false
 }
 ```
@@ -121,5 +121,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-50
+745
 ```

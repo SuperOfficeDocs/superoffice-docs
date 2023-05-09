@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,30 +91,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 709,
-  "Name": "Parker-Koepp",
-  "CurrencyId": 725,
-  "EnglishName": "Klein, Wilderman and Frami",
+  "CountryId": 878,
+  "Name": "Hegmann Group",
+  "CurrencyId": 880,
+  "EnglishName": "Purdy, Wunsch and Fadel",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Ergonomic bottom-line strategy",
-  "OrgNrText": "1409461",
-  "InterAreaPrefix": "harum",
-  "DialInPrefix": "et",
-  "ZipPrefix": "dicta",
-  "DomainName": "Lubowitz, Reinger and Kshlerin",
-  "AddressLayoutId": 484,
-  "DomesticAddressLayoutId": 381,
-  "ForeignAddressLayoutId": 333,
-  "Rank": 581,
-  "Tooltip": "architecto",
-  "Deleted": false,
+  "ImageDescription": "Advanced logistical firmware",
+  "OrgNrText": "843074",
+  "InterAreaPrefix": "iure",
+  "DialInPrefix": "qui",
+  "ZipPrefix": "tenetur",
+  "DomainName": "Bosco Group",
+  "AddressLayoutId": 912,
+  "DomesticAddressLayoutId": 556,
+  "ForeignAddressLayoutId": 639,
+  "Rank": 163,
+  "Tooltip": "quae",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 834
+      "FieldType": "System.String",
+      "FieldLength": 822
     }
   }
 }

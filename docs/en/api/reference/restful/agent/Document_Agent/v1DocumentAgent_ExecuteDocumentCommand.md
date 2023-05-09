@@ -83,16 +83,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 161,
-  "VersionId": "enim",
+  "DocumentId": 945,
+  "VersionId": "qui",
   "AllowedReturnTypes": [
-    "veritatis",
-    "cum"
+    "nisi",
+    "at"
   ],
-  "Command": "voluptate",
+  "Command": "cupiditate",
   "AdditionalData": [
-    "alias",
-    "sunt"
+    "veritatis",
+    "modi"
   ]
 }
 ```
@@ -104,11 +104,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "minima",
-  "VersionId": "aliquid",
+  "ExternalReference": "recusandae",
+  "VersionId": "ad",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "ipsum",
-  "AdditionalInfo": "at"
+  "Value": "soluta",
+  "AdditionalInfo": "aut"
 }
 ```

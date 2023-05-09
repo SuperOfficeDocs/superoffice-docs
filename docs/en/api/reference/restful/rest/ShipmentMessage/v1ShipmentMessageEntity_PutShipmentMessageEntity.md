@@ -122,27 +122,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 133,
-  "PlainMessage": "quasi",
-  "HtmlMessage": "nobis",
-  "SmsMessage": "officiis",
-  "Description": "Organized dedicated system engine",
-  "Subject": "dolorem",
-  "FolderId": 629,
-  "HeaderField": "expedita",
-  "Design": "quaerat",
+  "ShipmentMessageId": 266,
+  "PlainMessage": "voluptates",
+  "HtmlMessage": "eaque",
+  "SmsMessage": "fugit",
+  "Description": "Ergonomic client-driven ability",
+  "Subject": "quisquam",
+  "FolderId": 237,
+  "HeaderField": "tempora",
+  "Design": "quia",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Integrated logistical process improvement",
-  "AccessKey": "esse",
-  "DocumentMessage": 561,
-  "Registered": "2010-12-03T15:29:30.6244873+01:00",
-  "RegisteredAssociateId": 139,
-  "Updated": "1997-09-24T15:29:30.6244873+02:00",
-  "UpdatedAssociateId": 732,
-  "UpdatedCount": 829
+  "LongDescription": "Digitized bottom-line middleware",
+  "AccessKey": "eveniet",
+  "DocumentMessage": 687,
+  "Registered": "2017-04-02T03:51:34.0208828+02:00",
+  "RegisteredAssociateId": 845,
+  "Updated": "2021-12-30T03:51:34.0208828+01:00",
+  "UpdatedAssociateId": 196,
+  "UpdatedCount": 651
 }
 ```
 
@@ -153,38 +153,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 320,
-  "PlainMessage": "saepe",
-  "HtmlMessage": "ullam",
-  "SmsMessage": "sequi",
-  "Description": "De-engineered zero defect workforce",
-  "Subject": "ad",
-  "FolderId": 490,
-  "HeaderField": "omnis",
-  "Design": "dignissimos",
+  "ShipmentMessageId": 57,
+  "PlainMessage": "omnis",
+  "HtmlMessage": "itaque",
+  "SmsMessage": "rem",
+  "Description": "Digitized client-driven synergy",
+  "Subject": "quibusdam",
+  "FolderId": 788,
+  "HeaderField": "aut",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Assimilated bi-directional capability",
-  "AccessKey": "eligendi",
-  "DocumentMessage": 430,
-  "Registered": "2019-11-08T15:29:30.6249872+01:00",
-  "RegisteredAssociateId": 221,
-  "Updated": "2012-10-13T15:29:30.6249872+02:00",
-  "UpdatedAssociateId": 925,
-  "UpdatedCount": 43,
+  "LongDescription": "Pre-emptive secondary parallelism",
+  "AccessKey": "odio",
+  "DocumentMessage": 907,
+  "Registered": "2002-06-29T03:51:34.0208828+02:00",
+  "RegisteredAssociateId": 332,
+  "Updated": "2001-09-09T03:51:34.0208828+02:00",
+  "UpdatedAssociateId": 7,
+  "UpdatedCount": 340,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldType": "System.String",
+      "FieldLength": 532
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

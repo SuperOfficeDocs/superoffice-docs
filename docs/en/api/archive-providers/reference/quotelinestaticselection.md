@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteLineStaticSelection"
 so.generated: true
-so.date: 03.31.2023
+so.date: 05.09.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -723,7 +723,7 @@ Static archive Provider for the Selection quoteline archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineStaticSelection?$select=name,alternative/version/quote/sale/person/birthDay,alternative/version/quote/sale/person/supportAssociate,alternative/version/quote/sale/person/hasEmarketingConsent,alternative/version/quote/sale/contact/url/URLAddress
+GET /api/v1/archive/QuoteLineStaticSelection?$select=alternative/version/quote/sale/heading,alternative/version/quote/sale/person/restrictionAddress/line3,alternative/version/quote/sale/person/personExtra/x_person_integer,alternative/version/quote/sale/person/correspondingAssociate/credentialDisplayValue,alternative/version/quote/sale/associate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

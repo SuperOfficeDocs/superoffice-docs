@@ -25,7 +25,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=499
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=80
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -106,43 +106,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 271,
-  "Name": "Corkery, Welch and Lebsack",
-  "Description": "Automated leading edge paradigm",
-  "WelcomeMessage": "et",
+  "ChatTopicId": 762,
+  "Name": "Heaney, Walsh and Wintheiser",
+  "Description": "Automated mission-critical algorithm",
+  "WelcomeMessage": "qui",
   "Language": null,
-  "LastAccept": "2011-11-01T15:29:20.999786+01:00",
-  "SecondsPrAccept": 342,
-  "AlertRecipient": "sunt",
+  "LastAccept": "2000-01-30T03:51:26.7562093+01:00",
+  "SecondsPrAccept": 346,
+  "AlertRecipient": "expedita",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "ab",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "aperiam",
-  "WarnNewChatMinutes": 775,
-  "WarnManagerNewChatMinutes": 10,
+  "BadgeHeader": "molestiae",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "iusto",
+  "WarnNewChatMinutes": 554,
+  "WarnManagerNewChatMinutes": 844,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 537,
-  "WarnManagerChatMessageMinutes": 783,
+  "WarnChatMessageMinutes": 692,
+  "WarnManagerChatMessageMinutes": 765,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 308,
-  "OfflineFormQueueLength": 197,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "odio",
+  "OfflineFormTimeLimit": 954,
+  "OfflineFormQueueLength": 399,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldType": "System.String",
+      "FieldLength": 563
     }
   }
 }

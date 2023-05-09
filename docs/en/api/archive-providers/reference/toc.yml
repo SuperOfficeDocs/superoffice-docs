@@ -223,6 +223,12 @@ items:
   href: eventhandler.md
 - name: ExistingCategoryMembers
   href: existingcategorymembers.md
+- name: ExternalDocumentFolder
+  href: externaldocumentfolder.md
+- name: ExternalDocumentItems
+  href: externaldocumentitems.md
+- name: ExternalDocuments
+  href: externaldocuments.md
 - name: ExplicitInvitation
   href: explicitinvitation.md
 - name: ExternalPersons

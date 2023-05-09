@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 32,
-    "Name": "Harvey, Kuhlman and Rutherford",
-    "Tooltip": "dolorem",
-    "Rank": 624,
-    "Key": "quis",
+    "LegalBaseId": 191,
+    "Name": "Hauck-Marquardt",
+    "Tooltip": "nam",
+    "Rank": 115,
+    "Key": "aperiam",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   }

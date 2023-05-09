@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Walsh-Greenfelder",
-    "Tooltip": "quo",
+    "Id": 734,
+    "Name": "King LLC",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "UdListDefinitionId": 719,
-    "Rank": 847
+    "UdListDefinitionId": 447,
+    "Rank": 873
   },
   {
-    "Id": 809,
-    "Name": "Walsh-Greenfelder",
-    "Tooltip": "quo",
+    "Id": 734,
+    "Name": "King LLC",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "UdListDefinitionId": 719,
-    "Rank": 847
+    "UdListDefinitionId": 447,
+    "Rank": 873
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 232,
-    "Name": "Herzog, Marquardt and Gusikowski",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 182,
-    "Rank": 235,
+    "Id": 59,
+    "Name": "Jones Group",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 1001,
+    "Rank": 982,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 825
       }
     }
   }

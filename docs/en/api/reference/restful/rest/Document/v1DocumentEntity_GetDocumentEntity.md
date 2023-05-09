@@ -32,7 +32,7 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=True
+GET /api/v1/Document/{id}?fk=False
 ```
 
 
@@ -108,7 +108,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,91 +116,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 06 Jan 2015 15:29:29 G1T
+Last-Modified: Fri, 26 Mar 2021 03:51:33 G3T
 
 {
-  "DocumentId": 455,
+  "DocumentId": 955,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quo",
-  "Header": "est",
-  "Name": "Reichel, Walker and Beer",
-  "OurRef": "nulla",
-  "YourRef": "facere",
-  "CreatedDate": "2010-07-17T15:29:29.6707019+02:00",
-  "UpdatedDate": "2015-01-06T15:29:29.6707019+01:00",
-  "Description": "Networked disintermediate monitoring",
+  "Attention": "ipsum",
+  "Header": "voluptas",
+  "Name": "Smith, Rolfson and Volkman",
+  "OurRef": "placeat",
+  "YourRef": "voluptatem",
+  "CreatedDate": "2006-02-15T03:51:33.5991057+01:00",
+  "UpdatedDate": "2021-03-26T03:51:33.5991057+01:00",
+  "Description": "Monitored static flexibility",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-08-27T15:29:29.6731998+02:00",
-  "ExternalRef": "reprehenderit",
+  "Date": "2023-02-20T03:51:33.5991057+01:00",
+  "ExternalRef": "ducimus",
   "Completed": "Completed",
-  "ActiveLinks": 79,
+  "ActiveLinks": 363,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Erdman LLC",
-      "Id": 686,
-      "Description": "User-centric encompassing local area network",
-      "ExtraInfo": "ut",
-      "LinkId": 315,
+      "EntityName": "Kshlerin, Reilly and McGlynn",
+      "Id": 721,
+      "Description": "Public-key leading edge projection",
+      "ExtraInfo": "accusantium",
+      "LinkId": 841,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 406
+          "FieldLength": 120
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 373,
-  "Snum": 45,
+  "SuggestedDocumentId": 852,
+  "Snum": 727,
   "UserDefinedFields": {
-    "SuperOffice:1": "596681140",
-    "SuperOffice:2": "1854488141"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "199753556"
   },
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "aperiam",
-    "CustomFields2": "autem"
+    "CustomFields1": "quos",
+    "CustomFields2": "eligendi"
   },
-  "PublishEventDate": "2020-01-07T15:29:29.6742+01:00",
-  "PublishTo": "1997-05-28T15:29:29.6742+02:00",
-  "PublishFrom": "2017-12-12T15:29:29.6742+01:00",
+  "PublishEventDate": "2017-08-23T03:51:33.5991057+02:00",
+  "PublishTo": "2006-10-13T03:51:33.5991057+02:00",
+  "PublishFrom": "1997-03-19T03:51:33.5991057+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 212,
+      "VisibleId": 441,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldLength": 896
         }
       }
     },
     {
-      "VisibleId": 212,
+      "VisibleId": 441,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldLength": 896
         }
       }
     }
@@ -209,8 +209,8 @@ Last-Modified: Tue, 06 Jan 2015 15:29:29 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldType": "System.String",
+      "FieldLength": 429
     }
   },
   "_Links": {

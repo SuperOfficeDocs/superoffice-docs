@@ -68,8 +68,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "reiciendis",
-  "Tags": "repellat"
+  "DeviceIdentifier": "minima",
+  "Tags": "velit"
 }
 ```
 

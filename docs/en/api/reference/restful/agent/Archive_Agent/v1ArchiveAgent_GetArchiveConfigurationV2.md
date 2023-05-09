@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Lehner LLC",
-  "ProviderName": "Leuschke Group",
-  "Context": "incidunt",
-  "OwnerKeys": "aliquam"
+  "GuiName": "Ritchie-Murray",
+  "ProviderName": "Boyle-Wintheiser",
+  "Context": "nam",
+  "OwnerKeys": "consequatur"
 }
 ```
 
@@ -100,68 +100,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Harber-Will",
-      "DisplayTooltip": "sint",
-      "DisplayType": "temporibus",
+      "DisplayName": "Ziemann-Beer",
+      "DisplayTooltip": "quidem",
+      "DisplayType": "odio",
       "CanOrderBy": false,
-      "Name": "Leuschke, Casper and Leffler",
-      "CanRestrictBy": false,
-      "RestrictionType": "vitae",
-      "RestrictionListName": "Toy-Koch",
+      "Name": "Larkin, Renner and Fisher",
+      "CanRestrictBy": true,
+      "RestrictionType": "sunt",
+      "RestrictionListName": "Hyatt Group",
       "IsVisible": false,
-      "ExtraInfo": "beatae",
-      "Width": "sit",
-      "IconHint": "tenetur",
-      "HeadingIconHint": "pariatur"
+      "ExtraInfo": "laudantium",
+      "Width": "placeat",
+      "IconHint": "excepturi",
+      "HeadingIconHint": "consequatur"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 82,
-      "Name": "Hermiston Group",
-      "ToolTip": "Quis praesentium atque voluptatem ab reiciendis voluptatem vitae.",
-      "Deleted": true,
-      "Rank": 1000,
-      "Type": "quaerat",
-      "ColorBlock": 447,
-      "IconHint": "tenetur",
+      "Id": 262,
+      "Name": "Swaniawski LLC",
+      "ToolTip": "Vero dolores amet saepe et odio odio libero.",
+      "Deleted": false,
+      "Rank": 250,
+      "Type": "est",
+      "ColorBlock": 529,
+      "IconHint": "voluptatibus",
       "Selected": false,
-      "LastChanged": "2019-05-29T15:29:20.7687904+02:00",
+      "LastChanged": "2011-11-11T03:51:26.568754+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolor",
-      "StyleHint": "cum",
+      "ExtraInfo": "dolores",
+      "StyleHint": "illum",
       "Hidden": false,
-      "FullName": "Serenity Becker",
+      "FullName": "Hank Stamm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 62
+          "FieldType": "System.String",
+          "FieldLength": 525
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Wilkinson-Bruen",
+      "Name": "Streich-Thompson",
       "Direction": "ASC"
     },
     {
-      "Name": "Wilkinson-Bruen",
+      "Name": "Streich-Thompson",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "provident",
+  "OwnerKeys": "asperiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 694
     }
   }
 }

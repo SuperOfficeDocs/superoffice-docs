@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 521,
-  "Name": "Littel Inc and Sons",
+  "ScreenChooserId": 676,
+  "Name": "Breitenberg-Feil",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "rerum",
-  "Source": "sit",
-  "Registered": "1999-09-28T15:29:21.2497834+02:00",
-  "RegisteredAssociateId": 23,
-  "Updated": "2015-01-28T15:29:21.2497834+01:00",
-  "UpdatedAssociateId": 796
+  "Enabled": false,
+  "UniqueIdentifier": "sit",
+  "Source": "eos",
+  "Registered": "2019-01-26T03:51:26.9436626+01:00",
+  "RegisteredAssociateId": 921,
+  "Updated": "2014-07-23T03:51:26.9436626+02:00",
+  "UpdatedAssociateId": 49
 }
 ```
 
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 650,
-  "Name": "Fritsch Group",
+  "ScreenChooserId": 243,
+  "Name": "Waelchi, Bruen and Kuvalis",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "eum",
-  "Source": "eum",
-  "Registered": "2009-12-25T15:29:21.2507836+01:00",
-  "RegisteredAssociateId": 770,
-  "Updated": "1996-01-14T15:29:21.2507836+01:00",
-  "UpdatedAssociateId": 765,
+  "Enabled": false,
+  "UniqueIdentifier": "voluptate",
+  "Source": "pariatur",
+  "Registered": "2011-09-15T03:51:26.9436626+02:00",
+  "RegisteredAssociateId": 944,
+  "Updated": "2015-05-09T03:51:26.9436626+02:00",
+  "UpdatedAssociateId": 362,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 180
     }
   }
 }

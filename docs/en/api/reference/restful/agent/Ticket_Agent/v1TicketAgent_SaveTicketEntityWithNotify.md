@@ -113,8 +113,9 @@ OK
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
-| Sale | Sale | The sale that this ticket connected to  <para>Use MDO List name "sale" to get list items.</para> |
-| Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
+| Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
+| Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
+| FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -126,7 +127,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -142,21 +143,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 442,
-  "Title": "voluptatem",
-  "CreatedAt": "2002-10-10T15:29:23.1422899+02:00",
-  "LastChanged": "1998-04-28T15:29:23.1422899+02:00",
-  "ReadByOwner": "2014-11-07T15:29:23.1422899+01:00",
-  "ReadByCustomer": "2013-08-17T15:29:23.1422899+02:00",
-  "FirstReadByOwner": "1998-01-16T15:29:23.1422899+01:00",
-  "FirstReadByUser": "2018-07-03T15:29:23.1422899+02:00",
-  "Activate": "2020-10-11T15:29:23.1422899+02:00",
-  "ClosedAt": "2010-05-18T15:29:23.1422899+02:00",
-  "RepliedAt": "2017-05-31T15:29:23.1422899+02:00",
-  "AlertTimeout": "2002-07-18T15:29:23.1422899+02:00",
-  "Deadline": "2001-04-20T15:29:23.1422899+02:00",
+  "TicketId": 848,
+  "Title": "qui",
+  "CreatedAt": "1998-01-22T03:51:28.3339538+01:00",
+  "LastChanged": "2002-03-18T03:51:28.3339538+01:00",
+  "ReadByOwner": "2000-01-23T03:51:28.3339538+01:00",
+  "ReadByCustomer": "1999-07-01T03:51:28.3339538+02:00",
+  "FirstReadByOwner": "2020-02-19T03:51:28.3339538+01:00",
+  "FirstReadByUser": "2008-12-06T03:51:28.3339538+01:00",
+  "Activate": "2016-06-16T03:51:28.3339538+02:00",
+  "ClosedAt": "2001-05-15T03:51:28.3339538+02:00",
+  "RepliedAt": "2018-10-08T03:51:28.3339538+02:00",
+  "AlertTimeout": "2012-08-02T03:51:28.3339538+02:00",
+  "Deadline": "2005-05-18T03:51:28.3339538+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "consequuntur",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -167,158 +168,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "numquam",
-      "PersonId": 624,
-      "Mrmrs": "et",
-      "Firstname": "Sylvester",
-      "Lastname": "Gibson",
-      "MiddleName": "Rath Inc and Sons",
-      "Title": "dolor",
-      "Description": "Reduced bi-directional help-desk",
-      "Email": "julio@grantcronin.uk",
-      "FullName": "Taurean Fay",
-      "DirectPhone": "706-517-4934",
-      "FormalName": "Olson LLC",
-      "CountryId": 786,
-      "ContactId": 614,
-      "ContactName": "Schimmel-McGlynn",
-      "Retired": 795,
-      "Rank": 45,
-      "ActiveInterests": 758,
+      "Position": "eligendi",
+      "PersonId": 484,
+      "Mrmrs": "ut",
+      "Firstname": "Brandyn",
+      "Lastname": "Abbott",
+      "MiddleName": "Spencer Inc and Sons",
+      "Title": "rerum",
+      "Description": "Up-sized solution-oriented conglomeration",
+      "Email": "marlene_stamm@cummerata.us",
+      "FullName": "Ahmed Jessy Becker MD",
+      "DirectPhone": "861.454.2544",
+      "FormalName": "Stark Inc and Sons",
+      "CountryId": 766,
+      "ContactId": 123,
+      "ContactName": "Will, Davis and Kreiger",
+      "Retired": 414,
+      "Rank": 548,
+      "ActiveInterests": 482,
       "ContactDepartment": "",
-      "ContactCountryId": 182,
-      "ContactOrgNr": "816125",
-      "FaxPhone": "675.066.6121",
-      "MobilePhone": "(434)452-1484",
-      "ContactPhone": "803.548.3966 x491",
-      "AssociateName": "Nienow-Mills",
-      "AssociateId": 136,
+      "ContactCountryId": 414,
+      "ContactOrgNr": "1310137",
+      "FaxPhone": "322.425.6820 x507",
+      "MobilePhone": "033.979.4647",
+      "ContactPhone": "(943)088-1632",
+      "AssociateName": "Ondricka LLC",
+      "AssociateId": 126,
       "UsePersonAddress": true,
-      "ContactFax": "est",
-      "Kanafname": "a",
-      "Kanalname": "illum",
-      "Post1": "omnis",
-      "Post2": "velit",
-      "Post3": "laborum",
-      "EmailName": "ivy_jakubowski@haag.co.uk",
-      "ContactFullName": "Mr. Allen Vivian Leannon",
-      "ActiveErpLinks": 920,
-      "TicketPriorityId": 106,
-      "SupportLanguageId": 835,
-      "SupportAssociateId": 821,
+      "ContactFax": "dolor",
+      "Kanafname": "id",
+      "Kanalname": "eius",
+      "Post1": "sed",
+      "Post2": "quis",
+      "Post3": "blanditiis",
+      "EmailName": "kelsie.halvorson@rutherfordkutch.ca",
+      "ContactFullName": "Telly O'Conner",
+      "ActiveErpLinks": 774,
+      "TicketPriorityId": 790,
+      "SupportLanguageId": 456,
+      "SupportAssociateId": 223,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldLength": 503
         }
       }
     }
   ],
-  "AlertLevel": 301,
-  "ConnectId": 787,
+  "AlertLevel": 393,
+  "ConnectId": 589,
   "ReadStatus": "Green",
-  "TimeToReply": 95,
-  "RealTimeToReply": 541,
-  "TimeToClose": 602,
-  "RealTimeToClose": 517,
-  "TimeSpentInternally": 317,
-  "TimeSpentExternally": 211,
-  "TimeSpentQueue": 281,
-  "RealTimeSpentInternally": 145,
-  "RealTimeSpentExternally": 935,
-  "RealTimeSpentQueue": 352,
-  "HasAttachment": false,
-  "NumReplies": 611,
-  "NumMessages": 570,
-  "FromAddress": "adipisci",
+  "TimeToReply": 116,
+  "RealTimeToReply": 803,
+  "TimeToClose": 307,
+  "RealTimeToClose": 495,
+  "TimeSpentInternally": 180,
+  "TimeSpentExternally": 861,
+  "TimeSpentQueue": 311,
+  "RealTimeSpentInternally": 408,
+  "RealTimeSpentExternally": 971,
+  "RealTimeSpentQueue": 928,
+  "HasAttachment": true,
+  "NumReplies": 282,
+  "NumMessages": 351,
+  "FromAddress": "blanditiis",
   "Messages": [
     {
-      "TicketMessageId": 178,
-      "CreatedAt": "2001-07-04T15:29:23.1467908+02:00",
+      "TicketMessageId": 696,
+      "CreatedAt": "2017-10-02T03:51:28.3339538+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "est",
-      "PersonId": 688,
-      "PersonFullName": "Verner Hartmann",
-      "ContactId": 98,
-      "ContactName": "Brown Group",
+      "Author": "pariatur",
+      "PersonId": 777,
+      "PersonFullName": "Violette Armstrong",
+      "ContactId": 277,
+      "ContactName": "Nicolas LLC",
       "ContactDepartment": "",
-      "NumAttachments": 667,
-      "EmailHeader": "misael@ratkeankunding.com",
+      "NumAttachments": 800,
+      "EmailHeader": "dale.wiza@ullrich.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "veniam",
-      "Sentiment": 351,
-      "SentimentConfidence": 551,
-      "CreatedBy": 439,
-      "ChangedAt": "2010-11-30T15:29:23.1467908+01:00",
+      "Language": "consectetur",
+      "Sentiment": 946,
+      "SentimentConfidence": 688,
+      "CreatedBy": 656,
+      "ChangedAt": "2016-06-08T03:51:28.3339538+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 630
+          "FieldLength": 153
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 605,
-      "Name": "Lueilwitz Group",
-      "ToolTip": "Culpa adipisci est laudantium magni voluptates quos ratione.",
+      "Id": 788,
+      "Name": "Weissnat, Berge and Botsford",
+      "ToolTip": "Sequi vel fugiat culpa eius vel voluptatem.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 345
+          "FieldType": "System.Int32",
+          "FieldLength": 151
         }
       }
     },
     {
-      "Id": 605,
-      "Name": "Lueilwitz Group",
-      "ToolTip": "Culpa adipisci est laudantium magni voluptates quos ratione.",
+      "Id": 788,
+      "Name": "Weissnat, Berge and Botsford",
+      "ToolTip": "Sequi vel fugiat culpa eius vel voluptatem.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 345
+          "FieldType": "System.Int32",
+          "FieldLength": 151
         }
       }
     }
   ],
-  "Language": "aliquam",
-  "Sentiment": 496,
-  "SentimentConfidence": 868,
-  "SuggestedCategoryId": 605,
+  "Language": "odit",
+  "Sentiment": 414,
+  "SentimentConfidence": 262,
+  "SuggestedCategoryId": 6,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 141,
-  "IconHint": "voluptate",
+  "OrigHumanCategoryId": 313,
+  "IconHint": "dolorem",
   "Sale": null,
   "Project": null,
+  "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "aliquid",
+    "ExtraFields2": "cumque"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "magnam"
+    "CustomFields1": "quia",
+    "CustomFields2": "nesciunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 983
     }
   }
 }

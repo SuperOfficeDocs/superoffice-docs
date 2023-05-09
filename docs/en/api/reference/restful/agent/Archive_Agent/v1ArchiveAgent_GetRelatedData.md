@@ -79,11 +79,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "veritatis",
-  "RecordId": 439,
+  "Table": "est",
+  "RecordId": 115,
   "Fields": [
-    "officia",
-    "at"
+    "odio",
+    "excepturi"
   ]
 }
 ```
@@ -96,11 +96,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "dolores",
+    "Field": "dolorum",
     "FieldValue": null
   },
   {
-    "Field": "dolores",
+    "Field": "dolorum",
     "FieldValue": null
   }
 ]

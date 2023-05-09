@@ -76,18 +76,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 372,
-  "Name": "Gislason Group",
-  "Tooltip": "totam",
-  "Rank": 697,
-  "AmountFrom": 20449.35,
-  "AmountTo": 1927.4099999999999,
-  "Deleted": true,
-  "CurrencyId": 927
+  "AmountClassId": 237,
+  "Name": "Wuckert, Kutch and Pfeffer",
+  "Tooltip": "aut",
+  "Rank": 509,
+  "AmountFrom": 27833.054,
+  "AmountTo": 18904.288,
+  "Deleted": false,
+  "CurrencyId": 63
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 615,
-  "Name": "Gulgowski, Schmidt and Shields",
-  "Tooltip": "ipsam",
-  "Rank": 382,
-  "AmountFrom": 21991.278,
-  "AmountTo": 9765.544,
-  "Deleted": true,
-  "CurrencyId": 952,
+  "AmountClassId": 832,
+  "Name": "Lind, Grimes and Altenwerth",
+  "Tooltip": "enim",
+  "Rank": 392,
+  "AmountFrom": 1526.258,
+  "AmountTo": 23567.68,
+  "Deleted": false,
+  "CurrencyId": 856,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 151
     }
   }
 }

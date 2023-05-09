@@ -24,7 +24,7 @@ Gets all the DeliveryTerm items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items?includeDeleted=False
+GET /api/v1/List/DeliveryTerm/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 978,
-    "Name": "Lakin Group",
-    "Tooltip": "eum",
+    "Id": 519,
+    "Name": "Berge-Spencer",
+    "Tooltip": "soluta",
     "Deleted": false,
-    "UdListDefinitionId": 188,
-    "Rank": 200,
+    "UdListDefinitionId": 155,
+    "Rank": 263,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 939
+        "FieldType": "System.Int32",
+        "FieldLength": 81
       }
     }
   }

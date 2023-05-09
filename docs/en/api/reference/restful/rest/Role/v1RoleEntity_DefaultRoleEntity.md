@@ -80,24 +80,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 612,
-  "Name": "Sawayn, Bradtke and Witting",
-  "Tooltip": "assumenda",
+  "RoleId": 16,
+  "Name": "Hilll-Nolan",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 886,
-  "Rank": 780,
-  "Created": "2013-05-14T15:29:30.0131598+02:00",
-  "UseCategories": 807,
+  "Deleted": 149,
+  "Rank": 385,
+  "Created": "1999-04-26T03:51:33.864677+02:00",
+  "UseCategories": 540,
   "CreatedBy": null,
-  "Updated": "2017-08-16T15:29:30.0136588+02:00",
+  "Updated": "2009-06-20T03:51:33.864677+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 819
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 496,
-    "Name": "Satterfield, Marvin and Orn",
-    "ToolTip": "Sed atque error sequi repudiandae rerum sed.",
+    "Id": 681,
+    "Name": "Weber Group",
+    "ToolTip": "Asperiores voluptate accusamus.",
     "Deleted": false,
-    "Rank": 478,
-    "Type": "atque",
-    "ColorBlock": 419,
-    "IconHint": "ea",
+    "Rank": 396,
+    "Type": "maiores",
+    "ColorBlock": 19,
+    "IconHint": "accusamus",
     "Selected": false,
-    "LastChanged": "2000-11-08T15:29:31.1734802+01:00",
+    "LastChanged": "2017-08-01T03:51:34.6302346+02:00",
     "ChildItems": [
       {
-        "Id": 610,
-        "Name": "Dickinson, Champlin and Schinner",
-        "ToolTip": "Qui facilis est.",
-        "Deleted": false,
-        "Rank": 691,
-        "Type": "consectetur",
-        "ColorBlock": 118,
-        "IconHint": "sit",
+        "Id": 906,
+        "Name": "Becker Inc and Sons",
+        "ToolTip": "Ab occaecati autem rerum.",
+        "Deleted": true,
+        "Rank": 291,
+        "Type": "ducimus",
+        "ColorBlock": 35,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2002-09-13T15:29:31.1734802+02:00",
+        "LastChanged": "2013-09-24T03:51:34.6302346+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "perspiciatis",
-        "Hidden": true,
-        "FullName": "Mrs. Wilhelm Dach",
+        "ExtraInfo": "rerum",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Mr. Erica Kihn III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 409
+            "FieldType": "System.Int32",
+            "FieldLength": 37
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "quia",
+    "ExtraInfo": "sed",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Dr. Gage Vida Lemke I",
+    "FullName": "Dr. Ben Federico Rice MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldLength": 822
       }
     }
   }

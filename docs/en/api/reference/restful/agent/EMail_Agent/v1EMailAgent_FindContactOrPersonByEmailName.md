@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cole-Kub",
-  "EmailAddress": "brandt@bosco.co.uk"
+  "Name": "Howe, Gaylord and Mayer",
+  "EmailAddress": "kathleen.mcglynn@nikolaus.ca"
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 533,
-    "FullName": "Mrs. Terrence Meta Hodkiewicz",
-    "EmailAddress": "lexie_prosacco@mohr.info",
-    "ContactId": 793,
-    "ContactName": "Glover, Bartoletti and King",
+    "PersonId": 996,
+    "FullName": "Dr. Odell Nicolas II",
+    "EmailAddress": "raleigh_tremblay@beerwalter.com",
+    "ContactId": 433,
+    "ContactName": "O'Connell, Murazik and Barrows",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Mraz-Gislason",
+    "SortName": "Prosacco-Legros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 717
       }
     }
   }

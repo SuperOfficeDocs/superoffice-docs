@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=sunt
-GET /api/v1/Project?$top=81
-GET /api/v1/Project?$skip=469
+GET /api/v1/Project?$entities=placeat
+GET /api/v1/Project?$top=881
+GET /api/v1/Project?$skip=312
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=autem
+GET /api/v1/Project?$context=dolorem
 GET /api/v1/Project?$format=JSON
 GET /api/v1/Project?$jsonSafe=False
 GET /api/v1/Project?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "alias",
+  "odata.nextLink": "voluptatem",
   "value": [
     {
-      "PrimaryKey": 839,
+      "PrimaryKey": 4956,
       "EntityName": "sale",
-      "saleId": 839,
-      "contactId": 9618,
-      "name": "Carter, Kunde and Johnston"
+      "saleId": 4956,
+      "contactId": 4089,
+      "name": "Wuckert LLC"
     },
     {
-      "PrimaryKey": 188,
+      "PrimaryKey": 3277,
       "EntityName": "sale",
-      "saleId": 188,
-      "contactId": 968,
-      "name": "Abshire, Cremin and Wiegand"
+      "saleId": 3277,
+      "contactId": 9880,
+      "name": "Medhurst-Bayer"
     }
   ]
 }

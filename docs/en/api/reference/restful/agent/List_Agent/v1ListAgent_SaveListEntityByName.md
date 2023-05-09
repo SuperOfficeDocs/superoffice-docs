@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Vandervort, Harvey and Rosenbaum",
+  "Name": "Pagac-O'Keefe",
   "ListEntity": null
 }
 ```
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 527,
-  "Name": "Douglas Group",
-  "Tooltip": "voluptatem",
+  "Id": 342,
+  "Name": "Marquardt-Muller",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 160,
+  "Rank": 785,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldLength": 196
     }
   }
 }

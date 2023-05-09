@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Ernser, Dickens and Dooley",
-    "ToolTip": "Nostrum ut ut.",
+    "Id": 460,
+    "Name": "Yost, Runte and Rempel",
+    "ToolTip": "Dignissimos esse laborum quae est.",
     "Deleted": true,
-    "Rank": 114,
-    "Type": "ad",
-    "ColorBlock": 136,
-    "IconHint": "eos",
+    "Rank": 256,
+    "Type": "autem",
+    "ColorBlock": 139,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2012-11-06T15:29:31.5349753+01:00",
+    "LastChanged": "2021-08-26T03:51:34.9114158+02:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Daniel LLC",
-        "ToolTip": "Voluptas modi.",
+        "Id": 597,
+        "Name": "Parisian, Schneider and Huel",
+        "ToolTip": "Explicabo in voluptatem voluptas similique doloribus debitis vero.",
         "Deleted": false,
-        "Rank": 410,
-        "Type": "dolor",
-        "ColorBlock": 642,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2020-02-23T15:29:31.5349753+01:00",
+        "Rank": 992,
+        "Type": "nobis",
+        "ColorBlock": 46,
+        "IconHint": "reiciendis",
+        "Selected": false,
+        "LastChanged": "2021-12-30T03:51:34.9114158+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "repellat",
+        "ExtraInfo": "quia",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Domenico Romaguera",
+        "FullName": "Rocio Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 17
+            "FieldLength": 507
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "illo",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Ms. Malika Senger MD",
+    "FullName": "Laverna Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldType": "System.Int32",
+        "FieldLength": 763
       }
     }
   }

@@ -74,15 +74,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 724,
-  "InstanceLayout": "debitis",
-  "InstanceName": "Stokes-Dietrich",
-  "CreatedDate": "2015-10-20T15:29:20.8032894+02:00",
-  "UpdatedDate": "2021-10-20T15:29:20.8032894+02:00",
+  "AudienceLayoutId": 346,
+  "InstanceLayout": "cum",
+  "InstanceName": "Williamson LLC",
+  "CreatedDate": "1999-06-20T03:51:26.5999985+02:00",
+  "UpdatedDate": "2000-10-25T03:51:26.5999985+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 862,
-  "InstanceLayout": "sapiente",
-  "InstanceName": "Lindgren Group",
-  "CreatedDate": "2001-08-26T15:29:20.8047897+02:00",
-  "UpdatedDate": "2017-01-05T15:29:20.8047897+01:00",
+  "AudienceLayoutId": 624,
+  "InstanceLayout": "aut",
+  "InstanceName": "Ward Group",
+  "CreatedDate": "2005-09-01T03:51:26.5999985+02:00",
+  "UpdatedDate": "2016-12-11T03:51:26.5999985+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 884
+      "FieldType": "System.Int32",
+      "FieldLength": 210
     }
   }
 }

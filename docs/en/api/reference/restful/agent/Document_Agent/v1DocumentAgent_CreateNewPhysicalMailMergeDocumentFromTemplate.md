@@ -108,12 +108,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 496,
-  "UiCulture": "consectetur"
+  "DocumentId": 885,
+  "UiCulture": "facere"
 }
 ```
 
@@ -124,88 +124,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 965,
+  "DocumentId": 206,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sit",
-  "Header": "inventore",
-  "Name": "Runolfsson-Predovic",
-  "OurRef": "praesentium",
-  "YourRef": "eum",
-  "CreatedDate": "2001-05-14T15:29:21.576278+02:00",
-  "UpdatedDate": "2007-04-05T15:29:21.576278+02:00",
-  "Description": "Decentralized client-driven collaboration",
+  "Attention": "earum",
+  "Header": "perspiciatis",
+  "Name": "Nolan-Mitchell",
+  "OurRef": "quis",
+  "YourRef": "deserunt",
+  "CreatedDate": "2018-01-05T03:51:27.0842582+01:00",
+  "UpdatedDate": "2015-01-08T03:51:27.0842582+01:00",
+  "Description": "Self-enabling user-facing customer loyalty",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-07-02T15:29:21.5797777+02:00",
-  "ExternalRef": "est",
+  "Date": "2008-07-29T03:51:27.0842582+02:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 724,
+  "ActiveLinks": 698,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bechtelar, Rohan and Wilderman",
-      "Id": 47,
-      "Description": "Versatile intangible extranet",
-      "ExtraInfo": "aut",
-      "LinkId": 318,
+      "EntityName": "Ryan Inc and Sons",
+      "Id": 581,
+      "Description": "Switchable zero tolerance migration",
+      "ExtraInfo": "assumenda",
+      "LinkId": 34,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldLength": 807
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 474,
-  "Snum": 421,
+  "SuggestedDocumentId": 751,
+  "Snum": 845,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Mariana Flatley IV",
-    "SuperOffice:2": "730568705"
+    "SuperOffice:1": "224103980",
+    "SuperOffice:2": "Dovie Crist"
   },
   "ExtraFields": {
-    "ExtraFields1": "nulla",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "mollitia",
-    "CustomFields2": "qui"
+    "CustomFields1": "temporibus",
+    "CustomFields2": "laborum"
   },
-  "PublishEventDate": "2001-01-05T15:29:21.5802787+01:00",
-  "PublishTo": "2001-06-29T15:29:21.5802787+02:00",
-  "PublishFrom": "2022-07-14T15:29:21.5802787+02:00",
+  "PublishEventDate": "2019-09-13T03:51:27.0842582+02:00",
+  "PublishTo": "1996-07-14T03:51:27.0842582+02:00",
+  "PublishFrom": "2002-04-10T03:51:27.0842582+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 300,
+      "VisibleId": 593,
       "Visibility": "All",
-      "DisplayValue": "nulla",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 254
+          "FieldType": "System.Int32",
+          "FieldLength": 817
         }
       }
     },
     {
-      "VisibleId": 300,
+      "VisibleId": 593,
       "Visibility": "All",
-      "DisplayValue": "nulla",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 254
+          "FieldType": "System.Int32",
+          "FieldLength": 817
         }
       }
     }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 142
     }
   }
 }

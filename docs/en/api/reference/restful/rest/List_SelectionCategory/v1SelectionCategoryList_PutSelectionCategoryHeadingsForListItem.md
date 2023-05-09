@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Connelly, Kunde and Gerlach",
-    "ToolTip": "Quos totam soluta id veniam earum voluptatum.",
-    "Deleted": false,
-    "Rank": 321,
-    "Type": "reprehenderit",
-    "ColorBlock": 949,
-    "IconHint": "laboriosam",
-    "Selected": false,
-    "LastChanged": "2012-07-24T15:29:31.613974+02:00",
+    "Id": 605,
+    "Name": "Lockman, Davis and Gutmann",
+    "ToolTip": "Qui eum laboriosam vel dolore maiores sint debitis.",
+    "Deleted": true,
+    "Rank": 902,
+    "Type": "a",
+    "ColorBlock": 175,
+    "IconHint": "repellendus",
+    "Selected": true,
+    "LastChanged": "2015-04-29T03:51:34.9738936+02:00",
     "ChildItems": [
       {
-        "Id": 30,
-        "Name": "Wolff-Trantow",
-        "ToolTip": "Sunt vero et explicabo voluptates amet autem.",
-        "Deleted": false,
-        "Rank": 495,
-        "Type": "ducimus",
-        "ColorBlock": 11,
-        "IconHint": "quibusdam",
+        "Id": 696,
+        "Name": "Howe, Blanda and Emmerich",
+        "ToolTip": "Officiis aut.",
+        "Deleted": true,
+        "Rank": 596,
+        "Type": "inventore",
+        "ColorBlock": 678,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2003-10-31T15:29:31.613974+01:00",
+        "LastChanged": "2016-03-19T03:51:34.9738936+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "quasi",
-        "Hidden": true,
-        "FullName": "Sienna Wilkinson"
+        "ExtraInfo": "minima",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Mrs. Jorge Jamel Miller Jr."
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "nesciunt",
-    "Hidden": true,
-    "FullName": "Bernard Vandervort"
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "assumenda",
+    "Hidden": false,
+    "FullName": "Mr. Roxanne Kihn III"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 556,
-    "Name": "Strosin Group",
-    "ToolTip": "Voluptas optio consequatur quas nisi neque voluptatem.",
-    "Deleted": false,
-    "Rank": 100,
-    "Type": "aut",
-    "ColorBlock": 687,
-    "IconHint": "ipsam",
-    "Selected": true,
-    "LastChanged": "2005-07-30T15:29:31.6159732+02:00",
+    "Id": 520,
+    "Name": "Macejkovic Inc and Sons",
+    "ToolTip": "Animi non adipisci.",
+    "Deleted": true,
+    "Rank": 278,
+    "Type": "et",
+    "ColorBlock": 717,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "1996-03-07T03:51:34.9738936+01:00",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Heathcote Group",
-        "ToolTip": "Architecto assumenda iste ut.",
-        "Deleted": false,
-        "Rank": 282,
-        "Type": "est",
-        "ColorBlock": 965,
-        "IconHint": "vitae",
-        "Selected": false,
-        "LastChanged": "2012-02-16T15:29:31.6159732+01:00",
+        "Id": 58,
+        "Name": "Stoltenberg Group",
+        "ToolTip": "Nihil incidunt iure iusto.",
+        "Deleted": true,
+        "Rank": 57,
+        "Type": "velit",
+        "ColorBlock": 279,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2021-11-26T03:51:34.9738936+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Guadalupe Kellen Mills I",
+        "ExtraInfo": "nisi",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Russell Mossie Krajcik Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 852
+            "FieldLength": 788
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "nulla",
-    "Hidden": true,
-    "FullName": "Creola Walker",
+    "ExtraInfo": "aut",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Rachael Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldType": "System.String",
+        "FieldLength": 481
       }
     }
   }

@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "culpa",
-  "Currents": "cum",
+  "SoProtocol": "optio",
+  "Currents": "vel",
   "Frameless": false
 }
 ```

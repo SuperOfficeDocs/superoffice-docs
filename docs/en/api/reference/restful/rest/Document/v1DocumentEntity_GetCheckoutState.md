@@ -69,7 +69,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 78,
-  "Name": "Carter-Cole"
+  "AssociateId": 663,
+  "Name": "Jenkins, Labadie and Lynch"
 }
 ```

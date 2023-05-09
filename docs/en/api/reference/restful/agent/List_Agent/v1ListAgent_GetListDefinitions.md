@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,22 +97,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Bechtelar LLC",
-    "Tooltip": "similique",
-    "Deleted": true,
-    "Rank": 963,
+    "Id": 457,
+    "Name": "Ferry, Waelchi and Beatty",
+    "Tooltip": "adipisci",
+    "Deleted": false,
+    "Rank": 889,
     "IsCustomList": true,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "distinctio",
-    "InUseByUserDefinedFields": false,
+    "ListType": "possimus",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 307
       }
     }
   }

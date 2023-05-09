@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 877,
-  "UdListDefinitionId": 925
+  "Id": 962,
+  "UdListDefinitionId": 928
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 333,
-  "Name": "Kunde, Haag and Medhurst",
-  "Tooltip": "at",
+  "Id": 655,
+  "Name": "Hamill-Nicolas",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "UdListDefinitionId": 618,
-  "Rank": 520,
+  "UdListDefinitionId": 463,
+  "Rank": 664,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 854
     }
   }
 }

@@ -117,34 +117,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 317,
-  "Name": "White Inc and Sons",
-  "Tooltip": "deserunt",
-  "SaveInDb": 949,
-  "Filename": "atque",
-  "DefaultOref": "corrupti",
+  "DocumentTemplateId": 570,
+  "Name": "Schowalter-Kautzer",
+  "Tooltip": "iste",
+  "SaveInDb": 232,
+  "Filename": "omnis",
+  "DefaultOref": "similique",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 383,
-  "IntentId": 256,
-  "IsDefaultPublished": false,
-  "Rank": 559,
-  "LoadTemplateFromPlugin": 493,
-  "MimeType": "omnis",
+  "AutoeventId": 447,
+  "IntentId": 227,
+  "IsDefaultPublished": true,
+  "Rank": 456,
+  "LoadTemplateFromPlugin": 379,
+  "MimeType": "blanditiis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 172,
+  "DocumentTypeKey": 571,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "gabriel_casper@bashirian.ca",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "leland_heathcote@dickens.name",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "grady_weissnat@durgan.com",
+  "SenderEmailAddress": "elijah_hoppe@olsonromaguera.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -156,37 +156,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 98,
-  "Name": "Swift, Green and Grant",
-  "Tooltip": "dolores",
-  "SaveInDb": 322,
-  "Filename": "iusto",
-  "DefaultOref": "vel",
+  "DocumentTemplateId": 560,
+  "Name": "Mante Inc and Sons",
+  "Tooltip": "nam",
+  "SaveInDb": 359,
+  "Filename": "voluptas",
+  "DefaultOref": "nihil",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 532,
-  "IntentId": 997,
-  "IsDefaultPublished": false,
-  "Rank": 694,
-  "LoadTemplateFromPlugin": 373,
-  "MimeType": "impedit",
+  "AutoeventId": 762,
+  "IntentId": 880,
+  "IsDefaultPublished": true,
+  "Rank": 959,
+  "LoadTemplateFromPlugin": 794,
+  "MimeType": "perferendis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 31,
+  "DocumentTypeKey": 934,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "blair@weimannpurdy.biz",
+  "EmailSubject": "geovany@schinner.info",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "erwin@hagenes.co.uk",
+  "SenderEmailAddress": "abagail_dickinson@streich.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 312
+      "FieldType": "System.Int32",
+      "FieldLength": 575
     }
   }
 }
