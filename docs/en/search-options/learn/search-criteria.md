@@ -3,7 +3,7 @@ uid: help-en-search-criteria
 title: Using search criteria
 description: Using search criteria
 author: Bergfrid Dias
-so.date: 03.28.2023
+so.date: 05.10.2023
 keywords: search, criteria, find
 so.topic: howto
 language: en
@@ -117,29 +117,25 @@ Depending on what you selected above, a list box for a date field or a number fi
 
 To change a search criterion, click it and select a different one from the list that appears.
 
-## Move search criteria
-
-To move criteria (a line), click and drag ![icon][img2].
-
-## Delete search criteria
-
-To delete a search criterion, click ![icon][img3].
-
 ## Activate or deactivate search criteria
 
 When you open the **Find** screen, it contains default search criteria or the search criteria you specified the last time you used the dialog. To use different search criteria than those shown, you have the following options:
 
-* You can delete them by clicking ![icon][img3]
-* You can deactivate one or more search criteria by leaving the value field empty. A deactivated search criterion remains in the criteria list and can be simply reactivated when needed.
+* You can delete them by clicking ![icon][img3].
+* You can deactivate one or more search criteria by leaving the value field empty. A deactivated search criterion remains in the criteria list and can be reactivated when needed.
 * You can deactivate all the search criteria by clicking **Clear all**.
 
 ## Move search criteria up or down
 
-To move criteria, click and drag ![icon][img2]. This has no practical effect on the search, but allows you to arrange the criteria in your preferred order. If some of the criteria are not being used, but you still want to keep them, you can move inactive criteria to the bottom if the list.
+To move criteria, click ![icon][img2] and drag the line. This has no practical effect on the search, but allows you to arrange the criteria in your preferred order. If you want to keep unused (inactive) criteria, you can move them to the bottom if the list.
 
 ## Reset to default search criteria
 
 The criteria lists contain a set of default criteria you can edit or remove as required. To reset the criteria list to the default criteria, click **Reset to default**.
+
+## Delete search criteria
+
+To delete a search criterion, click ![icon][img3].
 
 ## What would you like to do now?
 

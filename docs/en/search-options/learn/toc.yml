@@ -4,7 +4,7 @@ items:
 - name: Find screen
   href: find-screen.md
 - name: Search criteria
-  href: using-search-criteria.md
+  href: search-criteria.md
 - name: Free-text search
   href: freetext-search.md
 - name: FastSearcher

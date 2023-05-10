@@ -16,6 +16,6 @@ If you have purchased a licence for SAINT, you can use statuses defined in Setti
 [!include[Requirement](includes/req-saint.md)]
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

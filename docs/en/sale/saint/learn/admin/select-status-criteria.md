@@ -43,7 +43,7 @@ Spend some time to set up the correct status criteria, as you need to make sure 
 * [Manage status monitors][2]
 
 <!-- Referenced links -->
-[1]: ../../../../search-options/learn/using-search-criteria.md
+[1]: ../../../../search-options/learn/search-criteria.md
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->

@@ -98,6 +98,6 @@ Here you can choose if the quote must be approved if the total discount is above
 [3]: ../../../sale/learn/screen/sale-stage.md
 [4]: ../../../sale/learn/stakeholders/index.md
 [5]: ../../../sale/learn/screen/sales-guide-admin.md
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

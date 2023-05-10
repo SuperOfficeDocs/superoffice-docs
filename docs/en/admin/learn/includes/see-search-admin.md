@@ -2,4 +2,4 @@
 See [Use search criteria][1].
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md

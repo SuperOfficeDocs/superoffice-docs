@@ -124,7 +124,7 @@ Watch this video or follow the steps below to learn how you can create a search 
 * [Favorites][4]
 * [The History list][5]
 * [Create a search and save it as a selection][7]
-* Broaden your search using the OR function
+* [Broaden your search using the OR function][1]
 
 <!-- Referenced links -->
 [1]: find-screen.md
@@ -132,7 +132,7 @@ Watch this video or follow the steps below to learn how you can create a search 
 [3]: fastsearcher.md
 [4]: ../../learn/basics/fav.md
 [5]: ../../learn/basics/history.md
-[6]: using-search-criteria.md
+[6]: search-criteria.md
 [7]: ../selection/learn/create/index.md
 
 <!-- Referenced images -->

@@ -3,7 +3,7 @@ uid: help-en-find-screen
 title: Find screen
 description: Find screen
 author: SuperOffice RnD
-so.date: 03.08.2023
+so.date: 05.08.2023
 keywords: search, find
 so.topic: howto
 language: en
@@ -321,7 +321,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 [1]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/getting-started/main-screen/side-panel.md
 [2]: fastsearcher.md
-[3]: using-search-criteria.md
+[3]: search-criteria.md
 [5]: freetext-search.md
 [6]: ../../learn/basics/history.md
 [7]: ../selection/learn/howto/index.md

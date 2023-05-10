@@ -107,7 +107,7 @@ Use this option to add the selected records to an existing static selection.
 
 <!-- Referenced links -->
 [2]: ../../../learn/find-screen.md
-[5]: ../../../learn/using-search-criteria.md
+[5]: ../../../learn/search-criteria.md
 [3]: copy-members-to.md
 [4]: ../../../../learn/getting-started/index.md
 
