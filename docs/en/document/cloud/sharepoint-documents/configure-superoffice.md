@@ -2,8 +2,8 @@
 title: How to configure settings in SuperOffice Admin
 uid: configure-superoffice-admin
 description: How to configure document templates for SharePoint Documents
-author: Bergfrid Dias
-so.date: 12.01.2022
+author: Frode Berntsen
+so.date: 10.05.2023
 keywords: SharePoint, document, template
 so.topic: howto
 so.envir: cloud
@@ -73,23 +73,21 @@ We recommend that you select all here. These fields will appear as columns in yo
 
 ## <a id="step3" />Step 3 - Groups and access​
 
-### Group access on SharePoint documents based on Visible for settings
+### Confidentiality in SharePoint (Visible for)
 
-* If you plan not to use Visible for, you leave this ticked off​.
-* If you plan to use Visible for, you tick this on – and follow the next steps.
+Group access on SharePoint documents based on `Visible for` settings
+* If you plan not to use `Visible for`, you leave this ticked off​.
+* If you plan to use `Visible for`, you tick this on – and follow the next steps.
 
 ### Apps for SuperOffice (system user)
 
-Enable system user for storing documents in SharePoint. If you have for instance a third-party app that creates documents in SuperOffice, you need to enable system user for storing documents in SharePoint.
-
-> [!NOTE]
-> You can't turn this on the first time you configure SharePoint documents. It must be fully configured first. Complete the configuration and start the wizard (Settings), navigate to step 3, and turn it on.
+To use any app for SuperOffice that interact with documents (ie. to be able to use `visible for`, to migrate documents or have a third-party app that creates documents in SuperOffice), you need to enable a system user and add the `SuperOffice Document Library` app to your SharePoint. Read more about the `SuperOffice Document Library` app in [Permissions for SuperOffice Document Library integration (app)][2]
 
 ​    ![Groups and access​ -screenshot][img4]
 
-### Group access based on Visible for settings in SuperOffice is ticked on​
+### Confidentiality in SharePoint (Visible for) is ticked on​
 
-* To to set permissions on documents in SharePoint, we need to have Read Write permission to selected site. Only Microsoft 365 Global Administrator can authorize this permissions. This is a one-time authorization and will only include the site you have selected for your SuperOffice documents.
+* To to set permissions on documents in SharePoint, the app need to have `Read Write` permission to selected site. Only Microsoft 365 Global Administrator can authorize this permissions. This is a one-time authorization and will only include the site you have selected for your SuperOffice documents.
 
 * If you are a Microsoft 365 Global Administrator, you can authorize now – if not, you must copy the URL and send it to someone with that role of Microsoft 365 Global administrator in your organization.​
 
@@ -126,6 +124,7 @@ See the [reference of permissions in SharePoint​][1] for more information.
 
 <!-- Referenced links -->
 [1]: permissions-in-sharepoint.md
+[2]: permissions-app.md
 
 <!-- Referenced images -->
 [img1]: media/sharepoint-wizard.png
