@@ -73,10 +73,13 @@ To enable toggled features - you need to add two sections manually in your NetSe
 | Configurable Screens Sale| ConfigurableSale               |          | 10.2.1  |
 | Configurable Screens Proj| ConfigurableProject            |          | 10.2.1  |
 | Configurable Archives    | SCILHostedArchives,ConfigurableArchive | 10.1.5  | 10.2.1 |
+| New Search               | NewSearch                      |  10.2.5  | 10.1.8 |
 | Configurable Screens P&C | ConfigurableScreens            |  10.0.2  | 9.2 R12 |
 | Dashboards 2.0           | NewDashboards                  |  10.0.2  | 9.2 R12 |
 | OAuth 2.0 Service        | NewAuth                        |  10.0.6  | 9.2 R12 |
 | OAuth 2.0 Authentication | NewAuthentication              |  10.0.6  | 9.2 R10 |
+| New Selection            | NewSelection                   |  9.x     |  |
+| New Export To Excel      | NewExportToExcel               |  9.x     |  |
 | Bulk Update              | BulkUpdate                     |  9.x     |  |
 | Consent Management       | ConsentManagement              |  9.x     |  |
 | New Invitation           | NewInvitation                  |  9.x     |  |
