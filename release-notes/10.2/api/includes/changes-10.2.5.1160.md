@@ -22,41 +22,12 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
 * Modified items
   * Method `CleanUpBookingDeletedWithUpdateMode(Int32[], RecurrenceUpdateMode)`
-
-#### SuperOffice.CRM.Services.DiagnosticsAgent is Modified
-
-* New items
-  * Method `GetEntityCountsForCurrentUser()`
-
-#### SuperOffice.CRM.Services.EMailAgent is Modified
-
-* New items
-  * Method `ResolveEMailRecipients(String)`
+    * Changed response type to No Content.
 
 #### SuperOffice.CRM.Services.IAppointmentAgent is Modified
 
 * Modified items
   * Method `CleanUpBookingDeletedWithUpdateMode(Int32[], RecurrenceUpdateMode)`
-
-#### SuperOffice.CRM.Services.IDiagnosticsAgent is Modified
-
-* New items
-  * Method `GetEntityCountsForCurrentUser()`
-
-#### SuperOffice.CRM.Services.IEMailAgent is Modified
-
-* New items
-  * Method `ResolveEMailRecipients(String)`
-
-#### SuperOffice.CRM.Services.IWorkflowAgent is Modified
-
-* New items
-  * Method `DeleteWorkflowGoal(Int32)`
-  * Method `DeleteWorkflowTrigger(Int32)`
-  * Method `GetWorkflowGoal(Int32)`
-  * Method `GetWorkflowTrigger(Int32)`
-  * Method `SaveWorkflowGoal(WorkflowGoal)`
-  * Method `SaveWorkflowTrigger(WorkflowTrigger)`
 
 #### SuperOffice.CRM.Services.Ticket is Modified
 
@@ -77,16 +48,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
 * New items
   * Property `Badge`
-
-#### SuperOffice.CRM.Services.WorkflowAgent is Modified
-
-* New items
-  * Method `DeleteWorkflowGoal(Int32)`
-  * Method `DeleteWorkflowTrigger(Int32)`
-  * Method `GetWorkflowGoal(Int32)`
-  * Method `GetWorkflowTrigger(Int32)`
-  * Method `SaveWorkflowGoal(WorkflowGoal)`
-  * Method `SaveWorkflowTrigger(WorkflowTrigger)`
 
 #### SuperOffice.CRM.Services.WorkflowGoal is Modified
 

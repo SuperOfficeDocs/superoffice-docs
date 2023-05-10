@@ -13,6 +13,11 @@ so.topic: reference
 
 ## New Archive provider
 
+* v10.2.5
+  * [ExternalDocumentFolder][120]
+  * [ExternalDocumentItems][121]
+  * [ExternalDocuments][122]
+
 * v10.2.4
   * [EmailFlowFolders][62]
   * [EmailFlowInstances][63]
@@ -303,3 +308,6 @@ services.AddLogging(a =>
 [117]: ../../../docs/en/api/reference/soap/Services88/Workflow/SaveWorkflowGoal.md
 [118]: ../../../docs/en/api/reference/soap/Services88/Workflow/SaveWorkflowStepOption.md
 [119]: ../../../docs/en/api/reference/soap/Services88/Workflow/SaveWorkflowTrigger.md
+[120]: ../../../docs/en/api/archive-providers/reference/externaldocumentfolder.md
+[121]: ../../../docs/en/api/archive-providers/reference/externaldocumentitems.md
+[122]: ../../../docs/en/api/archive-providers/reference/externaldocuments.md
