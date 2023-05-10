@@ -1,9 +1,9 @@
 ---
 uid: help-en-search-intro
-title: Search options in CRM
+title: Search options
 description: Learn how to search and find data in SuperOffice CRM with just a few clicks.
 author: Bergfrid Dias
-so.date: 05.08.2023
+so.date: 05.10.2023
 keywords: search, find
 so.topic: concept
 language: en
@@ -17,15 +17,7 @@ The following how-to guides will:
 
 * Show you the different ways you can find information in SuperOffice CRM database.
 * Explain how you can save your searches as a selection.
-* Demonstrate what tasks you can perform using your search or selections.
-
-## Tools
-
-SuperOffice CRM contains several different search tools:
-
-* [FastSearcher][3]
-* [The Find button][1]
-* [Free-text search field][2]
+* Demonstrate what tasks you can perform using your search or selection.
 
 ## What can I search for?
 
@@ -42,23 +34,38 @@ SuperOffice CRM contains several different search tools:
 * Form submissions
 * Mailings
 
-## FastSearcher
+## Tools
 
-You can use [FastSearcher][3] to search for companies, contacts, sales, projects, requests, and selections.
+SuperOffice CRM has multiple search tools:
 
-**FastSearcher** can be found in the **Navigator** menu and within dialogs. It will quickly make you a list that match your search words. Use it to check your database for possible duplicates before adding a new company or contact.
+* FastSearcher
+* The Find button
+* Free-text search field
+
+Choose the right tool for your task:
+
+| Task | Tool |
+|---|---|
+| Find and go to a specific item, such as a sale | FastSearcher in the Navigator, or Favorites, or History |
+| Check before adding a company or contact to avoid duplicates | FastSearcher in the Navigator |
+| Find all items of specific a type that match one or more conditions | Find button |
+| Create a selection (save search) | Find button |
+| Run a pre-defined search (typical search) | Find button |
+| Find all items regardless of type that match specific words or phrases | Free-text search |
+
+## <a id="fastsearcher" />FastSearcher
+
+You can use the FastSearcher in the Navigator menu and within dialogs. As you type, it builds a list of items that match your search words.
 
 ![Use the FastSearcher to navigate quick and easy in the Navigator -screenshot][img1]
 
-## The Find button
+You can use FastSearcher in various ways:
 
-If you click the **Find** button on the top bar, you open the [Find screen][1], where you can search for data in SuperOffice.
+* To [search directly from the Navigator][3] to access the a company, contact, sale, project, request, or selection.
 
-The **Find** button helps you find records based on any criteria from companies, contacts, projects, selections, sales, products, follow-ups, documents, and requests.
+* To search [from within a dialog][8] for a company, contact, sale, project, request, and selection to link it to a relevant field in that dialog. For example, to link to a sale in the **Document** dialog, or to a company in the **Appointment** dialog.
 
-![Click the Find button in the top bar to get to the Find screen -screenshot][img2]
-
-When you use the Find feature, you can save each search you perform as a selection.
+* To search directly in the [time zone selector][2] to find the time zone for the required city or country.
 
 ## Free-text search
 
@@ -69,11 +76,19 @@ Click [free-text search][2] in the upper-right corner to search for any text tha
 > [!TIP]
 > Want to see a list of all your contacts? Click on the **Selections** icon in the left-side navigator panel and search for "All Contacts" to see a pre-configured selection.
 
-## Using wild cards
+## Wild cards
 
 Use **%** as a wild card when searching. The percent character (%) matches any string of 0 or more characters. For example: J%son matches Jackson, Johnson, Jason, and Json.
 
-[!include[Use wildcard in search](includes/tip-search-wildcard.md)]
+## The Find button
+
+If you click the **Find** button on the top bar, you open the [Find screen][1], where you can search for data in SuperOffice.
+
+The **Find** button helps you find records [based on any criteria][6] from companies, contacts, projects, selections, sales, products, follow-ups, documents, and requests.
+
+![Click the Find button in the top bar to get to the Find screen -screenshot][img2]
+
+When you use the Find feature, you can save each search you perform as a selection.
 
 ## <a id="typical" />Use typical searches as a starting point
 
@@ -93,8 +108,6 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-[Read more][6]
 
 ## <a id="search-to-selection" />Create a search and save it as a selection
 
@@ -129,11 +142,12 @@ Watch this video or follow the steps below to learn how you can create a search 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: freetext-search.md
-[3]: fastsearcher.md
+[3]: in-navigator.md
 [4]: ../../learn/basics/fav.md
 [5]: ../../learn/basics/history.md
 [6]: search-criteria.md
 [7]: ../selection/learn/create/index.md
+[8]: in-dialogs.md
 
 <!-- Referenced images -->
 [img1]: media/search-find-fastsearcher.png

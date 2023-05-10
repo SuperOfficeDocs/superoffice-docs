@@ -7,5 +7,7 @@ items:
   href: search-criteria.md
 - name: Free-text search
   href: freetext-search.md
-- name: FastSearcher
-  href: fastsearcher.md
+- name: Search from navigator
+  href: in-navigator.md
+- name: Search in dialogs
+  href: in-dialogs.md

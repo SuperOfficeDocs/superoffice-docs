@@ -15,7 +15,7 @@ You use search criteria to define what you are looking for, for example "compani
 
 Everywhere you can enter search criteria, you will find a criteria list containing the selected search criteria.
 
-Typical searches are there to help you get started and create your own search of CRM data. After you have selected a typical search, you can add and edit the search criteria. And after you have created a useful search that you'd like to use again, you can save it as a selection.
+Typical searches are there to help you get started and create your own search of CRM data. After you have selected a typical search, you can add and edit the search criteria. And after you have created a useful search that you would like to use again, you can save it as a selection.
 
 Watch this video to learn how to do a typical search and modify it by adding new search criteria or follow the step-by-step guide below (video length – 3:01):
 
@@ -45,9 +45,9 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
 5. Click **Add** to add a new line, or click **Or** to add a new set of criteria.
 
-### Field types
+## Field types
 
-#### Text field
+### Text field
 
 If the field you are searching in is a text field (such as a name), the search is made on text or numbers you enter. A list with the following options is displayed:
 
@@ -55,11 +55,11 @@ If the field you are searching in is a text field (such as a name), the search i
 
 Select one of these options and then enter the search criteria in the text field on the right.
 
-#### Yes/No field
+### Yes/No field
 
 If the field you are searching in is a Yes/No field, for example, the **No mailings** field in the Company screen, two radio buttons are displayed. You can choose between **Yes** and **No**.
 
-#### Date field
+### Date field
 
 If the field you are searching in is a date field, for example, the **Date** field in the **Document** dialog, a list box is displayed containing the following options:
 
@@ -67,7 +67,7 @@ If the field you are searching in is a date field, for example, the **Date** fie
 
 Select the required option. Depending on what you select, the field is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ![icon][img1].
 
-#### Number field
+### Number field
 
 If the field you are searching in contains a numerical value, for example, the **Amount** field in the Sale screen, a list box is displayed containing the following options:
 
@@ -75,7 +75,7 @@ If the field you are searching in contains a numerical value, for example, the *
 
 Select the required option and enter the required numerical value in the text field on the right.
 
-#### List field
+### List field
 
 If the field you are searching in is a field containing lists, for example, the **Business** field in the Company screen, a list box appears with the options **Is one of** and **Is not one of**.
 
@@ -85,7 +85,7 @@ If the list is long, you can type text in the **Search criteria** fields to sear
 
 Click outside the list to close it.
 
-#### Status field
+### Status field
 
 If the field you are searching in is a status field, select the required status.
 
@@ -93,7 +93,7 @@ The statuses are created and maintained in Settings and maintenance.
 
 Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
 
-#### Counter field
+### Counter field
 
 [Counters][3] can be, for example, the number of sales in a period or the date of the last completed sale.
 
@@ -113,38 +113,36 @@ To the right of the fields, you can click the links to specify additional criter
 
 Depending on what you selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
 
-## Change search criteria
+## Manage list of criteria
 
-To change a search criterion, click it and select a different one from the list that appears.
-
-## Activate or deactivate search criteria
+The criteria lists contain a set of default criteria you can edit or remove as required.
 
 When you open the **Find** screen, it contains default search criteria or the search criteria you specified the last time you used the dialog. To use different search criteria than those shown, you have the following options:
 
-* You can delete them by clicking ![icon][img3].
-* You can deactivate one or more search criteria by leaving the value field empty. A deactivated search criterion remains in the criteria list and can be reactivated when needed.
-* You can deactivate all the search criteria by clicking **Clear all**.
+| Action | Steps |
+|---|---|
+| Move a criterion | Click ![icon][img2] and drag the line. |
+| Change a criterion | Click it and select a different one from the list that appears. |
+| Deactivate one or more criteria | Leave the value field empty. |
+| Deactivate all criteria | Click **Clear all**. |
+| Delete a criterion | Click ![icon][img3]. |
+| Reset the list | Click **Reset to default**. |
 
-## Move search criteria up or down
+> [!NOTE]
+> Moving a criterion has no practical effect on the search, but allows you to arrange the criteria in your preferred order. If you want to keep unused (inactive) criteria, you can move them to the bottom if the list.
+>
+> A deactivated search criterion remains in the criteria list and can be reactivated when needed.
 
-To move criteria, click ![icon][img2] and drag the line. This has no practical effect on the search, but allows you to arrange the criteria in your preferred order. If you want to keep unused (inactive) criteria, you can move them to the bottom if the list.
+## Related content
 
-## Reset to default search criteria
-
-The criteria lists contain a set of default criteria you can edit or remove as required. To reset the criteria list to the default criteria, click **Reset to default**.
-
-## Delete search criteria
-
-To delete a search criterion, click ![icon][img3].
-
-## What would you like to do now?
-
-* [Use the Find screen][1]
+* [The Find screen][1]
+* [Selections][4]
 
 <!-- Referenced links -->
 [1]: find-screen.md
-[2]: fastsearcher.md
+[2]: in-navigator.md
 [3]: ../../sale/saint/learn/index.md
+[4]: ../selection/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-icon.png
