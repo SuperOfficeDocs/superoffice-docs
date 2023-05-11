@@ -5,8 +5,8 @@ description: Keep track of messages
 author: Hanne Gunnarsson
 keywords: request, message, flag
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: en
 ---
 

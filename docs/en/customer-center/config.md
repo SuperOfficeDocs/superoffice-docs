@@ -5,7 +5,7 @@ description: Customer center configuration
 author: {github-id}
 so.date: 03.16.2023
 keywords: Customer Center, CEP, parser variable
-so.user: admin
+so.audience: settings
 so.topic: reference
 ---
 

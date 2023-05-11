@@ -5,8 +5,8 @@ description: Merge requests
 author: Hanne Gunnarsson
 keywords: request
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: en
 ---
 

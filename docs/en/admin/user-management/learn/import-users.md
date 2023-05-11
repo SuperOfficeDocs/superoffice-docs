@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: user, import, associate, Active Directory, bulk
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 so.envir: onsite
 so.client: web

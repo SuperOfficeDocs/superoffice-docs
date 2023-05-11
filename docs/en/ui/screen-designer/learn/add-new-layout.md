@@ -6,7 +6,8 @@ author: Bergfrid Dias
 so.date: 03.29.2023
 keywords: screen designer, layout, main card, archive
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 

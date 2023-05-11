@@ -6,7 +6,8 @@ author: Bergfrid Dias
 so.date: 03.27.2023
 keywords: user, associate, our companies
 so.topic: reference
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 

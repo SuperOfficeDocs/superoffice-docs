@@ -5,7 +5,7 @@ description: Configure FAQ entries
 author: {github-id}
 keywords: FAQ, CEP, Customer Center, registry, comment
 so.topic: howto
-so.user: admin
+so.audience: settings
 ---
 
 # Configure FAQ entries

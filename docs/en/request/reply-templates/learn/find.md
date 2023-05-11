@@ -6,8 +6,8 @@ author: Bergfrid Dias
 so.date: 03.15.2023
 keywords: request, reply template
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: en
 ---
 

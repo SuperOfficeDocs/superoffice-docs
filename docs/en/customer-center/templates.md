@@ -6,7 +6,7 @@ author: {github-id}
 so.date: 03.16.2023
 keywords: Customer Center, CEP
 so.topic: howto
-so.user: admin
+so.audience: settings
 so.envir: onsite
 ---
 

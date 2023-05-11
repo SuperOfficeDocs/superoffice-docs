@@ -5,7 +5,7 @@ description: Changing labels
 author: Bergfrid Dias
 so.date: 03.21.2023
 keywords: label
-so.user: admin
+so.audience: settings
 so.topic: howto
 language: en
 ---

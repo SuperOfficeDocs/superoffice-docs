@@ -5,7 +5,7 @@ description: Inline CRMScript
 author: {github-id}
 so.date: 03.16.2023
 keywords: Customer Center, CEP, CRMScript
-so.user: admin
+so.audience: settings
 so.topic: concept
 ---
 
