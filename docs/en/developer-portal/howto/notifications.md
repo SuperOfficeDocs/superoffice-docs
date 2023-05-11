@@ -26,17 +26,19 @@ Watch the walk-through on YouTube:
 
 The **State change URL** is set in the advanced application configuration of each application.
 
+<!-- markdownlint-disable MD029 -->
 [!include[Go to the app page](../includes/go-to-app-page.md)]
+<!-- List starts in the include. Next line MUST be 2. -->
 
-1. Select **Configuration**.
+2. Select **Configuration**.
 
-1. Turn on **Advanced**.
+3. Turn on **Advanced**.
 
-1. Select **Notifications**.
+4. Select **Notifications**.
 
     ![Configure notifications -screenshot][img1]
 
-1. Enter the URL of your endpoint SuperOffice should push notifications to when a tenant changes status.
+5. Enter the URL of your endpoint SuperOffice should push notifications to when a tenant changes status.
 
     `https://www.awesomeapp.com/NotifyCustomerStateChange`
 
@@ -44,11 +46,12 @@ The **State change URL** is set in the advanced application configuration of eac
 
     ![Configure notifications per environment -screenshot][img2]
 
-1. [!include[Has integration?](includes/has-integration.md)]
+6. [!include[Has integration?](includes/has-integration.md)]
 
-1. Click **Save Settings** or **OK**.
+7. Click **Save Settings** or **OK**.
 
-1. [Request to publish the new configuration.][3]
+8. [Request to publish the new configuration.][3]
+<!-- markdownlint-restore -->
 
 > [!NOTE]
 > You must set up a web service listening at the given URL and be prepared to [parse notifications][2].

@@ -19,13 +19,16 @@ Metered API calls come from applications that are not part of the SuperOffice st
 
 The **app page** shows application usage for one specific application.
 
-1. [!include[Go to the app page](../includes/go-to-app-page.md)]
+<!-- markdownlint-disable MD029 -->
+[!include[Go to the app page](../includes/go-to-app-page.md)]
+<!-- List starts in the include. Next line MUST be 2. -->
 
 2. Select **API Usage**.
 
 3. Select a time interval (days, weeks, or months).
 
 4. Click through the environment specific tabs.
+<!-- markdownlint-restore -->
 
 ![API usage overview in SuperOffice developer portal -screenshot][img1]
 
