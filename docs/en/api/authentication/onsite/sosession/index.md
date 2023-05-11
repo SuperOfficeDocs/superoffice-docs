@@ -30,7 +30,9 @@ A new session is created when a user signs in and is successfully authenticated.
 
 ## Authenticate with Windows user
 
-Another common scenario is single sign-on using the current Windows user's credentials. There are 2 ways this can be accomplished, implicitly and explicitly:
+Another common scenario is single sign-on using the current Windows user's credentials. There are 2 ways this can be accomplished, implicitly and explicitly.
+
+Active Directory authentication requires startup configuration. See [NetServer configuration section][4] for details.
 
 ```csharp
 //Implicit Windows user authentication
