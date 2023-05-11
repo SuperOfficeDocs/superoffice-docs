@@ -11,14 +11,86 @@ so.envir: onsite
 
 # NetServer configuration
 
-Each application that uses NetServer must contain a well-defined configuration file. This is imperative for both Windows and web applications.
+## Dependency injection.
 
-This section contains all available settings to configure SuperOffice NetServer and provides explanations and examples for each section.
+Since version 10, SuperOffice uses dependency injection to establish configuration options and parameters.
 
-* Windows Application: *MyApp.exe.config*
-* Web Application: *web.config*
+### Session Mode Changes
+The config file setting for Session Mode has been removed. This has been replaced with a session handling implementation to AddNetServerCore. 
 
-The configuration file must contain a section group named `SuperOffice`. Under it, additional sections and section groups are required that define NetServer configuration elements needed to operate.
+```csharp
+class Startup
+{
+    public IConfigurationRoot Configuration { get; set; }
+
+    public virtual void Configure(IServiceCollection services)
+    {
+        services.AddLogging(a =>
+        {
+            a.AddConfiguration(Configuration.GetSection("Logging"));
+        });
+        //services.AddNetServerCore() // v10.0
+        services.AddNetServerCore<ThreadContextProvider>( options => { 
+          options.UseOnPremAD(); // See config section: ActiveDirectoryCredentialPlugin
+        }) // v10.2.1
+        .AddSoDatabase()
+        .AddServicesImplementation()
+    }
+
+    public void ConfigureServices(IServiceProvider serviceProvider)
+    {
+        var netServerServiceProvider = serviceProvider.RegisterWithNetServer();
+    }
+}
+
+```
+
+There are several default implementations of ISoContextProvider located in SoCore.
+
+* ThreadContextProvider
+* ContextContextProvider
+* ProcessContextProvider 
+
+Another is HttpContextProvider, located in SuperOffice.DCFWeb.
+
+### Services Mode Changes
+
+The Setting for Services Local or Remote NetServer mode has been removed from the Config.  This has been replaced with extension methods to IServiceCollection.
+
+For Local mode calling Services Implementation, use:
+
+* services.AddDCFServicesImplementation();
+* services.AddServicesImplementation();
+* services.AddMessagingServicesImplementation();
+
+For remote mode using proxies, use: 
+
+* services.AddServicesProxies();
+
+## Configuration Files
+
+There are two configuration files of concern. Each application that uses NetServer must contain a well-defined configuration file. This section contains all available settings to configure SuperOffice NetServer and provides explanations and examples for each section.:
+
+* appSettings.json (for logging level)
+* Web Application: *web.config* or Windows Application: *MyApp.exe.config*
+
+The appSettings.json file is used to configure logging level using "SuperOffice" as the ILoggerProviderPlugin name.
+
+```json
+{
+ "Logging": {
+    "LogLevel": {
+      "Default": "Error",
+      "Microsoft": "Error",
+      "SuperOffice": "Warning"
+    }
+  }
+}
+```
+
+The application configuration file must contain a section group named `SuperOffice`. Under it, additional sections and section groups are required that define NetServer configuration elements needed to operate.
+
+## Configuration sections
 
 Below is a configuration file with only the bare essential SuperOffice sections defined:
 
