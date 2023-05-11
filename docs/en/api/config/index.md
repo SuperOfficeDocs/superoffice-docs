@@ -34,7 +34,7 @@ class Startup
           options.UseOnPremAD(); // See config section: ActiveDirectoryCredentialPlugin
         }) // v10.2.1
         .AddSoDatabase()
-        .AddServicesImplementation()
+        .AddServicesImplementation();
     }
 
     public void ConfigureServices(IServiceProvider serviceProvider)
