@@ -51,9 +51,9 @@ This access can't be removed (neither programmatically nor manually).​
 
 For that reason, you need to use a **ServiceAccount** to create your SharePoint site for SuperOffice documents​.
 
-## AAD Service Account for SuperOffice documents​
+## <a id="aad-service-acccount" />AAD Service Account for SuperOffice documents​
 
-In Azure Active Directory (Azure AD), there are three types of [service accounts:][1] managed identities, service principals, and user accounts employed as service accounts. When you create service accounts for automated use, they’re granted permissions to access resources in Azure and Azure AD.
+In Azure Active Directory (Azure AD), there are three types of [service accounts][1]: managed identities, service principals, and user accounts employed as service accounts. When you create service accounts for automated use, they’re granted permissions to access resources in Azure and Azure AD.
 
 To use a **AAD Service Account** for your SharePoint site for SuperOffice documents, a normal user account employed as service account is recommended:
 We recommend that you use a "service" account to create sites and libraries in SharePoint to avoid using personal accounts, since these will have unlimited access to all files in the site (Site-owner). If this service account has Global Administrator rights in AAD, then this can be used to authorize our SuperOffice Document Library App. It will need a license to be able to access SharePoint.

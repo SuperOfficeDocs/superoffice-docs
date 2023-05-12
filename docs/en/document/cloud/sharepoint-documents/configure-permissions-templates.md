@@ -25,7 +25,7 @@ All domain groups with access to the document library must be added to the templ
 
 If all users can edit templates you don’t need to do anything, since you have already granted edit permissions on the site level.
 
-## Step 1 – Select the SuperOffice template library​
+## <a id="step-1" />Step 1 – Select the SuperOffice template library​
 
 1. ​Navigate to the site where the template library resides​.
 
@@ -37,7 +37,7 @@ If all users can edit templates you don’t need to do anything, since you have 
 
     ![Template library​ -screenshot][img2]
 
-## Step 2 – Stop inheriting permissions​
+## <a id="step-2" />Step 2 – Stop inheriting permissions​
 
 In order to control access to you SuperOffice document library, you must stop inheriting permissions. Stop inheriting also makes it possible to grant permissions.
 
@@ -53,9 +53,9 @@ In order to control access to you SuperOffice document library, you must stop in
 
     ![Stop Inheriting Permissions​ -screenshot][img5]
 
-## Step 3a – Change permissions​
+## <a id="step-3a" />Step 3a – Change permissions​
 
-If the AAD (domain) groups already exist.
+Follow these steps if the AAD (domain) groups already exist. If the groups do not exist or you need to add a group that can edit, go to step 3b.
 
 1. Select the groups​.
 
@@ -67,9 +67,7 @@ If the AAD (domain) groups already exist.
 
     ![Read​ -screenshot][img7]
 
-If the groups do not exist or you need to add a group that can edit, see 3b.
-
-## Step 3b – Grant permissions​
+## <a id="step-3b" />Step 3b – Grant permissions​
 
 1. Click on **Grant Permissions**​.
 
@@ -77,7 +75,7 @@ If the groups do not exist or you need to add a group that can edit, see 3b.
 
 2. In **Invite people**​.
 
-    * Type in and add domain (AAD) group(s)​. Members of these groups will automatically get access.
+    * Type in and add domain (AAD) groups​. Members of these groups will automatically get access.
 
     * Tick off **Share everything in this folder, even items with unique permissions**​.
 
@@ -93,7 +91,7 @@ If the groups do not exist or you need to add a group that can edit, see 3b.
 
     * When your done adding groups, press **Share**.
 
-## Step 4 – Review the SharePoint site groups​
+## <a id="step-4" />Step 4 – Review the SharePoint site groups​
 
 ​We recommend that you remove user permissions for the standard SharePoint groups Members and Visitors, and that you limit the number of members in the Group owner. Make sure there are no user accounts in this group, only service accounts.
 
