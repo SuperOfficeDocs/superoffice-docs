@@ -100,17 +100,17 @@ You can also check out our [webinar about the SharePoint integration][1].
     5. [Create a document library for templates][7].
         (R) Use the *AAD Service Account* user.
     6. [Set up SharePoint document library permissions for *Documents*][11]
-        * Grant permissions to the AAD groups you added above.
+        * Grant permissions to the AAD groups you added above in step 2.2 *except TemplateEditors*.
 
-            | Permission level | Values |
-            |---|---|
-            | Edit | off: "Share everything...", off: "Send an email invitation |
+            | Group | Permission level | Values |
+            |---|---|---|
+            | Regular users | Edit | off: "Share everything...", off: "Send an email invitation |
 
     7. [Set up SharePoint document library permissions for *Templates*][13]
         1. Stop inheriting permissions.
         2. [Change permissions for existing AAD groups][12].
             Click **Edit User Permissions** and select **Read**.
-        3. [Grant permissions to the AAD groups you added above][14].
+        3. [Grant permissions to all AAD groups you added above in step 2.2][14].
 
             | Group | Permission level | Values |
             |---|---|---|
