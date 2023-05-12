@@ -81,9 +81,9 @@ Group access on SharePoint documents based on *Visible for* settings.
 * If you plan **NOT to use Visible for**, leave this ticked off​.
 * If you plan to **use Visible for**, tick this checkbox and and follow the next steps.
 
-### Apps for SuperOffice (system user)
+### <a id="apps" />Apps for SuperOffice (system user)
 
-To use any app for SuperOffice that interacts with documents (to use *Visible for*, to migrate documents, or have a third-party app that creates documents in SuperOffice), you need to enable a system user and add the SuperOffice Document Library app to your SharePoint. For details, see [Permissions for SuperOffice Document Library integration (app)][2]
+To use any app for SuperOffice that interacts with documents (to use *Visible for*, to migrate documents, or have a third-party app that creates documents in SuperOffice), you need to [enable a system user and add the SuperOffice Document Library app to your SharePoint][2].
 
 ​    ![Groups and access​ -screenshot][img4]
 
