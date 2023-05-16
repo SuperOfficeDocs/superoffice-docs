@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 03.21.2023
 keywords: document, SharePoint
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 

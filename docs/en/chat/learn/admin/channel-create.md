@@ -6,8 +6,8 @@ author: Bergfrid Dias
 so.date: 03.24.2023
 keywords: chat
 so.topic: howto
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 

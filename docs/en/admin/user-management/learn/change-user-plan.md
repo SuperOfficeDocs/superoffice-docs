@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 02.21.2023
 keywords: user, associate
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 

@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 04.24.2023
 keywords: navigator group
 so.topic: howto
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 

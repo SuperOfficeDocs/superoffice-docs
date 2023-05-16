@@ -6,8 +6,8 @@ author: Bergfrid Dias
 so.date: 03.16.2023
 keywords: request
 so.topic: concept
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: en
 ---
 

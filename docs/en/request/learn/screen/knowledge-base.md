@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 03.24.2023
 keywords: request, knowledge base
 so.topic: help
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: en
 ---
 

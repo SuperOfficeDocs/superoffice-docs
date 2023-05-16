@@ -8,7 +8,7 @@ keywords: user management, role, anonymous
 so.topic: howto
 language: en
 so.envir: onsite
-so.user: admin
+so.audience: settings
 ---
 
 # Edit rights for anonymous users (Onsite)

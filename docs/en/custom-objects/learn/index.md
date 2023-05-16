@@ -7,8 +7,8 @@ so.date: 02.23.2023
 keywords: custom object
 so.topic: concept
 language: en
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Custom objects

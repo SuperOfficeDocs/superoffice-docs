@@ -9,8 +9,8 @@ so.topic: howto
 so.version: 10
 so.lang: en
 so.envir:
-so.user: user
-so.user.tooltip: SuperOffice CRM
+so.audience: person
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Edit email signature

@@ -6,8 +6,8 @@ author: Hanne Gunnarsson
 so.date: 03.16.2023
 keywords: request, message
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: en
 ---
 

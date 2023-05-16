@@ -6,8 +6,8 @@ author: Kirsti Aakerholt
 so.date: 04.12.2023
 keywords: Gmail Link, email
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice CRM
+so.audience: person
+so.audience.tooltip: SuperOffice CRM
 language: en
 ---
 

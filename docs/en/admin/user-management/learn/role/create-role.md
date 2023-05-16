@@ -6,7 +6,8 @@ author: Bergfrid Dias
 so.date: 03.15.2023
 keywords: role, user management
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 

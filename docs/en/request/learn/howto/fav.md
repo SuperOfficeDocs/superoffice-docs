@@ -6,8 +6,8 @@ description: Add requests to the favorites list
 so.date: 06.29.2022
 keywords: request, fav
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: en
 ---
 
