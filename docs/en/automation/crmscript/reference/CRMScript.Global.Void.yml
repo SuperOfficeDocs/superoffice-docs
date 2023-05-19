@@ -3590,7 +3590,7 @@ items:
       type: CRMScript.Global.Bool
       description: "Whether to pause (true) or unpause (false)."
     return:
-      type: CRMScript.Native.Integer
+      type: CRMScript.Global.Integer
       description: "The current pause level after process this call."
   example: 
 - uid: CRMScript.Global.Void.pow()
