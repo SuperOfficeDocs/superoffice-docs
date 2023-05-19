@@ -171,6 +171,7 @@ items:
   - CRMScript.Global.Void.parseJSON(String)
   - CRMScript.Global.Void.parseJSON2(String)
   - CRMScript.Global.Void.parseXML(String)
+  - CRMScript.Global.Void.pauseTracing(Bool)
   - CRMScript.Global.Void.pow()
   - CRMScript.Global.Void.print(String)
   - CRMScript.Global.Void.printBinary(Byte[])
@@ -3568,6 +3569,29 @@ items:
     return:
       type: CRMScript.Native.XMLNode
       description: "The root XMLNode."
+  example: 
+- uid: CRMScript.Global.Void.pauseTracing(Bool)
+  commentId: M:CRMScript.Global.Void.pauseTracing(Bool)
+  id: 'pauseTracing(Bool)'
+  so.intellisense: Void.pauseTracing
+  so.version: 10.2.6
+  langs:
+  - crmscript
+  name: 'pauseTracing(Bool)'
+  nameWithType: Void.pauseTracing(Bool)
+  fullName: CRMScript.Global.Void.pauseTracing(Bool)
+  type: Method
+  summary: "\nPauses or unpauses script tracing, depending on the parameter. Multiple calls to pauseTracing(true) must be matched with an equal number of calls to pauseTracing(false) to unpause.\n"
+  remarks: 
+  syntax: 
+    content: Integer pauseTracing(Bool pause)
+    parameters:
+    - id: pause
+      type: CRMScript.Global.Bool
+      description: "Whether to pause (true) or unpause (false)."
+    return:
+      type: CRMScript.Native.Integer
+      description: "The current pause level after process this call."
   example: 
 - uid: CRMScript.Global.Void.pow()
   commentId: M:CRMScript.Global.Void.pow()
