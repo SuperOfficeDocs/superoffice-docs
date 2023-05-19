@@ -9,7 +9,8 @@ items:
 - name: Preferences
   href: preferences.md
 - name: Connect email and documents
-  href: connect-email-documents-diary.md
+  href: connect-email-doc/toc.yml
+  topicHref: connect-email-doc/index.md
 - name: WebTools
   href: ../../webtools/learn/toc.yml
   topicHref: ../../webtools/learn/index.md

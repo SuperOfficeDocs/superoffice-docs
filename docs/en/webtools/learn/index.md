@@ -56,7 +56,7 @@ Installing WebTools for Mac will enable an integration between Microsoft Office 
 [5]: ../../document/learn/create.md
 [6]: https://community.superoffice.com/no/support-faqs/faq/what-is-superoffice-web-tools-and-what-does-it-do/
 [7]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-the-superoffice-inbox/
-[8]: ../../learn/getting-started/connect-email-documents-diary.md
+[8]: ../../learn/getting-started/connect-email-doc/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/main-menu-small.png
