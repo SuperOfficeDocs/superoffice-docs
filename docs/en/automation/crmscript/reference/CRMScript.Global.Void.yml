@@ -572,7 +572,7 @@ items:
   commentId: M:CRMScript.Global.Void.authenticateCustomer(String,String)
   id: 'authenticateCustomer(String,String)'
   so.intellisense: Void.authenticateCustomer
-  so.version: 10.2.25
+  so.version: 10.2.5
   langs:
   - crmscript
   name: 'authenticateCustomer(String,String)'
