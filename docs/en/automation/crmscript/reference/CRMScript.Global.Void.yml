@@ -579,7 +579,7 @@ items:
   nameWithType: Void.authenticateCustomer(String,String)
   fullName: CRMScript.Global.Void.authenticateCustomer(String,String)
   type: Method
-  summary: "\nChecks a customers username and password. Returns personId if successful, otherwise a null Integer.\n"
+  summary: "\nChecks a customer's username and password. Returns personId if successful, otherwise a null Integer.\n"
   remarks: 
   syntax: 
     content: Integer authenticateCustomer(String username, String password)
