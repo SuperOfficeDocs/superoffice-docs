@@ -3,7 +3,7 @@ uid: help-en-connect-email-document-diary
 title: Connect email, document and diary
 description: Connect your emails, documents and diary to SuperOffice CRM.
 author: Kirsti Aakerholt
-so.date: 05.19.2023
+so.date: 05.22.2023
 keywords: email, document, diary, invitation
 so.topic: howto
 so.version: 10
@@ -32,9 +32,29 @@ Which integration options you need is based on your operating system, email clie
 * [Microsoft 365][2]
 * [Google Workspace][3]
 
+## Examples after setup
+
+### Diary with incoming invitations
+
+![Notifications with incoming invitations via Inbox SuperOffice -screenshot][img1]
+*Notifications with incoming invitations via SuperOffice Inbox*
+
+### Inbox with incoming invitations
+
+![SuperOffice Inbox is set up and will get incoming invitations with Accept/Decline buttons -screenshot][img2]
+*SuperOffice Inbox is set up and will get incoming invitations with Accept/Decline buttons*
+
+### Use of SuperOffice for Outlook application
+
+![Use the application **SuperOffice for Outlook** to archive mails to SuperOffice -screenshot][img3]
+*Use the application **SuperOffice for Outlook** to archive mails to SuperOffice*
+
 <!-- Referenced links -->
 [1]: connect-superoffice-integration.md
 [2]: connect-microsoft-365.md
 [3]: connect-google-workspace.md
 
 <!-- Referenced images -->
+[img1]: ../media/diary-notification.png
+[img2]: ../media/inbox-invitation.png
+[img3]: ../media/outlook-archive-mail-superoffice-for-outlook.png

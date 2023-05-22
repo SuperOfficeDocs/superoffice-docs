@@ -26,6 +26,8 @@ For you who has Outlook 365 and want to [connect it to SuperOffice][2] to work e
 
 ## Document
 
+Your company can [set up the Microsoft Sharepoint document library][5]. Sharepoint is web-based collaborative platform that integrates with Microsoft Office.
+
 ### SharePoint document library
 
 This integration allows you to store all documents and emails in [SharePoint Online][3], where they can be accessed by everyone in the company.

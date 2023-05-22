@@ -30,6 +30,8 @@ For you who has Outlook 365 and want to connect it to SuperOffice to work effort
 
 ## Document
 
+The standard implementation for SuperOffice is the default **SuperOffice document library**.
+
 ### SuperOffice document library with WebTools
 
 Are you using Windows OS? Install [WebTools][1] to integrate your Outlook and Microsoft Office document applications with SuperOffice.
