@@ -3,7 +3,7 @@ uid: help-en-section-tabs
 title: The Section tabs
 description: The Section tabs
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: 05.24.2023
 keywords: section tab, archive
 so.topic: concept
 language: en
@@ -42,7 +42,6 @@ To reduce the loading time, only a specified number of records are displayed whe
 
 * [Grouping lists][3]
 * [Use filters in the section tabs][4]
-* [Change the rank of contacts][16]
 * [Configure columns][6]
 * [Export section tabs][7]
 * [Section tabs in the Company screen][9]
@@ -66,7 +65,6 @@ To reduce the loading time, only a specified number of records are displayed whe
 [13]: ../../project/learn/screen/index.md
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
-[16]: ../../company/learn/change-rank-of-contacts.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

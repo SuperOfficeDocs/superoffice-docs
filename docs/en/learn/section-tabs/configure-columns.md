@@ -3,7 +3,7 @@ uid: help-en-section-tabs-configure
 title: Changing the column view
 description: Changing the column view
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: 05.24.2023
 keywords: section tab, archive, column
 so.topic: howto
 language: en
@@ -52,11 +52,13 @@ You can set columns widths to be adjusted automatically according to the content
 ## Related topics
 
 * [Group lists][3]
-* [Change the rank of contacts][4]
+* [Filter the section tabs][1]
+* [Export content in the section tabs][2]
 
 <!-- Referenced links -->
+[1]: filter.md
+[2]: export-archives.md
 [3]: group.md
-[4]: ../../company/learn/change-rank-of-contacts.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png
