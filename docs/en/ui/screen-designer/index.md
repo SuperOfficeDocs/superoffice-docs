@@ -3,7 +3,7 @@ uid: screen-designer
 title: Screen designer
 description: Introduction to the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 10.10.2022
+so.date: 05.05.2023
 keywords: ui, screen, customization
 so.topic: concept
 so.version: 10

@@ -3,7 +3,7 @@ uid: screen-add-layout
 title:  Add a layout
 description: How to add a layout using the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 10.10.2022
+so.date: 05.05.2023
 keywords: ui, screen, customization
 so.topic: howto
 so.version: 10
@@ -23,7 +23,7 @@ To create a new screen layout:
 
 1. Open the Screen Designer.
 
-2. At the top, select a screen: Company, Contact, Sale, or Project.
+2. At the top, select a screen: Company, Contact, Sale, Project, or Request.
 
 3. Under **Layouts**, click **Add**.
 
