@@ -14,33 +14,33 @@ so.lang: en
 
 With Google Workspace as your solution, there are several ways to connect your email account, documents and invitations to SuperOffice. Choose the area below of which you need help to set up.
 
-## Email
+## Email ![icon][img1]
 
-### SuperOffice Inbox
+* **[SuperOffice Inbox][1]**
 
-Not able to use WebTools to set up your email? We'll help you set up your [SuperOffice Inbox][1] without it.
+    Not able to use WebTools to set up your email? We'll help you set up your [SuperOffice Inbox][1] without it.
 
-### Gmail link integration
+* **[Gmail link integration][2]**
 
-[Gmail Link][2] connects your Gmail account to SuperOffice CRM and helps you work more productively with emails.
+    [Gmail Link][2] connects your Gmail account to SuperOffice CRM and helps you work more productively with emails.
 
-## Document
+## Document ![icon][img2]
 
-### Google Workspace documents
+* **[Google Workspace documents][3]**
 
-The [Google Workspace integration][3] for documents enables you to work effortlessly with documents from SuperOffice CRM.
+    The [Google Workspace integration][3] for documents enables you to work effortlessly with documents from SuperOffice CRM.
 
-## Diary & invitations
+## Diary & invitations ![icon][img3]
 
-### SuperOffice Inbox
+* **[SuperOffice Inbox][1]**
 
-Set up your [SuperOffice Inbox][1] without WebTools to get the invitations sent to your inbox in your SuperOffice Diary.
+    Set up your [SuperOffice Inbox][1] without WebTools to get the invitations sent to your inbox in your SuperOffice Diary.
 
-### Synchronizer for SuperOffice
+* **[Synchronizer for SuperOffice][4]**
 
-Keep appointments, tasks, and contacts in sync between Google calendar and SuperOffice using [Synchronizer for SuperOffice][4]. You install it from SuperOffice App Store.
+    Keep appointments, tasks, and contacts in sync between Google calendar and SuperOffice using [Synchronizer for SuperOffice][4]. You install it from SuperOffice App Store.
 
-## Related topics
+## Install integrations/applications
 
 * [Set up SuperOffice Inbox][1]
 * [Install Gmail Link][2]
@@ -54,3 +54,6 @@ Keep appointments, tasks, and contacts in sync between Google calendar and Super
 [4]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
 
 <!-- Referenced images -->
+[img1]: ../../../../../common/icons/email.png
+[img2]: ../../../../../common/icons/document.png
+[img3]: ../../../../../common/icons/nav-diary.png

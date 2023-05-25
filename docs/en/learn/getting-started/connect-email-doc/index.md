@@ -18,9 +18,12 @@ Connecting your emails, your documents and your diary (for invitations) to Super
 
 The setup or installation contains of three different parts:
 
-* **E-mail integration** - possibility to archive incoming and outgoing emails.
-* **Document integration** - possibility to archive all kinds of files used in your communication with customers and contacts.
-* **Diary & invitations integration** - possibility to use your diary for incoming and outgoing invitations.
+| | Application | Description |
+|---|---|---|
+| ![icon][img4] | **E-mail integration** | Possibility to archive incoming and outgoing emails. Using SuperOffice will help you to share all communication you have with your contacts, that also includes e-mails. And to be able to archive incoming or outgoing emails you need to have some kind of integration between SuperOffice and your email client.|
+| ![icon][img5] | **Document** | Possibility to archive all kinds of files used in your communication with customers and contacts. The standard implementation for SuperOffice is the default SuperOffice document library, but you can also set up to use Office 365/Sharepoint document library or Google Workspace library. |
+| ![icon][img6] | **Diary / Invitation** | Possibility to use your diary for incoming and outgoing invitations. When having incoming and outgoing invitations, it's neat to have all your appointments inside SuperOffice linked to the correct contact. To be able to get your iCals to show up in your diary you should do one of the installation/setup for your solution. |
+|
 
 ## What solution does your organisation use?
 
@@ -28,8 +31,8 @@ Which integration options you need is based on your operating system, email clie
 
 ### Choose your solution below
 
-* [SuperOffice][1]
-* [Microsoft 365][2]
+* [SuperOffice default][1]
+* [Microsoft 365 (Sharepoint)][2]
 * [Google Workspace][3]
 
 ## Examples after setup
@@ -58,3 +61,6 @@ Which integration options you need is based on your operating system, email clie
 [img1]: ../media/diary-notification.png
 [img2]: ../media/inbox-invitation.png
 [img3]: ../media/outlook-archive-mail-superoffice-for-outlook.png
+[img4]: ../../../../../common/icons/email.png
+[img5]: ../../../../../common/icons/document.png
+[img6]: ../../../../../common/icons/nav-diary.png

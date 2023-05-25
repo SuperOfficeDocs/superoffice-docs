@@ -14,7 +14,7 @@ so.lang: en
 
 With Microsoft 365 as your solution, there are several ways to connect your email account, documents and invitations to SuperOffice. Choose the area below of which you need help to set up.
 
-## Email
+## Email ![icon][img1]
 
 ### SuperOffice Inbox
 
@@ -24,7 +24,7 @@ Not able to use WebTools? We'll help you set up your [SuperOffice Inbox][1] with
 
 For you who has Outlook 365 and want to [connect it to SuperOffice][2] to work effortlessly between the two solutions.
 
-## Document
+## Document ![icon][img2]
 
 Your company can [set up the Microsoft Sharepoint document library][5]. Sharepoint is web-based collaborative platform that integrates with Microsoft Office.
 
@@ -32,7 +32,7 @@ Your company can [set up the Microsoft Sharepoint document library][5]. Sharepoi
 
 This integration allows you to store all documents and emails in [SharePoint Online][3], where they can be accessed by everyone in the company.
 
-## Diary & invitations
+## Diary & invitations ![icon][img3]
 
 ### SuperOffice Inbox
 
@@ -60,3 +60,6 @@ Keep appointments, tasks, and contacts in sync between Microsoft Outlook and Sup
 [6]: ../../../document/cloud/sharepoint-documents/requirements.md
 
 <!-- Referenced images -->
+[img1]: ../../../../../common/icons/email-h32.png
+[img2]: ../../../../../common/icons/document-h32.png
+[img3]: ../../../../../common/icons/nav-diary-h32.png

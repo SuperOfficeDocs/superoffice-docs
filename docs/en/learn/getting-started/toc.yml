@@ -11,8 +11,5 @@ items:
 - name: Connect email, document and diary
   href: connect-email-doc/toc.yml
   topicHref: connect-email-doc/index.md
-- name: WebTools
-  href: ../../webtools/learn/toc.yml
-  topicHref: ../../webtools/learn/index.md
 - name: Edit email signature
   href: edit-email-signature.md

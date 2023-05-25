@@ -15,7 +15,7 @@ Installing WebTools for Mac will enable an integration between Microsoft Office 
 
 WebTools allows you to open and edit Microsoft Office documents directly in SuperOffice CRM. Learn how by following the guided steps below:
 
-1. Go to the Main menu in SuperOffice and select **Download + SuperOffice WebTools**.
+1. Go to the Main menu in SuperOffice and select **Download** > **SuperOffice WebTools**.
 
 1. Open the file in **DiskImage** and Drag-and-drop the app-file into the *Application* folder on your Mac
 
@@ -54,8 +54,9 @@ Set the preferences to fit your needs:
 ![Set the preferences to fit your needs -screenshot][img4]
 
 > [!NOTE]
-> * SuperOffice only provides integration for Microsoft Office document applications, and not for Apple applications Pages, Numbers and Keynote. You need the Office package to have documents integrated.
-> * Web Tools for Mac only enables a document integration, and not an email integration. If you use a Mac and want to integrate your email, please configure your SuperOffice Inbox.
+> SuperOffice only provides integration for Microsoft Office document applications, and not for Apple applications Pages, Numbers and Keynote. You need the Office package to have documents integrated.
+>
+> Web Tools for Mac only enables a document integration, and not an email integration. If you use a Mac and want to integrate your email, please configure your SuperOffice Inbox.
 
 ## Related content
 
@@ -67,6 +68,6 @@ Set the preferences to fit your needs:
 [2]: ../../learn/getting-started/connect-email-doc/index.md
 
 <!-- Referenced images -->
-[img2]: media/webtools-mac-install.jpg
-[img3]: media/webtools-mac-login-items.jpg
-[img4]: media/webtools-mac-preferences.jpg
+[img2]: ../../../media/loc/en/webtools/webtools-mac-install.jpg
+[img3]: ../../../media/loc/en/webtools/webtools-mac-login-items.jpg
+[img4]: ../../../media/loc/en/webtools/webtools-mac-preferences.jpg
