@@ -3,6 +3,8 @@ items:
     href: index.md
   - name: Favorites
     href: fav.md
+  - name: History list
+    href: history.md
   - name: Taking notes
     href: notes.md
   - name: Duplicate checks

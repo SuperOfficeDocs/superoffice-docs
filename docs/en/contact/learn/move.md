@@ -23,7 +23,7 @@ You can move a contact - including their activities and memberships - from one c
     * In the Contact screen: Go to the required contact, click the **Task** button ![icon][img2] in the contact card, and select **Manage contacts** and **Move contact**.
 
 1. In the **Move contact** dialog under **Action on contact**, select one of the following options:
-    * Select **Move to** and choose the company you want to move the contact to. Use [FastSearcher][1], [The History list][2] or [Find][3] ![icon][img3].
+    * Select **Move to** and choose the company you want to move the contact to. To do this, either click the arrow and select a company from the displayed list, or type the whole or the beginning of the name.
     * Select **Disconnect from &lt;company&gt;**.
 
 1. Select one of the following under **Action on all existing activities and sales**:
@@ -39,10 +39,6 @@ You can move a contact - including their activities and memberships - from one c
 > You cannot move contacts (SuperOffice users) in your own company.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
-[3]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/icons/btn-menu.png
-[img3]: ../../../../common/icons/search-icon-black.png

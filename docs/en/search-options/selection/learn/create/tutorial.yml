@@ -14,9 +14,9 @@ items:
   content: |
     1. Click **New** on the Top bar and select **Selection**.
 
-    1. In the Find screen, click the **Find** option that is relevant for the data type you want to use in your selection. You can also click **Typical searches** to use pre-defined searches.
+    1. In the Find screen, click the **Find** option that is relevant for the data type you want to use in your selection. You can also click **Typical searches** to use predefined searches.
 
-    1. [Add your search criteria](../../../learn/using-search-criteria.md) in the **Criteria** tab.
+    1. [Add your search criteria](../../../learn/search-criteria.md) in the **Criteria** tab.
 
     1. Click **Find**. The **Results** tab displays the data matching your criteria.
 

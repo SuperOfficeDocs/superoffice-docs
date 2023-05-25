@@ -84,7 +84,7 @@ The fields below correspond to the fields on the company card.
 * Match also: Here you can specify further [search criteria][1].
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md
 [2]: delete-user.md
 
 <!-- Referenced images -->

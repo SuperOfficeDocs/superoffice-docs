@@ -1,9 +1,9 @@
 ---
 uid: help-en-search-intro
-title: Search options in CRM
+title: Search options
 description: Learn how to search and find data in SuperOffice CRM with just a few clicks.
 author: Bergfrid Dias
-so.date: 12.14.2022
+so.date: 05.25.2023
 keywords: search, find
 so.topic: concept
 language: en
@@ -11,21 +11,9 @@ language: en
 
 # Search options
 
-Searching for information in your CRM database is something you do every day. Whether you're looking for a phone number or a list of all of your open sales, the Find feature will help you locate the information faster.
+Searching for information in your CRM database is something you do every day. With SuperOffice Find you can search for a single piece of data, such as a phone number, or a list of data, such as a list of mailing recipients.
 
-The following how-to guides will:
-
-* Show you the different ways you can find information in SuperOffice CRM database.
-* Explain how you can save your searches as a selection.
-* Demonstrate what tasks you can perform using your search or selections.
-
-With SuperOffice Find you can search for a single piece of data, such as a phone number, or a list of data, such as a list of mailing recipients.
-
-SuperOffice CRM contains several different search tools:
-
-* [FastSearcher][3]
-* [The Find button][1]
-* [Free-text search field][2]
+The following how-to guides will: Show you the different ways you can find information in SuperOffice CRM database; Explain how you can save your searches as a selection; Demonstrate what tasks you can perform using your search or selection.
 
 ## What can I search for?
 
@@ -42,54 +30,67 @@ SuperOffice CRM contains several different search tools:
 * Form submissions
 * Mailings
 
-## Using FastSearcher
+## Tools
 
-You can use [FastSearcher][3] or the [history list][5] to search for companies, sales, projects, and selections.
+SuperOffice CRM has multiple search tools:
 
-**FastSearcher** can be found either in the **Navigator** menu by pressing on the company, contact, sales, project or selection to open a search field, or within pop-up dialogs to search for companies, contacts, sales, projects and selections.
+* FastSearcher
+* The Find button
+* Free-text search field
 
-It will quickly make you a list that match your search words. Use it to check your database for possible duplicates before adding a new company or contact.
+Choose the right tool for your task:
+
+| Task | Tool |
+|---|---|
+| Find and go to a specific item, such as a sale | FastSearcher in the Navigator, or Favorites, or History |
+| Check before adding a company or contact to avoid duplicates | FastSearcher in the Navigator |
+| Find all items of a specific type that match one or more conditions | Find button |
+| Create a selection (save search) | Find button |
+| Run a predefined search (typical search) | Find button |
+| Find all items regardless of type that match specific words or phrases | Free-text search |
+
+The main difference between these tools is whether you specify keywords or conditions.
+
+## <a id="fastsearcher" />FastSearcher
+
+You can use the FastSearcher in the Navigator menu and within dialogs. As you type, the FastSearcher builds a list of items that match your search words.
 
 ![Use the FastSearcher to navigate quick and easy in the Navigator -screenshot][img1]
 
-### FastSearch tips
+You can use FastSearcher in various ways:
 
-You can use %% to see all records of a certain type, such as all companies, all selections, all projects.
+* To [search directly from the Navigator][3] to access the a company, contact, sale, project, request, or selection.
 
-If, for example, you want to see all the document templates available in SuperOffice CRM, go to the **+New** menu and click **Document**. In the top field in the document screen, which indicates types of document templates, type %%. You will then see a drop-down list that includes the full list of document templates available.
+* To search [from within a dialog][8] for a company, contact, sale, project, request, and selection to link it to a relevant field in that dialog. For example, to link to a sale in the **Document** dialog or to a company in the **Appointment** dialog.
 
-![Type in two percentage signs in the FastSearcher to see all records -screenshot][img4]
+* To search directly in the [time zone selector][2] to find the time zone for the required city or country.
 
-## Using the Find button
+## Free-text search
 
-If you click the **Find** button on the top bar, you open the [Find screen][1], where you can search for data in SuperOffice.
-
-The Find button helps you find records based on any criteria from companies, contacts, projects, selections, sales, products, follow-ups, documents and requests.
-
-![Click the Find button in the top bar to get to the Find screen -screenshot][img2]
-
-When you use the Find feature, you can save each search you perform as a selection.
-
-## Using free-text search
-
-Use the [free-text search][2] search field in the upper-right corner to search for any text that users have entered into SuperOffice CRM.
+Click [free-text search][2] in the upper-right corner to search for any text that users have entered into SuperOffice CRM.
 
 ![You will find the free-text search to the right in the top bar -screenshot][img3]
 
 > [!TIP]
-> Want to see a list of all your contacts? Click on the **Selections** icon in the left-side navigator panel and search for "All Contacts" to see a pre-configured selection.
+> Want to see a list of all your contacts? Click on the **Selections** icon in the left-side Navigator and search for "All Contacts" to see a pre-configured selection.
 
-## Using wild cards
+## Wildcards
 
-Use **%** as a wild card when searching. The percent character (%) matches any string of 0 or more characters. For example: J%son matches Jackson, Johnson, Jason, and Json.
+Use the percent character (%) as a wildcard character when searching. **%** matches any string of 0 or more characters. For example: J%son matches Jackson, Johnson, Jason, and Json.
 
-[!include[Use wildcard in search](includes/tip-search-wildcard.md)]
+## The Find button
+
+Click the **Find** button on the top bar to open the [Find screen][1], where you can search for data in SuperOffice. The **Find** button helps you find records [based on any criteria][6] from companies, contacts, projects, selections, sales, products, follow-ups, documents, and requests.
+
+![Click the Find button in the top bar to get to the Find screen -screenshot][img2]
+
+From the Find screen, you can save each search you perform as a selection.
 
 ## <a id="typical" />Use typical searches as a starting point
 
-A typical search is a pre-defined search that we have set up for you, so you can see what other users typically search for. Each data set in the Find screen contains a list of typical searches that are ready to be used.
+A typical search is a *predefined search* based on what other users typically search for. Each data set in the Find screen contains a list of ready-to-use, pre-set search criteria.
 
-A typical search is a great way to start looking for data in SuperOffice CRM. You can find typical searches by clicking below the group of data you are interested in. Containing pre-set search criteria, typical searches can be used as they are, modified or expanded.
+To get started, click the **Find** button and then click below the group of data you are interested in. Use the typical search as-is or modify or expand it.
 
 ### Example: My overdue follow-ups
 
@@ -104,11 +105,9 @@ Watch this video to learn how to do a typical search and modify it by adding new
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
 
-[Read more][6]
-
 ## <a id="search-to-selection" />Create a search and save it as a selection
 
-A selection is a list of data that shares one or more search criteria. It can be later used to perform a number of actions. In this guide we will explain how you can create a search and save it as a selection.
+A selection is a list of data that shares one or more search criteria. It can be used to perform a number of actions. In this guide we will explain how you can create a search and save it as a selection.
 
 A selection is a great tool to extract useful information from your CRM database. It helps you find information based on criteria you choose and places the information in a list for further action.
 
@@ -132,21 +131,22 @@ Watch this video or follow the steps below to learn how you can create a search 
 ## Related content
 
 * [Favorites][4]
+* [The History list][5]
 * [Create a search and save it as a selection][7]
-* Broaden your search using the OR function
+* [Broaden your search using the OR function][1]
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: freetext-search.md
-[3]: using-fastsearcher.md
+[3]: in-navigator.md
 [4]: ../../learn/basics/fav.md
-[5]: using-history-list.md
-[6]: using-search-criteria.md
+[5]: ../../learn/basics/history.md
+[6]: search-criteria.md
 [7]: ../selection/learn/create/index.md
+[8]: in-dialogs.md
 
 <!-- Referenced images -->
 [img1]: media/search-find-fastsearcher.png
 [img2]: media/getstarted-search-find-findscreen.png
 [img3]: media/freetext-search-find.png
-[img4]: media/getstarted-document-fastsearcher.png
 [img5]: media/typical-search.png

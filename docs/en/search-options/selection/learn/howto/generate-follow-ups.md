@@ -28,7 +28,7 @@ You can create a follow-up to appear, for example, on the activities list of all
 7. Choose which project to link the follow-up to in the **Project** field. Do one of the following:
 
     * Click the arrow and select a project from the list.
-    * Typing the whole or the beginning of the project name (see [The History list][2] and [FastSearcher][3]).
+    * Typing the whole or the beginning of the project name.
 
 8. In the **Priority** field, specify the priority of the follow-up. Click the arrow to display a list with the default options of high, medium and low priority.
 
@@ -54,7 +54,5 @@ You can create a follow-up to appear, for example, on the activities list of all
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../../../learn/using-history-list.md
-[3]: ../../../learn/using-fastsearcher.md
 
 <!-- Referenced images -->

@@ -3,8 +3,8 @@ uid: help-en-time-zones
 title: Time zones
 description: Time zones
 author: SuperOffice RnD
-so.date: 07.04.2022
-keywords: CRM
+so.date: 05.08.2023
+keywords: time zone, country, localization, flag
 so.topic: concept
 language: en
 ---
@@ -31,14 +31,22 @@ This function supports summer time.
 
 Time zones are displayed in a list box in the [Diary][1] and in the [dialog for follow-ups][3]. The default time zone for your SuperOffice database is displayed at the top, using this icon: ![icon][img1].
 
-The time zone list is sorted by country. At the top of the list is the name of the selected country and its flag. You can get to the time zone list in several different ways:
-
-* Use the field at the top with the selected country and flag as a search field. You can search in the time zone field in the same way as in the [FastSearcher][2] fields, and you can search for both countries and cities, assuming the city is included in the time zone data. For example, if you do not know the time zone for Canberra, you can search for Canberra and bring up the relevant Australian time zone in the list.
-
-* By searching for a number of hours to find the correct time zone. For example, if you enter +3, all time zones that are three hours after the time zone specified in SuperOffice CRM will be displayed.
+The time zone list is sorted by country. At the top of the list is the name of the selected country and its flag.
 
 > [!NOTE]
 > Names of regions in the time zone selector will always be in English, while country names depend on the language settings in SuperOffice CRM. Do not forget this when searching for countries and regions.
+
+### Search for country or city
+
+Use the field at the top with the selected country and flag as a search field. You can search for both countries and cities, assuming the city is included in the time zone data. For example, if you do not know the time zone for Canberra, you can search for Canberra and bring up the relevant Australian time zone in the list.
+
+1. Put the mouse pointer in the country field.
+2. Enter the name of the city or country you want to find out the time zone for.
+3. After you have found the required city or country, click the item to enable the required time zone.
+
+### Search for time difference
+
+Search for a number of hours to find the correct time zone. For example, if you enter +3, all time zones that are three hours after the time zone specified in SuperOffice CRM will be displayed.
 
 ## Handy hints on time zones
 
@@ -48,7 +56,6 @@ The time zone list is sorted by country. At the top of the list is the name of t
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
-[2]: ../../search-options/learn/using-fastsearcher.md
 [3]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->

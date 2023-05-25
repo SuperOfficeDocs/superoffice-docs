@@ -24,7 +24,7 @@ If two companies in your customer database decide to merge or one of the compani
 1. Select **Manage companies** from the ![icon][img3] **Task** button, and click **Merge companies**.
     The **Merge companies** dialog opens. The source company is specified under **From**.
 
-1. Under **To company**, select the company you want to update with information from the source company. Start typing in the field to [search for a company][1].
+1. Under **To company**, select the company you want to update with information from the source company. Start typing in the field to search for a specific company.
 
     > [!TIP]
     > To switch the **From** and **To** companies, click the ![icon][img1] button.
@@ -63,7 +63,6 @@ If two companies in your customer database decide to merge or one of the compani
 * [Merge contacts][2]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->

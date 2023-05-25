@@ -181,3 +181,5 @@ items:
   items:
   - name: Custom database and UI
     href: tutorials/custom-db-and-ui.md
+  - name: Expand quick search
+    href: tutorials/expand-quick-search.md

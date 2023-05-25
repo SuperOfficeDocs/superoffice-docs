@@ -132,7 +132,7 @@ Shows a list of members of the current selection in the Selection screen.
 In Settings and maintenance, you can also define your own views for the side panel.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-history-list.md
+[1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
 [3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md

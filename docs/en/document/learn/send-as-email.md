@@ -29,7 +29,7 @@ language: en
 
     If the **Select email address** dialog is shown:
 
-    1. Choose the company to send the document to in the company field. By default the company that is active in the Company screen is shown. Here you can also use [FastSearcher][1] or [The History list][2]. After you have chosen a company, their email address is displayed next to the company field.
+    1. Choose the company to send the document to in the company field. By default the company that is active in the Company screen is shown. To choose another company, either click the arrow and select a company from the displayed list, or type the whole or the beginning of the name. After you have chosen a company, their email address is displayed next to the company field.
 
     2. To send it to a specific person in the company, choose from the available alternatives in the list box for contacts. After you have chosen a contact, their email address is displayed next to the list box for contacts.
 
@@ -50,8 +50,6 @@ language: en
 3. Click **Send** to send the message.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
 
 <!-- Referenced images -->
 [img1]: media/email-document-send-as-email.png

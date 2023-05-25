@@ -27,7 +27,7 @@ The main section contains the following essential information about the follow-u
 
 ### Type
 
-Click the arrow next to this field (![icon][img2]) to display a predefined list of follow-up types to choose from, for example, a meeting or outgoing phone call. You can also search for types by typing into this field. Here you can also use [FastSearcher][12].
+Click the ![icon][img2] arrow next to this field to display a predefined list of follow-up types to choose from, for example, a meeting or outgoing phone call. You can also search for types by typing into this field.
 
 > [!NOTE]
 > The **Type** field determines the type of follow-up in question: appointment, task, or phone call.
@@ -169,7 +169,6 @@ This tab displays any [custom fields][14] configured in Settings and maintenance
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md
-[12]: ../../../search-options/learn/using-fastsearcher.md
 [13]: ../../../learn/getting-started/preferences.md
 [14]: ../../../custom-objects/learn/index.md
 
