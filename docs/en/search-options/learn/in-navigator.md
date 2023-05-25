@@ -3,7 +3,7 @@ uid: help-en-fastsearcher-navigator
 title: FastSearcher in Navigator
 description: How to use FastSearcher in the Navigator in SuperOffice
 author: Bergfrid Dias
-so.date: 05.10.2023
+so.date: 05.25.2023
 keywords: search, FastSearcher
 so.topic: howto
 language: en
@@ -19,6 +19,14 @@ language: en
 
 3. Click the required record to open it.
 
+## How it works
+
+The Navigator FastSearcher runs two parallel searches:
+
+* A standard *begins-with* search with optional wildcard (%). In a phrase, the longest word is looked up first.
+
+* An *exact-match* *sounds-like* ([SoundEx][2]) search. If the phrase contains short words, multiple words are needed before look-up starts. The result is shown only if the standard search has 0 matches.
+
 ## Examples
 
 * You can search for a sale by entering the name of the sale or the name of a company linked to the sale, in the FastSearcher field for **Sales** in the Navigator.
@@ -29,6 +37,7 @@ language: en
 
 <!-- Referenced links -->
 [1]: ../../learn/basics/history.md
+[2]: ../../api/osql/soundx.md
 
 <!-- Referenced images -->
 [img1]: media/quicksearch-company.bmp

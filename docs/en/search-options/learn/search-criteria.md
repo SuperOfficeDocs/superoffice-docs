@@ -1,15 +1,15 @@
 ---
 uid: help-en-search-criteria
-title: Using search criteria
-description: Using search criteria
+title: Working with search criteria
+description: How to add and modify search criteria
 author: Bergfrid Dias
-so.date: 05.10.2023
+so.date: 05.25.2023
 keywords: search, criteria, find
 so.topic: howto
 language: en
 ---
 
-# Use search criteria
+# Working with search criteria
 
 You use search criteria to define what you are looking for, for example "companies with an address in Denmark". Search criteria are used in multiple places in SuperOffice CRM, for instance in the **Find** screen and when creating selections. But, regardless of what you are using the criteria for, you work with them in the same way.
 
@@ -33,13 +33,13 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
 3. Select the field you want to search for information in. You can also [enter the start of the name][2] in the appropriate field. There are different types of fields:
 
-    * Text
-    * Yes/No
-    * Date
-    * Number
-    * List
-    * Status
-    * Counter
+    * [Text](#text)
+    * [Yes/No](#yes-no)
+    * [Date](#date)
+    * [Number](#number)
+    * [List](#list)
+    * [Status](#status)
+    * [Counter](#counter)
 
 4. Select values for the search criteria in the various fields on the line.
 
@@ -47,71 +47,65 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
 ## Field types
 
-### Text field
+### <a id="text" />Text field
 
 If the field you are searching in is a text field (such as a name), the search is made on text or numbers you enter. A list with the following options is displayed:
 
-[!include[Search criteria](../../learn/includes/list-search-criteria.md)]
+[!include[Search criteria](includes/list-search-criteria.md)]
 
 Select one of these options and then enter the search criteria in the text field on the right.
 
-### Yes/No field
+### <a id="yes-no" />Yes/No field
 
 If the field you are searching in is a Yes/No field, for example, the **No mailings** field in the Company screen, two radio buttons are displayed. You can choose between **Yes** and **No**.
 
-### Date field
+### <a id="date" />Date field
 
 If the field you are searching in is a date field, for example, the **Date** field in the **Document** dialog, a list box is displayed containing the following options:
 
-[!include[Search criteria](../../learn/includes/list-date-criteria.md)]
+[!include[Search criteria](includes/list-date-criteria.md)]
 
 Select the required option. Depending on what you select, the field is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ![icon][img1].
 
-### Number field
+### <a id="number" />Number field
 
 If the field you are searching in contains a numerical value, for example, the **Amount** field in the Sale screen, a list box is displayed containing the following options:
 
-[!include[Search criteria](../../learn/includes/table-number-criteria.md)]
+[!include[Search criteria](includes/table-number-criteria.md)]
 
 Select the required option and enter the required numerical value in the text field on the right.
 
-### List field
+### <a id="list" />List field
 
-If the field you are searching in is a field containing lists, for example, the **Business** field in the Company screen, a list box appears with the options **Is one of** and **Is not one of**.
+If the field you are searching in is a field containing lists, for example, the **Business** field in the Company screen, a list box appears with the options **Is one of** and **Is not one of**. For company and contact interests, the options are **Is equal**, **Is one of**, and **None of**.
 
-Click the **Select items** field to display the list of values.
+1. Click the **Select items** field to display the list of values.
+1. If the list is long, you can type text in the **Search criteria** fields to search for values.
+1. Click outside the list to close it.
 
-If the list is long, you can type text in the **Search criteria** fields to search for values.
-
-Click outside the list to close it.
-
-### Status field
+### <a id="status" />Status field
 
 If the field you are searching in is a status field, select the required status.
 
-The statuses are created and maintained in Settings and maintenance.
+The statuses are created and maintained in Settings and maintenance. Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
 
-Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
-
-### Counter field
+### <a id="counter" />Counter field
 
 [Counters][3] can be, for example, the number of sales in a period or the date of the last completed sale.
 
 Counter fields can be found under **Counters (SAINT)** in the list of criteria.
 
-The counters are created and maintained in Settings and maintenance.
+1. To the right of the fields, click the links to specify additional criteria for the counters. The available options depend on the type of record and counter you are working with.
 
-Counter fields are only relevant if you have purchased a licence for and have enabled status monitors.
+    * **SAINT type**: Choose the activity type you want to search for.
+    * **Status**: Choose the status of the record you want to search for.
+    * **Direction**: Choose if the activity is incoming or outgoing.
+    * **Amount class**: Choose the sale's amount class.
+    * **Intention**: Choose the intention of the activity.
 
-To the right of the fields, you can click the links to specify additional criteria for the counters. The available options will depend on the type of record and counter you are working with.
+1. Depending on what you selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
 
-* **SAINT type**: Here you choose the activity type you want to search for.
-* **Status**: Here you choose the status of the record you want to search for.
-* **Direction**: Here you can choose if the activity is incoming or outgoing.
-* **Amount class**: Here you choose the sale's amount class.
-* **Intention**: Here you choose the intention of the activity.
-
-Depending on what you selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
+The counters are created and maintained in Settings and maintenance. Counter fields are only relevant if you have purchased a licence for and have enabled status monitors.
 
 ## Manage list of criteria
 
@@ -129,7 +123,7 @@ When you open the **Find** screen, it contains default search criteria or the se
 | Reset the list | Click **Reset to default**. |
 
 > [!NOTE]
-> Moving a criterion has no practical effect on the search, but allows you to arrange the criteria in your preferred order. If you want to keep unused (inactive) criteria, you can move them to the bottom if the list.
+> Moving a criterion has no practical effect on the search, but allows you to arrange the criteria in your preferred order. To keep unused (inactive) criteria, you can move them to the bottom if the list.
 >
 > A deactivated search criterion remains in the criteria list and can be reactivated when needed.
 

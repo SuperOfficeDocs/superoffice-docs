@@ -1,10 +1,10 @@
 ---
 uid: help-en-find-screen
 title: Find screen
-description: Find screen
+description: How to find all items of a specific type that match conditions, run a predefined search, or save a search as a selection.
 author: SuperOffice RnD
-so.date: 05.08.2023
-keywords: search, find
+so.date: 05.25.2023
+keywords: search, find, typical, criteria, or, selection
 so.topic: howto
 language: en
 ---
@@ -20,7 +20,9 @@ There are effectively no limits to what you can search for in SuperOffice CRM. A
 
 ## Search for information in SuperOffice CRM
 
-1. Click the **Find** button on the [top bar][1]. ![icon][img2]
+1. Click the **Find** button on the [top bar][1].
+
+    ![Find button][img2]
 
 2. Click the type of record you want to search for, or click **Typical searches** to display a list of predefined searches. The **Criteria** tab opens.
 
@@ -50,14 +52,14 @@ There are effectively no limits to what you can search for in SuperOffice CRM. A
 
 The Find feature allows you to perform a search by combining search criteria with the value operator "OR" between them. This way you can search for two sets of independent data and save it in one selection.
 
-Let's take a look at some practical examples of how you can use the OR function. You can search for all customers who bought "Product A" and customers who did not buy "Product B" to boost your cross-sales. Or you can search for all large customers based in Liverpool or Manchester, so you can contact them about an upcoming event in one of these cities.
+Let us take a look at some practical examples of how you can use the OR function. You can search for all customers who bought "Product A" and customers who did not buy "Product B" to boost your cross-sales. Or you can search for all large customers based in Liverpool or Manchester, so you can contact them about an upcoming event in one of these cities.
 
 Watch this video to learn how to create a search using the OR function (video length - 4:08):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
 
-## Work with search results
+## <a id="results" />Work with search results
 
 After following the above steps, and search results are displayed in the **Results** tab, you have several options available:
 
@@ -88,11 +90,11 @@ As a sales department manager, you want to give a presentation to the rest of ma
 
 2. Click **Find company**.
 
-3. If the **Criteria** tab contains any criteria, click ![icon][img3] to delete them or **Clear all** to clear the criteria data.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in. First click **Sale** ![icon][img5], and then **Amount**.
+5. [!include[Select field](includes/select-field.md)] First click **Sale** ![icon][img5], and then **Amount**.
 
 6. In the list box to the right of **Amount**, click the arrow ![icon][img1] and select **&gt;** (greater than).
 
@@ -102,7 +104,7 @@ As a sales department manager, you want to give a presentation to the rest of ma
 
 9. Click **Add**.
 
-10. In the list that appears, select the field you want to search for information in. First click **Sale** ![icon][img5], and then **Registered date**.
+10. [!include[Select field](includes/select-field.md)] First click **Sale** ![icon][img5], and then **Registered date**.
 
 11. In the second list box, click the arrow ![icon][img1] and select **Between**.
 
@@ -122,20 +124,11 @@ As a sales department manager, you want to give a presentation to the rest of ma
 
 19. You have now specified that you want to find companies with sales above a specific amount, within a specific date range and that have status **Sold**.
 
-20. Click the **Find** button below the **Criteria** tab.
+20. [!include[Click Find](includes/run-search.md)]
 
-21. All the results which match the search criteria you have specified are displayed in the **Results** tab.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > If you get too many or too few hits, you can adjust the search criteria by selecting different values in the various list boxes.
-
-22. You then decide what you want to use the search results for:
-
-    * To open one of the records, double-click it. It is then displayed in the Company screen.
-
-    * Preview each company in the [side panel][4]. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them.
-
-    * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections][8].
+21. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex2" />Example 2: search for customers in Denmark who you are responsible for
@@ -146,11 +139,11 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 2. Click **Find company**.
 
-3. If the **Criteria** tab contains any criteria, click ![icon][img3] to delete them or **Clear all** to clear the criteria data.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in: First click **Company** ![icon][img6], and then **Country**.
+5. [!include[Select field](includes/select-field.md)] First click **Company** ![icon][img6], and then **Country**.
 
 6. In the second list box, select **Is one of**.
 
@@ -160,26 +153,17 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 9. Click **Add**.
 
-10. In the list that appears, select the field you want to search for information in: First click **Company** ![icon][img6], and then **Our contact**.
+10. [!include[Select field](includes/select-field.md)] First click **Company** ![icon][img6], and then **Our contact**.
 
 11. In the second list box, select **Current user**. Your name is displayed in the last field on the line.
 
 12. You have now specified that you want to find companies in Denmark for which you are the contact.
 
-13. Click the **Find** button below the **Criteria** tab.
+13. [!include[Click Find](includes/run-search.md)]
 
-14. All the results which match the search criteria you have specified are displayed in the **Results** tab.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > If you get too many or too few hits, you can adjust the search criteria by selecting different values in the various list boxes.
-
-15. You then decide what you want to use the search results for:
-
-    * To open one of the records, double-click it. It is then displayed in the Company screen.
-
-    * Preview each company in the [side panel][4]. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them.
-
-    * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections][8].
+14. [!include[Explore results](includes/use-results.md)]
 
 ## <a id="ex3" />Example 3: search for sold sales
 
@@ -189,26 +173,19 @@ Let's assume you are the manager of a company and want to find out what types of
 
 2. Click **Find sale**.
 
-3. If the **Criteria** tab contains any criteria, click ![icon][img3] to delete them or **Clear all** to clear the criteria data.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in: First click **Sale** ![icon][img5], and then **Status**.
+5. [!include[Select field](includes/select-field.md)] First click **Sale** ![icon][img5], and then **Status**.
 
 6. In the second list box, select **Is one of**.
 
 7. Click the **Select items** field to the right of the **Is one of** field, and select **Sold**. You have now specified that you want to search for completed sales.
 
-8. Click the **Find** button below the **Criteria** tab.
+8. [!include[Click Find](includes/run-search.md)]
 
-9. All the results which match the search criteria you have specified are displayed in the **Results** tab.
-
-10. You then decide what you want to use the search results for:
-    * To open one of the records, double-click it. It is then displayed in the Sale screen.
-
-    * Preview each sale in the [side panel][4]. Select **Preview** in the list at the top of the side panel. You can then click on each sale in the **Results** tab to preview them.
-
-    * You can create a selection containing these sales, by clicking **Save as selection** and following the procedure under [Create selections][8].
+9. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex4" />Example 4: search for projects you have participated in during the last year
@@ -219,11 +196,11 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 2. Click **Find sale**.
 
-3. If the **Criteria** tab contains any criteria, click ![icon][img3] to delete them or **Clear all** to clear the criteria data.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in: First click **Contact** ![icon][img7], and then **Last name**.
+5. [!include[Select field](includes/select-field.md)] First click **Contact** ![icon][img7], and then **Last name**.
 
 6. In the second list box, select **Equals**.
 
@@ -233,7 +210,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 9. Click **Add**.
 
-10. In the list that appears, select the field you want to search for information in: First click **Project** ![icon][img8], and then **From date**.
+10. [!include[Select field](includes/select-field.md)] First click **Project** ![icon][img8], and then **From date**.
 
 11. In the second list box, select **After**.
 
@@ -241,20 +218,11 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 13. You have now specified that you want to find projects you have participated in, from a specific date up to today.
 
-14. Click the **Find** button below the **Criteria** tab.
+14. [!include[Click Find](includes/run-search.md)]
 
-15. All the results which match the search criteria you have specified are displayed in the **Results** tab.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > If you get too many or too few hits, you can adjust the search criteria by selecting different values in the various list boxes.
-
-16. You then decide what you want to use the search results for:
-
-    * To open one of the records, double-click it. It is then displayed in the Project screen.
-
-    * Preview each project in the [side panel][4]. Select **Preview** in the list at the top of the side panel. You can then click on each project in the **Results** tab to preview them.
-
-    * You can create a selection containing these projects, by clicking **Save as selection** and following the procedure under [Create selections][8].
+15. [!include[Explore results](includes/use-results.md)]
 
 ## <a id="ex5" />Example 5: search for marketing initiatives undertaken
 
@@ -264,11 +232,11 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 2. Click **Find sale**.
 
-3. If the **Criteria** tab contains any criteria, click ![icon][img3] to delete them or **Clear all** to clear the criteria data.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in: First click **Follow-up** ![icon][img9], and then **Intention**.
+5. [!include[Select field](includes/select-field.md)] First click **Follow-up** ![icon][img9], and then **Intention**.
 
 6. In the second list box, select **Is one of**.
 
@@ -278,7 +246,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 9. Click **Add**.
 
-10. In the list that appears, select the field you want to search for information in. First click **Follow-up** ![icon][img9], and then **End date**.
+10. [!include[Select field](includes/select-field.md)] First click **Follow-up** ![icon][img9], and then **End date**.
 
 11. In the second list box, select **Previous**.
 
@@ -290,24 +258,15 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 15. Click **Add**.
 
-16. In the list that appears, select the field you want to search for information in. First click **Follow-up** ![icon][img9], and then **Completed**.
+16. [!include[Select field](includes/select-field.md)] First click **Follow-up** ![icon][img9], and then **Completed**.
 
 17. Check **Yes**. You have now specified that you want to find follow-ups set as **Completed**.
 
-18. Click the **Find** button below the **Criteria** tab.
+18. [!include[Click Find](includes/run-search.md)]
 
-19. All the results which match the search criteria you have specified are displayed in the **Results** tab.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > If you get too many or too few hits, you can adjust the search criteria by selecting different values in the various list boxes.
-
-20. You then decide what you want to use the search results for:
-
-    * To open one of the records, double-click it. It is then displayed on the **Activities** section tab in the Company screen.
-
-    * Preview each follow-up in the [side panel][4]. Select **Preview** in the list at the top of the side panel. You can then click on each follow-up in the **Results** tab to preview them.
-
-    * You can create a selection containing these follow-ups, by clicking **Save as selection** and following the procedure under [Create selections][8].
+19. [!include[Explore results](includes/use-results.md)]
 
 ## What would you like to do now?
 
