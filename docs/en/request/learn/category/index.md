@@ -25,7 +25,7 @@ For example, main categories for User Support, Development, Sales and Invoicing 
 Users can be added as members in the categories individually or via the user groups they belong to.
 
 > [!TIP]
-> Looking for a more flexible way of organising your request? Try [using tags in requests][1].
+> Looking for a more flexible way of organising your request? Try [using tags in requests][6].
 
 ## Where can I find the request categories?
 
@@ -48,5 +48,6 @@ The categories are arranged in a tree structure.
 [3]: ../../../admin/lists/learn/index.md
 [4]: ../priority/index.md
 [5]: ../next-in-queue.md
+[6]: ../tags.md
 
 <!-- Referenced images -->
