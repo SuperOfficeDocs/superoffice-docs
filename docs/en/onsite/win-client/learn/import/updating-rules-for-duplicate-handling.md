@@ -23,7 +23,7 @@ You must always specify rules for handling duplicates during importing.
 
     * [!include[Select file](includes/step-select-file.md)]
 
-    * Then specify the [field mapping][1].
+        Then specify the [field mapping][1].
 
 3. The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
 
