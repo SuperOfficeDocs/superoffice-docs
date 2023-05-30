@@ -38,3 +38,5 @@ items:
         href: howto/crmscript/request-logs.md
       - name: Samples
         href: howto/crmscript/samples.md
+      - name: Work with reply templates
+        href: reply-templates/howto/crmscript/index.md

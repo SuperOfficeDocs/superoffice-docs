@@ -210,5 +210,5 @@ t.save();
 
 <!-- Referenced links -->
 [1]: add-message.md
-[4]: ../../../automation/crmscript/parser-and-templates/reply-template.md
-[5]: ../../../automation/crmscript/parser-and-templates/parser.md
+[4]: ../../reply-templates/index.md
+[5]: ../../../automation/crmscript/parser.md

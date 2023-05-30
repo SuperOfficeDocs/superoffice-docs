@@ -43,4 +43,4 @@ t.notifyEmail(8);
 ```
 
 <!-- Referenced links -->
-[4]: ../../../automation/crmscript/parser-and-templates/reply-template.md
+[4]: ../../reply-templates/index.md

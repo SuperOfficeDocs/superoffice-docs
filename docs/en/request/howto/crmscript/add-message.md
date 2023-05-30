@@ -157,5 +157,5 @@ m.save();
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.Message.setValue(String,String)>
 [3]: ../../../database/tables/ej-message.md
-[4]: ../../../automation/crmscript/parser-and-templates/reply-template.md
-[5]: ../../../automation/crmscript/parser-and-templates/parser.md
+[4]: ../../reply-templates/index.md
+[5]: ../../../automation/crmscript/parser.md
