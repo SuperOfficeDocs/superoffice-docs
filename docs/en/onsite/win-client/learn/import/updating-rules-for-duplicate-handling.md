@@ -21,7 +21,9 @@ You must always specify rules for handling duplicates during importing.
 
     * Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog that opens. An import file and previously selected settings are inserted automatically.
 
-    * [!include[Select file](includes/step-select-file.md)] Then specify the [field mapping][1].
+    * [!include[Select file](includes/step-select-file.md)]
+
+        Then specify the [field mapping][1].
 
 3. The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
 
