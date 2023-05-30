@@ -1,5 +1,5 @@
 ---
-uid: crmscript-ticket-split-merge
+uid: crmscript-request-split-merge
 title: Split and merge
 description: How to split and merge requests in CRMScript.
 author: Bergfrid Skaara Dias

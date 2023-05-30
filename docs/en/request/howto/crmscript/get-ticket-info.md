@@ -1,10 +1,10 @@
 ---
-uid: crmscript-ticket-load
+uid: crmscript-request-load
 title: Get ticket info
 description: How to load and get ticket info with CRMScript
 author: Bergfrid Skaara Dias
 so.date: 05.26.2023
-keywords: Service, ticket, request, CRMScript
+keywords: Service, ticket, request, CRMScript, load
 so.topic: howto
 ---
 

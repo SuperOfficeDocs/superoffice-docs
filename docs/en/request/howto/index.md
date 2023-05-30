@@ -1,9 +1,9 @@
 ---
 title: Request how-to
 uid: request-howto
-description: You can work with requests at multiple levels of NetServer.
+description: You can work with requests at multiple levels of NetServer and in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 05.26.2023
+so.date: 05.30.2023
 keywords: request, ticket, API
 so.topic: howto
 ---
@@ -12,18 +12,25 @@ so.topic: howto
 
 ## CRMScript
 
-* [Tickets][1]
-* [Messages][2]
-* [Request logs][3]
+* [Create ticket][1]
+* [Get ticket info][9]
+* [Add a message][2]
+* [Get message info][9]
+* [Accept request][8]
+* [Reply to customer][6]
+* [Delegate a request][5]
+* [Priority and escalation][11]
+* [Split and merge tickets][10]
 * [Samples][4]
+* [Request logs][3]
 
 ## REST
 
-* [RESTful ASP.NET WebAPI][6] - reference
+* [RESTful ASP.NET WebAPI][16] - reference
 
 ## SOAP
 
-* [Services 88 (WCF-based IIS application)][7] - reference
+* [Services 88 (WCF-based IIS application)][17] - reference
 
 ## A word of caution
 
@@ -49,13 +56,21 @@ However, you may be required to delete a request to comply with your company's p
 
 ## Resources
 
-* [ticket database table][5]
+* [ticket database table][15]
+* [ticket-priority database table][14]
 
 <!-- Referenced links -->
-[1]: crmscript/tickets.md
+[1]: crmscript/create.md
 [2]: crmscript/add-message.md
 [3]: crmscript/request-logs.md
 [4]: crmscript/samples.md
-[5]: ../../database/tables/ticket.md
-[6]: ../../api/reference/restful/rest/ticket/index.md
-[7]: ../../api/reference/soap/services88/ticket/index.md
+[5]: crmscript/delegate.md
+[6]: crmscript/reply.md
+[8]: crmscript/accept.md
+[9]: crmscript/get-ticket-info.md
+[10]: crmscript/split-merge.md
+[11]: crmscript/escalate.md
+[14]: ../../database/tables/ticket-priority.md
+[15]: ../../database/tables/ticket.md
+[16]: ../../api/reference/restful/rest/ticket/index.md
+[17]: ../../api/reference/soap/services88/ticket/index.md

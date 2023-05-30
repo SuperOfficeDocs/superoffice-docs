@@ -1,5 +1,5 @@
 ---
-uid: crmscript-ticket-escalate
+uid: crmscript-request-escalate
 title: Priority and escalation
 description: Priority and escalation of requests in CRMScript
 author: Bergfrid Skaara Dias
@@ -20,14 +20,14 @@ Runs a check according to the ticket's priority and the given action. Based on t
 
 You can specify the following actions:
 
-| Value | Action                |
-|:-----:|:----------------------|
-| 0     | ActionRead            |
-| 1     | ActionChangedOwner    |
-| 2     | ActionNewInfo         |
-| 3     | ActionClosed          |
-| 4     | ActionChangedPriority |
-| 5     | ActionNew             |
+| Value | Action |
+|:-:|:--|
+| 0 | ActionRead |
+| 1 | ActionChangedOwner |
+| 2 | ActionNewInfo |
+| 3 | ActionClosed |
+| 4 | ActionChangedPriority |
+| 5 | ActionNew |
 
 ```crmscript
 Ticket t;

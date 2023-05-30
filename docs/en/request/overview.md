@@ -1,9 +1,9 @@
 ---
 uid: request-overview
 title: Requests
-description: How to manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system.
+description: How to manage requests and enquiries in SuperOffice - create internal and external requests; respond to incoming enquiries; obtain an overview of the statuses of all requests in the CRM system.
 author: Bergfrid Dias
-so.date: 05.26.2023
+so.date: 05.30.2023
 keywords: Service, ticket, request, inquiry, tag, category, priority, escalation
 so.topic: concept
 ---
@@ -21,17 +21,17 @@ so.topic: concept
 * Respond to incoming inquiries
 * Obtain an overview of the statuses of all requests in the system
 
-Requests can be linked to [contacts][2], who in turn can belong to a [company][3]. This means that requests cannot be linked directly to companies (only indirectly via contacts).
-
 ## Terminology
 
 A **request** is a form of communication where a (potential) customer, client, or business partner seeks information or assistance. For example, support issues, questions about the product and services, questions about invoices, or feedback regarding their experience with interaction with the company.
 
-The terms "request" and "ticket" are often used interchangeably in SuperOffice. For example, you'll see the **Request** screen in the SuperOffice user interface, the `ticket` database table, and the `Ticket` CRMScript class. In the context of CRM, not to be confused with API requests (such as GET, POST, PUT, DELETE) or authorization credentials (such as system user ticket).
+The terms *request* and *ticket* are often used interchangeably in SuperOffice. For example, you'll see the **Request** screen in the SuperOffice user interface, the `ticket` database table, and the `Ticket` CRMScript class. In the context of CRM, not to be confused with API requests (such as GET, POST, PUT, DELETE) or authorization credentials (such as system user ticket).
 
 ## Request handling
 
-Different companies have different routines for request handling and may use SuperOffice in different ways. Here are two common scenarios:
+Requests can be linked to [contacts][2], who in turn can belong to a [company][3]. This means that requests cannot be linked directly to companies (only indirectly via contacts).
+
+Companies employ varying procedures for handling requests and may utilize SuperOffice in diverse manners. Here are two common scenarios:
 
 ### Scenario 1: The customer submits the request by email
 
@@ -51,12 +51,12 @@ Different companies have different routines for request handling and may use Sup
 
 In both scenarios, if the request handler is unable to fulfill the request on their own, they can either:
 
-* Ask a colleague
-* Get help from outside the organization, for example for a sub-contractor or supplier
+* Ask a colleague.
+* Or, get help from outside the organization, for example for a sub-contractor or supplier.
 
 ## Status
 
-A request has one of the following statuses. It will change as the request flows through the support system.
+A request has one of the following statuses:
 
 * Active
 * Closed
@@ -64,15 +64,13 @@ A request has one of the following statuses. It will change as the request flows
 * Deleted
 * Merged
 
-You can [create additional request statuses][4].
+The status will change as the request flows through the support system. You can [create additional request statuses][4].
 
-## Category
+## Request category
 
-All requests belong to a category, and each category has its own rules that define how requests are processed in the system. The categories are arranged in a tree structure. Users can be added as members in the categories individually or via the user groups they belong to.
+All requests belong to a category, and each category has its own rules that define how requests are processed in the system. The request categories are arranged in a tree structure. Users can be added as members in the categories individually or via the user groups they belong to. You can [create additional request categories][5].
 
-You can [create additional request categories][5].
-
-[Tags][6] are a more flexible alternative to categories. You can create tags on the fly and tag any request with as many tags as you want.
+[Tags][6] are a more flexible alternative to request categories. You can create tags on the fly and tag any request with as many tags as you want.
 
 ## Priority
 
@@ -86,8 +84,6 @@ Priority is tied to:
 
 You can [add new priorities][7] and edit the settings of existing priorities.
 
-[Database reference][1]
-
 ## Escalation
 
 The escalation chain has multiple levels. Each level has its own settings, such as:
@@ -97,7 +93,7 @@ The escalation chain has multiple levels. Each level has its own settings, such 
 * Time (in minutes) before the ticket is escalated to the next level
 * Action (what should be done when escalating to this level)
 * If and who the ticket should be delegated to on escalation
-* The ID of a **CRMScript** to run when the ticket alert goes off
+* The ID of a [CRMScript][1] to run when the ticket alert goes off
 
 [!include[License requirement](../../../common/includes/req-service-prem.md)]
 
@@ -110,7 +106,7 @@ You can [define additional escalation levels][8] for each priority.
 All other calculations run in the background. We use `time_counter` to mark which field in the ticket to count time spent on (queue, internal, external).
 
 <!-- Referenced links -->
-[1]: ../database/tables/ticket-priority.md
+[1]: ../automation/crmscript/overview/index.md
 [2]: ../contact/overview.md
 [3]: ../company/overview.md
 [4]: learn/status/create.md

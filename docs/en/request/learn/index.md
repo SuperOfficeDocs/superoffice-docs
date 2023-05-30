@@ -70,6 +70,7 @@ Different companies have different routines for request handling and can use Sup
 
 ### Scenario 1: The contact submits the request by email
 
+<!-- markdownlint-disable-next-line MD034 -->
 1. The contact writes an email to support@company.com or fills out a form in a user-support portal.
 1. The contact receives [automatic acknowledgement][23] of receipt of the enquiry.
 1. The enquiry from the contact is automatically registered as a request in SuperOffice CRM.

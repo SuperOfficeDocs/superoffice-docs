@@ -1,5 +1,5 @@
 ---
-uid: crmscript-ticket-create
+uid: crmscript-request-create
 title: Create and update requests
 description: How to create a ticket with CRMScript.
 author: Bergfrid Skaara Dias
