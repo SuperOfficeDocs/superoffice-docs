@@ -23,6 +23,9 @@ The functionality will behave like this:
 > [!TIP]
 > You can read more about [triggers][1] and [EventData][2].
 
+> [!WARNING]
+> Script triggered dialog are not supported on BeforeSave and AfterSave triggers on Document and Quoteline dialogs. Having multiple dialogs appear is not a great user experience, and due to some legacy challenges, this feature has been postponed for these dialogs.
+
 ## Implementation
 
 We will start by creating a new CRMScript trigger for event **Before saving appointment**.
