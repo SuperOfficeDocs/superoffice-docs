@@ -1,221 +1,171 @@
-### YamlMime:Category
+### YamlMime:SubCategory
 
 title: Requests
 summary: Requests is the main feature of SuperOffice Service. This is where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. Request management requires a Service Essentials license. Some features require a premium plan, see the user plan overview for details.
-brand: devdocs
 
 metadata:
   title: Requests
   description: This is where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system.
-  so.product: superoffice
-  so.topic: hub-page
-  so.collection: collection
+  ms.topic: landing-page
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 04.27.2021
+  so.date: 05.30.2023
 
-# highlightedContent section (optional)
-# Maximum of 8 items
-highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
-  items:
-    # Card
-    - title: User guide
-      itemType: reference
-      url: learn/index.md
-    # Card
-    - title: Template variables
-      itemType: reference
-      url: ../document/templates/variables/for-service.md
-    # Card
-    - title: Reply templates
-      itemType: concept
-      url: reply-templates/index.md
-    # Card
-    - title: Ticket database table
-      itemType: reference
-      url: ../database/tables/ticket.md
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
-# conceptualContent section (optional)
-conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
-  title: "" # < 60 chars (optional)
-  summary: ""
-  items:
-  # Card
-    - title: Learn the essentials
-      summary: ""
-      links:
-      - text: Step-by-step request handling
-        itemType: learn
-        url: learn/index.md
-      - text: How to reply to customers
-        itemType: learn
-        url: learn/howto/reply.md
-      - text: How to archive emails as requests
-        itemType: learn
-        url: ../email/mail-link/learn/archive-as-request.md
+# PLEASE PAY ATTENTION TO INDENTATION
 
-    # Card
-    - title: Videos
-      summary: ""
-      links:
-      - text: How to manage customer requests
-        itemType: video
-        url: https://www.youtube.com/watch?v=2mRyStK5xPs
-      - text: How to register contact in Service
-        itemType: video
-        url: https://www.youtube.com/watch?v=lm-O4iwIX0I
-      - text: How to set up categories
-        itemType: video
-        url: https://www.youtube.com/watch?v=BMfdOQhm6mg
-      - text: How to register request from incoming call
-        itemType: video
-        url: https://www.youtube.com/watch?v=S4kihuWHZGY
-
-    # Card
-    - title: Configuration options
-      summary: ""
-      links:
-        - text: User preferences
-          itemType: reference
-          url: ../admin/user-preferences/index.md
-        - text: Category
-          itemType: how-to-guide
+landingContent:
+  # Card 1
+  - title: Introduction
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Introduction to requests
+          url: overview.md
+        - text: Request status
+          url: learn/status/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: How to find a request
+          url: learn/find.md
+        - text: How to use requests in dashboard tiles
+          url: ../dashboard/learn/show-requests.md
+  - title: Request management
+    linkLists:
+      - linkListType: video
+        links:
+        - text: How to manage customer requests
+          url: https://www.youtube.com/watch?v=2mRyStK5xPs
+        - text: How to register request from incoming call
+          url: https://www.youtube.com/watch?v=S4kihuWHZGY
+      - linkListType: how-to-guide
+        links:
+        - text: How to create a request
+          url: learn/howto/create.md
+        - text: How to archive emails as requests
+          url: ../email/mail-link/learn/archive-as-request.md
+        - text: Take responsibility for a request
+          url: learn/howto/accept.md
+        - text: How to reply to customers
+          url: learn/howto/reply.md
+        - text: How to set up Service mailboxes
+          url: ../email/service/learn/kb-aliases/index.md
+  - title: Category, priority, and escalation
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Request categories
           url: learn/category/index.md
         - text: Priority
-          itemType: how-to-guide
           url: learn/priority/index.md
-        - text: Request status
-          itemType: how-to-guide
-          url: learn/status/index.md
-        - text: Email
-          itemType: how-to-guide
-          url: ../email/service/learn/kb-aliases/index.md
-        - text: SOAP ports
-          itemType: how-to-guide
+      - linkListType: video
+        links:
+        - text: How to set up categories
+          url: https://www.youtube.com/watch?v=BMfdOQhm6mg
+  - title: Reply templates
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Overview
+          url: reply-templates/index.md
+      - linkListType: reference
+        links:
+        - text: Template variables
+          url: ../document/templates/variables/for-service.md
+  - title: UI customization
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Screen Designer
+          url: ../ui/screen-designer/learn/index.md
+        - text: Web panels
+          url: ../ui/web-panels/index.md
+        - text: SoProtocol
+          url: ../ui/soprotocol/index.md
+        - text: bLogic custom screens
+          url: ../ui/blogic/custom-screens/index.md
+  - title: Automation
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Overview
+          url: ../automation/index.yml
+        - text: Triggers
+          url: ../automation/trigger/index.md
+        - text: Mailbox before save event
+          url: ../automation/event-model/mailbox-before-save.md
+        - text: Mailbox after save event
+          url: ../automation/event-model/mailbox-after-save.md
+        - text: Saving a request event
+          url: ../automation/event-model/saving-a-request.md
+      - linkListType: reference
+        links:
+        - text: Webhooks - ticket events
+          url: ../automation/webhook/reference/ticket-events.md
+        - text: Zapier
+          url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+        # Add more links (- text blocks)
+      # Add more link list type
+  - title: CRMScript
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Overview
+          url: howto/crmscript/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Create ticket
+          url: howto/crmscript/create.md
+        - text: Add or update message
+          url: howto/crmscript/add-message.md
+        - text: Accept
+          url: howto/crmscript/accept.md
+        - text: Reply
+          url: howto/crmscript/reply.md
+        - text: Delegate
+          url: howto/crmscript/delegate.md
+        - text: Escalate
+          url: howto/crmscript/escalate.md
+        - text: Split and merge
+          url: howto/crmscript/split-merge.md
+  - title: API
+    linkLists:
+      - linkListType: reference
+        links:
+        - text: REST
+          url: ../api/reference/restful/rest/Ticket/index.md
+        - text: SOAP (services88)
+          url: ../api/reference/soap/Services88/Ticket/index.md
+        - text: SOAP (ticket port)
+          url: ../service/soap/ports/ticket/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Configure SOAP ports
           url: ../admin/learn/configure-soap.md
+        
+  # Card
+  - title: Database tables
+    linkLists:
+      - linkListType: reference
+        links:
+        - text: Ticket
+          url: ../database/tables/ticket.md
+        - text: Ticket type
+          url: ../database/tables/ticket-type.md
+        - text: Ticket status
+          url: ../database/tables/ticket-status.md
+        - text: Ticket priority
+          url: ../database/tables/ticket-priority.md
+        - text: Reply template
+          url: ../database/tables/reply-template.md
+        - text: Message
+          url: ../database/tables/message.md
+        - text: Contact
+          url: ../database/tables/contact.md
+        - text: Person
+          url: ./database/tables/person.md
+        - text: Form submission
+          url: ../database/tables/form-submission.md
 
-    # Card
-    - title: UI options
-      summary: ""
-      links:
-      - text: Web panels
-        itemType: overview
-        url: ../ui/web-panels/index.md
-      - text: SoProtocol
-        itemType: concept
-        url: ../ui/soprotocol/index.md
-      - text: System design
-        itemType: how-to-guide
-        url: ../ui/screen-designer/learn/index.md
-      - text: bLogic messages
-        itemType: reference
-        url: ../ui/blogic/reference/messages.md
-      - text: bLogic select message
-        itemType: reference
-        url: ../ui/blogic/reference/select-message.md
-      - text: bLogic select reply template
-        itemType: reference
-        url: ../ui/blogic/reference/select-reply-template.md
-      - text: bLogic ticket status
-        itemType: reference
-        url: ../ui/blogic/reference/ticket-status.md
-      - text: bLogic select ticket status
-        itemType: reference
-        url: ../ui/blogic/reference/select-ticket-status.md
-      - text: bLogic select request status
-        itemType: reference
-        url: ../ui/blogic/reference/select-request-status.md
-
-    # Card
-    - title: Data options
-      summary: ""
-      links:
-      - text: Custom fields
-        itemType: overview
-        url: ../custom-objects/overview.md
-      - text: How to add user-defined fields
-        itemType: video
-        url: https://www.youtube.com/watch?v=SpeZVxpxeMM
-
-    # Card
-    - title: Actions options
-      summary: ""
-      links:
-      - text: Overview
-        itemType: overview
-        url: ../automation/index.yml
-      - text: Triggers
-        itemType: concept
-        url: ../automation/trigger/index.md
-      - text: Mailbox before save event
-        itemType: concept
-        url: ../automation/event-model/mailbox-before-save.md
-      - text: Mailbox after save event
-        itemType: concept
-        url: ../automation/event-model/mailbox-after-save.md
-      - text: Saving a request event
-        itemType: concept
-        url: ../automation/event-model/saving-a-request.md
-      - text: Webhooks - ticket events
-        itemType: reference
-        url: ../automation/webhook/reference/ticket-events.md
-      - text: Zapier
-        itemType: reference
-        url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
-
-    # Card
-    - title: API options
-      summary: ""
-      links:
-      - text: CRMScript
-        itemType: concept
-        url: howto/crmscript/index.md
-      - text: REST
-        itemType: reference
-        url: ../api/reference/restful/rest/Ticket/index.md
-      - text: SOAP (services88)
-        itemType: reference
-        url: ../api/reference/soap/Services88/Ticket/index.md
-      - text: SOAP (ticket port)
-        itemType: reference
-        url: ../service/soap/ports/ticket/index.md
-
-    # Card
-    - title: Database options
-      summary: ""
-      links:
-      - text: Ticket table
-        itemType: reference
-        url: ../database/tables/ticket.md
-      - text: Ticket type table
-        itemType: reference
-        url: ../database/tables/ticket-type.md
-      - text: Ticket status table
-        itemType: reference
-        url: ../database/tables/ticket-status.md
-      - text: Ticket priority table
-        itemType: reference
-        url: ../database/tables/ticket-priority.md
-      - text: Reply template table
-        itemType: reference
-        url: ../database/tables/reply-template.md
-      - text: Message table
-        itemType: reference
-        url: ../database/tables/message.md
-      - text: Contact table
-        itemType: reference
-        url: ../database/tables/contact.md
-      - text: Person table
-        itemType: reference
-        url: ../database/tables/person.md
-      - text: EjUser table
-        itemType: reference
-        url: ../database/tables/ejuser.md
-      - text: EjCategory table
-        itemType: reference
-        url: ../database/tables/ej-category.md
-      - text: Form submission table
-        itemType: reference
-        url: ../database/tables/form-submission.md
+  # Add another card here, and so on
