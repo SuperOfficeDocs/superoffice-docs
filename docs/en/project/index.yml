@@ -1,169 +1,179 @@
-### YamlMime:Category
+### YamlMime:SubCategory
 
 title: Project
 summary: Welcome to the Project area where you can find relevant links to all things related to projects and project guides.
-brand: devdocs
 
 metadata:
   title: Project
   description: "Project and project guides"
-  so.product: superoffice
-  so.topic: hub-page
-  so.collection: collection
+  ms.topic: landing-page
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 04.26.2021
+  so.date: 05.31.2023
 
-# highlightedContent section (optional)
-# Maximum of 8 items
-highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
-  items:
-    # Card
-    - title: User guide
-      itemType: reference
-      url: learn/index.md
-    # Card
-    - title: Template variables
-      itemType: reference
-      url: ../document/templates/variables/from-project-card.md
-    # Card
-    - title: Project table
-      itemType: reference
-      url: ../database/tables/project.md
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
-# conceptualContent section (optional)
-conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
-  title: "" # < 60 chars (optional)
-  summary: ""
-  items:
-  # Card
-    - title: Learn the essentials
-      summary: ""
-      links:
-      - text: Organize files and activities in projects
-        itemType: learn
-        url: learn/index.md
-      - text: Create project
-        itemType: learn
-        url: learn/create.md
+# PLEASE PAY ATTENTION TO INDENTATION
 
-    # Card
-    - title: Videos
-      summary: ""
-      links:
-      - text: How to add project member to project
-        itemType: video
-        url: https://www.youtube.com/watch?v=IaCy_2xwG6c
-      - text: How to link document to project
-        itemType: video
-        url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
-      - text: How to add appointment to project
-        itemType: video
-        url: https://www.youtube.com/watch?v=YQr5B5IU7XY&t=1s
+landingContent:
+  # Card 1
+  - title: Introduction
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Introduction to projects
+          url: overview.md
+        - text: Organize files and activities in projects
+          url: learn/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: How to create a project
+          url: learn/create.md
 
-    # Card
-    - title: Configuration options
-      summary: ""
-      links:
-        - text: User preferences
-          itemType: reference
-          url: ../admin/user-preferences/index.md
-        - text: Lists - Project status
-          itemType: how-to-guide
+  - title: Project management
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Update a project
+          url: learn/edit.md
+        - text: Delete a project
+          url: learn/delete.md
+        - text: Merge projects
+          url: learn/merge-projects.md
+        - text: Add project status (list)
           url: ../admin/lists/learn/project-status.md
-        - text: Lists - Project type status
-          itemType: how-to-guide
+        - text: Add project type (list)
           url: ../admin/lists/learn/project-type.md
+        - text: View follow-ups and documents
+          url: learn/project-guide/view-followups-and-documents.md
+      - linkListType: video
+        links:
+        - text: How to link document to project
+          url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
+        - text: How to add appointment to project
+          url: https://www.youtube.com/watch?v=YQr5B5IU7XY&t=1s
+      - linkListType: reference
+        links:
+        - text: Template variables
+          url: ../document/templates/variables/from-project-card.md
 
-    # Card
-    - title: UI options
-      summary: ""
-      links:
-      - text: Web panels
-        itemType: overview
-        url: ../ui/web-panels/index.md
-      - text: SoProtocol
-        itemType: concept
-        url: ../ui/soprotocol/index.md
+  - title: Project members
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Overview
+          url: learn/project-guide/index.md
+        - text: Add member
+          url: learn/project-guide/add.md
+        - text: Update member
+          url: learn/project-guide/edit.md
+        - text: Invite to meeting
+          url: learn/project-guide/invite-to-meeting.md
+        - text: Send email to members
+          url: learn/project-guide/send-email-to.md
+      - linkListType: video
+        links:
+        - text: How to add project member to project
+          url: https://www.youtube.com/watch?v=IaCy_2xwG6c
 
-    # Card
-    - title: Data options
-      summary: ""
-      links:
-      - text: Custom fields
-        itemType: overview
-        url: ../custom-objects/overview.md
-      - text: How to add user-defined fields
-        itemType: video
-        url: https://www.youtube.com/watch?v=SpeZVxpxeMM
-      - text: UdprojectSmall table
-        itemType: reference
-        url: ../database/tables/udprojectsmall.md
-      - text: UdprojectLarge table
-        itemType: reference
-        url: ../database/tables/udprojectlarge.md
+  - title: Project guide
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Overview
+          url: learn/project-guide/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Work with project guide
+          url: learn/project-guide/working-with.md
+        - text: Create guide
+          url: learn/project-guide/create.md
+        - text: Update guide
+          url: learn/project-guide/edit.md
+        - text: Deactivate guide
+          url: learn/project-guide/deactivate.md
 
-    # Card
-    - title: Actions options
-      summary: ""
-      links:
-      - text: Overview
-        itemType: overview
-        url: ../automation/index.yml
-      - text: Triggers
-        itemType: concept
-        url: ../automation/trigger/index.md
-      - text: Webhooks - project events
-        itemType: reference
-        url: ../automation/webhook/reference/project-events.md
-      - text: Webhooks - project member events
-        itemType: reference
-        url: ../automation/webhook/reference/project-member-events.md
-      - text: Zapier
-        itemType: reference
-        url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+  - title: UI customization
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Screen Designer
+          url: ../ui/screen-designer/learn/index.md
+        - text: Web panels
+          url: ../ui/web-panels/index.md
+        - text: SoProtocol
+          url: ../ui/soprotocol/index.md
+        - text: Custom screens (bLogic)
+          url: ../ui/blogic/custom-screens/index.md
+        - text: Task menu items
+          url: ../admin/lists/learn/add-items-to-task-menu.md
+        - text: Extra fields
+          url: ../custom-objects/learn/extra-field/create.md
 
-    # Card
-    - title: API options
-      summary: ""
-      links:
-      - text: CRMScript
-        itemType: concept
-        url: howto/crmscript/index.md
-      - text: NetServer
-        itemType: overview
-        url: howto/index.md
+  - title: Automation
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Overview
+          url: ../automation/index.yml
+        - text: Triggers
+          url: ../automation/trigger/index.md
+      - linkListType: reference
+        links:
+        - text: Webhooks - project events
+          url: ../automation/webhook/reference/project-events.md
+        - text: Webhooks - project member events
+          url: ../automation/webhook/reference/project-member-events.md
+        - text: Zapier
+          url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
 
-    # Card
-    - title: Database options
-      summary: ""
-      links:
-      - text: Project table
-        itemType: reference
-        url: ../database/tables/project.md
-      - text: ProjectMember table
-        itemType: reference
-        url: ../database/tables/projectmember.md
-      - text: ProjStatus table
-        itemType: reference
-        url: ../database/tables/projstatus.md
-      - text: ProjType table
-        itemType: reference
-        url: ../database/tables/projtype.md
-      - text: Associate table
-        itemType: reference
-        url: ../database/tables/associate.md
-      - text: UserGroup table
-        itemType: reference
-        url: ../database/tables/usergroup.md
-      - text: Appointment table
-        itemType: reference
-        url: ../database/tables/appointment.md
-      - text: UdprojectSmall table
-        itemType: reference
-        url: ../database/tables/udprojectsmall.md
-      - text: UdprojectLarge table
-        itemType: reference
-        url: ../database/tables/udprojectlarge.md
+  - title: CRMScript
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Overview
+          url: howto/crmscript/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Project lifecycle
+          url: howto/crmscript/project-lifecycle.md
+        - text: Project members
+          url: howto/crmscript/project-members.md
+        - text: Project guides
+          url: howto/crmscript/project-guides.md
+
+  - title: API
+    linkLists:
+      - linkListType: reference
+        links:
+        - text: REST
+          url: ../api/reference/restful/rest/Project/index.md
+        - text: SOAP (services88)
+          url: ../api/reference/soap/Services88/Project/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: SQL samples
+          url: howto/sql/index.md
+
+  - title: Database tables
+    linkLists:
+      - linkListType: reference
+        links:
+        - text: Project
+          url: ../database/tables/project.md
+        - text: ProjectMember
+          url: ../database/tables/projectmember.md
+        - text: ProjStatus
+          url: ../database/tables/projstatus.md
+        - text: ProjType
+          url: ../database/tables/projtype.md
+        - text: Associate
+          url: ../database/tables/associate.md
+        - text: UserGroup
+          url: ../database/tables/usergroup.md
+        - text: Appointment
+          url: ../database/tables/appointment.md
+        - text: UdprojectSmall
+          url: ../database/tables/udprojectsmall.md
+        - text: UdprojectLarge
+          url: ../database/tables/udprojectlarge.md
