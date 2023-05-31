@@ -7,11 +7,13 @@ items:
     href: overview.md
   - name: Reply templates
     href: reply-templates/index.md
+    expanded: true
     items:
-    - name: System templates
+    - name: Default templates
       href: reply-templates/system-templates.md
   - name: API options
     href: howto/index.md
+    expanded: true
     items:
     - name: CRMScript
       href: howto/crmscript/index.md

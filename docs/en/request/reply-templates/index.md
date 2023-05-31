@@ -34,13 +34,13 @@ You have been assigned request no. [[ticket.id]]. The URL of the request is:
 
 [[ticket.url]]
 
-Title...........: [[ticket.title]]
+Title............: [[ticket.title]]
 Posted by........: [[ticket.author]]
 Category.........: [[ticket.category.fullname]]
-Security level....: [[ticket.slevel]]
-Customer........: [[ticket.custName]]
-E-mail.............: [[ticket.custEmail]]
-Company.......: [[ticket.custCompany]]
+Security level...: [[ticket.slevel]]
+Customer.........: [[ticket.custName]]
+E-mail...........: [[ticket.custEmail]]
+Company..........: [[ticket.custCompany]]
 ```
 
 [!include[License requirement](../../../../common/includes/req-service-essentials.md)]
@@ -49,11 +49,11 @@ Company.......: [[ticket.custCompany]]
 
 Reply templates have the following general components:
 
-* name
+* Name
 * ID
-* subject
-* body
-* attachments
+* Subject
+* Body
+* Attachments
 
 You can [look up specific fields][6] in the database reference.
 

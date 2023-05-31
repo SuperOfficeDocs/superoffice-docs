@@ -31,6 +31,7 @@ landingContent:
           url: learn/find.md
         - text: How to use requests in dashboard tiles
           url: ../dashboard/learn/show-requests.md
+
   - title: Request management
     linkLists:
       - linkListType: video
@@ -51,6 +52,7 @@ landingContent:
           url: learn/howto/reply.md
         - text: How to set up Service mailboxes
           url: ../email/service/learn/kb-aliases/index.md
+
   - title: Category, priority, and escalation
     linkLists:
       - linkListType: concept
@@ -63,6 +65,7 @@ landingContent:
         links:
         - text: How to set up categories
           url: https://www.youtube.com/watch?v=BMfdOQhm6mg
+
   - title: Reply templates
     linkLists:
       - linkListType: concept
@@ -71,8 +74,11 @@ landingContent:
           url: reply-templates/index.md
       - linkListType: reference
         links:
-        - text: Template variables
-          url: ../document/templates/variables/for-service.md
+        - text: Default templates
+          url: reply-templates/system-templates.md
+        - text: Reply template variables
+          url: reply-templates/learn/template-variables.md
+
   - title: UI customization
     linkLists:
       - linkListType: concept
@@ -83,8 +89,13 @@ landingContent:
           url: ../ui/web-panels/index.md
         - text: SoProtocol
           url: ../ui/soprotocol/index.md
-        - text: bLogic custom screens
+        - text: Custom screens (bLogic)
           url: ../ui/blogic/custom-screens/index.md
+        - text: Task menu items
+          url: ../admin/lists/learn/add-items-to-task-menu.md
+        - text: Extra fields
+          url: ../custom-objects/learn/extra-field/create.md
+
   - title: Automation
     linkLists:
       - linkListType: concept
@@ -105,8 +116,7 @@ landingContent:
           url: ../automation/webhook/reference/ticket-events.md
         - text: Zapier
           url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
-        # Add more links (- text blocks)
-      # Add more link list type
+
   - title: CRMScript
     linkLists:
       - linkListType: concept
@@ -129,6 +139,7 @@ landingContent:
           url: howto/crmscript/escalate.md
         - text: Split and merge
           url: howto/crmscript/split-merge.md
+
   - title: API
     linkLists:
       - linkListType: reference
@@ -143,8 +154,7 @@ landingContent:
         links:
         - text: Configure SOAP ports
           url: ../admin/learn/configure-soap.md
-        
-  # Card
+
   - title: Database tables
     linkLists:
       - linkListType: reference
@@ -160,11 +170,11 @@ landingContent:
         - text: Reply template
           url: ../database/tables/reply-template.md
         - text: Message
-          url: ../database/tables/message.md
+          url: ../database/tables/ej-message.md
         - text: Contact
           url: ../database/tables/contact.md
         - text: Person
-          url: ./database/tables/person.md
+          url: ../database/tables/person.md
         - text: Form submission
           url: ../database/tables/form-submission.md
 

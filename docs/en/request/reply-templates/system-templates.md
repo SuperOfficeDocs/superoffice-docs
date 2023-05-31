@@ -3,8 +3,8 @@ title: System templates
 uid: system-templates
 description: System reply templates
 author: Bergfrid Dias
-so.date: 03.16.2023
-keywords: reply template
+so.date: 05.31.2023
+keywords: reply template, variable, parser, Service
 so.topic: reference
 ---
 
@@ -16,7 +16,7 @@ Not all parser variables are available in every context in SuperOffice Service. 
 
 The standard variables are Message, Company, Customer, Ticket, and Config.
 
-| Template type              | Customer,<br> Company | User | Ticket | Message | Config | Other |
+| Template type              | [Customer][1],<br> [Company][2] | [User][3] | [Ticket][4] | Message | [Config][5] | Other |
 |----------------------------|:---------:|:----:|:------:|:-------:|:------:|:-------------------|
 | new request,<br> edit request,<br> add message |       | x       | x      |      | x     |     |
 | autoreply                  | x         |      | x      |         |        |                    |
@@ -34,11 +34,20 @@ The standard variables are Message, Company, Customer, Ticket, and Config.
 
 | Variable | Description |
 |---|---|
-| ticket.lastMessage | the last message on the request |
-| custPassword | the un-encrypted version of the password only if this customer was generated at the same time as the "new customer" email was sent and encryption is turned on |
-| from |  the sender email address |
-| to | the recipient address |
-| faq.question | the first message in the request that "publish" was called from |
-| faq.answer | the last message in the request that "publish" was called from |
+| ticket.lastMessage | The last message on the request |
+| custPassword | The un-encrypted version of the password only if this customer was generated at the same time as the "new customer" email was sent and encryption is turned on |
+| from |  The sender email address |
+| to | The recipient address |
+| faq.question | The first message in the request that "publish" was called from |
+| faq.answer | The last message in the request that "publish" was called from |
 
 Some parser variables that exist will not be described. These are present only for backward compatibility.
+
+<!-- Referenced links -->
+[1]: learn/template-variables.md#customer
+[2]: learn/template-variables.md#company
+[3]: learn/template-variables.md#user
+[4]: learn/template-variables.md#ticket
+[5]: learn/template-variables.md#config
+
+<!-- Referenced images -->

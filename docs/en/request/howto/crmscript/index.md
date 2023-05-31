@@ -58,7 +58,7 @@ For a complete list of fields, see the [database reference][16].
 | timeCharge | time_charge | Minutes to be invoiced for this message |
 
 <!-- Referenced links -->
-[1]: tickets.md
+[1]: create.md
 [2]: add-message.md
 [3]: request-logs.md
 [4]: samples.md
