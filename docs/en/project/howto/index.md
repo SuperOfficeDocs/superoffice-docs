@@ -1,6 +1,6 @@
 ---
 title: Project howto
-uid: project_howto
+uid: project-howto
 description: Working with projects at multiple levels of NetServer.
 author: Bergfrid Skaara Dias
 so.date: 04.02.2022
