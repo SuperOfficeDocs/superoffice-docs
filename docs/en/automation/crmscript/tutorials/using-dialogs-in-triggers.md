@@ -10,7 +10,7 @@ so.topic: tutorial
 
 # Using dialogs in triggers
 
-In certain scenarios it can be necessary to ask user for input or confirmation before completing process, using this method we allow for creating a simple dialog which will return input back to CRMScript trigger, based on this you should be able to create a useful workflow.
+In certain scenarios it can be necessary to ask user for input or confirmation before completing process, using this method we allow for creating a simple dialog which will return input back to [CRMScript trigger][1], based on this you should be able to create a useful workflow.
 
 A simple real-life scenario could be that when your users are booking new customer meetings they often forget to add travel time in their calendar.
 
@@ -20,11 +20,8 @@ The functionality will behave like this:
 2. If user confirms this we should ask for additional input and capture duration.
 3. Based on this we will create an additional appointment of specific type in calendar.
 
-> [!TIP]
-> You can read more about [triggers][1] and [EventData][2].
-
 > [!WARNING]
-> Script triggered dialog are not supported on BeforeSave and AfterSave triggers on Document and Quoteline dialogs. Having multiple dialogs appear is not a great user experience, and due to some legacy challenges, this feature has been postponed for these dialogs.
+> Script triggered dialog are not supported on [BeforeSave and AfterSave triggers][2] on Document and Quoteline dialogs. Having multiple dialogs appear is not a great user experience, and due to some legacy challenges, this feature has been postponed for these dialogs.
 
 ## Implementation
 
