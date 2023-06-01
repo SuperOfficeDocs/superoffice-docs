@@ -2,8 +2,10 @@
 # Generate HTML sitemaps from sitemap.xml
 
 pwd
+ls -l
 cd _site
-ls
+pwd
+ls -l
 
 echo "<title>Learn english</title>" > learn-en.html
 echo "<title>Learn norsk</title>" > learn-no.html
@@ -19,5 +21,6 @@ cat sitemap.xml | grep "loc" | grep "/learn/" | grep "/da/" | sed -e 's|<loc>\([
 cat sitemap.xml | grep "loc" | grep "/learn/" | grep "/nl/" | sed -e 's|<loc>\([^<]*\)</loc>|<a href="\1">\1</a><br>|g' >> learn-nl.html
 cat sitemap.xml | grep "loc" | grep "/learn/" | grep "/de/" | sed -e 's|<loc>\([^<]*\)</loc>|<a href="\1">\1</a><br>|g' >> learn-de.html
 
+pwd
 ls -l learn*.html
 cd ..
