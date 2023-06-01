@@ -2,6 +2,9 @@
 # Generate HTML sitemaps from sitemap.xml
 
 pwd
+# give us write permissions to build output folder
+chmod a+rw ./_site
+chown runner:docker ./_site
 ls -l
 cd _site
 pwd
