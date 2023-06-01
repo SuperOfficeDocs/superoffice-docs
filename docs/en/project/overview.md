@@ -31,9 +31,9 @@ A project typically consists of different stages. For each stage, you have certa
 
 ## Project members
 
-A project always has a project manager or owner. In addition, it can have (and usually has) project members. These are stored in the `projectmember` table.
+A project always has a project manager or owner. In addition, it can have (and usually has) project members. These are stored in the [projectmember table][5].
 
-Deleting project members doesn't delete the actual person. It only severs the link between the person and the project by removing the row from the **projectmember** table. For example, a person has retired from the company and you need to clean up the database.
+Deleting project members doesn't delete the actual person. It only severs the link between the person and the project by removing the row from the database table. For example, a person has retired from the company and you need to clean up the database.
 
 ## Project guides
 
@@ -49,11 +49,11 @@ A *project type* is a named set of reuseable info that will help you standardize
 * Whether a project guide is available
 * Stages
 
-Some **project types** have an associated project guide. For those types, it's important to understand stages and how to work with suggested activities.
+Some project types have an associated project guide. For those types, it's important to understand stages and how to work with suggested activities.
 
 ## Stages
 
-Each stage has a set of **suggested activities**. There is also a setting controlling whether the sale will automatically advance to the next stage when the last guided activity in a stage is completed.
+Each stage has a set of **suggested activities**. There is also a setting controlling whether the project will automatically advance to the next stage when the last guided activity in a stage is completed.
 
 The sequence of the stages is determined by the **rank** of each stage.
 
@@ -65,6 +65,7 @@ The blueprints sit at the intersection between project types and stages. A proje
 
 ## Howtos
 
+* [Project management in the UI][1]
 * [Using CRMScript][3]
 * [Using raq SQL][2]
 
@@ -79,9 +80,11 @@ When working with projects, data will often intersect with the following entitie
 * [Sales][16]
 
 <!-- Referenced links -->
+[1]: learn/index.md
 [2]: howto/sql/index.md
 [3]: howto/crmscript/index.md
 [4]: ../database/tables/projecttypestatuslink.md
+[5]: ../database/tables/projectmember.md
 [12]: ../document/index.yml
 [13]: ../diary/index.yml
 [14]: ../company/index.yml

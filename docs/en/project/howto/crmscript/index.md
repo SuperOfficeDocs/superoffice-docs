@@ -12,42 +12,16 @@ so.topic: howto
 
 [!include[License requirement](../../../../../common/includes/req-for-project-mgt.md)]
 
-## List available project types
+## CRMScript classes
 
-```crmscript!
-SearchEngine se;
-se.addFields("ProjType", "ProjType_id,name");
-print(se.executeTextTable());
-```
+There are no native CRMScript classes pertaining to projects. Use the NetServer classes:
 
-## Status of a project
-
-| Status | Description |
-|:------:|:------------|
-| 1      | planned     |
-| 2      | in progress |
-| 3      | completed   |
-| 4      | stopped     |
-| 5      | closing     |
-
-**To get an updated list:**
-
-```crmscript!
-NSListAgent listAgent;
-NSProjectStatus[] statuses = listAgent.GetProjectStatuses();
-
-foreach (NSProjectStatus s in statuses) {
-  printLine(s.GetId().toString() + " " + s.GetValue());
-}
-```
-
-Or:
-
-```crmscript!
-SearchEngine se;
-se.addFields("ProjStatus", "ProjStatus_id,name");
-print(se.executeTextTable());
-```
+* [NSProjectAgent][10]
+* [NSProject][11]
+* [NSProjectEntity][12]
+* [NSProjectMember][13]
+* [NSProjectStatus][14]
+* [NSProjectType][15]
 
 ## Frequently used fields
 
@@ -62,14 +36,45 @@ print(se.executeTextTable());
 
 For a complete list of fields, see the [database reference][7].
 
+## Status of a project
+
+| Status | Description |
+|-|---|
+| 1 | Planned |
+| 2 | In progress |
+| 3 | Completed |
+| 4 | Stopped |
+| 5 | Closing |
+
 ## Timestamp values
 
 | Field | Description |
 |:--|:--|
 | registered | UtcDateTime of registration |
 | updated | UtcDateTime of last update |
-| endDate | expected closing time or when it was completed or stopped (DateTime) |
-| nextMilestoneDate | closest non-complete future milestone activity (DateTime) |
+| endDate | Expected closing time or when it was completed or stopped (DateTime) |
+| nextMilestoneDate | Closest non-complete future milestone activity (DateTime) |
+
+## How-tos and examples
+
+* [Create project][2]
+* [Get project][1]
+* [Update project][5]
+* [Work with a project guide][4]
+* [Manage project members][3]
+* [Various samples][6]
 
 <!-- Referenced links -->
+[1]: index.md
+[2]: create.md
+[3]: members.md
+[4]: guides.md
+[5]: update.md
+[6]: samples.md
 [7]: ../../../database/tables/project.md
+[10]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSProjectAgent.yml
+[11]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSProject.yml
+[12]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSProjectEntity.yml
+[13]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSProjectMember.yml
+[14]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSProjectStatus.yml
+[15]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSProjectType.yml

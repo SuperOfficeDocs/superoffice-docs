@@ -10,26 +10,6 @@ so.topic: howto
 
 # Project guides
 
-## Check if project is connected to a guide
-
-```crmscript!
-NSProjectAgent agent;
-NSListAgent listAgent;
-
-NSProjectEntity p = agent.GetProjectEntity(4);
-NSProjectTypeEntity type = listAgent.GetProjectTypeEntity(p.GetProjectType().GetId());
-
-if (type.GetHasGuide()) {
-  printLine("This project has a guide!");
-}
-else {
-  printLine("This project does not have a guide.");
-}
-```
-
-> [!NOTE]
-> `GetProjectType()` returns an NSProjectType object, while you need an NSProjectTypeEntity object to call `GetHasGuide()`. You can use the list agent to do the "conversion".
-
 ## Stages
 
 ### NSSelectableMDOListItem[] GetStages()
@@ -116,37 +96,37 @@ myBlueprint = appointmentAgent.SaveSuggestedAppointmentEntity(myBlueprint);
 
 ### ProjectTypeStatusLink
 
-| Field                    | Description    |
-|:-------------------------|:---------------|
-| ProjectTypeStatusLink_id | ID             |
-| projType_id              | Link to  type  |
-| projStatus_id            | Link to status |
-| rank                     | sort order     |
+| Field | Description |
+|:--|:--|
+| ProjectTypeStatusLink_id | ID |
+| projType_id | Link to  type |
+| projStatus_id | Link to status |
+| rank | sort order |
 
 ### SuggestedAppointment
 
-| Field                   | Description                               |
-|:------------------------|:------------------------------------------|
-| SuggestedAppointment_id | ID                                        |
-| name                    | name of blueprint shown in guide          |
-| rank                    | sort order                                |
-| projectTypeStatusLinkId | anchor for project guide items            |
-| task_id                 | type of the suggested appointment         |
-| daysFuture              | when the appointment should be scheduled  |
-| duration                | in minutes                                |
-| text                    | The suggested text of the new appointment |
+| Field | Description |
+|:--|:--|
+| SuggestedAppointment_id | ID |
+| name | name of blueprint shown in guide |
+| rank | sort order |
+| projectTypeStatusLinkId | anchor for project guide items |
+| task_id | type of the suggested appointment |
+| daysFuture | when the appointment should be scheduled |
+| duration | in minutes |
+| text | The suggested text of the new appointment |
 
 For a complete list of fields, see the [database reference][5].
 
 ### SuggestedDocument
 
-| Field                   | Description                      |
-|:------------------------|:---------------------------------|
-| SuggestedDocument_id    | ID                               |
-| name                    | name of blueprint shown in guide |
-| rank                    | sort order                       |
-| projectTypeStatusLinkId | anchor for sale guide items      |
-| doctmpl_id              | type of the suggested document   |
+| Field | Description |
+|:--|:--|
+| SuggestedDocument_id | ID |
+| name | name of blueprint shown in guide |
+| rank | sort order |
+| projectTypeStatusLinkId | anchor for sale guide items |
+| doctmpl_id | type of the suggested document |
 
 For a complete list of fields, see the [database reference][6].
 

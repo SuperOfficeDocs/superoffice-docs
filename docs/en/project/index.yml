@@ -29,6 +29,10 @@ landingContent:
         links:
         - text: How to create a project
           url: learn/create.md
+      - linkListType: video
+        links:
+        - text: Guided tour
+          url: https://www.youtube.com/embed/zLJwNll223w
 
   - title: Project management
     linkLists:

@@ -24,9 +24,9 @@ p = agent.SaveProjectEntity(p);
 In the end, regardless of whether you followed a [project guide][6] or not, a project is either **completed** or **stopped**. It is time to wrap things up and at the same time make sure the project manager and others can learn from it either way.
 
 | Status | Description |
-|:------:|:------------|
-| 3      | completed   |
-| 4      | stopped     |
+|---|---|
+| 3 | completed |
+| 4 | stopped |
 
 ### Completed
 

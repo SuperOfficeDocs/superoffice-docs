@@ -22,12 +22,14 @@ items:
         href: howto/crmscript/members.md
       - name: Project guide
         href: howto/crmscript/guides.md
+      - name: Samples
+        href: howto/crmscript/samples.md
     - name: Raw SQL
       href: howto/sql/index.md
       expanded: true
       items:
       - name: Create project
-        href: howto/sql/create-project.md
+        href: howto/sql/create.md
       - name: Text table
         href: howto/sql/text-table.md
       - name: Project guide

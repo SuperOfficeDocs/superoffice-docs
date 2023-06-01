@@ -40,7 +40,7 @@ It has generated a soundex value based on the project’s `name` field. This val
 
  | Project name | Soundex value |
  |---|---|
- | Client SDK Work   | KLNTSTKAR |
+ | Client SDK Work | KLNTSTKAR |
  | Klient SDK –woork | KLNTSTKAR |
 
 It has timestamped and marked the record with the creator. You can see this in the registered and `registered_associate` fields.
