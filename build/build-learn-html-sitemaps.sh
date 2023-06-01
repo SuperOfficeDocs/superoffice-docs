@@ -3,8 +3,8 @@
 
 pwd
 # give us write permissions to build output folder
-chmod a+rw ./_site
-chown runner:docker ./_site
+sudo chmod a+rw ./_site
+sudo chown runner:docker ./_site
 ls -l
 cd _site
 pwd
