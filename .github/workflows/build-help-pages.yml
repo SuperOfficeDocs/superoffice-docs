@@ -14,7 +14,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -45,6 +45,8 @@ jobs:
         uses: nikeee/docfx-action@master
         with:
           args: docfx-learn-light.json
+      - name: Generate HTML sitemap for Learn 
+        run: bash ./build/build-learn-html-sitemaps.sh          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
