@@ -17,5 +17,13 @@ EventData ed = getEventData();
 ed.setNavigateTo("soprotocol:sale.document?document_id=0");
 ```
 
+To refresh the currently selected entity.
+
+```crmscript
+EventData ed = getEventData();
+ed.setNavigateTo("soprotocol:main[refresh=true]");
+```
+
+
 <!-- Referenced links -->
 [1]: ../../automation/crmscript/reference/CRMScript.Native.EventData.yml
