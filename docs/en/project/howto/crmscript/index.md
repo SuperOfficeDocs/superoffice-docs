@@ -1,9 +1,9 @@
 ---
-uid: crmscript_projects
+uid: crmscript-project
 title: Projects
 description: Working with projects in CRMScript
 author: Bergfrid Dias
-so.date: 10.27.2021
+so.date: 05.31.2023
 keywords: project, project management, CRMScript
 so.topic: howto
 ---
@@ -12,43 +12,13 @@ so.topic: howto
 
 [!include[License requirement](../../../../../common/includes/req-for-project-mgt.md)]
 
-## Retrieve a project
-
-**To view basic info, use NSProject:**
-
-```crmscript
-NSProjectAgent projectAgent;
-NSProject p = projectAgent.GetProject(1);
-printLine(p.GetType());
-```
-
-**To view (and possibly update) complex info, use NSProjectEntity:**
-
-```crmscript!
-NSProjectAgent projectAgent;
-NSProjectEntity p = projectAgent.GetProjectEntity(1);
-printLine(p.GetProjectType().GetValue());
-```
-
-## Project type
-
-A *project type* is a named set of reuseable info that will help you standardize the process. Aside from the name and ID, you'll find info such as:
-
-* the expected duration
-* whether a [project guide][1] is available
-* stages
-
-**List available types:**
+## List available project types
 
 ```crmscript!
 SearchEngine se;
 se.addFields("ProjType", "ProjType_id,name");
 print(se.executeTextTable());
 ```
-
-## Project guides
-
-Using a [guide][1] will simplify and structure the process for the project manager with suggestions for which follow-ups to do and which documents to create at each stage.
 
 ## Status of a project
 
@@ -79,5 +49,27 @@ se.addFields("ProjStatus", "ProjStatus_id,name");
 print(se.executeTextTable());
 ```
 
+## Frequently used fields
+
+| Field | Description |
+|:--|:--|
+| project_id | ID |
+| name | name of project |
+| associate_id | project manager or owner |
+| type_idx | type of project |
+| status_idx | status |
+| done | 0 = no, 1 = yes |
+
+For a complete list of fields, see the [database reference][7].
+
+## Timestamp values
+
+| Field | Description |
+|:--|:--|
+| registered | UtcDateTime of registration |
+| updated | UtcDateTime of last update |
+| endDate | expected closing time or when it was completed or stopped (DateTime) |
+| nextMilestoneDate | closest non-complete future milestone activity (DateTime) |
+
 <!-- Referenced links -->
-[1]: project-guides.md
+[7]: ../../../database/tables/project.md

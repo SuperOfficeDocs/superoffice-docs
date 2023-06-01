@@ -29,9 +29,39 @@ A project typically consists of different stages. For each stage, you have certa
 * Milestones
 * An (expected) end date
 
+## Project members
+
+A project always has a project manager or owner. In addition, it can have (and usually has) project members. These are stored in the `projectmember` table.
+
+Deleting project members doesn't delete the actual person. It only severs the link between the person and the project by removing the row from the **projectmember** table. For example, a person has retired from the company and you need to clean up the database.
+
 ## Project guides
 
+Using a guide will simplify and structure the process for the project manager with suggestions for which follow-ups to do and which documents to create at each stage.
+
 ![Project guide -screenshot][img2]
+
+## Project type
+
+A *project type* is a named set of reuseable info that will help you standardize the process. Aside from the name and ID, you'll find info such as:
+
+* The expected duration
+* Whether a project guide is available
+* Stages
+
+Some **project types** have an associated project guide. For those types, it's important to understand stages and how to work with suggested activities.
+
+## Stages
+
+Each stage has a set of **suggested activities**. There is also a setting controlling whether the sale will automatically advance to the next stage when the last guided activity in a stage is completed.
+
+The sequence of the stages is determined by the **rank** of each stage.
+
+## Suggested activities
+
+Suggested activities are just that  - **suggested**. They're blueprints that can be used to create actual follow-ups and documents.
+
+The blueprints sit at the intersection between project types and stages. A project type can have many stages, and a stage can apply to multiple project types. The [ProjectTypeStatusLink table][4] connects them all.
 
 ## Howtos
 
@@ -51,6 +81,7 @@ When working with projects, data will often intersect with the following entitie
 <!-- Referenced links -->
 [2]: howto/sql/index.md
 [3]: howto/crmscript/index.md
+[4]: ../database/tables/projecttypestatuslink.md
 [12]: ../document/index.yml
 [13]: ../diary/index.yml
 [14]: ../company/index.yml

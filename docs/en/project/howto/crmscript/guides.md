@@ -1,16 +1,14 @@
 ---
-uid: crmscript_project-guides
+uid: crmscript-project-guide
 title: Project guides
-description: Some project types have an associated project guide.
+description: How to work with project guides in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 02.04.2022
-keywords: CRMScript; project, project guide, project type
+so.date: 05.31.2023
+keywords: CRMScript, project, project guide, project type, stage, ProjectAgent
 so.topic: howto
 ---
 
-# Guides
-
-Some **project types** have an associated project guide. For those types, it's important to understand stages and how to work with suggested activities.
+# Project guides
 
 ## Check if project is connected to a guide
 
@@ -33,10 +31,6 @@ else {
 > `GetProjectType()` returns an NSProjectType object, while you need an NSProjectTypeEntity object to call `GetHasGuide()`. You can use the list agent to do the "conversion".
 
 ## Stages
-
-Each stage has a set of **suggested activities**. There is also a setting controlling whether the sale will automatically advance to the next stage when the last guided activity in a stage is completed.
-
-The sequence of the stages is determined by the **rank** of each stage.
 
 ### NSSelectableMDOListItem[] GetStages()
 
@@ -67,10 +61,6 @@ printLine("This sale will auto advance: " + type.GetIsAutoAdvance().toString());
 
 ## Suggested activities
 
-Suggested activities are just that  - **suggested**. They're blueprints that can be used to create actual [follow-ups][1] and [documents][2].
-
-The blueprints sit at the intersection between project types and stages. A project type can have many stages, and a stage can apply to multiple project types. The [ProjectTypeStatusLink table][4] connects them all.
-
 ### List available suggestions
 
 ```crmscript!
@@ -98,9 +88,7 @@ newAppointment = appointmentAgent.SaveAppointmentEntity(newAppointment);
 
 ### Create a suggestion and link it to a stage
 
-You can also create your own blueprints and load default values into them.
-
-This example creates a suggestion called *Read project charter* with a duration of 2 hours. It then links it to an **NSProjectTypeStatusLink** with ID 1.
+You can also create your own blueprints and load default values into them. This example creates a suggestion called *Read project charter* with a duration of 2 hours. It then links it to an **NSProjectTypeStatusLink** with ID 1.
 
 ```crmscript!
 NSAppointmentAgent appointmentAgent;
@@ -163,9 +151,6 @@ For a complete list of fields, see the [database reference][5].
 For a complete list of fields, see the [database reference][6].
 
 <!-- Referenced links -->
-[1]: ../../../diary/howto/crmscript/index.md
-[2]: ../../../document/howto/crmscript/index.md
 [3]: ../../../document/howto/crmscript/doc-properties.md
-[4]: ../../../database/tables/projecttypestatuslink.md
 [5]: ../../../database/tables/suggestedappointment.md
 [6]: ../../../database/tables/suggesteddocument.md

@@ -62,15 +62,15 @@ landingContent:
       - linkListType: concept
         links:
         - text: Overview
-          url: learn/project-guide/index.md
+          url: learn/project-members/index.md
         - text: Add member
-          url: learn/project-guide/add.md
+          url: learn/project-members/add.md
         - text: Update member
-          url: learn/project-guide/edit.md
+          url: learn/project-members/edit.md
         - text: Invite to meeting
-          url: learn/project-guide/invite-to-meeting.md
+          url: learn/project-members/invite-to-meeting.md
         - text: Send email to members
-          url: learn/project-guide/send-email-to.md
+          url: learn/project-members/send-email-to.md
       - linkListType: video
         links:
         - text: How to add project member to project
@@ -135,12 +135,16 @@ landingContent:
           url: howto/crmscript/index.md
       - linkListType: how-to-guide
         links:
-        - text: Project lifecycle
-          url: howto/crmscript/project-lifecycle.md
+        - text: Create
+          url: howto/crmscript/create.md
+        - text: Get selected
+          url: howto/crmscript/get.md
+        - text: Update
+          url: howto/crmscript/update.md
         - text: Project members
-          url: howto/crmscript/project-members.md
+          url: howto/crmscript/members.md
         - text: Project guides
-          url: howto/crmscript/project-guides.md
+          url: howto/crmscript/guides.md
 
   - title: API
     linkLists:
