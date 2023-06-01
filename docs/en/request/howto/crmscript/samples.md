@@ -1,10 +1,11 @@
 ---
-uid: crmscript_request_samples
+uid: crmscript-request-samples
 title: Samples
-author:
-so.date:
-keywords:
-so.topic:
+description: Sample code for working with requests in CRMScript.
+author: Bergfrid Skaara Dias
+so.date: 05.26.2023
+keywords: Service, ticket, request, CRMScript
+so.topic: howto
 ---
 
 # Samples
@@ -71,3 +72,29 @@ se.execute();
 ```
 
 This snippet fetches the associate ID of "Our contact" form ticket 1.
+
+## Postpone tickets
+
+Sometimes you need to put tickets on the back-burner.
+
+```crmscript
+DateTime now = getCurrentDateTime();
+
+Ticket t;
+t.load(3);
+t.setValue("status", "3");
+t.setValue("lastChanged", now.toString());
+t.setValue("dbiLastModified", now.toString());
+
+Message m;
+m.setValue("ticketId", t.getValue("id"));
+m.setValue("createdAt", t.getValue("lastChanged"));
+m.setValue("createdBy", t.getValue("ownedBy"));
+m.setValue("slevel", "1");
+m.setValue("body", "Expecting fix in next patch");
+m.save();
+
+t.setValue("activate", now.moveToMonthEnd().toString());
+t.save();
+t.notifyEmail(5);
+```

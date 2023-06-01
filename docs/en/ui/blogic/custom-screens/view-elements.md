@@ -261,7 +261,7 @@ Void element_setFieldValue(String field, Map map) {
 [3]: ../reference/br.md
 [4]: ../reference/hr.md
 [5]: ../reference/info-fields-2.md
-[6]: ../../../automation/crmscript/parser-and-templates/parser.md
+[6]: ../../../automation/crmscript/parser.md
 [7]: ../reference/parser-code.md
 [8]: ../reference/data-table.md
 [9]: ../reference/static-grid.md

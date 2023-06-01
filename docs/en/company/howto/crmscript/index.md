@@ -58,7 +58,7 @@ printLine(p.getVariable("company.name", 0));
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.Company>
-[2]: ../../../automation/crmscript/parser-and-templates/reply-template.md
+[2]: ../../../request/reply-templates/howto/crmscript/index.md
 [3]: ../../../globalization-and-localization/address/index.md
 [4]: ../../../database/tables/contact.md
 [5]: create-company.md#connected-persons

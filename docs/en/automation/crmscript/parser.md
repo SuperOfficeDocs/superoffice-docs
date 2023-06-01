@@ -1,10 +1,11 @@
 ---
-uid: crmscript_parser
+uid: crmscript-parser
 title: Parser
-author:
-so.date:
-keywords:
-so.topic:
+description: About the CRMScript Parser class, which is a template engine.
+author: Bergfrid Dias
+so.date: 05.30.2023
+keywords: parser, template, variable
+so.topic: concept
 ---
 
 # Parser
@@ -96,4 +97,4 @@ print(p.getVariableCount("firstName").toString());
 ```
 
 <!-- Referenced links -->
-[1]: reply-template.md
+[1]: ../../request/reply-templates/index.md

@@ -102,14 +102,10 @@ items:
     items:
     - name: CRMScript ArchiveAgent
       href: netserver/crmscript-archiveagent.md
-  - name: Text
-    items:
-    - name: Parser
-      href: parser-and-templates/parser.md
-    - name: Reply template
-      href: parser-and-templates/reply-template.md
+  - name: Parser
+    href: parser.md
   - name: SearchEngine
-    href: searchengine/db-basics.md
+    href: searchengine/index.md
     items:
     - name: Database basics
       href: searchengine/db-basics.md

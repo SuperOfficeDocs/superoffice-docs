@@ -68,4 +68,4 @@ Here, prefixes are *customer* and *user* respectively.
 
 <!-- Referenced links -->
 [1]: ../../associate.md
-[2]: ../../../automation/crmscript/parser-and-templates/reply-template.md
+[2]: ../../../request/reply-templates/howto/crmscript/index.md
