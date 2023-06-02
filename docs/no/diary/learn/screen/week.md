@@ -1,0 +1,27 @@
+---
+uid: help-no-diary-screen-week
+title: Uke-fanen
+description: Uke-fanen
+author: SuperOffice RnD
+so.date: 02.27.2023
+keywords: dagbok, oppfølging
+so.topic: reference
+language: no
+---
+
+# Fanen Uke
+
+Fanen **Uke** viser én uke om gangen. Det er én kolonne for hver ukedag og tidsintervaller langs venstre kant.
+
+![img2 -screenshot][Dagbok-skjermen, fanen Uke]
+
+Hvis du vil åpne fanen **Dag** for en bestemt dag, kan du klikke på overskriften som representerer den aktuelle dagen.
+
+> [!NOTE]
+> Du kan definere om søndag eller mandag skal betraktes som den første dagen i uken under ![icon][img1] **Personlige innstillinger > Preferanser**.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/personal-settings-small.png
+[img2]: media/week-plan.bmp
