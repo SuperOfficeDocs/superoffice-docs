@@ -14,9 +14,11 @@ so.topic: howto
 
 The [project table][5] contains the name and IDs of some of the other items.
 
-![Diagram of project related tables][img2]
+![project table relationship diagram][img2]
 
 The relations are one-to-one mostly. At this level, the database structure is not very complicated. So putting together a project display is just a matter of reading the right record, and then following the relations arrows out to the right tables.
+
+<!-- TBD include Relations table from ../../../database/tables/project.md?range=69-90 -->
 
 ## Project type
 
@@ -68,7 +70,7 @@ There may be several URLs all referencing the same `project_id`. This is OK. The
 * [Project description][3]
 
 <!-- Referenced links -->
-[1]: create-project.md
+[1]: create.md
 [2]: project-guide.md
 [3]: text-table.md
 [4]: ../../../api/lists/index.md
@@ -81,4 +83,4 @@ There may be several URLs all referencing the same `project_id`. This is OK. The
 [11]: ../../../database/tables/udeffield.md
 
 <!-- Referenced images -->
-[img2]: media/so-project-tables.gif
+[img2]: ../../../database/tables/media/project.png
