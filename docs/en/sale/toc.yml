@@ -14,16 +14,6 @@ items:
       href: saint/counters.md
     - name: Values
       href: saint/values.md
-    - name: Web services
-      href: saint/services/index.md
-      items:
-      - name: Link sale to appointment
-        href: saint/services/link-sale-to-appointment-services.md
-    - name: Entities
-      href: saint/entity/index.md
-      items:
-      - name: Link sale to appointment
-        href: saint/entity/link-sale-to-appointment-entity.md
     - name: Rows
       href: saint/row/index.md
       items:
@@ -54,3 +44,13 @@ items:
         href: howto/crmscript/currency.md
       - name: Lost or sold
         href: howto/crmscript/lost-or-sold.md
+    - name: Web services
+      href: howto/services/index.md
+      items:
+      - name: Link sale to appointment
+        href: howto/services/link-sale-to-appointment-services.md
+    - name: Entities
+      href: howto/entity/index.md
+      items:
+      - name: Link sale to appointment
+        href: howto/entity/link-sale-to-appointment-entity.md

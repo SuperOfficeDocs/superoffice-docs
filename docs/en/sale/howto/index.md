@@ -1,6 +1,6 @@
 ---
 title: Sale howto
-uid: sale_howto
+uid: sale-howto
 description: You can work with sales at multiple levels of NetServer.
 author: Bergfrid Skaara Dias
 so.date: 04.02.2022

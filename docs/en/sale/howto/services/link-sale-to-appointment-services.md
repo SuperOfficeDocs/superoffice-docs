@@ -4,7 +4,7 @@ uid: link_sale_to_appointment_ws
 description: How to link a sale to an appointment using web services.
 author: Bergfrid Skaara Dias
 so.date: 11.05.2021
-keywords: sale, SAINT, API, web services, AppointmentAgent, appointment
+keywords: sale, API, web services, AppointmentAgent, appointment
 so.topic: howto
 # so.envir:
 # so.client:
