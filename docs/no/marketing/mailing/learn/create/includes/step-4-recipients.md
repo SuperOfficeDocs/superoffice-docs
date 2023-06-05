@@ -65,7 +65,7 @@ Når du importerer en liste med navn og e-postadresser, prøver SuperOffice Mark
 
 * Hver mottaker (rad) består av hele navnet og e-postadressen.
 
-    Eksempel: "Jon Sørensen, john@company.com")
+    Eksempel: "Jon Sørensen, john@company.com"
 
     > [!NOTE]
     >Du kan også angi bare e-postadressen. Navnet vil deretter ikke være tilgjengelig som malvariabel.

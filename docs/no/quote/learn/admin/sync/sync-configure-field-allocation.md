@@ -23,7 +23,7 @@ Når du skal synkronisere data mellom SuperOffice og ERP-systemer, må du angi h
 
 1. Velg fanen for den aktøren du vil konfigurere felttilordninger for.
 
-1. Velg ** Synkroniser ERP [actor] med SuperOffice [entity]**.
+1. Velg **Synkroniser ERP [actor] med SuperOffice [entity]**.
 
 1. I listen nedenfor må du velge synkroniseringsretning og hvilket SuperOffice-felt hvert ERP-felt skal tilordnes (synkroniseres med). I tillegg kan du velge om feltene skal vises i søk og i fanen **ERP**.
     Listen består av følgende kolonner:

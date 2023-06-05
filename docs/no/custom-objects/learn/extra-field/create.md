@@ -25,7 +25,7 @@ Når du har opprettet en [ekstra tabell][1], må du definere felt i tabellen, sl
 1. I skjermen **Nytt ekstrafelt** velger du en felttype i listeboksen **Type**.
 1. Klikk på **OK**. Bildet **Egenskaper for felt** åpnes.
 1. I bildet **Egenskaper for felt** angir du informasjon om det nye feltet. Hvilke egenskaper som er tilgjengelige, avhenger av typen ekstrafelt (angitt i trinn 3).
-1. Klikk på **OK** for å lagre, og klikk deretter på knappen **Start Netserver om igjen** øverst til høyre.
+1. Klikk på **OK** for å lagre, og klikk deretter på knappen **Start NetServer om igjen** øverst til høyre.
 
 ## Egenskaper for felt
 
