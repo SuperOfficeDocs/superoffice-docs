@@ -34,7 +34,7 @@ Hvert trinn i arbeidsflyten må være fullført før du kan gå videre til neste
 Det første du må gjøre, er å velge hvilken type utsendelse du vil sende. Når du velger utsendelsestype, sikrer SuperOffice CRM at du ikke sender utsendelsen til personer som ikke abonnerer på utsendelsen du skal sende.
 
 > [!NOTE]
->Hvis du satte i gang utsendelsen som en brevfletting fra SuperOffice CRM, har du allerede valgt utsendelsestypen. Du dirigeres automatisk til trinnet **Oppsett**.
+> Hvis du satte i gang utsendelsen som en brevfletting fra SuperOffice CRM, har du allerede valgt utsendelsestypen. Du dirigeres automatisk til trinnet **Oppsett**.
 
 1. Velg fanen **Utsendelser**.
 

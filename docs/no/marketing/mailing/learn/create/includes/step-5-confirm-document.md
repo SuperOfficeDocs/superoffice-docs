@@ -1,11 +1,11 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!NOTE]
->Dokumentutsendelser sendes i realiteten ikke når du klikker på **Send nå**. Det genereres et PDF-dokument som inneholder alle sidene for alle personer/firmaer du har valgt som mottakere i utsendelsen. Du kan [åpne og skrive ut](#open-and-print-the-document) PDF-dokumentet fra bildet **Vis utsendelse**.
+> Dokumentutsendelser sendes i realiteten ikke når du klikker på **Send nå**. Det genereres et PDF-dokument som inneholder alle sidene for alle personer/firmaer du har valgt som mottakere i utsendelsen. Du kan [åpne og skrive ut](#open-and-print-the-document) PDF-dokumentet fra bildet **Vis utsendelse**.
 
 I det siste trinnet, **Bekreft**, kan du vise et sammendrag av utsendelsen og bekrefte at den er korrekt. Eventuelle feilmeldinger som vises i dette bildet, må løses før utsendelsen kan sendes.
 
 > [!NOTE]
->Alternativene for sending deaktiveres hvis det er ufullstendige trinn eller manglende informasjon i utsendelsen. Disse indikeres med rødt.
+> Alternativene for sending deaktiveres hvis det er ufullstendige trinn eller manglende informasjon i utsendelsen. Disse indikeres med rødt.
 
 ## Sende utsendelsen nå
 

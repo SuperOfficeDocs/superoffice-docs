@@ -25,7 +25,7 @@ E-postmeldinger kan bli returnert på grunn av feil i e-postadresser, søppelpos
 Midlertidig mislykkede e-postadresser blir ikke blokkert og blir ikke hoppet over i neste utsendelse.
 
 > [!NOTE]
->For å forhindre feilstavede eller ugyldige e-postadresser validerer SuperOffice mottatte e-postadresser via chat og skjemaer. Valideringen utføres ved hjelp av DNS-oppslag og kontroll av grunnleggende e-postsyntaks.
+> For å forhindre feilstavede eller ugyldige e-postadresser validerer SuperOffice mottatte e-postadresser via chat og skjemaer. Valideringen utføres ved hjelp av DNS-oppslag og kontroll av grunnleggende e-postsyntaks.
 
 Det finnes to typer returmeldinger:
 
@@ -44,7 +44,7 @@ Bruk filterknappene (Sendt, Returnert og Åpnet) til å [filtrere mottakerlisten
 3. Et advarselsikon (![ikon][img1]) ved siden av e-postadressen indikerer et problem. Hold musepekeren over ikonet for å vise årsaken til problemet.
 
 > [!TIP]
->Klikk på en kolonne for å få tilgang til sorterings- og grupperingsfunksjonene.
+> Klikk på en kolonne for å få tilgang til sorterings- og grupperingsfunksjonene.
 
 ## Blokkerte e-postadresser
 
@@ -56,7 +56,7 @@ E-postadresser som har blitt returnert på grunn av permanente feil eller har re
 Alle blokkerte e-postadresser fra alle utsendelser er arkivert i fanen**Blokkerte e-postadresser**. Denne fanen gir en utmerket oversikt over e-postadresser som må rengjøres.
 
 > [!TIP]
->Klikk på en kolonne for å få tilgang til sorterings- og grupperingsfunksjonene.
+> Klikk på en kolonne for å få tilgang til sorterings- og grupperingsfunksjonene.
 
 ## Returalternativer
 

@@ -41,7 +41,7 @@ Den andre kolonnen inneholder ikoner som angir type aktivitet, for eksempel en u
 | Bruker-ID | Bruker-ID-en til den som har registrert aktiviteten. |
 
 > [!NOTE]
->For dokumenter, datoen da dokumentet ble registrert.
+> For dokumenter, datoen da dokumentet ble registrert.
 >
 > For oppfølginger, datoen når oppfølgingen finner sted.
 

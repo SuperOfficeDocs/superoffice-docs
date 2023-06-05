@@ -16,7 +16,7 @@ so.envir: onsite
 Når du har tatt sikkerhetskopi av databasefilen, funnet riktig datafil og plassert den i en mappe der du lett finner den igjen (se [Importrutiner][1]), kan du sette i gang selve importen.
 
 > [!NOTE]
->Enkelte programmer «låser» åpne filer, slik at andre programmer ikke kan bruke dem. Før du starter importen, må du passe på at verken importbeskrivelsesfilen eller datafilen er åpen i et annet program (for eksempel Excel).
+> Enkelte programmer «låser» åpne filer, slik at andre programmer ikke kan bruke dem. Før du starter importen, må du passe på at verken importbeskrivelsesfilen eller datafilen er åpen i et annet program (for eksempel Excel).
 
 **Trinn:**
 
@@ -37,7 +37,7 @@ Når du har tatt sikkerhetskopi av databasefilen, funnet riktig datafil og plass
 6. Klikk på **Start** for å sette i gang importen. Det vises en statusindikator nederst i bildet.
 
 > [!NOTE]
->Hvor lang tid det tar å importere dataene fra importfilen til SuperOffice-databasen, er avhengig av størrelsen på databasen og dataforbindelsen (treg eller rask forbindelse til databaseserveren). Du kan imidlertid når som helst avbryte importen ved å klikke på **Stopp**-knappen til høyre for statusindikatoren.
+> Hvor lang tid det tar å importere dataene fra importfilen til SuperOffice-databasen, er avhengig av størrelsen på databasen og dataforbindelsen (treg eller rask forbindelse til databaseserveren). Du kan imidlertid når som helst avbryte importen ved å klikke på **Stopp**-knappen til høyre for statusindikatoren.
 
 <!-- Referenced links -->
 [1]: import-routines.md

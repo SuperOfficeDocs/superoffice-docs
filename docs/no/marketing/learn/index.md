@@ -67,7 +67,7 @@ Det er tre hovedområder der GDPR påvirker arbeidet til markedsførere:
 ## Krav
 
 > [!NOTE]
->Sporede koblinger og rapporteringsfunksjoner krever Marketing User-lisensen. Du trenger også funksjonelle rettigheter for å kunne redigere og sende utsendelser.
+> Sporede koblinger og rapporteringsfunksjoner krever Marketing User-lisensen. Du trenger også funksjonelle rettigheter for å kunne redigere og sende utsendelser.
 
 SMS-utsendelse er ikke tilgjengelig hvis du bruker CRM Online.
 

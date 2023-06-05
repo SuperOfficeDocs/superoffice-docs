@@ -14,7 +14,7 @@ language: no
 Når kunden har akseptert tilbudet, kan du registrere ordren slik at den sendes videre til for eksempel ordremottak eller lager for videre behandling.
 
 > [!TIP]
->Du registrerer en ordre for en arkivert versjon av tilbudet, ved å velge denne versjonen i feltet **Versjon** og klikke på **Aktiver**. Da blir det arkiverte tilbudet kopiert og gjort til gjeldende versjon. Forrige versjon av tilbudet blir arkivert.
+> Du registrerer en ordre for en arkivert versjon av tilbudet, ved å velge denne versjonen i feltet **Versjon** og klikke på **Aktiver**. Da blir det arkiverte tilbudet kopiert og gjort til gjeldende versjon. Forrige versjon av tilbudet blir arkivert.
 
 1. Klikk på **Registrer ordre** i dialogboksen **Rediger tilbud for**. Dialogboksen **Lag ordre basert på tilbudsversjon** vises. I tittellinjen for dialogboksen står det hvilken tilbudsversjon ordren er basert på.
 

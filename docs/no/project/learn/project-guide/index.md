@@ -22,7 +22,7 @@ Hver **status** for prosjektguiden kommer med bestemte aktiviteter som oppfølgi
 Prosjektguiden defineres i Innstillinger og vedlikehold.
 
 > [!TIP]
->Du kan forhåndsvise dokumenter og aktiviteter i **Forhåndsvisning** på sidepanelet.
+> Du kan forhåndsvise dokumenter og aktiviteter i **Forhåndsvisning** på sidepanelet.
 
 ## Aktuelle emner
 

@@ -30,7 +30,7 @@ Klikk på **Opprett** ved siden av oppfølgingene og dokumentene for å opprette
 ![Opprette systemvalg i prosjektguide -screenshot][img5]
 
 > [!TIP]
->Alle oppfølginger og dokumenter som du har opprettet for en prosjektguide, vises også på detaljkortet **Aktiviteter** i Prosjekt-bildet. Dette gir deg en oversikt over alle aktiviteter som er knyttet opp mot prosjektet – både utførte og ikke utførte aktiviteter.
+> Alle oppfølginger og dokumenter som du har opprettet for en prosjektguide, vises også på detaljkortet **Aktiviteter** i Prosjekt-bildet. Dette gir deg en oversikt over alle aktiviteter som er knyttet opp mot prosjektet – både utførte og ikke utførte aktiviteter.
 
 Når en oppfølging eller et dokument er opprettet, kan du slette eller redigere oppfølgingen/dokumentet ved å høyreklikke på tittelen og velge fra menyen som vises. På denne måten kan du også opprette en ny oppfølging eller et nytt dokument av samme type.
 

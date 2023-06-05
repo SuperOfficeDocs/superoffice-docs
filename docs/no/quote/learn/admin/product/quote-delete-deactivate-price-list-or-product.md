@@ -15,7 +15,7 @@ language: no
 I fanen **SuperOffice-produkter** i **Tilbud/Sync**-bildet kan du slette eller deaktivere både prislister og produkter i prislistene. Dermed vil ikke disse prislistene og produktene være tilgjengelige når brukerne skal opprette tilbud.
 
 > [!NOTE]
->Vi anbefaler imidlertid at du deaktiverer prislister og produkter fremfor å slette dem permanent. Hvis du sletter dem, kan det oppstå problemer ved oppdatering av priser eller sending av tilbud.
+> Vi anbefaler imidlertid at du deaktiverer prislister og produkter fremfor å slette dem permanent. Hvis du sletter dem, kan det oppstå problemer ved oppdatering av priser eller sending av tilbud.
 
 ## Deaktivere prislister
 
@@ -27,7 +27,7 @@ I fanen **SuperOffice-produkter** i **Tilbud/Sync**-bildet kan du slette eller d
 4. Klikk på **OK**.
 
 > [!NOTE]
->Deaktiverte prislister er ikke tilgjengelige når brukerne skal opprette tilbud.
+> Deaktiverte prislister er ikke tilgjengelige når brukerne skal opprette tilbud.
 
 ## Deaktivere produkter
 

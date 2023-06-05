@@ -36,7 +36,7 @@ Du kan eksportere den åpne prislisten ved å klikke på ![ikon][img1] **Eksport
 Enten har du ikke [tilgangsrettigheter][4] til eksportfunksjonen, eller så er ikke denne [preferansen][5] aktivert.
 
 > [!TIP]
->Før du eksporterer prislisten, kan det være nyttig å velge ut hvilke kolonner du vil ha med, og rekkefølgen på dem.
+> Før du eksporterer prislisten, kan det være nyttig å velge ut hvilke kolonner du vil ha med, og rekkefølgen på dem.
 
 ## Hva vil du gjøre nå?
 

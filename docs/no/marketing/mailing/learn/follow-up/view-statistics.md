@@ -36,7 +36,7 @@ Statistikken fra hver utsendelse vil vise deg hvilken utsendelse som fungerte be
 Hvis du vil vise statistikk om utsendelsen, går du til fanen **Utsendelser** og klikker på utsendelsen i listen. Bildet **Vis utsendelse** åpnes.
 
 > [!TIP]
->Klikk på knappen **Oppdater** for å oppdatere statistikk om utsendelsen.
+> Klikk på knappen **Oppdater** for å oppdatere statistikk om utsendelsen.
 
 Når utsendelsen er avsluttet, kan du se ytelsen til utsendelsen i fanen **Sammendrag**.
 

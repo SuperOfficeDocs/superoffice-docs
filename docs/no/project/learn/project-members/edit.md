@@ -22,7 +22,7 @@ Du kan redigere opplysningene i feltet **Funksjon** og **Kommentar** for prosjek
 5. Klikk på **Lagre**.
 
 > [!TIP]
->Du kan redigere flere personer ved å klikke på **Legg til** under **Prosjektdeltakere**. Merk og flytt prosjektdeltakerne fra venstre til høyre felt. Deretter holder du nede **CTRL** eller **SKIFT** for å velge prosjektdeltakerne i høyre felt. Endringer du deretter gjør i feltet **Funksjon** og tekstboksen **Kommentar**, vil gjelde for alle de merkede prosjektdeltakerne.
+> Du kan redigere flere personer ved å klikke på **Legg til** under **Prosjektdeltakere**. Merk og flytt prosjektdeltakerne fra venstre til høyre felt. Deretter holder du nede **CTRL** eller **SKIFT** for å velge prosjektdeltakerne i høyre felt. Endringer du deretter gjør i feltet **Funksjon** og tekstboksen **Kommentar**, vil gjelde for alle de merkede prosjektdeltakerne.
 
 ## Slette prosjektdeltakere
 

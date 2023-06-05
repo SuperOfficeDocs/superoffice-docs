@@ -16,7 +16,7 @@ so.envir: onsite
 Avanserte importinnstillinger omfatter blant annet innstillinger for datoformat og feltskilletegn. Hensikten med dem er at SuperOffice skal tolke importfilen på riktig måte.
 
 > [!NOTE]
->Hvis du skal kunne tilordne feltene fra importfilen riktig, kan det hende du må redigere innstillingene for tekstskilletegn, feltskilletegn og radskilletegn.
+> Hvis du skal kunne tilordne feltene fra importfilen riktig, kan det hende du må redigere innstillingene for tekstskilletegn, feltskilletegn og radskilletegn.
 
 1. [!include[How to open import](includes/open-import.md)]
 
@@ -68,7 +68,7 @@ Avanserte importinnstillinger omfatter blant annet innstillinger for datoformat 
     [!include[Save mapping](includes/tip-save-mapping.md)]
 
 > [!NOTE]
->Hvis du anga en importbeskrivelsesfil i feltet **Importbeskrivelsesfil**, vil det allerede være angitt informasjon i dialogboksen **Avanserte innstillinger**. Denne informasjonen kan du imidlertid endre i henhold til beskrivelsen ovenfor. Husk at importbeskrivelsesfilen må lagres for at den skal oppdateres med de nye valgene som er gjort.
+> Hvis du anga en importbeskrivelsesfil i feltet **Importbeskrivelsesfil**, vil det allerede være angitt informasjon i dialogboksen **Avanserte innstillinger**. Denne informasjonen kan du imidlertid endre i henhold til beskrivelsen ovenfor. Husk at importbeskrivelsesfilen må lagres for at den skal oppdateres med de nye valgene som er gjort.
 
 <!-- Referenced links -->
 [2]: ../../../../admin/options/learn/freetext-search/regenerate-index.md

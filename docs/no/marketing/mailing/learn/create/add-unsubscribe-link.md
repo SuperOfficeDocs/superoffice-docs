@@ -53,7 +53,7 @@ Du bestemmer hvor denne avmeldingskoblingen vises og ordlyden i den, samt hva so
 Basert på tilbakemelding fra mottakerne, oppdateres abonnementsinnstillingene i fanen **Interesser** på personkortet i SuperOffice CRM.
 
 > [!NOTE]
->Dette innebærer at kunden ikke lenger mottar denne utsendelsestypen fra SuperOffice Marketing, uansett hvilken mottakerliste som brukes til utsendelsen. Dette kan være uheldig for fremtidig markedsføring. [Hvilke alternativer har jeg?][2]
+> Dette innebærer at kunden ikke lenger mottar denne utsendelsestypen fra SuperOffice Marketing, uansett hvilken mottakerliste som brukes til utsendelsen. Dette kan være uheldig for fremtidig markedsføring. [Hvilke alternativer har jeg?][2]
 >
 > Du har imidlertid mulighet til å overstyre innstillingene «ikke samtykke/ikke abonnement» fra **Alternativer** i den nedre delen av skjermen **Mottakere** (se Trinn 4: Mottakere).
 

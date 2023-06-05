@@ -20,7 +20,7 @@ Det er to ting som er svært viktig å huske på før du importerer data:
 * Datafilen du skal importere fra, må være en tekstfil, nærmere bestemt en Windows-basert [ANSI-fil][1]. Det betyr at hvis kunderegisteret ditt er laget i for eksempel Excel, må du lagre Excel-filen som en tekstfil før du kan importere dataene fra den og inn i SuperOffice-databasen. Du kan sjekke filformatet ved å åpne filen i Excel. Filen bør ha filtypen **TXT** (for eksempel **IMPORT.TXT**), og du må vite hvilken mappe filen ligger i.
 
 > [!NOTE]
->Du kan ikke importere filer med fast lengde i SuperOffice-databasen hvis du ikke har skilletegn mellom feltene.
+> Du kan ikke importere filer med fast lengde i SuperOffice-databasen hvis du ikke har skilletegn mellom feltene.
 
 ## Aktuelle emner
 

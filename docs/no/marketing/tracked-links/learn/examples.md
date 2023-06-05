@@ -16,7 +16,7 @@ language: no
 Sporbare koblinger kan brukes på flere nyttige måter:
 
 > [!NOTE]
->Eksemplene nedenfor fungerer like bra for vanlige koblinger, men klikkene måles da bare for den enkelte utsendelse.
+> Eksemplene nedenfor fungerer like bra for vanlige koblinger, men klikkene måles da bare for den enkelte utsendelse.
 
 * **Respons**: Hver mottaker som klikker på en kobling, for eksempel til en ny produktside, registreres i systemet. På denne måten ser du hvor stor interessen er blant alle mottakerne på tvers av flere utsendelser.
 

@@ -53,7 +53,7 @@ Her vises standard hjelpetekst for feltet (feltnavnet). Denne teksten vises når
 Merk av her hvis brukerne skal redigere feltet, og/eller hvis det skal være påkrevd å fylle ut feltet. Feltet blir automatisk satt til **Redigerbar** hvis du velger **Obligatorisk**.
 
 > [!NOTE]
->I noen tilfeller er disse alternativene låst av funksjonelle årsaker.
+> I noen tilfeller er disse alternativene låst av funksjonelle årsaker.
 
 ### Rekkefølge
 

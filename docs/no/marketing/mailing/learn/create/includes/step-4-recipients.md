@@ -24,7 +24,7 @@ Du kan legge til mottakere fra utvalg (fra både SuperOffice CRM og SuperOffice 
 5. Gjenta trinn 1 til 4 for å legge til flere utvalg eller prosjekter.
 
 > [!NOTE]
->Hvis du gjorde et utvalg under **Arkiver utsendelse** i **Oppsett** (trinn 1), står dette utvalget oppført under **Mottakerkilder**. Du kan slette dette utvalget om nødvendig.
+> Hvis du gjorde et utvalg under **Arkiver utsendelse** i **Oppsett** (trinn 1), står dette utvalget oppført under **Mottakerkilder**. Du kan slette dette utvalget om nødvendig.
 
 ## Legge til personer fra SuperOffice
 
@@ -73,7 +73,7 @@ Når du importerer en liste med navn og e-postadresser, prøver SuperOffice Mark
 * Onsite: Hver mottaker (rad) kan også inneholde et mobiltelefonnummer (etter e-postadressen) hvis du oppretter SMS-utsendelser. For eksempel: «Jon Sørensen, john@company.com, 99999999». Krever markedsføringslisens for SMS.
 
 > [!NOTE]
->Hvis du bare har mobiltelefonnummeret og skal sende SMS, kan du angi følgende: « , , 99887766».
+> Hvis du bare har mobiltelefonnummeret og skal sende SMS, kan du angi følgende: « , , 99887766».
 
 ## Alternativer for mottakere
 
@@ -127,7 +127,7 @@ Når du legger til utvalg, prosjekter, personer og importerer lister, oppdateres
 I tillegg kan du klikke på knappen **Oppdater liste** nedenfor listen **Mottakere** for å oppdatere listen manuelt. Enkelte av personene på listen kan ha endret sitt samtykke etter at du la dem til.
 
 > [!NOTE]
->Bare de første 50 mottakerne vises i listen. Klikk på **Last inn alle** nederst i listen for å vise alle mottakere.
+> Bare de første 50 mottakerne vises i listen. Klikk på **Last inn alle** nederst i listen for å vise alle mottakere.
 
 Klikk på **Neste** for å gå til trinn 5: Bekreft. Du kan fortsatt gå tilbake til trinnet **Mottakere** for å redigere mottakerlisten.
 

@@ -55,7 +55,7 @@ Når du skal synkronisere data mellom SuperOffice og ERP-systemer, må du angi h
 | ![ikon][img5] | Ingen synkronisering (SuperOffice-felt er IKKE valgt), eller feltet kan ikke synkroniseres (f.eks. kundenavn). Dette kan skyldes at feltene kun er lesbare. Hold musepekeren over ikonet for å vise detaljer. |
 
 > [!NOTE]
->Pilene er deaktivert helt til du har valgt et SuperOffice-felt.
+> Pilene er deaktivert helt til du har valgt et SuperOffice-felt.
 
 ## Feilsøking
 

@@ -8,7 +8,7 @@ Etter at du har funnet ut hvilket design du ønsker å bruke, kan du velge malen
 ![Velg bedriftsmalen din fra en av de mange malene som er tilgjengelige i det elektroniske bibliotek vårt, før du legger til innholdet ditt -screenshot][img2]
 
 > [!TIP]
->Spar litt tid og sett opp utsendelsen ved å bruke en av de kostnadsfrie malene i det **Elektroniske malbiblioteket**. Det elektroniske malbiblioteket i SuperOffice Marketing inneholder et bredt utvalg av profesjonelt utformede meldingsmaler. Til gratis bruk!
+> Spar litt tid og sett opp utsendelsen ved å bruke en av de kostnadsfrie malene i det **Elektroniske malbiblioteket**. Det elektroniske malbiblioteket i SuperOffice Marketing inneholder et bredt utvalg av profesjonelt utformede meldingsmaler. Til gratis bruk!
 
 1. Velg en mal på en av følgende måter:
     * Velg en av de tilgjengelige fanene (**Elektronisk malbibliotek**, **Nylige maler**, **Alle maler** osv.) for å se tilgjengelige utsendelser som du kan basere den nye utsendelsen på.

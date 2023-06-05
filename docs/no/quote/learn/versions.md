@@ -16,7 +16,7 @@ Hvis du har [sendt et tilbud][1], og du vil redigere det (for eksempel etter øn
 Det opprinnelige tilbudet arkiveres, og det opprettes en ny versjon av tilbudet med tilstand **Utkast**.
 
 > [!TIP]
->Du kan vise tidligere versjoner av tilbudet fra listen **Versjon**.
+> Du kan vise tidligere versjoner av tilbudet fra listen **Versjon**.
 
 <!-- Referenced links -->
 [1]: send.md

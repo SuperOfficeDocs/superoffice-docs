@@ -24,7 +24,7 @@ Når du har opprettet tilbudet og lagt til ønskede produkter, kan du opprette t
 5. Skriv innholdet i dokumentet, og lagre og lukk det på vanlig måte i det aktuelle programmet. Dokumentet vises deretter på detaljkortet **Aktiviteter** i Salg-bildet (og i Firma- og Dagbok-bildet).
 
 > [!TIP]
->Det finnes en [oversikt over variabler][3] som du kan sette inn i dokumentene du oppretter.
+> Det finnes en [oversikt over variabler][3] som du kan sette inn i dokumentene du oppretter.
 
 ## Hvordan kan jeg endre tilbudsdokumentet?
 

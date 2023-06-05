@@ -40,7 +40,7 @@ Hvis tilbudet inneholder flere alternativer, vises favorittalternativet med ![ik
 * Rekkefølge: Bruk ![ikon][img2] / ![ikon][img3] piltastene for å endre rekkefølgen på produktene.
 
 > [!TIP]
->Du kan dobbeltklikke på fanene for å endre navnet på alternativene i tilbudet.
+> Du kan dobbeltklikke på fanene for å endre navnet på alternativene i tilbudet.
 
 ## Fanen Detaljer
 

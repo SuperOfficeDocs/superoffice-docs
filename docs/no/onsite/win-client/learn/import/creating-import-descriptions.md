@@ -14,7 +14,7 @@ so.envir: onsite
 # Opprette importbeskrivelser
 
 > [!NOTE]
->Hvis du allerede har lastet opp importfilen og konfigurert alle feltene og innstillingene, klikker du på **Lagre**. Hvis du klikker på **Ny**, FJERNES alle innstillingene du anga for importfilen.
+> Hvis du allerede har lastet opp importfilen og konfigurert alle feltene og innstillingene, klikker du på **Lagre**. Hvis du klikker på **Ny**, FJERNES alle innstillingene du anga for importfilen.
 
 1. [!include[How to open import](includes/open-import.md)]
 
@@ -45,7 +45,7 @@ so.envir: onsite
 9. I dialogboksen skriver du inn et navn for den nye filen, velger hvilken mappe du vil lagre den i, og klikker på **Lagre**.
 
 > [!NOTE]
->Du kan også opprette en ny importbeskrivelse ved å [endre en eksisterende beskrivelse][4] og lagre den med et nytt navn.
+> Du kan også opprette en ny importbeskrivelse ved å [endre en eksisterende beskrivelse][4] og lagre den med et nytt navn.
 
 <!-- Referenced links -->
 [1]: field-mapping.md

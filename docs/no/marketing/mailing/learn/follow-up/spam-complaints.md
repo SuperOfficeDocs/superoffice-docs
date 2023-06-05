@@ -14,7 +14,7 @@ language: no
 Fanen **Klager på søppelpost** viser alle mottakere som har rapportert en e-postutsendelse som spam eller søppelpost. En klage på søppelpost indikerer vanligvis at en mottaker ikke har godkjent å motta denne typen e-post fra deg.
 
 > [!NOTE]
->En klage på søppelpost resulterer i automatisk fjerning av samtykket til e-postmarkedsføring.
+> En klage på søppelpost resulterer i automatisk fjerning av samtykket til e-postmarkedsføring.
 
 ## Hvorfor rapporteres utsendelsene mine som spam/søppelpost, og hva kan jeg gjøre?
 

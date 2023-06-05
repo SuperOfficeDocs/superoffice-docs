@@ -26,7 +26,7 @@ so.envir: onsite
 1. Klikk på **Lagre**.
 
 > [!NOTE]
->Hvis du velger å lagre filen med et nytt navn og/eller i en ny mappe, [oppretter du en ny importbeskrivelsesfil][1].
+> Hvis du velger å lagre filen med et nytt navn og/eller i en ny mappe, [oppretter du en ny importbeskrivelsesfil][1].
 
 <!-- Referenced links -->
 [1]: creating-import-descriptions.md

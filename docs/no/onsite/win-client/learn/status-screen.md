@@ -22,7 +22,7 @@ Her vises databasens eier, serienummer og type, som angis ved installering. Det 
 **Tabelladministrasjon: Lokal databasebruker**: Angi brukernavn og passord til den databasebrukeren (det behøver ikke å være en SuperOffice CRM-bruker) som automatisk blir brukt av systemet for å opprette og slette databasetabeller. Denne brukeren trenger ikke å ha andre rettigheter.
 
 > [!NOTE]
->På Oracle-databaser må dette være den samme brukeren som eier tabellene, og som brukes som prefiks i **SuperOffice.ini**.
+> På Oracle-databaser må dette være den samme brukeren som eier tabellene, og som brukes som prefiks i **SuperOffice.ini**.
 
 ## Statistikk
 

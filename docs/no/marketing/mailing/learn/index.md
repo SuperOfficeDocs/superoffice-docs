@@ -24,7 +24,7 @@ En utsendelse håndteres vanligvis i to trinn:
 * Skjemasvar
 
 > [!NOTE]
->E-postutsendelser og skjemasvar er utsendelsestypen som har flest funksjoner. Funksjoner som sporede koblinger og påmeldingskoblinger er ikke tilgjengelige for utsendelse av SMS og dokumenter.
+> E-postutsendelser og skjemasvar er utsendelsestypen som har flest funksjoner. Funksjoner som sporede koblinger og påmeldingskoblinger er ikke tilgjengelige for utsendelse av SMS og dokumenter.
 
 ## mottakere
 
@@ -42,7 +42,7 @@ Du kan knytte utsendelsen til et utvalg og/eller et prosjekt for å holde oversi
 Utsendelsene står oppført i detaljkortet **Utsendelser** i **Utvalg** og i detaljkortet **Aktiviteter** i **Prosjekter** i SuperOffice CRM.
 
 > [!NOTE]
->Hvis du legger til et utvalg eller prosjekt, legges eventuelle personer i utvalget eller prosjektet til som mottakere i utsendelsen. Hvis du legger til både et utvalg og et prosjekt, legges bare personer fra utvalget til som mottakere.
+> Hvis du legger til et utvalg eller prosjekt, legges eventuelle personer i utvalget eller prosjektet til som mottakere i utsendelsen. Hvis du legger til både et utvalg og et prosjekt, legges bare personer fra utvalget til som mottakere.
 
 Eksempel: Hvis du sender ut flere utsendelser for å markedsføre et arrangement, kan du legge til disse utsendelsene i et utvalg kalt «Arrangement 2015», slik at du har en fullstendig liste over alle utsendelsene for dette arrangementet.
 

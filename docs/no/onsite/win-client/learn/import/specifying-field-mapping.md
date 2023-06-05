@@ -35,7 +35,7 @@ so.envir: onsite
 1. Gjenta prosedyren for å tilordne flere felt. Det går an å importere flere forskjellige datatyper. Husk at felt som ikke er tilordnet en post i SuperOffice-databasen, ikke vil bli importert i det hele tatt.
 
 > [!NOTE]
->Hvis du anga en importbeskrivelsesfil i feltet **Importbeskrivelsesfil**, vil det kanskje allerede være informasjon i kolonnen **Felt i SuperOffice CRM** under **Felttilordning**. Du kan om nødvendig endre felttilordningen ved å [slette felttilordning][1] og deretter angi en ny felttilordning.
+> Hvis du anga en importbeskrivelsesfil i feltet **Importbeskrivelsesfil**, vil det kanskje allerede være informasjon i kolonnen **Felt i SuperOffice CRM** under **Felttilordning**. Du kan om nødvendig endre felttilordningen ved å [slette felttilordning][1] og deretter angi en ny felttilordning.
 
 <!-- Referenced links -->
 [1]: deleting-field-mapping.md

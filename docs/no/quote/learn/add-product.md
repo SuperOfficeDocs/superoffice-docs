@@ -51,7 +51,7 @@ I dialogboksen **Legg til / rediger produkt** kan du legge til et produkt, angi 
 I området til venstre i dialogboksen **Legg til / rediger produkt** vises produktnavnet/-koden, og det er her du angir antall og eventuelle rabatter for det valgte produktet.
 
 > [!TIP]
->Du kan vise mer informasjon om de ulike feltene (feltnavn, redigerbare felt og utregninger) ved å holde musepekeren over det aktuelle feltet.
+> Du kan vise mer informasjon om de ulike feltene (feltnavn, redigerbare felt og utregninger) ved å holde musepekeren over det aktuelle feltet.
 
 * Tall som vises i sort skrift, kan redigeres.
 * Totalbeløp og rabatter oppdateres fortløpende når du redigerer de ulike feltene.
@@ -78,7 +78,7 @@ Her vises detaljerte prisberegninger. Innholdet på denne fanen defineres i Inns
 I Innstillinger og vedlikehold kan det defineres ulike regler for hva som er tillatt og ikke tillatt når du legger til produkter i et tilbud. Avhengig av hvordan disse reglene er definert, kan det hende at det vises ulike ikoner/varsler når du legger til produkter i et tilbud. I noen tilfeller må tilbudet godkjennes [før sending][1].
 
 > [!NOTE]
->Du kan lagre og legge til produkter i et tilbud selv om det vises varsler og andre meldinger, men du kan ikke sende tilbudet når det inneholder feil og varsler. Du må enten rette feilen eller få tilbudet godkjent.
+> Du kan lagre og legge til produkter i et tilbud selv om det vises varsler og andre meldinger, men du kan ikke sende tilbudet når det inneholder feil og varsler. Du må enten rette feilen eller få tilbudet godkjent.
 
 [!include[Table showing quote icons](includes/table-quote-icons.md)]
 

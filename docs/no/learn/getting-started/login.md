@@ -116,7 +116,7 @@ Når du starter Innstillinger og vedlikehold, får du opp et påloggingsbilde de
 * Skriv inn bruker-ID og passord, og klikk på **OK**.
 
 > [!NOTE]
->Lokalt: Første gang du kjører Innstillinger og vedlikehold, vises en dialogboks med endringer i tjenestevilkårene. Les denne viktige informasjonen og klikk på **Godta** og **OK** for å fortsette med å bruke Innstillinger og vedlikehold. Denne dialogboksen vises ikke igjen.
+> Lokalt: Første gang du kjører Innstillinger og vedlikehold, vises en dialogboks med endringer i tjenestevilkårene. Les denne viktige informasjonen og klikk på **Godta** og **OK** for å fortsette med å bruke Innstillinger og vedlikehold. Denne dialogboksen vises ikke igjen.
 
 Du må tilhøre rollen *Brukernivå 0* eller en annen rolle som gir deg påloggingsrettigheter for Innstillinger og vedlikehold. Bruker-ID-er, passord og brukernivåer er alle definert på skjermbildet [Brukere][2].
 
