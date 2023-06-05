@@ -11,7 +11,7 @@ language: no
 
 # Sende et dokument som e-post
 
-![img1 -screenshot][Finn dokumentet i SuperOffice CRM, høyreklikk og velg Send som e-post, da åpnes e-postdialogen og du er klar til å sende]
+![Finn dokumentet i SuperOffice CRM, høyreklikk og velg Send som e-post, da åpnes e-postdialogen og du er klar til å sende -screenshot][img1]
 
 ## Trinn
 

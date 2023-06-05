@@ -6,7 +6,7 @@ En god [meldingsmal][1] støtter ikke bare meldingen din, men ser også bra ut p
 
 Etter at du har funnet ut hvilket design du ønsker å bruke, kan du velge malen du vil basere den nye utsendelsen på med noen få klikk.
 
-![img2 -screenshot][Velg bedriftsmalen din fra en av de mange malene som er tilgjengelige i det elektroniske bibliotek vårt, før du legger til innholdet ditt]
+![Velg bedriftsmalen din fra en av de mange malene som er tilgjengelige i det elektroniske bibliotek vårt, før du legger til innholdet ditt -screenshot][img2]
 
 > [!TIP]
 >Spar litt tid og sett opp utsendelsen ved å bruke en av de kostnadsfrie malene i det **Elektroniske malbiblioteket**. Det elektroniske malbiblioteket i SuperOffice Marketing inneholder et bredt utvalg av profesjonelt utformede meldingsmaler. Til gratis bruk!

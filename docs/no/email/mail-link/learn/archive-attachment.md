@@ -13,7 +13,7 @@ language: no
 
 Hvis vedlegget er den eneste delen av e-posten du vil beholde for fremtidig referanse, er det mulig å arkivere et vedlegg til en e-post i innboksen til e-postklienten til SuperOffice CRM. Følg disse trinnene:
 
-![img1 -screenshot][Bruk Mail Link i Outlook til å arkivere et e-postvedlegg i innboksen til SuperOffice CRM]
+![Bruk Mail Link i Outlook til å arkivere et e-postvedlegg i innboksen til SuperOffice CRM -screenshot][img1]
 
 ## Trinn
 

@@ -89,7 +89,7 @@ Hva du bør tenke på når du vil segmentere databasen:
 > [!NOTE]
 > Be SuperOffice-administratoren om å redigere/legge til lister og felt for å begrense mållistene ytterligere slik at de passer til segmenteringskriteriene og feltene som du trenger.
 
-![img1 -screenshot][Finn ut hvilke interesser en person har i fanen Interesse på personkortet]
+![Finn ut hvilke interesser en person har i fanen Interesse på personkortet -screenshot][img1]
 
 ## Utvalg som mållister
 

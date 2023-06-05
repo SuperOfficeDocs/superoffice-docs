@@ -21,7 +21,7 @@ Som standard har noen av salgstypene salgsguider tilgjengelig som du kan bruke s
 
 Hver fase kan inneholde oppfølgingsaktiviteter og dokumenter som er relevante for akkurat denne fasen i salgsprosessen. Du kan legge til og/eller fjerne disse aktivitetene og dokumentene.
 
-![img2 -screenshot][Lag en salgsguide i fem trinn]
+![Lag en salgsguide i fem trinn -screenshot][img2]
 
 Når du definerer din egen salgsguide, kan du bestemme fasene, samt aktiviteter og dokumenter som er nødvendige for hver fase.
 
@@ -31,7 +31,7 @@ Du kan for eksempel ha en salgstype med én guide for kundeemner, én for eksist
 
 Salgsguiden defineres i Innstillinger og vedlikehold.
 
-![img1 -screenshot][salgsguide]
+![salgsguide -screenshot][img1]
 
 Du kan forhåndsvise dokumenter og aktiviteter i **Forhåndsvisning** på sidepanelet.
 

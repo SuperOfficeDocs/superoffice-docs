@@ -13,7 +13,7 @@ language: no
 
 Du kan arkivere en innkommende e-post (inkludert eventuelle vedlegg) som et dokument i SuperOffice CRM. Dette er en praktisk måte å lagre informasjon på som du mottar via e-post sammen med annen firma-/personinformasjon i SuperOffice CRM.
 
-![img2 -screenshot][Når du har SuperOffice Gmail Link installert, kan du arkivere e-post, opprette aktivitet eller be om]
+![Når du har SuperOffice Gmail Link installert, kan du arkivere e-post, opprette aktivitet eller be om -screenshot][img2]
 
 ## Trinn
 

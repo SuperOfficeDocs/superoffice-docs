@@ -23,7 +23,7 @@ For å kunne bruke [Google Analytics-funksjonen][2], trenger du en Google Analyt
 
 1. Start med å åpne utsendelsen du ønsker å spore med Google Analytics, eller opprett en ny utsendelse. Gå til det første trinnet i veiviseren for utsendelser (Oppsett). Overskriften **Sporing** er plassert nederst til høyre. Her kan du velge boksene **Spor alle koblinger** og **Bruk Google Analytics**. Når du velger Bruk Google Analytics, vises tekstfeltene for Google Analytics.
 
-    ![img1 -screenshot][Velg Google Analytics og spor alle koblinger]
+    ![Velg Google Analytics og spor alle koblinger -screenshot][img1]
 
 2. I **sporingsfeltene i Google Analytics** er «E-post» forhåndsdefinert som medium. Det betyr at sporede utsendelser som sendes fra SuperOffice CRM, nå finnes i Google Channel-rapporter under **E-post**, og ikke under **Andre**.
 

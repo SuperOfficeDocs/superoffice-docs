@@ -19,7 +19,7 @@ Vårt sakssystem lar deg effektivt håndtere innkommende saker og hjelper deg me
 
 Hvert spørsmål kan defineres som en sak. Det kan være alt fra brukerstøttespørsmål og spørsmål om produktet og tjenestene, til spørsmål om fakturaer. Når en sak kommer inn, må du håndtere den så raskt og effektivt som mulig og yte profesjonell kundeservice.
 
-![img1 -screenshot][Sak med liste over ufordelte saker med forhåndsvisning]
+![Sak med liste over ufordelte saker med forhåndsvisning -screenshot][img1]
 
 <!--Brand new to request management in SuperOffice? Start off with this short product tour to get an introduction to what you can expect (video length - 2:52): -->
 
@@ -68,7 +68,7 @@ Et personservicesystem handler om å gi personer svarene de er ute etter, og å 
 
 Ulike firmaer har ulike rutiner for saksbehandling og kan bruke SuperOffice Service på forskjellige måter. Nedenfor har vi satt opp to scenarioer fra virkeligheten som viser noen av mulighetene som finnes. Disse scenarioene viser deg hvordan du kan svare effektivt når en person har sendt inn en sak via e-post, og når en person ringer inn med et problem eller et spørsmål.
 
-![img3 -screenshot][Dashbord for saker med lister over egne aktive saker og en kø for ufordelte saker. Her kan du velge en sak du vil håndtere]
+![Dashbord for saker med lister over egne aktive saker og en kø for ufordelte saker. Her kan du velge en sak du vil håndtere -screenshot][img3]
 *Dashbord for saker med lister over egne aktive saker og en kø for ufordelte saker. Her kan du velge en sak du vil håndtere.*
 
 ### Scenario 1: Personen sender inn saken via e-post

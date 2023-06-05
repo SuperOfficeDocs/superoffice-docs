@@ -13,11 +13,11 @@ language: no
 
 Opprett en stilig utsendelse ved hjelp av bilder. Du kan legge til bilder fra SuperOffice-databasen, laste opp dine egne bilder eller bruke bilder fra et royaltyfritt bildebibliotek på nettet.
 
-![img3 -screenshot][Sett inn bilde med dra og slipp fra det elektroniske bildebiblioteket]
+![Sett inn bilde med dra og slipp fra det elektroniske bildebiblioteket -screenshot][img3]
 
 Etter at du har lagt til et bilde, kan du legge til egenskaper, for eksempel en bestemt handling, når bildet klikkes på i utsendelsen
 
-![img4 -screenshot][Etter at du har lagt til et bilde, kan du legge til egenskaper, for eksempel en bestemt handling, når bildet klikkes på i utsendelsen]
+![Etter at du har lagt til et bilde, kan du legge til egenskaper, for eksempel en bestemt handling, når bildet klikkes på i utsendelsen -screenshot][img4]
 
 ## Slik angir du et bilde som bakgrunn
 
@@ -79,11 +79,11 @@ Bildet du vil bruke i utsendelsen, har kanskje ikke alltid riktig størrelse. I 
 
 1. Når du har valgt plassholderbildet i e-postmalen, kan du laste opp og bruke effekter på bildet.
 
-    ![img5 -screenshot][Last opp et bilde og klikk på Bruk effekter og mer-knappen for å justere bildestørrelse, oppløsning og mer]
+    ![Last opp et bilde og klikk på Bruk effekter og mer-knappen for å justere bildestørrelse, oppløsning og mer -screenshot][img5]
 
 2. Når du har lastet opp bildet, kan du se hvordan det ser ut i e-postmalen. Hvis du ikke er fornøyd med størrelsen, kan du justere bildestørrelsen eller oppløsningen ved å klikke på **Bruk effekter og mer**-knappen.
 
-    ![img6 -screenshot][Klikk på Endre størrelse-knappen for å endre størrelsen på bildet]
+    ![Klikk på Endre størrelse-knappen for å endre størrelsen på bildet -screenshot][img6]
 
 3. Du er nå i dialogboksen Effekt. Verktøylinjen øverst gir deg et bredt spekter av systemvalg for å endre og justere bildet ditt.
 

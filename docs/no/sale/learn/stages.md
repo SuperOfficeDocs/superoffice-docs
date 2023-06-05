@@ -24,7 +24,7 @@ For enkelte salgstyper vises også en liste over faser,[!include[SM](../../learn
 
 ## Åpen
 
-![img4 -screenshot][Åpne salg]
+![Åpne salg -screenshot][img4]
 
 ## Utsatt
 
@@ -33,7 +33,7 @@ Hvis du setter salget til **Utsatt**, vises følgende felt:
 * **Gjenåpningsdato**: Her kan du angi datoen når salget skal gjenåpnes.
 * **Årsak (utsatt)**: Her kan du angi en eventuell årsak til forsinkelsen.
 
-![img5 -screenshot][Utsatt salg]
+![Utsatt salg -screenshot][img5]
 
 Dialogboksen **Avtale** vises når du klikker på **Lagre**. Her kan du sette opp fremtidige møter eller samtaler for å følge opp det utsatte salget.
 
@@ -43,11 +43,11 @@ Setter du salget til **Solgt** eller **Tapt**, kan du angi dato, eventuell konku
 
 **Solgt:**
 
-![img8 -screenshot][Solgt salg]
+![Solgt salg -screenshot][img8]
 
 **Tapt:**
 
-![img6 -screenshot][Tapt salg]
+![Tapt salg -screenshot][img6]
 
 ## Aktuelle emner
 

@@ -13,7 +13,7 @@ language: no
 
 Fanen **Uke** viser én uke om gangen. Det er én kolonne for hver ukedag og tidsintervaller langs venstre kant.
 
-![img2 -screenshot][Dagbok-skjermen, fanen Uke]
+![Dagbok-skjermen, fanen Uke -screenshot][img2]
 
 Hvis du vil åpne fanen **Dag** for en bestemt dag, kan du klikke på overskriften som representerer den aktuelle dagen.
 

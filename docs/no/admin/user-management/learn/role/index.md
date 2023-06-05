@@ -55,7 +55,7 @@ Hvis du ikke vil at brukerne skal ha tilgang til Innstillinger og vedlikehold, g
 
 I Roller-delen kan du [bestemme hvilken type tilgang][6] brukerne skal ha til de forskjellige delene av SuperOffice CRM. Du kan også tilpasse hvert brukernivå ved å endre Datarettigheter og/eller de forskjellige funksjonelle rettighetene.
 
-![img1 -screenshot][I Roller-delen bestemmer du hvilken type tilgang brukerne skal ha til de forskjellige delene av SuperOffice CRM.]
+![I Roller-delen bestemmer du hvilken type tilgang brukerne skal ha til de forskjellige delene av SuperOffice CRM. -screenshot][img1]
 
 Du kan for eksempel bestemme om en person skal kunne slette, oppdatere, opprette eller lese informasjon, på fanen Datarettigheter. På fanen Funksjonelle rettigheter kan du tillate ulike funksjonelle rettigheter for de forskjellige rollene, som Kan masseredigere eller Listeadministrator, ved å flytte dem til den høyre kolonnen for Denne rollen kan.
 

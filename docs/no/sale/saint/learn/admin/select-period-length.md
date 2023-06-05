@@ -33,7 +33,7 @@ Du kan angi inntil tre ulike perioder, slik at du kan velge mellom kortere eller
 
 3. Under **Tellerinnstillinger for ...** kan du angi perioder for firmaer, personer og prosjekter. **Fra**-datoen vises ved siden av hver periode.
 
-    ![img1 -screenshot][Rediger tellerinnstillingene i fanen Tellere]
+    ![Rediger tellerinnstillingene i fanen Tellere -screenshot][img1]
 
     Endringene lagres automatisk.
 

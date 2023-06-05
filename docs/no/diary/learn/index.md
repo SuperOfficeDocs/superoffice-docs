@@ -13,7 +13,7 @@ language: no
 
 Dagboken i SuperOffice CRM brukes omtrent som en kalender og har egne sider for hver dag, uke og måned.
 
-![img1 -screenshot][Registrer alle avtalene og oppgavene dine i dagboken, slik at du kan holde oversikt over dem]
+![Registrer alle avtalene og oppgavene dine i dagboken, slik at du kan holde oversikt over dem -screenshot][img1]
 
 Dagboken er et nyttig hjelpemiddel for å planlegge og utføre ulike typer oppgaver. Fra dagboken kan du både vise, redigere og slette [aktiviteter][16].
 

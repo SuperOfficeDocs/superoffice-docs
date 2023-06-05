@@ -50,7 +50,7 @@ Du kan bruke [hurtigsøk][3] eller [historikklisten][5] til å søke etter firma
 
 Det vil raskt gi deg en liste som samsvarer med søkeordene dine. Bruk den til å kontrollere databasen for mulige duplikater før du legger til et nytt firma eller en ny person.
 
-![img1 -screenshot][Bruk Hurtigsøk til å navigere på en raskt og enkel måte i Navigator]
+![Bruk Hurtigsøk til å navigere på en raskt og enkel måte i Navigator -screenshot][img1]
 
 ### Tips for hurtigsøk
 
@@ -58,7 +58,7 @@ Du kan bruke %% til å se alle poster av en bestemt type, for eksempel alle firm
 
 Hvis du for eksempel vil se alle dokumentmalene som er tilgjengelige i SuperOffice CRM, går du til menyen **+Ny** og klikker på **Dokument**. I det øverste feltet i dokumentskjermbildet, som angir typer dokumentmaler, skriver du inn %%. Da ser du en nedtrekksmeny som inneholder hele listen over tilgjengelige dokumentmaler.
 
-![img4 -screenshot][Skriv inn to prosenttegn i hurtigsøk for å se alle postene]
+![Skriv inn to prosenttegn i hurtigsøk for å se alle postene -screenshot][img4]
 
 ## Bruke Søk-knappen
 
@@ -66,7 +66,7 @@ Hvis du klikker på **Finn**-knappen på toppraden, åpner du [Finn][1]-skjermbi
 
 Søk-knappen hjelper deg å finne poster basert på kriterier fra firmaer, personer, prosjekter, utvalg, salg, produkter, oppfølginger, dokumenter og poster.
 
-![img2 -screenshot][Klikk på Finn-knappen i topplinjen for å komme til Finn-skjermbildet]
+![Klikk på Finn-knappen i topplinjen for å komme til Finn-skjermbildet -screenshot][img2]
 
 Når du bruker Finn-funksjonen, kan du lagre hvert søk du utfører som et utvalg.
 
@@ -74,7 +74,7 @@ Når du bruker Finn-funksjonen, kan du lagre hvert søk du utfører som et utval
 
 Bruk søkefeltet [fritekstsøk][2] øverst til høyre for å søke etter tekst som brukerne har skrevet inn i SuperOffice CRM.
 
-![img3 -screenshot][Du finner fritekstsøket til høyre på topplinjen]
+![Du finner fritekstsøket til høyre på topplinjen -screenshot][img3]
 
 > [!TIP]
 > Vil du se en liste over alle personene dine? Klikk på ikonet **Utvalg** til venstre i navigatorpanelet og søk etter "Alle personer" for å se et forhåndskonfigurert valg.
@@ -95,7 +95,7 @@ Et vanlig søk er en fin måte å begynne å lete etter data i SuperOffice CRM p
 
 Dette søket gir deg en liste over alle aktivitetene du ikke har fullført ennå. Når du definerer kriteriene for dette søket, kan du bestemme hvilken type aktiviteter du vil søke etter.
 
-![img5 -screenshot][Klikk på Finn-knappen i topplinjen og velg vanlige søk i nedtrekksmenyen]
+![Klikk på Finn-knappen i topplinjen og velg vanlige søk i nedtrekksmenyen -screenshot][img5]
 
 Vanlige søk hjelper deg å komme i gang og opprette ditt eget søk etter CRM-data. Når du har valgt et vanlig søk, kan du legge til og redigere søkekriteriene. Og når du har opprettet et nyttig søk som du vil bruke igjen, kan du lagre det som et utvalg.
 

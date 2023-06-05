@@ -17,7 +17,7 @@ Det viktigste du gjør i saksbehandlingen, er å svare på henvendelser.
 
 Når du åpner en sak og velger **Svar**, vises [e-postsignaturen][7] du har konfigurert, automatisk, og du kan legge til meldingen til personen som inneholder svaret på spørsmålet eller løsningen på problemet.
 
-![img4 -screenshot][Svare på en sak]
+![Svare på en sak -screenshot][img4]
 
 ## Svare (legge til melding)
 

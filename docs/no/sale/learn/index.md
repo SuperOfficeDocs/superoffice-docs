@@ -49,7 +49,7 @@ Du kan organisere salgslisten din ved [å filtrere, gruppere og legge til kolonn
 
 Fanen **Salg** fungerer også som [en salgssekretær][8] ved å fremheve alle kommende planlagte aktiviteter i feltet **Neste aktivitet**. I tillegg rettes oppmerksomheten din mot aktiviteter du kanskje har glemt, ved at disse står med rød skrift.
 
-![img1 -screenshot][Gå til Dagboken, og få en oversikt over alle salg som ennå ikke er utført]
+![Gå til Dagboken, og få en oversikt over alle salg som ennå ikke er utført -screenshot][img1]
 
 ## Legge til et salg i favoritter
 
@@ -61,13 +61,13 @@ Fanen **Salg** fungerer også som [en salgssekretær][8] ved å fremheve alle ko
 
 Denne fanen inneholder hovedfeltene du må fylle ut. Tittel er det første, og det er også obligatorisk. Les mer om hvordan du [oppretter et salg][4].
 
-![img5 -screenshot][Salg-fanen i bildet Salg]
+![Salg-fanen i bildet Salg -screenshot][img5]
 
 ### Fanen Detaljer
 
 Denne fanen inneholder felt som blant annet fokuserer på økonomiske opplysninger om salget.
 
-![img3 -screenshot][Fanen Salgsdetaljer]
+![Fanen Salgsdetaljer -screenshot][img3]
 
 | Felt | Beskrivelse | Definert i Innstillinger og vedlikehold |
 |---|---|---|

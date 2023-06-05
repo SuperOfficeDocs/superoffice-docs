@@ -13,7 +13,7 @@ language: no
 
 Du kan angi innstillinger for ulike deler av SuperOffice CRM, for eksempel antall varer som skal vises i historikklisten, og standardvalutaen for salg. Alle preferanseinnstillinger er definert i Innstillinger og vedlikehold, men brukerne kan endre noen individuelt i SuperOffice CRM.
 
-![img13 -screenshot][Gå til din personlige innstilling, og velg innstillingen du vil endre]
+![Gå til din personlige innstilling, og velg innstillingen du vil endre -screenshot][img13]
 
 ## Trinn
 

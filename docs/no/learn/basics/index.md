@@ -65,7 +65,7 @@ Skjermbildene Firma og Person inneholder all informasjon relatert til kundene di
 
 SuperOffice-dagboken er hjertet i CRM-systemet ditt. Regelmessig bruk av dagboken hjelper deg med å automatisk koble til og dele avtaler og aktiviteter knyttet til en person eller et firma, slik at du og teamet ditt enkelt kan holde dere på sporet og jobbe produktivt. Disse veiledningene vil hjelpe deg å lære å jobbe med dagboken.
 
-![img1 -screenshot][Hold oversikt over alle dine avtaler og oppgaver ved å registrere dem i dagboken din]
+![Hold oversikt over alle dine avtaler og oppgaver ved å registrere dem i dagboken din -screenshot][img1]
 
 I tillegg til den vanlige kalenderfunksjonaliteten gir SuperOffice-dagboken deg også muligheten til å koble sammen og organisere aktiviteter i prosjekter og salg. Dette hjelper deg og teamet ditt med å få full oversikt over alle aktiviteter og kommunikasjon koblet til ethvert prosjekt eller salg.
 
@@ -94,7 +94,7 @@ Du kan koble alle personer, firmaer, oppgaver, avtaler, prosjektmedlemmer og til
 
 All informasjonen du lagrer i prosjektet er merket med en dato og en eier, noe som gjør det enklere å sortere og filtrere informasjon ved behov.
 
-![img2 -screenshot][En prosjektguide vil hjelpe teamet med å ha en konstant oversikt over prosjektets status]
+![En prosjektguide vil hjelpe teamet med å ha en konstant oversikt over prosjektets status -screenshot][img2]
 
 SuperOffice Project leveres også med en prosjektguide som kan tilpasses dine egne unike prosjektprosesser. Du kan kartlegge alle aktiviteter, dokumenter og milepæler i et prosjekt, noe som vil gjøre det enkelt for hele teamet å spore. Prosjektguiden vil også hjelpe deg med å overvåke gjeldende prosjektstatus og spørre hva som må gjøres til enhver tid.
 

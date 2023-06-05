@@ -25,7 +25,7 @@ Finn ut hvordan du registrerer og oppdaterer et salg, i denne videoen, eller fø
 
 2. Skriv inn navnet på salget i feltet med rød understreking i salgskortet. Dette feltet må fylles ut.
 
-    ![img2 -screenshot][Nytt salg]
+    ![Nytt salg -screenshot][img2]
 
 3. Fyll ut ønskede opplysninger i de øvrige feltene. Se detaljer nedenfor.
 

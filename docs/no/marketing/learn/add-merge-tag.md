@@ -15,7 +15,7 @@ Det er ikke noe bedre enn et personlig preg i forretninger. Hvis du vil tilpasse
 
 Flettefelt kommer i mange former: de kan være kundens fornavn, firmanavn, hilsen, navnet på selgeren kunden hadde å gjøre med, osv. Med andre ord, er flettefelt brukervennlige verktøy for å tilpasse innholdet for hver enkelt kunde.
 
-![img2 -screenshot][Tilpass utsendelsen ved å legge til flettefelt i tekstfeltene]
+![Tilpass utsendelsen ved å legge til flettefelt i tekstfeltene -screenshot][img2]
 
 ## Trinn
 
@@ -27,7 +27,7 @@ Flettefelt kommer i mange former: de kan være kundens fornavn, firmanavn, hilse
 
 4. I listen som vises, velger du **Person** og **Fornavn**.
 
-    ![img1 -screenshot][Legge til flettefelt i meldingen]
+    ![Legge til flettefelt i meldingen -screenshot][img1]
 
 5. Fortsett å legge inn tekst og sett inn ønskede flettefelt. Hvis du vil ha en liste, kan du se [variabelreferansen][2].
 

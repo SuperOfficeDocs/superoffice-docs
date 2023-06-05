@@ -68,7 +68,7 @@ Hvis du vil endre dokumentegenskaper, for eksempel prosjektet som dokumentet er 
 
 7. Klikk på koblingen for å laste opp dokumentet, eller dra og slipp dokumentet fra Windows Utforsker til dialogboksen **Dokument**.
 
-    ![img1 -screenshot][Opprette nytt dokument]
+    ![Opprette nytt dokument -screenshot][img1]
 
 8. Lukk dialogboksen **Dokument** ved å klikke på **Lagre**. Dokumentet sjekkes inn, og statusen settes til **Utført**.
 

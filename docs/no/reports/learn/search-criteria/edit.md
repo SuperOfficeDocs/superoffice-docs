@@ -44,7 +44,7 @@ Vi skal nå endre litt på kriteriene i standardrapporten, slik at du ser hvorda
 
 1. Dobbeltklikk på **Salg: Dato** i kriterielisten. Dialogboksen **Legg til/rediger kriterier** åpnes.
 
-    ![img3 -screenshot][Legge til / redigere søkekriterier]
+    ![Legge til / redigere søkekriterier -screenshot][img3]
 
 1. Klikk på pilen ved siden av feltet **Denne måneden**, endre tidsrommet til **Forrige måned** og klikk på **OK**. Rapporten din kommer nå bare til å inneholde salg fra forrige måned.
 
@@ -52,7 +52,7 @@ Vi skal nå endre litt på kriteriene i standardrapporten, slik at du ser hvorda
 
 1. Dobbeltklikk **på Salg: Status** i kriterielisten. Dialogboksen **Legg til/rediger kriterier** åpnes. Vi skal nå endre kriteriet **Salg: Status** slik at rapporten bare inneholder salg som ikke har status **Åpent**.
 
-    ![img4 -screenshot][Legge til / redigere søkekriterier]
+    ![Legge til / redigere søkekriterier -screenshot][img4]
 
 1. Klikk på pilen ved siden av feltet **Er en av** og endre verdien til **Er ikke en av**.
 

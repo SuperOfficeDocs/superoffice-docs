@@ -25,7 +25,7 @@ Vi har opprettet en chatrobot-kobling som gjør at SuperOffice kan snakke med ro
 
 Det finnes forskjellige alternativer i chatkanalen for å aktivere chatroboten.
 
-![img1 -screenshot][I CRMScript har du tilgang til alle standard robottjenester]
+![I CRMScript har du tilgang til alle standard robottjenester -screenshot][img1]
 
 ## Komme i gang med Chat
 

@@ -26,7 +26,7 @@ For å definere parameterne og dimensjonene må du først angi en måltype.
 
 Du kan angi en måltype for både brukere og grupper, samt angi andre målparametere: Måltype, Måleenhet, Separate salgsmål. Du kan også bestemme om den bare skal være tilgjengelig på firma- og gruppenivå (og ikke på brukernivå).
 
-![img1 -screenshot][Oversikt over de ulike måltypene og undertypene for et salgsmål]
+![Oversikt over de ulike måltypene og undertypene for et salgsmål -screenshot][img1]
 
 ## Legg til ny måltype
 
@@ -80,13 +80,13 @@ Nederst i dialogboksen finner du avmerkingsboksen Tilgjengelig kun på firma- og
 
 Når den nye måltypen er lagret, er det på tide å [legge til grupper og brukere i salgsmålet][3].
 
-![img2 -screenshot][Du finner knappen Legg til grupper og brukere i oversikten over salgsmål]
+![Du finner knappen Legg til grupper og brukere i oversikten over salgsmål -screenshot][img2]
 
 ## Filtrere måltyper
 
 Når det gjelder måltypene med listen over undertyper av mål, kan du klikke på Filter-knappen og filtrere på de forskjellige listeelementene.
 
-![img3 -screenshot][Klikk på filterknappen for å filtrere på målundertype]
+![Klikk på filterknappen for å filtrere på målundertype -screenshot][img3]
 
 ## Fjerne måltyper
 

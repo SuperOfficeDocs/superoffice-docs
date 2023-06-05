@@ -19,7 +19,7 @@ Tenk deg at utsendelsen din er en stor suksess. Over 500 personer åpnet melding
 
 I SuperOffice Marketing kan du legge til handlinger i koblingene. Disse handlingene utløses når mottakeren klikker på en kobling.
 
-![img3 -screenshot][Definere koblingshandlingene]
+![Definere koblingshandlingene -screenshot][img3]
 
 | Fane | Handling |
 |---|---|

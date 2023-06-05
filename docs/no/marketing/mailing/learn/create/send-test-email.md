@@ -15,7 +15,7 @@ Når du har opprettet en fengende emnelinje, lagt til teksten og satt inn koblin
 
 Opprett et lite utvalg som består av deg og noen av kollegene dine. Du kan sende utsendelsen du har utarbeidet, til deg selv og kolleger for å få tilbakemelding og godkjenning før du sender den til målgruppen din.
 
-![img2 -screenshot][Test utsendelsen din før du sender den til offentligheten]
+![Test utsendelsen din før du sender den til offentligheten -screenshot][img2]
 
 ## Trinn
 

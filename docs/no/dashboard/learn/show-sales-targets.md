@@ -15,7 +15,7 @@ Hvis [salgsmål][4] er definert for firmaet, team/grupper og/eller selgere, kan 
 
 For å kunne visualisere målene dine i et dashbord må du først legge til eller redigere figurene i dashbordet. Når du har valgt riktig figur, kan du redigere figurenes utseende og diagramtype.
 
-![img7 -screenshot][Velg Utseende-fanen, og velg deretter Sammenlign med mål i delen Gruppering]
+![Velg Utseende-fanen, og velg deretter Sammenlign med mål i delen Gruppering -screenshot][img7]
 
 ## Legge til figur med salgsmål i dashbordet
 
@@ -74,7 +74,7 @@ For å kunne visualisere målene dine i et dashbord må du først legge til elle
 
 Hvis du ser feltet Sammenlign med mål, men det er deaktivert, kan du holde musen over feltet for å se et verktøytips som forklarer hva du må endre for å aktivere og velge feltet.
 
-![img8 -screenshot][Hold pekeren over feltet Sammenlign med mål for å vise et verktøytips]
+![Hold pekeren over feltet Sammenlign med mål for å vise et verktøytips -screenshot][img8]
 
 Hvis Sammenlign med mål ikke er synlig, må du kontrollere at du har valgt riktig diagramtype, og at du har brukt Salgsdato som kriterium i fanen Datasett.
 

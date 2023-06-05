@@ -19,7 +19,7 @@ SuperOffice Quote hjelper deg med å opprette, validere og administrere tilbud o
 
 Hjelp kollegene dine med å sende tilbudene sine raskere og unngå unødvendige feil ved å bruke et automatisert tilbudssystem. Spar tid ved å konvertere tilbudet til en ordrebekreftelse med bare ett klikk på en knapp.
 
-![img1 -screenshot][Bildet Tilbud i Salg viser et tilbud for Jon Sørensen]
+![Bildet Tilbud i Salg viser et tilbud for Jon Sørensen -screenshot][img1]
 
 Det vil være veldig enkelt for deg og kollegene dine å velge produktene i et tilbud fra prislisten. Du kan sende forskjellige versjoner av tilbudet til kundene dine og automatisk registrere en oppfølgingsaktivitet. Det er også viktig å sette opp en god dokumentmal for tilbud, slik at kundene dine også får informasjon om produkter og priser som er lagt til i tilbudet.
 

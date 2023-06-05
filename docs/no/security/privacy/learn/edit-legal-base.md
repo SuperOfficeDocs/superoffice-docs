@@ -49,11 +49,11 @@ Hver gang en person registreres i SuperOffice CRM-databasen din, registreres ogs
 
 2. Klikk på **Rettslig grunnlag** nederst på personkortet.
 
-    ![img1 -screenshot][Nederst på Personkortet kan du åpne en persons personvernside ved å klikke på Hjemmel: Knappen Legitim interesse]
+    ![Nederst på Personkortet kan du åpne en persons personvernside ved å klikke på Hjemmel: Knappen Legitim interesse -screenshot][img1]
 
 3. I dialogboksen **Personvern** dobbeltklikker du på et formål der kolonnene **Hjemmel** og **Kilde** er tomme.
 
-    ![img2 -screenshot][Personvernsiden viser deg alle samtykkene du har registrert for en person]
+    ![Personvernsiden viser deg alle samtykkene du har registrert for en person -screenshot][img2]
 
 4. I dialogboksen **Rediger hjemmel** i listen **Hjemmel** velger du den aktuelle hjemmelen. Eksempel: Hvis personen har signert en serviceavtale, kan du velge **Inngått avtale**.
 

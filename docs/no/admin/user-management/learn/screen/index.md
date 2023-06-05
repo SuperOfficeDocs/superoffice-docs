@@ -14,7 +14,7 @@ language: no
 
 I Brukere-bildet kan du legge til og redigere ulike typer brukere.
 
-![img1 -screenshot][En oversikt over Brukere-bildet i Innstillinger og vedlikehold]
+![En oversikt over Brukere-bildet i Innstillinger og vedlikehold -screenshot][img1]
 
 [**Våre firmaer:**][2] For at en person skal kunne defineres som SuperOffice CRM-bruker, må vedkommende være registrert hos et firma som vises i listen **Firma** i Brukere-bildet. Og for at et firma skal kunne vises i listen **Firma** i Brukere-bildet, må firmaet vises på firmalisten i fanen **Våre firmaer**.
 

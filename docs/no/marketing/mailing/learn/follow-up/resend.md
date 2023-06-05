@@ -21,7 +21,7 @@ Du kan laste inn utsendelsen igjen og sende den på nytt i fanen **Utsendelser**
 
 Nederst til høyre i utsendelsen kan du klikke på menyknappen. Her kan du velge **Last inn og send på nytt**.
 
-![img1 -screenshot][Du kan bruke menyknappen til å sende utsendelsen fra mappen på nytt]
+![Du kan bruke menyknappen til å sende utsendelsen fra mappen på nytt -screenshot][img1]
 
  Når du klikker på **Last inn og send på nytt**, vil SuperOffice Marketing oppdatere mottakerne som ble brukt i den samme utsendelsen tidligere. Alle e-postadressene du har endret eller lagt til i utvalget du har brukt som mottakerliste, vil bli overskrevet.
 
@@ -37,7 +37,7 @@ Her kan du f.eks. filtrere og velge mottakere med statusen **Returnert** og **Se
 
 Du kan filtrere mottakerlisten ved å bruke filterknappen nederst til høyre på bildet. Og du kan velge mottakerne du vil sende utsendelsen til på nytt, ved å klikke på boksen i kolonnen lengst til venstre i mottakerlisten.
 
-![img2 -screenshot][Filtrere statusen til personene når du sender en utsendelse på nytt]
+![Filtrere statusen til personene når du sender en utsendelse på nytt -screenshot][img2]
 
 Etter at du har valgt alle mottakerne, klikker du på **Handlinger**-knappen og velger **Send på nytt til valgte**.
 

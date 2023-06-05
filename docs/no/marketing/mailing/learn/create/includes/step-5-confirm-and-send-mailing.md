@@ -8,7 +8,7 @@ Du kan velge om du vil sende utsendelsen med det samme, eller om du vil planlegg
 
 På Bekreft-bildet finner du et sammendrag av trinnene du har gjennomført så langt, og du kan velge mellom å sende eller planlegge utsendelsen:
 
-![img4 -screenshot][På Bekreft-bildet finner du et sammendrag av trinnene du har gjennomført så langt, og du kan velge mellom å sende eller planlegge utsendelsen]
+![På Bekreft-bildet finner du et sammendrag av trinnene du har gjennomført så langt, og du kan velge mellom å sende eller planlegge utsendelsen -screenshot][img4]
 
 ## Sende utsendelsen nå
 

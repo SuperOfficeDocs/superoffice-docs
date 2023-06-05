@@ -48,7 +48,7 @@ Til høyre i det nye dashbordet vises delen **Legg til figur / rediger layout.**
 
 Det er mange standardfigurer å velge mellom i biblioteket, men du kan også lage dine egne, enten basert på en eksisterende figur eller ved å starte med blanke ark.
 
-![img2 -screenshot][Velg ønskede figurer, og dra og slipp dem i rutenettet]
+![Velg ønskede figurer, og dra og slipp dem i rutenettet -screenshot][img2]
 
 ## Aktuelle emner
 

@@ -17,7 +17,7 @@ Hvis du inkluderer FAQ-er som et selvhjelpsverktøy, vil du sannsynligvis reduse
 
 Du kan [opprette FAQ-er][1] som kundeserviceagentene dine kan velge fra når de besvarer spørsmål fra kunder i saker og chatsamtaler. Krever Service premium-lisensen.
 
-![img1 -screenshot][Rediger FAQ-oppføringen og velg Egenskaper for å publisere FAQ-en i SuperOffice Service]
+![Rediger FAQ-oppføringen og velg Egenskaper for å publisere FAQ-en i SuperOffice Service -screenshot][img1]
 
 Kundene dine kan til og med få tilgang til disse FAQ-ene via kundesenteret (nettportalen) uten å kontakte deg. Dette gjør det praktisk for kundene dine å finne svar på vanlige spørsmål døgnet rundt. Samtidig får du færre saker å håndtere.
 

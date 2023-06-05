@@ -29,7 +29,7 @@ Du kan åpne meldingsmalen du liker ved å klikke på den. Du laster ned denne m
 
 Meldingsmalen er nå tilgjengelig i Meldingsmaler-arkivet. Du kan begynne å redigere malen med det samme. Alle malene i det elektroniske biblioteket er gruppert etter temaer og layouter for å gjøre det enkelt å søke.
 
-![img3 -screenshot][Det elektroniske malbiblioteket inneholder meldingsmaler som du kan laste ned og bruke]
+![Det elektroniske malbiblioteket inneholder meldingsmaler som du kan laste ned og bruke -screenshot][img3]
 
 Du finner flere meldingsmaler i fanen Alle maler, hvis du foretrekker et mer «retro» uttrykk.
 

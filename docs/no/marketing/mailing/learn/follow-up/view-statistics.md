@@ -40,7 +40,7 @@ Hvis du vil vise statistikk om utsendelsen, går du til fanen **Utsendelser** og
 
 Når utsendelsen er avsluttet, kan du se ytelsen til utsendelsen i fanen **Sammendrag**.
 
-![img2 -screenshot][Når utsendelsen er sendt, sjekker du fanen Sammendrag for å få en oversikt over ytelsen til utsendelsen]
+![Når utsendelsen er sendt, sjekker du fanen Sammendrag for å få en oversikt over ytelsen til utsendelsen -screenshot][img2]
 
 ## Faner med statistikk for utsendelser
 

@@ -15,7 +15,7 @@ language: no
 
 Deltakere som er blitt invitert til en oppfølging, får et varsel på toppraden. Klikk på ikonet **Varslinger** for å vise invitasjonen(e).
 
-![img2 -screenshot][ Motta invitasjoner]
+![Motta invitasjoner -screenshot][img2]
 
 [Dialogboks for oppfølging][1] er delt i to:
 

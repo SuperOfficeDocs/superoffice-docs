@@ -40,19 +40,19 @@ Du kan logge på for å aktivere SuperOffice CRM-kontoen din for første gang p�
 
 1. Når administratoren har lagt deg til som bruker i SuperOffice CRM-løsningen, mottar du en e-post der du blir bedt om å aktivere kontoen.
 
-    ![img5 -screenshot][E-post for aktivering]
+    ![E-post for aktivering -screenshot][img5]
 
 1. Klikk på koblingen **Aktiver nå** i e-postmeldingen. Skriv inn passordet ditt i påloggingsskjermbildet for SuperOffice CRM.
 
-    ![img6 -screenshot][Skriv inn passord]
+    ![Skriv inn passord -screenshot][img6]
 
-    ![img3 -screenshot][Styrke på passord]
+    ![Styrke på passord -screenshot][img3]
 
 1. Når du har aktivert kontoen din, går du inn i SuperOffice CRM og kan begynne å bruke den.
 
 1. Etter den første påloggingen kan du logge inn på nytt ved hjelp av brukeridentifikasjonen din og passordet du nettopp har angitt.
 
-    ![img4 -screenshot][Pålogging]
+    ![Pålogging -screenshot][img4]
 
     * Hvis du har problemer med å aktivere kontoen din, kan du [kontakte vår support][1].
 
@@ -64,13 +64,13 @@ Du kan logge på for å aktivere SuperOffice CRM-kontoen din for første gang p�
 
 1. Når administratoren har lagt deg til som bruker i SuperOffice CRM-løsningen, vil du motta en aktiverings-e-post.
 
-    ![img5 -screenshot][E-post for aktivering]
+    ![E-post for aktivering -screenshot][img5]
 
 1. Klikk på koblingen **Aktiver nå** i e-posten, så får du muligheten til å skrive inn e-postadressen din.
 
-    ![img6 -screenshot][Skriv inn passord]
+    ![Skriv inn passord -screenshot][img6]
 
-    ![img3 -screenshot][Styrke på passord]
+    ![Styrke på passord -screenshot][img3]
 
     SuperOffice vil indikere om du velger et sterkt eller svakt passord. Vi anbefaler deg å velge et sterkt passord.
 
@@ -80,15 +80,15 @@ Når du ikke lenger er logget på med brukerlegitimasjonen for Microsoft 365 ell
 
 **Microsoft 365:**
 
-![img4 -screenshot][Pålogging Microsoft]
+![Pålogging Microsoft -screenshot][img4]
 
-![img9 -screenshot][Pålogging Microsoft]
+![Pålogging Microsoft -screenshot][img9]
 
 **Google Workspace:**
 
-![img7 -screenshot][Pålogging Google]
+![Pålogging Google -screenshot][img7]
 
-![img8 -screenshot][Pålogging Google]
+![Pålogging Google -screenshot][img8]
 
 > [!NOTE]
 > Hvis du har problemer med å få tilgang til SuperOffice CRM via det administrerte Enkel pålogging-systemet, må du kontakte bedriftens IT-støtte for å få hjelp.

@@ -13,7 +13,7 @@ language: no
 
 Ved hjelp av prosjektguiden kan en bedrift gjøre prosjektgjennomføringen enklere og mer strukturert for sine prosjektledere. Prosjektguiden viser vei gjennom de ulike statusene i en forhåndsdefinert prosjektprosess og inneholder forslag til hvilke oppfølginger som bør utføres, og hvilke dokumenter som bør opprettes i hver status. I tillegg kan den foreslå neste trinn i prosjektet og vise prosjektets milepæler.
 
-![img1 -screenshot][Detaljkortet Prosjektguide med oversikt over statuskode Planlagt]
+![Detaljkortet Prosjektguide med oversikt over statuskode Planlagt -screenshot][img1]
 
 Ved å opprette en prosjektguide kan du planlegge alle fasene i prosjektet på forhånd for å sikre at prosjektet lykkes. Som standard er det flere tilgjengelige prosjektguider som du kan bruke som inspirasjon. Eller du kan redigere dem slik at de passer dine behov.
 

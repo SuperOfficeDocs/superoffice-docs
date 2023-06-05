@@ -11,7 +11,7 @@ language: no
 
 # Relasjoner-fane
 
-![img2 -screenshot][Relasjoner (Firma-bilde)]
+![Relasjoner (Firma-bilde) -screenshot][img2]
 
 Detaljkortet **Relasjoner** viser eventuelle forbindelser som finnes mellom firmaer og/eller personer, for eksempel informasjon om eierstruktur eller om personer som har vært ansatt hos forskjellige firmaer.
 

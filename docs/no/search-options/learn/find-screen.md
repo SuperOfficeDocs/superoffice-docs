@@ -73,7 +73,7 @@ Når du har fulgt trinnene over, og søkeresultatene vises i fanen **Resultater*
   * Skriv ut eller eksporter dataene dine
   * Slett informasjonen du har valgt, fra CRM-databasen
 
-    ![img10 -screenshot][En liste over mulige oppgaver du kan bruke søkeresultatet til]
+    ![En liste over mulige oppgaver du kan bruke søkeresultatet til -screenshot][img10]
 
     Hvilke oppgaver som vises, avhenger av hvilken type poster som vises. [Les mer][7]
 

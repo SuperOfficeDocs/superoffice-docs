@@ -23,7 +23,7 @@ Når du lager en utsendelse, følger du en arbeidsflyt som består av 5 trinn:
 1. **Mottakere** (gjelder ikke for skjemaer)
 1. **Bekreft** (gjelder ikke for skjemaer)
 
-![img1 -screenshot][Arbeidsflyten for utsendelser]
+![Arbeidsflyten for utsendelser -screenshot][img1]
 
 **Grønt** = Fullført trinn | **Rødt** = Ufullstendig trinn eller trinn som er hoppet over | Grå/prikket = Trinn som ikke er påbegynt
 

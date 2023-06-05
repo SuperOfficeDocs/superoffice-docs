@@ -19,7 +19,7 @@ SuperOffice-innboksen er en alternativ måte å koble e-posten din til SuperOffi
 
 * For å kunne sende ut e-post fra SuperOffice CRM må du sørge for at e-postadressen du skal bruke med SuperOffice-innboksen, er den samme som den første e-posten som ble registrert på personkortet/skjermen.
 
-![img2 -screenshot][Du kan sjekke hvilken e-post du har registrert i personkortet ditt]
+![Du kan sjekke hvilken e-post du har registrert i personkortet ditt -screenshot][img2]
 
 ## Konfigurere e-postkonto
 
@@ -37,7 +37,7 @@ Se denne videoen for å se hvor raskt og enkelt du kan konfigurere SuperOffice-i
 
 1. I feltet **E-postkonto** skriver du inn e-postadressen til kontoen du vil bruke i SuperOffice.
 
-    ![img3 -screenshot][x]
+    ![E-postkonto -screenshot][img3]
 
 1. Hvis du vil angi informasjon for innkommende og utgående e-post, klikker du på **Avanserte innstillinger**. Hvis ikke, klikker du på **Neste**. SuperOffice vil deretter prøve å sette opp denne informasjonen for deg.
 
@@ -66,17 +66,17 @@ Hvis du vil sende e-post fra SuperOffice CRM, skriver du inn SMTP-serveropplysni
 * Passord: passordet for e-postkontoen din
 * SSL: avhenger av leverandørens innstillinger for e-post (se innstillinger for Outlook og Gmail)
 
-![img4 -screenshot][Avanserte innstillinger – gå til Innboks for å legge til riktig e-postserverinformasjon manuelt]
+![Avanserte innstillinger – gå til Innboks for å legge til riktig e-postserverinformasjon manuelt -screenshot][img4]
 
 ## Endre e-postkonfigurasjonen i SuperOffice-innboksen
 
 1. Hvis du vil redigere eller fjerne den tilknyttede e-postkontoen, klikker du på profilikonet ditt øverst i høyre hjørne og velger **E-postalternativer**.
 
-    ![img5 -screenshot][Alternativer for e-post]
+    ![Alternativer for e-post -screenshot][img5]
 
 1. Velg fanen **E-postkonto** og trykk på **Rediger/fjern**-knappen.
 
-    ![img6 -screenshot][Alternativer for e-post]
+    ![Alternativer for e-post -screenshot][img6]
 
 ## Hvorfor er ikke e-postlisten oppdatert?
 

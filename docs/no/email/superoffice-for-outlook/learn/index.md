@@ -15,7 +15,7 @@ Med SuperOffice for Outlook-tillegget kan du arbeide uanstrengt mellom Microsoft
 
 Etter at du har koblet til SuperOffice for Outlook, kan du lagre nye personer, e-poster, salg, aktiviteter eller saker direkte fra Outlook. Legg til-panelet lar deg raskt se nøkkelinformasjon om person, salg og sakshistorikk. Få en oversikt over personer og firma inkludert i e-posten for å gi deg umiddelbar kontekst om hvem du samhandler med.
 
-![img1 -screenshot][I fanen Handling kan du utføre oppgaver som å lagre til e-post og opprette aktivitet i SuperOffice]
+![I fanen Handling kan du utføre oppgaver som å lagre til e-post og opprette aktivitet i SuperOffice -screenshot][img1]
 
 ## Slik installerer du SuperOffice for Outlook
 

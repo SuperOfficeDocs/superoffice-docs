@@ -25,14 +25,14 @@ Hver fase av salgsguiden inneholder ulike oppfølginger og/eller dokumenter, og 
 
 Klikk på **Opprett** ved siden av oppfølgingene og dokumentene for å opprette dem. Du kan også klikke på tittelen på oppfølgingen eller dokumentet for å opprette dem.
 
-![img4 -screenshot][Opprett oppfølging]
+![Opprett oppfølging -screenshot][img4]
 
 > [!TIP]
 > Alle oppfølginger og dokumenter du oppretter for en salgsguide, vises også på detaljkortet **Aktiviteter** i Salg-bildet. Dette gir deg en oversikt over alle aktiviteter som er knyttet opp mot salget – både utførte og ikke utførte aktiviteter.
 
 Når en oppfølging eller et dokument er opprettet, kan du senere slette eller redigere oppfølgingen/dokumentet ved å høyreklikke på tittelen og velge fra menyen som vises. På denne måten kan du også opprette en ny oppfølging eller et nytt dokument av samme type.
 
-![img5 -screenshot][Opprett oppfølging]
+![Opprett oppfølging -screenshot][img5]
 
 ## Vise alle oppfølginger og dokumenter
 
@@ -42,11 +42,11 @@ Du kan gå til neste fase ved å velge den i listen **Fase** på hovedkortet.
 
 Salgsguide der bare oppfølginger og dokumenter for gjeldende fase vises:
 
-![img6 -screenshot][Salgsguide med oppfølginger og dokumenter bare for gjeldende fase]
+![Salgsguide med oppfølginger og dokumenter bare for gjeldende fase -screenshot][img6]
 
 Salgsguide der alle oppfølginger og dokumenter for alle faser vises:
 
-![img7 -screenshot][Salgsguide med alle oppfølginger og dokumenter for alle faser]
+![Salgsguide med alle oppfølginger og dokumenter for alle faser -screenshot][img7]
 
 ## Hva vil du gjøre nå?
 

@@ -38,7 +38,7 @@ Ved å bruke SAINT kan Bridgecom proaktivt søke etter alle kunder uten åpne el
 
 Med denne oversikten kan Bridgecom bestemme hvordan de ønsker å følge opp kundene sine for å forbedre relasjonene og øke salget.
 
-![img1 -screenshot][Utvalg av forsømte kunder i Innstillinger og vedlikehold]
+![Utvalg av forsømte kunder i Innstillinger og vedlikehold -screenshot][img1]
 
 Med SuperOffice SAINT kan du analysere databasen for å få oversikt over kunder, salg, forespørsler og dokumenter. Dette kan gjøres i form av diagrammer og rapporter. Deretter kan personene som er ansvarlige for situasjonen du analyserte med SAINT, handle for å forbedre den eksisterende situasjonen.
 
@@ -54,7 +54,7 @@ Med SuperOffice SAINT kan du både søke etter elementer som finnes i databasen 
 
 Du kan søke etter personer som ikke har hatt noen aktiviteter av en bestemt type (eller som ikke har uttrykt noen salgsrelaterte intensjoner) innenfor en bestemt periode. SAINT gir deg alle kunder uten en oppfølgingsaktivitet (åpen eller fullført) de siste 6 månedene.
 
-![img2 -screenshot][Skjermbilde for Saint-kriterier for å finne kunder uten oppfølging]
+![Skjermbilde for Saint-kriterier for å finne kunder uten oppfølging -screenshot][img2]
 
 Å finne ut hva som ikke har skjedd, men som burde ha skjedd, er et eksempel på hvordan SuperOffice SAINT kan hjelpe deg å prestere i henhold til dine definerte regler eller intensjoner.
 
@@ -76,7 +76,7 @@ SAINT kan være gøy! Du kan bruke hvilket som helst bakgrunnsbilde, for eksempe
 
 Fra et praktisk synspunkt kan SAINT gi en ansatt forslag til handlinger for en bestemt situasjon. De kan opprette en oppfølgingsaktivitet eller legge til kunden i et utvalg.
 
-![img3 -screenshot][Bruk en visuell indikator som en gråtende baby for å varsle om at en kunde må følges opp]
+![Bruk en visuell indikator som en gråtende baby for å varsle om at en kunde må følges opp -screenshot][img3]
 
 SAINT-kriteriene som genererer analysene du bruker, blir automatisk søkbare "felt". Alle brukere kan bruke disse feltene til å lage en tilpasset liste med handlinger eller søk i SuperOffice Utvalg.
 

@@ -15,7 +15,7 @@ Skjemafunksjonen er et kraftig system som gir informasjon fra et skjema til Supe
 
 Det er enkelt å opprette et skjema og legge det ut på en hvilken som helst nettside hvor du vil at det skal vises, for eksempel «Kontakt meg»-skjemaer, og det er enkelt å forvandle alle de nye prospektene til personer i SuperOffice.
 
-![img1 -screenshot][Du kan bruke et webskjema til å be folk om å melde seg på ditt neste webinar eller seminar, eller til å kontakte firmaet ditt med sine spørsmål]
+![Du kan bruke et webskjema til å be folk om å melde seg på ditt neste webinar eller seminar, eller til å kontakte firmaet ditt med sine spørsmål -screenshot][img1]
 
 Eksempler på skjemaer: start gratis prøveperiode, kontakt oss, oppdater data, behandling av samtykke.
 [Hvordan opprette skjemaer (eksempler)][1]
@@ -36,7 +36,7 @@ Du kan bruke webskjemaer til å fange opp besøkendes opplysninger - navn, e-pos
 
 Det er flere måter å finne skjemaer på. Gå til fanen Skjemaer, Skjemamaler eller fanen Skjemainnsendinger.
 
-![img2 -screenshot][Det er flere måter å finne skjemaer på]
+![Det er flere måter å finne skjemaer på -screenshot][img2]
 
 * **Skjemaer:** her kan du opprette nye skjemaer og se alle skjemaene som tidligere er opprettet. Aktive skjemaer-fanen viser hvilke skjemaer som brukes for øyeblikket. Den røde boblen øverst til høyre i et skjema viser antall skjemainnsendinger som ikke er behandlet ennå.
 

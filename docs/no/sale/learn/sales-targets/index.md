@@ -22,7 +22,7 @@ For å lage nøyaktige prognoser må firmaer sammenligne det reelle salget med s
 
 Alle brukere som får salgsytelsen sin målt, kan få tilgang til statusen og fremdriften for sitt salgsmål ved å konfigurere tilsvarende [figurer på dashbordet][4]. Dette gir en umiddelbar sanntidsvisning av salgsresultatene deres mot de fastsatte salgsmålene, og hjelper dem med å fokusere på individuelle og felles mål.
 
-![img6 -screenshot][Måldialogen gir deg en oversikt over salgsmålene]
+![Måldialogen gir deg en oversikt over salgsmålene -screenshot][img6]
 
 Tilgangen til mål angis av administratoren din i Innstillinger og vedlikehold, og hva du ser, avhenger av datarettighetene for Mål og den funksjonelle rettigheten (Kan låse og låse opp mål). Brukerne har bare lov til å låse og låse opp mål de har lov til å se og redigere.
 

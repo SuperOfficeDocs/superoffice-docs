@@ -26,7 +26,7 @@ Excel-regnearket bør som et minimum inneholde kolonner med:
 
 **Forhåndsvisning av en importfil (Excel):**
 
-![img2 -screenshot][Å bruke en importfil er den beste måten å importere alle personene dine til SuperOffice CRM på]
+![Å bruke en importfil er den beste måten å importere alle personene dine til SuperOffice CRM på -screenshot][img2]
 
 [Last ned importmalen for firmaer og personer][1] [Excel spreadsheet]
 
@@ -47,7 +47,7 @@ Den kan for eksempel inneholde disse datakolonnene: I sortiment, produktkode, na
 
 **Forhåndsvisning av en importfil (Excel):**
 
-![img5 -screenshot][Å bruke en importfil er den beste måten å importere alle produktene dine til SuperOffice CRM på]
+![Å bruke en importfil er den beste måten å importere alle produktene dine til SuperOffice CRM på -screenshot][img5]
 
 [Last ned importmalen for produkter][2] [Excel spreadsheet]
 

@@ -15,7 +15,7 @@ Hvis du ikke kan løse spørsmålet via chatsamtalen, kan du opprette en sak som
 
 1. Klikk på ![ikon][img1], og velg deretter **Opprett sak**.
 
-    ![img2 -screenshot][Klikk på Handling-knappen og Opprett sak. All informasjon i chatten lagres i saken.]
+    ![Klikk på Handling-knappen og Opprett sak. All informasjon i chatten lagres i saken. -screenshot][img2]
 
 2. Fyll ut de relevante feltene i dialogboksen.
 3. Chatloggen legges til saken, men du kan også legge til mer informasjon her hvis det er nødvendig.

@@ -25,7 +25,7 @@ language: no
 
 3. Klikk på **Legg til**-knappen under detaljkortet. Dialogboksen **Legg til interessenter** åpnes.
 
-    ![img3 -screenshot][Dialogboks for å legge til interessenter]
+    ![Dialogboks for å legge til interessenter -screenshot][img3]
 
 4. I feltet **Salg** vises som standard det aktive salget. Du kan eventuelt velge et annet salg som interessenten(e) skal legges til i. Det kan du gjøre ved å klikke på pilen og velge ønsket salg i listeboksen som vises, eller skrive inn navnet på salget direkte.
 

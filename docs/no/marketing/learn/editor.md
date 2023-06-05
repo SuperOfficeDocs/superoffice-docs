@@ -11,7 +11,7 @@ language: no
 
 # Dra og slipp editor
 
-![img1 -screenshot][Dra og slipp editor]
+![Dra og slipp editor -screenshot][img1]
 
 I trinnet **Innhold** kan du redigere utseendet til og innholdet i meldingen.
 
@@ -126,7 +126,7 @@ Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger («Dra
 
 ### Redigeringsprogram (gammelt)
 
-![img13 -screenshot][Redigeringsprogram (gammelt)]
+![Redigeringsprogram (gammelt) -screenshot][img13]
 
 ## Hva vil du gjøre nå?
 

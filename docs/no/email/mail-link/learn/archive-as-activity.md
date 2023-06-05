@@ -13,7 +13,7 @@ language: no
 
 Hvis du mottar en e-post der du blir bedt om å gjøre noe, kan du konvertere e-posten til en aktivitet i SuperOffice CRM.
 
-![img1 -screenshot][Bruke e-post-koblingen i Outlook til å konvertere en e-post til en aktivitet i SuperOffice CRM]
+![Bruke e-post-koblingen i Outlook til å konvertere en e-post til en aktivitet i SuperOffice CRM -screenshot][img1]
 
 ## Trinn
 

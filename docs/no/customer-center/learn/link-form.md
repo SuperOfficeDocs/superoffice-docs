@@ -21,7 +21,7 @@ Ved å legge til chatwidgeten i Kundesenter kan du gjøre det enklere for kunden
 
 Du må [opprette et webskjema][3] før du kan legge det til i kundesenteret. Når du oppretter et nytt webskjema, må du legge til ett av de tre sakselementene – tittel, kategori og melding. Ellers kan du ikke legge til skjemaet i kundesenteret.
 
-![img1 -screenshot][Hvis du vil legge til et nytt webskjema i kundesenteret, legger du til ett av disse sakselementene.]
+![Hvis du vil legge til et nytt webskjema i kundesenteret, legger du til ett av disse sakselementene. -screenshot][img1]
 
 ## Trinn
 
@@ -31,17 +31,17 @@ Du må [opprette et webskjema][3] før du kan legge det til i kundesenteret. Nå
 
 1. Rull nedover listen over alternativer, og merk av for Bruk egendefinert «kontakt oss»-skjema.
 
-    ![img2 -screenshot][Gå til alternativer på kundesentersiden, og merk deretter av for Bruk egendefinert «kontakt oss»-skjema]
+    ![Gå til alternativer på kundesentersiden, og merk deretter av for Bruk egendefinert «kontakt oss»-skjema -screenshot][img2]
 
 1. Klikk på nedtrekksmenyen Skjema for å velge webskjemaet du vil bruke. Du ser mappestrukturen du opprettet i Skjemaer-delen i Markedsføring, som inneholder alle webskjemaene.
 
-    ![img3 -screenshot][Velg webskjemaet du vil bruke, fra skjemamappen]
+    ![Velg webskjemaet du vil bruke, fra skjemamappen -screenshot][img3]
 
 1. Klikk på **Lagre** for å lagre innstillingene. Webskjemaet du har lagt til, er nå tilgjengelig på siden Kontakt oss.
 
 Når en kunde fyller ut dette skjemaet, blir informasjonen og detaljene automatisk lagret i SuperOffice som en sak under kategorien og prioriteten du har definert for dette skjemaet.
 
-![img4 -screenshot][Webskjema på siden Kontakt oss]
+![Webskjema på siden Kontakt oss -screenshot][img4]
 
 ## Aktuelle emner
 

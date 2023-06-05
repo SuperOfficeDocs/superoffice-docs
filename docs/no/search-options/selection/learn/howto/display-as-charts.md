@@ -15,7 +15,7 @@ Når du har opprettet et utvalg, kan du vise resultatene visuelt for en mer umid
 
 I fanen **Diagrammer** kan du klikke på en diagramtype for å vise dataene i det aktive utvalget som et diagram. De tilgjengelige diagramtypene avhenger av utvalgstypen (bare salgsrelaterte diagrammer er tilgjengelige for salgsutvalg). Dynamiske utvalg med diagrammer kan også brukes i [dashbord][1].
 
-![img3 -screenshot][Bruk et diagram til å visualisere utvalget]
+![Bruk et diagram til å visualisere utvalget -screenshot][img3]
 
 ## Slik visualiserer du et utvalg i et diagram
 

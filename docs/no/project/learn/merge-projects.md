@@ -19,7 +19,7 @@ Hvis du har to prosjekter som er nesten like, er det nå mulig å slå sammen di
 
 3. I dialogboksen **Slå sammen prosjekter** under **Til**, velger du prosjektet du vil slå sammen med det eksisterende prosjektet. Begynn å skrive i feltet for å søke etter et prosjekt.
 
-    ![img2 -screenshot][Dialogboksen Slå sammen prosjekter]
+    ![Dialogboksen Slå sammen prosjekter -screenshot][img2]
 
     > [!TIP]
     > Hvis du vil bytte **Fra**\- og **Til**-prosjektet, klikker du på ![ikon][img3].

@@ -14,7 +14,7 @@ so.lang: en
 
 I [veiledningen i salgsprognoser][3] lærer du hvordan du lager et utvalg av salgsmulighetene dine. Når du har valgt Salg-bildet i **navigatoren**, kan du vise **Salgsutvalg** i panelet **Utvalgsmedlemmer** i [sidepanelet][1]. Klikk på en av salgsmulighetene for å vise dem i Salg-bildet.
 
-![img1 -screenshot][Bruk sidepanelet på salgskortet til å vise utvalgsmedlemmer og salgsutvalget]
+![Bruk sidepanelet på salgskortet til å vise utvalgsmedlemmer og salgsutvalget -screenshot][img1]
 
 Ved å klikke deg igjennom salgene dine ett for ett, kan du enkelt sjekke at du vet hva som er gjeldende status for de ulike salgene, og om du har en oppfølgingsaktivitet på plass. Hvis du ser en salgsmulighet som er synlig i rødt i listen **Utvalgsmedlemmer**, betyr dette at denne salgsmuligheten har en forfalt aktivitet eller salgsdato, og du bør ta en titt på den.
 

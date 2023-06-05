@@ -13,7 +13,7 @@ language: no
 
 Detaljkortet **Saker** viser saker fra SuperOffice Service for det aktive firmaet.
 
-![img1 -screenshot][Sak-delen i firma]
+![Sak-delen i firma -screenshot][img1]
 
 Du kan dobbeltklikke på en sak for å åpne og se på den i et eget vindu. Klikk på **Rediger**-knappen for å jobbe videre med saken i SuperOffice Service.
 

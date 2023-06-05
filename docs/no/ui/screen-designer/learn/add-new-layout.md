@@ -44,7 +44,7 @@ Se denne videoen, og finn ut hvordan du legger til et nytt layout, eller følg t
 
 5. Klikk på **Legg til** under **Layouter**.
 
-    ![img1 -screenshot][Klikk på Legg til for å opprette en ny layout]
+    ![Klikk på Legg til for å opprette en ny layout -screenshot][img1]
 
 6. I dialogboksen **Legg til ny layout** velger du en layout i listen **Lag ny basert på**.
 
@@ -52,7 +52,7 @@ Se denne videoen, og finn ut hvordan du legger til et nytt layout, eller følg t
 
 7. I feltet **Navn** skriver du inn et navn på den nye layouten.
 
-    ![img2 -screenshot][Angi riktig navn og brukergruppene som skal brukes i denne layouten]
+    ![Angi riktig navn og brukergruppene som skal brukes i denne layouten -screenshot][img2]
 
 8. Klikk på **Tilordne**-feltet og velg brukergruppen(e) som skal bruke den nye layouten.
 
@@ -80,7 +80,7 @@ Du kan opprette en ny layout for den (de) spesifikke brukergruppen(e) og konfigu
 
 Opprett en ny layout for en bestemt brukergruppe ved å konfigurere detaljkort med innhold som er relevant for den brukergruppen. Ved å legge til og fjerne de forskjellige fanene, kan du opprette ønsket oppsett på et hovedkort for brukergruppen din.
 
-![img3 -screenshot][Legg til navnet i den nye detaljkort-/arkivlayouten, og velg brukergruppen(e) den skal vises for]
+![Legg til navnet i den nye detaljkort-/arkivlayouten, og velg brukergruppen(e) den skal vises for -screenshot][img3]
 
 ## Aktuelt innhold
 

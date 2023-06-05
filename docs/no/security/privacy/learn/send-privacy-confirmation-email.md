@@ -39,7 +39,7 @@ Fra skjermbildet Person kan du sende e-postbekreftelsen for personvern til en ko
 
 1. Klikk på **Oppgave** (![ikon][img1]) > **Send e-postbekreftelse om personvern**.
 
-    ![img2 -screenshot][Send en e-postbekreftelse for å informere personene om informasjonen som lagres i CRM-databasen]
+    ![Send en e-postbekreftelse for å informere personene om informasjonen som lagres i CRM-databasen -screenshot][img2]
 
 1. I dialogboksen som åpnes fyller du ut følgende felt:
     * **Send til**: Bruk standard e-postadresse eller velg en annen adresse.

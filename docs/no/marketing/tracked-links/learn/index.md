@@ -23,7 +23,7 @@ Før du starter selve utsendelsene, kan du konfigurere koblingene du ofte vil br
 * Personskjemaer
 * Kanaler på sosiale medier
 
-![img4 -screenshot][I bildet Egenskaper for kobling kan du legge til koblinger du vil spore]
+![I bildet Egenskaper for kobling kan du legge til koblinger du vil spore -screenshot][img4]
 
 I en melding kan du inkludere koblinger (URL-adresser) som du kan spore. På denne måten kan du se hvor mange mottakere som har klikket på dem.
 

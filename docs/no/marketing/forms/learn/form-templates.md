@@ -41,7 +41,7 @@ language: no
 6. [Gjør eventuelle nødvendige endringer][1].
 7. Klikk på **Lagre**.
 
-![img3 -screenshot][Opprett en mal basert på et eksisterende skjema]
+![Opprett en mal basert på et eksisterende skjema -screenshot][img3]
 
 <!-- Referenced links -->
 [1]: create.md

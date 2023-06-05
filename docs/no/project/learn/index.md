@@ -13,7 +13,7 @@ language: no
 
 Du kan koble en hvilken som helst aktivitet til et eksternt firma og til et prosjekt. Du kan også jobbe med en prosjektguide som tar deg gjennom hvert trinn i prosjektet, forutsatt at det er opprettet en guide for prosjekttypen du har valgt. Et prosjekt kan være rettet mot mange personer, og en person kan delta i mange prosjekter.
 
-![img1 -screenshot][Prosjekt-bildet]
+![Prosjekt-bildet -screenshot][img1]
 
 Prosjekter hjelper deg med å holde arbeidet organisert og dokumentert på ett sted, slik at du og teamet ditt kan få bedre kontroll og forbedre samarbeidet.
 
@@ -29,7 +29,7 @@ Hvis du velger en prosjekttype som det er definert en [prosjektguide][1] for, vi
 
 ## <a id="more-tab" />Fanen Mer
 
-![img4 -screenshot][Mer-fanen (Prosjekt)]
+![Mer-fanen (Prosjekt) -screenshot][img4]
 
 I fanen **Mer** finner du brukerdefinerte felt for prosjektet. Hvis din organisasjon har behov for å ha flere felt enn de som er standard i fanen **Prosjekt**, kan du definere i Innstillinger og vedlikehold at disse feltene skal legges inn her.
 

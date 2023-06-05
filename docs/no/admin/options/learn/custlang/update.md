@@ -19,7 +19,7 @@ language: no
 
 3. Klikk på knappen **Nytt kundespråk**. Du kommer til bildet **Egenskaper for kundespråk**.
 
-    ![img1 -screenshot][Du kan definere et nytt språk i dialogboksen Egenskaper for kundespråk]
+    ![Du kan definere et nytt språk i dialogboksen Egenskaper for kundespråk -screenshot][img1]
 
 4. I feltet **Navn** skriver du inn navnet på språket, slik at det kan brukes som ledetekst i feltene for språkvalg.
 

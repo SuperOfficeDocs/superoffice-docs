@@ -13,7 +13,7 @@ language: no
 
 All informasjon knyttet til et firma – enten kunden, partneren eller leverandøren din – lagres på Firmakortet/-bildet. Dette kortet gir deg øyeblikk oversikt over firmaet i ett bilde.
 
-![img3 -screenshot][Firma-bilde]
+![Firma-bilde -screenshot][img3]
 
 [!include[Intro](includes/company-screen-intro.md)]
 

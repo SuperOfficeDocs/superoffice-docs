@@ -13,7 +13,7 @@ language: no
 
 Chat-statistikken kan brukes til å forbedre den generelle kommunikasjonen og agentenes resultater, samt til å forkorte responstiden. Du kan vise dem i **Dashboard**-fanen i **Chat**-bildet.
 
-![img1 -screenshot][I fanen Chat Dashboard har du en seksjon som viser statistikken over innkommende chatter]
+![I fanen Chat Dashboard har du en seksjon som viser statistikken over innkommende chatter -screenshot][img1]
 
 I tillegg til generell statistikk om chatsesjoner kan du overvåke følgende:
 
@@ -38,7 +38,7 @@ Du kan visualisere statistikk fra chatsamtaler i et dashbord for å få en infor
 
 * Med figuren **Min gjennomsnittlige chat-vurdering denne måneden** kan du følge den gjennomsnittlige vurderingen du får fra kundene dine. Bruk den som indikator på hvor fornøyd kundene er med servicen din, og som motivasjon til å forbedre deg eller fortsette det gode arbeidet.
 
-![img2 -screenshot][Eksempel på forskjellige figurer for chatsamtaler]
+![Eksempel på forskjellige figurer for chatsamtaler -screenshot][img2]
 
 ## Svare på en innkommende chatsamtale
 

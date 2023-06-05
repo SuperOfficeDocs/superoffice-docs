@@ -11,7 +11,7 @@ language: no
 
 # Detaljkortet Salg
 
-![img4 -screenshot][Detaljkortet Salg (Dagbok)]
+![Detaljkortet Salg (Dagbok) -screenshot][img4]
 
 I tillegg til detaljkortet [Aktiviteter][1], inneholder dagboken også detaljkortet **Salg**, som viser viktig informasjon om salg.
 

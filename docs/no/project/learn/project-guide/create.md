@@ -31,7 +31,7 @@ Denne prosedyren viser deg hvordan du lager en prosjektguide helt fra bunnen av.
 2. Definer [prosjekttypen](#create-type) (med tilhørende statuser) som prosjektguiden skal tilknyttes.
 3. Utform [prosjektguiden ](#create-guide).
 
-![img2 -screenshot][Gå til Arbeidsflyt-seksjonen og opprett dine egne prosjektrutiner i SuperOffice CRM]
+![Gå til Arbeidsflyt-seksjonen og opprett dine egne prosjektrutiner i SuperOffice CRM -screenshot][img2]
 
 ## <a id="create-stage" />Opprette statuser for prosjektguiden
 

@@ -16,7 +16,7 @@ Du kan tilpasse og konfigurere funksjonene i Quote Management i Innstillinger og
 
 Bildet Konfigurer produkt finer du i fanen Innstillinger. Her kan du endre og tilpasse alle ledetekster som brukes i Quote management. I tillegg kan du velge om feltene skal være redigerbare og/eller obligatoriske.
 
-![img3 -screenshot][Du kan endre alle ledetekstene til feltene i produktmenyen i bildet Konfigurer produkt]
+![Du kan endre alle ledetekstene til feltene i produktmenyen i bildet Konfigurer produkt -screenshot][img3]
 
 ## Trinn
 

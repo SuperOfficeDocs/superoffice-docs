@@ -20,13 +20,13 @@ language: no
 
 I **Dashbord**-fanen kan du vise chatstatistikk, svare på innkommende chatsamtaler og lytte til pågående chatsamtaler (hvis du ha tillatelse til det). Tallet i **Dashbord**-fanen viser hvor mange innkommende chatsamtaler som ikke er besvart av en agent.
 
-![img1 -screenshot][Fanen Dashbord]
+![Fanen Dashbord -screenshot][img1]
 
 ## Fanen Chatsamtaler
 
 Bruk fanen **Chatsamtaler** til å svare på innkommende chatsamtaler fra kunder.
 
-![img5 -screenshot][Fanen Chatsamtaler] Tallet i fanen **Chatsamtaler** viser hvor mange chatsamtaler du håndterer for øyeblikket.
+![Fanen Chatsamtaler -screenshot][img5] Tallet i fanen **Chatsamtaler** viser hvor mange chatsamtaler du håndterer for øyeblikket.
 
 Fanen **Chatsamtaler** har tre hovedområder:
 

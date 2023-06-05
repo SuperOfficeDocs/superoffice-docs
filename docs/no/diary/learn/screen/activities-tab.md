@@ -11,7 +11,7 @@ language: no
 
 # Detaljkortet Aktiviteter
 
-![img4 -screenshot][Detaljkortet Aktiviteter (Dagbok)]
+![Detaljkortet Aktiviteter (Dagbok) -screenshot][img4]
 
 På detaljkortet **Aktiviteter** vises aktiviteter på en oversiktlig måte, og listen fungerer som en huskeliste eller oppgaveliste. Den inneholder blant annet avtaler og oppgaver som du ikke har utført ennå, og du kan bruke den til midlertidig å oppbevare oppfølginger som du ennå ikke har fastsatt et bestemt klokkeslett eller en bestemt dato for.
 

@@ -16,7 +16,7 @@ language: no
 
 Spar tid og reduser manuelt arbeid ved å automatisere ulike forretningsprosesser, uten omfattende kunnskap om AI-teknologi. Øk effektiviteten ved å bruke kunstig intelligens (AI). Tilgjengelige tjenester inkluderer tekstanalyse for automatisk sentimentvurdering, språkgjenkjenning og tekstoversettelse, automatisk kategorisering og en [chatbot][3].
 
-![img1 -screenshot][SuperOffice-tjenester for kunstig intelligens]
+![SuperOffice-tjenester for kunstig intelligens -screenshot][img1]
 
 AI og maskinlæring krever vanligvis mye av selskapets ressurser for å dra nytte av dem. Kompleksiteten i kunstig intelligens har ofte vært et hinder for bedriftene. Det er en vanlig bekymring at AI i moderne forretningsapplikasjoner er for komplisert for hverdagsbrukere. Bruk av AI krever ikke alltid kodingskunnskap, og med vår tilnærming til å bygge inn AI i SuperOffice CRM, er alt forenklet, og alle kan dra nytte av det.
 

@@ -66,7 +66,7 @@ For at du skal kunne svare på kundenes chat-spørsmål på en rask og profesjon
 
 Spar tid ved å bruke forhåndsdefinerte tekster når du svarer på kundespørsmål via chat. Du kan opprette og sende et hurtigsvar på et vanlig spørsmål. I andre situasjoner, der hurtigsvar ikke er tilstrekkelig, kan du [inkludere FAQ-er, tilpassede svarmaler][4] eller [filer][5].
 
-![img6 -screenshot][Med knappen for å legge til forhåndsdefinert tekst kan du velge tekst fra FAQ, Svarmaler og Hurtigsvar]
+![Med knappen for å legge til forhåndsdefinert tekst kan du velge tekst fra FAQ, Svarmaler og Hurtigsvar -screenshot][img6]
 
 ## Aktuelle emner
 

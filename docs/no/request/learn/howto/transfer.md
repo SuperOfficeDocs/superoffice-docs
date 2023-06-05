@@ -19,7 +19,7 @@ Det er ikke alltid du som saksbehandler klarer å løse en sak alene. Noen gange
 
 1. Velg personen du vil ha hjelp fra, i listeboksen **Eier** fra sidestolpen Egenskaper for sak. Det innebærer at du overfører ansvaret for saken til vedkommende.
 
-    ![img1 -screenshot][Tildel en sak til en annen Service-bruker]
+    ![Tildel en sak til en annen Service-bruker -screenshot][img1]
 
     > [!NOTE]
     > Hvis du ikke vet hvem som skal få ansvaret for saken, kan du velge **(Automatisk tildelt)** i feltet **Eier** og velge den aktuelle [kategorien][3] i feltet **Kategori**. Hvis saken f.eks. gjelder et betalingsspørsmål, kan du endre kategorien til "Faktura". Da blir saken automatisk tildelt en saksbehandler i fakturaavdelingen etter gjeldende fordelingsregler.

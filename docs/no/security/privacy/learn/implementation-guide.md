@@ -72,7 +72,7 @@ For å definere disse feltene, gå til Innstillinger og vedlikehold og velg **Pe
 
 Det er allerede opprettet to standardformål i systemet som du kan bruke:
 
-![img1 -screenshot][I Innstillinger og vedlikehold kan du definere krav til personvern og samtykke]
+![I Innstillinger og vedlikehold kan du definere krav til personvern og samtykke -screenshot][img1]
 
 Den første, **Salg og tjenester**, antyder at grunnen til at du lagrer personopplysninger i CRM-løsningen din er at du ønsker å selge og/eller betjene personen med dine produkter og tjenester.
 

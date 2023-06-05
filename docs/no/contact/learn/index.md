@@ -13,7 +13,7 @@ language: no
 
 Et personkort lagrer verdifull informasjon om all kommunikasjon og samhandling med en person, samt dokumentasjon av vedkommendes GDPR-samtykke. Alt du vil finne ut om en person, er tilgjengelig fra ett skjermbilde.
 
-![img3 -screenshot][Person-bilde]
+![Person-bilde -screenshot][img3]
 
 [!include[Intro](includes/contacts-screen-intro.md)]
 

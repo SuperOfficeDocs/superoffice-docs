@@ -27,7 +27,7 @@ Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du opprette
 
 3. Klikk på **Oppgave** -knappen, og velg **Legg til figurer / rediger layout**. Til høyre i det valgte dashbordet vises delen **Legg til figur / rediger layout**.
 
-    ![img1 -screenshot][Velg figurtype]
+    ![Velg figurtype -screenshot][img1]
 
     > [!NOTE]
     > Hvis fanen **Layout** og feltene er deaktiverte, betyr det at du ikke har tilstrekkelige brukerrettigheter. Kontakt systemansvarlig for å få riktig tilgang.

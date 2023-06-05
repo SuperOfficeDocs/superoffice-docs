@@ -36,7 +36,7 @@ Det kan hende at du vil kopiere et eksisterende firma til et nytt firma. Eksempe
 
 1. Klikk på **Kopier**. Det nye firmaet opprettes med informasjonen du har angitt, og får eget nummer og egen kode. Du kan eventuelt [redigere firmainformasjonen][2] hvis det er aktuelt.
 
-![img3 -screenshot][Dialogboksen Kopier firma]
+![Dialogboksen Kopier firma -screenshot][img3]
 
 <!-- Referenced links -->
 [2]: edit.md

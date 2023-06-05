@@ -35,7 +35,7 @@ En **myk retur** oppstår når det er et midlertidig leveringsproblem. SuperOffi
 
 Bruk filterknappene (Sendt, Returnert og Åpnet) til å [filtrere mottakerlisten][1]. Når du har valgt alle personene som utsendelsen ble returnert for, kan du samle dem i et utvalg eller prosjekt ved hjelp av handlingsmeny-knappen nederst til venstre.
 
-![img2 -screenshot][Filtrer de returnerte e-postene dine og velg hva du vil gjøre med dem]
+![Filtrer de returnerte e-postene dine og velg hva du vil gjøre med dem -screenshot][img2]
 
 ## Slik reparerer du én enkelt e-postadresse
 

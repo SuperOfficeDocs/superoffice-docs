@@ -33,7 +33,7 @@ For å hindre at du sender utsendelser til personer som ikke ønsker å motta de
 
 Når du oppretter en ny utsendelse, vil veiviseren for utsendelser be deg om å legge til abonnementstypen du ønsker å sende i Trinn 1: Oppsett.
 
-![img1 -screenshot][Velg hvilken type utsendelse du sender ut i oppsettstrinnet.]
+![Velg hvilken type utsendelse du sender ut i oppsettstrinnet. -screenshot][img1]
 
 Når du har lagt til utsendelsestypen, kontrollerer SuperOffice CRM hver person du legger til som mottaker, for å se om de har gitt deg samtykke til å sende dem denne utsendelsen.
 
@@ -42,7 +42,7 @@ I trinn 4 i veiviseren for utsendelser, kalt Mottakere, kan du se nøyaktig hvem
 > [!TIP]
 > Du har en avmerkingsboks for Overstyr samtykke og abonnement hvis det er svært viktig å sende utsendelsen til alle personer.
 
-![img2 -screenshot][Når du har lagt til mottakere på adresselisten, kan du sende uansett om de har gitt samtykke til den type utsendelse eller ikke.]
+![Når du har lagt til mottakere på adresselisten, kan du sende uansett om de har gitt samtykke til den type utsendelse eller ikke. -screenshot][img2]
 
 Hvis Personvern for e-markedsføring er slått AV, betyr det at SuperOffice CRM ignorerer samtykker og abonnementspreferanser når det sender utsendelsene dine. Hvis du vil aktivere Personvern for e-markedsføring, trenger du administratorrettigheter.
 
@@ -52,7 +52,7 @@ Du får vite med ved å se på videoen om hvordan du konfigurerer personverninns
 
 > [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
 
-![img3 -screenshot][I Innstillinger og vedlikehold kan du slå på funksjonen Personvern for e-markedsføring.]
+![I Innstillinger og vedlikehold kan du slå på funksjonen Personvern for e-markedsføring. -screenshot][img3]
 
 ## Bruk koblingen for avmelding
 
@@ -63,7 +63,7 @@ Noen ganger ombestemmer folk seg når det gjelder hvilke e-postmeldinger de øns
 
 Ved å klikke på denne koblingen kommer mottakerne til siden for abonnementsinnstillinger, der de kan velge hvilken type utsendelser de vil motta. Endringene personene dine gjør, lagres så snart de bekrefter de nye innstillingene.
 
-![img4 -screenshot][Velg utsendelsene du ønsker å motta, på siden for abonnementspreferanser.]
+![Velg utsendelsene du ønsker å motta, på siden for abonnementspreferanser. -screenshot][img4]
 
 Kunden din har kontroll over utsendelsene de mottar, og du kan sikre at du bare sender utsendelsene dine til dem som er interessert.
 

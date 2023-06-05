@@ -26,7 +26,7 @@ so.user.tooltip: SuperOffice CRM
 
 4. Rediger signaturen ved å slette eller legge til informasjon.
 
-    ![img1 -screenshot][Rediger personlig signatur]
+    ![Rediger personlig signatur -screenshot][img1]
 
 5. Klikk på ![icon][img2] for å åpne tekstredigering på verktøylinjen. Her har du forskjellige alternativer for å redigere tekst og legge til ekstra innhold.
 

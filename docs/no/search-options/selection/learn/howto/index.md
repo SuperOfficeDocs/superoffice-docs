@@ -15,7 +15,7 @@ Utvalg, enten dynamisk eller statisk, er et godt utgangspunkt for å ta hånd om
 
 Avhengig av arkivet du ser, enten Firma/person eller de andre forskjellige typene, har du forskjellige alternativer på Oppgave-menyen. På et utvalg av personer kan du generere oppfølginger, på et prosjektvalg kan du bruke masseredigering til å angi prosjektet som fullført, eller eksportere ønsket arkiv til Excel.
 
-![img1 -screenshot][Du kan utføre mange ulike oppgaver når du jobber med utvalg]
+![Du kan utføre mange ulike oppgaver når du jobber med utvalg -screenshot][img1]
 
 Et av formålene med å definere utvalg er å utføre ulike oppgaver for medlemmene eller noen av medlemmene i utvalget. I tillegg er disse oppgavene tilgjengelige fra listen over resultater i Finn-skjermen.
 

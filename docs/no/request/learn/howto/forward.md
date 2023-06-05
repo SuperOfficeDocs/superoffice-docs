@@ -25,7 +25,7 @@ Du kan videresende en kompleks eller problematisk sak til en ekstern person i en
 
 1. Klikk på ![ikon][img4] **Videresend**-knappen, eller klikk på ![ikon][img1] **Oppgave**-menyen på meldingen du vil videresende, og velg **Videresend**. En ny melding åpnes i redigeringsmodus.
 
-    ![img3 -screenshot][Videresende en sak til en ekstern person]
+    ![Videresende en sak til en ekstern person -screenshot][img3]
 
 1. Legg til en mottaker i **Til**-feltet. Klikk på **Kopi til / Blindkopi til**-knappen (på høyre side av meldingen) for å legge til mottakere på kopi eller blindkopi.
 

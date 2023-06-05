@@ -29,7 +29,7 @@ Det er dataene som ligger bak figurene, som gjør dashbordet nyttig. Finn ut hvo
 
 Følg trinnene i denne GIF-en eller trinnene nedenfor for å se hvordan du får tilgang til dataene bak figurene:
 
-![img2 -screenshot][Vis dataene bak grafen din ved å se nærmere på dashbordet]
+![Vis dataene bak grafen din ved å se nærmere på dashbordet -screenshot][img2]
 
 1. Åpne skjermbildet **Dashbord**.
 

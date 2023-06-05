@@ -17,7 +17,7 @@ Chatfunksjonen kan settes opp med flere chatkanaler og være rettet mot ulike om
 
 Agentene har tilgang til chatfunksjonen via navigatoren i både SuperOffice CRM og SuperOffice Service.
 
-![img1 -screenshot][Chat-skjermen består av en Dashboard-fane og en Chat-fane]
+![Chat-skjermen består av en Dashboard-fane og en Chat-fane -screenshot][img1]
 
 ## Hva vil du gjøre?
 

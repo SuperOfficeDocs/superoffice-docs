@@ -15,7 +15,7 @@ language: no
 
 Ved å sette opp koblinger som leder leserne til forskjellig innhold på websiden din, kan du samle registreringer og svar og overvåke hvilke produkter, tilbud og nyheter kundene dine er interessert i.
 
-![img2 -screenshot][Legg til en kobling til utsendelsen din ved å velge en del av teksten som skal kobles, og klikke på ikonet for å sette inn kobling i tekstredigeringsprogrammet]
+![Legg til en kobling til utsendelsen din ved å velge en del av teksten som skal kobles, og klikke på ikonet for å sette inn kobling i tekstredigeringsprogrammet -screenshot][img2]
 
 Du kan også **legge til spesielle koblinger** til utsendelsen din. Da velger du rullegardinmenyen Spesielle koblinger. Avhengig av hva du ønsker å oppnå, kan du velge mellom:
 

@@ -8,7 +8,7 @@ Du kan bruke utvalg, prosjekter eller legge til enkeltpersoner i SuperOffice CRM
 
 På grunn av GDPR-lovgivningen er det bare personene som har gitt samtykke til å bli lovlig lagret i SuperOffice CRM-databasen og motta informasjon, som kan legges til som mottakere.
 
-![img3 -screenshot][Du kan legge til mottakere fra utvalg, prosjekt, én enkelt person eller en ekstern liste som du må importere]
+![Du kan legge til mottakere fra utvalg, prosjekt, én enkelt person eller en ekstern liste som du må importere -screenshot][img3]
 
 ## Legge til mottakere fra utvalg og prosjekter
 

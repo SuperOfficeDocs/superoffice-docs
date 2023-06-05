@@ -75,7 +75,7 @@ Når du klikker på en navigatorknapp, vises en eller flere av knappene nedenfor
 
 Hvis du holder musepekeren over en oppføring i noen av listene, vises en infoboks som inneholder tilleggsdata om oppføringen.
 
-![img2 -screenshot][Eksempel]
+![Eksempel -screenshot][img2]
 
 <!-- Referenced links -->
 [1]: ../../../dashboard/learn/index.md

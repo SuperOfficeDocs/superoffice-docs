@@ -27,14 +27,14 @@ Ikonet ![][img7]ikon][img7] vises foran oppfølginger som er definert som milep�
 
 Klikk på **Opprett** ved siden av oppfølgingene og dokumentene for å opprette dem. Du kan også klikke på tittelen på oppfølgingen eller dokumentet for å opprette dem.
 
-![img5 -screenshot][Opprette systemvalg i prosjektguide]
+![Opprette systemvalg i prosjektguide -screenshot][img5]
 
 > [!TIP]
 >Alle oppfølginger og dokumenter som du har opprettet for en prosjektguide, vises også på detaljkortet **Aktiviteter** i Prosjekt-bildet. Dette gir deg en oversikt over alle aktiviteter som er knyttet opp mot prosjektet – både utførte og ikke utførte aktiviteter.
 
 Når en oppfølging eller et dokument er opprettet, kan du slette eller redigere oppfølgingen/dokumentet ved å høyreklikke på tittelen og velge fra menyen som vises. På denne måten kan du også opprette en ny oppfølging eller et nytt dokument av samme type.
 
-![img6 -screenshot][Høyreklikke systemvalg i prosjektguide]
+![Høyreklikke systemvalg i prosjektguide -screenshot][img6]
 
 ## Hva vil du gjøre nå?
 

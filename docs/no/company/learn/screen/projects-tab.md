@@ -11,7 +11,7 @@ language: no
 
 # Prosjekter-fane
 
-![img1 -screenshot][Prosjekt-detaljkort i firma]
+![Prosjekt-detaljkort i firma -screenshot][img1]
 
 Detaljkortet **Prosjekter** viser alle prosjektene for det aktive firmaet. For at et prosjekt skal vises her, kreves det at minst én ansatt hos det aktuelle firmaet er registrert som prosjektdeltaker.
 

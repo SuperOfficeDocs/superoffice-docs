@@ -13,7 +13,7 @@ language: no
 
 Hold oversikt over budsjettene dine ved å sette opp salgsmål. Dette vil hjelpe deg med å fastsette de riktige forventningene, planlegge veksten din, øke motivasjonen og spare tid.
 
-![img5 -screenshot][Dialogboksen Mål gir deg en oversikt over nåværende og tidligere salgsmål]
+![Dialogboksen Mål gir deg en oversikt over nåværende og tidligere salgsmål -screenshot][img5]
 
 Mållisten kan inneholde følgende deler:
 
@@ -110,7 +110,7 @@ Avhengig av brukerrollen din (den funksjonelle rettigheten "Kan låse / låse op
 
 For å unngå å måtte definere salgsmålene på nytt fra bunnen av for en annen bruker kan du kopiere en annen brukers salgsmål slik de er (faste tall), justere målet opp eller ned med % eller angi det årlige startbeløpet.
 
-![img6 -screenshot][Tilpasse verdier for en bruker, en brukergruppe eller et firmamål]
+![Tilpasse verdier for en bruker, en brukergruppe eller et firmamål -screenshot][img6]
 
 Hvis du har lagt til verdier som ikke er riktige, eller en bruker har sluttet i firmaet, kan du velge å fjerne verdiene. Legg merke til at du ikke kan slette en bruker i en brukergruppe hvis brukeren ikke har noen salgsmål, men du kan fjerne raden.
 

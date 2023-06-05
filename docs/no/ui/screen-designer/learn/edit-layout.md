@@ -60,7 +60,7 @@ Se denne videoen og finn ut hvordan du bruker skjermdesigner til å konfigurere 
 
 4. Lagre endringene som beskrevet ovenfor.
 
-![img3 -screenshot][Fjern, legg til og flytt de forskjellige feltene i layouten]
+![Fjern, legg til og flytt de forskjellige feltene i layouten -screenshot][img3]
 
 ## Legg til nytt innhold i en layout
 

@@ -11,7 +11,7 @@ language: no
 
 # Salg-fane
 
-![img1 -screenshot][Salg-fane]
+![Salg-fane -screenshot][img1]
 
 Detaljkortet **Salg** viser [salg som er tilknyttet firmaet][2].
 

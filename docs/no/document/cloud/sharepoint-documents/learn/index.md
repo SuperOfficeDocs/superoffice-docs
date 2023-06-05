@@ -15,7 +15,7 @@ SuperOffices integrering av SharePoint-dokumentbibliotek lar deg opprette, arkiv
 
 Denne integrasjonen lar deg lagre alle dokumenter og e-poster i SharePoint Online, hvor de kan nås av alle i firmaet, også de som ikke bruker SuperOffice CRM. Tilgangen til SuperOffice-dokumentområdet i SharePoint kan styres gjennom domenegrupper (AAD = Azure active directory-autentisering).
 
-![img1 -screenshot][På Preferanser i Innstillinger og vedlikehold finner du Dokumentbiblioteket hvor du kan konfigurere SharePoint-integrasjonen]
+![På Preferanser i Innstillinger og vedlikehold finner du Dokumentbiblioteket hvor du kan konfigurere SharePoint-integrasjonen -screenshot][img1]
 
 ## Krav
 

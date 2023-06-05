@@ -11,7 +11,7 @@ language: no
 
 # Aktiviteter
 
-![img1 -screenshot][Seksjon for aktiviteter i prosjektguiden]
+![Seksjon for aktiviteter i prosjektguiden -screenshot][img1]
 
 Detaljkortet **Aktiviteter** viser alle [aktiviteter][1] som er knyttet til gjeldende prosjekt: oppfølginger (avtaler, oppgaver og samtaler) og dokumenter (inkluderer flettedokumenter, rapporter og e-post).
 

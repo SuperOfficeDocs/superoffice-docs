@@ -15,7 +15,7 @@ language: no
 
 Dette bildet viser loggen for denne saken. Alle hendelser registreres, inkludert når de oppstod, hva som skjedde, og hvem som var ansvarlig.
 
-![img1 -screenshot][Endringsloggen på en sak viser alle de forskjellige endringene som er gjort på saken]
+![Endringsloggen på en sak viser alle de forskjellige endringene som er gjort på saken -screenshot][img1]
 
 ## Aktuelle emner
 

@@ -20,7 +20,7 @@ Når du klikker på **bjelleikonet** ![icon][img1] øverst til høyre i SuperOff
 * Klikk på**Slett alt** i bunnteksten i varslingsruten for å tømme listen over varsler. Du kan også klikke på **Greit** under et varsel for å fjerne det.
 * Klikk på ![icon][img3] eller hvor som helst utenfor varslingsruten for å lukke det.
 
-![img5 -screenshot][Popup-vinduet med varsel som viser både varsler om saker og invitasjoner]
+![Popup-vinduet med varsel som viser både varsler om saker og invitasjoner -screenshot][img5]
 
 ## Saksvarsler
 

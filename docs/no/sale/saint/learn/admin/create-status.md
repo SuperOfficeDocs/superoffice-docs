@@ -18,7 +18,7 @@ language: no
 
 Du vil overvåke firmaer som du har svært få aktiviteter med, for å unngå misfornøyde kunder og kundeavgang. Med denne statusovervåkingen ser du enkelt alle kundene som må vies oppmerksomhet.
 
-![img1 -screenshot][Opprett en statusovervåking ved å klikke på Legg til-knappen på skjermen]
+![Opprett en statusovervåking ved å klikke på Legg til-knappen på skjermen -screenshot][img1]
 
 ## Trinn
 

@@ -17,7 +17,7 @@ Dashbord gir en umiddelbar oversikt over saker og statistikk for saker i SuperOf
 
 Det er vanlig å starte dagen med å få oversikt over gjeldende status for de åpne sakene i servicesystemet. Du kan for eksempel velge å vise ufordelte saker i en av figurene. På denne måten kan du få en rask oversikt over sakene som ikke er behandlet. Du vil kanskje også få en oversikt over sakene du behandler for øyeblikket, som kan presenteres i en tabell.
 
-![img1 -screenshot][Få rask oversikt over viktige tall med dashbord]
+![Få rask oversikt over viktige tall med dashbord -screenshot][img1]
 
 ## Velge innhold i figurene
 

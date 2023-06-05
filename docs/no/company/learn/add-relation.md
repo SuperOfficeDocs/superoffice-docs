@@ -20,7 +20,7 @@ language: no
 
 1. Klikk på **Legg til**-knappen under detaljkortet. Dialogboksen **Relasjon** åpnes.
 
-    ![img2 -screenshot][Dialogboksen Relasjoner]
+    ![Dialogboksen Relasjoner -screenshot][img2]
 
 1. I listeboksen **Firma** under **Aktiv** må du angi ønsket firma. Dette er obligatorisk.
 

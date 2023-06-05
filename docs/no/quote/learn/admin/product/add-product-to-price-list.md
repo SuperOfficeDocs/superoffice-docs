@@ -16,7 +16,7 @@ Når du har lagt til prislisten i SuperOffice Quote, vil du fylle den ut med pro
 
 Når produktene og produktinformasjonen er lagt til, kan selgerne bruke de samme prisopplysningene og følge rabattretningslinjene du har definert.
 
-![img2 -screenshot][Du kan legge til så mange produkter og tjenester i prislisten som du trenger]
+![Du kan legge til så mange produkter og tjenester i prislisten som du trenger -screenshot][img2]
 
 ## Trinn
 

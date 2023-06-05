@@ -17,7 +17,7 @@ Avmeldingskoblingen plasseres vanligvis nederst i en melding. Hvis du bruker en 
 
 Du bestemmer hvor denne avmeldingskoblingen vises og ordlyden i den, samt hva som skal skje når noen klikker på denne koblingen. Du kan for eksempel føre mottakerne til en «avmeldingsside» der de kan administrere preferansene sine, eller de kan automatisk bli valgt bort fra alle utsendelsene dine.
 
-![img4 -screenshot][Fra symbolet Sett inn/rediger kobling klikker du på Spesielle koblinger og legger til koblingen for å avslutte abonnementet]
+![Fra symbolet Sett inn/rediger kobling klikker du på Spesielle koblinger og legger til koblingen for å avslutte abonnementet -screenshot][img4]
 
 ## I dra og slipp-redigeringsprogrammet
 

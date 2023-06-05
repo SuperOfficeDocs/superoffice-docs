@@ -52,7 +52,7 @@ Med WebTools installert kan du begynne å opprette dokumenter fra SuperOffice
 
 1. Åpne filen i **DiskImage**, og dra og slipp app-filen i *Applikasjoner*-mappen på Mac-en
 
-    ![img2 -screenshot][Dra og slipp SuperOffice-ikonet til Applikasjoner-mappen]
+    ![Dra og slipp SuperOffice-ikonet til Applikasjoner-mappen -screenshot][img2]
 
 1. Du er klar.
 
@@ -60,7 +60,7 @@ Med WebTools installert kan du begynne å opprette dokumenter fra SuperOffice
 
 Legg til "SuperOffice WebTools" til dine "påloggingselementer" for brukere slik at den starter sammen med Mac-en.
 
-![img3 -screenshot][Legg til SuperOffice WebTools i dine påloggingselementer for å få programmet til å vises automatisk]
+![Legg til SuperOffice WebTools i dine påloggingselementer for å få programmet til å vises automatisk -screenshot][img3]
 
 ## Preferanser
 
@@ -77,7 +77,7 @@ Konfigurer innstillingene slik at de passer til dine behov:
   * Kopier personer hver [x hours]
   * Kopier personer fra ett bestemt utvalg i SuperOffice
 
-![img4 -screenshot][Angi preferansene slik at de passer til dine behov]
+![Angi preferansene slik at de passer til dine behov -screenshot][img4]
 
 ## Aktuelt innhold
 

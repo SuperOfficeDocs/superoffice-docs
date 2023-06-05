@@ -27,7 +27,7 @@ Lær hvordan du tilpasser visninger ved å konfigurere kolonner med denne korte 
 
 1. Klikk på ![icon][img1] ikoninnstillinger til høyre for kolonneoverskriften, og velg **Aktiver gruppering**.
 
-    ![img5 -screenshot][Aktiver gruppering]
+    ![Aktiver gruppering -screenshot][img5]
 
 1. Klikk på **OK**.
 
@@ -39,13 +39,13 @@ Nå vises en ny rad over kolonneoverskriftene.
 
 1. Klikk og dra en kolonneoverskrift til raden over kolonneoverskriftene.
 
-    ![img6 -screenshot][Dra en kolonneoverskrift og slipp den her for å gruppere på den kolonnen]
+    ![Dra en kolonneoverskrift og slipp den her for å gruppere på den kolonnen -screenshot][img6]
 
     Hvis du for eksempel leter etter et dokument som er koblet til en av personene som arbeider for dette firmaet, kan du dra og slippe person-kolonnen i linjen. Gjør deretter det samme for Aktivitetstype-kolonnen.
 
     Listen viser nå en rad per verdi i den valgte kolonnen. Hvis du valgte en kategorikolonne, vises hver tilgjengelige kategori i kolonnen på en egen rad. Klikk raden for å utvide gruppen og vise oppføringene.
 
-    ![img7 -screenshot][Klikk og dra kolonner for å gruppere informasjonen]
+    ![Klikk og dra kolonner for å gruppere informasjonen -screenshot][img7]
 
 1. Hvis du vil gruppere etter en annen verdi, gjentar du fremgangsmåten ovenfor. Du kan legge til så mange kolonner du vil bruke.
 
@@ -53,7 +53,7 @@ Nå vises en ny rad over kolonneoverskriftene.
 
 1. Hvis du vil fjerne en grupperingskolonne du har valgt, klikker du X bak kolonnen. Listen over poster i arkivet oppdateres umiddelbart.
 
-    ![img8 -screenshot][Trykk X for å fjerne en grupperingskolonne]
+    ![Trykk X for å fjerne en grupperingskolonne -screenshot][img8]
 
 <!-- Referenced links -->
 

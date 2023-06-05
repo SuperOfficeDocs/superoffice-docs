@@ -15,7 +15,7 @@ Når du svarer på en chat, prøver SuperOffice automatisk å finne kunden i Sup
 
 Chatsesjonen knyttes også til personen og blir tilgjengelig som en oppføring i detaljkortet **Aktiviteter** i bildene Firma og Person.
 
-![img1 -screenshot][Du kan koble en chat til en person eller et firma]
+![Du kan koble en chat til en person eller et firma -screenshot][img1]
 
 Først må du knytte kunden til en person i SuperOffice.
 

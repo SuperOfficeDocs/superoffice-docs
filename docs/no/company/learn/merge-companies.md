@@ -49,11 +49,11 @@ Hvis to firmaer i kundedatabasen velger å slå seg sammen, eller ett av firmaen
     * Alle detaljer slås sammen hvis du har valgt **Erstatt tomme felt på <målfirma> med verdier fra <kildefirma>**.
     * Kildefirmaet slettes.
 
-![img4 -screenshot][Dialogboksen Slå sammen firmaer]
+![Dialogboksen Slå sammen firmaer -screenshot][img4]
 
 [I dialogboksen Slå sammen firmaer må du velge riktig firma i Fra-feltet og Til-feltet][img5]
 
-![img6 -screenshot][Hvis du vil ha mer informasjon før du slår sammen de to firmaene, klikker du på Info-knappen på Vis resultat.]
+![Hvis du vil ha mer informasjon før du slår sammen de to firmaene, klikker du på Info-knappen på Vis resultat. -screenshot][img6]
 
 > [!TIP]
 > Du kan også slå sammen firmaer i dynamiske og statiske utvalg.

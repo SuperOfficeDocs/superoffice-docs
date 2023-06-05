@@ -13,7 +13,7 @@ language: no
 
 SuperOffice CRM er enkel å komme i gang med. Den er svært brukervennlig og har mange nye funksjoner som forenkler hverdagen din ytterligere. Både du som er ny bruker, og du som har brukt SuperOffice før, vil ha nytte av å lese denne brukerveiledningen. Den gir en oversikt over fasilitetene og funksjonene i SuperOffice CRM og forklarer hvordan programmet vil være til nytte for deg og firmaet ditt.
 
-![img1 -screenshot][Gå til din personlige innstilling, og velg innstillingen du vil endre]
+![Gå til din personlige innstilling, og velg innstillingen du vil endre -screenshot][img1]
 
 ## Om SuperOffice CRM
 

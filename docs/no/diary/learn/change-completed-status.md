@@ -19,7 +19,7 @@ Når en oppfølging regnes som avsluttet, kan du merke den som utført.
 
 1. Åpne aktiviteten og fjern merket for **Utført** øverst til høyre i dialogboksen.
 
-    ![img3 -screenshot][Endre Utført-status for en aktivitet]
+    ![Endre Utført-status for en aktivitet -screenshot][img3]
 
     Hvis du vil ha mer informasjon, kan du se [Åpne oppfølginger][1] og [Åpne dokumenter][2].
 
@@ -27,7 +27,7 @@ Når en oppfølging regnes som avsluttet, kan du merke den som utført.
 
 1. Høyreklikk på aktiviteten, og velg **Utført**.
 
-    ![img4 -screenshot][ Endre Fullført-status for en aktivitet]
+    ![Endre Fullført-status for en aktivitet -screenshot][img4]
 
 > [!NOTE]
 > Hvis du vil redigere en fullført aktivitet, må du først fjerne merket for **Fullført**-statusen.

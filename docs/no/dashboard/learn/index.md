@@ -63,7 +63,7 @@ Det finnes flere typer diagrammer:
 
 Du kan velge blant mange forhåndsdefinerte figurer for å visualisere og evaluere arbeidet ditt, med et øyeblikksbilde av aktivitetsnivåer, kundesegmenter, produktstatistikk, prosjektdetaljer og salg. Ved å tilpasse dashbordfigurene dine kan du vise grafene og oversiktene som er viktigst for deg.
 
-![img4 -screenshot][Tilpass dashbordet ditt for å gjøre det mer verdifullt for deg]
+![Tilpass dashbordet ditt for å gjøre det mer verdifullt for deg -screenshot][img4]
 
 ### Lage din egen graf for dashbordet
 

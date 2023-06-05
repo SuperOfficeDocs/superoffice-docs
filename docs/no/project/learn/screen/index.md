@@ -25,7 +25,7 @@ Den nedre delen av Prosjekt-bildet består av detaljkort.
 
 Prosjektguiden som kan tilpasses dine egne unike prosjektprosesser. Du kan kartlegge alle aktiviteter, dokumenter og milepæler i et prosjekt, noe som vil gjøre det enkelt for hele teamet å spore. Prosjektguiden vil også hjelpe deg med å overvåke gjeldende prosjektstatus og spørre hva som må gjøres til enhver tid.
 
-![img1 -screenshot][En prosjektguide vil hjelpe teamet med å ha en konstant oversikt over prosjektstatusen]
+![En prosjektguide vil hjelpe teamet med å ha en konstant oversikt over prosjektstatusen -screenshot][img1]
 
 Administratoren kan [legge til og tilpasse prosjektguider][3] for deg.
 

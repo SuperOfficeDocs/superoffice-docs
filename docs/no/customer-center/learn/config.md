@@ -15,7 +15,7 @@ language: no
 
 Du kan redigere stilen og layouten til kundesenteret og forhåndsvise endringene.
 
-![img2 -screenshot][Konfigurer chatwidgeten i kundesenteret, slik at kunder kan chatte med deg når de besøker websiden din]
+![Konfigurer chatwidgeten i kundesenteret, slik at kunder kan chatte med deg når de besøker websiden din -screenshot][img2]
 
 Hvis kundesenteret ditt er flerspråklig, kan du angi valg (for eksempel velkomsttekst, åpningstider og telefonnumre) individuelt for hvert språk.
 
@@ -30,7 +30,7 @@ Hvis kundesenteret ditt er flerspråklig, kan du angi valg (for eksempel velkoms
 
 1. I fanen **Stil** kan du tilpasse utseendet til kundesenteret: Logo, foretrukket bredde, farger og skrifttyper. Forhåndsvisningen oppdateres automatisk.
 
-    ![img3 -screenshot][Forhåndsvise kundesentersidene]
+    ![Forhåndsvise kundesentersidene -screenshot][img3]
 
 1. Gå til fanen**Innstillinger**.
 

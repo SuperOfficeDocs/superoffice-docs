@@ -24,7 +24,7 @@ Se videoen som viser hvordan du [oppretter et firma][1].
 
 1. I det tomme firmakortet skriver du inn navnet på firmaet i feltet øverst i fanen **Firma** . ***Firmanavn*** er obligatorisk og uthevet med rød tekst.
 
-    ![img1 -screenshot][Tomt firmakort]
+    ![Tomt firmakort -screenshot][img1]
 
 1. I feltet **Land** angir du firmaets land. Det riktige adresseformatet for dette landet oppdateres automatisk i fanen **Firma**. Du kan angi ditt nåværende hjemland fra **Systemet** i preferansene.
 
@@ -61,7 +61,7 @@ Se videoen som viser hvordan du [oppretter et firma][1].
 
 3. Hvis du merker av for én eller flere interesser i fanen **Interesser**, vises det en prikk ved siden av fanenavnet.
 
-    ![img2 -screenshot][Fanen Firmainteresser]
+    ![Fanen Firmainteresser -screenshot][img2]
 
 4. Når du har lagt inn ønskede opplysninger i alle tre fanene i Firma-bildet, klikker du på **Lagre**. Du har nå opprettet et eget firmakort for det nye firmaet.
 

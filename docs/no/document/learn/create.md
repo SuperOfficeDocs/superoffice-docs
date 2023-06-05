@@ -68,7 +68,7 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 
 8. Klikk på koblingen for å laste opp dokumentet, eller dra og slipp dokumentet fra Windows Utforsker til dialogboksen **Dokument**.
 
-    ![img2 -screenshot][Opprette nytt dokument]
+    ![Opprette nytt dokument -screenshot][img2]
 
 9. Lukk dialogboksen **Dokument** ved å klikke på **Lagre**.
 

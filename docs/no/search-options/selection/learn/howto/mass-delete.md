@@ -73,7 +73,7 @@ For å utføre en masseredigering av for eksempel hjemmel eller lignende, velg [
 
 Hvis du vil masseslette personer fra et utvalg, kan du velge funksjonen **Slett alle personer** fra **Oppgave**-knappen nederst til høyre på hovedskjermbildet.
 
-![img2 -screenshot][Fra Oppgave-knappen på utvalgskjermen kan du masseslette firmaer og personer]
+![Fra Oppgave-knappen på utvalgskjermen kan du masseslette firmaer og personer -screenshot][img2]
 
 [!include[Open Selections](../includes/goto-selections.md)]
 
@@ -83,7 +83,7 @@ Hvis du vil masseslette personer fra et utvalg, kan du velge funksjonen **Slett 
 
 1. Klikk på **Oppgave**-knappen og velg **Slett alle**.
 
-    ![img1 -screenshot][På utvalget klikker du på Oppgave-knappen og velger en av de ønskede Slett-funksjonene]
+    ![På utvalget klikker du på Oppgave-knappen og velger en av de ønskede Slett-funksjonene -screenshot][img1]
 
 1. Når du blir spurt om du vil slette postene, klikker du på **Ja**.
 
@@ -99,7 +99,7 @@ Selv om en slettet person eller firma umiddelbart skjules for alle brukere, er d
 
 Du finner papirkurven i menyen Personlige preferanser. Du kan se alle personene du har slettet, men også alle personene som ble slettet av andre brukere.
 
-![img3 -screenshot][Du kan gjenopprette elementer du har slettet ved å åpne papirkurven i menyen Personlige innstillinger]
+![Du kan gjenopprette elementer du har slettet ved å åpne papirkurven i menyen Personlige innstillinger -screenshot][img3]
 
 <!-- Referenced links -->
 [1]: ../../../learn/find-screen.md

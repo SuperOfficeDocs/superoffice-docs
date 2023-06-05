@@ -27,7 +27,7 @@ Studer eksemplene nedenfor for å få ideer til figurer som du kan legge til i d
 
 * Bruk figuren **Gjennomsnittlig åpningsrate YTD** til å se om mottakerne klikker på lenker eller bilder i utsendelsene dine. Hvis åpningsraten din er lav, kan det være lurt å prøve om andre overskrifter kan øke frekvensen.
 
-![img1 -screenshot][Eksempelet viser forskjellige figurer for utsendelser, som du kan bruke til å få oversikt over dataene dine]
+![Eksempelet viser forskjellige figurer for utsendelser, som du kan bruke til å få oversikt over dataene dine -screenshot][img1]
 
 ## Eksempel på forskjellige figurer for skjemainnsendinger
 
@@ -37,7 +37,7 @@ Studer eksemplene nedenfor for å få ideer til figurer som du kan legge til i d
 
 * Figuren **Ikke-behandlede innsendinger** viser hvilke innsendinger som ikke er behandlet, og som trenger din oppmerksomhet.
 
-![img2 -screenshot][Eksemplet viser ulike skjemainnsendingsfigurer du kan bruke til å få en oversikt over dataene dine]
+![Eksemplet viser ulike skjemainnsendingsfigurer du kan bruke til å få en oversikt over dataene dine -screenshot][img2]
 
 ## Relatert
 

@@ -25,7 +25,7 @@ Du kan for eksempel sende personene dine en e-post (med koblingshandlinger) der 
 
 Du kan selvfølgelig legge til et bredt utvalg av tabeller og felt i SuperOffice for å lagre all informasjon som kundeserviceagentene dine trenger.
 
-![img1 -screenshot][I Tabeller-bildet kan du enten velge å (a) opprette et ekstra felt eller (b) opprette en ny tabell]
+![I Tabeller-bildet kan du enten velge å (a) opprette et ekstra felt eller (b) opprette en ny tabell -screenshot][img1]
 
 ### Ekstratabell
 

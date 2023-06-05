@@ -15,7 +15,7 @@ Sidepanelet er et multifunksjonspanel lengst til høyre på hvert skjermbilde i 
 
 Bruk sidepanelet til å vise og bruke informasjon fra andre deler av CRM-løsningen. For eksempel for å jobbe deg gjennom lister over personer du vil ringe, salg som skal oppdateres eller salgsforslag du vil følge. Du kan velge mellom forskjellige visninger ved å klikke på ![icon][img3] pilen ved siden av sidepanelets navn.
 
-![img10 -screenshot][Sidepanelet er plassert på høyre side av SuperOffice CRM]
+![Sidepanelet er plassert på høyre side av SuperOffice CRM -screenshot][img10]
 
 > [!TIP]
 > Du kan minimere sidepanelet ved å klikke på ![icon][img4] minimere-ikonet øverst til høyre, for å få mer plass til hovedkortene og arkivene.

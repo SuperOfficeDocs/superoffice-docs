@@ -21,7 +21,7 @@ Hvis en prosjektveiledning er definert for en prosjekttype som du angir for et p
 
 1. Klikk på knappen **Opprett** foran navnet på oppfølgingen/dokumentet.
 
-   ![img1 -screenshot][Detaljkortet Prosjektguide med oversikt over statuskode Planlagt]
+   ![Detaljkortet Prosjektguide med oversikt over statuskode Planlagt -screenshot][img1]
 
 1. I dialogboksen som åpnes, oppretter du oppfølgingen/dokumentet på vanlig måte. Mange av feltene er ferdig utfylt, men du kan endre informasjonen eller legge til mer informasjon. Se [Dialogboksen Dokument][1] eller [Dialogboksen for oppfølginger][2].
 

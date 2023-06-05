@@ -73,7 +73,7 @@ Lær hvordan du tilpasser visninger ved å konfigurere kolonner med denne korte 
 
 1. Klikk på ![icon][img1] til høyre for kolonneoverskriftene, og velg **Aktiver filter**.
 
-    ![img11 -screenshot][Klikk på Innstillinger-knappen på arkivet du har valgt.]
+    ![Klikk på Innstillinger-knappen på arkivet du har valgt. -screenshot][img11]
 
 1. Klikk på **OK**.
 
@@ -85,7 +85,7 @@ Nå har alle kolonnene i arkivet ditt et traktikon bak seg.
 
 1. Klikk på traktikonet til kolonnen du vil bruke for å finne informasjonen du trenger.
 
-    ![img12 -screenshot][Du kan klikke på filterikonet på kolonnen og velge ønsket filter]
+    ![Du kan klikke på filterikonet på kolonnen og velge ønsket filter -screenshot][img12]
 
 1. I dialogboksen velger du informasjonen du leter etter. Gjør ett av følgende avhengig av typen data i kolonnen:
 
@@ -95,7 +95,7 @@ Nå har alle kolonnene i arkivet ditt et traktikon bak seg.
 
     Hvis du for eksempel leter etter et dokument som er opprettet av en av kollegene dine, velger du navnet og dokumenttypen du leter etter.
 
-    ![img13 -screenshot][Klikk på Filter for å angi det og vise det filtrerte arkivet]
+    ![Klikk på Filter for å angi det og vise det filtrerte arkivet -screenshot][img13]
 
 1. Klikk på **Filtrer**. Detaljkortet oppdateres med oppføringene som samsvarer med filteret. Filtrerte kolonner vises i fet tekst.
 

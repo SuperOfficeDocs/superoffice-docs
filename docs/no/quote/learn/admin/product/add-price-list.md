@@ -16,7 +16,7 @@ Det er ikke uvanlig å bruke ulike prislister for ulike tider på året eller fo
 
 Tilpassing av prislister hjelper selgerne dine med å bruke de riktige prisdetaljene uten å måtte kaste bort tid på å dobbeltsjekke dem. Du som administrator kan bestemme når en bestemt prisliste skal brukes, ved å bruke begrenset gyldighet.
 
-![img1 -screenshot][Du kan legge til og redigere alle prislistene dine i fanen SuperOffice-produkter]
+![Du kan legge til og redigere alle prislistene dine i fanen SuperOffice-produkter -screenshot][img1]
 
 ## Trinn
 

@@ -38,7 +38,7 @@ Hvis du svarer på en henvendelse og tenker at samme spørsmål kan komme opp ig
 
 1. Klikk på ![icon][img1] **Oppgave**-knappen og velg **Publiser til FAQ**. Du kommer til skjermbildet **Egenskaper for FAQ-oppføring**.
 
-   ![img5 -screenshot][Skjermbildet for FAQ-egenskaper]
+   ![Skjermbildet for FAQ-egenskaper -screenshot][img5]
 
 1. Rediger saksnavnet i feltet **Navn** om nødvendig.
 
@@ -101,7 +101,7 @@ Hvis du svarer på en henvendelse og tenker at samme spørsmål kan komme opp ig
 
 1. Klikk på knappen **Ny oppføring**. Du kommer til skjermbildet **Egenskaper for FAQ-oppføring**.
 
-    ![img3 -screenshot][FAQ-skjermen]
+    ![FAQ-skjermen -screenshot][img3]
 
 1. Følg fremgangsmåten ovenfor fra og med **trinn 3**.
 

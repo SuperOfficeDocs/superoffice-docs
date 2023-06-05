@@ -13,7 +13,7 @@ language: no
 
 Med denne funksjonen kan du raskt legge til en aktivitet i SuperOffice basert på avsenderen og tekstinnholdet i e-postmeldingen.
 
-![img2 -screenshot][Lagre e-posten som en aktivitet i SuperOffice CRM]
+![Lagre e-posten som en aktivitet i SuperOffice CRM -screenshot][img2]
 
 ## Trinn
 

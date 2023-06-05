@@ -23,7 +23,7 @@ Hvert firma vil ønske å bruke sine egne spesifikke emneknagger for kundeservic
 
 Som standard er det ingen emneknagger i SuperOffice CRM-løsningen. Du kan [legge til så mange nye emneknagger][4] du vil, og emneknagger som blir overflødige, kan alltid fjernes eller endres.
 
-![img2 -screenshot][Merking av saker]
+![Merking av saker -screenshot][img2]
 
 ## Legge til / fjerne emneknagger i flere saker
 

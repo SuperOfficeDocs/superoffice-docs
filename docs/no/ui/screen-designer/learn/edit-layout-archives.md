@@ -24,7 +24,7 @@ Når du har opprettet en ny layout for arkiver (detaljkort) som beskrevet i Legg
 
 Du kan legge til et nytt detaljkort på et hvilket som helst hovedkort. Avhengig av hovedkortet som er valgt, kan du legge til en ny fane med følgende innhold: Dokument, Avtale, Produkt, Prosjekt, Prosjektdeltaker, Salg, Salgsinteressent, Sak, Person og Relasjon.
 
-![img5 -screenshot][Velg innholdstypen du vil vise i detaljkortet]
+![Velg innholdstypen du vil vise i detaljkortet -screenshot][img5]
 
 <!-- markdownlint-disable MD029 -->
 
@@ -102,7 +102,7 @@ Hvis du vil redigere et eksisterende arkiv, velger du dette og redigerer de tilg
 
 1. Klikk på **OK** i dialogboksen som kommer til syne. Fanen er fjernet (skjult, men ikke slettet).
 
-![img1 -screenshot][Klikk på Oppgave og deretter Fjern fane for å fjerne eventuelle uønskede faner i detaljkortet (arkiv)]
+![Klikk på Oppgave og deretter Fjern fane for å fjerne eventuelle uønskede faner i detaljkortet (arkiv) -screenshot][img1]
 
 Du kan alltid klikke på **Gjenopprett faner** for å angre disse endringene.
 

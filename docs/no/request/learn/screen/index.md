@@ -13,7 +13,7 @@ language: no
 
 # Saksbilde
 
-![img3 -screenshot][Oversikt over saksbildet eller saksfanen]
+![Oversikt over saksbildet eller saksfanen -screenshot][img3]
 
 ## Oversikt over saker
 

@@ -13,7 +13,7 @@ language: no
 
 **Vis**-fanen på dagbokskjermbildet viser din egen dagbok med bruker-ID-en din øverst på siden.
 
-![img1 -screenshot][Dagbokskjerm, Vis-fanen]
+![Dagbokskjerm, Vis-fanen -screenshot][img1]
 
 **Vis**-fanen brukes hovedsakelig til å åpne og se på oversikter over andre brukere eller ressurser, for å finne ut når de vil være tilgjengelige, før du inviterer dem til et møte ved å [koble dem til oppfølginger][5], eller opprette oppfølginger for dem.
 

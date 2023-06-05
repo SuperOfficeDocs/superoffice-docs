@@ -13,7 +13,7 @@ language: no
 
 Hvis du ikke finner en person i SuperOffice, kan du opprette en ny person og et nytt firma i sidepanelet.
 
-![img1 -screenshot][Du kan legge til en ny person i SuperOffice CRM fra sidepanelet]
+![Du kan legge til en ny person i SuperOffice CRM fra sidepanelet -screenshot][img1]
 
 1. Klikk på **Opprett nytt firma og ny person**. Noen av feltene fylles ut med informasjon som personen har oppgitt i chatten.
 2. Fyll ut de aktuelle feltene.

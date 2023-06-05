@@ -16,7 +16,7 @@ Fanen **Måned** viser én måned om gangen. Den viser ikke klokkeslettet, men o
 > [!TIP]
 > Hvis du holder musepekeren over en oppfølging, vises en infoboks som inneholder informasjon om oppfølgingen.
 
-![img1 -screenshot][Dagbok-skjermen, fanen Måned]
+![Dagbok-skjermen, fanen Måned -screenshot][img1]
 
 Hvis du vil åpne fanen **Dag** for en bestemt dag, kan du klikke på overskriften/datoen.
 

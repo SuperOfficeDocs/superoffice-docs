@@ -13,7 +13,7 @@ language: no
 
 **Dag**-fanen viser én dag om gangen, med timeintervaller langs venstre kant.
 
-![img1 -screenshot][Dagbok-bilde, Dag-fanen]
+![Dagbok-bilde, Dag-fanen -screenshot][img1]
 
 Hvis [tidssoner][1] er aktivert, kan du bytte tidssone nederst til venstre.
 

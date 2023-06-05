@@ -11,7 +11,7 @@ language: no
 
 # Aktiviteter
 
-![img3 -screenshot][Aktiviteter i SuperOffice CRM]
+![Aktiviteter i SuperOffice CRM -screenshot][img3]
 
 ## Typer
 

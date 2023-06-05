@@ -11,7 +11,7 @@ language: no
 
 # Personer-fane
 
-![img1 -screenshot][Personer-delen for firma]
+![Personer-delen for firma -screenshot][img1]
 
 **Personer** er et av detaljkortene nederst i Firma-bildet. Det inneholder opplysninger om [ansatte hos det aktive firmaet][1]. Dobbeltklikk på et navn i listen for å åpne personen i Person-bildet.
 

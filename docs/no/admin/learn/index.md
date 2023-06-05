@@ -52,7 +52,7 @@ Du kan opprette en egen guide for hver type prosjekt eller hvert salg du bruker.
 
 Når én av fasene i guiden er fullført, vil SuperOffice CRM automatisk be om neste fase, slik at du kan planlegge neste aktivitet med en gang. Dette sørger for at du har kontroll, og at du ikke går glipp av en milepæl.
 
-![img1 -screenshot][Prosjektguide-bildet i Prosjekt gjør det enkelt å få oversikt over forløpet i prosjektet.]
+![Prosjektguide-bildet i Prosjekt gjør det enkelt å få oversikt over forløpet i prosjektet. -screenshot][img1]
 
 I Arbeidsflyt-delen kan du lage og implementere dine egne arbeidsflyter for prosjekt- og salgsguidene dine.
 

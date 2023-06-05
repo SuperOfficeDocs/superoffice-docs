@@ -42,7 +42,7 @@ Du kan skrive en e-post fra både Person-bildet og Firma-bildet. Deretter er tri
 
 ## Send
 
-![img2 -screenshot][Finn personen, høyreklikk, og velg deretter Send e-post fra menyen]
+![Finn personen, høyreklikk, og velg deretter Send e-post fra menyen -screenshot][img2]
 
 1. Send e-postmeldingen ved å klikke på en av følgende knapper:
 

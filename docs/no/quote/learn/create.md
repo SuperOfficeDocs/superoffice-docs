@@ -13,7 +13,7 @@ language: no
 
 Følg GIF-en eller trinnene nedenfor for å se hvordan du oppretter og sender et tilbud:
 
-![img1 -screenshot][Når du har klikket på knappen for å opprette et tilbud, kan du begynne å legge til produktene og tjenestene dine i tilbudet]
+![Når du har klikket på knappen for å opprette et tilbud, kan du begynne å legge til produktene og tjenestene dine i tilbudet -screenshot][img1]
 
 ## Trinn
 

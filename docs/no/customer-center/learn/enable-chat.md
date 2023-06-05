@@ -26,7 +26,7 @@ Du må [konfigurere chatwidgeten][3] før den kan legges til i kundesenteret.
 
 1. Rull nedover listen over alternativer, og merk av i ruten **Vis chat**.
 
-    ![img1 -screenshot][Aktiver kontrollprogrammet for chat i fanen Systemvalg, og velg ønsket chatkanal]
+    ![Aktiver kontrollprogrammet for chat i fanen Systemvalg, og velg ønsket chatkanal -screenshot][img1]
 
 1. Velg om chatwidgeten **Alltid** skal være tilgjengelig eller bare for **Innloggede kunder**.
 

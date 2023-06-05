@@ -18,7 +18,7 @@ Tekstfeltet øverst til høyre i SuperOffice CRM brukes til fritekstsøk.
 
 Da kan du søke i SuperOffice CRM etter tekst som brukere har lagt inn i databasen, for eksempel firmanavn, avdeling, informasjon om personer og oppfølginger. Du kan søke etter tekst fra dialogboksen **Dokumenter**, men du kan ikke søke i det faktiske innholdet av dokumenter.
 
-![img1 -screenshot][Fritekstsøk]
+![Fritekstsøk -screenshot][img1]
 
 > [!NOTE]
 > Enkelte ord ignoreres i et fritekstsøk. [!include[SM](../../learn/includes/are-defined-sm.md)]

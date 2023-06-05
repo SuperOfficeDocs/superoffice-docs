@@ -26,7 +26,7 @@ Dokumenter i biblioteket arver tillatelsen fra selve biblioteket.
   * Denne tilgangen kan ikke fjernes.
   * Derfor må du bruke en upersonlig konto for å opprette et SharePoint-område for SuperOffice-dokumenter.
 
-![img1 -screenshot][Gi de forskjellige tillatelsene på områdenivå i SharePoint, husk at dokumenteierne trenger Full kontroll]
+![Gi de forskjellige tillatelsene på områdenivå i SharePoint, husk at dokumenteierne trenger Full kontroll -screenshot][img1]
 
 ## Relatert
 

@@ -29,7 +29,7 @@ Gjør ett av følgende:
 
 Den enkleste måten å søke etter saker på er å bruke søkefeltet som er tilgjengelig i menyen for den første fanen **Finn sak** på Saker-bildet.
 
-![img3 -screenshot][Søke etter saker]
+![Søke etter saker -screenshot][img3]
 
 * **Siste saker**: Viser sakene som sist ble registrert i systemet. Hvis det er angitt i brukerinnstillingene, inneholder denne listen bare saker fra de kategoriene som du er medlem av.
 

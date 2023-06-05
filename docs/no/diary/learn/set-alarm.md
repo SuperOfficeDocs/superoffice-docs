@@ -13,7 +13,7 @@ language: no
 
 SuperOffice CRM kan varsle deg før møtet er i ferd med å starte. Når det er tid for å starte møtet, dukker det opp et varsel. Hvis det er et videomøte, kan du starte videomøtet ved å klikke på varslingsvinduet.
 
-![img2 -screenshot][Du kan stille inn en alarm slik at du får et varsel før møtet begynner]
+![Du kan stille inn en alarm slik at du får et varsel før møtet begynner -screenshot][img2]
 
 ## Å bli varslet om en oppfølging på forhånd
 

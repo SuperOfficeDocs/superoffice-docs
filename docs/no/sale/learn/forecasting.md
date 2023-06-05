@@ -23,23 +23,23 @@ Når du [oppretter et dashbord][1], kan du velge blant et bredt spekter av forh�
 
 **Min prognose**-figurene hjelper deg med å holde oversikten ved å vise avsluttede og åpne salg for forrige måned, denne måneden og neste måned.
 
-![img1 -screenshot][Eksempel på Min prognose-figur]
+![Eksempel på Min prognose-figur -screenshot][img1]
 
 De forskjellige **Enkelt tall**-figurene gir deg en oversikt over pipelinen din med reelle salgstall og salgsverdier. Så du vil alltid vite den nøyaktige verdien av det du jobber med.
 
-![img2 -screenshot][Eksempel på Enkelt tall-figur]
+![Eksempel på Enkelt tall-figur -screenshot][img2]
 
 Figuren **Største kommende salg** lar deg se alle salgene dine ordnet etter verdi, og hjelper deg med å prioritere tiden.
 
-![Eksempel på Mitt største kommende salg-figur – skjermbilde][img3]
+![Eksempel på Mitt største kommende salg-figur –screenshot][img3]
 
 Figuren **Mitt aktivitetstempo** lar deg se aktivitetene dine sortert etter type. Dataene hjelper deg med å identifisere om du bruker for mye eller for lite tid på bestemte aktiviteter.
 
-![img4 -screenshot][Eksempel på Mitt aktivitetstempo-figur]
+![Eksempel på Mitt aktivitetstempo-figur -screenshot][img4]
 
 Figuren **Salg hittil i år sammenlignet med forrige år for min gruppe** er en fin måte å holde øye med om teamets salg vokser.
 
-![img5 -screenshot][Eksempel på figuren Salg hittil i år sammenlignet med forrige år for min gruppe]
+![Eksempel på figuren Salg hittil i år sammenlignet med forrige år for min gruppe -screenshot][img5]
 
 ## Bruke rapporter til å forutsi salg
 
@@ -47,7 +47,7 @@ Figuren **Salg hittil i år sammenlignet med forrige år for min gruppe** er en 
 
 Det er mange standardrapporter å velge mellom – som Reelle salg, Forventede salg og Salg med fortjeneste. Hver rapport gir deg en rask prognose basert på den registrerte informasjonen i SuperOffice CRM.
 
-![img6 -screenshot][Tre trinn for å få tilgang til rapportene dine i Salg]
+![Tre trinn for å få tilgang til rapportene dine i Salg -screenshot][img6]
 
 ### Trinn
 
@@ -72,7 +72,7 @@ Eksempler:
 
 For at du skal komme i gang, inneholder Finn-bildet noen ferdige søkemaler kalt **vanlige søk**. Disse søkene inkluderer oversikter som viser dine salgsmuligheter og aktiviteter for inneværende måned, samt for månedene fremover. Det er også et utvalg av alle salg som har blitt glemt. Klikk på **Finn**-knappen for å starte.
 
-![img7 -screenshot][Vanlige søk lar deg velge fra en liste over ferdige søk for å starte søket]
+![Vanlige søk lar deg velge fra en liste over ferdige søk for å starte søket -screenshot][img7]
 
 ### Eksempel
 
@@ -82,7 +82,7 @@ For å demonstrere hvordan du kan bruke Finn-funksjonen til salgsprognoser, vise
 
 2. Klikk på Finn salg for å åpne et nytt søk relatert til salg.
 
-    ![img8 -screenshot][Klikk på Finn salg for å åpne et nytt salgsrelatert søk]
+    ![Klikk på Finn salg for å åpne et nytt salgsrelatert søk -screenshot][img8]
 
 3. Her kan du endre de forhåndsdefinerte feltene med nye inndata, slette unødvendige kriterier helt, eller klikke på Legg til-knappen for å legge til et nytt søkekriterium.
 
@@ -92,7 +92,7 @@ For å demonstrere hvordan du kan bruke Finn-funksjonen til salgsprognoser, vise
 
 6. Legg til verdien som må oppfylles. I dette tilfellet større enn € 5000. Klikk på det tredje feltet, og legg til 5000.
 
-    ![img9 -screenshot][Endre de forhåndsdefinerte feltene med nye inndata, eller slett unødvendige kriterier helt]
+    ![Endre de forhåndsdefinerte feltene med nye inndata, eller slett unødvendige kriterier helt -screenshot][img9]
 
 7. Gjenta prosessen for å legge til flere kriterier.
 

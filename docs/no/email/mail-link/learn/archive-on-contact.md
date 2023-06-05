@@ -13,7 +13,7 @@ language: no
 
 Det er mulig å arkivere en e-post (inkludert eventuelle vedlegg) i innboksen til e-postklienten på firma/person i SuperOffice CRM. Dette er en praktisk måte å lagre informasjon du mottar via e-post sammen med annen firma-/personinformasjon i SuperOffice CRM.
 
-![img1 -screenshot][I Outlook velger du Arkiver e-post-knappen, og hvis e-postadressen er lagret i SuperOffice CRM, legges feltet for firma og person automatisk til]
+![I Outlook velger du Arkiver e-post-knappen, og hvis e-postadressen er lagret i SuperOffice CRM, legges feltet for firma og person automatisk til -screenshot][img1]
 
 ## Trinn
 

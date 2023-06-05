@@ -51,7 +51,7 @@ Eksempler:
 
 Når du har slettet noe som ikke var ment å bli slettet for firmaer og personer, kan du fortsatt gjenopprette dem fra papirkurven. Dette gjør det mindre skummelt å slette, når du vet at du fortsatt har et alternativ for gjenoppretting.
 
-![img3 -screenshot][Du kan gjenopprette slettede elementer fra papirkurven i menyen Personlige innstillinger]
+![Du kan gjenopprette slettede elementer fra papirkurven i menyen Personlige innstillinger -screenshot][img3]
 
 Slettede firma og personer oppbevares som standard i papirkurven i 14 dager. Etter denne perioden slettes de permanent.
 
@@ -67,7 +67,7 @@ Du har også muligheten til å gjenopprette andre brukeres slettede firma og per
     * Gjenoppretting av et firma gjenoppretter også alle personene som er tilknyttet dette firmaet.
     * Gjenoppretting av en person der firmaet også ble slettet, vil gjenopprette firmaet og den valgte personen.
 
-    ![img2 -screenshot][Gjenopprette firma og personer fra papirkurven]
+    ![Gjenopprette firma og personer fra papirkurven -screenshot][img2]
 
 5. Klikk på **Gjenopprett**. Firmaene og personene gjenopprettes i SuperOffice.
 
