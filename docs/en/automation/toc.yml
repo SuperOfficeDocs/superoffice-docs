@@ -67,6 +67,8 @@ items:
       href: webhook/security.md
     - name: CRMScript event handlers
       href: webhook/crmscript-handlers.md
+    - name: Troubleshooting
+      href: webhook/troubleshooting.md
     - name: Event Reference
       items:
       - name: Activity events
