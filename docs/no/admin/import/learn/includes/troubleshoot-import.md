@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 **Mange personer vises uten ikon. Betyr dette at de ikke importeres?**
 
 Rader uten ikon blir ikke importert. Hvis du ser at mange personer ikke blir importert, kan det skyldes at de ikke er tilknyttet et firma. Da kan du gjøre ett av følgende:

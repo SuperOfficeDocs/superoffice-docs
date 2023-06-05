@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 * Fanen **Firma** i Firma-skjermen
 * Fanen **Person** på personkortet
 * Fanen **Prosjekt** i Prosjekt-bildet

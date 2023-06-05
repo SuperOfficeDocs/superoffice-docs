@@ -19,5 +19,4 @@ Du kan åpne en tidligere registrert oppfølging ved å dobbeltklikke på den:
 * I de ulike fanene i Dagbok-bildet.
 <!-- markdownlint-restore -->
 
-
 Du får da opp dialogboksen **Avtale**, **Oppgave** eller **Samtale**, avhengig av type oppfølging.

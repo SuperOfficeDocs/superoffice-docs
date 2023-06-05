@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 1. **Prosjektnavn:** Skriv inn navnet på firmaet i feltet øverst i fanen **Prosjekt**. ***Prosjektnavn*** vises med rødt for å angi at dette er et obligatorisk felt.
 
     Hvis du forsøker å opprette et prosjekt med [samme eller lignende navn][5] som et eksisterende prosjekt, får du opp dialogboksen **Duplikater**. Denne fungerer på samme måte som for firmaer.

@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 1. Åpne Utvalg-skjermbildet:
 
     * Ved å klikke på **Utvalg**-knappen i navigatoren.

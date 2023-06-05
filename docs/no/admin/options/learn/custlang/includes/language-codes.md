@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 | Språk | Kode |
 |---|:-:|
 | Kinesisk (forenklet) | CN |

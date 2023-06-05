@@ -16,7 +16,6 @@ Opprett dashbord for markedsføringsoppgavene dine, for eksempel skjemainnsendin
 Når dashbordet er opprettet, må du legge til og redigere figurer.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/lz9rEZI_2SY]
 
 Studer eksemplene nedenfor for å få ideer til figurer som du kan legge til i dashbordet for utsendelse eller skjemainnsending.

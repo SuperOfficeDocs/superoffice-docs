@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 > [!NOTE]
 > Hvis du vil ha informasjon om **tilbudsmaler**, kan du [klikke her][1].
 

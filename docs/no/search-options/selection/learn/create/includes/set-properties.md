@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 1. I feltet **Eier** vises pålogget bruker automatisk.
 
     Når du har lagret et nytt utvalg, kan du endre eier ved å [redigere utvalget][1]. I praksis betyr det at du overfører det fra deg selv og til noen andre. Hvis du vil redigere et utvalg, må du enten være eier eller ha administratortilgang, eller du må ha redigeringstilgang via preferansen **Funksjoner**.

@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Gå til ønsket person på Person-skjermen. (Se [Bruke Finn-skjermbildet][1].)
 
 <!-- Referenced links -->

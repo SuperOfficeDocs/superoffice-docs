@@ -18,7 +18,6 @@ Hvis du ikke allerede har gjort det, kan du finne ut hvordan du konfigurerer en 
 Se denne videoen for å lære hvor enkelt det er å bruke salgsguiden (videolengde – 1:24):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/IyETjAtn3po]
 
 ## Atferd når et salg har en guide

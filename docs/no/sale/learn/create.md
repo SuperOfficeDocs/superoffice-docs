@@ -16,7 +16,6 @@ I Salg-bildet kan du registrere informasjon om salg på flere nivåer, represent
 Finn ut hvordan du registrerer og oppdaterer et salg, i denne videoen, eller følg trinnene nedenfor (videolengde – 2:10):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/7Am9pqMyHSA]
 
 ## Trinn

@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 * Begynner med
 * Inneholder
 * Slutter med

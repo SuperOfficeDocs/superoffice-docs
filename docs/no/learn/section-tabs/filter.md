@@ -24,7 +24,6 @@ Flere filtre kan være aktive samtidig. Hvis et detaljkort ikke viser de forvent
 Lær hvordan du tilpasser visninger ved å konfigurere kolonner med denne korte videoen, eller les instruksjonene nedenfor (videolengde - 2:10):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/HYYI4ZCl4S4]
 
 ## Systemvalg

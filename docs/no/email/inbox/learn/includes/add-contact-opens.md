@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 ## Åpnes dialogboksen Legg til person i SuperOffice?
 
 Dette kan bety ett av følgende:

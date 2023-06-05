@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Etter at du har opprettet mållisten din, forberedt utsendelsen og testet den, har du endelig kommet til den spennende delen – det er på tide å sende utsendelsen.
 
 I det siste trinnet, **Bekreft**, kan du vise et sammendrag av utsendelsen og bekrefte at den er korrekt. Eventuelle feilmeldinger som vises i dette bildet, må løses før utsendelsen kan sendes. Alternativene for sending deaktiveres hvis det er ufullstendige trinn eller manglende informasjon i utsendelsen. Disse indikeres med rødt.

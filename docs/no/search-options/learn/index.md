@@ -102,7 +102,6 @@ Vanlige søk hjelper deg å komme i gang og opprette ditt eget søk etter CRM-da
 Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved å legge til nye søkekriterier, eller følg den trinn-for-trinn-veiledningen nedenfor (videolengde – 3:01):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
 
 [Les mer][6]
@@ -128,7 +127,6 @@ Det finnes tre måter å lagre søkeresultatene på som utvalg:
 Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du kan opprette et søk og lagre det som et dynamisk utvalg (videolengde - 1:26):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/b1YsCcHwz-o]
 
 ## Aktuelt innhold

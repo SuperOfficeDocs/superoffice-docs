@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Slik konfigurerer du en ERP-tilkobling for den nettbaserte versjonen av SuperOffice:
 
 1. Gå til [https://online.SuperOffice.com/AppStore][1].

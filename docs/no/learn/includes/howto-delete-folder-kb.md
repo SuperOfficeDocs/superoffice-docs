@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Når du er klar til å slette selve mappen:
 
 1. Gå til ønsket mappe.

@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Det første trinnet når du skal lage en utsendelse for e-post, kalles **Oppsett**. Her kan du angi informasjonen i meldingshodet, slik som avsender, svaradresse og emne. Du kan også legge til vedlegg, angi arkiveringsalternativer for utsendelsen og velge sporingsalternativer.
 
 1. Skriv inn et navn i feltet **Navn på utsendelse**.

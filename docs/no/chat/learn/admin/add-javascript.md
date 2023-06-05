@@ -18,7 +18,6 @@ Hvis du vil gjøre chatfunksjonen tilgjengelig for kundene, må du legge til Jav
 Nå som du har [konfigurert chatwidgeten][1], viser dette trinnet hvordan du legger den til på websiden din. Se denne videoen for å finne ut hvordan du legger til chatwidgeten på websiden din (videolengde – 2.04):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
 
 ## Trinn

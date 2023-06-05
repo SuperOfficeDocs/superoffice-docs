@@ -27,7 +27,6 @@ Skjemainnsendinger med statusen **Innsendt** må behandles manuelt. Dette inneb�
 Se denne videoen (eller følg den trinnvise veiledningen nedenfor) for å lære hvordan du kan behandle et innsendt webskjema manuelt (videolengde – 4:30), eller følg trinnene nedenfor.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/XtdkUwIXkww]
 
 ## Trinn

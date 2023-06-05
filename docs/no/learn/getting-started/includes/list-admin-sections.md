@@ -1,6 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
 
-
 * [Lisenser][25]
 * [Brukere][26]
 * [Roller][27]

@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 | Ikon | Alternativ | Beskrivelse |
 |:-:|---|---|
 | ![ikon][img1] | Bare i utvalg 1 | Viser oppføringer som finnes i utvalg 1, og ekskluderer oppføringer som finnes i både utvalg 1 og 2. |

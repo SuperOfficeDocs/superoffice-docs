@@ -35,7 +35,6 @@ Hvis du vil konfigurere SharePoint som ditt dokumentbibliotek i SuperOffice, tre
 ## Komme i gang
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/8mIo3Yac2QI]
 
 ## Relatert

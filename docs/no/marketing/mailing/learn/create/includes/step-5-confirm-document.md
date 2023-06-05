@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 > [!NOTE]
 >Dokumentutsendelser sendes i realiteten ikke når du klikker på **Send nå**. Det genereres et PDF-dokument som inneholder alle sidene for alle personer/firmaer du har valgt som mottakere i utsendelsen. Du kan [åpne og skrive ut](#open-and-print-the-document) PDF-dokumentet fra bildet **Vis utsendelse**.
 

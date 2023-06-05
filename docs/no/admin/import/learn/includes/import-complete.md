@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Når importen er fullført, vises to lister:
 
 * Nye firmaer og personer som ble importert.

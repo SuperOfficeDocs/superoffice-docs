@@ -18,7 +18,6 @@ I Dashbord-bildet kan du ha flere dashbordfaner, slik at du kan vise så mange d
 Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du legger til nye faner på dashbordet i SuperOffice CRM (videolengde – 4.29):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
 
 1. Åpne skjermbildet **Dashbord**.

@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Her kan du legge inn informasjonen du måtte ønske. Innholdet i dette feltet er søkbart via [fritekstsøk][1].
 
 <!-- Referenced links -->

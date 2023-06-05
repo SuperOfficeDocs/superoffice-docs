@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 1. Hvis firmaet for eksempel er en organisasjon med flere avdelinger, kan du angi en avdeling i feltet **Avdeling**.
 
 2. Hvilke adressefelt som er tilgjengelig, er avhengig av hvilket land som er valgt. Standardinnstillingen er landet som organisasjonen din hører hjemme i.

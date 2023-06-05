@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 På det andre trinnet, **Mal**, må du bestemme hvordan utsendelsen skal se ut. Dette gjør du ved å velge en eksisterende mal, en tidligere utsendelse eller en mal fra det elektroniske arkivet.
 
 En god [meldingsmal][1] støtter ikke bare meldingen din, men ser også bra ut på alle enheter. Hvis du vil sikre ensartet e-postdesign på tvers av hele selskapet, er det best å bruke en mal. Meldingsmalen vil gi deg selskapets særpreg med riktige skrifttyper, farger, plattformer på sosiale medier og generelt utseende på utsendelsen.

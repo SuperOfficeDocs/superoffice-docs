@@ -18,13 +18,11 @@ Tilpass layouten for hovedkortene og arkivene slik at den samsvarer med organisa
 Se denne videoen og finn ut hvordan du bruker skjermdesigner til å konfigurere skjermbildene i SuperOffice CRM, eller følg trinn-for-trinn-veiledningen nedenfor (videolengde – 6:41):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
 
 ## Trinn
 
 <!-- markdownlint-disable MD029 -->
-
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
 <!-- List starts in the include. Next line MUST be 3. -->
 
@@ -42,7 +40,6 @@ Se denne videoen og finn ut hvordan du bruker skjermdesigner til å konfigurere 
     * **Lagre + Publiser**: Klikk denne knappen for å publisere layouten til de valgte brukergruppene.
     * **Avbryt**: Klikk på denne knappen for å [forkaste alle endringer](#undo-changes).
 <!-- markdownlint-restore -->
-
 
 ## Rediger eksisterende felt i layouten
 

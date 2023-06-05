@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 1. Angi salgsbeløpet.
 
 2. Velg salgsvaluta (hvis dette alternativet er aktivert).

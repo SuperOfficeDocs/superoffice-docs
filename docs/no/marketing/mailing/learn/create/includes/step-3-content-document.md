@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 I trinnet **Innhold** kan du redigere utseendet på og innholdet i dokumentet.
 
 1. Klikk på knappen **Rediger**.

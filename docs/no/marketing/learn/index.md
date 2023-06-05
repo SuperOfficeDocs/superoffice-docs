@@ -23,7 +23,6 @@ Ved hjelp av SuperOffice Marketing kan du opprette følgende:
 Se denne produktomvisningen på video og få en introduksjon til funksjonene i SuperOffice Marketing (videolengde – 2:31):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
 
 ## Om utsendelser

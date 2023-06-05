@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 | Ikon | Forklaring | Løsning |
 |:-:|---|---|
 | ![ikon][img1] | OK | - |

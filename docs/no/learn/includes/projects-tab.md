@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 I kolonnene på detaljkortet **Prosjekt** finner du følgende informasjon:
 
 * Hake som angir om prosjektet er fullført.

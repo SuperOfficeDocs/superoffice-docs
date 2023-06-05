@@ -20,7 +20,6 @@ Du kan åpne og vise eksisterende dokumenter fra følgende steder:
 * Søkeresultatene i **Dokument**-fanen på skjermbildet **Finn**.
 <!-- markdownlint-restore -->
 
-
 Du kan åpne et dokument i [redigeringsmodus eller i lesemodus][1]. Når du åpner dokumentet i redigeringsmodus, er det bare du som kan redigere det. Andre brukere kan åpne dokumentet i lesemodus.
 
 > [!NOTE]

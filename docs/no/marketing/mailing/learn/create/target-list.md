@@ -47,7 +47,6 @@ GDPR (General Data Protection Regulation) er den digitale personvernforordningen
 Se denne videoen for å finne ut mer om hva GDPR er:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/watch?v=S0aTpvBmVnY]
 
 Ikke bare er GDPR en lov, men det er også en flott mulighet du kan bruke til å lage svært målrettede markedsføringskampanjer til folk som er engasjert i merkevaren din. På denne måten øker sjansene dine for å skaffe nye kunder eksponentielt!

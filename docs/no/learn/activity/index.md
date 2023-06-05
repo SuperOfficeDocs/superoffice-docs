@@ -59,7 +59,6 @@ Tabellen nedenfor illustrerer de ulike aktivitetstypene:
 </table>
 <!-- markdownlint-restore -->
 
-
 ## Hvor finner jeg aktiviteter?
 
 | Sted | Beskrivelse | Les mer |

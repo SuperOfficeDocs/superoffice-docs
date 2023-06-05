@@ -14,7 +14,6 @@ language: no
 Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du oppretter et prosjekt (videolengde – 2:49):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/zLJwNll223w]
 
 ## Trinn

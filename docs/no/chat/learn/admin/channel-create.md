@@ -18,7 +18,6 @@ Du kan opprette chatkanaler for bestemte formål, som teknisk støtte, produkthe
 Se denne videoen for å finne ut hvordan du konfigurerer kontrollprogrammet for chat (videolengde – 4.37):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/94uhmeP1Xig]
 
 ## Trinn

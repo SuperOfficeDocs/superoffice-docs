@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 * **Overskrift**: Overskriften settes automatisk inn i dette feltet. Du kan imidlertid redigere teksten.
 * **Firma**: Søk etter et firma ved å begynne å skrive inn firmanavnet eller velge et firma i listen.
 * **Person**: Velg en person i listen. Du kan også søke ved å begynne å skrive inn personnavnet.

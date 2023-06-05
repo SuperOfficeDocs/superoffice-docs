@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Som standard er alle kolonnene med firmaer/personer fra den aktuelle e-postapplikasjonen (Outlook eller Gmail) koblet til et SuperOffice-felt, men du kan eventuelt:
 
 * klikke på en kolonneoverskrift og redigere SuperOffice-feltet som dataene i kolonnen skal importeres til.

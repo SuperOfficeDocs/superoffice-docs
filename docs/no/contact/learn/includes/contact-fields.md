@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 > [!TIP]
 > I feltet **Land** legger du inn personens land. Det riktige adresseformatet for adressefeltet oppdateres automatisk. Du kan angi ditt nåværende hjemland fra **System** i [preferansene][1].
 

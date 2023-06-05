@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Gå til Innstillinger og vedlikehold, og velg deretter ![ikon][img1] **Systemvalg**.
 
 <!-- Referenced images -->

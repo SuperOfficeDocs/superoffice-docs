@@ -25,7 +25,6 @@ Administratorer har ansvaret for å gi nye brukere en brukerplan, et brukernavn,
 Følg trinnene eller se videoen nedenfor for å se hvordan du legger til en ny bruker i SuperOffice CRM (videolengde – 1.46):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/oLlfTrCAqCU]
 
 ## Legge til en ny SuperOffice CRM-bruker

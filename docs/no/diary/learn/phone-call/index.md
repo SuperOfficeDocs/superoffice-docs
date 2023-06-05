@@ -29,7 +29,6 @@ Samtaler kan vises på følgende steder i SuperOffice CRM:
 * I disse sidepanelvisningene: **Dag**, **Måned**, **Neste dag** og **Uke**.
 <!-- markdownlint-restore -->
 
-
 ## Hva vil du gjøre?
 
 * [Registrere samtaler][2]

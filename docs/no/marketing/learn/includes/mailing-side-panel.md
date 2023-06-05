@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 | Ikon | Navn | Funksjon |
 |:-:|---|---|
 | ![ikon][img1] | Innhold | Denne delen inneholder ulike innholdstyper, for eksempel kolonner, tekstområder, bilder, menyer/knapper og SoMe-koblinger. Dra og slipp innhold fra denne delen til meldingen. [Klikk på innholdet for å redigere][1] det i sidepanelet. |

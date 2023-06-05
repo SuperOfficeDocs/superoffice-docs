@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 | Ikon | Tilstand |
 |:-:|---|
 | ![ikon][img1] | ![ikon][img2] | Utkast / Utkast – ikke kalkulert |

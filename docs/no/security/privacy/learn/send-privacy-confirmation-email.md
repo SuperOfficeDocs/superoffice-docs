@@ -20,7 +20,6 @@ Ved å bruke integrerte skjemaer som finnes i CRM-løsningen din, kan du samle i
 Denne videoen viser deg hvordan du oppretter et grunnleggende webskjema og legger det til på websiden din (videolengde - 7:49):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
 
 ## Send automatiske e-postbekreftelser

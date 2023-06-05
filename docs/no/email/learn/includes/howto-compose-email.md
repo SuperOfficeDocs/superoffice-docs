@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 1. Velg **Ny** > **E-post**.
 
 2. I **E-post**-dialogboksen klikker du i **Til**-feltet og begynner å skrive navnet på personen du vil sende meldingen til.

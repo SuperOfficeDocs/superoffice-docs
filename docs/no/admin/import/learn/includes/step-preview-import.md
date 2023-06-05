@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 1. Klikk på **Neste**. **Forhåndsvisning**-vinduet vises.
 
 1. I **Forhåndsvisning** kan du se gjennom importdataene før importen starter.

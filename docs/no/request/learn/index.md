@@ -24,7 +24,6 @@ Hvert spørsmål kan defineres som en sak. Det kan være alt fra brukerstøttesp
 <!--Brand new to request management in SuperOffice? Start off with this short product tour to get an introduction to what you can expect (video length - 2:52): -->
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 <!-- > [!Video https://www.youtube.com/embed/2mRyStK5xPs] -->
 
 ## <a id="open" />Hvor får jeg tilgang til saker?

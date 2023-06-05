@@ -18,7 +18,6 @@ Du kan enten lage ditt eget skjema fra bunnen av, bruke en mal fra skjemamalene 
 Se denne videoen for å lære hvordan du kan opprette et webskjema (videolengde – 7:49), eller følg fremgangsmåten nedenfor.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
 
 ## Opprette nytt
@@ -133,7 +132,6 @@ Bruk av dobbel opt-in-funksjonen vil garantere at folk sender inn riktig e-posta
 Se denne videoen for å lære hvordan du bruker funksjonen for dobbel opt-in på webskjemaet ditt (videolengde - 3:45), eller følg trinnene nedenfor.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
 
 **Trinn:**
@@ -163,7 +161,6 @@ Effekten vil være oppløftende - en "Takk" -side vil både heve kundeopplevelse
 Se denne videoen for å lære hvordan du legger til en "Takk"-side i webskjemaet (videolengde - 1:48), eller følg trinnene nedenfor.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
 
 Velg ett av følgende alternativer:

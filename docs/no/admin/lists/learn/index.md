@@ -56,7 +56,6 @@ Ta en titt på disse listene for å se om du vil endre dem:
 Se denne videoen for å se hvordan du kan redigere salgslistene dine, slik at de passer til måten du arbeider på. Eksemplet som brukes i denne videoen, er Firma - Kategori-listen, som har lignende oppsett som Salg - Fase (videolengde – 02.05):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
 
 ## Aktuelle emner

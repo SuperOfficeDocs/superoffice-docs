@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 > [!TIP]
 > Hvis du vil ha mer informasjon, kan du se [Slette elementer i SuperOffice CRM][1].
 

@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 1. Velg de aktuelle personene i listen.
 2. Klikk på ![icon][img2] menyknappen .
 3. Klikk på **Legg til i nytt utvalg** eller **Legg til i nytt prosjekt**.

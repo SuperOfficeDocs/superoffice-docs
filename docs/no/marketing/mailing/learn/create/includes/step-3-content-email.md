@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 I trinnet **Innhold** kan du redigere utseendet til og innholdet i e-posten og legge til koblinger og bilder.
 
 Redigeringsprogrammet for utsendelser gir deg fleksibilitet og frihet til å designe utsendelsene dine akkurat slik du vil ha dem.

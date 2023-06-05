@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Når du oppretter en utsendelse, må du velge mottakerne av utsendelsen. Du kan legge til mottakere fra flere kilder. I tillegg kan du her angi ulike utsendelsesalternativer og forhåndsvise utsendelsen.
 
 Mållisten er gruppen med personer du tror vil reagere best på meldingen din. Hvis du skreddersyr markedsføringsmeldingen din spesifikt til den gruppen, får du en større sjanse til å lykkes og unngår å kaste bort tid og krefter på folk som ikke er interessert.

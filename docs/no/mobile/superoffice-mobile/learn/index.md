@@ -16,7 +16,6 @@ so.client: mobile
 Mobile CRM gir deg tilgang til hele SuperOffice' CRM-system på smarttelefonen eller nettbrettet.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/IPJHqn0THTY]
 
 ## Grunnleggende funksjoner

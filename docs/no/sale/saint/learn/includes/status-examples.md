@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 ## Firmaer/personer
 
 | Navn på status | Kriterier | Forklaring | Oppgave |

@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Velg ![ikon][img1] **Brukere** i navigatoren.
 
 <!-- Referenced images -->

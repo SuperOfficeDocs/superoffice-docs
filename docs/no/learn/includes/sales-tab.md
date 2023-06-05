@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 I kolonnene på detaljkortet **Salg** finner du følgende informasjon:
 
 * ![icon][img1]: en avmerkingsboks som viser om salget er fullført

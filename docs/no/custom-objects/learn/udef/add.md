@@ -16,7 +16,6 @@ language: no
 Se denne videoen for å finne ut hvordan du kan opprette dine egne ekstra felt i SuperOffice CRM (videolengde – 2.51):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/SpeZVxpxeMM]
 
 ## Trinn

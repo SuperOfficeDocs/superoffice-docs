@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 * Legg inn telefonnumre og faksnumre i de respektive feltene. Hvis du klikker på telefonikonet ved siden av feltene, kan du ringe personen direkte, hvis telefonsystemet og SuperOffice CRM er konfigurert riktig.
 
 * I feltet **Webside** kan du legge inn adressen til personens webside eller personens side på for eksempel LinkedIn, Facebook eller Twitter. Legg inn URL-adressen og en tittel for siden.

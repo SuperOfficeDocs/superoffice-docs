@@ -18,7 +18,6 @@ Ved å administrere salgsmulighetene dine effektivt kan du inngå flere avtaler.
 Se denne videoen, og se hvor enkelt det kan være å forfølge salgsmuligheter med SuperOffice CRM (videolengde – 2:16):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/VTgBzMk_qvk]
 
 **Salg**-bildet inneholder informasjon om salgene som er registrert i SuperOffice CRM. Hvert salg vises som et arkivkort som viser all informasjon om salget.

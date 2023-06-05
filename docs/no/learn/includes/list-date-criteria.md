@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 * Før
 * Er lik
 * Etter

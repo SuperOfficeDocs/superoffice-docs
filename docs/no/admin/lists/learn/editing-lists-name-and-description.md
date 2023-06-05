@@ -32,7 +32,6 @@ Når en person registreres i SuperOffice CRM, kan vedkommende abonnere på marke
 Se denne videoen for å finne ut hvordan du legger til og redigerer abonnementstyper (videolengde – 2.00):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/tBtLjFKnBj4]
 
 <!-- Referenced links -->

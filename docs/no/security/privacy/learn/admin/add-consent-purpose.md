@@ -14,7 +14,6 @@ language: no
 Se denne videoen og finn ut hvordan du legger til og redigerer formål for behandling av personopplysninger, aktiverer standardinnstillinger for hjemmelen og aktiverer personverninnstillingene for e-markedsføring i utsendelser (videolengde - 4:59):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
 
 ## Trinn

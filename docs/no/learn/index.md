@@ -21,7 +21,6 @@ Organiser alle markedsførings-, salgs- og kundeserviceaktivitetene dine på ett
 Se denne videoen for å få en rask oversikt over hva SuperOffice CRM kan gjøre for firmaet ditt (videolengde – 2:15):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/10VQCTgxODc]
 
 ## SuperOffice CRM – kjernesystem

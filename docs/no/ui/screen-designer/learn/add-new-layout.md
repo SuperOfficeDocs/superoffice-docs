@@ -25,13 +25,11 @@ Hvis brukerstøtteteamet for eksempel sjelden bruker firmaadressen når de kommu
 Se denne videoen, og finn ut hvordan du legger til et nytt layout, eller følg trinn-for-trinn-veiledningen nedenfor (videoen starter på 5:37):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
 
 ### Trinn
 
 <!-- markdownlint-disable-file MD029 -->
-
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
 <!-- List starts in the include. Next line MUST be 3. -->
 
@@ -67,7 +65,6 @@ Se denne videoen, og finn ut hvordan du legger til et nytt layout, eller følg t
 
 11. Når den nye layouten er valgt i **Layout**-listen, klikker du på **Rediger layout**-knappen for å tilpasse skjermens layout. Se [Redigere oppsett – Hovedkort][1] eller [Redigeringsoppsett – Arkiver (detaljkort)][2].
 <!-- markdownlint-restore -->
-
 
 > [!NOTE]
 > Hvis du vil slette en layout, velger du layouten i **Layouter**-listen og klikker på **Slett**. Brukergrupper som er tilordnet den slettede layouten, går tilbake til standardlayouten.

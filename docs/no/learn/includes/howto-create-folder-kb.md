@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Slik oppretter du en ny mappe:
 
 1. Gå til mappen du vil opprette en undermappe under.

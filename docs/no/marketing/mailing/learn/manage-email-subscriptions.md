@@ -49,7 +49,6 @@ Hvis Personvern for e-markedsføring er slått AV, betyr det at SuperOffice CRM 
 Du får vite med ved å se på videoen om hvordan du konfigurerer personverninnstillingene for GDPR i SuperOffice CRM.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
 
 ![I Innstillinger og vedlikehold kan du slå på funksjonen Personvern for e-markedsføring. -screenshot][img3]

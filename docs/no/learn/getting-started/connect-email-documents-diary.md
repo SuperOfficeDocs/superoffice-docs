@@ -26,7 +26,6 @@ Med SuperOffice er det enkelt å lagre viktige e-poster i CRM-databasen. Bare tr
 Se denne videoen for å se hvordan du bedre kan administrere innboksen og dele informasjon mer effektivt når du kobler e-post og dokumenter til SuperOffice CRM (videolengde – 3:20):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/h23X9-utLi4]
 
 Klar til å koble til? Velg operativsystemet ditt nedenfor for å finne ut hvordan du kobler sammen e-post- og dokumentbehandlingsprogrammer. Når du vet hvilke verktøy du trenger, hopper du til installasjonsveiledningen og følger trinnene.

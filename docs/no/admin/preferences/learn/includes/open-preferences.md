@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Klikk på ![ikon][img1] **Preferanser**-knappen i navigatoren.
 
 <!-- Referenced images -->

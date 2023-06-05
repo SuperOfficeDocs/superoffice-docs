@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 * **Spor alle koblinger**: Velg dette alternativet for å spore alle koblinger i utsendelsen. Dette omfatter også koblinger som ikke er registrert som sporede koblinger i SuperOffice Marketing, for eksempel uregistrerte koblinger fra maler eller gamle utsendelser, eller koblinger som er angitt direkte i kilde-/HTML-koden.
 
 * **Bruk Google Analytics**: Velg dette alternativet for å spore utsendelsen og koble den til [Google Analytics][1] (hvis dette er konfigurert for nettstedet). I feltene nedenfor angir du data som skal legges til som parametere i de sporede URL-adressene.

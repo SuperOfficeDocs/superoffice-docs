@@ -28,7 +28,6 @@ For å få tilgang til e-post må du først spesifisere detaljer om e-postkontoe
 Se denne videoen for å se hvor raskt og enkelt du kan konfigurere SuperOffice-innboksen, eller følg trinnene nedenfor (videolengde -1:34):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/QoAanZgQs5A]
 
 ### Trinn

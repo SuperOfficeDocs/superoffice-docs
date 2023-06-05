@@ -17,7 +17,6 @@ language: no
 Se videoen for å finne ut hvordan du endrer personvern lister (videolengde – 3.57):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/h1q6QX62ASk]
 
 ## Trinn

@@ -28,7 +28,6 @@ Du kan endre navnet på eller beskrivelsen av en tidligere opprettet forekomst i
 Se denne videoen for å finne ut hvordan du kan redigere listeforekomster i SuperOffice CRM (videolengde – 2.05):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
 
 ## Trinn

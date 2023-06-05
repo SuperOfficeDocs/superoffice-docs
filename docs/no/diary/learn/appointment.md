@@ -30,7 +30,6 @@ Standard varighet for en avtale er én time, men du kan endre varigheten etter b
 * I disse sidepanelvisningene: **Dag**, **Måned**, **Neste dag** og **Uke**
 <!-- markdownlint-restore -->
 
-
 ## Hva vil du gjøre?
 
 * [Opprett avtaler][2]

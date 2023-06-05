@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 | Knapp | Funksjon | Beskrivelse |Les mer |
 |:-:|---|---|---|
 | ![icon][img1],![icon][img2] | Arkivering er PÅ / Arkivering er AV | Angir om e-posten blir arkivert når den sendes. Klikk på knappen for å aktivere eller deaktivere denne innstillingen. Standardinnstillingen angis i ruten **Arkiveringsalternativer** i dialogboksen **SuperOffice CRM-alternativer**. | [Alternativer for arkivering][3] |

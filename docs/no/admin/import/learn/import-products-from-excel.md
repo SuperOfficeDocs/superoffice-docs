@@ -28,7 +28,6 @@ Før du starter importen, må du [klargjøre Excel-filen][1]. Sjekkliste:
 Se denne videoen, eller følg trinnene for å finne ut hvordan du importerer produktene dine til SuperOffice CRM ved hjelp av importmalen vår (videolengde – 4.22):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/xOTB6j2zzNo]
 
 1. [!include[Open Import](includes/open-import.md)]

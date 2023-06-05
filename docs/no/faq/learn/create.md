@@ -21,7 +21,6 @@ Ved å opprette FAQ-oppføringer kan organisasjonen bygge opp en omfattende saml
 Se denne videoen og finn ut hvordan du oppretter og publiserer FAQ-oppføringer i kundesenteret eller følg trinn-for-trinn-veiledningen nedenfor (videolengde - 3:01):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/TLOukelJp54]
 *Slik oppretter og publiserer du en FAQ - Denne videoen er laget for versjon 8, så veiledningen kan avvike litt fra hvordan den ser ut i dag, men du vil forstå hvordan du gjør de samme trinnene i dagens versjon.*
 

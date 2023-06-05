@@ -40,7 +40,6 @@ Før du starter importen, må du [klargjøre Excel-filen][1]. Sjekkliste:
 Se denne videoen, eller følg trinnene nedenfor for å finne ut hvordan du importerer personene dine til SuperOffice CRM ved hjelp av importmalen vår (videolengde – 4.02):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/dVkCfpOkNl8]
 
 ### Trinn

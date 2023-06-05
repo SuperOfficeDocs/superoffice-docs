@@ -14,7 +14,6 @@ language: no
 Se denne videoen for å lære hvordan du konfigurerer Gmail Link og kobler Gmail-kontoen til SuperOffice (videolengde – 2:53), eller følg trinnene nedenfor:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/kiQyO9KwiEs]
 
 ## Trinn

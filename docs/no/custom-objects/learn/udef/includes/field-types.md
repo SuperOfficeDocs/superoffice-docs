@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 * **Nummer**: Heltall, ubegrenset antall sifre.
 * **Kort tekst**: Tekst på maksimalt 39 tegn. I feltet **Tekstlengde**, som blir aktivert når du velger dette alternativet, angir du maksimalt antall tegn som brukere kan skrive inn i dette feltet.
 * **Lang tekst**: Tekst på maksimalt 199 tegn. I feltet **Tekstlengde**, som blir aktivert når du velger dette alternativet, angir du maksimalt antall tegn som brukere kan skrive inn i dette feltet.

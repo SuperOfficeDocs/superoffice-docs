@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 1. Klikk på fanen **Koblinger**.
 
 2. Klikk på **Rediger** for å bytte til redigeringsmodus.

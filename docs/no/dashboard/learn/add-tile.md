@@ -16,7 +16,6 @@ Hvis du ikke finner figuren du trenger, blant de forhåndsdefinerte figurene i S
 Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du oppretter din egen dashbordfigur (videolengde – 7.20):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/zoAuq0IK_6k]
 
 ## Trinn

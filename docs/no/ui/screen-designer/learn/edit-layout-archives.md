@@ -27,7 +27,6 @@ Du kan legge til et nytt detaljkort på et hvilket som helst hovedkort. Avhengig
 ![Velg innholdstypen du vil vise i detaljkortet -screenshot][img5]
 
 <!-- markdownlint-disable MD029 -->
-
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
 <!-- List starts in the include. Next line MUST be 3. -->
 
@@ -45,7 +44,6 @@ Du kan legge til et nytt detaljkort på et hvilket som helst hovedkort. Avhengig
     * **Lagre + Publiser**: Klikk denne knappen for å publisere layouten til de valgte brukergruppene.
     * **Avbryt**: Klikk på denne knappen for å [forkaste alle endringer](#undo-changes).
 <!-- markdownlint-restore -->
-
 
 ## Legg til arkivfane
 

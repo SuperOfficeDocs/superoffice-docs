@@ -20,7 +20,6 @@ Vanlige søk hjelper deg å komme i gang og opprette ditt eget søk etter CRM-da
 Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved å legge til nye søkekriterier, eller følg den trinn-for-trinn-veiledningen nedenfor (videolengde – 3:01):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
 
 ## Legg til søkekriterier

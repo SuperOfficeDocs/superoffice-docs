@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 Det første trinnet når du skal lage en SMS-utsendelse, kalles **Oppsett**. Her kan du angi navnet på SMS-utsendelsen og avsenderen samt angi arkiveringsalternativer for utsendelsen.
 
 1. Skriv inn et navn i feltet **Navn på utsendelse**.

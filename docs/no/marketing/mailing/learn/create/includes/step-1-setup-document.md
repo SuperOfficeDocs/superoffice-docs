@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 > [!TIP]
 >Hvis du vil vise og skrive ut en eksisterende dokumentutsendelse, avslutter du trinnet **Oppsett** (klikk på **Avbryt** eller **Lagre + lukk**). Velg fanen **Utsendelser**, finn dokumentet, klikk på ![ikon][img1] , og velg **Vis**. Klikk på knappen under **Last ned generert dokument**. Dokumentet lastes ned til nettleseren din. Åpne og skriv ut dokumentet.
 

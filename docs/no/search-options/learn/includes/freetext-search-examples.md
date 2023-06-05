@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 ## Eksempler på søk
 
 * Søk etter "office" vil også vise SuperOffice.

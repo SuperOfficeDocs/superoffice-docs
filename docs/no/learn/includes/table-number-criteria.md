@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 | Alternativ | Beskrivelse |
 |---|---|
 | = | Er lik |

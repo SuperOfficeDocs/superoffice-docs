@@ -1,5 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-
 I trinnet **Innhold** skriver du innholdet i SMS-en.
 
 1. I feltet **SMS-tekst** skriver du inn teksten. Her kan du kan bruke [malvariabler for personer][1]. Dette fungerer på samme måte som for e-postutsendelser. Se [Bruke malvariabler i meldinger][2].

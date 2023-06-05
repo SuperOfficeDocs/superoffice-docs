@@ -20,7 +20,6 @@ Gruppering er personlig. Kolonnene du bruker til å gruppere informasjonen din, 
 Lær hvordan du tilpasser visninger ved å konfigurere kolonner med denne korte videoen, eller les instruksjonene nedenfor (videolengde - 1:43):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/a3AC64pheok]
 
 ## Aktiver gruppering

@@ -55,7 +55,6 @@ La oss ta en titt på noen praktiske eksempler på hvordan du kan bruke ELLER-fu
 Se denne videoen for å lære hvordan du oppretter et søk ved hjelp av ELLER-funksjonen (videolengde - 4:08):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
 
 ## Jobbe med søkeresultater
@@ -139,7 +138,6 @@ Som salgsavdelingsleder vil du holde en presentasjon for resten av ledelsen, som
     * Du kan opprette et utvalg som inneholder disse kundene, ved å klikke på **Lagre som utvalg** og følge fremgangsmåten under [Opprett utvalg][8].
 
 <!-- markdownlint-disable-next-line MD013 -->
-
 ## <a id="ex2" />Eksempel 2: søk etter kunder i Danmark som du er ansvarlig for
 
 Tenk deg at du skal på en konferanse i Danmark. Når du er der, vil du benytte anledningen til å besøke noen kunder. Du begynner planleggingen med å søke frem alle kundene i Danmark som du har ansvar for.
@@ -213,7 +211,6 @@ La oss si at du er leder for et firma og vil finne ut hvilken type salg dere lyk
     * Du kan opprette et utvalg som inneholder disse salgene, ved å klikke på **Lagre som utvalg** og følge fremgangsmåten under [Opprett utvalg][8].
 
 <!-- markdownlint-disable-next-line MD013 -->
-
 ## <a id="ex4" />Eksempel 4: søk etter prosjekter du har deltatt i under det siste året
 
 La oss si at det nærmer seg lønnsforhandlinger, og at du mener du fortjener å få bedre betalt for innsatsen din. For å vise sjefen din hvor iherdig og allsidig du er, vil du snakke om prosjektene du har vært involvert i det siste året.

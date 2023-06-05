@@ -21,7 +21,6 @@ Masseredigering er tilgjengelig i skjermbildene Utvalg, Firma, Salg og Prosjekt.
 Se videoen, eller følg trinnene nedenfor for å finne ut hvordan du utfører en masseredigering fra Firma-skjermen og -utvalget (videolengde – 4:49):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-
 > [!Video https://www.youtube.com/embed/VdHvComOxek?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
 
 ## Trinn
