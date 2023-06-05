@@ -13,7 +13,7 @@ language: no
 
 [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Klikk på ![ikon][img1] **Oppgave**-knappen, og velg deretter **Slett <firmanavn>**.
+1. Klikk på ![ikon][img1] **Oppgave**-knappen, og velg deretter **Slett &lt;firmanavn&gt;**.
 
 1. I dialogboksen **Slett firma** klikker du på **Ja** for å bekrefte at du vil slette firmaet.
 

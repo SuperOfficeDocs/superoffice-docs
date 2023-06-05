@@ -21,28 +21,28 @@ Alternativene som er tilgjengelige for hver hyppighet, varierer.
 |---|---|---|
 | Alle arbeidsdager (man-fre) | Oppfølgingen gjentas til samme tidspunkt på hver arbeidsdag. | |
 | Alle ukedager (man-søn) | Oppfølgingen gjentas til samme tidspunkt hver ukedag, også i helgene. | |
-| Hver <tall>. dag | Antall dager som skal gå mellom hvert møte. | Hver sjette dag. |
+| Hver &lt;tallgt;. dag | Antall dager som skal gå mellom hvert møte. | Hver sjette dag. |
 
 ## Ukentlig
 
 | Alternativ | Beskrivelse | Eksempel |
 |---|---|---|
-| Hver <tall>. uke| Her skriver du inn en tallverdi for å angi hvor mange uker som skal gå mellom hvert møte. | Hver tredje uke. |
-| <ukedag>| Her merker du av hvilke(n) ukedag(er) møtet skal forekomme på. | |
+| Hver &lt;tall&gt;. uke| Her skriver du inn en tallverdi for å angi hvor mange uker som skal gå mellom hvert møte. | Hver tredje uke. |
+| &lt;ukedagt;| Her merker du av hvilke(n) ukedag(er) møtet skal forekomme på. | |
 
 ## Månedlig
 
 | Alternativ | Beskrivelse | Eksempel |
 |---|---|---|
-| Dag <tall> **i hver <tall>. måned** | Bruk dette hvis du vil at oppfølgingen skal finne sted på samme dato hver gang. | Dag 20 i hver 3\. måned. |
-| <ordenstall> <ukedag> i hver <tall>. måned| Bruk dette hvis du vil at oppfølgingen skal finne sted på samme ukedag hver gang. | Fjerde torsdag i hver 2\. måned. |
+| Dag &lt;tall&gt; **i hver &lt;tall&gt;. måned** | Bruk dette hvis du vil at oppfølgingen skal finne sted på samme dato hver gang. | Dag 20 i hver 3\. måned. |
+| &lt;ordenstall&gt; &lt;ukedag&gt; i hver &lt;tall&gt;. måned| Bruk dette hvis du vil at oppfølgingen skal finne sted på samme ukedag hver gang. | Fjerde torsdag i hver 2\. måned. |
 
 ## Årlig
 
 | Alternativ | Beskrivelse | Eksempel |
 |---|---|---|
-| Dag <tall> **i <måned>**| Bruk dette hvis du vil at oppfølgingen skal finne sted på samme dato hver gang. | Dag 13 i april. |
-| <ordenstall> **<ukedag> i <måned>**| Bruk dette hvis du vil at oppfølgingen skal finne sted på samme ukedag hver gang. | Den fjerde torsdagen i august. |
+| Dag &lt;tall&gt; **i &lt;måned&gt;**| Bruk dette hvis du vil at oppfølgingen skal finne sted på samme dato hver gang. | Dag 13 i april. |
+| &lt;ordenstall&gt; **&lt;ukedag&gt; i &lt;måned&gt;**| Bruk dette hvis du vil at oppfølgingen skal finne sted på samme ukedag hver gang. | Den fjerde torsdagen i august. |
 
 ## Egendefinert
 

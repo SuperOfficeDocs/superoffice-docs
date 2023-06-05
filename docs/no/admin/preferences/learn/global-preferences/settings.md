@@ -37,7 +37,7 @@ Gå til ![ikonet][img2] **Preferanser** i navigatoren, og velg deretter fanen **
 
 * **Systemklokke**: Velg om du ønsker 24 timers klokke eller 12 timers klokke (am/pm) for systemet. Brukerspesifikke klokkeslett (for eksempel visning av saker) styres av hver enkelt brukers innstillinger, og ikke av denne verdien.
 
-* **Standardstil for utgående e-post**: Her kan du angi en standard stil som skal brukes på e-postmeldinger i HTML-format. For eksempel: <p style='font-family:Verdana'> </p>
+* **Standardstil for utgående e-post**: Her kan du angi en standard stil som skal brukes på e-postmeldinger i HTML-format. For eksempel: &lt;p style='font-family:Verdana'&gt; &lt;/p&gt;
 
 * **Minimumsscore for FAQ-søkeresultat (i prosent)**: I svarmaler som sendes til kunder, kan du legge til [automatiske forslag til FAQ-oppføringer][1] for å hjelpe kunden med å løse saken selv. I dette feltet kan du angi hvor stor grad av samsvar det må være mellom kundens sak og en FAQ-oppføring, for at en FAQ-oppføring skal legges til i svaret til kunden. Hvis du angir en for lav verdi her, er det sannsynlig at kunden får mange FAQer som ikke er relevant for saken. Hvis kundens saker samsvarer med et nøkkelord i en FAQ-oppføring, vil FAQ-oppføringen alltid tas med.
 

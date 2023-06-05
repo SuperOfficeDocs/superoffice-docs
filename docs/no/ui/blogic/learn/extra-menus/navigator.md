@@ -36,7 +36,7 @@ For å illustrere denne funksjonaliteten legger vi til en ny navigatorgruppe i n
 
 9. Merk av for **Bruk URL** og skriv inn "http://www.google.com" i **URL**-feltet.
 
-10. IKKE merk av for **Legg til ID** eller **Legg til <usec>**, ellers legges verdier til bak URLen du definerte.
+10. IKKE merk av for **Legg til ID** eller **Legg til &lt;usec&gt;**, ellers legges verdier til bak URLen du definerte.
 
 11. IKKE merk av for **Gå tilbake til samme skjermbilde**. Hvis du merker av her, virker ikke eksterne URLer. Se [Egenskaper for meny][1].
 

@@ -24,7 +24,7 @@ Du kan flytte en person – inkludert vedkommendes aktiviteter og medlemskap –
 
 1. I dialogboksen **Flytt person** under **Handling på person** velger du ett av følgende:
     * Gå til **Flytt til**, og velg firmaet du vil flytte personen til. Bruk [hurtigsøk][1], [historikklisten][2] eller [Finn][3] ![ikon][img3].
-    * Velg **Koble fra <firma>**.
+    * Velg **Koble fra &lt;firma&gt;**.
 
 1. Velg ett av følgende under **Handling på alle eksisterende aktiviteter og salg**:
 

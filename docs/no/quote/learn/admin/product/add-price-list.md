@@ -46,9 +46,9 @@ Tilpassing av prislister hjelper selgerne dine med å bruke de riktige prisdetal
 
     2. Velg ett av følgende alternativer:
 
-        * **Konverter priser fra opprinnelig prisliste til <valuta>**: Velg dette alternativet for å bruke de eksisterende prisene i prislisten. Hvis du kopierer en prisliste med en annen valuta enn prislisten du oppretter, konverteres prisene til riktig valuta.
+        * **Konverter priser fra opprinnelig prisliste til &lt;valuta&gt;**: Velg dette alternativet for å bruke de eksisterende prisene i prislisten. Hvis du kopierer en prisliste med en annen valuta enn prislisten du oppretter, konverteres prisene til riktig valuta.
 
-        * **Sette priser til null <valuta>**: Velg dette alternativet hvis du ikke vil kopiere prisene fra prislisten. Du må angi prisene på alle produktene i prislisten manuelt.
+        * **Sette priser til null &lt;valuta&gt;**: Velg dette alternativet hvis du ikke vil kopiere prisene fra prislisten. Du må angi prisene på alle produktene i prislisten manuelt.
 
 1. Klikk på **OK**.
 

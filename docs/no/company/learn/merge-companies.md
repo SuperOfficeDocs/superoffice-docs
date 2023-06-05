@@ -46,7 +46,7 @@ Hvis to firmaer i kundedatabasen velger å slå seg sammen, eller ett av firmaen
     * Personer flyttes eller slås sammen.
     * Alle aktiviteter flyttes.
     * Prosjektdeltakelse og medlemskap i statiske utvalg følger firmaet.
-    * Alle detaljer slås sammen hvis du har valgt **Erstatt tomme felt på <målfirma> med verdier fra <kildefirma>**.
+    * Alle detaljer slås sammen hvis du har valgt **Erstatt tomme felt på &lt;målfirma&gt; med verdier fra &lt;kildefirma&gt;**.
     * Kildefirmaet slettes.
 
 ![Dialogboksen Slå sammen firmaer -screenshot][img4]

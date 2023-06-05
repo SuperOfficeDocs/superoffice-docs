@@ -28,7 +28,7 @@ Her kan du redigere egenskapene til alternativer på ekstramenyer og webpaneler.
 
   * Eksempel på når du IKKE bør bruke dette alternativet: Hvis du oppretter en knapp (skript) som viser mye informasjon på skjermen, vil du ikke ha dette merket av, fordi du vil vise informasjonen på skjermen. Det samme gjelder eksterne URLer, fordi du vil gå til nettstedet når du klikker på knappen.
 
-* **Legg til <usec>**: <usec>er øktnøkkelen for NetServer-økten. For å få et webpanel til å fungere med NetServer ved hjelp av autentisering, må denne nøkkelen inkluderes.
+* **Legg til &lt;usec&gt;**: &lt;usec&gt;er øktnøkkelen for NetServer-økten. For å få et webpanel til å fungere med NetServer ved hjelp av autentisering, må denne nøkkelen inkluderes.
 
 * **Mål**: Mål for URLen. Du kan velge hvilket vindu URLen skal åpnes i, ved å skrive inn navnet på vinduet i **Mål**-feltet. Du kan skrive inn "_blank" hvis du alltid vil åpne et nytt vindu/fane eller for eksempel "kunde" for å åpne et eget vindu for dette menyalternativet eller en gruppe menyalternativer.
 

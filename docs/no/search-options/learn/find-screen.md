@@ -94,7 +94,7 @@ Som salgsavdelingsleder vil du holde en presentasjon for resten av ledelsen, som
 
 5. På listen som vises velger du feltet du vil søke etter informasjon i. Klikk først på **Salg**-![ikonet][img5], og deretter på **Beløp**.
 
-6. I listeboksen til høyre for **Beløp**, klikker du pil-![ikonet][img1] og velger **>** (større enn).
+6. I listeboksen til høyre for **Beløp**, klikker du pil-![ikonet][img1] og velger **&gt;** (større enn).
 
 7. I det siste feltet på linjen angir du minimumsbeløpet. For eksempel "100 000".
 
