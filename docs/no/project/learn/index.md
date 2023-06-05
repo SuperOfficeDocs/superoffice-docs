@@ -57,7 +57,7 @@ I fanen **Arrangement** kan du angi innstillinger for publisering av arrangement
 | Synlig for prosjektdeltakere | Hvis avmerket, er arrangementet kun synlig i Audience for [prosjektdeltakerne][8] som er angitt på detaljkortet **Prosjektdeltakere**. |
 | Melde seg på | Merk av her hvis du vil at det skal være mulig å melde seg på arrangementet gjennom Audience. |
 | Melde seg av | Merk av her hvis du vil at det skal være mulig å melde seg av arrangementet gjennom Audience. |
-| Logg som aktivitet | Hvis du også merker av for **Logg som aktivitet** bak **Melde seg på **eller **Melde seg av**, opprettes det en aktivitet for deg når en Audience-bruker melder seg på eller av arrangementet. |
+| Logg som aktivitet | Hvis du også merker av for **Logg som aktivitet** bak **Melde seg på** eller **Melde seg av**, opprettes det en aktivitet for deg når en Audience-bruker melder seg på eller av arrangementet. |
 
 > [!TIP]
 > Hvis du klikker på knappen ( ![ikon][img5] ) til høyre for **Bekreftelse**, kan du skrive inn en bekreftelsestekst som skal vises i en dialogboks når en Audience-bruker melder seg på eller av arrangementet. Brukeren må klikke på **Ja** eller **Nei** i denne dialogboksen for å fortsette.

@@ -14,7 +14,7 @@ language: no
 Malvariabler brukes til å sette inn data fra SuperOffice i e-poster, tilbud, møtevarsler, dokumentmaler og så videre. Du kan bruke malvariabler til å tilpasse og automatisere innlegging av kundedata (eller data fra person, salg og annet) i innholdet ditt og sette opp komplekse tilbud
 
 > [!TIP]
-> Se alle de ulike [malvariablene][2] du har for **firmakortet **.
+> Se alle de ulike [malvariablene][2] du har for **firmakortet**.
 
 ## Eksempler
 

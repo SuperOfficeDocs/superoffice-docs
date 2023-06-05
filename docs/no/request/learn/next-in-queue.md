@@ -13,7 +13,7 @@ language: no
 
 # Slik setter du opp Hent neste sak i køen
 
-I SuperOffice fordeles vanligvis saker til brukere etter en fordelingsmetode. En annen metode for å fordele saker til saksbehandlere, er å plassere nye saker i **Saker ** > **Ufordelte saker**. Saksbehandlerne må deretter overta sakene manuelt.
+I SuperOffice fordeles vanligvis saker til brukere etter en fordelingsmetode. En annen metode for å fordele saker til saksbehandlere, er å plassere nye saker i **Saker** > **Ufordelte saker**. Saksbehandlerne må deretter overta sakene manuelt.
 
 Du har imidlertid også mulighet til å opprette et intelligent køsystem for håndtering av nye saker. Da kan saksbehandlerne klikke på **Hent neste sak i køen** under **Saker** for å overta neste sak i køen. Sakene i køen filtreres etter [kategori][2], slik at brukerne kun blir tildelt saker som tilhører kategorier de er medlem av.
 

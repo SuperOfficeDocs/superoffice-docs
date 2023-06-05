@@ -35,7 +35,7 @@ I dialogboksen **Legg til / rediger produkt** legger du inn all informasjon om p
 1. Merk av for **Inkluder i prisliste** for å gjøre produktet tilgjengelig i prislisten. Du bør ikke gjøre dette før du har lagt inn all nødvendig informasjon om produktet.
 
 1. Klikk på **Lagre + ny** for å lagre dette produktet og legge til et produkt til.
-    Klikk på **Lagre ** for å lagre og lukke dialogboksen.
+    Klikk på **Lagre** for å lagre og lukke dialogboksen.
     Produktet legges til i prislisten.
 
 > [!NOTE]

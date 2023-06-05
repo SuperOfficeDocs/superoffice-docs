@@ -49,7 +49,7 @@ Se denne videoen og finn ut hvordan du bruker skjermdesigner til å konfigurere 
 
     * Flytt felt ved å klikke ![ikon][img4] til venstre for en ledetekst og dra feltet til en ny posisjon. Hvis du vil legge til et nytt felt, se [Felt](#fields).
 
-    * Slett felt ved å holde musepekeren over et felt og klikke ![ikon][img2]. Slettede felt kan legges til på nytt fra ** Felt**-området. Obligatoriske felt kan ikke slettes, og ** Slett**-knappen vises ikke for slike felt. Se [Felt](#fields).
+    * Slett felt ved å holde musepekeren over et felt og klikke ![ikon][img2]. Slettede felt kan legges til på nytt fra **Felt**-området. Obligatoriske felt kan ikke slettes, og **Slett**-knappen vises ikke for slike felt. Se [Felt](#fields).
 
     * Rediger feltformatering (for eksempel skriftformat) og andre innstillinger ved å klikke på feltet. **Innstillinger** -området åpnes i venstre del av vinduet. Se [Innstillinger](#settings).
 
@@ -93,7 +93,7 @@ I **Felt**-delen finner du alle tilgjengelige datafelt for den valgte skjermlayo
 * Hvis du vil være sikker på at et felt alltid er synlig uansett hvilken kategori som er valgt, plasserer du feltet i overskriften eller bunnteksten.
 * Du kan eventuelt plassere det samme feltet flere steder i skjermlayouten.
 * Flytt felt ved å klikke ![ikon][img4] til venstre for en ledetekst og dra feltet til en ny posisjon. Hvis du vil flytte et felt til en annen kategori, drar du feltet til faneoverskriften for å åpne fanen, og deretter plasserer du feltet i den åpne fanen.
-* Slett felt ved å holde musepekeren over et felt og klikke ![ikon][img2]. Obligatoriske felt kan ikke slettes, og ** Slett**-knappen vises ikke for slike felt.
+* Slett felt ved å holde musepekeren over et felt og klikke ![ikon][img2]. Obligatoriske felt kan ikke slettes, og **Slett**-knappen vises ikke for slike felt.
 
 **Begrensninger:**
 

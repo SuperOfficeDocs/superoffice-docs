@@ -15,7 +15,7 @@ Hvis du vil sende samme dokument til alle deltakerne i et prosjekt, kan du bruke
 
 * Velg ![ikon][img2] **Utvalg** i navigatoren, gå til fanen **Oppgave** og klikk på **Opprett dokumentutsendelse**.
 
-* Velg ![ikon][img1] **Markedsføring** i navigatoren, velg fanen** Utsendelser** , og [lag en ny dokumentutsendelse.][1].
+* Velg ![ikon][img1] **Markedsføring** i navigatoren, velg fanen **Utsendelser**, og [lag en ny dokumentutsendelse.][1].
 
 > [!NOTE]
 > I **trinn 4: Mottakere** må du velge hvilket prosjekt du vil legge til prosjektdeltakere som mottakere fra.

@@ -17,7 +17,7 @@ Favoritter-funksjonen gir deg enkel tilgang til favorittutsendelsene eller -skje
 
 For å legge til en utsendelse eller et skjema i favorittene dine, åpne det og klikk på stjerneikonet ![icon][img1] øverst til høyre. Stjernen blir gul ![icon][img2], og opprett utsendelse/skjema blir umiddelbart lagt til favorittene dine.
 
-I SuperOffice Service får du nå rask tilgang til oppføringen ved å klikke på** Markedsføring** og deretter ![icon][img3] i navigatoren.
+I SuperOffice Service får du nå rask tilgang til oppføringen ved å klikke på **Markedsføring** og deretter ![icon][img3] i navigatoren.
 
 > [!TIP]
 > Hvis du holder musepekeren over en utsendelse eller et skjema i favorittlisten, vises en Infoboks som inneholder tilleggsdata om utsendelsen eller skjemaet.

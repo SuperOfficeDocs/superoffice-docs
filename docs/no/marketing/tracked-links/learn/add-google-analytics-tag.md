@@ -29,9 +29,9 @@ For å kunne bruke [Google Analytics-funksjonen][2], trenger du en Google Analyt
 
 3. Hvis du vil identifisere en bestemt utsendelse som kilde, må feltene for Kilde og Kampanje også fylles ut.
 
-    * I**Kilde-**feltet kan du legge til kilden til trafikken på websiden din. Her kan du velge å bruke de forskjellige abonnementene innen e-markedsføring, som for eksempel Månedlig nyhetsbrev, Kampanjeutsendelse osv.
+    * I **Kilde**-feltet kan du legge til kilden til trafikken på websiden din. Her kan du velge å bruke de forskjellige abonnementene innen e-markedsføring, som for eksempel Månedlig nyhetsbrev, Kampanjeutsendelse osv.
 
-    * I**Kampanje**-feltet kan du angi navnet på kampanjen du kjører. Det vil gjøre det enklere å spore og rapportere resultatene av utsendelsen du har sendt ut. Her kan du angi kampanjenavn, som for eksempel julesalgskampanje eller høstsalgskampanje, og så videre.
+    * I **Kampanje**-feltet kan du angi navnet på kampanjen du kjører. Det vil gjøre det enklere å spore og rapportere resultatene av utsendelsen du har sendt ut. Her kan du angi kampanjenavn, som for eksempel julesalgskampanje eller høstsalgskampanje, og så videre.
 
 4. Når du har konfigurert alle detaljene du vil bruke til å spore utsendelsen i Google Analytics, kan du følge trinnene i veiviseren for utsendelser. Klikk på **Neste** for å velge mal, legg til innhold, legg til mottakere og send utsendelsen.
 

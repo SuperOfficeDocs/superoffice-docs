@@ -33,7 +33,7 @@ Når du skal synkronisere data mellom SuperOffice og ERP-systemer, må du angi h
     * **Retning**: Her velger du retningen(e) for synkroniseringen. Se tabell med ikoner nedenfor.
 
     * **SuperOffice-felt**: Her velger du hvilket SuperOffice-felt du vil synkronisere. Enkelte felt (for eksempel kunde- og personnummer) kan ikke synkroniseres, og listen vil da være tom.
-    * **Vis i ERP-fane**: Merk av her hvis du vil at dette feltet skal vises i fanen **ERP **i SuperOffice CRM (bildet Firma, Person og Prosjekt).
+    * **Vis i ERP-fane**: Merk av her hvis du vil at dette feltet skal vises i fanen **ERP** i SuperOffice CRM (bildet Firma, Person og Prosjekt).
 
         > [!NOTE]
         > Hvis du har valgt å synkronisere dette feltet med et SuperOffice-felt, har det ingen hensikt å vise feltet i **ERP**-fanen.

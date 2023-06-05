@@ -13,7 +13,7 @@ language: no
 
 **Salg** er et av detaljkortene nederst i Prosjekt-bildet. Her finner du informasjon om eventuelle salg knyttet til prosjektet.
 
-I kolonnene på detaljkortet **Salg **finner du følgende informasjon:
+I kolonnene på detaljkortet **Salg** finner du følgende informasjon:
 
 * ![ikon][img1] : Den første kolonnen på detaljkortet **Salg** angir **Utført**-status for et salg. En hake i avmerkingsboksen ![ikon][img2] betyr at salget utført, mens en tom boks betyr at det ikke er utført.
 * Et [statusikon for salget][1]
