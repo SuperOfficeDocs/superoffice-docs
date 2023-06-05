@@ -34,13 +34,13 @@ Følgende informasjon vises:
 
 * Salgsdato (estimert, solgt eller tapt)
 
-* Et [statusikon for salget][4], som viser om det er solgt ![icon][img1], tapt ![icon][img2] eller stoppet opp ![icon][img3] (hvis det ikke er noe ikon, er salget «åpent»)
+* Et [statusikon for salget][4], som viser om det er solgt ![icon][img1], tapt ![icon][img2] eller stoppet opp ![icon][img3] (hvis det ikke er noe ikon, er salget "åpent")
 
 Salg som ikke er merket som utført, vises i denne listen.
 
 ## Salgssekretæren
 
-Detaljkortet **Salg** i dagboken fungerer som en slags «salgssekretær» for å hjelpe deg med å holde oversikt over salget ditt – aktivitetene du planlegger og de du har glemt å gjøre. På denne måten er **Salg**-detaljkortet en salgsorientert oppgaveliste, som viser deg følgende:
+Detaljkortet **Salg** i dagboken fungerer som en slags "salgssekretær" for å hjelpe deg med å holde oversikt over salget ditt – aktivitetene du planlegger og de du har glemt å gjøre. På denne måten er **Salg**-detaljkortet en salgsorientert oppgaveliste, som viser deg følgende:
 
 * Alle ikke utførte salg der salgsdato er innenfor det definerte visningsområdet.
 

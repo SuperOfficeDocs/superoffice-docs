@@ -3,4 +3,4 @@ Hvis SuperOffice CRM for Web er installert på et HTTPS-område, fungerer ikke w
 
 Du kan åpne URL-adressen i sikkermodus i nettleseren, men da er ikke området sikkert lenger.
 
-Hvis SuperOffice CRM for Web er installert på et HTTP-område, bruker du «vanlige» URL-adresser med HTTP.
+Hvis SuperOffice CRM for Web er installert på et HTTP-område, bruker du "vanlige" URL-adresser med HTTP.

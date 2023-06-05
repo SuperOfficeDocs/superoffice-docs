@@ -12,7 +12,7 @@ language: no
 # Erstatte eksisterende mal
 
 1. Last ned og rediger dokumentmalen, og lagre den på disken.
-2. Gi nytt navn til eller slett den «gamle» dokumentmalen i SuperOffice.
+2. Gi nytt navn til eller slett den "gamle" dokumentmalen i SuperOffice.
 3. Last opp den reviderte dokumentmalen til SuperOffice.
 
 > [!NOTE]

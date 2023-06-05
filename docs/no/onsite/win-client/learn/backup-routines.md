@@ -15,7 +15,7 @@ so.envir: onsite
 
 Hvis det skulle oppstå en databasefeil, er det svært viktig at du har gode rutiner for sikkerhetskopiering. Sikkerhetskopiering kan virke som en triviell oppgave når du må bruke tid på det hver dag, men hvis noe går galt, kan feilen ofte rettes opp raskt hvis du har en kopi av databasen fra dagen før.
 
-Tenk deg at du har bygget opp en firmadatabase med 1500 firmaer i løpet av et år. Du har brukt SuperOffice CRM hver dag og registrert firmaer som du ringer til og følger opp hver uke. Du har lagt inn avtaler for lang tid fremover, og du har registrert alle dokumenter og oppfølginger i SuperOffice CRM. Men du har du «glemt» å ta sikkerhetskopi de siste seks månedene.
+Tenk deg at du har bygget opp en firmadatabase med 1500 firmaer i løpet av et år. Du har brukt SuperOffice CRM hver dag og registrert firmaer som du ringer til og følger opp hver uke. Du har lagt inn avtaler for lang tid fremover, og du har registrert alle dokumenter og oppfølginger i SuperOffice CRM. Men du har du "glemt" å ta sikkerhetskopi de siste seks månedene.
 
 En dag du kommer på jobb, har det oppstått en feil på harddisken som ikke kan rettes opp umiddelbart. Du ringer SuperOffice og får spørsmål om du tok sikkerhetskopi i går.
 

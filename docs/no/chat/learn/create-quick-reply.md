@@ -11,7 +11,7 @@ language: no
 
 # Opprette et hurtigsvar
 
-Et hurtigsvar er en forhåndsdefinert tekst som du kan bruke i en chatsamtale med en kunde. Ved å bruke hurtigsvar kan du spare tid, siden du ikke må skrive inn typiske svar som «jeg undersøker og kommer tilbake til deg om litt» eller «jeg må ha kunde-ID-en din for å behandle forespørselen». Hurtigsvarene du oppretter, er bare tilgjengelige for deg.
+Et hurtigsvar er en forhåndsdefinert tekst som du kan bruke i en chatsamtale med en kunde. Ved å bruke hurtigsvar kan du spare tid, siden du ikke må skrive inn typiske svar som "jeg undersøker og kommer tilbake til deg om litt" eller "jeg må ha kunde-ID-en din for å behandle forespørselen". Hurtigsvarene du oppretter, er bare tilgjengelige for deg.
 
 **Trinn:**
 

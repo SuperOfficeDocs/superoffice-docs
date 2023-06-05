@@ -14,7 +14,7 @@ language: no
 La oss se på to egendefinerte skjemaer som kan være relevante for firmaet ditt:
 
 * [Påmelding til nyhetsbrev](#newsletter-sign-up): La kundene melde seg på ett eller flere av nyhetsbrevene dine.
-* [Kontakt meg](#contact-me): Bruk et «kontakt meg»-skjema til å åpne en ny kommunikasjonskanal med dine kunder eller prospekter. Bruk dette skjemaet til å generere supportsaker eller opprette kundeemner for salgsteamet.
+* [Kontakt meg](#contact-me): Bruk et "kontakt meg"-skjema til å åpne en ny kommunikasjonskanal med dine kunder eller prospekter. Bruk dette skjemaet til å generere supportsaker eller opprette kundeemner for salgsteamet.
 
 Eksemplene dekker ikke alle felt og alternativer, men du finner omfattende instruksjoner i [Opprette et nytt skjema][1].
 
@@ -29,13 +29,13 @@ Koblingen er gyldig i 30 minutter som standard.
 
 Dette skjemaet lar kundene melde seg på ett eller flere av dine nyhetsbrev. Registreringsprosessen vil også inkludere dobbel opt-in for å eliminere feilaktige eller falske abonnementer.
 
-1. Åpne SuperOffice CRM og opprett et statisk utvalg av firmaer/personer som heter «nyhetsbrevabonnenter (skjema)». Vi vil bruke dette utvalget senere i veiledningen.
+1. Åpne SuperOffice CRM og opprett et statisk utvalg av firmaer/personer som heter "nyhetsbrevabonnenter (skjema)". Vi vil bruke dette utvalget senere i veiledningen.
 
 1. Åpne SuperOffice Markedsføring og gå til **Skjemaer**-fanen.
 
 1. Velg **Skjema** under **Opprett nytt** på høyre side av skjermbildet. Bildet **Rediger skjema** vises.
 
-1. Skriv inn «nyhetsbrevregistrering» i feltet **Skjemanavn**.
+1. Skriv inn "nyhetsbrevregistrering" i feltet **Skjemanavn**.
 
 1. Fyll ut relevante alternativer/felt i kategorien **Egenskaper**. IKKE aktiver noen alternativer under **Deaktiver skjema automatisk.**
 
@@ -48,11 +48,11 @@ Dette skjemaet lar kundene melde seg på ett eller flere av dine nyhetsbrev. Reg
     * Person - abonnement
         * Velg ett eller flere nyhetsbrev som skal være tilgjengelige
         * Angi feltet som **Obligatorisk**.
-        * Endre feltnavnet til «Velg abonnementer».
+        * Endre feltnavnet til "Velg abonnementer".
 
 1. Velg **OK**-feltet og endre navnet til "Send", og rediger skrifttype / bakgrunnsfarge og plassering.
 
-1. Rediger navn på de andre feltene etter behov. **Tips**: Fjern «Person -».
+1. Rediger navn på de andre feltene etter behov. **Tips**: Fjern "Person -".
 
 1. Klikk ![icon][img2] øverst i et felt, og dra det til ønsket plassering i skjemaet. Feltene bør ha en logisk rekkefølge.
 
@@ -94,11 +94,11 @@ Dette skjemaet lar kundene melde seg på ett eller flere av dine nyhetsbrev. Reg
 
 1. Klikk **Vis/skjul verktøylinje** ![icon][img3] og klikk deretter **Sett inn, bekreftelseskobling** ![icon][img4]. Bekreftelseskoblingen settes inn i brødteksten.
 
-1. Klikk på bekreftelseskoblingen, og velg **Rediger kobling** ![icon][img5], endre deretter koblingsteksten til «Klikk her for å bekrefte e-postadressen din». Koblingen er gyldig i 30 minutter som standard.
+1. Klikk på bekreftelseskoblingen, og velg **Rediger kobling** ![icon][img5], endre deretter koblingsteksten til "Klikk her for å bekrefte e-postadressen din". Koblingen er gyldig i 30 minutter som standard.
 
 1. Klikk **Bruk nå** for å lagre skjemaet og fortsette redigeringen.
 
-1. I kategorien **Takkeside** kan du enten omdirigere kunden til en webside eller vise en melding (for eksempel «Takk for at du abonnerer»). Dette vises etter at kunden har bekreftet e-postadressen sin.
+1. I kategorien **Takkeside** kan du enten omdirigere kunden til en webside eller vise en melding (for eksempel "Takk for at du abonnerer"). Dette vises etter at kunden har bekreftet e-postadressen sin.
 
 1. Klikk **Bruk nå** for å lagre skjemaet og fortsette redigeringen.
 
@@ -130,7 +130,7 @@ Dette skjemaet lar kundene melde seg på ett eller flere av dine nyhetsbrev. Reg
 
 ## Kontakt meg
 
-Legg inn et «kontakt meg»-skjema på firmaets nettsider for å tilby en enkel kommunikasjonskanal for eksisterende eller potensielle kunder.
+Legg inn et "kontakt meg"-skjema på firmaets nettsider for å tilby en enkel kommunikasjonskanal for eksisterende eller potensielle kunder.
 
 I dette eksempelet vil vi vise deg hvordan du oppretter kortform for kunder som ønsker å komme i kontakt med en kunderepresentant. Skjemainnsendingen vil utløse en ny sak for kundestøtteavdelingen.
 
@@ -138,21 +138,21 @@ I dette eksempelet vil vi vise deg hvordan du oppretter kortform for kunder som 
 
 1. Velg **Skjema** under **Opprett nytt** på høyre side av skjermbildet. Bildet **Rediger skjema** vises.
 
-1. Skriv inn «kontakt meg (kundestøtte)» i feltet **Skjemanavn**.
+1. Skriv inn "kontakt meg (kundestøtte)" i feltet **Skjemanavn**.
 
 1. Fyll ut relevante alternativer/felt i kategorien **Egenskaper**. IKKE aktiver noen alternativer under **Deaktiver skjema automatisk.**
 
 1. Klikk på ![icon][img1] I **Felt**-kategorien, og legg til følgende felt:
 
     * For- og etternavn. Fjern feltet **Kontakt – Navn**.
-    * **Vis elementer** > **Tekstblokk**: Skriv inn teksten under «hvordan kan vi kontakte deg?» med fet skrift.
+    * **Vis elementer** > **Tekstblokk**: Skriv inn teksten under "hvordan kan vi kontakte deg?" med fet skrift.
     * **Kontakt – Mobil**: Skriv inn et eksempel på et riktig formatert telefonnummer for landet ditt (ta med landskoden) i feltet **Plassholder** (eksempel: +47 99 88 77 66).
     * **Person - E-post**
-    * **Skjemaelementer** > **Tekstområde**: Endre navnet på feltet til «Kommentar (valgfritt)» og skriv «Hvordan kan vi hjelpe deg i dag?» i **plassholder**-feltet .
+    * **Skjemaelementer** > **Tekstområde**: Endre navnet på feltet til "Kommentar (valgfritt)" og skriv "Hvordan kan vi hjelpe deg i dag?" i **plassholder**-feltet .
 
 1. Velg **OK**-feltet og endre navnet til "Send", og rediger skrifttype / bakgrunnsfarge og plassering.
 
-1. Rediger navn på de andre feltene etter behov. **Tips**: Fjern «Person -».
+1. Rediger navn på de andre feltene etter behov. **Tips**: Fjern "Person -".
 
 1. Klikk ![icon][img2] øverst i et felt, og dra det til ønsket plassering i skjemaet. Feltene bør ha en logisk rekkefølge.
 
@@ -164,7 +164,7 @@ I dette eksempelet vil vi vise deg hvordan du oppretter kortform for kunder som 
 
 1. Valgfritt: For å aktivere dobbel opt-in, bør du også sette **e-postfeltet** til **obligatorisk**.
 
-1. I kategorien **Takkeside** kan du enten omdirigere kunden til en webside eller vise en melding (for eksempel «Takk for at du kontakter oss. Vi tar snart kontakt.»). Dette vises etter at kunden har sendt skjemaet.
+1. I kategorien **Takkeside** kan du enten omdirigere kunden til en webside eller vise en melding (for eksempel "Takk for at du kontakter oss. Vi tar snart kontakt."). Dette vises etter at kunden har sendt skjemaet.
 
 1. I **Side for inaktivt skjema**-kategorien, skriver du inn en URL eller en melding. Dette er relevant hvis en kunde åpner skjemaet etter at det er merket som inaktivt.
 
@@ -172,7 +172,7 @@ I dette eksempelet vil vi vise deg hvordan du oppretter kortform for kunder som 
 
     * Velg **Opprett sak** og gjør følgende:
         1. Angi en beskrivende tittel for sakene som skal opprettes fra dette skjemaet.
-        2. Velg relevant kategori for saken, som for eksempel «Kundestøtte» eller en underkategori kalt «Skjemainnsendinger».
+        2. Velg relevant kategori for saken, som for eksempel "Kundestøtte" eller en underkategori kalt "Skjemainnsendinger".
         3. Sett saksprioritet til **Middels**.
 
     * Velg **Manuelt – hvis innsender er ukjent. Automatisk – hvis innsender er kjent**: Hvis e-postadressen som er oppgitt i skjemaet, samsvarer med en e-postadresse i SuperOffice, behandles skjemainnsendingen automatisk. Hvis ikke, behandles den manuelt.

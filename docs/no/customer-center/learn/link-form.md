@@ -29,9 +29,9 @@ Du må [opprette et webskjema][3] før du kan legge det til i kundesenteret. Nå
 
 1. Gå til Kundesenter-siden, og åpne deretter **Systemvalg**-fanen.
 
-1. Rull nedover listen over alternativer, og merk av for Bruk egendefinert «kontakt oss»-skjema.
+1. Rull nedover listen over alternativer, og merk av for Bruk egendefinert "kontakt oss"-skjema.
 
-    ![Gå til alternativer på kundesentersiden, og merk deretter av for Bruk egendefinert «kontakt oss»-skjema -screenshot][img2]
+    ![Gå til alternativer på kundesentersiden, og merk deretter av for Bruk egendefinert "kontakt oss"-skjema -screenshot][img2]
 
 1. Klikk på nedtrekksmenyen Skjema for å velge webskjemaet du vil bruke. Du ser mappestrukturen du opprettet i Skjemaer-delen i Markedsføring, som inneholder alle webskjemaene.
 

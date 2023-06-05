@@ -11,7 +11,7 @@ language: no
 
 # Send e-postbekreftelse for personvern
 
-I den nye GDPR-verdenen har enkeltpersoner «rett til å bli informert». Det betyr at de har rett til å vite enten på forhånd eller innen 30 dager etter at deres informasjon er samlet inn. GDPR stipulerer at enkeltpersoner har rett til å bli informert (a) om at en organisasjon har til hensikt å lagre deres personopplysninger og (b) hva organisasjonen har tenkt å bruke opplysningene til.
+I den nye GDPR-verdenen har enkeltpersoner "rett til å bli informert". Det betyr at de har rett til å vite enten på forhånd eller innen 30 dager etter at deres informasjon er samlet inn. GDPR stipulerer at enkeltpersoner har rett til å bli informert (a) om at en organisasjon har til hensikt å lagre deres personopplysninger og (b) hva organisasjonen har tenkt å bruke opplysningene til.
 
 ## Innhente samtykke på forhånd gjennom skjemaer
 

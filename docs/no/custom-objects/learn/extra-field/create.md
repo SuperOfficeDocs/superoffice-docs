@@ -46,7 +46,7 @@ Når du har opprettet en [ekstra tabell][1], må du definere felt i tabellen, sl
 | Skjul feltet | Angi om feltet skal vises. |
 | Behold HTML-koder | (tekst) Velg dette alternativet for å inkludere HTML-koden i teksten. |
 | Navn | Feltets navn. I vårt eksempel er dette navnene som står i listen i innledningen til dette kapittelet. |
-| Antall enheter | (tidsperiode) Angi maksimum antall enheter for den "største" valgte tidsenheten. Eksempel: Hvis du valgte timer og minutter og skriver «4», kan maksimum 4 timer velges, mens minutter går til 60. På samme måte kan du for dager og timer maksimum velge 4 dager, mens timer går til 24. |
+| Antall enheter | (tidsperiode) Angi maksimum antall enheter for den "største" valgte tidsenheten. Eksempel: Hvis du valgte timer og minutter og skriver "4", kan maksimum 4 timer velges, mens minutter går til 60. På samme måte kan du for dager og timer maksimum velge 4 dager, mens timer går til 24. |
 | Tillat bladnode bare i hierarkiske listebokser | (relasjon til ekstratabell) Angi om bare den laveste noden i hierarkiet skal kunne velges av brukeren. |
 | Posisjon | Angir dette feltets plassering blant de andre feltene i oversikter. |
 | Søkeoperator | Velg søkeoperator som skal brukes i dette feltet. |
@@ -62,7 +62,7 @@ Når du har opprettet en [ekstra tabell][1], må du definere felt i tabellen, sl
 | Bruk gjeldende dato/klokkeslett som standardverdi | Hvis det er merket av, angis feltets verdi som gjeldende dato/klokkeslett som standard. I vårt eksempel kan dette være aktuelt for feltet "Registrert dato". |
 | Bruk dager / Bruk timer / Bruk minutter | Velg tidsenhetene du vil bruke i feltet for tidsperiode. |
 | Bruk standardverdi | Hvis det er merket av for dette alternativet, får feltet en standardverdi hvis ikke annet er angitt. |
-| Vis i relasjonsvelgere | Hvis den gjeldende tabellen har en relasjon til en annen tabell (relasjon til ekstratabell), velger du dette alternativet for å gjøre dette feltet tilgjengelig som et søkefelt. Eksempel: Du har opprettet en ekstratabell kalt «Produkter» med en relasjon til tabellen **Saker**. På denne måten kan du søke etter og legge til produkter i fanen **Ekstrafelt** når du oppretter nye saker. Hvis du velger **Vis i relasjonsvelger** for bestemte felt i tabellen «Produkter», blir disse feltene tilgjengelige som søkefelt i fanen **Ekstrafelt**. |
+| Vis i relasjonsvelgere | Hvis den gjeldende tabellen har en relasjon til en annen tabell (relasjon til ekstratabell), velger du dette alternativet for å gjøre dette feltet tilgjengelig som et søkefelt. Eksempel: Du har opprettet en ekstratabell kalt "Produkter" med en relasjon til tabellen **Saker**. På denne måten kan du søke etter og legge til produkter i fanen **Ekstrafelt** når du oppretter nye saker. Hvis du velger **Vis i relasjonsvelger** for bestemte felt i tabellen "Produkter", blir disse feltene tilgjengelige som søkefelt i fanen **Ekstrafelt**. |
 
 <!-- Referenced links -->
 [1]: ../extra-table/create.md

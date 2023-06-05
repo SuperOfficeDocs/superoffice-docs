@@ -108,21 +108,21 @@ Det finnes ulike typer flettefelt:
 
 I stedet for denne teksten:
 
-"Kjære kunde. Vil du vite mer om hvordan produktet vårt kan hjelpe firmaet ditt med å skaffe nye kunder? Kontakt oss på SuperShop».
+"Kjære kunde. Vil du vite mer om hvordan produktet vårt kan hjelpe firmaet ditt med å skaffe nye kunder? Kontakt oss på SuperShop".
 
 Du kan sende denne:
 
-«Kjære Jonas. Vil du vite mer om hvordan produktet vårt kan hjelpe Bilbutikken AS med å skaffe nye kunder? Ring Kari Nordmann på SuperShop."
+"Kjære Jonas. Vil du vite mer om hvordan produktet vårt kan hjelpe Bilbutikken AS med å skaffe nye kunder? Ring Kari Nordmann på SuperShop."
 
 Teksten du skriver inn vil se slik ut:
 
-«Kjære **[[customer.firstname]]**. Vil du vite mer om hvordan produktet vårt kan bidra til **[[company.name]]** å vinne nye kunder? Ring **[[company.ourSalesContact.name]]** på SuperShop».
+"Kjære **[[customer.firstname]]**. Vil du vite mer om hvordan produktet vårt kan bidra til **[[company.name]]** å vinne nye kunder? Ring **[[company.ourSalesContact.name]]** på SuperShop".
 
 ## To forskjellige redigeringsprogrammer
 
 Bruker du det nye Dra og slipp-redigeringsprogrammet eller den forrige versjonen ?
 
-Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger («Dra og slipp-redigeringsprogrammet») for å erstatte det gamle («Redigeringsprogrammet»). Redigeringsprogrammet for meldinger brukes når du oppretter e-postutsendelser og skjemasvar. Det gamle redigeringsprogrammet for meldinger vil fortsatt være tilgjengelig for redigering av meldinger og maler som er opprettet i den gamle versjonen. Alle nye utsendelser og maler bruker det nye meldingsredigeringsprogrammet.
+Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra og slipp-redigeringsprogrammet") for å erstatte det gamle ("Redigeringsprogrammet"). Redigeringsprogrammet for meldinger brukes når du oppretter e-postutsendelser og skjemasvar. Det gamle redigeringsprogrammet for meldinger vil fortsatt være tilgjengelig for redigering av meldinger og maler som er opprettet i den gamle versjonen. Alle nye utsendelser og maler bruker det nye meldingsredigeringsprogrammet.
 
 ### Redigeringsprogram (gammelt)
 

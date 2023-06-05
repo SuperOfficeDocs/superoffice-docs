@@ -44,7 +44,7 @@ Utsendelsene står oppført i detaljkortet **Utsendelser** i **Utvalg** og i det
 > [!NOTE]
 > Hvis du legger til et utvalg eller prosjekt, legges eventuelle personer i utvalget eller prosjektet til som mottakere i utsendelsen. Hvis du legger til både et utvalg og et prosjekt, legges bare personer fra utvalget til som mottakere.
 
-Eksempel: Hvis du sender ut flere utsendelser for å markedsføre et arrangement, kan du legge til disse utsendelsene i et utvalg kalt «Arrangement 2015», slik at du har en fullstendig liste over alle utsendelsene for dette arrangementet.
+Eksempel: Hvis du sender ut flere utsendelser for å markedsføre et arrangement, kan du legge til disse utsendelsene i et utvalg kalt "Arrangement 2015", slik at du har en fullstendig liste over alle utsendelsene for dette arrangementet.
 
 Og hvis du oppretter et prosjekt for arrangementet, kan du på tilsvarende måte ha en liste over alle prosjektrelaterte utsendelser i detaljkortet **Aktiviteter**.
 

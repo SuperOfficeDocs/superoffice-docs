@@ -16,7 +16,7 @@ language: no
 Mange bedrifter mottar ofte saker relatert til fakturering. Slike saker skal rett til regnskapsavdelingen. I stedet for å redigere hver sak og endre kategori og eier, kan vi opprette en makro som utfører alle disse handlingene. Makroen kan tilordnes til **Oppgave**-knappen i skjermbildet Sak. Fakturaspørsmål kan dermed delegeres til regnskapsavdelingen med bare ett klikk.
 
 > [!TIP]
-> Du kan automatisere denne prosessen ved å opprette et e-postfilter for å søke etter ordet «faktura» i e-postemner, og deretter kjøre makroen for å tildele saken til den riktige avdelingen.
+> Du kan automatisere denne prosessen ved å opprette et e-postfilter for å søke etter ordet "faktura" i e-postemner, og deretter kjøre makroen for å tildele saken til den riktige avdelingen.
 
 Vi skal nå opprette en makro basert på eksemplet ovenfor.
 
@@ -28,7 +28,7 @@ Vi skal nå opprette en makro basert på eksemplet ovenfor.
     * Slik oppretter du en ny makro: Klikk på **Ny makro**.
     * Slik redigerer du en eksisterende makro: Klikk på makronavnet.
 
-1. I fanen **Informasjon** skriver du inn «Send sak til regnskapsavd.» i feltet **Navn** og angir en beskrivelse i feltet nedenfor.
+1. I fanen **Informasjon** skriver du inn "Send sak til regnskapsavd." i feltet **Navn** og angir en beskrivelse i feltet nedenfor.
 
 1. Velg alternativet **Ny meny** for å opprette en makro for **Oppgave**-knappen i bildet Firma, Person eller Sak, eller fanen **Melding**.
 

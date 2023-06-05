@@ -28,7 +28,7 @@ Når du skal synkronisere data mellom SuperOffice og ERP-systemer, må du angi h
 1. Velg det tilsvarende CRM-elementet for hvert ERP-element.
 
     > [!NOTE]
-    >Tilordning er «en til en». Du kan ikke tilordne til samme CRM-element to ganger. Dobbelt tilordnede listeelementer vises i RØDT. For å la et ERP-listeelement være utilordnet, velger du **(Ingen utvalg)**.
+    >Tilordning er "en til en". Du kan ikke tilordne til samme CRM-element to ganger. Dobbelt tilordnede listeelementer vises i RØDT. For å la et ERP-listeelement være utilordnet, velger du **(Ingen utvalg)**.
 
 1. Gjenta trinn 4 til 5 hvis du vil tilordne listeelementer for den neste listen.
 

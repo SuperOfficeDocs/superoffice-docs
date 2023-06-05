@@ -23,11 +23,11 @@ Det faktum at kundene dine kan administrere sine egne abonnementer, vil påvirke
 
 ## Mållisten din
 
-Når du [oppretter mållisten][1] for neste utsendelse, kan du gjøre et valg basert på abonnementstypen du skal bruke. Da vil SuperOffice CRM bare legge til personer som har sagt «ja» til denne typen abonnement.
+Når du [oppretter mållisten][1] for neste utsendelse, kan du gjøre et valg basert på abonnementstypen du skal bruke. Da vil SuperOffice CRM bare legge til personer som har sagt "ja" til denne typen abonnement.
 
 ## Velg abonnementstype
 
-Det er flere måter å opprette mållisten på ved hjelp av et utvalg. Det betyr at du kanskje ikke alltid bruker en abonnementstype som utvalgskriterium. Når du gjør dette, er det lett å miste det faktum av syne at du har lagt folk som sa «nei» til å motta utsendelser, til mållisten din.
+Det er flere måter å opprette mållisten på ved hjelp av et utvalg. Det betyr at du kanskje ikke alltid bruker en abonnementstype som utvalgskriterium. Når du gjør dette, er det lett å miste det faktum av syne at du har lagt folk som sa "nei" til å motta utsendelser, til mållisten din.
 
 For å hindre at du sender utsendelser til personer som ikke ønsker å motta dem, kan SuperOffice CRM hjelpe deg ved å filtrere bort personer som ikke har gitt deg samtykke.
 

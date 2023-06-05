@@ -7,7 +7,7 @@
 
   * **Kilde**: Skriv inn kilden til utsendelsen, for eksempel `superoffice-utsendelser.4`
 
-  * **Kampanje**: Skriv inn typen utsendelse, for eksempel «nyhetsbrev» eller «leads-oppfølging», eller skriv inn et bestemt kampanjenavn, for eksempel «vårsalg-juni-21» eller «oppgraderingskampanje-v9».
+  * **Kampanje**: Skriv inn typen utsendelse, for eksempel "nyhetsbrev" eller "leads-oppfølging", eller skriv inn et bestemt kampanjenavn, for eksempel "vårsalg-juni-21" eller "oppgraderingskampanje-v9".
 
 <!-- Referenced links -->
 [1]: ../../../../tracked-links/learn/index.md#google

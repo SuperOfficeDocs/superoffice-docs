@@ -59,7 +59,7 @@ Ikke bare er GDPR en lov, men det er også en flott mulighet du kan bruke til å
 
 * Tilby en enkel og likefrem måte som personene dine kan bruke til å velge bort markedsføringskampanjer via e-post på, ved å legge inn tydelig synlige koblinger for avmelding i utsendelsene dine. En annen måte å sikre at du bare kontakter personene som ønsker å høre fra deg på, er å opprette et senter for abonnementshåndtering der de registrerte kan velge innholdet de vil motta.
 
-* Få nye tillatelser fra den eksisterende kundebasen din. Dette betyr at hvis du ikke er sikker på om du har de nødvendige tillatelsene, og hvis du ikke har gitt personene dine mulighet til å melde seg av, kan det være nødvendig å få nye tillatelser. Å sende en «ny tillatelse»-kampanje er også en flott måte å oppdatere de eksisterende postene dine på.
+* Få nye tillatelser fra den eksisterende kundebasen din. Dette betyr at hvis du ikke er sikker på om du har de nødvendige tillatelsene, og hvis du ikke har gitt personene dine mulighet til å melde seg av, kan det være nødvendig å få nye tillatelser. Å sende en "ny tillatelse"-kampanje er også en flott måte å oppdatere de eksisterende postene dine på.
 
 ## Fire måter å lage mållister på
 
@@ -81,7 +81,7 @@ Hva du bør tenke på når du vil segmentere databasen:
 
 * Personene du ønsker å sende utsendelser til, må ha samtykket til e-markedsføring. Det betyr at du har et rettslig grunnlag for å sende dem utsendelser i utgangspunktet, og at de ikke har valgt bort dette (f.eks. trukket tilbake samtykket).
 
-* I tillegg bør du vurdere å bruke funksjonen for abonnementshåndtering som lar deg spore hvilken type utsendelser personen din gjerne vil motta. Eksempler på abonnementer kan være «nyhetsbrev», «invitasjoner» eller «produktoppdateringer», eller det kan være spesifikke innholdsemner og annet. Dermed kan du sende riktig informasjon til de rette personene.
+* I tillegg bør du vurdere å bruke funksjonen for abonnementshåndtering som lar deg spore hvilken type utsendelser personen din gjerne vil motta. Eksempler på abonnementer kan være "nyhetsbrev", "invitasjoner" eller "produktoppdateringer", eller det kan være spesifikke innholdsemner og annet. Dermed kan du sende riktig informasjon til de rette personene.
 
 * **Ekstrafelt** er også viktige for markedsføringsrutinen din. Du kan legge til ekstrafelt i SuperOffice CRM som inneholder informasjonen du trenger for å lage den perfekte mållisten.
 

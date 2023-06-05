@@ -18,7 +18,7 @@ Flere deler av SuperOffice CRM, for eksempel Firma-bildet, har en egen fane som 
 Alle firmaer og organisasjoner har sine egne krav til informasjonen de trenger for å registrere om sine kunder, salg, prosjekter, kontrakter og så videre. Du kan angi dine egne felt for SuperOffice CRM i **Felt**-bildet. På den måten kan du tilpasse typen opplysninger som kan registreres om firmaer, personer, prosjekter, salg, dokumenter og oppfølginger.
 
 > [!NOTE]
-> Du kan angi 3 felt som kan vises på «førstesiden» i de aktuelle bildene eller dialogboksene. [Slik][1]. Dette gjelder kanskje ikke hvis du bruker et annet utseende via [Skjermdesigner][8].
+> Du kan angi 3 felt som kan vises på "førstesiden" i de aktuelle bildene eller dialogboksene. [Slik][1]. Dette gjelder kanskje ikke hvis du bruker et annet utseende via [Skjermdesigner][8].
 
 ## <a id="field-types" />Felttyper
 
@@ -41,7 +41,7 @@ Alle firmaer og organisasjoner har sine egne krav til informasjonen de trenger f
 * [Fanen Mer (Dokument)][5]
 * Fanen Detaljer i Salg-bildet
 
-Du kan angi *side 1-felt* (felt som skal vises på «førstesiden» i de aktuelle bildene eller dialogboksene) på følgende steder:
+Du kan angi *side 1-felt* (felt som skal vises på "førstesiden" i de aktuelle bildene eller dialogboksene) på følgende steder:
 
 [!include[List](includes/list-page-1-field-locations.md)]
 

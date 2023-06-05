@@ -60,7 +60,7 @@ Hvis kundesenteret ditt er flerspråklig, kan du angi valg (for eksempel velkoms
 | Vis bunntekst | Velg dette alternativet for å vise en bunntekst nederst på siden. Klikk på **Rediger** for å skrive inn tekst. |
 | Vis nettprat | Velg dette alternativet for å aktivere chatvinduet nederst til høyre på siden. Velg **Alltid** hvis du vil at chatvinduet skal være tilgjengelig for alle som besøker kundesenteret. Ellers velger du **Innloggede kunder** for å kreve at brukere logger på for å få tilgang til chatvinduet. |
 | Chatkanal | Velg chatkanalen du vil bruke. Hvis ingen chatkanal er valgt, vil ikke chatvinduet være tilgjengelig. |
-| Bruk egendefinert «kontakt oss»-skjema | Velg dette alternativet for å bruke et egendefinert skjema i stedet for standardskjemaet. Velg et skjema fra listen.|
+| Bruk egendefinert "kontakt oss"-skjema | Velg dette alternativet for å bruke et egendefinert skjema i stedet for standardskjemaet. Velg et skjema fra listen.|
 
 <!-- Referenced links -->
 [1]: edit.md

@@ -24,7 +24,7 @@ Fanen **Feilsøkingsøkter** inneholder en liste over alle aktive feilsøkingsse
 
 ## Start feilsøkingssesjon
 
-Du kan starte en av disse sesjonene ved å kjøre et skript i feilsøkingsmodus fra bildet **Skript**, eller ved å kalle funksjonen «Void enableDebug(String key)» i et CRMScript.
+Du kan starte en av disse sesjonene ved å kjøre et skript i feilsøkingsmodus fra bildet **Skript**, eller ved å kalle funksjonen "Void enableDebug(String key)" i et CRMScript.
 
 Du kan også klikke på ![ikon][img1] **Start sporing av skript** for å begynne å [spore][2] skriptene i listen.
 

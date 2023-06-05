@@ -20,7 +20,7 @@ Fanen **Klager på søppelpost** viser alle mottakere som har rapportert en e-po
 
 Folk klikker på spam (eller søppelpost) av ulike årsaker. De kan av en eller annen grunn bli usikre på hvem du er eller hvorfor du sender dem e-post. I noen tilfeller rapporterer folk spam fordi de ikke finner koblingen for å stoppe abonnementet.
 
-Hvis en mottaker bruker Mailgun, blir all e-post som blir rapportert som spam, lagt til i listen «stoppet». Det betyr at brukerne våre ikke lenger kan sende e-post til den personen. Dette betyr ingen utsendelse og ingen respons på pågående forespørsler, noe som kan føre til alvorlige problemer.
+Hvis en mottaker bruker Mailgun, blir all e-post som blir rapportert som spam, lagt til i listen "stoppet". Det betyr at brukerne våre ikke lenger kan sende e-post til den personen. Dette betyr ingen utsendelse og ingen respons på pågående forespørsler, noe som kan føre til alvorlige problemer.
 
 ### Sjekkliste for å unngå klager på søppelpost
 

@@ -65,7 +65,7 @@ Når du legger til en kobling til websiden din i utsendelsen din uten en emnekna
 
 Google Analytics-funksjonen i SuperOffice Marketing identifiserer utsendelsene dine i rapportene. Ved å legge en unik emneknagg til alle koblingene du bruker i utsendelsen din, vil Google Analytics gjenkjenne utsendelsen din som kilden der de besøkende kommer fra. Google Analytics gir deg også innsikt i de besøkendes vei gjennom websiden din.
 
-**Medium**: «E-post» er det forhåndsdefinerte mediet i automatiserte UTM-koder. Det betyr at sporede lenker i utsendelser som sendes fra SuperOffice, finnes i Google Channel-rapporter under «E-post» (i motsetning til «andre»).
+**Medium**: "E-post" er det forhåndsdefinerte mediet i automatiserte UTM-koder. Det betyr at sporede lenker i utsendelser som sendes fra SuperOffice, finnes i Google Channel-rapporter under "E-post" (i motsetning til "andre").
 
 **Kilde** og **Kampanje**: Disse feltene identifiserer denne spesifikke utsendelsen som kilden, og gir mulighet for en mer nøyaktig sporing og rapportering i Google.
 

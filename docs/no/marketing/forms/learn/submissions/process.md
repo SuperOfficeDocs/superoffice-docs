@@ -20,7 +20,7 @@ Når du har konfigurert webskjemaet til å behandle alle innkommende innsendinge
 
 * Når du behandler skjemainnsendinger manuelt, kan du forhindre duplikater ved å kontrollere om en person allerede er registrert i databasen eller ikke.
 
-* Du kan også velge dette alternativet «Manuelt hvis innsender er ukjent. Automatisk hvis innsender er kjent». Deretter har du mer kontroll over personene som er lagt til i databasen via skjemainnsendinger.
+* Du kan også velge dette alternativet "Manuelt hvis innsender er ukjent. Automatisk hvis innsender er kjent". Deretter har du mer kontroll over personene som er lagt til i databasen via skjemainnsendinger.
 
 Skjemainnsendinger med statusen **Innsendt** må behandles manuelt. Dette innebærer å gå gjennom innholdet i skjemaet og knytte innsenderen til en eksisterende eller ny person og/eller et firma i SuperOffice. Behandlede skjemaer er tilgjengelige på detaljkortet **Aktiviteter** i skjermbildene Firma og Person i SuperOffice CRM. Hvis du valgte å bli varslet ved Ny sak, vil de behandlede skjemaene være tilgjengelige på detaljkortet**Forespørselsseksjon**.
 

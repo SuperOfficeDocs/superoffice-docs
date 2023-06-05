@@ -11,7 +11,7 @@ language: no
 
 # Opprette tilbudsdokument
 
-Når du har opprettet tilbudet og lagt til ønskede produkter, kan du opprette tilbudsdokumentet som skal sendes til kunden. Dette er «brevet» som sendes til kunden. Oversikten over produkter som blir tilbudt, legges til når tilbudet sendes til kunden.
+Når du har opprettet tilbudet og lagt til ønskede produkter, kan du opprette tilbudsdokumentet som skal sendes til kunden. Dette er "brevet" som sendes til kunden. Oversikten over produkter som blir tilbudt, legges til når tilbudet sendes til kunden.
 
 1. Åpne et eksisterende tilbud, eller [opprett et nytt tilbud][1].
 

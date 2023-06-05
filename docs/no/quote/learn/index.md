@@ -21,7 +21,7 @@ Når kunden har godtatt tilbudet, kan du generere en ordre som du sender til vid
 
 1. Åpne et salg og [opprett tilbudet][1].
 2. [Legg til produkter i tilbudet][2].
-3. [Opprett tilbudsdokumentet][3]. Dette er «brevet» som følger med oversikten over produkter som tilbys.
+3. [Opprett tilbudsdokumentet][3]. Dette er "brevet" som følger med oversikten over produkter som tilbys.
 4. [Send tilbudet][4].
 5. Når kunden godtar tilbudet, kan du [registrere ordren][5].
 

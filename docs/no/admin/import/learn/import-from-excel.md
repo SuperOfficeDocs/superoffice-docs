@@ -19,9 +19,9 @@ Excel-regnearket kan for eksempel inneholde:
 * En liste over leads/prospekter som du vil legge inn i SuperOffice.
 
     > [!TIP]
-    > Legg til en kolonne med for eksempel teksten «potensiell kunde» for alle personene, slik at det blir enkelt å koble dem til riktig kategori i SuperOffice CRM.
+    > Legg til en kolonne med for eksempel teksten "potensiell kunde" for alle personene, slik at det blir enkelt å koble dem til riktig kategori i SuperOffice CRM.
 
-* En firma-/personliste med «vaskede» data (eksportert og kvalitetskontrollert for deretter å importeres igjen).
+* En firma-/personliste med "vaskede" data (eksportert og kvalitetskontrollert for deretter å importeres igjen).
 
 * Firmaer og personer fra andre programmer og formater, for eksempel økonomisystemer, andre CRM-klienter, e-postklienter (bortsett fra Gmail og Outlook) og Windows-installasjoner av SuperOffice CRM.
 

@@ -23,7 +23,7 @@ language: no
     * **Navn**
     * **Beskrivelse**
     * **Inkluder navn**: Et unikt navn for skriptet, som brukes til å inkludere dette skriptet i et annet skript.
-    * **Nøkkel**: Nøkkelen brukes med funksjonen «action=parse» på kundesidene, slik at du kan kjøre og sette opp skriptbasert funksjonalitet i SuperOffice Customer Centre. Nøkkelen hindrer at tilfeldige skript kjøres fra kundesidene.
+    * **Nøkkel**: Nøkkelen brukes med funksjonen "action=parse" på kundesidene, slik at du kan kjøre og sette opp skriptbasert funksjonalitet i SuperOffice Customer Centre. Nøkkelen hindrer at tilfeldige skript kjøres fra kundesidene.
     * **Vis resultat av skriptkjøring som HTML**
 
 1. I fanen **Skript** kan du angi selve skriptet.

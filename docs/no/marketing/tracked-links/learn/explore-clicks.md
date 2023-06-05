@@ -23,7 +23,7 @@ Du kan inkludere koblinger (URL-adresser) i en e-postutsendelse eller et skjemas
 * Hvis du vil vise koblingene for alle utsendelser, klikker du på fanen **Sporede koblinger** i hovedbildet i SuperOffice Marketing. Hvis du ikke finner koblingen du vil arbeide med, klikker du på **Alle koblinger**. Klikk på koblingen du vil arbeide med.
 
     > [!NOTE]
-    > Det er bare [registrerte koblinger][2] som vises her. Hvis du legger til «vanlige» koblinger i utsendelsen, må du velge alternativet **Spor alle koblinger** i Trinn 1: Oppsett.
+    > Det er bare [registrerte koblinger][2] som vises her. Hvis du legger til "vanlige" koblinger i utsendelsen, må du velge alternativet **Spor alle koblinger** i Trinn 1: Oppsett.
 
 ## Utforsk klikk
 

@@ -21,7 +21,7 @@ Du kan lage en kopi av et eksisterende dashbord. For eksempel for å lage din eg
 
 3. Klikk på **Oppgave** -knappen, og velg **Dupliser dashbord**.
 
-    Duplikatet åpnes med en «2» etter navnet.
+    Duplikatet åpnes med en "2" etter navnet.
 
 4. Hvis du vil endre navnet på dashbordet og justere andre innstillinger, klikker du på **Oppgave** -knappen og velger **Rediger dashbord**.
 

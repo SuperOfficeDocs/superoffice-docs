@@ -19,7 +19,7 @@ Alle firmaer og organisasjoner har sine egne krav til informasjonen de trenger f
 
 ## Egendefinerte felt og tabeller
 
-Et godt eksempel på et egendefinert felt du kan bruke på **Personkortet**, er feltet «Fornøyd kunde», der verdien for feltet er Ja eller Nei.
+Et godt eksempel på et egendefinert felt du kan bruke på **Personkortet**, er feltet "Fornøyd kunde", der verdien for feltet er Ja eller Nei.
 
 Du kan for eksempel sende personene dine en e-post (med koblingshandlinger) der de kan oppgi om de er fornøyde med tjenestene dine. Dette gir deg verdifull innsikt i den generelle kundetilfredsheten.
 

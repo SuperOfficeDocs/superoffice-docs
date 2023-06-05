@@ -19,4 +19,4 @@ language: no
 
 Gjør kundene mer fornøyde ved å bruke kunstig intelligens til å oppdage viktighet/hastverk, og kundens emosjonelle språk. Kjør automatisk analyse av innkommende meldinger i saker for å finne ut om innholdet er positivt, negativt eller nøytralt.
 
-* **Sentimentanalyse**: Velg dette alternativet for å aktivere automatisk sentimentanalyse for innkommende saker. Saksbehandlere kan raskt avgjøre «stemningen» i en melding fra uttrykksikonet (lykkelig, trist eller nøytral) under meldingen i en sak.
+* **Sentimentanalyse**: Velg dette alternativet for å aktivere automatisk sentimentanalyse for innkommende saker. Saksbehandlere kan raskt avgjøre "stemningen" i en melding fra uttrykksikonet (lykkelig, trist eller nøytral) under meldingen i en sak.

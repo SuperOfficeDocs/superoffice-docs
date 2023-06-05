@@ -49,7 +49,7 @@ Vi skal nå lage en serie med handlinger basert på eksemplet ovenfor.
 1. Merk av for **HTML-melding**, og velg **Last inn en svarmal for fletting** > **HTML-tekst**.
 1. Klikk på **Bruk**.
 
-Du har nå laget en makro som sender en e-post med «Sak avsluttet» til kunden når en sak blir avsluttet. Denne triggeren aktiveres umiddelbart hvis du merket av for **Aktivert** øverst.
+Du har nå laget en makro som sender en e-post med "Sak avsluttet" til kunden når en sak blir avsluttet. Denne triggeren aktiveres umiddelbart hvis du merket av for **Aktivert** øverst.
 
 <!-- Referenced links -->
 

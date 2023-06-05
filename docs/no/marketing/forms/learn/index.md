@@ -13,7 +13,7 @@ language: no
 
 Skjemafunksjonen er et kraftig system som gir informasjon fra et skjema til SuperOffice uten for mange integrasjoner og styr. Skjemaer gjør det enklere å samhandle med kunder og prospekter via websiden din eller kundesenteret. En rekke data kan legges til i et skjema (inkludert filopplasting), og du kan legge til automatiserte handlinger som skal utføres når skjemaet sendes og behandles.
 
-Det er enkelt å opprette et skjema og legge det ut på en hvilken som helst nettside hvor du vil at det skal vises, for eksempel «Kontakt meg»-skjemaer, og det er enkelt å forvandle alle de nye prospektene til personer i SuperOffice.
+Det er enkelt å opprette et skjema og legge det ut på en hvilken som helst nettside hvor du vil at det skal vises, for eksempel "Kontakt meg"-skjemaer, og det er enkelt å forvandle alle de nye prospektene til personer i SuperOffice.
 
 ![Du kan bruke et webskjema til å be folk om å melde seg på ditt neste webinar eller seminar, eller til å kontakte firmaet ditt med sine spørsmål -screenshot][img1]
 

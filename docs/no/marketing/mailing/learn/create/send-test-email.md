@@ -28,7 +28,7 @@ Opprett et lite utvalg som består av deg og noen av kollegene dine. Du kan send
 
 Når du tester en utsendelse, er det viktig å kontrollere følgende:
 
-* At malvariabler er erstattet med kundedata. For eksempel ser du «Hei Jon» og ikke «Hei **[[customer.firstname]]**».
+* At malvariabler er erstattet med kundedata. For eksempel ser du "Hei Jon" og ikke "Hei **[[customer.firstname]]**".
 * At koblinger fungerer og peker til de riktige sidene.
 * At klikk på koblinger registreres i SuperOffice Marketing.
 * At meldinger som åpnes, registreres i SuperOffice Marketing.

@@ -21,7 +21,7 @@ Flettefelt kommer i mange former: de kan være kundens fornavn, firmanavn, hilse
 
 1. Merk en tekst i meldingen.
 
-2. Skriv for eksempel «Kjære».
+2. Skriv for eksempel "Kjære".
 
 3. Plasser musepekeren etter teksten, og klikk på **Flettefelt** på verktøylinjen.
 

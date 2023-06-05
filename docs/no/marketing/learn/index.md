@@ -11,7 +11,7 @@ language: no
 
 # SuperOffice Marketing
 
-SuperOffice Marketing handler om utgående kommunikasjon og skjemaer. Bruk utsendelser til å informere kunder om for eksempel oppgraderinger og produktnyheter. Bruk skjemaer for produkt-/nyhetsbrevregistrering, samtykkestyring, dataoppdateringer og enkle «kontakt meg»-skjemaer.
+SuperOffice Marketing handler om utgående kommunikasjon og skjemaer. Bruk utsendelser til å informere kunder om for eksempel oppgraderinger og produktnyheter. Bruk skjemaer for produkt-/nyhetsbrevregistrering, samtykkestyring, dataoppdateringer og enkle "kontakt meg"-skjemaer.
 
 Du åpner SuperOffice Marketing ved å klikke på ikonet**Markedsføring** ![ikon][img2] i Navigatoren.
 

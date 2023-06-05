@@ -15,7 +15,7 @@ Når du for eksempel sender ut et nyhetsbrev, må du gi mottakerne muligheten ti
 
 Avmeldingskoblingen plasseres vanligvis nederst i en melding. Hvis du bruker en av e-postmalene våre, er denne koblingen allerede lagt til.
 
-Du bestemmer hvor denne avmeldingskoblingen vises og ordlyden i den, samt hva som skal skje når noen klikker på denne koblingen. Du kan for eksempel føre mottakerne til en «avmeldingsside» der de kan administrere preferansene sine, eller de kan automatisk bli valgt bort fra alle utsendelsene dine.
+Du bestemmer hvor denne avmeldingskoblingen vises og ordlyden i den, samt hva som skal skje når noen klikker på denne koblingen. Du kan for eksempel føre mottakerne til en "avmeldingsside" der de kan administrere preferansene sine, eller de kan automatisk bli valgt bort fra alle utsendelsene dine.
 
 ![Fra symbolet Sett inn/rediger kobling klikker du på Spesielle koblinger og legger til koblingen for å avslutte abonnementet -screenshot][img4]
 
@@ -42,7 +42,7 @@ Du bestemmer hvor denne avmeldingskoblingen vises og ordlyden i den, samt hva so
 2. Velg fanen **Brødtekst**.
 3. Plasser musepekeren der du ønsker å sette inn koblingen.
 4. Klikk på knappen ![ikon][img2] **Påmeldingskoblinger** på verktøylinjen.
-5. I dialogboksen **Sett inn av-/påmeldingskobling** endrer du om nødvendig teksten i feltet **Koblingstekst** til for eksempel «Klikk her hvis du vil melde deg av» eller «Klikk her for å endre abonnementene dine».
+5. I dialogboksen **Sett inn av-/påmeldingskobling** endrer du om nødvendig teksten i feltet **Koblingstekst** til for eksempel "Klikk her hvis du vil melde deg av" eller "Klikk her for å endre abonnementene dine".
 6. I feltet **Sett inn av-/påmeldingskobling** velger du ett av følgende alternativer:
     * **Endre abonnement**: Sett inn en kobling til en nettside der mottakerne kan velge hvilke utsendelsestyper de vil motta. Koblingen er gyldig i 21 dager som standard.
     * **Meld av denne utsendelsestypen**: Setter inn en kobling for avmelding av denne utsendelsestypen. Mottakeren kommer fortsatt til å motta andre typer utsendelser. Utsendelsestypen velges i Trinn 1: Oppsett.
@@ -55,11 +55,11 @@ Basert på tilbakemelding fra mottakerne, oppdateres abonnementsinnstillingene i
 > [!NOTE]
 > Dette innebærer at kunden ikke lenger mottar denne utsendelsestypen fra SuperOffice Marketing, uansett hvilken mottakerliste som brukes til utsendelsen. Dette kan være uheldig for fremtidig markedsføring. [Hvilke alternativer har jeg?][2]
 >
-> Du har imidlertid mulighet til å overstyre innstillingene «ikke samtykke/ikke abonnement» fra **Alternativer** i den nedre delen av skjermen **Mottakere** (se Trinn 4: Mottakere).
+> Du har imidlertid mulighet til å overstyre innstillingene "ikke samtykke/ikke abonnement" fra **Alternativer** i den nedre delen av skjermen **Mottakere** (se Trinn 4: Mottakere).
 
 ## <a id="clear-interests" />Fjerne interesser i SuperOffice CRM
 
-I SuperOffice CRM kan du registrere interesser (for eksempel «Månedlig nyhetsbrev») på personene. Disse interessene kan brukes som utgangspunkt for ulike typer utsendelser. I stedet for å bruke avmelding kan du enkelt fjerne en bestemt interesse, for eksempel et månedlig nyhetsbrev, hos kunder som ikke ønsker å motta det.
+I SuperOffice CRM kan du registrere interesser (for eksempel "Månedlig nyhetsbrev") på personene. Disse interessene kan brukes som utgangspunkt for ulike typer utsendelser. I stedet for å bruke avmelding kan du enkelt fjerne en bestemt interesse, for eksempel et månedlig nyhetsbrev, hos kunder som ikke ønsker å motta det.
 
 Det gjør du ved å [lage en kobling som fjerner den aktuelle interessen][4] hos mottakere som klikker på koblingen. Samme metode kan brukes til å registrere interesser.
 

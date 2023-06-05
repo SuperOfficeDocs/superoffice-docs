@@ -16,7 +16,7 @@ Du kan knytte dokumentutsendelsen til et bestemt salg. Dette kan være aktuelt h
 
 3. I feltet **Ved** må du velge hvem utsendelsen skal dirigeres til. Velg ett av følgende alternativer:
 
-    * **Hvis ingen er definert**: Velg dette alternativet hvis du vil bruke mottakernes navn som standard. Hvis ingen mottakernavn blir funnet, bruker du mottakeren du angir i tekstfeltet. Hvis du lager en utsendelse rettet mot IT-medarbeidere i et firma, kan du skrive inn «IT-avdeling» eller lignende.
+    * **Hvis ingen er definert**: Velg dette alternativet hvis du vil bruke mottakernes navn som standard. Hvis ingen mottakernavn blir funnet, bruker du mottakeren du angir i tekstfeltet. Hvis du lager en utsendelse rettet mot IT-medarbeidere i et firma, kan du skrive inn "IT-avdeling" eller lignende.
 
     * **Bruk alltid**: Velg dette alternativet hvis du vil overstyre mottakernes navn og bare bruke mottakeren du angir i tekstfeltet.
 

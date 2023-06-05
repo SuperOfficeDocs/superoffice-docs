@@ -121,7 +121,7 @@ I fanen **Startskjema for chat** kan du definere hvordan kundene skal identifise
 | Aktiver FAQ-forslag før chat | Hvis du aktiverer FAQ-forslag, vil de topp tre FAQene som samsvarer med kundens melding, vises i chatvinduet før chatsamtalen. Kunden kan klikke på FAQ-koblingene for å vise de fullstendige FAQene i SuperOffice Customer Centre. Hvis ingen av de forslåtte FAQene svarer på spørsmålene deres, kan de velge å starte chatsamtalen. |
 | FAQ-mappe | Velg mappen som inneholder FAQene (og undermapper med FAQer) som skulle vises til kundene. Bare FAQer som har vært publisert og er tilgjengelige for alle (ingen pålogging påkrevd), vises til kundene. |
 | Aktiver startskjema for chat for anonyme brukere | Velg dette alternativet hvis kundene må identifisere seg før de starter chatsamtalen. La dette alternativet stå umerket hvis kundene skal kunne starte chatsamtalen direkte. |
-| Melding | Skriv en melding til kunden. Eksempel: «Hei! Takk for at du kontakter oss. Hva kan vi hjelpe deg med?» |
+| Melding | Skriv en melding til kunden. Eksempel: "Hei! Takk for at du kontakter oss. Hva kan vi hjelpe deg med?" |
 | Obligatoriske felt for å starte chat | Velg informasjonen kunden må angi for å starte chatsamtalen. |
 
 Forhåndsvisningen til høyre viser chatvinduet med de gjeldende innstillingene.

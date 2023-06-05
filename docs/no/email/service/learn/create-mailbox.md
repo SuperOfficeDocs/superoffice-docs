@@ -25,7 +25,7 @@ Du kan opprette en postkasse som skal brukes til å importere e-post til SuperOf
 1. I **Adresse**-feltet skriver du inn navnet uten @domene.xx, og trykker **TAB** for å legge til CRM Online-innstillingene til e-postadressen.
 
     > [!NOTE]
-    > En «vennlig» e-postadresse kan legges til adressen ved å legge til ("vennlig navn") på slutten av e-postadressen. Eksempel: info@company.com (Kunde Ltd.).
+    > En "vennlig" e-postadresse kan legges til adressen ved å legge til ("vennlig navn") på slutten av e-postadressen. Eksempel: info@company.com (Kunde Ltd.).
 
 1. Velg kategori og prioritet:
 

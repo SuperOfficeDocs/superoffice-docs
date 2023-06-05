@@ -32,7 +32,7 @@ Dette er en oversikt over spesialalternativer i noen av de tilgjengelige feltene
   * Hvis dette alternativet er AV: Både personen og firmaet legges til i SuperOffice.
 
   > [!NOTE]
-  > Normalt er denne innstillingen AV for å unngå at «tilfeldige» personer blir lagt til firma de ikke tilhører.
+  > Normalt er denne innstillingen AV for å unngå at "tilfeldige" personer blir lagt til firma de ikke tilhører.
 
 ## Skjemaelementer
 
@@ -70,7 +70,7 @@ Dette er en oversikt over spesialalternativer i noen av de tilgjengelige feltene
 
 * **Vurdering**: Et felt der kundene for eksempel kan rangere tjenesten de har mottatt, ved hjelp av ulike rangeringstyper (stjerner, terninger, skala fra 1-10 og lignende).
 
-* **Google reCAPTCHA**: [ReCAPTCHA-funksjonen][1] («Jeg er ikke en robot»-avmerkingsboks) er en gratis Google-tjeneste som sikrer at bare virkelige brukere kan sende inn webskjemaer. Dette hindrer spam og automatiserte roboter fra å sabotere datainnsamlingen din.
+* **Google reCAPTCHA**: [ReCAPTCHA-funksjonen][1] ("Jeg er ikke en robot"-avmerkingsboks) er en gratis Google-tjeneste som sikrer at bare virkelige brukere kan sende inn webskjemaer. Dette hindrer spam og automatiserte roboter fra å sabotere datainnsamlingen din.
 
 ## Vis elementer
 

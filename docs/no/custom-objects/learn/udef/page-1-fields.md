@@ -16,7 +16,7 @@ language: no
 > [!NOTE]
 > Denne funksjonen er ikke tilgjengelig hvis organisasjonen bruker tilpassede skjermlayouter.
 
-Blant de brukerdefinerte feltene som vises i **Mer**-fanene i SuperOffice CRM, kan du velge ut *tre* felt som skal fungere som såkalte side 1-felt (fordi de vises på «førstesiden» i sine respektive bilder eller dialogbokser).
+Blant de brukerdefinerte feltene som vises i **Mer**-fanene i SuperOffice CRM, kan du velge ut *tre* felt som skal fungere som såkalte side 1-felt (fordi de vises på "førstesiden" i sine respektive bilder eller dialogbokser).
 
 ## Hvor kan jeg vise side 1-felt?
 

@@ -25,7 +25,7 @@ SuperOffice Marketing måler effekten av utsendelsen din umiddelbart. Du kan se 
 
 ## Bestem hvilket referansepunkt du skal ha for suksess
 
-Når er utsendelsen din vellykket? Dette spørsmålet kan det være vanskelig å svare på hvis du ikke har sendt utsendelser til personene dine med en profesjonell løsning for utsendelser. Derfor er det en god idé å sende ut noen «testutsendelser» fra utsendelsesløsningen din for å bestemme hva ditt referansepunkt for ytelse skal være.
+Når er utsendelsen din vellykket? Dette spørsmålet kan det være vanskelig å svare på hvis du ikke har sendt utsendelser til personene dine med en profesjonell løsning for utsendelser. Derfor er det en god idé å sende ut noen "testutsendelser" fra utsendelsesløsningen din for å bestemme hva ditt referansepunkt for ytelse skal være.
 
 For å forbedre fremtidige utsendelser, må du finne ut hva som fungerer for personene dine. Den enkleste måten å gjøre det på, er å dele målgruppene for de første utsendelsene inn i to eller flere grupper. Deretter sender du dem samme utsendelse, der du endrer emnefeltet, din CTA eller andre deler av utsendelsen.
 

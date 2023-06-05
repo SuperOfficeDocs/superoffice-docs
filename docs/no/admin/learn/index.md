@@ -44,7 +44,7 @@ Arbeidsflytguider, for eksempel [salgsguiden][4] og [prosjektguiden][5], hjelper
 
 Hjelp brukerne dine med å ha kontroll over hvert trinn i prosessen, og sørg for at alle prosjekter leveres i tide, og at alle salgsmuligheter følges opp. Uten en forhåndsdefinert arbeidsflytguide er det lett å miste kontrollen, spesielt når du sjonglerer flere prosjekter eller salg samtidig. Du kan miste fokuset på de tingene som må gjøres i hvert trinn av prosjektet eller salget, og som et resultat overse tidsfristen.
 
-Hvert prosjekt og hver salgsmulighet har en status som indikerer hvor langt du er i prosessen. En prosjektstatus kan for eksempel være «Planlagt», «Under arbeid» og «Fullført». Et salg kan ha trinnene: «Prospekt», «Første møte», «Tilbud» eller «Muntlig aksept».
+Hvert prosjekt og hver salgsmulighet har en status som indikerer hvor langt du er i prosessen. En prosjektstatus kan for eksempel være "Planlagt", "Under arbeid" og "Fullført". Et salg kan ha trinnene: "Prospekt", "Første møte", "Tilbud" eller "Muntlig aksept".
 
 Hver status i arbeidsflytguiden inneholder de nødvendige oppfølgingsaktivitetene og dokumentene for å veilede brukeren gjennom hele prosessen.
 

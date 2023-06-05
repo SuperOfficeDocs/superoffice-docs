@@ -86,7 +86,7 @@ I fanen **Oppfølging** kan du angi at et klikk på en kobling skal generere opp
 
 6. **Opprettet av**: Velg hvilken bruker som skal være ansvarlig for oppgaven/avtalen, eller klikk på knappen **Velg aktiv bruker**![ikon][img1] for å velge deg selv.
 
-7. **Fordel til vår kontakt hvis tilgjengelig**: Merk av her hvis oppgaven/avtalen skal tildeles «vår kontakt» for mottakeren (den kundeansvarlige).
+7. **Fordel til vår kontakt hvis tilgjengelig**: Merk av her hvis oppgaven/avtalen skal tildeles "vår kontakt" for mottakeren (den kundeansvarlige).
 
 8. **Standardmottaker**: Velg en standardmottaker som oppgaven/avtalen skal tildeles, eller klikk på knappen **Velg aktiv bruker**![ikon][img1] for å velge deg selv.
 

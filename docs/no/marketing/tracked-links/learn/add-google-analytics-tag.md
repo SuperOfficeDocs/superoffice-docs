@@ -25,7 +25,7 @@ For å kunne bruke [Google Analytics-funksjonen][2], trenger du en Google Analyt
 
     ![Velg Google Analytics og spor alle koblinger -screenshot][img1]
 
-2. I **sporingsfeltene i Google Analytics** er «E-post» forhåndsdefinert som medium. Det betyr at sporede utsendelser som sendes fra SuperOffice CRM, nå finnes i Google Channel-rapporter under **E-post**, og ikke under **Andre**.
+2. I **sporingsfeltene i Google Analytics** er "E-post" forhåndsdefinert som medium. Det betyr at sporede utsendelser som sendes fra SuperOffice CRM, nå finnes i Google Channel-rapporter under **E-post**, og ikke under **Andre**.
 
 3. Hvis du vil identifisere en bestemt utsendelse som kilde, må feltene for Kilde og Kampanje også fylles ut.
 

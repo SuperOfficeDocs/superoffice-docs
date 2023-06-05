@@ -22,20 +22,20 @@ Sporbare koblinger kan brukes på flere nyttige måter:
 
 * **Prospektliste**: Hvis du skal lansere et nytt produkt, kan mottakerne melde sin interesse for produktet ved å klikke på koblingen "Jeg vil gjerne ha et tilbud". De som klikker på koblingen, kan bli lagt til i et statisk utvalg i SuperOffice CRM, som selgerne kan bruke til å behandle videre kontakt med kundene.
 
-* **Oppgaver/avtaler for selgere i SuperOffice CRM**: Et alternativ til prospektlisten i eksempelet ovenfor er å generere en oppgave/avtale for selgere/kundekontakter for hvert koblingsklikk. Et klikk på koblingen «Kontakt meg» kan for eksempel generere en avtale i SuperOffice CRM av typen «Telefon ut» for personen hos den aktuelle kunden. I tillegg kan avtalen knyttes til et aktuelt prosjekt i SuperOffice CRM, for eksempel en markedsføringskampanje.
+* **Oppgaver/avtaler for selgere i SuperOffice CRM**: Et alternativ til prospektlisten i eksempelet ovenfor er å generere en oppgave/avtale for selgere/kundekontakter for hvert koblingsklikk. Et klikk på koblingen "Kontakt meg" kan for eksempel generere en avtale i SuperOffice CRM av typen "Telefon ut" for personen hos den aktuelle kunden. I tillegg kan avtalen knyttes til et aktuelt prosjekt i SuperOffice CRM, for eksempel en markedsføringskampanje.
 
 * **Avmelding**: I innholdsredigeringsprogrammet kan du [sette inn en kobling for avmelding][1] fra en bestemt utsendelsestype. Dette innebærer at kunden ikke lenger mottar denne utsendelsestypen fra SuperOffice Marketing, uansett hvilken mottakerliste som brukes til utsendelsen.
 
     Et alternativ til denne avmeldingskoblingen er å la kundene melde seg av den aktuelle mottakerlisten, for eksempel "Nyhetsbrev om produkt A", slik at de fremdeles vil kunne motta utsendelser fra andre mottakerlister.
 
-    Dette gjør du ved å legge til en kobling (f.eks. «Klikk her hvis du ikke ønsker å motta nyhetsbrev fra oss») som kunden kan klikke på for å bli fjernet fra mottakerlisten. Da fjernes kunden fra utvalget du brukte som grunnlag for utsendelsen.
+    Dette gjør du ved å legge til en kobling (f.eks. "Klikk her hvis du ikke ønsker å motta nyhetsbrev fra oss") som kunden kan klikke på for å bli fjernet fra mottakerlisten. Da fjernes kunden fra utvalget du brukte som grunnlag for utsendelsen.
 
-    «vis et nyhetsbrev sendes kun til personer med interessen «Nyhetsbrev", kan du definere at denne interessen skal fjernes for mottakere som klikker på koblingen.
+    "vis et nyhetsbrev sendes kun til personer med interessen "Nyhetsbrev", kan du definere at denne interessen skal fjernes for mottakere som klikker på koblingen.
 
     > [!TIP]
-    >For å ha kontroll med hvem som avslutter abonnementet, kan du også sørge for at de som klikker på koblingen, også legges til i et eget utvalg, som heter for eksempel «Nyhetsbrev 2014 – avsluttede abonnementer». Det er nemlig mulig å legge til flere handlinger til samme kobling.
+    >For å ha kontroll med hvem som avslutter abonnementet, kan du også sørge for at de som klikker på koblingen, også legges til i et eget utvalg, som heter for eksempel "Nyhetsbrev 2014 – avsluttede abonnementer". Det er nemlig mulig å legge til flere handlinger til samme kobling.
 
-* **Individuell oppfølging**: Dere har akkurat sluppet en stor oppdatering til produktet deres. Ikke alle kunder har en egen IT-avdeling som kan håndtere oppdateringen, så du legger til en kobling som kunden kan klikke på for å bestille en konsulent. Da registreres det en ny sak i SuperOffice Service for hver kunde som klikker på koblingen. Saken får kategorien «Konsulent», og sjefen for konsulentavdelingen settes som eier. I tillegg får kunden tilbakemelding om at de vil bli kontaktet av en konsulent.
+* **Individuell oppfølging**: Dere har akkurat sluppet en stor oppdatering til produktet deres. Ikke alle kunder har en egen IT-avdeling som kan håndtere oppdateringen, så du legger til en kobling som kunden kan klikke på for å bestille en konsulent. Da registreres det en ny sak i SuperOffice Service for hver kunde som klikker på koblingen. Saken får kategorien "Konsulent", og sjefen for konsulentavdelingen settes som eier. I tillegg får kunden tilbakemelding om at de vil bli kontaktet av en konsulent.
 
 <!-- Referenced links -->
 [1]: ../../mailing/learn/create/add-unsubscribe-link.md

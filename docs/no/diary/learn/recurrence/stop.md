@@ -23,7 +23,7 @@ language: no
 
 5. Klikk på **Lagre** for å lagre endringene, eller klikk på **Avbryt** for å lukke dialogboksen uten å lagre endringene.
 
-Når du stopper repeteringen, slettes alle forekomster av oppfølgingen *etter* forekomsten du redigerer. Hvis oppfølgingen er den første i en rekke med repeterende oppfølginger, slettes repeteringsmønsteret, og oppfølgingen blir til en «vanlig» oppfølging.
+Når du stopper repeteringen, slettes alle forekomster av oppfølgingen *etter* forekomsten du redigerer. Hvis oppfølgingen er den første i en rekke med repeterende oppfølginger, slettes repeteringsmønsteret, og oppfølgingen blir til en "vanlig" oppfølging.
 
 > [!NOTE]
 > Du kan også stoppe en repeterende oppfølging ved å merke oppfølgingen i dagboken og slette den. Når du sletter en repeterende oppfølging, vises dialogboksen **Slett** med to valg: Velg **Slett bare denne forekomsten** hvis du bare vil slette oppfølgingen på dette tidspunktet, eller velg **Slett alle fremtidige forekomster inkludert denne** hvis du vil slette denne oppfølgingen og alle fremtidige repeteringer.

@@ -31,7 +31,7 @@ Meldingsmalen er nå tilgjengelig i Meldingsmaler-arkivet. Du kan begynne å red
 
 ![Det elektroniske malbiblioteket inneholder meldingsmaler som du kan laste ned og bruke -screenshot][img3]
 
-Du finner flere meldingsmaler i fanen Alle maler, hvis du foretrekker et mer «retro» uttrykk.
+Du finner flere meldingsmaler i fanen Alle maler, hvis du foretrekker et mer "retro" uttrykk.
 
 ## Bruke maler fra det elektroniske malbiblioteket
 

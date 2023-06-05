@@ -29,7 +29,7 @@ Eksempel: Den interne kategorien "Support" kan da ha en ekstern kategori for all
 
 5. I bildet **Rediger ekstern kategori** klikker du på **Kategori**-feltet, og deretter velger du det interne kategorinavnet (navnet som vises til SuperOffice-brukere).
 
-6. I feltet **Eksternt navn** skriver du inn navnet som kategorien skal ha når den vises for kundene på dette språket i SuperOffice Customer Centre. På denne måten kan du bruke interne navn som er standardisert på ett språk, samtidig som du kan opprette eksterne «alias» på andre språk.
+6. I feltet **Eksternt navn** skriver du inn navnet som kategorien skal ha når den vises for kundene på dette språket i SuperOffice Customer Centre. På denne måten kan du bruke interne navn som er standardisert på ett språk, samtidig som du kan opprette eksterne "alias" på andre språk.
 
 7. Du kan også klikke på **Underelement av** og velge navnet på en overordnet kategori for å opprette et hierarki av kategorier på det aktuelle språket.
 

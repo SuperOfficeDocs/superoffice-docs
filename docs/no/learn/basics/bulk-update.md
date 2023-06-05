@@ -76,7 +76,7 @@ Handlingstypen **Regex** lar deg bruke vanlige uttrykk til å oppdatere et felt.
 
 ## Oppdatere firmakategorier
 
-Du ønsker å kategorisere kundene etter salgsbeløp. Opprett firmakategorier kalt «Kunde A», «Kunde B» og «Kunde C» i SuperOffice CRM. For «Kunde A» kan du opprette et utvalg av firmaer som hadde salgsbeløp på over 50 000 EUR i fjor. Bruk **Masseredigering** til å oppdatere kategorien for disse kundene til "Kunde A". Gjenta denne prosessen for de andre firmaene.
+Du ønsker å kategorisere kundene etter salgsbeløp. Opprett firmakategorier kalt "Kunde A", "Kunde B" og "Kunde C" i SuperOffice CRM. For "Kunde A" kan du opprette et utvalg av firmaer som hadde salgsbeløp på over 50 000 EUR i fjor. Bruk **Masseredigering** til å oppdatere kategorien for disse kundene til "Kunde A". Gjenta denne prosessen for de andre firmaene.
 
 ## Oppdatere postnummer og poststed for firmaer
 
@@ -88,7 +88,7 @@ Du oppdager at kontaktfeltet **Posisjon** sjelden brukes. For å komme i gang me
 
 ## Oppdatere prosjekt
 
-Du ønsker å rydde opp i alle de «gamle» prosjektene som ikke er satt til å fullføres. Opprett et utvalg av alle de gamle prosjektene dine, for eksempel alle prosjekter som går mer enn 2 år tilbake i tid, og som ikke har vært oppdatert det siste året. Bruk **Masseredigering** til å angi statusen **Fullført** for disse prosjektene til **Ja**.
+Du ønsker å rydde opp i alle de "gamle" prosjektene som ikke er satt til å fullføres. Opprett et utvalg av alle de gamle prosjektene dine, for eksempel alle prosjekter som går mer enn 2 år tilbake i tid, og som ikke har vært oppdatert det siste året. Bruk **Masseredigering** til å angi statusen **Fullført** for disse prosjektene til **Ja**.
 
 <!-- Referenced links -->
 [1]: ../../search-options/learn/using-fastsearcher.md

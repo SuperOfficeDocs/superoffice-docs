@@ -13,7 +13,7 @@ language: no
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-Hvis én fysisk person er registrert som to forskjellige personer i SuperOffice CRM, kan du slå sammen disse personene sammen. Hvis for eksempel personen ble registrert under to forskjellige navn hos samme firma («Matias Hansen» og «Mathias Hanssen»), eller hvis personen ble registrert hos både den gamle og den nye arbeidsgiveren.
+Hvis én fysisk person er registrert som to forskjellige personer i SuperOffice CRM, kan du slå sammen disse personene sammen. Hvis for eksempel personen ble registrert under to forskjellige navn hos samme firma ("Matias Hansen" og "Mathias Hanssen"), eller hvis personen ble registrert hos både den gamle og den nye arbeidsgiveren.
 
 Prosjekdeltakelse og aktiviteter blir flyttet til målpersonen, og kildepersonen kan slettes eller angis som sluttet.
 
