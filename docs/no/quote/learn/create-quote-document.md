@@ -32,7 +32,7 @@ Hvis du har opprettet et tilbudsdokument for et tilbud, men vil bruke et annet d
 
 1. Åpne tilbudet.
 
-2. Klikk på ![][img1]ikon][img1] **Oppgave**-knappen, og velg **Endre tilbudsdokument**.
+2. Klikk på ![ikon][img1] **Oppgave**-knappen, og velg **Endre tilbudsdokument**.
 
 3. Merk tilbudsdokumentet i oversikten.
 

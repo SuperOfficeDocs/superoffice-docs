@@ -23,8 +23,8 @@ For ikke å overbelaste serverne i arbeidstiden kan det være hensiktsmessig å 
 
 1. Klikk på **Planlegg**.
 2. Under **Planlegg utsendelse** velger du et av følgende alternativer:
-    * Klikk på **Velg dato**-ikonet ![][img3]ikon][img3], og velg datoen og klokkeslettet da utsendelsen skal starte.
-    * Klikk på **Sett til nå** ![][img2]ikon][img2] for å sette inn dagens dato og gjeldende klokkeslett.
+    * Klikk på **Velg dato**-ikonet ![ikon][img3], og velg datoen og klokkeslettet da utsendelsen skal starte.
+    * Klikk på **Sett til nå** ![ikon][img2] for å sette inn dagens dato og gjeldende klokkeslett.
 3. Klikk på **OK**. Arbeidsflyten lukkes, og du returneres til fanen **Utsendelser**.
 
 ## Hva skjer nå?

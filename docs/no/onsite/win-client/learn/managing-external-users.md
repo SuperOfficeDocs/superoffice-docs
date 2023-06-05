@@ -24,7 +24,7 @@ Hvis du er tildelt rettigheten **Tillat administrasjon av eksterne brukere** i I
     * Ved hjelp av [historikklisten][1] eller [hurtigsøk][2].
     * Ved å dobbeltklikke på et firma i et søkeresultat eller i et utvalg.
 
-2. Klikk på ![][img1]ikon][img1] **Oppgave** > ** Eksterne brukere**. Dialogboksen **Eksterne brukere** vises.
+2. Klikk på ![ikon][img1] **Oppgave** > ** Eksterne brukere**. Dialogboksen **Eksterne brukere** vises.
 
 3. Følg en av fremgangsmåtene nedenfor.
 

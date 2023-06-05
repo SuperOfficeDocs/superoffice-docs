@@ -15,7 +15,7 @@ so.envir: onsite
 
 1. [!include[How to open import](includes/open-import.md)]
 
-1. Klikk på ![][img1]ikon][img1] ved siden av feltet **Importbeskrivelsesfil** og velg en importbeskrivelsesfil i dialogboksen som vises.
+1. Klikk på ![ikon][img1] ved siden av feltet **Importbeskrivelsesfil** og velg en importbeskrivelsesfil i dialogboksen som vises.
 
 1. [Gjør ønskede endringer][1] i **Importer**-bildet.
 

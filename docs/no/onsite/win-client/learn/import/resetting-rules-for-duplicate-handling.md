@@ -17,7 +17,7 @@ so.envir: onsite
 
 2. Gjør ett av følgende:
 
-    * Klikk på ![][img1]ikon][img1] ved siden av feltet **Importbeskrivelsesfil** og velg en importbeskrivelsesfil i dialogboksen som vises. Importfil og tidligere valgte innstillinger settes inn automatisk.
+    * Klikk på ![ikon][img1] ved siden av feltet **Importbeskrivelsesfil** og velg en importbeskrivelsesfil i dialogboksen som vises. Importfil og tidligere valgte innstillinger settes inn automatisk.
     * [!include[Select file](includes/step-select-file.md)] Angi deretter [felttilordning][1]. Innholdet i kolonnen **Tabell** under **Duplikathåndtering** baseres på angitt felttilordning.
 
 3. Velg ett av følgende:

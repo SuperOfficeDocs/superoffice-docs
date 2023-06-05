@@ -40,7 +40,7 @@ Alternativer vises som faner i tilbudet (i dialogboksen **Rediger tilbud**).
 
 Hvis du oppretter flere alternativer i et tilbud, blir det første alternativet (vanligvis fanen **Produkter**) merket som favoritt i (![ikon][img2]**Favorittalternativ**). Estimert salgsbeløp i salget («forecast») hentes fra totalbeløpet for favorittalternativet.
 
-Hvis du vil at et annet alternativ skal være favorittalternativ, velger du fanen til det aktuelle alternativet, og klikker på ![][img3]ikon][img3] **Favorittalternativ** nederst i fanen.
+Hvis du vil at et annet alternativ skal være favorittalternativ, velger du fanen til det aktuelle alternativet, og klikker på ![ikon][img3] **Favorittalternativ** nederst i fanen.
 
 Når du [sender tilbudet][3], kan du velge bare å inkludere favorittalternativet.
 

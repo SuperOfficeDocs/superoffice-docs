@@ -39,7 +39,7 @@ Du kan også **legge til spesielle koblinger** til utsendelsen din. Da velger du
 
 ## Tips
 
-Du kan legge til vanlige (ikke-sporede) koblinger. For tekstkoblinger klikker du på knappen ![][img1]ikon][img1] på verktøylinjen. For bildekoblinger bruker du feltet **Bilde-URL** i sidepanelet. Hvis du senere finner ut at du vil spore disse koblingene også, kan du velge alternativet **Spor alle koblinger** under **Sporing** i Trinn 1. Oppsett. Disse koblingene vil imidlertid bare spores for den aktuelle utsendelsen, og de vil ikke være tilgjengelige for andre utsendelser.
+Du kan legge til vanlige (ikke-sporede) koblinger. For tekstkoblinger klikker du på knappen ![ikon][img1] på verktøylinjen. For bildekoblinger bruker du feltet **Bilde-URL** i sidepanelet. Hvis du senere finner ut at du vil spore disse koblingene også, kan du velge alternativet **Spor alle koblinger** under **Sporing** i Trinn 1. Oppsett. Disse koblingene vil imidlertid bare spores for den aktuelle utsendelsen, og de vil ikke være tilgjengelige for andre utsendelser.
 
 Du kan også legge til vanlige (ikke-sporede) koblinger ved å klikke på koblingsknappen i verktøylinjen. Hvis du senere finner ut at du vil spore disse koblingene også, kan du velge alternativet **Spor alle koblinger** under **Sporing** i Trinn 1. Oppsett. Disse koblingene vil imidlertid bare spores for den aktuelle utsendelsen, og de vil ikke være tilgjengelige for andre utsendelser.
 

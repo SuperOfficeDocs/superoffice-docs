@@ -25,7 +25,7 @@ language: no
 
 Produktene i tilbudet vises på denne fanen.
 
-Hvis tilbudet inneholder flere alternativer, vises favorittalternativet med ![][img1]ikon][img1] ved siden av fanenavnet. Hvis alternativet inneholder [varsler eller meldinger][9] for ett eller flere produkter, vises det et ikon ved siden av fanenavnet. Det vises også en melding som forklarer hva feilen skyldes.
+Hvis tilbudet inneholder flere alternativer, vises favorittalternativet med ![ikon][img1] ved siden av fanenavnet. Hvis alternativet inneholder [varsler eller meldinger][9] for ett eller flere produkter, vises det et ikon ved siden av fanenavnet. Det vises også en melding som forklarer hva feilen skyldes.
 
 * **Rabatt**: Her kan du legge til en totalrabatt (rabattprosent eller rabattbeløp) for hele det valgte alternativet. Totalrabatten legges på i tillegg til eventuelle rabatter som er lagt til de ulike produktene.
 

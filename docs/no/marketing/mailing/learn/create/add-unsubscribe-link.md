@@ -27,7 +27,7 @@ Du bestemmer hvor denne avmeldingskoblingen vises og ordlyden i den, samt hva so
 
 2. Skriv inn og velg teksten som mottakeren skal klikke på, for eksempel ”Klikk her for å avslutte abonnementet” eller “Klikk her for å administrere abonnementene dine”.
 
-3. Klikk på knappen **Skriv inn/rediger kobling** (![][img3]ikon][img3]) på verktøylinjen.
+3. Klikk på knappen **Skriv inn/rediger kobling** (![ikon][img3]) på verktøylinjen.
 
 4. I feltet **Spesielle koblinger** velger du ett av følgende alternativer:
     * **Administrere abonnementer**: Sett inn en kobling til en nettside der mottakerne kan velge hvilke utsendelsestyper de vil motta. Koblingen er gyldig i 21 dager som standard.

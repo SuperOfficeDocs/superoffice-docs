@@ -23,7 +23,7 @@ Knapper for de ulike statusene vises øverst på detaljkortet. Utseendet på kna
 
 Hver status i prosjektguiden inneholder ulike oppfølginger og/eller dokumenter, og disse finner du i nedre halvdel av detaljkortet. De vises i to kolonner, **Oppfølginger** og **Dokumenter**. Hvis du klikker på knappen for en status, viser den nedre halvdelen av detaljkortet hvilke aktiviteter som tilhører statusen.
 
-Ikonet ![][img7]ikon][img7] vises foran oppfølginger som er definert som milepæler. Dette defineres i Innstillinger og vedlikehold. På hovedkortet vises datoen for neste milepælsoppfølging i feltet **Neste milepæl**.
+Ikonet ![ikon][img7] vises foran oppfølginger som er definert som milepæler. Dette defineres i Innstillinger og vedlikehold. På hovedkortet vises datoen for neste milepælsoppfølging i feltet **Neste milepæl**.
 
 Klikk på **Opprett** ved siden av oppfølgingene og dokumentene for å opprette dem. Du kan også klikke på tittelen på oppfølgingen eller dokumentet for å opprette dem.
 
