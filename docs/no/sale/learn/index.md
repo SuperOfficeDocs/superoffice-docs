@@ -24,7 +24,7 @@ Se denne videoen, og se hvor enkelt det kan være å forfølge salgsmuligheter m
 
 Hvis du vil flytte mellom salg, klikker du på forrige/neste-knappene (![ikon][img2] ![ikon][img4]) nederst til høyre på kortene.
 
-Du kan også [opprette tilbud][1] i detaljkortet **Tilbud** i **Salg**-bildet.
+Du kan også [opprette tilbud][1] i detaljkortet **Tilbud** i Salg-bildet.
 
 ## Hvor kan jeg se salg?
 

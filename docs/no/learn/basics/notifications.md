@@ -5,7 +5,7 @@ description: "Varsler om invitasjoner, meldinger og saker"
 author: Hanne Gunnarsson
 so.date: 04.03.2023
 keywords: varsling, Kjerne, invitasjoner, saker, meldinger
-so.topic: help
+so.topic: concept
 so.user: user
 so.user.tooltip: SuperOffice CRM
 language: no
@@ -54,8 +54,7 @@ Dette er de forskjellige aktivitetsvarslene:
 
 ## Varslingsinnstillinger
 
-Når du klikker på ikonet ![icon][img2] vises panelet for varslingsinnstillinger.
-Her kan du velge hvilke varsler du vil se i varslingsruten.
+Når du klikker på ikonet ![icon][img2] vises panelet for varslingsinnstillinger. Her kan du velge hvilke varsler du vil se i varslingsruten.
 
 Dette er varslingsalternativene:
 

@@ -4,7 +4,7 @@ title: Effektiv behandling av saker ved bruk av AI
 description: Innføringen av kunstig intelligens (AI) i SuperOffice 10 gir saksbehandlere/brukerstøtteagenter et nytt sett med smarte verktøy for å effektivisere arbeidsdagen.
 author: Kirsti Aakerholt
 so.date: 04.19.2023
-keywords: sak, ai, effektiv
+keywords: sak, AI, effektiv
 so.topic: concept
 so.user: user
 so.user.tooltip: SuperOffice Service
@@ -34,7 +34,7 @@ Er personen glad eller sint?
 * Nøytral ![ikon][img3]
 * Positiv ![ikon][img4]
 
-Hvis denne funksjonen er aktiv, analyseres innkommende e-postsaker for å finne personens "humør". Et uttrykksikon under meldingen indikerer det oppdagede sentiment (lykkelig, trist eller nøytral).
+Hvis denne funksjonen er aktiv, analyseres innkommende e-postsaker for å finne personens humør. Et uttrykksikon under meldingen indikerer det oppdagede sentiment (lykkelig, trist eller nøytral).
 
 ### Automatisk kategorisering
 

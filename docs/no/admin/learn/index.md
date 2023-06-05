@@ -71,7 +71,7 @@ Den beste måten å definere dine egne prosjekt- eller salgsguider på, er å di
 * [Vedlikeholde dokumentmaler][7]
 * [Personverninnstillinger for GDPR][8]
 * [Systempreferanser og videomøter][9]
-* [Importere firmaer, personer og produkter][3]
+* [Importere firmaer, personer, og produkter][3]
 
 <!-- Referenced links -->
 [1]: ../user-management/learn/index.md

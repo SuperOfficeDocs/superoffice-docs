@@ -5,7 +5,7 @@ description: Vise krysstabeller
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: rapport
-so.topic: help
+so.topic: concept
 language: no
 ---
 
@@ -20,12 +20,12 @@ Du kan vise og skrive ut krysstabeller på ulike måter. Blant annet kan du velg
 
 Hvis du vil vise en krysstabellrapport (.Dcube file), må du installere **programmet for visning av krysstabeller** (ett per datamaskin).
 
-1. Klikk på ![ikon][img1] **Hovedmeny** og velg **Last ned > Last ned program for visning av krysstabeller**.
+1. Klikk på ![ikon][img1] **Hovedmeny** og velg **Last ned** > **Last ned program for visning av krysstabeller**.
 1. Klikk på den nedlastede filen (**SoCrossTableInstaller.exe**) for å kjøre den.
 1. Hvis det vises et sikkerhetsvarsel, bekrefter du at du vil kjøre filen.
 1. Følg instruksene i veiviseren til programmet er ferdig installert.
 
-## Slik viser du en krysstabell:
+## Slik viser du en krysstabell
 
 1. [!include[How to-goto-reports](includes/goto-reports.md)]
 

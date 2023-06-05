@@ -11,7 +11,7 @@ language: no
 
 # Synlighet
 
-Om du kan vise spesifikke dokumenter, salg, oppfølginger og utvalg, avhenger ikke bare på [rollen][1] du er tildelt. Det kan også skyldes at den aktuelle informasjonen ikke er tilgjengelig for deg. I dialogboksene for **dokumenter** og **oppfølginger** og i **Salg-** og **Utvalg-** bildene finner du en listeboks som heter **Synlig for**. I **Salg**-bildet kan du for eksempel velge om salget skal være synlig for alle, synlig bare for primærgruppen som eieren tilhører eller synlig bare for eieren.
+Om du kan vise spesifikke dokumenter, salg, oppfølginger og utvalg, avhenger ikke bare på [rollen][1] du er tildelt. Det kan også skyldes at den aktuelle informasjonen ikke er tilgjengelig for deg. I dialogboksene for dokumenter og oppfølginger og i Salg- og Utvalg- bildene finner du en listeboks som heter **Synlig for**. I Salg-bildet kan du for eksempel velge om salget skal være synlig for alle, synlig bare for primærgruppen som eieren tilhører eller synlig bare for eieren.
 
 Dette krever lisensen **Konfidensielle aktiviteter**.
 
