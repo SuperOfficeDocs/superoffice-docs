@@ -17,8 +17,7 @@ language: no
 
 Profiler i systemet brukes til å konfigurere utseendet og oppførselen til skjermelementer.
 
-> [!NOTE]
-> Endringer som gjøres på **profilen** vises bare i **SuperOffice Service**-modulen, ikke i bildet Saker i SuperOffice CRM-modulen .
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 For eksempel:
 

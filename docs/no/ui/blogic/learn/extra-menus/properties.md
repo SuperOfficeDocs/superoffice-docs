@@ -4,15 +4,14 @@ title: Egenskaper for meny
 description: Egenskaper for meny
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Tjeneste
-so.topic: help
+keywords: Service
+so.topic: reference
 language: no
 ---
 
 # Egenskaper for meny
 
-> [!NOTE]
-> Endringer utført **Systemdesign** \- fanen **Ekstramenyer** vises bare i modulen **SuperOffice-tjeneste**, ikke i skjermbildet Forespørsler i SuperOffice CRM-modulen .
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Her kan du redigere egenskapene til alternativer på ekstramenyer og webpaneler.
 

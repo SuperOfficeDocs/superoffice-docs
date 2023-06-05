@@ -11,8 +11,7 @@ language: no
 
 # Felles profiler
 
-> [!NOTE]
-> Endringer som gjøres på **Profilen** vises bare i **SuperOffice-tjeneste**-modulen ikke i skjermbildet Saker i SuperOffice CRM-modulen.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Fellesprofiler er koblet til en [rolle][2] og gjelder for alle brukere som har denne rollen. Du kan konfigurere felles profiler i bildet **Vis profiler**.
 

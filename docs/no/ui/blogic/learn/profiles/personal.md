@@ -11,8 +11,7 @@ language: no
 
 # Personlige profiler
 
-> [!NOTE]
-> Endringer som gjøres på **profilen** vises bare i **SuperOffice Service**-modulen, ikke i bildet Saker i SuperOffice CRM-modulen .
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Personlige profiler gjelder bare én enkelt bruker. Du konfigurerer personlige profiler ved å klikke på ![ikon][img1] ("skiftenøkkel"-ikonet) som er tilgjengelig i forskjellige skjermbilder, for eksempel listen over poster i skjermbildet Person, seksjonen postegenskaper i skjermbildet Post eller søkeresultatskjermbildet. For å forklare hvordan dette fungerer, gir vi et konkret eksempel. I eksempelet nedenfor antar vi at du ønsker å legge til et felt i bildet Sak.
 
