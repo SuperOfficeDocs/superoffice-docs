@@ -21,10 +21,10 @@ Hvis du er tildelt rettigheten **Tillat administrasjon av eksterne brukere** i I
     Du kan komme til Firma-bildet på flere forskjellige måter:
 
     * Ved å klikke på **Firma**-knappen i navigatoren.
-    * Ved hjelp av [historikklisten][1] eller [hurtigsøk][2].
+    * Ved hjelp av [historikklisten][1] eller navigatorsøk.
     * Ved å dobbeltklikke på et firma i et søkeresultat eller i et utvalg.
 
-2. Klikk på ![ikon][img1] **Oppgave** > ** Eksterne brukere**. Dialogboksen **Eksterne brukere** vises.
+2. Klikk på ![ikon][img1] **Oppgave** > **Eksterne brukere**. Dialogboksen **Eksterne brukere** vises.
 
 3. Følg en av fremgangsmåtene nedenfor.
 
@@ -49,8 +49,7 @@ Merk personen du vil fjerne påloggingen for, og klikk på **Fjern pålogging**.
 Med listeboksen **Vis** nede til høyre i dialogboksen kan du filtrere listen over personer etter brukerstatus.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-history-list.md
-[2]: ../../../search-options/learn/using-fastsearcher.md
+[1]: ../../../learn/basics/history.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

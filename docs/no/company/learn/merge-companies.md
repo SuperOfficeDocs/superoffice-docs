@@ -24,7 +24,7 @@ Hvis to firmaer i kundedatabasen velger å slå seg sammen, eller ett av firmaen
 1. Velg **Vedlikehold firmaer** fra ![ikon][img3] **Oppgave**-knappen, og klikk deretter på **Slå sammen firmaer**.
     Dialogboksen **Slå sammen firmaer** åpnes. Kildefirmaet er angitt under **Fra**.
 
-1. Under **Til firma** velger du firmaet som skal oppdateres med informasjon fra kildefirmaet. Begynn å skrive i feltet for å [søke etter et firma][1].
+1. Under **Til firma** velger du firmaet som skal oppdateres med informasjon fra kildefirmaet. Begynn å skrive i feltet for å søke etter et firma.
 
     > [!TIP]
     > Hvis du vil bytte **Fra**\- og **Til**-firmaene, klikker du på ![ikon][img1] knappen.
@@ -63,7 +63,6 @@ Hvis to firmaer i kundedatabasen velger å slå seg sammen, eller ett av firmaen
 * [Slå sammen personer][2]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->

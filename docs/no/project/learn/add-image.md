@@ -16,7 +16,7 @@ I fanen **Bilde** kan du legge inn et bilde for prosjektet. Prosjektbildet bruke
 1. Gå til Prosjekt-bildet. Gjør ett av følgende:
 
     * Klikk på **Prosjekt**-knappen i navigatoren.
-    * Bruk [historikklisten][1] eller [hurtigsøk][2].
+    * Bruk [historikklisten][1] eller navigatorsøk.
     * Dobbeltklikk på et prosjekt i et søkeresultat eller på detaljkortet **Prosjekter** i Firma-bildet.
 
 2. Velg fanen **Bilde**.
@@ -38,5 +38,4 @@ I fanen **Bilde** kan du legge inn et bilde for prosjektet. Prosjektbildet bruke
     > Hvis du vil fjerne et aktivt prosjektbilde, klikker du på **Slett** til venstre for beskrivelsen.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-history-list.md
-[2]: ../../search-options/learn/using-fastsearcher.md
+[1]: ../../learn/basics/history.md

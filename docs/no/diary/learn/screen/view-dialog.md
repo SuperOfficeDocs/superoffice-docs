@@ -35,7 +35,7 @@ Når du velger et alternativ for **Velg fra**, vises en liste nedenfor. Innholde
 
 * Hvis du valgte **Medarbeidere**, vises en liste over brukergrupper i organisasjonen din. Du kan også velge **Alle** for å vise alle brukerne i organisasjonen.
 
-* Hvis du valgte **Prosjekt**, vises historikklisten over prosjekter. Her kan du også bruke [hurtigsøk][6] eller [historikklisten][5].
+* Hvis du valgte **Prosjekt**, vises historikklisten over prosjekter. Du kan også begynne å skrive inn navnet.
 
 * Hvis du valgte **Ressurs**, vises en liste over ressurser i organisasjonen din. Denne listen er definert i Innstillinger og vedlikehold. Velg **Alle** for å se alle ressursene i organisasjonen.
 
@@ -70,8 +70,6 @@ Lukker dialogboksen uten å lagre endringene.
 [1]: ../create-view.md
 [2]: ../open.md
 [4]: ../create-follow-up.md
-[5]: ../../../search-options/learn/using-history-list.md
-[6]: ../../../search-options/learn/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/arrow-right.png

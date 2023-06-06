@@ -42,7 +42,7 @@ Bruk litt tid på å definere riktige statuskriterier, fordi du må sørge for a
 * [Administrer statusovervåking][2]
 
 <!-- Referenced links -->
-[1]: ../../../../search-options/learn/using-search-criteria.md
+[1]: ../../../../search-options/learn/search-criteria.md
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->

@@ -80,7 +80,7 @@ Dobbeltklikk på en utsendelse for å åpne den.
 [1]: ../create/index.md
 [2]: ../update/add-remove-members-static.md
 [5]: ../howto/display-as-charts.md
-[3]: ../../../learn/using-search-criteria.md
+[3]: ../../../learn/search-criteria.md
 [6]: ../../../../dashboard/learn/create.md
 [7]: ../../../../marketing/mailing/learn/create/index.md
 [8]: ../../../../learn/section-tabs/filter.md

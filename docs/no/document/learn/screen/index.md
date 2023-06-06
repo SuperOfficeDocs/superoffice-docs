@@ -28,7 +28,7 @@ Hovedseksjonen inneholder følgende grunnleggende informasjon om dokumentet:
 
 ### Dokumentmal
 
-Klikk på pilen ![icon][img1] ved siden av typefeltet øverst i dialogboksen for å vise en liste over dokumentmaler du kan velge mellom. [!include[SM](../../../learn/includes/are-defined-sm.md)] Her kan du også bruke [hurtigsøk][6].
+Klikk på pilen ![icon][img1] ved siden av typefeltet øverst i dialogboksen for å vise en liste over dokumentmaler du kan velge mellom. [!include[SM](../../../learn/includes/are-defined-sm.md)] Eller, start å skrive inn navnet for å søke etter en spesifik mal.
 
 > [!NOTE]
 > Når du [oppretter et dokument][5], åpnes malen i programmet det ble opprettet i. For eksempel åpnes DOCX-filer i Word.
@@ -64,11 +64,11 @@ I dette feltet vises automatisk dagens dato. Hvis du klikker på pilen ved siden
 > [!NOTE]
 > Du kan bare endre datoen når du oppretter dokumentet. I redigeringsmodus får du ikke tilgang til dette feltet.
 
-### Vår ref.
+### Vår ref
 
 Her kan du skrive inn din egen referanse. Standardoppføringen for hver mal er definert i Innstillinger og vedlikehold, men du kan også redigere innholdet i dette feltet.
 
-### Din ref.
+### Din ref
 
 Skriv inn adressatens referanse fra kommunikasjonen.
 
@@ -145,7 +145,6 @@ Denne fanen viser alle [brukerdefinerte felt][3] som er konfigurert i Innstillin
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
-[6]: ../../../search-options/learn/using-fastsearcher.md
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../learn/activity/linking-documents-to-follow-ups.md

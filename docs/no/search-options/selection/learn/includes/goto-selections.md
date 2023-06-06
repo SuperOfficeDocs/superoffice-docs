@@ -2,9 +2,8 @@
 1. Åpne Utvalg-skjermbildet:
 
     * Ved å klikke på **Utvalg**-knappen i navigatoren.
-    * Ved hjelp av [historikklisten][1] eller [hurtigsøk][2].
+    * Ved hjelp av [historikklisten][1] eller navigatorsøk.
     * Ved å dobbeltklikke på et utvalg i et søkeresultat.
 
 <!-- Referenced links -->
-[1]: ../../../learn/using-history-list.md
-[2]: ../../../learn/using-fastsearcher.md
+[1]: ../../../../learn/basics/history.md

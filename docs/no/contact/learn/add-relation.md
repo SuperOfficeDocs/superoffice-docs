@@ -4,7 +4,7 @@ title: Legg til relasjoner (Person-bilde)
 description: Legg til relasjoner (Person-bilde)
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: person, person
+keywords: person, relasjon
 so.topic: howto
 language: no
 ---
@@ -20,7 +20,7 @@ language: no
 
 1. Klikk på **Legg til**-knappen under detaljkortet.
 
-1. I dialogboksen **Relasjon** velger du firmaer og personer under **Aktiv part** og **Passiv part** etter behov. Du kan spesifisere dem enten ved å klikke på pilen og velge ønsket firma eller person i listeboksen som vises, ved å skrive inn hele eller begynnelsen av navnet. (Se [hurtigsøk][1], og [historikklisten][2]).
+1. I dialogboksen **Relasjon** velger du firmaer og personer under **Aktiv part** og **Passiv part** etter behov. Du kan spesifisere dem enten ved å klikke på pilen og velge ønsket firma eller person i listeboksen som vises, ved å skrive inn hele eller begynnelsen av navnet.
 
 1. I listeboksen **Relasjon** angir du hvilken relasjon som finnes mellom den aktive og den passive parten, for eksempel eier. [!include[SM](../../learn/includes/are-defined-sm.md)]
 
@@ -38,8 +38,6 @@ language: no
 * [Slette relasjon][3]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
 [3]: delete-relation.md
 
 <!-- Referenced images -->

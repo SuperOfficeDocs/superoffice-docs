@@ -141,7 +141,7 @@ Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du kan oppr
 [3]: using-fastsearcher.md
 [4]: ../../learn/basics/fav.md
 [5]: using-history-list.md
-[6]: using-search-criteria.md
+[6]: search-criteria.md
 [7]: ../selection/learn/create/index.md
 
 <!-- Referenced images -->

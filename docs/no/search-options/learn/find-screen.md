@@ -3,7 +3,7 @@ uid: help-no-find-screen
 title: Søke-skjerm
 description: Søke-skjerm
 author: SuperOffice RnD
-so.date: 03.08.2023
+so.date: 05.25.2023
 keywords: søk, finn
 so.topic: howto
 language: no
@@ -20,7 +20,9 @@ Det er i praksis ingen grenser for hva du kan søke etter i SuperOffice CRM. På
 
 ## Søke etter informasjon i SuperOffice CRM
 
-1. Klikk på **Finn**-knappen på [topplinjen][1]. ![ikon][img2]
+1. Klikk på **Finn**-knappen på [topplinjen][1].
+
+    ![Find button][img2]
 
 2. Klikk på typen post du vil søke etter, eller klikk på **Vanlige søk** for å vise en liste over forhåndsdefinerte søk. Fanen **Kriterier** åpnes.
 
@@ -57,7 +59,7 @@ Se denne videoen for å lære hvordan du oppretter et søk ved hjelp av ELLER-fu
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
 
-## Jobbe med søkeresultater
+## <a id="results" />Jobbe med søkeresultater
 
 Når du har fulgt trinnene over, og søkeresultatene vises i fanen **Resultater** har du flere tilgjengelige alternativer:
 
@@ -88,11 +90,11 @@ Som salgsavdelingsleder vil du holde en presentasjon for resten av ledelsen, som
 
 2. Klikk på **Finn firma**.
 
-3. Hvis fanen **Kriterier** inneholder noen kriterier, klikk på ![ikon][img3] for å slette dem eller **Fjern alle** for å fjerne kriteriedataene.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klikk på **Legg til**.
 
-5. På listen som vises velger du feltet du vil søke etter informasjon i. Klikk først på **Salg**-![ikonet][img5], og deretter på **Beløp**.
+5. [!include[Select field](includes/select-field.md)] Klikk først på **Salg**-![ikonet][img5], og deretter på **Beløp**.
 
 6. I listeboksen til høyre for **Beløp**, klikker du pil-![ikonet][img1] og velger **&gt;** (større enn).
 
@@ -102,7 +104,7 @@ Som salgsavdelingsleder vil du holde en presentasjon for resten av ledelsen, som
 
 9. Klikk på **Legg til**.
 
-10. På listen som vises velger du feltet du vil søke etter informasjon i. Klikk først på **Salg**-![ikonet][img5], og deretter **Registreringsdato**.
+10. [!include[Select field](includes/select-field.md)]. Klikk først på **Salg**-![ikonet][img5], og deretter **Registreringsdato**.
 
 11. I den andre listeboksen klikker du pil-![ikonet][img1] og velger **Mellom**.
 
@@ -122,20 +124,11 @@ Som salgsavdelingsleder vil du holde en presentasjon for resten av ledelsen, som
 
 19. Du har nå angitt at du vil søke etter firmaer med salg over et bestemt beløp, innenfor et bestemt datoområde og som har statusen **Solgt**.
 
-20. Klikk på **Finn**-knappen under fanen **Kriterier**.
+20. [!include[Click Find](includes/run-search.md)]
 
-21. Alle resultatene som samsvarer med søkekriteriene du har angitt, vises i fanen **Resultater**.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > Hvis du får for få eller for mange treff, kan du justere søkekriteriene ved å velge noe annet i de ulike listeboksene.
-
-22. Deretter bestemmer du hva du vil bruke søkeresultatene til:
-
-    * Hvis du vil åpne en av postene, dobbeltklikker du på den. Deretter vises den på Firma-skjermbildet.
-
-    * Forhåndsvis alle firma i [sidepanelet][4]. Velg **Forhåndsvisning** i listen øverst i sidepanelet. Deretter kan du klikke på hvert enkelt firma i fanen **Resultater** for å forhåndsvise dem.
-
-    * Du kan opprette et utvalg som inneholder disse kundene, ved å klikke på **Lagre som utvalg** og følge fremgangsmåten under [Opprett utvalg][8].
+21. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex2" />Eksempel 2: søk etter kunder i Danmark som du er ansvarlig for
@@ -146,11 +139,11 @@ Tenk deg at du skal på en konferanse i Danmark. Når du er der, vil du benytte 
 
 2. Klikk på **Finn firma**.
 
-3. Hvis fanen **Kriterier** inneholder noen kriterier, klikk på ![ikon][img3] for å slette dem eller **Fjern alle** for å fjerne kriteriedataene.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klikk på **Legg til**.
 
-5. I listen som vises velger du feltet du vil søke etter informasjon i: Klikk først på **Firma**ikon![][img6], og deretter på **Land**.
+5. [!include[Select field](includes/select-field.md)] Klikk først på **Firma**ikon![ikon][img6], og deretter på **Land**.
 
 6. I den andre listeboksen velger du **Er en av**.
 
@@ -160,26 +153,17 @@ Tenk deg at du skal på en konferanse i Danmark. Når du er der, vil du benytte 
 
 9. Klikk på **Legg til**.
 
-10. I listen som vises velger du feltet du vil søke etter informasjon i: Klikk først på **Firma**![ikon][img6], og deretter **Vår kontaktperson**.
+10. [!include[Select field](includes/select-field.md)] Klikk først på **Firma**![ikon][img6], og deretter **Vår kontaktperson**.
 
 11. I den andre listeboksen velger du **Gjeldende bruker**. Navnet ditt vises i det siste feltet på linjen.
 
 12. Du har nå angitt at du vil søke etter firmaer i Danmark som har deg som kontaktperson.
 
-13. Klikk på **Finn**-knappen under fanen **Kriterier**.
+13. [!include[Click Find](includes/run-search.md)]
 
-14. Alle resultatene som samsvarer med søkekriteriene du har angitt, vises i fanen **Resultater**.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > Hvis du får for få eller for mange treff, kan du justere søkekriteriene ved å velge noe annet i de ulike listeboksene.
-
-15. Deretter bestemmer du hva du vil bruke søkeresultatene til:
-
-    * Hvis du vil åpne en av postene, dobbeltklikker du på den. Deretter vises den på Firma-skjermbildet.
-
-    * Forhåndsvis alle firma i [sidepanelet][4]. Velg **Forhåndsvisning** i listen øverst i sidepanelet. Deretter kan du klikke på hvert enkelt firma i fanen **Resultater** for å forhåndsvise dem.
-
-    * Du kan opprette et utvalg som inneholder disse kundene, ved å klikke på **Lagre som utvalg** og følge fremgangsmåten under [Opprett utvalg][8].
+14. [!include[Explore results](includes/use-results.md)]
 
 ## <a id="ex3" />Eksempel 3: søk etter solgte (utførte) salg
 
@@ -189,11 +173,11 @@ La oss si at du er leder for et firma og vil finne ut hvilken type salg dere lyk
 
 2. Klikk på **Finn salg**.
 
-3. Hvis fanen **Kriterier** inneholder noen kriterier, klikk på ![ikon][img3] for å slette dem eller **Fjern alle** for å fjerne kriteriedataene.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klikk på **Legg til**.
 
-5. I listen som vises velger du feltet du vil søke etter informasjon i: Klikk først på **Salg**-![ikonet][img5], og deretter på **Status**.
+5. [!include[Select field](includes/select-field.md)] Klikk først på **Salg**-![ikonet][img5], og deretter på **Status**.
 
 6. I den andre listeboksen velger du **Er en av**.
 
@@ -219,11 +203,11 @@ La oss si at det nærmer seg lønnsforhandlinger, og at du mener du fortjener å
 
 2. Klikk på **Finn salg**.
 
-3. Hvis fanen **Kriterier** inneholder noen kriterier, klikk på ![ikon][img3] for å slette dem eller **Fjern alle** for å fjerne kriteriedataene.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klikk på **Legg til**.
 
-5. I listen som vises velger du feltet du vil søke etter informasjon i: Klikk først på **Person**![ikon][img7], og deretter på **Etternavn**.
+5. [!include[Select field](includes/select-field.md)] Klikk først på **Person**![ikon][img7], og deretter på **Etternavn**.
 
 6. I den andre listeboksen velger du **Er lik**.
 
@@ -233,7 +217,7 @@ La oss si at det nærmer seg lønnsforhandlinger, og at du mener du fortjener å
 
 9. Klikk på **Legg til**.
 
-10. I listen som vises velger du feltet du vil søke etter informasjon i: Klikk først på **Prosjekt**![ikonet][img8], og deretter på **Fra-dato**.
+10. [!include[Select field](includes/select-field.md)] Klikk først på **Prosjekt**![ikonet][img8], og deretter på **Fra-dato**.
 
 11. I den andre listeboksen velger du **Etter**.
 
@@ -241,20 +225,11 @@ La oss si at det nærmer seg lønnsforhandlinger, og at du mener du fortjener å
 
 13. Nå har du angitt at du vil søke etter prosjekter du har deltatt i fra en gitt dato og frem til i dag.
 
-14. Klikk på **Finn**-knappen under fanen **Kriterier**.
+14. [!include[Click Find](includes/run-search.md)]
 
-15. Alle resultatene som samsvarer med søkekriteriene du har angitt, vises i fanen **Resultater**.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > Hvis du får for få eller for mange treff, kan du justere søkekriteriene ved å velge noe annet i de ulike listeboksene.
-
-16. Deretter bestemmer du hva du vil bruke søkeresultatene til:
-
-    * Hvis du vil åpne en av postene, dobbeltklikker du på den. Deretter vises den på prosjektskjermbildet.
-
-    * Forhåndsvis hvert enkelt prosjekt i [sidepanelet][4]. Velg **Forhåndsvisning** i listen øverst i sidepanelet. Deretter kan du klikke på hvert enkelt prosjekt i fanen **Resultater** for å forhåndsvise dem.
-
-    * Du kan opprette et utvalg som inneholder disse prosjektene, ved å klikke på **Lagre som utvalg** og følge fremgangsmåten under [Opprett utvalg][8].
+15. [!include[Explore results](includes/use-results.md)]
 
 ## <a id="ex5" />Eksempel 5: søk etter gjennomførte markedsføringsinitiativer
 
@@ -264,11 +239,11 @@ La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugna
 
 2. Klikk på **Finn salg**.
 
-3. Hvis fanen **Kriterier** inneholder noen kriterier, klikk på ![ikon][img3] for å slette dem eller **Fjern alle** for å fjerne kriteriedataene.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klikk på **Legg til**.
 
-5. I listen som vises velger du feltet du vil søke etter informasjon i: Klikk først på **Oppfølgings**-![ikon][img9], og deretter på **Hensikt**.
+5. [!include[Select field](includes/select-field.md)] Klikk først på **Oppfølgings**-![ikon][img9], og deretter på **Hensikt**.
 
 6. I den andre listeboksen velger du **Er en av**.
 
@@ -278,7 +253,7 @@ La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugna
 
 9. Klikk på **Legg til**.
 
-10. På listen som vises velger du feltet du vil søke etter informasjon i. Klikk først på **Oppfølgings**-![ikonet][img9], og deretter på **Sluttdato**.
+10. [!include[Select field](includes/select-field.md)] Klikk først på **Oppfølgings**-![ikonet][img9], og deretter på **Sluttdato**.
 
 11. I den andre listeboksen velger du **Forrige**.
 
@@ -290,24 +265,15 @@ La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugna
 
 15. Klikk på **Legg til**.
 
-16. På listen som vises velger du feltet du vil søke etter informasjon i. Klikk først på **Oppfølgings**-![ikon][img9], og deretter på **Fullført**.
+16. [!include[Select field](includes/select-field.md)] Klikk først på **Oppfølgings**-![ikon][img9], og deretter på **Fullført**.
 
 17. Merk av for **Ja**. Du har nå angitt at du vil søke etter oppfølginger som er satt til **Utført**.
 
-18. Klikk på **Finn**-knappen under fanen **Kriterier**.
+18. [!include[Click Find](includes/run-search.md)]
 
-19. Alle resultatene som samsvarer med søkekriteriene du har angitt, vises i fanen **Resultater**.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > Hvis du får for få eller for mange treff, kan du justere søkekriteriene ved å velge noe annet i de ulike listeboksene.
-
-20. Deretter bestemmer du hva du vil bruke søkeresultatene til:
-
-    * Hvis du vil åpne en av postene, dobbeltklikker du på den. Den vises deretter på detaljkortet **Aktiviteter** på skjermbildet Firma.
-
-    * Forhåndsvis hver enkelt oppfølging i [sidepanelet][4]. Velg **Forhåndsvisning** i listen øverst i sidepanelet. Deretter kan du klikke på hver enkelt oppfølging i fanen **Resultater** for å forhåndsvise dem.
-
-    * Du kan opprette et utvalg som inneholder disse oppfølgingene, ved å klikke på **Lagre som utvalg** og følge fremgangsmåten under [Opprett utvalg][8].
+19. [!include[Explore results](includes/use-results.md)]
 
 ## Hva vil du gjøre nå?
 
@@ -321,9 +287,9 @@ La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugna
 [1]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/getting-started/main-screen/side-panel.md
 [2]: using-fastsearcher.md
-[3]: using-search-criteria.md
+[3]: search-criteria.md
 [5]: freetext-search.md
-[6]: using-history-list.md
+[6]: ../../learn/basics/history.md
 [7]: ../selection/learn/howto/index.md
 [8]: ../selection/learn/create/index.md
 [9]: ../selection/learn/update/add-remove-members-static.md

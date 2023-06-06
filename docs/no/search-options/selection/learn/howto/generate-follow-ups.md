@@ -28,7 +28,7 @@ Du kan lage en oppfølging som for eksempel vises på aktivitetslisten til alle 
 7. Velg hvilket prosjekt du vil koble oppfølgingen til, i **Prosjekt**-feltet. Gjør ett av følgende:
 
     * Klikk på pilen, og velg et prosjekt fra listen.
-    * Skriv inn hele eller starten av prosjektnavnet (se [Historikklisten][2] og [Hurtigsøk][3]).
+    * Skriv inn hele eller starten av prosjektnavnet.
 
 8. I feltet **Prioritet** angir du hvordan du vil prioritere oppfølgingen. Hvis du klikker på pilen, vises en liste med standardalternativene høy, middels og lav prioritet.
 
@@ -54,7 +54,5 @@ Du kan lage en oppfølging som for eksempel vises på aktivitetslisten til alle 
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../../../learn/using-history-list.md
-[3]: ../../../learn/using-fastsearcher.md
 
 <!-- Referenced images -->

@@ -1,9 +1,9 @@
 ---
-uid: help-no-using-history-list
+uid: help-no-history-list
 title: Bruke historikklisten
 description: Bruke historikklisten
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 08.05.2023
 keywords: søk, historikk
 so.topic: howto
 language: no
@@ -36,7 +36,7 @@ Historikklisten kan brukes på ulike måter:
 > Du kan øke eller begrense antall linjer i historikklisten ved å gå til ![ikon][img1] **Personlige innstillinger** > **Innstillinger** > **Visuelle effekter** > **Historikklistens størrelse** og angi nummeret du trenger.
 
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/preferences.md
+[1]: ../getting-started/preferences.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

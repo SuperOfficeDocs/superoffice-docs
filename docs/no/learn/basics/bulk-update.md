@@ -18,12 +18,12 @@ Med masseredigering kan du endre verdier på tvers av flere oppføringer av samm
 2. Utvalg: Klikk på **Oppgave**-knappen og velg **Masseredigering**.
     eller
     Velg oppføringene du vil oppdatere, høyreklikk på disse og velg **Masseredigering...**.
-    Dialogboksen **Masseredigering** åpnes. Nederst i denne dialogboksen kan du se typen oppføring og hvor mange oppføringer som skal oppdateres. Eksempel: Antall personer i kø for masseredigering: 7\.
+    Dialogboksen **Masseredigering** åpnes. Nederst i denne dialogboksen kan du se typen oppføring og hvor mange oppføringer som skal oppdateres. Eksempel: Antall personer i kø for masseredigering: 7.
 
     > [!NOTE]
     > Hvis utvalget inneholder både firma og personer, vil det være to faner: **Firma** og **Person**.
 
-3. Velg et felt som skal oppdateres, i kolonnen **Felt**. Du kan også [skrive inn navnet i feltet][1]. Mens du skriver inn hver bokstav, viser listen nedenfor alle treff som er relevante for de valgte oppføringene.
+3. Velg et felt som skal oppdateres, i kolonnen **Felt**. Du kan også skrive inn navnet i feltet. Mens du skriver inn hver bokstav, viser listen nedenfor alle treff som er relevante for de valgte oppføringene.
 
 4. Velg en handling i kolonnen **Handling**. Hvilke handlinger som er tilgjengelige, avhenger av felttypen du valgte i forrige trinn. Eksempler:
 
@@ -91,7 +91,6 @@ Du oppdager at kontaktfeltet **Posisjon** sjelden brukes. For å komme i gang me
 Du ønsker å rydde opp i alle de "gamle" prosjektene som ikke er satt til å fullføres. Opprett et utvalg av alle de gamle prosjektene dine, for eksempel alle prosjekter som går mer enn 2 år tilbake i tid, og som ikke har vært oppdatert det siste året. Bruk **Masseredigering** til å angi statusen **Fullført** for disse prosjektene til **Ja**.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-selected.png

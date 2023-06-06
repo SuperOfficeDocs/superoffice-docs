@@ -27,7 +27,7 @@ Hovedseksjonen inneholder følgende grunnleggende informasjon om oppfølgingen:
 
 ### Type
 
-Klikk på pilen ved siden av dette feltet (![ikon][img2]) for å vise en forhåndsdefinert liste over oppfølgingstyper å velge mellom, for eksempel et møte eller utgående samtale. Du kan også søke etter typer ved å skrive i dette feltet. Her kan du også bruke [hurtigsøk][12].
+Klikk på pilen ![ikon][img2] ved siden av dette feltet for å vise en forhåndsdefinert liste over oppfølgingstyper å velge mellom, for eksempel et møte eller utgående samtale. Du kan også søke etter typer ved å skrive i dette feltet.
 
 > [!NOTE]
 >**Type**-feltet bestemmer hvilken type oppfølging det er snakk om: avtale, oppgave eller samtale.
@@ -169,7 +169,6 @@ Denne fanen viser eventuelle [egendefinerte felt][14] som er konfigurert i Innst
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md
-[12]: ../../../search-options/learn/using-fastsearcher.md
 [13]: ../../../learn/getting-started/preferences.md
 [14]: ../../../custom-objects/learn/index.md
 
