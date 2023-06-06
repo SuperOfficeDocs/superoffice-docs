@@ -5,8 +5,8 @@ description: Holde oversikt over meldinger
 author: Hanne Gunnarsson
 keywords: sak, melding, flagg
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: no
 ---
 

@@ -6,8 +6,9 @@ author: Bergfrid Dias
 so.date: 02.21.2023
 keywords: GDPR, samtykke
 so.topic: concept
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+
 language: no
 ---
 

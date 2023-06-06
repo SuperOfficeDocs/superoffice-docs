@@ -6,7 +6,8 @@ author: Hanne Gunnarsson
 so.date: 03.14.2023
 keywords: utsendelse, domene, SPF
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: no
 ---
 

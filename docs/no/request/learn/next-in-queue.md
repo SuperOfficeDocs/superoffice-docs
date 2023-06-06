@@ -6,8 +6,8 @@ author: Hanne Gunnarsson
 so.date: 03.29.2023
 keywords: sak
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: no
 ---
 

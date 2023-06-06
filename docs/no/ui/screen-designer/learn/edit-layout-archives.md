@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: Skjermdesigner, detaljkort, arkiv
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: no
 ---
 

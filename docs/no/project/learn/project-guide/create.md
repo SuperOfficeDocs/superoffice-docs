@@ -6,8 +6,9 @@ author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: prosjekt, guide, arbeidsflyt
 so.topic: howto
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+
 language: no
 ---
 

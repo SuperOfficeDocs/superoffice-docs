@@ -8,7 +8,8 @@ keywords: brukeradministrasjon, rolle, anonym
 so.topic: howto
 language: no
 so.envir: onsite
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Redigere rettigheter for anonyme brukere (Onsite)

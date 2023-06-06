@@ -6,7 +6,8 @@ author: Bergfrid
 so.date: 03.15.2023
 keywords: bruker, anonym, systembruker
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: no
 so.envir: onsite
 ---

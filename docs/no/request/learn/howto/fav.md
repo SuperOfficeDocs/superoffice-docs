@@ -6,8 +6,8 @@ description: Legge til saker i favorittlisten
 so.date: 06.29.2022
 keywords: sak, fav
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: no
 ---
 

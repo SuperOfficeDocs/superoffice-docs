@@ -7,8 +7,9 @@ so.date: 02.23.2023
 keywords: egendefinert objekt
 so.topic: concept
 language: no
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+
 ---
 
 # Egendefinerte objekter

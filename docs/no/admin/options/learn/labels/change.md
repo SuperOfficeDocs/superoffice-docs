@@ -5,7 +5,8 @@ description: Endre ledetekster
 author: Bergfrid Dias
 so.date: 03.21.2023
 keywords: ledetekst
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 so.topic: howto
 language: no
 ---

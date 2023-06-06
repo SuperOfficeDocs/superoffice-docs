@@ -5,8 +5,8 @@ description: Slik redigerer du en melding i en sak i SuperOffice
 author: Hanne Gunnarsson
 keywords: sak
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: no
 ---
 
