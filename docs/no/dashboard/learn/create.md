@@ -22,7 +22,7 @@ Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du legger t
 
 1. Åpne skjermbildet **Dashbord**.
 
-2. Klikk på **Oppgave** -knappen, og velg **Opprett et nytt dashbord **.
+2. Klikk på **Oppgave** -knappen, og velg **Opprett et nytt dashbord**.
 
 3. Skriv inn dashbordets navn i dialogboksen. Dette blir navnet på dashbordfanen.
 
@@ -55,7 +55,7 @@ Det er mange standardfigurer å velge mellom i biblioteket, men du kan også lag
 * [Legg til figurer / rediger layout][2]
 * [Duplisere et dashbord][4]
 * [Slette et dashbord][5]
-* [Opprette et søk og lagre det som et utvalg ][6]
+* [Opprette et søk og lagre det som et utvalg][6]
 
 <!-- Referenced links -->
 [1]: ../../globalization-and-localization/learn/translate-fields.md
@@ -63,7 +63,7 @@ Det er mange standardfigurer å velge mellom i biblioteket, men du kan også lag
 [3]: update.md
 [4]: copy.md
 [5]: delete.md
-[6]:
+[6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/az.png

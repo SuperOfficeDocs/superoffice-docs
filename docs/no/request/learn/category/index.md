@@ -25,7 +25,7 @@ Ett eksempel vil være å ha hovedkategoriene Brukerstøtte, Utvikling, Salg og 
 Brukere kan legges til som medlemmer i kategorier enkeltvis eller via brukergruppene de tilhører.
 
 > [!TIP]
-> Har du behov for en mer fleksibel metode for organisering av saker? Prøv å [bruke emneknagger i saker][1].
+> Har du behov for en mer fleksibel metode for organisering av saker? Prøv å [bruke emneknagger i saker][6].
 
 ## Hvor finner jeg sakskategoriene?
 
@@ -48,5 +48,6 @@ Kategoriene er organisert i en trestruktur.
 [3]: ../../../admin/lists/learn/index.md
 [4]: ../priority/index.md
 [5]: ../next-in-queue.md
+[6]: ../tags.md
 
 <!-- Referenced images -->

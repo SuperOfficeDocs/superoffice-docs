@@ -3,7 +3,7 @@ uid: help-no-section-tabs-configure
 title: Endre kolonnevisningen
 description: Endre kolonnevisningen
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: 05.24.2023
 keywords: detaljkort, arkiv, kolonne
 so.topic: howto
 language: no
@@ -52,11 +52,13 @@ Du kan angi at kolonnebredder skal justeres automatisk i henhold til innholdet i
 ## Aktuelle emner
 
 * [Gruppelister][3]
-* [Endre rangering av personer][4]
+* [Filtrer detaljkort][1]
+* [Eksporter data fra detaljkort][2]
 
 <!-- Referenced links -->
+[1]: filter.md
+[2]: export-archives.md
 [3]: group.md
-[4]: ../../company/learn/change-rank-of-contacts.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

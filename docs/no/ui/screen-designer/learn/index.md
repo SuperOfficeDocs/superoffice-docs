@@ -1,7 +1,7 @@
 ---
 uid: help-no-screen-designer
 title: Skjermdesigner
-description: "Lær hvordan du konfigurerer Firma-, Person- og Prosjekt-kort, i denne veiledningen."
+description: "Lær hvordan du konfigurerer Firma-, Person-, Prosjekt, og Saks-kort, i denne veiledningen."
 author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: Skjermdesigner
@@ -22,7 +22,7 @@ Person- og firmakort/-skjermbildene i SuperOffice CRM leveres med et standardlay
 
 Skjermdesigner lar deg fjerne unødvendige felt og/eller opprette nye, mer relevante felt. Du kan også gruppere feltene i faner eller kolonner og legge til dine egne overskrifter (kalt "etiketter"). Hvis du synes noen av fanene er unødvendige, kan du enkelt fjerne dem eller erstatte dem med fanene som passer bedre for organisasjonen din.
 
-Salgsteamet, supportteamet og ledelsen har ikke nødvendigvis samme fokus og krav til dataene de trenger oftest tilgang til i SuperOffice. Løsningen er å lage tilpassede skjermbilder for hvert team. Organisasjonen sparer tid ved å la teamene finne relevant informasjon raskere. Konfigurer layouten for hovedskjermbildene og arkivene (detaljkortene), og definer hvilke typer informasjon hvert team (brukergruppe) kan få tilgang til og se på skjermvisningene firma, person, salg og prosjekt.
+Salgsteamet, supportteamet og ledelsen har ikke nødvendigvis samme fokus og krav til dataene de trenger oftest tilgang til i SuperOffice. Løsningen er å lage tilpassede skjermbilder for hvert team. Organisasjonen sparer tid ved å la teamene finne relevant informasjon raskere. Konfigurer layouten for hovedskjermbildene og arkivene (detaljkortene), og definer hvilke typer informasjon hvert team (brukergruppe) kan få tilgang til og se på skjermvisningene firma, person, salg, prosjekt, og sak.
 
 * Flytt de viktigste feltene til den første fanen.
 * Bruk kolonner, etiketter/titler og skillelinjer for å organisere informasjon i logiske grupper.
@@ -32,9 +32,9 @@ Salgsteamet, supportteamet og ledelsen har ikke nødvendigvis samme fokus og kra
 * Legg til koblinger/knapper for å slå opp informasjon på andre nettsider, eller for å manuelt utløse en automatisert prosess basert på CRM-skript.
 
 > [!NOTE]
-> Når denne funksjonen er aktivert, endres feltene i den gjeldende **Mer**-fanen for skjermbildene Firma, Person, Salg og Prosjekt til å danne to kolonner. Du kan redigere disse fanene i skjermdesigneren (se [Rediger layout][1]).
+> Når denne funksjonen er aktivert, endres feltene i den gjeldende **Mer**-fanen for skjermbildene Firma, Person, Salg, Prosjekt, og Sak til å danne to kolonner. Du kan redigere disse fanene i skjermdesigneren (se [Rediger layout][1]).
 
-Nå kan du opprette tilpassede skjermlayouter for firma, person, salg og prosjekt, som vist øverst på skjermen. Listen **Layout** viser eksisterende skjermlayout (vanligvis standardlayout), med en forhåndsvisningsskjerm til høyre.
+Nå kan du opprette tilpassede skjermlayouter for firma, person, salg, prosjekt og sak, som vist øverst på skjermen. Listen **Layout** viser eksisterende skjermlayout (vanligvis standardlayout), med en forhåndsvisningsskjerm til høyre.
 
 Layoutene er merket med status (publisert eller utkast) og de tilordnede brukergruppene.
 

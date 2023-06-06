@@ -21,7 +21,9 @@ Du må alltid angi regler for hvordan duplikater skal håndteres ved import.
 
     * Klikk på ![ikon][img1] ved siden av feltet **Importbeskrivelsesfil** og velg en importbeskrivelsesfil i dialogboksen som vises. Importfil og tidligere valgte innstillinger settes inn automatisk.
 
-    * [!include[Select file](includes/step-select-file.md)] Angi deretter [felttilordning][1].
+    * [!include[Select file](includes/step-select-file.md)]
+
+        Angi deretter [felttilordning][1].
 
 3. Innholdet i kolonnen **Tabell** under **Duplikathåndtering** baseres på angitt felttilordning.
 

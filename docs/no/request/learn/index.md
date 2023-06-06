@@ -72,6 +72,7 @@ Ulike firmaer har ulike rutiner for saksbehandling og kan bruke SuperOffice Serv
 
 ### Scenario 1: Personen sender inn saken via e-post
 
+<!-- markdownlint-disable-next-line MD034 -->
 1. Personen skriver en e-post til support@company.com eller fyller ut et skjema i en brukerstøtteportal.
 1. Personen mottar et [automatisk svar][23] om at henvendelsen er mottatt.
 1. Henvendelsen fra personen blir automatisk registrert som en sak i SuperOffice CRM.

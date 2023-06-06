@@ -3,7 +3,7 @@ uid: help-no-section-tabs
 title: Detaljkortene
 description: Detaljkortene
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: 05.24.2023
 keywords: detaljkort, arkiv
 so.topic: concept
 language: no
@@ -42,7 +42,6 @@ For å redusere innlastingstiden vises bare et angitt antall oppføringer når d
 
 * [Grupperingslister][3]
 * [Bruke filtre i detaljkortene][4]
-* [Endre rangering av personer][16]
 * [Konfigurere kolonner][6]
 * [Eksporter detaljkort][7]
 * [Detaljkortene i Firma-skjermbildet][9]
@@ -66,7 +65,6 @@ For å redusere innlastingstiden vises bare et angitt antall oppføringer når d
 [13]: ../../project/learn/screen/index.md
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
-[16]: ../../company/learn/change-rank-of-contacts.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png
