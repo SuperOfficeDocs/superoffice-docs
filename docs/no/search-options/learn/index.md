@@ -3,7 +3,7 @@ uid: help-no-search-intro
 title: Søkealternativer i CRM
 description: Lær hvordan du søker etter og finner data i SuperOffice CRM med bare noen få klikk.
 author: Bergfrid Dias
-so.date: 12.14.2022
+so.date: 05.25.2023
 keywords: søk, finn
 so.topic: concept
 language: no
@@ -13,19 +13,7 @@ language: no
 
 Å søke etter informasjon i CRM-databasen er noe du gjør hver dag. Enten du leter etter et telefonnummer eller en liste over alle dine åpne salg, kan Finn-funksjonen hjelpe deg med å finne informasjonen raskere.
 
-Følgende veiledninger vil:
-
-* Vise deg de ulike måtene du kan finne informasjon på i SuperOffice CRM-databasen.
-* Forklare hvordan du kan lagre søkene som et utvalg.
-* Demonstrere hvilke oppgaver du kan utføre ved hjelp av søket eller utvalgene dine.
-
-Med SuperOffice Finn kan du søke etter én enkelt datadel, for eksempel et telefonnummer eller en liste med data, for eksempel en liste over mottakere av utsendelser.
-
-SuperOffice CRM inneholder flere forskjellige søkeverktøy:
-
-* [Hurtigsøk][3]
-* [Finn-knappen][1]
-* [Søkefelt for fritekst][2]
+Følgende veiledninger vil: Vise deg de ulike måtene du kan finne informasjon på i SuperOffice CRM-databasen; Forklare hvordan du kan lagre søkene som et utvalg; Demonstrere hvilke oppgaver du kan utføre ved hjelp av søket eller utvalgene dine.
 
 ## Hva kan jeg søke etter?
 
@@ -42,35 +30,42 @@ SuperOffice CRM inneholder flere forskjellige søkeverktøy:
 * Skjemainnsendinger
 * Utsendelser
 
-## Bruke hurtigsøk
+## Søkeverktøy
 
-Du kan bruke [hurtigsøk][3] eller [historikklisten][5] til å søke etter firmaer salg, prosjekter og utvalg.
+SuperOffice CRM inneholder flere forskjellige søkeverktøy:
 
-**Hurtigsøk** finner du enten i **Navigator**-menyen ved å trykke på firmaet, kontakten, salget, prosjektet eller utvalget for å åpne et søkefelt, eller i popup-dialogbokser for å søke etter firmaer, personer, salg, prosjekter og utvalg.
+* [Hurtigsøk][3]
+* [Finn-knappen][1]
+* [Søkefelt for fritekst][2]
 
-Det vil raskt gi deg en liste som samsvarer med søkeordene dine. Bruk den til å kontrollere databasen for mulige duplikater før du legger til et nytt firma eller en ny person.
+Choose the right tool for your task:
+
+| Task | Tool |
+|---|---|
+| Finn og gå til noe spesifikt, slik som et salg. | Hurtigsøk i navigator, eller favoritter, eller histrorielisten|
+| Kontroller før du legger til et firma eller en person for å unngå duplikater. | Hurtigsøk i navigator |
+| Finn alle data av en spesifikk type basert på kriterier | Finn knappen |
+| Lage et utvalg (lagre søkeresultat) | Finn knappen |
+| Utføre et forhåndsdefinert søk | Finn knappen |
+| Finne alle treff for et spesifikt ord eller frase uavhengig av type | Fritekstsøk |
+
+Hovedforskjellen mellom disse verktøyene er om du angir nøkkelord eller betingelser.
+
+## <a id="fastsearcher" />Hurtigsøk
+
+Du kan bruke hurtigsøk i navigatoren og i dialoger. Listen av treff bygges etterhvert som du skriver.
 
 ![Bruk Hurtigsøk til å navigere på en raskt og enkel måte i Navigator -screenshot][img1]
 
-### Tips for hurtigsøk
+Du kan bruke hurtigsøk på flere måter:
 
-Du kan bruke %% til å se alle poster av en bestemt type, for eksempel alle firmaer, alle utvalg, alle prosjekter.
+* For å [søke direkte fra navigatoren][3] for å gå til et firma, en person, et salg, et prosjekt, en sak, eller et utvalg.
 
-Hvis du for eksempel vil se alle dokumentmalene som er tilgjengelige i SuperOffice CRM, går du til menyen **+Ny** og klikker på **Dokument**. I det øverste feltet i dokumentskjermbildet, som angir typer dokumentmaler, skriver du inn %%. Da ser du en nedtrekksmeny som inneholder hele listen over tilgjengelige dokumentmaler.
+* For å [søke inni dialoger][8] etter et firma, en person, et salg, et prosjekt, en sak, eller et utvalg for å referere til et relevant felt i dialogen. For eksempel, for å linke et salg i Dokumentdialogen eller til et firma i Avtaledialogen.
 
-![Skriv inn to prosenttegn i hurtigsøk for å se alle postene -screenshot][img4]
+* For å søke direkte i [tidssonevelgeren][2] for å finne tidssonen for en by eller et land.
 
-## Bruke Søk-knappen
-
-Hvis du klikker på **Finn**-knappen på toppraden, åpner du [Finn][1]-skjermbildet, der du kan søke etter data i SuperOffice.
-
-Søk-knappen hjelper deg å finne poster basert på kriterier fra firmaer, personer, prosjekter, utvalg, salg, produkter, oppfølginger, dokumenter og poster.
-
-![Klikk på Finn-knappen i topplinjen for å komme til Finn-skjermbildet -screenshot][img2]
-
-Når du bruker Finn-funksjonen, kan du lagre hvert søk du utfører som et utvalg.
-
-## Bruke fritekstsøk
+## Fritekstsøk
 
 Bruk søkefeltet [fritekstsøk][2] øverst til høyre for å søke etter tekst som brukerne har skrevet inn i SuperOffice CRM.
 
@@ -79,17 +74,26 @@ Bruk søkefeltet [fritekstsøk][2] øverst til høyre for å søke etter tekst s
 > [!TIP]
 > Vil du se en liste over alle personene dine? Klikk på ikonet **Utvalg** til venstre i navigatorpanelet og søk etter "Alle personer" for å se et forhåndskonfigurert valg.
 
-## Bruke jokertegn
+## Jokertegn
 
 Bruk **%** som jokertegn under søk. Prosenttegnet (%) finner alle strenger med 0 eller flere tegn. For eksempel: J%son finner Jackson, Johnson, Jason og Json.
 
-[!include[Use wildcard in search](includes/tip-search-wildcard.md)]
+> [!TIP]
+> Hvis du vil søke etter et fornavn OG mellomnavn eller en person med to etternavn, skriver du inn en understreking mellom navnene. Eksempel: "Carl_Martin" eller "Jennings_Fletcher". Understrekingstegnet fungerer som et jokertegn.
+
+## Søkeknappen
+
+Klikk på **Finn**-knappen på toppraden for å åpne [Finn][1]-skjermbildet, der du kan søke etter data i SuperOffice. Søk-knappen hjelper deg å finne poster [basert på kriterier][6] fra firmaer, personer, prosjekter, utvalg, salg, saker, produkter, oppfølginger, og dokumenter.
+
+![Klikk på Finn-knappen i topplinjen for å komme til Finn-skjermbildet -screenshot][img2]
+
+Fra Finn-skjermbildet kan du lagre hvert søk du utfører som et utvalg.
 
 ## <a id="typical" />Bruk vanlige søk som utgangspunkt
 
 Et vanlig søk er et forhåndsdefinert søk vi har satt opp for deg, slik at du kan se hva andre brukere vanligvis søker etter. Hvert datasett i Finn-skjermbildet inneholder en liste over vanlige søk som er klare til bruk.
 
-Et vanlig søk er en fin måte å begynne å lete etter data i SuperOffice CRM på. Du finner vanlige søk ved å klikke under datagruppen du er interessert i. Vanlige søk inneholder forhåndsinnstilte, vanlige søkekriterier og kan brukes som de er, endres eller utvides.
+Du finner vanlige søk ved å klikke under datagruppen du er interessert i. Vanlige søk inneholder forhåndsinnstilte, vanlige søkekriterier og kan brukes som de er, endres eller utvides.
 
 ### Eksempel: Mine forfalte oppfølginger
 
@@ -103,8 +107,6 @@ Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved 
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-[Les mer][6]
 
 ## <a id="search-to-selection" />Opprett et søk og lagre det som et utvalg
 
@@ -132,21 +134,22 @@ Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du kan oppr
 ## Aktuelt innhold
 
 * [Favoritter][4]
+* [Historielisten][5]
 * [Opprette et søk og lagre det som et utvalg][7]
-* Utvide søket ved hjelp av ELLER-funksjonen
+* [Utvide søket ved hjelp av ELLER-funksjonen][1]
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: freetext-search.md
-[3]: using-fastsearcher.md
+[3]: in-navigator.md
 [4]: ../../learn/basics/fav.md
-[5]: using-history-list.md
+[5]: ../../learn/basics/history.md
 [6]: search-criteria.md
 [7]: ../selection/learn/create/index.md
+[8]: in-dialogs.md
 
 <!-- Referenced images -->
 [img1]: media/search-find-fastsearcher.png
 [img2]: media/getstarted-search-find-findscreen.png
 [img3]: media/freetext-search-find.png
-[img4]: media/getstarted-document-fastsearcher.png
 [img5]: media/typical-search.png

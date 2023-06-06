@@ -31,11 +31,19 @@ Denne funksjonen støtter sommertid.
 
 Tidssoner vises i en listeboks i [Dagbok][1] og i [dialogboksen for oppfølginger][3]. Standard tidssone for SuperOffice-databasen vises øverst, ved hjelp av dette ikonet: ![icon][img1].
 
-Tidssonelisten er sortert etter land. Øverst i tidssonelisten finner du navnet på valgt land med flagg. Du kan søke i tidssonelisten på flere måter:
+Tidssonelisten er sortert etter land. Øverst i tidssonelisten finner du navnet på valgt land med flagg.
 
-* Bruk det øverste feltet med valgt land og flagg som et søkefelt. Du kan søke i tidssonefeltet på samme måte som i [hurtigsøk][2]-feltene, og du kan søke etter både land og byer, forutsatt at byen er inkludert i tidssonedataene. -+Hvis du for eksempel ikke kjenner tidssonen for Canberra, kan du søke etter Canberra og få opp den aktuelle australske tidssonen i listen.
+### Søk etter land eller by
 
-* Ved å søke på antall timer for å finne riktig tidssone. Hvis du for eksempel skriver inn +3, vises alle tidssoner som er tre timer etter tidssonen som er angitt i SuperOffice CRM.
+Bruk det øverste feltet med valgt land og flagg som et søkefelt. Du kan søke etter både land og byer, forutsatt at byen er inkludert i tidssonedataene. Hvis du for eksempel ikke kjenner tidssonen for Canberra, kan du søke etter Canberra og få opp den aktuelle australske tidssonen i listen.
+
+1. Plasser musepekeren i landfeltet.
+2. Skriv inn navnet på byen eller landet du vil vite tidssonen for.
+3. Når du har funnet ønsket by eller land, klikker du på elementet for å aktivere ønsket tidssone.
+
+### Søk etter tidsforskjell
+
+Ved å søke på antall timer for å finne riktig tidssone. Hvis du for eksempel skriver inn +3, vises alle tidssoner som er tre timer etter tidssonen som er angitt i SuperOffice CRM.
 
 > [!NOTE]
 > Navn på regioner i tidssonevelgeren vil alltid være på engelsk, mens navn på land avhenger av språkinnstillingene i SuperOffice CRM. Ikke glem dette når du søker etter land og regioner.
@@ -48,7 +56,6 @@ Tidssonelisten er sortert etter land. Øverst i tidssonelisten finner du navnet 
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
-[2]: ../../search-options/learn/using-fastsearcher.md
 [3]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->

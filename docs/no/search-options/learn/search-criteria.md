@@ -45,101 +45,87 @@ Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved 
 
 5. Klikk på **Legg til** for å legge til en ny linje, eller klikk på **Eller** for å legge til et nytt sett med kriterier.
 
-### Felttyper
+## Felttyper
 
-#### <a id="text" />Tekstfelt
+### <a id="text" />Tekstfelt
 
 Hvis feltet du søker i, er et tekstfelt (for eksempel et navn), søkes det etter tekst eller tall du skriver inn. En liste med følgende alternativer vises:
 
-[!include[Search criteria](../../learn/includes/list-search-criteria.md)]
+[!include[Search criteria](includes/list-search-criteria.md)]
 
 Velg ett av disse alternativene, og skriv deretter inn søkekriterier i tekstfeltet til høyre.
 
-#### <a id="yes-no" />Ja/Nei-felt
+### <a id="yes-no" />Ja/Nei-felt
 
 Hvis feltet du søker i er et Ja/nei-felt, for eksempel feltet **Ingen utsendelser** i skjermbildet Firma, vises to alternativknapper. Du kan velge mellom **Ja** og **Nei**.
 
-#### <a id="date" />Datofelt
+### <a id="date" />Datofelt
 
 Hvis feltet du søker i er et datofelt, for eksempel feltet **Dato** i dialogboksen **Dokument** vises en liste med følgende alternativer:
 
-[!include[Search criteria](../../learn/includes/list-date-criteria.md)]
+[!include[Search criteria](includes/list-date-criteria.md)]
 
-Velg ønsket alternativ. Avhengig av hva du velger, fylles feltet automatisk ut med en dato eller et datointervall, eller du kan skrive inn ønsket dato. Du kan også velge en dato i kalenderen som vises når du klikker på pilknapp-![ikonet][img1].
+Velg ønsket alternativ. Avhengig av hva du velger, fylles feltet automatisk ut med en dato eller et datointervall, eller du kan skrive inn ønsket dato. Du kan også velge en dato i kalenderen som vises når du klikker på pilknappen ![ikon][img1].
 
-#### <a id="number" />Tallfelt
+### <a id="number" />Tallfelt
 
 Hvis feltet du søker i inneholder en numerisk verdi, for eksempel feltet **Beløp** i skjermbildet Salg, vises en liste med følgende alternativer:
 
-[!include[Search criteria](../../learn/includes/table-number-criteria.md)]
+[!include[Search criteria](includes/table-number-criteria.md)]
 
 Velg ønsket alternativ, og skriv inn ønsket tallverdi i tekstfeltet til høyre.
 
-#### <a id="list" />Listefelt
+### <a id="list" />Listefelt
 
-Hvis feltet du søker i er et felt som inneholder lister, for eksempel feltet **Bransje** i skjermbildet Firma, vises en liste med alternativene **Er en av** og **Er ikke en av**.
+Hvis feltet du søker i er et felt som inneholder lister, for eksempel feltet **Bransje** i skjermbildet Firma, vises en liste med alternativene **Er en av** og **Er ikke en av**. For for firma- og personinterresser er valgene **Er lik**, **Er en av**, and **Ingen av**.
 
-Klikk på feltet **Velg elementer** for å vise en liste over verdier.
+1. Klikk på feltet **Velg elementer** for å vise en liste over verdier.
+1. Hvis listen er lang, kan du skrive inn tekst i **Søkevilkår** for å søke etter verdier.
+1. Klikk utenfor listen for å lukke den.
 
-Hvis listen er lang, kan du skrive inn tekst i **Søkevilkår** for å søke etter verdier.
-
-Klikk utenfor listen for å lukke den.
-
-#### <a id="status" />Statusfelt
+### <a id="status" />Statusfelt
 
 Hvis feltet du søker i er et statusfelt, velger du ønsket status.
 
-Statusene opprettes og vedlikeholdes i Innstillinger og vedlikehold.
+Statusene opprettes og vedlikeholdes i Innstillinger og vedlikehold. Statusfelt er bare aktuelle hvis du har kjøpt lisens for og aktivert statusovervåking.
 
-Statusfelt er bare aktuelle hvis du har kjøpt lisens for og aktivert statusovervåking.
-
-#### <a id="counter" />Tellerfelt
+### <a id="counter" />Tellerfelt
 
 [Tellere][3] kan for eksempel være antall salg i en periode eller datoen for det siste fullførte salget.
 
 Tellerfelt finner du under **Tellere (SAINT)** i listen med kriterier.
 
-Tellerne opprettes og vedlikeholdes i Innstillinger og vedlikehold.
+1. Til høyre for feltene kan du klikke koblingene for å angi flere vilkår for tellerne. De tilgjengelige alternativene avhenger av typen oppføring og teller du jobber med.
 
-Tellerfelt er bare relevante hvis du har kjøpt lisens for og aktivert statusovervåking.
+    * **Saint-type**: Her kan du velge aktivitetstypen du vil søke etter.
+    * **Status**: Her kan du velge statusen til oppføringen du vil søke etter.
+    * **Retning**: Her kan du velge om aktiviteten er innkommende eller utgående.
+    * **Beløpsklasse**: Her velger du beløpsklassen til salget.
+    * **Hensikt**: Her kan du velge hensikten for aktiviteten.
 
-Til høyre for feltene kan du klikke koblingene for å angi flere vilkår for tellerne. De tilgjengelige alternativene avhenger av typen oppføring og teller du jobber med.
+1. Avhengig av hva du valgte ovenfor, vises en liste for et datofelt eller et tallfelt. Disse listeboksene fungerer som beskrevet ovenfor. Velg ønsket alternativ, og skriv inn ønsket tallverdi eller dato i tekstfeltet.
 
-* **Saint-type**: Her kan du velge aktivitetstypen du vil søke etter.
-* **Status**: Her kan du velge statusen til oppføringen du vil søke etter.
-* **Retning**: Her kan du velge om aktiviteten er innkommende eller utgående.
-* **Beløpsklasse**: Her velger du beløpsklassen til salget.
-* **Hensikt**: Her kan du velge hensikten for aktiviteten.
+Tellerne opprettes og vedlikeholdes i Innstillinger og vedlikehold. Tellerfelt er bare relevante hvis du har kjøpt lisens for og aktivert statusovervåking.
 
-Avhengig av hva du valgte ovenfor, vises en liste for et datofelt eller et tallfelt. Disse listeboksene fungerer som beskrevet ovenfor. Velg ønsket alternativ, og skriv inn ønsket tallverdi eller dato i tekstfeltet.
+## Arbeide med søkekriterier
 
-## Endre søkekriterier
-
-Hvis du vil endre et søkekriterium, klikker du på det og velger et annet kriterium fra listen som vises.
-
-## Flytt søkekriterier
-
-Hvis du vil flytte kriterier (en linje), klikk og dra ![ikonet][img2].
-
-## Slett søkekriterier
-
-Hvis du vil slette et søkekriterium, klikk på ![ikon][img3].
-
-## Aktivere eller deaktivere søkekriterier
+Listen over kriterier inneholder et sett med standardkriterier som du kan redigere eller fjerne etter behov.
 
 Når du åpner skjermbildet **Finn**, inneholder den standard søkekriterier eller søkekriteriene du anga forrige gang du brukte dialogboksen. Hvis du vil bruke andre søkekriterier enn de som vises, har du følgende alternativer:
 
-* Du kan slette dem ved å klikke på ![ikon][img3]
-* Du kan deaktivere ett eller flere søkekriterier ved å la verdifeltet stå tomt. Et deaktivert søkekriterium blir stående på listen over kriterier og kan enkelt aktiveres igjen.
-* Du kan deaktivere alle søkekriteriene ved å klikke **Fjern alle**.
+| Oppgave | Handling |
+|---|---|
+| Flytte søkekriterier | Klikk ![ikon][img2] og dra linjen. |
+| Endre et søkekriterium | Klikk på det og velg et annet kriterium fra listen som vises. |
+| Deaktivere ett eller flere søkekriterier | La verdifeltet stå tomt. |
+| Deaktivere alle søkekriteriene | Click **Clear all**. |
+| Slette et søkekriterium | Klikk ![icon][img3]. |
+| Tilbakestille listen | Klikk **Tilbakestill til standard**. |
 
-## Flytt søkekriterier opp eller ned
-
-Hvis du vil flytte kriterier, klikk og dra ![ikon][img2]. Dette har ingen praktisk effekt på søket, men gjør det mulig for deg å ordne kriteriene i den rekkefølgen du foretrekker. Hvis noen av kriteriene ikke brukes, men du fortsatt ønsker å beholde dem, kan du flytte inaktive kriterier til bunnen av listen.
-
-## Tilbakestill til standard søkekriterier
-
-Listen over kriterier inneholder et sett med standardkriterier som du kan redigere eller fjerne etter behov. Hvis du vil tilbakestille listen over kriterier standardvilkåret, klikker du **Tilbakestill til standard**.
+> [!NOTE]
+> Å flytte kriterier har ingen praktisk effekt på søket, men gjør det mulig for deg å ordne kriteriene i den rekkefølgen du foretrekker. Hvis noen av kriteriene ikke brukes, men du fortsatt ønsker å beholde dem, kan du flytte inaktive kriterier til bunnen av listen.
+>
+> Et deaktivert søkekriterium blir stående på listen over kriterier og kan enkelt aktiveres igjen.
 
 ## Hva vil du gjøre nå?
 
@@ -147,7 +133,7 @@ Listen over kriterier inneholder et sett med standardkriterier som du kan redige
 
 <!-- Referenced links -->
 [1]: find-screen.md
-[2]: using-fastsearcher.md
+[2]: in-navigator.md
 [3]: ../../sale/saint/learn/index.md
 
 <!-- Referenced images -->
