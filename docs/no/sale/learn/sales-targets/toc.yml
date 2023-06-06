@@ -1,0 +1,7 @@
+items:
+- name: Overview
+  href: index.md
+- name: Set up sales targets
+  href: create.md
+- name: Target types
+  href: target-types.md

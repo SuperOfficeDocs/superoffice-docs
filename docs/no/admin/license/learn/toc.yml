@@ -1,0 +1,7 @@
+items:
+- name: Overview
+  href: index.md
+- name: Licenses screen
+  href: screen\index.md
+- name: Activate license
+  href: activate.md

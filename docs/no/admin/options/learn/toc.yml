@@ -1,0 +1,57 @@
+items:
+- name: Overview
+  href: index.md
+- name: Freetext search
+  topicHref: freetext-search/index.md
+  items:
+  - name: Overview
+    href: freetext-search/index.md
+  - name: Enable freetext search
+    href: freetext-search/enable.md
+  - name: Specify search criteria
+    href: freetext-search/configure.md
+  - name: Stopwords
+    href: freetext-search/stopwords.md
+  - name: Regenerate freetext index
+    href: freetext-search/regenerate-index.md
+- name: Timezones
+  topicHref: time-zones/index.md
+  items:
+  - name: Overview
+    href: time-zones/index.md
+  - name: Enable use of time zones
+    href: time-zones/enable.md
+  - name: Select which time zones to show
+    href: time-zones/select.md
+- name: Number allocation
+  topicHref: number-allocation/index.md
+  items:
+  - name: Overview
+    href: number-allocation/index.md
+  - name: Specify number allocation
+    href: number-allocation/configure.md
+  - name: Default values for new document templates
+    href: number-allocation/document-template-defaults.md
+- name: Labels
+  topicHref: labels/index.md
+  items:
+  - name: Overview
+    href: labels/index.md
+  - name: Change labels
+    href: labels/change.md
+  - name: Reset labels
+    href: labels/reset.md
+    
+- name: Reports
+  href: reports.md
+- name: Customer languages
+  topicHref: custlang/index.md
+  items:
+  - name: Overview
+    href: custlang/index.md
+  - name: Create and edit customer languages
+    href: custlang/update.md
+  - name: Work with external categories
+    href: custlang/external-categories.md
+  - name: Select customer language
+    href: custlang/select-language.md

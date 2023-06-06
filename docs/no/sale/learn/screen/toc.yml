@@ -1,0 +1,11 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Activities
+    href: activities-sale.md
+  - name: Stakeholders
+    href: ../stakeholders/index.md
+  - name: Sales guide
+    href: sales-guide-tab.md
+  - name: Quote
+    href: quote-tab.md

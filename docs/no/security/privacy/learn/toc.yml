@@ -1,0 +1,9 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Edit privacy settings for a contact
+    href: edit-legal-base.md
+  - name: Send privacy confirmation email
+    href: send-privacy-confirmation-email.md
+  - name: Generate personal data report
+    href: generate-personal-data-report.md

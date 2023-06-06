@@ -1,0 +1,20 @@
+items:
+- name: Overview
+  href: index.md
+- name: Selection screen
+  href: screen/index.md
+- name: Static selections
+  href: static-selections.md
+- name: Dynamic selections
+  href: dynamic-selections.md
+- name: Combined selections
+  href: combined-selections.md
+- name: Create selection
+  href: create/toc.yml
+  topicHref: create/index.md
+- name: Update selection
+  href: update/toc.yml
+  topicHref: update/index.md
+- name: Perform tasks using selection
+  href: howto/toc.yml
+  topicHref: howto/index.md

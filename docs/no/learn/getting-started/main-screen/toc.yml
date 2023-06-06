@@ -1,0 +1,11 @@
+items:
+- name: Overview
+  href: index.md
+- name: Navigator
+  href: navigator.md
+- name: Buttons on the top bar
+  href: buttons-in-menu-bar.md
+- name: Side panels
+  href: side-panel.md
+- name: Use in-app help
+  href: in-app-help.md

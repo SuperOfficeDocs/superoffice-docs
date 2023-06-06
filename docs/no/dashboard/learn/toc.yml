@@ -1,0 +1,31 @@
+items:
+- name: Overview
+  href: index.md
+- name: Work with dashboard
+  topicHref: create.md
+  items:
+  - name: Create a new dashboard
+    href: create.md
+  - name: Edit a dashboard
+    href: update.md
+  - name: Duplicate a dashboard
+    href: copy.md
+  - name: Delete a dashboard
+    href: delete.md
+- name: Work with tiles
+  topicHref: working-with-tiles.md
+  items:
+  - name: Overview
+    href: working-with-tiles.md
+  - name: Add tile / edit layout in dashboard
+    href: add-tile.md
+  - name: Edit a tile
+    href: edit-tile.md
+  - name: Remove a tile
+    href: remove-tile.md
+  - name: Using sales targets in tiles
+    href: show-sales-targets.md
+  - name: Using mailing and forms in tiles
+    href: show-marketing.md
+  - name: Using requests in tiles
+    href: show-requests.md

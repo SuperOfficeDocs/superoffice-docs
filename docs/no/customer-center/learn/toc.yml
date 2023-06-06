@@ -1,0 +1,13 @@
+items:
+- name: Overview
+  href: index.md
+- name: Configuration
+  href: config.md
+- name: Source files
+  href: edit.md
+- name: Send passwords to contacts
+  href: send-credentials.md
+- name: Enable chat
+  href: enable-chat.md
+- name: Link a web form
+  href: link-form.md
