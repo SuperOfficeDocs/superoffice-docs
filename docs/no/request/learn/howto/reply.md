@@ -33,7 +33,7 @@ Når du åpner en sak og velger **Svar**, vises [e-postsignaturen][7] du har kon
 
 1. Klikk på **Lagre**. Meldingen sendes til personen.
 
-## Legge til svarmaler i meldinger
+## <a id="reply-templ" />Legge til svarmaler i meldinger
 
 Når du svarer på en henvendelse, kan du spare tid ved å bruke en [svarmal][8] som utgangspunkt for et tilpasset svar til personen. Velg hvilken svarmal du vil legge til i meldingsfeltet, rediger teksten, og legg til eller fjern vedlegg for å skreddersy den til den aktuelle situasjonen.
 

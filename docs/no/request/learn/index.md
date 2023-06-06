@@ -42,13 +42,13 @@ Saker kan knyttes til [personer][2], som igjen kan tilhøre et [firma][3]. Dette
 
 ### Hva vil du gjøre nå?
 
-* [Lære saksbehandling trinn for trinn][7]
+* Learn request handling step by step
 * [Motta saker][6]
 * [Opprette saker][4]
 * [Finne saker][10]
 * [7 tips for å yte førsteklasses kundeservice med SuperOffice Service][20] – blogg
 
-## Håndtering av saker
+## <a id="request-mgt" />Håndtering av saker
 
 Innkommende saker kan komme gjennom mange kanaler, og det er mer enn én måte å registrere og svare på dem. Hvordan saksbehandlingen foregår, vil variere fra sak til sak.
 
@@ -116,12 +116,11 @@ Ulike firmaer har ulike rutiner for saksbehandling og kan bruke SuperOffice Serv
 [4]: howto/create.md
 [5]: howto/flag-message.md
 [6]: howto/assign.md
-[7]: index.md#request-management
 [8]: howto/fav.md
 [9]: howto/edit-message.md
 [10]: find.md
 [11]: find.md#list
-[12]: find.md#search
+[12]: ../../search-options/learn/index.md
 [13]: find.md#result
 [14]: howto/create.md
 [15]: ../../learn/getting-started/edit-email-signature.md

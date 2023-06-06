@@ -27,16 +27,14 @@ Og annen funksjonalitet som gir deg oversikt over:
 * [Slik håndterer du duplikater][16]
 * [Slik bruker du masseredigeringsfunksjonalitet][17]
 
-## Enkle oppgaver å komme i gang med
-
-### Infoboks
+## Infoboks
 
 Mange steder i SuperOffice CRM brukes en Infoboks for å vise mer informasjon om et element. Infobokser er spesielt nyttige med lister for å se mer enn hovedinformasjonen som vises for enkeltposter, eller, med smale kolonner, for å vise mer enn den avkortede informasjonen. Infoboksen vises når du holder musepekeren over noe.
 
 > [!NOTE]
 > Hvis du ikke har tilgang til en funksjon, vises det bare en tekst som forklarer hvorfor du ikke kan se denne informasjonen.
 
-### Oppdatere data
+## Oppdatere data
 
 Hver gang du starter SuperOffice CRM, oppdateres programmet fullstendig med alle endringene andre har gjort i hoveddatabasen og endringer som er gjort i Innstillinger og vedlikehold.
 
@@ -45,14 +43,14 @@ Du kan også oppdatere dataene mens du bruker SuperOffice CRM. Dette gjør du ve
 > [!NOTE]
 > Noen endringer i Innstillinger og vedlikehold krever at SuperOffice CRM-klienten startes på nytt for at endringene skal tre i kraft.
 
-### Vedlikehold firmaer og personer
+## Vedlikehold firmaer og personer
 
 Skjermbildene Firma og Person inneholder all informasjon relatert til kundene dine og gir øyeblikkelig innsikt i kommunikasjonen, prosjektene og kjøpene de har med deg.
 
 > [!TIP]
 > Visste du at du kan se alle firmaene eller personene dine på ett sted? Klikk på Utvalg-ikonet i navigatorpanelet, og velg **Firma: Alle** eller **alle personer** fra listen.
 
-#### Oppgaver
+### Oppgaver - firmaer og personer
 
 * [Legge til et firma][2]
 * [Legge til personer][3]
@@ -69,7 +67,7 @@ SuperOffice-dagboken er hjertet i CRM-systemet ditt. Regelmessig bruk av dagboke
 
 I tillegg til den vanlige kalenderfunksjonaliteten gir SuperOffice-dagboken deg også muligheten til å koble sammen og organisere aktiviteter i prosjekter og salg. Dette hjelper deg og teamet ditt med å få full oversikt over alle aktiviteter og kommunikasjon koblet til ethvert prosjekt eller salg.
 
-#### Oppgaver
+### Oppgaver - dagbok og avtaler
 
 * [Opprett avtaler][8]
 * [Invitere en person til en avtale][10]
@@ -79,12 +77,12 @@ I tillegg til den vanlige kalenderfunksjonaliteten gir SuperOffice-dagboken deg 
 
 Lagring av alle dokumenter på ett sted hjelper deg og teamet ditt med å få tilgang til oppdatert informasjon og holde kontroll over kunderelasjonene.
 
-#### Oppgaver
+### Oppgaver - dokumenter
 
 * Opprette eller laste opp et dokument
 * Lagre e-postvedlegg i SuperOffice CRM
 
-### Bruke prosjekter til å organisere filer og aktiviteter
+## Bruke prosjekter til å organisere filer og aktiviteter
 
 SuperOffice Prosjekt hjelper deg med å holde arbeidet organisert og dokumentert på ett sted, slik at du og teamet ditt kan få bedre kontroll og forbedre samarbeidet.
 
@@ -100,7 +98,7 @@ SuperOffice Project leveres også med en prosjektguide som kan tilpasses dine eg
 
 Administratoren kan [legge til og tilpasse prosjektguider][1] for deg.
 
-#### Oppgaver
+### Oppgaver - prosjekt
 
 * [Opprette et prosjekt][7]
 

@@ -108,7 +108,7 @@ Hvis forhåndsvisningsdelen ikke vises, klikker du på **Vis forhåndsvisning** 
 [9]: ../../dashboard/learn/index.md
 [10]: ../../search-options/selection/learn/index.md
 [11]: ../../search-options/learn/find-screen.md
-[12]: ../../learn/getting-started/main-screen/navigator.md#navigator-options
+[12]: ../../learn/getting-started/main-screen/navigator.md#navigator
 [13]: ../../search-options/selection/learn/create/tutorial.yml
 
 <!-- Referenced images -->

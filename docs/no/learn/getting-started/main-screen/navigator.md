@@ -59,7 +59,7 @@ Du beveger deg mellom hovedseksjonene i SuperOffice ved hjelp av navigatoren på
 | ![icon][img59] | **Systemdesign**: her finner du forskjellige avanserte innstillinger for SuperOffice Service. | |
 | ![icon][img60] | **App store**: Åpner [SuperOffice App Store][44], der du kan utforske standardapper og integrasjoner som kan utvide SuperOffice CRM Online. | |
 
-## Alternativer i navigatoren
+## <a id="navigator" />Alternativer i navigatoren
 
 Når du klikker på en navigatorknapp, vises en eller flere av knappene nedenfor.
 

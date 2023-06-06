@@ -21,7 +21,7 @@ Du kan legge til ekstra nettleserfaner på følgende skjermbilder, slik at infor
 
 ## Hva kan jeg legge til som innhold
 
-* URL-er: Koblinger til nettsider eller til bestemte oppføringer i SuperOffice Service.
+* URL-er: Koblinger til nettsider eller til bestemte oppføringer i SuperOffice.
 * Skjermbilder: Snarveier til bestemte skjermbilder.
 * Skript/makroer: Knapper eller menyalternativer som trigger et skript eller en makro.
 * Utvalg: Snarvei til et utvalg.

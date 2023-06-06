@@ -72,7 +72,7 @@ Viser saker som ingen har blitt tildelt ansvaret for. Hvis du vil [ta ansvar for
 [2]: ../../request/learn/howto/accept.md
 [4]: ../../request/learn/howto/create.md
 [5]: ../../request/learn/find.md
-[6]: ../../request/learn/index.md#request-management
+[6]: ../../request/learn/index.md#request-mgt
 [7]: add-tile.md
 
 <!-- Referenced images -->

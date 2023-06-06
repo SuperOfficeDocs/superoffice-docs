@@ -1,5 +1,5 @@
 ---
-uid: help-no-webtools-install
+uid: help-no-mail-link-install
 title: Installere SuperOffice WebTools
 description: Finn ut hvordan du installerer e-postkoblingen/WebTools.
 author: Kirsti Aakerholt

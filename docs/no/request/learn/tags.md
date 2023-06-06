@@ -13,11 +13,11 @@ language: no
 
 # Bruke emneknagger i saker
 
-Emneknagger er et kraftig verktøy for å organisere og finne saker i SuperOffice Service. Du kan raskt opprette emneknagger og merke en hvilken som helst sak med så mange emneknagger du ønsker. Ved hjelp av emneknagger forenkler du hvordan du søker etter, viser og filtrerer saker.
+Emneknagger er et kraftig verktøy for å organisere og finne saker i SuperOffice. Du kan raskt opprette emneknagger og merke en hvilken som helst sak med så mange emneknagger du ønsker. Ved hjelp av emneknagger forenkler du hvordan du søker etter, viser og filtrerer saker.
 
 Hvert firma vil ønske å bruke sine egne spesifikke emneknagger for kundeservicesaker. La oss ta en titt på to typer emneknagger som kan være nyttige for ditt firma:
 
-* Du kan sette opp emneknagger for de forskjellige kundefasene firmaet ditt bruker, for eksempel Gratis prøveperiode, Onboarding, Eksisterende eller Avslutning;
+* Du kan sette opp emneknagger for de forskjellige kundefasene firmaet ditt bruker, for eksempel Gratis prøveperiode, Onboarding, Eksisterende eller Avslutning.
 
 * Du kan opprette tagger relatert til avdelingen som skal håndtere en bestemt type sak, for eksempel Økonomi, Markedsføring eller Salg.
 

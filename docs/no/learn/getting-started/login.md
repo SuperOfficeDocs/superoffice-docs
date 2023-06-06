@@ -131,7 +131,7 @@ Du må tilhøre rollen *Brukernivå 0* eller en annen rolle som gir deg påloggi
 4. Klikk på **OK**.
 
 > [!NOTE]
-> Flere godkjenningsmetoder er tilgjengelige, så det avhenger av hvilken godkjenningsmetode brukeren din er konfigurert med, og om du kan endre passordet her. Sjekk ut vår FAQ hvis du har [glemt passordet][8]ditt.
+> Flere godkjenningsmetoder er tilgjengelige, så det avhenger av hvilken godkjenningsmetode brukeren din er konfigurert med, og om du kan endre passordet her. Sjekk ut vår FAQ hvis du har [glemt passordet][5]ditt.
 
 ## Aktuelt innhold
 
@@ -147,10 +147,9 @@ Har du problemer med å logge på? [Sjekk FAQ][1] for forskjellige påloggingspr
 [2]: ../../admin/user-management/learn/index.md
 [3]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-cannot-login-to-superoffice-crm-online/
 [4]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-a-newly-created-user-cannot-log-in-to-superoffice-crm/
-[5]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
+[5]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 [6]: preferences.md#options
 [7]: ../../identity-management/single-sign-on/index.md
-[8]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

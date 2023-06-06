@@ -32,7 +32,7 @@ Hvis en prosjektveiledning er definert for en prosjekttype som du angir for et p
     > [!TIP]
     > Hvis du vil opprette flere oppfølginger av samme type, kan du høyreklikke på aktiviteten og velge **Opprett en til**. [Dialogboksen for oppfølginger][2] vises.
     >
-    > ![ikon][img2]
+    > ![I tabben Prosjektguide kan du høyreklikke og velge Opprett en til -screenshot][img2]
 
 1. Etter at alle oppfølginger og dokumenter i en prosjektstatus er utført, går du til neste status.
 
