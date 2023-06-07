@@ -7,7 +7,7 @@ so.date: 03.02.2023
 keywords: brukerveiledning, hjelp
 so.topic: concept
 so.version: 10
-so.lang: en
+language: no
 so.envir:
 so.client:
 ---

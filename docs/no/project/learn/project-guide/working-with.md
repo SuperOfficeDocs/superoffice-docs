@@ -41,7 +41,7 @@ Hvis en prosjektveiledning er definert for en prosjekttype som du angir for et p
 
 1. Gjenta fremgangsmåten ovenfor for alle oppfølginger/dokumenter i hver status i prosjektguiden.
 
-## Flytt til neste status
+## <a id="move-to-next-status" />Flytt til neste status
 
 Du kan flytte prosjektet til neste status på to måter:
 

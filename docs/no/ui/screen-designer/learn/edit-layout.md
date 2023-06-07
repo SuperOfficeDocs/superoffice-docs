@@ -85,7 +85,7 @@ Bokser med prikkede linjer i layouten angir hvor du kan plassere et felt:
 
 Nedenfor finner du mer detaljerte beskrivelser av de ulike delene og funksjonene.
 
-## Felt
+## <a id="fields" />Felt
 
 I **Felt**-delen finner du alle tilgjengelige datafelt for den valgte skjermlayouten. Bruk filterfunksjonen til å finne bestemte felt.
 
@@ -104,13 +104,13 @@ I **Felt**-delen finner du alle tilgjengelige datafelt for den valgte skjermlayo
 
 I **Elementer**-delen kan du legge til ulike ikke-dataelementer slik som etiketter, skillelinjer, koblinger og knapper.
 
-## Innstillinger
+## <a id="settings"/>Innstillinger
 
 Gjør felt mer synlige ved å endre til fet og stor skrift. Gjør plass til flere felt med mindre skrift. Spar skjermplass ved å skjule etiketter.
 
 Klikk på et felt eller element i oppsettet for å redigere innstillingene. Den tilgjengelige innstillingen vil variere avhengig av typen felt eller element.
 
-## Kolonner
+## <a id="columns"/>Kolonner
 
 En kategori har to kolonner som standard, men du kan bruke alt fra 1–4 kolonner etter behov. Brukere med brede skjermer foretrekker kanskje flere kolonner for å vise og sortere mer data.
 
@@ -121,7 +121,7 @@ En kategori har to kolonner som standard, men du kan bruke alt fra 1–4 kolonne
 * Noen faner, for eksempel **ERP** og **Merk**, har ikke et kolonneoppsett siden de har bestemte funksjoner.
 * Hvis en bruker ikke har en skjermstørrelse som har plass til alle kolonnene, stables de oppå hverandre.
 
-## Faner
+## <a id="tabs" >/Faner
 
 Legg til flere faner for flere felt, eller fjern irrelevante faner.
 
@@ -146,7 +146,7 @@ Legg til flere faner for flere felt, eller fjern irrelevante faner.
 * Du kan ikke fjerne en fane som inneholder obligatoriske felt. Obligatoriske felt må først flyttes til en annen fane.
 * Hvis bare én fane gjenstår, kan du ikke slette den.
 
-## Angre endringer
+## <a id="undo-changes" />Angre endringer
 
 Hvis du må gå tilbake til en tidligere versjon av skjermbildet, har du tilgang til følgende alternativer fra **Oppgave**-knappen:
 

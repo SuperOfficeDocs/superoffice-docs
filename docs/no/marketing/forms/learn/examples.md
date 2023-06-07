@@ -25,7 +25,7 @@ Med dobbel opt-in må kundene bekrefte e-postadressen sin ved å klikke på kobl
 Dette alternativet legger til et ekstra sikkerhetslag i skjemaet. Hvis du aktiverer dette alternativet, må personen som sender inn skjemaet, også bekrefte e-postadressen sin. Dette gjøres ved å sende dem en e-post når de sender inn skjemaet. E-posten inneholder en kobling de må klikke på for å bekrefte at e-postadressen er riktig.
 Koblingen er gyldig i 30 minutter som standard.
 
-## Påmelding til nyhetsbrev
+## <a id="newsletter-sign-up" />Påmelding til nyhetsbrev
 
 Dette skjemaet lar kundene melde seg på ett eller flere av dine nyhetsbrev. Registreringsprosessen vil også inkludere dobbel opt-in for å eliminere feilaktige eller falske abonnementer.
 
@@ -128,7 +128,7 @@ Dette skjemaet lar kundene melde seg på ett eller flere av dine nyhetsbrev. Reg
 
 1. Åpne koblingen til skjemaet, fyll ut skjema og kontroller at alt fungerer som det skal.
 
-## Kontakt meg
+## <a id="contact-me" />Kontakt meg
 
 Legg inn et "kontakt meg"-skjema på firmaets nettsider for å tilby en enkel kommunikasjonskanal for eksisterende eller potensielle kunder.
 

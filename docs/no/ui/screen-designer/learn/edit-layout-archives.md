@@ -105,7 +105,7 @@ Hvis du vil redigere et eksisterende arkiv, velger du dette og redigerer de tilg
 
 Du kan alltid klikke på **Gjenopprett faner** for å angre disse endringene.
 
-## <a id="#undo-changes" />Angre endringer
+## <a id="undo-changes" />Angre endringer
 
 Hvis du må gå tilbake til en tidligere versjon av skjermbildet, har du tilgang til følgende alternativer fra **Oppgave**-knappen:
 

@@ -183,16 +183,9 @@ La oss si at du er leder for et firma og vil finne ut hvilken type salg dere lyk
 
 7. Klikk på feltet **Velg elementer** til høyre for feltet **Er en av**, og velg **Solgt**. Nå har du angitt at du vil søke etter fullførte salg.
 
-8. Klikk på **Finn**-knappen under fanen **Kriterier**.
+8. [!include[Click Find](includes/run-search.md)]
 
-9. Alle resultatene som samsvarer med søkekriteriene du har angitt, vises i fanen **Resultater**.
-
-10. Deretter bestemmer du hva du vil bruke søkeresultatene til:
-    * Hvis du vil åpne en av postene, dobbeltklikker du på den. Deretter vises den på salgsskjermbildet.
-
-    * Forhåndsvis hvert salg i [sidepanelet][4]. Velg **Forhåndsvisning** i listen øverst i sidepanelet. Deretter kan du klikke på hvert salg i fanen **Resultater** for å forhåndsvise dem.
-
-    * Du kan opprette et utvalg som inneholder disse salgene, ved å klikke på **Lagre som utvalg** og følge fremgangsmåten under [Opprett utvalg][8].
+9. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex4" />Eksempel 4: søk etter prosjekter du har deltatt i under det siste året
@@ -286,7 +279,7 @@ La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugna
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/getting-started/main-screen/side-panel.md
-[2]: using-fastsearcher.md
+[2]: index.md#fastsearcher
 [3]: search-criteria.md
 [5]: freetext-search.md
 [6]: ../../learn/basics/history.md

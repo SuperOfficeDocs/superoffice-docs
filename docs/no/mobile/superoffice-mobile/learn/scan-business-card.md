@@ -7,7 +7,7 @@ so.date: 03.14.2023
 keywords: mobil, pocket, visittkort
 so.topic: howto
 so.version: 10
-so.lang: en
+language: no
 so.client: mobile
 ---
 

@@ -1,5 +1,5 @@
 ---
-uid: help-en-fastsearcher-navigator
+uid: help-no-fastsearcher-navigator
 title: Hurtigsøk i Navigator
 description: Hvordan bruke hurtigsøk i navigatoren in SuperOffice
 author: Bergfrid Dias

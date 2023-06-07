@@ -54,7 +54,7 @@ Med masseredigering kan du endre verdier på tvers av flere oppføringer av samm
 
 10. Klikk på **Lukk**.
 
-## Søk og erstatt
+## <a id="search-and-replace" />Søk og erstatt
 
 Med handlingen **Søk og erstatt** kan du finne en bestemt tekst i et felt og erstatte den.
 

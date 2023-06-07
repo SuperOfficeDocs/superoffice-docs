@@ -8,7 +8,6 @@ keywords: salg, guide
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: no
 ---
 
@@ -56,11 +55,11 @@ Når du har opprettet faser og angitt en salgstype for salgsguiden, kan du utfor
 
 4. Merk ønsket fase i listen. Detaljene for fasen vises nederst i bildet.
 
-5. [Legg til én eller flere oppfølginger](#add-a-follow-up-for-a-stage) for den valgte fasen.
+5. [Legg til én eller flere oppfølginger](#add-fo-stage) for den valgte fasen.
 
     Du trenger ikke å legge til et dokument for hver fase, men du bør legge til minst én oppfølging for hver fase.
 
-6. [Legg til ett eller flere dokumenter](#add-a-document-for-a-stage) for den valgte fasen.
+6. [Legg til ett eller flere dokumenter](#add-doc-stage) for den valgte fasen.
 
 7. Gjenta trinn 4 til 6 for hver fase du vil legge til oppfølginger og dokumenter for.
 
@@ -143,7 +142,7 @@ Agenda for første møte:
 **Standardoverskrift**: Møtebekreftelse (første møte)
 
 <!-- Referenced links -->
-[1]: ../../../document/templates/variables/for-sales.md
+[1]: ../../../../en/document/templates/variables/for-sales.md
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
 [4]: ../../../admin/lists/learn/document-template.md

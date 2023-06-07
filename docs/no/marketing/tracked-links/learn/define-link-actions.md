@@ -57,7 +57,7 @@ I fanen **Angi felt** kan du angi at en verdi skal legges til i et ekstra felt n
 
 Velg et felt i listeboksen **Angi ekstrafelt**, og fyll ut med en verdi i feltet **Verdi**.
 
-## <a id="interest" />Interesser
+## <a id="interests" />Interesser
 
 Her kan du spesifisere at klikk på en kobling skal legge til eller fjerne interesser for personen. Du kan for eksempel legge til interessen "Produktnyheter" hvis mottakeren klikker på koblingen "Ja takk! Jeg vil vite mer om nye produkter". Alternativt kan du fjerne interessen "Produktnyheter" hvis brukeren klikker på koblingen "Stopp abonnement" i et nyhetsbrev.
 

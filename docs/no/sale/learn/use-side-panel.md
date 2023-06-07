@@ -1,13 +1,13 @@
 ---
-title: help-en-sale-side-panel
-uid: How to use the side-panel in sales
+title: How to use the side-panel in sales
+uid: help-no-sale-side-panel
 description: Slik bruker du sidepanelet effektivt for salg
 author: Bergfrid Dias
 so.date: 12.14.2022
 keywords: salg, sidepanel, utvalg
 so.topic: howto
 so.version: 10
-so.lang: en
+language: no
 ---
 
 # Slik bruker du sidepanelet effektivt for salg
