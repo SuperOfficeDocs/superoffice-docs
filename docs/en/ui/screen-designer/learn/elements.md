@@ -100,7 +100,7 @@ Grids give you more control over the position of fields. It can be useful if you
 6. Add fields, labels, links, and buttons to the grid to populate it.
 
 <!-- Referenced links -->
-[1]: ../../soprotocol/index.md
+[1]: ../../../../en/ui/soprotocol/index.md
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
 [3]: ../../../document/learn/template-variables.md
 [6]: ../../../automation/crmscript/learn/index.md

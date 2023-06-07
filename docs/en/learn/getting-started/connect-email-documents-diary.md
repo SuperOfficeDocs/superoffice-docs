@@ -99,8 +99,8 @@ Sign in to SuperOffice CRM using your Google Workspace login details and enjoy t
 
 <!-- Referenced links -->
 [1]: ../../email/inbox/learn/archive.md
-[2]: ../../email/mail-link/index.md
-[3]: ../../document/cloud/g-suite/index.md
+[2]: ../../../en/email/mail-link/index.md
+[3]: ../../../en/document/cloud/g-suite/index.md
 [4]: ../../email/inbox/learn/index.md
 
 <!-- Referenced images -->
