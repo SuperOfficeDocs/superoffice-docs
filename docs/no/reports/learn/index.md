@@ -14,7 +14,7 @@ language: no
 **Rapporter**-bildet er en rapportgenerator som leveres med et sett standardrapporter du kan bruke til å skrive ut rapporter basert på data fra SuperOffice CRM. Du kan justere søkekriteriene i standardrapportene og på den måten definere dine egne favorittrapporter.
 
 > [!TIP]
-> [ Dashbord][1] er en annen måte å presentere SuperOffice-data på.
+> [Dashbord][1] er en annen måte å presentere SuperOffice-data på.
 
 ## Hvor er rapportene mine?
 
