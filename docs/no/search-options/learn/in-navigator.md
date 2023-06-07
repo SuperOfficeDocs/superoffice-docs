@@ -37,7 +37,7 @@ Navigatorens hurtigsøk utfører to parallelle søk.
 
 <!-- Referenced links -->
 [1]: ../../learn/basics/history.md
-[2]: ../../api/osql/soundx.md
+[2]: ../../../en/api/osql/soundx.md
 
 <!-- Referenced images -->
 [img1]: media/quicksearch-company.bmp
