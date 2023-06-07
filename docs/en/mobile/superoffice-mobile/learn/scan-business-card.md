@@ -7,7 +7,7 @@ so.date: 03.14.2023
 keywords: mobile, pocket, business card
 so.topic: howto
 so.version: 10
-so.lang: en
+language: en
 so.client: mobile
 ---
 

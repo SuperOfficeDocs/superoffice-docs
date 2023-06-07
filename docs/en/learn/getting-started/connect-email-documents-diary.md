@@ -7,7 +7,7 @@ so.date: 03.06.2023
 keywords: email, document
 so.topic: howto
 so.version: 10
-so.lang: en
+language: en
 ---
 
 # Connect email, documents and diary

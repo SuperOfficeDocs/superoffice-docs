@@ -7,7 +7,7 @@ so.date: 03.06.2023
 keywords:
 so.topic: concept
 so.version: 10
-so.lang: en
+language: en
 ---
 
 # Learn the basics of SuperOffice CRM
