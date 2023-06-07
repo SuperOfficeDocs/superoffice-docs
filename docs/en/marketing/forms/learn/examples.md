@@ -25,7 +25,7 @@ With double opt-in, the customers must verify their email address by clicking th
 This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their email address. This is done by sending them an email when they submit the form. The email contains a link they must click to confirm that the email address is correct.
 The link is valid for 30 minutes by default.
 
-## Newsletter sign-up
+## <a id="newsletter-sign-up" />Newsletter sign-up
 
 This form will let your customers sign up for one or more newsletters. The sign-up process will also include double opt-in to eliminate erroneous or fake subscriptions.
 
@@ -128,7 +128,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
 1. Open the link to the form, fill in the form and check that everything works as expected.
 
-## Contact me
+## <a id="contact-me" />Contact me
 
 Put a "contact me" form on your company's web pages to provide an easy channel of communication for existing or potential customers.
 

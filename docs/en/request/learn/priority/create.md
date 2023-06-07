@@ -58,7 +58,7 @@ The default priorities included with the system are **High**, **Medium** and **L
 
 1. Click **Save**. The priority is created. Now you can, for example, [link escalation levels to this priority][1].
 
-## Priority settings
+## <a id="priority-settings" />Priority settings
 
 | Setting | Description |
 |---|---|
@@ -72,7 +72,7 @@ The default priorities included with the system are **High**, **Medium** and **L
 | Include year | Checking here includes the year in the holiday dates. |
 | Escalate requests according to time frame | If checked, requests with this priority are escalated only during the priority's defined time frame. Outside of the periods defined in the **Time frame** tab, escalation will be "frozen". |
 
-## Escalation options
+## <a id="escalation-options"/>Escalation options
 
 | Option | Description |
 |---|---|

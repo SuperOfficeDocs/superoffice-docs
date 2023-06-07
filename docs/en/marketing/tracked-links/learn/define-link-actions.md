@@ -57,7 +57,7 @@ In the **Set field** tab, you can specify that a value should be added to an ext
 
 Select a field in the **Set extra field** list box and enter a value in the **Value** field.
 
-## <a id="interest" />Interests
+## <a id="interests" />Interests
 
 Here you can specify that a link click should add or remove interests for the contact. For example, you could add the "Product news" interest if the recipient clicks the "Yes, please keep me informed about new products" link. Alternatively, you could remove the "Product news" interest if the user clicks the "Unsubscribe" link in a newsletter.
 

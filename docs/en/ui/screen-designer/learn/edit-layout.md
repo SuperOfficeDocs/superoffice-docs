@@ -145,7 +145,7 @@ Add more tabs for additional fields, or remove irrelevant tabs.
 * You cannot remove a tab that contains mandatory fields. Mandatory fields must be moved to another tab first.
 * If only one tab remains, you cannot delete it.
 
-## Undo changes
+## <a id="undo-changes" />Undo changes
 
 If you need to revert to an earlier version of the screen, you can access the following options from the **Task** button:
 

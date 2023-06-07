@@ -121,7 +121,7 @@ If you have added some numbers that are not correct, or a user has quit the comp
 
 Click the **Task** button to export the sales target for the selected year to Excel or PDF.
 
-## Import
+## <a id="import" />Import
 
 You can copy target data from Excel and paste the data into the table in SuperOffice.
 
