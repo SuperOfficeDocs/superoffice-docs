@@ -116,6 +116,6 @@ Klikk på **Bekreft** når du er ferdig.
 * [SharePoint-dokumenter][1] – teknisk oversikt
 
 <!-- Referenced links -->
-[1]: ../../../../document/cloud/sharepoint-documents/index.md
+[1]: ../../../../../en/document/cloud/sharepoint-documents/index.md
 
 <!-- Referenced images -->

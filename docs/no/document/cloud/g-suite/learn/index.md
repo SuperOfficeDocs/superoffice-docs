@@ -38,7 +38,7 @@ For å begynne å bruke integrasjonen, må du ta konfigurasjonen i to trinn:
 <!-- Referenced links -->
 [1]: ../../../../email/gmail-link/learn/install.md
 [2]: https://online.superoffice.com/appstore/superoffice-as/g-suite-integration
-[3]: ../set-up.md
-[4]: ../index.md
+[3]: ../../../../../en/document/cloud/g-suite/set-up.md
+[4]: ../../../../../en/document/cloud/g-suite/index.md
 
 <!-- Referenced images -->

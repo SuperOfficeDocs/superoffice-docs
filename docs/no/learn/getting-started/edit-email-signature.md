@@ -7,7 +7,7 @@ so.date: 03.06.2023
 keywords: e-post, signatur
 so.topic: howto
 so.version: 10
-so.lang: en
+language: no
 so.envir:
 so.user: user
 so.user.tooltip: SuperOffice CRM
@@ -44,7 +44,7 @@ so.user.tooltip: SuperOffice CRM
 
 <!-- Referenced links -->
 [1]: ../../email/learn/change-default-mail-client.md
-[3]: ../../document/templates/variables/for-selected-contact.md
+[3]: ../../../en/document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/editor-toolbar-icon.png

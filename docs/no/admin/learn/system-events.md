@@ -8,7 +8,6 @@ keywords: arrangement
 so.topic: concept
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: no
 ---
 
@@ -45,6 +44,6 @@ Du kan starte følgende hendelsestyper fra Lisenser-bildet på **Status**-fanen:
 
 <!-- Referenced links -->
 [1]: add-system-event.md
-[2]: ../license/index.md
+[2]: ../../../en/admin/license/index.md
 
 <!-- Referenced images -->

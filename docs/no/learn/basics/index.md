@@ -7,7 +7,7 @@ so.date: 03.06.2023
 keywords:
 so.topic: concept
 so.version: 10
-so.lang: en
+language: no
 ---
 
 # Lær det grunnleggende om SuperOffice CRM
@@ -112,7 +112,7 @@ Administratoren kan [legge til og tilpasse prosjektguider][1] for deg.
 [7]: ../../project/learn/create.md
 [8]: ../../diary/learn/create-appointment.md
 [10]: ../../diary/learn/invitation/add-participant.md
-[11]: ../../video-meeting/index.md
+[11]: ../../../en/video-meeting/index.md
 [12]: ../activity/index.md
 [13]: ../../globalization-and-localization/learn/change-language.md
 [14]: fav.md

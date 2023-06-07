@@ -30,7 +30,7 @@ Denne prosedyren viser deg hvordan du lager en prosjektguide helt fra bunnen av.
 
 1. Definer [statusene](#create-stage) som skal være med i prosjektguiden.
 2. Definer [prosjekttypen](#create-type) (med tilhørende statuser) som prosjektguiden skal tilknyttes.
-3. Utform [prosjektguiden ](#create-guide).
+3. Utform [prosjektguiden](#create-guide).
 
 ![Gå til Arbeidsflyt-seksjonen og opprett dine egne prosjektrutiner i SuperOffice CRM -screenshot][img2]
 
@@ -156,7 +156,7 @@ Planleggingsmøte:
 * [Deaktivere prosjektguide][6]
 
 <!-- Referenced links -->
-[1]: ../../../document/templates/variables/from-project-card.md
+[1]: ../../../../en/document/templates/variables/from-project-card.md
 [2]: ../../../admin/lists/learn/project-status.md
 [3]: ../../../admin/lists/learn/project-type.md
 [4]: ../../../admin/lists/learn/document-template.md

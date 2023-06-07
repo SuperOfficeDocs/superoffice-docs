@@ -7,7 +7,7 @@ so.date: 03.06.2023
 keywords: e-post, dokument
 so.topic: howto
 so.version: 10
-so.lang: en
+language: no
 ---
 
 # Koble til e-post, dokumenter og dagbok
@@ -99,8 +99,8 @@ Logg på SuperOffice CRM med påloggingsinformasjonen for Google Workspace, og d
 
 <!-- Referenced links -->
 [1]: ../../email/inbox/learn/archive.md
-[2]: ../../email/mail-link/index.md
-[3]: ../../document/cloud/g-suite/index.md
+[2]: ../../../en/email/mail-link/index.md
+[3]: ../../../en/document/cloud/g-suite/index.md
 [4]: ../../email/inbox/learn/index.md
 
 <!-- Referenced images -->
