@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "DocumentShadowStaticSelection"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -679,7 +679,7 @@ Shadow contact provider for the static Document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowStaticSelection?$select=person/supportLanguage,person/personExtra/y_rental/y_equipment/x_name,sale/contactId,sale/registeredByFullName,sale/associate/ejUserId
+GET /api/v1/archive/DocumentShadowStaticSelection?$select=recordType,person/email/emailBounceCount,person/personInterestIds,person/personAssociate/ejUserId,contact/contactNoMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

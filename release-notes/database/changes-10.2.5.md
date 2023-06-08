@@ -1,18 +1,18 @@
 ---
-uid: database-whats-new-10.2.5.1160
-title: What's new in version 10.2.5.1160
-description: What's new in database version 10.2.5.1160.
+uid: database-whats-new-10.2.5.1175
+title: What's new in version 10.2.5.1175
+description: What's new in database version 10.2.5.1175.
 so.generated: true
 keywords:
   - "database"
-so.date: 05.09.2023
+so.date: 05.26.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Released database changes in version 10.2.5.1160
+# Released database changes in version 10.2.5.1175
 
 ## SuperOffice
 

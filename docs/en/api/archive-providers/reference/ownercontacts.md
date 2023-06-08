@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "OwnerContacts"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -345,7 +345,7 @@ Archive provider for the list of own contacts in SoAdmin
 ## Sample
 
 ```http!
-GET /api/v1/archive/OwnerContacts?$select=streetAddress/wgs84longitude,contactAssociate/isActive,contactSupportPerson/hasStoreConsent
+GET /api/v1/archive/OwnerContacts?$select=postAddress/wgs84longitude,contactAssociate/personId,contactUdef/SuperOffice:2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

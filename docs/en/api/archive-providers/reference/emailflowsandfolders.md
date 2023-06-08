@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "EmailFlowsAndFolders"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -91,7 +91,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowsAndFolders?$select=workflowInProgressCount,workflowAssociate/mrMrs
+GET /api/v1/archive/EmailFlowsAndFolders?$select=registeredDate,workflowAssociate/assocType,workflowInProgressCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

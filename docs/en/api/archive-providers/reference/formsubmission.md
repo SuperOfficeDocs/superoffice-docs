@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FormSubmission"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -453,7 +453,7 @@ Archive provider for listing form submissions
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmission?$select=person/rank,person/personAddress/wgs84latitude,contact/postAddress/line3,contact/streetAddress/addressId
+GET /api/v1/archive/FormSubmission?$select=registeredDate,associate/assocTooltip,person/restrictionAddress/zip,person/personAssociate/fullName,person/personAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

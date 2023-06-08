@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleStakeholder"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -411,7 +411,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStakeholder?$select=person/personAddress/county,person/personExtra/x_person_hidden_integer,contact/email/emailId,contact/contactAssociate/lastName,contact/contactUdef/SuperOffice:1
+GET /api/v1/archive/SaleStakeholder?$select=person/personUdef/SuperOffice:8,person/personAssociate/simultaneousEjUser,contact/restrictionAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

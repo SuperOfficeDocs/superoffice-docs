@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ProjectGuideAppointment"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -705,7 +705,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/visibleInDiary,appointmentInstance/appointmentPublish/publishedFrom,appointmentInstance/contact/NumberOfNotCompletedSalesInPeriod,appointmentInstance/person/supportLanguage,appointmentInstance/person/personPager/description
+GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/contact/contactAssociate/usergroup,appointmentInstance/contact/LastTicket,appointmentInstance/sale/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

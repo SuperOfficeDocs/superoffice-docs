@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FindTicket"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -716,7 +716,7 @@ Ticket provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindTicket?$select=person/birthYear,person/personDirectFax/formattedNumber,contact/postAddress/wgs84latitude,sale/registeredBy,project/projectAssociate/assocName
+GET /api/v1/archive/FindTicket?$select=createdBy/isActiveText,ownedBy/portraitThumbnail,person/personDirectPhone/description,person/personInfo/infoText,person/personAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

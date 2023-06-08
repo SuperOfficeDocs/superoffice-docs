@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "MailingsSelectionCombinedV2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -570,7 +570,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionCombinedV2?$select=mailingAddr/contact/contactAssociate/contactFullName,mailingAddr/contact/contactUdef/SuperOffice:9,mailingAddr/person/personExtra/y_rental/x_start,mailingAddr/person/personAssociate/lastName
+GET /api/v1/archive/MailingsSelectionCombinedV2?$select=mailingOwner,mailingAddr/contact/associateId,mailingAddr/contact/contactExtra/x_contact_contact,mailingAddr/person/fullName,mailingAddr/person/birthYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SelectionStaticContactAddMembers"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1145,7 +1145,7 @@ a non-null value for those contacts or persons that exist in the given static se
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticContactAddMembers?$select=sale/sale/textId,document/contactId,personActiveErpLinks,personAddress/line2,personAddress/county
+GET /api/v1/archive/SelectionStaticContactAddMembers?$select=contactAssociate/ejStatus,contactAssociate/portraitThumbnail,targetRelation/category,targetRelation/contactDeleted,appointment/associate/credentialType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

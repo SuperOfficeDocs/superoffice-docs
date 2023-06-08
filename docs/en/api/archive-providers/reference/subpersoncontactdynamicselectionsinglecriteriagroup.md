@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SubPersonContactDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -762,7 +762,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personSourceRelation/ticketPriority,personSourceRelation/isStakeholder,contactAssociate/associateDbId,contactAssociate/assocTooltip,contactAssociate/ejStatus
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personPager/description,contactSource,personAssociate/credentialDisplayValue,projectMembers/LastDoBySale,personAppointment/saleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

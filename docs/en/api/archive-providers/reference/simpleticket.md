@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SimpleTicket"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -713,7 +713,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleTicket?$select=ownedBy/credentialType,contact/postAddress/line1,contact/streetAddress/wgs84latitude,contact/saintAmountClass,sale/who
+GET /api/v1/archive/SimpleTicket?$select=person/hasInfoText,person/personBusiness,person/personPager/description,person/personUrl/URLDescription,person/personExtra/x_person_priority_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

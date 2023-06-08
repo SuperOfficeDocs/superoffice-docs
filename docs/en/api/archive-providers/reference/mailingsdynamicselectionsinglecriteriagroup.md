@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "MailingsDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -565,7 +565,7 @@ Mailings selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/contactUdef/SuperOffice:3,mailingAddr/person/personAddress/wgs84longitude,project/projectEvent/eventDate
+GET /api/v1/archive/MailingsDynamicSelectionSingleCriteriaGroup?$select=mailingSent,mailingAddr/contact/streetAddress/addressId,mailingAddr/contact/contactAssociate/portraitThumbnail,mailingAddr/person/personUdef/SuperOffice:3,mailingAddr/person/correspondingAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

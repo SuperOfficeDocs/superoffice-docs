@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ContactSelectionCombined"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1120,7 +1120,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=contactExtra/x_contact_longtext,appointment/userGroup,appointment/endDate,appointment/appointmentUdef/SuperOffice:5,appointment/associate/userName
+GET /api/v1/archive/ContactSelectionCombined?$select=contactPhone/description,contactAssociate/fullName,contactExtra/x_contact_integer,appointment/associate/contactFullName,personEmail/emailHasBounced
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteLineSelectionV2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -723,7 +723,7 @@ This is the archive Provider for the Selection QuoteLine archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionV2?$select=alternative/version/quote/sale/who,alternative/version/quote/sale/person/personAssociate/usergroup,alternative/version/quote/sale/person/hasStoreConsent,alternative/version/quote/sale/project/updatedBy
+GET /api/v1/archive/QuoteLineSelectionV2?$select=alternative/version/state,alternative/version/quote/sale/type,alternative/version/quote/sale/contact/restrictionAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

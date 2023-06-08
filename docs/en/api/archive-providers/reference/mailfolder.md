@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "MailFolder"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,7 +36,7 @@ Provides list of subscribed and unsubscribed mail folders available for an accou
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailFolder?$select=name
+GET /api/v1/archive/MailFolder?$select=
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

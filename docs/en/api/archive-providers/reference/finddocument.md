@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FindDocument"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -674,7 +674,7 @@ Archive provider for finding documents
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindDocument?$select=person/email/emailBounceCount,person/correspondingAssociate/personEmail,contact/department,contact/streetAddress/formattedAddress,contact/restrictionAddress/city
+GET /api/v1/archive/FindDocument?$select=person/useAsMailingAddress,person/personDirectPhone/formattedNumber,contact/postAddress/city,project/projectAssociate/ejDisplayName,sale/associate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

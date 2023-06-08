@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "MailingsShadowSelectionV2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -570,7 +570,7 @@ Shadow contact provider for the Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingSubscriptionType,mailingAddr/contact/streetAddress/county,mailingAddr/contact/contactAssociate/lastName,project/projectAssociate/credentialDisplayValue
+GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingAddr/contact/url/URLDescription,mailingAddr/person/personRegisteredBy,mailingAddr/person/restrictionAddress/formattedAddress,mailingAddr/person/correspondingAssociate/credentialDisplayValue,associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

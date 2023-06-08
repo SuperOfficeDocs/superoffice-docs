@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TicketShadowSelectionV2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -720,7 +720,7 @@ Shadow contact provider for the ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowSelectionV2?$select=origin,realTimeToClose,contact/contactAssociate/title,contact/contactAssociate/ejUserId,contact/NumberOfNotCompletedTicketsInPeriod
+GET /api/v1/archive/TicketShadowSelectionV2?$select=ownedBy/usergroup,person/correspondingAssociate/contactId,project/activeErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

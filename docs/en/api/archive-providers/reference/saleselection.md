@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleSelection"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1234,7 +1234,7 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelection?$select=completed,icon,person/correspondingAssociate/assocTooltip,contact/contactUdef/SuperOffice:4,associate/contactFullName
+GET /api/v1/archive/SaleSelection?$select=person/restrictionAddress/state,contact/updatedByFullName,contact/contactAssociate/isActive,appointment/associate/contactFullName,document/recordType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

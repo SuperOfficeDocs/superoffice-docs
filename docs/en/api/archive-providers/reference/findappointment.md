@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FindAppointment"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -683,7 +683,7 @@ Find appointment provider
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindAppointment?$select=contact/contactAssociate/lastName,person/useAsMailingAddress,person/personAddress/line3,person/personAddress/zip,person/personAssociate/ejDisplayName
+GET /api/v1/archive/FindAppointment?$select=recordType,joinVideomeetUrl,contact/contactAssociate/role,contact/NumberOfTicketsInPeriod,person/birthMonth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

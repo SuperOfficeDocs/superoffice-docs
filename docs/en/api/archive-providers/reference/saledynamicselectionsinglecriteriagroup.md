@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1229,7 +1229,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelectionSingleCriteriaGroup?$select=person/personAssociate/assocType,person/correspondingAssociate/contactCategory,contact/contactSource,contact/streetAddress/line2,contact/contactAssociate/isActiveText
+GET /api/v1/archive/SaleDynamicSelectionSingleCriteriaGroup?$select=stageRank,person/restrictionAddress/wgs84latitude,contact/contactExtra/x_contact_date,saleStakeholder/person/contactId,saleStakeholder/person/personAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

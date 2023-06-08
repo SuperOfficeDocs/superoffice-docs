@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ConfigurableArchiveProject"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -739,7 +739,7 @@ This is the archive Provider for the Configurable project Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveProject?$select=appointment/saleId,projectMember/textId,appointment/appointmentPublish/publishedBy
+GET /api/v1/archive/ConfigurableArchiveProject?$select=NumberOfSalesInPeriod,appointment/registeredBy,projectMember/title,projectMember/supportAssociateFullName,projectMember/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

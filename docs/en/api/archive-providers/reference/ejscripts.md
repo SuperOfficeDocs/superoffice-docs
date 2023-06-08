@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Ejscripts"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -53,7 +53,7 @@ Lists all CRM Scripts in the ejScript table.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ejscripts?$select=hierarchyFullname,updatedDate,path
+GET /api/v1/archive/Ejscripts?$select=updatedDate,path
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

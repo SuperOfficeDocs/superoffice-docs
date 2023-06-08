@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "DiaryAppointment"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -684,7 +684,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryAppointment?$select=date,endDate,contact/contactAssociate/fullName,person/personDirectFax/formattedNumber,person/personAssociate/personEmail
+GET /api/v1/archive/DiaryAppointment?$select=contactId,personId,endDate,contact/postAddress/line2,person/personExtra/x_person_shorttext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ChatSession"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -461,7 +461,7 @@ Archive provider for listing chat session and related data to a chat
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatSession?$select=person/personAssociate/contactCategory,contact/postAddress/wgs84longitude,contact/streetAddress/line2,contact/contactAssociate/assocName,contact/contactAssociate/assocTooltip
+GET /api/v1/archive/ChatSession?$select=person/personExtra/x_person_category_relation,contact/saintTicketStatus,person/restrictionAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

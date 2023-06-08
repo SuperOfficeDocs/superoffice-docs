@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "LastTickets"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -714,7 +714,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LastTickets?$select=ticketStatusName,ownedBy/ejDisplayName,person/personCountry,person/personExtra/x_person_shorttext,person/correspondingAssociate/fullName
+GET /api/v1/archive/LastTickets?$select=readStatus,person/birthMonth,project/projectAssociate/isActiveText,project/project/infoText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

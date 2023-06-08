@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "externaldocumentitems"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -49,7 +49,7 @@ can be added to messages. They are a special kind of attachment, and conencted t
 ## Sample
 
 ```http!
-GET /api/v1/archive/externaldocumentitems?$select=getNoRows,created,ownerHierarchyId
+GET /api/v1/archive/externaldocumentitems?$select=created,ownerHierarchyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

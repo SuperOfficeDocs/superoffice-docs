@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "MappedPreferences"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -47,7 +47,7 @@ Anything else needs to be coded!
 ## Sample
 
 ```http!
-GET /api/v1/archive/MappedPreferences?$select=userpreferenceId,maxlevel,ownerId
+GET /api/v1/archive/MappedPreferences?$select=maxlevel,ownerId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

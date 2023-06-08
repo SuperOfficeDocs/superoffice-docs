@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FormSubmissionDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -453,7 +453,7 @@ FormSubmission selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionDynamicSelectionSingleCriteriaGroup?$select=associate/assocName,person/personAddress/city,person/personUdef/SuperOffice:5,person/personAssociate/ejUserId,person/correspondingAssociate/firstName
+GET /api/v1/archive/FormSubmissionDynamicSelectionSingleCriteriaGroup?$select=associate/title,person/personId,person/personExtra/x_person_shorttext_list,contact/email/emailLastSent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
