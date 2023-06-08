@@ -72,4 +72,4 @@ Det gjør du ved å [lage en kobling som fjerner den aktuelle interessen][4] hos
 [img3]: ../../../../../media/icons/marketing-and-forms/link.png
 [img1]: ../../../../../media/icons/marketing-and-forms/new-para.jpg
 [img2]: ../../../../../media/icons/marketing-and-forms/link.png
-[img4]: media/insert-edit-link-unsubscribe-mailing.png
+[img4]: ../../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

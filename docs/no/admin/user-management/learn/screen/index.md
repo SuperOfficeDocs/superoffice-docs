@@ -108,4 +108,4 @@ På fanen **Brukergrupper** i Brukere-bildet kan du få en oversikt over brukere
 [11]: ../other-users.md
 
 <!-- Referenced images -->
-[img1]: media/admin-users-overview.png
+[img1]: ../../../../../media/loc/en/admin/admin-users-overview.png

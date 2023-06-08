@@ -135,4 +135,4 @@ Du kan bruke informasjonen du har samlet inn i denne utsendelsen, på flere måt
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png
 [img2]: ../../../../../common/icons/pref-diary.png
-[img3]: media/link-properties-follow-up.png
+[img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png

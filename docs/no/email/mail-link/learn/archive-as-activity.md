@@ -63,4 +63,4 @@ Hvis du mottar en e-post der du blir bedt om å gjøre noe, kan du konvertere e-
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: media/email-maillink-create-activity.png
+[img1]: ../../../../media/loc/en/email/email-maillink-create-activity.png

@@ -16,7 +16,7 @@ Klikk på utsendelsen i listen for å [vise sendestatus og statistikk][1].
 ## Åpne og skrive ut dokumentet
 
 1. Velg fanen **Utsendelser**.
-2. Finn dokumentet, klikk på ![][img2] ikon][img2] og velg **Vis**.
+2. Finn dokumentet, klikk på ![ikon][img2] og velg **Vis**.
 3. Klikk på knappen under **Last ned generert dokument**. Dokumentet lastes ned til nettleseren din.
 4. Åpne og skriv ut dokumentet.
 
@@ -24,5 +24,5 @@ Klikk på utsendelsen i listen for å [vise sendestatus og statistikk][1].
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../media/send-now.png
+[img1]: ../../../../../../media/loc/en/marketing/send-now.png
 [img2]: ../../../../../../media/icons/btn-menu.png

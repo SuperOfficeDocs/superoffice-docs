@@ -80,4 +80,4 @@ Oppfølginger er nært knyttet til Dagbok-bildet, og visse funksjoner gjelder sp
 [23]: video-meetings.md
 
 <!-- Referenced images -->
-[img1]: media/diary.png
+[img1]: ../../../media/loc/en/diary/diary.png

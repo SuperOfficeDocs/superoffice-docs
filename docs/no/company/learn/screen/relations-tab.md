@@ -37,4 +37,4 @@ Hvis du dobbeltklikker på en relasjonsrad, vises dialogboksen **Relasjon** med 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.bmp
-[img2]: media/relations-detail.bmp
+[img2]: ../../../../media/loc/en/company/relations-detail.bmp

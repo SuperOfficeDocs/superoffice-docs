@@ -3,4 +3,4 @@ SharePoint: Opprett et nytt dokument. Hvis det åpnes i Microsoft Office Online,
 
 SuperOffice WebTools: Åpne systemstatusfeltet nederst til høyre på skrivebordet og se etter SuperOffice-ikonet.
 
-![icon](../../../media/webtools-system-tray.png)
+![icon](../../../../media/loc/en/webtools/webtools-system-tray.png)

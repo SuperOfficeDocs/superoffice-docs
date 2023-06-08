@@ -108,4 +108,4 @@ On the **User groups** tab in the Users screen, you can get an overview of users
 [11]: ../other-users.md
 
 <!-- Referenced images -->
-[img1]: media/admin-users-overview.png
+[img1]: ../../../../../media/loc/en/admin/admin-users-overview.png

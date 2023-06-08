@@ -289,7 +289,7 @@ La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugna
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../media/find.png
+[img2]: ../../../media/loc/en/learn/find.png
 [img3]: ../../../../common/icons/delete-circle-red.png
 [img4]: ../../../media/icons/criteria-move.png
 [img5]: ../../../../common/icons/singlecolour/sale.png
@@ -297,4 +297,4 @@ La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugna
 [img7]: ../../../../common/icons/singlecolour/person.png
 [img8]: ../../../../common/icons/singlecolour/project.png
 [img9]: ../../../../common/icons/singlecolour/appointment.png
-[img10]: media/task-menu.png
+[img10]: ../../../media/loc/en/search-options/task-menu.png

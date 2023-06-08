@@ -65,4 +65,4 @@ Nederst i -bildet finner du følgende [standard detaljkort][8]:
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-right.png
 [img2]: ../../../media/icons/arrow-left.png
-[img3]: media/company-month-mini.bmp
+[img3]: ../../../media/loc/en/company/company-month-mini.bmp

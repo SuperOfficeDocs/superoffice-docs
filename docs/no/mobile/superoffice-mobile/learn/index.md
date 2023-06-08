@@ -78,4 +78,4 @@ I vår Mobile CRM-app har du tilgang til alle saker og kan svare på eller tilde
 [7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
 <!-- Referenced images -->
-[img1]: media/mobile-crm-gif-prev-02.gif
+[img1]: ../../../../media/loc/en/mobile/mobile-crm-gif-prev-02.gif

@@ -23,5 +23,5 @@ Hvis du vil åpne fanen **Dag** for en bestemt dag, kan du klikke på overskrift
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
-[img2]: media/week-plan.bmp
+[img1]: ../../../../media/loc/en/diary/week-plan.bmp
+[img2]:

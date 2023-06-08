@@ -127,8 +127,8 @@ Hvis du vil fjerne en kobling, går du til fanen **Koblinger**, klikker på **Re
 [9]: stages.md
 
 <!-- Referenced images -->
-[img1]: media/user-diary-sales.png
+[img1]: ../../../media/loc/en/sale/user-diary-sales.png
 [img2]: ../../../media/icons/arrow-left.png
-[img3]: media/55-chap7-sale-new-details.bmp
+[img3]: ../../../media/loc/en/sale/55-chap7-sale-new-details.bmp
 [img4]: ../../../media/icons/arrow-right.png
-[img5]: media/54-chap7-sale-new.bmp
+[img5]: ../../../media/loc/en/sale/54-chap7-sale-new.bmp

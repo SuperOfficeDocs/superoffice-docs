@@ -32,4 +32,4 @@ Your customers can even access these FAQs through the Customer centre (web porta
 [2]: config.md
 
 <!-- Referenced images -->
-[img1]: media/set-up-a-faq.png
+[img1]: ../../../media/loc/en/customer-center/set-up-a-faq.png

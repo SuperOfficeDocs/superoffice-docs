@@ -35,4 +35,4 @@ AI kan hjelpe deg med å forstå dataene dine og hjelpe deg med å automatisere 
 [3]: ../../chat/learn/admin/channel-create.md#chatbot
 
 <!-- Referenced images -->
-[img1]: media/ai-services.png
+[img1]: ../../../media/loc/en/ai/ai-services.png

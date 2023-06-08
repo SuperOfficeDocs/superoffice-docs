@@ -64,4 +64,4 @@ language: no
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.bmp
 [img2]: ../../../../media/icons/arrow-right.png
-[img3]: media/chap7-add-stakeholders.bmp
+[img3]: ../../../../media/loc/en/sale/chap7-add-stakeholders.bmp

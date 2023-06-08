@@ -32,4 +32,4 @@ Kundene dine kan til og med få tilgang til disse FAQ-ene via kundesenteret (net
 [2]: config.md
 
 <!-- Referenced images -->
-[img1]: media/set-up-a-faq.png
+[img1]: ../../../media/loc/en/customer-center/set-up-a-faq.png

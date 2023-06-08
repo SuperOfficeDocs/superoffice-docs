@@ -52,4 +52,4 @@ language: no
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/email-document-send-as-email.png
+[img1]: ../../../media/loc/en/document/email-document-send-as-email.png

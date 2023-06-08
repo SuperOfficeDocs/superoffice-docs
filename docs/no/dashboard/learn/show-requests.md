@@ -76,4 +76,4 @@ Viser saker som ingen har blitt tildelt ansvaret for. Hvis du vil [ta ansvar for
 [7]: add-tile.md
 
 <!-- Referenced images -->
-[img1]: ../../request/learn/howto/media/service-dashboard.png
+[img1]: ../../../media/loc/en/request/service-dashboard.png

@@ -48,4 +48,4 @@ Du må også angi preferansen **Vis interessenter** for preferansegruppen **Salg
 [7]: ../../../admin/preferences/learn/update-preferences.md
 
 <!-- Referenced images -->
-[img1]: media/chap7-stakeholders.bmp
+[img1]: ../../../../media/loc/en/sale/chap7-stakeholders.bmp

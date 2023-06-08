@@ -46,4 +46,4 @@ Du må [konfigurere chatwidgeten][3] før den kan legges til i kundesenteret.
 [2]: config.md
 
 <!-- Referenced images -->
-[img1]: media/connecting-widget.png
+[img1]: ../../../media/loc/en/customer-center/connecting-widget.png

@@ -96,5 +96,5 @@ Hvis du prøver å angi et firma som ligner på et firma som allerede er i Super
 [3]: ../../learn/getting-started/preferences.md
 
 <!-- Referenced images -->
-[img1]: media/new-company.bmp
-[img2]: media/interests.bmp
+[img1]: ../../../media/loc/en/company/new-company.bmp
+[img2]: ../../../media/loc/en/company/interests.bmp

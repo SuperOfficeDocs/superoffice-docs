@@ -58,7 +58,7 @@ Nå vises en ny rad over kolonneoverskriftene.
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png
-[img5]: media/archive-enable-grouping.png
-[img6]: media/getstarted-archives-groupingon.png
-[img7]: media/getstarted-archives-selectgroup.png
-[img8]: media/getstarted-archives-deletegroup.png
+[img5]: ../../../media/loc/en/learn/archive-enable-grouping.png
+[img6]: ../../../media/loc/en/learn/getstarted-archives-groupingon.png
+[img7]: ../../../media/loc/en/learn/getstarted-archives-selectgroup.png
+[img8]: ../../../media/loc/en/learn/getstarted-archives-deletegroup.png

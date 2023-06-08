@@ -53,4 +53,4 @@ To edit an existing sale, browse to the sale and click **Edit** at the bottom of
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/54-chap7-sale-new.bmp
+[img2]: ../../../media/loc/en/sale/54-chap7-sale-new.bmp

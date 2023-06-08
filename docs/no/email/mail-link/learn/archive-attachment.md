@@ -60,4 +60,4 @@ Hvis vedlegget er den eneste delen av e-posten du vil beholde for fremtidig refe
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: media/email-maillink-archive-attachment.png
+[img1]: ../../../../media/loc/en/email/email-maillink-archive-attachment.png

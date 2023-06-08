@@ -83,4 +83,4 @@ To find out which fields are displayed, go to the **Settings** tab and click **C
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/search-icon-black.png
-[img2]: media/add-products-to-price-list.png
+[img2]: ../../../../../media/loc/en/quote/add-products-to-price-list.png

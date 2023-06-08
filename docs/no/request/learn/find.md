@@ -83,7 +83,7 @@ I bunnteksten i listen kan du klikke på ![ikon][img1] **Oppgave**-knappen for �
 
 * **Masseredigering**: Hvis du merker av for en eller flere saker i listen, kan du klikke på dette alternativet og velge en handling du vil utføre på alle sakene samtidig. Du kan f.eks. velge å [legge den samme meldingen til i flere saker][8], [videresende flere saker][7] eller slette flere saker i en enkelt operasjon.
 
-### Forhåndsvis
+### <a id="preview" />Forhåndsvis
 
 I denne delen av bildet vises innholdet i saken som er valgt under **Søkeresultat**. Du har de samme alternativene som når du [behandler saker][6].
 
@@ -114,4 +114,4 @@ Hvis forhåndsvisningsdelen ikke vises, klikker du på **Vis forhåndsvisning** 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
-[img3]: media/find-requests.png
+[img3]: ../../../media/loc/en/request/find-requests.png

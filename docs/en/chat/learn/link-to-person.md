@@ -41,4 +41,4 @@ If a customer is not found in the SuperOffice CRM database, you can [create a ne
 [1]: create-contact.md
 
 <!-- Referenced images -->
-[img1]: media/chat-link-to-contact.png
+[img1]: ../../../media/loc/en/chat/chat-link-to-contact.png

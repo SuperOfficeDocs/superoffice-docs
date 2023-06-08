@@ -37,4 +37,4 @@ Hvis du ikke kan løse spørsmålet via chatsamtalen, kan du opprette en sak som
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/chat-create-request.png
+[img2]: ../../../media/loc/en/chat/chat-create-request.png

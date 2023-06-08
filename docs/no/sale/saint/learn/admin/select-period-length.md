@@ -45,4 +45,4 @@ Du kan angi inntil tre ulike perioder, slik at du kan velge mellom kortere eller
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->
-[img1]: media/admin-saint-counters.png
+[img1]: ../../../../../media/loc/en/sale/admin-saint-counters.png

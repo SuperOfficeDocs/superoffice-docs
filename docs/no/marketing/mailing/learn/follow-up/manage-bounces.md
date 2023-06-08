@@ -125,4 +125,4 @@ Bruk dette alternativet for å angi en person som tidligere ansatt.
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/warning.png
-[img2]: media/handle-bounced-emails.png
+[img2]: ../../../../../media/loc/en/marketing/handle-bounced-emails.png

@@ -46,4 +46,4 @@ Med denne funksjonen kan du raskt legge til en aktivitet i SuperOffice basert p√
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/gmail-link/btn-archive-more.png
-[img2]: media/email-gmaillink-create-activity.jpg
+[img2]: ../../../../media/loc/en/email/email-gmaillink-create-activity.jpg

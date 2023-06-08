@@ -34,4 +34,4 @@ For å koble til SuperOffice for Outlook, gå til [vår App Store][1] og følg i
 [2]: ../../../admin/preferences/learn/document-library/index.md
 
 <!-- Referenced images -->
-[img1]: media/user-superoffice-outlook-sidepanel.png
+[img1]: ../../../../media/loc/en/email/user-superoffice-outlook-sidepanel.png

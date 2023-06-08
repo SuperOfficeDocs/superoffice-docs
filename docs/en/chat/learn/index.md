@@ -39,4 +39,4 @@ Your agents can access chat via the Navigator in both SuperOffice CRM and SuperO
 [9]: screen/index.md
 
 <!-- Referenced images -->
-[img1]: media/10-chat-mainpage.png
+[img1]: ../../../media/loc/en/chat/10-chat-mainpage.png

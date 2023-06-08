@@ -153,5 +153,5 @@ Hvis du vil vise endringshistorikken for et salgsmål (rad), klikker du menyknap
 [img2]: ../../../../../common/icons/context-menu.png
 [img3]: ../../../../../common/icons/lock-on.png
 [img4]: ../../../../../common/icons/lock-off.png
-[img5]: media/user-targets-salestargets.png
-[img6]: media/user-targets-salestargets-adjustnumbers.png
+[img5]: ../../../../media/loc/en/sale/user-targets-salestargets.png
+[img6]: ../../../../media/loc/en/sale/user-targets-salestargets-adjustnumbers.png

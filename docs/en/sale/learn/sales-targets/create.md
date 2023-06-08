@@ -153,5 +153,5 @@ To view the revision history for a sales target (row), click the menu button ![i
 [img2]: ../../../../../common/icons/context-menu.png
 [img3]: ../../../../../common/icons/lock-on.png
 [img4]: ../../../../../common/icons/lock-off.png
-[img5]: media/user-targets-salestargets.png
-[img6]: media/user-targets-salestargets-adjustnumbers.png
+[img5]: ../../../../media/loc/en/sale/user-targets-salestargets.png
+[img6]: ../../../../media/loc/en/sale/user-targets-salestargets-adjustnumbers.png

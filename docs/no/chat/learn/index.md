@@ -39,4 +39,4 @@ Agentene har tilgang til chatfunksjonen via navigatoren i både SuperOffice CRM 
 [9]: screen/index.md
 
 <!-- Referenced images -->
-[img1]: media/10-chat-mainpage.png
+[img1]: ../../../media/loc/en/chat/10-chat-mainpage.png

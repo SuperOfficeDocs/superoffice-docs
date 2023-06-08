@@ -54,4 +54,4 @@ Emneknagger kan brukes til å søke etter saker i [fritekstsøk][2] og i den van
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/requests-tag-request-small.png
+[img2]: ../../../media/loc/en/request/requests-tag-request-small.png

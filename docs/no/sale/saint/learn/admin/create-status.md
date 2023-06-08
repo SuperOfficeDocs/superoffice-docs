@@ -81,4 +81,4 @@ Hvis et firma, en person eller et prosjekt har flere aktive statuser, vises stat
 [img4]: ../../../../../media/icons/admin/red-x.bmp
 [img5]: ../../../../../media/icons/arrow-up.png
 [img6]: ../../../../../media/icons/arrow-down.png
-[img1]: media/admin-saint-company.png
+[img1]: ../../../../../media/loc/en/sale/admin-saint-company.png

@@ -47,4 +47,4 @@ After you have added your products, either manually or by import, you can add im
 [1]: add-product-to-price-list.md
 
 <!-- Referenced images -->
-[img1]: media/add-edit-product.png
+[img1]: ../../../../../media/loc/en/quote/add-edit-product.png

@@ -58,4 +58,4 @@ You can prepare an email from both the Contact screen and the Company screen. Th
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/email-send-email.png
+[img2]: ../../../media/loc/en/contact/email-send-email.png

@@ -43,4 +43,4 @@ Det kan hende at du vil kopiere et eksisterende firma til et nytt firma. Eksempe
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img3]: media/copy-company.bmp
+[img3]: ../../../media/loc/en/company/copy-company.bmp

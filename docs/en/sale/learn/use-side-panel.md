@@ -31,4 +31,4 @@ In the same way you can use a selection of contacts as a calling list to follow 
 [3]: forecasting.md
 
 <!-- Referenced images -->
-[img1]: media/getstarted-sidepanel-saleselection.png
+[img1]: ../../../media/loc/en/sale/getstarted-sidepanel-saleselection.png

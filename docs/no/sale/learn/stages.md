@@ -65,7 +65,7 @@ Setter du salget til **Solgt** eller **Tapt**, kan du angi dato, eventuell konku
 [img1]: ../../../media/icons/sale-postponed.bmp
 [img2]: ../../../media/icons/sale-lost.bmp
 [img3]: ../../../../common/icons/nav-sale-h32.png
-[img4]: media/72-chap7-sale-open.bmp
-[img5]: media/73-chap7-sale-stalled.bmp
-[img6]: media/74-chap7-sale-lost.bmp
-[img8]: media/75-chap7-sale-sold.bmp
+[img4]: ../../../media/loc/en/sale/72-chap7-sale-open.bmp
+[img5]: ../../../media/loc/en/sale/73-chap7-sale-stalled.bmp
+[img6]: ../../../media/loc/en/sale/74-chap7-sale-lost.bmp
+[img8]: ../../../media/loc/en/sale/75-chap7-sale-sold.bmp

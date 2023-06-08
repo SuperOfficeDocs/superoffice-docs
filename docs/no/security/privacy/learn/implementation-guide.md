@@ -280,4 +280,4 @@ Ved å fullføre de tre trinnene har du tatt viktige skritt mot GDPR-samsvar. Me
 [6]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
-[img1]: media/privacy.png
+[img1]: ../../../../media/loc/en/security/privacy.png

@@ -94,4 +94,4 @@ Dobbeltklikk på en utsendelse for å åpne den.
 [img4]: ../../../../../media/icons/personal-settings-small.png
 [img5]: ../../../../../media/icons/refresh.png
 [img7]: ../../../../../media/icons/filter-column.png
-[img6]: ../../../../media/task.png
+[img6]: ../../../../../media/loc/en/learn/task.png

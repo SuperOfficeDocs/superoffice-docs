@@ -42,4 +42,4 @@ The project guide is defined in Settings and maintenance.
 [6]: deactivate.md
 
 <!-- Referenced images -->
-[img1]: ../screen/media/project-guide-create.bmp
+[img1]: ../../../../media/loc/en/project/project-guide-create.bmp

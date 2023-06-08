@@ -83,4 +83,4 @@ For å finne ut hvilke felt som vises, kan du gå til fanen**Innstillinger** og 
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/search-icon-black.png
-[img2]: media/add-products-to-price-list.png
+[img2]: ../../../../../media/loc/en/quote/add-products-to-price-list.png

@@ -20,4 +20,4 @@ Du kan dobbeltklikke på en sak for å åpne og se på den i et eget vindu. Klik
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/requests-detail.bmp
+[img1]: ../../../../media/loc/en/company/requests-detail.bmp

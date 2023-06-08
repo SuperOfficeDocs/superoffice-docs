@@ -37,4 +37,4 @@ Double-click on a relation row to open the **Relation** dialog, showing all the 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.bmp
-[img2]: media/relations-detail.bmp
+[img2]: ../../../../media/loc/en/company/relations-detail.bmp

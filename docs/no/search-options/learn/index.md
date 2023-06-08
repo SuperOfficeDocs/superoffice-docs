@@ -149,7 +149,7 @@ Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du kan oppr
 [8]: in-dialogs.md
 
 <!-- Referenced images -->
-[img1]: media/search-find-fastsearcher.png
-[img2]: media/getstarted-search-find-findscreen.png
-[img3]: media/freetext-search-find.png
-[img5]: media/typical-search.png
+[img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png
+[img2]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
+[img3]: ../../../media/loc/en/search-options/freetext-search-find.png
+[img5]: ../../../media/loc/en/search-options/typical-search.png

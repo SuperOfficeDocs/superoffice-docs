@@ -152,4 +152,4 @@ I Innstillinger og vedlikehold kan du også definere dine egne visninger for sid
 [img7]: ../../../../media/icons/mini-card-level.png
 [img8]: ../../../../media/icons/mini-card-today.png
 [img9]: ../../../../media/icons/mini-card-selected.png
-[img10]: media/getstarted-sidepanel-companypreview.png
+[img10]: ../../../../media/loc/en/learn/getstarted-sidepanel-companypreview.png

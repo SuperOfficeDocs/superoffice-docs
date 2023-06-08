@@ -62,4 +62,4 @@ In the **Quote/Sync** screen you can administrate connections and settings for E
 [8]: product/select-product-image.md
 
 <!-- Referenced images -->
-[img1]: media/quote-management.png
+[img1]: ../../../../media/loc/en/quote/quote-management.png

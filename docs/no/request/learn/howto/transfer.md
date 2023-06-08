@@ -48,4 +48,4 @@ Det er ikke alltid du som saksbehandler klarer å løse en sak alene. Noen gange
 [4]: forward.md
 
 <!-- Referenced images -->
-[img1]: media/reassing-a-request.png
+[img1]: ../../../../media/loc/en/request/reassing-a-request.png

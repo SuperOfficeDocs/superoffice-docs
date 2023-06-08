@@ -80,8 +80,8 @@ Hvis kunden finnes i SuperOffice, kan du vise kontaktinformasjon, saker, salg, o
 [6]: ../respond.md
 
 <!-- Referenced images -->
-[img1]: media/chat-tabs.png
-[img5]: media/chat-tab-chats.png
+[img1]: ../../../../media/loc/en/chat/chat-tabs.png
+[img5]: ../../../../media/loc/en/chat/chat-tab-chats.png
 [img2]: ../../../../../common/icons/chat-status-light-blue-h32.png
 [img4]: ../../../../../common/icons/exclamation-h32.png
 [img3]: ../../../../media/icons/chat-last-customer-unanswered.png

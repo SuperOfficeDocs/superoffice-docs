@@ -78,4 +78,4 @@ Når utsendelsen er avsluttet, kan du se ytelsen til utsendelsen i fanen **Samme
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
-[img2]: media/summary-tab.png
+[img2]: ../../../../../media/loc/en/marketing/summary-tab.png

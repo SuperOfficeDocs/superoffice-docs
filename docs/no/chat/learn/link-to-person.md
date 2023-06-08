@@ -41,4 +41,4 @@ Hvis en person ikke blir funnet i SuperOffice CRM-databasen, kan [du opprette en
 [1]: create-contact.md
 
 <!-- Referenced images -->
-[img1]: media/chat-link-to-contact.png
+[img1]: ../../../media/loc/en/chat/chat-link-to-contact.png

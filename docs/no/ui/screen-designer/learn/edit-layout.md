@@ -81,7 +81,7 @@ Se denne videoen og finn ut hvordan du bruker skjermdesigner til å konfigurere 
 
 Bokser med prikkede linjer i layouten angir hvor du kan plassere et felt:
 
-![Bokser med stiplede linjer - skjermbilde](media/screendesigner-field-place.png)
+![Bokser med stiplede linjer - skjermbilde][img6]
 
 Nedenfor finner du mer detaljerte beskrivelser av de ulike delene og funksjonene.
 
@@ -163,4 +163,5 @@ Hvis du må gå tilbake til en tidligere versjon av skjermbildet, har du tilgang
 [img2]: ../../../../../common/icons/delete-circle-red.png
 [img4]: ../../../../media/icons/criteria-move.png
 [img5]: ../../../../../common/icons/add-icon.png
-[img3]: media/edit-the-screen-layout-of-companies-and-contacts.png
+[img3]: ../../../../media/loc/en/ui/edit-the-screen-layout-of-companies-and-contacts.png
+[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png

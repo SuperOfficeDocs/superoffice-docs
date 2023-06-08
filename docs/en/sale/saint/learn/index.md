@@ -110,6 +110,6 @@ When you see a status image for a company, contact or a project, you have two op
 [2]: using-status-monitors-in-dynamic-selections.md
 
 <!-- Referenced images -->
-[img1]: media/saint-selection.png
-[img2]: media/saint-criteria.png
-[img3]: media/saint-watermark.png
+[img1]: ../../../../media/loc/en/sale/saint-selection.png
+[img2]: ../../../../media/loc/en/sale/saint-criteria.png
+[img3]: ../../../../media/loc/en/sale/saint-watermark.png

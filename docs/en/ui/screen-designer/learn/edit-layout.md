@@ -80,7 +80,7 @@ Watch this video and find out how to use the screen designer to configure your s
 
 Boxes with stapled lines in the layout, indicate where you can place a field:
 
-![Boxes with stapled lines -screenshot](media/screendesigner-field-place.png)
+![Boxes with stapled lines -screenshot][img6]
 
 Below you can find more detailed descriptions of the various sections and functions.
 
@@ -162,4 +162,5 @@ If you need to revert to an earlier version of the screen, you can access the fo
 [img2]: ../../../../../common/icons/delete-circle-red.png
 [img4]: ../../../../media/icons/criteria-move.png
 [img5]: ../../../../../common/icons/add-icon.png
-[img3]: media/edit-the-screen-layout-of-companies-and-contacts.png
+[img3]: ../../../../media/loc/en/ui/edit-the-screen-layout-of-companies-and-contacts.png
+[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png

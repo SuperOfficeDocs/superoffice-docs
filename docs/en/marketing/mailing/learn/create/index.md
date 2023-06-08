@@ -89,4 +89,4 @@ In the fifth and final step you confirm and send or schedule your mailing. You c
 [11]: target-list.md
 
 <!-- Referenced images -->
-[img1]: media/mailing-workflow-all.png
+[img1]: ../../../../../media/loc/en/marketing/mailing-workflow-all.png

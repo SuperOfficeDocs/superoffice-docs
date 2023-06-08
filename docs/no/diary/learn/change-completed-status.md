@@ -39,5 +39,5 @@ Når en oppfølging regnes som avsluttet, kan du merke den som utført.
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.bmp
 [img2]: ../../../media/icons/sale-sold-details.bmp
-[img3]: media/completed-activity.bmp
-[img4]: media/completed-activity-2.bmp
+[img3]: ../../../media/loc/en/diary/completed-activity.bmp
+[img4]: ../../../media/loc/en/diary/completed-activity-2.bmp

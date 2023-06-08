@@ -68,4 +68,4 @@ Hvis du ikke har lisens til konfigurerbare Configurable Screens, bruker du range
 [5]: ../../ui/screen-designer/learn/index.md
 
 <!-- Referenced images -->
-[img1]: media/create-extra-tables-and-fields.png
+[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

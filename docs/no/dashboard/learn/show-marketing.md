@@ -54,5 +54,5 @@ Studer eksemplene nedenfor for å få ideer til figurer som du kan legge til i d
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
-[img1]: media/user-mailing-dashboard.png
-[img2]: media/user-mailing-dashboard-forms.png
+[img1]: ../../../media/loc/en/dashboard/user-mailing-dashboard.png
+[img2]: ../../../media/loc/en/dashboard/user-mailing-dashboard-forms.png

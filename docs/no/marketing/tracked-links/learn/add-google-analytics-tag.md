@@ -49,4 +49,4 @@ Du kan sjekke resultatene for utsendelsene dine ved å logge inn på Google Anal
 [2]: index.md#google
 
 <!-- Referenced images -->
-[img1]: media/google-analytics-tag.png
+[img1]: ../../../../media/loc/en/marketing/google-analytics-tag.png

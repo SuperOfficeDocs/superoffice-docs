@@ -22,4 +22,4 @@ Hvis du ikke finner en person i SuperOffice, kan du opprette en ny person og et 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/chat-add-new-to-contact.png
+[img1]: ../../../media/loc/en/chat/chat-add-new-to-contact.png

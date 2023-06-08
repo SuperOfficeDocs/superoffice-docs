@@ -26,4 +26,4 @@ Etter at du har funnet ut hvilket design du ønsker å bruke, kan du velge malen
 
 <!-- Referenced images -->
 [img1]: ../../../../../../../common/icons/nav-search.png
-[img2]: media/work-with-templates.png
+[img2]: ../../../../../../media/loc/en/marketing/work-with-templates.png

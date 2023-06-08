@@ -58,4 +58,4 @@ Du kan skrive en e-post fra både Person-bildet og Firma-bildet. Deretter er tri
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/email-send-email.png
+[img2]: ../../../media/loc/en/contact/email-send-email.png

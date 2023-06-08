@@ -39,5 +39,5 @@ Flettefelt kommer i mange former: de kan være kundens fornavn, firmanavn, hilse
 [2]: ../../../en/document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img1]: media/template-variable.png
-[img2]: media/merge-tags.png
+[img1]: ../../../media/loc/en/marketing/template-variable.png
+[img2]: ../../../media/loc/en/marketing/merge-tags.png

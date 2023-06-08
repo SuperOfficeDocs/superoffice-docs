@@ -39,4 +39,4 @@ På varslingstidspunktet vil dialogboksen **Alarm** åpnes og vise informasjon o
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
-[img2]: media/appointment-alarm-on-meeting.png
+[img2]: ../../../media/loc/en/diary/appointment-alarm-on-meeting.png

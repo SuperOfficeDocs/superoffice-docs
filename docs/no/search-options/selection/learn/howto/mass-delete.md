@@ -109,6 +109,6 @@ Du finner papirkurven i menyen Personlige preferanser. Du kan se alle personene 
 [5]: bulk-update.md
 
 <!-- Referenced images -->
-[img1]: media/company-selection-task-delete.png
-[img2]: media/company-selection-task-delete.png
-[img3]: media/recycle-bin-personal-settings.png
+[img1]: ../../../../../media/loc/en/search-options/company-selection-task-delete.png
+[img2]: ../../../../../media/loc/en/search-options/company-selection-task-delete.png
+[img3]: ../../../../../media/loc/en/learn/recycle-bin-personal-settings.png

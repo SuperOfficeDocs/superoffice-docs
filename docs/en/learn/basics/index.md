@@ -122,5 +122,5 @@ Your administrator can [add and customize project guides][1] for you.
 [18]: ../section-tabs/index.md
 
 <!-- Referenced images -->
-[img1]: media/diary.png
-[img2]: media/projects.png
+[img1]: ../../../media/loc/en/learn/diary.png
+[img2]: ../../../media/loc/en/learn/projects.png

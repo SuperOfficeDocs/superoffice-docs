@@ -21,4 +21,4 @@ Hvis [tidssoner][1] er aktivert, kan du bytte tidssone nederst til venstre.
 [1]: ../../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
-[img1]: media/day-plan.bmp
+[img1]: ../../../../media/loc/en/diary/day-plan.bmp

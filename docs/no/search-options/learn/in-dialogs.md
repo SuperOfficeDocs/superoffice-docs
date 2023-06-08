@@ -36,5 +36,5 @@ Hvis du for eksempel vil se alle dokumentmalene som er tilgjengelige i SuperOffi
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img3]: media/quicksearch-dialog.bmp
-[img4]: media/getstarted-document-fastsearcher.png
+[img3]: ../../../media/loc/en/search-options/quicksearch-dialog.bmp
+[img4]: ../../../media/loc/en/search-options/getstarted-document-fastsearcher.png

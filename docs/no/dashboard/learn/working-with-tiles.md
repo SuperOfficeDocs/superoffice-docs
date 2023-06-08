@@ -74,4 +74,4 @@ Klikk på ![ikon][img1] i overskriften til en figur for å få tilgang til følg
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/context-menu.png
-[img2]: media/10-drill-down.gif
+[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif

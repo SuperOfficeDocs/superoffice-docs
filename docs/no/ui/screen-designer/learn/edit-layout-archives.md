@@ -130,5 +130,5 @@ Hvis du må gå tilbake til en tidligere versjon av skjermbildet, har du tilgang
 [img2]: ../../../../../common/icons/add-icon.png
 [img3]: ../../../../../common/icons/az.png
 [img4]: ../../../../../common/icons/info-ball.png
-[img1]: media/admin-screendesigner-edit-archive.png
-[img5]: media/admin-screendesigner-edit-archive-add-tab.png
+[img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
+[img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
