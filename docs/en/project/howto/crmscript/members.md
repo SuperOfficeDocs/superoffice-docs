@@ -1,16 +1,16 @@
 ---
-uid: crmscript_project_members
+uid: crmscript-project-members
 title: Project members
-description: A project always has a project manager or owner. In addition, it can have (and usually has) project members.
+description: How to work with project members in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
-keywords: CRMScript, project, project member
+so.date: 05.31.2023
+keywords: CRMScript, project, project member, ProjectAgent
 so.topic: howto
 ---
 
 # Project members
 
-A project always has a project manager or owner. In addition, it can have (and usually has) project members. These are stored in the **projectmember** table.
+A project always has a project manager or owner. In addition, it can have (and usually has) project members.
 
 > [!TIP]
 > Read about [working with persons][1].
@@ -111,10 +111,6 @@ member = agent.UpdateProjectMember(member);
 ```
 
 ## Delete members
-
-Deleting project members doesn't delete the actual person. It only severs the link between the person and the project by removing the row from the **projectmember** table.
-
-For example, a person has retired from the company and you need to clean up the database.
 
 ### Void DeleteProjectMemberByIds(Integer[] projectMemberIds)
 

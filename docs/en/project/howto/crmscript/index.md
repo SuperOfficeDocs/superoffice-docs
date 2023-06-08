@@ -1,9 +1,9 @@
 ---
-uid: crmscript_projects
+uid: crmscript-project
 title: Projects
 description: Working with projects in CRMScript
 author: Bergfrid Dias
-so.date: 10.27.2021
+so.date: 05.31.2023
 keywords: project, project management, CRMScript
 so.topic: howto
 ---
@@ -12,72 +12,69 @@ so.topic: howto
 
 [!include[License requirement](../../../../../common/includes/req-for-project-mgt.md)]
 
-## Retrieve a project
+## CRMScript classes
 
-**To view basic info, use NSProject:**
+There are no native CRMScript classes pertaining to projects. Use the NetServer classes:
 
-```crmscript
-NSProjectAgent projectAgent;
-NSProject p = projectAgent.GetProject(1);
-printLine(p.GetType());
-```
+* [NSProjectAgent][10]
+* [NSProject][11]
+* [NSProjectEntity][12]
+* [NSProjectMember][13]
+* [NSProjectStatus][14]
+* [NSProjectType][15]
 
-**To view (and possibly update) complex info, use NSProjectEntity:**
+## Frequently used fields
 
-```crmscript!
-NSProjectAgent projectAgent;
-NSProjectEntity p = projectAgent.GetProjectEntity(1);
-printLine(p.GetProjectType().GetValue());
-```
+| Field | Description |
+|:--|:--|
+| project_id | ID |
+| name | name of project |
+| associate_id | project manager or owner |
+| type_idx | type of project |
+| status_idx | status |
+| done | 0 = no, 1 = yes |
 
-## Project type
-
-A *project type* is a named set of reuseable info that will help you standardize the process. Aside from the name and ID, you'll find info such as:
-
-* the expected duration
-* whether a [project guide][1] is available
-* stages
-
-**List available types:**
-
-```crmscript!
-SearchEngine se;
-se.addFields("ProjType", "ProjType_id,name");
-print(se.executeTextTable());
-```
-
-## Project guides
-
-Using a [guide][1] will simplify and structure the process for the project manager with suggestions for which follow-ups to do and which documents to create at each stage.
+For a complete list of fields, see the [database reference][7].
 
 ## Status of a project
 
 | Status | Description |
-|:------:|:------------|
-| 1      | planned     |
-| 2      | in progress |
-| 3      | completed   |
-| 4      | stopped     |
-| 5      | closing     |
+|-|---|
+| 1 | Planned |
+| 2 | In progress |
+| 3 | Completed |
+| 4 | Stopped |
+| 5 | Closing |
 
-**To get an updated list:**
+## Timestamp values
 
-```crmscript!
-NSListAgent listAgent;
-NSProjectStatus[] statuses = listAgent.GetProjectStatuses();
+| Field | Description |
+|:--|:--|
+| registered | UtcDateTime of registration |
+| updated | UtcDateTime of last update |
+| endDate | Expected closing time or when it was completed or stopped (DateTime) |
+| nextMilestoneDate | Closest non-complete future milestone activity (DateTime) |
 
-foreach (NSProjectStatus s in statuses) {
-  printLine(s.GetId().toString() + " " + s.GetValue());
-}
-```
+## How-tos and examples
 
-Or:
-
-```crmscript!
-SearchEngine se;
-se.addFields("ProjStatus", "ProjStatus_id,name");
-print(se.executeTextTable());
-```
+* [Create project][2]
+* [Get project][1]
+* [Update project][5]
+* [Work with a project guide][4]
+* [Manage project members][3]
+* [Various samples][6]
 
 <!-- Referenced links -->
-[1]: project-guides.md
+[1]: index.md
+[2]: create.md
+[3]: members.md
+[4]: guides.md
+[5]: update.md
+[6]: samples.md
+[7]: ../../../database/tables/project.md
+[10]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSProjectAgent.yml
+[11]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSProject.yml
+[12]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSProjectEntity.yml
+[13]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSProjectMember.yml
+[14]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSProjectStatus.yml
+[15]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSProjectType.yml

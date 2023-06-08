@@ -7,21 +7,29 @@ items:
     href: overview.md
   - name: API options
     href: howto/index.md
+    expanded: true
     items:
     - name: CRMScript
       href: howto/crmscript/index.md
       items:
-      - name: Projects from start to end
-        href: howto/crmscript/project-lifecycle.md
+      - name: Create
+        href: howto/crmscript/create.md
+      - name: Get selected projects
+        href: howto/crmscript/get.md
+      - name: Update
+        href: howto/crmscript/update.md
       - name: Project members
-        href: howto/crmscript/project-members.md
-      - name: Guides
-        href: howto/crmscript/project-guides.md
+        href: howto/crmscript/members.md
+      - name: Project guide
+        href: howto/crmscript/guides.md
+      - name: Samples
+        href: howto/crmscript/samples.md
     - name: Raw SQL
       href: howto/sql/index.md
+      expanded: true
       items:
       - name: Create project
-        href: howto/sql/create-project.md
+        href: howto/sql/create.md
       - name: Text table
         href: howto/sql/text-table.md
       - name: Project guide

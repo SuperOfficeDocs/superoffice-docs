@@ -1,9 +1,9 @@
 ---
 title: Project guide
-uid: api_project_guide
+uid: project-guide-sql
 description: How to work with project guides in SuperOffice APIs with raw SQL.
 author: Bergfrid Dias
-so.date: 11.05.2021
+so.date: 05.31.2023
 keywords: project, project management, SQL, API, project guide, projtype, hasGuide, ProjectTypeStatusLink, SuggestedAppointment, SuggestedDocument
 so.topic: howto
 # so.envir:
@@ -11,8 +11,6 @@ so.topic: howto
 ---
 
 # Project guides
-
-![Project guide -screenshot][img1]
 
 ## Does my project have a guide?
 
@@ -74,7 +72,9 @@ SELECT * FROM PROJSTATUS WHERE ProjStatus_id IN
 
 ## Tasks
 
-The different tasks defined for a project's different statuses is found in the `ProjectTypeStatusLink` table:
+The different tasks defined for a project's different statuses is found in the [ProjectTypeStatusLink table][1]:
+
+**Suggested appointment:**
 
 ```SQL
 SELECT * FROM suggestedappointment WHERE projectTypeStatusLinkId = 2
@@ -85,7 +85,7 @@ SELECT * FROM suggestedappointment WHERE projectTypeStatusLinkId = 2
 | 25 | Consultant on site | 1 | Book consultant on site to implement | 2 | 10 | |
 | 26 | Call out | 2 | | 2 | 3 | |
 
-The different tasks defined for a project's different statuses are found in the `ProjectTypeStatusLink` table:
+**Suggested document:**
 
 ```SQL
 SELECT * FROM suggesteddocument WHERE projectTypeStatusLinkId = 2
@@ -96,6 +96,6 @@ SELECT * FROM suggesteddocument WHERE projectTypeStatusLinkId = 2
 | 17 | Consultant work task | 1 | Project plan | 2 | 58 | |
 
 <!-- Referenced links -->
+[1]: ../../../database/tables/projecttypestatuslink.md
 
 <!-- Referenced images -->
-[img1]: ../../media/project-guide.png

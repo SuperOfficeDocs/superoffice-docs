@@ -1,10 +1,10 @@
 ---
-title: Add roject
-uid: api_add_project
+title: Add project
+uid: project-create-sql
 description: How to add and examine projects in API with raw SQL.
 author: Bergfrid Dias
-so.date: 11.05.2021
-keywords: project, project management, SQL, API
+so.date: 05.31.2023
+keywords: project, SQL, API, project_number
 so.topic: howto
 # so.envir:
 # so.client:
@@ -40,7 +40,7 @@ It has generated a soundex value based on the project’s `name` field. This val
 
  | Project name | Soundex value |
  |---|---|
- | Client SDK Work   | KLNTSTKAR |
+ | Client SDK Work | KLNTSTKAR |
  | Klient SDK –woork | KLNTSTKAR |
 
 It has timestamped and marked the record with the creator. You can see this in the registered and `registered_associate` fields.
