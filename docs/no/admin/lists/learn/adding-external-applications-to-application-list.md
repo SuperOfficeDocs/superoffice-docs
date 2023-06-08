@@ -1,98 +1,98 @@
 ---
 uid: help-no-adding-external-applications-to-application-list
-title: Adding external applications to the Application list
-description: Adding external applications to the Application list
+title: Legge til eksterne applikasjoner på listen Applikasjon
+description: Legge til eksterne applikasjoner på listen Applikasjon
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: list
+keywords: liste
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: no
 ---
 
-# Add items to the GUI - Application list
+# Legge til forekomster på listen GUI - Applikasjon
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
-[!include[Edit list item](includes/edit-list-item.md)] when the items are applications or similar:
+[!include[Edit list item](includes/edit-list-item.md)] når forekomstene er programmer eller lignende:
 
 > [!NOTE]
-> Files or applications that must be run locally (for example, *.exe* files) are not accessible in SuperOffice CRM for Web.
+> Filer eller applikasjoner som må kjøres lokalt (for eksempel *.exe* filer), er ikke tilgjengelige i SuperOffice CRM for Web.
 
-1. Enter the required name of the item in the **Name** field. This name is displayed at the place where you add the application in SuperOffice CRM (see step 7 concerning the **Show** list box).
+1. Skriv inn ønsket navn på forekomsten i feltet **Navn**. Dette navnet kommer til å vises der du legger til applikasjonen i SuperOffice CRM (se trinn 7 om listeboksen **Vis**).
 
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-1. Under **Add as**, select what the application will be added as:
+1. Under **Legg til som** velger du hva applikasjonen skal legges til som:
 
-    * **Button**: the application icon is displayed in the Navigator. Users can then open the application directly by clicking the icon in the Navigator.
-    * **Menu item**: the user can access the application by clicking the **Tools** button ( ![icon][img2] ) in the Navigator and/or by selecting **Other applications** on the main menu (![icon][img1]).
-    * **Event**: the application is run when SuperOffice CRM opens or closes or on a local update (Travel). See step 8. You could, for example, run a synchronization program for a PDA when SuperOffice CRM closes.
-    * **Task**: select an option in this list box to make the application accessible from the **Task** tab in the Selection screen or the **Task** buttons.
+    * **Knapp**: applikasjonsikonet vises i Navigator. Brukeren kan da åpne applikasjonen direkte ved å klikke på ikonet i navigatoren.
+    * **Menyvalg**: Brukeren får tilgang til applikasjonen ved å klikke på **Verktøy**-knappen (![ikon][img2]) i navigatoren og/eller velge **Andre applikasjoner** på hovedmenyen (![ikon][img1]).
+    * **Arrangement**: Applikasjonen kjøres når SuperOffice CRM startes eller avsluttes, eller ved lokal oppdatering (Travel). Se trinn 8. Du kan for eksempel kjøre et synkroniseringsprogram for en PDA når SuperOffice CRM lukkes.
+    * **Oppgave**: Velg et alternativ i denne listeboksen for å gjøre applikasjonen tilgjengelig fra fanen **Oppgave** i Valg-bildet eller **Oppgave**-knappene.
 
-        <details><summary>Find out more about the different options.</summary>
+        <details><summary>Finn ut mer om de ulike alternativene.</summary>
 
-        The names in parenthesis indicate the section tab where the application is available.
+        Navnene i parentes angir detaljkortet der applikasjonen er tilgjengelig.
 
-        Examples:
+        Eksempler:
 
-        * **Sale selection (Sale)**: After you open a sale selection in the Selection screen and the **Sales** section tab is enabled, the application is displayed as a task in the **Task** tab.
-        * **Sale selection (Companies)**: After you open a sale selection in the Selection screen and the **Companies** section tab is enabled, the application is displayed as a task in the **Task** tab.
-        * **Sale selection (external)**: If your SuperOffice CRM installation is linked to a third-party application, other section tabs may be displayed for the different selections. You can then select, for example, **Sale selection (external)** to display the application as a task in the **Task** tab when you open a sale selection in the Selection screen and the third-party application section tab is active.
+        * **Salgsutvalg (Salg)**: Når du har åpnet et salgsutvalg i Utvalg-bildet og detaljkortet **Salg** er aktivt, vises applikasjonen som en oppgave i fanen **Oppgave**.
+        * **Salgsutvalg (firmaer)**: Når du har åpnet et salgsutvalg i Utvalg-bildet og detaljkortet **Firmaer** er aktivt, vises applikasjonen som en oppgave i fanen **Oppgave**.
+        * **Salgsutvalg (ekstern)**: Hvis din installasjon av SuperOffice CRM er tilknyttet en tredjepartsapplikasjon, kan det hende at det vises flere detaljkort for de ulike utvalgene. Du kan da velge for eksempel **Salgsutvalg (ekstern)** for å vise applikasjonen som en oppgave i fanen **Oppgave** når du har åpnet et salgsutvalg i Utvalg-bildet og detaljkortet for tredjepartsapplikasjonen er aktivt.
 
-        Other options:
+        Andre alternativer:
 
-        * **Toolbar**: the application is displayed as an option on the toolbar. The users must configure the toolbar in SuperOffice CRM and choose to display the application.
+        * **Knapperad**: Applikasjonen vises som et alternativ på knapperaden. Brukerne må konfigurere knapperaden i SuperOffice CRM og velge å vise applikasjonen.
 
-        * **Dialog for follow-ups**: the application is displayed as an option under the **Task** button in the dialog for follow-ups.
+        * **Dialogboksen for oppfølginger**: Applikasjonen vises som et valg under **Oppgave**-knappen i dialogboksen for oppfølginger.
 
-        * **Document screen**: the application is displayed as an option under the **Task** button in the selected dialog. The same option is available for the Contact, Quote, and Product screens.
+        * **Dokument-bildet**: Applikasjonen vises som et alternativ under **Oppgave**-knappen i den valgte dialogboksen. Det samme alternativet er tilgjengelig for bildene Person, Tilbud og Produkt.
 
         </details>
 
     > [!NOTE]
-    > Options you choose under **Add as** determine which options are available in the rest of the dialog.
+    > Det er valgene du gjør under **Legg til som**, som avgjør hvilke alternativer som skal være tilgjengelige i resten av dialogboksen.
 
-1. Under **Available on**, choose where the application is available. You can select several of these options simultaneously.
+1. Under **Tilgjengelig på**, velger du hvor applikasjonen er tilgjengelig. Du kan velge flere av disse alternativene samtidig.
 
-    * **Central database**: When you are working on the central database.
-    * **Satellite**: When you are working on a satellite.
-    * **Travel**: When you are using a local database using the Travel feature.
+    * **Sentral database**: Når du jobber på den sentrale databasen.
+    * **Satellitt**: Når du jobber på en satellitt.
+    * **Travel**: Når du bruker en lokal database ved hjelp av Travel-funksjonen.
 
-1. Specify the required application in the **File name** field.
+1. Angi ønsket applikasjon i feltet **Filnavn**.
 
-1. In the **Parameters** field, specify any start-up parameters for the application.
+1. I feltet **Parametere** kan du angi eventuelle oppstartsparametere for applikasjonen.
 
-1. In the **Work folder** field, you can specify which folder you want to be the current one when the program runs. Type in the path manually. You normally leave this field empty.
+1. I feltet **Arbeidsmappe** kan du angi mappen du at skal være gjeldende mappe når applikasjonen startes. Skriv inn banen manuelt. Vanligvis lar du dette feltet stå tomt.
 
-1. In the **Show** list box, select the required option. This list box appears only if you selected **Menu item** under **Add as**.
+1. I listeboksen **Vis** velger du ønsket alternativ. Denne listeboksen vises bare hvis du valgte **Menyvalg** under **Legg til som**.
 
-    * **Toolbox menu**: the user can access the application by clicking the **Tools** button (![icon][img2]) in the Navigator or by selecting **Other applications** on the main menu (![icon][img1]) in SuperOffice CRM.
-    * **View menu**: the user can access the application using the **Other Applications** option on the **View** menu in SuperOffice CRM.
+    * **Verktøykassemenyen**: Brukeren får tilgang til applikasjonen ved å klikke på **Verktøy**-knappen (![ikon][img2]  ) i navigatoren eller velge **Andre applikasjoner** på hovedmenyen (![ikon][img1]) i SuperOffice CRM.
+    * **Vis-menyen**: Brukeren får tilgang til applikasjonen via valget **Andre applikasjoner** på **Vis**-menyen i SuperOffice CRM.
 
-1. In the **Run when** list box, choose when to run the application. This list box appears only if you selected **Event** under **Add as**.
+1. I listeboksen **Kjør når** velger du når applikasjonen skal kjøres. Denne listeboksen vises bare hvis du valgte **Hendelse** under **Legg til som**.
 
-    * **SuperOffice CRM starts**: the application runs when SuperOffice CRM starts.
-    * **SuperOffice CRM exits**: the application runs when SuperOffice CRM is closed down.
-    * **Local update**: the application runs when Travel is used.
+    * **SuperOffice CRM starter**: Applikasjonen kjører når SuperOffice CRM starter.
+    * **SuperOffice CRM avsluttes**: Applikasjonen kjører når SuperOffice CRM lukkes.
+    * **Lokal oppdatering**: Applikasjonen startes ved bruk av Travel.
 
-1. Check **Wait for application to finish** if you want SuperOffice CRM to wait for the external application to quit before closing. If you do not check this box, you can close SuperOffice CRM without closing the external application. This list box appears only if you selected **Event** under **Add as**.
+1. Merk av for **Vent på at applikasjonen blir ferdig** hvis du vil at SuperOffice CRM ikke skal lukkes før du avslutter den eksterne applikasjonen. Hvis du ikke merker av her, kan du lukke SuperOffice CRM uten å lukke den eksterne applikasjonen. Denne listeboksen vises bare hvis du valgte **Hendelse** under **Legg til som**.
 
-1. Under **Start-up mode**, specify the type of window the application will start in – Maximized, Minimized or Restored.
+1. Under **Oppstartmodus** velger du hva slags vindu applikasjonen skal startes i - maksimert, minimert eller gjenopprettet.
 
-1. In the **Icon** field, choose the icon to display for the application in the Navigator in SuperOffice CRM (see step 7 concerning the **Show** list box). This list box appears only if you selected **Button** under **Add as**.
+1. I feltet **Ikon** kan du velge hvilket ikon som skal vises for applikasjonen i navigatoren i SuperOffice CRM (se trinn 7 om listeboksen **Vis**). Denne listeboksen vises bare hvis du valgte **Knapp** under **Legg til som**.
 
-    * **From library**: Select one of the available icons in the list.
-    * **Use program icon**: Use the default icon for the selected application.
+    * **Fra biblioteket**: Velg ett av de tilgjengelige ikonene på listen.
+    * **Bruk programikonet**: Bruk standardikonet for valgte applikasjon.
 
-1. Optionally, type in a description of the item in the **Description** field.
+1. Legg eventuelt inn en beskrivelse av forekomsten i feltet **Beskrivelse**.
 
-1. Click **Save**. The item is added to the **Items** list. Repeat this procedure to add more items.
+1. Klikk på **Lagre**. Forekomsten blir nå lagt til i listen **Forekomster**. Gjenta prosedyren hvis du vil legge til flere forekomster.
 
 > [!NOTE]
-> Users must log in to SuperOffice CRM again to display the application.
+> Brukerne må logge på SuperOffice CRM på nytt før applikasjonen vises.
 
 <!-- Referenced links -->
 

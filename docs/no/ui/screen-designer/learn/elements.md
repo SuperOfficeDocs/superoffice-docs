@@ -1,103 +1,89 @@
 ---
 uid: help-no-screen-designer-elements
-title: Elements in the Screen Designer
-description: Elements in the Screen Designer
+title: Elementer i Skjermdesigner
+description: Elementer i Skjermdesigner
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: Innstillinger og vedlikehold
+so.topic: howto
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: no
 ---
 
-# Elements
+# Elementer
 
-## Add labels
+## Legg til etiketter
 
-Labels can be used to create headings for specific groups of fields or a column.
+Etiketter kan brukes til å opprette overskrifter for bestemte feltgrupper eller en kolonne.
 
-1. Select the tab you want to edit.
-2. Click and drag the **Label** element to the layout.
-3. Click the label.
-4. In the **Settings** sections, replace the text **New label** with the new label name.
-5. You can also [add the label in other languages][2] by clicking ![icon][img1].
-6. Change the font formatting as necessary.
+1. Velg fanen du vil redigere.
+2. Klikk og dra **Etikett** -elementet til layouten.
+3. Klikk på etiketten.
+4. I **Innstillinger**-delene erstatter du teksten **Ny etikett** med det nye etikettnavnet.
+5. Du kan også [legge til etiketten på andre språk][2] ved å klikke på ![ikon][img1].
+6. Endre skriftformateringen etter behov.
 
-## Add dividers
+## Legg til skillelinjer
 
-Use dividers to create sections within columns. Useful for grouping various types of information.
+Bruk skillelinjer til å lage seksjoner i kolonnene. Nyttig når du skal gruppere ulike typer informasjon.
 
-1. Select the tab you want to edit.
-2. Click and drag the **Divider** element to the layout.
-3. Click the divider.
-4. If relevant, change the spacer type.
+1. Velg fanen du vil redigere.
+2. Klikk og dra **Skillelinje** -elementet til layouten.
+3. Klikk på skillestreken.
+4. Du kan endre skilletegnet ved behov.
 
-## Add links
+## Sette inn koblinger
 
-Add links for looking up information in other websites, allow users to run CRM scripts from the company and contact cards, and add navigation to other parts of SuperOffice using soprotocol. You can also use buttons to add links.
-
-> [!TIP]
-> You can use [Template variables][3] in the URLs.
-
-1. Select the tab you want to edit.
-
-2. Click and drag the **Link** element to the layout.
-
-3. Click the link field.
-
-4. In the **Settings** sections, replace the text **Link** with the new link name.
-
-5. You can also [add the link name in other languages][2] by clicking ![icon][img1].
-
-6. In the **Action** list, select the action to perform when clicking the link:
-
-    * **Open website**: Select this option to add a link to a website. Select the URL encoding and target as necessary.
-    * **Execute CRMScript**: Select this option to add a [CRMScript][6] to run specific actions in SuperOffice.
-    * **Shortcut (soprotocol)**: Select this option to add a [shortcut to other screens and records][1] in SuperOffice.
-
-7. In the **Mode** list, choose if the link should always be available, or if it should be available only in read or edit mode.
-
-## Add buttons
-
-Buttons work similarly to links. You can add links for looking up information in other websites, allow users to run CRM scripts from the company and contact cards, and add navigation to other parts of SuperOffice using soprotocol.
+Sett inn koblinger for å slå opp informasjon på andre websider, la brukere kjøre CRM-skript fra firma- og personkortet, og legg til navigering i andre deler av SuperOffice ved hjelp av soprotocol. Du kan også bruke knapper til å legge til koblinger.
 
 > [!TIP]
-> You can use [Template variables][3] in the URLs.
+> Du kan bruke [malvariabler][3] i URL-adressene.
 
-1. Select the tab you want to edit.
+1. Velg fanen du vil redigere.
 
-2. Click and drag the **Button** element to the layout.
+2. Klikk og dra **Kobling** -elementet til layouten.
 
-3. Click the button.
+3. Klikk på koblingsfeltet.
 
-4. In the **Settings** sections, replace the text **Button** with the new button name.
+4. I **Innstillinger**-delene erstatter du teksten **Kobling** med det nye koblingsnavnet.
 
-5. You can also [add the button name in other languages][2] by clicking ![icon][img1].
+5. Du kan også [legge til navnet på koblingen på andre språk][2] ved å klikke på ![ikonet][img1].
 
-6. In the **Action** list, select the action to perform when clicking the button:
+6. I **Handling**-listen velger du handlingen som skal utføres når du klikker på koblingen:
 
-    * **Open website**: Select this option to add a link to a website. Select the URL encoding and target as necessary.
-    * **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript][6].
-    * **Shortcut (soprotocol)**: Select this option to add a shortcut to other screens and records in SuperOffice. See [SOProtocol][1].
+    * **Åpne webside**: Velg dette alternativet for å sette inn en kobling til en webside. Velg URL-koding og adresse etter behov.
+    * **Kjør CRMScript**: Velg dette alternativet for å legge til et [CRMScript][6] for å kjøre bestemte handlinger i SuperOffice.
+    * **Snarvei (soprotocol)**: Velg dette alternativet for å legge til en [snarvei til andre skjermbilder og poster][1] i SuperOffice.
 
-7. In the **Mode** list, choose if the button should always be available, or if it should be available only in read or edit mode.
+7. I **Modus**-listen velger du om koblingen alltid skal være tilgjengelig, eller om den bare skal være tilgjengelig i lese- eller redigeringsmodus.
 
-8. In the **Style** list, select the style of the button. The preview on the right will update with the selected button style.
+## Legg til knapper
 
-## Add grid (table)
+Knapper fungerer på samme måte som koblinger. Du kan sette inn koblinger for å slå opp informasjon på andre websider, la brukere kjøre CRM-skript fra firma- og personkortet, og legg til navigering i andre deler av SuperOffice ved hjelp av soprotocol.
 
-Grids give you more control over the position of fields. It can be useful if you have many user-defined fields.
+> [!TIP]
+> Du kan bruke [malvariabler][3] i URL-adressene.
 
-1. Select the tab you want to edit.
+1. Velg fanen du vil redigere.
 
-2. Click and drag the **Grid** element to the layout.
+2. Klikk og dra **Knapp** -elementet til layouten.
 
-3. Click to select the grid in the preview.
+3. Klikk på knappen.
 
-4. In the **Settings** sections, adjust the number of rows and columns.
+4. I **Innstillinger**-delene erstatter du teksten **Knapp** med det nye knappenavnet.
 
-5. Choose a grid style: lines (default), none, or header.
+5. Du kan også [add the button name in other languages][2] ved å klikke på ![ikon][img1].
 
-6. Add fields, labels, links, and buttons to the grid to populate it.
+6. I **Handling**-listen velger du handlingen som skal utføres når du klikker på knappen:
+
+    * **Åpne webside**: Velg dette alternativet for å sette inn en kobling til en webside. Velg URL-koding og adresse etter behov.
+    * **Kjør CRMScript**: Velg dette alternativet for å legge til et CRM-skript for å kjøre bestemte handlinger i SuperOffice. Se [CRMScript][6].
+    * **Snarvei (soprotocol)**: Velg dette alternativet for å legge til en snarvei til andre bilder og oppføringer i SuperOffice. Se [SOProtocol][1].
+
+7. I **Modus**-listen velger du om knappen alltid skal være tilgjengelig, eller om den bare skal være tilgjengelig i lese- eller redigeringsmodus.
+
+8. Velg stilen på knappen i **Stil**-listen. Forhåndsvisningen til høyre oppdateres med den valgte knappestilen.
 
 <!-- Referenced links -->
 [1]: ../../../../en/ui/soprotocol/index.md

@@ -1,99 +1,99 @@
 ---
 uid: help-no-video-meetings
-title: Work with video meetings
-description: Start video meetings directly from your diary using our available integrations with video conferencing vendors. Learn how to create and join a video meeting in SuperOffice here.
+title: Arbeide med videomøter
+description: Start videomøter direkte fra dagboken din ved hjelp av våre tilgjengelige integrasjoner med videokonferanseleverandører. Lær hvordan du oppretter og blir med i et videomøte i SuperOffice her.
 author: SuperOffice RnD
 so.date: 02.10.2023
-keywords: diary, follow-up, video meeting
+keywords: dagbok, oppfølging, videomøte
 so.topic: howto
 language: no
 ---
 
-# Work with video meetings
+# Arbeide med videomøter
 
-The SuperOffice video meetings allow you to schedule and create video meetings directly from your diary. Let us take a look at how you can set up a video meeting.
+SuperOffice-videomøtene lar deg planlegge og opprette videomøter direkte fra dagboken din. La oss ta en titt på hvordan du kan sette opp et videomøte.
 
 > [!NOTE]
-> Before you can use this feature, the [administrator must configure][1] your preferred video meeting service in SuperOffice Settings and Maintenance.
+> Før du kan bruke denne funksjonen, [må administratoren konfigurere][1] din foretrukne videomøtetjeneste i SuperOffice - Innstillinger og vedlikehold.
 
-## Available video conferencing providers
+## Tilgjengelige leverandører av videokonferanser
 
 * Zoom
 * Microsoft Teams
 * Google Meet
 * Cisco WebEx
-* Jitsi Meet (free to use, no subscription needed)
+* Jitsi Meet (gratis å bruke, ingen abonnement nødvendig)
 
-## Create a video meeting
+## Opprette et videomøte
 
-You can easily set up a video meeting when creating a follow up. Watch this video to learn how to create a video meeting or follow the steps below (video length - 1:09):
+Du kan enkelt konfigurere et videomøte når du oppretter en oppfølging. Se denne videoen for å lære hvordan du oppretter et videomøte, eller følg trinnene nedenfor (videolengde - 1:09):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/WuTqnDPx17Q]
 
-### Steps
+### Trinn
 
-1. Create a new appointment and select the name of the company and the contact you plan to meet.
+1. Opprett en ny avtale, og velg navnet på firmaet og personen du planlegger å møte.
 
-2. To create the video meeting URL, click ![icon][img1] next to the meeting type (for instance **Business meeting**). The icon changes to ![icon][img2] and a video meeting link is added. SuperOffice CRM will create and add the video meeting URL for the video provider you use.
+2. Hvis du vil opprette en videomøte-URL, klikker du på ![icon][img1] ved siden av møtetypen (for eksempel **Forretningsmøte**). Ikonet endres til ![icon][img2] og en videomøtekobling legges til. SuperOffice CRM oppretter og legger til nettadressen for videomøter for videoleverandøren du bruker.
 
-    ![Click the video meeting icon to create the video meeting URL -screenshot][img5]
+    ![Klikk på videomøteikonet for å opprette nettadressen til videomøtet -screenshot][img5]
 
     > [!NOTE]
-    > The first time you select the video icon (![icon][img1]), you must log in to authenticate your user in the video meeting service defined by your administrator.
+    > Første gang du velger videoikonet (![icon][img1]), må du logge på for å godkjenne brukeren i videomøtetjenesten som er definert av administratoren.
     >
-    > If you do not see the icon, this means that the video meeting feature is not configured yet. Please contact your SuperOffice administrator, who would be able to set up the feature and video provider connection.
+    > Hvis du ikke ser iconet, betyr dette at videomøtefunksjonen ikke er konfigurert ennå. Ta kontakt med SuperOffice-administratoren din, som kan konfigurere funksjonen og videoleverandørtilkoblingen.
 
-3. Optionally, set up an alarm to be notified by a pop-up before the meeting starts.
+3. Du kan også konfigurere en alarm for å bli varslet av et popup-vindu før møtet starter.
 
-4. Invite participants: Go to the **Participants** tab and click the **+ Add** button to invite other people to this meeting.
+4. Inviter deltakere: Gå til **Deltakere**-fanen og klikk på **\+ Legg til**-knappen for å invitere andre til dette møtet.
 
-    When you have added everyone that you want to attend the meeting, click **Save**.
+    Når du har lagt til alle du vil skal delta på møtet, klikker du på **Lagre**.
 
-    If you turned on email invitations for the participants of the follow-up, an email with a link to join the video meeting is sent when the appointment is saved. In the diary, follow-ups with video meetings are displayed with the icon ![icon][img3].
+    Hvis du har slått på e-postinvitasjoner til deltakerne i oppfølgingen, sendes en e-postmelding med en kobling for å bli med i videomøtet når avtalen lagres. I dagboken vises oppfølging med videomøter med ikonet ![iconet][img3].
 
 > [!TIP]
-> Click ![icon][img4] to copy the video meeting link. You can then paste the link in the description of the appointment or send to others via direct messaging. Use the template variable {burl} to add the video meeting link to invitation templates.
+> Klikk på ![icon][img4] for å kopiere videomøtekoblingen. Du kan deretter lime inn koblingen i beskrivelsen av avtalen eller sende til andre via direktemeldinger. Bruk malvariabelen {burl} til å legge til videomøtekoblingen i invitasjonsmaler.
 
-## Join video meetings
+## Bli med i videomøter
 
-You can join a video meeting in SuperOffice in several ways:
+Du kan bli med på et videomøte i SuperOffice på flere måter:
 
-* Click **Join meeting** in the **Follow-up** dialog (appointment).
-* Click **Join meeting** in the side panel.
-* Click a browser notification (only available if the **Alarm** option is active).
-* Right-click a video meeting in the diary and select **Join meeting**.
+* Klikk på **Bli med i møte** i dialogboksen **Oppfølging** (avtale).
+* Klikk på **Bli med i møte** på sidepanelet.
+* Klikk på et nettleservarsel (bare tilgjengelig hvis **Alarm**-alternativet er aktivt).
+* Høyreklikk på et videomøte i dagboken, og velg **Bli med i møte**.
 
-Watch this video or follow the steps below (video length - 1:11):
+Se denne videoen eller følg trinnene nedenfor (videolengde - 1:11):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/uee_XO1kwTc]
 
-### Steps
+### Trinn
 
-#### On the notification pop-up
+#### I popup-vinduet for varsler
 
-If the host of the meeting has set up notifications for the meeting, SuperOffice CRM will warn you by showing a notification pop-up before your meeting is about to begin. You can click the Join Meeting button in the pop-up to automatically start your video meeting.
+Hvis møtelederen har konfigurert varsler for møtet, vil SuperOffice CRM advare deg ved å vise et popup-varsel før møtet skal begynne. Du kan klikke på Bli med i møte-knappen i popup-vinduet for å starte videomøtet automatisk.
 
-#### In the appointment
+#### I avtalen
 
-You can also join the video meeting by opening the appointment in your diary and clicking the Join Meeting button at the bottom of the appointment.
+Du kan også bli med på videomøtet ved å åpne avtalen i dagboken din og klikke på Bli med i møte-knappen nederst i avtalen.
 
-When you click the link, your video meeting will automatically start.
+Når du klikker på koblingen, starter videomøtet automatisk.
 
 > [!TIP]
-> When not using video meeting URL, but have another video URL, simply add it to the Location field and it is easy for any using Mobile CRM to click **Location** to connect to the video meeting on the go.
+> Når du ikke bruker Videomøte-URL-en, men har en annen video-URL, legger du den ganske enkelt til i Sted-feltet, og det er enkelt for alle som bruker Mobile CRM å klikke på **Plassering** for å koble til videomøtet mens du er på farten.
 
-#### In the side panel preview
+#### I forhåndsvisningen på sidepanelet
 
-Click on the appointment in your SuperOffice diary to view its details in the preview screen in the side panel.
+Klikk på avtalen i SuperOffice-dagboken for å se detaljene i forhåndsvisningsskjermen i sidepanelet.
 
-(Enable the preview by selecting it from the drop-down menu at the top of the side panel).
+(Aktiver forhåndsvisningen ved å velge den fra rullegardinmenyen øverst på sidepanelet).
 
-To join the video meeting via the preview screen, just click the Join Meeting button at the bottom of the side panel. After you click it, your video meeting will automatically start.
+For å bli med i videomøtet via forhåndsvisningsskjermen, klikker du bare på Bli med i møte-knappen nederst på sidepanelet. Etter at du har klikket på den, starter videomøtet automatisk.
 
 <!-- Referenced links -->
-[1]: ../../../en/video-meeting/howto/connect-provider.md
+[1]: ../../../video-meeting/howto/connect-provider.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/videocall-off.png

@@ -1,29 +1,29 @@
 ---
 uid: help-no-mailing-open-in-browser
-title: Add a link to display the message in a browser
-description: Add a link to display the message in a browser
+title: Legge til en kobling for å vise meldingen i en nettleser
+description: Legge til en kobling for å vise meldingen i en nettleser
 author: SuperOffice RnD
 so.date: 02.20.2023
-keywords: Marketing, link, mailing
+keywords: Markedsføring, kobling, utsendelse
 so.topic: howto
 language: no
 ---
 
-# Add a link to display the message in a browser
+# Legge til en kobling for å vise meldingen i en nettleser
 
-If the recipient has problems displaying the message in their email program (maybe images aren't displayed, for example), or prefers to read the message in a browser, you can add a link to display the message as a web page. Links of this type are normally placed at the top of the message.
+Hvis mottakeren har problemer med å vise meldingen i e-postprogrammet sitt (for eksempel kanskje bilder ikke vises), eller foretrekker å lese meldingen i en nettleser, kan du legge til en kobling for å vise meldingen som en webside. Slike koblinger plasseres vanligvis øverst i meldingen.
 
-## Steps
+## Trinn
 
-1. Go to the contents of the message and click the section where you want to insert the link.
+1. Gå til innholdet i meldingen, og klikk på seksjonen der du vil sette inn koblingen.
 
-2. Type and select the text which the recipient has to click, for example "Click here to view this message in a browser".
+2. Skriv inn og velg teksten som mottakeren skal klikke på, for eksempel «Klikk her for å se denne meldingen i en nettleser».
 
-3. Click the **Insert/edit link** button (![icon][img1]) in the toolbar.
+3. Klikk på knappen **Sett inn/rediger kobling** (![icon][img1]) på verktøylinjen.
 
-4. Click **Special links** and select **Link for viewing message online**.
+4. Klikk på **Spesielle koblinger** og velg **Kobling for å se meldingen på nett**.
 
-5. Click **Save**. The link is inserted in the message.
+5. Klikk på **Lagre**. Koblingen settes inn i meldingen.
 
 <!-- Referenced links -->
 

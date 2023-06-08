@@ -1,51 +1,51 @@
 ---
 uid: help-no-add-items-to-country-list
-title: Add items to the Country list
-description: Add items to the Country list
+title: Legge til forekomster på listen Land
+description: Legge til forekomster på listen Land
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: Innstillinger og vedlikehold
+so.topic: howto
 language: no
 ---
 
-# Add items to the General - Country list
+# Legge til forekomster på listen Generelt - Land
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
-[!include[Edit list item](includes/edit-list-item.md)] when the list items are countries:
+[!include[Edit list item](includes/edit-list-item.md)] når listeelementene er land:
 
-1. Enter the required name of the item in the **Name** field. The name of the country.
+1. Skriv inn ønsket navn på forekomsten i feltet **Navn**. Navnet på landet.
 
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Optionally, enter the English name for the country in the **English name** field.
+2. Skriv eventuelt inn det engelske navnet på landet i feltet **Engelsk navn**.
 
-3. In the **Top-level domain** field, specify which country address to use in internet addresses for the relevant country, for example *NO* for Norway or *DE* for Germany.
+3. I feltet **Toppdomene** kan du angi hvilken landadresse som skal brukes i nettadresser for det aktuelle landet, for eksempel *NO* for Norge eller *DE* for Tyskland.
 
-4. In the **Postal prefix** field, specify the letter(s) used in front of the postcode when you write to the selected country from another country, for example, *N* for Norway.
+4. I feltet **Postprefiks** kan du angi bokstaven(e) som brukes foran postnummeret når du skriver til det aktuelle landet fra et annet land, for eksempel *N* for Norge.
 
-5. For each of the next three fields, click the ![icon][img1] arrow and select the required address format from the list. The same format will usually apply for all three fields, but, for some countries, it may be useful to vary the formats, depending on what you are using the address for:
-    * **Visual address format**:
-        The usual format as it appears on screen in the Company screen. As a rule, it is sufficient to select a format only here.
-    * **Printed address format (local)** and **(intl)**:
-        Some countries use different address formats for letters depending on if they are posted at home or abroad. Specify the format to be used in each of these cases in these fields.
+5. I de tre neste feltene kan du klikke på ![ikon][img1] pilen og velge ønsket adresseformat fra listen. Vanligvis vil samme format gjelde for alle de tre feltene, men for enkelte land kan det være nyttig med flere formater, avhengig av hva adressen brukes til:
+    * **Visuelt adresseformat**:
+        Det vanlige formatet som det vises på skjermen på Firma-bildet. Som regel er det tilstrekkelig å velge et format her.
+    * **Adresseformat for utskrift (lokalt)** og **(intl.)**:
+        Noen land bruker forskjellige adresseformater for brev avhengig om de sendes innenlands eller utenlands. I disse feltene kan du spesifisere hvilket format som skal brukes i hvert av tilfellene.
 
-6. The Company screen contains a field labelled **VAT No.**, for recording the company's VAT number or similar number. You can change this field label in Settings and maintenance. Type in the desired text in the **Organization number field label** field, for example, *Org. nr* for Norway. When you enter a Norwegian company in SuperOffice, the label for the company's organization number will be *Org. nr* instead of *VAT No.*.
+6. Firma-bildet inneholder feltet **Org.nr** for firmaets organisasjonsnummer. Denne ledeteksten kan endres i Innstillinger og vedlikehold. Skriv inn ønsket tekst i feltet **Ledetekst for org.nr**, for eksempel *Org.nr* for Norge. Når du registrerer et norsk firma i SuperOffice CRM, blir ledeteksten for firmaets organisasjonsnummer dermed *Org.nr* i stedet for *VAT No*.
 
-7. Click the ![icon][img1] arrow next to the **Currency** field and select a currency from the list.
+7. Klikk på ![ikon][img1] pilen ved feltet **Valuta**, og velg ønsket valuta fra listen.
 
     > [!NOTE]
-    > These options are defined in the [**General - Currency** list][2].
+    > Disse systemvalgene er definert i listen [**Generelt - Valuta**][2].
 
-8. In the **This country's prefix** field, specify the number used to dial the selected country from another country, for example *47* to dial Norway.
+8. I feltet **Dette landets prefiks** kan du angi nummeret du må bruke for å ringe til det aktuelle landet fra et annet land, for eksempel *47* for å ringe til Norge.
 
-9. Enter the international dialling prefix for the country you are in in the **International prefix** field. As a rule, this is *00*.
+9. I feltet **Internasjonalt prefiks** kan du angi prefikset du må bruke for å kunne ringe utenlands fra det aktuelle landet. Som regel er dette *00*.
 
-10. Optionally, type in a description of the country in the **Description** field.
+10. Legg eventuelt inn en beskrivelse av landet i feltet **Beskrivelse**.
 
-11. Click **Save**. The country is added as a separate item in the **Items** list. Repeat this procedure to add more countries.
+11. Klikk på **Lagre**. Landet blir nå lagt til som en egen forekomst i listen **Forekomster**. Gjenta prosedyren hvis du vil legge til flere land.
 
 <!-- Referenced links -->
 [2]: currency.md

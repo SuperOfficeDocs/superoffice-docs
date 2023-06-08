@@ -1,7 +1,7 @@
 ---
 uid: help-no-mail-link-select-recipients
-title: Select recipients
-description: Select recipients
+title: Velge mottakere
+description: Velge mottakere
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Mail Link
@@ -9,25 +9,25 @@ so.topic: howto
 language: no
 ---
 
-# Select recipients
+# Velge mottakere
 
-When creating an email [from Microsoft Outlook][1] or [from Lotus Notes][2], you can add recipients using the **Select recipients** dialog.
+Når du oppretter en e-post [fra Microsoft Outlook][1] eller [fra Lotus Notes][2], kan du legge til mottakere ved hjelp av dialogboksen **Velg mottakere**.
 
-1. In the new email window, click the **Add recipient** button (![icon][img1]).
+1. I det nye e-postvinduet klikker du på **Legg til mottaker**-knappen (![icon][img1]).
 
-2. In the **Select recipients** dialog under **Select from**, select one of the five radio buttons: **Company**, **Project**, **Sale**, **Selection** or **User group**. The rest of the dialog changes accordingly.
+2. I dialogboksen **Velg mottakere** under **Velg fra**, velger du én av de fem alternativknappene: **Firma**, **Prosjekt**, **Salg**, **Utvalg** eller **Brukergruppe**. Resten av dialogen endres tilsvarende.
 
-3. Select the name of a company/project/learn/sale/learn/selection/user group. You can also search by starting to type the name of the item in question.
+3. Velg navnet på et firma/prosjekt/lær/salg/lær/utvalg/brukergruppe. Du kan også søke ved å begynne å skrive inn navnet på det aktuelle elementet.
 
-    A list of all the members of the selected company/project/learn/sale/learn/selection/user group is displayed. If an employee has more than one email address and you select **Show all addresses** in the lower left corner of the dialog, all their email addresses are shown.
+    En liste over alle medlemmene i valgte firma/prosjekt/lær/salg/lær/utvalg/brukergruppe vises. Hvis en ansatt har mer enn én e-postadresse og du velger **Vis alle adresser** i nedre venstre hjørne av dialogboksen, vises alle e-postadressene deres.
 
-4. Select the recipients to include in the **To** field and click the arrow button to the right of the list (![icon][img2]). The recipients are displayed in the **To** list.
+4. Velg mottakerne du vil inkludere, i **Til**-feltet og klikk på pilen til høyre for listen (![icon][img2]). Mottakerne vises i **Til**-listen.
 
-5. Select the recipients to include in the **Cc** field and click the arrow button to the right of the list (![icon][img2]). The recipients are displayed in the **Cc** list.
+5. Velg mottakerne du vil inkludere i **Kopi**-feltet og klikk på pilen til høyre for listen (![icon][img2]). Mottakerne vises i **Kopi**-listen.
 
-6. Select the recipients to include in the **Bcc** field and click the arrow button to the right of the list (![icon][img2]). The recipients are displayed in the **Bcc** list.
+6. Velg mottakerne du vil inkludere i **Blindkopi**-feltet og klikk på pilen til høyre for listen (![icon][img2]). Mottakerne vises i **Blindkopi**-listen.
 
-7. After selecting recipients, click **OK** to enter them as recipients in your email.
+7. Når du har valgt mottakere, klikker du på **OK** for å angi dem som mottakere i e-postmeldingen.
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md

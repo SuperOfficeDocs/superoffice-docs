@@ -1,7 +1,7 @@
 ---
 uid: help-no-erp-connect
-title: Connect to ERP
-description: Connect to ERP
+title: Knytte til ERP
+description: Knytte til ERP
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: ERP
@@ -9,38 +9,38 @@ so.topic: howto
 language: no
 ---
 
-# Connect to ERP
+# Knytte til ERP
 
 [!include[Requirement](includes/req-integration-server.md)]
 
-You can connect a SuperOffice company to a customer/supplier in the ERP system. Contacts who are registered on the SuperOffice company can then be linked to individuals in the ERP system. Similarly, SuperOffice projects can be linked to projects in the ERP system. Data will then be synchronized between SuperOffice and the ERP system.
+Du kan knytte et SuperOffice-firma til en kunde/leverandør i ERP-systemet. Personer som er registrert på SuperOffice-firmaet kan deretter knyttes til personer i ERP-systemet. Tilsvarende kan SuperOffice-prosjekter knyttes til prosjekter i ERP-systemet. Deretter synkroniseres data mellom SuperOffice og ERP-systemet.
 
-1. Go to the Company screen, Contact screen or Project screen, and select the **ERP** tab.
+1. Gå til skjermbildet Firma, Person eller Prosjekt, og deretter velg **ERP**-fanen.
 
     > [!NOTE]
-    > If the **ERP** tab contains company, contact or project information, a connection has already been set up between SuperOffice and the ERP system.
+    > Hvis **ERP**-fanen inneholder firma-, person- eller prosjektinformasjon, er det allerede opprettet en kobling mellom SuperOffice og ERP-systemet.
 
-1. Click **Edit**. The options depend on if you are editing a company, a contact, or a project.
-1. Company: Click **Customer** or **Supplier**, depending on which ERP actor you want to link the company to. You can choose only one actor per company.
-    *Or* Project: Click **Project**.
-    *Or* Contact: Click **Contact**.
-1. In the **Connect to ERP** dialog, enter text to search for in the search field and click **Search**. You can also click the search button ![icon][img1] to initiate an advanced search (see [Use the Find screen][1]).
+1. Klikk på **Rediger**. Valgene avhenger av om du redigerer et firma, en person eller et prosjekt.
+1. Firma: Klikk på **Kunde** eller **Leverandør**, avhengig av hvilken ERP-aktør du vil knytte firmaet til. Du kan bare velge én aktør per selskap.
+    *Eller* Prosjekt: Klikk på **Prosjekt**.
+    *Eller* Person: Klikk på **Person**.
+1. I dialogboksen **Koble til ERP** skriver du inn teksten du vil søke etter i søkefeltet, og deretter klikker du på **Søk**. Du kan også klikke på ![søkeknappikonet][img1] for å starte et avansert søk (se [Bruke Finn-bildet][1]).
 
     > [!TIP]
-    > If you search with a blank search field, all records in the ERP system are displayed.
+    > Hvis du søker med et tomt søkefelt, vises alle oppføringer i ERP-systemet.
 
-1. Select an item in the hit list. If you do not get any hits, you can [create a new actor in the ERP system][2] based on data from SuperOffice CRM.
-1. Click **Connect**. A dialog appears showing the data that will be synchronized between SuperOffice CRM and the ERP system. What data is displayed here is defined in SuperOffice Settings and maintenance.
-1. If the data in the two systems are different, select the data that are correct.
-    For example: If the street addresses are different, select the correct one. The other data will be overwritten.
-1. Click **Connect**. This takes you back to the **ERP** tab where the synchronized data will now be displayed.
-1. Click **Save**.
-1. If you wish, click **Sync Now**.
+1. Velg et element i listen. Hvis du ikke får noen treff, kan [du opprette en ny aktør i ERP-systemet][2] basert på data fra SuperOffice CRM.
+1. Klikk på **Tilknytt**. Det vises en dialogboks som viser dataene som blir synkronisert mellom SuperOffice CRM og ERP-systemet. Hvilke data som vises her, angir du i SuperOffice Innstillinger og vedlikehold.
+1. Hvis dataene i de to systemene er forskjellige, merker du av for dataene som er riktige.
+    For eksempel: Hvis gateadressene er ulike, velger du den som er riktig. De andre dataene blir overskrevet.
+1. Klikk på **Tilknytt**. Dette tar deg tilbake til **ERP-fanen** der de synkroniserte dataene vises.
+1. Klikk på **Lagre**.
+1. Klikk eventuelt på **Synkroniser nå**.
 
-## What would you like to do now?
+## Hva vil du gjøre nå?
 
-* [Create an actor in the ERP system][2]
-* [Disable synchronization][3]
+* [Opprette aktør i ERP-systemet][2]
+* [Deaktiver synkronisering][3]
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md

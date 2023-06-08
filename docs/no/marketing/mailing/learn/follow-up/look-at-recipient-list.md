@@ -1,90 +1,90 @@
 ---
 uid: help-no-mailing-recipient-list
-title: Work with the recipient list after the mailing
-description: Work with the recipient list after the mailing
+title: Arbeide med mottakerlisten i etterkant av utsendelsen
+description: Arbeide med mottakerlisten i etterkant av utsendelsen
 author: SuperOffice RnD
 so.date: 02.21.2023
-keywords: Marketing, recipient
+keywords: Markedsføring, mottaker
 so.topic: howto
 language: no
 ---
 
-# Look at recipient list after the mailing
+# Se på mottakerlisten i etterkant av utsendelsen
 
-After your mailing is sent, it is always exciting to see how well your mailing performed. It is also a great opportunity to check and improve the quality of the information registered in your database. The number of bounced emails, especially, is a key indicator. Learn how to filter your recipients list in this how-to guide.
+Etter at utsendelsen er sendt, er det alltid spennende å se hvor godt den har gjort det. Det er også en flott mulighet til å kontrollere og forbedre kvaliteten på informasjonen som er registrert i databasen. Spesielt er antallet returnerte e-poster en nøkkelindikator. I denne veiledningen kan du finne ut hvordan du filtrerer mottakerlisten.
 
-The first few times you sent out your mailing, you might get a large number of bounced emails. This is good news, because it means you can update every email address that is misspelled or no longer in use.
+De første gangene du sender ut utsendelsen din, kan du få et stort antall returnerte e-poster. Det er gode nyheter, fordi det betyr at du kan oppdatere hver e-postadresse som er feilstavet eller ikke lenger i bruk.
 
-Updating bounced email addresses will help increase the success rate of your future mailings.
+Å oppdatere de returnerte e-postadressene vil hjelpe deg med å øke suksessraten for fremtidige utsendelser.
 
-After the mailing is sent, SuperOffice Marketing collects data about the status of each sent email. In the Recipients tab, you can view the status for each recipient of the mailing. You can also filter the list and export the results to selections and projects in SuperOffice CRM for further processing.
+Etter at utsendelsen er sendt, samler SuperOffice Marketing inn data om statusen for hver sendte e-post. I fanen Mottakere kan du vise status for alle mottakerne av utsendelsen. Du kan også filtrere listen og eksportere resultatene til utvalgene og prosjektene i SuperOffice CRM for videre behandling.
 
-![You can see the status of the mailing in the Status field -screenshot][img4]
+![Du kan se statusen for utsendelsen i Status-feltet -screenshot][img4]
 
-## Steps
+## Trinn
 
-1. Click the mailing in the **Mailings** tab.
+1. Klikk på utsendelsen i fanen **Utsendelser**.
 
-2. In the **View mailing** screen, click the **Recipients** tab.
+2. I bildet **Vis utsendelse** klikker du på fanen **Mottakere**.
 
-    The list shows the 100 first recipients. Click ![icon][img1] to show the next 100.
+    Listen viser de 100 første mottakerne. Klikk på ![ikon][img1] for å vise de neste 100.
 
-3. [Filter the list](#filters) by using the checkboxes at the bottom of the list.
+3. [Filtrer listen](#filters) ved å bruke avmerkingsboksene nederst i listen.
 
-    By default all filters are active to show all recipients. Uncheck a filter checkbox to deactivate the filter. Several filters can be combined.
+    Alle filtre er som standard aktive for å vise alle mottakere. Fjern merket for en filteravmerkingsboks for å deaktivere filteret. Flere filtre kan kombineres.
 
-4. Use the checkboxes in the left column to select all or specific recipients.
+4. Bruk avmerkingsboksene i venstre kolonne for å velge alle eller bestemte mottakere.
 
-5. Click the ![icon][img2] menu button. Here you have the following options:
-    * Export the selected recipients to an Excel, HTML, or text file.
-    * [Add the selected recipients to a new or existing selection or project](#add-recipients-to-selections-or-projects).
-    * Resend the mailing to the selected recipients.
+5. Klikk på menyknappen ![ikon][img2]. Her har du følgende alternativer:
+    * Eksporter de valgte mottakerne til en Excel-, HTML- eller tekstfil.
+    * [Legg de valgte mottakerne til i et nytt eller eksisterende utvalg eller prosjekt.](#add-recipients)
+    * Send utsendelsen på nytt til de valgte mottakerne.
 
-6. Click **Close** to close the **View mailing** screen.
+6. Klikk på **Lukk** for å lukke bildet **Vis utsendelse**.
 
-If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status change to **Sent** after this is done.
+Hvis statusen er **Klar til å sende**, trenger du ikke å gjøre noe. SuperOffice sender utsendelsene til mottakerne. Statusen endres til **Sendt** etter at dette er gjort.
 
-## Filters
+## <a id="filters" />Filtre
 
-* **Sent**: Activate this filter to show all recipients the mailing was sent to.
+* **Sendt**: Aktiver dette filteret for å vise alle mottakere som utsendelsen er sendt til.
 
-* **Bounced**: Activate this filter to show all recipients for whom the [mailing was returned undelivered][3]. This may be due to email address errors, spam filters, Internet problems or inboxes being full.
+* **Returnert**: Aktiver dette filteret for å vise alle mottakere av [utsendelser som har kommet i retur][3]. Dette kan skyldes feil i e-postadresser, søppelpost-/spamfiltre, Internett-problemer eller fulle innbokser.
 
-  * Temporary problems: delivery delays, email server temporarily unavailable
-  * Permanent problems: wrong address, unknown domain. Add the recipients to a new selection and try to find the cause of the problem.
+  * Midlertidige problemer: leveringsforsinkelser, e-postserver midlertidig ikke tilgjengelig
+  * Permanente problemer: feil adresse, ukjent domene. Legg til mottakerne i et nytt utvalg, og prøv å finne årsaken til problemet.
 
-* **Read by recipient**: Activate this filter to show all recipients who opened/read the mailing.
+* **Lest av mottaker**: Aktiver dette filteret for å vise alle mottakere som åpnet/leste utsendelsen.
 
-* **Ready to send**: Activate this filter to show all recipients to whom the mailing has not been sent yet.
+* **Klar til å sendes**: Aktiver dette filteret for å vise alle mottakere som ennå ikke har fått tilsendt utsendelsen.
 
-* **Blocked**: Activate this filter to show the following recipients:
+* **Blokkert**: Aktiver dette filteret for å vise følgende mottakere:
 
-* Recipient who have not given their consent to being contacted.
-* Duplicate recipients.
-* Recipients without a subscription.
+* Mottakere som ikke har samtykket i å bli kontaktet.
+* Dupliserte mottakere.
+* Mottakere uten abonnement.
 
-**Recipient complained**: Activate this filter to show recipients who reported the mailing as spam/junk mail.
+**Mottaker klaget**: Aktiver dette filteret for å vise mottakere som rapporterte utsendelsen som spam/søppelpost.
 
-If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status will be changed to **Sent** after this is done.
+Hvis statusen er **Klar til å sendes**, trenger du ikke å gjøre noe. SuperOffice sender utsendelsene til mottakerne. Statusen endres til **Sendt** når dette er gjort.
 
-## Add recipients to selections or projects
+## <a id="add-recipients" />Legge til mottakere i utvalg eller prosjekter
 
-Using the ![icon][img2] menu button you can add recipients and clickers to a selection or project.
+Ved å bruke menyknappen ![ikon][img2] kan du legge til mottakere eller klikkere i et utvalg eller prosjekt.
 
 > [!NOTE]
-> Only contacts already registered in the SuperOffice database will be added to the selection or project. A contact icon ![icon][img3] in the **Type** column indicates that a contact is registered in the SuperOffice database. Recipients imported from external lists will typically not be registered.
+> Bare personer som allerede er registrert i SuperOffice-databasen, vil bli lagt til i utvalget eller prosjektet. Et personikon ![ikon][img3] i **Type**-kolonnen indikerer at en person er registrert i SuperOffice-databasen. Mottakere som er importert fra eksterne lister, vil vanligvis ikke bli registrert.
 
-### Add clickers to a new selection or project
+### Legge til klikkere i et nytt utvalg eller prosjekt
 
 [!include[How to](../../../learn/includes/howto-add-person-to-selection-new.md)]
 
-### Add clickers to an existing selection or project
+### Legge til klikkere i et eksisterende utvalg eller prosjekt
 
 [!include[How to](../../../learn/includes/howto-add-person-to-selection-existing.md)]
 
-## Related topics
+## Aktuelle emner
 
-* [Work with tracked links after the mailing][1]
+* [Arbeide med sporede koblinger i etterkant av utsendelsen][1]
 
 <!-- Referenced links -->
 [1]: ../../../tracked-links/learn/explore-clicks.md

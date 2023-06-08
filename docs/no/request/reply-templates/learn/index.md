@@ -1,42 +1,42 @@
 ---
 uid: help-no-reply-template
-title: Work with reply templates
-description: Work with reply templates
+title: Arbeide med svarmaler
+description: Arbeide med svarmaler
 author: SuperOffice RnD
 so.date: 03.16.2023
-keywords: request
+keywords: sak
 so.topic: concept
-so.audience: person
+so.audience: user
 so.audience.tooltip: SuperOffice Service
 language: no
 ---
 
-# Work with reply templates
+# Arbeide med svarmaler
 
-A reply template can for instance be a specific layout to implement on replies, or a ready-made text that can be pasted into a message you are writing to a customer. It can also include an attachment, which will then be added to the message. Before you send the reply to the customer, you can edit the text and add or remove attachments. In other words, a reply template provides the basis for a customized response to a customer. Using reply templates saves time, and they can be tailored to the precise situation.
+En svarmal kan f.eks. være en bestemt layout som skal brukes på svar, eller en ferdig tekst som kan limes inn i en melding du skriver til en kunde. Den kan også inneholde vedlegg, som da blir lagt til i meldingen. Før du sender svaret til kunden, kan du både redigere teksten og fjerne eller legge til vedlegg. En svarmal danner med andre ord utgangspunkt for et egendefinert svar til en kunde. Å bruke en svarmal sparer deg for arbeid, samtidig som du kan tilpasse svaret til den aktuelle situasjonen.
 
-## What is the difference between an FAQ entry and a reply template?
+## Hva er forskjellen på en FAQ-oppføring og en svarmal?
 
 [!include[FAQ vs. reply template](../../../learn/includes/faq-vs-reply-template.md)]
 
-## View a reply template
+## Vise en svarmal
 
-In the Reply templates screen, you will find the reply templates available to you. The reply templates are in a [folder structure][10] that you can create yourself.
+I bildet Svarmaler finner du svarmalene som er tilgjengelige for deg. Svarmalene ligger i en [mappestruktur][10] som du kan opprette selv.
 
-1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **Reply templates**.
-1. Go to the required folder.
-1. Click the reply template you are interested in. The **View reply templates** screen appears, containing information about access level, language and owner. In the tabs below, you can see the reply template text itself and any attachments.
+1. Gå til ![ikon][img1] **Hovedmeny** i toppraden, og velg **Kunnskapsbase** > **Svarmaler**.
+1. Gå til ønsket mappe.
+1. Klikk på ønsket svarmal. Bildet **Vise svarmaler** vises med informasjon om tilgangsnivå, språk og eier. I fanene nedenfor kan du se selve svarmalsteksten og eventuelle vedlegg.
 
-## What would you like to do now?
+## Hva vil du gjøre nå?
 
-* [Create reply templates][3]
-* [Create new language version of reply template][4]
-* [Edit reply templates][6]
-* [Copy reply templates][7]
-* [Delete reply templates][8]
-* [Search for reply templates][9]
-* [Administrate folders of reply templates][10]
-* [Add reply templates to messages][11]
+* [Opprette svarmaler][3]
+* [Opprette ny språkversjon av svarmal][4]
+* [Rediger svarmaler][6]
+* [Kopiere svarmaler][7]
+* [Slette svarmaler][8]
+* [Søke etter svarmaler][9]
+* [Administrere mapper med svarmaler][10]
+* [Legge til svarmaler i meldinger][11]
 
 <!-- Referenced links -->
 [3]: create.md

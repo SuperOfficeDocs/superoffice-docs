@@ -1,36 +1,35 @@
 ---
 uid: help-no-sync-configure-default-values
-title: sync configure default values
-description: sync configure default values
+title: synkronisere konfigurere standardverdier
+description: synkronisere konfigurere standardverdier
 author: Bergfrid Dias
 so.date: 03.29.2023
-keywords: quote, sync, connector, ERP
+keywords: tilbud, sync, connector, ERP
 so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+so.user: admin
 language: no
 ---
 
-# Configure default values for synchronization
+# Konfigurere standardverdier for synkronisering
 
-By defining default values for fields that typically only have one relevant value, you save users a lot of time. You save them having to check a box that should always be checked or to enter a number into a field that should always contain "30". This is particularly useful when having to enter large quantities of data.
+Ved å angi standardverdier for felt som vanligvis bare har én aktuell verdi, sparer du masse tid for brukerne. Da slipper de å måtte merke av i en avmerkingsboks som alltid skal være merket av, eller skrive inn et tall i et tallfelt som alltid skal inneholde "30". Dette er spesielt nyttig når store mengder data skal registreres.
 
 1. [!include[Go to sync](../includes/goto-sync.md)]
 
-1. Select the ERP connection, and click the **Defaults** button at the bottom.
+1. Merk ERP-koblingen, og klikk på knappen **Standardverdier** nederst.
 
-1. In the dialog, select the tab for the actor you want to configure default values for.
+1. I dialogboksen velger du fanen for den aktøren du vil konfigurere standardverdier for.
 
-1. Click **Add** at the bottom of the dialog. The **Add sync default value** dialog appears.
+1. Klikk på **Legg til** nederst i dialogboksen. Dialogboksen **Legg til standardverdi for synkronisering** vises.
 
-1. **ERP Field**: here you select which field in the ERP system you want to define a default value for.
+1. **ERP-felt**: Her velger du hvilket felt i ERP-systemet som du vil angi en standardverdi for.
 
-    * **Set default value**: Check here to set a default value for the ERP field you selected above. After you have checked here, you set the default value below.
+    * **Angi standardverdi**: Merk av her for å angi en standardverdi for ERP-feltet du valgte ovenfor. Etter at du har sjekket her, angir du standardverdien nedenfor.
 
-    * **Ask user for value**: check here to allow the user to enter a value.
+    * **Spør bruker om verdi**: Merk av her hvis brukeren skal kunne angi en verdi.
 
-    * **Mandatory - User must fill in value**: check here to require the user to enter a value in the field. If the selected ERP field is mandatory, this field is checked by default.
+    * **Påkrevd - bruker må fylle inn verdi**: Merk av her hvis det er påkrevd at brukeren fyller inn en verdi i feltet. Hvis det valgte ERP-feltet er obligatorisk, blir dette feltet merket av som standard.
 
-1. Click **OK**.
+1. Klikk på **OK**.
 
-1. Repeat steps 5-6 to add more default values.
+1. Gjenta trinn 5–6 for å legge til flere standardverdier.

@@ -1,41 +1,41 @@
 ---
 uid: help-no-user-delete
-title: Delete associate
-description: How to delete an associate
+title: Slette medarbeider
+description: Slik sletter du en medarbeider
 author: Bergfrid Dias
 so.date: 03.15.2023
-keywords: user, associate
+keywords: bruker, medarbeider
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: no
 ---
 
-# Delete associate
+# Slette medarbeider
 
 1. [!include[Click Users](includes/goto-users.md)]
 
-2. Select the **Associates** tab.
+2. Velg fanen **Medarbeidere**.
 
 3. [!include[Select user](includes/select-user.md)]
 
-4. Click the **Delete** button. You cannot delete users who are logged on.
+4. Klikk på **Slett**-knappen. Du kan ikke slette brukeren du er pålogget som.
 
-5. Check the required option in the **Remove User** dialog. Click an option to display a description of what will happen on deletion.
+5. Merk av for ønsket alternativ i dialogboksen **Fjern bruker**. Klikk på et alternativ for å vise en beskrivelse av hva som skjer når du sletter brukeren.
 
-    * Remove user licenses
-    * Mark associate as former employee
-    * Delete associate \[login ID\]
-    * Delete associate \[login ID\] and contact \[full name\]
+    * Fjerne brukerlisenser
+    * Merke medarbeider som tidligere ansatt
+    * Slette medarbeider [login ID]
+    * Slette medarbeider [login ID] og person [full name]
 
     > [!NOTE]
-    > These options are ranked according to their impact.
+    > Disse alternativene er rangert etter alvorlighetsgrad.
 
-6. Click **OK**.
+6. Klikk på **OK**.
 
-## Related
+## Relatert
 
-* [Delete anonymous or system user (onsite)][5]
+* [Slette anonym bruker eller systembruker (onsite)][5]
 
 <!-- Referenced links -->
 [5]: other-users.md

@@ -1,36 +1,36 @@
 ---
 uid: help-no-restore-status
-title: Restore deleted status web
-description: Restore deleted status web
+title: Gjenopprett slettet status-web
+description: Gjenopprett slettet status-web
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: sale, SAINT
+keywords: salg, SAINT
 so.topic: howto
-so.audience: settings
+so.audience: admin
 so.audience.tooltip: Settings and maintenance
 language: no
 ---
 
-# Restore a deleted status
+# Gjenopprett en slettet status
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
 1. [!include[Open SAINT](includes/open-saint-select-tab.md)]
 
-1. Check **Show deleted** below the status list. Deleted statuses are clearly marked.
+1. Merk av for **Vis slettede** under statuslisten. Slettede statuser er tydelig markert.
 
-1. Double-click the status you want to restore.
+1. Dobbeltklikk på statusen du vil gjenopprette.
 
-1. In the **Status monitor** dialog, click **Restore** and then **Save**.
+1. I dialogboksen **Statusovervåking**, klikker du **på Gjenopprett** og deretter på **Lagre**.
 
-    The status is restored and appears in black in the list.
+    Statusen gjenopprettes og vises med svart skrift i listen.
 
-1. Click **Regenerate selected status monitor** to update the restored status.
+1. Klikk på **Regenerer valgt statusovervåkning** for å oppdatere den gjenopprettede statusen.
 
-## What would you like to do now?
+## Hva vil du gjøre nå?
 
-* [Edit a status description][1]
-* [Manage status monitors][2]
+* [Rediger en statusbeskrivelse][1]
+* [Administrer statusovervåking][2]
 
 <!-- Referenced links -->
 [1]: edit-status.md

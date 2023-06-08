@@ -1,44 +1,46 @@
 ---
 uid: help-no-using-standard-templates
-title: Using standard templates
-description: Using standard templates
+title: Bruke standardmaler
+description: Bruke standardmaler
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: Innstillinger og vedlikehold
+so.topic: howto
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: no
 ---
 
-# Use standard templates
+# Bruke standardmaler
 
-SuperOffice CRM is supplied with a set of standard templates for both national and international use.
+SuperOffice CRM leveres med et sett standardmaler til bruk både nasjonalt og internasjonalt.
 
-These templates are used when you create documents from SuperOffice CRM.
+Disse malene bruker du når du oppretter dokumenter fra SuperOffice CRM.
 
-The templates contain variables which extract information from the SuperOffice database and enter it into the document automatically.
+Malene inneholder variabler som trekker ut informasjon fra SuperOffice-databasen og legger den inn i dokumentet automatisk.
 
-You can edit the templates that are supplied with SuperOffice CRM.
+Du kan redigere malene som følger med SuperOffice CRM.
 
-## Edit standard templates
+## Redigere standardmaler
 
-You can edit the standard templates supplied with SuperOffice CRM and save them with your own names. Using the standard templates as a basis, you can, for example, change the font and font size, insert graphics and replace or add fields.
+Du kan redigere standardmalene som følger med SuperOffice CRM, og lagre dem med dine egne navn. Med standardmalene som utgangspunkt kan du for eksempel endre skrifttype og skriftstørrelse, sette inn grafikk, og bytte ut eller legge til felt.
 
 > [!NOTE]
-> You must not change the file names of the system templates as this will prevent the functions included in them from working.
+> Du må ikke endre filnavnet på systemmalene, for da vil ikke funksjonene som ligger i disse malene, fungere.
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
-2. [!include[Click arrow and select](includes/expand-list.md)] **Document - Template**.
-    All previously defined items for the selected list are displayed in the **Items** list.
-3. Double-click the required item in the **Items** list.
-4. In the dialog, click the **Edit** button. The document opens in the correct application.
-5. Save the document with a new name to keep the original template intact, or with the same name to overwrite it.
+2. [!include[Click arrow and select](includes/expand-list.md)] **Dokument - Mal**.
+    Alle forekomster som tidligere er definert for den valgte listen, vises i listen **Forekomster**.
+3. Dobbeltklikk på ønsket forekomst i listen **Forekomster**.
+4. Klikk på **Rediger**-knappen i dialogboksen. Dokumentet åpnes i riktig applikasjon.
+5. Lagre dokumentet med et nytt navn hvis du vil beholde den opprinnelige malen, eller med samme navn hvis du vil overskrive den.
 
 > [!NOTE]
-> If you save a standard template with a new name, you have created a new template. You must [link this template to SuperOffice CRM][1].
+> Hvis du lagrer en standardmal med et nytt navn, har du opprettet en ny mal. Da må du [knytte malen til SuperOffice CRM][1].
 
-## What would you like to do now?
+## Hva vil du gjøre nå?
 
-* [Create a template document][2]
+* [Opprette et maldokument][2]
 
 <!-- Referenced links -->
 [1]: add-template.md

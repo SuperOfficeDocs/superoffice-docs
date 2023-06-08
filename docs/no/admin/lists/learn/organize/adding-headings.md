@@ -1,39 +1,39 @@
 ---
 uid: help-no-adding-headings
-title: Adding headings
-description: Adding headings
+title: Legge til overskrifter
+description: Legge til overskrifter
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: list, heading
+keywords: liste, overskrift
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: no
 ---
 
-# Add headings
+# Legge til overskrifter
 
-Before linking a heading to an item, you must add the headings you require.
+Før du kan knytte en overskrift til en forekomst, må du legge til overskriftene du trenger.
 
-1. Open the Lists screen.
+1. Gå til Lister-bildet.
 
-2. [!include[Click arrow and select](../includes/expand-list.md)] the required list.
+2. [!include[Click arrow and select](../includes/expand-list.md)] ønsket liste.
 
-3. Check **Use grouping and filtering by user group for this list** (upper right).
+3. Merk av for **Bruk gruppering og brukergruppefiltrering for denne listen** (øverst til høyre).
 
-4. Go to the **Headings** tab.
+4. Gå til fanen **Overskrifter**.
 
-5. Click the **Add** button below the **Headings** list to add a new heading.
+5. Klikk på **Legg til**-knappen under oversikten **Overskrifter** for å legge til en ny overskrift.
 
-6. In the dialog, enter the required name for the heading and a description (if required).
+6. I dialogboksen skriver du inn ønsket navn for overskriften og en beskrivelse (hvis det er nødvendig).
 
     [!include[Mandatory](../includes/note-mandatory-field.md)]
 
 7. [!include[Save or cancel](../includes/save-or-cancel.md)]
 
-The item is added to the **Headings** list. Repeat this procedure to add more headings.
+Overskriften blir lagt til i listen **Overskrifter**. Gjenta prosedyren hvis du vil legge til flere overskrifter.
 
-After adding the required headings, [choose which headings each item will be displayed under][1].
+Når du har lagt til ønskede overskrifter, kan du [velge hvilke overskrifter hver forekomst skal vises under][1].
 
 <!-- Referenced links -->
 [1]: grouping-items-under-headings.md

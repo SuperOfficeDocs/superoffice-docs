@@ -1,21 +1,21 @@
 ---
 uid: help-no-invitation-show-received
-title: Show follow-ups you are invited to
-description: Show follow-ups you are invited to
+title: Vise oppfølginger du er invitert til
+description: Vise oppfølginger du er invitert til
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: diary, follow-up
+keywords: dagbok, oppfølging
 so.topic: howto
 language: no
 ---
 
-# Show follow-ups you are invited to
+# Vise oppfølginger du er invitert til
 
-When you view a follow-up you are not the owner of, the usual **Appointment**, **Task** or **Phone Call** dialog is displayed. However, you cannot make changes to other people's invitations, nor add participants, so the **Add** button in the **Participants** tab is disabled.
+Når du skal vise en oppfølging du ikke eier selv, får du opp den vanlige dialogboksen **Avtale**, **Oppgave** eller **Samtale**. Du kan imidlertid ikke gjøre endringer i andres invitasjoner, og dermed heller ikke legge til deltakere. Derfor er **Legg til**-knappen i fanen **Deltakere** deaktivert.
 
-* Until you [accept or decline the invitation][2], the dialog has two extra buttons: **Accept** and **Decline**. After you accept, the button is disabled.
+* Frem til du [godtar eller avslår invitasjonen][2] har dialogboksen to ekstra knapper: **Godta** og **Avslå**. Når du godtar, deaktiveres knappen.
 
-* Because you did not create the appointment, task or phone call yourself, you may change only the **Priority**, **Alarm**, and **Completed** fields. All other options are disabled.
+* Siden det ikke var du som opprettet avtalen, oppgaven eller samtalen, kan du bare endre feltene **Prioritet**, **Alarm** og **Fullført**. Alle andre alternativer er deaktivert.
 
 <!-- Referenced links -->
 [2]: receive.md#accept

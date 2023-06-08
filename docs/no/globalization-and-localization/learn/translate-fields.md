@@ -1,7 +1,7 @@
 ---
 uid: help-no-translate-fields
-title: Translate fields
-description: Translate fields
+title: Oversettelsesfelt
+description: Oversettelsesfelt
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: CRM
@@ -9,22 +9,22 @@ so.topic: howto
 language: no
 ---
 
-# Translation
+# Oversettelse
 
-The default fields and other UI texts are available in all SuperOffice languages. If you create your own fields or texts (such as names of dashboards and tiles), you can add translations for the relevant languages in your organization.
+Standardfeltene og andre UI-tekster er tilgjengelige på alle SuperOffice-språk. Hvis du oppretter dine egne felt eller tekster (slik som dashbord- og figurnavn), kan du legge til oversettelser for de relevante språkene i din organisasjon.
 
-The icon ![icon][img1] next to a field indicates that you can add a translation.
+Ikonet ![icon][img1] ved siden av et felt angir at du kan legge til en oversettelse.
 
-## Add a translation
+## Legg til en oversettelse
 
-1. Click ![icon][img1] next to the field where you want to add a translation.
-2. Click **Add**.
-3. In the list, select a language. A new field is added for the selected language.
-4. Enter your translation.
-5. Repeat steps 2-4 to add more translations.
-6. Click outside the translation box when you are done.
+1. Klikk på ![icon][img1] ved siden av feltet der du vil legge til en oversettelse.
+2. Klikk på **Legg til**.
+3. Velg et språk i listen. Det legges til et nytt felt for det valgte språket.
+4. Skriv inn oversettelsen
+5. Gjenta trinn 2-4 for å legge til flere oversettelser.
+6. Klikk utenfor oversettelsesfeltet når du er ferdig.
 
-Try to change the language settings (see **Local settings** in the **Personal settings** menu) and check that your translation displays for the relevant language(s).
+Prøv å endre språkinnstillingene (se **Lokale innstillinger** i menyen **Personlige innstillinger**) og kontroller at oversettelsen vises for de relevante språkene.
 
 <!-- Referenced links -->
 

@@ -1,60 +1,59 @@
 ---
 uid: help-no-udef-move
-title: Moving fields
-description: Moving fields
+title: Flytte felt
+description: Flytte felt
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: udef, custom field
+keywords: udef, egendefinert felt
 so.topic: howto
-so.audience: settings
-so.audience: settings
+so.audience: admin
 so.audience.tooltip: Settings and maintenance
 language: no
 ---
 
-# Place fields
+# Plassere felt
 
 > [!NOTE]
-> SuperOffice version 10 (released October 2021) introduced [Screen designer][1] with customizable screen layouts for specific user groups. Any custom screen layouts using screen designer may override the settings described below.
+> SuperOffice versjon 10 (utgitt oktober 2021) introduserte [Skjermdesigner][1] med skjermutseender som kan tilpasses for bestemte brukergrupper. Eventuelle egendefinerte skjermlayouter som bruker skjermdesigner kan overstyre innstillingene som er beskrevet nedenfor.
 
-When you add new fields, they are placed beneath each other by default. Each field consists of a label with a data field on the right. You can decide where in the grid these fields are to be placed.
+Når du legger til nye felt, blir de plassert under hverandre som standard. Hvert felt består av en ledetekst med et datafelt til høyre. Du kan bestemme hvor i rutenettet disse feltene skal plasseres.
 
-## How do I move fields?
+## Hvordan flytter jeg felt?
 
-* Click and drag using the mouse. The fields will automatically be adjusted to fit the grid.
-* Click a field and use the arrow keys on the keyboard.
-* Click a field and use the arrow keys in the bottom-right corner ( ![icon][img2] ![icon][img1] ![icon][img4] ![icon][img3] ).
-* Double-click a field and specify position values **X** and **Y** in the **Fields** dialog.
+* Klikk og dra med musen. Feltene justeres automatisk etter rutenettet.
+* Klikk på et felt og bruk piltastene på tastaturet.
+* Klikk på et felt, og bruk piltastene nederst til høyre (![ikon][img2] ![ikon][img1] ![ikon][img4] ![ikon][img3]).
+* Dobbeltklikk på et felt og angi posisjonsverdiene **X** og **Y** i dialogboksen **Felt**.
 
-## How do I set position?
+## Hvordan angir jeg posisjonen?
 
-1. Specify the following in the fields to the right of **Label**:
+1. I feltene til høyre for **Ledetekst** angir du følgende:
 
-    **X**: horizontal position of the label. The higher the number, the further to the right.
+    **X**: Horisontal posisjon for ledeteksten. Jo høyere tall, jo lenger til høyre.
 
-    **Y**: vertical position of the label. The higher the number, the further down.
+    **Y**: Vertikal posisjon for ledeteksten. Jo høyere tall, jo lenger ned.
 
-2. Specify the following in the fields to the right of **Data**:
+2. I feltene til høyre for **Data** angir du følgende:
 
-    **X**: horizontal position of the data field. The higher the number, the further to the right.
+    **X**: Horisontal posisjon for datafeltet. Jo høyere tall, jo lenger til høyre.
 
-    **Y**: vertical position of the data field. The higher the number, the further down.
+    **Y**: Vertikal posisjon for datafeltet. Jo høyere tall, jo lenger ned.
 
-## How do I select fields?
+## Hvordan merker jeg felt?
 
-* Click a field in the grid to select it.
-* Click and drag in the grid to select several fields.
-* Click a field in the **Fields** list to select both the label and the data field in the grid.
+* Klikk på et felt i rutenettet for å merke det.
+* Klikk og dra i rutenettet for å merke flere felt.
+* Klikk på et felt i listen **Felt** for å velge både ledeteksten og datafeltet i rutenettet.
 
-## How do I right-/left-align fields?
+## Hvordan høyre-/venstrejusterer jeg felt?
 
-Select the fields you want to adjust and click left-align ( ![icon][img5] ) or right-align ( ![icon][img6] ) below the grid.
+Merk feltene du vil justere, og klikk på venstrejuster (![ikon][img5]) eller høyrejuster (![ikon][img6]) under rutenettet.
 
-## How do I change the width of a field?
+## Hvordan endrer jeg bredden på et felt?
 
-1. Double-click the relevant field in the **Fields** list or grid
-2. Specify the width of the label in the field to the right of **Label**.
-3. Specify the width of the data field in the field to the right of **Data**.
+1. Dobbeltklikk på det aktuelle feltet i listen **Felt** eller rutenettet
+2. Angi bredden på ledeteksten i feltet til høyre for **Ledetekst**.
+3. Angi bredden på datafeltet i feltet til høyre for **Data**.
 
 <!-- Referenced links -->
 [1]: ../../../ui/screen-designer/learn/index.md

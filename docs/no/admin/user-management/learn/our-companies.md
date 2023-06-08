@@ -1,87 +1,86 @@
 ---
 uid: help-no-our-companies-manage
-title: Manage "Our companies"
-description: How to add and remove companies in the Our companies tab
+title: Vedlikeholde Våre firmaer
+description: Slik legger du til og fjerner firmaer i fanen Våre firmaer
 author: Bergfrid
 so.date: 03.15.2023
-keywords: user, our companies
+keywords: bruker, våre firmaer
 so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+so.user: admin
 language: no
 so.client: web
 ---
 
-# Manage "Our companies"
+# Vedlikeholde Våre firmaer
 
-## Pre-requisites
+## Forutsetninger
 
-To add a company in the **Our companies** tab, it must first be registered as a company in SuperOffice.
+For at et firma skal kunne legges til i fanen **Våre firmaer**, må det først være registrert som firma i SuperOffice.
 
-To delete companies in the **Our companies** tab, the following two criteria must be satisfied:
+For at du skal kunne slette firmaer fra fanen **Våre firmaer**, må følgende to kriterier være oppfylt:
 
-* The company must not have any associates registered. The number of associates is displayed in the **Associates** column in the company list. To delete a company, you must first [delete the registered associates][2].
+* Det kan ikke være registrert noen medarbeidere på firmaet. Antall medarbeidere vises i kolonnen **Medarbeidere** på firmalisten. Hvis du vil slette et firma, må du først [slette de registrerte medarbeiderne][2].
 
-* The company cannot be an active satellite. Check if the company is listed in the **Active satellite** column in the company list.
+* Firmaet kan ikke være en aktiv satellitt. Undersøk om firmaet er oppført i kolonnen **Aktiv satellitt** i firmalisten.
 
-## Add company in the Our companies tab
+## Legge til firma i fanen Våre firmaer
 
-1. Open the Users screen.
+1. Åpne skjermbildet Brukere.
 
-2. Select the **Our companies** tab.
+2. Velg fanen **Våre firmaer**.
 
-3. Click the **Add** button below the company list.
+3. Klikk på **Legg til**-knappen under firmalisten.
 
-4. The Find screen opens. If there are already search criteria entered, but they are not ones you want to use, click the **Deactivate all** button to remove them or remove the checks from the checkboxes for the relevant criteria.
+4. Finn-skjermen åpnes. Hvis det allerede finnes søkekriterier, men du ikke ønsker å bruke akkurat disse, kan du klikke på **Deaktiver alle**-knappen for å deaktivere dem eller fjerne avmerkingen i avmerkingsboksen for de aktuelle kriteriene.
 
-5. Search for a company. See details below.
+5. Søk etter et firma. Se detaljer under.
 
-6. When you have selected the company you require and clicked **OK**, it is displayed in the list.
+6. Når du har valgt ønsket firma og klikket på **OK**, vises firmaet i listen.
 
-## Delete company in the Our companies tab
+## Slette firma i fanen Våre firmaer
 
-1. Check that the above criteria are met.
+1. Kontroller at kriteriene ovenfor er oppfylt.
 
-1. Open the Users screen.
+1. Åpne skjermbildet Brukere.
 
-1. Select the **Our companies** tab.
+1. Velg fanen **Våre firmaer**.
 
-1. Select the required company in the list.
+1. Merk ønsket firma på listen.
 
-1. Click the **Delete** button below the company list. The company is removed from the list.
+1. Klikk på **Slett**-knappen under firmalisten. Firmaet fjernes fra listen.
 
 > [!NOTE]
-> You cannot delete the company if it is registered as a database owner. If you select a database owner, the **Delete** button is disabled.
+> Du kan ikke slette firmaet som er registrert som databaseeier. Hvis du velger en databaseeier, er **Slett**-knappen deaktivert.
 
-## How do I search for a company?
+## Hvordan søker jeg etter et firma?
 
-1. In the list box to the right of the field you want to search on, choose if you want to search for a company that **Starts with**, **Contains**, or **Equals** the search criteria you enter.
+1. I listeboksen til høyre for feltet du vil søke i, velger du om du vil søke etter firmaer som **Begynner med**, **Inneholder** eller **Er lik** søkekriteriene du angir.
 
-2. You can specify several [different search criteria](#criteria), for example name, code, telephone number or email address. If you specify several search criteria, a search is performed for companies that fulfil all the criteria simultaneously.
+2. Du kan angi flere [forskjellige søkekriterier](#criteria), for eksempel navn, kode, telefonnummer eller e-postadresse. Angir du flere søkekriterier, søkes det etter firmaer som oppfyller alle kriteriene samtidig.
 
-3. When you have specified the required criteria, click the **Find** button.
+3. Når du har angitt ønskede kriterier, klikker du på **Finn**-knappen.
 
-4. When the search is finished, these are the possible outcomes:
+4. Når søket er ferdig, kan ett av følgende skje:
 
-    * **One hit**: the company that matches the search criteria is displayed in the list.
+    * **Ett treff**: Firmaet som samsvarer med søkekriteriene, vises i listen.
 
-    * **Two or more hits**: The Find screen shows a list of matches. Here you can select the required company in the list and click **OK** to go to that company.
+    * **To eller flere treff**: Finn-skjermen viser en liste over treff. Her kan du merke ønsket firma og klikke på **OK** for å vise det aktuelle firmaet i listen.
 
-    * **No hits**: A message is displayed stating that no record matches the search criteria. Click **OK**, and search again using different criteria.
+    * **Ingen treff**: Du får en melding om at det ikke finnes noen oppføringer som samsvarer med søkekriteriene. Klikk på **OK**, og søk på nytt med andre søkekriterier.
 
-### <a id="criteria" />The search criteria
+### <a id="criteria" />Søkekriteriene
 
-The fields below correspond to the fields on the company card.
+Feltene nedenfor tilsvarer feltene på firmakortet.
 
-* Name: Enter the whole or start of the company name.
-* Number: Enter the whole or start of the company name.
-* Code: Enter the whole or start of the code.
-* VAT No.: Enter the whole or start of the VAT no.
-* First Name: Enter the whole or part of the first name of a contact at the company.
-* Last Name: Enter the whole or part of the last name of a contact at the company.
-* Telephone: Enter the whole or part of a phone number for the company.
-* Email: Enter the whole or part of an email address for the company.
-* Match also: Here you can specify further [search criteria][1].
+* Navn: Skriv inn hele eller begynnelsen av firmanavnet.
+* Nummer: Skriv inn hele eller begynnelsen av firmanavnet.
+* Kode: Skriv inn hele eller deler av koden.
+* Org.nr.: Skriv inn hele eller deler av organisasjonsnummeret.
+* Fornavn: Skriv inn hele eller deler av fornavnet til en person hos firmaet.
+* Etternavn: Skriv inn hele eller deler av etternavnet til en person hos firmaet.
+* Telefon: Skriv inn hele eller deler av et telefonnummer til firmaet.
+* E-post: Skriv inn hele eller deler av en e-postadresse til firmaet.
+* Tilfredsstill også: Her kan du angi ytterligere [søkekriterier][1].
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md

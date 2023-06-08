@@ -1,47 +1,46 @@
 ---
 uid: help-no-select-product-image
-title: Select product image
-description: In this how-to guide, you will learn how you can add images for all the products you add to SuperOffice Quote.
+title: Velge produktbilde
+description: I denne veiledningen lærer du hvordan du kan legge til bilder for alle produktene du legger til i SuperOffice Quote.
 author: SuperOffice RnD
 so.date: 02.23.2023
-keywords: product, image
+keywords: produkt, bilde
 so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+so.user: admin
 language: no
 ---
 
-# Select product image
+# Velge produktbilde
 
-Add high quality product images to your proposals to show your customers the products they are interested in.
+Legg til produktbilder av høy kvalitet i tilbudene dine for å vise kundene produktene de er interessert i.
 
-After you have added your products, either manually or by import, you can add images of your products.
+Når du har lagt til produktene dine, enten manuelt eller ved import, kan du legge til bilder av disse produktene.
 
-![You can add an image to every product you add to your price list -screenshot][img1]
+![Du kan legge til et bilde til hvert produkt du legger til i prislisten din -screenshot][img1]
 
-## Steps
+## Trinn
 
 1. [!include[Go to products](../includes/goto-products.md)]
 
-1. Select the required **Price list**.
+1. Velg ønsket **Prisliste**.
 
-1. Double-click a product in the list. The **Add/Edit product** dialog appears.
+1. Dobbeltklikk på et produkt i listen. Dialogboksen **Legg til / rediger produkt** vises.
 
-1. Click **Change image** at the bottom of the image screen.
+1. Klikk på **Endre bilde** nederst i bildefeltet.
 
-1. In the **Select image** dialog, click one of the images shown under **Images** (on the right).
+1. I dialogboksen **Velg bilde** klikker du på ett av bildene som vises under **Bilder** (til høyre).
 
-    Images are displayed only if they are added to the database.
+    Bilder vises bare hvis de legges til i databasen.
 
-1. Click **OK** to close the dialog. The image is added to the database and displayed in the field on the right.
+1. Klikk på **OK** for å lukke dialogboksen. Bildet legges til i databasen og vises i feltet til høyre.
 
-## What sort of images can I use?
+## Hva slags bilde kan jeg bruke?
 
 [!include[File type and size](../../../../sale/learn/includes/image-type-and-size.md)]
 
-## Related
+## Beslektet
 
-* [Add product to a price list][1]
+* [Legge til produkt i en prisliste][1]
 
 <!-- Referenced links -->
 [1]: add-product-to-price-list.md

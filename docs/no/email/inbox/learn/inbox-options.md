@@ -1,34 +1,34 @@
 ---
 uid: help-no-email-inbox-options
-title: Options
-description: Options
+title: Alternativer
+description: Alternativer
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: email, inbox
+keywords: E-post, innboks
 so.topic: reference
 language: no
 ---
 
-# Options
+# Alternativer
 
-The inbox contains the following options:
+I innboksen har du følgende alternativer:
 
-## Toolbar at the top
+## Verktøylinje øverst
 
-| Icon | Description |
+| Icon | Beskrivelse |
 |---|---|
-| New | Used to [create a new message][1]. |
-| Delete | |
-| Search | Enter text in this field to start searching in the open folder. |
-| INBOX | Used to select a folder. The default folder is Inbox. |
-| ![icon][img2] ![icon][img5] | By default the messages are sorted by date, with the newest messages at the top of the list. You can also sort by sender and subject in descending or ascending order. |
+| Ny | Brukes til å [opprette en ny melding][1]. |
+| Slett | |
+| Søk | Skriv inn tekst i dette feltet for å begynne å søke i den åpne mappen. |
+| INNBOKS | Brukes til å velge en mappe. Standardmappen er innboksen. |
+| ![icon][img2] ![icon][img5] | Meldingene er som standard sortert etter dato, med de nyeste meldingene øverst i listen. Du kan også sortere etter avsender og emne i stigende eller synkende rekkefølge. |
 
-## Toolbar at the bottom
+## Verktøylinje nederst
 
-| Icon | Description |
+| Icon | Beskrivelse |
 |---|---|
-| ![icon][img3] | Filters the messages in the inbox. |
-| ![icon][img4] | Refreshes the inbox. |
+| ![icon][img3] | Filtrerer meldingene i innboksen. |
+| ![icon][img4] | Oppdaterer innboksen. |
 
 <!-- Referenced links -->
 [1]: compose.md

@@ -1,102 +1,102 @@
 ---
 uid: help-no-add-template
-title: Add a template
-description: In this how-to guide, you will learn how to add a new document template to SuperOffice CRM.
+title: Legge til en mal
+description: I denne veiledningen lærer du hvordan du legger til en ny dokumentmal i SuperOffice CRM.
 author: SuperOffice RnD
 so.date: 03.24.2023
-keywords: document, template
+keywords: dokument, mal
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: no
 ---
 
-# Add a document template
+# Legge til en dokumentmal
 
-To make sure everyone in your company uses the same documents, you can create and add your own document templates for different file types. Use the template variables available to personalize and automate the input of customer information to your documents.
+Hvis du vil sikre at alle i firmaet bruker de samme dokumentene, kan du opprette og legge til dine egne dokumentmaler for ulike filtyper. Bruk de tilgjengelige malvariablene til å tilpasse og automatisere registrering av kundeinformasjon i dokumentene dine.
 
-If you create new templates or change a standard template and saved it with a different file name, you must link the templates to SuperOffice CRM, so that the program can find them when you write documents using SuperOffice CRM. After you link the templates, it is very easy to write letters, faxes and other documents you have created templates for using the [Document function in SuperOffice CRM][5].
+Hvis du lager nye maler eller endrer en standardmal og lagrer den med et annet filnavn, må du knytte malene til SuperOffice CRM, slik at programmet kan finne dem når du skriver dokumenter fra SuperOffice CRM. Når du har tilknyttet malene, kan du enkelt skrive brev, fakser og andre dokumenter du har laget maler for, ved hjelp av [Dokument-funksjonen i SuperOffice CRM][5].
 
-Watch this video or follow the guided steps below to learn how you can add a document template (video length - 2:30):
+Se denne videoen, eller følg fremgangsmåten nedenfor for å finne ut hvordan du kan legge til en dokumentmal (videolengde – 2.30):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/FnhcmjP-TgE]
 
-## Steps
+## Trinn
 
 > [!TIP]
-> To add new templates, you can easily copy an existing document template file and edit this to fit your needs.
+> Hvis du vil legge til nye maler, kan du enkelt kopiere en eksisterende dokumentmalfil og redigere den etter behov.
 
-Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
+Maler vises som forekomster på listen **Dokument - mal**, og du knytter en mal til SuperOffice CRM ved å legge den til som en forekomst på listen.
 
-[!include[Edit list item](includes/edit-list-item.md)] when the items are document templates:
+[!include[Edit list item](includes/edit-list-item.md)] Når forekomstene er dokumentmaler:
 
-1. Enter the required name of the item in the **Name** field.
-2. If you wish, you can choose where to store the document template, in the **Store template in** list.
-3. You now have two options:
+1. Skriv inn ønsket navn på forekomsten i feltet **Navn**.
+2. Velg eventuelt hvor du vil lagre dokumentmalen, i listen **Lagre malen i**.
+3. Nå har du to muligheter:
 
-    * Upload a new document template:
+    * Laste opp en ny dokumentmal:
 
-        1. Click **Copy an existing document template file**.
-        2. Click the **Copy template** list.
-        3. Select the required template from the list.
+        1. Klikk på **Kopier en eksisterende dokumentmalfil**.
+        2. Klikk på listen **Kopier mal**.
+        3. Velg ønsket mal på listen.
 
-    * Copy an existing template in SuperOffice:
+    * Kopiere en eksisterende mal i SuperOffice:
 
-        1. Select **Upload a new document template from disk**.
-        2. Click the **Upload** button.
-        3. Click **Upload file** in the **Upload file** dialog.
-        4. Select the required file and click **Open**. The name of the file is displayed in the **Edit list item** dialog.
+        1. Velg **Last opp en ny dokumentmal fra disk**.
+        2. Klikk på **Last opp**.
+        3. Klikk på **Last opp fil** i dialogboksen **Last opp fil**.
+        4. Velg ønsket fil, og klikk på **Åpne**. Navnet på filen vises i dialogboksen **Rediger forekomst**.
 
-4. Click **Save** in the **Edit list item** dialog. The dialog is updated.
-5. Optional: Edit the template name, if required, and click **Edit** to edit the template file itself.
-6. Enter the required information in the **Details** and **Languages** tabs.
-7. Click **Save**. The template is added as a separate item in the **Items** list. Repeat this procedure to add more templates.
+4. Klikk på **Lagre** i dialogboksen **Rediger forekomst**. Dialogboksen oppdateres.
+5. Valgfritt: Rediger om nødvendig malnavnet, og klikk på **Rediger** for å redigere selve malfilen.
+6. Angi ønsket informasjon i fanene **Detaljer** og **Språk**.
+7. Klikk på **Lagre**. Malen blir nå lagt til som en egen forekomst i listen **Forekomster**. Gjenta prosedyren hvis du vil legge til flere maler.
 
-## Details tab
+## Fanen Detaljer
 
-Enter the following information in the **Details** tab:
+Angi følgende informasjon i fanen **Detaljer**:
 
-1. In the **Direction** field, specify if the template is outgoing or incoming, by clicking the ![icon][img1] arrow and choosing from the list box.
+1. I feltet **Retning** angir du om malen er utgående eller innkommende ved å klikke på ![ikon][img1] pilen og velge fra listeboksen.
 
-2. In the **Document type** field, choose either **Document** or **Fax** as the template type.
+2. I feltet **Dokumenttype** velger du enten **Dokument** eller **Faks** som maltype.
 
-3. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
+3. I feltet **Dokument lagret i** kan du velge å lagre dokumentet et annet sted enn standardalternativet.
 
-4. In the **Intention** field, click ![icon][img1] and select one of the predefined options from the list. These items are used in connection with status monitors (requires a licence for [Sales Intelligence][4]).
+4. I **Hensikt**-feltet klikker du på ![ikon][img1] pilen og velger et av de forhåndsdefinerte alternativene fra listen. Disse elementene brukes i forbindelse med statusovervåking (krever lisens for [Sales Intelligence][4]).
 
     > [!TIP]
-    >You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
+    > Du kan opprette nye alternativer i tillegg til de forhåndsdefinerte ved å legge til forekomster på listen **Oppfølging - Hensikt** i Innstillinger og vedlikehold.
 
-5. Onsite: Check the **Publish** option if you want it to be possible to specify, in the Document screen, that the document template in question should be made available to external users.
+5. Onsite: Merk av for alternativet **Publiser** på Dokument-bildet hvis du vil at det skal være mulig å angi at den aktuelle dokumentmalen skal gjøres tilgjengelig for eksterne brukere.
 
-6. Onsite: Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab. If not, the document is not displayed in SuperOffice after you created it and you cannot access it from the program.
+6. Onsite: Merk av for valget **Lagre i database** for å angi at dokumenter du oppretter ved hjelp av denne malen, skal lagres i dokumentdatabasen. Hvis du merket av for dette alternativet, vises dokumentet på detaljkortet **Aktiviteter**. Hvis du ikke merker av for dette alternativet, vises ikke dokumentet i SuperOffice etter at du har opprettet det, og du får ikke tilgang til det via programmet.
 
-7. Check the **Quote document type** option if the document should be available as a quote template or order confirmation template. You select the quote document type in the list below.
+7. Merk av for alternativet **Tilbudsdokument-type** hvis dokumentet skal være tilgjengelig som tilbudsmal eller bekreftelsesdokument. Du velger typen tilbudsdokument i listen nedenfor.
 
     [!include[Link to quote template docs](includes/learn-quote-templates.md)]
 
-8. Specify the default setting for the **Our reference (default)** field using the [template variables][2], for example *auth* for the sender's first and last names.
+8. Angi standardoppsett for feltet **Vår ref (standard)** ved hjelp av [malvariabler][2], for eksempel *auth* for avsenderens fornavn og etternavn.
 
-9. Optionally, type in a description of the template in the **Description** field.
+9. Legg eventuelt inn en beskrivelse av malen i feltet **Beskrivelse**.
 
     > [!TIP]
-    > You can open the template to edit it directly by clicking the **Edit** button at the top of the **Edit list item** dialog.
+    > Du kan åpne malen for redigering direkte fra dialogboksen **Rediger forekomst** ved å klikke på **Rediger**-knappen øverst.
 
-## Languages tab
+## Fanen Språk
 
-Here you can add translated versions of the document template.
+Her kan du legge til oversatte versjoner av dokumentmalen.
 
-1. Click **Add**.
-2. In the **Edit list item** dialog, select the language you require in the **Add language** list.
-3. Add the translated document template as described above.
-4. Click **Add**. The language is listed in the **Languages** tab.
-5. Repeat the steps above to add additional languages.
+1. Klikk på **Legg til**.
+2. I dialogboksen **Rediger forekomst** velger du ønsket språk fra listen **Legg til språk**.
+3. Legg til den oversatte dokumentmalen som beskrevet ovenfor.
+4. Klikk på **Legg til**. Språket vises i fanen **Språk**.
+5. Gjenta trinnene ovenfor for å legge til flere språk.
 
-## Related
+## Relatert
 
-* [How do I upload and use document templates?][3] - FAQ
-* [Replace existing template][1]
+* [Hvordan laster jeg opp og bruker dokumentmaler?][3] – FAQ
+* [Erstatte eksisterende mal][1]
 
 <!-- Referenced links -->
 [2]: ../../../document/learn/template-variables.md

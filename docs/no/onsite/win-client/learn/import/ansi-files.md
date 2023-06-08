@@ -1,22 +1,22 @@
 ---
 uid: help-no-ansi-files
-title: ANSI-files
-description: ANSI-files
+title: ANSI-filer
+description: ANSI-filer
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Windows Client settings
+keywords: Innstillinger for Windows-klient
 so.topic: help
 language: no
 so.client: win
 so.envir: onsite
 ---
 
-# ANSI files
+# ANSI-filer
 
-ANSI is the character set used by Microsoft Windows. This means that the codes used for each character are specially tailored to Windows. In an ANSI file that is saved as a text file, the fields in records are usually tab separated. Each record is separated with a carriage return and line feed (CR/LF).
+ANSI er det tegnsettet som brukes i Microsoft Windows. Det betyr at kodene som brukes for hvert tegn, er spesielt tilpasset Windows. I en ANSI-fil som lagres som en tekstfil, blir feltene i poster vanligvis atskilt med tabulatorer. Hver post er atskilt med linjeskift (CR/LF).
 
 > [!TIP]
-> You can open the data file you want to use for importing in any word-processing application before you import it, so that you can see which character separates the fields and the records in the file. Before you start importing, you must specify which characters are used as delimiters. You do this in the **Advanced options** dialog (see [Specify advanced import settings][1]).
+> Du kan åpne datafilen du vil bruke til importering, i et hvilket som helst tekstbehandlingsprogram før du importerer den, slik at du kan se hvilke tegn som skiller feltene og postene i filen. Før du starter importen, må du oppgi hvilke tegn som er brukt som skilletegn. Det gjør du i dialogboksen **Avanserte innstillinger** (se [Angi avanserte importinnstillinger][1]).
 
 <!-- Referenced links -->
 [1]: specifying-advanced-import-settings.md
