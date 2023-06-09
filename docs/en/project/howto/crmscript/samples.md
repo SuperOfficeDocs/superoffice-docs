@@ -1,7 +1,7 @@
 ---
 uid: crmscript-project-samples
 title: Samples
-description: Sample code for working with requests in CRMScript.
+description: Sample code for working with projects in CRMScript.
 author: Bergfrid Dias
 so.date: 06.01.2023
 keywords: project, CRMScript

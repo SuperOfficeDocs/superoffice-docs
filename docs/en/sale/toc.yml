@@ -5,8 +5,6 @@ items:
   items:
   - name: Introduction
     href: overview.md
-  - name: Stakeholders
-    href: stakeholders.md
   - name: Sales intelligence (SAINT)
     href: saint/index.md
   - name: API options
@@ -15,18 +13,22 @@ items:
     - name: CRMScript
       href: howto/crmscript/index.md
       items:
-      - name: Leads
-        href: howto/crmscript/leads.md
+      - name: Create
+        href: howto/crmscript/create.md
+      - name: Get
+        href: howto/crmscript/get.md
+      - name: Update
+        href: howto/crmscript/update.md
       - name: Stakeholders
         href: howto/crmscript/stakeholders.md
-      - name: Pipeline
-        href: howto/crmscript/pipeline.md
       - name: Guides
         href: howto/crmscript/guides.md
       - name: Currency
         href: howto/crmscript/currency.md
       - name: Lost or sold
         href: howto/crmscript/lost-or-sold.md
+      - name: Samples
+        href: howto/crmscript/samples.md
     - name: Web services
       href: howto/services/index.md
       items:
@@ -45,6 +47,8 @@ items:
     - name: Raw SQL
       href: saint/howto/sql/index.md
       items:
+      - name: Stakeholders
+        href: howto/sql/stakeholders.md
       - name: Get contact by saint value
         href: saint/howto/sql/get-contact-by-saint-value-sql.md
       - name: Search SAINT values

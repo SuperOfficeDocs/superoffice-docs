@@ -140,7 +140,7 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Create sale
-          url: howto/crmscript/leads.md
+          url: howto/crmscript/create.md
         - text: Create quote
           url: ../quote/howto/crmscript/index.md
 

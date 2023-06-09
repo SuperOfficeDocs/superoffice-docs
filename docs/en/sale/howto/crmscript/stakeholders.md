@@ -1,17 +1,14 @@
 ---
-uid: crmscript_sale-stakeholders
+uid: crmscript-sale-stakeholder
 title: Stakeholders
+description: Working with sale stakeholders in CRMScript.
 author: Bergfrid Dias
-so.date: 10.27.2021
+so.date: 06.09.2023
 keywords: sale, stakeholder
-so.topic: concept
+so.topic: howto
 ---
 
 # Stakeholders
-
-A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as **stakeholders** and can be either individuals, organizations, or a mix.
-
-[!include[License requirement](../../../../../common/includes/req-sales-prem.md)]
 
 ## Organizations as stakeholders
 
@@ -131,13 +128,13 @@ sale = saleAgent.SaveSaleEntity(sale);
 
 ### NSSaleStakeholder
 
-| Field              | Get method             | Description                     |
-|:-------------------|:-----------------------|:--------------------------------|
-| salestakeholder_id | GetSaleStakeholderId() | ID                              |
-| stakeholderrole_id | GetStakeholderRoleId() | Role                            |
-| sale_id            | GetSaleId()            | parent sale                     |
-| contact_id         | GetContactId()         | contact (person or org)         |
-| person_id          | GetPersonId()          | ID of person OR **0** if an org |
+| Field | Get method | Description |
+|:--|:--|:--|
+| salestakeholder_id | GetSaleStakeholderId() | ID |
+| stakeholderrole_id | GetStakeholderRoleId() | Role |
+| sale_id | GetSaleId() | parent sale |
+| contact_id | GetContactId() | contact (person or org) |
+| person_id | GetPersonId() | ID of person OR **0** if an org |
 
 For a complete list of fields, see the [database reference][3].
 

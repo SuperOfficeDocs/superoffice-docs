@@ -1,17 +1,16 @@
 ---
-uid: crmscript_sale-leads
-title: Leads
+uid: crmscript-sale-create
+title: Record a sale
+description: How to create a sale with CRMScript in SuperOffice.
 author: Bergfrid Dias
-so.date: 10.27.2021
-keywords: sale
-so.topic: concept
+so.date: 06.09.2023
+keywords: sale, SaleAgent
+so.topic: howto
 ---
 
-# Leads
+# Record a sale
 
 One way of reaching your sales target is to increase the number of activities you start and complete. But it all starts with registering leads.
-
-## Record a sale
 
 ```crmscript!
 NSSaleAgent saleAgent;
@@ -38,7 +37,7 @@ print("Registered new sale with ID " + newSale.GetSaleId().toString());
 
 ## Find company ID from ticket ID
 
-You might be picking up leads such as up-sells to existing customers from service tickets. Here's how to get the contact ID from the [ticket][1]:
+You might be picking up leads such as up-sells to existing customers from Service tickets. Here's how to get the contact ID from the [ticket][1]:
 
 ```crmscript
 Integer ticketId = 123;
@@ -53,18 +52,6 @@ se.execute();
 if (!se.eof()) {
   contactId = se.getField(0).toInteger();
 }
-```
-
-## Update a sale
-
-```crmscript
-NSSaleAgent saleAgent;
-NSSaleEntity sale = saleAgent.GetSaleEntity(4);
-
-NSListAgent listAgent;
-sale.SetCompetitor(listAgent.GetCompetitor(1));
-
-sale = saleAgent.SaveSaleEntity(sale);
 ```
 
 ## Create a follow-up for a sale
@@ -98,44 +85,6 @@ sale.SetAppointment(appointmentAgent.GetAppointment(todo.GetAppointmentId()));
 sale = saleAgent.SaveSaleEntity(sale);
 ```
 
-## Delete a sale
-
-It might be necessary to delete a sale if it is no longer appropriate to store it in the database.
-
-```crmscript
-NSSaleAgent saleAgent;
-Void DeleteSaleEntity(123);
-```
-
-## Reference
-
-### Frequently used fields
-
-| Field          | Description                                  |
-|:---------------|:---------------------------------------------|
-| sale_id        | ID                                           |
-| heading        | short description                            |
-| associate_id   | owner                                        |
-| source_id      | origin of the lead                           |
-| amount         | total sale amount                            |
-| project_id     | optional project reference                   |
-| contact_id     | company                                      |
-| saleType_id    | type of sale                                 |
-| status         | EnumSaleStatus 1 = open, 2 = sold, 3 = lost, 4 = stalled |
-| done           | EnumSaleDone 0 = unknown, 1 = no, 2 = yes    |
-
-For a complete list of fields, see the [database reference][3].
-
-### Timestamp values
-
-| Field         | Description                                              |
-|:--------------|:---------------------------------------------------------|
-| registered    | UtcDateTime of registration                              |
-| updated       | UtcDateTime of last update                               |
-| saledate      | expected closing time or when it was lost/won (DateTime) |
-| nextDueDate   | closest future activity date<br>if nothing is planned: the most recent activity |
-
 <!-- Referenced links -->
 [1]: ../../../request/howto/crmscript/create.md
 [2]: ../../../diary/howto/crmscript/index.md
-[3]: ../../../database/tables/sale.md

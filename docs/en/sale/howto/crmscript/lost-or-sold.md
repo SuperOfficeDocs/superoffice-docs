@@ -123,3 +123,8 @@ if (!se.eof()) {
   print(se.executeTextTable());
 }
 ```
+
+## Stalled sales
+
+* `reasonStalled_id`: reference to why the sale is stalled
+* `reopenDate`: when the sale should be reopened

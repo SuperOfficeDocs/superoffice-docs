@@ -1,51 +1,18 @@
 ---
-uid: crmscript_sale-guide
+uid: crmscript-sale-guide
 title: Guides
+description: How to work with sales guides in CRMScript.
 author: Bergfrid Dias
-so.date: 10.27.2021
-keywords: sale, sales guide
-so.topic: concept
+so.date: 06.09.2023
+keywords: sale, sales guide, sale type, stage, rank, ListAgent, suggested
+so.topic: howto
 ---
 
 # Guides
 
-Some sale types have an associated sales guide. For those types, it's important to understand stages and how to work with suggested activities.
-
 [!include[License requirement](../../../../../common/includes/req-sales-prem.md)]
 
-## Check if a sale is connected to a guide
-
-```crmscript!
-NSListAgent listAgent;
-NSSaleAgent saleAgent;
-
-NSSaleEntity sale = saleAgent.GetSaleEntity(4);
-
-Integer saleTypeId = sale.GetSaleType().GetId();
-NSSaleTypeEntity type = listAgent.GetSaleTypeEntity(saleTypeId);
-
-if (type.GetHasGuide()) {
-  printLine("This sale has a guide!");
-}
-else {
-  printLine("This sale does not have a guide.");
-}
-```
-
 ## Stages
-
-Each stage has a set of **suggested activities**. There is also a setting controlling whether the sale will automatically advance to the next stage when the last guided activity in a stage is completed.
-
-The sequence of the stages is determined by the **rank** of each stage.
-
-**Example process:**
-
-1. Lead
-2. First meeting
-3. Proposal
-4. Second meeting
-5. Short-list
-6. Verbal acceptance
 
 ### NSSelectableMDOListItem[] GetStages()
 
@@ -84,10 +51,6 @@ printLine("This sale will auto advance: " + type.GetIsAutoAdvance().toString());
 ```
 
 ## Suggested activities
-
-Suggested activities are just that  - **suggested**. They're blueprints that can be used to create actual follow-ups and documents.
-
-The blueprints sit in the intersection between sale types and stages. A sale type can have many stages, and a stage can apply to multiple sale types. The [SaleTypeStageLink table][1] connects them all.
 
 ### List available suggestions
 
@@ -146,28 +109,27 @@ myBlueprint = appointmentAgent.SaveSuggestedAppointmentEntity(myBlueprint);
 
 ### SaleTypeStageLink
 
-| Field                | Description       |
-|:---------------------|:------------------|
-| SaleTypeStageLink_id | ID                |
-| saleType_id          | Link to sale type |
-| stageId              | Link to stage     |
-| rank                 | sort order        |
+| Field  | Description  |
+|:--|:--|
+| SaleTypeStageLink_id | ID |
+| saleType_id | Link to sale type |
+| stageId | Link to stage  |
+| rank | sort order |
 
 ### SuggestedAppointment
 
-| Field                   | Description                               |
-|:------------------------|:------------------------------------------|
-| SuggestedAppointment_id | ID                                        |
-| name                    | name of blueprint shown in guide          |
-| rank                    | sort order                                |
-| saleTypeStageLinkId     | anchor for sale guide items               |
-| task_id                 | type of the suggested appointment         |
-| daysFuture              | when the appointment should be scheduled  |
-| duration                | in minutes                                |
-| text                    | The suggested text of the new appointment |
+| Field | Description |
+|:--|:--|
+| SuggestedAppointment_id | ID |
+| name | name of blueprint shown in guide |
+| rank | sort order |
+| saleTypeStageLinkId | anchor for sale guide items |
+| task_id | type of the suggested appointment |
+| daysFuture | when the appointment should be scheduled  |
+| duration | in minutes |
+| text | The suggested text of the new appointment |
 
 For a complete list of fields, see the [database reference][2].
 
 <!-- Referenced links -->
-[1]: ../../../database/tables/saletypestagelink.md
 [2]: ../../../database/tables/suggestedappointment.md
