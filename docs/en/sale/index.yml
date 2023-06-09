@@ -1,15 +1,15 @@
 ### YamlMime:SubCategory
 
-title: Sale
-summary: Welcome to the Sale area where you can find relevant links to all things related to sales, sales guide, and sales intelligence (SAINT).
+title: Sale and quote
+summary: Welcome to the Sale and Quote area where you can find relevant links to all things related to sales, sales guide, sales intelligence (SAINT), quotes, and products.
 
 metadata:
-  title: Sale
-  description: Sale, sales guide, and sales intelligence (SAINT)
+  title: Sale and quote
+  description: Sale, sales guide, sales intelligence (SAINT), quote, and product.
   ms.topic: landing-page
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 06.02.2023
+  so.date: 06.09.2023
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
@@ -137,6 +137,8 @@ landingContent:
         links:
         - text: Create sale
           url: howto/crmscript/leads.md
+        - text: Create quote
+          url: ../quote/howto/crmscript/index.md
 
   - title: API
     linkLists:

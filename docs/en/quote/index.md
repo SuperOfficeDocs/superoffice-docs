@@ -1,8 +1,9 @@
 ---
 uid: quotes-overview
 title: Quotes
+description: Quote management
 author: Bergfrid Dias
-so.date: 02.04.2022
+so.date: 06.09.2023
 keywords: sale, quote, quoteconnection
 so.topic: concept
 ---
