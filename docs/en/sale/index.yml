@@ -71,6 +71,10 @@ landingContent:
 
   - title: SAINT
     linkLists:
+      - linkListType: concept
+        links:
+        - text: What is SAINT and what can it do
+          url: saint/learn/index.md
       - linkListType: how-to-guide
         links:
         - text: Add sale amount class (list)

@@ -9,23 +9,6 @@ items:
     href: stakeholders.md
   - name: Sales intelligence (SAINT)
     href: saint/index.md
-    items:
-    - name: Counters
-      href: saint/counters.md
-    - name: Values
-      href: saint/values.md
-    - name: Rows
-      href: saint/row/index.md
-      items:
-      - name: Search SAINT (ContactRow.CustomSearch)
-        href: saint/row/search-saint-contactrow-customsearch.md
-    - name: Raw SQL
-      href: saint/sql/index.md
-      items:
-      - name: Get contact by saint value
-        href: saint/sql/get-contact-by-saint-value-sql.md
-      - name: Search SAINT values
-        href: saint/sql/search-saint-values-sql.md
   - name: API options
     href: howto/index.md
     items:
@@ -54,3 +37,15 @@ items:
       items:
       - name: Link sale to appointment
         href: howto/entity/link-sale-to-appointment-entity.md
+    - name: Rows
+      href: saint/howto/row/index.md
+      items:
+      - name: Search SAINT (ContactRow.CustomSearch)
+        href: saint/howto/row/search-saint-contactrow-customsearch.md
+    - name: Raw SQL
+      href: saint/howto/sql/index.md
+      items:
+      - name: Get contact by saint value
+        href: saint/howto/sql/get-contact-by-saint-value-sql.md
+      - name: Search SAINT values
+        href: saint/howto/sql/search-saint-values-sql.md

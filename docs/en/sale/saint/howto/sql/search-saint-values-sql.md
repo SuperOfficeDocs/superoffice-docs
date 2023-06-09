@@ -1,10 +1,10 @@
 ---
 title: Search values
-uid: api_search_saint_values
-description: How to search on SAINT values
+uid: saint-sql-search-values
+description: How to search on SAINT values in raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 11.05.2021
-keywords: sale, SAINT, API, counterValue, totalReg, totalRegInPeriod, notCompleted, notCompletedInPeriod
+so.date: 06.09.2023
+keywords: sale, SAINT, API, SQL, counterValue, totalReg, totalRegInPeriod, notCompleted, notCompletedInPeriod
 so.topic: howto
 # so.envir:
 # so.client:
@@ -12,11 +12,9 @@ so.topic: howto
 
 # Searches on SAINT values
 
-When SAINT is enabled, whenever a contact or a project is created, a bunch of [counter rows][2] are created.
-
-Whenever an appointment, document, or sale is created, then the corresponding counter rows are updated.
-
 Each [counterValue][1] row points to the `contact_id` or `project_id` it is linked to.  The counter values themselves are stored in the `totalReg`, `totalRegInPeriod`, `notCompleted`, `notCompletedInPeriod`, and so on fields.
+
+[!include[ALT](../../includes/note-req-saint.md)]
 
 Here are some of the counter values for a project:
 
@@ -74,10 +72,5 @@ SELECT * FROM CounterValue WHERE contact_id > 0 AND record_type = 5  AND direct
 > [!NOTE]
 > We must specify `intent_id` for appointments/documents to avoid duplicate IDs in the result. intent = 0 implies all intents.
 
-## See also
-
-* [countervalue table][1]
-
 <!-- Referenced links -->
-[1]: ../../../database/tables/countervalue.md
-[2]: ../counters.md
+[1]: ../../../../database/tables/countervalue.md
