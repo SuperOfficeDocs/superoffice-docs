@@ -43,38 +43,3 @@ references:
   name: PublishType
   nameWithType: PublishType
   fullName: CRMScript.NetServer.PublishType
-references:
-- uid: CRMScript.NetServer.AppAvailableState
-  commentId: T:CRMScript.NetServer.AppAvailableState
-  isExternal: true
-  name: AppAvailableState
-  nameWithType: AppAvailableState
-  fullName: CRMScript.NetServer.AppAvailableState
-references:
-- uid: CRMScript.NetServer.AppExecuteOnEvent
-  commentId: T:CRMScript.NetServer.AppExecuteOnEvent
-  isExternal: true
-  name: AppExecuteOnEvent
-  nameWithType: AppExecuteOnEvent
-  fullName: CRMScript.NetServer.AppExecuteOnEvent
-references:
-- uid: CRMScript.NetServer.AppNavigation
-  commentId: T:CRMScript.NetServer.AppNavigation
-  isExternal: true
-  name: AppNavigation
-  nameWithType: AppNavigation
-  fullName: CRMScript.NetServer.AppNavigation
-references:
-- uid: CRMScript.NetServer.AppShowState
-  commentId: T:CRMScript.NetServer.AppShowState
-  isExternal: true
-  name: AppShowState
-  nameWithType: AppShowState
-  fullName: CRMScript.NetServer.AppShowState
-references:
-- uid: CRMScript.NetServer.AppType
-  commentId: T:CRMScript.NetServer.AppType
-  isExternal: true
-  name: AppType
-  nameWithType: AppType
-  fullName: CRMScript.NetServer.AppType
