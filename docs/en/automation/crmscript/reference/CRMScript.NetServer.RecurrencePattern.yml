@@ -91,10 +91,3 @@ references:
   name: RecurrencePattern
   nameWithType: RecurrencePattern
   fullName: CRMScript.NetServer.RecurrencePattern
-references:
-- uid: CRMScript.NetServer.RecurrenceSubPattern
-  commentId: T:CRMScript.NetServer.RecurrenceSubPattern
-  isExternal: true
-  name: RecurrenceSubPattern
-  nameWithType: RecurrenceSubPattern
-  fullName: CRMScript.NetServer.RecurrenceSubPattern
