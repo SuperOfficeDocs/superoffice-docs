@@ -1,9 +1,9 @@
 items:
-- name: Edit selection
+- name: Redigere utvalg
   href: index.md
-- name: Add and remove members (static)
+- name: Legge til og fjerne medlemmer (statisk)
   href: add-remove-members-static.md
-- name: Copy members to another selection
+- name: Kopiere medlemmer til et annet utvalg
   href: copy-members-to.md
-- name: Delete selection
+- name: Slett utvalg
   href: delete.md

@@ -1,9 +1,9 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Creating recurring follow-up
+  - name: Opprette regelmessig oppfølging
     href: create.md
-  - name: Editing recurring follow-up
+  - name: Redigerer regelmessig oppfølging
     href: edit.md
-  - name: Stopping recurring follow-up
+  - name: Stoppe regelmessig oppfølging
     href: stop.md

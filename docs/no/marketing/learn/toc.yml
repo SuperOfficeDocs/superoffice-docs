@@ -1,42 +1,42 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Marketing screen
+- name: Markedsføring-bilde
   href: screen/index.md
-- name: Work with marketing
+- name: Arbeide med markedsføring
   topicHref: add-fav.md
   items:
-  - name: Add favorites
+  - name: Legge til favoritter
     href: add-fav.md
-  - name: Create folder
+  - name: Opprette mappe
     href: create-folder.md
-  - name: Message templates
+  - name: Meldingsmaler
     href: work-with-messages-and-templates.md
-  - name: Add images
+  - name: Legg til bilder
     href: add-images.md
 
-- name: Work with mailings
+- name: Arbeide med utsendelser
   href: ../mailing/learn/toc.yml
   topicHref: ../mailing/learn/index.md
 
-- name: Drag and drop editor
+- name: Dra og slipp editor
   topicHref: editor.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: editor.md
-  - name: Add content
+  - name: Legg til innhold
     href: add-content.md
-  - name: Edit paragraph
+  - name: Rediger avsnitt
     href: edit-paragraph.md
-  - name: Insert images
+  - name: Sette inn bilder
     href: insert-images-in-message.md
-  - name: Add merge tags
+  - name: Legge til emneknagger for fletting
     href: add-merge-tag.md
-  - name: Add link to display message in browser
+  - name: Legge til kobling for å vise melding i nettleseren
     href: add-link-to-display-message-in-browser.md
-  - name: Customize message for display on mobile devices
+  - name: Tilpasse melding for visning på mobile enheter
     href: customize-for-mobile.md
 
-- name: Work with tracked links
+- name: Arbeide med sporede lenker
   href: ../tracked-links/learn/toc.yml
   topicHref: ../tracked-links/learn/index.md

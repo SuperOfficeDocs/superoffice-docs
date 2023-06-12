@@ -1,27 +1,27 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Work with preferences
+- name: Arbeide med preferanser
   href: update-preferences.md
 
-- name: Global preferences
+- name: Globale preferanser
   href: global-preferences/toc.yml
   topicHref: global-preferences//system.md
 
-- name: Video meetings
+- name: Videomøter
   topicHref: video-meetings/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: video-meetings/index.md
-  - name: Configure video meetings
+  - name: Konfigurere videomøter
     href: video-meetings/configure-video-meetings.md
-  - name: Email setup for video meetings
+  - name: E-postoppsett for videomøter
     href: video-meetings/email-setup-in-superoffice.md
 
-- name: Document library
+- name: Dokumentbibliotek
   topicHref: document-library/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: document-library/index.md
-  - name: Configure SharePoint document library
+  - name: Konfigurere SharePoint-dokumentbibliotek
     href: document-library/change-to-sharepoint.md

@@ -1,7 +1,7 @@
 items:
-- name: Overview - Status monitors
+- name: Oversikt - statusovervåking
   href: index.md
-- name: Status dialog
+- name: Dialogboks for status
   href: status-dialog.md
-- name: SAINT in dynamic selections
+- name: SAINT i dynamisk utvalg
   href: using-status-monitors-in-dynamic-selections.md

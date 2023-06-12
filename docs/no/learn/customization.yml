@@ -1,11 +1,11 @@
 ### YamlMime:SubCategory
 
-title: Customisation
-summary: "Learn about different customisation of all your lists, possibilities to add fields and layout of the different main cards in the screen designer, set up macros and script and all other fine tuning of your system"
+title: Tilpasning
+summary: "Lær om ulike tilpasninger av alle listene dine, muligheter for å legge til felt og oppsett av de forskjellige hovedkortene i skjermdesigneren, sette opp makroer og skript og all annen finjustering av systemet ditt"
 
 metadata:
-  title: Customisation
-  description: "Learn about ways to customise SuperOffice."
+  title: Tilpasning
+  description: "Finn ut mer om hvordan du kan tilpasse SuperOffice."
   so.product: customisation
   so.topic: landing-page
   author: Help and Learn
@@ -17,77 +17,77 @@ metadata:
 landingContent:
 
   # Card
-  - title: Lists, preferences, options and settings
+  - title: "Lister, preferanser, alternativer og innstillinger"
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Lists
+        - text: Lister
           url: ../admin/lists/learn/index.md
-        - text: Preferences
+        - text: Preferanser
           url: ../admin/preferences/learn/index.md
-        - text: Options
+        - text: Systemvalg
           url: ../admin/options/learn/index.md
       - linkListType: reference
         links:
-        - text: Global preferences
+        - text: Globale preferanser
           url: ../admin/preferences/learn/global-preferences/system.md
 
   # Card
-  - title: Custom objects
+  - title: Egendefinerte objekter
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: User-defined fields
+        - text: Brukerdefinerte felt
           url: ../custom-objects/learn/udef/index.md
-        - text: Extra fields
+        - text: Ekstrafelt
           url: ../custom-objects/learn/extra-field/create.md
-        - text: Extra tables
+        - text: Ekstratabell
           url: ../custom-objects/learn/extra-table/create.md
       
   # Card
-  - title: User interface
+  - title: Brukergrensesnitt
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Screen designer
+        - text: Skjermdesigner
           url: ../ui/screen-designer/learn/index.md
-        - text: Extra menus
+        - text: Ekstramenyer
           url: ../ui/blogic/learn/extra-menus/index.md
-        - text: Web panels
+        - text: Nettleserfaner
           url: ../ui/web-panels/learn/index.md
       - linkListType: how-to-guide
         links:
-        - text: Profile in Service
+        - text: Profil i Service
           url: ../ui/blogic/learn/profiles/index.md
 
   # Card
-  - title: Macros and CRMScript
+  - title: Makroer og CRMScript
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Macros and scripts
+        - text: Makroer og skript
           url: ../automation/crmscript/learn/macro-script.md
-        - text: Create a macro
+        - text: Opprette en makro
           url: ../automation/crmscript/learn/create-macro.md
-        - text: Create a script
+        - text: Opprette et skript
           url: ../automation/crmscript/learn/create-script.md
-        - text: Debug sessions
+        - text: Feilsøkingsøkter
           url: ../automation/crmscript/learn/debug.md
-        - text: Create a scheduled task
+        - text: Opprette en planlagt oppgave
           url: ../automation/crmscript/learn/schedule-task.md
-        - text: Tracing
+        - text: Sporing
           url: ../automation/crmscript/learn/tracing.md
-        - text: Triggers
+        - text: Triggere
           url: ../automation/crmscript/learn/trigger.md
 
   # Card
-  - title: Customer centre
+  - title: Kundesenter
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Customer centre configuration
+        - text: Kundesenterkonfigurasjon
           url: ../customer-center/learn/config.md
-        - text: Customer centre source files
+        - text: "Kundesenter, kildefiler"
           url: ../customer-center/learn/edit.md
-        - text: Send passwords to contacts
+        - text: Sende passord til personer
           url: ../customer-center/learn/send-credentials.md

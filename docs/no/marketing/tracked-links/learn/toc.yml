@@ -1,17 +1,17 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Create tracked link
+  - name: Opprette sporet kobling
     href: create-links.md
-  - name: Define link actions
+  - name: Definere koblingshandlinger
     href: define-link-actions.md
-  - name: Add tracked link to message
+  - name: Legge til sporet kobling i en melding
     href: add-tracked-link-to-msg.md
-  - name: Add Google Analytics tags
+  - name: Legge til Google Analytics-tagger
     href: add-google-analytics-tag.md
-  - name: Examples of use
+  - name: Eksempler på bruk
     href: examples.md
-  - name: Explore clicks after sending
+  - name: Utforsk klikk etter sending
     href: explore-clicks.md
-  - name: Reset counters
+  - name: Tilbakestille tellere
     href: reset-counter.md

@@ -1,33 +1,33 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Section tabs on project
+- name: Seksjon-fane på prosjekt
   href: screen/toc.yml
   topicHref: screen/index.md
-- name: Work with project
+- name: Arbeide med prosjekt
   topicHref: create.md
   items:
-  - name: Create project
+  - name: Opprette prosjekt
     href: create.md
-  - name: Add project image
+  - name: Legge til prosjektbilde
     href: add-image.md
-  - name: Add links from project
+  - name: Legge til koblinger fra prosjekt
     href: add-links.md
-  - name: Edit project
+  - name: Redigere prosjekt
     href: edit.md
-  - name: Merge projects
+  - name: Slå sammen prosjekter
     href: merge-projects.md
-  - name: Delete project
+  - name: Slette prosjekt
     href: delete.md
-- name: Project members
+- name: Prosjektdeltakere
   href: project-members/toc.yml
   topicHref: project-members/index.md
-- name: Project guide
+- name: Prosjektguide
   topicHref: project-guide/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: project-guide/index.md
-  - name: Work with project guide
+  - name: Arbeide med prosjektguide
     href: project-guide/working-with.md
-  - name: View follow-ups and documents
+  - name: Vise oppfølginger og dokumenter
     href: project-guide/view-followups-and-documents.md

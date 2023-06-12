@@ -1,67 +1,67 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Reports screen
+- name: Rapporter-bilde
   href: screen/index.md
-- name: Standard reports
+- name: Standardrapporter
   href: standard-reports.md
-- name: Work with reports
+- name: Jobbe med rapporter
   topicHref: working-with-reports.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: working-with-reports.md
-  - name: View report
+  - name: Vise rapport
     href: view.md
-  - name: Show report properties
+  - name: Vise rapportegenskaper
     href: properties.md
-  - name: Create report
+  - name: Opprette rapport
     href: create.md
-  - name: Run report
+  - name: Kjøre rapport
     href: run.md
-  - name: Preview report
+  - name: Forhåndsvise rapport
     href: preview.md
-  - name: Print report
+  - name: Skrive ut rapport
     href: print.md
-  - name: Save report as file
+  - name: Lagre rapport som fil
     href: save.md
-  - name: Open reports in report archive
+  - name: Åpne rapporter i rapportarkiv
     href: open-from-archive.md
-  - name: Filter in report archive
+  - name: Filtre i rapportarkiv
     href: filter.md
-  - name: Delete reports from report archive
+  - name: Slette rapporter fra rapportarkiv
     href: delete-from-archive.md
-  - name: Cross tables
+  - name: Krysstabeller
     href: cross-tables.md
-- name: Work with labels
+- name: Arbeide med ledetekster
   topicHref: labels/index.md
   items:
-  - name: Display labels
+  - name: Vise etiketter
     href: labels/index.md
-  - name: Add label formats
+  - name: Legge til etikettformater
     href: labels/add-format.md
-  - name: Edit label formats
+  - name: Redigere etikettformater
     href: labels/edit-format.md
-  - name: Remove label formats
+  - name: Fjerne etikettformater
     href: labels/remove-format.md
-  - name: Print labels
+  - name: Skriv ut etiketter
     href: labels/print-labels.md
-- name: Search criteria
+- name: Søkekriterier
   topicHref: search-criteria/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: search-criteria/index.md
-  - name: Add search criteria to reports
+  - name: Legge til søkekriterier i rapporter
     href: search-criteria/add.md
-  - name: Edit search criteria in reports
+  - name: Redigere søkekriterier i rapporter
     href: search-criteria/edit.md
-- name: Favourite reports
+- name: Favorittrapporter
   topicHref: favorites/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: favorites/index.md
-  - name: Add report to favourites
+  - name: Legge til rapport i favoritter
     href: favorites/add.md
-  - name: Edit favourite report
+  - name: Redigere favorittrapporten
     href: favorites/edit.md
-  - name: Delete favourite reports
+  - name: Slette favorittrapporter
     href: favorites/delete.md

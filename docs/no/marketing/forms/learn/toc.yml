@@ -1,26 +1,25 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: View forms
+- name: Vis skjemaer
   href: view.md
-- name: Work with forms
+- name: Arbeide med skjemaer
   topicHref: form-templates.md
   items:
-  - name: Create new form
+  - name: Opprett nytt skjema
     href: create.md
-  - name: Field options
+  - name: Feltalternativer
     href: field-options.md
-  - name: Publish forms
+  - name: Publisere skjemaer
     href: publish.md
-  - name: Using pre-filled fields
+  - name: Bruke forhåndsutfylte felt
     href: form-prefilled.md
-  - name: Examples
+  - name: Eksempler
     href: examples.md
-- name: Form submissions
+- name: Skjemainnsendinger
   topicHref: submissions/index.md
   items:
-  - name: Track form submissions and view statistics
+  - name: Spore skjemainnsendinger og vise statistikk
     href: submissions/track.md
-  - name: Process form submissions
+  - name: Behandle skjemainnsendinger
     href: submissions/process.md
-  

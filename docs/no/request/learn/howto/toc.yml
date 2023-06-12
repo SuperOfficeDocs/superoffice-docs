@@ -1,38 +1,37 @@
 items:
-  - name: Find request
+  - name: Finn sak
     href: ../find.md
-  - name: Create request
+  - name: Opprette sak
     href: create.md
-  - name: Edit message
+  - name: Redigere melding
     href: edit-message.md
-  - name: Automatic assignment
+  - name: Automatisk tilordning
     href: assign.md
-  - name: Take responsibility for request
+  - name: Ta ansvar for sak
     href: accept.md
-  - name: Ask another request handler for help
+  - name: Be en annen saksbehandler om hjelp
     href: transfer.md
-  - name: Forward to external contact
+  - name: Videresende til ekstern kontakt
     href: forward.md
-  - name: Reply to customer
+  - name: Svare kunde
     href: reply.md
-  - name: Add FAQ entries to messages
+  - name: Legg til FAQ-oppføringer i meldinger
     href: ../../../faq/learn/add-to-request.md
-  - name: Add request to favourites
+  - name: Legge til sak i favoritter
     href: fav.md
-  - name: Tags
+  - name: Emneknagger
     href: ../tags.md
-  - name: Keep track of messages
+  - name: Holde oversikt over meldinger
     href: flag-message.md
-  - name: Split request
+  - name: Del sak
     href: split-request.md
-  - name: Merge requests
+  - name: Slå sammen saker
     href: merge.md
-  - name: Split message
+  - name: Dele melding
     href: split-message.md
-  - name: Close request
+  - name: Avslutt sak
     href: close.md
-  - name: Delete request
+  - name: Slette sak
     href: delete.md
-  - name: Request log
+  - name: Sakslogg
     href: ../screen/ticket-log.md
-    

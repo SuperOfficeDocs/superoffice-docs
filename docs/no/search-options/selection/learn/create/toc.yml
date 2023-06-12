@@ -1,9 +1,9 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Create a selection
+- name: Opprett et utvalg
   href: tutorial.yml
-- name: Combine selections
+- name: Kombinere utvalg
   href: combine.md
-- name: Copy selection
+- name: Kopiere merket område
   href: copy.md

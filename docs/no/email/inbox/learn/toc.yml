@@ -1,30 +1,30 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Set up Inbox
+- name: Konfigurere innboks
   href: setup.md
-- name: Inbox options
+- name: Alternativer for innboks
   href: inbox-options.md
-- name: View email message
+- name: Vise e-postmelding
   href: preview.md
-- name: Work with emails
+- name: Arbeide med e-post
   topicHref: compose.md
   items:
-  - name: Compose email
+  - name: Skrive e-post
     href: compose.md
-  - name: Manage senders
+  - name: Administrere avsendere
     href: manage-senders.md
-  - name: Move email to folder
+  - name: Flytte e-post til mappe
     href: move-email-to-folder.md
-  - name: Mark email as read/unread
+  - name: Markere e-post som lest/ulest
     href: mark-as-read.md
-  - name: Accept invitation
+  - name: Godta invitasjon
     href: invitations.md
-  - name: Archive email
+  - name: Arkivere e-post
     href: archive.md
-  - name: Create task
+  - name: Opprette oppgave
     href: create-task.md
-  - name: Create request
+  - name: Opprette sak
     href: create-request.md
-  - name: Print email
+  - name: Skrive ut e-post
     href: print.md

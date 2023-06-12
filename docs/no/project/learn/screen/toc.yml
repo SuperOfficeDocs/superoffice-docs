@@ -1,11 +1,11 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Project members
+  - name: Prosjektdeltakere
     href: project-members-tab.md
-  - name: Activities
+  - name: Aktiviteter
     href: activities-project.md
-  - name: Sales
+  - name: Salg
     href: sale.md
-  - name: Project guide
+  - name: Prosjektguide
     href: project-guide-tab.md

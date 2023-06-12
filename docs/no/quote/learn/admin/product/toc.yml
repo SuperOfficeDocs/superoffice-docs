@@ -1,13 +1,13 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Add price list
+  - name: Legge til en prisliste
     href: add-price-list.md
-  - name: Add product to price-list
+  - name: Legge til produkt i prislisten
     href: add-product-to-price-list.md
-  - name: Select product image
+  - name: Velge produktbilde
     href: select-product-image.md
-  - name: Delete/deactivate price-lists or products
+  - name: Slette/deaktivere prislister eller produkter
     href: quote-delete-deactivate-price-list-or-product.md
-  - name: Configure product
+  - name: Konfigurer produkt
     href: configure.md

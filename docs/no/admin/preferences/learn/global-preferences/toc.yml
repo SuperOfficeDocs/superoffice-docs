@@ -1,11 +1,11 @@
 items:
-- name: Overview
+- name: Oversikt
   href: system.md
-- name: SuperOffice Service system settings
+- name: Systeminnstillinger for SuperOffice Service
   href: settings.md
-- name: Customer Centre password policy
+- name: Passordregler for kundesenter
   href: password.md
-- name: SMS configuration
+- name: SMS-konfigurasjon
   href: sms.md
 - name: SMTP (ONSITE)
   href: smtp.md

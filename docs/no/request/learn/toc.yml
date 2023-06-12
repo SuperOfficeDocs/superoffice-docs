@@ -1,11 +1,10 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Request screen
+- name: Saksbilde
   href: screen/index.md
-- name: Handle requests with AI
+- name: Håndter saker med AI
   href: handle-request-ai.md
-- name: Work with requests
+- name: Arbeide med saker
   href: howto/toc.yml
   topicHref: find.md
-  

@@ -1,22 +1,22 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Work with reply templates
+- name: Arbeide med svarmaler
   topicHref: create.md
   items:
-  - name: Create reply template
+  - name: Opprette svarmal
     href: create.md
-  - name: Copy existing template
+  - name: Kopiere eksisterende mal
     href: copy.md
-  - name: Translate a reply template
+  - name: Oversette en svarmal
     href: new-language.md
-  - name: Edit reply template
+  - name: Rediger svarmal
     href: edit.md
-  - name: Delete reply template
+  - name: Slett svarmal
     href: delete.md
-  - name: Search for reply template
+  - name: Søke etter svarmal
     href: find.md
-  - name: Administrate folders of reply templates
+  - name: Administrere mapper med svarmaler
     href: manage-folders.md
-- name: Reply template variables
+- name: Variabler for svarmal
   href: template-variables.md

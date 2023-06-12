@@ -1,17 +1,17 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Contacts tab
+  - name: Personer-fane
     href: contacts-tab.md
-  - name: Relations tab
+  - name: Relasjoner-fane
     href: relations-tab.md
-  - name: Activities tab
+  - name: Aktiviteter-fanen
     href: activities-tab.md
-  - name: Projects tab
+  - name: Prosjekter-fane
     href: projects-tab.md
-  - name: Sales tab
+  - name: Salg-fanen
     href: sales-tab.md
-  - name: Requests tab
+  - name: Saker-fane
     href: requests-tab.md
-  - name: ERP tab
+  - name: ERP-fanen
     href: ../../../admin/erp/learn/screen/erp-tab.md

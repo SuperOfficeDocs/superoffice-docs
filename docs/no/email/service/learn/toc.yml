@@ -1,29 +1,29 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Mailboxes
+- name: E-postkasser
   topicHref: screen/index.md
   items:
-  - name: Overivew
+  - name: Oversikt
     href: screen/index.md
-  - name: Create mailboxes
+  - name: Opprette e-postkasser
     href: create-mailbox.md
-  - name: Delete mailboxes
+  - name: Slette e-postkasser
     href: delete-mailbox.md
-  - name: Create SMS mailbox
+  - name: Opprette SMS-postkasse
     href: create-sms-mailbox.md
-- name: Email filters
+- name: E-postfiltre
   topicHref: email-filters/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: email-filters/index.md
-  - name: Create email filter
+  - name: Opprette e-postfilter
     href: email-filters/create-email-filter.md
-  - name: Delete email filter
+  - name: Slette e-postfilter
     href: email-filters/delete-email-filter.md
-- name: Inbox for email
+- name: Innboks for e-post
   href: screen/tab-inbox-for-email.md
-- name: Outbox for email
+- name: Utboks for e-post
   href: screen/tab-outbox-for-email.md
-- name: Blocked email
+- name: Blokkert e-post
   href: screen/tab-blocked-email.md

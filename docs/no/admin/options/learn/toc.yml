@@ -1,57 +1,57 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Freetext search
+- name: Fritekstsøk
   topicHref: freetext-search/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: freetext-search/index.md
-  - name: Enable freetext search
+  - name: Aktivere fritekstsøk
     href: freetext-search/enable.md
-  - name: Specify search criteria
+  - name: Angi søkekriterier
     href: freetext-search/configure.md
-  - name: Stopwords
+  - name: Stoppord
     href: freetext-search/stopwords.md
-  - name: Regenerate freetext index
+  - name: Bygge fritekstindeks på nytt
     href: freetext-search/regenerate-index.md
-- name: Timezones
+- name: Tidssoner
   topicHref: time-zones/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: time-zones/index.md
-  - name: Enable use of time zones
+  - name: Aktivere bruk av tidssoner
     href: time-zones/enable.md
-  - name: Select which time zones to show
+  - name: Velg hvilke tidssoner som skal vises
     href: time-zones/select.md
-- name: Number allocation
+- name: Nummertildeling
   topicHref: number-allocation/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: number-allocation/index.md
-  - name: Specify number allocation
+  - name: Angi nummertildeling
     href: number-allocation/configure.md
-  - name: Default values for new document templates
+  - name: Standardverdier for nye dokumentmaler
     href: number-allocation/document-template-defaults.md
-- name: Labels
+- name: Ledetekster
   topicHref: labels/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: labels/index.md
-  - name: Change labels
+  - name: Endre ledetekster
     href: labels/change.md
-  - name: Reset labels
+  - name: Tilbakestille ledetekster
     href: labels/reset.md
     
-- name: Reports
+- name: Rapporter
   href: reports.md
-- name: Customer languages
+- name: Kundespråk
   topicHref: custlang/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: custlang/index.md
-  - name: Create and edit customer languages
+  - name: Opprette og redigere kundespråk
     href: custlang/update.md
-  - name: Work with external categories
+  - name: Arbeide med eksterne kategorier
     href: custlang/external-categories.md
-  - name: Select customer language
+  - name: Velge kundespråk
     href: custlang/select-language.md

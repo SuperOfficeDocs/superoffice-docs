@@ -1,11 +1,11 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Activities
+  - name: Aktiviteter
     href: activities-sale.md
-  - name: Stakeholders
+  - name: Interessenter
     href: ../stakeholders/index.md
-  - name: Sales guide
+  - name: Salgsguide
     href: sales-guide-tab.md
-  - name: Quote
+  - name: Tilbud
     href: quote-tab.md

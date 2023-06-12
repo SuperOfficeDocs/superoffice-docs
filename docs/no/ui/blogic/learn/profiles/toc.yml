@@ -1,9 +1,9 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Personal profiles
+  - name: Personlige profiler
     href: personal.md
-  - name: Common profiles
+  - name: Felles profiler
     href: common.md
-  - name: Global profiles
+  - name: Globale profiler
     href: global.md

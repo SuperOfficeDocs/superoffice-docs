@@ -1,11 +1,11 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
 - name: Navigator
   href: navigator.md
-- name: Buttons on the top bar
+- name: Knapper på toppraden
   href: buttons-in-menu-bar.md
-- name: Side panels
+- name: Sidepaneler
   href: side-panel.md
-- name: Use in-app help
+- name: Bruke hjelp i appen
   href: in-app-help.md

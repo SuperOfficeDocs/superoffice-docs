@@ -1,19 +1,19 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Import from Excel
+  - name: Importere fra Excel
     href: import-from-excel.md
-  - name: Import from Outlook
+  - name: Importere fra Outlook
     href: import-from-outlook.md
-  - name: Import from Mac address book
+  - name: Importere fra Mac-adressebok
     href: import-from-mac-address-book.md
-  - name: Import from Gmail
+  - name: Importere fra Gmail
     href: import-from-gmail.md
-  - name: Import from ERP
+  - name: Importere fra ERP
     href: import-from-erp.md
-  - name: Import products from Excel
+  - name: Importere produkter fra Excel
     href: import-products-from-excel.md
-  - name: Create the import file
+  - name: Opprette importfilen
     href: create-import-file.md
-  - name: Configure import settings
+  - name: Konfigurere importinnstillinger
     href: configure-import-settings.md

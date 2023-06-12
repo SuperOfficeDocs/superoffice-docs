@@ -1,13 +1,13 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Configuration
+- name: Konfigurering
   href: config.md
-- name: Source files
+- name: Kildefiler
   href: edit.md
-- name: Send passwords to contacts
+- name: Sende passord til personer
   href: send-credentials.md
-- name: Enable chat
+- name: Vis nettprat
   href: enable-chat.md
-- name: Link a web form
+- name: Koble et webskjema
   href: link-form.md

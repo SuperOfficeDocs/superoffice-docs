@@ -1,38 +1,38 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Install Mail Link/WebTools
+- name: Installere Mail Link / WebTools
   href: install.md
-- name: Archive email
+- name: Arkivere e-post
   href: archive.md
-- name: Turn default archiving on/off
+- name: Slå standardarkivering på/av
   href: settings/archive-by-default.md
-- name: Work with emails
+- name: Arbeide med e-post
   topicHref: compose.md
   items:
-  - name: Create emails
+  - name: Opprette e-postmeldinger
     href: compose.md
-  - name: Create email from SuperOffice CRM
+  - name: Opprette e-post fra SuperOffice CRM
     href: create-in-superoffice.md
-  - name: Create email from Microsoft Outlook
+  - name: Opprett e-post fra Microsoft Outlook
     href: create-in-outlook.md
-  - name: Create email from Lotus Notes
+  - name: Opprette e-post fra Lotus Notes
     href: create-in-lotus.md
-  - name: Select recipients
+  - name: Velge mottakere
     href: select-recipients.md
-  - name: Manage senders
+  - name: Administrere avsendere
     href: manage-senders.md
-  - name: Add attachments
+  - name: Legge til vedlegg
     href: add-attachment.md
-  - name: Archive on company or contact
+  - name: Arkivere på firma eller person
     href: archive-on-contact.md
-  - name: Create activity
+  - name: Opprett aktivitet
     href: archive-as-activity.md
-  - name: Create request
+  - name: Opprette sak
     href: archive-as-request.md
-  - name: Archive attachments
+  - name: Arkivere vedlegg
     href: archive-attachment.md
 
-- name: SuperOffice CRM options dialog
+- name: Dialogboksen SuperOffice CRM-alternativer
   href: settings/toc.yml
   topicHref: settings/index.md

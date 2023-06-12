@@ -1,11 +1,11 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Add new layout
+- name: Legg til ny layout
   href: add-new-layout.md
-- name: Edit layout - Main cards
+- name: Redigere layout - Hovedkort
   href: edit-layout.md
-- name: Edit layout - Archives (section tabs)
+- name: Rediger layout - Arkiver (detaljkort)
   href: edit-layout-archives.md
-- name: Elements
+- name: Elementer
   href: elements.md

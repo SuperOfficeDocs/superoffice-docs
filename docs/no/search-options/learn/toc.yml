@@ -1,13 +1,13 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Find screen
+- name: Søke-skjerm
   href: find-screen.md
-- name: Search criteria
+- name: Søkekriterier
   href: search-criteria.md
-- name: Free-text search
+- name: Fritekstsøk
   href: freetext-search.md
-- name: Search from navigator
+- name: Søke fra navigator
   href: in-navigator.md
-- name: Search in dialogs
+- name: Søke i dialogbokser
   href: in-dialogs.md

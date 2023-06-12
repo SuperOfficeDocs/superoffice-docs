@@ -1,9 +1,9 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Add function to menu button (Task)
+  - name: Legg til funksjon på menyknapp (Oppgave)
     href: actions.md
-  - name: Add navigator group and extra menu
+  - name: Legg til navigatorgruppe og ekstrameny
     href: navigator.md
-  - name: Menu properties
+  - name: Egenskaper for meny
     href: properties.md

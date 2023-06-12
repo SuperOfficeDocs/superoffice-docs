@@ -1,48 +1,48 @@
 ### YamlMime:Tutorial
-uid: help-no-tutorial-selection-create
-title: Tutorial - Create a dynamic or static selection
+uid: tutorial-selection-create
+title: Opplæring - opprette et dynamisk eller statisk utvalg
 metadata:
-  title:  Tutorial - Create a dynamic or static selection
-  description: In this tutorial, you will learn how to create a dynamic or static selection.
+  title:  Opplæring - opprette et dynamisk eller statisk utvalg
+  description: I denne opplæringen lærer du hvordan du oppretter et dynamisk eller statisk utvalg.
   audience: User
   so.topic: tutorial
   so.date: 03.29.2023
   level: Intermediate
 items:
-- title: Find the data
+- title: Finn dataen
   durationInMinutes: 3
   content: |
-    1. Click **New** on the Top bar and select **Selection**.
+    1. Klikk på **Ny** i toppraden, og velg **Utvalg**.
 
-    1. In the Find screen, click the **Find** option that is relevant for the data type you want to use in your selection. You can also click **Typical searches** to use predefined searches.
+    1. I Finn-skjermen klikker du på **Finn**-valget som er relevant for datatypen du vil bruke i utvalget. Du kan også klikke på **Vanlige søk** for å bruke forhåndsdefinerte søk.
 
-    1. [Add your search criteria](../../../learn/search-criteria.md) in the **Criteria** tab.
+    1. [Legg til søkekriteriene](../../../learn/search-criteria.md) i fanen **Kriterier** .
 
-    1. Click **Find**. The **Results** tab displays the data matching your criteria.
+    1. Klikk på **Finn**. Fanen **Resultater** viser dataene som samsvarer med kriteriene dine.
 
-    1. To save the results in a selection, click **Save as selection**. If not, refine your search criteria.
+    1. Hvis du vil lagre resultatene i et merket område, klikker du **Lagre som utvalg**. Hvis ikke, endre søkekriteriene.
 
-    1. In the **Save as selection** dialog, choose type:
+    1. I dialogboksen **Lagre som utvalg** velger du type:
 
-        * **Dynamic selection** - this type of selection will always be updated with members that match the selection criteria.
-        * **Static selection** - this type of selection will contain only the members you have added manually.
+        * **Dynamisk utvalg** - denne typen utvalg blir alltid oppdatert med medlemmer som samsvarer med utvalgskriteriene.
+        * **Statisk utvalg** - denne typen valg inneholder bare medlemmene du har lagt til manuelt.
 
-    1. Click **Save**.
+    1. Klikk på **Lagre**.
+    
+    1. Skriv inn navnet på det nye utvalget der *Utvalgsnavn* vises. Dette feltet er obligatorisk.
 
-    1. Type the name of the new selection where *Selection name* appears. This field is mandatory.
+        Hvis du forsøker å registrere et utvalg med samme navn som et eksisterende utvalg, får du opp dialogboksen **Duplikater**. Denne fungerer på samme måte som for firmaer. Hvis du vil ha mer informasjon, kan du se [Duplikater](../../../../learn/basics/duplicates.md).
 
-        If you try to create a selection with the same name as an existing selection, the **Duplicates** dialog opens. This works in the same way as for companies. For details, see [Duplicates](../../../../learn/basics/duplicates.md).
+    1. I feltet **Utvalg er** kan du endre til en annen type valg om nødvendig.
 
-    1. In the **Selection is** field, you can change to another type of selection if necessary.
-
-- title: Choose details
+- title: Velg detaljer
   durationInMinutes: 3
   content: |
-    [!include[Set properties](includes/set-properties.md)]
+    [!include[Angi egenskaper](includes/set-properties.md)]
 
-- title: Finish
+- title: Fullfør
   durationInMinutes: 3
-  content: |
-    1. [!include[Add to Favorites](includes/add-to-fav.md)]
+  content: |-
+    1. [!include[Legge til i Favoritter](includes/add-to-fav.md)]
 
-    1. When you have finished defining the core data for the selection, click **Save**.
+    1. Når du er ferdig med å definere kjernedataene for utvalget, klikker du på **Lagre**.

@@ -1,7 +1,7 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Licenses screen
+- name: Lisenser-bilde
   href: screen\index.md
-- name: Activate license
+- name: Aktivere lisens
   href: activate.md

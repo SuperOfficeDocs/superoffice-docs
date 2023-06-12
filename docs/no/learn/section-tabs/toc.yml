@@ -1,11 +1,11 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Customize the column view
+  - name: Tilpasse kolonnevisningen
     href: configure-columns.md
-  - name: Use filters
+  - name: Bruke filtre
     href: filter.md
-  - name: Group lists
+  - name: Gruppelister
     href: group.md
-  - name: Export
+  - name: Eksportere
     href: export-archives.md

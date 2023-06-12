@@ -1,13 +1,13 @@
  items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Create role
+  - name: Opprette rolle
     href: create-role.md
-  - name: Set data rights for role
+  - name: Angi datarettigheter for rolle
     href: set-data-rights-for-role.md
-  - name: Edit role
+  - name: Redigere rolle
     href: editing-role.md
-  - name: Edit rights for anonymous users
+  - name: Redigere rettigheter for anonyme brukere
     href: edit-rights-for-anonymous-users.md
-  - name: Delete role
+  - name: Slette rolle
     href: deleting-role.md

@@ -1,15 +1,15 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: View activities
+  - name: Vise aktiviteter
     href: view-activities.md
-  - name: Delete activities
+  - name: Slette aktiviteter
     href: delete-activities-contact.md
-  - name: Open follow-up
+  - name: Åpne oppfølging
     href: ../../diary/learn/open-follow-up.md
-  - name: Reply to email from the Activities section tab
+  - name: Svare på e-post fra detaljkortet Aktiviteter
     href: replying-to-email-from-activities-section-tab.md
-  - name: Forward email from the Activities section tab
+  - name: Videresende e-post fra detaljkortet Aktiviteter
     href: forwarding-email-from-activities-section-tab.md
-  - name: Link documents to follow ups
+  - name: Koble dokumenter til oppfølging
     href: linking-documents-to-follow-ups.md

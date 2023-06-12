@@ -1,23 +1,23 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Edit quote dialog
+- name: Dialogboksen Rediger tilbud
   href: screen/edit-quote-dialog.md
-- name: Create quote
+- name: Opprette tilbud
   href: create.md
-- name: Copy quote
+- name: Kopiere tilbud
   href: copy.md
-- name: Add products
+- name: Legg til produkter
   href: add-product.md
-- name: Add alternatives
+- name: Legge til alternativer
   href: add-alternative.md
-- name: Create quote document
+- name: Opprette tilbudsdokument
   href: create-quote-document.md
-- name: Approve quote before sending
+- name: Godkjenne tilbud før sending
   href: approve.md
-- name: Send quote
+- name: Sende tilbud
   href: send.md
-- name: Edit a sent quote (versions)
+- name: Redigere sendt tilbud (versjoner)
   href: versions.md
-- name: Place an order
+- name: Registrere ordre
   href: create-order.md

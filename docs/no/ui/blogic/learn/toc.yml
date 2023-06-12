@@ -1,17 +1,17 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Profiles
+  - name: Profiler
     href: profiles/toc.yml
     topicHref: profiles/index.md
-  - name: ScreenChoosers
+  - name: Skjermvelgere
     href: screen-chooser.md
-  - name: Screen definition
+  - name: Definisjon av skjerm
     href: screen-definition.md
-  - name: Screen properties
+  - name: Egenskaper for bilde
     href: screen-properties.md
-  - name: Extra menus
+  - name: Ekstramenyer
     href: extra-menus/toc.yml
     topicHref: extra-menus/index.md
-  - name: Package properties
+  - name: Egenskaper for pakke
     href: ../../../admin/learn/screen/package-properties.md    

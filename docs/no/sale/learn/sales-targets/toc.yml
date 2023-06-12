@@ -1,7 +1,7 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Set up sales targets
+- name: Definere salgsmål
   href: create.md
-- name: Target types
+- name: Måltyper
   href: target-types.md

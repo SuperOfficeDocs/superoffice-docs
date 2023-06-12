@@ -1,136 +1,136 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Items
+- name: Forekomster
   topicHref: items.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: items.md
-  - name: Add items
+  - name: Legge til forekomster
     href: adding-items.md
-  - name: Edit items
+  - name: Redigere forekomster
     href: editing-items.md
-  - name: Delete items
+  - name: Slette forekomster
     href: deleting-items.md
-  - name: Duplicates
+  - name: Duplikater
     href: duplicates.md
-- name: Grouping and filtering
+- name: Gruppering og filtrering
   topicHref: organize/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: organize/index.md
-  - name: User group filtering
+  - name: Brukergruppefiltrering
     href: organize/user-group-filtering.md
-  - name: Headings
+  - name: Overskrifter
     topicHref: organize/headings.md
     items:
-    - name: Overview
+    - name: Oversikt
       href: organize/headings.md
-    - name: Groupe items under headings
+    - name: Gruppere forekomster under overskrifter
       href: organize/grouping-items-under-headings.md
-    - name: Add headings
+    - name: Legge til overskrifter
       href: organize/adding-headings.md
-    - name: Change and delete headings
+    - name: Endre og slette overskrifter
       href: organize/headings-editing-and-deleting.md
-  - name: Deleted items and headings
+  - name: Slettede forekomster og overskrifter
     href: organize/deleted-items-and-headings.md
-- name: Specialised lists
+- name: Spesialiserte lister
   topicHref: specialized-lists.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: specialized-lists.md
-  - name: Document template
+  - name: Dokumentmal
     topicHref: document-template.md
     items:
-    - name: Overview
+    - name: Oversikt
       href: document-template.md
-    - name: Edit standard templates
+    - name: Redigere standardmaler
       href: using-standard-templates.md
-    - name: Create document template
+    - name: Opprette dokumentmal
       href: creating-template-document.md
-    - name: Add template
+    - name: Legg til mal
       href: add-template.md
-    - name: Replace existing template
+    - name: Erstatte eksisterende mal
       href: replace-existing-template.md
-    - name: Document templates in multiple languages
+    - name: Dokumentmaler på flere språk
       href: ../../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
-  - name: Email template
+  - name: E-postmal
     href: email-template.md
     items:
-    - name: Add email template
+    - name: Legge til e-postmal
       href: add-email-template.md
-  - name: Follow-up type
+  - name: Oppfølgingstype
     href: follow-up-type.md
     items:
-    - name: Add follow-up type
+    - name: Legge til oppfølgingstype
       href: adding-items-to-follow-up-type-list.md
 
-  - name: Sale
+  - name: Salg
     topicHref: ../../../sale/learn/screen/sale-stage.md
     items:
-    - name: Sale stage
+    - name: Salgsfasen
       href: ../../../sale/learn/screen/sale-stage.md
-    - name: Add sale stage
+    - name: Legge til salgsfasen
       href: sale-stage.md
-    - name: Sale type, stages, quote
+    - name: "Salgstype, faser, tilbud"
       href: ../../../sale/learn/screen/sales-type-for-stages.md
-    - name: Add sales type
+    - name: Legg til salgstype
       href: sale-type.md
-    - name: Add sale amount class
+    - name: Legge til salgsbeløpsklasse
       href: sale-amount-class.md
 
-  - name: Project
+  - name: Prosjekt
     topicHref: ../../../project/learn/screen/project-status-admin.md
     items:
-    - name: Project status
+    - name: Prosjektstatus
       href: ../../../project/learn/screen/project-status-admin.md
-    - name: Add project status
+    - name: Legge til prosjektstatus
       href: project-status.md
-    - name: Project type
+    - name: Prosjekttype
       href: ../../../project/learn/screen/project-type-admin.md
-    - name: Add project type
+    - name: Legge til prosjekttype
       href: project-type.md
 
-  - name: General
+  - name: Generelt
     topicHref: country.md
     items:
-    - name: Country
+    - name: Land
       href: country.md
-    - name: Add country
+    - name: Legge til land
       href: add-items-to-country-list.md
-    - name: Currency
+    - name: Valuta
       href: currency.md
-    - name: Add currency
+    - name: Legge til valuta
       href: adding-items-to-currency-list.md
-    - name: Mailing domain
+    - name: Domene for utsendelse
       href: add-items-to-mailing-domain.md
-    - name: Relation
+    - name: Relasjon
       href: relation.md
-    - name: Add relation
+    - name: Legge til relasjon
       href: adding-items-to-relation-list.md
-    - name: Resource
+    - name: Ressurs
       href: resource.md
-    - name: Add resource
+    - name: Legge til ressurs
       href: adding-items-to-resource-list.md
-    - name: GUI web panel
+    - name: GUI-webpanel
       href: web-panel.md
       items:
-      - name: Add web panel
+      - name: Legge til webpanel
         href: web-panel-add-item.md
-    - name: Task menu
+    - name: Oppgave-meny
       href: add-items-to-task-menu.md
-    - name: GUI application list
+    - name: GUI-applikasjonsliste
       href: application.md
       items:
-      - name: Add application
+      - name: Legge til applikasjon
         href: adding-external-applications-to-application-list.md
 
-- name: User-defined lists
+- name: Brukerdefinerte lister
   topicHref: adding-user-defined-lists.md
   items:
-  - name: Add user-defined list
+  - name: Legge til brukerdefinert liste
     href: adding-user-defined-lists.md
-  - name: Edit list name and description
+  - name: Redigere listenavn og beskrivelse
     href: editing-lists-name-and-description.md
-  - name: Delete user-defined list
+  - name: Slette brukerdefinert liste
     href: deleting-user-defined-lists.md

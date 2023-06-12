@@ -1,26 +1,26 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Favorites
+  - name: Favoritter
     href: fav.md
-  - name: History list
+  - name: Historikkliste
     href: history.md
-  - name: Taking notes
+  - name: Ta notater
     href: notes.md
-  - name: Duplicate checks
+  - name: Duplisere kontroller
     href: duplicates.md
-  - name: Delete and restore
+  - name: Slett og gjenopprett
     href: deleting-elements.md
-  - name: Bulk update
+  - name: Masseredigering
     href: bulk-update.md
-  - name: Work with section tabs
+  - name: Arbeide med inndelingsfaner
     href: ../section-tabs/toc.yml
     topicHref: ../section-tabs/index.md
-  - name: Work with activities
+  - name: Arbeide med aktiviteter
     href: ../activity/toc.yml
     topicHref: ../activity/index.md
-  - name: Language and translation
+  - name: Språk og oversettelse
     href: ../../globalization-and-localization/learn/toc.yml
     topicHref: ../../globalization-and-localization/learn/change-language.md
-  - name: External applications and URL addresses
+  - name: Eksterne applikasjoner og URL-adresser
     href: external-applications-and-url-addresses.md

@@ -1,31 +1,31 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Work with custom objects
+- name: Arbeide med egendefinerte objekter
   items:
-  - name: User-defined fields
+  - name: Brukerdefinerte felt
     topicHref: udef/index.md
     items:
-    - name: Overview
+    - name: Oversikt
       href: udef/index.md
-    - name: Add field
+    - name: Legge til felt
       href: udef/add.md
-    - name: Move field
+    - name: Flytte felt
       href: udef/move.md
-    - name: Edit TAB order of fields
+    - name: Redigere TAB-rekkefølge for felt
       href: udef/change-tab-order.md
-    - name: Edit field
+    - name: Redigere felt
       href: udef/edit.md
-    - name: Page 1 fields
+    - name: Side 1-felt
       href: udef/page-1-fields.md
-    - name: Maximum number of fields
+    - name: Maksimalt antall felt
       href: udef/limitations.md
-  - name: Extra tables and fields
+  - name: Ekstra tabeller og felt
     topicHref: extra-table/index.md
     items:
-    - name: Overview
+    - name: Oversikt
       href: extra-table/index.md
-    - name: Add extra tables
+    - name: Legge til ekstra tabeller
       href: extra-table/create.md
-    - name: Add extra fields
+    - name: Legge til ekstrafelt
       href: extra-field/create.md

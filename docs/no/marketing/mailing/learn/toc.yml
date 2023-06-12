@@ -1,39 +1,39 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Create new mailing
+- name: Opprette ny utsendelse
   topicHref: create/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: create/index.md
-  - name: New mailing - Email
+  - name: Ny utsendelse - e-post
     href: create/tutorial-email-mailing.yml
-  - name: New mailing - SMS
+  - name: Ny utsendelse - SMS
     href: create/tutorial-sms-mailing.yml
-  - name: New mailing - Document
+  - name: Ny utsendelse - dokument
     href: create/tutorial-document-mailing.yml
-  - name: New mailing - Form response
+  - name: Ny utsendelse - skjemarespons
     href: create/tutorial-form-mailing.yml
-  - name: Add unsubscribe link (GDPR)
+  - name: Legg til lenke for å avslutte abonnement (GDPR)
     href: create/add-unsubscribe-link.md
-  - name: Send test email
+  - name: Sende test-e-post
     href: create/send-test-email.md
-  - name: Manage subscriptions
+  - name: Administrere abonnementer
     href: manage-email-subscriptions.md
-  - name: Target list
+  - name: Målliste
     href: create/target-list.md
-- name: Follow up mailings
+- name: Følge opp utsendelser
   topicHref: follow-up/index.md
   items:
-  - name: Overview
+  - name: Oversikt
     href: follow-up/index.md
-  - name: View statistics
+  - name: Vise statistikk
     href: follow-up/view-statistics.md
-  - name: Recipients list
+  - name: Liste over mottakere
     href: follow-up/look-at-recipient-list.md
-  - name: Manage bounces
+  - name: Behandle returmeldinger
     href: follow-up/manage-bounces.md
-  - name: Resend mailing
+  - name: Sende utsendelse på nytt
     href: follow-up/resend.md
-- name: Settings for mailings
+- name: Innstillinger for utsendelser
   href: admin/define-settings-for-mailings.md

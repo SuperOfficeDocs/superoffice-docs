@@ -1,11 +1,11 @@
 ### YamlMime:SubCategory
 
-title: User administration and system settings
-summary: "Learn about licenses, roles and users, languages and localizations, how to import external content, and how our AI services work."
+title: Brukeradministrasjon og systeminnstillinger
+summary: "Finn ut mer om lisenser, roller og brukere, språk og lokaliseringer, hvordan du importerer eksternt innhold, og hvordan AI-tjenestene våre fungerer."
 
 metadata:
-  title: User administration and system settings
-  description: "Licenses, user management, languages and localization, import"
+  title: Brukeradministrasjon og systeminnstillinger
+  description: "Lisenser, brukeradministrasjon, språk og lokalisering, import"
   so.product: administration
   so.topic: landing-page
   author: Help and Learn
@@ -17,35 +17,35 @@ metadata:
 landingContent:
 
   # Card
-  - title: Licenses
+  - title: Lisenser
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: License overview
+        - text: Oversikt over lisenser
           url: ../admin/license/learn/index.md
-        - text: The licenses screen
+        - text: Lisenser-bildet
           url: ../admin/license/learn/screen/index.md
-        - text: Activate license
+        - text: Aktivere lisens
           url: ../admin/license/learn/activate.md
 
   # Card
-  - title: User management
+  - title: Brukeradministrasjon
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Roles
+        - text: Roller
           url: ../admin/user-management/learn/role/index.md
-        - text: Create a role
+        - text: Opprett en rolle
           url: ../admin/user-management/learn/role/create-role.md
-        - text: Users
+        - text: Brukere
           url: ../admin/user-management/learn/index.md
-        - text: Add users
+        - text: Legge til brukere
           url: ../admin/user-management/learn/add-associate.md
-        - text: Update user information
+        - text: Oppdatere brukerinformasjon
           url: ../admin/user-management/learn/update-user.md
-        - text: Manage user groups
+        - text: Administrere brukergrupper
           url: ../admin/user-management/learn/user-groups.md
-        - text: Manage "Our companies"
+        - text: Vedlikeholde Våre firmaer
           url: ../admin/user-management/learn/our-companies.md
 
   # Card
@@ -53,17 +53,17 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Configure import settings
+        - text: Konfigurere importinnstillinger
           url: ../admin/import/learn/configure-import-settings.md
-        - text: Import from Excel
+        - text: Importere fra Excel
           url: ../admin/import/learn/import-from-excel.md
-        - text: Import products from Excel
+        - text: Importere produkter fra Excel
           url: ../admin/import/learn/import-products-from-excel.md
-        - text: Import from Gmail
+        - text: Importere fra Gmail
           url: ../admin/import/learn/import-from-gmail.md
-        - text: Import from Outlook
+        - text: Importere fra Outlook
           url: ../admin/import/learn/import-from-outlook.md
-        - text: Import from ERP
+        - text: Importere fra ERP
           url: ../admin/import/learn/import-from-erp.md
 
   # Card
@@ -71,9 +71,9 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Categorization
+        - text: Kategorisering
           url: ../ai/learn/categorization.md
-        - text: Text analysis
+        - text: Tekstanalyse
           url: ../ai/learn/text-analysis.md
 
  # Card
@@ -81,9 +81,9 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Connect to ERP
+        - text: Knytte til ERP
           url: ../admin/erp/learn/erp-connect.md
-        - text: Create ERP actor
+        - text: Opprett ERP-aktør
           url: ../admin/erp/learn/erp-create-new-actor.md
-        - text: Disable synchronization
+        - text: Deaktiver synkronisering
           url: ../admin/erp/learn/erp-sync-disconnect.md

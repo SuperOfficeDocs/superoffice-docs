@@ -1,89 +1,89 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Navigate in the Diary screen
+- name: Navigere i Dagbok-bildet
   href: screen/navigate-in-diary.md
-- name: Dialog for follow-up
+- name: Dialog for oppfølging
   href: screen/dialog-for-followups.md
-- name: Calendar views
+- name: Kalendervisninger
   topicHref: screen/day.md
   items:
-  - name: Day
+  - name: Dag
     href: screen/day.md
-  - name: Month
+  - name: Måned
     href: screen/month.md
-  - name: Week
+  - name: Uke
     href: screen/week.md
-  - name: View
+  - name: Oversikt
     href: screen/view.md
-  - name: Group view dialog
+  - name: Dialogboksen Gruppeoversikt
     href: screen/view-dialog.md
-  - name: View your or other diaries
+  - name: Se dine eller andre dagbøker
     href: open.md
-  - name: Create group view
+  - name: Opprette gruppeoversikt
     href: create-view.md
-- name: Section tabs
+- name: Detaljkort
   topicHref: screen/activities-tab.md
   items:
-  - name: Activities
+  - name: Aktiviteter
     href: screen/activities-tab.md
-  - name: Sales
+  - name: Salg
     href: screen/sales-tab.md
-- name: Work with follow-ups
+- name: Jobbe med oppfølginger
   topicHref: appointment.md
   items:
-  - name: Appointment
+  - name: Avtale
     topicHref: appointment.md
     items:
-    - name: Overview
+    - name: Oversikt
       href: appointment.md
-    - name: Create appointment
+    - name: Opprette avtale
       href: create-appointment.md
-  - name: Phone call
+  - name: Telefonsamtale
     topicHref: phone-call/index.md
     items:
-    - name: Overview
+    - name: Oversikt
       href: phone-call/index.md
-    - name: Enter phone call
+    - name: Gå inn i telefonsamtale
       href: phone-call/add.md
-    - name: Dial contact
+    - name: Ringe person
       href: phone-call/dial.md
-    - name: Phone preferences
+    - name: Telefonpreferanser
       href: phone-call/preferences.md
-  - name: Video meetings
+  - name: Videomøter
     href: video-meetings.md
-  - name: Tasks
+  - name: Oppgaver
     topicHref: task.md
     items:
-    - name: Overvew
+    - name: Oversikt
       href: task.md
-    - name: Create task
+    - name: Opprette oppgave
       href: create-task.md
-  - name: Add follow-up (appointment, task, or phone call)
+  - name: "Legge til oppfølging (avtale, oppgave eller samtale)"
     href: create-follow-up.md
-  - name: Edit follow-up
+  - name: Redigere oppfølging
     href: edit-follow-up.md
-  - name: Copy follow-up
+  - name: Kopiere oppfølging
     href: copy-follow-up.md
-  - name: Change end time
+  - name: Endre sluttid
     href: change-end-time.md
-  - name: Move follow-up
+  - name: Flytte oppfølgingen
     href: move-follow-up.md
-  - name: Complete follow-up
+  - name: Fullfør oppfølging
     href: change-completed-status.md
-  - name: Recurrence
+  - name: Gjentakelse
     href: recurrence/toc.yml
-  - name: Assign a follow-up to someone else
+  - name: Overføre en oppfølging til noen andre
     href: follow-up-assign.md
-  - name: Sett alarm for follow-up
+  - name: Sette alarm for oppfølging
     href: set-alarm.md
-  - name: Send a follow-up as an email
+  - name: Sende en oppfølging som e-post
     href: send-as-email.md
-  - name: Delete follow-up
+  - name: Slette oppfølging
     href: delete-follow-up.md
-  - name: Print follow-ups and Diary screen
+  - name: Skrive ut oppfølginger og Dagbok-skjerm
     href: print.md
 
-- name: Invitations
+- name: Invitasjoner
   href: invitation/toc.yml
   topicHref: invitation/index.md

@@ -1,7 +1,7 @@
 items:
-  - name: Overview
+  - name: Oversikt
     href: index.md
-  - name: Create email addresses
+  - name: Opprett e-postadresser
     href: add-email-address.md
-  - name: Administrate email address folders
+  - name: Administrere e-postadressemapper
     href: manage-folders.md

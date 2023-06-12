@@ -1,11 +1,11 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Compose email
+- name: Skrive e-post
   href: compose.md
-- name: Change default mail client in SuperOffice
+- name: Endre standard e-postklient i SuperOffice
   href: change-default-mail-client.md
-- name: Inbox
+- name: Innboks
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
 - name: SuperOffice for Outlook
