@@ -31,7 +31,7 @@ language: no
     * **Alle innkommende e-poster**: Hvis du velger dette alternativet, brukes e-postfilteret for alle innkommende e-postmeldinger.
     * **E-post som inneholder**: Hvis du velger dette alternativet, vil e-postmeldinger som inneholder det faste uttrykket (regexp) som er angitt i feltene til høyre, utløse e-postfilteret. Du kan velge mellom e-postens topptekst og / eller e-postteksten.
 
-1. På fanen **Finn regulære uttrykk** kan du definere regulære uttrykk som finner tekst i e-postmeldinger, og lagre dem som variabler. For å tilordne verdien fra et regulært uttrykk til en variabel kalt myVariable, bruk følgende format: myVariable =<regexp> .
+1. På fanen **Finn regulære uttrykk** kan du definere regulære uttrykk som finner tekst i e-postmeldinger, og lagre dem som variabler. For å tilordne verdien fra et regulært uttrykk til en variabel kalt myVariable, bruk følgende format: myVariable =&lt;regexp&gt; .
 
 1. I fanen **Angi koblinger** kan du angi hvordan innkommende e-post skal knyttes til en sak og/eller en person på grunnlag av e-postinnholdet:
     * **Koble til person hvor**: For å koble den genererte saken til en person basert på informasjon fra e-posten, velger du et av kontaktfeltene fra listen, og skriv deretter inn et regulært uttrykk som returnerer verdien som identifiserer personen.

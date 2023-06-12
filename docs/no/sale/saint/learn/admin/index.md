@@ -43,7 +43,7 @@ En status kan for eksempel gjelde for firmaer som oppfyller følgende kriterier:
 
 Teksten i feltet **Beskrivelse** kan da være:
 
-"<navn> har tidligere vært en god kunde, men vi har ikke solgt noe til dem på 2 måneder. <forts> er primærkontakten for denne kunden og bør kontakte kunden snart på telefon (<cpho>) eller e-post (<post>) for å finne ut hvorfor."
+"&lt;navn&gt; har tidligere vært en god kunde, men vi har ikke solgt noe til dem på 2 måneder. &lt;forts&gt; er primærkontakten for denne kunden og bør kontakte kunden snart på telefon (&lt;cpho&gt;) eller e-post (&lt;post&gt;) for å finne ut hvorfor."
 
 I dette eksempelet er følgende malvariabler brukt for å skreddersy teksten til gjeldende firma:
 
