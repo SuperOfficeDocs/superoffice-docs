@@ -62,13 +62,14 @@ Instead of having period-specific operators, they are now more generic. Each rel
 * previousPeriod (n) (interval)
 * thisPreviousAndNext (list)
 
-| Period types | |
+| Period values | Period names |
 |-- |:---------|
-| 1 | days     |
-| 2 | weeks    |
-| 3 | months   |
-| 4 | quarters |
-| 5 | years    |
+| 1 | day, days |
+| 2 | week, weeks, wk, wks    |
+| 3 | month, months, mon, mos   |
+| 4 | quarter, quarters, qtr, qtrs |
+| 5 | halfyear, halfyears, hyr, hyrs |
+| 6 | year, years, yr, yrs    |
 
 In this way, we can express `thisAndNext` 2 weeks or `thisAndPrevious` 2 years.
 
