@@ -141,6 +141,20 @@ landingContent:
         links:
         - text: Create sale
           url: howto/crmscript/create.md
+        - text: Get
+          url: howto/crmscript/get.md
+        - text: Update
+          url: howto/crmscript/update.md
+        - text: Stakeholders
+          url: howto/crmscript/stakeholders.md
+        - text: Guides
+          url: howto/crmscript/guides.md
+        - text: Currency
+          url: howto/crmscript/currency.md
+        - text: Lost or sold
+          url: howto/crmscript/lost-or-sold.md
+        - text: Samples
+          url: howto/crmscript/samples.md
         - text: Create quote
           url: ../quote/howto/crmscript/index.md
 
