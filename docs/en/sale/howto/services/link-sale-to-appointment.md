@@ -1,6 +1,6 @@
 ---
 title: How to link a sale to an appointment (services)
-uid: link_sale_to_appointment_ws
+uid: sale-link-appointment-ws
 description: How to link a sale to an appointment using web services.
 author: Bergfrid Skaara Dias
 so.date: 11.05.2021
@@ -61,4 +61,4 @@ There is no tool available through the services layer to just add a link to the 
 By calling the agent's `SaveAppointmentEntity` method, we save the appointment *and* the established link.
 
 <!-- Referenced links -->
-[1]: ../entity/link-sale-to-appointment-entity.md
+[1]: ../entity/link-sale-to-appointment.md

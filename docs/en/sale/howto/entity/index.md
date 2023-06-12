@@ -13,4 +13,4 @@ so.topic: howto
 * [Link sale to appointment][1]
 
 <!-- Referenced links -->
-[1]: link-sale-to-appointment-entity.md
+[1]: link-sale-to-appointment.md

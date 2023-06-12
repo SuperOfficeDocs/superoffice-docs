@@ -36,7 +36,7 @@ There are no native CRMScript classes pertaining to sales. Use the NetServer cla
 | status | EnumSaleStatus 1 = open, 2 = sold, 3 = lost, 4 = stalled |
 | done | EnumSaleDone 0 = unknown, 1 = no, 2 = yes |
 
-For a complete list of fields, see the [database reference][3].
+For a complete list of fields, see the [database reference][9].
 
 ## Timestamp values
 
@@ -49,11 +49,25 @@ For a complete list of fields, see the [database reference][3].
 
 ## How-tos and examples
 
+* [Record a sale (lead)][1]
 * [Retrieve a sale][2]
+* [Update or delete a sale][3]
+* [Working with won and lost sales][4]
+* [Working with stakeholders][5]
+* [Sales guides and stages][6]
+* [Currency][7]
+* [Samples][8]
 
 <!-- Referenced links -->
+[1]: create.md
 [2]: get.md
-[3]: ../../../database/tables/sale.md
+[3]: update.md
+[4]: lost-or-sold.md
+[5]: stakeholders.md
+[6]: guides.md
+[7]: currency.md
+[8]: samples.md
+[9]: ../../../database/tables/sale.md
 [10]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSSaleAgent.yml
 [11]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSSale.yml
 [12]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSSaleEntity.yml

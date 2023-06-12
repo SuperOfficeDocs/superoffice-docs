@@ -1,5 +1,5 @@
 ---
-uid: crmscript_sale-done
+uid: crmscript-sale-done
 title: Lost or sold sales
 author: Bergfrid Dias
 so.date: 10.27.2021

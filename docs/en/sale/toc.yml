@@ -33,12 +33,12 @@ items:
       href: howto/services/index.md
       items:
       - name: Link sale to appointment
-        href: howto/services/link-sale-to-appointment-services.md
-    - name: Entities
+        href: howto/services/link-sale-to-appointment.md
+    - name: Entities (data layer)
       href: howto/entity/index.md
       items:
       - name: Link sale to appointment
-        href: howto/entity/link-sale-to-appointment-entity.md
+        href: howto/entity/link-sale-to-appointment.md
     - name: Rows
       href: saint/howto/row/index.md
       items:
@@ -50,6 +50,6 @@ items:
       - name: Stakeholders
         href: howto/sql/stakeholders.md
       - name: Get contact by saint value
-        href: saint/howto/sql/get-contact-by-saint-value-sql.md
+        href: saint/howto/sql/get-contact-by-saint-value.md
       - name: Search SAINT values
-        href: saint/howto/sql/search-saint-values-sql.md
+        href: saint/howto/sql/search-saint-values.md
