@@ -3,11 +3,13 @@ items:
   href: index.yml
   expanded: true
   items:
-  - name: Introduction
+  - name: Introduction to sales
     href: overview.md
+  - name: Quote management
+    href: ../quote/index.md
   - name: Sales intelligence (SAINT)
     href: saint/index.md
-  - name: API options
+  - name: API options - sale
     href: howto/index.md
     items:
     - name: CRMScript
@@ -39,17 +41,12 @@ items:
       items:
       - name: Link sale to appointment
         href: howto/entity/link-sale-to-appointment.md
-    - name: Rows
-      href: saint/howto/row/index.md
-      items:
-      - name: Search SAINT (ContactRow.CustomSearch)
-        href: saint/howto/row/search-saint-contactrow-customsearch.md
     - name: Raw SQL
-      href: saint/howto/sql/index.md
       items:
       - name: Stakeholders
         href: howto/sql/stakeholders.md
-      - name: Get contact by saint value
-        href: saint/howto/sql/get-contact-by-saint-value.md
-      - name: Search SAINT values
-        href: saint/howto/sql/search-saint-values.md
+  - name: API options - SAINT
+    href: saint/howto/toc.yml
+  - name: API options - quote
+    href: ../quote/howto/toc.yml
+    topicHref: ../quote/howto/index.md
