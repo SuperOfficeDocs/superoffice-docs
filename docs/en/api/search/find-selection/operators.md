@@ -53,8 +53,7 @@ Relative operators take 2 arguments; the number of periods and the period type.
 * nextPeriod (n) (period type)
 * previousPeriod (n) (period type)
 
-
-| Period values | Period names |
+| Period type value | Period type names |
 |-- |:---------|
 | 1 | day, days |
 | 2 | week, weeks, wk, wks    |
@@ -63,7 +62,9 @@ Relative operators take 2 arguments; the number of periods and the period type.
 | 5 | halfyear, halfyears, hyr, hyrs |
 | 6 | year, years, yr, yrs    |
 
-In this way, we can express  `next` 2 weeks or `thisAndNext` 2 months or `thisAndPrevious` 2 years.
+In this way, you can express  `next` 2 weeks or `thisAndNext` 2 months or `thisAndPrevious` 2 years. 
+
+Period type names are eqivalent, meaning  `next` 2 week, `next` 2 weeks, `next` 2 wk and `next` 2 wks mean the same criteria.
 
 ### Legacy operators
 
