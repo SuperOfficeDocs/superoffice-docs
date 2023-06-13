@@ -3,7 +3,7 @@ title: What's new in SuperOffice 10.2
 uid: release-notes-10.2
 description: Release notes. What's new in SuperOffice 10.2
 author: Kirsti Aakerholt
-so.date: 06.06.2023
+so.date: 06.13.2023
 keywords: Core CRM, Service, Requests, Sales, Marketing, Settings and maintenance, Mobile CRM, Zapier, App store, API
 so.topic: reference
 so.version: 10.2
@@ -37,8 +37,9 @@ so.version: 10.2
   * Navigator Search in Core CRM
 
 * 10.2.6 (13.06.2023):
-  * [Close all tabs in Requests screen][] in Service
-  * [Search for requests in Find request tab][] in Service
+  * [Close all tabs in Requests screen][12] in Service
+  * [Archive attachment on a message][12] in Service
+  * [Search in the Find request tab gives both selections and requests][12] in Service
 
 ### Mobile CRM
 
@@ -58,14 +59,14 @@ so.version: 10.2
   * [Request with sale and project fields][9] in Mobile CRM
 
 * 10.2.12 (14.06.2023):
-  * [Drill down on Dashboards][] in Mobile CRM
+  * [Drill down on Dashboards][13] in Mobile CRM
 
 ### Other highlights
 
-* Developer portal 1.0 ():
-  * [Launch of Developer portal][]
+* Developer portal 1.0 (07.09.2022):
+  * [Launch of Developer portal][14]
 * Zapier app 3.2 (09.06.2023):
-  * [Contact interest in action step][] in Zapier app
+  * [Contact interest in action step][15] in our [Zapier app][16]
 
 <!-- Referenced links -->
 [1]: admin/10.2.1-update.md
@@ -79,5 +80,10 @@ so.version: 10.2
 [9]: mobile/10.2.11-update.md
 [10]: service/10.2.5-update.md
 [11]: mobile/10.2.7-update.md
+[12]: service/10.2.6-update.md
+[13]: mobile/10.2.12-update.md
+[14]: https://docs.superoffice.com/en/developer-portal/overview.html
+[15]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Zapier_3.2
+[16]: https://zapier.com/apps/superofficecrm/integrations
 
 <!-- Referenced images -->
