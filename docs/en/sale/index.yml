@@ -23,10 +23,16 @@ landingContent:
         links:
         - text: Introduction to sales
           url: overview.md
+        - text: Stalled, sold and lost sales
+          url: learn/stages.md
+        - text: Stakeholders
+          url: learn/stakeholders/index.md
         - text: Document templates
           url: ../document/learn/create.md
       - linkListType: reference
         links:
+        - text: The Sale screen section tabs
+          url: learn/screen/index.md
         - text: Template variables
           url: ../document/templates/variables/for-sales.md
       - linkListType: video
@@ -38,8 +44,10 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: How to register a request
+        - text: How to register a lead
           url: learn/create.md
+        - text: How to use the side panel efficiently
+          url: learn/use-side-panel.md
         - text: Add sale type (list)
           url: ../admin/lists/learn/sale-type.md
         - text: Add sale stage (list)
@@ -53,6 +61,12 @@ landingContent:
         links:
         - text: The sales guide
           url: learn/sales-guide/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Create
+          url: learn/sales-guide/create.md
+        - text: Work with sales guides
+          url: learn/sales-guide/working-with-sales-guide.md
       - linkListType: video
         links:
         - text: Sales guide product demo
@@ -68,6 +82,12 @@ landingContent:
           url: learn/sales-targets/index.md
         - text: Forecast and selections
           url: learn/forecasting.md
+      - linkListType: how-to-guide
+        links:
+        - text: Set up sales targets
+          url: learn/sales-targets/create.md
+        - text: Set up a sale target type
+          url: learn/sales-targets/target-types.md
 
   - title: SAINT
     linkLists:
@@ -75,10 +95,22 @@ landingContent:
         links:
         - text: What is SAINT and what can it do
           url: saint/learn/index.md
+        - text: Counters and values
+          url: saint/index.md
       - linkListType: how-to-guide
         links:
+        - text: Set up SAINT
+          url: saint/learn/admin/index.md
+        - text: Add status monitor
+          url: saint/learn/create-status.md
         - text: Add sale amount class (list)
           url: ../admin/lists/learn/sale-amount-class.md
+        - text: Use status monitors in a dynamic selection
+          url: saint/learn/using-status-monitors-in-dynamic-selections.md
+      - linkListType: reference
+        links:
+        - text: The View statuses dialog
+          url: saint/learn/status-dialog.md
 
   - title: Quote
     linkLists:
@@ -90,6 +122,20 @@ landingContent:
         links:
         - text: Create quotes
           url: ../quote/learn/create.md
+        - text: Add alternative
+          url: ../quote/learn/add-alternative.md
+        - text: Add product
+          url: ../quote/learn/add-product.md
+        - text: Place an order
+          url: ../quote/learn/create-order.md
+        - text: Add ERP connection (Quote Connector)
+          url: ../quote/learn/admin/erp-connection-add.md
+        - text: Add price list
+          url: ../quote/learn/admin/add-price-list.md
+        - text: Add product to price list
+          url: ../quote/learn/admin/add-product-to-price-list.md
+        - text: Configure products
+          url: ../quote/learn/admin/configure.md
       - linkListType: video
         links:
         - text: Track sales quotes
@@ -166,6 +212,11 @@ landingContent:
           url: ../api/reference/restful/rest/Sale/index.md
         - text: SOAP (services88)
           url: ../api/reference/soap/Services88/Sale/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Link sale to appointment (web services)
+          url: howto/services/index.md
+
 
   - title: Database tables
     linkLists:
