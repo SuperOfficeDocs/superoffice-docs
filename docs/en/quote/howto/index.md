@@ -19,7 +19,7 @@ so.topic: howto
 * [Place order][5]
 
 [1]: crmscript/create.md
-[2]: crmscript/quote-alternatives.md
+[2]: crmscript/add-alternative.md
 [3]: crmscript/products.md
 [4]: crmscript/quote-document.md
 [5]: crmscript/place-order.md

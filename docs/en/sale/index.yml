@@ -27,33 +27,30 @@ landingContent:
           url: learn/stages.md
         - text: Stakeholders
           url: learn/stakeholders/index.md
-        - text: Document templates
-          url: ../document/learn/create.md
-      - linkListType: reference
-        links:
-        - text: The Sale screen section tabs
-          url: learn/screen/index.md
-        - text: Template variables
-          url: ../document/templates/variables/for-sales.md
+        - text: Pipeline management
+          url: learn/sales-targets/index.md
+        - text: Forecast and selections
+          url: learn/forecasting.md
       - linkListType: video
         links:
         - text: Sales guide product demo
           url: https://www.youtube.com/watch?v=rOjUHDgYPGk
-
-  - title: Managing sales
-    linkLists:
       - linkListType: how-to-guide
         links:
         - text: How to register a lead
           url: learn/create.md
-        - text: How to use the side panel efficiently
-          url: learn/use-side-panel.md
+        - text: Set up sales targets
+          url: learn/sales-targets/create.md
         - text: Add sale type (list)
           url: ../admin/lists/learn/sale-type.md
         - text: Add sale stage (list)
           url: ../admin/lists/learn/sale-stage.md 
         - text: Add currency (list)
           url: ../admin/lists/learn/adding-items-to-currency-list.md
+      - linkListType: reference
+        links:
+        - text: Template variables
+          url: ../document/templates/variables/for-sales.md
 
   - title: Sales guide (workflow)
     linkLists:
@@ -74,44 +71,6 @@ landingContent:
         - text: How to visualize sales process
           url: https://www.youtube.com/watch?v=KB3WWZjXlYc
 
-  - title: Targets and forecasting
-    linkLists:
-      - linkListType: concept
-        links:
-        - text: Pipeline management
-          url: learn/sales-targets/index.md
-        - text: Forecast and selections
-          url: learn/forecasting.md
-      - linkListType: how-to-guide
-        links:
-        - text: Set up sales targets
-          url: learn/sales-targets/create.md
-        - text: Set up a sale target type
-          url: learn/sales-targets/target-types.md
-
-  - title: SAINT
-    linkLists:
-      - linkListType: concept
-        links:
-        - text: What is SAINT and what can it do
-          url: saint/learn/index.md
-        - text: Counters and values
-          url: saint/index.md
-      - linkListType: how-to-guide
-        links:
-        - text: Set up SAINT
-          url: saint/learn/admin/index.md
-        - text: Add status monitor
-          url: saint/learn/create-status.md
-        - text: Add sale amount class (list)
-          url: ../admin/lists/learn/sale-amount-class.md
-        - text: Use status monitors in a dynamic selection
-          url: saint/learn/using-status-monitors-in-dynamic-selections.md
-      - linkListType: reference
-        links:
-        - text: The View statuses dialog
-          url: saint/learn/status-dialog.md
-
   - title: Quote
     linkLists:
       - linkListType: concept
@@ -131,15 +90,38 @@ landingContent:
         - text: Add ERP connection (Quote Connector)
           url: ../quote/learn/admin/erp-connection-add.md
         - text: Add price list
-          url: ../quote/learn/admin/add-price-list.md
+          url: ../quote/learn/admin/product/add-price-list.md
         - text: Add product to price list
-          url: ../quote/learn/admin/add-product-to-price-list.md
+          url: ../quote/learn/admin/product/add-product-to-price-list.md
         - text: Configure products
-          url: ../quote/learn/admin/configure.md
+          url: ../quote/learn/admin/product/configure.md
       - linkListType: video
         links:
         - text: Track sales quotes
           url: https://www.youtube.com/watch?v=lzJ6AsAhyE4
+
+  - title: SAINT
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: What is SAINT and what can it do
+          url: saint/learn/index.md
+        - text: Counters and values
+          url: saint/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Set up SAINT
+          url: saint/learn/admin/index.md
+        - text: Add status monitor
+          url: saint/learn/admin/create-status.md
+        - text: Add sale amount class (list)
+          url: ../admin/lists/learn/sale-amount-class.md
+        - text: Use status monitors in a dynamic selection
+          url: saint/learn/using-status-monitors-in-dynamic-selections.md
+      - linkListType: reference
+        links:
+        - text: The View statuses dialog
+          url: saint/learn/status-dialog.md
 
   - title: UI customization
     linkLists:
