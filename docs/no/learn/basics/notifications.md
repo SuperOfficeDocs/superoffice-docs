@@ -17,7 +17,7 @@ Når du klikker på **bjelleikonet** ![icon][img1] øverst til høyre i SuperOff
 
 * Klikk på et listeelement for å åpne det.
 * Klikk på ![icon][img2] for å angi varslingspreferansene dine.
-* Klikk på**Slett alt** i bunnteksten i varslingsruten for å tømme listen over varsler. Du kan også klikke på **Greit** under et varsel for å fjerne det.
+* Klikk på **Slett alt** i bunnteksten i varslingsruten for å tømme listen over varsler. Du kan også klikke på **Greit** under et varsel for å fjerne det.
 * Klikk på ![icon][img3] eller hvor som helst utenfor varslingsruten for å lukke det.
 
 ![Popup-vinduet med varsel som viser både varsler om saker og invitasjoner -screenshot][img5]
@@ -36,7 +36,8 @@ Dette er de forskjellige saksvarslene:
 * **Favorittsak oppdatert**: En av favorittsakene dine har blitt oppdatert.
 * **Egendefinert melding**: En egendefinert melding er lagt til i en sak.
 
-    ! Notat: Listen over saksvarsler blir slettet hver natt, noe som betyr at eventuelle saksvarsler du har i listen din på slutten av dagen, ikke vil være der i morgen.
+> [!NOTE]
+> Listen over saksvarsler blir slettet hver natt, noe som betyr at eventuelle saksvarsler du har i listen din på slutten av dagen, ikke vil være der i morgen.
 
 ## Aktivitetsvarsler
 
@@ -50,7 +51,8 @@ Dette er de forskjellige aktivitetsvarslene:
 * **Møte avlyst**: Møtet er avlyst. Klikk på koblingen for å åpne kalenderelementet, eller klikk **Greit** for å fjerne det fra varslene.
 * **Invitasjon avslått**: En møtedeltaker har avslått invitasjonen. Klikk på koblingen for å åpne kalenderelementet, eller klikk **Greit** for å fjerne det fra varslene.
 
-    ! Notat: Invitasjoner og endrede aktiviteter fjernes ikke fra varslingsruten, men blir værende til du enten **godtar** eller **avslår** invitasjonen.
+> [!NOTE]
+> Invitasjoner og endrede aktiviteter fjernes ikke fra varslingsruten, men blir værende til du enten **godtar** eller **avslår** invitasjonen.
 
 ## Varslingsinnstillinger
 

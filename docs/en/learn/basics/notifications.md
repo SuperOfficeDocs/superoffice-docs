@@ -55,7 +55,8 @@ These are the different activity notifications:
 
 * **Invitation declined**: A meeting attendee has declined the invitation. Click the link to open the calendar item, or click **Got it** to remove it from your notifications.
 
-    !Note: Invitations and changed activities will not be removed from the notifications panel but will remain until you either **Accept** or **Decline** the invitation.
+> [!NOTE]
+> Invitations and changed activities will not be removed from the notifications panel but will remain until you either **Accept** or **Decline** the invitation.
 
 ## Notification settings
 

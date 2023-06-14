@@ -1,6 +1,8 @@
 items:
   - name: Oversikt
     href: index.md
+  - name: Varsler
+    href: notifications.md
   - name: Favoritter
     href: fav.md
   - name: Historikkliste
