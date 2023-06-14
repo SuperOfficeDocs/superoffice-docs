@@ -93,4 +93,4 @@ If you double-click a document and nothing happens, try to right-click it and se
 [3]: screen/index.md
 
 <!-- Referenced images -->
-[img1]: media/upload.png
+[img1]: ../../../media/loc/en/document/upload.png

@@ -1,0 +1,136 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Forekomster
+  topicHref: items.md
+  items:
+  - name: Oversikt
+    href: items.md
+  - name: Legge til forekomster
+    href: adding-items.md
+  - name: Redigere forekomster
+    href: editing-items.md
+  - name: Slette forekomster
+    href: deleting-items.md
+  - name: Duplikater
+    href: duplicates.md
+- name: Gruppering og filtrering
+  topicHref: organize/index.md
+  items:
+  - name: Oversikt
+    href: organize/index.md
+  - name: Brukergruppefiltrering
+    href: organize/user-group-filtering.md
+  - name: Overskrifter
+    topicHref: organize/headings.md
+    items:
+    - name: Oversikt
+      href: organize/headings.md
+    - name: Gruppere forekomster under overskrifter
+      href: organize/grouping-items-under-headings.md
+    - name: Legge til overskrifter
+      href: organize/adding-headings.md
+    - name: Endre og slette overskrifter
+      href: organize/headings-editing-and-deleting.md
+  - name: Slettede forekomster og overskrifter
+    href: organize/deleted-items-and-headings.md
+- name: Spesialiserte lister
+  topicHref: specialized-lists.md
+  items:
+  - name: Oversikt
+    href: specialized-lists.md
+  - name: Dokumentmal
+    topicHref: document-template.md
+    items:
+    - name: Oversikt
+      href: document-template.md
+    - name: Redigere standardmaler
+      href: using-standard-templates.md
+    - name: Opprette dokumentmal
+      href: creating-template-document.md
+    - name: Legg til mal
+      href: add-template.md
+    - name: Erstatte eksisterende mal
+      href: replace-existing-template.md
+    - name: Dokumentmaler på flere språk
+      href: ../../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+  - name: E-postmal
+    href: email-template.md
+    items:
+    - name: Legge til e-postmal
+      href: add-email-template.md
+  - name: Oppfølgingstype
+    href: follow-up-type.md
+    items:
+    - name: Legge til oppfølgingstype
+      href: adding-items-to-follow-up-type-list.md
+
+  - name: Salg
+    topicHref: ../../../sale/learn/screen/sale-stage.md
+    items:
+    - name: Salgsfasen
+      href: ../../../sale/learn/screen/sale-stage.md
+    - name: Legge til salgsfasen
+      href: sale-stage.md
+    - name: "Salgstype, faser, tilbud"
+      href: ../../../sale/learn/screen/sales-type-for-stages.md
+    - name: Legg til salgstype
+      href: sale-type.md
+    - name: Legge til salgsbeløpsklasse
+      href: sale-amount-class.md
+
+  - name: Prosjekt
+    topicHref: ../../../project/learn/screen/project-status-admin.md
+    items:
+    - name: Prosjektstatus
+      href: ../../../project/learn/screen/project-status-admin.md
+    - name: Legge til prosjektstatus
+      href: project-status.md
+    - name: Prosjekttype
+      href: ../../../project/learn/screen/project-type-admin.md
+    - name: Legge til prosjekttype
+      href: project-type.md
+
+  - name: Generelt
+    topicHref: country.md
+    items:
+    - name: Land
+      href: country.md
+    - name: Legge til land
+      href: add-items-to-country-list.md
+    - name: Valuta
+      href: currency.md
+    - name: Legge til valuta
+      href: adding-items-to-currency-list.md
+    - name: Domene for utsendelse
+      href: add-items-to-mailing-domain.md
+    - name: Relasjon
+      href: relation.md
+    - name: Legge til relasjon
+      href: adding-items-to-relation-list.md
+    - name: Ressurs
+      href: resource.md
+    - name: Legge til ressurs
+      href: adding-items-to-resource-list.md
+    - name: GUI-webpanel
+      href: web-panel.md
+      items:
+      - name: Legge til webpanel
+        href: web-panel-add-item.md
+    - name: Oppgave-meny
+      href: add-items-to-task-menu.md
+    - name: GUI-applikasjonsliste
+      href: application.md
+      items:
+      - name: Legge til applikasjon
+        href: adding-external-applications-to-application-list.md
+
+- name: Brukerdefinerte lister
+  topicHref: adding-user-defined-lists.md
+  items:
+  - name: Legge til brukerdefinert liste
+    href: adding-user-defined-lists.md
+  - name: Redigere listenavn og beskrivelse
+    href: editing-lists-name-and-description.md
+  - name: Slette brukerdefinert liste
+    href: deleting-user-defined-lists.md

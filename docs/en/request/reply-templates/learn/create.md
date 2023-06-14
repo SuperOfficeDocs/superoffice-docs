@@ -116,4 +116,4 @@ You can select the degree of correlation between the request from the customer a
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/main-menu.png
 [img2]: ../../../../media/icons/main-menu-small.png
-[img3]: media/create-a-new-reply-template.png
+[img3]: ../../../../media/loc/en/request/create-a-new-reply-template.png

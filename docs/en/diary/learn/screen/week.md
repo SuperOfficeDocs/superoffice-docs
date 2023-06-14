@@ -24,4 +24,4 @@ To open the **Day** tab for a particular day, click the relevant day heading.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/personal-settings-small.png
-[img2]: media/week-plan.bmp
+[img2]: ../../../../media/loc/en/diary/week-plan.bmp

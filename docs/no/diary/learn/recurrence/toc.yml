@@ -1,0 +1,9 @@
+items:
+  - name: Oversikt
+    href: index.md
+  - name: Opprette regelmessig oppfølging
+    href: create.md
+  - name: Redigerer regelmessig oppfølging
+    href: edit.md
+  - name: Stoppe regelmessig oppfølging
+    href: stop.md

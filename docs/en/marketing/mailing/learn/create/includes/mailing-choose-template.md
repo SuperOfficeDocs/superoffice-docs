@@ -26,4 +26,4 @@ After you have figured out what design you want to use, you can choose the templ
 
 <!-- Referenced images -->
 [img1]: ../../../../../../../common/icons/nav-search.png
-[img2]: media/work-with-templates.png
+[img2]: ../../../../../../media/loc/en/marketing/work-with-templates.png

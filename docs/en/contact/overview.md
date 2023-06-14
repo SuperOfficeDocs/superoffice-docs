@@ -92,4 +92,4 @@ It is important to keep in mind that there's not a 1:1 mapping of labels and tha
 [14]: ../sale/index.yml
 
 <!-- Referenced images -->
-[img1]: media/edit-person.png
+[img1]: ../../media/loc/en/contact/edit-person.png

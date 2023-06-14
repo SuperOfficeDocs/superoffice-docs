@@ -1,0 +1,10 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Saksbilde
+  href: screen/index.md
+- name: Håndter saker med AI
+  href: handle-request-ai.md
+- name: Arbeide med saker
+  href: howto/toc.yml
+  topicHref: find.md

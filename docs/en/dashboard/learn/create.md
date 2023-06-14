@@ -67,4 +67,4 @@ There is a lot of standard tiles to choose from in the library, but you can also
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/az.png
-[img2]: media/10-dashboard-create-dashboard_dragdrop.png
+[img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png

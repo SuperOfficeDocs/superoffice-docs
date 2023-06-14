@@ -109,4 +109,4 @@ If you do not find the tile you need among the set of pre-defined tiles in Super
 [img1]: ../../../../common/icons/pinned.png
 [img2]: ../../../../common/icons/favourite-yes.png
 [img3]: ../../../media/icons/dashboard/dashboard-refresh.png
-[img4]: media/dashboard-overview.png
+[img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

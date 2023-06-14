@@ -85,4 +85,4 @@ You can, for example, decide whether a person can delete, update, create, or rea
 [6]: ../role/set-data-rights-for-role.md
 
 <!-- Referenced images -->
-[img1]: media/manage-user-levels.png
+[img1]: ../../../../../media/loc/en/admin/manage-user-levels.png

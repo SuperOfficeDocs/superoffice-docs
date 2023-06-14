@@ -37,7 +37,7 @@ Documents within the library inherit the permission from the library itself.
 <!-- Referenced links -->
 [1]: index.md
 [2]: ../../../../admin/lists/learn/add-template.md
-[3]: ../set-up.md
+[3]: ../../../../../en/document/cloud/sharepoint-documents/set-up.md
 
 <!-- Referenced images -->
-[img1]: media/admin-preferences-documentlibrary-sharepoint-permissions.png
+[img1]: ../../../../../media/loc/en/document/admin-preferences-documentlibrary-sharepoint-permissions.png

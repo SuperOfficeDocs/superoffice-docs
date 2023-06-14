@@ -86,4 +86,4 @@ The best way to define your own project or sales guides is to discuss and agree 
 [9]: ../preferences/learn/index.md
 
 <!-- Referenced images -->
-[img1]: media/project-guide.png
+[img1]: ../../../media/loc/en/admin/project-guide.png

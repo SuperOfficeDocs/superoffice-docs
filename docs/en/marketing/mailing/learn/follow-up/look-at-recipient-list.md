@@ -37,7 +37,7 @@ After the mailing is sent, SuperOffice Marketing collects data about the status 
 
 5. Click the ![icon][img2] menu button. Here you have the following options:
     * Export the selected recipients to an Excel, HTML, or text file.
-    * [Add the selected recipients to a new or existing selection or project](#add-recipients-to-selections-or-projects).
+    * [Add the selected recipients to a new or existing selection or project](#add-recipients).
     * Resend the mailing to the selected recipients.
 
 6. Click **Close** to close the **View mailing** screen.
@@ -67,7 +67,7 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 
 If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status will be changed to **Sent** after this is done.
 
-## Add recipients to selections or projects
+## <a id="add-recipients" />Add recipients to selections or projects
 
 Using the ![icon][img2] menu button you can add recipients and clickers to a selection or project.
 
@@ -94,4 +94,4 @@ Using the ![icon][img2] menu button you can add recipients and clickers to a sel
 [img1]: ../../../../../media/icons/arrow-right.png
 [img2]: ../../../../../media/icons/btn-menu.png
 [img3]: ../../../../../../common/icons/nav-contact.png
-[img4]: media/recipients-tab-status.png
+[img4]: ../../../../../media/loc/en/marketing/recipients-tab-status.png

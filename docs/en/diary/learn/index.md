@@ -80,4 +80,4 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 [23]: video-meetings.md
 
 <!-- Referenced images -->
-[img1]: media/diary.png
+[img1]: ../../../media/loc/en/diary/diary.png

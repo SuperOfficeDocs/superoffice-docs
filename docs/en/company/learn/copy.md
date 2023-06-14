@@ -43,4 +43,4 @@ At some stage, you may want to copy an existing company to a new company. For ex
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img3]: media/copy-company.bmp
+[img3]: ../../../media/loc/en/company/copy-company.bmp

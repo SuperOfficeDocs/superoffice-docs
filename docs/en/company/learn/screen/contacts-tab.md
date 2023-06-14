@@ -71,6 +71,6 @@ They will then be shown in a different color. They are also shown in this way on
 [8]: ../../../learn/section-tabs/configure-columns.md
 
 <!-- Referenced images -->
-[img1]: media/contacts-detail.bmp
+[img1]: ../../../../media/loc/en/company/contacts-detail.bmp
 [img2]: ../../../../media/icons/pin.bmp
 [img3]: ../../../../media/icons/binders.bmp

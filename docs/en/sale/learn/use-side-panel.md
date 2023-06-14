@@ -1,13 +1,13 @@
 ---
-title: help-en-sale-side-panel
-uid: How to use the side-panel in sales
+title: How to use the side-panel in sales
+uid: help-en-sale-side-panel
 description: How to use the side panel efficiently for sales
 author: Bergfrid Dias
 so.date: 12.14.2022
 keywords: sale, side-panel, selection
 so.topic: howto
 so.version: 10
-so.lang: en
+language: en
 ---
 
 # How to use the side panel efficiently for sales
@@ -31,4 +31,4 @@ In the same way you can use a selection of contacts as a calling list to follow 
 [3]: forecasting.md
 
 <!-- Referenced images -->
-[img1]: media/getstarted-sidepanel-saleselection.png
+[img1]: ../../../media/loc/en/sale/getstarted-sidepanel-saleselection.png

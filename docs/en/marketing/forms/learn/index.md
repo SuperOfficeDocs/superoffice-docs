@@ -67,5 +67,5 @@ Having a dashboard for form submission makes it easy to measure and visualize th
 [6]: submissions/process.md
 
 <!-- Referenced images -->
-[img1]: media/edit-form.png
-[img2]: media/find-forms.png
+[img1]: ../../../../media/loc/en/marketing/edit-form.png
+[img2]: ../../../../media/loc/en/marketing/find-forms.png

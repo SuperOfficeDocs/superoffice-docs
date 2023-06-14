@@ -100,5 +100,5 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 [img6]: ../../../../media/icons/notice-pending.png
 [img7]: ../../../../../common/icons/search-icon-black.png
 [img3]: ../../../../../common/icons/plus-black.png
-[img8]: ../../../media/find.png
-[img9]: ../../../media/superoffice-logo.bmp
+[img8]: ../../../../media/loc/en/learn/find.png
+[img9]: ../../../../media/superoffice-logo.bmp

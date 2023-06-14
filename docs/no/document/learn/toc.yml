@@ -1,0 +1,29 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Dokumentbilde
+  href: screen/index.md
+- name: Arbeide med dokument
+  topicHref: create.md
+  items:
+  - name: Opprett nytt dokument
+    href: create.md
+  - name: Laste opp dokument
+    href: upload.md
+  - name: Åpne dokument
+    href: open.md
+  - name: Sjekke inn/ut dokument
+    href: lock.md
+  - name: Redigere dokument
+    href: edit.md
+  - name: Sende dokument som e-post
+    href: send-as-email.md
+  - name: Slette dokumenter
+    href: delete.md
+  - name: Eksempler på malvariabler
+    href: template-variables.md
+#- name: SharePoint document library integration
+#  href: ../cloud/sharepoint-documents/learn/index.md
+#  items:
+#  - name: Set up folders
+#    href: ../cloud/sharepoint-documents/learn/set-up-folders.md

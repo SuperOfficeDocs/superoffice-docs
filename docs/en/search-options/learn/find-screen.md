@@ -289,7 +289,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../media/find.png
+[img2]: ../../../media/loc/en/learn/find.png
 [img3]: ../../../../common/icons/delete-circle-red.png
 [img4]: ../../../media/icons/criteria-move.png
 [img5]: ../../../../common/icons/singlecolour/sale.png
@@ -297,4 +297,4 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 [img7]: ../../../../common/icons/singlecolour/person.png
 [img8]: ../../../../common/icons/singlecolour/project.png
 [img9]: ../../../../common/icons/singlecolour/appointment.png
-[img10]: media/task-menu.png
+[img10]: ../../../media/loc/en/search-options/task-menu.png

@@ -1,0 +1,13 @@
+items:
+  - name: Oversikt
+    href: index.md
+  - name: Legg til prosjektdeltaker
+    href: add.md
+  - name: Redigere prosjektdeltaker
+    href: edit.md
+  - name: Invitere til møte
+    href: invite-to-meeting.md
+  - name: Sende e-post til prosjektdeltakere
+    href: send-email-to.md
+  - name: Lage en dokumentutsendelse til prosjektdeltakere
+    href: create-mailing.md

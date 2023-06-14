@@ -116,6 +116,6 @@ Click **Confirm** when you are done.
 * [SharePoint documents][1] - technical overview
 
 <!-- Referenced links -->
-[1]: ../../../../document/cloud/sharepoint-documents/index.md
+[1]: ../../../../../en/document/cloud/sharepoint-documents/index.md
 
 <!-- Referenced images -->

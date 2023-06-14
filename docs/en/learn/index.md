@@ -7,7 +7,7 @@ so.date: 03.02.2023
 keywords: user guide, help
 so.topic: concept
 so.version: 10
-so.lang: en
+language: en
 so.envir:
 so.client:
 ---

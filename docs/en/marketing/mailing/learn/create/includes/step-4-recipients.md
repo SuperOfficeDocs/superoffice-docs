@@ -1,4 +1,4 @@
-<!-- markdownlint-disable-file MD041 -->
+<!-- markdownlint-disable-file MD041 MD034 -->
 When creating a mailing, you must select the recipients of the mailing. You can add recipients from multiple sources. In addition, you can set various mailing options here and also preview the mailing.
 
 Your target list is the group of people you believe will respond best to your message. If you tailor your marketing message specifically to that group, you get a better chance of success and avoid wasting time and effort on people who are not interested.
@@ -65,7 +65,7 @@ When you import a list of names and email addresses, SuperOffice Marketing will 
 
 * Each recipient (row) consist of the full name and email address.
 
-    Example: "John Smith, john@company.com")
+    Example: "John Smith, john@company.com"
 
     > [!NOTE]
     > You can also specify just the email address. The name will then not be available as a template variable.
@@ -134,4 +134,4 @@ Click **Next** to go to Step 5: Confirm. You can still revisit the **Recipients*
 <!-- Referenced images -->
 [img1]: ../../../../../../media/icons/btn-add.png
 [img2]: ../../../../../../../common/icons/salelost.png
-[img3]: media/add-target-list.png
+[img3]: ../../../../../../media/loc/en/marketing/add-target-list.png

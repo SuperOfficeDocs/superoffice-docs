@@ -149,14 +149,14 @@ Have trouble logging in? [Check our FAQs][1] for different log-in issues.
 [4]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-a-newly-created-user-cannot-log-in-to-superoffice-crm/
 [5]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 [6]: preferences.md#options
-[7]: ../../identity-management/single-sign-on/index.md
+[7]: ../../../en/identity-management/single-sign-on/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
-[img3]: media/create-password-strenght-indicator.png
-[img4]: media/login-screen.png
-[img5]: media/activate-now-email.png
-[img6]: media/create-password.png
-[img7]: media/login-screen-google.png
-[img8]: media/login-screen-google-password.png
-[img9]: media/login-screen-microsoft-password.png
+[img3]: ../../../media/loc/en/learn/create-password-strenght-indicator.png
+[img4]: ../../../media/loc/en/learn/login-screen.png
+[img5]: ../../../media/loc/en/learn/activate-now-email.png
+[img6]: ../../../media/loc/en/learn/create-password.png
+[img7]: ../../../media/loc/en/learn/login-screen-google.png
+[img8]: ../../../media/loc/en/learn/login-screen-google-password.png
+[img9]: ../../../media/loc/en/learn/login-screen-microsoft-password.png

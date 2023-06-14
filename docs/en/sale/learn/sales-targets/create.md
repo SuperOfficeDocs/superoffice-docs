@@ -121,7 +121,7 @@ If you have added some numbers that are not correct, or a user has quit the comp
 
 Click the **Task** button to export the sales target for the selected year to Excel or PDF.
 
-## Import
+## <a id="import" />Import
 
 You can copy target data from Excel and paste the data into the table in SuperOffice.
 
@@ -153,5 +153,5 @@ To view the revision history for a sales target (row), click the menu button ![i
 [img2]: ../../../../../common/icons/context-menu.png
 [img3]: ../../../../../common/icons/lock-on.png
 [img4]: ../../../../../common/icons/lock-off.png
-[img5]: media/user-targets-salestargets.png
-[img6]: media/user-targets-salestargets-adjustnumbers.png
+[img5]: ../../../../media/loc/en/sale/user-targets-salestargets.png
+[img6]: ../../../../media/loc/en/sale/user-targets-salestargets-adjustnumbers.png

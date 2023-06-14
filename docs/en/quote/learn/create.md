@@ -58,4 +58,4 @@ After you have selected an ERP connection, you can continue to create a quote.
 [8]: create-order.md
 
 <!-- Referenced images -->
-[img1]: media/quote-create-send.gif
+[img1]: ../../../media/loc/en/quote/quote-create-send.gif

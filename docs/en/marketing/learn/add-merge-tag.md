@@ -36,8 +36,8 @@ Merge tags come in many forms: those might be the customer's first name, their c
 
 <!-- Referenced links -->
 [1]: ../mailing/learn/create/send-test-email.md
-[2]: ../../document/templates/variables/index.md
+[2]: ../../../en/document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img1]: media/template-variable.png
-[img2]: media/merge-tags.png
+[img1]: ../../../media/loc/en/marketing/template-variable.png
+[img2]: ../../../media/loc/en/marketing/merge-tags.png

@@ -7,7 +7,7 @@ so.date: 03.06.2023
 keywords: email, signature
 so.topic: howto
 so.version: 10
-so.lang: en
+language: en
 so.envir:
 so.audience: person
 so.audience.tooltip: SuperOffice CRM
@@ -44,9 +44,9 @@ so.audience.tooltip: SuperOffice CRM
 
 <!-- Referenced links -->
 [1]: ../../email/learn/change-default-mail-client.md
-[3]: ../../document/templates/variables/for-selected-contact.md
+[3]: ../../../en/document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/editor-toolbar-icon.png
 [img3]: ../../../media/icons/sign-editor-variables.png
-[img1]: media/getstarted-preferences-email-signature.png
+[img1]: ../../../media/loc/en/learn/getstarted-preferences-email-signature.png

@@ -1,0 +1,31 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Arbeide med dashbord
+  topicHref: create.md
+  items:
+  - name: Opprette et nytt dashbord
+    href: create.md
+  - name: Redigere et dashbord
+    href: update.md
+  - name: Duplisere et dashbord
+    href: copy.md
+  - name: Slette et dashbord
+    href: delete.md
+- name: Arbeide med figurer
+  topicHref: working-with-tiles.md
+  items:
+  - name: Oversikt
+    href: working-with-tiles.md
+  - name: Legg til figur/ rediger layout
+    href: add-tile.md
+  - name: Redigere en figur
+    href: edit-tile.md
+  - name: Fjerne en figur
+    href: remove-tile.md
+  - name: Bruke salgsmål i figurer
+    href: show-sales-targets.md
+  - name: Bruke utsendelse og skjemaer i figurer
+    href: show-marketing.md
+  - name: Bruke saker i figurer
+    href: show-requests.md
