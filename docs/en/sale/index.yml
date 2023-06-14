@@ -214,12 +214,12 @@ landingContent:
           url: ../database/tables/reason.md
         - text: Currency
           url: ../database/tables/currency.md
-        - text: Associate
-          url: ../database/tables/associate.md
-        - text: Appointment
-          url: ../database/tables/appointment.md
         - text: Quote
           url: ../database/tables/quote.md
+        - text: Quote
+          url: ../database/tables/quotealternative.md
+        - text: Quote
+          url: ../database/tables/quoteline.md
         - text: UdsaleSmall
           url: ../database/tables/udsalesmall.md
         - text: UdsaleLarge
