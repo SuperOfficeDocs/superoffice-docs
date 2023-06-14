@@ -3,10 +3,10 @@ title: What's new in SuperOffice Mobile CRM 10.2
 uid: news-mobile-10.2
 description: Release notes. What's new in SuperOffice Mobile CRM 10.2
 author: SuperOffice AS – Research and Development
-so.date: 03.27.2023
+so.date: 06.13.2023
 keywords: mobile
 so.version: 10.2
-so.topic: custom tasks, new button, SharePoint, filter, request
+so.topic: custom tasks, new button, SharePoint, filter, request, dashboard
 ---
 
 # New and improved SuperOffice Mobile CRM

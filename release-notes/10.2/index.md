@@ -82,7 +82,7 @@ so.version: 10.2
 [11]: mobile/10.2.7-update.md
 [12]: service/10.2.6-update.md
 [13]: mobile/10.2.12-update.md
-[14]: https://docs.superoffice.com/en/developer-portal/overview.html
+[14]: ../../docs/en/developer-portal/overview.md
 [15]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Zapier_3.2
 [16]: https://zapier.com/apps/superofficecrm/integrations
 
