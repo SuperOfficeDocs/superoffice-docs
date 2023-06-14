@@ -69,8 +69,6 @@ Det er tre hovedområder der GDPR påvirker arbeidet til markedsførere:
 > [!NOTE]
 > Sporede koblinger og rapporteringsfunksjoner krever Marketing User-lisensen. Du trenger også funksjonelle rettigheter for å kunne redigere og sende utsendelser.
 
-SMS-utsendelse er ikke tilgjengelig hvis du bruker CRM Online.
-
 ## Nødvendige kunnskaper
 
 For å kunne dra nytte av markedsføringsfunksjonene i SuperOffice trenger du en grunnleggende forståelse av hvordan du registrerer grunnleggende CRM-data. Det kan for eksempel være kategorier for firma og personer, interesser og abonnementstyper for personer (les mer om GDPR og personvern), og hvordan du bruker utvalg. Disse trinnene for å registrere data hjelper deg med å segmentere kundebasen og lage en effektiv målliste. Hvis du vil vite hvordan du konfigurerer funksjoner knyttet til markedsføring, kan du se seksjonen Administrere lister i Innstillinger og vedlikehold.
