@@ -3,7 +3,7 @@ uid: help-no-sale
 title: Salg
 description: SuperOffice Salg hjelper salgsteam med å holde kontroll over salgspipeliner og -prosesser.
 author: SuperOffice RnD
-so.date: 02.16.2023
+so.date: 06.15.2023
 keywords: salg
 so.topic: concept
 language: no
@@ -76,10 +76,19 @@ Denne fanen inneholder felt som blant annet fokuserer på økonomiske opplysning
 | Total kostnad | Her kan du registrere kostnaden forbundet med salget. Den vises i samme valuta som beløpet. Standardverdien er 0. Når du skriver inn et beløp i dette feltet, blir fortjenesteprosenten og beløpet automatisk beregnet i feltet nedenfor. | |
 | Fortjeneste | Her kan du registrere fortjenesten forbundet med salget. Den vises i samme valuta som beløpet. | |
 | Kreditert | Inneholder en forhåndsdefinert liste over avdelinger som kan være ansvarlige for salget. | x |
-| Brukerdefinerte felt | I de brukerdefinerte feltene kan du angi ytterligere informasjon for salget. | |
 
 > [!NOTE]
 > Hvis du endrer verdien i feltet **Total kostnad**, feltet **Fortjeneste** eller feltet for fortjenesteprosenten, oppdateres de andre feltene automatisk.
+
+### <a id="more-tab" />Fanen Mer
+
+![Mer-fanen (Salg) -screenshot][img6]
+
+I fanen **Mer** finner du brukerdefinerte felt for salget. Hvis din organisasjon har behov for å ha flere felt enn de som er standard i fanen **Salg**, kan du definere i Innstillinger og vedlikehold at disse feltene skal legges inn her.
+
+Klikk på **Rediger** for å redigere informasjonen i fanen **Mer**.
+
+Tre av de brukerdefinerte feltene fra fanen **Mer** kan også vises i fanen **Salg**.
 
 ### Fanen Koblinger
 
@@ -129,6 +138,7 @@ Hvis du vil fjerne en kobling, går du til fanen **Koblinger**, klikker på **Re
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png
 [img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/loc/en/sale/55-chap7-sale-new-details.bmp
+[img3]: ../../../media/loc/en/sale/sale-details.png
 [img4]: ../../../media/icons/arrow-right.png
-[img5]: ../../../media/loc/en/sale/54-chap7-sale-new.bmp
+[img5]: ../../../media/loc/en/sale/sale-card.png
+[img6]: ../../../media/loc/en/sale/sale-more.png

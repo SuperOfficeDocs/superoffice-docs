@@ -1,9 +1,9 @@
 ---
 uid: help-en-sale-create
 title: Register a sale
-description: Register sales in SuperOffice Sales to have all your opportunities and customer information in one place. This how-to guide will show you how to register sales in four easy steps.
+description: Register sales in SuperOffice Sales to have all your opportunities and customer information in one place. This how-to guide will show you how to register sales.
 author: SuperOffice RnD
-so.date: 02.16.2023
+so.date: 06.15.2023
 keywords: sale
 so.topic: howto
 language: en
@@ -34,7 +34,7 @@ Learn how to register and update a sale in this video or follow the guided steps
 
 ### What goes in the various fields?
 
-[!include[Steps to populate company fields](includes/sale-fields.md)]
+[!include[Steps to populate sale fields](includes/sale-fields.md)]
 
 ## Edit sale
 
@@ -53,4 +53,4 @@ To edit an existing sale, browse to the sale and click **Edit** at the bottom of
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/loc/en/sale/54-chap7-sale-new.bmp
+[img2]: ../../../media/loc/en/sale/sale-card.png
