@@ -1,0 +1,33 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.DataStructure
+  commentId: N:CRMScript.DataStructure
+  id: CRMScript.DataStructure
+  langs:
+  - crmscript
+  children:
+  - CRMScript.DataStructure.Struct
+  - CRMScript.DataStructure.Array
+  name: CRMScript.DataStructure
+  nameWithType: CRMScript.DataStructure
+  fullName: CRMScript.DataStructure
+  type: Namespace
+references:
+- uid: CRMScript.DataStructure
+  commentId: N:CRMScript.DataStructure
+  isExternal: true
+  name: CRMScript.DataStructure
+  nameWithType: CRMScript.DataStructure
+  fullName: CRMScript.DataStructure
+- uid: CRMScript.DataStructure.Array
+  commentId: T:CRMScript.DataStructure.Array
+  isExternal: true
+  name: Struct
+  nameWithType: Struct
+  fullName: CRMScript.DataStructure.Array
+- uid: CRMScript.DataStructure.Struct
+  commentId: T:CRMScript.DataStructure.Struct
+  isExternal: true
+  name: Struct
+  nameWithType: Struct
+  fullName: CRMScript.DataStructure.Struct
