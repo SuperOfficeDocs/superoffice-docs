@@ -2,9 +2,9 @@
 uid: help-no-udef
 title: Felt
 description: Felt
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: udef, egendefinert felt
+author: Bergfrid Dias
+so.date: 06.15.2023
+keywords: udef, egendefinert felt, brukerdefinert felt, Felt
 so.topic: concept
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
@@ -16,7 +16,7 @@ language: no
 
 Flere deler av SuperOffice CRM, for eksempel Firma-bildet, har en egen fane som heter **Mer**. Her kan du legge inn egne felt for å tilpasse programmet til organisasjonens egne behov. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
-Alle firmaer og organisasjoner har sine egne krav til informasjonen de trenger for å registrere om sine kunder, salg, prosjekter, kontrakter og så videre. Du kan angi dine egne felt for SuperOffice CRM i **Felt**-bildet. På den måten kan du tilpasse typen opplysninger som kan registreres om firmaer, personer, prosjekter, salg, dokumenter og oppfølginger.
+Alle firmaer og organisasjoner har sine egne krav til informasjonen de trenger for å registrere om sine kunder, salg, prosjekter, kontrakter og så videre. Du kan angi dine egne felt for SuperOffice CRM i **Felt**-bildet. På den måten kan du tilpasse typen opplysninger som kan registreres om firmaer, personer, prosjekter, salg, dokumenter, og oppfølginger.
 
 > [!NOTE]
 > Du kan angi 3 felt som kan vises på "førstesiden" i de aktuelle bildene eller dialogboksene. [Slik][1]. Dette gjelder kanskje ikke hvis du bruker et annet utseende via [Skjermdesigner][8].
@@ -38,9 +38,9 @@ Alle firmaer og organisasjoner har sine egne krav til informasjonen de trenger f
 * [Mer-fanen (Firma)][6]
 * [Mer-fanen (Kontaktperson)][7]
 * [Mer-fanen (Prosjekt)][3]
-* [Fanen Mer (oppfølginger)][4]
-* [Fanen Mer (Dokument)][5]
-* Fanen Detaljer i Salg-bildet
+* [Mer-fanen (oppfølginger)][4]
+* [Mer-fanen (Dokument)][5]
+* [Mer-fanen (Salg)][9]
 
 Du kan angi *side 1-felt* (felt som skal vises på "førstesiden" i de aktuelle bildene eller dialogboksene) på følgende steder:
 
@@ -98,5 +98,6 @@ Du kan deretter legge til disse feltene i Prosjekt-bildet:
 [6]: ../../../company/learn/create.md#more-tab
 [7]: ../../../contact/learn/create.md#more-tab
 [8]: ../../../ui/screen-designer/learn/index.md
+[9]: ../../../sale/learn/index.md#more-tab
 
 <!-- Referenced images -->

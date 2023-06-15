@@ -3,7 +3,7 @@ uid: help-en-sale
 title: Sale
 description: SuperOffice Sales helps sales teams stay in control of their sales pipelines and processes.
 author: SuperOffice RnD
-so.date: 02.16.2023
+so.date: 06.15.2023
 keywords: sale
 so.topic: concept
 language: en
@@ -76,10 +76,19 @@ This tab contains fields that focus, in particular, on the financial details of 
 | Total cost | Enter here the cost connected with the sale. It is displayed in the same currency as the amount. The default value is 0. When you enter an amount in this field, the profit percentage and amount are automatically calculated in the field below. | |
 | Profit | Enter the profit connected with the sale here. It is displayed in the same currency as the amount. | |
 | Credited | Contains a predefined list of departments that can be responsible for the sale. | x |
-| User-defined fields | In the user-defined fields you can enter further information about the sale. | |
 
 > [!NOTE]
 > If you change the value in the **Total cost** field, the **Profit** field or the field for the profit percentage, the other fields are automatically updated.
+
+### <a id="more-tab" />The More tab
+
+![The More tab (Sale) -screenshot][img6]
+
+The **More** tab displays user-defined fields for the sale. If your organization needs more fields than the default fields in the **Sale** tab, you can specify in Settings and maintenance that these fields will be inserted here.
+
+Click **Edit** to edit the information in the **More** tab.
+
+Three of the user-defined fields from the **More** tab can also be displayed in the **Sale** tab.
 
 ### The Links tab
 
@@ -129,6 +138,7 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png
 [img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/loc/en/sale/55-chap7-sale-new-details.bmp
+[img3]: ../../../media/loc/en/sale/sale-details.png
 [img4]: ../../../media/icons/arrow-right.png
-[img5]: ../../../media/loc/en/sale/54-chap7-sale-new.bmp
+[img5]: ../../../media/loc/en/sale/sale-card.png
+[img6]: ../../../media/loc/en/sale/sale-more.png

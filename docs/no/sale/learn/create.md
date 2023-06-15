@@ -1,9 +1,9 @@
 ---
 uid: help-no-sale-create
 title: Registrer et salg
-description: "Registrer salg i SuperOffice Salg for å ha alle muligheter og kundeinformasjon på ett sted. Denne veiledningen viser deg hvordan du registrerer salg, i fire enkle trinn."
+description: "Registrer salg i SuperOffice Salg for å ha alle muligheter og kundeinformasjon på ett sted. Denne veiledningen viser deg hvordan du registrerer salg."
 author: SuperOffice RnD
-so.date: 02.16.2023
+so.date: 06.15.2023
 keywords: salg
 so.topic: howto
 language: no
@@ -53,4 +53,4 @@ Vil du redigere et eksisterende salg, blar du deg frem til salget og klikker på
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/loc/en/sale/54-chap7-sale-new.bmp
+[img2]: ../../../media/loc/en/sale/sale-card.png
