@@ -33,7 +33,7 @@ items:
   - name: Struct
     href: CRMScript.DataStructure.Struct.yml
   - name: Vector
-    href: CRMScript.Native.Vector.yml
+    href: CRMScript.DataStructure.Vector.yml
 - name: Classes
   href: CRMScript.Native.yml
   items:
@@ -147,8 +147,6 @@ items:
     href: CRMScript.Native.TimeZone.yml
   - name: User
     href: CRMScript.Native.User.yml
-  - name: Vector
-    href: CRMScript.Native.Vector.yml
   - name: WeekSchedule
     href: CRMScript.Native.WeekSchedule.yml
   - name: XMLNode

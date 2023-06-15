@@ -6,8 +6,9 @@ items:
   langs:
   - crmscript
   children:
-  - CRMScript.DataStructure.Struct
   - CRMScript.DataStructure.Array
+  - CRMScript.DataStructure.Struct
+  - CRMScript.DataStructure.Vector
   name: CRMScript.DataStructure
   nameWithType: CRMScript.DataStructure
   fullName: CRMScript.DataStructure
@@ -31,3 +32,9 @@ references:
   name: Struct
   nameWithType: Struct
   fullName: CRMScript.DataStructure.Struct
+- uid: CRMScript.DataStructure.Vector
+  commentId: T:CRMScript.DataStructure.Vector
+  isExternal: true
+  name: Vector
+  nameWithType: Vector
+  fullName: CRMScript.DataStructure.Vector

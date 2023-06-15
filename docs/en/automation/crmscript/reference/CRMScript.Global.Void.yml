@@ -675,7 +675,7 @@ items:
     content: String combineHtmlStrings(Vector htmlStrings)
     parameters:
     - id: htmlStrings
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "Multiple strings, each containing an HTML document."
     return:
       type: CRMScript.Global.String
@@ -4753,12 +4753,12 @@ references:
   name: HtmlElement
   nameWithType: HtmlElement
   fullName: CRMScript.Native.HtmlElement
-- uid: CRMScript.Native.Vector
-  commentId: T:CRMScript.Native.Vector
+- uid: CRMScript.DataStructure.Vector
+  commentId: T:CRMScript.DataStructure.Vector
   isExternal: true
   name: Vector
   nameWithType: Vector
-  fullName: CRMScript.Native.Vector
+  fullName: CRMScript.DataStructure.Vector
 - uid: CRMScript.Global.Byte[]
   isExternal: true
   name: Byte[]

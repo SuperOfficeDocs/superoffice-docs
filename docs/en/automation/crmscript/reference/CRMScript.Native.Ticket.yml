@@ -68,7 +68,7 @@ items:
     content: addSecondaryCustomers(Vector ids)
     parameters:
     - id: ids
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "An array of Strings containing the customerIds to add as secondary customers on the ticket."
     return: 
       type: CRMScript.Global.Void
@@ -550,12 +550,12 @@ references:
   name: Ticket
   nameWithType: Ticket
   fullName: CRMScript.Native.Ticket
-- uid: CRMScript.Native.Vector
-  commentId: T:CRMScript.Native.Vector
+- uid: CRMScript.DataStructure.Vector
+  commentId: T:CRMScript.DataStructure.Vector
   isExternal: true
   name: Vector
   nameWithType: Vector
-  fullName: CRMScript.Native.Vector
+  fullName: CRMScript.DataStructure.Vector
 - uid: CRMScript.Global.Integer
   commentId: T:CRMScript.Global.Integer
   isExternal: true

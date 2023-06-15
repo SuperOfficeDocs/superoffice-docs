@@ -1,36 +1,36 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CRMScript.Native.Vector
-  commentId: T:CRMScript.Native.Vector
+- uid: CRMScript.DataStructure.Vector
+  commentId: T:CRMScript.DataStructure.Vector
   id: Vector
   langs:
   - crmscript
   children:
-  - CRMScript.Native.Vector.#ctor(Integer[])
-  - CRMScript.Native.Vector.parseString(String, String)
-  - CRMScript.Native.Vector.pushBack(String)
-  - CRMScript.Native.Vector.set(Integer, String)
-  - CRMScript.Native.Vector.get(Integer)
-  - CRMScript.Native.Vector.size()
-  - CRMScript.Native.Vector.toIntegerArray()
-  - CRMScript.Native.Vector.toStringArray()
-  - CRMScript.Native.Vector.buildString(String)
-  - CRMScript.Native.Vector.removeAt(Integer)
+  - CRMScript.DataStructure.Vector.#ctor(Integer[])
+  - CRMScript.DataStructure.Vector.parseString(String, String)
+  - CRMScript.DataStructure.Vector.pushBack(String)
+  - CRMScript.DataStructure.Vector.set(Integer, String)
+  - CRMScript.DataStructure.Vector.get(Integer)
+  - CRMScript.DataStructure.Vector.size()
+  - CRMScript.DataStructure.Vector.toIntegerArray()
+  - CRMScript.DataStructure.Vector.toStringArray()
+  - CRMScript.DataStructure.Vector.buildString(String)
+  - CRMScript.DataStructure.Vector.removeAt(Integer)
   name: Vector
   nameWithType: Vector
-  fullName: CRMScript.Native.Vector
+  fullName: CRMScript.DataStructure.Vector
   type: Class
   summary: "\nThis class represents a Vector, in which you can add objects of the type String..\n"
-- uid: CRMScript.Native.Vector.#ctor(Integer[])
-  commentId: M:CRMScript.Native.Vector.#ctor(Integer[])
+- uid: CRMScript.DataStructure.Vector.#ctor(Integer[])
+  commentId: M:CRMScript.DataStructure.Vector.#ctor(Integer[])
   id: '#ctor(Integer[])'
   so.intellisense: Vector
   langs:
   - crmscript
-  parent: CRMScript.Native.Vector
+  parent: CRMScript.DataStructure.Vector
   name: Vector(Integer[])
   nameWithType: Vector.Vector(Integer[])
-  fullName: CRMScript.Native.Vector.Vector(Integer[])
+  fullName: CRMScript.DataStructure.Vector.Vector(Integer[])
   type: Constructor
   summary: "\nPass a number array to convert into a new object.\n"
   syntax:
@@ -40,17 +40,17 @@ items:
       type: CRMScript.Global.Integer[]
       description: "An Integer array."
     return:
-      type: CRMScript.Native.Vector
-- uid: CRMScript.Native.Vector.parseString(String, String)
-  commentId: M:CRMScript.Native.Vector.parseString(String, String)
+      type: CRMScript.DataStructure.Vector
+- uid: CRMScript.DataStructure.Vector.parseString(String, String)
+  commentId: M:CRMScript.DataStructure.Vector.parseString(String, String)
   id: parseString(String, String)
   so.intellisense: Vector.parseString
   langs:
   - crmscript
-  parent: CRMScript.Native.Vector
+  parent: CRMScript.DataStructure.Vector
   name: parseString(String, String)
   nameWithType: Vector.parseString(String, String)
-  fullName: CRMScript.Native.Vector.parseString(String, String)
+  fullName: CRMScript.DataStructure.Vector.parseString(String, String)
   type: Method
   summary: "\nParses a text into a vector. The fields in the string are separated by the given delimiter.\n"
   remarks: "\nThis method does not support escaped characters.\n"
@@ -64,17 +64,17 @@ items:
       type: CRMScript.Global.String
       description: "The delimiter for the fields."
     return:
-- uid: CRMScript.Native.Vector.removeAt(Integer)
-  commentId: M:CRMScript.Native.Vector.removeAt(Integer)
+- uid: CRMScript.DataStructure.Vector.removeAt(Integer)
+  commentId: M:CRMScript.DataStructure.Vector.removeAt(Integer)
   id: removeAt(Integer)
   so.intellisense: Vector.removeAt
   so.version: 7.9.0
   langs:
   - crmscript
-  parent: CRMScript.Native.Vector
+  parent: CRMScript.DataStructure.Vector
   name: removeAt(Integer)
   nameWithType: Vector.removeAt(Integer)
-  fullName: CRMScript.Native.Vector.removeAt(Integer)
+  fullName: CRMScript.DataStructure.Vector.removeAt(Integer)
   type: Method
   summary: "\nRemoves an element at the specified index.\n"
   syntax:
@@ -84,16 +84,16 @@ items:
       type: CRMScript.Global.Integer
       description: "The index (starting at 0) of the element to remove from the vector."
     return:
-- uid: CRMScript.Native.Vector.get(Integer)
-  commentId: M:CRMScript.Native.Vector.get(Integer)
+- uid: CRMScript.DataStructure.Vector.get(Integer)
+  commentId: M:CRMScript.DataStructure.Vector.get(Integer)
   id: get(Integer)
   so.intellisense: Vector.get
   langs:
   - crmscript
-  parent: CRMScript.Native.Vector
+  parent: CRMScript.DataStructure.Vector
   name: get(Integer)
   nameWithType: Vector.get(Integer)
-  fullName: CRMScript.Native.Vector.get(Integer)
+  fullName: CRMScript.DataStructure.Vector.get(Integer)
   type: Method
   summary: "\nReturns an element in the vector at the given position.\n"
   remarks: "\nIf the index specified is out of bounds, a RunTimeException will be raised.\n"
@@ -105,16 +105,16 @@ items:
       description: "The index (starting at 0) of the element to be retrieved."
     return:
       type: CRMScript.Global.String
-- uid: CRMScript.Native.Vector.set(Integer, String)
-  commentId: M:CRMScript.Native.Vector.set(Integer, String)
+- uid: CRMScript.DataStructure.Vector.set(Integer, String)
+  commentId: M:CRMScript.DataStructure.Vector.set(Integer, String)
   id: set(Integer, String)
   so.intellisense: Vector.set
   langs:
   - crmscript
-  parent: CRMScript.Native.Vector
+  parent: CRMScript.DataStructure.Vector
   name: set(Integer, String)
   nameWithType: Vector.set(Integer, String)
-  fullName: CRMScript.Native.Vector.set(Integer, String)
+  fullName: CRMScript.DataStructure.Vector.set(Integer, String)
   type: Method
   summary: "\nSets the value at the specified index.\n"
   remarks: "\nIf the index specified is out of bounds, a RunTimeException will be raised.\n"
@@ -128,16 +128,16 @@ items:
       type: CRMScript.Global.String
       description: "The value to set at the specified index."
     return:
-- uid: CRMScript.Native.Vector.size()
-  commentId: M:CRMScript.Native.Vector.size()
+- uid: CRMScript.DataStructure.Vector.size()
+  commentId: M:CRMScript.DataStructure.Vector.size()
   id: size()
   so.intellisense: Vector.size
   langs:
   - crmscript
-  parent: CRMScript.Native.Vector
+  parent: CRMScript.DataStructure.Vector
   name: size()
   nameWithType: Vector.size()
-  fullName: CRMScript.Native.Vector.size()
+  fullName: CRMScript.DataStructure.Vector.size()
   type: Method
   summary: "\nReturns the size of the vector.\n"
   syntax:
@@ -145,17 +145,17 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.Integer
-- uid: CRMScript.Native.Vector.toIntegerArray()
-  commentId: M:CRMScript.Native.Vector.toIntegerArray()
+- uid: CRMScript.DataStructure.Vector.toIntegerArray()
+  commentId: M:CRMScript.DataStructure.Vector.toIntegerArray()
   id: toIntegerArray()
   so.intellisense: Vector.toIntegerArray
   so.version: 8.4R07
   langs:
   - crmscript
-  parent: CRMScript.Native.Vector
+  parent: CRMScript.DataStructure.Vector
   name: toIntegerArray()
   nameWithType: Vector.toIntegerArray()
-  fullName: CRMScript.Native.Vector.toIntegerArray()
+  fullName: CRMScript.DataStructure.Vector.toIntegerArray()
   type: Method
   summary: "\nConvert a vector to an integer array.\n"
   remarks: "\nInvalid values will be represented as null.\n"
@@ -164,17 +164,17 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.Integer[]
-- uid: CRMScript.Native.Vector.toStringArray()
-  commentId: M:CRMScript.Native.Vector.toStringArray()
+- uid: CRMScript.DataStructure.Vector.toStringArray()
+  commentId: M:CRMScript.DataStructure.Vector.toStringArray()
   id: toStringArray()
   so.intellisense: Vector.toStringArray
   so.version: 4.9.1
   langs:
   - crmscript
-  parent: CRMScript.Native.Vector
+  parent: CRMScript.DataStructure.Vector
   name: toStringArray()
   nameWithType: Vector.toStringArray()
-  fullName: CRMScript.Native.Vector.toStringArray()
+  fullName: CRMScript.DataStructure.Vector.toStringArray()
   type: Method
   summary: "\nConvert a vector to a string array.\n"
   syntax:
@@ -182,16 +182,16 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.String[]
-- uid: CRMScript.Native.Vector.buildString(String)
-  commentId: M:CRMScript.Native.Vector.buildString(String)
+- uid: CRMScript.DataStructure.Vector.buildString(String)
+  commentId: M:CRMScript.DataStructure.Vector.buildString(String)
   id: buildString(String)
   so.intellisense: Vector.buildString
   langs:
   - crmscript
-  parent: CRMScript.Native.Vector
+  parent: CRMScript.DataStructure.Vector
   name: buildString(String)
   nameWithType: Vector.buildString(String)
-  fullName: CRMScript.Native.Vector.buildString(String)
+  fullName: CRMScript.DataStructure.Vector.buildString(String)
   type: Method
   summary: "\nReturns a string of all the elements in the vector, separated by the specified delimiter.\n"
   remarks: "not escape any characters which might be equal to the delimiter."
@@ -204,8 +204,8 @@ items:
     return:
       type: CRMScript.Global.String
       description: "A string with all the elements separated by the delimiter."
-- uid: CRMScript.Native.Vector.pushBack(String)
-  commentId: M:CRMScript.Native.Vector.pushBack(String)
+- uid: CRMScript.DataStructure.Vector.pushBack(String)
+  commentId: M:CRMScript.DataStructure.Vector.pushBack(String)
   id: Vector.pushBack(String)
   so.intellisense: Vector.pushBack
   langs:
@@ -213,7 +213,7 @@ items:
   parent: CRMScript.Vector.pushBack(String)
   name: pushBack(String)
   nameWithType: Vector.pushBack(String)
-  fullName: CRMScript.Native.Vector.pushBack(String)
+  fullName: CRMScript.DataStructure.Vector.pushBack(String)
   type: Method
   summary: "\nPushes a string object to the end of the vector.\n"
   syntax:
@@ -224,12 +224,12 @@ items:
       description: "The string object to push on the vector."
     return:
 references:
-- uid: CRMScript.Native.Vector
-  commentId: T:CRMScript.Native.Vector
+- uid: CRMScript.DataStructure.Vector
+  commentId: T:CRMScript.DataStructure.Vector
   isExternal: true
   name: Vector
   nameWithType: Vector
-  fullName: CRMScript.Native.Vector
+  fullName: CRMScript.DataStructure.Vector
 - uid: CRMScript.Global.String
   commentId: T:CRMScript.Global.String
   parent: System

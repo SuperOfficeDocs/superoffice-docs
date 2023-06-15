@@ -263,7 +263,7 @@ items:
     content: Void saveInvolved(Vector emailAddresses)
     parameters:
     - id: emailAddresses
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "A collection of email addresses for multiple recipients."
     return:
       type: CRMScript.Global.Void
@@ -285,13 +285,13 @@ items:
     content: Bool send(Vector to, Vector cc, Vector bcc)
     parameters:
     - id: to
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The to-recipients in the email"
     - id: cc
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The cc-recipients in the email"
     - id: bcc
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The bcc-recipients in the email."
     return:
       type: CRMScript.Global.Bool
@@ -314,13 +314,13 @@ items:
     content: Bool send(Vector to, Vector cc, Vector bcc, Integer categoryId)
     parameters:
     - id: to
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The to-recipients in the email"
     - id: cc
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The cc-recipients in the email"
     - id: bcc
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The bcc-recipients in the email"
     - id: categoryId
       type: CRMScript.Global.Integer
@@ -346,13 +346,13 @@ items:
     content: Bool send(Vector to, Vector cc, Vector bcc, String subject)
     parameters:
     - id: to
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The to-recipients in the email"
     - id: cc
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The cc-recipients in the email"
     - id: bcc
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The bcc-recipients in the email"
     - id: subject
       type: CRMScript.Global.String
@@ -378,13 +378,13 @@ items:
     content: Bool send(Vector to, Vector cc, Vector bcc, String subject, String bodyHeading)
     parameters:
     - id: to
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The to-recipients in the email"
     - id: cc
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The cc-recipients in the email"
     - id: bcc
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The bcc-recipients in the email"
     - id: subject
       type: CRMScript.Global.String
@@ -432,7 +432,7 @@ items:
     content: Bool sendSms(Vector to)
     parameters:
     - id: to
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The numbers to send the message to."
     return:
       type: CRMScript.Global.Bool
@@ -455,7 +455,7 @@ items:
     content: Void setAttachments(Vector ids)
     parameters:
     - id: ids
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "The IDs of the attachments."
     return:
       type: CRMScript.Global.Void
@@ -537,12 +537,12 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
-- uid: CRMScript.Native.Vector
-  commentId: T:CRMScript.Native.Vector
+- uid: CRMScript.DataStructure.Vector
+  commentId: T:CRMScript.DataStructure.Vector
   isExternal: true
   name: Vector
   nameWithType: Vector
-  fullName: CRMScript.Native.Vector
+  fullName: CRMScript.DataStructure.Vector
 - uid: CRMScript.Global.Bool
   commentId: T:CRMScript.Global.Bool
   isExternal: true

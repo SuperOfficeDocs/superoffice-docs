@@ -1204,7 +1204,7 @@ items:
     content: Vector getEmails()
     parameters: []
     return:
-      type: CRMScript.Native.Vector
+      type: CRMScript.DataStructure.Vector
       description: "Vector of names and emails."
 - uid: CRMScript.Global.String.isValidEmail()
   commentId: M:CRMScript.Global.String.isValidEmail()
@@ -1705,12 +1705,12 @@ references:
   name: Long
   nameWithType: Long
   fullName: CRMScript.Global.Long
-- uid: CRMScript.Native.Vector
-  commentId: T:CRMScript.Native.Vector
+- uid: CRMScript.DataStructure.Vector
+  commentId: T:CRMScript.DataStructure.Vector
   isExternal: true
   name: Vector
   nameWithType: Vector
-  fullName: CRMScript.Native.Vector
+  fullName: CRMScript.DataStructure.Vector
 - uid: CRMScript.Global.Void
   commentId: T:CRMScript.Global.Void
   isExternal: true

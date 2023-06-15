@@ -61,7 +61,6 @@ items:
   - CRMScript.Native.TimeSpan
   - CRMScript.Native.TimeZone
   - CRMScript.Native.User
-  - CRMScript.Native.Vector
   - CRMScript.Native.WeekSchedule
   - CRMScript.Native.XMLNode
   - CRMScript.Native.YearSchedule
@@ -406,12 +405,6 @@ references:
   name: User
   nameWithType: User
   fullName: CRMScript.Native.User
-- uid: CRMScript.Native.Vector
-  commentId: T:CRMScript.Native.Vector
-  isExternal: true
-  name: Vector
-  nameWithType: Vector
-  fullName: CRMScript.Native.Vector
 - uid: CRMScript.Native.WeekSchedule
   commentId: T:CRMScript.Native.WeekSchedule
   isExternal: true

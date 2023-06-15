@@ -110,5 +110,5 @@ t.save();
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.Ticket.setValue(String,String)>
-[2]: <xref:CRMScript.Native.Vector>
+[2]: <xref:CRMScript.DataStructure.Vector>
 [6]: ../../../database/tables/ticket.md
