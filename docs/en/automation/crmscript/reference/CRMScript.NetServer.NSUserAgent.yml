@@ -1159,7 +1159,7 @@ items:
       type: CRMScript.Global.String
       description: 
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSUserAgent agent;\nInteger roleId;\nString tableName;\nMap res = agent.GetDataRights(roleId, tableName);</code></pre>\n"
@@ -2352,7 +2352,7 @@ items:
       type: CRMScript.NetServer.NSUser
       description: 
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSUserAgent agent;\nNSUser user;\nMap res = agent.ValidateUser(user);</code></pre>\n"
@@ -2539,12 +2539,12 @@ references:
   name: NSCredentialType
   nameWithType: NSCredentialType
   fullName: CRMScript.NetServer.NSCredentialType
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map
 - uid: CRMScript.NetServer.NSTokenManagementInfo
   commentId: T:CRMScript.NetServer.NSTokenManagementInfo
   isExternal: true

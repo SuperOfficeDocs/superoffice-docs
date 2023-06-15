@@ -320,7 +320,7 @@ items:
     content: Map getResponseHeaders()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "A map of all the headers from the HTTP response headers after making a HTTP call."
   example: 
 - uid: CRMScript.Native.HTTP.getValue(String)

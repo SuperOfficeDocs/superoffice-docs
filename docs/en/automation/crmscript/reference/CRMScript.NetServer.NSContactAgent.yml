@@ -822,7 +822,7 @@ items:
       type: CRMScript.NetServer.NSContactEntity
       description: 
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSContactAgent agent;\nNSContactEntity contactEntity;\nMap res = agent.ValidateContactEntity(contactEntity);</code></pre>\n"
@@ -1027,12 +1027,12 @@ references:
   name: NSAddress
   nameWithType: NSAddress
   fullName: CRMScript.NetServer.NSAddress
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map
 - uid: CRMScript.Global.Void
   commentId: T:CRMScript.Global.Void
   isExternal: true

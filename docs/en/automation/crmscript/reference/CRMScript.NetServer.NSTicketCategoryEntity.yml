@@ -139,7 +139,7 @@ items:
     content: Map GetCustomFields()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSTicketCategoryEntity thing;\nMap fields = thing.GetCustomFields();\nString oldValue = fields.get(&quot;SuperOffice:1&quot;);\nfields.insert(&quot;SuperOffice:1&quot;, &quot;NewValue&quot;);\nfor (fields.first(); !fields.eof(); fields.next())\n  printLine(fields.getKey() + &quot;:  &quot; + fields.getVal());</code></pre>\n"
@@ -202,7 +202,7 @@ items:
     content: Map GetExtraFields()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "Map containing extra field values by field name."
   example: 
   - "\n<pre><code>NSTicketCategoryEntity thing;\nMap fields = thing.GetExtraFields();\nString oldValue = fields.get(&quot;x_foobar&quot;);\nfields.insert(&quot;x_foobar&quot;, &quot;NewValue&quot;);\nfor (fields.first(); !fields.eof(); fields.next())\n  printLine(fields.getKey() + &quot;:  &quot; + fields.getVal());</code></pre>\n"
@@ -459,7 +459,7 @@ items:
     content: Void SetCustomFields(Map udefs)
     parameters:
     - id: udefs
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSTicketCategoryEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_foo&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_bar&quot;] = &quot;456&quot;; // List item id\nthing.SetCustomFields(udefs);</code></pre>\n"
@@ -525,7 +525,7 @@ items:
     content: Void SetExtraFields(Map extras)
     parameters:
     - id: extras
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSTicketCategoryEntity thing;\nMap extras;\nextras[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nextras[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nextras[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetExtraFields(extras);</code></pre>\n"
@@ -724,12 +724,12 @@ references:
   name: Integer
   nameWithType: Integer
   fullName: CRMScript.Global.Integer
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map
 - uid: CRMScript.Global.String
   commentId: T:CRMScript.Global.String
   isExternal: true

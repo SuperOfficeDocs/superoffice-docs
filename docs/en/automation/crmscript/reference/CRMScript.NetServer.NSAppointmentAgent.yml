@@ -2822,7 +2822,7 @@ items:
       type: CRMScript.NetServer.NSAppointmentEntity
       description:
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSAppointmentAgent agent;\nNSAppointmentEntity appointmentEntity;\nMap res = agent.ValidateAppointmentEntity(appointmentEntity);</code></pre>\n"
@@ -3122,12 +3122,12 @@ references:
   name: String
   nameWithType: String
   fullName: CRMScript.Global.String
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map
 - uid: CRMScript.NetServer.NSRecurrenceDate[]
   isExternal: true
   name: NSRecurrenceDate[]

@@ -886,7 +886,7 @@ items:
       type: CRMScript.Global.String[]
       description: 
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nString[] requestedProperties;\nMap res = agent.GetDocumentProperties(documentId, requestedProperties);</code></pre>\n"
@@ -1180,7 +1180,7 @@ items:
       type: CRMScript.Global.Integer
       description: 
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "A standard set of properties is defined in SuperOffice.CRM.Documents.Constants.Capabilities."
   example: 
   - "\n<pre><code>NSDocumentAgent agent;\nInteger pluginId;\nMap res = agent.GetPluginCapabilities(pluginId);</code></pre>\n"
@@ -1201,7 +1201,7 @@ items:
     content: Map GetPluginList()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSDocumentAgent agent;\nMap res = agent.GetPluginList();</code></pre>\n"
@@ -2109,7 +2109,7 @@ items:
       type: CRMScript.Global.Integer
       description: 
     - id: customTags
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "These tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set."
     return:
       type: CRMScript.NetServer.NSStream
@@ -2206,7 +2206,7 @@ items:
       type: CRMScript.Global.Integer
       description: 
     - id: customTags
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "These tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set."
     return:
       type: CRMScript.NetServer.NSStream
@@ -2362,7 +2362,7 @@ items:
       type: CRMScript.Global.Integer
       description: "See <xref href=\"CRMScript.NetServer.GeneratorEncoding\" data-throw-if-not-resolved=\"false\"></xref>"
     - id: customTags
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: 
     - id: contactId
       type: CRMScript.Global.Integer
@@ -2439,7 +2439,7 @@ items:
       type: CRMScript.NetServer.NSDocumentEntity
       description: 
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSDocumentAgent agent;\nNSDocumentEntity documentEntity;\nMap res = agent.ValidateDocumentEntity(documentEntity);</code></pre>\n"
@@ -2612,12 +2612,12 @@ references:
   name: NSCommandInfo
   nameWithType: NSCommandInfo
   fullName: CRMScript.NetServer.NSCommandInfo
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map
 - uid: CRMScript.NetServer.NSVersionInfo[]
   isExternal: true
   name: NSVersionInfo[]

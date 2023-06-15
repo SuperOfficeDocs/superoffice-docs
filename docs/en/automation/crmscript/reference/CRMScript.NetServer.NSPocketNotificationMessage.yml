@@ -108,7 +108,7 @@ items:
     content: Map GetExtraValues()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "Additional key/value properties to include in the message."
   example: 
   - "\n<pre><code>NSPocketNotificationMessage thing;\nMap extraValues = thing.GetExtraValues();</code></pre>\n"
@@ -321,7 +321,7 @@ items:
     content: Void SetExtraValues(Map extraValues)
     parameters:
     - id: extraValues
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "Additional key/value properties to include in the message."
     return:
       type: CRMScript.Global.Void
@@ -507,12 +507,12 @@ references:
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: CRMScript.Native.TimeSpan
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map
 - uid: CRMScript.Global.String
   commentId: T:CRMScript.Global.String
   isExternal: true

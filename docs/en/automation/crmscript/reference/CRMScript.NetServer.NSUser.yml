@@ -138,7 +138,7 @@ items:
     content: Map GetCustomFields()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSUser thing;\nMap fields = thing.GetCustomFields();\nString oldValue = fields.get(&quot;SuperOffice:1&quot;);\nfields.insert(&quot;SuperOffice:1&quot;, &quot;NewValue&quot;);\nfor (fields.first(); !fields.eof(); fields.next())\n  printLine(fields.getKey() + &quot;:  &quot; + fields.getVal());</code></pre>\n"
@@ -221,7 +221,7 @@ items:
     content: Map GetExtraFields()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSUser thing;\nMap fields = thing.GetExtraFields();\nString oldValue = fields.get(&quot;x_foobar&quot;);\nfields.insert(&quot;x_foobar&quot;, &quot;NewValue&quot;);\nfor (fields.first(); !fields.eof(); fields.next())\n  printLine(fields.getKey() + &quot;:  &quot; + fields.getVal());</code></pre>\n"
@@ -664,7 +664,7 @@ items:
     content: Void SetCustomFields(Map udefs)
     parameters:
     - id: udefs
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
     return:
       type: CRMScript.Global.Void
@@ -755,7 +755,7 @@ items:
     content: Void SetExtraFields(Map extras)
     parameters:
     - id: extras
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
     return:
       type: CRMScript.Global.Void
@@ -1206,12 +1206,12 @@ references:
   name: NSCredential
   nameWithType: NSCredential
   fullName: CRMScript.NetServer.NSCredential
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map
 - uid: CRMScript.Global.Bool
   commentId: T:CRMScript.Global.Bool
   isExternal: true

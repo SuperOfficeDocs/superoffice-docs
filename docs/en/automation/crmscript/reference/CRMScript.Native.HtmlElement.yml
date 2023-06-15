@@ -247,7 +247,7 @@ items:
       type: CRMScript.Global.String
       description: 
     - id: values
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "Map of values."
     return:
       type: CRMScript.Global.Void
@@ -426,9 +426,9 @@ references:
   name: Bool
   nameWithType: Bool
   fullName: CRMScript.Global.Bool
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map

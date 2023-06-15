@@ -29,7 +29,7 @@ items:
   - name: Array
     href: CRMScript.DataStructure.Array.yml
   - name: Map
-    href: CRMScript.Native.Map.yml
+    href: CRMScript.DataStructure.Map.yml
   - name: Struct
     href: CRMScript.DataStructure.Struct.yml
   - name: Vector
@@ -101,8 +101,6 @@ items:
     href: CRMScript.Native.MacroReturnValue.yml
   - name: MainMenu
     href: CRMScript.Native.MainMenu.yml
-  - name: Map
-    href: CRMScript.Native.Map.yml
   - name: Message
     href: CRMScript.Native.Message.yml
   - name: Notify

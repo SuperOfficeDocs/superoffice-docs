@@ -1006,7 +1006,7 @@ items:
       type: CRMScript.Global.String
       description: "Name of the connector. Ignored if connectionId is non-zero."
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
   example: 
   - "\n<pre><code>NSQuoteAgent agent;\nInteger connectionId;\nString connectorName;\nMap res = agent.GetConfigurationFields(connectionId, connectorName);</code></pre>\n"
 - uid: CRMScript.NetServer.NSQuoteAgent.GetConnection(Integer)
@@ -1052,7 +1052,7 @@ items:
       type: CRMScript.Global.Integer
       description: "Primary key of the connection."
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
   example: 
   - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nMap res = agent.GetConnectionConfigFields(quoteConnectionId);</code></pre>\n"
 - uid: CRMScript.NetServer.NSQuoteAgent.GetConnectionsForAssociate(Integer)
@@ -2068,10 +2068,10 @@ items:
       type: CRMScript.Global.Integer
       description: "Primary key of the connection"
     - id: connectionConfigFields
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
   example: 
   - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nMap connectionConfigFields;\nMap res = agent.SaveConnectionConfigFields(quoteConnectionId, connectionConfigFields);</code></pre>\n"
 - uid: CRMScript.NetServer.NSQuoteAgent.SavePriceList(NSPriceList)

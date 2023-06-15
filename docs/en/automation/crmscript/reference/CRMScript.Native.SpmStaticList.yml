@@ -95,7 +95,7 @@ items:
     content: Map getRecipients()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "A map containing all the recipients."
   example: 
 - uid: CRMScript.Native.SpmStaticList.load(Integer)
@@ -233,9 +233,9 @@ references:
   name: Void
   nameWithType: Void
   fullName: CRMScript.Global.Void
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map

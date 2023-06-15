@@ -2515,7 +2515,7 @@ items:
       type: CRMScript.Global.String[]
       description: "An array of properties to get the values for."
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "key-value pairs with the requested properties."
   example: 
   - "\n<pre><code>NSListAgent agent;\nInteger documentTemplateId;\nString[] requestedProperties;\nMap res = agent.GetDocumentTemplateProperties(documentTemplateId, requestedProperties);</code></pre>\n"
@@ -2706,7 +2706,7 @@ items:
       type: CRMScript.Global.Integer
       description: 
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSListAgent agent;\nInteger pluginId;\nMap res = agent.GetDocumentTypesForPlugin(pluginId);</code></pre>\n"
@@ -3691,7 +3691,7 @@ items:
       type: CRMScript.Global.Integer
       description: 
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSListAgent agent;\nInteger pluginId;\nMap res = agent.GetPluginCapabilities(pluginId);</code></pre>\n"
@@ -3712,7 +3712,7 @@ items:
     content: Map GetPluginList()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
   - "\n<pre><code>NSListAgent agent;\nMap res = agent.GetPluginList();</code></pre>\n"
@@ -7312,12 +7312,12 @@ references:
   name: NSTask
   nameWithType: NSTask
   fullName: CRMScript.NetServer.NSTask
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map
 - uid: CRMScript.NetServer.NSSelectableMDOListItem[]
   isExternal: true
   name: NSSelectableMDOListItem[]

@@ -73,7 +73,7 @@ items:
     content: Map getRow()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
 - uid: CRMScript.Native.DbConverter.next()
@@ -184,10 +184,10 @@ items:
       type: CRMScript.Global.String
       description:
     - id: row
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
     - id: fieldMapping
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: 
     return:
       type: CRMScript.Global.Void
@@ -212,7 +212,7 @@ items:
       type: CRMScript.Global.String
       description: "The table."
     - id: row
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "The row data."
     return:
       type: CRMScript.Global.Void
@@ -248,9 +248,9 @@ references:
   name: Void
   nameWithType: Void
   fullName: CRMScript.Global.Void
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map

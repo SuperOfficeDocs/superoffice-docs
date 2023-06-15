@@ -7,6 +7,7 @@ items:
   - crmscript
   children:
   - CRMScript.DataStructure.Array
+  - CRMScript.DataStructure.Map
   - CRMScript.DataStructure.Struct
   - CRMScript.DataStructure.Vector
   name: CRMScript.DataStructure
@@ -38,3 +39,9 @@ references:
   name: Vector
   nameWithType: Vector
   fullName: CRMScript.DataStructure.Vector
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.DataStructure.Map

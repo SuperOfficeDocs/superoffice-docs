@@ -96,7 +96,7 @@ items:
     content: Map getValues()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "All the fields and values of the extraTable row."
   example: 
 - uid: CRMScript.Native.ExtraTable.load(Integer)
@@ -244,9 +244,9 @@ references:
   name: Void
   nameWithType: Void
   fullName: CRMScript.Global.Void
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map

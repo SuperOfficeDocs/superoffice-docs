@@ -93,7 +93,7 @@ items:
     content: Map GetHeaders()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "Custom HTTP Headers to add to webhook requests."
   example: 
   - "\n<pre><code>NSWebhook thing;\nMap headers = thing.GetHeaders();</code></pre>\n"
@@ -367,7 +367,7 @@ items:
     content: Void SetHeaders(Map headers)
     parameters:
     - id: headers
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "Custom HTTP Headers to add to webhook requests."
     return:
       type: CRMScript.Global.Void
@@ -652,12 +652,12 @@ references:
   name: String
   nameWithType: String
   fullName: CRMScript.Global.String
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map
 - uid: CRMScript.Native.StringObjectDictionary
   commentId: T:CRMScript.Native.StringObjectDictionary
   isExternal: true

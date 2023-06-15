@@ -50,7 +50,7 @@ items:
     content: Map GetFieldProperties()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
   example: 
 - uid: CRMScript.NetServer.NSCarrier.GetTableRight()
@@ -89,7 +89,7 @@ items:
     content: Void SetFieldProperties(Map properties)
     parameters:
     - id: properties
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
     return:
       type: CRMScript.Global.Void
@@ -135,12 +135,12 @@ references:
   name: Void
   nameWithType: Void
   fullName: CRMScript.Global.Void
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map
 - uid: CRMScript.Global.Void
   commentId: T:CRMScript.Global.Void
   isExternal: true

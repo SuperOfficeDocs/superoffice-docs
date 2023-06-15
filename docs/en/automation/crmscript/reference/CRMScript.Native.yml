@@ -38,7 +38,6 @@ items:
   - CRMScript.Native.MacroParameter
   - CRMScript.Native.MacroReturnValue
   - CRMScript.Native.MainMenu
-  - CRMScript.Native.Map
   - CRMScript.Native.Message
   - CRMScript.Native.Notify
   - CRMScript.Native.Parser
@@ -267,12 +266,6 @@ references:
   name: MainMenu
   nameWithType: MainMenu
   fullName: CRMScript.Native.MainMenu
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
-  isExternal: true
-  name: Map
-  nameWithType: Map
-  fullName: CRMScript.Native.Map
 - uid: CRMScript.Native.Message
   commentId: T:CRMScript.Native.Message
   isExternal: true

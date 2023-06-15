@@ -1,64 +1,64 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   id: Map
   langs:
   - crmscript
   children:
-  - CRMScript.Native.Map.#ctor
-  - CRMScript.Native.Map.#ctor(String)
-  - CRMScript.Native.Map.clear()
-  - CRMScript.Native.Map.eof()
-  - CRMScript.Native.Map.exists(String)
-  - CRMScript.Native.Map.first()
-  - CRMScript.Native.Map.fromJson(String)
-  - CRMScript.Native.Map.get(String)
-  - CRMScript.Native.Map.getKey()
-  - CRMScript.Native.Map.getVal()
-  - CRMScript.Native.Map.getWithFallback(String, String)
-  - CRMScript.Native.Map.increaseValueForKey(String, Float)
-  - CRMScript.Native.Map.increaseValueForKey(String, Integer)
-  - CRMScript.Native.Map.insert(String, String)
-  - CRMScript.Native.Map.next()
-  - CRMScript.Native.Map.remove(String)
-  - CRMScript.Native.Map.size()
-  - CRMScript.Native.Map.toJson()
+  - CRMScript.DataStructure.Map.#ctor
+  - CRMScript.DataStructure.Map.#ctor(String)
+  - CRMScript.DataStructure.Map.clear()
+  - CRMScript.DataStructure.Map.eof()
+  - CRMScript.DataStructure.Map.exists(String)
+  - CRMScript.DataStructure.Map.first()
+  - CRMScript.DataStructure.Map.fromJson(String)
+  - CRMScript.DataStructure.Map.get(String)
+  - CRMScript.DataStructure.Map.getKey()
+  - CRMScript.DataStructure.Map.getVal()
+  - CRMScript.DataStructure.Map.getWithFallback(String, String)
+  - CRMScript.DataStructure.Map.increaseValueForKey(String, Float)
+  - CRMScript.DataStructure.Map.increaseValueForKey(String, Integer)
+  - CRMScript.DataStructure.Map.insert(String, String)
+  - CRMScript.DataStructure.Map.next()
+  - CRMScript.DataStructure.Map.remove(String)
+  - CRMScript.DataStructure.Map.size()
+  - CRMScript.DataStructure.Map.toJson()
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map
   type: Class
   summary: "\nA map is a collection of key-value pairs. Both the key and the value are strings.<p></p>\nThe elements in a map are automatically sorted on their keys.<p></p>\nThe Map class supports two constructors. The default constructor accepts no parameters and initializes a Map with an empty key-value pair collection. The other constructor accepts a String.\n"
   example:
   - "\n<pre><code>Map m = Map(&quot;height=25\\nwidth=10&quot;);\nm.first();\nwhile (!m.eof()){\n\tprintLine(m.getKey() + &quot; = &quot; + m.getVal());\n\tm.next();\n}</code></pre>\n"
-- uid: CRMScript.Native.Map.#ctor
-  commentId: M:CRMScript.Native.Map.#ctor
+- uid: CRMScript.DataStructure.Map.#ctor
+  commentId: M:CRMScript.DataStructure.Map.#ctor
   id: '#ctor'
   so.intellisense: Void.Map
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: Map()
   nameWithType: Map.Map()
-  fullName: CRMScript.Native.Map.Map()
+  fullName: CRMScript.DataStructure.Map.Map()
   type: Constructor
   summary: "\nThe default constructor. Called with no parameters, it creates an empty Map.\n"
   syntax:
     content: Map Map()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "The new Map with an empty key-value pair collection."
-- uid: CRMScript.Native.Map.#ctor(String)
-  commentId: M:CRMScript.Native.Map.#ctor(String)
+- uid: CRMScript.DataStructure.Map.#ctor(String)
+  commentId: M:CRMScript.DataStructure.Map.#ctor(String)
   id: '#ctor(String)'
   so.intellisense: Void.Map
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: Map(String)
   nameWithType: Map.Map(String)
-  fullName: CRMScript.Native.Map.Map(String)
+  fullName: CRMScript.DataStructure.Map.Map(String)
   type: Constructor
   summary: "\nPass a String containing key-value pairs separated by &quot;\\n&quot; like this: &quot;key=value\\nkey=value\\nkey=value,...&quot;\n"
   remarks: "\nDon't add space between \\n and the 1st character of the key!\n"
@@ -71,18 +71,18 @@ items:
       type: CRMScript.Global.String
       description: "A String containing key-value pairs."
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "The new Map populated with a collection of key-value pairs."
-- uid: CRMScript.Native.Map.insert(String, String)
-  commentId: M:CRMScript.Native.Map.insert(String, String)
+- uid: CRMScript.DataStructure.Map.insert(String, String)
+  commentId: M:CRMScript.DataStructure.Map.insert(String, String)
   id: insert(String, String)
   so.intellisense: Map.insert
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: insert(String, String)
   nameWithType: Map.insert(String, String)
-  fullName: CRMScript.Native.Map.insert(String, String)s
+  fullName: CRMScript.DataStructure.Map.insert(String, String)s
   type: Method
   summary: "\nAdds a new key-value pair to the map.\n"
   remarks: "\nThis function will reset the internal iterator in the map.\n"
@@ -98,18 +98,18 @@ items:
       type: CRMScript.Global.String
       description: "The value belonging to the key."
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "A reference to itself."
-- uid: CRMScript.Native.Map.exists(String)
-  commentId: M:CRMScript.Native.Map.exists(String)
+- uid: CRMScript.DataStructure.Map.exists(String)
+  commentId: M:CRMScript.DataStructure.Map.exists(String)
   id: exists(String)
   so.intellisense: Map.exists
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: exists(String)
   nameWithType: Map.exists(String)
-  fullName: CRMScript.Native.Map.exists(String)
+  fullName: CRMScript.DataStructure.Map.exists(String)
   type: Method
   summary: "\nChecks if the map contains the given key.\n"
   example:
@@ -123,16 +123,16 @@ items:
     return:
       type: CRMScript.Global.Bool
       description: "True if the key exists in the map."
-- uid: CRMScript.Native.Map.size()
-  commentId: M:CRMScript.Native.Map.size()
+- uid: CRMScript.DataStructure.Map.size()
+  commentId: M:CRMScript.DataStructure.Map.size()
   id: size()
   so.intellisense: Map.size
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: size()
   nameWithType: Map.size()
-  fullName: CRMScript.Native.Map.size()
+  fullName: CRMScript.DataStructure.Map.size()
   type: Method
   summary: "\nCounts the elements in the map and returns that number.\n"
   remarks: "\nAn empty map has size == 0.\n"
@@ -144,16 +144,16 @@ items:
     return:
       type: CRMScript.Global.Integer
       description: "The number of elements in the map."
-- uid: CRMScript.Native.Map.get(String)
-  commentId: M:CRMScript.Native.Map.get(String)
+- uid: CRMScript.DataStructure.Map.get(String)
+  commentId: M:CRMScript.DataStructure.Map.get(String)
   id: get(String)
   so.intellisense: Map.get
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: get(String)
   nameWithType: 
-  fullName: CRMScript.Native.Map.get(String)
+  fullName: CRMScript.DataStructure.Map.get(String)
   type: Method
   summary: "\nReturns the value for the given key.\n"
   example:
@@ -167,16 +167,16 @@ items:
     return:
       type: CRMScript.Global.String
       description: "The value for the given key."
-- uid: CRMScript.Native.Map.getKey()
-  commentId: M:CRMScript.Native.Map.getKey()
+- uid: CRMScript.DataStructure.Map.getKey()
+  commentId: M:CRMScript.DataStructure.Map.getKey()
   id: getKey()
   so.intellisense: Map.getKey
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: getKey()
   nameWithType: 
-  fullName: CRMScript.Native.Map.getKey()
+  fullName: CRMScript.DataStructure.Map.getKey()
   type: Method
   summary: "\nReturns the key pointed to by the map iterator.\n"
   example:
@@ -187,16 +187,16 @@ items:
     return:
       type: CRMScript.Global.String
       description: "The key pointed to by the internal iterator."
-- uid: CRMScript.Native.Map.getVal()
-  commentId: M:CRMScript.Native.Map.getVal()
+- uid: CRMScript.DataStructure.Map.getVal()
+  commentId: M:CRMScript.DataStructure.Map.getVal()
   id: getVal()
   so.intellisense: Map.getVal
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: getVal()
   nameWithType: 
-  fullName: CRMScript.Native.Map.getVal()
+  fullName: CRMScript.DataStructure.Map.getVal()
   type: Method
   summary: "\nReturns the value pointed to by the map iterator.\n"
   example:
@@ -207,17 +207,17 @@ items:
     return:
       type: CRMScript.Global.String
       description: "The value pointed to by the internal iterator."
-- uid: CRMScript.Native.Map.getWithFallback(String, String)
-  commentId: M:CRMScript.Native.Map.getWithFallback(String, String)
+- uid: CRMScript.DataStructure.Map.getWithFallback(String, String)
+  commentId: M:CRMScript.DataStructure.Map.getWithFallback(String, String)
   id: getWithFallback(String, String)
   so.intellisense: Map.getWithFallback
   so.version: 10.1.8
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: getWithFallback(String, String)
   nameWithType: Map.getWithFallback(String, String)
-  fullName: CRMScript.Native.Map.getWithFallback(String, String)
+  fullName: CRMScript.DataStructure.Map.getWithFallback(String, String)
   type: Method
   summary: "\nReturns the fallback value if key does not exist.\n"
   example:
@@ -234,17 +234,17 @@ items:
     return:
       type: CRMScript.Global.String
       description: "The value of key, or fallback value if key does not exist."
-- uid: CRMScript.Native.Map.increaseValueForKey(String, Integer)
-  commentId: M:CRMScript.Native.Map.increaseValueForKey(String, Integer)
+- uid: CRMScript.DataStructure.Map.increaseValueForKey(String, Integer)
+  commentId: M:CRMScript.DataStructure.Map.increaseValueForKey(String, Integer)
   id: increaseValueForKey(String, Integer)
   so.intellisense: Map.increaseValueForKey
   so.version: 7.1.1
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: increaseValueForKey(String, Integer)
   nameWithType: Map.increaseValueForKey(String, Integer)
-  fullName: CRMScript.Native.Map.increaseValueForKey(String, Integer)
+  fullName: CRMScript.DataStructure.Map.increaseValueForKey(String, Integer)
   type: Method
   summary: "\nWhen working with numeric strings, you can increment values stored in the map. Provide the key to look up the element and the value to add to the currently stored value.\n"
   remarks: "\nYou can pass the increment as either Integer or Float.\n"
@@ -261,17 +261,17 @@ items:
       description: "The amount to add to the current value."
     return:
       type: CRMScript.Global.Void
-- uid: CRMScript.Native.Map.increaseValueForKey(String, Float)
-  commentId: M:CRMScript.Native.Map.increaseValueForKey(String, Float)
+- uid: CRMScript.DataStructure.Map.increaseValueForKey(String, Float)
+  commentId: M:CRMScript.DataStructure.Map.increaseValueForKey(String, Float)
   id: increaseValueForKey(String, Float)
   so.intellisense: Map.increaseValueForKey
   so.version: 7.1.1
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: increaseValueForKey(String, Float)
   nameWithType: Map.increaseValueForKey(String, Float)
-  fullName: CRMScript.Native.Map.increaseValueForKey(String, Float)
+  fullName: CRMScript.DataStructure.Map.increaseValueForKey(String, Float)
   type: Method
   summary: "\nWhen working with numeric strings, you can increment values stored in the map. Provide the key to look up the element and the value to add to the currently stored value.\n"
   remarks: "\nYou can pass the increment as either Integer or Float.\n"
@@ -288,17 +288,17 @@ items:
       description: "The amount to add to the current value."
     return:
       type: CRMScript.Global.Void
-- uid: CRMScript.Native.Map.remove(String)
-  commentId: M:CRMScript.Native.Map.remove(String)
+- uid: CRMScript.DataStructure.Map.remove(String)
+  commentId: M:CRMScript.DataStructure.Map.remove(String)
   id: remove(String)
   so.intellisense: Map.remove
   so.version: 4.0.1
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: remove(String)
   nameWithType: Map.remove(String)
-  fullName: CRMScript.Native.Map.remove(String)
+  fullName: CRMScript.DataStructure.Map.remove(String)
   type: Method
   summary: "\nRemoves the element with the given key.\n"
   example:
@@ -311,17 +311,17 @@ items:
       description: "The key matching the element to remove to remove."
     return:
       type: CRMScript.Global.Void
-- uid: CRMScript.Native.Map.clear()
-  commentId: M:CRMScript.Native.Map.clear()
+- uid: CRMScript.DataStructure.Map.clear()
+  commentId: M:CRMScript.DataStructure.Map.clear()
   id: clear()
   so.intellisense: Map.clear
   so.version: 7.1.0
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: clear()
   nameWithType: Map.clear()
-  fullName: CRMScript.Native.Map.clear()
+  fullName: CRMScript.DataStructure.Map.clear()
   type: Method
   summary: "\nRemoves all elements from the map.\n"
   example:
@@ -331,16 +331,16 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.Void
-- uid: CRMScript.Native.Map.eof()
-  commentId: M:CRMScript.Native.Map.eof()
+- uid: CRMScript.DataStructure.Map.eof()
+  commentId: M:CRMScript.DataStructure.Map.eof()
   id: eof()
   so.intellisense: Map.eof
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: eof()
   nameWithType: Map.eof()
-  fullName: CRMScript.Native.Map.eof()
+  fullName: CRMScript.DataStructure.Map.eof()
   type: Method
   summary: "\nReturns true if the map iterator has moved past the end of the map, otherwise false.\n"
   remarks: "\nThat eof() returns true is not the same as the map is empty. It can be, but it doesn't have to be. Use size() to check if the map is truly empty.\n"
@@ -352,16 +352,16 @@ items:
     return:
       type: CRMScript.Global.Bool
       description: "True if the internal iterator is past the end of the map, otherwise False."
-- uid: CRMScript.Native.Map.first()
-  commentId: M:CRMScript.Native.Map.first()
+- uid: CRMScript.DataStructure.Map.first()
+  commentId: M:CRMScript.DataStructure.Map.first()
   id: first()
   so.intellisense: Map.first
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: first()
   nameWithType: Map.first()
-  fullName: CRMScript.Native.Map.first()
+  fullName: CRMScript.DataStructure.Map.first()
   type: Method
   summary: "\nRewinds the internal iterator to the 1st element. Returns false if the map is empty.\n"
   example:
@@ -372,16 +372,16 @@ items:
     return:
       type: CRMScript.Global.Bool
       description: "True if map is not empty, otherwise false."
-- uid: CRMScript.Native.Map.next()
-  commentId: M:CRMScript.Native.Map.next()
+- uid: CRMScript.DataStructure.Map.next()
+  commentId: M:CRMScript.DataStructure.Map.next()
   id: next()
   so.intellisense: Map.next
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: next()
   nameWithType: Map.next()
-  fullName: CRMScript.Native.Map.next()
+  fullName: CRMScript.DataStructure.Map.next()
   type: Method
   summary: "\nMoves the map iterator to next position. Returns false if eof().\n"
   example:
@@ -392,17 +392,17 @@ items:
     return:
       type: CRMScript.Global.Bool
       description: "False if eof(), otherwise true."
-- uid: CRMScript.Native.Map.toJson()
-  commentId: M:CRMScript.Native.Map.toJson()
+- uid: CRMScript.DataStructure.Map.toJson()
+  commentId: M:CRMScript.DataStructure.Map.toJson()
   id: toJson()
   so.intellisense: Map.toJson
   so.version: 7.1.0
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: toJson()
   nameWithType: Map.toJson()
-  fullName: CRMScript.Native.Map.toJson()
+  fullName: CRMScript.DataStructure.Map.toJson()
   type: Method
   summary: "\nConverts the Map to JSON.\n"
   example:
@@ -413,17 +413,17 @@ items:
     return:
       type: CRMScript.Global.String
       description: "The Map represented as JSON string."
-- uid: CRMScript.Native.Map.fromJson(String)
-  commentId: M:CRMScript.Native.Map.fromJson(String)
+- uid: CRMScript.DataStructure.Map.fromJson(String)
+  commentId: M:CRMScript.DataStructure.Map.fromJson(String)
   id: fromJson(String)
   so.intellisense: Map.fromJson
   so.version: 7.1.0
   langs:
   - crmscript
-  parent: CRMScript.Native.Map
+  parent: CRMScript.DataStructure.Map
   name: fromJson(String)
   nameWithType: Map.fromJson(String)
-  fullName: CRMScript.Native.Map.fromJson(String)
+  fullName: CRMScript.DataStructure.Map.fromJson(String)
   type: Method
   summary: "\nConverts a JSON string to a map. Format: {&quot;key&quot;: &quot;value&quot;, &quot;foo&quot;: &quot;bar&quot;}\n"
   example:
@@ -437,12 +437,12 @@ items:
     return:
       type: CRMScript.Global.Void
 references:
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map
 - uid: CRMScript.Global.Integer
   commentId: T:CRMScript.Global.Integer
   isExternal: true

@@ -50,7 +50,7 @@ items:
     content: Map getObject()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "Field-value pairs for the currently fetched object."
   example: 
 - uid: CRMScript.Native.DbiControl.getParameter(String)
@@ -91,7 +91,7 @@ items:
     content: Map getParameters()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "Field-value pairs."
   example: 
 - uid: CRMScript.Native.DbiControl.saveParameter(String,String)
@@ -134,7 +134,7 @@ items:
     content: Void sendObject(Map values)
     parameters:
     - id: values
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description: "Field-value pairs that define the object in a way that is meaningful to the external agent."
     return:
       type: CRMScript.Global.Void
@@ -188,9 +188,9 @@ references:
   name: Void
   nameWithType: Void
   fullName: CRMScript.Global.Void
-- uid: CRMScript.Native.Map
-  commentId: T:CRMScript.Native.Map
+- uid: CRMScript.DataStructure.Map
+  commentId: T:CRMScript.DataStructure.Map
   isExternal: true
   name: Map
   nameWithType: Map
-  fullName: CRMScript.Native.Map
+  fullName: CRMScript.DataStructure.Map

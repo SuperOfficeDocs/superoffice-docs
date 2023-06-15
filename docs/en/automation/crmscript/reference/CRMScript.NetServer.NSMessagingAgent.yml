@@ -148,7 +148,7 @@ items:
       type: CRMScript.NetServer.NSOutgoingMessage[]
       description: 
     - id: config
-      type: CRMScript.Native.Map
+      type: CRMScript.DataStructure.Map
       description:
     return:
       type: CRMScript.NetServer.NSMessageDeliveryStatus[]
