@@ -421,6 +421,7 @@ items:
   - CRMScript.NetServer.NSWebhookResult
   - CRMScript.NetServer.NSWebPanelEntity
   - CRMScript.NetServer.NSWindowPosSize
+  - CRMScript.NetServer.PersonGender
   - CRMScript.NetServer.PrefDescAccessFlags
   - CRMScript.NetServer.PrefDescValueType
   - CRMScript.NetServer.PreferenceLevel
@@ -3292,3 +3293,9 @@ references:
   name: NSTicketMessageHeader
   nameWithType: NSTicketMessageHeader
   fullName: CRMScript.NetServer.NSTicketMessageHeader
+- uid: CRMScript.NetServer.PersonGender
+  commentId: T:CRMScript.NetServer.PersonGender
+  isExternal: true
+  name: PersonGender
+  nameWithType: PersonGender
+  fullName: CRMScript.NetServer.PersonGender
