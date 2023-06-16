@@ -2,17 +2,10 @@
 uid: UserPreferences
 title: UserPreferences
 description: User (and system) preference settings, at all levels
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "UserPreferences"
+keywords: UserPreferences archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "UserPreferences"

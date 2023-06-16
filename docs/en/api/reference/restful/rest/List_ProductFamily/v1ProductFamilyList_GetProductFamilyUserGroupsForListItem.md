@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductFamily/Items/{id}/UserGroups
 uid: v1ProductFamilyList_GetProductFamilyUserGroupsForListItem
+generated: true
 ---
 
 # GET List/ProductFamily/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 41,
-    "Name": "Beier, Brakus and Gleason",
-    "ToolTip": "Ducimus eos nam illo.",
+    "Id": 717,
+    "Name": "Wolff, Breitenberg and Robel",
+    "ToolTip": "Iusto corrupti aut ut.",
     "Deleted": false,
-    "Rank": 259,
-    "Type": "delectus",
-    "ColorBlock": 234,
-    "IconHint": "et",
+    "Rank": 648,
+    "Type": "officia",
+    "ColorBlock": 605,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2008-05-30T03:51:34.8176965+02:00",
+    "LastChanged": "2022-01-10T16:00:49.1645684+01:00",
     "ChildItems": [
       {
-        "Id": 385,
-        "Name": "Crona Group",
-        "ToolTip": "Corrupti iste debitis consequatur impedit.",
-        "Deleted": false,
-        "Rank": 545,
-        "Type": "quo",
-        "ColorBlock": 887,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2003-11-22T03:51:34.8176965+01:00",
+        "Id": 587,
+        "Name": "Maggio-Kovacek",
+        "ToolTip": "Repellat omnis et numquam voluptatem accusamus.",
+        "Deleted": true,
+        "Rank": 888,
+        "Type": "voluptatem",
+        "ColorBlock": 556,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2009-02-02T16:00:49.1645684+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
+        "ExtraInfo": "ab",
         "StyleHint": "dolorem",
         "Hidden": true,
-        "FullName": "Katlynn Bosco",
+        "FullName": "Claire Emard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 566
+            "FieldLength": 604
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "enim",
-    "Hidden": false,
-    "FullName": "Marcus Donnelly",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "London Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldLength": 18
       }
     }
   }

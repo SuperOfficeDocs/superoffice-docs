@@ -2,17 +2,10 @@
 uid: FindQuoteLine
 title: FindQuoteLine
 description: QuoteLine provider for Find
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "FindQuoteLine"
+keywords: FindQuoteLine archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "FindQuoteLine"
@@ -128,6 +121,10 @@ QuoteLine provider for Find
 |alternative/version/quote/sale/icon|listAny|Sale - Category: Displays the icon for an activity type| x |
 |alternative/version/quote/sale/date|date|Sale - Date: Displays start date of a follow-up / sale date of a sale| x |
 |alternative/version/quote/sale/time| *None* |Sale - Time: Time|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/type|listAny|Sale - Type: Displays the type of an activity| x |
 |alternative/version/quote/sale/recordType|string|Sale - Record type: Shows the record type| x |
 |alternative/version/quote/sale/text|positiveString|Sale - Text: Displays a descriptive text for the item| x |
@@ -228,6 +225,10 @@ QuoteLine provider for Find
 |alternative/version/quote/sale/person/personMobilePhone/formattedNumber|string|Sale - Mobile - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personMobilePhone/description|string|Sale - Mobile - Description: Phone number description| x |
 |alternative/version/quote/sale/person/personPrivate/formattedNumber|string|Sale - Private - Phone: Displays phone number|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/person/personPrivate/description|string|Sale - Private - Description: Phone number description| x |
 |alternative/version/quote/sale/person/personPager/formattedNumber|string|Sale - Other - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personPager/description|string|Sale - Other - Description: Phone number description| x |
@@ -328,6 +329,10 @@ QuoteLine provider for Find
 |alternative/version/quote/sale/person/personAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |alternative/version/quote/sale/person/personAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
 |alternative/version/quote/sale/person/personAssociate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/person/personAssociate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
 |alternative/version/quote/sale/person/personAssociate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |alternative/version/quote/sale/person/personAssociate/isActive|bool|Sale - Active: Is this user active, and should be able to log in?| x |
@@ -428,6 +433,10 @@ QuoteLine provider for Find
 |alternative/version/quote/sale/contact/postAddress/state|string|Sale - Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |alternative/version/quote/sale/contact/postAddress/wgs84latitude|decimal|Sale - Postal address - Latitude: Latitude| x |
 |alternative/version/quote/sale/contact/postAddress/wgs84longitude|decimal|Sale - Postal address - Longitude: Longitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/postAddress/formattedAddress| *None* |Sale - Postal address - {formattedAddress}: {formattedAddress}|  |
 |alternative/version/quote/sale/contact/postAddress/formattedMultiLineAddress| *None* |Sale - Postal address - {formattedAddress}: {formattedAddress}|  |
 |alternative/version/quote/sale/contact/streetAddress/addressId|int|Sale - Street address - Address ID: Database ID for the address record| x |
@@ -528,6 +537,10 @@ QuoteLine provider for Find
 |alternative/version/quote/sale/contact/NumberOfNotCompletedSales|int|Sale - Number of non-completed sales|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedSalesInPeriod|int|Sale - Number of non-completed sales in last 90 days|  |
 |alternative/version/quote/sale/contact/LastSale|date|Sale - Date of last sale|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/LastCompletedSale|date|Sale - Date of last completed sale|  |
 |alternative/version/quote/sale/contact/LastDoBySale|date|Sale - Date of last non-completed sale|  |
 |alternative/version/quote/sale/contact/NumberOfTickets|int|Sale - Number of requests|  |
@@ -628,6 +641,10 @@ QuoteLine provider for Find
 |alternative/version/quote/sale/project/projectAssociate/associateDbId|associate|Sale - Project - ID| x |
 |alternative/version/quote/sale/project/projectAssociate/contactName|string|Sale - Project - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/project/projectAssociate/contactDepartment|string|Sale - Project - Owning department: Name of the department at the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/projectAssociate/usergroup|userGroup|Sale - Project - Primary group: The user's primary user group| x |
 |alternative/version/quote/sale/project/projectAssociate/contactFullName|string|Sale - Project - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/project/projectAssociate/contactCategory|listAny|Sale - Project - Category: Category| x |
@@ -716,7 +733,7 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=subscriptionUnit,alternative/version/quote/sale/person/personUpdatedByFullName,alternative/version/quote/sale/person/personUpdatedDate,alternative/version/quote/sale/person/personPrivate/formattedNumber,alternative/version/quote/sale/person/consentSourceEmarketing
+GET /api/v1/archive/FindQuoteLine?$select=alternative/version/quote/sale/person/personBusiness,alternative/version/quote/sale/contact/searchPhone/formattedNumber,alternative/version/quote/sale/contact/LastCompletedTicket,alternative/version/quote/sale/contact/saintTicketCategory,alternative/version/quote/sale/project/hasInfoText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

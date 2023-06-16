@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectType/Items/Default
 uid: v1ProjectTypeList_CreateDefaultProjectType
+generated: true
 ---
 
 # GET List/ProjectType/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 855,
-  "Name": "Metz Inc and Sons",
-  "Tooltip": "voluptatem",
+  "Id": 61,
+  "Name": "Beer-Kertzmann",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "UdListDefinitionId": 24,
-  "Rank": 391,
+  "UdListDefinitionId": 775,
+  "Rank": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldType": "System.String",
+      "FieldLength": 380
     }
   }
 }

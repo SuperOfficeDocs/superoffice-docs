@@ -1,17 +1,11 @@
 ---
 uid: dashboardentity
 title: dashboardentity
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "dashboardentity"
+keywords: mdoprovider mdo provider dashboardentity
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "dashboardentity" MDO List

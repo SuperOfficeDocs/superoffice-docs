@@ -1,17 +1,11 @@
 ---
 uid: ticketread
 title: ticketread
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "ticketread"
+keywords: mdoprovider mdo provider ticketread
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ticketread" MDO List

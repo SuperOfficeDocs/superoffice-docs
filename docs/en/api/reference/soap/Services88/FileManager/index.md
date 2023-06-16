@@ -1,7 +1,7 @@
 ---
 title: Services88.FileManagerAgent SOAP
 uid: Services88-FileManager-soap
-generated: 1
+generated: true
 ---
 
 # Services88 FileManager SOAP

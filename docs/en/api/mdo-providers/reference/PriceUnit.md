@@ -1,17 +1,11 @@
 ---
 uid: priceunit
 title: priceunit
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "priceunit"
+keywords: mdoprovider mdo provider priceunit
+description: GenericMDOProvider reads MDO lists with default settings
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "priceunit" MDO List

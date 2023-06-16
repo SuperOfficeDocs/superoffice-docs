@@ -1,6 +1,6 @@
 ---
 title: Services88.TicketAgent.GetAttachmentEntity SOAP
-generated: 1
+generated: true
 uid: Services88-Ticket-GetAttachmentEntity
 ---
 

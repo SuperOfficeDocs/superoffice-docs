@@ -1,6 +1,7 @@
 ---
 title: GET Contact/Duplicates/{name}
 uid: v1ContactEntity_GetNameDepartmentDuplicates
+generated: true
 ---
 
 # GET Contact/Duplicates/{name}
@@ -28,7 +29,7 @@ Get duplicates based on the contact name and department
 | department | string |  Department used for lookup (if any) |
 
 ```http
-GET /api/v1/Contact/Duplicates/{name}?department=corrupti
+GET /api/v1/Contact/Duplicates/{name}?department=aut
 ```
 
 
@@ -83,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Cassin Group",
-    "SoPrimaryKey": 686,
-    "EntryName": "Windler LLC",
-    "EntryIdentifier": "neque",
-    "RuleDisplayName": "Emard Group",
+    "RuleName": "Larkin-Graham",
+    "SoPrimaryKey": 846,
+    "EntryName": "Pfeffer Group",
+    "EntryIdentifier": "et",
+    "RuleDisplayName": "Glover Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 817
+        "FieldType": "System.Int32",
+        "FieldLength": 141
       }
     }
   }

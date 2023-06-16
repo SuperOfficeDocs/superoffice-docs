@@ -1,17 +1,11 @@
 ---
 uid: form
 title: form
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "form"
+keywords: mdoprovider mdo provider form
+description: Get all forms with folder hierarchy. Set ExtraInfo to "onlyActive" if you only want to get active forms
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "form" MDO List

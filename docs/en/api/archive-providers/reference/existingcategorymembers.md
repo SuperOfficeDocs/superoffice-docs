@@ -2,17 +2,10 @@
 uid: ExistingCategoryMembers
 title: ExistingCategoryMembers
 description: Archive of ExistingCategoryMembers - used by the web api.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ExistingCategoryMembers"
+keywords: ExistingCategoryMembers archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ExistingCategoryMembers"
@@ -37,7 +30,7 @@ Lists existing CategoryMembers in table and edited or removed ones through restr
 |categoryMembershipId|int|ID: ID| x |
 |categoryId|int|Category ID: Category ID| x |
 |weight|int|Weight: Weight| x |
-|isDefinedByUsergroup|bool|From usergroup: From usergroup| x |
+|isDefinedByUsergroup|bool|From user group: From user group| x |
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -72,7 +65,7 @@ Lists existing CategoryMembers in table and edited or removed ones through restr
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExistingCategoryMembers?$select=contactId,usergroup
+GET /api/v1/archive/ExistingCategoryMembers?$select=getAllRows,contactId,usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

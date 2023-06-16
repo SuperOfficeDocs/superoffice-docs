@@ -1,6 +1,7 @@
 ---
 title: DEL List/QuoteDenyReason/Headings
 uid: v1QuoteDenyReasonList_DeleteQuoteDenyReasonHeadings
+generated: true
 ---
 
 # DEL List/QuoteDenyReason/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

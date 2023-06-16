@@ -1,6 +1,7 @@
 ---
 title: GET List/Business/MDOItems
 uid: v1BusinessList_GetMDOList
+generated: true
 ---
 
 # GET List/Business/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=et
+GET /api/v1/List/Business/MDOItems?query=qui
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 435,
-    "Name": "Boyer-Altenwerth",
-    "ToolTip": "Voluptate velit aliquam eaque dolores fuga.",
+    "Id": 798,
+    "Name": "Kreiger-Ryan",
+    "ToolTip": "Quia doloremque commodi esse exercitationem commodi culpa rem.",
     "Deleted": false,
-    "Rank": 646,
-    "Type": "aliquid",
+    "Rank": 546,
+    "Type": "expedita",
     "ChildItems": [
       {
-        "Id": 297,
-        "Name": "Hoppe Group",
-        "ToolTip": "Ipsa nulla doloremque.",
-        "Deleted": false,
-        "Rank": 906,
-        "Type": "blanditiis",
+        "Id": 398,
+        "Name": "Aufderhar, Breitenberg and Mueller",
+        "ToolTip": "Sit dolores facere eum debitis dignissimos.",
+        "Deleted": true,
+        "Rank": 898,
+        "Type": "ad",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magnam",
-        "ColorBlock": 459,
-        "ExtraInfo": "quasi",
-        "StyleHint": "nam",
-        "FullName": "Toney Bernhard",
+        "IconHint": "ea",
+        "ColorBlock": 979,
+        "ExtraInfo": "sed",
+        "StyleHint": "magni",
+        "FullName": "Ezra Collier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 802
+            "FieldLength": 959
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 772,
-    "ExtraInfo": "placeat",
-    "StyleHint": "ut",
-    "FullName": "Ms. Brenna Kaelyn Hettinger",
+    "IconHint": "atque",
+    "ColorBlock": 852,
+    "ExtraInfo": "officiis",
+    "StyleHint": "provident",
+    "FullName": "Prof. Friedrich Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 818
       }
     }
   }

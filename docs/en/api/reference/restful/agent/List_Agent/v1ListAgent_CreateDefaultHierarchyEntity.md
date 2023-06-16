@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultHierarchyEntity
 uid: v1ListAgent_CreateDefaultHierarchyEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultHierarchyEntity
@@ -75,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 210,
+  "HierarchyId": 209,
   "Domain": "Dashboards",
-  "Name": "Deckow, Langworth and Braun",
-  "Fullname": "sit",
-  "ParentId": 648,
+  "Name": "Weissnat-Hegmann",
+  "Fullname": "qui",
+  "ParentId": 830,
   "Children": [
     {
-      "HierarchyId": 51,
+      "HierarchyId": 487,
       "Domain": "Dashboards",
-      "Name": "Cummings, Schoen and Bogisich",
-      "Fullname": "eos",
-      "ParentId": 187,
+      "Name": "Tillman Group",
+      "Fullname": "voluptate",
+      "ParentId": 404,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-06-24T03:51:27.4747952+02:00",
-      "RegisteredAssociateId": 64,
-      "Updated": "2022-08-18T03:51:27.4747952+02:00",
-      "UpdatedAssociateId": 69,
+      "Registered": "2011-07-22T16:00:41.2112045+02:00",
+      "RegisteredAssociateId": 760,
+      "Updated": "2020-04-24T16:00:41.2112045+02:00",
+      "UpdatedAssociateId": 388,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldLength": 387
         }
       }
     }
   ],
-  "Registered": "2017-07-25T03:51:27.4747952+02:00",
-  "RegisteredAssociateId": 448,
-  "Updated": "2017-11-03T03:51:27.4747952+01:00",
-  "UpdatedAssociateId": 113,
+  "Registered": "2017-02-28T16:00:41.2112045+01:00",
+  "RegisteredAssociateId": 70,
+  "Updated": "2019-12-30T16:00:41.2112045+01:00",
+  "UpdatedAssociateId": 494,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 826
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

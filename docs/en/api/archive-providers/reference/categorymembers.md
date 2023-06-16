@@ -2,17 +2,10 @@
 uid: CategoryMembers
 title: CategoryMembers
 description: Archive of CategoryMember - used by the web api.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "CategoryMembers"
+keywords: CategoryMembers archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "CategoryMembers"
@@ -38,7 +31,7 @@ Combines all CategoryMembers in table together with added, edited or removed thr
 |categoryMembershipId| *None* |ID: ID|  |
 |categoryId| *None* |Category ID: Category ID|  |
 |weight|int|Weight: Weight| x |
-|isDefinedByUsergroup| *None* |From usergroup: From usergroup|  |
+|isDefinedByUsergroup| *None* |From user group: From user group|  |
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle Name : Displays the contact's middle name.| x |

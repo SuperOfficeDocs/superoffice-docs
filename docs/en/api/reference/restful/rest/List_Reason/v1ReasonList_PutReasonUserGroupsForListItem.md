@@ -1,6 +1,7 @@
 ---
 title: PUT List/Reason/Items/{id}/UserGroups
 uid: v1ReasonList_PutReasonUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/Reason/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 37,
-    "Name": "Hilpert LLC",
-    "ToolTip": "Et et.",
+    "Id": 256,
+    "Name": "Dach, Gerlach and Schmidt",
+    "ToolTip": "Iure eaque.",
     "Deleted": false,
-    "Rank": 286,
-    "Type": "quisquam",
-    "ColorBlock": 664,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "2008-04-14T03:51:34.9114158+02:00",
+    "Rank": 805,
+    "Type": "non",
+    "ColorBlock": 619,
+    "IconHint": "eaque",
+    "Selected": true,
+    "LastChanged": "2005-06-26T16:00:49.2739351+02:00",
     "ChildItems": [
       {
-        "Id": 361,
-        "Name": "Boyle LLC",
-        "ToolTip": "Quos corrupti repellat dolorum sint vel quia illo.",
+        "Id": 801,
+        "Name": "Gorczany, Terry and Kuhic",
+        "ToolTip": "Ipsum rerum quo voluptates molestias.",
         "Deleted": true,
-        "Rank": 664,
-        "Type": "velit",
-        "ColorBlock": 990,
-        "IconHint": "placeat",
-        "Selected": false,
-        "LastChanged": "2006-05-29T03:51:34.9114158+02:00",
+        "Rank": 840,
+        "Type": "in",
+        "ColorBlock": 751,
+        "IconHint": "reprehenderit",
+        "Selected": true,
+        "LastChanged": "2023-04-16T16:00:49.2739351+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Jacky Ebert"
+        "ExtraInfo": "rerum",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Gust Hartmann"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "ullam",
-    "Hidden": false,
-    "FullName": "Samara Zieme"
+    "ExtraInfo": "ex",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Miss Mike Rickey Satterfield V"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 363,
-    "Name": "Langosh, Quitzon and Hayes",
-    "ToolTip": "Nam perferendis hic cumque tenetur.",
+    "Id": 128,
+    "Name": "Bashirian LLC",
+    "ToolTip": "Nobis aut earum explicabo ut voluptas cum dolore.",
     "Deleted": false,
-    "Rank": 11,
-    "Type": "et",
-    "ColorBlock": 452,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2019-04-25T03:51:34.9114158+02:00",
+    "Rank": 676,
+    "Type": "reiciendis",
+    "ColorBlock": 96,
+    "IconHint": "alias",
+    "Selected": false,
+    "LastChanged": "2010-10-06T16:00:49.2739351+02:00",
     "ChildItems": [
       {
-        "Id": 561,
-        "Name": "Stroman Group",
-        "ToolTip": "Praesentium omnis a veniam.",
-        "Deleted": false,
-        "Rank": 220,
-        "Type": "doloribus",
-        "ColorBlock": 756,
-        "IconHint": "iste",
-        "Selected": false,
-        "LastChanged": "1998-10-20T03:51:34.9114158+02:00",
+        "Id": 321,
+        "Name": "Hodkiewicz Group",
+        "ToolTip": "Deleniti quod inventore aliquam quos.",
+        "Deleted": true,
+        "Rank": 600,
+        "Type": "in",
+        "ColorBlock": 676,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2015-03-13T16:00:49.2739351+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "officiis",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Audrey Dibbert",
+        "FullName": "Dr. Hiram Annette Barton MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 374
+            "FieldLength": 654
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "neque",
-    "Hidden": false,
-    "FullName": "Armani Boyle",
+    "ExtraInfo": "ea",
+    "StyleHint": "maiores",
+    "Hidden": true,
+    "FullName": "Belle Stefanie Schuppe V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldLength": 571
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/CreateDefaultDashCollection
 uid: v1DashAgent_CreateDefaultDashCollection
+generated: true
 ---
 
 # POST Agents/Dash/CreateDefaultDashCollection
@@ -58,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 489,
-      "UniqueId": "ratione",
-      "Name": "Langosh, Miller and Aufderhar",
-      "Description": "De-engineered multi-state system engine",
-      "AssociateId": 304,
-      "Columns": 180,
+      "DashboardId": 203,
+      "UniqueId": "et",
+      "Name": "Batz, McCullough and O'Connell",
+      "Description": "Expanded human-resource groupware",
+      "AssociateId": 550,
+      "Columns": 669,
       "Theme": null,
-      "VisibleForAll": 439,
+      "VisibleForAll": 608,
       "VisibleForAssociates": [
-        170,
-        311
+        788,
+        942
       ],
       "VisibleForGroups": [
-        6,
-        803
+        334,
+        767
       ],
-      "PinForAll": 994,
+      "PinForAll": 379,
       "PinForAssociates": [
-        95,
-        741
+        887,
+        572
       ],
       "PinForGroups": [
-        811,
-        215
+        705,
+        355
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 367
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 694,
-      "UniqueId": "ut",
-      "Name": "Goyette, Wuckert and Considine",
-      "Description": "Versatile fresh-thinking instruction set",
-      "AssociateId": 375,
-      "Columns": 417,
+      "DashboardId": 231,
+      "UniqueId": "porro",
+      "Name": "Cartwright, Moore and Weissnat",
+      "Description": "Seamless grid-enabled concept",
+      "AssociateId": 883,
+      "Columns": 9,
       "Theme": null,
-      "VisibleForAll": 210,
+      "VisibleForAll": 678,
       "VisibleForAssociates": [
-        705,
-        696
+        838,
+        841
       ],
       "VisibleForGroups": [
-        560,
-        391
+        811,
+        40
       ],
-      "PinForAll": 480,
+      "PinForAll": 518,
       "PinForAssociates": [
-        696,
-        680
+        994,
+        798
       ],
       "PinForGroups": [
-        593,
-        495
+        324,
+        934
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 630
+          "FieldLength": 167
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 155,
-      "UniqueId": "ullam",
-      "Name": "Moore, Dach and Brown",
-      "Description": "Profit-focused grid-enabled approach",
-      "AssociateId": 560,
-      "Columns": 245,
+      "DashboardId": 161,
+      "UniqueId": "nisi",
+      "Name": "Tromp Group",
+      "Description": "Persistent system-worthy archive",
+      "AssociateId": 806,
+      "Columns": 551,
       "Theme": null,
-      "VisibleForAll": 174,
+      "VisibleForAll": 755,
       "VisibleForAssociates": [
-        673,
-        865
+        285,
+        143
       ],
       "VisibleForGroups": [
-        485,
-        61
+        42,
+        114
       ],
-      "PinForAll": 489,
+      "PinForAll": 381,
       "PinForAssociates": [
-        806,
-        369
+        524,
+        338
       ],
       "PinForGroups": [
-        472,
-        819
+        1001,
+        152
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 971
+          "FieldType": "System.Int32",
+          "FieldLength": 70
         }
       }
     }
@@ -184,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 195
     }
   }
 }

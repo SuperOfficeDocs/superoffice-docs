@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/DeleteUserGroup
 uid: v1UserAgent_DeleteUserGroup
+generated: true
 ---
 
 # POST Agents/User/DeleteUserGroup
@@ -66,12 +67,12 @@ No Content
 POST /api/v1/Agents/User/DeleteUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupToDelete": 751,
-  "UserGroupToMoveTo": 971
+  "UserGroupToDelete": 954,
+  "UserGroupToMoveTo": 689
 }
 ```
 

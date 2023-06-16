@@ -1,6 +1,7 @@
 ---
 title: GET List/Priority/Items/{id}/Headings
 uid: v1PriorityList_GetPriorityHeadingsForListItem
+generated: true
 ---
 
 # GET List/Priority/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 676,
-    "Name": "Mayert-Muller",
-    "ToolTip": "Odit ad reprehenderit expedita eos.",
-    "Deleted": false,
-    "Rank": 840,
-    "Type": "dolorem",
-    "ColorBlock": 291,
-    "IconHint": "esse",
-    "Selected": false,
-    "LastChanged": "2007-05-21T03:51:34.7864536+02:00",
+    "Id": 799,
+    "Name": "Bergnaum Inc and Sons",
+    "ToolTip": "Ea aut.",
+    "Deleted": true,
+    "Rank": 284,
+    "Type": "consectetur",
+    "ColorBlock": 10,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2000-10-07T16:00:49.133322+02:00",
     "ChildItems": [
       {
-        "Id": 721,
-        "Name": "Berge-Bernhard",
-        "ToolTip": "Quas ea harum.",
-        "Deleted": false,
-        "Rank": 120,
-        "Type": "error",
-        "ColorBlock": 702,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "2001-09-24T03:51:34.7864536+02:00",
+        "Id": 109,
+        "Name": "Hoeger LLC",
+        "ToolTip": "Placeat alias quasi magni autem hic molestias.",
+        "Deleted": true,
+        "Rank": 689,
+        "Type": "eos",
+        "ColorBlock": 937,
+        "IconHint": "iusto",
+        "Selected": true,
+        "LastChanged": "2015-08-07T16:00:49.133322+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Jean VonRueden",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "optio",
+        "Hidden": true,
+        "FullName": "Devin Barrows PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 555
+            "FieldLength": 718
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Lenora Cameron Schaden V",
+    "ExtraInfo": "et",
+    "StyleHint": "ex",
+    "Hidden": true,
+    "FullName": "Hannah Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 804
       }
     }
   }

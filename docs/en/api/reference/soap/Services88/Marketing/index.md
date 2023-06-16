@@ -1,7 +1,7 @@
 ---
 title: Services88.MarketingAgent SOAP
 uid: Services88-Marketing-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Marketing SOAP

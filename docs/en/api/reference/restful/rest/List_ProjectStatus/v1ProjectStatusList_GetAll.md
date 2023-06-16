@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectStatus/Items
 uid: v1ProjectStatusList_GetAll
+generated: true
 ---
 
 # GET List/ProjectStatus/Items
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Barrows, Kirlin and Goodwin",
-    "Tooltip": "sunt",
+    "Id": 791,
+    "Name": "Dibbert, Thiel and Cruickshank",
+    "Tooltip": "earum",
     "Deleted": true,
-    "UdListDefinitionId": 75,
-    "Rank": 262,
+    "UdListDefinitionId": 953,
+    "Rank": 568,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldType": "System.String",
+        "FieldLength": 327
       }
     }
   }

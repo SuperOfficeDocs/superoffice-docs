@@ -1,17 +1,11 @@
 ---
 uid: month
 title: month
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "month"
+keywords: mdoprovider mdo provider month
+description: MDO provider for the hard-coded list of "of" months in the recurrence dialog.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "month" MDO List

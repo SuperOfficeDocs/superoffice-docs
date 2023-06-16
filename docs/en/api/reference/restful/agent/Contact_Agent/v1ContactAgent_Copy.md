@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/Copy
 uid: v1ContactAgent_Copy
+generated: true
 ---
 
 # POST Agents/Contact/Copy
@@ -72,13 +73,13 @@ OK
 POST /api/v1/Agents/Contact/Copy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 509,
-  "DestinationContactName": "Hackett, Ebert and Halvorson",
-  "DestinationContactDepartment": "",
+  "SourceContactId": 108,
+  "DestinationContactName": "Sauer-Gerlach",
+  "DestinationContactDepartment": "streamline customized e-markets",
   "CopyPersons": false
 }
 ```
@@ -89,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-497
+799
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetVersionList
 uid: v1DocumentAgent_GetVersionList
+generated: true
 ---
 
 # POST Agents/Document/GetVersionList
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 519
+  "DocumentId": 213
 }
 ```
 
@@ -94,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "vitae",
-    "DocumentId": 596,
-    "VersionId": "est",
-    "CheckedInDate": "2005-03-13T03:51:27.1155029+01:00",
-    "CheckedInByName": "Mante LLC",
-    "CheckedInByAssociateId": 511,
-    "Description": "Horizontal dynamic collaboration",
-    "DisplayText": "eius",
+    "ExternalReference": "omnis",
+    "DocumentId": 843,
+    "VersionId": "deleniti",
+    "CheckedInDate": "1998-01-22T16:00:40.7893736+01:00",
+    "CheckedInByName": "Feest LLC",
+    "CheckedInByAssociateId": 966,
+    "Description": "Programmable maximized archive",
+    "DisplayText": "qui",
     "ExtraFields": [
-      "sequi",
-      "quidem"
+      "itaque",
+      "itaque"
     ]
   }
 ]

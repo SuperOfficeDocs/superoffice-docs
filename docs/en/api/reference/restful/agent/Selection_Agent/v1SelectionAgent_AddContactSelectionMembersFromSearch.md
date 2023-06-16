@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/AddContactSelectionMembersFromSearch
 uid: v1SelectionAgent_AddContactSelectionMembersFromSearch
+generated: true
 ---
 
 # POST Agents/Selection/AddContactSelectionMembersFromSearch
@@ -72,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 451,
-  "StorageKey": "mollitia"
+  "SelectionId": 945,
+  "StorageKey": "aliquid"
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-492
+348
 ```

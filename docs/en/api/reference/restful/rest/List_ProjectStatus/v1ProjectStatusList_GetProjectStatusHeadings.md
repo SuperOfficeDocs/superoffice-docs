@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectStatus/Headings
 uid: v1ProjectStatusList_GetProjectStatusHeadings
+generated: true
 ---
 
 # GET List/ProjectStatus/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 798,
-    "Name": "Carroll, Ritchie and Pollich",
-    "Tooltip": "ab",
+    "HeadingId": 623,
+    "Name": "Leuschke Inc and Sons",
+    "Tooltip": "modi",
     "Deleted": false,
-    "Rank": 28,
-    "UdListDefinitionId": 970,
+    "Rank": 261,
+    "UdListDefinitionId": 554,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 644
       }
     }
   }

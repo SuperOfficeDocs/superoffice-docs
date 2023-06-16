@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Favourite/AddFavourite
 uid: v1FavouriteAgent_AddFavourite
+generated: true
 ---
 
 # POST Agents/Favourite/AddFavourite
@@ -66,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lind, Spinka and Jacobs",
-  "RecordId": 256,
-  "AssociateId": 562,
-  "ExtraInfo": "dolorum"
+  "TableName": "Cruickshank, Ondricka and Stroman",
+  "RecordId": 949,
+  "AssociateId": 829,
+  "ExtraInfo": "quo"
 }
 ```
 

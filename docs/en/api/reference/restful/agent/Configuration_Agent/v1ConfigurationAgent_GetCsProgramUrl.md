@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetCsProgramUrl
 uid: v1ConfigurationAgent_GetCsProgramUrl
+generated: true
 ---
 
 # POST Agents/Configuration/GetCsProgramUrl
@@ -70,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "rerum",
-  "ProgramName": "Carroll, Bednar and Gibson",
-  "Action": "pariatur",
-  "ExtraParameters": "impedit"
+  "Language": "et",
+  "ProgramName": "Leffler, Kunze and Smitham",
+  "Action": "sed",
+  "ExtraParameters": "possimus"
 }
 ```
 

@@ -3,13 +3,9 @@ uid: chatagent-getchatpresence
 title: ChatAgent.GetChatPresence event method
 description: Scripting events called on the GetChatPresence method on the ChatAgent service agent.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 # ChatAgent.GetChatPresence
 

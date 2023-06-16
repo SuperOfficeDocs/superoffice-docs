@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/CreateDefaultCustomerCenterConfig
 uid: v1CustomerServiceAgent_CreateDefaultCustomerCenterConfig
+generated: true
 ---
 
 # POST Agents/CustomerService/CreateDefaultCustomerCenterConfig
@@ -73,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 740,
+  "CustConfigId": 94,
   "Type": "Options",
-  "Config": "nihil",
-  "CustLangId": 145,
-  "Registered": "2012-03-08T03:51:26.9436626+01:00",
-  "RegisteredAssociateId": 564,
-  "Updated": "2020-11-20T03:51:26.9436626+01:00",
-  "UpdatedAssociateId": 535,
+  "Config": "officiis",
+  "CustLangId": 787,
+  "Registered": "2014-02-18T16:00:40.4925031+01:00",
+  "RegisteredAssociateId": 67,
+  "Updated": "1997-06-04T16:00:40.4925031+02:00",
+  "UpdatedAssociateId": 750,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 38
     }
   }
 }

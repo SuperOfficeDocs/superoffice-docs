@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetConfigurationFields
 uid: v1ErpSyncAgent_GetConfigurationFields
+generated: true
 ---
 
 # POST Agents/ErpSync/GetConfigurationFields
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 965
+  "ErpConnectorId": 765
 }
 ```
 
@@ -99,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "occaecati",
-    "Rank": 918,
-    "DisplayName": "Crist, Cummerata and Dietrich",
-    "DisplayDescription": "Vision-oriented mobile infrastructure",
+    "FieldKey": "in",
+    "Rank": 293,
+    "DisplayName": "Barrows LLC",
+    "DisplayDescription": "Triple-buffered transitional paradigm",
     "FieldType": "Checkbox",
-    "ListName": "Kautzer-Rodriguez",
-    "DefaultValue": "quo",
-    "MaxLength": 112,
+    "ListName": "Boehm Group",
+    "DefaultValue": "recusandae",
+    "MaxLength": 50,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldType": "System.Int32",
+        "FieldLength": 900
       }
     }
   }

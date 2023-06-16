@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/Undelete
 uid: v1ContactAgent_Undelete
+generated: true
 ---
 
 # POST Agents/Contact/Undelete
@@ -69,7 +70,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 100
+  "Id": 553
 }
 ```
 

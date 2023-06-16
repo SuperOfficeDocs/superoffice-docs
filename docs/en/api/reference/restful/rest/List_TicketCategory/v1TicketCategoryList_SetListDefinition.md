@@ -1,6 +1,7 @@
 ---
 title: PUT List/TicketCategory
 uid: v1TicketCategoryList_SetListDefinition
+generated: true
 ---
 
 # PUT List/TicketCategory
@@ -83,19 +84,19 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 577,
-  "Name": "Dicki Inc and Sons",
-  "Tooltip": "doloribus",
+  "Id": 118,
+  "Name": "Cole, Pacocha and Grady",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 175,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 760,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempora",
+  "ListType": "ab",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 130,
-  "Name": "Dietrich, Walker and Heaney",
-  "Tooltip": "odit",
-  "Deleted": false,
-  "Rank": 349,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "Id": 642,
+  "Name": "Lynch Inc and Sons",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 495,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 261
+      "FieldLength": 974
     }
   }
 }

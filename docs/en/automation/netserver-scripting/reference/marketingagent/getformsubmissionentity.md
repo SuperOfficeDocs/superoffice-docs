@@ -3,13 +3,9 @@ uid: marketingagent-getformsubmissionentity
 title: MarketingAgent.GetFormSubmissionEntity event method
 description: Scripting events called on the GetFormSubmissionEntity method on the MarketingAgent service agent.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 # MarketingAgent.GetFormSubmissionEntity
 

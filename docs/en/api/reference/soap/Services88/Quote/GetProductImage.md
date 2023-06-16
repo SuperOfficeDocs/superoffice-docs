@@ -1,6 +1,6 @@
 ---
 title: Services88.QuoteAgent.GetProductImage SOAP
-generated: 1
+generated: true
 uid: Services88-Quote-GetProductImage
 ---
 

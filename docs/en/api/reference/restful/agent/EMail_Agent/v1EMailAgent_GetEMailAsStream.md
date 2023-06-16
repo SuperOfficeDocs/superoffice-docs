@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetEMailAsStream
 uid: v1EMailAgent_GetEMailAsStream
+generated: true
 ---
 
 # POST Agents/EMail/GetEMailAsStream
@@ -71,13 +72,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAsStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 389,
-  "StripAttachments": true
+  "MessageServerId": 312,
+  "StripAttachments": false
 }
 ```
 

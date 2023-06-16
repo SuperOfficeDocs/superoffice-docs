@@ -1,7 +1,7 @@
 ---
 title: Services88.AudienceAgent SOAP
 uid: Services88-Audience-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Audience SOAP

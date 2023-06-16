@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetSanitizedTemplateStreamFromId
 uid: v1DocumentAgent_GetSanitizedTemplateStreamFromId
+generated: true
 ---
 
 # POST Agents/Document/GetSanitizedTemplateStreamFromId
@@ -70,12 +71,12 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 787,
-  "UiCulture": "consequuntur"
+  "TemplateId": 865,
+  "UiCulture": "sit"
 }
 ```
 

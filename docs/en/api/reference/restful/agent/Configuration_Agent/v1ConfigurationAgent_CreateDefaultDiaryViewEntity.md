@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/CreateDefaultDiaryViewEntity
 uid: v1ConfigurationAgent_CreateDefaultDiaryViewEntity
+generated: true
 ---
 
 # POST Agents/Configuration/CreateDefaultDiaryViewEntity
@@ -63,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 14,
-  "Name": "Borer Inc and Sons",
-  "Tooltip": "quia",
-  "VisibleColumns": 260,
-  "Rank": 258,
-  "AssocId": 381,
+  "DiaryViewId": 243,
+  "Name": "Deckow, Mertz and Lehner",
+  "Tooltip": "enim",
+  "VisibleColumns": 921,
+  "Rank": 930,
+  "AssocId": 706,
   "AssociateList": [
     {
-      "Id": 462,
-      "Name": "Keeling, Tillman and Hickle",
-      "ToolTip": "Temporibus consectetur eveniet voluptatem officia qui.",
+      "Id": 382,
+      "Name": "Hilpert-Abbott",
+      "ToolTip": "Dolores quo.",
       "Deleted": false,
-      "Rank": 654,
-      "Type": "corrupti",
-      "ColorBlock": 784,
-      "IconHint": "eos",
-      "Selected": true,
-      "LastChanged": "2016-07-24T03:51:26.7718335+02:00",
+      "Rank": 551,
+      "Type": "officiis",
+      "ColorBlock": 802,
+      "IconHint": "necessitatibus",
+      "Selected": false,
+      "LastChanged": "2023-03-22T16:00:40.2894057+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "beatae",
-      "StyleHint": "aut",
+      "ExtraInfo": "non",
+      "StyleHint": "delectus",
       "Hidden": false,
-      "FullName": "Ms. Domenica Mylene Wyman",
+      "FullName": "Maci Kemmer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 520
         }
       }
     }
   ],
-  "TzLocationId": 48,
+  "TzLocationId": 521,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldLength": 536
     }
   }
 }

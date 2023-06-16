@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailAddress
 uid: v1EMailAgent_CreateDefaultEMailAddress
+generated: true
 ---
 
 # POST Agents/EMail/CreateDefaultEMailAddress
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 778,
-  "ContactName": "Herzog-Rau",
-  "PersonId": 647,
-  "PersonName": "Cassin, Nicolas and Tromp",
-  "AssociateId": 903,
-  "Address": "aut",
-  "EmailId": 186,
+  "ContactId": 599,
+  "ContactName": "Bartell, Mueller and Schoen",
+  "PersonId": 867,
+  "PersonName": "Bogan-Robel",
+  "AssociateId": 894,
+  "Address": "sit",
+  "EmailId": 295,
   "DuplicatePersonIds": [
-    90,
-    415
+    109,
+    635
   ],
-  "Name": "Corwin-Larson",
+  "Name": "Heaney, Dietrich and Gulgowski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 646
     }
   }
 }

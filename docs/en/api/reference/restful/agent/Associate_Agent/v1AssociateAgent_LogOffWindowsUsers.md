@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Associate/LogOffWindowsUsers
 uid: v1AssociateAgent_LogOffWindowsUsers
+generated: true
 ---
 
 # POST Agents/Associate/LogOffWindowsUsers
@@ -63,13 +64,13 @@ No Content
 POST /api/v1/Agents/Associate/LogOffWindowsUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    970,
-    585
+    857,
+    498
   ]
 }
 ```

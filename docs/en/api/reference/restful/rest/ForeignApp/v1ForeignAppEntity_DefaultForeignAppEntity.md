@@ -1,6 +1,7 @@
 ---
 title: GET ForeignApp/default
 uid: v1ForeignAppEntity_DefaultForeignAppEntity
+generated: true
 ---
 
 # GET ForeignApp/default
@@ -70,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 19 Aug 2017 03:51:33 G8T
+Last-Modified: Tue, 25 Aug 2020 16:00:47 G8T
 
 {
-  "ForeignAppId": 308,
-  "Name": "Carter-Kuphal",
-  "CreatedDate": "2002-01-07T03:51:33.6615947+01:00",
-  "UpdatedDate": "2017-08-19T03:51:33.6615947+02:00",
+  "ForeignAppId": 614,
+  "Name": "Huels Group",
+  "CreatedDate": "2006-05-08T16:00:47.9615771+02:00",
+  "UpdatedDate": "2020-08-25T16:00:47.9615771+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 662,
-      "Name": "Sporer, Orn and Weber",
-      "CreatedDate": "2011-08-08T03:51:33.6615947+02:00",
-      "UpdatedDate": "2003-04-24T03:51:33.6615947+02:00",
-      "AssociateFullName": "Emil Dennis Baumbach PhD",
-      "CreatedBy": "sapiente",
-      "UpdatedBy": "dolores",
-      "DeviceIdentifier": "sit",
-      "ForeignAppId": 973,
+      "ForeignDeviceId": 1000,
+      "Name": "Ankunding, McClure and Dicki",
+      "CreatedDate": "2017-07-13T16:00:47.9615771+02:00",
+      "UpdatedDate": "2010-06-01T16:00:47.9615771+02:00",
+      "AssociateFullName": "Arnold Yundt",
+      "CreatedBy": "est",
+      "UpdatedBy": "natus",
+      "DeviceIdentifier": "aliquid",
+      "ForeignAppId": 113,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 174
+          "FieldLength": 517
         }
       }
     }
@@ -104,8 +105,8 @@ Last-Modified: Sat, 19 Aug 2017 03:51:33 G8T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldType": "System.String",
+      "FieldLength": 646
     }
   }
 }

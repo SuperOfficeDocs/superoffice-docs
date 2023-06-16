@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Pocket/NotificationsHandled
 uid: v1PocketAgent_NotificationsHandled
+generated: true
 ---
 
 # POST Agents/Pocket/NotificationsHandled
@@ -63,18 +64,18 @@ No Content
 POST /api/v1/Agents/Pocket/NotificationsHandled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "NotificationEvents": [
     {
       "Type": "AppointmentCancelled",
-      "Id": 982
+      "Id": 154
     },
     {
       "Type": "AppointmentCancelled",
-      "Id": 982
+      "Id": 154
     }
   ]
 }

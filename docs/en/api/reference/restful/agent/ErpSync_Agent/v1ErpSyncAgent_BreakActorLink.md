@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/BreakActorLink
 uid: v1ErpSyncAgent_BreakActorLink
+generated: true
 ---
 
 # POST Agents/ErpSync/BreakActorLink
@@ -75,8 +76,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 417,
-  "CrmRecordId": 82,
+  "ErpConnectionId": 573,
+  "CrmRecordId": 528,
   "CrmActorType": "Contact"
 }
 ```

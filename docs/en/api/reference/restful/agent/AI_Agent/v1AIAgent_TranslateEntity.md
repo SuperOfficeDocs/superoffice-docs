@@ -1,6 +1,7 @@
 ---
 title: POST Agents/AI/TranslateEntity
 uid: v1AIAgent_TranslateEntity
+generated: true
 ---
 
 # POST Agents/AI/TranslateEntity
@@ -69,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Howe, Ratke and Skiles",
-  "EntityId": 312,
-  "TargetLanguage": "doloribus"
+  "EntityName": "Gottlieb, Wehner and Beer",
+  "EntityId": 444,
+  "TargetLanguage": "nihil"
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sit"
+"in"
 ```

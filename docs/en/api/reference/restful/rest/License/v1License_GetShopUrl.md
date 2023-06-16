@@ -1,6 +1,7 @@
 ---
 title: GET License/{ownerName}/ShopUrl
 uid: v1License_GetShopUrl
+generated: true
 ---
 
 # GET License/{ownerName}/ShopUrl
@@ -55,7 +56,7 @@ OK
 GET /api/v1/License/{ownerName}/ShopUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

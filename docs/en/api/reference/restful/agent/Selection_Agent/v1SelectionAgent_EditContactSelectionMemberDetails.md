@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/EditContactSelectionMemberDetails
 uid: v1SelectionAgent_EditContactSelectionMemberDetails
+generated: true
 ---
 
 # POST Agents/Selection/EditContactSelectionMemberDetails
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/Selection/EditContactSelectionMemberDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 120,
+  "SelectionId": 254,
   "SelectionMemberEditValues": null
 }
 ```

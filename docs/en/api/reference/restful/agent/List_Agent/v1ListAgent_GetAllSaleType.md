@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAllSaleType
 uid: v1ListAgent_GetAllSaleType
+generated: true
 ---
 
 # POST Agents/List/GetAllSaleType
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 727,
-    "Value": "ab",
-    "Tooltip": "deleniti",
+    "Id": 382,
+    "Value": "est",
+    "Tooltip": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 455
       }
     }
   },
   {
-    "Id": 727,
-    "Value": "ab",
-    "Tooltip": "deleniti",
+    "Id": 382,
+    "Value": "est",
+    "Tooltip": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 455
       }
     }
   }

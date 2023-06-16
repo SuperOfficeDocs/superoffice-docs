@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Replication/GetArea
 uid: v1ReplicationAgent_GetArea
+generated: true
 ---
 
 # POST Agents/Replication/GetArea
@@ -27,7 +28,7 @@ Gets a Area object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetArea?areaId=762
+POST /api/v1/Agents/Replication/GetArea?areaId=724
 POST /api/v1/Agents/Replication/GetArea?$select=name,department,category/id
 ```
 
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/Replication/GetArea
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,18 +84,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AreaId": 739,
-  "Name": "Watsica, Cruickshank and Fritsch",
-  "MaxDataAge": 866,
-  "NumberOfUsers": 686,
-  "NumberOfLogins": 311,
-  "FreetextEnabeled": false,
+  "AreaId": 600,
+  "Name": "Boyle-McClure",
+  "MaxDataAge": 6,
+  "NumberOfUsers": 448,
+  "NumberOfLogins": 455,
+  "FreetextEnabeled": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldType": "System.Int32",
+      "FieldLength": 266
     }
   }
 }

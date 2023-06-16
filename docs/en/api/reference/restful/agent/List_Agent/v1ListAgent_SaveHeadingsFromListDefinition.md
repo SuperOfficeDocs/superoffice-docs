@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveHeadingsFromListDefinition
 uid: v1ListAgent_SaveHeadingsFromListDefinition
+generated: true
 ---
 
 # POST Agents/List/SaveHeadingsFromListDefinition
@@ -82,23 +83,23 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 220,
+  "Id": 272,
   "Entities": [
     {
-      "HeadingId": 556,
-      "Name": "Bauch LLC",
-      "Tooltip": "ut",
+      "HeadingId": 165,
+      "Name": "Kihn, Mante and Dare",
+      "Tooltip": "molestiae",
       "Deleted": false,
-      "Rank": 599,
-      "UdListDefinitionId": 462
+      "Rank": 625,
+      "UdListDefinitionId": 84
     },
     {
-      "HeadingId": 556,
-      "Name": "Bauch LLC",
-      "Tooltip": "ut",
+      "HeadingId": 165,
+      "Name": "Kihn, Mante and Dare",
+      "Tooltip": "molestiae",
       "Deleted": false,
-      "Rank": 599,
-      "UdListDefinitionId": 462
+      "Rank": 625,
+      "UdListDefinitionId": 84
     }
   ]
 }
@@ -112,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 431,
-    "Name": "Leuschke, Fay and Cruickshank",
-    "Tooltip": "fugiat",
+    "HeadingId": 320,
+    "Name": "Gulgowski, Schimmel and Wisoky",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 844,
-    "UdListDefinitionId": 402,
+    "Rank": 514,
+    "UdListDefinitionId": 115,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 523
+        "FieldType": "System.Int32",
+        "FieldLength": 892
       }
     }
   }

@@ -1,5 +1,6 @@
 ---
 title: List_DeliveryTerms
+generated: true
 ---
 
 ```http

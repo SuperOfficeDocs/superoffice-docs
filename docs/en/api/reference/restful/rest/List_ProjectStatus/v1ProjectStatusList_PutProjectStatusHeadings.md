@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProjectStatus/Headings
 uid: v1ProjectStatusList_PutProjectStatusHeadings
+generated: true
 ---
 
 # PUT List/ProjectStatus/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 189,
-    "Name": "Collins Inc and Sons",
-    "Tooltip": "corrupti",
+    "HeadingId": 69,
+    "Name": "Moore Inc and Sons",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 370,
-    "UdListDefinitionId": 759
+    "Rank": 790,
+    "UdListDefinitionId": 999
   },
   {
-    "HeadingId": 189,
-    "Name": "Collins Inc and Sons",
-    "Tooltip": "corrupti",
+    "HeadingId": 69,
+    "Name": "Moore Inc and Sons",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 370,
-    "UdListDefinitionId": 759
+    "Rank": 790,
+    "UdListDefinitionId": 999
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 593,
-    "Name": "Considine, Spencer and Cummerata",
-    "Tooltip": "modi",
-    "Deleted": true,
-    "Rank": 76,
-    "UdListDefinitionId": 610,
+    "HeadingId": 474,
+    "Name": "Goodwin, Konopelski and Simonis",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "Rank": 986,
+    "UdListDefinitionId": 721,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 431
+        "FieldType": "System.String",
+        "FieldLength": 44
       }
     }
   }

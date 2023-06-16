@@ -1,6 +1,7 @@
 ---
 title: GET List/UserGroup/Headings
 uid: v1UserGroupList_GetUserGroupHeadings
+generated: true
 ---
 
 # GET List/UserGroup/Headings
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 721,
-    "Name": "Koepp Group",
-    "Tooltip": "quam",
-    "Deleted": true,
-    "Rank": 177,
-    "UdListDefinitionId": 779,
+    "HeadingId": 133,
+    "Name": "Monahan-Shanahan",
+    "Tooltip": "nostrum",
+    "Deleted": false,
+    "Rank": 773,
+    "UdListDefinitionId": 556,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldLength": 250
       }
     }
   }

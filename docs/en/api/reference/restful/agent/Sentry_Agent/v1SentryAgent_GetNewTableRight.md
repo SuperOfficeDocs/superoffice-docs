@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sentry/GetNewTableRight
 uid: v1SentryAgent_GetNewTableRight
+generated: true
 ---
 
 # POST Agents/Sentry/GetNewTableRight
@@ -75,7 +76,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Towne-Harris"
+  "TableName": "Stanton Group"
 }
 ```
 

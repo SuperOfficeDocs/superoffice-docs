@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/DuplicateDashboard
 uid: v1DashAgent_DuplicateDashboard
+generated: true
 ---
 
 # POST Agents/Dash/DuplicateDashboard
@@ -85,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 719,
-  "Name": "Little, Goodwin and Haley"
+  "DashboardId": 289,
+  "Name": "Kutch, Wilderman and Cummings"
 }
 ```
 
@@ -101,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 959,
-  "UniqueId": "quod",
-  "Name": "Leuschke, Walsh and Purdy",
-  "Description": "Reverse-engineered even-keeled artificial intelligence",
-  "AssociateId": 135,
-  "Columns": 644,
+  "DashboardId": 102,
+  "UniqueId": "fuga",
+  "Name": "Boyer, Towne and Ritchie",
+  "Description": "Grass-roots directional artificial intelligence",
+  "AssociateId": 249,
+  "Columns": 255,
   "Theme": null,
-  "VisibleForAll": 111,
+  "VisibleForAll": 146,
   "VisibleForAssociates": [
-    865,
-    527
+    406,
+    430
   ],
   "VisibleForGroups": [
-    25,
-    740
+    143,
+    979
   ],
-  "PinForAll": 346,
+  "PinForAll": 814,
   "PinForAssociates": [
-    400,
-    289
+    227,
+    192
   ],
   "PinForGroups": [
-    395,
-    783
+    382,
+    75
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 225
+      "FieldType": "System.String",
+      "FieldLength": 638
     }
   }
 }

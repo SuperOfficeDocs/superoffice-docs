@@ -1,6 +1,7 @@
 ---
 title: GET List/Rating/Items/{id}/Headings
 uid: v1RatingList_GetSaleStageEntityHeadingsForListItem
+generated: true
 ---
 
 # GET List/Rating/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Mueller Group",
-    "ToolTip": "In veniam error saepe tempora est.",
+    "Id": 563,
+    "Name": "Dooley-McCullough",
+    "ToolTip": "Voluptatum nihil mollitia quo aperiam officiis.",
     "Deleted": false,
-    "Rank": 992,
-    "Type": "temporibus",
-    "ColorBlock": 355,
-    "IconHint": "beatae",
+    "Rank": 193,
+    "Type": "molestiae",
+    "ColorBlock": 998,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2018-09-10T03:51:34.8957999+02:00",
+    "LastChanged": "2003-09-21T16:00:49.2583068+02:00",
     "ChildItems": [
       {
-        "Id": 75,
-        "Name": "Jones LLC",
-        "ToolTip": "Autem magnam optio architecto accusantium totam recusandae.",
+        "Id": 628,
+        "Name": "Kozey, McLaughlin and Hahn",
+        "ToolTip": "Qui sint assumenda.",
         "Deleted": false,
-        "Rank": 846,
-        "Type": "ut",
-        "ColorBlock": 778,
-        "IconHint": "beatae",
-        "Selected": true,
-        "LastChanged": "2013-05-02T03:51:34.8957999+02:00",
+        "Rank": 225,
+        "Type": "facere",
+        "ColorBlock": 741,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2006-07-16T16:00:49.2583068+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "atque",
-        "Hidden": true,
-        "FullName": "Ms. Cary Powlowski MD",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Martine Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 693
+            "FieldLength": 156
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "ab",
     "Hidden": true,
-    "FullName": "Terrell McCullough",
+    "FullName": "Domenica Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 955
       }
     }
   }

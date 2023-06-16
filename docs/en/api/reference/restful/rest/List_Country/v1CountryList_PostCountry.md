@@ -1,6 +1,7 @@
 ---
 title: POST List/Country/Items
 uid: v1CountryList_PostCountry
+generated: true
 ---
 
 # POST List/Country/Items
@@ -98,28 +99,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 341,
-  "Name": "Kohler LLC",
-  "CurrencyId": 967,
-  "EnglishName": "Moore-Wehner",
+  "CountryId": 410,
+  "Name": "Romaguera, Spencer and Kiehn",
+  "CurrencyId": 439,
+  "EnglishName": "Mraz, Ferry and Goyette",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Distributed demand-driven hierarchy",
-  "OrgNrText": "1347931",
-  "InterAreaPrefix": "totam",
-  "DialInPrefix": "voluptatem",
-  "ZipPrefix": "ad",
-  "DomainName": "Keeling, Koelpin and Kerluke",
-  "AddressLayoutId": 304,
-  "DomesticAddressLayoutId": 670,
-  "ForeignAddressLayoutId": 741,
-  "Rank": 144,
+  "ImageDescription": "Robust actuating emulation",
+  "OrgNrText": "515716",
+  "InterAreaPrefix": "id",
+  "DialInPrefix": "exercitationem",
+  "ZipPrefix": "est",
+  "DomainName": "Kautzer-Donnelly",
+  "AddressLayoutId": 42,
+  "DomesticAddressLayoutId": 490,
+  "ForeignAddressLayoutId": 35,
+  "Rank": 406,
   "Tooltip": "sed",
-  "Deleted": true
+  "Deleted": false
 }
 ```
 
@@ -130,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 804,
-  "Name": "Toy-Rempel",
-  "CurrencyId": 295,
-  "EnglishName": "Schultz, Boyer and Herman",
+  "CountryId": 100,
+  "Name": "Howell, Schaden and Emard",
+  "CurrencyId": 156,
+  "EnglishName": "Reynolds Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Progressive national Graphical User Interface",
-  "OrgNrText": "586812",
-  "InterAreaPrefix": "eaque",
-  "DialInPrefix": "maiores",
-  "ZipPrefix": "qui",
-  "DomainName": "Streich-Boyle",
-  "AddressLayoutId": 487,
-  "DomesticAddressLayoutId": 183,
-  "ForeignAddressLayoutId": 129,
-  "Rank": 836,
-  "Tooltip": "aut",
-  "Deleted": false,
+  "ImageDescription": "Customizable encompassing support",
+  "OrgNrText": "689253",
+  "InterAreaPrefix": "et",
+  "DialInPrefix": "ut",
+  "ZipPrefix": "quia",
+  "DomainName": "Shanahan, Koss and Mitchell",
+  "AddressLayoutId": 12,
+  "DomesticAddressLayoutId": 757,
+  "ForeignAddressLayoutId": 442,
+  "Rank": 536,
+  "Tooltip": "et",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 584
     }
   }
 }

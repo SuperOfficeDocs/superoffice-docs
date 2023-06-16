@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/ValidateTriggerScriptByUniqueId
 uid: v1CRMScriptAgent_ValidateTriggerScriptByUniqueId
+generated: true
 ---
 
 # POST Agents/CRMScript/ValidateTriggerScriptByUniqueId
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "consequatur"
+  "TriggerScriptUniqueId": "ut"
 }
 ```
 
@@ -94,13 +95,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "in",
+  "ErrorMessage": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldType": "System.String",
+      "FieldLength": 653
     }
   }
 }

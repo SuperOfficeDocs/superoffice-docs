@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetSaleTypeEntity
 uid: v1ListAgent_GetSaleTypeEntity
+generated: true
 ---
 
 # POST Agents/List/GetSaleTypeEntity
@@ -25,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=759
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=86
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 973,
-  "Name": "Koch, Nikolaus and Bahringer",
-  "Tooltip": "architecto",
-  "Rank": 673,
+  "SaleTypeId": 216,
+  "Name": "Nolan-Thompson",
+  "Tooltip": "iste",
+  "Rank": 887,
   "DurationUnit": "Century",
-  "SaleDuration": 561,
-  "SaleTypeCatId": 213,
-  "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "SaleDuration": 852,
+  "SaleTypeCatId": 404,
+  "Deleted": true,
+  "HasGuide": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 92,
-  "QuoteLinesTemplate": 955,
-  "ConfirmationLinesTemplate": 294,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 60,
-  "MinEarningPercent": 238,
-  "GroupQuoteLinesBy": 977,
-  "SortGroupLinesBy": 832,
+  "DefaultQuoteValidity": 742,
+  "QuoteLinesTemplate": 766,
+  "ConfirmationLinesTemplate": 992,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 241,
+  "MinEarningPercent": 481,
+  "GroupQuoteLinesBy": 212,
+  "SortGroupLinesBy": 229,
   "Stages": [
     {
-      "Id": 363,
-      "Name": "Boyle-Toy",
-      "ToolTip": "Magnam quam magni rerum temporibus quia ullam.",
-      "Deleted": true,
-      "Rank": 63,
-      "Type": "qui",
-      "ColorBlock": 415,
-      "IconHint": "ea",
-      "Selected": true,
-      "LastChanged": "2007-01-27T03:51:27.4123074+01:00",
+      "Id": 684,
+      "Name": "Hammes-Harvey",
+      "ToolTip": "Harum nihil ullam cum est eos assumenda.",
+      "Deleted": false,
+      "Rank": 504,
+      "Type": "et",
+      "ColorBlock": 241,
+      "IconHint": "quae",
+      "Selected": false,
+      "LastChanged": "2014-09-29T16:00:41.1330807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ducimus",
-      "StyleHint": "repellendus",
-      "Hidden": true,
-      "FullName": "Heloise Bartell",
+      "ExtraInfo": "magni",
+      "StyleHint": "voluptatem",
+      "Hidden": false,
+      "FullName": "Jarod Joshuah O'Conner Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldLength": 885
         }
       }
     }
@@ -153,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldLength": 547
     }
   }
 }

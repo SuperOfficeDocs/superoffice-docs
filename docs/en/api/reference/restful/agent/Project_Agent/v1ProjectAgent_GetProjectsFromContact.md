@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetProjectsFromContact
 uid: v1ProjectAgent_GetProjectsFromContact
+generated: true
 ---
 
 # POST Agents/Project/GetProjectsFromContact
@@ -89,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 286
+  "ContactId": 917
 }
 ```
 
@@ -105,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 683,
-    "Name": "Ortiz-Borer",
-    "Description": "Front-line zero administration instruction set",
+    "ProjectId": 874,
+    "Name": "Grady Group",
+    "Description": "Streamlined regional knowledge user",
     "URL": "http://www.example.com/",
-    "Type": "nam",
-    "AssociateId": 291,
-    "AssociateFullName": "Dr. Davon Johns",
-    "TypeId": 175,
-    "Updated": "2008-02-11T03:51:27.943438+01:00",
-    "StatusId": 928,
-    "Status": "assumenda",
-    "TextId": 786,
-    "PublishTo": "2019-05-13T03:51:27.943438+02:00",
-    "PublishFrom": "2011-11-13T03:51:27.943438+01:00",
+    "Type": "voluptatem",
+    "AssociateId": 17,
+    "AssociateFullName": "Michael Zemlak",
+    "TypeId": 43,
+    "Updated": "2016-05-18T16:00:41.5707037+02:00",
+    "StatusId": 634,
+    "Status": "ut",
+    "TextId": 915,
+    "PublishTo": "2016-01-03T16:00:41.5707037+01:00",
+    "PublishFrom": "2011-09-25T16:00:41.5707037+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "946074",
-    "ActiveErpLinks": 739,
+    "ProjectNumber": "651573",
+    "ActiveErpLinks": 481,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 282
+        "FieldType": "System.Int32",
+        "FieldLength": 765
       }
     }
   }

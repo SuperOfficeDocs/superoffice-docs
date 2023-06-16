@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/ResolvePersonFromInfo
 uid: v1PersonAgent_ResolvePersonFromInfo
+generated: true
 ---
 
 # POST Agents/Person/ResolvePersonFromInfo
@@ -82,15 +83,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 67,
-  "PersonName": "Ritchie Inc and Sons",
+  "ContactId": 184,
+  "PersonName": "Raynor-Schmeler",
   "PhoneNumbers": [
-    "365924",
-    "1578571"
+    "1495884",
+    "668512"
   ],
   "Emails": [
-    "lisandro@dooley.us",
-    "maddison@kohlervon.co.uk"
+    "ole.wunsch@weissnat.uk",
+    "lamar.sanford@reilly.name"
   ]
 }
 ```
@@ -103,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 872
     }
   }
 }

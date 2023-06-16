@@ -1,5 +1,5 @@
 ---
-generated: 1
+generated: true
 uid: wsdl-Services88-Associate
 title: Services88.AssociateAgent WSDL
 ---
@@ -270,6 +270,18 @@ title: Services88.AssociateAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetEncryptionKey">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetEncryptionKeyResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetAssociateList">
         <xs:complexType>
           <xs:sequence>
@@ -442,6 +454,23 @@ title: Services88.AssociateAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetEncryptionKeyRequest">
+    <wsdl:part name="parameters" element="tns:GetEncryptionKey" />
+  </wsdl:message>
+  <wsdl:message name="GetEncryptionKeyRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetEncryptionKeyResponse">
+    <wsdl:part name="parameters" element="tns:GetEncryptionKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEncryptionKeyResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetAssociateListRequest">
     <wsdl:part name="parameters" element="tns:GetAssociateList" />
   </wsdl:message>
@@ -509,6 +538,10 @@ title: Services88.AssociateAgent WSDL
     <wsdl:operation name="SaveNote">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Associate/SaveNote" name="SaveNoteRequest" message="tns:SaveNoteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Associate/SaveNoteResponse" name="SaveNoteResponse" message="tns:SaveNoteResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEncryptionKey">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Associate/GetEncryptionKey" name="GetEncryptionKeyRequest" message="tns:GetEncryptionKeyRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Associate/GetEncryptionKeyResponse" name="GetEncryptionKeyResponse" message="tns:GetEncryptionKeyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAssociateList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Associate/GetAssociateList" name="GetAssociateListRequest" message="tns:GetAssociateListRequest" />
@@ -586,6 +619,22 @@ title: Services88.AssociateAgent WSDL
         <soap:header message="tns:SaveNoteResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SaveNoteResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SaveNoteResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEncryptionKey">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Associate/GetEncryptionKey" style="document" />
+      <wsdl:input name="GetEncryptionKeyRequest">
+        <soap:header message="tns:GetEncryptionKeyRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetEncryptionKeyRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetEncryptionKeyRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetEncryptionKeyResponse">
+        <soap:header message="tns:GetEncryptionKeyResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetEncryptionKeyResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetEncryptionKeyResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetEncryptionKeyResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

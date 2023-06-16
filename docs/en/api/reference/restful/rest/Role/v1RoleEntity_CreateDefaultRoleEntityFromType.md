@@ -1,6 +1,7 @@
 ---
 title: GET Role/{type}/Default
 uid: v1RoleEntity_CreateDefaultRoleEntityFromType
+generated: true
 ---
 
 # GET Role/{type}/Default
@@ -74,7 +75,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 140,
-  "Name": "Mayert LLC",
-  "Tooltip": "nihil",
+  "RoleId": 391,
+  "Name": "Smith-Mayer",
+  "Tooltip": "id",
   "RoleType": "Anonymous",
-  "Deleted": 199,
-  "Rank": 336,
-  "Created": "2001-08-13T03:51:33.8802911+02:00",
-  "UseCategories": 936,
+  "Deleted": 550,
+  "Rank": 798,
+  "Created": "1997-12-30T16:00:48.211547+01:00",
+  "UseCategories": 741,
   "CreatedBy": null,
-  "Updated": "2015-02-16T03:51:33.8959111+01:00",
+  "Updated": "2001-12-27T16:00:48.211547+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldType": "System.String",
+      "FieldLength": 932
     }
   }
 }

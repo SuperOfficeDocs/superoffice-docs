@@ -1,6 +1,7 @@
 ---
 title: DEL List/Task/Headings
 uid: v1TaskList_DeleteTaskListItemHeadings
+generated: true
 ---
 
 # DEL List/Task/Headings

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetAllAvailableQuoteConnections
 uid: v1QuoteAgent_GetAllAvailableQuoteConnections
+generated: true
 ---
 
 # POST Agents/Quote/GetAllAvailableQuoteConnections
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 651,
-    "ERPName": "Feil Inc and Sons",
-    "DisplayName": "Powlowski, Hilpert and Okuneva",
-    "DisplayDescription": "Front-line logistical groupware",
-    "Rank": 590,
-    "ConnectorName": "Jacobi-Rosenbaum",
-    "ErpConnectionId": 732,
-    "ExtraData": "et",
-    "IsAvailable": false,
+    "QuoteConnectionId": 776,
+    "ERPName": "Hansen LLC",
+    "DisplayName": "Herman LLC",
+    "DisplayDescription": "Digitized real-time matrix",
+    "Rank": 338,
+    "ConnectorName": "Borer LLC",
+    "ErpConnectionId": 909,
+    "ExtraData": "quibusdam",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 307,
-        "ERPPriceListKey": "qui",
-        "QuoteConnectionId": 109,
-        "Name": "Kertzmann Inc and Sons",
-        "Description": "Organic bi-directional hub",
-        "Currency": "porro",
-        "CurrencyName": "Reynolds-Ullrich",
-        "ValidFrom": "2021-09-30T03:51:28.0059393+02:00",
-        "ValidTo": "1998-09-20T03:51:28.0059393+02:00",
-        "IsActive": true,
+        "PriceListId": 385,
+        "ERPPriceListKey": "tenetur",
+        "QuoteConnectionId": 346,
+        "Name": "Grant-Mohr",
+        "Description": "Configurable clear-thinking interface",
+        "Currency": "consequatur",
+        "CurrencyName": "Quigley-Hagenes",
+        "ValidFrom": "1999-01-07T16:00:41.6488224+01:00",
+        "ValidTo": "2009-11-08T16:00:41.6488224+01:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 24
+            "FieldLength": 914
           }
         }
       }
@@ -126,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      218,
-      189
+      880,
+      373
     ],
     "AssociateAccessIds": [
-      559,
-      166
+      648,
+      87
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldType": "System.String",
+        "FieldLength": 632
       }
     }
   }

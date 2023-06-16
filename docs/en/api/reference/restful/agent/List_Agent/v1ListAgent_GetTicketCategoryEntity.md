@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetTicketCategoryEntity
 uid: v1ListAgent_GetTicketCategoryEntity
+generated: true
 ---
 
 # POST Agents/List/GetTicketCategoryEntity
@@ -25,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=421
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=252
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -93,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 471,
-  "ParentId": 35,
-  "Name": "Conn, Fritsch and Moen",
-  "Fullname": "placeat",
-  "CategoryMaster": 597,
+  "TicketCategoryId": 183,
+  "ParentId": 677,
+  "Name": "Bernier LLC",
+  "Fullname": "similique",
+  "CategoryMaster": 398,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Donnelly Group",
+  "ExternalName": "Yundt, Dickens and Blanda",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 990,
-  "ReplyTemplate": 653,
-  "NotificationEmail": "mac@hilll.name",
+  "AssignmentLag": 192,
+  "ReplyTemplate": 365,
+  "NotificationEmail": "chanelle.schuppe@howell.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 383,
+  "EffectiveReplyTemplateId": 263,
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "deserunt"
+    "ExtraFields1": "labore",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "ad"
+    "CustomFields1": "odio",
+    "CustomFields2": "cumque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldLength": 450
     }
   }
 }

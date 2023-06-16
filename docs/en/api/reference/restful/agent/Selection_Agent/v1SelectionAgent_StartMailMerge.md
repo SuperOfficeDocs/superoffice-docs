@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/StartMailMerge
 uid: v1SelectionAgent_StartMailMerge
+generated: true
 ---
 
 # POST Agents/Selection/StartMailMerge
@@ -63,7 +64,7 @@ No Content
 POST /api/v1/Agents/Selection/StartMailMerge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {

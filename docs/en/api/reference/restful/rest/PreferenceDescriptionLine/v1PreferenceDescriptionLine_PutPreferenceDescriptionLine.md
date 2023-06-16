@@ -1,6 +1,7 @@
 ---
 title: PUT PreferenceDescriptionLine/{id}
 uid: v1PreferenceDescriptionLine_PutPreferenceDescriptionLine
+generated: true
 ---
 
 # PUT PreferenceDescriptionLine/{id}
@@ -88,16 +89,16 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 125,
-  "PrefDescId": 687,
-  "PrefValue": "quidem",
-  "PrefShowValue": "odio",
-  "Description": "Persistent web-enabled matrices",
-  "IsBuiltin": true
+  "PrefDescLineId": 946,
+  "PrefDescId": 600,
+  "PrefValue": "in",
+  "PrefShowValue": "sint",
+  "Description": "Optimized regional initiative",
+  "IsBuiltin": false
 }
 ```
 
@@ -108,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 703,
-  "PrefDescId": 72,
-  "PrefValue": "commodi",
-  "PrefShowValue": "dolor",
-  "Description": "Front-line user-facing concept",
+  "PrefDescLineId": 201,
+  "PrefDescId": 526,
+  "PrefValue": "qui",
+  "PrefShowValue": "suscipit",
+  "Description": "Persevering hybrid capacity",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 362
+      "FieldLength": 927
     }
   },
   "_Links": {

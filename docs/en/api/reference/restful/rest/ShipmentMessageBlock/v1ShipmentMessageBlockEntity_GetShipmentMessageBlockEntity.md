@@ -1,6 +1,7 @@
 ---
 title: GET ShipmentMessageBlock/{id}
 uid: v1ShipmentMessageBlockEntity_GetShipmentMessageBlockEntity
+generated: true
 ---
 
 # GET ShipmentMessageBlock/{id}
@@ -89,25 +90,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 712,
-  "AssociateId": 961,
-  "Block": "velit",
-  "Registered": "2019-05-07T03:51:34.0208828+02:00",
-  "RegisteredAssociateId": 293,
-  "Updated": "1998-02-23T03:51:34.0208828+01:00",
-  "UpdatedAssociateId": 713,
-  "UpdatedCount": 691,
+  "ShipmentMessageBlockId": 478,
+  "AssociateId": 841,
+  "Block": "cum",
+  "Registered": "2005-02-08T16:00:48.4615203+01:00",
+  "RegisteredAssociateId": 723,
+  "Updated": "2022-03-28T16:00:48.4615203+02:00",
+  "UpdatedAssociateId": 283,
+  "UpdatedCount": 545,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldType": "System.Int32",
+      "FieldLength": 242
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

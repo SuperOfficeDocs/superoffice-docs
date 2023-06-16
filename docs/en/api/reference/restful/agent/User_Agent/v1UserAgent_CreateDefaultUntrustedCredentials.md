@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/CreateDefaultUntrustedCredentials
 uid: v1UserAgent_CreateDefaultUntrustedCredentials
+generated: true
 ---
 
 # POST Agents/User/CreateDefaultUntrustedCredentials
@@ -64,7 +65,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ValidFrom": "2013-07-21T03:51:28.4589368+02:00",
-  "ValidTo": "2000-10-05T03:51:28.4589368+02:00",
-  "Comment": "omnis",
-  "SecretValue": "sed",
-  "PublicValue": "inventore",
+  "ValidFrom": "2010-12-08T16:00:42.2893736+01:00",
+  "ValidTo": "2005-09-28T16:00:42.2893736+02:00",
+  "Comment": "quia",
+  "SecretValue": "rerum",
+  "PublicValue": "consequatur",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldType": "System.String",
+      "FieldLength": 603
     }
   }
 }

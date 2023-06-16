@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/AddOwnerContact
 uid: v1UserAgent_AddOwnerContact
+generated: true
 ---
 
 # POST Agents/User/AddOwnerContact
@@ -65,11 +66,11 @@ No Content
 POST /api/v1/Agents/User/AddOwnerContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 244
+  "ContactId": 668
 }
 ```
 

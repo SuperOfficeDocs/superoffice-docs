@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/GetBatchTaskInfosByState
 uid: v1BatchAgent_GetBatchTaskInfosByState
+generated: true
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByState
@@ -93,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Gorczany-Treutel",
-    "AssociateId": 968,
-    "DetailsTable": 768,
-    "DetailsRecord": 384,
-    "IsSystemTask": true,
+    "Id": 296,
+    "Name": "Blick-Boyle",
+    "AssociateId": 985,
+    "DetailsTable": 596,
+    "DetailsRecord": 809,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "qui",
-      "ParameterObject2": "ipsa"
+      "ParameterObject1": "autem",
+      "ParameterObject2": "ea"
     },
-    "LastStarted": "1996-04-14T03:51:26.6156255+02:00",
-    "Created": "2021-10-23T03:51:26.6156255+02:00",
-    "StartCount": 226,
-    "DatabaseSerialNumber": "1961578",
-    "Context": "molestias",
-    "Result": "fugit",
+    "LastStarted": "2007-08-22T16:00:40.1019505+02:00",
+    "Created": "2017-11-06T16:00:40.1019505+01:00",
+    "StartCount": 96,
+    "DatabaseSerialNumber": "529827",
+    "Context": "consectetur",
+    "Result": "sit",
     "State": "All",
-    "Description": "Fundamental attitude-oriented hub",
-    "Response": "aut",
+    "Description": "Centralized fault-tolerant adapter",
+    "Response": "laborum",
     "Request": "fugit",
-    "ProgressDescription": "Secured assymetric instruction set",
-    "ProgressPercent": 56,
-    "FileName": "Towne-Torp",
+    "ProgressDescription": "Quality-focused national projection",
+    "ProgressPercent": 114,
+    "FileName": "Smith, Hackett and Schmitt",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 438
+        "FieldLength": 836
       }
     }
   }

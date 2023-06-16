@@ -1,6 +1,7 @@
 ---
 title: GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 uid: v1ForeignAppEntity_GetKeyByValue
+generated: true
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
@@ -31,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=voluptatem
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=necessitatibus
 ```
 
 
@@ -86,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 04 Feb 2014 03:51:33 G2T
+Last-Modified: Tue, 27 Oct 2009 16:00:47 G10T
 
 {
-  "Key": "ullam",
-  "Value": "quaerat",
-  "RecordId": 114,
-  "CreatedDate": "2022-05-08T03:51:33.6928335+02:00",
-  "UpdatedDate": "2014-02-04T03:51:33.6928335+01:00",
-  "UpdatedBy": "ducimus",
-  "CreatedBy": "molestias",
-  "TableName": "Davis, Paucek and Lindgren",
+  "Key": "distinctio",
+  "Value": "minima",
+  "RecordId": 475,
+  "CreatedDate": "2003-03-07T16:00:47.9928249+01:00",
+  "UpdatedDate": "2009-10-27T16:00:47.9928249+01:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "sint",
+  "TableName": "Bradtke LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 67
     }
   }
 }

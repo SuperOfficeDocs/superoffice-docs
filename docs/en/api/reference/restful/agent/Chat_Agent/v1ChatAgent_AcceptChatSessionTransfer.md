@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/AcceptChatSessionTransfer
 uid: v1ChatAgent_AcceptChatSessionTransfer
+generated: true
 ---
 
 # POST Agents/Chat/AcceptChatSessionTransfer
@@ -104,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 247
+  "ChatSessionId": 108
 }
 ```
 
@@ -119,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 486,
-  "TopicId": 788,
+  "ChatSessionId": 345,
+  "TopicId": 344,
   "User": null,
   "Person": null,
-  "CustomerAlias": "non",
-  "CustomerHost": "ipsum",
-  "CustomerName": "Bradtke-Johnson",
-  "CustomerEmail": "lane@kirlin.name",
-  "CustomerPhone": "1-680-379-4372 x471",
+  "CustomerAlias": "consequatur",
+  "CustomerHost": "odit",
+  "CustomerName": "Wiza-Kuphal",
+  "CustomerEmail": "blake_hauck@rowe.uk",
+  "CustomerPhone": "500-147-5025",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Johnston Group",
+  "CustomerCompanyName": "Osinski Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "culpa",
-  "LastMessage": "non",
-  "WhenRequested": "2015-08-16T03:51:26.7093472+02:00",
-  "WhenStarted": "2004-10-14T03:51:26.7093472+02:00",
-  "WhenEnded": "2015-05-08T03:51:26.7093472+02:00",
-  "WhenIdle": "2017-07-29T03:51:26.7093472+02:00",
-  "WhenFetched": "2015-09-13T03:51:26.7093472+02:00",
-  "SessionKey": "labore",
-  "InitialQueuePos": 153,
-  "AlertLevel": 599,
-  "Rank": 900,
+  "FirstMessage": "repellat",
+  "LastMessage": "libero",
+  "WhenRequested": "2011-12-14T16:00:40.2113079+01:00",
+  "WhenStarted": "2013-10-24T16:00:40.2113079+02:00",
+  "WhenEnded": "1998-03-09T16:00:40.2113079+01:00",
+  "WhenIdle": "2020-04-10T16:00:40.2113079+02:00",
+  "WhenFetched": "2017-02-08T16:00:40.2113079+01:00",
+  "SessionKey": "id",
+  "InitialQueuePos": 618,
+  "AlertLevel": 847,
+  "Rank": 187,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 76,
+  "ChatbotIsActive": true,
+  "Rating": 644,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldLength": 908
     }
   }
 }

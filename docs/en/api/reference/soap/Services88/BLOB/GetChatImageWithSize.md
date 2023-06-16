@@ -1,6 +1,6 @@
 ---
 title: Services88.BLOBAgent.GetChatImageWithSize SOAP
-generated: 1
+generated: true
 uid: Services88-BLOB-GetChatImageWithSize
 ---
 

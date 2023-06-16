@@ -1,6 +1,7 @@
 ---
 title: PUT List/QuoteApproveReason/Items/{id}/UserGroups
 uid: v1QuoteApproveReasonList_PutQuoteApproveReasonUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/QuoteApproveReason/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Name": "Brakus-Flatley",
-    "ToolTip": "Necessitatibus iure reprehenderit officia.",
+    "Id": 527,
+    "Name": "Shanahan LLC",
+    "ToolTip": "Aspernatur necessitatibus nesciunt.",
     "Deleted": true,
-    "Rank": 12,
-    "Type": "quae",
-    "ColorBlock": 20,
-    "IconHint": "atque",
-    "Selected": false,
-    "LastChanged": "2004-09-01T03:51:34.864573+02:00",
+    "Rank": 570,
+    "Type": "ab",
+    "ColorBlock": 609,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2012-12-29T16:00:49.2270591+01:00",
     "ChildItems": [
       {
-        "Id": 590,
-        "Name": "Rippin-Mante",
-        "ToolTip": "Inventore et.",
-        "Deleted": false,
-        "Rank": 365,
-        "Type": "atque",
-        "ColorBlock": 30,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2007-11-28T03:51:34.864573+01:00",
+        "Id": 871,
+        "Name": "Grady, Marvin and Kutch",
+        "ToolTip": "Doloremque quia.",
+        "Deleted": true,
+        "Rank": 237,
+        "Type": "ab",
+        "ColorBlock": 423,
+        "IconHint": "molestiae",
+        "Selected": true,
+        "LastChanged": "2016-03-29T16:00:49.2270591+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "sint",
+        "ExtraInfo": "alias",
+        "StyleHint": "assumenda",
         "Hidden": true,
-        "FullName": "Evalyn Sim Donnelly V"
+        "FullName": "Dr. Sydni Ashly Quigley"
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "sed",
+    "ExtraInfo": "illo",
+    "StyleHint": "cum",
     "Hidden": false,
-    "FullName": "Miss Dovie Green"
+    "FullName": "Mrs. Deshaun Kuphal Sr."
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 250,
-    "Name": "Runolfsson-Ortiz",
-    "ToolTip": "Deserunt nesciunt incidunt iusto.",
-    "Deleted": false,
-    "Rank": 816,
-    "Type": "rem",
-    "ColorBlock": 826,
-    "IconHint": "magnam",
+    "Id": 690,
+    "Name": "Skiles LLC",
+    "ToolTip": "Nobis doloribus omnis aliquid quasi libero quia dolor.",
+    "Deleted": true,
+    "Rank": 759,
+    "Type": "tempore",
+    "ColorBlock": 240,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2022-01-03T03:51:34.864573+01:00",
+    "LastChanged": "1999-08-07T16:00:49.2270591+02:00",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "Corwin Group",
-        "ToolTip": "Quo explicabo numquam quia voluptate.",
-        "Deleted": false,
-        "Rank": 265,
-        "Type": "nihil",
-        "ColorBlock": 456,
-        "IconHint": "quisquam",
-        "Selected": true,
-        "LastChanged": "2003-03-01T03:51:34.864573+01:00",
+        "Id": 657,
+        "Name": "Barrows-Gorczany",
+        "ToolTip": "In dolor unde ea dignissimos.",
+        "Deleted": true,
+        "Rank": 892,
+        "Type": "qui",
+        "ColorBlock": 489,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "1997-07-01T16:00:49.2270591+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "tempore",
+        "ExtraInfo": "earum",
+        "StyleHint": "mollitia",
         "Hidden": false,
-        "FullName": "Selmer Hamill",
+        "FullName": "Sonny Damaris Leuschke III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 466
+            "FieldType": "System.String",
+            "FieldLength": 36
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "fuga",
-    "Hidden": false,
-    "FullName": "Maybelle Keeley Armstrong IV",
+    "ExtraInfo": "eos",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Lucius Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldLength": 572
       }
     }
   }

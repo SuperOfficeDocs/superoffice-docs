@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetUIDFromAppointmentId
 uid: v1AppointmentAgent_GetUIDFromAppointmentId
+generated: true
 ---
 
 # POST Agents/Appointment/GetUIDFromAppointmentId
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Appointment/GetUIDFromAppointmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 442,
+  "AppointmentId": 787,
   "UseMotherId": false
 }
 ```
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aliquam"
+"ipsum"
 ```

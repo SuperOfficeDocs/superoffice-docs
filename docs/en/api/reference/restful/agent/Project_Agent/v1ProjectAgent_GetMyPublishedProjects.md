@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetMyPublishedProjects
 uid: v1ProjectAgent_GetMyPublishedProjects
+generated: true
 ---
 
 # POST Agents/Project/GetMyPublishedProjects
@@ -81,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 429,
-    "Name": "Frami-Okuneva",
-    "Description": "Robust holistic middleware",
+    "ProjectId": 215,
+    "Name": "Wilderman, Homenick and Bogisich",
+    "Description": "Total coherent productivity",
     "URL": "http://www.example.com/",
-    "Type": "impedit",
-    "AssociateId": 171,
-    "AssociateFullName": "Treva Shields",
-    "TypeId": 486,
-    "Updated": "2002-10-13T03:51:27.9590553+02:00",
-    "StatusId": 620,
-    "Status": "quidem",
-    "TextId": 612,
-    "PublishTo": "1996-01-04T03:51:27.9590553+01:00",
-    "PublishFrom": "2006-05-17T03:51:27.9590553+02:00",
+    "Type": "rerum",
+    "AssociateId": 739,
+    "AssociateFullName": "Monty Marvin",
+    "TypeId": 977,
+    "Updated": "2009-06-20T16:00:41.5707037+02:00",
+    "StatusId": 570,
+    "Status": "eveniet",
+    "TextId": 1000,
+    "PublishTo": "2014-02-10T16:00:41.5707037+01:00",
+    "PublishFrom": "2005-09-26T16:00:41.5707037+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "872154",
-    "ActiveErpLinks": 403,
+    "ProjectNumber": "1070837",
+    "ActiveErpLinks": 906,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldType": "System.String",
+        "FieldLength": 522
       }
     }
   }

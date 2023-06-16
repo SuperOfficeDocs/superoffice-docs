@@ -1,6 +1,7 @@
 ---
 title: GET Preference
 uid: v1Preference_GetSections
+generated: true
 ---
 
 # GET Preference
@@ -78,50 +79,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Strosin Group",
-    "ToolTip": "Dolor quia et repudiandae.",
+    "Id": 64,
+    "Name": "Homenick, Quigley and Macejkovic",
+    "ToolTip": "Libero expedita fugiat maiores tenetur vitae illum aut.",
     "Deleted": false,
-    "Rank": 973,
-    "Type": "sed",
+    "Rank": 540,
+    "Type": "quas",
     "ChildItems": [
       {
-        "Id": 219,
-        "Name": "Bahringer, Ward and Flatley",
-        "ToolTip": "Doloribus neque quam sunt.",
-        "Deleted": true,
-        "Rank": 499,
-        "Type": "asperiores",
+        "Id": 710,
+        "Name": "Langosh LLC",
+        "ToolTip": "Doloribus rerum repudiandae voluptas tenetur nam id occaecati.",
+        "Deleted": false,
+        "Rank": 762,
+        "Type": "ratione",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ullam",
-        "ColorBlock": 358,
-        "ExtraInfo": "tenetur",
-        "StyleHint": "molestiae",
-        "FullName": "Mrs. Emile Nelle Wilkinson MD",
+        "IconHint": "et",
+        "ColorBlock": 249,
+        "ExtraInfo": "aliquam",
+        "StyleHint": "in",
+        "FullName": "Ms. Merritt Darrick Conn IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 712
+            "FieldLength": 525
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 584,
-    "ExtraInfo": "placeat",
-    "StyleHint": "sed",
-    "FullName": "Abel Gutkowski",
+    "IconHint": "aliquam",
+    "ColorBlock": 816,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "dolorem",
+    "FullName": "Devyn Tremblay V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldLength": 588
       }
     }
   }

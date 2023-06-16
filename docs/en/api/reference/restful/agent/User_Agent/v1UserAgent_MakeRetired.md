@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/MakeRetired
 uid: v1UserAgent_MakeRetired
+generated: true
 ---
 
 # POST Agents/User/MakeRetired
@@ -73,7 +74,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 961,
+  "AssociateId": 281,
   "Retired": false
 }
 ```

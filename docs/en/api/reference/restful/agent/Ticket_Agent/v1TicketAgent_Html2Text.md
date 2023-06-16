@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/Html2Text
 uid: v1TicketAgent_Html2Text
+generated: true
 ---
 
 # POST Agents/Ticket/Html2Text
@@ -71,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Content": "natus"
+  "Content": "quo"
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"est"
+"quidem"
 ```

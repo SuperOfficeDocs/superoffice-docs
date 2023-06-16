@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Saint/SetRankOnStatusMonitors
 uid: v1SaintAgent_SetRankOnStatusMonitors
+generated: true
 ---
 
 # POST Agents/Saint/SetRankOnStatusMonitors
@@ -68,10 +69,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "exercitationem",
+  "Type": "consequatur",
   "ItemsIds": [
-    629,
-    790
+    689,
+    172
   ]
 }
 ```

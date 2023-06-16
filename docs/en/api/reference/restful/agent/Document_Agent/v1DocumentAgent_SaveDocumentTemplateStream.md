@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/SaveDocumentTemplateStream
 uid: v1DocumentAgent_SaveDocumentTemplateStream
+generated: true
 ---
 
 # POST Agents/Document/SaveDocumentTemplateStream
@@ -77,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 514,
+  "DocumentTemplateId": 854,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "mollitia",
-  "PluginId": 299
+  "LanguageCode": "rerum",
+  "PluginId": 87
 }
 ```
 
@@ -95,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Abbott-Harris",
-  "Description": "Reverse-engineered user-facing standardization",
-  "ExternalReference": "distinctio",
-  "MimeType": "officia",
-  "PluginId": 535
+  "Name": "Greenfelder, Yost and Nolan",
+  "Description": "Triple-buffered next generation protocol",
+  "ExternalReference": "aut",
+  "MimeType": "sint",
+  "PluginId": 962
 }
 ```

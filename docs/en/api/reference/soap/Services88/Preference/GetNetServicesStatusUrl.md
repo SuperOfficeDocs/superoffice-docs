@@ -1,6 +1,6 @@
 ---
 title: Services88.PreferenceAgent.GetNetServicesStatusUrl SOAP
-generated: 1
+generated: true
 uid: Services88-Preference-GetNetServicesStatusUrl
 ---
 

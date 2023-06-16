@@ -1,6 +1,7 @@
 ---
 title: POST Relation
 uid: v1ContactRelationEntity_PostContactRelationEntity
+generated: true
 ---
 
 # POST Relation
@@ -109,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 229,
-  "SourcePersonId": 62,
-  "DestinationContactId": 644,
-  "DestinationPersonId": 785,
-  "RelationId": 640,
-  "Comment": "facere",
-  "RelationDefinitionId": 320,
-  "Reversed": 700,
-  "UpdatedDate": "2015-01-20T03:51:33.552243+01:00",
-  "CreatedDate": "1996-07-05T03:51:33.552243+02:00",
+  "SourceContactId": 297,
+  "SourcePersonId": 57,
+  "DestinationContactId": 793,
+  "DestinationPersonId": 227,
+  "RelationId": 25,
+  "Comment": "distinctio",
+  "RelationDefinitionId": 193,
+  "Reversed": 528,
+  "UpdatedDate": "2013-04-16T16:00:47.8209689+02:00",
+  "CreatedDate": "2005-10-03T16:00:47.8209689+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Muller-Stroman",
-  "SourcePersonName": "Swaniawski, Parker and Goyette",
-  "DestinationContactName": "Yundt, Wilkinson and Eichmann",
-  "DestinationPersonName": "Langosh, Schuster and Schulist",
-  "ActiveText": "cupiditate",
-  "PassiveText": "commodi"
+  "SourceContactName": "Hand, Walker and Block",
+  "SourcePersonName": "Marquardt, Brown and Wisozk",
+  "DestinationContactName": "Beier Inc and Sons",
+  "DestinationPersonName": "Hilpert, Osinski and Roberts",
+  "ActiveText": "laboriosam",
+  "PassiveText": "et"
 }
 ```
 
@@ -141,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 477,
-  "SourcePersonId": 354,
-  "DestinationContactId": 998,
-  "DestinationPersonId": 595,
-  "RelationId": 990,
-  "Comment": "non",
-  "RelationDefinitionId": 152,
-  "Reversed": 637,
-  "UpdatedDate": "2011-02-23T03:51:33.552243+01:00",
-  "CreatedDate": "2011-10-14T03:51:33.552243+02:00",
+  "SourceContactId": 92,
+  "SourcePersonId": 651,
+  "DestinationContactId": 207,
+  "DestinationPersonId": 164,
+  "RelationId": 978,
+  "Comment": "magni",
+  "RelationDefinitionId": 689,
+  "Reversed": 888,
+  "UpdatedDate": "2000-03-26T16:00:47.8209689+02:00",
+  "CreatedDate": "1999-04-16T16:00:47.8209689+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Goodwin, Johnston and Blick",
-  "SourcePersonName": "Kunze Group",
-  "DestinationContactName": "Reynolds, Kessler and Mosciski",
-  "DestinationPersonName": "Kreiger-Marks",
-  "ActiveText": "fugiat",
-  "PassiveText": "hic",
+  "SourceContactName": "Ratke, Lebsack and Harvey",
+  "SourcePersonName": "Rau Inc and Sons",
+  "DestinationContactName": "Quigley Group",
+  "DestinationPersonName": "Zemlak-Metz",
+  "ActiveText": "expedita",
+  "PassiveText": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 788
+      "FieldLength": 729
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

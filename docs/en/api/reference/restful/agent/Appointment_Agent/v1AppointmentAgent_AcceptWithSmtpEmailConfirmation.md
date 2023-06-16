@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/AcceptWithSmtpEmailConfirmation
 uid: v1AppointmentAgent_AcceptWithSmtpEmailConfirmation
+generated: true
 ---
 
 # POST Agents/Appointment/AcceptWithSmtpEmailConfirmation
@@ -65,11 +66,11 @@ No Content
 POST /api/v1/Agents/Appointment/AcceptWithSmtpEmailConfirmation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 468,
+  "AppointmentId": 226,
   "UpdateMode": "OnlyThis",
   "SmtpEMailConnectionInfo": null
 }

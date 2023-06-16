@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 uid: v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
@@ -99,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 394,
-  "ColumnId": 736,
-  "FieldDefault": "qui",
-  "FieldHeight": 808,
-  "FieldLabel": "et",
-  "FieldLeft": 393,
-  "FieldTop": 477,
+  "UDefFieldId": 705,
+  "ColumnId": 471,
+  "FieldDefault": "ducimus",
+  "FieldHeight": 639,
+  "FieldLabel": "totam",
+  "FieldLeft": 554,
+  "FieldTop": 227,
   "FieldType": "Checkbox",
-  "FieldWidth": 502,
-  "FormatMask": "commodi",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 7,
-  "LabelLeft": 66,
-  "LabelTop": 576,
-  "LabelWidth": 350,
-  "LastVersionId": 894,
-  "ListTableId": 32,
+  "FieldWidth": 247,
+  "FormatMask": "aut",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 54,
+  "LabelLeft": 169,
+  "LabelTop": 587,
+  "LabelWidth": 519,
+  "LastVersionId": 142,
+  "ListTableId": 349,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 731,
-  "ProgId": "voluptas",
-  "IsReadOnly": false,
-  "ShortLabel": "quam",
-  "TabOrder": 510,
-  "TextLength": 541,
-  "Tooltip": "labore",
-  "UdefIdentity": 107,
-  "UDListDefinitionId": 815,
+  "Page1LineNo": 138,
+  "ProgId": "voluptatem",
+  "IsReadOnly": true,
+  "ShortLabel": "dolorum",
+  "TabOrder": 325,
+  "TextLength": 303,
+  "Tooltip": "dolor",
+  "UdefIdentity": 528,
+  "UDListDefinitionId": 137,
   "Justification": "Center",
-  "Version": 33,
-  "TemplateVariableName": "Schulist, Davis and Nader",
-  "HasBeenPublished": false,
-  "MdoListName": "Kreiger LLC",
+  "Version": 597,
+  "TemplateVariableName": "Bogan Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Dietrich-Carter",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 740
     }
   }
 }

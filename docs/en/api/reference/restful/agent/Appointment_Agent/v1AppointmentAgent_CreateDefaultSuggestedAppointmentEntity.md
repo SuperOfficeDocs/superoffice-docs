@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 uid: v1AppointmentAgent_CreateDefaultSuggestedAppointmentEntity
+generated: true
 ---
 
 # POST Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 610,
-  "Name": "Abshire-Powlowski",
-  "Tooltip": "aut",
-  "Rank": 504,
-  "Deleted": true,
-  "DaysFuture": 695,
-  "Duration": "quis",
-  "AutoSuggest": true,
+  "SuggestedAppointmentId": 259,
+  "Name": "Auer Group",
+  "Tooltip": "nulla",
+  "Rank": 629,
+  "Deleted": false,
+  "DaysFuture": 127,
+  "Duration": "dolores",
+  "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": true,
-  "Text": "saepe",
+  "Text": "aut",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -97,8 +98,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 248
+      "FieldType": "System.Int32",
+      "FieldLength": 465
     }
   }
 }

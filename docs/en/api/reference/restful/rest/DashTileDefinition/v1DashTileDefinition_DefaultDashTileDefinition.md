@@ -1,6 +1,7 @@
 ---
 title: GET DashTileDefinition/default
 uid: v1DashTileDefinition_DefaultDashTileDefinition
+generated: true
 ---
 
 # GET DashTileDefinition/default
@@ -74,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 718,
-  "Name": "Fahey, Ziemann and Huels",
-  "Description": "Assimilated grid-enabled firmware",
-  "DefaultHeight": 438,
-  "DefaultWidth": 584,
+  "DashboardTileDefinitionId": 187,
+  "Name": "Cole-Casper",
+  "Description": "Cloned context-sensitive emulation",
+  "DefaultHeight": 543,
+  "DefaultWidth": 316,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bosco-Haley",
-  "SelectionId": 658,
+  "EntityName": "Dare-Greenfelder",
+  "SelectionId": 341,
   "CurrencyMode": "Base",
-  "CurrencyCode": "sit",
+  "CurrencyCode": "blanditiis",
   "Measure": "Average",
-  "MeasureField": "quia",
-  "SortBy": "itaque",
-  "LayoutConfig": "repellendus",
-  "SecondarySelectionId": 955,
-  "MeasureByField": "aspernatur",
+  "MeasureField": "necessitatibus",
+  "SortBy": "sit",
+  "LayoutConfig": "quo",
+  "SecondarySelectionId": 890,
+  "MeasureByField": "saepe",
   "Usage": "Dashboard",
-  "ProviderName": "O'Connell Group",
+  "ProviderName": "Rau LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 34
     }
   }
 }

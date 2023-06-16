@@ -1,6 +1,7 @@
 ---
 title: PUT List/Source
 uid: v1SourceList_SetListDefinition
+generated: true
 ---
 
 # PUT List/Source
@@ -87,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 201,
-  "Name": "Osinski LLC",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "Rank": 391,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 680,
+  "Name": "Nienow-Moore",
+  "Tooltip": "quam",
+  "Deleted": false,
+  "Rank": 599,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "ListType": "ipsa",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 99,
-  "Name": "Conn-Johnston",
-  "Tooltip": "rerum",
+  "Id": 847,
+  "Name": "Feest LLC",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 340,
-  "IsCustomList": false,
+  "Rank": 919,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": true,
+  "ListType": "itaque",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldLength": 394
     }
   }
 }

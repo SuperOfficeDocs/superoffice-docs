@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/DeleteProjectMembers
 uid: v1ProjectAgent_DeleteProjectMembers
+generated: true
 ---
 
 # POST Agents/Project/DeleteProjectMembers
@@ -64,14 +65,14 @@ No Content
 POST /api/v1/Agents/Project/DeleteProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 827,
+  "ProjectEntityId": 128,
   "MemberIds": [
-    726,
-    987
+    800,
+    347
   ]
 }
 ```

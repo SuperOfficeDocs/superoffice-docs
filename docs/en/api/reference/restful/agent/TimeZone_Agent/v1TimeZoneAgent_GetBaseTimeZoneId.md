@@ -1,6 +1,7 @@
 ---
 title: POST Agents/TimeZone/GetBaseTimeZoneId
 uid: v1TimeZoneAgent_GetBaseTimeZoneId
+generated: true
 ---
 
 # POST Agents/TimeZone/GetBaseTimeZoneId
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Agents/TimeZone/GetBaseTimeZoneId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,5 +69,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-465
+34
 ```

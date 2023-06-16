@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteDenyReason/Items/Default
 uid: v1QuoteDenyReasonList_CreateDefaultQuoteDenyReason
+generated: true
 ---
 
 # GET List/QuoteDenyReason/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 282,
-  "Name": "Satterfield-Prohaska",
-  "Tooltip": "omnis",
+  "Id": 608,
+  "Name": "Kuhn-Schmidt",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "UdListDefinitionId": 674,
-  "Rank": 839,
+  "UdListDefinitionId": 227,
+  "Rank": 505,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldLength": 75
     }
   }
 }

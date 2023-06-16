@@ -1,5 +1,6 @@
 ---
 title: ChatPresence
+generated: true
 ---
 
 ```http

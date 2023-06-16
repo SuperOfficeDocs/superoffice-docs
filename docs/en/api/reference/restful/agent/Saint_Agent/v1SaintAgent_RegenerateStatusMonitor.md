@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Saint/RegenerateStatusMonitor
 uid: v1SaintAgent_RegenerateStatusMonitor
+generated: true
 ---
 
 # POST Agents/Saint/RegenerateStatusMonitor
@@ -67,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StatusMonitorId": 589
+  "StatusMonitorId": 592
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveCountry
 uid: v1ListAgent_SaveCountry
+generated: true
 ---
 
 # POST Agents/List/SaveCountry
@@ -104,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 162,
-  "Name": "Mann, Jones and Stark",
-  "CurrencyId": 489,
-  "EnglishName": "Lehner, Dibbert and Kunde",
+  "CountryId": 326,
+  "Name": "Kuphal-Schneider",
+  "CurrencyId": 559,
+  "EnglishName": "Dibbert LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Robust dedicated portal",
-  "OrgNrText": "684651",
-  "InterAreaPrefix": "est",
-  "DialInPrefix": "officia",
-  "ZipPrefix": "veritatis",
-  "DomainName": "Hauck-Sawayn",
-  "AddressLayoutId": 30,
-  "DomesticAddressLayoutId": 381,
-  "ForeignAddressLayoutId": 981,
-  "Rank": 76,
-  "Tooltip": "minima",
+  "ImageDescription": "Secured regional paradigm",
+  "OrgNrText": "1156363",
+  "InterAreaPrefix": "et",
+  "DialInPrefix": "ducimus",
+  "ZipPrefix": "a",
+  "DomainName": "Kuvalis, Johns and Marquardt",
+  "AddressLayoutId": 233,
+  "DomesticAddressLayoutId": 957,
+  "ForeignAddressLayoutId": 476,
+  "Rank": 824,
+  "Tooltip": "maiores",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldLength": 802
     }
   }
 }

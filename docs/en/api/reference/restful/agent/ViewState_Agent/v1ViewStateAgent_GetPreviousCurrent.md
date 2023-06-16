@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ViewState/GetPreviousCurrent
 uid: v1ViewStateAgent_GetPreviousCurrent
+generated: true
 ---
 
 # POST Agents/ViewState/GetPreviousCurrent
@@ -81,12 +82,12 @@ OK
 POST /api/v1/Agents/ViewState/GetPreviousCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Welch Group",
-  "Id": 241
+  "HistoryName": "Graham Group",
+  "Id": 13
 }
 ```
 
@@ -97,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 733,
-  "Id": 535,
-  "HistoryName": "Satterfield, McCullough and Klocko",
-  "HistoryId": 796,
-  "AssociateId": 239,
-  "Name": "Carter-Huels",
-  "ItemInfo": "nobis",
+  "Rank": 592,
+  "Id": 93,
+  "HistoryName": "Wuckert Group",
+  "HistoryId": 781,
+  "AssociateId": 349,
+  "Name": "Monahan Inc and Sons",
+  "ItemInfo": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldLength": 584
     }
   }
 }

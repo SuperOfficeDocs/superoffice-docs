@@ -1,6 +1,7 @@
 ---
 title: GET List/SaleType/Headings
 uid: v1SaleTypeList_GetSaleTypeEntityHeadings
+generated: true
 ---
 
 # GET List/SaleType/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 775,
-    "Name": "Corwin Inc and Sons",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 11,
-    "UdListDefinitionId": 292,
+    "HeadingId": 22,
+    "Name": "Pfannerstill Group",
+    "Tooltip": "consequuntur",
+    "Deleted": true,
+    "Rank": 753,
+    "UdListDefinitionId": 757,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 731
+        "FieldType": "System.Int32",
+        "FieldLength": 41
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dashboard/CreateNewFromTemplate
 uid: v1DashboardAgent_CreateNewFromTemplate
+generated: true
 ---
 
 # POST Agents/Dashboard/CreateNewFromTemplate
@@ -93,20 +94,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 847,
-  "Caption": "non",
-  "Description": "Diverse maximized monitoring",
-  "SelectionId": 194,
+  "DashboardTileId": 40,
+  "Caption": "voluptatem",
+  "Description": "Optional transitional paradigm",
+  "SelectionId": 646,
   "VisibleFor": [
     {
-      "VisibleId": 502,
+      "VisibleId": 345,
       "Visibility": "All",
-      "DisplayValue": "ipsa"
+      "DisplayValue": "ut"
     },
     {
-      "VisibleId": 502,
+      "VisibleId": 345,
       "Visibility": "All",
-      "DisplayValue": "ipsa"
+      "DisplayValue": "ut"
     }
   ]
 }
@@ -119,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 477,
-  "Caption": "debitis",
-  "Description": "Total solution-oriented info-mediaries",
-  "ChartName": "Heathcote, Prosacco and Rutherford",
-  "ChartId": "a",
-  "IsDefault": false,
-  "AssociateId": 9,
-  "GroupId": 94,
-  "SelectionId": 719,
-  "Config": "voluptatem",
+  "DashboardTileId": 19,
+  "Caption": "eum",
+  "Description": "Business-focused motivating adapter",
+  "ChartName": "Sawayn, Flatley and Gerhold",
+  "ChartId": "omnis",
+  "IsDefault": true,
+  "AssociateId": 254,
+  "GroupId": 196,
+  "SelectionId": 502,
+  "Config": "tenetur",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Mertz-Shanahan",
-      "Description": "Multi-channelled holistic superstructure",
+      "Name": "Muller Group",
+      "Description": "Cross-group user-facing secured line",
       "Type": "Boolean",
-      "ListName": "Steuber Inc and Sons",
+      "ListName": "Zulauf-Boyer",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "id",
-      "DefaultDataOption": true,
+      "Value": "est",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldType": "System.String",
+          "FieldLength": 901
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 335,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 788
+          "FieldType": "System.Int32",
+          "FieldLength": 498
         }
       }
     },
     {
-      "VisibleId": 335,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 788
+          "FieldType": "System.Int32",
+          "FieldLength": 498
         }
       }
     }
@@ -186,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 23
     }
   }
 }

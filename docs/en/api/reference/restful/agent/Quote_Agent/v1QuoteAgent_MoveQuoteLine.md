@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/MoveQuoteLine
 uid: v1QuoteAgent_MoveQuoteLine
+generated: true
 ---
 
 # POST Agents/Quote/MoveQuoteLine
@@ -68,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 850,
-  "Direction": true
+  "QuoteLineId": 851,
+  "Direction": false
 }
 ```
 

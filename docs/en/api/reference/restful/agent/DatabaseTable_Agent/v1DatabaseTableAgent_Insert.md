@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DatabaseTable/Insert
 uid: v1DatabaseTableAgent_Insert
+generated: true
 ---
 
 # POST Agents/DatabaseTable/Insert
@@ -81,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cormier, Nikolaus and Conn",
+  "TableName": "Boyer Inc and Sons",
   "Columns": [
-    "vitae",
-    "earum"
+    "consequatur",
+    "aliquid"
   ],
   "Data": [
     [
@@ -109,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "veniam",
-  "Inserts": 873,
-  "Updates": 456,
-  "Deletes": 125,
+  "Message": "quaerat",
+  "Inserts": 85,
+  "Updates": 212,
+  "Deletes": 12,
   "RowStatus": [
     {
-      "PrimaryKey": 261,
+      "PrimaryKey": 577,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "repudiandae",
-        "quas"
+        "perspiciatis",
+        "culpa"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 897
         }
       }
     },
     {
-      "PrimaryKey": 261,
+      "PrimaryKey": 577,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "repudiandae",
-        "quas"
+        "perspiciatis",
+        "culpa"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 897
         }
       }
     }
@@ -152,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldLength": 496
     }
   }
 }

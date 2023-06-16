@@ -1,6 +1,6 @@
 ---
 title: Services88.DocumentAgent.GetTemplateStream SOAP
-generated: 1
+generated: true
 uid: Services88-Document-GetTemplateStream
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: GET Selection/{id}/Criteria
 uid: v1SelectionEntity_GetDynamicSelectionCriteria
+generated: true
 ---
 
 # GET Selection/{id}/Criteria
@@ -65,7 +66,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,29 +77,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mohr-Lubowitz",
-    "Operator": "ut",
+    "Name": "Cummings, Wolf and Goyette",
+    "Operator": "eaque",
     "Values": [
-      "nostrum",
-      "iste"
+      "omnis",
+      "nulla"
     ],
     "DisplayValues": [
-      "doloribus",
-      "perferendis"
+      "repellat",
+      "ipsa"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Krajcik, Veum and Zboncak",
-        "Operator": "ex",
+        "Name": "Boehm LLC",
+        "Operator": "et",
         "Values": [
-          "beatae",
-          "ea"
+          "exercitationem",
+          "nobis"
         ],
         "DisplayValues": [
-          "molestiae",
-          "et"
+          "quia",
+          "quia"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -106,14 +107,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 255,
+        "InterParenthesis": 998,
         "InterOperator": "And",
-        "UniqueHash": 769
+        "UniqueHash": 819
       }
     ],
-    "InterParenthesis": 152,
+    "InterParenthesis": 60,
     "InterOperator": "And",
-    "UniqueHash": 664
+    "UniqueHash": 694
   }
 ]
 ```

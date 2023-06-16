@@ -1,6 +1,6 @@
 ---
 title: Services88.EMailAgent.GetFolderInfo SOAP
-generated: 1
+generated: true
 uid: Services88-EMail-GetFolderInfo
 ---
 

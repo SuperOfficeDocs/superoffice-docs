@@ -1,17 +1,11 @@
 ---
 uid: person
 title: person
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "person"
+keywords: mdoprovider mdo provider person
+description: List of persons from the Archive provider
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "person" MDO List

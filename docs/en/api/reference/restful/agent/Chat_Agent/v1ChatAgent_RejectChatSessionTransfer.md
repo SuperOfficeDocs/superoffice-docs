@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/RejectChatSessionTransfer
 uid: v1ChatAgent_RejectChatSessionTransfer
+generated: true
 ---
 
 # POST Agents/Chat/RejectChatSessionTransfer
@@ -108,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 352
+  "ChatSessionId": 818
 }
 ```
 
@@ -119,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 486,
-  "TopicId": 825,
+  "ChatSessionId": 30,
+  "TopicId": 626,
   "User": null,
   "Person": null,
-  "CustomerAlias": "cumque",
-  "CustomerHost": "dolor",
-  "CustomerName": "Turcotte, Gislason and Klein",
-  "CustomerEmail": "maybell.vonrueden@schowalter.biz",
-  "CustomerPhone": "231.059.1350",
+  "CustomerAlias": "sed",
+  "CustomerHost": "rerum",
+  "CustomerName": "Hilpert, Emmerich and Bruen",
+  "CustomerEmail": "eileen@shields.co.uk",
+  "CustomerPhone": "883.593.7232 x2186",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Romaguera-Kuhlman",
+  "CustomerCompanyName": "Swaniawski Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "ab",
-  "LastMessage": "aut",
-  "WhenRequested": "2011-02-18T03:51:26.7093472+01:00",
-  "WhenStarted": "1997-07-13T03:51:26.7093472+02:00",
-  "WhenEnded": "2018-09-11T03:51:26.7093472+02:00",
-  "WhenIdle": "2003-04-25T03:51:26.7093472+02:00",
-  "WhenFetched": "2005-02-19T03:51:26.7093472+01:00",
-  "SessionKey": "maxime",
-  "InitialQueuePos": 329,
-  "AlertLevel": 321,
-  "Rank": 956,
+  "FirstMessage": "quidem",
+  "LastMessage": "quidem",
+  "WhenRequested": "2010-08-27T16:00:40.226935+02:00",
+  "WhenStarted": "1997-07-08T16:00:40.226935+02:00",
+  "WhenEnded": "2003-04-29T16:00:40.226935+02:00",
+  "WhenIdle": "2007-12-31T16:00:40.226935+01:00",
+  "WhenFetched": "2017-07-21T16:00:40.226935+02:00",
+  "SessionKey": "iure",
+  "InitialQueuePos": 312,
+  "AlertLevel": 374,
+  "Rank": 42,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -149,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 531,
+  "Rating": 510,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 780
     }
   }
 }

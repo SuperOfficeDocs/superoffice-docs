@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductType
 uid: v1ProductTypeList_GetListDefinition
+generated: true
 ---
 
 # GET List/ProductType
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 219,
-  "Name": "Hoeger, Trantow and Marks",
-  "Tooltip": "hic",
-  "Deleted": false,
-  "Rank": 211,
+  "Id": 170,
+  "Name": "Spinka-McClure",
+  "Tooltip": "reprehenderit",
+  "Deleted": true,
+  "Rank": 969,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
+  "ListType": "fugiat",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldLength": 520
     }
   },
   "_Links": {

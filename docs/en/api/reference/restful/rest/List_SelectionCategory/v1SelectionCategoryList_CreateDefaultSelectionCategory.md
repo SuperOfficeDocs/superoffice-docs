@@ -1,6 +1,7 @@
 ---
 title: GET List/SelectionCategory/Items/Default
 uid: v1SelectionCategoryList_CreateDefaultSelectionCategory
+generated: true
 ---
 
 # GET List/SelectionCategory/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 708,
-  "Name": "Graham Group",
-  "Tooltip": "nihil",
+  "Id": 604,
+  "Name": "Upton, Morar and O'Reilly",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "UdListDefinitionId": 200,
-  "Rank": 277,
+  "UdListDefinitionId": 431,
+  "Rank": 359,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 750
     }
   }
 }

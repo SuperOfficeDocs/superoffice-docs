@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/SetPasswordFromName
 uid: v1UserAgent_SetPasswordFromName
+generated: true
 ---
 
 # POST Agents/User/SetPasswordFromName
@@ -70,12 +71,12 @@ OK
 POST /api/v1/Agents/User/SetPasswordFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Zieme-Boyer",
-  "Password": "optio"
+  "AssociateName": "Bartoletti, Turcotte and Schimmel",
+  "Password": "aspernatur"
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

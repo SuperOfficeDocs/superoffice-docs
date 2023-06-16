@@ -1,6 +1,7 @@
 ---
 title: POST Agents/NumberAllocation/GetNumberEachTemplate
 uid: v1NumberAllocationAgent_GetNumberEachTemplate
+generated: true
 ---
 
 # POST Agents/NumberAllocation/GetNumberEachTemplate
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/GetNumberEachTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

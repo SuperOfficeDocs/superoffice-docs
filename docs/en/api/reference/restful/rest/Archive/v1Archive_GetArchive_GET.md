@@ -1,6 +1,7 @@
 ---
 title: GET Archive/{archiveProviderName}
 uid: v1Archive_GetArchive_GET
+generated: true
 ---
 
 # GET Archive/{archiveProviderName}
@@ -139,16 +140,16 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=recusandae
-GET /api/v1/Archive/{archiveProviderName}?$top=943
-GET /api/v1/Archive/{archiveProviderName}?$skip=53
+GET /api/v1/Archive/{archiveProviderName}?$entities=quo
+GET /api/v1/Archive/{archiveProviderName}?$top=949
+GET /api/v1/Archive/{archiveProviderName}?$skip=429
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=omnis
+GET /api/v1/Archive/{archiveProviderName}?$context=minus
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=corrupti
+GET /api/v1/Archive/{archiveProviderName}?$metadata=exercitationem
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
-GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
+GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
 
@@ -200,21 +201,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "hic",
   "value": [
     {
-      "PrimaryKey": 9033,
+      "PrimaryKey": 8782,
       "EntityName": "sale",
-      "saleId": 9033,
-      "contactId": 1753,
-      "name": "Turner, Keebler and Kuhic"
+      "saleId": 8782,
+      "contactId": 169,
+      "name": "Thompson, Keeling and Bailey"
     },
     {
-      "PrimaryKey": 4198,
+      "PrimaryKey": 5424,
       "EntityName": "sale",
-      "saleId": 4198,
-      "contactId": 1705,
-      "name": "Wiza, Gottlieb and Pouros"
+      "saleId": 5424,
+      "contactId": 8365,
+      "name": "Reilly, Mohr and Marvin"
     }
   ]
 }

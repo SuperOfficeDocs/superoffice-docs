@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/GetSelectionMembersArchiveRows
 uid: v1SelectionAgent_GetSelectionMembersArchiveRows
+generated: true
 ---
 
 # POST Agents/Selection/GetSelectionMembersArchiveRows
@@ -83,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 394,
-  "Select": "natus"
+  "SelectionId": 968,
+  "Select": "nemo"
 }
 ```
 
@@ -96,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Mohr, Jerde and Hamill",
-    "PrimaryKey": 11,
+    "EntityName": "Murphy-Padberg",
+    "PrimaryKey": 838,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "illo",
-        "TooltipHint": "modi",
-        "LinkHint": "ipsa"
+        "DisplayValue": "ut",
+        "TooltipHint": "quo",
+        "LinkHint": "saepe"
       }
     },
-    "LinkHint": "debitis",
-    "StyleHint": "rerum",
+    "LinkHint": "inventore",
+    "StyleHint": "magni",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 750
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 uid: v1UserDefinedFieldInfoAgent_SaveUserDefinedFieldInfos
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
@@ -65,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 378,
-      "ColumnId": 817,
-      "FieldDefault": "officiis",
-      "FieldHeight": 17,
-      "FieldLabel": "qui",
-      "FieldLeft": 2,
-      "FieldTop": 986,
+      "UDefFieldId": 798,
+      "ColumnId": 625,
+      "FieldDefault": "occaecati",
+      "FieldHeight": 623,
+      "FieldLabel": "autem",
+      "FieldLeft": 621,
+      "FieldTop": 772,
       "FieldType": "Checkbox",
-      "FieldWidth": 721,
-      "FormatMask": "deleniti",
-      "HideLabel": false,
-      "IsIndexed": true,
-      "LabelHeight": 431,
-      "LabelLeft": 55,
-      "LabelTop": 406,
-      "LabelWidth": 327,
-      "LastVersionId": 513,
-      "ListTableId": 327,
-      "IsMandatory": false,
+      "FieldWidth": 348,
+      "FormatMask": "quia",
+      "HideLabel": true,
+      "IsIndexed": false,
+      "LabelHeight": 346,
+      "LabelLeft": 496,
+      "LabelTop": 95,
+      "LabelWidth": 18,
+      "LastVersionId": 107,
+      "ListTableId": 412,
+      "IsMandatory": true,
       "Type": "Appointment",
-      "Page1LineNo": 893,
-      "ProgId": "quidem",
-      "IsReadOnly": false,
-      "ShortLabel": "nesciunt",
-      "TabOrder": 825,
-      "TextLength": 57,
-      "Tooltip": "ipsam",
-      "UdefIdentity": 961,
-      "UDListDefinitionId": 349,
+      "Page1LineNo": 843,
+      "ProgId": "totam",
+      "IsReadOnly": true,
+      "ShortLabel": "sed",
+      "TabOrder": 522,
+      "TextLength": 533,
+      "Tooltip": "sit",
+      "UdefIdentity": 472,
+      "UDListDefinitionId": 546,
       "Justification": "Center",
-      "Version": 641,
-      "TemplateVariableName": "Littel, Rosenbaum and Kessler",
+      "Version": 133,
+      "TemplateVariableName": "Maggio Inc and Sons",
       "HasBeenPublished": true,
-      "MdoListName": "Harber, Schaden and Schamberger"
+      "MdoListName": "White-Upton"
     }
   ]
 }

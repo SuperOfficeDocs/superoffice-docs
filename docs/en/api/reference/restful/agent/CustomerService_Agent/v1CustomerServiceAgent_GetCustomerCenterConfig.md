@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/GetCustomerCenterConfig
 uid: v1CustomerServiceAgent_GetCustomerCenterConfig
+generated: true
 ---
 
 # POST Agents/CustomerService/GetCustomerCenterConfig
@@ -25,7 +26,7 @@ Gets a CustomerCenterConfig object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=808
+POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=776
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,department,category/id
 ```
 
@@ -83,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 749,
+  "CustConfigId": 262,
   "Type": "Options",
-  "Config": "aperiam",
-  "CustLangId": 279,
-  "Registered": "2009-04-08T03:51:26.9436626+02:00",
-  "RegisteredAssociateId": 628,
-  "Updated": "2014-01-26T03:51:26.9436626+01:00",
-  "UpdatedAssociateId": 594,
+  "Config": "perferendis",
+  "CustLangId": 211,
+  "Registered": "1998-10-07T16:00:40.5081328+02:00",
+  "RegisteredAssociateId": 188,
+  "Updated": "2003-05-30T16:00:40.5081328+02:00",
+  "UpdatedAssociateId": 212,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 307
     }
   }
 }

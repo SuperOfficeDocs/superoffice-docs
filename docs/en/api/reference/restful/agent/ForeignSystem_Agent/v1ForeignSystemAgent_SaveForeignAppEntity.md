@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/SaveForeignAppEntity
 uid: v1ForeignSystemAgent_SaveForeignAppEntity
+generated: true
 ---
 
 # POST Agents/ForeignSystem/SaveForeignAppEntity
@@ -74,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 916,
-  "Name": "Boyle Group",
-  "CreatedDate": "2006-04-05T03:51:27.3342054+02:00",
-  "UpdatedDate": "1998-07-24T03:51:27.3342054+02:00",
+  "ForeignAppId": 201,
+  "Name": "Streich, Brekke and Upton",
+  "CreatedDate": "2014-06-13T16:00:41.0549706+02:00",
+  "UpdatedDate": "2004-06-22T16:00:41.0549706+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 716,
-      "Name": "Rempel LLC",
-      "CreatedDate": "2021-09-24T03:51:27.3342054+02:00",
-      "UpdatedDate": "2017-11-12T03:51:27.3342054+01:00",
-      "AssociateFullName": "Prof. Mireya Dach DVM",
-      "CreatedBy": "laudantium",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "dolorem",
-      "ForeignAppId": 347
+      "ForeignDeviceId": 608,
+      "Name": "O'Conner Group",
+      "CreatedDate": "2009-09-02T16:00:41.0549706+02:00",
+      "UpdatedDate": "1999-09-11T16:00:41.0549706+02:00",
+      "AssociateFullName": "Kyra Beahan",
+      "CreatedBy": "velit",
+      "UpdatedBy": "a",
+      "DeviceIdentifier": "nihil",
+      "ForeignAppId": 848
     }
   ]
 }
@@ -107,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 354,
-  "Name": "Sporer, Hermiston and Smitham",
-  "CreatedDate": "2022-02-04T03:51:27.3342054+01:00",
-  "UpdatedDate": "2017-04-07T03:51:27.3342054+02:00",
+  "ForeignAppId": 45,
+  "Name": "Gorczany-Kulas",
+  "CreatedDate": "2014-06-11T16:00:41.0549706+02:00",
+  "UpdatedDate": "2003-09-04T16:00:41.0549706+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 266,
-      "Name": "White, Anderson and Schoen",
-      "CreatedDate": "2004-04-12T03:51:27.3342054+02:00",
-      "UpdatedDate": "2017-01-19T03:51:27.3342054+01:00",
-      "AssociateFullName": "Bartholome Becker",
-      "CreatedBy": "eveniet",
-      "UpdatedBy": "maxime",
-      "DeviceIdentifier": "doloribus",
-      "ForeignAppId": 230,
+      "ForeignDeviceId": 493,
+      "Name": "Wilkinson-Metz",
+      "CreatedDate": "2017-01-31T16:00:41.0549706+01:00",
+      "UpdatedDate": "2007-04-27T16:00:41.0549706+02:00",
+      "AssociateFullName": "Louie Lang",
+      "CreatedBy": "iste",
+      "UpdatedBy": "a",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 208,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 313
+          "FieldType": "System.String",
+          "FieldLength": 451
         }
       }
     }
@@ -138,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 354
+      "FieldType": "System.Int32",
+      "FieldLength": 953
     }
   }
 }

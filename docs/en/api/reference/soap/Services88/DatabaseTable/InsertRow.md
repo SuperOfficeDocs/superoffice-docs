@@ -1,6 +1,6 @@
 ---
 title: Services88.DatabaseTableAgent.InsertRow SOAP
-generated: 1
+generated: true
 uid: Services88-DatabaseTable-InsertRow
 ---
 

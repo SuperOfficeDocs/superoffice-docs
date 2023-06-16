@@ -1,6 +1,7 @@
 ---
 title: PUT List/Credited/Items/{id}/Headings
 uid: v1CreditedList_PutCreditedHeadingsForListItem
+generated: true
 ---
 
 # PUT List/Credited/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 440,
-    "Name": "Rippin-Barrows",
-    "ToolTip": "Vero voluptatem.",
+    "Id": 190,
+    "Name": "Murazik-Harber",
+    "ToolTip": "Sit et rerum asperiores doloribus consequatur similique facilis.",
     "Deleted": false,
-    "Rank": 882,
-    "Type": "tempore",
-    "ColorBlock": 641,
-    "IconHint": "et",
+    "Rank": 28,
+    "Type": "dolore",
+    "ColorBlock": 482,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2002-08-17T03:51:34.6458549+02:00",
+    "LastChanged": "2006-01-29T16:00:48.9770869+01:00",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "Gulgowski, Nikolaus and West",
-        "ToolTip": "Iusto quo aut provident architecto.",
+        "Id": 939,
+        "Name": "Bogisich, Kutch and Schimmel",
+        "ToolTip": "Voluptas velit pariatur et.",
         "Deleted": false,
-        "Rank": 15,
-        "Type": "eius",
-        "ColorBlock": 506,
-        "IconHint": "maxime",
+        "Rank": 597,
+        "Type": "at",
+        "ColorBlock": 137,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2005-10-31T03:51:34.6458549+01:00",
+        "LastChanged": "2019-05-13T16:00:48.9770869+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "quidem",
-        "Hidden": false,
-        "FullName": "Sunny Gusikowski"
+        "ExtraInfo": "qui",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Reggie Stiedemann"
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "fuga",
-    "Hidden": false,
-    "FullName": "Mr. Rhett Russel Schulist"
+    "ExtraInfo": "aperiam",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Chanelle Schulist"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 913,
-    "Name": "Von-Kling",
-    "ToolTip": "Et consequatur ullam atque.",
+    "Id": 268,
+    "Name": "Bins, Williamson and Johns",
+    "ToolTip": "Corrupti explicabo et odio enim.",
     "Deleted": false,
-    "Rank": 124,
-    "Type": "sed",
-    "ColorBlock": 6,
-    "IconHint": "maiores",
+    "Rank": 298,
+    "Type": "ea",
+    "ColorBlock": 59,
+    "IconHint": "at",
     "Selected": false,
-    "LastChanged": "2021-10-09T03:51:34.6458549+02:00",
+    "LastChanged": "1996-05-16T16:00:48.9770869+02:00",
     "ChildItems": [
       {
-        "Id": 559,
-        "Name": "Bins, Stiedemann and Kassulke",
-        "ToolTip": "Ea et et dicta.",
+        "Id": 994,
+        "Name": "Wilderman Group",
+        "ToolTip": "Nemo autem eligendi.",
         "Deleted": false,
-        "Rank": 530,
-        "Type": "rerum",
-        "ColorBlock": 558,
-        "IconHint": "velit",
+        "Rank": 101,
+        "Type": "amet",
+        "ColorBlock": 600,
+        "IconHint": "officia",
         "Selected": true,
-        "LastChanged": "1997-11-29T03:51:34.6458549+01:00",
+        "LastChanged": "2008-11-14T16:00:48.9770869+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "error",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Alana Michael D'Amore V",
+        "FullName": "Tracy Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 505
+            "FieldType": "System.String",
+            "FieldLength": 995
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Damion Rath",
+    "ExtraInfo": "sit",
+    "StyleHint": "vitae",
+    "Hidden": true,
+    "FullName": "Gerard Dickinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldLength": 28
       }
     }
   }

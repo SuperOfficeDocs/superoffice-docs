@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetProduct
 uid: v1QuoteAgent_GetProduct
+generated: true
 ---
 
 # POST Agents/Quote/GetProduct
@@ -106,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 551,
-  "ERPProductKey": "sed"
+  "QuoteConnectionId": 414,
+  "ERPProductKey": "ut"
 }
 ```
 
@@ -122,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 381,
-  "ERPProductKey": "accusantium",
-  "ERPPriceListKey": "doloribus",
-  "Name": "Mohr LLC",
-  "Description": "Re-contextualized 5th generation secured line",
-  "Code": "qui",
-  "PriceUnit": "deserunt",
-  "QuantityUnit": "architecto",
-  "IsSubscription": true,
-  "SubscriptionUnit": "ad",
-  "DefaultSubscriptionQuantity": 1820.854,
-  "ItemNumber": "1326080",
+  "ProductId": 450,
+  "ERPProductKey": "vitae",
+  "ERPPriceListKey": "odit",
+  "Name": "Quigley-Bashirian",
+  "Description": "Self-enabling client-driven synergy",
+  "Code": "autem",
+  "PriceUnit": "suscipit",
+  "QuantityUnit": "ea",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ipsa",
+  "DefaultSubscriptionQuantity": 28375.236,
+  "ItemNumber": "217514",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "libero",
-  "ProductTypeKey": "praesentium",
-  "VAT": 14830.088,
-  "VATInfo": "sit",
-  "UnitCost": 26902.255999999998,
-  "UnitMinimumPrice": 28864.14,
-  "UnitListPrice": 23865.41,
-  "InAssortment": true,
-  "Supplier": "sunt",
-  "SupplierCode": "quis",
-  "Rights": "voluptatem",
-  "Rule": "velit",
+  "ProductFamilyKey": "ipsam",
+  "ProductTypeKey": "ea",
+  "VAT": 24410.726,
+  "VATInfo": "distinctio",
+  "UnitCost": 8524.48,
+  "UnitMinimumPrice": 11993.818,
+  "UnitListPrice": 21953.67,
+  "InAssortment": false,
+  "Supplier": "dolor",
+  "SupplierCode": "nesciunt",
+  "Rights": "impedit",
+  "Rule": "iusto",
   "ExtraInfo": [
     {
-      "Name": "Windler Group",
-      "Value": "dolores",
+      "Name": "Fahey, Blick and Orn",
+      "Value": "eius",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 117
+          "FieldLength": 607
         }
       }
     },
     {
-      "Name": "Windler Group",
-      "Value": "dolores",
+      "Name": "Fahey, Blick and Orn",
+      "Value": "eius",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 117
+          "FieldLength": 607
         }
       }
     }
   ],
-  "RawExtraInfo": "esse",
-  "ExtraField1": "dolor",
-  "ExtraField2": "occaecati",
-  "ExtraField3": "quo",
-  "ExtraField4": "cum",
-  "ExtraField5": "totam",
-  "InStock": 19079.791999999998,
+  "RawExtraInfo": "soluta",
+  "ExtraField1": "maxime",
+  "ExtraField2": "consequatur",
+  "ExtraField3": "atque",
+  "ExtraField4": "error",
+  "ExtraField5": "molestias",
+  "InStock": 476.368,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldType": "System.String",
+      "FieldLength": 505
     }
   }
 }

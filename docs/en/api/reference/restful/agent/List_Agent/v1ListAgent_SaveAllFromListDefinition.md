@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveAllFromListDefinition
 uid: v1ListAgent_SaveAllFromListDefinition
+generated: true
 ---
 
 # POST Agents/List/SaveAllFromListDefinition
@@ -78,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 795,
+  "UdListDefinitionId": 558,
   "Items": [
     {
-      "Id": 545,
-      "Name": "Cummings-Hegmann",
-      "Tooltip": "qui",
-      "Deleted": false,
-      "UdListDefinitionId": 490,
-      "Rank": 634
+      "Id": 954,
+      "Name": "Gleason-Parker",
+      "Tooltip": "ratione",
+      "Deleted": true,
+      "UdListDefinitionId": 362,
+      "Rank": 916
     },
     {
-      "Id": 545,
-      "Name": "Cummings-Hegmann",
-      "Tooltip": "qui",
-      "Deleted": false,
-      "UdListDefinitionId": 490,
-      "Rank": 634
+      "Id": 954,
+      "Name": "Gleason-Parker",
+      "Tooltip": "ratione",
+      "Deleted": true,
+      "UdListDefinitionId": 362,
+      "Rank": 916
     }
   ]
 }
@@ -112,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Nolan, Bartell and Sawayn",
-    "Tooltip": "nulla",
-    "Deleted": true,
-    "UdListDefinitionId": 845,
-    "Rank": 412,
+    "Id": 757,
+    "Name": "Purdy, Fisher and King",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "UdListDefinitionId": 652,
+    "Rank": 748,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 367
       }
     }
   }

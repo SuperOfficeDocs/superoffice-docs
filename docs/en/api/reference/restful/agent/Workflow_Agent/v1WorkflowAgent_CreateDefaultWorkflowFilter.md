@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/CreateDefaultWorkflowFilter
 uid: v1WorkflowAgent_CreateDefaultWorkflowFilter
+generated: true
 ---
 
 # POST Agents/Workflow/CreateDefaultWorkflowFilter
@@ -56,7 +57,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Rogahn, Deckow and Donnelly",
-      "Description": "Versatile high-level adapter",
-      "Rank": 917,
+      "Name": "Mante Group",
+      "Description": "Team-oriented client-server standardization",
+      "Rank": 675,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rogahn, Deckow and Donnelly",
-      "Description": "Versatile high-level adapter",
-      "Rank": 917,
+      "Name": "Mante Group",
+      "Description": "Team-oriented client-server standardization",
+      "Rank": 675,
       "Restrictions": [
         {},
         {}
@@ -91,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 196
     }
   }
 }

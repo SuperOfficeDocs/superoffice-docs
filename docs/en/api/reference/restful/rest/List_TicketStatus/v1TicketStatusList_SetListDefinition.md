@@ -1,6 +1,7 @@
 ---
 title: PUT List/TicketStatus
 uid: v1TicketStatusList_SetListDefinition
+generated: true
 ---
 
 # PUT List/TicketStatus
@@ -87,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 714,
-  "Name": "Block Group",
-  "Tooltip": "eum",
+  "Id": 881,
+  "Name": "Stark Group",
+  "Tooltip": "delectus",
   "Deleted": true,
-  "Rank": 67,
+  "Rank": 685,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quasi",
+  "UseGroupsAndHeadings": false,
+  "ListType": "in",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 88,
-  "Name": "Monahan-Quitzon",
-  "Tooltip": "doloribus",
-  "Deleted": false,
-  "Rank": 626,
-  "IsCustomList": false,
+  "Id": 637,
+  "Name": "Welch, Terry and Balistreri",
+  "Tooltip": "eaque",
+  "Deleted": true,
+  "Rank": 8,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "corrupti",
+  "UseGroupsAndHeadings": false,
+  "ListType": "autem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 221
+      "FieldType": "System.Int32",
+      "FieldLength": 716
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET License/User/{id}
 uid: v1License_GetUserLicenses
+generated: true
 ---
 
 # GET License/User/{id}
@@ -61,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lowe LLC",
-    "Description": "Automated executive standardization",
+    "Name": "Von-Gerhold",
+    "Description": "Integrated responsive success",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 235,
-        "Tooltip": "provident",
-        "CanAssign": true,
-        "Free": 898,
-        "InUse": 985,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 951,
-        "Name": "Lang, Spinka and Breitenberg",
-        "Description": "Future-proofed dedicated hierarchy",
-        "PrerequisiteModuleName": "Gerhold Group",
-        "SortOrder": 217,
-        "ExtraFlags": 752,
+        "Unrestricted": false,
+        "Total": 41,
+        "Tooltip": "ipsam",
+        "CanAssign": false,
+        "Free": 103,
+        "InUse": 799,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 492,
+        "Name": "Streich, Schaefer and Luettgen",
+        "Description": "Devolved optimal Graphic Interface",
+        "PrerequisiteModuleName": "Huel, Aufderhar and Batz",
+        "SortOrder": 962,
+        "ExtraFlags": 686,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 100
+            "FieldLength": 154
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 886,
-        "Tooltip": "eaque",
+        "Unrestricted": true,
+        "Total": 739,
+        "Tooltip": "saepe",
         "CanAssign": true,
-        "Free": 11,
-        "InUse": 407,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 48,
-        "Name": "Nienow, Schimmel and Cremin",
-        "Description": "Team-oriented multi-state functionalities",
-        "PrerequisiteModuleName": "Hudson-Moore",
-        "SortOrder": 726,
-        "ExtraFlags": 458,
+        "Free": 667,
+        "InUse": 228,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 749,
+        "Name": "Kreiger, McLaughlin and Yundt",
+        "Description": "Re-contextualized national groupware",
+        "PrerequisiteModuleName": "Murray Inc and Sons",
+        "SortOrder": 522,
+        "ExtraFlags": 95,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 968
+            "FieldType": "System.String",
+            "FieldLength": 854
           }
         }
       }
@@ -130,62 +131,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 263
+        "FieldType": "System.Int32",
+        "FieldLength": 561
       }
     }
   },
   {
-    "Name": "Lowe LLC",
-    "Description": "Automated executive standardization",
+    "Name": "Von-Gerhold",
+    "Description": "Integrated responsive success",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 235,
-        "Tooltip": "provident",
-        "CanAssign": true,
-        "Free": 898,
-        "InUse": 985,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 951,
-        "Name": "Lang, Spinka and Breitenberg",
-        "Description": "Future-proofed dedicated hierarchy",
-        "PrerequisiteModuleName": "Gerhold Group",
-        "SortOrder": 217,
-        "ExtraFlags": 752,
+        "Unrestricted": false,
+        "Total": 41,
+        "Tooltip": "ipsam",
+        "CanAssign": false,
+        "Free": 103,
+        "InUse": 799,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 492,
+        "Name": "Streich, Schaefer and Luettgen",
+        "Description": "Devolved optimal Graphic Interface",
+        "PrerequisiteModuleName": "Huel, Aufderhar and Batz",
+        "SortOrder": 962,
+        "ExtraFlags": 686,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 100
+            "FieldLength": 154
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 886,
-        "Tooltip": "eaque",
+        "Unrestricted": true,
+        "Total": 739,
+        "Tooltip": "saepe",
         "CanAssign": true,
-        "Free": 11,
-        "InUse": 407,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 48,
-        "Name": "Nienow, Schimmel and Cremin",
-        "Description": "Team-oriented multi-state functionalities",
-        "PrerequisiteModuleName": "Hudson-Moore",
-        "SortOrder": 726,
-        "ExtraFlags": 458,
+        "Free": 667,
+        "InUse": 228,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 749,
+        "Name": "Kreiger, McLaughlin and Yundt",
+        "Description": "Re-contextualized national groupware",
+        "PrerequisiteModuleName": "Murray Inc and Sons",
+        "SortOrder": 522,
+        "ExtraFlags": 95,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 968
+            "FieldType": "System.String",
+            "FieldLength": 854
           }
         }
       }
@@ -194,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 263
+        "FieldType": "System.Int32",
+        "FieldLength": 561
       }
     }
   }

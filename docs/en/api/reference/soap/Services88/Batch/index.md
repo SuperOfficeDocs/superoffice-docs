@@ -1,7 +1,7 @@
 ---
 title: Services88.BatchAgent SOAP
 uid: Services88-Batch-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Batch SOAP

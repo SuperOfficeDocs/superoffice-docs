@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SavePriceList
 uid: v1QuoteAgent_SavePriceList
+generated: true
 ---
 
 # POST Agents/Quote/SavePriceList
@@ -80,20 +81,20 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 380,
-  "ERPPriceListKey": "nostrum",
-  "QuoteConnectionId": 863,
-  "Name": "Price, Sawayn and Goyette",
-  "Description": "Realigned bottom-line archive",
-  "Currency": "est",
-  "CurrencyName": "Bosco-O'Reilly",
-  "ValidFrom": "2013-01-24T03:51:27.9902963+01:00",
-  "ValidTo": "2000-07-03T03:51:27.9902963+02:00",
-  "IsActive": true
+  "PriceListId": 553,
+  "ERPPriceListKey": "facilis",
+  "QuoteConnectionId": 985,
+  "Name": "Rippin-Bartell",
+  "Description": "Total real-time moratorium",
+  "Currency": "quas",
+  "CurrencyName": "Emmerich-Mosciski",
+  "ValidFrom": "2021-10-01T16:00:41.6175709+02:00",
+  "ValidTo": "2006-08-30T16:00:41.6175709+02:00",
+  "IsActive": false
 }
 ```
 
@@ -104,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 629,
-  "ERPPriceListKey": "fugit",
-  "QuoteConnectionId": 368,
-  "Name": "Romaguera Inc and Sons",
-  "Description": "Sharable real-time portal",
-  "Currency": "sunt",
-  "CurrencyName": "Koch-Murazik",
-  "ValidFrom": "2003-06-05T03:51:27.9902963+02:00",
-  "ValidTo": "2010-12-03T03:51:27.9902963+01:00",
+  "PriceListId": 549,
+  "ERPPriceListKey": "eveniet",
+  "QuoteConnectionId": 697,
+  "Name": "Torphy, Maggio and Hermiston",
+  "Description": "Adaptive static instruction set",
+  "Currency": "sint",
+  "CurrencyName": "Graham, Bradtke and Rodriguez",
+  "ValidFrom": "1996-12-03T16:00:41.6175709+01:00",
+  "ValidTo": "2018-07-18T16:00:41.6175709+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 535
     }
   }
 }

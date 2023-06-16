@@ -1,6 +1,6 @@
 ---
 title: Services88.TicketAgent.DeleteMessageHeaders SOAP
-generated: 1
+generated: true
 uid: Services88-Ticket-DeleteMessageHeaders
 ---
 

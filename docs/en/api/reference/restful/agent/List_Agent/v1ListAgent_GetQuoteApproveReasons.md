@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetQuoteApproveReasons
 uid: v1ListAgent_GetQuoteApproveReasons
+generated: true
 ---
 
 # POST Agents/List/GetQuoteApproveReasons
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetQuoteApproveReasons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 64,
-    "Value": "porro",
-    "Tooltip": "nisi",
+    "Id": 467,
+    "Value": "voluptas",
+    "Tooltip": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldType": "System.String",
+        "FieldLength": 611
       }
     }
   },
   {
-    "Id": 64,
-    "Value": "porro",
-    "Tooltip": "nisi",
+    "Id": 467,
+    "Value": "voluptas",
+    "Tooltip": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldType": "System.String",
+        "FieldLength": 611
       }
     }
   }

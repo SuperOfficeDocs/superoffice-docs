@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteApproveReason/Items/{id}/UserGroups
 uid: v1QuoteApproveReasonList_GetQuoteApproveReasonUserGroupsForListItem
+generated: true
 ---
 
 # GET List/QuoteApproveReason/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 680,
-    "Name": "Mraz Group",
-    "ToolTip": "Atque consequatur occaecati ut quae sapiente deleniti consequatur.",
-    "Deleted": false,
-    "Rank": 997,
-    "Type": "nobis",
-    "ColorBlock": 946,
-    "IconHint": "harum",
-    "Selected": true,
-    "LastChanged": "1996-06-17T03:51:34.864573+02:00",
+    "Id": 453,
+    "Name": "Boyer-Yost",
+    "ToolTip": "Et et.",
+    "Deleted": true,
+    "Rank": 486,
+    "Type": "impedit",
+    "ColorBlock": 589,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "1999-02-09T16:00:49.2270591+01:00",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "Price-Pagac",
-        "ToolTip": "Adipisci exercitationem fugit occaecati.",
+        "Id": 548,
+        "Name": "Lowe Inc and Sons",
+        "ToolTip": "Consequatur unde dignissimos culpa pariatur eum perspiciatis.",
         "Deleted": true,
-        "Rank": 359,
-        "Type": "eligendi",
-        "ColorBlock": 602,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2004-09-09T03:51:34.864573+02:00",
+        "Rank": 404,
+        "Type": "et",
+        "ColorBlock": 924,
+        "IconHint": "neque",
+        "Selected": false,
+        "LastChanged": "2017-09-06T16:00:49.2270591+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "mollitia",
-        "Hidden": false,
-        "FullName": "Beulah Erdman IV",
+        "ExtraInfo": "eum",
+        "StyleHint": "repellendus",
+        "Hidden": true,
+        "FullName": "Trystan Muller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 654
+            "FieldLength": 881
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "vel",
-    "Hidden": true,
-    "FullName": "Noemie Wintheiser DDS",
+    "ExtraInfo": "possimus",
+    "StyleHint": "eveniet",
+    "Hidden": false,
+    "FullName": "Dr. Jonas Lehner III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 272
+        "FieldType": "System.Int32",
+        "FieldLength": 668
       }
     }
   }

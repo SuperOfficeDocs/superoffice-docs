@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/Publish
 uid: v1UserDefinedFieldInfoAgent_Publish
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/Publish
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-564
+148
 ```

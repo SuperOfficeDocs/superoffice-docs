@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/MoveListItem
 uid: v1ListAgent_MoveListItem
+generated: true
 ---
 
 # POST Agents/List/MoveListItem
@@ -65,13 +66,13 @@ No Content
 POST /api/v1/Agents/List/MoveListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 525,
-  "ListItemId": 408,
-  "Direction": 316
+  "UdListDefinitionId": 225,
+  "ListItemId": 779,
+  "Direction": 455
 }
 ```
 

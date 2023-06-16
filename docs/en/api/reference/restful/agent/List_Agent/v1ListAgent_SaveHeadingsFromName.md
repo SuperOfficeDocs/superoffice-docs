@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveHeadingsFromName
 uid: v1ListAgent_SaveHeadingsFromName
+generated: true
 ---
 
 # POST Agents/List/SaveHeadingsFromName
@@ -82,23 +83,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Borer-Collier",
+  "Name": "Hammes-O'Kon",
   "Entities": [
     {
-      "HeadingId": 215,
-      "Name": "Dibbert-Jerde",
-      "Tooltip": "ut",
-      "Deleted": true,
-      "Rank": 442,
-      "UdListDefinitionId": 670
+      "HeadingId": 196,
+      "Name": "Boyle-Cruickshank",
+      "Tooltip": "voluptas",
+      "Deleted": false,
+      "Rank": 415,
+      "UdListDefinitionId": 812
     },
     {
-      "HeadingId": 215,
-      "Name": "Dibbert-Jerde",
-      "Tooltip": "ut",
-      "Deleted": true,
-      "Rank": 442,
-      "UdListDefinitionId": 670
+      "HeadingId": 196,
+      "Name": "Boyle-Cruickshank",
+      "Tooltip": "voluptas",
+      "Deleted": false,
+      "Rank": 415,
+      "UdListDefinitionId": 812
     }
   ]
 }
@@ -112,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 230,
-    "Name": "Kunde, Koelpin and Hudson",
-    "Tooltip": "excepturi",
-    "Deleted": true,
-    "Rank": 258,
-    "UdListDefinitionId": 989,
+    "HeadingId": 158,
+    "Name": "Ryan-Welch",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "Rank": 761,
+    "UdListDefinitionId": 431,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 95
+        "FieldLength": 539
       }
     }
   }

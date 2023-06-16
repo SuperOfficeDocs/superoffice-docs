@@ -1,6 +1,7 @@
 ---
 title: POST Agents/FreeText/FreetextIndexRows
 uid: v1FreeTextAgent_FreetextIndexRows
+generated: true
 ---
 
 # POST Agents/FreeText/FreetextIndexRows
@@ -68,10 +69,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kerluke Group",
+  "TableName": "Prosacco-Robel",
   "IDs": [
-    384,
-    781
+    690,
+    462
   ]
 }
 ```

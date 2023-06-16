@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetEmailAppointmentRecurrence
 uid: v1EMailAgent_GetEmailAppointmentRecurrence
+generated: true
 ---
 
 # POST Agents/EMail/GetEmailAppointmentRecurrence
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 668
+  "MailItemId": 769
 }
 ```
 
@@ -98,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 720,
-  "StartDate": "1999-05-09T03:51:27.1936087+02:00",
-  "EndDate": "2022-12-31T03:51:27.1936087+01:00",
-  "RecurrenceCounter": 51,
+  "RecurrenceId": 382,
+  "StartDate": "2015-06-27T16:00:40.8831142+02:00",
+  "EndDate": "2014-03-15T16:00:40.8831142+01:00",
+  "RecurrenceCounter": 491,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1998-01-08T03:51:27.1936087+01:00",
-      "IsConflict": true,
-      "Description": "Upgradable radical internet solution",
-      "DescriptionStyleHint": "Balanced asynchronous projection",
-      "Tooltip": "ipsum"
+      "Date": "2018-09-22T16:00:40.8831142+02:00",
+      "IsConflict": false,
+      "Description": "Polarised modular artificial intelligence",
+      "DescriptionStyleHint": "Proactive fault-tolerant knowledge base",
+      "Tooltip": "omnis"
     },
     {
-      "Date": "1998-01-08T03:51:27.1936087+01:00",
-      "IsConflict": true,
-      "Description": "Upgradable radical internet solution",
-      "DescriptionStyleHint": "Balanced asynchronous projection",
-      "Tooltip": "ipsum"
+      "Date": "2018-09-22T16:00:40.8831142+02:00",
+      "IsConflict": false,
+      "Description": "Polarised modular artificial intelligence",
+      "DescriptionStyleHint": "Proactive fault-tolerant knowledge base",
+      "Tooltip": "omnis"
     }
   ],
   "IsRecurrence": false

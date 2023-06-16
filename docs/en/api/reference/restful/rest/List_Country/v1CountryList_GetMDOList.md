@@ -1,6 +1,7 @@
 ---
 title: GET List/Country/MDOItems
 uid: v1CountryList_GetMDOList
+generated: true
 ---
 
 # GET List/Country/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=harum
+GET /api/v1/List/Country/MDOItems?query=provident
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Torp-Howell",
-    "ToolTip": "Sit occaecati ea accusamus veritatis ex officiis vero.",
+    "Id": 150,
+    "Name": "Leuschke-Johnston",
+    "ToolTip": "Debitis suscipit sapiente quod occaecati dolorum adipisci.",
     "Deleted": false,
-    "Rank": 969,
-    "Type": "corrupti",
+    "Rank": 549,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 901,
-        "Name": "D'Amore-Kovacek",
-        "ToolTip": "Voluptas nobis.",
-        "Deleted": false,
-        "Rank": 119,
-        "Type": "laboriosam",
+        "Id": 840,
+        "Name": "Fay, Roberts and Ledner",
+        "ToolTip": "Repudiandae ut et assumenda architecto voluptatem eligendi enim.",
+        "Deleted": true,
+        "Rank": 401,
+        "Type": "itaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorum",
-        "ColorBlock": 983,
-        "ExtraInfo": "sed",
-        "StyleHint": "qui",
-        "FullName": "Prof. Shyanne Mac Marks DVM",
+        "IconHint": "alias",
+        "ColorBlock": 838,
+        "ExtraInfo": "minima",
+        "StyleHint": "aut",
+        "FullName": "Dr. Olen Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 912
+            "FieldType": "System.String",
+            "FieldLength": 125
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 673,
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "quod",
-    "FullName": "Eden Johnson",
+    "IconHint": "illum",
+    "ColorBlock": 727,
+    "ExtraInfo": "inventore",
+    "StyleHint": "est",
+    "FullName": "Lilyan Parisian III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 740
+        "FieldLength": 31
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 uid: v1FindAgent_SaveRestrictionsAndGetCriteriaInformation
+generated: true
 ---
 
 # POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation
@@ -81,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "explicabo",
-  "ProviderName": "Beahan, Boehm and Bauch",
-  "StorageKey": "ab",
+  "StorageType": "ut",
+  "ProviderName": "Beatty, Strosin and Hyatt",
+  "StorageKey": "dolore",
   "Restrictions": [
     {
-      "Name": "Kihn, Huel and DuBuque",
-      "Operator": "optio",
+      "Name": "Parker-Huel",
+      "Operator": "repellat",
       "Values": [
-        "sunt",
-        "nihil"
+        "qui",
+        "excepturi"
       ],
       "DisplayValues": [
-        "vel",
-        "deleniti"
+        "iure",
+        "vero"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 244,
+      "InterParenthesis": 259,
       "InterOperator": "And",
-      "UniqueHash": 901
+      "UniqueHash": 643
     }
   ],
   "StaticColumns": [
-    "dolore",
-    "id"
+    "ducimus",
+    "ratione"
   ]
 }
 ```
@@ -127,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Paucek-Herman",
-      "Operator": "voluptas",
+      "Name": "Kertzmann-Morissette",
+      "Operator": "beatae",
       "Values": [
-        "assumenda",
-        "libero"
+        "sint",
+        "aut"
       ],
       "DisplayValues": [
-        "dicta",
-        "nihil"
+        "quas",
+        "nostrum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -143,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 462,
+      "InterParenthesis": 54,
       "InterOperator": "And",
-      "UniqueHash": 719
+      "UniqueHash": 583
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Ernser-Reichel",
-      "DisplayTooltip": "ea",
-      "DisplayType": "distinctio",
+      "DisplayName": "Prohaska-Sipes",
+      "DisplayTooltip": "incidunt",
+      "DisplayType": "et",
       "CanOrderBy": false,
-      "Name": "Kautzer-Hessel",
-      "CanRestrictBy": true,
-      "RestrictionType": "veritatis",
-      "RestrictionListName": "Kautzer-Spinka",
+      "Name": "Dietrich-Bogan",
+      "CanRestrictBy": false,
+      "RestrictionType": "qui",
+      "RestrictionListName": "Brown Group",
       "IsVisible": false,
-      "ExtraInfo": "minima",
-      "Width": "voluptas",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "autem"
+      "ExtraInfo": "nobis",
+      "Width": "sint",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "aut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Powlowski, Stokes and Pfannerstill",
-      "PrimaryKey": 617,
+      "EntityName": "Reynolds, Williamson and Konopelski",
+      "PrimaryKey": 318,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "repellendus",
-          "TooltipHint": "minima",
-          "LinkHint": "adipisci"
+          "DisplayValue": "explicabo",
+          "TooltipHint": "ut",
+          "LinkHint": "exercitationem"
         }
       },
-      "LinkHint": "non",
-      "StyleHint": "vero",
+      "LinkHint": "consequatur",
+      "StyleHint": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldType": "System.String",
+          "FieldLength": 417
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Altenwerth-Hartmann",
-      "Description": "Multi-channelled cohesive solution",
-      "Rank": 809,
+      "Name": "Kuphal-Hegmann",
+      "Description": "Progressive motivating contingency",
+      "Rank": 315,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Altenwerth-Hartmann",
-      "Description": "Multi-channelled cohesive solution",
-      "Rank": 809,
+      "Name": "Kuphal-Hegmann",
+      "Description": "Progressive motivating contingency",
+      "Rank": 315,
       "Restrictions": [
         {},
         {}
@@ -213,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldLength": 473
     }
   }
 }

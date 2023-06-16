@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/CreateDefaultPreviewDash
 uid: v1DashAgent_CreateDefaultPreviewDash
+generated: true
 ---
 
 # POST Agents/Dash/CreateDefaultPreviewDash
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,32 +71,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Torp-Hansen",
-  "Description": "Integrated full-range knowledge base",
-  "OwnedByFullName": "Murray Smitham",
-  "Registered": "2014-11-12T03:51:26.9749126+01:00",
+  "Name": "Haag-Spinka",
+  "Description": "Pre-emptive systematic initiative",
+  "OwnedByFullName": "Ellsworth Davon Renner I",
+  "Registered": "2018-11-04T16:00:40.5237534+01:00",
   "Tiles": [
     {
-      "Name": "Von Inc and Sons",
+      "Name": "Spencer-Oberbrunner",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 421
+          "FieldType": "System.Int32",
+          "FieldLength": 246
         }
       }
     },
     {
-      "Name": "Von Inc and Sons",
+      "Name": "Spencer-Oberbrunner",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 421
+          "FieldType": "System.Int32",
+          "FieldLength": 246
         }
       }
     }
@@ -104,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 285
     }
   }
 }

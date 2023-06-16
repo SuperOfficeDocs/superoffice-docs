@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/DeleteListEntity
 uid: v1ListAgent_DeleteListEntity
+generated: true
 ---
 
 # POST Agents/List/DeleteListEntity
@@ -24,7 +25,7 @@ Deletes the ListEntity
 | ListEntityId | int32 | **Required** The id of the ListEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteListEntity?ListEntityId=980
+POST /api/v1/Agents/List/DeleteListEntity?ListEntityId=143
 ```
 
 

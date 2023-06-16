@@ -1,6 +1,7 @@
 ---
 title: PUT User/{id}/UserPresenceStatus
 uid: v1User_SetUserPresenceStatus
+generated: true
 ---
 
 # PUT User/{id}/UserPresenceStatus
@@ -68,12 +69,12 @@ OK
 PUT /api/v1/User/{associateId}/UserPresenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "iste"
+  "Message": "laboriosam"
 }
 ```
 
@@ -85,6 +86,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "eaque"
+  "Message": "tenetur"
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/GetChatPresence
 uid: v1ChatAgent_GetChatPresence
+generated: true
 ---
 
 # POST Agents/Chat/GetChatPresence
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 367,
-    "DisplayName": "Jacobson, Zemlak and Schmitt",
-    "OngoingChats": 749,
+    "UserId": 621,
+    "DisplayName": "Terry-Bogan",
+    "OngoingChats": 531,
     "Present": false,
     "ChatTopics": [
-      794,
-      674
+      6,
+      523
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldType": "System.Int32",
+        "FieldLength": 43
       }
     }
   }

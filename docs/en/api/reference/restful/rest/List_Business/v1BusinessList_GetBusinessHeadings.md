@@ -1,6 +1,7 @@
 ---
 title: GET List/Business/Headings
 uid: v1BusinessList_GetBusinessHeadings
+generated: true
 ---
 
 # GET List/Business/Headings
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 734,
-    "Name": "Tromp, Bergstrom and Satterfield",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 188,
-    "UdListDefinitionId": 129,
+    "HeadingId": 172,
+    "Name": "Kuphal LLC",
+    "Tooltip": "repudiandae",
+    "Deleted": false,
+    "Rank": 85,
+    "UdListDefinitionId": 224,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldType": "System.String",
+        "FieldLength": 911
       }
     }
   }

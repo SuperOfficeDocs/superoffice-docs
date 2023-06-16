@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/MarkEmailsAsRead
 uid: v1EMailAgent_MarkEmailsAsRead
+generated: true
 ---
 
 # POST Agents/EMail/MarkEmailsAsRead
@@ -66,15 +67,15 @@ No Content
 POST /api/v1/Agents/EMail/MarkEmailsAsRead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    549,
-    21
+    708,
+    730
   ],
-  "Read": true
+  "Read": false
 }
 ```
 

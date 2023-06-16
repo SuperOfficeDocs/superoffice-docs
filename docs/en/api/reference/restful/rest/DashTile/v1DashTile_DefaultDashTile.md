@@ -1,6 +1,7 @@
 ---
 title: GET DashTile/default
 uid: v1DashTile_DefaultDashTile
+generated: true
 ---
 
 # GET DashTile/default
@@ -61,7 +62,7 @@ OK
 GET /api/v1/DashTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 867,
-  "DashboardId": 939,
-  "Height": 519,
-  "Width": 566,
-  "Rank": 602,
+  "DashboardTileId": 199,
+  "DashboardId": 534,
+  "Height": 161,
+  "Width": 714,
+  "Rank": 524,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldType": "System.String",
+      "FieldLength": 43
     }
   }
 }

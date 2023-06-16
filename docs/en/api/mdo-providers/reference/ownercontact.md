@@ -1,17 +1,11 @@
 ---
 uid: ownercontact
 title: ownercontact
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "ownercontact"
+keywords: mdoprovider mdo provider ownercontact
+description: MDO provider for listing owner contacts.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ownercontact" MDO List

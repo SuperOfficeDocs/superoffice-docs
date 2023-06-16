@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/FindFromRestrictionsColumns
 uid: v1FindAgent_FindFromRestrictionsColumns
+generated: true
 ---
 
 # POST Agents/Find/FindFromRestrictionsColumns
@@ -99,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Monahan Inc and Sons",
-      "Operator": "magnam",
+      "Name": "Jerde, Hickle and Kshlerin",
+      "Operator": "omnis",
       "Values": [
-        "nihil",
-        "ut"
+        "eius",
+        "natus"
       ],
       "DisplayValues": [
-        "quia",
-        "ut"
+        "minus",
+        "a"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 119,
+      "InterParenthesis": 935,
       "InterOperator": "And",
-      "UniqueHash": 288
+      "UniqueHash": 760
     }
   ],
-  "ProviderName": "Zieme LLC",
+  "ProviderName": "Bergstrom-Will",
   "DesiredColumns": [
-    "facilis",
-    "et"
+    "qui",
+    "quae"
   ],
-  "PageSize": 51,
-  "PageNumber": 862
+  "PageSize": 594,
+  "PageNumber": 5
 }
 ```
 
@@ -145,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bernier Group",
-      "DisplayTooltip": "ut",
-      "DisplayType": "repudiandae",
+      "DisplayName": "Hauck Group",
+      "DisplayTooltip": "ea",
+      "DisplayType": "sed",
       "CanOrderBy": false,
-      "Name": "Ortiz LLC",
+      "Name": "Stiedemann, Ritchie and Bahringer",
       "CanRestrictBy": false,
-      "RestrictionType": "debitis",
-      "RestrictionListName": "Dare, Maggio and Johns",
-      "IsVisible": false,
-      "ExtraInfo": "laborum",
-      "Width": "facere",
-      "IconHint": "corrupti",
-      "HeadingIconHint": "labore"
+      "RestrictionType": "beatae",
+      "RestrictionListName": "Koch, Hoppe and Ziemann",
+      "IsVisible": true,
+      "ExtraInfo": "hic",
+      "Width": "commodi",
+      "IconHint": "voluptatum",
+      "HeadingIconHint": "esse"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bartoletti, Huels and Kunze",
-      "PrimaryKey": 846,
+      "EntityName": "DuBuque LLC",
+      "PrimaryKey": 490,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "quibusdam",
-          "LinkHint": "adipisci"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "et",
+          "LinkHint": "molestiae"
         }
       },
-      "LinkHint": "maiores",
-      "StyleHint": "corporis",
+      "LinkHint": "ratione",
+      "StyleHint": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldLength": 443
         }
       }
     }
   ],
-  "RowCount": 99,
+  "RowCount": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldLength": 229
     }
   }
 }

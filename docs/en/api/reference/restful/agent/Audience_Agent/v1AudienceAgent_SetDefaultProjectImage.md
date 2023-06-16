@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/SetDefaultProjectImage
 uid: v1AudienceAgent_SetDefaultProjectImage
+generated: true
 ---
 
 # POST Agents/Audience/SetDefaultProjectImage
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Sawayn, Bode and Rau",
+  "LayoutName": "Shields, Gottlieb and Steuber",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

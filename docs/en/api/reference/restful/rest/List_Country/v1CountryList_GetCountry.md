@@ -1,6 +1,7 @@
 ---
 title: GET List/Country/Items/{id}
 uid: v1CountryList_GetCountry
+generated: true
 ---
 
 # GET List/Country/Items/{id}
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 184,
-  "Name": "Williamson, Rempel and Homenick",
-  "CurrencyId": 313,
-  "EnglishName": "Luettgen, Durgan and Hagenes",
+  "CountryId": 545,
+  "Name": "Braun-Predovic",
+  "CurrencyId": 806,
+  "EnglishName": "Maggio-Will",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Enterprise-wide uniform superstructure",
-  "OrgNrText": "1777634",
-  "InterAreaPrefix": "quisquam",
-  "DialInPrefix": "asperiores",
-  "ZipPrefix": "nam",
-  "DomainName": "Von Group",
-  "AddressLayoutId": 898,
-  "DomesticAddressLayoutId": 446,
-  "ForeignAddressLayoutId": 225,
-  "Rank": 234,
-  "Tooltip": "quae",
+  "ImageDescription": "Upgradable transitional system engine",
+  "OrgNrText": "1495556",
+  "InterAreaPrefix": "provident",
+  "DialInPrefix": "optio",
+  "ZipPrefix": "nisi",
+  "DomainName": "Boyer-Wiza",
+  "AddressLayoutId": 166,
+  "DomesticAddressLayoutId": 410,
+  "ForeignAddressLayoutId": 894,
+  "Rank": 700,
+  "Tooltip": "harum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldType": "System.String",
+      "FieldLength": 975
     }
   }
 }

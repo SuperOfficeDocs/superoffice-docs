@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/GetThirdPartyLicenseAssignments
 uid: v1LicenseAgent_GetThirdPartyLicenseAssignments
+generated: true
 ---
 
 # POST Agents/License/GetThirdPartyLicenseAssignments
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 574,
-  "ModuleOwner": "et"
+  "AssociateId": 160,
+  "ModuleOwner": "quidem"
 }
 ```
 
@@ -103,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 636,
-    "Tooltip": "ullam",
-    "CanAssign": true,
-    "Free": 691,
-    "InUse": 234,
+    "Unrestricted": true,
+    "Total": 86,
+    "Tooltip": "animi",
+    "CanAssign": false,
+    "Free": 579,
+    "InUse": 696,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 516,
-    "Name": "Leffler-Streich",
-    "Description": "Public-key static database",
-    "PrerequisiteModuleName": "Ruecker-Kohler",
-    "SortOrder": 511,
-    "ExtraFlags": 457,
+    "ModuleLicenseId": 630,
+    "Name": "Bernhard Group",
+    "Description": "Cross-group heuristic complexity",
+    "PrerequisiteModuleName": "Satterfield Group",
+    "SortOrder": 366,
+    "ExtraFlags": 385,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 353
+        "FieldLength": 660
       }
     }
   }

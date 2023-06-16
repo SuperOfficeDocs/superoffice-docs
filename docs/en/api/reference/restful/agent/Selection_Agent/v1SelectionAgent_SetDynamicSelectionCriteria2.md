@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/SetDynamicSelectionCriteria2
 uid: v1SelectionAgent_SetDynamicSelectionCriteria2
+generated: true
 ---
 
 # POST Agents/Selection/SetDynamicSelectionCriteria2
@@ -86,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 813,
-  "Filter": "voluptatem"
+  "SelectionId": 580,
+  "Filter": "similique"
 }
 ```
 
@@ -99,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marvin, Reilly and Predovic",
-    "Operator": "fugiat",
+    "Name": "Buckridge Inc and Sons",
+    "Operator": "magnam",
     "Values": [
-      "enim",
-      "consequatur"
+      "ipsum",
+      "itaque"
     ],
     "DisplayValues": [
-      "provident",
-      "repellendus"
+      "rem",
+      "incidunt"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Beatty-Schoen",
-        "Operator": "fuga",
+        "Name": "Simonis, Little and Flatley",
+        "Operator": "repudiandae",
         "Values": [
-          "voluptates",
-          "sed"
+          "soluta",
+          "placeat"
         ],
         "DisplayValues": [
-          "repudiandae",
-          "facere"
+          "et",
+          "id"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -129,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 315,
+        "InterParenthesis": 786,
         "InterOperator": "And",
-        "UniqueHash": 248
+        "UniqueHash": 866
       }
     ],
-    "InterParenthesis": 564,
+    "InterParenthesis": 277,
     "InterOperator": "And",
-    "UniqueHash": 871
+    "UniqueHash": 653
   }
 ]
 ```

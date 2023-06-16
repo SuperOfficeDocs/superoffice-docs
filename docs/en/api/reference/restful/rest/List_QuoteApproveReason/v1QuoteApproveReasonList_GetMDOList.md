@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteApproveReason/MDOItems
 uid: v1QuoteApproveReasonList_GetMDOList
+generated: true
 ---
 
 # GET List/QuoteApproveReason/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=et
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=recusandae
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 572,
-    "Name": "Pfannerstill-Herzog",
-    "ToolTip": "Et quibusdam.",
-    "Deleted": true,
-    "Rank": 399,
-    "Type": "sed",
+    "Id": 858,
+    "Name": "Heathcote LLC",
+    "ToolTip": "Hic illum alias consequatur molestiae.",
+    "Deleted": false,
+    "Rank": 624,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Dietrich LLC",
-        "ToolTip": "Aspernatur aut aut ea cum fugiat dolorum.",
+        "Id": 852,
+        "Name": "Schaden Inc and Sons",
+        "ToolTip": "Ut quaerat odit enim molestias.",
         "Deleted": true,
-        "Rank": 249,
-        "Type": "sed",
+        "Rank": 903,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "itaque",
-        "ColorBlock": 332,
-        "ExtraInfo": "laudantium",
-        "StyleHint": "harum",
-        "FullName": "Maryse Jakubowski",
+        "IconHint": "assumenda",
+        "ColorBlock": 864,
+        "ExtraInfo": "ullam",
+        "StyleHint": "unde",
+        "FullName": "Destany Metz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 835
+            "FieldType": "System.Int32",
+            "FieldLength": 787
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 906,
-    "ExtraInfo": "nisi",
-    "StyleHint": "doloremque",
-    "FullName": "Marianna Murphy",
+    "IconHint": "qui",
+    "ColorBlock": 762,
+    "ExtraInfo": "qui",
+    "StyleHint": "cupiditate",
+    "FullName": "Carlie Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 610
+        "FieldLength": 903
       }
     }
   }

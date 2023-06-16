@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/DeleteShipmentMessageBlockEntity
 uid: v1MarketingAgent_DeleteShipmentMessageBlockEntity
+generated: true
 ---
 
 # POST Agents/Marketing/DeleteShipmentMessageBlockEntity
@@ -24,7 +25,7 @@ Deletes the ShipmentMessageBlockEntity
 | ShipmentMessageBlockEntityId | int32 | **Required** The id of the ShipmentMessageBlockEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity?ShipmentMessageBlockEntityId=19
+POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity?ShipmentMessageBlockEntityId=883
 ```
 
 
@@ -55,7 +56,7 @@ No Content
 POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

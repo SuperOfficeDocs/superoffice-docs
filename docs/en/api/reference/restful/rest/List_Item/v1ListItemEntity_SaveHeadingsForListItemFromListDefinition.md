@@ -1,6 +1,7 @@
 ---
 title: PUT List/{id}/Items/{id}/Headings
 uid: v1ListItemEntity_SaveHeadingsForListItemFromListDefinition
+generated: true
 ---
 
 # PUT List/{id}/Items/{id}/Headings
@@ -95,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Rice, Aufderhar and Weissnat",
-    "ToolTip": "Cum consequatur earum accusantium eius debitis ut modi.",
-    "Deleted": false,
-    "Rank": 486,
-    "Type": "officia",
-    "ColorBlock": 957,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2022-01-04T03:51:34.3490406+01:00",
+    "Id": 965,
+    "Name": "Roberts-Murazik",
+    "ToolTip": "Distinctio esse.",
+    "Deleted": true,
+    "Rank": 179,
+    "Type": "suscipit",
+    "ColorBlock": 446,
+    "IconHint": "esse",
+    "Selected": false,
+    "LastChanged": "2011-03-25T16:00:48.8364781+01:00",
     "ChildItems": [
       {
-        "Id": 395,
-        "Name": "Zieme-Yost",
-        "ToolTip": "Officia assumenda dolorem commodi minus.",
-        "Deleted": false,
-        "Rank": 436,
-        "Type": "consequatur",
-        "ColorBlock": 321,
-        "IconHint": "voluptas",
+        "Id": 926,
+        "Name": "Turcotte, Walker and Armstrong",
+        "ToolTip": "Sunt illum culpa.",
+        "Deleted": true,
+        "Rank": 809,
+        "Type": "ipsa",
+        "ColorBlock": 924,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2023-03-24T03:51:34.3490406+01:00",
+        "LastChanged": "2009-12-28T16:00:48.8364781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Mariana Brekke"
+        "ExtraInfo": "temporibus",
+        "StyleHint": "dignissimos",
+        "Hidden": false,
+        "FullName": "Charlotte Gulgowski"
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Cecelia Mitchell"
+    "ExtraInfo": "iure",
+    "StyleHint": "tenetur",
+    "Hidden": true,
+    "FullName": "Ms. Kristopher Florian Sauer DVM"
   }
 ]
 ```
@@ -148,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 111,
-    "Name": "Johnston LLC",
-    "ToolTip": "Illum delectus possimus ea adipisci molestiae distinctio aut.",
+    "Id": 40,
+    "Name": "Dickinson, Williamson and Bins",
+    "ToolTip": "Autem consequatur nobis et.",
     "Deleted": true,
-    "Rank": 685,
-    "Type": "qui",
-    "ColorBlock": 285,
-    "IconHint": "quo",
+    "Rank": 757,
+    "Type": "pariatur",
+    "ColorBlock": 449,
+    "IconHint": "facere",
     "Selected": true,
-    "LastChanged": "2004-08-14T03:51:34.3646689+02:00",
+    "LastChanged": "2011-11-10T16:00:48.8364781+01:00",
     "ChildItems": [
       {
-        "Id": 105,
-        "Name": "Friesen-Goyette",
-        "ToolTip": "Esse architecto sint sed et sunt.",
+        "Id": 886,
+        "Name": "Medhurst, Koch and Mraz",
+        "ToolTip": "Aut fuga voluptas.",
         "Deleted": false,
-        "Rank": 981,
-        "Type": "corporis",
-        "ColorBlock": 224,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2010-07-24T03:51:34.3646689+02:00",
+        "Rank": 116,
+        "Type": "eaque",
+        "ColorBlock": 811,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2020-11-14T16:00:48.8364781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "numquam",
-        "Hidden": true,
-        "FullName": "Ms. Keshaun O'Conner V",
+        "ExtraInfo": "provident",
+        "StyleHint": "illum",
+        "Hidden": false,
+        "FullName": "Judah Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 316
+            "FieldType": "System.Int32",
+            "FieldLength": 241
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "in",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Ms. Mossie Turner",
+    "FullName": "Oma Koss",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 705
+        "FieldType": "System.Int32",
+        "FieldLength": 131
       }
     }
   }

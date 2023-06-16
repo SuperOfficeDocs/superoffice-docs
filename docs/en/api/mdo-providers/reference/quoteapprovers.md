@@ -1,17 +1,11 @@
 ---
 uid: quoteapprovers
 title: quoteapprovers
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "quoteapprovers"
+keywords: mdoprovider mdo provider quoteapprovers
+description: Retrieve the list of all users that can approve quotes
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "quoteapprovers" MDO List

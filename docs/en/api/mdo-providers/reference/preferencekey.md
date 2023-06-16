@@ -1,17 +1,11 @@
 ---
 uid: preferencekey
 title: preferencekey
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "preferencekey"
+keywords: mdoprovider mdo provider preferencekey
+description: MDO Provider that retrieves a list of preference keys corresponding to a given section
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "preferencekey" MDO List

@@ -1,6 +1,7 @@
 ---
 title: GET Pricelist/default
 uid: v1PriceList_DefaultPriceList
+generated: true
 ---
 
 # GET Pricelist/default
@@ -65,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 728,
-  "ERPPriceListKey": "unde",
-  "QuoteConnectionId": 621,
-  "Name": "Gerhold-Hammes",
-  "Description": "Face to face system-worthy local area network",
-  "Currency": "omnis",
-  "CurrencyName": "Quigley Inc and Sons",
-  "ValidFrom": "2001-06-07T03:51:34.7708309+02:00",
-  "ValidTo": "2022-01-19T03:51:34.7708309+01:00",
-  "IsActive": true,
+  "PriceListId": 582,
+  "ERPPriceListKey": "quibusdam",
+  "QuoteConnectionId": 479,
+  "Name": "Hammes LLC",
+  "Description": "Self-enabling client-driven help-desk",
+  "Currency": "sapiente",
+  "CurrencyName": "Bergnaum-Becker",
+  "ValidFrom": "2018-01-01T16:00:49.1177018+01:00",
+  "ValidTo": "2016-09-17T16:00:49.1177018+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldLength": 210
     }
   }
 }

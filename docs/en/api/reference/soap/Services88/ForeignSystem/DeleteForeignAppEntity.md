@@ -1,6 +1,6 @@
 ---
 title: Services88.ForeignSystemAgent.DeleteForeignAppEntity SOAP
-generated: 1
+generated: true
 uid: Services88-ForeignSystem-DeleteForeignAppEntity
 ---
 

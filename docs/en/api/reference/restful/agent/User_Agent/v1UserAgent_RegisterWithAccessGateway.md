@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/RegisterWithAccessGateway
 uid: v1UserAgent_RegisterWithAccessGateway
+generated: true
 ---
 
 # POST Agents/User/RegisterWithAccessGateway
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/User/RegisterWithAccessGateway
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "qui"
+  "RedirectUri": "nostrum"
 }
 ```
 
@@ -90,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "autem",
-  "RedirectUri": "at",
+  "ClientId": "saepe",
+  "RedirectUri": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 559
+      "FieldLength": 816
     }
   }
 }

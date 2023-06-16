@@ -1,6 +1,7 @@
 ---
 title: PUT List/DocumentTemplate
 uid: v1DocumentTemplateList_SetListDefinition
+generated: true
 ---
 
 # PUT List/DocumentTemplate
@@ -87,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 819,
-  "Name": "Ruecker, Rippin and Stark",
-  "Tooltip": "quibusdam",
+  "Id": 37,
+  "Name": "Kreiger LLC",
+  "Tooltip": "nihil",
   "Deleted": true,
-  "Rank": 430,
+  "Rank": 205,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "minima",
+  "ListType": "deleniti",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 993,
-  "Name": "Bosco-Koelpin",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 775,
+  "Id": 700,
+  "Name": "Greenfelder, Veum and O'Hara",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 341,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aliquam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ducimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldType": "System.String",
+      "FieldLength": 483
     }
   }
 }

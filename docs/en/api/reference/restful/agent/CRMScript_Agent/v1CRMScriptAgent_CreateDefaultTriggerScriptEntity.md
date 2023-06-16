@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/CreateDefaultTriggerScriptEntity
 uid: v1CRMScriptAgent_CreateDefaultTriggerScriptEntity
+generated: true
 ---
 
 # POST Agents/CRMScript/CreateDefaultTriggerScriptEntity
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 406,
-  "Name": "Brekke-Bogan",
+  "ScreenChooserId": 668,
+  "Name": "Mueller, Schinner and Anderson",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "pariatur",
-  "Source": "nesciunt",
-  "Registered": "2003-07-11T03:51:26.9436626+02:00",
-  "RegisteredAssociateId": 59,
-  "Updated": "2019-03-17T03:51:26.9436626+01:00",
-  "UpdatedAssociateId": 765,
+  "Enabled": false,
+  "UniqueIdentifier": "occaecati",
+  "Source": "voluptatem",
+  "Registered": "2002-03-22T16:00:40.4925031+01:00",
+  "RegisteredAssociateId": 111,
+  "Updated": "2006-07-20T16:00:40.4925031+02:00",
+  "UpdatedAssociateId": 264,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldLength": 261
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetOwnerOnPersonId
 uid: v1PersonAgent_GetOwnerOnPersonId
+generated: true
 ---
 
 # POST Agents/Person/GetOwnerOnPersonId
@@ -111,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetOwnerOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 959
+  "PersonId": 503
 }
 ```
 
@@ -126,52 +127,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "repellat",
-  "PersonId": 493,
-  "Mrmrs": "voluptate",
-  "Firstname": "Keely",
-  "Lastname": "Marquardt",
-  "MiddleName": "Lang, Hickle and Bode",
-  "Title": "hic",
-  "Description": "Polarised high-level focus group",
-  "Email": "catherine@effertz.us",
-  "FullName": "Ms. Bridget Dejuan Daniel DDS",
-  "DirectPhone": "(986)288-3601",
-  "FormalName": "Rogahn-Sanford",
-  "CountryId": 151,
-  "ContactId": 115,
-  "ContactName": "Stehr-Hayes",
-  "Retired": 7,
-  "Rank": 714,
-  "ActiveInterests": 845,
+  "Position": "aut",
+  "PersonId": 667,
+  "Mrmrs": "dolorum",
+  "Firstname": "Shaina",
+  "Lastname": "Moen",
+  "MiddleName": "Bernhard, Kemmer and Hills",
+  "Title": "officiis",
+  "Description": "Re-engineered impactful alliance",
+  "Email": "willard@schamberger.com",
+  "FullName": "Oda Streich",
+  "DirectPhone": "(837)575-7045 x7912",
+  "FormalName": "Kertzmann-Kshlerin",
+  "CountryId": 977,
+  "ContactId": 912,
+  "ContactName": "Heller, Bashirian and Klocko",
+  "Retired": 509,
+  "Rank": 740,
+  "ActiveInterests": 956,
   "ContactDepartment": "",
-  "ContactCountryId": 250,
-  "ContactOrgNr": "1611736",
-  "FaxPhone": "913.822.2489 x6184",
-  "MobilePhone": "1-195-567-2492",
-  "ContactPhone": "352.124.7714 x651",
-  "AssociateName": "Konopelski, Lebsack and Doyle",
-  "AssociateId": 392,
+  "ContactCountryId": 472,
+  "ContactOrgNr": "1195673",
+  "FaxPhone": "1-362-642-6710",
+  "MobilePhone": "(741)501-5365",
+  "ContactPhone": "1-465-778-9693 x7203",
+  "AssociateName": "McCullough, Kozey and Glover",
+  "AssociateId": 709,
   "UsePersonAddress": false,
-  "ContactFax": "cumque",
-  "Kanafname": "ut",
-  "Kanalname": "dolores",
-  "Post1": "autem",
-  "Post2": "saepe",
-  "Post3": "et",
-  "EmailName": "bianka.hackett@marks.us",
-  "ContactFullName": "Octavia Hodkiewicz",
-  "ActiveErpLinks": 437,
-  "TicketPriorityId": 203,
-  "SupportLanguageId": 570,
-  "SupportAssociateId": 52,
+  "ContactFax": "repellendus",
+  "Kanafname": "aut",
+  "Kanalname": "omnis",
+  "Post1": "asperiores",
+  "Post2": "sed",
+  "Post3": "id",
+  "EmailName": "henry_harris@rutherford.name",
+  "ContactFullName": "Marlen Wintheiser",
+  "ActiveErpLinks": 706,
+  "TicketPriorityId": 906,
+  "SupportLanguageId": 59,
+  "SupportAssociateId": 677,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldType": "System.String",
+      "FieldLength": 988
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/UpdateHierarchyFromPath
 uid: v1ListAgent_UpdateHierarchyFromPath
+generated: true
 ---
 
 # POST Agents/List/UpdateHierarchyFromPath
@@ -88,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "est",
+  "Path": "ipsum",
   "Entity": null
 }
 ```
@@ -100,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 809,
+  "HierarchyId": 147,
   "Domain": "Dashboards",
-  "Name": "Cruickshank, Trantow and Robel",
-  "Fullname": "laborum",
-  "ParentId": 12,
+  "Name": "Schamberger, Fay and Bins",
+  "Fullname": "quod",
+  "ParentId": 614,
   "Children": [
     {
-      "HierarchyId": 508,
+      "HierarchyId": 99,
       "Domain": "Dashboards",
-      "Name": "Rath, Bernhard and Bashirian",
-      "Fullname": "magni",
-      "ParentId": 788,
+      "Name": "Wisozk LLC",
+      "Fullname": "voluptatem",
+      "ParentId": 290,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-02-20T03:51:27.4747952+01:00",
-      "RegisteredAssociateId": 962,
-      "Updated": "2003-07-18T03:51:27.4747952+02:00",
-      "UpdatedAssociateId": 53,
+      "Registered": "2010-02-17T16:00:41.2112045+01:00",
+      "RegisteredAssociateId": 127,
+      "Updated": "2001-10-28T16:00:41.2112045+01:00",
+      "UpdatedAssociateId": 788,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 377
+          "FieldLength": 770
         }
       }
     }
   ],
-  "Registered": "2003-04-25T03:51:27.4747952+02:00",
-  "RegisteredAssociateId": 957,
-  "Updated": "2003-05-13T03:51:27.4747952+02:00",
-  "UpdatedAssociateId": 689,
+  "Registered": "2015-04-29T16:00:41.2112045+02:00",
+  "RegisteredAssociateId": 734,
+  "Updated": "2008-01-10T16:00:41.2112045+01:00",
+  "UpdatedAssociateId": 53,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 797
     }
   }
 }

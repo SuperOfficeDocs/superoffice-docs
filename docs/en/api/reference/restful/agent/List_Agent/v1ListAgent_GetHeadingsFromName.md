@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetHeadingsFromName
 uid: v1ListAgent_GetHeadingsFromName
+generated: true
 ---
 
 # POST Agents/List/GetHeadingsFromName
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Sauer-Ritchie"
+  "Name": "Harber, Conn and Dickinson"
 }
 ```
 
@@ -93,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 224,
-    "Name": "Veum, Kshlerin and Ondricka",
-    "Tooltip": "nemo",
-    "Deleted": false,
-    "Rank": 604,
-    "UdListDefinitionId": 116,
+    "HeadingId": 954,
+    "Name": "McGlynn-Kuvalis",
+    "Tooltip": "soluta",
+    "Deleted": true,
+    "Rank": 615,
+    "UdListDefinitionId": 975,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldLength": 184
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuoteLineImage
 uid: v1QuoteAgent_GetQuoteLineImage
+generated: true
 ---
 
 # POST Agents/Quote/GetQuoteLineImage
@@ -68,12 +69,12 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 553,
-  "Rank": 617
+  "QuoteLineId": 653,
+  "Rank": 551
 }
 ```
 

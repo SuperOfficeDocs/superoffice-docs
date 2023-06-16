@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/GetAvailableRestrictionColumns
 uid: v1FindAgent_GetAvailableRestrictionColumns
+generated: true
 ---
 
 # POST Agents/Find/GetAvailableRestrictionColumns
@@ -74,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Jakubowski-Koch"
+  "StorageType": "quisquam",
+  "ProviderName": "Reilly-Stroman"
 }
 ```
 
@@ -86,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "nihil",
-  "non"
+  "pariatur",
+  "libero"
 ]
 ```

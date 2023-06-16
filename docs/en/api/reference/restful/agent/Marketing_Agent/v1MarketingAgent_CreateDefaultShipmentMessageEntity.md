@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/CreateDefaultShipmentMessageEntity
 uid: v1MarketingAgent_CreateDefaultShipmentMessageEntity
+generated: true
 ---
 
 # POST Agents/Marketing/CreateDefaultShipmentMessageEntity
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 723,
-  "PlainMessage": "enim",
-  "HtmlMessage": "sunt",
-  "SmsMessage": "et",
-  "Description": "Exclusive system-worthy software",
-  "Subject": "consequatur",
-  "FolderId": 256,
-  "HeaderField": "qui",
-  "Design": "ipsum",
+  "ShipmentMessageId": 579,
+  "PlainMessage": "molestiae",
+  "HtmlMessage": "eos",
+  "SmsMessage": "vel",
+  "Description": "Integrated tangible task-force",
+  "Subject": "fuga",
+  "FolderId": 319,
+  "HeaderField": "nemo",
+  "Design": "deleniti",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Synergistic fault-tolerant utilisation",
-  "AccessKey": "dolores",
-  "DocumentMessage": 573,
-  "Registered": "2000-05-20T03:51:27.5060342+02:00",
-  "RegisteredAssociateId": 958,
-  "Updated": "2022-11-23T03:51:27.5060342+01:00",
-  "UpdatedAssociateId": 487,
-  "UpdatedCount": 678,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Enterprise-wide user-facing task-force",
+  "AccessKey": "dolor",
+  "DocumentMessage": 332,
+  "Registered": "2011-07-14T16:00:41.2580675+02:00",
+  "RegisteredAssociateId": 367,
+  "Updated": "2021-03-09T16:00:41.2580675+01:00",
+  "UpdatedAssociateId": 749,
+  "UpdatedCount": 238,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldLength": 473
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET Product/default
 uid: v1Product_DefaultProduct
+generated: true
 ---
 
 # GET Product/default
@@ -89,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 904,
-  "ERPProductKey": "vitae",
-  "ERPPriceListKey": "ea",
-  "Name": "Block Inc and Sons",
-  "Description": "Down-sized solution-oriented task-force",
-  "Code": "natus",
-  "PriceUnit": "nisi",
-  "QuantityUnit": "aut",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ea",
-  "DefaultSubscriptionQuantity": 1695.494,
-  "ItemNumber": "774484",
+  "ProductId": 344,
+  "ERPProductKey": "nulla",
+  "ERPPriceListKey": "quibusdam",
+  "Name": "Wehner-Smitham",
+  "Description": "Triple-buffered object-oriented superstructure",
+  "Code": "qui",
+  "PriceUnit": "nihil",
+  "QuantityUnit": "quis",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quisquam",
+  "DefaultSubscriptionQuantity": 10210.572,
+  "ItemNumber": "685507",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolor",
-  "ProductTypeKey": "labore",
-  "VAT": 12172.456,
-  "VATInfo": "voluptas",
-  "UnitCost": 10498.9,
-  "UnitMinimumPrice": 19217.688,
-  "UnitListPrice": 8884.89,
-  "InAssortment": true,
-  "Supplier": "perspiciatis",
-  "SupplierCode": "autem",
-  "Rights": "nam",
-  "Rule": "id",
+  "ProductFamilyKey": "distinctio",
+  "ProductTypeKey": "eos",
+  "VAT": 9057.26,
+  "VATInfo": "asperiores",
+  "UnitCost": 354.142,
+  "UnitMinimumPrice": 30337.12,
+  "UnitListPrice": 8348.976,
+  "InAssortment": false,
+  "Supplier": "expedita",
+  "SupplierCode": "quam",
+  "Rights": "soluta",
+  "Rule": "amet",
   "ExtraInfo": [
     {
-      "Name": "Deckow Group",
-      "Value": "consequatur",
+      "Name": "Hilll Group",
+      "Value": "quidem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldType": "System.String",
+          "FieldLength": 834
         }
       }
     },
     {
-      "Name": "Deckow Group",
-      "Value": "consequatur",
+      "Name": "Hilll Group",
+      "Value": "quidem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldType": "System.String",
+          "FieldLength": 834
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "ut",
-  "ExtraField2": "quaerat",
-  "ExtraField3": "nam",
-  "ExtraField4": "repudiandae",
-  "ExtraField5": "quidem",
-  "InStock": 7625.022,
+  "RawExtraInfo": "ea",
+  "ExtraField1": "nostrum",
+  "ExtraField2": "magnam",
+  "ExtraField3": "aut",
+  "ExtraField4": "quidem",
+  "ExtraField5": "corrupti",
+  "InStock": 30656.788,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 168
+      "FieldType": "System.Int32",
+      "FieldLength": 1002
     }
   }
 }

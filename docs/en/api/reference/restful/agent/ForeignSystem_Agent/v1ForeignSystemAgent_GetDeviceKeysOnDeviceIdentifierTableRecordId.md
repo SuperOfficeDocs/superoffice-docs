@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 uid: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTableRecordId
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
@@ -83,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wisozk-Hodkiewicz",
-  "DeviceName": "Ledner, Walsh and Braun",
-  "DeviceIdentifier": "et",
-  "TableName": "Kiehn Group",
-  "RecordId": 258
+  "ApplicationName": "Hickle-Hessel",
+  "DeviceName": "Brakus LLC",
+  "DeviceIdentifier": "numquam",
+  "TableName": "Thompson LLC",
+  "RecordId": 245
 }
 ```
 
@@ -103,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "distinctio",
-    "Value": "aliquam",
-    "RecordId": 244,
-    "CreatedDate": "2023-02-21T03:51:27.3498217+01:00",
-    "UpdatedDate": "2001-08-10T03:51:27.3498217+02:00",
-    "UpdatedBy": "accusamus",
-    "CreatedBy": "exercitationem",
-    "TableName": "Hyatt LLC",
+    "Key": "et",
+    "Value": "veniam",
+    "RecordId": 98,
+    "CreatedDate": "2012-10-30T16:00:41.0705907+01:00",
+    "UpdatedDate": "2015-06-20T16:00:41.0705907+02:00",
+    "UpdatedBy": "quae",
+    "CreatedBy": "et",
+    "TableName": "Luettgen, Lindgren and O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 381
+        "FieldType": "System.Int32",
+        "FieldLength": 319
       }
     }
   }

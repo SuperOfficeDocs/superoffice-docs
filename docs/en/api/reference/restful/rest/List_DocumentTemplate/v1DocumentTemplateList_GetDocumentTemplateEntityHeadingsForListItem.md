@@ -1,6 +1,7 @@
 ---
 title: GET List/DocumentTemplate/Items/{id}/Headings
 uid: v1DocumentTemplateList_GetDocumentTemplateEntityHeadingsForListItem
+generated: true
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Ledner-Bechtelar",
-    "ToolTip": "Aut laboriosam minima aut repudiandae unde consequatur debitis.",
-    "Deleted": true,
-    "Rank": 258,
-    "Type": "provident",
-    "ColorBlock": 292,
-    "IconHint": "sequi",
+    "Id": 929,
+    "Name": "Stamm LLC",
+    "ToolTip": "Molestiae tempore asperiores natus minus architecto necessitatibus velit.",
+    "Deleted": false,
+    "Rank": 249,
+    "Type": "saepe",
+    "ColorBlock": 65,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2018-12-28T03:51:34.692727+01:00",
+    "LastChanged": "2013-10-12T16:00:49.0395847+02:00",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Jacobson, Dickinson and Gutkowski",
-        "ToolTip": "Repellendus odit expedita et.",
+        "Id": 1002,
+        "Name": "Nienow LLC",
+        "ToolTip": "Quo et.",
         "Deleted": false,
-        "Rank": 260,
-        "Type": "ducimus",
-        "ColorBlock": 455,
-        "IconHint": "beatae",
-        "Selected": true,
-        "LastChanged": "2002-11-11T03:51:34.692727+01:00",
+        "Rank": 511,
+        "Type": "ab",
+        "ColorBlock": 656,
+        "IconHint": "nesciunt",
+        "Selected": false,
+        "LastChanged": "2022-01-02T16:00:49.0395847+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "beatae",
-        "Hidden": false,
-        "FullName": "Morgan Ankunding DDS",
+        "ExtraInfo": "culpa",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Prof. Nolan Aida Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 627
+            "FieldLength": 298
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "fugit",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Mrs. Lois Henriette Stark MD",
+    "FullName": "Frieda Fahey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldLength": 123
       }
     }
   }

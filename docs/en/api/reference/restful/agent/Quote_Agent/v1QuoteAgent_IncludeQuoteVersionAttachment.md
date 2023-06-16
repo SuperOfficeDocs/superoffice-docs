@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/IncludeQuoteVersionAttachment
 uid: v1QuoteAgent_IncludeQuoteVersionAttachment
+generated: true
 ---
 
 # POST Agents/Quote/IncludeQuoteVersionAttachment
@@ -73,9 +74,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 197,
-  "DocumentId": 186,
-  "Include": true
+  "QuoteVersionId": 825,
+  "DocumentId": 844,
+  "Include": false
 }
 ```
 

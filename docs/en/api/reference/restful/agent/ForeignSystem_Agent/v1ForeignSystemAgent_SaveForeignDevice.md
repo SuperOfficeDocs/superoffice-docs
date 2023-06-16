@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/SaveForeignDevice
 uid: v1ForeignSystemAgent_SaveForeignDevice
+generated: true
 ---
 
 # POST Agents/ForeignSystem/SaveForeignDevice
@@ -81,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Crist Group"
+  "ApplicationName": "Kuvalis, Ondricka and Quigley"
 }
 ```
 
@@ -97,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 536,
-  "Name": "Schulist-Deckow",
-  "CreatedDate": "1998-08-04T03:51:27.3498217+02:00",
-  "UpdatedDate": "1996-11-24T03:51:27.3498217+01:00",
-  "AssociateFullName": "Prof. Mireya Feest",
-  "CreatedBy": "earum",
-  "UpdatedBy": "ab",
-  "DeviceIdentifier": "nulla",
-  "ForeignAppId": 356,
+  "ForeignDeviceId": 266,
+  "Name": "Lesch Inc and Sons",
+  "CreatedDate": "2003-02-03T16:00:41.0705907+01:00",
+  "UpdatedDate": "2022-03-05T16:00:41.0705907+01:00",
+  "AssociateFullName": "Remington Nitzsche",
+  "CreatedBy": "velit",
+  "UpdatedBy": "voluptas",
+  "DeviceIdentifier": "consequuntur",
+  "ForeignAppId": 261,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 726
     }
   }
 }

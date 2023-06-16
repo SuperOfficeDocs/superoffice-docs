@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetErpFieldValues
 uid: v1ErpSyncAgent_GetErpFieldValues
+generated: true
 ---
 
 # POST Agents/ErpSync/GetErpFieldValues
@@ -72,16 +73,16 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpFieldValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 632,
+  "ErpConnectionId": 438,
   "CrmActorType": "Contact",
-  "EntityId": 416,
+  "EntityId": 462,
   "FieldKeys": [
-    "magnam",
-    "eum"
+    "ut",
+    "illo"
   ]
 }
 ```
@@ -93,7 +94,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "dicta",
-  "quos"
+  "similique",
+  "enim"
 ]
 ```

@@ -1,6 +1,7 @@
 ---
 title: PUT List/SelectionCategory/Headings
 uid: v1SelectionCategoryList_PutSelectionCategoryHeadings
+generated: true
 ---
 
 # PUT List/SelectionCategory/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 590,
-    "Name": "Flatley, Oberbrunner and Weissnat",
-    "Tooltip": "adipisci",
-    "Deleted": false,
-    "Rank": 589,
-    "UdListDefinitionId": 143
+    "HeadingId": 153,
+    "Name": "Conn, Thompson and Hagenes",
+    "Tooltip": "totam",
+    "Deleted": true,
+    "Rank": 137,
+    "UdListDefinitionId": 311
   },
   {
-    "HeadingId": 590,
-    "Name": "Flatley, Oberbrunner and Weissnat",
-    "Tooltip": "adipisci",
-    "Deleted": false,
-    "Rank": 589,
-    "UdListDefinitionId": 143
+    "HeadingId": 153,
+    "Name": "Conn, Thompson and Hagenes",
+    "Tooltip": "totam",
+    "Deleted": true,
+    "Rank": 137,
+    "UdListDefinitionId": 311
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 411,
-    "Name": "Jaskolski-Adams",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 522,
-    "UdListDefinitionId": 754,
+    "HeadingId": 813,
+    "Name": "Hauck, Kohler and Lebsack",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 247,
+    "UdListDefinitionId": 971,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldLength": 358
       }
     }
   }

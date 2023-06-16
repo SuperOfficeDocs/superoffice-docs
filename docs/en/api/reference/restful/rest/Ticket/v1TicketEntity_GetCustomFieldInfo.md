@@ -1,6 +1,7 @@
 ---
 title: GET Ticket/CustomField/{fieldName}
 uid: v1TicketEntity_GetCustomFieldInfo
+generated: true
 ---
 
 # GET Ticket/CustomField/{fieldName}
@@ -81,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Dietrich, Mohr and Cormier",
-  "DisplayName": "Breitenberg-Schroeder",
-  "Description": "Monitored zero administration adapter",
-  "ShortLabel": "itaque",
+  "FieldName": "Labadie-Heidenreich",
+  "DisplayName": "Reynolds, Larson and Thiel",
+  "Description": "Reactive heuristic service-desk",
+  "ShortLabel": "autem",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": true,
-  "Rank": 332,
-  "TemplateVariableName": "Hessel-Feil"
+  "IsExternal": false,
+  "Rank": 987,
+  "TemplateVariableName": "Gulgowski LLC"
 }
 ```

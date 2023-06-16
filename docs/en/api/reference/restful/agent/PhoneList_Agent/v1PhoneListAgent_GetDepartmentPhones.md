@@ -1,6 +1,7 @@
 ---
 title: POST Agents/PhoneList/GetDepartmentPhones
 uid: v1PhoneListAgent_GetDepartmentPhones
+generated: true
 ---
 
 # POST Agents/PhoneList/GetDepartmentPhones
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 319
+  "DepartmentId": 603
 }
 ```
 
@@ -99,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "308.755.6983",
-    "PersonCellPhone": "431.248.4852",
-    "PersonPrivatePhone": "525.688.8023",
-    "PersonFaxNumber": "932265",
-    "PersonPagerNumber": "877196",
-    "PersonEmail": "rosanna@muller.ca",
-    "Id": 733,
-    "Name": "Schroeder-Hansen",
-    "Tooltip": "nesciunt",
-    "UniqueId": "et",
+    "PersonDirectPhone": "968-787-3741",
+    "PersonCellPhone": "975.818.2383 x5964",
+    "PersonPrivatePhone": "1-352-713-3744 x801",
+    "PersonFaxNumber": "962066",
+    "PersonPagerNumber": "1631941",
+    "PersonEmail": "kamille@kling.us",
+    "Id": 235,
+    "Name": "Reilly LLC",
+    "Tooltip": "nam",
+    "UniqueId": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 838
       }
     }
   }

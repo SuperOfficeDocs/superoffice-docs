@@ -1,6 +1,6 @@
 ---
 title: Services88.SelectionAgent.GetParentCombinedSelections SOAP
-generated: 1
+generated: true
 uid: Services88-Selection-GetParentCombinedSelections
 ---
 

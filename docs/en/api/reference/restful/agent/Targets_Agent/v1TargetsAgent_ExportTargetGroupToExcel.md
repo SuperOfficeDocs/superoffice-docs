@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/ExportTargetGroupToExcel
 uid: v1TargetsAgent_ExportTargetGroupToExcel
+generated: true
 ---
 
 # POST Agents/Targets/ExportTargetGroupToExcel
@@ -74,11 +75,11 @@ OK
 POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 648
+  "TargetGroupId": 407
 }
 ```
 
@@ -89,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 387,
-  "FileName": "Kiehn, Bogan and Gibson",
-  "Message": "hic",
+  "BatchTaskId": 851,
+  "FileName": "Kling, Kutch and Schaden",
+  "Message": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 611
     }
   }
 }

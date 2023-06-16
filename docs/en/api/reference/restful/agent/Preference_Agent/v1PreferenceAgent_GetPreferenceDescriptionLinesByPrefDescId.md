@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 uid: v1PreferenceAgent_GetPreferenceDescriptionLinesByPrefDescId
+generated: true
 ---
 
 # POST Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 787
+  "PrefDescId": 452
 }
 ```
 
@@ -93,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 103,
-    "PrefDescId": 165,
-    "PrefValue": "doloremque",
-    "PrefShowValue": "quis",
-    "Description": "Organic homogeneous hierarchy",
-    "IsBuiltin": true,
+    "PrefDescLineId": 550,
+    "PrefDescId": 683,
+    "PrefValue": "possimus",
+    "PrefShowValue": "error",
+    "Description": "Assimilated intangible frame",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldLength": 820
       }
     }
   }

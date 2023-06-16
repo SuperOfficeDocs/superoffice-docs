@@ -1,6 +1,7 @@
 ---
 title: POST List/UserGroup/Headings
 uid: v1UserGroupList_PostUserGroupHeading
+generated: true
 ---
 
 # POST List/UserGroup/Headings
@@ -78,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 332,
-  "Name": "Littel Inc and Sons",
-  "Tooltip": "laboriosam",
+  "HeadingId": 624,
+  "Name": "Huels, Champlin and Cartwright",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 190,
-  "UdListDefinitionId": 360
+  "Rank": 733,
+  "UdListDefinitionId": 17
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 130,
-  "Name": "Bartell-Hoppe",
-  "Tooltip": "quas",
+  "HeadingId": 502,
+  "Name": "Greenholt-Heller",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 733,
-  "UdListDefinitionId": 527,
+  "Rank": 651,
+  "UdListDefinitionId": 339,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 680
     }
   }
 }

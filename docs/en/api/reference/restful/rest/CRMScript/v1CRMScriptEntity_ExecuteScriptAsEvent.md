@@ -1,6 +1,7 @@
 ---
 title: POST CRMScript/{id}/ExecuteAsEvent
 uid: v1CRMScriptEntity_ExecuteScriptAsEvent
+generated: true
 ---
 
 # POST CRMScript/{id}/ExecuteAsEvent
@@ -87,28 +88,28 @@ OK
 POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "repudiandae",
-    "InputValues2": "repellendus"
+    "InputValues1": "ab",
+    "InputValues2": "est"
   },
   "BlockExecution": false,
-  "NavigateTo": "expedita",
-  "Message": "culpa",
-  "ShowDialog": "quis",
+  "NavigateTo": "ut",
+  "Message": "consequuntur",
+  "ShowDialog": "voluptates",
   "OutputValues": {
-    "OutputValues1": "aliquid",
-    "OutputValues2": "corporis"
+    "OutputValues1": "laboriosam",
+    "OutputValues2": "debitis"
   },
   "StateValues": {
-    "StateValues1": "quia",
-    "StateValues2": "iusto"
+    "StateValues1": "officia",
+    "StateValues2": "sint"
   },
-  "Exception": "provident"
+  "Exception": "et"
 }
 ```
 
@@ -121,28 +122,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "expedita",
-    "InputValues2": "sint"
+    "InputValues1": "dolorem",
+    "InputValues2": "exercitationem"
   },
-  "BlockExecution": false,
-  "NavigateTo": "velit",
+  "BlockExecution": true,
+  "NavigateTo": "est",
   "Message": "omnis",
-  "ShowDialog": "odit",
+  "ShowDialog": "quidem",
   "OutputValues": {
-    "OutputValues1": "dicta",
-    "OutputValues2": "dolor"
+    "OutputValues1": "corporis",
+    "OutputValues2": "aspernatur"
   },
   "StateValues": {
-    "StateValues1": "dolores",
-    "StateValues2": "qui"
+    "StateValues1": "sit",
+    "StateValues2": "sed"
   },
-  "Exception": "illum",
+  "Exception": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 909
     }
   }
 }

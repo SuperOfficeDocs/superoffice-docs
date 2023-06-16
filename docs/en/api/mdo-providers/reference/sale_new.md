@@ -1,17 +1,20 @@
 ---
 uid: sale_new
 title: sale_new
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "sale_new"
+keywords: mdoprovider mdo provider sale_new
+description: List of sales.
+Searches sale + company names + person names.
+<para />
+Skips completed sales SkipCompletedSales userpref is set.
+<para />
+Skips sales without quotes if AdditionalInfo contains "hasQuoteOnline=1".
+<para />
+Skips sales without stakeholders if AdditionalInfo contains "stakeholderOnly=1".
+<para />
+Filter sales according to currency if AdditionalInfo contains "hasCurrency=(currency-id)"
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "sale_new" MDO List

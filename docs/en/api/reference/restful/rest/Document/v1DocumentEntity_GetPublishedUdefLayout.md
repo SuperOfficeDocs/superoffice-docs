@@ -1,6 +1,7 @@
 ---
 title: GET Document/UdefLayout/Published
 uid: v1DocumentEntity_GetPublishedUdefLayout
+generated: true
 ---
 
 # GET Document/UdefLayout/Published
@@ -87,7 +88,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 180,
-    "ColumnId": 28,
-    "FieldDefault": "rerum",
-    "FieldHeight": 802,
-    "FieldLabel": "consequatur",
-    "FieldLeft": 277,
-    "FieldTop": 609,
+    "UDefFieldId": 504,
+    "ColumnId": 393,
+    "FieldDefault": "rem",
+    "FieldHeight": 673,
+    "FieldLabel": "illum",
+    "FieldLeft": 641,
+    "FieldTop": 361,
     "FieldType": "Checkbox",
-    "FieldWidth": 445,
-    "FormatMask": "ut",
+    "FieldWidth": 716,
+    "FormatMask": "non",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 736,
-    "LabelLeft": 882,
-    "LabelTop": 168,
-    "LabelWidth": 622,
-    "LastVersionId": 273,
-    "ListTableId": 193,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 64,
+    "LabelLeft": 961,
+    "LabelTop": 220,
+    "LabelWidth": 401,
+    "LastVersionId": 973,
+    "ListTableId": 522,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 416,
-    "ProgId": "nihil",
+    "Page1LineNo": 790,
+    "ProgId": "unde",
     "IsReadOnly": false,
-    "ShortLabel": "esse",
-    "TabOrder": 188,
-    "TextLength": 594,
-    "Tooltip": "accusantium",
-    "UdefIdentity": 418,
-    "UDListDefinitionId": 99,
+    "ShortLabel": "laboriosam",
+    "TabOrder": 338,
+    "TextLength": 322,
+    "Tooltip": "laudantium",
+    "UdefIdentity": 983,
+    "UDListDefinitionId": 295,
     "Justification": "Center",
-    "Version": 172,
-    "TemplateVariableName": "Waelchi, Wuckert and Grimes",
+    "Version": 659,
+    "TemplateVariableName": "Cremin, Luettgen and Schulist",
     "HasBeenPublished": true,
-    "MdoListName": "Hudson, Erdman and Strosin",
+    "MdoListName": "Parker LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldType": "System.String",
+        "FieldLength": 286
       }
     }
   }

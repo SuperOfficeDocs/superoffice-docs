@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetSources
 uid: v1ListAgent_GetSources
+generated: true
 ---
 
 # POST Agents/List/GetSources
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 898,
-    "Value": "non",
-    "Tooltip": "quaerat",
+    "Id": 795,
+    "Value": "laboriosam",
+    "Tooltip": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldType": "System.String",
+        "FieldLength": 588
       }
     }
   },
   {
-    "Id": 898,
-    "Value": "non",
-    "Tooltip": "quaerat",
+    "Id": 795,
+    "Value": "laboriosam",
+    "Tooltip": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldType": "System.String",
+        "FieldLength": 588
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: PUT List/SelectionCategory/Items
 uid: v1SelectionCategoryList_PutAllSelectionCategory
+generated: true
 ---
 
 # PUT List/SelectionCategory/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Terry-Gorczany",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "UdListDefinitionId": 462,
-    "Rank": 603
+    "Id": 302,
+    "Name": "Lehner-Muller",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "UdListDefinitionId": 70,
+    "Rank": 671
   },
   {
-    "Id": 601,
-    "Name": "Terry-Gorczany",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "UdListDefinitionId": 462,
-    "Rank": 603
+    "Id": 302,
+    "Name": "Lehner-Muller",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "UdListDefinitionId": 70,
+    "Rank": 671
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 679,
-    "Name": "Vandervort-Runte",
-    "Tooltip": "blanditiis",
-    "Deleted": true,
-    "UdListDefinitionId": 693,
-    "Rank": 610,
+    "Id": 11,
+    "Name": "Hayes-Lynch",
+    "Tooltip": "hic",
+    "Deleted": false,
+    "UdListDefinitionId": 205,
+    "Rank": 511,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 841
+        "FieldType": "System.Int32",
+        "FieldLength": 268
       }
     }
   }

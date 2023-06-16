@@ -1,6 +1,7 @@
 ---
 title: GET List/SaleType/Items/{id}/UserGroups
 uid: v1SaleTypeList_GetSaleTypeEntityUserGroupsForListItem
+generated: true
 ---
 
 # GET List/SaleType/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Walter LLC",
-    "ToolTip": "Excepturi sint voluptas.",
+    "Id": 992,
+    "Name": "Rempel, Keebler and Kunde",
+    "ToolTip": "Laborum nemo labore corporis magnam at.",
     "Deleted": false,
-    "Rank": 851,
-    "Type": "id",
-    "ColorBlock": 12,
-    "IconHint": "pariatur",
-    "Selected": true,
-    "LastChanged": "2013-09-11T03:51:34.9582718+02:00",
+    "Rank": 552,
+    "Type": "earum",
+    "ColorBlock": 146,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2010-10-18T16:00:49.3208058+02:00",
     "ChildItems": [
       {
-        "Id": 231,
-        "Name": "Bergnaum Inc and Sons",
-        "ToolTip": "Nesciunt eum libero omnis cupiditate.",
-        "Deleted": true,
-        "Rank": 861,
-        "Type": "fugiat",
-        "ColorBlock": 472,
-        "IconHint": "et",
+        "Id": 771,
+        "Name": "Ankunding, Rath and Kozey",
+        "ToolTip": "Error eos optio.",
+        "Deleted": false,
+        "Rank": 4,
+        "Type": "tenetur",
+        "ColorBlock": 80,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2002-01-15T03:51:34.9582718+01:00",
+        "LastChanged": "2022-04-04T16:00:49.3208058+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "beatae",
+        "ExtraInfo": "hic",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Ms. Janelle Alyson Rau",
+        "FullName": "Natasha Torp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 630
+            "FieldLength": 744
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Garrett Marina Hahn MD",
+    "ExtraInfo": "eaque",
+    "StyleHint": "aliquam",
+    "Hidden": true,
+    "FullName": "Sydnee Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 334
+        "FieldLength": 764
       }
     }
   }

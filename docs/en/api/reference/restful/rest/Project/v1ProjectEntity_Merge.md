@@ -1,6 +1,7 @@
 ---
 title: POST Project/{id}/MergeTo/{id}
 uid: v1ProjectEntity_Merge
+generated: true
 ---
 
 # POST Project/{id}/MergeTo/{id}
@@ -60,7 +61,7 @@ No Content
 POST /api/v1/Project/{sourceProjectId}/MergeTo/{destinationProjectId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

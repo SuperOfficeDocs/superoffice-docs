@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 uid: v1FindAgent_GetDefaultDesiredColumnsFromRestrictions2
+generated: true
 ---
 
 # POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
@@ -172,8 +173,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wunsch, Gorczany and Hoppe",
-  "Restrictions": "ad"
+  "ProviderName": "Kohler-Prosacco",
+  "Restrictions": "vel"
 }
 ```
 
@@ -185,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bogan-Metz",
-    "DisplayTooltip": "aut",
-    "DisplayType": "et",
-    "CanOrderBy": false,
-    "Name": "Gislason-Kohler",
-    "CanRestrictBy": true,
-    "RestrictionType": "pariatur",
-    "RestrictionListName": "Crist, Baumbach and O'Connell",
+    "DisplayName": "Kemmer, Ward and Feeney",
+    "DisplayTooltip": "vel",
+    "DisplayType": "quia",
+    "CanOrderBy": true,
+    "Name": "Gerhold, Krajcik and Upton",
+    "CanRestrictBy": false,
+    "RestrictionType": "reprehenderit",
+    "RestrictionListName": "Rosenbaum, Marvin and Greenholt",
     "IsVisible": false,
-    "ExtraInfo": "voluptas",
-    "Width": "aliquid",
-    "IconHint": "explicabo",
-    "HeadingIconHint": "aut"
+    "ExtraInfo": "magnam",
+    "Width": "esse",
+    "IconHint": "est",
+    "HeadingIconHint": "quidem"
   }
 ]
 ```

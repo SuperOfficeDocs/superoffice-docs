@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/RenameDocument
 uid: v1DocumentAgent_RenameDocument
+generated: true
 ---
 
 # POST Agents/Document/RenameDocument
@@ -70,12 +71,12 @@ OK
 POST /api/v1/Agents/Document/RenameDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 89,
-  "NewFilename": "esse"
+  "DocumentId": 73,
+  "NewFilename": "provident"
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"recusandae"
+"occaecati"
 ```

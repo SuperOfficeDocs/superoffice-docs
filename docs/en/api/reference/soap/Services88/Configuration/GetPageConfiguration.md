@@ -1,6 +1,6 @@
 ---
 title: Services88.ConfigurationAgent.GetPageConfiguration SOAP
-generated: 1
+generated: true
 uid: Services88-Configuration-GetPageConfiguration
 ---
 

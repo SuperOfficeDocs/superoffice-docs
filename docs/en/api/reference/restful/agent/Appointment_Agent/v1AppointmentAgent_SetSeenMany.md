@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/SetSeenMany
 uid: v1AppointmentAgent_SetSeenMany
+generated: true
 ---
 
 # POST Agents/Appointment/SetSeenMany
@@ -71,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    580,
-    571
+    486,
+    932
   ],
   "UpdateMode": "OnlyThis"
 }

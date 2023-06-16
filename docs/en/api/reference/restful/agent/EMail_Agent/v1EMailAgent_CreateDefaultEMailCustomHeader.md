@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailCustomHeader
 uid: v1EMailAgent_CreateDefaultEMailCustomHeader
+generated: true
 ---
 
 # POST Agents/EMail/CreateDefaultEMailCustomHeader
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailCustomHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,17 +71,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Turcotte-Romaguera",
+  "Name": "Hackett-Robel",
   "Values": [
-    "facilis",
-    "repudiandae"
+    "reprehenderit",
+    "pariatur"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldType": "System.Int32",
+      "FieldLength": 666
     }
   }
 }

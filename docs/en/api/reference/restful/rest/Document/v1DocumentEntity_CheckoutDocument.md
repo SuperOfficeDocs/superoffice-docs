@@ -1,6 +1,7 @@
 ---
 title: POST Document/{id}/Lock
 uid: v1DocumentEntity_CheckoutDocument
+generated: true
 ---
 
 # POST Document/{id}/Lock
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,11 +82,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "est",
-  "VersionId": "et",
+  "ExternalReference": "vel",
+  "VersionId": "soluta",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "sint",
-  "AdditionalInfo": "aut"
+  "Value": "consequatur",
+  "AdditionalInfo": "ut"
 }
 ```

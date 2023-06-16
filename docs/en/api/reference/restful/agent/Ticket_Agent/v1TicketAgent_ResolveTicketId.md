@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/ResolveTicketId
 uid: v1TicketAgent_ResolveTicketId
+generated: true
 ---
 
 # POST Agents/Ticket/ResolveTicketId
@@ -73,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 835
+  "TicketId": 952
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-276
+593
 ```

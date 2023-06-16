@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetPersonAppointmentsByTasks
 uid: v1AppointmentAgent_GetPersonAppointmentsByTasks
+generated: true
 ---
 
 # POST Agents/Appointment/GetPersonAppointmentsByTasks
@@ -118,6 +119,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -127,18 +131,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 917,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2006-10-09T03:51:26.1001041+02:00",
-  "EndTime": "2023-03-07T03:51:26.1001041+01:00",
-  "Count": 383,
+  "PersonId": 23,
+  "IncludeProjectAppointments": true,
+  "StartTime": "1996-03-22T16:00:39.6019823+01:00",
+  "EndTime": "2010-04-08T16:00:39.6019823+02:00",
+  "Count": 756,
   "TaskIds": [
-    673,
-    326
+    358,
+    232
   ]
 }
 ```
@@ -151,61 +155,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 707,
-    "StartDate": "2021-08-15T03:51:26.1001041+02:00",
-    "EndDate": "2022-05-25T03:51:26.1001041+02:00",
+    "AppointmentId": 737,
+    "StartDate": "2010-09-04T16:00:39.6019823+02:00",
+    "EndDate": "2009-08-23T16:00:39.6019823+02:00",
     "Type": "BookingForChecklist",
-    "Task": "atque",
-    "AssociateFullName": "Chanel Heaney",
-    "ContactName": "Schaden LLC",
-    "Description": "Ameliorated user-facing hierarchy",
-    "PersonFullName": "Ms. Jadon Kendra Dare",
-    "PersonId": 6,
-    "ContactId": 859,
-    "ProjectId": 182,
-    "ProjectName": "Pagac, Lynch and Bogisich",
+    "Task": "omnis",
+    "AssociateFullName": "Marshall Schmidt",
+    "ContactName": "Spencer, Schneider and Larson",
+    "Description": "Customer-focused incremental archive",
+    "PersonFullName": "Luna Frami",
+    "PersonId": 502,
+    "ContactId": 453,
+    "ProjectId": 502,
+    "ProjectName": "Marquardt Group",
     "IsPublished": false,
-    "AssociateId": 414,
-    "ColorIndex": 55,
-    "IsFree": true,
+    "AssociateId": 454,
+    "ColorIndex": 354,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 264,
-    "PriorityName": "Morissette, Walter and Mante",
+    "PriorityId": 877,
+    "PriorityName": "Lindgren Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2020-02-10T03:51:26.1001041+01:00",
+    "ActiveDate": "2020-05-13T16:00:39.6019823+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-12-20T03:51:26.1001041+01:00",
-    "RecurringEndDate": "2003-06-01T03:51:26.1001041+02:00",
-    "MotherId": 224,
-    "AssignedBy": 566,
-    "AssignedByFullName": "Stephany Stracke",
+    "RecurringStartDate": "2003-05-12T16:00:39.6019823+02:00",
+    "RecurringEndDate": "1997-06-07T16:00:39.6019823+02:00",
+    "MotherId": 693,
+    "AssignedBy": 381,
+    "AssignedByFullName": "Abbigail Keebler",
     "RejectReason": "",
-    "Location": "aliquid",
-    "AlarmLeadTime": "ea",
-    "SaleId": 760,
-    "SaleName": "Rohan, Eichmann and Sauer",
-    "AssociateName": "Emard-Macejkovic",
-    "CreatedDate": "1997-02-02T03:51:26.1157305+01:00",
-    "CreatedBy": "a",
-    "CreatedByFullName": "Dexter Corkery",
-    "CreatedByAssociateId": 109,
+    "Location": "sit",
+    "AlarmLeadTime": "deserunt",
+    "SaleId": 175,
+    "SaleName": "Ernser Group",
+    "AssociateName": "Heidenreich Inc and Sons",
+    "CreatedDate": "2021-08-09T16:00:39.6019823+02:00",
+    "CreatedBy": "ipsam",
+    "CreatedByFullName": "Clare Torp",
+    "CreatedByAssociateId": 725,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "odio",
+    "Agenda": "dolorem",
+    "InternalNotes": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 700
+        "FieldLength": 163
       }
     }
   }

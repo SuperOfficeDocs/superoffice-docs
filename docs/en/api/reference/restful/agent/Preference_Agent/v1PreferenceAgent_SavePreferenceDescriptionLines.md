@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/SavePreferenceDescriptionLines
 uid: v1PreferenceAgent_SavePreferenceDescriptionLines
+generated: true
 ---
 
 # POST Agents/Preference/SavePreferenceDescriptionLines
@@ -77,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 563,
-      "PrefDescId": 262,
-      "PrefValue": "modi",
-      "PrefShowValue": "sint",
-      "Description": "Profound analyzing implementation",
+      "PrefDescLineId": 118,
+      "PrefDescId": 738,
+      "PrefValue": "quia",
+      "PrefShowValue": "animi",
+      "Description": "Streamlined human-resource collaboration",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 563,
-      "PrefDescId": 262,
-      "PrefValue": "modi",
-      "PrefShowValue": "sint",
-      "Description": "Profound analyzing implementation",
+      "PrefDescLineId": 118,
+      "PrefDescId": 738,
+      "PrefValue": "quia",
+      "PrefShowValue": "animi",
+      "Description": "Streamlined human-resource collaboration",
       "IsBuiltin": false
     }
   ]
@@ -110,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 41,
-    "PrefDescId": 250,
-    "PrefValue": "quidem",
-    "PrefShowValue": "ratione",
-    "Description": "Multi-tiered bandwidth-monitored algorithm",
+    "PrefDescLineId": 951,
+    "PrefDescId": 398,
+    "PrefValue": "temporibus",
+    "PrefShowValue": "totam",
+    "Description": "Streamlined local synergy",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 639
+        "FieldType": "System.Int32",
+        "FieldLength": 756
       }
     }
   }

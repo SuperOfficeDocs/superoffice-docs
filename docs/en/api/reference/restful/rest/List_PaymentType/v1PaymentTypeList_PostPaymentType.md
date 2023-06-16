@@ -1,6 +1,7 @@
 ---
 title: POST List/PaymentType/Items
 uid: v1PaymentTypeList_PostPaymentType
+generated: true
 ---
 
 # POST List/PaymentType/Items
@@ -76,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 971,
-  "Name": "Abernathy, Schuster and Berge",
-  "Tooltip": "reprehenderit",
+  "Id": 288,
+  "Name": "Brekke-Kerluke",
+  "Tooltip": "autem",
   "Deleted": false,
-  "UdListDefinitionId": 221,
-  "Rank": 615
+  "UdListDefinitionId": 449,
+  "Rank": 72
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 734,
-  "Name": "Olson-Dooley",
-  "Tooltip": "excepturi",
+  "Id": 518,
+  "Name": "O'Kon, Wyman and Wolff",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "UdListDefinitionId": 118,
-  "Rank": 355,
+  "UdListDefinitionId": 832,
+  "Rank": 266,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 259
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   }
 }

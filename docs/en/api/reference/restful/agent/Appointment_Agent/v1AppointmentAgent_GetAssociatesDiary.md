@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetAssociatesDiary
 uid: v1AppointmentAgent_GetAssociatesDiary
+generated: true
 ---
 
 # POST Agents/Appointment/GetAssociatesDiary
@@ -113,6 +114,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -122,16 +126,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    629,
-    520
+    475,
+    366
   ],
-  "StartTime": "2005-02-03T03:51:26.1469713+01:00",
-  "EndTime": "2005-02-18T03:51:26.1469713+01:00"
+  "StartTime": "2000-02-12T16:00:39.6488525+01:00",
+  "EndTime": "1997-06-10T16:00:39.6488525+02:00"
 }
 ```
 
@@ -143,61 +147,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 121,
-    "StartDate": "1996-10-04T03:51:26.1469713+02:00",
-    "EndDate": "2017-04-18T03:51:26.1469713+02:00",
+    "AppointmentId": 461,
+    "StartDate": "2022-02-04T16:00:39.6488525+01:00",
+    "EndDate": "2012-06-21T16:00:39.6488525+02:00",
     "Type": "BookingForChecklist",
-    "Task": "facilis",
-    "AssociateFullName": "Prof. Kasey Adaline Cummings Jr.",
-    "ContactName": "Gerhold LLC",
-    "Description": "Seamless disintermediate conglomeration",
-    "PersonFullName": "Crystel Turcotte",
-    "PersonId": 237,
-    "ContactId": 197,
-    "ProjectId": 947,
-    "ProjectName": "Toy Group",
-    "IsPublished": true,
-    "AssociateId": 603,
-    "ColorIndex": 309,
+    "Task": "dolorem",
+    "AssociateFullName": "Delores Collins",
+    "ContactName": "Wunsch, Rutherford and Ratke",
+    "Description": "Advanced 6th generation productivity",
+    "PersonFullName": "Muhammad Cruickshank",
+    "PersonId": 730,
+    "ContactId": 504,
+    "ProjectId": 198,
+    "ProjectName": "Schaefer Group",
+    "IsPublished": false,
+    "AssociateId": 643,
+    "ColorIndex": 211,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 423,
-    "PriorityName": "Turner, Bayer and Rosenbaum",
+    "PriorityId": 272,
+    "PriorityName": "Murray-Wolff",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2008-01-07T03:51:26.1469713+01:00",
+    "ActiveDate": "2005-11-03T16:00:39.6488525+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-03-17T03:51:26.1469713+01:00",
-    "RecurringEndDate": "2012-10-15T03:51:26.1469713+02:00",
-    "MotherId": 333,
-    "AssignedBy": 108,
-    "AssignedByFullName": "Ryleigh Alberta Reichel Sr.",
+    "RecurringStartDate": "2010-06-13T16:00:39.6488525+02:00",
+    "RecurringEndDate": "2016-01-18T16:00:39.6488525+01:00",
+    "MotherId": 623,
+    "AssignedBy": 330,
+    "AssignedByFullName": "Natasha Eichmann",
     "RejectReason": "",
-    "Location": "nobis",
-    "AlarmLeadTime": "sunt",
-    "SaleId": 676,
-    "SaleName": "Zulauf-O'Hara",
-    "AssociateName": "Rolfson, Stanton and Roberts",
-    "CreatedDate": "2003-12-09T03:51:26.1469713+01:00",
-    "CreatedBy": "iste",
-    "CreatedByFullName": "Prof. Davin Feil",
-    "CreatedByAssociateId": 712,
+    "Location": "et",
+    "AlarmLeadTime": "rerum",
+    "SaleId": 165,
+    "SaleName": "McCullough, Witting and Zulauf",
+    "AssociateName": "Bogisich-Rogahn",
+    "CreatedDate": "2012-10-13T16:00:39.6488525+02:00",
+    "CreatedBy": "sint",
+    "CreatedByFullName": "Aimee Gerlach",
+    "CreatedByAssociateId": 322,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "explicabo",
+    "Agenda": "qui",
+    "InternalNotes": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 401
       }
     }
   }

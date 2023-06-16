@@ -1,6 +1,6 @@
 ---
 title: Services88.PreviewsAgent.GetPreview SOAP
-generated: 1
+generated: true
 uid: Services88-Previews-GetPreview
 ---
 

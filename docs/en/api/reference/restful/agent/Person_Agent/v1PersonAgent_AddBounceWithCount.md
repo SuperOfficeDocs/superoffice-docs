@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/AddBounceWithCount
 uid: v1PersonAgent_AddBounceWithCount
+generated: true
 ---
 
 # POST Agents/Person/AddBounceWithCount
@@ -68,8 +69,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "avis@labadiekreiger.uk",
-  "Counts": 566
+  "EmailAddress": "magnus@satterfield.uk",
+  "Counts": 933
 }
 ```
 

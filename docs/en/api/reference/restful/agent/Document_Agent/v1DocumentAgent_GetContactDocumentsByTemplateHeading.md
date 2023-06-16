@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetContactDocumentsByTemplateHeading
 uid: v1DocumentAgent_GetContactDocumentsByTemplateHeading
+generated: true
 ---
 
 # POST Agents/Document/GetContactDocumentsByTemplateHeading
@@ -97,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 113,
-  "StartTime": "2004-01-21T03:51:27.0061522+01:00",
-  "EndTime": "2022-10-29T03:51:27.0061522+02:00",
-  "Count": 711,
-  "TemplateHeadingId": 963
+  "ContactId": 244,
+  "StartTime": "2010-08-26T16:00:40.5550049+02:00",
+  "EndTime": "2017-11-17T16:00:40.5550049+01:00",
+  "Count": 57,
+  "TemplateHeadingId": 742
 }
 ```
 
@@ -117,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 630,
-    "Attention": "cum",
-    "Header": "et",
-    "Name": "Halvorson Inc and Sons",
-    "OurRef": "ut",
-    "YourRef": "quis",
-    "Description": "Front-line stable moderator",
-    "DocumentTemplate": "sunt",
+    "DocumentId": 753,
+    "Attention": "quo",
+    "Header": "omnis",
+    "Name": "Koch-Block",
+    "OurRef": "itaque",
+    "YourRef": "voluptates",
+    "Description": "Networked static adapter",
+    "DocumentTemplate": "non",
     "IsPublished": true,
-    "PersonId": 692,
-    "PersonFullName": "Prof. Tracy Jakubowski",
-    "AssociateFullName": "Jimmy Waelchi DVM",
-    "ContactId": 184,
-    "ContactName": "Kuphal Inc and Sons",
-    "ProjectId": 168,
-    "ProjectName": "Legros-Kihn",
-    "AssociateId": 871,
-    "Snum": 28,
-    "SaleId": 789,
-    "SaleName": "Ferry LLC",
+    "PersonId": 97,
+    "PersonFullName": "Anabel Oberbrunner",
+    "AssociateFullName": "Miss Samson Uriah Grimes",
+    "ContactId": 908,
+    "ContactName": "Hansen-Roob",
+    "ProjectId": 418,
+    "ProjectName": "Kreiger Inc and Sons",
+    "AssociateId": 836,
+    "Snum": 689,
+    "SaleId": 135,
+    "SaleName": "Hodkiewicz, Krajcik and Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldType": "System.String",
+        "FieldLength": 397
       }
     }
   }

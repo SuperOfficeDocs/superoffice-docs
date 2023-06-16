@@ -1,6 +1,7 @@
 ---
 title: GET List/MrMrs/Items/{id}/UserGroups
 uid: v1MrMrsList_GetMrMrsUserGroupsForListItem
+generated: true
 ---
 
 # GET List/MrMrs/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "Waters-Barton",
-    "ToolTip": "Nam in blanditiis nihil earum placeat culpa aperiam.",
-    "Deleted": false,
-    "Rank": 987,
-    "Type": "nulla",
-    "ColorBlock": 194,
-    "IconHint": "perspiciatis",
+    "Id": 867,
+    "Name": "Kshlerin-O'Conner",
+    "ToolTip": "Velit corrupti eos doloribus molestias.",
+    "Deleted": true,
+    "Rank": 694,
+    "Type": "earum",
+    "ColorBlock": 184,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2021-11-20T03:51:34.7239677+01:00",
+    "LastChanged": "2007-01-04T16:00:49.0708338+01:00",
     "ChildItems": [
       {
-        "Id": 281,
-        "Name": "Johnson, Marvin and Carroll",
-        "ToolTip": "Eaque quod dolorem ut deserunt.",
+        "Id": 803,
+        "Name": "Hilll LLC",
+        "ToolTip": "Excepturi explicabo distinctio veniam alias neque.",
         "Deleted": false,
-        "Rank": 527,
-        "Type": "in",
-        "ColorBlock": 856,
-        "IconHint": "quam",
+        "Rank": 575,
+        "Type": "optio",
+        "ColorBlock": 787,
+        "IconHint": "voluptas",
         "Selected": true,
-        "LastChanged": "2015-10-12T03:51:34.7239677+02:00",
+        "LastChanged": "2003-07-11T16:00:49.0708338+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "maxime",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "mollitia",
         "Hidden": true,
-        "FullName": "Prof. Shane Keebler V",
+        "FullName": "Selina Strosin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 164
+            "FieldLength": 640
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "vero",
+    "ExtraInfo": "nam",
+    "StyleHint": "tempora",
     "Hidden": true,
-    "FullName": "Mr. Maxie Ernser Jr.",
+    "FullName": "Santos Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldType": "System.Int32",
+        "FieldLength": 87
       }
     }
   }

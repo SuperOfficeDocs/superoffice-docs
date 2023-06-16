@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/SetAppData
 uid: v1BLOBAgent_SetAppData
+generated: true
 ---
 
 # POST Agents/BLOB/SetAppData
@@ -70,8 +71,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "deleniti",
-  "Data": "tempora"
+  "Key": "ut",
+  "Data": "sit"
 }
 ```
 

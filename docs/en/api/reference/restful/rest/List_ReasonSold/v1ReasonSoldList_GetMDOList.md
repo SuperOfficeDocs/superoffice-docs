@@ -1,6 +1,7 @@
 ---
 title: GET List/ReasonSold/MDOItems
 uid: v1ReasonSoldList_GetMDOList
+generated: true
 ---
 
 # GET List/ReasonSold/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=fuga
+GET /api/v1/List/ReasonSold/MDOItems?flat=True
+GET /api/v1/List/ReasonSold/MDOItems?query=cupiditate
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 818,
-    "Name": "Corwin Group",
-    "ToolTip": "Hic non aut praesentium.",
+    "Id": 666,
+    "Name": "Willms Group",
+    "ToolTip": "Quam esse est.",
     "Deleted": false,
-    "Rank": 680,
-    "Type": "vero",
+    "Rank": 508,
+    "Type": "nemo",
     "ChildItems": [
       {
-        "Id": 928,
-        "Name": "Monahan-Marquardt",
-        "ToolTip": "Voluptate eveniet dolores.",
+        "Id": 494,
+        "Name": "Weimann Inc and Sons",
+        "ToolTip": "Omnis voluptatem est architecto nihil molestiae.",
         "Deleted": false,
-        "Rank": 997,
-        "Type": "magnam",
+        "Rank": 833,
+        "Type": "ex",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 875,
-        "ExtraInfo": "quis",
-        "StyleHint": "culpa",
-        "FullName": "Prof. Noemi Schumm V",
+        "IconHint": "tenetur",
+        "ColorBlock": 380,
+        "ExtraInfo": "est",
+        "StyleHint": "optio",
+        "FullName": "Miss Lonzo Ross Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 654
+            "FieldType": "System.Int32",
+            "FieldLength": 482
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 746,
-    "ExtraInfo": "quod",
-    "StyleHint": "facere",
-    "FullName": "Prof. Raul Bettie Weissnat IV",
+    "IconHint": "est",
+    "ColorBlock": 348,
+    "ExtraInfo": "enim",
+    "StyleHint": "cupiditate",
+    "FullName": "Maudie Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldType": "System.Int32",
+        "FieldLength": 760
       }
     }
   }

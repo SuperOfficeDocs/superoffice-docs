@@ -1,6 +1,6 @@
 ---
 title: Services88.AudienceAgent.GetConfigParameterValueOnPerson SOAP
-generated: 1
+generated: true
 uid: Services88-Audience-GetConfigParameterValueOnPerson
 ---
 

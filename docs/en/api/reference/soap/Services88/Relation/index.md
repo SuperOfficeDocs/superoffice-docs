@@ -1,7 +1,7 @@
 ---
 title: Services88.RelationAgent SOAP
 uid: Services88-Relation-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Relation SOAP

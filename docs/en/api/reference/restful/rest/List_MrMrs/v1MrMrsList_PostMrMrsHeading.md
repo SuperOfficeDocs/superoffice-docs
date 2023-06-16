@@ -1,6 +1,7 @@
 ---
 title: POST List/MrMrs/Headings
 uid: v1MrMrsList_PostMrMrsHeading
+generated: true
 ---
 
 # POST List/MrMrs/Headings
@@ -78,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 346,
-  "Name": "Quitzon LLC",
-  "Tooltip": "labore",
-  "Deleted": true,
-  "Rank": 314,
-  "UdListDefinitionId": 534
+  "HeadingId": 805,
+  "Name": "Hane, Bartell and Kulas",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 244,
+  "UdListDefinitionId": 105
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 106,
-  "Name": "Barrows Inc and Sons",
-  "Tooltip": "quae",
+  "HeadingId": 337,
+  "Name": "Lang-Renner",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "Rank": 534,
-  "UdListDefinitionId": 302,
+  "Rank": 89,
+  "UdListDefinitionId": 256,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 559
+      "FieldType": "System.Int32",
+      "FieldLength": 6
     }
   }
 }

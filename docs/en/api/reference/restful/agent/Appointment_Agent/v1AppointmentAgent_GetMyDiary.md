@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetMyDiary
 uid: v1AppointmentAgent_GetMyDiary
+generated: true
 ---
 
 # POST Agents/Appointment/GetMyDiary
@@ -115,6 +116,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -124,13 +128,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2005-05-09T03:51:26.3813013+02:00",
-  "EndTime": "1997-05-18T03:51:26.3813013+02:00",
-  "Count": 892
+  "StartTime": "1996-05-16T16:00:40.0394546+02:00",
+  "EndTime": "2001-12-15T16:00:40.0394546+01:00",
+  "Count": 181
 }
 ```
 
@@ -142,61 +146,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 334,
-    "StartDate": "2015-05-09T03:51:26.5218947+02:00",
-    "EndDate": "2003-09-10T03:51:26.5218947+02:00",
+    "AppointmentId": 269,
+    "StartDate": "2011-05-28T16:00:40.0394546+02:00",
+    "EndDate": "2007-09-24T16:00:40.0394546+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sed",
-    "AssociateFullName": "Mr. Delmer Jordi Jones III",
-    "ContactName": "Dibbert, Walter and Kunze",
-    "Description": "Advanced modular migration",
-    "PersonFullName": "Shawna Friesen",
-    "PersonId": 229,
-    "ContactId": 498,
-    "ProjectId": 801,
-    "ProjectName": "Olson-Weber",
+    "Task": "sit",
+    "AssociateFullName": "Sid Murazik",
+    "ContactName": "Carroll, Gusikowski and Cartwright",
+    "Description": "Distributed non-volatile core",
+    "PersonFullName": "Jonatan Goldner",
+    "PersonId": 722,
+    "ContactId": 682,
+    "ProjectId": 962,
+    "ProjectName": "Feest Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 271,
-    "ColorIndex": 485,
-    "IsFree": false,
+    "AssociateId": 937,
+    "ColorIndex": 11,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 739,
-    "PriorityName": "Kuhn-Jerde",
+    "PriorityId": 781,
+    "PriorityName": "Aufderhar LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2004-08-20T03:51:26.5218947+02:00",
+    "ActiveDate": "2004-10-10T16:00:40.0394546+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-07-12T03:51:26.5218947+02:00",
-    "RecurringEndDate": "2015-02-10T03:51:26.5218947+01:00",
-    "MotherId": 96,
-    "AssignedBy": 202,
-    "AssignedByFullName": "Kevin Hane",
+    "RecurringStartDate": "2007-06-13T16:00:40.0394546+02:00",
+    "RecurringEndDate": "2000-12-16T16:00:40.0394546+01:00",
+    "MotherId": 682,
+    "AssignedBy": 955,
+    "AssignedByFullName": "Hillary Kilback",
     "RejectReason": "",
-    "Location": "soluta",
-    "AlarmLeadTime": "numquam",
-    "SaleId": 479,
-    "SaleName": "Bogan, Kshlerin and King",
-    "AssociateName": "DuBuque, Weber and Koepp",
-    "CreatedDate": "2015-12-12T03:51:26.5218947+01:00",
-    "CreatedBy": "a",
-    "CreatedByFullName": "Dr. Willa Smitham Jr.",
-    "CreatedByAssociateId": 426,
+    "Location": "earum",
+    "AlarmLeadTime": "ipsum",
+    "SaleId": 776,
+    "SaleName": "Schulist Group",
+    "AssociateName": "Kunze Group",
+    "CreatedDate": "2015-10-14T16:00:40.0394546+02:00",
+    "CreatedBy": "placeat",
+    "CreatedByFullName": "Juliet Willms",
+    "CreatedByAssociateId": 608,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "suscipit",
+    "Agenda": "recusandae",
+    "InternalNotes": "esse",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 644
+        "FieldLength": 539
       }
     }
   }

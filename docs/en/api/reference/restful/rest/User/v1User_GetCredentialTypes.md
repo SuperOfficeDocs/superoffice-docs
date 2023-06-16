@@ -1,6 +1,7 @@
 ---
 title: GET User/CredentialTypes
 uid: v1User_GetCredentialTypes
+generated: true
 ---
 
 # GET User/CredentialTypes
@@ -61,7 +62,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "facilis",
-    "Type": "ex",
-    "Description": "Grass-roots context-sensitive projection",
+    "DisplayType": "nemo",
+    "Type": "delectus",
+    "Description": "Decentralized multimedia portal",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
-    "IsUserNameSupported": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 82
+        "FieldType": "System.Int32",
+        "FieldLength": 937
       }
     }
   }

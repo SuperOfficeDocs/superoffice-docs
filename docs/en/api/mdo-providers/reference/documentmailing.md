@@ -1,17 +1,11 @@
 ---
 uid: documentmailing
 title: documentmailing
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "documentmailing"
+keywords: mdoprovider mdo provider documentmailing
+description: Document shipments (mail merges).
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "documentmailing" MDO List

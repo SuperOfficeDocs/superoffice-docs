@@ -2,17 +2,10 @@
 uid: TicketNotification
 title: TicketNotification
 description: Retrieves pending request notifications for current user
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "TicketNotification"
+keywords: TicketNotification archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "TicketNotification"
@@ -60,7 +53,7 @@ Retrieves pending request notifications for current user
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketNotification?$select=ownerEjUserId,ownerAssociateId,expires
+GET /api/v1/archive/TicketNotification?$select=ownerAssociateId,expires
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

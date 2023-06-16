@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailEntity
 uid: v1EMailAgent_CreateDefaultEMailEntity
+generated: true
 ---
 
 # POST Agents/EMail/CreateDefaultEMailEntity
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,146 +97,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 498,
-      "ContactName": "Weissnat Inc and Sons",
-      "PersonId": 89,
-      "PersonName": "Monahan-Schneider",
-      "AssociateId": 598,
-      "Address": "debitis",
-      "EmailId": 927,
+      "ContactId": 476,
+      "ContactName": "Vandervort Group",
+      "PersonId": 518,
+      "PersonName": "Daugherty-Corkery",
+      "AssociateId": 966,
+      "Address": "et",
+      "EmailId": 164,
       "DuplicatePersonIds": [
-        901,
-        906
+        355,
+        953
       ],
-      "Name": "Sporer, Kautzer and Pouros",
+      "Name": "Konopelski LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldType": "System.String",
+          "FieldLength": 979
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 240,
-      "ContactName": "Zboncak Inc and Sons",
-      "PersonId": 914,
-      "PersonName": "Schumm Inc and Sons",
-      "AssociateId": 982,
-      "Address": "quam",
-      "EmailId": 514,
+      "ContactId": 141,
+      "ContactName": "Labadie-Mueller",
+      "PersonId": 342,
+      "PersonName": "Turner, Kilback and Kunze",
+      "AssociateId": 786,
+      "Address": "aut",
+      "EmailId": 356,
       "DuplicatePersonIds": [
-        571,
-        877
+        701,
+        906
       ],
-      "Name": "Hilpert, Maggio and Harvey",
+      "Name": "Shields-Trantow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 43
+          "FieldLength": 928
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 361,
-      "ContactName": "Ryan Group",
-      "PersonId": 958,
-      "PersonName": "Jakubowski, Orn and Bradtke",
-      "AssociateId": 166,
-      "Address": "amet",
-      "EmailId": 129,
+      "ContactId": 352,
+      "ContactName": "Runte Group",
+      "PersonId": 565,
+      "PersonName": "Green LLC",
+      "AssociateId": 581,
+      "Address": "nostrum",
+      "EmailId": 862,
       "DuplicatePersonIds": [
-        516,
-        629
+        350,
+        144
       ],
-      "Name": "Brekke Group",
+      "Name": "Dare-Hermiston",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldType": "System.String",
+          "FieldLength": 69
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "ad",
+  "Subject": "quam",
+  "HTMLBody": "eum",
   "From": null,
-  "Sent": "2015-05-11T03:51:27.2092335+02:00",
-  "Size": 595,
+  "Sent": "1998-01-01T16:00:40.8987367+01:00",
+  "Size": 622,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "enim",
-  "PlainBody": "natus",
-  "IsSent": true,
+  "MessageID": "soluta",
+  "PlainBody": "facilis",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 701,
+  "ServerId": 660,
   "Attachments": [
     {
-      "Description": "Pre-emptive composite circuit",
-      "Filename": "in",
-      "Size": 245,
-      "Type": "mollitia",
-      "Encoding": "sit",
-      "Id": "accusamus",
-      "Disposition": "ullam",
+      "Description": "Multi-layered national archive",
+      "Filename": "quia",
+      "Size": 537,
+      "Type": "nobis",
+      "Encoding": "hic",
+      "Id": "consequatur",
+      "Disposition": "occaecati",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 118
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "McLaughlin LLC",
+      "Name": "Schowalter, Wisoky and Jakubowski",
       "Values": [
-        "eum",
-        "assumenda"
+        "quibusdam",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 836
+          "FieldType": "System.Int32",
+          "FieldLength": 366
         }
       }
     },
     {
-      "Name": "McLaughlin LLC",
+      "Name": "Schowalter, Wisoky and Jakubowski",
       "Values": [
-        "eum",
-        "assumenda"
+        "quibusdam",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 836
+          "FieldType": "System.Int32",
+          "FieldLength": 366
         }
       }
     }
   ],
-  "FolderName": "Gulgowski, Tremblay and Conroy",
-  "EmailItemId": 484,
-  "AccountId": 169,
-  "ReceivedAt": "2021-10-14T03:51:27.2092335+02:00",
+  "FolderName": "Klein-Will",
+  "EmailItemId": 227,
+  "AccountId": 863,
+  "ReceivedAt": "2004-10-07T16:00:40.8987367+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-01-24T03:51:27.2092335+01:00",
+  "RepliedAt": "2003-03-27T16:00:40.8987367+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -243,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   }
 }

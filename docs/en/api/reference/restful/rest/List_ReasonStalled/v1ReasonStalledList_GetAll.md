@@ -1,6 +1,7 @@
 ---
 title: GET List/ReasonStalled/Items
 uid: v1ReasonStalledList_GetAll
+generated: true
 ---
 
 # GET List/ReasonStalled/Items
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Wolff, Flatley and Ferry",
-    "Tooltip": "asperiores",
-    "Deleted": false,
-    "UdListDefinitionId": 593,
-    "Rank": 64,
+    "Id": 841,
+    "Name": "Ziemann LLC",
+    "Tooltip": "earum",
+    "Deleted": true,
+    "UdListDefinitionId": 181,
+    "Rank": 806,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 700
       }
     }
   }

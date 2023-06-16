@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductFamily/Headings
 uid: v1ProductFamilyList_GetProductFamilyHeadings
+generated: true
 ---
 
 # GET List/ProductFamily/Headings
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 667,
-    "Name": "Hermann-D'Amore",
-    "Tooltip": "eveniet",
+    "HeadingId": 8,
+    "Name": "Morissette Group",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 342,
-    "UdListDefinitionId": 743,
+    "Rank": 647,
+    "UdListDefinitionId": 938,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 657
+        "FieldLength": 376
       }
     }
   }

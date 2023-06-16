@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/ValidateScriptByUniqueId
 uid: v1CRMScriptAgent_ValidateScriptByUniqueId
+generated: true
 ---
 
 # POST Agents/CRMScript/ValidateScriptByUniqueId
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "totam"
+  "CRMScriptUniqueId": "ad"
 }
 ```
 
@@ -93,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "eaque",
+  "Valid": true,
+  "ErrorMessage": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldLength": 983
     }
   }
 }

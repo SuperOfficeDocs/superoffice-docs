@@ -1,6 +1,7 @@
 ---
 title: PUT ShipmentMessage/{id}
 uid: v1ShipmentMessageEntity_PutShipmentMessageEntity
+generated: true
 ---
 
 # PUT ShipmentMessage/{id}
@@ -122,27 +123,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 266,
-  "PlainMessage": "voluptates",
-  "HtmlMessage": "eaque",
-  "SmsMessage": "fugit",
-  "Description": "Ergonomic client-driven ability",
-  "Subject": "quisquam",
-  "FolderId": 237,
-  "HeaderField": "tempora",
-  "Design": "quia",
+  "ShipmentMessageId": 628,
+  "PlainMessage": "aut",
+  "HtmlMessage": "et",
+  "SmsMessage": "optio",
+  "Description": "Polarised assymetric structure",
+  "Subject": "saepe",
+  "FolderId": 516,
+  "HeaderField": "quia",
+  "Design": "quibusdam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Digitized bottom-line middleware",
-  "AccessKey": "eveniet",
-  "DocumentMessage": 687,
-  "Registered": "2017-04-02T03:51:34.0208828+02:00",
-  "RegisteredAssociateId": 845,
-  "Updated": "2021-12-30T03:51:34.0208828+01:00",
-  "UpdatedAssociateId": 196,
-  "UpdatedCount": 651
+  "LongDescription": "Inverse empowering encryption",
+  "AccessKey": "sapiente",
+  "DocumentMessage": 323,
+  "Registered": "2004-03-21T16:00:48.4615203+01:00",
+  "RegisteredAssociateId": 116,
+  "Updated": "2013-02-10T16:00:48.4615203+01:00",
+  "UpdatedAssociateId": 572,
+  "UpdatedCount": 546
 }
 ```
 
@@ -153,33 +154,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 57,
-  "PlainMessage": "omnis",
-  "HtmlMessage": "itaque",
-  "SmsMessage": "rem",
-  "Description": "Digitized client-driven synergy",
-  "Subject": "quibusdam",
-  "FolderId": 788,
-  "HeaderField": "aut",
-  "Design": "qui",
+  "ShipmentMessageId": 826,
+  "PlainMessage": "est",
+  "HtmlMessage": "tenetur",
+  "SmsMessage": "et",
+  "Description": "Upgradable eco-centric secured line",
+  "Subject": "quia",
+  "FolderId": 730,
+  "HeaderField": "nesciunt",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Pre-emptive secondary parallelism",
-  "AccessKey": "odio",
-  "DocumentMessage": 907,
-  "Registered": "2002-06-29T03:51:34.0208828+02:00",
-  "RegisteredAssociateId": 332,
-  "Updated": "2001-09-09T03:51:34.0208828+02:00",
-  "UpdatedAssociateId": 7,
-  "UpdatedCount": 340,
+  "LongDescription": "Grass-roots zero tolerance archive",
+  "AccessKey": "vel",
+  "DocumentMessage": 35,
+  "Registered": "2001-09-28T16:00:48.4615203+02:00",
+  "RegisteredAssociateId": 886,
+  "Updated": "2005-07-09T16:00:48.4615203+02:00",
+  "UpdatedAssociateId": 671,
+  "UpdatedCount": 668,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 532
+      "FieldType": "System.Int32",
+      "FieldLength": 207
     }
   },
   "_Links": {

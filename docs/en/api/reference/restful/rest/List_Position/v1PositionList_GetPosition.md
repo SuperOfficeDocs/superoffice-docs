@@ -1,6 +1,7 @@
 ---
 title: GET List/Position/Items/{id}
 uid: v1PositionList_GetPosition
+generated: true
 ---
 
 # GET List/Position/Items/{id}
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 93,
-  "Name": "Schaefer-Collins",
-  "Tooltip": "nulla",
-  "Deleted": true,
-  "UdListDefinitionId": 25,
-  "Rank": 985,
+  "Id": 662,
+  "Name": "Zulauf, Jacobson and Block",
+  "Tooltip": "non",
+  "Deleted": false,
+  "UdListDefinitionId": 559,
+  "Rank": 76,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldLength": 517
     }
   }
 }

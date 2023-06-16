@@ -1,6 +1,6 @@
 ---
 title: Services88.MessagingAgent.SendMessages SOAP
-generated: 1
+generated: true
 uid: Services88-Messaging-SendMessages
 ---
 

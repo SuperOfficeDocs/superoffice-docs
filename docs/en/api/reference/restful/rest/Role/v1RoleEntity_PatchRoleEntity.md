@@ -1,6 +1,7 @@
 ---
 title: PATCH Role/{id}
 uid: v1RoleEntity_PatchRoleEntity
+generated: true
 ---
 
 # PATCH Role/{id}
@@ -127,12 +128,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "assumenda",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "assumenda",
+    "path": "est",
     "value": {}
   }
 ]
@@ -145,29 +146,29 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 331,
-  "Name": "Stroman Group",
-  "Tooltip": "quis",
+  "RoleId": 800,
+  "Name": "Hayes-Aufderhar",
+  "Tooltip": "maiores",
   "RoleType": "Anonymous",
-  "Deleted": 71,
-  "Rank": 749,
-  "Created": "2019-08-20T03:51:33.8802911+02:00",
-  "UseCategories": 60,
+  "Deleted": 699,
+  "Rank": 130,
+  "Created": "2018-08-18T16:00:48.1959227+02:00",
+  "UseCategories": 83,
   "CreatedBy": null,
-  "Updated": "2013-04-24T03:51:33.8802911+02:00",
+  "Updated": "2013-05-14T16:00:48.1959227+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 291
+      "FieldType": "System.Int32",
+      "FieldLength": 453
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetMyWindowPosSizes
 uid: v1ConfigurationAgent_GetMyWindowPosSizes
+generated: true
 ---
 
 # POST Agents/Configuration/GetMyWindowPosSizes
@@ -85,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "id",
-    "PersonId": 94,
-    "AssociateId": 240,
-    "ExtraId": 33,
-    "ExtraInfo": "nemo",
-    "Height": 358,
-    "LeftX": 571,
+    "OwnerWindow": "sequi",
+    "PersonId": 790,
+    "AssociateId": 886,
+    "ExtraId": 640,
+    "ExtraInfo": "ut",
+    "Height": 246,
+    "LeftX": 23,
     "State": "Maximized",
-    "UpperY": 688,
-    "Width": 129,
-    "WindowPosSizeId": 84,
+    "UpperY": 961,
+    "Width": 919,
+    "WindowPosSizeId": 484,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 810
+        "FieldType": "System.String",
+        "FieldLength": 435
       }
     }
   }

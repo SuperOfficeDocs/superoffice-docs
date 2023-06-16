@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ViewState/GetHistoriesByNames
 uid: v1ViewStateAgent_GetHistoriesByNames
+generated: true
 ---
 
 # POST Agents/ViewState/GetHistoriesByNames
@@ -83,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Grady, Johns and Fritsch",
-    "Stracke-Rippin"
+    "Kuhn-Schamberger",
+    "White-Zboncak"
   ]
 }
 ```
@@ -97,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 765,
-    "Id": 260,
-    "HistoryName": "Leannon Group",
-    "HistoryId": 948,
-    "AssociateId": 618,
-    "Name": "Bashirian, Wolff and Morissette",
-    "ItemInfo": "occaecati",
+    "Rank": 320,
+    "Id": 218,
+    "HistoryName": "Pouros LLC",
+    "HistoryId": 65,
+    "AssociateId": 908,
+    "Name": "Reichert-Shields",
+    "ItemInfo": "vero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 103
+        "FieldType": "System.Int32",
+        "FieldLength": 783
       }
     }
   }

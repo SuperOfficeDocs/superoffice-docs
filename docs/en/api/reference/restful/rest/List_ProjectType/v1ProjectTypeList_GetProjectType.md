@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectType/Items/{id}
 uid: v1ProjectTypeList_GetProjectType
+generated: true
 ---
 
 # GET List/ProjectType/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Moore Inc and Sons",
+  "Id": 542,
+  "Name": "Jacobson Group",
   "Tooltip": "explicabo",
   "Deleted": false,
-  "UdListDefinitionId": 50,
-  "Rank": 745,
+  "UdListDefinitionId": 382,
+  "Rank": 684,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldType": "System.String",
+      "FieldLength": 729
     }
   }
 }

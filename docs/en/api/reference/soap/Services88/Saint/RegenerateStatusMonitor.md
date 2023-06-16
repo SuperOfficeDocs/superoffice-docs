@@ -1,6 +1,6 @@
 ---
 title: Services88.SaintAgent.RegenerateStatusMonitor SOAP
-generated: 1
+generated: true
 uid: Services88-Saint-RegenerateStatusMonitor
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Services88.QuoteAgent.SaveProduct SOAP
-generated: 1
+generated: true
 uid: Services88-Quote-SaveProduct
 ---
 

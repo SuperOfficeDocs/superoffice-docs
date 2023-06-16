@@ -1,5 +1,6 @@
 ---
 title: Document
+generated: true
 ---
 
 ```http

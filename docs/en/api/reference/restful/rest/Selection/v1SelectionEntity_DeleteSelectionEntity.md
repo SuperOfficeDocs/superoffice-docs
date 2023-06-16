@@ -1,6 +1,7 @@
 ---
 title: DEL Selection/{id}
 uid: v1SelectionEntity_DeleteSelectionEntity
+generated: true
 ---
 
 # DEL Selection/{id}

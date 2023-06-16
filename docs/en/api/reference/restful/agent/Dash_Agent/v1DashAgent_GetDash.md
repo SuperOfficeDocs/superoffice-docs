@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/GetDash
 uid: v1DashAgent_GetDash
+generated: true
 ---
 
 # POST Agents/Dash/GetDash
@@ -25,7 +26,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=836
+POST /api/v1/Agents/Dash/GetDash?dashId=582
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -88,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 865,
-  "UniqueId": "velit",
-  "Name": "Cassin-Koss",
-  "Description": "Advanced maximized help-desk",
-  "AssociateId": 218,
-  "Columns": 43,
+  "DashboardId": 567,
+  "UniqueId": "nobis",
+  "Name": "Kunde-Robel",
+  "Description": "Optional mobile local area network",
+  "AssociateId": 360,
+  "Columns": 24,
   "Theme": null,
-  "VisibleForAll": 933,
+  "VisibleForAll": 936,
   "VisibleForAssociates": [
-    744,
-    626
+    758,
+    745
   ],
   "VisibleForGroups": [
-    70,
-    288
+    589,
+    233
   ],
-  "PinForAll": 591,
+  "PinForAll": 535,
   "PinForAssociates": [
-    252,
-    166
+    447,
+    269
   ],
   "PinForGroups": [
-    390,
-    719
+    409,
+    323
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldType": "System.String",
+      "FieldLength": 471
     }
   }
 }

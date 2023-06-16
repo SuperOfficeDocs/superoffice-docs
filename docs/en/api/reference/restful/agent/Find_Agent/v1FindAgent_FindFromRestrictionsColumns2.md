@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/FindFromRestrictionsColumns2
 uid: v1FindAgent_FindFromRestrictionsColumns2
+generated: true
 ---
 
 # POST Agents/Find/FindFromRestrictionsColumns2
@@ -163,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "commodi",
-  "ProviderName": "Von Group",
-  "DesiredColumns": "ab",
-  "PageSize": 340,
-  "PageNumber": 747
+  "Restrictions": "voluptatibus",
+  "ProviderName": "Rice LLC",
+  "DesiredColumns": "sit",
+  "PageSize": 684,
+  "PageNumber": 390
 }
 ```
 
@@ -184,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Windler-Keebler",
-      "DisplayTooltip": "exercitationem",
-      "DisplayType": "facilis",
-      "CanOrderBy": false,
-      "Name": "Hartmann, Keeling and Casper",
+      "DisplayName": "McKenzie, Bartoletti and Grady",
+      "DisplayTooltip": "magnam",
+      "DisplayType": "harum",
+      "CanOrderBy": true,
+      "Name": "Hackett-Goyette",
       "CanRestrictBy": true,
-      "RestrictionType": "consequatur",
-      "RestrictionListName": "Gleichner-Bernhard",
+      "RestrictionType": "aut",
+      "RestrictionListName": "Schiller Inc and Sons",
       "IsVisible": true,
-      "ExtraInfo": "saepe",
-      "Width": "sequi",
-      "IconHint": "distinctio",
-      "HeadingIconHint": "blanditiis"
+      "ExtraInfo": "quia",
+      "Width": "cumque",
+      "IconHint": "qui",
+      "HeadingIconHint": "error"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Leannon-Gottlieb",
-      "PrimaryKey": 769,
+      "EntityName": "Steuber-Durgan",
+      "PrimaryKey": 955,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quasi",
-          "TooltipHint": "dolor",
-          "LinkHint": "fugiat"
+          "DisplayValue": "sunt",
+          "TooltipHint": "aut",
+          "LinkHint": "hic"
         }
       },
-      "LinkHint": "minima",
-      "StyleHint": "laudantium",
+      "LinkHint": "non",
+      "StyleHint": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldType": "System.Int32",
+          "FieldLength": 687
         }
       }
     }
   ],
-  "RowCount": 809,
+  "RowCount": 146,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 900
+      "FieldType": "System.Int32",
+      "FieldLength": 991
     }
   }
 }

@@ -1,17 +1,11 @@
 ---
 uid: appointmentcompleted
 title: appointmentcompleted
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "appointmentcompleted"
+keywords: mdoprovider mdo provider appointmentcompleted
+description: Appointment completed statuses: AppointmentStatus.NotStarted, AppointmentStatus.Completed
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "appointmentcompleted" MDO List

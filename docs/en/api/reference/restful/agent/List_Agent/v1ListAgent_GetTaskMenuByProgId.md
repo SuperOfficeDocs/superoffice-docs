@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetTaskMenuByProgId
 uid: v1ListAgent_GetTaskMenuByProgId
+generated: true
 ---
 
 # POST Agents/List/GetTaskMenuByProgId
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/List/GetTaskMenuByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "officia"
+  "ProgId": "aspernatur"
 }
 ```
 
@@ -100,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 298,
-  "Name": "Ward-Frami",
-  "Tooltip": "voluptates",
-  "TableName": "Willms Inc and Sons",
-  "Area": "quisquam",
+  "TaskMenuId": 853,
+  "Name": "Rutherford LLC",
+  "Tooltip": "minima",
+  "TableName": "Armstrong-Stiedemann",
+  "Area": "fugiat",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 427,
+  "CrmScriptId": 301,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 149,
+  "Rank": 773,
   "Encoding": "ANSI",
-  "ProgId": "sit",
+  "ProgId": "qui",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldType": "System.Int32",
+      "FieldLength": 232
     }
   }
 }

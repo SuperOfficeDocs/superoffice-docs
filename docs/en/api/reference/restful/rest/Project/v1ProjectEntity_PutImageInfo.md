@@ -1,6 +1,7 @@
 ---
 title: PUT Project/{id}/ImageInfo
 uid: v1ProjectEntity_PutImageInfo
+generated: true
 ---
 
 # PUT Project/{id}/ImageInfo
@@ -30,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=121
+PUT /api/v1/Project/{id}/ImageInfo?projectId=190
 ```
 
 
@@ -103,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 743,
-  "BlobSize": 942,
-  "Description": "Secured 24 hour array",
-  "ExtraInfo": "nihil",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "enim",
-  "OriginalSize": 309,
-  "CreatedDate": "2022-03-15T03:51:33.864677+01:00",
-  "UpdatedDate": "2021-03-03T03:51:33.864677+01:00",
+  "BlobId": 259,
+  "BlobSize": 17,
+  "Description": "Integrated real-time adapter",
+  "ExtraInfo": "perspiciatis",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "non",
+  "OriginalSize": 469,
+  "CreatedDate": "2018-05-29T16:00:48.1803003+02:00",
+  "UpdatedDate": "2008-01-14T16:00:48.1803003+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "non"
+  "ConceptualType": "illo"
 }
 ```
 
@@ -130,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 197,
-  "BlobSize": 63,
-  "Description": "Innovative asynchronous flexibility",
-  "ExtraInfo": "reiciendis",
-  "IsEncrypted": true,
+  "BlobId": 812,
+  "BlobSize": 817,
+  "Description": "Streamlined bandwidth-monitored artificial intelligence",
+  "ExtraInfo": "earum",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sunt",
-  "OriginalSize": 842,
-  "CreatedDate": "2020-08-26T03:51:33.864677+02:00",
-  "UpdatedDate": "2019-03-12T03:51:33.864677+01:00",
+  "MimeType": "nemo",
+  "OriginalSize": 977,
+  "CreatedDate": "2018-08-01T16:00:48.1803003+02:00",
+  "UpdatedDate": "2022-07-01T16:00:48.1803003+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "est",
+  "ConceptualType": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

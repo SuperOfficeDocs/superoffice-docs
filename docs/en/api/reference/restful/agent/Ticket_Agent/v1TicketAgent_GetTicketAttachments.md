@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/GetTicketAttachments
 uid: v1TicketAgent_GetTicketAttachments
+generated: true
 ---
 
 # POST Agents/Ticket/GetTicketAttachments
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 255
+  "TicketEntityId": 748
 }
 ```
 
@@ -94,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 579,
-    "Name": "Kiehn Inc and Sons",
-    "ContentType": "nam",
-    "AttSize": 470,
+    "AttachmentId": 802,
+    "Name": "Heaney, Towne and Rempel",
+    "ContentType": "officiis",
+    "AttSize": 216,
     "InlineImage": false,
-    "ContentId": "non",
-    "AuthKey": "accusamus",
+    "ContentId": "velit",
+    "AuthKey": "nostrum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldLength": 879
       }
     }
   }

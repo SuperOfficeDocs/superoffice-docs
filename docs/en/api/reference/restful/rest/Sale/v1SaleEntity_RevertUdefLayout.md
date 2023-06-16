@@ -1,6 +1,7 @@
 ---
 title: POST Sale/UdefLayout/Revert
 uid: v1SaleEntity_RevertUdefLayout
+generated: true
 ---
 
 # POST Sale/UdefLayout/Revert
@@ -47,7 +48,7 @@ No Content
 POST /api/v1/Sale/UdefLayout/Revert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

@@ -1,6 +1,7 @@
 ---
 title: POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 uid: v1ForeignAppEntity_AddForeignKey
+generated: true
 ---
 
 # POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
@@ -82,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "autem",
-  "Value": "corporis",
-  "RecordId": 955,
-  "CreatedDate": "2010-11-02T03:51:33.6928335+01:00",
-  "UpdatedDate": "1996-01-01T03:51:33.6928335+01:00",
-  "UpdatedBy": "aliquam",
-  "CreatedBy": "aut",
-  "TableName": "Greenholt, Lang and Sporer"
+  "Key": "perferendis",
+  "Value": "blanditiis",
+  "RecordId": 295,
+  "CreatedDate": "2002-12-24T16:00:47.9772018+01:00",
+  "UpdatedDate": "2009-05-14T16:00:47.9772018+02:00",
+  "UpdatedBy": "expedita",
+  "CreatedBy": "iure",
+  "TableName": "Pollich, Sanford and Lang"
 }
 ```
 
@@ -104,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "saepe",
-  "RecordId": 979,
-  "CreatedDate": "1997-01-23T03:51:33.6928335+01:00",
-  "UpdatedDate": "2006-07-20T03:51:33.6928335+02:00",
-  "UpdatedBy": "autem",
-  "CreatedBy": "cum",
-  "TableName": "Lowe-Ryan",
+  "Key": "non",
+  "Value": "eveniet",
+  "RecordId": 805,
+  "CreatedDate": "2009-08-29T16:00:47.9772018+02:00",
+  "UpdatedDate": "2000-05-24T16:00:47.9772018+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "atque",
+  "TableName": "Beer-Gorczany",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 718
+      "FieldType": "System.Int32",
+      "FieldLength": 157
     }
   }
 }

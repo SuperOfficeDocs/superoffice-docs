@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
 uid: v1BulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId
+generated: true
 ---
 
 # POST Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
@@ -68,12 +69,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Walsh, Cruickshank and Wyman",
-  "BinaryObjectId": 988
+  "TableName": "Murphy LLC",
+  "BinaryObjectId": 606
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolorem"
+"saepe"
 ```

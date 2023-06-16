@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryTerm/Items/{id}/UserGroups
 uid: v1DeliveryTermsList_GetDeliveryTermUserGroupsForListItem
+generated: true
 ---
 
 # GET List/DeliveryTerm/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 282,
-    "Name": "Murazik LLC",
-    "ToolTip": "Provident fugiat autem.",
+    "Id": 549,
+    "Name": "Brekke-Gutkowski",
+    "ToolTip": "Cum harum suscipit.",
     "Deleted": true,
-    "Rank": 440,
-    "Type": "nobis",
-    "ColorBlock": 803,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "1999-05-10T03:51:34.6614813+02:00",
+    "Rank": 518,
+    "Type": "reiciendis",
+    "ColorBlock": 447,
+    "IconHint": "ipsam",
+    "Selected": true,
+    "LastChanged": "2012-04-23T16:00:48.9927141+02:00",
     "ChildItems": [
       {
-        "Id": 886,
-        "Name": "Bayer-Schinner",
-        "ToolTip": "Asperiores ab voluptas doloribus tempora consectetur.",
-        "Deleted": true,
-        "Rank": 446,
-        "Type": "at",
-        "ColorBlock": 448,
-        "IconHint": "repellat",
-        "Selected": false,
-        "LastChanged": "2007-02-11T03:51:34.6614813+01:00",
+        "Id": 171,
+        "Name": "Stokes-Nolan",
+        "ToolTip": "Delectus labore et.",
+        "Deleted": false,
+        "Rank": 207,
+        "Type": "minus",
+        "ColorBlock": 320,
+        "IconHint": "a",
+        "Selected": true,
+        "LastChanged": "2020-12-30T16:00:48.9927141+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "nobis",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Brennon West",
+        "FullName": "Stacey Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 510
+            "FieldType": "System.String",
+            "FieldLength": 105
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "blanditiis",
-    "Hidden": true,
-    "FullName": "Melvin Grace Hilpert I",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "veniam",
+    "Hidden": false,
+    "FullName": "Enrico Wyman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldType": "System.String",
+        "FieldLength": 194
       }
     }
   }

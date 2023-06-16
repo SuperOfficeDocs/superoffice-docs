@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/RemoveProduct
 uid: v1QuoteAgent_RemoveProduct
+generated: true
 ---
 
 # POST Agents/Quote/RemoveProduct
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/Quote/RemoveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 79
+  "ProductId": 120
 }
 ```
 

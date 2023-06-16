@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetConsentSourceList
 uid: v1ListAgent_GetConsentSourceList
+generated: true
 ---
 
 # POST Agents/List/GetConsentSourceList
@@ -75,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 649,
-    "Name": "Thompson Group",
-    "Tooltip": "ut",
-    "Rank": 280,
-    "Key": "porro",
-    "MailTemplateId": 753,
-    "Deleted": false,
+    "ConsentSourceId": 719,
+    "Name": "Brekke Inc and Sons",
+    "Tooltip": "omnis",
+    "Rank": 851,
+    "Key": "maiores",
+    "MailTemplateId": 686,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

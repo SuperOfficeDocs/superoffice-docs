@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/GetPreviewQuickReply
 uid: v1CustomerServiceAgent_GetPreviewQuickReply
+generated: true
 ---
 
 # POST Agents/CustomerService/GetPreviewQuickReply
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 866
+  "QuickReplyId": 134
 }
 ```
 
@@ -90,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Morissette-Crist",
-  "UpdatedByFullName": "Dr. Carolina Deontae Connelly Jr.",
-  "Updated": "2019-03-29T03:51:26.9592824+01:00",
-  "HtmlBody": "quas",
+  "Name": "Jacobi-Farrell",
+  "UpdatedByFullName": "Mr. Blair Hunter Welch",
+  "Updated": "1997-11-13T16:00:40.5081328+01:00",
+  "HtmlBody": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 874
     }
   }
 }

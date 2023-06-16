@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dashboard/GetDashboardTiles
 uid: v1DashboardAgent_GetDashboardTiles
+generated: true
 ---
 
 # POST Agents/Dashboard/GetDashboardTiles
@@ -85,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    192,
-    16
+    541,
+    860
   ]
 }
 ```
@@ -104,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 220,
-    "Caption": "et",
-    "Description": "Team-oriented zero defect system engine",
-    "ChartName": "Sipes-Emard",
-    "ChartId": "est",
+    "DashboardTileId": 350,
+    "Caption": "aut",
+    "Description": "Inverse bi-directional pricing structure",
+    "ChartName": "Grant LLC",
+    "ChartId": "aut",
     "IsDefault": false,
-    "AssociateId": 944,
-    "GroupId": 168,
-    "SelectionId": 505,
-    "Config": "perspiciatis",
+    "AssociateId": 465,
+    "GroupId": 309,
+    "SelectionId": 933,
+    "Config": "nostrum",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Schulist-Littel",
-        "Description": "Enterprise-wide fault-tolerant paradigm",
+        "Name": "Becker Inc and Sons",
+        "Description": "De-engineered coherent implementation",
         "Type": "Boolean",
-        "ListName": "Hagenes, Mante and Bogan",
+        "ListName": "Shanahan, Schmitt and Reichel",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "rerum",
-        "DefaultDataOption": false,
+        "Value": "est",
+        "DefaultDataOption": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 381
+            "FieldType": "System.String",
+            "FieldLength": 918
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 326,
+        "VisibleId": 146,
         "Visibility": "All",
-        "DisplayValue": "minima",
+        "DisplayValue": "quos",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 633
+            "FieldLength": 862
           }
         }
       },
       {
-        "VisibleId": 326,
+        "VisibleId": 146,
         "Visibility": "All",
-        "DisplayValue": "minima",
+        "DisplayValue": "quos",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 633
+            "FieldLength": 862
           }
         }
       }
@@ -170,8 +171,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 876
+        "FieldType": "System.Int32",
+        "FieldLength": 272
       }
     }
   }

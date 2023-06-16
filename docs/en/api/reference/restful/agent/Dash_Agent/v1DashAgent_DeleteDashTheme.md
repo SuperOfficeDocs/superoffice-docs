@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/DeleteDashTheme
 uid: v1DashAgent_DeleteDashTheme
+generated: true
 ---
 
 # POST Agents/Dash/DeleteDashTheme
@@ -24,7 +25,7 @@ Deletes the DashTheme
 | DashThemeId | int32 | **Required** The id of the DashTheme to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTheme?DashThemeId=324
+POST /api/v1/Agents/Dash/DeleteDashTheme?DashThemeId=205
 ```
 
 

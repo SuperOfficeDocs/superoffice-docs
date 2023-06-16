@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetNextSaleStage
 uid: v1SaleAgent_GetNextSaleStage
+generated: true
 ---
 
 # POST Agents/Sale/GetNextSaleStage
@@ -70,12 +71,12 @@ OK
 POST /api/v1/Agents/Sale/GetNextSaleStage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 926,
-  "IncludeCurrentStage": true
+  "SaleId": 50,
+  "IncludeCurrentStage": false
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-344
+436
 ```

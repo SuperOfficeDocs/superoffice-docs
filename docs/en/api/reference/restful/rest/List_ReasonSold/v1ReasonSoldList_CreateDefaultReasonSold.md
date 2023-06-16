@@ -1,6 +1,7 @@
 ---
 title: GET List/ReasonSold/Items/Default
 uid: v1ReasonSoldList_CreateDefaultReasonSold
+generated: true
 ---
 
 # GET List/ReasonSold/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 808,
-  "Name": "Heaney, Jast and Dibbert",
-  "Tooltip": "rerum",
+  "Id": 513,
+  "Name": "Crooks Group",
+  "Tooltip": "officia",
   "Deleted": false,
-  "UdListDefinitionId": 432,
-  "Rank": 311,
+  "UdListDefinitionId": 9,
+  "Rank": 298,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 502
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SaveQuoteLineImage
 uid: v1QuoteAgent_SaveQuoteLineImage
+generated: true
 ---
 
 # POST Agents/Quote/SaveQuoteLineImage
@@ -65,13 +66,13 @@ No Content
 POST /api/v1/Agents/Quote/SaveQuoteLineImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 100,
+  "QuoteLineId": 84,
   "Image": "GIF89....File contents as raw bytes...",
-  "Rank": 330
+  "Rank": 996
 }
 ```
 

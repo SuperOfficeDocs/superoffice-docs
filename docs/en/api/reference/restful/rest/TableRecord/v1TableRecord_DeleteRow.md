@@ -1,6 +1,7 @@
 ---
 title: DEL Table/{tableName}/{id}
 uid: v1TableRecord_DeleteRow
+generated: true
 ---
 
 # DEL Table/{tableName}/{id}
@@ -50,7 +51,7 @@ No Content
 DELETE /api/v1/Table/{tableName}/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

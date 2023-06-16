@@ -1,17 +1,11 @@
 ---
 uid: selectionuniontype
 title: selectionuniontype
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "selectionuniontype"
+keywords: mdoprovider mdo provider selectionuniontype
+description: Different ways to combine selections: Union, Intersect, Disjoin, Left or Right Subtraction.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "selectionuniontype" MDO List

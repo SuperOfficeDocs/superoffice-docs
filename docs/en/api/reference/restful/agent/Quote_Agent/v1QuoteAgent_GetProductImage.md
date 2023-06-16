@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetProductImage
 uid: v1QuoteAgent_GetProductImage
+generated: true
 ---
 
 # POST Agents/Quote/GetProductImage
@@ -73,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 550,
-  "ERPProductKey": "aut",
-  "Rank": 590
+  "QuoteConnectionId": 481,
+  "ERPProductKey": "voluptatum",
+  "Rank": 197
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolorem"
+"voluptatem"
 ```

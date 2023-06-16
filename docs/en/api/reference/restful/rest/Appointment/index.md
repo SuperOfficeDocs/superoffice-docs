@@ -1,5 +1,6 @@
 ---
 title: Appointment
+generated: true
 ---
 
 ```http

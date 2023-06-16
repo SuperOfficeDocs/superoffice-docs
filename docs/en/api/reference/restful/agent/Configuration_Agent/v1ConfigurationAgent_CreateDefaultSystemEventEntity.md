@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/CreateDefaultSystemEventEntity
 uid: v1ConfigurationAgent_CreateDefaultSystemEventEntity
+generated: true
 ---
 
 # POST Agents/Configuration/CreateDefaultSystemEventEntity
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 534,
+  "SystemEventId": 664,
   "Scope": "Database",
-  "Eta": "1997-09-19T03:51:26.7718335+02:00",
-  "Eventkey": "sunt",
-  "Eventmess": "sed",
-  "ExtraInfo": 393,
-  "Owner": 107,
-  "UpdatedCount": 653,
-  "Registered": "2022-04-08T03:51:26.7718335+02:00",
+  "Eta": "2008-11-18T16:00:40.2894057+01:00",
+  "Eventkey": "quasi",
+  "Eventmess": "sint",
+  "ExtraInfo": 17,
+  "Owner": 784,
+  "UpdatedCount": 695,
+  "Registered": "1999-05-27T16:00:40.2894057+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 414
     }
   }
 }

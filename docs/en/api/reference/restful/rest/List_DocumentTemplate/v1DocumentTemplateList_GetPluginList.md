@@ -1,6 +1,7 @@
 ---
 title: GET List/DocumentTemplate/Plugin
 uid: v1DocumentTemplateList_GetPluginList
+generated: true
 ---
 
 # GET List/DocumentTemplate/Plugin
@@ -59,7 +60,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "debitis",
-  "2": "consequatur"
+  "1": "rerum",
+  "2": "neque"
 }
 ```

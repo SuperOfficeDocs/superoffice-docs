@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/GetCustomerServiceStartup
 uid: v1CustomerServiceAgent_GetCustomerServiceStartup
+generated: true
 ---
 
 # POST Agents/CustomerService/GetCustomerServiceStartup
@@ -76,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": false,
-  "TZOffset": 832,
-  "RecaptchaSiteKey": "quia",
+  "TimezoneEnabled": true,
+  "TZOffset": 560,
+  "RecaptchaSiteKey": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 390
     }
   }
 }

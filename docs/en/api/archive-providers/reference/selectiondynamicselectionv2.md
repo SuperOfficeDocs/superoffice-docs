@@ -2,17 +2,10 @@
 uid: SelectionDynamicSelectionV2
 title: SelectionDynamicSelectionV2
 description: Selection selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.SelectionSelectionDynamicProviderSingleCriteriaGroup" />.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SelectionDynamicSelectionV2"
+keywords: SelectionDynamicSelectionV2 archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SelectionDynamicSelectionV2"

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetListDefinitions
 uid: v1ListAgent_GetListDefinitions
+generated: true
 ---
 
 # POST Agents/List/GetListDefinitions
@@ -81,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Ferry, Waelchi and Beatty",
-    "Tooltip": "adipisci",
+    "Id": 21,
+    "Name": "Frami-Von",
+    "Tooltip": "odio",
     "Deleted": false,
-    "Rank": 889,
-    "IsCustomList": true,
+    "Rank": 578,
+    "IsCustomList": false,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "possimus",
-    "InUseByUserDefinedFields": true,
+    "UseGroupsAndHeadings": true,
+    "ListType": "qui",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldType": "System.String",
+        "FieldLength": 996
       }
     }
   }

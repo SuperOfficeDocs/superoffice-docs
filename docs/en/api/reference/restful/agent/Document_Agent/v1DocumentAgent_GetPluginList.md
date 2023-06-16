@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetPluginList
 uid: v1DocumentAgent_GetPluginList
+generated: true
 ---
 
 # POST Agents/Document/GetPluginList
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Agents/Document/GetPluginList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,7 +70,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "et",
-  "2": "fuga"
+  "1": "quia",
+  "2": "rerum"
 }
 ```

@@ -1,17 +1,11 @@
 ---
 uid: smsmailingtemplate
 title: smsmailingtemplate
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "smsmailingtemplate"
+keywords: mdoprovider mdo provider smsmailingtemplate
+description: SMS Mailing templates
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "smsmailingtemplate" MDO List

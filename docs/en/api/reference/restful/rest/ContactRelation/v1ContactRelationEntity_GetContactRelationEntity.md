@@ -1,6 +1,7 @@
 ---
 title: GET Relation/{id}
 uid: v1ContactRelationEntity_GetContactRelationEntity
+generated: true
 ---
 
 # GET Relation/{id}
@@ -90,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,33 +99,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 05 Aug 2001 03:51:33 G8T
+Last-Modified: Tue, 05 Mar 2002 16:00:47 G3T
 
 {
-  "SourceContactId": 520,
-  "SourcePersonId": 209,
-  "DestinationContactId": 271,
-  "DestinationPersonId": 548,
-  "RelationId": 865,
-  "Comment": "provident",
-  "RelationDefinitionId": 970,
-  "Reversed": 456,
-  "UpdatedDate": "2001-08-05T03:51:33.552243+02:00",
-  "CreatedDate": "2013-01-29T03:51:33.552243+01:00",
+  "SourceContactId": 836,
+  "SourcePersonId": 197,
+  "DestinationContactId": 198,
+  "DestinationPersonId": 915,
+  "RelationId": 403,
+  "Comment": "nihil",
+  "RelationDefinitionId": 476,
+  "Reversed": 112,
+  "UpdatedDate": "2002-03-05T16:00:47.8209689+01:00",
+  "CreatedDate": "2013-01-16T16:00:47.8209689+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Shanahan-Durgan",
-  "SourcePersonName": "Bins, Ondricka and Haag",
-  "DestinationContactName": "Jenkins-O'Reilly",
-  "DestinationPersonName": "Wyman, Purdy and McCullough",
-  "ActiveText": "animi",
-  "PassiveText": "voluptatem",
+  "SourceContactName": "Beatty, Franecki and Denesik",
+  "SourcePersonName": "Greenholt, Runte and Hamill",
+  "DestinationContactName": "Bogan Group",
+  "DestinationPersonName": "Morar, Beatty and Goodwin",
+  "ActiveText": "porro",
+  "PassiveText": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 734
     }
   },
   "_Links": {

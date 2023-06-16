@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuoteLineConfiguration
 uid: v1QuoteAgent_GetQuoteLineConfiguration
+generated: true
 ---
 
 # POST Agents/Quote/GetQuoteLineConfiguration
@@ -80,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 608
+  "QuoteLineConfigurationId": 477
 }
 ```
 
@@ -95,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 100,
-  "FieldName": "Runolfsdottir, Hintz and Rowe",
-  "Label": "voluptatem",
-  "Tooltip": "dolorem",
-  "Editable": false,
+  "QuoteLineConfigurationId": 39,
+  "FieldName": "Trantow, Wolf and Goodwin",
+  "Label": "ut",
+  "Tooltip": "qui",
+  "Editable": true,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 597,
+  "Rank": 107,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldType": "System.String",
+      "FieldLength": 552
     }
   }
 }

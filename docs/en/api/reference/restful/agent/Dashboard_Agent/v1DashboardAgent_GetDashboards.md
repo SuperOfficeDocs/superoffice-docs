@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dashboard/GetDashboards
 uid: v1DashboardAgent_GetDashboards
+generated: true
 ---
 
 # POST Agents/Dashboard/GetDashboards
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 274
+  "AssociateId": 745
 }
 ```
 
@@ -92,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 359,
-    "AssociateId": 81,
-    "Caption": "dolore",
+    "DashboardId": 118,
+    "AssociateId": 912,
+    "Caption": "iste",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 281,
-        "Caption": "dolores",
-        "Description": "Digitized asynchronous archive",
-        "ChartName": "Gerlach Group",
-        "ChartId": "dolor",
+        "DashboardTileId": 97,
+        "Caption": "vitae",
+        "Description": "Total transitional parallelism",
+        "ChartName": "Friesen LLC",
+        "ChartId": "aspernatur",
         "IsDefault": false,
-        "AssociateId": 955,
-        "GroupId": 264,
-        "SelectionId": 907,
-        "Config": "sed",
+        "AssociateId": 206,
+        "GroupId": 359,
+        "SelectionId": 70,
+        "Config": "atque",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -122,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 240
+            "FieldType": "System.Int32",
+            "FieldLength": 620
           }
         }
       }
@@ -132,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldType": "System.String",
+        "FieldLength": 654
       }
     }
   }

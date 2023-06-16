@@ -2,17 +2,10 @@
 uid: ProjecthadowSelectionCombined
 title: ProjecthadowSelectionCombined
 description: Implementation of the provider for the combined selection
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ProjecthadowSelectionCombined"
+keywords: ProjecthadowSelectionCombined archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ProjecthadowSelectionCombined"
@@ -128,6 +121,10 @@ Implementation of the provider for the combined selection
 |saintTicketCategory|listAny|Category|  |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |sale/icon|listAny|Category: Displays the icon for an activity type| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity| x |
@@ -228,6 +225,10 @@ Implementation of the provider for the combined selection
 |appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |appointment/contactId|listAny|Company ID: Database ID of company| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 |appointment/projectId|listAny|Project ID: Database ID of project record| x |
 |appointment/saleId|int|Sale ID: The database ID of the sale record| x |
@@ -328,6 +329,10 @@ Implementation of the provider for the combined selection
 |document/documentId|int|Document ID: Database ID of document record| x |
 |document/keywords|string|Keywords | x |
 |document/ourref|string|Our ref.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |document/yourref|string|Your ref.| x |
 |document/attention|string|Salutation| x |
 |document/subject|string|Subject| x |
@@ -428,6 +433,10 @@ Implementation of the provider for the combined selection
 |projectMember/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |projectMember/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |projectMember/personAssociateId|associate|Our contact: Displays our contact| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |projectMember/personCategory|listAny|Category| x |
 |projectMember/personBusiness|listAny|Business| x |
@@ -528,6 +537,10 @@ Implementation of the provider for the combined selection
 |projectMember/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/personAssociate/associateDbId|associate|ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMember/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectMember/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -628,6 +641,10 @@ Implementation of the provider for the combined selection
 |projectMember/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 |projectMember/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
 |projectMember/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |projectMember/streetAddress/addressId|int|Street address - Address ID: Database ID for the address record| x |
 |projectMember/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
@@ -728,6 +745,10 @@ Implementation of the provider for the combined selection
 |projectMember/SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
 |projectMember/saintSaleStatus|listAny|With status|  |
 |projectMember/saintAmountClass|listAny|Amount class|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/saintActivityType|listAny|SAINT type|  |
 |projectMember/saintDirection|listAny|Direction|  |
 |projectMember/saintIntention|listAny|Intention|  |
@@ -746,7 +767,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjecthadowSelectionCombined?$select=getNoRows,name,projectAssociate/contactId,projectMember/email/emailBounceCount,projectMember/personExtra/x_person_boolean
+GET /api/v1/archive/ProjecthadowSelectionCombined?$select=projectPublish/isPublished,sale/probPercent,appointment/time,appointment/updatedBy,projectMember/countryId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

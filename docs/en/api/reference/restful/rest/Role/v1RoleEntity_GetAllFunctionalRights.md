@@ -1,6 +1,7 @@
 ---
 title: GET Role/{roleType}/FunctionRight
 uid: v1RoleEntity_GetAllFunctionalRights
+generated: true
 ---
 
 # GET Role/{roleType}/FunctionRight
@@ -77,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "Medhurst Inc and Sons",
-    "ToolTip": "Qui aut nemo autem.",
-    "Deleted": true,
-    "Rank": 615,
-    "Type": "magni",
-    "ColorBlock": 351,
-    "IconHint": "quia",
+    "Id": 929,
+    "Name": "Lemke-Dibbert",
+    "ToolTip": "Eligendi et beatae.",
+    "Deleted": false,
+    "Rank": 821,
+    "Type": "possimus",
+    "ColorBlock": 57,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2019-01-17T03:51:33.8802911+01:00",
+    "LastChanged": "2013-10-19T16:00:48.211547+02:00",
     "ChildItems": [
       {
-        "Id": 513,
-        "Name": "Dooley, Pouros and Nader",
-        "ToolTip": "Nihil asperiores harum aliquam eum eum provident.",
+        "Id": 408,
+        "Name": "Windler Group",
+        "ToolTip": "Eos qui qui beatae ab unde.",
         "Deleted": false,
-        "Rank": 996,
-        "Type": "dolore",
-        "ColorBlock": 192,
-        "IconHint": "nulla",
-        "Selected": false,
-        "LastChanged": "2013-07-16T03:51:33.8802911+02:00",
+        "Rank": 59,
+        "Type": "aliquam",
+        "ColorBlock": 263,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "1999-12-29T16:00:48.211547+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "soluta",
+        "ExtraInfo": "et",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Zula Leuschke",
+        "FullName": "Prof. Hortense Paige Mayer IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 483
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "ab",
-    "Hidden": true,
-    "FullName": "Heather Gutkowski",
+    "ExtraInfo": "iusto",
+    "StyleHint": "placeat",
+    "Hidden": false,
+    "FullName": "Eleonore Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldLength": 428
       }
     }
   }

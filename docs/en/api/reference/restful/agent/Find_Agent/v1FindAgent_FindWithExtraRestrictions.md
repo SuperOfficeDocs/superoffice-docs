@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/FindWithExtraRestrictions
 uid: v1FindAgent_FindWithExtraRestrictions
+generated: true
 ---
 
 # POST Agents/Find/FindWithExtraRestrictions
@@ -87,20 +88,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eaque",
-  "ProviderName": "Stiedemann Inc and Sons",
-  "StorageKey": "rerum",
+  "StorageType": "quam",
+  "ProviderName": "Tremblay-Miller",
+  "StorageKey": "culpa",
   "ExtraRestrictions": [
     {
-      "Name": "Bashirian, O'Reilly and Schinner",
-      "Operator": "hic",
+      "Name": "Corkery, Cartwright and Kohler",
+      "Operator": "dignissimos",
       "Values": [
-        "eligendi",
-        "optio"
+        "sequi",
+        "velit"
       ],
       "DisplayValues": [
-        "enim",
-        "velit"
+        "doloribus",
+        "dolor"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -108,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 699,
+      "InterParenthesis": 903,
       "InterOperator": "And",
-      "UniqueHash": 284
+      "UniqueHash": 367
     }
   ],
   "OrderBy": [
     {
-      "Name": "Kuvalis, Flatley and Runolfsdottir",
+      "Name": "Prohaska LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Kuvalis, Flatley and Runolfsdottir",
+      "Name": "Prohaska LLC",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "eius",
-    "cumque"
+    "nisi",
+    "quia"
   ],
-  "PageSize": 490,
-  "PageNumber": 414
+  "PageSize": 208,
+  "PageNumber": 751
 }
 ```
 
@@ -141,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Langworth, Jacobs and Cummerata",
-      "DisplayTooltip": "eveniet",
-      "DisplayType": "eligendi",
-      "CanOrderBy": true,
-      "Name": "Nikolaus, Douglas and Luettgen",
+      "DisplayName": "Hermiston LLC",
+      "DisplayTooltip": "sunt",
+      "DisplayType": "quis",
+      "CanOrderBy": false,
+      "Name": "Trantow-Gleason",
       "CanRestrictBy": false,
-      "RestrictionType": "eos",
-      "RestrictionListName": "Harris, Volkman and Harvey",
+      "RestrictionType": "aut",
+      "RestrictionListName": "Lakin-Wisoky",
       "IsVisible": false,
-      "ExtraInfo": "ipsa",
-      "Width": "nesciunt",
-      "IconHint": "delectus",
-      "HeadingIconHint": "qui"
+      "ExtraInfo": "nihil",
+      "Width": "voluptatem",
+      "IconHint": "dolorem",
+      "HeadingIconHint": "natus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Greenholt Group",
-      "PrimaryKey": 172,
+      "EntityName": "Mraz Inc and Sons",
+      "PrimaryKey": 968,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
+          "DisplayValue": "voluptatibus",
           "TooltipHint": "doloribus",
-          "LinkHint": "velit"
+          "LinkHint": "minus"
         }
       },
-      "LinkHint": "officia",
-      "StyleHint": "reiciendis",
+      "LinkHint": "officiis",
+      "StyleHint": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 18
         }
       }
     }
   ],
-  "RowCount": 976,
+  "RowCount": 512,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldType": "System.Int32",
+      "FieldLength": 501
     }
   }
 }

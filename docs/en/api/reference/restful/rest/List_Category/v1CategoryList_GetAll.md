@@ -1,6 +1,7 @@
 ---
 title: GET List/Category/Items
 uid: v1CategoryList_GetAll
+generated: true
 ---
 
 # GET List/Category/Items
@@ -24,7 +25,7 @@ Gets all the Category items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Category/Items?includeDeleted=True
+GET /api/v1/List/Category/Items?includeDeleted=False
 ```
 
 
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 105,
-    "Name": "Corkery Inc and Sons",
-    "Tooltip": "nostrum",
+    "Id": 99,
+    "Name": "Kuhn-Miller",
+    "Tooltip": "consequuntur",
     "Deleted": true,
-    "UdListDefinitionId": 825,
-    "Rank": 266,
+    "UdListDefinitionId": 246,
+    "Rank": 438,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldLength": 1002
       }
     }
   }

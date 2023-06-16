@@ -1,6 +1,7 @@
 ---
 title: POST Hierarchy/{domain}/{path}
 uid: v1HierarchyEntity_AddHierarchyToPath
+generated: true
 ---
 
 # POST Hierarchy/{domain}/{path}
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 396,
+  "HierarchyId": 983,
   "Domain": "Dashboards",
-  "Name": "Jacobs, Jast and Wyman",
-  "Fullname": "porro",
-  "ParentId": 773,
+  "Name": "Fisher-Doyle",
+  "Fullname": "doloremque",
+  "ParentId": 186,
   "Children": [
     {
-      "HierarchyId": 185,
+      "HierarchyId": 409,
       "Domain": "Dashboards",
-      "Name": "Simonis LLC",
-      "Fullname": "et",
-      "ParentId": 986,
+      "Name": "Conroy, DuBuque and Schinner",
+      "Fullname": "sed",
+      "ParentId": 805,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1996-07-07T03:51:33.6928335+02:00",
-      "RegisteredAssociateId": 187,
-      "Updated": "2012-03-04T03:51:33.6928335+01:00",
-      "UpdatedAssociateId": 27,
+      "Registered": "2004-01-19T16:00:47.9928249+01:00",
+      "RegisteredAssociateId": 104,
+      "Updated": "2018-05-03T16:00:47.9928249+02:00",
+      "UpdatedAssociateId": 546,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 719
+          "FieldType": "System.Int32",
+          "FieldLength": 611
         }
       }
     }
   ],
-  "Registered": "1999-12-03T03:51:33.6928335+01:00",
-  "RegisteredAssociateId": 167,
-  "Updated": "2003-04-23T03:51:33.6928335+02:00",
-  "UpdatedAssociateId": 40,
+  "Registered": "2013-09-07T16:00:47.9928249+02:00",
+  "RegisteredAssociateId": 191,
+  "Updated": "2016-11-15T16:00:47.9928249+01:00",
+  "UpdatedAssociateId": 405,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldType": "System.String",
+      "FieldLength": 883
     }
   }
 }

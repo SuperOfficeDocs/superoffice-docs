@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/SaveRoleEntity
 uid: v1UserAgent_SaveRoleEntity
+generated: true
 ---
 
 # POST Agents/User/SaveRoleEntity
@@ -86,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 857,
-  "Name": "Boyer LLC",
-  "Tooltip": "aliquam",
+  "RoleId": 398,
+  "Name": "Ebert LLC",
+  "Tooltip": "ratione",
   "RoleType": "Anonymous",
-  "Deleted": 54,
-  "Rank": 29,
-  "Created": "2009-07-24T03:51:28.4589368+02:00",
-  "UseCategories": 309,
+  "Deleted": 755,
+  "Rank": 92,
+  "Created": "2007-07-21T16:00:42.2893736+02:00",
+  "UseCategories": 717,
   "CreatedBy": null,
-  "Updated": "1996-01-04T03:51:28.4589368+01:00",
+  "Updated": "2001-04-06T16:00:42.2893736+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -112,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 281,
-  "Name": "Senger, Kuhn and Mohr",
-  "Tooltip": "ea",
+  "RoleId": 957,
+  "Name": "Grant Inc and Sons",
+  "Tooltip": "cum",
   "RoleType": "Anonymous",
-  "Deleted": 673,
-  "Rank": 576,
-  "Created": "2003-05-11T03:51:28.4589368+02:00",
-  "UseCategories": 798,
+  "Deleted": 65,
+  "Rank": 924,
+  "Created": "2022-11-10T16:00:42.2893736+01:00",
+  "UseCategories": 542,
   "CreatedBy": null,
-  "Updated": "2014-08-12T03:51:28.4589368+02:00",
+  "Updated": "2020-11-04T16:00:42.2893736+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -129,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 92
     }
   }
 }

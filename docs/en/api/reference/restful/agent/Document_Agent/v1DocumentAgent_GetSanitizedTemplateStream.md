@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetSanitizedTemplateStream
 uid: v1DocumentAgent_GetSanitizedTemplateStream
+generated: true
 ---
 
 # POST Agents/Document/GetSanitizedTemplateStream
@@ -71,13 +72,13 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Reinger Inc and Sons",
-  "AllowPersonal": true,
-  "UiCulture": "ea"
+  "TemplateName": "Nienow Group",
+  "AllowPersonal": false,
+  "UiCulture": "deleniti"
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: GET Script/{uniqueIdentifier}
 uid: v1Script_GetCRMScriptByUniqueIdentifier
+generated: true
 ---
 
 # GET Script/{uniqueIdentifier}
@@ -69,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "rerum",
-  "Name": "Stroman-Spencer",
-  "Description": "Synchronised national superstructure",
-  "IncludeId": "dolores",
-  "Source": "error",
-  "Registered": "1998-10-29T03:51:34.2709333+01:00",
-  "RegisteredBy": "minus",
-  "Updated": "2021-10-14T03:51:34.2709333+02:00",
-  "UpdatedBy": "neque",
-  "Path": "et",
+  "UniqueIdentifier": "est",
+  "Name": "Turcotte, Franecki and Jacobson",
+  "Description": "Compatible asynchronous neural-net",
+  "IncludeId": "ex",
+  "Source": "voluptatibus",
+  "Registered": "1997-06-20T16:00:48.7427419+02:00",
+  "RegisteredBy": "maiores",
+  "Updated": "2006-01-02T16:00:48.7427419+01:00",
+  "UpdatedBy": "et",
+  "Path": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 136
     }
   }
 }

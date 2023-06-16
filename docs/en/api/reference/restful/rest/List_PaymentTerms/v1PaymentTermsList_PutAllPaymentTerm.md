@@ -1,6 +1,7 @@
 ---
 title: PUT List/PaymentTerm/Items
 uid: v1PaymentTermsList_PutAllPaymentTerm
+generated: true
 ---
 
 # PUT List/PaymentTerm/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 544,
-    "Name": "Heathcote LLC",
-    "Tooltip": "velit",
+    "Id": 740,
+    "Name": "Walker-Bailey",
+    "Tooltip": "iure",
     "Deleted": false,
-    "UdListDefinitionId": 842,
-    "Rank": 135
+    "UdListDefinitionId": 763,
+    "Rank": 520
   },
   {
-    "Id": 544,
-    "Name": "Heathcote LLC",
-    "Tooltip": "velit",
+    "Id": 740,
+    "Name": "Walker-Bailey",
+    "Tooltip": "iure",
     "Deleted": false,
-    "UdListDefinitionId": 842,
-    "Rank": 135
+    "UdListDefinitionId": 763,
+    "Rank": 520
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Watsica-Bergstrom",
-    "Tooltip": "est",
+    "Id": 614,
+    "Name": "Hammes LLC",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "UdListDefinitionId": 272,
-    "Rank": 950,
+    "UdListDefinitionId": 167,
+    "Rank": 865,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 329
+        "FieldLength": 410
       }
     }
   }

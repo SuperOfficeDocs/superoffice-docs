@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetKeyByValueAndIdentifier
 uid: v1ForeignSystemAgent_GetKeyByValueAndIdentifier
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetKeyByValueAndIdentifier
@@ -88,12 +89,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lubowitz-Sipes",
-  "DeviceName": "Stroman Inc and Sons",
-  "DeviceIdentifier": "in",
-  "KeyName": "Nolan LLC",
+  "ApplicationName": "Keeling Inc and Sons",
+  "DeviceName": "Lindgren-Hauck",
+  "DeviceIdentifier": "eveniet",
+  "KeyName": "Mante, Wuckert and Yundt",
   "KeyValue": "ullam",
-  "TableName": "Reinger, Johnson and Dickens"
+  "TableName": "Ruecker, Frami and Hoppe"
 }
 ```
 
@@ -104,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "provident",
-  "Value": "quaerat",
-  "RecordId": 390,
-  "CreatedDate": "2016-05-10T03:51:27.3498217+02:00",
-  "UpdatedDate": "2017-05-02T03:51:27.3498217+02:00",
-  "UpdatedBy": "distinctio",
-  "CreatedBy": "saepe",
-  "TableName": "Cremin, Kris and Beier",
+  "Key": "quia",
+  "Value": "ratione",
+  "RecordId": 846,
+  "CreatedDate": "2009-08-08T16:00:41.0705907+02:00",
+  "UpdatedDate": "2022-07-25T16:00:41.0705907+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "unde",
+  "TableName": "Kling-Bayer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldType": "System.Int32",
+      "FieldLength": 54
     }
   }
 }

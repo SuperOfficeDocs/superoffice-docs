@@ -1,17 +1,11 @@
 ---
 uid: projectassociate
 title: projectassociate
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "projectassociate"
+keywords: mdoprovider mdo provider projectassociate
+description: MDO provider for associates that are members of a project
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "projectassociate" MDO List

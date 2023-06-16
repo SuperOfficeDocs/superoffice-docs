@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/GetAppData
 uid: v1BLOBAgent_GetAppData
+generated: true
 ---
 
 # POST Agents/BLOB/GetAppData
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/BLOB/GetAppData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repudiandae"
+  "Key": "praesentium"
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"consequuntur"
+"ut"
 ```

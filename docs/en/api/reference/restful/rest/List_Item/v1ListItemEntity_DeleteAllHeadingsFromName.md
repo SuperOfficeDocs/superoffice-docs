@@ -1,6 +1,7 @@
 ---
 title: DEL List/{name}/Headings
 uid: v1ListItemEntity_DeleteAllHeadingsFromName
+generated: true
 ---
 
 # DEL List/{name}/Headings

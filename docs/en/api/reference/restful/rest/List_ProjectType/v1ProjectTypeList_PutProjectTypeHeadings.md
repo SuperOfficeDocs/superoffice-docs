@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProjectType/Headings
 uid: v1ProjectTypeList_PutProjectTypeHeadings
+generated: true
 ---
 
 # PUT List/ProjectType/Headings
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 307,
-    "Name": "Rutherford-Schumm",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 878,
-    "UdListDefinitionId": 707
+    "HeadingId": 583,
+    "Name": "Rowe, Heathcote and Farrell",
+    "Tooltip": "debitis",
+    "Deleted": false,
+    "Rank": 610,
+    "UdListDefinitionId": 421
   },
   {
-    "HeadingId": 307,
-    "Name": "Rutherford-Schumm",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 878,
-    "UdListDefinitionId": 707
+    "HeadingId": 583,
+    "Name": "Rowe, Heathcote and Farrell",
+    "Tooltip": "debitis",
+    "Deleted": false,
+    "Rank": 610,
+    "UdListDefinitionId": 421
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 257,
-    "Name": "Bahringer Inc and Sons",
-    "Tooltip": "earum",
-    "Deleted": true,
-    "Rank": 684,
-    "UdListDefinitionId": 53,
+    "HeadingId": 202,
+    "Name": "Howe Group",
+    "Tooltip": "fuga",
+    "Deleted": false,
+    "Rank": 142,
+    "UdListDefinitionId": 949,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 168
       }
     }
   }

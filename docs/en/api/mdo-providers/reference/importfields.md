@@ -1,17 +1,11 @@
 ---
 uid: importfields
 title: importfields
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "importfields"
+keywords: mdoprovider mdo provider importfields
+description: MDO provider for column headers used in import
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "importfields" MDO List

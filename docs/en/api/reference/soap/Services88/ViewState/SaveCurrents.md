@@ -1,6 +1,6 @@
 ---
 title: Services88.ViewStateAgent.SaveCurrents SOAP
-generated: 1
+generated: true
 uid: Services88-ViewState-SaveCurrents
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: DEL Contact/UdefLayout/{progidOrLabel}
 uid: v1ContactEntity_DeleteUdefFieldInfo
+generated: true
 ---
 
 # DEL Contact/UdefLayout/{progidOrLabel}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

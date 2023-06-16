@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveExtAppEntity
 uid: v1ListAgent_SaveExtAppEntity
+generated: true
 ---
 
 # POST Agents/List/SaveExtAppEntity
@@ -108,28 +109,28 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 618,
-  "Name": "Prosacco Inc and Sons",
-  "Tooltip": "perferendis",
+  "ExtAppId": 772,
+  "Name": "Torp LLC",
+  "Tooltip": "impedit",
   "Deleted": false,
-  "Rank": 673,
-  "Filename": "consequatur",
-  "Parameters": "asperiores",
-  "Workdir": "amet",
+  "Rank": 140,
+  "Filename": "quo",
+  "Parameters": "culpa",
+  "Workdir": "nihil",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 973,
+  "Icon": 755,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "maxime"
+  "Path": "consequatur"
 }
 ```
 
@@ -140,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 675,
-  "Name": "Nikolaus-Beer",
-  "Tooltip": "accusantium",
-  "Deleted": true,
-  "Rank": 802,
-  "Filename": "perspiciatis",
-  "Parameters": "ullam",
-  "Workdir": "voluptates",
+  "ExtAppId": 622,
+  "Name": "Morar-Lesch",
+  "Tooltip": "tempora",
+  "Deleted": false,
+  "Rank": 399,
+  "Filename": "consequatur",
+  "Parameters": "fugit",
+  "Workdir": "optio",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 485,
-  "WaitToFinish": false,
+  "Icon": 978,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "quaerat",
+  "Path": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldType": "System.String",
+      "FieldLength": 771
     }
   }
 }

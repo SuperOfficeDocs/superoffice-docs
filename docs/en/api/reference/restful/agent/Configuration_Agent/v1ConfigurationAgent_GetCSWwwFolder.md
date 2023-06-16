@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetCSWwwFolder
 uid: v1ConfigurationAgent_GetCSWwwFolder
+generated: true
 ---
 
 # POST Agents/Configuration/GetCSWwwFolder
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Agents/Configuration/GetCSWwwFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -68,5 +69,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sunt"
+"culpa"
 ```

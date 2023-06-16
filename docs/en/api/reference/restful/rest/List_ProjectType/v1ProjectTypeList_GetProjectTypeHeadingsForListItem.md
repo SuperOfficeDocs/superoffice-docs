@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectType/Items/{id}/Headings
 uid: v1ProjectTypeList_GetProjectTypeHeadingsForListItem
+generated: true
 ---
 
 # GET List/ProjectType/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 562,
-    "Name": "Crooks LLC",
-    "ToolTip": "Recusandae adipisci expedita dolore vel ut.",
+    "Id": 368,
+    "Name": "Batz Inc and Sons",
+    "ToolTip": "Ipsam quis.",
     "Deleted": true,
-    "Rank": 929,
-    "Type": "sequi",
-    "ColorBlock": 994,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2014-01-07T03:51:34.8489374+01:00",
+    "Rank": 735,
+    "Type": "dolorum",
+    "ColorBlock": 16,
+    "IconHint": "ipsa",
+    "Selected": true,
+    "LastChanged": "2010-12-20T16:00:49.211436+01:00",
     "ChildItems": [
       {
-        "Id": 267,
-        "Name": "Stokes LLC",
-        "ToolTip": "Nemo illo rerum est a.",
+        "Id": 18,
+        "Name": "Walsh-Greenfelder",
+        "ToolTip": "Recusandae qui.",
         "Deleted": false,
-        "Rank": 663,
-        "Type": "minima",
-        "ColorBlock": 952,
-        "IconHint": "numquam",
+        "Rank": 545,
+        "Type": "distinctio",
+        "ColorBlock": 806,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2020-01-30T03:51:34.8489374+01:00",
+        "LastChanged": "2015-12-16T16:00:49.211436+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "explicabo",
-        "Hidden": true,
-        "FullName": "Mrs. Hoyt Ernser DVM",
+        "ExtraInfo": "ad",
+        "StyleHint": "harum",
+        "Hidden": false,
+        "FullName": "Mrs. Rosendo Dickens PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 465
+            "FieldType": "System.String",
+            "FieldLength": 213
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "sint",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Roslyn Osinski",
+    "FullName": "Meghan Spencer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldLength": 994
       }
     }
   }

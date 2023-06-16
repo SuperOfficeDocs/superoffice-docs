@@ -1,6 +1,6 @@
 ---
 title: Services88.AppointmentAgent.GetTaskListItems SOAP
-generated: 1
+generated: true
 uid: Services88-Appointment-GetTaskListItems
 ---
 

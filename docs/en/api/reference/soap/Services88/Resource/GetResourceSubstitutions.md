@@ -1,6 +1,6 @@
 ---
 title: Services88.ResourceAgent.GetResourceSubstitutions SOAP
-generated: 1
+generated: true
 uid: Services88-Resource-GetResourceSubstitutions
 ---
 

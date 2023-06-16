@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultCurrencyEntity
 uid: v1ListAgent_CreateDefaultCurrencyEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultCurrencyEntity
@@ -62,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 106,
-  "Name": "Wisoky-Murray",
-  "Tooltip": "ipsum",
-  "Rank": 553,
-  "Rate": 29030.242,
-  "Units": 4400.1359999999995,
-  "Deleted": false,
+  "CurrencyId": 89,
+  "Name": "Feest, Kunde and Batz",
+  "Tooltip": "praesentium",
+  "Rank": 252,
+  "Rate": 2560.478,
+  "Units": 28920.552,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 588
     }
   }
 }

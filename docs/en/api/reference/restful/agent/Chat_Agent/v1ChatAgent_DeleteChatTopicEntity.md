@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/DeleteChatTopicEntity
 uid: v1ChatAgent_DeleteChatTopicEntity
+generated: true
 ---
 
 # POST Agents/Chat/DeleteChatTopicEntity
@@ -24,7 +25,7 @@ Deletes the ChatTopicEntity
 | ChatTopicEntityId | int32 | **Required** The id of the ChatTopicEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Chat/DeleteChatTopicEntity?ChatTopicEntityId=447
+POST /api/v1/Agents/Chat/DeleteChatTopicEntity?ChatTopicEntityId=789
 ```
 
 

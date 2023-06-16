@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/CreateDefaultMailboxEntity
 uid: v1CustomerServiceAgent_CreateDefaultMailboxEntity
+generated: true
 ---
 
 # POST Agents/CustomerService/CreateDefaultMailboxEntity
@@ -72,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 44,
+  "MailInFilterId": 185,
   "ServerType": "Facebook",
-  "Address": "sit",
-  "Username": "cumque",
-  "Password": "totam",
-  "Server": "quia",
-  "Port": 55,
+  "Address": "dignissimos",
+  "Username": "eius",
+  "Password": "dolorum",
+  "Server": "fuga",
+  "Port": 553,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 756
     }
   }
 }

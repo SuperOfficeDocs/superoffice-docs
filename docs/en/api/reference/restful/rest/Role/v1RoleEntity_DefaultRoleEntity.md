@@ -1,6 +1,7 @@
 ---
 title: GET Role/default
 uid: v1RoleEntity_DefaultRoleEntity
+generated: true
 ---
 
 # GET Role/default
@@ -70,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 16,
-  "Name": "Hilll-Nolan",
-  "Tooltip": "et",
+  "RoleId": 588,
+  "Name": "Rath LLC",
+  "Tooltip": "non",
   "RoleType": "Anonymous",
-  "Deleted": 149,
-  "Rank": 385,
-  "Created": "1999-04-26T03:51:33.864677+02:00",
-  "UseCategories": 540,
+  "Deleted": 389,
+  "Rank": 467,
+  "Created": "2008-03-29T16:00:48.1959227+01:00",
+  "UseCategories": 13,
   "CreatedBy": null,
-  "Updated": "2009-06-20T03:51:33.864677+02:00",
+  "Updated": "2004-03-31T16:00:48.1959227+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldType": "System.String",
+      "FieldLength": 598
     }
   }
 }

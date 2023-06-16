@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/CreateDefaultDocumentPreview
 uid: v1DocumentAgent_CreateDefaultDocumentPreview
+generated: true
 ---
 
 # POST Agents/Document/CreateDefaultDocumentPreview
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,16 +70,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pfeffer LLC",
-  "Type": "perspiciatis",
-  "Size": 718,
+  "Name": "Schiller Group",
+  "Type": "voluptatibus",
+  "Size": 457,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldLength": 530
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/Accept
 uid: v1AppointmentAgent_Accept
+generated: true
 ---
 
 # POST Agents/Appointment/Accept
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/Appointment/Accept
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 340,
+  "AppointmentId": 270,
   "UpdateMode": "OnlyThis"
 }
 ```

@@ -2,17 +2,10 @@
 uid: QuoteLineStaticSelection
 title: QuoteLineStaticSelection
 description: Static archive Provider for the Selection quoteline archive.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "QuoteLineStaticSelection"
+keywords: QuoteLineStaticSelection archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "QuoteLineStaticSelection"
@@ -128,6 +121,10 @@ Static archive Provider for the Selection quoteline archive.
 |alternative/version/extraField5|string|Extra field 5: One of the extra fields on the product; meaning is installation dependent| x |
 |alternative/version/quote/quoteId|int|Quote ID: SuperOffice database ID of quote record| x |
 |alternative/version/quote/poNumber|string|P.O. Number: Customer's purchase order number| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/orderComment|string|Comment: Customer's comment| x |
 |alternative/version/quote/connectionId|int|DB-ID: Database ID| x |
 |alternative/version/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
@@ -228,6 +225,10 @@ Static archive Provider for the Selection quoteline archive.
 |alternative/version/quote/sale/person/personDeletedDate|datetime|Sale - Deleted date: Deleted date|  |
 |alternative/version/quote/sale/person/hasCompany|bool|Sale - Has company: The contact is associated with a company| x |
 |alternative/version/quote/sale/person/isProjectMember|bool|Sale - Is project member: This person is a project member| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/person/isStakeholder|bool|Sale - Is stakeholder: This person is a sale stakeholder| x |
 |alternative/version/quote/sale/person/phone/formattedNumber|string|Sale - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personDirectPhone/formattedNumber|string|Sale - Direct - Phone: Displays phone number|  |
@@ -328,6 +329,10 @@ Static archive Provider for the Selection quoteline archive.
 |alternative/version/quote/sale/person/personAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/person/personAssociate/contactCategory|listAny|Sale - Category: Category| x |
 |alternative/version/quote/sale/person/personAssociate/role|listAny|Sale - Role: Role| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/person/personAssociate/assocName|associate|Sale - User ID: User ID| x |
 |alternative/version/quote/sale/person/personAssociate/assocTooltip|string|Sale - Description: Description|  |
 |alternative/version/quote/sale/person/personAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
@@ -428,6 +433,10 @@ Static archive Provider for the Selection quoteline archive.
 |alternative/version/quote/sale/contact/postAddress/addressId|int|Sale - Postal address - Address ID: Database ID for the address record| x |
 |alternative/version/quote/sale/contact/postAddress/line1|string|Sale - Postal address - Address 1: First line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/line2|string|Sale - Postal address - Address 2: Second line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/postAddress/line3|string|Sale - Postal address - Address 3: Third line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/county|string|Sale - Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |alternative/version/quote/sale/contact/postAddress/city|string|Sale - Postal address - City: This criterion corresponds to the City field on the Company card.| x |
@@ -528,6 +537,10 @@ Static archive Provider for the Selection quoteline archive.
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivities|int|Sale - Number of non-completed activities|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivitiesInPeriod|int|Sale - Number of non-completed activities in last 90 days|  |
 |alternative/version/quote/sale/contact/LastActivity|date|Sale - Date of last activity|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/LastCompletedActivity|date|Sale - Date of last completed activity|  |
 |alternative/version/quote/sale/contact/LastDoByActivity|date|Sale - Date of last non-completed activity|  |
 |alternative/version/quote/sale/contact/NumberOfSales|int|Sale - Number of sales|  |
@@ -628,6 +641,10 @@ Static archive Provider for the Selection quoteline archive.
 |alternative/version/quote/sale/project/projectAssociate/lastName|string|Sale - Project - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/project/projectAssociate/middleName|string|Sale - Project - Middle Name: Displays the contact's middle name.| x |
 |alternative/version/quote/sale/project/projectAssociate/fullName|string|Sale - Project - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/projectAssociate/contactId|int|Sale - Project - Company ID: Database ID of the company the user belongs to|  |
 |alternative/version/quote/sale/project/projectAssociate/personId|int|Sale - Project - Contact ID: Database ID of the contact row|  |
 |alternative/version/quote/sale/project/projectAssociate/mrMrs|string|Sale - Project - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -723,7 +740,7 @@ Static archive Provider for the Selection quoteline archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineStaticSelection?$select=alternative/version/quote/sale/person/title,alternative/version/quote/sale/contact/searchPhone/formattedNumber,alternative/version/quote/sale/contact/contactAssociate/contactName,alternative/version/quote/sale/contact/contactExtra/x_contact_time
+GET /api/v1/archive/QuoteLineStaticSelection?$select=PriceUnitSubscriptionUnit,alternative/erpDiscountAmount,alternative/version/quote/sale/person/personCategory,alternative/version/quote/sale/person/personInfo/infoText,alternative/version/quote/sale/person/personAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

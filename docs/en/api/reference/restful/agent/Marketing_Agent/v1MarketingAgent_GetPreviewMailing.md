@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/GetPreviewMailing
 uid: v1MarketingAgent_GetPreviewMailing
+generated: true
 ---
 
 # POST Agents/Marketing/GetPreviewMailing
@@ -90,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 550
+  "ShipmentAddrId": 179
 }
 ```
 
@@ -101,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "1999-11-28T03:51:27.5060342+01:00",
+  "SendingTime": "1998-06-16T16:00:41.2580675+02:00",
   "Status": "Blocked",
-  "ShipmentId": 106,
-  "ShipmentDescription": "Enhanced heuristic benchmark",
-  "FromAddress": "et",
-  "ContactId": 204,
-  "ContactName": "Haley, Hartmann and Macejkovic",
-  "PersonId": 316,
-  "PersonFullName": "Prof. Allie Rogahn",
-  "ShipmentType": "voluptates",
-  "MessageId": 173,
-  "MessageSubject": "placeat",
-  "DocumentMessageId": 794,
-  "Opened": "2013-07-06T03:51:27.5060342+02:00",
-  "LinkClicks": 60,
+  "ShipmentId": 967,
+  "ShipmentDescription": "Implemented client-server projection",
+  "FromAddress": "voluptatem",
+  "ContactId": 917,
+  "ContactName": "Heaney-Schmidt",
+  "PersonId": 362,
+  "PersonFullName": "Sim Zboncak II",
+  "ShipmentType": "ratione",
+  "MessageId": 894,
+  "MessageSubject": "laudantium",
+  "DocumentMessageId": 750,
+  "Opened": "2005-06-03T16:00:41.2580675+02:00",
+  "LinkClicks": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 348
+      "FieldType": "System.Int32",
+      "FieldLength": 150
     }
   }
 }

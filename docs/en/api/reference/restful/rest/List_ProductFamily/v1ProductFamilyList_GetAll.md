@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductFamily/Items
 uid: v1ProductFamilyList_GetAll
+generated: true
 ---
 
 # GET List/ProductFamily/Items
@@ -24,7 +25,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=False
+GET /api/v1/List/ProductFamily/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "Mante Group",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "UdListDefinitionId": 288,
-    "Rank": 749,
+    "Id": 581,
+    "Name": "Purdy LLC",
+    "Tooltip": "id",
+    "Deleted": true,
+    "UdListDefinitionId": 758,
+    "Rank": 901,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 171
+        "FieldType": "System.Int32",
+        "FieldLength": 425
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/ChangeCurrency
 uid: v1ListAgent_ChangeCurrency
+generated: true
 ---
 
 # POST Agents/List/ChangeCurrency
@@ -73,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 25015.588,
-  "FromCurrency": "natus",
-  "ToCurrency": "natus"
+  "Amount": 28384.638,
+  "FromCurrency": "non",
+  "ToCurrency": "rerum"
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-19411.996
+3240.556
 ```

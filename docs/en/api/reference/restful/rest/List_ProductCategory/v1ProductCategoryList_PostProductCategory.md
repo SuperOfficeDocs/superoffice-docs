@@ -1,6 +1,7 @@
 ---
 title: POST List/ProductCategory/Items
 uid: v1ProductCategoryList_PostProductCategory
+generated: true
 ---
 
 # POST List/ProductCategory/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 600,
-  "Name": "Leannon, Morissette and Flatley",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 885,
-  "Rank": 291
+  "Id": 1002,
+  "Name": "Torp, Will and Greenfelder",
+  "Tooltip": "cumque",
+  "Deleted": true,
+  "UdListDefinitionId": 857,
+  "Rank": 661
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 440,
-  "Name": "Ebert-Hoppe",
-  "Tooltip": "quas",
-  "Deleted": false,
-  "UdListDefinitionId": 956,
-  "Rank": 648,
+  "Id": 938,
+  "Name": "Waelchi-Lueilwitz",
+  "Tooltip": "doloremque",
+  "Deleted": true,
+  "UdListDefinitionId": 324,
+  "Rank": 192,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldType": "System.String",
+      "FieldLength": 694
     }
   }
 }

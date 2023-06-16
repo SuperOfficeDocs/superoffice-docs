@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/CreateDefaultChatTopicAgent
 uid: v1ChatAgent_CreateDefaultChatTopicAgent
+generated: true
 ---
 
 # POST Agents/Chat/CreateDefaultChatTopicAgent
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,11 +70,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 453,
+  "TopicId": 149,
   "User": null,
   "CanListen": false,
-  "CanRespond": false,
-  "CanManage": false,
-  "CanNotify": true
+  "CanRespond": true,
+  "CanManage": true,
+  "CanNotify": false
 }
 ```

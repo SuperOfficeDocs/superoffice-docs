@@ -1,6 +1,7 @@
 ---
 title: GET List/Competitor
 uid: v1CompetitorList_GetListDefinition
+generated: true
 ---
 
 # GET List/Competitor
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 804,
-  "Name": "Luettgen-Stroman",
-  "Tooltip": "cupiditate",
+  "Id": 235,
+  "Name": "Kassulke, Gutmann and Kertzmann",
+  "Tooltip": "voluptatum",
   "Deleted": false,
-  "Rank": 852,
+  "Rank": 533,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldType": "System.Int32",
+      "FieldLength": 161
     }
   },
   "_Links": {

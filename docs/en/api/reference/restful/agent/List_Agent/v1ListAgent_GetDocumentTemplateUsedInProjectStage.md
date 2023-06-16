@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetDocumentTemplateUsedInProjectStage
 uid: v1ListAgent_GetDocumentTemplateUsedInProjectStage
+generated: true
 ---
 
 # POST Agents/List/GetDocumentTemplateUsedInProjectStage
@@ -71,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 259
+  "DocumentTemplateId": 903
 }
 ```
 
@@ -82,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "repellendus",
-  "occaecati"
+  "incidunt",
+  "est"
 ]
 ```

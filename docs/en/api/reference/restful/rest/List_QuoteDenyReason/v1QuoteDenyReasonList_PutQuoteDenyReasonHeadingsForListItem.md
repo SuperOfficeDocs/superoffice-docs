@@ -1,6 +1,7 @@
 ---
 title: PUT List/QuoteDenyReason/Items/{id}/Headings
 uid: v1QuoteDenyReasonList_PutQuoteDenyReasonHeadingsForListItem
+generated: true
 ---
 
 # PUT List/QuoteDenyReason/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Bogan LLC",
-    "ToolTip": "A tempora accusantium in esse quas molestiae.",
+    "Id": 371,
+    "Name": "Langosh-Sanford",
+    "ToolTip": "Voluptatem adipisci quis ducimus ipsum dicta.",
     "Deleted": false,
-    "Rank": 340,
-    "Type": "optio",
-    "ColorBlock": 194,
-    "IconHint": "veritatis",
+    "Rank": 326,
+    "Type": "accusamus",
+    "ColorBlock": 198,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2018-11-24T03:51:34.8801783+01:00",
+    "LastChanged": "2012-06-21T16:00:49.2426861+02:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Corkery-Heathcote",
-        "ToolTip": "Est est dolor vitae.",
+        "Id": 883,
+        "Name": "Medhurst-Wolf",
+        "ToolTip": "Provident quasi.",
         "Deleted": false,
-        "Rank": 66,
-        "Type": "aut",
-        "ColorBlock": 826,
-        "IconHint": "dignissimos",
-        "Selected": true,
-        "LastChanged": "2020-01-01T03:51:34.8801783+01:00",
+        "Rank": 947,
+        "Type": "natus",
+        "ColorBlock": 477,
+        "IconHint": "doloremque",
+        "Selected": false,
+        "LastChanged": "2011-01-27T16:00:49.2426861+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "deleniti",
-        "Hidden": false,
-        "FullName": "Tavares Kihn"
+        "ExtraInfo": "aut",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Alta West"
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "blanditiis",
-    "Hidden": true,
-    "FullName": "Shawna Katharina Wintheiser I"
+    "ExtraInfo": "explicabo",
+    "StyleHint": "voluptatum",
+    "Hidden": false,
+    "FullName": "Liam Heller IV"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Bergstrom-Zboncak",
-    "ToolTip": "Animi perspiciatis ut.",
+    "Id": 769,
+    "Name": "Gerhold Group",
+    "ToolTip": "Et architecto enim aut.",
     "Deleted": false,
-    "Rank": 813,
-    "Type": "voluptas",
-    "ColorBlock": 802,
-    "IconHint": "assumenda",
+    "Rank": 322,
+    "Type": "accusamus",
+    "ColorBlock": 362,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2001-05-10T03:51:34.8801783+02:00",
+    "LastChanged": "1997-08-14T16:00:49.2426861+02:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Johnston, Johnston and Hegmann",
-        "ToolTip": "Officia qui eveniet exercitationem est adipisci.",
-        "Deleted": true,
-        "Rank": 928,
-        "Type": "quas",
-        "ColorBlock": 603,
-        "IconHint": "tenetur",
-        "Selected": false,
-        "LastChanged": "2018-04-29T03:51:34.8801783+02:00",
+        "Id": 21,
+        "Name": "Thompson, Grady and Turcotte",
+        "ToolTip": "Ea nemo nam quis.",
+        "Deleted": false,
+        "Rank": 805,
+        "Type": "et",
+        "ColorBlock": 150,
+        "IconHint": "impedit",
+        "Selected": true,
+        "LastChanged": "1996-12-08T16:00:49.2426861+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "quam",
+        "ExtraInfo": "non",
+        "StyleHint": "magni",
         "Hidden": false,
-        "FullName": "Hope Smitham",
+        "FullName": "Maia D'Amore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 839
+            "FieldType": "System.String",
+            "FieldLength": 435
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Cyril Rempel",
+    "ExtraInfo": "ut",
+    "StyleHint": "adipisci",
+    "Hidden": true,
+    "FullName": "Elmira Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldLength": 389
       }
     }
   }

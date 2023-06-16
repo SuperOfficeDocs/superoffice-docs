@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/AddDeviceByIdentifier
 uid: v1ForeignSystemAgent_AddDeviceByIdentifier
+generated: true
 ---
 
 # POST Agents/ForeignSystem/AddDeviceByIdentifier
@@ -82,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Beier-Hermann",
-  "DeviceName": "Torp-Zboncak",
-  "DeviceIdentifier": "quisquam"
+  "ApplicationName": "Johnson Group",
+  "DeviceName": "Wunsch Group",
+  "DeviceIdentifier": "distinctio"
 }
 ```
 
@@ -99,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 219,
-  "Name": "Purdy Group",
-  "CreatedDate": "2017-01-19T03:51:27.3498217+01:00",
-  "UpdatedDate": "2021-02-18T03:51:27.3498217+01:00",
-  "AssociateFullName": "Modesto Botsford",
-  "CreatedBy": "quia",
-  "UpdatedBy": "officia",
-  "DeviceIdentifier": "earum",
-  "ForeignAppId": 648,
+  "ForeignDeviceId": 712,
+  "Name": "Kerluke, Dickens and Mayer",
+  "CreatedDate": "2005-03-17T16:00:41.0705907+01:00",
+  "UpdatedDate": "1998-05-14T16:00:41.0705907+02:00",
+  "AssociateFullName": "Theodora McDermott",
+  "CreatedBy": "sed",
+  "UpdatedBy": "harum",
+  "DeviceIdentifier": "est",
+  "ForeignAppId": 93,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 435
     }
   }
 }

@@ -1,5 +1,6 @@
 ---
 title: SaleStakeholder
+generated: true
 ---
 
 ```http

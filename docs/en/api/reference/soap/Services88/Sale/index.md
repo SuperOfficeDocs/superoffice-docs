@@ -1,7 +1,7 @@
 ---
 title: Services88.SaleAgent SOAP
 uid: Services88-Sale-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Sale SOAP

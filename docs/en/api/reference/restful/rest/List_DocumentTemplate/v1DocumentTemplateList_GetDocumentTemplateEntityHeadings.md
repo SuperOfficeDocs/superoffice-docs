@@ -1,6 +1,7 @@
 ---
 title: GET List/DocumentTemplate/Headings
 uid: v1DocumentTemplateList_GetDocumentTemplateEntityHeadings
+generated: true
 ---
 
 # GET List/DocumentTemplate/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 437,
-    "Name": "Zemlak LLC",
-    "Tooltip": "suscipit",
-    "Deleted": false,
-    "Rank": 442,
-    "UdListDefinitionId": 989,
+    "HeadingId": 734,
+    "Name": "Watsica-Welch",
+    "Tooltip": "eaque",
+    "Deleted": true,
+    "Rank": 760,
+    "UdListDefinitionId": 954,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 255
+        "FieldLength": 657
       }
     }
   }

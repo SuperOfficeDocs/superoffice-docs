@@ -1,6 +1,7 @@
 ---
 title: PUT List/QuoteApproveReason/Items/{id}
 uid: v1QuoteApproveReasonList_PutQuoteApproveReason
+generated: true
 ---
 
 # PUT List/QuoteApproveReason/Items/{id}
@@ -77,16 +78,16 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 646,
-  "Name": "Lesch-Nikolaus",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "UdListDefinitionId": 502,
-  "Rank": 235
+  "Id": 940,
+  "Name": "Lebsack, Dicki and McLaughlin",
+  "Tooltip": "atque",
+  "Deleted": true,
+  "UdListDefinitionId": 351,
+  "Rank": 806
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 894,
-  "Name": "Gleichner, Frami and Luettgen",
-  "Tooltip": "atque",
+  "Id": 881,
+  "Name": "Cruickshank, Ebert and Crist",
+  "Tooltip": "iste",
   "Deleted": true,
-  "UdListDefinitionId": 810,
-  "Rank": 329,
+  "UdListDefinitionId": 91,
+  "Rank": 599,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldLength": 307
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentTerm/Items/{id}/Headings
 uid: v1PaymentTermsList_GetPaymentTermHeadingsForListItem
+generated: true
 ---
 
 # GET List/PaymentTerm/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 232,
-    "Name": "Schaden-Purdy",
-    "ToolTip": "Non provident et ratione occaecati aut ducimus.",
+    "Id": 571,
+    "Name": "O'Keefe, Dickens and Legros",
+    "ToolTip": "Sunt cumque officiis excepturi et repellat incidunt.",
     "Deleted": false,
-    "Rank": 887,
-    "Type": "ut",
-    "ColorBlock": 461,
-    "IconHint": "labore",
+    "Rank": 444,
+    "Type": "deserunt",
+    "ColorBlock": 344,
+    "IconHint": "debitis",
     "Selected": false,
-    "LastChanged": "2016-11-27T03:51:34.7395889+01:00",
+    "LastChanged": "2000-07-26T16:00:49.086451+02:00",
     "ChildItems": [
       {
-        "Id": 529,
-        "Name": "Flatley, Kunde and Raynor",
-        "ToolTip": "Doloremque incidunt harum.",
+        "Id": 697,
+        "Name": "Johnson, Strosin and Toy",
+        "ToolTip": "Necessitatibus illum reprehenderit est officia pariatur sed.",
         "Deleted": false,
-        "Rank": 582,
-        "Type": "perferendis",
-        "ColorBlock": 667,
-        "IconHint": "minima",
+        "Rank": 718,
+        "Type": "accusantium",
+        "ColorBlock": 708,
+        "IconHint": "culpa",
         "Selected": true,
-        "LastChanged": "2002-03-22T03:51:34.7395889+01:00",
+        "LastChanged": "2009-06-23T16:00:49.086451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "doloribus",
-        "Hidden": false,
-        "FullName": "Adela Zemlak",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "exercitationem",
+        "Hidden": true,
+        "FullName": "Leanne Leannon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 743
+            "FieldLength": 66
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Javier Wilkinson V",
+    "ExtraInfo": "dolor",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Prof. Ewell Candelario Hodkiewicz DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 377
+        "FieldLength": 996
       }
     }
   }

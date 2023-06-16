@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/GetPreviewFaqEntry
 uid: v1CustomerServiceAgent_GetPreviewFaqEntry
+generated: true
 ---
 
 # POST Agents/CustomerService/GetPreviewFaqEntry
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 516
+  "KbEntryId": 171
 }
 ```
 
@@ -91,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "occaecati",
-  "RegisteredByFullName": "Willard Block",
-  "Updated": "2001-09-29T03:51:26.9592824+02:00",
-  "Question": "facere",
-  "Answer": "sed",
+  "Title": "adipisci",
+  "RegisteredByFullName": "Buddy Schultz",
+  "Updated": "1999-11-06T16:00:40.5081328+01:00",
+  "Question": "cum",
+  "Answer": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldLength": 639
     }
   }
 }

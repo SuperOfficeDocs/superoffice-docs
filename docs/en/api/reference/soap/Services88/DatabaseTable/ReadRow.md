@@ -1,6 +1,6 @@
 ---
 title: Services88.DatabaseTableAgent.ReadRow SOAP
-generated: 1
+generated: true
 uid: Services88-DatabaseTable-ReadRow
 ---
 

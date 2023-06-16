@@ -2,17 +2,10 @@
 uid: CRMScripts
 title: CRMScripts
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "CRMScripts"
+keywords: CRMScripts archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "CRMScripts"
@@ -47,6 +40,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hierarchyFullname| *None* |Hierarchy name: The full name/path from table hierarchy|  |
 |hierarchyName| *None* |Hierarchy name: The full name/path from table hierarchy|  |
 |hierarchyParentId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
+|hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
 |screenChooserId| *None* |ScreenChooser ID: Primary key for table ScreenChooser|  |
 |screenType| *None* |ScreenType: Determines type of ScreenChooser|  |
 |enabled| *None* |Enabled: Enables or disables this ScreenChooser|  |

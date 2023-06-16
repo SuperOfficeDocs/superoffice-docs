@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetLocalizedTextsByType
 uid: v1ListAgent_GetLocalizedTextsByType
+generated: true
 ---
 
 # POST Agents/List/GetLocalizedTextsByType
@@ -82,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "enim",
-    "quae"
+    "itaque",
+    "enim"
   ]
 }
 ```
@@ -96,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 109,
-    "ResourceId": 902,
-    "Text": "minus",
+    "LanguageId": 647,
+    "ResourceId": 616,
+    "Text": "deleniti",
     "Type": "Column",
-    "LocalizedTextId": 121,
+    "LocalizedTextId": 283,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 514
+        "FieldLength": 577
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sentry/CanCreateAppointmentInAssociateDiaries
 uid: v1SentryAgent_CanCreateAppointmentInAssociateDiaries
+generated: true
 ---
 
 # POST Agents/Sentry/CanCreateAppointmentInAssociateDiaries
@@ -74,8 +75,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    122,
-    548
+    433,
+    615
   ]
 }
 ```

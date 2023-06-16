@@ -1,6 +1,6 @@
 ---
 title: Services88.MDOAgent.GetListIdByListName SOAP
-generated: 1
+generated: true
 uid: Services88-MDO-GetListIdByListName
 ---
 

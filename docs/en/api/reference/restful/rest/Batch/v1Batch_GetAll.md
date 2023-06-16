@@ -1,6 +1,7 @@
 ---
 title: GET BatchTask
 uid: v1Batch_GetAll
+generated: true
 ---
 
 # GET BatchTask
@@ -69,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=reprehenderit
-GET /api/v1/BatchTask?$top=784
-GET /api/v1/BatchTask?$skip=133
+GET /api/v1/BatchTask?$entities=explicabo
+GET /api/v1/BatchTask?$top=879
+GET /api/v1/BatchTask?$skip=775
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=itaque
+GET /api/v1/BatchTask?$context=fugiat
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
@@ -128,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ipsam",
+  "odata.nextLink": "tempora",
   "value": [
     {
-      "PrimaryKey": 6959,
+      "PrimaryKey": 8049,
       "EntityName": "sale",
-      "saleId": 6959,
-      "contactId": 2385,
-      "name": "Weissnat LLC"
+      "saleId": 8049,
+      "contactId": 9860,
+      "name": "Lynch Inc and Sons"
     },
     {
-      "PrimaryKey": 1547,
+      "PrimaryKey": 9581,
       "EntityName": "sale",
-      "saleId": 1547,
-      "contactId": 2513,
-      "name": "Morissette, Bergnaum and Sawayn"
+      "saleId": 9581,
+      "contactId": 136,
+      "name": "Runolfsson LLC"
     }
   ]
 }

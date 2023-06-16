@@ -1,6 +1,7 @@
 ---
 title: GET List/{udListDefinitionName}/Items
 uid: v1ListItemEntity_GetAllFromListName
+generated: true
 ---
 
 # GET List/{udListDefinitionName}/Items
@@ -73,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Hilll, Schowalter and Fritsch",
-    "Tooltip": "debitis",
-    "Deleted": true,
-    "UdListDefinitionId": 667,
-    "Rank": 847,
+    "Id": 941,
+    "Name": "Kihn-Macejkovic",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 484,
+    "Rank": 351,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 364
+        "FieldType": "System.Int32",
+        "FieldLength": 139
       }
     }
   }

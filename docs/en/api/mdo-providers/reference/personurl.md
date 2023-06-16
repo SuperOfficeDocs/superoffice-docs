@@ -1,17 +1,11 @@
 ---
 uid: personurl
 title: personurl
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "personurl"
+keywords: mdoprovider mdo provider personurl
+description: List of urls (web pages) matching the search value, possibly restricted to a given company or person.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "personurl" MDO List

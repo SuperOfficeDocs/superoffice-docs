@@ -1,6 +1,7 @@
 ---
 title: PUT List/ReasonSold/Items/{id}
 uid: v1ReasonSoldList_PutReasonSold
+generated: true
 ---
 
 # PUT List/ReasonSold/Items/{id}
@@ -77,16 +78,16 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 538,
-  "Name": "Lockman-Schuppe",
-  "Tooltip": "aperiam",
+  "Id": 215,
+  "Name": "Strosin Group",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "UdListDefinitionId": 872,
-  "Rank": 449
+  "UdListDefinitionId": 812,
+  "Rank": 971
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 409,
-  "Name": "Hegmann, Dicki and Weber",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "UdListDefinitionId": 971,
-  "Rank": 431,
+  "Id": 754,
+  "Name": "Reichel-Bashirian",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "UdListDefinitionId": 384,
+  "Rank": 334,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 504
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentType/Items
 uid: v1PaymentTypeList_GetAll
+generated: true
 ---
 
 # GET List/PaymentType/Items
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 916,
-    "Name": "Towne, Howe and O'Reilly",
-    "Tooltip": "nostrum",
-    "Deleted": true,
-    "UdListDefinitionId": 44,
-    "Rank": 342,
+    "Id": 38,
+    "Name": "Kuhn-Blick",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "UdListDefinitionId": 839,
+    "Rank": 87,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldLength": 79
       }
     }
   }

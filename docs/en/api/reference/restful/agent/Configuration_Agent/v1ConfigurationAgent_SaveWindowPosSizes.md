@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/SaveWindowPosSizes
 uid: v1ConfigurationAgent_SaveWindowPosSizes
+generated: true
 ---
 
 # POST Agents/Configuration/SaveWindowPosSizes
@@ -88,17 +89,17 @@ Content-Type: application/json; charset=utf-8
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "et",
-      "PersonId": 72,
-      "AssociateId": 598,
-      "ExtraId": 249,
-      "ExtraInfo": "provident",
-      "Height": 910,
-      "LeftX": 978,
+      "OwnerWindow": "suscipit",
+      "PersonId": 186,
+      "AssociateId": 420,
+      "ExtraId": 243,
+      "ExtraInfo": "exercitationem",
+      "Height": 247,
+      "LeftX": 613,
       "State": "Maximized",
-      "UpperY": 137,
-      "Width": 116,
-      "WindowPosSizeId": 982
+      "UpperY": 707,
+      "Width": 367,
+      "WindowPosSizeId": 458
     }
   ]
 }
@@ -112,23 +113,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "sit",
-    "PersonId": 652,
-    "AssociateId": 359,
-    "ExtraId": 965,
-    "ExtraInfo": "quo",
-    "Height": 558,
-    "LeftX": 403,
+    "OwnerWindow": "voluptatem",
+    "PersonId": 78,
+    "AssociateId": 285,
+    "ExtraId": 500,
+    "ExtraInfo": "ut",
+    "Height": 74,
+    "LeftX": 898,
     "State": "Maximized",
-    "UpperY": 302,
-    "Width": 213,
-    "WindowPosSizeId": 572,
+    "UpperY": 648,
+    "Width": 555,
+    "WindowPosSizeId": 123,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 349
+        "FieldLength": 570
       }
     }
   }

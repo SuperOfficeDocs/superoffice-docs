@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/RemoveContactSelectionMembersFromSearch
 uid: v1SelectionAgent_RemoveContactSelectionMembersFromSearch
+generated: true
 ---
 
 # POST Agents/Selection/RemoveContactSelectionMembersFromSearch
@@ -68,12 +69,12 @@ OK
 POST /api/v1/Agents/Selection/RemoveContactSelectionMembersFromSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 98,
-  "StorageKey": "autem"
+  "SelectionId": 809,
+  "StorageKey": "minus"
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-404
+500
 ```

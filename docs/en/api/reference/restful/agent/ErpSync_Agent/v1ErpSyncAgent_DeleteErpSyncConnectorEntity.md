@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/DeleteErpSyncConnectorEntity
 uid: v1ErpSyncAgent_DeleteErpSyncConnectorEntity
+generated: true
 ---
 
 # POST Agents/ErpSync/DeleteErpSyncConnectorEntity
@@ -26,7 +27,7 @@ Deletes the ErpSyncConnectorEntity
 | ErpSyncConnectorEntityId | int32 | **Required** The id of the ErpSyncConnectorEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?ErpSyncConnectorEntityId=745
+POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?ErpSyncConnectorEntityId=74
 ```
 
 
@@ -57,7 +58,7 @@ No Content
 POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

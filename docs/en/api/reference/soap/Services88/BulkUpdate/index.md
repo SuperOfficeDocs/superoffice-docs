@@ -1,7 +1,7 @@
 ---
 title: Services88.BulkUpdateAgent SOAP
 uid: Services88-BulkUpdate-soap
-generated: 1
+generated: true
 ---
 
 # Services88 BulkUpdate SOAP

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/CreateDefaultForeignAppEntity
 uid: v1ForeignSystemAgent_CreateDefaultForeignAppEntity
+generated: true
 ---
 
 # POST Agents/ForeignSystem/CreateDefaultForeignAppEntity
@@ -62,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 322,
-  "Name": "Luettgen-Boyer",
-  "CreatedDate": "2019-03-16T03:51:27.3342054+01:00",
-  "UpdatedDate": "2004-10-21T03:51:27.3342054+02:00",
+  "ForeignAppId": 982,
+  "Name": "Kirlin Inc and Sons",
+  "CreatedDate": "2017-09-26T16:00:41.0549706+02:00",
+  "UpdatedDate": "2005-12-13T16:00:41.0549706+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 390,
-      "Name": "Fritsch Inc and Sons",
-      "CreatedDate": "2016-02-08T03:51:27.3342054+01:00",
-      "UpdatedDate": "2006-12-16T03:51:27.3342054+01:00",
-      "AssociateFullName": "Karson Johnston",
-      "CreatedBy": "expedita",
-      "UpdatedBy": "dolorem",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 335,
+      "ForeignDeviceId": 362,
+      "Name": "Donnelly, Sporer and Bauch",
+      "CreatedDate": "1999-01-22T16:00:41.0549706+01:00",
+      "UpdatedDate": "2012-07-05T16:00:41.0549706+02:00",
+      "AssociateFullName": "Wellington Conroy",
+      "CreatedBy": "sint",
+      "UpdatedBy": "perspiciatis",
+      "DeviceIdentifier": "asperiores",
+      "ForeignAppId": 844,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldLength": 514
         }
       }
     }
@@ -103,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldType": "System.String",
+      "FieldLength": 149
     }
   }
 }

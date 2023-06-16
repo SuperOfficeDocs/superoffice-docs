@@ -1,5 +1,5 @@
 ---
-generated: 1
+generated: true
 uid: wsdl-Services88-Selection
 title: Services88.SelectionAgent WSDL
 ---
@@ -838,6 +838,9 @@ title: Services88.SelectionAgent WSDL
               <xs:element minOccurs="0" name="CautionWarning" type="q81:AppointmentCautionWarning" />
               <xs:element minOccurs="0" name="JoinVideomeetUrl" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CentralserviceVideomeetId" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Agenda" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="InternalNotes" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="q81:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q81:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q81:StringDictionary" />

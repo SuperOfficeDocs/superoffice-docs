@@ -1,6 +1,7 @@
 ---
 title: DEL Relation/{id}
 uid: v1ContactRelationEntity_DeleteContactRelationEntity
+generated: true
 ---
 
 # DEL Relation/{id}
@@ -52,7 +53,7 @@ ContactRelationEntity deleted.
 DELETE /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetNewMail
 uid: v1EMailAgent_GetNewMail
+generated: true
 ---
 
 # POST Agents/EMail/GetNewMail
@@ -83,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    548,
-    829
+    614,
+    551
   ]
 }
 ```
@@ -102,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 535,
-    "MessageId": "sed",
-    "Subject": "blanditiis",
+    "ServerId": 441,
+    "MessageId": "illo",
+    "Subject": "harum",
     "From": null,
     "To": [
       {
-        "ContactId": 814,
-        "ContactName": "Parker, Bergnaum and Klocko",
-        "PersonId": 965,
-        "PersonName": "Turcotte, Stanton and Lang",
-        "AssociateId": 586,
-        "Address": "vel",
-        "EmailId": 653,
+        "ContactId": 365,
+        "ContactName": "Champlin-Herzog",
+        "PersonId": 499,
+        "PersonName": "Stroman-Collier",
+        "AssociateId": 403,
+        "Address": "vitae",
+        "EmailId": 781,
         "DuplicatePersonIds": [
-          60,
-          193
+          978,
+          291
         ],
-        "Name": "Lueilwitz, Keeling and Wintheiser",
+        "Name": "Wiza, Koch and Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 127
+            "FieldLength": 178
           }
         }
       }
     ],
-    "Sent": "2009-01-19T03:51:27.1623664+01:00",
+    "Sent": "2001-05-05T16:00:40.8518697+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 547,
+    "Size": 682,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 731
+        "FieldType": "System.Int32",
+        "FieldLength": 952
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetPreferences
 uid: v1PreferenceAgent_GetPreferences
+generated: true
 ---
 
 # POST Agents/Preference/GetPreferences
@@ -84,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "qui",
-      "Key": "omnis"
+      "Section": "sunt",
+      "Key": "at"
     },
     {
-      "Section": "qui",
-      "Key": "omnis"
+      "Section": "sunt",
+      "Key": "at"
     }
   ]
 }
@@ -110,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "commodi",
+    "RawValue": "quod",
     "Specification": null,
-    "DisplayValue": "voluptatem",
-    "DisplayTooltip": "aspernatur",
+    "DisplayValue": "mollitia",
+    "DisplayTooltip": "enim",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 899,
-    "PrefDescId": 829,
-    "TableName": "Howe Group",
-    "UserPreferenceId": 772,
+    "TargetId": 635,
+    "PrefDescId": 700,
+    "TableName": "Ryan-Reichert",
+    "UserPreferenceId": 121,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldType": "System.String",
+        "FieldLength": 48
       }
     }
   }

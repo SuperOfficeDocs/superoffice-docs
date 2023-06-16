@@ -1,6 +1,7 @@
 ---
 title: GET MDOList
 uid: v1MDOList_GetListOfLists
+generated: true
 ---
 
 # GET MDOList
@@ -49,7 +50,7 @@ OK
 GET /api/v1/MDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -59,7 +60,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "earum",
-  "libero"
+  "doloribus",
+  "molestias"
 ]
 ```

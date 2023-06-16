@@ -2,17 +2,10 @@
 uid: MailFolder
 title: MailFolder
 description: Provides list of subscribed and unsubscribed mail folders available for an account
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "MailFolder"
+keywords: MailFolder archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "MailFolder"

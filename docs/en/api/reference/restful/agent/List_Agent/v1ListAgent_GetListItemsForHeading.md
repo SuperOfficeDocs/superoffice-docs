@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetListItemsForHeading
 uid: v1ListAgent_GetListItemsForHeading
+generated: true
 ---
 
 # POST Agents/List/GetListItemsForHeading
@@ -91,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 263,
-  "HeadingId": 360
+  "UdListDefinitionId": 295,
+  "HeadingId": 412
 }
 ```
 
@@ -104,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "Ratke-Marks",
-    "ToolTip": "Quo et harum commodi rem.",
-    "Deleted": true,
-    "Rank": 619,
-    "Type": "sit",
-    "ColorBlock": 330,
-    "IconHint": "molestiae",
+    "Id": 228,
+    "Name": "Erdman, Stehr and Hagenes",
+    "ToolTip": "Non explicabo iusto assumenda.",
+    "Deleted": false,
+    "Rank": 523,
+    "Type": "error",
+    "ColorBlock": 875,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "1995-12-28T03:51:27.4279277+01:00",
+    "LastChanged": "2016-07-27T16:00:41.1643284+02:00",
     "ChildItems": [
       {
-        "Id": 219,
-        "Name": "Harris LLC",
-        "ToolTip": "Deserunt tempore fuga fugit alias architecto.",
+        "Id": 762,
+        "Name": "Lockman-White",
+        "ToolTip": "Voluptate quos et quis vel exercitationem.",
         "Deleted": false,
-        "Rank": 296,
-        "Type": "sapiente",
-        "ColorBlock": 621,
-        "IconHint": "pariatur",
-        "Selected": true,
-        "LastChanged": "2020-02-23T03:51:27.4279277+01:00",
+        "Rank": 125,
+        "Type": "aperiam",
+        "ColorBlock": 308,
+        "IconHint": "itaque",
+        "Selected": false,
+        "LastChanged": "2011-05-07T16:00:41.1643284+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "nostrum",
-        "Hidden": false,
-        "FullName": "Marquis Rosalinda Osinski Sr.",
+        "ExtraInfo": "illo",
+        "StyleHint": "dolore",
+        "Hidden": true,
+        "FullName": "Lonny Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 733
+            "FieldLength": 554
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "optio",
+    "ExtraInfo": "sint",
+    "StyleHint": "veritatis",
     "Hidden": false,
-    "FullName": "Kayli Bogan",
+    "FullName": "Lisa King",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 217
+        "FieldLength": 508
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumnsWithHeader
 uid: v1ArchiveAgent_GetArchiveListByColumnsWithHeader
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithHeader
@@ -105,51 +106,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Harvey, Olson and Effertz",
+  "ProviderName": "Kuhlman-Legros",
   "Columns": [
-    "qui",
-    "repellat"
+    "reiciendis",
+    "suscipit"
   ],
   "SortOrder": [
     {
-      "Name": "Hammes Inc and Sons",
+      "Name": "Strosin, Feest and Sanford",
       "Direction": "ASC"
     },
     {
-      "Name": "Hammes Inc and Sons",
+      "Name": "Strosin, Feest and Sanford",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Mertz Group",
-      "Operator": "dolorum",
+      "Name": "Hills Group",
+      "Operator": "aut",
       "Values": [
-        "eveniet",
-        "numquam"
+        "qui",
+        "aut"
       ],
       "DisplayValues": [
-        "facere",
-        "et"
+        "mollitia",
+        "est"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 138,
+      "InterParenthesis": 53,
       "InterOperator": "And",
-      "UniqueHash": 183
+      "UniqueHash": 745
     }
   ],
   "Entities": [
-    "ea",
-    "et"
+    "iusto",
+    "fugit"
   ],
-  "Page": 818,
-  "PageSize": 371,
-  "Options": "aperiam"
+  "Page": 954,
+  "PageSize": 36,
+  "Options": "illo"
 }
 ```
 
@@ -160,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 603,
+  "RowCount": 718,
   "Rows": [
     {
-      "EntityName": "Rippin-McCullough",
-      "PrimaryKey": 774,
+      "EntityName": "Kulas LLC",
+      "PrimaryKey": 237,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quisquam",
-          "TooltipHint": "fuga",
-          "LinkHint": "expedita"
+          "DisplayValue": "sint",
+          "TooltipHint": "quae",
+          "LinkHint": "commodi"
         }
       },
-      "LinkHint": "laudantium",
-      "StyleHint": "praesentium",
+      "LinkHint": "doloribus",
+      "StyleHint": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 374
+          "FieldLength": 967
         }
       }
     }
@@ -189,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 427
+      "FieldLength": 453
     }
   }
 }

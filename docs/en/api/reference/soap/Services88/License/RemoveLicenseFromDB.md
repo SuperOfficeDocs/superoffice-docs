@@ -1,6 +1,6 @@
 ---
 title: Services88.LicenseAgent.RemoveLicenseFromDB SOAP
-generated: 1
+generated: true
 uid: Services88-License-RemoveLicenseFromDB
 ---
 

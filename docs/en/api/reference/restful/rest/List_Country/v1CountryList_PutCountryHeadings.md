@@ -1,6 +1,7 @@
 ---
 title: PUT List/Country/Headings
 uid: v1CountryList_PutCountryHeadings
+generated: true
 ---
 
 # PUT List/Country/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 369,
-    "Name": "Halvorson Group",
-    "Tooltip": "id",
+    "HeadingId": 803,
+    "Name": "Stamm-Mohr",
+    "Tooltip": "laboriosam",
     "Deleted": false,
-    "Rank": 592,
-    "UdListDefinitionId": 468
+    "Rank": 633,
+    "UdListDefinitionId": 620
   },
   {
-    "HeadingId": 369,
-    "Name": "Halvorson Group",
-    "Tooltip": "id",
+    "HeadingId": 803,
+    "Name": "Stamm-Mohr",
+    "Tooltip": "laboriosam",
     "Deleted": false,
-    "Rank": 592,
-    "UdListDefinitionId": 468
+    "Rank": 633,
+    "UdListDefinitionId": 620
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 937,
-    "Name": "Pfannerstill, Aufderhar and Yundt",
-    "Tooltip": "sunt",
+    "HeadingId": 165,
+    "Name": "Collins, Klein and Howe",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "Rank": 307,
-    "UdListDefinitionId": 372,
+    "Rank": 775,
+    "UdListDefinitionId": 91,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 956
+        "FieldLength": 111
       }
     }
   }

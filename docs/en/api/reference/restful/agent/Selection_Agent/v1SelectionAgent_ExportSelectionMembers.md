@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/ExportSelectionMembers
 uid: v1SelectionAgent_ExportSelectionMembers
+generated: true
 ---
 
 # POST Agents/Selection/ExportSelectionMembers
@@ -69,12 +70,12 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 178,
-  "TemplateName": "Schiller-Emard",
+  "SelectionId": 377,
+  "TemplateName": "Balistreri-Bergstrom",
   "UseContacts": false
 }
 ```

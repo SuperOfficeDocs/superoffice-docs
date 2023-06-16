@@ -1,6 +1,7 @@
 ---
 title: PUT List/PaymentType
 uid: v1PaymentTypeList_SetListDefinition
+generated: true
 ---
 
 # PUT List/PaymentType
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 553,
-  "Name": "Wilkinson-Ullrich",
-  "Tooltip": "laborum",
+  "Id": 723,
+  "Name": "Homenick, Osinski and Tremblay",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 641,
+  "Rank": 397,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "non",
-  "InUseByUserDefinedFields": true
+  "ListType": "quas",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 504,
-  "Name": "Frami LLC",
-  "Tooltip": "velit",
+  "Id": 266,
+  "Name": "Upton Inc and Sons",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 89,
+  "Rank": 69,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolor",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "facere",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 598
+      "FieldType": "System.Int32",
+      "FieldLength": 498
     }
   }
 }

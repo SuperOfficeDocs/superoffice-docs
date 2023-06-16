@@ -1,6 +1,6 @@
 ---
 title: Services88.PersonAgent.AddBounce SOAP
-generated: 1
+generated: true
 uid: Services88-Person-AddBounce
 ---
 

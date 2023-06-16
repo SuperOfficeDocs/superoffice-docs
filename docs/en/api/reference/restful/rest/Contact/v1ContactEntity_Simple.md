@@ -1,6 +1,7 @@
 ---
 title: GET Contact/{id}/Simple
 uid: v1ContactEntity_Simple
+generated: true
 ---
 
 # GET Contact/{id}/Simple
@@ -84,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 755,
-  "Name": "O'Keefe, Lang and Nolan",
-  "OrgNr": "572170",
+  "ContactId": 799,
+  "Name": "Murphy-Wuckert",
+  "OrgNr": "1128457",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "quos",
-  "DirectPhone": "372-569-6562 x941",
-  "AssociateId": 929,
-  "CountryId": 598,
-  "EmailAddress": "allene.upton@morar.name",
-  "Kananame": "ipsa",
-  "EmailAddressName": "joanie_rempel@prosacco.name",
+  "City": "voluptate",
+  "DirectPhone": "939.088.2928 x38065",
+  "AssociateId": 595,
+  "CountryId": 743,
+  "EmailAddress": "blanca_mann@monahan.name",
+  "Kananame": "dolore",
+  "EmailAddressName": "reginald.hackett@cartwright.ca",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Ms. Lucio Retha Feil",
+  "AssociateFullName": "Boris DuBuque",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "aut",
-  "FullName": "Ms. Gino Juanita Kuvalis IV",
+  "FormattedAddress": "quod",
+  "FullName": "Thora Bruen",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 215,
-  "Number1": "491405",
-  "Number2": "1169369",
+  "ActiveErpLinks": 595,
+  "Number1": "1186224",
+  "Number2": "1302603",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldType": "System.String",
+      "FieldLength": 977
     }
   }
 }

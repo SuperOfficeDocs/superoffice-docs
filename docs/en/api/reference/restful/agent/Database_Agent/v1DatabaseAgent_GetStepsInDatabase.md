@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Database/GetStepsInDatabase
 uid: v1DatabaseAgent_GetStepsInDatabase
+generated: true
 ---
 
 # POST Agents/Database/GetStepsInDatabase
@@ -65,7 +66,7 @@ OK
 POST /api/v1/Agents/Database/GetStepsInDatabase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Haag Inc and Sons",
-    "StepNumber": 302,
+    "Name": "Donnelly Inc and Sons",
+    "StepNumber": 579,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 629
+        "FieldLength": 271
       }
     }
   },
   {
-    "Name": "Haag Inc and Sons",
-    "StepNumber": 302,
+    "Name": "Donnelly Inc and Sons",
+    "StepNumber": 579,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 629
+        "FieldLength": 271
       }
     }
   }

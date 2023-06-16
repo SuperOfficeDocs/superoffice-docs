@@ -1,6 +1,7 @@
 ---
 title: PATCH RelationDefinition/{id}
 uid: v1RelationDefinitionEntity_PatchRelationDefinitionEntity
+generated: true
 ---
 
 # PATCH RelationDefinition/{id}
@@ -114,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "iste",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "iste",
     "value": {}
   }
 ]
@@ -138,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 186,
-  "Name": "Gerlach Inc and Sons",
-  "Tooltip": "asperiores",
-  "PassiveText": "nemo",
+  "ReldefId": 688,
+  "Name": "Bradtke, Kuhlman and O'Connell",
+  "Tooltip": "quas",
+  "PassiveText": "dolore",
   "Deleted": false,
-  "Rank": 577,
+  "Rank": 425,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -151,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldLength": 153
     }
   },
   "_Links": {

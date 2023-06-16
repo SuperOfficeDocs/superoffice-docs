@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/SetChosenEntitiesV2
 uid: v1ArchiveAgent_SetChosenEntitiesV2
+generated: true
 ---
 
 # POST Agents/Archive/SetChosenEntitiesV2
@@ -69,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Skiles-Padberg",
-  "ProviderName": "Deckow, Glover and Robel",
-  "Context": "nisi",
-  "OwnerKeys": "et",
+  "GuiName": "Sauer, McDermott and Anderson",
+  "ProviderName": "Trantow Inc and Sons",
+  "Context": "ea",
+  "OwnerKeys": "voluptatem",
   "Entities": [
-    "repudiandae",
-    "quis"
+    "eos",
+    "repellat"
   ]
 }
 ```

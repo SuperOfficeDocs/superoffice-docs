@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetProviderNames
 uid: v1ArchiveAgent_GetProviderNames
+generated: true
 ---
 
 # POST Agents/Archive/GetProviderNames
@@ -69,7 +70,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "aperiam",
-  "dolores"
+  "ut",
+  "iusto"
 ]
 ```

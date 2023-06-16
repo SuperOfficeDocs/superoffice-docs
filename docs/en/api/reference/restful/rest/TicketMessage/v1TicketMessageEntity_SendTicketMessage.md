@@ -1,6 +1,7 @@
 ---
 title: POST TicketMessage/{id}/Send
 uid: v1TicketMessageEntity_SendTicketMessage
+generated: true
 ---
 
 # POST TicketMessage/{id}/Send
@@ -33,12 +34,12 @@ Send a message to recipients by email
 | gdprSource | string |  Obsolete |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=aliquam,odit
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=iure,eos
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=id,fuga
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=rerum
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=940
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=corrupti
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=iusto,voluptate
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=autem,sed
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=dicta,quaerat
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=ipsa
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=659
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=rerum
 ```
 
 
@@ -69,7 +70,7 @@ No Content
 POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

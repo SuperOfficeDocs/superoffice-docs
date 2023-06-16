@@ -1,6 +1,6 @@
 ---
 title: Services88.EMailAgent.GetEMailAddresses SOAP
-generated: 1
+generated: true
 uid: Services88-EMail-GetEMailAddresses
 ---
 

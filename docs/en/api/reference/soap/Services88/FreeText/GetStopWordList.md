@@ -1,6 +1,6 @@
 ---
 title: Services88.FreeTextAgent.GetStopWordList SOAP
-generated: 1
+generated: true
 uid: Services88-FreeText-GetStopWordList
 ---
 

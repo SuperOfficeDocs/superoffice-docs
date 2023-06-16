@@ -1,17 +1,11 @@
 ---
 uid: quotealternatives
 title: quotealternatives
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "quotealternatives"
+keywords: mdoprovider mdo provider quotealternatives
+description: Quote alternative selector for one Quote Version. Send QuoteVersionId=&lt;id&gt; in ExtraInfo to specify quote version id
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "quotealternatives" MDO List

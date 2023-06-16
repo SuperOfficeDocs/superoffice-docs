@@ -1,6 +1,7 @@
 ---
 title: POST Agents/MDO/GetListNames
 uid: v1MDOAgent_GetListNames
+generated: true
 ---
 
 # POST Agents/MDO/GetListNames
@@ -71,7 +72,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "sunt",
-  "eos"
+  "aut",
+  "est"
 ]
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetAllForeignKeysOnEntity
 uid: v1ForeignSystemAgent_GetAllForeignKeysOnEntity
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetAllForeignKeysOnEntity
@@ -70,12 +71,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "earum",
-  "EntityId": 456
+  "EntityType": "voluptates",
+  "EntityId": 243
 }
 ```
 
@@ -86,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "non",
-  "2": "nulla"
+  "1": "temporibus",
+  "2": "quibusdam"
 }
 ```

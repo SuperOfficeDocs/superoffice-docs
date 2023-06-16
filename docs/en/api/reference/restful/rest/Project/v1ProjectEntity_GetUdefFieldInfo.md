@@ -1,6 +1,7 @@
 ---
 title: GET Project/UdefLayout/{progidOrLabel}
 uid: v1ProjectEntity_GetUdefFieldInfo
+generated: true
 ---
 
 # GET Project/UdefLayout/{progidOrLabel}
@@ -92,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 96,
-  "ColumnId": 321,
-  "FieldDefault": "debitis",
-  "FieldHeight": 393,
-  "FieldLabel": "et",
-  "FieldLeft": 681,
-  "FieldTop": 367,
+  "UDefFieldId": 156,
+  "ColumnId": 314,
+  "FieldDefault": "id",
+  "FieldHeight": 352,
+  "FieldLabel": "impedit",
+  "FieldLeft": 945,
+  "FieldTop": 710,
   "FieldType": "Checkbox",
-  "FieldWidth": 722,
-  "FormatMask": "qui",
+  "FieldWidth": 375,
+  "FormatMask": "fugit",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 25,
-  "LabelLeft": 554,
-  "LabelTop": 471,
-  "LabelWidth": 893,
-  "LastVersionId": 14,
-  "ListTableId": 611,
+  "LabelHeight": 672,
+  "LabelLeft": 628,
+  "LabelTop": 964,
+  "LabelWidth": 943,
+  "LastVersionId": 217,
+  "ListTableId": 38,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 313,
-  "ProgId": "debitis",
+  "Page1LineNo": 184,
+  "ProgId": "modi",
   "IsReadOnly": false,
-  "ShortLabel": "eos",
-  "TabOrder": 735,
-  "TextLength": 864,
-  "Tooltip": "eveniet",
-  "UdefIdentity": 65,
-  "UDListDefinitionId": 784,
+  "ShortLabel": "quis",
+  "TabOrder": 256,
+  "TextLength": 275,
+  "Tooltip": "provident",
+  "UdefIdentity": 326,
+  "UDListDefinitionId": 460,
   "Justification": "Center",
-  "Version": 916,
-  "TemplateVariableName": "Romaguera Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Emmerich, Kunde and Corkery",
+  "Version": 892,
+  "TemplateVariableName": "Klocko LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Wolf Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 407
+      "FieldType": "System.Int32",
+      "FieldLength": 1000
     }
   }
 }

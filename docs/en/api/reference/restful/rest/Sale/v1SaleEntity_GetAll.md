@@ -1,6 +1,7 @@
 ---
 title: GET Sale
 uid: v1SaleEntity_GetAll
+generated: true
 ---
 
 # GET Sale
@@ -69,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=nobis
-GET /api/v1/Sale?$top=382
-GET /api/v1/Sale?$skip=666
+GET /api/v1/Sale?$entities=rerum
+GET /api/v1/Sale?$top=620
+GET /api/v1/Sale?$skip=988
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=harum
+GET /api/v1/Sale?$context=rerum
 GET /api/v1/Sale?$format=JSON
 GET /api/v1/Sale?$jsonSafe=False
 GET /api/v1/Sale?$output=Display
@@ -117,7 +118,7 @@ OK
 GET /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -128,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ipsam",
+  "odata.nextLink": "aut",
   "value": [
     {
-      "PrimaryKey": 2756,
+      "PrimaryKey": 2890,
       "EntityName": "sale",
-      "saleId": 2756,
-      "contactId": 2000,
-      "name": "Skiles LLC"
+      "saleId": 2890,
+      "contactId": 2538,
+      "name": "Heller-Hettinger"
     },
     {
-      "PrimaryKey": 6527,
+      "PrimaryKey": 660,
       "EntityName": "sale",
-      "saleId": 6527,
-      "contactId": 794,
-      "name": "Parker-Morissette"
+      "saleId": 660,
+      "contactId": 7135,
+      "name": "Walsh, Olson and Reynolds"
     }
   ]
 }

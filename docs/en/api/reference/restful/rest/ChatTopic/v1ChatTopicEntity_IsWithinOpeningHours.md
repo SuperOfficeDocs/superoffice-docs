@@ -1,6 +1,7 @@
 ---
 title: GET ChatTopic/{id}/IsOpen
 uid: v1ChatTopicEntity_IsWithinOpeningHours
+generated: true
 ---
 
 # GET ChatTopic/{id}/IsOpen

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CleanUpBookingDeleted
 uid: v1AppointmentAgent_CleanUpBookingDeleted
+generated: true
 ---
 
 # POST Agents/Appointment/CleanUpBookingDeleted
@@ -67,13 +68,13 @@ OK
 POST /api/v1/Agents/Appointment/CleanUpBookingDeleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    138,
-    743
+    956,
+    942
   ]
 }
 ```
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-312
+57
 ```

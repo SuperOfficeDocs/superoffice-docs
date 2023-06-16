@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetEMailAccountFromEMailAddress
 uid: v1EMailAgent_GetEMailAccountFromEMailAddress
+generated: true
 ---
 
 # POST Agents/EMail/GetEMailAccountFromEMailAddress
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "porro"
+  "FromAddress": "itaque"
 }
 ```
 
@@ -98,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 824,
-  "EMailAddress": "sequi",
-  "AssociateId": 27,
+  "EMailAccountId": 740,
+  "EMailAddress": "repellat",
+  "AssociateId": 975,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 531,
-  "ErrorCount": 756,
+  "AccountStatus": 626,
+  "ErrorCount": 886,
   "ErrorReason": "",
-  "InboxFolder": "nam",
-  "SentFolder": "assumenda",
+  "InboxFolder": "dolor",
+  "SentFolder": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 875
+      "FieldType": "System.Int32",
+      "FieldLength": 497
     }
   }
 }

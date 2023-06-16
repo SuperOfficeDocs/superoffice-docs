@@ -1,5 +1,6 @@
 ---
 title: License
+generated: true
 ---
 
 ```http

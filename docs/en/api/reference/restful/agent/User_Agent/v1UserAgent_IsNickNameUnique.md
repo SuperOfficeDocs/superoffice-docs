@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/IsNickNameUnique
 uid: v1UserAgent_IsNickNameUnique
+generated: true
 ---
 
 # POST Agents/User/IsNickNameUnique
@@ -70,12 +71,12 @@ OK
 POST /api/v1/Agents/User/IsNickNameUnique
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 232,
-  "NickName": "Witting, Harris and D'Amore"
+  "AssociateId": 783,
+  "NickName": "Schaden LLC"
 }
 ```
 

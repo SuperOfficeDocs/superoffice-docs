@@ -1,6 +1,7 @@
 ---
 title: PUT List/UserGroup/Headings
 uid: v1UserGroupList_PutUserGroupHeadings
+generated: true
 ---
 
 # PUT List/UserGroup/Headings
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 833,
-    "Name": "Bergnaum-Olson",
-    "Tooltip": "ratione",
+    "HeadingId": 223,
+    "Name": "Sanford LLC",
+    "Tooltip": "harum",
     "Deleted": false,
-    "Rank": 584,
-    "UdListDefinitionId": 570
+    "Rank": 692,
+    "UdListDefinitionId": 341
   },
   {
-    "HeadingId": 833,
-    "Name": "Bergnaum-Olson",
-    "Tooltip": "ratione",
+    "HeadingId": 223,
+    "Name": "Sanford LLC",
+    "Tooltip": "harum",
     "Deleted": false,
-    "Rank": 584,
-    "UdListDefinitionId": 570
+    "Rank": 692,
+    "UdListDefinitionId": 341
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 309,
-    "Name": "Hartmann, Hilll and Powlowski",
-    "Tooltip": "aliquam",
-    "Deleted": true,
-    "Rank": 116,
-    "UdListDefinitionId": 414,
+    "HeadingId": 476,
+    "Name": "Kutch-Hilpert",
+    "Tooltip": "saepe",
+    "Deleted": false,
+    "Rank": 821,
+    "UdListDefinitionId": 760,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 368
       }
     }
   }

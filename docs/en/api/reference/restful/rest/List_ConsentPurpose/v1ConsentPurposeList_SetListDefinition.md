@@ -1,6 +1,7 @@
 ---
 title: PUT List/ConsentPurpose
 uid: v1ConsentPurposeList_SetListDefinition
+generated: true
 ---
 
 # PUT List/ConsentPurpose
@@ -87,15 +88,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Dicki, Steuber and Heller",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "Rank": 123,
+  "Id": 407,
+  "Name": "Goodwin, Halvorson and Reichel",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 119,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 916,
-  "Name": "Schultz-Leannon",
-  "Tooltip": "eveniet",
+  "Id": 537,
+  "Name": "Herman-Kozey",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 60,
-  "IsCustomList": true,
+  "Rank": 792,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "cumque",
+  "ListType": "amet",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 933
     }
   }
 }

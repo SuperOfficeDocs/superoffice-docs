@@ -1,6 +1,7 @@
 ---
 title: PUT BatchTask/{Id}
 uid: v1Batch_UpdateBatchTask
+generated: true
 ---
 
 # PUT BatchTask/{Id}
@@ -110,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 173,
-  "Name": "Ernser Group",
-  "AssociateId": 877,
-  "DetailsTable": 103,
-  "DetailsRecord": 938,
-  "IsSystemTask": false,
+  "Id": 366,
+  "Name": "Sauer, Turner and Schuster",
+  "AssociateId": 880,
+  "DetailsTable": 535,
+  "DetailsRecord": 642,
+  "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "voluptatem",
-    "ParameterObject2": "eaque"
+    "ParameterObject1": "esse",
+    "ParameterObject2": "nisi"
   },
-  "LastStarted": "2018-03-23T03:51:34.1772068+01:00",
-  "Created": "2014-09-11T03:51:34.1772068+02:00",
-  "StartCount": 38,
-  "DatabaseSerialNumber": "298559",
-  "Context": "ipsum",
-  "Result": "earum",
+  "LastStarted": "2021-08-30T16:00:48.6333798+02:00",
+  "Created": "2003-02-19T16:00:48.6333798+01:00",
+  "StartCount": 472,
+  "DatabaseSerialNumber": "858724",
+  "Context": "et",
+  "Result": "dolore",
   "State": "All",
-  "Description": "Optional stable framework",
-  "Response": "hic",
-  "Request": "consequuntur",
-  "ProgressDescription": "Sharable needs-based methodology",
-  "ProgressPercent": 894,
-  "FileName": "Howell, Kirlin and Crooks",
+  "Description": "Seamless logistical benchmark",
+  "Response": "ut",
+  "Request": "nulla",
+  "ProgressDescription": "Visionary intermediate data-warehouse",
+  "ProgressPercent": 29,
+  "FileName": "Crona-Jewess",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -149,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 916,
-  "Name": "Upton-Dooley",
-  "AssociateId": 160,
-  "DetailsTable": 935,
-  "DetailsRecord": 849,
+  "Id": 465,
+  "Name": "Windler, Abbott and Sanford",
+  "AssociateId": 437,
+  "DetailsTable": 505,
+  "DetailsRecord": 203,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "nemo",
-    "ParameterObject2": "soluta"
+    "ParameterObject1": "reprehenderit",
+    "ParameterObject2": "voluptas"
   },
-  "LastStarted": "2009-05-10T03:51:34.1772068+02:00",
-  "Created": "1999-03-19T03:51:34.1772068+01:00",
-  "StartCount": 27,
-  "DatabaseSerialNumber": "1107995",
-  "Context": "sequi",
-  "Result": "est",
+  "LastStarted": "2001-08-26T16:00:48.6333798+02:00",
+  "Created": "2001-04-10T16:00:48.6333798+02:00",
+  "StartCount": 518,
+  "DatabaseSerialNumber": "1317101",
+  "Context": "delectus",
+  "Result": "ipsa",
   "State": "All",
-  "Description": "Down-sized background service-desk",
-  "Response": "id",
-  "Request": "quia",
-  "ProgressDescription": "Re-engineered 24 hour infrastructure",
-  "ProgressPercent": 244,
-  "FileName": "Kuphal Group",
+  "Description": "Decentralized responsive system engine",
+  "Response": "voluptatibus",
+  "Request": "enim",
+  "ProgressDescription": "Stand-alone encompassing productivity",
+  "ProgressPercent": 377,
+  "FileName": "Fadel-Hilpert",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldType": "System.String",
+      "FieldLength": 447
     }
   }
 }

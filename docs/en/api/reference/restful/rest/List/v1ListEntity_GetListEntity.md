@@ -1,6 +1,7 @@
 ---
 title: GET List/{id}
 uid: v1ListEntity_GetListEntity
+generated: true
 ---
 
 # GET List/{id}
@@ -91,27 +92,27 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 283,
-  "Name": "Schuppe Inc and Sons",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "Rank": 446,
-  "IsCustomList": true,
+  "Id": 946,
+  "Name": "Goodwin-Armstrong",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 609,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ea",
+  "UseGroupsAndHeadings": false,
+  "ListType": "debitis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 904
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

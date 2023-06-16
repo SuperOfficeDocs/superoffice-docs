@@ -1,6 +1,7 @@
 ---
 title: POST ChatSession/{id}/RejectTransfer
 uid: v1ChatSessionEntity_RejectChatSessionTransfer
+generated: true
 ---
 
 # POST ChatSession/{id}/RejectTransfer
@@ -100,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 738,
-  "TopicId": 371,
+  "ChatSessionId": 665,
+  "TopicId": 470,
   "User": null,
   "Person": null,
-  "CustomerAlias": "corrupti",
-  "CustomerHost": "occaecati",
-  "CustomerName": "Feeney-Monahan",
-  "CustomerEmail": "mozell.gusikowski@wehner.us",
-  "CustomerPhone": "384.771.8899",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Prohaska, Prosacco and Ferry",
+  "CustomerAlias": "sint",
+  "CustomerHost": "perferendis",
+  "CustomerName": "Mosciski Group",
+  "CustomerEmail": "octavia_gerlach@rath.co.uk",
+  "CustomerPhone": "271-444-2789 x05678",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Lesch LLC",
   "Status": "Closed",
-  "FirstMessage": "autem",
-  "LastMessage": "accusantium",
-  "WhenRequested": "1997-05-28T03:51:33.1929469+02:00",
-  "WhenStarted": "2002-09-12T03:51:33.1929469+02:00",
-  "WhenEnded": "1998-06-30T03:51:33.1929469+02:00",
-  "WhenIdle": "2007-10-12T03:51:33.1929469+02:00",
-  "WhenFetched": "2022-04-11T03:51:33.1929469+02:00",
-  "SessionKey": "nihil",
-  "InitialQueuePos": 835,
-  "AlertLevel": 8,
-  "Rank": 549,
+  "FirstMessage": "vel",
+  "LastMessage": "temporibus",
+  "WhenRequested": "2004-12-05T16:00:47.617866+01:00",
+  "WhenStarted": "2010-10-09T16:00:47.617866+02:00",
+  "WhenEnded": "2018-05-10T16:00:47.617866+02:00",
+  "WhenIdle": "2000-05-07T16:00:47.617866+02:00",
+  "WhenFetched": "2012-06-04T16:00:47.617866+02:00",
+  "SessionKey": "molestiae",
+  "InitialQueuePos": 908,
+  "AlertLevel": 266,
+  "Rank": 635,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -130,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 330,
+  "Rating": 261,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldType": "System.Int32",
+      "FieldLength": 776
     }
   }
 }

@@ -1,7 +1,7 @@
 ---
 title: Services88.MessagingAgent SOAP
 uid: Services88-Messaging-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Messaging SOAP

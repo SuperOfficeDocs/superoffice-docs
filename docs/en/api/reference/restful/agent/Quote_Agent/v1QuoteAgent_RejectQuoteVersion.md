@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/RejectQuoteVersion
 uid: v1QuoteAgent_RejectQuoteVersion
+generated: true
 ---
 
 # POST Agents/Quote/RejectQuoteVersion
@@ -76,14 +77,14 @@ OK
 POST /api/v1/Agents/Quote/RejectQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 328,
-  "RejectedByText": "et",
-  "RejectedByAssociateId": 311,
-  "RejectionText": "cumque"
+  "QuoteVersionId": 795,
+  "RejectedByText": "optio",
+  "RejectedByAssociateId": 351,
+  "RejectionText": "quia"
 }
 ```
 
@@ -95,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 525,
+  "CreatedAppointmentId": 973,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldLength": 134
     }
   }
 }

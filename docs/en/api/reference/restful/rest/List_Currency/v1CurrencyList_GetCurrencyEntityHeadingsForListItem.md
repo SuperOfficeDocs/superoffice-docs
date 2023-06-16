@@ -1,6 +1,7 @@
 ---
 title: GET List/Currency/Items/{id}/Headings
 uid: v1CurrencyList_GetCurrencyEntityHeadingsForListItem
+generated: true
 ---
 
 # GET List/Currency/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Rice, Barton and Kilback",
-    "ToolTip": "Placeat enim officia.",
-    "Deleted": true,
-    "Rank": 634,
-    "Type": "est",
-    "ColorBlock": 525,
-    "IconHint": "debitis",
-    "Selected": true,
-    "LastChanged": "2003-08-12T03:51:34.6614813+02:00",
+    "Id": 132,
+    "Name": "Marvin Group",
+    "ToolTip": "Ex praesentium amet et.",
+    "Deleted": false,
+    "Rank": 13,
+    "Type": "dolor",
+    "ColorBlock": 143,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2018-01-01T16:00:48.9927141+01:00",
     "ChildItems": [
       {
-        "Id": 925,
-        "Name": "Daugherty-Flatley",
-        "ToolTip": "Molestiae nemo necessitatibus quis facere quidem.",
-        "Deleted": false,
-        "Rank": 967,
-        "Type": "quia",
-        "ColorBlock": 358,
-        "IconHint": "repudiandae",
+        "Id": 444,
+        "Name": "Russel, Legros and Price",
+        "ToolTip": "Aut natus sit adipisci eos rem nisi.",
+        "Deleted": true,
+        "Rank": 771,
+        "Type": "aspernatur",
+        "ColorBlock": 198,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2004-03-05T03:51:34.6614813+01:00",
+        "LastChanged": "2011-01-11T16:00:48.9927141+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "esse",
-        "Hidden": false,
-        "FullName": "Prof. Ed Herzog DDS",
+        "ExtraInfo": "omnis",
+        "StyleHint": "voluptates",
+        "Hidden": true,
+        "FullName": "Alejandrin Breitenberg III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 382
+            "FieldType": "System.Int32",
+            "FieldLength": 194
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "saepe",
+    "StyleHint": "sit",
     "Hidden": true,
-    "FullName": "Enoch Padberg",
+    "FullName": "Israel Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldLength": 777
       }
     }
   }

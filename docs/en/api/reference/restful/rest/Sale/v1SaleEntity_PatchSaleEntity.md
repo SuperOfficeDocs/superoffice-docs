@@ -1,6 +1,7 @@
 ---
 title: PATCH Sale/{id}
 uid: v1SaleEntity_PatchSaleEntity
+generated: true
 ---
 
 # PATCH Sale/{id}
@@ -150,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "porro",
+    "path": "eveniet",
     "value": {}
   },
   {
     "op": "add",
-    "path": "porro",
+    "path": "eveniet",
     "value": {}
   }
 ]
@@ -180,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "tempore",
+  "SaleText": "reiciendis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -189,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2013-02-24T03:51:33.9583984+01:00",
-  "Amount": 1861.596,
-  "SaleId": 878,
-  "Earning": 17058.362,
-  "EarningPercent": 29785.536,
-  "Heading": "saepe",
-  "Number": "1641010",
-  "Probability": 668,
-  "CreatedDate": "2006-12-16T03:51:33.9583984+01:00",
-  "UpdatedDate": "2012-09-15T03:51:33.9583984+02:00",
+  "Saledate": "2000-03-08T16:00:48.3990266+01:00",
+  "Amount": 26510.505999999998,
+  "SaleId": 428,
+  "Earning": 25100.206,
+  "EarningPercent": 11028.546,
+  "Heading": "sapiente",
+  "Number": "1177897",
+  "Probability": 111,
+  "CreatedDate": "1997-11-16T16:00:48.3990266+01:00",
+  "UpdatedDate": "2022-11-30T16:00:48.3990266+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 911,
+  "ActiveLinks": 992,
   "Links": [
     {
-      "EntityName": "Kuhic Inc and Sons",
-      "Id": 897,
-      "Description": "Progressive 3rd generation attitude",
-      "ExtraInfo": "temporibus",
-      "LinkId": 497,
+      "EntityName": "Jast, Dach and Mraz",
+      "Id": 838,
+      "Description": "Multi-layered fresh-thinking paradigm",
+      "ExtraInfo": "dolorem",
+      "LinkId": 406,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldLength": 910
         }
       }
     }
   ],
-  "NextDueDate": "2004-06-04T03:51:33.9583984+02:00",
-  "Postit": "quia",
+  "NextDueDate": "2006-04-03T16:00:48.3990266+02:00",
+  "Postit": "aliquid",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2009-04-10T03:51:33.9583984+02:00",
+  "ReopenDate": "2021-01-03T16:00:48.3990266+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Legros-Kub",
-      "Comment": "sed",
-      "StakeholderRoleId": 252,
-      "CountryId": 730,
-      "PersonId": 374,
-      "EmailDescription": "cheyenne@cartwright.ca",
-      "EmailId": 534,
-      "EmailAddress": "noemie@koch.biz",
-      "PhoneId": 347,
-      "ContactName": "O'Reilly, Turcotte and Champlin",
-      "ContactId": 400,
-      "SaleId": 232,
-      "Mrmrs": "consequatur",
-      "Firstname": "Betty",
-      "MiddleName": "Thiel, White and Reichel",
-      "Lastname": "Keeling",
-      "SaleStakeholderId": 223,
-      "Rank": 388,
-      "Phone": "980.008.8995 x333",
+      "StakeholderRoleName": "Wolff-Altenwerth",
+      "Comment": "consequatur",
+      "StakeholderRoleId": 287,
+      "CountryId": 993,
+      "PersonId": 480,
+      "EmailDescription": "gage.hirthe@gottlieb.uk",
+      "EmailId": 144,
+      "EmailAddress": "dameon@rohan.us",
+      "PhoneId": 843,
+      "ContactName": "Fahey-Gottlieb",
+      "ContactId": 32,
+      "SaleId": 106,
+      "Mrmrs": "expedita",
+      "Firstname": "Guillermo",
+      "MiddleName": "Schumm-Gleichner",
+      "Lastname": "Pollich",
+      "SaleStakeholderId": 22,
+      "Rank": 801,
+      "Phone": "1-619-726-0057",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 150
+          "FieldLength": 191
         }
       }
     }
   ],
-  "ActiveErpLinks": 742,
+  "ActiveErpLinks": 436,
   "UserDefinedFields": {
-    "SuperOffice:1": "696106685",
-    "SuperOffice:2": "Mrs. Deborah Maiya Bins Jr."
+    "SuperOffice:1": "Kody Quinton Jenkins MD",
+    "SuperOffice:2": "752183738"
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "id"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "natus"
+    "CustomFields1": "commodi",
+    "CustomFields2": "deserunt"
   },
-  "PublishEventDate": "2015-12-21T03:51:33.9583984+01:00",
-  "PublishTo": "2015-05-07T03:51:33.9583984+02:00",
-  "PublishFrom": "2006-03-23T03:51:33.9583984+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2014-07-20T16:00:48.3990266+02:00",
+  "PublishTo": "2000-03-30T16:00:48.3990266+02:00",
+  "PublishFrom": "2006-05-08T16:00:48.3990266+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 814,
+      "VisibleId": 358,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 93
         }
       }
     },
     {
-      "VisibleId": 814,
+      "VisibleId": 358,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 93
         }
       }
     }
@@ -305,12 +306,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 997
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

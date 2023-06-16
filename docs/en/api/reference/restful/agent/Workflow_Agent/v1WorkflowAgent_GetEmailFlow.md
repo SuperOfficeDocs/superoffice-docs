@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/GetEmailFlow
 uid: v1WorkflowAgent_GetEmailFlow
+generated: true
 ---
 
 # POST Agents/Workflow/GetEmailFlow
@@ -25,7 +26,7 @@ Gets a EmailFlow object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetEmailFlow?emailFlowId=454
+POST /api/v1/Agents/Workflow/GetEmailFlow?emailFlowId=674
 POST /api/v1/Agents/Workflow/GetEmailFlow?$select=name,department,category/id
 ```
 
@@ -60,9 +61,6 @@ OK
 | Name | string | Name of the workflow |
 | Description | string | Description of the workflow |
 | Status | string | Status of the workflow definition |
-| VisibleForAll | bool | True if visible for all |
-| VisibleForAssociates | array | Array of references to the visible for associates |
-| VisibleForGroups | array | Array of references to the visible for groups |
 | JumpToFinish | bool | When a goal is reached, contact jumps directly to finished |
 | StartOnlyOnce | bool | A contact can start this flow only once |
 | OverrideConsentSubscription | bool | Override consent and subscription |
@@ -78,12 +76,12 @@ OK
 | GaCampaign | string | GA Campaign |
 | UseTimeframe | bool | Use sender timeframe settings, only send email/sms within the timeframe |
 | SelectedDays | string | Selected days (flags, so several days can be selected) for time frame |
-| TimeframeStart | date-time | Start of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used |
-| TimeframeEnd | date-time | End of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used |
+| TimeframeStart | date-time | Start of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used  in UTC. |
+| TimeframeEnd | date-time | End of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used  in UTC. |
 | UseWorkflowStart | bool | Start the flow running with enrolled participants at the given time |
-| WorkflowStart | date-time | When to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. Datetime is interpreted in stored timezone or as UTC |
+| WorkflowStart | date-time | When to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. Datetime is interpreted in stored timezone or as UTC  in UTC. |
 | UseEnrollmentEnd | bool | End enrollment into the workflow at the given time |
-| EnrollmentEnd | date-time | Do not enroll more participant after given time, interpreted in stored timezone or as UTC |
+| EnrollmentEnd | date-time | Do not enroll more participant after given time, interpreted in stored timezone or as UTC  in UTC. |
 | RemoveFromFlows | array | Workflows to remove the participants from when they are enrolled in this workflow |
 | TzLocation | TimeZoneData | The workflow timezone setting |
 | Folder | HierarchyEntity | The folder/hierarchy the email flow is in.  <para>Use MDO List name "hierarchy" to get list items.</para> |
@@ -94,6 +92,7 @@ OK
 | Goals | array | The goals for the workflow. |
 | Filter | WorkflowFilter | The filter for the workflow. |
 | BlockLists | array | Persons in the given selections are not allowed to enter this workflow |
+| VisibleFor | array | The set of users or groups the record is visible for |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -103,7 +102,7 @@ OK
 POST /api/v1/Agents/Workflow/GetEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,43 +112,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 846,
-  "Name": "Funk, Wilderman and Harvey",
-  "Description": "Optimized full-range challenge",
+  "EmailFlowId": 421,
+  "Name": "Lueilwitz Group",
+  "Description": "Implemented background moratorium",
   "Status": "None",
-  "VisibleForAll": false,
-  "VisibleForAssociates": [
-    236,
-    330
-  ],
-  "VisibleForGroups": [
-    978,
-    847
-  ],
-  "JumpToFinish": false,
-  "StartOnlyOnce": false,
+  "JumpToFinish": true,
+  "StartOnlyOnce": true,
   "OverrideConsentSubscription": false,
   "FromType": "FromOnlySpecified",
-  "FromName": "Cummings, Lakin and Trantow",
-  "FromAddr": "sed",
+  "FromName": "Schulist, Collier and Huel",
+  "FromAddr": "consectetur",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "sed",
-  "ReplyToName": "Effertz, Schaefer and McKenzie",
-  "SmsSender": "id",
+  "ReplyToAddr": "quos",
+  "ReplyToName": "Bartoletti, Trantow and Borer",
+  "SmsSender": "quaerat",
   "UseGoogleAnalytics": false,
-  "GaSource": "sit",
-  "GaCampaign": "corrupti",
+  "GaSource": "eum",
+  "GaCampaign": "dignissimos",
   "UseTimeframe": false,
   "SelectedDays": "Friday",
-  "TimeframeStart": "2017-07-10T03:51:28.5839089+02:00",
-  "TimeframeEnd": "2016-04-26T03:51:28.5839089+02:00",
-  "UseWorkflowStart": false,
-  "WorkflowStart": "2012-03-07T03:51:28.5839089+01:00",
-  "UseEnrollmentEnd": true,
-  "EnrollmentEnd": "2013-10-28T03:51:28.5839089+01:00",
+  "TimeframeStart": "1999-11-30T16:00:42.4299845+01:00",
+  "TimeframeEnd": "1998-03-15T16:00:42.4299845+01:00",
+  "UseWorkflowStart": true,
+  "WorkflowStart": "2010-04-02T16:00:42.4299845+02:00",
+  "UseEnrollmentEnd": false,
+  "EnrollmentEnd": "2011-09-14T16:00:42.4299845+02:00",
   "RemoveFromFlows": [
-    282,
-    682
+    743,
+    623
   ],
   "TzLocation": null,
   "Folder": null,
@@ -157,22 +147,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 84,
-      "WorkflowId": 548,
+      "WorkflowStepId": 1000,
+      "WorkflowId": 661,
       "StepType": "AddToList",
-      "Rank": 844
+      "Rank": 11
     },
     {
-      "WorkflowStepId": 84,
-      "WorkflowId": 548,
+      "WorkflowStepId": 1000,
+      "WorkflowId": 661,
       "StepType": "AddToList",
-      "Rank": 844
+      "Rank": 11
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 313,
-      "WorkflowId": 827,
+      "WorkflowTriggerId": 482,
+      "WorkflowId": 46,
       "TriggerType": "AddToList",
       "RestrictionGroups": [
         {},
@@ -182,14 +172,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 293
+          "FieldType": "System.Int32",
+          "FieldLength": 757
         }
       }
     },
     {
-      "WorkflowTriggerId": 313,
-      "WorkflowId": 827,
+      "WorkflowTriggerId": 482,
+      "WorkflowId": 46,
       "TriggerType": "AddToList",
       "RestrictionGroups": [
         {},
@@ -199,16 +189,16 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 293
+          "FieldType": "System.Int32",
+          "FieldLength": 757
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 417,
-      "WorkflowId": 961,
+      "WorkflowGoalId": 360,
+      "WorkflowId": 910,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -218,14 +208,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 381
+          "FieldType": "System.Int32",
+          "FieldLength": 89
         }
       }
     },
     {
-      "WorkflowGoalId": 417,
-      "WorkflowId": 961,
+      "WorkflowGoalId": 360,
+      "WorkflowId": 910,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -235,23 +225,51 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 381
+          "FieldType": "System.Int32",
+          "FieldLength": 89
         }
       }
     }
   ],
   "Filter": null,
   "BlockLists": [
-    124,
-    155
+    129,
+    395
+  ],
+  "VisibleFor": [
+    {
+      "VisibleId": 726,
+      "Visibility": "All",
+      "DisplayValue": "labore",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 838
+        }
+      }
+    },
+    {
+      "VisibleId": 726,
+      "Visibility": "All",
+      "DisplayValue": "labore",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 838
+        }
+      }
+    }
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldType": "System.String",
+      "FieldLength": 9
     }
   }
 }

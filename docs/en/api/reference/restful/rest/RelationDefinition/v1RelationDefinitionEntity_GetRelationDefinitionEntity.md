@@ -1,6 +1,7 @@
 ---
 title: GET RelationDefinition/{id}
 uid: v1RelationDefinitionEntity_GetRelationDefinitionEntity
+generated: true
 ---
 
 # GET RelationDefinition/{id}
@@ -79,7 +80,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 974,
-  "Name": "Corwin Inc and Sons",
-  "Tooltip": "voluptas",
-  "PassiveText": "quia",
+  "ReldefId": 386,
+  "Name": "Koss LLC",
+  "Tooltip": "quos",
+  "PassiveText": "iure",
   "Deleted": false,
-  "Rank": 660,
+  "Rank": 794,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -102,12 +103,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 591
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

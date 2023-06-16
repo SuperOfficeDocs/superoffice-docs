@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/GetLicenseFromLicenseServer
 uid: v1LicenseAgent_GetLicenseFromLicenseServer
+generated: true
 ---
 
 # POST Agents/License/GetLicenseFromLicenseServer
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Weber, Bergnaum and Witting"
+  "OwnerName": "Runolfsdottir Inc and Sons"
 }
 ```
 
@@ -98,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 945,
-      "NumberOfLicensesFree": 260,
-      "NumberOfLicensesAdded": 160,
-      "NumberOfLicensesNewTotal": 690,
-      "NumberOfLicensesNewFree": 290,
-      "NumberOfLicensesTotal": 855
+      "NumberOfLicensesInUse": 819,
+      "NumberOfLicensesFree": 851,
+      "NumberOfLicensesAdded": 8,
+      "NumberOfLicensesNewTotal": 44,
+      "NumberOfLicensesNewFree": 471,
+      "NumberOfLicensesTotal": 909
     }
   ],
-  "AccumulatedNextCheckDate": "2018-07-31T03:51:27.3654441+02:00"
+  "AccumulatedNextCheckDate": "2010-06-20T16:00:41.0862117+02:00"
 }
 ```

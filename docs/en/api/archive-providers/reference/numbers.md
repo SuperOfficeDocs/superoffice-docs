@@ -2,17 +2,10 @@
 uid: Numbers
 title: Numbers
 description: Archive provider for the list of userpreferences
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "Numbers"
+keywords: Numbers archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "Numbers"

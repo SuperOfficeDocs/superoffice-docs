@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/TestConnection
 uid: v1QuoteAgent_TestConnection
+generated: true
 ---
 
 # POST Agents/Quote/TestConnection
@@ -80,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Block LLC",
+  "ConnectorName": "Borer Group",
   "ConnectionData": {
-    "ConnectionData1": "dolores",
-    "ConnectionData2": "rem"
+    "ConnectionData1": "commodi",
+    "ConnectionData2": "repellat"
   }
 }
 ```
@@ -99,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "aliquam",
-  "TechExplanation": "voluptates",
-  "ErrorCode": "et",
+  "IsOk": false,
+  "UserExplanation": "iure",
+  "TechExplanation": "alias",
+  "ErrorCode": "nihil",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 409
+      "FieldType": "System.Int32",
+      "FieldLength": 743
     }
   }
 }

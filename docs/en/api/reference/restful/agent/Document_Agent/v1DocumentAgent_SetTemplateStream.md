@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/SetTemplateStream
 uid: v1DocumentAgent_SetTemplateStream
+generated: true
 ---
 
 # POST Agents/Document/SetTemplateStream
@@ -69,7 +70,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "adipisci",
+  "Filename": "qui",
   "Personal": false,
   "Stream": "GIF89....File contents as raw bytes..."
 }

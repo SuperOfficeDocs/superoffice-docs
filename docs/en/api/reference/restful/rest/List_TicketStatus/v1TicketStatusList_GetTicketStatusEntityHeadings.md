@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketStatus/Headings
 uid: v1TicketStatusList_GetTicketStatusEntityHeadings
+generated: true
 ---
 
 # GET List/TicketStatus/Headings
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 849,
-    "Name": "Thompson Inc and Sons",
-    "Tooltip": "iusto",
-    "Deleted": false,
-    "Rank": 938,
-    "UdListDefinitionId": 254,
+    "HeadingId": 381,
+    "Name": "O'Kon, Williamson and Johnston",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "Rank": 492,
+    "UdListDefinitionId": 523,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldLength": 448
       }
     }
   }

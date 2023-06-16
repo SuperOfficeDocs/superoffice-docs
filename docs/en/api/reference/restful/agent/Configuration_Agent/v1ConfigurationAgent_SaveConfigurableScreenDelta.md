@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/SaveConfigurableScreenDelta
 uid: v1ConfigurationAgent_SaveConfigurableScreenDelta
+generated: true
 ---
 
 # POST Agents/Configuration/SaveConfigurableScreenDelta
@@ -90,22 +91,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 533,
-  "Name": "Bode LLC",
-  "Description": "User-centric tertiary application",
-  "DeltaJson": "veniam",
+  "ConfigurableScreenDeltaId": 76,
+  "Name": "Nicolas, Mayert and Pagac",
+  "Description": "Front-line full-range structure",
+  "DeltaJson": "et",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "doloremque",
-  "UpdatedDate": "2007-10-03T03:51:26.7718335+02:00",
-  "CreatedDate": "2013-05-20T03:51:26.7718335+02:00",
+  "RecipeId": "dolores",
+  "UpdatedDate": "2018-06-13T16:00:40.2894057+02:00",
+  "CreatedDate": "2003-02-08T16:00:40.2894057+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    494,
-    360
+    569,
+    695
   ],
-  "AppliesToKey": "dolorem"
+  "AppliesToKey": "dolor"
 }
 ```
 
@@ -116,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 457,
-  "Name": "Hammes-Baumbach",
-  "Description": "Multi-tiered web-enabled pricing structure",
-  "DeltaJson": "velit",
+  "ConfigurableScreenDeltaId": 47,
+  "Name": "Wilkinson, Williamson and Prohaska",
+  "Description": "Synergized multi-state frame",
+  "DeltaJson": "harum",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quaerat",
-  "UpdatedDate": "2020-03-04T03:51:26.7718335+01:00",
-  "CreatedDate": "2007-08-27T03:51:26.7718335+02:00",
+  "RecipeId": "ut",
+  "UpdatedDate": "2006-10-13T16:00:40.2894057+02:00",
+  "CreatedDate": "2000-04-12T16:00:40.2894057+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    864,
-    191
+    959,
+    587
   ],
-  "AppliesToKey": "enim",
+  "AppliesToKey": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 761
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/ValidateAppointmentEntity
 uid: v1AppointmentAgent_ValidateAppointmentEntity
+generated: true
 ---
 
 # POST Agents/Appointment/ValidateAppointmentEntity
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/Appointment/ValidateAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -82,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "accusamus",
-  "2": "enim"
+  "1": "et",
+  "2": "aut"
 }
 ```

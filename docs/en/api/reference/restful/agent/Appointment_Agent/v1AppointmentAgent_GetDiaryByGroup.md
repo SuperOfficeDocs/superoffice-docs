@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetDiaryByGroup
 uid: v1AppointmentAgent_GetDiaryByGroup
+generated: true
 ---
 
 # POST Agents/Appointment/GetDiaryByGroup
@@ -115,6 +116,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -124,15 +128,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 742,
-  "GroupType": 249,
-  "StartTime": "1997-03-09T03:51:26.1469713+01:00",
-  "EndTime": "2007-07-13T03:51:26.1469713+02:00",
-  "Count": 682
+  "GroupId": 824,
+  "GroupType": 225,
+  "StartTime": "1998-12-26T16:00:39.6488525+01:00",
+  "EndTime": "1998-10-12T16:00:39.6488525+02:00",
+  "Count": 723
 }
 ```
 
@@ -144,61 +148,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 23,
-    "StartDate": "2010-03-29T03:51:26.1469713+02:00",
-    "EndDate": "2005-09-23T03:51:26.1469713+02:00",
+    "AppointmentId": 286,
+    "StartDate": "2009-11-09T16:00:39.6488525+01:00",
+    "EndDate": "2005-07-11T16:00:39.6488525+02:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Dr. Aubree Barton PhD",
-    "ContactName": "Crooks Group",
-    "Description": "Enterprise-wide dedicated neural-net",
-    "PersonFullName": "Ms. Rosella Margarita Johnson",
-    "PersonId": 625,
-    "ContactId": 936,
-    "ProjectId": 870,
-    "ProjectName": "Prosacco, Corwin and Rosenbaum",
+    "Task": "hic",
+    "AssociateFullName": "Melba Altenwerth",
+    "ContactName": "Bartoletti Inc and Sons",
+    "Description": "Switchable zero tolerance capacity",
+    "PersonFullName": "Keith Crist",
+    "PersonId": 391,
+    "ContactId": 459,
+    "ProjectId": 720,
+    "ProjectName": "Kutch Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 978,
-    "ColorIndex": 234,
-    "IsFree": true,
+    "AssociateId": 183,
+    "ColorIndex": 831,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 671,
-    "PriorityName": "Dickinson LLC",
+    "PriorityId": 209,
+    "PriorityName": "Larson LLC",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2008-06-19T03:51:26.1469713+02:00",
+    "ActiveDate": "2004-10-14T16:00:39.6488525+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-12-06T03:51:26.1469713+01:00",
-    "RecurringEndDate": "1996-08-27T03:51:26.1469713+02:00",
-    "MotherId": 613,
-    "AssignedBy": 634,
-    "AssignedByFullName": "Miss Jayda Wiza",
+    "RecurringStartDate": "2011-05-27T16:00:39.6488525+02:00",
+    "RecurringEndDate": "2001-06-24T16:00:39.6488525+02:00",
+    "MotherId": 662,
+    "AssignedBy": 637,
+    "AssignedByFullName": "Pietro Borer DDS",
     "RejectReason": "",
-    "Location": "vero",
-    "AlarmLeadTime": "quasi",
-    "SaleId": 634,
-    "SaleName": "Barrows Inc and Sons",
-    "AssociateName": "Murazik, Boyle and Kuphal",
-    "CreatedDate": "2015-07-18T03:51:26.1469713+02:00",
-    "CreatedBy": "sit",
-    "CreatedByFullName": "Dr. Adolfo Effertz",
-    "CreatedByAssociateId": 376,
+    "Location": "rerum",
+    "AlarmLeadTime": "eius",
+    "SaleId": 768,
+    "SaleName": "Keebler LLC",
+    "AssociateName": "Bednar-Bailey",
+    "CreatedDate": "2005-03-20T16:00:39.6488525+01:00",
+    "CreatedBy": "delectus",
+    "CreatedByFullName": "Cyrus Hauck",
+    "CreatedByAssociateId": 773,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "esse",
+    "Agenda": "dolor",
+    "InternalNotes": "soluta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 708
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/ProcessTicketWhenRead
 uid: v1TicketAgent_ProcessTicketWhenRead
+generated: true
 ---
 
 # POST Agents/Ticket/ProcessTicketWhenRead
@@ -132,7 +133,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 282
+  "TicketEntityId": 817
 }
 ```
 
@@ -143,21 +144,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 200,
-  "Title": "velit",
-  "CreatedAt": "2014-12-22T03:51:28.3495774+01:00",
-  "LastChanged": "2005-06-17T03:51:28.3495774+02:00",
-  "ReadByOwner": "2009-02-23T03:51:28.3495774+01:00",
-  "ReadByCustomer": "1998-12-01T03:51:28.3495774+01:00",
-  "FirstReadByOwner": "2002-10-30T03:51:28.3495774+01:00",
-  "FirstReadByUser": "2013-10-14T03:51:28.3495774+02:00",
-  "Activate": "2004-10-28T03:51:28.3495774+02:00",
-  "ClosedAt": "2000-01-08T03:51:28.3495774+01:00",
-  "RepliedAt": "1996-08-25T03:51:28.3495774+02:00",
-  "AlertTimeout": "2004-11-17T03:51:28.3495774+01:00",
-  "Deadline": "1998-05-25T03:51:28.3495774+02:00",
+  "TicketId": 998,
+  "Title": "magni",
+  "CreatedAt": "2008-06-02T16:00:42.1643851+02:00",
+  "LastChanged": "1996-11-01T16:00:42.1643851+01:00",
+  "ReadByOwner": "2005-12-08T16:00:42.1643851+01:00",
+  "ReadByCustomer": "2015-12-09T16:00:42.1643851+01:00",
+  "FirstReadByOwner": "2000-08-26T16:00:42.1643851+02:00",
+  "FirstReadByUser": "2010-08-02T16:00:42.1643851+02:00",
+  "Activate": "2020-03-04T16:00:42.1643851+01:00",
+  "ClosedAt": "2007-07-04T16:00:42.1643851+02:00",
+  "RepliedAt": "2016-01-21T16:00:42.1643851+01:00",
+  "AlertTimeout": "2016-10-11T16:00:42.1643851+02:00",
+  "Deadline": "2015-01-07T16:00:42.1643851+01:00",
   "CreatedBy": null,
-  "Author": "vero",
+  "Author": "autem",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -168,159 +169,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "explicabo",
-      "PersonId": 283,
-      "Mrmrs": "sunt",
-      "Firstname": "Alva",
-      "Lastname": "Will",
-      "MiddleName": "Windler-Pacocha",
+      "Position": "ad",
+      "PersonId": 48,
+      "Mrmrs": "quam",
+      "Firstname": "Grace",
+      "Lastname": "Dibbert",
+      "MiddleName": "Graham-Vandervort",
       "Title": "et",
-      "Description": "Implemented even-keeled groupware",
-      "Email": "maribel_pacocha@rodriguezrosenbaum.name",
-      "FullName": "Prof. Cornelius Johnson",
-      "DirectPhone": "263-137-8297",
-      "FormalName": "O'Keefe Group",
-      "CountryId": 988,
-      "ContactId": 248,
-      "ContactName": "Cormier Inc and Sons",
-      "Retired": 948,
-      "Rank": 988,
-      "ActiveInterests": 984,
-      "ContactDepartment": "productize enterprise mindshare",
-      "ContactCountryId": 766,
-      "ContactOrgNr": "1034929",
-      "FaxPhone": "(080)748-3893 x72668",
-      "MobilePhone": "947.020.2649",
-      "ContactPhone": "1-835-102-6888",
-      "AssociateName": "Anderson, Kulas and Grant",
-      "AssociateId": 329,
-      "UsePersonAddress": false,
-      "ContactFax": "et",
-      "Kanafname": "repellendus",
-      "Kanalname": "ex",
-      "Post1": "excepturi",
-      "Post2": "amet",
-      "Post3": "nihil",
-      "EmailName": "jamar.osinski@bernier.co.uk",
-      "ContactFullName": "Carter Champlin",
-      "ActiveErpLinks": 940,
-      "TicketPriorityId": 322,
-      "SupportLanguageId": 62,
-      "SupportAssociateId": 593,
+      "Description": "User-centric reciprocal workforce",
+      "Email": "toby@leschrussel.com",
+      "FullName": "Dr. Alyce Labadie",
+      "DirectPhone": "(401)762-8310 x7532",
+      "FormalName": "Altenwerth-Abbott",
+      "CountryId": 247,
+      "ContactId": 434,
+      "ContactName": "Goldner, Rolfson and Thiel",
+      "Retired": 169,
+      "Rank": 43,
+      "ActiveInterests": 550,
+      "ContactDepartment": "",
+      "ContactCountryId": 7,
+      "ContactOrgNr": "1142986",
+      "FaxPhone": "(230)807-0476 x4889",
+      "MobilePhone": "1-772-604-2609",
+      "ContactPhone": "(767)034-6410 x2939",
+      "AssociateName": "Roberts, Jenkins and Bosco",
+      "AssociateId": 227,
+      "UsePersonAddress": true,
+      "ContactFax": "quo",
+      "Kanafname": "consectetur",
+      "Kanalname": "occaecati",
+      "Post1": "et",
+      "Post2": "saepe",
+      "Post3": "illum",
+      "EmailName": "esther_marquardt@king.ca",
+      "ContactFullName": "Fae Mante",
+      "ActiveErpLinks": 361,
+      "TicketPriorityId": 129,
+      "SupportLanguageId": 939,
+      "SupportAssociateId": 260,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 797
+          "FieldType": "System.String",
+          "FieldLength": 553
         }
       }
     }
   ],
-  "AlertLevel": 910,
-  "ConnectId": 461,
+  "AlertLevel": 608,
+  "ConnectId": 836,
   "ReadStatus": "Green",
-  "TimeToReply": 568,
-  "RealTimeToReply": 92,
-  "TimeToClose": 371,
-  "RealTimeToClose": 450,
-  "TimeSpentInternally": 634,
-  "TimeSpentExternally": 918,
-  "TimeSpentQueue": 167,
-  "RealTimeSpentInternally": 550,
-  "RealTimeSpentExternally": 670,
-  "RealTimeSpentQueue": 760,
-  "HasAttachment": true,
-  "NumReplies": 480,
-  "NumMessages": 412,
-  "FromAddress": "et",
+  "TimeToReply": 612,
+  "RealTimeToReply": 710,
+  "TimeToClose": 102,
+  "RealTimeToClose": 905,
+  "TimeSpentInternally": 687,
+  "TimeSpentExternally": 939,
+  "TimeSpentQueue": 576,
+  "RealTimeSpentInternally": 454,
+  "RealTimeSpentExternally": 455,
+  "RealTimeSpentQueue": 343,
+  "HasAttachment": false,
+  "NumReplies": 750,
+  "NumMessages": 572,
+  "FromAddress": "omnis",
   "Messages": [
     {
-      "TicketMessageId": 523,
-      "CreatedAt": "2004-01-04T03:51:28.3652065+01:00",
+      "TicketMessageId": 711,
+      "CreatedAt": "2012-03-07T16:00:42.1800144+01:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "sit",
-      "PersonId": 565,
-      "PersonFullName": "Annamae Flatley",
-      "ContactId": 289,
-      "ContactName": "Veum, Langworth and Gleason",
+      "Important": true,
+      "Author": "omnis",
+      "PersonId": 475,
+      "PersonFullName": "Hilton Zulauf",
+      "ContactId": 837,
+      "ContactName": "Kreiger, Quitzon and Nitzsche",
       "ContactDepartment": "",
-      "NumAttachments": 191,
-      "EmailHeader": "alessandra@green.info",
+      "NumAttachments": 95,
+      "EmailHeader": "carli_schaden@ratkequitzon.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "voluptas",
-      "Sentiment": 311,
-      "SentimentConfidence": 163,
-      "CreatedBy": 91,
-      "ChangedAt": "2011-04-01T03:51:28.3652065+02:00",
+      "Language": "reiciendis",
+      "Sentiment": 881,
+      "SentimentConfidence": 108,
+      "CreatedBy": 600,
+      "ChangedAt": "2010-01-26T16:00:42.1800144+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 333
+          "FieldType": "System.Int32",
+          "FieldLength": 762
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 324,
-      "Name": "Kassulke, Hintz and Mann",
-      "ToolTip": "Nesciunt blanditiis ut alias reprehenderit qui blanditiis.",
+      "Id": 819,
+      "Name": "Schneider, Stiedemann and Hills",
+      "ToolTip": "Dolore ea harum doloremque dolores laudantium quibusdam sit.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldLength": 746
         }
       }
     },
     {
-      "Id": 324,
-      "Name": "Kassulke, Hintz and Mann",
-      "ToolTip": "Nesciunt blanditiis ut alias reprehenderit qui blanditiis.",
+      "Id": 819,
+      "Name": "Schneider, Stiedemann and Hills",
+      "ToolTip": "Dolore ea harum doloremque dolores laudantium quibusdam sit.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldLength": 746
         }
       }
     }
   ],
-  "Language": "ullam",
-  "Sentiment": 346,
-  "SentimentConfidence": 741,
-  "SuggestedCategoryId": 931,
+  "Language": "ipsum",
+  "Sentiment": 934,
+  "SentimentConfidence": 340,
+  "SuggestedCategoryId": 673,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 259,
-  "IconHint": "repellat",
+  "OrigHumanCategoryId": 122,
+  "IconHint": "et",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "cum"
+    "ExtraFields1": "non",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "quidem",
-    "CustomFields2": "saepe"
+    "CustomFields1": "placeat",
+    "CustomFields2": "distinctio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldType": "System.String",
+      "FieldLength": 476
     }
   }
 }

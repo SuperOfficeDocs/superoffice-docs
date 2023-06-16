@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteApproveReason
 uid: v1QuoteApproveReasonList_GetListDefinition
+generated: true
 ---
 
 # GET List/QuoteApproveReason
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 150,
-  "Name": "Auer LLC",
-  "Tooltip": "est",
+  "Id": 155,
+  "Name": "Schiller, Lowe and Oberbrunner",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 495,
+  "Rank": 311,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptates",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "omnis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldType": "System.String",
+      "FieldLength": 127
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -1,7 +1,7 @@
 ---
 title: Services88.WorkflowAgent SOAP
 uid: Services88-Workflow-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Workflow SOAP
@@ -15,12 +15,14 @@ Handled by the <see cref="T:SuperOffice.Services88.IWorkflowAgent">SuperOffice.S
 Download [WSDL file for Services88/Workflow](../Services88-Workflow.md) if you need to generate your own proxy code.
 
 * [AddAfterWorkflowStep](AddAfterWorkflowStep.md)
+* [ConnectEmailFlowContent](ConnectEmailFlowContent.md)
 * [CreateDefaultEmailFlow](CreateDefaultEmailFlow.md)
 * [CreateDefaultWorkflowFilter](CreateDefaultWorkflowFilter.md)
 * [CreateDefaultWorkflowGoal](CreateDefaultWorkflowGoal.md)
 * [CreateDefaultWorkflowStepFromType](CreateDefaultWorkflowStepFromType.md)
 * [CreateDefaultWorkflowStepOption](CreateDefaultWorkflowStepOption.md)
 * [CreateDefaultWorkflowTrigger](CreateDefaultWorkflowTrigger.md)
+* [CreateEmailFlowContent](CreateEmailFlowContent.md)
 * [DeleteEmailFlow](DeleteEmailFlow.md)
 * [DeleteWorkflowGoal](DeleteWorkflowGoal.md)
 * [DeleteWorkflowStepOption](DeleteWorkflowStepOption.md)

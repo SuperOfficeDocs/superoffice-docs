@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Favourite/AddTicketsToFavouritesByProvider
 uid: v1FavouriteAgent_AddTicketsToFavouritesByProvider
+generated: true
 ---
 
 # POST Agents/Favourite/AddTicketsToFavouritesByProvider
@@ -70,18 +71,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Pouros Inc and Sons",
+  "ProviderName": "Robel Group",
   "Restrictions": [
     {
-      "Name": "Doyle-Barton",
-      "Operator": "labore",
+      "Name": "Boyer Inc and Sons",
+      "Operator": "quis",
       "Values": [
         "incidunt",
-        "minima"
+        "sed"
       ],
       "DisplayValues": [
-        "voluptatibus",
-        "voluptates"
+        "saepe",
+        "nam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 356,
+      "InterParenthesis": 378,
       "InterOperator": "And",
-      "UniqueHash": 672
+      "UniqueHash": 547
     }
   ],
-  "AssociateId": 273,
-  "ExtraInfo": "consequatur"
+  "AssociateId": 752,
+  "ExtraInfo": "qui"
 }
 ```
 

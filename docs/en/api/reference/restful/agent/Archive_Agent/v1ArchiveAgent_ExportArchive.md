@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/ExportArchive
 uid: v1ArchiveAgent_ExportArchive
+generated: true
 ---
 
 # POST Agents/Archive/ExportArchive
@@ -82,41 +83,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Mueller-O'Conner",
-  "Context": "corrupti",
+  "ProviderName": "Toy-Stoltenberg",
+  "Context": "vitae",
   "DesiredEntities": [
-    "animi",
-    "dolores"
+    "alias",
+    "voluptate"
   ],
   "Columns": [
-    "quo",
-    "esse"
+    "ut",
+    "accusamus"
   ],
   "SortOrder": [
     {
-      "Name": "Rohan-Yundt",
+      "Name": "Bashirian Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Rohan-Yundt",
+      "Name": "Bashirian Group",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Morissette LLC",
-      "Operator": "quo",
+      "Name": "Friesen-Kovacek",
+      "Operator": "consequatur",
       "Values": [
-        "nesciunt",
-        "repudiandae"
+        "aperiam",
+        "eligendi"
       ],
       "DisplayValues": [
-        "nihil",
-        "ut"
+        "doloremque",
+        "corporis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -124,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 873,
+      "InterParenthesis": 908,
       "InterOperator": "And",
-      "UniqueHash": 722
+      "UniqueHash": 700
     }
   ],
-  "ExportType": "facere",
+  "ExportType": "harum",
   "SelectedRowIds": [
-    "aliquam",
-    "esse"
+    "voluptatem",
+    "ut"
   ],
-  "EstimatedRowCount": 863
+  "EstimatedRowCount": 462
 }
 ```
 
@@ -145,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 500,
-  "FileName": "DuBuque LLC",
-  "Message": "nam",
+  "BatchTaskId": 341,
+  "FileName": "Mitchell-Block",
+  "Message": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 721
+      "FieldType": "System.Int32",
+      "FieldLength": 823
     }
   }
 }

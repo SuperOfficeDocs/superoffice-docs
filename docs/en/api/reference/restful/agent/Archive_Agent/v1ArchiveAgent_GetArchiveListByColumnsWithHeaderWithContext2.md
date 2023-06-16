@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 uid: v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
@@ -166,19 +167,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rodriguez-Towne",
-  "Columns": "totam",
-  "SortOrder": "aperiam",
-  "Restriction": "odit",
-  "Entities": "labore",
-  "Page": 26,
-  "PageSize": 982,
-  "Options": "quia",
-  "Context": "mollitia"
+  "ProviderName": "Medhurst-Rath",
+  "Columns": "tenetur",
+  "SortOrder": "eum",
+  "Restriction": "error",
+  "Entities": "fugiat",
+  "Page": 601,
+  "PageSize": 163,
+  "Options": "cumque",
+  "Context": "illum"
 }
 ```
 
@@ -189,26 +190,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 156,
+  "RowCount": 579,
   "Rows": [
     {
-      "EntityName": "Zboncak-Grimes",
-      "PrimaryKey": 815,
+      "EntityName": "Tillman Group",
+      "PrimaryKey": 838,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "vitae",
-          "LinkHint": "dolores"
+          "DisplayValue": "non",
+          "TooltipHint": "quod",
+          "LinkHint": "labore"
         }
       },
-      "LinkHint": "deleniti",
-      "StyleHint": "harum",
+      "LinkHint": "ut",
+      "StyleHint": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 871
+          "FieldType": "System.String",
+          "FieldLength": 946
         }
       }
     }
@@ -218,7 +219,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldLength": 78
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET TimeZone/base
 uid: v1TimeZone_GetBaseTimeZone
+generated: true
 ---
 
 # GET TimeZone/base
@@ -70,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 503,
-  "Name": "O'Reilly, Barton and Quitzon",
-  "TZLocationCode": "autem",
-  "TZLocationCities": "occaecati",
-  "IsoNumber": 289,
+  "TZLocationID": 877,
+  "Name": "Jast Group",
+  "TZLocationCode": "error",
+  "TZLocationCities": "vel",
+  "IsoNumber": 672,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 435,
-      "StartMonth": 710,
-      "EndDay": 636,
-      "EndMonth": 618,
-      "TZOffset": 936,
-      "StartRulePattern": "numquam",
-      "EndRulePattern": "impedit"
+      "StartDay": 553,
+      "StartMonth": 467,
+      "EndDay": 548,
+      "EndMonth": 865,
+      "TZOffset": 881,
+      "StartRulePattern": "maxime",
+      "EndRulePattern": "quas"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 572,
-      "StartMonth": 782,
-      "EndDay": 457,
-      "EndMonth": 318,
-      "TZOffset": 300,
-      "StartRulePattern": "veniam",
-      "EndRulePattern": "sunt"
+      "StartDay": 223,
+      "StartMonth": 172,
+      "EndDay": 368,
+      "EndMonth": 665,
+      "TZOffset": 948,
+      "StartRulePattern": "quas",
+      "EndRulePattern": "quibusdam"
     }
   }
 }

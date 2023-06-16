@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentTerm/Headings
 uid: v1PaymentTermsList_GetPaymentTermHeadings
+generated: true
 ---
 
 # GET List/PaymentTerm/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 986,
-    "Name": "Ledner Group",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 229,
-    "UdListDefinitionId": 7,
+    "HeadingId": 730,
+    "Name": "Yundt-Hilll",
+    "Tooltip": "harum",
+    "Deleted": false,
+    "Rank": 386,
+    "UdListDefinitionId": 780,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 894
       }
     }
   }

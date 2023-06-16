@@ -1,7 +1,7 @@
 ---
 title: Services88.BlobManagerAgent SOAP
 uid: Services88-BlobManager-soap
-generated: 1
+generated: true
 ---
 
 # Services88 BlobManager SOAP

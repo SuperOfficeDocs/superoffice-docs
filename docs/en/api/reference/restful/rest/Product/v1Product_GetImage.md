@@ -1,6 +1,7 @@
 ---
 title: GET Product/{id}/Image
 uid: v1Product_GetImage
+generated: true
 ---
 
 # GET Product/{id}/Image
@@ -34,9 +35,9 @@ scaled and converted to the requested type.
 | ifBlank | Enum: Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder, Null, GenericFileIcon |  What to return if there is no picture (default = Null = 404 Error) (Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder) |
 
 ```http
-GET /api/v1/Product/{productId}/Image?w=844
-GET /api/v1/Product/{productId}/Image?h=223
-GET /api/v1/Product/{productId}/Image?type=quia
+GET /api/v1/Product/{productId}/Image?w=755
+GET /api/v1/Product/{productId}/Image?h=283
+GET /api/v1/Product/{productId}/Image?type=sunt
 GET /api/v1/Product/{productId}/Image?ifBlank=ClearPixel
 ```
 
@@ -73,7 +74,7 @@ An image
 GET /api/v1/Product/{productId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

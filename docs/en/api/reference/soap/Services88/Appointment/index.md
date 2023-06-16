@@ -1,7 +1,7 @@
 ---
 title: Services88.AppointmentAgent SOAP
 uid: Services88-Appointment-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Appointment SOAP

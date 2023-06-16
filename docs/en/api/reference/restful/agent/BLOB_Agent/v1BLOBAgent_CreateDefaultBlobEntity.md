@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/CreateDefaultBlobEntity
 uid: v1BLOBAgent_CreateDefaultBlobEntity
+generated: true
 ---
 
 # POST Agents/BLOB/CreateDefaultBlobEntity
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 965,
-  "BlobSize": 1001,
-  "Description": "Cloned eco-centric process improvement",
-  "ExtraInfo": "quae",
-  "IsEncrypted": false,
+  "BlobId": 929,
+  "BlobSize": 611,
+  "Description": "Down-sized bottom-line ability",
+  "ExtraInfo": "voluptas",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "sapiente",
-  "OriginalSize": 557,
-  "CreatedDate": "2006-06-11T03:51:26.6156255+02:00",
-  "UpdatedDate": "2010-04-13T03:51:26.6156255+02:00",
+  "MimeType": "quia",
+  "OriginalSize": 88,
+  "CreatedDate": "2012-10-14T16:00:40.1175682+02:00",
+  "UpdatedDate": "2017-01-23T16:00:40.1175682+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nostrum",
+  "ConceptualType": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldType": "System.String",
+      "FieldLength": 498
     }
   }
 }

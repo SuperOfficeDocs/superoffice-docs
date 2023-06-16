@@ -1,6 +1,7 @@
 ---
 title: PUT TriggerScript/{id}
 uid: v1TriggerScriptEntity_SaveTriggerScriptByUniqueId
+generated: true
 ---
 
 # PUT TriggerScript/{id}
@@ -89,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 508,
-  "Name": "Littel, Powlowski and Bode",
+  "ScreenChooserId": 61,
+  "Name": "Gislason-Collier",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "accusantium",
-  "Source": "culpa",
-  "Registered": "2009-03-16T03:51:34.1615868+01:00",
-  "RegisteredAssociateId": 87,
-  "Updated": "2007-04-27T03:51:34.1615868+02:00",
-  "UpdatedAssociateId": 825
+  "Enabled": true,
+  "UniqueIdentifier": "quis",
+  "Source": "eius",
+  "Registered": "2010-05-21T16:00:48.617756+02:00",
+  "RegisteredAssociateId": 706,
+  "Updated": "2011-05-28T16:00:48.617756+02:00",
+  "UpdatedAssociateId": 938
 }
 ```
 
@@ -113,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 732,
-  "Name": "O'Hara LLC",
+  "ScreenChooserId": 995,
+  "Name": "Rath-Huel",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "non",
-  "Source": "dolor",
-  "Registered": "2021-03-08T03:51:34.1615868+01:00",
-  "RegisteredAssociateId": 997,
-  "Updated": "2003-10-05T03:51:34.1615868+02:00",
-  "UpdatedAssociateId": 324,
+  "UniqueIdentifier": "id",
+  "Source": "blanditiis",
+  "Registered": "2017-06-20T16:00:48.617756+02:00",
+  "RegisteredAssociateId": 490,
+  "Updated": "2002-09-13T16:00:48.617756+02:00",
+  "UpdatedAssociateId": 329,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldLength": 630
     }
   }
 }

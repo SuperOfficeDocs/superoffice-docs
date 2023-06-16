@@ -1,6 +1,7 @@
 ---
 title: GET CRMScript/{id}/Validate
 uid: v1CRMScriptEntity_ValidateScriptByUniqueId
+generated: true
 ---
 
 # GET CRMScript/{id}/Validate
@@ -64,7 +65,7 @@ OK
 GET /api/v1/CRMScript/{cRMScriptUniqueId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,13 +76,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "exercitationem",
+  "ErrorMessage": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 80
     }
   }
 }

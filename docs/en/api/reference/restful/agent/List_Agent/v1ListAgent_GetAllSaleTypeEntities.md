@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAllSaleTypeEntities
 uid: v1ListAgent_GetAllSaleTypeEntities
+generated: true
 ---
 
 # POST Agents/List/GetAllSaleTypeEntities
@@ -93,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 749,
-    "Name": "Johnston Group",
-    "Tooltip": "doloremque",
-    "Rank": 856,
+    "SaleTypeId": 16,
+    "Name": "Bernier-Lakin",
+    "Tooltip": "ab",
+    "Rank": 292,
     "DurationUnit": "Century",
-    "SaleDuration": 482,
-    "SaleTypeCatId": 891,
-    "Deleted": true,
-    "HasGuide": true,
+    "SaleDuration": 736,
+    "SaleTypeCatId": 964,
+    "Deleted": false,
+    "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 127,
-    "QuoteLinesTemplate": 881,
-    "ConfirmationLinesTemplate": 387,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 404,
+    "QuoteLinesTemplate": 501,
+    "ConfirmationLinesTemplate": 820,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 657,
-    "MinEarningPercent": 204,
-    "GroupQuoteLinesBy": 360,
-    "SortGroupLinesBy": 505,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 266,
+    "MinEarningPercent": 589,
+    "GroupQuoteLinesBy": 711,
+    "SortGroupLinesBy": 880,
     "Stages": [
       {
-        "Id": 226,
-        "Name": "Ferry-Ferry",
-        "ToolTip": "Omnis ad occaecati laudantium ipsam.",
-        "Deleted": true,
-        "Rank": 519,
-        "Type": "ab",
-        "ColorBlock": 442,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2006-01-22T03:51:27.4123074+01:00",
+        "Id": 569,
+        "Name": "O'Kon, VonRueden and Stanton",
+        "ToolTip": "Ut voluptas.",
+        "Deleted": false,
+        "Rank": 722,
+        "Type": "nihil",
+        "ColorBlock": 450,
+        "IconHint": "corporis",
+        "Selected": false,
+        "LastChanged": "1997-02-12T16:00:41.1330807+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "soluta",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Lavinia Goldner",
+        "FullName": "Jade Von",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 696
+            "FieldLength": 461
           }
         }
       }
@@ -165,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 46
       }
     }
   }

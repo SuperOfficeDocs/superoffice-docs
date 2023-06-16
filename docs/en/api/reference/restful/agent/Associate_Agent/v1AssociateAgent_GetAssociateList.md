@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Associate/GetAssociateList
 uid: v1AssociateAgent_GetAssociateList
+generated: true
 ---
 
 # POST Agents/Associate/GetAssociateList
@@ -91,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 740,
-    "Name": "Conroy Group",
-    "PersonId": 522,
-    "Rank": 665,
-    "Tooltip": "distinctio",
+    "AssociateId": 406,
+    "Name": "Strosin-McClure",
+    "PersonId": 701,
+    "Rank": 243,
+    "Tooltip": "nobis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 798,
-    "FullName": "Dr. Lois Dooley",
-    "FormalName": "Kertzmann LLC",
+    "GroupIdx": 185,
+    "FullName": "Henriette Heathcote",
+    "FormalName": "Jewess Inc and Sons",
     "Deleted": false,
-    "EjUserId": 227,
-    "UserName": "Torphy, Lynch and Connelly",
+    "EjUserId": 787,
+    "UserName": "Trantow, Fisher and Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 853
       }
     }
   }

@@ -2,17 +2,10 @@
 uid: MailingsDynamicSelectionSingleCriteriaGroup
 title: MailingsDynamicSelectionSingleCriteriaGroup
 description: Mailings selection archive using the selectionId as criterionmapping.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "MailingsDynamicSelectionSingleCriteriaGroup"
+keywords: MailingsDynamicSelectionSingleCriteriaGroup archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "MailingsDynamicSelectionSingleCriteriaGroup"
@@ -128,6 +121,10 @@ Mailings selection archive using the selectionId as criterionmapping.
 |mailingAddr/contact/streetAddress/wgs84latitude|decimal|Company - Street address - Latitude: Latitude| x |
 |mailingAddr/contact/streetAddress/wgs84longitude|decimal|Company - Street address - Longitude: Longitude| x |
 |mailingAddr/contact/streetAddress/formattedAddress| *None* |Company - Street address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/streetAddress/formattedMultiLineAddress| *None* |Company - Street address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/contact/restrictionAddress/addressId|int|Company - Search address - Address ID: Database ID for the address record| x |
 |mailingAddr/contact/restrictionAddress/line1|string|Company - Search address - Address 1: First line of the address| x |
@@ -228,6 +225,10 @@ Mailings selection archive using the selectionId as criterionmapping.
 |mailingAddr/contact/SaintStatus2|saintStatus|Company - C-company: Kundens navn starter med bokstaven C|  |
 |mailingAddr/contact/saintSaleStatus|listAny|Company - With status|  |
 |mailingAddr/contact/saintAmountClass|listAny|Company - Amount class|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/saintActivityType|listAny|Company - SAINT type|  |
 |mailingAddr/contact/saintDirection|listAny|Company - Direction|  |
 |mailingAddr/contact/saintIntention|listAny|Company - Intention|  |
@@ -328,6 +329,10 @@ Mailings selection archive using the selectionId as criterionmapping.
 |mailingAddr/person/restrictionAddress/wgs84latitude|decimal|Contact - Search address - Latitude: Latitude| x |
 |mailingAddr/person/restrictionAddress/wgs84longitude|decimal|Contact - Search address - Longitude: Longitude| x |
 |mailingAddr/person/restrictionAddress/formattedAddress| *None* |Contact - Search address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/restrictionAddress/formattedMultiLineAddress| *None* |Contact - Search address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/person/personInterestIds|listInterest|Contact - Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
 |mailingAddr/person/personUdef/SuperOffice:1|string|Contact - contactshorttext: tooltipshorttext| x |
@@ -428,6 +433,10 @@ Mailings selection archive using the selectionId as criterionmapping.
 |mailingAddr/person/hasStoreConsent|bool|Contact - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |mailingAddr/person/withdrawnStoreConsent|bool|Contact - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |mailingAddr/person/hasEmarketingConsent|bool|Contact - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/withdrawnEmarketingConsent|bool|Contact - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |mailingAddr/person/subscription|listAny|Contact - Subscription: Subscription for marketing| x |
 |mailingAddr/person/legalBaseStore|listAny|Contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
@@ -528,6 +537,10 @@ Mailings selection archive using the selectionId as criterionmapping.
 |project/projectAssociate/userName|string|User name: User name| x |
 |project/projectAssociate/personEmail|string|E-mail| x |
 |project/projectUdef/SuperOffice:1|string|projectshorttext| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |project/projectUdef/SuperOffice:3|int|projectnumber| x |
 |project/projectUdef/SuperOffice:4|date|projectdate| x |
@@ -565,7 +578,7 @@ Mailings selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionSingleCriteriaGroup?$select=mailingSent,mailingAddr/contact/streetAddress/addressId,mailingAddr/contact/contactAssociate/portraitThumbnail,mailingAddr/person/personUdef/SuperOffice:3,mailingAddr/person/correspondingAssociate/assocName
+GET /api/v1/archive/MailingsDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/countryId,mailingAddr/contact/restrictionAddress/state,mailingAddr/contact/saintTicketStatus,mailingAddr/person/personAssociateFullName,mailingAddr/person/personAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

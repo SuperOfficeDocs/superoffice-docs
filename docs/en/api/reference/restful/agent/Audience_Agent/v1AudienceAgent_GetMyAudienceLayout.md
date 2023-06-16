@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetMyAudienceLayout
 uid: v1AudienceAgent_GetMyAudienceLayout
+generated: true
 ---
 
 # POST Agents/Audience/GetMyAudienceLayout
@@ -80,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 59,
-  "InstanceLayout": "omnis",
-  "InstanceName": "Muller, Kuvalis and Murazik",
-  "CreatedDate": "2009-12-28T03:51:26.5999985+01:00",
-  "UpdatedDate": "2014-04-08T03:51:26.5999985+02:00",
+  "AudienceLayoutId": 270,
+  "InstanceLayout": "et",
+  "InstanceName": "Hagenes Group",
+  "CreatedDate": "2009-02-14T16:00:40.1019505+01:00",
+  "UpdatedDate": "1998-05-25T16:00:40.1019505+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -92,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 863
     }
   }
 }

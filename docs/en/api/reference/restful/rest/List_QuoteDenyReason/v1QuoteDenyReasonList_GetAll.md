@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteDenyReason/Items
 uid: v1QuoteDenyReasonList_GetAll
+generated: true
 ---
 
 # GET List/QuoteDenyReason/Items
@@ -24,7 +25,7 @@ Gets all the QuoteDenyReason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=False
 ```
 
 
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Beahan Group",
-    "Tooltip": "inventore",
+    "Id": 942,
+    "Name": "Schinner LLC",
+    "Tooltip": "hic",
     "Deleted": true,
-    "UdListDefinitionId": 926,
-    "Rank": 774,
+    "UdListDefinitionId": 468,
+    "Rank": 741,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldLength": 563
       }
     }
   }

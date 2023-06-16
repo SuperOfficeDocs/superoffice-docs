@@ -1,6 +1,7 @@
 ---
 title: PUT List/Task
 uid: v1TaskList_SetListDefinition
+generated: true
 ---
 
 # PUT List/Task
@@ -87,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 800,
-  "Name": "Bradtke Inc and Sons",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 138,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "Id": 907,
+  "Name": "Fisher, Howe and Blanda",
+  "Tooltip": "fugit",
+  "Deleted": false,
+  "Rank": 504,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "corporis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 919,
-  "Name": "Mayert-Feeney",
-  "Tooltip": "neque",
+  "Id": 214,
+  "Name": "Halvorson, Keebler and Auer",
+  "Tooltip": "saepe",
   "Deleted": true,
-  "Rank": 51,
+  "Rank": 116,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "corrupti",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quo",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 688
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: DEL List/Source/Items/{id}
 uid: v1SourceList_DeleteSource
+generated: true
 ---
 
 # DEL List/Source/Items/{id}

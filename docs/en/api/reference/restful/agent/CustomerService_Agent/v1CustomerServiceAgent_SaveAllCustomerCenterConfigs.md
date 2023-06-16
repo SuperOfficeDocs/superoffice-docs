@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/SaveAllCustomerCenterConfigs
 uid: v1CustomerServiceAgent_SaveAllCustomerCenterConfigs
+generated: true
 ---
 
 # POST Agents/CustomerService/SaveAllCustomerCenterConfigs
@@ -63,20 +64,20 @@ No Content
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CustConfigs": [
     {
-      "CustConfigId": 560,
+      "CustConfigId": 609,
       "Type": "Options",
-      "Config": "et",
-      "CustLangId": 42,
-      "Registered": "2013-01-04T03:51:26.9436626+01:00",
-      "RegisteredAssociateId": 110,
-      "Updated": "2001-05-04T03:51:26.9436626+02:00",
-      "UpdatedAssociateId": 678
+      "Config": "nihil",
+      "CustLangId": 685,
+      "Registered": "1996-03-02T16:00:40.5081328+01:00",
+      "RegisteredAssociateId": 906,
+      "Updated": "1997-02-21T16:00:40.5081328+01:00",
+      "UpdatedAssociateId": 919
     }
   ]
 }

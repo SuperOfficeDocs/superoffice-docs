@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Associate/GetAssociateByPersonId
 uid: v1AssociateAgent_GetAssociateByPersonId
+generated: true
 ---
 
 # POST Agents/Associate/GetAssociateByPersonId
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 314
+  "PersonId": 420
 }
 ```
 
@@ -98,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 251,
-  "Name": "Ondricka-Zulauf",
-  "PersonId": 200,
-  "Rank": 369,
-  "Tooltip": "distinctio",
+  "AssociateId": 587,
+  "Name": "Goodwin Inc and Sons",
+  "PersonId": 177,
+  "Rank": 622,
+  "Tooltip": "ipsa",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 798,
-  "FullName": "Waino Terry DDS",
-  "FormalName": "Hoeger Group",
+  "GroupIdx": 774,
+  "FullName": "Lisa Kreiger",
+  "FormalName": "Dach Inc and Sons",
   "Deleted": false,
-  "EjUserId": 381,
-  "UserName": "Feil-Osinski",
+  "EjUserId": 216,
+  "UserName": "Krajcik-Schneider",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldLength": 981
     }
   }
 }

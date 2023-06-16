@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultTaskMenu
 uid: v1ListAgent_CreateDefaultTaskMenu
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultTaskMenu
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,26 +80,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 600,
-  "Name": "Ward-Emard",
-  "Tooltip": "omnis",
-  "TableName": "Hintz, Bahringer and Ritchie",
-  "Area": "illum",
+  "TaskMenuId": 915,
+  "Name": "King-McCullough",
+  "Tooltip": "quos",
+  "TableName": "Lakin-Kuphal",
+  "Area": "tempora",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 916,
+  "CrmScriptId": 836,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 177,
+  "Rank": 579,
   "Encoding": "ANSI",
-  "ProgId": "pariatur",
+  "ProgId": "aut",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldLength": 399
     }
   }
 }

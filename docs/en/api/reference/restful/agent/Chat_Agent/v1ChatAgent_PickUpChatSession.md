@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/PickUpChatSession
 uid: v1ChatAgent_PickUpChatSession
+generated: true
 ---
 
 # POST Agents/Chat/PickUpChatSession
@@ -104,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 559
+  "ChatSessionId": 44
 }
 ```
 
@@ -119,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 383,
-  "TopicId": 815,
+  "ChatSessionId": 696,
+  "TopicId": 791,
   "User": null,
   "Person": null,
-  "CustomerAlias": "fuga",
-  "CustomerHost": "quisquam",
-  "CustomerName": "Runolfsson Group",
-  "CustomerEmail": "felicity.terry@turcotteadams.uk",
-  "CustomerPhone": "875-884-2944",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Schimmel, Ankunding and Strosin",
+  "CustomerAlias": "quis",
+  "CustomerHost": "hic",
+  "CustomerName": "Cartwright LLC",
+  "CustomerEmail": "terrell.pfannerstill@stoltenberg.ca",
+  "CustomerPhone": "(255)141-0002 x8900",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Farrell Group",
   "Status": "Closed",
-  "FirstMessage": "iure",
-  "LastMessage": "voluptate",
-  "WhenRequested": "2000-06-27T03:51:26.7249697+02:00",
-  "WhenStarted": "2011-12-01T03:51:26.7249697+01:00",
-  "WhenEnded": "1996-08-31T03:51:26.7249697+02:00",
-  "WhenIdle": "1998-04-25T03:51:26.7249697+02:00",
-  "WhenFetched": "2021-12-11T03:51:26.7249697+01:00",
-  "SessionKey": "consequatur",
-  "InitialQueuePos": 483,
-  "AlertLevel": 930,
-  "Rank": 277,
+  "FirstMessage": "unde",
+  "LastMessage": "est",
+  "WhenRequested": "2018-08-10T16:00:40.2425561+02:00",
+  "WhenStarted": "2018-03-01T16:00:40.2425561+01:00",
+  "WhenEnded": "2008-06-07T16:00:40.2425561+02:00",
+  "WhenIdle": "2016-03-22T16:00:40.2425561+01:00",
+  "WhenFetched": "2008-03-29T16:00:40.2425561+01:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 497,
+  "AlertLevel": 124,
+  "Rank": 249,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 301,
+  "ChatbotIsActive": false,
+  "Rating": 383,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 26
     }
   }
 }

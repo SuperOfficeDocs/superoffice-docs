@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CreateDefaultTaskListItem
 uid: v1AppointmentAgent_CreateDefaultTaskListItem
+generated: true
 ---
 
 # POST Agents/Appointment/CreateDefaultTaskListItem
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 578,
-  "Value": "sed",
+  "TaskListItemId": 328,
+  "Value": "sunt",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "nobis",
+  "Tooltip": "et",
   "Deleted": false,
-  "IntentId": 714,
-  "Rank": 847,
-  "IsDefaultAlldayEvent": true,
+  "IntentId": 991,
+  "Rank": 454,
+  "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
@@ -95,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldType": "System.String",
+      "FieldLength": 265
     }
   }
 }

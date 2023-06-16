@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetRatings
 uid: v1ListAgent_GetRatings
+generated: true
 ---
 
 # POST Agents/List/GetRatings
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetRatings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Value": "accusantium",
-    "Tooltip": "tempore",
+    "Id": 896,
+    "Value": "sit",
+    "Tooltip": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 932
       }
     }
   },
   {
-    "Id": 477,
-    "Value": "accusantium",
-    "Tooltip": "tempore",
+    "Id": 896,
+    "Value": "sit",
+    "Tooltip": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 932
       }
     }
   }

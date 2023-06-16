@@ -1,6 +1,7 @@
 ---
 title: POST Agents/TimeZone/DeleteTimeZones
 uid: v1TimeZoneAgent_DeleteTimeZones
+generated: true
 ---
 
 # POST Agents/TimeZone/DeleteTimeZones

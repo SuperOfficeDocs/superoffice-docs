@@ -1,6 +1,7 @@
 ---
 title: PUT List/ConsentPurpose/Items/{id}
 uid: v1ConsentPurposeList_PutConsentPurpose
+generated: true
 ---
 
 # PUT List/ConsentPurpose/Items/{id}
@@ -93,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 656,
-  "Name": "Mertz, Considine and Morar",
-  "ConsentText": "voluptas",
-  "FormText": "voluptatem",
-  "Key": "ex",
-  "Tooltip": "eligendi",
-  "Active": 32,
-  "UpdatedDate": "2003-07-13T03:51:34.5989925+02:00",
+  "ConsentPurposeId": 58,
+  "Name": "Waelchi, Okuneva and Ullrich",
+  "ConsentText": "rem",
+  "FormText": "facere",
+  "Key": "esse",
+  "Tooltip": "qui",
+  "Active": 776,
+  "UpdatedDate": "2016-09-29T16:00:48.9145965+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 549,
-  "PrivacyStatementDesc": "incidunt",
+  "Deleted": true,
+  "Rank": 695,
+  "PrivacyStatementDesc": "in",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -120,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 786,
-  "Name": "Luettgen-Monahan",
-  "ConsentText": "autem",
-  "FormText": "dicta",
-  "Key": "nemo",
-  "Tooltip": "sint",
-  "Active": 375,
-  "UpdatedDate": "2000-11-02T03:51:34.5989925+01:00",
+  "ConsentPurposeId": 261,
+  "Name": "Kunde, Lueilwitz and Howell",
+  "ConsentText": "ipsam",
+  "FormText": "dolores",
+  "Key": "itaque",
+  "Tooltip": "qui",
+  "Active": 962,
+  "UpdatedDate": "1998-12-29T16:00:48.9145965+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 406,
-  "PrivacyStatementDesc": "quam",
+  "Deleted": false,
+  "Rank": 266,
+  "PrivacyStatementDesc": "mollitia",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   }
 }

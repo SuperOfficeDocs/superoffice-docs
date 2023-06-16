@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetPriorityList
 uid: v1ListAgent_GetPriorityList
+generated: true
 ---
 
 # POST Agents/List/GetPriorityList
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetPriorityList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Value": "eum",
-    "Tooltip": "quam",
+    "Id": 295,
+    "Value": "distinctio",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 639
+        "FieldType": "System.Int32",
+        "FieldLength": 762
       }
     }
   },
   {
-    "Id": 940,
-    "Value": "eum",
-    "Tooltip": "quam",
+    "Id": 295,
+    "Value": "distinctio",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 639
+        "FieldType": "System.Int32",
+        "FieldLength": 762
       }
     }
   }

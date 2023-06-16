@@ -2,17 +2,10 @@
 uid: ConsentPurpose
 title: ConsentPurpose
 description: This is the archive Consent Purpose Provider for GDPR Admin
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ConsentPurpose"
+keywords: ConsentPurpose archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ConsentPurpose"
@@ -130,6 +123,10 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/personAddress/city|string|Contact - Contact address - City: This criterion corresponds to the City field on the Company card.| x |
 |consentPerson/person/personAddress/zip|string|Contact - Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |consentPerson/person/personAddress/state|string|Contact - Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |consentPerson/person/personAddress/wgs84latitude|decimal|Contact - Contact address - Latitude: Latitude| x |
 |consentPerson/person/personAddress/wgs84longitude|decimal|Contact - Contact address - Longitude: Longitude| x |
 |consentPerson/person/personAddress/formattedAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
@@ -182,7 +179,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personUpdatedByFullName,consentPerson/person/personPrivate/formattedNumber
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/consentSource,consentPerson/person/personAddress/wgs84longitude,consentPerson/person/personAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

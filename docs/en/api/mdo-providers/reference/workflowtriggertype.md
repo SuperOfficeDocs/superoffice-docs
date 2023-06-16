@@ -1,17 +1,11 @@
 ---
 uid: workflowtriggertype
 title: workflowtriggertype
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "workflowtriggertype"
+keywords: mdoprovider mdo provider workflowtriggertype
+description: MDO provider for the WorkflowTriggerType enum
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "workflowtriggertype" MDO List
@@ -50,7 +44,7 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1|Send e-mail|||
 |2|Send SMS|||
-|3|Wait (time based)|||
+|3|Wait time|||
 |4|Wait for action|||
 |5|Split|||
 |6|Update contact|||

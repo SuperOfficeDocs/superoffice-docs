@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Pocket/GetPushNotificationTagsForDevice
 uid: v1PocketAgent_GetPushNotificationTagsForDevice
+generated: true
 ---
 
 # POST Agents/Pocket/GetPushNotificationTagsForDevice
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Pocket/GetPushNotificationTagsForDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "expedita"
+  "DeviceIdentifier": "sit"
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"id"
+"omnis"
 ```

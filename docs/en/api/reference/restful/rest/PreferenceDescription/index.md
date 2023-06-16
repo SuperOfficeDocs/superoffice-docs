@@ -1,5 +1,6 @@
 ---
 title: PreferenceDescription
+generated: true
 ---
 
 ```http

@@ -1,17 +1,12 @@
 ---
 uid: functionrights
 title: functionrights
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "functionrights"
+keywords: mdoprovider mdo provider functionrights
+description: FunctionRightsListProvider returns a MDO list of function rights in the database.
+Additional Info = "role=123;languageId=1024;roleType=1"
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "functionrights" MDO List

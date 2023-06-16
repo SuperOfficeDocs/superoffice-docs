@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetEmarketingStrictMode
 uid: v1ListAgent_GetEmarketingStrictMode
+generated: true
 ---
 
 # POST Agents/List/GetEmarketingStrictMode

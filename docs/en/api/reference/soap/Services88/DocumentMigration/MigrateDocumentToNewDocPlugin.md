@@ -1,6 +1,6 @@
 ---
 title: Services88.DocumentMigrationAgent.MigrateDocumentToNewDocPlugin SOAP
-generated: 1
+generated: true
 uid: Services88-DocumentMigration-MigrateDocumentToNewDocPlugin
 ---
 

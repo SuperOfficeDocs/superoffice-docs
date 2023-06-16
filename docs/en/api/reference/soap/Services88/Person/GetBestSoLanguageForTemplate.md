@@ -1,6 +1,6 @@
 ---
 title: Services88.PersonAgent.GetBestSoLanguageForTemplate SOAP
-generated: 1
+generated: true
 uid: Services88-Person-GetBestSoLanguageForTemplate
 ---
 

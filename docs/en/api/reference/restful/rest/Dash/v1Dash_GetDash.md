@@ -1,6 +1,7 @@
 ---
 title: GET Dash/{id}
 uid: v1Dash_GetDash
+generated: true
 ---
 
 # GET Dash/{id}
@@ -84,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 13,
-  "UniqueId": "illo",
-  "Name": "Stracke-Balistreri",
-  "Description": "Multi-lateral web-enabled concept",
-  "AssociateId": 202,
-  "Columns": 620,
+  "DashboardId": 78,
+  "UniqueId": "atque",
+  "Name": "Bogan-Schimmel",
+  "Description": "Multi-layered encompassing framework",
+  "AssociateId": 170,
+  "Columns": 517,
   "Theme": null,
-  "VisibleForAll": 39,
+  "VisibleForAll": 857,
   "VisibleForAssociates": [
-    192,
-    264
+    741,
+    487
   ],
   "VisibleForGroups": [
-    500,
-    962
+    588,
+    95
   ],
-  "PinForAll": 277,
+  "PinForAll": 738,
   "PinForAssociates": [
-    80,
-    865
+    969,
+    981
   ],
   "PinForGroups": [
-    336,
-    879
+    821,
+    911
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldType": "System.Int32",
+      "FieldLength": 812
     }
   },
   "_Links": {

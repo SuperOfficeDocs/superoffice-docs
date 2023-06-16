@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GenerateNavigationUrl
 uid: v1ListAgent_GenerateNavigationUrl
+generated: true
 ---
 
 # POST Agents/List/GenerateNavigationUrl
@@ -73,7 +74,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Rolfson, Carter and Senger"
+  "WindowName": "Luettgen-Hills"
 }
 ```
 

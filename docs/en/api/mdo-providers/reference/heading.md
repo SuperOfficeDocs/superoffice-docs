@@ -1,17 +1,13 @@
 ---
 uid: heading
 title: heading
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "heading"
+keywords: mdoprovider mdo provider heading
+description: List provider for the Heading table. While this table looks like an MDO table,
+it lacks the standardized grouplink and headinglink companion tables for good reason,
+since it is the heading table itself.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "heading" MDO List

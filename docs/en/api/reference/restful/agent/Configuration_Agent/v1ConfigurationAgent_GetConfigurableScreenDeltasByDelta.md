@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetConfigurableScreenDeltasByDelta
 uid: v1ConfigurationAgent_GetConfigurableScreenDeltasByDelta
+generated: true
 ---
 
 # POST Agents/Configuration/GetConfigurableScreenDeltasByDelta
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 799,
-    "Name": "Brekke LLC",
-    "Description": "Realigned background paradigm",
-    "DeltaJson": "recusandae",
+    "ConfigurableScreenDeltaId": 143,
+    "Name": "Stehr, Murray and Abshire",
+    "Description": "Decentralized responsive process improvement",
+    "DeltaJson": "officiis",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "quos",
-    "UpdatedDate": "2008-03-22T03:51:26.787455+01:00",
-    "CreatedDate": "2001-07-22T03:51:26.787455+02:00",
+    "RecipeId": "quas",
+    "UpdatedDate": "1999-11-14T16:00:40.3050315+01:00",
+    "CreatedDate": "2000-08-26T16:00:40.3050315+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      716,
-      457
+      285,
+      705
     ],
-    "AppliesToKey": "iure",
+    "AppliesToKey": "necessitatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 452
+        "FieldLength": 504
       }
     }
   }

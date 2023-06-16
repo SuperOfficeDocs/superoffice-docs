@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/SavePreferences
 uid: v1PreferenceAgent_SavePreferences
+generated: true
 ---
 
 # POST Agents/Preference/SavePreferences
@@ -72,16 +73,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "repellendus",
+      "RawValue": "ipsa",
       "Specification": null,
-      "DisplayValue": "quam",
-      "DisplayTooltip": "dolore",
+      "DisplayValue": "temporibus",
+      "DisplayTooltip": "perferendis",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 994,
-      "PrefDescId": 209,
-      "TableName": "Cartwright Group",
-      "UserPreferenceId": 106
+      "TargetId": 405,
+      "PrefDescId": 929,
+      "TableName": "Murphy, Romaguera and Kuhn",
+      "UserPreferenceId": 465
     }
   ]
 }

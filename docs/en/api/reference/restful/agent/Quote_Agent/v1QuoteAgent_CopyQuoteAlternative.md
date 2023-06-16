@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CopyQuoteAlternative
 uid: v1QuoteAgent_CopyQuoteAlternative
+generated: true
 ---
 
 # POST Agents/Quote/CopyQuoteAlternative
@@ -96,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 66,
-  "QuoteAlternativeId": 621,
-  "QuoteAlternativeName": "King Inc and Sons"
+  "QuoteVersionId": 635,
+  "QuoteAlternativeId": 6,
+  "QuoteAlternativeName": "Feeney Inc and Sons"
 }
 ```
 
@@ -113,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 893,
-  "ERPQuoteAlternativeKey": "vel",
-  "QuoteVersionId": 311,
-  "Name": "Borer Group",
-  "Description": "Cross-platform bottom-line help-desk",
+  "QuoteAlternativeId": 474,
+  "ERPQuoteAlternativeKey": "tempora",
+  "QuoteVersionId": 474,
+  "Name": "Waters-West",
+  "Description": "Switchable zero defect standardization",
   "Status": "Error",
-  "Reason": "integrate holistic solutions",
-  "ERPDiscountPercent": 3594.698,
-  "ERPDiscountAmount": 5647.468,
-  "DiscountPercent": 28227.938,
-  "DiscountAmount": 25482.554,
+  "Reason": "",
+  "ERPDiscountPercent": 664.408,
+  "ERPDiscountAmount": 1905.472,
+  "DiscountPercent": 17622.482,
+  "DiscountAmount": 4114.942,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "maxime",
-  "VAT": 18431.054,
-  "EarningPercent": 31318.061999999998,
-  "EarningAmount": 3550.8219999999997,
-  "SubTotal": 28704.306,
-  "TotalPrice": 24727.26,
-  "ExtraField1": "adipisci",
-  "ExtraField2": "magni",
-  "ExtraField3": "saepe",
-  "ExtraField4": "atque",
-  "ExtraField5": "quod",
+  "VATInfo": "eum",
+  "VAT": 12893.276,
+  "EarningPercent": 26529.309999999998,
+  "EarningAmount": 23019.23,
+  "SubTotal": 18321.363999999998,
+  "TotalPrice": 17428.174,
+  "ExtraField1": "est",
+  "ExtraField2": "sit",
+  "ExtraField3": "dolore",
+  "ExtraField4": "aut",
+  "ExtraField5": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldLength": 807
     }
   }
 }

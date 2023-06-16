@@ -1,6 +1,7 @@
 ---
 title: GET List/ConsentPurpose/Headings
 uid: v1ConsentPurposeList_GetConsentPurposeHeadings
+generated: true
 ---
 
 # GET List/ConsentPurpose/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 277,
-    "Name": "Mohr, Runte and Hermiston",
-    "Tooltip": "non",
+    "HeadingId": 77,
+    "Name": "Mohr-Stracke",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "Rank": 718,
-    "UdListDefinitionId": 209,
+    "Rank": 999,
+    "UdListDefinitionId": 422,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 409
       }
     }
   }

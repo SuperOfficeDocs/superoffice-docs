@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetDocumentCommands
 uid: v1DocumentAgent_GetDocumentCommands
+generated: true
 ---
 
 # POST Agents/Document/GetDocumentCommands
@@ -77,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 438,
+  "DocumentId": 219,
   "AllowedReturnTypes": [
-    "aut",
-    "excepturi"
+    "adipisci",
+    "nemo"
   ]
 }
 ```
@@ -97,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mills, Miller and Schmidt",
-    "DisplayName": "Jacobson Group",
-    "DisplayTooltip": "eligendi",
-    "IconHint": "officiis",
+    "Name": "Cummings, Wisozk and Ratke",
+    "DisplayName": "Champlin LLC",
+    "DisplayTooltip": "magnam",
+    "IconHint": "praesentium",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Mills, Miller and Schmidt",
-    "DisplayName": "Jacobson Group",
-    "DisplayTooltip": "eligendi",
-    "IconHint": "officiis",
+    "Name": "Cummings, Wisozk and Ratke",
+    "DisplayName": "Champlin LLC",
+    "DisplayTooltip": "magnam",
+    "IconHint": "praesentium",
     "ReturnType": "CustomGui"
   }
 ]

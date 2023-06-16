@@ -1,17 +1,13 @@
 ---
 uid: pricelist
 title: pricelist
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "pricelist"
+keywords: mdoprovider mdo provider pricelist
+description: List of pricelists from the PriceList table.
+Supported values in the AdditionalInfo:
+<list type="bullet"><item><term>all</term><description>true|false. If true is specified, inactive items is also returned.</description></item><item><term>QuoteConnectionId</term><description>Gets items for a specific Quote connection. If not specified, only SuperOffice pricelists (where IsErpCopy=false) will be returned.</description></item></list><example>AdditionalInfo string: "all=true&amp;QuoteConnectionId=2"</example>
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "pricelist" MDO List

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Diagnostics/CollectDataAdditions
 uid: v1DiagnosticsAgent_CollectDataAdditions
+generated: true
 ---
 
 # POST Agents/Diagnostics/CollectDataAdditions
@@ -57,7 +58,7 @@ No Content
 POST /api/v1/Agents/Diagnostics/CollectDataAdditions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

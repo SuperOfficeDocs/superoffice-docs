@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/SetGeneratedPasswordFromName
 uid: v1UserAgent_SetGeneratedPasswordFromName
+generated: true
 ---
 
 # POST Agents/User/SetGeneratedPasswordFromName
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/User/SetGeneratedPasswordFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Kertzmann-Anderson"
+  "AssociateName": "Daniel Inc and Sons"
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Batz-Okuneva"
+"Sauer-Johnston"
 ```

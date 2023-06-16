@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Replication/SetFreetextSearchEnabledOnArea
 uid: v1ReplicationAgent_SetFreetextSearchEnabledOnArea
+generated: true
 ---
 
 # POST Agents/Replication/SetFreetextSearchEnabledOnArea
@@ -70,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AreaId": 900,
+  "AreaId": 240,
   "FreetextEnabled": false
 }
 ```

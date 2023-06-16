@@ -1,6 +1,7 @@
 ---
 title: PUT List/MrMrs/Items/{id}
 uid: v1MrMrsList_PutMrMrs
+generated: true
 ---
 
 # PUT List/MrMrs/Items/{id}
@@ -77,16 +78,16 @@ OK
 PUT /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 990,
-  "Name": "Heidenreich Inc and Sons",
-  "Tooltip": "adipisci",
+  "Id": 753,
+  "Name": "Hammes-Schinner",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 664,
-  "Rank": 589
+  "UdListDefinitionId": 136,
+  "Rank": 239
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 875,
-  "Name": "Waelchi, Kassulke and Oberbrunner",
-  "Tooltip": "qui",
+  "Id": 86,
+  "Name": "Zemlak-Von",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 692,
-  "Rank": 655,
+  "UdListDefinitionId": 315,
+  "Rank": 830,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 309
+      "FieldType": "System.Int32",
+      "FieldLength": 621
     }
   }
 }

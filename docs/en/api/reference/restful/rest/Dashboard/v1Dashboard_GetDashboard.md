@@ -1,6 +1,7 @@
 ---
 title: GET Dashboard/{id}
 uid: v1Dashboard_GetDashboard
+generated: true
 ---
 
 # GET Dashboard/{id}
@@ -76,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 287,
-  "AssociateId": 948,
-  "Caption": "autem",
+  "DashboardId": 613,
+  "AssociateId": 625,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 725,
-      "Caption": "eligendi",
-      "Description": "Object-based static orchestration",
-      "ChartName": "Krajcik-Gorczany",
-      "ChartId": "voluptates",
+      "DashboardTileId": 686,
+      "Caption": "aut",
+      "Description": "Expanded assymetric initiative",
+      "ChartName": "Romaguera, Hettinger and Douglas",
+      "ChartId": "aut",
       "IsDefault": false,
-      "AssociateId": 636,
-      "GroupId": 305,
-      "SelectionId": 331,
-      "Config": "ut",
+      "AssociateId": 69,
+      "GroupId": 156,
+      "SelectionId": 829,
+      "Config": "velit",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -116,8 +117,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 16
+          "FieldType": "System.Int32",
+          "FieldLength": 160
         }
       }
     }
@@ -127,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 1001
     }
   },
   "_Links": {

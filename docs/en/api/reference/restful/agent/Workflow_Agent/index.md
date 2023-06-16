@@ -1,5 +1,6 @@
 ---
 title: Workflow_Agent
+generated: true
 ---
 
 ```http
@@ -38,6 +39,10 @@ title: Workflow_Agent
 * [POST Agents/Workflow/GetEmailFlow](v1WorkflowAgent_GetEmailFlow.md)
 
 * [POST Agents/Workflow/TryAddPersonsToEmailFlow](v1WorkflowAgent_TryAddPersonsToEmailFlow.md)
+
+* [POST Agents/Workflow/CreateEmailFlowContent](v1WorkflowAgent_CreateEmailFlowContent.md)
+
+* [POST Agents/Workflow/ConnectEmailFlowContent](v1WorkflowAgent_ConnectEmailFlowContent.md)
 
 * [POST Agents/Workflow/GetWorkflowGoal](v1WorkflowAgent_GetWorkflowGoal.md)
 

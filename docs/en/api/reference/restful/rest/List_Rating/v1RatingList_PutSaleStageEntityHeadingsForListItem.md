@@ -1,6 +1,7 @@
 ---
 title: PUT List/Rating/Items/{id}/Headings
 uid: v1RatingList_PutSaleStageEntityHeadingsForListItem
+generated: true
 ---
 
 # PUT List/Rating/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 700,
-    "Name": "Rutherford, Kshlerin and Beahan",
-    "ToolTip": "Ea excepturi quas tempore velit facere consequatur et.",
+    "Id": 247,
+    "Name": "Lakin-Hettinger",
+    "ToolTip": "Itaque quos velit harum.",
     "Deleted": true,
-    "Rank": 322,
-    "Type": "voluptates",
-    "ColorBlock": 209,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2004-06-16T03:51:34.8957999+02:00",
+    "Rank": 938,
+    "Type": "dolor",
+    "ColorBlock": 441,
+    "IconHint": "necessitatibus",
+    "Selected": false,
+    "LastChanged": "2015-11-17T16:00:49.2583068+01:00",
     "ChildItems": [
       {
-        "Id": 679,
-        "Name": "Swaniawski, Stehr and Anderson",
-        "ToolTip": "Aut recusandae quidem.",
+        "Id": 771,
+        "Name": "Stokes Inc and Sons",
+        "ToolTip": "Distinctio consequatur harum illum.",
         "Deleted": false,
-        "Rank": 152,
-        "Type": "inventore",
-        "ColorBlock": 726,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2004-05-27T03:51:34.8957999+02:00",
+        "Rank": 151,
+        "Type": "omnis",
+        "ColorBlock": 61,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2008-08-17T16:00:49.2583068+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "quae",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Ms. Libbie Cleta Anderson"
+        "FullName": "Weldon Gleichner"
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "esse",
+    "StyleHint": "voluptas",
     "Hidden": true,
-    "FullName": "Cortney Mayer"
+    "FullName": "Archibald Schmidt"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 666,
-    "Name": "Murphy-Hermann",
-    "ToolTip": "Aliquid nisi maxime.",
-    "Deleted": true,
-    "Rank": 989,
-    "Type": "vero",
-    "ColorBlock": 330,
-    "IconHint": "asperiores",
-    "Selected": true,
-    "LastChanged": "2022-09-02T03:51:34.8957999+02:00",
+    "Id": 437,
+    "Name": "Larkin-Littel",
+    "ToolTip": "Non iure.",
+    "Deleted": false,
+    "Rank": 772,
+    "Type": "placeat",
+    "ColorBlock": 560,
+    "IconHint": "quam",
+    "Selected": false,
+    "LastChanged": "1998-01-09T16:00:49.2583068+01:00",
     "ChildItems": [
       {
-        "Id": 485,
-        "Name": "Renner Inc and Sons",
-        "ToolTip": "Nihil libero veniam dolorem adipisci.",
+        "Id": 153,
+        "Name": "West Group",
+        "ToolTip": "Est qui facere.",
         "Deleted": false,
-        "Rank": 594,
-        "Type": "voluptatem",
-        "ColorBlock": 191,
-        "IconHint": "nesciunt",
-        "Selected": true,
-        "LastChanged": "2016-01-22T03:51:34.8957999+01:00",
+        "Rank": 709,
+        "Type": "maxime",
+        "ColorBlock": 338,
+        "IconHint": "temporibus",
+        "Selected": false,
+        "LastChanged": "2007-09-25T16:00:49.2583068+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Tamia Wilburn Casper MD",
+        "ExtraInfo": "quia",
+        "StyleHint": "illum",
+        "Hidden": false,
+        "FullName": "Ms. Hailee Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 839
+            "FieldType": "System.Int32",
+            "FieldLength": 122
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "accusamus",
-    "Hidden": true,
-    "FullName": "Zoe Kertzmann III",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Otha Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldType": "System.String",
+        "FieldLength": 441
       }
     }
   }

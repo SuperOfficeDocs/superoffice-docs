@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetWindowPosSize
 uid: v1ConfigurationAgent_GetWindowPosSize
+generated: true
 ---
 
 # POST Agents/Configuration/GetWindowPosSize
@@ -25,7 +26,7 @@ Gets a WindowPosSize object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=962
+POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=147
 POST /api/v1/Agents/Configuration/GetWindowPosSize?$select=name,department,category/id
 ```
 
@@ -86,23 +87,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "quam",
-  "PersonId": 848,
-  "AssociateId": 509,
-  "ExtraId": 45,
-  "ExtraInfo": "libero",
-  "Height": 640,
-  "LeftX": 230,
+  "OwnerWindow": "unde",
+  "PersonId": 944,
+  "AssociateId": 345,
+  "ExtraId": 426,
+  "ExtraInfo": "temporibus",
+  "Height": 12,
+  "LeftX": 14,
   "State": "Maximized",
-  "UpperY": 920,
-  "Width": 140,
-  "WindowPosSizeId": 649,
+  "UpperY": 807,
+  "Width": 399,
+  "WindowPosSizeId": 122,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldLength": 541
     }
   }
 }

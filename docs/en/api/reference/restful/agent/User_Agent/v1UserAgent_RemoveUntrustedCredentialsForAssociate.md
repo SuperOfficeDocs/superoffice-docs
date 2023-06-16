@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/RemoveUntrustedCredentialsForAssociate
 uid: v1UserAgent_RemoveUntrustedCredentialsForAssociate
+generated: true
 ---
 
 # POST Agents/User/RemoveUntrustedCredentialsForAssociate
@@ -71,9 +72,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 309,
-  "Type": "eum",
-  "PublicValue": "asperiores"
+  "AssociateId": 821,
+  "Type": "ut",
+  "PublicValue": "nihil"
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateNewEntry
 uid: v1SelectionAgent_CreateNewEntry
+generated: true
 ---
 
 # POST Agents/Selection/CreateNewEntry
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/Selection/CreateNewEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-685
+322
 ```

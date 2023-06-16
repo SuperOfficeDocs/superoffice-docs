@@ -1,6 +1,7 @@
 ---
 title: POST Agents/TimeZone/GetDefaultTimeZoneInformation
 uid: v1TimeZoneAgent_GetDefaultTimeZoneInformation
+generated: true
 ---
 
 # POST Agents/TimeZone/GetDefaultTimeZoneInformation
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/TimeZone/GetDefaultTimeZoneInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 111,
-  "TZLocationId": 508,
-  "LocationCode": "et",
-  "Description": "Realigned bifurcated paradigm",
+  "PreferenceId": 554,
+  "TZLocationId": 596,
+  "LocationCode": "sit",
+  "Description": "Open-architected hybrid software",
   "Country": "Sokovia",
-  "Bias": 877
+  "Bias": 115
 }
 ```

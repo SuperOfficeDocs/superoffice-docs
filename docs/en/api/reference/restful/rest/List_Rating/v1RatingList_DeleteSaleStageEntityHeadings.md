@@ -1,6 +1,7 @@
 ---
 title: DEL List/Rating/Headings
 uid: v1RatingList_DeleteSaleStageEntityHeadings
+generated: true
 ---
 
 # DEL List/Rating/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

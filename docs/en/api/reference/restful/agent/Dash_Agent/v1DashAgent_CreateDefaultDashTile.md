@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/CreateDefaultDashTile
 uid: v1DashAgent_CreateDefaultDashTile
+generated: true
 ---
 
 # POST Agents/Dash/CreateDefaultDashTile
@@ -71,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 880,
-  "DashboardId": 57,
-  "Height": 874,
-  "Width": 279,
-  "Rank": 996,
+  "DashboardTileId": 457,
+  "DashboardId": 329,
+  "Height": 542,
+  "Width": 973,
+  "Rank": 538,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 7
+      "FieldType": "System.Int32",
+      "FieldLength": 702
     }
   }
 }

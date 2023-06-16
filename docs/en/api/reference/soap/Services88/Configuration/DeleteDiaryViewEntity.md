@@ -1,6 +1,6 @@
 ---
 title: Services88.ConfigurationAgent.DeleteDiaryViewEntity SOAP
-generated: 1
+generated: true
 uid: Services88-Configuration-DeleteDiaryViewEntity
 ---
 

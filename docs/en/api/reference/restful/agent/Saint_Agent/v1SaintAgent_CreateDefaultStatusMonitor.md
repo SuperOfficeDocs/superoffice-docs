@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Saint/CreateDefaultStatusMonitor
 uid: v1SaintAgent_CreateDefaultStatusMonitor
+generated: true
 ---
 
 # POST Agents/Saint/CreateDefaultStatusMonitor
@@ -70,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 81,
-  "Rank": 373,
-  "DefaultTask": 996,
-  "DefaultTaskText": "officiis",
+  "OwnerTable": 497,
+  "Rank": 639,
+  "DefaultTask": 977,
+  "DefaultTaskText": "ratione",
   "IsVisual": false,
-  "LastGenerated": "2006-04-06T03:51:28.0684042+02:00",
-  "Description": "Persevering multi-state projection",
-  "Name": "Dare, Padberg and Simonis",
-  "StatusMonitorId": 318,
-  "PictureId": 587,
-  "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 361,
-  "NumNeedUpdate": 58,
-  "GenerationStart": "2018-08-06T03:51:28.0684042+02:00",
+  "LastGenerated": "2011-06-05T16:00:41.711291+02:00",
+  "Description": "Vision-oriented foreground infrastructure",
+  "Name": "Mohr-Rosenbaum",
+  "StatusMonitorId": 566,
+  "PictureId": 807,
+  "NeedsUpdate": true,
+  "Deleted": false,
+  "NumMatches": 38,
+  "NumNeedUpdate": 244,
+  "GenerationStart": "2005-05-06T16:00:41.711291+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldType": "System.String",
+      "FieldLength": 991
     }
   }
 }

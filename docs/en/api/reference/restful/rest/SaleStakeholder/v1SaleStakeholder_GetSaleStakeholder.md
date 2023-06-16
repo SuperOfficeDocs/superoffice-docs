@@ -1,6 +1,7 @@
 ---
 title: GET SaleStakeholder/{id}
 uid: v1SaleStakeholder_GetSaleStakeholder
+generated: true
 ---
 
 # GET SaleStakeholder/{id}
@@ -90,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,36 +101,36 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Renner, Olson and Mosciski",
-  "Comment": "enim",
-  "StakeholderRoleId": 65,
-  "CountryId": 105,
-  "PersonId": 15,
-  "EmailDescription": "josefina@beatty.us",
-  "EmailId": 204,
-  "EmailAddress": "sasha_paucek@padbergnolan.info",
-  "PhoneId": 795,
-  "ContactName": "Berge Group",
-  "ContactId": 512,
-  "SaleId": 265,
-  "Mrmrs": "optio",
-  "Firstname": "Ryleigh",
-  "MiddleName": "Pfeffer, Gerhold and Parisian",
-  "Lastname": "Ratke",
-  "SaleStakeholderId": 47,
-  "Rank": 404,
-  "Phone": "(096)625-3105",
+  "StakeholderRoleName": "Stiedemann Group",
+  "Comment": "praesentium",
+  "StakeholderRoleId": 48,
+  "CountryId": 672,
+  "PersonId": 126,
+  "EmailDescription": "rodrick@simonis.us",
+  "EmailId": 908,
+  "EmailAddress": "juwan_moore@rempelgreenfelder.uk",
+  "PhoneId": 532,
+  "ContactName": "Schultz-Wintheiser",
+  "ContactId": 8,
+  "SaleId": 139,
+  "Mrmrs": "itaque",
+  "Firstname": "Abraham",
+  "MiddleName": "Maggio-Weber",
+  "Lastname": "Anderson",
+  "SaleStakeholderId": 714,
+  "Rank": 366,
+  "Phone": "(533)923-0996",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldLength": 801
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

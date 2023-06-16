@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/TestConnectionByConfig
 uid: v1ErpSyncAgent_TestConnectionByConfig
+generated: true
 ---
 
 # POST Agents/ErpSync/TestConnectionByConfig
@@ -70,14 +71,14 @@ OK
 POST /api/v1/Agents/ErpSync/TestConnectionByConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 810,
+  "ErpConnectionId": 163,
   "ConfigFields": {
-    "ConfigFields1": "non",
-    "ConfigFields2": "ipsa"
+    "ConfigFields1": "odit",
+    "ConfigFields2": "qui"
   }
 }
 ```
@@ -88,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

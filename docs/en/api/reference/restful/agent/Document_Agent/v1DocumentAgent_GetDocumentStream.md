@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetDocumentStream
 uid: v1DocumentAgent_GetDocumentStream
+generated: true
 ---
 
 # POST Agents/Document/GetDocumentStream
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 881
+  "DocumentId": 396
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetContactAppointments
 uid: v1AppointmentAgent_GetContactAppointments
+generated: true
 ---
 
 # POST Agents/Appointment/GetContactAppointments
@@ -116,6 +117,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -125,14 +129,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 622,
-  "StartTime": "1996-12-29T03:51:26.0688614+01:00",
-  "EndTime": "2016-09-19T03:51:26.0688614+02:00",
-  "Count": 648
+  "ContactId": 901,
+  "StartTime": "2002-04-22T16:00:39.5707332+02:00",
+  "EndTime": "2011-09-10T16:00:39.5707332+02:00",
+  "Count": 844
 }
 ```
 
@@ -144,61 +148,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 602,
-    "StartDate": "2001-09-10T03:51:26.0844949+02:00",
-    "EndDate": "2008-02-11T03:51:26.0844949+01:00",
+    "AppointmentId": 161,
+    "StartDate": "2016-11-01T16:00:39.5863588+01:00",
+    "EndDate": "2023-06-08T16:00:39.5863588+02:00",
     "Type": "BookingForChecklist",
-    "Task": "qui",
-    "AssociateFullName": "Dr. Dale Doyle",
-    "ContactName": "Dare LLC",
-    "Description": "Self-enabling 24/7 flexibility",
-    "PersonFullName": "Kole Treutel",
-    "PersonId": 21,
-    "ContactId": 500,
-    "ProjectId": 543,
-    "ProjectName": "Wiza LLC",
+    "Task": "vel",
+    "AssociateFullName": "Brittany Labadie",
+    "ContactName": "Block Inc and Sons",
+    "Description": "User-centric stable analyzer",
+    "PersonFullName": "Riley Hahn",
+    "PersonId": 314,
+    "ContactId": 84,
+    "ProjectId": 249,
+    "ProjectName": "Shields, Balistreri and Leuschke",
     "IsPublished": false,
-    "AssociateId": 2,
-    "ColorIndex": 857,
+    "AssociateId": 341,
+    "ColorIndex": 281,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 903,
-    "PriorityName": "Abshire LLC",
+    "PriorityId": 183,
+    "PriorityName": "Schowalter, Lynch and Trantow",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2021-07-14T03:51:26.0844949+02:00",
+    "ActiveDate": "1998-07-23T16:00:39.5863588+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-07-16T03:51:26.0844949+02:00",
-    "RecurringEndDate": "1996-01-16T03:51:26.0844949+01:00",
-    "MotherId": 367,
-    "AssignedBy": 810,
-    "AssignedByFullName": "Kellen Langworth",
-    "RejectReason": "",
-    "Location": "dolor",
-    "AlarmLeadTime": "aut",
-    "SaleId": 370,
-    "SaleName": "Schmitt, Anderson and Parker",
-    "AssociateName": "Ziemann LLC",
-    "CreatedDate": "2020-05-16T03:51:26.0844949+02:00",
-    "CreatedBy": "at",
-    "CreatedByFullName": "Piper Vandervort PhD",
-    "CreatedByAssociateId": 895,
+    "RecurringStartDate": "2006-08-27T16:00:39.5863588+02:00",
+    "RecurringEndDate": "2005-07-13T16:00:39.5863588+02:00",
+    "MotherId": 900,
+    "AssignedBy": 636,
+    "AssignedByFullName": "Nelson Hand",
+    "RejectReason": "embrace sticky interfaces",
+    "Location": "dolore",
+    "AlarmLeadTime": "rem",
+    "SaleId": 824,
+    "SaleName": "Goldner-Romaguera",
+    "AssociateName": "Hilpert, Pfannerstill and Pacocha",
+    "CreatedDate": "2015-05-09T16:00:39.5863588+02:00",
+    "CreatedBy": "numquam",
+    "CreatedByFullName": "Maritza Reichert",
+    "CreatedByAssociateId": 146,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "quia",
+    "Agenda": "dolorem",
+    "InternalNotes": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldLength": 65
       }
     }
   }

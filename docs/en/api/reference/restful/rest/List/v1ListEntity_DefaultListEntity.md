@@ -1,6 +1,7 @@
 ---
 title: GET List/default
 uid: v1ListEntity_DefaultListEntity
+generated: true
 ---
 
 # GET List/default
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Grimes LLC",
-  "Tooltip": "blanditiis",
+  "Id": 629,
+  "Name": "Ziemann Group",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "Rank": 349,
-  "IsCustomList": false,
+  "Rank": 798,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "itaque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 825
     }
   }
 }

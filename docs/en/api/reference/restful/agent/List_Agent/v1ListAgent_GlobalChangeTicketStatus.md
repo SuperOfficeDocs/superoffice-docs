@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GlobalChangeTicketStatus
 uid: v1ListAgent_GlobalChangeTicketStatus
+generated: true
 ---
 
 # POST Agents/List/GlobalChangeTicketStatus
@@ -66,12 +67,12 @@ No Content
 POST /api/v1/Agents/List/GlobalChangeTicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketStatusId": 429,
-  "ToTicketStatusId": 128
+  "FromTicketStatusId": 477,
+  "ToTicketStatusId": 20
 }
 ```
 

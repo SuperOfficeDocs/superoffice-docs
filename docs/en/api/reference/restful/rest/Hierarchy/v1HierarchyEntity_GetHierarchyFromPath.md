@@ -1,6 +1,7 @@
 ---
 title: GET Hierarchy/{domain}/{path}
 uid: v1HierarchyEntity_GetHierarchyFromPath
+generated: true
 ---
 
 # GET Hierarchy/{domain}/{path}
@@ -88,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 839,
+  "HierarchyId": 250,
   "Domain": "Dashboards",
-  "Name": "Romaguera, Koch and Watsica",
-  "Fullname": "et",
-  "ParentId": 316,
+  "Name": "Kunde-Dach",
+  "Fullname": "tenetur",
+  "ParentId": 622,
   "Children": [
     {
-      "HierarchyId": 940,
+      "HierarchyId": 782,
       "Domain": "Dashboards",
-      "Name": "Donnelly Inc and Sons",
-      "Fullname": "rem",
-      "ParentId": 790,
+      "Name": "Abshire LLC",
+      "Fullname": "aut",
+      "ParentId": 861,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2003-08-11T03:51:33.6928335+02:00",
-      "RegisteredAssociateId": 652,
-      "Updated": "2022-01-13T03:51:33.6928335+01:00",
-      "UpdatedAssociateId": 527,
+      "Registered": "2013-09-07T16:00:47.9928249+02:00",
+      "RegisteredAssociateId": 239,
+      "Updated": "2011-10-03T16:00:47.9928249+02:00",
+      "UpdatedAssociateId": 99,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 726
+          "FieldLength": 179
         }
       }
     }
   ],
-  "Registered": "1996-04-06T03:51:33.6928335+02:00",
-  "RegisteredAssociateId": 732,
-  "Updated": "2008-05-22T03:51:33.6928335+02:00",
-  "UpdatedAssociateId": 262,
+  "Registered": "2012-04-27T16:00:47.9928249+02:00",
+  "RegisteredAssociateId": 320,
+  "Updated": "2021-04-14T16:00:47.9928249+02:00",
+  "UpdatedAssociateId": 602,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldLength": 116
     }
   }
 }

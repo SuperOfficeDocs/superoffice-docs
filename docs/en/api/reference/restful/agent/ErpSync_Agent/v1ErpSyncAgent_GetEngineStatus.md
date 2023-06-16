@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetEngineStatus
 uid: v1ErpSyncAgent_GetEngineStatus
+generated: true
 ---
 
 # POST Agents/ErpSync/GetEngineStatus
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetEngineStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,14 +80,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": false,
-  "StatusMessage": "ipsam",
-  "Interval": "ipsa",
+  "StatusMessage": "dignissimos",
+  "Interval": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldType": "System.String",
+      "FieldLength": 218
     }
   }
 }

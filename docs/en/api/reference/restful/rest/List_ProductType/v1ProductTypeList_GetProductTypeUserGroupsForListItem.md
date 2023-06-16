@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductType/Items/{id}/UserGroups
 uid: v1ProductTypeList_GetProductTypeUserGroupsForListItem
+generated: true
 ---
 
 # GET List/ProductType/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Braun LLC",
-    "ToolTip": "Et minima similique rerum.",
-    "Deleted": true,
-    "Rank": 915,
-    "Type": "itaque",
-    "ColorBlock": 904,
-    "IconHint": "deleniti",
+    "Id": 729,
+    "Name": "Wehner Group",
+    "ToolTip": "Et ut repudiandae repellat exercitationem.",
+    "Deleted": false,
+    "Rank": 555,
+    "Type": "nobis",
+    "ColorBlock": 312,
+    "IconHint": "quaerat",
     "Selected": false,
-    "LastChanged": "1998-06-19T03:51:34.8176965+02:00",
+    "LastChanged": "2000-10-02T16:00:49.1801938+02:00",
     "ChildItems": [
       {
-        "Id": 197,
-        "Name": "Muller LLC",
-        "ToolTip": "Sed ducimus est omnis dolorum non exercitationem amet.",
+        "Id": 434,
+        "Name": "Weber LLC",
+        "ToolTip": "Quibusdam voluptas quas et iusto repellendus.",
         "Deleted": false,
-        "Rank": 709,
-        "Type": "earum",
-        "ColorBlock": 244,
-        "IconHint": "nesciunt",
+        "Rank": 288,
+        "Type": "et",
+        "ColorBlock": 162,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2000-08-05T03:51:34.8176965+02:00",
+        "LastChanged": "1996-05-11T16:00:49.1801938+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Matilde Boyer",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Mrs. Michelle Ruben Tremblay V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 909
+            "FieldType": "System.Int32",
+            "FieldLength": 995
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "fuga",
+    "ExtraInfo": "quidem",
+    "StyleHint": "velit",
     "Hidden": true,
-    "FullName": "Rick Kilback",
+    "FullName": "Hermann Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 132
+        "FieldType": "System.Int32",
+        "FieldLength": 141
       }
     }
   }

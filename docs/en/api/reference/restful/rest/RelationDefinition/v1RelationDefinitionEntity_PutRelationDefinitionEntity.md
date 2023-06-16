@@ -1,6 +1,7 @@
 ---
 title: PUT RelationDefinition/{id}
 uid: v1RelationDefinitionEntity_PutRelationDefinitionEntity
+generated: true
 ---
 
 # PUT RelationDefinition/{id}
@@ -96,12 +97,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 936,
-  "Name": "Mann-Mitchell",
-  "Tooltip": "distinctio",
-  "PassiveText": "porro",
-  "Deleted": false,
-  "Rank": 517,
+  "ReldefId": 538,
+  "Name": "Gulgowski Inc and Sons",
+  "Tooltip": "sit",
+  "PassiveText": "assumenda",
+  "Deleted": true,
+  "Rank": 542,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -114,12 +115,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 854,
-  "Name": "Smith Group",
-  "Tooltip": "quasi",
-  "PassiveText": "et",
+  "ReldefId": 311,
+  "Name": "Hansen-Ziemann",
+  "Tooltip": "aspernatur",
+  "PassiveText": "aliquid",
   "Deleted": false,
-  "Rank": 570,
+  "Rank": 629,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -127,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 564
     }
   },
   "_Links": {

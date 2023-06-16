@@ -1,6 +1,7 @@
 ---
 title: GET List/SaleType/MDOItems
 uid: v1SaleTypeList_GetMDOList
+generated: true
 ---
 
 # GET List/SaleType/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=distinctio
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=ipsum
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 795,
-    "Name": "Hane-Schuster",
-    "ToolTip": "Inventore quo laudantium dolores aspernatur.",
+    "Id": 907,
+    "Name": "Lesch LLC",
+    "ToolTip": "Ea officiis accusamus.",
     "Deleted": false,
-    "Rank": 33,
-    "Type": "enim",
+    "Rank": 341,
+    "Type": "facilis",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Wiza, Hauck and Hackett",
-        "ToolTip": "Non dolorem ducimus est et.",
+        "Id": 119,
+        "Name": "Pollich LLC",
+        "ToolTip": "Est voluptatem quam consequatur eos ut.",
         "Deleted": false,
-        "Rank": 587,
-        "Type": "ipsam",
+        "Rank": 396,
+        "Type": "voluptates",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "maxime",
-        "ColorBlock": 864,
-        "ExtraInfo": "et",
-        "StyleHint": "fuga",
-        "FullName": "Prof. Everette Breitenberg",
+        "IconHint": "vero",
+        "ColorBlock": 677,
+        "ExtraInfo": "ducimus",
+        "StyleHint": "totam",
+        "FullName": "Chaya Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 329
+            "FieldLength": 104
           }
         }
       }
     ],
-    "IconHint": "voluptatibus",
-    "ColorBlock": 558,
-    "ExtraInfo": "quia",
-    "StyleHint": "qui",
-    "FullName": "Mr. Will Erin Reilly",
+    "IconHint": "saepe",
+    "ColorBlock": 243,
+    "ExtraInfo": "rerum",
+    "StyleHint": "autem",
+    "FullName": "Leanna Watsica",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldType": "System.String",
+        "FieldLength": 957
       }
     }
   }

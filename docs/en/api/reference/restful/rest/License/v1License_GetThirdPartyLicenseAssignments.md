@@ -1,6 +1,7 @@
 ---
 title: GET License/{moduleOwner}/{id}
 uid: v1License_GetThirdPartyLicenseAssignments
+generated: true
 ---
 
 # GET License/{moduleOwner}/{id}
@@ -72,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 516,
-    "Tooltip": "fugit",
+    "Total": 287,
+    "Tooltip": "quia",
     "CanAssign": true,
-    "Free": 576,
-    "InUse": 403,
+    "Free": 107,
+    "InUse": 918,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 794,
-    "Name": "Kassulke LLC",
-    "Description": "Multi-lateral zero tolerance groupware",
-    "PrerequisiteModuleName": "Reynolds, Kunze and Reinger",
-    "SortOrder": 836,
-    "ExtraFlags": 394,
+    "Assigned": true,
+    "ModuleLicenseId": 738,
+    "Name": "Rice-Marvin",
+    "Description": "Assimilated 3rd generation emulation",
+    "PrerequisiteModuleName": "Daniel, McGlynn and Streich",
+    "SortOrder": 145,
+    "ExtraFlags": 882,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 386
+        "FieldType": "System.Int32",
+        "FieldLength": 967
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/SendTicketMessage
 uid: v1TicketAgent_SendTicketMessage
+generated: true
 ---
 
 # POST Agents/Ticket/SendTicketMessage
@@ -69,26 +70,26 @@ No Content
 POST /api/v1/Agents/Ticket/SendTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 250,
+  "TicketMessageEntityId": 74,
   "To": [
-    "nihil",
-    "minima"
+    "alias",
+    "maiores"
   ],
   "Cc": [
-    "omnis",
-    "temporibus"
+    "perspiciatis",
+    "laudantium"
   ],
   "Bcc": [
-    "atque",
-    "iusto"
+    "vero",
+    "totam"
   ],
-  "Subject": "dolore",
-  "ReplyTemplateId": 328,
-  "GdprSource": "explicabo"
+  "Subject": "accusantium",
+  "ReplyTemplateId": 820,
+  "GdprSource": "laudantium"
 }
 ```
 

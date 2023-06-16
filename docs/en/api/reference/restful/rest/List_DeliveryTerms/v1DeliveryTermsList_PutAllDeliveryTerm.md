@@ -1,6 +1,7 @@
 ---
 title: PUT List/DeliveryTerm/Items
 uid: v1DeliveryTermsList_PutAllDeliveryTerm
+generated: true
 ---
 
 # PUT List/DeliveryTerm/Items
@@ -77,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Pouros-Nitzsche",
-    "Tooltip": "blanditiis",
+    "Id": 830,
+    "Name": "O'Keefe Group",
+    "Tooltip": "hic",
     "Deleted": false,
-    "UdListDefinitionId": 349,
-    "Rank": 543
+    "UdListDefinitionId": 328,
+    "Rank": 400
   },
   {
-    "Id": 654,
-    "Name": "Pouros-Nitzsche",
-    "Tooltip": "blanditiis",
+    "Id": 830,
+    "Name": "O'Keefe Group",
+    "Tooltip": "hic",
     "Deleted": false,
-    "UdListDefinitionId": 349,
-    "Rank": 543
+    "UdListDefinitionId": 328,
+    "Rank": 400
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Olson-Lueilwitz",
-    "Tooltip": "amet",
+    "Id": 103,
+    "Name": "Lubowitz-Satterfield",
+    "Tooltip": "magni",
     "Deleted": false,
-    "UdListDefinitionId": 28,
-    "Rank": 935,
+    "UdListDefinitionId": 801,
+    "Rank": 855,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldLength": 282
       }
     }
   }

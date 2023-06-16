@@ -1,6 +1,7 @@
 ---
 title: POST List
 uid: v1ListEntity_PostListEntity
+generated: true
 ---
 
 # POST List
@@ -93,20 +94,20 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799,
-  "Name": "Leffler Group",
-  "Tooltip": "debitis",
-  "Deleted": false,
-  "Rank": 171,
+  "Id": 184,
+  "Name": "Lubowitz, Quigley and Lubowitz",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "Rank": 53,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dignissimos",
-  "InUseByUserDefinedFields": false
+  "ListType": "consectetur",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -117,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 556,
-  "Name": "Gusikowski Inc and Sons",
-  "Tooltip": "qui",
+  "Id": 95,
+  "Name": "Heaney-Skiles",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 52,
+  "Rank": 987,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "ListType": "aliquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 133
+      "FieldType": "System.Int32",
+      "FieldLength": 250
     }
   },
   "_Links": {

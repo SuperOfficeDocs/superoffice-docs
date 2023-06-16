@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetLegalBases
 uid: v1ListAgent_GetLegalBases
+generated: true
 ---
 
 # POST Agents/List/GetLegalBases
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 334,
-    "Name": "Braun Inc and Sons",
-    "Tooltip": "facilis",
-    "Rank": 128,
-    "Key": "accusantium",
-    "Deleted": true,
+    "LegalBaseId": 755,
+    "Name": "Ritchie, Schaden and Koch",
+    "Tooltip": "non",
+    "Rank": 972,
+    "Key": "tempore",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldLength": 353
       }
     }
   }

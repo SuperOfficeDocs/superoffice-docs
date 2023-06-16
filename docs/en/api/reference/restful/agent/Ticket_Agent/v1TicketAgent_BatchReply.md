@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/BatchReply
 uid: v1TicketAgent_BatchReply
+generated: true
 ---
 
 # POST Agents/Ticket/BatchReply
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-813
+680
 ```

@@ -1,5 +1,6 @@
 ---
 title: List_Rating
+generated: true
 ---
 
 ```http

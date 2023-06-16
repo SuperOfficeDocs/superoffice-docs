@@ -1,6 +1,7 @@
 ---
 title: GET Attachment/default
 uid: v1AttachmentEntity_DefaultAttachmentEntity
+generated: true
 ---
 
 # GET Attachment/default
@@ -72,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 755,
-  "Name": "Greenholt Inc and Sons",
-  "ContentType": "sed",
-  "AttSize": 280,
+  "AttachmentId": 651,
+  "Name": "Hessel-Osinski",
+  "ContentType": "ipsa",
+  "AttSize": 62,
   "InlineImage": false,
-  "ContentId": "necessitatibus",
-  "AuthKey": "voluptas",
+  "ContentId": "enim",
+  "AuthKey": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldLength": 121
     }
   }
 }

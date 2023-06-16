@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetSalesByDate
 uid: v1SaleAgent_GetSalesByDate
+generated: true
 ---
 
 # POST Agents/Sale/GetSalesByDate
@@ -101,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2001-07-14T03:51:28.1308861+02:00",
-  "ToDate": "1998-01-06T03:51:28.1308861+01:00",
-  "AmountLimit": 550,
+  "FromDate": "1999-01-23T16:00:41.7894273+01:00",
+  "ToDate": "2007-11-30T16:00:41.7894273+01:00",
+  "AmountLimit": 231,
   "Status": "Lost"
 }
 ```
@@ -120,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Auer-Gerhold",
-    "SaleDate": "1996-10-12T03:51:28.1308861+02:00",
-    "SaleId": 16,
-    "Probability": 388,
-    "Title": "est",
-    "Amount": 2745.384,
-    "Currency": "ut",
-    "ProjectName": "Morar Inc and Sons",
-    "AssociateFullName": "Pearlie Bosco",
-    "Description": "Function-based stable collaboration",
+    "ContactName": "Walker Group",
+    "SaleDate": "1998-07-30T16:00:41.7894273+02:00",
+    "SaleId": 825,
+    "Probability": 26,
+    "Title": "velit",
+    "Amount": 13021.77,
+    "Currency": "tempore",
+    "ProjectName": "Sauer Group",
+    "AssociateFullName": "Clark Feil",
+    "Description": "Open-source bottom-line support",
     "Status": "Lost",
-    "WeightedAmount": 20377.268,
-    "ProjectId": 778,
-    "EarningPercent": 13980.774,
-    "Earning": 20411.742,
-    "ContactId": 792,
-    "AssociateId": 61,
-    "PersonId": 199,
-    "SaleTypeId": 368,
-    "SaleTypeName": "Jacobson, Kuphal and Wolf",
-    "PersonFullName": "Dr. Osvaldo Purdy I",
+    "WeightedAmount": 19562.428,
+    "ProjectId": 438,
+    "EarningPercent": 18481.198,
+    "Earning": 15767.153999999999,
+    "ContactId": 838,
+    "AssociateId": 955,
+    "PersonId": 136,
+    "SaleTypeId": 498,
+    "SaleTypeName": "Altenwerth-Ankunding",
+    "PersonFullName": "Stephan Marquardt",
     "Completed": "Completed",
-    "ActiveErpLinks": 537,
-    "NextDueDate": "1997-03-19T03:51:28.1308861+01:00",
-    "Number": "1470499",
+    "ActiveErpLinks": 543,
+    "NextDueDate": "2010-08-21T16:00:41.7894273+02:00",
+    "Number": "1094482",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldLength": 868
       }
     }
   }

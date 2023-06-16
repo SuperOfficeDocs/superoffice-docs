@@ -1,6 +1,7 @@
 ---
 title: POST Agents/PhoneList/GetFavoritesPhones
 uid: v1PhoneListAgent_GetFavoritesPhones
+generated: true
 ---
 
 # POST Agents/PhoneList/GetFavoritesPhones
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "312-040-4216",
-    "PersonCellPhone": "006.683.6793 x517",
-    "PersonPrivatePhone": "527.829.0829",
-    "PersonFaxNumber": "1443892",
-    "PersonPagerNumber": "816808",
-    "PersonEmail": "rebecca.hodkiewicz@kling.com",
-    "Id": 900,
-    "Name": "Gusikowski Inc and Sons",
-    "Tooltip": "vel",
-    "UniqueId": "omnis",
+    "PersonDirectPhone": "1-313-976-2834",
+    "PersonCellPhone": "982.737.3795 x61112",
+    "PersonPrivatePhone": "334-988-2604",
+    "PersonFaxNumber": "1262535",
+    "PersonPagerNumber": "1393726",
+    "PersonEmail": "cierra.jacobson@hartmannmertz.uk",
+    "Id": 621,
+    "Name": "Nienow Group",
+    "Tooltip": "assumenda",
+    "UniqueId": "sequi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 7
+        "FieldType": "System.Int32",
+        "FieldLength": 55
       }
     }
   }

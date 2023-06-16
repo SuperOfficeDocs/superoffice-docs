@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/HasNewMail
 uid: v1EMailAgent_HasNewMail
+generated: true
 ---
 
 # POST Agents/EMail/HasNewMail
@@ -74,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 703,
-  "FolderId": 862
+  "MailItemId": 712,
+  "FolderId": 433
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

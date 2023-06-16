@@ -1,6 +1,7 @@
 ---
 title: GET ForeignApp/{applicationName}
 uid: v1ForeignAppEntity_GetAppByName
+generated: true
 ---
 
 # GET ForeignApp/{applicationName}
@@ -72,32 +73,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 28 Oct 2004 03:51:33 G10T
+Last-Modified: Thu, 03 Aug 2000 16:00:47 G8T
 
 {
-  "ForeignAppId": 21,
-  "Name": "Fay-Ankunding",
-  "CreatedDate": "2022-11-06T03:51:33.677213+01:00",
-  "UpdatedDate": "2004-10-28T03:51:33.677213+02:00",
+  "ForeignAppId": 512,
+  "Name": "Heller-Crooks",
+  "CreatedDate": "2008-07-21T16:00:47.9772018+02:00",
+  "UpdatedDate": "2000-08-03T16:00:47.9772018+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 912,
-      "Name": "Yundt LLC",
-      "CreatedDate": "2022-11-25T03:51:33.677213+01:00",
-      "UpdatedDate": "2003-05-28T03:51:33.677213+02:00",
-      "AssociateFullName": "Mario Deonte Rolfson MD",
-      "CreatedBy": "et",
-      "UpdatedBy": "minima",
-      "DeviceIdentifier": "eius",
-      "ForeignAppId": 612,
+      "ForeignDeviceId": 478,
+      "Name": "Shanahan, Emard and Monahan",
+      "CreatedDate": "2019-12-31T16:00:47.9772018+01:00",
+      "UpdatedDate": "2001-10-02T16:00:47.9772018+02:00",
+      "AssociateFullName": "Roslyn Parker DDS",
+      "CreatedBy": "quos",
+      "UpdatedBy": "dicta",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 752,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 595
+          "FieldType": "System.Int32",
+          "FieldLength": 972
         }
       }
     }
@@ -106,8 +107,8 @@ Last-Modified: Thu, 28 Oct 2004 03:51:33 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 124
+      "FieldType": "System.Int32",
+      "FieldLength": 408
     }
   }
 }

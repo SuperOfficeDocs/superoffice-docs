@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetListEntityByName
 uid: v1ListAgent_GetListEntityByName
+generated: true
 ---
 
 # POST Agents/List/GetListEntityByName
@@ -85,7 +86,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gislason Group"
+  "Name": "Feeney, O'Conner and Kozey"
 }
 ```
 
@@ -96,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 571,
-  "Name": "Lindgren, Dickinson and Conroy",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "Rank": 429,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 46,
+  "Name": "Rempel, Hayes and Orn",
+  "Tooltip": "necessitatibus",
+  "Deleted": true,
+  "Rank": 8,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "illo",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 975
+      "FieldType": "System.Int32",
+      "FieldLength": 4
     }
   }
 }

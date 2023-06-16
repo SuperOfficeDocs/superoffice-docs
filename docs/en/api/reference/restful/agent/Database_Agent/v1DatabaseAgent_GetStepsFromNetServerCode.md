@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Database/GetStepsFromNetServerCode
 uid: v1DatabaseAgent_GetStepsFromNetServerCode
+generated: true
 ---
 
 # POST Agents/Database/GetStepsFromNetServerCode
@@ -65,7 +66,7 @@ OK
 POST /api/v1/Agents/Database/GetStepsFromNetServerCode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hudson LLC",
-    "StepNumber": 205,
+    "Name": "Howell-Schmidt",
+    "StepNumber": 904,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldLength": 807
       }
     }
   },
   {
-    "Name": "Hudson LLC",
-    "StepNumber": 205,
+    "Name": "Howell-Schmidt",
+    "StepNumber": 904,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldLength": 807
       }
     }
   }

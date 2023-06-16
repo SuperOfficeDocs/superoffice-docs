@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/SetProductImage
 uid: v1BLOBAgent_SetProductImage
+generated: true
 ---
 
 # POST Agents/BLOB/SetProductImage
@@ -70,7 +71,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 990,
+  "ProductId": 798,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

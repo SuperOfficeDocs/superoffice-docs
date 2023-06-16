@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/DeleteAppWebPanels
 uid: v1ListAgent_DeleteAppWebPanels
+generated: true
 ---
 
 # POST Agents/List/DeleteAppWebPanels

@@ -1,17 +1,11 @@
 ---
 uid: rejectreason
 title: rejectreason
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "rejectreason"
+keywords: mdoprovider mdo provider rejectreason
+description: GenericMDOProvider reads MDO lists with default settings
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "rejectreason" MDO List

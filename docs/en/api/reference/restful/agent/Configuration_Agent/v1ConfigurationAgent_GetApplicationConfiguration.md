@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetApplicationConfiguration
 uid: v1ConfigurationAgent_GetApplicationConfiguration
+generated: true
 ---
 
 # POST Agents/Configuration/GetApplicationConfiguration
@@ -70,12 +71,12 @@ OK
 POST /api/v1/Agents/Configuration/GetApplicationConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "mollitia",
-  "Instance": "esse"
+  "Application": "quas",
+  "Instance": "minus"
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"error"
+"dolorem"
 ```

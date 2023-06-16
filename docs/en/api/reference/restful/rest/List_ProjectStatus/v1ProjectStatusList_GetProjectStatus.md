@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectStatus/Items/{id}
 uid: v1ProjectStatusList_GetProjectStatus
+generated: true
 ---
 
 # GET List/ProjectStatus/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 824,
-  "Name": "Steuber Inc and Sons",
-  "Tooltip": "iste",
+  "Id": 453,
+  "Name": "Hahn Group",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "UdListDefinitionId": 591,
-  "Rank": 379,
+  "UdListDefinitionId": 998,
+  "Rank": 470,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldType": "System.Int32",
+      "FieldLength": 740
     }
   }
 }

@@ -1,17 +1,11 @@
 ---
 uid: statusmonitorimage
 title: statusmonitorimage
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "statusmonitorimage"
+keywords: mdoprovider mdo provider statusmonitorimage
+description: List of images for status monitors in the blob table.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "statusmonitorimage" MDO List

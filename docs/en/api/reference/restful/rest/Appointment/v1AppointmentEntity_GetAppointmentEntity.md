@@ -1,6 +1,7 @@
 ---
 title: GET Appointment/{id}
 uid: v1AppointmentEntity_GetAppointmentEntity
+generated: true
 ---
 
 # GET Appointment/{id}
@@ -111,6 +112,9 @@ AppointmentEntity found.
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -137,129 +141,132 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 31 Jul 2020 03:51:33 G7T
+Last-Modified: Tue, 12 Jul 2016 16:00:47 G7T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-04-17T03:51:33.0523479+02:00",
-  "AppointmentId": 667,
-  "Description": "Managed upward-trending workforce",
-  "StartDate": "2009-08-26T03:51:33.0523479+02:00",
-  "EndDate": "2017-07-15T03:51:33.0523479+02:00",
+  "CreatedDate": "2017-11-22T16:00:47.4460098+01:00",
+  "AppointmentId": 798,
+  "Description": "Reverse-engineered local attitude",
+  "StartDate": "2000-11-13T16:00:47.4460098+01:00",
+  "EndDate": "2006-09-07T16:00:47.4460098+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 741,
+  "MotherId": 200,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-07-31T03:51:33.0523479+02:00",
+  "UpdatedDate": "2016-07-12T16:00:47.4460098+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 490,
+  "ActiveLinks": 220,
   "Links": [
     {
-      "EntityName": "Schuster-Barton",
-      "Id": 283,
-      "Description": "Ergonomic value-added knowledge base",
-      "ExtraInfo": "magni",
-      "LinkId": 135,
+      "EntityName": "Wisoky-Mann",
+      "Id": 315,
+      "Description": "Proactive zero defect secured line",
+      "ExtraInfo": "quam",
+      "LinkId": 525,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 700
+          "FieldLength": 539
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": false,
-  "ColorIndex": 878,
+  "AlarmLeadTime": "ratione",
+  "HasAlarm": true,
+  "ColorIndex": 40,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "debitis",
-  "LeadTime": "vero",
-  "Location": "fugiat",
-  "RejectCounter": 735,
-  "RejectReason": "monetize holistic relationships",
+  "LagTime": "itaque",
+  "LeadTime": "dolore",
+  "Location": "sint",
+  "RejectCounter": 442,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 881,
-      "PersonId": 104,
-      "ContactId": 888,
-      "EmailId": 459,
-      "SendEmail": false,
+      "AssociateId": 250,
+      "PersonId": 213,
+      "ContactId": 650,
+      "EmailId": 954,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 881,
-      "PersonId": 104,
-      "ContactId": 888,
-      "EmailId": 459,
-      "SendEmail": false,
+      "AssociateId": 250,
+      "PersonId": 213,
+      "ContactId": 650,
+      "EmailId": 954,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-04-03T03:51:33.0523479+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2005-06-09T16:00:47.4460098+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 161,
+  "PreferredTZLocation": 806,
   "Sale": null,
-  "SuggestedAppointmentId": 57,
+  "SuggestedAppointmentId": 266,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eum",
+  "CentralserviceVideomeetId": "molestiae",
+  "Title": "officia",
+  "Agenda": "similique",
+  "InternalNotes": "sunt",
   "UserDefinedFields": {
-    "SuperOffice:1": "438487839",
-    "SuperOffice:2": "2076191629"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Aliza Runte"
   },
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "similique"
+    "ExtraFields1": "quisquam",
+    "ExtraFields2": "aspernatur"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "quia"
+    "CustomFields1": "non",
+    "CustomFields2": "corporis"
   },
-  "PublishEventDate": "2006-02-25T03:51:33.0523479+01:00",
-  "PublishTo": "2014-11-30T03:51:33.0523479+01:00",
-  "PublishFrom": "2002-02-24T03:51:33.0523479+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-06-14T16:00:47.4460098+02:00",
+  "PublishTo": "2008-04-18T16:00:47.4460098+02:00",
+  "PublishFrom": "2015-01-27T16:00:47.4460098+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 61,
+      "VisibleId": 352,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 849
+          "FieldLength": 946
         }
       }
     },
     {
-      "VisibleId": 61,
+      "VisibleId": 352,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 849
+          "FieldLength": 946
         }
       }
     }
@@ -269,7 +276,7 @@ Last-Modified: Fri, 31 Jul 2020 03:51:33 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldLength": 141
     }
   },
   "_Links": {

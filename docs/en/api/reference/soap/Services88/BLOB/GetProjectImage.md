@@ -1,6 +1,6 @@
 ---
 title: Services88.BLOBAgent.GetProjectImage SOAP
-generated: 1
+generated: true
 uid: Services88-BLOB-GetProjectImage
 ---
 

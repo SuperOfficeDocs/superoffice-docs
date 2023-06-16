@@ -1,6 +1,7 @@
 ---
 title: GET Dashboard/default
 uid: v1Dashboard_DefaultDashboard
+generated: true
 ---
 
 # GET Dashboard/default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 683,
-  "AssociateId": 902,
-  "Caption": "fuga",
+  "DashboardId": 79,
+  "AssociateId": 570,
+  "Caption": "harum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 630,
-      "Caption": "rerum",
-      "Description": "Extended 5th generation installation",
-      "ChartName": "Gorczany, Schaden and Runolfsdottir",
+      "DashboardTileId": 308,
+      "Caption": "laudantium",
+      "Description": "Mandatory human-resource alliance",
+      "ChartName": "Corkery-Okuneva",
       "ChartId": "qui",
       "IsDefault": false,
-      "AssociateId": 71,
-      "GroupId": 455,
-      "SelectionId": 476,
-      "Config": "eligendi",
+      "AssociateId": 596,
+      "GroupId": 33,
+      "SelectionId": 592,
+      "Config": "modi",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -100,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldType": "System.String",
+          "FieldLength": 609
         }
       }
     }
@@ -111,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldLength": 559
     }
   }
 }

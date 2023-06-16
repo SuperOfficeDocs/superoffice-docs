@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuoteLineConfigurationFromFieldName
 uid: v1QuoteAgent_GetQuoteLineConfigurationFromFieldName
+generated: true
 ---
 
 # POST Agents/Quote/GetQuoteLineConfigurationFromFieldName
@@ -84,7 +85,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Wuckert Group"
+  "FieldName": "Jast, Kuphal and Rau"
 }
 ```
 
@@ -95,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 857,
-  "FieldName": "Moen Inc and Sons",
-  "Label": "sit",
-  "Tooltip": "cupiditate",
+  "QuoteLineConfigurationId": 958,
+  "FieldName": "O'Kon, Brakus and Becker",
+  "Label": "ipsa",
+  "Tooltip": "est",
   "Editable": false,
-  "InUse": false,
+  "InUse": true,
   "Mandatory": true,
-  "Rank": 871,
-  "RestrictEdit": false,
+  "Rank": 935,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 208
     }
   }
 }

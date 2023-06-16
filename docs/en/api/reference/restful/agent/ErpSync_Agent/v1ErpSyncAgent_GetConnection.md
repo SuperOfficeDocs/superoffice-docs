@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetConnection
 uid: v1ErpSyncAgent_GetConnection
+generated: true
 ---
 
 # POST Agents/ErpSync/GetConnection
@@ -89,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 7
+  "ErpConnectionId": 704
 }
 ```
 
@@ -100,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 290,
-  "ErpConnectorId": 310,
-  "DisplayName": "Johns, Batz and Leffler",
-  "DisplayDescription": "Cross-platform neutral model",
+  "ErpConnectionId": 327,
+  "ErpConnectorId": 830,
+  "DisplayName": "Corkery LLC",
+  "DisplayDescription": "Configurable eco-centric model",
   "Active": false,
-  "ConnectionId": "eos",
-  "MostRecentTimestamp": "quaerat",
+  "ConnectionId": "sit",
+  "MostRecentTimestamp": "ut",
   "ConfigFields": {
-    "ConfigFields1": "sunt",
-    "ConfigFields2": "id"
+    "ConfigFields1": "aspernatur",
+    "ConfigFields2": "quidem"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    535,
-    678
+    753,
+    406
   ],
   "AssociateAccessIds": [
-    958,
-    510
+    809,
+    820
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 615
+      "FieldType": "System.Int32",
+      "FieldLength": 506
     }
   }
 }

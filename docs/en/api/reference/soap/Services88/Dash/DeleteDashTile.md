@@ -1,6 +1,6 @@
 ---
 title: Services88.DashAgent.DeleteDashTile SOAP
-generated: 1
+generated: true
 uid: Services88-Dash-DeleteDashTile
 ---
 

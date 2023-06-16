@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SaveQuoteVersion
 uid: v1QuoteAgent_SaveQuoteVersion
+generated: true
 ---
 
 # POST Agents/Quote/SaveQuoteVersion
@@ -125,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 907,
-  "ERPQuoteVersionKey": "ipsam",
-  "QuoteId": 623,
-  "Description": "Intuitive background secured line",
-  "Number": "1008224",
+  "QuoteVersionId": 512,
+  "ERPQuoteVersionKey": "at",
+  "QuoteId": 386,
+  "Description": "Switchable web-enabled productivity",
+  "Number": "344497",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 268,
-  "SentDate": "2005-01-23T03:51:27.9746798+01:00",
-  "FollowupId": 584,
-  "ExpirationDate": "2011-09-11T03:51:27.9746798+02:00",
-  "DeliveryCountryId": 957,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 888,
+  "LikelyQuoteAlternativeId": 798,
+  "SentDate": "1999-08-31T16:00:41.6019523+02:00",
+  "FollowupId": 911,
+  "ExpirationDate": "2020-02-07T16:00:41.6019523+01:00",
+  "DeliveryCountryId": 156,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 62,
   "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "ut",
-  "ERPPaymentTypeKey": "ea",
-  "ERPDeliveryTermsKey": "totam",
-  "ERPDeliveryTypeKey": "voluptatem",
-  "Rank": 72,
-  "ApprovedBy": 73,
-  "ApprovedText": "vel",
-  "ApprovedRegisteredBy": 77,
-  "ApprovedRegisteredDate": "2021-09-08T03:51:27.9746798+02:00",
-  "ExtraField1": "provident",
-  "ExtraField2": "consectetur",
-  "ExtraField3": "magnam",
-  "ExtraField4": "et",
-  "ExtraField5": "dicta",
-  "LastRecalculated": "2004-05-09T03:51:27.9746798+02:00",
-  "Updated": "2014-03-28T03:51:27.9746798+01:00",
-  "UpdatedAssociateId": 424,
-  "Registered": "2015-01-02T03:51:27.9746798+01:00",
-  "RegisteredAssociateId": 509,
-  "RequestAssociateId": 621,
-  "RequestComment": "saepe",
+  "ERPPaymentTermsKey": "omnis",
+  "ERPPaymentTypeKey": "culpa",
+  "ERPDeliveryTermsKey": "dignissimos",
+  "ERPDeliveryTypeKey": "quisquam",
+  "Rank": 712,
+  "ApprovedBy": 134,
+  "ApprovedText": "minima",
+  "ApprovedRegisteredBy": 942,
+  "ApprovedRegisteredDate": "2008-07-16T16:00:41.6019523+02:00",
+  "ExtraField1": "fugit",
+  "ExtraField2": "saepe",
+  "ExtraField3": "ut",
+  "ExtraField4": "optio",
+  "ExtraField5": "voluptatem",
+  "LastRecalculated": "2013-04-16T16:00:41.6019523+02:00",
+  "Updated": "2006-03-17T16:00:41.6019523+01:00",
+  "UpdatedAssociateId": 821,
+  "Registered": "2009-01-23T16:00:41.6019523+01:00",
+  "RegisteredAssociateId": 183,
+  "RequestAssociateId": 861,
+  "RequestComment": "sed",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 790,
-      "ERPQuoteAlternativeKey": "et",
-      "QuoteVersionId": 326,
-      "Name": "Goodwin, Bailey and Hagenes",
-      "Description": "Progressive modular frame",
+      "QuoteAlternativeId": 959,
+      "ERPQuoteAlternativeKey": "non",
+      "QuoteVersionId": 641,
+      "Name": "Runolfsdottir-Tromp",
+      "Description": "Ameliorated modular projection",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 24564.291999999998,
-      "ERPDiscountAmount": 18051.84,
-      "DiscountPercent": 26284.858,
-      "DiscountAmount": 5334.068,
+      "ERPDiscountPercent": 16478.572,
+      "ERPDiscountAmount": 26344.404,
+      "DiscountPercent": 4030.324,
+      "DiscountAmount": 28478.658,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "quis",
-      "VAT": 19270.966,
-      "EarningPercent": 26250.384,
-      "EarningAmount": 28071.237999999998,
-      "SubTotal": 676.944,
-      "TotalPrice": 11442.234,
-      "ExtraField1": "unde",
-      "ExtraField2": "suscipit",
-      "ExtraField3": "sit",
-      "ExtraField4": "asperiores",
-      "ExtraField5": "provident",
+      "VATInfo": "velit",
+      "VAT": 21188.974,
+      "EarningPercent": 24824.414,
+      "EarningAmount": 31252.248,
+      "SubTotal": 22417.502,
+      "TotalPrice": 4249.704,
+      "ExtraField1": "debitis",
+      "ExtraField2": "sed",
+      "ExtraField3": "quia",
+      "ExtraField4": "quia",
+      "ExtraField5": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 747
         }
       }
     }
@@ -202,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldType": "System.String",
+      "FieldLength": 620
     }
   }
 }

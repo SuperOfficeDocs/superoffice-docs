@@ -1,6 +1,7 @@
 ---
 title: GET SystemEvent/{id}
 uid: v1SystemEventEntity_GetSystemEventEntity
+generated: true
 ---
 
 # GET SystemEvent/{id}
@@ -81,7 +82,7 @@ SystemEventEntity found.
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,22 +92,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 427,
+  "SystemEventId": 983,
   "Scope": "Database",
-  "Eta": "1996-03-11T03:51:34.0389674+01:00",
-  "Eventkey": "consequuntur",
-  "Eventmess": "id",
-  "ExtraInfo": 488,
-  "Owner": 733,
-  "UpdatedCount": 53,
-  "Registered": "1999-11-06T03:51:34.0389674+01:00",
+  "Eta": "2022-12-14T16:00:48.4615203+01:00",
+  "Eventkey": "dolorem",
+  "Eventmess": "vero",
+  "ExtraInfo": 470,
+  "Owner": 157,
+  "UpdatedCount": 41,
+  "Registered": "2012-05-15T16:00:48.4615203+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldType": "System.Int32",
+      "FieldLength": 384
     }
   },
   "_Links": {

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/DeleteAllFromListName
 uid: v1ListAgent_DeleteAllFromListName
+generated: true
 ---
 
 # POST Agents/List/DeleteAllFromListName
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/List/DeleteAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Thiel-Hermiston"
+  "UdListDefinitionName": "Hudson, Davis and Adams"
 }
 ```
 

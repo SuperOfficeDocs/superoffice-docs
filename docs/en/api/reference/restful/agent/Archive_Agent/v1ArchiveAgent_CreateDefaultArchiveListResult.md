@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/CreateDefaultArchiveListResult
 uid: v1ArchiveAgent_CreateDefaultArchiveListResult
+generated: true
 ---
 
 # POST Agents/Archive/CreateDefaultArchiveListResult
@@ -57,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -67,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 505,
+  "RowCount": 326,
   "Rows": [
     {
-      "EntityName": "Goldner-Littel",
-      "PrimaryKey": 444,
+      "EntityName": "Leuschke LLC",
+      "PrimaryKey": 401,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sed",
-          "TooltipHint": "voluptatibus",
-          "LinkHint": "id"
+          "DisplayValue": "eveniet",
+          "TooltipHint": "ut",
+          "LinkHint": "cumque"
         }
       },
-      "LinkHint": "dolorem",
-      "StyleHint": "doloribus",
+      "LinkHint": "quisquam",
+      "StyleHint": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 766
+          "FieldLength": 595
         }
       }
     }
@@ -95,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 585
     }
   }
 }

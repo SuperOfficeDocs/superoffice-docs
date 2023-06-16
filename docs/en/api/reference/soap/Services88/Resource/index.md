@@ -1,7 +1,7 @@
 ---
 title: Services88.ResourceAgent SOAP
 uid: Services88-Resource-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Resource SOAP

@@ -1,17 +1,11 @@
 ---
 uid: ejcategory
 title: ejcategory
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "ejcategory"
+keywords: mdoprovider mdo provider ejcategory
+description: EjCategoryProvider creates a flat or tree list based on the table: EJ_CATEGORY
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ejcategory" MDO List

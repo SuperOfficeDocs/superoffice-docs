@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/SetDuplicateRulesStatus
 uid: v1ProjectAgent_SetDuplicateRulesStatus
+generated: true
 ---
 
 # POST Agents/Project/SetDuplicateRulesStatus
@@ -69,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Daniel, Jenkins and Hirthe",
-      "DisplayName": "Lindgren LLC",
-      "DisplayTooltip": "maxime",
+      "Name": "Ryan LLC",
+      "DisplayName": "Reynolds, Green and Kunze",
+      "DisplayTooltip": "quis",
       "IsActive": false
     },
     {
-      "Name": "Daniel, Jenkins and Hirthe",
-      "DisplayName": "Lindgren LLC",
-      "DisplayTooltip": "maxime",
+      "Name": "Ryan LLC",
+      "DisplayName": "Reynolds, Green and Kunze",
+      "DisplayTooltip": "quis",
       "IsActive": false
     }
   ]

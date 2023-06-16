@@ -1,6 +1,7 @@
 ---
 title: GET List/MrMrs/Items/{id}/Headings
 uid: v1MrMrsList_GetMrMrsHeadingsForListItem
+generated: true
 ---
 
 # GET List/MrMrs/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Lang, Reynolds and Feest",
-    "ToolTip": "Accusantium nam.",
-    "Deleted": false,
-    "Rank": 429,
-    "Type": "minus",
-    "ColorBlock": 107,
-    "IconHint": "incidunt",
+    "Id": 727,
+    "Name": "Hegmann, Reynolds and Koepp",
+    "ToolTip": "Eius nulla velit voluptas iure.",
+    "Deleted": true,
+    "Rank": 223,
+    "Type": "tenetur",
+    "ColorBlock": 9,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2019-08-11T03:51:34.7239677+02:00",
+    "LastChanged": "2002-07-09T16:00:49.0708338+02:00",
     "ChildItems": [
       {
-        "Id": 465,
-        "Name": "Kshlerin, Blick and Hegmann",
-        "ToolTip": "Eius ea aspernatur dolore rerum.",
-        "Deleted": true,
-        "Rank": 847,
-        "Type": "qui",
-        "ColorBlock": 636,
-        "IconHint": "qui",
+        "Id": 895,
+        "Name": "Lind, Berge and Fadel",
+        "ToolTip": "Dolorum soluta quae ut animi cum.",
+        "Deleted": false,
+        "Rank": 93,
+        "Type": "laborum",
+        "ColorBlock": 113,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "2019-10-11T03:51:34.7239677+02:00",
+        "LastChanged": "2013-05-14T16:00:49.0708338+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Noemi Gulgowski",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "iusto",
+        "Hidden": true,
+        "FullName": "Cleveland Miller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 337
+            "FieldLength": 948
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Dr. Jocelyn Lesch Jr.",
+    "ExtraInfo": "eius",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Ethel Koepp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldType": "System.Int32",
+        "FieldLength": 327
       }
     }
   }

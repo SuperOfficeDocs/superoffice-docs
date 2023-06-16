@@ -1,6 +1,7 @@
 ---
 title: PUT List/PaymentTerm/Headings
 uid: v1PaymentTermsList_PutPaymentTermHeadings
+generated: true
 ---
 
 # PUT List/PaymentTerm/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 480,
-    "Name": "Prohaska-Fisher",
-    "Tooltip": "occaecati",
-    "Deleted": false,
-    "Rank": 824,
-    "UdListDefinitionId": 195
+    "HeadingId": 601,
+    "Name": "Marvin, Kutch and Powlowski",
+    "Tooltip": "corrupti",
+    "Deleted": true,
+    "Rank": 891,
+    "UdListDefinitionId": 988
   },
   {
-    "HeadingId": 480,
-    "Name": "Prohaska-Fisher",
-    "Tooltip": "occaecati",
-    "Deleted": false,
-    "Rank": 824,
-    "UdListDefinitionId": 195
+    "HeadingId": 601,
+    "Name": "Marvin, Kutch and Powlowski",
+    "Tooltip": "corrupti",
+    "Deleted": true,
+    "Rank": 891,
+    "UdListDefinitionId": 988
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 970,
-    "Name": "Wolff-Nader",
-    "Tooltip": "et",
+    "HeadingId": 588,
+    "Name": "Sauer-Okuneva",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "Rank": 935,
-    "UdListDefinitionId": 161,
+    "Rank": 445,
+    "UdListDefinitionId": 907,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 29
+        "FieldLength": 184
       }
     }
   }

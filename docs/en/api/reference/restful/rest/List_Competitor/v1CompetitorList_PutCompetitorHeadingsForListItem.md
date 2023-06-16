@@ -1,6 +1,7 @@
 ---
 title: PUT List/Competitor/Items/{id}/Headings
 uid: v1CompetitorList_PutCompetitorHeadingsForListItem
+generated: true
 ---
 
 # PUT List/Competitor/Items/{id}/Headings
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 92,
-    "Name": "Breitenberg Inc and Sons",
-    "ToolTip": "Facere quo alias quod quibusdam perferendis facere.",
+    "Id": 713,
+    "Name": "Keebler-Hettinger",
+    "ToolTip": "Debitis mollitia fuga illum iste sunt et.",
     "Deleted": true,
-    "Rank": 406,
-    "Type": "autem",
-    "ColorBlock": 956,
-    "IconHint": "voluptas",
+    "Rank": 950,
+    "Type": "est",
+    "ColorBlock": 999,
+    "IconHint": "cumque",
     "Selected": false,
-    "LastChanged": "2004-08-28T03:51:34.5833707+02:00",
+    "LastChanged": "2000-10-26T16:00:48.8989756+02:00",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Olson Group",
-        "ToolTip": "Vitae et labore.",
+        "Id": 938,
+        "Name": "Quigley LLC",
+        "ToolTip": "Quam perferendis cumque repellat earum quasi nam et.",
         "Deleted": false,
-        "Rank": 578,
-        "Type": "voluptate",
-        "ColorBlock": 94,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1996-06-22T03:51:34.5833707+02:00",
+        "Rank": 274,
+        "Type": "sunt",
+        "ColorBlock": 404,
+        "IconHint": "pariatur",
+        "Selected": true,
+        "LastChanged": "2003-12-29T16:00:48.8989756+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Verna Orn"
+        "ExtraInfo": "totam",
+        "StyleHint": "deleniti",
+        "Hidden": true,
+        "FullName": "Dr. Ricardo Rippin Sr."
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "ratione",
-    "Hidden": false,
-    "FullName": "Norwood McLaughlin"
+    "ExtraInfo": "quis",
+    "StyleHint": "neque",
+    "Hidden": true,
+    "FullName": "Kurtis Cristian Kihn V"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 689,
-    "Name": "Kessler, D'Amore and Osinski",
-    "ToolTip": "At iusto aliquid officiis ipsa est corrupti.",
-    "Deleted": true,
-    "Rank": 692,
-    "Type": "corporis",
-    "ColorBlock": 458,
-    "IconHint": "minima",
+    "Id": 552,
+    "Name": "Robel-Dickens",
+    "ToolTip": "Vero magni illum vel.",
+    "Deleted": false,
+    "Rank": 307,
+    "Type": "ad",
+    "ColorBlock": 113,
+    "IconHint": "laborum",
     "Selected": false,
-    "LastChanged": "2003-04-02T03:51:34.5833707+02:00",
+    "LastChanged": "2019-04-22T16:00:48.8989756+02:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "Ebert, Lubowitz and Tremblay",
-        "ToolTip": "Alias magni numquam hic dolores ex voluptatibus laborum.",
+        "Id": 206,
+        "Name": "Reynolds Group",
+        "ToolTip": "Quis enim voluptas.",
         "Deleted": false,
-        "Rank": 279,
-        "Type": "vitae",
-        "ColorBlock": 556,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2003-03-24T03:51:34.5833707+01:00",
+        "Rank": 932,
+        "Type": "aut",
+        "ColorBlock": 990,
+        "IconHint": "nihil",
+        "Selected": false,
+        "LastChanged": "2001-01-18T16:00:48.8989756+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Prof. Jarret Micheal Wiegand DVM",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Isabel Walsh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 823
+            "FieldLength": 367
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "fugit",
+    "ExtraInfo": "cum",
+    "StyleHint": "laboriosam",
     "Hidden": true,
-    "FullName": "Mr. Loy Lessie Rohan",
+    "FullName": "Coralie Fahey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 57
+        "FieldType": "System.Int32",
+        "FieldLength": 736
       }
     }
   }

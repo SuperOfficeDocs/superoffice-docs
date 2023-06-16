@@ -1,6 +1,6 @@
 ---
 title: Services88.ReportAgent.ImportReport SOAP
-generated: 1
+generated: true
 uid: Services88-Report-ImportReport
 ---
 

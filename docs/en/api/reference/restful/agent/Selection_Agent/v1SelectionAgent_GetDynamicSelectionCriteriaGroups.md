@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/GetDynamicSelectionCriteriaGroups
 uid: v1SelectionAgent_GetDynamicSelectionCriteriaGroups
+generated: true
 ---
 
 # POST Agents/Selection/GetDynamicSelectionCriteriaGroups
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 365
+  "SelectionId": 688
 }
 ```
 
@@ -91,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Braun-Stark",
-    "Description": "Expanded demand-driven time-frame",
-    "Rank": 855,
+    "Name": "Ortiz Inc and Sons",
+    "Description": "Phased real-time protocol",
+    "Rank": 586,
     "Restrictions": [
       {
-        "Name": "Gulgowski-Rutherford",
-        "Operator": "fugiat",
+        "Name": "Schmidt, Ferry and Prohaska",
+        "Operator": "aut",
         "Values": [
-          "in",
-          "deserunt"
+          "labore",
+          "expedita"
         ],
         "DisplayValues": [
-          "consequatur",
-          "voluptas"
+          "amet",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -112,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 972,
+        "InterParenthesis": 547,
         "InterOperator": "And",
-        "UniqueHash": 589
+        "UniqueHash": 860
       }
     ]
   },
   {
-    "Name": "Braun-Stark",
-    "Description": "Expanded demand-driven time-frame",
-    "Rank": 855,
+    "Name": "Ortiz Inc and Sons",
+    "Description": "Phased real-time protocol",
+    "Rank": 586,
     "Restrictions": [
       {
-        "Name": "Gulgowski-Rutherford",
-        "Operator": "fugiat",
+        "Name": "Schmidt, Ferry and Prohaska",
+        "Operator": "aut",
         "Values": [
-          "in",
-          "deserunt"
+          "labore",
+          "expedita"
         ],
         "DisplayValues": [
-          "consequatur",
-          "voluptas"
+          "amet",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -140,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 972,
+        "InterParenthesis": 547,
         "InterOperator": "And",
-        "UniqueHash": 589
+        "UniqueHash": 860
       }
     ]
   }

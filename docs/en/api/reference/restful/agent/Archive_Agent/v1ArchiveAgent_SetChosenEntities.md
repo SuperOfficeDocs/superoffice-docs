@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/SetChosenEntities
 uid: v1ArchiveAgent_SetChosenEntities
+generated: true
 ---
 
 # POST Agents/Archive/SetChosenEntities
@@ -67,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kuvalis Inc and Sons",
-  "ProviderName": "Goyette-Dietrich",
+  "GuiName": "Hahn-Robel",
+  "ProviderName": "Armstrong, Boehm and Pouros",
   "Entities": [
-    "iusto",
-    "amet"
+    "non",
+    "quam"
   ]
 }
 ```

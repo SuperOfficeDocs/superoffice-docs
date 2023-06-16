@@ -1,7 +1,7 @@
 ---
 title: Services88.PreferenceAgent SOAP
 uid: Services88-Preference-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Preference SOAP

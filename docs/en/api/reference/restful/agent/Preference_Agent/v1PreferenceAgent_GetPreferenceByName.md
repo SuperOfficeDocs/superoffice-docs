@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetPreferenceByName
 uid: v1PreferenceAgent_GetPreferenceByName
+generated: true
 ---
 
 # POST Agents/Preference/GetPreferenceByName
@@ -88,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "sunt",
-  "PrefKey": "mollitia",
+  "PrefSection": "earum",
+  "PrefKey": "officia",
   "PrefLevel": "Database"
 }
 ```
@@ -102,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quos",
+  "RawValue": "laborum",
   "Specification": null,
-  "DisplayValue": "assumenda",
-  "DisplayTooltip": "et",
+  "DisplayValue": "sit",
+  "DisplayTooltip": "tempore",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 721,
-  "PrefDescId": 655,
-  "TableName": "Walker, Paucek and Lemke",
-  "UserPreferenceId": 322,
+  "TargetId": 500,
+  "PrefDescId": 297,
+  "TableName": "Crooks-Gutmann",
+  "UserPreferenceId": 892,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldLength": 409
     }
   }
 }

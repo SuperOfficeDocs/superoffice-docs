@@ -1,6 +1,7 @@
 ---
 title: POST ForeignApp
 uid: v1ForeignAppEntity_PostForeignAppEntity
+generated: true
 ---
 
 # POST ForeignApp
@@ -87,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 352,
-  "Name": "Steuber-Parker",
-  "CreatedDate": "1999-08-15T03:51:33.677213+02:00",
-  "UpdatedDate": "1997-09-09T03:51:33.677213+02:00",
+  "ForeignAppId": 605,
+  "Name": "Mann-Gerlach",
+  "CreatedDate": "2002-06-20T16:00:47.9615771+02:00",
+  "UpdatedDate": "2001-01-07T16:00:47.9615771+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 484,
-      "Name": "Kohler-Langosh",
-      "CreatedDate": "2012-05-11T03:51:33.677213+02:00",
-      "UpdatedDate": "2004-10-22T03:51:33.677213+02:00",
-      "AssociateFullName": "Robert Quigley",
-      "CreatedBy": "numquam",
-      "UpdatedBy": "debitis",
-      "DeviceIdentifier": "repudiandae",
-      "ForeignAppId": 885
+      "ForeignDeviceId": 215,
+      "Name": "Bogan LLC",
+      "CreatedDate": "2007-04-18T16:00:47.9615771+02:00",
+      "UpdatedDate": "2006-04-23T16:00:47.9615771+02:00",
+      "AssociateFullName": "Ara Mueller",
+      "CreatedBy": "animi",
+      "UpdatedBy": "sunt",
+      "DeviceIdentifier": "blanditiis",
+      "ForeignAppId": 897
     }
   ]
 }
@@ -120,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 83,
-  "Name": "Stiedemann LLC",
-  "CreatedDate": "2008-08-31T03:51:33.677213+02:00",
-  "UpdatedDate": "2001-01-29T03:51:33.677213+01:00",
+  "ForeignAppId": 80,
+  "Name": "Hyatt-Rice",
+  "CreatedDate": "2020-07-01T16:00:47.9615771+02:00",
+  "UpdatedDate": "2011-06-15T16:00:47.9615771+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 696,
-      "Name": "Kassulke, Rath and Jacobi",
-      "CreatedDate": "2015-05-08T03:51:33.677213+02:00",
-      "UpdatedDate": "2011-06-26T03:51:33.677213+02:00",
-      "AssociateFullName": "Nora Klocko",
-      "CreatedBy": "in",
-      "UpdatedBy": "excepturi",
-      "DeviceIdentifier": "sed",
-      "ForeignAppId": 752,
+      "ForeignDeviceId": 176,
+      "Name": "Mohr, McLaughlin and Lang",
+      "CreatedDate": "2003-12-18T16:00:47.9615771+01:00",
+      "UpdatedDate": "2012-05-13T16:00:47.9615771+02:00",
+      "AssociateFullName": "Victoria Deckow",
+      "CreatedBy": "deleniti",
+      "UpdatedBy": "in",
+      "DeviceIdentifier": "eligendi",
+      "ForeignAppId": 540,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldType": "System.String",
+          "FieldLength": 308
         }
       }
     }
@@ -151,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 356
+      "FieldType": "System.Int32",
+      "FieldLength": 777
     }
   },
   "_Links": {

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetCredentialTypes
 uid: v1UserAgent_GetCredentialTypes
+generated: true
 ---
 
 # POST Agents/User/GetCredentialTypes
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "qui",
-    "Type": "eos",
-    "Description": "Expanded holistic circuit",
+    "DisplayType": "beatae",
+    "Type": "aut",
+    "Description": "Polarised object-oriented process improvement",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
+    "CanCreatePerson": true,
     "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 837
+        "FieldLength": 644
       }
     }
   }

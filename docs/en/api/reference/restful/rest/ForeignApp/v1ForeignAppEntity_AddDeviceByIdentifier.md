@@ -1,6 +1,7 @@
 ---
 title: POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 uid: v1ForeignAppEntity_AddDeviceByIdentifier
+generated: true
 ---
 
 # POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
@@ -68,7 +69,7 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,21 +79,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 487,
-  "Name": "Lehner-Hauck",
-  "CreatedDate": "1998-01-13T03:51:33.677213+01:00",
-  "UpdatedDate": "2006-02-10T03:51:33.677213+01:00",
-  "AssociateFullName": "Taya Philip King Jr.",
-  "CreatedBy": "sit",
-  "UpdatedBy": "sunt",
-  "DeviceIdentifier": "itaque",
-  "ForeignAppId": 966,
+  "ForeignDeviceId": 611,
+  "Name": "Macejkovic Inc and Sons",
+  "CreatedDate": "2014-11-23T16:00:47.9772018+01:00",
+  "UpdatedDate": "1996-10-16T16:00:47.9772018+02:00",
+  "AssociateFullName": "Miss Marielle Romaguera II",
+  "CreatedBy": "quis",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "iste",
+  "ForeignAppId": 65,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldType": "System.String",
+      "FieldLength": 172
     }
   }
 }

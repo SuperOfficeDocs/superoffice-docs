@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetConfigParameterValueOnPerson
 uid: v1AudienceAgent_GetConfigParameterValueOnPerson
+generated: true
 ---
 
 # POST Agents/Audience/GetConfigParameterValueOnPerson
@@ -68,12 +69,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterValueOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Swift-Romaguera",
-  "PersonId": 255
+  "ParameterName": "Morar-Wehner",
+  "PersonId": 263
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"at"
+"ratione"
 ```

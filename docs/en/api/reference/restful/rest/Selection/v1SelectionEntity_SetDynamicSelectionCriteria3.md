@@ -1,6 +1,7 @@
 ---
 title: PUT Selection/{id}/Criteria
 uid: v1SelectionEntity_SetDynamicSelectionCriteria3
+generated: true
 ---
 
 # PUT Selection/{id}/Criteria
@@ -99,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Douglas-Hane",
-    "Operator": "et",
+    "Name": "Hegmann, Bins and Grant",
+    "Operator": "non",
     "Values": [
-      "maiores",
-      "voluptatem"
+      "itaque",
+      "velit"
     ],
     "DisplayValues": [
-      "sunt",
-      "perferendis"
+      "iusto",
+      "ut"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Heller Group",
-        "Operator": "cum",
+        "Name": "Hegmann, Schimmel and Harris",
+        "Operator": "impedit",
         "Values": [
-          "et",
-          "amet"
+          "hic",
+          "quas"
         ],
         "DisplayValues": [
-          "quae",
-          "tempore"
+          "et",
+          "sit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -129,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 60,
+        "InterParenthesis": 326,
         "InterOperator": "And",
-        "UniqueHash": 25
+        "UniqueHash": 554
       }
     ],
-    "InterParenthesis": 543,
+    "InterParenthesis": 576,
     "InterOperator": "And",
-    "UniqueHash": 237
+    "UniqueHash": 357
   }
 ]
 ```
@@ -149,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Franecki, Ankunding and Ward",
-    "Operator": "temporibus",
+    "Name": "Botsford Group",
+    "Operator": "est",
     "Values": [
-      "autem",
-      "quam"
+      "ab",
+      "perferendis"
     ],
     "DisplayValues": [
-      "ducimus",
-      "sint"
+      "aliquid",
+      "molestiae"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Jewess-Howe",
-        "Operator": "asperiores",
+        "Name": "Greenfelder, Hayes and Kilback",
+        "Operator": "voluptas",
         "Values": [
-          "ipsa",
-          "incidunt"
+          "exercitationem",
+          "illum"
         ],
         "DisplayValues": [
-          "in",
-          "est"
+          "vero",
+          "voluptatum"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 54,
+        "InterParenthesis": 876,
         "InterOperator": "And",
-        "UniqueHash": 986
+        "UniqueHash": 824
       }
     ],
-    "InterParenthesis": 996,
+    "InterParenthesis": 172,
     "InterOperator": "And",
-    "UniqueHash": 73
+    "UniqueHash": 886
   }
 ]
 ```

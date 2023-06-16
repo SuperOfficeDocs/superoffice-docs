@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAppTaskMenus
 uid: v1ListAgent_GetAppTaskMenus
+generated: true
 ---
 
 # POST Agents/List/GetAppTaskMenus
@@ -88,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 123,
-    "Name": "Mills, Armstrong and Watsica",
-    "Tooltip": "deleniti",
-    "TableName": "McGlynn, Cremin and Goldner",
-    "Area": "atque",
+    "TaskMenuId": 641,
+    "Name": "Monahan Inc and Sons",
+    "Tooltip": "quis",
+    "TableName": "Reichert Group",
+    "Area": "id",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 153,
+    "CrmScriptId": 719,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 229,
+    "Rank": 74,
     "Encoding": "ANSI",
-    "ProgId": "similique",
+    "ProgId": "dolores",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldLength": 478
       }
     }
   }

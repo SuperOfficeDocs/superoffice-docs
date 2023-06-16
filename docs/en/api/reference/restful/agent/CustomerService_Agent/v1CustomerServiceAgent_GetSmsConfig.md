@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/GetSmsConfig
 uid: v1CustomerServiceAgent_GetSmsConfig
+generated: true
 ---
 
 # POST Agents/CustomerService/GetSmsConfig
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSmsConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "sit",
-  "NsPluginSender": "voluptates",
+  "NetServerSmsProvider": "autem",
+  "NsPluginSender": "cupiditate",
   "NsPluginConfig": {
-    "NsPluginConfig1": "porro",
-    "NsPluginConfig2": "quo"
+    "NsPluginConfig1": "at",
+    "NsPluginConfig2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 406
     }
   }
 }

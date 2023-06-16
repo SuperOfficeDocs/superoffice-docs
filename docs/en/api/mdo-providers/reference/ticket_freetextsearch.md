@@ -1,17 +1,14 @@
 ---
 uid: ticket_freetextsearch
 title: ticket_freetextsearch
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "ticket_freetextsearch"
+keywords: mdoprovider mdo provider ticket_freetextsearch
+description: Provider for selecting a Ticket - with contact and person search.
+Does keyword matching and scoring across multiple
+string fields. Checks ticket heading, from, author as well as contact, person and project tables.
+Supports cross-table matching: "Guttorm Teacup" will find tickets from person "Guttorm" with title containing "Teacup".
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ticket_freetextsearch" MDO List
@@ -73,7 +70,7 @@ foreach (var item in listProvider.RootItems) {
 |8|Email from my Outlook (Arnt Arntsen (Amadeus AS, AAvdeling))|deleted_item|20|
 |9|The second email (Arnt Arntsen (Amadeus AS, AAvdeling))|deleted_item|20|
 |10|Stian Andre, a few Google+ posts you may like (Arnhild Arvestad (Arne'S Kebab, AAvdeling))|deleted_item|21|
-|13|Test FAQ relation ()|ticketUnread|-1|
+|13|Test FAQ relation|ticketUnread|-1|
 
 
 ## Related MDO Lists

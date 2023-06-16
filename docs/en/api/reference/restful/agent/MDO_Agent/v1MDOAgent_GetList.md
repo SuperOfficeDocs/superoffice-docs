@@ -1,6 +1,7 @@
 ---
 title: POST Agents/MDO/GetList
 uid: v1MDOAgent_GetList
+generated: true
 ---
 
 # POST Agents/MDO/GetList
@@ -86,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Thiel, Marvin and Dickinson",
-  "ForceFlatList": true,
-  "AdditionalInfo": "et",
+  "Name": "Grady Group",
+  "ForceFlatList": false,
+  "AdditionalInfo": "sunt",
   "OnlyHistory": false
 }
 ```
@@ -105,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 621,
-    "Name": "Parisian Inc and Sons",
-    "ToolTip": "Molestias non non.",
+    "Id": 818,
+    "Name": "Schumm, Kertzmann and Berge",
+    "ToolTip": "Ut non.",
     "Deleted": true,
-    "Rank": 881,
-    "Type": "explicabo",
+    "Rank": 592,
+    "Type": "incidunt",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "Stracke Inc and Sons",
-        "ToolTip": "Consequatur quasi veritatis odit iure culpa repudiandae excepturi.",
-        "Deleted": false,
-        "Rank": 881,
-        "Type": "quod",
+        "Id": 676,
+        "Name": "Metz, Skiles and Bahringer",
+        "ToolTip": "Sed mollitia non aut quae laborum maiores.",
+        "Deleted": true,
+        "Rank": 576,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 137,
-        "ExtraInfo": "officia",
-        "StyleHint": "eum",
-        "FullName": "Mrs. Beau Dicki",
+        "IconHint": "harum",
+        "ColorBlock": 309,
+        "ExtraInfo": "itaque",
+        "StyleHint": "aut",
+        "FullName": "Sofia Yost MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 496
+            "FieldLength": 907
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 132,
-    "ExtraInfo": "rerum",
-    "StyleHint": "ut",
-    "FullName": "Kylie Baumbach",
+    "IconHint": "dolorem",
+    "ColorBlock": 223,
+    "ExtraInfo": "accusamus",
+    "StyleHint": "sit",
+    "FullName": "Demario Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 342
       }
     }
   }

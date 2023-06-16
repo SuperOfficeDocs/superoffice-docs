@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetPriority
 uid: v1ListAgent_GetPriority
+generated: true
 ---
 
 # POST Agents/List/GetPriority
@@ -25,7 +26,7 @@ Gets a Priority object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPriority?priorityId=32
+POST /api/v1/Agents/List/GetPriority?priorityId=413
 POST /api/v1/Agents/List/GetPriority?$select=name,department,category/id
 ```
 
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 355,
-  "Value": "vero",
-  "Tooltip": "officiis",
+  "Id": 222,
+  "Value": "quo",
+  "Tooltip": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldLength": 525
     }
   }
 }

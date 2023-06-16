@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 uid: v1FavouriteAgent_RemoveTicketsFromFavouritesByProvider
+generated: true
 ---
 
 # POST Agents/Favourite/RemoveTicketsFromFavouritesByProvider
@@ -65,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bergnaum-Beatty",
+  "ProviderName": "Ondricka Inc and Sons",
   "Restrictions": [
     {
-      "Name": "Carroll Inc and Sons",
-      "Operator": "veritatis",
+      "Name": "Volkman LLC",
+      "Operator": "consequatur",
       "Values": [
-        "vitae",
-        "voluptas"
+        "labore",
+        "hic"
       ],
       "DisplayValues": [
-        "sit",
-        "ea"
+        "eum",
+        "sunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -88,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 447,
+      "InterParenthesis": 405,
       "InterOperator": "And",
-      "UniqueHash": 744
+      "UniqueHash": 381
     }
   ],
-  "AssociateId": 947
+  "AssociateId": 564
 }
 ```
 

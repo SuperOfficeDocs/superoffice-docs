@@ -1,6 +1,7 @@
 ---
 title: GET Project/{id}/Simple
 uid: v1ProjectEntity_Simple
+generated: true
 ---
 
 # GET Project/{id}/Simple
@@ -78,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 125,
-  "Name": "Considine, D'Amore and Runolfsson",
-  "Description": "Reduced discrete toolset",
+  "ProjectId": 440,
+  "Name": "Abshire-Schuppe",
+  "Description": "Persistent even-keeled analyzer",
   "URL": "http://www.example.com/",
-  "Type": "fugiat",
-  "AssociateId": 108,
-  "AssociateFullName": "Marietta Bode",
-  "TypeId": 526,
-  "Updated": "2001-02-12T03:51:33.8490457+01:00",
-  "StatusId": 505,
-  "Status": "repudiandae",
-  "TextId": 12,
-  "PublishTo": "2022-01-09T03:51:33.8490457+01:00",
-  "PublishFrom": "2007-01-20T03:51:33.8490457+01:00",
-  "IsPublished": false,
+  "Type": "optio",
+  "AssociateId": 2,
+  "AssociateFullName": "Vickie Gutkowski",
+  "TypeId": 76,
+  "Updated": "2012-01-13T16:00:48.1646768+01:00",
+  "StatusId": 495,
+  "Status": "qui",
+  "TextId": 33,
+  "PublishTo": "1999-05-06T16:00:48.1646768+02:00",
+  "PublishFrom": "2005-08-12T16:00:48.1646768+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1064576",
-  "ActiveErpLinks": 69,
+  "ProjectNumber": "1595342",
+  "ActiveErpLinks": 229,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldLength": 902
     }
   }
 }

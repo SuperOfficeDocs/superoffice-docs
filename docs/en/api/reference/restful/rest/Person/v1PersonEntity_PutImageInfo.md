@@ -1,6 +1,7 @@
 ---
 title: PUT Person/{id}/ImageInfo
 uid: v1PersonEntity_PutImageInfo
+generated: true
 ---
 
 # PUT Person/{id}/ImageInfo
@@ -96,16 +97,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 638,
-  "BlobSize": 757,
-  "Description": "Exclusive mobile service-desk",
-  "ExtraInfo": "qui",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "accusamus",
-  "OriginalSize": 85,
-  "CreatedDate": "2017-12-06T03:51:33.802183+01:00",
-  "UpdatedDate": "2002-02-04T03:51:33.802183+01:00",
+  "BlobId": 651,
+  "BlobSize": 561,
+  "Description": "Business-focused eco-centric access",
+  "ExtraInfo": "quisquam",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "tempora",
+  "OriginalSize": 710,
+  "CreatedDate": "1996-04-06T16:00:48.1178151+02:00",
+  "UpdatedDate": "1997-05-13T16:00:48.1178151+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "ConceptualType": "et"
@@ -119,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 925,
-  "BlobSize": 905,
-  "Description": "Optional upward-trending protocol",
-  "ExtraInfo": "quidem",
+  "BlobId": 649,
+  "BlobSize": 739,
+  "Description": "Open-architected assymetric paradigm",
+  "ExtraInfo": "tempora",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "neque",
-  "OriginalSize": 9,
-  "CreatedDate": "2019-10-30T03:51:33.802183+01:00",
-  "UpdatedDate": "2004-04-07T03:51:33.802183+02:00",
+  "IsZipped": false,
+  "MimeType": "rem",
+  "OriginalSize": 559,
+  "CreatedDate": "2007-07-10T16:00:48.1178151+02:00",
+  "UpdatedDate": "2016-06-15T16:00:48.1178151+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ducimus",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 692
     }
   }
 }

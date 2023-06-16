@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ViewState/SaveCurrent
 uid: v1ViewStateAgent_SaveCurrent
+generated: true
 ---
 
 # POST Agents/ViewState/SaveCurrent
@@ -95,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 855,
-  "Id": 699,
-  "HistoryName": "Christiansen LLC",
-  "HistoryId": 227,
-  "AssociateId": 332,
-  "Name": "Douglas-Hamill",
-  "ItemInfo": "magnam",
+  "Rank": 84,
+  "Id": 945,
+  "HistoryName": "Thiel Inc and Sons",
+  "HistoryId": 10,
+  "AssociateId": 173,
+  "Name": "Kirlin Group",
+  "ItemInfo": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 1000
     }
   }
 }

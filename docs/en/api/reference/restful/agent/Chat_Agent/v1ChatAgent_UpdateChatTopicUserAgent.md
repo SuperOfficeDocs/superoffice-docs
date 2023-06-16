@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/UpdateChatTopicUserAgent
 uid: v1ChatAgent_UpdateChatTopicUserAgent
+generated: true
 ---
 
 # POST Agents/Chat/UpdateChatTopicUserAgent
@@ -81,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 635,
-  "Username": "qui",
+  "ChatTopicId": 60,
+  "Username": "optio",
   "Useragent": null
 }
 ```
@@ -94,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 472,
+  "TopicId": 862,
   "User": null,
   "CanListen": false,
-  "CanRespond": false,
+  "CanRespond": true,
   "CanManage": false,
-  "CanNotify": true
+  "CanNotify": false
 }
 ```

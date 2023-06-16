@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetProductFromDbId
 uid: v1QuoteAgent_GetProductFromDbId
+generated: true
 ---
 
 # POST Agents/Quote/GetProductFromDbId
@@ -109,7 +110,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 699
+  "ProductId": 919
 }
 ```
 
@@ -120,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 381,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "rem",
-  "Name": "Johnson, Hessel and O'Keefe",
-  "Description": "Exclusive intermediate superstructure",
-  "Code": "et",
-  "PriceUnit": "occaecati",
-  "QuantityUnit": "cumque",
+  "ProductId": 693,
+  "ERPProductKey": "ullam",
+  "ERPPriceListKey": "repellendus",
+  "Name": "Bahringer LLC",
+  "Description": "Total tangible infrastructure",
+  "Code": "quidem",
+  "PriceUnit": "eos",
+  "QuantityUnit": "ullam",
   "IsSubscription": false,
-  "SubscriptionUnit": "quia",
-  "DefaultSubscriptionQuantity": 723.954,
-  "ItemNumber": "1208465",
+  "SubscriptionUnit": "labore",
+  "DefaultSubscriptionQuantity": 23135.188,
+  "ItemNumber": "922352",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatibus",
-  "ProductTypeKey": "tenetur",
-  "VAT": 11743.098,
-  "VATInfo": "non",
-  "UnitCost": 20524.566,
-  "UnitMinimumPrice": 15839.235999999999,
-  "UnitListPrice": 18280.622,
-  "InAssortment": false,
-  "Supplier": "aut",
-  "SupplierCode": "voluptas",
-  "Rights": "quos",
-  "Rule": "quam",
+  "ProductFamilyKey": "eos",
+  "ProductTypeKey": "corrupti",
+  "VAT": 13620.364,
+  "VATInfo": "modi",
+  "UnitCost": 4929.782,
+  "UnitMinimumPrice": 18985.772,
+  "UnitListPrice": 6202.186,
+  "InAssortment": true,
+  "Supplier": "tempore",
+  "SupplierCode": "illum",
+  "Rights": "suscipit",
+  "Rule": "quo",
   "ExtraInfo": [
     {
-      "Name": "Kuvalis, Lindgren and Toy",
-      "Value": "quibusdam",
+      "Name": "McLaughlin-Towne",
+      "Value": "dolorum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldType": "System.Int32",
+          "FieldLength": 199
         }
       }
     },
     {
-      "Name": "Kuvalis, Lindgren and Toy",
-      "Value": "quibusdam",
+      "Name": "McLaughlin-Towne",
+      "Value": "dolorum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldType": "System.Int32",
+          "FieldLength": 199
         }
       }
     }
   ],
-  "RawExtraInfo": "sed",
-  "ExtraField1": "quia",
-  "ExtraField2": "corporis",
-  "ExtraField3": "blanditiis",
-  "ExtraField4": "dolorem",
-  "ExtraField5": "facilis",
-  "InStock": 17249.536,
+  "RawExtraInfo": "totam",
+  "ExtraField1": "eligendi",
+  "ExtraField2": "voluptate",
+  "ExtraField3": "earum",
+  "ExtraField4": "voluptatibus",
+  "ExtraField5": "est",
+  "InStock": 5236.914,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldType": "System.Int32",
+      "FieldLength": 99
     }
   }
 }

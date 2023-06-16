@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetApplicationDevices
 uid: v1ForeignSystemAgent_GetApplicationDevices
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetApplicationDevices
@@ -84,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hilpert Inc and Sons"
+  "ApplicationName": "Collins, Bergnaum and Homenick"
 }
 ```
 
@@ -96,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 987,
-    "Name": "Grimes, Langosh and Jones",
-    "CreatedDate": "1996-10-29T03:51:27.3498217+01:00",
-    "UpdatedDate": "2006-12-02T03:51:27.3498217+01:00",
-    "AssociateFullName": "Mr. Favian Marilyne Hartmann",
-    "CreatedBy": "in",
-    "UpdatedBy": "maxime",
-    "DeviceIdentifier": "non",
-    "ForeignAppId": 391,
+    "ForeignDeviceId": 559,
+    "Name": "Botsford Group",
+    "CreatedDate": "2002-07-17T16:00:41.0549706+02:00",
+    "UpdatedDate": "2008-06-25T16:00:41.0549706+02:00",
+    "AssociateFullName": "Theo Zackary Torphy III",
+    "CreatedBy": "possimus",
+    "UpdatedBy": "non",
+    "DeviceIdentifier": "error",
+    "ForeignAppId": 394,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldLength": 536
       }
     }
   }

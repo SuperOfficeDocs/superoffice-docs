@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetPersonDocumentsByTemplateTypes
 uid: v1DocumentAgent_GetPersonDocumentsByTemplateTypes
+generated: true
 ---
 
 # POST Agents/Document/GetPersonDocumentsByTemplateTypes
@@ -98,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 130,
-  "IncludeProjectDocuments": false,
-  "StartTime": "1996-06-13T03:51:27.0217725+02:00",
-  "EndTime": "1997-07-01T03:51:27.0217725+02:00",
-  "Count": 608,
+  "PersonId": 339,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2007-10-04T16:00:40.5862498+02:00",
+  "EndTime": "2017-03-19T16:00:40.5862498+01:00",
+  "Count": 371,
   "DocumentTemplateIds": [
-    779,
-    208
+    139,
+    626
   ]
 }
 ```
@@ -122,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 393,
-    "Attention": "quis",
-    "Header": "iure",
-    "Name": "Robel-Watsica",
-    "OurRef": "dolorem",
-    "YourRef": "et",
-    "Description": "Customer-focused foreground parallelism",
-    "DocumentTemplate": "illum",
+    "DocumentId": 2,
+    "Attention": "doloribus",
+    "Header": "est",
+    "Name": "Herzog-Kutch",
+    "OurRef": "vero",
+    "YourRef": "quae",
+    "Description": "Synergized asynchronous orchestration",
+    "DocumentTemplate": "earum",
     "IsPublished": false,
-    "PersonId": 101,
-    "PersonFullName": "Prof. Magnus Dwight Veum",
-    "AssociateFullName": "Brannon Osinski I",
-    "ContactId": 769,
-    "ContactName": "Ziemann LLC",
-    "ProjectId": 767,
-    "ProjectName": "Jast Inc and Sons",
-    "AssociateId": 536,
-    "Snum": 970,
-    "SaleId": 171,
-    "SaleName": "Steuber LLC",
+    "PersonId": 62,
+    "PersonFullName": "Dayana Cruickshank",
+    "AssociateFullName": "Ms. Earnestine Reichert Jr.",
+    "ContactId": 689,
+    "ContactName": "Dickens-Pfeffer",
+    "ProjectId": 508,
+    "ProjectName": "Marks LLC",
+    "AssociateId": 598,
+    "Snum": 44,
+    "SaleId": 713,
+    "SaleName": "Kiehn, Ruecker and Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 73
       }
     }
   }

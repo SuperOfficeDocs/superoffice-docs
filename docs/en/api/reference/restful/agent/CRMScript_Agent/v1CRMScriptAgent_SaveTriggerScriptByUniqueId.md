@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/SaveTriggerScriptByUniqueId
 uid: v1CRMScriptAgent_SaveTriggerScriptByUniqueId
+generated: true
 ---
 
 # POST Agents/CRMScript/SaveTriggerScriptByUniqueId
@@ -87,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "nam",
+  "TriggerScriptUniqueId": "et",
   "Entity": null
 }
 ```
@@ -103,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 285,
-  "Name": "Harris Inc and Sons",
+  "ScreenChooserId": 542,
+  "Name": "Marquardt, Powlowski and Homenick",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "dolores",
-  "Source": "officiis",
-  "Registered": "2001-03-01T03:51:26.9436626+01:00",
-  "RegisteredAssociateId": 288,
-  "Updated": "2011-05-19T03:51:26.9436626+02:00",
-  "UpdatedAssociateId": 251,
+  "Enabled": true,
+  "UniqueIdentifier": "in",
+  "Source": "quisquam",
+  "Registered": "2015-03-10T16:00:40.4925031+01:00",
+  "RegisteredAssociateId": 303,
+  "Updated": "2000-04-04T16:00:40.4925031+02:00",
+  "UpdatedAssociateId": 446,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 192
+      "FieldType": "System.Int32",
+      "FieldLength": 672
     }
   }
 }

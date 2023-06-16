@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailConnectionInfo
 uid: v1EMailAgent_CreateDefaultEMailConnectionInfo
+generated: true
 ---
 
 # POST Agents/EMail/CreateDefaultEMailConnectionInfo
@@ -63,7 +64,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,17 +74,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Auer-Luettgen",
-  "UserName": "Wunsch-Nikolaus",
-  "Password": "est",
-  "Folder": "aperiam",
-  "UseSSL": false,
+  "ServerName": "Corkery-Effertz",
+  "UserName": "Collier, Abernathy and Moen",
+  "Password": "dolore",
+  "Folder": "quo",
+  "UseSSL": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldType": "System.String",
+      "FieldLength": 930
     }
   }
 }

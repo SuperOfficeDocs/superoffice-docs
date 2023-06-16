@@ -1,7 +1,7 @@
 ---
 title: Services88.ReportAgent SOAP
 uid: Services88-Report-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Report SOAP

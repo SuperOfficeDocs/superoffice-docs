@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateForwardEmail
 uid: v1EMailAgent_CreateForwardEmail
+generated: true
 ---
 
 # POST Agents/EMail/CreateForwardEmail
@@ -116,155 +117,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 336,
-      "ContactName": "Franecki-Christiansen",
-      "PersonId": 706,
-      "PersonName": "Quitzon Inc and Sons",
-      "AssociateId": 279,
-      "Address": "voluptate",
-      "EmailId": 808,
+      "ContactId": 973,
+      "ContactName": "Becker-Hahn",
+      "PersonId": 301,
+      "PersonName": "Mueller Group",
+      "AssociateId": 127,
+      "Address": "non",
+      "EmailId": 395,
       "DuplicatePersonIds": [
-        26,
-        596
+        131,
+        677
       ],
-      "Name": "Yundt, Wolff and Romaguera",
+      "Name": "McLaughlin, Stiedemann and Emard",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 573
+          "FieldLength": 178
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 988,
-      "ContactName": "Zieme Group",
-      "PersonId": 627,
-      "PersonName": "Wisoky-Yundt",
-      "AssociateId": 665,
-      "Address": "nesciunt",
-      "EmailId": 689,
+      "ContactId": 836,
+      "ContactName": "Kirlin-Padberg",
+      "PersonId": 425,
+      "PersonName": "Padberg LLC",
+      "AssociateId": 147,
+      "Address": "autem",
+      "EmailId": 120,
       "DuplicatePersonIds": [
-        160,
-        941
+        78,
+        658
       ],
-      "Name": "Mohr, Quigley and Bosco",
+      "Name": "Deckow, Rogahn and Ullrich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 701
+          "FieldLength": 388
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 338,
-      "ContactName": "Mann-Fay",
-      "PersonId": 240,
-      "PersonName": "Gulgowski, Reichert and Conn",
-      "AssociateId": 237,
-      "Address": "qui",
-      "EmailId": 34,
+      "ContactId": 169,
+      "ContactName": "Harvey-Borer",
+      "PersonId": 194,
+      "PersonName": "Botsford, Jast and Kuvalis",
+      "AssociateId": 79,
+      "Address": "ipsam",
+      "EmailId": 179,
       "DuplicatePersonIds": [
-        514,
-        461
+        657,
+        231
       ],
-      "Name": "Schowalter, Gibson and Douglas",
+      "Name": "Dare LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldLength": 246
         }
       }
     }
   ],
-  "Subject": "cum",
-  "HTMLBody": "pariatur",
+  "Subject": "id",
+  "HTMLBody": "illo",
   "From": null,
-  "Sent": "2023-03-02T03:51:27.1623664+01:00",
-  "Size": 446,
+  "Sent": "2001-10-06T16:00:40.8518697+02:00",
+  "Size": 503,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quos",
-  "PlainBody": "rerum",
-  "IsSent": true,
+  "MessageID": "tenetur",
+  "PlainBody": "at",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 415,
+  "ServerId": 598,
   "Attachments": [
     {
-      "Description": "Streamlined exuding task-force",
-      "Filename": "cum",
-      "Size": 99,
-      "Type": "beatae",
-      "Encoding": "itaque",
-      "Id": "officiis",
-      "Disposition": "dignissimos",
+      "Description": "Organic neutral capability",
+      "Filename": "velit",
+      "Size": 885,
+      "Type": "vel",
+      "Encoding": "nihil",
+      "Id": "totam",
+      "Disposition": "minima",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 578
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Stehr-Bednar",
+      "Name": "Miller-Kuhlman",
       "Values": [
-        "aut",
-        "iste"
+        "repudiandae",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldLength": 251
         }
       }
     },
     {
-      "Name": "Stehr-Bednar",
+      "Name": "Miller-Kuhlman",
       "Values": [
-        "aut",
-        "iste"
+        "repudiandae",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldLength": 251
         }
       }
     }
   ],
-  "FolderName": "Tromp, Zemlak and West",
-  "EmailItemId": 728,
-  "AccountId": 947,
-  "ReceivedAt": "2014-10-25T03:51:27.1623664+02:00",
+  "FolderName": "Spinka-Oberbrunner",
+  "EmailItemId": 807,
+  "AccountId": 477,
+  "ReceivedAt": "2012-12-02T16:00:40.8518697+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-09-12T03:51:27.1623664+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2008-12-24T16:00:40.8518697+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 529
+      "FieldType": "System.Int32",
+      "FieldLength": 122
     }
   }
 }

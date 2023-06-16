@@ -1,17 +1,11 @@
 ---
 uid: projstatus
 title: projstatus
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "projstatus"
+keywords: mdoprovider mdo provider projstatus
+description: GenericMDOProvider reads MDO lists with default settings
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "projstatus" MDO List

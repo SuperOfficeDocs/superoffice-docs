@@ -1,7 +1,7 @@
 ---
 title: Services88.PocketAgent SOAP
 uid: Services88-Pocket-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Pocket SOAP

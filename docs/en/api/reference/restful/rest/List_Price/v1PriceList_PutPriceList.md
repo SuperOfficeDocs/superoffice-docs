@@ -1,6 +1,7 @@
 ---
 title: PUT Pricelist/{id}
 uid: v1PriceList_PutPriceList
+generated: true
 ---
 
 # PUT Pricelist/{id}
@@ -100,15 +101,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 406,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 78,
-  "Name": "Block-Barton",
-  "Description": "Ergonomic homogeneous Graphical User Interface",
-  "Currency": "nihil",
-  "CurrencyName": "Kautzer, Orn and Kuhic",
-  "ValidFrom": "2014-12-30T03:51:34.7708309+01:00",
-  "ValidTo": "2000-07-01T03:51:34.7708309+02:00",
+  "PriceListId": 859,
+  "ERPPriceListKey": "exercitationem",
+  "QuoteConnectionId": 387,
+  "Name": "Feeney LLC",
+  "Description": "Balanced value-added firmware",
+  "Currency": "eveniet",
+  "CurrencyName": "Morar Inc and Sons",
+  "ValidFrom": "2015-09-19T16:00:49.1177018+02:00",
+  "ValidTo": "2019-12-10T16:00:49.1177018+01:00",
   "IsActive": false
 }
 ```
@@ -120,27 +121,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 449,
-  "ERPPriceListKey": "aspernatur",
-  "QuoteConnectionId": 63,
-  "Name": "Adams, Walker and Bernier",
-  "Description": "Fundamental high-level encryption",
-  "Currency": "earum",
-  "CurrencyName": "Ziemann, Wolff and Raynor",
-  "ValidFrom": "2004-04-28T03:51:34.7708309+02:00",
-  "ValidTo": "2008-03-03T03:51:34.7708309+01:00",
+  "PriceListId": 136,
+  "ERPPriceListKey": "sit",
+  "QuoteConnectionId": 954,
+  "Name": "Emmerich Group",
+  "Description": "Expanded mobile moderator",
+  "Currency": "placeat",
+  "CurrencyName": "Rice, Bernier and Bins",
+  "ValidFrom": "2019-04-10T16:00:49.1177018+02:00",
+  "ValidTo": "2019-08-28T16:00:49.1177018+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 238
+      "FieldType": "System.Int32",
+      "FieldLength": 843
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

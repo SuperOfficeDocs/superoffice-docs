@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetWebPanelList
 uid: v1ListAgent_GetWebPanelList
+generated: true
 ---
 
 # POST Agents/List/GetWebPanelList
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,33 +96,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 163,
-    "Name": "Bednar, Lang and Wilderman",
-    "Tooltip": "similique",
-    "Deleted": false,
-    "Rank": 537,
+    "WebPanelId": 686,
+    "Name": "Runolfsdottir Group",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 286,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Kulas, Towne and Pagac",
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": true,
+    "WindowName": "Barrows-Denesik",
     "Url": "http://www.example.com/",
-    "ProgId": "enim",
-    "Icon": 95,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "est",
+    "Icon": 811,
+    "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 969
+        "FieldLength": 389
       }
     }
   }

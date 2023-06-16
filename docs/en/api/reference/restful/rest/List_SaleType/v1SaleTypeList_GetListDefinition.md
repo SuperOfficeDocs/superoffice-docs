@@ -1,6 +1,7 @@
 ---
 title: GET List/SaleType
 uid: v1SaleTypeList_GetListDefinition
+generated: true
 ---
 
 # GET List/SaleType
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 485,
-  "Name": "Terry Group",
-  "Tooltip": "consequatur",
+  "Id": 33,
+  "Name": "Cole Group",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "Rank": 117,
-  "IsCustomList": true,
+  "Rank": 280,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "libero",
+  "UseGroupsAndHeadings": false,
+  "ListType": "soluta",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldType": "System.String",
+      "FieldLength": 832
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

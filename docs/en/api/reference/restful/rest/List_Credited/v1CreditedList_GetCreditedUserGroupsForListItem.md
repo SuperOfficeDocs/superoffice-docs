@@ -1,6 +1,7 @@
 ---
 title: GET List/Credited/Items/{id}/UserGroups
 uid: v1CreditedList_GetCreditedUserGroupsForListItem
+generated: true
 ---
 
 # GET List/Credited/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 731,
-    "Name": "Berge, O'Kon and Metz",
-    "ToolTip": "Sit ratione a dolor perspiciatis blanditiis.",
+    "Id": 110,
+    "Name": "Hirthe-Fritsch",
+    "ToolTip": "Expedita ab.",
     "Deleted": true,
-    "Rank": 808,
-    "Type": "beatae",
-    "ColorBlock": 278,
-    "IconHint": "repellendus",
+    "Rank": 995,
+    "Type": "porro",
+    "ColorBlock": 139,
+    "IconHint": "eligendi",
     "Selected": false,
-    "LastChanged": "2003-01-19T03:51:34.6458549+01:00",
+    "LastChanged": "2015-06-22T16:00:48.9614655+02:00",
     "ChildItems": [
       {
-        "Id": 733,
-        "Name": "Harber LLC",
-        "ToolTip": "Commodi repellat blanditiis numquam.",
+        "Id": 427,
+        "Name": "Thompson, Kemmer and Zieme",
+        "ToolTip": "Et sunt et ipsa.",
         "Deleted": false,
-        "Rank": 575,
-        "Type": "repellendus",
-        "ColorBlock": 612,
-        "IconHint": "sunt",
+        "Rank": 36,
+        "Type": "vel",
+        "ColorBlock": 164,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2011-06-21T03:51:34.6458549+02:00",
+        "LastChanged": "2013-02-20T16:00:48.9614655+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "quo",
+        "ExtraInfo": "sit",
+        "StyleHint": "iure",
         "Hidden": true,
-        "FullName": "Eugenia Herzog",
+        "FullName": "Delta Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 93
+            "FieldType": "System.Int32",
+            "FieldLength": 348
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "rem",
-    "Hidden": true,
-    "FullName": "Aurelie Ruecker",
+    "ExtraInfo": "qui",
+    "StyleHint": "assumenda",
+    "Hidden": false,
+    "FullName": "Augusta Reinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldLength": 108
       }
     }
   }

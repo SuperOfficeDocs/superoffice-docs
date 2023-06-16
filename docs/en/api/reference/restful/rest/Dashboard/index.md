@@ -1,5 +1,6 @@
 ---
 title: Dashboard
+generated: true
 ---
 
 ```http

@@ -1,6 +1,7 @@
 ---
 title: GET Document/UdefLayout/{progidOrLabel}
 uid: v1DocumentEntity_GetUdefFieldInfo
+generated: true
 ---
 
 # GET Document/UdefLayout/{progidOrLabel}
@@ -92,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 901,
-  "ColumnId": 653,
-  "FieldDefault": "nisi",
-  "FieldHeight": 769,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 550,
-  "FieldTop": 489,
+  "UDefFieldId": 888,
+  "ColumnId": 548,
+  "FieldDefault": "soluta",
+  "FieldHeight": 621,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 716,
+  "FieldTop": 761,
   "FieldType": "Checkbox",
-  "FieldWidth": 15,
-  "FormatMask": "blanditiis",
-  "HideLabel": true,
+  "FieldWidth": 494,
+  "FormatMask": "hic",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 186,
-  "LabelLeft": 26,
-  "LabelTop": 525,
-  "LabelWidth": 180,
-  "LastVersionId": 490,
-  "ListTableId": 266,
+  "LabelHeight": 479,
+  "LabelLeft": 901,
+  "LabelTop": 84,
+  "LabelWidth": 47,
+  "LastVersionId": 603,
+  "ListTableId": 848,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 575,
-  "ProgId": "in",
-  "IsReadOnly": false,
-  "ShortLabel": "asperiores",
-  "TabOrder": 648,
-  "TextLength": 855,
-  "Tooltip": "et",
-  "UdefIdentity": 231,
-  "UDListDefinitionId": 293,
+  "Page1LineNo": 240,
+  "ProgId": "et",
+  "IsReadOnly": true,
+  "ShortLabel": "aut",
+  "TabOrder": 932,
+  "TextLength": 242,
+  "Tooltip": "cupiditate",
+  "UdefIdentity": 702,
+  "UDListDefinitionId": 590,
   "Justification": "Center",
-  "Version": 844,
-  "TemplateVariableName": "DuBuque Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Davis-Schinner",
+  "Version": 17,
+  "TemplateVariableName": "Lakin LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Schimmel, Schulist and Hane",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 86
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   }
 }

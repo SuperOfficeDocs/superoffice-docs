@@ -1,5 +1,6 @@
 ---
 title: Associate_Agent
+generated: true
 ---
 
 ```http
@@ -16,6 +17,8 @@ title: Associate_Agent
 * [POST Agents/Associate/GetNote](v1AssociateAgent_GetNote.md)
 
 * [POST Agents/Associate/SaveNote](v1AssociateAgent_SaveNote.md)
+
+* [POST Agents/Associate/GetEncryptionKey](v1AssociateAgent_GetEncryptionKey.md)
 
 * [POST Agents/Associate/GetAssociateList](v1AssociateAgent_GetAssociateList.md)
 

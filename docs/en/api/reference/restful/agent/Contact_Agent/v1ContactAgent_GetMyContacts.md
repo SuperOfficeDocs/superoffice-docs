@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/GetMyContacts
 uid: v1ContactAgent_GetMyContacts
+generated: true
 ---
 
 # POST Agents/Contact/GetMyContacts
@@ -87,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 870,
-    "Name": "Hand-Glover",
-    "OrgNr": "1339789",
+    "ContactId": 548,
+    "Name": "Pacocha, Grady and Roberts",
+    "OrgNr": "808942",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "et",
-    "DirectPhone": "143-605-9398 x230",
-    "AssociateId": 624,
-    "CountryId": 580,
-    "EmailAddress": "allen@feest.info",
-    "Kananame": "ex",
-    "EmailAddressName": "kade_beier@walkercronin.ca",
+    "City": "voluptatem",
+    "DirectPhone": "685.893.5852 x6527",
+    "AssociateId": 645,
+    "CountryId": 275,
+    "EmailAddress": "amelie@rosenbaum.info",
+    "Kananame": "debitis",
+    "EmailAddressName": "lisandro@rice.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Misael Macejkovic",
+    "AssociateFullName": "Dr. Alvina Zane Buckridge",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "blanditiis",
-    "FullName": "Felicia Hilll",
+    "FormattedAddress": "omnis",
+    "FullName": "Hallie Dickens",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 462,
-    "Number1": "674574",
-    "Number2": "258248",
+    "ActiveErpLinks": 43,
+    "Number1": "952531",
+    "Number2": "1054929",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 877
+        "FieldType": "System.Int32",
+        "FieldLength": 700
       }
     }
   }

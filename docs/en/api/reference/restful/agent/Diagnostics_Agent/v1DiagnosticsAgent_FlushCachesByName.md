@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Diagnostics/FlushCachesByName
 uid: v1DiagnosticsAgent_FlushCachesByName
+generated: true
 ---
 
 # POST Agents/Diagnostics/FlushCachesByName
@@ -68,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Wyman, Schaefer and Dooley",
-    "Barton-Johnston"
+    "Johnston, Willms and Jewess",
+    "O'Keefe LLC"
   ]
 }
 ```

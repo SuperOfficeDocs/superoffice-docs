@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetPreference
 uid: v1PreferenceAgent_GetPreference
+generated: true
 ---
 
 # POST Agents/Preference/GetPreference
@@ -82,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 573
+  "Id": 410
 }
 ```
 
@@ -98,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "necessitatibus",
+  "RawValue": "maiores",
   "Specification": null,
-  "DisplayValue": "eum",
-  "DisplayTooltip": "provident",
+  "DisplayValue": "esse",
+  "DisplayTooltip": "nisi",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 766,
-  "PrefDescId": 478,
-  "TableName": "Tillman-Blanda",
-  "UserPreferenceId": 199,
+  "TargetId": 416,
+  "PrefDescId": 276,
+  "TableName": "Towne, Tremblay and Casper",
+  "UserPreferenceId": 921,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 565
     }
   }
 }

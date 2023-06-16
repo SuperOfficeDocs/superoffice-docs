@@ -1,6 +1,6 @@
 ---
 title: Services88.WebhookAgent.GetLastError SOAP
-generated: 1
+generated: true
 uid: Services88-Webhook-GetLastError
 ---
 

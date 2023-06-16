@@ -1,6 +1,7 @@
 ---
 title: PUT SaleStakeholder/{id}
 uid: v1SaleStakeholder_PutSaleStakeholder
+generated: true
 ---
 
 # PUT SaleStakeholder/{id}
@@ -114,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Murphy Inc and Sons",
-  "Comment": "optio",
-  "StakeholderRoleId": 670,
-  "CountryId": 477,
-  "PersonId": 939,
-  "EmailDescription": "myron_kohler@hirthe.co.uk",
-  "EmailId": 59,
-  "EmailAddress": "benjamin.willms@olson.name",
-  "PhoneId": 196,
-  "ContactName": "Gibson-Kreiger",
-  "ContactId": 556,
-  "SaleId": 289,
-  "Mrmrs": "ut",
-  "Firstname": "Celia",
-  "MiddleName": "Cummerata-Predovic",
-  "Lastname": "Reichert",
-  "SaleStakeholderId": 762,
-  "Rank": 546,
-  "Phone": "(553)148-3914"
+  "StakeholderRoleName": "Padberg-Kertzmann",
+  "Comment": "maxime",
+  "StakeholderRoleId": 712,
+  "CountryId": 514,
+  "PersonId": 115,
+  "EmailDescription": "lamont@mcclure.us",
+  "EmailId": 872,
+  "EmailAddress": "rosemarie_west@gutmann.co.uk",
+  "PhoneId": 269,
+  "ContactName": "Haley, Jakubowski and Hand",
+  "ContactId": 299,
+  "SaleId": 914,
+  "Mrmrs": "soluta",
+  "Firstname": "Mark",
+  "MiddleName": "Maggio, Luettgen and Witting",
+  "Lastname": "Jacobson",
+  "SaleStakeholderId": 717,
+  "Rank": 812,
+  "Phone": "272-940-5464 x1091"
 }
 ```
 
@@ -147,31 +148,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Bernier, Goodwin and Connelly",
-  "Comment": "ut",
-  "StakeholderRoleId": 227,
-  "CountryId": 688,
-  "PersonId": 649,
-  "EmailDescription": "emmanuel@yost.us",
-  "EmailId": 364,
-  "EmailAddress": "roxanne@runolfsdottirbatz.name",
-  "PhoneId": 310,
-  "ContactName": "Waters Inc and Sons",
-  "ContactId": 822,
-  "SaleId": 659,
-  "Mrmrs": "cumque",
-  "Firstname": "Salvador",
-  "MiddleName": "Dibbert LLC",
-  "Lastname": "Haley",
-  "SaleStakeholderId": 456,
-  "Rank": 903,
-  "Phone": "1-995-568-7807 x0242",
+  "StakeholderRoleName": "Hudson, Klocko and Funk",
+  "Comment": "eos",
+  "StakeholderRoleId": 829,
+  "CountryId": 589,
+  "PersonId": 872,
+  "EmailDescription": "josephine@moen.us",
+  "EmailId": 662,
+  "EmailAddress": "vicente@johnson.name",
+  "PhoneId": 726,
+  "ContactName": "Goldner, Hermann and O'Kon",
+  "ContactId": 854,
+  "SaleId": 332,
+  "Mrmrs": "est",
+  "Firstname": "Jarrod",
+  "MiddleName": "Greenfelder, Schmitt and Leannon",
+  "Lastname": "Yost",
+  "SaleStakeholderId": 338,
+  "Rank": 681,
+  "Phone": "039.899.2954",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 766
+      "FieldType": "System.Int32",
+      "FieldLength": 724
     }
   },
   "_Links": {

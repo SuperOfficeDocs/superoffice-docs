@@ -1,6 +1,7 @@
 ---
 title: PUT List/Country/Items/{id}/UserGroups
 uid: v1CountryList_PutCountryUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/Country/Items/{id}/UserGroups
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Morar, Goyette and Gutmann",
-    "ToolTip": "Nostrum voluptatibus ut.",
-    "Deleted": true,
-    "Rank": 358,
-    "Type": "vitae",
-    "ColorBlock": 696,
-    "IconHint": "dicta",
+    "Id": 295,
+    "Name": "Klocko Inc and Sons",
+    "ToolTip": "Occaecati maiores consequatur.",
+    "Deleted": false,
+    "Rank": 494,
+    "Type": "voluptatibus",
+    "ColorBlock": 512,
+    "IconHint": "vitae",
     "Selected": true,
-    "LastChanged": "2023-01-26T03:51:34.6302346+01:00",
+    "LastChanged": "1996-06-22T16:00:48.9614655+02:00",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Abbott Group",
-        "ToolTip": "Voluptatem rerum enim.",
-        "Deleted": false,
-        "Rank": 21,
-        "Type": "ea",
-        "ColorBlock": 424,
-        "IconHint": "perspiciatis",
-        "Selected": true,
-        "LastChanged": "2008-01-08T03:51:34.6302346+01:00",
+        "Id": 609,
+        "Name": "Daniel, Ratke and Homenick",
+        "ToolTip": "Eveniet accusantium ducimus pariatur.",
+        "Deleted": true,
+        "Rank": 215,
+        "Type": "beatae",
+        "ColorBlock": 303,
+        "IconHint": "beatae",
+        "Selected": false,
+        "LastChanged": "2020-08-01T16:00:48.9614655+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "consequuntur",
-        "Hidden": false,
-        "FullName": "Eladio Smitham"
+        "ExtraInfo": "omnis",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Mr. Colby Walker DDS"
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Prof. Therese Metz"
+    "ExtraInfo": "omnis",
+    "StyleHint": "asperiores",
+    "Hidden": true,
+    "FullName": "Ruthe Mante"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 915,
-    "Name": "Strosin Inc and Sons",
-    "ToolTip": "Vel rerum sed.",
-    "Deleted": true,
-    "Rank": 26,
-    "Type": "sint",
-    "ColorBlock": 246,
-    "IconHint": "ipsum",
+    "Id": 200,
+    "Name": "Will-Murray",
+    "ToolTip": "Dolorem eaque non voluptas cumque ex vero ipsum.",
+    "Deleted": false,
+    "Rank": 255,
+    "Type": "impedit",
+    "ColorBlock": 848,
+    "IconHint": "harum",
     "Selected": true,
-    "LastChanged": "2005-01-07T03:51:34.6302346+01:00",
+    "LastChanged": "2010-04-19T16:00:48.9614655+02:00",
     "ChildItems": [
       {
-        "Id": 224,
-        "Name": "Lemke, Gislason and Skiles",
-        "ToolTip": "Quo omnis est ut natus.",
+        "Id": 571,
+        "Name": "Jacobs Group",
+        "ToolTip": "Placeat error doloribus ipsa possimus molestiae.",
         "Deleted": false,
-        "Rank": 929,
-        "Type": "voluptas",
-        "ColorBlock": 1001,
-        "IconHint": "quibusdam",
+        "Rank": 23,
+        "Type": "consequatur",
+        "ColorBlock": 895,
+        "IconHint": "sed",
         "Selected": true,
-        "LastChanged": "2009-05-15T03:51:34.6302346+02:00",
+        "LastChanged": "2008-10-22T16:00:48.9614655+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "a",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Madelynn Bradtke",
+        "FullName": "Raleigh Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 921
+            "FieldLength": 531
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "delectus",
+    "ExtraInfo": "sunt",
+    "StyleHint": "explicabo",
     "Hidden": false,
-    "FullName": "Bessie Lubowitz",
+    "FullName": "Mr. Lauretta Blair Altenwerth V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 543
+        "FieldType": "System.Int32",
+        "FieldLength": 42
       }
     }
   }

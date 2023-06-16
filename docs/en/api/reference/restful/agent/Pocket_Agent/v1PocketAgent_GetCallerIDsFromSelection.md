@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Pocket/GetCallerIDsFromSelection
 uid: v1PocketAgent_GetCallerIDsFromSelection
+generated: true
 ---
 
 # POST Agents/Pocket/GetCallerIDsFromSelection
@@ -74,12 +75,12 @@ OK
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 480,
-  "LastHash": "tempora"
+  "SelectionId": 825,
+  "LastHash": "quia"
 }
 ```
 
@@ -90,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "animi",
+  "CallerIDHash": "sapiente",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 579,
-      "PersonId": 339,
-      "PersonName": "McKenzie-Turcotte",
+      "DialInPrefix": 957,
+      "PersonId": 610,
+      "PersonName": "Beahan, Conroy and Rohan",
       "Mrmrs": "quo",
-      "ContactId": 485,
-      "ContactName": "Murray-Rogahn"
+      "ContactId": 39,
+      "ContactName": "Maggio LLC"
     }
   ]
 }

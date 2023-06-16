@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SaveQuoteVersionNumber
 uid: v1QuoteAgent_SaveQuoteVersionNumber
+generated: true
 ---
 
 # POST Agents/Quote/SaveQuoteVersionNumber
@@ -72,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 503,
-  "Number": "662953"
+  "QuoteVersionId": 922,
+  "Number": "1079002"
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

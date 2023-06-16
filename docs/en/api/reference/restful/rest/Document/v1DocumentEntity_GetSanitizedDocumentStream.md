@@ -1,6 +1,7 @@
 ---
 title: GET Document/{id}/SanitizedContent
 uid: v1DocumentEntity_GetSanitizedDocumentStream
+generated: true
 ---
 
 # GET Document/{id}/SanitizedContent
@@ -55,7 +56,7 @@ OK
 GET /api/v1/Document/{documentId}/SanitizedContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

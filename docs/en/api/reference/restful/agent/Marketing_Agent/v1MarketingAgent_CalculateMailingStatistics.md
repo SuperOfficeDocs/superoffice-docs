@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/CalculateMailingStatistics
 uid: v1MarketingAgent_CalculateMailingStatistics
+generated: true
 ---
 
 # POST Agents/Marketing/CalculateMailingStatistics
@@ -71,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 363
+  "ShipmentId": 654
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-796
+512
 ```

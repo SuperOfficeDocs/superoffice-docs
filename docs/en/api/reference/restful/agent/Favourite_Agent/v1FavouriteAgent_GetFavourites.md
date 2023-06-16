@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Favourite/GetFavourites
 uid: v1FavouriteAgent_GetFavourites
+generated: true
 ---
 
 # POST Agents/Favourite/GetFavourites
@@ -81,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schuster, Batz and Franecki",
-  "AssociateId": 849
+  "TableName": "Hoppe LLC",
+  "AssociateId": 990
 }
 ```
 
@@ -94,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Schowalter-Rath",
-    "RecordId": 380,
-    "AssociateId": 708,
-    "ExtraInfo": "eveniet",
-    "Rank": 866,
+    "TableName": "Deckow, Larkin and Rippin",
+    "RecordId": 17,
+    "AssociateId": 641,
+    "ExtraInfo": "magnam",
+    "Rank": 457,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldLength": 608
       }
     }
   }

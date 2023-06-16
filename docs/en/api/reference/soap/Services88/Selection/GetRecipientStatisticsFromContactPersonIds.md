@@ -1,6 +1,6 @@
 ---
 title: Services88.SelectionAgent.GetRecipientStatisticsFromContactPersonIds SOAP
-generated: 1
+generated: true
 uid: Services88-Selection-GetRecipientStatisticsFromContactPersonIds
 ---
 

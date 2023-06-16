@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/AddFromListDefinition
 uid: v1ListAgent_AddFromListDefinition
+generated: true
 ---
 
 # POST Agents/List/AddFromListDefinition
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 38,
+  "UdListDefinitionId": 598,
   "Item": null
 }
 ```
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 446,
-  "Name": "Satterfield Inc and Sons",
-  "Tooltip": "minima",
-  "Deleted": true,
-  "UdListDefinitionId": 404,
-  "Rank": 745,
+  "Id": 887,
+  "Name": "Fahey-Kling",
+  "Tooltip": "deleniti",
+  "Deleted": false,
+  "UdListDefinitionId": 192,
+  "Rank": 463,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldLength": 693
     }
   }
 }

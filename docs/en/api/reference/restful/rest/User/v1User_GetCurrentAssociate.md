@@ -1,6 +1,7 @@
 ---
 title: GET User/currentAssociate
 uid: v1User_GetCurrentAssociate
+generated: true
 ---
 
 # GET User/currentAssociate
@@ -67,7 +68,7 @@ OK
 GET /api/v1/User/currentAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 63,
-  "Name": "Durgan-Schmeler",
-  "PersonId": 327,
-  "Rank": 177,
-  "Tooltip": "nesciunt",
+  "AssociateId": 59,
+  "Name": "Stroman-Bernhard",
+  "PersonId": 257,
+  "Rank": 313,
+  "Tooltip": "sed",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 508,
-  "FullName": "Gloria Balistreri",
-  "FormalName": "Moen LLC",
+  "GroupIdx": 48,
+  "FullName": "Jaron Monty Mayert MD",
+  "FormalName": "Daugherty, Ritchie and Gaylord",
   "Deleted": false,
-  "EjUserId": 860,
-  "UserName": "Krajcik-Torp",
+  "EjUserId": 757,
+  "UserName": "Casper-Leannon",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldType": "System.String",
+      "FieldLength": 483
     }
   }
 }

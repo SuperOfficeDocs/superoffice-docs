@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailAppointment
 uid: v1EMailAgent_CreateDefaultEMailAppointment
+generated: true
 ---
 
 # POST Agents/EMail/CreateDefaultEMailAppointment
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "consequatur",
-    "corporis"
+    "amet",
+    "velit"
   ],
-  "Comment": "praesentium",
-  "Sequence": 242,
-  "DtStart": "2003-09-15T03:51:27.1936087+02:00",
-  "DtEnd": "2017-05-29T03:51:27.1936087+02:00",
-  "Superseded": false,
+  "Comment": "eum",
+  "Sequence": 268,
+  "DtStart": "2011-11-08T16:00:40.8987367+01:00",
+  "DtEnd": "2015-02-15T16:00:40.8987367+01:00",
+  "Superseded": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 965
+      "FieldLength": 175
     }
   }
 }

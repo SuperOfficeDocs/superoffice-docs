@@ -1,6 +1,7 @@
 ---
 title: GET List/Task/MDOItems
 uid: v1TaskList_GetMDOList
+generated: true
 ---
 
 # GET List/Task/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=modi
+GET /api/v1/List/Task/MDOItems?flat=True
+GET /api/v1/List/Task/MDOItems?query=cumque
 ```
 
 
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Hartmann, Bernhard and Feest",
-    "ToolTip": "Sit ut omnis dolor autem quibusdam eius nam.",
+    "Id": 159,
+    "Name": "Prohaska Group",
+    "ToolTip": "Iusto iste eum dolor voluptas repellat non sapiente.",
     "Deleted": false,
-    "Rank": 395,
-    "Type": "ex",
+    "Rank": 937,
+    "Type": "numquam",
     "ChildItems": [
       {
-        "Id": 607,
-        "Name": "Shields Inc and Sons",
-        "ToolTip": "Culpa molestiae ab dolorem sit quibusdam nemo.",
+        "Id": 104,
+        "Name": "Pagac-Bogisich",
+        "ToolTip": "Nam sunt eos consequatur accusantium nemo dolore.",
         "Deleted": false,
-        "Rank": 168,
-        "Type": "praesentium",
+        "Rank": 576,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 789,
-        "ExtraInfo": "itaque",
-        "StyleHint": "doloremque",
-        "FullName": "Gloria Pacocha DVM",
+        "IconHint": "reiciendis",
+        "ColorBlock": 214,
+        "ExtraInfo": "esse",
+        "StyleHint": "odio",
+        "FullName": "Scot Kuhlman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 90
+            "FieldType": "System.Int32",
+            "FieldLength": 371
           }
         }
       }
     ],
-    "IconHint": "animi",
-    "ColorBlock": 934,
-    "ExtraInfo": "a",
-    "StyleHint": "voluptatem",
-    "FullName": "Ms. Julien Una Goyette DDS",
+    "IconHint": "et",
+    "ColorBlock": 665,
+    "ExtraInfo": "aut",
+    "StyleHint": "commodi",
+    "FullName": "Myrtis Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 447
       }
     }
   }

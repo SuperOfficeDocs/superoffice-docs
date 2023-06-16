@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/SubstituteMergeDocumentTemplateVariables2
 uid: v1DocumentAgent_SubstituteMergeDocumentTemplateVariables2
+generated: true
 ---
 
 # POST Agents/Document/SubstituteMergeDocumentTemplateVariables2
@@ -71,15 +72,15 @@ OK
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 325,
-  "AssociateId": 939,
+  "DocumentId": 76,
+  "AssociateId": 712,
   "CustomTags": {
-    "CustomTags1": "quo",
-    "CustomTags2": "qui"
+    "CustomTags1": "consequuntur",
+    "CustomTags2": "voluptates"
   }
 }
 ```

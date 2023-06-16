@@ -1,6 +1,7 @@
 ---
 title: POST PreferenceDescriptionLine
 uid: v1PreferenceDescriptionLine_PostPreferenceDescriptionLine
+generated: true
 ---
 
 # POST PreferenceDescriptionLine
@@ -85,15 +86,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 590,
-  "PrefDescId": 34,
-  "PrefValue": "repudiandae",
-  "PrefShowValue": "quis",
-  "Description": "Organized non-volatile secured line",
+  "PrefDescLineId": 394,
+  "PrefDescId": 380,
+  "PrefValue": "minus",
+  "PrefShowValue": "sint",
+  "Description": "Ameliorated assymetric architecture",
   "IsBuiltin": false
 }
 ```
@@ -105,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 239,
-  "PrefDescId": 741,
-  "PrefValue": "perspiciatis",
-  "PrefShowValue": "rerum",
-  "Description": "Quality-focused context-sensitive ability",
-  "IsBuiltin": true,
+  "PrefDescLineId": 638,
+  "PrefDescId": 726,
+  "PrefValue": "voluptatum",
+  "PrefShowValue": "dolorum",
+  "Description": "User-friendly 24 hour help-desk",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldLength": 949
     }
   },
   "_Links": {

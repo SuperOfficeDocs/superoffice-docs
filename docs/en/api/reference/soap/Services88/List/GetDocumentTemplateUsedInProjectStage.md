@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.GetDocumentTemplateUsedInProjectStage SOAP
-generated: 1
+generated: true
 uid: Services88-List-GetDocumentTemplateUsedInProjectStage
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveLegalBase
 uid: v1ListAgent_SaveLegalBase
+generated: true
 ---
 
 # POST Agents/List/SaveLegalBase
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 453,
-  "Name": "Beahan, Moore and Jacobson",
-  "Tooltip": "mollitia",
-  "Rank": 55,
-  "Key": "aut",
+  "LegalBaseId": 92,
+  "Name": "Rempel Inc and Sons",
+  "Tooltip": "sed",
+  "Rank": 785,
+  "Key": "eum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldType": "System.String",
+      "FieldLength": 394
     }
   }
 }

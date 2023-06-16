@@ -1,6 +1,7 @@
 ---
 title: GET Selection/default
 uid: v1SelectionEntity_DefaultSelectionEntity
+generated: true
 ---
 
 # GET Selection/default
@@ -96,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,73 +105,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 19 Feb 2009 03:51:33 G2T
+Last-Modified: Thu, 21 Jul 2005 16:00:48 G7T
 
 {
-  "Description": "Customizable responsive artificial intelligence",
+  "Description": "Exclusive encompassing website",
   "Postit": "omnis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 818,
-  "IncludePerson": 755,
-  "MemberCount": 24,
-  "Name": "DuBuque Inc and Sons",
-  "PostitTextId": 269,
-  "CreatedDate": "1999-11-02T03:51:33.9896399+01:00",
-  "SelectionId": 662,
-  "SoundEx": "error",
-  "Source": 598,
-  "TextId": 401,
-  "UpdatedDate": "2009-02-19T03:51:33.9896399+01:00",
-  "UpdatedCount": 850,
-  "Visibility": 752,
+  "GroupIdx": 484,
+  "IncludePerson": 31,
+  "MemberCount": 677,
+  "Name": "Torp Group",
+  "PostitTextId": 330,
+  "CreatedDate": "2020-07-17T16:00:48.4146492+02:00",
+  "SelectionId": 879,
+  "SoundEx": "voluptate",
+  "Source": 818,
+  "TextId": 41,
+  "UpdatedDate": "2005-07-21T16:00:48.4146492+02:00",
+  "UpdatedCount": 400,
+  "Visibility": 317,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 885,
-  "TargetTableName": "Greenfelder, Vandervort and Russel",
+  "TargetTableNumber": 453,
+  "TargetTableName": "Pollich-Witting",
   "Completed": false,
-  "LeftSelectionId": 892,
-  "RightSelectionId": 392,
+  "LeftSelectionId": 389,
+  "RightSelectionId": 908,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Collins Inc and Sons",
-  "ShadowProviderName": "Schoen LLC",
-  "ChartKey": "eaque",
-  "LastLoaded": "2014-06-30T03:51:33.9896399+02:00",
-  "LastLoadedBy": 313,
+  "MainProviderName": "Hickle-Carter",
+  "ShadowProviderName": "Casper-Schimmel",
+  "ChartKey": "provident",
+  "LastLoaded": "1997-12-20T16:00:48.4146492+01:00",
+  "LastLoadedBy": 413,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-06-03T03:51:33.9896399+02:00",
-  "LastMembershipChangeBy": 374,
+  "LastMembershipChange": "2021-08-17T16:00:48.4146492+02:00",
+  "LastMembershipChangeBy": 365,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ratione",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Lueilwitz-Bartell",
-  "DashboardTileDefinitionId": 741,
+  "MainHeading": "pariatur",
+  "MemberTabHeading": "quo",
+  "MailingsProviderName": "Huel-O'Conner",
+  "DashboardTileDefinitionId": 968,
   "VisibleFor": [
     {
-      "VisibleId": 9,
+      "VisibleId": 467,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 432
         }
       }
     },
     {
-      "VisibleId": 9,
+      "VisibleId": 467,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 432
         }
       }
     }
@@ -180,7 +181,7 @@ Last-Modified: Thu, 19 Feb 2009 03:51:33 G2T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldLength": 145
     }
   }
 }

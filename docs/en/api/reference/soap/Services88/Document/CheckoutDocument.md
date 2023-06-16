@@ -1,6 +1,6 @@
 ---
 title: Services88.DocumentAgent.CheckoutDocument SOAP
-generated: 1
+generated: true
 uid: Services88-Document-CheckoutDocument
 ---
 

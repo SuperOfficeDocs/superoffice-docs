@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/AddBounce
 uid: v1PersonAgent_AddBounce
+generated: true
 ---
 
 # POST Agents/Person/AddBounce
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/Person/AddBounce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "velda@considinegreenfelder.uk"
+  "EmailAddress": "lance.marquardt@erdman.biz"
 }
 ```
 

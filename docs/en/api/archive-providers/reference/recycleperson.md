@@ -2,17 +2,10 @@
 uid: RecyclePerson
 title: RecyclePerson
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "RecyclePerson"
+keywords: RecyclePerson archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "RecyclePerson"
@@ -127,7 +120,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecyclePerson?$select=personUpdatedByFullName,hasCompany
+GET /api/v1/archive/RecyclePerson?$select=supportAssociateFullName,personUpdatedByFullName,hasCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

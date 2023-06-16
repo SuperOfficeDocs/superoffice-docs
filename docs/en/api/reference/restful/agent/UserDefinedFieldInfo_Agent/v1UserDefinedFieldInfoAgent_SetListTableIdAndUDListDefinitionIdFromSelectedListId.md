@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 uid: v1UserDefinedFieldInfoAgent_SetListTableIdAndUDListDefinitionIdFromSelectedListId
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
@@ -106,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 452
+  "SelectedListId": 927
 }
 ```
 
@@ -122,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 181,
-  "ColumnId": 332,
-  "FieldDefault": "omnis",
-  "FieldHeight": 81,
-  "FieldLabel": "nostrum",
-  "FieldLeft": 320,
-  "FieldTop": 904,
+  "UDefFieldId": 677,
+  "ColumnId": 541,
+  "FieldDefault": "numquam",
+  "FieldHeight": 821,
+  "FieldLabel": "aut",
+  "FieldLeft": 566,
+  "FieldTop": 400,
   "FieldType": "Checkbox",
-  "FieldWidth": 358,
-  "FormatMask": "ut",
+  "FieldWidth": 614,
+  "FormatMask": "vel",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 179,
-  "LabelLeft": 53,
-  "LabelTop": 884,
-  "LabelWidth": 371,
-  "LastVersionId": 53,
-  "ListTableId": 120,
+  "IsIndexed": false,
+  "LabelHeight": 140,
+  "LabelLeft": 919,
+  "LabelTop": 918,
+  "LabelWidth": 384,
+  "LastVersionId": 845,
+  "ListTableId": 688,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 245,
-  "ProgId": "omnis",
-  "IsReadOnly": true,
-  "ShortLabel": "sed",
-  "TabOrder": 426,
-  "TextLength": 125,
-  "Tooltip": "cupiditate",
-  "UdefIdentity": 446,
-  "UDListDefinitionId": 486,
+  "Page1LineNo": 407,
+  "ProgId": "consectetur",
+  "IsReadOnly": false,
+  "ShortLabel": "corporis",
+  "TabOrder": 854,
+  "TextLength": 571,
+  "Tooltip": "odio",
+  "UdefIdentity": 267,
+  "UDListDefinitionId": 641,
   "Justification": "Center",
-  "Version": 506,
-  "TemplateVariableName": "Goyette, Crona and Rodriguez",
+  "Version": 805,
+  "TemplateVariableName": "Bergnaum Group",
   "HasBeenPublished": false,
-  "MdoListName": "Halvorson Group",
+  "MdoListName": "Rutherford-Berge",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 903
     }
   }
 }

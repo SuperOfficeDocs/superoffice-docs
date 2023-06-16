@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/GetSelectionEntity
 uid: v1SelectionAgent_GetSelectionEntity
+generated: true
 ---
 
 # POST Agents/Selection/GetSelectionEntity
@@ -25,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=383
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=578
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -106,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organic neutral implementation",
-  "Postit": "est",
+  "Description": "Pre-emptive intermediate forecast",
+  "Postit": "ipsa",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 684,
-  "IncludePerson": 2,
-  "MemberCount": 65,
-  "Name": "Watsica-Hand",
-  "PostitTextId": 477,
-  "CreatedDate": "2017-10-29T03:51:28.1621313+01:00",
-  "SelectionId": 793,
-  "SoundEx": "est",
-  "Source": 823,
-  "TextId": 791,
-  "UpdatedDate": "2005-07-27T03:51:28.1621313+02:00",
-  "UpdatedCount": 637,
-  "Visibility": 490,
+  "GroupIdx": 123,
+  "IncludePerson": 713,
+  "MemberCount": 773,
+  "Name": "Murazik-Raynor",
+  "PostitTextId": 182,
+  "CreatedDate": "2013-01-02T16:00:41.8206735+01:00",
+  "SelectionId": 866,
+  "SoundEx": "corporis",
+  "Source": 926,
+  "TextId": 470,
+  "UpdatedDate": "2001-03-15T16:00:41.8206735+01:00",
+  "UpdatedCount": 585,
+  "Visibility": 873,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 877,
-  "TargetTableName": "Runolfsson, Stark and Stroman",
+  "CompanyUnique": true,
+  "TargetTableNumber": 162,
+  "TargetTableName": "Tromp, Paucek and Rau",
   "Completed": false,
-  "LeftSelectionId": 567,
-  "RightSelectionId": 869,
+  "LeftSelectionId": 901,
+  "RightSelectionId": 510,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wilderman, Spinka and Walker",
-  "ShadowProviderName": "Smith-Spinka",
-  "ChartKey": "tempore",
-  "LastLoaded": "1997-05-17T03:51:28.1621313+02:00",
-  "LastLoadedBy": 843,
+  "MainProviderName": "Kemmer, Lehner and Maggio",
+  "ShadowProviderName": "Klein, Renner and D'Amore",
+  "ChartKey": "doloremque",
+  "LastLoaded": "2002-04-03T16:00:41.8206735+02:00",
+  "LastLoadedBy": 687,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-12-05T03:51:28.1621313+01:00",
-  "LastMembershipChangeBy": 882,
+  "LastMembershipChange": "1996-12-30T16:00:41.8206735+01:00",
+  "LastMembershipChangeBy": 580,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eius",
-  "MemberTabHeading": "sit",
-  "MailingsProviderName": "Kris, Quitzon and Rohan",
-  "DashboardTileDefinitionId": 281,
+  "MainHeading": "deserunt",
+  "MemberTabHeading": "doloremque",
+  "MailingsProviderName": "Swift-Raynor",
+  "DashboardTileDefinitionId": 694,
   "VisibleFor": [
     {
-      "VisibleId": 735,
+      "VisibleId": 937,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 3
+          "FieldType": "System.Int32",
+          "FieldLength": 634
         }
       }
     },
     {
-      "VisibleId": 735,
+      "VisibleId": 937,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 3
+          "FieldType": "System.Int32",
+          "FieldLength": 634
         }
       }
     }
@@ -188,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 701
+      "FieldType": "System.Int32",
+      "FieldLength": 258
     }
   }
 }

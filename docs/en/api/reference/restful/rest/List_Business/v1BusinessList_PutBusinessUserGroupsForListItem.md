@@ -1,6 +1,7 @@
 ---
 title: PUT List/Business/Items/{id}/UserGroups
 uid: v1BusinessList_PutBusinessUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/Business/Items/{id}/UserGroups
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 949,
-    "Name": "Kshlerin Group",
-    "ToolTip": "Sunt ea ut qui.",
+    "Id": 892,
+    "Name": "Emard Group",
+    "ToolTip": "Vero voluptates earum recusandae sit quis in doloremque.",
     "Deleted": false,
-    "Rank": 519,
-    "Type": "nisi",
-    "ColorBlock": 77,
-    "IconHint": "modi",
-    "Selected": true,
-    "LastChanged": "2001-10-28T03:51:34.3802934+01:00",
+    "Rank": 5,
+    "Type": "aut",
+    "ColorBlock": 109,
+    "IconHint": "facere",
+    "Selected": false,
+    "LastChanged": "2019-10-16T16:00:48.8677298+02:00",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Leannon, Swaniawski and Schinner",
-        "ToolTip": "Et rerum nam.",
+        "Id": 474,
+        "Name": "McClure, O'Hara and Heller",
+        "ToolTip": "Molestias dolor iste deserunt sit.",
         "Deleted": false,
-        "Rank": 273,
-        "Type": "eius",
-        "ColorBlock": 131,
-        "IconHint": "numquam",
+        "Rank": 231,
+        "Type": "aut",
+        "ColorBlock": 999,
+        "IconHint": "adipisci",
         "Selected": false,
-        "LastChanged": "2001-11-16T03:51:34.3802934+01:00",
+        "LastChanged": "2011-08-02T16:00:48.8677298+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "perferendis",
-        "Hidden": false,
-        "FullName": "Viviane Corwin"
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "cum",
+        "Hidden": true,
+        "FullName": "Ena Turcotte"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "dolor",
+    "ExtraInfo": "atque",
+    "StyleHint": "nihil",
     "Hidden": true,
-    "FullName": "Prof. Simeon Barrett Gislason"
+    "FullName": "Miss Antonette Davis"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Wilkinson Inc and Sons",
-    "ToolTip": "Incidunt accusantium dolorum necessitatibus eaque veniam.",
+    "Id": 807,
+    "Name": "Borer LLC",
+    "ToolTip": "Dicta id harum voluptatem aut ipsam et.",
     "Deleted": false,
-    "Rank": 298,
-    "Type": "dolor",
-    "ColorBlock": 215,
-    "IconHint": "est",
+    "Rank": 672,
+    "Type": "mollitia",
+    "ColorBlock": 415,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2004-07-10T03:51:34.3802934+02:00",
+    "LastChanged": "2001-08-01T16:00:48.8677298+02:00",
     "ChildItems": [
       {
-        "Id": 519,
-        "Name": "Zemlak, Fritsch and Hayes",
-        "ToolTip": "Distinctio totam ut voluptatem.",
-        "Deleted": true,
-        "Rank": 157,
-        "Type": "distinctio",
-        "ColorBlock": 789,
-        "IconHint": "perferendis",
+        "Id": 810,
+        "Name": "Reinger-Gusikowski",
+        "ToolTip": "Ipsa ex cupiditate ipsam ab deserunt earum beatae.",
+        "Deleted": false,
+        "Rank": 652,
+        "Type": "at",
+        "ColorBlock": 207,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2021-03-30T03:51:34.3802934+02:00",
+        "LastChanged": "2009-03-05T16:00:48.8677298+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Miss Lilla Amiya Frami",
+        "ExtraInfo": "modi",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Mrs. Claude Lorenz King III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 849
+            "FieldType": "System.String",
+            "FieldLength": 669
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "accusantium",
-    "Hidden": true,
-    "FullName": "Travon Rogahn",
+    "ExtraInfo": "eum",
+    "StyleHint": "in",
+    "Hidden": false,
+    "FullName": "Ms. Abigale Zboncak DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 980
       }
     }
   }

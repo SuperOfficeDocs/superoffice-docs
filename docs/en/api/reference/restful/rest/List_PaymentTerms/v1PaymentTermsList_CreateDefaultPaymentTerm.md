@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentTerm/Items/Default
 uid: v1PaymentTermsList_CreateDefaultPaymentTerm
+generated: true
 ---
 
 # GET List/PaymentTerm/Items/Default
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 466,
-  "Name": "Lindgren Group",
-  "Tooltip": "tempora",
+  "Id": 359,
+  "Name": "Ankunding, Hills and Gutkowski",
+  "Tooltip": "deleniti",
   "Deleted": true,
-  "UdListDefinitionId": 729,
-  "Rank": 864,
+  "UdListDefinitionId": 721,
+  "Rank": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldType": "System.String",
+      "FieldLength": 63
     }
   }
 }

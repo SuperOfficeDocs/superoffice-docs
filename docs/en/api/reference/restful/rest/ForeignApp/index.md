@@ -1,5 +1,6 @@
 ---
 title: ForeignApp
+generated: true
 ---
 
 ```http

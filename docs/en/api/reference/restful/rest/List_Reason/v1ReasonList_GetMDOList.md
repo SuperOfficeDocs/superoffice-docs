@@ -1,6 +1,7 @@
 ---
 title: GET List/Reason/MDOItems
 uid: v1ReasonList_GetMDOList
+generated: true
 ---
 
 # GET List/Reason/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=consequatur
+GET /api/v1/List/Reason/MDOItems?query=ducimus
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Brown, Mosciski and Gorczany",
-    "ToolTip": "Id quas.",
-    "Deleted": true,
-    "Rank": 960,
-    "Type": "necessitatibus",
+    "Id": 721,
+    "Name": "Sanford-McDermott",
+    "ToolTip": "Incidunt et non nemo voluptatum facilis a aperiam.",
+    "Deleted": false,
+    "Rank": 951,
+    "Type": "harum",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "Yundt, Bartell and Jaskolski",
-        "ToolTip": "Voluptatem sed.",
-        "Deleted": false,
-        "Rank": 774,
-        "Type": "est",
+        "Id": 193,
+        "Name": "Breitenberg-Hartmann",
+        "ToolTip": "Quis qui voluptatem in et.",
+        "Deleted": true,
+        "Rank": 954,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 654,
-        "ExtraInfo": "et",
-        "StyleHint": "laudantium",
-        "FullName": "Miss Constance Olson DVM",
+        "IconHint": "esse",
+        "ColorBlock": 657,
+        "ExtraInfo": "vel",
+        "StyleHint": "quam",
+        "FullName": "Prof. Orville Marilie Donnelly DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 5
+            "FieldLength": 533
           }
         }
       }
     ],
-    "IconHint": "a",
-    "ColorBlock": 471,
-    "ExtraInfo": "ex",
-    "StyleHint": "illum",
-    "FullName": "Francis Lucas Bernhard PhD",
+    "IconHint": "omnis",
+    "ColorBlock": 39,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "aut",
+    "FullName": "Guiseppe Reinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldLength": 836
       }
     }
   }

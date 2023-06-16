@@ -1,6 +1,7 @@
 ---
 title: PUT List/Credited/Headings
 uid: v1CreditedList_PutCreditedHeadings
+generated: true
 ---
 
 # PUT List/Credited/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 521,
-    "Name": "Toy, Schultz and Nienow",
-    "Tooltip": "molestias",
-    "Deleted": true,
-    "Rank": 791,
-    "UdListDefinitionId": 986
+    "HeadingId": 652,
+    "Name": "Klein, Labadie and Gerlach",
+    "Tooltip": "veniam",
+    "Deleted": false,
+    "Rank": 380,
+    "UdListDefinitionId": 778
   },
   {
-    "HeadingId": 521,
-    "Name": "Toy, Schultz and Nienow",
-    "Tooltip": "molestias",
-    "Deleted": true,
-    "Rank": 791,
-    "UdListDefinitionId": 986
+    "HeadingId": 652,
+    "Name": "Klein, Labadie and Gerlach",
+    "Tooltip": "veniam",
+    "Deleted": false,
+    "Rank": 380,
+    "UdListDefinitionId": 778
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 560,
-    "Name": "Cruickshank, Feil and Goodwin",
-    "Tooltip": "nulla",
-    "Deleted": false,
-    "Rank": 599,
-    "UdListDefinitionId": 110,
+    "HeadingId": 543,
+    "Name": "Parisian Group",
+    "Tooltip": "non",
+    "Deleted": true,
+    "Rank": 272,
+    "UdListDefinitionId": 485,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 262
+        "FieldLength": 408
       }
     }
   }

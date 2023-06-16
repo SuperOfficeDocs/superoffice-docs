@@ -1,6 +1,6 @@
 ---
 title: Services88.DocumentMigrationAgent.GetForAllDocuments SOAP
-generated: 1
+generated: true
 uid: Services88-DocumentMigration-GetForAllDocuments
 ---
 

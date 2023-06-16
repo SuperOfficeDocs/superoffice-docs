@@ -1,6 +1,7 @@
 ---
 title: GET List/ConsentPurpose/Items/{id}/Headings
 uid: v1ConsentPurposeList_GetConsentPurposeHeadingsForListItem
+generated: true
 ---
 
 # GET List/ConsentPurpose/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Nader-Simonis",
-    "ToolTip": "Sed aliquid porro incidunt optio non laudantium animi.",
+    "Id": 715,
+    "Name": "Gorczany, Bode and Bayer",
+    "ToolTip": "Doloremque recusandae ad cupiditate a ipsum.",
     "Deleted": false,
-    "Rank": 877,
-    "Type": "odio",
-    "ColorBlock": 579,
-    "IconHint": "laborum",
-    "Selected": false,
-    "LastChanged": "2011-03-02T03:51:34.5989925+01:00",
+    "Rank": 773,
+    "Type": "consequatur",
+    "ColorBlock": 574,
+    "IconHint": "impedit",
+    "Selected": true,
+    "LastChanged": "2013-07-19T16:00:48.9145965+02:00",
     "ChildItems": [
       {
-        "Id": 402,
-        "Name": "Rempel, Leannon and Torphy",
-        "ToolTip": "Et eligendi qui ipsum vel.",
+        "Id": 186,
+        "Name": "Erdman-Heidenreich",
+        "ToolTip": "Dolor atque nostrum neque eaque.",
         "Deleted": false,
-        "Rank": 370,
-        "Type": "repudiandae",
-        "ColorBlock": 841,
-        "IconHint": "aut",
+        "Rank": 546,
+        "Type": "maxime",
+        "ColorBlock": 494,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2000-10-10T03:51:34.5989925+02:00",
+        "LastChanged": "2010-01-25T16:00:48.9145965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Alaina Claud Kihn IV",
+        "ExtraInfo": "ut",
+        "StyleHint": "repellendus",
+        "Hidden": false,
+        "FullName": "Augustine Durward Hand V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldLength": 245
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "et",
+    "ExtraInfo": "omnis",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Mac Pouros",
+    "FullName": "Dr. Madaline Sherman Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldLength": 135
       }
     }
   }

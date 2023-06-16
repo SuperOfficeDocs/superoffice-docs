@@ -1,6 +1,7 @@
 ---
 title: GET ChatTopic/default
 uid: v1ChatTopicEntity_DefaultChatTopicEntity
+generated: true
 ---
 
 # GET ChatTopic/default
@@ -86,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 179,
-  "Name": "Cronin Group",
-  "Description": "Reduced coherent hub",
-  "WelcomeMessage": "nihil",
+  "ChatTopicId": 175,
+  "Name": "Lowe-Graham",
+  "Description": "Automated modular contingency",
+  "WelcomeMessage": "molestiae",
   "Language": null,
-  "LastAccept": "1998-04-21T03:51:33.2241895+02:00",
-  "SecondsPrAccept": 248,
+  "LastAccept": "2013-01-12T16:00:47.6647341+01:00",
+  "SecondsPrAccept": 235,
   "AlertRecipient": "sit",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "et",
+  "CollectConsent": false,
+  "BadgeHeader": "accusantium",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "esse",
-  "WarnNewChatMinutes": 143,
-  "WarnManagerNewChatMinutes": 942,
+  "CustomQueueText": "accusantium",
+  "WarnNewChatMinutes": 543,
+  "WarnManagerNewChatMinutes": 700,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 123,
-  "WarnManagerChatMessageMinutes": 905,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 107,
-  "OfflineFormQueueLength": 780,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 418,
+  "WarnManagerChatMessageMinutes": 633,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 467,
+  "OfflineFormQueueLength": 419,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "perspiciatis",
+  "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldType": "System.String",
+      "FieldLength": 550
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/ChangeSerialNumber
 uid: v1LicenseAgent_ChangeSerialNumber
+generated: true
 ---
 
 # POST Agents/License/ChangeSerialNumber
@@ -76,12 +77,12 @@ OK
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Schmitt-Kautzer",
-  "NewSerialNumber": "1913973"
+  "NewCompanyName": "Smitham, Lynch and Rowe",
+  "NewSerialNumber": "933531"
 }
 ```
 
@@ -98,8 +99,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldType": "System.String",
+      "FieldLength": 460
     }
   }
 }

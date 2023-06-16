@@ -1,17 +1,11 @@
 ---
 uid: importblankaction
 title: importblankaction
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "importblankaction"
+keywords: mdoprovider mdo provider importblankaction
+description: Import actions for blank values: Use Person Name, Skip
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "importblankaction" MDO List

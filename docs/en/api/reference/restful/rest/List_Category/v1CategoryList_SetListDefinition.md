@@ -1,6 +1,7 @@
 ---
 title: PUT List/Category
 uid: v1CategoryList_SetListDefinition
+generated: true
 ---
 
 # PUT List/Category
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 401,
-  "Name": "Wunsch-Bogisich",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "Rank": 275,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quas",
-  "InUseByUserDefinedFields": false
+  "Id": 755,
+  "Name": "Funk, Leffler and Hirthe",
+  "Tooltip": "blanditiis",
+  "Deleted": true,
+  "Rank": 668,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eos",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
-  "Name": "Rohan-Hintz",
-  "Tooltip": "sunt",
+  "Id": 921,
+  "Name": "Gleason, Schuster and Spinka",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 344,
+  "Rank": 554,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "beatae",
-  "InUseByUserDefinedFields": false,
+  "ListType": "assumenda",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 84
     }
   }
 }

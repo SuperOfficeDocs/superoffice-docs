@@ -1,6 +1,7 @@
 ---
 title: PUT List/Task/Items/{id}/UserGroups
 uid: v1TaskList_PutTaskListItemUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/Task/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Hauck-O'Kon",
-    "ToolTip": "Mollitia expedita est laborum ut inventore.",
-    "Deleted": false,
-    "Rank": 335,
-    "Type": "sed",
-    "ColorBlock": 220,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "1998-09-04T03:51:34.9895221+02:00",
+    "Id": 259,
+    "Name": "Farrell, Beier and Heidenreich",
+    "ToolTip": "Eveniet fuga.",
+    "Deleted": true,
+    "Rank": 424,
+    "Type": "porro",
+    "ColorBlock": 75,
+    "IconHint": "excepturi",
+    "Selected": false,
+    "LastChanged": "2016-04-12T16:00:49.3677537+02:00",
     "ChildItems": [
       {
-        "Id": 852,
-        "Name": "Purdy Group",
-        "ToolTip": "Sit unde nobis vel quia velit quia.",
+        "Id": 923,
+        "Name": "O'Reilly LLC",
+        "ToolTip": "Et enim et.",
         "Deleted": true,
-        "Rank": 201,
-        "Type": "enim",
-        "ColorBlock": 264,
-        "IconHint": "fuga",
-        "Selected": false,
-        "LastChanged": "2006-03-01T03:51:34.9895221+01:00",
+        "Rank": 767,
+        "Type": "possimus",
+        "ColorBlock": 579,
+        "IconHint": "provident",
+        "Selected": true,
+        "LastChanged": "2007-09-02T16:00:49.3677537+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quia",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Prof. Nico Deron Cassin"
+        "FullName": "Miss Jorge Bridie Kling"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Layla Hammes III"
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Ms. Faustino Ramon Kirlin PhD"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 974,
-    "Name": "Schroeder, Runolfsdottir and Swift",
-    "ToolTip": "Laudantium est quisquam iure.",
-    "Deleted": false,
-    "Rank": 675,
-    "Type": "quia",
-    "ColorBlock": 51,
-    "IconHint": "voluptates",
+    "Id": 435,
+    "Name": "D'Amore-Hauck",
+    "ToolTip": "Et ea excepturi quia distinctio dolore et.",
+    "Deleted": true,
+    "Rank": 764,
+    "Type": "sed",
+    "ColorBlock": 266,
+    "IconHint": "iusto",
     "Selected": false,
-    "LastChanged": "2001-11-11T03:51:34.9895221+01:00",
+    "LastChanged": "2022-11-03T16:00:49.3677537+01:00",
     "ChildItems": [
       {
-        "Id": 855,
-        "Name": "Balistreri, Collier and Skiles",
-        "ToolTip": "Nihil doloremque similique nam dolorem fugiat sed.",
+        "Id": 756,
+        "Name": "Treutel Inc and Sons",
+        "ToolTip": "Aut eos est et et.",
         "Deleted": false,
-        "Rank": 856,
-        "Type": "sint",
-        "ColorBlock": 405,
-        "IconHint": "sit",
+        "Rank": 915,
+        "Type": "est",
+        "ColorBlock": 748,
+        "IconHint": "doloremque",
         "Selected": true,
-        "LastChanged": "2001-01-08T03:51:34.9895221+01:00",
+        "LastChanged": "2004-01-10T16:00:49.3677537+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "aspernatur",
-        "Hidden": true,
-        "FullName": "Joana Schaden",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "placeat",
+        "Hidden": false,
+        "FullName": "Mr. Christina Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 49
+            "FieldLength": 118
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "ipsam",
-    "Hidden": false,
-    "FullName": "Maymie Trystan Lubowitz Jr.",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Douglas Hattie Nicolas PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 400
       }
     }
   }

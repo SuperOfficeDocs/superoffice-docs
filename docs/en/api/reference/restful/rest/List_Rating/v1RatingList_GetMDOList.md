@@ -1,6 +1,7 @@
 ---
 title: GET List/Rating/MDOItems
 uid: v1RatingList_GetMDOList
+generated: true
 ---
 
 # GET List/Rating/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=et
+GET /api/v1/List/Rating/MDOItems?query=consequatur
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1002,
-    "Name": "Cummings Group",
-    "ToolTip": "Inventore distinctio et et laboriosam aut.",
-    "Deleted": false,
-    "Rank": 281,
-    "Type": "sit",
+    "Id": 380,
+    "Name": "Jacobson, Terry and Schmitt",
+    "ToolTip": "Ad autem eos aspernatur.",
+    "Deleted": true,
+    "Rank": 175,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 786,
-        "Name": "Runte-Rippin",
-        "ToolTip": "Aspernatur itaque eaque fugiat velit culpa.",
+        "Id": 416,
+        "Name": "Kuhlman LLC",
+        "ToolTip": "Eum amet harum.",
         "Deleted": true,
-        "Rank": 971,
-        "Type": "amet",
+        "Rank": 767,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 908,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "ipsa",
-        "FullName": "Crystel Roberts Jr.",
+        "IconHint": "qui",
+        "ColorBlock": 672,
+        "ExtraInfo": "quaerat",
+        "StyleHint": "praesentium",
+        "FullName": "Darius Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 677
+            "FieldLength": 609
           }
         }
       }
     ],
-    "IconHint": "veniam",
-    "ColorBlock": 426,
-    "ExtraInfo": "minus",
-    "StyleHint": "quia",
-    "FullName": "Mrs. Coty Erdman PhD",
+    "IconHint": "temporibus",
+    "ColorBlock": 382,
+    "ExtraInfo": "quia",
+    "StyleHint": "molestias",
+    "FullName": "Mr. Juston Angel Wiegand DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldType": "System.String",
+        "FieldLength": 177
       }
     }
   }

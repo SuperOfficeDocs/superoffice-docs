@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetInstalledLanguages
 uid: v1ListAgent_GetInstalledLanguages
+generated: true
 ---
 
 # POST Agents/List/GetInstalledLanguages
@@ -70,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 376,
-    "LCID": 590,
-    "EnglishName": "Vandervort Inc and Sons",
-    "NativeName": "Jacobson LLC",
-    "ThreeLetterISOLanguageName": "Kunde, Gleason and Wehner",
-    "TwoLetterISOLanguageName": "Mayert, Blanda and Mosciski",
+    "LanguageInfoId": 302,
+    "LCID": 478,
+    "EnglishName": "Baumbach-Nolan",
+    "NativeName": "Prohaska, Cartwright and Rath",
+    "ThreeLetterISOLanguageName": "Leannon LLC",
+    "TwoLetterISOLanguageName": "Hauck Group",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldType": "System.String",
+        "FieldLength": 291
       }
     }
   }

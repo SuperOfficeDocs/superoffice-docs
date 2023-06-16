@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketPriority/Items/Default
 uid: v1TicketPriorityList_CreateDefaultTicketPriorityEntity
+generated: true
 ---
 
 # GET List/TicketPriority/Items/Default
@@ -81,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 796,
-  "Name": "Cummerata-Predovic",
+  "TicketPriorityId": 729,
+  "Name": "Cronin-Streich",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 790,
+  "SortOrder": 636,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 647,
-  "MonStart": "2012-05-13T03:51:35.0051461+02:00",
-  "MonStop": "2020-05-11T03:51:35.0051461+02:00",
-  "TueStart": "2005-09-27T03:51:35.0051461+02:00",
-  "TueStop": "2001-10-06T03:51:35.0051461+02:00",
-  "WedStart": "2018-05-06T03:51:35.0051461+02:00",
-  "WedStop": "2003-10-12T03:51:35.0051461+02:00",
-  "ThuStart": "2000-10-09T03:51:35.0051461+02:00",
-  "ThuStop": "2007-10-06T03:51:35.0051461+02:00",
-  "FriStart": "1999-04-14T03:51:35.0051461+02:00",
-  "FriStop": "2002-10-01T03:51:35.0051461+02:00",
-  "SatStart": "2021-11-14T03:51:35.0051461+01:00",
-  "SatStop": "2000-10-14T03:51:35.0051461+02:00",
-  "SunStart": "2019-04-23T03:51:35.0051461+02:00",
-  "SunStop": "2008-04-19T03:51:35.0051461+02:00",
+  "Deadline": 946,
+  "MonStart": "2015-12-25T16:00:49.3834069+01:00",
+  "MonStop": "2018-01-06T16:00:49.3834069+01:00",
+  "TueStart": "2007-08-14T16:00:49.3834069+02:00",
+  "TueStop": "2018-03-31T16:00:49.3834069+02:00",
+  "WedStart": "2007-01-12T16:00:49.3834069+01:00",
+  "WedStop": "2001-11-08T16:00:49.3834069+01:00",
+  "ThuStart": "2004-02-12T16:00:49.3834069+01:00",
+  "ThuStop": "2020-10-09T16:00:49.3834069+02:00",
+  "FriStart": "2019-03-24T16:00:49.3834069+01:00",
+  "FriStop": "1996-03-18T16:00:49.3834069+01:00",
+  "SatStart": "2020-02-16T16:00:49.3834069+01:00",
+  "SatStop": "2021-07-03T16:00:49.3834069+02:00",
+  "SunStart": "2018-05-24T16:00:49.3834069+02:00",
+  "SunStop": "2008-12-30T16:00:49.3834069+01:00",
   "NonDates": [
-    "voluptatem",
-    "quibusdam"
+    "eveniet",
+    "fuga"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 207,
-      "AlertLevel": 69,
-      "AlertTimeout": 763,
-      "Action": 239,
-      "DelegateTo": 20,
-      "ScriptId": 641,
-      "EmailTo": "annabelle_russel@adams.ca",
-      "SmsTo": "id",
-      "ReplyTemplateIdCustomer": 160,
-      "ReplyTemplateIdUser": 168,
-      "ReplyTemplateIdCatmast": 118,
-      "ReplyTemplateIdEmail": 544,
-      "RtiCustomerSms": 974,
-      "ReplyTemplateIdUserSms": 804,
-      "ReplyTemplateIdCatmastSms": 1001,
-      "ReplyTemplateIdSms": 34,
+      "TicketAlertId": 898,
+      "AlertLevel": 671,
+      "AlertTimeout": 942,
+      "Action": 154,
+      "DelegateTo": 534,
+      "ScriptId": 142,
+      "EmailTo": "wilton@renner.ca",
+      "SmsTo": "non",
+      "ReplyTemplateIdCustomer": 147,
+      "ReplyTemplateIdUser": 39,
+      "ReplyTemplateIdCatmast": 905,
+      "ReplyTemplateIdEmail": 572,
+      "RtiCustomerSms": 886,
+      "ReplyTemplateIdUserSms": 160,
+      "ReplyTemplateIdCatmastSms": 921,
+      "ReplyTemplateIdSms": 848,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 523
+          "FieldType": "System.Int32",
+          "FieldLength": 590
         }
       }
     }
@@ -154,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 323
     }
   }
 }

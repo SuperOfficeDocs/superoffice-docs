@@ -1,6 +1,6 @@
 ---
 title: Services88.DocumentAgent.GetDocumentCommands SOAP
-generated: 1
+generated: true
 uid: Services88-Document-GetDocumentCommands
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: POST List/ProjectType/Headings
 uid: v1ProjectTypeList_PostProjectTypeHeading
+generated: true
 ---
 
 # POST List/ProjectType/Headings
@@ -78,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 476,
-  "Name": "Collier LLC",
-  "Tooltip": "blanditiis",
-  "Deleted": false,
-  "Rank": 517,
-  "UdListDefinitionId": 865
+  "HeadingId": 406,
+  "Name": "Crooks-Breitenberg",
+  "Tooltip": "error",
+  "Deleted": true,
+  "Rank": 879,
+  "UdListDefinitionId": 513
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 372,
-  "Name": "Blanda-Lockman",
-  "Tooltip": "natus",
+  "HeadingId": 792,
+  "Name": "Gutmann Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 345,
-  "UdListDefinitionId": 877,
+  "Rank": 567,
+  "UdListDefinitionId": 795,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldType": "System.String",
+      "FieldLength": 273
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: PUT List/PaymentType/Items/{id}
 uid: v1PaymentTypeList_PutPaymentType
+generated: true
 ---
 
 # PUT List/PaymentType/Items/{id}
@@ -77,16 +78,16 @@ OK
 PUT /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 531,
-  "Name": "Kunze, Haley and Langosh",
-  "Tooltip": "a",
-  "Deleted": true,
-  "UdListDefinitionId": 773,
-  "Rank": 399
+  "Id": 477,
+  "Name": "Auer Group",
+  "Tooltip": "nisi",
+  "Deleted": false,
+  "UdListDefinitionId": 7,
+  "Rank": 237
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 239,
-  "Name": "Altenwerth-Gorczany",
-  "Tooltip": "expedita",
+  "Id": 698,
+  "Name": "Mann-Adams",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "UdListDefinitionId": 305,
-  "Rank": 311,
+  "UdListDefinitionId": 297,
+  "Rank": 876,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldType": "System.String",
+      "FieldLength": 640
     }
   }
 }

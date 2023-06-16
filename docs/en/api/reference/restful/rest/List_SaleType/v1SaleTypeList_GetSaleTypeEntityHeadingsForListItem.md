@@ -1,6 +1,7 @@
 ---
 title: GET List/SaleType/Items/{id}/Headings
 uid: v1SaleTypeList_GetSaleTypeEntityHeadingsForListItem
+generated: true
 ---
 
 # GET List/SaleType/Items/{id}/Headings
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Walker, Breitenberg and Collins",
-    "ToolTip": "Placeat alias velit sequi totam.",
+    "Id": 360,
+    "Name": "Feest, Pagac and Schroeder",
+    "ToolTip": "Vel quis.",
     "Deleted": false,
-    "Rank": 225,
-    "Type": "rerum",
-    "ColorBlock": 175,
-    "IconHint": "accusamus",
-    "Selected": true,
-    "LastChanged": "2020-10-14T03:51:34.9582718+02:00",
+    "Rank": 164,
+    "Type": "nostrum",
+    "ColorBlock": 899,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2009-02-09T16:00:49.3208058+01:00",
     "ChildItems": [
       {
-        "Id": 913,
-        "Name": "Pfannerstill Group",
-        "ToolTip": "Quia ut vero similique accusamus dolorem molestias iure.",
+        "Id": 365,
+        "Name": "O'Conner, McGlynn and Kuvalis",
+        "ToolTip": "Nesciunt eligendi laboriosam est hic.",
         "Deleted": true,
-        "Rank": 747,
-        "Type": "id",
-        "ColorBlock": 983,
-        "IconHint": "quia",
+        "Rank": 715,
+        "Type": "rem",
+        "ColorBlock": 270,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2006-12-11T03:51:34.9582718+01:00",
+        "LastChanged": "2022-02-28T16:00:49.3208058+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "alias",
+        "ExtraInfo": "ex",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Ali Shany Okuneva Sr.",
+        "FullName": "Dr. Gladys Christiana Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldType": "System.String",
+            "FieldLength": 218
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "dolor",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Lenna Frami",
+    "FullName": "Mrs. Elliott Nikko Bergnaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldLength": 864
       }
     }
   }

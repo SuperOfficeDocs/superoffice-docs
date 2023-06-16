@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuoteFromSaleId
 uid: v1QuoteAgent_GetQuoteFromSaleId
+generated: true
 ---
 
 # POST Agents/Quote/GetQuoteFromSaleId
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 773
+  "SaleId": 41
 }
 ```
 
@@ -100,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 692,
-  "SaleId": 516,
-  "QuoteConnectionId": 242,
-  "ERPQuoteKey": "dolor",
-  "ERPOrderKey": "nulla",
-  "ActiveQuoteVersionId": 1002,
-  "AcceptedQuoteAlternativeId": 271,
-  "UseValuesFromQuote": 808,
-  "DocumentId": 620,
-  "PoNumber": "1321160",
-  "OrderComment": "voluptate",
-  "PreferredEmailCulture": "benjamin_walker@breitenberg.name",
+  "QuoteId": 978,
+  "SaleId": 258,
+  "QuoteConnectionId": 565,
+  "ERPQuoteKey": "aspernatur",
+  "ERPOrderKey": "aliquam",
+  "ActiveQuoteVersionId": 466,
+  "AcceptedQuoteAlternativeId": 406,
+  "UseValuesFromQuote": 920,
+  "DocumentId": 826,
+  "PoNumber": "1463479",
+  "OrderComment": "velit",
+  "PreferredEmailCulture": "octavia_schultz@schadenbarrows.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 251
+      "FieldType": "System.Int32",
+      "FieldLength": 161
     }
   }
 }

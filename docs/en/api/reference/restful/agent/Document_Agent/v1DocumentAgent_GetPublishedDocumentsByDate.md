@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetPublishedDocumentsByDate
 uid: v1DocumentAgent_GetPublishedDocumentsByDate
+generated: true
 ---
 
 # POST Agents/Document/GetPublishedDocumentsByDate
@@ -97,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 725,
+  "PersonId": 333,
   "IncludeProjectDocuments": false,
-  "StartTime": "2011-10-11T03:51:26.9905317+02:00",
-  "EndTime": "2012-10-22T03:51:26.9905317+02:00",
-  "Count": 98
+  "StartTime": "2003-12-02T16:00:40.5550049+01:00",
+  "EndTime": "2016-06-02T16:00:40.5550049+02:00",
+  "Count": 788
 }
 ```
 
@@ -117,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 815,
-    "Attention": "recusandae",
-    "Header": "perferendis",
-    "Name": "Powlowski, Frami and Becker",
-    "OurRef": "aliquid",
-    "YourRef": "non",
-    "Description": "Up-sized bi-directional orchestration",
-    "DocumentTemplate": "suscipit",
+    "DocumentId": 783,
+    "Attention": "suscipit",
+    "Header": "odio",
+    "Name": "Ankunding, Wehner and Connelly",
+    "OurRef": "quia",
+    "YourRef": "commodi",
+    "Description": "Synergized fresh-thinking methodology",
+    "DocumentTemplate": "quod",
     "IsPublished": false,
-    "PersonId": 155,
-    "PersonFullName": "Kolby Hoppe",
-    "AssociateFullName": "Greta Aurelie Mitchell V",
-    "ContactId": 272,
-    "ContactName": "Gutmann Group",
-    "ProjectId": 922,
-    "ProjectName": "Hand, Howell and Ratke",
-    "AssociateId": 839,
-    "Snum": 12,
-    "SaleId": 777,
-    "SaleName": "Emmerich, Hirthe and Ledner",
+    "PersonId": 232,
+    "PersonFullName": "Norma Jaskolski",
+    "AssociateFullName": "Shaylee Gottlieb",
+    "ContactId": 84,
+    "ContactName": "Homenick, Murray and Erdman",
+    "ProjectId": 677,
+    "ProjectName": "Kessler, Wolff and Blanda",
+    "AssociateId": 660,
+    "Snum": 26,
+    "SaleId": 842,
+    "SaleName": "Cormier Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 627
+        "FieldType": "System.Int32",
+        "FieldLength": 150
       }
     }
   }

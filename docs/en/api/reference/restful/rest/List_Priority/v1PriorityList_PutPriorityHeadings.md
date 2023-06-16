@@ -1,6 +1,7 @@
 ---
 title: PUT List/Priority/Headings
 uid: v1PriorityList_PutPriorityHeadings
+generated: true
 ---
 
 # PUT List/Priority/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 933,
-    "Name": "DuBuque-Moore",
-    "Tooltip": "similique",
+    "HeadingId": 421,
+    "Name": "Schiller-Hammes",
+    "Tooltip": "voluptatum",
     "Deleted": false,
-    "Rank": 810,
-    "UdListDefinitionId": 580
+    "Rank": 199,
+    "UdListDefinitionId": 113
   },
   {
-    "HeadingId": 933,
-    "Name": "DuBuque-Moore",
-    "Tooltip": "similique",
+    "HeadingId": 421,
+    "Name": "Schiller-Hammes",
+    "Tooltip": "voluptatum",
     "Deleted": false,
-    "Rank": 810,
-    "UdListDefinitionId": 580
+    "Rank": 199,
+    "UdListDefinitionId": 113
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 797,
-    "Name": "O'Kon LLC",
-    "Tooltip": "quaerat",
+    "HeadingId": 808,
+    "Name": "Jewess, Lindgren and Toy",
+    "Tooltip": "quasi",
     "Deleted": false,
-    "Rank": 780,
-    "UdListDefinitionId": 55,
+    "Rank": 702,
+    "UdListDefinitionId": 438,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldLength": 519
       }
     }
   }

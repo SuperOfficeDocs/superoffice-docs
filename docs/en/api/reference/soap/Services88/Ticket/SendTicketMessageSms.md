@@ -1,6 +1,6 @@
 ---
 title: Services88.TicketAgent.SendTicketMessageSms SOAP
-generated: 1
+generated: true
 uid: Services88-Ticket-SendTicketMessageSms
 ---
 

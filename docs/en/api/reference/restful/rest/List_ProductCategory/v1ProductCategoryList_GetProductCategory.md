@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductCategory/Items/{id}
 uid: v1ProductCategoryList_GetProductCategory
+generated: true
 ---
 
 # GET List/ProductCategory/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 263,
-  "Name": "Jacobson, Beer and Lynch",
-  "Tooltip": "eum",
-  "Deleted": true,
-  "UdListDefinitionId": 37,
-  "Rank": 454,
+  "Id": 978,
+  "Name": "Bruen LLC",
+  "Tooltip": "accusamus",
+  "Deleted": false,
+  "UdListDefinitionId": 212,
+  "Rank": 229,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldType": "System.String",
+      "FieldLength": 493
     }
   }
 }

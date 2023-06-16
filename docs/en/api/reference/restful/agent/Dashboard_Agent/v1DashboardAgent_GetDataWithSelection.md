@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dashboard/GetDataWithSelection
 uid: v1DashboardAgent_GetDataWithSelection
+generated: true
 ---
 
 # POST Agents/Dashboard/GetDataWithSelection
@@ -77,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 807,
-  "SelectionId": 123,
-  "Restrictions": "alias"
+  "DashboardTileId": 561,
+  "SelectionId": 958,
+  "Restrictions": "deleniti"
 }
 ```
 
@@ -93,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Schultz, Bernier and McKenzie",
-        "DisplayTooltip": "doloribus",
-        "DisplayType": "dolores",
-        "CanOrderBy": false,
-        "Name": "Ullrich, Koepp and Ankunding",
+        "DisplayName": "Feest Group",
+        "DisplayTooltip": "maiores",
+        "DisplayType": "voluptatem",
+        "CanOrderBy": true,
+        "Name": "Hermiston Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "nesciunt",
-        "RestrictionListName": "Kuhic Inc and Sons",
-        "IsVisible": false,
-        "ExtraInfo": "et",
-        "Width": "error",
-        "IconHint": "ut",
-        "HeadingIconHint": "nesciunt"
+        "RestrictionType": "veniam",
+        "RestrictionListName": "Tremblay, Kohler and Collier",
+        "IsVisible": true,
+        "ExtraInfo": "nobis",
+        "Width": "aut",
+        "IconHint": "et",
+        "HeadingIconHint": "minus"
       }
     ],
     "Result": null
@@ -113,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Schultz, Bernier and McKenzie",
-        "DisplayTooltip": "doloribus",
-        "DisplayType": "dolores",
-        "CanOrderBy": false,
-        "Name": "Ullrich, Koepp and Ankunding",
+        "DisplayName": "Feest Group",
+        "DisplayTooltip": "maiores",
+        "DisplayType": "voluptatem",
+        "CanOrderBy": true,
+        "Name": "Hermiston Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "nesciunt",
-        "RestrictionListName": "Kuhic Inc and Sons",
-        "IsVisible": false,
-        "ExtraInfo": "et",
-        "Width": "error",
-        "IconHint": "ut",
-        "HeadingIconHint": "nesciunt"
+        "RestrictionType": "veniam",
+        "RestrictionListName": "Tremblay, Kohler and Collier",
+        "IsVisible": true,
+        "ExtraInfo": "nobis",
+        "Width": "aut",
+        "IconHint": "et",
+        "HeadingIconHint": "minus"
       }
     ],
     "Result": null

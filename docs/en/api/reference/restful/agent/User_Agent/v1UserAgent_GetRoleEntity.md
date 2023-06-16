@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetRoleEntity
 uid: v1UserAgent_GetRoleEntity
+generated: true
 ---
 
 # POST Agents/User/GetRoleEntity
@@ -27,7 +28,7 @@ Gets a RoleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=647
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=205
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 419,
-  "Name": "Simonis Group",
-  "Tooltip": "voluptas",
+  "RoleId": 305,
+  "Name": "Bartell LLC",
+  "Tooltip": "aut",
   "RoleType": "Anonymous",
-  "Deleted": 676,
-  "Rank": 832,
-  "Created": "2014-08-10T03:51:28.474562+02:00",
-  "UseCategories": 659,
+  "Deleted": 198,
+  "Rank": 867,
+  "Created": "2019-10-24T16:00:42.3206172+02:00",
+  "UseCategories": 697,
   "CreatedBy": null,
-  "Updated": "2003-06-23T03:51:28.474562+02:00",
+  "Updated": "2022-04-24T16:00:42.3206172+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -106,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 420
+      "FieldLength": 710
     }
   }
 }

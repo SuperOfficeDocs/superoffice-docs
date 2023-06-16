@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.GetTask SOAP
-generated: 1
+generated: true
 uid: Services88-List-GetTask
 ---
 

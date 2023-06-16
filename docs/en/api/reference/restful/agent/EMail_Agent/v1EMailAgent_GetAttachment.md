@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetAttachment
 uid: v1EMailAgent_GetAttachment
+generated: true
 ---
 
 # POST Agents/EMail/GetAttachment
@@ -88,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 512,
-  "AttachmentId": "vero"
+  "MessageServerId": 699,
+  "AttachmentId": "consequuntur"
 }
 ```
 
@@ -100,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-channelled explicit Graphic Interface",
-  "Filename": "sunt",
-  "Size": 41,
-  "Type": "sint",
-  "Encoding": "suscipit",
-  "Id": "hic",
-  "Disposition": "quasi",
+  "Description": "Focused tertiary hardware",
+  "Filename": "et",
+  "Size": 361,
+  "Type": "qui",
+  "Encoding": "a",
+  "Id": "quasi",
+  "Disposition": "magnam",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldType": "System.String",
+      "FieldLength": 408
     }
   }
 }

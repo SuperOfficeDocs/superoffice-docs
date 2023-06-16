@@ -1,6 +1,7 @@
 ---
 title: GET User/currentPrincipal
 uid: v1User_GetCurrentPrincipal
+generated: true
 ---
 
 # GET User/currentPrincipal
@@ -91,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "quas",
-  "AssociateId": 503,
-  "IsPerson": true,
-  "PersonId": 736,
-  "CountryId": 30,
-  "HomeCountryId": 550,
-  "ContactId": 871,
-  "GroupId": 563,
-  "BusinessId": 566,
-  "CategoryId": 420,
-  "ContactOwner": 350,
-  "RoleId": 974,
-  "RoleName": "Ullrich Inc and Sons",
-  "RoleDescription": "Operative background Graphical User Interface",
+  "Associate": "perspiciatis",
+  "AssociateId": 33,
+  "IsPerson": false,
+  "PersonId": 253,
+  "CountryId": 565,
+  "HomeCountryId": 866,
+  "ContactId": 146,
+  "GroupId": 550,
+  "BusinessId": 131,
+  "CategoryId": 177,
+  "ContactOwner": 400,
+  "RoleId": 920,
+  "RoleName": "Stiedemann LLC",
+  "RoleDescription": "Seamless solution-oriented time-frame",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 905,
-      "OwnerName": "Crist Inc and Sons",
-      "OwnerDescription": "Implemented static monitoring",
-      "ModuleId": 504,
-      "Name": "Paucek-Blanda",
-      "Description": "Fundamental actuating protocol",
-      "Version": "perspiciatis",
+      "OwnerId": 751,
+      "OwnerName": "Rosenbaum Inc and Sons",
+      "OwnerDescription": "Streamlined neutral knowledge base",
+      "ModuleId": 945,
+      "Name": "Green-Osinski",
+      "Description": "Self-enabling assymetric capability",
+      "Version": "et",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 456,
-      "ExtraInfo": "aliquam",
-      "SortOrder": 257,
-      "LicenseNumber": 809,
-      "IsHidden": false,
-      "IsUnrestricted": false,
-      "ExpiryDate": "2005-12-22T03:51:34.3334209+01:00",
+      "ExtraFlags": 81,
+      "ExtraInfo": "est",
+      "SortOrder": 191,
+      "LicenseNumber": 476,
+      "IsHidden": true,
+      "IsUnrestricted": true,
+      "ExpiryDate": "2006-04-20T16:00:48.8052335+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 581
+          "FieldType": "System.Int32",
+          "FieldLength": 85
         }
       }
     }
   ],
-  "FullName": "Ramon Lehner",
-  "EMailAddress": "quia",
+  "FullName": "Miss Fanny Jakubowski",
+  "EMailAddress": "corrupti",
   "FunctionRights": [
-    "fuga",
-    "in"
+    "mollitia",
+    "exercitationem"
   ],
-  "EjUserId": 307,
-  "EjAccessLevel": 40,
+  "EjUserId": 830,
+  "EjAccessLevel": 573,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "fugiat",
-      "SearchName": "Fisher Group",
-      "DisplayName": "Osinski-Hessel",
-      "CredentialId": 982
+      "Type": "ea",
+      "SearchName": "Herman Group",
+      "DisplayName": "Balistreri, Dicki and Bruen",
+      "CredentialId": 605
     },
     {
-      "Type": "fugiat",
-      "SearchName": "Fisher Group",
-      "DisplayName": "Osinski-Hessel",
-      "CredentialId": 982
+      "Type": "ea",
+      "SearchName": "Herman Group",
+      "DisplayName": "Balistreri, Dicki and Bruen",
+      "CredentialId": 605
     }
   ],
   "SecondaryGroups": [
-    879,
-    858
+    240,
+    340
   ],
-  "DatabaseContextIdentifier": "consequuntur",
-  "UserName": "Kilback-Renner"
+  "DatabaseContextIdentifier": "aut",
+  "UserName": "Gerlach, Rosenbaum and Douglas"
 }
 ```

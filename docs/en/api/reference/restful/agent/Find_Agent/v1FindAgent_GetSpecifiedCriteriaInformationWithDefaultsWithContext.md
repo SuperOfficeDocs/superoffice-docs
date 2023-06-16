@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 uid: v1FindAgent_GetSpecifiedCriteriaInformationWithDefaultsWithContext
+generated: true
 ---
 
 # POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
@@ -82,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolorum",
-  "ProviderName": "Hagenes-Prohaska",
-  "StorageKey": "nihil",
+  "StorageType": "ab",
+  "ProviderName": "Yundt-Thiel",
+  "StorageKey": "eos",
   "DesiredColumnNames": [
-    "Heller Inc and Sons",
-    "Kunde Inc and Sons"
+    "Hauck, Hilpert and Block",
+    "Schneider Group"
   ],
   "StaticColumns": [
-    "quia",
-    "esse"
+    "qui",
+    "in"
   ],
-  "Context": "rem"
+  "Context": "cumque"
 }
 ```
 
@@ -110,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Dickens-Schuster",
-      "Operator": "consequatur",
+      "Name": "Dibbert, Gorczany and Rath",
+      "Operator": "rerum",
       "Values": [
-        "assumenda",
-        "enim"
+        "voluptatem",
+        "recusandae"
       ],
       "DisplayValues": [
-        "qui",
-        "laborum"
+        "quos",
+        "rerum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -126,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 100,
+      "InterParenthesis": 207,
       "InterOperator": "And",
-      "UniqueHash": 908
+      "UniqueHash": 950
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bernhard, Dare and Kshlerin",
-      "DisplayTooltip": "impedit",
-      "DisplayType": "quia",
-      "CanOrderBy": false,
-      "Name": "Lowe, Ratke and Tremblay",
-      "CanRestrictBy": true,
-      "RestrictionType": "soluta",
-      "RestrictionListName": "Beer, Ondricka and Hahn",
-      "IsVisible": true,
-      "ExtraInfo": "illum",
-      "Width": "ad",
-      "IconHint": "quia",
-      "HeadingIconHint": "eum"
+      "DisplayName": "Koss, West and Christiansen",
+      "DisplayTooltip": "non",
+      "DisplayType": "voluptatum",
+      "CanOrderBy": true,
+      "Name": "Sauer, Frami and Okuneva",
+      "CanRestrictBy": false,
+      "RestrictionType": "amet",
+      "RestrictionListName": "Von, Hand and Carter",
+      "IsVisible": false,
+      "ExtraInfo": "totam",
+      "Width": "cupiditate",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "veritatis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Will Inc and Sons",
-      "PrimaryKey": 339,
+      "EntityName": "Vandervort, Ernser and Dickens",
+      "PrimaryKey": 196,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eum",
-          "TooltipHint": "laudantium",
-          "LinkHint": "iste"
+          "DisplayValue": "autem",
+          "TooltipHint": "non",
+          "LinkHint": "quia"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "velit",
+      "LinkHint": "amet",
+      "StyleHint": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 210
+          "FieldType": "System.String",
+          "FieldLength": 682
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hamill Inc and Sons",
-      "Description": "Horizontal radical capability",
-      "Rank": 371,
+      "Name": "Shanahan LLC",
+      "Description": "Configurable analyzing archive",
+      "Rank": 386,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hamill Inc and Sons",
-      "Description": "Horizontal radical capability",
-      "Rank": 371,
+      "Name": "Shanahan LLC",
+      "Description": "Configurable analyzing archive",
+      "Rank": 386,
       "Restrictions": [
         {},
         {}
@@ -195,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldType": "System.String",
+      "FieldLength": 1002
     }
   }
 }

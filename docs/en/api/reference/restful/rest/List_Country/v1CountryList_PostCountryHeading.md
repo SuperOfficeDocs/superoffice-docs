@@ -1,6 +1,7 @@
 ---
 title: POST List/Country/Headings
 uid: v1CountryList_PostCountryHeading
+generated: true
 ---
 
 # POST List/Country/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 930,
-  "Name": "Runolfsdottir Inc and Sons",
-  "Tooltip": "saepe",
+  "HeadingId": 794,
+  "Name": "Orn LLC",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 16,
-  "UdListDefinitionId": 88
+  "Rank": 465,
+  "UdListDefinitionId": 319
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 612,
-  "Name": "Boehm-Crona",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 556,
-  "UdListDefinitionId": 215,
+  "HeadingId": 105,
+  "Name": "Lindgren, Cronin and Bosco",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "Rank": 119,
+  "UdListDefinitionId": 914,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldType": "System.String",
+      "FieldLength": 217
     }
   }
 }

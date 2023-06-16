@@ -1,6 +1,6 @@
 ---
 title: Services88.ChatAgent.AddChatMessage SOAP
-generated: 1
+generated: true
 uid: Services88-Chat-AddChatMessage
 ---
 
@@ -49,7 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
      <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
      <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-     <Chat:WhenPosted xsi:type="xsd:dateTime">2023-05-25T11:08:22Z</Chat:WhenPosted>
+     <Chat:WhenPosted xsi:type="xsd:dateTime">2023-06-09T13:58:24Z</Chat:WhenPosted>
     </Chat:Message>
    </Chat:AddChatMessage>
 
@@ -82,7 +82,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
     <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
     <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-    <Chat:WhenPosted xsi:type="xsd:dateTime">2023-05-25T11:08:22Z</Chat:WhenPosted>
+    <Chat:WhenPosted xsi:type="xsd:dateTime">2023-06-09T13:58:24Z</Chat:WhenPosted>
    </Chat:Response>
   </Chat:AddChatMessageResponse>
  </SOAP-ENV:Body>

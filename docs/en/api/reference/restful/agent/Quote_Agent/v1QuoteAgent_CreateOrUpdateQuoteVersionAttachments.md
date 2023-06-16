@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CreateOrUpdateQuoteVersionAttachments
 uid: v1QuoteAgent_CreateOrUpdateQuoteVersionAttachments
+generated: true
 ---
 
 # POST Agents/Quote/CreateOrUpdateQuoteVersionAttachments
@@ -79,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 776
+  "QuoteVersionId": 929
 }
 ```
 
@@ -91,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 929,
-    "Included": true,
+    "DocumentId": 925,
+    "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldLength": 97
       }
     }
   },
   {
-    "DocumentId": 929,
-    "Included": true,
+    "DocumentId": 925,
+    "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldLength": 97
       }
     }
   }

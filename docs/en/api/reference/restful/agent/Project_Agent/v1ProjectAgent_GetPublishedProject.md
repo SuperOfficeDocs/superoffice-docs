@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetPublishedProject
 uid: v1ProjectAgent_GetPublishedProject
+generated: true
 ---
 
 # POST Agents/Project/GetPublishedProject
@@ -89,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 247
+  "ProjectId": 990
 }
 ```
 
@@ -104,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 852,
-  "Name": "Altenwerth LLC",
-  "Description": "Assimilated hybrid service-desk",
+  "ProjectId": 817,
+  "Name": "Strosin-Hintz",
+  "Description": "Secured static toolset",
   "URL": "http://www.example.com/",
-  "Type": "expedita",
-  "AssociateId": 347,
-  "AssociateFullName": "Dr. Soledad Armstrong",
-  "TypeId": 259,
-  "Updated": "2016-08-21T03:51:27.9590553+02:00",
-  "StatusId": 630,
-  "Status": "autem",
-  "TextId": 31,
-  "PublishTo": "2011-05-09T03:51:27.9590553+02:00",
-  "PublishFrom": "1998-10-13T03:51:27.9590553+02:00",
+  "Type": "eum",
+  "AssociateId": 628,
+  "AssociateFullName": "Annalise O'Connell III",
+  "TypeId": 934,
+  "Updated": "2010-07-13T16:00:41.5707037+02:00",
+  "StatusId": 710,
+  "Status": "quod",
+  "TextId": 504,
+  "PublishTo": "2010-09-15T16:00:41.5707037+02:00",
+  "PublishFrom": "2001-08-22T16:00:41.5707037+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1112115",
-  "ActiveErpLinks": 854,
+  "ProjectNumber": "1145225",
+  "ActiveErpLinks": 871,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 685
     }
   }
 }

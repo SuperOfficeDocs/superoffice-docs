@@ -1,6 +1,7 @@
 ---
 title: PATCH Relation/{id}
 uid: v1ContactRelationEntity_PatchContactRelationEntity
+generated: true
 ---
 
 # PATCH Relation/{id}
@@ -124,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "enim",
+    "path": "odio",
     "value": {}
   },
   {
     "op": "add",
-    "path": "enim",
+    "path": "odio",
     "value": {}
   }
 ]
@@ -148,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 473,
-  "SourcePersonId": 65,
-  "DestinationContactId": 196,
-  "DestinationPersonId": 914,
-  "RelationId": 980,
-  "Comment": "labore",
-  "RelationDefinitionId": 642,
-  "Reversed": 453,
-  "UpdatedDate": "2011-07-17T03:51:33.552243+02:00",
-  "CreatedDate": "2018-05-25T03:51:33.552243+02:00",
+  "SourceContactId": 675,
+  "SourcePersonId": 676,
+  "DestinationContactId": 338,
+  "DestinationPersonId": 3,
+  "RelationId": 697,
+  "Comment": "a",
+  "RelationDefinitionId": 611,
+  "Reversed": 871,
+  "UpdatedDate": "2020-07-14T16:00:47.83659+02:00",
+  "CreatedDate": "2014-10-30T16:00:47.83659+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Huels, Casper and Cartwright",
-  "SourcePersonName": "Strosin, Armstrong and McCullough",
-  "DestinationContactName": "Schimmel Inc and Sons",
-  "DestinationPersonName": "Shields Inc and Sons",
-  "ActiveText": "sed",
-  "PassiveText": "sunt",
+  "SourceContactName": "Barton-Olson",
+  "SourcePersonName": "McClure, Robel and Gleason",
+  "DestinationContactName": "McGlynn, Kuhlman and Thompson",
+  "DestinationPersonName": "Bosco Inc and Sons",
+  "ActiveText": "sint",
+  "PassiveText": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldLength": 190
     }
   },
   "_Links": {

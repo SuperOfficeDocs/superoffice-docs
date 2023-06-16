@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/CreateDefaultRoleEntityFromType
 uid: v1UserAgent_CreateDefaultRoleEntityFromType
+generated: true
 ---
 
 # POST Agents/User/CreateDefaultRoleEntityFromType
@@ -103,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 65,
-  "Name": "Gusikowski Inc and Sons",
-  "Tooltip": "et",
+  "RoleId": 938,
+  "Name": "Schuster-Kemmer",
+  "Tooltip": "iusto",
   "RoleType": "Anonymous",
-  "Deleted": 53,
-  "Rank": 646,
-  "Created": "2007-12-16T03:51:28.4901768+01:00",
-  "UseCategories": 353,
+  "Deleted": 148,
+  "Rank": 592,
+  "Created": "1997-07-13T16:00:42.3206172+02:00",
+  "UseCategories": 408,
   "CreatedBy": null,
-  "Updated": "2007-06-10T03:51:28.4901768+02:00",
+  "Updated": "2006-10-01T16:00:42.3206172+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -120,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 931
+      "FieldLength": 14
     }
   }
 }

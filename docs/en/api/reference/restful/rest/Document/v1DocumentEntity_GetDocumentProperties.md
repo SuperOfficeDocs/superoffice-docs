@@ -1,6 +1,7 @@
 ---
 title: GET Document/{id}/Property
 uid: v1DocumentEntity_GetDocumentProperties
+generated: true
 ---
 
 # GET Document/{id}/Property
@@ -65,7 +66,7 @@ OK
 GET /api/v1/Document/{documentId}/Property
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,7 +76,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "consequatur",
-  "2": "commodi"
+  "1": "excepturi",
+  "2": "ea"
 }
 ```

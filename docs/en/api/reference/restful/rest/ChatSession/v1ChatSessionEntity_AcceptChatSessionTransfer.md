@@ -1,6 +1,7 @@
 ---
 title: POST ChatSession/{id}/AcceptTransfer
 uid: v1ChatSessionEntity_AcceptChatSessionTransfer
+generated: true
 ---
 
 # POST ChatSession/{id}/AcceptTransfer
@@ -90,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 937,
-  "TopicId": 51,
+  "ChatSessionId": 88,
+  "TopicId": 426,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quam",
-  "CustomerHost": "necessitatibus",
-  "CustomerName": "Stoltenberg-Boyle",
-  "CustomerEmail": "magnolia@brown.ca",
-  "CustomerPhone": "(015)630-2446",
+  "CustomerAlias": "commodi",
+  "CustomerHost": "natus",
+  "CustomerName": "Howell-Waters",
+  "CustomerEmail": "lauren@faywaters.biz",
+  "CustomerPhone": "758.195.9695",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Thompson-Gleason",
+  "CustomerCompanyName": "Lynch-Stokes",
   "Status": "Closed",
-  "FirstMessage": "accusantium",
-  "LastMessage": "ipsam",
-  "WhenRequested": "2019-06-04T03:51:33.1773265+02:00",
-  "WhenStarted": "2012-09-20T03:51:33.1773265+02:00",
-  "WhenEnded": "2004-01-27T03:51:33.1773265+01:00",
-  "WhenIdle": "1997-05-05T03:51:33.1773265+02:00",
-  "WhenFetched": "2011-05-05T03:51:33.1773265+02:00",
-  "SessionKey": "quam",
-  "InitialQueuePos": 776,
-  "AlertLevel": 574,
-  "Rank": 558,
+  "FirstMessage": "ab",
+  "LastMessage": "quisquam",
+  "WhenRequested": "1998-02-15T16:00:47.6022395+01:00",
+  "WhenStarted": "1996-01-23T16:00:47.6022395+01:00",
+  "WhenEnded": "2006-07-15T16:00:47.6022395+02:00",
+  "WhenIdle": "2018-07-28T16:00:47.6022395+02:00",
+  "WhenFetched": "2015-10-02T16:00:47.6022395+02:00",
+  "SessionKey": "sunt",
+  "InitialQueuePos": 302,
+  "AlertLevel": 696,
+  "Rank": 4,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -130,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 946,
+  "Rating": 511,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldLength": 883
     }
   }
 }

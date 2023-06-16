@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/ToggleProductInAssortment
 uid: v1QuoteAgent_ToggleProductInAssortment
+generated: true
 ---
 
 # POST Agents/Quote/ToggleProductInAssortment
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/Quote/ToggleProductInAssortment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 251
+  "ProductId": 799
 }
 ```
 

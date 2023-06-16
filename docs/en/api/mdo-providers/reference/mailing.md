@@ -1,17 +1,11 @@
 ---
 uid: mailing
 title: mailing
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "mailing"
+keywords: mdoprovider mdo provider mailing
+description: All mailings - history ids
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "mailing" MDO List

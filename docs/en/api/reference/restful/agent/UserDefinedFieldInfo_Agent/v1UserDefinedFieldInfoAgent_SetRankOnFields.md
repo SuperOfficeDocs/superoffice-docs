@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/SetRankOnFields
 uid: v1UserDefinedFieldInfoAgent_SetRankOnFields
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/SetRankOnFields
@@ -64,14 +65,14 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SetRankOnFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
   "RankedFieldsIds": [
-    45,
-    85
+    723,
+    548
   ]
 }
 ```

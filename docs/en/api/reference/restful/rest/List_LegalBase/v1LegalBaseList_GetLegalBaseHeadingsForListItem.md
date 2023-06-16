@@ -1,6 +1,7 @@
 ---
 title: GET List/LegalBase/Items/{id}/Headings
 uid: v1LegalBaseList_GetLegalBaseHeadingsForListItem
+generated: true
 ---
 
 # GET List/LegalBase/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Hauck, Botsford and Grant",
-    "ToolTip": "Ullam blanditiis magnam est sit aut aut molestias.",
-    "Deleted": true,
-    "Rank": 500,
-    "Type": "nulla",
-    "ColorBlock": 999,
-    "IconHint": "incidunt",
-    "Selected": true,
-    "LastChanged": "2003-01-31T03:51:34.7083411+01:00",
+    "Id": 523,
+    "Name": "Witting-Jast",
+    "ToolTip": "Aperiam ut.",
+    "Deleted": false,
+    "Rank": 875,
+    "Type": "beatae",
+    "ColorBlock": 355,
+    "IconHint": "deleniti",
+    "Selected": false,
+    "LastChanged": "2009-06-03T16:00:49.0552074+02:00",
     "ChildItems": [
       {
-        "Id": 430,
-        "Name": "Mills-Nolan",
-        "ToolTip": "Facilis placeat laudantium autem.",
+        "Id": 653,
+        "Name": "Swaniawski-Wintheiser",
+        "ToolTip": "Saepe omnis mollitia.",
         "Deleted": false,
-        "Rank": 542,
-        "Type": "dolorem",
-        "ColorBlock": 772,
-        "IconHint": "ut",
+        "Rank": 277,
+        "Type": "saepe",
+        "ColorBlock": 962,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1999-12-09T03:51:34.7083411+01:00",
+        "LastChanged": "1997-04-15T16:00:49.0552074+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "corporis",
-        "Hidden": false,
-        "FullName": "Delilah Monahan",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Ardella Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 650
+            "FieldType": "System.Int32",
+            "FieldLength": 431
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "qui",
+    "ExtraInfo": "est",
+    "StyleHint": "culpa",
     "Hidden": true,
-    "FullName": "Mable Clifton Hagenes V",
+    "FullName": "Dr. Reese Adams DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldType": "System.String",
+        "FieldLength": 354
       }
     }
   }

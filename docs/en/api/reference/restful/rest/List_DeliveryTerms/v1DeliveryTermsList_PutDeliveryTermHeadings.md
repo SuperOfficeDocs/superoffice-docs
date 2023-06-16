@@ -1,6 +1,7 @@
 ---
 title: PUT List/DeliveryTerm/Headings
 uid: v1DeliveryTermsList_PutDeliveryTermHeadings
+generated: true
 ---
 
 # PUT List/DeliveryTerm/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 60,
-    "Name": "Balistreri LLC",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "Rank": 973,
-    "UdListDefinitionId": 610
+    "HeadingId": 488,
+    "Name": "Donnelly Inc and Sons",
+    "Tooltip": "dicta",
+    "Deleted": true,
+    "Rank": 132,
+    "UdListDefinitionId": 118
   },
   {
-    "HeadingId": 60,
-    "Name": "Balistreri LLC",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "Rank": 973,
-    "UdListDefinitionId": 610
+    "HeadingId": 488,
+    "Name": "Donnelly Inc and Sons",
+    "Tooltip": "dicta",
+    "Deleted": true,
+    "Rank": 132,
+    "UdListDefinitionId": 118
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 736,
-    "Name": "Rice, Bechtelar and Simonis",
-    "Tooltip": "aperiam",
-    "Deleted": true,
-    "Rank": 757,
-    "UdListDefinitionId": 387,
+    "HeadingId": 680,
+    "Name": "Parisian-O'Hara",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "Rank": 647,
+    "UdListDefinitionId": 223,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldLength": 737
       }
     }
   }

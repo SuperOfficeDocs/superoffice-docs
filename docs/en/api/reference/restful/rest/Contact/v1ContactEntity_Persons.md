@@ -1,6 +1,7 @@
 ---
 title: GET Contact/{id}/Persons
 uid: v1ContactEntity_Persons
+generated: true
 ---
 
 # GET Contact/{id}/Persons
@@ -73,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Persons?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Persons?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Persons?$orderBy=name asc
-GET /api/v1/Contact/{id}/Persons?$entities=nihil
-GET /api/v1/Contact/{id}/Persons?$top=50
-GET /api/v1/Contact/{id}/Persons?$skip=589
+GET /api/v1/Contact/{id}/Persons?$entities=quae
+GET /api/v1/Contact/{id}/Persons?$top=65
+GET /api/v1/Contact/{id}/Persons?$skip=753
 GET /api/v1/Contact/{id}/Persons?$mode=Full
 GET /api/v1/Contact/{id}/Persons?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Persons?$context=totam
+GET /api/v1/Contact/{id}/Persons?$context=consequuntur
 GET /api/v1/Contact/{id}/Persons?$format=JSON
 GET /api/v1/Contact/{id}/Persons?$jsonSafe=False
 GET /api/v1/Contact/{id}/Persons?$output=Display
@@ -122,7 +123,7 @@ OK
 GET /api/v1/Contact/{id}/Persons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "odio",
+  "odata.nextLink": "quia",
   "value": [
     {
-      "PrimaryKey": 9927,
+      "PrimaryKey": 6213,
       "EntityName": "sale",
-      "saleId": 9927,
-      "contactId": 99,
-      "name": "Eichmann-Deckow"
+      "saleId": 6213,
+      "contactId": 6756,
+      "name": "Klein, Schaden and Collier"
     },
     {
-      "PrimaryKey": 5693,
+      "PrimaryKey": 3759,
       "EntityName": "sale",
-      "saleId": 5693,
-      "contactId": 4225,
-      "name": "Jakubowski-Hintz"
+      "saleId": 3759,
+      "contactId": 9399,
+      "name": "Wilderman, Wolff and Blanda"
     }
   ]
 }

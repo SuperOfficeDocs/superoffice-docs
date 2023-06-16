@@ -1,6 +1,7 @@
 ---
 title: POST Dash
 uid: v1Dash_PostDash
+generated: true
 ---
 
 # POST Dash
@@ -103,30 +104,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 586,
-  "UniqueId": "deserunt",
-  "Name": "Nienow, Klocko and Harvey",
-  "Description": "Networked static utilisation",
-  "AssociateId": 81,
-  "Columns": 731,
+  "DashboardId": 910,
+  "UniqueId": "id",
+  "Name": "Anderson, Bergstrom and Hudson",
+  "Description": "Public-key encompassing moderator",
+  "AssociateId": 137,
+  "Columns": 489,
   "Theme": null,
-  "VisibleForAll": 222,
+  "VisibleForAll": 797,
   "VisibleForAssociates": [
-    161,
-    82
+    812,
+    574
   ],
   "VisibleForGroups": [
-    561,
-    274
+    759,
+    526
   ],
-  "PinForAll": 810,
+  "PinForAll": 767,
   "PinForAssociates": [
-    554,
-    635
+    686,
+    925
   ],
   "PinForGroups": [
-    457,
-    514
+    242,
+    833
   ]
 }
 ```
@@ -138,42 +139,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 608,
-  "UniqueId": "inventore",
-  "Name": "Senger, Eichmann and Bergstrom",
-  "Description": "Realigned motivating help-desk",
-  "AssociateId": 351,
-  "Columns": 852,
+  "DashboardId": 907,
+  "UniqueId": "quia",
+  "Name": "Macejkovic LLC",
+  "Description": "Innovative multimedia service-desk",
+  "AssociateId": 49,
+  "Columns": 167,
   "Theme": null,
-  "VisibleForAll": 793,
+  "VisibleForAll": 94,
   "VisibleForAssociates": [
-    895,
-    137
+    998,
+    595
   ],
   "VisibleForGroups": [
-    157,
-    854
+    275,
+    957
   ],
-  "PinForAll": 944,
+  "PinForAll": 576,
   "PinForAssociates": [
-    503,
-    269
+    452,
+    137
   ],
   "PinForGroups": [
-    997,
-    477
+    557,
+    184
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldType": "System.String",
+      "FieldLength": 986
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

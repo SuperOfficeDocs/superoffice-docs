@@ -1,6 +1,7 @@
 ---
 title: GET Relation
 uid: v1ContactRelationEntity_GetAll
+generated: true
 ---
 
 # GET Relation
@@ -69,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=recusandae
-GET /api/v1/Relation?$top=140
-GET /api/v1/Relation?$skip=196
+GET /api/v1/Relation?$entities=iusto
+GET /api/v1/Relation?$top=563
+GET /api/v1/Relation?$skip=698
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=saepe
+GET /api/v1/Relation?$context=optio
 GET /api/v1/Relation?$format=JSON
 GET /api/v1/Relation?$jsonSafe=True
 GET /api/v1/Relation?$output=Display
@@ -117,7 +118,7 @@ OK
 GET /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -128,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "doloremque",
+  "odata.nextLink": "ab",
   "value": [
     {
-      "PrimaryKey": 986,
+      "PrimaryKey": 4727,
       "EntityName": "sale",
-      "saleId": 986,
-      "contactId": 3026,
-      "name": "Armstrong Group"
+      "saleId": 4727,
+      "contactId": 2017,
+      "name": "Feeney Inc and Sons"
     },
     {
-      "PrimaryKey": 7726,
+      "PrimaryKey": 7983,
       "EntityName": "sale",
-      "saleId": 7726,
-      "contactId": 5104,
-      "name": "Nolan, Morissette and Upton"
+      "saleId": 7983,
+      "contactId": 4635,
+      "name": "Hauck, Bruen and Gaylord"
     }
   ]
 }

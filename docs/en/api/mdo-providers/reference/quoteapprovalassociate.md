@@ -1,17 +1,11 @@
 ---
 uid: quoteapprovalassociate
 title: quoteapprovalassociate
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "quoteapprovalassociate"
+keywords: mdoprovider mdo provider quoteapprovalassociate
+description: MDO provider for associates that are allowed to approve a quote.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "quoteapprovalassociate" MDO List

@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectType/Headings
 uid: v1ProjectTypeList_GetProjectTypeHeadings
+generated: true
 ---
 
 # GET List/ProjectType/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 310,
-    "Name": "Langosh LLC",
-    "Tooltip": "in",
+    "HeadingId": 293,
+    "Name": "Kohler, Greenfelder and Aufderhar",
+    "Tooltip": "magni",
     "Deleted": false,
-    "Rank": 252,
-    "UdListDefinitionId": 204,
+    "Rank": 665,
+    "UdListDefinitionId": 526,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldType": "System.Int32",
+        "FieldLength": 853
       }
     }
   }

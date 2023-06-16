@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetDefaultProjectImage
 uid: v1AudienceAgent_GetDefaultProjectImage
+generated: true
 ---
 
 # POST Agents/Audience/GetDefaultProjectImage
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/Audience/GetDefaultProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Olson-Frami"
+  "LayoutName": "Treutel-Sporer"
 }
 ```
 

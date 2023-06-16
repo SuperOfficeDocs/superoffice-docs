@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/CreateDefaultUserFromUserType
 uid: v1UserAgent_CreateDefaultUserFromUserType
+generated: true
 ---
 
 # POST Agents/User/CreateDefaultUserFromUserType
@@ -116,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 625,
-  "Name": "Jakubowski, Reilly and Cummings",
-  "Rank": 851,
-  "Tooltip": "esse",
+  "AssociateId": 881,
+  "Name": "Cummings, Grady and Mayer",
+  "Rank": 700,
+  "Tooltip": "eum",
   "LicenseOwners": [
     {
-      "Name": "Streich, Effertz and Maggio",
-      "Description": "Up-sized 24/7 policy",
+      "Name": "Rosenbaum LLC",
+      "Description": "Advanced uniform function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +137,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 118
+          "FieldType": "System.Int32",
+          "FieldLength": 26
         }
       }
     },
     {
-      "Name": "Streich, Effertz and Maggio",
-      "Description": "Up-sized 24/7 policy",
+      "Name": "Rosenbaum LLC",
+      "Description": "Advanced uniform function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +157,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 118
+          "FieldType": "System.Int32",
+          "FieldLength": 26
         }
       }
     }
@@ -166,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eligendi",
-      "Tooltip": "mollitia",
-      "Id": 988,
-      "Rank": 363,
-      "Deleted": false,
+      "Value": "est",
+      "Tooltip": "eum",
+      "Id": 187,
+      "Rank": 88,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldLength": 287
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2009-06-18T03:51:28.5370568+02:00",
-  "Lastlogout": "2014-08-20T03:51:28.5370568+02:00",
-  "EjUserId": 339,
-  "RequestSignature": "est",
+  "Deleted": false,
+  "Lastlogin": "2017-09-12T16:00:42.3674868+02:00",
+  "Lastlogout": "2018-03-27T16:00:42.3674868+02:00",
+  "EjUserId": 582,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "minima",
-      "DisplayValue": "ab",
+      "Value": "officia",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 330
+          "FieldLength": 892
         }
       }
     },
     {
       "Type": null,
-      "Value": "minima",
-      "DisplayValue": "ab",
+      "Value": "officia",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 330
+          "FieldLength": 892
         }
       }
     }
   ],
-  "UserName": "Schamberger Inc and Sons",
+  "UserName": "Batz-Lesch",
   "TicketCategories": [
     {
-      "Id": 446,
-      "Name": "Moen LLC",
-      "ToolTip": "Praesentium quaerat sunt tenetur.",
-      "Deleted": true,
-      "Rank": 149,
-      "Type": "quod",
+      "Id": 187,
+      "Name": "O'Connell Inc and Sons",
+      "ToolTip": "Tenetur blanditiis sed mollitia molestiae.",
+      "Deleted": false,
+      "Rank": 172,
+      "Type": "accusantium",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sit",
-      "ColorBlock": 15,
-      "ExtraInfo": "voluptatum",
-      "StyleHint": "velit",
-      "FullName": "Linnea Pagac",
+      "IconHint": "velit",
+      "ColorBlock": 464,
+      "ExtraInfo": "fuga",
+      "StyleHint": "optio",
+      "FullName": "Daisha Rowe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldLength": 161
         }
       }
     }
   ],
-  "NickName": "Berge Inc and Sons",
+  "NickName": "Stehr, Schaefer and Friesen",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "et"
+    "ExtraFields1": "est",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "quod",
-    "CustomFields2": "tempore"
+    "CustomFields1": "minima",
+    "CustomFields2": "quod"
   },
   "PostSaveCommands": [
     {
-      "Name": "Murray, Hilpert and Deckow",
-      "DisplayName": "Dickens LLC",
-      "Description": "Synchronised bifurcated data-warehouse",
-      "ToolTip": "Iste expedita.",
+      "Name": "Herzog, Kessler and Mann",
+      "DisplayName": "Skiles-Skiles",
+      "Description": "Synchronised solution-oriented ability",
+      "ToolTip": "Quo qui et voluptas vel.",
       "Actions": "Implicit",
-      "ActionData": "aut",
+      "ActionData": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 145
+          "FieldType": "System.Int32",
+          "FieldLength": 94
         }
       }
     }
@@ -279,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 908
     }
   }
 }

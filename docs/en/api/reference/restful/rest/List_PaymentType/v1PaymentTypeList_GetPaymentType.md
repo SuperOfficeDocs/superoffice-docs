@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentType/Items/{id}
 uid: v1PaymentTypeList_GetPaymentType
+generated: true
 ---
 
 # GET List/PaymentType/Items/{id}
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
-  "Name": "Collier, Kub and Thompson",
-  "Tooltip": "dolor",
+  "Id": 498,
+  "Name": "Shields, Langworth and Blick",
+  "Tooltip": "unde",
   "Deleted": false,
-  "UdListDefinitionId": 927,
-  "Rank": 865,
+  "UdListDefinitionId": 647,
+  "Rank": 637,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldType": "System.String",
+      "FieldLength": 897
     }
   }
 }

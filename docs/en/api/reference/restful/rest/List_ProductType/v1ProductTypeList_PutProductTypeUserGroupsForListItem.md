@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductType/Items/{id}/UserGroups
 uid: v1ProductTypeList_PutProductTypeUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/ProductType/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Stoltenberg-McClure",
-    "ToolTip": "Error perspiciatis id.",
-    "Deleted": true,
-    "Rank": 966,
-    "Type": "ratione",
-    "ColorBlock": 529,
-    "IconHint": "porro",
-    "Selected": true,
-    "LastChanged": "1996-06-10T03:51:34.8176965+02:00",
+    "Id": 559,
+    "Name": "Jast LLC",
+    "ToolTip": "Incidunt voluptates cupiditate et.",
+    "Deleted": false,
+    "Rank": 766,
+    "Type": "qui",
+    "ColorBlock": 592,
+    "IconHint": "itaque",
+    "Selected": false,
+    "LastChanged": "2009-07-23T16:00:49.1801938+02:00",
     "ChildItems": [
       {
-        "Id": 438,
-        "Name": "Little Group",
-        "ToolTip": "Adipisci dolores explicabo amet molestias ut possimus esse.",
-        "Deleted": true,
-        "Rank": 172,
-        "Type": "tempore",
-        "ColorBlock": 55,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2007-09-14T03:51:34.8176965+02:00",
+        "Id": 679,
+        "Name": "Kris-Barton",
+        "ToolTip": "Ea eos aut nihil laboriosam.",
+        "Deleted": false,
+        "Rank": 891,
+        "Type": "omnis",
+        "ColorBlock": 407,
+        "IconHint": "nihil",
+        "Selected": false,
+        "LastChanged": "2015-12-17T16:00:49.1801938+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "eaque",
+        "StyleHint": "alias",
         "Hidden": false,
-        "FullName": "Sallie Ebert"
+        "FullName": "Sherwood Schinner"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "ut",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "facere",
     "Hidden": true,
-    "FullName": "Tyrese Schmidt"
+    "FullName": "Rosa Koepp"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 414,
-    "Name": "Eichmann-Roob",
-    "ToolTip": "Dignissimos sunt accusantium odio quis exercitationem.",
+    "Id": 153,
+    "Name": "Gleason Group",
+    "ToolTip": "Reprehenderit quas dolores reprehenderit cumque.",
     "Deleted": true,
-    "Rank": 577,
-    "Type": "sed",
-    "ColorBlock": 670,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "1998-07-06T03:51:34.8176965+02:00",
+    "Rank": 44,
+    "Type": "nihil",
+    "ColorBlock": 805,
+    "IconHint": "dicta",
+    "Selected": true,
+    "LastChanged": "2003-06-27T16:00:49.1801938+02:00",
     "ChildItems": [
       {
-        "Id": 645,
-        "Name": "Kihn-Dickinson",
-        "ToolTip": "Enim asperiores quisquam.",
+        "Id": 835,
+        "Name": "Casper, Larkin and Kirlin",
+        "ToolTip": "Rerum natus ex impedit ut placeat accusantium.",
         "Deleted": false,
-        "Rank": 707,
-        "Type": "eos",
-        "ColorBlock": 536,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2016-04-06T03:51:34.8176965+02:00",
+        "Rank": 518,
+        "Type": "minus",
+        "ColorBlock": 218,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "1998-07-30T16:00:49.1801938+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "non",
+        "ExtraInfo": "aut",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Dr. Elnora Welch",
+        "FullName": "Kaela Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 840
+            "FieldType": "System.String",
+            "FieldLength": 715
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "iure",
+    "ExtraInfo": "ea",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Conrad Quigley",
+    "FullName": "Shayne Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 729
+        "FieldType": "System.Int32",
+        "FieldLength": 863
       }
     }
   }

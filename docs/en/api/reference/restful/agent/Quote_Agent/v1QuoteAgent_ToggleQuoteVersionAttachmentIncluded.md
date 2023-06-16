@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/ToggleQuoteVersionAttachmentIncluded
 uid: v1QuoteAgent_ToggleQuoteVersionAttachmentIncluded
+generated: true
 ---
 
 # POST Agents/Quote/ToggleQuoteVersionAttachmentIncluded
@@ -71,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionAttachmentId": 48
+  "QuoteVersionAttachmentId": 174
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

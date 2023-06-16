@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetUnsanitizedEMailFromDocumentId
 uid: v1EMailAgent_GetUnsanitizedEMailFromDocumentId
+generated: true
 ---
 
 # POST Agents/EMail/GetUnsanitizedEMailFromDocumentId
@@ -102,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 791
+  "DocumentId": 471
 }
 ```
 
@@ -119,155 +120,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 950,
-      "ContactName": "Cummerata Inc and Sons",
-      "PersonId": 185,
-      "PersonName": "Stoltenberg, Padberg and Labadie",
-      "AssociateId": 488,
-      "Address": "fugit",
-      "EmailId": 424,
+      "ContactId": 945,
+      "ContactName": "Fisher Group",
+      "PersonId": 660,
+      "PersonName": "Towne-Hegmann",
+      "AssociateId": 963,
+      "Address": "repellat",
+      "EmailId": 194,
       "DuplicatePersonIds": [
-        31,
-        702
+        953,
+        145
       ],
-      "Name": "Hegmann-Nitzsche",
+      "Name": "Nolan, Wyman and Nader",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 1000
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 354,
-      "ContactName": "Durgan, Conroy and Walker",
-      "PersonId": 965,
-      "PersonName": "Farrell Inc and Sons",
-      "AssociateId": 560,
+      "ContactId": 171,
+      "ContactName": "Abshire-Swaniawski",
+      "PersonId": 303,
+      "PersonName": "Gulgowski-Fritsch",
+      "AssociateId": 829,
       "Address": "et",
-      "EmailId": 920,
+      "EmailId": 543,
       "DuplicatePersonIds": [
-        903,
-        185
+        878,
+        906
       ],
-      "Name": "Roberts Inc and Sons",
+      "Name": "Gerhold Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 953
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 369,
-      "ContactName": "Jaskolski LLC",
-      "PersonId": 918,
-      "PersonName": "Spinka-Willms",
-      "AssociateId": 386,
-      "Address": "et",
-      "EmailId": 396,
+      "ContactId": 719,
+      "ContactName": "Rice Inc and Sons",
+      "PersonId": 763,
+      "PersonName": "Wyman Inc and Sons",
+      "AssociateId": 826,
+      "Address": "eos",
+      "EmailId": 765,
       "DuplicatePersonIds": [
-        740,
-        889
+        697,
+        919
       ],
-      "Name": "Mann LLC",
+      "Name": "Franecki-Volkman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 730
+          "FieldType": "System.Int32",
+          "FieldLength": 369
         }
       }
     }
   ],
-  "Subject": "molestias",
-  "HTMLBody": "pariatur",
+  "Subject": "nemo",
+  "HTMLBody": "distinctio",
   "From": null,
-  "Sent": "2001-05-14T03:51:27.2404741+02:00",
-  "Size": 839,
+  "Sent": "1999-05-19T16:00:40.9456053+02:00",
+  "Size": 435,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolorum",
-  "PlainBody": "laboriosam",
+  "MessageID": "molestiae",
+  "PlainBody": "similique",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 219,
+  "ServerId": 863,
   "Attachments": [
     {
-      "Description": "Centralized motivating challenge",
-      "Filename": "quia",
-      "Size": 616,
-      "Type": "et",
-      "Encoding": "aut",
-      "Id": "natus",
-      "Disposition": "quia",
+      "Description": "Assimilated client-driven internet solution",
+      "Filename": "maiores",
+      "Size": 606,
+      "Type": "deserunt",
+      "Encoding": "et",
+      "Id": "reiciendis",
+      "Disposition": "quaerat",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 775
+          "FieldLength": 933
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jacobs Group",
+      "Name": "Vandervort-Williamson",
       "Values": [
-        "tempora",
-        "repellat"
+        "voluptatem",
+        "magnam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 458
+          "FieldType": "System.Int32",
+          "FieldLength": 291
         }
       }
     },
     {
-      "Name": "Jacobs Group",
+      "Name": "Vandervort-Williamson",
       "Values": [
-        "tempora",
-        "repellat"
+        "voluptatem",
+        "magnam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 458
+          "FieldType": "System.Int32",
+          "FieldLength": 291
         }
       }
     }
   ],
-  "FolderName": "Gleichner-Paucek",
-  "EmailItemId": 457,
-  "AccountId": 834,
-  "ReceivedAt": "2006-12-17T03:51:27.2404741+01:00",
+  "FolderName": "Hodkiewicz-Bednar",
+  "EmailItemId": 307,
+  "AccountId": 796,
+  "ReceivedAt": "2015-09-29T16:00:40.9456053+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-07-30T03:51:27.2404741+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1996-12-24T16:00:40.9456053+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldType": "System.String",
+      "FieldLength": 173
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 uid: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifier
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
@@ -81,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Stiedemann Inc and Sons",
-  "DeviceName": "Zboncak, Stark and Weimann",
-  "DeviceIdentifier": "laboriosam"
+  "ApplicationName": "Keeling Group",
+  "DeviceName": "Rice Group",
+  "DeviceIdentifier": "qui"
 }
 ```
 
@@ -100,19 +101,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Key": "eum",
-    "Value": "sit",
-    "RecordId": 360,
-    "CreatedDate": "1999-10-20T03:51:27.3498217+02:00",
-    "UpdatedDate": "2009-03-01T03:51:27.3498217+01:00",
-    "UpdatedBy": "officiis",
-    "CreatedBy": "minus",
-    "TableName": "Krajcik-Wiza",
+    "Value": "eos",
+    "RecordId": 263,
+    "CreatedDate": "2008-01-01T16:00:41.0705907+01:00",
+    "UpdatedDate": "2007-11-07T16:00:41.0705907+01:00",
+    "UpdatedBy": "quo",
+    "CreatedBy": "et",
+    "TableName": "Jacobs-Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldType": "System.String",
+        "FieldLength": 485
       }
     }
   }

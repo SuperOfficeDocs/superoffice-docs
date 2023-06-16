@@ -1,6 +1,7 @@
 ---
 title: PUT List/Reason/Headings
 uid: v1ReasonList_PutReasonHeadings
+generated: true
 ---
 
 # PUT List/Reason/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 964,
-    "Name": "Kerluke, Schulist and Conn",
-    "Tooltip": "nulla",
-    "Deleted": false,
-    "Rank": 212,
-    "UdListDefinitionId": 534
+    "HeadingId": 805,
+    "Name": "Reinger-Simonis",
+    "Tooltip": "aliquam",
+    "Deleted": true,
+    "Rank": 817,
+    "UdListDefinitionId": 223
   },
   {
-    "HeadingId": 964,
-    "Name": "Kerluke, Schulist and Conn",
-    "Tooltip": "nulla",
-    "Deleted": false,
-    "Rank": 212,
-    "UdListDefinitionId": 534
+    "HeadingId": 805,
+    "Name": "Reinger-Simonis",
+    "Tooltip": "aliquam",
+    "Deleted": true,
+    "Rank": 817,
+    "UdListDefinitionId": 223
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 15,
-    "Name": "Ward-Schmitt",
-    "Tooltip": "accusamus",
-    "Deleted": false,
-    "Rank": 502,
-    "UdListDefinitionId": 759,
+    "HeadingId": 124,
+    "Name": "Marvin, McCullough and Goldner",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "Rank": 915,
+    "UdListDefinitionId": 714,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldType": "System.String",
+        "FieldLength": 454
       }
     }
   }

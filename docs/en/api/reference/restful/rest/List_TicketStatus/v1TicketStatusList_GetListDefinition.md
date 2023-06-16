@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketStatus
 uid: v1TicketStatusList_GetListDefinition
+generated: true
 ---
 
 # GET List/TicketStatus
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 435,
-  "Name": "Schaefer, Cronin and Hoeger",
-  "Tooltip": "consectetur",
+  "Id": 457,
+  "Name": "Reichel, Weissnat and Hammes",
+  "Tooltip": "amet",
   "Deleted": true,
-  "Rank": 995,
+  "Rank": 163,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "minus",
-  "InUseByUserDefinedFields": true,
+  "ListType": "cupiditate",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 312
+      "FieldLength": 333
     }
   },
   "_Links": {

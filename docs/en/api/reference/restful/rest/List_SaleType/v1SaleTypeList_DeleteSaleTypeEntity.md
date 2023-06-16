@@ -1,6 +1,7 @@
 ---
 title: DEL List/SaleType/Items/{id}
 uid: v1SaleTypeList_DeleteSaleTypeEntity
+generated: true
 ---
 
 # DEL List/SaleType/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

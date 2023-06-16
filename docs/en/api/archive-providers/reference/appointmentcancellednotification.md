@@ -2,17 +2,10 @@
 uid: AppointmentCancelledNotification
 title: AppointmentCancelledNotification
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "AppointmentCancelledNotification"
+keywords: AppointmentCancelledNotification archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "AppointmentCancelledNotification"

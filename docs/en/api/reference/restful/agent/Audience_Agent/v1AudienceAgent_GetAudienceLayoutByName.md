@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetAudienceLayoutByName
 uid: v1AudienceAgent_GetAudienceLayoutByName
+generated: true
 ---
 
 # POST Agents/Audience/GetAudienceLayoutByName
@@ -82,7 +83,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Brekke, Jacobson and Goyette"
+  "LayoutName": "Crist, Oberbrunner and Brakus"
 }
 ```
 
@@ -93,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 398,
-  "InstanceLayout": "est",
-  "InstanceName": "Grimes, Larkin and Wiegand",
-  "CreatedDate": "2021-07-31T03:51:26.5999985+02:00",
-  "UpdatedDate": "2009-09-25T03:51:26.5999985+02:00",
+  "AudienceLayoutId": 258,
+  "InstanceLayout": "adipisci",
+  "InstanceName": "Kemmer, Kulas and Miller",
+  "CreatedDate": "2017-05-14T16:00:40.1019505+02:00",
+  "UpdatedDate": "1996-06-06T16:00:40.1019505+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -105,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 925
     }
   }
 }

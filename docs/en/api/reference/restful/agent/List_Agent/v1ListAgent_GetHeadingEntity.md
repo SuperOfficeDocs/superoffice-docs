@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetHeadingEntity
 uid: v1ListAgent_GetHeadingEntity
+generated: true
 ---
 
 # POST Agents/List/GetHeadingEntity
@@ -25,7 +26,7 @@ Gets a HeadingEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=165
+POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=107
 POST /api/v1/Agents/List/GetHeadingEntity?$select=name,department,category/id
 ```
 
@@ -81,18 +82,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 650,
-  "Name": "Huels, Crona and Romaguera",
-  "Tooltip": "vitae",
+  "HeadingId": 427,
+  "Name": "Abernathy-Hyatt",
+  "Tooltip": "velit",
   "Deleted": true,
-  "Rank": 364,
-  "UdListDefinitionId": 359,
+  "Rank": 931,
+  "UdListDefinitionId": 928,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldLength": 720
     }
   }
 }

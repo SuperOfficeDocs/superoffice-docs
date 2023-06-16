@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentType/Items/Default
 uid: v1PaymentTypeList_CreateDefaultPaymentType
+generated: true
 ---
 
 # GET List/PaymentType/Items/Default
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 363,
-  "Name": "King-Weissnat",
-  "Tooltip": "ullam",
+  "Id": 749,
+  "Name": "Dickinson Group",
+  "Tooltip": "eum",
   "Deleted": false,
-  "UdListDefinitionId": 646,
-  "Rank": 839,
+  "UdListDefinitionId": 256,
+  "Rank": 297,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldType": "System.String",
+      "FieldLength": 46
     }
   }
 }

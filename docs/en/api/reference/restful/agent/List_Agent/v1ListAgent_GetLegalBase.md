@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetLegalBase
 uid: v1ListAgent_GetLegalBase
+generated: true
 ---
 
 # POST Agents/List/GetLegalBase
@@ -25,7 +26,7 @@ Gets a LegalBase object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLegalBase?legalBaseId=503
+POST /api/v1/Agents/List/GetLegalBase?legalBaseId=807
 POST /api/v1/Agents/List/GetLegalBase?$select=name,department,category/id
 ```
 
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 493,
-  "Name": "Schneider Inc and Sons",
-  "Tooltip": "iusto",
-  "Rank": 205,
-  "Key": "unde",
+  "LegalBaseId": 124,
+  "Name": "Gerhold LLC",
+  "Tooltip": "id",
+  "Rank": 672,
+  "Key": "molestias",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldLength": 54
     }
   }
 }

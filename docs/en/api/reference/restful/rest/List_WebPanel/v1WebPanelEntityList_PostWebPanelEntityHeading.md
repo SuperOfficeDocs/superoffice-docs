@@ -1,6 +1,7 @@
 ---
 title: POST List/WebPanel/Headings
 uid: v1WebPanelEntityList_PostWebPanelEntityHeading
+generated: true
 ---
 
 # POST List/WebPanel/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 590,
-  "Name": "Ward Group",
-  "Tooltip": "consectetur",
+  "HeadingId": 872,
+  "Name": "Wiza-Luettgen",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 274,
-  "UdListDefinitionId": 268
+  "Rank": 761,
+  "UdListDefinitionId": 741
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 348,
-  "Name": "Bahringer-Wolff",
-  "Tooltip": "quas",
+  "HeadingId": 253,
+  "Name": "Stamm, Ortiz and Wiza",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 253,
-  "UdListDefinitionId": 943,
+  "Rank": 473,
+  "UdListDefinitionId": 724,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

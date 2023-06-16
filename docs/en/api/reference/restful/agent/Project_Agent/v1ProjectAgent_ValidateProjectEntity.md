@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/ValidateProjectEntity
 uid: v1ProjectAgent_ValidateProjectEntity
+generated: true
 ---
 
 # POST Agents/Project/ValidateProjectEntity
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/Project/ValidateProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -82,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nobis",
-  "2": "earum"
+  "1": "non",
+  "2": "deleniti"
 }
 ```

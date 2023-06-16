@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetListItemsForHeadingFromListName
 uid: v1ListAgent_SetListItemsForHeadingFromListName
+generated: true
 ---
 
 # POST Agents/List/SetListItemsForHeadingFromListName
@@ -66,15 +67,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ferry, Kuphal and Von",
-  "HeadingId": 485,
+  "UdListDefinitionName": "Heller, Jast and Kuhlman",
+  "HeadingId": 814,
   "ListItemIds": [
-    520,
-    635
+    543,
+    906
   ],
   "Enable": false
 }

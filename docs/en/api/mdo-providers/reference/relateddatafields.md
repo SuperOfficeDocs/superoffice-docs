@@ -1,17 +1,11 @@
 ---
 uid: relateddatafields
 title: relateddatafields
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "relateddatafields"
+keywords: mdoprovider mdo provider relateddatafields
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "relateddatafields" MDO List

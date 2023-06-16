@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/Merge
 uid: v1ProjectAgent_Merge
+generated: true
 ---
 
 # POST Agents/Project/Merge
@@ -69,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceProjectId": 449,
-  "DestinationProjectId": 608,
+  "SourceProjectId": 383,
+  "DestinationProjectId": 830,
   "ReplaceEmptyFieldsOnDestination": false
 }
 ```

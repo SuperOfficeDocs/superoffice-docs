@@ -1,17 +1,11 @@
 ---
 uid: mergedocument
 title: mergedocument
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "mergedocument"
+keywords: mdoprovider mdo provider mergedocument
+description: MDO list provider for documents marked as type <see cref="F:SuperOffice.Data.TaskType.MailMergeDraft" />.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "mergedocument" MDO List

@@ -1,6 +1,7 @@
 ---
 title: GET List/Priority/Items/{id}/UserGroups
 uid: v1PriorityList_GetPriorityUserGroupsForListItem
+generated: true
 ---
 
 # GET List/Priority/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 800,
-    "Name": "Turcotte, Cummings and Haag",
-    "ToolTip": "Quia similique dicta tempora praesentium et.",
+    "Id": 218,
+    "Name": "Wiegand LLC",
+    "ToolTip": "Exercitationem aut laudantium veniam cupiditate laudantium in quo.",
     "Deleted": false,
-    "Rank": 836,
-    "Type": "rem",
-    "ColorBlock": 677,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2009-07-15T03:51:34.7864536+02:00",
+    "Rank": 527,
+    "Type": "maxime",
+    "ColorBlock": 869,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "2007-12-31T16:00:49.133322+01:00",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "Friesen-Larson",
-        "ToolTip": "Quisquam omnis excepturi et ipsa veritatis.",
+        "Id": 219,
+        "Name": "Marvin, Sipes and Streich",
+        "ToolTip": "Aspernatur accusantium assumenda fugit.",
         "Deleted": false,
-        "Rank": 235,
-        "Type": "exercitationem",
-        "ColorBlock": 629,
+        "Rank": 942,
+        "Type": "omnis",
+        "ColorBlock": 717,
         "IconHint": "voluptates",
-        "Selected": true,
-        "LastChanged": "2001-04-20T03:51:34.7864536+02:00",
+        "Selected": false,
+        "LastChanged": "1996-10-24T16:00:49.133322+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "ex",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "ab",
         "Hidden": true,
-        "FullName": "Vinnie Kemmer",
+        "FullName": "Sibyl Kovacek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 313
+            "FieldLength": 209
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "officiis",
+    "ExtraInfo": "et",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Consuelo Hilpert V",
+    "FullName": "Cyrus Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 113
+        "FieldType": "System.Int32",
+        "FieldLength": 787
       }
     }
   }

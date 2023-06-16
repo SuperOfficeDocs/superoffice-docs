@@ -1,6 +1,7 @@
 ---
 title: GET ChatSession/{id}
 uid: v1ChatSessionEntity_GetChatSessionEntity
+generated: true
 ---
 
 # GET ChatSession/{id}
@@ -102,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -112,29 +113,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 503,
-  "TopicId": 646,
+  "ChatSessionId": 169,
+  "TopicId": 679,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aperiam",
-  "CustomerHost": "esse",
-  "CustomerName": "Ortiz Group",
-  "CustomerEmail": "florence@hintz.us",
-  "CustomerPhone": "211.113.9207 x584",
+  "CustomerAlias": "nesciunt",
+  "CustomerHost": "ex",
+  "CustomerName": "Fisher Group",
+  "CustomerEmail": "jeanette@kohlerstokes.com",
+  "CustomerPhone": "371-029-3195",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Gutmann Group",
+  "CustomerCompanyName": "Paucek Group",
   "Status": "Closed",
-  "FirstMessage": "ea",
-  "LastMessage": "repellat",
-  "WhenRequested": "1998-08-28T03:51:33.1304604+02:00",
-  "WhenStarted": "2013-02-26T03:51:33.1304604+01:00",
-  "WhenEnded": "2022-11-28T03:51:33.1304604+01:00",
-  "WhenIdle": "2002-09-25T03:51:33.1304604+02:00",
-  "WhenFetched": "2015-06-14T03:51:33.1304604+02:00",
-  "SessionKey": "autem",
-  "InitialQueuePos": 764,
-  "AlertLevel": 974,
-  "Rank": 407,
+  "FirstMessage": "totam",
+  "LastMessage": "illo",
+  "WhenRequested": "2012-06-09T16:00:47.5397493+02:00",
+  "WhenStarted": "2020-04-11T16:00:47.5397493+02:00",
+  "WhenEnded": "2020-12-27T16:00:47.5397493+01:00",
+  "WhenIdle": "1999-07-30T16:00:47.5397493+02:00",
+  "WhenFetched": "2007-12-12T16:00:47.5397493+01:00",
+  "SessionKey": "vel",
+  "InitialQueuePos": 954,
+  "AlertLevel": 930,
+  "Rank": 620,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -142,13 +143,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 574,
+  "Rating": 901,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 583
     }
   },
   "_Links": {

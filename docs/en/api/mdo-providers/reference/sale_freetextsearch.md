@@ -1,17 +1,15 @@
 ---
 uid: sale_freetextsearch
 title: sale_freetextsearch
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "sale_freetextsearch"
+keywords: mdoprovider mdo provider sale_freetextsearch
+description: Provider for selecting a Sale.
+Does keyword matching and scoring across multiple
+string fields. Checks name, description, soundex fields as well as contact, person and project tables linked to sale.
+Supports cross-table matching: "Guttorm Teacup" will find sales from person "Guttorm" with title containing "Teacup",
+as well as from person "Guttorm" in project "Teacup".
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "sale_freetextsearch" MDO List

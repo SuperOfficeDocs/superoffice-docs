@@ -1,6 +1,7 @@
 ---
 title: POST List/Currency/Items
 uid: v1CurrencyList_PostCurrencyEntity
+generated: true
 ---
 
 # POST List/Currency/Items
@@ -76,16 +77,16 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 115,
-  "Name": "Paucek LLC",
-  "Tooltip": "dolores",
-  "Rank": 785,
-  "Rate": 24040.914,
-  "Units": 22928.344,
+  "CurrencyId": 704,
+  "Name": "Kihn-Hauck",
+  "Tooltip": "itaque",
+  "Rank": 3,
+  "Rate": 9847.028,
+  "Units": 16691.684,
   "Deleted": false
 }
 ```
@@ -97,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 948,
-  "Name": "Kuvalis-Harvey",
-  "Tooltip": "quod",
-  "Rank": 455,
-  "Rate": 6562.596,
-  "Units": 228.78199999999998,
+  "CurrencyId": 162,
+  "Name": "O'Hara-Mayert",
+  "Tooltip": "tempora",
+  "Rank": 700,
+  "Rate": 12774.184,
+  "Units": 20693.802,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 103
     }
   }
 }

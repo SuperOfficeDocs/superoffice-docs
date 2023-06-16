@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/GetRecipientStatistics
 uid: v1SelectionAgent_GetRecipientStatistics
+generated: true
 ---
 
 # POST Agents/Selection/GetRecipientStatistics
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Selection/GetRecipientStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 719
+  "SelectionId": 950
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 144,
-  "ValidPostalAddresses": 126,
-  "ValidEmailAddresses": 90,
-  "ValidFaxNumbers": 719,
-  "NoAddresses": 764,
-  "NoFaxOrEmails": 671,
+  "Total": 506,
+  "ValidPostalAddresses": 906,
+  "ValidEmailAddresses": 119,
+  "ValidFaxNumbers": 286,
+  "NoAddresses": 199,
+  "NoFaxOrEmails": 212,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 766
+      "FieldLength": 318
     }
   }
 }

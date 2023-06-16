@@ -1,6 +1,7 @@
 ---
 title: POST List/TicketStatus/Items
 uid: v1TicketStatusList_PostTicketStatusEntity
+generated: true
 ---
 
 # POST List/TicketStatus/Items
@@ -76,15 +77,15 @@ OK
 POST /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 236,
-  "Name": "Gulgowski LLC",
+  "TicketStatusId": 636,
+  "Name": "Koepp, Swift and Dach",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": true,
   "UsedInQueue": false
 }
@@ -97,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 642,
-  "Name": "Rath, Herman and Krajcik",
+  "TicketStatusId": 255,
+  "Name": "Senger-Gottlieb",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": false,
+  "IsDefault": false,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 741
     }
   }
 }

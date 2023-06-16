@@ -1,6 +1,7 @@
 ---
 title: POST BatchTask/{id}/Stop
 uid: v1Batch_StopBatchJob
+generated: true
 ---
 
 # POST BatchTask/{id}/Stop
@@ -63,5 +64,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

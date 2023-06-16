@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/ConnectActor
 uid: v1ErpSyncAgent_ConnectActor
+generated: true
 ---
 
 # POST Agents/ErpSync/ConnectActor
@@ -70,30 +71,30 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 150,
-  "CrmRecordId": 19,
+  "ErpConnectionId": 874,
+  "CrmRecordId": 648,
   "CrmActorType": "Contact",
-  "ErpKey": "facere",
+  "ErpKey": "voluptate",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Hahn-Schroeder",
-      "CrmFieldKey": "blanditiis",
-      "Value": "vel",
-      "DisplayValue": "suscipit",
-      "SyncToCrm": true,
+      "DisplayName": "Pouros-Runolfsdottir",
+      "CrmFieldKey": "qui",
+      "Value": "earum",
+      "DisplayValue": "fuga",
+      "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Hahn-Schroeder",
-      "CrmFieldKey": "blanditiis",
-      "Value": "vel",
-      "DisplayValue": "suscipit",
-      "SyncToCrm": true,
+      "DisplayName": "Pouros-Runolfsdottir",
+      "CrmFieldKey": "qui",
+      "Value": "earum",
+      "DisplayValue": "fuga",
+      "SyncToCrm": false,
       "SyncToErp": false
     }
   ]

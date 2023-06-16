@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CreateDefaultRecurrence
 uid: v1AppointmentAgent_CreateDefaultRecurrence
+generated: true
 ---
 
 # POST Agents/Appointment/CreateDefaultRecurrence
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 609,
-  "StartDate": "2016-03-12T03:51:26.2563301+01:00",
-  "EndDate": "2002-07-27T03:51:26.2563301+02:00",
-  "RecurrenceCounter": 26,
+  "RecurrenceId": 138,
+  "StartDate": "1997-01-18T16:00:39.8832222+01:00",
+  "EndDate": "2009-02-12T16:00:39.8832222+01:00",
+  "RecurrenceCounter": 235,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -95,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2017-12-21T03:51:26.2563301+01:00",
-      "IsConflict": false,
-      "Description": "Horizontal mobile leverage",
-      "DescriptionStyleHint": "Profit-focused regional focus group",
-      "Tooltip": "ut"
+      "Date": "2009-05-11T16:00:39.8832222+02:00",
+      "IsConflict": true,
+      "Description": "Enterprise-wide fault-tolerant monitoring",
+      "DescriptionStyleHint": "Universal didactic process improvement",
+      "Tooltip": "qui"
     },
     {
-      "Date": "2017-12-21T03:51:26.2563301+01:00",
-      "IsConflict": false,
-      "Description": "Horizontal mobile leverage",
-      "DescriptionStyleHint": "Profit-focused regional focus group",
-      "Tooltip": "ut"
+      "Date": "2009-05-11T16:00:39.8832222+02:00",
+      "IsConflict": true,
+      "Description": "Enterprise-wide fault-tolerant monitoring",
+      "DescriptionStyleHint": "Universal didactic process improvement",
+      "Tooltip": "qui"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

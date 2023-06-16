@@ -1,5 +1,6 @@
 ---
 title: List_ProjectType
+generated: true
 ---
 
 ```http

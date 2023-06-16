@@ -1,6 +1,7 @@
 ---
 title: GET List/Reason/Items/{id}/UserGroups
 uid: v1ReasonList_GetReasonUserGroupsForListItem
+generated: true
 ---
 
 # GET List/Reason/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 474,
-    "Name": "Nolan-Fadel",
-    "ToolTip": "Laudantium quam praesentium.",
+    "Id": 160,
+    "Name": "Wuckert-Dach",
+    "ToolTip": "Doloribus dolor aut aut debitis.",
     "Deleted": false,
-    "Rank": 982,
-    "Type": "ipsum",
-    "ColorBlock": 312,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2008-08-10T03:51:34.8957999+02:00",
+    "Rank": 664,
+    "Type": "dolor",
+    "ColorBlock": 961,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "2023-01-14T16:00:49.2739351+01:00",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Kautzer LLC",
-        "ToolTip": "Sunt repudiandae totam exercitationem explicabo.",
-        "Deleted": false,
-        "Rank": 682,
-        "Type": "rerum",
-        "ColorBlock": 585,
-        "IconHint": "architecto",
+        "Id": 809,
+        "Name": "Runolfsdottir Inc and Sons",
+        "ToolTip": "Asperiores eligendi velit odit sed.",
+        "Deleted": true,
+        "Rank": 271,
+        "Type": "consectetur",
+        "ColorBlock": 764,
+        "IconHint": "dignissimos",
         "Selected": false,
-        "LastChanged": "2015-03-08T03:51:34.8957999+01:00",
+        "LastChanged": "2011-12-23T16:00:49.2739351+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "assumenda",
-        "Hidden": true,
-        "FullName": "Willie Hauck",
+        "ExtraInfo": "ex",
+        "StyleHint": "doloribus",
+        "Hidden": false,
+        "FullName": "Ms. Columbus Anderson Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 231
+            "FieldType": "System.Int32",
+            "FieldLength": 920
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "nobis",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Zora Keira Mraz I",
+    "FullName": "Cassie Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 346
+        "FieldType": "System.Int32",
+        "FieldLength": 81
       }
     }
   }

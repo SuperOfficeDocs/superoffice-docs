@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetLocalizedTextByType
 uid: v1ListAgent_GetLocalizedTextByType
+generated: true
 ---
 
 # POST Agents/List/GetLocalizedTextByType
@@ -84,8 +85,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TextType": "Column",
-  "ResourceId": 510,
-  "LanguageId": 259
+  "ResourceId": 33,
+  "LanguageId": 843
 }
 ```
 
@@ -96,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 518,
-  "ResourceId": 648,
-  "Text": "perspiciatis",
+  "LanguageId": 837,
+  "ResourceId": 845,
+  "Text": "sit",
   "Type": "Column",
-  "LocalizedTextId": 148,
-  "IsBuiltIn": true,
+  "LocalizedTextId": 746,
+  "IsBuiltIn": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 909
     }
   }
 }

@@ -1,17 +1,11 @@
 ---
 uid: importcontactduplicatematch
 title: importcontactduplicatematch
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "importcontactduplicatematch"
+keywords: mdoprovider mdo provider importcontactduplicatematch
+description: List of fields to match contact imports.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "importcontactduplicatematch" MDO List

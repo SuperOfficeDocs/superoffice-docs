@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/PopulateRestrictions
 uid: v1FindAgent_PopulateRestrictions
+generated: true
 ---
 
 # POST Agents/Find/PopulateRestrictions
@@ -82,32 +83,32 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ankunding LLC",
+  "ProviderName": "Dicki-Walsh",
   "Restrictions": [
     {
-      "Name": "Lesch LLC",
-      "Operator": "in",
+      "Name": "Baumbach, Conroy and Morar",
+      "Operator": "sunt",
       "Values": [
-        "voluptas",
-        "earum"
+        "neque",
+        "aliquid"
       ],
       "DisplayValues": [
-        "amet",
-        "cum"
+        "occaecati",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 492,
+      "InterParenthesis": 913,
       "InterOperator": "And",
-      "UniqueHash": 276
+      "UniqueHash": 748
     }
   ]
 }
@@ -121,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Balistreri, O'Kon and Luettgen",
-    "Operator": "distinctio",
+    "Name": "Grimes, Emard and Casper",
+    "Operator": "quae",
     "Values": [
-      "autem",
-      "ullam"
+      "aut",
+      "ipsum"
     ],
     "DisplayValues": [
-      "nisi",
-      "rem"
+      "laudantium",
+      "at"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Ledner-Osinski",
-        "Operator": "voluptatem",
+        "Name": "Graham, Adams and Schoen",
+        "Operator": "perspiciatis",
         "Values": [
-          "consectetur",
-          "et"
+          "laboriosam",
+          "deleniti"
         ],
         "DisplayValues": [
-          "in",
-          "dolore"
+          "nostrum",
+          "eum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -151,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 403,
+        "InterParenthesis": 264,
         "InterOperator": "And",
-        "UniqueHash": 957
+        "UniqueHash": 121
       }
     ],
-    "InterParenthesis": 10,
+    "InterParenthesis": 971,
     "InterOperator": "And",
-    "UniqueHash": 724
+    "UniqueHash": 702
   }
 ]
 ```

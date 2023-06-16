@@ -1,6 +1,7 @@
 ---
 title: DEL List/ConsentPurpose/Items/{id}
 uid: v1ConsentPurposeList_DeleteConsentPurpose
+generated: true
 ---
 
 # DEL List/ConsentPurpose/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

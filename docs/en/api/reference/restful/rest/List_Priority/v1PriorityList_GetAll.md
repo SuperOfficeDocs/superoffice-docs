@@ -1,6 +1,7 @@
 ---
 title: GET List/Priority/Items
 uid: v1PriorityList_GetAll
+generated: true
 ---
 
 # GET List/Priority/Items
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 133,
-    "Name": "Hand-Wehner",
-    "Tooltip": "ex",
+    "Id": 798,
+    "Name": "Blanda, Wisozk and O'Keefe",
+    "Tooltip": "porro",
     "Deleted": false,
-    "UdListDefinitionId": 452,
-    "Rank": 846,
+    "UdListDefinitionId": 275,
+    "Rank": 89,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 890
+        "FieldType": "System.Int32",
+        "FieldLength": 945
       }
     }
   }

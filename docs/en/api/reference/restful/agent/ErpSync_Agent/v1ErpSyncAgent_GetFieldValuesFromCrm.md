@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetFieldValuesFromCrm
 uid: v1ErpSyncAgent_GetFieldValuesFromCrm
+generated: true
 ---
 
 # POST Agents/ErpSync/GetFieldValuesFromCrm
@@ -80,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 726,
+  "RecordId": 64,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -97,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Klocko-Kutch",
-    "CrmFieldKey": "corrupti",
-    "Value": "praesentium",
-    "DisplayValue": "exercitationem",
-    "SyncToCrm": false,
+    "DisplayName": "Hammes, Ledner and Gibson",
+    "CrmFieldKey": "soluta",
+    "Value": "nisi",
+    "DisplayValue": "quia",
+    "SyncToCrm": true,
     "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

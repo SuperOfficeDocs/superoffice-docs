@@ -1,5 +1,6 @@
 ---
 title: List_ConsentPurpose
+generated: true
 ---
 
 ```http

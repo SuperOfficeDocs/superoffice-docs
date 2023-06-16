@@ -1,6 +1,7 @@
 ---
 title: GET Role/{id}/DataRight/{tableName}
 uid: v1RoleEntity_GetDataRights
+generated: true
 ---
 
 # GET Role/{id}/DataRight/{tableName}
@@ -59,7 +60,7 @@ OK
 GET /api/v1/Role/{roleId}/DataRight/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,7 +70,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolorem",
-  "2": "quaerat"
+  "1": "aut",
+  "2": "vel"
 }
 ```

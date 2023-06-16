@@ -1,6 +1,7 @@
 ---
 title: GET PreferenceDescription/{section}
 uid: v1PreferenceDescription_GetAllFromSection
+generated: true
 ---
 
 # GET PreferenceDescription/{section}
@@ -75,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 538,
-    "Section": "quia",
-    "Key": "porro",
-    "Name": "Paucek, Schoen and Stark",
+    "PrefDescId": 923,
+    "Section": "nihil",
+    "Key": "natus",
+    "Name": "Yundt, Hermann and Reinger",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Balanced object-oriented neural-net",
+    "Description": "Compatible analyzing concept",
     "IsBuiltin": false,
-    "TableName": "Rippin, Mayer and Carter",
-    "UserDefinedListId": 931,
-    "Rank": 143,
-    "SubGroup": "ratione",
-    "MinLevel": 501,
-    "MaxValue": 129,
-    "MinValue": 979,
-    "RequiredLicense": "eaque",
+    "TableName": "Beier Group",
+    "UserDefinedListId": 247,
+    "Rank": 173,
+    "SubGroup": "quae",
+    "MinLevel": 607,
+    "MaxValue": 717,
+    "MinValue": 379,
+    "RequiredLicense": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 714
+        "FieldLength": 635
       }
     }
   }

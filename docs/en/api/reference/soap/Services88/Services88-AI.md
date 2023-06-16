@@ -1,5 +1,5 @@
 ---
-generated: 1
+generated: true
 uid: wsdl-Services88-AI
 title: Services88.AIAgent WSDL
 ---

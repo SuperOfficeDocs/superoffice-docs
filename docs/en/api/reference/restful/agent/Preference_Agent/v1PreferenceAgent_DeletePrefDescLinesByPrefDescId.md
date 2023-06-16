@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/DeletePrefDescLinesByPrefDescId
 uid: v1PreferenceAgent_DeletePrefDescLinesByPrefDescId
+generated: true
 ---
 
 # POST Agents/Preference/DeletePrefDescLinesByPrefDescId
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/Preference/DeletePrefDescLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 224
+  "PrefDescId": 983
 }
 ```
 

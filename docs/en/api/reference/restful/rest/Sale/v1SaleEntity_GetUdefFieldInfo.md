@@ -1,6 +1,7 @@
 ---
 title: GET Sale/UdefLayout/{progidOrLabel}
 uid: v1SaleEntity_GetUdefFieldInfo
+generated: true
 ---
 
 # GET Sale/UdefLayout/{progidOrLabel}
@@ -92,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 291,
-  "ColumnId": 967,
-  "FieldDefault": "laborum",
-  "FieldHeight": 990,
-  "FieldLabel": "nulla",
-  "FieldLeft": 156,
-  "FieldTop": 41,
+  "UDefFieldId": 457,
+  "ColumnId": 962,
+  "FieldDefault": "et",
+  "FieldHeight": 547,
+  "FieldLabel": "et",
+  "FieldLeft": 251,
+  "FieldTop": 162,
   "FieldType": "Checkbox",
-  "FieldWidth": 365,
-  "FormatMask": "est",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 951,
-  "LabelLeft": 125,
-  "LabelTop": 997,
-  "LabelWidth": 924,
-  "LastVersionId": 580,
-  "ListTableId": 562,
+  "FieldWidth": 536,
+  "FormatMask": "nemo",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 36,
+  "LabelLeft": 926,
+  "LabelTop": 136,
+  "LabelWidth": 334,
+  "LastVersionId": 234,
+  "ListTableId": 230,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 855,
-  "ProgId": "quos",
+  "Page1LineNo": 489,
+  "ProgId": "officiis",
   "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 513,
-  "TextLength": 463,
-  "Tooltip": "et",
-  "UdefIdentity": 803,
-  "UDListDefinitionId": 520,
+  "ShortLabel": "illo",
+  "TabOrder": 804,
+  "TextLength": 462,
+  "Tooltip": "sit",
+  "UdefIdentity": 360,
+  "UDListDefinitionId": 407,
   "Justification": "Center",
-  "Version": 634,
-  "TemplateVariableName": "Murazik, Langworth and Hermann",
-  "HasBeenPublished": false,
-  "MdoListName": "Hand, Crona and Kuvalis",
+  "Version": 59,
+  "TemplateVariableName": "Block Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Vandervort LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldLength": 874
     }
   }
 }

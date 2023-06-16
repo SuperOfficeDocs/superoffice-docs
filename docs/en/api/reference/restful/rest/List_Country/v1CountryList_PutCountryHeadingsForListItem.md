@@ -1,6 +1,7 @@
 ---
 title: PUT List/Country/Items/{id}/Headings
 uid: v1CountryList_PutCountryHeadingsForListItem
+generated: true
 ---
 
 # PUT List/Country/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Lockman-Ziemann",
-    "ToolTip": "Earum repellat fugit.",
+    "Id": 426,
+    "Name": "Yundt LLC",
+    "ToolTip": "Non laborum.",
     "Deleted": false,
-    "Rank": 960,
-    "Type": "sapiente",
-    "ColorBlock": 162,
-    "IconHint": "et",
+    "Rank": 31,
+    "Type": "non",
+    "ColorBlock": 424,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2017-11-27T03:51:34.6302346+01:00",
+    "LastChanged": "2009-09-13T16:00:48.9614655+02:00",
     "ChildItems": [
       {
-        "Id": 265,
-        "Name": "Runte, Bashirian and Carter",
-        "ToolTip": "Fugit quo.",
+        "Id": 580,
+        "Name": "Sawayn-Wehner",
+        "ToolTip": "Exercitationem est maiores labore sapiente ut aspernatur amet.",
         "Deleted": false,
-        "Rank": 628,
-        "Type": "cumque",
-        "ColorBlock": 403,
-        "IconHint": "quo",
+        "Rank": 93,
+        "Type": "quia",
+        "ColorBlock": 826,
+        "IconHint": "beatae",
         "Selected": true,
-        "LastChanged": "2012-10-03T03:51:34.6302346+02:00",
+        "LastChanged": "2006-09-07T16:00:48.9614655+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "temporibus",
-        "Hidden": true,
-        "FullName": "Alvena Sauer II"
+        "ExtraInfo": "repellat",
+        "StyleHint": "tempore",
+        "Hidden": false,
+        "FullName": "Clotilde Leffler"
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "tempora",
+    "StyleHint": "facere",
     "Hidden": false,
-    "FullName": "Zander Bednar"
+    "FullName": "Rubye McLaughlin"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Ankunding-Cole",
-    "ToolTip": "Ipsam laudantium nobis doloremque tempore ipsa dolore.",
-    "Deleted": true,
-    "Rank": 392,
-    "Type": "id",
-    "ColorBlock": 212,
-    "IconHint": "sint",
+    "Id": 523,
+    "Name": "Weissnat LLC",
+    "ToolTip": "Doloribus voluptatem aliquam et minima temporibus voluptatem.",
+    "Deleted": false,
+    "Rank": 467,
+    "Type": "at",
+    "ColorBlock": 520,
+    "IconHint": "iste",
     "Selected": true,
-    "LastChanged": "2012-12-03T03:51:34.6302346+01:00",
+    "LastChanged": "2000-12-30T16:00:48.9614655+01:00",
     "ChildItems": [
       {
-        "Id": 985,
-        "Name": "Schuster-Beatty",
-        "ToolTip": "Officia provident laudantium officiis.",
+        "Id": 679,
+        "Name": "Koch-Baumbach",
+        "ToolTip": "Sed earum sed praesentium quis officiis dolor.",
         "Deleted": false,
-        "Rank": 587,
-        "Type": "sunt",
-        "ColorBlock": 225,
-        "IconHint": "perferendis",
+        "Rank": 175,
+        "Type": "voluptate",
+        "ColorBlock": 30,
+        "IconHint": "autem",
         "Selected": true,
-        "LastChanged": "2022-02-09T03:51:34.6302346+01:00",
+        "LastChanged": "2010-05-15T16:00:48.9614655+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Hailie Lubowitz",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "consequuntur",
+        "Hidden": false,
+        "FullName": "Miss Deontae Mya Skiles PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 508
+            "FieldLength": 331
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "distinctio",
-    "Hidden": true,
-    "FullName": "Brisa Streich",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Ursula Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldType": "System.String",
+        "FieldLength": 320
       }
     }
   }

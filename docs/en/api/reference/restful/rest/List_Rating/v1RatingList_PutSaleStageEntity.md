@@ -1,6 +1,7 @@
 ---
 title: PUT List/Rating/Items/{id}
 uid: v1RatingList_PutSaleStageEntity
+generated: true
 ---
 
 # PUT List/Rating/Items/{id}
@@ -79,16 +80,16 @@ OK
 PUT /api/v1/List/Rating/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 706,
-  "Value": "iure",
-  "Tooltip": "dolore",
-  "Probability": 348,
+  "SaleStageId": 158,
+  "Value": "atque",
+  "Tooltip": "porro",
+  "Probability": 226,
   "Deleted": false,
-  "Rank": 343
+  "Rank": 628
 }
 ```
 
@@ -99,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 624,
-  "Value": "in",
-  "Tooltip": "eos",
-  "Probability": 951,
-  "Deleted": true,
-  "Rank": 957,
+  "SaleStageId": 292,
+  "Value": "vel",
+  "Tooltip": "eveniet",
+  "Probability": 666,
+  "Deleted": false,
+  "Rank": 905,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldLength": 844
     }
   }
 }

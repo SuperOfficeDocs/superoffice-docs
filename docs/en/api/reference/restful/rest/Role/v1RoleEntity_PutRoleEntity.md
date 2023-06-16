@@ -1,6 +1,7 @@
 ---
 title: PUT Role/{id}
 uid: v1RoleEntity_PutRoleEntity
+generated: true
 ---
 
 # PUT Role/{id}
@@ -102,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 844,
-  "Name": "Rempel, Homenick and Christiansen",
-  "Tooltip": "voluptates",
+  "RoleId": 499,
+  "Name": "Casper, Bergnaum and Grimes",
+  "Tooltip": "cumque",
   "RoleType": "Anonymous",
-  "Deleted": 617,
-  "Rank": 330,
-  "Created": "1997-05-17T03:51:33.8802911+02:00",
-  "UseCategories": 920,
+  "Deleted": 47,
+  "Rank": 939,
+  "Created": "2009-02-18T16:00:48.1959227+01:00",
+  "UseCategories": 476,
   "CreatedBy": null,
-  "Updated": "2022-07-02T03:51:33.8802911+02:00",
+  "Updated": "2022-10-19T16:00:48.1959227+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -128,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 221,
-  "Name": "Breitenberg Group",
-  "Tooltip": "laboriosam",
+  "RoleId": 178,
+  "Name": "Bashirian-Lynch",
+  "Tooltip": "soluta",
   "RoleType": "Anonymous",
-  "Deleted": 817,
-  "Rank": 6,
-  "Created": "2019-12-23T03:51:33.8802911+01:00",
-  "UseCategories": 770,
+  "Deleted": 177,
+  "Rank": 785,
+  "Created": "2001-05-01T16:00:48.1959227+02:00",
+  "UseCategories": 49,
   "CreatedBy": null,
-  "Updated": "2011-07-01T03:51:33.8802911+02:00",
+  "Updated": "2003-04-09T16:00:48.1959227+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -145,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldLength": 496
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

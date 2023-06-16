@@ -1,6 +1,7 @@
 ---
 title: PUT List/ReasonStalled/Headings
 uid: v1ReasonStalledList_PutReasonStalledHeadings
+generated: true
 ---
 
 # PUT List/ReasonStalled/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 413,
-    "Name": "Halvorson Group",
-    "Tooltip": "magnam",
+    "HeadingId": 16,
+    "Name": "Mraz-Howell",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "Rank": 540,
-    "UdListDefinitionId": 644
+    "Rank": 185,
+    "UdListDefinitionId": 348
   },
   {
-    "HeadingId": 413,
-    "Name": "Halvorson Group",
-    "Tooltip": "magnam",
+    "HeadingId": 16,
+    "Name": "Mraz-Howell",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "Rank": 540,
-    "UdListDefinitionId": 644
+    "Rank": 185,
+    "UdListDefinitionId": 348
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 279,
-    "Name": "Murphy Inc and Sons",
-    "Tooltip": "atque",
-    "Deleted": true,
-    "Rank": 226,
-    "UdListDefinitionId": 713,
+    "HeadingId": 303,
+    "Name": "Kreiger Inc and Sons",
+    "Tooltip": "odio",
+    "Deleted": false,
+    "Rank": 737,
+    "UdListDefinitionId": 157,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldType": "System.Int32",
+        "FieldLength": 513
       }
     }
   }

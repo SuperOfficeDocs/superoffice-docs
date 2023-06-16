@@ -1,6 +1,6 @@
 ---
 title: Services88.TargetsAgent.CreateDefaultTargetAssignmentForUserGroup SOAP
-generated: 1
+generated: true
 uid: Services88-Targets-CreateDefaultTargetAssignmentForUserGroup
 ---
 

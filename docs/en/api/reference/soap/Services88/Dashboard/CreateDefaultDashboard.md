@@ -1,6 +1,6 @@
 ---
 title: Services88.DashboardAgent.CreateDefaultDashboard SOAP
-generated: 1
+generated: true
 uid: Services88-Dashboard-CreateDefaultDashboard
 ---
 

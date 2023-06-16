@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CreateAndSaveQuoteVersion
 uid: v1QuoteAgent_CreateAndSaveQuoteVersion
+generated: true
 ---
 
 # POST Agents/Quote/CreateAndSaveQuoteVersion
@@ -110,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 801
+  "QuoteVersionId": 770
 }
 ```
 
@@ -125,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 863,
-  "ERPQuoteVersionKey": "facere",
-  "QuoteId": 554,
-  "Description": "Exclusive multi-tasking hardware",
-  "Number": "248203",
+  "QuoteVersionId": 486,
+  "ERPQuoteVersionKey": "nostrum",
+  "QuoteId": 379,
+  "Description": "Open-source upward-trending middleware",
+  "Number": "996434",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 501,
-  "SentDate": "2011-12-24T03:51:27.9746798+01:00",
-  "FollowupId": 957,
-  "ExpirationDate": "2017-05-15T03:51:27.9746798+02:00",
-  "DeliveryCountryId": 858,
+  "LikelyQuoteAlternativeId": 770,
+  "SentDate": "2017-10-02T16:00:41.6019523+02:00",
+  "FollowupId": 318,
+  "ExpirationDate": "2010-07-15T16:00:41.6019523+02:00",
+  "DeliveryCountryId": 603,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 977,
+  "InvoiceCountryId": 866,
   "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "odio",
-  "ERPPaymentTypeKey": "soluta",
-  "ERPDeliveryTermsKey": "suscipit",
-  "ERPDeliveryTypeKey": "quas",
-  "Rank": 754,
-  "ApprovedBy": 652,
-  "ApprovedText": "aut",
-  "ApprovedRegisteredBy": 117,
-  "ApprovedRegisteredDate": "2013-06-07T03:51:27.9746798+02:00",
-  "ExtraField1": "sunt",
-  "ExtraField2": "consectetur",
-  "ExtraField3": "iste",
-  "ExtraField4": "qui",
-  "ExtraField5": "sit",
-  "LastRecalculated": "2022-01-14T03:51:27.9746798+01:00",
-  "Updated": "2017-02-07T03:51:27.9746798+01:00",
-  "UpdatedAssociateId": 899,
-  "Registered": "2001-01-26T03:51:27.9746798+01:00",
-  "RegisteredAssociateId": 378,
-  "RequestAssociateId": 943,
-  "RequestComment": "aut",
+  "ERPPaymentTermsKey": "dignissimos",
+  "ERPPaymentTypeKey": "modi",
+  "ERPDeliveryTermsKey": "sunt",
+  "ERPDeliveryTypeKey": "nulla",
+  "Rank": 558,
+  "ApprovedBy": 666,
+  "ApprovedText": "accusamus",
+  "ApprovedRegisteredBy": 82,
+  "ApprovedRegisteredDate": "2018-05-17T16:00:41.6019523+02:00",
+  "ExtraField1": "sit",
+  "ExtraField2": "quia",
+  "ExtraField3": "ea",
+  "ExtraField4": "officiis",
+  "ExtraField5": "magni",
+  "LastRecalculated": "2015-12-05T16:00:41.6019523+01:00",
+  "Updated": "2004-10-06T16:00:41.6019523+02:00",
+  "UpdatedAssociateId": 15,
+  "Registered": "2022-03-09T16:00:41.6019523+01:00",
+  "RegisteredAssociateId": 739,
+  "RequestAssociateId": 97,
+  "RequestComment": "voluptate",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 163,
-      "ERPQuoteAlternativeKey": "eius",
-      "QuoteVersionId": 370,
-      "Name": "Brakus-Haag",
-      "Description": "Decentralized encompassing budgetary management",
+      "QuoteAlternativeId": 100,
+      "ERPQuoteAlternativeKey": "enim",
+      "QuoteVersionId": 396,
+      "Name": "Hudson-Ebert",
+      "Description": "Distributed user-facing groupware",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 7167.458,
-      "ERPDiscountAmount": 4255.972,
-      "DiscountPercent": 16933.002,
-      "DiscountAmount": 29462.734,
+      "ERPDiscountPercent": 30710.066,
+      "ERPDiscountAmount": 23953.162,
+      "DiscountPercent": 31198.969999999998,
+      "DiscountAmount": 1686.0919999999999,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "dolorem",
-      "VAT": 14159.412,
-      "EarningPercent": 16089.956,
-      "EarningAmount": 9699.73,
-      "SubTotal": 6083.094,
-      "TotalPrice": 14601.305999999999,
-      "ExtraField1": "quisquam",
-      "ExtraField2": "dolorem",
-      "ExtraField3": "rerum",
-      "ExtraField4": "sed",
-      "ExtraField5": "a",
+      "VATInfo": "in",
+      "VAT": 9016.518,
+      "EarningPercent": 1128.24,
+      "EarningAmount": 23649.164,
+      "SubTotal": 28801.46,
+      "TotalPrice": 24645.775999999998,
+      "ExtraField1": "magnam",
+      "ExtraField2": "animi",
+      "ExtraField3": "est",
+      "ExtraField4": "sint",
+      "ExtraField5": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldType": "System.String",
+          "FieldLength": 777
         }
       }
     }
@@ -202,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldType": "System.Int32",
+      "FieldLength": 337
     }
   }
 }

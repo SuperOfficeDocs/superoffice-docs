@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetConsentSource
 uid: v1ListAgent_GetConsentSource
+generated: true
 ---
 
 # POST Agents/List/GetConsentSource
@@ -25,7 +26,7 @@ Gets a ConsentSource object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentSource?consentSourceId=590
+POST /api/v1/Agents/List/GetConsentSource?consentSourceId=24
 POST /api/v1/Agents/List/GetConsentSource?$select=name,department,category/id
 ```
 
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 615,
-  "Name": "Rowe-Moore",
-  "Tooltip": "qui",
-  "Rank": 820,
-  "Key": "sed",
-  "MailTemplateId": 146,
+  "ConsentSourceId": 85,
+  "Name": "Franecki, Hamill and Mraz",
+  "Tooltip": "magnam",
+  "Rank": 536,
+  "Key": "fuga",
+  "MailTemplateId": 902,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 762
     }
   }
 }

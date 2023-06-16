@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetUntrustedCredentials
 uid: v1UserAgent_GetUntrustedCredentials
+generated: true
 ---
 
 # POST Agents/User/GetUntrustedCredentials
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quis"
+  "Type": "voluptate"
 }
 ```
 
@@ -95,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "1996-04-05T03:51:28.5058+02:00",
-    "ValidTo": "2002-05-19T03:51:28.5058+02:00",
-    "Comment": "tempore",
-    "SecretValue": "et",
-    "PublicValue": "in",
-    "IsActive": true,
+    "ValidFrom": "2002-05-24T16:00:42.3518725+02:00",
+    "ValidTo": "2016-04-10T16:00:42.3518725+02:00",
+    "Comment": "laudantium",
+    "SecretValue": "eaque",
+    "PublicValue": "magni",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 712
+        "FieldLength": 245
       }
     }
   }

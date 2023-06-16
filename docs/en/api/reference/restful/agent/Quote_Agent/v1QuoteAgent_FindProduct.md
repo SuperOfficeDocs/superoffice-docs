@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/FindProduct
 uid: v1QuoteAgent_FindProduct
+generated: true
 ---
 
 # POST Agents/Quote/FindProduct
@@ -107,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 241,
-  "UserInput": "expedita",
-  "PriceListKey": "ex"
+  "QuoteAlternativeId": 366,
+  "UserInput": "aut",
+  "PriceListKey": "ullam"
 }
 ```
 
@@ -125,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 194,
-    "ERPProductKey": "id",
-    "ERPPriceListKey": "quaerat",
-    "Name": "Thiel-Labadie",
-    "Description": "Decentralized methodical attitude",
-    "Code": "suscipit",
-    "PriceUnit": "cupiditate",
-    "QuantityUnit": "velit",
-    "IsSubscription": true,
-    "SubscriptionUnit": "molestiae",
-    "DefaultSubscriptionQuantity": 122.226,
-    "ItemNumber": "1073170",
+    "ProductId": 168,
+    "ERPProductKey": "magnam",
+    "ERPPriceListKey": "incidunt",
+    "Name": "Reinger LLC",
+    "Description": "Compatible contextually-based alliance",
+    "Code": "tempora",
+    "PriceUnit": "ipsum",
+    "QuantityUnit": "cum",
+    "IsSubscription": false,
+    "SubscriptionUnit": "pariatur",
+    "DefaultSubscriptionQuantity": 26331.868,
+    "ItemNumber": "635775",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "eos",
-    "ProductTypeKey": "consequatur",
-    "VAT": 4133.746,
-    "VATInfo": "aut",
-    "UnitCost": 10104.016,
-    "UnitMinimumPrice": 17205.66,
-    "UnitListPrice": 902.592,
+    "ProductFamilyKey": "illo",
+    "ProductTypeKey": "laborum",
+    "VAT": 8377.1819999999989,
+    "VATInfo": "perspiciatis",
+    "UnitCost": 20483.824,
+    "UnitMinimumPrice": 13379.046,
+    "UnitListPrice": 30402.933999999997,
     "InAssortment": false,
-    "Supplier": "placeat",
-    "SupplierCode": "magni",
-    "Rights": "repellendus",
-    "Rule": "similique",
+    "Supplier": "ducimus",
+    "SupplierCode": "nobis",
+    "Rights": "qui",
+    "Rule": "autem",
     "ExtraInfo": [
       {
-        "Name": "Abernathy, Bayer and Trantow",
-        "Value": "id",
+        "Name": "Gerlach Inc and Sons",
+        "Value": "in",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldType": "System.String",
+            "FieldLength": 682
           }
         }
       },
       {
-        "Name": "Abernathy, Bayer and Trantow",
-        "Value": "id",
+        "Name": "Gerlach Inc and Sons",
+        "Value": "in",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldType": "System.String",
+            "FieldLength": 682
           }
         }
       }
     ],
-    "RawExtraInfo": "quam",
-    "ExtraField1": "itaque",
-    "ExtraField2": "omnis",
-    "ExtraField3": "nihil",
-    "ExtraField4": "et",
-    "ExtraField5": "aut",
-    "InStock": 7549.806,
+    "RawExtraInfo": "accusantium",
+    "ExtraField1": "eius",
+    "ExtraField2": "aliquam",
+    "ExtraField3": "suscipit",
+    "ExtraField4": "delectus",
+    "ExtraField5": "beatae",
+    "InStock": 23044.302,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 654
+        "FieldType": "System.Int32",
+        "FieldLength": 553
       }
     }
   }

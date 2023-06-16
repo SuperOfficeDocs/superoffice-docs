@@ -1,6 +1,7 @@
 ---
 title: PUT List/Rating
 uid: v1RatingList_SetListDefinition
+generated: true
 ---
 
 # PUT List/Rating
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 28,
-  "Name": "Wehner, Becker and Pfeffer",
+  "Id": 538,
+  "Name": "Kozey, Grant and Gutmann",
   "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 669,
+  "Rank": 344,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vel",
-  "InUseByUserDefinedFields": false
+  "ListType": "fugit",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 44,
-  "Name": "Bednar-Hyatt",
-  "Tooltip": "veniam",
+  "Id": 468,
+  "Name": "Cole-Anderson",
+  "Tooltip": "voluptatum",
   "Deleted": true,
-  "Rank": 703,
-  "IsCustomList": false,
+  "Rank": 327,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "ListType": "rem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldLength": 197
     }
   }
 }

@@ -1,17 +1,11 @@
 ---
 uid: ticketpriorityescalateevent
 title: ticketpriorityescalateevent
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "ticketpriorityescalateevent"
+keywords: mdoprovider mdo provider ticketpriorityescalateevent
+description: MDO list provider for ticket Priority EscalateEvents enum.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ticketpriorityescalateevent" MDO List

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/GetPersonImage
 uid: v1BLOBAgent_GetPersonImage
+generated: true
 ---
 
 # POST Agents/BLOB/GetPersonImage
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/BLOB/GetPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 570
+  "PersonId": 256
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: GET List/LegalBase
 uid: v1LegalBaseList_GetListDefinition
+generated: true
 ---
 
 # GET List/LegalBase
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 657,
-  "Name": "Schneider LLC",
-  "Tooltip": "debitis",
-  "Deleted": false,
-  "Rank": 210,
+  "Id": 350,
+  "Name": "Brekke, Baumbach and Raynor",
+  "Tooltip": "ad",
+  "Deleted": true,
+  "Rank": 410,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "in",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 920
+      "FieldType": "System.Int32",
+      "FieldLength": 362
     }
   },
   "_Links": {

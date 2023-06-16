@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/TestAuthenticate
 uid: v1EMailAgent_TestAuthenticate
+generated: true
 ---
 
 # POST Agents/EMail/TestAuthenticate
@@ -61,7 +62,7 @@ OK
 POST /api/v1/Agents/EMail/TestAuthenticate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

@@ -1,6 +1,7 @@
 ---
 title: GET List/Currency/Headings
 uid: v1CurrencyList_GetCurrencyEntityHeadings
+generated: true
 ---
 
 # GET List/Currency/Headings
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 40,
-    "Name": "West Group",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 330,
-    "UdListDefinitionId": 340,
+    "HeadingId": 22,
+    "Name": "Smith-Jacobi",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 971,
+    "UdListDefinitionId": 769,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 208
+        "FieldType": "System.Int32",
+        "FieldLength": 915
       }
     }
   }

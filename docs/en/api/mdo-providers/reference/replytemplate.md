@@ -1,17 +1,11 @@
 ---
 uid: replytemplate
 title: replytemplate
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "replytemplate"
+keywords: mdoprovider mdo provider replytemplate
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "replytemplate" MDO List

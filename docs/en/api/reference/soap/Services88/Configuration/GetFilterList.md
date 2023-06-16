@@ -1,6 +1,6 @@
 ---
 title: Services88.ConfigurationAgent.GetFilterList SOAP
-generated: 1
+generated: true
 uid: Services88-Configuration-GetFilterList
 ---
 

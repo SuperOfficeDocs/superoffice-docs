@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/GetBlobStream
 uid: v1BLOBAgent_GetBlobStream
+generated: true
 ---
 
 # POST Agents/BLOB/GetBlobStream
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobEntityId": 561
+  "BlobEntityId": 995
 }
 ```
 

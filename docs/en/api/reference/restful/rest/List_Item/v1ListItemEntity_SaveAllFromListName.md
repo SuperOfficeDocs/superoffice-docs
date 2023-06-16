@@ -1,6 +1,7 @@
 ---
 title: PUT List/{udListDefinitionName}/Items
 uid: v1ListItemEntity_SaveAllFromListName
+generated: true
 ---
 
 # PUT List/{udListDefinitionName}/Items
@@ -76,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 398,
-    "Name": "D'Amore Group",
-    "Tooltip": "quos",
-    "Deleted": false,
-    "UdListDefinitionId": 383,
-    "Rank": 316
+    "Id": 499,
+    "Name": "Franecki-Olson",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "UdListDefinitionId": 273,
+    "Rank": 22
   },
   {
-    "Id": 398,
-    "Name": "D'Amore Group",
-    "Tooltip": "quos",
-    "Deleted": false,
-    "UdListDefinitionId": 383,
-    "Rank": 316
+    "Id": 499,
+    "Name": "Franecki-Olson",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "UdListDefinitionId": 273,
+    "Rank": 22
   }
 ]
 ```
@@ -107,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Donnelly-Murphy",
-    "Tooltip": "aliquid",
-    "Deleted": true,
-    "UdListDefinitionId": 771,
-    "Rank": 206,
+    "Id": 149,
+    "Name": "Streich LLC",
+    "Tooltip": "perspiciatis",
+    "Deleted": false,
+    "UdListDefinitionId": 899,
+    "Rank": 37,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 821
+        "FieldLength": 779
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryTerm
 uid: v1DeliveryTermsList_GetListDefinition
+generated: true
 ---
 
 # GET List/DeliveryTerm
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 365,
-  "Name": "Koepp, Boyle and Sanford",
-  "Tooltip": "aut",
+  "Id": 825,
+  "Name": "Swaniawski-Koch",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 331,
+  "Rank": 781,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "harum",
+  "ListType": "iste",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldLength": 121
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

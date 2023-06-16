@@ -297,6 +297,8 @@ items:
     href: Associate_Agent/v1AssociateAgent_GetAssociateList.md
   - name: GetAssociatesByGroup
     href: Associate_Agent/v1AssociateAgent_GetAssociatesByGroup.md
+  - name: GetEncryptionKey
+    href: Associate_Agent/v1AssociateAgent_GetEncryptionKey.md
   - name: GetNote
     href: Associate_Agent/v1AssociateAgent_GetNote.md
   - name: LogOffWindowsUsers
@@ -3371,6 +3373,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_ClearNotify.md
   - name: CopyFromCRMDocument
     href: Ticket_Agent/v1TicketAgent_CopyFromCRMDocument.md
+  - name: CopyToTempFile
+    href: Ticket_Agent/v1TicketAgent_CopyToTempFile.md
   - name: CreateDefaultAttachmentEntity
     href: Ticket_Agent/v1TicketAgent_CreateDefaultAttachmentEntity.md
   - name: CreateDefaultTicketEntity
@@ -3826,6 +3830,8 @@ items:
   items:
   - name: AddAfterWorkflowStep
     href: Workflow_Agent/v1WorkflowAgent_AddAfterWorkflowStep.md
+  - name: ConnectEmailFlowContent
+    href: Workflow_Agent/v1WorkflowAgent_ConnectEmailFlowContent.md
   - name: CreateDefaultEmailFlow
     href: Workflow_Agent/v1WorkflowAgent_CreateDefaultEmailFlow.md
   - name: CreateDefaultWorkflowFilter
@@ -3838,6 +3844,8 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepOption.md
   - name: CreateDefaultWorkflowTrigger
     href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowTrigger.md
+  - name: CreateEmailFlowContent
+    href: Workflow_Agent/v1WorkflowAgent_CreateEmailFlowContent.md
   - name: DeleteEmailFlow
     href: Workflow_Agent/v1WorkflowAgent_DeleteEmailFlow.md
   - name: DeleteWorkflowGoal

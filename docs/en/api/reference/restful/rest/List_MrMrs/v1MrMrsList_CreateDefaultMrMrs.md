@@ -1,6 +1,7 @@
 ---
 title: GET List/MrMrs/Items/Default
 uid: v1MrMrsList_CreateDefaultMrMrs
+generated: true
 ---
 
 # GET List/MrMrs/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 377,
-  "Name": "McKenzie-Weber",
-  "Tooltip": "atque",
+  "Id": 973,
+  "Name": "Rogahn Inc and Sons",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "UdListDefinitionId": 371,
-  "Rank": 674,
+  "UdListDefinitionId": 930,
+  "Rank": 635,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 564
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: PATCH DashTile/{id}
 uid: v1DashTile_PatchDashTile
+generated: true
 ---
 
 # PATCH DashTile/{id}
@@ -112,18 +113,18 @@ DashTile  updated.
 PATCH /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "inventore",
+    "path": "enim",
     "value": {}
   },
   {
     "op": "add",
-    "path": "inventore",
+    "path": "enim",
     "value": {}
   }
 ]
@@ -136,18 +137,18 @@ HTTP/1.1 200 DashTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 258,
-  "DashboardId": 995,
-  "Height": 485,
-  "Width": 531,
-  "Rank": 338,
+  "DashboardTileId": 888,
+  "DashboardId": 172,
+  "Height": 275,
+  "Width": 860,
+  "Rank": 81,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldType": "System.Int32",
+      "FieldLength": 347
     }
   },
   "_Links": {

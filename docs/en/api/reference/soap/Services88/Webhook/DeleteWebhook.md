@@ -1,6 +1,6 @@
 ---
 title: Services88.WebhookAgent.DeleteWebhook SOAP
-generated: 1
+generated: true
 uid: Services88-Webhook-DeleteWebhook
 ---
 

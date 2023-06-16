@@ -1,17 +1,11 @@
 ---
 uid: searchcat
 title: searchcat
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "searchcat"
+keywords: mdoprovider mdo provider searchcat
+description: GenericMDOProvider reads MDO lists with default settings
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "searchcat" MDO List

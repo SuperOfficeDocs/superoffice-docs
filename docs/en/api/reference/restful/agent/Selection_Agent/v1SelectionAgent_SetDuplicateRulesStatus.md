@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/SetDuplicateRulesStatus
 uid: v1SelectionAgent_SetDuplicateRulesStatus
+generated: true
 ---
 
 # POST Agents/Selection/SetDuplicateRulesStatus
@@ -69,16 +70,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Wunsch, Kutch and Balistreri",
-      "DisplayName": "Moen, Hamill and Roob",
-      "DisplayTooltip": "aliquam",
-      "IsActive": true
+      "Name": "Swift-Mante",
+      "DisplayName": "O'Reilly LLC",
+      "DisplayTooltip": "eaque",
+      "IsActive": false
     },
     {
-      "Name": "Wunsch, Kutch and Balistreri",
-      "DisplayName": "Moen, Hamill and Roob",
-      "DisplayTooltip": "aliquam",
-      "IsActive": true
+      "Name": "Swift-Mante",
+      "DisplayName": "O'Reilly LLC",
+      "DisplayTooltip": "eaque",
+      "IsActive": false
     }
   ]
 }

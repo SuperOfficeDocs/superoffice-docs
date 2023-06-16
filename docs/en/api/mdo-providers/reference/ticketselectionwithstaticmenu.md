@@ -1,17 +1,11 @@
 ---
 uid: ticketselectionwithstaticmenu
 title: ticketselectionwithstaticmenu
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "ticketselectionwithstaticmenu"
+keywords: mdoprovider mdo provider ticketselectionwithstaticmenu
+description: Provider for selecting ticket selections
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ticketselectionwithstaticmenu" MDO List

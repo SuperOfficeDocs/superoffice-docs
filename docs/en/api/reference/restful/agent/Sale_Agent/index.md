@@ -1,5 +1,6 @@
 ---
 title: Sale_Agent
+generated: true
 ---
 
 ```http

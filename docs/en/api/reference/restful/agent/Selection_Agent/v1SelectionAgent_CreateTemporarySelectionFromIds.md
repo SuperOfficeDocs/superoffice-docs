@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateTemporarySelectionFromIds
 uid: v1SelectionAgent_CreateTemporarySelectionFromIds
+generated: true
 ---
 
 # POST Agents/Selection/CreateTemporarySelectionFromIds
@@ -118,10 +119,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    565,
-    95
+    537,
+    80
   ],
-  "TargetTableNumber": 424
+  "TargetTableNumber": 618
 }
 ```
 
@@ -132,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Future-proofed eco-centric customer loyalty",
-  "Postit": "veritatis",
+  "Description": "Re-contextualized background hub",
+  "Postit": "neque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 549,
-  "IncludePerson": 775,
-  "MemberCount": 16,
-  "Name": "Waters, Schumm and Runolfsdottir",
-  "PostitTextId": 12,
-  "CreatedDate": "2013-11-30T03:51:28.1933756+01:00",
-  "SelectionId": 661,
-  "SoundEx": "eos",
-  "Source": 670,
-  "TextId": 89,
-  "UpdatedDate": "2008-02-04T03:51:28.1933756+01:00",
-  "UpdatedCount": 369,
-  "Visibility": 649,
+  "GroupIdx": 479,
+  "IncludePerson": 902,
+  "MemberCount": 338,
+  "Name": "Gutkowski Group",
+  "PostitTextId": 588,
+  "CreatedDate": "2000-12-09T16:00:41.8675477+01:00",
+  "SelectionId": 291,
+  "SoundEx": "quos",
+  "Source": 338,
+  "TextId": 848,
+  "UpdatedDate": "2019-01-12T16:00:41.8675477+01:00",
+  "UpdatedCount": 601,
+  "Visibility": 315,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 308,
-  "TargetTableName": "Hirthe, Wilkinson and Bauch",
-  "Completed": false,
-  "LeftSelectionId": 823,
-  "RightSelectionId": 353,
+  "TargetTableNumber": 571,
+  "TargetTableName": "Von-Gislason",
+  "Completed": true,
+  "LeftSelectionId": 602,
+  "RightSelectionId": 289,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jenkins, Stanton and Pagac",
-  "ShadowProviderName": "Bosco, White and Raynor",
-  "ChartKey": "ab",
-  "LastLoaded": "2003-12-27T03:51:28.1933756+01:00",
-  "LastLoadedBy": 216,
+  "MainProviderName": "Rowe LLC",
+  "ShadowProviderName": "Howell-Cremin",
+  "ChartKey": "dignissimos",
+  "LastLoaded": "2015-04-03T16:00:41.8675477+02:00",
+  "LastLoadedBy": 265,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-12-08T03:51:28.1933756+01:00",
-  "LastMembershipChangeBy": 159,
+  "LastMembershipChange": "2018-08-12T16:00:41.8675477+02:00",
+  "LastMembershipChangeBy": 14,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consequatur",
-  "MemberTabHeading": "quo",
-  "MailingsProviderName": "Lubowitz-Kutch",
-  "DashboardTileDefinitionId": 826,
+  "MainHeading": "inventore",
+  "MemberTabHeading": "molestias",
+  "MailingsProviderName": "Reynolds, Rogahn and Zboncak",
+  "DashboardTileDefinitionId": 512,
   "VisibleFor": [
     {
-      "VisibleId": 538,
+      "VisibleId": 540,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldType": "System.String",
+          "FieldLength": 700
         }
       }
     },
     {
-      "VisibleId": 538,
+      "VisibleId": 540,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldType": "System.String",
+          "FieldLength": 700
         }
       }
     }
@@ -204,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldType": "System.String",
+      "FieldLength": 462
     }
   }
 }

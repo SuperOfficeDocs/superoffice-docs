@@ -1,6 +1,7 @@
 ---
 title: DEL List/DeliveryType/Headings
 uid: v1DeliveryTypeList_DeleteDeliveryTypeHeadings
+generated: true
 ---
 
 # DEL List/DeliveryType/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

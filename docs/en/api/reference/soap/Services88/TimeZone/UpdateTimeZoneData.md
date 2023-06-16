@@ -1,6 +1,6 @@
 ---
 title: Services88.TimeZoneAgent.UpdateTimeZoneData SOAP
-generated: 1
+generated: true
 uid: Services88-TimeZone-UpdateTimeZoneData
 ---
 

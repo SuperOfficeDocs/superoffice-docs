@@ -1,6 +1,7 @@
 ---
 title: DEL List/{name}
 uid: v1ListEntity_DeleteListEntityByName
+generated: true
 ---
 
 # DEL List/{name}
@@ -49,7 +50,7 @@ No Content
 DELETE /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

@@ -1,6 +1,7 @@
 ---
 title: GET Preference/{section}/{key}/{prefLevel}
 uid: v1Preference_GetPrefValueAtLevel
+generated: true
 ---
 
 # GET Preference/{section}/{key}/{prefLevel}
@@ -57,7 +58,7 @@ OK
 GET /api/v1/Preference/{section}/{key}/{prefLevel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -66,5 +67,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"cumque"
+"ut"
 ```

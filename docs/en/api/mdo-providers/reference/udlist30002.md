@@ -1,17 +1,11 @@
 ---
 uid: udlist30002
 title: udlist30002
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "udlist30002"
+keywords: mdoprovider mdo provider udlist30002
+description: MDO provider for the ChatService
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "udlist30002" MDO List

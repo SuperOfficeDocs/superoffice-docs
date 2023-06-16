@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetConnectorCapabilityNames
 uid: v1QuoteAgent_GetConnectorCapabilityNames
+generated: true
 ---
 
 # POST Agents/Quote/GetConnectorCapabilityNames
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectorCapabilityNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 352
+  "QuoteConnectionId": 420
 }
 ```
 
@@ -82,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "voluptatibus",
-  "quasi"
+  "exercitationem",
+  "quisquam"
 ]
 ```

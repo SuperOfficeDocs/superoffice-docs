@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveWebPanelEntity
 uid: v1ListAgent_SaveWebPanelEntity
+generated: true
 ---
 
 # POST Agents/List/SaveWebPanelEntity
@@ -102,30 +103,30 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 756,
-  "Name": "Gaylord Group",
-  "Tooltip": "aut",
+  "WebPanelId": 299,
+  "Name": "Torphy-Leannon",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "Rank": 857,
+  "Rank": 430,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnCentral": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Toy, Harvey and Kilback",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Lemke, Moen and Boyer",
   "Url": "http://www.example.com/",
-  "ProgId": "libero",
-  "Icon": 643,
+  "ProgId": "vero",
+  "Icon": 679,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -137,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 768,
-  "Name": "Cruickshank, Green and Wolff",
-  "Tooltip": "doloremque",
-  "Deleted": false,
-  "Rank": 515,
+  "WebPanelId": 512,
+  "Name": "Schaefer, Kub and Eichmann",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "Rank": 286,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Johnston-Wolff",
+  "ShowInStatusBar": true,
+  "WindowName": "Yundt LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "neque",
-  "Icon": 895,
+  "ProgId": "sed",
+  "Icon": 975,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 592
     }
   }
 }

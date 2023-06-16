@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentType/Items/{id}/UserGroups
 uid: v1PaymentTypeList_GetPaymentTypeUserGroupsForListItem
+generated: true
 ---
 
 # GET List/PaymentType/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Gleichner-Krajcik",
-    "ToolTip": "Est non id.",
-    "Deleted": false,
-    "Rank": 359,
-    "Type": "saepe",
-    "ColorBlock": 644,
-    "IconHint": "quod",
+    "Id": 204,
+    "Name": "Schimmel, Fahey and Cremin",
+    "ToolTip": "Maxime ex rerum sunt.",
+    "Deleted": true,
+    "Rank": 782,
+    "Type": "blanditiis",
+    "ColorBlock": 95,
+    "IconHint": "a",
     "Selected": true,
-    "LastChanged": "2016-03-30T03:51:34.7552114+02:00",
+    "LastChanged": "1999-08-27T16:00:49.1020725+02:00",
     "ChildItems": [
       {
-        "Id": 608,
-        "Name": "Reichert, Wolf and Stracke",
-        "ToolTip": "Incidunt velit aut sed.",
+        "Id": 284,
+        "Name": "Bode-Parker",
+        "ToolTip": "Possimus numquam omnis rerum.",
         "Deleted": false,
-        "Rank": 329,
-        "Type": "et",
-        "ColorBlock": 546,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "1998-12-15T03:51:34.7552114+01:00",
+        "Rank": 539,
+        "Type": "tempora",
+        "ColorBlock": 609,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "1998-01-29T16:00:49.1020725+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "beatae",
+        "StyleHint": "animi",
         "Hidden": true,
-        "FullName": "Mabel Murray",
+        "FullName": "Zora Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 425
+            "FieldType": "System.Int32",
+            "FieldLength": 986
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "praesentium",
-    "Hidden": true,
-    "FullName": "Carole Mitchell",
+    "ExtraInfo": "et",
+    "StyleHint": "vero",
+    "Hidden": false,
+    "FullName": "Austen Kelton Emard I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldType": "System.String",
+        "FieldLength": 143
       }
     }
   }

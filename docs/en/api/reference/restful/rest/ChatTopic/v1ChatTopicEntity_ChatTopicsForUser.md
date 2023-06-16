@@ -1,6 +1,7 @@
 ---
 title: GET ChatTopic/ForCurrentUser
 uid: v1ChatTopicEntity_ChatTopicsForUser
+generated: true
 ---
 
 # GET ChatTopic/ForCurrentUser
@@ -86,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,21 +98,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 774,
-    "Name": "Reynolds Inc and Sons",
-    "Description": "Re-contextualized client-server hardware",
-    "WelcomeMessage": "sunt",
+    "ChatTopicId": 972,
+    "Name": "Osinski, Ratke and Nolan",
+    "Description": "Realigned local time-frame",
+    "WelcomeMessage": "fuga",
     "Language": null,
-    "LastAccept": "2002-03-25T03:51:33.2398098+01:00",
-    "SecondsPrAccept": 657,
-    "AlertRecipient": "optio",
+    "LastAccept": "2017-01-01T16:00:47.6803565+01:00",
+    "SecondsPrAccept": 5,
+    "AlertRecipient": "quibusdam",
     "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "asperiores",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "delectus",
-    "WarnNewChatMinutes": 564,
-    "WarnManagerNewChatMinutes": 712,
+    "CollectConsent": true,
+    "BadgeHeader": "illum",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "officiis",
+    "WarnNewChatMinutes": 922,
+    "WarnManagerNewChatMinutes": 722,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
@@ -120,20 +121,20 @@ Content-Type: application/json; charset=utf-8
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 788,
-    "WarnManagerChatMessageMinutes": 222,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 980,
-    "OfflineFormQueueLength": 71,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 317,
+    "WarnManagerChatMessageMinutes": 432,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 183,
+    "OfflineFormQueueLength": 631,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "a",
+    "WidgetRatingText": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 736
+        "FieldType": "System.Int32",
+        "FieldLength": 212
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultDocumentTemplateLanguage
 uid: v1ListAgent_CreateDefaultDocumentTemplateLanguage
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultDocumentTemplateLanguage
@@ -64,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 903,
-  "LanguageCode": "provident"
+  "DocumentTemplateId": 803,
+  "LanguageCode": "deserunt"
 }
 ```
 

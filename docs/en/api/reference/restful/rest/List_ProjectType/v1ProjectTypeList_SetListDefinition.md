@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProjectType
 uid: v1ProjectTypeList_SetListDefinition
+generated: true
 ---
 
 # PUT List/ProjectType
@@ -87,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 141,
-  "Name": "Haley, Lubowitz and Lubowitz",
-  "Tooltip": "quo",
+  "Id": 58,
+  "Name": "Runolfsson-Will",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "Rank": 375,
+  "Rank": 962,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eos",
+  "ListType": "suscipit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 420,
-  "Name": "Gerhold, Feil and Zieme",
-  "Tooltip": "aspernatur",
+  "Id": 310,
+  "Name": "Jacobson Group",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "Rank": 645,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sapiente",
+  "Rank": 78,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ducimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 721
+      "FieldType": "System.Int32",
+      "FieldLength": 443
     }
   }
 }

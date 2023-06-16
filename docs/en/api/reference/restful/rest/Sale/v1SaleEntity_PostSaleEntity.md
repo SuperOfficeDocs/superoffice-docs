@@ -1,6 +1,7 @@
 ---
 title: POST Sale
 uid: v1SaleEntity_PostSaleEntity
+generated: true
 ---
 
 # POST Sale
@@ -171,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "earum",
+  "SaleText": "nihil",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -180,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-10-23T03:51:33.9115309+02:00",
-  "Amount": 11263.596,
-  "SaleId": 324,
-  "Earning": 19032.782,
-  "EarningPercent": 23420.381999999998,
-  "Heading": "repellat",
-  "Number": "1258048",
-  "Probability": 228,
-  "CreatedDate": "2007-03-08T03:51:33.9115309+01:00",
-  "UpdatedDate": "2002-11-23T03:51:33.9115309+01:00",
+  "Saledate": "2012-06-02T16:00:48.22717+02:00",
+  "Amount": 22289.007999999998,
+  "SaleId": 264,
+  "Earning": 30399.8,
+  "EarningPercent": 29907.762,
+  "Heading": "nesciunt",
+  "Number": "889290",
+  "Probability": 508,
+  "CreatedDate": "2003-09-06T16:00:48.22717+02:00",
+  "UpdatedDate": "1997-09-04T16:00:48.22717+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 410,
+  "ActiveLinks": 244,
   "Links": [
     {
-      "EntityName": "Streich, Abbott and Torp",
-      "Id": 555,
-      "Description": "Multi-channelled neutral knowledge user",
-      "ExtraInfo": "quaerat",
-      "LinkId": 231
+      "EntityName": "Adams-O'Conner",
+      "Id": 783,
+      "Description": "Devolved regional utilisation",
+      "ExtraInfo": "aspernatur",
+      "LinkId": 621
     },
     {
-      "EntityName": "Streich, Abbott and Torp",
-      "Id": 555,
-      "Description": "Multi-channelled neutral knowledge user",
-      "ExtraInfo": "quaerat",
-      "LinkId": 231
+      "EntityName": "Adams-O'Conner",
+      "Id": 783,
+      "Description": "Devolved regional utilisation",
+      "ExtraInfo": "aspernatur",
+      "LinkId": 621
     }
   ],
-  "NextDueDate": "2004-03-27T03:51:33.9115309+01:00",
-  "Postit": "qui",
+  "NextDueDate": "2009-01-23T16:00:48.22717+01:00",
+  "Postit": "molestiae",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2020-03-17T03:51:33.9115309+01:00",
+  "ReopenDate": "2018-08-14T16:00:48.22717+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Christiansen-Berge",
-      "Comment": "delectus",
-      "StakeholderRoleId": 423,
-      "CountryId": 275,
-      "PersonId": 762,
-      "EmailDescription": "domenica@kuhlman.ca",
-      "EmailId": 386,
-      "EmailAddress": "stacy_tromp@volkman.biz",
-      "PhoneId": 349,
-      "ContactName": "Torp, Hickle and Pfannerstill",
-      "ContactId": 960,
-      "SaleId": 969,
-      "Mrmrs": "sit",
-      "Firstname": "Pamela",
-      "MiddleName": "Jenkins, Botsford and Pfannerstill",
-      "Lastname": "Lebsack",
-      "SaleStakeholderId": 754,
-      "Rank": 409,
-      "Phone": "1-988-451-8719 x7210"
+      "StakeholderRoleName": "Halvorson-Hoppe",
+      "Comment": "odit",
+      "StakeholderRoleId": 337,
+      "CountryId": 807,
+      "PersonId": 174,
+      "EmailDescription": "maci.wilkinson@kautzer.com",
+      "EmailId": 215,
+      "EmailAddress": "ollie@oreillywintheiser.biz",
+      "PhoneId": 388,
+      "ContactName": "Olson, Gusikowski and Becker",
+      "ContactId": 136,
+      "SaleId": 523,
+      "Mrmrs": "sapiente",
+      "Firstname": "Sabina",
+      "MiddleName": "Tromp, Pagac and Thompson",
+      "Lastname": "Flatley",
+      "SaleStakeholderId": 121,
+      "Rank": 600,
+      "Phone": "838-114-9555 x912"
     }
   ],
-  "ActiveErpLinks": 885,
+  "ActiveErpLinks": 196,
   "UserDefinedFields": {
-    "SuperOffice:1": "Vaughn Mertz DVM",
-    "SuperOffice:2": "789239022"
+    "SuperOffice:1": "1969172795",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "nisi"
   },
   "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "quas"
+    "CustomFields1": "omnis",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2001-06-28T03:51:33.9115309+02:00",
-  "PublishTo": "2019-06-01T03:51:33.9115309+02:00",
-  "PublishFrom": "2004-11-14T03:51:33.9115309+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1996-03-24T16:00:48.2427982+01:00",
+  "PublishTo": "2021-01-06T16:00:48.2427982+01:00",
+  "PublishFrom": "2022-04-21T16:00:48.2427982+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 779,
+      "VisibleId": 259,
       "Visibility": "All",
-      "DisplayValue": "saepe"
+      "DisplayValue": "est"
     },
     {
-      "VisibleId": 779,
+      "VisibleId": 259,
       "Visibility": "All",
-      "DisplayValue": "saepe"
+      "DisplayValue": "est"
     }
   ]
 }
@@ -282,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "aut",
+  "SaleText": "doloribus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -291,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2012-05-15T03:51:33.9271534+02:00",
-  "Amount": 8242.42,
-  "SaleId": 823,
-  "Earning": 22931.478,
-  "EarningPercent": 28933.088,
-  "Heading": "iusto",
-  "Number": "977360",
-  "Probability": 683,
-  "CreatedDate": "2008-09-04T03:51:33.9271534+02:00",
-  "UpdatedDate": "1996-01-18T03:51:33.9271534+01:00",
+  "Saledate": "1996-10-19T16:00:48.2427982+02:00",
+  "Amount": 20449.35,
+  "SaleId": 824,
+  "Earning": 21486.703999999998,
+  "EarningPercent": 28810.861999999997,
+  "Heading": "quia",
+  "Number": "103593",
+  "Probability": 343,
+  "CreatedDate": "2012-12-21T16:00:48.2427982+01:00",
+  "UpdatedDate": "1999-05-31T16:00:48.2427982+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 224,
+  "ActiveLinks": 881,
   "Links": [
     {
-      "EntityName": "Torphy-Jacobs",
-      "Id": 30,
-      "Description": "Diverse regional functionalities",
-      "ExtraInfo": "eum",
-      "LinkId": 281,
+      "EntityName": "Mann, Johnson and Howe",
+      "Id": 864,
+      "Description": "Fully-configurable static framework",
+      "ExtraInfo": "aut",
+      "LinkId": 926,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 429
+          "FieldLength": 921
         }
       }
     }
   ],
-  "NextDueDate": "1999-07-01T03:51:33.9271534+02:00",
-  "Postit": "eius",
+  "NextDueDate": "2004-03-07T16:00:48.2427982+01:00",
+  "Postit": "voluptates",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2004-07-11T03:51:33.9271534+02:00",
+  "ReopenDate": "2013-01-16T16:00:48.2427982+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "O'Kon, Medhurst and Pfannerstill",
-      "Comment": "quo",
-      "StakeholderRoleId": 89,
-      "CountryId": 637,
-      "PersonId": 540,
-      "EmailDescription": "ruben.beier@kovacek.us",
-      "EmailId": 526,
-      "EmailAddress": "linnea@damore.name",
-      "PhoneId": 806,
-      "ContactName": "Anderson, Larkin and Yundt",
-      "ContactId": 402,
-      "SaleId": 539,
-      "Mrmrs": "eius",
-      "Firstname": "Luella",
-      "MiddleName": "Nicolas LLC",
-      "Lastname": "Koelpin",
-      "SaleStakeholderId": 44,
-      "Rank": 975,
-      "Phone": "1-085-080-4677",
+      "StakeholderRoleName": "Dickens Group",
+      "Comment": "doloribus",
+      "StakeholderRoleId": 929,
+      "CountryId": 979,
+      "PersonId": 876,
+      "EmailDescription": "amber@kuvalis.ca",
+      "EmailId": 828,
+      "EmailAddress": "carlotta.turcotte@macejkovic.ca",
+      "PhoneId": 938,
+      "ContactName": "Konopelski LLC",
+      "ContactId": 280,
+      "SaleId": 303,
+      "Mrmrs": "aut",
+      "Firstname": "Werner",
+      "MiddleName": "Torp, Kohler and Feeney",
+      "Lastname": "Schumm",
+      "SaleStakeholderId": 469,
+      "Rank": 267,
+      "Phone": "360.705.8315",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 908
         }
       }
     }
   ],
-  "ActiveErpLinks": 779,
+  "ActiveErpLinks": 260,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Bettye Koepp DDS",
-    "SuperOffice:2": "1221525418"
+    "SuperOffice:1": "Miss Litzy Robel DVM",
+    "SuperOffice:2": "1532938956"
   },
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "quam"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "omnis"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2018-10-12T03:51:33.9271534+02:00",
-  "PublishTo": "1999-01-27T03:51:33.9271534+01:00",
-  "PublishFrom": "2020-01-07T03:51:33.9271534+01:00",
+  "PublishEventDate": "2004-05-03T16:00:48.2427982+02:00",
+  "PublishTo": "2005-07-01T16:00:48.2427982+02:00",
+  "PublishFrom": "2020-06-09T16:00:48.2427982+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 947,
+      "VisibleId": 452,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 322
+          "FieldLength": 365
         }
       }
     },
     {
-      "VisibleId": 947,
+      "VisibleId": 452,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 322
+          "FieldLength": 365
         }
       }
     }
@@ -407,12 +408,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 961
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

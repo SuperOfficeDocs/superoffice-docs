@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetMrMrses
 uid: v1ListAgent_GetMrMrses
+generated: true
 ---
 
 # POST Agents/List/GetMrMrses
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetMrMrses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 736,
-    "Value": "ducimus",
-    "Tooltip": "tempore",
+    "Id": 172,
+    "Value": "nobis",
+    "Tooltip": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldLength": 855
       }
     }
   },
   {
-    "Id": 736,
-    "Value": "ducimus",
-    "Tooltip": "tempore",
+    "Id": 172,
+    "Value": "nobis",
+    "Tooltip": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldLength": 855
       }
     }
   }

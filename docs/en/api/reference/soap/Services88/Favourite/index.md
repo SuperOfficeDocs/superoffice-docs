@@ -1,7 +1,7 @@
 ---
 title: Services88.FavouriteAgent SOAP
 uid: Services88-Favourite-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Favourite SOAP

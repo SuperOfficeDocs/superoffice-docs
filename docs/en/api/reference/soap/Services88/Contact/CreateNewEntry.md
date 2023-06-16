@@ -1,6 +1,6 @@
 ---
 title: Services88.ContactAgent.CreateNewEntry SOAP
-generated: 1
+generated: true
 uid: Services88-Contact-CreateNewEntry
 ---
 

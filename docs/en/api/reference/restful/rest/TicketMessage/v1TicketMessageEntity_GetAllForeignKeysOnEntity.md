@@ -1,6 +1,7 @@
 ---
 title: GET TicketMessage/{id}/ForeignKey
 uid: v1TicketMessageEntity_GetAllForeignKeysOnEntity
+generated: true
 ---
 
 # GET TicketMessage/{id}/ForeignKey
@@ -54,7 +55,7 @@ OK
 GET /api/v1/TicketMessage/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -64,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "laudantium",
-  "2": "inventore"
+  "1": "velit",
+  "2": "ab"
 }
 ```

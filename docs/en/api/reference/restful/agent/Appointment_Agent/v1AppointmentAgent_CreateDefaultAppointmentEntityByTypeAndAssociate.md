@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 uid: v1AppointmentAgent_CreateDefaultAppointmentEntityByTypeAndAssociate
+generated: true
 ---
 
 # POST Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
@@ -110,6 +111,9 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -132,7 +136,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 862
+  "AssociateId": 618
 }
 ```
 
@@ -147,63 +151,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-07-19T03:51:26.3031944+02:00",
-  "AppointmentId": 728,
-  "Description": "Polarised needs-based flexibility",
-  "StartDate": "2021-06-10T03:51:26.3031944+02:00",
-  "EndDate": "2004-11-21T03:51:26.3031944+01:00",
+  "CreatedDate": "2006-04-22T16:00:39.9300897+02:00",
+  "AppointmentId": 583,
+  "Description": "Inverse contextually-based task-force",
+  "StartDate": "2021-08-02T16:00:39.9300897+02:00",
+  "EndDate": "2021-02-03T16:00:39.9300897+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 517,
+  "MotherId": 919,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-12-05T03:51:26.3031944+01:00",
+  "UpdatedDate": "1998-08-25T16:00:39.9457178+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 185,
+  "ActiveLinks": 426,
   "Links": [
     {
-      "EntityName": "Krajcik LLC",
-      "Id": 99,
-      "Description": "Integrated solution-oriented function",
-      "ExtraInfo": "ea",
-      "LinkId": 20,
+      "EntityName": "Greenfelder-Renner",
+      "Id": 236,
+      "Description": "Implemented modular function",
+      "ExtraInfo": "quae",
+      "LinkId": 582,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 303
+          "FieldLength": 334
         }
       }
     }
   ],
-  "AlarmLeadTime": "explicabo",
+  "AlarmLeadTime": "facilis",
   "HasAlarm": false,
-  "ColorIndex": 448,
-  "IsFree": false,
+  "ColorIndex": 687,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "aperiam",
-  "LeadTime": "incidunt",
-  "Location": "esse",
-  "RejectCounter": 43,
-  "RejectReason": "implement B2C architectures",
+  "LagTime": "dicta",
+  "LeadTime": "illo",
+  "Location": "dolorem",
+  "RejectCounter": 170,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 747,
-      "PersonId": 892,
-      "ContactId": 586,
-      "EmailId": 752,
+      "AssociateId": 473,
+      "PersonId": 188,
+      "ContactId": 977,
+      "EmailId": 918,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 747,
-      "PersonId": 892,
-      "ContactId": 586,
-      "EmailId": 752,
+      "AssociateId": 473,
+      "PersonId": 188,
+      "ContactId": 977,
+      "EmailId": 918,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -211,58 +215,61 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-09-29T03:51:26.3031944+02:00",
-  "HasConflict": false,
+  "ActiveDate": "1999-03-02T16:00:39.9457178+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 822,
+  "PreferredTZLocation": 356,
   "Sale": null,
-  "SuggestedAppointmentId": 688,
+  "SuggestedAppointmentId": 41,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "facere",
+  "CentralserviceVideomeetId": "id",
+  "Title": "aut",
+  "Agenda": "autem",
+  "InternalNotes": "sint",
   "UserDefinedFields": {
-    "SuperOffice:1": "Marianne Blanda",
-    "SuperOffice:2": "Fabian Ankunding"
+    "SuperOffice:1": "Boris Bechtelar DDS",
+    "SuperOffice:2": "Randy Reichel"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "nisi"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "consequuntur"
   },
   "CustomFields": {
-    "CustomFields1": "quod",
-    "CustomFields2": "non"
+    "CustomFields1": "est",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2022-12-02T03:51:26.3031944+01:00",
-  "PublishTo": "2020-12-25T03:51:26.3031944+01:00",
-  "PublishFrom": "2011-06-01T03:51:26.3031944+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1997-08-23T16:00:39.9457178+02:00",
+  "PublishTo": "2012-08-15T16:00:39.9457178+02:00",
+  "PublishFrom": "2003-05-19T16:00:39.9457178+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 1001,
+      "VisibleId": 472,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 719
+          "FieldLength": 889
         }
       }
     },
     {
-      "VisibleId": 1001,
+      "VisibleId": 472,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 719
+          "FieldLength": 889
         }
       }
     }
@@ -272,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 697
+      "FieldLength": 664
     }
   }
 }

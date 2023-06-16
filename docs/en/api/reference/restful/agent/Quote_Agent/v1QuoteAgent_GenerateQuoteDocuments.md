@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GenerateQuoteDocuments
 uid: v1QuoteAgent_GenerateQuoteDocuments
+generated: true
 ---
 
 # POST Agents/Quote/GenerateQuoteDocuments
@@ -86,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 436,
-  "EmailBodyTemplateId": 939,
-  "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 715,
-  "IncludeAttachments": true,
-  "RawMailSubject": "ea"
+  "QuoteVersionId": 206,
+  "EmailBodyTemplateId": 788,
+  "AttachMainDocument": false,
+  "QuotedProductsTemplateId": 134,
+  "IncludeAttachments": false,
+  "RawMailSubject": "minus"
 }
 ```
 
@@ -106,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 795,
-  "QuotedProductsId": 924,
+  "QuoteDocumentId": 229,
+  "QuotedProductsId": 349,
   "QuoteAttachmentIds": [
-    39,
-    996
+    312,
+    281
   ],
-  "MailBody": "optio",
-  "MailSubject": "velit",
-  "ToEmail": "alycia_koepp@parisian.info",
-  "ToFullName": "Francis Schoen",
-  "ErrorMessage": "sapiente",
+  "MailBody": "est",
+  "MailSubject": "temporibus",
+  "ToEmail": "danielle@west.ca",
+  "ToFullName": "Cory Bogisich",
+  "ErrorMessage": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 431
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   }
 }

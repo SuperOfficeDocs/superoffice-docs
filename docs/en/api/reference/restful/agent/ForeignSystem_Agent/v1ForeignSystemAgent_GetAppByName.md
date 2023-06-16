@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetAppByName
 uid: v1ForeignSystemAgent_GetAppByName
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetAppByName
@@ -82,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Tromp, Cremin and Kuhlman"
+  "ApplicationName": "Collier, Schaefer and Lindgren"
 }
 ```
 
@@ -93,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 802,
-  "Name": "Nikolaus, Hagenes and Reichert",
-  "CreatedDate": "2014-03-03T03:51:27.3342054+01:00",
-  "UpdatedDate": "2002-01-11T03:51:27.3342054+01:00",
+  "ForeignAppId": 85,
+  "Name": "Marvin-Stamm",
+  "CreatedDate": "2013-10-28T16:00:41.0549706+01:00",
+  "UpdatedDate": "2007-08-15T16:00:41.0549706+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 423,
-      "Name": "Prohaska-Windler",
-      "CreatedDate": "2008-03-11T03:51:27.3498217+01:00",
-      "UpdatedDate": "2002-04-16T03:51:27.3498217+02:00",
-      "AssociateFullName": "Sigmund Conroy",
-      "CreatedBy": "aut",
-      "UpdatedBy": "ratione",
-      "DeviceIdentifier": "nesciunt",
-      "ForeignAppId": 897,
+      "ForeignDeviceId": 805,
+      "Name": "Bosco, Bayer and Walker",
+      "CreatedDate": "2010-06-12T16:00:41.0549706+02:00",
+      "UpdatedDate": "2006-12-18T16:00:41.0549706+01:00",
+      "AssociateFullName": "Rebeca Rau",
+      "CreatedBy": "perspiciatis",
+      "UpdatedBy": "ipsa",
+      "DeviceIdentifier": "reprehenderit",
+      "ForeignAppId": 797,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 928
+          "FieldType": "System.Int32",
+          "FieldLength": 647
         }
       }
     }
@@ -124,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldType": "System.String",
+      "FieldLength": 701
     }
   }
 }

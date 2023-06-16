@@ -1,6 +1,7 @@
 ---
 title: PUT Appointment/{id}
 uid: v1AppointmentEntity_PutAppointmentEntity
+generated: true
 ---
 
 # PUT Appointment/{id}
@@ -99,6 +100,9 @@ The AppointmentEntity to be saved.
 | CautionWarning | String | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | String | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | String | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
+| Title | String | The title of the appointment. |
+| Agenda | String | The agenda of the appointment. |
+| InternalNotes | String | Internal notes for the appointment. |
 | UserDefinedFields | Object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | Object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | Object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -169,6 +173,9 @@ AppointmentEntity updated.
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -187,7 +194,7 @@ AppointmentEntity updated.
 PUT /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -195,62 +202,62 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-11-12T03:51:33.0523479+01:00",
-  "AppointmentId": 825,
-  "Description": "Cross-group multi-tasking system engine",
-  "StartDate": "2010-02-15T03:51:33.0523479+01:00",
-  "EndDate": "2021-04-18T03:51:33.0523479+02:00",
+  "CreatedDate": "2014-08-18T16:00:47.4460098+02:00",
+  "AppointmentId": 652,
+  "Description": "Digitized bandwidth-monitored interface",
+  "StartDate": "2005-04-25T16:00:47.4460098+02:00",
+  "EndDate": "2013-10-09T16:00:47.4460098+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 17,
+  "MotherId": 352,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-12-16T03:51:33.0523479+01:00",
+  "UpdatedDate": "2007-12-11T16:00:47.4460098+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 993,
+  "ActiveLinks": 559,
   "Links": [
     {
-      "EntityName": "Waelchi, Tromp and Fadel",
-      "Id": 503,
-      "Description": "Total national moderator",
-      "ExtraInfo": "totam",
-      "LinkId": 358
+      "EntityName": "Schulist-King",
+      "Id": 364,
+      "Description": "Customizable 24/7 emulation",
+      "ExtraInfo": "illo",
+      "LinkId": 205
     },
     {
-      "EntityName": "Waelchi, Tromp and Fadel",
-      "Id": 503,
-      "Description": "Total national moderator",
-      "ExtraInfo": "totam",
-      "LinkId": 358
+      "EntityName": "Schulist-King",
+      "Id": 364,
+      "Description": "Customizable 24/7 emulation",
+      "ExtraInfo": "illo",
+      "LinkId": 205
     }
   ],
-  "AlarmLeadTime": "molestias",
-  "HasAlarm": true,
-  "ColorIndex": 66,
-  "IsFree": true,
+  "AlarmLeadTime": "minima",
+  "HasAlarm": false,
+  "ColorIndex": 454,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "aut",
-  "LeadTime": "sed",
-  "Location": "et",
-  "RejectCounter": 945,
+  "LagTime": "placeat",
+  "LeadTime": "non",
+  "Location": "molestiae",
+  "RejectCounter": 37,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 934,
-      "PersonId": 613,
-      "ContactId": 192,
-      "EmailId": 674,
+      "AssociateId": 786,
+      "PersonId": 715,
+      "ContactId": 733,
+      "EmailId": 37,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 934,
-      "PersonId": 613,
-      "ContactId": 192,
-      "EmailId": 674,
+      "AssociateId": 786,
+      "PersonId": 715,
+      "ContactId": 733,
+      "EmailId": 37,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -258,44 +265,47 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-05-12T03:51:33.0523479+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2000-07-23T16:00:47.4460098+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 438,
+  "PreferredTZLocation": 853,
   "Sale": null,
-  "SuggestedAppointmentId": 822,
+  "SuggestedAppointmentId": 946,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "accusantium",
+  "CentralserviceVideomeetId": "harum",
+  "Title": "a",
+  "Agenda": "aut",
+  "InternalNotes": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "1251181251",
-    "SuperOffice:2": "20984722"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "May Marquardt"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "fuga",
+    "ExtraFields2": "perspiciatis"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2001-07-04T03:51:33.0679673+02:00",
-  "PublishTo": "2013-09-12T03:51:33.0679673+02:00",
-  "PublishFrom": "2011-08-30T03:51:33.0679673+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1998-02-23T16:00:47.4616291+01:00",
+  "PublishTo": "2006-03-14T16:00:47.4616291+01:00",
+  "PublishFrom": "2012-11-25T16:00:47.4616291+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 613,
+      "VisibleId": 2,
       "Visibility": "All",
-      "DisplayValue": "sed"
+      "DisplayValue": "in"
     },
     {
-      "VisibleId": 613,
+      "VisibleId": 2,
       "Visibility": "All",
-      "DisplayValue": "sed"
+      "DisplayValue": "in"
     }
   ]
 }
@@ -312,122 +322,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-02-09T03:51:33.0679673+01:00",
-  "AppointmentId": 188,
-  "Description": "Devolved heuristic firmware",
-  "StartDate": "2012-06-13T03:51:33.0679673+02:00",
-  "EndDate": "2019-12-05T03:51:33.0679673+01:00",
+  "CreatedDate": "2010-07-21T16:00:47.4616291+02:00",
+  "AppointmentId": 179,
+  "Description": "Optimized foreground pricing structure",
+  "StartDate": "1999-01-31T16:00:47.4616291+01:00",
+  "EndDate": "1996-07-12T16:00:47.4616291+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 384,
+  "MotherId": 792,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-10-26T03:51:33.0679673+02:00",
+  "UpdatedDate": "2002-10-06T16:00:47.4616291+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 527,
+  "ActiveLinks": 665,
   "Links": [
     {
-      "EntityName": "Considine-Reichel",
-      "Id": 214,
-      "Description": "Realigned well-modulated function",
-      "ExtraInfo": "explicabo",
-      "LinkId": 628,
+      "EntityName": "Schoen-Walker",
+      "Id": 891,
+      "Description": "Right-sized attitude-oriented solution",
+      "ExtraInfo": "velit",
+      "LinkId": 683,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldType": "System.Int32",
+          "FieldLength": 99
         }
       }
     }
   ],
-  "AlarmLeadTime": "natus",
-  "HasAlarm": true,
-  "ColorIndex": 322,
+  "AlarmLeadTime": "aspernatur",
+  "HasAlarm": false,
+  "ColorIndex": 9,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "et",
-  "Location": "voluptas",
-  "RejectCounter": 695,
+  "LagTime": "similique",
+  "LeadTime": "non",
+  "Location": "sequi",
+  "RejectCounter": 115,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 348,
-      "PersonId": 321,
-      "ContactId": 997,
-      "EmailId": 163,
-      "SendEmail": false,
+      "AssociateId": 662,
+      "PersonId": 755,
+      "ContactId": 453,
+      "EmailId": 292,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 348,
-      "PersonId": 321,
-      "ContactId": 997,
-      "EmailId": 163,
-      "SendEmail": false,
+      "AssociateId": 662,
+      "PersonId": 755,
+      "ContactId": 453,
+      "EmailId": 292,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-07-14T03:51:33.0679673+02:00",
+  "ActiveDate": "2013-10-17T16:00:47.4616291+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 667,
+  "PreferredTZLocation": 689,
   "Sale": null,
-  "SuggestedAppointmentId": 752,
+  "SuggestedAppointmentId": 891,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "mollitia",
+  "CentralserviceVideomeetId": "alias",
+  "Title": "vel",
+  "Agenda": "velit",
+  "InternalNotes": "ab",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Jessie Rath"
+    "SuperOffice:1": "Kyler King DDS",
+    "SuperOffice:2": "Kenyatta Barton"
   },
   "ExtraFields": {
-    "ExtraFields1": "aliquam",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "numquam",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "laudantium"
+    "CustomFields1": "illum",
+    "CustomFields2": "vitae"
   },
-  "PublishEventDate": "2001-08-06T03:51:33.0679673+02:00",
-  "PublishTo": "2003-08-31T03:51:33.0679673+02:00",
-  "PublishFrom": "2022-10-19T03:51:33.0679673+02:00",
+  "PublishEventDate": "2010-09-18T16:00:47.4616291+02:00",
+  "PublishTo": "2005-12-18T16:00:47.4616291+01:00",
+  "PublishFrom": "2019-05-12T16:00:47.4616291+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 897,
+      "VisibleId": 898,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldLength": 680
         }
       }
     },
     {
-      "VisibleId": 897,
+      "VisibleId": 898,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldLength": 680
         }
       }
     }
@@ -437,7 +450,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 357
     }
   },
   "_Links": {

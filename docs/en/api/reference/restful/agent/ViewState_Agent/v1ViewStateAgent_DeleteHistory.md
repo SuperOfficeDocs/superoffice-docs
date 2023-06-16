@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ViewState/DeleteHistory
 uid: v1ViewStateAgent_DeleteHistory
+generated: true
 ---
 
 # POST Agents/ViewState/DeleteHistory
@@ -68,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Casper-Ziemann",
-  "Id": 791
+  "HistoryName": "Ledner-Lowe",
+  "Id": 864
 }
 ```
 

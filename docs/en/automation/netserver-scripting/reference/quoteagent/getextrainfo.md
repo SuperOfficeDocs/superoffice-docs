@@ -3,13 +3,9 @@ uid: quoteagent-getextrainfo
 title: QuoteAgent.GetExtraInfo event method
 description: Scripting events called on the GetExtraInfo method on the QuoteAgent service agent.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 # QuoteAgent.GetExtraInfo
 

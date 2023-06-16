@@ -2,17 +2,10 @@
 uid: Participants
 title: Participants
 description: Archive list provider for the participants list of a booking (multi-person appointment)
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "Participants"
+keywords: Participants archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "Participants"
@@ -189,6 +182,10 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |personContact/name| *None* |Company name|  |
 |personContact/department| *None* |Department|  |
 |personContact/nameDepartment| *None* |Company: Displays the company an activity is linked to|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/hasInfoText| *None* |Has note: Displays an icon indicating if there is additional information available about the contact|  |
 |personContact/hasInterests| *None* |Has interests: Displays an Icon indicating if the contact has active interests|  |
 |personContact/associateId| *None* |Our contact: Displays our contact|  |
@@ -228,7 +225,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=personCountry,kanaFirstName,personEmail
+GET /api/v1/archive/Participants?$select=personContact/email/emailLastBounce,personEmail,personUpdatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

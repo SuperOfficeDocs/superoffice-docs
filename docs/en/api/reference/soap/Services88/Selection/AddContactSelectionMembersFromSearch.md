@@ -1,6 +1,6 @@
 ---
 title: Services88.SelectionAgent.AddContactSelectionMembersFromSearch SOAP
-generated: 1
+generated: true
 uid: Services88-Selection-AddContactSelectionMembersFromSearch
 ---
 

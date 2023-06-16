@@ -1,7 +1,7 @@
 ---
 title: Services88.TooltipsAgent SOAP
 uid: Services88-Tooltips-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Tooltips SOAP

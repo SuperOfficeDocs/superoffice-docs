@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetProjectTypeList
 uid: v1ListAgent_GetProjectTypeList
+generated: true
 ---
 
 # POST Agents/List/GetProjectTypeList
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 294,
-    "Value": "nobis",
-    "Tooltip": "id",
+    "Id": 421,
+    "Value": "quo",
+    "Tooltip": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldLength": 292
       }
     }
   },
   {
-    "Id": 294,
-    "Value": "nobis",
-    "Tooltip": "id",
+    "Id": 421,
+    "Value": "quo",
+    "Tooltip": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldLength": 292
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuoteAlternative
 uid: v1QuoteAgent_GetQuoteAlternative
+generated: true
 ---
 
 # POST Agents/Quote/GetQuoteAlternative
@@ -25,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=70
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=669
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -88,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 431,
-  "ERPQuoteAlternativeKey": "unde",
-  "QuoteVersionId": 788,
-  "Name": "Douglas, Veum and Bartoletti",
-  "Description": "Progressive encompassing standardization",
+  "QuoteAlternativeId": 521,
+  "ERPQuoteAlternativeKey": "reiciendis",
+  "QuoteVersionId": 273,
+  "Name": "O'Conner-Sanford",
+  "Description": "Upgradable discrete open architecture",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 1062.426,
-  "ERPDiscountAmount": 24755.466,
-  "DiscountPercent": 3669.9139999999998,
-  "DiscountAmount": 8151.534,
+  "ERPDiscountPercent": 22542.862,
+  "ERPDiscountAmount": 19650.18,
+  "DiscountPercent": 28635.358,
+  "DiscountAmount": 8750.128,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ipsa",
-  "VAT": 29550.486,
-  "EarningPercent": 12617.484,
-  "EarningAmount": 24235.221999999998,
-  "SubTotal": 18694.309999999998,
-  "TotalPrice": 26422.754,
-  "ExtraField1": "mollitia",
-  "ExtraField2": "molestiae",
-  "ExtraField3": "quia",
-  "ExtraField4": "qui",
-  "ExtraField5": "unde",
+  "VATInfo": "ad",
+  "VAT": 1617.144,
+  "EarningPercent": 949.602,
+  "EarningAmount": 10530.24,
+  "SubTotal": 28945.624,
+  "TotalPrice": 2535.406,
+  "ExtraField1": "et",
+  "ExtraField2": "cum",
+  "ExtraField3": "quis",
+  "ExtraField4": "laborum",
+  "ExtraField5": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 884
     }
   }
 }

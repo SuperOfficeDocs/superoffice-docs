@@ -1,6 +1,6 @@
 ---
 title: Services88.FavouriteAgent.GetFavourites SOAP
-generated: 1
+generated: true
 uid: Services88-Favourite-GetFavourites
 ---
 

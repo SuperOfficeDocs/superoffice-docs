@@ -1,6 +1,7 @@
 ---
 title: PUT Table/{tableName}/{id}
 uid: v1TableRecord_UpdateRow
+generated: true
 ---
 
 # PUT Table/{tableName}/{id}

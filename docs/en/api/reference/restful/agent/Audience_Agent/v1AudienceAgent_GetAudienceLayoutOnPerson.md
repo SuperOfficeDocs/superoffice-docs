@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetAudienceLayoutOnPerson
 uid: v1AudienceAgent_GetAudienceLayoutOnPerson
+generated: true
 ---
 
 # POST Agents/Audience/GetAudienceLayoutOnPerson
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 597
+  "PersonId": 861
 }
 ```
 
@@ -93,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 228,
-  "InstanceLayout": "et",
-  "InstanceName": "Stark, Kautzer and Glover",
-  "CreatedDate": "2019-02-16T03:51:26.5999985+01:00",
-  "UpdatedDate": "2006-07-04T03:51:26.5999985+02:00",
+  "AudienceLayoutId": 618,
+  "InstanceLayout": "quisquam",
+  "InstanceName": "Hansen LLC",
+  "CreatedDate": "1997-12-21T16:00:40.1019505+01:00",
+  "UpdatedDate": "2008-01-31T16:00:40.1019505+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -105,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 942
     }
   }
 }

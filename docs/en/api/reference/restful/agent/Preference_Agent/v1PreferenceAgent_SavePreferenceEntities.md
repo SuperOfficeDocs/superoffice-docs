@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/SavePreferenceEntities
 uid: v1PreferenceAgent_SavePreferenceEntities
+generated: true
 ---
 
 # POST Agents/Preference/SavePreferenceEntities
@@ -64,23 +65,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "qui",
+      "RawValue": "et",
       "Specification": null,
-      "DisplayValue": "ut",
-      "DisplayTooltip": "doloribus",
+      "DisplayValue": "cupiditate",
+      "DisplayTooltip": "error",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 858,
-      "PrefDescId": 30,
-      "TableName": "Stiedemann LLC",
-      "UserPreferenceId": 210
+      "TargetId": 618,
+      "PrefDescId": 2,
+      "TableName": "Kuhn-Deckow",
+      "UserPreferenceId": 776
     }
   ],
   "RemoveLowerLevels": false

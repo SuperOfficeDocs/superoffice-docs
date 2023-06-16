@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetPersonImage
 uid: v1PersonAgent_GetPersonImage
+generated: true
 ---
 
 # POST Agents/Person/GetPersonImage
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 584
+  "PersonId": 506
 }
 ```
 

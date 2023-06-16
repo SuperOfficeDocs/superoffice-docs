@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ViewState/PublishAndRetrieveUiEvents
 uid: v1ViewStateAgent_PublishAndRetrieveUiEvents
+generated: true
 ---
 
 # POST Agents/ViewState/PublishAndRetrieveUiEvents
@@ -46,12 +47,13 @@ POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents?$select=name,department
 
 ## Request Body: request 
 
-LatestKnownEventId, PublishEvents 
+LatestKnownEventId, PublishEvents, Metrics 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LatestKnownEventId | Integer |  |
 | PublishEvents | Array |  |
+| Metrics | Array |  |
 
 ## Response:array
 
@@ -85,16 +87,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 399,
+  "LatestKnownEventId": 736,
   "PublishEvents": [
     {
-      "EventId": 116,
-      "EventName": "Durgan LLC",
-      "EntityType": "qui",
-      "EntityKey": 948,
-      "AssociateId": 663,
-      "AssociateName": "Daugherty, Renner and Gibson",
-      "EventDateTime": "2021-02-07T03:51:28.5526663+01:00"
+      "EventId": 530,
+      "EventName": "Welch, Torp and Bartell",
+      "EntityType": "ducimus",
+      "EntityKey": 755,
+      "AssociateId": 235,
+      "AssociateName": "Daugherty Inc and Sons",
+      "EventDateTime": "2020-10-18T16:00:42.4143588+02:00"
+    }
+  ],
+  "Metrics": [
+    {
+      "Name": "Rippin LLC",
+      "Value": 898
+    },
+    {
+      "Name": "Rippin LLC",
+      "Value": 898
     }
   ]
 }
@@ -108,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 154,
-    "EventName": "Kertzmann Group",
-    "EntityType": "corrupti",
-    "EntityKey": 421,
-    "AssociateId": 838,
-    "AssociateName": "Grant, Stoltenberg and Schaden",
-    "EventDateTime": "2013-11-21T03:51:28.5526663+01:00",
+    "EventId": 272,
+    "EventName": "Brekke, Kautzer and Block",
+    "EntityType": "doloremque",
+    "EntityKey": 547,
+    "AssociateId": 950,
+    "AssociateName": "Mann-King",
+    "EventDateTime": "1997-07-01T16:00:42.4143588+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 308
+        "FieldLength": 737
       }
     }
   }

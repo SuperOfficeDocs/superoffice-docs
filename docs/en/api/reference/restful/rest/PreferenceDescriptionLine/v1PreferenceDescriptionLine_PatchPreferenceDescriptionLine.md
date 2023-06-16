@@ -1,6 +1,7 @@
 ---
 title: PATCH PreferenceDescriptionLine/{id}
 uid: v1PreferenceDescriptionLine_PatchPreferenceDescriptionLine
+generated: true
 ---
 
 # PATCH PreferenceDescriptionLine/{id}
@@ -118,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "eveniet",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eveniet",
+    "path": "et",
     "value": {}
   }
 ]
@@ -136,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 926,
-  "PrefDescId": 492,
-  "PrefValue": "perspiciatis",
-  "PrefShowValue": "dolore",
-  "Description": "Sharable local flexibility",
+  "PrefDescLineId": 102,
+  "PrefDescId": 739,
+  "PrefValue": "voluptatum",
+  "PrefShowValue": "quis",
+  "Description": "Balanced transitional knowledge base",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   },
   "_Links": {

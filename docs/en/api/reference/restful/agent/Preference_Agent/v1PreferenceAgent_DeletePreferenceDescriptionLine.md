@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/DeletePreferenceDescriptionLine
 uid: v1PreferenceAgent_DeletePreferenceDescriptionLine
+generated: true
 ---
 
 # POST Agents/Preference/DeletePreferenceDescriptionLine
@@ -24,7 +25,7 @@ Deletes the PreferenceDescriptionLine
 | PreferenceDescriptionLineId | int32 | **Required** The id of the PreferenceDescriptionLine to be deleted. |
 
 ```http
-POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine?PreferenceDescriptionLineId=221
+POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine?PreferenceDescriptionLineId=472
 ```
 
 
@@ -55,7 +56,7 @@ No Content
 POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

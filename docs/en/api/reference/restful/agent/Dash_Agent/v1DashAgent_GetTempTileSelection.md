@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/GetTempTileSelection
 uid: v1DashAgent_GetTempTileSelection
+generated: true
 ---
 
 # POST Agents/Dash/GetTempTileSelection
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Dash/GetTempTileSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 403
+  "SelectionId": 220
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-206
+989
 ```

@@ -1,7 +1,7 @@
 ---
 title: Services88.DashAgent SOAP
 uid: Services88-Dash-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Dash SOAP

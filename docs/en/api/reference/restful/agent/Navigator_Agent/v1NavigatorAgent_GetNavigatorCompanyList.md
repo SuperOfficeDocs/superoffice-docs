@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Navigator/GetNavigatorCompanyList
 uid: v1NavigatorAgent_GetNavigatorCompanyList
+generated: true
 ---
 
 # POST Agents/Navigator/GetNavigatorCompanyList
@@ -82,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Value": "est",
-    "Tooltip": "cum",
+    "Id": 270,
+    "Value": "voluptates",
+    "Tooltip": "voluptates",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldType": "System.String",
+        "FieldLength": 552
       }
     }
   },
   {
-    "Id": 187,
-    "Value": "est",
-    "Tooltip": "cum",
+    "Id": 270,
+    "Value": "voluptates",
+    "Tooltip": "voluptates",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldType": "System.String",
+        "FieldLength": 552
       }
     }
   }

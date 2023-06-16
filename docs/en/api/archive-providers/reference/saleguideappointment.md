@@ -2,17 +2,10 @@
 uid: SaleGuideAppointment
 title: SaleGuideAppointment
 description: Specific provider for Sale Guide Items of type Appointment
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SaleGuideAppointment"
+keywords: SaleGuideAppointment archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SaleGuideAppointment"
@@ -132,6 +125,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |appointmentInstance/contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
 |appointmentInstance/contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/contact/email/emailAddress|string|E-mail| x |
 |appointmentInstance/contact/email/emailDescription|string|Description| x |
 |appointmentInstance/contact/email/emailId|int|ID| x |
@@ -232,6 +229,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
@@ -332,6 +333,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |appointmentInstance/person/email/emailAddress|string|E-mail| x |
 |appointmentInstance/person/email/emailDescription|string|Description| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/person/email/emailId|int|ID| x |
 |appointmentInstance/person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |appointmentInstance/person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
@@ -432,6 +437,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |appointmentInstance/person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |appointmentInstance/person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |appointmentInstance/person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |appointmentInstance/person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -532,6 +541,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |appointmentInstance/project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |appointmentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |appointmentInstance/project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |appointmentInstance/project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
@@ -632,6 +645,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |appointmentInstance/sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |appointmentInstance/sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |appointmentInstance/sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |appointmentInstance/sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -702,7 +719,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideAppointment?$select=isMilestone,appointmentInstance/contact/streetAddress/zip,appointmentInstance/contact/restrictionAddress/zip,appointmentInstance/person/personAddress/formattedMultiLineAddress,appointmentInstance/person/correspondingAssociate/simultaneousEjUser
+GET /api/v1/archive/SaleGuideAppointment?$select=appointmentInstance/contact/searchPhone/formattedNumber,appointmentInstance/contact/streetAddress/formattedAddress,appointmentInstance/contact/contactAssociate/userName,appointmentInstance/person/supportAssociate,appointmentInstance/person/correspondingAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

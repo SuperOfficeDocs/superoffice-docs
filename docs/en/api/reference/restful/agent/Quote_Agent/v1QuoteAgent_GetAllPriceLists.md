@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetAllPriceLists
 uid: v1QuoteAgent_GetAllPriceLists
+generated: true
 ---
 
 # POST Agents/Quote/GetAllPriceLists
@@ -84,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 726,
-  "Currency": "in"
+  "QuoteConnectionId": 374,
+  "Currency": "aut"
 }
 ```
 
@@ -101,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 755,
-    "ERPPriceListKey": "qui",
-    "QuoteConnectionId": 67,
-    "Name": "Wiza LLC",
-    "Description": "User-friendly foreground database",
-    "Currency": "dolor",
-    "CurrencyName": "Armstrong Group",
-    "ValidFrom": "2013-05-17T03:51:28.0215395+02:00",
-    "ValidTo": "1998-09-24T03:51:28.0215395+02:00",
+    "PriceListId": 634,
+    "ERPPriceListKey": "recusandae",
+    "QuoteConnectionId": 63,
+    "Name": "Harvey, Wuckert and O'Connell",
+    "Description": "Switchable coherent portal",
+    "Currency": "sapiente",
+    "CurrencyName": "Kuphal-Emard",
+    "ValidFrom": "2005-07-31T16:00:41.6488224+02:00",
+    "ValidTo": "2011-05-27T16:00:41.6488224+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldType": "System.String",
+        "FieldLength": 53
       }
     }
   }

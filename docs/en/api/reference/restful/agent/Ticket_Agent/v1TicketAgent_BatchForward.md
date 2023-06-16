@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/BatchForward
 uid: v1TicketAgent_BatchForward
+generated: true
 ---
 
 # POST Agents/Ticket/BatchForward
@@ -74,27 +75,27 @@ OK
 POST /api/v1/Agents/Ticket/BatchForward
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    369,
-    529
+    347,
+    487
   ],
   "To": [
-    "temporibus",
-    "molestias"
+    "tempore",
+    "quo"
   ],
   "Cc": [
-    "perspiciatis",
-    "velit"
+    "magni",
+    "id"
   ],
   "Bcc": [
-    "dolore",
-    "quis"
+    "ab",
+    "esse"
   ],
-  "Comment": "vero",
+  "Comment": "et",
   "CloseTicket": true
 }
 ```
@@ -105,5 +106,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-929
+523
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/ApproveQuoteVersion
 uid: v1QuoteAgent_ApproveQuoteVersion
+generated: true
 ---
 
 # POST Agents/Quote/ApproveQuoteVersion
@@ -76,14 +77,14 @@ OK
 POST /api/v1/Agents/Quote/ApproveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 29,
-  "ApprovedByText": "omnis",
-  "ApprovedByAssociateId": 914,
-  "ApprovalText": "sint"
+  "QuoteVersionId": 686,
+  "ApprovedByText": "dolor",
+  "ApprovedByAssociateId": 529,
+  "ApprovalText": "voluptates"
 }
 ```
 
@@ -95,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 671,
+  "CreatedAppointmentId": 238,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 769
+      "FieldType": "System.Int32",
+      "FieldLength": 206
     }
   }
 }

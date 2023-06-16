@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/RecalculateQuoteLine
 uid: v1QuoteAgent_RecalculateQuoteLine
+generated: true
 ---
 
 # POST Agents/Quote/RecalculateQuoteLine
@@ -123,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "quia",
-    "natus"
+    "perferendis",
+    "voluptate"
   ]
 }
 ```
@@ -142,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 231,
-  "ERPQuoteLineKey": "repellendus",
-  "QuoteAlternativeId": 666,
-  "ERPProductKey": "minus",
+  "QuoteLineId": 388,
+  "ERPQuoteLineKey": "culpa",
+  "QuoteAlternativeId": 670,
+  "ERPProductKey": "modi",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 11736.83,
-  "DeliveredQuantity": 6910.4699999999993,
-  "Rank": 256,
-  "Name": "Feest-D'Amore",
-  "Description": "Cloned fault-tolerant approach",
-  "Code": "et",
-  "QuantityUnit": "quae",
-  "PriceUnit": "quaerat",
-  "ItemNumber": "1405585",
+  "Quantity": 16469.17,
+  "DeliveredQuantity": 6064.29,
+  "Rank": 20,
+  "Name": "Breitenberg, Hirthe and Mosciski",
+  "Description": "Re-contextualized incremental firmware",
+  "Code": "voluptatem",
+  "QuantityUnit": "aut",
+  "PriceUnit": "eum",
+  "ItemNumber": "954482",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "laudantium",
-  "ProductTypeKey": "qui",
-  "Supplier": "dolores",
-  "SupplierCode": "tenetur",
+  "ProductFamilyKey": "dolorem",
+  "ProductTypeKey": "cumque",
+  "Supplier": "sed",
+  "SupplierCode": "dignissimos",
   "Thumbnail": "est",
-  "VATInfo": "voluptas",
-  "VAT": 11116.297999999999,
-  "UnitCost": 1733.1019999999999,
-  "UnitMinimumPrice": 10705.743999999999,
-  "UnitListPrice": 21254.788,
+  "VATInfo": "est",
+  "VAT": 29757.329999999998,
+  "UnitCost": 29982.978,
+  "UnitMinimumPrice": 15271.982,
+  "UnitListPrice": 12579.876,
   "ExtraInfo": [
     {
-      "Name": "Kunde Group",
-      "Value": "quo",
+      "Name": "Lueilwitz, Kuphal and Sanford",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 283
+          "FieldType": "System.String",
+          "FieldLength": 168
         }
       }
     },
     {
-      "Name": "Kunde Group",
-      "Value": "quo",
+      "Name": "Lueilwitz, Kuphal and Sanford",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 283
+          "FieldType": "System.String",
+          "FieldLength": 168
         }
       }
     }
   ],
-  "RawExtraInfo": "occaecati",
-  "IsSubscription": true,
-  "SubscriptionUnit": "totam",
-  "SubscriptionQuantity": 23984.502,
-  "SubscriptionStart": "2008-10-22T03:51:27.9746798+02:00",
-  "ERPDiscountPercent": 29381.25,
-  "ERPDiscountAmount": 21709.218,
-  "DiscountPercent": 5052.008,
-  "DiscountAmount": 24228.953999999998,
+  "RawExtraInfo": "labore",
+  "IsSubscription": false,
+  "SubscriptionUnit": "et",
+  "SubscriptionQuantity": 4202.6939999999995,
+  "SubscriptionStart": "2014-11-27T16:00:41.6019523+01:00",
+  "ERPDiscountPercent": 6800.78,
+  "ERPDiscountAmount": 27491.448,
+  "DiscountPercent": 504.57399999999996,
+  "DiscountAmount": 13219.212,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 30728.87,
-  "EarningAmount": 6086.228,
-  "SubTotal": 10947.062,
-  "TotalPrice": 30622.314,
-  "Rights": "ullam",
-  "Rule": "accusantium",
-  "ExtraField1": "alias",
-  "ExtraField2": "debitis",
-  "ExtraField3": "molestiae",
-  "ExtraField4": "sint",
-  "ExtraField5": "eligendi",
+  "EarningPercent": 12595.546,
+  "EarningAmount": 595.46,
+  "SubTotal": 31211.505999999998,
+  "TotalPrice": 1899.204,
+  "Rights": "tempora",
+  "Rule": "animi",
+  "ExtraField1": "ab",
+  "ExtraField2": "quia",
+  "ExtraField3": "aut",
+  "ExtraField4": "omnis",
+  "ExtraField5": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldType": "System.String",
+      "FieldLength": 599
     }
   }
 }

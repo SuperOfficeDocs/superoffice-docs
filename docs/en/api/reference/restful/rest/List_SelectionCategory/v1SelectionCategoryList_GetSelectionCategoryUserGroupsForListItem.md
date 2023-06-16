@@ -1,6 +1,7 @@
 ---
 title: GET List/SelectionCategory/Items/{id}/UserGroups
 uid: v1SelectionCategoryList_GetSelectionCategoryUserGroupsForListItem
+generated: true
 ---
 
 # GET List/SelectionCategory/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Halvorson-Lesch",
-    "ToolTip": "Magni quia numquam aut quis quae veritatis.",
-    "Deleted": true,
-    "Rank": 52,
-    "Type": "dolor",
-    "ColorBlock": 472,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "1997-01-21T03:51:34.9582718+01:00",
+    "Id": 160,
+    "Name": "Terry-Wolff",
+    "ToolTip": "Fugit voluptatem officia pariatur quo debitis.",
+    "Deleted": false,
+    "Rank": 470,
+    "Type": "dignissimos",
+    "ColorBlock": 283,
+    "IconHint": "ex",
+    "Selected": true,
+    "LastChanged": "2002-09-01T16:00:49.3364234+02:00",
     "ChildItems": [
       {
-        "Id": 691,
-        "Name": "Runte, Lind and Sawayn",
-        "ToolTip": "Explicabo ea sequi natus.",
+        "Id": 873,
+        "Name": "Bahringer-Daniel",
+        "ToolTip": "Maiores dolores.",
         "Deleted": false,
-        "Rank": 208,
-        "Type": "quod",
-        "ColorBlock": 852,
-        "IconHint": "tempore",
-        "Selected": true,
-        "LastChanged": "2016-06-13T03:51:34.9582718+02:00",
+        "Rank": 84,
+        "Type": "et",
+        "ColorBlock": 612,
+        "IconHint": "nulla",
+        "Selected": false,
+        "LastChanged": "2005-05-26T16:00:49.3364234+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Drake Rutherford",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "molestiae",
+        "Hidden": false,
+        "FullName": "Berneice Hilpert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 250
+            "FieldLength": 77
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "qui",
+    "ExtraInfo": "ut",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Ms. Allen Kuphal",
+    "FullName": "Gerhard Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 135
+        "FieldLength": 802
       }
     }
   }

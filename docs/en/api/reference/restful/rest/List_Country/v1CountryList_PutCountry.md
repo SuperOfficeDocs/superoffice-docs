@@ -1,6 +1,7 @@
 ---
 title: PUT List/Country/Items/{id}
 uid: v1CountryList_PutCountry
+generated: true
 ---
 
 # PUT List/Country/Items/{id}
@@ -103,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 344,
-  "Name": "Hintz, Harris and Schmidt",
-  "CurrencyId": 307,
-  "EnglishName": "Hilll-Green",
+  "CountryId": 204,
+  "Name": "Bauch Group",
+  "CurrencyId": 895,
+  "EnglishName": "Beahan Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Proactive discrete focus group",
-  "OrgNrText": "1287009",
-  "InterAreaPrefix": "tenetur",
-  "DialInPrefix": "facere",
-  "ZipPrefix": "illum",
-  "DomainName": "Skiles LLC",
-  "AddressLayoutId": 215,
-  "DomesticAddressLayoutId": 676,
-  "ForeignAddressLayoutId": 459,
-  "Rank": 766,
-  "Tooltip": "voluptatem",
+  "ImageDescription": "Ergonomic coherent challenge",
+  "OrgNrText": "505685",
+  "InterAreaPrefix": "similique",
+  "DialInPrefix": "dicta",
+  "ZipPrefix": "distinctio",
+  "DomainName": "Kirlin-Hartmann",
+  "AddressLayoutId": 624,
+  "DomesticAddressLayoutId": 784,
+  "ForeignAddressLayoutId": 821,
+  "Rank": 754,
+  "Tooltip": "impedit",
   "Deleted": false
 }
 ```
@@ -135,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 397,
-  "Name": "Becker-Bins",
-  "CurrencyId": 815,
-  "EnglishName": "Gutkowski-Willms",
+  "CountryId": 253,
+  "Name": "Jacobson, Schimmel and Farrell",
+  "CurrencyId": 631,
+  "EnglishName": "Upton-Ziemann",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Organized discrete definition",
-  "OrgNrText": "772697",
-  "InterAreaPrefix": "maiores",
-  "DialInPrefix": "exercitationem",
-  "ZipPrefix": "deserunt",
-  "DomainName": "Muller-Blick",
-  "AddressLayoutId": 257,
-  "DomesticAddressLayoutId": 994,
-  "ForeignAddressLayoutId": 929,
-  "Rank": 285,
-  "Tooltip": "minima",
+  "ImageDescription": "Inverse actuating moderator",
+  "OrgNrText": "1016943",
+  "InterAreaPrefix": "tenetur",
+  "DialInPrefix": "aut",
+  "ZipPrefix": "delectus",
+  "DomainName": "Stiedemann-Mohr",
+  "AddressLayoutId": 787,
+  "DomesticAddressLayoutId": 574,
+  "ForeignAddressLayoutId": 263,
+  "Rank": 978,
+  "Tooltip": "dolor",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 145
     }
   }
 }

@@ -1,17 +1,11 @@
 ---
 uid: saleguidestage
 title: saleguidestage
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "saleguidestage"
+keywords: mdoprovider mdo provider saleguidestage
+description: MDO provider for the stage list, customized for the sale guide stage button row
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "saleguidestage" MDO List

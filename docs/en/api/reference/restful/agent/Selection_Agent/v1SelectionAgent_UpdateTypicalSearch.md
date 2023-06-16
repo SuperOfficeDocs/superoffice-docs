@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/UpdateTypicalSearch
 uid: v1SelectionAgent_UpdateTypicalSearch
+generated: true
 ---
 
 # POST Agents/Selection/UpdateTypicalSearch
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sed"
+"ut"
 ```

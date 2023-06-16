@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 uid: v1EMailAgent_GetUnsanitizedPreviewAttachmentFromId
+generated: true
 ---
 
 # POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
@@ -87,14 +88,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 487,
-  "AttachmentId": "perspiciatis",
-  "AttachmentType": "repellat",
-  "AttachmentFilename": "delectus"
+  "MailItemId": 651,
+  "AttachmentId": "sit",
+  "AttachmentType": "accusamus",
+  "AttachmentFilename": "molestiae"
 }
 ```
 
@@ -105,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-group intangible moderator",
-  "Filename": "non",
-  "Size": 523,
-  "Type": "voluptatibus",
-  "Encoding": "aut",
-  "Id": "non",
-  "Disposition": "ex",
+  "Description": "Monitored uniform local area network",
+  "Filename": "quia",
+  "Size": 63,
+  "Type": "iure",
+  "Encoding": "voluptatem",
+  "Id": "facilis",
+  "Disposition": "ut",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 509
+      "FieldType": "System.Int32",
+      "FieldLength": 446
     }
   }
 }

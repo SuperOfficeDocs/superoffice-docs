@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/DeleteListEntityByName
 uid: v1ListAgent_DeleteListEntityByName
+generated: true
 ---
 
 # POST Agents/List/DeleteListEntityByName
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/List/DeleteListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kozey-Wunsch"
+  "Name": "Rau Inc and Sons"
 }
 ```
 

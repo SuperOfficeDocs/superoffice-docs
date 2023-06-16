@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DatabaseTable/ReadRow
 uid: v1DatabaseTableAgent_ReadRow
+generated: true
 ---
 
 # POST Agents/DatabaseTable/ReadRow
@@ -77,8 +78,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Muller, Hills and Brown",
-  "Id": 346
+  "TableName": "Willms, White and Mertz",
+  "Id": 362
 }
 ```
 
@@ -90,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "tempora",
-    "Values2": "et"
+    "Values1": "sed",
+    "Values2": "enim"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldLength": 199
     }
   }
 }

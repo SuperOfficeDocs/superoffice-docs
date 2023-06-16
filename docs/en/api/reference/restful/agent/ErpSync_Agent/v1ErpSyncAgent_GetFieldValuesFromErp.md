@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetFieldValuesFromErp
 uid: v1ErpSyncAgent_GetFieldValuesFromErp
+generated: true
 ---
 
 # POST Agents/ErpSync/GetFieldValuesFromErp
@@ -81,13 +82,13 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 771,
+  "ErpConnectionId": 2,
   "ActorTypeErp": "Customer",
-  "ErpKey": "ullam"
+  "ErpKey": "quidem"
 }
 ```
 
@@ -99,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Hahn LLC",
-    "CrmFieldKey": "alias",
-    "Value": "quos",
-    "DisplayValue": "distinctio",
+    "DisplayName": "Kirlin-Wilkinson",
+    "CrmFieldKey": "sint",
+    "Value": "expedita",
+    "DisplayValue": "inventore",
     "SyncToCrm": false,
     "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 830
+        "FieldType": "System.Int32",
+        "FieldLength": 261
       }
     }
   }

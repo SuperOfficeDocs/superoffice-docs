@@ -1,6 +1,7 @@
 ---
 title: POST List/QuoteDenyReason/Items
 uid: v1QuoteDenyReasonList_PostQuoteDenyReason
+generated: true
 ---
 
 # POST List/QuoteDenyReason/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 645,
-  "Name": "Farrell LLC",
-  "Tooltip": "eveniet",
+  "Id": 295,
+  "Name": "Krajcik Inc and Sons",
+  "Tooltip": "eum",
   "Deleted": false,
-  "UdListDefinitionId": 888,
-  "Rank": 589
+  "UdListDefinitionId": 179,
+  "Rank": 427
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 325,
-  "Name": "Daniel-Conn",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 914,
-  "Rank": 275,
+  "Id": 691,
+  "Name": "Parker Group",
+  "Tooltip": "neque",
+  "Deleted": true,
+  "UdListDefinitionId": 1000,
+  "Rank": 348,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldType": "System.String",
+      "FieldLength": 185
     }
   }
 }

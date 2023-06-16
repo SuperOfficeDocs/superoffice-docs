@@ -1,6 +1,6 @@
 ---
 title: Services88.BulkUpdateAgent.ExecuteBySelectionId SOAP
-generated: 1
+generated: true
 uid: Services88-BulkUpdate-ExecuteBySelectionId
 ---
 

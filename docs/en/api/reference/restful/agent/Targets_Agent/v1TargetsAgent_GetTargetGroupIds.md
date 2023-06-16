@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/GetTargetGroupIds
 uid: v1TargetsAgent_GetTargetGroupIds
+generated: true
 ---
 
 # POST Agents/Targets/GetTargetGroupIds
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 351
+  "TargetDimensionId": 278
 }
 ```
 
@@ -82,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  296,
-  498
+  653,
+  126
 ]
 ```

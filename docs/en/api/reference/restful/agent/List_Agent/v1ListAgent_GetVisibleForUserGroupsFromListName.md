@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetVisibleForUserGroupsFromListName
 uid: v1ListAgent_GetVisibleForUserGroupsFromListName
+generated: true
 ---
 
 # POST Agents/List/GetVisibleForUserGroupsFromListName
@@ -87,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schmeler, Reichel and Erdman",
-  "ListItemId": 434
+  "UdListDefinitionName": "Satterfield, Nitzsche and Crona",
+  "ListItemId": 522
 }
 ```
 
@@ -104,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Cronin-Deckow",
-    "ToolTip": "Et et totam excepturi temporibus adipisci reprehenderit.",
-    "Deleted": true,
-    "Rank": 94,
-    "Type": "aut",
-    "ColorBlock": 560,
-    "IconHint": "aperiam",
-    "Selected": false,
-    "LastChanged": "2022-04-08T03:51:27.4123074+02:00",
+    "Id": 823,
+    "Name": "Schneider-McKenzie",
+    "ToolTip": "Aliquid autem tempore nesciunt provident aliquam.",
+    "Deleted": false,
+    "Rank": 394,
+    "Type": "magnam",
+    "ColorBlock": 372,
+    "IconHint": "ducimus",
+    "Selected": true,
+    "LastChanged": "2009-08-10T16:00:41.1487084+02:00",
     "ChildItems": [
       {
-        "Id": 860,
-        "Name": "Pfannerstill-Erdman",
-        "ToolTip": "Amet earum possimus.",
+        "Id": 329,
+        "Name": "Gleichner-Murray",
+        "ToolTip": "Distinctio explicabo.",
         "Deleted": false,
-        "Rank": 398,
-        "Type": "sed",
-        "ColorBlock": 880,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "1996-05-23T03:51:27.4123074+02:00",
+        "Rank": 57,
+        "Type": "consequatur",
+        "ColorBlock": 941,
+        "IconHint": "enim",
+        "Selected": true,
+        "LastChanged": "2001-03-14T16:00:41.1487084+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Vidal Crona",
+        "ExtraInfo": "beatae",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Yasmeen Ken Lakin DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 4
+            "FieldLength": 513
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "qui",
+    "ExtraInfo": "non",
+    "StyleHint": "amet",
     "Hidden": true,
-    "FullName": "Ms. Dorian Hayes",
+    "FullName": "Zane Hamill DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldLength": 849
       }
     }
   }

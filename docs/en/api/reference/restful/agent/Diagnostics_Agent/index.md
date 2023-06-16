@@ -1,5 +1,6 @@
 ---
 title: Diagnostics_Agent
+generated: true
 ---
 
 ```http

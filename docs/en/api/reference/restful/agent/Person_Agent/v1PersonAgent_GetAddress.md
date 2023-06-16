@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetAddress
 uid: v1PersonAgent_GetAddress
+generated: true
 ---
 
 # POST Agents/Person/GetAddress
@@ -81,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 576
+  "PersonId": 35
 }
 ```
 
@@ -92,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 18427.92,
-  "Wgs84Longitude": 29942.236,
+  "Wgs84Latitude": 16820.178,
+  "Wgs84Longitude": 25560.904,
   "LocalizedAddress": [
     [
       {
-        "Name": "Robel LLC",
-        "Value": "quae",
-        "Tooltip": "incidunt",
-        "Label": "doloribus",
-        "ValueLength": 427,
-        "AddressType": "assumenda",
+        "Name": "Gottlieb, Kemmer and Ledner",
+        "Value": "odio",
+        "Tooltip": "minus",
+        "Label": "accusamus",
+        "ValueLength": 482,
+        "AddressType": "voluptatem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 993
+            "FieldLength": 180
           }
         }
       }
     ],
     [
       {
-        "Name": "Bechtelar LLC",
-        "Value": "quia",
-        "Tooltip": "debitis",
-        "Label": "consectetur",
-        "ValueLength": 208,
-        "AddressType": "dolorum",
+        "Name": "Waelchi Inc and Sons",
+        "Value": "voluptas",
+        "Tooltip": "placeat",
+        "Label": "accusantium",
+        "ValueLength": 271,
+        "AddressType": "quibusdam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 898
+            "FieldType": "System.Int32",
+            "FieldLength": 415
           }
         }
       }
@@ -134,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "autem",
+  "Formatted": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 640
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 uid: v1CRMScriptAgent_ExecuteScriptAsEventByUniqueId
+generated: true
 ---
 
 # POST Agents/CRMScript/ExecuteScriptAsEventByUniqueId
@@ -90,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "eaque",
+  "CRMScriptUniqueId": "quia",
   "EventData": null
 }
 ```
@@ -105,27 +106,27 @@ Content-Type: application/json; charset=utf-8
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
     "InputValues1": "ipsam",
-    "InputValues2": "sit"
+    "InputValues2": "velit"
   },
-  "BlockExecution": true,
-  "NavigateTo": "est",
-  "Message": "saepe",
-  "ShowDialog": "enim",
+  "BlockExecution": false,
+  "NavigateTo": "distinctio",
+  "Message": "illum",
+  "ShowDialog": "hic",
   "OutputValues": {
-    "OutputValues1": "cupiditate",
-    "OutputValues2": "qui"
+    "OutputValues1": "soluta",
+    "OutputValues2": "tempora"
   },
   "StateValues": {
-    "StateValues1": "magnam",
-    "StateValues2": "blanditiis"
+    "StateValues1": "et",
+    "StateValues2": "aut"
   },
-  "Exception": "dolores",
+  "Exception": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldType": "System.String",
+      "FieldLength": 454
     }
   }
 }

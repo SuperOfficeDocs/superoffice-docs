@@ -1,6 +1,7 @@
 ---
 title: PUT User/{userName}
 uid: v1User_SaveUserFromName
+generated: true
 ---
 
 # PUT User/{userName}
@@ -116,18 +117,18 @@ OK
 PUT /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 887,
-  "Name": "Hoppe, Greenholt and King",
-  "Rank": 593,
-  "Tooltip": "ut",
+  "AssociateId": 522,
+  "Name": "Kreiger-Gleichner",
+  "Rank": 86,
+  "Tooltip": "occaecati",
   "LicenseOwners": [
     {
-      "Name": "Greenholt-Abbott",
-      "Description": "Balanced interactive secured line",
+      "Name": "Yundt, Sauer and Wisozk",
+      "Description": "Cloned executive encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,8 +139,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Greenholt-Abbott",
-      "Description": "Balanced interactive secured line",
+      "Name": "Yundt, Sauer and Wisozk",
+      "Description": "Cloned executive encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -154,87 +155,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "est",
-      "Tooltip": "consequatur",
-      "Id": 823,
-      "Rank": 969,
-      "Deleted": false
+      "Value": "molestiae",
+      "Tooltip": "laboriosam",
+      "Id": 220,
+      "Rank": 455,
+      "Deleted": true
     },
     {
-      "Value": "est",
-      "Tooltip": "consequatur",
-      "Id": 823,
-      "Rank": 969,
-      "Deleted": false
+      "Value": "molestiae",
+      "Tooltip": "laboriosam",
+      "Id": 220,
+      "Rank": 455,
+      "Deleted": true
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2013-04-07T03:51:34.3021806+02:00",
-  "Lastlogout": "2022-08-04T03:51:34.3021806+02:00",
-  "EjUserId": 364,
-  "RequestSignature": "odit",
+  "Deleted": false,
+  "Lastlogin": "2017-03-20T16:00:48.7896079+01:00",
+  "Lastlogout": "2001-08-18T16:00:48.7896079+02:00",
+  "EjUserId": 546,
+  "RequestSignature": "dolores",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "cum",
-      "DisplayValue": "consequatur"
+      "Value": "quis",
+      "DisplayValue": "rem"
     },
     {
       "Type": null,
-      "Value": "cum",
-      "DisplayValue": "consequatur"
+      "Value": "quis",
+      "DisplayValue": "rem"
     }
   ],
-  "UserName": "Johnson, Cummerata and Kuhic",
+  "UserName": "Kessler, Little and Medhurst",
   "TicketCategories": [
     {
-      "Id": 525,
-      "Name": "Johnson LLC",
-      "ToolTip": "Nulla eveniet commodi consequuntur illo porro nemo quo.",
-      "Deleted": true,
-      "Rank": 619,
-      "Type": "deserunt",
+      "Id": 158,
+      "Name": "West Inc and Sons",
+      "ToolTip": "Rerum excepturi.",
+      "Deleted": false,
+      "Rank": 18,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "explicabo",
-      "ColorBlock": 420,
-      "ExtraInfo": "quia",
-      "StyleHint": "aliquam",
-      "FullName": "Genoveva Hyatt"
+      "IconHint": "voluptatibus",
+      "ColorBlock": 189,
+      "ExtraInfo": "aut",
+      "StyleHint": "enim",
+      "FullName": "Dr. Madonna Buford Morar"
     }
   ],
-  "NickName": "O'Connell-Ryan",
+  "NickName": "Hammes, Morar and Jacobson",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "illo"
+    "ExtraFields1": "et",
+    "ExtraFields2": "asperiores"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "et"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "corrupti"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hamill LLC",
-      "DisplayName": "Osinski Inc and Sons",
-      "Description": "Multi-layered fresh-thinking success",
-      "ToolTip": "Animi eligendi.",
+      "Name": "Padberg, Ruecker and Renner",
+      "DisplayName": "Rogahn, Hahn and Watsica",
+      "Description": "Universal high-level software",
+      "ToolTip": "Sint neque aperiam laboriosam temporibus.",
       "Actions": "Implicit",
-      "ActionData": "magnam"
+      "ActionData": "consectetur"
     },
     {
-      "Name": "Hamill LLC",
-      "DisplayName": "Osinski Inc and Sons",
-      "Description": "Multi-layered fresh-thinking success",
-      "ToolTip": "Animi eligendi.",
+      "Name": "Padberg, Ruecker and Renner",
+      "DisplayName": "Rogahn, Hahn and Watsica",
+      "Description": "Universal high-level software",
+      "ToolTip": "Sint neque aperiam laboriosam temporibus.",
       "Actions": "Implicit",
-      "ActionData": "magnam"
+      "ActionData": "consectetur"
     }
   ]
 }
@@ -247,14 +248,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 591,
-  "Name": "Bailey-Bechtelar",
-  "Rank": 671,
-  "Tooltip": "excepturi",
+  "AssociateId": 140,
+  "Name": "Zieme, Schowalter and Larkin",
+  "Rank": 272,
+  "Tooltip": "eos",
   "LicenseOwners": [
     {
-      "Name": "Ritchie-Spinka",
-      "Description": "Horizontal motivating capability",
+      "Name": "Kuhlman-Smith",
+      "Description": "Seamless actuating orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -267,14 +268,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 973
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     },
     {
-      "Name": "Ritchie-Spinka",
-      "Description": "Horizontal motivating capability",
+      "Name": "Kuhlman-Smith",
+      "Description": "Seamless actuating orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -287,8 +288,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 973
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     }
@@ -298,109 +299,109 @@ Content-Type: application/json; charset=utf-8
   "OtherGroups": [
     {
       "Value": "cumque",
-      "Tooltip": "et",
-      "Id": 316,
-      "Rank": 753,
-      "Deleted": false,
+      "Tooltip": "reprehenderit",
+      "Id": 275,
+      "Rank": 216,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldType": "System.String",
+          "FieldLength": 42
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2013-06-01T03:51:34.3178017+02:00",
-  "Lastlogout": "2001-04-05T03:51:34.3178017+02:00",
-  "EjUserId": 261,
-  "RequestSignature": "incidunt",
+  "Lastlogin": "2013-07-14T16:00:48.7896079+02:00",
+  "Lastlogout": "2000-06-11T16:00:48.7896079+02:00",
+  "EjUserId": 300,
+  "RequestSignature": "dignissimos",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "harum",
-      "DisplayValue": "id",
+      "Value": "in",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 148
+          "FieldLength": 204
         }
       }
     },
     {
       "Type": null,
-      "Value": "harum",
-      "DisplayValue": "id",
+      "Value": "in",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 148
+          "FieldLength": 204
         }
       }
     }
   ],
-  "UserName": "Purdy Inc and Sons",
+  "UserName": "Hamill, Wyman and Fahey",
   "TicketCategories": [
     {
-      "Id": 786,
-      "Name": "Howe Inc and Sons",
-      "ToolTip": "Fuga et perspiciatis.",
+      "Id": 8,
+      "Name": "Champlin, Ward and Roberts",
+      "ToolTip": "Et et.",
       "Deleted": true,
-      "Rank": 533,
-      "Type": "eligendi",
+      "Rank": 859,
+      "Type": "blanditiis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "tempora",
-      "ColorBlock": 802,
-      "ExtraInfo": "aspernatur",
-      "StyleHint": "quo",
-      "FullName": "Davonte Ward",
+      "IconHint": "dolor",
+      "ColorBlock": 42,
+      "ExtraInfo": "a",
+      "StyleHint": "delectus",
+      "FullName": "Trenton Schroeder",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 494
         }
       }
     }
   ],
-  "NickName": "Jakubowski Inc and Sons",
-  "WaitingForApproval": false,
+  "NickName": "Koelpin-Trantow",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "non",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "fuga"
+    "CustomFields1": "sed",
+    "CustomFields2": "consequatur"
   },
   "PostSaveCommands": [
     {
-      "Name": "Gulgowski-Grady",
-      "DisplayName": "Grady-Lowe",
-      "Description": "Fundamental leading edge orchestration",
-      "ToolTip": "Quisquam dolor beatae dolores rerum exercitationem animi hic.",
+      "Name": "Strosin, Hahn and Stoltenberg",
+      "DisplayName": "Buckridge-Hodkiewicz",
+      "Description": "De-engineered bifurcated artificial intelligence",
+      "ToolTip": "Laudantium nemo et aut.",
       "Actions": "Implicit",
-      "ActionData": "corporis",
+      "ActionData": "porro",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldLength": 501
         }
       }
     }
@@ -410,7 +411,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldLength": 822
     }
   }
 }

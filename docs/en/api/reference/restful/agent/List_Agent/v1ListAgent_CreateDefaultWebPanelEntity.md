@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultWebPanelEntity
 uid: v1ListAgent_CreateDefaultWebPanelEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultWebPanelEntity
@@ -86,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 379,
-  "Name": "Nienow, Kilback and Prosacco",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 817,
+  "WebPanelId": 809,
+  "Name": "Abshire-Bayer",
+  "Tooltip": "asperiores",
+  "Deleted": true,
+  "Rank": 876,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Windler Group",
+  "ShowInStatusBar": false,
+  "WindowName": "Wyman, Emard and Weber",
   "Url": "http://www.example.com/",
-  "ProgId": "incidunt",
-  "Icon": 41,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "suscipit",
+  "Icon": 916,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 15
     }
   }
 }

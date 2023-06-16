@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductCategory/Items/{id}
 uid: v1ProductCategoryList_PutProductCategory
+generated: true
 ---
 
 # PUT List/ProductCategory/Items/{id}
@@ -81,12 +82,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 963,
-  "Name": "Lubowitz-Pollich",
-  "Tooltip": "eaque",
-  "Deleted": true,
-  "UdListDefinitionId": 426,
-  "Rank": 3
+  "Id": 71,
+  "Name": "Fahey, Kreiger and Leannon",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "UdListDefinitionId": 773,
+  "Rank": 565
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Hirthe-Blick",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "UdListDefinitionId": 515,
-  "Rank": 435,
+  "Id": 836,
+  "Name": "Bergstrom, Kulas and Dooley",
+  "Tooltip": "maxime",
+  "Deleted": true,
+  "UdListDefinitionId": 940,
+  "Rank": 263,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 939
     }
   }
 }

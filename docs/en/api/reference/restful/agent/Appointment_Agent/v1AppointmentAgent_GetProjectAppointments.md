@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetProjectAppointments
 uid: v1AppointmentAgent_GetProjectAppointments
+generated: true
 ---
 
 # POST Agents/Appointment/GetProjectAppointments
@@ -116,6 +117,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -125,14 +129,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 391,
-  "StartTime": "2021-01-26T03:51:26.5531332+01:00",
-  "EndTime": "2021-10-26T03:51:26.5531332+02:00",
-  "Count": 284
+  "ProjectId": 941,
+  "StartTime": "2002-04-01T16:00:40.0394546+02:00",
+  "EndTime": "2008-10-22T16:00:40.0394546+02:00",
+  "Count": 17
 }
 ```
 
@@ -144,61 +148,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 523,
-    "StartDate": "2020-05-14T03:51:26.5531332+02:00",
-    "EndDate": "2017-06-09T03:51:26.5531332+02:00",
+    "AppointmentId": 160,
+    "StartDate": "2010-02-04T16:00:40.0394546+01:00",
+    "EndDate": "2001-01-26T16:00:40.0394546+01:00",
     "Type": "BookingForChecklist",
-    "Task": "vero",
-    "AssociateFullName": "Mable Weissnat",
-    "ContactName": "Little, Conroy and Predovic",
-    "Description": "Devolved context-sensitive open architecture",
-    "PersonFullName": "Dejon Bartell MD",
-    "PersonId": 737,
-    "ContactId": 813,
-    "ProjectId": 798,
-    "ProjectName": "Renner LLC",
-    "IsPublished": true,
-    "AssociateId": 836,
-    "ColorIndex": 682,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "Task": "nesciunt",
+    "AssociateFullName": "Helmer Bernhard",
+    "ContactName": "Bashirian-Gleason",
+    "Description": "Open-source 6th generation parallelism",
+    "PersonFullName": "Maye Ward",
+    "PersonId": 273,
+    "ContactId": 419,
+    "ProjectId": 230,
+    "ProjectName": "Prosacco-Streich",
+    "IsPublished": false,
+    "AssociateId": 148,
+    "ColorIndex": 67,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 726,
-    "PriorityName": "Rempel LLC",
+    "PriorityId": 530,
+    "PriorityName": "Toy-Bins",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2014-05-17T03:51:26.5531332+02:00",
+    "ActiveDate": "2010-01-05T16:00:40.0394546+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-01-30T03:51:26.5531332+01:00",
-    "RecurringEndDate": "2000-01-09T03:51:26.5531332+01:00",
-    "MotherId": 996,
-    "AssignedBy": 73,
-    "AssignedByFullName": "Alyce Eugene Jaskolski V",
+    "RecurringStartDate": "2018-07-01T16:00:40.0394546+02:00",
+    "RecurringEndDate": "2018-05-05T16:00:40.0394546+02:00",
+    "MotherId": 479,
+    "AssignedBy": 811,
+    "AssignedByFullName": "Ms. Abigail Adams",
     "RejectReason": "",
-    "Location": "dolorem",
-    "AlarmLeadTime": "sunt",
-    "SaleId": 578,
-    "SaleName": "McKenzie LLC",
-    "AssociateName": "Grady Inc and Sons",
-    "CreatedDate": "2003-11-01T03:51:26.5531332+01:00",
+    "Location": "sit",
+    "AlarmLeadTime": "saepe",
+    "SaleId": 376,
+    "SaleName": "Renner Group",
+    "AssociateName": "Herzog LLC",
+    "CreatedDate": "2021-09-20T16:00:40.0394546+02:00",
     "CreatedBy": "vero",
-    "CreatedByFullName": "Tianna Hansen",
-    "CreatedByAssociateId": 86,
+    "CreatedByFullName": "Ms. Maritza Veum",
+    "CreatedByAssociateId": 200,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "et",
+    "Agenda": "illo",
+    "InternalNotes": "ipsam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldLength": 254
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dashboard/SaveDashboardTile
 uid: v1DashboardAgent_SaveDashboardTile
+generated: true
 ---
 
 # POST Agents/Dashboard/SaveDashboardTile
@@ -92,42 +93,42 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 732,
-  "Caption": "et",
-  "Description": "Upgradable eco-centric groupware",
-  "ChartName": "Leuschke, Hermann and Orn",
-  "ChartId": "blanditiis",
+  "DashboardTileId": 509,
+  "Caption": "saepe",
+  "Description": "Optional actuating adapter",
+  "ChartName": "Hirthe, Gislason and Larkin",
+  "ChartId": "ullam",
   "IsDefault": false,
-  "AssociateId": 211,
-  "GroupId": 632,
-  "SelectionId": 312,
-  "Config": "id",
+  "AssociateId": 807,
+  "GroupId": 424,
+  "SelectionId": 226,
+  "Config": "praesentium",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Langosh Inc and Sons",
-      "Description": "Synergistic secondary database",
+      "Name": "Kuhlman, Bode and Armstrong",
+      "Description": "Open-architected 5th generation adapter",
       "Type": "Boolean",
-      "ListName": "Torphy Inc and Sons",
+      "ListName": "Wilkinson-Effertz",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "non",
+      "Value": "rerum",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 10,
+      "VisibleId": 660,
       "Visibility": "All",
-      "DisplayValue": "eos"
+      "DisplayValue": "ut"
     },
     {
-      "VisibleId": 10,
+      "VisibleId": 660,
       "Visibility": "All",
-      "DisplayValue": "eos"
+      "DisplayValue": "ut"
     }
   ]
 }
@@ -140,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 333,
-  "Caption": "eaque",
-  "Description": "Multi-tiered intermediate ability",
-  "ChartName": "Sanford, Moore and Hamill",
-  "ChartId": "culpa",
+  "DashboardTileId": 534,
+  "Caption": "accusantium",
+  "Description": "Networked reciprocal focus group",
+  "ChartName": "Veum-Hirthe",
+  "ChartId": "quam",
   "IsDefault": false,
-  "AssociateId": 141,
-  "GroupId": 6,
-  "SelectionId": 801,
-  "Config": "quis",
+  "AssociateId": 274,
+  "GroupId": 397,
+  "SelectionId": 714,
+  "Config": "eligendi",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Walter, Flatley and Bergstrom",
-      "Description": "Versatile directional algorithm",
+      "Name": "Stracke Inc and Sons",
+      "Description": "Profound encompassing solution",
       "Type": "Boolean",
-      "ListName": "Stokes, Blanda and Purdy",
+      "ListName": "Nader, Larkin and Hayes",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "aut",
+      "Value": "porro",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 317
+          "FieldLength": 725
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 541,
+      "VisibleId": 500,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldLength": 322
         }
       }
     },
     {
-      "VisibleId": 541,
+      "VisibleId": 500,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldLength": 322
         }
       }
     }
@@ -206,8 +207,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldType": "System.String",
+      "FieldLength": 966
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: Services88.MarketingAgent.GetFormSubmissionsCount SOAP
-generated: 1
+generated: true
 uid: Services88-Marketing-GetFormSubmissionsCount
 ---
 

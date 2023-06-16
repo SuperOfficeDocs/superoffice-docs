@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/GetAttachmentEntity
 uid: v1TicketAgent_GetAttachmentEntity
+generated: true
 ---
 
 # POST Agents/Ticket/GetAttachmentEntity
@@ -25,7 +26,7 @@ Gets a AttachmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=830
+POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=576
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/id
 ```
 
@@ -82,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 719,
-  "Name": "Crist, Dietrich and Carter",
-  "ContentType": "sapiente",
-  "AttSize": 593,
-  "InlineImage": true,
-  "ContentId": "similique",
-  "AuthKey": "quaerat",
+  "AttachmentId": 105,
+  "Name": "Gislason, Jewess and Koch",
+  "ContentType": "non",
+  "AttSize": 832,
+  "InlineImage": false,
+  "ContentId": "ut",
+  "AuthKey": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 846
+      "FieldLength": 361
     }
   }
 }

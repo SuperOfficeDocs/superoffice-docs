@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetPaymentTypes
 uid: v1ListAgent_GetPaymentTypes
+generated: true
 ---
 
 # POST Agents/List/GetPaymentTypes
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetPaymentTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 315,
-    "Value": "distinctio",
-    "Tooltip": "ratione",
+    "Id": 656,
+    "Value": "reprehenderit",
+    "Tooltip": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldLength": 20
       }
     }
   },
   {
-    "Id": 315,
-    "Value": "distinctio",
-    "Tooltip": "ratione",
+    "Id": 656,
+    "Value": "reprehenderit",
+    "Tooltip": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldLength": 20
       }
     }
   }

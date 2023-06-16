@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/AssignThirdPartyLicenses
 uid: v1LicenseAgent_AssignThirdPartyLicenses
+generated: true
 ---
 
 # POST Agents/License/AssignThirdPartyLicenses
@@ -91,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 355,
-  "ModuleOwner": "ipsa",
+  "AssociateId": 878,
+  "ModuleOwner": "velit",
   "ModuleLicenseNames": [
-    "Lynch, Hessel and Kshlerin",
-    "Bashirian, Collier and Grant"
+    "Cassin, Bechtelar and Corwin",
+    "Effertz Inc and Sons"
   ]
 }
 ```
@@ -108,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 97,
-    "Tooltip": "magni",
+    "Unrestricted": true,
+    "Total": 552,
+    "Tooltip": "deserunt",
     "CanAssign": false,
-    "Free": 444,
-    "InUse": 780,
+    "Free": 900,
+    "InUse": 469,
     "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 643,
-    "Name": "Hudson Inc and Sons",
-    "Description": "Enhanced optimizing challenge",
-    "PrerequisiteModuleName": "Pollich, Powlowski and D'Amore",
-    "SortOrder": 83,
-    "ExtraFlags": 501,
+    "Assigned": false,
+    "ModuleLicenseId": 137,
+    "Name": "Mills-Lang",
+    "Description": "Open-architected multi-state ability",
+    "PrerequisiteModuleName": "Wyman, Dare and Zieme",
+    "SortOrder": 428,
+    "ExtraFlags": 99,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldLength": 702
       }
     }
   }

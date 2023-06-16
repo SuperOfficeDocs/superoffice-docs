@@ -1,6 +1,7 @@
 ---
 title: GET ForeignApp/{id}
 uid: v1ForeignAppEntity_GetForeignAppEntity
+generated: true
 ---
 
 # GET ForeignApp/{id}
@@ -79,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,32 +88,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 10 May 2008 03:51:33 G5T
+Last-Modified: Wed, 23 Sep 2020 16:00:47 G9T
 
 {
-  "ForeignAppId": 386,
-  "Name": "Reilly Group",
-  "CreatedDate": "2016-03-11T03:51:33.677213+01:00",
-  "UpdatedDate": "2008-05-10T03:51:33.677213+02:00",
+  "ForeignAppId": 468,
+  "Name": "Keeling LLC",
+  "CreatedDate": "2010-12-31T16:00:47.9615771+01:00",
+  "UpdatedDate": "2020-09-23T16:00:47.9615771+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 890,
-      "Name": "Powlowski Group",
-      "CreatedDate": "1997-10-11T03:51:33.677213+02:00",
-      "UpdatedDate": "2003-08-09T03:51:33.677213+02:00",
-      "AssociateFullName": "Prof. Maynard Lucious Nader",
-      "CreatedBy": "doloribus",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "cum",
-      "ForeignAppId": 132,
+      "ForeignDeviceId": 939,
+      "Name": "Wuckert LLC",
+      "CreatedDate": "1997-10-06T16:00:47.9615771+02:00",
+      "UpdatedDate": "2007-10-26T16:00:47.9615771+02:00",
+      "AssociateFullName": "Eileen Kemmer",
+      "CreatedBy": "suscipit",
+      "UpdatedBy": "facilis",
+      "DeviceIdentifier": "fugiat",
+      "ForeignAppId": 610,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 48
+          "FieldType": "System.Int32",
+          "FieldLength": 97
         }
       }
     }
@@ -122,7 +123,7 @@ Last-Modified: Sat, 10 May 2008 03:51:33 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 328
     }
   },
   "_Links": {

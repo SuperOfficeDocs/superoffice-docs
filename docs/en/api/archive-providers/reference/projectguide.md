@@ -2,17 +2,10 @@
 uid: ProjectGuide
 title: ProjectGuide
 description: Provider for the Project Guide, common to both Appointment and Document guide items and instances
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ProjectGuide"
+keywords: ProjectGuide archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ProjectGuide"
@@ -135,6 +128,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/contact/contactFax/description| *None* |Fax - Description: Phone number description|  |
 |appointmentInstance/contact/searchPhone/formattedNumber| *None* |Searchphone - Phone: Displays phone number|  |
 |appointmentInstance/contact/searchPhone/description| *None* |Searchphone - Description: Phone number description|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/contact/email/emailProtocol| *None* |Protocol: E-mail protocol, such as SMTP|  |
 |appointmentInstance/contact/email/emailAddress| *None* |E-mail|  |
 |appointmentInstance/contact/email/emailDescription| *None* |Description|  |
@@ -235,6 +232,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/contact/contactExtra/x\_contact\_datetime| *None* |Extra DateTime: Custom Date Time field. No default value. External|  |
 |appointmentInstance/contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.|  |
 |appointmentInstance/contact/contactExtra/x\_contact\_boolean| *None* |Extra boolean: Custom boolean field.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/contact/contactExtra/x\_contact\_timespan| *None* |Extra timespan: Custom timespan field. Hours and minutes in 10 units|  |
 |appointmentInstance/contact/contactExtra/x\_contact\_shorttext| *None* |Extra short text: Custom short text field. Keep HTML tags.|  |
 |appointmentInstance/contact/contactExtra/x\_contact\_short\_dropdown| *None* |Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.|  |
@@ -335,6 +336,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/person/personInfo/infoText| *None* |Information: Displays the text entered in the description field|  |
 |appointmentInstance/person/email/emailProtocol| *None* |Protocol: E-mail protocol, such as SMTP|  |
 |appointmentInstance/person/email/emailAddress| *None* |E-mail|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/person/email/emailDescription| *None* |Description|  |
 |appointmentInstance/person/email/emailId| *None* |ID|  |
 |appointmentInstance/person/email/emailLastSent| *None* |Last sent: The date and time an e-mail was last sent to this address|  |
@@ -435,6 +440,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/person/correspondingAssociate/firstName| *None* |First name: Displays the contact's first name|  |
 |appointmentInstance/person/correspondingAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
 |appointmentInstance/person/correspondingAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/person/correspondingAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |appointmentInstance/person/correspondingAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |appointmentInstance/person/correspondingAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
@@ -535,6 +544,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/project/projectAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |appointmentInstance/project/projectAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
 |appointmentInstance/project/projectAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 |appointmentInstance/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
 |appointmentInstance/project/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
@@ -635,6 +648,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/sale/associate/firstName| *None* |First name: Displays the contact's first name|  |
 |appointmentInstance/sale/associate/lastName| *None* |Last name: Displays the contact's last name|  |
 |appointmentInstance/sale/associate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/sale/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |appointmentInstance/sale/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |appointmentInstance/sale/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
@@ -735,6 +752,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/suggestedDocumentId| *None* |Document ID (suggestion: The database ID of a document that originates in a suggestion|  |
 |documentInstance/isMail| *None* |E-mail|  |
 |documentInstance/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/visibleFor| *None* |Visible for|  |
 |documentInstance/documentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |documentInstance/documentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -835,6 +856,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/person/restrictionAddress/wgs84latitude| *None* |Search address - Latitude: Latitude|  |
 |documentInstance/person/restrictionAddress/wgs84longitude| *None* |Search address - Longitude: Longitude|  |
 |documentInstance/person/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/person/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |documentInstance/person/personInterestIds| *None* |Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
 |documentInstance/person/personUdef/SuperOffice:1| *None* |contactshorttext: tooltipshorttext|  |
@@ -935,6 +960,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/person/hasStoreConsent| *None* |Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |documentInstance/person/withdrawnStoreConsent| *None* |Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |documentInstance/person/hasEmarketingConsent| *None* |Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/person/withdrawnEmarketingConsent| *None* |Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |documentInstance/person/subscription| *None* |Subscription: Subscription for marketing|  |
 |documentInstance/person/legalBaseStore| *None* |Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -1035,6 +1064,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/contact/contactAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
 |documentInstance/contact/contactAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |documentInstance/contact/contactAssociate/contactCategory| *None* |Category: Category|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/contact/contactAssociate/role| *None* |Role : Role|  |
 |documentInstance/contact/contactAssociate/assocName| *None* |User ID : User ID|  |
 |documentInstance/contact/contactAssociate/assocTooltip| *None* |Description : Description|  |
@@ -1135,6 +1168,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |documentInstance/project/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |documentInstance/project/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/project/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |documentInstance/project/projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
 |documentInstance/project/projectPublish/publishedBy| *None* |Published by: Published by|  |
@@ -1235,6 +1272,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/associate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
 |documentInstance/associate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
 |documentInstance/associate/portraitThumbnail| *None* |Person image: Person image|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/associate/otherGroups| *None* |Other groups: Other groups|  |
 |documentInstance/associate/userName| *None* |User name: User name|  |
 |documentInstance/associate/personEmail| *None* |E-mail|  |
@@ -1335,6 +1376,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/sale/saleUdef/SuperOffice:2| *None* |salelongtext|  |
 |documentInstance/sale/saleUdef/SuperOffice:3| *None* |salenumber|  |
 |documentInstance/sale/saleUdef/SuperOffice:4| *None* |saledate|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/sale/saleUdef/SuperOffice:5| *None* |saleunlimiteddate|  |
 |documentInstance/sale/saleUdef/SuperOffice:6| *None* |salecheckbox|  |
 |documentInstance/sale/saleUdef/SuperOffice:7| *None* |saledropdownlistbox|  |
@@ -1345,7 +1390,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contact/contactAssociate/ejStatus,appointmentInstance/person/portraitThumbnail,appointmentInstance/person/personAssociate/title,appointmentInstance/project/NumberOfNotCompletedActivities,documentInstance/who
+GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/person/supportAssociateFullName,appointmentInstance/person/personInfo/textId,appointmentInstance/person/personUrl/URLDescription,appointmentInstance/person/personAssociate/fullName,appointmentInstance/person/correspondingAssociate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

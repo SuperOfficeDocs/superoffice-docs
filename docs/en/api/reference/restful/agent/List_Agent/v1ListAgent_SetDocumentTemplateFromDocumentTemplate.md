@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetDocumentTemplateFromDocumentTemplate
 uid: v1ListAgent_SetDocumentTemplateFromDocumentTemplate
+generated: true
 ---
 
 # POST Agents/List/SetDocumentTemplateFromDocumentTemplate
@@ -97,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 712,
+  "SourceDocumentTemplateId": 887,
   "DocumentTemplateEntity": null
 }
 ```
@@ -113,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 947,
-  "Name": "King LLC",
-  "Tooltip": "animi",
-  "SaveInDb": 809,
-  "Filename": "autem",
-  "DefaultOref": "illo",
+  "DocumentTemplateId": 5,
+  "Name": "Lubowitz, Stokes and O'Connell",
+  "Tooltip": "dicta",
+  "SaveInDb": 923,
+  "Filename": "expedita",
+  "DefaultOref": "quia",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 668,
-  "IntentId": 459,
+  "AutoeventId": 221,
+  "IntentId": 227,
   "IsDefaultPublished": false,
-  "Rank": 850,
-  "LoadTemplateFromPlugin": 489,
-  "MimeType": "quaerat",
+  "Rank": 574,
+  "LoadTemplateFromPlugin": 787,
+  "MimeType": "hic",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 318,
+  "DocumentTypeKey": 1001,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "athena_borer@hirthe.info",
+  "EmailSubject": "brenda_nolan@dibbertkunde.info",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "trisha.farrell@morar.biz",
+  "SenderEmailAddress": "kendra@labadie.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldLength": 829
     }
   }
 }

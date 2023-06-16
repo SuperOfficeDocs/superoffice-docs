@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/SaveCRMScriptEntity
 uid: v1CRMScriptAgent_SaveCRMScriptEntity
+generated: true
 ---
 
 # POST Agents/CRMScript/SaveCRMScriptEntity
@@ -84,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 108,
-  "UniqueIdentifier": "soluta",
-  "Name": "Reichert Inc and Sons",
-  "Description": "Focused exuding knowledge user",
-  "IncludeId": "itaque",
-  "HierarchyId": 852,
-  "Source": "rerum",
-  "Registered": "2002-05-10T03:51:26.9436626+02:00",
-  "RegisteredAssociateId": 357,
-  "Updated": "2000-06-08T03:51:26.9436626+02:00",
-  "UpdatedAssociateId": 594
+  "EjscriptId": 721,
+  "UniqueIdentifier": "eum",
+  "Name": "Gusikowski, Terry and Spinka",
+  "Description": "Object-based intermediate complexity",
+  "IncludeId": "nisi",
+  "HierarchyId": 278,
+  "Source": "blanditiis",
+  "Registered": "1996-12-07T16:00:40.4768796+01:00",
+  "RegisteredAssociateId": 527,
+  "Updated": "2003-12-24T16:00:40.4768796+01:00",
+  "UpdatedAssociateId": 38
 }
 ```
 
@@ -109,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 963,
-  "UniqueIdentifier": "voluptas",
-  "Name": "Lehner Inc and Sons",
-  "Description": "Horizontal high-level neural-net",
-  "IncludeId": "et",
-  "HierarchyId": 45,
-  "Source": "saepe",
-  "Registered": "2020-02-23T03:51:26.9436626+01:00",
-  "RegisteredAssociateId": 918,
-  "Updated": "2016-10-12T03:51:26.9436626+02:00",
-  "UpdatedAssociateId": 154,
+  "EjscriptId": 842,
+  "UniqueIdentifier": "dolor",
+  "Name": "Will LLC",
+  "Description": "Synergized directional moratorium",
+  "IncludeId": "aut",
+  "HierarchyId": 183,
+  "Source": "omnis",
+  "Registered": "2010-10-16T16:00:40.4768796+02:00",
+  "RegisteredAssociateId": 55,
+  "Updated": "2010-04-10T16:00:40.4768796+02:00",
+  "UpdatedAssociateId": 70,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldType": "System.Int32",
+      "FieldLength": 132
     }
   }
 }

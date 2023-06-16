@@ -2,17 +2,10 @@
 uid: QuoteLineDynamicSelection
 title: QuoteLineDynamicSelection
 description: Quoteline selection archive using the selectionId as criterionmapping.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "QuoteLineDynamicSelection"
+keywords: QuoteLineDynamicSelection archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "QuoteLineDynamicSelection"
@@ -128,6 +121,10 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 |alternative/version/quote/sale/completed|bool|Sale - Completed: Displays a checkbox showing if an appointment is completed| x |
 |alternative/version/quote/sale/icon|listAny|Sale - Category: Displays the icon for an activity type| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/date|date|Sale - Date: Displays start date of a follow-up / sale date of a sale| x |
 |alternative/version/quote/sale/time| *None* |Sale - Time: Time|  |
 |alternative/version/quote/sale/type|listAny|Sale - Type: Displays the type of an activity| x |
@@ -228,6 +225,10 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/person/personDirectPhone/formattedNumber|string|Sale - Direct - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personDirectPhone/description|string|Sale - Direct - Description: Phone number description| x |
 |alternative/version/quote/sale/person/personMobilePhone/formattedNumber|string|Sale - Mobile - Phone: Displays phone number|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/person/personMobilePhone/description|string|Sale - Mobile - Description: Phone number description| x |
 |alternative/version/quote/sale/person/personPrivate/formattedNumber|string|Sale - Private - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personPrivate/description|string|Sale - Private - Description: Phone number description| x |
@@ -328,6 +329,10 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/person/personAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/person/personAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/person/personAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/person/personAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
 |alternative/version/quote/sale/person/personAssociate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/person/personAssociate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
@@ -428,6 +433,10 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/contact/postAddress/city|string|Sale - Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |alternative/version/quote/sale/contact/postAddress/zip|string|Sale - Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |alternative/version/quote/sale/contact/postAddress/state|string|Sale - Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/postAddress/wgs84latitude|decimal|Sale - Postal address - Latitude: Latitude| x |
 |alternative/version/quote/sale/contact/postAddress/wgs84longitude|decimal|Sale - Postal address - Longitude: Longitude| x |
 |alternative/version/quote/sale/contact/postAddress/formattedAddress| *None* |Sale - Postal address - {formattedAddress}: {formattedAddress}|  |
@@ -528,6 +537,10 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/contact/NumberOfSales|int|Sale - Number of sales|  |
 |alternative/version/quote/sale/contact/NumberOfSalesInPeriod|int|Sale - Number of sales in last 90 days|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedSales|int|Sale - Number of non-completed sales|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedSalesInPeriod|int|Sale - Number of non-completed sales in last 90 days|  |
 |alternative/version/quote/sale/contact/LastSale|date|Sale - Date of last sale|  |
 |alternative/version/quote/sale/contact/LastCompletedSale|date|Sale - Date of last completed sale|  |
@@ -628,6 +641,10 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/project/projectAssociate/mrMrs|string|Sale - Project - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/project/projectAssociate/title|string|Sale - Project - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/project/projectAssociate/associateDbId|associate|Sale - Project - ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/projectAssociate/contactName|string|Sale - Project - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/project/projectAssociate/contactDepartment|string|Sale - Project - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/project/projectAssociate/usergroup|userGroup|Sale - Project - Primary group: The user's primary user group| x |
@@ -718,7 +735,7 @@ Quoteline selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/quote/sale/who,alternative/version/quote/sale/contact/email/emailProtocol,alternative/version/quote/sale/contact/streetAddress/line2,alternative/version/quote/sale/contact/contactAssociate/contactFullName,alternative/version/quote/sale/associate/contactFullName
+GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/paymentTerms,alternative/version/quote/sale/person/email/emailHasBounced,alternative/version/quote/sale/contact/url/URLDescription,alternative/version/quote/sale/contact/contactAssociate/contactCategory,alternative/version/quote/sale/contact/contactExtra/x_contact_shorttext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

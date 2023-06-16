@@ -1,17 +1,11 @@
 ---
 uid: document
 title: document
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "document"
+keywords: mdoprovider mdo provider document
+description: MDO list provider for documents.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "document" MDO List

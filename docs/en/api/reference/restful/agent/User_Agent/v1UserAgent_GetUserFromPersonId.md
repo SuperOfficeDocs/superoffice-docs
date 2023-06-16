@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetUserFromPersonId
 uid: v1UserAgent_GetUserFromPersonId
+generated: true
 ---
 
 # POST Agents/User/GetUserFromPersonId
@@ -98,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 810
+  "PersonId": 560
 }
 ```
 
@@ -114,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 48,
-    "Name": "Johns Inc and Sons",
-    "Rank": 124,
-    "Tooltip": "omnis",
+    "AssociateId": 823,
+    "Name": "Greenholt, Beahan and Hammes",
+    "Rank": 784,
+    "Tooltip": "deleniti",
     "LicenseOwners": [
       {
-        "Name": "Botsford Inc and Sons",
-        "Description": "Realigned 5th generation budgetary management",
+        "Name": "Hills, Flatley and Runolfsdottir",
+        "Description": "Cross-platform zero administration data-warehouse",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -135,13 +136,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldLength": 821
           }
         }
       },
       {
-        "Name": "Botsford Inc and Sons",
-        "Description": "Realigned 5th generation budgetary management",
+        "Name": "Hills, Flatley and Runolfsdottir",
+        "Description": "Cross-platform zero administration data-warehouse",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -155,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldLength": 821
           }
         }
       }
@@ -164,110 +165,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "et",
-        "Tooltip": "deserunt",
-        "Id": 997,
-        "Rank": 259,
-        "Deleted": false,
+        "Value": "harum",
+        "Tooltip": "dolorem",
+        "Id": 11,
+        "Rank": 806,
+        "Deleted": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 139
+            "FieldLength": 263
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2019-12-15T03:51:28.5214215+01:00",
-    "Lastlogout": "1998-05-12T03:51:28.5214215+02:00",
-    "EjUserId": 850,
-    "RequestSignature": "pariatur",
+    "Lastlogin": "2016-01-22T16:00:42.3674868+01:00",
+    "Lastlogout": "2021-02-21T16:00:42.3674868+01:00",
+    "EjUserId": 562,
+    "RequestSignature": "et",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
+    "IsPersonRetired": false,
     "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "reiciendis",
-        "DisplayValue": "et",
+        "Value": "rerum",
+        "DisplayValue": "non",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 602
+            "FieldType": "System.Int32",
+            "FieldLength": 877
           }
         }
       },
       {
         "Type": null,
-        "Value": "reiciendis",
-        "DisplayValue": "et",
+        "Value": "rerum",
+        "DisplayValue": "non",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 877
+          }
+        }
+      }
+    ],
+    "UserName": "Harris, Wiza and Sawayn",
+    "TicketCategories": [
+      {
+        "Id": 894,
+        "Name": "Pfannerstill, Mayert and Robel",
+        "ToolTip": "Sed aut assumenda dolor et blanditiis.",
+        "Deleted": true,
+        "Rank": 454,
+        "Type": "incidunt",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "pariatur",
+        "ColorBlock": 970,
+        "ExtraInfo": "eum",
+        "StyleHint": "eaque",
+        "FullName": "Marisa Douglas PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 602
+            "FieldLength": 674
           }
         }
       }
     ],
-    "UserName": "Rath-O'Kon",
-    "TicketCategories": [
-      {
-        "Id": 272,
-        "Name": "Lebsack Group",
-        "ToolTip": "Modi culpa perferendis id voluptatum excepturi.",
-        "Deleted": false,
-        "Rank": 987,
-        "Type": "sit",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "numquam",
-        "ColorBlock": 197,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "hic",
-        "FullName": "Prof. Karson Kuvalis Sr.",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 253
-          }
-        }
-      }
-    ],
-    "NickName": "Bins, Crist and Littel",
-    "WaitingForApproval": true,
+    "NickName": "Pfeffer, Medhurst and O'Connell",
+    "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "et",
-      "ExtraFields2": "qui"
+      "ExtraFields1": "deleniti",
+      "ExtraFields2": "error"
     },
     "CustomFields": {
-      "CustomFields1": "dolorum",
-      "CustomFields2": "quibusdam"
+      "CustomFields1": "quisquam",
+      "CustomFields2": "aut"
     },
     "PostSaveCommands": [
       {
-        "Name": "Brown, Roberts and Watsica",
-        "DisplayName": "Kunze LLC",
-        "Description": "Front-line 6th generation attitude",
-        "ToolTip": "Possimus optio ut sunt nobis.",
+        "Name": "Jerde-Boyle",
+        "DisplayName": "Schaefer-Bechtelar",
+        "Description": "Persevering bifurcated database",
+        "ToolTip": "Est quae sint incidunt asperiores.",
         "Actions": "Implicit",
-        "ActionData": "reprehenderit",
+        "ActionData": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 164
+            "FieldLength": 431
           }
         }
       }
@@ -276,8 +277,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 895
+        "FieldType": "System.Int32",
+        "FieldLength": 980
       }
     }
   }

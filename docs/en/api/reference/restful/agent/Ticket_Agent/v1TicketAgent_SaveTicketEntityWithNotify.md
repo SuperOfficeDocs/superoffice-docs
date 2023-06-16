@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/SaveTicketEntityWithNotify
 uid: v1TicketAgent_SaveTicketEntityWithNotify
+generated: true
 ---
 
 # POST Agents/Ticket/SaveTicketEntityWithNotify
@@ -143,21 +144,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 848,
-  "Title": "qui",
-  "CreatedAt": "1998-01-22T03:51:28.3339538+01:00",
-  "LastChanged": "2002-03-18T03:51:28.3339538+01:00",
-  "ReadByOwner": "2000-01-23T03:51:28.3339538+01:00",
-  "ReadByCustomer": "1999-07-01T03:51:28.3339538+02:00",
-  "FirstReadByOwner": "2020-02-19T03:51:28.3339538+01:00",
-  "FirstReadByUser": "2008-12-06T03:51:28.3339538+01:00",
-  "Activate": "2016-06-16T03:51:28.3339538+02:00",
-  "ClosedAt": "2001-05-15T03:51:28.3339538+02:00",
-  "RepliedAt": "2018-10-08T03:51:28.3339538+02:00",
-  "AlertTimeout": "2012-08-02T03:51:28.3339538+02:00",
-  "Deadline": "2005-05-18T03:51:28.3339538+02:00",
+  "TicketId": 104,
+  "Title": "dolorem",
+  "CreatedAt": "2015-12-09T16:00:42.1487667+01:00",
+  "LastChanged": "1997-09-23T16:00:42.1487667+02:00",
+  "ReadByOwner": "2022-02-27T16:00:42.1487667+01:00",
+  "ReadByCustomer": "2016-08-31T16:00:42.1487667+02:00",
+  "FirstReadByOwner": "2022-05-25T16:00:42.1487667+02:00",
+  "FirstReadByUser": "2019-06-01T16:00:42.1487667+02:00",
+  "Activate": "1996-09-03T16:00:42.1487667+02:00",
+  "ClosedAt": "2023-04-19T16:00:42.1487667+02:00",
+  "RepliedAt": "2005-09-09T16:00:42.1487667+02:00",
+  "AlertTimeout": "2007-11-27T16:00:42.1487667+01:00",
+  "Deadline": "2011-03-26T16:00:42.1487667+01:00",
   "CreatedBy": null,
-  "Author": "consequuntur",
+  "Author": "ea",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -168,159 +169,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "eligendi",
-      "PersonId": 484,
-      "Mrmrs": "ut",
-      "Firstname": "Brandyn",
-      "Lastname": "Abbott",
-      "MiddleName": "Spencer Inc and Sons",
-      "Title": "rerum",
-      "Description": "Up-sized solution-oriented conglomeration",
-      "Email": "marlene_stamm@cummerata.us",
-      "FullName": "Ahmed Jessy Becker MD",
-      "DirectPhone": "861.454.2544",
-      "FormalName": "Stark Inc and Sons",
-      "CountryId": 766,
-      "ContactId": 123,
-      "ContactName": "Will, Davis and Kreiger",
-      "Retired": 414,
-      "Rank": 548,
-      "ActiveInterests": 482,
+      "Position": "et",
+      "PersonId": 256,
+      "Mrmrs": "non",
+      "Firstname": "Cole",
+      "Lastname": "King",
+      "MiddleName": "Gutmann Inc and Sons",
+      "Title": "soluta",
+      "Description": "Advanced zero administration middleware",
+      "Email": "rosetta@schiller.com",
+      "FullName": "Megane Thiel",
+      "DirectPhone": "005-548-7413 x4989",
+      "FormalName": "Glover, Keebler and Kreiger",
+      "CountryId": 705,
+      "ContactId": 477,
+      "ContactName": "Hilll-Hayes",
+      "Retired": 919,
+      "Rank": 655,
+      "ActiveInterests": 500,
       "ContactDepartment": "",
-      "ContactCountryId": 414,
-      "ContactOrgNr": "1310137",
-      "FaxPhone": "322.425.6820 x507",
-      "MobilePhone": "033.979.4647",
-      "ContactPhone": "(943)088-1632",
-      "AssociateName": "Ondricka LLC",
-      "AssociateId": 126,
-      "UsePersonAddress": true,
-      "ContactFax": "dolor",
-      "Kanafname": "id",
-      "Kanalname": "eius",
-      "Post1": "sed",
-      "Post2": "quis",
-      "Post3": "blanditiis",
-      "EmailName": "kelsie.halvorson@rutherfordkutch.ca",
-      "ContactFullName": "Telly O'Conner",
-      "ActiveErpLinks": 774,
-      "TicketPriorityId": 790,
-      "SupportLanguageId": 456,
-      "SupportAssociateId": 223,
+      "ContactCountryId": 586,
+      "ContactOrgNr": "1714617",
+      "FaxPhone": "1-163-080-1754 x5913",
+      "MobilePhone": "861.998.7642 x10125",
+      "ContactPhone": "1-297-969-9803",
+      "AssociateName": "Funk, Greenfelder and Little",
+      "AssociateId": 120,
+      "UsePersonAddress": false,
+      "ContactFax": "aut",
+      "Kanafname": "voluptatem",
+      "Kanalname": "eum",
+      "Post1": "ea",
+      "Post2": "consequatur",
+      "Post3": "nihil",
+      "EmailName": "jailyn@krajcikferry.com",
+      "ContactFullName": "Hailie Nader DDS",
+      "ActiveErpLinks": 427,
+      "TicketPriorityId": 676,
+      "SupportLanguageId": 138,
+      "SupportAssociateId": 116,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 503
+          "FieldLength": 655
         }
       }
     }
   ],
-  "AlertLevel": 393,
-  "ConnectId": 589,
+  "AlertLevel": 510,
+  "ConnectId": 539,
   "ReadStatus": "Green",
-  "TimeToReply": 116,
-  "RealTimeToReply": 803,
-  "TimeToClose": 307,
-  "RealTimeToClose": 495,
-  "TimeSpentInternally": 180,
-  "TimeSpentExternally": 861,
-  "TimeSpentQueue": 311,
-  "RealTimeSpentInternally": 408,
-  "RealTimeSpentExternally": 971,
-  "RealTimeSpentQueue": 928,
-  "HasAttachment": true,
-  "NumReplies": 282,
-  "NumMessages": 351,
-  "FromAddress": "blanditiis",
+  "TimeToReply": 823,
+  "RealTimeToReply": 865,
+  "TimeToClose": 900,
+  "RealTimeToClose": 882,
+  "TimeSpentInternally": 155,
+  "TimeSpentExternally": 428,
+  "TimeSpentQueue": 382,
+  "RealTimeSpentInternally": 664,
+  "RealTimeSpentExternally": 749,
+  "RealTimeSpentQueue": 689,
+  "HasAttachment": false,
+  "NumReplies": 974,
+  "NumMessages": 220,
+  "FromAddress": "provident",
   "Messages": [
     {
-      "TicketMessageId": 696,
-      "CreatedAt": "2017-10-02T03:51:28.3339538+02:00",
+      "TicketMessageId": 763,
+      "CreatedAt": "2016-12-10T16:00:42.1487667+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "pariatur",
-      "PersonId": 777,
-      "PersonFullName": "Violette Armstrong",
-      "ContactId": 277,
-      "ContactName": "Nicolas LLC",
+      "Author": "omnis",
+      "PersonId": 131,
+      "PersonFullName": "Raul Stamm",
+      "ContactId": 90,
+      "ContactName": "Nitzsche LLC",
       "ContactDepartment": "",
-      "NumAttachments": 800,
-      "EmailHeader": "dale.wiza@ullrich.uk",
+      "NumAttachments": 507,
+      "EmailHeader": "caesar_wolff@hills.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "consectetur",
-      "Sentiment": 946,
-      "SentimentConfidence": 688,
-      "CreatedBy": 656,
-      "ChangedAt": "2016-06-08T03:51:28.3339538+02:00",
+      "Language": "inventore",
+      "Sentiment": 255,
+      "SentimentConfidence": 938,
+      "CreatedBy": 761,
+      "ChangedAt": "2006-07-14T16:00:42.1487667+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldType": "System.String",
+          "FieldLength": 84
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 788,
-      "Name": "Weissnat, Berge and Botsford",
-      "ToolTip": "Sequi vel fugiat culpa eius vel voluptatem.",
+      "Id": 189,
+      "Name": "Cummings-Abshire",
+      "ToolTip": "Eum maxime aut porro consectetur praesentium amet.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 116
         }
       }
     },
     {
-      "Id": 788,
-      "Name": "Weissnat, Berge and Botsford",
-      "ToolTip": "Sequi vel fugiat culpa eius vel voluptatem.",
+      "Id": 189,
+      "Name": "Cummings-Abshire",
+      "ToolTip": "Eum maxime aut porro consectetur praesentium amet.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 116
         }
       }
     }
   ],
-  "Language": "odit",
-  "Sentiment": 414,
-  "SentimentConfidence": 262,
-  "SuggestedCategoryId": 6,
+  "Language": "reprehenderit",
+  "Sentiment": 901,
+  "SentimentConfidence": 920,
+  "SuggestedCategoryId": 487,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 313,
-  "IconHint": "dolorem",
+  "OrigHumanCategoryId": 222,
+  "IconHint": "quis",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "aliquid",
-    "ExtraFields2": "cumque"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "eligendi"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "nesciunt"
+    "CustomFields1": "recusandae",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 748
     }
   }
 }

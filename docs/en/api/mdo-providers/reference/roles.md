@@ -1,17 +1,17 @@
 ---
 uid: roles
 title: roles
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "roles"
+keywords: mdoprovider mdo provider roles
+description: RoleListProvider creates a MDO list of roles in the database.
+Default list are the employee roles.
+Use ExtraInfo to get other RoleTypes.
+ExtraInfo : "0" Default, to get employee roles
+ExtraInfo : "1" to get external users roles
+ExtraInfo : "2" to get anonymous roles.
+ExtraInfo : "3" to get system user roles.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "roles" MDO List

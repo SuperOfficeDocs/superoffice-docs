@@ -1,6 +1,6 @@
 ---
 title: Services88.SelectionAgent.GetDynamicSelectionCriteria SOAP
-generated: 1
+generated: true
 uid: Services88-Selection-GetDynamicSelectionCriteria
 ---
 

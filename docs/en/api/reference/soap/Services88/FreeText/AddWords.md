@@ -1,6 +1,6 @@
 ---
 title: Services88.FreeTextAgent.AddWords SOAP
-generated: 1
+generated: true
 uid: Services88-FreeText-AddWords
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: PUT List/Competitor/Items/{id}
 uid: v1CompetitorList_PutCompetitor
+generated: true
 ---
 
 # PUT List/Competitor/Items/{id}
@@ -77,16 +78,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 426,
-  "Name": "Wiza, Johnson and Zemlak",
-  "Tooltip": "excepturi",
+  "Id": 597,
+  "Name": "Monahan Inc and Sons",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 972,
-  "Rank": 397
+  "UdListDefinitionId": 492,
+  "Rank": 42
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 395,
-  "Name": "Gislason LLC",
-  "Tooltip": "est",
+  "Id": 764,
+  "Name": "Brekke Inc and Sons",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 966,
-  "Rank": 353,
+  "UdListDefinitionId": 236,
+  "Rank": 220,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 433
+      "FieldLength": 883
     }
   }
 }

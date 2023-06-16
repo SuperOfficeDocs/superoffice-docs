@@ -1,6 +1,7 @@
 ---
 title: POST String
 uid: v1String_GetStrings
+generated: true
 ---
 
 # POST String
@@ -27,8 +28,8 @@ Post the array of strings to get translations for all the strings.
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-POST /api/v1/String?isoLangCode=rerum
-POST /api/v1/String?ignoreOverrides=False
+POST /api/v1/String?isoLangCode=dolor
+POST /api/v1/String?ignoreOverrides=True
 ```
 
 
@@ -68,7 +69,7 @@ OK
 POST /api/v1/String
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

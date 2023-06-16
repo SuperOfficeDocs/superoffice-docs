@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/DeleteConfigParameter
 uid: v1AudienceAgent_DeleteConfigParameter
+generated: true
 ---
 
 # POST Agents/Audience/DeleteConfigParameter
@@ -64,12 +65,12 @@ No Content
 POST /api/v1/Agents/Audience/DeleteConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Gorczany LLC",
-  "ParameterName": "Brekke-Predovic"
+  "LayoutName": "Tremblay Group",
+  "ParameterName": "Vandervort-Zemlak"
 }
 ```
 

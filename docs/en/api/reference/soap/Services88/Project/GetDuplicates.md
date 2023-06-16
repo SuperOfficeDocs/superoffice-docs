@@ -1,6 +1,6 @@
 ---
 title: Services88.ProjectAgent.GetDuplicates SOAP
-generated: 1
+generated: true
 uid: Services88-Project-GetDuplicates
 ---
 

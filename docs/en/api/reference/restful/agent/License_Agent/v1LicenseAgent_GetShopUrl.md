@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/GetShopUrl
 uid: v1LicenseAgent_GetShopUrl
+generated: true
 ---
 
 # POST Agents/License/GetShopUrl
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/License/GetShopUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Ortiz Inc and Sons"
+  "OwnerName": "Lindgren-Jacobson"
 }
 ```
 

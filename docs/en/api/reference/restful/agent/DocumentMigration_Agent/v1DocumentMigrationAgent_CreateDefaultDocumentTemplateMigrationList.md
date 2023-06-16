@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DocumentMigration/CreateDefaultDocumentTemplateMigrationList
 uid: v1DocumentMigrationAgent_CreateDefaultDocumentTemplateMigrationList
+generated: true
 ---
 
 # POST Agents/DocumentMigration/CreateDefaultDocumentTemplateMigrationList
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentTemplateMigrationList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,11 +70,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumTemplatesOmitted": 717,
-  "NumTemplatesAlreadyMigrated": 338,
+  "NumTemplatesOmitted": 412,
+  "NumTemplatesAlreadyMigrated": 439,
   "TemplateIds": [
-    133,
-    920
+    342,
+    260
   ]
 }
 ```

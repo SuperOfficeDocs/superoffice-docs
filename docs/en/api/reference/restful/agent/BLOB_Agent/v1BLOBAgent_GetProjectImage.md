@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/GetProjectImage
 uid: v1BLOBAgent_GetProjectImage
+generated: true
 ---
 
 # POST Agents/BLOB/GetProjectImage
@@ -71,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 133
+  "ProjectId": 719
 }
 ```
 

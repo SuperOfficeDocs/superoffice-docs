@@ -1,6 +1,7 @@
 ---
 title: GET Role/{id}/FunctionRight
 uid: v1RoleEntity_GetFunctionalRights
+generated: true
 ---
 
 # GET Role/{id}/FunctionRight
@@ -88,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Kilback-Wilderman",
-    "ToolTip": "Similique inventore enim similique.",
+    "Id": 3,
+    "Name": "Mayer Inc and Sons",
+    "ToolTip": "Rerum rerum est quam sit est asperiores.",
     "Deleted": false,
-    "Rank": 314,
-    "Type": "ad",
-    "ColorBlock": 509,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2014-07-18T03:51:33.8802911+02:00",
+    "Rank": 304,
+    "Type": "sunt",
+    "ColorBlock": 913,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2002-04-25T16:00:48.211547+02:00",
     "ChildItems": [
       {
-        "Id": 981,
-        "Name": "Mante, Wyman and Pollich",
-        "ToolTip": "Placeat et recusandae impedit quisquam unde.",
-        "Deleted": false,
-        "Rank": 47,
-        "Type": "amet",
-        "ColorBlock": 558,
-        "IconHint": "eaque",
-        "Selected": true,
-        "LastChanged": "2005-03-02T03:51:33.8802911+01:00",
+        "Id": 121,
+        "Name": "Gutkowski, Prosacco and Rogahn",
+        "ToolTip": "Ducimus magni.",
+        "Deleted": true,
+        "Rank": 535,
+        "Type": "unde",
+        "ColorBlock": 427,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2022-10-31T16:00:48.211547+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "eum",
-        "Hidden": true,
-        "FullName": "Mr. Chaya Kreiger",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "saepe",
+        "Hidden": false,
+        "FullName": "Dr. Caterina Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 67
+            "FieldLength": 827
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "facere",
+    "ExtraInfo": "sed",
+    "StyleHint": "exercitationem",
     "Hidden": false,
-    "FullName": "Veda Tillman",
+    "FullName": "Albert Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldType": "System.String",
+        "FieldLength": 485
       }
     }
   }

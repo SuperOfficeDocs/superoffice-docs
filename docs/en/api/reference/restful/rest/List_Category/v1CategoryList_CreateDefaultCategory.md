@@ -1,6 +1,7 @@
 ---
 title: GET List/Category/Items/Default
 uid: v1CategoryList_CreateDefaultCategory
+generated: true
 ---
 
 # GET List/Category/Items/Default
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 607,
-  "Name": "Metz-Huels",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "UdListDefinitionId": 488,
-  "Rank": 76,
+  "Id": 48,
+  "Name": "O'Reilly, Kirlin and Dooley",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "UdListDefinitionId": 601,
+  "Rank": 254,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 234
+      "FieldType": "System.Int32",
+      "FieldLength": 472
     }
   }
 }

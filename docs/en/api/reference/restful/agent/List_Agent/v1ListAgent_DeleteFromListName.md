@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/DeleteFromListName
 uid: v1ListAgent_DeleteFromListName
+generated: true
 ---
 
 # POST Agents/List/DeleteFromListName
@@ -64,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/DeleteFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 778,
-  "UdListDefinitionName": "Deckow Group"
+  "Id": 407,
+  "UdListDefinitionName": "Bode-Nitzsche"
 }
 ```
 

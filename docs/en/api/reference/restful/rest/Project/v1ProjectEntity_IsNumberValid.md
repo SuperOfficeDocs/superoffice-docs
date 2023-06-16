@@ -1,6 +1,7 @@
 ---
 title: GET Project/{id}/IsNumberValid/{number}
 uid: v1ProjectEntity_IsNumberValid
+generated: true
 ---
 
 # GET Project/{id}/IsNumberValid/{number}
@@ -56,7 +57,7 @@ OK
 GET /api/v1/Project/{contactId}/IsNumberValid/{number}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -65,5 +66,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

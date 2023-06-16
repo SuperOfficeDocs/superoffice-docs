@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/DeleteWorkflowStepOption
 uid: v1WorkflowAgent_DeleteWorkflowStepOption
+generated: true
 ---
 
 # POST Agents/Workflow/DeleteWorkflowStepOption
@@ -24,7 +25,7 @@ Deletes the WorkflowStepOption
 | WorkflowStepOptionId | int32 | **Required** The id of the WorkflowStepOption to be deleted. |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowStepOption?WorkflowStepOptionId=49
+POST /api/v1/Agents/Workflow/DeleteWorkflowStepOption?WorkflowStepOptionId=475
 ```
 
 
@@ -55,7 +56,7 @@ No Content
 POST /api/v1/Agents/Workflow/DeleteWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

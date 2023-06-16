@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Diagnostics/ResyncUsers
 uid: v1DiagnosticsAgent_ResyncUsers
+generated: true
 ---
 
 # POST Agents/Diagnostics/ResyncUsers

@@ -1,6 +1,7 @@
 ---
 title: GET List/Task/Items/{id}/UserGroups
 uid: v1TaskList_GetTaskListItemUserGroupsForListItem
+generated: true
 ---
 
 # GET List/Task/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Strosin, Gulgowski and Champlin",
-    "ToolTip": "Et ducimus.",
-    "Deleted": true,
-    "Rank": 282,
-    "Type": "dolorem",
-    "ColorBlock": 301,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2001-09-24T03:51:34.9895221+02:00",
+    "Id": 149,
+    "Name": "Toy-Gutmann",
+    "ToolTip": "A ipsam officia.",
+    "Deleted": false,
+    "Rank": 868,
+    "Type": "qui",
+    "ColorBlock": 145,
+    "IconHint": "nostrum",
+    "Selected": false,
+    "LastChanged": "2000-08-12T16:00:49.3677537+02:00",
     "ChildItems": [
       {
-        "Id": 787,
-        "Name": "Baumbach, Wolff and Ferry",
-        "ToolTip": "Qui et quo.",
-        "Deleted": false,
-        "Rank": 272,
-        "Type": "fuga",
-        "ColorBlock": 491,
-        "IconHint": "mollitia",
-        "Selected": true,
-        "LastChanged": "2005-03-13T03:51:34.9895221+01:00",
+        "Id": 773,
+        "Name": "Bode-Abbott",
+        "ToolTip": "Architecto occaecati odio provident enim.",
+        "Deleted": true,
+        "Rank": 513,
+        "Type": "assumenda",
+        "ColorBlock": 692,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "2018-10-16T16:00:49.3677537+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "veniam",
+        "ExtraInfo": "sit",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Rae Price",
+        "FullName": "Mrs. Lue O'Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 853
+            "FieldType": "System.Int32",
+            "FieldLength": 471
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Mr. Kiley Kuhlman MD",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "sapiente",
+    "Hidden": false,
+    "FullName": "Mrs. Torey Mekhi Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldType": "System.String",
+        "FieldLength": 938
       }
     }
   }

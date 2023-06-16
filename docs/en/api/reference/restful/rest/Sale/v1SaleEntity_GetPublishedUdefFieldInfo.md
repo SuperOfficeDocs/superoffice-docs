@@ -1,6 +1,7 @@
 ---
 title: GET Sale/UdefLayout/Published/{progidOrLabel}
 uid: v1SaleEntity_GetPublishedUdefFieldInfo
+generated: true
 ---
 
 # GET Sale/UdefLayout/Published/{progidOrLabel}
@@ -102,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 620,
-  "ColumnId": 234,
-  "FieldDefault": "illo",
-  "FieldHeight": 266,
-  "FieldLabel": "assumenda",
-  "FieldLeft": 375,
-  "FieldTop": 144,
+  "UDefFieldId": 50,
+  "ColumnId": 544,
+  "FieldDefault": "ut",
+  "FieldHeight": 149,
+  "FieldLabel": "excepturi",
+  "FieldLeft": 662,
+  "FieldTop": 765,
   "FieldType": "Checkbox",
-  "FieldWidth": 990,
-  "FormatMask": "neque",
-  "HideLabel": true,
+  "FieldWidth": 643,
+  "FormatMask": "nulla",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 289,
-  "LabelLeft": 473,
-  "LabelTop": 467,
-  "LabelWidth": 39,
-  "LastVersionId": 338,
-  "ListTableId": 847,
-  "IsMandatory": true,
+  "LabelHeight": 813,
+  "LabelLeft": 398,
+  "LabelTop": 853,
+  "LabelWidth": 37,
+  "LastVersionId": 818,
+  "ListTableId": 636,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 588,
-  "ProgId": "delectus",
-  "IsReadOnly": false,
-  "ShortLabel": "repellat",
-  "TabOrder": 195,
-  "TextLength": 601,
-  "Tooltip": "expedita",
-  "UdefIdentity": 556,
-  "UDListDefinitionId": 538,
+  "Page1LineNo": 724,
+  "ProgId": "culpa",
+  "IsReadOnly": true,
+  "ShortLabel": "eligendi",
+  "TabOrder": 685,
+  "TextLength": 947,
+  "Tooltip": "quia",
+  "UdefIdentity": 156,
+  "UDListDefinitionId": 623,
   "Justification": "Center",
-  "Version": 160,
-  "TemplateVariableName": "Yundt, Carter and Hayes",
-  "HasBeenPublished": false,
-  "MdoListName": "Hintz-Nikolaus",
+  "Version": 256,
+  "TemplateVariableName": "Parisian Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Gorczany, Upton and Lakin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 869
     }
   }
 }

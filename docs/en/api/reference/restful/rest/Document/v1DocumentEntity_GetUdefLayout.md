@@ -1,6 +1,7 @@
 ---
 title: GET Document/UdefLayout
 uid: v1DocumentEntity_GetUdefLayout
+generated: true
 ---
 
 # GET Document/UdefLayout
@@ -89,7 +90,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 729,
-    "ColumnId": 894,
-    "FieldDefault": "beatae",
-    "FieldHeight": 141,
-    "FieldLabel": "dolorum",
-    "FieldLeft": 344,
-    "FieldTop": 392,
+    "UDefFieldId": 746,
+    "ColumnId": 932,
+    "FieldDefault": "recusandae",
+    "FieldHeight": 959,
+    "FieldLabel": "aut",
+    "FieldLeft": 839,
+    "FieldTop": 209,
     "FieldType": "Checkbox",
-    "FieldWidth": 232,
-    "FormatMask": "quibusdam",
-    "HideLabel": true,
+    "FieldWidth": 586,
+    "FormatMask": "ut",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 731,
-    "LabelLeft": 939,
-    "LabelTop": 1001,
-    "LabelWidth": 546,
-    "LastVersionId": 189,
-    "ListTableId": 270,
-    "IsMandatory": true,
+    "LabelHeight": 951,
+    "LabelLeft": 86,
+    "LabelTop": 648,
+    "LabelWidth": 938,
+    "LastVersionId": 287,
+    "ListTableId": 505,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 867,
-    "ProgId": "beatae",
-    "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 412,
-    "TextLength": 767,
-    "Tooltip": "unde",
-    "UdefIdentity": 577,
-    "UDListDefinitionId": 845,
+    "Page1LineNo": 986,
+    "ProgId": "tenetur",
+    "IsReadOnly": true,
+    "ShortLabel": "rem",
+    "TabOrder": 479,
+    "TextLength": 655,
+    "Tooltip": "veniam",
+    "UdefIdentity": 756,
+    "UDListDefinitionId": 870,
     "Justification": "Center",
-    "Version": 541,
-    "TemplateVariableName": "Reynolds-Murphy",
-    "HasBeenPublished": true,
-    "MdoListName": "Steuber Inc and Sons",
+    "Version": 910,
+    "TemplateVariableName": "Boyer Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Konopelski, Carter and Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldType": "System.String",
+        "FieldLength": 249
       }
     }
   }

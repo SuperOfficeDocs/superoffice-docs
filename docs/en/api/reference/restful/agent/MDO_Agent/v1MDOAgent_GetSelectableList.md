@@ -1,6 +1,7 @@
 ---
 title: POST Agents/MDO/GetSelectableList
 uid: v1MDOAgent_GetSelectableList
+generated: true
 ---
 
 # POST Agents/MDO/GetSelectableList
@@ -93,10 +94,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bode, Wiegand and Barton",
+  "Name": "Corkery, Cole and Hudson",
   "ForceFlatList": false,
-  "AdditionalInfo": "sit",
-  "OnlyHistory": true
+  "AdditionalInfo": "ea",
+  "OnlyHistory": false
 }
 ```
 
@@ -108,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Padberg, Thiel and Emard",
-    "ToolTip": "Ut voluptates dolorum tenetur sequi et aliquam dolores.",
-    "Deleted": false,
-    "Rank": 939,
-    "Type": "veniam",
-    "ColorBlock": 83,
-    "IconHint": "quibusdam",
-    "Selected": true,
-    "LastChanged": "2017-08-30T03:51:27.5216578+02:00",
+    "Id": 24,
+    "Name": "Carroll-Gutkowski",
+    "ToolTip": "Culpa temporibus laudantium nisi rerum harum perspiciatis.",
+    "Deleted": true,
+    "Rank": 16,
+    "Type": "qui",
+    "ColorBlock": 939,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "2017-12-28T16:00:41.2736903+01:00",
     "ChildItems": [
       {
-        "Id": 585,
-        "Name": "Ortiz, Kovacek and Sipes",
-        "ToolTip": "Eligendi vitae ipsa maxime ipsum et impedit.",
+        "Id": 176,
+        "Name": "Carroll-Thiel",
+        "ToolTip": "Natus alias nemo ex.",
         "Deleted": false,
-        "Rank": 586,
-        "Type": "itaque",
-        "ColorBlock": 188,
-        "IconHint": "doloremque",
+        "Rank": 878,
+        "Type": "veritatis",
+        "ColorBlock": 466,
+        "IconHint": "facilis",
         "Selected": false,
-        "LastChanged": "2011-01-11T03:51:27.5216578+01:00",
+        "LastChanged": "2004-01-09T16:00:41.2736903+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "ab",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Carmine Paucek",
+        "FullName": "Jakob Lemke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 879
+            "FieldType": "System.Int32",
+            "FieldLength": 184
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "quos",
+    "ExtraInfo": "et",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Jacey Rogahn",
+    "FullName": "Helen Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 142
       }
     }
   }

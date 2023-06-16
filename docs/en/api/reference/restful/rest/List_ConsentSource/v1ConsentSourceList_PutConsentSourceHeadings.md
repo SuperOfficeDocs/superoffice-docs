@@ -1,6 +1,7 @@
 ---
 title: PUT List/ConsentSource/Headings
 uid: v1ConsentSourceList_PutConsentSourceHeadings
+generated: true
 ---
 
 # PUT List/ConsentSource/Headings
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 841,
-    "Name": "Heidenreich-Kozey",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 943,
-    "UdListDefinitionId": 825
+    "HeadingId": 606,
+    "Name": "Weimann-Schmitt",
+    "Tooltip": "sed",
+    "Deleted": true,
+    "Rank": 308,
+    "UdListDefinitionId": 145
   },
   {
-    "HeadingId": 841,
-    "Name": "Heidenreich-Kozey",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 943,
-    "UdListDefinitionId": 825
+    "HeadingId": 606,
+    "Name": "Weimann-Schmitt",
+    "Tooltip": "sed",
+    "Deleted": true,
+    "Rank": 308,
+    "UdListDefinitionId": 145
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 799,
-    "Name": "Fay, Grant and Legros",
-    "Tooltip": "labore",
+    "HeadingId": 25,
+    "Name": "Goldner, Nienow and Herzog",
+    "Tooltip": "provident",
     "Deleted": false,
-    "Rank": 993,
-    "UdListDefinitionId": 75,
+    "Rank": 312,
+    "UdListDefinitionId": 268,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 173
+        "FieldType": "System.Int32",
+        "FieldLength": 581
       }
     }
   }

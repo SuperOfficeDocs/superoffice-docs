@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/SavePreferenceEntity
 uid: v1PreferenceAgent_SavePreferenceEntity
+generated: true
 ---
 
 # POST Agents/Preference/SavePreferenceEntity
@@ -85,7 +86,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "inventore",
+  "RawValue": "rerum",
   "Specification": null,
-  "DisplayValue": "placeat",
-  "DisplayTooltip": "voluptas",
+  "DisplayValue": "nulla",
+  "DisplayTooltip": "necessitatibus",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 872,
-  "PrefDescId": 231,
-  "TableName": "Bruen, Feil and Price",
-  "UserPreferenceId": 267,
+  "TargetId": 609,
+  "PrefDescId": 38,
+  "TableName": "Ledner, Ledner and Heller",
+  "UserPreferenceId": 742,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 563
     }
   }
 }

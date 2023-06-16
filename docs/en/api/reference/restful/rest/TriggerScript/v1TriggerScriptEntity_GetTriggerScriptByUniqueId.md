@@ -1,6 +1,7 @@
 ---
 title: GET TriggerScript/{id}
 uid: v1TriggerScriptEntity_GetTriggerScriptByUniqueId
+generated: true
 ---
 
 # GET TriggerScript/{id}
@@ -69,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 560,
-  "Name": "Quigley, Berge and Feil",
+  "ScreenChooserId": 620,
+  "Name": "Kuvalis-Armstrong",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "soluta",
-  "Source": "doloremque",
-  "Registered": "2004-11-26T03:51:34.1615868+01:00",
-  "RegisteredAssociateId": 944,
-  "Updated": "2008-08-03T03:51:34.1615868+02:00",
-  "UpdatedAssociateId": 748,
+  "UniqueIdentifier": "quibusdam",
+  "Source": "quia",
+  "Registered": "2012-08-25T16:00:48.617756+02:00",
+  "RegisteredAssociateId": 801,
+  "Updated": "2013-07-12T16:00:48.617756+02:00",
+  "UpdatedAssociateId": 150,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldType": "System.String",
+      "FieldLength": 795
     }
   }
 }

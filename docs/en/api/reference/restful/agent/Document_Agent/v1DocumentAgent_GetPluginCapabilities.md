@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetPluginCapabilities
 uid: v1DocumentAgent_GetPluginCapabilities
+generated: true
 ---
 
 # POST Agents/Document/GetPluginCapabilities
@@ -73,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 920
+  "PluginId": 975
 }
 ```
 
@@ -84,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ad",
-  "2": "molestiae"
+  "1": "minus",
+  "2": "provident"
 }
 ```

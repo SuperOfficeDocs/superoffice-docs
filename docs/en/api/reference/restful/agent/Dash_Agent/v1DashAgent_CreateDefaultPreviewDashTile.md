@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/CreateDefaultPreviewDashTile
 uid: v1DashAgent_CreateDefaultPreviewDashTile
+generated: true
 ---
 
 # POST Agents/Dash/CreateDefaultPreviewDashTile
@@ -67,14 +68,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Skiles-Treutel",
+  "Name": "Jacobi-Mayer",
   "TileType": "Area",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldType": "System.Int32",
+      "FieldLength": 117
     }
   }
 }

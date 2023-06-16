@@ -1,6 +1,7 @@
 ---
 title: PUT Product/{id}/ImageInfo
 uid: v1Product_PutImageInfo
+generated: true
 ---
 
 # PUT Product/{id}/ImageInfo
@@ -96,19 +97,19 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 608,
-  "BlobSize": 367,
-  "Description": "Visionary even-keeled firmware",
-  "ExtraInfo": "facere",
-  "IsEncrypted": false,
+  "BlobId": 190,
+  "BlobSize": 698,
+  "Description": "Pre-emptive non-volatile application",
+  "ExtraInfo": "quia",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 832,
-  "CreatedDate": "2018-05-31T03:51:34.2396907+02:00",
-  "UpdatedDate": "2008-08-29T03:51:34.2396907+02:00",
+  "MimeType": "beatae",
+  "OriginalSize": 12,
+  "CreatedDate": "2021-05-15T16:00:48.6958683+02:00",
+  "UpdatedDate": "2012-03-14T16:00:48.6958683+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "laborum"
+  "ConceptualType": "nihil"
 }
 ```
 
@@ -119,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 184,
-  "BlobSize": 492,
-  "Description": "Re-engineered bottom-line software",
-  "ExtraInfo": "ut",
+  "BlobId": 295,
+  "BlobSize": 412,
+  "Description": "Inverse high-level collaboration",
+  "ExtraInfo": "sit",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "aperiam",
-  "OriginalSize": 750,
-  "CreatedDate": "2008-11-09T03:51:34.2396907+01:00",
-  "UpdatedDate": "2001-06-07T03:51:34.2396907+02:00",
+  "MimeType": "omnis",
+  "OriginalSize": 346,
+  "CreatedDate": "2020-01-16T16:00:48.6958683+01:00",
+  "UpdatedDate": "2009-05-20T16:00:48.6958683+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "repellat",
+  "ConceptualType": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 981
+      "FieldType": "System.Int32",
+      "FieldLength": 994
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: PUT List/LegalBase
 uid: v1LegalBaseList_SetListDefinition
+generated: true
 ---
 
 # PUT List/LegalBase
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 506,
-  "Name": "Hilpert Inc and Sons",
-  "Tooltip": "excepturi",
-  "Deleted": true,
-  "Rank": 169,
+  "Id": 74,
+  "Name": "Schultz-Feest",
+  "Tooltip": "autem",
+  "Deleted": false,
+  "Rank": 10,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quae",
-  "InUseByUserDefinedFields": true
+  "ListType": "repellendus",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Hirthe, Rohan and Corkery",
-  "Tooltip": "exercitationem",
+  "Id": 46,
+  "Name": "Koss, Zieme and Fritsch",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 139,
+  "Rank": 765,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "repellendus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 284
     }
   }
 }

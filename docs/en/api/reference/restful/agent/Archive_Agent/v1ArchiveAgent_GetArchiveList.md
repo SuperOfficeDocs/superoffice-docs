@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveList
 uid: v1ArchiveAgent_GetArchiveList
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveList
@@ -103,33 +104,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Donnelly, McCullough and Ritchie",
-  "ProviderName": "Cassin Group",
+  "GuiName": "Swift-Steuber",
+  "ProviderName": "Koelpin, Lynch and Moen",
   "SortOrder": [
     {
-      "Name": "Lynch, Streich and Okuneva",
+      "Name": "Aufderhar Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Lynch, Streich and Okuneva",
+      "Name": "Aufderhar Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Morar-Lebsack",
-      "Operator": "laudantium",
+      "Name": "Simonis-Harber",
+      "Operator": "aut",
       "Values": [
-        "molestias",
-        "a"
+        "quis",
+        "voluptatibus"
       ],
       "DisplayValues": [
-        "fugit",
-        "in"
+        "voluptatibus",
+        "numquam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -137,17 +138,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 234,
+      "InterParenthesis": 261,
       "InterOperator": "And",
-      "UniqueHash": 808
+      "UniqueHash": 705
     }
   ],
   "Entities": [
-    "quibusdam",
-    "soluta"
+    "officia",
+    "saepe"
   ],
-  "Page": 866,
-  "PageSize": 262
+  "Page": 953,
+  "PageSize": 356
 }
 ```
 
@@ -159,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Shanahan-Howell",
-    "PrimaryKey": 503,
+    "EntityName": "Schamberger-Reynolds",
+    "PrimaryKey": 817,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "amet",
-        "TooltipHint": "laborum",
-        "LinkHint": "rerum"
+        "DisplayValue": "pariatur",
+        "TooltipHint": "doloribus",
+        "LinkHint": "ea"
       }
     },
-    "LinkHint": "quibusdam",
-    "StyleHint": "quo",
+    "LinkHint": "repudiandae",
+    "StyleHint": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldType": "System.String",
+        "FieldLength": 959
       }
     }
   }

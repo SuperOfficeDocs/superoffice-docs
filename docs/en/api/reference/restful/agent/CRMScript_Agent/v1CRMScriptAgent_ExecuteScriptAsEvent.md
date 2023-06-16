@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/ExecuteScriptAsEvent
 uid: v1CRMScriptAgent_ExecuteScriptAsEvent
+generated: true
 ---
 
 # POST Agents/CRMScript/ExecuteScriptAsEvent
@@ -86,11 +87,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 139,
+  "CRMScriptId": 567,
   "EventData": null
 }
 ```
@@ -104,28 +105,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "aliquid",
-    "InputValues2": "nulla"
+    "InputValues1": "non",
+    "InputValues2": "optio"
   },
-  "BlockExecution": true,
-  "NavigateTo": "nisi",
-  "Message": "ratione",
-  "ShowDialog": "debitis",
+  "BlockExecution": false,
+  "NavigateTo": "sit",
+  "Message": "quae",
+  "ShowDialog": "maiores",
   "OutputValues": {
-    "OutputValues1": "maiores",
-    "OutputValues2": "debitis"
+    "OutputValues1": "repellendus",
+    "OutputValues2": "rerum"
   },
   "StateValues": {
-    "StateValues1": "amet",
-    "StateValues2": "et"
+    "StateValues1": "placeat",
+    "StateValues2": "magni"
   },
-  "Exception": "dignissimos",
+  "Exception": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 888
     }
   }
 }

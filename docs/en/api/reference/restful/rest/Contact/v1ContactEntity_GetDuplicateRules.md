@@ -1,6 +1,7 @@
 ---
 title: GET Contact/DuplicateRules
 uid: v1ContactEntity_GetDuplicateRules
+generated: true
 ---
 
 # GET Contact/DuplicateRules
@@ -57,7 +58,7 @@ OK
 GET /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hoppe, Dicki and Torphy",
-    "DisplayName": "Klein-Hansen",
-    "DisplayTooltip": "libero",
+    "Name": "Wiegand-Olson",
+    "DisplayName": "Reichert Group",
+    "DisplayTooltip": "fugiat",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 32
       }
     }
   },
   {
-    "Name": "Hoppe, Dicki and Torphy",
-    "DisplayName": "Klein-Hansen",
-    "DisplayTooltip": "libero",
+    "Name": "Wiegand-Olson",
+    "DisplayName": "Reichert Group",
+    "DisplayTooltip": "fugiat",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 32
       }
     }
   }

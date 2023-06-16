@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetCategory
 uid: v1ListAgent_GetCategory
+generated: true
 ---
 
 # POST Agents/List/GetCategory
@@ -25,7 +26,7 @@ Gets a Category object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCategory?categoryId=544
+POST /api/v1/Agents/List/GetCategory?categoryId=521
 POST /api/v1/Agents/List/GetCategory?$select=name,department,category/id
 ```
 
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 133,
-  "Value": "et",
-  "Tooltip": "necessitatibus",
+  "Id": 178,
+  "Value": "debitis",
+  "Tooltip": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldLength": 893
     }
   }
 }

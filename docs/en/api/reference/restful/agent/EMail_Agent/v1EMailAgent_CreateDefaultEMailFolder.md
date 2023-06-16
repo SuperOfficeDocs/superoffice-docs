@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailFolder
 uid: v1EMailAgent_CreateDefaultEMailFolder
+generated: true
 ---
 
 # POST Agents/EMail/CreateDefaultEMailFolder
@@ -65,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wisozk-Crooks",
-  "Delimiter": "non",
-  "Flags": "est",
-  "TotalItems": 100,
-  "UnreadItems": 337,
-  "Subscribed": false,
-  "EmailFolderId": 791,
+  "Name": "Grant, Gusikowski and Trantow",
+  "Delimiter": "rerum",
+  "Flags": "sed",
+  "TotalItems": 808,
+  "UnreadItems": 622,
+  "Subscribed": true,
+  "EmailFolderId": 353,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 511
     }
   }
 }

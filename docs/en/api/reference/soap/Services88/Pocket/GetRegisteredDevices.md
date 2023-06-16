@@ -1,6 +1,6 @@
 ---
 title: Services88.PocketAgent.GetRegisteredDevices SOAP
-generated: 1
+generated: true
 uid: Services88-Pocket-GetRegisteredDevices
 ---
 

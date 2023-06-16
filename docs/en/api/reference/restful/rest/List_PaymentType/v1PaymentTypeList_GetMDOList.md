@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentType/MDOItems
 uid: v1PaymentTypeList_GetMDOList
+generated: true
 ---
 
 # GET List/PaymentType/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=illo
+GET /api/v1/List/PaymentType/MDOItems?query=consequatur
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Bergnaum-Christiansen",
-    "ToolTip": "Voluptatem accusamus ullam vel.",
+    "Id": 350,
+    "Name": "Abernathy-Reichert",
+    "ToolTip": "Sit quam possimus veniam quae voluptate dolor eos.",
     "Deleted": true,
-    "Rank": 560,
-    "Type": "id",
+    "Rank": 85,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 558,
-        "Name": "Labadie, White and Willms",
-        "ToolTip": "Quia facilis.",
-        "Deleted": false,
-        "Rank": 78,
-        "Type": "odio",
+        "Id": 223,
+        "Name": "Gleason Inc and Sons",
+        "ToolTip": "Placeat porro voluptas quisquam est qui molestiae.",
+        "Deleted": true,
+        "Rank": 45,
+        "Type": "eius",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "placeat",
-        "ColorBlock": 667,
-        "ExtraInfo": "eos",
-        "StyleHint": "aut",
-        "FullName": "Ms. Barney Tracy Bednar I",
+        "IconHint": "repellat",
+        "ColorBlock": 326,
+        "ExtraInfo": "cum",
+        "StyleHint": "neque",
+        "FullName": "Tyrell Rolfson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 824
+            "FieldLength": 261
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 806,
-    "ExtraInfo": "accusamus",
-    "StyleHint": "id",
-    "FullName": "Mrs. Laisha Robbie Gerhold DVM",
+    "IconHint": "earum",
+    "ColorBlock": 614,
+    "ExtraInfo": "molestias",
+    "StyleHint": "vel",
+    "FullName": "Dr. Queen Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldLength": 24
       }
     }
   }

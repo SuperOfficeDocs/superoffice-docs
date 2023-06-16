@@ -1,6 +1,7 @@
 ---
 title: PATCH ProjectMember/{id}
 uid: v1ProjectMember_PatchProjectMember
+generated: true
 ---
 
 # PATCH ProjectMember/{id}
@@ -127,18 +128,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rem",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rem",
+    "path": "est",
     "value": {}
   }
 ]
@@ -151,33 +152,33 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 70,
-  "ContactId": 225,
-  "ProjectId": 479,
-  "ContactName": "Denesik, Watsica and Feest",
+  "ProjectmemberId": 848,
+  "ContactId": 638,
+  "ProjectId": 450,
+  "ContactName": "Kihn, Boyle and Stehr",
   "ContactDepartment": "",
-  "ProjectName": "Senger-Bradtke",
-  "EmailId": 29,
-  "EmailAddress": "brennon@toy.co.uk",
-  "CountryId": 113,
-  "Firstname": "Marilyne",
-  "MiddleName": "Shields-Wilderman",
-  "Lastname": "Wisozk",
-  "PersonId": 119,
-  "Mrmrs": "consectetur",
-  "ProjectMemberTypeName": "Predovic Inc and Sons",
-  "Phone": "420-318-4434 x50889",
-  "PhoneId": 762,
-  "ProjectMemberTypeId": 836,
-  "EmailAddressName": "rosie.macejkovic@roob.uk",
-  "Comment": "possimus",
-  "FullName": "Miss Edwin Orn",
+  "ProjectName": "Rosenbaum-Lehner",
+  "EmailId": 585,
+  "EmailAddress": "lavinia.pacocha@parker.name",
+  "CountryId": 666,
+  "Firstname": "Preston",
+  "MiddleName": "Keebler-Turner",
+  "Lastname": "Schneider",
+  "PersonId": 923,
+  "Mrmrs": "quae",
+  "ProjectMemberTypeName": "Klein Inc and Sons",
+  "Phone": "738-956-3435 x20883",
+  "PhoneId": 893,
+  "ProjectMemberTypeId": 10,
+  "EmailAddressName": "kitty.lebsack@gulgowski.info",
+  "Comment": "quam",
+  "FullName": "Arely Koelpin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldLength": 508
     }
   },
   "_Links": {

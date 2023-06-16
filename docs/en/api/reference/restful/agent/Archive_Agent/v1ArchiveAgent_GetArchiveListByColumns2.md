@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumns2
 uid: v1ArchiveAgent_GetArchiveListByColumns2
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveListByColumns2
@@ -165,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jenkins Inc and Sons",
-  "Columns": "et",
-  "SortOrder": "quo",
-  "Restrictions": "ipsum",
-  "Entities": "odit",
-  "Page": 415,
-  "PageSize": 174
+  "ProviderName": "Kshlerin LLC",
+  "Columns": "officia",
+  "SortOrder": "ut",
+  "Restrictions": "nesciunt",
+  "Entities": "doloribus",
+  "Page": 288,
+  "PageSize": 740
 }
 ```
 
@@ -187,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gaylord, Kunze and Cummings",
-    "PrimaryKey": 997,
+    "EntityName": "Kihn-Koss",
+    "PrimaryKey": 730,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quasi",
-        "TooltipHint": "ut",
-        "LinkHint": "quidem"
+        "DisplayValue": "nam",
+        "TooltipHint": "ipsam",
+        "LinkHint": "quia"
       }
     },
-    "LinkHint": "aperiam",
+    "LinkHint": "doloribus",
     "StyleHint": "cumque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldLength": 75
       }
     }
   }

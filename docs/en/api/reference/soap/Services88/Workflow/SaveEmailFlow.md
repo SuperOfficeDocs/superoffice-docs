@@ -1,6 +1,6 @@
 ---
 title: Services88.WorkflowAgent.SaveEmailFlow SOAP
-generated: 1
+generated: true
 uid: Services88-Workflow-SaveEmailFlow
 ---
 
@@ -44,13 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
      <Workflow:Description xsi:type="xsd:string"></Workflow:Description>
      <Workflow:Status xsi:type="Workflow:WorkflowDefinitionStatus">None</Workflow:Status>
-     <Workflow:VisibleForAll xsi:type="xsd:boolean">false</Workflow:VisibleForAll>
-     <Workflow:VisibleForAssociates xsi:type="NetServerServices882:ArrayOfint">
-      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
-     </Workflow:VisibleForAssociates>
-     <Workflow:VisibleForGroups xsi:type="NetServerServices882:ArrayOfint">
-      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
-     </Workflow:VisibleForGroups>
      <Workflow:JumpToFinish xsi:type="xsd:boolean">false</Workflow:JumpToFinish>
      <Workflow:StartOnlyOnce xsi:type="xsd:boolean">false</Workflow:StartOnlyOnce>
      <Workflow:OverrideConsentSubscription xsi:type="xsd:boolean">false</Workflow:OverrideConsentSubscription>
@@ -66,12 +59,12 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Workflow:GaCampaign xsi:type="xsd:string"></Workflow:GaCampaign>
      <Workflow:UseTimeframe xsi:type="xsd:boolean">false</Workflow:UseTimeframe>
      <Workflow:SelectedDays xsi:type="Workflow:Weekday">Monday</Workflow:SelectedDays>
-     <Workflow:TimeframeStart xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:TimeframeStart>
-     <Workflow:TimeframeEnd xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:TimeframeEnd>
+     <Workflow:TimeframeStart xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:TimeframeStart>
+     <Workflow:TimeframeEnd xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:TimeframeEnd>
      <Workflow:UseWorkflowStart xsi:type="xsd:boolean">false</Workflow:UseWorkflowStart>
-     <Workflow:WorkflowStart xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:WorkflowStart>
+     <Workflow:WorkflowStart xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:WorkflowStart>
      <Workflow:UseEnrollmentEnd xsi:type="xsd:boolean">false</Workflow:UseEnrollmentEnd>
-     <Workflow:EnrollmentEnd xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:EnrollmentEnd>
+     <Workflow:EnrollmentEnd xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:EnrollmentEnd>
      <Workflow:RemoveFromFlows xsi:type="NetServerServices882:ArrayOfint">
       <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
      </Workflow:RemoveFromFlows>
@@ -137,15 +130,15 @@ Application tokens must be specified if calling an Online installation. Applicat
           <Workflow:UpdatedAssociateId xsi:nil="true"></Workflow:UpdatedAssociateId>
          </Workflow:HierarchyEntity>
         </Workflow:Children>
-        <Workflow:Registered xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:Registered>
+        <Workflow:Registered xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:Registered>
         <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-        <Workflow:Updated xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:Updated>
+        <Workflow:Updated xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:Updated>
         <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
        </Workflow:HierarchyEntity>
       </Workflow:Children>
-      <Workflow:Registered xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:Registered>
+      <Workflow:Registered xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:Registered>
       <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-      <Workflow:Updated xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:Updated>
+      <Workflow:Updated xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:Updated>
       <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
      </Workflow:Folder>
      <Workflow:Associate xsi:type="Workflow:Associate">
@@ -274,6 +267,13 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Workflow:BlockLists xsi:type="NetServerServices882:ArrayOfint">
       <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
      </Workflow:BlockLists>
+     <Workflow:VisibleFor xsi:type="Workflow:ArrayOfVisibleFor">
+      <Workflow:VisibleFor xsi:type="Workflow:VisibleFor">
+       <Workflow:VisibleId xsi:type="xsd:int">0</Workflow:VisibleId>
+       <Workflow:Visibility xsi:type="Workflow:Visibility">All</Workflow:Visibility>
+       <Workflow:DisplayValue xsi:type="xsd:string"></Workflow:DisplayValue>
+      </Workflow:VisibleFor>
+     </Workflow:VisibleFor>
     </Workflow:EmailFlow>
    </Workflow:SaveEmailFlow>
 
@@ -302,13 +302,6 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
     <Workflow:Description xsi:type="xsd:string"></Workflow:Description>
     <Workflow:Status xsi:type="Workflow:WorkflowDefinitionStatus">None</Workflow:Status>
-    <Workflow:VisibleForAll xsi:type="xsd:boolean">false</Workflow:VisibleForAll>
-    <Workflow:VisibleForAssociates xsi:type="NetServerServices882:ArrayOfint">
-     <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
-    </Workflow:VisibleForAssociates>
-    <Workflow:VisibleForGroups xsi:type="NetServerServices882:ArrayOfint">
-     <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
-    </Workflow:VisibleForGroups>
     <Workflow:JumpToFinish xsi:type="xsd:boolean">false</Workflow:JumpToFinish>
     <Workflow:StartOnlyOnce xsi:type="xsd:boolean">false</Workflow:StartOnlyOnce>
     <Workflow:OverrideConsentSubscription xsi:type="xsd:boolean">false</Workflow:OverrideConsentSubscription>
@@ -324,12 +317,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Workflow:GaCampaign xsi:type="xsd:string"></Workflow:GaCampaign>
     <Workflow:UseTimeframe xsi:type="xsd:boolean">false</Workflow:UseTimeframe>
     <Workflow:SelectedDays xsi:type="Workflow:Weekday">Monday</Workflow:SelectedDays>
-    <Workflow:TimeframeStart xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:TimeframeStart>
-    <Workflow:TimeframeEnd xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:TimeframeEnd>
+    <Workflow:TimeframeStart xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:TimeframeStart>
+    <Workflow:TimeframeEnd xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:TimeframeEnd>
     <Workflow:UseWorkflowStart xsi:type="xsd:boolean">false</Workflow:UseWorkflowStart>
-    <Workflow:WorkflowStart xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:WorkflowStart>
+    <Workflow:WorkflowStart xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:WorkflowStart>
     <Workflow:UseEnrollmentEnd xsi:type="xsd:boolean">false</Workflow:UseEnrollmentEnd>
-    <Workflow:EnrollmentEnd xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:EnrollmentEnd>
+    <Workflow:EnrollmentEnd xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:EnrollmentEnd>
     <Workflow:RemoveFromFlows xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
     </Workflow:RemoveFromFlows>
@@ -391,21 +384,21 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Workflow:Children xsi:type="Workflow:ArrayOfHierarchyEntity">
           <Workflow:HierarchyEntity xsi:nil="true"></Workflow:HierarchyEntity>
          </Workflow:Children>
-         <Workflow:Registered xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:Registered>
+         <Workflow:Registered xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:Registered>
          <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-         <Workflow:Updated xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:Updated>
+         <Workflow:Updated xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:Updated>
          <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
         </Workflow:HierarchyEntity>
        </Workflow:Children>
-       <Workflow:Registered xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:Registered>
+       <Workflow:Registered xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:Registered>
        <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-       <Workflow:Updated xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:Updated>
+       <Workflow:Updated xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:Updated>
        <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
       </Workflow:HierarchyEntity>
      </Workflow:Children>
-     <Workflow:Registered xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:Registered>
+     <Workflow:Registered xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:Registered>
      <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-     <Workflow:Updated xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</Workflow:Updated>
+     <Workflow:Updated xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Workflow:Updated>
      <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
     </Workflow:Folder>
     <Workflow:Associate xsi:type="Workflow:Associate">
@@ -578,6 +571,13 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Workflow:BlockLists xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
     </Workflow:BlockLists>
+    <Workflow:VisibleFor xsi:type="Workflow:ArrayOfVisibleFor">
+     <Workflow:VisibleFor xsi:type="Workflow:VisibleFor">
+      <Workflow:VisibleId xsi:type="xsd:int">0</Workflow:VisibleId>
+      <Workflow:Visibility xsi:type="Workflow:Visibility">All</Workflow:Visibility>
+      <Workflow:DisplayValue xsi:type="xsd:string"></Workflow:DisplayValue>
+     </Workflow:VisibleFor>
+    </Workflow:VisibleFor>
    </Workflow:Response>
   </Workflow:SaveEmailFlowResponse>
  </SOAP-ENV:Body>

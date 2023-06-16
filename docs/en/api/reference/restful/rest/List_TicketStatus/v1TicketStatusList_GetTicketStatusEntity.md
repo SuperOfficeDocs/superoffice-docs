@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketStatus/Items/{id}
 uid: v1TicketStatusList_GetTicketStatusEntity
+generated: true
 ---
 
 # GET List/TicketStatus/Items/{id}
@@ -67,7 +68,7 @@ OK
 GET /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 229,
-  "Name": "Rippin Inc and Sons",
+  "TicketStatusId": 183,
+  "Name": "Towne Group",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": false,
+  "NoEmailReopen": false,
+  "IsDefault": true,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 559
     }
   }
 }

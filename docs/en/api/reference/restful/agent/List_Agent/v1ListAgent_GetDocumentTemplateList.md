@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetDocumentTemplateList
 uid: v1ListAgent_GetDocumentTemplateList
+generated: true
 ---
 
 # POST Agents/List/GetDocumentTemplateList
@@ -90,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 603,
-    "Name": "Beer-Bradtke",
-    "Tooltip": "laborum",
-    "SaveInDb": 255,
-    "Filename": "et",
-    "DefaultOref": "est",
+    "DocumentTemplateId": 744,
+    "Name": "Little LLC",
+    "Tooltip": "placeat",
+    "SaveInDb": 819,
+    "Filename": "quis",
+    "DefaultOref": "dolores",
     "RecordType": "Appointment",
-    "Deleted": 303,
+    "Deleted": 228,
     "Direction": "Incoming",
-    "AutoeventId": 690,
+    "AutoeventId": 682,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 925
+        "FieldType": "System.Int32",
+        "FieldLength": 291
       }
     }
   }

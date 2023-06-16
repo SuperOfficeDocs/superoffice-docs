@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CreateAndSaveQuote
 uid: v1QuoteAgent_CreateAndSaveQuote
+generated: true
 ---
 
 # POST Agents/Quote/CreateAndSaveQuote
@@ -90,9 +91,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 801,
-  "ConnectionId": 266,
-  "FirstAlternativeName": "Lesch LLC"
+  "SaleId": 383,
+  "ConnectionId": 710,
+  "FirstAlternativeName": "O'Connell, Ratke and Padberg"
 }
 ```
 
@@ -103,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 659,
-  "SaleId": 329,
-  "QuoteConnectionId": 37,
-  "ERPQuoteKey": "quos",
-  "ERPOrderKey": "omnis",
-  "ActiveQuoteVersionId": 37,
-  "AcceptedQuoteAlternativeId": 885,
-  "UseValuesFromQuote": 492,
-  "DocumentId": 694,
-  "PoNumber": "597356",
-  "OrderComment": "non",
-  "PreferredEmailCulture": "neha@kirlin.us",
+  "QuoteId": 440,
+  "SaleId": 787,
+  "QuoteConnectionId": 911,
+  "ERPQuoteKey": "quia",
+  "ERPOrderKey": "recusandae",
+  "ActiveQuoteVersionId": 34,
+  "AcceptedQuoteAlternativeId": 82,
+  "UseValuesFromQuote": 885,
+  "DocumentId": 885,
+  "PoNumber": "1103268",
+  "OrderComment": "in",
+  "PreferredEmailCulture": "celine_mclaughlin@thompson.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 154,
-      "ERPQuoteVersionKey": "dignissimos",
-      "QuoteId": 109,
-      "Description": "Total 24 hour framework",
-      "Number": "1781470",
+      "QuoteVersionId": 94,
+      "ERPQuoteVersionKey": "debitis",
+      "QuoteId": 600,
+      "Description": "Versatile multi-tasking interface",
+      "Number": "1494297",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 225,
-      "SentDate": "2019-11-04T03:51:28.0215395+01:00",
-      "FollowupId": 315,
-      "ExpirationDate": "2015-05-09T03:51:28.0215395+02:00",
-      "DeliveryCountryId": 865,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 46,
+      "LikelyQuoteAlternativeId": 335,
+      "SentDate": "2018-02-17T16:00:41.6644415+01:00",
+      "FollowupId": 849,
+      "ExpirationDate": "2017-01-04T16:00:41.6644415+01:00",
+      "DeliveryCountryId": 845,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 166,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "saepe",
-      "ERPPaymentTypeKey": "a",
-      "ERPDeliveryTermsKey": "est",
-      "ERPDeliveryTypeKey": "id",
-      "Rank": 508,
-      "ApprovedBy": 348,
-      "ApprovedText": "maiores",
-      "ApprovedRegisteredBy": 245,
-      "ApprovedRegisteredDate": "2009-09-28T03:51:28.0215395+02:00",
-      "ExtraField1": "eum",
-      "ExtraField2": "aut",
-      "ExtraField3": "qui",
-      "ExtraField4": "doloribus",
-      "ExtraField5": "aut",
-      "LastRecalculated": "2009-10-04T03:51:28.0215395+02:00",
-      "Updated": "2002-03-08T03:51:28.0215395+01:00",
-      "UpdatedAssociateId": 634,
-      "Registered": "2005-09-25T03:51:28.0215395+02:00",
-      "RegisteredAssociateId": 679,
-      "RequestAssociateId": 145,
-      "RequestComment": "placeat",
+      "ERPPaymentTermsKey": "est",
+      "ERPPaymentTypeKey": "molestiae",
+      "ERPDeliveryTermsKey": "quo",
+      "ERPDeliveryTypeKey": "omnis",
+      "Rank": 257,
+      "ApprovedBy": 317,
+      "ApprovedText": "eligendi",
+      "ApprovedRegisteredBy": 552,
+      "ApprovedRegisteredDate": "2004-09-09T16:00:41.6644415+02:00",
+      "ExtraField1": "nulla",
+      "ExtraField2": "qui",
+      "ExtraField3": "repellat",
+      "ExtraField4": "et",
+      "ExtraField5": "incidunt",
+      "LastRecalculated": "2007-01-10T16:00:41.6644415+01:00",
+      "Updated": "2009-06-03T16:00:41.6644415+02:00",
+      "UpdatedAssociateId": 430,
+      "Registered": "2016-05-20T16:00:41.6644415+02:00",
+      "RegisteredAssociateId": 39,
+      "RequestAssociateId": 412,
+      "RequestComment": "laboriosam",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldLength": 947
         }
       }
     }
@@ -174,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldLength": 990
     }
   }
 }

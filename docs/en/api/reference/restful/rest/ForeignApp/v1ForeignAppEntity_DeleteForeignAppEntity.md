@@ -1,6 +1,7 @@
 ---
 title: DEL ForeignApp/{id}
 uid: v1ForeignAppEntity_DeleteForeignAppEntity
+generated: true
 ---
 
 # DEL ForeignApp/{id}
@@ -52,7 +53,7 @@ ForeignAppEntity deleted.
 DELETE /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

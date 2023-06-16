@@ -1,6 +1,7 @@
 ---
 title: GET ShipmentMessage/default
 uid: v1ShipmentMessageEntity_DefaultShipmentMessageEntity
+generated: true
 ---
 
 # GET ShipmentMessage/default
@@ -86,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 292,
-  "PlainMessage": "natus",
-  "HtmlMessage": "veritatis",
-  "SmsMessage": "enim",
-  "Description": "Grass-roots 6th generation complexity",
-  "Subject": "qui",
-  "FolderId": 650,
-  "HeaderField": "molestiae",
-  "Design": "dolor",
+  "ShipmentMessageId": 824,
+  "PlainMessage": "qui",
+  "HtmlMessage": "vero",
+  "SmsMessage": "recusandae",
+  "Description": "Up-sized composite structure",
+  "Subject": "ut",
+  "FolderId": 195,
+  "HeaderField": "quaerat",
+  "Design": "sed",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Compatible assymetric hierarchy",
-  "AccessKey": "dolorum",
-  "DocumentMessage": 138,
-  "Registered": "2004-12-21T03:51:34.0208828+01:00",
-  "RegisteredAssociateId": 647,
-  "Updated": "2020-01-05T03:51:34.0208828+01:00",
-  "UpdatedAssociateId": 133,
-  "UpdatedCount": 116,
+  "LongDescription": "Networked next generation productivity",
+  "AccessKey": "atque",
+  "DocumentMessage": 81,
+  "Registered": "2013-12-03T16:00:48.4615203+01:00",
+  "RegisteredAssociateId": 39,
+  "Updated": "2004-01-14T16:00:48.4615203+01:00",
+  "UpdatedAssociateId": 488,
+  "UpdatedCount": 738,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldLength": 548
     }
   }
 }

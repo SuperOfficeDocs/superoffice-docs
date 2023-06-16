@@ -1,6 +1,6 @@
 ---
 title: Services88.ViewStateAgent.GetHistoryLengthPrefValue SOAP
-generated: 1
+generated: true
 uid: Services88-ViewState-GetHistoryLengthPrefValue
 ---
 

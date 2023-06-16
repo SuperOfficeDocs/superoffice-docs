@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 uid: v1SelectionAgent_CreateTemporaryContactSelectionFromProjectMembers
+generated: true
 ---
 
 # POST Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
@@ -112,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 438
+  "ProjectId": 184
 }
 ```
 
@@ -127,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots static workforce",
-  "Postit": "quia",
+  "Description": "Multi-layered executive functionalities",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 836,
-  "IncludePerson": 216,
-  "MemberCount": 720,
-  "Name": "Rice-Ratke",
-  "PostitTextId": 465,
-  "CreatedDate": "1996-01-16T03:51:28.1777523+01:00",
-  "SelectionId": 386,
-  "SoundEx": "odio",
-  "Source": 746,
-  "TextId": 760,
-  "UpdatedDate": "2008-09-05T03:51:28.1777523+02:00",
-  "UpdatedCount": 880,
-  "Visibility": 970,
+  "GroupIdx": 450,
+  "IncludePerson": 245,
+  "MemberCount": 96,
+  "Name": "Ruecker-Lebsack",
+  "PostitTextId": 852,
+  "CreatedDate": "2014-08-21T16:00:41.8362961+02:00",
+  "SelectionId": 461,
+  "SoundEx": "magni",
+  "Source": 11,
+  "TextId": 274,
+  "UpdatedDate": "2005-11-17T16:00:41.8362961+01:00",
+  "UpdatedCount": 90,
+  "Visibility": 790,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 456,
-  "TargetTableName": "Corkery Group",
+  "CompanyUnique": false,
+  "TargetTableNumber": 129,
+  "TargetTableName": "Larkin Group",
   "Completed": false,
-  "LeftSelectionId": 764,
-  "RightSelectionId": 830,
+  "LeftSelectionId": 395,
+  "RightSelectionId": 589,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Brown Inc and Sons",
-  "ShadowProviderName": "Rutherford, Schulist and Lakin",
-  "ChartKey": "inventore",
-  "LastLoaded": "2009-10-15T03:51:28.1777523+02:00",
-  "LastLoadedBy": 237,
+  "MainProviderName": "Heller, Muller and Deckow",
+  "ShadowProviderName": "Becker, White and Rolfson",
+  "ChartKey": "fugit",
+  "LastLoaded": "2012-08-07T16:00:41.8362961+02:00",
+  "LastLoadedBy": 615,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-11-22T03:51:28.1777523+01:00",
-  "LastMembershipChangeBy": 591,
+  "LastMembershipChange": "2001-10-17T16:00:41.8362961+02:00",
+  "LastMembershipChangeBy": 596,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "iste",
-  "MemberTabHeading": "eveniet",
-  "MailingsProviderName": "Kling Inc and Sons",
-  "DashboardTileDefinitionId": 166,
+  "MainHeading": "voluptatem",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Renner-Jones",
+  "DashboardTileDefinitionId": 346,
   "VisibleFor": [
     {
-      "VisibleId": 981,
+      "VisibleId": 546,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 283
+          "FieldType": "System.Int32",
+          "FieldLength": 902
         }
       }
     },
     {
-      "VisibleId": 981,
+      "VisibleId": 546,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 283
+          "FieldType": "System.Int32",
+          "FieldLength": 902
         }
       }
     }
@@ -200,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 518
     }
   }
 }

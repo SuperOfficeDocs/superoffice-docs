@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAllCurrencies
 uid: v1ListAgent_GetAllCurrencies
+generated: true
 ---
 
 # POST Agents/List/GetAllCurrencies
@@ -82,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -94,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 840,
-    "Name": "Kuhlman, Franecki and Ziemann",
-    "Tooltip": "pariatur",
-    "Rank": 942,
-    "Rate": 29274.694,
-    "Units": 26516.773999999998,
+    "CurrencyId": 457,
+    "Name": "Brown, McGlynn and Swaniawski",
+    "Tooltip": "rerum",
+    "Rank": 420,
+    "Rate": 17036.424,
+    "Units": 21975.608,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldLength": 197
       }
     }
   }

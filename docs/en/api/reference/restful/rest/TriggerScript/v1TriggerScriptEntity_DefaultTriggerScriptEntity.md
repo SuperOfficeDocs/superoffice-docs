@@ -1,6 +1,7 @@
 ---
 title: GET TriggerScript/default
 uid: v1TriggerScriptEntity_DefaultTriggerScriptEntity
+generated: true
 ---
 
 # GET TriggerScript/default
@@ -78,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 267,
-  "Name": "Reinger, Stracke and Braun",
+  "ScreenChooserId": 876,
+  "Name": "Orn LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "eligendi",
-  "Source": "fugit",
-  "Registered": "2006-12-23T03:51:34.1615868+01:00",
-  "RegisteredAssociateId": 462,
-  "Updated": "2008-07-08T03:51:34.1615868+02:00",
-  "UpdatedAssociateId": 745,
+  "UniqueIdentifier": "sint",
+  "Source": "minus",
+  "Registered": "2006-06-12T16:00:48.617756+02:00",
+  "RegisteredAssociateId": 981,
+  "Updated": "1997-02-13T16:00:48.617756+01:00",
+  "UpdatedAssociateId": 424,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 127
     }
   }
 }

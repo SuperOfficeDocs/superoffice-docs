@@ -1,6 +1,7 @@
 ---
 title: POST Preference/{section}/{key}/{prefLevel}
 uid: v1Preference_SetPrefValueAtLevel_POST
+generated: true
 ---
 
 # POST Preference/{section}/{key}/{prefLevel}
@@ -32,7 +33,7 @@ Calls the Preference agent service SetPreference or SetPreferenceEntity.
 | value | string | **Required** The preference value as a string |
 
 ```http
-POST /api/v1/Preference/{section}/{key}/{prefLevel}?value=accusamus
+POST /api/v1/Preference/{section}/{key}/{prefLevel}?value=aut
 ```
 
 
@@ -63,7 +64,7 @@ No Content
 POST /api/v1/Preference/{section}/{key}/{prefLevel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

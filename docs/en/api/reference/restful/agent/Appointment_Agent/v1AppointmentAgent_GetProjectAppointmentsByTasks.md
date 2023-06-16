@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetProjectAppointmentsByTasks
 uid: v1AppointmentAgent_GetProjectAppointmentsByTasks
+generated: true
 ---
 
 # POST Agents/Appointment/GetProjectAppointmentsByTasks
@@ -117,6 +118,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -126,17 +130,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 893,
-  "StartTime": "2002-10-19T03:51:26.1157305+02:00",
-  "EndTime": "2016-01-11T03:51:26.1157305+01:00",
-  "Count": 792,
+  "ProjectId": 855,
+  "StartTime": "2007-08-17T16:00:39.6019823+02:00",
+  "EndTime": "2011-11-28T16:00:39.6019823+01:00",
+  "Count": 205,
   "TaskIds": [
-    131,
-    730
+    318,
+    107
   ]
 }
 ```
@@ -149,61 +153,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 584,
-    "StartDate": "1999-11-24T03:51:26.1157305+01:00",
-    "EndDate": "2010-08-20T03:51:26.1157305+02:00",
+    "AppointmentId": 300,
+    "StartDate": "2011-02-28T16:00:39.6019823+01:00",
+    "EndDate": "2014-02-26T16:00:39.6019823+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "Dwight Smitham Jr.",
-    "ContactName": "Okuneva-Stiedemann",
-    "Description": "Operative assymetric portal",
-    "PersonFullName": "Rozella Gottlieb",
-    "PersonId": 444,
-    "ContactId": 119,
-    "ProjectId": 483,
-    "ProjectName": "Boyer Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 210,
-    "ColorIndex": 736,
+    "Task": "accusamus",
+    "AssociateFullName": "Ms. Yasmin Emmerich",
+    "ContactName": "Bartell, Spencer and Kris",
+    "Description": "Quality-focused object-oriented extranet",
+    "PersonFullName": "Wava Misty Hermann Sr.",
+    "PersonId": 641,
+    "ContactId": 449,
+    "ProjectId": 315,
+    "ProjectName": "Crona LLC",
+    "IsPublished": true,
+    "AssociateId": 693,
+    "ColorIndex": 228,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 708,
-    "PriorityName": "Leuschke Inc and Sons",
+    "PriorityId": 158,
+    "PriorityName": "Hagenes-Mitchell",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "1999-12-05T03:51:26.1157305+01:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2018-11-04T16:00:39.6176013+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-09-29T03:51:26.1157305+02:00",
-    "RecurringEndDate": "2008-12-24T03:51:26.1157305+01:00",
-    "MotherId": 393,
-    "AssignedBy": 383,
-    "AssignedByFullName": "Leta Kathryne Kunde III",
+    "RecurringStartDate": "2017-01-02T16:00:39.6176013+01:00",
+    "RecurringEndDate": "2014-11-02T16:00:39.6176013+01:00",
+    "MotherId": 978,
+    "AssignedBy": 880,
+    "AssignedByFullName": "Erick Daugherty",
     "RejectReason": "",
-    "Location": "placeat",
-    "AlarmLeadTime": "quidem",
-    "SaleId": 794,
-    "SaleName": "Kohler, Waelchi and Mohr",
-    "AssociateName": "O'Reilly, Denesik and Luettgen",
-    "CreatedDate": "2020-08-31T03:51:26.1157305+02:00",
-    "CreatedBy": "similique",
-    "CreatedByFullName": "Janessa Grant",
-    "CreatedByAssociateId": 281,
+    "Location": "quaerat",
+    "AlarmLeadTime": "et",
+    "SaleId": 241,
+    "SaleName": "Cassin-Balistreri",
+    "AssociateName": "Ledner LLC",
+    "CreatedDate": "1999-08-13T16:00:39.6176013+02:00",
+    "CreatedBy": "magni",
+    "CreatedByFullName": "Dr. Lenna Darby McCullough Sr.",
+    "CreatedByAssociateId": 977,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "incidunt",
+    "Agenda": "placeat",
+    "InternalNotes": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldType": "System.String",
+        "FieldLength": 802
       }
     }
   }

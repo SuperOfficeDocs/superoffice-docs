@@ -1,17 +1,11 @@
 ---
 uid: resource
 title: resource
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "resource"
+keywords: mdoprovider mdo provider resource
+description: MDO provider for resources (from the associate table)
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "resource" MDO List

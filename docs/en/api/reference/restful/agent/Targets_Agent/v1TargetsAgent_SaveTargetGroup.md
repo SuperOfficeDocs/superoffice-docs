@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/SaveTargetGroup
 uid: v1TargetsAgent_SaveTargetGroup
+generated: true
 ---
 
 # POST Agents/Targets/SaveTargetGroup
@@ -72,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 733,
-  "Year": 539,
+  "TargetGroupId": 379,
+  "Year": 707,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 224,
+      "TargetAssignmentInfoId": 561,
       "Values": [
-        891,
-        728
+        548,
+        341
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 385,
-      "DimensionListItemDisplayName": "Luettgen-Crist"
+      "DimensionListItem": 136,
+      "DimensionListItemDisplayName": "Schinner, Steuber and Grimes"
     }
   ],
   "TargetDimension": null
@@ -107,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 619,
-  "Year": 434,
+  "TargetGroupId": 21,
+  "Year": 225,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 264,
+      "TargetAssignmentInfoId": 74,
       "Values": [
-        416,
-        506
+        840,
+        566
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 87,
-      "DimensionListItemDisplayName": "Grady LLC",
+      "DimensionListItem": 651,
+      "DimensionListItemDisplayName": "Greenfelder Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 712
+          "FieldType": "System.String",
+          "FieldLength": 279
         }
       }
     }
@@ -141,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 633
     }
   }
 }

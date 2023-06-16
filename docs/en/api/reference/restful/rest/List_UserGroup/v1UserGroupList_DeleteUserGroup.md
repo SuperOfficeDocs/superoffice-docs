@@ -1,6 +1,7 @@
 ---
 title: DEL List/UserGroup/Items/{id}
 uid: v1UserGroupList_DeleteUserGroup
+generated: true
 ---
 
 # DEL List/UserGroup/Items/{id}

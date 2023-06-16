@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetProjectsFromPerson
 uid: v1ProjectAgent_GetProjectsFromPerson
+generated: true
 ---
 
 # POST Agents/Project/GetProjectsFromPerson
@@ -89,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 521
+  "PersonId": 954
 }
 ```
 
@@ -105,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 566,
-    "Name": "Yost LLC",
-    "Description": "Switchable multimedia artificial intelligence",
+    "ProjectId": 137,
+    "Name": "McGlynn, Barton and Stracke",
+    "Description": "Team-oriented secondary model",
     "URL": "http://www.example.com/",
-    "Type": "consectetur",
-    "AssociateId": 970,
-    "AssociateFullName": "Prof. Freddy Crona III",
-    "TypeId": 80,
-    "Updated": "2016-02-01T03:51:27.943438+01:00",
-    "StatusId": 243,
-    "Status": "asperiores",
-    "TextId": 296,
-    "PublishTo": "2012-12-25T03:51:27.943438+01:00",
-    "PublishFrom": "2021-01-04T03:51:27.943438+01:00",
-    "IsPublished": true,
+    "Type": "veritatis",
+    "AssociateId": 104,
+    "AssociateFullName": "Nasir Mraz",
+    "TypeId": 795,
+    "Updated": "1997-01-19T16:00:41.5707037+01:00",
+    "StatusId": 607,
+    "Status": "expedita",
+    "TextId": 255,
+    "PublishTo": "2018-05-17T16:00:41.5707037+02:00",
+    "PublishFrom": "2019-12-03T16:00:41.5707037+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1363165",
-    "ActiveErpLinks": 507,
+    "ProjectNumber": "1078703",
+    "ActiveErpLinks": 962,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 635
+        "FieldType": "System.Int32",
+        "FieldLength": 543
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/ValidateScript
 uid: v1CRMScriptAgent_ValidateScript
+generated: true
 ---
 
 # POST Agents/CRMScript/ValidateScript
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 58
+  "CRMScriptId": 32
 }
 ```
 
@@ -94,13 +95,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "voluptatem",
+  "ErrorMessage": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldType": "System.String",
+      "FieldLength": 383
     }
   }
 }

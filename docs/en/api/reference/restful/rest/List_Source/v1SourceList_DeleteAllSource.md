@@ -1,6 +1,7 @@
 ---
 title: DEL List/Source/Items
 uid: v1SourceList_DeleteAllSource
+generated: true
 ---
 
 # DEL List/Source/Items
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

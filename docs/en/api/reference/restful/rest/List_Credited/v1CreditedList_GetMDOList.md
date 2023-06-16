@@ -1,6 +1,7 @@
 ---
 title: GET List/Credited/MDOItems
 uid: v1CreditedList_GetMDOList
+generated: true
 ---
 
 # GET List/Credited/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=quidem
+GET /api/v1/List/Credited/MDOItems?flat=False
+GET /api/v1/List/Credited/MDOItems?query=quos
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 21,
-    "Name": "Ortiz-Larson",
-    "ToolTip": "Aliquam labore.",
-    "Deleted": true,
-    "Rank": 470,
-    "Type": "nam",
+    "Id": 908,
+    "Name": "Wyman, Goodwin and Bogisich",
+    "ToolTip": "Veritatis ut iure voluptatum dolorum.",
+    "Deleted": false,
+    "Rank": 160,
+    "Type": "dolorem",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Nitzsche-Beatty",
-        "ToolTip": "Ab et.",
-        "Deleted": false,
-        "Rank": 322,
-        "Type": "qui",
+        "Id": 640,
+        "Name": "Bogisich-Champlin",
+        "ToolTip": "Voluptatem sint dolorem.",
+        "Deleted": true,
+        "Rank": 30,
+        "Type": "provident",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequuntur",
-        "ColorBlock": 977,
-        "ExtraInfo": "explicabo",
-        "StyleHint": "ea",
-        "FullName": "Ms. Deangelo Kiehn I",
+        "IconHint": "rem",
+        "ColorBlock": 456,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "veniam",
+        "FullName": "Miss Elwin Greenholt II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 987
+            "FieldType": "System.Int32",
+            "FieldLength": 124
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 96,
-    "ExtraInfo": "adipisci",
-    "StyleHint": "perferendis",
-    "FullName": "Sandrine Mueller",
+    "IconHint": "ea",
+    "ColorBlock": 649,
+    "ExtraInfo": "quam",
+    "StyleHint": "omnis",
+    "FullName": "Dahlia Weissnat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldType": "System.String",
+        "FieldLength": 803
       }
     }
   }

@@ -1,17 +1,11 @@
 ---
 uid: mailingtemplate
 title: mailingtemplate
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "mailingtemplate"
+keywords: mdoprovider mdo provider mailingtemplate
+description: General mailing templates
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "mailingtemplate" MDO List

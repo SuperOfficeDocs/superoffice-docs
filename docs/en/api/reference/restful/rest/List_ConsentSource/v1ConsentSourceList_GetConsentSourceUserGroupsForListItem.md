@@ -1,6 +1,7 @@
 ---
 title: GET List/ConsentSource/Items/{id}/UserGroups
 uid: v1ConsentSourceList_GetConsentSourceUserGroupsForListItem
+generated: true
 ---
 
 # GET List/ConsentSource/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 377,
-    "Name": "Wisoky Inc and Sons",
-    "ToolTip": "Aut cumque repellendus amet esse aliquam eaque.",
+    "Id": 51,
+    "Name": "Bradtke-D'Amore",
+    "ToolTip": "Tenetur sint aliquid eveniet.",
     "Deleted": false,
-    "Rank": 995,
-    "Type": "eveniet",
-    "ColorBlock": 19,
-    "IconHint": "ut",
+    "Rank": 546,
+    "Type": "a",
+    "ColorBlock": 493,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2016-10-18T03:51:34.6146173+02:00",
+    "LastChanged": "2008-07-28T16:00:48.9302244+02:00",
     "ChildItems": [
       {
-        "Id": 985,
-        "Name": "Hegmann Group",
-        "ToolTip": "Odio quidem iste autem sit qui sed ut.",
+        "Id": 276,
+        "Name": "Zieme-Nikolaus",
+        "ToolTip": "Laudantium illo.",
         "Deleted": false,
-        "Rank": 411,
-        "Type": "aut",
-        "ColorBlock": 547,
-        "IconHint": "qui",
+        "Rank": 555,
+        "Type": "perferendis",
+        "ColorBlock": 787,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "2010-07-10T03:51:34.6146173+02:00",
+        "LastChanged": "1997-12-05T16:00:48.9302244+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "ut",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Obie Braun",
+        "FullName": "Dr. Delfina Cydney Waters Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 882
+            "FieldType": "System.Int32",
+            "FieldLength": 822
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "iste",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Ayla Axel Crona III",
+    "FullName": "Jamar Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 156
+        "FieldType": "System.Int32",
+        "FieldLength": 412
       }
     }
   }

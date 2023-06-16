@@ -2,17 +2,10 @@
 uid: Mail
 title: Mail
 description: Provides populated mail envelope rows as an archive based on a query string
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "Mail"
+keywords: Mail archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "Mail"

@@ -1,6 +1,7 @@
 ---
 title: GET Appointment/default
 uid: v1AppointmentEntity_DefaultAppointmentEntity
+generated: true
 ---
 
 # GET Appointment/default
@@ -93,6 +94,9 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -110,7 +114,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -118,70 +122,70 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 23 Nov 2006 03:51:32 G11T
+Last-Modified: Thu, 05 Feb 2009 16:00:47 G2T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-12-11T03:51:32.9738067+01:00",
-  "AppointmentId": 121,
-  "Description": "Cross-platform cohesive software",
-  "StartDate": "2015-07-15T03:51:32.9738067+02:00",
-  "EndDate": "2022-04-02T03:51:32.9738067+02:00",
+  "CreatedDate": "2008-03-01T16:00:47.2892941+01:00",
+  "AppointmentId": 465,
+  "Description": "Multi-lateral demand-driven encryption",
+  "StartDate": "2001-09-02T16:00:47.2892941+02:00",
+  "EndDate": "2002-05-24T16:00:47.2892941+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 162,
+  "MotherId": 315,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-11-23T03:51:32.9738067+01:00",
+  "UpdatedDate": "2009-02-05T16:00:47.2892941+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 428,
+  "ActiveLinks": 901,
   "Links": [
     {
-      "EntityName": "Bosco, Kuvalis and Mitchell",
-      "Id": 55,
-      "Description": "Cloned dedicated product",
-      "ExtraInfo": "aperiam",
-      "LinkId": 426,
+      "EntityName": "Schneider, Shields and Gutmann",
+      "Id": 253,
+      "Description": "Enterprise-wide actuating database",
+      "ExtraInfo": "velit",
+      "LinkId": 683,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 424
         }
       }
     }
   ],
-  "AlarmLeadTime": "sequi",
-  "HasAlarm": false,
-  "ColorIndex": 679,
+  "AlarmLeadTime": "pariatur",
+  "HasAlarm": true,
+  "ColorIndex": 18,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "ducimus",
-  "LeadTime": "expedita",
-  "Location": "eos",
-  "RejectCounter": 32,
+  "LagTime": "odit",
+  "LeadTime": "eum",
+  "Location": "non",
+  "RejectCounter": 660,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 507,
-      "PersonId": 920,
-      "ContactId": 309,
-      "EmailId": 691,
+      "AssociateId": 532,
+      "PersonId": 786,
+      "ContactId": 296,
+      "EmailId": 168,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 507,
-      "PersonId": 920,
-      "ContactId": 309,
-      "EmailId": 691,
+      "AssociateId": 532,
+      "PersonId": 786,
+      "ContactId": 296,
+      "EmailId": 168,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
@@ -189,58 +193,61 @@ Last-Modified: Thu, 23 Nov 2006 03:51:32 G11T
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-02-27T03:51:32.9738067+01:00",
+  "ActiveDate": "2015-02-08T16:00:47.2892941+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 253,
+  "PreferredTZLocation": 935,
   "Sale": null,
-  "SuggestedAppointmentId": 760,
+  "SuggestedAppointmentId": 289,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "non",
+  "CentralserviceVideomeetId": "quos",
+  "Title": "nulla",
+  "Agenda": "voluptatibus",
+  "InternalNotes": "nihil",
   "UserDefinedFields": {
-    "SuperOffice:1": "1661294351",
-    "SuperOffice:2": "Macie Miller"
+    "SuperOffice:1": "Barry Miller",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "labore",
-    "ExtraFields2": "fugit"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "voluptate"
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2002-07-30T03:51:32.9738067+02:00",
-  "PublishTo": "2007-09-03T03:51:32.9738067+02:00",
-  "PublishFrom": "1997-02-28T03:51:32.9738067+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-08-22T16:00:47.2892941+02:00",
+  "PublishTo": "1996-08-09T16:00:47.2892941+02:00",
+  "PublishFrom": "2010-05-31T16:00:47.2892941+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 983,
+      "VisibleId": 146,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 181
         }
       }
     },
     {
-      "VisibleId": 983,
+      "VisibleId": 146,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 181
         }
       }
     }
@@ -249,8 +256,8 @@ Last-Modified: Thu, 23 Nov 2006 03:51:32 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 796
     }
   }
 }

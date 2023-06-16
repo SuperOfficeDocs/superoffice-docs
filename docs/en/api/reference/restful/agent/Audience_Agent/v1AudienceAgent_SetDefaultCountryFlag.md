@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/SetDefaultCountryFlag
 uid: v1AudienceAgent_SetDefaultCountryFlag
+generated: true
 ---
 
 # POST Agents/Audience/SetDefaultCountryFlag
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultCountryFlag
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Windler Group",
+  "LayoutName": "Runolfsson-Dicki",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

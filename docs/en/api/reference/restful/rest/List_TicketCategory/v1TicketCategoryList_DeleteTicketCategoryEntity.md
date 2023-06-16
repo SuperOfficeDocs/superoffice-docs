@@ -1,6 +1,7 @@
 ---
 title: DEL List/TicketCategory/Items/{id}
 uid: v1TicketCategoryList_DeleteTicketCategoryEntity
+generated: true
 ---
 
 # DEL List/TicketCategory/Items/{id}

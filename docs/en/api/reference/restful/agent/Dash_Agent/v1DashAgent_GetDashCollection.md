@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/GetDashCollection
 uid: v1DashAgent_GetDashCollection
+generated: true
 ---
 
 # POST Agents/Dash/GetDashCollection
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 131,
-      "UniqueId": "quia",
-      "Name": "West LLC",
-      "Description": "Synergistic radical strategy",
-      "AssociateId": 838,
-      "Columns": 24,
+      "DashboardId": 192,
+      "UniqueId": "tempora",
+      "Name": "Denesik, Kerluke and Johnson",
+      "Description": "Fundamental client-server success",
+      "AssociateId": 74,
+      "Columns": 294,
       "Theme": null,
-      "VisibleForAll": 456,
+      "VisibleForAll": 114,
       "VisibleForAssociates": [
-        73,
-        558
+        749,
+        35
       ],
       "VisibleForGroups": [
-        576,
-        292
+        982,
+        257
       ],
-      "PinForAll": 153,
+      "PinForAll": 509,
       "PinForAssociates": [
-        883,
-        156
+        905,
+        654
       ],
       "PinForGroups": [
-        811,
-        306
+        698,
+        792
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 822
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 550,
-      "UniqueId": "dignissimos",
-      "Name": "Trantow, VonRueden and Hoeger",
-      "Description": "Grass-roots multi-tasking encoding",
-      "AssociateId": 29,
-      "Columns": 307,
+      "DashboardId": 96,
+      "UniqueId": "fuga",
+      "Name": "Rutherford LLC",
+      "Description": "Programmable clear-thinking adapter",
+      "AssociateId": 260,
+      "Columns": 24,
       "Theme": null,
-      "VisibleForAll": 677,
+      "VisibleForAll": 721,
       "VisibleForAssociates": [
-        309,
-        321
+        387,
+        192
       ],
       "VisibleForGroups": [
-        182,
-        607
+        188,
+        629
       ],
-      "PinForAll": 101,
+      "PinForAll": 245,
       "PinForAssociates": [
-        277,
-        769
+        444,
+        604
       ],
       "PinForGroups": [
-        369,
-        467
+        978,
+        712
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 429
+          "FieldLength": 36
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 196,
-      "UniqueId": "labore",
-      "Name": "Trantow Group",
-      "Description": "Persistent demand-driven service-desk",
-      "AssociateId": 94,
-      "Columns": 570,
+      "DashboardId": 535,
+      "UniqueId": "nam",
+      "Name": "Kohler-D'Amore",
+      "Description": "Centralized foreground installation",
+      "AssociateId": 837,
+      "Columns": 334,
       "Theme": null,
-      "VisibleForAll": 287,
+      "VisibleForAll": 291,
       "VisibleForAssociates": [
-        348,
-        129
+        140,
+        508
       ],
       "VisibleForGroups": [
-        625,
-        635
+        166,
+        846
       ],
-      "PinForAll": 537,
+      "PinForAll": 447,
       "PinForAssociates": [
-        785,
-        66
+        967,
+        185
       ],
       "PinForGroups": [
-        431,
-        371
+        892,
+        214
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 756
         }
       }
     }
@@ -191,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldType": "System.String",
+      "FieldLength": 261
     }
   }
 }

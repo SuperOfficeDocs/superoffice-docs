@@ -1,6 +1,7 @@
 ---
 title: GET Document/CustomField
 uid: v1DocumentEntity_GetCustomFieldInfoList
+generated: true
 ---
 
 # GET Document/CustomField
@@ -66,7 +67,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Windler-Shields",
-    "DisplayName": "Kiehn LLC",
-    "Description": "Public-key non-volatile strategy",
-    "ShortLabel": "saepe",
-    "HideLabel": true,
+    "FieldName": "Cartwright-Adams",
+    "DisplayName": "Carroll, Emmerich and Nitzsche",
+    "Description": "Seamless local adapter",
+    "ShortLabel": "et",
+    "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 26,
-    "TemplateVariableName": "Steuber Group"
+    "Rank": 597,
+    "TemplateVariableName": "Larson, Herman and Balistreri"
   }
 ]
 ```

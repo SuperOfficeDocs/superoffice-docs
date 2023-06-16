@@ -1,5 +1,6 @@
 ---
 title: Role
+generated: true
 ---
 
 ```http

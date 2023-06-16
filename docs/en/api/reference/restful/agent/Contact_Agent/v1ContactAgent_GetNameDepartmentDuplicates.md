@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/GetNameDepartmentDuplicates
 uid: v1ContactAgent_GetNameDepartmentDuplicates
+generated: true
 ---
 
 # POST Agents/Contact/GetNameDepartmentDuplicates
@@ -81,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Medhurst Inc and Sons",
+  "Name": "Kunde Group",
   "Department": ""
 }
 ```
@@ -94,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Mertz, Haley and Sporer",
-    "SoPrimaryKey": 432,
-    "EntryName": "Schaefer LLC",
+    "RuleName": "Rohan, Dietrich and Mante",
+    "SoPrimaryKey": 939,
+    "EntryName": "Dickinson Inc and Sons",
     "EntryIdentifier": "et",
-    "RuleDisplayName": "Runte Inc and Sons",
+    "RuleDisplayName": "Ward LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldType": "System.String",
+        "FieldLength": 889
       }
     }
   }

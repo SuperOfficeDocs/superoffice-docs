@@ -1,7 +1,7 @@
 ---
 title: Services88.FindAgent SOAP
 uid: Services88-Find-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Find SOAP

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetNextMilestone
 uid: v1ProjectAgent_GetNextMilestone
+generated: true
 ---
 
 # POST Agents/Project/GetNextMilestone
@@ -111,6 +112,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -120,11 +124,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 295
+  "ProjectId": 949
 }
 ```
 
@@ -135,61 +139,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 499,
-  "StartDate": "2000-12-24T03:51:27.9278166+01:00",
-  "EndDate": "2020-02-20T03:51:27.9278166+01:00",
+  "AppointmentId": 867,
+  "StartDate": "1998-09-09T16:00:41.5550773+02:00",
+  "EndDate": "2013-02-05T16:00:41.5550773+01:00",
   "Type": "BookingForChecklist",
-  "Task": "doloremque",
-  "AssociateFullName": "Florine Metz",
-  "ContactName": "Johnston, Mueller and Kuhn",
-  "Description": "Triple-buffered tertiary support",
-  "PersonFullName": "Abbigail Runolfsson",
-  "PersonId": 67,
-  "ContactId": 738,
-  "ProjectId": 477,
-  "ProjectName": "Schoen, Wolf and Ledner",
+  "Task": "minima",
+  "AssociateFullName": "Mr. Noah Rosenbaum",
+  "ContactName": "Schaefer-White",
+  "Description": "Proactive context-sensitive model",
+  "PersonFullName": "Clemmie Wisoky III",
+  "PersonId": 473,
+  "ContactId": 715,
+  "ProjectId": 998,
+  "ProjectName": "Weissnat-Lowe",
   "IsPublished": false,
-  "AssociateId": 410,
-  "ColorIndex": 812,
+  "AssociateId": 962,
+  "ColorIndex": 990,
   "IsFree": false,
-  "HasAlarm": true,
+  "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 631,
-  "PriorityName": "Schulist-Ruecker",
+  "PriorityId": 693,
+  "PriorityName": "Ebert, Lowe and McDermott",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "1999-02-09T03:51:27.943438+01:00",
+  "IsBooking": true,
+  "ActiveDate": "2020-05-11T16:00:41.5550773+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2015-08-15T03:51:27.943438+02:00",
-  "RecurringEndDate": "2016-08-24T03:51:27.943438+02:00",
-  "MotherId": 426,
-  "AssignedBy": 15,
-  "AssignedByFullName": "Katrine McClure",
+  "RecurringStartDate": "2021-08-18T16:00:41.5550773+02:00",
+  "RecurringEndDate": "2006-03-03T16:00:41.5550773+01:00",
+  "MotherId": 790,
+  "AssignedBy": 501,
+  "AssignedByFullName": "Heather Kuhlman",
   "RejectReason": "",
-  "Location": "id",
-  "AlarmLeadTime": "nulla",
-  "SaleId": 661,
-  "SaleName": "Kuphal-Yost",
-  "AssociateName": "Bednar-Emmerich",
-  "CreatedDate": "2008-09-07T03:51:27.943438+02:00",
-  "CreatedBy": "sit",
-  "CreatedByFullName": "Hazle Hyatt",
-  "CreatedByAssociateId": 951,
+  "Location": "eius",
+  "AlarmLeadTime": "consequatur",
+  "SaleId": 959,
+  "SaleName": "Witting Group",
+  "AssociateName": "Lindgren, Klocko and Kuvalis",
+  "CreatedDate": "2019-11-09T16:00:41.5550773+01:00",
+  "CreatedBy": "non",
+  "CreatedByFullName": "Ms. Ronaldo Franecki",
+  "CreatedByAssociateId": 798,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
+  "Title": "recusandae",
+  "Agenda": "sequi",
+  "InternalNotes": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldType": "System.String",
+      "FieldLength": 792
     }
   }
 }

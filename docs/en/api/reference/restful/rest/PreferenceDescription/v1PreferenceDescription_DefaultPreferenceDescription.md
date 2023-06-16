@@ -1,6 +1,7 @@
 ---
 title: GET PreferenceDescription/default
 uid: v1PreferenceDescription_DefaultPreferenceDescription
+generated: true
 ---
 
 # GET PreferenceDescription/default
@@ -73,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 587,
-  "Section": "ex",
-  "Key": "blanditiis",
-  "Name": "Hartmann-Hauck",
+  "PrefDescId": 618,
+  "Section": "id",
+  "Key": "nemo",
+  "Name": "Kerluke Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized holistic local area network",
+  "Description": "Proactive discrete groupware",
   "IsBuiltin": false,
-  "TableName": "Ruecker LLC",
-  "UserDefinedListId": 357,
-  "Rank": 178,
-  "SubGroup": "quidem",
-  "MinLevel": 710,
-  "MaxValue": 697,
-  "MinValue": 605,
-  "RequiredLicense": "et",
+  "TableName": "Willms, Wuckert and Douglas",
+  "UserDefinedListId": 192,
+  "Rank": 748,
+  "SubGroup": "similique",
+  "MinLevel": 326,
+  "MaxValue": 217,
+  "MinValue": 991,
+  "RequiredLicense": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

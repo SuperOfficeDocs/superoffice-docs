@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Pocket/NotificationHandled
 uid: v1PocketAgent_NotificationHandled
+generated: true
 ---
 
 # POST Agents/Pocket/NotificationHandled
@@ -69,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "NotificationEventType": "AppointmentCancelled",
-  "Id": 715
+  "Id": 311
 }
 ```
 

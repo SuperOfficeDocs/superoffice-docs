@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryType/MDOItems
 uid: v1DeliveryTypeList_GetMDOList
+generated: true
 ---
 
 # GET List/DeliveryType/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=id
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=qui
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 872,
-    "Name": "Mann-Conn",
-    "ToolTip": "Magni omnis voluptas dolores sed dolorem quis voluptas.",
-    "Deleted": false,
-    "Rank": 390,
-    "Type": "quod",
+    "Id": 152,
+    "Name": "White, Koss and VonRueden",
+    "ToolTip": "Est fugiat.",
+    "Deleted": true,
+    "Rank": 897,
+    "Type": "hic",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Aufderhar, Blanda and Ondricka",
-        "ToolTip": "Assumenda id similique in natus error vitae ut.",
+        "Id": 948,
+        "Name": "Moen-Oberbrunner",
+        "ToolTip": "Dolor itaque eum ad commodi rerum consequatur est.",
         "Deleted": false,
-        "Rank": 523,
-        "Type": "dolorum",
+        "Rank": 700,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quos",
-        "ColorBlock": 472,
-        "ExtraInfo": "nisi",
-        "StyleHint": "aut",
-        "FullName": "Waino Schulist",
+        "IconHint": "et",
+        "ColorBlock": 612,
+        "ExtraInfo": "nobis",
+        "StyleHint": "necessitatibus",
+        "FullName": "Miss Danielle Philip Kling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 220
+            "FieldType": "System.Int32",
+            "FieldLength": 723
           }
         }
       }
     ],
-    "IconHint": "soluta",
-    "ColorBlock": 313,
-    "ExtraInfo": "aut",
-    "StyleHint": "rem",
-    "FullName": "Alexandre Kling",
+    "IconHint": "libero",
+    "ColorBlock": 585,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "explicabo",
+    "FullName": "Dell Gilberto Haag V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldLength": 541
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: PUT List/TicketPriority
 uid: v1TicketPriorityList_SetListDefinition
+generated: true
 ---
 
 # PUT List/TicketPriority
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 868,
-  "Name": "Gleason Inc and Sons",
-  "Tooltip": "eum",
+  "Id": 351,
+  "Name": "Walker, Bradtke and Effertz",
+  "Tooltip": "odio",
   "Deleted": true,
-  "Rank": 808,
+  "Rank": 642,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "non",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "expedita",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799,
-  "Name": "Feeney LLC",
-  "Tooltip": "fugiat",
+  "Id": 6,
+  "Name": "Smith-Streich",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 711,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "cumque",
-  "InUseByUserDefinedFields": true,
+  "Rank": 843,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "pariatur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 909
     }
   }
 }

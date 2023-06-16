@@ -1,17 +1,11 @@
 ---
 uid: udeffieldtype
 title: udeffieldtype
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "udeffieldtype"
+keywords: mdoprovider mdo provider udeffieldtype
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "udeffieldtype" MDO List

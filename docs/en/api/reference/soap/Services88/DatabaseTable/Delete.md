@@ -1,6 +1,6 @@
 ---
 title: Services88.DatabaseTableAgent.Delete SOAP
-generated: 1
+generated: true
 uid: Services88-DatabaseTable-Delete
 ---
 

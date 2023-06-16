@@ -1,6 +1,7 @@
 ---
 title: GET Sale/{id}/Guide
 uid: v1SaleEntity_Guide
+generated: true
 ---
 
 # GET Sale/{id}/Guide
@@ -73,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Guide?$orderBy=name asc
-GET /api/v1/Sale/{id}/Guide?$entities=iusto
-GET /api/v1/Sale/{id}/Guide?$top=595
-GET /api/v1/Sale/{id}/Guide?$skip=284
+GET /api/v1/Sale/{id}/Guide?$entities=omnis
+GET /api/v1/Sale/{id}/Guide?$top=14
+GET /api/v1/Sale/{id}/Guide?$skip=89
 GET /api/v1/Sale/{id}/Guide?$mode=Full
 GET /api/v1/Sale/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Guide?$context=molestiae
+GET /api/v1/Sale/{id}/Guide?$context=omnis
 GET /api/v1/Sale/{id}/Guide?$format=JSON
-GET /api/v1/Sale/{id}/Guide?$jsonSafe=True
+GET /api/v1/Sale/{id}/Guide?$jsonSafe=False
 GET /api/v1/Sale/{id}/Guide?$output=Display
 ```
 
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quae",
+  "odata.nextLink": "ipsa",
   "value": [
     {
-      "PrimaryKey": 5701,
+      "PrimaryKey": 7174,
       "EntityName": "sale",
-      "saleId": 5701,
-      "contactId": 4516,
-      "name": "Conroy Inc and Sons"
+      "saleId": 7174,
+      "contactId": 8798,
+      "name": "Braun-Ruecker"
     },
     {
-      "PrimaryKey": 6897,
+      "PrimaryKey": 1922,
       "EntityName": "sale",
-      "saleId": 6897,
-      "contactId": 1721,
-      "name": "Kshlerin, Mayer and Grimes"
+      "saleId": 1922,
+      "contactId": 5270,
+      "name": "Nicolas-Kautzer"
     }
   ]
 }

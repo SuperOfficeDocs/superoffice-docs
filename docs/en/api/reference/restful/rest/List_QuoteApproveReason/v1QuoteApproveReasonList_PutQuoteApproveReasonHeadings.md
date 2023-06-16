@@ -1,6 +1,7 @@
 ---
 title: PUT List/QuoteApproveReason/Headings
 uid: v1QuoteApproveReasonList_PutQuoteApproveReasonHeadings
+generated: true
 ---
 
 # PUT List/QuoteApproveReason/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 749,
-    "Name": "Hintz LLC",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 445,
-    "UdListDefinitionId": 540
+    "HeadingId": 170,
+    "Name": "Schmeler LLC",
+    "Tooltip": "mollitia",
+    "Deleted": true,
+    "Rank": 351,
+    "UdListDefinitionId": 722
   },
   {
-    "HeadingId": 749,
-    "Name": "Hintz LLC",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 445,
-    "UdListDefinitionId": 540
+    "HeadingId": 170,
+    "Name": "Schmeler LLC",
+    "Tooltip": "mollitia",
+    "Deleted": true,
+    "Rank": 351,
+    "UdListDefinitionId": 722
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 529,
-    "Name": "Kling-Kozey",
-    "Tooltip": "excepturi",
+    "HeadingId": 39,
+    "Name": "Kling-Gerhold",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 859,
-    "UdListDefinitionId": 105,
+    "Rank": 712,
+    "UdListDefinitionId": 970,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldType": "System.String",
+        "FieldLength": 765
       }
     }
   }

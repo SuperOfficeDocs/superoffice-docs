@@ -1,6 +1,7 @@
 ---
 title: GET List/Currency/Items/{id}
 uid: v1CurrencyList_GetCurrencyEntity
+generated: true
 ---
 
 # GET List/Currency/Items/{id}
@@ -67,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 242,
-  "Name": "Lubowitz-Roberts",
-  "Tooltip": "omnis",
-  "Rank": 91,
-  "Rate": 27485.18,
-  "Units": 2027.6979999999999,
-  "Deleted": true,
+  "CurrencyId": 551,
+  "Name": "Hahn-Bayer",
+  "Tooltip": "consequatur",
+  "Rank": 278,
+  "Rate": 11379.554,
+  "Units": 30380.996,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 948
+      "FieldType": "System.Int32",
+      "FieldLength": 820
     }
   }
 }

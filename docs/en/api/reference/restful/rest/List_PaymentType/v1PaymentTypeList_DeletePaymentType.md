@@ -1,6 +1,7 @@
 ---
 title: DEL List/PaymentType/Items/{id}
 uid: v1PaymentTypeList_DeletePaymentType
+generated: true
 ---
 
 # DEL List/PaymentType/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

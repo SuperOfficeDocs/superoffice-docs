@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/GetCRMScriptEntity
 uid: v1CRMScriptAgent_GetCRMScriptEntity
+generated: true
 ---
 
 # POST Agents/CRMScript/GetCRMScriptEntity
@@ -27,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=710
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=745
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +79,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,23 +89,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 445,
-  "UniqueIdentifier": "velit",
-  "Name": "Douglas, McKenzie and Altenwerth",
-  "Description": "Focused stable orchestration",
-  "IncludeId": "minima",
-  "HierarchyId": 321,
-  "Source": "voluptas",
-  "Registered": "2010-09-12T03:51:26.9436626+02:00",
-  "RegisteredAssociateId": 139,
-  "Updated": "2020-03-03T03:51:26.9436626+01:00",
-  "UpdatedAssociateId": 950,
+  "EjscriptId": 911,
+  "UniqueIdentifier": "dolor",
+  "Name": "Ullrich-Harvey",
+  "Description": "Secured didactic orchestration",
+  "IncludeId": "illum",
+  "HierarchyId": 771,
+  "Source": "qui",
+  "Registered": "2004-11-09T16:00:40.4925031+01:00",
+  "RegisteredAssociateId": 174,
+  "Updated": "1999-09-19T16:00:40.4925031+02:00",
+  "UpdatedAssociateId": 189,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 692
+      "FieldType": "System.String",
+      "FieldLength": 612
     }
   }
 }

@@ -1,17 +1,11 @@
 ---
 uid: direction
 title: direction
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "direction"
+keywords: mdoprovider mdo provider direction
+description: Document and Task directions: TaskDirection.Incoming, Outgoing
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "direction" MDO List

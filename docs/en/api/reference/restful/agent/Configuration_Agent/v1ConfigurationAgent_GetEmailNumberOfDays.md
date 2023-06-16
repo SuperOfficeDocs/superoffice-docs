@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetEmailNumberOfDays
 uid: v1ConfigurationAgent_GetEmailNumberOfDays
+generated: true
 ---
 
 # POST Agents/Configuration/GetEmailNumberOfDays
@@ -68,5 +69,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-355
+731
 ```

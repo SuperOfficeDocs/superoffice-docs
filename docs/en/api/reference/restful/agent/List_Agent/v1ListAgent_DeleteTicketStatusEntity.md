@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/DeleteTicketStatusEntity
 uid: v1ListAgent_DeleteTicketStatusEntity
+generated: true
 ---
 
 # POST Agents/List/DeleteTicketStatusEntity
@@ -24,7 +25,7 @@ Deletes the TicketStatusEntity
 | TicketStatusEntityId | int32 | **Required** The id of the TicketStatusEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketStatusEntity?TicketStatusEntityId=1001
+POST /api/v1/Agents/List/DeleteTicketStatusEntity?TicketStatusEntityId=325
 ```
 
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/FreeText/GetStatus
 uid: v1FreeTextAgent_GetStatus
+generated: true
 ---
 
 # POST Agents/FreeText/GetStatus
@@ -70,7 +71,7 @@ OK
 POST /api/v1/Agents/FreeText/GetStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,16 +84,16 @@ Content-Type: application/json; charset=utf-8
   "FreeTextEnabled": true,
   "SingleWordOperator": "Contains",
   "MultiWordOperator": "Contains",
-  "CountWords": 796,
-  "Occurrences": 13,
-  "LastGenerated": "2013-12-12T03:51:27.3498217+01:00",
+  "CountWords": 44,
+  "Occurrences": 139,
+  "LastGenerated": "1997-06-16T16:00:41.0705907+02:00",
   "AutoEnableTravelAreas": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

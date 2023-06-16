@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 uid: v1UserDefinedFieldInfoAgent_GetCustomFieldInfo
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetCustomFieldInfo
@@ -83,12 +84,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Terry Inc and Sons",
-  "FieldName": "Thompson-Ferry"
+  "TableName": "Nikolaus, Tremblay and Mueller",
+  "FieldName": "Collins, Stroman and Jenkins"
 }
 ```
 
@@ -100,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Thompson-Cartwright",
-  "DisplayName": "Labadie, Smith and Bednar",
-  "Description": "Phased content-based protocol",
-  "ShortLabel": "eos",
+  "FieldName": "Haag Group",
+  "DisplayName": "Koelpin Inc and Sons",
+  "Description": "Ergonomic assymetric customer loyalty",
+  "ShortLabel": "aperiam",
   "HideLabel": false,
   "HideField": true,
   "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 593,
-  "TemplateVariableName": "Tillman-Hyatt"
+  "Rank": 527,
+  "TemplateVariableName": "Krajcik, Goodwin and Weber"
 }
 ```

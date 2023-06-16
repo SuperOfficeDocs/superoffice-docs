@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Diagnostics/GetEntityCountsForCurrentUser
 uid: v1DiagnosticsAgent_GetEntityCountsForCurrentUser
+generated: true
 ---
 
 # POST Agents/Diagnostics/GetEntityCountsForCurrentUser
@@ -65,7 +66,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetEntityCountsForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Homenick, Vandervort and Ankunding",
-    "Records": 711,
+    "EntityName": "Mraz LLC",
+    "Records": 701,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldType": "System.String",
+        "FieldLength": 51
       }
     }
   },
   {
-    "EntityName": "Homenick, Vandervort and Ankunding",
-    "Records": 711,
+    "EntityName": "Mraz LLC",
+    "Records": 701,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldType": "System.String",
+        "FieldLength": 51
       }
     }
   }

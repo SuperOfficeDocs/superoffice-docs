@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dashboard/GetData
 uid: v1DashboardAgent_GetData
+generated: true
 ---
 
 # POST Agents/Dashboard/GetData
@@ -72,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 885,
-  "Restrictions": "enim"
+  "DashboardTileId": 337,
+  "Restrictions": "omnis"
 }
 ```
 
@@ -91,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Metz-Cummings",
-        "DisplayTooltip": "consequatur",
-        "DisplayType": "et",
+        "DisplayName": "Champlin Inc and Sons",
+        "DisplayTooltip": "illo",
+        "DisplayType": "illo",
         "CanOrderBy": true,
-        "Name": "Hessel-Haag",
+        "Name": "Hackett-Jacobs",
         "CanRestrictBy": false,
-        "RestrictionType": "illo",
-        "RestrictionListName": "Williamson-Walsh",
-        "IsVisible": true,
-        "ExtraInfo": "eaque",
-        "Width": "aut",
-        "IconHint": "omnis",
-        "HeadingIconHint": "quasi"
+        "RestrictionType": "qui",
+        "RestrictionListName": "Feeney-Bergnaum",
+        "IsVisible": false,
+        "ExtraInfo": "quam",
+        "Width": "et",
+        "IconHint": "eum",
+        "HeadingIconHint": "quis"
       }
     ],
     "Result": null
@@ -111,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Metz-Cummings",
-        "DisplayTooltip": "consequatur",
-        "DisplayType": "et",
+        "DisplayName": "Champlin Inc and Sons",
+        "DisplayTooltip": "illo",
+        "DisplayType": "illo",
         "CanOrderBy": true,
-        "Name": "Hessel-Haag",
+        "Name": "Hackett-Jacobs",
         "CanRestrictBy": false,
-        "RestrictionType": "illo",
-        "RestrictionListName": "Williamson-Walsh",
-        "IsVisible": true,
-        "ExtraInfo": "eaque",
-        "Width": "aut",
-        "IconHint": "omnis",
-        "HeadingIconHint": "quasi"
+        "RestrictionType": "qui",
+        "RestrictionListName": "Feeney-Bergnaum",
+        "IsVisible": false,
+        "ExtraInfo": "quam",
+        "Width": "et",
+        "IconHint": "eum",
+        "HeadingIconHint": "quis"
       }
     ],
     "Result": null

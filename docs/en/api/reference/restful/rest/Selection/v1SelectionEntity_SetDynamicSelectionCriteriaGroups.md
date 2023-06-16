@@ -1,6 +1,7 @@
 ---
 title: PUT Selection/{id}/CriteriaGroups
 uid: v1SelectionEntity_SetDynamicSelectionCriteriaGroups
+generated: true
 ---
 
 # PUT Selection/{id}/CriteriaGroups
@@ -77,58 +78,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kertzmann LLC",
-    "Description": "De-engineered hybrid frame",
-    "Rank": 861,
+    "Name": "Orn Inc and Sons",
+    "Description": "Optimized analyzing hub",
+    "Rank": 126,
     "Restrictions": [
       {
-        "Name": "Jerde, Fisher and Anderson",
-        "Operator": "in",
+        "Name": "Lesch Inc and Sons",
+        "Operator": "consequatur",
         "Values": [
-          "rerum",
-          "sint"
+          "voluptatem",
+          "nam"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "explicabo"
+          "ea",
+          "iusto"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 564,
+        "InterParenthesis": 728,
         "InterOperator": "And",
-        "UniqueHash": 128
+        "UniqueHash": 105
       }
     ]
   },
   {
-    "Name": "Kertzmann LLC",
-    "Description": "De-engineered hybrid frame",
-    "Rank": 861,
+    "Name": "Orn Inc and Sons",
+    "Description": "Optimized analyzing hub",
+    "Rank": 126,
     "Restrictions": [
       {
-        "Name": "Jerde, Fisher and Anderson",
-        "Operator": "in",
+        "Name": "Lesch Inc and Sons",
+        "Operator": "consequatur",
         "Values": [
-          "rerum",
-          "sint"
+          "voluptatem",
+          "nam"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "explicabo"
+          "ea",
+          "iusto"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 564,
+        "InterParenthesis": 728,
         "InterOperator": "And",
-        "UniqueHash": 128
+        "UniqueHash": 105
       }
     ]
   }
@@ -143,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jewess Group",
-    "Description": "Reactive mobile framework",
-    "Rank": 646,
+    "Name": "Dickinson-Herzog",
+    "Description": "Business-focused value-added process improvement",
+    "Rank": 929,
     "Restrictions": [
       {
-        "Name": "Jones Group",
-        "Operator": "odit",
+        "Name": "McKenzie LLC",
+        "Operator": "cupiditate",
         "Values": [
-          "excepturi",
-          "aliquid"
+          "harum",
+          "ipsum"
         ],
         "DisplayValues": [
-          "qui",
-          "ipsa"
+          "voluptas",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 571,
+        "InterParenthesis": 590,
         "InterOperator": "And",
-        "UniqueHash": 257
+        "UniqueHash": 126
       }
     ]
   },
   {
-    "Name": "Jewess Group",
-    "Description": "Reactive mobile framework",
-    "Rank": 646,
+    "Name": "Dickinson-Herzog",
+    "Description": "Business-focused value-added process improvement",
+    "Rank": 929,
     "Restrictions": [
       {
-        "Name": "Jones Group",
-        "Operator": "odit",
+        "Name": "McKenzie LLC",
+        "Operator": "cupiditate",
         "Values": [
-          "excepturi",
-          "aliquid"
+          "harum",
+          "ipsum"
         ],
         "DisplayValues": [
-          "qui",
-          "ipsa"
+          "voluptas",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 571,
+        "InterParenthesis": 590,
         "InterOperator": "And",
-        "UniqueHash": 257
+        "UniqueHash": 126
       }
     ]
   }

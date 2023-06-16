@@ -1,6 +1,7 @@
 ---
 title: PUT List/Source/Items/{id}/UserGroups
 uid: v1SourceList_PutSourceUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/Source/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Yost, Krajcik and Miller",
-    "ToolTip": "Voluptate quo exercitationem.",
+    "Id": 653,
+    "Name": "Anderson-Langosh",
+    "ToolTip": "Perferendis hic cum illo sint aut fuga quia.",
     "Deleted": true,
-    "Rank": 329,
-    "Type": "est",
-    "ColorBlock": 814,
-    "IconHint": "ut",
+    "Rank": 224,
+    "Type": "quo",
+    "ColorBlock": 855,
+    "IconHint": "iste",
     "Selected": true,
-    "LastChanged": "1999-02-03T03:51:34.9738936+01:00",
+    "LastChanged": "2018-10-11T16:00:49.3527243+02:00",
     "ChildItems": [
       {
-        "Id": 820,
-        "Name": "Jones Group",
-        "ToolTip": "Ut tenetur excepturi et atque alias.",
+        "Id": 16,
+        "Name": "Ward, Will and Jewess",
+        "ToolTip": "Non placeat consequatur perferendis quis pariatur aliquid.",
         "Deleted": false,
-        "Rank": 165,
-        "Type": "similique",
-        "ColorBlock": 200,
-        "IconHint": "quae",
-        "Selected": false,
-        "LastChanged": "2005-10-01T03:51:34.9738936+02:00",
+        "Rank": 825,
+        "Type": "et",
+        "ColorBlock": 500,
+        "IconHint": "tenetur",
+        "Selected": true,
+        "LastChanged": "2002-02-25T16:00:49.3527243+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Arturo Nitzsche"
+        "ExtraInfo": "quia",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Beverly Sheldon Mayer II"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "sit",
+    "ExtraInfo": "iste",
+    "StyleHint": "dolore",
     "Hidden": false,
-    "FullName": "Lolita Blanda Jr."
+    "FullName": "Lucio Armando Hansen DDS"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 676,
-    "Name": "Reynolds, Mann and Stanton",
-    "ToolTip": "Esse eligendi officiis officia ipsum atque.",
-    "Deleted": false,
-    "Rank": 410,
-    "Type": "et",
-    "ColorBlock": 478,
-    "IconHint": "atque",
-    "Selected": false,
-    "LastChanged": "1996-10-02T03:51:34.9738936+02:00",
+    "Id": 109,
+    "Name": "Williamson-Rippin",
+    "ToolTip": "Accusantium quis aperiam eveniet exercitationem.",
+    "Deleted": true,
+    "Rank": 151,
+    "Type": "qui",
+    "ColorBlock": 993,
+    "IconHint": "veniam",
+    "Selected": true,
+    "LastChanged": "2015-08-09T16:00:49.3527243+02:00",
     "ChildItems": [
       {
-        "Id": 172,
-        "Name": "Schowalter LLC",
-        "ToolTip": "At et corporis.",
-        "Deleted": false,
-        "Rank": 499,
-        "Type": "perferendis",
-        "ColorBlock": 59,
-        "IconHint": "non",
+        "Id": 5,
+        "Name": "Schamberger LLC",
+        "ToolTip": "Sequi ipsum culpa voluptatem et.",
+        "Deleted": true,
+        "Rank": 793,
+        "Type": "at",
+        "ColorBlock": 399,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2015-02-18T03:51:34.9738936+01:00",
+        "LastChanged": "2016-04-30T16:00:49.3527243+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "atque",
-        "Hidden": false,
-        "FullName": "Kale Wunsch",
+        "ExtraInfo": "non",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Sabrina Lakin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 231
+            "FieldLength": 297
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Mrs. Burdette Runolfsson",
+    "ExtraInfo": "omnis",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Kamren McCullough",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldType": "System.Int32",
+        "FieldLength": 403
       }
     }
   }

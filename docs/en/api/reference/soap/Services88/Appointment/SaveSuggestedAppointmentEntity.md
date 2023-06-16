@@ -1,6 +1,6 @@
 ---
 title: Services88.AppointmentAgent.SaveSuggestedAppointmentEntity SOAP
-generated: 1
+generated: true
 uid: Services88-Appointment-SaveSuggestedAppointmentEntity
 ---
 

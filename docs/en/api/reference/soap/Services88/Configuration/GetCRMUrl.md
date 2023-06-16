@@ -1,6 +1,6 @@
 ---
 title: Services88.ConfigurationAgent.GetCRMUrl SOAP
-generated: 1
+generated: true
 uid: Services88-Configuration-GetCRMUrl
 ---
 

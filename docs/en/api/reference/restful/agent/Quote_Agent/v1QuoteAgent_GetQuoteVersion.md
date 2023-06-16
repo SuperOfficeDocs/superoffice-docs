@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuoteVersion
 uid: v1QuoteAgent_GetQuoteVersion
+generated: true
 ---
 
 # POST Agents/Quote/GetQuoteVersion
@@ -110,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 278
+  "QuoteVersionId": 937
 }
 ```
 
@@ -125,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 367,
-  "ERPQuoteVersionKey": "quia",
-  "QuoteId": 893,
-  "Description": "Organized 4th generation contingency",
-  "Number": "733706",
+  "QuoteVersionId": 958,
+  "ERPQuoteVersionKey": "possimus",
+  "QuoteId": 192,
+  "Description": "Inverse zero tolerance concept",
+  "Number": "1117289",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 351,
-  "SentDate": "1996-07-05T03:51:27.9746798+02:00",
-  "FollowupId": 483,
-  "ExpirationDate": "2020-03-14T03:51:27.9746798+01:00",
-  "DeliveryCountryId": 872,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 813,
+  "LikelyQuoteAlternativeId": 56,
+  "SentDate": "2008-12-01T16:00:41.6019523+01:00",
+  "FollowupId": 210,
+  "ExpirationDate": "2014-08-05T16:00:41.6019523+02:00",
+  "DeliveryCountryId": 365,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 634,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "hic",
-  "ERPPaymentTypeKey": "nobis",
-  "ERPDeliveryTermsKey": "laborum",
-  "ERPDeliveryTypeKey": "officiis",
-  "Rank": 93,
-  "ApprovedBy": 925,
-  "ApprovedText": "nobis",
-  "ApprovedRegisteredBy": 589,
-  "ApprovedRegisteredDate": "2009-05-05T03:51:27.9746798+02:00",
+  "ERPPaymentTermsKey": "odio",
+  "ERPPaymentTypeKey": "nesciunt",
+  "ERPDeliveryTermsKey": "quod",
+  "ERPDeliveryTypeKey": "aut",
+  "Rank": 627,
+  "ApprovedBy": 979,
+  "ApprovedText": "ab",
+  "ApprovedRegisteredBy": 424,
+  "ApprovedRegisteredDate": "2011-11-28T16:00:41.6019523+01:00",
   "ExtraField1": "omnis",
-  "ExtraField2": "et",
-  "ExtraField3": "minima",
-  "ExtraField4": "quo",
-  "ExtraField5": "aut",
-  "LastRecalculated": "2023-05-06T03:51:27.9746798+02:00",
-  "Updated": "1998-09-07T03:51:27.9746798+02:00",
-  "UpdatedAssociateId": 445,
-  "Registered": "2020-11-03T03:51:27.9746798+01:00",
-  "RegisteredAssociateId": 487,
-  "RequestAssociateId": 232,
-  "RequestComment": "error",
+  "ExtraField2": "quia",
+  "ExtraField3": "ut",
+  "ExtraField4": "beatae",
+  "ExtraField5": "neque",
+  "LastRecalculated": "2022-03-21T16:00:41.6019523+01:00",
+  "Updated": "2005-12-20T16:00:41.6019523+01:00",
+  "UpdatedAssociateId": 955,
+  "Registered": "2018-01-11T16:00:41.6019523+01:00",
+  "RegisteredAssociateId": 795,
+  "RequestAssociateId": 726,
+  "RequestComment": "vel",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 108,
-      "ERPQuoteAlternativeKey": "unde",
-      "QuoteVersionId": 138,
-      "Name": "Hessel-Doyle",
-      "Description": "Polarised zero tolerance contingency",
+      "QuoteAlternativeId": 539,
+      "ERPQuoteAlternativeKey": "voluptas",
+      "QuoteVersionId": 113,
+      "Name": "Parisian-Wilkinson",
+      "Description": "Ergonomic responsive array",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 3237.422,
-      "ERPDiscountAmount": 12376.166,
-      "DiscountPercent": 3735.728,
-      "DiscountAmount": 14710.996,
+      "ERPDiscountPercent": 2337.964,
+      "ERPDiscountAmount": 5628.664,
+      "DiscountPercent": 31220.908,
+      "DiscountAmount": 26438.424,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "cum",
-      "VAT": 4124.344,
-      "EarningPercent": 1604.608,
-      "EarningAmount": 19907.167999999998,
-      "SubTotal": 3870.49,
-      "TotalPrice": 11423.43,
-      "ExtraField1": "minus",
-      "ExtraField2": "est",
+      "VATInfo": "excepturi",
+      "VAT": 8772.0659999999989,
+      "EarningPercent": 18835.34,
+      "EarningAmount": 9276.64,
+      "SubTotal": 13554.55,
+      "TotalPrice": 6349.4839999999995,
+      "ExtraField1": "ea",
+      "ExtraField2": "quibusdam",
       "ExtraField3": "quia",
-      "ExtraField4": "vitae",
-      "ExtraField5": "hic",
+      "ExtraField4": "sunt",
+      "ExtraField5": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldLength": 786
         }
       }
     }
@@ -203,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldLength": 664
     }
   }
 }

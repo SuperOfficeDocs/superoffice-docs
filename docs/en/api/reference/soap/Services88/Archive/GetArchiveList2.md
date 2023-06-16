@@ -1,6 +1,6 @@
 ---
 title: Services88.ArchiveAgent.GetArchiveList2 SOAP
-generated: 1
+generated: true
 uid: Services88-Archive-GetArchiveList2
 ---
 

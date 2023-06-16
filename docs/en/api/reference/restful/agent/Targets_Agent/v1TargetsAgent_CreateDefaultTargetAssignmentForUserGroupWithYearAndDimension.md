@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 uid: v1TargetsAgent_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
+generated: true
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
@@ -86,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 860,
-  "Year": 932,
-  "TargetDimensionId": 467
+  "UserGroupId": 293,
+  "Year": 77,
+  "TargetDimensionId": 261
 }
 ```
 
@@ -100,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 170,
+    "TargetAssignmentInfoId": 529,
     "Values": [
-      858,
-      375
+      120,
+      721
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 868,
-    "DimensionListItemDisplayName": "Hermann Inc and Sons",
+    "DimensionListItem": 777,
+    "DimensionListItemDisplayName": "Torphy, Hoeger and Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 902
+        "FieldLength": 413
       }
     }
   }

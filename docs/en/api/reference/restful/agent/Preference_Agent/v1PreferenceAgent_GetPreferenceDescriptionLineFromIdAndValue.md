@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 uid: v1PreferenceAgent_GetPreferenceDescriptionLineFromIdAndValue
+generated: true
 ---
 
 # POST Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
@@ -78,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 975,
-  "PrefValue": "exercitationem"
+  "PrefDescId": 770,
+  "PrefValue": "dolorem"
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 762,
-  "PrefDescId": 629,
-  "PrefValue": "fuga",
-  "PrefShowValue": "ut",
-  "Description": "Focused web-enabled framework",
+  "PrefDescLineId": 94,
+  "PrefDescId": 543,
+  "PrefValue": "enim",
+  "PrefShowValue": "impedit",
+  "Description": "Realigned multi-tasking workforce",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 317
     }
   }
 }

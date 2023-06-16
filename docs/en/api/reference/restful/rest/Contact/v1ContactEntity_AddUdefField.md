@@ -1,6 +1,7 @@
 ---
 title: POST Contact/UdefLayout
 uid: v1ContactEntity_AddUdefField
+generated: true
 ---
 
 # POST Contact/UdefLayout
@@ -97,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 294,
-  "ColumnId": 312,
-  "FieldDefault": "aut",
-  "FieldHeight": 210,
-  "FieldLabel": "sequi",
-  "FieldLeft": 48,
-  "FieldTop": 634,
+  "UDefFieldId": 449,
+  "ColumnId": 780,
+  "FieldDefault": "totam",
+  "FieldHeight": 192,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 673,
+  "FieldTop": 779,
   "FieldType": "Checkbox",
-  "FieldWidth": 44,
-  "FormatMask": "eveniet",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 372,
-  "LabelLeft": 581,
-  "LabelTop": 654,
-  "LabelWidth": 569,
-  "LastVersionId": 621,
-  "ListTableId": 636,
+  "FieldWidth": 866,
+  "FormatMask": "molestiae",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 128,
+  "LabelLeft": 383,
+  "LabelTop": 836,
+  "LabelWidth": 804,
+  "LastVersionId": 307,
+  "ListTableId": 818,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 271,
-  "ProgId": "voluptatem",
+  "Page1LineNo": 304,
+  "ProgId": "est",
   "IsReadOnly": false,
-  "ShortLabel": "itaque",
-  "TabOrder": 722,
-  "TextLength": 166,
-  "Tooltip": "fugit",
-  "UdefIdentity": 589,
-  "UDListDefinitionId": 473,
+  "ShortLabel": "iste",
+  "TabOrder": 917,
+  "TextLength": 426,
+  "Tooltip": "modi",
+  "UdefIdentity": 593,
+  "UDListDefinitionId": 461,
   "Justification": "Center",
-  "Version": 922,
-  "TemplateVariableName": "Padberg Group",
+  "Version": 524,
+  "TemplateVariableName": "Funk, Kris and Kling",
   "HasBeenPublished": true,
-  "MdoListName": "Anderson LLC",
+  "MdoListName": "Mante-Bartell",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldType": "System.String",
+      "FieldLength": 470
     }
   }
 }

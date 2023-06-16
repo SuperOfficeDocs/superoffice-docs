@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveHeadingsForListItemFromListDefinition
 uid: v1ListAgent_SaveHeadingsForListItemFromListDefinition
+generated: true
 ---
 
 # POST Agents/List/SaveHeadingsForListItemFromListDefinition
@@ -88,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 353,
-  "ListItemId": 702,
+  "UdListDefinitionId": 638,
+  "ListItemId": 977,
   "Headings": [
     {
-      "Id": 174,
-      "Name": "Jast-Wunsch",
-      "ToolTip": "Voluptatem commodi laborum ut culpa sint.",
+      "Id": 906,
+      "Name": "Torphy LLC",
+      "ToolTip": "Et ut sint ut architecto.",
       "Deleted": false,
-      "Rank": 810,
-      "Type": "et",
-      "ColorBlock": 801,
-      "IconHint": "atque",
-      "Selected": false,
-      "LastChanged": "2019-11-18T03:51:27.4279277+01:00",
+      "Rank": 368,
+      "Type": "eos",
+      "ColorBlock": 231,
+      "IconHint": "sunt",
+      "Selected": true,
+      "LastChanged": "1999-05-22T16:00:41.1487084+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eaque",
-      "StyleHint": "alias",
-      "Hidden": false,
-      "FullName": "Dominic Pagac"
+      "ExtraInfo": "voluptas",
+      "StyleHint": "assumenda",
+      "Hidden": true,
+      "FullName": "Ms. Maryse Kelvin Mante III"
     }
   ]
 }
@@ -127,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 897,
-    "Name": "Corkery-Franecki",
-    "ToolTip": "Ipsam omnis qui et eligendi distinctio rerum.",
-    "Deleted": true,
-    "Rank": 2,
-    "Type": "natus",
-    "ColorBlock": 490,
-    "IconHint": "sed",
+    "Id": 86,
+    "Name": "Lang, Crooks and Satterfield",
+    "ToolTip": "Consequatur aperiam fuga qui facere excepturi in recusandae.",
+    "Deleted": false,
+    "Rank": 108,
+    "Type": "deleniti",
+    "ColorBlock": 551,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "1996-10-26T03:51:27.4279277+02:00",
+    "LastChanged": "2003-04-01T16:00:41.1643284+02:00",
     "ChildItems": [
       {
-        "Id": 532,
-        "Name": "Kemmer Inc and Sons",
-        "ToolTip": "Sit laboriosam inventore sed ab.",
+        "Id": 7,
+        "Name": "Homenick-Donnelly",
+        "ToolTip": "Vel reprehenderit laboriosam.",
         "Deleted": false,
-        "Rank": 141,
-        "Type": "nihil",
-        "ColorBlock": 658,
-        "IconHint": "ratione",
-        "Selected": false,
-        "LastChanged": "2021-04-16T03:51:27.4279277+02:00",
+        "Rank": 76,
+        "Type": "sunt",
+        "ColorBlock": 450,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "1999-04-12T16:00:41.1643284+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eum",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Alejandrin Brakus MD",
+        "FullName": "Prof. Lawson Bogisich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 388
+            "FieldLength": 890
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "officia",
-    "Hidden": false,
-    "FullName": "Miss Erica Marianne Crist DVM",
+    "ExtraInfo": "repellat",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Prof. Gillian Makenzie Bernhard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldLength": 449
       }
     }
   }

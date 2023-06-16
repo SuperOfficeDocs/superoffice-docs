@@ -1,6 +1,7 @@
 ---
 title: PUT List/{id}/Headings
 uid: v1ListItemEntity_SaveHeadingsFromListDefinition
+generated: true
 ---
 
 # PUT List/{id}/Headings
@@ -77,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 595,
-    "Name": "Rippin-Shields",
-    "Tooltip": "repellat",
+    "HeadingId": 229,
+    "Name": "Durgan-Sawayn",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "Rank": 22,
-    "UdListDefinitionId": 927
+    "Rank": 819,
+    "UdListDefinitionId": 127
   },
   {
-    "HeadingId": 595,
-    "Name": "Rippin-Shields",
-    "Tooltip": "repellat",
+    "HeadingId": 229,
+    "Name": "Durgan-Sawayn",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "Rank": 22,
-    "UdListDefinitionId": 927
+    "Rank": 819,
+    "UdListDefinitionId": 127
   }
 ]
 ```
@@ -108,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 856,
-    "Name": "Mann-Lesch",
-    "Tooltip": "molestiae",
+    "HeadingId": 648,
+    "Name": "Marks-Considine",
+    "Tooltip": "ea",
     "Deleted": false,
-    "Rank": 504,
-    "UdListDefinitionId": 942,
+    "Rank": 879,
+    "UdListDefinitionId": 65,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 32
+        "FieldType": "System.Int32",
+        "FieldLength": 827
       }
     }
   }

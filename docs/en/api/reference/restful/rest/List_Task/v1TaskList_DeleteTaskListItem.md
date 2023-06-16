@@ -1,6 +1,7 @@
 ---
 title: DEL List/Task/Items/{id}
 uid: v1TaskList_DeleteTaskListItem
+generated: true
 ---
 
 # DEL List/Task/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/Task/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.SaveTicketPriorityEntity SOAP
-generated: 1
+generated: true
 uid: Services88-List-SaveTicketPriorityEntity
 ---
 
@@ -52,22 +52,22 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:TicketChangedPriority xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketChangedPriority>
      <List:TicketNew xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketNew>
      <List:Deadline xsi:type="xsd:int">0</List:Deadline>
-     <List:MonStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:MonStart>
-     <List:MonStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:MonStop>
-     <List:TueStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:TueStart>
-     <List:TueStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:TueStop>
-     <List:WedStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:WedStart>
-     <List:WedStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:WedStop>
-     <List:ThuStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:ThuStart>
-     <List:ThuStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:ThuStop>
-     <List:FriStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:FriStart>
-     <List:FriStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:FriStop>
-     <List:SatStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:SatStart>
-     <List:SatStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:SatStop>
-     <List:SunStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:SunStart>
-     <List:SunStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:SunStop>
+     <List:MonStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:MonStart>
+     <List:MonStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:MonStop>
+     <List:TueStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:TueStart>
+     <List:TueStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:TueStop>
+     <List:WedStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:WedStart>
+     <List:WedStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:WedStop>
+     <List:ThuStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:ThuStart>
+     <List:ThuStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:ThuStop>
+     <List:FriStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:FriStart>
+     <List:FriStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:FriStop>
+     <List:SatStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:SatStart>
+     <List:SatStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:SatStop>
+     <List:SunStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:SunStart>
+     <List:SunStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:SunStop>
      <List:NonDates xsi:type="NetServerServices882:ArrayOfdateTime">
-      <NetServerServices882:dateTime xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</NetServerServices882:dateTime>
+      <NetServerServices882:dateTime xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</NetServerServices882:dateTime>
      </List:NonDates>
      <List:EscalationLevels xsi:type="List:ArrayOfTicketPriorityEscalationLevelEntity">
       <List:TicketPriorityEscalationLevelEntity xsi:type="List:TicketPriorityEscalationLevelEntity">
@@ -125,22 +125,22 @@ Application tokens must be specified if calling an Online installation. Applicat
     <List:TicketChangedPriority xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketChangedPriority>
     <List:TicketNew xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketNew>
     <List:Deadline xsi:type="xsd:int">0</List:Deadline>
-    <List:MonStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:MonStart>
-    <List:MonStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:MonStop>
-    <List:TueStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:TueStart>
-    <List:TueStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:TueStop>
-    <List:WedStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:WedStart>
-    <List:WedStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:WedStop>
-    <List:ThuStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:ThuStart>
-    <List:ThuStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:ThuStop>
-    <List:FriStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:FriStart>
-    <List:FriStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:FriStop>
-    <List:SatStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:SatStart>
-    <List:SatStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:SatStop>
-    <List:SunStart xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:SunStart>
-    <List:SunStop xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:SunStop>
+    <List:MonStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:MonStart>
+    <List:MonStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:MonStop>
+    <List:TueStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:TueStart>
+    <List:TueStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:TueStop>
+    <List:WedStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:WedStart>
+    <List:WedStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:WedStop>
+    <List:ThuStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:ThuStart>
+    <List:ThuStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:ThuStop>
+    <List:FriStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:FriStart>
+    <List:FriStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:FriStop>
+    <List:SatStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:SatStart>
+    <List:SatStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:SatStop>
+    <List:SunStart xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:SunStart>
+    <List:SunStop xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:SunStop>
     <List:NonDates xsi:type="NetServerServices882:ArrayOfdateTime">
-     <NetServerServices882:dateTime xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</NetServerServices882:dateTime>
+     <NetServerServices882:dateTime xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</NetServerServices882:dateTime>
     </List:NonDates>
     <List:EscalationLevels xsi:type="List:ArrayOfTicketPriorityEscalationLevelEntity">
      <List:TicketPriorityEscalationLevelEntity xsi:type="List:TicketPriorityEscalationLevelEntity">

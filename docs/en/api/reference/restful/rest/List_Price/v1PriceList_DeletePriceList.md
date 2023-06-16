@@ -1,6 +1,7 @@
 ---
 title: DEL Pricelist/{id}
 uid: v1PriceList_DeletePriceList
+generated: true
 ---
 
 # DEL Pricelist/{id}

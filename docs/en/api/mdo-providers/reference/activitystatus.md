@@ -1,17 +1,11 @@
 ---
 uid: activitystatus
 title: activitystatus
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "activitystatus"
+keywords: mdoprovider mdo provider activitystatus
+description: MDO provider for the ActivityStatus enum: NotStarted, Started, Completed
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "activitystatus" MDO List

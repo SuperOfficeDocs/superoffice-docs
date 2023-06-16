@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetAppointmentList
 uid: v1AppointmentAgent_GetAppointmentList
+generated: true
 ---
 
 # POST Agents/Appointment/GetAppointmentList
@@ -108,6 +109,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -117,7 +121,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -128,61 +132,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 578,
-    "StartDate": "2003-07-08T03:51:26.3813013+02:00",
-    "EndDate": "2005-12-26T03:51:26.3813013+01:00",
+    "AppointmentId": 511,
+    "StartDate": "2007-09-28T16:00:40.0238335+02:00",
+    "EndDate": "2018-05-30T16:00:40.0238335+02:00",
     "Type": "BookingForChecklist",
-    "Task": "possimus",
-    "AssociateFullName": "Kelsi Lockman",
-    "ContactName": "Goldner, Stoltenberg and Barton",
-    "Description": "Cross-group well-modulated concept",
-    "PersonFullName": "Merritt Bartoletti",
-    "PersonId": 313,
-    "ContactId": 418,
-    "ProjectId": 149,
-    "ProjectName": "Nitzsche LLC",
+    "Task": "tempora",
+    "AssociateFullName": "Aaron Breitenberg",
+    "ContactName": "Goldner-Wintheiser",
+    "Description": "Distributed directional customer loyalty",
+    "PersonFullName": "Devyn Kendrick Johns I",
+    "PersonId": 220,
+    "ContactId": 244,
+    "ProjectId": 103,
+    "ProjectName": "McDermott-Casper",
     "IsPublished": true,
-    "AssociateId": 924,
-    "ColorIndex": 818,
+    "AssociateId": 62,
+    "ColorIndex": 978,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 193,
-    "PriorityName": "Hermann-Shields",
+    "PriorityId": 139,
+    "PriorityName": "Davis Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2002-07-05T03:51:26.3813013+02:00",
+    "ActiveDate": "2023-05-23T16:00:40.0238335+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-12-26T03:51:26.3813013+01:00",
-    "RecurringEndDate": "2018-08-25T03:51:26.3813013+02:00",
-    "MotherId": 74,
-    "AssignedBy": 576,
-    "AssignedByFullName": "Roy DuBuque",
+    "RecurringStartDate": "1998-11-22T16:00:40.0238335+01:00",
+    "RecurringEndDate": "2010-11-06T16:00:40.0238335+01:00",
+    "MotherId": 414,
+    "AssignedBy": 12,
+    "AssignedByFullName": "Prof. Ciara Britney Fritsch",
     "RejectReason": "",
-    "Location": "asperiores",
-    "AlarmLeadTime": "odio",
-    "SaleId": 262,
-    "SaleName": "Wilderman Inc and Sons",
-    "AssociateName": "Davis Group",
-    "CreatedDate": "2007-12-19T03:51:26.3813013+01:00",
-    "CreatedBy": "iste",
-    "CreatedByFullName": "Alda Jacobs",
-    "CreatedByAssociateId": 265,
+    "Location": "architecto",
+    "AlarmLeadTime": "laboriosam",
+    "SaleId": 974,
+    "SaleName": "Daniel, Kling and Mueller",
+    "AssociateName": "Toy Inc and Sons",
+    "CreatedDate": "2010-08-14T16:00:40.0238335+02:00",
+    "CreatedBy": "possimus",
+    "CreatedByFullName": "Torrey Streich",
+    "CreatedByAssociateId": 393,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "nihil",
+    "Agenda": "saepe",
+    "InternalNotes": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 189
+        "FieldLength": 261
       }
     }
   }

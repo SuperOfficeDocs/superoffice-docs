@@ -1,6 +1,7 @@
 ---
 title: GET Schema/{tableName}
 uid: v1FieldInfoBase_GetCustomFieldInfoList
+generated: true
 ---
 
 # GET Schema/{tableName}
@@ -78,7 +79,7 @@ OK
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,18 +91,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bayer-Gutmann",
-    "DisplayName": "Collins Group",
-    "Description": "Multi-channelled zero administration utilisation",
-    "ShortLabel": "similique",
+    "FieldName": "Marks, Simonis and Schmitt",
+    "DisplayName": "Hamill Group",
+    "Description": "Reverse-engineered actuating support",
+    "ShortLabel": "aspernatur",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 645,
-    "TemplateVariableName": "Wuckert-Gulgowski"
+    "IsExternal": true,
+    "Rank": 124,
+    "TemplateVariableName": "Beer, Roberts and Deckow"
   }
 ]
 ```

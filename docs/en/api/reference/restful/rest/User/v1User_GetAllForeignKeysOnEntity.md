@@ -1,6 +1,7 @@
 ---
 title: GET User/{id}/ForeignKey
 uid: v1User_GetAllForeignKeysOnEntity
+generated: true
 ---
 
 # GET User/{id}/ForeignKey
@@ -64,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quibusdam",
-  "2": "molestias"
+  "1": "ratione",
+  "2": "dolorem"
 }
 ```

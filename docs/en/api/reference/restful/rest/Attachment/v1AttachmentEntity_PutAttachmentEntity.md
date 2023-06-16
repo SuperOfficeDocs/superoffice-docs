@@ -1,6 +1,7 @@
 ---
 title: PUT Attachment/{id}
 uid: v1AttachmentEntity_PutAttachmentEntity
+generated: true
 ---
 
 # PUT Attachment/{id}
@@ -90,17 +91,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 892,
-  "Name": "Roberts-Block",
-  "ContentType": "sed",
-  "AttSize": 329,
+  "AttachmentId": 812,
+  "Name": "Sanford LLC",
+  "ContentType": "ipsa",
+  "AttSize": 330,
   "InlineImage": false,
-  "ContentId": "veniam",
-  "AuthKey": "et"
+  "ContentId": "ad",
+  "AuthKey": "tempora"
 }
 ```
 
@@ -111,24 +112,24 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 318,
-  "Name": "Roob-Jacobi",
-  "ContentType": "fugit",
-  "AttSize": 514,
-  "InlineImage": true,
-  "ContentId": "excepturi",
-  "AuthKey": "facere",
+  "AttachmentId": 589,
+  "Name": "Bartell LLC",
+  "ContentType": "provident",
+  "AttSize": 234,
+  "InlineImage": false,
+  "ContentId": "necessitatibus",
+  "AuthKey": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 766
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

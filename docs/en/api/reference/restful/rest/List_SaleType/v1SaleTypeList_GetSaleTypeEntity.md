@@ -1,6 +1,7 @@
 ---
 title: GET List/SaleType/Items/{id}
 uid: v1SaleTypeList_GetSaleTypeEntity
+generated: true
 ---
 
 # GET List/SaleType/Items/{id}
@@ -82,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 238,
-  "Name": "Wilderman-Marks",
-  "Tooltip": "minima",
-  "Rank": 38,
+  "SaleTypeId": 33,
+  "Name": "Stroman-Lueilwitz",
+  "Tooltip": "labore",
+  "Rank": 52,
   "DurationUnit": "Century",
-  "SaleDuration": 798,
-  "SaleTypeCatId": 37,
+  "SaleDuration": 286,
+  "SaleTypeCatId": 709,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 164,
-  "QuoteLinesTemplate": 791,
-  "ConfirmationLinesTemplate": 641,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 213,
+  "QuoteLinesTemplate": 156,
+  "ConfirmationLinesTemplate": 800,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 961,
-  "MinEarningPercent": 127,
-  "GroupQuoteLinesBy": 297,
-  "SortGroupLinesBy": 301,
+  "MaxDiscountPercent": 948,
+  "MinEarningPercent": 584,
+  "GroupQuoteLinesBy": 251,
+  "SortGroupLinesBy": 54,
   "Stages": [
     {
-      "Id": 967,
-      "Name": "Mertz-Hermann",
-      "ToolTip": "Quisquam facilis.",
+      "Id": 635,
+      "Name": "Ryan, Braun and Dare",
+      "ToolTip": "Ut est dignissimos eos commodi distinctio animi aspernatur.",
       "Deleted": false,
-      "Rank": 662,
-      "Type": "eos",
-      "ColorBlock": 983,
-      "IconHint": "maiores",
+      "Rank": 53,
+      "Type": "fugit",
+      "ColorBlock": 365,
+      "IconHint": "autem",
       "Selected": false,
-      "LastChanged": "2003-12-04T03:51:34.9426529+01:00",
+      "LastChanged": "2006-11-12T16:00:49.3051793+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "soluta",
-      "StyleHint": "rerum",
-      "Hidden": true,
-      "FullName": "Federico Kasey Jaskolski DVM",
+      "ExtraInfo": "officiis",
+      "StyleHint": "voluptates",
+      "Hidden": false,
+      "FullName": "Mrs. Lucinda Reilly V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldType": "System.String",
+          "FieldLength": 285
         }
       }
     }
@@ -147,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldType": "System.Int32",
+      "FieldLength": 575
     }
   }
 }

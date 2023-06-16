@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/SetProjectImage
 uid: v1ProjectAgent_SetProjectImage
+generated: true
 ---
 
 # POST Agents/Project/SetProjectImage
@@ -68,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 696,
+  "ProjectId": 711,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: PUT List/DeliveryTerm/Items/{id}/UserGroups
 uid: v1DeliveryTermsList_PutDeliveryTermUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/DeliveryTerm/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 974,
-    "Name": "Gaylord, Mayer and Sauer",
-    "ToolTip": "Cumque iure unde voluptas.",
+    "Id": 738,
+    "Name": "Klocko, Gleichner and Stamm",
+    "ToolTip": "Autem eos esse eos dolor ullam.",
     "Deleted": true,
-    "Rank": 647,
-    "Type": "autem",
-    "ColorBlock": 346,
-    "IconHint": "minima",
+    "Rank": 952,
+    "Type": "voluptas",
+    "ColorBlock": 468,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2011-06-29T03:51:34.6614813+02:00",
+    "LastChanged": "2017-07-07T16:00:48.9927141+02:00",
     "ChildItems": [
       {
-        "Id": 313,
-        "Name": "Howe-Bernier",
-        "ToolTip": "Nihil ad.",
+        "Id": 375,
+        "Name": "Davis LLC",
+        "ToolTip": "Molestiae nemo ipsa.",
         "Deleted": false,
-        "Rank": 976,
-        "Type": "culpa",
-        "ColorBlock": 536,
-        "IconHint": "sequi",
+        "Rank": 348,
+        "Type": "possimus",
+        "ColorBlock": 51,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2016-07-10T03:51:34.6614813+02:00",
+        "LastChanged": "2022-10-01T16:00:48.9927141+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "atque",
+        "ExtraInfo": "saepe",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Miss Einar Laurel Eichmann"
+        "FullName": "Dr. Eda Labadie"
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Alvera Lillie Hoppe MD"
+    "ExtraInfo": "ipsum",
+    "StyleHint": "dolorem",
+    "Hidden": false,
+    "FullName": "Dave Nathen Feest DVM"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 372,
-    "Name": "Moore-Harber",
-    "ToolTip": "Consequatur cum est quia facere quo.",
+    "Id": 245,
+    "Name": "Heathcote-Schiller",
+    "ToolTip": "Architecto quia.",
     "Deleted": false,
-    "Rank": 144,
-    "Type": "praesentium",
-    "ColorBlock": 362,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2022-10-08T03:51:34.6614813+02:00",
+    "Rank": 129,
+    "Type": "sit",
+    "ColorBlock": 386,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2022-10-21T16:00:48.9927141+02:00",
     "ChildItems": [
       {
-        "Id": 855,
-        "Name": "Boyer LLC",
-        "ToolTip": "Facere rem sit aut sapiente dolor molestiae dolorum.",
+        "Id": 708,
+        "Name": "McDermott LLC",
+        "ToolTip": "Culpa est.",
         "Deleted": true,
-        "Rank": 824,
-        "Type": "error",
-        "ColorBlock": 658,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2010-01-17T03:51:34.6614813+01:00",
+        "Rank": 671,
+        "Type": "nulla",
+        "ColorBlock": 673,
+        "IconHint": "iure",
+        "Selected": true,
+        "LastChanged": "1996-10-20T16:00:48.9927141+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "quasi",
         "Hidden": true,
-        "FullName": "Ephraim Frami IV",
+        "FullName": "Prof. Tamia Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 557
+            "FieldType": "System.String",
+            "FieldLength": 673
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "earum",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Mrs. Agnes Trantow",
+    "FullName": "Ursula Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 25
+        "FieldType": "System.Int32",
+        "FieldLength": 578
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: GET List/SelectionCategory/Headings
 uid: v1SelectionCategoryList_GetSelectionCategoryHeadings
+generated: true
 ---
 
 # GET List/SelectionCategory/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 43,
-    "Name": "Thompson, Kautzer and Bosco",
-    "Tooltip": "non",
-    "Deleted": false,
-    "Rank": 255,
-    "UdListDefinitionId": 135,
+    "HeadingId": 230,
+    "Name": "Collier LLC",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 432,
+    "UdListDefinitionId": 846,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldType": "System.Int32",
+        "FieldLength": 56
       }
     }
   }

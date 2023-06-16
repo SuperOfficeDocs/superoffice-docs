@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/ValidateUser
 uid: v1UserAgent_ValidateUser
+generated: true
 ---
 
 # POST Agents/User/ValidateUser
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/User/ValidateUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -84,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "officia",
-  "2": "necessitatibus"
+  "1": "unde",
+  "2": "ad"
 }
 ```

@@ -1,17 +1,11 @@
 ---
 uid: comptr
 title: comptr
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "comptr"
+keywords: mdoprovider mdo provider comptr
+description: GenericMDOProvider reads MDO lists with default settings
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "comptr" MDO List

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dashboard/DeleteDashboard
 uid: v1DashboardAgent_DeleteDashboard
+generated: true
 ---
 
 # POST Agents/Dashboard/DeleteDashboard
@@ -24,7 +25,7 @@ Deletes the Dashboard
 | DashboardId | int32 | **Required** The id of the Dashboard to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dashboard/DeleteDashboard?DashboardId=198
+POST /api/v1/Agents/Dashboard/DeleteDashboard?DashboardId=189
 ```
 
 
@@ -55,7 +56,7 @@ No Content
 POST /api/v1/Agents/Dashboard/DeleteDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

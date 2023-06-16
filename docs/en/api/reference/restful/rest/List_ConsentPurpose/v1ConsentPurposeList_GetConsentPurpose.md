@@ -1,6 +1,7 @@
 ---
 title: GET List/ConsentPurpose/Items/{id}
 uid: v1ConsentPurposeList_GetConsentPurpose
+generated: true
 ---
 
 # GET List/ConsentPurpose/Items/{id}
@@ -73,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 677,
-  "Name": "Hand, Barrows and Monahan",
-  "ConsentText": "eaque",
-  "FormText": "nostrum",
-  "Key": "eos",
-  "Tooltip": "et",
-  "Active": 172,
-  "UpdatedDate": "1997-02-16T03:51:34.5989925+01:00",
+  "ConsentPurposeId": 286,
+  "Name": "Brown Inc and Sons",
+  "ConsentText": "architecto",
+  "FormText": "ratione",
+  "Key": "quo",
+  "Tooltip": "blanditiis",
+  "Active": 279,
+  "UpdatedDate": "2022-10-02T16:00:48.9145965+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 546,
-  "PrivacyStatementDesc": "ut",
+  "Rank": 857,
+  "PrivacyStatementDesc": "doloribus",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 706
+      "FieldLength": 362
     }
   }
 }

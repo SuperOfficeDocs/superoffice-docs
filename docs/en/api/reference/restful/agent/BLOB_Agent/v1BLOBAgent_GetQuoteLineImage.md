@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/GetQuoteLineImage
 uid: v1BLOBAgent_GetQuoteLineImage
+generated: true
 ---
 
 # POST Agents/BLOB/GetQuoteLineImage
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/BLOB/GetQuoteLineImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 941
+  "QuoteLineId": 916
 }
 ```
 

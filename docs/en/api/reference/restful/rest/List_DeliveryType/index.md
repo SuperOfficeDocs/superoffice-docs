@@ -1,5 +1,6 @@
 ---
 title: List_DeliveryType
+generated: true
 ---
 
 ```http

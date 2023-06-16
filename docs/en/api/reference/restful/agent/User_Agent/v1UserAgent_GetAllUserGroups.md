@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetAllUserGroups
 uid: v1UserAgent_GetAllUserGroups
+generated: true
 ---
 
 # POST Agents/User/GetAllUserGroups
@@ -82,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -94,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "voluptatibus",
-    "Tooltip": "magni",
-    "Id": 748,
-    "Rank": 471,
+    "Value": "ipsum",
+    "Tooltip": "totam",
+    "Id": 348,
+    "Rank": 73,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 689
+        "FieldType": "System.Int32",
+        "FieldLength": 310
       }
     }
   }

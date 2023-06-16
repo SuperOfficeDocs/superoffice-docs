@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/DeleteConnection
 uid: v1QuoteAgent_DeleteConnection
+generated: true
 ---
 
 # POST Agents/Quote/DeleteConnection
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/Quote/DeleteConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 830
+  "QuoteConnectionId": 286
 }
 ```
 

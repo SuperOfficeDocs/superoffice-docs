@@ -1,6 +1,7 @@
 ---
 title: GET List/Source/Headings
 uid: v1SourceList_GetSourceHeadings
+generated: true
 ---
 
 # GET List/Source/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 478,
-    "Name": "Monahan-Skiles",
-    "Tooltip": "ut",
+    "HeadingId": 678,
+    "Name": "Ryan-Bahringer",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 775,
-    "UdListDefinitionId": 33,
+    "Rank": 204,
+    "UdListDefinitionId": 622,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldType": "System.String",
+        "FieldLength": 250
       }
     }
   }

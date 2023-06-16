@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetLogoImage
 uid: v1AudienceAgent_GetLogoImage
+generated: true
 ---
 
 # POST Agents/Audience/GetLogoImage
@@ -71,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Okuneva LLC"
+  "LayoutName": "Kuhn-Nolan"
 }
 ```
 

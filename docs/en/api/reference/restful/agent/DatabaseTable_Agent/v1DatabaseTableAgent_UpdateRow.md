@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DatabaseTable/UpdateRow
 uid: v1DatabaseTableAgent_UpdateRow
+generated: true
 ---
 
 # POST Agents/DatabaseTable/UpdateRow
@@ -69,11 +70,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Pacocha-Lubowitz",
-  "Id": 844,
+  "TableName": "Cummerata-White",
+  "Id": 916,
   "Values": {
-    "Values1": "aut",
-    "Values2": "repellat"
+    "Values1": "sunt",
+    "Values2": "ab"
   }
 }
 ```

@@ -1,7 +1,7 @@
 ---
 title: Services88.ReplicationAgent SOAP
 uid: Services88-Replication-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Replication SOAP

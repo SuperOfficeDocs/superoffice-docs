@@ -1,6 +1,7 @@
 ---
 title: GET DashTile/{id}
 uid: v1DashTile_GetDashTile
+generated: true
 ---
 
 # GET DashTile/{id}
@@ -87,23 +88,23 @@ HTTP/1.1 200 DashTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 336,
-  "DashboardId": 979,
-  "Height": 724,
-  "Width": 510,
-  "Rank": 239,
+  "DashboardTileId": 912,
+  "DashboardId": 107,
+  "Height": 953,
+  "Width": 233,
+  "Rank": 264,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 195
+      "FieldLength": 447
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

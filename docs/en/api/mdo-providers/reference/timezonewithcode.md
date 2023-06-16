@@ -1,17 +1,12 @@
 ---
 uid: timezonewithcode
 title: timezonewithcode
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "timezonewithcode"
+keywords: mdoprovider mdo provider timezonewithcode
+description: Provides the timezone list. The country code is given in the type field.
+If no search value is passed in the list is restricted to 'available' timezones
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "timezonewithcode" MDO List

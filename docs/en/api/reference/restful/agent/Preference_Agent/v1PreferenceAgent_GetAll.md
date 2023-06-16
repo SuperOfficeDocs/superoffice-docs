@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetAll
 uid: v1PreferenceAgent_GetAll
+generated: true
 ---
 
 # POST Agents/Preference/GetAll
@@ -81,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 378,
-    "Section": "voluptatum",
-    "Key": "aut",
-    "Name": "Robel-Stanton",
+    "PrefDescId": 409,
+    "Section": "porro",
+    "Key": "voluptas",
+    "Name": "Daniel, Towne and Kessler",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Virtual background website",
-    "IsBuiltin": false,
-    "TableName": "Hand LLC",
-    "UserDefinedListId": 783,
-    "Rank": 480,
-    "SubGroup": "eos",
-    "MinLevel": 710,
-    "MaxValue": 888,
-    "MinValue": 309,
-    "RequiredLicense": "quis",
+    "Description": "Multi-layered content-based migration",
+    "IsBuiltin": true,
+    "TableName": "Rodriguez-Murazik",
+    "UserDefinedListId": 967,
+    "Rank": 320,
+    "SubGroup": "cum",
+    "MinLevel": 805,
+    "MaxValue": 553,
+    "MinValue": 479,
+    "RequiredLicense": "quibusdam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 647
       }
     }
   }

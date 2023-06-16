@@ -2,17 +2,10 @@
 uid: Reports
 title: Reports
 description: Archive provider for the list of reports
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "Reports"
+keywords: Reports archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "Reports"

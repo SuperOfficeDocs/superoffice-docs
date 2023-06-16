@@ -1,6 +1,7 @@
 ---
 title: PATCH ShipmentMessageBlock/{id}
 uid: v1ShipmentMessageBlockEntity_PatchShipmentMessageBlockEntity
+generated: true
 ---
 
 # PATCH ShipmentMessageBlock/{id}
@@ -114,18 +115,18 @@ ShipmentMessageBlockEntity  updated.
 PATCH /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "facilis",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "facilis",
+    "path": "quia",
     "value": {}
   }
 ]
@@ -138,20 +139,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 861,
-  "AssociateId": 346,
-  "Block": "ut",
-  "Registered": "1999-12-30T03:51:34.0208828+01:00",
-  "RegisteredAssociateId": 280,
-  "Updated": "2015-01-29T03:51:34.0208828+01:00",
-  "UpdatedAssociateId": 97,
-  "UpdatedCount": 421,
+  "ShipmentMessageBlockId": 144,
+  "AssociateId": 520,
+  "Block": "incidunt",
+  "Registered": "2012-08-16T16:00:48.4615203+02:00",
+  "RegisteredAssociateId": 141,
+  "Updated": "2017-11-17T16:00:48.4615203+01:00",
+  "UpdatedAssociateId": 424,
+  "UpdatedCount": 393,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldType": "System.String",
+      "FieldLength": 940
     }
   },
   "_Links": {

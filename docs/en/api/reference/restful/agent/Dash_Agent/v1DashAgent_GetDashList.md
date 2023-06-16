@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/GetDashList
 uid: v1DashAgent_GetDashList
+generated: true
 ---
 
 # POST Agents/Dash/GetDashList
@@ -84,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    521,
-    157
+    664,
+    29
   ]
 }
 ```
@@ -103,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 663,
-    "UniqueId": "sed",
-    "Name": "Altenwerth LLC",
-    "Description": "Seamless mission-critical application",
-    "AssociateId": 471,
-    "Columns": 692,
+    "DashboardId": 111,
+    "UniqueId": "quasi",
+    "Name": "Dooley Inc and Sons",
+    "Description": "Re-engineered modular challenge",
+    "AssociateId": 939,
+    "Columns": 994,
     "Theme": null,
-    "VisibleForAll": 923,
+    "VisibleForAll": 253,
     "VisibleForAssociates": [
-      444,
-      784
+      478,
+      641
     ],
     "VisibleForGroups": [
-      958,
-      441
+      280,
+      148
     ],
-    "PinForAll": 734,
+    "PinForAll": 994,
     "PinForAssociates": [
-      371,
-      709
+      531,
+      746
     ],
     "PinForGroups": [
-      857,
-      531
+      869,
+      860
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 857
       }
     }
   }

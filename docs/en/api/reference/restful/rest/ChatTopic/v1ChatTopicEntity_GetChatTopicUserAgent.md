@@ -1,6 +1,7 @@
 ---
 title: GET ChatTopic/{id}/UserAgent/{username}
 uid: v1ChatTopicEntity_GetChatTopicUserAgent
+generated: true
 ---
 
 # GET ChatTopic/{id}/UserAgent/{username}
@@ -72,11 +73,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 849,
+  "TopicId": 379,
   "User": null,
   "CanListen": false,
-  "CanRespond": true,
+  "CanRespond": false,
   "CanManage": false,
-  "CanNotify": false
+  "CanNotify": true
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveFromListDefinition
 uid: v1ListAgent_SaveFromListDefinition
+generated: true
 ---
 
 # POST Agents/List/SaveFromListDefinition
@@ -83,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 926,
-  "UdListDefinitionId": 454,
+  "Id": 462,
+  "UdListDefinitionId": 823,
   "Item": null
 }
 ```
@@ -96,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 135,
-  "Name": "Littel, Kessler and Connelly",
-  "Tooltip": "aut",
+  "Id": 956,
+  "Name": "Hammes LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 538,
-  "Rank": 668,
+  "UdListDefinitionId": 357,
+  "Rank": 865,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 315
     }
   }
 }

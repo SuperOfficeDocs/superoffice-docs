@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveProjectTypeEntity
 uid: v1ListAgent_SaveProjectTypeEntity
+generated: true
 ---
 
 # POST Agents/List/SaveProjectTypeEntity
@@ -84,35 +85,35 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 621,
-  "Name": "Turcotte-Wisoky",
-  "Tooltip": "dolorem",
-  "Rank": 220,
+  "ProjTypeId": 433,
+  "Name": "Kreiger-Quitzon",
+  "Tooltip": "dolorum",
+  "Rank": 85,
   "DurationUnit": "Century",
-  "ProjectDuration": 941,
+  "ProjectDuration": 510,
   "Deleted": false,
-  "HasGuide": false,
-  "IsAutoAdvance": false,
+  "HasGuide": true,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 263,
-      "Name": "Huels, Gottlieb and Kihn",
-      "ToolTip": "Maxime pariatur quis placeat in molestiae.",
+      "Id": 178,
+      "Name": "Schmeler-Hyatt",
+      "ToolTip": "Eveniet nisi adipisci quod tenetur molestias optio sapiente.",
       "Deleted": false,
-      "Rank": 365,
-      "Type": "vero",
-      "ColorBlock": 103,
-      "IconHint": "et",
+      "Rank": 100,
+      "Type": "et",
+      "ColorBlock": 935,
+      "IconHint": "non",
       "Selected": false,
-      "LastChanged": "2003-02-16T03:51:27.4747952+01:00",
+      "LastChanged": "2017-10-27T16:00:41.2268306+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "beatae",
+      "ExtraInfo": "recusandae",
       "StyleHint": "eos",
       "Hidden": true,
-      "FullName": "Ruby Heller"
+      "FullName": "Paul Fisher"
     }
   ]
 }
@@ -125,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 441,
-  "Name": "Tremblay LLC",
-  "Tooltip": "quasi",
-  "Rank": 912,
+  "ProjTypeId": 435,
+  "Name": "Becker-Murazik",
+  "Tooltip": "quod",
+  "Rank": 665,
   "DurationUnit": "Century",
-  "ProjectDuration": 541,
+  "ProjectDuration": 593,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 417,
-      "Name": "Franecki, Sporer and Prosacco",
-      "ToolTip": "Beatae quo.",
-      "Deleted": false,
-      "Rank": 810,
-      "Type": "dolorem",
-      "ColorBlock": 433,
-      "IconHint": "quas",
-      "Selected": true,
-      "LastChanged": "2017-05-08T03:51:27.4747952+02:00",
+      "Id": 397,
+      "Name": "Block-Kemmer",
+      "ToolTip": "Ut praesentium sit excepturi reprehenderit saepe numquam reprehenderit.",
+      "Deleted": true,
+      "Rank": 361,
+      "Type": "aliquid",
+      "ColorBlock": 349,
+      "IconHint": "debitis",
+      "Selected": false,
+      "LastChanged": "2017-09-06T16:00:41.2268306+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "dolorem",
-      "Hidden": false,
-      "FullName": "Leopoldo Stark",
+      "ExtraInfo": "voluptate",
+      "StyleHint": "alias",
+      "Hidden": true,
+      "FullName": "Mr. Isai Stehr",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 713
+          "FieldLength": 847
         }
       }
     }
@@ -169,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldLength": 881
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET Contact/{id}/Sales
 uid: v1ContactEntity_Sales
+generated: true
 ---
 
 # GET Contact/{id}/Sales
@@ -73,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Sales?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Sales?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Sales?$orderBy=name asc
-GET /api/v1/Contact/{id}/Sales?$entities=magnam
-GET /api/v1/Contact/{id}/Sales?$top=208
-GET /api/v1/Contact/{id}/Sales?$skip=157
+GET /api/v1/Contact/{id}/Sales?$entities=praesentium
+GET /api/v1/Contact/{id}/Sales?$top=857
+GET /api/v1/Contact/{id}/Sales?$skip=200
 GET /api/v1/Contact/{id}/Sales?$mode=Full
 GET /api/v1/Contact/{id}/Sales?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Sales?$context=reiciendis
+GET /api/v1/Contact/{id}/Sales?$context=doloremque
 GET /api/v1/Contact/{id}/Sales?$format=JSON
 GET /api/v1/Contact/{id}/Sales?$jsonSafe=False
 GET /api/v1/Contact/{id}/Sales?$output=Display
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quis",
+  "odata.nextLink": "reiciendis",
   "value": [
     {
-      "PrimaryKey": 9457,
+      "PrimaryKey": 7143,
       "EntityName": "sale",
-      "saleId": 9457,
-      "contactId": 2468,
-      "name": "Wiza-Price"
+      "saleId": 7143,
+      "contactId": 2451,
+      "name": "Schmeler, Hoeger and Koss"
     },
     {
-      "PrimaryKey": 9623,
+      "PrimaryKey": 5036,
       "EntityName": "sale",
-      "saleId": 9623,
-      "contactId": 8015,
-      "name": "Blick LLC"
+      "saleId": 5036,
+      "contactId": 1296,
+      "name": "Reynolds-Mosciski"
     }
   ]
 }

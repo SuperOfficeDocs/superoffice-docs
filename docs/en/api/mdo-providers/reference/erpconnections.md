@@ -1,17 +1,11 @@
 ---
 uid: erpconnections
 title: erpconnections
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "erpconnections"
+keywords: mdoprovider mdo provider erpconnections
+description: Retrieve the list of all defined Erp Connections (not Connectors, that's another list)
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "erpconnections" MDO List

@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.GetDepartment SOAP
-generated: 1
+generated: true
 uid: Services88-List-GetDepartment
 ---
 

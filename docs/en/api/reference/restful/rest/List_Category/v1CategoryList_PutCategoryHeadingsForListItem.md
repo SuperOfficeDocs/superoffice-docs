@@ -1,6 +1,7 @@
 ---
 title: PUT List/Category/Items/{id}/Headings
 uid: v1CategoryList_PutCategoryHeadingsForListItem
+generated: true
 ---
 
 # PUT List/Category/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 352,
-    "Name": "Yost-Doyle",
-    "ToolTip": "Dolorum assumenda quam voluptatibus.",
-    "Deleted": false,
-    "Rank": 789,
-    "Type": "earum",
-    "ColorBlock": 551,
-    "IconHint": "doloribus",
+    "Id": 493,
+    "Name": "Connelly, Pouros and Doyle",
+    "ToolTip": "Eius voluptatibus.",
+    "Deleted": true,
+    "Rank": 485,
+    "Type": "iste",
+    "ColorBlock": 26,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2023-03-14T03:51:34.5521277+01:00",
+    "LastChanged": "2015-05-09T16:00:48.8833485+02:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Legros, Rath and McKenzie",
-        "ToolTip": "Aut voluptas.",
+        "Id": 135,
+        "Name": "Bergnaum, Weimann and Wisozk",
+        "ToolTip": "Quis reprehenderit.",
         "Deleted": false,
-        "Rank": 982,
-        "Type": "molestiae",
-        "ColorBlock": 611,
-        "IconHint": "quis",
+        "Rank": 577,
+        "Type": "velit",
+        "ColorBlock": 721,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "2010-11-05T03:51:34.5521277+01:00",
+        "LastChanged": "2012-05-17T16:00:48.8833485+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Dr. Raymond Andre Rutherford MD"
+        "ExtraInfo": "odio",
+        "StyleHint": "sunt",
+        "Hidden": false,
+        "FullName": "Madelynn Little"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "placeat",
-    "Hidden": true,
-    "FullName": "Edgardo Olaf Thompson I"
+    "ExtraInfo": "ut",
+    "StyleHint": "ullam",
+    "Hidden": false,
+    "FullName": "Jamison Waters"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 297,
-    "Name": "Ratke LLC",
-    "ToolTip": "Aut sit quasi et voluptas aut aut.",
+    "Id": 945,
+    "Name": "Torphy, O'Hara and Roob",
+    "ToolTip": "Magni nesciunt numquam rerum.",
     "Deleted": false,
-    "Rank": 161,
-    "Type": "vero",
-    "ColorBlock": 793,
-    "IconHint": "ullam",
+    "Rank": 119,
+    "Type": "eveniet",
+    "ColorBlock": 63,
+    "IconHint": "earum",
     "Selected": true,
-    "LastChanged": "2007-03-15T03:51:34.5521277+01:00",
+    "LastChanged": "2000-12-17T16:00:48.8833485+01:00",
     "ChildItems": [
       {
-        "Id": 266,
-        "Name": "Koss, Hills and Kutch",
-        "ToolTip": "Libero nemo facere qui amet dolores est quia.",
-        "Deleted": true,
-        "Rank": 294,
-        "Type": "architecto",
-        "ColorBlock": 385,
-        "IconHint": "vero",
-        "Selected": false,
-        "LastChanged": "2009-03-22T03:51:34.5521277+01:00",
+        "Id": 931,
+        "Name": "Farrell, O'Connell and Schuppe",
+        "ToolTip": "Voluptatum fugit sit magnam.",
+        "Deleted": false,
+        "Rank": 72,
+        "Type": "ea",
+        "ColorBlock": 954,
+        "IconHint": "aperiam",
+        "Selected": true,
+        "LastChanged": "2011-10-14T16:00:48.8833485+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "culpa",
+        "ExtraInfo": "sit",
+        "StyleHint": "inventore",
         "Hidden": true,
-        "FullName": "Ofelia Feil III",
+        "FullName": "Maxime Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 348
+            "FieldType": "System.String",
+            "FieldLength": 240
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "quidem",
-    "Hidden": true,
-    "FullName": "Cierra Crist",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "itaque",
+    "Hidden": false,
+    "FullName": "Jacinthe Waters",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldLength": 611
       }
     }
   }

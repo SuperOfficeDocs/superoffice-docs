@@ -1,6 +1,7 @@
 ---
 title: GET List/Category/MDOItems
 uid: v1CategoryList_GetMDOList
+generated: true
 ---
 
 # GET List/Category/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=assumenda
+GET /api/v1/List/Category/MDOItems?flat=True
+GET /api/v1/List/Category/MDOItems?query=et
 ```
 
 
@@ -88,44 +89,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 452,
-    "Name": "Feeney-Kunze",
-    "ToolTip": "Aut pariatur non enim repellendus.",
-    "Deleted": false,
-    "Rank": 341,
-    "Type": "ad",
+    "Id": 761,
+    "Name": "Pfannerstill, Boyer and Borer",
+    "ToolTip": "Vitae modi consectetur dolores esse aut debitis consequatur.",
+    "Deleted": true,
+    "Rank": 241,
+    "Type": "modi",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Dickens, Quigley and Daugherty",
-        "ToolTip": "Doloribus molestias iste voluptatem.",
+        "Id": 127,
+        "Name": "Bode-O'Conner",
+        "ToolTip": "Beatae velit alias.",
         "Deleted": false,
-        "Rank": 786,
-        "Type": "praesentium",
+        "Rank": 293,
+        "Type": "laudantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "adipisci",
-        "ColorBlock": 591,
-        "ExtraInfo": "aut",
-        "StyleHint": "alias",
-        "FullName": "Eldora Kuhn I",
+        "IconHint": "et",
+        "ColorBlock": 395,
+        "ExtraInfo": "ea",
+        "StyleHint": "fugit",
+        "FullName": "Hardy Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 63
+            "FieldLength": 626
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 73,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "animi",
-    "FullName": "Emelie Vesta Haley V",
+    "IconHint": "ut",
+    "ColorBlock": 206,
+    "ExtraInfo": "doloremque",
+    "StyleHint": "sed",
+    "FullName": "Mr. Arielle Betty Larson I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

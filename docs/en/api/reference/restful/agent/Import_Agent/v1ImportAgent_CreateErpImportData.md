@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Import/CreateErpImportData
 uid: v1ImportAgent_CreateErpImportData
+generated: true
 ---
 
 # POST Agents/Import/CreateErpImportData
@@ -82,32 +83,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Lubowitz-Watsica",
-      "Operator": "esse",
+      "Name": "Dickens Group",
+      "Operator": "quas",
       "Values": [
-        "soluta",
-        "expedita"
+        "unde",
+        "sapiente"
       ],
       "DisplayValues": [
-        "iste",
-        "provident"
+        "nam",
+        "sint"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 169,
+      "InterParenthesis": 115,
       "InterOperator": "And",
-      "UniqueHash": 957
+      "UniqueHash": 792
     }
   ],
   "Columns": [
-    "inventore",
-    "quis"
+    "corrupti",
+    "dolorem"
   ],
-  "ConnectionId": 74,
+  "ConnectionId": 987,
   "ErpActorType": "Customer"
 }
 ```
@@ -122,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "repellat",
-        "recusandae"
+        "rerum",
+        "magni"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "molestiae",
+      "ExternalKey": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 439
+          "FieldLength": 162
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Breitenberg Inc and Sons",
-      "DisplayName": "Bode, Jakubowski and Harris",
+      "Name": "Wolf-Rosenbaum",
+      "DisplayName": "Homenick-Welch",
       "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 74
+          "FieldType": "System.Int32",
+          "FieldLength": 944
         }
       }
     },
     {
-      "Name": "Breitenberg Inc and Sons",
-      "DisplayName": "Bode, Jakubowski and Harris",
+      "Name": "Wolf-Rosenbaum",
+      "DisplayName": "Homenick-Welch",
       "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 74
+          "FieldType": "System.Int32",
+          "FieldLength": 944
         }
       }
     }
@@ -172,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 967
     }
   }
 }

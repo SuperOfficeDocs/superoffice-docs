@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/SaveChatPresence
 uid: v1ChatAgent_SaveChatPresence
+generated: true
 ---
 
 # POST Agents/Chat/SaveChatPresence
@@ -63,29 +64,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 528,
-      "DisplayName": "Becker Group",
-      "OngoingChats": 90,
+      "UserId": 779,
+      "DisplayName": "Berge, Streich and Bogan",
+      "OngoingChats": 616,
       "Present": false,
       "ChatTopics": [
-        727,
-        17
+        623,
+        435
       ]
     },
     {
-      "UserId": 528,
-      "DisplayName": "Becker Group",
-      "OngoingChats": 90,
+      "UserId": 779,
+      "DisplayName": "Berge, Streich and Bogan",
+      "OngoingChats": 616,
       "Present": false,
       "ChatTopics": [
-        727,
-        17
+        623,
+        435
       ]
     }
   ]

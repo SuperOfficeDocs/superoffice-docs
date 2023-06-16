@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/GetModuleLicenseFromDB
 uid: v1LicenseAgent_GetModuleLicenseFromDB
+generated: true
 ---
 
 # POST Agents/License/GetModuleLicenseFromDB
@@ -85,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Runolfsson, McGlynn and Runolfsson",
-  "ModuleName": "Kirlin-Quigley"
+  "OwnerName": "Windler Inc and Sons",
+  "ModuleName": "Jacobi-Reilly"
 }
 ```
 
@@ -101,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Zemlak-Kuhic",
-  "ModuleName": "Kuphal, Cummerata and Lubowitz",
-  "ModuleDescription": "Future-proofed web-enabled Graphic Interface",
-  "ModuleTooltip": "adipisci",
-  "ModuleVersion": "eum",
+  "OwnerName": "Koch LLC",
+  "ModuleName": "Bayer, Grant and Spinka",
+  "ModuleDescription": "Multi-lateral bifurcated help-desk",
+  "ModuleTooltip": "reiciendis",
+  "ModuleVersion": "quos",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 471,
-  "ExtraFlags": 595,
-  "ExtraInfo": "provident",
-  "SortOrder": 837,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "VonRueden, Goyette and Roob",
-  "Signature": "repudiandae"
+  "NumberOfLicenses": 711,
+  "ExtraFlags": 748,
+  "ExtraInfo": "temporibus",
+  "SortOrder": 376,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Rutherford, Abbott and Rowe",
+  "Signature": "possimus"
 }
 ```

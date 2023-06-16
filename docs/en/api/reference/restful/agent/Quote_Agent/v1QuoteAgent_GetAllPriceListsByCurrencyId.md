@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetAllPriceListsByCurrencyId
 uid: v1QuoteAgent_GetAllPriceListsByCurrencyId
+generated: true
 ---
 
 # POST Agents/Quote/GetAllPriceListsByCurrencyId
@@ -84,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 725,
-  "CurrencyId": 783
+  "QuoteConnectionId": 935,
+  "CurrencyId": 8
 }
 ```
 
@@ -101,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 426,
-    "ERPPriceListKey": "deleniti",
-    "QuoteConnectionId": 945,
-    "Name": "Schuster, Franecki and O'Kon",
-    "Description": "Proactive mobile hub",
-    "Currency": "sunt",
-    "CurrencyName": "Williamson Group",
-    "ValidFrom": "2000-07-01T03:51:28.0215395+02:00",
-    "ValidTo": "2012-01-04T03:51:28.0215395+01:00",
-    "IsActive": false,
+    "PriceListId": 576,
+    "ERPPriceListKey": "quae",
+    "QuoteConnectionId": 369,
+    "Name": "Bartell Inc and Sons",
+    "Description": "Focused object-oriented superstructure",
+    "Currency": "inventore",
+    "CurrencyName": "Carroll Group",
+    "ValidFrom": "1997-12-22T16:00:41.6488224+01:00",
+    "ValidTo": "1996-10-07T16:00:41.6488224+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 65
+        "FieldLength": 835
       }
     }
   }

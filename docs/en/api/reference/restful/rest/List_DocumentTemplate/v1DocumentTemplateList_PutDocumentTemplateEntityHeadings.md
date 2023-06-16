@@ -1,6 +1,7 @@
 ---
 title: PUT List/DocumentTemplate/Headings
 uid: v1DocumentTemplateList_PutDocumentTemplateEntityHeadings
+generated: true
 ---
 
 # PUT List/DocumentTemplate/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 743,
-    "Name": "Schuster, Spencer and Howe",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 674,
-    "UdListDefinitionId": 684
+    "HeadingId": 438,
+    "Name": "Raynor Group",
+    "Tooltip": "doloribus",
+    "Deleted": true,
+    "Rank": 359,
+    "UdListDefinitionId": 188
   },
   {
-    "HeadingId": 743,
-    "Name": "Schuster, Spencer and Howe",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 674,
-    "UdListDefinitionId": 684
+    "HeadingId": 438,
+    "Name": "Raynor Group",
+    "Tooltip": "doloribus",
+    "Deleted": true,
+    "Rank": 359,
+    "UdListDefinitionId": 188
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 94,
-    "Name": "Homenick, Toy and Klocko",
-    "Tooltip": "in",
+    "HeadingId": 307,
+    "Name": "Jacobs-Johnston",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 297,
-    "UdListDefinitionId": 643,
+    "Rank": 787,
+    "UdListDefinitionId": 777,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldLength": 321
       }
     }
   }

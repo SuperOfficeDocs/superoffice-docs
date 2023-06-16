@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/GetRestrictionGroup
 uid: v1FindAgent_GetRestrictionGroup
+generated: true
 ---
 
 # POST Agents/Find/GetRestrictionGroup
@@ -77,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "omnis",
-  "ProviderName": "Corwin, Wyman and Kassulke",
-  "StorageKey": "optio",
-  "Rank": 340,
-  "Context": "culpa"
+  "StorageType": "eum",
+  "ProviderName": "Bartoletti-Bednar",
+  "StorageKey": "aut",
+  "Rank": 429,
+  "Context": "voluptatibus"
 }
 ```
 
@@ -96,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Monahan, Legros and Dibbert",
-  "Description": "Optional mobile contingency",
-  "Rank": 873,
+  "Name": "Lemke Group",
+  "Description": "Total full-range Graphic Interface",
+  "Rank": 571,
   "Restrictions": [
     {
-      "Name": "Thiel, Jerde and Wehner",
-      "Operator": "atque",
+      "Name": "Hahn LLC",
+      "Operator": "dolore",
       "Values": [
-        "praesentium",
-        "quia"
+        "omnis",
+        "facere"
       ],
       "DisplayValues": [
-        "quo",
-        "non"
+        "alias",
+        "nihil"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -117,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 917,
+      "InterParenthesis": 991,
       "InterOperator": "And",
-      "UniqueHash": 311
+      "UniqueHash": 354
     }
   ]
 }

@@ -1,6 +1,7 @@
 ---
 title: GET List/Source/Items/{id}/Headings
 uid: v1SourceList_GetSourceHeadingsForListItem
+generated: true
 ---
 
 # GET List/Source/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 916,
-    "Name": "O'Conner Inc and Sons",
-    "ToolTip": "Rem quo adipisci blanditiis omnis quia.",
+    "Id": 109,
+    "Name": "Nienow Group",
+    "ToolTip": "Consectetur nostrum autem maiores et.",
     "Deleted": false,
-    "Rank": 816,
-    "Type": "illum",
-    "ColorBlock": 358,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "2022-04-07T03:51:34.9738936+02:00",
+    "Rank": 711,
+    "Type": "soluta",
+    "ColorBlock": 428,
+    "IconHint": "sapiente",
+    "Selected": false,
+    "LastChanged": "1997-11-18T16:00:49.3527243+01:00",
     "ChildItems": [
       {
-        "Id": 423,
-        "Name": "Cole Group",
-        "ToolTip": "Omnis voluptas aliquid.",
-        "Deleted": false,
-        "Rank": 434,
-        "Type": "occaecati",
-        "ColorBlock": 437,
-        "IconHint": "nemo",
-        "Selected": false,
-        "LastChanged": "2013-12-07T03:51:34.9738936+01:00",
+        "Id": 742,
+        "Name": "Rippin-Schamberger",
+        "ToolTip": "Quod tenetur quibusdam rerum qui adipisci libero.",
+        "Deleted": true,
+        "Rank": 827,
+        "Type": "id",
+        "ColorBlock": 190,
+        "IconHint": "dolorem",
+        "Selected": true,
+        "LastChanged": "2008-06-23T16:00:49.3527243+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "voluptates",
-        "Hidden": true,
-        "FullName": "Jacquelyn Walter",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Miss Giovani Nader",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 599
+            "FieldLength": 728
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "non",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Greta Lueilwitz",
+    "FullName": "Imelda Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 34
+        "FieldType": "System.Int32",
+        "FieldLength": 671
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SaveQuoteLineConfigurations
 uid: v1QuoteAgent_SaveQuoteLineConfigurations
+generated: true
 ---
 
 # POST Agents/Quote/SaveQuoteLineConfigurations
@@ -82,21 +83,21 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 864,
-      "FieldName": "Dickinson Inc and Sons",
-      "Label": "porro",
-      "Tooltip": "non",
+      "QuoteLineConfigurationId": 43,
+      "FieldName": "Altenwerth LLC",
+      "Label": "distinctio",
+      "Tooltip": "nisi",
       "Editable": false,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 962,
-      "RestrictEdit": true
+      "Rank": 314,
+      "RestrictEdit": false
     }
   ]
 }
@@ -110,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 364,
-    "FieldName": "Willms, Pacocha and Kunze",
-    "Label": "iusto",
-    "Tooltip": "temporibus",
+    "QuoteLineConfigurationId": 935,
+    "FieldName": "Heathcote-Cummings",
+    "Label": "est",
+    "Tooltip": "cumque",
     "Editable": false,
-    "InUse": false,
-    "Mandatory": true,
-    "Rank": 532,
+    "InUse": true,
+    "Mandatory": false,
+    "Rank": 926,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 673
+        "FieldLength": 840
       }
     }
   }

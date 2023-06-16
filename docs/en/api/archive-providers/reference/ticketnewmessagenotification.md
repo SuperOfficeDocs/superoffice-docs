@@ -2,17 +2,10 @@
 uid: TicketNewMessageNotification
 title: TicketNewMessageNotification
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "TicketNewMessageNotification"
+keywords: TicketNewMessageNotification archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "TicketNewMessageNotification"
@@ -42,7 +35,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketNewMessageNotification?$select=associateId,notifyDateTime
+GET /api/v1/archive/TicketNewMessageNotification?$select=category,associateId,notifyDateTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

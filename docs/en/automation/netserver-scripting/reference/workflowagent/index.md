@@ -3,13 +3,9 @@ uid: workflowagent-script-events
 title: WorkflowAgent script event methods
 description: NetServer script event methods.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 
 # WorkflowAgent method listing
@@ -17,12 +13,14 @@ so.envir:
 Service methods defined on <see cref='T:SuperOffice.CRM.Services.IWorkflowAgent'>WorkflowAgent</see> that can trigger server-side event scripts.
 
 * [AddAfterWorkflowStep](addafterworkflowstep.md)
+* [ConnectEmailFlowContent](connectemailflowcontent.md)
 * [CreateDefaultEmailFlow](createdefaultemailflow.md)
 * [CreateDefaultWorkflowFilter](createdefaultworkflowfilter.md)
 * [CreateDefaultWorkflowGoal](createdefaultworkflowgoal.md)
 * [CreateDefaultWorkflowStepFromType](createdefaultworkflowstepfromtype.md)
 * [CreateDefaultWorkflowStepOption](createdefaultworkflowstepoption.md)
 * [CreateDefaultWorkflowTrigger](createdefaultworkflowtrigger.md)
+* [CreateEmailFlowContent](createemailflowcontent.md)
 * [DeleteEmailFlow](deleteemailflow.md)
 * [DeleteWorkflowGoal](deleteworkflowgoal.md)
 * [DeleteWorkflowStepOption](deleteworkflowstepoption.md)

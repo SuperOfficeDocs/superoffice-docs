@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuoteLine
 uid: v1QuoteAgent_GetQuoteLine
+generated: true
 ---
 
 # POST Agents/Quote/GetQuoteLine
@@ -120,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 697
+  "QuoteLineId": 503
 }
 ```
 
@@ -135,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 852,
-  "ERPQuoteLineKey": "rem",
-  "QuoteAlternativeId": 827,
-  "ERPProductKey": "eveniet",
+  "QuoteLineId": 174,
+  "ERPQuoteLineKey": "modi",
+  "QuoteAlternativeId": 671,
+  "ERPProductKey": "ut",
   "Status": "Error",
-  "Reason": "architect rich partnerships",
-  "Quantity": 29092.922,
-  "DeliveredQuantity": 28904.881999999998,
-  "Rank": 737,
-  "Name": "Welch, Hauck and Stehr",
-  "Description": "Robust solution-oriented analyzer",
-  "Code": "natus",
-  "QuantityUnit": "eos",
-  "PriceUnit": "error",
-  "ItemNumber": "129262",
+  "Reason": "",
+  "Quantity": 2522.87,
+  "DeliveredQuantity": 27692.023999999998,
+  "Rank": 547,
+  "Name": "Cruickshank-Donnelly",
+  "Description": "Fundamental web-enabled hierarchy",
+  "Code": "fuga",
+  "QuantityUnit": "saepe",
+  "PriceUnit": "doloremque",
+  "ItemNumber": "1431926",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nihil",
-  "ProductTypeKey": "laudantium",
-  "Supplier": "esse",
-  "SupplierCode": "iste",
-  "Thumbnail": "odio",
-  "VATInfo": "est",
-  "VAT": 16450.365999999998,
-  "UnitCost": 12824.328,
-  "UnitMinimumPrice": 15569.712,
-  "UnitListPrice": 2457.056,
+  "ProductFamilyKey": "porro",
+  "ProductTypeKey": "provident",
+  "Supplier": "consectetur",
+  "SupplierCode": "sunt",
+  "Thumbnail": "facilis",
+  "VATInfo": "alias",
+  "VAT": 21771.898,
+  "UnitCost": 9016.518,
+  "UnitMinimumPrice": 3347.112,
+  "UnitListPrice": 8649.84,
   "ExtraInfo": [
     {
-      "Name": "Hilll-Walter",
-      "Value": "enim",
+      "Name": "Ryan Inc and Sons",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 865
+          "FieldType": "System.String",
+          "FieldLength": 565
         }
       }
     },
     {
-      "Name": "Hilll-Walter",
-      "Value": "enim",
+      "Name": "Ryan Inc and Sons",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 865
+          "FieldType": "System.String",
+          "FieldLength": 565
         }
       }
     }
   ],
-  "RawExtraInfo": "ipsum",
-  "IsSubscription": true,
-  "SubscriptionUnit": "vero",
-  "SubscriptionQuantity": 5531.51,
-  "SubscriptionStart": "1998-07-19T03:51:28.0371601+02:00",
-  "ERPDiscountPercent": 20587.246,
-  "ERPDiscountAmount": 13861.681999999999,
-  "DiscountPercent": 18910.556,
-  "DiscountAmount": 9367.526,
+  "RawExtraInfo": "est",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ratione",
+  "SubscriptionQuantity": 28698.038,
+  "SubscriptionStart": "2009-08-21T16:00:41.6800689+02:00",
+  "ERPDiscountPercent": 27701.426,
+  "ERPDiscountAmount": 23943.76,
+  "DiscountPercent": 11686.686,
+  "DiscountAmount": 6669.152,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 23868.543999999998,
-  "EarningAmount": 22169.916,
-  "SubTotal": 9815.688,
-  "TotalPrice": 26501.104,
-  "Rights": "id",
-  "Rule": "fugiat",
-  "ExtraField1": "voluptas",
-  "ExtraField2": "similique",
-  "ExtraField3": "saepe",
-  "ExtraField4": "reiciendis",
-  "ExtraField5": "molestiae",
+  "EarningPercent": 17102.238,
+  "EarningAmount": 11435.966,
+  "SubTotal": 23787.059999999998,
+  "TotalPrice": 20543.37,
+  "Rights": "sit",
+  "Rule": "numquam",
+  "ExtraField1": "delectus",
+  "ExtraField2": "odit",
+  "ExtraField3": "minima",
+  "ExtraField4": "dignissimos",
+  "ExtraField5": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldLength": 88
     }
   }
 }

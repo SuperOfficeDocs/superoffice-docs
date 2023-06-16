@@ -1,6 +1,7 @@
 ---
 title: DEL ShipmentMessageBlock/{id}
 uid: v1ShipmentMessageBlockEntity_DeleteShipmentMessageBlockEntity
+generated: true
 ---
 
 # DEL ShipmentMessageBlock/{id}
@@ -51,7 +52,7 @@ ShipmentMessageBlockEntity deleted.
 DELETE /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

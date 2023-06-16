@@ -1,6 +1,7 @@
 ---
 title: PUT List/Category/Headings
 uid: v1CategoryList_PutCategoryHeadings
+generated: true
 ---
 
 # PUT List/Category/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 185,
-    "Name": "Waelchi LLC",
-    "Tooltip": "eos",
+    "HeadingId": 20,
+    "Name": "Dickinson LLC",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "Rank": 214,
-    "UdListDefinitionId": 497
+    "Rank": 204,
+    "UdListDefinitionId": 291
   },
   {
-    "HeadingId": 185,
-    "Name": "Waelchi LLC",
-    "Tooltip": "eos",
+    "HeadingId": 20,
+    "Name": "Dickinson LLC",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "Rank": 214,
-    "UdListDefinitionId": 497
+    "Rank": 204,
+    "UdListDefinitionId": 291
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 290,
-    "Name": "Davis LLC",
-    "Tooltip": "qui",
+    "HeadingId": 151,
+    "Name": "Rohan, Feil and Emard",
+    "Tooltip": "molestiae",
     "Deleted": true,
-    "Rank": 941,
-    "UdListDefinitionId": 496,
+    "Rank": 640,
+    "UdListDefinitionId": 236,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 686
+        "FieldLength": 658
       }
     }
   }

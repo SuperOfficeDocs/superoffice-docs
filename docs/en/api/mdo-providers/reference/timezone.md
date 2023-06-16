@@ -1,17 +1,12 @@
 ---
 uid: timezone
 title: timezone
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "timezone"
+keywords: mdoprovider mdo provider timezone
+description: Provides the timezone list.
+If no search value is passed in the list is restricted to 'available' timezones
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "timezone" MDO List

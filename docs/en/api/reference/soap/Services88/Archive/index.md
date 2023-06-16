@@ -1,7 +1,7 @@
 ---
 title: Services88.ArchiveAgent SOAP
 uid: Services88-Archive-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Archive SOAP

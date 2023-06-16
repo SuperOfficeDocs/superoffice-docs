@@ -1,6 +1,7 @@
 ---
 title: PUT Project/{id}/Image
 uid: v1ProjectEntity_SaveImage
+generated: true
 ---
 
 # PUT Project/{id}/Image
@@ -61,7 +62,7 @@ The blob id for the image
 PUT /api/v1/Project/{projectId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,5 +71,5 @@ Accept-Language: *
 HTTP/1.1 200 The blob id for the image
 Content-Type: application/json; charset=utf-8
 
-429
+797
 ```

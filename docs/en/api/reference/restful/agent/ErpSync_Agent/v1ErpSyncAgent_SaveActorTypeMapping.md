@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/SaveActorTypeMapping
 uid: v1ErpSyncAgent_SaveActorTypeMapping
+generated: true
 ---
 
 # POST Agents/ErpSync/SaveActorTypeMapping
@@ -78,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 773,
-  "IsActive": true,
+  "ErpConnectionId": 547,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 885,
-      "CrmFieldKey": "dolorum",
-      "CrmDisplayName": "McCullough, Hilll and Medhurst",
-      "CrmDisplayTooltip": "necessitatibus",
-      "ErpFieldKey": "aut",
+      "ErpFieldId": 291,
+      "CrmFieldKey": "rerum",
+      "CrmDisplayName": "Ledner-Beer",
+      "CrmDisplayTooltip": "atque",
+      "ErpFieldKey": "amet",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Corwin-Prosacco",
-      "ErpDisplayTooltip": "distinctio",
+      "ErpDisplayName": "Beatty Inc and Sons",
+      "ErpDisplayTooltip": "culpa",
       "SyncToCrm": false,
       "SyncToErp": false,
-      "ShowInGui": false,
+      "ShowInGui": true,
       "ShowInSearch": false,
       "AlreadyMapped": false,
-      "MissingInERP": false,
+      "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "adipisci",
+      "ListReference": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldLength": 612
         }
       }
     }
@@ -130,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 307
+      "FieldType": "System.Int32",
+      "FieldLength": 773
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET String/{sr_id}
 uid: v1String_GetStrings_GET
+generated: true
 ---
 
 # GET String/{sr_id}
@@ -29,8 +30,8 @@ Gets the value of the string(s) with a given name in all known languages.
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-GET /api/v1/String/{sr_id}?isoLangCode=libero
-GET /api/v1/String/{sr_id}?ignoreOverrides=True
+GET /api/v1/String/{sr_id}?isoLangCode=omnis
+GET /api/v1/String/{sr_id}?ignoreOverrides=False
 ```
 
 
@@ -65,7 +66,7 @@ OK
 GET /api/v1/String/{sr_id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

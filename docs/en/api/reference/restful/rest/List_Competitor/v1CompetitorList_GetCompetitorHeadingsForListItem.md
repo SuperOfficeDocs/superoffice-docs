@@ -1,6 +1,7 @@
 ---
 title: GET List/Competitor/Items/{id}/Headings
 uid: v1CompetitorList_GetCompetitorHeadingsForListItem
+generated: true
 ---
 
 # GET List/Competitor/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Skiles LLC",
-    "ToolTip": "Amet consequatur.",
+    "Id": 249,
+    "Name": "Bernhard Inc and Sons",
+    "ToolTip": "Totam occaecati amet deserunt alias.",
     "Deleted": false,
-    "Rank": 113,
-    "Type": "neque",
+    "Rank": 942,
+    "Type": "vero",
     "ColorBlock": 835,
-    "IconHint": "ut",
+    "IconHint": "delectus",
     "Selected": false,
-    "LastChanged": "1996-09-27T03:51:34.5833707+02:00",
+    "LastChanged": "2022-07-08T16:00:48.8989756+02:00",
     "ChildItems": [
       {
-        "Id": 748,
-        "Name": "Pouros, Emard and Mante",
-        "ToolTip": "Accusamus ipsam.",
+        "Id": 558,
+        "Name": "Bogisich LLC",
+        "ToolTip": "Soluta et asperiores ut enim unde.",
         "Deleted": false,
-        "Rank": 867,
-        "Type": "ipsum",
-        "ColorBlock": 573,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "1998-09-17T03:51:34.5833707+02:00",
+        "Rank": 733,
+        "Type": "sit",
+        "ColorBlock": 694,
+        "IconHint": "odio",
+        "Selected": true,
+        "LastChanged": "2006-07-07T16:00:48.8989756+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "maxime",
-        "Hidden": false,
-        "FullName": "Janick Alicia Rosenbaum DDS",
+        "ExtraInfo": "quos",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Ms. Elza Pfeffer MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 872
+            "FieldLength": 825
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "molestias",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Meagan Koelpin",
+    "FullName": "Modesta Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 505
+        "FieldType": "System.Int32",
+        "FieldLength": 185
       }
     }
   }

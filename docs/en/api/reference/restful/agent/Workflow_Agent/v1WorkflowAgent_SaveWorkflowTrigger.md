@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/SaveWorkflowTrigger
 uid: v1WorkflowAgent_SaveWorkflowTrigger
+generated: true
 ---
 
 # POST Agents/Workflow/SaveWorkflowTrigger
@@ -72,23 +73,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 152,
-  "WorkflowId": 743,
+  "WorkflowTriggerId": 116,
+  "WorkflowId": 624,
   "TriggerType": "AddToList",
   "RestrictionGroups": [
     {
-      "Name": "Greenfelder, Labadie and Kassulke",
-      "Description": "Centralized fresh-thinking secured line",
-      "Rank": 156,
+      "Name": "Corwin-Strosin",
+      "Description": "Diverse user-facing function",
+      "Rank": 144,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Greenfelder, Labadie and Kassulke",
-      "Description": "Centralized fresh-thinking secured line",
-      "Rank": 156,
+      "Name": "Corwin-Strosin",
+      "Description": "Diverse user-facing function",
+      "Rank": 144,
       "Restrictions": [
         {},
         {}
@@ -105,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 83,
-  "WorkflowId": 119,
+  "WorkflowTriggerId": 662,
+  "WorkflowId": 921,
   "TriggerType": "AddToList",
   "RestrictionGroups": [
     {
-      "Name": "Gaylord Inc and Sons",
-      "Description": "Focused dynamic installation",
-      "Rank": 945,
+      "Name": "Jewess Group",
+      "Description": "Reduced national product",
+      "Rank": 241,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gaylord Inc and Sons",
-      "Description": "Focused dynamic installation",
-      "Rank": 945,
+      "Name": "Jewess Group",
+      "Description": "Reduced national product",
+      "Rank": 241,
       "Restrictions": [
         {},
         {}
@@ -133,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldLength": 188
     }
   }
 }

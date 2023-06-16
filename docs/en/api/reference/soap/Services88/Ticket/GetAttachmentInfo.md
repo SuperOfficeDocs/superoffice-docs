@@ -1,6 +1,6 @@
 ---
 title: Services88.TicketAgent.GetAttachmentInfo SOAP
-generated: 1
+generated: true
 uid: Services88-Ticket-GetAttachmentInfo
 ---
 

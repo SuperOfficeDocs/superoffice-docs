@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/DeleteTicketMessageEntity
 uid: v1TicketAgent_DeleteTicketMessageEntity
+generated: true
 ---
 
 # POST Agents/Ticket/DeleteTicketMessageEntity
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/Ticket/DeleteTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 269
+  "TicketMessageEntityId": 478
 }
 ```
 

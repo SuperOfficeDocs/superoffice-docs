@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetLocalizedTextList
 uid: v1ListAgent_GetLocalizedTextList
+generated: true
 ---
 
 # POST Agents/List/GetLocalizedTextList
@@ -74,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 276,
-    "ResourceId": 546,
-    "Text": "repellat",
+    "LanguageId": 149,
+    "ResourceId": 524,
+    "Text": "est",
     "Type": "Column",
-    "LocalizedTextId": 206,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 136,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldLength": 469
       }
     }
   }

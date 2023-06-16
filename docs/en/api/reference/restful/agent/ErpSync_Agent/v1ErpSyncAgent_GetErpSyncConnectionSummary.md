@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetErpSyncConnectionSummary
 uid: v1ErpSyncAgent_GetErpSyncConnectionSummary
+generated: true
 ---
 
 # POST Agents/ErpSync/GetErpSyncConnectionSummary
@@ -83,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 717
+  "ErpSyncConnectionId": 787
 }
 ```
 
@@ -94,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Koch, Bergstrom and Gleason",
-  "DisplayDescription": "Front-line 4th generation workforce",
+  "DisplayName": "Hilll-Turcotte",
+  "DisplayDescription": "Synergistic composite benchmark",
   "Active": false,
-  "Deleted": true,
-  "LastSync": "2006-01-20T03:51:27.287336+01:00",
+  "Deleted": false,
+  "LastSync": "2013-09-08T16:00:40.9924727+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "et",
-      "Mappings": "quia",
+      "Defaults": "mollitia",
+      "Mappings": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 462
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "et",
-      "Mappings": "quia",
+      "Defaults": "mollitia",
+      "Mappings": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 462
         }
       }
     }
@@ -134,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 677
+      "FieldLength": 107
     }
   }
 }

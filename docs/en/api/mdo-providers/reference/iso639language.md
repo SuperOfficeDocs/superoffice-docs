@@ -1,17 +1,11 @@
 ---
 uid: iso639language
 title: iso639language
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "iso639language"
+keywords: mdoprovider mdo provider iso639language
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "iso639language" MDO List

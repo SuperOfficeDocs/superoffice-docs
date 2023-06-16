@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/ToggleErpConnectionActive
 uid: v1ErpSyncAgent_ToggleErpConnectionActive
+generated: true
 ---
 
 # POST Agents/ErpSync/ToggleErpConnectionActive
@@ -73,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 559
+  "ErpConnectionId": 361
 }
 ```
 
@@ -84,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "aut",
-  "enim"
+  "id",
+  "consequatur"
 ]
 ```

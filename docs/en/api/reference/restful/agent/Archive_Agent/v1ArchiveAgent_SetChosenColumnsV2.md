@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/SetChosenColumnsV2
 uid: v1ArchiveAgent_SetChosenColumnsV2
+generated: true
 ---
 
 # POST Agents/Archive/SetChosenColumnsV2
@@ -73,13 +74,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hamill, Lynch and Tremblay",
-  "ProviderName": "Lehner LLC",
-  "Context": "ipsum",
-  "OwnerKeys": "eos",
+  "GuiName": "Nicolas-Spencer",
+  "ProviderName": "Franecki LLC",
+  "Context": "vel",
+  "OwnerKeys": "aut",
   "ChosenColumns": [
-    "modi",
-    "doloribus"
+    "dolorum",
+    "eos"
   ]
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/GetChatTopicUserAgentList
 uid: v1ChatAgent_GetChatTopicUserAgentList
+generated: true
 ---
 
 # POST Agents/Chat/GetChatTopicUserAgentList
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 803
+  "ChatTopicId": 261
 }
 ```
 
@@ -91,19 +92,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 654,
+    "TopicId": 41,
     "User": null,
     "CanListen": false,
     "CanRespond": false,
-    "CanManage": false,
+    "CanManage": true,
     "CanNotify": true
   },
   {
-    "TopicId": 654,
+    "TopicId": 41,
     "User": null,
     "CanListen": false,
     "CanRespond": false,
-    "CanManage": false,
+    "CanManage": true,
     "CanNotify": true
   }
 ]

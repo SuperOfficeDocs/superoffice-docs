@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/GetTriggerScriptByUniqueId
 uid: v1CRMScriptAgent_GetTriggerScriptByUniqueId
+generated: true
 ---
 
 # POST Agents/CRMScript/GetTriggerScriptByUniqueId
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "tempora"
+  "TriggerScriptUniqueId": "deserunt"
 }
 ```
 
@@ -98,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 920,
-  "Name": "Bayer-Conroy",
+  "ScreenChooserId": 34,
+  "Name": "Spinka Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "pariatur",
-  "Source": "ad",
-  "Registered": "2006-04-16T03:51:26.9436626+02:00",
-  "RegisteredAssociateId": 218,
-  "Updated": "2014-08-13T03:51:26.9436626+02:00",
-  "UpdatedAssociateId": 400,
+  "Enabled": true,
+  "UniqueIdentifier": "tenetur",
+  "Source": "et",
+  "Registered": "2009-01-16T16:00:40.4925031+01:00",
+  "RegisteredAssociateId": 701,
+  "Updated": "2020-04-24T16:00:40.4925031+02:00",
+  "UpdatedAssociateId": 692,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldType": "System.Int32",
+      "FieldLength": 140
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/DeleteQuote
 uid: v1QuoteAgent_DeleteQuote
+generated: true
 ---
 
 # POST Agents/Quote/DeleteQuote
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/Quote/DeleteQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 401
+  "QuoteId": 489
 }
 ```
 

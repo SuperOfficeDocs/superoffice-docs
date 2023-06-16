@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Replication/GetSatellite
 uid: v1ReplicationAgent_GetSatellite
+generated: true
 ---
 
 # POST Agents/Replication/GetSatellite
@@ -27,7 +28,7 @@ Gets a Satellite object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetSatellite?satelliteId=52
+POST /api/v1/Agents/Replication/GetSatellite?satelliteId=222
 POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 ```
 
@@ -75,7 +76,7 @@ OK
 POST /api/v1/Agents/Replication/GetSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,17 +86,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 746,
-  "Created": "2013-09-13T03:51:28.0527796+02:00",
+  "SatelliteId": 715,
+  "Created": "2022-11-25T16:00:41.6956884+01:00",
   "CreatedBy": null,
-  "Updated": "2012-09-26T03:51:28.0527796+02:00",
+  "Updated": "1999-08-03T16:00:41.6956884+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Ritchie, Walker and Koepp",
-      "Description": "Diverse encompassing capability",
+      "Name": "Carroll-Steuber",
+      "Description": "Devolved radical framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -108,14 +109,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 823
+          "FieldType": "System.Int32",
+          "FieldLength": 717
         }
       }
     },
     {
-      "Name": "Ritchie, Walker and Koepp",
-      "Description": "Diverse encompassing capability",
+      "Name": "Carroll-Steuber",
+      "Description": "Devolved radical framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -128,8 +129,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 823
+          "FieldType": "System.Int32",
+          "FieldLength": 717
         }
       }
     }
@@ -139,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 791
     }
   }
 }

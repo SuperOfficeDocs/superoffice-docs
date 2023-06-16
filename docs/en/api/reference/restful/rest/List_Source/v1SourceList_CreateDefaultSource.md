@@ -1,6 +1,7 @@
 ---
 title: GET List/Source/Items/Default
 uid: v1SourceList_CreateDefaultSource
+generated: true
 ---
 
 # GET List/Source/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
-  "Name": "Yost-DuBuque",
-  "Tooltip": "ut",
+  "Id": 95,
+  "Name": "Jakubowski, Anderson and Koss",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 960,
-  "Rank": 501,
+  "UdListDefinitionId": 258,
+  "Rank": 497,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldType": "System.String",
+      "FieldLength": 686
     }
   }
 }

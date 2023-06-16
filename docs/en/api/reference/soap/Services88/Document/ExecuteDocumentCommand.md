@@ -1,6 +1,6 @@
 ---
 title: Services88.DocumentAgent.ExecuteDocumentCommand SOAP
-generated: 1
+generated: true
 uid: Services88-Document-ExecuteDocumentCommand
 ---
 

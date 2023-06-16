@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/DeleteSaleStakeholder
 uid: v1SaleAgent_DeleteSaleStakeholder
+generated: true
 ---
 
 # POST Agents/Sale/DeleteSaleStakeholder
@@ -24,7 +25,7 @@ Deletes the SaleStakeholder
 | SaleStakeholderId | int32 | **Required** The id of the SaleStakeholder to be deleted. |
 
 ```http
-POST /api/v1/Agents/Sale/DeleteSaleStakeholder?SaleStakeholderId=157
+POST /api/v1/Agents/Sale/DeleteSaleStakeholder?SaleStakeholderId=5
 ```
 
 
@@ -55,7 +56,7 @@ No Content
 POST /api/v1/Agents/Sale/DeleteSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

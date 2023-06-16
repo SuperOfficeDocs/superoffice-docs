@@ -1,6 +1,7 @@
 ---
 title: DEL Webhook/{id}
 uid: v1Webhook_DeleteWebhook
+generated: true
 ---
 
 # DEL Webhook/{id}
@@ -51,7 +52,7 @@ Webhook deleted.
 DELETE /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

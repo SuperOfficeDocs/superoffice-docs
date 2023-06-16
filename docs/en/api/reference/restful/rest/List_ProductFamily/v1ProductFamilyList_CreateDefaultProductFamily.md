@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductFamily/Items/Default
 uid: v1ProductFamilyList_CreateDefaultProductFamily
+generated: true
 ---
 
 # GET List/ProductFamily/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 892,
-  "Name": "Stehr Group",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 145,
-  "Rank": 720,
+  "Id": 688,
+  "Name": "Bayer Inc and Sons",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "UdListDefinitionId": 915,
+  "Rank": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldLength": 270
     }
   }
 }

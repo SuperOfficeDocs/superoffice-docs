@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Navigator/GetNavigatorCompany
 uid: v1NavigatorAgent_GetNavigatorCompany
+generated: true
 ---
 
 # POST Agents/Navigator/GetNavigatorCompany
@@ -25,7 +26,7 @@ Gets a NavigatorCompany object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Navigator/GetNavigatorCompany?navigatorCompanyId=52
+POST /api/v1/Agents/Navigator/GetNavigatorCompany?navigatorCompanyId=675
 POST /api/v1/Agents/Navigator/GetNavigatorCompany?$select=name,department,category/id
 ```
 
@@ -78,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Value": "qui",
-  "Tooltip": "et",
+  "Id": 44,
+  "Value": "ab",
+  "Tooltip": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldLength": 856
     }
   }
 }

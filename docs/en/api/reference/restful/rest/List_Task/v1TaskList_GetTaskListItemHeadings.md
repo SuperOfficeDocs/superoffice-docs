@@ -1,6 +1,7 @@
 ---
 title: GET List/Task/Headings
 uid: v1TaskList_GetTaskListItemHeadings
+generated: true
 ---
 
 # GET List/Task/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 497,
-    "Name": "Sipes LLC",
-    "Tooltip": "aspernatur",
+    "HeadingId": 988,
+    "Name": "O'Connell, Goldner and Schowalter",
+    "Tooltip": "a",
     "Deleted": true,
-    "Rank": 295,
-    "UdListDefinitionId": 54,
+    "Rank": 330,
+    "UdListDefinitionId": 293,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldLength": 447
       }
     }
   }

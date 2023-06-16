@@ -1,6 +1,7 @@
 ---
 title: GET ChatSession
 uid: v1ChatSessionEntity_GetAll
+generated: true
 ---
 
 # GET ChatSession
@@ -69,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=ducimus
-GET /api/v1/ChatSession?$top=997
-GET /api/v1/ChatSession?$skip=434
+GET /api/v1/ChatSession?$entities=qui
+GET /api/v1/ChatSession?$top=708
+GET /api/v1/ChatSession?$skip=896
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=quo
+GET /api/v1/ChatSession?$context=voluptas
 GET /api/v1/ChatSession?$format=JSON
-GET /api/v1/ChatSession?$jsonSafe=False
+GET /api/v1/ChatSession?$jsonSafe=True
 GET /api/v1/ChatSession?$output=Display
 ```
 
@@ -117,7 +118,7 @@ OK
 GET /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -128,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ratione",
+  "odata.nextLink": "corrupti",
   "value": [
     {
-      "PrimaryKey": 6281,
+      "PrimaryKey": 9749,
       "EntityName": "sale",
-      "saleId": 6281,
-      "contactId": 1356,
-      "name": "Kuhn, Borer and Oberbrunner"
+      "saleId": 9749,
+      "contactId": 2668,
+      "name": "Ritchie-Rutherford"
     },
     {
-      "PrimaryKey": 58,
+      "PrimaryKey": 2956,
       "EntityName": "sale",
-      "saleId": 58,
-      "contactId": 4117,
-      "name": "Schimmel Inc and Sons"
+      "saleId": 2956,
+      "contactId": 4736,
+      "name": "Connelly LLC"
     }
   ]
 }

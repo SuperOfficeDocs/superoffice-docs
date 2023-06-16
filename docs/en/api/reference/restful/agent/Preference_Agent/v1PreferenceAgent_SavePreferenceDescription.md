@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/SavePreferenceDescription
 uid: v1PreferenceAgent_SavePreferenceDescription
+generated: true
 ---
 
 # POST Agents/Preference/SavePreferenceDescription
@@ -100,24 +101,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 806,
-  "Section": "deserunt",
-  "Key": "esse",
-  "Name": "Abbott, Kutch and Rau",
+  "PrefDescId": 426,
+  "Section": "ab",
+  "Key": "culpa",
+  "Name": "Brakus-Schaefer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Distributed 5th generation installation",
+  "Description": "Programmable user-facing architecture",
   "IsBuiltin": false,
-  "TableName": "Sanford-Heathcote",
-  "UserDefinedListId": 146,
-  "Rank": 709,
-  "SubGroup": "consequatur",
-  "MinLevel": 181,
-  "MaxValue": 203,
-  "MinValue": 738,
-  "RequiredLicense": "eos"
+  "TableName": "Dickens-Morissette",
+  "UserDefinedListId": 940,
+  "Rank": 86,
+  "SubGroup": "suscipit",
+  "MinLevel": 843,
+  "MaxValue": 975,
+  "MinValue": 117,
+  "RequiredLicense": "voluptas"
 }
 ```
 
@@ -128,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 73,
-  "Section": "praesentium",
-  "Key": "fugit",
-  "Name": "Goldner, Bahringer and Thompson",
+  "PrefDescId": 727,
+  "Section": "necessitatibus",
+  "Key": "quibusdam",
+  "Name": "Oberbrunner-Weimann",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Public-key background intranet",
+  "Description": "Virtual attitude-oriented Graphic Interface",
   "IsBuiltin": false,
-  "TableName": "Wehner, Turner and Russel",
-  "UserDefinedListId": 927,
-  "Rank": 377,
-  "SubGroup": "et",
-  "MinLevel": 919,
-  "MaxValue": 288,
-  "MinValue": 250,
-  "RequiredLicense": "praesentium",
+  "TableName": "Crona-Kessler",
+  "UserDefinedListId": 489,
+  "Rank": 789,
+  "SubGroup": "voluptas",
+  "MinLevel": 906,
+  "MaxValue": 275,
+  "MinValue": 937,
+  "RequiredLicense": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldType": "System.String",
+      "FieldLength": 860
     }
   }
 }

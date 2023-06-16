@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/GetStatistics
 uid: v1CustomerServiceAgent_GetStatistics
+generated: true
 ---
 
 # POST Agents/CustomerService/GetStatistics
@@ -74,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "rerum",
-    "voluptatem"
+    "nostrum",
+    "ad"
   ]
 }
 ```
@@ -93,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "eius",
+    "Label": "et",
     "Values": [
       {
-        "Label": "inventore",
-        "Value": 253.85399999999998,
-        "Description": "Customer-focused next generation encoding",
+        "Label": "ab",
+        "Value": 7305.3539999999994,
+        "Description": "Triple-buffered foreground middleware",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldLength": 163
           }
         }
       },
       {
-        "Label": "inventore",
-        "Value": 253.85399999999998,
-        "Description": "Customer-focused next generation encoding",
+        "Label": "ab",
+        "Value": 7305.3539999999994,
+        "Description": "Triple-buffered foreground middleware",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldLength": 163
           }
         }
       }
     ],
-    "Description": "Pre-emptive discrete moderator",
+    "Description": "Balanced demand-driven synergy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 526
+        "FieldLength": 248
       }
     }
   },
   {
-    "Label": "eius",
+    "Label": "et",
     "Values": [
       {
-        "Label": "inventore",
-        "Value": 253.85399999999998,
-        "Description": "Customer-focused next generation encoding",
+        "Label": "ab",
+        "Value": 7305.3539999999994,
+        "Description": "Triple-buffered foreground middleware",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldLength": 163
           }
         }
       },
       {
-        "Label": "inventore",
-        "Value": 253.85399999999998,
-        "Description": "Customer-focused next generation encoding",
+        "Label": "ab",
+        "Value": 7305.3539999999994,
+        "Description": "Triple-buffered foreground middleware",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldLength": 163
           }
         }
       }
     ],
-    "Description": "Pre-emptive discrete moderator",
+    "Description": "Balanced demand-driven synergy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 526
+        "FieldLength": 248
       }
     }
   }

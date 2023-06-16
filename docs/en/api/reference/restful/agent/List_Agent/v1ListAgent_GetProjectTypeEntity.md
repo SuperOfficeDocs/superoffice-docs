@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetProjectTypeEntity
 uid: v1ListAgent_GetProjectTypeEntity
+generated: true
 ---
 
 # POST Agents/List/GetProjectTypeEntity
@@ -25,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=782
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=967
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 920,
-  "Name": "Jewess, Zulauf and Barrows",
-  "Tooltip": "ratione",
-  "Rank": 792,
+  "ProjTypeId": 563,
+  "Name": "Turner Group",
+  "Tooltip": "nisi",
+  "Rank": 970,
   "DurationUnit": "Century",
-  "ProjectDuration": 641,
-  "Deleted": true,
-  "HasGuide": true,
+  "ProjectDuration": 946,
+  "Deleted": false,
+  "HasGuide": false,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 533,
-      "Name": "Wolf, Grimes and Padberg",
-      "ToolTip": "Suscipit nobis temporibus quaerat.",
+      "Id": 161,
+      "Name": "Lynch-Crona",
+      "ToolTip": "Officia deserunt qui.",
       "Deleted": false,
-      "Rank": 548,
-      "Type": "voluptas",
-      "ColorBlock": 554,
-      "IconHint": "quis",
+      "Rank": 622,
+      "Type": "dolore",
+      "ColorBlock": 419,
+      "IconHint": "magni",
       "Selected": false,
-      "LastChanged": "1995-12-26T03:51:27.3966839+01:00",
+      "LastChanged": "2007-06-04T16:00:41.1174575+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "impedit",
-      "StyleHint": "temporibus",
+      "ExtraInfo": "aut",
+      "StyleHint": "dolorem",
       "Hidden": true,
-      "FullName": "Monroe Schneider",
+      "FullName": "Dr. Concepcion Tillman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldLength": 949
         }
       }
     }
@@ -128,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 472
+      "FieldType": "System.Int32",
+      "FieldLength": 53
     }
   }
 }

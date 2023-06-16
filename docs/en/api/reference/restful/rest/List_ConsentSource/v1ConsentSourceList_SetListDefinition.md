@@ -1,6 +1,7 @@
 ---
 title: PUT List/ConsentSource
 uid: v1ConsentSourceList_SetListDefinition
+generated: true
 ---
 
 # PUT List/ConsentSource
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 454,
-  "Name": "Doyle Group",
-  "Tooltip": "et",
+  "Id": 611,
+  "Name": "Quigley-Kuphal",
+  "Tooltip": "vero",
   "Deleted": false,
-  "Rank": 477,
+  "Rank": 983,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "soluta",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "blanditiis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 3,
-  "Name": "Waters, Zboncak and Fahey",
-  "Tooltip": "natus",
-  "Deleted": false,
-  "Rank": 434,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "Id": 375,
+  "Name": "Carter, Cruickshank and Mante",
+  "Tooltip": "quod",
+  "Deleted": true,
+  "Rank": 912,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "minima",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 607
     }
   }
 }

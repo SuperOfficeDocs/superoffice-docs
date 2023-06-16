@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Relation/SaveContactRelation
 uid: v1RelationAgent_SaveContactRelation
+generated: true
 ---
 
 # POST Agents/Relation/SaveContactRelation
@@ -89,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 404,
-  "SourcePersonId": 243,
-  "DestinationContactId": 386,
-  "DestinationPersonId": 893,
-  "RelationId": 847,
-  "Comment": "et",
-  "RelationDefinitionId": 141,
-  "Reversed": 633,
-  "UpdatedDate": "2020-01-15T03:51:28.0371601+01:00",
-  "CreatedDate": "1998-02-19T03:51:28.0371601+01:00",
+  "SourceContactId": 709,
+  "SourcePersonId": 659,
+  "DestinationContactId": 608,
+  "DestinationPersonId": 157,
+  "RelationId": 501,
+  "Comment": "nisi",
+  "RelationDefinitionId": 274,
+  "Reversed": 602,
+  "UpdatedDate": "2011-11-05T16:00:41.6800689+01:00",
+  "CreatedDate": "2014-08-19T16:00:41.6800689+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Lueilwitz-Bins",
-  "SourcePersonName": "Emard Group",
-  "DestinationContactName": "Jenkins LLC",
-  "DestinationPersonName": "Murphy-Greenholt",
-  "ActiveText": "et",
-  "PassiveText": "voluptates",
+  "SourceContactName": "Sanford Inc and Sons",
+  "SourcePersonName": "Robel, Breitenberg and Jacobson",
+  "DestinationContactName": "Murray LLC",
+  "DestinationPersonName": "Dickinson-Mante",
+  "ActiveText": "iure",
+  "PassiveText": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 589
+      "FieldType": "System.String",
+      "FieldLength": 824
     }
   }
 }

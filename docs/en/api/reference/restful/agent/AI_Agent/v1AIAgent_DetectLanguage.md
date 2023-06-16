@@ -1,6 +1,7 @@
 ---
 title: POST Agents/AI/DetectLanguage
 uid: v1AIAgent_DetectLanguage
+generated: true
 ---
 
 # POST Agents/AI/DetectLanguage
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/AI/DetectLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "et"
+  "Text": "quae"
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sed"
+"commodi"
 ```

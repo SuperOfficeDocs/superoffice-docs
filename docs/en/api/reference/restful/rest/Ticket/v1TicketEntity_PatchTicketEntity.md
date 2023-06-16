@@ -1,6 +1,7 @@
 ---
 title: PATCH Ticket/{id}
 uid: v1TicketEntity_PatchTicketEntity
+generated: true
 ---
 
 # PATCH Ticket/{id}
@@ -161,18 +162,18 @@ TicketEntity  updated.
 PATCH /api/v1/Ticket/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "enim",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "enim",
     "value": {}
   }
 ]
@@ -185,21 +186,21 @@ HTTP/1.1 200 TicketEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 982,
-  "Title": "beatae",
-  "CreatedAt": "2014-07-02T03:51:34.0991005+02:00",
-  "LastChanged": "2006-02-09T03:51:34.0991005+01:00",
-  "ReadByOwner": "2011-05-20T03:51:34.0991005+02:00",
-  "ReadByCustomer": "1998-06-29T03:51:34.0991005+02:00",
-  "FirstReadByOwner": "2015-10-03T03:51:34.0991005+02:00",
-  "FirstReadByUser": "2014-01-21T03:51:34.0991005+01:00",
-  "Activate": "2020-01-22T03:51:34.0991005+01:00",
-  "ClosedAt": "1996-12-24T03:51:34.0991005+01:00",
-  "RepliedAt": "2019-02-15T03:51:34.0991005+01:00",
-  "AlertTimeout": "2008-11-13T03:51:34.0991005+01:00",
-  "Deadline": "2012-04-21T03:51:34.0991005+02:00",
+  "TicketId": 495,
+  "Title": "rem",
+  "CreatedAt": "2011-01-12T16:00:48.5396389+01:00",
+  "LastChanged": "2003-01-11T16:00:48.5396389+01:00",
+  "ReadByOwner": "2022-06-11T16:00:48.5396389+02:00",
+  "ReadByCustomer": "2015-02-28T16:00:48.5396389+01:00",
+  "FirstReadByOwner": "2016-07-06T16:00:48.5396389+02:00",
+  "FirstReadByUser": "2022-08-09T16:00:48.5396389+02:00",
+  "Activate": "2007-11-30T16:00:48.5396389+01:00",
+  "ClosedAt": "2013-01-15T16:00:48.5396389+01:00",
+  "RepliedAt": "2017-04-25T16:00:48.5396389+02:00",
+  "AlertTimeout": "2001-03-05T16:00:48.5396389+01:00",
+  "Deadline": "2000-11-08T16:00:48.5396389+01:00",
   "CreatedBy": null,
-  "Author": "natus",
+  "Author": "velit",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -210,159 +211,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "maxime",
-      "PersonId": 732,
-      "Mrmrs": "debitis",
-      "Firstname": "Earl",
-      "Lastname": "Deckow",
-      "MiddleName": "Jenkins Group",
-      "Title": "soluta",
-      "Description": "Operative clear-thinking open system",
-      "Email": "elwin.bernhard@renneremmerich.com",
-      "FullName": "Cleta Larkin I",
-      "DirectPhone": "532.840.2971",
-      "FormalName": "Rippin-Kozey",
-      "CountryId": 743,
-      "ContactId": 168,
-      "ContactName": "Beatty, King and Dickinson",
-      "Retired": 802,
-      "Rank": 291,
-      "ActiveInterests": 897,
+      "Position": "sit",
+      "PersonId": 805,
+      "Mrmrs": "exercitationem",
+      "Firstname": "Bryana",
+      "Lastname": "Boyer",
+      "MiddleName": "Crona-Gleason",
+      "Title": "eaque",
+      "Description": "Persevering zero administration time-frame",
+      "Email": "korey@dachjones.com",
+      "FullName": "Rozella Parker",
+      "DirectPhone": "(719)164-3906 x561",
+      "FormalName": "Tromp Group",
+      "CountryId": 821,
+      "ContactId": 37,
+      "ContactName": "Marvin, Dibbert and West",
+      "Retired": 201,
+      "Rank": 879,
+      "ActiveInterests": 707,
       "ContactDepartment": "",
-      "ContactCountryId": 28,
-      "ContactOrgNr": "334559",
-      "FaxPhone": "100.947.2677 x1453",
-      "MobilePhone": "994.078.9864 x91094",
-      "ContactPhone": "054-580-8553 x15569",
-      "AssociateName": "Schumm-Reichert",
-      "AssociateId": 685,
-      "UsePersonAddress": false,
-      "ContactFax": "neque",
-      "Kanafname": "aspernatur",
-      "Kanalname": "veritatis",
-      "Post1": "qui",
-      "Post2": "ex",
-      "Post3": "omnis",
-      "EmailName": "percival_heaney@wiegand.co.uk",
-      "ContactFullName": "Darren Armstrong",
-      "ActiveErpLinks": 531,
-      "TicketPriorityId": 990,
-      "SupportLanguageId": 298,
-      "SupportAssociateId": 702,
+      "ContactCountryId": 397,
+      "ContactOrgNr": "994583",
+      "FaxPhone": "290.212.8503",
+      "MobilePhone": "779-367-0824 x98229",
+      "ContactPhone": "132.049.5897",
+      "AssociateName": "Kuvalis Group",
+      "AssociateId": 515,
+      "UsePersonAddress": true,
+      "ContactFax": "molestias",
+      "Kanafname": "ad",
+      "Kanalname": "autem",
+      "Post1": "omnis",
+      "Post2": "consequatur",
+      "Post3": "dolor",
+      "EmailName": "virgil@kihn.name",
+      "ContactFullName": "Dr. Armani Koepp I",
+      "ActiveErpLinks": 822,
+      "TicketPriorityId": 639,
+      "SupportLanguageId": 206,
+      "SupportAssociateId": 431,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldLength": 379
         }
       }
     }
   ],
-  "AlertLevel": 679,
-  "ConnectId": 355,
+  "AlertLevel": 793,
+  "ConnectId": 327,
   "ReadStatus": "Green",
-  "TimeToReply": 570,
-  "RealTimeToReply": 370,
-  "TimeToClose": 342,
-  "RealTimeToClose": 672,
-  "TimeSpentInternally": 275,
-  "TimeSpentExternally": 175,
-  "TimeSpentQueue": 342,
-  "RealTimeSpentInternally": 584,
-  "RealTimeSpentExternally": 581,
-  "RealTimeSpentQueue": 424,
-  "HasAttachment": true,
-  "NumReplies": 913,
-  "NumMessages": 32,
-  "FromAddress": "rerum",
+  "TimeToReply": 539,
+  "RealTimeToReply": 592,
+  "TimeToClose": 912,
+  "RealTimeToClose": 986,
+  "TimeSpentInternally": 672,
+  "TimeSpentExternally": 72,
+  "TimeSpentQueue": 407,
+  "RealTimeSpentInternally": 373,
+  "RealTimeSpentExternally": 170,
+  "RealTimeSpentQueue": 403,
+  "HasAttachment": false,
+  "NumReplies": 529,
+  "NumMessages": 63,
+  "FromAddress": "accusamus",
   "Messages": [
     {
-      "TicketMessageId": 583,
-      "CreatedAt": "2009-10-16T03:51:34.0991005+02:00",
+      "TicketMessageId": 938,
+      "CreatedAt": "2015-11-20T16:00:48.5396389+01:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "molestiae",
-      "PersonId": 495,
-      "PersonFullName": "Rosella Goodwin",
-      "ContactId": 285,
-      "ContactName": "Herzog, Lehner and Mueller",
+      "Author": "atque",
+      "PersonId": 462,
+      "PersonFullName": "Ms. Richie Gerhold",
+      "ContactId": 211,
+      "ContactName": "Mann Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 350,
-      "EmailHeader": "rory_hackett@towne.us",
+      "NumAttachments": 689,
+      "EmailHeader": "nickolas@beer.us",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "eos",
-      "Sentiment": 423,
-      "SentimentConfidence": 916,
-      "CreatedBy": 540,
-      "ChangedAt": "2011-03-07T03:51:34.0991005+01:00",
+      "Language": "ut",
+      "Sentiment": 691,
+      "SentimentConfidence": 970,
+      "CreatedBy": 433,
+      "ChangedAt": "2003-12-27T16:00:48.5396389+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 204
+          "FieldLength": 228
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 805,
-      "Name": "Johns LLC",
-      "ToolTip": "A molestiae alias illo quia blanditiis deleniti.",
+      "Id": 715,
+      "Name": "Von Group",
+      "ToolTip": "Qui nulla atque ut non veniam harum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 747
+          "FieldLength": 484
         }
       }
     },
     {
-      "Id": 805,
-      "Name": "Johns LLC",
-      "ToolTip": "A molestiae alias illo quia blanditiis deleniti.",
+      "Id": 715,
+      "Name": "Von Group",
+      "ToolTip": "Qui nulla atque ut non veniam harum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 747
+          "FieldLength": 484
         }
       }
     }
   ],
-  "Language": "provident",
-  "Sentiment": 425,
-  "SentimentConfidence": 986,
-  "SuggestedCategoryId": 897,
+  "Language": "aut",
+  "Sentiment": 238,
+  "SentimentConfidence": 221,
+  "SuggestedCategoryId": 277,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 495,
-  "IconHint": "cupiditate",
+  "OrigHumanCategoryId": 183,
+  "IconHint": "molestias",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "itaque"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "ratione"
+    "CustomFields1": "occaecati",
+    "CustomFields2": "laborum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldType": "System.String",
+      "FieldLength": 35
     }
   },
   "_Links": {

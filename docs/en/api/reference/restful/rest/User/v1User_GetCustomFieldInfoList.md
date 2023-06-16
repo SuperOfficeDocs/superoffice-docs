@@ -1,6 +1,7 @@
 ---
 title: GET User/CustomField
 uid: v1User_GetCustomFieldInfoList
+generated: true
 ---
 
 # GET User/CustomField
@@ -66,7 +67,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Fahey LLC",
-    "DisplayName": "Wyman, Reilly and Heaney",
-    "Description": "Re-engineered uniform hierarchy",
-    "ShortLabel": "iusto",
+    "FieldName": "Halvorson Inc and Sons",
+    "DisplayName": "Crooks-Parker",
+    "Description": "Enterprise-wide upward-trending strategy",
+    "ShortLabel": "cum",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 20,
-    "TemplateVariableName": "Mitchell-Osinski"
+    "Rank": 571,
+    "TemplateVariableName": "Kunde Inc and Sons"
   }
 ]
 ```

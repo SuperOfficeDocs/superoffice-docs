@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetPhones
 uid: v1PersonAgent_GetPhones
+generated: true
 ---
 
 # POST Agents/Person/GetPhones
@@ -78,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 552
+  "PersonId": 768
 }
 ```
 
@@ -90,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "autem",
+    "Value": "est",
     "StrippedValue": "quas",
-    "Description": "Streamlined real-time firmware",
+    "Description": "Up-sized logistical pricing structure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldType": "System.String",
+        "FieldLength": 592
       }
     }
   },
   {
-    "Value": "autem",
+    "Value": "est",
     "StrippedValue": "quas",
-    "Description": "Streamlined real-time firmware",
+    "Description": "Up-sized logistical pricing structure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldType": "System.String",
+        "FieldLength": 592
       }
     }
   }

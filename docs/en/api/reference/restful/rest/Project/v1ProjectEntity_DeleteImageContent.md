@@ -1,6 +1,7 @@
 ---
 title: DEL Project/{id}/Image
 uid: v1ProjectEntity_DeleteImageContent
+generated: true
 ---
 
 # DEL Project/{id}/Image

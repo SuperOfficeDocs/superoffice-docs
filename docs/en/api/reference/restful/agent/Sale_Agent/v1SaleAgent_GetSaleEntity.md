@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetSaleEntity
 uid: v1SaleAgent_GetSaleEntity
+generated: true
 ---
 
 # POST Agents/Sale/GetSaleEntity
@@ -25,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=124
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=960
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -109,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -125,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quia",
+  "SaleText": "impedit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -134,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-03-27T03:51:28.1152684+02:00",
-  "Amount": 8295.698,
-  "SaleId": 728,
-  "Earning": 18615.96,
-  "EarningPercent": 29747.928,
-  "Heading": "delectus",
-  "Number": "483494",
-  "Probability": 169,
-  "CreatedDate": "1996-09-01T03:51:28.1152684+02:00",
-  "UpdatedDate": "2012-07-07T03:51:28.1152684+02:00",
+  "Saledate": "2011-02-22T16:00:41.7738086+01:00",
+  "Amount": 24285.365999999998,
+  "SaleId": 615,
+  "Earning": 7289.684,
+  "EarningPercent": 329.07,
+  "Heading": "cupiditate",
+  "Number": "780029",
+  "Probability": 443,
+  "CreatedDate": "2019-10-04T16:00:41.7738086+02:00",
+  "UpdatedDate": "2012-12-24T16:00:41.7738086+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 872,
+  "ActiveLinks": 991,
   "Links": [
     {
-      "EntityName": "Kutch, Pagac and Jacobs",
-      "Id": 867,
-      "Description": "Focused cohesive implementation",
-      "ExtraInfo": "pariatur",
-      "LinkId": 53,
+      "EntityName": "Kiehn, Collins and Hodkiewicz",
+      "Id": 300,
+      "Description": "Assimilated web-enabled info-mediaries",
+      "ExtraInfo": "a",
+      "LinkId": 566,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 372
         }
       }
     }
   ],
-  "NextDueDate": "2017-07-23T03:51:28.1152684+02:00",
-  "Postit": "cupiditate",
+  "NextDueDate": "2007-10-08T16:00:41.7738086+02:00",
+  "Postit": "facilis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2009-09-27T03:51:28.1152684+02:00",
+  "ReopenDate": "1997-09-15T16:00:41.7738086+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Sanford Group",
-      "Comment": "repudiandae",
-      "StakeholderRoleId": 166,
-      "CountryId": 489,
-      "PersonId": 898,
-      "EmailDescription": "brooks@luettgenhyatt.name",
-      "EmailId": 952,
-      "EmailAddress": "caleb_bahringer@hammes.info",
-      "PhoneId": 881,
-      "ContactName": "Windler Inc and Sons",
-      "ContactId": 500,
-      "SaleId": 824,
-      "Mrmrs": "blanditiis",
-      "Firstname": "Isai",
-      "MiddleName": "Schneider-Mayert",
-      "Lastname": "Padberg",
-      "SaleStakeholderId": 819,
-      "Rank": 823,
-      "Phone": "683-160-6227 x7743",
+      "StakeholderRoleName": "Padberg-Rohan",
+      "Comment": "aut",
+      "StakeholderRoleId": 527,
+      "CountryId": 568,
+      "PersonId": 201,
+      "EmailDescription": "susan_roberts@hegmann.ca",
+      "EmailId": 83,
+      "EmailAddress": "tristin@legrosheidenreich.ca",
+      "PhoneId": 78,
+      "ContactName": "Berge LLC",
+      "ContactId": 462,
+      "SaleId": 270,
+      "Mrmrs": "corporis",
+      "Firstname": "Ronaldo",
+      "MiddleName": "O'Hara-Lebsack",
+      "Lastname": "Moore",
+      "SaleStakeholderId": 960,
+      "Rank": 790,
+      "Phone": "467-490-4251 x304",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldLength": 490
         }
       }
     }
   ],
-  "ActiveErpLinks": 926,
+  "ActiveErpLinks": 564,
   "UserDefinedFields": {
-    "SuperOffice:1": "1361031325",
-    "SuperOffice:2": "1401806427"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1884491285"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "ex"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "eius",
-    "CustomFields2": "dicta"
+    "CustomFields1": "numquam",
+    "CustomFields2": "quos"
   },
-  "PublishEventDate": "2002-06-11T03:51:28.1152684+02:00",
-  "PublishTo": "2021-10-21T03:51:28.1152684+02:00",
-  "PublishFrom": "2020-06-23T03:51:28.1152684+02:00",
+  "PublishEventDate": "2005-12-06T16:00:41.7738086+01:00",
+  "PublishTo": "1998-10-18T16:00:41.7738086+02:00",
+  "PublishFrom": "2008-07-29T16:00:41.7738086+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 74,
+      "VisibleId": 815,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldLength": 817
         }
       }
     },
     {
-      "VisibleId": 74,
+      "VisibleId": 815,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldLength": 817
         }
       }
     }
@@ -250,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 603
+      "FieldLength": 323
     }
   }
 }

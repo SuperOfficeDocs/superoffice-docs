@@ -1,6 +1,6 @@
 ---
 title: Services88.DashboardAgent.GetData SOAP
-generated: 1
+generated: true
 uid: Services88-Dashboard-GetData
 ---
 

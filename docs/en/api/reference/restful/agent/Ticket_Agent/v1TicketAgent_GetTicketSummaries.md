@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/GetTicketSummaries
 uid: v1TicketAgent_GetTicketSummaries
+generated: true
 ---
 
 # POST Agents/Ticket/GetTicketSummaries
@@ -79,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    15,
-    918
+    339,
+    949
   ]
 }
 ```
@@ -93,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 967,
-    "TicketStatus": 3,
-    "Title": "numquam",
-    "Registered": "2011-03-08T03:51:28.4276928+01:00",
-    "IconHint": "optio"
+    "TicketId": 462,
+    "TicketStatus": 667,
+    "Title": "et",
+    "Registered": "2002-10-05T16:00:42.2581348+02:00",
+    "IconHint": "deserunt"
   },
   {
-    "TicketId": 967,
-    "TicketStatus": 3,
-    "Title": "numquam",
-    "Registered": "2011-03-08T03:51:28.4276928+01:00",
-    "IconHint": "optio"
+    "TicketId": 462,
+    "TicketStatus": 667,
+    "Title": "et",
+    "Registered": "2002-10-05T16:00:42.2581348+02:00",
+    "IconHint": "deserunt"
   }
 ]
 ```

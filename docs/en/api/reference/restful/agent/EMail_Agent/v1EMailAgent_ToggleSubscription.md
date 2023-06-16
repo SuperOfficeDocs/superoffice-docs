@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/ToggleSubscription
 uid: v1EMailAgent_ToggleSubscription
+generated: true
 ---
 
 # POST Agents/EMail/ToggleSubscription
@@ -66,12 +67,12 @@ No Content
 POST /api/v1/Agents/EMail/ToggleSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 482,
-  "SubscriptionStatus": true
+  "FolderId": 539,
+  "SubscriptionStatus": false
 }
 ```
 

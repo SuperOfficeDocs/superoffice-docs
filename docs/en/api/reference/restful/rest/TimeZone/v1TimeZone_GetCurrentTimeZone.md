@@ -1,6 +1,7 @@
 ---
 title: GET TimeZone/current
 uid: v1TimeZone_GetCurrentTimeZone
+generated: true
 ---
 
 # GET TimeZone/current
@@ -60,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 398,
-  "Name": "Corwin-McClure",
-  "TZLocationCode": "voluptatibus",
-  "TZLocationCities": "ipsa",
-  "IsoNumber": 467,
+  "TZLocationID": 53,
+  "Name": "White-Torp",
+  "TZLocationCode": "omnis",
+  "TZLocationCities": "vel",
+  "IsoNumber": 374,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 520,
-      "StartMonth": 875,
-      "EndDay": 857,
-      "EndMonth": 204,
-      "TZOffset": 220,
-      "StartRulePattern": "vero",
-      "EndRulePattern": "fugit"
+      "StartDay": 582,
+      "StartMonth": 966,
+      "EndDay": 342,
+      "EndMonth": 615,
+      "TZOffset": 319,
+      "StartRulePattern": "cum",
+      "EndRulePattern": "ut"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 310,
-      "StartMonth": 666,
-      "EndDay": 378,
-      "EndMonth": 665,
-      "TZOffset": 354,
-      "StartRulePattern": "beatae",
-      "EndRulePattern": "cupiditate"
+      "StartDay": 121,
+      "StartMonth": 793,
+      "EndDay": 504,
+      "EndMonth": 489,
+      "TZOffset": 467,
+      "StartRulePattern": "vel",
+      "EndRulePattern": "et"
     }
   }
 }

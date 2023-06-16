@@ -1,6 +1,7 @@
 ---
 title: POST DashboardTile
 uid: v1DashboardTile_PostDashboardTile
+generated: true
 ---
 
 # POST DashboardTile
@@ -101,46 +102,46 @@ OK
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 423,
-  "Caption": "assumenda",
-  "Description": "Reactive didactic success",
-  "ChartName": "Bauch, Grimes and Lubowitz",
-  "ChartId": "qui",
+  "DashboardTileId": 557,
+  "Caption": "tempore",
+  "Description": "Advanced actuating synergy",
+  "ChartName": "Kling Group",
+  "ChartId": "consequatur",
   "IsDefault": false,
-  "AssociateId": 25,
-  "GroupId": 434,
-  "SelectionId": 578,
-  "Config": "modi",
+  "AssociateId": 448,
+  "GroupId": 578,
+  "SelectionId": 456,
+  "Config": "qui",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Mosciski, Macejkovic and Kozey",
-      "Description": "Balanced web-enabled policy",
+      "Name": "Bernier, Blanda and Kertzmann",
+      "Description": "Innovative analyzing project",
       "Type": "Boolean",
-      "ListName": "Rodriguez-Witting",
+      "ListName": "Yost Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "architecto",
-      "DefaultDataOption": true
+      "Value": "voluptatibus",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 221,
+      "VisibleId": 909,
       "Visibility": "All",
-      "DisplayValue": "incidunt"
+      "DisplayValue": "unde"
     },
     {
-      "VisibleId": 221,
+      "VisibleId": 909,
       "Visibility": "All",
-      "DisplayValue": "incidunt"
+      "DisplayValue": "unde"
     }
   ]
 }
@@ -153,64 +154,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 417,
-  "Caption": "ut",
-  "Description": "Sharable content-based algorithm",
-  "ChartName": "Rodriguez-Douglas",
-  "ChartId": "eum",
-  "IsDefault": false,
-  "AssociateId": 735,
-  "GroupId": 278,
-  "SelectionId": 689,
-  "Config": "consequatur",
+  "DashboardTileId": 287,
+  "Caption": "sit",
+  "Description": "Enterprise-wide logistical migration",
+  "ChartName": "Anderson-McCullough",
+  "ChartId": "autem",
+  "IsDefault": true,
+  "AssociateId": 976,
+  "GroupId": 862,
+  "SelectionId": 954,
+  "Config": "exercitationem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Bechtelar, Kiehn and Mayer",
-      "Description": "Customer-focused solution-oriented analyzer",
+      "Name": "Gibson-Hilll",
+      "Description": "Synchronised regional complexity",
       "Type": "Boolean",
-      "ListName": "Hoppe-King",
+      "ListName": "Huels-Champlin",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "incidunt",
+      "Value": "officiis",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldLength": 921
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 616,
+      "VisibleId": 947,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 178
         }
       }
     },
     {
-      "VisibleId": 616,
+      "VisibleId": 947,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 178
         }
       }
     }
@@ -220,12 +221,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldLength": 403
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

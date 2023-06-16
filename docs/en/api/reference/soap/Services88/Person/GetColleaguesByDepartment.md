@@ -1,6 +1,6 @@
 ---
 title: Services88.PersonAgent.GetColleaguesByDepartment SOAP
-generated: 1
+generated: true
 uid: Services88-Person-GetColleaguesByDepartment
 ---
 

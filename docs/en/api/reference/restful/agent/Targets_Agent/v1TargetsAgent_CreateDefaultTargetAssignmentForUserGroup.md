@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 uid: v1TargetsAgent_CreateDefaultTargetAssignmentForUserGroup
+generated: true
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
@@ -80,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 869
+  "UserGroupId": 846
 }
 ```
 
@@ -96,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 507,
+    "TargetAssignmentInfoId": 560,
     "Values": [
-      953,
-      172
+      623,
+      284
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 517,
-    "DimensionListItemDisplayName": "Cassin LLC",
+    "DimensionListItem": 345,
+    "DimensionListItemDisplayName": "Kertzmann-Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 614
+        "FieldLength": 398
       }
     }
   }

@@ -1,7 +1,7 @@
 ---
 title: Services88.MDOAgent SOAP
 uid: Services88-MDO-soap
-generated: 1
+generated: true
 ---
 
 # Services88 MDO SOAP

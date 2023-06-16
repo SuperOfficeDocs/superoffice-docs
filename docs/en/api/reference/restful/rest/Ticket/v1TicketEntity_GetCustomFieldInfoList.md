@@ -1,6 +1,7 @@
 ---
 title: GET Ticket/CustomField
 uid: v1TicketEntity_GetCustomFieldInfoList
+generated: true
 ---
 
 # GET Ticket/CustomField
@@ -66,7 +67,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Koepp Inc and Sons",
-    "DisplayName": "Lynch LLC",
-    "Description": "Seamless eco-centric implementation",
-    "ShortLabel": "dignissimos",
+    "FieldName": "Baumbach-Harris",
+    "DisplayName": "Paucek LLC",
+    "Description": "Compatible empowering architecture",
+    "ShortLabel": "autem",
     "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 717,
-    "TemplateVariableName": "Zulauf-Wisozk"
+    "Rank": 133,
+    "TemplateVariableName": "Reichert Group"
   }
 ]
 ```

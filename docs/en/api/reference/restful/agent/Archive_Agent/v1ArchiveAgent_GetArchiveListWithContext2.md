@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveListWithContext2
 uid: v1ArchiveAgent_GetArchiveListWithContext2
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveListWithContext2
@@ -168,18 +169,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hagenes-Ferry",
-  "ProviderName": "Marvin-Lang",
-  "SortOrder": "est",
-  "Restriction": "illum",
-  "Entities": "sit",
-  "Page": 449,
-  "PageSize": 964,
-  "Context": "culpa"
+  "GuiName": "Watsica LLC",
+  "ProviderName": "Kovacek-Dickens",
+  "SortOrder": "consequatur",
+  "Restriction": "expedita",
+  "Entities": "molestias",
+  "Page": 725,
+  "PageSize": 321,
+  "Context": "fugit"
 }
 ```
 
@@ -191,23 +192,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Watsica, Heathcote and Kunze",
-    "PrimaryKey": 688,
+    "EntityName": "West Group",
+    "PrimaryKey": 150,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "alias",
-        "TooltipHint": "et",
-        "LinkHint": "vel"
+        "DisplayValue": "dolor",
+        "TooltipHint": "libero",
+        "LinkHint": "dicta"
       }
     },
-    "LinkHint": "saepe",
-    "StyleHint": "optio",
+    "LinkHint": "quibusdam",
+    "StyleHint": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 727
+        "FieldType": "System.Int32",
+        "FieldLength": 742
       }
     }
   }

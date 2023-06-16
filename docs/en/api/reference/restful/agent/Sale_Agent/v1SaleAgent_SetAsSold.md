@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/SetAsSold
 uid: v1SaleAgent_SetAsSold
+generated: true
 ---
 
 # POST Agents/Sale/SetAsSold
@@ -65,13 +66,13 @@ No Content
 POST /api/v1/Agents/Sale/SetAsSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    565,
-    58
+    940,
+    110
   ]
 }
 ```

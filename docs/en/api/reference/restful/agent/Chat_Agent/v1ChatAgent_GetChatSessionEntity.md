@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/GetChatSessionEntity
 uid: v1ChatAgent_GetChatSessionEntity
+generated: true
 ---
 
 # POST Agents/Chat/GetChatSessionEntity
@@ -25,7 +26,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=259
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=131
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -96,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -106,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 214,
-  "TopicId": 908,
+  "ChatSessionId": 776,
+  "TopicId": 624,
   "User": null,
   "Person": null,
-  "CustomerAlias": "iure",
-  "CustomerHost": "et",
-  "CustomerName": "Aufderhar, Rippin and Parisian",
-  "CustomerEmail": "lavinia.koch@leschbergnaum.biz",
-  "CustomerPhone": "509.524.2453",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Predovic LLC",
+  "CustomerAlias": "beatae",
+  "CustomerHost": "ratione",
+  "CustomerName": "Huel-Feeney",
+  "CustomerEmail": "gardner@kshlerin.com",
+  "CustomerPhone": "1-038-391-6545",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Fritsch-Langosh",
   "Status": "Closed",
-  "FirstMessage": "sed",
-  "LastMessage": "quisquam",
-  "WhenRequested": "2018-08-13T03:51:26.6781066+02:00",
-  "WhenStarted": "2006-09-01T03:51:26.6781066+02:00",
-  "WhenEnded": "2001-05-30T03:51:26.6781066+02:00",
-  "WhenIdle": "2007-06-08T03:51:26.6781066+02:00",
-  "WhenFetched": "2015-01-03T03:51:26.6781066+01:00",
-  "SessionKey": "voluptatibus",
-  "InitialQueuePos": 73,
-  "AlertLevel": 422,
-  "Rank": 321,
+  "FirstMessage": "sit",
+  "LastMessage": "id",
+  "WhenRequested": "2000-01-20T16:00:40.1800621+01:00",
+  "WhenStarted": "2021-10-19T16:00:40.1800621+02:00",
+  "WhenEnded": "2006-04-25T16:00:40.1800621+02:00",
+  "WhenIdle": "2013-08-10T16:00:40.1800621+02:00",
+  "WhenFetched": "2014-05-13T16:00:40.1800621+02:00",
+  "SessionKey": "vero",
+  "InitialQueuePos": 137,
+  "AlertLevel": 110,
+  "Rank": 458,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -136,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 646,
+  "Rating": 227,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldType": "System.String",
+      "FieldLength": 493
     }
   }
 }

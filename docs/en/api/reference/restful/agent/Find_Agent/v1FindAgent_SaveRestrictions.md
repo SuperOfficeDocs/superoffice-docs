@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/SaveRestrictions
 uid: v1FindAgent_SaveRestrictions
+generated: true
 ---
 
 # POST Agents/Find/SaveRestrictions
@@ -66,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "at",
-  "ProviderName": "Nader-Kilback",
-  "StorageKey": "aut",
+  "StorageType": "rerum",
+  "ProviderName": "Witting, Rath and Stiedemann",
+  "StorageKey": "ex",
   "Restrictions": [
     {
-      "Name": "Yundt Inc and Sons",
-      "Operator": "deleniti",
+      "Name": "Marquardt, Douglas and Durgan",
+      "Operator": "ducimus",
       "Values": [
-        "explicabo",
-        "error"
+        "doloremque",
+        "placeat"
       ],
       "DisplayValues": [
-        "optio",
-        "quae"
+        "nam",
+        "harum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 385,
+      "InterParenthesis": 46,
       "InterOperator": "And",
-      "UniqueHash": 361
+      "UniqueHash": 150
     }
   ]
 }

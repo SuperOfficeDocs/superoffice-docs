@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetCSAuthUrl
 uid: v1ConfigurationAgent_GetCSAuthUrl
+generated: true
 ---
 
 # POST Agents/Configuration/GetCSAuthUrl
@@ -70,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCSAuthUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "consequatur",
-  "ProgramName": "Kautzer-O'Hara",
-  "Action": "est",
-  "ExtraParameters": "numquam"
+  "Language": "perspiciatis",
+  "ProgramName": "Schinner-Leuschke",
+  "Action": "vel",
+  "ExtraParameters": "veritatis"
 }
 ```
 

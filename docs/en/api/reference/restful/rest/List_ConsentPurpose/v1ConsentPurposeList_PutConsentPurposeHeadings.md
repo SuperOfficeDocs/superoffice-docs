@@ -1,6 +1,7 @@
 ---
 title: PUT List/ConsentPurpose/Headings
 uid: v1ConsentPurposeList_PutConsentPurposeHeadings
+generated: true
 ---
 
 # PUT List/ConsentPurpose/Headings
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 941,
-    "Name": "Brown, Stiedemann and Robel",
-    "Tooltip": "nesciunt",
+    "HeadingId": 847,
+    "Name": "Huel-Collier",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 483,
-    "UdListDefinitionId": 548
+    "Rank": 632,
+    "UdListDefinitionId": 618
   },
   {
-    "HeadingId": 941,
-    "Name": "Brown, Stiedemann and Robel",
-    "Tooltip": "nesciunt",
+    "HeadingId": 847,
+    "Name": "Huel-Collier",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 483,
-    "UdListDefinitionId": 548
+    "Rank": 632,
+    "UdListDefinitionId": 618
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 564,
-    "Name": "Block-Adams",
-    "Tooltip": "ab",
+    "HeadingId": 728,
+    "Name": "Kreiger Group",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 385,
-    "UdListDefinitionId": 293,
+    "Rank": 600,
+    "UdListDefinitionId": 897,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldType": "System.String",
+        "FieldLength": 554
       }
     }
   }

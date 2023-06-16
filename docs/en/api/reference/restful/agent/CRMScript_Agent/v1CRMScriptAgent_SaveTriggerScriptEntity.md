@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/SaveTriggerScriptEntity
 uid: v1CRMScriptAgent_SaveTriggerScriptEntity
+generated: true
 ---
 
 # POST Agents/CRMScript/SaveTriggerScriptEntity
@@ -82,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 676,
-  "Name": "Breitenberg-Feil",
+  "ScreenChooserId": 818,
+  "Name": "Aufderhar, Ankunding and Collins",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sit",
-  "Source": "eos",
-  "Registered": "2019-01-26T03:51:26.9436626+01:00",
-  "RegisteredAssociateId": 921,
-  "Updated": "2014-07-23T03:51:26.9436626+02:00",
-  "UpdatedAssociateId": 49
+  "UniqueIdentifier": "eligendi",
+  "Source": "alias",
+  "Registered": "2011-07-22T16:00:40.4925031+02:00",
+  "RegisteredAssociateId": 993,
+  "Updated": "2008-04-05T16:00:40.4925031+02:00",
+  "UpdatedAssociateId": 98
 }
 ```
 
@@ -106,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 243,
-  "Name": "Waelchi, Bruen and Kuvalis",
+  "ScreenChooserId": 955,
+  "Name": "Smith, Kovacek and Ryan",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptate",
-  "Source": "pariatur",
-  "Registered": "2011-09-15T03:51:26.9436626+02:00",
-  "RegisteredAssociateId": 944,
-  "Updated": "2015-05-09T03:51:26.9436626+02:00",
-  "UpdatedAssociateId": 362,
+  "UniqueIdentifier": "distinctio",
+  "Source": "temporibus",
+  "Registered": "2008-08-11T16:00:40.4925031+02:00",
+  "RegisteredAssociateId": 228,
+  "Updated": "2009-02-04T16:00:40.4925031+01:00",
+  "UpdatedAssociateId": 903,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 63
     }
   }
 }

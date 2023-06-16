@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Relation/DeleteContactRelation
 uid: v1RelationAgent_DeleteContactRelation
+generated: true
 ---
 
 # POST Agents/Relation/DeleteContactRelation
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/Relation/DeleteContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactRelationEntityId": 751
+  "ContactRelationEntityId": 708
 }
 ```
 

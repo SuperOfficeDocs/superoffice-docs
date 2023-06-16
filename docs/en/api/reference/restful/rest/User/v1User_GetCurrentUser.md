@@ -1,6 +1,7 @@
 ---
 title: GET User/current
 uid: v1User_GetCurrentUser
+generated: true
 ---
 
 # GET User/current
@@ -90,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 936,
-  "Name": "Casper-Heathcote",
-  "Rank": 74,
-  "Tooltip": "est",
+  "AssociateId": 650,
+  "Name": "Schmidt Inc and Sons",
+  "Rank": 447,
+  "Tooltip": "quam",
   "LicenseOwners": [
     {
-      "Name": "Pouros, Douglas and Torphy",
-      "Description": "Integrated explicit groupware",
+      "Name": "Herzog-Schoen",
+      "Description": "Polarised stable knowledge user",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 455
         }
       }
     },
     {
-      "Name": "Pouros, Douglas and Torphy",
-      "Description": "Integrated explicit groupware",
+      "Name": "Herzog-Schoen",
+      "Description": "Polarised stable knowledge user",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 455
         }
       }
     }
@@ -140,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "cupiditate",
-      "Tooltip": "rerum",
-      "Id": 17,
-      "Rank": 13,
+      "Value": "similique",
+      "Tooltip": "et",
+      "Id": 777,
+      "Rank": 605,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 785
+          "FieldType": "System.String",
+          "FieldLength": 317
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2005-08-09T03:51:34.3334209+02:00",
-  "Lastlogout": "1999-05-30T03:51:34.3334209+02:00",
-  "EjUserId": 303,
-  "RequestSignature": "adipisci",
+  "Lastlogin": "2017-10-14T16:00:48.8052335+02:00",
+  "Lastlogout": "2003-12-20T16:00:48.8052335+01:00",
+  "EjUserId": 83,
+  "RequestSignature": "voluptatem",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "officiis",
-      "DisplayValue": "distinctio",
+      "Value": "dolor",
+      "DisplayValue": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 473
+          "FieldType": "System.Int32",
+          "FieldLength": 162
         }
       }
     },
     {
       "Type": null,
-      "Value": "officiis",
-      "DisplayValue": "distinctio",
+      "Value": "dolor",
+      "DisplayValue": "inventore",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 162
+        }
+      }
+    }
+  ],
+  "UserName": "Mayer-Pollich",
+  "TicketCategories": [
+    {
+      "Id": 532,
+      "Name": "Mertz, Kulas and Muller",
+      "ToolTip": "Dicta eos pariatur qui optio odio quidem rerum.",
+      "Deleted": true,
+      "Rank": 570,
+      "Type": "accusamus",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "repellendus",
+      "ColorBlock": 888,
+      "ExtraInfo": "nulla",
+      "StyleHint": "perspiciatis",
+      "FullName": "Mr. Luisa Wade Mante III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 473
+          "FieldLength": 614
         }
       }
     }
   ],
-  "UserName": "Hegmann Group",
-  "TicketCategories": [
-    {
-      "Id": 852,
-      "Name": "Hudson Group",
-      "ToolTip": "Mollitia optio.",
-      "Deleted": false,
-      "Rank": 213,
-      "Type": "et",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "vel",
-      "ColorBlock": 368,
-      "ExtraInfo": "et",
-      "StyleHint": "dolor",
-      "FullName": "Dennis Schowalter",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 502
-        }
-      }
-    }
-  ],
-  "NickName": "Conroy LLC",
+  "NickName": "Conroy, Brakus and Brown",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "accusantium"
+    "ExtraFields1": "et",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "occaecati",
-    "CustomFields2": "rem"
+    "CustomFields1": "eveniet",
+    "CustomFields2": "quaerat"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bauch, Auer and Becker",
-      "DisplayName": "Fisher, Terry and Langworth",
-      "Description": "Compatible didactic definition",
-      "ToolTip": "Voluptates officia enim doloremque.",
+      "Name": "Johns-Waters",
+      "DisplayName": "Morar Group",
+      "Description": "Distributed client-server secured line",
+      "ToolTip": "Quam veritatis harum.",
       "Actions": "Implicit",
-      "ActionData": "dolor",
+      "ActionData": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 346
+          "FieldType": "System.String",
+          "FieldLength": 769
         }
       }
     }
@@ -252,8 +253,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldType": "System.String",
+      "FieldLength": 586
     }
   }
 }

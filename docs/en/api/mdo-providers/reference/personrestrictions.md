@@ -1,17 +1,12 @@
 ---
 uid: personrestrictions
 title: personrestrictions
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "personrestrictions"
+keywords: mdoprovider mdo provider personrestrictions
+description: Implements a person mdolist provider that uses the conflicts detector to append information on
+conflicts
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "personrestrictions" MDO List

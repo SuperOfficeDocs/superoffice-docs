@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/GetAllBatchTaskInfosByName
 uid: v1BatchAgent_GetAllBatchTaskInfosByName
+generated: true
 ---
 
 # POST Agents/Batch/GetAllBatchTaskInfosByName
@@ -97,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Stokes Inc and Sons"
+  "TaskName": "Baumbach-Abshire"
 }
 ```
 
@@ -109,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Hills Group",
-    "AssociateId": 725,
-    "DetailsTable": 731,
-    "DetailsRecord": 429,
+    "Id": 508,
+    "Name": "Funk LLC",
+    "AssociateId": 714,
+    "DetailsTable": 308,
+    "DetailsRecord": 341,
     "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "tenetur",
-      "ParameterObject2": "molestiae"
+      "ParameterObject1": "error",
+      "ParameterObject2": "consequatur"
     },
-    "LastStarted": "2005-01-17T03:51:26.6156255+01:00",
-    "Created": "2019-03-09T03:51:26.6156255+01:00",
-    "StartCount": 243,
-    "DatabaseSerialNumber": "800225",
-    "Context": "maiores",
-    "Result": "quo",
+    "LastStarted": "1998-01-17T16:00:40.1175682+01:00",
+    "Created": "2014-06-20T16:00:40.1175682+02:00",
+    "StartCount": 330,
+    "DatabaseSerialNumber": "889375",
+    "Context": "eum",
+    "Result": "ex",
     "State": "All",
-    "Description": "Customer-focused bi-directional database",
-    "Response": "laborum",
-    "Request": "maiores",
-    "ProgressDescription": "Profit-focused needs-based attitude",
-    "ProgressPercent": 44,
-    "FileName": "Dicki Inc and Sons",
+    "Description": "Public-key real-time frame",
+    "Response": "excepturi",
+    "Request": "in",
+    "ProgressDescription": "Inverse optimal portal",
+    "ProgressPercent": 442,
+    "FileName": "Von-Collins",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldLength": 883
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 uid: v1DocumentAgent_CreateNewPhysicalDocumentFromTemplateWithCustomTags2
+generated: true
 ---
 
 # POST Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
@@ -115,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 163,
-  "PersonId": 507,
-  "AppointmentId": 620,
-  "DocumentId": 453,
-  "SaleId": 449,
-  "SelectionId": 54,
-  "ProjectId": 304,
+  "ContactId": 674,
+  "PersonId": 124,
+  "AppointmentId": 222,
+  "DocumentId": 184,
+  "SaleId": 427,
+  "SelectionId": 588,
+  "ProjectId": 438,
   "CustomTags": {
-    "CustomTags1": "impedit",
-    "CustomTags2": "totam"
+    "CustomTags1": "atque",
+    "CustomTags2": "assumenda"
   },
-  "UiCulture": "nihil"
+  "UiCulture": "nulla"
 }
 ```
 
@@ -141,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 671,
+  "DocumentId": 3,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quibusdam",
-  "Header": "error",
-  "Name": "Pfannerstill, Daugherty and Wolf",
-  "OurRef": "qui",
-  "YourRef": "nemo",
-  "CreatedDate": "2001-12-05T03:51:27.0998796+01:00",
-  "UpdatedDate": "2006-10-22T03:51:27.0998796+02:00",
-  "Description": "Secured needs-based system engine",
+  "Attention": "eius",
+  "Header": "sunt",
+  "Name": "Shanahan-Kunze",
+  "OurRef": "nemo",
+  "YourRef": "recusandae",
+  "CreatedDate": "2007-10-25T16:00:40.7737465+02:00",
+  "UpdatedDate": "2011-10-14T16:00:40.7737465+02:00",
+  "Description": "Networked context-sensitive product",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-05-19T03:51:27.0998796+02:00",
-  "ExternalRef": "fugit",
+  "Date": "2008-07-31T16:00:40.7737465+02:00",
+  "ExternalRef": "quasi",
   "Completed": "Completed",
-  "ActiveLinks": 721,
+  "ActiveLinks": 280,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rosenbaum, Anderson and Schultz",
-      "Id": 109,
-      "Description": "Enterprise-wide national moratorium",
-      "ExtraInfo": "tenetur",
-      "LinkId": 975,
+      "EntityName": "Kohler-Yost",
+      "Id": 452,
+      "Description": "Profound global algorithm",
+      "ExtraInfo": "sit",
+      "LinkId": 350,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 634
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 485,
-  "Snum": 436,
+  "SuggestedDocumentId": 468,
+  "Snum": 518,
   "UserDefinedFields": {
-    "SuperOffice:1": "Arvilla Fay",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Kiera Jaskolski II",
+    "SuperOffice:2": "Rogers Runte"
   },
   "ExtraFields": {
-    "ExtraFields1": "incidunt",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "repudiandae"
   },
   "CustomFields": {
-    "CustomFields1": "dignissimos",
-    "CustomFields2": "perspiciatis"
+    "CustomFields1": "nobis",
+    "CustomFields2": "incidunt"
   },
-  "PublishEventDate": "2007-09-22T03:51:27.0998796+02:00",
-  "PublishTo": "2010-08-09T03:51:27.0998796+02:00",
-  "PublishFrom": "2014-06-19T03:51:27.0998796+02:00",
+  "PublishEventDate": "1999-11-01T16:00:40.7737465+01:00",
+  "PublishTo": "2020-09-09T16:00:40.7737465+02:00",
+  "PublishFrom": "2006-03-26T16:00:40.7737465+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 867,
+      "VisibleId": 379,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 60
         }
       }
     },
     {
-      "VisibleId": 867,
+      "VisibleId": 379,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 60
         }
       }
     }
@@ -232,7 +233,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 876
     }
   }
 }

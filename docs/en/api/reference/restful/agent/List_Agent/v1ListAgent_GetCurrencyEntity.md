@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetCurrencyEntity
 uid: v1ListAgent_GetCurrencyEntity
+generated: true
 ---
 
 # POST Agents/List/GetCurrencyEntity
@@ -25,7 +26,7 @@ Gets a CurrencyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=96
+POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=82
 POST /api/v1/Agents/List/GetCurrencyEntity?$select=name,department,category/id
 ```
 
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 990,
-  "Name": "Dach Inc and Sons",
-  "Tooltip": "fugiat",
-  "Rank": 229,
-  "Rate": 12745.978,
-  "Units": 16290.532,
-  "Deleted": true,
+  "CurrencyId": 794,
+  "Name": "Fadel Group",
+  "Tooltip": "saepe",
+  "Rank": 156,
+  "Rate": 15704.474,
+  "Units": 11131.967999999999,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldType": "System.Int32",
+      "FieldLength": 678
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetCRMUrl
 uid: v1ConfigurationAgent_GetCRMUrl
+generated: true
 ---
 
 # POST Agents/Configuration/GetCRMUrl
@@ -73,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "optio",
-  "Currents": "vel",
+  "SoProtocol": "rerum",
+  "Currents": "inventore",
   "Frameless": false
 }
 ```

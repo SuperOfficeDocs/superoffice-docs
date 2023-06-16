@@ -1,17 +1,11 @@
 ---
 uid: projecttypeflatlist
 title: projecttypeflatlist
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "projecttypeflatlist"
+keywords: mdoprovider mdo provider projecttypeflatlist
+description: Project type list. Encodes Default project duration in extra info.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "projecttypeflatlist" MDO List

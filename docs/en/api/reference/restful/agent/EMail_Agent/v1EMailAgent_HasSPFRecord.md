@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/HasSPFRecord
 uid: v1EMailAgent_HasSPFRecord
+generated: true
 ---
 
 # POST Agents/EMail/HasSPFRecord
@@ -74,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceSpf": "nihil",
-  "TargetDomain": "quos"
+  "SourceSpf": "et",
+  "TargetDomain": "similique"
 }
 ```
 

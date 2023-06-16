@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductFamily/Headings
 uid: v1ProductFamilyList_PutProductFamilyHeadings
+generated: true
 ---
 
 # PUT List/ProductFamily/Headings
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 817,
-    "Name": "Schmeler Inc and Sons",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 258,
-    "UdListDefinitionId": 84
+    "HeadingId": 383,
+    "Name": "Borer, Bernhard and Brakus",
+    "Tooltip": "in",
+    "Deleted": false,
+    "Rank": 783,
+    "UdListDefinitionId": 494
   },
   {
-    "HeadingId": 817,
-    "Name": "Schmeler Inc and Sons",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 258,
-    "UdListDefinitionId": 84
+    "HeadingId": 383,
+    "Name": "Borer, Bernhard and Brakus",
+    "Tooltip": "in",
+    "Deleted": false,
+    "Rank": 783,
+    "UdListDefinitionId": 494
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 800,
-    "Name": "Nicolas LLC",
-    "Tooltip": "alias",
+    "HeadingId": 854,
+    "Name": "King Inc and Sons",
+    "Tooltip": "qui",
     "Deleted": true,
-    "Rank": 62,
-    "UdListDefinitionId": 104,
+    "Rank": 1001,
+    "UdListDefinitionId": 389,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldLength": 738
       }
     }
   }

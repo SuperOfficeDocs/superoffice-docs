@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductFamily/Items/{id}/Headings
 uid: v1ProductFamilyList_GetProductFamilyHeadingsForListItem
+generated: true
 ---
 
 # GET List/ProductFamily/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Green LLC",
-    "ToolTip": "Totam quam quasi et.",
+    "Id": 185,
+    "Name": "Shields-Bogisich",
+    "ToolTip": "Mollitia dolorum.",
     "Deleted": false,
-    "Rank": 144,
-    "Type": "in",
-    "ColorBlock": 999,
-    "IconHint": "amet",
-    "Selected": true,
-    "LastChanged": "2017-06-26T03:51:34.8176965+02:00",
+    "Rank": 81,
+    "Type": "vel",
+    "ColorBlock": 555,
+    "IconHint": "nemo",
+    "Selected": false,
+    "LastChanged": "2023-05-04T16:00:49.1645684+02:00",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Leffler LLC",
-        "ToolTip": "Nisi doloremque ipsa ea perferendis eum.",
+        "Id": 130,
+        "Name": "Dach Group",
+        "ToolTip": "Quaerat nostrum velit dicta consequatur corporis libero.",
         "Deleted": true,
-        "Rank": 205,
-        "Type": "esse",
-        "ColorBlock": 160,
-        "IconHint": "delectus",
-        "Selected": false,
-        "LastChanged": "2013-02-19T03:51:34.8176965+01:00",
+        "Rank": 876,
+        "Type": "nam",
+        "ColorBlock": 754,
+        "IconHint": "velit",
+        "Selected": true,
+        "LastChanged": "2019-05-28T16:00:49.1645684+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "eum",
-        "Hidden": true,
-        "FullName": "Maxime Sauer DVM",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Geovanni Dickens PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 352
+            "FieldType": "System.String",
+            "FieldLength": 219
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "rerum",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Ms. Vinnie Kurtis Botsford DDS",
+    "FullName": "Althea Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 276
+        "FieldType": "System.Int32",
+        "FieldLength": 760
       }
     }
   }

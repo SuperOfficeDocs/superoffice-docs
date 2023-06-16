@@ -1,6 +1,7 @@
 ---
 title: POST Hierarchy
 uid: v1HierarchyEntity_PostHierarchyEntity
+generated: true
 ---
 
 # POST Hierarchy
@@ -93,36 +94,36 @@ OK
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 988,
+  "HierarchyId": 615,
   "Domain": "Dashboards",
-  "Name": "Strosin Inc and Sons",
-  "Fullname": "sint",
-  "ParentId": 728,
+  "Name": "Schamberger-Roob",
+  "Fullname": "eum",
+  "ParentId": 203,
   "Children": [
     {
-      "HierarchyId": 541,
+      "HierarchyId": 37,
       "Domain": "Dashboards",
-      "Name": "Parisian-Pollich",
-      "Fullname": "ducimus",
-      "ParentId": 198,
+      "Name": "Volkman, Schneider and Cormier",
+      "Fullname": "sit",
+      "ParentId": 446,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-09-14T03:51:33.6928335+02:00",
-      "RegisteredAssociateId": 347,
-      "Updated": "2006-02-16T03:51:33.6928335+01:00",
-      "UpdatedAssociateId": 478
+      "Registered": "2014-01-18T16:00:47.9928249+01:00",
+      "RegisteredAssociateId": 17,
+      "Updated": "2018-06-11T16:00:47.9928249+02:00",
+      "UpdatedAssociateId": 280
     }
   ],
-  "Registered": "2012-11-10T03:51:33.6928335+01:00",
-  "RegisteredAssociateId": 758,
-  "Updated": "2018-07-06T03:51:33.6928335+02:00",
-  "UpdatedAssociateId": 817
+  "Registered": "2009-02-08T16:00:47.9928249+01:00",
+  "RegisteredAssociateId": 579,
+  "Updated": "2012-07-05T16:00:47.9928249+02:00",
+  "UpdatedAssociateId": 875
 }
 ```
 
@@ -133,51 +134,51 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 798,
+  "HierarchyId": 378,
   "Domain": "Dashboards",
-  "Name": "Dietrich-Lakin",
-  "Fullname": "ea",
-  "ParentId": 179,
+  "Name": "Hilpert, Littel and Ebert",
+  "Fullname": "pariatur",
+  "ParentId": 858,
   "Children": [
     {
-      "HierarchyId": 921,
+      "HierarchyId": 321,
       "Domain": "Dashboards",
-      "Name": "McClure, Bergnaum and White",
-      "Fullname": "blanditiis",
-      "ParentId": 774,
+      "Name": "Schowalter, Dibbert and Bernier",
+      "Fullname": "excepturi",
+      "ParentId": 698,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-06-09T03:51:33.6928335+02:00",
-      "RegisteredAssociateId": 280,
-      "Updated": "2013-02-13T03:51:33.6928335+01:00",
-      "UpdatedAssociateId": 172,
+      "Registered": "2020-06-06T16:00:47.9928249+02:00",
+      "RegisteredAssociateId": 267,
+      "Updated": "2014-09-01T16:00:47.9928249+02:00",
+      "UpdatedAssociateId": 602,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 420
         }
       }
     }
   ],
-  "Registered": "2008-07-31T03:51:33.6928335+02:00",
-  "RegisteredAssociateId": 476,
-  "Updated": "1998-11-27T03:51:33.6928335+01:00",
-  "UpdatedAssociateId": 176,
+  "Registered": "2012-11-05T16:00:47.9928249+01:00",
+  "RegisteredAssociateId": 677,
+  "Updated": "2013-12-10T16:00:47.9928249+01:00",
+  "UpdatedAssociateId": 53,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldLength": 789
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

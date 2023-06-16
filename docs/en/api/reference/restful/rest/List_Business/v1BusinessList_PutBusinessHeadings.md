@@ -1,6 +1,7 @@
 ---
 title: PUT List/Business/Headings
 uid: v1BusinessList_PutBusinessHeadings
+generated: true
 ---
 
 # PUT List/Business/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 133,
-    "Name": "Langworth Group",
-    "Tooltip": "fugiat",
-    "Deleted": true,
-    "Rank": 261,
-    "UdListDefinitionId": 944
+    "HeadingId": 938,
+    "Name": "Kessler Group",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 560,
+    "UdListDefinitionId": 675
   },
   {
-    "HeadingId": 133,
-    "Name": "Langworth Group",
-    "Tooltip": "fugiat",
-    "Deleted": true,
-    "Rank": 261,
-    "UdListDefinitionId": 944
+    "HeadingId": 938,
+    "Name": "Kessler Group",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 560,
+    "UdListDefinitionId": 675
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 663,
-    "Name": "Walter Inc and Sons",
-    "Tooltip": "ducimus",
-    "Deleted": true,
-    "Rank": 443,
-    "UdListDefinitionId": 170,
+    "HeadingId": 290,
+    "Name": "Weimann-Halvorson",
+    "Tooltip": "recusandae",
+    "Deleted": false,
+    "Rank": 186,
+    "UdListDefinitionId": 789,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 167
+        "FieldLength": 895
       }
     }
   }

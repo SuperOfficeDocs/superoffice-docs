@@ -1,6 +1,7 @@
 ---
 title: GET User/CustomField/{fieldName}
 uid: v1User_GetCustomFieldInfo
+generated: true
 ---
 
 # GET User/CustomField/{fieldName}
@@ -70,7 +71,7 @@ OK
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Jaskolski-Mueller",
-  "DisplayName": "Runolfsdottir-Gibson",
-  "Description": "User-centric leading edge product",
-  "ShortLabel": "voluptas",
-  "HideLabel": false,
+  "FieldName": "Klein-Moen",
+  "DisplayName": "Carter, Nitzsche and Jacobson",
+  "Description": "Pre-emptive asynchronous knowledge user",
+  "ShortLabel": "ut",
+  "HideLabel": true,
   "HideField": false,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": true,
-  "Rank": 182,
-  "TemplateVariableName": "Huel-Lang"
+  "IsReadOnly": true,
+  "IsExternal": false,
+  "Rank": 15,
+  "TemplateVariableName": "Larson, Watsica and Gaylord"
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/MarkAsRead
 uid: v1EMailAgent_MarkAsRead
+generated: true
 ---
 
 # POST Agents/EMail/MarkAsRead
@@ -67,14 +68,14 @@ No Content
 POST /api/v1/Agents/EMail/MarkAsRead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    476,
-    610
+    619,
+    700
   ],
   "Read": false
 }

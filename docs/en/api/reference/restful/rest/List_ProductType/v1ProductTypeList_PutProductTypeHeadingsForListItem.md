@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductType/Items/{id}/Headings
 uid: v1ProductTypeList_PutProductTypeHeadingsForListItem
+generated: true
 ---
 
 # PUT List/ProductType/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Boyle, Farrell and Emmerich",
-    "ToolTip": "Temporibus sequi placeat.",
+    "Id": 716,
+    "Name": "Buckridge-Ullrich",
+    "ToolTip": "Harum vero ex veniam qui.",
     "Deleted": false,
-    "Rank": 728,
-    "Type": "eum",
-    "ColorBlock": 430,
-    "IconHint": "ratione",
+    "Rank": 904,
+    "Type": "ex",
+    "ColorBlock": 375,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2000-06-26T03:51:34.833319+02:00",
+    "LastChanged": "2003-02-07T16:00:49.1801938+01:00",
     "ChildItems": [
       {
-        "Id": 48,
-        "Name": "Shields LLC",
-        "ToolTip": "Et explicabo veniam.",
+        "Id": 436,
+        "Name": "Ratke-Smith",
+        "ToolTip": "Vitae minima nisi reprehenderit et animi voluptas.",
         "Deleted": false,
-        "Rank": 54,
-        "Type": "ex",
-        "ColorBlock": 194,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2015-10-04T03:51:34.833319+02:00",
+        "Rank": 470,
+        "Type": "id",
+        "ColorBlock": 620,
+        "IconHint": "ab",
+        "Selected": false,
+        "LastChanged": "2010-03-25T16:00:49.1801938+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "distinctio",
-        "StyleHint": "at",
-        "Hidden": true,
-        "FullName": "Jewell Gleason"
+        "StyleHint": "nisi",
+        "Hidden": false,
+        "FullName": "Napoleon Ahmad Fisher Jr."
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "alias",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Chanelle Lynch"
+    "FullName": "Mrs. Elise Torphy"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "Koelpin-Morar",
-    "ToolTip": "Ducimus odit culpa.",
+    "Id": 45,
+    "Name": "Kris, Carroll and Legros",
+    "ToolTip": "Quae ipsa a.",
     "Deleted": false,
-    "Rank": 916,
-    "Type": "doloribus",
-    "ColorBlock": 994,
-    "IconHint": "aut",
+    "Rank": 782,
+    "Type": "dolorum",
+    "ColorBlock": 924,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "1996-10-20T03:51:34.833319+02:00",
+    "LastChanged": "2014-09-21T16:00:49.1801938+02:00",
     "ChildItems": [
       {
-        "Id": 620,
-        "Name": "Huel, Crooks and Herman",
-        "ToolTip": "Repellendus dignissimos voluptas ducimus sed id aspernatur voluptatem.",
-        "Deleted": false,
-        "Rank": 146,
-        "Type": "adipisci",
-        "ColorBlock": 381,
-        "IconHint": "nulla",
-        "Selected": false,
-        "LastChanged": "2002-01-11T03:51:34.833319+01:00",
+        "Id": 370,
+        "Name": "Balistreri, Beatty and Carroll",
+        "ToolTip": "Fugit et earum atque.",
+        "Deleted": true,
+        "Rank": 181,
+        "Type": "debitis",
+        "ColorBlock": 376,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2005-05-03T16:00:49.1801938+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "odio",
-        "Hidden": false,
-        "FullName": "Ila Bogan",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Cecil Antonia Haag DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 286
+            "FieldLength": 939
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "qui",
+    "ExtraInfo": "ut",
+    "StyleHint": "dicta",
     "Hidden": true,
-    "FullName": "Mrs. Dee Kessler",
+    "FullName": "Sonya Prosacco MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 863
+        "FieldLength": 688
       }
     }
   }

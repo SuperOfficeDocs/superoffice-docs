@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetLocalizedText
 uid: v1ListAgent_GetLocalizedText
+generated: true
 ---
 
 # POST Agents/List/GetLocalizedText
@@ -25,7 +26,7 @@ Gets a LocalizedText object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLocalizedText?localizedTextId=403
+POST /api/v1/Agents/List/GetLocalizedText?localizedTextId=436
 POST /api/v1/Agents/List/GetLocalizedText?$select=name,department,category/id
 ```
 
@@ -81,18 +82,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 14,
-  "ResourceId": 844,
-  "Text": "sunt",
+  "LanguageId": 235,
+  "ResourceId": 709,
+  "Text": "ducimus",
   "Type": "Column",
-  "LocalizedTextId": 403,
+  "LocalizedTextId": 468,
   "IsBuiltIn": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldLength": 406
     }
   }
 }

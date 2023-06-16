@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Pocket/SetPushNotificationTagsForUser
 uid: v1PocketAgent_SetPushNotificationTagsForUser
+generated: true
 ---
 
 # POST Agents/Pocket/SetPushNotificationTagsForUser
@@ -66,12 +67,12 @@ No Content
 POST /api/v1/Agents/Pocket/SetPushNotificationTagsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 594,
-  "Tags": "sit"
+  "AssociateId": 836,
+  "Tags": "qui"
 }
 ```
 

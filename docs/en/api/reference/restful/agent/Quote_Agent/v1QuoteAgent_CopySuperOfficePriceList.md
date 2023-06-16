@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CopySuperOfficePriceList
 uid: v1QuoteAgent_CopySuperOfficePriceList
+generated: true
 ---
 
 # POST Agents/Quote/CopySuperOfficePriceList
@@ -86,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 702,
-  "NewName": "Mraz-Wisoky",
-  "ValidFrom": "2017-07-03T03:51:27.9902963+02:00",
-  "ValidTo": "1999-03-24T03:51:27.9902963+01:00",
-  "NewCurrencyId": 139,
-  "ConvertCurrency": true
+  "OriginalPriceListId": 289,
+  "NewName": "Gerhold, Hintz and Muller",
+  "ValidFrom": "2023-05-05T16:00:41.6331946+02:00",
+  "ValidTo": "1998-10-18T16:00:41.6331946+02:00",
+  "NewCurrencyId": 17,
+  "ConvertCurrency": false
 }
 ```
 
@@ -106,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 472,
-  "ERPPriceListKey": "fugit",
-  "QuoteConnectionId": 860,
-  "Name": "Cole, Eichmann and Wolf",
-  "Description": "Integrated executive migration",
-  "Currency": "quo",
-  "CurrencyName": "Ankunding Inc and Sons",
-  "ValidFrom": "1997-09-23T03:51:27.9902963+02:00",
-  "ValidTo": "2000-10-23T03:51:27.9902963+02:00",
+  "PriceListId": 14,
+  "ERPPriceListKey": "explicabo",
+  "QuoteConnectionId": 487,
+  "Name": "Buckridge, Mayert and Fritsch",
+  "Description": "Synchronised bifurcated functionalities",
+  "Currency": "qui",
+  "CurrencyName": "Hintz-Funk",
+  "ValidFrom": "2000-09-23T16:00:41.6331946+02:00",
+  "ValidTo": "2017-12-28T16:00:41.6331946+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 995
+      "FieldLength": 112
     }
   }
 }

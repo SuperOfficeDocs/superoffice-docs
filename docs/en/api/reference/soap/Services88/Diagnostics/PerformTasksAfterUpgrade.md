@@ -1,6 +1,6 @@
 ---
 title: Services88.DiagnosticsAgent.PerformTasksAfterUpgrade SOAP
-generated: 1
+generated: true
 uid: Services88-Diagnostics-PerformTasksAfterUpgrade
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/GetDuplicateRules
 uid: v1ContactAgent_GetDuplicateRules
+generated: true
 ---
 
 # POST Agents/Contact/GetDuplicateRules
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuhlman, Hauck and Borer",
-    "DisplayName": "Schowalter Group",
-    "DisplayTooltip": "doloribus",
+    "Name": "Schultz-Trantow",
+    "DisplayName": "Kreiger-Daniel",
+    "DisplayTooltip": "id",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 872
+        "FieldType": "System.Int32",
+        "FieldLength": 600
       }
     }
   },
   {
-    "Name": "Kuhlman, Hauck and Borer",
-    "DisplayName": "Schowalter Group",
-    "DisplayTooltip": "doloribus",
+    "Name": "Schultz-Trantow",
+    "DisplayName": "Kreiger-Daniel",
+    "DisplayTooltip": "id",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 872
+        "FieldType": "System.Int32",
+        "FieldLength": 600
       }
     }
   }

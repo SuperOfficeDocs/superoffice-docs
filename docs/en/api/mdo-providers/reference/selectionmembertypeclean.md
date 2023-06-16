@@ -1,17 +1,11 @@
 ---
 uid: selectionmembertypeclean
 title: selectionmembertypeclean
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "selectionmembertypeclean"
+keywords: mdoprovider mdo provider selectionmembertypeclean
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "selectionmembertypeclean" MDO List

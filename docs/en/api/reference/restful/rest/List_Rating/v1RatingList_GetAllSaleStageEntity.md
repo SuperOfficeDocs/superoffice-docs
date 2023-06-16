@@ -1,6 +1,7 @@
 ---
 title: GET List/Rating/Items
 uid: v1RatingList_GetAllSaleStageEntity
+generated: true
 ---
 
 # GET List/Rating/Items
@@ -26,7 +27,7 @@ Calls the List agent service GetAllSaleStageEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Rating/Items?includeDeleted=False
+GET /api/v1/List/Rating/Items?includeDeleted=True
 ```
 
 
@@ -71,7 +72,7 @@ OK
 GET /api/v1/List/Rating/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 784,
-    "Value": "tempore",
-    "Tooltip": "sed",
-    "Probability": 525,
-    "Deleted": false,
-    "Rank": 14,
+    "SaleStageId": 258,
+    "Value": "molestiae",
+    "Tooltip": "esse",
+    "Probability": 70,
+    "Deleted": true,
+    "Rank": 683,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 537
       }
     }
   }

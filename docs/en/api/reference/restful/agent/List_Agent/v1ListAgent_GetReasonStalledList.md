@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetReasonStalledList
 uid: v1ListAgent_GetReasonStalledList
+generated: true
 ---
 
 # POST Agents/List/GetReasonStalledList
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetReasonStalledList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Value": "excepturi",
-    "Tooltip": "odio",
+    "Id": 833,
+    "Value": "vel",
+    "Tooltip": "necessitatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 933
+        "FieldLength": 892
       }
     }
   },
   {
-    "Id": 438,
-    "Value": "excepturi",
-    "Tooltip": "odio",
+    "Id": 833,
+    "Value": "vel",
+    "Tooltip": "necessitatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 933
+        "FieldLength": 892
       }
     }
   }

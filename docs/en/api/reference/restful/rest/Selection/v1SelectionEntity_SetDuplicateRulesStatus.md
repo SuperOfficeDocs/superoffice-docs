@@ -1,6 +1,7 @@
 ---
 title: PUT Selection/DuplicateRules
 uid: v1SelectionEntity_SetDuplicateRulesStatus
+generated: true
 ---
 
 # PUT Selection/DuplicateRules
@@ -61,16 +62,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bogan-Schmeler",
-    "DisplayName": "Rutherford Inc and Sons",
-    "DisplayTooltip": "mollitia",
-    "IsActive": true
+    "Name": "Fadel Inc and Sons",
+    "DisplayName": "Little, Considine and Langworth",
+    "DisplayTooltip": "ut",
+    "IsActive": false
   },
   {
-    "Name": "Bogan-Schmeler",
-    "DisplayName": "Rutherford Inc and Sons",
-    "DisplayTooltip": "mollitia",
-    "IsActive": true
+    "Name": "Fadel Inc and Sons",
+    "DisplayName": "Little, Considine and Langworth",
+    "DisplayTooltip": "ut",
+    "IsActive": false
   }
 ]
 ```

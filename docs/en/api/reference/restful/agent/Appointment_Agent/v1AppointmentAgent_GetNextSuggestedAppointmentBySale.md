@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetNextSuggestedAppointmentBySale
 uid: v1AppointmentAgent_GetNextSuggestedAppointmentBySale
+generated: true
 ---
 
 # POST Agents/Appointment/GetNextSuggestedAppointmentBySale
@@ -87,12 +88,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 514,
-  "CurrentAppointmentId": 394,
+  "SaleId": 537,
+  "CurrentAppointmentId": 984,
   "SkipCompleteCheck": false
 }
 ```
@@ -104,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 72,
-  "Deleted": 149,
-  "DaysFuture": 174,
-  "Tooltip": "totam",
-  "Text": "autem",
-  "TaskId": 357,
-  "SuggestedAppointmentId": 381,
-  "SaleTypeStageLinkId": 578,
-  "RegisteredAssociateId": 45,
-  "Rank": 770,
-  "ProjectTypeStatusLinkId": 33,
-  "Name": "Hintz LLC",
-  "Duration": 334,
+  "AutoSuggest": 59,
+  "Deleted": 529,
+  "DaysFuture": 958,
+  "Tooltip": "aspernatur",
+  "Text": "suscipit",
+  "TaskId": 597,
+  "SuggestedAppointmentId": 315,
+  "SaleTypeStageLinkId": 855,
+  "RegisteredAssociateId": 648,
+  "Rank": 670,
+  "ProjectTypeStatusLinkId": 332,
+  "Name": "Marvin LLC",
+  "Duration": 490,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 296
     }
   }
 }

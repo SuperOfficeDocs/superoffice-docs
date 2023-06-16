@@ -1,6 +1,7 @@
 ---
 title: PUT List/{id}/Items/{id}/UserGroups
 uid: v1ListItemEntity_SetVisibleForUserGroups
+generated: true
 ---
 
 # PUT List/{id}/Items/{id}/UserGroups
@@ -95,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 664,
-    "Name": "Oberbrunner-Hickle",
-    "ToolTip": "Id hic rem magni non asperiores illum.",
+    "Id": 76,
+    "Name": "Braun, Stamm and Hegmann",
+    "ToolTip": "Dolores voluptatem nemo et voluptatibus.",
     "Deleted": false,
-    "Rank": 935,
-    "Type": "sunt",
-    "ColorBlock": 942,
-    "IconHint": "velit",
+    "Rank": 682,
+    "Type": "temporibus",
+    "ColorBlock": 659,
+    "IconHint": "soluta",
     "Selected": false,
-    "LastChanged": "1997-07-28T03:51:34.3490406+02:00",
+    "LastChanged": "2006-12-03T16:00:48.8364781+01:00",
     "ChildItems": [
       {
-        "Id": 761,
-        "Name": "Hickle, Hills and Torp",
-        "ToolTip": "Repellat est quia nam magnam.",
+        "Id": 802,
+        "Name": "Dickens-Watsica",
+        "ToolTip": "Doloremque officiis quasi doloremque.",
         "Deleted": false,
-        "Rank": 918,
-        "Type": "laboriosam",
-        "ColorBlock": 428,
-        "IconHint": "rem",
-        "Selected": false,
-        "LastChanged": "2007-06-21T03:51:34.3490406+02:00",
+        "Rank": 272,
+        "Type": "velit",
+        "ColorBlock": 447,
+        "IconHint": "eligendi",
+        "Selected": true,
+        "LastChanged": "2018-07-12T16:00:48.8364781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "labore",
-        "Hidden": true,
-        "FullName": "Ariane Rosalinda Christiansen IV"
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "nisi",
+        "Hidden": false,
+        "FullName": "Houston Dooley"
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "quam",
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Prof. Forrest Rice V"
+    "FullName": "Ms. Kenny Neha Schultz"
   }
 ]
 ```
@@ -148,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Reichel, Homenick and Gaylord",
-    "ToolTip": "Alias rerum quam adipisci.",
-    "Deleted": false,
-    "Rank": 291,
-    "Type": "iusto",
-    "ColorBlock": 137,
-    "IconHint": "ipsa",
-    "Selected": false,
-    "LastChanged": "2014-05-14T03:51:34.3490406+02:00",
+    "Id": 962,
+    "Name": "Hayes-Orn",
+    "ToolTip": "Aperiam repellendus ipsum omnis excepturi aut vitae in.",
+    "Deleted": true,
+    "Rank": 494,
+    "Type": "et",
+    "ColorBlock": 207,
+    "IconHint": "ipsum",
+    "Selected": true,
+    "LastChanged": "2015-01-25T16:00:48.8364781+01:00",
     "ChildItems": [
       {
-        "Id": 511,
-        "Name": "Quigley LLC",
-        "ToolTip": "Facere reprehenderit ut magni repudiandae.",
+        "Id": 314,
+        "Name": "O'Connell LLC",
+        "ToolTip": "Velit et et et velit rerum enim illum.",
         "Deleted": true,
-        "Rank": 513,
-        "Type": "qui",
-        "ColorBlock": 601,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "2021-09-16T03:51:34.3490406+02:00",
+        "Rank": 4,
+        "Type": "veritatis",
+        "ColorBlock": 82,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2016-08-27T16:00:48.8364781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "cumque",
+        "ExtraInfo": "ab",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Myrtis Grant IV",
+        "FullName": "Sylvester Herman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 637
+            "FieldLength": 450
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "dolore",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Anibal Everardo Russel I",
+    "FullName": "Amalia Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldLength": 443
       }
     }
   }

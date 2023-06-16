@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromIds
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
@@ -110,8 +111,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    237,
-    29
+    101,
+    31
   ]
 }
 ```
@@ -124,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 523,
-    "ColumnId": 29,
-    "FieldDefault": "libero",
-    "FieldHeight": 163,
-    "FieldLabel": "sequi",
-    "FieldLeft": 192,
-    "FieldTop": 310,
+    "UDefFieldId": 105,
+    "ColumnId": 792,
+    "FieldDefault": "ut",
+    "FieldHeight": 101,
+    "FieldLabel": "aperiam",
+    "FieldLeft": 200,
+    "FieldTop": 973,
     "FieldType": "Checkbox",
-    "FieldWidth": 307,
-    "FormatMask": "officiis",
-    "HideLabel": false,
+    "FieldWidth": 902,
+    "FormatMask": "mollitia",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 878,
-    "LabelLeft": 146,
-    "LabelTop": 348,
-    "LabelWidth": 640,
-    "LastVersionId": 551,
-    "ListTableId": 726,
-    "IsMandatory": false,
+    "LabelHeight": 149,
+    "LabelLeft": 130,
+    "LabelTop": 583,
+    "LabelWidth": 426,
+    "LastVersionId": 774,
+    "ListTableId": 541,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 919,
-    "ProgId": "cum",
+    "Page1LineNo": 56,
+    "ProgId": "nulla",
     "IsReadOnly": false,
-    "ShortLabel": "rerum",
-    "TabOrder": 229,
-    "TextLength": 62,
-    "Tooltip": "laboriosam",
-    "UdefIdentity": 75,
-    "UDListDefinitionId": 616,
+    "ShortLabel": "animi",
+    "TabOrder": 626,
+    "TextLength": 542,
+    "Tooltip": "harum",
+    "UdefIdentity": 607,
+    "UDListDefinitionId": 908,
     "Justification": "Center",
-    "Version": 699,
-    "TemplateVariableName": "Connelly Inc and Sons",
+    "Version": 996,
+    "TemplateVariableName": "Grady-Schaefer",
     "HasBeenPublished": true,
-    "MdoListName": "Eichmann LLC",
+    "MdoListName": "Miller-Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 969
+        "FieldType": "System.Int32",
+        "FieldLength": 890
       }
     }
   }

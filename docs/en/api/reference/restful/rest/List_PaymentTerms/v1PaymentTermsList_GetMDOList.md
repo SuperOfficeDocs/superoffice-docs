@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentTerm/MDOItems
 uid: v1PaymentTermsList_GetMDOList
+generated: true
 ---
 
 # GET List/PaymentTerm/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=voluptatem
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=adipisci
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 712,
-    "Name": "Dietrich, Kling and Maggio",
-    "ToolTip": "Ullam harum at dolores aperiam accusantium.",
+    "Id": 364,
+    "Name": "Hahn, Hammes and Heaney",
+    "ToolTip": "Odit esse reiciendis veritatis amet eligendi.",
     "Deleted": false,
-    "Rank": 329,
-    "Type": "et",
+    "Rank": 931,
+    "Type": "numquam",
     "ChildItems": [
       {
-        "Id": 60,
-        "Name": "Pollich-Lockman",
-        "ToolTip": "Id impedit facilis et minima repudiandae rerum.",
+        "Id": 114,
+        "Name": "Okuneva, Brekke and Collier",
+        "ToolTip": "Et earum dignissimos.",
         "Deleted": true,
-        "Rank": 603,
-        "Type": "animi",
+        "Rank": 855,
+        "Type": "nesciunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 486,
-        "ExtraInfo": "ut",
-        "StyleHint": "ut",
-        "FullName": "Alene Lowe V",
+        "IconHint": "dolores",
+        "ColorBlock": 373,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "nam",
+        "FullName": "Prof. Jabari Ortiz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 774
+            "FieldType": "System.String",
+            "FieldLength": 925
           }
         }
       }
     ],
-    "IconHint": "iusto",
-    "ColorBlock": 274,
-    "ExtraInfo": "iure",
-    "StyleHint": "eaque",
-    "FullName": "Domenica Conn",
+    "IconHint": "voluptatem",
+    "ColorBlock": 947,
+    "ExtraInfo": "quis",
+    "StyleHint": "sapiente",
+    "FullName": "Arden Hessel Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 37
       }
     }
   }

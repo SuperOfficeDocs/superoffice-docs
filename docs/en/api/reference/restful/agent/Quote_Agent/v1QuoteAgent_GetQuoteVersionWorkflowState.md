@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuoteVersionWorkflowState
 uid: v1QuoteAgent_GetQuoteVersionWorkflowState
+generated: true
 ---
 
 # POST Agents/Quote/GetQuoteVersionWorkflowState
@@ -82,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 486,
-  "QuoteAlternativeId": 867
+  "QuoteVersionId": 337,
+  "QuoteAlternativeId": 395
 }
 ```
 
@@ -97,16 +98,16 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "quia",
-      "DisplayText": "sed",
-      "TooltipText": "dolorem",
+      "ImageHint": "laboriosam",
+      "DisplayText": "omnis",
+      "TooltipText": "optio",
       "Enabled": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 199
         }
       }
     }
@@ -118,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 238
+      "FieldType": "System.Int32",
+      "FieldLength": 235
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Pocket/GetRegisteredDevices
 uid: v1PocketAgent_GetRegisteredDevices
+generated: true
 ---
 
 # POST Agents/Pocket/GetRegisteredDevices
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 935
+  "AssociateId": 5
 }
 ```
 
@@ -93,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Hoppe LLC",
-    "DeviceIdentifier": "unde",
-    "PocketVersion": "occaecati",
-    "Language": "asperiores",
-    "PNSHandle": "itaque",
+    "DeviceName": "Shanahan LLC",
+    "DeviceIdentifier": "sint",
+    "PocketVersion": "veniam",
+    "Language": "quo",
+    "PNSHandle": "eveniet",
     "Platform": "Apple",
-    "OSVersion": "et",
-    "TimeZoneId": 528
+    "OSVersion": "qui",
+    "TimeZoneId": 385
   }
 ]
 ```

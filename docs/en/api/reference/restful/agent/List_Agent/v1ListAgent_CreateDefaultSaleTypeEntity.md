@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultSaleTypeEntity
 uid: v1ListAgent_CreateDefaultSaleTypeEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultSaleTypeEntity
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 129,
-  "Name": "Conroy-Schaefer",
-  "Tooltip": "neque",
-  "Rank": 710,
+  "SaleTypeId": 648,
+  "Name": "Koepp, Tromp and Tillman",
+  "Tooltip": "quidem",
+  "Rank": 760,
   "DurationUnit": "Century",
-  "SaleDuration": 219,
-  "SaleTypeCatId": 796,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "SaleDuration": 199,
+  "SaleTypeCatId": 356,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 94,
-  "QuoteLinesTemplate": 874,
-  "ConfirmationLinesTemplate": 422,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 373,
-  "MinEarningPercent": 784,
-  "GroupQuoteLinesBy": 13,
-  "SortGroupLinesBy": 159,
+  "DefaultQuoteValidity": 965,
+  "QuoteLinesTemplate": 543,
+  "ConfirmationLinesTemplate": 58,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 195,
+  "MinEarningPercent": 737,
+  "GroupQuoteLinesBy": 398,
+  "SortGroupLinesBy": 616,
   "Stages": [
     {
-      "Id": 493,
-      "Name": "Larkin, Koch and Hermann",
-      "ToolTip": "Non occaecati numquam minus enim.",
+      "Id": 551,
+      "Name": "Schneider-Paucek",
+      "ToolTip": "Quibusdam quam aliquid.",
       "Deleted": true,
-      "Rank": 345,
-      "Type": "et",
-      "ColorBlock": 213,
-      "IconHint": "non",
-      "Selected": true,
-      "LastChanged": "1996-04-23T03:51:27.4904158+02:00",
+      "Rank": 814,
+      "Type": "occaecati",
+      "ColorBlock": 104,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "2003-02-01T16:00:41.2268306+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "illum",
-      "StyleHint": "aspernatur",
-      "Hidden": false,
-      "FullName": "Miss Dax Sipes",
+      "ExtraInfo": "aut",
+      "StyleHint": "accusantium",
+      "Hidden": true,
+      "FullName": "Candida Hand",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 186
+          "FieldType": "System.Int32",
+          "FieldLength": 539
         }
       }
     }
@@ -142,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldType": "System.String",
+      "FieldLength": 819
     }
   }
 }

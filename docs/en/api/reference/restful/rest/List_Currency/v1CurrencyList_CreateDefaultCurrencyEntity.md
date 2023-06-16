@@ -1,6 +1,7 @@
 ---
 title: GET List/Currency/Items/Default
 uid: v1CurrencyList_CreateDefaultCurrencyEntity
+generated: true
 ---
 
 # GET List/Currency/Items/Default
@@ -70,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 840,
-  "Name": "Daniel, Hickle and Metz",
-  "Tooltip": "suscipit",
-  "Rank": 533,
-  "Rate": 17117.908,
-  "Units": 13535.746,
-  "Deleted": true,
+  "CurrencyId": 228,
+  "Name": "Towne-Dicki",
+  "Tooltip": "unde",
+  "Rank": 600,
+  "Rate": 13021.77,
+  "Units": 1222.26,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldType": "System.String",
+      "FieldLength": 23
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/SaveAudienceLayoutEntity
 uid: v1AudienceAgent_SaveAudienceLayoutEntity
+generated: true
 ---
 
 # POST Agents/Audience/SaveAudienceLayoutEntity
@@ -78,11 +79,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 346,
-  "InstanceLayout": "cum",
-  "InstanceName": "Williamson LLC",
-  "CreatedDate": "1999-06-20T03:51:26.5999985+02:00",
-  "UpdatedDate": "2000-10-25T03:51:26.5999985+02:00",
+  "AudienceLayoutId": 1001,
+  "InstanceLayout": "quibusdam",
+  "InstanceName": "Mraz Inc and Sons",
+  "CreatedDate": "2021-01-19T16:00:40.086328+01:00",
+  "UpdatedDate": "2008-01-16T16:00:40.086328+01:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -95,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 624,
-  "InstanceLayout": "aut",
-  "InstanceName": "Ward Group",
-  "CreatedDate": "2005-09-01T03:51:26.5999985+02:00",
-  "UpdatedDate": "2016-12-11T03:51:26.5999985+01:00",
+  "AudienceLayoutId": 759,
+  "InstanceLayout": "quibusdam",
+  "InstanceName": "Stehr, Wolf and Stroman",
+  "CreatedDate": "2009-07-08T16:00:40.086328+02:00",
+  "UpdatedDate": "1999-07-13T16:00:40.086328+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -107,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 912
     }
   }
 }

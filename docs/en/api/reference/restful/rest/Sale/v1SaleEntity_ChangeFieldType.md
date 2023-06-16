@@ -1,6 +1,7 @@
 ---
 title: POST Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 uid: v1SaleEntity_ChangeFieldType
+generated: true
 ---
 
 # POST Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -29,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -113,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 224,
-  "ColumnId": 281,
-  "FieldDefault": "ea",
-  "FieldHeight": 633,
-  "FieldLabel": "quo",
-  "FieldLeft": 453,
-  "FieldTop": 633,
+  "UDefFieldId": 781,
+  "ColumnId": 91,
+  "FieldDefault": "nisi",
+  "FieldHeight": 214,
+  "FieldLabel": "fugit",
+  "FieldLeft": 479,
+  "FieldTop": 760,
   "FieldType": "Checkbox",
-  "FieldWidth": 519,
-  "FormatMask": "earum",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 496,
-  "LabelLeft": 348,
-  "LabelTop": 106,
-  "LabelWidth": 214,
-  "LastVersionId": 444,
-  "ListTableId": 307,
+  "FieldWidth": 977,
+  "FormatMask": "sunt",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 965,
+  "LabelLeft": 981,
+  "LabelTop": 486,
+  "LabelWidth": 523,
+  "LastVersionId": 902,
+  "ListTableId": 168,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 276,
-  "ProgId": "nobis",
-  "IsReadOnly": false,
-  "ShortLabel": "non",
-  "TabOrder": 162,
-  "TextLength": 1001,
-  "Tooltip": "natus",
-  "UdefIdentity": 874,
-  "UDListDefinitionId": 169,
+  "Page1LineNo": 380,
+  "ProgId": "expedita",
+  "IsReadOnly": true,
+  "ShortLabel": "repellat",
+  "TabOrder": 764,
+  "TextLength": 902,
+  "Tooltip": "sapiente",
+  "UdefIdentity": 206,
+  "UDListDefinitionId": 788,
   "Justification": "Center",
-  "Version": 311,
-  "TemplateVariableName": "Rohan LLC",
+  "Version": 639,
+  "TemplateVariableName": "Steuber-Parker",
   "HasBeenPublished": false,
-  "MdoListName": "Okuneva-Langosh",
+  "MdoListName": "Hermann, Dibbert and Tillman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldType": "System.String",
+      "FieldLength": 772
     }
   }
 }

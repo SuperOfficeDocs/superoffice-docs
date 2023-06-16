@@ -1,5 +1,6 @@
 ---
 title: Navigator_Agent
+generated: true
 ---
 
 ```http

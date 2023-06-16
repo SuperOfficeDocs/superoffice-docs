@@ -1,6 +1,7 @@
 ---
 title: GET Product/{id}
 uid: v1Product_GetProductFromDbId
+generated: true
 ---
 
 # GET Product/{id}
@@ -91,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 387,
-  "ERPProductKey": "temporibus",
-  "ERPPriceListKey": "harum",
-  "Name": "Jakubowski-Rempel",
-  "Description": "Distributed discrete approach",
-  "Code": "omnis",
-  "PriceUnit": "officiis",
-  "QuantityUnit": "similique",
+  "ProductId": 127,
+  "ERPProductKey": "error",
+  "ERPPriceListKey": "aspernatur",
+  "Name": "Prosacco-Conroy",
+  "Description": "Organic optimizing benchmark",
+  "Code": "quam",
+  "PriceUnit": "et",
+  "QuantityUnit": "quia",
   "IsSubscription": false,
-  "SubscriptionUnit": "quis",
-  "DefaultSubscriptionQuantity": 7405.642,
-  "ItemNumber": "465451",
+  "SubscriptionUnit": "laborum",
+  "DefaultSubscriptionQuantity": 24495.344,
+  "ItemNumber": "1515670",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "suscipit",
-  "ProductTypeKey": "nemo",
-  "VAT": 5888.786,
-  "VATInfo": "non",
-  "UnitCost": 23222.94,
-  "UnitMinimumPrice": 7537.2699999999995,
-  "UnitListPrice": 12040.828,
+  "ProductFamilyKey": "fuga",
+  "ProductTypeKey": "esse",
+  "VAT": 4149.416,
+  "VATInfo": "iste",
+  "UnitCost": 27347.284,
+  "UnitMinimumPrice": 17008.218,
+  "UnitListPrice": 25510.76,
   "InAssortment": false,
-  "Supplier": "ad",
-  "SupplierCode": "iure",
-  "Rights": "deserunt",
-  "Rule": "ipsam",
+  "Supplier": "illo",
+  "SupplierCode": "eveniet",
+  "Rights": "est",
+  "Rule": "voluptate",
   "ExtraInfo": [
     {
-      "Name": "Shields Group",
-      "Value": "autem",
+      "Name": "Walter-Gusikowski",
+      "Value": "nesciunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 357
+          "FieldType": "System.String",
+          "FieldLength": 197
         }
       }
     },
     {
-      "Name": "Shields Group",
-      "Value": "autem",
+      "Name": "Walter-Gusikowski",
+      "Value": "nesciunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 357
+          "FieldType": "System.String",
+          "FieldLength": 197
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "ExtraField1": "quos",
-  "ExtraField2": "accusamus",
-  "ExtraField3": "ullam",
-  "ExtraField4": "quia",
-  "ExtraField5": "dolores",
-  "InStock": 9599.442,
+  "RawExtraInfo": "exercitationem",
+  "ExtraField1": "sunt",
+  "ExtraField2": "tempora",
+  "ExtraField3": "debitis",
+  "ExtraField4": "quis",
+  "ExtraField5": "vel",
+  "InStock": 72.082,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 314
     }
   }
 }

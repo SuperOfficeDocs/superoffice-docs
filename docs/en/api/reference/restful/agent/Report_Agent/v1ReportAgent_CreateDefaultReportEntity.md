@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Report/CreateDefaultReportEntity
 uid: v1ReportAgent_CreateDefaultReportEntity
+generated: true
 ---
 
 # POST Agents/Report/CreateDefaultReportEntity
@@ -63,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 23,
+  "ReportId": 715,
   "ReportCategory": "All",
-  "Description": "Adaptive zero defect local area network",
+  "Description": "Balanced background intranet",
   "ReportLayout": "CalendarMonth",
-  "Name": "Jast, Balistreri and Cummerata",
-  "AssociateId": 980,
-  "TemplateId": 265,
-  "Published": false,
+  "Name": "Hintz-Hintz",
+  "AssociateId": 763,
+  "TemplateId": 468,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 859
+      "FieldType": "System.Int32",
+      "FieldLength": 194
     }
   }
 }

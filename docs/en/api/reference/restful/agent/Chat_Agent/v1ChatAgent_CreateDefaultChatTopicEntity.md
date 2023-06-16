@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/CreateDefaultChatTopicEntity
 uid: v1ChatAgent_CreateDefaultChatTopicEntity
+generated: true
 ---
 
 # POST Agents/Chat/CreateDefaultChatTopicEntity
@@ -86,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 551,
-  "Name": "Schuppe, Windler and Boyle",
-  "Description": "Fundamental 3rd generation archive",
-  "WelcomeMessage": "cupiditate",
+  "ChatTopicId": 134,
+  "Name": "Bosco, Ritchie and Gibson",
+  "Description": "Re-contextualized motivating framework",
+  "WelcomeMessage": "laborum",
   "Language": null,
-  "LastAccept": "2014-01-21T03:51:26.6624841+01:00",
-  "SecondsPrAccept": 704,
-  "AlertRecipient": "aut",
+  "LastAccept": "1999-06-10T16:00:40.1644405+02:00",
+  "SecondsPrAccept": 295,
+  "AlertRecipient": "dolorum",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "dolorum",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 757,
-  "WarnManagerNewChatMinutes": 859,
+  "BadgeHeader": "qui",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "ad",
+  "WarnNewChatMinutes": 635,
+  "WarnManagerNewChatMinutes": 861,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 400,
-  "WarnManagerChatMessageMinutes": 498,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 707,
-  "OfflineFormQueueLength": 272,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 541,
+  "WarnManagerChatMessageMinutes": 169,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 787,
+  "OfflineFormQueueLength": 535,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "nemo",
+  "WidgetRatingText": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldType": "System.String",
+      "FieldLength": 60
     }
   }
 }

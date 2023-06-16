@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/CreateNewEntry
 uid: v1ContactAgent_CreateNewEntry
+generated: true
 ---
 
 # POST Agents/Contact/CreateNewEntry
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-245
+107
 ```

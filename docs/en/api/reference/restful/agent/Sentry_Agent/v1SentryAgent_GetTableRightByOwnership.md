@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sentry/GetTableRightByOwnership
 uid: v1SentryAgent_GetTableRightByOwnership
+generated: true
 ---
 
 # POST Agents/Sentry/GetTableRightByOwnership
@@ -73,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hills LLC",
-  "ContactGroupId": 902,
-  "ContactAssociateId": 632
+  "TableName": "Deckow, Koelpin and Rosenbaum",
+  "ContactGroupId": 1002,
+  "ContactAssociateId": 112
 }
 ```
 
@@ -91,6 +92,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": ""
+  "Reason": "engage web-enabled solutions"
 }
 ```

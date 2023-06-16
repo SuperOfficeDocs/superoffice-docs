@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetSuggestedAppointment
 uid: v1AppointmentAgent_GetSuggestedAppointment
+generated: true
 ---
 
 # POST Agents/Appointment/GetSuggestedAppointment
@@ -25,7 +26,7 @@ Gets a SuggestedAppointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=309
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=349
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
 
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,26 +90,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 644,
-  "Deleted": 404,
-  "DaysFuture": 329,
-  "Tooltip": "inventore",
-  "Text": "consequuntur",
-  "TaskId": 634,
-  "SuggestedAppointmentId": 727,
-  "SaleTypeStageLinkId": 712,
-  "RegisteredAssociateId": 995,
-  "Rank": 847,
-  "ProjectTypeStatusLinkId": 657,
-  "Name": "Watsica-Gorczany",
-  "Duration": 587,
+  "AutoSuggest": 192,
+  "Deleted": 688,
+  "DaysFuture": 360,
+  "Tooltip": "qui",
+  "Text": "itaque",
+  "TaskId": 546,
+  "SuggestedAppointmentId": 494,
+  "SaleTypeStageLinkId": 438,
+  "RegisteredAssociateId": 24,
+  "Rank": 623,
+  "ProjectTypeStatusLinkId": 235,
+  "Name": "Hammes Group",
+  "Duration": 609,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 14
     }
   }
 }

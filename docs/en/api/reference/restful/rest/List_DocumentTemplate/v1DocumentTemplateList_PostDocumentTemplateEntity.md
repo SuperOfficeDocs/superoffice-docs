@@ -1,6 +1,7 @@
 ---
 title: POST List/DocumentTemplate/Items
 uid: v1DocumentTemplateList_PostDocumentTemplateEntity
+generated: true
 ---
 
 # POST List/DocumentTemplate/Items
@@ -112,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 857,
-  "Name": "Kirlin, Durgan and Stanton",
-  "Tooltip": "rerum",
-  "SaveInDb": 519,
-  "Filename": "nostrum",
-  "DefaultOref": "facere",
+  "DocumentTemplateId": 589,
+  "Name": "Quitzon, Nienow and Tillman",
+  "Tooltip": "minus",
+  "SaveInDb": 86,
+  "Filename": "aut",
+  "DefaultOref": "qui",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 93,
-  "IntentId": 679,
+  "AutoeventId": 507,
+  "IntentId": 567,
   "IsDefaultPublished": true,
-  "Rank": 265,
-  "LoadTemplateFromPlugin": 962,
+  "Rank": 703,
+  "LoadTemplateFromPlugin": 722,
   "MimeType": "est",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 240,
+  "DocumentTypeKey": 738,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "elsie@kuhlman.biz",
+  "EmailSubject": "sadye.windler@mcdermott.ca",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "katelyn@monahanlittle.name",
+  "SenderEmailAddress": "frieda@reynolds.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -151,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 472,
-  "Name": "Hartmann, Borer and Mraz",
-  "Tooltip": "eveniet",
-  "SaveInDb": 685,
-  "Filename": "provident",
-  "DefaultOref": "iste",
+  "DocumentTemplateId": 242,
+  "Name": "Nicolas-Tromp",
+  "Tooltip": "dolorum",
+  "SaveInDb": 755,
+  "Filename": "laboriosam",
+  "DefaultOref": "quaerat",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 343,
-  "IntentId": 226,
+  "AutoeventId": 386,
+  "IntentId": 472,
   "IsDefaultPublished": false,
-  "Rank": 923,
-  "LoadTemplateFromPlugin": 707,
-  "MimeType": "quidem",
+  "Rank": 421,
+  "LoadTemplateFromPlugin": 998,
+  "MimeType": "est",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 634,
+  "DocumentTypeKey": 620,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cielo@lockman.name",
-  "IncludeSignature": true,
+  "EmailSubject": "donato_feest@olsonanderson.info",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "sandy@wuckertturcotte.com",
+  "SenderEmailAddress": "carmella@boganjenkins.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 122
+      "FieldLength": 11
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuote
 uid: v1QuoteAgent_GetQuote
+generated: true
 ---
 
 # POST Agents/Quote/GetQuote
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 159
+  "QuoteId": 373
 }
 ```
 
@@ -100,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 580,
-  "SaleId": 493,
-  "QuoteConnectionId": 480,
-  "ERPQuoteKey": "enim",
-  "ERPOrderKey": "velit",
-  "ActiveQuoteVersionId": 314,
-  "AcceptedQuoteAlternativeId": 387,
-  "UseValuesFromQuote": 253,
-  "DocumentId": 825,
-  "PoNumber": "1031330",
-  "OrderComment": "consequatur",
-  "PreferredEmailCulture": "ewald_steuber@kulaswelch.co.uk",
+  "QuoteId": 736,
+  "SaleId": 516,
+  "QuoteConnectionId": 270,
+  "ERPQuoteKey": "quia",
+  "ERPOrderKey": "quisquam",
+  "ActiveQuoteVersionId": 471,
+  "AcceptedQuoteAlternativeId": 581,
+  "UseValuesFromQuote": 715,
+  "DocumentId": 288,
+  "PoNumber": "686895",
+  "OrderComment": "perspiciatis",
+  "PreferredEmailCulture": "jaydon_boyer@wunsch.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 249
     }
   }
 }

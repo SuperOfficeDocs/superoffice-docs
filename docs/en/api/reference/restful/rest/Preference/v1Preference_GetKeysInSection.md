@@ -1,6 +1,7 @@
 ---
 title: GET Preference/{section}
 uid: v1Preference_GetKeysInSection
+generated: true
 ---
 
 # GET Preference/{section}
@@ -71,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Hoppe Group",
-    "ToolTip": "Est consequatur error explicabo voluptatum est dolorum.",
+    "Id": 987,
+    "Name": "Cassin, O'Connell and Purdy",
+    "ToolTip": "In sed debitis quos et.",
     "Deleted": false,
-    "Rank": 887,
-    "Type": "reiciendis",
+    "Rank": 967,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 161,
-        "Name": "Lockman-Ruecker",
-        "ToolTip": "Omnis enim sunt odio at ut soluta et.",
+        "Id": 11,
+        "Name": "Stark, Keebler and Schaden",
+        "ToolTip": "Sit dolor est voluptas.",
         "Deleted": true,
-        "Rank": 931,
-        "Type": "sint",
+        "Rank": 150,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 144,
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "natus",
-        "FullName": "Dashawn Hand IV",
+        "IconHint": "error",
+        "ColorBlock": 41,
+        "ExtraInfo": "totam",
+        "StyleHint": "quaerat",
+        "FullName": "Mr. Jasen Raegan Krajcik IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 753
+            "FieldLength": 289
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 810,
-    "ExtraInfo": "quis",
-    "StyleHint": "voluptatum",
-    "FullName": "Gerhard Botsford",
+    "IconHint": "et",
+    "ColorBlock": 114,
+    "ExtraInfo": "asperiores",
+    "StyleHint": "et",
+    "FullName": "Prof. Carolanne Collin Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldLength": 386
       }
     }
   }

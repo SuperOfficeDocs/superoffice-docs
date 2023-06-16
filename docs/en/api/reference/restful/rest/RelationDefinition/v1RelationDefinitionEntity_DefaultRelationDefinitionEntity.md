@@ -1,6 +1,7 @@
 ---
 title: GET RelationDefinition/default
 uid: v1RelationDefinitionEntity_DefaultRelationDefinitionEntity
+generated: true
 ---
 
 # GET RelationDefinition/default
@@ -73,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 421,
-  "Name": "Stokes LLC",
-  "Tooltip": "earum",
-  "PassiveText": "praesentium",
-  "Deleted": true,
-  "Rank": 675,
+  "ReldefId": 156,
+  "Name": "Heller LLC",
+  "Tooltip": "quidem",
+  "PassiveText": "explicabo",
+  "Deleted": false,
+  "Rank": 103,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldType": "System.Int32",
+      "FieldLength": 465
     }
   }
 }

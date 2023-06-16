@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Replication/GetAreaList
 uid: v1ReplicationAgent_GetAreaList
+generated: true
 ---
 
 # POST Agents/Replication/GetAreaList
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 679,
-    "Name": "Herman-Gutmann",
-    "MaxDataAge": 832,
-    "NumberOfUsers": 386,
-    "NumberOfLogins": 483,
-    "FreetextEnabeled": false,
+    "AreaId": 541,
+    "Name": "Klein, Nikolaus and Quigley",
+    "MaxDataAge": 687,
+    "NumberOfUsers": 272,
+    "NumberOfLogins": 962,
+    "FreetextEnabeled": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldType": "System.String",
+        "FieldLength": 976
       }
     }
   }

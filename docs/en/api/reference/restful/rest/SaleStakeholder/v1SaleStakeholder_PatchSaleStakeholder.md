@@ -1,6 +1,7 @@
 ---
 title: PATCH SaleStakeholder/{id}
 uid: v1SaleStakeholder_PatchSaleStakeholder
+generated: true
 ---
 
 # PATCH SaleStakeholder/{id}
@@ -131,12 +132,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ea",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ea",
+    "path": "et",
     "value": {}
   }
 ]
@@ -149,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Spencer, Monahan and Wolff",
-  "Comment": "voluptate",
-  "StakeholderRoleId": 71,
-  "CountryId": 62,
-  "PersonId": 911,
-  "EmailDescription": "beau@jenkins.info",
-  "EmailId": 909,
-  "EmailAddress": "shaylee@abshiregreen.uk",
-  "PhoneId": 52,
-  "ContactName": "Morar-Durgan",
-  "ContactId": 360,
-  "SaleId": 826,
-  "Mrmrs": "rerum",
-  "Firstname": "Jewell",
-  "MiddleName": "Lemke Group",
-  "Lastname": "Cruickshank",
-  "SaleStakeholderId": 281,
-  "Rank": 498,
-  "Phone": "692-491-5342 x269",
+  "StakeholderRoleName": "Hilll LLC",
+  "Comment": "fugiat",
+  "StakeholderRoleId": 671,
+  "CountryId": 837,
+  "PersonId": 337,
+  "EmailDescription": "kitty@willmslakin.uk",
+  "EmailId": 1002,
+  "EmailAddress": "willa@hagenes.com",
+  "PhoneId": 980,
+  "ContactName": "Schroeder Inc and Sons",
+  "ContactId": 3,
+  "SaleId": 448,
+  "Mrmrs": "ut",
+  "Firstname": "Tristin",
+  "MiddleName": "Nitzsche, Farrell and Jones",
+  "Lastname": "O'Kon",
+  "SaleStakeholderId": 623,
+  "Rank": 549,
+  "Phone": "306-040-5949 x7153",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 292
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   },
   "_Links": {

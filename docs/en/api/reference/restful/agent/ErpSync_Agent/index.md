@@ -1,5 +1,6 @@
 ---
 title: ErpSync_Agent
+generated: true
 ---
 
 ```http

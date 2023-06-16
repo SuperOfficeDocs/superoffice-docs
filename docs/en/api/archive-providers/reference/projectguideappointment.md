@@ -2,17 +2,10 @@
 uid: ProjectGuideAppointment
 title: ProjectGuideAppointment
 description: Specific provider for Project Guide Items of type Appointment
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ProjectGuideAppointment"
+keywords: ProjectGuideAppointment archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ProjectGuideAppointment"
@@ -134,6 +127,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/contactFax/description|string|Fax - Description: Phone number description| x |
 |appointmentInstance/contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |appointmentInstance/contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |appointmentInstance/contact/email/emailAddress|string|E-mail| x |
 |appointmentInstance/contact/email/emailDescription|string|Description| x |
@@ -234,6 +231,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
@@ -334,6 +335,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |appointmentInstance/person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |appointmentInstance/person/email/emailAddress|string|E-mail| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/person/email/emailDescription|string|Description| x |
 |appointmentInstance/person/email/emailId|int|ID| x |
 |appointmentInstance/person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
@@ -434,6 +439,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |appointmentInstance/person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |appointmentInstance/person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |appointmentInstance/person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |appointmentInstance/person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
@@ -534,6 +543,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |appointmentInstance/project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |appointmentInstance/project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |appointmentInstance/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |appointmentInstance/project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
@@ -634,6 +647,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/associate/firstName|string|First name: Displays the contact's first name| x |
 |appointmentInstance/sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |appointmentInstance/sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |appointmentInstance/sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |appointmentInstance/sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
@@ -705,7 +722,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/contact/contactAssociate/usergroup,appointmentInstance/contact/LastTicket,appointmentInstance/sale/registeredDate
+GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/contact/nameDepartment,appointmentInstance/contact/updatedByFullName,appointmentInstance/contact/postAddress/city,appointmentInstance/contact/streetAddress/wgs84latitude,appointmentInstance/contact/LastDoByActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

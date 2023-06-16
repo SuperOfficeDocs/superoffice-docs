@@ -1,6 +1,7 @@
 ---
 title: DEL List/Country/Headings
 uid: v1CountryList_DeleteCountryHeadings
+generated: true
 ---
 
 # DEL List/Country/Headings

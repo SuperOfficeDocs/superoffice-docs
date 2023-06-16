@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetMySyncAppointments
 uid: v1AppointmentAgent_GetMySyncAppointments
+generated: true
 ---
 
 # POST Agents/Appointment/GetMySyncAppointments
@@ -100,12 +101,12 @@ OK
 POST /api/v1/Agents/Appointment/GetMySyncAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2012-03-17T03:51:26.1469713+01:00",
-  "EndTime": "1998-06-24T03:51:26.1469713+02:00"
+  "StartTime": "2002-10-18T16:00:39.6488525+02:00",
+  "EndTime": "2016-09-14T16:00:39.6488525+02:00"
 }
 ```
 
@@ -117,72 +118,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AlarmTime": "2008-09-09T03:51:26.1469713+02:00",
-    "AppointmentId": 871,
-    "AppointmentText": "qui",
+    "AlarmTime": "2002-02-12T16:00:39.6644704+01:00",
+    "AppointmentId": 998,
+    "AppointmentText": "nemo",
     "ContactDepartment": "",
-    "ContactFullName": "Yessenia George Brakus DVM",
-    "ContactName": "Jacobson, Berge and Cruickshank",
-    "ContactId": 800,
-    "EndDate": "2007-11-17T03:51:26.1469713+01:00",
+    "ContactFullName": "Dejah Beatty IV",
+    "ContactName": "Bartoletti Inc and Sons",
+    "ContactId": 295,
+    "EndDate": "2019-07-20T16:00:39.6644704+02:00",
     "HasAlarm": false,
     "IsAllDay": true,
     "IsAssignment": false,
     "IsBusy": true,
-    "IsCompleted": true,
+    "IsCompleted": false,
     "IsInvitation": true,
     "IsTentative": false,
-    "Location": "tempora",
+    "Location": "aut",
     "Participants": [
       {
-        "PersonId": 388,
-        "PersonFirstName": "Torphy, Hagenes and Toy",
-        "PersonMiddleName": "Champlin Inc and Sons",
-        "PersonLastname": "Weimann",
-        "PersonMrmrs": "in",
-        "PersonTitle": "accusantium",
-        "PersonPosition": "eligendi",
-        "PersonAcademicTitle": "itaque",
-        "PersonFormalName": "Gorczany-Green",
-        "PersonFullName": "Annabell Bashirian",
-        "ContactId": 853,
-        "ContactName": "Turcotte Group",
+        "PersonId": 472,
+        "PersonFirstName": "Grant Group",
+        "PersonMiddleName": "Casper, Haley and Reichert",
+        "PersonLastname": "Pfeffer",
+        "PersonMrmrs": "ab",
+        "PersonTitle": "voluptatem",
+        "PersonPosition": "nobis",
+        "PersonAcademicTitle": "aut",
+        "PersonFormalName": "Monahan LLC",
+        "PersonFullName": "Katlynn Keebler",
+        "ContactId": 16,
+        "ContactName": "Luettgen LLC",
         "ContactDepartment": "",
         "ContactBusiness": "Information Technology",
         "ContactCountry": "Sokovia",
         "ContactCategory": "VIP Customer",
-        "ContactFullName": "Stephanie Schuppe",
+        "ContactFullName": "Dexter Cremin",
         "EMail": [
-          "cupiditate",
-          "omnis"
+          "ab",
+          "nostrum"
         ],
         "PhonePrivate": [
-          "583-420-1559",
-          "1-655-259-2800 x450"
+          "004.661.0941",
+          "158-233-0876 x61123"
         ],
         "PhoneFax": [
-          "1-610-945-4484 x06891",
-          "1-186-382-3833 x320"
+          "823-673-1508 x917",
+          "869.665.6513 x513"
         ],
         "PhoneMobile": [
-          "1-662-921-2881 x65505",
-          "1-850-655-9876 x8860"
+          "(966)692-2143 x04863",
+          "772.598.4429 x182"
         ],
         "PhoneDirect": [
-          "728.485.8088 x6405",
-          "(462)887-5795"
+          "833.850.5941 x235",
+          "1-852-115-9098 x5978"
         ],
         "PhoneContact": [
-          "1-599-704-4618",
-          "556-454-3212 x1225"
+          "(914)219-9736",
+          "(705)039-5202 x1518"
         ],
         "Messenger": [
-          "eaque",
-          "nesciunt"
+          "rerum",
+          "nihil"
         ],
         "Voip": [
-          "laboriosam",
-          "ullam"
+          "perspiciatis",
+          "quidem"
         ],
         "ContactUrl": [
           "http://www.example.com/",
@@ -202,27 +203,27 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 639
+            "FieldType": "System.Int32",
+            "FieldLength": 855
           }
         }
       }
     ],
-    "PersonFormalName": "Beer, Sanford and Turner",
-    "PersonFullName": "Miss Berenice Marlin Moore",
-    "PersonId": 971,
-    "ProjectId": 481,
-    "ProjectName": "Smitham, Gutmann and Quigley",
-    "SaleId": 291,
-    "SaleName": "Kuvalis-Nitzsche",
-    "StartDate": "1999-01-27T03:51:26.1469713+01:00",
-    "TaskName": "Fahey-Auer",
+    "PersonFormalName": "Harris-Rutherford",
+    "PersonFullName": "Johnpaul Bertha Kunde DDS",
+    "PersonId": 185,
+    "ProjectId": 273,
+    "ProjectName": "Shanahan, Ratke and Volkman",
+    "SaleId": 960,
+    "SaleName": "King, Prosacco and Leuschke",
+    "StartDate": "2013-12-17T16:00:39.6644704+01:00",
+    "TaskName": "Kuhn LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 204
       }
     }
   }

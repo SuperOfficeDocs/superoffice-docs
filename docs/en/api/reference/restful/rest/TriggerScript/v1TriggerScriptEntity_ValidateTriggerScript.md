@@ -1,6 +1,7 @@
 ---
 title: GET TriggerScript/{id}/Validate
 uid: v1TriggerScriptEntity_ValidateTriggerScript
+generated: true
 ---
 
 # GET TriggerScript/{id}/Validate
@@ -75,13 +76,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "porro",
+  "ErrorMessage": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 961
+      "FieldType": "System.Int32",
+      "FieldLength": 601
     }
   }
 }

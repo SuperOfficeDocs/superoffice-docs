@@ -2,17 +2,10 @@
 uid: FreetextProject
 title: FreetextProject
 description: Archive provider for freetext search on the Project entity.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "FreetextProject"
+keywords: FreetextProject archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "FreetextProject"
@@ -138,12 +131,16 @@ as well as before any ORDER BY, are applied.
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
 |project/textId|int|Text ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextProject?$select=NumberOfNotCompletedSalesInPeriod,projectEvent/hasSignOff,projectAssociate/role
+GET /api/v1/archive/FreetextProject?$select=projectEvent/hasSignOff,projectAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

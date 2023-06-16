@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetConnectionsAndDisplayFields
 uid: v1ErpSyncAgent_GetConnectionsAndDisplayFields
+generated: true
 ---
 
 # POST Agents/ErpSync/GetConnectionsAndDisplayFields
@@ -86,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 668
+  "EntityId": 17
 }
 ```
 
@@ -98,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 299,
-    "ConnectionName": "Wilkinson-Wisozk",
+    "ErpConnectionId": 772,
+    "ConnectionName": "McCullough Group",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "autem",
-        "Rank": 742,
-        "DisplayName": "Mayert, Baumbach and Hyatt",
-        "DisplayDescription": "Optional 24/7 projection",
+        "FieldKey": "laudantium",
+        "Rank": 454,
+        "DisplayName": "Keebler-Kiehn",
+        "DisplayDescription": "Decentralized discrete orchestration",
         "FieldType": "Checkbox",
-        "ListName": "Block LLC",
-        "DefaultValue": "ipsam",
-        "MaxLength": 597,
+        "ListName": "Dicki-Hansen",
+        "DefaultValue": "est",
+        "MaxLength": 28,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 583
+            "FieldType": "System.Int32",
+            "FieldLength": 649
           }
         }
       }
@@ -126,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "quae",
-      "sed"
+      "iure",
+      "rerum"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldType": "System.String",
+        "FieldLength": 436
       }
     }
   }

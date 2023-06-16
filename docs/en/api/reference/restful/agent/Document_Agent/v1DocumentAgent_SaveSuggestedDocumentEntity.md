@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/SaveSuggestedDocumentEntity
 uid: v1DocumentAgent_SaveSuggestedDocumentEntity
+generated: true
 ---
 
 # POST Agents/Document/SaveSuggestedDocumentEntity
@@ -82,17 +83,17 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 22,
-  "Name": "Stoltenberg Inc and Sons",
-  "Tooltip": "rem",
-  "Rank": 453,
-  "DoctmplId": 804,
-  "Header": "suscipit",
-  "OurRef": "quos",
+  "SuggestedDocumentId": 219,
+  "Name": "Murphy Inc and Sons",
+  "Tooltip": "est",
+  "Rank": 235,
+  "DoctmplId": 139,
+  "Header": "sapiente",
+  "OurRef": "qui",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -107,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 221,
-  "Name": "Berge Inc and Sons",
-  "Tooltip": "qui",
-  "Rank": 53,
-  "DoctmplId": 93,
-  "Header": "qui",
-  "OurRef": "rerum",
-  "Deleted": false,
+  "SuggestedDocumentId": 320,
+  "Name": "O'Keefe, Schmidt and Huel",
+  "Tooltip": "recusandae",
+  "Rank": 286,
+  "DoctmplId": 447,
+  "Header": "enim",
+  "OurRef": "veritatis",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -122,8 +123,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 172
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

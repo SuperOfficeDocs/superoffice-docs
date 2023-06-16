@@ -1,6 +1,7 @@
 ---
 title: GET Contact/{id}/Imageinfo
 uid: v1ContactEntity_GetImageInfo
+generated: true
 ---
 
 # GET Contact/{id}/Imageinfo
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 21 Apr 2011 03:51:33 G4T
+Last-Modified: Thu, 14 Dec 2000 16:00:47 G12T
 
 {
-  "BlobId": 13,
-  "BlobSize": 220,
-  "Description": "Horizontal zero tolerance frame",
-  "ExtraInfo": "et",
+  "BlobId": 487,
+  "BlobSize": 473,
+  "Description": "Cross-group clear-thinking hierarchy",
+  "ExtraInfo": "dolorem",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "recusandae",
-  "OriginalSize": 795,
-  "CreatedDate": "2011-04-10T03:51:33.2554342+02:00",
-  "UpdatedDate": "2011-04-21T03:51:33.2554342+02:00",
+  "MimeType": "tempore",
+  "OriginalSize": 694,
+  "CreatedDate": "2011-12-25T16:00:47.6959793+01:00",
+  "UpdatedDate": "2000-12-14T16:00:47.6959793+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consectetur",
+  "ConceptualType": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 81
+      "FieldType": "System.Int32",
+      "FieldLength": 978
     }
   }
 }

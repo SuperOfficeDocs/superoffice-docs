@@ -1,7 +1,7 @@
 ---
 title: Services88.CRMScriptAgent SOAP
 uid: Services88-CRMScript-soap
-generated: 1
+generated: true
 ---
 
 # Services88 CRMScript SOAP

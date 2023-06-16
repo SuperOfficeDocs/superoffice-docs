@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectStatus/MDOItems
 uid: v1ProjectStatusList_GetMDOList
+generated: true
 ---
 
 # GET List/ProjectStatus/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=eos
+GET /api/v1/List/ProjectStatus/MDOItems?query=id
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 435,
-    "Name": "Gutkowski Inc and Sons",
-    "ToolTip": "Ipsa deleniti voluptate tempora voluptatem.",
+    "Id": 492,
+    "Name": "Davis, Larkin and Christiansen",
+    "ToolTip": "Illum consequatur voluptatem ut voluptatibus.",
     "Deleted": false,
-    "Rank": 88,
-    "Type": "adipisci",
+    "Rank": 605,
+    "Type": "maiores",
     "ChildItems": [
       {
-        "Id": 305,
-        "Name": "Boyle, Green and Dach",
-        "ToolTip": "Et molestiae quasi.",
+        "Id": 322,
+        "Name": "Hoppe Group",
+        "ToolTip": "Et repudiandae dolores facilis ut.",
         "Deleted": false,
-        "Rank": 65,
-        "Type": "aut",
+        "Rank": 752,
+        "Type": "accusamus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 142,
-        "ExtraInfo": "omnis",
-        "StyleHint": "qui",
-        "FullName": "Amie Kihn",
+        "IconHint": "commodi",
+        "ColorBlock": 311,
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatem",
+        "FullName": "Lue Luis Lakin MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 191
+            "FieldLength": 560
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 751,
-    "ExtraInfo": "aut",
-    "StyleHint": "nihil",
-    "FullName": "Keagan Mayert",
+    "IconHint": "non",
+    "ColorBlock": 754,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "nam",
+    "FullName": "Prof. Domenic Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 842
+        "FieldLength": 647
       }
     }
   }

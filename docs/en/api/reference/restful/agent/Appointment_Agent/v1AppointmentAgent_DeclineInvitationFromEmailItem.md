@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/DeclineInvitationFromEmailItem
 uid: v1AppointmentAgent_DeclineInvitationFromEmailItem
+generated: true
 ---
 
 # POST Agents/Appointment/DeclineInvitationFromEmailItem
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 256,
+  "EmailItemId": 29,
   "RejectReason": ""
 }
 ```

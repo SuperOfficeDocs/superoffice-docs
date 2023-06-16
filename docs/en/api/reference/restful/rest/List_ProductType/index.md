@@ -1,5 +1,6 @@
 ---
 title: List_ProductType
+generated: true
 ---
 
 ```http

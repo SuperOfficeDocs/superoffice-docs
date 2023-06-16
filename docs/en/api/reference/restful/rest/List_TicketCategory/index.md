@@ -1,5 +1,6 @@
 ---
 title: List_TicketCategory
+generated: true
 ---
 
 ```http

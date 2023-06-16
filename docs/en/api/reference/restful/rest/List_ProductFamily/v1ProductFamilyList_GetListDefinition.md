@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductFamily
 uid: v1ProductFamilyList_GetListDefinition
+generated: true
 ---
 
 # GET List/ProductFamily
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 746,
-  "Name": "Balistreri-Dietrich",
-  "Tooltip": "amet",
-  "Deleted": false,
-  "Rank": 516,
-  "IsCustomList": false,
+  "Id": 697,
+  "Name": "Jenkins Inc and Sons",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 627,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "vel",
+  "ListType": "quam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldType": "System.String",
+      "FieldLength": 462
     }
   },
   "_Links": {

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/CreateDefaultAttachmentEntity
 uid: v1TicketAgent_CreateDefaultAttachmentEntity
+generated: true
 ---
 
 # POST Agents/Ticket/CreateDefaultAttachmentEntity
@@ -62,7 +63,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 654,
-  "Name": "Walter-Carroll",
-  "ContentType": "mollitia",
+  "AttachmentId": 367,
+  "Name": "Ziemann, Bailey and Kertzmann",
+  "ContentType": "vero",
   "AttSize": 377,
   "InlineImage": true,
-  "ContentId": "vero",
-  "AuthKey": "natus",
+  "ContentId": "et",
+  "AuthKey": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 719
+      "FieldType": "System.Int32",
+      "FieldLength": 837
     }
   }
 }

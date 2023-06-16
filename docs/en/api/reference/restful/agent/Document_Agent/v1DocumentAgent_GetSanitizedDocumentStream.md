@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetSanitizedDocumentStream
 uid: v1DocumentAgent_GetSanitizedDocumentStream
+generated: true
 ---
 
 # POST Agents/Document/GetSanitizedDocumentStream
@@ -73,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 730
+  "DocumentId": 29
 }
 ```
 

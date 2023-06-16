@@ -1,6 +1,7 @@
 ---
 title: PUT List/DeliveryType/Items/{id}/UserGroups
 uid: v1DeliveryTypeList_PutDeliveryTypeUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/DeliveryType/Items/{id}/UserGroups
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Schroeder, Kuhlman and Jakubowski",
-    "ToolTip": "Quam et consequuntur non.",
-    "Deleted": false,
-    "Rank": 702,
-    "Type": "doloribus",
-    "ColorBlock": 96,
-    "IconHint": "aliquam",
+    "Id": 763,
+    "Name": "Grant, Harber and Bailey",
+    "ToolTip": "Voluptas id hic aut veniam.",
+    "Deleted": true,
+    "Rank": 351,
+    "Type": "laudantium",
+    "ColorBlock": 358,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2008-08-27T03:51:34.6770975+02:00",
+    "LastChanged": "1996-06-05T16:00:49.0083336+02:00",
     "ChildItems": [
       {
-        "Id": 628,
-        "Name": "Braun, Bogisich and Thompson",
-        "ToolTip": "Suscipit eum voluptatem illo ea animi consequatur labore.",
+        "Id": 474,
+        "Name": "Leffler, Tromp and Adams",
+        "ToolTip": "Facere est et aspernatur dicta unde sint sed.",
         "Deleted": false,
-        "Rank": 134,
-        "Type": "minima",
-        "ColorBlock": 302,
-        "IconHint": "id",
+        "Rank": 588,
+        "Type": "veniam",
+        "ColorBlock": 319,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2014-01-08T03:51:34.6770975+01:00",
+        "LastChanged": "2019-12-11T16:00:49.0083336+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "et",
+        "ExtraInfo": "aut",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Mr. Rigoberto Maymie Walker"
+        "FullName": "Milford Treutel"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "explicabo",
+    "ExtraInfo": "eius",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Mr. Cameron Haley Emmerich"
+    "FullName": "Miss Providenci Niko Krajcik DVM"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Jerde Group",
-    "ToolTip": "Nobis et neque ea nulla eum.",
+    "Id": 473,
+    "Name": "Kautzer, Moen and Kunze",
+    "ToolTip": "Culpa omnis accusantium quas quam ut sunt dolor.",
     "Deleted": true,
-    "Rank": 631,
-    "Type": "ratione",
-    "ColorBlock": 296,
-    "IconHint": "eligendi",
+    "Rank": 599,
+    "Type": "omnis",
+    "ColorBlock": 516,
+    "IconHint": "totam",
     "Selected": true,
-    "LastChanged": "2013-06-18T03:51:34.6770975+02:00",
+    "LastChanged": "2012-11-03T16:00:49.0083336+01:00",
     "ChildItems": [
       {
-        "Id": 740,
-        "Name": "O'Hara Group",
-        "ToolTip": "Quia earum natus saepe asperiores a consequatur dolores.",
-        "Deleted": false,
-        "Rank": 191,
-        "Type": "sed",
-        "ColorBlock": 831,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2018-11-14T03:51:34.6770975+01:00",
+        "Id": 95,
+        "Name": "Streich, Renner and Cormier",
+        "ToolTip": "Iure qui atque veritatis nostrum quo.",
+        "Deleted": true,
+        "Rank": 608,
+        "Type": "numquam",
+        "ColorBlock": 580,
+        "IconHint": "error",
+        "Selected": false,
+        "LastChanged": "2007-07-30T16:00:49.0083336+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "David Glover",
+        "FullName": "Prof. Cathryn Jacobs",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldType": "System.String",
+            "FieldLength": 455
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "fugiat",
-    "Hidden": true,
-    "FullName": "Emerson Kohler",
+    "ExtraInfo": "nulla",
+    "StyleHint": "eius",
+    "Hidden": false,
+    "FullName": "Prof. Christiana Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldLength": 639
       }
     }
   }

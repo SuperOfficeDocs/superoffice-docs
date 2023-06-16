@@ -2,17 +2,10 @@
 uid: AppointmentAcceptedNotification
 title: AppointmentAcceptedNotification
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "AppointmentAcceptedNotification"
+keywords: AppointmentAcceptedNotification archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "AppointmentAcceptedNotification"
@@ -49,7 +42,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentAcceptedNotification?$select=id,title,endDateTime
+GET /api/v1/archive/AppointmentAcceptedNotification?$select=title,endDateTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

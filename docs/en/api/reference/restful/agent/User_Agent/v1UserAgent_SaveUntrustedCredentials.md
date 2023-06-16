@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/SaveUntrustedCredentials
 uid: v1UserAgent_SaveUntrustedCredentials
+generated: true
 ---
 
 # POST Agents/User/SaveUntrustedCredentials
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/User/SaveUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "in",
+  "Type": "esse",
   "Credentials": null
 }
 ```

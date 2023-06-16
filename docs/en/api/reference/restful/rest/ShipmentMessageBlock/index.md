@@ -1,5 +1,6 @@
 ---
 title: ShipmentMessageBlock
+generated: true
 ---
 
 ```http

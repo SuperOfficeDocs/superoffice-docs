@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/AddNewTileToDashboard
 uid: v1DashAgent_AddNewTileToDashboard
+generated: true
 ---
 
 # POST Agents/Dash/AddNewTileToDashboard
@@ -82,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 258,
+  "DashboardId": 386,
   "DashTileDefinition": null
 }
 ```
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 893,
-  "DashboardId": 262,
-  "Height": 54,
-  "Width": 687,
-  "Rank": 922,
+  "DashboardTileId": 755,
+  "DashboardId": 263,
+  "Height": 546,
+  "Width": 828,
+  "Rank": 662,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldLength": 67
     }
   }
 }

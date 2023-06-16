@@ -1,6 +1,6 @@
 ---
 title: Services88.AIAgent.GetTrainingStatus SOAP
-generated: 1
+generated: true
 uid: Services88-AI-GetTrainingStatus
 ---
 
@@ -63,12 +63,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <AI:ContextIdentifier xsi:type="xsd:string"></AI:ContextIdentifier>
     <AI:Status xsi:type="xsd:string"></AI:Status>
     <AI:CurrentModel xsi:type="AI:CategorizationModelDetails">
-     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2023-05-25T11:07:57Z</AI:ModelBuiltDateTime>
+     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2023-06-09T13:57:59Z</AI:ModelBuiltDateTime>
      <AI:Accuracy xsi:type="xsd:double">0.0</AI:Accuracy>
      <AI:TicketCountForTraining xsi:type="xsd:int">0</AI:TicketCountForTraining>
     </AI:CurrentModel>
     <AI:PreviousModel xsi:type="AI:CategorizationModelDetails">
-     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2023-05-25T11:07:57Z</AI:ModelBuiltDateTime>
+     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2023-06-09T13:57:59Z</AI:ModelBuiltDateTime>
      <AI:Accuracy xsi:type="xsd:double">0.0</AI:Accuracy>
      <AI:TicketCountForTraining xsi:type="xsd:int">0</AI:TicketCountForTraining>
     </AI:PreviousModel>

@@ -1,6 +1,7 @@
 ---
 title: GET List/ReasonStalled/Items/{id}/UserGroups
 uid: v1ReasonStalledList_GetReasonStalledUserGroupsForListItem
+generated: true
 ---
 
 # GET List/ReasonStalled/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Pfannerstill-Raynor",
-    "ToolTip": "Consequatur ex quia et.",
-    "Deleted": false,
-    "Rank": 589,
-    "Type": "occaecati",
-    "ColorBlock": 664,
-    "IconHint": "nihil",
+    "Id": 481,
+    "Name": "Thiel Inc and Sons",
+    "ToolTip": "Optio est quidem earum recusandae fuga odio.",
+    "Deleted": true,
+    "Rank": 402,
+    "Type": "esse",
+    "ColorBlock": 900,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "2001-09-09T03:51:34.9270326+02:00",
+    "LastChanged": "2016-06-28T16:00:49.289556+02:00",
     "ChildItems": [
       {
-        "Id": 471,
-        "Name": "Kutch Group",
-        "ToolTip": "Eligendi praesentium sed blanditiis quo quisquam ut.",
+        "Id": 619,
+        "Name": "Dare Group",
+        "ToolTip": "Eos quis.",
         "Deleted": false,
-        "Rank": 838,
-        "Type": "porro",
-        "ColorBlock": 712,
-        "IconHint": "voluptate",
+        "Rank": 48,
+        "Type": "est",
+        "ColorBlock": 897,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2017-12-30T03:51:34.9270326+01:00",
+        "LastChanged": "2000-11-02T16:00:49.289556+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "itaque",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Marjorie Tromp",
+        "FullName": "Miss Darryl Presley Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 938
+            "FieldLength": 918
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "sequi",
+    "ExtraInfo": "at",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Prof. Yvonne Cody Watsica",
+    "FullName": "Gayle Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 973
+        "FieldLength": 993
       }
     }
   }

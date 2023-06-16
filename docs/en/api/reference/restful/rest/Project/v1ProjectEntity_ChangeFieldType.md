@@ -1,6 +1,7 @@
 ---
 title: POST Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 uid: v1ProjectEntity_ChangeFieldType
+generated: true
 ---
 
 # POST Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -103,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 697,
-  "ColumnId": 929,
-  "FieldDefault": "sit",
-  "FieldHeight": 883,
-  "FieldLabel": "magni",
-  "FieldLeft": 206,
-  "FieldTop": 62,
+  "UDefFieldId": 395,
+  "ColumnId": 149,
+  "FieldDefault": "quaerat",
+  "FieldHeight": 580,
+  "FieldLabel": "illo",
+  "FieldLeft": 978,
+  "FieldTop": 797,
   "FieldType": "Checkbox",
-  "FieldWidth": 974,
-  "FormatMask": "amet",
+  "FieldWidth": 401,
+  "FormatMask": "non",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 460,
-  "LabelLeft": 346,
-  "LabelTop": 554,
-  "LabelWidth": 611,
-  "LastVersionId": 368,
-  "ListTableId": 980,
+  "IsIndexed": false,
+  "LabelHeight": 199,
+  "LabelLeft": 88,
+  "LabelTop": 330,
+  "LabelWidth": 58,
+  "LastVersionId": 800,
+  "ListTableId": 234,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 854,
-  "ProgId": "nostrum",
-  "IsReadOnly": false,
-  "ShortLabel": "enim",
-  "TabOrder": 121,
-  "TextLength": 433,
-  "Tooltip": "accusamus",
-  "UdefIdentity": 679,
-  "UDListDefinitionId": 249,
+  "Page1LineNo": 499,
+  "ProgId": "omnis",
+  "IsReadOnly": true,
+  "ShortLabel": "beatae",
+  "TabOrder": 54,
+  "TextLength": 53,
+  "Tooltip": "est",
+  "UdefIdentity": 458,
+  "UDListDefinitionId": 384,
   "Justification": "Center",
-  "Version": 117,
-  "TemplateVariableName": "Dare LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Kulas Group",
+  "Version": 65,
+  "TemplateVariableName": "Murray, Littel and Wisozk",
+  "HasBeenPublished": true,
+  "MdoListName": "Leuschke-Medhurst",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldType": "System.String",
+      "FieldLength": 138
     }
   }
 }

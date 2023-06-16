@@ -1,17 +1,13 @@
 ---
 uid: restrictionoperators
 title: restrictionoperators
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "restrictionoperators"
+keywords: mdoprovider mdo provider restrictionoperators
+description: This SoList provider will generate the operator list for a given search criterion data type. The data type is
+passed in as the extraInfo parameter, and is generally one of the constants in <see cref="!:SuperOffice.CRM.ArchiveLists.ArchiveListConstants.ColumnTypes" />.
+The <see cref="T:SuperOffice.CRM.ArchiveLists.RestrictionOperations" /> class is the source of the data, so this list will change if that class is extended.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "restrictionoperators" MDO List

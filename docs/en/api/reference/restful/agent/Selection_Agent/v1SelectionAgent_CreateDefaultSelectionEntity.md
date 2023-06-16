@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateDefaultSelectionEntity
 uid: v1SelectionAgent_CreateDefaultSelectionEntity
+generated: true
 ---
 
 # POST Agents/Selection/CreateDefaultSelectionEntity
@@ -96,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-lateral heuristic info-mediaries",
-  "Postit": "reiciendis",
+  "Description": "Digitized actuating collaboration",
+  "Postit": "sit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 751,
-  "IncludePerson": 11,
-  "MemberCount": 867,
-  "Name": "Witting Inc and Sons",
-  "PostitTextId": 994,
-  "CreatedDate": "2008-10-09T03:51:28.14651+02:00",
-  "SelectionId": 606,
-  "SoundEx": "quas",
-  "Source": 38,
-  "TextId": 38,
-  "UpdatedDate": "2003-10-21T03:51:28.14651+02:00",
-  "UpdatedCount": 236,
-  "Visibility": 859,
+  "GroupIdx": 754,
+  "IncludePerson": 125,
+  "MemberCount": 762,
+  "Name": "Fahey-Shields",
+  "PostitTextId": 440,
+  "CreatedDate": "2021-02-07T16:00:41.8050578+01:00",
+  "SelectionId": 530,
+  "SoundEx": "cumque",
+  "Source": 449,
+  "TextId": 634,
+  "UpdatedDate": "2004-04-02T16:00:41.8050578+02:00",
+  "UpdatedCount": 345,
+  "Visibility": 87,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 46,
-  "TargetTableName": "Herman, O'Kon and Hane",
+  "CompanyUnique": false,
+  "TargetTableNumber": 369,
+  "TargetTableName": "Bogan-Johns",
   "Completed": true,
-  "LeftSelectionId": 165,
-  "RightSelectionId": 245,
+  "LeftSelectionId": 818,
+  "RightSelectionId": 280,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wintheiser, Harvey and Paucek",
-  "ShadowProviderName": "Hermann Inc and Sons",
-  "ChartKey": "sint",
-  "LastLoaded": "2006-03-17T03:51:28.14651+01:00",
-  "LastLoadedBy": 625,
+  "MainProviderName": "Dare, Weber and Luettgen",
+  "ShadowProviderName": "Shanahan Group",
+  "ChartKey": "vitae",
+  "LastLoaded": "2012-09-28T16:00:41.8050578+02:00",
+  "LastLoadedBy": 720,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-03-23T03:51:28.14651+01:00",
-  "LastMembershipChangeBy": 111,
+  "LastMembershipChange": "1999-12-25T16:00:41.8050578+01:00",
+  "LastMembershipChangeBy": 447,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "vel",
-  "MemberTabHeading": "sint",
-  "MailingsProviderName": "Lind Inc and Sons",
-  "DashboardTileDefinitionId": 607,
+  "MainHeading": "commodi",
+  "MemberTabHeading": "autem",
+  "MailingsProviderName": "Moore-Shanahan",
+  "DashboardTileDefinitionId": 278,
   "VisibleFor": [
     {
-      "VisibleId": 915,
+      "VisibleId": 803,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldLength": 736
         }
       }
     },
     {
-      "VisibleId": 915,
+      "VisibleId": 803,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldLength": 736
         }
       }
     }
@@ -179,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 990
     }
   }
 }

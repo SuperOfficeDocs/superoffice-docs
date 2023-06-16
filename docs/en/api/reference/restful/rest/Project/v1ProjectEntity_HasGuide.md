@@ -1,6 +1,7 @@
 ---
 title: GET Project/{id}/HasGuide
 uid: v1ProjectEntity_HasGuide
+generated: true
 ---
 
 # GET Project/{id}/HasGuide

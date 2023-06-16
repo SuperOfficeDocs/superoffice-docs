@@ -1,6 +1,7 @@
 ---
 title: POST List/QuoteApproveReason/Headings
 uid: v1QuoteApproveReasonList_PostQuoteApproveReasonHeading
+generated: true
 ---
 
 # POST List/QuoteApproveReason/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 143,
-  "Name": "Predovic, Huels and Ebert",
-  "Tooltip": "a",
+  "HeadingId": 301,
+  "Name": "Reichel, Hayes and Rutherford",
+  "Tooltip": "porro",
   "Deleted": false,
-  "Rank": 334,
-  "UdListDefinitionId": 85
+  "Rank": 105,
+  "UdListDefinitionId": 853
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 393,
-  "Name": "Bernier-Homenick",
-  "Tooltip": "quisquam",
+  "HeadingId": 719,
+  "Name": "Cremin, Jakubowski and Roberts",
+  "Tooltip": "beatae",
   "Deleted": false,
-  "Rank": 322,
-  "UdListDefinitionId": 1000,
+  "Rank": 859,
+  "UdListDefinitionId": 528,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldType": "System.String",
+      "FieldLength": 87
     }
   }
 }

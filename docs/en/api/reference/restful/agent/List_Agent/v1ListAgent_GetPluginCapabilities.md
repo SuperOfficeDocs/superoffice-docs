@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetPluginCapabilities
 uid: v1ListAgent_GetPluginCapabilities
+generated: true
 ---
 
 # POST Agents/List/GetPluginCapabilities
@@ -73,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 224
+  "PluginId": 523
 }
 ```
 
@@ -84,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ipsa",
-  "2": "blanditiis"
+  "1": "cupiditate",
+  "2": "est"
 }
 ```

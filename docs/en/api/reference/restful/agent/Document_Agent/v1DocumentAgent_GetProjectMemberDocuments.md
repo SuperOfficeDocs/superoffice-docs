@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetProjectMemberDocuments
 uid: v1DocumentAgent_GetProjectMemberDocuments
+generated: true
 ---
 
 # POST Agents/Document/GetProjectMemberDocuments
@@ -96,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 272,
-  "StartTime": "1999-11-04T03:51:27.0217725+01:00",
-  "EndTime": "2020-12-24T03:51:27.0217725+01:00",
-  "Count": 703
+  "PersonId": 30,
+  "StartTime": "2003-09-22T16:00:40.5706201+02:00",
+  "EndTime": "2021-09-19T16:00:40.5706201+02:00",
+  "Count": 517
 }
 ```
 
@@ -115,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 442,
-    "Attention": "autem",
-    "Header": "atque",
-    "Name": "Pouros-Purdy",
-    "OurRef": "neque",
-    "YourRef": "voluptatem",
-    "Description": "Total encompassing strategy",
-    "DocumentTemplate": "neque",
+    "DocumentId": 505,
+    "Attention": "maxime",
+    "Header": "odit",
+    "Name": "Gleason-Nicolas",
+    "OurRef": "enim",
+    "YourRef": "dolores",
+    "Description": "Cross-group explicit archive",
+    "DocumentTemplate": "sit",
     "IsPublished": false,
-    "PersonId": 237,
-    "PersonFullName": "Waylon VonRueden",
-    "AssociateFullName": "Cathrine Klein",
-    "ContactId": 557,
+    "PersonId": 111,
+    "PersonFullName": "Golda Bergstrom",
+    "AssociateFullName": "Joana Adele Stokes DDS",
+    "ContactId": 15,
     "ContactName": "Reichel Group",
-    "ProjectId": 391,
-    "ProjectName": "Lesch-Kshlerin",
-    "AssociateId": 335,
-    "Snum": 596,
-    "SaleId": 702,
-    "SaleName": "McLaughlin Group",
+    "ProjectId": 801,
+    "ProjectName": "Crist, Rice and Kassulke",
+    "AssociateId": 851,
+    "Snum": 634,
+    "SaleId": 296,
+    "SaleName": "Klein, Boyer and Zemlak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldType": "System.String",
+        "FieldLength": 45
       }
     }
   }

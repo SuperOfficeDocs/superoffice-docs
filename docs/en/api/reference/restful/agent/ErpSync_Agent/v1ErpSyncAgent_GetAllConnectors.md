@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetAllConnectors
 uid: v1ErpSyncAgent_GetAllConnectors
+generated: true
 ---
 
 # POST Agents/ErpSync/GetAllConnectors
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnectors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,14 +81,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 570,
-    "Name": "Kihn-Crist",
-    "ToolTip": "Eligendi et ut."
+    "Id": 515,
+    "Name": "Hessel LLC",
+    "ToolTip": "Et ut aut quia velit facilis alias."
   },
   {
-    "Id": 570,
-    "Name": "Kihn-Crist",
-    "ToolTip": "Eligendi et ut."
+    "Id": 515,
+    "Name": "Hessel LLC",
+    "ToolTip": "Et ut aut quia velit facilis alias."
   }
 ]
 ```

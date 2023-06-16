@@ -1,6 +1,7 @@
 ---
 title: GET List/WebPanel/Headings
 uid: v1WebPanelEntityList_GetWebPanelEntityHeadings
+generated: true
 ---
 
 # GET List/WebPanel/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 654,
-    "Name": "Greenholt Inc and Sons",
-    "Tooltip": "atque",
+    "HeadingId": 348,
+    "Name": "Hilll, Treutel and Schroeder",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 568,
-    "UdListDefinitionId": 605,
+    "Rank": 80,
+    "UdListDefinitionId": 637,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 472
+        "FieldType": "System.Int32",
+        "FieldLength": 104
       }
     }
   }

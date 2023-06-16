@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Report/GetReportEntity
 uid: v1ReportAgent_GetReportEntity
+generated: true
 ---
 
 # POST Agents/Report/GetReportEntity
@@ -25,7 +26,7 @@ Gets a ReportEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=732
+POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=843
 POST /api/v1/Agents/Report/GetReportEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/Report/GetReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 979,
+  "ReportId": 231,
   "ReportCategory": "All",
-  "Description": "Quality-focused assymetric protocol",
+  "Description": "Stand-alone client-server capability",
   "ReportLayout": "CalendarMonth",
-  "Name": "Eichmann, Conroy and Osinski",
-  "AssociateId": 557,
-  "TemplateId": 893,
-  "Published": false,
+  "Name": "Hamill Group",
+  "AssociateId": 241,
+  "TemplateId": 650,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 202
+      "FieldType": "System.Int32",
+      "FieldLength": 533
     }
   }
 }

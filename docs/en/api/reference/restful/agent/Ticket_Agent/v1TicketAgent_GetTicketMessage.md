@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/GetTicketMessage
 uid: v1TicketAgent_GetTicketMessage
+generated: true
 ---
 
 # POST Agents/Ticket/GetTicketMessage
@@ -25,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=909
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=957
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -94,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 928,
-  "CreatedAt": "2002-02-06T03:51:28.3964515+01:00",
+  "TicketMessageId": 176,
+  "CreatedAt": "2005-01-10T16:00:42.2268823+01:00",
   "Slevel": "External",
-  "Important": true,
-  "Author": "alias",
-  "PersonId": 49,
-  "PersonFullName": "Miss Kali Johnson",
-  "ContactId": 185,
-  "ContactName": "Boyle, Cormier and Sipes",
+  "Important": false,
+  "Author": "molestiae",
+  "PersonId": 173,
+  "PersonFullName": "Isaias Green V",
+  "ContactId": 205,
+  "ContactName": "Wilkinson, Lowe and Ward",
   "ContactDepartment": "",
-  "NumAttachments": 363,
-  "EmailHeader": "summer@halvorson.uk",
+  "NumAttachments": 672,
+  "EmailHeader": "felicity@marvinfay.uk",
   "MessageHeaders": [
     {
-      "Id": 37,
-      "Name": "Reynolds, Ratke and Reynolds",
-      "Value": "adipisci",
+      "Id": 123,
+      "Name": "Quigley, Douglas and Koch",
+      "Value": "mollitia",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -118,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 868
+          "FieldLength": 826
         }
       }
     }
   ],
-  "Language": "laudantium",
-  "Sentiment": 202,
-  "SentimentConfidence": 721,
-  "CreatedBy": 827,
-  "ChangedAt": "2017-12-18T03:51:28.3964515+01:00",
+  "Language": "accusamus",
+  "Sentiment": 429,
+  "SentimentConfidence": 811,
+  "CreatedBy": 89,
+  "ChangedAt": "2003-01-22T16:00:42.2268823+01:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldType": "System.String",
+      "FieldLength": 898
     }
   }
 }

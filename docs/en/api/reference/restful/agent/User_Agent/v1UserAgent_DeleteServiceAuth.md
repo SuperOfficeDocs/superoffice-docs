@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/DeleteServiceAuth
 uid: v1UserAgent_DeleteServiceAuth
+generated: true
 ---
 
 # POST Agents/User/DeleteServiceAuth
@@ -26,7 +27,7 @@ Deletes the ServiceAuth
 | ServiceAuthId | int32 | **Required** The id of the ServiceAuth to be deleted. |
 
 ```http
-POST /api/v1/Agents/User/DeleteServiceAuth?ServiceAuthId=680
+POST /api/v1/Agents/User/DeleteServiceAuth?ServiceAuthId=462
 ```
 
 
@@ -57,7 +58,7 @@ No Content
 POST /api/v1/Agents/User/DeleteServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

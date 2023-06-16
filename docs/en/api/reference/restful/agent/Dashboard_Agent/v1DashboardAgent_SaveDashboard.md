@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dashboard/SaveDashboard
 uid: v1DashboardAgent_SaveDashboard
+generated: true
 ---
 
 # POST Agents/Dashboard/SaveDashboard
@@ -70,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 911,
-  "AssociateId": 567,
-  "Caption": "fugit",
+  "DashboardId": 816,
+  "AssociateId": 373,
+  "Caption": "labore",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 714,
-      "Caption": "unde",
-      "Description": "Assimilated executive migration",
-      "ChartName": "O'Keefe, Ward and Doyle",
-      "ChartId": "ea",
-      "IsDefault": false,
-      "AssociateId": 273,
-      "GroupId": 712,
-      "SelectionId": 487,
-      "Config": "dolor",
+      "DashboardTileId": 281,
+      "Caption": "cupiditate",
+      "Description": "De-engineered systemic Graphic Interface",
+      "ChartName": "Sipes Inc and Sons",
+      "ChartId": "accusamus",
+      "IsDefault": true,
+      "AssociateId": 447,
+      "GroupId": 306,
+      "SelectionId": 604,
+      "Config": "dolorem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 705,
-  "AssociateId": 122,
-  "Caption": "enim",
+  "DashboardId": 793,
+  "AssociateId": 916,
+  "Caption": "delectus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 950,
-      "Caption": "unde",
-      "Description": "Optimized local portal",
-      "ChartName": "Upton-Vandervort",
-      "ChartId": "et",
-      "IsDefault": false,
-      "AssociateId": 559,
-      "GroupId": 480,
-      "SelectionId": 42,
-      "Config": "facere",
+      "DashboardTileId": 783,
+      "Caption": "quidem",
+      "Description": "Cloned bandwidth-monitored adapter",
+      "ChartName": "D'Amore-Jerde",
+      "ChartId": "libero",
+      "IsDefault": true,
+      "AssociateId": 773,
+      "GroupId": 982,
+      "SelectionId": 262,
+      "Config": "ipsam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -142,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 531
+          "FieldType": "System.String",
+          "FieldLength": 122
         }
       }
     }
@@ -153,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 617
     }
   }
 }

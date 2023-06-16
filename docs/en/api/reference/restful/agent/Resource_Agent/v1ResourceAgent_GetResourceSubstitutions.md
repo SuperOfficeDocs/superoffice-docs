@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Resource/GetResourceSubstitutions
 uid: v1ResourceAgent_GetResourceSubstitutions
+generated: true
 ---
 
 # POST Agents/Resource/GetResourceSubstitutions
@@ -77,16 +78,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Cremin Inc and Sons",
-    "McKenzie-Conroy"
+    "Johns Inc and Sons",
+    "Stanton-Considine"
   ],
-  "Culture": "nisi",
-  "ActiveOnly": true
+  "Culture": "omnis",
+  "ActiveOnly": false
 }
 ```
 
@@ -98,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Rowe-Feil",
-    "ResourceValue": "quae",
-    "Culture": "placeat",
-    "IsActive": true,
+    "ResourceName": "Greenholt-Mayert",
+    "ResourceValue": "omnis",
+    "Culture": "similique",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldType": "System.String",
+        "FieldLength": 187
       }
     }
   },
   {
-    "ResourceName": "Rowe-Feil",
-    "ResourceValue": "quae",
-    "Culture": "placeat",
-    "IsActive": true,
+    "ResourceName": "Greenholt-Mayert",
+    "ResourceValue": "omnis",
+    "Culture": "similique",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldType": "System.String",
+        "FieldLength": 187
       }
     }
   }

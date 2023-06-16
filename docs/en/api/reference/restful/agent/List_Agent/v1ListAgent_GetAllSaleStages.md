@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAllSaleStages
 uid: v1ListAgent_GetAllSaleStages
+generated: true
 ---
 
 # POST Agents/List/GetAllSaleStages
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleStages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 888,
-    "Value": "minima",
-    "Tooltip": "deserunt",
-    "Probability": 240,
+    "SaleStageId": 934,
+    "Value": "qui",
+    "Tooltip": "repudiandae",
+    "Probability": 98,
     "Deleted": false,
-    "Rank": 128,
+    "Rank": 984,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 164
       }
     }
   }

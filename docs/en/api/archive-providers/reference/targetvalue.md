@@ -2,17 +2,10 @@
 uid: TargetValue
 title: TargetValue
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "TargetValue"
+keywords: TargetValue archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "TargetValue"
@@ -126,6 +119,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 |contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/restrictionPostalAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
@@ -226,6 +223,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/contactSupportAssociate/otherGroups|userGroup|Our service contact - Other groups: Other groups|  |
 |contact/contactSupportAssociate/userName|string|Our service contact - User name: User name| x |
 |contact/contactSupportAssociate/personEmail|string|Our service contact - E-mail| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/contactSupportPerson/personId|int|User support contact - DB ID: Displays the database ID of a contact| x |
 |contact/contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |contact/contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
@@ -326,6 +327,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/contactUdef/SuperOffice:3|int|companynumber| x |
 |contact/contactUdef/SuperOffice:4|date|companydate| x |
 |contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
 |contact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
 |contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
@@ -386,7 +391,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValue?$select=associate/otherGroups,contact/country,contact/streetAddress/city
+GET /api/v1/archive/TargetValue?$select=associate/ejStatus,contact/postAddress/formattedMultiLineAddress,contact/restrictionPostalAddress/city,contact/contactSupportPerson/personInfo/textId,contact/contactExtra/x_contact_float
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DocumentMigration/GetForTemplates
 uid: v1DocumentMigrationAgent_GetForTemplates
+generated: true
 ---
 
 # POST Agents/DocumentMigration/GetForTemplates
@@ -79,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDocumentPluginId": 934,
+  "TargetDocumentPluginId": 742,
   "IncludeEmails": true
 }
 ```
@@ -91,11 +92,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumTemplatesOmitted": 198,
-  "NumTemplatesAlreadyMigrated": 912,
+  "NumTemplatesOmitted": 528,
+  "NumTemplatesAlreadyMigrated": 803,
   "TemplateIds": [
-    362,
-    736
+    863,
+    601
   ]
 }
 ```

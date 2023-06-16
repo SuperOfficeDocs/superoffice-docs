@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/DeleteCRMScriptEntity
 uid: v1CRMScriptAgent_DeleteCRMScriptEntity
+generated: true
 ---
 
 # POST Agents/CRMScript/DeleteCRMScriptEntity
@@ -26,7 +27,7 @@ Deletes the CRMScriptEntity
 | CRMScriptEntityId | int32 | **Required** The id of the CRMScriptEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?CRMScriptEntityId=915
+POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?CRMScriptEntityId=800
 ```
 
 
@@ -57,7 +58,7 @@ No Content
 POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/SaveWorkflowGoal
 uid: v1WorkflowAgent_SaveWorkflowGoal
+generated: true
 ---
 
 # POST Agents/Workflow/SaveWorkflowGoal
@@ -68,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 849,
-  "WorkflowId": 514,
+  "WorkflowGoalId": 340,
+  "WorkflowId": 223,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Davis LLC",
-      "Description": "Phased assymetric orchestration",
-      "Rank": 241,
+      "Name": "Kling-Murphy",
+      "Description": "Synergized maximized framework",
+      "Rank": 682,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Davis LLC",
-      "Description": "Phased assymetric orchestration",
-      "Rank": 241,
+      "Name": "Kling-Murphy",
+      "Description": "Synergized maximized framework",
+      "Rank": 682,
       "Restrictions": [
         {},
         {}
@@ -105,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 407,
-  "WorkflowId": 749,
+  "WorkflowGoalId": 158,
+  "WorkflowId": 687,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Kunde, Nader and Wilkinson",
-      "Description": "Devolved radical archive",
-      "Rank": 641,
+      "Name": "Gaylord-McCullough",
+      "Description": "Quality-focused logistical website",
+      "Rank": 737,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kunde, Nader and Wilkinson",
-      "Description": "Devolved radical archive",
-      "Rank": 641,
+      "Name": "Gaylord-McCullough",
+      "Description": "Quality-focused logistical website",
+      "Rank": 737,
       "Restrictions": [
         {},
         {}
@@ -133,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldLength": 267
     }
   }
 }

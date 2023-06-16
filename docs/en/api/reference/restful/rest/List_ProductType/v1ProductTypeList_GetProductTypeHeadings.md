@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductType/Headings
 uid: v1ProductTypeList_GetProductTypeHeadings
+generated: true
 ---
 
 # GET List/ProductType/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 166,
-    "Name": "Pfeffer Inc and Sons",
-    "Tooltip": "animi",
+    "HeadingId": 683,
+    "Name": "Baumbach-Lindgren",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 999,
-    "UdListDefinitionId": 710,
+    "Rank": 987,
+    "UdListDefinitionId": 149,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 647
+        "FieldLength": 850
       }
     }
   }

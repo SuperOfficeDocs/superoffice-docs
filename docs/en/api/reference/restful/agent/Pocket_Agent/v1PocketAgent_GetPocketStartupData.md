@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Pocket/GetPocketStartupData
 uid: v1PocketAgent_GetPocketStartupData
+generated: true
 ---
 
 # POST Agents/Pocket/GetPocketStartupData
@@ -81,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "ratione",
-    "reiciendis"
+    "repellat",
+    "similique"
   ],
-  "CurrentClientTime": "2006-09-02T03:51:27.8809522+02:00"
+  "CurrentClientTime": "2010-08-22T16:00:41.4925904+02:00"
 }
 ```
 
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "corporis",
-    "error"
+    "laudantium",
+    "blanditiis"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 174,
-  "NotificationsCount": 986,
+  "OverdueSalesCount": 311,
+  "NotificationsCount": 543,
   "SystemWebPanels": [
     {
-      "WebPanelId": 282,
-      "Name": "Kulas-Ebert",
-      "Tooltip": "eum",
+      "WebPanelId": 641,
+      "Name": "Klocko Inc and Sons",
+      "Tooltip": "in",
       "Deleted": false,
-      "Rank": 66,
+      "Rank": 610,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": true,
-      "OnSatellite": false,
+      "OnSatellite": true,
       "OnTravel": false,
-      "OnSalesMarketingWeb": true,
+      "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
-      "ShowInToolBar": true,
-      "ShowInAddressBar": true,
-      "ShowInStatusBar": false,
-      "WindowName": "Shanahan-Towne",
+      "ShowInToolBar": false,
+      "ShowInAddressBar": false,
+      "ShowInStatusBar": true,
+      "WindowName": "Stoltenberg Group",
       "Url": "http://www.example.com/",
-      "ProgId": "quia",
-      "Icon": 896,
-      "AlwaysReloadOnShow": true,
+      "ProgId": "aut",
+      "Icon": 701,
+      "AlwaysReloadOnShow": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 672
+          "FieldLength": 14
         }
       }
     }
@@ -144,34 +145,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "dolor",
+      "RawValue": "voluptatem",
       "Specification": null,
-      "DisplayValue": "laborum",
-      "DisplayTooltip": "eum",
+      "DisplayValue": "doloremque",
+      "DisplayTooltip": "voluptas",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 965,
-      "PrefDescId": 844,
-      "TableName": "Schneider Inc and Sons",
-      "UserPreferenceId": 886,
+      "TargetId": 136,
+      "PrefDescId": 551,
+      "TableName": "Funk, Koepp and Morar",
+      "UserPreferenceId": 235,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 124
+          "FieldLength": 720
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "eum",
+  "CustomData": "quisquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 652
+      "FieldType": "System.Int32",
+      "FieldLength": 753
     }
   }
 }

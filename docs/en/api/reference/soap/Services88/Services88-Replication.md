@@ -1,5 +1,5 @@
 ---
-generated: 1
+generated: true
 uid: wsdl-Services88-Replication
 title: Services88.ReplicationAgent WSDL
 ---

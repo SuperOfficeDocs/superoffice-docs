@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ViewState/GetHistoriesByNamesAndIds
 uid: v1ViewStateAgent_GetHistoriesByNamesAndIds
+generated: true
 ---
 
 # POST Agents/ViewState/GetHistoriesByNamesAndIds
@@ -80,20 +81,20 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Harris Group",
-      "EntityOrParentId": 748,
-      "RequestForNewRecord": true
+      "EntityName": "Hudson, Blanda and O'Keefe",
+      "EntityOrParentId": 530,
+      "RequestForNewRecord": false
     },
     {
-      "EntityName": "Harris Group",
-      "EntityOrParentId": 748,
-      "RequestForNewRecord": true
+      "EntityName": "Hudson, Blanda and O'Keefe",
+      "EntityOrParentId": 530,
+      "RequestForNewRecord": false
     }
   ]
 }
@@ -107,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 502,
-    "Id": 479,
-    "HistoryName": "Emard LLC",
-    "HistoryId": 246,
-    "AssociateId": 685,
-    "Name": "Schinner LLC",
-    "ItemInfo": "qui",
+    "Rank": 589,
+    "Id": 36,
+    "HistoryName": "Reilly Group",
+    "HistoryId": 54,
+    "AssociateId": 186,
+    "Name": "Ortiz-Conroy",
+    "ItemInfo": "repellat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldType": "System.String",
+        "FieldLength": 183
       }
     }
   }

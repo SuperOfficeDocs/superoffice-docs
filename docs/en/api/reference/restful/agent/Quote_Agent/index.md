@@ -1,5 +1,6 @@
 ---
 title: Quote_Agent
+generated: true
 ---
 
 ```http

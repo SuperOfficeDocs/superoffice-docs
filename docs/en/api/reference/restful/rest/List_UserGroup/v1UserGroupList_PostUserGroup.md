@@ -1,6 +1,7 @@
 ---
 title: POST List/UserGroup/Items
 uid: v1UserGroupList_PostUserGroup
+generated: true
 ---
 
 # POST List/UserGroup/Items
@@ -76,10 +77,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "et",
-  "Tooltip": "repellat",
-  "Id": 97,
-  "Rank": 981,
+  "Value": "voluptatibus",
+  "Tooltip": "qui",
+  "Id": 783,
+  "Rank": 254,
   "Deleted": false
 }
 ```
@@ -91,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "voluptatem",
-  "Tooltip": "dicta",
-  "Id": 749,
-  "Rank": 744,
+  "Value": "dolorum",
+  "Tooltip": "qui",
+  "Id": 750,
+  "Rank": 597,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 955
     }
   }
 }

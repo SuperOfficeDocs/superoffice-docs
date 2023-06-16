@@ -1,6 +1,7 @@
 ---
 title: POST List/Credited/Items
 uid: v1CreditedList_PostCredited
+generated: true
 ---
 
 # POST List/Credited/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 898,
-  "Name": "Mosciski Inc and Sons",
-  "Tooltip": "dolore",
+  "Id": 582,
+  "Name": "Parisian-Bauch",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "UdListDefinitionId": 98,
-  "Rank": 794
+  "UdListDefinitionId": 61,
+  "Rank": 463
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139,
-  "Name": "Ryan Inc and Sons",
-  "Tooltip": "fuga",
+  "Id": 912,
+  "Name": "Hermann-Cassin",
+  "Tooltip": "quaerat",
   "Deleted": true,
-  "UdListDefinitionId": 738,
-  "Rank": 726,
+  "UdListDefinitionId": 852,
+  "Rank": 418,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldType": "System.String",
+      "FieldLength": 618
     }
   }
 }

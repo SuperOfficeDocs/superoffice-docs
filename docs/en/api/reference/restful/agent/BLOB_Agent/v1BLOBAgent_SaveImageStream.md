@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/SaveImageStream
 uid: v1BLOBAgent_SaveImageStream
+generated: true
 ---
 
 # POST Agents/BLOB/SaveImageStream
@@ -71,13 +72,13 @@ OK
 POST /api/v1/Agents/BLOB/SaveImageStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "AccessToken",
   "Image": "GIF89....File contents as raw bytes...",
-  "Description": "Operative stable middleware"
+  "Description": "Persistent encompassing throughput"
 }
 ```
 
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-648
+120
 ```

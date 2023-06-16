@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/GetDefaultOrderByFromDesiredColumns
 uid: v1FindAgent_GetDefaultOrderByFromDesiredColumns
+generated: true
 ---
 
 # POST Agents/Find/GetDefaultOrderByFromDesiredColumns
@@ -74,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Stamm-Mann",
+  "ProviderName": "Heidenreich, Dietrich and Emmerich",
   "DesiredColumns": [
-    "saepe",
-    "sapiente"
+    "repellat",
+    "iure"
   ]
 }
 ```
@@ -94,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Simonis-Bradtke",
+    "Name": "Stracke-Lockman",
     "Direction": "ASC"
   },
   {
-    "Name": "Simonis-Bradtke",
+    "Name": "Stracke-Lockman",
     "Direction": "ASC"
   }
 ]

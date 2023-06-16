@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/TryConnectActor
 uid: v1ErpSyncAgent_TryConnectActor
+generated: true
 ---
 
 # POST Agents/ErpSync/TryConnectActor
@@ -74,31 +75,31 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 192,
-  "CrmRecordId": 525,
+  "ErpConnectionId": 50,
+  "CrmRecordId": 727,
   "CrmActorType": "Contact",
-  "ErpKey": "assumenda",
+  "ErpKey": "ipsa",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Dibbert-Dickinson",
-      "CrmFieldKey": "consectetur",
-      "Value": "recusandae",
-      "DisplayValue": "non",
-      "SyncToCrm": false,
-      "SyncToErp": false
+      "DisplayName": "Rutherford-Braun",
+      "CrmFieldKey": "facilis",
+      "Value": "culpa",
+      "DisplayValue": "sed",
+      "SyncToCrm": true,
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Dibbert-Dickinson",
-      "CrmFieldKey": "consectetur",
-      "Value": "recusandae",
-      "DisplayValue": "non",
-      "SyncToCrm": false,
-      "SyncToErp": false
+      "DisplayName": "Rutherford-Braun",
+      "CrmFieldKey": "facilis",
+      "Value": "culpa",
+      "DisplayValue": "sed",
+      "SyncToCrm": true,
+      "SyncToErp": true
     }
   ]
 }

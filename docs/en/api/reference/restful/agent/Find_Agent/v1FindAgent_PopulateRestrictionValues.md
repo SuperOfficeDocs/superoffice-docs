@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/PopulateRestrictionValues
 uid: v1FindAgent_PopulateRestrictionValues
+generated: true
 ---
 
 # POST Agents/Find/PopulateRestrictionValues
@@ -81,21 +82,21 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictionValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Considine-Wiza",
-      "Operator": "quos",
+      "Name": "Hickle-Swaniawski",
+      "Operator": "et",
       "Values": [
-        "minima",
-        "voluptas"
+        "et",
+        "et"
       ],
       "DisplayValues": [
-        "velit",
-        "doloremque"
+        "eaque",
+        "id"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -103,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 39,
+      "InterParenthesis": 131,
       "InterOperator": "And",
-      "UniqueHash": 441
+      "UniqueHash": 865
     }
   ]
 }
@@ -119,44 +120,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McDermott-Nikolaus",
-    "Operator": "voluptatibus",
+    "Name": "Murazik-Robel",
+    "Operator": "doloribus",
     "Values": [
-      "asperiores",
-      "quia"
+      "mollitia",
+      "qui"
     ],
     "DisplayValues": [
-      "sequi",
-      "provident"
+      "placeat",
+      "vel"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schneider Group",
-        "Operator": "dolorem",
+        "Name": "Ernser, Fisher and Sipes",
+        "Operator": "neque",
         "Values": [
-          "ea",
-          "aut"
+          "velit",
+          "similique"
         ],
         "DisplayValues": [
-          "recusandae",
-          "facilis"
+          "ipsa",
+          "iure"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 988,
+        "InterParenthesis": 13,
         "InterOperator": "And",
-        "UniqueHash": 503
+        "UniqueHash": 191
       }
     ],
     "InterParenthesis": 332,
     "InterOperator": "And",
-    "UniqueHash": 114
+    "UniqueHash": 908
   }
 ]
 ```

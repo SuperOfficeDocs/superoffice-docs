@@ -1,6 +1,7 @@
 ---
 title: PUT List/Rating/Items/{id}/UserGroups
 uid: v1RatingList_PutSaleStageEntityUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/Rating/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 249,
-    "Name": "Veum Group",
-    "ToolTip": "Qui cupiditate.",
+    "Id": 991,
+    "Name": "Dach Group",
+    "ToolTip": "Soluta a doloremque.",
     "Deleted": true,
-    "Rank": 829,
-    "Type": "et",
-    "ColorBlock": 599,
-    "IconHint": "sapiente",
-    "Selected": false,
-    "LastChanged": "1999-11-07T03:51:34.8957999+01:00",
+    "Rank": 166,
+    "Type": "nihil",
+    "ColorBlock": 828,
+    "IconHint": "tempora",
+    "Selected": true,
+    "LastChanged": "2013-04-14T16:00:49.2583068+02:00",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Watsica, Pouros and Labadie",
-        "ToolTip": "Dolor magnam enim nostrum ut sunt quia ut.",
-        "Deleted": true,
-        "Rank": 358,
-        "Type": "sit",
-        "ColorBlock": 170,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2019-12-09T03:51:34.8957999+01:00",
+        "Id": 652,
+        "Name": "Bechtelar Group",
+        "ToolTip": "Nisi est.",
+        "Deleted": false,
+        "Rank": 389,
+        "Type": "nobis",
+        "ColorBlock": 462,
+        "IconHint": "nisi",
+        "Selected": true,
+        "LastChanged": "1997-06-11T16:00:49.2583068+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "sit",
+        "ExtraInfo": "labore",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Jayce Kunze"
+        "FullName": "Marian Auer"
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "veritatis",
-    "Hidden": false,
-    "FullName": "Mertie Jan Streich Jr."
+    "ExtraInfo": "odit",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Dr. Alyce Ubaldo Bosco"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 450,
-    "Name": "Stokes LLC",
-    "ToolTip": "Reiciendis dignissimos possimus optio.",
-    "Deleted": false,
-    "Rank": 739,
-    "Type": "temporibus",
-    "ColorBlock": 523,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2004-09-12T03:51:34.8957999+02:00",
+    "Id": 931,
+    "Name": "Hoppe Group",
+    "ToolTip": "Consequatur quia dolorem maiores animi ut recusandae amet.",
+    "Deleted": true,
+    "Rank": 405,
+    "Type": "iure",
+    "ColorBlock": 475,
+    "IconHint": "dolorum",
+    "Selected": true,
+    "LastChanged": "2014-11-17T16:00:49.2583068+01:00",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "King, Bayer and Wiza",
-        "ToolTip": "Quam enim aliquam qui.",
+        "Id": 109,
+        "Name": "Carroll-Jerde",
+        "ToolTip": "Neque odio a aut inventore id.",
         "Deleted": true,
-        "Rank": 162,
-        "Type": "natus",
-        "ColorBlock": 467,
-        "IconHint": "delectus",
-        "Selected": false,
-        "LastChanged": "2012-01-09T03:51:34.8957999+01:00",
+        "Rank": 828,
+        "Type": "est",
+        "ColorBlock": 280,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2008-07-31T16:00:49.2583068+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "corporis",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "neque",
         "Hidden": false,
-        "FullName": "Mollie Ferry",
+        "FullName": "Miss Loy Angelina Swaniawski V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 999
+            "FieldLength": 612
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "at",
-    "Hidden": true,
-    "FullName": "Shea Osinski",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "nam",
+    "Hidden": false,
+    "FullName": "Jana Hoppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldLength": 489
       }
     }
   }

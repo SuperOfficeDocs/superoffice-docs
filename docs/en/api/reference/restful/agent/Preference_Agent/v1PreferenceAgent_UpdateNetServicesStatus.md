@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/UpdateNetServicesStatus
 uid: v1PreferenceAgent_UpdateNetServicesStatus
+generated: true
 ---
 
 # POST Agents/Preference/UpdateNetServicesStatus
@@ -67,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "XmlOrJson": "laboriosam"
+  "XmlOrJson": "quis"
 }
 ```
 

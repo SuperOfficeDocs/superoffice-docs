@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryTerm/Headings
 uid: v1DeliveryTermsList_GetDeliveryTermHeadings
+generated: true
 ---
 
 # GET List/DeliveryTerm/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 507,
-    "Name": "Wyman Inc and Sons",
-    "Tooltip": "dolor",
+    "HeadingId": 1002,
+    "Name": "Von-Zulauf",
+    "Tooltip": "eos",
     "Deleted": false,
-    "Rank": 3,
-    "UdListDefinitionId": 528,
+    "Rank": 57,
+    "UdListDefinitionId": 801,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 893
+        "FieldLength": 654
       }
     }
   }

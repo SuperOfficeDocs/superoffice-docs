@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAppWebPanels
 uid: v1ListAgent_GetAppWebPanels
+generated: true
 ---
 
 # POST Agents/List/GetAppWebPanels
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,33 +96,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 728,
-    "Name": "Parker LLC",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "Rank": 962,
+    "WebPanelId": 345,
+    "Name": "Reinger, Anderson and Grimes",
+    "Tooltip": "fuga",
+    "Deleted": true,
+    "Rank": 877,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Nikolaus Group",
+    "OnSalesMarketingPocket": true,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": true,
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": false,
+    "WindowName": "Jones Group",
     "Url": "http://www.example.com/",
-    "ProgId": "id",
-    "Icon": 831,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "omnis",
+    "Icon": 958,
+    "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldLength": 357
       }
     }
   }

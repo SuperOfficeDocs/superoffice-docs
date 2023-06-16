@@ -1,6 +1,7 @@
 ---
 title: POST List/DocumentTemplate/Headings
 uid: v1DocumentTemplateList_PostDocumentTemplateEntityHeading
+generated: true
 ---
 
 # POST List/DocumentTemplate/Headings
@@ -78,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 668,
-  "Name": "Nader, Bergnaum and Harris",
-  "Tooltip": "odit",
+  "HeadingId": 689,
+  "Name": "Ward-Block",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 455,
-  "UdListDefinitionId": 595
+  "Rank": 342,
+  "UdListDefinitionId": 702
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 314,
-  "Name": "Carroll Group",
-  "Tooltip": "ut",
+  "HeadingId": 29,
+  "Name": "Towne LLC",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 51,
-  "UdListDefinitionId": 21,
+  "Rank": 923,
+  "UdListDefinitionId": 241,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   }
 }

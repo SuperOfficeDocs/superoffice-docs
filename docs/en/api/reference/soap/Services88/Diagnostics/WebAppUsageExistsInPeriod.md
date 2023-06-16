@@ -1,6 +1,6 @@
 ---
 title: Services88.DiagnosticsAgent.WebAppUsageExistsInPeriod SOAP
-generated: 1
+generated: true
 uid: Services88-Diagnostics-WebAppUsageExistsInPeriod
 ---
 
@@ -41,7 +41,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Diagnostics:WebAppUsageExistsInPeriod>
     <Diagnostics:AssociateId xsi:type="xsd:int">0</Diagnostics:AssociateId>
     <Diagnostics:ViewState xsi:type="xsd:string"></Diagnostics:ViewState>
-    <Diagnostics:FromDate xsi:type="xsd:dateTime">2023-05-25T11:08:48Z</Diagnostics:FromDate>
+    <Diagnostics:FromDate xsi:type="xsd:dateTime">2023-06-09T13:58:49Z</Diagnostics:FromDate>
    </Diagnostics:WebAppUsageExistsInPeriod>
 
  </SOAP-ENV:Body>

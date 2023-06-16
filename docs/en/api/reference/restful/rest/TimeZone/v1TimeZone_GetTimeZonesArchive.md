@@ -1,6 +1,7 @@
 ---
 title: GET TimeZone
 uid: v1TimeZone_GetTimeZonesArchive
+generated: true
 ---
 
 # GET TimeZone
@@ -38,12 +39,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=fugit
-GET /api/v1/TimeZone?$top=819
-GET /api/v1/TimeZone?$skip=86
+GET /api/v1/TimeZone?$entities=nesciunt
+GET /api/v1/TimeZone?$top=71
+GET /api/v1/TimeZone?$skip=516
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=reprehenderit
+GET /api/v1/TimeZone?$context=possimus
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "consequuntur",
   "value": [
     {
-      "PrimaryKey": 261,
+      "PrimaryKey": 9933,
       "EntityName": "sale",
-      "saleId": 261,
-      "contactId": 3381,
-      "name": "Parker-Hane"
+      "saleId": 9933,
+      "contactId": 4797,
+      "name": "DuBuque-McGlynn"
     },
     {
-      "PrimaryKey": 8485,
+      "PrimaryKey": 2155,
       "EntityName": "sale",
-      "saleId": 8485,
-      "contactId": 451,
-      "name": "Bruen, Rohan and Bergstrom"
+      "saleId": 2155,
+      "contactId": 3144,
+      "name": "Ziemann LLC"
     }
   ]
 }

@@ -1,6 +1,7 @@
 ---
 title: GET List/SelectionCategory/Items/{id}
 uid: v1SelectionCategoryList_GetSelectionCategory
+generated: true
 ---
 
 # GET List/SelectionCategory/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Little-Schinner",
-  "Tooltip": "laboriosam",
+  "Id": 54,
+  "Name": "Kris LLC",
+  "Tooltip": "odio",
   "Deleted": false,
-  "UdListDefinitionId": 355,
-  "Rank": 556,
+  "UdListDefinitionId": 907,
+  "Rank": 378,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 637
     }
   }
 }

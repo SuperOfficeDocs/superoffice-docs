@@ -1,6 +1,7 @@
 ---
 title: GET Document/{id}/Version
 uid: v1DocumentEntity_GetVersionList
+generated: true
 ---
 
 # GET Document/{id}/Version
@@ -75,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "nisi",
-    "DocumentId": 245,
-    "VersionId": "cum",
-    "CheckedInDate": "2023-04-17T03:51:33.645969+02:00",
-    "CheckedInByName": "Ernser-Klein",
-    "CheckedInByAssociateId": 582,
-    "Description": "Optimized exuding encoding",
-    "DisplayText": "occaecati",
+    "ExternalReference": "velit",
+    "DocumentId": 248,
+    "VersionId": "voluptatem",
+    "CheckedInDate": "1999-10-10T16:00:47.9303311+02:00",
+    "CheckedInByName": "Hackett, Carroll and Rau",
+    "CheckedInByAssociateId": 2,
+    "Description": "Versatile 5th generation challenge",
+    "DisplayText": "quis",
     "ExtraFields": [
-      "tenetur",
-      "voluptate"
+      "aliquid",
+      "eum"
     ]
   }
 ]

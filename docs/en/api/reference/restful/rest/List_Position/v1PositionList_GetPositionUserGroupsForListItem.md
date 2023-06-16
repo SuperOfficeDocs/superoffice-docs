@@ -1,6 +1,7 @@
 ---
 title: GET List/Position/Items/{id}/UserGroups
 uid: v1PositionList_GetPositionUserGroupsForListItem
+generated: true
 ---
 
 # GET List/Position/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Stehr LLC",
-    "ToolTip": "Aut eaque accusantium dolor voluptas optio accusantium quibusdam.",
+    "Id": 878,
+    "Name": "Schumm, Hoppe and Legros",
+    "ToolTip": "Sed impedit.",
     "Deleted": false,
-    "Rank": 847,
-    "Type": "eum",
-    "ColorBlock": 230,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2004-07-20T03:51:34.7708309+02:00",
+    "Rank": 46,
+    "Type": "dicta",
+    "ColorBlock": 538,
+    "IconHint": "autem",
+    "Selected": true,
+    "LastChanged": "2007-06-15T16:00:49.1177018+02:00",
     "ChildItems": [
       {
-        "Id": 548,
-        "Name": "Sipes, Marvin and Morar",
-        "ToolTip": "Totam ratione.",
-        "Deleted": false,
-        "Rank": 961,
-        "Type": "voluptatem",
-        "ColorBlock": 326,
-        "IconHint": "mollitia",
-        "Selected": true,
-        "LastChanged": "2021-04-24T03:51:34.7708309+02:00",
+        "Id": 176,
+        "Name": "McGlynn-Eichmann",
+        "ToolTip": "Autem cupiditate.",
+        "Deleted": true,
+        "Rank": 381,
+        "Type": "autem",
+        "ColorBlock": 58,
+        "IconHint": "repellendus",
+        "Selected": false,
+        "LastChanged": "2016-12-04T16:00:49.1177018+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "hic",
-        "Hidden": false,
-        "FullName": "Miss Mireille Laney White",
+        "ExtraInfo": "ea",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Johan Waters",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 160
+            "FieldType": "System.Int32",
+            "FieldLength": 109
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "qui",
+    "ExtraInfo": "numquam",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Ms. Daron Shanahan",
+    "FullName": "Delbert Thompson DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 833
+        "FieldType": "System.Int32",
+        "FieldLength": 346
       }
     }
   }

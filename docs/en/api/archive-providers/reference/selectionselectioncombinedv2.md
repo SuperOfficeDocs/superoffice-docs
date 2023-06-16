@@ -2,17 +2,10 @@
 uid: SelectionSelectionCombinedV2
 title: SelectionSelectionCombinedV2
 description: Implementation of the provider for the combined selection
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SelectionSelectionCombinedV2"
+keywords: SelectionSelectionCombinedV2 archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SelectionSelectionCombinedV2"

@@ -1,6 +1,7 @@
 ---
 title: DEL License/{moduleOwner}
 uid: v1License_RemoveLicenseFromDB
+generated: true
 ---
 
 # DEL License/{moduleOwner}
@@ -74,7 +75,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 813
     }
   }
 }

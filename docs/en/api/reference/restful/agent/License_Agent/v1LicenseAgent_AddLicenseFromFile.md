@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/AddLicenseFromFile
 uid: v1LicenseAgent_AddLicenseFromFile
+generated: true
 ---
 
 # POST Agents/License/AddLicenseFromFile
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "deleniti"
+  "FileContent": "autem"
 }
 ```
 
@@ -98,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 411,
-      "NumberOfLicensesFree": 551,
-      "NumberOfLicensesAdded": 759,
-      "NumberOfLicensesNewTotal": 859,
-      "NumberOfLicensesNewFree": 319,
-      "NumberOfLicensesTotal": 414
+      "NumberOfLicensesInUse": 425,
+      "NumberOfLicensesFree": 595,
+      "NumberOfLicensesAdded": 777,
+      "NumberOfLicensesNewTotal": 458,
+      "NumberOfLicensesNewFree": 987,
+      "NumberOfLicensesTotal": 573
     }
   ],
-  "AccumulatedNextCheckDate": "2014-07-12T03:51:27.3654441+02:00"
+  "AccumulatedNextCheckDate": "2012-08-02T16:00:41.0862117+02:00"
 }
 ```

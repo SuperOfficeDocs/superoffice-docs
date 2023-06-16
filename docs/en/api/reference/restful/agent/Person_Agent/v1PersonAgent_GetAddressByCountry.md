@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetAddressByCountry
 uid: v1PersonAgent_GetAddressByCountry
+generated: true
 ---
 
 # POST Agents/Person/GetAddressByCountry
@@ -82,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 483,
-  "CountryId": 912
+  "PersonId": 369,
+  "CountryId": 112
 }
 ```
 
@@ -94,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 11953.076,
-  "Wgs84Longitude": 5854.312,
+  "Wgs84Latitude": 9624.514,
+  "Wgs84Longitude": 18133.324,
   "LocalizedAddress": [
     [
       {
-        "Name": "Leannon, Baumbach and Skiles",
-        "Value": "aspernatur",
-        "Tooltip": "blanditiis",
-        "Label": "et",
-        "ValueLength": 214,
-        "AddressType": "corrupti",
+        "Name": "Ledner-Hirthe",
+        "Value": "eaque",
+        "Tooltip": "deserunt",
+        "Label": "voluptas",
+        "ValueLength": 395,
+        "AddressType": "quidem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldLength": 225
           }
         }
       }
     ],
     [
       {
-        "Name": "Bogan, Cruickshank and Prosacco",
-        "Value": "ut",
-        "Tooltip": "repellat",
-        "Label": "quia",
-        "ValueLength": 147,
-        "AddressType": "adipisci",
+        "Name": "McLaughlin, Sauer and Pfeffer",
+        "Value": "qui",
+        "Tooltip": "assumenda",
+        "Label": "nemo",
+        "ValueLength": 353,
+        "AddressType": "similique",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 881
+            "FieldLength": 342
           }
         }
       }
@@ -136,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "doloremque",
+  "Formatted": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldLength": 454
     }
   }
 }

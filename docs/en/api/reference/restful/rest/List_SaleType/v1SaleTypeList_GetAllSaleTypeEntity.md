@@ -1,6 +1,7 @@
 ---
 title: GET List/SaleType/Items
 uid: v1SaleTypeList_GetAllSaleTypeEntity
+generated: true
 ---
 
 # GET List/SaleType/Items
@@ -87,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 13,
-    "Name": "Gaylord, Bernier and Heller",
-    "Tooltip": "nulla",
-    "Rank": 195,
+    "SaleTypeId": 603,
+    "Name": "Hoppe, Daniel and Legros",
+    "Tooltip": "quo",
+    "Rank": 441,
     "DurationUnit": "Century",
-    "SaleDuration": 824,
-    "SaleTypeCatId": 747,
+    "SaleDuration": 107,
+    "SaleTypeCatId": 280,
     "Deleted": true,
     "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": false,
+    "IsAutoAdvance": true,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 368,
-    "QuoteLinesTemplate": 829,
-    "ConfirmationLinesTemplate": 964,
+    "DefaultQuoteValidity": 886,
+    "QuoteLinesTemplate": 275,
+    "ConfirmationLinesTemplate": 44,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 622,
-    "MinEarningPercent": 902,
-    "GroupQuoteLinesBy": 554,
-    "SortGroupLinesBy": 347,
+    "MaxDiscountPercent": 60,
+    "MinEarningPercent": 657,
+    "GroupQuoteLinesBy": 608,
+    "SortGroupLinesBy": 295,
     "Stages": [
       {
-        "Id": 2,
-        "Name": "Gulgowski, Medhurst and Kassulke",
-        "ToolTip": "Perspiciatis et eos voluptatem enim nam placeat.",
-        "Deleted": false,
-        "Rank": 106,
-        "Type": "quos",
-        "ColorBlock": 706,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2019-07-21T03:51:34.9426529+02:00",
+        "Id": 114,
+        "Name": "Ruecker-Sawayn",
+        "ToolTip": "Exercitationem et nemo dolor incidunt voluptatum aut.",
+        "Deleted": true,
+        "Rank": 343,
+        "Type": "ea",
+        "ColorBlock": 354,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2007-04-18T16:00:49.3051793+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "hic",
-        "Hidden": false,
-        "FullName": "Mr. Adrian Ransom Brekke IV",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "optio",
+        "Hidden": true,
+        "FullName": "Bridgette Macejkovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 712
+            "FieldType": "System.String",
+            "FieldLength": 905
           }
         }
       }
@@ -154,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldLength": 199
       }
     }
   }

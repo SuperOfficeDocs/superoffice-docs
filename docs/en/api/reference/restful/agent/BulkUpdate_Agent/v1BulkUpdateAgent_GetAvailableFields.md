@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BulkUpdate/GetAvailableFields
 uid: v1BulkUpdateAgent_GetAvailableFields
+generated: true
 ---
 
 # POST Agents/BulkUpdate/GetAvailableFields
@@ -90,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -103,75 +104,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
-    "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "unde",
-    "ValueType": "nesciunt",
+    "DefaultShowInGui": false,
+    "DefaultShowInSelector": true,
+    "IsActive": true,
+    "Key": "error",
+    "ValueType": "officiis",
     "Mandatory": true,
-    "EncodedDisplayName": "Fahey-Auer",
-    "EncodedDisplayDescription": "Business-focused explicit artificial intelligence",
-    "IconHint": "minima",
+    "EncodedDisplayName": "Wyman Inc and Sons",
+    "EncodedDisplayDescription": "Universal human-resource task-force",
+    "IconHint": "et",
     "ControlInfos": [
       {
-        "Type": "eum",
-        "Label": "modi",
-        "Dimension": 5,
-        "ListProviderName": "Donnelly, Romaguera and Schowalter",
-        "ListProviderExtraInfo": "et",
-        "ListProviderPrimaryKeyName": "Huels LLC",
-        "ListLeadText": "aut",
+        "Type": "voluptates",
+        "Label": "cupiditate",
+        "Dimension": 153,
+        "ListProviderName": "Krajcik-Reynolds",
+        "ListProviderExtraInfo": "omnis",
+        "ListProviderPrimaryKeyName": "Halvorson LLC",
+        "ListLeadText": "nulla",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 708
+            "FieldLength": 626
           }
         }
       }
     ],
-    "EncodedDataCaption": "dolorem",
-    "EncodedDataCaptionDescription": "Managed methodical model",
-    "CurrentOperationType": "autem",
+    "EncodedDataCaption": "incidunt",
+    "EncodedDataCaptionDescription": "Open-source multimedia functionalities",
+    "CurrentOperationType": "expedita",
     "Values": [
-      "aperiam",
-      "earum"
+      "maiores",
+      "vel"
     ],
     "DisplayValues": [
-      "molestiae",
-      "deleniti"
+      "et",
+      "eos"
     ],
     "OperationInfos": [
       {
-        "Key": "cupiditate",
-        "EncodedDisplayName": "Hand-Wolff",
+        "Key": "in",
+        "EncodedDisplayName": "Ruecker Group",
         "EncodedLeadTexts": [
-          "quam",
-          "qui"
+          "dolor",
+          "consequatur"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 502
+            "FieldType": "System.String",
+            "FieldLength": 170
           }
         }
       },
       {
-        "Key": "cupiditate",
-        "EncodedDisplayName": "Hand-Wolff",
+        "Key": "in",
+        "EncodedDisplayName": "Ruecker Group",
         "EncodedLeadTexts": [
-          "quam",
-          "qui"
+          "dolor",
+          "consequatur"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 502
+            "FieldType": "System.String",
+            "FieldLength": 170
           }
         }
       }

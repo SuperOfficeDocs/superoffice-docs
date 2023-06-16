@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetConfigParameter
 uid: v1AudienceAgent_GetConfigParameter
+generated: true
 ---
 
 # POST Agents/Audience/GetConfigParameter
@@ -79,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Corkery Inc and Sons",
-  "ParameterName": "Cremin, Ortiz and Orn"
+  "LayoutName": "Langworth, Ritchie and Bradtke",
+  "ParameterName": "Schinner-Parker"
 }
 ```
 
@@ -95,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 598,
-  "Name": "Brakus, Abshire and Turner",
-  "Value": "velit",
-  "CreatedDate": "2020-01-24T03:51:26.5999985+01:00",
-  "UpdatedDate": "2020-02-12T03:51:26.5999985+01:00",
-  "CreatedBy": "necessitatibus",
-  "UpdatedBy": "deserunt",
+  "AudienceLayoutId": 661,
+  "Name": "Smith, Cummings and Goldner",
+  "Value": "sed",
+  "CreatedDate": "2001-07-02T16:00:40.086328+02:00",
+  "UpdatedDate": "2012-12-16T16:00:40.086328+01:00",
+  "CreatedBy": "repellendus",
+  "UpdatedBy": "asperiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldLength": 732
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Favourite/IsFavourite
 uid: v1FavouriteAgent_IsFavourite
+generated: true
 ---
 
 # POST Agents/Favourite/IsFavourite
@@ -69,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Smitham, Altenwerth and Erdman",
-  "RecordId": 502,
-  "AssociateId": 452
+  "TableName": "Langosh-Murray",
+  "RecordId": 824,
+  "AssociateId": 311
 }
 ```
 

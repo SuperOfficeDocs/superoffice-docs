@@ -1,6 +1,7 @@
 ---
 title: PUT List/Competitor
 uid: v1CompetitorList_SetListDefinition
+generated: true
 ---
 
 # PUT List/Competitor
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 266,
-  "Name": "McDermott LLC",
-  "Tooltip": "culpa",
+  "Id": 140,
+  "Name": "McDermott-Graham",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 390,
+  "Rank": 959,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "non",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "accusantium",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 721,
-  "Name": "Schamberger LLC",
-  "Tooltip": "nihil",
+  "Id": 209,
+  "Name": "Yundt, Keeling and Jakubowski",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 754,
+  "Rank": 107,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "reprehenderit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 672
     }
   }
 }

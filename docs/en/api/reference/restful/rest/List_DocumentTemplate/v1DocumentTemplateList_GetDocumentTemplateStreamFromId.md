@@ -1,6 +1,7 @@
 ---
 title: GET List/DocumentTemplate/Items/{id}/Content/{languageCode}
 uid: v1DocumentTemplateList_GetDocumentTemplateStreamFromId
+generated: true
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Content/{languageCode}

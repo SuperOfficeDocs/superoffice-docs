@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/CreateDefaultAudienceLayoutEntity
 uid: v1AudienceAgent_CreateDefaultAudienceLayoutEntity
+generated: true
 ---
 
 # POST Agents/Audience/CreateDefaultAudienceLayoutEntity
@@ -62,7 +63,7 @@ OK
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,11 +73,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 664,
-  "InstanceLayout": "delectus",
-  "InstanceName": "Carroll, Wisozk and Douglas",
-  "CreatedDate": "2002-07-28T03:51:26.5999985+02:00",
-  "UpdatedDate": "2016-09-06T03:51:26.5999985+02:00",
+  "AudienceLayoutId": 104,
+  "InstanceLayout": "sed",
+  "InstanceName": "McLaughlin, Gislason and Lindgren",
+  "CreatedDate": "2007-05-19T16:00:40.086328+02:00",
+  "UpdatedDate": "2004-05-05T16:00:40.086328+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -84,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 412
+      "FieldLength": 916
     }
   }
 }

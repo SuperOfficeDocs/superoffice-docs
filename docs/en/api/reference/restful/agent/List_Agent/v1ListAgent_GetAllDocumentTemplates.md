@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAllDocumentTemplates
 uid: v1ListAgent_GetAllDocumentTemplates
+generated: true
 ---
 
 # POST Agents/List/GetAllDocumentTemplates
@@ -96,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -112,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 305,
-    "Name": "Crooks-Bode",
-    "Tooltip": "laborum",
-    "SaveInDb": 521,
-    "Filename": "qui",
-    "DefaultOref": "qui",
+    "DocumentTemplateId": 388,
+    "Name": "Kozey Inc and Sons",
+    "Tooltip": "qui",
+    "SaveInDb": 430,
+    "Filename": "deserunt",
+    "DefaultOref": "consequuntur",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 450,
-    "IntentId": 235,
+    "AutoeventId": 377,
+    "IntentId": 882,
     "IsDefaultPublished": false,
-    "Rank": 323,
-    "LoadTemplateFromPlugin": 127,
-    "MimeType": "sit",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 475,
+    "Rank": 501,
+    "LoadTemplateFromPlugin": 630,
+    "MimeType": "iusto",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 322,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "jovani@dubuquelubowitz.co.uk",
-    "IncludeSignature": false,
+    "EmailSubject": "eugene@kuphal.name",
+    "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "casimir.cole@ebert.biz",
+    "SenderEmailAddress": "janie_schaefer@medhurst.name",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 831
       }
     }
   }

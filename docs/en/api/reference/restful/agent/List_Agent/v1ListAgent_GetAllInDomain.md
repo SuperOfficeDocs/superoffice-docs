@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAllInDomain
 uid: v1ListAgent_GetAllInDomain
+generated: true
 ---
 
 # POST Agents/List/GetAllInDomain
@@ -82,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": false
+  "Children": true
 }
 ```
 
@@ -99,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 330,
+    "HierarchyId": 36,
     "Domain": "Dashboards",
-    "Name": "Connelly Inc and Sons",
-    "Fullname": "est",
-    "ParentId": 523,
+    "Name": "Collier-Robel",
+    "Fullname": "dicta",
+    "ParentId": 9,
     "Children": [
       {
-        "HierarchyId": 179,
+        "HierarchyId": 523,
         "Domain": "Dashboards",
-        "Name": "Boyer, Lindgren and Rempel",
-        "Fullname": "pariatur",
-        "ParentId": 629,
+        "Name": "Lubowitz LLC",
+        "Fullname": "a",
+        "ParentId": 683,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2000-07-30T03:51:27.4591714+02:00",
-        "RegisteredAssociateId": 395,
-        "Updated": "2010-01-15T03:51:27.4591714+01:00",
-        "UpdatedAssociateId": 655,
+        "Registered": "2004-11-23T16:00:41.1955783+01:00",
+        "RegisteredAssociateId": 976,
+        "Updated": "1997-05-17T16:00:41.1955783+02:00",
+        "UpdatedAssociateId": 904,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 462
+            "FieldLength": 752
           }
         }
       }
     ],
-    "Registered": "2007-10-16T03:51:27.4591714+02:00",
-    "RegisteredAssociateId": 339,
-    "Updated": "2019-07-28T03:51:27.4591714+02:00",
-    "UpdatedAssociateId": 140,
+    "Registered": "2007-02-02T16:00:41.1955783+01:00",
+    "RegisteredAssociateId": 105,
+    "Updated": "2006-03-24T16:00:41.1955783+01:00",
+    "UpdatedAssociateId": 232,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 520
+        "FieldLength": 989
       }
     }
   }

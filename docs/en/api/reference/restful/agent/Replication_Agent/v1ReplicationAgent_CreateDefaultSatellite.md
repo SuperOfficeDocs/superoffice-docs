@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Replication/CreateDefaultSatellite
 uid: v1ReplicationAgent_CreateDefaultSatellite
+generated: true
 ---
 
 # POST Agents/Replication/CreateDefaultSatellite
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 934,
-  "Created": "2003-09-23T03:51:28.0527796+02:00",
+  "SatelliteId": 590,
+  "Created": "2018-12-16T16:00:41.6956884+01:00",
   "CreatedBy": null,
-  "Updated": "2001-02-01T03:51:28.0527796+01:00",
+  "Updated": "2001-03-17T16:00:41.6956884+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Streich LLC",
-      "Description": "Distributed discrete benchmark",
+      "Name": "Gerlach, Olson and Champlin",
+      "Description": "Open-source responsive ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldLength": 471
         }
       }
     },
     {
-      "Name": "Streich LLC",
-      "Description": "Distributed discrete benchmark",
+      "Name": "Gerlach, Olson and Champlin",
+      "Description": "Open-source responsive ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldLength": 471
         }
       }
     }
@@ -129,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldType": "System.String",
+      "FieldLength": 818
     }
   }
 }

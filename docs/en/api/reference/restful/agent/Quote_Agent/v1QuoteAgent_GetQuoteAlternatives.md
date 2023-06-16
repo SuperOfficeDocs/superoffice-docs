@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuoteAlternatives
 uid: v1QuoteAgent_GetQuoteAlternatives
+generated: true
 ---
 
 # POST Agents/Quote/GetQuoteAlternatives
@@ -94,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 327
+  "QuoteVersionId": 403
 }
 ```
 
@@ -110,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 262,
-    "ERPQuoteAlternativeKey": "qui",
-    "QuoteVersionId": 425,
-    "Name": "Gottlieb-Ernser",
-    "Description": "Polarised hybrid open system",
+    "QuoteAlternativeId": 110,
+    "ERPQuoteAlternativeKey": "labore",
+    "QuoteVersionId": 613,
+    "Name": "Miller Inc and Sons",
+    "Description": "Multi-layered zero administration alliance",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 9157.5479999999989,
-    "ERPDiscountAmount": 18957.566,
-    "DiscountPercent": 11642.81,
-    "DiscountAmount": 15090.21,
+    "ERPDiscountPercent": 13704.982,
+    "ERPDiscountAmount": 21054.212,
+    "DiscountPercent": 26936.73,
+    "DiscountAmount": 21323.736,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "omnis",
-    "VAT": 8850.416,
-    "EarningPercent": 21151.365999999998,
-    "EarningAmount": 17628.75,
-    "SubTotal": 19054.72,
-    "TotalPrice": 21229.716,
-    "ExtraField1": "velit",
-    "ExtraField2": "quaerat",
-    "ExtraField3": "placeat",
-    "ExtraField4": "corrupti",
-    "ExtraField5": "eveniet",
+    "VATInfo": "placeat",
+    "VAT": 29929.7,
+    "EarningPercent": 26761.226,
+    "EarningAmount": 8543.284,
+    "SubTotal": 27566.664,
+    "TotalPrice": 15917.586,
+    "ExtraField1": "eligendi",
+    "ExtraField2": "asperiores",
+    "ExtraField3": "culpa",
+    "ExtraField4": "velit",
+    "ExtraField5": "commodi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 320
+        "FieldType": "System.Int32",
+        "FieldLength": 818
       }
     }
   }

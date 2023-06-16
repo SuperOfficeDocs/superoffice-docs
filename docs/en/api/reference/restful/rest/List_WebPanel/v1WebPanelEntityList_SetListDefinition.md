@@ -1,6 +1,7 @@
 ---
 title: PUT List/WebPanel
 uid: v1WebPanelEntityList_SetListDefinition
+generated: true
 ---
 
 # PUT List/WebPanel
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 250,
-  "Name": "West, Prosacco and Boehm",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "Rank": 793,
+  "Id": 859,
+  "Name": "Hamill, McCullough and Welch",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 826,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "non",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 757,
-  "Name": "Mayer LLC",
-  "Tooltip": "neque",
+  "Id": 369,
+  "Name": "Corwin, Jaskolski and Nitzsche",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 79,
-  "IsCustomList": true,
+  "Rank": 896,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facilis",
+  "ListType": "cupiditate",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 957
     }
   }
 }

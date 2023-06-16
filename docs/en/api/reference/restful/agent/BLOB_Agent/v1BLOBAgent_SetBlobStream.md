@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/SetBlobStream
 uid: v1BLOBAgent_SetBlobStream
+generated: true
 ---
 
 # POST Agents/BLOB/SetBlobStream
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobEntityId": 148,
+  "BlobEntityId": 124,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```

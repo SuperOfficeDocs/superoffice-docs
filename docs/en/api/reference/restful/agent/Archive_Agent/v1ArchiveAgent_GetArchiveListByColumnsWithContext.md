@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumnsWithContext
 uid: v1ArchiveAgent_GetArchiveListByColumnsWithContext
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithContext
@@ -107,32 +108,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Flatley, Bahringer and Gulgowski",
+  "ProviderName": "Cremin-Turcotte",
   "Columns": [
-    "rem",
-    "magni"
+    "hic",
+    "veritatis"
   ],
   "SortOrder": [
     {
-      "Name": "Kautzer-Nader",
+      "Name": "Quitzon Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Kautzer-Nader",
+      "Name": "Quitzon Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Konopelski-Effertz",
-      "Operator": "excepturi",
+      "Name": "Deckow, Wilkinson and Swift",
+      "Operator": "nihil",
       "Values": [
-        "tempora",
-        "exercitationem"
+        "fugit",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "eaque",
-        "minima"
+        "molestiae",
+        "laudantium"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,18 +141,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 749,
+      "InterParenthesis": 266,
       "InterOperator": "And",
-      "UniqueHash": 505
+      "UniqueHash": 523
     }
   ],
   "Entities": [
-    "sunt",
-    "architecto"
+    "sed",
+    "labore"
   ],
-  "Page": 417,
-  "PageSize": 54,
-  "Context": "velit"
+  "Page": 181,
+  "PageSize": 748,
+  "Context": "cupiditate"
 }
 ```
 
@@ -163,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Christiansen-Mitchell",
-    "PrimaryKey": 1000,
+    "EntityName": "Witting, Lang and Hirthe",
+    "PrimaryKey": 812,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "est",
-        "TooltipHint": "explicabo",
-        "LinkHint": "eum"
+        "DisplayValue": "tempora",
+        "TooltipHint": "fugit",
+        "LinkHint": "quis"
       }
     },
-    "LinkHint": "vel",
-    "StyleHint": "veritatis",
+    "LinkHint": "reprehenderit",
+    "StyleHint": "nostrum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldLength": 1000
       }
     }
   }

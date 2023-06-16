@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/RequestApproval
 uid: v1QuoteAgent_RequestApproval
+generated: true
 ---
 
 # POST Agents/Quote/RequestApproval
@@ -79,13 +80,13 @@ OK
 POST /api/v1/Agents/Quote/RequestApproval
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 195,
-  "AssociateId": 868,
-  "Comment": "consequatur"
+  "QuoteVersionId": 176,
+  "AssociateId": 632,
+  "Comment": "id"
 }
 ```
 
@@ -97,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "sunt",
-  "TechExplanation": "dicta",
-  "ErrorCode": "id",
+  "UserExplanation": "perspiciatis",
+  "TechExplanation": "corporis",
+  "ErrorCode": "consectetur",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 28
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: DEL List/Position/Headings
 uid: v1PositionList_DeletePositionHeadings
+generated: true
 ---
 
 # DEL List/Position/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

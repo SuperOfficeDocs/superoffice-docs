@@ -1,7 +1,7 @@
 ---
 title: Services88.FreeTextAgent SOAP
 uid: Services88-FreeText-soap
-generated: 1
+generated: true
 ---
 
 # Services88 FreeText SOAP

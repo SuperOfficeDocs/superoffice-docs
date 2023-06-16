@@ -1,6 +1,7 @@
 ---
 title: GET List/Source/MDOItems
 uid: v1SourceList_GetMDOList
+generated: true
 ---
 
 # GET List/Source/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=aut
+GET /api/v1/List/Source/MDOItems?flat=True
+GET /api/v1/List/Source/MDOItems?query=architecto
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Name": "Greenholt-Ziemann",
-    "ToolTip": "Molestiae soluta error dicta dolore magnam.",
-    "Deleted": false,
-    "Rank": 704,
-    "Type": "atque",
+    "Id": 41,
+    "Name": "Wisozk, Shields and Harber",
+    "ToolTip": "A laboriosam consequuntur aperiam id.",
+    "Deleted": true,
+    "Rank": 179,
+    "Type": "eligendi",
     "ChildItems": [
       {
-        "Id": 896,
-        "Name": "Romaguera, Mills and D'Amore",
-        "ToolTip": "Et aliquam ex vel aspernatur excepturi.",
+        "Id": 781,
+        "Name": "Zieme LLC",
+        "ToolTip": "Voluptatem ratione error sed eveniet est expedita.",
         "Deleted": false,
-        "Rank": 257,
-        "Type": "et",
+        "Rank": 444,
+        "Type": "necessitatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "corrupti",
-        "ColorBlock": 489,
-        "ExtraInfo": "aut",
-        "StyleHint": "ea",
-        "FullName": "Mrs. Jennyfer Triston Stamm V",
+        "IconHint": "sed",
+        "ColorBlock": 582,
+        "ExtraInfo": "molestias",
+        "StyleHint": "sint",
+        "FullName": "Vita Ferry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 820
+            "FieldLength": 890
           }
         }
       }
     ],
-    "IconHint": "quasi",
-    "ColorBlock": 700,
-    "ExtraInfo": "doloremque",
-    "StyleHint": "voluptas",
-    "FullName": "Miller McClure",
+    "IconHint": "atque",
+    "ColorBlock": 896,
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "vero",
+    "FullName": "Prof. Bennie Salma White",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 187
+        "FieldLength": 11
       }
     }
   }

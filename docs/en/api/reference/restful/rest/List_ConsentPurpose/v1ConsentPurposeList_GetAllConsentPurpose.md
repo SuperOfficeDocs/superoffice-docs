@@ -1,6 +1,7 @@
 ---
 title: GET List/ConsentPurpose/Items
 uid: v1ConsentPurposeList_GetAllConsentPurpose
+generated: true
 ---
 
 # GET List/ConsentPurpose/Items
@@ -68,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 735,
-    "Name": "Rutherford-Farrell",
-    "ConsentText": "repellendus",
-    "FormText": "facere",
-    "Key": "ea",
-    "Tooltip": "sequi",
-    "Active": 423,
-    "UpdatedDate": "2008-09-14T03:51:34.5989925+02:00",
+    "ConsentPurposeId": 320,
+    "Name": "Leannon-Veum",
+    "ConsentText": "fugiat",
+    "FormText": "fuga",
+    "Key": "aperiam",
+    "Tooltip": "accusamus",
+    "Active": 643,
+    "UpdatedDate": "2018-12-22T16:00:48.9145965+01:00",
     "UpdatedBy": null,
-    "Deleted": true,
-    "Rank": 461,
-    "PrivacyStatementDesc": "voluptatum",
+    "Deleted": false,
+    "Rank": 451,
+    "PrivacyStatementDesc": "quaerat",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 985
       }
     }
   }

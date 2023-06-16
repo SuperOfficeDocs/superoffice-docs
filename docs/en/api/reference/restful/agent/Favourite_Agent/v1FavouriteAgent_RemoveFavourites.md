@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Favourite/RemoveFavourites
 uid: v1FavouriteAgent_RemoveFavourites
+generated: true
 ---
 
 # POST Agents/Favourite/RemoveFavourites
@@ -69,12 +70,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Keebler-Emmerich",
+  "TableName": "Lueilwitz-O'Reilly",
   "RecordIds": [
-    672,
-    888
+    426,
+    975
   ],
-  "AssociateId": 226
+  "AssociateId": 122
 }
 ```
 

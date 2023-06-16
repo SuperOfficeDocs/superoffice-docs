@@ -1,6 +1,7 @@
 ---
 title: PUT ChatTopic/{id}
 uid: v1ChatTopicEntity_PutChatTopicEntity
+generated: true
 ---
 
 # PUT ChatTopic/{id}
@@ -138,41 +139,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 635,
-  "Name": "Cremin-Dibbert",
-  "Description": "Stand-alone content-based architecture",
-  "WelcomeMessage": "hic",
+  "ChatTopicId": 406,
+  "Name": "Monahan-Herzog",
+  "Description": "Cross-platform incremental focus group",
+  "WelcomeMessage": "voluptate",
   "Language": null,
-  "LastAccept": "1997-06-01T03:51:33.2398098+02:00",
-  "SecondsPrAccept": 805,
-  "AlertRecipient": "ratione",
+  "LastAccept": "2004-10-21T16:00:47.6647341+02:00",
+  "SecondsPrAccept": 584,
+  "AlertRecipient": "iste",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "facere",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "eveniet",
-  "WarnNewChatMinutes": 825,
-  "WarnManagerNewChatMinutes": 108,
+  "BadgeHeader": "laborum",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "et",
+  "WarnNewChatMinutes": 397,
+  "WarnManagerNewChatMinutes": 187,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 531,
-  "WarnManagerChatMessageMinutes": 402,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 707,
-  "OfflineFormQueueLength": 74,
+  "WarnChatMessageMinutes": 200,
+  "WarnManagerChatMessageMinutes": 540,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 584,
+  "OfflineFormQueueLength": 280,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "adipisci"
+  "WidgetRatingText": "et"
 }
 ```
 
@@ -183,43 +184,43 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 635,
-  "Name": "Waters-Huels",
-  "Description": "Automated content-based budgetary management",
-  "WelcomeMessage": "quibusdam",
+  "ChatTopicId": 643,
+  "Name": "Hayes Inc and Sons",
+  "Description": "Centralized even-keeled instruction set",
+  "WelcomeMessage": "aut",
   "Language": null,
-  "LastAccept": "2019-04-14T03:51:33.2398098+02:00",
-  "SecondsPrAccept": 290,
-  "AlertRecipient": "porro",
+  "LastAccept": "2010-09-10T16:00:47.6647341+02:00",
+  "SecondsPrAccept": 509,
+  "AlertRecipient": "nobis",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "facere",
+  "CollectConsent": true,
+  "BadgeHeader": "corrupti",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "omnis",
-  "WarnNewChatMinutes": 974,
-  "WarnManagerNewChatMinutes": 286,
+  "CustomQueueText": "sunt",
+  "WarnNewChatMinutes": 630,
+  "WarnManagerNewChatMinutes": 363,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 833,
-  "WarnManagerChatMessageMinutes": 459,
+  "WarnChatMessageMinutes": 470,
+  "WarnManagerChatMessageMinutes": 286,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 578,
-  "OfflineFormQueueLength": 973,
+  "OfflineFormTimeLimit": 257,
+  "OfflineFormQueueLength": 738,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "omnis",
+  "WidgetRatingText": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldLength": 388
     }
   },
   "_Links": {

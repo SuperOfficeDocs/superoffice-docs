@@ -1,17 +1,16 @@
 ---
 uid: time
 title: time
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "time"
+keywords: mdoprovider mdo provider time
+description: MDO provider for the hard-coded list of time alternatives in the appointment dialog and in edit/preferences
+
+The type field contains seconds past midnight for the items' hour/minute value; extrainfo contains hh:mm
+(always 2 + 2 digits and colon, regardless of culture); and name/tooltip contain a time value encoded
+with CultureDataFormatter.<see cref="M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime(System.DateTime)" />.
+
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "time" MDO List

@@ -1,6 +1,7 @@
 ---
 title: PUT List/Source/Headings
 uid: v1SourceList_PutSourceHeadings
+generated: true
 ---
 
 # PUT List/Source/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 76,
-    "Name": "Hintz Inc and Sons",
-    "Tooltip": "asperiores",
+    "HeadingId": 526,
+    "Name": "Sauer Inc and Sons",
+    "Tooltip": "non",
     "Deleted": true,
-    "Rank": 46,
-    "UdListDefinitionId": 392
+    "Rank": 404,
+    "UdListDefinitionId": 35
   },
   {
-    "HeadingId": 76,
-    "Name": "Hintz Inc and Sons",
-    "Tooltip": "asperiores",
+    "HeadingId": 526,
+    "Name": "Sauer Inc and Sons",
+    "Tooltip": "non",
     "Deleted": true,
-    "Rank": 46,
-    "UdListDefinitionId": 392
+    "Rank": 404,
+    "UdListDefinitionId": 35
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 169,
-    "Name": "Leuschke LLC",
-    "Tooltip": "natus",
-    "Deleted": false,
-    "Rank": 852,
-    "UdListDefinitionId": 822,
+    "HeadingId": 43,
+    "Name": "Ernser LLC",
+    "Tooltip": "aperiam",
+    "Deleted": true,
+    "Rank": 811,
+    "UdListDefinitionId": 83,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 783
+        "FieldType": "System.Int32",
+        "FieldLength": 246
       }
     }
   }

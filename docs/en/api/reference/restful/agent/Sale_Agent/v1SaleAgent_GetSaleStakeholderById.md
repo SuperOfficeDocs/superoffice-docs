@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetSaleStakeholderById
 uid: v1SaleAgent_GetSaleStakeholderById
+generated: true
 ---
 
 # POST Agents/Sale/GetSaleStakeholderById
@@ -90,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    165,
-    177
+    610,
+    818
   ]
 }
 ```
@@ -109,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Jacobi LLC",
-    "Comment": "porro",
-    "StakeholderRoleId": 219,
-    "CountryId": 968,
-    "PersonId": 297,
-    "EmailDescription": "glennie@croninturner.us",
-    "EmailId": 871,
-    "EmailAddress": "eden@parkerkovacek.co.uk",
-    "PhoneId": 521,
-    "ContactName": "Emard Inc and Sons",
-    "ContactId": 94,
-    "SaleId": 553,
-    "Mrmrs": "dolore",
-    "Firstname": "Evans",
-    "MiddleName": "Treutel-Rogahn",
-    "Lastname": "Mitchell",
-    "SaleStakeholderId": 149,
-    "Rank": 849,
-    "Phone": "399-581-1533",
+    "StakeholderRoleName": "Walter-O'Keefe",
+    "Comment": "ut",
+    "StakeholderRoleId": 364,
+    "CountryId": 20,
+    "PersonId": 54,
+    "EmailDescription": "godfrey.hane@heidenreich.co.uk",
+    "EmailId": 998,
+    "EmailAddress": "isaias@beer.uk",
+    "PhoneId": 407,
+    "ContactName": "Waters, Cruickshank and Mayert",
+    "ContactId": 661,
+    "SaleId": 242,
+    "Mrmrs": "quia",
+    "Firstname": "Kaela",
+    "MiddleName": "Hammes, Simonis and Effertz",
+    "Lastname": "Schmidt",
+    "SaleStakeholderId": 754,
+    "Rank": 825,
+    "Phone": "1-978-311-0422 x50176",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 178
+        "FieldType": "System.String",
+        "FieldLength": 575
       }
     }
   }

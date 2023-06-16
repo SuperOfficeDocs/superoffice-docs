@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateSelectionEntity
 uid: v1SelectionAgent_CreateSelectionEntity
+generated: true
 ---
 
 # POST Agents/Selection/CreateSelectionEntity
@@ -116,7 +117,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Rosenbaum, Gusikowski and Kuhlman"
+  "TargetTableName": "Ryan-Bahringer"
 }
 ```
 
@@ -127,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Team-oriented scalable attitude",
-  "Postit": "dignissimos",
+  "Description": "Reactive methodical contingency",
+  "Postit": "in",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 547,
-  "IncludePerson": 754,
-  "MemberCount": 186,
-  "Name": "Beier Inc and Sons",
-  "PostitTextId": 293,
-  "CreatedDate": "2007-12-04T03:51:28.1621313+01:00",
-  "SelectionId": 52,
-  "SoundEx": "voluptates",
-  "Source": 339,
-  "TextId": 742,
-  "UpdatedDate": "2012-01-27T03:51:28.1621313+01:00",
-  "UpdatedCount": 431,
-  "Visibility": 853,
+  "GroupIdx": 689,
+  "IncludePerson": 652,
+  "MemberCount": 714,
+  "Name": "Jerde, Huels and Kozey",
+  "PostitTextId": 514,
+  "CreatedDate": "2010-03-09T16:00:41.8362961+01:00",
+  "SelectionId": 332,
+  "SoundEx": "maxime",
+  "Source": 740,
+  "TextId": 575,
+  "UpdatedDate": "2002-12-21T16:00:41.8362961+01:00",
+  "UpdatedCount": 905,
+  "Visibility": 184,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 194,
-  "TargetTableName": "Bechtelar-Quigley",
+  "TargetTableNumber": 32,
+  "TargetTableName": "Rolfson Group",
   "Completed": false,
-  "LeftSelectionId": 925,
-  "RightSelectionId": 676,
+  "LeftSelectionId": 629,
+  "RightSelectionId": 679,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bartoletti-Pfeffer",
-  "ShadowProviderName": "Kozey, Moen and Botsford",
-  "ChartKey": "rerum",
-  "LastLoaded": "1997-04-23T03:51:28.1621313+02:00",
-  "LastLoadedBy": 555,
+  "MainProviderName": "Ferry Group",
+  "ShadowProviderName": "Ankunding, Durgan and Stroman",
+  "ChartKey": "ab",
+  "LastLoaded": "1998-12-28T16:00:41.8362961+01:00",
+  "LastLoadedBy": 637,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-03-09T03:51:28.1621313+01:00",
-  "LastMembershipChangeBy": 408,
+  "LastMembershipChange": "2003-11-07T16:00:41.8362961+01:00",
+  "LastMembershipChangeBy": 576,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "delectus",
-  "MemberTabHeading": "dicta",
-  "MailingsProviderName": "Jacobson, Boyer and Jacobson",
-  "DashboardTileDefinitionId": 522,
+  "MainHeading": "quia",
+  "MemberTabHeading": "quisquam",
+  "MailingsProviderName": "Mayert Group",
+  "DashboardTileDefinitionId": 956,
   "VisibleFor": [
     {
-      "VisibleId": 852,
+      "VisibleId": 216,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldType": "System.String",
+          "FieldLength": 812
         }
       }
     },
     {
-      "VisibleId": 852,
+      "VisibleId": 216,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldType": "System.String",
+          "FieldLength": 812
         }
       }
     }
@@ -199,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldType": "System.String",
+      "FieldLength": 98
     }
   }
 }

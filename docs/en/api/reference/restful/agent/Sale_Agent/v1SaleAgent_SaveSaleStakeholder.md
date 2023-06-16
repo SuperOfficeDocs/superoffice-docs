@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/SaveSaleStakeholder
 uid: v1SaleAgent_SaveSaleStakeholder
+generated: true
 ---
 
 # POST Agents/Sale/SaveSaleStakeholder
@@ -102,25 +103,25 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Satterfield-Beatty",
-  "Comment": "dolores",
-  "StakeholderRoleId": 493,
-  "CountryId": 273,
-  "PersonId": 988,
-  "EmailDescription": "green@boyer.uk",
-  "EmailId": 40,
-  "EmailAddress": "rosalia.boyle@jakubowski.us",
-  "PhoneId": 601,
-  "ContactName": "Blick Group",
-  "ContactId": 933,
-  "SaleId": 746,
-  "Mrmrs": "id",
-  "Firstname": "Zion",
-  "MiddleName": "Walsh-Kutch",
-  "Lastname": "Turner",
-  "SaleStakeholderId": 836,
-  "Rank": 237,
-  "Phone": "(754)218-2692 x7102"
+  "StakeholderRoleName": "Hayes, Johnston and Murray",
+  "Comment": "consequatur",
+  "StakeholderRoleId": 500,
+  "CountryId": 572,
+  "PersonId": 529,
+  "EmailDescription": "nettie@nikolausdicki.us",
+  "EmailId": 620,
+  "EmailAddress": "russ@hirthelind.com",
+  "PhoneId": 355,
+  "ContactName": "Vandervort Inc and Sons",
+  "ContactId": 419,
+  "SaleId": 450,
+  "Mrmrs": "mollitia",
+  "Firstname": "Roberta",
+  "MiddleName": "Eichmann Group",
+  "Lastname": "Zulauf",
+  "SaleStakeholderId": 277,
+  "Rank": 118,
+  "Phone": "595-742-8927"
 }
 ```
 
@@ -131,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kuvalis LLC",
-  "Comment": "dolores",
-  "StakeholderRoleId": 294,
-  "CountryId": 679,
-  "PersonId": 165,
-  "EmailDescription": "trystan@langosh.biz",
-  "EmailId": 745,
-  "EmailAddress": "dante@naderskiles.co.uk",
-  "PhoneId": 611,
-  "ContactName": "Leuschke Inc and Sons",
-  "ContactId": 710,
-  "SaleId": 663,
-  "Mrmrs": "dolor",
-  "Firstname": "Mervin",
-  "MiddleName": "Goldner LLC",
-  "Lastname": "Koelpin",
-  "SaleStakeholderId": 934,
-  "Rank": 530,
-  "Phone": "587-739-1763 x080",
+  "StakeholderRoleName": "Dach-Hirthe",
+  "Comment": "amet",
+  "StakeholderRoleId": 996,
+  "CountryId": 73,
+  "PersonId": 689,
+  "EmailDescription": "rebecca.keebler@bogisichjakubowski.biz",
+  "EmailId": 947,
+  "EmailAddress": "madeline.weber@miller.info",
+  "PhoneId": 311,
+  "ContactName": "O'Hara-Predovic",
+  "ContactId": 333,
+  "SaleId": 356,
+  "Mrmrs": "quaerat",
+  "Firstname": "Kory",
+  "MiddleName": "Ward-Pfeffer",
+  "Lastname": "Schowalter",
+  "SaleStakeholderId": 803,
+  "Rank": 201,
+  "Phone": "(483)249-1708",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldType": "System.String",
+      "FieldLength": 358
     }
   }
 }

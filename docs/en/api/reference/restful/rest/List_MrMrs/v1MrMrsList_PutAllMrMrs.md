@@ -1,6 +1,7 @@
 ---
 title: PUT List/MrMrs/Items
 uid: v1MrMrsList_PutAllMrMrs
+generated: true
 ---
 
 # PUT List/MrMrs/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Hyatt-Kessler",
-    "Tooltip": "itaque",
+    "Id": 99,
+    "Name": "Flatley LLC",
+    "Tooltip": "excepturi",
     "Deleted": false,
-    "UdListDefinitionId": 602,
-    "Rank": 16
+    "UdListDefinitionId": 475,
+    "Rank": 932
   },
   {
-    "Id": 954,
-    "Name": "Hyatt-Kessler",
-    "Tooltip": "itaque",
+    "Id": 99,
+    "Name": "Flatley LLC",
+    "Tooltip": "excepturi",
     "Deleted": false,
-    "UdListDefinitionId": 602,
-    "Rank": 16
+    "UdListDefinitionId": 475,
+    "Rank": 932
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 68,
-    "Name": "Abernathy, Fahey and Spencer",
-    "Tooltip": "libero",
+    "Id": 891,
+    "Name": "Quitzon-Fritsch",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "UdListDefinitionId": 175,
-    "Rank": 364,
+    "UdListDefinitionId": 339,
+    "Rank": 141,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 516
+        "FieldLength": 281
       }
     }
   }

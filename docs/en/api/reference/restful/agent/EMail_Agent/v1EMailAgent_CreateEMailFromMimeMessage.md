@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateEMailFromMimeMessage
 uid: v1EMailAgent_CreateEMailFromMimeMessage
+generated: true
 ---
 
 # POST Agents/EMail/CreateEMailFromMimeMessage
@@ -103,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "quo"
+  "MimeMessage": "earum"
 }
 ```
 
@@ -116,146 +117,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 438,
-      "ContactName": "Botsford LLC",
-      "PersonId": 888,
-      "PersonName": "Ritchie LLC",
-      "AssociateId": 164,
-      "Address": "quae",
-      "EmailId": 143,
+      "ContactId": 811,
+      "ContactName": "Hahn Group",
+      "PersonId": 618,
+      "PersonName": "Hodkiewicz Inc and Sons",
+      "AssociateId": 823,
+      "Address": "ipsum",
+      "EmailId": 111,
       "DuplicatePersonIds": [
-        384,
-        729
+        965,
+        874
       ],
-      "Name": "Willms Inc and Sons",
+      "Name": "Wintheiser LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 398
+          "FieldType": "System.Int32",
+          "FieldLength": 142
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 344,
-      "ContactName": "Halvorson LLC",
-      "PersonId": 941,
-      "PersonName": "Klein LLC",
-      "AssociateId": 909,
-      "Address": "quasi",
-      "EmailId": 849,
+      "ContactId": 778,
+      "ContactName": "Hauck, Torphy and Murray",
+      "PersonId": 257,
+      "PersonName": "Kshlerin-Schiller",
+      "AssociateId": 703,
+      "Address": "in",
+      "EmailId": 469,
       "DuplicatePersonIds": [
-        677,
-        293
+        326,
+        929
       ],
-      "Name": "Jones Inc and Sons",
+      "Name": "Metz, Lakin and Green",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldType": "System.Int32",
+          "FieldLength": 739
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 987,
-      "ContactName": "Runolfsson, Jacobs and Botsford",
-      "PersonId": 560,
-      "PersonName": "Langosh Inc and Sons",
-      "AssociateId": 845,
-      "Address": "molestiae",
-      "EmailId": 664,
+      "ContactId": 996,
+      "ContactName": "Schultz-Bayer",
+      "PersonId": 55,
+      "PersonName": "Reynolds-Hermiston",
+      "AssociateId": 125,
+      "Address": "qui",
+      "EmailId": 715,
       "DuplicatePersonIds": [
-        24,
-        657
+        850,
+        662
       ],
-      "Name": "Reynolds-Cronin",
+      "Name": "Dibbert, Kiehn and Mann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldLength": 28
         }
       }
     }
   ],
-  "Subject": "dolore",
-  "HTMLBody": "temporibus",
+  "Subject": "ut",
+  "HTMLBody": "totam",
   "From": null,
-  "Sent": "2012-06-05T03:51:27.2560919+02:00",
-  "Size": 51,
+  "Sent": "2018-01-08T16:00:40.9612259+01:00",
+  "Size": 694,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "veritatis",
-  "PlainBody": "ex",
+  "MessageID": "earum",
+  "PlainBody": "sequi",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 598,
+  "ServerId": 851,
   "Attachments": [
     {
-      "Description": "Implemented regional forecast",
-      "Filename": "labore",
-      "Size": 850,
-      "Type": "praesentium",
-      "Encoding": "expedita",
-      "Id": "laboriosam",
-      "Disposition": "nobis",
+      "Description": "Sharable cohesive conglomeration",
+      "Filename": "modi",
+      "Size": 339,
+      "Type": "cum",
+      "Encoding": "totam",
+      "Id": "temporibus",
+      "Disposition": "non",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldLength": 580
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Swift-Langosh",
+      "Name": "Hamill, Kerluke and Dooley",
       "Values": [
-        "veritatis",
-        "qui"
+        "sed",
+        "ducimus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 538
+          "FieldType": "System.Int32",
+          "FieldLength": 546
         }
       }
     },
     {
-      "Name": "Swift-Langosh",
+      "Name": "Hamill, Kerluke and Dooley",
       "Values": [
-        "veritatis",
-        "qui"
+        "sed",
+        "ducimus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 538
+          "FieldType": "System.Int32",
+          "FieldLength": 546
         }
       }
     }
   ],
-  "FolderName": "Harris-Sporer",
-  "EmailItemId": 870,
-  "AccountId": 68,
-  "ReceivedAt": "2011-02-20T03:51:27.2560919+01:00",
+  "FolderName": "Renner-Schmeler",
+  "EmailItemId": 164,
+  "AccountId": 980,
+  "ReceivedAt": "2014-01-16T16:00:40.9612259+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-10-07T03:51:27.2560919+02:00",
+  "RepliedAt": "2018-07-24T16:00:40.9612259+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -263,8 +264,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldType": "System.String",
+      "FieldLength": 538
     }
   }
 }

@@ -1,17 +1,11 @@
 ---
 uid: documentcategory
 title: documentcategory
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "documentcategory"
+keywords: mdoprovider mdo provider documentcategory
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "documentcategory" MDO List

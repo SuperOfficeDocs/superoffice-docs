@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetWindowPosSizeList
 uid: v1ConfigurationAgent_GetWindowPosSizeList
+generated: true
 ---
 
 # POST Agents/Configuration/GetWindowPosSizeList
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/Configuration/GetWindowPosSizeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "ut",
-    "PersonId": 225,
-    "AssociateId": 581,
-    "ExtraId": 217,
-    "ExtraInfo": "cupiditate",
-    "Height": 910,
-    "LeftX": 217,
+    "OwnerWindow": "natus",
+    "PersonId": 841,
+    "AssociateId": 396,
+    "ExtraId": 19,
+    "ExtraInfo": "quia",
+    "Height": 637,
+    "LeftX": 294,
     "State": "Maximized",
-    "UpperY": 320,
-    "Width": 334,
-    "WindowPosSizeId": 490,
+    "UpperY": 79,
+    "Width": 9,
+    "WindowPosSizeId": 292,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 281
+        "FieldLength": 186
       }
     }
   }

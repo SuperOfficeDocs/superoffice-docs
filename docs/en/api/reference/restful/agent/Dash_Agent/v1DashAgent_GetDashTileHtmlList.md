@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/GetDashTileHtmlList
 uid: v1DashAgent_GetDashTileHtmlList
+generated: true
 ---
 
 # POST Agents/Dash/GetDashTileHtmlList
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileHtmlList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 843
+  "DashboardTileDefinitionId": 727
 }
 ```
 
@@ -91,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "dolorem",
-    "Html": "corrupti",
+    "LanguageCode": "quod",
+    "Html": "inventore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldType": "System.String",
+        "FieldLength": 404
       }
     }
   },
   {
-    "LanguageCode": "dolorem",
-    "Html": "corrupti",
+    "LanguageCode": "quod",
+    "Html": "inventore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldType": "System.String",
+        "FieldLength": 404
       }
     }
   }

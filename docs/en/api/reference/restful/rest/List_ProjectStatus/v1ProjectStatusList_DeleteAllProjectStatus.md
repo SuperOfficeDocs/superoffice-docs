@@ -1,6 +1,7 @@
 ---
 title: DEL List/ProjectStatus/Items
 uid: v1ProjectStatusList_DeleteAllProjectStatus
+generated: true
 ---
 
 # DEL List/ProjectStatus/Items
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

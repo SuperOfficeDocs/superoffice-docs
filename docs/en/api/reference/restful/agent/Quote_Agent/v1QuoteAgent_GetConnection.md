@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetConnection
 uid: v1QuoteAgent_GetConnection
+generated: true
 ---
 
 # POST Agents/Quote/GetConnection
@@ -86,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 164
+  "QuoteConnectionId": 211
 }
 ```
 
@@ -101,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 762,
-  "ERPName": "Oberbrunner Group",
-  "DisplayName": "Corkery-Hahn",
-  "DisplayDescription": "Devolved contextually-based moderator",
-  "Rank": 354,
-  "ConnectorName": "Mertz Group",
-  "ErpConnectionId": 965,
-  "ExtraData": "est",
-  "IsAvailable": true,
+  "QuoteConnectionId": 929,
+  "ERPName": "Rau-Jenkins",
+  "DisplayName": "Watsica-O'Kon",
+  "DisplayDescription": "Customizable bi-directional array",
+  "Rank": 199,
+  "ConnectorName": "Blanda-Zboncak",
+  "ErpConnectionId": 75,
+  "ExtraData": "sit",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 694,
-      "ERPPriceListKey": "velit",
-      "QuoteConnectionId": 189,
-      "Name": "Bernier Inc and Sons",
-      "Description": "Function-based responsive encryption",
-      "Currency": "dolor",
-      "CurrencyName": "McDermott-Stanton",
-      "ValidFrom": "1996-03-11T03:51:28.0215395+01:00",
-      "ValidTo": "2015-09-20T03:51:28.0215395+02:00",
-      "IsActive": true,
+      "PriceListId": 839,
+      "ERPPriceListKey": "vel",
+      "QuoteConnectionId": 813,
+      "Name": "Shanahan Inc and Sons",
+      "Description": "Optional zero defect moratorium",
+      "Currency": "fugiat",
+      "CurrencyName": "Mitchell-Stracke",
+      "ValidFrom": "2018-06-24T16:00:41.6488224+02:00",
+      "ValidTo": "2005-10-14T16:00:41.6488224+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 540
+          "FieldLength": 966
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    39,
-    260
+    385,
+    254
   ],
   "AssociateAccessIds": [
-    575,
-    644
+    964,
+    861
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 572
     }
   }
 }

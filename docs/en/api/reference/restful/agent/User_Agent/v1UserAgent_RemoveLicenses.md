@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/RemoveLicenses
 uid: v1UserAgent_RemoveLicenses
+generated: true
 ---
 
 # POST Agents/User/RemoveLicenses
@@ -65,11 +66,11 @@ No Content
 POST /api/v1/Agents/User/RemoveLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 877
+  "AssociateId": 542
 }
 ```
 

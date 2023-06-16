@@ -1,6 +1,7 @@
 ---
 title: GET List/ReasonSold/Items/{id}
 uid: v1ReasonSoldList_GetReasonSold
+generated: true
 ---
 
 # GET List/ReasonSold/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 293,
-  "Name": "Botsford, Mante and Lind",
-  "Tooltip": "dicta",
+  "Id": 567,
+  "Name": "Hoppe-Doyle",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 642,
-  "Rank": 242,
+  "UdListDefinitionId": 506,
+  "Rank": 331,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldLength": 171
     }
   }
 }

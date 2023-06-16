@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 uid: v1DocumentAgent_CreateDefaultDocumentEntityFromSuggestion
+generated: true
 ---
 
 # POST Agents/Document/CreateDefaultDocumentEntityFromSuggestion
@@ -105,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 805
+  "SuggestedDocumentId": 240
 }
 ```
 
@@ -120,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 919,
+  "DocumentId": 321,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "provident",
-  "Header": "quia",
-  "Name": "Kiehn, Renner and Labadie",
-  "OurRef": "ipsa",
-  "YourRef": "facilis",
-  "CreatedDate": "2007-10-23T03:51:27.1311241+02:00",
-  "UpdatedDate": "2003-09-25T03:51:27.1311241+02:00",
-  "Description": "Versatile executive instruction set",
+  "Attention": "deleniti",
+  "Header": "fugiat",
+  "Name": "Hand, Boyle and Hessel",
+  "OurRef": "aut",
+  "YourRef": "ex",
+  "CreatedDate": "2013-10-09T16:00:40.8049927+02:00",
+  "UpdatedDate": "1998-03-14T16:00:40.8049927+01:00",
+  "Description": "Total didactic migration",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-03-17T03:51:27.1311241+01:00",
-  "ExternalRef": "ea",
+  "Date": "2001-01-03T16:00:40.8049927+01:00",
+  "ExternalRef": "laborum",
   "Completed": "Completed",
-  "ActiveLinks": 610,
+  "ActiveLinks": 709,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Quigley-Homenick",
-      "Id": 897,
-      "Description": "Proactive incremental matrices",
-      "ExtraInfo": "qui",
-      "LinkId": 559,
+      "EntityName": "Schumm LLC",
+      "Id": 581,
+      "Description": "Multi-channelled client-driven encoding",
+      "ExtraInfo": "nihil",
+      "LinkId": 623,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldType": "System.String",
+          "FieldLength": 434
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 293,
-  "Snum": 885,
+  "SuggestedDocumentId": 556,
+  "Snum": 865,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Eloy Leffler DDS",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Jovany McClure",
+    "SuperOffice:2": "Dovie Kiehn"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "vel"
+    "CustomFields1": "soluta",
+    "CustomFields2": "aliquam"
   },
-  "PublishEventDate": "2016-05-06T03:51:27.1311241+02:00",
-  "PublishTo": "2005-03-09T03:51:27.1311241+01:00",
-  "PublishFrom": "2014-09-16T03:51:27.1311241+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-04-14T16:00:40.8049927+02:00",
+  "PublishTo": "2009-04-24T16:00:40.8049927+02:00",
+  "PublishFrom": "2015-04-28T16:00:40.8049927+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 673,
+      "VisibleId": 953,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 175
+          "FieldLength": 230
         }
       }
     },
     {
-      "VisibleId": 673,
+      "VisibleId": 953,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 175
+          "FieldLength": 230
         }
       }
     }
@@ -210,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldType": "System.String",
+      "FieldLength": 549
     }
   }
 }

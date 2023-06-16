@@ -1,6 +1,7 @@
 ---
 title: PUT List/{id}
 uid: v1ListEntity_PutListEntity
+generated: true
 ---
 
 # PUT List/{id}
@@ -96,20 +97,20 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 708,
-  "Name": "Prohaska-O'Conner",
-  "Tooltip": "eligendi",
+  "Id": 935,
+  "Name": "Weimann-Herzog",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 303,
+  "Rank": 918,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "aperiam",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -120,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 671,
-  "Name": "Braun, Jast and Dickens",
-  "Tooltip": "possimus",
+  "Id": 146,
+  "Name": "Marquardt-Christiansen",
+  "Tooltip": "quas",
   "Deleted": true,
-  "Rank": 692,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 865,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vitae",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quasi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldType": "System.String",
+      "FieldLength": 699
     }
   },
   "_Links": {

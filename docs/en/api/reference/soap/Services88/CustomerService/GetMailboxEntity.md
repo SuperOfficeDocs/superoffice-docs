@@ -1,6 +1,6 @@
 ---
 title: Services88.CustomerServiceAgent.GetMailboxEntity SOAP
-generated: 1
+generated: true
 uid: Services88-CustomerService-GetMailboxEntity
 ---
 

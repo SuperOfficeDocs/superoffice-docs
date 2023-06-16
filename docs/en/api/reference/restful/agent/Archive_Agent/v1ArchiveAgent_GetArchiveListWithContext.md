@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveListWithContext
 uid: v1ArchiveAgent_GetArchiveListWithContext
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveListWithContext
@@ -104,33 +105,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Thiel Group",
-  "ProviderName": "Deckow, Price and Sanford",
+  "GuiName": "Smith-Jast",
+  "ProviderName": "Cole-Fritsch",
   "SortOrder": [
     {
-      "Name": "Gerlach Inc and Sons",
+      "Name": "Mueller, Gibson and Keebler",
       "Direction": "ASC"
     },
     {
-      "Name": "Gerlach Inc and Sons",
+      "Name": "Mueller, Gibson and Keebler",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Paucek LLC",
-      "Operator": "voluptatem",
+      "Name": "Bailey, Kuphal and Dare",
+      "Operator": "qui",
       "Values": [
-        "dolore",
-        "quis"
+        "harum",
+        "aut"
       ],
       "DisplayValues": [
-        "consectetur",
-        "illo"
+        "impedit",
+        "molestiae"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -138,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 128,
+      "InterParenthesis": 75,
       "InterOperator": "And",
-      "UniqueHash": 844
+      "UniqueHash": 285
     }
   ],
   "Entities": [
-    "magni",
-    "voluptates"
+    "eveniet",
+    "sit"
   ],
-  "Page": 164,
-  "PageSize": 154,
-  "Context": "sint"
+  "Page": 511,
+  "PageSize": 734,
+  "Context": "quidem"
 }
 ```
 
@@ -161,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Halvorson-Zulauf",
-    "PrimaryKey": 677,
+    "EntityName": "Christiansen, Abshire and Rippin",
+    "PrimaryKey": 772,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quis",
-        "TooltipHint": "doloremque",
-        "LinkHint": "facere"
+        "DisplayValue": "quaerat",
+        "TooltipHint": "voluptatibus",
+        "LinkHint": "dolor"
       }
     },
-    "LinkHint": "at",
-    "StyleHint": "temporibus",
+    "LinkHint": "dolorem",
+    "StyleHint": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 493
+        "FieldType": "System.Int32",
+        "FieldLength": 583
       }
     }
   }

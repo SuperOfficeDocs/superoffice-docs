@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateTemporaryContactSelection
 uid: v1SelectionAgent_CreateTemporaryContactSelection
+generated: true
 ---
 
 # POST Agents/Selection/CreateTemporaryContactSelection
@@ -114,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Public-key holistic process improvement",
-  "Postit": "consectetur",
+  "Description": "Function-based upward-trending installation",
+  "Postit": "exercitationem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 241,
-  "IncludePerson": 839,
-  "MemberCount": 539,
-  "Name": "Larson LLC",
-  "PostitTextId": 114,
-  "CreatedDate": "2003-08-24T03:51:28.1777523+02:00",
-  "SelectionId": 459,
-  "SoundEx": "nesciunt",
-  "Source": 754,
-  "TextId": 154,
-  "UpdatedDate": "2005-10-31T03:51:28.1777523+01:00",
-  "UpdatedCount": 861,
-  "Visibility": 530,
+  "GroupIdx": 138,
+  "IncludePerson": 798,
+  "MemberCount": 424,
+  "Name": "Brakus-Bernier",
+  "PostitTextId": 517,
+  "CreatedDate": "2022-09-06T16:00:41.8519261+02:00",
+  "SelectionId": 828,
+  "SoundEx": "et",
+  "Source": 51,
+  "TextId": 687,
+  "UpdatedDate": "2014-07-01T16:00:41.8519261+02:00",
+  "UpdatedCount": 176,
+  "Visibility": 51,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 609,
-  "TargetTableName": "Orn-Kertzmann",
+  "TargetTableNumber": 509,
+  "TargetTableName": "Denesik Group",
   "Completed": true,
-  "LeftSelectionId": 599,
-  "RightSelectionId": 442,
+  "LeftSelectionId": 33,
+  "RightSelectionId": 692,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Trantow Inc and Sons",
-  "ShadowProviderName": "Wehner, Witting and Lakin",
-  "ChartKey": "enim",
-  "LastLoaded": "1999-06-03T03:51:28.1777523+02:00",
-  "LastLoadedBy": 918,
+  "MainProviderName": "Maggio-Goldner",
+  "ShadowProviderName": "Willms Inc and Sons",
+  "ChartKey": "blanditiis",
+  "LastLoaded": "2013-12-22T16:00:41.8519261+01:00",
+  "LastLoadedBy": 267,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-03-20T03:51:28.1777523+01:00",
-  "LastMembershipChangeBy": 960,
+  "LastMembershipChange": "2008-04-09T16:00:41.8519261+02:00",
+  "LastMembershipChangeBy": 193,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "praesentium",
-  "MemberTabHeading": "esse",
-  "MailingsProviderName": "Feeney-Blanda",
-  "DashboardTileDefinitionId": 641,
+  "MainHeading": "autem",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Rutherford, Jast and Strosin",
+  "DashboardTileDefinitionId": 925,
   "VisibleFor": [
     {
-      "VisibleId": 273,
+      "VisibleId": 492,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 355
         }
       }
     },
     {
-      "VisibleId": 273,
+      "VisibleId": 492,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 355
         }
       }
     }
@@ -187,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 785
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Associate/GetNote
 uid: v1AssociateAgent_GetNote
+generated: true
 ---
 
 # POST Agents/Associate/GetNote
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Associate/GetNote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 757
+  "AssociateId": 564
 }
 ```
 
@@ -82,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "totam",
-  "aut"
+  "dignissimos",
+  "hic"
 ]
 ```

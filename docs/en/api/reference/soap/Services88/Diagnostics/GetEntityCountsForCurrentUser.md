@@ -1,6 +1,6 @@
 ---
 title: Services88.DiagnosticsAgent.GetEntityCountsForCurrentUser SOAP
-generated: 1
+generated: true
 uid: Services88-Diagnostics-GetEntityCountsForCurrentUser
 ---
 

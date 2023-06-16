@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/Reject
 uid: v1AppointmentAgent_Reject
+generated: true
 ---
 
 # POST Agents/Appointment/Reject
@@ -69,7 +70,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 548,
+  "AppointmentId": 336,
   "RejectReason": "",
   "UpdateMode": "OnlyThis"
 }

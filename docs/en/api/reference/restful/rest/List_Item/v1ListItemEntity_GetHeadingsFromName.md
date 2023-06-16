@@ -1,6 +1,7 @@
 ---
 title: GET List/{name}/Headings
 uid: v1ListItemEntity_GetHeadingsFromName
+generated: true
 ---
 
 # GET List/{name}/Headings
@@ -63,7 +64,7 @@ OK
 GET /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 14,
-    "Name": "Hagenes LLC",
-    "Tooltip": "ut",
+    "HeadingId": 424,
+    "Name": "Ruecker-Abshire",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 113,
-    "UdListDefinitionId": 881,
+    "Rank": 558,
+    "UdListDefinitionId": 892,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 702
+        "FieldType": "System.Int32",
+        "FieldLength": 196
       }
     }
   }

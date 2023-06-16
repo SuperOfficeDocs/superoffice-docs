@@ -1,7 +1,7 @@
 ---
 title: Services88.TimeZoneAgent SOAP
 uid: Services88-TimeZone-soap
-generated: 1
+generated: true
 ---
 
 # Services88 TimeZone SOAP

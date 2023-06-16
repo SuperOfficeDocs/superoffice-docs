@@ -1,6 +1,7 @@
 ---
 title: POST List/ProjectType/Items
 uid: v1ProjectTypeList_PostProjectType
+generated: true
 ---
 
 # POST List/ProjectType/Items
@@ -76,12 +77,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 500,
-  "Name": "Altenwerth, Daniel and Effertz",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "UdListDefinitionId": 886,
-  "Rank": 158
+  "Id": 210,
+  "Name": "Zulauf-McDermott",
+  "Tooltip": "nostrum",
+  "Deleted": true,
+  "UdListDefinitionId": 188,
+  "Rank": 584
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 7,
-  "Name": "Konopelski-Walker",
-  "Tooltip": "beatae",
+  "Id": 998,
+  "Name": "Kirlin Group",
+  "Tooltip": "ea",
   "Deleted": false,
-  "UdListDefinitionId": 445,
-  "Rank": 79,
+  "UdListDefinitionId": 570,
+  "Rank": 536,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldType": "System.Int32",
+      "FieldLength": 153
     }
   }
 }

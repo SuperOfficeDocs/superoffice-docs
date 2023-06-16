@@ -1,6 +1,7 @@
 ---
 title: POST Agents/FreeText/DeleteStopWordsById
 uid: v1FreeTextAgent_DeleteStopWordsById
+generated: true
 ---
 
 # POST Agents/FreeText/DeleteStopWordsById
@@ -63,13 +64,13 @@ No Content
 POST /api/v1/Agents/FreeText/DeleteStopWordsById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "StopWordIds": [
-    564,
-    89
+    40,
+    611
   ]
 }
 ```

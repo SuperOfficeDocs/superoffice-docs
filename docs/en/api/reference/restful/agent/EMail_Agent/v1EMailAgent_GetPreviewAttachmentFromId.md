@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetPreviewAttachmentFromId
 uid: v1EMailAgent_GetPreviewAttachmentFromId
+generated: true
 ---
 
 # POST Agents/EMail/GetPreviewAttachmentFromId
@@ -87,14 +88,14 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 190,
-  "AttachmentId": "sunt",
-  "AttachmentType": "reiciendis",
-  "AttachmentFilename": "deserunt"
+  "MailItemId": 43,
+  "AttachmentId": "expedita",
+  "AttachmentType": "velit",
+  "AttachmentFilename": "recusandae"
 }
 ```
 
@@ -105,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Triple-buffered interactive access",
-  "Filename": "vel",
-  "Size": 150,
-  "Type": "voluptatem",
-  "Encoding": "culpa",
-  "Id": "eos",
-  "Disposition": "ullam",
+  "Description": "Cross-platform incremental paradigm",
+  "Filename": "itaque",
+  "Size": 172,
+  "Type": "in",
+  "Encoding": "blanditiis",
+  "Id": "ratione",
+  "Disposition": "nihil",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 416
+      "FieldType": "System.Int32",
+      "FieldLength": 695
     }
   }
 }

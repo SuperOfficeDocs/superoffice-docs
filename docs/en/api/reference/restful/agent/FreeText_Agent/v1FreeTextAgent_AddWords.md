@@ -1,6 +1,7 @@
 ---
 title: POST Agents/FreeText/AddWords
 uid: v1FreeTextAgent_AddWords
+generated: true
 ---
 
 # POST Agents/FreeText/AddWords
@@ -67,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StopWords": "molestias"
+  "StopWords": "facere"
 }
 ```
 

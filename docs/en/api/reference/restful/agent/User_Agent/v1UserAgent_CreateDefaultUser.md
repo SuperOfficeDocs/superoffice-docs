@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/CreateDefaultUser
 uid: v1UserAgent_CreateDefaultUser
+generated: true
 ---
 
 # POST Agents/User/CreateDefaultUser
@@ -83,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 828,
-  "Name": "Anderson-Ward",
-  "Rank": 804,
-  "Tooltip": "officia",
+  "AssociateId": 797,
+  "Name": "Tillman-Howell",
+  "Rank": 98,
+  "Tooltip": "rerum",
   "LicenseOwners": [
     {
-      "Name": "Gibson Group",
-      "Description": "De-engineered static projection",
+      "Name": "Cremin, Sauer and Olson",
+      "Description": "Advanced clear-thinking forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -113,14 +114,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 58
+          "FieldType": "System.Int32",
+          "FieldLength": 204
         }
       }
     },
     {
-      "Name": "Gibson Group",
-      "Description": "De-engineered static projection",
+      "Name": "Cremin, Sauer and Olson",
+      "Description": "Advanced clear-thinking forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 58
+          "FieldType": "System.Int32",
+          "FieldLength": 204
         }
       }
     }
@@ -143,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "consequuntur",
-      "Tooltip": "libero",
-      "Id": 23,
-      "Rank": 12,
+      "Value": "possimus",
+      "Tooltip": "velit",
+      "Id": 865,
+      "Rank": 266,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldType": "System.String",
+          "FieldLength": 582
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2021-11-14T03:51:28.4589368+01:00",
-  "Lastlogout": "2001-10-02T03:51:28.4589368+02:00",
-  "EjUserId": 394,
-  "RequestSignature": "ducimus",
+  "Lastlogin": "2022-07-16T16:00:42.3049952+02:00",
+  "Lastlogout": "2017-08-13T16:00:42.3049952+02:00",
+  "EjUserId": 983,
+  "RequestSignature": "non",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "exercitationem",
-      "DisplayValue": "magnam",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 188
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "exercitationem",
-      "DisplayValue": "magnam",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 188
-        }
-      }
-    }
-  ],
-  "UserName": "Borer-Schowalter",
-  "TicketCategories": [
-    {
-      "Id": 958,
-      "Name": "O'Keefe-Okuneva",
-      "ToolTip": "Qui voluptates dignissimos et impedit.",
-      "Deleted": false,
-      "Rank": 474,
-      "Type": "totam",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "vel",
-      "ColorBlock": 636,
-      "ExtraInfo": "corrupti",
-      "StyleHint": "totam",
-      "FullName": "Carley Fay",
+      "Value": "quia",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 285
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "quia",
+      "DisplayValue": "enim",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 285
         }
       }
     }
   ],
-  "NickName": "Robel, Stanton and Mante",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "quis"
-  },
-  "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "omnis"
-  },
-  "PostSaveCommands": [
+  "UserName": "Windler-Lang",
+  "TicketCategories": [
     {
-      "Name": "Bartoletti-Funk",
-      "DisplayName": "Kunde LLC",
-      "Description": "Integrated even-keeled functionalities",
-      "ToolTip": "Nostrum perferendis sunt qui.",
-      "Actions": "Implicit",
-      "ActionData": "odio",
+      "Id": 834,
+      "Name": "Blanda, Kirlin and Hartmann",
+      "ToolTip": "Sed vitae.",
+      "Deleted": false,
+      "Rank": 627,
+      "Type": "ut",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "odit",
+      "ColorBlock": 554,
+      "ExtraInfo": "veritatis",
+      "StyleHint": "autem",
+      "FullName": "Florencio Howe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 442
+          "FieldLength": 705
+        }
+      }
+    }
+  ],
+  "NickName": "White LLC",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "accusantium",
+    "ExtraFields2": "ea"
+  },
+  "CustomFields": {
+    "CustomFields1": "necessitatibus",
+    "CustomFields2": "consequatur"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kulas, Predovic and Reichel",
+      "DisplayName": "Carroll, Feil and Ferry",
+      "Description": "Phased mobile workforce",
+      "ToolTip": "Qui deleniti recusandae ad ab.",
+      "Actions": "Implicit",
+      "ActionData": "similique",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 837
         }
       }
     }
@@ -256,7 +257,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 751
     }
   }
 }

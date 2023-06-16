@@ -1,6 +1,7 @@
 ---
 title: POST RelationDefinition
 uid: v1RelationDefinitionEntity_PostRelationDefinitionEntity
+generated: true
 ---
 
 # POST RelationDefinition
@@ -89,16 +90,16 @@ OK
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 725,
-  "Name": "Hansen LLC",
-  "Tooltip": "quisquam",
-  "PassiveText": "quibusdam",
+  "ReldefId": 256,
+  "Name": "Anderson LLC",
+  "Tooltip": "quas",
+  "PassiveText": "est",
   "Deleted": false,
-  "Rank": 303,
+  "Rank": 975,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -111,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 730,
-  "Name": "Ullrich Group",
-  "Tooltip": "et",
-  "PassiveText": "sed",
+  "ReldefId": 487,
+  "Name": "Mann-Rippin",
+  "Tooltip": "reiciendis",
+  "PassiveText": "perferendis",
   "Deleted": true,
-  "Rank": 1001,
+  "Rank": 777,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldType": "System.Int32",
+      "FieldLength": 876
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

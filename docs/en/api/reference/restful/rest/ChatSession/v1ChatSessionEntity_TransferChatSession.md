@@ -1,6 +1,7 @@
 ---
 title: POST ChatSession/{id}/TransferTo/{toAssociate}
 uid: v1ChatSessionEntity_TransferChatSession
+generated: true
 ---
 
 # POST ChatSession/{id}/TransferTo/{toAssociate}
@@ -91,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,43 +102,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 691,
-  "TopicId": 608,
+  "ChatSessionId": 320,
+  "TopicId": 343,
   "User": null,
   "Person": null,
-  "CustomerAlias": "consequatur",
-  "CustomerHost": "in",
-  "CustomerName": "Bernhard, Ferry and Dickens",
-  "CustomerEmail": "wilton@hane.us",
-  "CustomerPhone": "175-303-2150",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Deckow, Upton and Lebsack",
+  "CustomerAlias": "cupiditate",
+  "CustomerHost": "eum",
+  "CustomerName": "Bogisich-Hintz",
+  "CustomerEmail": "letitia@daniel.info",
+  "CustomerPhone": "(037)074-8888 x212",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Funk-Prosacco",
   "Status": "Closed",
-  "FirstMessage": "voluptatum",
-  "LastMessage": "vitae",
-  "WhenRequested": "2009-11-29T03:51:33.1773265+01:00",
-  "WhenStarted": "1997-08-02T03:51:33.1773265+02:00",
-  "WhenEnded": "1998-04-12T03:51:33.1773265+02:00",
-  "WhenIdle": "2006-01-10T03:51:33.1773265+01:00",
-  "WhenFetched": "2002-10-01T03:51:33.1773265+02:00",
-  "SessionKey": "laudantium",
-  "InitialQueuePos": 266,
-  "AlertLevel": 801,
-  "Rank": 181,
+  "FirstMessage": "illum",
+  "LastMessage": "error",
+  "WhenRequested": "2019-06-02T16:00:47.6022395+02:00",
+  "WhenStarted": "2020-05-05T16:00:47.6022395+02:00",
+  "WhenEnded": "1999-11-24T16:00:47.6022395+01:00",
+  "WhenIdle": "2009-09-26T16:00:47.6022395+02:00",
+  "WhenFetched": "2005-12-26T16:00:47.6022395+01:00",
+  "SessionKey": "commodi",
+  "InitialQueuePos": 484,
+  "AlertLevel": 957,
+  "Rank": 499,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 719,
+  "ChatbotIsActive": false,
+  "Rating": 348,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldType": "System.String",
+      "FieldLength": 966
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET List/WebPanel/Items
 uid: v1WebPanelEntityList_GetAllWebPanelEntity
+generated: true
 ---
 
 # GET List/WebPanel/Items
@@ -76,7 +77,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,15 +88,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 541,
-    "Name": "Runolfsson, Kerluke and Bins",
-    "Tooltip": "eligendi",
-    "Deleted": false,
-    "Rank": 63,
+    "WebPanelId": 495,
+    "Name": "Leffler, Toy and Schmeler",
+    "Tooltip": "debitis",
+    "Deleted": true,
+    "Rank": 209,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
+    "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": true,
@@ -103,17 +104,17 @@ Content-Type: application/json; charset=utf-8
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Block-Hoeger",
+    "WindowName": "Kreiger, Kozey and Franecki",
     "Url": "http://www.example.com/",
-    "ProgId": "dolor",
-    "Icon": 602,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "sunt",
+    "Icon": 25,
+    "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 73
       }
     }
   }

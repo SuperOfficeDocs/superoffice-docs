@@ -1,17 +1,11 @@
 ---
 uid: quotedocuments
 title: quotedocuments
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "quotedocuments"
+keywords: mdoprovider mdo provider quotedocuments
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "quotedocuments" MDO List

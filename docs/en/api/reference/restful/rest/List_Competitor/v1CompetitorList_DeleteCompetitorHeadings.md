@@ -1,6 +1,7 @@
 ---
 title: DEL List/Competitor/Headings
 uid: v1CompetitorList_DeleteCompetitorHeadings
+generated: true
 ---
 
 # DEL List/Competitor/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

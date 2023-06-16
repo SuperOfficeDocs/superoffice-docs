@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetFromListName
 uid: v1ListAgent_GetFromListName
+generated: true
 ---
 
 # POST Agents/List/GetFromListName
@@ -82,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 378,
-  "UdListDefinitionName": "Connelly, Sawayn and Mitchell"
+  "Id": 246,
+  "UdListDefinitionName": "Paucek, Dooley and Murazik"
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 396,
-  "Name": "Lockman, Crist and Hickle",
-  "Tooltip": "doloribus",
-  "Deleted": true,
-  "UdListDefinitionId": 403,
-  "Rank": 470,
+  "Id": 262,
+  "Name": "McClure-O'Conner",
+  "Tooltip": "placeat",
+  "Deleted": false,
+  "UdListDefinitionId": 1002,
+  "Rank": 125,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldType": "System.String",
+      "FieldLength": 904
     }
   }
 }

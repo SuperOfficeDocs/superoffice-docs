@@ -1,6 +1,7 @@
 ---
 title: POST List/Business/Headings
 uid: v1BusinessList_PostBusinessHeading
+generated: true
 ---
 
 # POST List/Business/Headings
@@ -78,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 266,
-  "Name": "Cremin Inc and Sons",
-  "Tooltip": "harum",
-  "Deleted": true,
-  "Rank": 489,
-  "UdListDefinitionId": 883
+  "HeadingId": 937,
+  "Name": "Prosacco-Yundt",
+  "Tooltip": "odio",
+  "Deleted": false,
+  "Rank": 8,
+  "UdListDefinitionId": 603
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 361,
-  "Name": "Rowe, Bruen and Murphy",
-  "Tooltip": "aut",
+  "HeadingId": 959,
+  "Name": "Vandervort LLC",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 822,
-  "UdListDefinitionId": 623,
+  "Rank": 562,
+  "UdListDefinitionId": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldLength": 236
     }
   }
 }

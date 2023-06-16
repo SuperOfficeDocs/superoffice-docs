@@ -1,6 +1,7 @@
 ---
 title: DEL Document/UdefLayout/{progidOrLabel}
 uid: v1DocumentEntity_DeleteUdefFieldInfo
+generated: true
 ---
 
 # DEL Document/UdefLayout/{progidOrLabel}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

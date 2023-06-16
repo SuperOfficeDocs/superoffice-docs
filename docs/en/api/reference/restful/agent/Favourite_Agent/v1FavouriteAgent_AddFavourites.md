@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Favourite/AddFavourites
 uid: v1FavouriteAgent_AddFavourites
+generated: true
 ---
 
 # POST Agents/Favourite/AddFavourites
@@ -66,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kovacek, Murazik and Roob",
+  "TableName": "Marks-Ledner",
   "RecordIds": [
-    374,
-    804
+    586,
+    333
   ],
-  "AssociateId": 334,
-  "ExtraInfo": "facere"
+  "AssociateId": 244,
+  "ExtraInfo": "alias"
 }
 ```
 

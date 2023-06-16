@@ -1,6 +1,7 @@
 ---
 title: GET Person/UdefLayout/{progidOrLabel}
 uid: v1PersonEntity_GetUdefFieldInfo
+generated: true
 ---
 
 # GET Person/UdefLayout/{progidOrLabel}
@@ -102,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 274,
-  "ColumnId": 509,
-  "FieldDefault": "aut",
-  "FieldHeight": 155,
-  "FieldLabel": "in",
-  "FieldLeft": 836,
-  "FieldTop": 95,
+  "UDefFieldId": 764,
+  "ColumnId": 900,
+  "FieldDefault": "atque",
+  "FieldHeight": 930,
+  "FieldLabel": "tenetur",
+  "FieldLeft": 533,
+  "FieldTop": 662,
   "FieldType": "Checkbox",
-  "FieldWidth": 859,
-  "FormatMask": "magnam",
+  "FieldWidth": 614,
+  "FormatMask": "qui",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 857,
-  "LabelLeft": 16,
-  "LabelTop": 232,
-  "LabelWidth": 586,
-  "LastVersionId": 769,
-  "ListTableId": 115,
-  "IsMandatory": false,
+  "LabelHeight": 168,
+  "LabelLeft": 571,
+  "LabelTop": 382,
+  "LabelWidth": 114,
+  "LastVersionId": 21,
+  "ListTableId": 724,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 878,
-  "ProgId": "qui",
-  "IsReadOnly": true,
-  "ShortLabel": "sit",
-  "TabOrder": 263,
-  "TextLength": 300,
-  "Tooltip": "qui",
-  "UdefIdentity": 456,
-  "UDListDefinitionId": 511,
+  "Page1LineNo": 97,
+  "ProgId": "ab",
+  "IsReadOnly": false,
+  "ShortLabel": "nihil",
+  "TabOrder": 250,
+  "TextLength": 494,
+  "Tooltip": "natus",
+  "UdefIdentity": 925,
+  "UDListDefinitionId": 706,
   "Justification": "Center",
-  "Version": 331,
-  "TemplateVariableName": "Barrows LLC",
+  "Version": 171,
+  "TemplateVariableName": "McLaughlin, Senger and Tillman",
   "HasBeenPublished": false,
-  "MdoListName": "Keebler, Considine and Lindgren",
+  "MdoListName": "Runolfsdottir, Schimmel and Altenwerth",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldType": "System.String",
+      "FieldLength": 40
     }
   }
 }

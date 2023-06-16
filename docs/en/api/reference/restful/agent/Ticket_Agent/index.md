@@ -1,5 +1,6 @@
 ---
 title: Ticket_Agent
+generated: true
 ---
 
 ```http
@@ -24,6 +25,8 @@ title: Ticket_Agent
 * [POST Agents/Ticket/GetAttachmentEntity](v1TicketAgent_GetAttachmentEntity.md)
 
 * [POST Agents/Ticket/CopyFromCRMDocument](v1TicketAgent_CopyFromCRMDocument.md)
+
+* [POST Agents/Ticket/CopyToTempFile](v1TicketAgent_CopyToTempFile.md)
 
 * [POST Agents/Ticket/UploadAttachment](v1TicketAgent_UploadAttachment.md)
 

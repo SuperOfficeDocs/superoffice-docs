@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultExtAppEntity
 uid: v1ListAgent_CreateDefaultExtAppEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultExtAppEntity
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 832,
-  "Name": "Bergstrom, Volkman and Hettinger",
-  "Tooltip": "sit",
+  "ExtAppId": 851,
+  "Name": "Bergnaum, Lakin and Bednar",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "Rank": 822,
-  "Filename": "in",
-  "Parameters": "dignissimos",
-  "Workdir": "autem",
+  "Rank": 792,
+  "Filename": "veritatis",
+  "Parameters": "accusamus",
+  "Workdir": "voluptatibus",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 354,
-  "WaitToFinish": true,
+  "ShowInStatusBar": true,
+  "Icon": 961,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "alias",
+  "Path": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldType": "System.String",
+      "FieldLength": 199
     }
   }
 }

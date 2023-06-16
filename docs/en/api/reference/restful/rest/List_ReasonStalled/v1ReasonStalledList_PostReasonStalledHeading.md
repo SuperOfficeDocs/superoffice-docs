@@ -1,6 +1,7 @@
 ---
 title: POST List/ReasonStalled/Headings
 uid: v1ReasonStalledList_PostReasonStalledHeading
+generated: true
 ---
 
 # POST List/ReasonStalled/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 136,
-  "Name": "Oberbrunner, Batz and Bergnaum",
-  "Tooltip": "quisquam",
-  "Deleted": true,
-  "Rank": 169,
-  "UdListDefinitionId": 287
+  "HeadingId": 2,
+  "Name": "Kohler, Gaylord and Bechtelar",
+  "Tooltip": "quasi",
+  "Deleted": false,
+  "Rank": 579,
+  "UdListDefinitionId": 445
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 735,
-  "Name": "O'Connell, Fisher and Ruecker",
-  "Tooltip": "at",
+  "HeadingId": 738,
+  "Name": "Brakus, Durgan and Satterfield",
+  "Tooltip": "alias",
   "Deleted": false,
-  "Rank": 947,
-  "UdListDefinitionId": 140,
+  "Rank": 964,
+  "UdListDefinitionId": 343,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 77
+      "FieldType": "System.Int32",
+      "FieldLength": 409
     }
   }
 }

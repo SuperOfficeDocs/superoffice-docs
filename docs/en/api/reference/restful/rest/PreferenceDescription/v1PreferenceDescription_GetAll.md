@@ -1,6 +1,7 @@
 ---
 title: GET PreferenceDescription
 uid: v1PreferenceDescription_GetAll
+generated: true
 ---
 
 # GET PreferenceDescription
@@ -71,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 757,
-    "Section": "distinctio",
-    "Key": "est",
-    "Name": "Corwin-Kassulke",
+    "PrefDescId": 186,
+    "Section": "commodi",
+    "Key": "laboriosam",
+    "Name": "Emmerich LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Optimized multi-tasking installation",
+    "Description": "Profound zero tolerance adapter",
     "IsBuiltin": false,
-    "TableName": "Larson Group",
-    "UserDefinedListId": 789,
-    "Rank": 353,
-    "SubGroup": "accusamus",
-    "MinLevel": 535,
-    "MaxValue": 920,
-    "MinValue": 689,
-    "RequiredLicense": "eum",
+    "TableName": "Smith, Rutherford and Howell",
+    "UserDefinedListId": 86,
+    "Rank": 637,
+    "SubGroup": "ipsum",
+    "MinLevel": 28,
+    "MaxValue": 739,
+    "MinValue": 509,
+    "RequiredLicense": "ipsum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldLength": 85
       }
     }
   }

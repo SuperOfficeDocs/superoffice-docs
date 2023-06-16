@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveAllFromListName
 uid: v1ListAgent_SaveAllFromListName
+generated: true
 ---
 
 # POST Agents/List/SaveAllFromListName
@@ -82,23 +83,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Langworth-Hudson",
+  "UdListDefinitionName": "Thiel-Gislason",
   "Items": [
     {
-      "Id": 547,
-      "Name": "Krajcik, Metz and Hills",
-      "Tooltip": "et",
+      "Id": 656,
+      "Name": "Dickinson Group",
+      "Tooltip": "similique",
       "Deleted": false,
-      "UdListDefinitionId": 86,
-      "Rank": 504
+      "UdListDefinitionId": 574,
+      "Rank": 213
     },
     {
-      "Id": 547,
-      "Name": "Krajcik, Metz and Hills",
-      "Tooltip": "et",
+      "Id": 656,
+      "Name": "Dickinson Group",
+      "Tooltip": "similique",
       "Deleted": false,
-      "UdListDefinitionId": 86,
-      "Rank": 504
+      "UdListDefinitionId": 574,
+      "Rank": 213
     }
   ]
 }
@@ -112,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 846,
-    "Name": "Haag, Paucek and Denesik",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 128,
-    "Rank": 696,
+    "Id": 264,
+    "Name": "Trantow Inc and Sons",
+    "Tooltip": "in",
+    "Deleted": false,
+    "UdListDefinitionId": 425,
+    "Rank": 988,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldType": "System.Int32",
+        "FieldLength": 372
       }
     }
   }

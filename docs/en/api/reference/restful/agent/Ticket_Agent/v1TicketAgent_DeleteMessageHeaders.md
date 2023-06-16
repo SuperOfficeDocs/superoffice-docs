@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/DeleteMessageHeaders
 uid: v1TicketAgent_DeleteMessageHeaders
+generated: true
 ---
 
 # POST Agents/Ticket/DeleteMessageHeaders
@@ -65,13 +66,13 @@ No Content
 POST /api/v1/Agents/Ticket/DeleteMessageHeaders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "HeaderIds": [
-    201,
-    714
+    609,
+    924
   ]
 }
 ```

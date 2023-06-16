@@ -1,6 +1,6 @@
 ---
 title: Services88.SelectionAgent.ExportSelectionMembers SOAP
-generated: 1
+generated: true
 uid: Services88-Selection-ExportSelectionMembers
 ---
 

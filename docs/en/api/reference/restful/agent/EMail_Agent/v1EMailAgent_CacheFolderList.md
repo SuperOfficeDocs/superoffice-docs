@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CacheFolderList
 uid: v1EMailAgent_CacheFolderList
+generated: true
 ---
 
 # POST Agents/EMail/CacheFolderList
@@ -83,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Farrell, Sipes and Koch",
-    "Delimiter": "sint",
-    "Flags": "illum",
-    "TotalItems": 446,
-    "UnreadItems": 453,
-    "Subscribed": false,
-    "EmailFolderId": 429,
+    "Name": "Williamson-Konopelski",
+    "Delimiter": "nihil",
+    "Flags": "animi",
+    "TotalItems": 339,
+    "UnreadItems": 145,
+    "Subscribed": true,
+    "EmailFolderId": 707,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 805
+        "FieldLength": 912
       }
     }
   }

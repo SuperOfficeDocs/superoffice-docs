@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteApproveReason/Items/{id}/Headings
 uid: v1QuoteApproveReasonList_GetQuoteApproveReasonHeadingsForListItem
+generated: true
 ---
 
 # GET List/QuoteApproveReason/Items/{id}/Headings
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 942,
-    "Name": "Jenkins Group",
-    "ToolTip": "Officiis officiis id.",
+    "Id": 831,
+    "Name": "Collins Group",
+    "ToolTip": "Et modi eos repudiandae suscipit error dolore illo.",
     "Deleted": true,
-    "Rank": 146,
-    "Type": "rem",
-    "ColorBlock": 877,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2015-01-01T03:51:34.864573+01:00",
+    "Rank": 47,
+    "Type": "ab",
+    "ColorBlock": 952,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2000-02-21T16:00:49.2270591+01:00",
     "ChildItems": [
       {
-        "Id": 855,
-        "Name": "Fay-Gusikowski",
-        "ToolTip": "Minus unde at soluta quo dolore et est.",
+        "Id": 287,
+        "Name": "Schiller Group",
+        "ToolTip": "Voluptas amet.",
         "Deleted": true,
-        "Rank": 540,
-        "Type": "culpa",
-        "ColorBlock": 330,
-        "IconHint": "harum",
+        "Rank": 552,
+        "Type": "suscipit",
+        "ColorBlock": 643,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2021-08-01T03:51:34.864573+02:00",
+        "LastChanged": "2010-01-01T16:00:49.2270591+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Dr. Casper Dare PhD",
+        "FullName": "Dr. Amie Mara Smith IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 842
+            "FieldLength": 254
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "architecto",
-    "Hidden": false,
-    "FullName": "Winfield King",
+    "ExtraInfo": "dicta",
+    "StyleHint": "nemo",
+    "Hidden": true,
+    "FullName": "Eileen Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldType": "System.String",
+        "FieldLength": 540
       }
     }
   }

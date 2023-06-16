@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetDocumentList
 uid: v1DocumentAgent_GetDocumentList
+generated: true
 ---
 
 # POST Agents/Document/GetDocumentList
@@ -88,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 875,
-    "Attention": "amet",
-    "Header": "excepturi",
-    "Name": "Leuschke, Watsica and Jewess",
-    "OurRef": "vero",
-    "YourRef": "porro",
-    "Description": "User-friendly bi-directional ability",
-    "DocumentTemplate": "possimus",
+    "DocumentId": 892,
+    "Attention": "reprehenderit",
+    "Header": "ipsum",
+    "Name": "Kessler-Sawayn",
+    "OurRef": "mollitia",
+    "YourRef": "et",
+    "Description": "Upgradable actuating database",
+    "DocumentTemplate": "et",
     "IsPublished": true,
-    "PersonId": 236,
-    "PersonFullName": "Ozella Botsford III",
-    "AssociateFullName": "Conor Alison Auer IV",
-    "ContactId": 943,
-    "ContactName": "Feeney-Roberts",
-    "ProjectId": 177,
-    "ProjectName": "Mueller, Purdy and Prosacco",
-    "AssociateId": 23,
-    "Snum": 411,
-    "SaleId": 716,
-    "SaleName": "Haag LLC",
+    "PersonId": 411,
+    "PersonFullName": "Golden Parisian",
+    "AssociateFullName": "Ms. Pearline Jarrell Sipes",
+    "ContactId": 328,
+    "ContactName": "Becker-Dickens",
+    "ProjectId": 553,
+    "ProjectName": "Kessler-Hand",
+    "AssociateId": 317,
+    "Snum": 780,
+    "SaleId": 342,
+    "SaleName": "Grant Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 133
+        "FieldType": "System.Int32",
+        "FieldLength": 23
       }
     }
   }

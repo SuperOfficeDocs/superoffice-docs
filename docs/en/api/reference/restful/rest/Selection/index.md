@@ -1,5 +1,6 @@
 ---
 title: Selection
+generated: true
 ---
 
 ```http

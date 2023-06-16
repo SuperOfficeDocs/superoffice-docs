@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetTabOrders
 uid: v1PreferenceAgent_GetTabOrders
+generated: true
 ---
 
 # POST Agents/Preference/GetTabOrders
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/Preference/GetTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TabOrderId": 6,
-    "TabName": "Kreiger LLC",
-    "Order": "ipsa",
-    "AssociateId": 640,
+    "TabOrderId": 809,
+    "TabName": "Yundt, Prohaska and Schimmel",
+    "Order": "tempore",
+    "AssociateId": 481,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 928
+        "FieldType": "System.Int32",
+        "FieldLength": 895
       }
     }
   },
   {
-    "TabOrderId": 6,
-    "TabName": "Kreiger LLC",
-    "Order": "ipsa",
-    "AssociateId": 640,
+    "TabOrderId": 809,
+    "TabName": "Yundt, Prohaska and Schimmel",
+    "Order": "tempore",
+    "AssociateId": 481,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 928
+        "FieldType": "System.Int32",
+        "FieldLength": 895
       }
     }
   }

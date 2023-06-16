@@ -1,6 +1,6 @@
 ---
 title: Services88.CRMScriptAgent.ValidateTriggerScript SOAP
-generated: 1
+generated: true
 uid: Services88-CRMScript-ValidateTriggerScript
 ---
 

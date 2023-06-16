@@ -1,6 +1,7 @@
 ---
 title: POST List/TicketCategory/Items
 uid: v1TicketCategoryList_PostTicketCategoryEntity
+generated: true
 ---
 
 # POST List/TicketCategory/Items
@@ -102,29 +103,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 869,
-  "ParentId": 415,
-  "Name": "Lowe Inc and Sons",
-  "Fullname": "aut",
-  "CategoryMaster": 331,
+  "TicketCategoryId": 464,
+  "ParentId": 699,
+  "Name": "Dooley-Nienow",
+  "Fullname": "quaerat",
+  "CategoryMaster": 375,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hansen, Gaylord and Jones",
+  "ExternalName": "Wiegand Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 168,
-  "ReplyTemplate": 454,
-  "NotificationEmail": "alexane_wyman@wizabruen.biz",
+  "AssignmentLag": 872,
+  "ReplyTemplate": 471,
+  "NotificationEmail": "nicholas@okon.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 925,
+  "EffectiveReplyTemplateId": 508,
   "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "et"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "magni",
-    "CustomFields2": "itaque"
+    "CustomFields1": "est",
+    "CustomFields2": "laudantium"
   }
 }
 ```
@@ -136,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 891,
-  "ParentId": 546,
-  "Name": "Skiles Inc and Sons",
-  "Fullname": "sit",
-  "CategoryMaster": 6,
+  "TicketCategoryId": 123,
+  "ParentId": 28,
+  "Name": "McGlynn Group",
+  "Fullname": "saepe",
+  "CategoryMaster": 988,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Wuckert, King and Feeney",
+  "ExternalName": "Rohan, Pollich and McKenzie",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 200,
-  "ReplyTemplate": 932,
-  "NotificationEmail": "nicholaus_considine@blicksenger.co.uk",
+  "AssignmentLag": 760,
+  "ReplyTemplate": 166,
+  "NotificationEmail": "hyman.luettgen@wilkinson.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 144,
+  "EffectiveReplyTemplateId": 146,
   "ExtraFields": {
-    "ExtraFields1": "ipsum",
-    "ExtraFields2": "illo"
+    "ExtraFields1": "et",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "animi",
-    "CustomFields2": "eum"
+    "CustomFields1": "numquam",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 980
     }
   }
 }

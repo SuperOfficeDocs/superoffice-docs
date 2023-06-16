@@ -1,17 +1,11 @@
 ---
 uid: importproductduplicatematch
 title: importproductduplicatematch
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "importproductduplicatematch"
+keywords: mdoprovider mdo provider importproductduplicatematch
+description: Import product detect duplicates based on field:  Name, Code, Name+Code
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "importproductduplicatematch" MDO List

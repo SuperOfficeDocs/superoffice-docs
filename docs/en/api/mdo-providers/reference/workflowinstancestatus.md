@@ -1,17 +1,11 @@
 ---
 uid: workflowinstancestatus
 title: workflowinstancestatus
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "workflowinstancestatus"
+keywords: mdoprovider mdo provider workflowinstancestatus
+description: MDO provider for the WorkflowInstanceStatus enum
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "workflowinstancestatus" MDO List

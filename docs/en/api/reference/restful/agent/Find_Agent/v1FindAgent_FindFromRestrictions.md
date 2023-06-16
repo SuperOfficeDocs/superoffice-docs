@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/FindFromRestrictions
 uid: v1FindAgent_FindFromRestrictions
+generated: true
 ---
 
 # POST Agents/Find/FindFromRestrictions
@@ -98,36 +99,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Lemke Group",
-      "Operator": "maiores",
+      "Name": "Parisian-Rutherford",
+      "Operator": "similique",
       "Values": [
-        "autem",
-        "molestiae"
+        "aut",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "praesentium",
-        "voluptate"
+        "est",
+        "sequi"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 800,
+      "InterParenthesis": 580,
       "InterOperator": "And",
-      "UniqueHash": 763
+      "UniqueHash": 303
     }
   ],
-  "ProviderName": "Schuster-Tillman",
-  "PageSize": 796,
-  "PageNumber": 400
+  "ProviderName": "Emard Inc and Sons",
+  "PageSize": 172,
+  "PageNumber": 218
 }
 ```
 
@@ -140,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bradtke-Kuhlman",
-      "DisplayTooltip": "fuga",
-      "DisplayType": "molestias",
-      "CanOrderBy": true,
-      "Name": "DuBuque Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "accusamus",
-      "RestrictionListName": "Leannon LLC",
+      "DisplayName": "Gulgowski Group",
+      "DisplayTooltip": "dolor",
+      "DisplayType": "dolorem",
+      "CanOrderBy": false,
+      "Name": "Conroy, Little and Hand",
+      "CanRestrictBy": true,
+      "RestrictionType": "repellat",
+      "RestrictionListName": "Wiegand-Spinka",
       "IsVisible": false,
-      "ExtraInfo": "hic",
-      "Width": "nam",
-      "IconHint": "recusandae",
-      "HeadingIconHint": "excepturi"
+      "ExtraInfo": "sequi",
+      "Width": "laboriosam",
+      "IconHint": "iste",
+      "HeadingIconHint": "necessitatibus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Reynolds, Hirthe and Beer",
-      "PrimaryKey": 855,
+      "EntityName": "Jenkins-Grady",
+      "PrimaryKey": 326,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sunt",
-          "TooltipHint": "impedit",
-          "LinkHint": "omnis"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "quidem",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "odio",
-      "StyleHint": "enim",
+      "LinkHint": "animi",
+      "StyleHint": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 914
+          "FieldType": "System.Int32",
+          "FieldLength": 821
         }
       }
     }
   ],
-  "RowCount": 893,
+  "RowCount": 920,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 546
     }
   }
 }

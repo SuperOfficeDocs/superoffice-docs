@@ -1,6 +1,7 @@
 ---
 title: GET List/Business/Items/{id}/UserGroups
 uid: v1BusinessList_GetBusinessUserGroupsForListItem
+generated: true
 ---
 
 # GET List/Business/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 971,
-    "Name": "Beatty Inc and Sons",
-    "ToolTip": "Molestias repellendus.",
+    "Id": 86,
+    "Name": "Grant Group",
+    "ToolTip": "Aliquam quia recusandae.",
     "Deleted": false,
-    "Rank": 550,
-    "Type": "amet",
-    "ColorBlock": 407,
-    "IconHint": "natus",
+    "Rank": 685,
+    "Type": "earum",
+    "ColorBlock": 779,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2007-12-13T03:51:34.3802934+01:00",
+    "LastChanged": "2017-07-11T16:00:48.8677298+02:00",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Olson, Legros and Grimes",
-        "ToolTip": "Itaque dignissimos.",
-        "Deleted": true,
-        "Rank": 392,
-        "Type": "nemo",
-        "ColorBlock": 259,
-        "IconHint": "blanditiis",
-        "Selected": false,
-        "LastChanged": "2014-12-06T03:51:34.3802934+01:00",
+        "Id": 33,
+        "Name": "Beer, Mills and Leffler",
+        "ToolTip": "Est omnis eum consequatur reiciendis ut quod.",
+        "Deleted": false,
+        "Rank": 387,
+        "Type": "recusandae",
+        "ColorBlock": 260,
+        "IconHint": "temporibus",
+        "Selected": true,
+        "LastChanged": "2011-04-12T16:00:48.8677298+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Dr. Allene Wilkinson III",
+        "ExtraInfo": "quam",
+        "StyleHint": "a",
+        "Hidden": false,
+        "FullName": "Dessie Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 497
+            "FieldLength": 137
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "aut",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "fugiat",
     "Hidden": true,
-    "FullName": "Christy Wolf Jr.",
+    "FullName": "Mrs. Friedrich Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 839
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetContactAppointmentsByTaskHeading
 uid: v1AppointmentAgent_GetContactAppointmentsByTaskHeading
+generated: true
 ---
 
 # POST Agents/Appointment/GetContactAppointmentsByTaskHeading
@@ -117,6 +118,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -126,15 +130,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 368,
-  "StartTime": "2016-07-02T03:51:26.1313562+02:00",
-  "EndTime": "2007-12-29T03:51:26.1313562+01:00",
-  "Count": 858,
-  "TaskHeadingId": 360
+  "ContactId": 668,
+  "StartTime": "2008-01-27T16:00:39.6332261+01:00",
+  "EndTime": "2004-02-10T16:00:39.6332261+01:00",
+  "Count": 353,
+  "TaskHeadingId": 216
 }
 ```
 
@@ -146,61 +150,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 15,
-    "StartDate": "2014-02-23T03:51:26.1313562+01:00",
-    "EndDate": "2008-12-26T03:51:26.1313562+01:00",
+    "AppointmentId": 723,
+    "StartDate": "2005-12-07T16:00:39.6332261+01:00",
+    "EndDate": "2018-01-11T16:00:39.6332261+01:00",
     "Type": "BookingForChecklist",
-    "Task": "iste",
-    "AssociateFullName": "Miss Bo Daniella Kessler",
-    "ContactName": "Ferry, Shields and Reichel",
-    "Description": "Open-source zero defect algorithm",
-    "PersonFullName": "Minnie Powlowski",
-    "PersonId": 382,
-    "ContactId": 652,
-    "ProjectId": 947,
-    "ProjectName": "Bogan, Macejkovic and Harvey",
+    "Task": "qui",
+    "AssociateFullName": "Miss Loyce Keshaun Fisher",
+    "ContactName": "Gleason, Gutkowski and O'Connell",
+    "Description": "Innovative analyzing approach",
+    "PersonFullName": "Mr. Jermaine Jacobs",
+    "PersonId": 321,
+    "ContactId": 753,
+    "ProjectId": 345,
+    "ProjectName": "Oberbrunner-Ledner",
     "IsPublished": false,
-    "AssociateId": 405,
-    "ColorIndex": 74,
-    "IsFree": true,
+    "AssociateId": 335,
+    "ColorIndex": 361,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 7,
-    "PriorityName": "Cormier LLC",
+    "PriorityId": 623,
+    "PriorityName": "Barrows, Halvorson and Jacobi",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2000-11-15T03:51:26.1313562+01:00",
+    "ActiveDate": "2002-06-01T16:00:39.6332261+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1997-07-30T03:51:26.1313562+02:00",
-    "RecurringEndDate": "2005-10-06T03:51:26.1313562+02:00",
-    "MotherId": 791,
-    "AssignedBy": 284,
-    "AssignedByFullName": "Prof. Gerda Henri Lowe",
+    "RecurringStartDate": "2013-03-21T16:00:39.6332261+01:00",
+    "RecurringEndDate": "2018-09-17T16:00:39.6332261+02:00",
+    "MotherId": 912,
+    "AssignedBy": 525,
+    "AssignedByFullName": "Carolanne Bednar",
     "RejectReason": "",
-    "Location": "excepturi",
-    "AlarmLeadTime": "sit",
-    "SaleId": 657,
-    "SaleName": "Schiller-Schumm",
-    "AssociateName": "Lowe LLC",
-    "CreatedDate": "2013-08-27T03:51:26.1313562+02:00",
-    "CreatedBy": "commodi",
-    "CreatedByFullName": "Theresa Eichmann",
-    "CreatedByAssociateId": 364,
+    "Location": "optio",
+    "AlarmLeadTime": "nisi",
+    "SaleId": 349,
+    "SaleName": "Steuber-Hilll",
+    "AssociateName": "Ward-Abshire",
+    "CreatedDate": "2000-02-14T16:00:39.6332261+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Mrs. Arthur Davin Feeney",
+    "CreatedByAssociateId": 163,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "doloremque",
+    "Agenda": "dicta",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldType": "System.Int32",
+        "FieldLength": 490
       }
     }
   }

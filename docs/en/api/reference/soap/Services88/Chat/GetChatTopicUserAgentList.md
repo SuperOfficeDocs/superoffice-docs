@@ -1,6 +1,6 @@
 ---
 title: Services88.ChatAgent.GetChatTopicUserAgentList SOAP
-generated: 1
+generated: true
 uid: Services88-Chat-GetChatTopicUserAgentList
 ---
 

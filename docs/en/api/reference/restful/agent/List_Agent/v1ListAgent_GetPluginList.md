@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetPluginList
 uid: v1ListAgent_GetPluginList
+generated: true
 ---
 
 # POST Agents/List/GetPluginList
@@ -69,7 +70,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "placeat",
-  "2": "iste"
+  "1": "similique",
+  "2": "perspiciatis"
 }
 ```

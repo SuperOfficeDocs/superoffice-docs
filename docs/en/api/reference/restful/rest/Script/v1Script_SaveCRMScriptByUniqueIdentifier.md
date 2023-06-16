@@ -1,6 +1,7 @@
 ---
 title: PUT Script/{uniqueIdentifier}
 uid: v1Script_SaveCRMScriptByUniqueIdentifier
+generated: true
 ---
 
 # PUT Script/{uniqueIdentifier}
@@ -86,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "deserunt",
-  "Name": "Swift, Beatty and Kuvalis",
-  "Description": "Robust explicit policy",
-  "IncludeId": "neque",
-  "Source": "numquam",
-  "Registered": "2008-07-03T03:51:34.2709333+02:00",
-  "RegisteredBy": "sapiente",
-  "Updated": "2018-06-16T03:51:34.2709333+02:00",
-  "UpdatedBy": "nobis",
-  "Path": "deserunt"
+  "UniqueIdentifier": "voluptatibus",
+  "Name": "Pfannerstill LLC",
+  "Description": "Centralized analyzing definition",
+  "IncludeId": "quo",
+  "Source": "modi",
+  "Registered": "2011-08-05T16:00:48.7427419+02:00",
+  "RegisteredBy": "cumque",
+  "Updated": "2014-10-20T16:00:48.7427419+02:00",
+  "UpdatedBy": "aut",
+  "Path": "error"
 }
 ```
 
@@ -110,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ut",
-  "Name": "Anderson-Adams",
-  "Description": "Reactive uniform website",
-  "IncludeId": "quia",
-  "Source": "aut",
-  "Registered": "2007-11-18T03:51:34.2709333+01:00",
-  "RegisteredBy": "voluptas",
-  "Updated": "2021-12-30T03:51:34.2709333+01:00",
-  "UpdatedBy": "adipisci",
-  "Path": "aut",
+  "UniqueIdentifier": "neque",
+  "Name": "Nikolaus, Ullrich and Klocko",
+  "Description": "Ameliorated neutral strategy",
+  "IncludeId": "minus",
+  "Source": "debitis",
+  "Registered": "2015-11-07T16:00:48.7427419+01:00",
+  "RegisteredBy": "est",
+  "Updated": "2002-11-09T16:00:48.7427419+01:00",
+  "UpdatedBy": "aut",
+  "Path": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 202
     }
   }
 }

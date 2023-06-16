@@ -1,6 +1,6 @@
 ---
 title: Services88.FreeTextAgent.SetSingleWordOperator SOAP
-generated: 1
+generated: true
 uid: Services88-FreeText-SetSingleWordOperator
 ---
 

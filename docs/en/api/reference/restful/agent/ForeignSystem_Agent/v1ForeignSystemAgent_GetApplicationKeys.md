@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetApplicationKeys
 uid: v1ForeignSystemAgent_GetApplicationKeys
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetApplicationKeys
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bednar Inc and Sons"
+  "ApplicationName": "Howe-Wilderman"
 }
 ```
 
@@ -95,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "aperiam",
-    "Value": "et",
-    "RecordId": 585,
-    "CreatedDate": "2017-07-21T03:51:27.3498217+02:00",
-    "UpdatedDate": "2005-12-04T03:51:27.3498217+01:00",
-    "UpdatedBy": "ratione",
-    "CreatedBy": "animi",
-    "TableName": "Nolan Inc and Sons",
+    "Key": "nihil",
+    "Value": "corrupti",
+    "RecordId": 757,
+    "CreatedDate": "2011-02-23T16:00:41.0705907+01:00",
+    "UpdatedDate": "2017-06-06T16:00:41.0705907+02:00",
+    "UpdatedBy": "ducimus",
+    "CreatedBy": "eveniet",
+    "TableName": "Predovic LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 458
       }
     }
   }

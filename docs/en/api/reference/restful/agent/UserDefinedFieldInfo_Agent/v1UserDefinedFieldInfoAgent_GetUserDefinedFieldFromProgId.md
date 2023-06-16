@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgId
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
@@ -112,7 +113,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "id",
+  "ProgId": "praesentium",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 837,
-  "ColumnId": 684,
-  "FieldDefault": "quod",
-  "FieldHeight": 803,
-  "FieldLabel": "blanditiis",
-  "FieldLeft": 535,
-  "FieldTop": 528,
+  "UDefFieldId": 510,
+  "ColumnId": 676,
+  "FieldDefault": "incidunt",
+  "FieldHeight": 69,
+  "FieldLabel": "quis",
+  "FieldLeft": 13,
+  "FieldTop": 467,
   "FieldType": "Checkbox",
-  "FieldWidth": 823,
-  "FormatMask": "aut",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 457,
-  "LabelLeft": 836,
-  "LabelTop": 429,
-  "LabelWidth": 815,
-  "LastVersionId": 580,
-  "ListTableId": 97,
-  "IsMandatory": true,
+  "FieldWidth": 956,
+  "FormatMask": "aliquam",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 969,
+  "LabelLeft": 806,
+  "LabelTop": 374,
+  "LabelWidth": 657,
+  "LastVersionId": 392,
+  "ListTableId": 459,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 314,
-  "ProgId": "explicabo",
-  "IsReadOnly": true,
-  "ShortLabel": "sequi",
-  "TabOrder": 364,
-  "TextLength": 944,
-  "Tooltip": "nisi",
-  "UdefIdentity": 796,
-  "UDListDefinitionId": 268,
+  "Page1LineNo": 425,
+  "ProgId": "nam",
+  "IsReadOnly": false,
+  "ShortLabel": "cupiditate",
+  "TabOrder": 321,
+  "TextLength": 271,
+  "Tooltip": "doloribus",
+  "UdefIdentity": 501,
+  "UDListDefinitionId": 194,
   "Justification": "Center",
-  "Version": 342,
-  "TemplateVariableName": "Brakus Group",
+  "Version": 689,
+  "TemplateVariableName": "Lockman-Durgan",
   "HasBeenPublished": false,
-  "MdoListName": "Yost, Zemlak and Conroy",
+  "MdoListName": "Quitzon-Keeling",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 124
+      "FieldType": "System.Int32",
+      "FieldLength": 442
     }
   }
 }

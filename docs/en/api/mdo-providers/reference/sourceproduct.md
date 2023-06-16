@@ -1,17 +1,11 @@
 ---
 uid: sourceproduct
 title: sourceproduct
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "sourceproduct"
+keywords: mdoprovider mdo provider sourceproduct
+description: Products: Sales &amp; Marketing, Customer Service
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "sourceproduct" MDO List

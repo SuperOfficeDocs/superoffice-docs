@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ViewState/GetLiveUiConfig
 uid: v1ViewStateAgent_GetLiveUiConfig
+generated: true
 ---
 
 # POST Agents/ViewState/GetLiveUiConfig
@@ -65,7 +66,7 @@ OK
 POST /api/v1/Agents/ViewState/GetLiveUiConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,13 +77,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsEnabled": false,
-  "PollingInterval": 148,
+  "PollingInterval": 976,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldLength": 423
     }
   }
 }

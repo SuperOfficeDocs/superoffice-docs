@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Saint/CreateDefaultStatusMonitorPeriods
 uid: v1SaintAgent_CreateDefaultStatusMonitorPeriods
+generated: true
 ---
 
 # POST Agents/Saint/CreateDefaultStatusMonitorPeriods
@@ -68,15 +69,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 378,
-  "Period2": 428,
-  "Period3": 513,
+  "Period1": 506,
+  "Period2": 265,
+  "Period3": 792,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldType": "System.String",
+      "FieldLength": 560
     }
   }
 }

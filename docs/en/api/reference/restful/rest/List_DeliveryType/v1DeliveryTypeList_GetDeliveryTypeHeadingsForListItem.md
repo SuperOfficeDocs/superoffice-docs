@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryType/Items/{id}/Headings
 uid: v1DeliveryTypeList_GetDeliveryTypeHeadingsForListItem
+generated: true
 ---
 
 # GET List/DeliveryType/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "Maggio, Boyle and Turcotte",
-    "ToolTip": "Inventore odio laudantium nisi ullam.",
+    "Id": 68,
+    "Name": "Dibbert Group",
+    "ToolTip": "Quia architecto fuga illum ad aut voluptas repellat.",
     "Deleted": false,
-    "Rank": 649,
-    "Type": "sunt",
-    "ColorBlock": 663,
-    "IconHint": "neque",
-    "Selected": true,
-    "LastChanged": "2008-02-07T03:51:34.6770975+01:00",
+    "Rank": 453,
+    "Type": "alias",
+    "ColorBlock": 790,
+    "IconHint": "corporis",
+    "Selected": false,
+    "LastChanged": "2009-01-31T16:00:49.0083336+01:00",
     "ChildItems": [
       {
-        "Id": 894,
-        "Name": "Dickens Inc and Sons",
-        "ToolTip": "Officiis ut debitis et aut quibusdam nihil dolores.",
-        "Deleted": false,
-        "Rank": 242,
-        "Type": "nesciunt",
-        "ColorBlock": 816,
-        "IconHint": "perferendis",
+        "Id": 951,
+        "Name": "Christiansen LLC",
+        "ToolTip": "Ea qui deleniti recusandae.",
+        "Deleted": true,
+        "Rank": 693,
+        "Type": "blanditiis",
+        "ColorBlock": 477,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2015-12-07T03:51:34.6770975+01:00",
+        "LastChanged": "2014-02-02T16:00:49.0083336+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "reprehenderit",
-        "Hidden": true,
-        "FullName": "Miss Carolanne Sauer DDS",
+        "ExtraInfo": "illum",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Dillon Lukas Boyer Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 945
+            "FieldType": "System.String",
+            "FieldLength": 992
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "praesentium",
-    "Hidden": true,
-    "FullName": "Deshawn Gaylord",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "nemo",
+    "Hidden": false,
+    "FullName": "Dr. Nick Jacobson Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldType": "System.String",
+        "FieldLength": 455
       }
     }
   }

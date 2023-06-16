@@ -1,6 +1,6 @@
 ---
 title: Services88.ConfigurationAgent.GetCustomerUrl SOAP
-generated: 1
+generated: true
 uid: Services88-Configuration-GetCustomerUrl
 ---
 

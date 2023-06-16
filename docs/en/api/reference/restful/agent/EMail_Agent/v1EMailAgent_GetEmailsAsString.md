@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetEmailsAsString
 uid: v1EMailAgent_GetEmailsAsString
+generated: true
 ---
 
 # POST Agents/EMail/GetEmailsAsString
@@ -76,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfoExtended": null,
   "MessageIds": [
-    "amet",
-    "officiis"
+    "sit",
+    "temporibus"
   ]
 }
 ```
@@ -89,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "iure",
-  "vero"
+  "excepturi",
+  "ratione"
 ]
 ```

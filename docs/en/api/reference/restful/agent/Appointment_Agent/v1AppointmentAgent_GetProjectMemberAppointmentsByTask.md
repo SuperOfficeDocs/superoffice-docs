@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetProjectMemberAppointmentsByTask
 uid: v1AppointmentAgent_GetProjectMemberAppointmentsByTask
+generated: true
 ---
 
 # POST Agents/Appointment/GetProjectMemberAppointmentsByTask
@@ -117,6 +118,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -126,15 +130,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 416,
-  "StartTime": "2019-06-28T03:51:26.1157305+02:00",
-  "EndTime": "2011-01-25T03:51:26.1157305+01:00",
-  "Count": 430,
-  "TaskId": 201
+  "PersonId": 699,
+  "StartTime": "2002-02-21T16:00:39.6176013+01:00",
+  "EndTime": "2002-09-21T16:00:39.6176013+02:00",
+  "Count": 107,
+  "TaskId": 474
 }
 ```
 
@@ -146,61 +150,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 983,
-    "StartDate": "2002-06-24T03:51:26.1157305+02:00",
-    "EndDate": "2002-12-25T03:51:26.1157305+01:00",
+    "AppointmentId": 61,
+    "StartDate": "2013-05-26T16:00:39.6176013+02:00",
+    "EndDate": "2002-11-20T16:00:39.6176013+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ad",
-    "AssociateFullName": "Nadia Kshlerin",
-    "ContactName": "Roberts-Maggio",
-    "Description": "Grass-roots multimedia local area network",
-    "PersonFullName": "Ms. Ferne Maxwell Gibson II",
-    "PersonId": 876,
-    "ContactId": 941,
-    "ProjectId": 810,
-    "ProjectName": "Mohr-Upton",
+    "Task": "quasi",
+    "AssociateFullName": "Ms. Kelvin Spinka DVM",
+    "ContactName": "Ebert, Klein and Ritchie",
+    "Description": "Realigned 24/7 hardware",
+    "PersonFullName": "Sierra Gutkowski",
+    "PersonId": 186,
+    "ContactId": 225,
+    "ProjectId": 561,
+    "ProjectName": "Sauer, Nitzsche and Kautzer",
     "IsPublished": false,
-    "AssociateId": 110,
-    "ColorIndex": 138,
-    "IsFree": false,
+    "AssociateId": 96,
+    "ColorIndex": 72,
+    "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 265,
-    "PriorityName": "Shanahan-Schneider",
+    "PriorityId": 671,
+    "PriorityName": "Morar, Murazik and Blanda",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2020-01-31T03:51:26.1157305+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2016-08-16T16:00:39.6176013+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-02-27T03:51:26.1157305+01:00",
-    "RecurringEndDate": "2015-05-12T03:51:26.1157305+02:00",
-    "MotherId": 903,
-    "AssignedBy": 243,
-    "AssignedByFullName": "Rachelle Denis Williamson PhD",
+    "RecurringStartDate": "1999-10-14T16:00:39.6176013+02:00",
+    "RecurringEndDate": "1996-09-18T16:00:39.6176013+02:00",
+    "MotherId": 392,
+    "AssignedBy": 790,
+    "AssignedByFullName": "Micaela Crooks",
     "RejectReason": "",
-    "Location": "aliquid",
-    "AlarmLeadTime": "et",
-    "SaleId": 680,
-    "SaleName": "Johnson Inc and Sons",
-    "AssociateName": "Hegmann-Rosenbaum",
-    "CreatedDate": "2008-10-01T03:51:26.1157305+02:00",
-    "CreatedBy": "omnis",
-    "CreatedByFullName": "Mallory Oran Altenwerth IV",
-    "CreatedByAssociateId": 966,
+    "Location": "quibusdam",
+    "AlarmLeadTime": "ipsa",
+    "SaleId": 91,
+    "SaleName": "Lehner-Strosin",
+    "AssociateName": "Predovic, Boehm and Muller",
+    "CreatedDate": "2007-05-16T16:00:39.6176013+02:00",
+    "CreatedBy": "ad",
+    "CreatedByFullName": "Ms. Tiana Ken Rodriguez",
+    "CreatedByAssociateId": 858,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "error",
+    "Agenda": "maxime",
+    "InternalNotes": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldType": "System.String",
+        "FieldLength": 593
       }
     }
   }

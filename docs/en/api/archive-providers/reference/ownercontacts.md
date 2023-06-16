@@ -2,17 +2,10 @@
 uid: OwnerContacts
 title: OwnerContacts
 description: Archive provider for the list of own contacts in SoAdmin
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "OwnerContacts"
+keywords: OwnerContacts archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "OwnerContacts"
@@ -128,6 +121,10 @@ Archive provider for the list of own contacts in SoAdmin
 |contactAssociate/firstName|string|First name: Displays the contact's first name| x |
 |contactAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |contactAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |contactAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |contactAssociate/personId|int|Contact ID: Database ID of the contact row|  |
@@ -228,6 +225,10 @@ Archive provider for the list of own contacts in SoAdmin
 |contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 |contactSupportPerson/personCategory|listAny|User support contact - Category| x |
 |contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
 |contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
@@ -328,6 +329,10 @@ Archive provider for the list of own contacts in SoAdmin
 |NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
 |NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
 |LastTicket|date|Date of last request|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |LastCompletedTicket|date|Date of last completed request|  |
 |LastDoByTicket|date|Date of last non-completed request|  |
 |SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
@@ -345,7 +350,7 @@ Archive provider for the list of own contacts in SoAdmin
 ## Sample
 
 ```http!
-GET /api/v1/archive/OwnerContacts?$select=postAddress/wgs84longitude,contactAssociate/personId,contactUdef/SuperOffice:2
+GET /api/v1/archive/OwnerContacts?$select=hasInfoText,NumberOfActivitiesInPeriod,contactAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

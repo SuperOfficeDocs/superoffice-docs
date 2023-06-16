@@ -1,7 +1,7 @@
 ---
 title: Services88.TicketAgent SOAP
 uid: Services88-Ticket-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Ticket SOAP
@@ -20,6 +20,7 @@ Download [WSDL file for Services88/Ticket](../Services88-Ticket.md) if you need 
 * [CalculateMessageRecipients](CalculateMessageRecipients.md)
 * [ClearNotify](ClearNotify.md)
 * [CopyFromCRMDocument](CopyFromCRMDocument.md)
+* [CopyToTempFile](CopyToTempFile.md)
 * [CreateDefaultAttachmentEntity](CreateDefaultAttachmentEntity.md)
 * [CreateDefaultTicketEntity](CreateDefaultTicketEntity.md)
 * [CreateDefaultTicketMessageEntity](CreateDefaultTicketMessageEntity.md)

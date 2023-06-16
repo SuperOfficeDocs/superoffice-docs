@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/SupportsAdvancedSearch
 uid: v1ErpSyncAgent_SupportsAdvancedSearch
+generated: true
 ---
 
 # POST Agents/ErpSync/SupportsAdvancedSearch
@@ -74,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 144,
+  "ErpConnectionId": 364,
   "ErpActorType": "Customer"
 }
 ```

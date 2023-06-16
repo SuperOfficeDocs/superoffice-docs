@@ -1,6 +1,7 @@
 ---
 title: POST PreferenceDescription
 uid: v1PreferenceDescription_PostPreferenceDescription
+generated: true
 ---
 
 # POST PreferenceDescription
@@ -109,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 340,
-  "Section": "aut",
-  "Key": "quia",
-  "Name": "Strosin, Pagac and Mertz",
+  "PrefDescId": 609,
+  "Section": "molestiae",
+  "Key": "aut",
+  "Name": "Tromp Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Assimilated mobile artificial intelligence",
+  "Description": "Cloned web-enabled local area network",
   "IsBuiltin": false,
-  "TableName": "Haag Inc and Sons",
-  "UserDefinedListId": 717,
-  "Rank": 159,
-  "SubGroup": "nulla",
-  "MinLevel": 276,
-  "MaxValue": 696,
-  "MinValue": 380,
-  "RequiredLicense": "veniam"
+  "TableName": "Von-Waters",
+  "UserDefinedListId": 252,
+  "Rank": 696,
+  "SubGroup": "iure",
+  "MinLevel": 917,
+  "MaxValue": 128,
+  "MinValue": 2,
+  "RequiredLicense": "minus"
 }
 ```
 
@@ -141,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 416,
-  "Section": "voluptates",
-  "Key": "ut",
-  "Name": "Cartwright Inc and Sons",
+  "PrefDescId": 201,
+  "Section": "quia",
+  "Key": "odit",
+  "Name": "Lehner Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ameliorated 3rd generation application",
-  "IsBuiltin": true,
-  "TableName": "Turner-Koepp",
-  "UserDefinedListId": 918,
-  "Rank": 348,
-  "SubGroup": "sint",
-  "MinLevel": 842,
-  "MaxValue": 562,
-  "MinValue": 691,
-  "RequiredLicense": "inventore",
+  "Description": "Total heuristic middleware",
+  "IsBuiltin": false,
+  "TableName": "Dietrich, Dicki and Lehner",
+  "UserDefinedListId": 573,
+  "Rank": 151,
+  "SubGroup": "qui",
+  "MinLevel": 891,
+  "MaxValue": 656,
+  "MinValue": 503,
+  "RequiredLicense": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldLength": 91
     }
   },
   "_Links": {

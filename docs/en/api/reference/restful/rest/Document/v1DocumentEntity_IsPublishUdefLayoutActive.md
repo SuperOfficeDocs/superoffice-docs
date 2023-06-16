@@ -1,6 +1,7 @@
 ---
 title: GET Document/UdefLayout/Publish
 uid: v1DocumentEntity_IsPublishUdefLayoutActive
+generated: true
 ---
 
 # GET Document/UdefLayout/Publish

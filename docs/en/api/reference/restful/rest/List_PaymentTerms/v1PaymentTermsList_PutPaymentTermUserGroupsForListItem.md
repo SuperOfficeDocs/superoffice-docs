@@ -1,6 +1,7 @@
 ---
 title: PUT List/PaymentTerm/Items/{id}/UserGroups
 uid: v1PaymentTermsList_PutPaymentTermUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/PaymentTerm/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Steuber, Yost and Tillman",
-    "ToolTip": "Recusandae perferendis ad.",
-    "Deleted": true,
-    "Rank": 235,
-    "Type": "aut",
-    "ColorBlock": 144,
-    "IconHint": "aliquid",
-    "Selected": true,
-    "LastChanged": "2000-11-15T03:51:34.7395889+01:00",
+    "Id": 595,
+    "Name": "Wyman Group",
+    "ToolTip": "Ut saepe earum maiores ratione veritatis voluptatem earum.",
+    "Deleted": false,
+    "Rank": 624,
+    "Type": "assumenda",
+    "ColorBlock": 625,
+    "IconHint": "doloremque",
+    "Selected": false,
+    "LastChanged": "2017-09-14T16:00:49.086451+02:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Hoppe-Cartwright",
-        "ToolTip": "Deleniti laboriosam totam fuga ipsum expedita.",
+        "Id": 597,
+        "Name": "Trantow, Kling and Mraz",
+        "ToolTip": "Quia quis veritatis.",
         "Deleted": true,
-        "Rank": 701,
-        "Type": "sit",
-        "ColorBlock": 354,
-        "IconHint": "maiores",
+        "Rank": 285,
+        "Type": "id",
+        "ColorBlock": 365,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2018-10-19T03:51:34.7395889+02:00",
+        "LastChanged": "2022-12-27T16:00:49.086451+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "debitis",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Antwan Hand"
+        "FullName": "Miss Dedrick Reynolds IV"
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "nam",
-    "Hidden": true,
-    "FullName": "Estell Rolfson"
+    "ExtraInfo": "aut",
+    "StyleHint": "saepe",
+    "Hidden": false,
+    "FullName": "Vivienne Baumbach"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Veum, Schimmel and Schimmel",
-    "ToolTip": "Soluta voluptatem quibusdam sapiente.",
+    "Id": 614,
+    "Name": "O'Hara-Mitchell",
+    "ToolTip": "Assumenda quibusdam incidunt.",
     "Deleted": false,
-    "Rank": 727,
-    "Type": "voluptate",
-    "ColorBlock": 779,
-    "IconHint": "iure",
+    "Rank": 693,
+    "Type": "officiis",
+    "ColorBlock": 86,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2003-01-18T03:51:34.7395889+01:00",
+    "LastChanged": "2018-09-28T16:00:49.086451+02:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Bailey LLC",
-        "ToolTip": "Non explicabo aut eligendi.",
-        "Deleted": true,
-        "Rank": 367,
-        "Type": "ut",
-        "ColorBlock": 484,
-        "IconHint": "suscipit",
-        "Selected": false,
-        "LastChanged": "2013-08-14T03:51:34.7395889+02:00",
+        "Id": 456,
+        "Name": "Gutmann, Leannon and Howe",
+        "ToolTip": "Tempore fugit non.",
+        "Deleted": false,
+        "Rank": 151,
+        "Type": "facere",
+        "ColorBlock": 907,
+        "IconHint": "minima",
+        "Selected": true,
+        "LastChanged": "1996-04-17T16:00:49.086451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "repellendus",
-        "Hidden": false,
-        "FullName": "Leila Boehm",
+        "ExtraInfo": "est",
+        "StyleHint": "fugit",
+        "Hidden": true,
+        "FullName": "Miss Grady Velva VonRueden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 969
+            "FieldLength": 691
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "sunt",
     "Hidden": true,
-    "FullName": "Ms. Noble Ford Hammes",
+    "FullName": "Dr. Shanel Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 656
+        "FieldType": "System.String",
+        "FieldLength": 882
       }
     }
   }

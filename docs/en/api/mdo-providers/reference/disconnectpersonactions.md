@@ -1,17 +1,11 @@
 ---
 uid: disconnectpersonactions
 title: disconnectpersonactions
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "disconnectpersonactions"
+keywords: mdoprovider mdo provider disconnectpersonactions
+description: List of actions to perform when disconnecting a contact from a company
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "disconnectpersonactions" MDO List

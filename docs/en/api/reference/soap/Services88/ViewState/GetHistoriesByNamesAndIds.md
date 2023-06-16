@@ -1,6 +1,6 @@
 ---
 title: Services88.ViewStateAgent.GetHistoriesByNamesAndIds SOAP
-generated: 1
+generated: true
 uid: Services88-ViewState-GetHistoriesByNamesAndIds
 ---
 

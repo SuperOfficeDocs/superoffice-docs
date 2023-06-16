@@ -1,6 +1,7 @@
 ---
 title: POST List/Competitor/Headings
 uid: v1CompetitorList_PostCompetitorHeading
+generated: true
 ---
 
 # POST List/Competitor/Headings
@@ -78,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 877,
-  "Name": "Nolan, Kovacek and Spinka",
-  "Tooltip": "est",
+  "HeadingId": 765,
+  "Name": "Barrows, Langworth and D'Amore",
+  "Tooltip": "nam",
   "Deleted": false,
-  "Rank": 241,
-  "UdListDefinitionId": 109
+  "Rank": 645,
+  "UdListDefinitionId": 737
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 773,
-  "Name": "Toy-Schimmel",
-  "Tooltip": "tenetur",
-  "Deleted": true,
-  "Rank": 282,
-  "UdListDefinitionId": 744,
+  "HeadingId": 944,
+  "Name": "Terry, Streich and Klocko",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "Rank": 84,
+  "UdListDefinitionId": 560,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 176
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: PUT List/Reason
 uid: v1ReasonList_SetListDefinition
+generated: true
 ---
 
 # PUT List/Reason
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 778,
-  "Name": "Lowe, Lubowitz and Hudson",
-  "Tooltip": "cupiditate",
-  "Deleted": false,
-  "Rank": 955,
+  "Id": 811,
+  "Name": "Wilderman, Schaden and Schuster",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "Rank": 504,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
   "ListType": "qui",
-  "InUseByUserDefinedFields": false
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 668,
-  "Name": "Stracke Inc and Sons",
-  "Tooltip": "quo",
+  "Id": 8,
+  "Name": "Wuckert-Considine",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "Rank": 310,
+  "Rank": 773,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 804
+      "FieldType": "System.Int32",
+      "FieldLength": 775
     }
   }
 }

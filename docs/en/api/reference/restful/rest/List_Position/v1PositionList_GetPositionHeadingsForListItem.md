@@ -1,6 +1,7 @@
 ---
 title: GET List/Position/Items/{id}/Headings
 uid: v1PositionList_GetPositionHeadingsForListItem
+generated: true
 ---
 
 # GET List/Position/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Towne-Kunde",
-    "ToolTip": "Rerum nemo autem sed perferendis qui.",
-    "Deleted": false,
-    "Rank": 259,
-    "Type": "maiores",
-    "ColorBlock": 686,
-    "IconHint": "vero",
-    "Selected": true,
-    "LastChanged": "2013-11-12T03:51:34.7708309+01:00",
+    "Id": 491,
+    "Name": "Rath LLC",
+    "ToolTip": "Quaerat repellat eius mollitia ipsum repellendus fugiat aspernatur.",
+    "Deleted": true,
+    "Rank": 814,
+    "Type": "quo",
+    "ColorBlock": 123,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2022-06-11T16:00:49.1177018+02:00",
     "ChildItems": [
       {
-        "Id": 150,
-        "Name": "Okuneva Group",
-        "ToolTip": "Eum maiores rerum aut unde incidunt nostrum incidunt.",
+        "Id": 319,
+        "Name": "Ortiz-Schimmel",
+        "ToolTip": "In similique excepturi aut quo.",
         "Deleted": false,
-        "Rank": 492,
-        "Type": "ad",
-        "ColorBlock": 374,
-        "IconHint": "nam",
+        "Rank": 226,
+        "Type": "rerum",
+        "ColorBlock": 286,
+        "IconHint": "iste",
         "Selected": true,
-        "LastChanged": "2017-08-17T03:51:34.7708309+02:00",
+        "LastChanged": "2007-04-09T16:00:49.1177018+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "accusantium",
-        "Hidden": true,
-        "FullName": "Krystal Hackett",
+        "ExtraInfo": "ratione",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Maiya Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 941
+            "FieldType": "System.Int32",
+            "FieldLength": 489
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "dolores",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Seth Schowalter",
+    "FullName": "Bryce Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 261
       }
     }
   }

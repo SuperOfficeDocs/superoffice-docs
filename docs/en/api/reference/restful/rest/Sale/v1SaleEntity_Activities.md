@@ -1,6 +1,7 @@
 ---
 title: GET Sale/{id}/Activities
 uid: v1SaleEntity_Activities
+generated: true
 ---
 
 # GET Sale/{id}/Activities
@@ -73,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Activities?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Activities?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Activities?$orderBy=name asc
-GET /api/v1/Sale/{id}/Activities?$entities=optio
-GET /api/v1/Sale/{id}/Activities?$top=767
-GET /api/v1/Sale/{id}/Activities?$skip=420
+GET /api/v1/Sale/{id}/Activities?$entities=occaecati
+GET /api/v1/Sale/{id}/Activities?$top=258
+GET /api/v1/Sale/{id}/Activities?$skip=99
 GET /api/v1/Sale/{id}/Activities?$mode=Full
 GET /api/v1/Sale/{id}/Activities?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Activities?$context=ut
+GET /api/v1/Sale/{id}/Activities?$context=exercitationem
 GET /api/v1/Sale/{id}/Activities?$format=JSON
 GET /api/v1/Sale/{id}/Activities?$jsonSafe=False
 GET /api/v1/Sale/{id}/Activities?$output=Display
@@ -122,7 +123,7 @@ OK
 GET /api/v1/Sale/{id}/Activities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eligendi",
+  "odata.nextLink": "expedita",
   "value": [
     {
-      "PrimaryKey": 3849,
+      "PrimaryKey": 9415,
       "EntityName": "sale",
-      "saleId": 3849,
-      "contactId": 6004,
-      "name": "Crona, Purdy and Romaguera"
+      "saleId": 9415,
+      "contactId": 6879,
+      "name": "Schoen, Powlowski and Waters"
     },
     {
-      "PrimaryKey": 1979,
+      "PrimaryKey": 1500,
       "EntityName": "sale",
-      "saleId": 1979,
-      "contactId": 1472,
-      "name": "Pollich Group"
+      "saleId": 1500,
+      "contactId": 8542,
+      "name": "Kuhic Group"
     }
   ]
 }

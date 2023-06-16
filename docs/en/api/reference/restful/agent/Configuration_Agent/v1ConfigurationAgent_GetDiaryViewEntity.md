@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetDiaryViewEntity
 uid: v1ConfigurationAgent_GetDiaryViewEntity
+generated: true
 ---
 
 # POST Agents/Configuration/GetDiaryViewEntity
@@ -25,7 +26,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=222
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=410
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,49 +84,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 991,
-  "Name": "Balistreri-Huel",
-  "Tooltip": "possimus",
-  "VisibleColumns": 547,
-  "Rank": 384,
-  "AssocId": 777,
+  "DiaryViewId": 44,
+  "Name": "Parisian Inc and Sons",
+  "Tooltip": "accusantium",
+  "VisibleColumns": 386,
+  "Rank": 251,
+  "AssocId": 569,
   "AssociateList": [
     {
-      "Id": 433,
-      "Name": "Corkery Group",
-      "ToolTip": "Et excepturi ut reiciendis ipsam.",
-      "Deleted": false,
-      "Rank": 203,
-      "Type": "placeat",
-      "ColorBlock": 147,
-      "IconHint": "beatae",
+      "Id": 472,
+      "Name": "Doyle-Kunde",
+      "ToolTip": "Sint fuga quia ut necessitatibus ipsam ratione.",
+      "Deleted": true,
+      "Rank": 939,
+      "Type": "consequuntur",
+      "ColorBlock": 653,
+      "IconHint": "earum",
       "Selected": true,
-      "LastChanged": "2014-03-09T03:51:26.787455+01:00",
+      "LastChanged": "2022-12-01T16:00:40.320651+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sapiente",
-      "StyleHint": "qui",
-      "Hidden": false,
-      "FullName": "Vladimir Keira Barrows I",
+      "ExtraInfo": "et",
+      "StyleHint": "saepe",
+      "Hidden": true,
+      "FullName": "Quincy Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 78
+          "FieldType": "System.Int32",
+          "FieldLength": 188
         }
       }
     }
   ],
-  "TzLocationId": 861,
+  "TzLocationId": 682,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 952
+      "FieldType": "System.Int32",
+      "FieldLength": 264
     }
   }
 }

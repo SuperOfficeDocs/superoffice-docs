@@ -1,6 +1,6 @@
 ---
 title: Services88.DiagnosticsAgent.CollectWebUsage SOAP
-generated: 1
+generated: true
 uid: Services88-Diagnostics-CollectWebUsage
 ---
 

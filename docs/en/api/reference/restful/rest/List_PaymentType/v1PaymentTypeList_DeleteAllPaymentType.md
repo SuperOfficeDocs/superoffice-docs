@@ -1,6 +1,7 @@
 ---
 title: DEL List/PaymentType/Items
 uid: v1PaymentTypeList_DeleteAllPaymentType
+generated: true
 ---
 
 # DEL List/PaymentType/Items

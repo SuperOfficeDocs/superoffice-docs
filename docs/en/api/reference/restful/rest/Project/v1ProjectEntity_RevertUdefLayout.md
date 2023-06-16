@@ -1,6 +1,7 @@
 ---
 title: POST Project/UdefLayout/Revert
 uid: v1ProjectEntity_RevertUdefLayout
+generated: true
 ---
 
 # POST Project/UdefLayout/Revert
@@ -47,7 +48,7 @@ No Content
 POST /api/v1/Project/UdefLayout/Revert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

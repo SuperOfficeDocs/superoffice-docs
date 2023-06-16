@@ -1,6 +1,7 @@
 ---
 title: POST ForeignApp/{appName}
 uid: v1ForeignAppEntity_PostForeignApp
+generated: true
 ---
 
 # POST ForeignApp/{appName}
@@ -66,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 863,
-  "Name": "King-Mohr",
-  "CreatedDate": "2004-11-07T03:51:33.6615947+01:00",
-  "UpdatedDate": "2019-10-26T03:51:33.6615947+02:00",
+  "ForeignAppId": 519,
+  "Name": "Hackett-Gorczany",
+  "CreatedDate": "2019-11-19T16:00:47.9459565+01:00",
+  "UpdatedDate": "2012-08-19T16:00:47.9459565+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 163,
-      "Name": "Purdy, Gleason and Quigley",
-      "CreatedDate": "2021-05-05T03:51:33.6615947+02:00",
-      "UpdatedDate": "2003-08-16T03:51:33.6615947+02:00",
-      "AssociateFullName": "Prof. Raymundo Layla Ernser DVM",
-      "CreatedBy": "minus",
-      "UpdatedBy": "nobis",
-      "DeviceIdentifier": "soluta",
-      "ForeignAppId": 249,
+      "ForeignDeviceId": 646,
+      "Name": "Padberg-McDermott",
+      "CreatedDate": "2018-07-20T16:00:47.9459565+02:00",
+      "UpdatedDate": "2014-07-18T16:00:47.9459565+02:00",
+      "AssociateFullName": "Conor Heathcote",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "quod",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 93,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 727
+          "FieldType": "System.String",
+          "FieldLength": 675
         }
       }
     }
@@ -108,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 721
     }
   }
 }

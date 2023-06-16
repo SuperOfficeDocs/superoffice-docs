@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.GetHierarchyEntity SOAP
-generated: 1
+generated: true
 uid: Services88-List-GetHierarchyEntity
 ---
 
@@ -96,21 +96,21 @@ Application tokens must be specified if calling an Online installation. Applicat
           <List:UpdatedAssociateId xsi:nil="true"></List:UpdatedAssociateId>
          </List:HierarchyEntity>
         </List:Children>
-        <List:Registered xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:Registered>
+        <List:Registered xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:Registered>
         <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-        <List:Updated xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:Updated>
+        <List:Updated xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:Updated>
         <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
        </List:HierarchyEntity>
       </List:Children>
-      <List:Registered xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:Registered>
+      <List:Registered xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:Registered>
       <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-      <List:Updated xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:Updated>
+      <List:Updated xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:Updated>
       <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
      </List:HierarchyEntity>
     </List:Children>
-    <List:Registered xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:Registered>
+    <List:Registered xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:Registered>
     <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-    <List:Updated xsi:type="xsd:dateTime">2023-05-25T11:09:29Z</List:Updated>
+    <List:Updated xsi:type="xsd:dateTime">2023-06-09T13:59:30Z</List:Updated>
     <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
    </List:Response>
   </List:GetHierarchyEntityResponse>

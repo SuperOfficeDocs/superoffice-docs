@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/SetColumnWidthsV2
 uid: v1ArchiveAgent_SetColumnWidthsV2
+generated: true
 ---
 
 # POST Agents/Archive/SetColumnWidthsV2
@@ -67,17 +68,17 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Miller Inc and Sons",
-  "ProviderName": "Ullrich Group",
-  "Context": "mollitia",
-  "OwnerKeys": "tempore",
+  "GuiName": "Wunsch-Mueller",
+  "ProviderName": "Walsh, Welch and Considine",
+  "Context": "molestias",
+  "OwnerKeys": "debitis",
   "ColumnWidths": [
-    "quod",
-    "harum"
+    "voluptas",
+    "veniam"
   ]
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: DEL List/Credited/Items/{id}
 uid: v1CreditedList_DeleteCredited
+generated: true
 ---
 
 # DEL List/Credited/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

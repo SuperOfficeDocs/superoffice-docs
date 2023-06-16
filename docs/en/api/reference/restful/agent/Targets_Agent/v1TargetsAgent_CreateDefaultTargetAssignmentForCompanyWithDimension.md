@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 uid: v1TargetsAgent_CreateDefaultTargetAssignmentForCompanyWithDimension
+generated: true
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
@@ -80,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 465
+  "TargetDimensionId": 184
 }
 ```
 
@@ -96,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 17,
+    "TargetAssignmentInfoId": 800,
     "Values": [
-      891,
-      74
+      670,
+      29
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 471,
-    "DimensionListItemDisplayName": "Gutmann Inc and Sons",
+    "DimensionListItem": 989,
+    "DimensionListItemDisplayName": "Crist LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 559
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: DEL List/TicketStatus/Headings
 uid: v1TicketStatusList_DeleteTicketStatusEntityHeadings
+generated: true
 ---
 
 # DEL List/TicketStatus/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

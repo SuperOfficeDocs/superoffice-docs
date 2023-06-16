@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/SaveProjectEntity
 uid: v1ProjectAgent_SaveProjectEntity
+generated: true
 ---
 
 # POST Agents/Project/SaveProjectEntity
@@ -122,99 +123,99 @@ OK
 POST /api/v1/Agents/Project/SaveProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 452,
-  "Name": "Weimann, Grant and Rogahn",
-  "ProjectNumber": "1619550",
+  "ProjectId": 654,
+  "Name": "VonRueden Group",
+  "ProjectNumber": "619769",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 685,
-      "ContactId": 733,
-      "ProjectId": 816,
-      "ContactName": "Medhurst Inc and Sons",
-      "ContactDepartment": "morph visionary supply-chains",
-      "ProjectName": "Larson, Torp and Parisian",
-      "EmailId": 738,
-      "EmailAddress": "flossie.boyle@howelldare.us",
-      "CountryId": 54,
-      "Firstname": "Adela",
-      "MiddleName": "Conroy Inc and Sons",
-      "Lastname": "Oberbrunner",
-      "PersonId": 516,
-      "Mrmrs": "saepe",
-      "ProjectMemberTypeName": "Abernathy, Schiller and Collins",
-      "Phone": "(581)440-5825",
-      "PhoneId": 503,
-      "ProjectMemberTypeId": 105,
-      "EmailAddressName": "andreanne@sporer.info",
-      "Comment": "sequi",
-      "FullName": "Bobby Rodriguez"
+      "ProjectmemberId": 775,
+      "ContactId": 5,
+      "ProjectId": 331,
+      "ContactName": "Kuhlman, Durgan and Ritchie",
+      "ContactDepartment": "",
+      "ProjectName": "Effertz-Bednar",
+      "EmailId": 956,
+      "EmailAddress": "marcos_gulgowski@ryanbechtelar.ca",
+      "CountryId": 525,
+      "Firstname": "Sigrid",
+      "MiddleName": "Durgan Inc and Sons",
+      "Lastname": "Miller",
+      "PersonId": 188,
+      "Mrmrs": "qui",
+      "ProjectMemberTypeName": "Willms-Weber",
+      "Phone": "821.243.1942 x97582",
+      "PhoneId": 741,
+      "ProjectMemberTypeId": 255,
+      "EmailAddressName": "jalyn@funkchristiansen.us",
+      "Comment": "ut",
+      "FullName": "Darien Reilly"
     }
   ],
   "Urls": [
     {
-      "Value": "in",
-      "StrippedValue": "minima",
-      "Description": "Horizontal maximized alliance"
+      "Value": "facilis",
+      "StrippedValue": "eligendi",
+      "Description": "Re-engineered solution-oriented instruction set"
     },
     {
-      "Value": "in",
-      "StrippedValue": "minima",
-      "Description": "Horizontal maximized alliance"
+      "Value": "facilis",
+      "StrippedValue": "eligendi",
+      "Description": "Re-engineered solution-oriented instruction set"
     }
   ],
-  "CreatedDate": "2007-06-01T03:51:27.912192+02:00",
-  "UpdatedDate": "2009-09-05T03:51:27.912192+02:00",
-  "Description": "Function-based client-driven projection",
-  "Postit": "facilis",
+  "CreatedDate": "2016-09-27T16:00:41.5238361+02:00",
+  "UpdatedDate": "1996-06-14T16:00:41.5238361+02:00",
+  "Description": "Right-sized exuding project",
+  "Postit": "omnis",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": true,
-  "ImageDescription": "Virtual systematic collaboration",
-  "ActiveStatusMonitorId": 57,
+  "HasImage": false,
+  "ImageDescription": "Re-engineered heuristic pricing structure",
+  "ActiveStatusMonitorId": 498,
   "Links": [
     {
-      "EntityName": "Watsica-Bashirian",
-      "Id": 326,
-      "Description": "Customizable responsive framework",
-      "ExtraInfo": "sit",
-      "LinkId": 398
+      "EntityName": "Welch, Watsica and Runolfsson",
+      "Id": 462,
+      "Description": "Face to face high-level structure",
+      "ExtraInfo": "iusto",
+      "LinkId": 796
     },
     {
-      "EntityName": "Watsica-Bashirian",
-      "Id": 326,
-      "Description": "Customizable responsive framework",
-      "ExtraInfo": "sit",
-      "LinkId": 398
+      "EntityName": "Welch, Watsica and Runolfsson",
+      "Id": 462,
+      "Description": "Face to face high-level structure",
+      "ExtraInfo": "iusto",
+      "LinkId": 796
     }
   ],
-  "ActiveLinks": 700,
+  "ActiveLinks": 865,
   "Completed": false,
-  "NextMilestoneDate": "1998-06-08T03:51:27.912192+02:00",
-  "NmdAppointmentId": 791,
-  "EndDate": "2013-09-05T03:51:27.912192+02:00",
-  "ActiveErpLinks": 539,
+  "NextMilestoneDate": "2014-01-26T16:00:41.5238361+01:00",
+  "NmdAppointmentId": 184,
+  "EndDate": "2011-02-09T16:00:41.5238361+01:00",
+  "ActiveErpLinks": 671,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dannie Powlowski",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "593268372",
+    "SuperOffice:2": "1364762754"
   },
   "ExtraFields": {
-    "ExtraFields1": "minus",
-    "ExtraFields2": "illo"
+    "ExtraFields1": "quae",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "enim",
+    "CustomFields2": "architecto"
   },
-  "PublishEventDate": "2004-12-21T03:51:27.912192+01:00",
-  "PublishTo": "2012-12-27T03:51:27.912192+01:00",
-  "PublishFrom": "2014-11-24T03:51:27.912192+01:00",
+  "PublishEventDate": "2017-10-04T16:00:41.5238361+02:00",
+  "PublishTo": "2007-06-26T16:00:41.5238361+02:00",
+  "PublishFrom": "2017-10-13T16:00:41.5238361+02:00",
   "IsPublished": false
 }
 ```
@@ -226,127 +227,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 838,
-  "Name": "Kshlerin-Weimann",
-  "ProjectNumber": "935134",
+  "ProjectId": 1002,
+  "Name": "Daugherty Inc and Sons",
+  "ProjectNumber": "917335",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 397,
-      "ContactId": 427,
-      "ProjectId": 663,
-      "ContactName": "Murphy, Dickinson and Greenfelder",
+      "ProjectmemberId": 182,
+      "ContactId": 310,
+      "ProjectId": 126,
+      "ContactName": "Breitenberg-Gottlieb",
       "ContactDepartment": "",
-      "ProjectName": "Flatley-Jones",
-      "EmailId": 422,
-      "EmailAddress": "nina_langosh@cassinleannon.biz",
-      "CountryId": 929,
-      "Firstname": "Cicero",
-      "MiddleName": "Schaefer-Veum",
-      "Lastname": "Lindgren",
-      "PersonId": 988,
-      "Mrmrs": "qui",
-      "ProjectMemberTypeName": "Pollich LLC",
-      "Phone": "796-368-5117 x0698",
-      "PhoneId": 955,
-      "ProjectMemberTypeId": 434,
-      "EmailAddressName": "toby.heaney@block.name",
-      "Comment": "debitis",
-      "FullName": "Henry Fredy White PhD",
+      "ProjectName": "Graham-Shields",
+      "EmailId": 272,
+      "EmailAddress": "jeromy@turcotte.uk",
+      "CountryId": 97,
+      "Firstname": "Amanda",
+      "MiddleName": "Stiedemann-Wilderman",
+      "Lastname": "Runolfsson",
+      "PersonId": 305,
+      "Mrmrs": "dolore",
+      "ProjectMemberTypeName": "Gutmann-Lockman",
+      "Phone": "(529)374-3905",
+      "PhoneId": 827,
+      "ProjectMemberTypeId": 669,
+      "EmailAddressName": "jaquan.rogahn@bednar.co.uk",
+      "Comment": "exercitationem",
+      "FullName": "Dr. Bartholome Bobbie Cormier PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 319
+          "FieldLength": 287
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "perferendis",
-      "StrippedValue": "ut",
-      "Description": "Centralized exuding internet solution",
+      "Value": "consequuntur",
+      "StrippedValue": "unde",
+      "Description": "Ergonomic incremental intranet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldLength": 987
         }
       }
     },
     {
-      "Value": "perferendis",
-      "StrippedValue": "ut",
-      "Description": "Centralized exuding internet solution",
+      "Value": "consequuntur",
+      "StrippedValue": "unde",
+      "Description": "Ergonomic incremental intranet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldLength": 987
         }
       }
     }
   ],
-  "CreatedDate": "1997-04-17T03:51:27.912192+02:00",
-  "UpdatedDate": "2016-07-03T03:51:27.912192+02:00",
-  "Description": "Enhanced grid-enabled parallelism",
-  "Postit": "sed",
+  "CreatedDate": "2010-12-20T16:00:41.5238361+01:00",
+  "UpdatedDate": "2019-05-19T16:00:41.5238361+02:00",
+  "Description": "Decentralized real-time pricing structure",
+  "Postit": "ut",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": false,
-  "ImageDescription": "Down-sized maximized architecture",
-  "ActiveStatusMonitorId": 39,
+  "HasImage": true,
+  "ImageDescription": "Multi-layered full-range open system",
+  "ActiveStatusMonitorId": 375,
   "Links": [
     {
-      "EntityName": "Mills, Berge and Koepp",
-      "Id": 706,
-      "Description": "Versatile non-volatile Graphic Interface",
-      "ExtraInfo": "expedita",
-      "LinkId": 288,
+      "EntityName": "Wunsch Group",
+      "Id": 928,
+      "Description": "Re-contextualized actuating analyzer",
+      "ExtraInfo": "distinctio",
+      "LinkId": 543,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldType": "System.String",
+          "FieldLength": 570
         }
       }
     }
   ],
-  "ActiveLinks": 124,
-  "Completed": true,
-  "NextMilestoneDate": "2012-06-16T03:51:27.912192+02:00",
-  "NmdAppointmentId": 909,
-  "EndDate": "2021-01-28T03:51:27.912192+01:00",
-  "ActiveErpLinks": 775,
+  "ActiveLinks": 774,
+  "Completed": false,
+  "NextMilestoneDate": "2015-01-12T16:00:41.5238361+01:00",
+  "NmdAppointmentId": 378,
+  "EndDate": "2017-12-24T16:00:41.5238361+01:00",
+  "ActiveErpLinks": 141,
   "UserDefinedFields": {
-    "SuperOffice:1": "Geraldine Samanta Koepp DDS",
-    "SuperOffice:2": "Tillman Boehm"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "310300845"
   },
   "ExtraFields": {
-    "ExtraFields1": "quas",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "aut"
+    "CustomFields1": "recusandae",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "2014-06-07T03:51:27.912192+02:00",
-  "PublishTo": "2009-10-09T03:51:27.912192+02:00",
-  "PublishFrom": "1998-03-01T03:51:27.912192+01:00",
+  "PublishEventDate": "2001-11-27T16:00:41.5238361+01:00",
+  "PublishTo": "2016-07-09T16:00:41.5238361+02:00",
+  "PublishFrom": "2001-08-02T16:00:41.5238361+02:00",
   "IsPublished": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldLength": 570
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/CreateDefaultSaleStakeholder
 uid: v1SaleAgent_CreateDefaultSaleStakeholder
+generated: true
 ---
 
 # POST Agents/Sale/CreateDefaultSaleStakeholder
@@ -84,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kuphal, Herman and Brekke",
-  "Comment": "numquam",
-  "StakeholderRoleId": 507,
-  "CountryId": 777,
-  "PersonId": 270,
-  "EmailDescription": "olin.block@wiegand.biz",
-  "EmailId": 396,
-  "EmailAddress": "marilyne.rosenbaum@mohr.com",
-  "PhoneId": 789,
-  "ContactName": "Trantow LLC",
-  "ContactId": 553,
-  "SaleId": 621,
-  "Mrmrs": "tenetur",
-  "Firstname": "Beryl",
-  "MiddleName": "McCullough-Balistreri",
-  "Lastname": "Hahn",
-  "SaleStakeholderId": 180,
-  "Rank": 168,
-  "Phone": "727-854-5667 x9820",
+  "StakeholderRoleName": "Mohr-Cummings",
+  "Comment": "quia",
+  "StakeholderRoleId": 115,
+  "CountryId": 839,
+  "PersonId": 820,
+  "EmailDescription": "kaylie.stroman@littel.us",
+  "EmailId": 887,
+  "EmailAddress": "athena_schroeder@harvey.uk",
+  "PhoneId": 809,
+  "ContactName": "Luettgen, Pagac and Boehm",
+  "ContactId": 800,
+  "SaleId": 156,
+  "Mrmrs": "maiores",
+  "Firstname": "Felicia",
+  "MiddleName": "Kautzer-Lowe",
+  "Lastname": "Torp",
+  "SaleStakeholderId": 502,
+  "Rank": 831,
+  "Phone": "1-460-644-7199",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldType": "System.String",
+      "FieldLength": 959
     }
   }
 }

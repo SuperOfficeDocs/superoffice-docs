@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetDocumentTemplateProperties
 uid: v1ListAgent_GetDocumentTemplateProperties
+generated: true
 ---
 
 # POST Agents/List/GetDocumentTemplateProperties
@@ -72,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 730,
+  "DocumentTemplateId": 650,
   "RequestedProperties": [
-    "temporibus",
-    "inventore"
+    "vitae",
+    "voluptate"
   ]
 }
 ```
@@ -87,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quos",
-  "2": "accusantium"
+  "1": "dolores",
+  "2": "nemo"
 }
 ```

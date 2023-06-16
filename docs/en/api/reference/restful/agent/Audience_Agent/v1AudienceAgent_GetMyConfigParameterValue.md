@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetMyConfigParameterValue
 uid: v1AudienceAgent_GetMyConfigParameterValue
+generated: true
 ---
 
 # POST Agents/Audience/GetMyConfigParameterValue
@@ -71,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Veum Inc and Sons"
+  "ParameterName": "Reichel LLC"
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"inventore"
+"a"
 ```

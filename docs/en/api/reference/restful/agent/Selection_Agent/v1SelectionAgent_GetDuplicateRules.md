@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/GetDuplicateRules
 uid: v1SelectionAgent_GetDuplicateRules
+generated: true
 ---
 
 # POST Agents/Selection/GetDuplicateRules
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Leannon, Emard and Sanford",
-    "DisplayName": "Balistreri-Reinger",
-    "DisplayTooltip": "enim",
-    "IsActive": true,
+    "Name": "Padberg, Bins and Stehr",
+    "DisplayName": "Williamson LLC",
+    "DisplayTooltip": "quo",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 781
       }
     }
   },
   {
-    "Name": "Leannon, Emard and Sanford",
-    "DisplayName": "Balistreri-Reinger",
-    "DisplayTooltip": "enim",
-    "IsActive": true,
+    "Name": "Padberg, Bins and Stehr",
+    "DisplayName": "Williamson LLC",
+    "DisplayTooltip": "quo",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 781
       }
     }
   }

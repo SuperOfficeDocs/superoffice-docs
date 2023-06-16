@@ -1,6 +1,7 @@
 ---
 title: PUT List/DeliveryType/Items
 uid: v1DeliveryTypeList_PutAllDeliveryType
+generated: true
 ---
 
 # PUT List/DeliveryType/Items
@@ -77,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Ferry, Gusikowski and Stark",
-    "Tooltip": "maiores",
-    "Deleted": true,
-    "UdListDefinitionId": 832,
-    "Rank": 254
+    "Id": 107,
+    "Name": "Tillman-Halvorson",
+    "Tooltip": "nostrum",
+    "Deleted": false,
+    "UdListDefinitionId": 275,
+    "Rank": 758
   },
   {
-    "Id": 246,
-    "Name": "Ferry, Gusikowski and Stark",
-    "Tooltip": "maiores",
-    "Deleted": true,
-    "UdListDefinitionId": 832,
-    "Rank": 254
+    "Id": 107,
+    "Name": "Tillman-Halvorson",
+    "Tooltip": "nostrum",
+    "Deleted": false,
+    "UdListDefinitionId": 275,
+    "Rank": 758
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 111,
-    "Name": "Kilback-Stiedemann",
-    "Tooltip": "ea",
-    "Deleted": false,
-    "UdListDefinitionId": 779,
-    "Rank": 338,
+    "Id": 995,
+    "Name": "Ritchie LLC",
+    "Tooltip": "rerum",
+    "Deleted": true,
+    "UdListDefinitionId": 935,
+    "Rank": 616,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 629
+        "FieldType": "System.Int32",
+        "FieldLength": 647
       }
     }
   }

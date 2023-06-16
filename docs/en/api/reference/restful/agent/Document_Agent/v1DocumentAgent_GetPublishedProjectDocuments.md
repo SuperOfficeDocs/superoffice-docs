@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetPublishedProjectDocuments
 uid: v1DocumentAgent_GetPublishedProjectDocuments
+generated: true
 ---
 
 # POST Agents/Document/GetPublishedProjectDocuments
@@ -95,7 +96,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 737
+  "ProjectId": 31
 }
 ```
 
@@ -107,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 194,
-    "Attention": "aliquid",
-    "Header": "voluptatum",
-    "Name": "Hirthe-Nikolaus",
-    "OurRef": "quibusdam",
-    "YourRef": "odit",
-    "Description": "Mandatory 3rd generation superstructure",
-    "DocumentTemplate": "sint",
-    "IsPublished": false,
-    "PersonId": 225,
-    "PersonFullName": "Tiffany Thompson Jr.",
-    "AssociateFullName": "Gunnar Sawayn",
-    "ContactId": 337,
-    "ContactName": "Grady, Gutkowski and Waters",
-    "ProjectId": 728,
-    "ProjectName": "Koepp, Kirlin and Swaniawski",
-    "AssociateId": 769,
-    "Snum": 231,
-    "SaleId": 970,
-    "SaleName": "Trantow Inc and Sons",
+    "DocumentId": 351,
+    "Attention": "eius",
+    "Header": "commodi",
+    "Name": "Runolfsson LLC",
+    "OurRef": "in",
+    "YourRef": "maxime",
+    "Description": "Cloned human-resource algorithm",
+    "DocumentTemplate": "sunt",
+    "IsPublished": true,
+    "PersonId": 612,
+    "PersonFullName": "Rosetta Dicki",
+    "AssociateFullName": "Mrs. Courtney Florian Klein",
+    "ContactId": 615,
+    "ContactName": "Cruickshank, Bashirian and Larson",
+    "ProjectId": 480,
+    "ProjectName": "Torp-Carroll",
+    "AssociateId": 474,
+    "Snum": 657,
+    "SaleId": 887,
+    "SaleName": "Stracke Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldType": "System.String",
+        "FieldLength": 495
       }
     }
   }

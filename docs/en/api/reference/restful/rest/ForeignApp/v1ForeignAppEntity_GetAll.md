@@ -1,6 +1,7 @@
 ---
 title: GET ForeignApp
 uid: v1ForeignAppEntity_GetAll
+generated: true
 ---
 
 # GET ForeignApp
@@ -69,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=autem
-GET /api/v1/ForeignApp?$top=827
-GET /api/v1/ForeignApp?$skip=620
+GET /api/v1/ForeignApp?$entities=ut
+GET /api/v1/ForeignApp?$top=20
+GET /api/v1/ForeignApp?$skip=351
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=sunt
+GET /api/v1/ForeignApp?$context=quam
 GET /api/v1/ForeignApp?$format=JSON
-GET /api/v1/ForeignApp?$jsonSafe=False
+GET /api/v1/ForeignApp?$jsonSafe=True
 GET /api/v1/ForeignApp?$output=Display
 ```
 
@@ -117,7 +118,7 @@ OK
 GET /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 9227,
+      "PrimaryKey": 2221,
       "EntityName": "sale",
-      "saleId": 9227,
-      "contactId": 2690,
-      "name": "Marks LLC"
+      "saleId": 2221,
+      "contactId": 6930,
+      "name": "Kerluke, Blick and Fadel"
     },
     {
-      "PrimaryKey": 8053,
+      "PrimaryKey": 4296,
       "EntityName": "sale",
-      "saleId": 8053,
-      "contactId": 3264,
-      "name": "Swift-Kemmer"
+      "saleId": 4296,
+      "contactId": 8079,
+      "name": "Torphy LLC"
     }
   ]
 }

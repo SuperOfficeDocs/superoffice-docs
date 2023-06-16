@@ -1,6 +1,7 @@
 ---
 title: PUT List/PaymentType/Items
 uid: v1PaymentTypeList_PutAllPaymentType
+generated: true
 ---
 
 # PUT List/PaymentType/Items
@@ -77,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Kshlerin, Stroman and Heaney",
-    "Tooltip": "eveniet",
-    "Deleted": false,
-    "UdListDefinitionId": 945,
-    "Rank": 561
+    "Id": 294,
+    "Name": "Doyle, Jewess and Murphy",
+    "Tooltip": "numquam",
+    "Deleted": true,
+    "UdListDefinitionId": 1000,
+    "Rank": 128
   },
   {
-    "Id": 513,
-    "Name": "Kshlerin, Stroman and Heaney",
-    "Tooltip": "eveniet",
-    "Deleted": false,
-    "UdListDefinitionId": 945,
-    "Rank": 561
+    "Id": 294,
+    "Name": "Doyle, Jewess and Murphy",
+    "Tooltip": "numquam",
+    "Deleted": true,
+    "UdListDefinitionId": 1000,
+    "Rank": 128
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Moen, Green and Tromp",
-    "Tooltip": "voluptatem",
+    "Id": 498,
+    "Name": "Feil-Macejkovic",
+    "Tooltip": "autem",
     "Deleted": false,
-    "UdListDefinitionId": 243,
-    "Rank": 901,
+    "UdListDefinitionId": 914,
+    "Rank": 654,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldLength": 640
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProjectStatus/Items
 uid: v1ProjectStatusList_PutAllProjectStatus
+generated: true
 ---
 
 # PUT List/ProjectStatus/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Botsford-Ruecker",
-    "Tooltip": "debitis",
+    "Id": 355,
+    "Name": "Runolfsdottir LLC",
+    "Tooltip": "atque",
     "Deleted": false,
-    "UdListDefinitionId": 945,
-    "Rank": 414
+    "UdListDefinitionId": 849,
+    "Rank": 666
   },
   {
-    "Id": 332,
-    "Name": "Botsford-Ruecker",
-    "Tooltip": "debitis",
+    "Id": 355,
+    "Name": "Runolfsdottir LLC",
+    "Tooltip": "atque",
     "Deleted": false,
-    "UdListDefinitionId": 945,
-    "Rank": 414
+    "UdListDefinitionId": 849,
+    "Rank": 666
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 58,
-    "Name": "Murphy Group",
-    "Tooltip": "fugit",
-    "Deleted": true,
-    "UdListDefinitionId": 690,
-    "Rank": 376,
+    "Id": 698,
+    "Name": "Glover-Wiegand",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 814,
+    "Rank": 900,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldLength": 548
       }
     }
   }

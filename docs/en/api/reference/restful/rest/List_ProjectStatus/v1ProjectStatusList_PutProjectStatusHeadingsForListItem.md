@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProjectStatus/Items/{id}/Headings
 uid: v1ProjectStatusList_PutProjectStatusHeadingsForListItem
+generated: true
 ---
 
 # PUT List/ProjectStatus/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Bauch, Koch and Konopelski",
-    "ToolTip": "Ipsum itaque.",
+    "Id": 687,
+    "Name": "Hartmann, Prohaska and Feil",
+    "ToolTip": "A ipsa odit non sapiente.",
     "Deleted": false,
-    "Rank": 7,
-    "Type": "modi",
-    "ColorBlock": 230,
-    "IconHint": "mollitia",
+    "Rank": 624,
+    "Type": "est",
+    "ColorBlock": 32,
+    "IconHint": "deserunt",
     "Selected": false,
-    "LastChanged": "2017-01-08T03:51:34.833319+01:00",
+    "LastChanged": "2017-07-26T16:00:49.1958202+02:00",
     "ChildItems": [
       {
-        "Id": 690,
-        "Name": "Toy-Reichert",
-        "ToolTip": "Nihil rerum sed a aut.",
-        "Deleted": false,
-        "Rank": 544,
-        "Type": "sunt",
-        "ColorBlock": 335,
-        "IconHint": "porro",
+        "Id": 766,
+        "Name": "Legros-Rohan",
+        "ToolTip": "Perspiciatis a quis voluptatem.",
+        "Deleted": true,
+        "Rank": 966,
+        "Type": "nihil",
+        "ColorBlock": 546,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "1998-03-26T03:51:34.833319+01:00",
+        "LastChanged": "1998-06-05T16:00:49.1958202+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "tempora",
+        "ExtraInfo": "sunt",
+        "StyleHint": "quam",
         "Hidden": true,
-        "FullName": "Dovie Boyer"
+        "FullName": "Jeffery Baumbach"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "repudiandae",
-    "Hidden": false,
-    "FullName": "Myrtice Treutel"
+    "ExtraInfo": "natus",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "Kyle Kassulke"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1002,
-    "Name": "Herman, Torphy and Nolan",
-    "ToolTip": "Ut labore vero ut et consequatur voluptatem quibusdam.",
-    "Deleted": false,
-    "Rank": 978,
-    "Type": "est",
-    "ColorBlock": 551,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2009-01-08T03:51:34.8489374+01:00",
+    "Id": 872,
+    "Name": "Pfannerstill Group",
+    "ToolTip": "Qui corporis animi hic veniam.",
+    "Deleted": true,
+    "Rank": 468,
+    "Type": "qui",
+    "ColorBlock": 233,
+    "IconHint": "delectus",
+    "Selected": true,
+    "LastChanged": "2013-03-01T16:00:49.1958202+01:00",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Hammes-Mann",
-        "ToolTip": "Sapiente aspernatur.",
+        "Id": 937,
+        "Name": "Heidenreich Inc and Sons",
+        "ToolTip": "Ut non hic animi.",
         "Deleted": false,
-        "Rank": 997,
-        "Type": "sed",
-        "ColorBlock": 906,
-        "IconHint": "eveniet",
+        "Rank": 545,
+        "Type": "eos",
+        "ColorBlock": 189,
+        "IconHint": "labore",
         "Selected": false,
-        "LastChanged": "1998-08-31T03:51:34.8489374+02:00",
+        "LastChanged": "2006-08-30T16:00:49.1958202+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "natus",
+        "ExtraInfo": "commodi",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Emmitt DuBuque",
+        "FullName": "Christy Parisian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 968
+            "FieldLength": 917
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "enim",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Drew Denesik",
+    "FullName": "Ms. Warren Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldType": "System.Int32",
+        "FieldLength": 720
       }
     }
   }

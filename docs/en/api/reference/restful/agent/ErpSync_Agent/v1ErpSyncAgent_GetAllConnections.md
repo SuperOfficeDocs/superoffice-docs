@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetAllConnections
 uid: v1ErpSyncAgent_GetAllConnections
+generated: true
 ---
 
 # POST Agents/ErpSync/GetAllConnections
@@ -92,7 +93,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -104,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 344,
-    "ErpConnectorId": 519,
-    "DisplayName": "Moore LLC",
-    "DisplayDescription": "Stand-alone demand-driven leverage",
-    "Active": true,
-    "ConnectionId": "eum",
-    "MostRecentTimestamp": "magnam",
+    "ErpConnectionId": 957,
+    "ErpConnectorId": 450,
+    "DisplayName": "Rowe, Herman and Bartoletti",
+    "DisplayDescription": "Upgradable optimal approach",
+    "Active": false,
+    "ConnectionId": "quibusdam",
+    "MostRecentTimestamp": "sit",
     "ConfigFields": {
-      "ConfigFields1": "vel",
-      "ConfigFields2": "exercitationem"
+      "ConfigFields1": "est",
+      "ConfigFields2": "vitae"
     },
-    "Deleted": false,
-    "AllAccess": false,
+    "Deleted": true,
+    "AllAccess": true,
     "UserGroupAccessIds": [
-      225,
-      259
+      90,
+      31
     ],
     "AssociateAccessIds": [
-      529,
-      265
+      325,
+      928
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 941
+        "FieldLength": 666
       }
     }
   }

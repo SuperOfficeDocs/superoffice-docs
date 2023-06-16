@@ -1,6 +1,7 @@
 ---
 title: PUT List/{name}/Headings
 uid: v1ListItemEntity_SaveHeadingsFromName
+generated: true
 ---
 
 # PUT List/{name}/Headings
@@ -76,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 642,
-    "Name": "Veum Inc and Sons",
-    "Tooltip": "eligendi",
-    "Deleted": false,
-    "Rank": 813,
-    "UdListDefinitionId": 229
+    "HeadingId": 198,
+    "Name": "Kuhlman-Heathcote",
+    "Tooltip": "deleniti",
+    "Deleted": true,
+    "Rank": 443,
+    "UdListDefinitionId": 332
   },
   {
-    "HeadingId": 642,
-    "Name": "Veum Inc and Sons",
-    "Tooltip": "eligendi",
-    "Deleted": false,
-    "Rank": 813,
-    "UdListDefinitionId": 229
+    "HeadingId": 198,
+    "Name": "Kuhlman-Heathcote",
+    "Tooltip": "deleniti",
+    "Deleted": true,
+    "Rank": 443,
+    "UdListDefinitionId": 332
   }
 ]
 ```
@@ -107,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 173,
-    "Name": "Jewess-Beahan",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 697,
-    "UdListDefinitionId": 886,
+    "HeadingId": 228,
+    "Name": "Schiller-Yundt",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 38,
+    "UdListDefinitionId": 846,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 786
       }
     }
   }

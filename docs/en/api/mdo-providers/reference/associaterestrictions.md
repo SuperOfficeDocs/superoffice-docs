@@ -1,17 +1,11 @@
 ---
 uid: associaterestrictions
 title: associaterestrictions
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "associaterestrictions"
+keywords: mdoprovider mdo provider associaterestrictions
+description: Public MDO provider based on the AssociateRestrictionsMDOProviderBase.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "associaterestrictions" MDO List

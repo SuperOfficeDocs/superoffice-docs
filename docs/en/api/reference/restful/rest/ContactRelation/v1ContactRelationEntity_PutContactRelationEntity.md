@@ -1,6 +1,7 @@
 ---
 title: PUT Relation/{id}
 uid: v1ContactRelationEntity_PutContactRelationEntity
+generated: true
 ---
 
 # PUT Relation/{id}
@@ -117,24 +118,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 865,
-  "SourcePersonId": 171,
-  "DestinationContactId": 135,
-  "DestinationPersonId": 375,
-  "RelationId": 727,
-  "Comment": "similique",
-  "RelationDefinitionId": 629,
-  "Reversed": 548,
-  "UpdatedDate": "2017-12-25T03:51:33.552243+01:00",
-  "CreatedDate": "2001-03-27T03:51:33.552243+02:00",
+  "SourceContactId": 430,
+  "SourcePersonId": 604,
+  "DestinationContactId": 702,
+  "DestinationPersonId": 447,
+  "RelationId": 573,
+  "Comment": "sint",
+  "RelationDefinitionId": 64,
+  "Reversed": 146,
+  "UpdatedDate": "2003-07-18T16:00:47.8209689+02:00",
+  "CreatedDate": "2002-06-30T16:00:47.8209689+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Balistreri, Tillman and Carroll",
-  "SourcePersonName": "McLaughlin Inc and Sons",
-  "DestinationContactName": "Swaniawski, Sanford and Schaefer",
-  "DestinationPersonName": "Stamm LLC",
-  "ActiveText": "nam",
-  "PassiveText": "earum"
+  "SourceContactName": "McDermott-Grant",
+  "SourcePersonName": "Orn LLC",
+  "DestinationContactName": "O'Reilly, Quitzon and Rempel",
+  "DestinationPersonName": "Collins-Keeling",
+  "ActiveText": "quibusdam",
+  "PassiveText": "enim"
 }
 ```
 
@@ -145,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 705,
-  "SourcePersonId": 83,
-  "DestinationContactId": 561,
-  "DestinationPersonId": 894,
-  "RelationId": 199,
-  "Comment": "nobis",
-  "RelationDefinitionId": 790,
-  "Reversed": 525,
-  "UpdatedDate": "2013-12-21T03:51:33.552243+01:00",
-  "CreatedDate": "2006-10-03T03:51:33.552243+02:00",
+  "SourceContactId": 722,
+  "SourcePersonId": 613,
+  "DestinationContactId": 255,
+  "DestinationPersonId": 461,
+  "RelationId": 846,
+  "Comment": "ipsa",
+  "RelationDefinitionId": 2,
+  "Reversed": 687,
+  "UpdatedDate": "2005-12-19T16:00:47.8209689+01:00",
+  "CreatedDate": "2015-08-14T16:00:47.8209689+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hahn Inc and Sons",
-  "SourcePersonName": "Bashirian-Rice",
-  "DestinationContactName": "Quitzon, Gorczany and Altenwerth",
-  "DestinationPersonName": "Bahringer, Predovic and Konopelski",
-  "ActiveText": "temporibus",
-  "PassiveText": "labore",
+  "SourceContactName": "Jewess-Roob",
+  "SourcePersonName": "Windler-Jenkins",
+  "DestinationContactName": "Paucek LLC",
+  "DestinationPersonName": "Romaguera-Macejkovic",
+  "ActiveText": "in",
+  "PassiveText": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 144
+      "FieldType": "System.Int32",
+      "FieldLength": 1000
     }
   },
   "_Links": {

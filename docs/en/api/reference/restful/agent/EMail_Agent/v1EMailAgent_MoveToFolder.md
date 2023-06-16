@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/MoveToFolder
 uid: v1EMailAgent_MoveToFolder
+generated: true
 ---
 
 # POST Agents/EMail/MoveToFolder
@@ -73,10 +74,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    166,
-    162
+    956,
+    842
   ],
-  "TargetFolder": "quo"
+  "TargetFolder": "deleniti"
 }
 ```
 

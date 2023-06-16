@@ -12384,6 +12384,8 @@
       href: Services88/Associate/GetAssociateList.md
     - name: GetAssociatesByGroup
       href: Services88/Associate/GetAssociatesByGroup.md
+    - name: GetEncryptionKey
+      href: Services88/Associate/GetEncryptionKey.md
     - name: GetNote
       href: Services88/Associate/GetNote.md
     - name: LogOffWindowsUsers
@@ -15536,6 +15538,8 @@
       href: Services88/Ticket/ClearNotify.md
     - name: CopyFromCRMDocument
       href: Services88/Ticket/CopyFromCRMDocument.md
+    - name: CopyToTempFile
+      href: Services88/Ticket/CopyToTempFile.md
     - name: CreateDefaultAttachmentEntity
       href: Services88/Ticket/CreateDefaultAttachmentEntity.md
     - name: CreateDefaultTicketEntity
@@ -15991,6 +15995,8 @@
     items:
     - name: AddAfterWorkflowStep
       href: Services88/Workflow/AddAfterWorkflowStep.md
+    - name: ConnectEmailFlowContent
+      href: Services88/Workflow/ConnectEmailFlowContent.md
     - name: CreateDefaultEmailFlow
       href: Services88/Workflow/CreateDefaultEmailFlow.md
     - name: CreateDefaultWorkflowFilter
@@ -16003,6 +16009,8 @@
       href: Services88/Workflow/CreateDefaultWorkflowStepOption.md
     - name: CreateDefaultWorkflowTrigger
       href: Services88/Workflow/CreateDefaultWorkflowTrigger.md
+    - name: CreateEmailFlowContent
+      href: Services88/Workflow/CreateEmailFlowContent.md
     - name: DeleteEmailFlow
       href: Services88/Workflow/DeleteEmailFlow.md
     - name: DeleteWorkflowGoal

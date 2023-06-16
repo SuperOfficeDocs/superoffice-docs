@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetDefaultValueInfo
 uid: v1ErpSyncAgent_GetDefaultValueInfo
+generated: true
 ---
 
 # POST Agents/ErpSync/GetDefaultValueInfo
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 666
+  "ErpFieldId": 255
 }
 ```
 
@@ -98,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 843,
-  "DefaultValue": "sint",
+  "ErpFieldId": 887,
+  "DefaultValue": "illum",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "officiis",
+  "FirstSyncDefaultValue": "modi",
   "PromptUser": false,
   "Mandatory": true,
-  "ErpFieldKey": "odio",
+  "ErpFieldKey": "consequatur",
   "FieldType": "Checkbox",
-  "ListName": "Pollich-Bartell",
+  "ListName": "Brakus, Mayert and Huel",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 698
+      "FieldLength": 666
     }
   }
 }

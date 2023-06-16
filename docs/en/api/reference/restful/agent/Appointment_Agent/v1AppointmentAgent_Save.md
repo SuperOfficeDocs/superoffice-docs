@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/Save
 uid: v1AppointmentAgent_Save
+generated: true
 ---
 
 # POST Agents/Appointment/Save
@@ -113,6 +114,9 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -153,63 +157,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-08-31T03:51:26.2563301+02:00",
-  "AppointmentId": 178,
-  "Description": "Fully-configurable directional algorithm",
-  "StartDate": "2010-08-24T03:51:26.2563301+02:00",
-  "EndDate": "2010-08-29T03:51:26.2563301+02:00",
+  "CreatedDate": "2011-02-20T16:00:39.8675965+01:00",
+  "AppointmentId": 809,
+  "Description": "Profit-focused upward-trending attitude",
+  "StartDate": "2005-10-09T16:00:39.8675965+02:00",
+  "EndDate": "2020-01-18T16:00:39.8675965+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 738,
+  "MotherId": 319,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-12-31T03:51:26.2563301+01:00",
+  "UpdatedDate": "2013-04-16T16:00:39.8832222+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 187,
+  "ActiveLinks": 503,
   "Links": [
     {
-      "EntityName": "Altenwerth Group",
-      "Id": 306,
-      "Description": "Extended multimedia database",
-      "ExtraInfo": "magnam",
-      "LinkId": 501,
+      "EntityName": "Kuhlman LLC",
+      "Id": 516,
+      "Description": "Function-based explicit synergy",
+      "ExtraInfo": "debitis",
+      "LinkId": 800,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 819
+          "FieldType": "System.Int32",
+          "FieldLength": 276
         }
       }
     }
   ],
-  "AlarmLeadTime": "distinctio",
-  "HasAlarm": true,
-  "ColorIndex": 915,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "magnam",
-  "LeadTime": "natus",
-  "Location": "error",
-  "RejectCounter": 155,
+  "AlarmLeadTime": "repellendus",
+  "HasAlarm": false,
+  "ColorIndex": 907,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "numquam",
+  "LeadTime": "ad",
+  "Location": "quia",
+  "RejectCounter": 357,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 610,
-      "PersonId": 421,
-      "ContactId": 582,
-      "EmailId": 597,
+      "AssociateId": 546,
+      "PersonId": 452,
+      "ContactId": 758,
+      "EmailId": 225,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 610,
-      "PersonId": 421,
-      "ContactId": 582,
-      "EmailId": 597,
+      "AssociateId": 546,
+      "PersonId": 452,
+      "ContactId": 758,
+      "EmailId": 225,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
@@ -217,58 +221,61 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-09-22T03:51:26.2563301+02:00",
+  "ActiveDate": "2017-03-26T16:00:39.8832222+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 528,
+  "PreferredTZLocation": 832,
   "Sale": null,
-  "SuggestedAppointmentId": 6,
+  "SuggestedAppointmentId": 25,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "consequatur",
+  "CentralserviceVideomeetId": "non",
+  "Title": "consequatur",
+  "Agenda": "accusamus",
+  "InternalNotes": "distinctio",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Anabelle Odie Corkery",
-    "SuperOffice:2": "Rylee Jerde"
+    "SuperOffice:1": "Okey Wisoky",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "et"
+    "CustomFields1": "labore",
+    "CustomFields2": "veniam"
   },
-  "PublishEventDate": "2021-04-11T03:51:26.2563301+02:00",
-  "PublishTo": "2015-12-15T03:51:26.2563301+01:00",
-  "PublishFrom": "2018-03-26T03:51:26.2563301+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2012-05-19T16:00:39.8832222+02:00",
+  "PublishTo": "2016-01-02T16:00:39.8832222+01:00",
+  "PublishFrom": "2018-12-03T16:00:39.8832222+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 297,
+      "VisibleId": 215,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 759
+          "FieldLength": 122
         }
       }
     },
     {
-      "VisibleId": 297,
+      "VisibleId": 215,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 759
+          "FieldLength": 122
         }
       }
     }
@@ -278,7 +285,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 742
+      "FieldLength": 515
     }
   }
 }

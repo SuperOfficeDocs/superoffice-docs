@@ -1,6 +1,6 @@
 ---
 title: Services88.DashAgent.SaveDash SOAP
-generated: 1
+generated: true
 uid: Services88-Dash-SaveDash
 ---
 

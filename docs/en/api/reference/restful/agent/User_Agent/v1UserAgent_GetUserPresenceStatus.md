@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetUserPresenceStatus
 uid: v1UserAgent_GetUserPresenceStatus
+generated: true
 ---
 
 # POST Agents/User/GetUserPresenceStatus
@@ -73,11 +74,11 @@ OK
 POST /api/v1/Agents/User/GetUserPresenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 513
+  "AssociateId": 769
 }
 ```
 
@@ -89,6 +90,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "velit"
+  "Message": "fugiat"
 }
 ```

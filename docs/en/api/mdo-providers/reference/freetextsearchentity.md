@@ -1,17 +1,14 @@
 ---
 uid: freetextsearchentity
 title: freetextsearchentity
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "freetextsearchentity"
+keywords: mdoprovider mdo provider freetextsearchentity
+description: List provider that returns the entities supported by free text search. The extraInfo field contains the
+programmatic table name, which can be used as input for the OwnerEntityName restriction of the
+<see cref="T:SuperOffice.CRM.ArchiveLists.FreetextCountProvider" />. The ID of each item is the table number
+corresponding to the entity, and can also be used as a restriction value.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "freetextsearchentity" MDO List

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/SaveRestrictionsWithContext
 uid: v1FindAgent_SaveRestrictionsWithContext
+generated: true
 ---
 
 # POST Agents/Find/SaveRestrictionsWithContext
@@ -67,37 +68,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nulla",
-  "ProviderName": "Bruen, Runolfsson and Schultz",
-  "StorageKey": "voluptates",
+  "StorageType": "et",
+  "ProviderName": "Renner, Glover and Bashirian",
+  "StorageKey": "voluptas",
   "Restrictions": [
     {
-      "Name": "Parker-Schulist",
-      "Operator": "ex",
+      "Name": "Gerlach-Zemlak",
+      "Operator": "assumenda",
       "Values": [
-        "et",
-        "non"
+        "qui",
+        "officiis"
       ],
       "DisplayValues": [
-        "aut",
-        "consequatur"
+        "pariatur",
+        "minus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 144,
+      "InterParenthesis": 195,
       "InterOperator": "And",
-      "UniqueHash": 670
+      "UniqueHash": 515
     }
   ],
-  "Context": "vitae"
+  "Context": "quisquam"
 }
 ```
 

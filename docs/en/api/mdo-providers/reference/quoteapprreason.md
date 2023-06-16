@@ -1,17 +1,11 @@
 ---
 uid: quoteapprreason
 title: quoteapprreason
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "quoteapprreason"
+keywords: mdoprovider mdo provider quoteapprreason
+description: GenericMDOProvider reads MDO lists with default settings
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "quoteapprreason" MDO List

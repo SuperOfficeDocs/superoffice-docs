@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/GetBatchTaskInfosByAssociates
 uid: v1BatchAgent_GetBatchTaskInfosByAssociates
+generated: true
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByAssociates
@@ -93,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    662,
-    315
+    260,
+    770
   ]
 }
 ```
@@ -112,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 580,
-    "Name": "Feeney, Watsica and Davis",
-    "AssociateId": 421,
-    "DetailsTable": 966,
-    "DetailsRecord": 123,
-    "IsSystemTask": false,
+    "Id": 477,
+    "Name": "Cole, Beer and Moore",
+    "AssociateId": 428,
+    "DetailsTable": 943,
+    "DetailsRecord": 951,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "veniam",
-      "ParameterObject2": "perspiciatis"
+      "ParameterObject1": "beatae",
+      "ParameterObject2": "earum"
     },
-    "LastStarted": "2002-06-09T03:51:26.6156255+02:00",
-    "Created": "2002-07-19T03:51:26.6156255+02:00",
-    "StartCount": 201,
-    "DatabaseSerialNumber": "1933973",
-    "Context": "ut",
-    "Result": "nulla",
+    "LastStarted": "2012-04-30T16:00:40.1019505+02:00",
+    "Created": "2014-08-01T16:00:40.1019505+02:00",
+    "StartCount": 457,
+    "DatabaseSerialNumber": "980780",
+    "Context": "eos",
+    "Result": "illum",
     "State": "All",
-    "Description": "Programmable leading edge policy",
-    "Response": "voluptatibus",
-    "Request": "neque",
-    "ProgressDescription": "Synergistic fresh-thinking standardization",
-    "ProgressPercent": 310,
-    "FileName": "Dicki Group",
+    "Description": "Balanced grid-enabled extranet",
+    "Response": "doloribus",
+    "Request": "sequi",
+    "ProgressDescription": "Programmable web-enabled success",
+    "ProgressPercent": 515,
+    "FileName": "King-Hoppe",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 174
       }
     }
   }

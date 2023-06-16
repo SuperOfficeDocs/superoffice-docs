@@ -1,7 +1,7 @@
 ---
 title: Services88.NavigatorAgent SOAP
 uid: Services88-Navigator-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Navigator SOAP

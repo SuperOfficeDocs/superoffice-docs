@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/GetLicenseFromDB
 uid: v1LicenseAgent_GetLicenseFromDB
+generated: true
 ---
 
 # POST Agents/License/GetLicenseFromDB
@@ -79,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Rice Group"
+  "OwnerName": "Wilderman, Mitchell and Erdman"
 }
 ```
 
@@ -91,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 634,
-      "NumberOfLicensesFree": 418,
-      "NumberOfLicensesAdded": 173,
-      "NumberOfLicensesNewTotal": 468,
-      "NumberOfLicensesNewFree": 119,
-      "NumberOfLicensesTotal": 939
+      "NumberOfLicensesInUse": 325,
+      "NumberOfLicensesFree": 616,
+      "NumberOfLicensesAdded": 940,
+      "NumberOfLicensesNewTotal": 150,
+      "NumberOfLicensesNewFree": 732,
+      "NumberOfLicensesTotal": 410
     }
   ],
-  "AccumulatedNextCheckDate": "1997-04-09T03:51:27.3654441+02:00"
+  "AccumulatedNextCheckDate": "2012-05-25T16:00:41.0862117+02:00"
 }
 ```

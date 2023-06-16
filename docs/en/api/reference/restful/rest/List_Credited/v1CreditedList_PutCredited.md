@@ -1,6 +1,7 @@
 ---
 title: PUT List/Credited/Items/{id}
 uid: v1CreditedList_PutCredited
+generated: true
 ---
 
 # PUT List/Credited/Items/{id}
@@ -77,16 +78,16 @@ OK
 PUT /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 238,
-  "Name": "Kling Group",
-  "Tooltip": "velit",
+  "Id": 868,
+  "Name": "Welch LLC",
+  "Tooltip": "ullam",
   "Deleted": true,
-  "UdListDefinitionId": 822,
-  "Rank": 281
+  "UdListDefinitionId": 70,
+  "Rank": 525
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 675,
-  "Name": "Smith, Prohaska and Goyette",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "UdListDefinitionId": 109,
-  "Rank": 361,
+  "Id": 696,
+  "Name": "Barrows, Rogahn and Runte",
+  "Tooltip": "at",
+  "Deleted": false,
+  "UdListDefinitionId": 307,
+  "Rank": 922,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 489
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveListItemEntity
 uid: v1ListAgent_SaveListItemEntity
+generated: true
 ---
 
 # POST Agents/List/SaveListItemEntity
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 584,
-  "Name": "Kirlin Group",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "UdListDefinitionId": 926,
-  "Rank": 835,
+  "Id": 206,
+  "Name": "Jakubowski, McKenzie and Torphy",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "UdListDefinitionId": 57,
+  "Rank": 529,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldType": "System.Int32",
+      "FieldLength": 795
     }
   }
 }

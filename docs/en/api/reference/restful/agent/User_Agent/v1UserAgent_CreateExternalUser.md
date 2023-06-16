@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/CreateExternalUser
 uid: v1UserAgent_CreateExternalUser
+generated: true
 ---
 
 # POST Agents/User/CreateExternalUser
@@ -73,14 +74,14 @@ OK
 POST /api/v1/Agents/User/CreateExternalUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 751,
-  "UserName": "Klein, Auer and Dickinson",
-  "Password": "optio",
-  "RoleId": 432,
+  "PersonId": 797,
+  "UserName": "Hoeger, Rempel and Kemmer",
+  "Password": "ad",
+  "RoleId": 271,
   "IsActive": true
 }
 ```
@@ -91,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-669
+507
 ```

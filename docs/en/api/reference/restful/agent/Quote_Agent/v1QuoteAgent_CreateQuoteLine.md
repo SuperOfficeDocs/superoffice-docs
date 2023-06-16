@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CreateQuoteLine
 uid: v1QuoteAgent_CreateQuoteLine
+generated: true
 ---
 
 # POST Agents/Quote/CreateQuoteLine
@@ -125,8 +126,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 41,
-  "ERPProductKey": "cupiditate"
+  "QuoteAlternativeId": 792,
+  "ERPProductKey": "deleniti"
 }
 ```
 
@@ -137,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 640,
-  "ERPQuoteLineKey": "ut",
-  "QuoteAlternativeId": 455,
-  "ERPProductKey": "pariatur",
+  "QuoteLineId": 552,
+  "ERPQuoteLineKey": "sint",
+  "QuoteAlternativeId": 95,
+  "ERPProductKey": "veritatis",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 27986.62,
-  "DeliveredQuantity": 112.824,
-  "Rank": 922,
-  "Name": "Connelly, Auer and Blanda",
-  "Description": "Inverse interactive hub",
-  "Code": "vel",
-  "QuantityUnit": "quam",
-  "PriceUnit": "quibusdam",
-  "ItemNumber": "1806115",
+  "Quantity": 15550.908,
+  "DeliveredQuantity": 3547.688,
+  "Rank": 883,
+  "Name": "Daugherty-Cummings",
+  "Description": "Configurable asynchronous implementation",
+  "Code": "exercitationem",
+  "QuantityUnit": "voluptatem",
+  "PriceUnit": "totam",
+  "ItemNumber": "1628478",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "reprehenderit",
-  "ProductTypeKey": "officiis",
-  "Supplier": "aliquid",
-  "SupplierCode": "debitis",
-  "Thumbnail": "magnam",
-  "VATInfo": "est",
-  "VAT": 31145.692,
-  "UnitCost": 18305.694,
-  "UnitMinimumPrice": 12771.05,
-  "UnitListPrice": 25996.53,
+  "ProductFamilyKey": "eum",
+  "ProductTypeKey": "velit",
+  "Supplier": "earum",
+  "SupplierCode": "consequuntur",
+  "Thumbnail": "velit",
+  "VATInfo": "ab",
+  "VAT": 14015.248,
+  "UnitCost": 27246.996,
+  "UnitMinimumPrice": 9912.842,
+  "UnitListPrice": 29848.216,
   "ExtraInfo": [
     {
-      "Name": "Watsica-Hilll",
-      "Value": "dolor",
+      "Name": "Berge, Gorczany and Dickinson",
+      "Value": "ipsum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldType": "System.String",
+          "FieldLength": 764
         }
       }
     },
     {
-      "Name": "Watsica-Hilll",
-      "Value": "dolor",
+      "Name": "Berge, Gorczany and Dickinson",
+      "Value": "ipsum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldType": "System.String",
+          "FieldLength": 764
         }
       }
     }
   ],
-  "RawExtraInfo": "nesciunt",
+  "RawExtraInfo": "voluptas",
   "IsSubscription": false,
-  "SubscriptionUnit": "vitae",
-  "SubscriptionQuantity": 28835.933999999997,
-  "SubscriptionStart": "2021-02-19T03:51:28.0215395+01:00",
-  "ERPDiscountPercent": 23457.989999999998,
-  "ERPDiscountAmount": 19612.572,
-  "DiscountPercent": 21931.732,
-  "DiscountAmount": 16907.93,
+  "SubscriptionUnit": "eos",
+  "SubscriptionQuantity": 10129.088,
+  "SubscriptionStart": "1996-04-08T16:00:41.6644415+02:00",
+  "ERPDiscountPercent": 8706.252,
+  "ERPDiscountAmount": 2397.5099999999998,
+  "DiscountPercent": 542.182,
+  "DiscountAmount": 8756.3959999999988,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 1187.786,
-  "EarningAmount": 21527.446,
-  "SubTotal": 10345.333999999999,
-  "TotalPrice": 29324.838,
-  "Rights": "aut",
-  "Rule": "atque",
-  "ExtraField1": "et",
-  "ExtraField2": "autem",
-  "ExtraField3": "accusantium",
-  "ExtraField4": "delectus",
-  "ExtraField5": "mollitia",
+  "EarningPercent": 1733.1019999999999,
+  "EarningAmount": 5484.5,
+  "SubTotal": 23216.672,
+  "TotalPrice": 21715.486,
+  "Rights": "quod",
+  "Rule": "illum",
+  "ExtraField1": "culpa",
+  "ExtraField2": "sed",
+  "ExtraField3": "aut",
+  "ExtraField4": "eos",
+  "ExtraField5": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldLength": 389
     }
   }
 }

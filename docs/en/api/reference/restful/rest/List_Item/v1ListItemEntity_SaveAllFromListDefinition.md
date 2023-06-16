@@ -1,6 +1,7 @@
 ---
 title: PUT List/{id}/Items
 uid: v1ListItemEntity_SaveAllFromListDefinition
+generated: true
 ---
 
 # PUT List/{id}/Items
@@ -76,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 725,
-    "Name": "Zieme-Hettinger",
-    "Tooltip": "excepturi",
-    "Deleted": false,
-    "UdListDefinitionId": 888,
-    "Rank": 123
+    "Id": 388,
+    "Name": "Buckridge-Lakin",
+    "Tooltip": "dolore",
+    "Deleted": true,
+    "UdListDefinitionId": 348,
+    "Rank": 178
   },
   {
-    "Id": 725,
-    "Name": "Zieme-Hettinger",
-    "Tooltip": "excepturi",
-    "Deleted": false,
-    "UdListDefinitionId": 888,
-    "Rank": 123
+    "Id": 388,
+    "Name": "Buckridge-Lakin",
+    "Tooltip": "dolore",
+    "Deleted": true,
+    "UdListDefinitionId": 348,
+    "Rank": 178
   }
 ]
 ```
@@ -107,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Name": "Gutmann-Thiel",
-    "Tooltip": "dolor",
+    "Id": 931,
+    "Name": "Boehm Group",
+    "Tooltip": "iste",
     "Deleted": false,
-    "UdListDefinitionId": 148,
-    "Rank": 790,
+    "UdListDefinitionId": 351,
+    "Rank": 311,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldLength": 507
       }
     }
   }

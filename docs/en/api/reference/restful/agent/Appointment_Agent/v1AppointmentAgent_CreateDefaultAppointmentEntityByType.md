@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CreateDefaultAppointmentEntityByType
 uid: v1AppointmentAgent_CreateDefaultAppointmentEntityByType
+generated: true
 ---
 
 # POST Agents/Appointment/CreateDefaultAppointmentEntityByType
@@ -109,6 +110,9 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -145,63 +149,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-11-13T03:51:26.2407082+01:00",
-  "AppointmentId": 712,
-  "Description": "Assimilated didactic knowledge base",
-  "StartDate": "2000-07-11T03:51:26.2407082+02:00",
-  "EndDate": "2004-11-28T03:51:26.2407082+01:00",
+  "CreatedDate": "2022-07-28T16:00:39.8519768+02:00",
+  "AppointmentId": 97,
+  "Description": "User-centric system-worthy projection",
+  "StartDate": "2007-03-21T16:00:39.8519768+01:00",
+  "EndDate": "1996-11-30T16:00:39.8519768+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 629,
+  "MotherId": 806,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-05-19T03:51:26.2407082+02:00",
+  "UpdatedDate": "2017-12-25T16:00:39.8675965+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 516,
+  "ActiveLinks": 106,
   "Links": [
     {
-      "EntityName": "Wiegand, Considine and Considine",
-      "Id": 563,
-      "Description": "Managed contextually-based encryption",
-      "ExtraInfo": "laudantium",
-      "LinkId": 945,
+      "EntityName": "Friesen Inc and Sons",
+      "Id": 118,
+      "Description": "Diverse fault-tolerant superstructure",
+      "ExtraInfo": "est",
+      "LinkId": 273,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 708
+          "FieldType": "System.Int32",
+          "FieldLength": 848
         }
       }
     }
   ],
-  "AlarmLeadTime": "aliquam",
-  "HasAlarm": true,
-  "ColorIndex": 45,
-  "IsFree": true,
+  "AlarmLeadTime": "voluptate",
+  "HasAlarm": false,
+  "ColorIndex": 746,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "in",
-  "LeadTime": "architecto",
-  "Location": "accusantium",
-  "RejectCounter": 307,
+  "LagTime": "exercitationem",
+  "LeadTime": "vitae",
+  "Location": "quia",
+  "RejectCounter": 654,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 642,
-      "PersonId": 995,
-      "ContactId": 633,
-      "EmailId": 805,
+      "AssociateId": 753,
+      "PersonId": 905,
+      "ContactId": 695,
+      "EmailId": 36,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 642,
-      "PersonId": 995,
-      "ContactId": 633,
-      "EmailId": 805,
+      "AssociateId": 753,
+      "PersonId": 905,
+      "ContactId": 695,
+      "EmailId": 36,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -209,58 +213,61 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-04-16T03:51:26.2407082+02:00",
+  "ActiveDate": "2008-09-09T16:00:39.8675965+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 704,
+  "PreferredTZLocation": 300,
   "Sale": null,
-  "SuggestedAppointmentId": 676,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 933,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "id",
+  "CentralserviceVideomeetId": "asperiores",
+  "Title": "corrupti",
+  "Agenda": "voluptatem",
+  "InternalNotes": "nulla",
   "UserDefinedFields": {
-    "SuperOffice:1": "1690744690",
-    "SuperOffice:2": "Amie McGlynn"
+    "SuperOffice:1": "Prof. Mercedes Henriette Berge I",
+    "SuperOffice:2": "Jensen Padberg"
   },
   "ExtraFields": {
-    "ExtraFields1": "corporis",
-    "ExtraFields2": "in"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "assumenda"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "sit"
+    "CustomFields1": "at",
+    "CustomFields2": "natus"
   },
-  "PublishEventDate": "2002-08-28T03:51:26.2407082+02:00",
-  "PublishTo": "2009-04-08T03:51:26.2407082+02:00",
-  "PublishFrom": "1996-10-11T03:51:26.2407082+02:00",
+  "PublishEventDate": "2010-05-10T16:00:39.8675965+02:00",
+  "PublishTo": "2004-02-06T16:00:39.8675965+01:00",
+  "PublishFrom": "2023-05-18T16:00:39.8675965+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 385,
+      "VisibleId": 510,
       "Visibility": "All",
-      "DisplayValue": "nostrum",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldLength": 894
         }
       }
     },
     {
-      "VisibleId": 385,
+      "VisibleId": 510,
       "Visibility": "All",
-      "DisplayValue": "nostrum",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldLength": 894
         }
       }
     }
@@ -270,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldLength": 1002
     }
   }
 }

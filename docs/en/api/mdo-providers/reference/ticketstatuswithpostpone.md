@@ -1,17 +1,11 @@
 ---
 uid: ticketstatuswithpostpone
 title: ticketstatuswithpostpone
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "ticketstatuswithpostpone"
+keywords: mdoprovider mdo provider ticketstatuswithpostpone
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ticketstatuswithpostpone" MDO List

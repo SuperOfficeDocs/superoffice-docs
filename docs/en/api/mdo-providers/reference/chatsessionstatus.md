@@ -1,17 +1,11 @@
 ---
 uid: chatsessionstatus
 title: chatsessionstatus
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "chatsessionstatus"
+keywords: mdoprovider mdo provider chatsessionstatus
+description: Chat session status values
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "chatsessionstatus" MDO List

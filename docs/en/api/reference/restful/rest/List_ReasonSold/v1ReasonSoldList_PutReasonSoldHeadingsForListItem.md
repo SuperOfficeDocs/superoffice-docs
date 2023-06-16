@@ -1,6 +1,7 @@
 ---
 title: PUT List/ReasonSold/Items/{id}/Headings
 uid: v1ReasonSoldList_PutReasonSoldHeadingsForListItem
+generated: true
 ---
 
 # PUT List/ReasonSold/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Shanahan Inc and Sons",
-    "ToolTip": "Doloremque non.",
-    "Deleted": false,
-    "Rank": 982,
-    "Type": "a",
-    "ColorBlock": 451,
-    "IconHint": "tempore",
-    "Selected": false,
-    "LastChanged": "2009-01-22T03:51:34.9270326+01:00",
+    "Id": 364,
+    "Name": "Langosh-Hoeger",
+    "ToolTip": "Est in rerum.",
+    "Deleted": true,
+    "Rank": 597,
+    "Type": "voluptatem",
+    "ColorBlock": 938,
+    "IconHint": "odit",
+    "Selected": true,
+    "LastChanged": "2017-02-03T16:00:49.289556+01:00",
     "ChildItems": [
       {
-        "Id": 563,
-        "Name": "McClure-Flatley",
-        "ToolTip": "Quis aliquid.",
-        "Deleted": false,
-        "Rank": 560,
-        "Type": "ad",
-        "ColorBlock": 447,
-        "IconHint": "earum",
-        "Selected": true,
-        "LastChanged": "2004-09-08T03:51:34.9270326+02:00",
+        "Id": 963,
+        "Name": "Nitzsche, Kovacek and Morar",
+        "ToolTip": "Dolore et ipsa ipsa necessitatibus fugiat iure ut.",
+        "Deleted": true,
+        "Rank": 920,
+        "Type": "aut",
+        "ColorBlock": 235,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2018-04-12T16:00:49.289556+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "similique",
+        "ExtraInfo": "facere",
+        "StyleHint": "quae",
         "Hidden": false,
-        "FullName": "Devin Thiel"
+        "FullName": "Prof. Granville Chaya Lehner"
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "error",
+    "ExtraInfo": "sunt",
+    "StyleHint": "illum",
     "Hidden": true,
-    "FullName": "Prof. Giovanny Jamie Kuvalis DVM"
+    "FullName": "Howard Williamson V"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 325,
-    "Name": "Donnelly Group",
-    "ToolTip": "Consequatur incidunt dolores.",
+    "Id": 664,
+    "Name": "Abbott-Ritchie",
+    "ToolTip": "Porro ut ut mollitia perferendis quibusdam dolore quo.",
     "Deleted": false,
-    "Rank": 161,
-    "Type": "voluptatibus",
-    "ColorBlock": 610,
-    "IconHint": "ullam",
+    "Rank": 464,
+    "Type": "quia",
+    "ColorBlock": 67,
+    "IconHint": "odit",
     "Selected": true,
-    "LastChanged": "2009-10-07T03:51:34.9270326+02:00",
+    "LastChanged": "2004-07-20T16:00:49.289556+02:00",
     "ChildItems": [
       {
-        "Id": 943,
-        "Name": "Krajcik Inc and Sons",
-        "ToolTip": "Natus fuga.",
-        "Deleted": true,
-        "Rank": 368,
-        "Type": "voluptas",
-        "ColorBlock": 984,
-        "IconHint": "quidem",
-        "Selected": false,
-        "LastChanged": "2021-09-17T03:51:34.9270326+02:00",
+        "Id": 185,
+        "Name": "Koss Group",
+        "ToolTip": "Et libero harum vero.",
+        "Deleted": false,
+        "Rank": 671,
+        "Type": "quisquam",
+        "ColorBlock": 409,
+        "IconHint": "a",
+        "Selected": true,
+        "LastChanged": "2003-05-06T16:00:49.289556+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "odit",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Ms. Leatha Braun",
+        "FullName": "Prof. Roel Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 14
+            "FieldLength": 41
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Rogers Koss",
+    "ExtraInfo": "dicta",
+    "StyleHint": "perferendis",
+    "Hidden": true,
+    "FullName": "Xander Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 26
+        "FieldType": "System.Int32",
+        "FieldLength": 804
       }
     }
   }

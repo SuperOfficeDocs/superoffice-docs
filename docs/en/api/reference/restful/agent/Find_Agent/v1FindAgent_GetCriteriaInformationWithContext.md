@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/GetCriteriaInformationWithContext
 uid: v1FindAgent_GetCriteriaInformationWithContext
+generated: true
 ---
 
 # POST Agents/Find/GetCriteriaInformationWithContext
@@ -81,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "id",
-  "ProviderName": "Wilkinson, Adams and Hintz",
-  "StorageKey": "sit",
+  "StorageType": "et",
+  "ProviderName": "McKenzie, Walsh and Hegmann",
+  "StorageKey": "est",
   "StaticColumns": [
-    "earum",
-    "doloremque"
+    "consequatur",
+    "ducimus"
   ],
-  "Context": "animi"
+  "Context": "laborum"
 }
 ```
 
@@ -105,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Rice LLC",
-      "Operator": "cumque",
+      "Name": "Lehner, Parker and Lowe",
+      "Operator": "non",
       "Values": [
-        "aut",
-        "placeat"
+        "debitis",
+        "earum"
       ],
       "DisplayValues": [
-        "voluptas",
-        "ut"
+        "ab",
+        "exercitationem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 311,
+      "InterParenthesis": 55,
       "InterOperator": "And",
-      "UniqueHash": 976
+      "UniqueHash": 332
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Rowe-Swaniawski",
-      "DisplayTooltip": "reiciendis",
-      "DisplayType": "omnis",
-      "CanOrderBy": false,
-      "Name": "Morar LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "facilis",
-      "RestrictionListName": "Christiansen Group",
-      "IsVisible": false,
-      "ExtraInfo": "nesciunt",
-      "Width": "aliquam",
-      "IconHint": "dolores",
-      "HeadingIconHint": "qui"
+      "DisplayName": "Schumm LLC",
+      "DisplayTooltip": "vitae",
+      "DisplayType": "suscipit",
+      "CanOrderBy": true,
+      "Name": "Hegmann-DuBuque",
+      "CanRestrictBy": false,
+      "RestrictionType": "repudiandae",
+      "RestrictionListName": "Mraz Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "doloremque",
+      "Width": "rerum",
+      "IconHint": "necessitatibus",
+      "HeadingIconHint": "doloribus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Bergnaum-Hintz",
-      "PrimaryKey": 53,
+      "EntityName": "Kerluke, Kirlin and Cummerata",
+      "PrimaryKey": 279,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolorem",
-          "TooltipHint": "minus",
-          "LinkHint": "repudiandae"
+          "DisplayValue": "ut",
+          "TooltipHint": "qui",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "qui",
+      "LinkHint": "dicta",
+      "StyleHint": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 157
+          "FieldLength": 90
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hand, Frami and Glover",
-      "Description": "Proactive dynamic solution",
-      "Rank": 11,
+      "Name": "Kuphal-Barton",
+      "Description": "Object-based incremental help-desk",
+      "Rank": 947,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hand, Frami and Glover",
-      "Description": "Proactive dynamic solution",
-      "Rank": 11,
+      "Name": "Kuphal-Barton",
+      "Description": "Object-based incremental help-desk",
+      "Rank": 947,
       "Restrictions": [
         {},
         {}
@@ -190,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldType": "System.String",
+      "FieldLength": 523
     }
   }
 }

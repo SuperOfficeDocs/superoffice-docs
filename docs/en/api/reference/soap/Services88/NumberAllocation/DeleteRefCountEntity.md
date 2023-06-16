@@ -1,6 +1,6 @@
 ---
 title: Services88.NumberAllocationAgent.DeleteRefCountEntity SOAP
-generated: 1
+generated: true
 uid: Services88-NumberAllocation-DeleteRefCountEntity
 ---
 

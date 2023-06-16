@@ -1,6 +1,7 @@
 ---
 title: PUT List/DeliveryType/Headings
 uid: v1DeliveryTypeList_PutDeliveryTypeHeadings
+generated: true
 ---
 
 # PUT List/DeliveryType/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 309,
-    "Name": "Lakin Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 600,
-    "UdListDefinitionId": 587
+    "HeadingId": 14,
+    "Name": "Luettgen-Lang",
+    "Tooltip": "facere",
+    "Deleted": true,
+    "Rank": 987,
+    "UdListDefinitionId": 46
   },
   {
-    "HeadingId": 309,
-    "Name": "Lakin Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 600,
-    "UdListDefinitionId": 587
+    "HeadingId": 14,
+    "Name": "Luettgen-Lang",
+    "Tooltip": "facere",
+    "Deleted": true,
+    "Rank": 987,
+    "UdListDefinitionId": 46
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 480,
-    "Name": "Dickinson-Hackett",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 127,
-    "UdListDefinitionId": 481,
+    "HeadingId": 699,
+    "Name": "Jakubowski LLC",
+    "Tooltip": "a",
+    "Deleted": false,
+    "Rank": 403,
+    "UdListDefinitionId": 647,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 964
+        "FieldLength": 366
       }
     }
   }

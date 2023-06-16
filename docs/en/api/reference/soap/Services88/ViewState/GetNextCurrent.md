@@ -1,6 +1,6 @@
 ---
 title: Services88.ViewStateAgent.GetNextCurrent SOAP
-generated: 1
+generated: true
 uid: Services88-ViewState-GetNextCurrent
 ---
 

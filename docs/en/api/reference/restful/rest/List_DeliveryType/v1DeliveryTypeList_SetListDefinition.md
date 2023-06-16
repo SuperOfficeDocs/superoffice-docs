@@ -1,6 +1,7 @@
 ---
 title: PUT List/DeliveryType
 uid: v1DeliveryTypeList_SetListDefinition
+generated: true
 ---
 
 # PUT List/DeliveryType
@@ -83,19 +84,19 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 221,
-  "Name": "Kshlerin-Rolfson",
-  "Tooltip": "earum",
-  "Deleted": true,
-  "Rank": 833,
+  "Id": 321,
+  "Name": "Kutch Group",
+  "Tooltip": "dolorum",
+  "Deleted": false,
+  "Rank": 969,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "porro",
+  "ListType": "in",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 246,
-  "Name": "Gibson, Roberts and Boyle",
-  "Tooltip": "natus",
+  "Id": 509,
+  "Name": "Cole-Eichmann",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 824,
-  "IsCustomList": true,
+  "Rank": 425,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eius",
+  "UseGroupsAndHeadings": true,
+  "ListType": "nemo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 373
     }
   }
 }

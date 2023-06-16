@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/FindFromRestrictionsColumnsOrderBy2
 uid: v1FindAgent_FindFromRestrictionsColumnsOrderBy2
+generated: true
 ---
 
 # POST Agents/Find/FindFromRestrictionsColumnsOrderBy2
@@ -168,12 +169,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "blanditiis",
-  "ProviderName": "Haley Group",
-  "DesiredColumns": "voluptatem",
-  "OrderBy": "exercitationem",
-  "PageSize": 129,
-  "PageNumber": 745
+  "Restrictions": "quae",
+  "ProviderName": "Blanda-Jacobi",
+  "DesiredColumns": "molestiae",
+  "OrderBy": "asperiores",
+  "PageSize": 515,
+  "PageNumber": 831
 }
 ```
 
@@ -186,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kuphal-Mann",
-      "DisplayTooltip": "est",
-      "DisplayType": "neque",
+      "DisplayName": "Kling-Kemmer",
+      "DisplayTooltip": "rerum",
+      "DisplayType": "ea",
       "CanOrderBy": false,
-      "Name": "Mertz-Botsford",
-      "CanRestrictBy": false,
-      "RestrictionType": "placeat",
-      "RestrictionListName": "Volkman, Gibson and Koss",
+      "Name": "Ankunding, Wuckert and Wiegand",
+      "CanRestrictBy": true,
+      "RestrictionType": "beatae",
+      "RestrictionListName": "Balistreri-Boyer",
       "IsVisible": false,
-      "ExtraInfo": "explicabo",
-      "Width": "libero",
-      "IconHint": "rerum",
-      "HeadingIconHint": "sunt"
+      "ExtraInfo": "consequuntur",
+      "Width": "aperiam",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "enim"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jast Inc and Sons",
-      "PrimaryKey": 519,
+      "EntityName": "Graham-Senger",
+      "PrimaryKey": 496,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eum",
-          "TooltipHint": "quis",
-          "LinkHint": "architecto"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "error",
+          "LinkHint": "odio"
         }
       },
-      "LinkHint": "eligendi",
-      "StyleHint": "animi",
+      "LinkHint": "quibusdam",
+      "StyleHint": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 813
+          "FieldType": "System.Int32",
+          "FieldLength": 500
         }
       }
     }
   ],
-  "RowCount": 376,
+  "RowCount": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldLength": 440
     }
   }
 }

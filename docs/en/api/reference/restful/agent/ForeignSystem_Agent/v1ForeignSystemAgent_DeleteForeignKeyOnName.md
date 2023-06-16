@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/DeleteForeignKeyOnName
 uid: v1ForeignSystemAgent_DeleteForeignKeyOnName
+generated: true
 ---
 
 # POST Agents/ForeignSystem/DeleteForeignKeyOnName
@@ -70,16 +71,16 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Medhurst-Watsica",
-  "DeviceName": "Hills-Lesch",
-  "DeviceIdentifier": "aliquid",
-  "KeyName": "Beer-Parker",
-  "TableName": "Kohler Group",
-  "RecordId": 357
+  "ApplicationName": "Raynor Inc and Sons",
+  "DeviceName": "Sporer, Botsford and Anderson",
+  "DeviceIdentifier": "et",
+  "KeyName": "Brekke, Schaden and Schmeler",
+  "TableName": "Rice Inc and Sons",
+  "RecordId": 219
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: GET List/Category/Items/{id}/Headings
 uid: v1CategoryList_GetCategoryHeadingsForListItem
+generated: true
 ---
 
 # GET List/Category/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 498,
-    "Name": "Borer-Jewess",
-    "ToolTip": "Deserunt quae doloremque et.",
+    "Id": 363,
+    "Name": "Gulgowski-Littel",
+    "ToolTip": "Voluptatibus quia maxime qui facere est necessitatibus.",
     "Deleted": false,
-    "Rank": 463,
-    "Type": "voluptates",
-    "ColorBlock": 964,
-    "IconHint": "a",
+    "Rank": 136,
+    "Type": "eligendi",
+    "ColorBlock": 357,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2001-02-12T03:51:34.5521277+01:00",
+    "LastChanged": "2008-05-06T16:00:48.8833485+02:00",
     "ChildItems": [
       {
-        "Id": 391,
-        "Name": "Pacocha-Schmitt",
-        "ToolTip": "Rem fuga iusto quasi sunt.",
+        "Id": 188,
+        "Name": "Moen, Roob and Pagac",
+        "ToolTip": "Doloremque est ipsa cum vel.",
         "Deleted": false,
-        "Rank": 906,
-        "Type": "et",
-        "ColorBlock": 189,
-        "IconHint": "nisi",
-        "Selected": true,
-        "LastChanged": "2005-12-21T03:51:34.5521277+01:00",
+        "Rank": 416,
+        "Type": "accusamus",
+        "ColorBlock": 54,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2011-05-15T16:00:48.8833485+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Prof. Garnett Gaylord II",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "reiciendis",
+        "Hidden": true,
+        "FullName": "Aubrey Gleichner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 498
+            "FieldType": "System.Int32",
+            "FieldLength": 852
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Lavern Jacobi",
+    "FullName": "Jocelyn Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldLength": 542
       }
     }
   }

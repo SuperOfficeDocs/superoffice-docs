@@ -1,6 +1,7 @@
 ---
 title: PUT List/QuoteDenyReason/Headings
 uid: v1QuoteDenyReasonList_PutQuoteDenyReasonHeadings
+generated: true
 ---
 
 # PUT List/QuoteDenyReason/Headings
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 590,
-    "Name": "Schaden, Haag and Schaefer",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 10,
-    "UdListDefinitionId": 808
+    "HeadingId": 536,
+    "Name": "Lang-Jerde",
+    "Tooltip": "explicabo",
+    "Deleted": true,
+    "Rank": 712,
+    "UdListDefinitionId": 775
   },
   {
-    "HeadingId": 590,
-    "Name": "Schaden, Haag and Schaefer",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 10,
-    "UdListDefinitionId": 808
+    "HeadingId": 536,
+    "Name": "Lang-Jerde",
+    "Tooltip": "explicabo",
+    "Deleted": true,
+    "Rank": 712,
+    "UdListDefinitionId": 775
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 422,
-    "Name": "Sporer-Bayer",
-    "Tooltip": "atque",
-    "Deleted": true,
-    "Rank": 549,
-    "UdListDefinitionId": 773,
+    "HeadingId": 136,
+    "Name": "Steuber Group",
+    "Tooltip": "dolores",
+    "Deleted": false,
+    "Rank": 769,
+    "UdListDefinitionId": 729,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 220
       }
     }
   }

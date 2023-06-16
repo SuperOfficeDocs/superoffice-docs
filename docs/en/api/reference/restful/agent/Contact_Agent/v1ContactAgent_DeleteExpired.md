@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/DeleteExpired
 uid: v1ContactAgent_DeleteExpired
+generated: true
 ---
 
 # POST Agents/Contact/DeleteExpired

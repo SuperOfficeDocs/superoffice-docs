@@ -1,7 +1,7 @@
 ---
 title: Services88.ConfigurationAgent SOAP
 uid: Services88-Configuration-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Configuration SOAP

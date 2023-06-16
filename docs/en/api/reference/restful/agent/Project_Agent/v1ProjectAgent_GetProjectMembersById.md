@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetProjectMembersById
 uid: v1ProjectAgent_GetProjectMembersById
+generated: true
 ---
 
 # POST Agents/Project/GetProjectMembersById
@@ -92,13 +93,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    551,
-    843
+    839,
+    455
   ]
 }
 ```
@@ -111,33 +112,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 667,
-    "ContactId": 70,
-    "ProjectId": 659,
-    "ContactName": "Lockman-D'Amore",
+    "ProjectmemberId": 346,
+    "ContactId": 89,
+    "ProjectId": 784,
+    "ContactName": "Terry-Walker",
     "ContactDepartment": "",
-    "ProjectName": "Feest Group",
-    "EmailId": 175,
-    "EmailAddress": "conor.dooley@kirlin.com",
-    "CountryId": 490,
-    "Firstname": "Tracy",
-    "MiddleName": "Lang LLC",
-    "Lastname": "Bosco",
-    "PersonId": 590,
-    "Mrmrs": "provident",
-    "ProjectMemberTypeName": "Nikolaus-Cummerata",
-    "Phone": "438-653-2849",
-    "PhoneId": 651,
-    "ProjectMemberTypeId": 942,
-    "EmailAddressName": "rubie@hodkiewiczkoepp.uk",
-    "Comment": "voluptas",
-    "FullName": "Mrs. Norval Alfonzo Funk",
+    "ProjectName": "Murray, Heller and Becker",
+    "EmailId": 663,
+    "EmailAddress": "melisa@gottlieb.com",
+    "CountryId": 636,
+    "Firstname": "Amparo",
+    "MiddleName": "Fisher, Corkery and Pacocha",
+    "Lastname": "Walter",
+    "PersonId": 923,
+    "Mrmrs": "eveniet",
+    "ProjectMemberTypeName": "Hegmann-Heidenreich",
+    "Phone": "405.708.8126 x080",
+    "PhoneId": 821,
+    "ProjectMemberTypeId": 829,
+    "EmailAddressName": "gardner.smith@frami.info",
+    "Comment": "excepturi",
+    "FullName": "Lucinda Beatty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 889
       }
     }
   }

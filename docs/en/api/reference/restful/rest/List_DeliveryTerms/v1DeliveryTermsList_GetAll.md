@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryTerm/Items
 uid: v1DeliveryTermsList_GetAll
+generated: true
 ---
 
 # GET List/DeliveryTerm/Items
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 519,
-    "Name": "Berge-Spencer",
-    "Tooltip": "soluta",
+    "Id": 842,
+    "Name": "Olson-Reichert",
+    "Tooltip": "repudiandae",
     "Deleted": false,
-    "UdListDefinitionId": 155,
-    "Rank": 263,
+    "UdListDefinitionId": 203,
+    "Rank": 227,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldLength": 202
       }
     }
   }

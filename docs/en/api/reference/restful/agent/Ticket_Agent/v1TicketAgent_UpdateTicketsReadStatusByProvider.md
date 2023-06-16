@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/UpdateTicketsReadStatusByProvider
 uid: v1TicketAgent_UpdateTicketsReadStatusByProvider
+generated: true
 ---
 
 # POST Agents/Ticket/UpdateTicketsReadStatusByProvider
@@ -69,32 +70,32 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "voluptas",
+  "Provider": "quia",
   "Restrictions": [
     {
-      "Name": "Wolff, Howell and Dare",
-      "Operator": "culpa",
+      "Name": "Rosenbaum-Becker",
+      "Operator": "aut",
       "Values": [
-        "nulla",
-        "quas"
+        "qui",
+        "sed"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "aut"
+        "et",
+        "consequatur"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 363,
+      "InterParenthesis": 858,
       "InterOperator": "And",
-      "UniqueHash": 600
+      "UniqueHash": 147
     }
   ],
   "NewStatus": "Green"
@@ -108,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  214,
-  128
+  421,
+  443
 ]
 ```

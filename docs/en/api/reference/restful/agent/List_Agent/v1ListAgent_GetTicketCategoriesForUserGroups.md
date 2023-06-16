@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetTicketCategoriesForUserGroups
 uid: v1ListAgent_GetTicketCategoriesForUserGroups
+generated: true
 ---
 
 # POST Agents/List/GetTicketCategoriesForUserGroups
@@ -83,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    523,
-    383
+    13,
+    798
   ]
 }
 ```
@@ -102,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Eichmann, Nienow and Padberg",
-    "ToolTip": "Nihil quis esse dolor architecto harum inventore voluptatem.",
+    "Id": 98,
+    "Name": "Kertzmann Inc and Sons",
+    "ToolTip": "Id quasi reprehenderit quas.",
     "Deleted": false,
-    "Rank": 154,
-    "Type": "aut",
+    "Rank": 503,
+    "Type": "eum",
     "ChildItems": [
       {
-        "Id": 36,
-        "Name": "Hahn, Smitham and Kertzmann",
-        "ToolTip": "Eos autem numquam.",
+        "Id": 80,
+        "Name": "Durgan LLC",
+        "ToolTip": "Tempora assumenda.",
         "Deleted": false,
-        "Rank": 178,
-        "Type": "distinctio",
+        "Rank": 332,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 77,
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "vero",
-        "FullName": "Mathilde Towne",
+        "IconHint": "velit",
+        "ColorBlock": 484,
+        "ExtraInfo": "vel",
+        "StyleHint": "quae",
+        "FullName": "Berta Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 463
+            "FieldLength": 614
           }
         }
       }
     ],
-    "IconHint": "distinctio",
-    "ColorBlock": 232,
-    "ExtraInfo": "est",
-    "StyleHint": "consequatur",
-    "FullName": "Haskell Kutch",
+    "IconHint": "debitis",
+    "ColorBlock": 408,
+    "ExtraInfo": "illo",
+    "StyleHint": "impedit",
+    "FullName": "Mr. Maia Walter Lowe PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldLength": 243
       }
     }
   }

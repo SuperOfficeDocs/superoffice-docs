@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/SetDocumentStreamFromId
 uid: v1DocumentAgent_SetDocumentStreamFromId
+generated: true
 ---
 
 # POST Agents/Document/SetDocumentStreamFromId
@@ -108,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 161,
+  "DocumentId": 327,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -124,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 963,
+  "DocumentId": 891,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "quisquam",
-  "Name": "Lind, Yost and Abernathy",
-  "OurRef": "odit",
-  "YourRef": "vero",
-  "CreatedDate": "2010-12-18T03:51:27.1311241+01:00",
-  "UpdatedDate": "1999-11-12T03:51:27.1311241+01:00",
-  "Description": "Programmable systemic attitude",
+  "Attention": "voluptas",
+  "Header": "quis",
+  "Name": "Gerhold-Jakubowski",
+  "OurRef": "nihil",
+  "YourRef": "qui",
+  "CreatedDate": "2020-05-12T16:00:40.8206188+02:00",
+  "UpdatedDate": "2019-02-12T16:00:40.8206188+01:00",
+  "Description": "Customer-focused hybrid superstructure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-09-13T03:51:27.1467458+02:00",
-  "ExternalRef": "voluptates",
+  "Date": "2019-08-14T16:00:40.8206188+02:00",
+  "ExternalRef": "deleniti",
   "Completed": "Completed",
-  "ActiveLinks": 785,
+  "ActiveLinks": 97,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jaskolski Group",
-      "Id": 299,
-      "Description": "Triple-buffered web-enabled matrices",
-      "ExtraInfo": "dolorum",
-      "LinkId": 836,
+      "EntityName": "Waelchi Group",
+      "Id": 113,
+      "Description": "Reactive value-added website",
+      "ExtraInfo": "iusto",
+      "LinkId": 473,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldType": "System.String",
+          "FieldLength": 669
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 335,
-  "Snum": 481,
+  "SuggestedDocumentId": 47,
+  "Snum": 129,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Emory Cydney Hodkiewicz",
-    "SuperOffice:2": "Charles Thiel"
+    "SuperOffice:1": "Sandy Heaney",
+    "SuperOffice:2": "880271561"
   },
   "ExtraFields": {
-    "ExtraFields1": "quae",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "unde"
   },
   "CustomFields": {
-    "CustomFields1": "esse",
-    "CustomFields2": "qui"
+    "CustomFields1": "ab",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2021-04-08T03:51:27.1467458+02:00",
-  "PublishTo": "2022-07-10T03:51:27.1467458+02:00",
-  "PublishFrom": "2007-03-25T03:51:27.1467458+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2015-09-20T16:00:40.8206188+02:00",
+  "PublishTo": "2003-06-08T16:00:40.8206188+02:00",
+  "PublishFrom": "2001-06-24T16:00:40.8206188+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 699,
+      "VisibleId": 970,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 63
+          "FieldType": "System.Int32",
+          "FieldLength": 192
         }
       }
     },
     {
-      "VisibleId": 699,
+      "VisibleId": 970,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 63
+          "FieldType": "System.Int32",
+          "FieldLength": 192
         }
       }
     }
@@ -215,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 406
     }
   }
 }

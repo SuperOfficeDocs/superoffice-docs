@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/HasStakeholderSetting
 uid: v1SaleAgent_HasStakeholderSetting
+generated: true
 ---
 
 # POST Agents/Sale/HasStakeholderSetting
@@ -71,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 22
+  "SaleId": 54
 }
 ```
 

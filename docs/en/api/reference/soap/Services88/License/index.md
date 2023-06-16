@@ -1,7 +1,7 @@
 ---
 title: Services88.LicenseAgent SOAP
 uid: Services88-License-soap
-generated: 1
+generated: true
 ---
 
 # Services88 License SOAP

@@ -1,6 +1,6 @@
 ---
 title: Services88.ProjectAgent.CreateDefaultProjectMember SOAP
-generated: 1
+generated: true
 uid: Services88-Project-CreateDefaultProjectMember
 ---
 

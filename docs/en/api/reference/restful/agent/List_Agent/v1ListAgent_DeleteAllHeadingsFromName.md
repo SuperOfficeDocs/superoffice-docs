@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/DeleteAllHeadingsFromName
 uid: v1ListAgent_DeleteAllHeadingsFromName
+generated: true
 ---
 
 # POST Agents/List/DeleteAllHeadingsFromName
@@ -67,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Davis-Turcotte"
+  "Name": "Okuneva-Nader"
 }
 ```
 

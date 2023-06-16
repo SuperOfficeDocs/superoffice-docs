@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SaveQuoteLine
 uid: v1QuoteAgent_SaveQuoteLine
+generated: true
 ---
 
 # POST Agents/Quote/SaveQuoteLine
@@ -135,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 459,
-  "ERPQuoteLineKey": "libero",
-  "QuoteAlternativeId": 731,
-  "ERPProductKey": "optio",
+  "QuoteLineId": 993,
+  "ERPQuoteLineKey": "eius",
+  "QuoteAlternativeId": 911,
+  "ERPProductKey": "eius",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 4293.58,
-  "DeliveredQuantity": 25354.059999999998,
-  "Rank": 363,
-  "Name": "Hilpert LLC",
-  "Description": "Organic dynamic intranet",
-  "Code": "blanditiis",
-  "QuantityUnit": "sunt",
-  "PriceUnit": "quia",
-  "ItemNumber": "1098999",
+  "Quantity": 830.51,
+  "DeliveredQuantity": 5841.776,
+  "Rank": 970,
+  "Name": "Friesen-Moen",
+  "Description": "Inverse client-driven success",
+  "Code": "aut",
+  "QuantityUnit": "totam",
+  "PriceUnit": "consequatur",
+  "ItemNumber": "790656",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sit",
-  "ProductTypeKey": "occaecati",
-  "Supplier": "libero",
-  "SupplierCode": "nisi",
-  "Thumbnail": "non",
-  "VATInfo": "officiis",
-  "VAT": 30992.126,
-  "UnitCost": 15901.916,
-  "UnitMinimumPrice": 10035.068,
-  "UnitListPrice": 488.904,
+  "ProductFamilyKey": "vel",
+  "ProductTypeKey": "asperiores",
+  "Supplier": "culpa",
+  "SupplierCode": "velit",
+  "Thumbnail": "amet",
+  "VATInfo": "autem",
+  "VAT": 20794.09,
+  "UnitCost": 2579.2819999999997,
+  "UnitMinimumPrice": 12119.178,
+  "UnitListPrice": 8941.302,
   "ExtraInfo": [
     {
-      "Name": "Howe-Bednar",
-      "Value": "ab",
+      "Name": "Gottlieb, Rempel and Mraz",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 181
+          "FieldLength": 843
         }
       }
     },
     {
-      "Name": "Howe-Bednar",
-      "Value": "ab",
+      "Name": "Gottlieb, Rempel and Mraz",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 181
+          "FieldLength": 843
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "IsSubscription": true,
-  "SubscriptionUnit": "dolores",
-  "SubscriptionQuantity": 131.628,
-  "SubscriptionStart": "2000-04-22T03:51:28.0371601+02:00",
-  "ERPDiscountPercent": 23075.642,
-  "ERPDiscountAmount": 17262.072,
-  "DiscountPercent": 7123.5819999999994,
-  "DiscountAmount": 8430.46,
+  "RawExtraInfo": "odio",
+  "IsSubscription": false,
+  "SubscriptionUnit": "vel",
+  "SubscriptionQuantity": 9937.9139999999989,
+  "SubscriptionStart": "1998-09-06T16:00:41.6800689+02:00",
+  "ERPDiscountPercent": 11216.586,
+  "ERPDiscountAmount": 24448.334,
+  "DiscountPercent": 23379.64,
+  "DiscountAmount": 16920.466,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 12194.394,
-  "EarningAmount": 5522.108,
-  "SubTotal": 10502.034,
-  "TotalPrice": 27262.665999999997,
-  "Rights": "est",
-  "Rule": "cupiditate",
-  "ExtraField1": "distinctio",
-  "ExtraField2": "molestiae",
-  "ExtraField3": "consequatur",
-  "ExtraField4": "reiciendis",
-  "ExtraField5": "et",
+  "EarningPercent": 25958.922,
+  "EarningAmount": 25507.626,
+  "SubTotal": 1974.4199999999998,
+  "TotalPrice": 23172.796,
+  "Rights": "enim",
+  "Rule": "dolorem",
+  "ExtraField1": "autem",
+  "ExtraField2": "veniam",
+  "ExtraField3": "aut",
+  "ExtraField4": "suscipit",
+  "ExtraField5": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldType": "System.Int32",
+      "FieldLength": 249
     }
   }
 }

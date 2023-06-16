@@ -1,6 +1,7 @@
 ---
 title: GET Contact/CustomField
 uid: v1ContactEntity_GetCustomFieldInfoList
+generated: true
 ---
 
 # GET Contact/CustomField
@@ -66,7 +67,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Rowe Inc and Sons",
-    "DisplayName": "Steuber, Hartmann and Koelpin",
-    "Description": "Right-sized solution-oriented approach",
-    "ShortLabel": "dolores",
-    "HideLabel": false,
+    "FieldName": "Hermann-Dooley",
+    "DisplayName": "Volkman-Kuvalis",
+    "Description": "Sharable optimal implementation",
+    "ShortLabel": "blanditiis",
+    "HideLabel": true,
     "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 891,
-    "TemplateVariableName": "Pouros-O'Keefe"
+    "IsExternal": false,
+    "Rank": 505,
+    "TemplateVariableName": "Hills LLC"
   }
 ]
 ```

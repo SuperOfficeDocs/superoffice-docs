@@ -1,6 +1,7 @@
 ---
 title: POST Agents/MDO/SetSelected
 uid: v1MDOAgent_SetSelected
+generated: true
 ---
 
 # POST Agents/MDO/SetSelected
@@ -92,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Langworth Group",
-  "AdditionalInfo": "ratione",
+  "Name": "Kling Group",
+  "AdditionalInfo": "officia",
   "SelectableMDOList": [
     {
-      "Id": 397,
-      "Name": "Berge-Bailey",
-      "ToolTip": "Molestiae recusandae repudiandae natus pariatur quas unde.",
-      "Deleted": false,
-      "Rank": 686,
-      "Type": "eligendi",
-      "ColorBlock": 572,
-      "IconHint": "pariatur",
-      "Selected": true,
-      "LastChanged": "2004-06-13T03:51:27.5216578+02:00",
+      "Id": 143,
+      "Name": "Stiedemann, Schulist and Upton",
+      "ToolTip": "Et expedita voluptatibus ipsam qui exercitationem quidem natus.",
+      "Deleted": true,
+      "Rank": 117,
+      "Type": "necessitatibus",
+      "ColorBlock": 295,
+      "IconHint": "amet",
+      "Selected": false,
+      "LastChanged": "1997-04-13T16:00:41.2736903+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "rerum",
+      "ExtraInfo": "cumque",
+      "StyleHint": "temporibus",
       "Hidden": false,
-      "FullName": "Stella Morar I"
+      "FullName": "Mr. Devonte Edward Mayert"
     }
   ]
 }
@@ -128,55 +129,55 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 130,
-    "Name": "Adams-Nicolas",
-    "ToolTip": "Consequatur maiores.",
-    "Deleted": true,
-    "Rank": 898,
-    "Type": "a",
-    "ColorBlock": 470,
-    "IconHint": "qui",
+    "Name": "Dibbert LLC",
+    "ToolTip": "Omnis aut soluta.",
+    "Deleted": false,
+    "Rank": 796,
+    "Type": "ut",
+    "ColorBlock": 551,
+    "IconHint": "nobis",
     "Selected": true,
-    "LastChanged": "2018-02-04T03:51:27.5372792+01:00",
+    "LastChanged": "1996-09-26T16:00:41.2736903+02:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Ryan, Gibson and Connelly",
-        "ToolTip": "Sunt ut natus accusamus ut asperiores sit praesentium.",
-        "Deleted": true,
-        "Rank": 746,
-        "Type": "fugit",
-        "ColorBlock": 134,
-        "IconHint": "fuga",
-        "Selected": true,
-        "LastChanged": "1996-11-11T03:51:27.5372792+01:00",
+        "Id": 612,
+        "Name": "Steuber Group",
+        "ToolTip": "Magnam soluta.",
+        "Deleted": false,
+        "Rank": 977,
+        "Type": "ut",
+        "ColorBlock": 13,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2018-01-29T16:00:41.2736903+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Kirstin Hessel",
+        "ExtraInfo": "nobis",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Leonor Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 669
+            "FieldLength": 858
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "exercitationem",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "sunt",
     "Hidden": true,
-    "FullName": "Miss Rory Zboncak Sr.",
+    "FullName": "Mikel Wilderman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 273
       }
     }
   }

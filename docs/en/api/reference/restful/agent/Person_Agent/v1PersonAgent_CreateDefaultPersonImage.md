@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/CreateDefaultPersonImage
 uid: v1PersonAgent_CreateDefaultPersonImage
+generated: true
 ---
 
 # POST Agents/Person/CreateDefaultPersonImage
@@ -55,7 +56,7 @@ OK
 POST /api/v1/Agents/Person/CreateDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -65,7 +66,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 412,
+  "PersonId": 611,
   "ImageData": "GIF89....File contents as raw bytes..."
 }
 ```

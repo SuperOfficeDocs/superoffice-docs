@@ -1,7 +1,7 @@
 ---
 title: Services88.ChatAgent SOAP
 uid: Services88-Chat-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Chat SOAP

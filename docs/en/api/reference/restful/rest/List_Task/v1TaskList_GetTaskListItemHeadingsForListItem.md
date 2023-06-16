@@ -1,6 +1,7 @@
 ---
 title: GET List/Task/Items/{id}/Headings
 uid: v1TaskList_GetTaskListItemHeadingsForListItem
+generated: true
 ---
 
 # GET List/Task/Items/{id}/Headings
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Wisozk-Wuckert",
-    "ToolTip": "Ipsa in natus nobis.",
-    "Deleted": true,
-    "Rank": 249,
-    "Type": "aut",
-    "ColorBlock": 4,
-    "IconHint": "est",
+    "Id": 470,
+    "Name": "Roob-VonRueden",
+    "ToolTip": "Assumenda totam possimus consectetur ut sint cumque est.",
+    "Deleted": false,
+    "Rank": 302,
+    "Type": "odio",
+    "ColorBlock": 3,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2018-04-03T03:51:34.9895221+02:00",
+    "LastChanged": "2018-08-31T16:00:49.3677537+02:00",
     "ChildItems": [
       {
-        "Id": 418,
-        "Name": "Bogisich, Considine and Labadie",
-        "ToolTip": "Saepe atque est quia a ducimus nulla itaque.",
+        "Id": 264,
+        "Name": "Cormier Group",
+        "ToolTip": "Occaecati non iure eveniet rerum sed error.",
         "Deleted": false,
-        "Rank": 665,
-        "Type": "vel",
-        "ColorBlock": 720,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2008-03-28T03:51:34.9895221+01:00",
+        "Rank": 959,
+        "Type": "dignissimos",
+        "ColorBlock": 337,
+        "IconHint": "nulla",
+        "Selected": false,
+        "LastChanged": "2004-06-17T16:00:49.3677537+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "soluta",
+        "ExtraInfo": "optio",
+        "StyleHint": "ex",
         "Hidden": false,
-        "FullName": "Delilah Heaney",
+        "FullName": "Miss Uriel Muller Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 843
+            "FieldLength": 982
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Miss Andre Enola Fadel",
+    "ExtraInfo": "maiores",
+    "StyleHint": "blanditiis",
+    "Hidden": true,
+    "FullName": "Ebony Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 317
+        "FieldLength": 273
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/DeleteCRMScriptByUniqueIdentifier
 uid: v1CRMScriptAgent_DeleteCRMScriptByUniqueIdentifier
+generated: true
 ---
 
 # POST Agents/CRMScript/DeleteCRMScriptByUniqueIdentifier
@@ -69,7 +70,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "nam"
+  "UniqueIdentifier": "architecto"
 }
 ```
 

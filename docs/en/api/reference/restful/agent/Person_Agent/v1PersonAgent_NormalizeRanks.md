@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/NormalizeRanks
 uid: v1PersonAgent_NormalizeRanks
+generated: true
 ---
 
 # POST Agents/Person/NormalizeRanks
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/Person/NormalizeRanks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 83
+  "ContactId": 110
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -3,13 +3,9 @@ uid: replicationagent-setfreetextsearchenabledonarea
 title: ReplicationAgent.SetFreetextSearchEnabledOnArea event method
 description: Scripting events called on the SetFreetextSearchEnabledOnArea method on the ReplicationAgent service agent.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 # ReplicationAgent.SetFreetextSearchEnabledOnArea
 

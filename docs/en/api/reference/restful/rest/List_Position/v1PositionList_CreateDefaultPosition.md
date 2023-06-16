@@ -1,6 +1,7 @@
 ---
 title: GET List/Position/Items/Default
 uid: v1PositionList_CreateDefaultPosition
+generated: true
 ---
 
 # GET List/Position/Items/Default
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 419,
-  "Name": "Rogahn-Gleason",
-  "Tooltip": "aut",
+  "Id": 975,
+  "Name": "Sanford LLC",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 668,
-  "Rank": 690,
+  "UdListDefinitionId": 686,
+  "Rank": 795,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldLength": 95
     }
   }
 }

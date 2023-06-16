@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultTicketCategoryEntity
 uid: v1ListAgent_CreateDefaultTicketCategoryEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultTicketCategoryEntity
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 98,
-  "ParentId": 928,
-  "Name": "Altenwerth-Beier",
-  "Fullname": "voluptatem",
-  "CategoryMaster": 404,
+  "TicketCategoryId": 851,
+  "ParentId": 342,
+  "Name": "Barrows, Osinski and Cruickshank",
+  "Fullname": "nostrum",
+  "CategoryMaster": 206,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Reilly, Grant and Quigley",
+  "ExternalName": "Cremin, Mayert and Cummerata",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 889,
-  "ReplyTemplate": 959,
-  "NotificationEmail": "maxine.damore@brekke.com",
+  "AssignmentLag": 181,
+  "ReplyTemplate": 546,
+  "NotificationEmail": "ansel.hoeger@windlerschamberger.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 252,
+  "EffectiveReplyTemplateId": 988,
   "ExtraFields": {
-    "ExtraFields1": "voluptatibus",
-    "ExtraFields2": "quisquam"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "rem",
-    "CustomFields2": "placeat"
+    "CustomFields1": "vero",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldLength": 320
     }
   }
 }

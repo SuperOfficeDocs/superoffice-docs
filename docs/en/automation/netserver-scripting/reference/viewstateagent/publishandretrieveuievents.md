@@ -3,13 +3,9 @@ uid: viewstateagent-publishandretrieveuievents
 title: ViewStateAgent.PublishAndRetrieveUiEvents event method
 description: Scripting events called on the PublishAndRetrieveUiEvents method on the ViewStateAgent service agent.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 # ViewStateAgent.PublishAndRetrieveUiEvents
 
@@ -20,6 +16,7 @@ Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IViewStateA
     static void BeforePublishAndRetrieveUiEvents(
        Int32  latestKnownEventId,
        UiEvent[]  publishEvents,
+       MetricPair[]  metrics,
        ref object  eventState
       );
 ```
@@ -32,6 +29,7 @@ Event state is not preserved between different service calls. It is set to null 
     static void AfterPublishAndRetrieveUiEvents(
        Int32  latestKnownEventId,
        UiEvent[]  publishEvents,
+       MetricPair[]  metrics,
        ref UiEvent[]  returnValue,
        ref object  eventState
       );
@@ -44,6 +42,7 @@ Any state you set in the **Before** method is passed in through the *eventState*
     static void AfterPublishAndRetrieveUiEventsAsync(
        Int32  latestKnownEventId,
        UiEvent[]  publishEvents,
+       MetricPair[]  metrics,
        ref UiEvent[]  returnValue,
        ref object  eventState
       );

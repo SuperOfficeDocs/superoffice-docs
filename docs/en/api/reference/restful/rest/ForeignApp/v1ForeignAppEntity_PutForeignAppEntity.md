@@ -1,6 +1,7 @@
 ---
 title: PUT ForeignApp/{id}
 uid: v1ForeignAppEntity_PutForeignAppEntity
+generated: true
 ---
 
 # PUT ForeignApp/{id}
@@ -91,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 143,
-  "Name": "McLaughlin-Satterfield",
-  "CreatedDate": "2011-02-04T03:51:33.677213+01:00",
-  "UpdatedDate": "2015-07-09T03:51:33.677213+02:00",
+  "ForeignAppId": 831,
+  "Name": "Eichmann, Jewess and Buckridge",
+  "CreatedDate": "2000-10-03T16:00:47.9772018+02:00",
+  "UpdatedDate": "2005-11-10T16:00:47.9772018+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 452,
-      "Name": "O'Conner Inc and Sons",
-      "CreatedDate": "1998-08-10T03:51:33.677213+02:00",
-      "UpdatedDate": "1996-01-22T03:51:33.677213+01:00",
-      "AssociateFullName": "Dr. Sherwood Lora Schimmel",
-      "CreatedBy": "unde",
-      "UpdatedBy": "minima",
-      "DeviceIdentifier": "velit",
-      "ForeignAppId": 845
+      "ForeignDeviceId": 811,
+      "Name": "Weimann Inc and Sons",
+      "CreatedDate": "2018-09-15T16:00:47.9772018+02:00",
+      "UpdatedDate": "1998-06-17T16:00:47.9772018+02:00",
+      "AssociateFullName": "Mr. Nadia Kayleigh Lynch III",
+      "CreatedBy": "blanditiis",
+      "UpdatedBy": "aliquid",
+      "DeviceIdentifier": "consequatur",
+      "ForeignAppId": 771
     }
   ]
 }
@@ -124,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 316,
-  "Name": "Mayert LLC",
-  "CreatedDate": "2019-08-21T03:51:33.677213+02:00",
-  "UpdatedDate": "2013-08-22T03:51:33.677213+02:00",
+  "ForeignAppId": 148,
+  "Name": "Fritsch, Abshire and Stokes",
+  "CreatedDate": "2001-08-17T16:00:47.9772018+02:00",
+  "UpdatedDate": "2005-11-21T16:00:47.9772018+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 358,
-      "Name": "Conroy Group",
-      "CreatedDate": "1998-07-31T03:51:33.677213+02:00",
-      "UpdatedDate": "2013-11-02T03:51:33.677213+01:00",
-      "AssociateFullName": "Josiah Zieme",
-      "CreatedBy": "vitae",
-      "UpdatedBy": "accusantium",
-      "DeviceIdentifier": "similique",
-      "ForeignAppId": 420,
+      "ForeignDeviceId": 62,
+      "Name": "Satterfield Group",
+      "CreatedDate": "2007-03-16T16:00:47.9772018+01:00",
+      "UpdatedDate": "2010-03-13T16:00:47.9772018+01:00",
+      "AssociateFullName": "Arvilla Wehner",
+      "CreatedBy": "commodi",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "eaque",
+      "ForeignAppId": 968,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 530
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     }
@@ -156,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldLength": 849
     }
   },
   "_Links": {

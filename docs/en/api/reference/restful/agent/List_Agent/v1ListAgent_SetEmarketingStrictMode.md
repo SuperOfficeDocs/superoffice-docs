@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetEmarketingStrictMode
 uid: v1ListAgent_SetEmarketingStrictMode
+generated: true
 ---
 
 # POST Agents/List/SetEmarketingStrictMode
@@ -67,7 +68,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Enable": true
+  "Enable": false
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: PATCH CRMScript/{id}
 uid: v1CRMScriptEntity_PatchCRMScriptEntity
+generated: true
 ---
 
 # PATCH CRMScript/{id}
@@ -120,18 +121,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "fuga",
+    "path": "sint",
     "value": {}
   },
   {
     "op": "add",
-    "path": "fuga",
+    "path": "sint",
     "value": {}
   }
 ]
@@ -144,23 +145,23 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 468,
-  "UniqueIdentifier": "facere",
-  "Name": "Bechtelar-Gerhold",
-  "Description": "Quality-focused dynamic superstructure",
-  "IncludeId": "aut",
-  "HierarchyId": 944,
-  "Source": "temporibus",
-  "Registered": "2020-11-21T03:51:33.5678642+01:00",
-  "RegisteredAssociateId": 250,
-  "Updated": "2018-07-29T03:51:33.5678642+02:00",
-  "UpdatedAssociateId": 921,
+  "EjscriptId": 96,
+  "UniqueIdentifier": "culpa",
+  "Name": "Tromp LLC",
+  "Description": "Stand-alone zero administration hardware",
+  "IncludeId": "minima",
+  "HierarchyId": 903,
+  "Source": "modi",
+  "Registered": "1999-11-02T16:00:47.83659+01:00",
+  "RegisteredAssociateId": 107,
+  "Updated": "2013-12-26T16:00:47.83659+01:00",
+  "UpdatedAssociateId": 844,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldLength": 236
     }
   },
   "_Links": {

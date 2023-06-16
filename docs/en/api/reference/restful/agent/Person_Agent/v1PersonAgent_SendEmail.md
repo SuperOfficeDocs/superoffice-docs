@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/SendEmail
 uid: v1PersonAgent_SendEmail
+generated: true
 ---
 
 # POST Agents/Person/SendEmail
@@ -68,18 +69,18 @@ No Content
 POST /api/v1/Agents/Person/SendEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "magnam",
-  "To": "ipsam",
-  "Subject": "tenetur",
-  "PlainBody": "perspiciatis",
-  "HtmlBody": "praesentium",
+  "From": "nihil",
+  "To": "quisquam",
+  "Subject": "et",
+  "PlainBody": "fugit",
+  "HtmlBody": "ut",
   "AttachmentIds": [
-    525,
-    852
+    897,
+    160
   ]
 }
 ```

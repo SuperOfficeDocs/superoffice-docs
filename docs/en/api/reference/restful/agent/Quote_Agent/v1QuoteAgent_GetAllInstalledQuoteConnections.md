@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetAllInstalledQuoteConnections
 uid: v1QuoteAgent_GetAllInstalledQuoteConnections
+generated: true
 ---
 
 # POST Agents/Quote/GetAllInstalledQuoteConnections
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 559,
-    "ERPName": "Hirthe, Johns and Walter",
-    "DisplayName": "Koss, Waters and Mann",
-    "DisplayDescription": "Progressive discrete synergy",
-    "Rank": 668,
-    "ConnectorName": "Morissette, Heaney and Kozey",
-    "ErpConnectionId": 457,
-    "ExtraData": "voluptatem",
-    "IsAvailable": false,
+    "QuoteConnectionId": 862,
+    "ERPName": "McLaughlin-Adams",
+    "DisplayName": "Eichmann-Rogahn",
+    "DisplayDescription": "Secured web-enabled frame",
+    "Rank": 145,
+    "ConnectorName": "Hirthe LLC",
+    "ErpConnectionId": 406,
+    "ExtraData": "sequi",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 195,
-        "ERPPriceListKey": "delectus",
-        "QuoteConnectionId": 563,
-        "Name": "Vandervort-Christiansen",
-        "Description": "Optimized 4th generation initiative",
-        "Currency": "quia",
-        "CurrencyName": "Kassulke Inc and Sons",
-        "ValidFrom": "2015-03-19T03:51:28.0059393+01:00",
-        "ValidTo": "1998-06-13T03:51:28.0059393+02:00",
-        "IsActive": false,
+        "PriceListId": 681,
+        "ERPPriceListKey": "voluptatem",
+        "QuoteConnectionId": 821,
+        "Name": "Hintz Group",
+        "Description": "Fully-configurable neutral array",
+        "Currency": "delectus",
+        "CurrencyName": "Casper LLC",
+        "ValidFrom": "2011-09-20T16:00:41.6488224+02:00",
+        "ValidTo": "2006-02-18T16:00:41.6488224+01:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 488
+            "FieldType": "System.String",
+            "FieldLength": 538
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      16,
-      474
+      714,
+      283
     ],
     "AssociateAccessIds": [
-      213,
-      935
+      943,
+      131
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 299
+        "FieldType": "System.Int32",
+        "FieldLength": 949
       }
     }
   }

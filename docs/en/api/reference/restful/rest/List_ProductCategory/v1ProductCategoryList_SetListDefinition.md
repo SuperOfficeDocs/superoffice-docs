@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductCategory
 uid: v1ProductCategoryList_SetListDefinition
+generated: true
 ---
 
 # PUT List/ProductCategory
@@ -87,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 791,
-  "Name": "Lynch-Breitenberg",
-  "Tooltip": "nam",
-  "Deleted": true,
-  "Rank": 568,
+  "Id": 257,
+  "Name": "Jewess-Mertz",
+  "Tooltip": "nisi",
+  "Deleted": false,
+  "Rank": 829,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 362,
-  "Name": "Monahan, Ondricka and Lind",
-  "Tooltip": "unde",
-  "Deleted": false,
-  "Rank": 394,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 16,
+  "Name": "Daniel-Hilll",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 123,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true,
+  "ListType": "illo",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 573
+      "FieldLength": 280
     }
   }
 }

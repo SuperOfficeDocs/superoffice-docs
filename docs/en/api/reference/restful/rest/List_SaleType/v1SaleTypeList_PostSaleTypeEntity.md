@@ -1,6 +1,7 @@
 ---
 title: POST List/SaleType/Items
 uid: v1SaleTypeList_PostSaleTypeEntity
+generated: true
 ---
 
 # POST List/SaleType/Items
@@ -110,47 +111,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 155,
-  "Name": "Bartell, Simonis and Berge",
-  "Tooltip": "voluptates",
-  "Rank": 948,
+  "SaleTypeId": 795,
+  "Name": "Pouros, Nitzsche and Eichmann",
+  "Tooltip": "aut",
+  "Rank": 26,
   "DurationUnit": "Century",
-  "SaleDuration": 904,
-  "SaleTypeCatId": 154,
+  "SaleDuration": 932,
+  "SaleTypeCatId": 62,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 781,
-  "QuoteLinesTemplate": 10,
-  "ConfirmationLinesTemplate": 918,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 225,
+  "QuoteLinesTemplate": 758,
+  "ConfirmationLinesTemplate": 25,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 894,
-  "MinEarningPercent": 896,
-  "GroupQuoteLinesBy": 648,
-  "SortGroupLinesBy": 554,
+  "MaxDiscountPercent": 578,
+  "MinEarningPercent": 544,
+  "GroupQuoteLinesBy": 646,
+  "SortGroupLinesBy": 350,
   "Stages": [
     {
-      "Id": 451,
-      "Name": "Murazik LLC",
-      "ToolTip": "Dolor aliquam.",
-      "Deleted": false,
-      "Rank": 418,
-      "Type": "omnis",
-      "ColorBlock": 108,
-      "IconHint": "porro",
-      "Selected": false,
-      "LastChanged": "2006-02-10T03:51:34.9426529+01:00",
+      "Id": 281,
+      "Name": "Jewess, Kunde and Dibbert",
+      "ToolTip": "Saepe laudantium et.",
+      "Deleted": true,
+      "Rank": 994,
+      "Type": "id",
+      "ColorBlock": 433,
+      "IconHint": "hic",
+      "Selected": true,
+      "LastChanged": "2016-02-10T16:00:49.3051793+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "distinctio",
-      "StyleHint": "atque",
-      "Hidden": false,
-      "FullName": "Emmalee Gaylord"
+      "ExtraInfo": "magnam",
+      "StyleHint": "expedita",
+      "Hidden": true,
+      "FullName": "Dr. Filiberto Cornelius Schinner"
     }
   ]
 }
@@ -163,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 799,
-  "Name": "Casper Group",
-  "Tooltip": "quod",
-  "Rank": 986,
+  "SaleTypeId": 580,
+  "Name": "Becker, Johns and Treutel",
+  "Tooltip": "qui",
+  "Rank": 934,
   "DurationUnit": "Century",
-  "SaleDuration": 738,
-  "SaleTypeCatId": 515,
-  "Deleted": false,
+  "SaleDuration": 854,
+  "SaleTypeCatId": 832,
+  "Deleted": true,
   "HasGuide": true,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 776,
-  "QuoteLinesTemplate": 723,
-  "ConfirmationLinesTemplate": 867,
+  "DefaultQuoteValidity": 921,
+  "QuoteLinesTemplate": 471,
+  "ConfirmationLinesTemplate": 943,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 37,
-  "MinEarningPercent": 656,
-  "GroupQuoteLinesBy": 699,
-  "SortGroupLinesBy": 30,
+  "MaxDiscountPercent": 526,
+  "MinEarningPercent": 468,
+  "GroupQuoteLinesBy": 265,
+  "SortGroupLinesBy": 886,
   "Stages": [
     {
-      "Id": 72,
-      "Name": "Prohaska, Yost and Erdman",
-      "ToolTip": "Autem atque placeat dolorum est consequatur quia amet.",
-      "Deleted": false,
-      "Rank": 610,
-      "Type": "magni",
-      "ColorBlock": 623,
-      "IconHint": "pariatur",
+      "Id": 653,
+      "Name": "Sanford-Hermann",
+      "ToolTip": "Provident velit molestias.",
+      "Deleted": true,
+      "Rank": 646,
+      "Type": "sint",
+      "ColorBlock": 207,
+      "IconHint": "sunt",
       "Selected": false,
-      "LastChanged": "2006-03-31T03:51:34.9426529+02:00",
+      "LastChanged": "2006-12-16T16:00:49.3051793+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dicta",
-      "StyleHint": "possimus",
-      "Hidden": false,
-      "FullName": "Breanna Corkery I",
+      "ExtraInfo": "libero",
+      "StyleHint": "ducimus",
+      "Hidden": true,
+      "FullName": "Nathanael Adams",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 72
+          "FieldLength": 223
         }
       }
     }
@@ -218,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldType": "System.Int32",
+      "FieldLength": 160
     }
   }
 }

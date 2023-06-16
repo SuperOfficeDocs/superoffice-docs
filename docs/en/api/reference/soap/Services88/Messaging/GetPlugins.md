@@ -1,6 +1,6 @@
 ---
 title: Services88.MessagingAgent.GetPlugins SOAP
-generated: 1
+generated: true
 uid: Services88-Messaging-GetPlugins
 ---
 

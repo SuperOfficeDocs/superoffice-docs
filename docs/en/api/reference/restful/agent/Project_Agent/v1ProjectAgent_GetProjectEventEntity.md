@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetProjectEventEntity
 uid: v1ProjectAgent_GetProjectEventEntity
+generated: true
 ---
 
 # POST Agents/Project/GetProjectEventEntity
@@ -25,7 +26,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=233
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=272
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -95,7 +96,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,94 +106,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "eum",
-  "SignOffText": "delectus",
-  "SignOnConfirmationText": "et",
-  "SignOnText": "nostrum",
-  "EventDate": "2015-08-05T03:51:27.943438+02:00",
-  "Enabled": false,
-  "CreatedDate": "1999-08-04T03:51:27.943438+02:00",
-  "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 897,
-  "SignOffTriggersAssign": true,
+  "SignOffConfirmationText": "minima",
+  "SignOffText": "ex",
+  "SignOnConfirmationText": "explicabo",
+  "SignOnText": "dicta",
+  "EventDate": "2010-11-25T16:00:41.5550773+01:00",
+  "Enabled": true,
+  "CreatedDate": "2003-08-14T16:00:41.5550773+02:00",
+  "SignOff": true,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 839,
+  "SignOffTriggersAssign": false,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 300,
+  "SignOnTaskId": 888,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2022-11-05T03:51:27.943438+01:00",
+  "UpdatedDate": "2007-01-27T16:00:41.5707037+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 296,
-  "Id": 572,
-  "PublishFrom": "2021-12-04T03:51:27.943438+01:00",
+  "ProjectId": 841,
+  "Id": 719,
+  "PublishFrom": "1998-07-17T16:00:41.5707037+02:00",
   "PublishType": "External",
-  "PublishTo": "2002-02-11T03:51:27.943438+01:00",
+  "PublishTo": "2020-05-22T16:00:41.5707037+02:00",
   "VisibleForCategories": [
     {
-      "Id": 261,
-      "Name": "McCullough LLC",
-      "ToolTip": "Omnis quae aut et porro et beatae doloribus.",
-      "Deleted": false,
-      "Rank": 418,
-      "Type": "atque",
+      "Id": 818,
+      "Name": "Kassulke-Lemke",
+      "ToolTip": "Et accusantium ut.",
+      "Deleted": true,
+      "Rank": 22,
+      "Type": "nesciunt",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nemo",
-      "ColorBlock": 370,
-      "ExtraInfo": "sint",
-      "StyleHint": "et",
-      "FullName": "Palma Smith",
+      "IconHint": "est",
+      "ColorBlock": 209,
+      "ExtraInfo": "et",
+      "StyleHint": "numquam",
+      "FullName": "Buddy Cruickshank",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 620
+          "FieldLength": 847
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 611,
-      "Name": "Goyette, Stoltenberg and Keebler",
-      "ToolTip": "Nisi nisi iusto enim et tenetur ipsa.",
+      "Id": 563,
+      "Name": "Medhurst Group",
+      "ToolTip": "Possimus omnis perferendis repudiandae quis ipsam similique ullam.",
       "Deleted": false,
-      "Rank": 382,
-      "Type": "suscipit",
+      "Rank": 52,
+      "Type": "veritatis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ea",
-      "ColorBlock": 587,
-      "ExtraInfo": "magnam",
-      "StyleHint": "praesentium",
-      "FullName": "Coby Reichel",
+      "IconHint": "reiciendis",
+      "ColorBlock": 402,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "placeat",
+      "FullName": "Adolph Block",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 829
+          "FieldLength": 797
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 910,
+  "ProjectEventId": 87,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   }
 }

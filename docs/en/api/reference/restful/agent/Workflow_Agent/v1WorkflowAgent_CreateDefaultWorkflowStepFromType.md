@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/CreateDefaultWorkflowStepFromType
 uid: v1WorkflowAgent_CreateDefaultWorkflowStepFromType
+generated: true
 ---
 
 # POST Agents/Workflow/CreateDefaultWorkflowStepFromType
@@ -88,9 +89,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 829,
-  "WorkflowId": 271,
+  "WorkflowStepId": 596,
+  "WorkflowId": 319,
   "StepType": "AddToList",
-  "Rank": 849
+  "Rank": 6
 }
 ```

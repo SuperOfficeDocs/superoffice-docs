@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/SaveWindowPosSize
 uid: v1ConfigurationAgent_SaveWindowPosSize
+generated: true
 ---
 
 # POST Agents/Configuration/SaveWindowPosSize
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveWindowPosSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerWindow": "omnis",
-  "PersonId": 606,
-  "AssociateId": 219,
-  "ExtraId": 853,
-  "ExtraInfo": "hic",
-  "Height": 32,
-  "LeftX": 149,
+  "PersonId": 960,
+  "AssociateId": 249,
+  "ExtraId": 124,
+  "ExtraInfo": "ut",
+  "Height": 881,
+  "LeftX": 170,
   "State": "Maximized",
-  "UpperY": 418,
-  "Width": 860,
-  "WindowPosSizeId": 852,
+  "UpperY": 671,
+  "Width": 64,
+  "WindowPosSizeId": 887,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 232
     }
   }
 }

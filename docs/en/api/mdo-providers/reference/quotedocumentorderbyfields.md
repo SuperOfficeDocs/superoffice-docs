@@ -1,17 +1,11 @@
 ---
 uid: quotedocumentorderbyfields
 title: quotedocumentorderbyfields
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "quotedocumentorderbyfields"
+keywords: mdoprovider mdo provider quotedocumentorderbyfields
+description: Possible choices for fields you can ORDER BY, within a group (or without grouping)
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "quotedocumentorderbyfields" MDO List

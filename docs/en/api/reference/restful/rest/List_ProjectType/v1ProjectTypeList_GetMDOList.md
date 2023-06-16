@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectType/MDOItems
 uid: v1ProjectTypeList_GetMDOList
+generated: true
 ---
 
 # GET List/ProjectType/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=et
+GET /api/v1/List/ProjectType/MDOItems?query=maiores
 ```
 
 
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Lynch, Schuppe and Wehner",
-    "ToolTip": "Non alias facere ullam.",
+    "Id": 604,
+    "Name": "Heaney-Gerlach",
+    "ToolTip": "Distinctio harum sit quia.",
     "Deleted": false,
-    "Rank": 765,
-    "Type": "rerum",
+    "Rank": 717,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 538,
-        "Name": "Bartell Inc and Sons",
-        "ToolTip": "Eius explicabo soluta.",
-        "Deleted": false,
-        "Rank": 248,
-        "Type": "eos",
+        "Id": 685,
+        "Name": "Stark Group",
+        "ToolTip": "Voluptatem rerum consequatur est enim.",
+        "Deleted": true,
+        "Rank": 1000,
+        "Type": "dolorum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facilis",
-        "ColorBlock": 9,
-        "ExtraInfo": "in",
-        "StyleHint": "dicta",
-        "FullName": "Brody Ratke",
+        "IconHint": "ut",
+        "ColorBlock": 559,
+        "ExtraInfo": "harum",
+        "StyleHint": "id",
+        "FullName": "Brielle Reinger V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 882
+            "FieldType": "System.Int32",
+            "FieldLength": 751
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 697,
-    "ExtraInfo": "officia",
-    "StyleHint": "rem",
-    "FullName": "Liam Douglas",
+    "IconHint": "totam",
+    "ColorBlock": 174,
+    "ExtraInfo": "sed",
+    "StyleHint": "suscipit",
+    "FullName": "Eleanore Felix Mertz V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 699
+        "FieldType": "System.String",
+        "FieldLength": 124
       }
     }
   }

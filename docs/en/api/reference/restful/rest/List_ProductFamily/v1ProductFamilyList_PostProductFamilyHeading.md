@@ -1,6 +1,7 @@
 ---
 title: POST List/ProductFamily/Headings
 uid: v1ProductFamilyList_PostProductFamilyHeading
+generated: true
 ---
 
 # POST List/ProductFamily/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 821,
-  "Name": "Hermiston, Cummings and Kozey",
-  "Tooltip": "beatae",
+  "HeadingId": 199,
+  "Name": "Conn, Grady and Collier",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 73,
-  "UdListDefinitionId": 11
+  "Rank": 272,
+  "UdListDefinitionId": 721
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 345,
-  "Name": "Rogahn, Cronin and Schuster",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "Rank": 306,
-  "UdListDefinitionId": 390,
+  "HeadingId": 741,
+  "Name": "Trantow-Ruecker",
+  "Tooltip": "praesentium",
+  "Deleted": false,
+  "Rank": 124,
+  "UdListDefinitionId": 920,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldType": "System.String",
+      "FieldLength": 917
     }
   }
 }

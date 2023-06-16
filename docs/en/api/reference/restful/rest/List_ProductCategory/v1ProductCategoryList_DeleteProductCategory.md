@@ -1,6 +1,7 @@
 ---
 title: DEL List/ProductCategory/Items/{id}
 uid: v1ProductCategoryList_DeleteProductCategory
+generated: true
 ---
 
 # DEL List/ProductCategory/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

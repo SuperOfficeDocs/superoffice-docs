@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryType/Headings
 uid: v1DeliveryTypeList_GetDeliveryTypeHeadings
+generated: true
 ---
 
 # GET List/DeliveryType/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 153,
-    "Name": "Spencer-Miller",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 815,
-    "UdListDefinitionId": 440,
+    "HeadingId": 86,
+    "Name": "Veum Group",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 395,
+    "UdListDefinitionId": 212,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 744
+        "FieldLength": 876
       }
     }
   }

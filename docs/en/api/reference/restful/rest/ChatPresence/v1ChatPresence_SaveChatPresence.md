@@ -1,6 +1,7 @@
 ---
 title: POST Presence/SaveAll
 uid: v1ChatPresence_SaveChatPresence
+generated: true
 ---
 
 # POST Presence/SaveAll
@@ -62,23 +63,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 2,
-    "DisplayName": "Watsica Group",
-    "OngoingChats": 478,
-    "Present": true,
+    "UserId": 742,
+    "DisplayName": "Koelpin, Greenfelder and Morar",
+    "OngoingChats": 766,
+    "Present": false,
     "ChatTopics": [
-      279,
-      313
+      667,
+      689
     ]
   },
   {
-    "UserId": 2,
-    "DisplayName": "Watsica Group",
-    "OngoingChats": 478,
-    "Present": true,
+    "UserId": 742,
+    "DisplayName": "Koelpin, Greenfelder and Morar",
+    "OngoingChats": 766,
+    "Present": false,
     "ChatTopics": [
-      279,
-      313
+      667,
+      689
     ]
   }
 ]

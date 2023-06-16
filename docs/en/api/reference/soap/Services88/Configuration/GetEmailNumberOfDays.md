@@ -1,6 +1,6 @@
 ---
 title: Services88.ConfigurationAgent.GetEmailNumberOfDays SOAP
-generated: 1
+generated: true
 uid: Services88-Configuration-GetEmailNumberOfDays
 ---
 

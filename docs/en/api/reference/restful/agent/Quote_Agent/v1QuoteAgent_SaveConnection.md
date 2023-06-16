@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SaveConnection
 uid: v1QuoteAgent_SaveConnection
+generated: true
 ---
 
 # POST Agents/Quote/SaveConnection
@@ -101,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 610,
-  "ERPName": "Collins, Hegmann and Balistreri",
-  "DisplayName": "Prohaska, Brekke and Bahringer",
-  "DisplayDescription": "Quality-focused executive encoding",
-  "Rank": 229,
-  "ConnectorName": "Kuvalis LLC",
-  "ErpConnectionId": 481,
-  "ExtraData": "placeat",
+  "QuoteConnectionId": 96,
+  "ERPName": "Sawayn Inc and Sons",
+  "DisplayName": "Brown-Stracke",
+  "DisplayDescription": "Balanced multi-tasking Graphical User Interface",
+  "Rank": 520,
+  "ConnectorName": "Koepp, Okuneva and Hegmann",
+  "ErpConnectionId": 49,
+  "ExtraData": "dolorum",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 940,
-      "ERPPriceListKey": "minus",
-      "QuoteConnectionId": 369,
-      "Name": "Ruecker LLC",
-      "Description": "Proactive zero defect analyzer",
-      "Currency": "dicta",
-      "CurrencyName": "Torphy Group",
-      "ValidFrom": "2010-01-28T03:51:28.0215395+01:00",
-      "ValidTo": "2009-07-06T03:51:28.0215395+02:00",
-      "IsActive": false,
+      "PriceListId": 578,
+      "ERPPriceListKey": "commodi",
+      "QuoteConnectionId": 985,
+      "Name": "Schamberger, Osinski and Lockman",
+      "Description": "User-friendly context-sensitive collaboration",
+      "Currency": "et",
+      "CurrencyName": "Leannon LLC",
+      "ValidFrom": "2005-10-05T16:00:41.6488224+02:00",
+      "ValidTo": "2002-09-13T16:00:41.6488224+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 910
+          "FieldLength": 64
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    992,
-    752
+    959,
+    339
   ],
   "AssociateAccessIds": [
-    657,
-    778
+    592,
+    722
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 140
     }
   }
 }

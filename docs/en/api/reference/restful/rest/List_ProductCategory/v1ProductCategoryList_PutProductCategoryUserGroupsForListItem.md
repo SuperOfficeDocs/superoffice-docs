@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductCategory/Items/{id}/UserGroups
 uid: v1ProductCategoryList_PutProductCategoryUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/ProductCategory/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 964,
-    "Name": "Crona, O'Reilly and Jerde",
-    "ToolTip": "Voluptas possimus enim voluptatem nulla.",
+    "Id": 761,
+    "Name": "Hyatt Inc and Sons",
+    "ToolTip": "Rem et officia aperiam consequatur aut mollitia quo.",
     "Deleted": false,
-    "Rank": 326,
-    "Type": "velit",
-    "ColorBlock": 115,
-    "IconHint": "molestias",
+    "Rank": 695,
+    "Type": "maiores",
+    "ColorBlock": 826,
+    "IconHint": "cumque",
     "Selected": true,
-    "LastChanged": "2010-09-25T03:51:34.8020755+02:00",
+    "LastChanged": "2021-12-19T16:00:49.1489485+01:00",
     "ChildItems": [
       {
-        "Id": 544,
-        "Name": "Sipes Inc and Sons",
-        "ToolTip": "Culpa tenetur ratione totam ut in.",
+        "Id": 68,
+        "Name": "Brekke, Erdman and Hilll",
+        "ToolTip": "Distinctio ea molestias.",
         "Deleted": false,
-        "Rank": 246,
-        "Type": "aut",
-        "ColorBlock": 868,
-        "IconHint": "temporibus",
-        "Selected": true,
-        "LastChanged": "2022-05-31T03:51:34.8020755+02:00",
+        "Rank": 351,
+        "Type": "omnis",
+        "ColorBlock": 296,
+        "IconHint": "impedit",
+        "Selected": false,
+        "LastChanged": "2000-06-29T16:00:49.1489485+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "dolore",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Antonina Schaefer"
+        "FullName": "Remington Rau"
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "quas",
-    "Hidden": true,
-    "FullName": "Randal Emard"
+    "ExtraInfo": "quod",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Garrett Kuhlman PhD"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Witting Group",
-    "ToolTip": "Rem fuga ex exercitationem dolor perspiciatis perferendis sunt.",
-    "Deleted": true,
-    "Rank": 186,
-    "Type": "natus",
-    "ColorBlock": 406,
-    "IconHint": "veritatis",
+    "Id": 402,
+    "Name": "Brakus Group",
+    "ToolTip": "Deleniti ut fugit mollitia inventore aut ea.",
+    "Deleted": false,
+    "Rank": 286,
+    "Type": "omnis",
+    "ColorBlock": 629,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2019-08-13T03:51:34.8020755+02:00",
+    "LastChanged": "2004-04-26T16:00:49.1489485+02:00",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Erdman Group",
-        "ToolTip": "Dolor sequi omnis eligendi perferendis nobis eligendi.",
-        "Deleted": false,
-        "Rank": 806,
-        "Type": "non",
-        "ColorBlock": 381,
-        "IconHint": "ad",
+        "Id": 883,
+        "Name": "Bayer, Wyman and Gutmann",
+        "ToolTip": "Laboriosam laudantium ullam vel nesciunt fugit consequatur.",
+        "Deleted": true,
+        "Rank": 837,
+        "Type": "ut",
+        "ColorBlock": 1002,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "2017-02-11T03:51:34.8020755+01:00",
+        "LastChanged": "2018-11-30T16:00:49.1489485+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "minima",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Johnathon Alyson Dickinson V",
+        "FullName": "Mr. Carlee Mosciski I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 699
+            "FieldLength": 299
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "omnis",
+    "StyleHint": "adipisci",
     "Hidden": false,
-    "FullName": "Rhianna Lind",
+    "FullName": "Miss Laisha Rae Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldLength": 82
       }
     }
   }

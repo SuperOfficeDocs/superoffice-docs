@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveHeadingFromListDefinition
 uid: v1ListAgent_SaveHeadingFromListDefinition
+generated: true
 ---
 
 # POST Agents/List/SaveHeadingFromListDefinition
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 885,
+  "Id": 798,
   "Entity": null
 }
 ```
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 815,
-  "Name": "Kertzmann Inc and Sons",
-  "Tooltip": "molestias",
+  "HeadingId": 366,
+  "Name": "Schaden Inc and Sons",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 316,
-  "UdListDefinitionId": 690,
+  "Rank": 268,
+  "UdListDefinitionId": 828,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldLength": 826
     }
   }
 }

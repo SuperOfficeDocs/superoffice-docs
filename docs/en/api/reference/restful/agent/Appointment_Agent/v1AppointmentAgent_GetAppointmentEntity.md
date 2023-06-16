@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetAppointmentEntity
 uid: v1AppointmentAgent_GetAppointmentEntity
+generated: true
 ---
 
 # POST Agents/Appointment/GetAppointmentEntity
@@ -25,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=712
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=397
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -103,6 +104,9 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -120,7 +124,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -134,122 +138,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-06-24T03:51:26.2250827+02:00",
-  "AppointmentId": 647,
-  "Description": "Total dedicated attitude",
-  "StartDate": "2008-12-06T03:51:26.2250827+01:00",
-  "EndDate": "2019-05-30T03:51:26.2250827+02:00",
+  "CreatedDate": "2010-12-08T16:00:39.8363495+01:00",
+  "AppointmentId": 149,
+  "Description": "Monitored fresh-thinking firmware",
+  "StartDate": "1997-08-18T16:00:39.8363495+02:00",
+  "EndDate": "2018-03-03T16:00:39.8363495+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 458,
+  "MotherId": 335,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-06-28T03:51:26.2250827+02:00",
+  "UpdatedDate": "2012-09-28T16:00:39.8519768+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 768,
+  "ActiveLinks": 388,
   "Links": [
     {
-      "EntityName": "Kuhlman Group",
-      "Id": 282,
-      "Description": "Right-sized 4th generation process improvement",
-      "ExtraInfo": "quas",
-      "LinkId": 70,
+      "EntityName": "Kassulke, Johnston and Jakubowski",
+      "Id": 846,
+      "Description": "Vision-oriented global array",
+      "ExtraInfo": "perspiciatis",
+      "LinkId": 326,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldLength": 400
         }
       }
     }
   ],
-  "AlarmLeadTime": "non",
-  "HasAlarm": false,
-  "ColorIndex": 39,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "vitae",
-  "LeadTime": "saepe",
-  "Location": "fugiat",
-  "RejectCounter": 26,
+  "AlarmLeadTime": "blanditiis",
+  "HasAlarm": true,
+  "ColorIndex": 779,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "et",
+  "LeadTime": "aut",
+  "Location": "atque",
+  "RejectCounter": 456,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 319,
-      "PersonId": 87,
-      "ContactId": 821,
-      "EmailId": 117,
-      "SendEmail": false,
+      "AssociateId": 922,
+      "PersonId": 695,
+      "ContactId": 806,
+      "EmailId": 828,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 319,
-      "PersonId": 87,
-      "ContactId": 821,
-      "EmailId": 117,
-      "SendEmail": false,
+      "AssociateId": 922,
+      "PersonId": 695,
+      "ContactId": 806,
+      "EmailId": 828,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-03-10T03:51:26.2250827+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2020-11-17T16:00:39.8519768+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 187,
+  "PreferredTZLocation": 604,
   "Sale": null,
-  "SuggestedAppointmentId": 942,
+  "SuggestedAppointmentId": 555,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sapiente",
+  "CentralserviceVideomeetId": "aut",
+  "Title": "ut",
+  "Agenda": "quo",
+  "InternalNotes": "doloribus",
   "UserDefinedFields": {
-    "SuperOffice:1": "Emmy Koepp",
-    "SuperOffice:2": "1769913037"
+    "SuperOffice:1": "Ashton Haag PhD",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "ipsa"
+    "ExtraFields1": "in",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "dolor"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2013-12-11T03:51:26.2250827+01:00",
-  "PublishTo": "2013-09-14T03:51:26.2250827+02:00",
-  "PublishFrom": "2009-08-29T03:51:26.2250827+02:00",
+  "PublishEventDate": "2022-05-11T16:00:39.8519768+02:00",
+  "PublishTo": "2017-11-23T16:00:39.8519768+01:00",
+  "PublishFrom": "2019-12-13T16:00:39.8519768+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 699,
+      "VisibleId": 169,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 310
+          "FieldType": "System.String",
+          "FieldLength": 610
         }
       }
     },
     {
-      "VisibleId": 699,
+      "VisibleId": 169,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 310
+          "FieldType": "System.String",
+          "FieldLength": 610
         }
       }
     }
@@ -259,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldLength": 541
     }
   }
 }

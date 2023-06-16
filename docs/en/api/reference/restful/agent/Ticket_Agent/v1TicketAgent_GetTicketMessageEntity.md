@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/GetTicketMessageEntity
 uid: v1TicketAgent_GetTicketMessageEntity
+generated: true
 ---
 
 # POST Agents/Ticket/GetTicketMessageEntity
@@ -25,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=66
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=884
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,78 +102,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 636,
+  "EjMessageId": 519,
   "Ticket": null,
-  "CreatedAt": "2010-12-31T03:51:28.3964515+01:00",
+  "CreatedAt": "2004-08-28T16:00:42.2268823+02:00",
   "CreatedBy": null,
-  "Author": "pariatur",
+  "Author": "aperiam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 525,
-  "Body": "ut",
-  "HtmlBody": "repudiandae",
-  "EmailHeader": "larue@beahanhegmann.com",
-  "DebugInfo": "molestias",
-  "MailSorter": "dolorem",
+  "MessageId": "quia",
+  "TimeSpent": 435,
+  "Body": "est",
+  "HtmlBody": "provident",
+  "EmailHeader": "keara_hessel@prosacco.us",
+  "DebugInfo": "doloribus",
+  "MailSorter": "debitis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "in",
+  "SearchTitle": "temporibus",
   "MessageHeaders": [
     {
-      "Id": 264,
-      "Name": "Auer-Orn",
-      "Value": "labore",
+      "Id": 279,
+      "Name": "Kreiger, Conn and Green",
+      "Value": "officia",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 900
+          "FieldType": "System.String",
+          "FieldLength": 758
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "modi",
-  "Sentiment": 571,
-  "SentimentConfidence": 674,
+  "Important": false,
+  "Language": "voluptatem",
+  "Sentiment": 630,
+  "SentimentConfidence": 652,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 551,
-      "Name": "Herzog, Bednar and Wolff",
-      "ContentType": "optio",
-      "AttSize": 694,
+      "AttachmentId": 381,
+      "Name": "Hills Group",
+      "ContentType": "non",
+      "AttSize": 689,
       "InlineImage": false,
-      "ContentId": "ea",
-      "AuthKey": "soluta",
+      "ContentId": "autem",
+      "AuthKey": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 441
+          "FieldLength": 582
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "itaque",
-    "CustomFields2": "quia"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "voluptate"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 981
     }
   }
 }

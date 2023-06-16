@@ -1,6 +1,7 @@
 ---
 title: PATCH Hierarchy/{id}
 uid: v1HierarchyEntity_PatchHierarchyEntity
+generated: true
 ---
 
 # PATCH Hierarchy/{id}
@@ -116,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "veniam",
+    "path": "dolor",
     "value": {}
   },
   {
     "op": "add",
-    "path": "veniam",
+    "path": "dolor",
     "value": {}
   }
 ]
@@ -140,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 255,
+  "HierarchyId": 936,
   "Domain": "Dashboards",
-  "Name": "Nicolas, Herzog and Brown",
-  "Fullname": "ex",
-  "ParentId": 460,
+  "Name": "Ratke Inc and Sons",
+  "Fullname": "cupiditate",
+  "ParentId": 869,
   "Children": [
     {
-      "HierarchyId": 28,
+      "HierarchyId": 799,
       "Domain": "Dashboards",
-      "Name": "Kerluke, Crona and Kshlerin",
-      "Fullname": "facere",
-      "ParentId": 566,
+      "Name": "Maggio, Kuvalis and Murray",
+      "Fullname": "voluptate",
+      "ParentId": 394,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-11-09T03:51:33.6928335+01:00",
-      "RegisteredAssociateId": 792,
-      "Updated": "2022-06-12T03:51:33.6928335+02:00",
-      "UpdatedAssociateId": 850,
+      "Registered": "2005-07-08T16:00:47.9928249+02:00",
+      "RegisteredAssociateId": 137,
+      "Updated": "2010-10-09T16:00:47.9928249+02:00",
+      "UpdatedAssociateId": 745,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 907
+          "FieldLength": 663
         }
       }
     }
   ],
-  "Registered": "2003-09-11T03:51:33.6928335+02:00",
-  "RegisteredAssociateId": 537,
-  "Updated": "2022-10-06T03:51:33.6928335+02:00",
-  "UpdatedAssociateId": 448,
+  "Registered": "2021-07-23T16:00:47.9928249+02:00",
+  "RegisteredAssociateId": 995,
+  "Updated": "2001-08-16T16:00:47.9928249+02:00",
+  "UpdatedAssociateId": 1001,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldLength": 161
     }
   },
   "_Links": {

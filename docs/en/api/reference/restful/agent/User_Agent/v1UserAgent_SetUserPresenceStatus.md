@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/SetUserPresenceStatus
 uid: v1UserAgent_SetUserPresenceStatus
+generated: true
 ---
 
 # POST Agents/User/SetUserPresenceStatus
@@ -78,7 +79,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 847,
+  "AssociateId": 628,
   "UserPresenceStatus": null
 }
 ```
@@ -91,6 +92,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "accusamus"
+  "Message": "reiciendis"
 }
 ```

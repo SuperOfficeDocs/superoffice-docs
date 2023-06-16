@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailSOInfo
 uid: v1EMailAgent_CreateDefaultEMailSOInfo
+generated: true
 ---
 
 # POST Agents/EMail/CreateDefaultEMailSOInfo
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 22,
-  "AppointmentId": 942,
-  "ProjectId": 139,
-  "SaleId": 356,
+  "DocumentId": 975,
+  "AppointmentId": 193,
+  "ProjectId": 623,
+  "SaleId": 631,
   "Archived": false,
-  "ArchivedAt": "2001-08-22T03:51:27.2092335+02:00",
-  "ArchivedBy": 417,
-  "ArchivedDisplayName": "Emmerich, Osinski and Dickinson",
+  "ArchivedAt": "2016-08-03T16:00:40.8987367+02:00",
+  "ArchivedBy": 17,
+  "ArchivedDisplayName": "Wyman LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldType": "System.Int32",
+      "FieldLength": 777
     }
   }
 }

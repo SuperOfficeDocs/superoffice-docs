@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldInfo
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
@@ -25,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=961
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=141
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -99,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 881,
-  "ColumnId": 202,
-  "FieldDefault": "error",
-  "FieldHeight": 850,
-  "FieldLabel": "harum",
-  "FieldLeft": 865,
-  "FieldTop": 534,
+  "UDefFieldId": 66,
+  "ColumnId": 626,
+  "FieldDefault": "assumenda",
+  "FieldHeight": 382,
+  "FieldLabel": "suscipit",
+  "FieldLeft": 946,
+  "FieldTop": 898,
   "FieldType": "Checkbox",
-  "FieldWidth": 653,
-  "FormatMask": "quisquam",
-  "HideLabel": false,
+  "FieldWidth": 553,
+  "FormatMask": "consequuntur",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 905,
-  "LabelLeft": 19,
-  "LabelTop": 341,
-  "LabelWidth": 709,
-  "LastVersionId": 269,
-  "ListTableId": 601,
-  "IsMandatory": true,
+  "LabelHeight": 73,
+  "LabelLeft": 956,
+  "LabelTop": 520,
+  "LabelWidth": 237,
+  "LastVersionId": 78,
+  "ListTableId": 107,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 609,
-  "ProgId": "cupiditate",
+  "Page1LineNo": 483,
+  "ProgId": "ullam",
   "IsReadOnly": false,
-  "ShortLabel": "molestiae",
-  "TabOrder": 759,
-  "TextLength": 357,
-  "Tooltip": "laudantium",
-  "UdefIdentity": 613,
-  "UDListDefinitionId": 90,
+  "ShortLabel": "et",
+  "TabOrder": 476,
+  "TextLength": 176,
+  "Tooltip": "modi",
+  "UdefIdentity": 466,
+  "UDListDefinitionId": 701,
   "Justification": "Center",
-  "Version": 604,
-  "TemplateVariableName": "Ratke, Cremin and Kunze",
+  "Version": 475,
+  "TemplateVariableName": "Cruickshank, Ankunding and Lindgren",
   "HasBeenPublished": false,
-  "MdoListName": "Gottlieb, Feeney and Huel",
+  "MdoListName": "Gottlieb Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 998
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: PATCH ShipmentMessage/{id}
 uid: v1ShipmentMessageEntity_PatchShipmentMessageEntity
+generated: true
 ---
 
 # PATCH ShipmentMessage/{id}
@@ -133,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ad",
+    "path": "eveniet",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ad",
+    "path": "eveniet",
     "value": {}
   }
 ]
@@ -151,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 332,
-  "PlainMessage": "sit",
-  "HtmlMessage": "ut",
-  "SmsMessage": "nam",
-  "Description": "User-friendly systemic service-desk",
-  "Subject": "autem",
-  "FolderId": 434,
-  "HeaderField": "at",
-  "Design": "voluptates",
+  "ShipmentMessageId": 639,
+  "PlainMessage": "vero",
+  "HtmlMessage": "illum",
+  "SmsMessage": "mollitia",
+  "Description": "Optional full-range hardware",
+  "Subject": "est",
+  "FolderId": 474,
+  "HeaderField": "fugit",
+  "Design": "nemo",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Focused content-based hierarchy",
-  "AccessKey": "et",
-  "DocumentMessage": 594,
-  "Registered": "1999-01-15T03:51:34.0208828+01:00",
-  "RegisteredAssociateId": 836,
-  "Updated": "2015-02-28T03:51:34.0208828+01:00",
-  "UpdatedAssociateId": 473,
-  "UpdatedCount": 589,
+  "LongDescription": "Down-sized contextually-based matrix",
+  "AccessKey": "sapiente",
+  "DocumentMessage": 616,
+  "Registered": "2014-11-26T16:00:48.4615203+01:00",
+  "RegisteredAssociateId": 111,
+  "Updated": "2007-08-20T16:00:48.4615203+02:00",
+  "UpdatedAssociateId": 826,
+  "UpdatedCount": 126,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 542
+      "FieldType": "System.Int32",
+      "FieldLength": 71
     }
   },
   "_Links": {

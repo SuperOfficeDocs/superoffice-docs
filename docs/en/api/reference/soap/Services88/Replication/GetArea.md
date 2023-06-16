@@ -1,6 +1,6 @@
 ---
 title: Services88.ReplicationAgent.GetArea SOAP
-generated: 1
+generated: true
 uid: Services88-Replication-GetArea
 ---
 

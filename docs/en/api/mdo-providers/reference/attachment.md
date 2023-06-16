@@ -1,17 +1,11 @@
 ---
 uid: attachment
 title: attachment
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "attachment"
+keywords: mdoprovider mdo provider attachment
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "attachment" MDO List

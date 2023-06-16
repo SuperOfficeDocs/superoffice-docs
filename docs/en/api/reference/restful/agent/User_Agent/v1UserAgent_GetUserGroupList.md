@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetUserGroupList
 uid: v1UserAgent_GetUserGroupList
+generated: true
 ---
 
 # POST Agents/User/GetUserGroupList
@@ -86,17 +87,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "sequi",
-    "Tooltip": "rerum",
-    "Id": 819,
-    "Rank": 819,
+    "Value": "pariatur",
+    "Tooltip": "nulla",
+    "Id": 319,
+    "Rank": 221,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 177
+        "FieldLength": 378
       }
     }
   }

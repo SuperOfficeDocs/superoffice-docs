@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetEMailFromDocumentAttachmentId
 uid: v1EMailAgent_GetEMailFromDocumentAttachmentId
+generated: true
 ---
 
 # POST Agents/EMail/GetEMailFromDocumentAttachmentId
@@ -105,10 +106,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 200,
+  "DocId": 928,
   "AttachmentIds": [
-    "delectus",
-    "placeat"
+    "modi",
+    "error"
   ],
   "IncludeAttachments": false
 }
@@ -123,146 +124,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 284,
-      "ContactName": "Borer Group",
-      "PersonId": 406,
-      "PersonName": "Connelly Inc and Sons",
-      "AssociateId": 274,
-      "Address": "consequatur",
-      "EmailId": 836,
+      "ContactId": 943,
+      "ContactName": "Kuphal Group",
+      "PersonId": 523,
+      "PersonName": "Denesik LLC",
+      "AssociateId": 104,
+      "Address": "ut",
+      "EmailId": 574,
       "DuplicatePersonIds": [
-        854,
-        943
+        617,
+        357
       ],
-      "Name": "Muller-Bradtke",
+      "Name": "Aufderhar Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 525
+          "FieldType": "System.String",
+          "FieldLength": 992
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 544,
-      "ContactName": "Legros, Barton and Pouros",
-      "PersonId": 336,
-      "PersonName": "Weimann, Rice and Treutel",
-      "AssociateId": 421,
-      "Address": "consequatur",
-      "EmailId": 239,
+      "ContactId": 654,
+      "ContactName": "Mueller LLC",
+      "PersonId": 985,
+      "PersonName": "Barrows-Reynolds",
+      "AssociateId": 646,
+      "Address": "sit",
+      "EmailId": 523,
       "DuplicatePersonIds": [
-        234,
-        847
+        862,
+        480
       ],
-      "Name": "Sanford, Hirthe and Oberbrunner",
+      "Name": "Ernser Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldType": "System.String",
+          "FieldLength": 118
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 627,
-      "ContactName": "Langworth, Lesch and Lind",
-      "PersonId": 367,
-      "PersonName": "Schmidt, Abshire and Schmitt",
-      "AssociateId": 329,
-      "Address": "tempora",
-      "EmailId": 827,
+      "ContactId": 72,
+      "ContactName": "Rogahn Inc and Sons",
+      "PersonId": 314,
+      "PersonName": "Abbott Inc and Sons",
+      "AssociateId": 34,
+      "Address": "atque",
+      "EmailId": 356,
       "DuplicatePersonIds": [
-        128,
-        1001
+        31,
+        383
       ],
-      "Name": "Jewess-Kreiger",
+      "Name": "Larkin-Lehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 25
+          "FieldLength": 935
         }
       }
     }
   ],
-  "Subject": "inventore",
-  "HTMLBody": "et",
+  "Subject": "nemo",
+  "HTMLBody": "magnam",
   "From": null,
-  "Sent": "2003-10-15T03:51:27.2560919+02:00",
-  "Size": 720,
+  "Sent": "2001-11-02T16:00:40.9612259+01:00",
+  "Size": 933,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "nobis",
+  "MessageID": "quisquam",
+  "PlainBody": "harum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 797,
+  "ServerId": 406,
   "Attachments": [
     {
-      "Description": "Distributed asynchronous info-mediaries",
-      "Filename": "sit",
-      "Size": 486,
-      "Type": "maiores",
-      "Encoding": "culpa",
-      "Id": "qui",
-      "Disposition": "occaecati",
+      "Description": "Exclusive non-volatile extranet",
+      "Filename": "minus",
+      "Size": 506,
+      "Type": "aut",
+      "Encoding": "voluptatem",
+      "Id": "officia",
+      "Disposition": "sunt",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 807
+          "FieldType": "System.Int32",
+          "FieldLength": 409
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hettinger, O'Conner and Nader",
+      "Name": "Bauch, Bosco and Strosin",
       "Values": [
-        "natus",
-        "culpa"
+        "aspernatur",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 961
         }
       }
     },
     {
-      "Name": "Hettinger, O'Conner and Nader",
+      "Name": "Bauch, Bosco and Strosin",
       "Values": [
-        "natus",
-        "culpa"
+        "aspernatur",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 961
         }
       }
     }
   ],
-  "FolderName": "Hettinger LLC",
-  "EmailItemId": 479,
-  "AccountId": 375,
-  "ReceivedAt": "2006-06-23T03:51:27.2560919+02:00",
+  "FolderName": "Feil-Weimann",
+  "EmailItemId": 294,
+  "AccountId": 722,
+  "ReceivedAt": "2011-11-18T16:00:40.9612259+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-11-23T03:51:27.2560919+01:00",
+  "RepliedAt": "2019-06-27T16:00:40.9612259+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,8 +271,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 954
+      "FieldType": "System.Int32",
+      "FieldLength": 423
     }
   }
 }

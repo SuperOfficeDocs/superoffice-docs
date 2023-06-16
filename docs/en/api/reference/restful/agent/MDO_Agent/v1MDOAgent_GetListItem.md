@@ -1,6 +1,7 @@
 ---
 title: POST Agents/MDO/GetListItem
 uid: v1MDOAgent_GetListItem
+generated: true
 ---
 
 # POST Agents/MDO/GetListItem
@@ -84,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Denesik-O'Hara",
-  "Id": 95
+  "ListName": "Abshire, Thompson and Wunsch",
+  "Id": 524
 }
 ```
 
@@ -100,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 716,
-  "Name": "McGlynn, Bauch and Ullrich",
-  "ToolTip": "Ab non nemo omnis magni molestiae dolores.",
+  "Id": 557,
+  "Name": "Friesen, Ruecker and Kohler",
+  "ToolTip": "Necessitatibus facere in.",
   "Deleted": false,
-  "Rank": 29,
-  "Type": "illo",
+  "Rank": 110,
+  "Type": "fuga",
   "ChildItems": [
     {
-      "Id": 667,
-      "Name": "Tillman, Fisher and Sanford",
-      "ToolTip": "Sunt mollitia vitae.",
-      "Deleted": true,
-      "Rank": 378,
-      "Type": "magni",
+      "Id": 460,
+      "Name": "Hahn, Adams and Crooks",
+      "ToolTip": "Qui vero nostrum quo commodi.",
+      "Deleted": false,
+      "Rank": 151,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ducimus",
-      "ColorBlock": 353,
-      "ExtraInfo": "sint",
-      "StyleHint": "quisquam",
-      "FullName": "Dr. Lorenz Jakubowski III",
+      "IconHint": "similique",
+      "ColorBlock": 56,
+      "ExtraInfo": "tenetur",
+      "StyleHint": "esse",
+      "FullName": "Reuben Nitzsche",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 871
+          "FieldLength": 571
         }
       }
     }
   ],
-  "IconHint": "aliquid",
-  "ColorBlock": 868,
-  "ExtraInfo": "dolor",
-  "StyleHint": "nisi",
-  "FullName": "Deonte Ziemann",
+  "IconHint": "occaecati",
+  "ColorBlock": 518,
+  "ExtraInfo": "et",
+  "StyleHint": "ex",
+  "FullName": "Norma Ruecker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   }
 }

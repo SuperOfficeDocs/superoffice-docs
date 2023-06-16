@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/DeleteEmailFlow
 uid: v1WorkflowAgent_DeleteEmailFlow
+generated: true
 ---
 
 # POST Agents/Workflow/DeleteEmailFlow
@@ -24,7 +25,7 @@ Deletes the EmailFlow
 | EmailFlowId | int32 | **Required** The id of the EmailFlow to be deleted. |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteEmailFlow?EmailFlowId=51
+POST /api/v1/Agents/Workflow/DeleteEmailFlow?EmailFlowId=588
 ```
 
 

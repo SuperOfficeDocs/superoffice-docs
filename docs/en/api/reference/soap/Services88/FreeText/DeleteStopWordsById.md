@@ -1,6 +1,6 @@
 ---
 title: Services88.FreeTextAgent.DeleteStopWordsById SOAP
-generated: 1
+generated: true
 uid: Services88-FreeText-DeleteStopWordsById
 ---
 

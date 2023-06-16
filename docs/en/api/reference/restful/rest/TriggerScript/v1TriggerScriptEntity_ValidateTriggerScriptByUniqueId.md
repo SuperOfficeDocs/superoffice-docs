@@ -1,6 +1,7 @@
 ---
 title: GET TriggerScript/{id}/Validate
 uid: v1TriggerScriptEntity_ValidateTriggerScriptByUniqueId
+generated: true
 ---
 
 # GET TriggerScript/{id}/Validate
@@ -64,7 +65,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,13 +76,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "quidem",
+  "ErrorMessage": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldLength": 5
     }
   }
 }

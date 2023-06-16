@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetHeadingsFromListDefinition
 uid: v1ListAgent_GetHeadingsFromListDefinition
+generated: true
 ---
 
 # POST Agents/List/GetHeadingsFromListDefinition
@@ -81,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 114
+  "Id": 364
 }
 ```
 
@@ -93,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 916,
-    "Name": "Balistreri Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 753,
+    "Name": "Reynolds, Johnson and Price",
+    "Tooltip": "maiores",
     "Deleted": false,
-    "Rank": 165,
-    "UdListDefinitionId": 45,
+    "Rank": 763,
+    "UdListDefinitionId": 118,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 253
+        "FieldType": "System.Int32",
+        "FieldLength": 287
       }
     }
   }

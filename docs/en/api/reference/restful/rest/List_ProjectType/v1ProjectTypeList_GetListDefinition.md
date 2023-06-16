@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectType
 uid: v1ProjectTypeList_GetListDefinition
+generated: true
 ---
 
 # GET List/ProjectType
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 989,
-  "Name": "Nolan-Boyle",
-  "Tooltip": "hic",
-  "Deleted": true,
-  "Rank": 174,
+  "Id": 993,
+  "Name": "Leannon Group",
+  "Tooltip": "quos",
+  "Deleted": false,
+  "Rank": 664,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestias",
+  "ListType": "tempore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldType": "System.Int32",
+      "FieldLength": 506
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -2,17 +2,10 @@
 uid: ProjectDynamicSelectionSingleCriteriaGroup
 title: ProjectDynamicSelectionSingleCriteriaGroup
 description: Project selection archive using the selectionId as criterionmapping.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ProjectDynamicSelectionSingleCriteriaGroup"
+keywords: ProjectDynamicSelectionSingleCriteriaGroup archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ProjectDynamicSelectionSingleCriteriaGroup"
@@ -128,6 +121,10 @@ Project selection archive using the selectionId as criterionmapping.
 |saintTicketCategory|listAny|Category|  |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |sale/icon|listAny|Category: Displays the icon for an activity type| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity| x |
@@ -228,6 +225,10 @@ Project selection archive using the selectionId as criterionmapping.
 |appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |appointment/contactId|listAny|Company ID: Database ID of company| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 |appointment/projectId|listAny|Project ID: Database ID of project record| x |
 |appointment/saleId|int|Sale ID: The database ID of the sale record| x |
@@ -328,6 +329,10 @@ Project selection archive using the selectionId as criterionmapping.
 |document/documentId|int|Document ID: Database ID of document record| x |
 |document/keywords|string|Keywords | x |
 |document/ourref|string|Our ref.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |document/yourref|string|Your ref.| x |
 |document/attention|string|Salutation| x |
 |document/subject|string|Subject| x |
@@ -428,6 +433,10 @@ Project selection archive using the selectionId as criterionmapping.
 |projectMember/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |projectMember/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |projectMember/personAssociateId|associate|Our contact: Displays our contact| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |projectMember/personCategory|listAny|Category| x |
 |projectMember/personBusiness|listAny|Business| x |
@@ -528,6 +537,10 @@ Project selection archive using the selectionId as criterionmapping.
 |projectMember/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/personAssociate/associateDbId|associate|ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMember/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectMember/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -628,6 +641,10 @@ Project selection archive using the selectionId as criterionmapping.
 |projectMember/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 |projectMember/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
 |projectMember/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
 |projectMember/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |projectMember/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
@@ -728,6 +745,10 @@ Project selection archive using the selectionId as criterionmapping.
 |projectMember/NumberOfTickets|int|Number of requests|  |
 |projectMember/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |projectMember/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
 |projectMember/LastTicket|date|Date of last request|  |
 |projectMember/LastCompletedTicket|date|Date of last completed request|  |
@@ -747,7 +768,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionSingleCriteriaGroup?$select=NumberOfNotCompletedSales,sale/associate/credentialDisplayValue,document/documentPublish/publishedFrom,projectMember/personActiveErpLinks,projectMember/withdrawnEmarketingConsent
+GET /api/v1/archive/ProjectDynamicSelectionSingleCriteriaGroup?$select=sale/soldReason,sale/salePublish/isPublished,appointment/priority,appointment/associate/middleName,document/associate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

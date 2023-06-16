@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/RemoveContactSelectionMembersFromIds
 uid: v1SelectionAgent_RemoveContactSelectionMembersFromIds
+generated: true
 ---
 
 # POST Agents/Selection/RemoveContactSelectionMembersFromIds
@@ -70,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 441,
+  "SelectionId": 850,
   "SelectionMembersIds": [
-    375,
-    556
+    658,
+    51
   ]
 }
 ```

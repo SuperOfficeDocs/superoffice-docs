@@ -1,6 +1,6 @@
 ---
 title: Services88.NumberAllocationAgent.SetNumberEachTemplate SOAP
-generated: 1
+generated: true
 uid: Services88-NumberAllocation-SetNumberEachTemplate
 ---
 

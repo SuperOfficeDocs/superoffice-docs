@@ -1,17 +1,12 @@
 ---
 uid: appointmenttextid
 title: appointmenttextid
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "appointmenttextid"
+keywords: mdoprovider mdo provider appointmenttextid
+description: Special case of appointment list where we get the id value from the Text table. For use when we want
+to represent an appointment with the text.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "appointmenttextid" MDO List

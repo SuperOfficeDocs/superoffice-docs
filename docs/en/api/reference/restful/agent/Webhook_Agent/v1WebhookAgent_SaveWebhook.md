@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Webhook/SaveWebhook
 uid: v1WebhookAgent_SaveWebhook
+generated: true
 ---
 
 # POST Agents/Webhook/SaveWebhook
@@ -86,30 +87,30 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 115,
-  "Name": "Weimann-Williamson",
+  "WebhookId": 319,
+  "Name": "Emmerich-Smith",
   "Events": [
-    "voluptate",
-    "soluta"
+    "et",
+    "ut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "veritatis",
+  "Secret": "est",
   "State": "Active",
-  "Type": "sed",
+  "Type": "hic",
   "Headers": {
-    "Headers1": "quo",
-    "Headers2": "autem"
+    "Headers1": "assumenda",
+    "Headers2": "ea"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2009-08-05T03:51:28.5526663+02:00",
+  "Registered": "1998-07-30T16:00:42.4143588+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1999-11-20T03:51:28.5526663+01:00",
+  "Updated": "2012-10-10T16:00:42.4143588+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -121,26 +122,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 428,
-  "Name": "Larson-Welch",
+  "WebhookId": 524,
+  "Name": "Beer-Auer",
   "Events": [
-    "vero",
-    "amet"
+    "rerum",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptas",
+  "Secret": "porro",
   "State": "Active",
-  "Type": "qui",
+  "Type": "dolorem",
   "Headers": {
-    "Headers1": "est",
-    "Headers2": "iusto"
+    "Headers1": "officiis",
+    "Headers2": "soluta"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-10-07T03:51:28.5526663+02:00",
+  "Registered": "2005-07-28T16:00:42.4143588+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2016-12-13T03:51:28.5526663+01:00",
+  "Updated": "2015-06-28T16:00:42.4143588+02:00",
   "UpdatedAssociate": null
 }
 ```

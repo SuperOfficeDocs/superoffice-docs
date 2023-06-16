@@ -1,17 +1,11 @@
 ---
 uid: quoteconnectors
 title: quoteconnectors
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "quoteconnectors"
+keywords: mdoprovider mdo provider quoteconnectors
+description: Retrieve the list of all installed (i.e., loaded assemblies) Quote Connectors
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "quoteconnectors" MDO List

@@ -1,6 +1,6 @@
 ---
 title: Services88.ConfigurationAgent.GetWwwUrlForSMWeb SOAP
-generated: 1
+generated: true
 uid: Services88-Configuration-GetWwwUrlForSMWeb
 ---
 

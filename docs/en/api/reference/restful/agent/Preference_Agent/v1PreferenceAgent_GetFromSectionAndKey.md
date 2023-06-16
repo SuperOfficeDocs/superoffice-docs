@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetFromSectionAndKey
 uid: v1PreferenceAgent_GetFromSectionAndKey
+generated: true
 ---
 
 # POST Agents/Preference/GetFromSectionAndKey
@@ -90,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ea",
-  "Key": "nostrum"
+  "Section": "sunt",
+  "Key": "repudiandae"
 }
 ```
 
@@ -106,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 232,
-  "Section": "eum",
-  "Key": "et",
-  "Name": "Raynor LLC",
+  "PrefDescId": 30,
+  "Section": "occaecati",
+  "Key": "cum",
+  "Name": "Yost-Treutel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Down-sized context-sensitive forecast",
-  "IsBuiltin": true,
-  "TableName": "Christiansen-Doyle",
-  "UserDefinedListId": 871,
-  "Rank": 831,
-  "SubGroup": "velit",
-  "MinLevel": 405,
-  "MaxValue": 480,
-  "MinValue": 673,
-  "RequiredLicense": "recusandae",
+  "Description": "Virtual well-modulated frame",
+  "IsBuiltin": false,
+  "TableName": "Rau-Stark",
+  "UserDefinedListId": 65,
+  "Rank": 852,
+  "SubGroup": "at",
+  "MinLevel": 416,
+  "MaxValue": 567,
+  "MinValue": 282,
+  "RequiredLicense": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldType": "System.String",
+      "FieldLength": 18
     }
   }
 }

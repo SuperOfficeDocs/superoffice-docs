@@ -3,13 +3,9 @@ uid: documentagent-createnewphysicaldocumentfromtemplatewithcustomtags2
 title: DocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2 event method
 description: Scripting events called on the CreateNewPhysicalDocumentFromTemplateWithCustomTags2 method on the DocumentAgent service agent.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 # DocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 

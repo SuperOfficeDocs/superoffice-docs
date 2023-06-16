@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentTerm/Items/{id}/UserGroups
 uid: v1PaymentTermsList_GetPaymentTermUserGroupsForListItem
+generated: true
 ---
 
 # GET List/PaymentTerm/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 989,
-    "Name": "O'Keefe, Frami and Walker",
-    "ToolTip": "Iusto molestiae veniam accusantium repellat iusto incidunt tempora.",
+    "Id": 938,
+    "Name": "Prohaska Inc and Sons",
+    "ToolTip": "Aut qui quia quo repellat officia laudantium ut.",
     "Deleted": false,
-    "Rank": 904,
-    "Type": "cupiditate",
-    "ColorBlock": 476,
-    "IconHint": "at",
-    "Selected": false,
-    "LastChanged": "2012-10-19T03:51:34.7395889+02:00",
+    "Rank": 416,
+    "Type": "a",
+    "ColorBlock": 819,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2001-08-06T16:00:49.086451+02:00",
     "ChildItems": [
       {
-        "Id": 368,
-        "Name": "Beier, Hyatt and Corwin",
-        "ToolTip": "Assumenda voluptatem dolor culpa fugit.",
-        "Deleted": false,
-        "Rank": 655,
-        "Type": "sit",
-        "ColorBlock": 192,
-        "IconHint": "illum",
+        "Id": 174,
+        "Name": "Wisozk, Bogan and Eichmann",
+        "ToolTip": "Eum id cumque ex.",
+        "Deleted": true,
+        "Rank": 685,
+        "Type": "enim",
+        "ColorBlock": 327,
+        "IconHint": "in",
         "Selected": true,
-        "LastChanged": "2016-03-08T03:51:34.7395889+01:00",
+        "LastChanged": "2009-04-02T16:00:49.086451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "qui",
+        "ExtraInfo": "illum",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Allen Erdman",
+        "FullName": "Milton Streich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 934
+            "FieldLength": 366
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "id",
+    "StyleHint": "fugiat",
     "Hidden": false,
-    "FullName": "Otha Lebsack",
+    "FullName": "Kayden Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 423
+        "FieldLength": 116
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: Services88.ReportAgent.CreateDefaultReportEntity SOAP
-generated: 1
+generated: true
 uid: Services88-Report-CreateDefaultReportEntity
 ---
 

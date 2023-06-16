@@ -1,5 +1,6 @@
 ---
 title: Batch
+generated: true
 ---
 
 ```http

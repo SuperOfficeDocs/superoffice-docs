@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/CreateDefaultPreferenceDescription
 uid: v1PreferenceAgent_CreateDefaultPreferenceDescription
+generated: true
 ---
 
 # POST Agents/Preference/CreateDefaultPreferenceDescription
@@ -83,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 217,
-  "Section": "qui",
-  "Key": "sint",
-  "Name": "Hintz LLC",
+  "PrefDescId": 260,
+  "Section": "ea",
+  "Key": "magnam",
+  "Name": "Prohaska Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked multimedia service-desk",
+  "Description": "Programmable tangible productivity",
   "IsBuiltin": false,
-  "TableName": "Fay LLC",
-  "UserDefinedListId": 538,
-  "Rank": 341,
-  "SubGroup": "sit",
-  "MinLevel": 62,
-  "MaxValue": 856,
-  "MinValue": 124,
-  "RequiredLicense": "minima",
+  "TableName": "Lindgren Group",
+  "UserDefinedListId": 71,
+  "Rank": 659,
+  "SubGroup": "totam",
+  "MinLevel": 127,
+  "MaxValue": 356,
+  "MinValue": 209,
+  "RequiredLicense": "accusantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldLength": 85
     }
   }
 }

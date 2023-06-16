@@ -1,6 +1,7 @@
 ---
 title: GET TicketMessage/CustomField/{fieldName}
 uid: v1TicketMessageEntity_GetCustomFieldInfo
+generated: true
 ---
 
 # GET TicketMessage/CustomField/{fieldName}
@@ -70,7 +71,7 @@ OK
 GET /api/v1/TicketMessage/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Schmidt-Kihn",
-  "DisplayName": "Parker, Spinka and Bailey",
-  "Description": "Down-sized content-based emulation",
-  "ShortLabel": "odit",
-  "HideLabel": true,
+  "FieldName": "Buckridge, Leannon and Schiller",
+  "DisplayName": "Rolfson Group",
+  "Description": "Customizable logistical moratorium",
+  "ShortLabel": "ipsam",
+  "HideLabel": false,
   "HideField": false,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 474,
-  "TemplateVariableName": "Funk-Botsford"
+  "IsExternal": true,
+  "Rank": 596,
+  "TemplateVariableName": "Witting, Halvorson and Bruen"
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetConnectionListMappings
 uid: v1ErpSyncAgent_GetConnectionListMappings
+generated: true
 ---
 
 # POST Agents/ErpSync/GetConnectionListMappings
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 841
+  "ErpConnectionId": 765
 }
 ```
 
@@ -94,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Spencer-Schmeler",
+      "ErpListName": "Predovic Group",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Stamm-Kovacek",
-      "ErpFieldId": 805,
+      "ErpActorTypeName": "Breitenberg LLC",
+      "ErpFieldId": 769,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 907
         }
       }
     }
   ],
-  "ErpConnectionId": 808,
-  "ErpConnectionName": "Homenick Inc and Sons",
+  "ErpConnectionId": 259,
+  "ErpConnectionName": "Hayes-Franecki",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 462
     }
   }
 }

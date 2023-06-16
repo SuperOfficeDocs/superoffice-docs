@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/GetAttachmentInfoNonInline
 uid: v1TicketAgent_GetAttachmentInfoNonInline
+generated: true
 ---
 
 # POST Agents/Ticket/GetAttachmentInfoNonInline
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 399
+  "TicketMessageEntityId": 745
 }
 ```
 
@@ -94,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 511,
-    "Name": "Koch LLC",
-    "ContentType": "et",
-    "AttSize": 71,
+    "AttachmentId": 570,
+    "Name": "Kuhn, Pfannerstill and Klein",
+    "ContentType": "sed",
+    "AttSize": 20,
     "InlineImage": false,
-    "ContentId": "cumque",
-    "AuthKey": "sit",
+    "ContentId": "sint",
+    "AuthKey": "debitis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldType": "System.String",
+        "FieldLength": 786
       }
     }
   }

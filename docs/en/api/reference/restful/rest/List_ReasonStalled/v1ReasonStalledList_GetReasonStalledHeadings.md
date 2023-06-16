@@ -1,6 +1,7 @@
 ---
 title: GET List/ReasonStalled/Headings
 uid: v1ReasonStalledList_GetReasonStalledHeadings
+generated: true
 ---
 
 # GET List/ReasonStalled/Headings
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 138,
-    "Name": "Windler, Deckow and Spinka",
-    "Tooltip": "placeat",
-    "Deleted": false,
-    "Rank": 973,
-    "UdListDefinitionId": 478,
+    "HeadingId": 730,
+    "Name": "Davis-Douglas",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 759,
+    "UdListDefinitionId": 209,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldType": "System.String",
+        "FieldLength": 677
       }
     }
   }

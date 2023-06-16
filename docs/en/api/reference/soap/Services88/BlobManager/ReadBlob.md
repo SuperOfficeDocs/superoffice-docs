@@ -1,6 +1,6 @@
 ---
 title: Services88.BlobManagerAgent.ReadBlob SOAP
-generated: 1
+generated: true
 uid: Services88-BlobManager-ReadBlob
 ---
 

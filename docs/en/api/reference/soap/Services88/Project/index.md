@@ -1,7 +1,7 @@
 ---
 title: Services88.ProjectAgent SOAP
 uid: Services88-Project-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Project SOAP

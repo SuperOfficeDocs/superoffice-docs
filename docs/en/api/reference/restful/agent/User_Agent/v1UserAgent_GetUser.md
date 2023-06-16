@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetUser
 uid: v1UserAgent_GetUser
+generated: true
 ---
 
 # POST Agents/User/GetUser
@@ -27,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=358
+POST /api/v1/Agents/User/GetUser?userId=478
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -92,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 551,
-  "Name": "Kohler, Price and Osinski",
-  "Rank": 227,
-  "Tooltip": "nostrum",
+  "AssociateId": 9,
+  "Name": "Schneider-Steuber",
+  "Rank": 105,
+  "Tooltip": "voluptatem",
   "LicenseOwners": [
     {
-      "Name": "Turcotte Inc and Sons",
-      "Description": "Ergonomic discrete Graphic Interface",
+      "Name": "Friesen-Reynolds",
+      "Description": "Re-engineered clear-thinking conglomeration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,13 +124,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 681
+          "FieldLength": 817
         }
       }
     },
     {
-      "Name": "Turcotte Inc and Sons",
-      "Description": "Ergonomic discrete Graphic Interface",
+      "Name": "Friesen-Reynolds",
+      "Description": "Re-engineered clear-thinking conglomeration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 681
+          "FieldLength": 817
         }
       }
     }
@@ -152,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sunt",
-      "Tooltip": "nostrum",
-      "Id": 74,
-      "Rank": 575,
-      "Deleted": false,
+      "Value": "error",
+      "Tooltip": "in",
+      "Id": 243,
+      "Rank": 271,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 39
+          "FieldLength": 423
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1997-04-27T03:51:28.4901768+02:00",
-  "Lastlogout": "2020-09-23T03:51:28.4901768+02:00",
-  "EjUserId": 571,
-  "RequestSignature": "ea",
+  "Lastlogin": "2004-07-17T16:00:42.3362429+02:00",
+  "Lastlogout": "2004-10-13T16:00:42.3362429+02:00",
+  "EjUserId": 231,
+  "RequestSignature": "totam",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "maxime",
-      "DisplayValue": "fugiat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 771
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "maxime",
-      "DisplayValue": "fugiat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 771
-        }
-      }
-    }
-  ],
-  "UserName": "Kunde-Dickens",
-  "TicketCategories": [
-    {
-      "Id": 593,
-      "Name": "Schultz Group",
-      "ToolTip": "Dolores culpa numquam.",
-      "Deleted": false,
-      "Rank": 335,
-      "Type": "reprehenderit",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "pariatur",
-      "ColorBlock": 604,
-      "ExtraInfo": "enim",
-      "StyleHint": "in",
-      "FullName": "Orlando Rohan",
+      "Value": "accusamus",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 466
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "accusamus",
+      "DisplayValue": "reprehenderit",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 466
         }
       }
     }
   ],
-  "NickName": "Reilly LLC",
+  "UserName": "Kihn, Schimmel and Padberg",
+  "TicketCategories": [
+    {
+      "Id": 226,
+      "Name": "Hackett-Hoeger",
+      "ToolTip": "Voluptas rerum ea dolores odio aut est.",
+      "Deleted": false,
+      "Rank": 760,
+      "Type": "deleniti",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "est",
+      "ColorBlock": 463,
+      "ExtraInfo": "incidunt",
+      "StyleHint": "modi",
+      "FullName": "Jamarcus Yundt",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 108
+        }
+      }
+    }
+  ],
+  "NickName": "McLaughlin Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "et",
+    "CustomFields2": "aut"
   },
   "PostSaveCommands": [
     {
-      "Name": "Davis, Botsford and Hackett",
-      "DisplayName": "Watsica Inc and Sons",
-      "Description": "Right-sized contextually-based alliance",
-      "ToolTip": "Non harum incidunt assumenda odio.",
+      "Name": "Stanton, Skiles and Murphy",
+      "DisplayName": "Langosh-Corkery",
+      "Description": "Assimilated well-modulated conglomeration",
+      "ToolTip": "Commodi earum repellendus deserunt repellendus cumque.",
       "Actions": "Implicit",
-      "ActionData": "asperiores",
+      "ActionData": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 733
+          "FieldLength": 528
         }
       }
     }
@@ -265,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 178
     }
   }
 }

@@ -1,7 +1,7 @@
 ---
 title: Services88.SentryAgent SOAP
 uid: Services88-Sentry-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Sentry SOAP

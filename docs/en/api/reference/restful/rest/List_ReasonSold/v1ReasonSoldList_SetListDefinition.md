@@ -1,6 +1,7 @@
 ---
 title: PUT List/ReasonSold
 uid: v1ReasonSoldList_SetListDefinition
+generated: true
 ---
 
 # PUT List/ReasonSold
@@ -83,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 195,
-  "Name": "Ziemann, Kessler and Orn",
-  "Tooltip": "optio",
+  "Id": 686,
+  "Name": "Kiehn-Pouros",
+  "Tooltip": "amet",
   "Deleted": false,
-  "Rank": 110,
+  "Rank": 649,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "eum",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 578,
-  "Name": "Auer Group",
-  "Tooltip": "ad",
+  "Id": 870,
+  "Name": "Heaney-Spencer",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 169,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false,
+  "Rank": 723,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "vero",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldType": "System.String",
+      "FieldLength": 185
     }
   }
 }

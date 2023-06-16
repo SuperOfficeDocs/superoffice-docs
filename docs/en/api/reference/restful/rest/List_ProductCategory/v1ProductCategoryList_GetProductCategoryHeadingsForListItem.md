@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductCategory/Items/{id}/Headings
 uid: v1ProductCategoryList_GetProductCategoryHeadingsForListItem
+generated: true
 ---
 
 # GET List/ProductCategory/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Satterfield Group",
-    "ToolTip": "Quis dolorem.",
+    "Id": 473,
+    "Name": "Satterfield-Emmerich",
+    "ToolTip": "Repudiandae eius sunt.",
     "Deleted": false,
-    "Rank": 662,
-    "Type": "voluptas",
-    "ColorBlock": 290,
-    "IconHint": "sed",
+    "Rank": 143,
+    "Type": "harum",
+    "ColorBlock": 531,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2002-03-03T03:51:34.8020755+01:00",
+    "LastChanged": "2022-02-14T16:00:49.1489485+01:00",
     "ChildItems": [
       {
-        "Id": 375,
-        "Name": "Boyer LLC",
-        "ToolTip": "Et ad ipsa et ut dignissimos ut dolore.",
+        "Id": 947,
+        "Name": "Orn-Gorczany",
+        "ToolTip": "Atque earum.",
         "Deleted": true,
-        "Rank": 915,
-        "Type": "et",
-        "ColorBlock": 585,
-        "IconHint": "praesentium",
+        "Rank": 882,
+        "Type": "ut",
+        "ColorBlock": 995,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "1999-05-01T03:51:34.8020755+02:00",
+        "LastChanged": "1998-05-22T16:00:49.1489485+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "quo",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Deshawn Carroll",
+        "FullName": "Adrienne Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 57
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Ethelyn Bernadine Sporer DVM",
+    "ExtraInfo": "maxime",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Dayne Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldLength": 33
       }
     }
   }

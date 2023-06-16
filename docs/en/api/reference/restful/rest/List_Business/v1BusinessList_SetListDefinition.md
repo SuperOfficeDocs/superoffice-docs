@@ -1,6 +1,7 @@
 ---
 title: PUT List/Business
 uid: v1BusinessList_SetListDefinition
+generated: true
 ---
 
 # PUT List/Business
@@ -83,19 +84,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 65,
-  "Name": "Anderson-Green",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 352,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 21,
+  "Name": "Bradtke, Johnston and Block",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 85,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "cum",
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 182,
-  "Name": "Gorczany-Pfannerstill",
-  "Tooltip": "dolorum",
+  "Id": 51,
+  "Name": "Stroman, Wilderman and Brown",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "Rank": 814,
+  "Rank": 351,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "repellat",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolor",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 807
     }
   }
 }

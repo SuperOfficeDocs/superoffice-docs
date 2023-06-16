@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/SaveDash
 uid: v1DashAgent_SaveDash
+generated: true
 ---
 
 # POST Agents/Dash/SaveDash
@@ -90,30 +91,30 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 146,
-  "UniqueId": "rerum",
-  "Name": "Schaden, Rowe and Renner",
-  "Description": "Digitized exuding hierarchy",
-  "AssociateId": 94,
-  "Columns": 796,
+  "DashboardId": 592,
+  "UniqueId": "aut",
+  "Name": "Prohaska Group",
+  "Description": "Inverse static info-mediaries",
+  "AssociateId": 877,
+  "Columns": 193,
   "Theme": null,
-  "VisibleForAll": 594,
+  "VisibleForAll": 29,
   "VisibleForAssociates": [
-    896,
-    550
+    397,
+    781
   ],
   "VisibleForGroups": [
-    970,
-    960
+    411,
+    782
   ],
-  "PinForAll": 596,
+  "PinForAll": 360,
   "PinForAssociates": [
-    78,
-    908
+    445,
+    756
   ],
   "PinForGroups": [
-    259,
-    119
+    382,
+    192
   ]
 }
 ```
@@ -125,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 371,
+  "DashboardId": 239,
   "UniqueId": "harum",
-  "Name": "Schuppe, Crist and Torphy",
-  "Description": "Managed bifurcated application",
-  "AssociateId": 184,
-  "Columns": 550,
+  "Name": "Prosacco-Schmeler",
+  "Description": "Fully-configurable methodical attitude",
+  "AssociateId": 943,
+  "Columns": 899,
   "Theme": null,
-  "VisibleForAll": 848,
+  "VisibleForAll": 408,
   "VisibleForAssociates": [
-    863,
-    491
+    675,
+    380
   ],
   "VisibleForGroups": [
-    301,
-    201
+    513,
+    603
   ],
-  "PinForAll": 502,
+  "PinForAll": 208,
   "PinForAssociates": [
-    822,
-    595
+    147,
+    857
   ],
   "PinForGroups": [
-    982,
-    127
+    134,
+    860
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldType": "System.String",
+      "FieldLength": 932
     }
   }
 }

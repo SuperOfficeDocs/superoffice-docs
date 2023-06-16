@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/SaveConnection
 uid: v1ErpSyncAgent_SaveConnection
+generated: true
 ---
 
 # POST Agents/ErpSync/SaveConnection
@@ -85,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 263,
-  "ErpConnectorId": 960,
-  "DisplayName": "Mraz, Johnston and Keeling",
-  "DisplayDescription": "Advanced radical function",
+  "ErpConnectionId": 68,
+  "ErpConnectorId": 458,
+  "DisplayName": "Dach, Keebler and Halvorson",
+  "DisplayDescription": "Profit-focused transitional application",
   "Active": false,
-  "ConnectionId": "quo",
-  "MostRecentTimestamp": "vel",
+  "ConnectionId": "ratione",
+  "MostRecentTimestamp": "ipsum",
   "ConfigFields": {
-    "ConfigFields1": "consequuntur",
-    "ConfigFields2": "exercitationem"
+    "ConfigFields1": "velit",
+    "ConfigFields2": "nobis"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    114,
-    562
+    147,
+    24
   ],
   "AssociateAccessIds": [
-    110,
-    360
+    268,
+    690
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 451
+      "FieldType": "System.String",
+      "FieldLength": 134
     }
   }
 }

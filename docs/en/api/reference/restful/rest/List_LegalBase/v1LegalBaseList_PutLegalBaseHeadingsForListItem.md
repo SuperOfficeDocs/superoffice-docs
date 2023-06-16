@@ -1,6 +1,7 @@
 ---
 title: PUT List/LegalBase/Items/{id}/Headings
 uid: v1LegalBaseList_PutLegalBaseHeadingsForListItem
+generated: true
 ---
 
 # PUT List/LegalBase/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 222,
-    "Name": "Schneider Group",
-    "ToolTip": "Delectus ut omnis nihil.",
+    "Id": 54,
+    "Name": "Nikolaus-Ullrich",
+    "ToolTip": "Ut tempora ut hic sed excepturi consequatur mollitia.",
     "Deleted": false,
-    "Rank": 832,
-    "Type": "voluptatibus",
-    "ColorBlock": 920,
-    "IconHint": "ut",
+    "Rank": 290,
+    "Type": "quos",
+    "ColorBlock": 441,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2017-04-04T03:51:34.7239677+02:00",
+    "LastChanged": "2014-07-30T16:00:49.0552074+02:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Rippin-Labadie",
-        "ToolTip": "Sit ducimus excepturi dolore quis et dolore vero.",
-        "Deleted": true,
-        "Rank": 711,
-        "Type": "autem",
-        "ColorBlock": 459,
-        "IconHint": "eum",
+        "Id": 332,
+        "Name": "Simonis Inc and Sons",
+        "ToolTip": "Enim sunt facilis repellendus atque ut repellendus natus.",
+        "Deleted": false,
+        "Rank": 854,
+        "Type": "labore",
+        "ColorBlock": 843,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2005-05-27T03:51:34.7239677+02:00",
+        "LastChanged": "2014-06-04T16:00:49.0552074+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Isidro Okuneva"
+        "ExtraInfo": "doloribus",
+        "StyleHint": "minus",
+        "Hidden": false,
+        "FullName": "Ms. Payton O'Hara"
       }
     ],
-    "ExtraInfo": "accusamus",
+    "ExtraInfo": "nihil",
     "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Prof. Glennie Krystina Mayer DDS"
+    "FullName": "Ms. Macie Prince Mante MD"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "McKenzie-Sawayn",
-    "ToolTip": "Vero rerum quasi.",
-    "Deleted": false,
-    "Rank": 704,
-    "Type": "molestias",
-    "ColorBlock": 577,
-    "IconHint": "deserunt",
+    "Id": 234,
+    "Name": "Hessel-Thiel",
+    "ToolTip": "Molestias ea.",
+    "Deleted": true,
+    "Rank": 874,
+    "Type": "enim",
+    "ColorBlock": 140,
+    "IconHint": "similique",
     "Selected": true,
-    "LastChanged": "2017-07-20T03:51:34.7239677+02:00",
+    "LastChanged": "2018-06-24T16:00:49.0552074+02:00",
     "ChildItems": [
       {
-        "Id": 691,
-        "Name": "Legros-Daniel",
-        "ToolTip": "Aut impedit.",
-        "Deleted": true,
-        "Rank": 313,
-        "Type": "earum",
-        "ColorBlock": 358,
-        "IconHint": "distinctio",
-        "Selected": false,
-        "LastChanged": "2007-07-14T03:51:34.7239677+02:00",
+        "Id": 166,
+        "Name": "Donnelly-Koss",
+        "ToolTip": "Error vel laudantium incidunt enim laudantium ea.",
+        "Deleted": false,
+        "Rank": 107,
+        "Type": "cupiditate",
+        "ColorBlock": 431,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2004-11-09T16:00:49.0552074+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "quis",
+        "ExtraInfo": "totam",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Prof. Casandra Alfonso Kemmer",
+        "FullName": "Ms. Terrance Crona Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 220
+            "FieldLength": 517
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "doloribus",
-    "Hidden": false,
-    "FullName": "Dr. Ena Brenda Wunsch I",
+    "ExtraInfo": "corporis",
+    "StyleHint": "eaque",
+    "Hidden": true,
+    "FullName": "Ricky Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 387
+        "FieldType": "System.Int32",
+        "FieldLength": 222
       }
     }
   }

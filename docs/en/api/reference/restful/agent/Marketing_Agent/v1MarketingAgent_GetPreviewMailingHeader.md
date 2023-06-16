@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/GetPreviewMailingHeader
 uid: v1MarketingAgent_GetPreviewMailingHeader
+generated: true
 ---
 
 # POST Agents/Marketing/GetPreviewMailingHeader
@@ -90,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 295
+  "ShipmentId": 364
 }
 ```
 
@@ -101,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2000-06-20T03:51:27.5060342+02:00",
+  "StartDate": "2012-04-03T16:00:41.2580675+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 98,
-  "ShipmentDescription": "Stand-alone zero tolerance customer loyalty",
-  "FromAddress": "distinctio",
-  "PersonId": 843,
-  "PersonFullName": "Judge Emard",
-  "ShipmentType": "id",
-  "MessageId": 631,
-  "MessageSubject": "blanditiis",
-  "DocumentMessageId": 751,
-  "NumSent": 421,
-  "NumOpened": 15,
-  "NumBounced": 461,
-  "NumClicks": 369,
+  "ShipmentId": 118,
+  "ShipmentDescription": "Implemented discrete pricing structure",
+  "FromAddress": "dolor",
+  "PersonId": 76,
+  "PersonFullName": "Hadley Wuckert",
+  "ShipmentType": "accusamus",
+  "MessageId": 562,
+  "MessageSubject": "sint",
+  "DocumentMessageId": 789,
+  "NumSent": 798,
+  "NumOpened": 178,
+  "NumBounced": 623,
+  "NumClicks": 415,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldLength": 487
     }
   }
 }

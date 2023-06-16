@@ -1,6 +1,7 @@
 ---
 title: POST SaleStakeholder
 uid: v1SaleStakeholder_PostSaleStakeholder
+generated: true
 ---
 
 # POST SaleStakeholder
@@ -115,25 +116,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Haley LLC",
-  "Comment": "facilis",
-  "StakeholderRoleId": 167,
-  "CountryId": 583,
-  "PersonId": 860,
-  "EmailDescription": "halie@johnston.com",
-  "EmailId": 103,
-  "EmailAddress": "rosario.hansen@harveyheathcote.biz",
-  "PhoneId": 665,
-  "ContactName": "Howell Group",
-  "ContactId": 700,
-  "SaleId": 549,
-  "Mrmrs": "voluptate",
-  "Firstname": "Gretchen",
-  "MiddleName": "Russel-Grady",
-  "Lastname": "Leffler",
-  "SaleStakeholderId": 687,
-  "Rank": 741,
-  "Phone": "690-938-0612"
+  "StakeholderRoleName": "VonRueden-Rempel",
+  "Comment": "velit",
+  "StakeholderRoleId": 777,
+  "CountryId": 563,
+  "PersonId": 655,
+  "EmailDescription": "neha@okon.info",
+  "EmailId": 219,
+  "EmailAddress": "layla_rolfson@koepp.us",
+  "PhoneId": 492,
+  "ContactName": "Huels, Donnelly and Weimann",
+  "ContactId": 843,
+  "SaleId": 673,
+  "Mrmrs": "in",
+  "Firstname": "Eloy",
+  "MiddleName": "Schinner-Haag",
+  "Lastname": "Herzog",
+  "SaleStakeholderId": 254,
+  "Rank": 772,
+  "Phone": "197-106-3415"
 }
 ```
 
@@ -144,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Abshire-Gorczany",
-  "Comment": "nihil",
-  "StakeholderRoleId": 556,
-  "CountryId": 16,
-  "PersonId": 874,
-  "EmailDescription": "scottie.funk@abbott.uk",
-  "EmailId": 64,
-  "EmailAddress": "emerald.frami@wintheiserhoppe.ca",
-  "PhoneId": 451,
-  "ContactName": "Schmidt Inc and Sons",
-  "ContactId": 302,
-  "SaleId": 188,
-  "Mrmrs": "sint",
-  "Firstname": "Santina",
-  "MiddleName": "Murazik, Grady and Borer",
-  "Lastname": "Fadel",
-  "SaleStakeholderId": 811,
-  "Rank": 667,
-  "Phone": "1-766-382-1336",
+  "StakeholderRoleName": "Nader, Kiehn and Medhurst",
+  "Comment": "rerum",
+  "StakeholderRoleId": 167,
+  "CountryId": 667,
+  "PersonId": 666,
+  "EmailDescription": "onie_hauck@kunde.biz",
+  "EmailId": 485,
+  "EmailAddress": "antonette.kemmer@bruenfranecki.ca",
+  "PhoneId": 503,
+  "ContactName": "Nolan, Klein and Haley",
+  "ContactId": 292,
+  "SaleId": 271,
+  "Mrmrs": "quia",
+  "Firstname": "Titus",
+  "MiddleName": "Donnelly, Upton and Balistreri",
+  "Lastname": "Witting",
+  "SaleStakeholderId": 249,
+  "Rank": 341,
+  "Phone": "(554)447-7640 x17120",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldType": "System.String",
+      "FieldLength": 989
     }
   },
   "_Links": {

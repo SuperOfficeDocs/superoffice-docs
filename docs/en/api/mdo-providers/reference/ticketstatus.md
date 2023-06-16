@@ -1,17 +1,11 @@
 ---
 uid: ticketstatus
 title: ticketstatus
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "ticketstatus"
+keywords: mdoprovider mdo provider ticketstatus
+description: Ticket status values: Open, Closed, Inactive, Deleted, Connected
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ticketstatus" MDO List

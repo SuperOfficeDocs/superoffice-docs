@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/CreateDefaultPreferenceDescriptionLine
 uid: v1PreferenceAgent_CreateDefaultPreferenceDescriptionLine
+generated: true
 ---
 
 # POST Agents/Preference/CreateDefaultPreferenceDescriptionLine
@@ -71,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 533,
-  "PrefDescId": 367,
-  "PrefValue": "aut",
-  "PrefShowValue": "et",
-  "Description": "Balanced neutral flexibility",
+  "PrefDescLineId": 31,
+  "PrefDescId": 315,
+  "PrefValue": "velit",
+  "PrefShowValue": "impedit",
+  "Description": "De-engineered system-worthy matrix",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 128
     }
   }
 }

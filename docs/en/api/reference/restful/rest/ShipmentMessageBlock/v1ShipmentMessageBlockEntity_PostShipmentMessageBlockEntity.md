@@ -1,6 +1,7 @@
 ---
 title: POST ShipmentMessageBlock
 uid: v1ShipmentMessageBlockEntity_PostShipmentMessageBlockEntity
+generated: true
 ---
 
 # POST ShipmentMessageBlock
@@ -89,18 +90,18 @@ OK
 POST /api/v1/ShipmentMessageBlock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 367,
-  "AssociateId": 895,
-  "Block": "ipsum",
-  "Registered": "1997-04-21T03:51:34.0208828+02:00",
-  "RegisteredAssociateId": 427,
-  "Updated": "2002-09-06T03:51:34.0208828+02:00",
-  "UpdatedAssociateId": 196,
-  "UpdatedCount": 791
+  "ShipmentMessageBlockId": 175,
+  "AssociateId": 969,
+  "Block": "veritatis",
+  "Registered": "2020-11-09T16:00:48.4615203+01:00",
+  "RegisteredAssociateId": 1000,
+  "Updated": "2020-07-01T16:00:48.4615203+02:00",
+  "UpdatedAssociateId": 76,
+  "UpdatedCount": 799
 }
 ```
 
@@ -111,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 741,
-  "AssociateId": 590,
-  "Block": "et",
-  "Registered": "2007-09-11T03:51:34.0208828+02:00",
-  "RegisteredAssociateId": 91,
-  "Updated": "2000-09-18T03:51:34.0208828+02:00",
-  "UpdatedAssociateId": 365,
-  "UpdatedCount": 169,
+  "ShipmentMessageBlockId": 767,
+  "AssociateId": 575,
+  "Block": "quia",
+  "Registered": "2010-05-26T16:00:48.4615203+02:00",
+  "RegisteredAssociateId": 575,
+  "Updated": "1997-03-26T16:00:48.4615203+01:00",
+  "UpdatedAssociateId": 443,
+  "UpdatedCount": 176,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 377
+      "FieldType": "System.Int32",
+      "FieldLength": 58
     }
   },
   "_Links": {

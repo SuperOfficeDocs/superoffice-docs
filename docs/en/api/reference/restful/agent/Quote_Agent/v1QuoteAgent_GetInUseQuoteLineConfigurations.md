@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetInUseQuoteLineConfigurations
 uid: v1QuoteAgent_GetInUseQuoteLineConfigurations
+generated: true
 ---
 
 # POST Agents/Quote/GetInUseQuoteLineConfigurations
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 974,
-    "FieldName": "Rohan-Quitzon",
-    "Label": "et",
-    "Tooltip": "aperiam",
-    "Editable": true,
+    "QuoteLineConfigurationId": 530,
+    "FieldName": "Collier Inc and Sons",
+    "Label": "ea",
+    "Tooltip": "rerum",
+    "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 32,
+    "Rank": 438,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 316
+        "FieldLength": 381
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: DEL List/ProductFamily/Headings
 uid: v1ProductFamilyList_DeleteProductFamilyHeadings
+generated: true
 ---
 
 # DEL List/ProductFamily/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

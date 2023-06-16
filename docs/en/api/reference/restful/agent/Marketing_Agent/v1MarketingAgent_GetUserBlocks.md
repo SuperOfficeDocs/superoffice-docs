@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/GetUserBlocks
 uid: v1MarketingAgent_GetUserBlocks
+generated: true
 ---
 
 # POST Agents/Marketing/GetUserBlocks
@@ -83,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 10
+  "AssociateId": 139
 }
 ```
 
@@ -95,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 840,
-    "AssociateId": 834,
-    "Block": "unde",
-    "Registered": "2006-10-23T03:51:27.5060342+02:00",
-    "RegisteredAssociateId": 707,
-    "Updated": "2015-03-08T03:51:27.5060342+01:00",
-    "UpdatedAssociateId": 830,
-    "UpdatedCount": 607,
+    "ShipmentMessageBlockId": 784,
+    "AssociateId": 997,
+    "Block": "ab",
+    "Registered": "2020-03-17T16:00:41.2580675+01:00",
+    "RegisteredAssociateId": 789,
+    "Updated": "1997-07-17T16:00:41.2580675+02:00",
+    "UpdatedAssociateId": 999,
+    "UpdatedCount": 715,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 866
+        "FieldLength": 5
       }
     }
   }

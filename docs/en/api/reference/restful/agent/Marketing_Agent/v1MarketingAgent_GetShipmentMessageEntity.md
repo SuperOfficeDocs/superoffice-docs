@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/GetShipmentMessageEntity
 uid: v1MarketingAgent_GetShipmentMessageEntity
+generated: true
 ---
 
 # POST Agents/Marketing/GetShipmentMessageEntity
@@ -25,7 +26,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=939
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=824
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -96,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 861,
-  "PlainMessage": "modi",
-  "HtmlMessage": "dolores",
-  "SmsMessage": "et",
-  "Description": "Public-key next generation adapter",
-  "Subject": "illo",
-  "FolderId": 204,
-  "HeaderField": "et",
-  "Design": "placeat",
+  "ShipmentMessageId": 934,
+  "PlainMessage": "adipisci",
+  "HtmlMessage": "voluptatem",
+  "SmsMessage": "eos",
+  "Description": "Horizontal object-oriented superstructure",
+  "Subject": "rerum",
+  "FolderId": 162,
+  "HeaderField": "qui",
+  "Design": "deleniti",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Managed incremental database",
-  "AccessKey": "et",
-  "DocumentMessage": 598,
-  "Registered": "1996-02-11T03:51:27.5216578+01:00",
-  "RegisteredAssociateId": 448,
-  "Updated": "2003-02-19T03:51:27.5216578+01:00",
-  "UpdatedAssociateId": 882,
-  "UpdatedCount": 177,
+  "InlineImages": true,
+  "LongDescription": "Realigned cohesive superstructure",
+  "AccessKey": "est",
+  "DocumentMessage": 784,
+  "Registered": "1998-02-25T16:00:41.2580675+01:00",
+  "RegisteredAssociateId": 98,
+  "Updated": "2018-09-08T16:00:41.2580675+02:00",
+  "UpdatedAssociateId": 559,
+  "UpdatedCount": 952,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 80
     }
   }
 }

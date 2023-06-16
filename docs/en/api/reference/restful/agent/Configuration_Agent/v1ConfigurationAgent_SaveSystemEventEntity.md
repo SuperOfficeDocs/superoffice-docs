@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/SaveSystemEventEntity
 uid: v1ConfigurationAgent_SaveSystemEventEntity
+generated: true
 ---
 
 # POST Agents/Configuration/SaveSystemEventEntity
@@ -80,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 577,
+  "SystemEventId": 29,
   "Scope": "Database",
-  "Eta": "1999-08-28T03:51:26.7718335+02:00",
-  "Eventkey": "explicabo",
-  "Eventmess": "pariatur",
-  "ExtraInfo": 698,
-  "Owner": 840,
-  "UpdatedCount": 190,
-  "Registered": "2014-06-26T03:51:26.7718335+02:00",
+  "Eta": "2009-07-18T16:00:40.3050315+02:00",
+  "Eventkey": "enim",
+  "Eventmess": "illo",
+  "ExtraInfo": 458,
+  "Owner": 831,
+  "UpdatedCount": 25,
+  "Registered": "2007-12-30T16:00:40.3050315+01:00",
   "ActivatedBy": null
 }
 ```
@@ -104,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 141,
+  "SystemEventId": 871,
   "Scope": "Database",
-  "Eta": "2008-10-04T03:51:26.7718335+02:00",
-  "Eventkey": "consequuntur",
-  "Eventmess": "et",
-  "ExtraInfo": 848,
-  "Owner": 748,
-  "UpdatedCount": 128,
-  "Registered": "2002-01-28T03:51:26.7718335+01:00",
+  "Eta": "2004-01-18T16:00:40.3050315+01:00",
+  "Eventkey": "rerum",
+  "Eventmess": "voluptatem",
+  "ExtraInfo": 815,
+  "Owner": 108,
+  "UpdatedCount": 229,
+  "Registered": "2014-02-21T16:00:40.3050315+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldLength": 33
     }
   }
 }

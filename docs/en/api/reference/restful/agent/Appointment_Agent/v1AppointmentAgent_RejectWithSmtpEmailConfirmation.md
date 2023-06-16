@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/RejectWithSmtpEmailConfirmation
 uid: v1AppointmentAgent_RejectWithSmtpEmailConfirmation
+generated: true
 ---
 
 # POST Agents/Appointment/RejectWithSmtpEmailConfirmation
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/Appointment/RejectWithSmtpEmailConfirmation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 44,
+  "AppointmentId": 4,
   "RejectReason": "",
   "UpdateMode": "OnlyThis",
   "SmtpEMailConnectionInfo": null

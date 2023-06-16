@@ -1,6 +1,7 @@
 ---
 title: PUT List/Position/Items/{id}/Headings
 uid: v1PositionList_PutPositionHeadingsForListItem
+generated: true
 ---
 
 # PUT List/Position/Items/{id}/Headings
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 678,
-    "Name": "Swaniawski Group",
-    "ToolTip": "Eius cum quod est.",
+    "Id": 368,
+    "Name": "Runolfsson-Kulas",
+    "ToolTip": "Quasi explicabo possimus soluta nihil harum recusandae.",
     "Deleted": false,
-    "Rank": 507,
-    "Type": "vel",
-    "ColorBlock": 379,
-    "IconHint": "quasi",
+    "Rank": 820,
+    "Type": "quia",
+    "ColorBlock": 299,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "1998-08-09T03:51:34.7708309+02:00",
+    "LastChanged": "2019-04-27T16:00:49.1177018+02:00",
     "ChildItems": [
       {
-        "Id": 840,
-        "Name": "Walsh, Hegmann and Mitchell",
-        "ToolTip": "Dolor deserunt quis.",
-        "Deleted": true,
-        "Rank": 490,
-        "Type": "recusandae",
-        "ColorBlock": 451,
-        "IconHint": "laudantium",
-        "Selected": true,
-        "LastChanged": "2010-04-17T03:51:34.7708309+02:00",
+        "Id": 896,
+        "Name": "Fadel-Zboncak",
+        "ToolTip": "Eum doloribus voluptas et voluptatibus eaque temporibus.",
+        "Deleted": false,
+        "Rank": 849,
+        "Type": "quis",
+        "ColorBlock": 747,
+        "IconHint": "voluptatibus",
+        "Selected": false,
+        "LastChanged": "2015-02-20T16:00:49.1177018+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "officia",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Keshawn Hansen"
+        "FullName": "Prof. Ethyl Waelchi III"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "at",
     "Hidden": true,
-    "FullName": "Rupert Lindgren"
+    "FullName": "Clare Haag"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Denesik, Stehr and Harber",
-    "ToolTip": "Dolores consequatur sequi.",
+    "Id": 823,
+    "Name": "Davis Group",
+    "ToolTip": "Ullam repellat rerum sit.",
     "Deleted": false,
-    "Rank": 965,
-    "Type": "in",
-    "ColorBlock": 811,
-    "IconHint": "ut",
+    "Rank": 666,
+    "Type": "neque",
+    "ColorBlock": 690,
+    "IconHint": "eveniet",
     "Selected": false,
-    "LastChanged": "2020-03-10T03:51:34.7708309+01:00",
+    "LastChanged": "2011-04-29T16:00:49.1177018+02:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Boehm, Padberg and O'Keefe",
-        "ToolTip": "Alias hic suscipit.",
-        "Deleted": true,
-        "Rank": 488,
-        "Type": "non",
-        "ColorBlock": 274,
-        "IconHint": "maiores",
+        "Id": 11,
+        "Name": "Altenwerth, Beatty and Erdman",
+        "ToolTip": "Vitae nulla quaerat ex et magni.",
+        "Deleted": false,
+        "Rank": 343,
+        "Type": "quia",
+        "ColorBlock": 634,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2005-09-14T03:51:34.7708309+02:00",
+        "LastChanged": "2010-08-31T16:00:49.1177018+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "tempore",
+        "ExtraInfo": "enim",
+        "StyleHint": "quibusdam",
         "Hidden": true,
-        "FullName": "Santos Hartmann",
+        "FullName": "Elaina Kulas DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 117
+            "FieldLength": 243
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "error",
-    "Hidden": false,
-    "FullName": "Vicenta Turner",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "eius",
+    "Hidden": true,
+    "FullName": "Kaden Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldType": "System.String",
+        "FieldLength": 198
       }
     }
   }

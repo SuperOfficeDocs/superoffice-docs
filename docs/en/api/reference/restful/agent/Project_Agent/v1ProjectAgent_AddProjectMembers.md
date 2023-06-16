@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/AddProjectMembers
 uid: v1ProjectAgent_AddProjectMembers
+generated: true
 ---
 
 # POST Agents/Project/AddProjectMembers
@@ -64,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 753,
+  "ProjectEntityId": 948,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 619,
-      "ContactId": 717,
-      "ProjectId": 169,
-      "ContactName": "Borer-Hilpert",
+      "ProjectmemberId": 986,
+      "ContactId": 611,
+      "ProjectId": 519,
+      "ContactName": "Senger LLC",
       "ContactDepartment": "",
-      "ProjectName": "Streich, Moen and Barton",
-      "EmailId": 754,
-      "EmailAddress": "yolanda_schmidt@collierrunolfsson.co.uk",
-      "CountryId": 169,
-      "Firstname": "Myrtie",
-      "MiddleName": "Glover, Funk and Spinka",
-      "Lastname": "Nienow",
-      "PersonId": 794,
+      "ProjectName": "Thiel LLC",
+      "EmailId": 686,
+      "EmailAddress": "philip@haneoconnell.info",
+      "CountryId": 662,
+      "Firstname": "Tyrel",
+      "MiddleName": "Haag-Hoeger",
+      "Lastname": "Douglas",
+      "PersonId": 359,
       "Mrmrs": "quis",
-      "ProjectMemberTypeName": "Pollich-Labadie",
-      "Phone": "646-386-7845",
-      "PhoneId": 877,
-      "ProjectMemberTypeId": 562,
-      "EmailAddressName": "santos@witting.info",
-      "Comment": "quis",
-      "FullName": "Danny Brando Ortiz DDS"
+      "ProjectMemberTypeName": "Mayert LLC",
+      "Phone": "646-372-2633 x4181",
+      "PhoneId": 948,
+      "ProjectMemberTypeId": 265,
+      "EmailAddressName": "crystel@schuster.biz",
+      "Comment": "autem",
+      "FullName": "Kris O'Reilly"
     }
   ]
 }

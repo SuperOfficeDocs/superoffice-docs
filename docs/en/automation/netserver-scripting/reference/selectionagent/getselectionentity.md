@@ -3,13 +3,9 @@ uid: selectionagent-getselectionentity
 title: SelectionAgent.GetSelectionEntity event method
 description: Scripting events called on the GetSelectionEntity method on the SelectionAgent service agent.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 # SelectionAgent.GetSelectionEntity
 

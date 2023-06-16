@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/SaveSmsConfig
 uid: v1CustomerServiceAgent_SaveSmsConfig
+generated: true
 ---
 
 # POST Agents/CustomerService/SaveSmsConfig
@@ -73,11 +74,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "et",
-  "NsPluginSender": "sunt",
+  "NetServerSmsProvider": "provident",
+  "NsPluginSender": "odit",
   "NsPluginConfig": {
-    "NsPluginConfig1": "repudiandae",
-    "NsPluginConfig2": "quo"
+    "NsPluginConfig1": "eos",
+    "NsPluginConfig2": "et"
   }
 }
 ```
@@ -90,18 +91,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "excepturi",
-  "NsPluginSender": "quis",
+  "NetServerSmsProvider": "id",
+  "NsPluginSender": "aliquid",
   "NsPluginConfig": {
-    "NsPluginConfig1": "suscipit",
-    "NsPluginConfig2": "excepturi"
+    "NsPluginConfig1": "non",
+    "NsPluginConfig2": "omnis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 2
+      "FieldType": "System.Int32",
+      "FieldLength": 339
     }
   }
 }

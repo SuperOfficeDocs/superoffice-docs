@@ -1,6 +1,7 @@
 ---
 title: PATCH Document/{id}
 uid: v1DocumentEntity_PatchDocumentEntity
+generated: true
 ---
 
 # PATCH Document/{id}
@@ -140,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "ullam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "ullam",
     "value": {}
   }
 ]
@@ -164,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 182,
+  "DocumentId": 970,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "est",
-  "Header": "aspernatur",
-  "Name": "Lebsack-McLaughlin",
-  "OurRef": "tempora",
-  "YourRef": "dolor",
-  "CreatedDate": "2002-10-08T03:51:33.6147256+02:00",
-  "UpdatedDate": "2002-09-27T03:51:33.6147256+02:00",
-  "Description": "De-engineered didactic alliance",
+  "Attention": "dolores",
+  "Header": "tenetur",
+  "Name": "Rutherford LLC",
+  "OurRef": "dolorem",
+  "YourRef": "ut",
+  "CreatedDate": "2000-02-12T16:00:47.8990853+01:00",
+  "UpdatedDate": "2011-05-07T16:00:47.8990853+02:00",
+  "Description": "Stand-alone multi-state contingency",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-06-16T03:51:33.6303483+02:00",
-  "ExternalRef": "praesentium",
+  "Date": "2005-04-27T16:00:47.8990853+02:00",
+  "ExternalRef": "a",
   "Completed": "Completed",
-  "ActiveLinks": 661,
+  "ActiveLinks": 174,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Marquardt Inc and Sons",
-      "Id": 674,
-      "Description": "Customizable client-server framework",
-      "ExtraInfo": "deserunt",
-      "LinkId": 173,
+      "EntityName": "Gorczany LLC",
+      "Id": 921,
+      "Description": "Right-sized 5th generation adapter",
+      "ExtraInfo": "vero",
+      "LinkId": 651,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldType": "System.Int32",
+          "FieldLength": 142
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 984,
-  "Snum": 359,
+  "SuggestedDocumentId": 399,
+  "Snum": 943,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Miss Reina Nat Strosin"
+    "SuperOffice:1": "Ora Koepp",
+    "SuperOffice:2": "1471699612"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "at"
+    "ExtraFields1": "nisi",
+    "ExtraFields2": "sapiente"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "quidem"
+    "CustomFields1": "nemo",
+    "CustomFields2": "libero"
   },
-  "PublishEventDate": "2005-12-25T03:51:33.6303483+01:00",
-  "PublishTo": "2005-07-30T03:51:33.6303483+02:00",
-  "PublishFrom": "2021-09-28T03:51:33.6303483+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-10-27T16:00:47.8990853+01:00",
+  "PublishTo": "2010-04-03T16:00:47.8990853+02:00",
+  "PublishFrom": "1997-05-05T16:00:47.8990853+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 556,
+      "VisibleId": 399,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 717
         }
       }
     },
     {
-      "VisibleId": 556,
+      "VisibleId": 399,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 717
         }
       }
     }
@@ -254,13 +255,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldType": "System.String",
+      "FieldLength": 446
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

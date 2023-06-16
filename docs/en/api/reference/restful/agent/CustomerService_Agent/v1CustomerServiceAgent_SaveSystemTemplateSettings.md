@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/SaveSystemTemplateSettings
 uid: v1CustomerServiceAgent_SaveSystemTemplateSettings
+generated: true
 ---
 
 # POST Agents/CustomerService/SaveSystemTemplateSettings
@@ -94,7 +95,7 @@ OK
 POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 689,
-  "CustomerCustomerReplyTemplateId": 863,
-  "CustomerPasswordTemplateId": 507,
-  "CustomerConfirmEmailTemplateId": 988,
-  "CustomerChatLogTemplateId": 753,
-  "NewLinkTemplateId": 716,
-  "HotlistNewMessageTemplateId": 402,
-  "HotlistTicketActivatedTemplateId": 576,
-  "UserTicketAlarmTemplateId": 155,
-  "HotlistTicketTakenOverTemplateId": 123,
-  "UserActiveTicketsTemplateId": 129,
-  "UserNewMessageTemplateId": 388,
-  "UserTicketActivatedTemplateId": 828,
-  "UserNewTicketTemplateId": 782,
-  "PublishKbQuestionTemplateId": 257,
-  "PublishKbAnswerTemplateId": 512,
-  "UserTicketTakenOverTemplateId": 957,
-  "PrintTicketTemplateId": 45,
-  "WeekStatTemplateId": 926,
-  "TicketAlarmHotlistTemplateId": 1001,
-  "EmailAddresses": "estelle@prohaska.name",
+  "CustomerNewCustomerTemplateId": 24,
+  "CustomerCustomerReplyTemplateId": 880,
+  "CustomerPasswordTemplateId": 52,
+  "CustomerConfirmEmailTemplateId": 52,
+  "CustomerChatLogTemplateId": 38,
+  "NewLinkTemplateId": 934,
+  "HotlistNewMessageTemplateId": 539,
+  "HotlistTicketActivatedTemplateId": 274,
+  "UserTicketAlarmTemplateId": 339,
+  "HotlistTicketTakenOverTemplateId": 430,
+  "UserActiveTicketsTemplateId": 323,
+  "UserNewMessageTemplateId": 747,
+  "UserTicketActivatedTemplateId": 774,
+  "UserNewTicketTemplateId": 869,
+  "PublishKbQuestionTemplateId": 59,
+  "PublishKbAnswerTemplateId": 736,
+  "UserTicketTakenOverTemplateId": 298,
+  "PrintTicketTemplateId": 956,
+  "WeekStatTemplateId": 699,
+  "TicketAlarmHotlistTemplateId": 20,
+  "EmailAddresses": "hilbert_renner@dickens.co.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 454
     }
   }
 }

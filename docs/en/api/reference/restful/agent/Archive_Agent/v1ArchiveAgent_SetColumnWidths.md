@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/SetColumnWidths
 uid: v1ArchiveAgent_SetColumnWidths
+generated: true
 ---
 
 # POST Agents/Archive/SetColumnWidths
@@ -64,14 +65,14 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Davis Inc and Sons",
+  "GuiName": "Powlowski, Treutel and Bins",
   "ColumnWidths": [
-    "error",
-    "qui"
+    "tenetur",
+    "provident"
   ]
 }
 ```

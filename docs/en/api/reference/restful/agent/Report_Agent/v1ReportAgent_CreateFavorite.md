@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Report/CreateFavorite
 uid: v1ReportAgent_CreateFavorite
+generated: true
 ---
 
 # POST Agents/Report/CreateFavorite
@@ -87,9 +88,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 700,
-  "Name": "Jacobson LLC",
-  "Description": "Open-architected coherent application"
+  "SourceId": 645,
+  "Name": "Mitchell-Kub",
+  "Description": "Quality-focused dedicated benchmark"
 }
 ```
 
@@ -100,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 36,
+  "ReportId": 295,
   "ReportCategory": "All",
-  "Description": "Sharable logistical implementation",
+  "Description": "Visionary non-volatile artificial intelligence",
   "ReportLayout": "CalendarMonth",
-  "Name": "Streich-Weber",
-  "AssociateId": 170,
-  "TemplateId": 127,
+  "Name": "Gutkowski, Labadie and Welch",
+  "AssociateId": 865,
+  "TemplateId": 246,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 62
     }
   }
 }

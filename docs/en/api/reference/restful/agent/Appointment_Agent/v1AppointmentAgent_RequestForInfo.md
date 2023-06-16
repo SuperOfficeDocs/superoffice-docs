@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/RequestForInfo
 uid: v1AppointmentAgent_RequestForInfo
+generated: true
 ---
 
 # POST Agents/Appointment/RequestForInfo
@@ -87,14 +88,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 740,
-  "Channel": "rerum",
-  "Regarding": "velit",
-  "ContactName": "Rowe-Feeney",
-  "PersonFirstname": "Jolie",
-  "PersonLastname": "Thompson",
-  "EmailAddress": "piper@yost.biz",
-  "PhoneNumber": "1422489"
+  "AssociateIdForNewContact": 320,
+  "Channel": "suscipit",
+  "Regarding": "et",
+  "ContactName": "Muller LLC",
+  "PersonFirstname": "Pearl",
+  "PersonLastname": "Mueller",
+  "EmailAddress": "vivianne_hickle@gibsoncummings.com",
+  "PhoneNumber": "390544"
 }
 ```
 
@@ -107,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 631,
-      "Name": "Labadie, Douglas and Ryan",
-      "OrgNr": "1074397",
+      "ContactId": 661,
+      "Name": "Ortiz LLC",
+      "OrgNr": "1892691",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "voluptatum",
-      "DirectPhone": "339-111-1093",
-      "AssociateId": 722,
-      "CountryId": 395,
-      "EmailAddress": "estevan@waters.com",
-      "Kananame": "voluptatem",
-      "EmailAddressName": "eli@torp.us",
+      "City": "ratione",
+      "DirectPhone": "300-496-8208 x614",
+      "AssociateId": 850,
+      "CountryId": 263,
+      "EmailAddress": "ashly.gusikowski@funk.name",
+      "Kananame": "deserunt",
+      "EmailAddressName": "jazmyne@runte.info",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Saul Layne Kutch IV",
+      "AssociateFullName": "Art Letitia Herzog II",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "similique",
-      "FullName": "Hayley Ondricka V",
+      "FormattedAddress": "architecto",
+      "FullName": "Mr. Magali Michael Dickens",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 191,
-      "Number1": "511866",
-      "Number2": "523314",
+      "ActiveErpLinks": 157,
+      "Number1": "707146",
+      "Number2": "1077578",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1000
+          "FieldType": "System.Int32",
+          "FieldLength": 12
         }
       }
     }
@@ -147,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 469
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: PUT List/MrMrs/Items/{id}/UserGroups
 uid: v1MrMrsList_PutMrMrsUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/MrMrs/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 989,
-    "Name": "Huels-Kunde",
-    "ToolTip": "Recusandae cum perferendis doloribus expedita veniam.",
+    "Id": 200,
+    "Name": "Barrows-Stark",
+    "ToolTip": "Dolorem veritatis hic rem sint aspernatur.",
     "Deleted": false,
-    "Rank": 732,
-    "Type": "aut",
-    "ColorBlock": 198,
-    "IconHint": "nesciunt",
-    "Selected": false,
-    "LastChanged": "2014-03-06T03:51:34.7239677+01:00",
+    "Rank": 901,
+    "Type": "quasi",
+    "ColorBlock": 428,
+    "IconHint": "culpa",
+    "Selected": true,
+    "LastChanged": "2010-02-26T16:00:49.0708338+01:00",
     "ChildItems": [
       {
-        "Id": 108,
-        "Name": "Conroy-Mann",
-        "ToolTip": "Laudantium natus amet dolores ab vel.",
+        "Id": 124,
+        "Name": "Veum Group",
+        "ToolTip": "Harum sunt corporis qui sunt.",
         "Deleted": false,
-        "Rank": 297,
-        "Type": "modi",
-        "ColorBlock": 464,
-        "IconHint": "dolores",
+        "Rank": 717,
+        "Type": "totam",
+        "ColorBlock": 237,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "2020-08-26T03:51:34.7239677+02:00",
+        "LastChanged": "2000-05-16T16:00:49.0708338+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "porro",
-        "Hidden": false,
-        "FullName": "Mrs. Bria Runolfsdottir"
+        "ExtraInfo": "omnis",
+        "StyleHint": "nostrum",
+        "Hidden": true,
+        "FullName": "Nathanial Moore"
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "sed",
+    "ExtraInfo": "et",
+    "StyleHint": "amet",
     "Hidden": false,
-    "FullName": "Efren Klein"
+    "FullName": "Waino Schamberger III"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 678,
-    "Name": "Waelchi-Pollich",
-    "ToolTip": "Quis perferendis officiis nam enim quaerat impedit voluptas.",
-    "Deleted": true,
-    "Rank": 296,
-    "Type": "provident",
-    "ColorBlock": 333,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2002-07-04T03:51:34.7239677+02:00",
+    "Id": 647,
+    "Name": "Keebler Group",
+    "ToolTip": "Ullam et labore sequi quia ex.",
+    "Deleted": false,
+    "Rank": 213,
+    "Type": "alias",
+    "ColorBlock": 578,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2020-10-28T16:00:49.0708338+01:00",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "King, Mosciski and Huels",
-        "ToolTip": "Sunt corporis modi qui qui similique.",
+        "Id": 422,
+        "Name": "Runte-Gutkowski",
+        "ToolTip": "Delectus doloribus.",
         "Deleted": false,
-        "Rank": 600,
-        "Type": "dolor",
-        "ColorBlock": 297,
-        "IconHint": "a",
-        "Selected": true,
-        "LastChanged": "2011-09-17T03:51:34.7239677+02:00",
+        "Rank": 514,
+        "Type": "magnam",
+        "ColorBlock": 152,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2000-03-26T16:00:49.0708338+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Nicole O'Connell",
+        "FullName": "Tomas Volkman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldLength": 17
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "similique",
-    "Hidden": true,
-    "FullName": "Jana Jacobson",
+    "ExtraInfo": "quo",
+    "StyleHint": "esse",
+    "Hidden": false,
+    "FullName": "Orlo Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldLength": 755
       }
     }
   }

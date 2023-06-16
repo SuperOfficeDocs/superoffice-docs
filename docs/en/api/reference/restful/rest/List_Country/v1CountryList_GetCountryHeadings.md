@@ -1,6 +1,7 @@
 ---
 title: GET List/Country/Headings
 uid: v1CountryList_GetCountryHeadings
+generated: true
 ---
 
 # GET List/Country/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 776,
-    "Name": "Ernser, Barrows and Hilll",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "Rank": 247,
-    "UdListDefinitionId": 242,
+    "HeadingId": 619,
+    "Name": "Dicki Group",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 693,
+    "UdListDefinitionId": 969,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 766
+        "FieldLength": 921
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: GET Role/WithFunctionRight/{functionalRightName}
 uid: v1RoleEntity_FindRolesWithFunctionalRight
+generated: true
 ---
 
 # GET Role/WithFunctionRight/{functionalRightName}
@@ -85,50 +86,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Aufderhar, Schaefer and Goodwin",
-    "ToolTip": "Maxime suscipit rerum rem cupiditate voluptatibus iste hic.",
+    "Id": 419,
+    "Name": "Harvey, Stokes and Kassulke",
+    "ToolTip": "Ratione dolore repellendus perspiciatis incidunt.",
     "Deleted": true,
-    "Rank": 548,
-    "Type": "accusamus",
+    "Rank": 523,
+    "Type": "soluta",
     "ChildItems": [
       {
-        "Id": 405,
-        "Name": "Schaden-Abbott",
-        "ToolTip": "Ea blanditiis nam eum quis non.",
-        "Deleted": true,
-        "Rank": 823,
-        "Type": "omnis",
+        "Id": 579,
+        "Name": "Crist-Shields",
+        "ToolTip": "Voluptatem nesciunt temporibus et corporis quo.",
+        "Deleted": false,
+        "Rank": 317,
+        "Type": "enim",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veritatis",
-        "ColorBlock": 752,
-        "ExtraInfo": "id",
-        "StyleHint": "voluptate",
-        "FullName": "Aryanna Mayer",
+        "IconHint": "perferendis",
+        "ColorBlock": 237,
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "officiis",
+        "FullName": "Dr. Kelton Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 637
+            "FieldLength": 946
           }
         }
       }
     ],
-    "IconHint": "deserunt",
-    "ColorBlock": 582,
-    "ExtraInfo": "magnam",
-    "StyleHint": "dolores",
-    "FullName": "Viola Harvey",
+    "IconHint": "iure",
+    "ColorBlock": 485,
+    "ExtraInfo": "corporis",
+    "StyleHint": "debitis",
+    "FullName": "Lane Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldType": "System.String",
+        "FieldLength": 293
       }
     }
   }

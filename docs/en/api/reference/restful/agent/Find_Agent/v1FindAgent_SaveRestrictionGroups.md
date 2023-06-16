@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/SaveRestrictionGroups
 uid: v1FindAgent_SaveRestrictionGroups
+generated: true
 ---
 
 # POST Agents/Find/SaveRestrictionGroups
@@ -81,30 +82,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "perspiciatis",
-  "ProviderName": "Schmitt-Lang",
-  "StorageKey": "voluptas",
+  "StorageType": "id",
+  "ProviderName": "Rempel, Gutmann and Hauck",
+  "StorageKey": "mollitia",
   "RestrictionGroups": [
     {
-      "Name": "Leuschke-Cruickshank",
-      "Description": "Programmable demand-driven strategy",
-      "Rank": 135,
+      "Name": "Armstrong, Torp and Rice",
+      "Description": "Synergized scalable ability",
+      "Rank": 696,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Leuschke-Cruickshank",
-      "Description": "Programmable demand-driven strategy",
-      "Rank": 135,
+      "Name": "Armstrong, Torp and Rice",
+      "Description": "Synergized scalable ability",
+      "Rank": 696,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "nemo"
+  "Context": "sequi"
 }
 ```
 
@@ -116,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stoltenberg Inc and Sons",
-    "Description": "Front-line 24/7 intranet",
-    "Rank": 53,
+    "Name": "Shields, Hettinger and Kulas",
+    "Description": "Cross-group cohesive algorithm",
+    "Rank": 822,
     "Restrictions": [
       {
-        "Name": "Schamberger-Green",
-        "Operator": "et",
+        "Name": "Johnston Inc and Sons",
+        "Operator": "assumenda",
         "Values": [
-          "quia",
-          "impedit"
+          "optio",
+          "excepturi"
         ],
         "DisplayValues": [
-          "qui",
-          "non"
+          "necessitatibus",
+          "nostrum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -137,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 865,
+        "InterParenthesis": 511,
         "InterOperator": "And",
-        "UniqueHash": 147
+        "UniqueHash": 623
       }
     ]
   },
   {
-    "Name": "Stoltenberg Inc and Sons",
-    "Description": "Front-line 24/7 intranet",
-    "Rank": 53,
+    "Name": "Shields, Hettinger and Kulas",
+    "Description": "Cross-group cohesive algorithm",
+    "Rank": 822,
     "Restrictions": [
       {
-        "Name": "Schamberger-Green",
-        "Operator": "et",
+        "Name": "Johnston Inc and Sons",
+        "Operator": "assumenda",
         "Values": [
-          "quia",
-          "impedit"
+          "optio",
+          "excepturi"
         ],
         "DisplayValues": [
-          "qui",
-          "non"
+          "necessitatibus",
+          "nostrum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -165,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 865,
+        "InterParenthesis": 511,
         "InterOperator": "And",
-        "UniqueHash": 147
+        "UniqueHash": 623
       }
     ]
   }

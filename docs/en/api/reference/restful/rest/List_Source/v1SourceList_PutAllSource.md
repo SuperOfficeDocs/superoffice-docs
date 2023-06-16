@@ -1,6 +1,7 @@
 ---
 title: PUT List/Source/Items
 uid: v1SourceList_PutAllSource
+generated: true
 ---
 
 # PUT List/Source/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Cole-Funk",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "UdListDefinitionId": 95,
-    "Rank": 751
+    "Id": 488,
+    "Name": "Goldner, Cummings and Littel",
+    "Tooltip": "ipsam",
+    "Deleted": false,
+    "UdListDefinitionId": 225,
+    "Rank": 905
   },
   {
-    "Id": 979,
-    "Name": "Cole-Funk",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "UdListDefinitionId": 95,
-    "Rank": 751
+    "Id": 488,
+    "Name": "Goldner, Cummings and Littel",
+    "Tooltip": "ipsam",
+    "Deleted": false,
+    "UdListDefinitionId": 225,
+    "Rank": 905
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Cassin, Marquardt and Kerluke",
-    "Tooltip": "odio",
-    "Deleted": false,
-    "UdListDefinitionId": 853,
-    "Rank": 259,
+    "Id": 132,
+    "Name": "Dietrich-White",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 100,
+    "Rank": 836,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 211
       }
     }
   }

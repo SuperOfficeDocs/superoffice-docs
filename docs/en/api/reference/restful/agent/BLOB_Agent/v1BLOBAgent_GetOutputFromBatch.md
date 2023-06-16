@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/GetOutputFromBatch
 uid: v1BLOBAgent_GetOutputFromBatch
+generated: true
 ---
 
 # POST Agents/BLOB/GetOutputFromBatch
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/BLOB/GetOutputFromBatch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 998
+  "BatchTaskId": 628
 }
 ```
 

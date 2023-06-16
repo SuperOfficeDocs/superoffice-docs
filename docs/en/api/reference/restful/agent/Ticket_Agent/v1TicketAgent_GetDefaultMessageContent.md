@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/GetDefaultMessageContent
 uid: v1TicketAgent_GetDefaultMessageContent
+generated: true
 ---
 
 # POST Agents/Ticket/GetDefaultMessageContent
@@ -69,13 +70,13 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 414,
+  "TicketId": 928,
   "MessageActionType": "Forward",
-  "TicketMessageId": 692
+  "TicketMessageId": 72
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"qui"
+"quaerat"
 ```

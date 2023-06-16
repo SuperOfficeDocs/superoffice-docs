@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Saint/SaveStatusMonitor
 uid: v1SaintAgent_SaveStatusMonitor
+generated: true
 ---
 
 # POST Agents/Saint/SaveStatusMonitor
@@ -90,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 466,
-  "Rank": 745,
-  "DefaultTask": 932,
-  "DefaultTaskText": "architecto",
+  "OwnerTable": 206,
+  "Rank": 527,
+  "DefaultTask": 415,
+  "DefaultTaskText": "id",
   "IsVisual": false,
-  "LastGenerated": "2001-12-14T03:51:28.0684042+01:00",
-  "Description": "Managed neutral solution",
-  "Name": "Cartwright Group",
-  "StatusMonitorId": 12,
-  "PictureId": 95,
-  "NeedsUpdate": true,
-  "Deleted": true,
-  "NumMatches": 160,
-  "NumNeedUpdate": 516,
-  "GenerationStart": "1999-02-09T03:51:28.0684042+01:00"
+  "LastGenerated": "2016-02-08T16:00:41.711291+01:00",
+  "Description": "Realigned dynamic benchmark",
+  "Name": "Koelpin, Ward and Ernser",
+  "StatusMonitorId": 269,
+  "PictureId": 381,
+  "NeedsUpdate": false,
+  "Deleted": false,
+  "NumMatches": 469,
+  "NumNeedUpdate": 826,
+  "GenerationStart": "1996-02-27T16:00:41.711291+01:00"
 }
 ```
 
@@ -119,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 659,
-  "Rank": 525,
-  "DefaultTask": 771,
-  "DefaultTaskText": "veniam",
-  "IsVisual": false,
-  "LastGenerated": "2002-07-05T03:51:28.0684042+02:00",
-  "Description": "Switchable modular neural-net",
-  "Name": "Jakubowski-Schuppe",
-  "StatusMonitorId": 206,
-  "PictureId": 226,
+  "OwnerTable": 891,
+  "Rank": 705,
+  "DefaultTask": 133,
+  "DefaultTaskText": "iusto",
+  "IsVisual": true,
+  "LastGenerated": "2015-09-20T16:00:41.711291+02:00",
+  "Description": "Switchable bi-directional migration",
+  "Name": "Weimann-Armstrong",
+  "StatusMonitorId": 257,
+  "PictureId": 724,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 274,
-  "NumNeedUpdate": 651,
-  "GenerationStart": "2014-05-01T03:51:28.0684042+02:00",
+  "NumMatches": 453,
+  "NumNeedUpdate": 405,
+  "GenerationStart": "2002-03-03T16:00:41.711291+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 918
+      "FieldLength": 783
     }
   }
 }

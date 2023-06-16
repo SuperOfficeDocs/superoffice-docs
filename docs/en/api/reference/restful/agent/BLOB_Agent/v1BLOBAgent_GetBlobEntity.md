@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/GetBlobEntity
 uid: v1BLOBAgent_GetBlobEntity
+generated: true
 ---
 
 # POST Agents/BLOB/GetBlobEntity
@@ -25,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=214
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=161
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +79,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 899,
-  "BlobSize": 831,
-  "Description": "Virtual multi-state utilisation",
-  "ExtraInfo": "ex",
+  "BlobId": 41,
+  "BlobSize": 460,
+  "Description": "Exclusive scalable throughput",
+  "ExtraInfo": "enim",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "pariatur",
-  "OriginalSize": 679,
-  "CreatedDate": "2008-06-02T03:51:26.6156255+02:00",
-  "UpdatedDate": "2020-10-10T03:51:26.6156255+02:00",
+  "MimeType": "repellendus",
+  "OriginalSize": 565,
+  "CreatedDate": "2014-10-30T16:00:40.1175682+01:00",
+  "UpdatedDate": "2015-06-16T16:00:40.1175682+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldType": "System.String",
+      "FieldLength": 424
     }
   }
 }

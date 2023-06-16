@@ -1,6 +1,7 @@
 ---
 title: POST List/PaymentTerm/Headings
 uid: v1PaymentTermsList_PostPaymentTermHeading
+generated: true
 ---
 
 # POST List/PaymentTerm/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 729,
-  "Name": "Schamberger Group",
-  "Tooltip": "omnis",
+  "HeadingId": 536,
+  "Name": "Yost, Ebert and Goyette",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "Rank": 393,
-  "UdListDefinitionId": 211
+  "Rank": 231,
+  "UdListDefinitionId": 169
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 565,
-  "Name": "Labadie, Koelpin and Kuhn",
-  "Tooltip": "eum",
+  "HeadingId": 93,
+  "Name": "Mohr Inc and Sons",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 417,
-  "UdListDefinitionId": 70,
+  "Rank": 922,
+  "UdListDefinitionId": 547,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 145
     }
   }
 }

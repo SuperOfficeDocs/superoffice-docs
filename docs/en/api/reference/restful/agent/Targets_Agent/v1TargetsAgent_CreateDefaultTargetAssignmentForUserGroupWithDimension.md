@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 uid: v1TargetsAgent_CreateDefaultTargetAssignmentForUserGroupWithDimension
+generated: true
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
@@ -81,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 858,
-  "TargetDimensionId": 55
+  "UserGroupId": 669,
+  "TargetDimensionId": 212
 }
 ```
 
@@ -98,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 29,
+    "TargetAssignmentInfoId": 199,
     "Values": [
-      161,
-      514
+      872,
+      327
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 544,
-    "DimensionListItemDisplayName": "Littel Group",
+    "DimensionListItem": 890,
+    "DimensionListItemDisplayName": "Brakus, Stehr and Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldLength": 103
       }
     }
   }

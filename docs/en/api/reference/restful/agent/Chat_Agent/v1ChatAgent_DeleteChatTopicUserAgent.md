@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/DeleteChatTopicUserAgent
 uid: v1ChatAgent_DeleteChatTopicUserAgent
+generated: true
 ---
 
 # POST Agents/Chat/DeleteChatTopicUserAgent
@@ -64,12 +65,12 @@ No Content
 POST /api/v1/Agents/Chat/DeleteChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 32,
-  "Username": "non"
+  "ChatTopicId": 276,
+  "Username": "ipsam"
 }
 ```
 

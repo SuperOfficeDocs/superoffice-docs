@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetPageConfiguration
 uid: v1ConfigurationAgent_GetPageConfiguration
+generated: true
 ---
 
 # POST Agents/Configuration/GetPageConfiguration
@@ -75,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "voluptatem",
-  "Instance": "laudantium",
-  "Page": "vel"
+  "Application": "reiciendis",
+  "Instance": "in",
+  "Page": "voluptatem"
 }
 ```
 
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"consequatur"
+"excepturi"
 ```

@@ -1,6 +1,7 @@
 ---
 title: GET TriggerScript/{id}
 uid: v1TriggerScriptEntity_GetTriggerScriptEntity
+generated: true
 ---
 
 # GET TriggerScript/{id}
@@ -84,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 859,
-  "Name": "Sporer-Medhurst",
+  "ScreenChooserId": 89,
+  "Name": "Klocko, Hermann and Smitham",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "velit",
-  "Source": "provident",
-  "Registered": "1999-03-03T03:51:34.1615868+01:00",
-  "RegisteredAssociateId": 982,
-  "Updated": "1997-08-06T03:51:34.1615868+02:00",
-  "UpdatedAssociateId": 510,
+  "UniqueIdentifier": "ut",
+  "Source": "ut",
+  "Registered": "2010-08-07T16:00:48.617756+02:00",
+  "RegisteredAssociateId": 918,
+  "Updated": "2017-02-05T16:00:48.617756+01:00",
+  "UpdatedAssociateId": 492,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 49
     }
   },
   "_Links": {

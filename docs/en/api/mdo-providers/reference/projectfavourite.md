@@ -1,17 +1,11 @@
 ---
 uid: projectfavourite
 title: projectfavourite
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "projectfavourite"
+keywords: mdoprovider mdo provider projectfavourite
+description: MDO list provider for Favourites
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "projectfavourite" MDO List

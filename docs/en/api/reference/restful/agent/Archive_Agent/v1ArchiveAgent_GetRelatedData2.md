@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetRelatedData2
 uid: v1ArchiveAgent_GetRelatedData2
+generated: true
 ---
 
 # POST Agents/Archive/GetRelatedData2
@@ -75,13 +76,13 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "adipisci",
-  "RecordId": 647,
-  "Fields": "dolores"
+  "Table": "corporis",
+  "RecordId": 693,
+  "Fields": "enim"
 }
 ```
 
@@ -93,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "unde",
+    "Field": "iusto",
     "FieldValue": null
   },
   {
-    "Field": "unde",
+    "Field": "iusto",
     "FieldValue": null
   }
 ]

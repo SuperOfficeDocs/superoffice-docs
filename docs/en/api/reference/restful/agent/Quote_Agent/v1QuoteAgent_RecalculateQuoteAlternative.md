@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/RecalculateQuoteAlternative
 uid: v1QuoteAgent_RecalculateQuoteAlternative
+generated: true
 ---
 
 # POST Agents/Quote/RecalculateQuoteAlternative
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternative": 838
+  "QuoteAlternative": 453
 }
 ```
 
@@ -91,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLinesHasChanged": false,
+  "QuoteLinesHasChanged": true,
   "ChangedQuoteAlternative": null,
   "Changes": null,
   "TableRight": null,
@@ -99,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 144
     }
   }
 }

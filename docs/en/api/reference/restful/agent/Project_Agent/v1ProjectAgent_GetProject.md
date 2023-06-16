@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetProject
 uid: v1ProjectAgent_GetProject
+generated: true
 ---
 
 # POST Agents/Project/GetProject
@@ -25,7 +26,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=302
+POST /api/v1/Agents/Project/GetProject?projectId=722
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -83,7 +84,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 56,
-  "Name": "Doyle, Jakubowski and Klein",
-  "Description": "Sharable zero administration system engine",
+  "ProjectId": 120,
+  "Name": "McCullough, Paucek and McGlynn",
+  "Description": "Customer-focused zero tolerance secured line",
   "URL": "http://www.example.com/",
-  "Type": "aut",
-  "AssociateId": 377,
-  "AssociateFullName": "Florence Selmer Yost V",
-  "TypeId": 663,
-  "Updated": "2012-11-18T03:51:27.9278166+01:00",
-  "StatusId": 9,
-  "Status": "inventore",
-  "TextId": 113,
-  "PublishTo": "2012-01-15T03:51:27.9278166+01:00",
-  "PublishFrom": "2010-09-22T03:51:27.9278166+02:00",
+  "Type": "cumque",
+  "AssociateId": 725,
+  "AssociateFullName": "Presley Hessel",
+  "TypeId": 263,
+  "Updated": "2002-05-18T16:00:41.5394564+02:00",
+  "StatusId": 457,
+  "Status": "doloribus",
+  "TextId": 246,
+  "PublishTo": "2019-05-07T16:00:41.5394564+02:00",
+  "PublishFrom": "2022-09-23T16:00:41.5394564+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "981338",
-  "ActiveErpLinks": 587,
+  "ProjectNumber": "724612",
+  "ActiveErpLinks": 187,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 157
     }
   }
 }

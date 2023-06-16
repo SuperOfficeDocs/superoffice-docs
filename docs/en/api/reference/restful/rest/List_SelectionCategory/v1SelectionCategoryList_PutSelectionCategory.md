@@ -1,6 +1,7 @@
 ---
 title: PUT List/SelectionCategory/Items/{id}
 uid: v1SelectionCategoryList_PutSelectionCategory
+generated: true
 ---
 
 # PUT List/SelectionCategory/Items/{id}
@@ -77,16 +78,16 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 413,
-  "Name": "Klein-Ankunding",
-  "Tooltip": "neque",
-  "Deleted": false,
-  "UdListDefinitionId": 899,
-  "Rank": 235
+  "Id": 750,
+  "Name": "Trantow Inc and Sons",
+  "Tooltip": "repellat",
+  "Deleted": true,
+  "UdListDefinitionId": 791,
+  "Rank": 223
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 976,
-  "Name": "Schuster, Swift and Hahn",
-  "Tooltip": "officia",
-  "Deleted": false,
-  "UdListDefinitionId": 864,
-  "Rank": 145,
+  "Id": 489,
+  "Name": "Jones, Hane and Lehner",
+  "Tooltip": "ab",
+  "Deleted": true,
+  "UdListDefinitionId": 677,
+  "Rank": 213,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 777
     }
   }
 }

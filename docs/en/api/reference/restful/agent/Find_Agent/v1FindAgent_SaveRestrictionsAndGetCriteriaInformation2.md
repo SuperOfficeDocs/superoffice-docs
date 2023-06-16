@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 uid: v1FindAgent_SaveRestrictionsAndGetCriteriaInformation2
+generated: true
 ---
 
 # POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
@@ -81,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptate",
-  "ProviderName": "Kunde, Rowe and Goldner",
-  "StorageKey": "nemo",
-  "Restrictions": "officiis",
-  "StaticColumns": "adipisci"
+  "StorageType": "soluta",
+  "ProviderName": "Howell LLC",
+  "StorageKey": "id",
+  "Restrictions": "laborum",
+  "StaticColumns": "sunt"
 }
 ```
 
@@ -102,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Orn-Turcotte",
-      "Operator": "nihil",
+      "Name": "Renner, Balistreri and Feil",
+      "Operator": "vero",
       "Values": [
-        "est",
-        "illum"
+        "rerum",
+        "consequatur"
       ],
       "DisplayValues": [
-        "sed",
-        "officiis"
+        "pariatur",
+        "quia"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 407,
+      "InterParenthesis": 1000,
       "InterOperator": "And",
-      "UniqueHash": 315
+      "UniqueHash": 183
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Koelpin, Collins and Conn",
-      "DisplayTooltip": "recusandae",
-      "DisplayType": "et",
-      "CanOrderBy": true,
-      "Name": "Herman, Monahan and Heller",
+      "DisplayName": "Hettinger-Schultz",
+      "DisplayTooltip": "cupiditate",
+      "DisplayType": "fugit",
+      "CanOrderBy": false,
+      "Name": "Murphy-Hudson",
       "CanRestrictBy": false,
-      "RestrictionType": "deleniti",
-      "RestrictionListName": "Abshire, Ratke and Casper",
+      "RestrictionType": "assumenda",
+      "RestrictionListName": "Effertz, Kilback and Schoen",
       "IsVisible": false,
-      "ExtraInfo": "accusantium",
-      "Width": "sit",
-      "IconHint": "placeat",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "id",
+      "Width": "cumque",
+      "IconHint": "consectetur",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kiehn LLC",
-      "PrimaryKey": 994,
+      "EntityName": "Goyette, Rau and Will",
+      "PrimaryKey": 942,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "repellat",
-          "TooltipHint": "culpa",
-          "LinkHint": "quia"
+          "DisplayValue": "sit",
+          "TooltipHint": "at",
+          "LinkHint": "a"
         }
       },
-      "LinkHint": "maxime",
-      "StyleHint": "cupiditate",
+      "LinkHint": "natus",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldType": "System.String",
+          "FieldLength": 303
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Mills-Beahan",
-      "Description": "Multi-layered assymetric middleware",
-      "Rank": 41,
+      "Name": "Blick Inc and Sons",
+      "Description": "Quality-focused uniform array",
+      "Rank": 18,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mills-Beahan",
-      "Description": "Multi-layered assymetric middleware",
-      "Rank": 41,
+      "Name": "Blick Inc and Sons",
+      "Description": "Quality-focused uniform array",
+      "Rank": 18,
       "Restrictions": [
         {},
         {}
@@ -188,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldLength": 126
     }
   }
 }

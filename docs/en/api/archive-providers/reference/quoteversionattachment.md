@@ -2,17 +2,10 @@
 uid: QuoteVersionAttachment
 title: QuoteVersionAttachment
 description: This is the archive Provider for quote version attachments.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "QuoteVersionAttachment"
+keywords: QuoteVersionAttachment archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "QuoteVersionAttachment"
@@ -116,7 +109,7 @@ This is the archive Provider for quote version attachments.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteVersionAttachment?$select=projectId,subject,documentPublish/publishedTo
+GET /api/v1/archive/QuoteVersionAttachment?$select=associate/isActiveText,subject,documentPublish/publishedTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

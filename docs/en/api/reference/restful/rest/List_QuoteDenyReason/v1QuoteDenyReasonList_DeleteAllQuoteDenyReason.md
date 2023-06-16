@@ -1,6 +1,7 @@
 ---
 title: DEL List/QuoteDenyReason/Items
 uid: v1QuoteDenyReasonList_DeleteAllQuoteDenyReason
+generated: true
 ---
 
 # DEL List/QuoteDenyReason/Items

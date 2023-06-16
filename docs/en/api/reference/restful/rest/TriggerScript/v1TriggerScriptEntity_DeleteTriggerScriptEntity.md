@@ -1,6 +1,7 @@
 ---
 title: DEL TriggerScript/{id}
 uid: v1TriggerScriptEntity_DeleteTriggerScriptEntity
+generated: true
 ---
 
 # DEL TriggerScript/{id}
@@ -51,7 +52,7 @@ TriggerScriptEntity deleted.
 DELETE /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

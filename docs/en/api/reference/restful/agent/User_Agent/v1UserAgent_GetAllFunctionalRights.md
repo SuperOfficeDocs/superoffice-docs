@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetAllFunctionalRights
 uid: v1UserAgent_GetAllFunctionalRights
+generated: true
 ---
 
 # POST Agents/User/GetAllFunctionalRights
@@ -91,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Breitenberg, Bauch and Boyle",
-    "ToolTip": "Omnis earum.",
-    "Deleted": false,
-    "Rank": 422,
-    "Type": "nesciunt",
-    "ColorBlock": 778,
-    "IconHint": "veniam",
-    "Selected": false,
-    "LastChanged": "2005-05-24T03:51:28.4901768+02:00",
+    "Id": 608,
+    "Name": "Hickle LLC",
+    "ToolTip": "Enim sunt maxime eos sint reprehenderit.",
+    "Deleted": true,
+    "Rank": 668,
+    "Type": "consequuntur",
+    "ColorBlock": 317,
+    "IconHint": "repellat",
+    "Selected": true,
+    "LastChanged": "2021-01-08T16:00:42.3206172+01:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Hodkiewicz-Zieme",
-        "ToolTip": "Deserunt explicabo.",
+        "Id": 803,
+        "Name": "Lockman-Hane",
+        "ToolTip": "Nam qui animi qui ad sint autem.",
         "Deleted": false,
-        "Rank": 467,
-        "Type": "rem",
-        "ColorBlock": 537,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2005-09-29T03:51:28.4901768+02:00",
+        "Rank": 511,
+        "Type": "ut",
+        "ColorBlock": 212,
+        "IconHint": "recusandae",
+        "Selected": true,
+        "LastChanged": "1996-09-20T16:00:42.3206172+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "dolorum",
-        "Hidden": false,
-        "FullName": "Ryley Zboncak",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Rafael Nitzsche",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 147
+            "FieldLength": 304
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "nihil",
+    "ExtraInfo": "non",
+    "StyleHint": "vitae",
     "Hidden": false,
-    "FullName": "Gilbert O'Kon",
+    "FullName": "Miss Nicolette Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldType": "System.String",
+        "FieldLength": 584
       }
     }
   }

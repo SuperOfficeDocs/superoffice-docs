@@ -1,6 +1,7 @@
 ---
 title: GET Ticket
 uid: v1TicketEntity_GetAll
+generated: true
 ---
 
 # GET Ticket
@@ -69,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=enim
-GET /api/v1/Ticket?$top=353
-GET /api/v1/Ticket?$skip=919
+GET /api/v1/Ticket?$entities=ea
+GET /api/v1/Ticket?$top=780
+GET /api/v1/Ticket?$skip=206
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=excepturi
+GET /api/v1/Ticket?$context=consequuntur
 GET /api/v1/Ticket?$format=JSON
-GET /api/v1/Ticket?$jsonSafe=True
+GET /api/v1/Ticket?$jsonSafe=False
 GET /api/v1/Ticket?$output=Display
 ```
 
@@ -117,7 +118,7 @@ OK
 GET /api/v1/Ticket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -128,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptas",
+  "odata.nextLink": "aspernatur",
   "value": [
     {
-      "PrimaryKey": 8228,
+      "PrimaryKey": 3014,
       "EntityName": "sale",
-      "saleId": 8228,
-      "contactId": 3170,
-      "name": "Crist Inc and Sons"
+      "saleId": 3014,
+      "contactId": 3335,
+      "name": "Reichert, Sipes and Dare"
     },
     {
-      "PrimaryKey": 305,
+      "PrimaryKey": 4924,
       "EntityName": "sale",
-      "saleId": 305,
-      "contactId": 8735,
-      "name": "Haley Inc and Sons"
+      "saleId": 4924,
+      "contactId": 8502,
+      "name": "Cruickshank, Mayer and Rath"
     }
   ]
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetDocumentTemplateUsedInSalesStage
 uid: v1ListAgent_GetDocumentTemplateUsedInSalesStage
+generated: true
 ---
 
 # POST Agents/List/GetDocumentTemplateUsedInSalesStage
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateUsedInSalesStage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 468
+  "DocumentTemplateId": 627
 }
 ```
 
@@ -82,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "voluptatem",
-  "dignissimos"
+  "ullam",
+  "ut"
 ]
 ```

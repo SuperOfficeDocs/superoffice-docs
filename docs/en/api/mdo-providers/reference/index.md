@@ -3,15 +3,9 @@ uid: mdo-provider-listing
 title: MDO List Provider names
 description: Valid list of provider names
 so.generated: true
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-so.date: 05.09.2023
+keywords: mdoprovider mdo provider
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # MDO List Providers
@@ -74,6 +68,7 @@ so.envir:
 | [activitystatus](activitystatus.md) |MDO provider for the ActivityStatus enum: NotStarted, Started, Completed|
 | [addressformat](addressformat.md) |MDO list provider for AddressFormats Id returned is the layout_id, not the addressformat_id.|
 | [allpersonsearch](allpersonsearch.md) |Provider for selecting a Person, including search on contacts that match as well as persons. this provider wil|
+| [allpersonwithassociatesearch](allpersonwithassociatesearch.md) |Provides the same baseline functionality as <see cref="T:SuperOffice.CRM.Lists.AllPersonListSearchProvider" />, but additionally adds the associateId of the person to the extrainfo and changes the iconhint if the person is an associate.|
 | [allpreferencekeys](allpreferencekeys.md) |MDO Provider that retrieves all preference keys|
 | [amountclass](amountclass.md) |GenericMDOProvider reads MDO lists with default settings|
 | [appointment](appointment.md) ||
@@ -418,6 +413,7 @@ so.envir:
 | [ticketstatuswithpostpone](ticketstatuswithpostpone.md) ||
 | [ticketticketstatus](ticketticketstatus.md) |TicketTicketStatusProvider creates a flat list based on the table: TICKET_STATUS|
 | [ticket_freetextsearch](ticket_freetextsearch.md) |Provider for selecting a Ticket - with contact and person search|
+| [ticket_selection_freetextsearch](ticket_selection_freetextsearch.md) |Provider for selecting Ticket Selection or a Ticket|
 | [time](time.md) |MDO provider for the hard-coded list of time alternatives in the appointment dialog and in edit/preference|
 | [timezone](timezone.md) |Provides the timezone list|
 | [timezonewithcode](timezonewithcode.md) |Provides the timezone list. The country code is given in the type field|

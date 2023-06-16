@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/SavePreferenceDescriptionLine
 uid: v1PreferenceAgent_SavePreferenceDescriptionLine
+generated: true
 ---
 
 # POST Agents/Preference/SavePreferenceDescriptionLine
@@ -72,16 +73,16 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 168,
-  "PrefDescId": 184,
-  "PrefValue": "eius",
-  "PrefShowValue": "eum",
-  "Description": "Optimized methodical success",
-  "IsBuiltin": false
+  "PrefDescLineId": 390,
+  "PrefDescId": 720,
+  "PrefValue": "mollitia",
+  "PrefShowValue": "ut",
+  "Description": "Assimilated global service-desk",
+  "IsBuiltin": true
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 557,
-  "PrefDescId": 143,
-  "PrefValue": "modi",
-  "PrefShowValue": "placeat",
-  "Description": "Automated secondary info-mediaries",
-  "IsBuiltin": false,
+  "PrefDescLineId": 151,
+  "PrefDescId": 894,
+  "PrefValue": "iure",
+  "PrefShowValue": "eum",
+  "Description": "Cloned multimedia approach",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 161
+      "FieldLength": 239
     }
   }
 }

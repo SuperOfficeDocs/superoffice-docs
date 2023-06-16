@@ -1,6 +1,7 @@
 ---
 title: PUT List/Priority
 uid: v1PriorityList_SetListDefinition
+generated: true
 ---
 
 # PUT List/Priority
@@ -87,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 964,
-  "Name": "Leannon-Koepp",
-  "Tooltip": "qui",
+  "Id": 56,
+  "Name": "VonRueden, McCullough and McKenzie",
+  "Tooltip": "magni",
   "Deleted": false,
-  "Rank": 717,
-  "IsCustomList": false,
+  "Rank": 91,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "incidunt",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "in",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 749,
-  "Name": "Bailey-Bauch",
-  "Tooltip": "reprehenderit",
+  "Id": 344,
+  "Name": "Runte Group",
+  "Tooltip": "neque",
   "Deleted": false,
-  "Rank": 2,
+  "Rank": 217,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "minima",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 871
     }
   }
 }

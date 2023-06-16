@@ -1,6 +1,7 @@
 ---
 title: GET ChatTopic/UserAgents
 uid: v1ChatTopicEntity_GetUserAgentList
+generated: true
 ---
 
 # GET ChatTopic/UserAgents
@@ -28,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -79,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Block, Christiansen and Labadie",
-    "ToolTip": "Ipsum pariatur.",
-    "Deleted": true,
-    "Rank": 204,
-    "Type": "voluptatem",
+    "Id": 999,
+    "Name": "Rippin, Reichel and Rath",
+    "ToolTip": "Voluptatem nesciunt est est facilis.",
+    "Deleted": false,
+    "Rank": 856,
+    "Type": "modi",
     "ChildItems": [
       {
-        "Id": 340,
-        "Name": "Gaylord Inc and Sons",
-        "ToolTip": "Possimus qui.",
-        "Deleted": false,
-        "Rank": 666,
-        "Type": "soluta",
+        "Id": 31,
+        "Name": "Will-Ondricka",
+        "ToolTip": "Sunt distinctio deserunt.",
+        "Deleted": true,
+        "Rank": 481,
+        "Type": "maiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "placeat",
+        "IconHint": "quae",
         "ColorBlock": 636,
-        "ExtraInfo": "officia",
-        "StyleHint": "laborum",
-        "FullName": "Mrs. Kian Jaquelin Jakubowski Sr.",
+        "ExtraInfo": "rerum",
+        "StyleHint": "illum",
+        "FullName": "Trevor Hudson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 405
+            "FieldType": "System.Int32",
+            "FieldLength": 408
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 849,
-    "ExtraInfo": "ducimus",
-    "StyleHint": "ullam",
-    "FullName": "Ms. Nikita Alejandra Olson V",
+    "IconHint": "similique",
+    "ColorBlock": 251,
+    "ExtraInfo": "non",
+    "StyleHint": "omnis",
+    "FullName": "Dr. Aylin Monique Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 490
+        "FieldType": "System.Int32",
+        "FieldLength": 282
       }
     }
   }

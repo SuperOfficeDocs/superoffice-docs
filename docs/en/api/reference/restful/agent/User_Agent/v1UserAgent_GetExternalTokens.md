@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetExternalTokens
 uid: v1UserAgent_GetExternalTokens
+generated: true
 ---
 
 # POST Agents/User/GetExternalTokens
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/User/GetExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "consectetur"
+  "Key": "qui"
 }
 ```
 
@@ -91,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "sint",
-  "AccessToken": "non",
-  "RefreshToken": "dolore",
+  "Provider": "qui",
+  "AccessToken": "explicabo",
+  "RefreshToken": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 337
     }
   }
 }

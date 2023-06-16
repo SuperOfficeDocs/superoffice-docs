@@ -1,7 +1,7 @@
 ---
 title: Services88.DiagnosticsAgent SOAP
 uid: Services88-Diagnostics-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Diagnostics SOAP

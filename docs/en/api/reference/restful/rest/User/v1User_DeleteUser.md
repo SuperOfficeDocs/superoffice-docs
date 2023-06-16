@@ -1,6 +1,7 @@
 ---
 title: DEL User/{id}
 uid: v1User_DeleteUser
+generated: true
 ---
 
 # DEL User/{id}
@@ -51,7 +52,7 @@ User deleted.
 DELETE /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

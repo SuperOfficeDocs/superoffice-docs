@@ -1,6 +1,7 @@
 ---
 title: GET List/Source/Items
 uid: v1SourceList_GetAll
+generated: true
 ---
 
 # GET List/Source/Items
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Okuneva Group",
-    "Tooltip": "ea",
+    "Id": 651,
+    "Name": "Balistreri Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 783,
-    "Rank": 1002,
+    "UdListDefinitionId": 344,
+    "Rank": 975,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldType": "System.Int32",
+        "FieldLength": 393
       }
     }
   }

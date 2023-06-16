@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Report/CreateDefaultReportLabelLayoutEntity
 uid: v1ReportAgent_CreateDefaultReportLabelLayoutEntity
+generated: true
 ---
 
 # POST Agents/Report/CreateDefaultReportLabelLayoutEntity
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 147,
-  "Name": "Mohr-Erdman",
-  "Description": "Programmable bottom-line secured line",
+  "ReportLabelLayoutId": 366,
+  "Name": "Mayer Group",
+  "Description": "Total exuding throughput",
   "Orientation": "Landscape",
-  "PaperWidth": 305,
-  "PaperHeight": 284,
-  "LeftMargin": 371,
-  "RightMargin": 60,
-  "TopMargin": 557,
-  "BottomMargin": 125,
-  "CountColumns": 963,
-  "CountRows": 799,
+  "PaperWidth": 296,
+  "PaperHeight": 468,
+  "LeftMargin": 535,
+  "RightMargin": 841,
+  "TopMargin": 402,
+  "BottomMargin": 195,
+  "CountColumns": 935,
+  "CountRows": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldLength": 701
     }
   }
 }

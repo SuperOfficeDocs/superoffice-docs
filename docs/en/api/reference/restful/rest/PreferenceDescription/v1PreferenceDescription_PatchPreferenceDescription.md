@@ -1,6 +1,7 @@
 ---
 title: PATCH PreferenceDescription/{id}
 uid: v1PreferenceDescription_PatchPreferenceDescription
+generated: true
 ---
 
 # PATCH PreferenceDescription/{id}
@@ -124,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "iste",
+    "path": "totam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "iste",
+    "path": "totam",
     "value": {}
   }
 ]
@@ -148,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 454,
-  "Section": "ex",
-  "Key": "omnis",
-  "Name": "Emard Inc and Sons",
+  "PrefDescId": 98,
+  "Section": "quisquam",
+  "Key": "fugiat",
+  "Name": "Wolff, Stracke and Cruickshank",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-tiered eco-centric application",
-  "IsBuiltin": false,
-  "TableName": "Littel Inc and Sons",
-  "UserDefinedListId": 798,
-  "Rank": 530,
-  "SubGroup": "adipisci",
-  "MinLevel": 292,
-  "MaxValue": 641,
-  "MinValue": 869,
-  "RequiredLicense": "quia",
+  "Description": "Ergonomic attitude-oriented extranet",
+  "IsBuiltin": true,
+  "TableName": "West, Keeling and Dicki",
+  "UserDefinedListId": 122,
+  "Rank": 843,
+  "SubGroup": "consequatur",
+  "MinLevel": 424,
+  "MaxValue": 693,
+  "MinValue": 826,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldLength": 808
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

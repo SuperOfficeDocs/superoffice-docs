@@ -1,6 +1,7 @@
 ---
 title: POST ChatSession/Pickup
 uid: v1ChatSessionEntity_PickUpFirstChatSession
+generated: true
 ---
 
 # POST ChatSession/Pickup
@@ -86,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 569,
-  "TopicId": 584,
+  "ChatSessionId": 799,
+  "TopicId": 458,
   "User": null,
   "Person": null,
-  "CustomerAlias": "corrupti",
-  "CustomerHost": "consectetur",
-  "CustomerName": "Corwin, Padberg and Rodriguez",
-  "CustomerEmail": "carlo@kulasmiller.com",
-  "CustomerPhone": "314.277.5745 x442",
+  "CustomerAlias": "enim",
+  "CustomerHost": "ipsam",
+  "CustomerName": "Muller LLC",
+  "CustomerEmail": "hal.hirthe@koepphand.us",
+  "CustomerPhone": "(484)321-8681",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Connelly-Connelly",
+  "CustomerCompanyName": "Spinka, Stark and Pagac",
   "Status": "Closed",
-  "FirstMessage": "voluptas",
-  "LastMessage": "ea",
-  "WhenRequested": "2003-03-22T03:51:33.208575+01:00",
-  "WhenStarted": "2020-05-15T03:51:33.208575+02:00",
-  "WhenEnded": "2003-06-06T03:51:33.208575+02:00",
-  "WhenIdle": "2020-05-21T03:51:33.208575+02:00",
-  "WhenFetched": "2022-01-07T03:51:33.208575+01:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 180,
-  "AlertLevel": 157,
-  "Rank": 399,
+  "FirstMessage": "necessitatibus",
+  "LastMessage": "commodi",
+  "WhenRequested": "2022-02-11T16:00:47.6491111+01:00",
+  "WhenStarted": "1998-09-28T16:00:47.6491111+02:00",
+  "WhenEnded": "2018-06-04T16:00:47.6491111+02:00",
+  "WhenIdle": "2012-11-06T16:00:47.6491111+01:00",
+  "WhenFetched": "2002-11-16T16:00:47.6491111+01:00",
+  "SessionKey": "velit",
+  "InitialQueuePos": 7,
+  "AlertLevel": 463,
+  "Rank": 876,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 143,
+  "ChatbotIsActive": true,
+  "Rating": 141,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 17
     }
   }
 }

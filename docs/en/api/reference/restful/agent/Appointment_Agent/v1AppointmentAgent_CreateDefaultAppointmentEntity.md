@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CreateDefaultAppointmentEntity
 uid: v1AppointmentAgent_CreateDefaultAppointmentEntity
+generated: true
 ---
 
 # POST Agents/Appointment/CreateDefaultAppointmentEntity
@@ -93,6 +94,9 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -110,7 +114,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -124,122 +128,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-03-23T03:51:26.1782131+01:00",
-  "AppointmentId": 590,
-  "Description": "Inverse value-added Graphic Interface",
-  "StartDate": "2015-11-30T03:51:26.1782131+01:00",
-  "EndDate": "2020-02-02T03:51:26.1782131+01:00",
+  "CreatedDate": "1997-08-09T16:00:39.8051095+02:00",
+  "AppointmentId": 574,
+  "Description": "Reactive client-server info-mediaries",
+  "StartDate": "2008-05-23T16:00:39.8051095+02:00",
+  "EndDate": "2011-11-05T16:00:39.8051095+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 618,
+  "MotherId": 566,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-08-20T03:51:26.1938344+02:00",
+  "UpdatedDate": "2003-05-31T16:00:39.8051095+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 118,
+  "ActiveLinks": 166,
   "Links": [
     {
-      "EntityName": "Daugherty, Lebsack and Feest",
-      "Id": 973,
-      "Description": "Decentralized bottom-line infrastructure",
-      "ExtraInfo": "vel",
-      "LinkId": 812,
+      "EntityName": "Bartell Group",
+      "Id": 630,
+      "Description": "Open-architected tertiary pricing structure",
+      "ExtraInfo": "aut",
+      "LinkId": 815,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 521
+          "FieldType": "System.Int32",
+          "FieldLength": 5
         }
       }
     }
   ],
-  "AlarmLeadTime": "animi",
-  "HasAlarm": true,
-  "ColorIndex": 368,
-  "IsFree": true,
+  "AlarmLeadTime": "voluptate",
+  "HasAlarm": false,
+  "ColorIndex": 17,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "vero",
+  "LagTime": "quos",
   "LeadTime": "et",
-  "Location": "in",
-  "RejectCounter": 867,
+  "Location": "asperiores",
+  "RejectCounter": 38,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 197,
-      "PersonId": 707,
-      "ContactId": 60,
-      "EmailId": 758,
-      "SendEmail": true,
+      "AssociateId": 241,
+      "PersonId": 306,
+      "ContactId": 858,
+      "EmailId": 299,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 197,
-      "PersonId": 707,
-      "ContactId": 60,
-      "EmailId": 758,
-      "SendEmail": true,
+      "AssociateId": 241,
+      "PersonId": 306,
+      "ContactId": 858,
+      "EmailId": 299,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-06-21T03:51:26.1938344+02:00",
+  "ActiveDate": "2005-08-19T16:00:39.8051095+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 523,
+  "PreferredTZLocation": 191,
   "Sale": null,
-  "SuggestedAppointmentId": 331,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 586,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "fuga",
+  "CentralserviceVideomeetId": "et",
+  "Title": "voluptatem",
+  "Agenda": "et",
+  "InternalNotes": "occaecati",
   "UserDefinedFields": {
-    "SuperOffice:1": "Adriana Larkin Sr.",
-    "SuperOffice:2": "Dr. Marley Murray"
+    "SuperOffice:1": "Pamela McGlynn",
+    "SuperOffice:2": "Charlotte Crooks DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "ad",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "ex",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "sit"
+    "CustomFields1": "rerum",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2000-06-26T03:51:26.1938344+02:00",
-  "PublishTo": "2007-09-23T03:51:26.1938344+02:00",
-  "PublishFrom": "2014-10-13T03:51:26.1938344+02:00",
+  "PublishEventDate": "2000-11-16T16:00:39.8051095+01:00",
+  "PublishTo": "2016-07-01T16:00:39.8051095+02:00",
+  "PublishFrom": "2002-11-10T16:00:39.8051095+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 478,
+      "VisibleId": 598,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldType": "System.Int32",
+          "FieldLength": 646
         }
       }
     },
     {
-      "VisibleId": 478,
+      "VisibleId": 598,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldType": "System.Int32",
+          "FieldLength": 646
         }
       }
     }
@@ -249,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 443
+      "FieldLength": 931
     }
   }
 }

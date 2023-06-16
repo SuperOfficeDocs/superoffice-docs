@@ -1,6 +1,7 @@
 ---
 title: GET List/Task/Items/Default
 uid: v1TaskList_CreateDefaultTaskListItem
+generated: true
 ---
 
 # GET List/Task/Items/Default
@@ -66,7 +67,7 @@ OK
 GET /api/v1/List/Task/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,16 +77,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 498,
-  "Value": "ipsam",
+  "TaskListItemId": 145,
+  "Value": "quia",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "sint",
+  "Tooltip": "tempore",
   "Deleted": true,
-  "IntentId": 282,
-  "Rank": 690,
+  "IntentId": 160,
+  "Rank": 707,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
+  "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -94,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 916
     }
   }
 }

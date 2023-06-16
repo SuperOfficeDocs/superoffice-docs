@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ViewState/GetNextCurrent
 uid: v1ViewStateAgent_GetNextCurrent
+generated: true
 ---
 
 # POST Agents/ViewState/GetNextCurrent
@@ -85,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Padberg LLC",
-  "Id": 658
+  "HistoryName": "Murphy Inc and Sons",
+  "Id": 184
 }
 ```
 
@@ -97,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 595,
-  "Id": 993,
-  "HistoryName": "Satterfield, Wintheiser and O'Keefe",
-  "HistoryId": 885,
-  "AssociateId": 746,
-  "Name": "Kassulke-Macejkovic",
-  "ItemInfo": "qui",
+  "Rank": 792,
+  "Id": 246,
+  "HistoryName": "Lindgren Inc and Sons",
+  "HistoryId": 605,
+  "AssociateId": 741,
+  "Name": "Wolf, Ebert and Greenfelder",
+  "ItemInfo": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 273
     }
   }
 }

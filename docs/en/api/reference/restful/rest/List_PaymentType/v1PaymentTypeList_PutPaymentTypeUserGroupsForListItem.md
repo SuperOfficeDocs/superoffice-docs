@@ -1,6 +1,7 @@
 ---
 title: PUT List/PaymentType/Items/{id}/UserGroups
 uid: v1PaymentTypeList_PutPaymentTypeUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/PaymentType/Items/{id}/UserGroups
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Name": "Kshlerin-Mitchell",
-    "ToolTip": "Nihil enim consectetur.",
-    "Deleted": true,
-    "Rank": 499,
-    "Type": "occaecati",
-    "ColorBlock": 10,
-    "IconHint": "maxime",
+    "Id": 170,
+    "Name": "Olson-Blanda",
+    "ToolTip": "Consequatur laudantium aut harum.",
+    "Deleted": false,
+    "Rank": 880,
+    "Type": "est",
+    "ColorBlock": 20,
+    "IconHint": "ea",
     "Selected": true,
-    "LastChanged": "2018-05-26T03:51:34.7552114+02:00",
+    "LastChanged": "2016-09-15T16:00:49.1020725+02:00",
     "ChildItems": [
       {
-        "Id": 318,
-        "Name": "Berge LLC",
-        "ToolTip": "Est animi nulla aut eaque.",
+        "Id": 624,
+        "Name": "Kihn, O'Kon and Yost",
+        "ToolTip": "Aut et qui reiciendis enim odio fuga aperiam.",
         "Deleted": false,
-        "Rank": 538,
-        "Type": "et",
-        "ColorBlock": 588,
-        "IconHint": "natus",
+        "Rank": 189,
+        "Type": "sed",
+        "ColorBlock": 740,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "2018-07-16T03:51:34.7552114+02:00",
+        "LastChanged": "1996-07-16T16:00:49.1020725+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "dolore",
+        "StyleHint": "maiores",
         "Hidden": true,
-        "FullName": "Dr. Hailie Bartell Sr."
+        "FullName": "Mrs. Ryan Christiansen DVM"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "quasi",
+    "ExtraInfo": "repellat",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Mrs. Sydney Ezra Kirlin DVM"
+    "FullName": "Bobbie Goyette"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Lang Inc and Sons",
-    "ToolTip": "Tenetur aut vero et perspiciatis impedit.",
-    "Deleted": false,
-    "Rank": 41,
-    "Type": "et",
-    "ColorBlock": 914,
-    "IconHint": "ullam",
+    "Id": 101,
+    "Name": "Mraz Group",
+    "ToolTip": "Aut impedit est quia at.",
+    "Deleted": true,
+    "Rank": 990,
+    "Type": "eum",
+    "ColorBlock": 953,
+    "IconHint": "quibusdam",
     "Selected": false,
-    "LastChanged": "2011-05-06T03:51:34.7552114+02:00",
+    "LastChanged": "2001-03-07T16:00:49.1020725+01:00",
     "ChildItems": [
       {
-        "Id": 446,
-        "Name": "Mayer LLC",
-        "ToolTip": "Dolor in exercitationem.",
+        "Id": 682,
+        "Name": "Koepp Inc and Sons",
+        "ToolTip": "Totam dolore aut reprehenderit.",
         "Deleted": true,
-        "Rank": 956,
-        "Type": "sit",
-        "ColorBlock": 666,
-        "IconHint": "consectetur",
+        "Rank": 13,
+        "Type": "nobis",
+        "ColorBlock": 980,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2019-06-26T03:51:34.7552114+02:00",
+        "LastChanged": "2003-05-01T16:00:49.1020725+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Mr. Mayra Robel Jr.",
+        "FullName": "Lillie Kovacek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 427
+            "FieldLength": 697
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "sequi",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "impedit",
     "Hidden": false,
-    "FullName": "Ivory Lehner",
+    "FullName": "Benton O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldLength": 325
       }
     }
   }

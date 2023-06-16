@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CreateDefaultRecurrenceByDate
 uid: v1AppointmentAgent_CreateDefaultRecurrenceByDate
+generated: true
 ---
 
 # POST Agents/Appointment/CreateDefaultRecurrenceByDate
@@ -87,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2018-05-01T03:51:26.2875764+02:00"
+  "StartDate": "2016-01-10T16:00:39.9300897+01:00"
 }
 ```
 
@@ -98,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 524,
-  "StartDate": "2019-06-13T03:51:26.2875764+02:00",
-  "EndDate": "2013-01-14T03:51:26.2875764+01:00",
-  "RecurrenceCounter": 69,
+  "RecurrenceId": 331,
+  "StartDate": "1999-03-08T16:00:39.9300897+01:00",
+  "EndDate": "2001-08-09T16:00:39.9300897+02:00",
+  "RecurrenceCounter": 607,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1998-09-23T03:51:26.2875764+02:00",
-      "IsConflict": false,
-      "Description": "Programmable multi-tasking flexibility",
-      "DescriptionStyleHint": "Universal disintermediate project",
-      "Tooltip": "possimus"
+      "Date": "2006-04-10T16:00:39.9300897+02:00",
+      "IsConflict": true,
+      "Description": "Synergized attitude-oriented product",
+      "DescriptionStyleHint": "Switchable 3rd generation definition",
+      "Tooltip": "ut"
     },
     {
-      "Date": "1998-09-23T03:51:26.2875764+02:00",
-      "IsConflict": false,
-      "Description": "Programmable multi-tasking flexibility",
-      "DescriptionStyleHint": "Universal disintermediate project",
-      "Tooltip": "possimus"
+      "Date": "2006-04-10T16:00:39.9300897+02:00",
+      "IsConflict": true,
+      "Description": "Synergized attitude-oriented product",
+      "DescriptionStyleHint": "Switchable 3rd generation definition",
+      "Tooltip": "ut"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

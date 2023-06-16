@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumnsWithContext2
 uid: v1ArchiveAgent_GetArchiveListByColumnsWithContext2
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithContext2
@@ -166,18 +167,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Deckow, Tremblay and Kris",
-  "Columns": "magni",
+  "ProviderName": "Conroy-Kertzmann",
+  "Columns": "veritatis",
   "SortOrder": "et",
-  "Restriction": "sit",
-  "Entities": "ut",
-  "Page": 833,
-  "PageSize": 60,
-  "Context": "eos"
+  "Restriction": "ut",
+  "Entities": "repellendus",
+  "Page": 125,
+  "PageSize": 262,
+  "Context": "et"
 }
 ```
 
@@ -189,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Cronin LLC",
-    "PrimaryKey": 558,
+    "EntityName": "Hane-Miller",
+    "PrimaryKey": 320,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "minima",
-        "TooltipHint": "autem",
-        "LinkHint": "doloremque"
+        "DisplayValue": "odit",
+        "TooltipHint": "rem",
+        "LinkHint": "qui"
       }
     },
-    "LinkHint": "non",
-    "StyleHint": "dolores",
+    "LinkHint": "ad",
+    "StyleHint": "quod",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 395
       }
     }
   }

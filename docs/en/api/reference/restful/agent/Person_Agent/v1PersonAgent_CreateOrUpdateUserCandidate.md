@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/CreateOrUpdateUserCandidate
 uid: v1PersonAgent_CreateOrUpdateUserCandidate
+generated: true
 ---
 
 # POST Agents/Person/CreateOrUpdateUserCandidate
@@ -79,13 +80,13 @@ OK
 POST /api/v1/Agents/Person/CreateOrUpdateUserCandidate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 18,
-  "Username": "aliquid",
-  "AccessAllRequests": false
+  "PersonId": 774,
+  "Username": "soluta",
+  "AccessAllRequests": true
 }
 ```
 
@@ -96,16 +97,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserCandidateId": 757,
-  "PersonId": 721,
-  "SecretKey": "enim",
-  "SecretValue": "voluptas",
+  "UserCandidateId": 822,
+  "PersonId": 480,
+  "SecretKey": "numquam",
+  "SecretValue": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldType": "System.String",
+      "FieldLength": 906
     }
   }
 }

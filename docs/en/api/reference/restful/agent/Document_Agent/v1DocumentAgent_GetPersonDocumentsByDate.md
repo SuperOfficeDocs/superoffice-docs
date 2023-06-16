@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetPersonDocumentsByDate
 uid: v1DocumentAgent_GetPersonDocumentsByDate
+generated: true
 ---
 
 # POST Agents/Document/GetPersonDocumentsByDate
@@ -97,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 1001,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2021-01-21T03:51:27.0217725+01:00",
-  "EndTime": "2004-12-30T03:51:27.0217725+01:00",
-  "Count": 416
+  "PersonId": 574,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2001-03-27T16:00:40.5862498+02:00",
+  "EndTime": "2021-05-14T16:00:40.5862498+02:00",
+  "Count": 652
 }
 ```
 
@@ -117,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 613,
-    "Attention": "tempora",
-    "Header": "totam",
-    "Name": "Haley-Fadel",
-    "OurRef": "et",
-    "YourRef": "voluptatem",
-    "Description": "Enterprise-wide intangible moderator",
-    "DocumentTemplate": "asperiores",
-    "IsPublished": false,
-    "PersonId": 502,
-    "PersonFullName": "Skylar Grimes",
-    "AssociateFullName": "Mrs. Lambert Justice Tromp I",
-    "ContactId": 45,
-    "ContactName": "Dach, Lehner and Leannon",
-    "ProjectId": 866,
-    "ProjectName": "Macejkovic, Stoltenberg and Labadie",
-    "AssociateId": 647,
-    "Snum": 333,
-    "SaleId": 366,
-    "SaleName": "Strosin, Morissette and Littel",
+    "DocumentId": 786,
+    "Attention": "porro",
+    "Header": "aut",
+    "Name": "Swift-Mann",
+    "OurRef": "nam",
+    "YourRef": "quis",
+    "Description": "Advanced intangible product",
+    "DocumentTemplate": "sit",
+    "IsPublished": true,
+    "PersonId": 370,
+    "PersonFullName": "Eden Rutherford",
+    "AssociateFullName": "Marilie Armstrong",
+    "ContactId": 963,
+    "ContactName": "Jaskolski, Braun and Reichert",
+    "ProjectId": 255,
+    "ProjectName": "Weber, Sanford and Moore",
+    "AssociateId": 385,
+    "Snum": 589,
+    "SaleId": 843,
+    "SaleName": "Grady Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 351
+        "FieldType": "System.Int32",
+        "FieldLength": 693
       }
     }
   }

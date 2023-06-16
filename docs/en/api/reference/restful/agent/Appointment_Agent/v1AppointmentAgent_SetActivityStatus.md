@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/SetActivityStatus
 uid: v1AppointmentAgent_SetActivityStatus
+generated: true
 ---
 
 # POST Agents/Appointment/SetActivityStatus
@@ -66,13 +67,13 @@ No Content
 POST /api/v1/Agents/Appointment/SetActivityStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifier": [
-    "soluta",
-    "aut"
+    "vel",
+    "et"
   ],
   "ActivityStatus": "Completed"
 }

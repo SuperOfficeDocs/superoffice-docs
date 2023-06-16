@@ -1,6 +1,7 @@
 ---
 title: POST Preference/{section}/{key}
 uid: v1Preference_SetPrefValue_POST
+generated: true
 ---
 
 # POST Preference/{section}/{key}
@@ -70,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "hic",
+  "RawValue": "distinctio",
   "Specification": null,
-  "DisplayValue": "officia",
-  "DisplayTooltip": "molestiae",
+  "DisplayValue": "quidem",
+  "DisplayTooltip": "dolorem",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 725,
-  "PrefDescId": 782,
-  "TableName": "Jakubowski, Jakubowski and Lebsack",
-  "UserPreferenceId": 305
+  "TargetId": 697,
+  "PrefDescId": 589,
+  "TableName": "Barton-Collins",
+  "UserPreferenceId": 654
 }
 ```
 

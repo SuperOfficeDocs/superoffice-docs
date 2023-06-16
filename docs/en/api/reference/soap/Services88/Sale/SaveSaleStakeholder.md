@@ -1,6 +1,6 @@
 ---
 title: Services88.SaleAgent.SaveSaleStakeholder SOAP
-generated: 1
+generated: true
 uid: Services88-Sale-SaveSaleStakeholder
 ---
 

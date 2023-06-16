@@ -1,6 +1,6 @@
 ---
 title: Services88.AudienceAgent.GetDefaultCountryFlag SOAP
-generated: 1
+generated: true
 uid: Services88-Audience-GetDefaultCountryFlag
 ---
 

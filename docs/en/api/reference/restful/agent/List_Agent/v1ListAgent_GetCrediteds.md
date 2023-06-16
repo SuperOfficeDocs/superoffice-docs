@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetCrediteds
 uid: v1ListAgent_GetCrediteds
+generated: true
 ---
 
 # POST Agents/List/GetCrediteds
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetCrediteds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 70,
-    "Value": "repudiandae",
-    "Tooltip": "eaque",
+    "Id": 843,
+    "Value": "facere",
+    "Tooltip": "iure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldType": "System.Int32",
+        "FieldLength": 734
       }
     }
   },
   {
-    "Id": 70,
-    "Value": "repudiandae",
-    "Tooltip": "eaque",
+    "Id": 843,
+    "Value": "facere",
+    "Tooltip": "iure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldType": "System.Int32",
+        "FieldLength": 734
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/ChatSessionsForUser
 uid: v1ChatAgent_ChatSessionsForUser
+generated: true
 ---
 
 # POST Agents/Chat/ChatSessionsForUser
@@ -96,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatSessionsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,29 +108,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 644,
-    "TopicId": 47,
+    "ChatSessionId": 278,
+    "TopicId": 812,
     "User": null,
     "Person": null,
-    "CustomerAlias": "rerum",
-    "CustomerHost": "ea",
-    "CustomerName": "Harris-Fahey",
-    "CustomerEmail": "ronaldo@hermannschneider.biz",
-    "CustomerPhone": "123-348-4095",
+    "CustomerAlias": "ipsum",
+    "CustomerHost": "maxime",
+    "CustomerName": "Smith-Zboncak",
+    "CustomerEmail": "ruben.howe@lind.co.uk",
+    "CustomerPhone": "522-280-3836 x376",
     "CustomerConsented": false,
-    "CustomerCompanyName": "Keeling-Larson",
+    "CustomerCompanyName": "Schmitt, Gleason and Von",
     "Status": "Closed",
-    "FirstMessage": "eum",
-    "LastMessage": "sit",
-    "WhenRequested": "1999-09-21T03:51:26.6937299+02:00",
-    "WhenStarted": "2007-08-21T03:51:26.6937299+02:00",
-    "WhenEnded": "2008-12-18T03:51:26.6937299+01:00",
-    "WhenIdle": "2010-03-10T03:51:26.6937299+01:00",
-    "WhenFetched": "1996-11-13T03:51:26.6937299+01:00",
-    "SessionKey": "quasi",
-    "InitialQueuePos": 82,
-    "AlertLevel": 424,
-    "Rank": 688,
+    "FirstMessage": "et",
+    "LastMessage": "dolore",
+    "WhenRequested": "2014-07-08T16:00:40.1956874+02:00",
+    "WhenStarted": "2015-02-14T16:00:40.1956874+01:00",
+    "WhenEnded": "2012-02-01T16:00:40.1956874+01:00",
+    "WhenIdle": "2021-01-26T16:00:40.1956874+01:00",
+    "WhenFetched": "2021-03-07T16:00:40.1956874+01:00",
+    "SessionKey": "distinctio",
+    "InitialQueuePos": 525,
+    "AlertLevel": 915,
+    "Rank": 625,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -137,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 517,
+    "Rating": 18,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldType": "System.String",
+        "FieldLength": 533
       }
     }
   }

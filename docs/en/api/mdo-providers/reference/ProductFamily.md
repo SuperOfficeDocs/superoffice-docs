@@ -1,17 +1,11 @@
 ---
 uid: productfamily
 title: productfamily
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "productfamily"
+keywords: mdoprovider mdo provider productfamily
+description: GenericMDOProvider reads MDO lists with default settings
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "productfamily" MDO List

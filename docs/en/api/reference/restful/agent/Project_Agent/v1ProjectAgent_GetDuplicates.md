@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetDuplicates
 uid: v1ProjectAgent_GetDuplicates
+generated: true
 ---
 
 # POST Agents/Project/GetDuplicates
@@ -80,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Larson LLC"
+  "Name": "Stehr, Reinger and Sporer"
 }
 ```
 
@@ -92,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Barton, Mante and Walter",
-    "SoPrimaryKey": 474,
-    "EntryName": "Watsica-Jast",
-    "EntryIdentifier": "laboriosam",
-    "RuleDisplayName": "Stiedemann, Satterfield and Vandervort",
+    "RuleName": "McDermott-Boyer",
+    "SoPrimaryKey": 176,
+    "EntryName": "Hudson-Reichert",
+    "EntryIdentifier": "autem",
+    "RuleDisplayName": "Conroy, Sauer and Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 837
+        "FieldType": "System.String",
+        "FieldLength": 966
       }
     }
   }

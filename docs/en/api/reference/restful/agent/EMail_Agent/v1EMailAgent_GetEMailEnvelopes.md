@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetEMailEnvelopes
 uid: v1EMailAgent_GetEMailEnvelopes
+generated: true
 ---
 
 # POST Agents/EMail/GetEMailEnvelopes
@@ -84,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    257,
-    48
+    514,
+    357
   ]
 }
 ```
@@ -104,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 199,
-    "MessageId": "et",
-    "Subject": "autem",
+    "ServerId": 485,
+    "MessageId": "id",
+    "Subject": "numquam",
     "From": null,
     "To": [
       {
-        "ContactId": 724,
-        "ContactName": "Becker-Franecki",
-        "PersonId": 270,
-        "PersonName": "Sauer, Hintz and Luettgen",
-        "AssociateId": 962,
-        "Address": "quis",
-        "EmailId": 208,
+        "ContactId": 938,
+        "ContactName": "Hoppe-Schamberger",
+        "PersonId": 799,
+        "PersonName": "Schmidt, Fahey and Berge",
+        "AssociateId": 13,
+        "Address": "ipsam",
+        "EmailId": 919,
         "DuplicatePersonIds": [
-          391,
-          909
+          81,
+          86
         ],
-        "Name": "Steuber Group",
+        "Name": "Schmitt, Boyer and Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 191
+            "FieldType": "System.Int32",
+            "FieldLength": 12
           }
         }
       }
     ],
-    "Sent": "2015-03-20T03:51:27.2560919+01:00",
+    "Sent": "2011-02-23T16:00:40.9612259+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 582,
+    "Size": 71,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 181
+        "FieldType": "System.Int32",
+        "FieldLength": 161
       }
     }
   }

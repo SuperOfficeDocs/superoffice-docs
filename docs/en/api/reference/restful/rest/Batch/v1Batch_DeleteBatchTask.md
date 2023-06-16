@@ -1,6 +1,7 @@
 ---
 title: DEL BatchTask/{id}
 uid: v1Batch_DeleteBatchTask
+generated: true
 ---
 
 # DEL BatchTask/{id}

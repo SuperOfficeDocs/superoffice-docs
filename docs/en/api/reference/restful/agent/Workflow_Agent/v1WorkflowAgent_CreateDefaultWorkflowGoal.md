@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/CreateDefaultWorkflowGoal
 uid: v1WorkflowAgent_CreateDefaultWorkflowGoal
+generated: true
 ---
 
 # POST Agents/Workflow/CreateDefaultWorkflowGoal
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 752,
-  "WorkflowId": 705,
+  "WorkflowGoalId": 316,
+  "WorkflowId": 749,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Buckridge-Pollich",
-      "Description": "Integrated mission-critical extranet",
-      "Rank": 780,
+      "Name": "O'Keefe-Rolfson",
+      "Description": "Vision-oriented foreground project",
+      "Rank": 908,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Buckridge-Pollich",
-      "Description": "Integrated mission-critical extranet",
-      "Rank": 780,
+      "Name": "O'Keefe-Rolfson",
+      "Description": "Vision-oriented foreground project",
+      "Rank": 908,
       "Restrictions": [
         {},
         {}
@@ -97,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 675
+      "FieldLength": 325
     }
   }
 }

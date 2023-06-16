@@ -1,6 +1,7 @@
 ---
 title: PUT List/QuoteDenyReason
 uid: v1QuoteDenyReasonList_SetListDefinition
+generated: true
 ---
 
 # PUT List/QuoteDenyReason
@@ -83,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 594,
-  "Name": "Miller-Feeney",
-  "Tooltip": "ex",
+  "Id": 882,
+  "Name": "Krajcik, Prosacco and Pagac",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 705,
-  "IsCustomList": true,
+  "Rank": 460,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "saepe",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 878,
-  "Name": "Bayer-Parisian",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "Rank": 674,
+  "Id": 359,
+  "Name": "Luettgen-Lind",
+  "Tooltip": "officiis",
+  "Deleted": false,
+  "Rank": 738,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "cupiditate",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldType": "System.Int32",
+      "FieldLength": 755
     }
   }
 }

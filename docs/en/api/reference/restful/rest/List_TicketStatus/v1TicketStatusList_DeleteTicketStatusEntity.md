@@ -1,6 +1,7 @@
 ---
 title: DEL List/TicketStatus/Items/{id}
 uid: v1TicketStatusList_DeleteTicketStatusEntity
+generated: true
 ---
 
 # DEL List/TicketStatus/Items/{id}

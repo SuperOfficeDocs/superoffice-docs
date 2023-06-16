@@ -1,6 +1,6 @@
 ---
 title: Services88.DiagnosticsAgent.GetCacheState SOAP
-generated: 1
+generated: true
 uid: Services88-Diagnostics-GetCacheState
 ---
 

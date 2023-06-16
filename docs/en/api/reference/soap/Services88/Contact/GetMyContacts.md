@@ -1,6 +1,6 @@
 ---
 title: Services88.ContactAgent.GetMyContacts SOAP
-generated: 1
+generated: true
 uid: Services88-Contact-GetMyContacts
 ---
 

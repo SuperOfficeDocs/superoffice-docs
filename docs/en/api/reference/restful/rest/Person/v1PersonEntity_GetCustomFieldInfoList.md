@@ -1,6 +1,7 @@
 ---
 title: GET Person/CustomField
 uid: v1PersonEntity_GetCustomFieldInfoList
+generated: true
 ---
 
 # GET Person/CustomField
@@ -66,7 +67,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Brekke, Welch and McCullough",
-    "DisplayName": "Predovic-Rolfson",
-    "Description": "Customizable leading edge orchestration",
-    "ShortLabel": "inventore",
+    "FieldName": "Jakubowski, Huel and Stroman",
+    "DisplayName": "Dach, Batz and Lubowitz",
+    "Description": "Synergistic 5th generation info-mediaries",
+    "ShortLabel": "odit",
     "HideLabel": false,
     "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": true,
-    "Rank": 160,
-    "TemplateVariableName": "Cronin Inc and Sons"
+    "Rank": 146,
+    "TemplateVariableName": "Moore Inc and Sons"
   }
 ]
 ```

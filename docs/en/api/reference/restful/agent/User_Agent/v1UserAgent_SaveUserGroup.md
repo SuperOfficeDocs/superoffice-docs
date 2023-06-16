@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/SaveUserGroup
 uid: v1UserAgent_SaveUserGroup
+generated: true
 ---
 
 # POST Agents/User/SaveUserGroup
@@ -81,7 +82,7 @@ OK
 POST /api/v1/Agents/User/SaveUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,16 +98,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Value": "et",
-  "Tooltip": "id",
-  "Id": 213,
-  "Rank": 931,
+  "Tooltip": "earum",
+  "Id": 753,
+  "Rank": 884,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 333
     }
   }
 }

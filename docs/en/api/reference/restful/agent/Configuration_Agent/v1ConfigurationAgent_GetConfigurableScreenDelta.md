@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetConfigurableScreenDelta
 uid: v1ConfigurationAgent_GetConfigurableScreenDelta
+generated: true
 ---
 
 # POST Agents/Configuration/GetConfigurableScreenDelta
@@ -25,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=413
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=393
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -78,7 +79,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 974,
-  "Name": "Walker, Heidenreich and Bartell",
-  "Description": "Upgradable homogeneous policy",
-  "DeltaJson": "architecto",
+  "ConfigurableScreenDeltaId": 651,
+  "Name": "Corwin, Fay and Labadie",
+  "Description": "De-engineered cohesive neural-net",
+  "DeltaJson": "recusandae",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "sequi",
-  "UpdatedDate": "1997-01-28T03:51:26.787455+01:00",
-  "CreatedDate": "2014-09-13T03:51:26.787455+02:00",
+  "RecipeId": "vel",
+  "UpdatedDate": "2007-06-15T16:00:40.3050315+02:00",
+  "CreatedDate": "2008-02-13T16:00:40.3050315+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    160,
-    230
+    152,
+    561
   ],
-  "AppliesToKey": "velit",
+  "AppliesToKey": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldLength": 882
     }
   }
 }

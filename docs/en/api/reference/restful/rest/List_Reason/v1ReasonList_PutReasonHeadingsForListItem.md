@@ -1,6 +1,7 @@
 ---
 title: PUT List/Reason/Items/{id}/Headings
 uid: v1ReasonList_PutReasonHeadingsForListItem
+generated: true
 ---
 
 # PUT List/Reason/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Barrows Group",
-    "ToolTip": "Doloremque quis dolor accusamus rerum.",
-    "Deleted": false,
-    "Rank": 570,
-    "Type": "ratione",
-    "ColorBlock": 862,
-    "IconHint": "nobis",
-    "Selected": true,
-    "LastChanged": "2008-08-27T03:51:34.9114158+02:00",
+    "Id": 887,
+    "Name": "Sauer, Olson and Swaniawski",
+    "ToolTip": "Dolores ut et.",
+    "Deleted": true,
+    "Rank": 200,
+    "Type": "provident",
+    "ColorBlock": 592,
+    "IconHint": "recusandae",
+    "Selected": false,
+    "LastChanged": "1996-02-18T16:00:49.2739351+01:00",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "Crona-Beahan",
-        "ToolTip": "Enim exercitationem non dolores veniam dolorum ea tempore.",
+        "Id": 71,
+        "Name": "Runolfsdottir, Bashirian and Schultz",
+        "ToolTip": "Qui ut eligendi iure qui magnam perferendis.",
         "Deleted": false,
-        "Rank": 730,
-        "Type": "qui",
-        "ColorBlock": 537,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2004-11-04T03:51:34.9114158+01:00",
+        "Rank": 563,
+        "Type": "aperiam",
+        "ColorBlock": 242,
+        "IconHint": "itaque",
+        "Selected": false,
+        "LastChanged": "2006-10-01T16:00:49.2739351+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "ut",
+        "ExtraInfo": "ad",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Mariana Nils Friesen Jr."
+        "FullName": "Mrs. Marilou Kautzer"
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "sunt",
+    "ExtraInfo": "libero",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Mr. Immanuel Hilpert"
+    "FullName": "Abagail Raynor"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 498,
-    "Name": "Nader, Weber and Dicki",
-    "ToolTip": "Dolores velit.",
+    "Id": 205,
+    "Name": "Kuvalis Group",
+    "ToolTip": "Aut sit et qui excepturi ut.",
     "Deleted": false,
-    "Rank": 78,
-    "Type": "sapiente",
-    "ColorBlock": 345,
-    "IconHint": "alias",
-    "Selected": true,
-    "LastChanged": "2007-05-29T03:51:34.9114158+02:00",
+    "Rank": 549,
+    "Type": "dolorem",
+    "ColorBlock": 632,
+    "IconHint": "praesentium",
+    "Selected": false,
+    "LastChanged": "2010-01-27T16:00:49.2739351+01:00",
     "ChildItems": [
       {
-        "Id": 270,
-        "Name": "Treutel Group",
-        "ToolTip": "Aspernatur omnis sint quia molestiae.",
+        "Id": 276,
+        "Name": "Torphy, Leuschke and Hoeger",
+        "ToolTip": "Molestiae neque quasi nam.",
         "Deleted": false,
-        "Rank": 802,
-        "Type": "et",
-        "ColorBlock": 293,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2013-08-03T03:51:34.9114158+02:00",
+        "Rank": 409,
+        "Type": "voluptas",
+        "ColorBlock": 931,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "1998-08-10T16:00:49.2739351+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "dolores",
+        "ExtraInfo": "officiis",
+        "StyleHint": "alias",
         "Hidden": false,
-        "FullName": "Felicita Christiansen",
+        "FullName": "Rosamond Russel MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 439
+            "FieldType": "System.Int32",
+            "FieldLength": 679
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "a",
-    "Hidden": true,
-    "FullName": "Mr. Liana Gulgowski PhD",
+    "ExtraInfo": "sed",
+    "StyleHint": "repellat",
+    "Hidden": false,
+    "FullName": "Lila Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldType": "System.Int32",
+        "FieldLength": 5
       }
     }
   }

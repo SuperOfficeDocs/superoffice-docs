@@ -1,6 +1,7 @@
 ---
 title: GET List/{id}/Items/{id}/UserGroups
 uid: v1ListItemEntity_GetVisibleForUserGroups
+generated: true
 ---
 
 # GET List/{id}/Items/{id}/UserGroups
@@ -73,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 301,
-    "Name": "Witting-Roob",
-    "ToolTip": "Sed esse.",
-    "Deleted": false,
-    "Rank": 711,
-    "Type": "accusamus",
-    "ColorBlock": 125,
-    "IconHint": "nesciunt",
+    "Id": 162,
+    "Name": "Aufderhar Inc and Sons",
+    "ToolTip": "Molestiae suscipit repellat.",
+    "Deleted": true,
+    "Rank": 72,
+    "Type": "sed",
+    "ColorBlock": 615,
+    "IconHint": "error",
     "Selected": false,
-    "LastChanged": "2019-03-20T03:51:34.3490406+01:00",
+    "LastChanged": "2012-06-07T16:00:48.8364781+02:00",
     "ChildItems": [
       {
-        "Id": 823,
-        "Name": "Sporer, Hartmann and Carter",
-        "ToolTip": "Vero provident praesentium nostrum blanditiis.",
+        "Id": 118,
+        "Name": "Schamberger, Abbott and Bartell",
+        "ToolTip": "Aut commodi est.",
         "Deleted": false,
-        "Rank": 957,
-        "Type": "non",
-        "ColorBlock": 731,
-        "IconHint": "nobis",
+        "Rank": 244,
+        "Type": "id",
+        "ColorBlock": 382,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2022-04-26T03:51:34.3490406+02:00",
+        "LastChanged": "2000-01-13T16:00:48.8364781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "ratione",
+        "ExtraInfo": "porro",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Kirk Rath",
+        "FullName": "Prof. Vena Nikolaus II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 661
+            "FieldLength": 508
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Jermain Abernathy",
+    "ExtraInfo": "eum",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Sandy Winifred Murphy IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 570
+        "FieldLength": 393
       }
     }
   }

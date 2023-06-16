@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetUserFromEjUserId
 uid: v1UserAgent_GetUserFromEjUserId
+generated: true
 ---
 
 # POST Agents/User/GetUserFromEjUserId
@@ -98,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 392
+  "EjUserId": 644
 }
 ```
 
@@ -114,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 458,
-    "Name": "Beer-Beier",
-    "Rank": 594,
-    "Tooltip": "ut",
+    "AssociateId": 410,
+    "Name": "Smith-Leffler",
+    "Rank": 48,
+    "Tooltip": "quam",
     "LicenseOwners": [
       {
-        "Name": "Senger Group",
-        "Description": "Up-sized dynamic middleware",
+        "Name": "Collier, Kulas and Vandervort",
+        "Description": "Persistent assymetric hub",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -134,14 +135,14 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 657
+            "FieldType": "System.String",
+            "FieldLength": 3
           }
         }
       },
       {
-        "Name": "Senger Group",
-        "Description": "Up-sized dynamic middleware",
+        "Name": "Collier, Kulas and Vandervort",
+        "Description": "Persistent assymetric hub",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -154,8 +155,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 657
+            "FieldType": "System.String",
+            "FieldLength": 3
           }
         }
       }
@@ -164,110 +165,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "eum",
-        "Tooltip": "harum",
-        "Id": 24,
-        "Rank": 570,
+        "Value": "quia",
+        "Tooltip": "impedit",
+        "Id": 67,
+        "Rank": 906,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 105
+            "FieldLength": 697
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2005-01-30T03:51:28.5370568+01:00",
-    "Lastlogout": "2004-01-07T03:51:28.5370568+01:00",
-    "EjUserId": 666,
-    "RequestSignature": "libero",
+    "Lastlogin": "2002-08-04T16:00:42.3831127+02:00",
+    "Lastlogout": "2002-05-03T16:00:42.3831127+02:00",
+    "EjUserId": 113,
+    "RequestSignature": "dolores",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
-    "IsOnTravel": true,
+    "IsPersonRetired": true,
+    "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "corporis",
-        "DisplayValue": "laborum",
+        "Value": "ut",
+        "DisplayValue": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 340
+            "FieldType": "System.String",
+            "FieldLength": 917
           }
         }
       },
       {
         "Type": null,
-        "Value": "corporis",
-        "DisplayValue": "laborum",
+        "Value": "ut",
+        "DisplayValue": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 340
+            "FieldType": "System.String",
+            "FieldLength": 917
           }
         }
       }
     ],
-    "UserName": "Hintz Group",
+    "UserName": "Rath, Jakubowski and Hettinger",
     "TicketCategories": [
       {
-        "Id": 530,
-        "Name": "Lynch-Hintz",
-        "ToolTip": "Sunt dolores mollitia.",
+        "Id": 243,
+        "Name": "Brown-Beer",
+        "ToolTip": "Ullam vitae.",
         "Deleted": false,
-        "Rank": 837,
-        "Type": "rerum",
+        "Rank": 980,
+        "Type": "tenetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nam",
-        "ColorBlock": 532,
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "incidunt",
-        "FullName": "Prof. Blair Nikolaus Jr.",
+        "IconHint": "distinctio",
+        "ColorBlock": 596,
+        "ExtraInfo": "deleniti",
+        "StyleHint": "qui",
+        "FullName": "Ms. Kirsten Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 484
+            "FieldLength": 435
           }
         }
       }
     ],
-    "NickName": "Dare, Conroy and Hammes",
+    "NickName": "Pollich-Schuster",
     "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "odit",
-      "ExtraFields2": "voluptas"
+      "ExtraFields1": "ipsum",
+      "ExtraFields2": "dolorem"
     },
     "CustomFields": {
-      "CustomFields1": "ea",
-      "CustomFields2": "consectetur"
+      "CustomFields1": "fugit",
+      "CustomFields2": "enim"
     },
     "PostSaveCommands": [
       {
-        "Name": "Yost Inc and Sons",
-        "DisplayName": "Kassulke Group",
-        "Description": "Synergistic scalable data-warehouse",
-        "ToolTip": "Natus consequatur minus voluptate.",
+        "Name": "Sipes-Feest",
+        "DisplayName": "Koss-Collins",
+        "Description": "Reactive contextually-based projection",
+        "ToolTip": "Quia et.",
         "Actions": "Implicit",
-        "ActionData": "iusto",
+        "ActionData": "at",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 497
+            "FieldLength": 736
           }
         }
       }
@@ -277,7 +278,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldLength": 459
       }
     }
   }

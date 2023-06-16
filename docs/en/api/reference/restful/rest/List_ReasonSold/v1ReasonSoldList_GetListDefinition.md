@@ -1,6 +1,7 @@
 ---
 title: GET List/ReasonSold
 uid: v1ReasonSoldList_GetListDefinition
+generated: true
 ---
 
 # GET List/ReasonSold
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 266,
-  "Name": "Hamill-Beier",
-  "Tooltip": "quasi",
+  "Id": 32,
+  "Name": "Will-Fritsch",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 608,
+  "Rank": 332,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ea",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldType": "System.String",
+      "FieldLength": 386
     }
   },
   "_Links": {

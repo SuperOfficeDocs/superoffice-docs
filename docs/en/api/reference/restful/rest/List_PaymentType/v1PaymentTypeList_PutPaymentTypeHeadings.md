@@ -1,6 +1,7 @@
 ---
 title: PUT List/PaymentType/Headings
 uid: v1PaymentTypeList_PutPaymentTypeHeadings
+generated: true
 ---
 
 # PUT List/PaymentType/Headings
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 591,
-    "Name": "Wisoky-Jacobson",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 446,
-    "UdListDefinitionId": 802
+    "HeadingId": 866,
+    "Name": "Morissette LLC",
+    "Tooltip": "ullam",
+    "Deleted": false,
+    "Rank": 238,
+    "UdListDefinitionId": 494
   },
   {
-    "HeadingId": 591,
-    "Name": "Wisoky-Jacobson",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 446,
-    "UdListDefinitionId": 802
+    "HeadingId": 866,
+    "Name": "Morissette LLC",
+    "Tooltip": "ullam",
+    "Deleted": false,
+    "Rank": 238,
+    "UdListDefinitionId": 494
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 579,
-    "Name": "Reinger-Rosenbaum",
-    "Tooltip": "ut",
+    "HeadingId": 913,
+    "Name": "Stamm LLC",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 651,
-    "UdListDefinitionId": 53,
+    "Rank": 594,
+    "UdListDefinitionId": 757,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldType": "System.String",
+        "FieldLength": 883
       }
     }
   }

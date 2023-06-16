@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/FindFromRestrictions2
 uid: v1FindAgent_FindFromRestrictions2
+generated: true
 ---
 
 # POST Agents/Find/FindFromRestrictions2
@@ -162,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "consectetur",
-  "ProviderName": "Steuber-Mueller",
-  "PageSize": 562,
-  "PageNumber": 200
+  "Restrictions": "expedita",
+  "ProviderName": "Larson-Schmidt",
+  "PageSize": 1001,
+  "PageNumber": 289
 }
 ```
 
@@ -182,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Spencer-Schoen",
-      "DisplayTooltip": "et",
-      "DisplayType": "earum",
-      "CanOrderBy": true,
-      "Name": "Zulauf, Smitham and White",
+      "DisplayName": "Hammes LLC",
+      "DisplayTooltip": "sed",
+      "DisplayType": "quo",
+      "CanOrderBy": false,
+      "Name": "Jast-McCullough",
       "CanRestrictBy": true,
-      "RestrictionType": "temporibus",
-      "RestrictionListName": "Blick, Smith and Gerhold",
-      "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "voluptatem",
+      "RestrictionType": "odit",
+      "RestrictionListName": "Jakubowski, O'Connell and Hermann",
+      "IsVisible": true,
+      "ExtraInfo": "ipsum",
+      "Width": "et",
       "IconHint": "et",
-      "HeadingIconHint": "aut"
+      "HeadingIconHint": "in"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hand-Fadel",
-      "PrimaryKey": 818,
+      "EntityName": "Pfannerstill-Reilly",
+      "PrimaryKey": 550,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "fuga",
-          "TooltipHint": "explicabo",
-          "LinkHint": "autem"
+          "DisplayValue": "quos",
+          "TooltipHint": "ut",
+          "LinkHint": "exercitationem"
         }
       },
-      "LinkHint": "quo",
-      "StyleHint": "beatae",
+      "LinkHint": "distinctio",
+      "StyleHint": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 23
+          "FieldType": "System.Int32",
+          "FieldLength": 689
         }
       }
     }
   ],
-  "RowCount": 565,
+  "RowCount": 600,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldType": "System.String",
+      "FieldLength": 395
     }
   }
 }

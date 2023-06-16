@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/DeleteContacts
 uid: v1SelectionAgent_DeleteContacts
+generated: true
 ---
 
 # POST Agents/Selection/DeleteContacts
@@ -65,11 +66,11 @@ No Content
 POST /api/v1/Agents/Selection/DeleteContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 348
+  "SelectionId": 209
 }
 ```
 

@@ -1,5 +1,6 @@
 ---
 title: SystemEvent
+generated: true
 ---
 
 ```http

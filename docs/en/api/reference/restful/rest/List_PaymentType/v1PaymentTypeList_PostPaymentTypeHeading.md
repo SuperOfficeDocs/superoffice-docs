@@ -1,6 +1,7 @@
 ---
 title: POST List/PaymentType/Headings
 uid: v1PaymentTypeList_PostPaymentTypeHeading
+generated: true
 ---
 
 # POST List/PaymentType/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 787,
-  "Name": "Haag, Gutmann and Smith",
-  "Tooltip": "eos",
+  "HeadingId": 118,
+  "Name": "Hansen, McDermott and Macejkovic",
+  "Tooltip": "dolorum",
   "Deleted": true,
-  "Rank": 416,
-  "UdListDefinitionId": 682
+  "Rank": 686,
+  "UdListDefinitionId": 234
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 758,
-  "Name": "Deckow, Wyman and Kemmer",
-  "Tooltip": "minima",
+  "HeadingId": 940,
+  "Name": "Christiansen-Aufderhar",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 392,
-  "UdListDefinitionId": 954,
+  "Rank": 492,
+  "UdListDefinitionId": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldLength": 310
     }
   }
 }

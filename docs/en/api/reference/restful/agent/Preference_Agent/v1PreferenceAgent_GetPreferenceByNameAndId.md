@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetPreferenceByNameAndId
 uid: v1PreferenceAgent_GetPreferenceByNameAndId
+generated: true
 ---
 
 # POST Agents/Preference/GetPreferenceByNameAndId
@@ -85,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "quia",
-  "PrefKey": "sint",
+  "PrefSection": "quis",
+  "PrefKey": "ea",
   "PrefLevel": "Database",
-  "OwnerId": 200
+  "OwnerId": 987
 }
 ```
 
@@ -104,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "magni",
+  "RawValue": "veniam",
   "Specification": null,
-  "DisplayValue": "amet",
-  "DisplayTooltip": "ratione",
+  "DisplayValue": "veniam",
+  "DisplayTooltip": "fugiat",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 127,
-  "PrefDescId": 356,
-  "TableName": "Steuber, Carroll and Goodwin",
-  "UserPreferenceId": 80,
+  "TargetId": 423,
+  "PrefDescId": 112,
+  "TableName": "Waelchi-Hilpert",
+  "UserPreferenceId": 566,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   }
 }

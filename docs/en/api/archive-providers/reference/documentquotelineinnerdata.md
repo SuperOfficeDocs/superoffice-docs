@@ -2,17 +2,10 @@
 uid: DocumentQuoteLineInnerData
 title: DocumentQuoteLineInnerData
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "DocumentQuoteLineInnerData"
+keywords: DocumentQuoteLineInnerData archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "DocumentQuoteLineInnerData"
@@ -126,6 +119,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/icon|listAny|Sale - Category: Displays the icon for an activity type| x |
 |alternative/version/quote/sale/date|date|Sale - Date: Displays start date of a follow-up / sale date of a sale| x |
 |alternative/version/quote/sale/time| *None* |Sale - Time: Time|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/type|listAny|Sale - Type: Displays the type of an activity| x |
 |alternative/version/quote/sale/recordType|string|Sale - Record type: Shows the record type| x |
 |alternative/version/quote/sale/text|positiveString|Sale - Text: Displays a descriptive text for the item| x |
@@ -226,6 +223,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
 |alternative/version/quote/connection/erpConnection/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system|  |
 |alternative/version/quote/connection/erpConnection/description|string|ERP connection - ERP connections - Description: The description of the ERP connection in the CRM system|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/connection/erpConnection/active|bool|ERP connection - ERP connections - Active: Is the ERP connection currently active?|  |
 |alternative/version/quote/connection/erpConnection/erpId|string|ERP connection - ERP connections - ERP ID: The global unique ID of this ERP connection, as used by the Sync Connector|  |
 |alternative/version/quote/connection/erpConnection/mostRecent|string|ERP connection - ERP connections - Timestamp: The timestamp of the most recent synchronization on this ERP connection|  |
@@ -246,7 +247,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/quote/sale/associate/contactName,alternative/version/number,alternative/version/quote/sale/userGroup
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/extraField2,alternative/version/quote/sale/associate/personId,alternative/version/number
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

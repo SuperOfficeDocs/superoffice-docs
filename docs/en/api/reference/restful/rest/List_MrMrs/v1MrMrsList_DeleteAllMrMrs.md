@@ -1,6 +1,7 @@
 ---
 title: DEL List/MrMrs/Items
 uid: v1MrMrsList_DeleteAllMrMrs
+generated: true
 ---
 
 # DEL List/MrMrs/Items
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

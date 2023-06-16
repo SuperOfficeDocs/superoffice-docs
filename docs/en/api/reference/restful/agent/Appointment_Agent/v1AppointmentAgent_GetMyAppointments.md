@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetMyAppointments
 uid: v1AppointmentAgent_GetMyAppointments
+generated: true
 ---
 
 # POST Agents/Appointment/GetMyAppointments
@@ -115,6 +116,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -124,13 +128,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2023-02-09T03:51:26.3813013+01:00",
-  "EndTime": "2017-05-08T03:51:26.3813013+02:00",
-  "Count": 334
+  "StartTime": "2015-02-06T16:00:40.0238335+01:00",
+  "EndTime": "2001-07-27T16:00:40.0238335+02:00",
+  "Count": 811
 }
 ```
 
@@ -142,61 +146,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 11,
-    "StartDate": "2002-08-06T03:51:26.3813013+02:00",
-    "EndDate": "2023-01-25T03:51:26.3813013+01:00",
+    "AppointmentId": 987,
+    "StartDate": "2005-04-23T16:00:40.0238335+02:00",
+    "EndDate": "2019-04-11T16:00:40.0238335+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ducimus",
-    "AssociateFullName": "Dr. Roselyn Ryan",
-    "ContactName": "Stoltenberg-Hackett",
-    "Description": "Reverse-engineered mobile throughput",
-    "PersonFullName": "Emelia Lemke",
-    "PersonId": 6,
-    "ContactId": 995,
-    "ProjectId": 615,
-    "ProjectName": "VonRueden, Turner and Deckow",
+    "Task": "eligendi",
+    "AssociateFullName": "Nelson Turner",
+    "ContactName": "Schoen-Wiegand",
+    "Description": "De-engineered motivating circuit",
+    "PersonFullName": "Ernesto Boyer",
+    "PersonId": 82,
+    "ContactId": 542,
+    "ProjectId": 352,
+    "ProjectName": "Buckridge, Pfeffer and Jakubowski",
     "IsPublished": false,
-    "AssociateId": 283,
-    "ColorIndex": 999,
+    "AssociateId": 835,
+    "ColorIndex": 341,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 985,
-    "PriorityName": "Zemlak-Keebler",
+    "PriorityId": 580,
+    "PriorityName": "Hessel LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2018-09-02T03:51:26.3813013+02:00",
+    "ActiveDate": "2017-10-12T16:00:40.0238335+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-11-17T03:51:26.3813013+01:00",
-    "RecurringEndDate": "2008-07-30T03:51:26.3813013+02:00",
-    "MotherId": 451,
-    "AssignedBy": 202,
-    "AssignedByFullName": "Cecil Oberbrunner",
-    "RejectReason": "",
-    "Location": "vel",
-    "AlarmLeadTime": "enim",
-    "SaleId": 897,
-    "SaleName": "Wiegand-Metz",
-    "AssociateName": "Zemlak-Dicki",
-    "CreatedDate": "2012-05-23T03:51:26.3813013+02:00",
-    "CreatedBy": "temporibus",
-    "CreatedByFullName": "Llewellyn Reynolds",
-    "CreatedByAssociateId": 414,
+    "RecurringStartDate": "1996-08-18T16:00:40.0238335+02:00",
+    "RecurringEndDate": "2004-03-12T16:00:40.0238335+01:00",
+    "MotherId": 144,
+    "AssignedBy": 222,
+    "AssignedByFullName": "Emmitt Ray Gutkowski DVM",
+    "RejectReason": "deliver user-centric niches",
+    "Location": "nihil",
+    "AlarmLeadTime": "sapiente",
+    "SaleId": 721,
+    "SaleName": "Morissette, Skiles and Dibbert",
+    "AssociateName": "Schamberger Inc and Sons",
+    "CreatedDate": "2012-08-31T16:00:40.0238335+02:00",
+    "CreatedBy": "officiis",
+    "CreatedByFullName": "Eleonore Cremin II",
+    "CreatedByAssociateId": 996,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "nemo",
+    "Agenda": "aliquam",
+    "InternalNotes": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldType": "System.String",
+        "FieldLength": 321
       }
     }
   }

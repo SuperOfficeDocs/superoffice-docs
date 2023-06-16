@@ -1,5 +1,6 @@
 ---
 title: Preference
+generated: true
 ---
 
 ```http

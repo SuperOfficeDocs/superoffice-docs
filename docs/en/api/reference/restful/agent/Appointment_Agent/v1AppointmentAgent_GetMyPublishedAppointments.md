@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetMyPublishedAppointments
 uid: v1AppointmentAgent_GetMyPublishedAppointments
+generated: true
 ---
 
 # POST Agents/Appointment/GetMyPublishedAppointments
@@ -103,6 +104,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -112,7 +116,7 @@ OK
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -123,61 +127,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 254,
-    "StartDate": "2016-05-25T03:51:26.1313562+02:00",
-    "EndDate": "2012-05-17T03:51:26.1313562+02:00",
+    "AppointmentId": 499,
+    "StartDate": "2023-02-28T16:00:39.6332261+01:00",
+    "EndDate": "1997-11-21T16:00:39.6332261+01:00",
     "Type": "BookingForChecklist",
-    "Task": "assumenda",
-    "AssociateFullName": "Jacques Schmitt",
-    "ContactName": "Kohler, Parker and Hoeger",
-    "Description": "User-centric explicit challenge",
-    "PersonFullName": "Mr. Theodore Tevin Emard",
-    "PersonId": 538,
-    "ContactId": 301,
-    "ProjectId": 627,
-    "ProjectName": "Roob Group",
+    "Task": "enim",
+    "AssociateFullName": "Miss Judson Benton Koelpin PhD",
+    "ContactName": "Prohaska, Parisian and Wilderman",
+    "Description": "Mandatory upward-trending instruction set",
+    "PersonFullName": "Mr. Jorge Jordan Eichmann II",
+    "PersonId": 94,
+    "ContactId": 349,
+    "ProjectId": 172,
+    "ProjectName": "Towne-Wintheiser",
     "IsPublished": true,
-    "AssociateId": 209,
-    "ColorIndex": 23,
-    "IsFree": true,
+    "AssociateId": 626,
+    "ColorIndex": 625,
+    "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 500,
-    "PriorityName": "Kiehn, Wintheiser and Heidenreich",
+    "PriorityId": 932,
+    "PriorityName": "Moore-Abshire",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2009-02-01T03:51:26.1313562+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2013-08-09T16:00:39.6332261+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-02-10T03:51:26.1313562+01:00",
-    "RecurringEndDate": "2011-03-13T03:51:26.1313562+01:00",
-    "MotherId": 647,
-    "AssignedBy": 63,
-    "AssignedByFullName": "Margie Strosin",
+    "RecurringStartDate": "2012-01-11T16:00:39.6332261+01:00",
+    "RecurringEndDate": "2000-04-05T16:00:39.6332261+02:00",
+    "MotherId": 123,
+    "AssignedBy": 46,
+    "AssignedByFullName": "Ms. Alvena Terry Ruecker",
     "RejectReason": "",
-    "Location": "ipsum",
-    "AlarmLeadTime": "sit",
-    "SaleId": 262,
-    "SaleName": "Lehner, Schmeler and Mueller",
-    "AssociateName": "Marks, Mohr and Kuhic",
-    "CreatedDate": "2013-04-12T03:51:26.1313562+02:00",
-    "CreatedBy": "repellendus",
-    "CreatedByFullName": "Dylan Kautzer",
-    "CreatedByAssociateId": 92,
+    "Location": "ea",
+    "AlarmLeadTime": "nam",
+    "SaleId": 794,
+    "SaleName": "Stark Group",
+    "AssociateName": "Halvorson-Roob",
+    "CreatedDate": "2008-09-14T16:00:39.6332261+02:00",
+    "CreatedBy": "id",
+    "CreatedByFullName": "Dr. Khalid Bauch",
+    "CreatedByAssociateId": 864,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "eligendi",
+    "Agenda": "ex",
+    "InternalNotes": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 103
       }
     }
   }

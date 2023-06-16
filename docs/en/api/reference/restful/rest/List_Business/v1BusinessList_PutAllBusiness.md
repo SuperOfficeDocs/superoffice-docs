@@ -1,6 +1,7 @@
 ---
 title: PUT List/Business/Items
 uid: v1BusinessList_PutAllBusiness
+generated: true
 ---
 
 # PUT List/Business/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 390,
-    "Name": "Fay, Swaniawski and Wolf",
-    "Tooltip": "non",
-    "Deleted": true,
-    "UdListDefinitionId": 34,
-    "Rank": 782
+    "Id": 765,
+    "Name": "Hand-Cassin",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "UdListDefinitionId": 665,
+    "Rank": 742
   },
   {
-    "Id": 390,
-    "Name": "Fay, Swaniawski and Wolf",
-    "Tooltip": "non",
-    "Deleted": true,
-    "UdListDefinitionId": 34,
-    "Rank": 782
+    "Id": 765,
+    "Name": "Hand-Cassin",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "UdListDefinitionId": 665,
+    "Rank": 742
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Koepp, Kozey and Thiel",
-    "Tooltip": "rerum",
+    "Id": 156,
+    "Name": "Fisher Group",
+    "Tooltip": "sunt",
     "Deleted": true,
-    "UdListDefinitionId": 921,
-    "Rank": 822,
+    "UdListDefinitionId": 506,
+    "Rank": 240,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 229
+        "FieldLength": 71
       }
     }
   }

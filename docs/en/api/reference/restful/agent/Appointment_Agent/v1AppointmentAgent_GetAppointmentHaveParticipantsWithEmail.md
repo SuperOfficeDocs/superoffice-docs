@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetAppointmentHaveParticipantsWithEmail
 uid: v1AppointmentAgent_GetAppointmentHaveParticipantsWithEmail
+generated: true
 ---
 
 # POST Agents/Appointment/GetAppointmentHaveParticipantsWithEmail
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentHaveParticipantsWithEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 268
+  "AppointmentId": 32
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

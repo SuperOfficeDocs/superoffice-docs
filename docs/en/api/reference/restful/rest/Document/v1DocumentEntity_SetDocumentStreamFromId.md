@@ -1,6 +1,7 @@
 ---
 title: PUT Document/{id}/Content
 uid: v1DocumentEntity_SetDocumentStreamFromId
+generated: true
 ---
 
 # PUT Document/{id}/Content
@@ -108,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 326,
+  "DocumentId": 891,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "laborum",
-  "Header": "eligendi",
-  "Name": "Nicolas Inc and Sons",
-  "OurRef": "nobis",
-  "YourRef": "debitis",
-  "CreatedDate": "2015-06-03T03:51:33.6303483+02:00",
-  "UpdatedDate": "1999-07-24T03:51:33.6303483+02:00",
-  "Description": "Organic object-oriented artificial intelligence",
+  "Attention": "delectus",
+  "Header": "quo",
+  "Name": "Weber, Blanda and Stamm",
+  "OurRef": "aut",
+  "YourRef": "autem",
+  "CreatedDate": "1996-02-04T16:00:47.9147087+01:00",
+  "UpdatedDate": "2000-10-01T16:00:47.9147087+02:00",
+  "Description": "Distributed asynchronous extranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-01-22T03:51:33.6303483+01:00",
-  "ExternalRef": "nobis",
+  "Date": "2022-07-14T16:00:47.9147087+02:00",
+  "ExternalRef": "dolores",
   "Completed": "Completed",
-  "ActiveLinks": 389,
+  "ActiveLinks": 634,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Carter Inc and Sons",
-      "Id": 395,
-      "Description": "Synergistic assymetric installation",
-      "ExtraInfo": "praesentium",
-      "LinkId": 636,
+      "EntityName": "Schmitt-Gleichner",
+      "Id": 537,
+      "Description": "Organic multi-state project",
+      "ExtraInfo": "qui",
+      "LinkId": 833,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 881
+          "FieldType": "System.Int32",
+          "FieldLength": 544
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 435,
-  "Snum": 283,
+  "SuggestedDocumentId": 774,
+  "Snum": 903,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Juston Kub"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1387583288"
   },
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "officia"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "atque"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "inventore"
+    "CustomFields1": "amet",
+    "CustomFields2": "beatae"
   },
-  "PublishEventDate": "2013-05-24T03:51:33.6303483+02:00",
-  "PublishTo": "2014-08-15T03:51:33.6303483+02:00",
-  "PublishFrom": "2011-09-05T03:51:33.6303483+02:00",
+  "PublishEventDate": "2006-02-22T16:00:47.9147087+01:00",
+  "PublishTo": "1996-09-18T16:00:47.9147087+02:00",
+  "PublishFrom": "2020-03-16T16:00:47.9147087+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 689,
+      "VisibleId": 467,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 921
+          "FieldType": "System.Int32",
+          "FieldLength": 871
         }
       }
     },
     {
-      "VisibleId": 689,
+      "VisibleId": 467,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 921
+          "FieldType": "System.Int32",
+          "FieldLength": 871
         }
       }
     }
@@ -198,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1000
+      "FieldType": "System.Int32",
+      "FieldLength": 507
     }
   }
 }

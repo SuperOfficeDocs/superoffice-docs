@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/RefreshFolder
 uid: v1EMailAgent_RefreshFolder
+generated: true
 ---
 
 # POST Agents/EMail/RefreshFolder
@@ -79,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "quo",
-    "porro"
+    "voluptatum",
+    "fugit"
   ]
 }
 ```
@@ -91,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-323
+748
 ```

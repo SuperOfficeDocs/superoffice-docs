@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Favourite/ToggleFavourite
 uid: v1FavouriteAgent_ToggleFavourite
+generated: true
 ---
 
 # POST Agents/Favourite/ToggleFavourite
@@ -70,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Runte, Watsica and Jacobson",
-  "RecordId": 440,
-  "AssociateId": 800,
-  "ExtraInfo": "eos"
+  "TableName": "Prosacco, White and Prohaska",
+  "RecordId": 460,
+  "AssociateId": 663,
+  "ExtraInfo": "voluptatem"
 }
 ```
 
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

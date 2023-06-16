@@ -1,6 +1,7 @@
 ---
 title: POST List/Currency/Headings
 uid: v1CurrencyList_PostCurrencyEntityHeading
+generated: true
 ---
 
 # POST List/Currency/Headings
@@ -78,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 653,
-  "Name": "Hagenes Inc and Sons",
-  "Tooltip": "labore",
+  "HeadingId": 962,
+  "Name": "Bogan, West and Wunsch",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 383,
-  "UdListDefinitionId": 706
+  "Rank": 376,
+  "UdListDefinitionId": 377
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 849,
-  "Name": "Stracke, Sauer and Orn",
-  "Tooltip": "nobis",
-  "Deleted": false,
-  "Rank": 578,
-  "UdListDefinitionId": 461,
+  "HeadingId": 425,
+  "Name": "Quigley-Gutmann",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 150,
+  "UdListDefinitionId": 236,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldType": "System.String",
+      "FieldLength": 861
     }
   }
 }

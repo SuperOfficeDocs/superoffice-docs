@@ -1,6 +1,6 @@
 ---
 title: Services88.DocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList SOAP
-generated: 1
+generated: true
 uid: Services88-DocumentMigration-CreateDefaultDocumentTemplateMigrationList
 ---
 

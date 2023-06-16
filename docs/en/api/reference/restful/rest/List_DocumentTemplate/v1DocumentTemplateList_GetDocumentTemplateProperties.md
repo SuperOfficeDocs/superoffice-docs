@@ -1,6 +1,7 @@
 ---
 title: GET List/DocumentTemplate/Items/{id}/Property
 uid: v1DocumentTemplateList_GetDocumentTemplateProperties
+generated: true
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Property
@@ -73,7 +74,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "iste",
-  "2": "ut"
+  "1": "perspiciatis",
+  "2": "tempore"
 }
 ```

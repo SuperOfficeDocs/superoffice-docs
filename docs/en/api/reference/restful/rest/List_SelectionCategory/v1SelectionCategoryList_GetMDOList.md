@@ -1,6 +1,7 @@
 ---
 title: GET List/SelectionCategory/MDOItems
 uid: v1SelectionCategoryList_GetMDOList
+generated: true
 ---
 
 # GET List/SelectionCategory/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=deserunt
+GET /api/v1/List/SelectionCategory/MDOItems?query=nesciunt
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Schimmel-Wiza",
-    "ToolTip": "Nihil vero asperiores eveniet molestiae error.",
+    "Id": 505,
+    "Name": "Murray-Quitzon",
+    "ToolTip": "Fugit laudantium molestiae assumenda.",
     "Deleted": false,
-    "Rank": 904,
-    "Type": "et",
+    "Rank": 110,
+    "Type": "temporibus",
     "ChildItems": [
       {
-        "Id": 618,
-        "Name": "Russel, Barton and Zboncak",
-        "ToolTip": "Optio voluptatibus in nisi sequi et fuga.",
-        "Deleted": true,
-        "Rank": 377,
-        "Type": "alias",
+        "Id": 284,
+        "Name": "Hansen, Lockman and Keebler",
+        "ToolTip": "Occaecati est sint qui.",
+        "Deleted": false,
+        "Rank": 712,
+        "Type": "quidem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minima",
-        "ColorBlock": 905,
-        "ExtraInfo": "natus",
-        "StyleHint": "sint",
-        "FullName": "Ms. Marguerite Rolfson IV",
+        "IconHint": "perferendis",
+        "ColorBlock": 740,
+        "ExtraInfo": "at",
+        "StyleHint": "corporis",
+        "FullName": "Dr. Clifton Hortense Considine DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 236
+            "FieldType": "System.String",
+            "FieldLength": 902
           }
         }
       }
     ],
-    "IconHint": "veniam",
-    "ColorBlock": 113,
-    "ExtraInfo": "architecto",
-    "StyleHint": "voluptatem",
-    "FullName": "Miss Rex Dion Jewess",
+    "IconHint": "commodi",
+    "ColorBlock": 110,
+    "ExtraInfo": "aut",
+    "StyleHint": "dolores",
+    "FullName": "Hollis Zora Simonis IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 815
+        "FieldLength": 728
       }
     }
   }

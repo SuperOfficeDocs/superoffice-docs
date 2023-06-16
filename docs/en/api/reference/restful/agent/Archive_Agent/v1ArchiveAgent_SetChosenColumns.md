@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/SetChosenColumns
 uid: v1ArchiveAgent_SetChosenColumns
+generated: true
 ---
 
 # POST Agents/Archive/SetChosenColumns
@@ -67,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Reinger, Fisher and Hoppe",
-  "ProviderName": "Schinner, Keebler and Kessler",
+  "GuiName": "Ryan-Ledner",
+  "ProviderName": "Ruecker-Hoeger",
   "ChosenColumns": [
-    "aut",
-    "iusto"
+    "voluptatum",
+    "ratione"
   ]
 }
 ```

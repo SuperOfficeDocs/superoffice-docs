@@ -1,6 +1,7 @@
 ---
 title: GET Project/{id}/Imageinfo
 uid: v1ProjectEntity_GetImageInfo
+generated: true
 ---
 
 # GET Project/{id}/Imageinfo
@@ -80,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 15 Apr 2009 03:51:33 G4T
+Last-Modified: Mon, 09 Dec 2019 16:00:48 G12T
 
 {
-  "BlobId": 84,
-  "BlobSize": 120,
-  "Description": "Visionary solution-oriented instruction set",
-  "ExtraInfo": "praesentium",
+  "BlobId": 766,
+  "BlobSize": 439,
+  "Description": "Cloned heuristic info-mediaries",
+  "ExtraInfo": "eos",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "facere",
-  "OriginalSize": 534,
-  "CreatedDate": "2013-03-01T03:51:33.864677+01:00",
-  "UpdatedDate": "2009-04-15T03:51:33.864677+02:00",
+  "MimeType": "nihil",
+  "OriginalSize": 68,
+  "CreatedDate": "1997-08-23T16:00:48.1803003+02:00",
+  "UpdatedDate": "2019-12-09T16:00:48.1803003+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "libero",
+  "ConceptualType": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldLength": 197
     }
   }
 }

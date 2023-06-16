@@ -1,6 +1,7 @@
 ---
 title: POST Agents/PhoneList/GetPreferences
 uid: v1PhoneListAgent_GetPreferences
+generated: true
 ---
 
 # POST Agents/PhoneList/GetPreferences
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,7 +84,7 @@ Content-Type: application/json; charset=utf-8
 {
   "SearchCompany": false,
   "SearchFirstname": false,
-  "SearchLastname": false,
+  "SearchLastname": true,
   "SearchDepartment": false,
   "SearchModeCompany": "BeginsWith",
   "SearchModeDepartment": "BeginsWith",
@@ -94,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldLength": 480
     }
   }
 }

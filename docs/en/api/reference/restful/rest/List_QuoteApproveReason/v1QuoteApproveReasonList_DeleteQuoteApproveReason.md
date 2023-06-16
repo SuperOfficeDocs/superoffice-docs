@@ -1,6 +1,7 @@
 ---
 title: DEL List/QuoteApproveReason/Items/{id}
 uid: v1QuoteApproveReasonList_DeleteQuoteApproveReason
+generated: true
 ---
 
 # DEL List/QuoteApproveReason/Items/{id}

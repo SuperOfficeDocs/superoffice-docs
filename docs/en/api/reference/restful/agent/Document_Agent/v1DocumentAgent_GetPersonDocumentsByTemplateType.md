@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetPersonDocumentsByTemplateType
 uid: v1DocumentAgent_GetPersonDocumentsByTemplateType
+generated: true
 ---
 
 # POST Agents/Document/GetPersonDocumentsByTemplateType
@@ -98,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 794,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2005-03-08T03:51:27.0217725+01:00",
-  "EndTime": "2013-02-20T03:51:27.0217725+01:00",
-  "Count": 111,
-  "DocumentTemplateId": 303
+  "PersonId": 387,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2021-01-17T16:00:40.5862498+01:00",
+  "EndTime": "2008-11-04T16:00:40.5862498+01:00",
+  "Count": 360,
+  "DocumentTemplateId": 885
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 591,
-    "Attention": "accusantium",
-    "Header": "sed",
-    "Name": "Koch, O'Keefe and Hahn",
-    "OurRef": "omnis",
-    "YourRef": "fuga",
-    "Description": "Seamless transitional concept",
-    "DocumentTemplate": "non",
-    "IsPublished": false,
-    "PersonId": 6,
-    "PersonFullName": "Miss Willard Madyson Bernhard",
-    "AssociateFullName": "Miss Alena Kovacek PhD",
-    "ContactId": 14,
-    "ContactName": "Konopelski, Littel and Kuhic",
-    "ProjectId": 293,
-    "ProjectName": "Schmitt LLC",
-    "AssociateId": 526,
-    "Snum": 990,
-    "SaleId": 825,
-    "SaleName": "Jast LLC",
+    "DocumentId": 652,
+    "Attention": "ea",
+    "Header": "eos",
+    "Name": "Ledner, Torp and Little",
+    "OurRef": "aut",
+    "YourRef": "alias",
+    "Description": "Sharable bifurcated hierarchy",
+    "DocumentTemplate": "at",
+    "IsPublished": true,
+    "PersonId": 377,
+    "PersonFullName": "Hayley Aufderhar III",
+    "AssociateFullName": "Larissa Gibson IV",
+    "ContactId": 846,
+    "ContactName": "Pfeffer Inc and Sons",
+    "ProjectId": 596,
+    "ProjectName": "Medhurst-O'Conner",
+    "AssociateId": 715,
+    "Snum": 439,
+    "SaleId": 192,
+    "SaleName": "Friesen-Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 185
       }
     }
   }

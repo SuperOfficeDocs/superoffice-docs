@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetMyProjects
 uid: v1ProjectAgent_GetMyProjects
+generated: true
 ---
 
 # POST Agents/Project/GetMyProjects
@@ -95,7 +96,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -107,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 231,
-    "Name": "O'Conner-Swaniawski",
-    "Description": "Decentralized grid-enabled knowledge base",
+    "ProjectId": 919,
+    "Name": "Dickinson Inc and Sons",
+    "Description": "Reverse-engineered real-time access",
     "URL": "http://www.example.com/",
-    "Type": "velit",
-    "AssociateId": 431,
-    "AssociateFullName": "Dr. Janelle Bahringer",
-    "TypeId": 700,
-    "Updated": "2017-09-27T03:51:27.943438+02:00",
-    "StatusId": 106,
-    "Status": "harum",
-    "TextId": 485,
-    "PublishTo": "2010-01-10T03:51:27.943438+01:00",
-    "PublishFrom": "2003-09-07T03:51:27.943438+02:00",
+    "Type": "iusto",
+    "AssociateId": 321,
+    "AssociateFullName": "Dr. Ward Lonny McClure",
+    "TypeId": 2,
+    "Updated": "2008-02-14T16:00:41.5707037+01:00",
+    "StatusId": 530,
+    "Status": "error",
+    "TextId": 630,
+    "PublishTo": "2000-12-03T16:00:41.5707037+01:00",
+    "PublishFrom": "2009-01-25T16:00:41.5707037+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1176023",
-    "ActiveErpLinks": 599,
+    "ProjectNumber": "1381818",
+    "ActiveErpLinks": 803,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldType": "System.Int32",
+        "FieldLength": 689
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: GET Sale/{id}/Stakeholders
 uid: v1SaleEntity_Stakeholders
+generated: true
 ---
 
 # GET Sale/{id}/Stakeholders
@@ -73,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Stakeholders?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Stakeholders?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Stakeholders?$orderBy=name asc
-GET /api/v1/Sale/{id}/Stakeholders?$entities=debitis
-GET /api/v1/Sale/{id}/Stakeholders?$top=1002
-GET /api/v1/Sale/{id}/Stakeholders?$skip=448
+GET /api/v1/Sale/{id}/Stakeholders?$entities=cupiditate
+GET /api/v1/Sale/{id}/Stakeholders?$top=374
+GET /api/v1/Sale/{id}/Stakeholders?$skip=976
 GET /api/v1/Sale/{id}/Stakeholders?$mode=Full
 GET /api/v1/Sale/{id}/Stakeholders?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Stakeholders?$context=nulla
+GET /api/v1/Sale/{id}/Stakeholders?$context=incidunt
 GET /api/v1/Sale/{id}/Stakeholders?$format=JSON
-GET /api/v1/Sale/{id}/Stakeholders?$jsonSafe=True
+GET /api/v1/Sale/{id}/Stakeholders?$jsonSafe=False
 GET /api/v1/Sale/{id}/Stakeholders?$output=Display
 ```
 
@@ -122,7 +123,7 @@ OK
 GET /api/v1/Sale/{id}/Stakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ratione",
+  "odata.nextLink": "quo",
   "value": [
     {
-      "PrimaryKey": 8803,
+      "PrimaryKey": 5142,
       "EntityName": "sale",
-      "saleId": 8803,
-      "contactId": 3627,
-      "name": "Skiles LLC"
+      "saleId": 5142,
+      "contactId": 2447,
+      "name": "Gerhold, Bradtke and Rogahn"
     },
     {
-      "PrimaryKey": 3889,
+      "PrimaryKey": 72,
       "EntityName": "sale",
-      "saleId": 3889,
-      "contactId": 7641,
-      "name": "Roberts-Zulauf"
+      "saleId": 72,
+      "contactId": 9456,
+      "name": "Gerlach, Runolfsson and Mills"
     }
   ]
 }

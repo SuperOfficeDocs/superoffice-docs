@@ -1,6 +1,6 @@
 ---
 title: Services88.LicenseAgent.GetSatelliteLicenses SOAP
-generated: 1
+generated: true
 uid: Services88-License-GetSatelliteLicenses
 ---
 

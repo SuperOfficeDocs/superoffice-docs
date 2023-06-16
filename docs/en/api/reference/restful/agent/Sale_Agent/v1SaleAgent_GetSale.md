@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetSale
 uid: v1SaleAgent_GetSale
+generated: true
 ---
 
 # POST Agents/Sale/GetSale
@@ -25,7 +26,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=484
+POST /api/v1/Agents/Sale/GetSale?saleId=209
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -90,7 +91,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Ryan-Botsford",
-  "SaleDate": "1996-07-04T03:51:28.0996448+02:00",
-  "SaleId": 874,
-  "Probability": 152,
-  "Title": "dolor",
-  "Amount": 10433.086,
-  "Currency": "veritatis",
-  "ProjectName": "Morissette, Heaney and Gerlach",
-  "AssociateFullName": "Theresa Rice",
-  "Description": "Mandatory zero tolerance architecture",
+  "ContactName": "Gutkowski, Bartoletti and Price",
+  "SaleDate": "1996-06-06T16:00:41.7581821+02:00",
+  "SaleId": 403,
+  "Probability": 38,
+  "Title": "vel",
+  "Amount": 20555.906,
+  "Currency": "recusandae",
+  "ProjectName": "Gibson, Aufderhar and Feil",
+  "AssociateFullName": "Kali Akeem Kozey III",
+  "Description": "Synergistic directional concept",
   "Status": "Lost",
-  "WeightedAmount": 16575.726,
-  "ProjectId": 224,
-  "EarningPercent": 14529.224,
-  "Earning": 18509.404,
-  "ContactId": 874,
-  "AssociateId": 314,
-  "PersonId": 791,
-  "SaleTypeId": 519,
-  "SaleTypeName": "Maggio Inc and Sons",
-  "PersonFullName": "Karson Macejkovic",
+  "WeightedAmount": 10523.972,
+  "ProjectId": 71,
+  "EarningPercent": 4538.032,
+  "Earning": 4820.092,
+  "ContactId": 319,
+  "AssociateId": 702,
+  "PersonId": 246,
+  "SaleTypeId": 933,
+  "SaleTypeName": "Terry-Olson",
+  "PersonFullName": "Raleigh Mosciski",
   "Completed": "Completed",
-  "ActiveErpLinks": 172,
-  "NextDueDate": "2015-07-04T03:51:28.0996448+02:00",
-  "Number": "1062041",
+  "ActiveErpLinks": 985,
+  "NextDueDate": "2001-05-28T16:00:41.7581821+02:00",
+  "Number": "325663",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 981
     }
   }
 }

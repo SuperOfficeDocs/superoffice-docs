@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveAmountClassEntity
 uid: v1ListAgent_SaveAmountClassEntity
+generated: true
 ---
 
 # POST Agents/List/SaveAmountClassEntity
@@ -80,14 +81,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 237,
-  "Name": "Wuckert, Kutch and Pfeffer",
-  "Tooltip": "aut",
-  "Rank": 509,
-  "AmountFrom": 27833.054,
-  "AmountTo": 18904.288,
+  "AmountClassId": 319,
+  "Name": "Feil Group",
+  "Tooltip": "eum",
+  "Rank": 855,
+  "AmountFrom": 1147.0439999999999,
+  "AmountTo": 24959.176,
   "Deleted": false,
-  "CurrencyId": 63
+  "CurrencyId": 339
 }
 ```
 
@@ -98,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 832,
-  "Name": "Lind, Grimes and Altenwerth",
-  "Tooltip": "enim",
-  "Rank": 392,
-  "AmountFrom": 1526.258,
-  "AmountTo": 23567.68,
+  "AmountClassId": 873,
+  "Name": "Wyman, Schmeler and Runte",
+  "Tooltip": "itaque",
+  "Rank": 466,
+  "AmountFrom": 26103.086,
+  "AmountTo": 6988.82,
   "Deleted": false,
-  "CurrencyId": 856,
+  "CurrencyId": 494,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldType": "System.String",
+      "FieldLength": 620
     }
   }
 }

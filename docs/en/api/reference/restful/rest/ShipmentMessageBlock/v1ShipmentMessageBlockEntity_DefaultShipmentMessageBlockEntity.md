@@ -1,6 +1,7 @@
 ---
 title: GET ShipmentMessageBlock/default
 uid: v1ShipmentMessageBlockEntity_DefaultShipmentMessageBlockEntity
+generated: true
 ---
 
 # GET ShipmentMessageBlock/default
@@ -63,7 +64,7 @@ OK
 GET /api/v1/ShipmentMessageBlock/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 150,
-  "AssociateId": 768,
-  "Block": "repellat",
-  "Registered": "2014-02-12T03:51:34.0208828+01:00",
-  "RegisteredAssociateId": 444,
-  "Updated": "2003-08-03T03:51:34.0208828+02:00",
-  "UpdatedAssociateId": 88,
-  "UpdatedCount": 762,
+  "ShipmentMessageBlockId": 278,
+  "AssociateId": 989,
+  "Block": "rerum",
+  "Registered": "2001-06-15T16:00:48.4615203+02:00",
+  "RegisteredAssociateId": 796,
+  "Updated": "2000-11-16T16:00:48.4615203+01:00",
+  "UpdatedAssociateId": 934,
+  "UpdatedCount": 361,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldType": "System.String",
+      "FieldLength": 174
     }
   }
 }

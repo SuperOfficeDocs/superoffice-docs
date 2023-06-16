@@ -1,6 +1,7 @@
 ---
 title: GET Schema/{tableName}/{fieldName}
 uid: v1FieldInfoBase_GetCustomFieldInfo
+generated: true
 ---
 
 # GET Schema/{tableName}/{fieldName}
@@ -69,7 +70,7 @@ OK
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Leannon-Harris",
-  "DisplayName": "Treutel Inc and Sons",
-  "Description": "Centralized methodical monitoring",
-  "ShortLabel": "dolores",
-  "HideLabel": false,
-  "HideField": false,
+  "FieldName": "Friesen Inc and Sons",
+  "DisplayName": "Kris, Borer and Turner",
+  "Description": "Cross-platform methodical frame",
+  "ShortLabel": "vel",
+  "HideLabel": true,
+  "HideField": true,
   "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": true,
+  "IsMandatory": false,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 113,
-  "TemplateVariableName": "Ledner, Swaniawski and Schmitt"
+  "Rank": 382,
+  "TemplateVariableName": "Stark, Friesen and Powlowski"
 }
 ```

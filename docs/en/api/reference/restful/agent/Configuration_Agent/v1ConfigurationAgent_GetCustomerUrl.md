@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetCustomerUrl
 uid: v1ConfigurationAgent_GetCustomerUrl
+generated: true
 ---
 
 # POST Agents/Configuration/GetCustomerUrl
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Agents/Configuration/GetCustomerUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

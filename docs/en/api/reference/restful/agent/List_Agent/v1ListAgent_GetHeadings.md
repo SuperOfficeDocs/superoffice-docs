@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetHeadings
 uid: v1ListAgent_GetHeadings
+generated: true
 ---
 
 # POST Agents/List/GetHeadings
@@ -92,8 +93,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 162,
-  "ListItemId": 117,
+  "UdListDefinitionId": 841,
+  "ListItemId": 119,
   "ShowDeleted": true
 }
 ```
@@ -106,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 250,
-    "Name": "Kunde Group",
-    "ToolTip": "Incidunt dolorem hic occaecati debitis veniam.",
+    "Id": 688,
+    "Name": "Barrows Group",
+    "ToolTip": "Ea esse consequatur.",
     "Deleted": false,
-    "Rank": 900,
-    "Type": "ea",
-    "ColorBlock": 217,
-    "IconHint": "ut",
+    "Rank": 862,
+    "Type": "voluptatem",
+    "ColorBlock": 292,
+    "IconHint": "asperiores",
     "Selected": false,
-    "LastChanged": "2018-09-15T03:51:27.4279277+02:00",
+    "LastChanged": "2016-03-11T16:00:41.1487084+01:00",
     "ChildItems": [
       {
-        "Id": 887,
-        "Name": "Mertz-Lemke",
-        "ToolTip": "Porro qui vel.",
-        "Deleted": false,
-        "Rank": 112,
-        "Type": "reprehenderit",
-        "ColorBlock": 939,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2004-10-29T03:51:27.4279277+02:00",
+        "Id": 252,
+        "Name": "Weimann Inc and Sons",
+        "ToolTip": "Itaque voluptate dolores.",
+        "Deleted": true,
+        "Rank": 541,
+        "Type": "aliquid",
+        "ColorBlock": 386,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2010-03-09T16:00:41.1487084+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Dr. Nikki Deron Kuhlman DDS",
+        "ExtraInfo": "non",
+        "StyleHint": "nisi",
+        "Hidden": true,
+        "FullName": "Prof. Lincoln Moore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldLength": 129
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "minus",
-    "Hidden": true,
-    "FullName": "Arturo Hoeger",
+    "ExtraInfo": "earum",
+    "StyleHint": "voluptatum",
+    "Hidden": false,
+    "FullName": "Elna Larkin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldLength": 688
       }
     }
   }

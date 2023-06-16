@@ -1,17 +1,13 @@
 ---
 uid: project_freetextsearch
 title: project_freetextsearch
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "project_freetextsearch"
+keywords: mdoprovider mdo provider project_freetextsearch
+description: Provider for selecting a Project.
+Does keyword matching and scoring across multiple
+string fields. Checks name, description, soundex fields.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "project_freetextsearch" MDO List

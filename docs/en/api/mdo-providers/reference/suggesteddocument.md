@@ -1,17 +1,11 @@
 ---
 uid: suggesteddocument
 title: suggesteddocument
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "suggesteddocument"
+keywords: mdoprovider mdo provider suggesteddocument
+description: SuggestedDocumentProvider creates a MDO list of suggested documents in the database.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "suggesteddocument" MDO List

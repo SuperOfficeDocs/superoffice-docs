@@ -1,6 +1,7 @@
 ---
 title: GET Contact/UdefLayout/Changed
 uid: v1ContactEntity_DetectUnpublishedChanges
+generated: true
 ---
 
 # GET Contact/UdefLayout/Changed
@@ -70,5 +71,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

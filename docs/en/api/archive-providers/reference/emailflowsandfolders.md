@@ -2,17 +2,10 @@
 uid: EmailFlowsAndFolders
 title: EmailFlowsAndFolders
 description: Archive of EmailFlows and Folders.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "EmailFlowsAndFolders"
+keywords: EmailFlowsAndFolders archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "EmailFlowsAndFolders"
@@ -87,11 +80,12 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 |hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
 |hierarchyName| *None* |Hierarchy name: The full name/path from table hierarchy|  |
 |hierarchyParentId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
+|hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowsAndFolders?$select=registeredDate,workflowAssociate/assocType,workflowInProgressCount
+GET /api/v1/archive/EmailFlowsAndFolders?$select=workflowCompletedCount,workflowAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

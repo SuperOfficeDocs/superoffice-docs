@@ -1,6 +1,7 @@
 ---
 title: PUT DashTile/{id}
 uid: v1DashTile_PutDashTile
+generated: true
 ---
 
 # PUT DashTile/{id}
@@ -88,15 +89,15 @@ DashTile updated.
 PUT /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 453,
-  "DashboardId": 855,
-  "Height": 575,
-  "Width": 881,
-  "Rank": 867,
+  "DashboardTileId": 741,
+  "DashboardId": 95,
+  "Height": 612,
+  "Width": 651,
+  "Rank": 223,
   "DashTileDefinition": null
 }
 ```
@@ -108,18 +109,18 @@ HTTP/1.1 200 DashTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 515,
-  "DashboardId": 373,
-  "Height": 818,
-  "Width": 653,
-  "Rank": 75,
+  "DashboardTileId": 585,
+  "DashboardId": 966,
+  "Height": 780,
+  "Width": 44,
+  "Rank": 996,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldType": "System.Int32",
+      "FieldLength": 329
     }
   },
   "_Links": {
