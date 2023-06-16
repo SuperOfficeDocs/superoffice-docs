@@ -690,7 +690,7 @@ items:
 - name: Ticketread
   href: reference/ticketread.md
 - name: TicketSelectionFreetextSearch
-  href: reference/ticket_selection_freetextsearch.md
+  href: ticket_selection_freetextsearch.md
 - name: Ticketselectionwithstaticmenu
   href: reference/ticketselectionwithstaticmenu.md
 - name: Ticketslevel
