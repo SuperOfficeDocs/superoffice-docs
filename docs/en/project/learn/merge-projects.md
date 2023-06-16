@@ -51,4 +51,4 @@ If you have two nearly identical projects, it is possible to merge them, includi
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img3]: ../../../../common/icons/info-ball.png
-[img2]: media/merge-project.bmp
+[img2]: ../../../media/loc/en/project/merge-project.bmp

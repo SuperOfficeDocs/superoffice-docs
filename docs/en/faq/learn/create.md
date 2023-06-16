@@ -123,6 +123,6 @@ Because the option to create FAQ entries this way is only available to **adminis
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/service/msg-toolbar.png
-[img3]: media/create-publish-faq.png
+[img3]: ../../../media/loc/en/faq/create-publish-faq.png
 [img4]: ../../../media/icons/main-menu.png
-[img5]: media/faq-create.png
+[img5]: ../../../media/loc/en/faq/faq-create.png

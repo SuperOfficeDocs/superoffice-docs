@@ -1,0 +1,30 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Inndelingsfaner for person
+  href: screen/toc.yml
+  topicHref: screen/index.md
+- name: Arbeid med person
+  topicHref: create.md
+  items:
+  - name: Opprette ny person
+    href: create.md
+  - name: Rediger person
+    href: edit.md
+  - name: Flytte en person
+    href: move.md
+  - name: Slå sammen personer
+    href: merge-contacts.md
+  - name: Slette en person
+    href: delete.md
+  - name: Sende e-post til en person
+    href: send-email.md
+  - name: Legge til relasjon
+    href: add-relation.md
+  - name: Slette relasjon
+    href: delete-relation.md
+  - name: Skriv ut
+    href: print.md
+- name: Personverninnstillinger og GDPR
+  href: ../../security/privacy/learn/toc.yml
+  topicHref: ../../security/privacy/learn/index.md

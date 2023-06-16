@@ -1,0 +1,9 @@
+items:
+  - name: Oversikt
+    href: index.md
+  - name: Rediger personverninnstillinger for en person
+    href: edit-legal-base.md
+  - name: Send e-postbekreftelse for personvern
+    href: send-privacy-confirmation-email.md
+  - name: Generer persondatarapport
+    href: generate-personal-data-report.md

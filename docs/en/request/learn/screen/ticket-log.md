@@ -45,4 +45,4 @@ This screen shows the log for this request. All events are recorded, including w
 [11]: ../howto/create.md
 
 <!-- Referenced images -->
-[img1]: ../media/request-change-log.png
+[img1]: ../../../../media/loc/en/request/request-change-log.png

@@ -1,0 +1,20 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Utvalg-bildet
+  href: screen/index.md
+- name: Statiske utvalg
+  href: static-selections.md
+- name: Dynamiske utvalg
+  href: dynamic-selections.md
+- name: Kombinasjonsutvalg
+  href: combined-selections.md
+- name: Opprett utvalg
+  href: create/toc.yml
+  topicHref: create/index.md
+- name: Oppdater utvalg
+  href: update/toc.yml
+  topicHref: update/index.md
+- name: Utføre oppgaver ved hjelp av utvalg
+  href: howto/toc.yml
+  topicHref: howto/index.md

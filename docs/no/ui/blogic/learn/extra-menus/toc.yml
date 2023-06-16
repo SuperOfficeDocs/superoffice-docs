@@ -1,0 +1,9 @@
+items:
+  - name: Oversikt
+    href: index.md
+  - name: Legg til funksjon på menyknapp (Oppgave)
+    href: actions.md
+  - name: Legg til navigatorgruppe og ekstrameny
+    href: navigator.md
+  - name: Egenskaper for meny
+    href: properties.md

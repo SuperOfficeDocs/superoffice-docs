@@ -7,7 +7,7 @@ so.date: 03.06.2023
 keywords:
 so.topic: concept
 so.version: 10
-so.lang: en
+language: en
 ---
 
 # Learn the basics of SuperOffice CRM
@@ -112,7 +112,7 @@ Your administrator can [add and customize project guides][1] for you.
 [7]: ../../project/learn/create.md
 [8]: ../../diary/learn/create-appointment.md
 [10]: ../../diary/learn/invitation/add-participant.md
-[11]: ../../video-meeting/index.md
+[11]: ../../../en/video-meeting/index.md
 [12]: ../activity/index.md
 [13]: ../../globalization-and-localization/learn/change-language.md
 [14]: fav.md
@@ -122,5 +122,5 @@ Your administrator can [add and customize project guides][1] for you.
 [18]: ../section-tabs/index.md
 
 <!-- Referenced images -->
-[img1]: media/diary.png
-[img2]: media/projects.png
+[img1]: ../../../media/loc/en/learn/diary.png
+[img2]: ../../../media/loc/en/learn/projects.png

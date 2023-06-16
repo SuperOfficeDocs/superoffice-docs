@@ -114,4 +114,4 @@ All other calculations run in the background. We use `time_counter` to mark whic
 [8]: learn/priority/escalation-levels.md
 
 <!-- Referenced images -->
-[img1]: learn/media/request-screen.png
+[img1]: ../../media/loc/en/request/request-screen.png

@@ -2,9 +2,9 @@
 title: What's new in SuperOffice 10.2
 uid: release-notes-10.2
 description: Release notes. What's new in SuperOffice 10.2
-author: SuperOffice AS – Research and Development
-so.date: 03.07.2023
-keywords:
+author: Kirsti Aakerholt
+so.date: 06.13.2023
+keywords: Core CRM, Service, Requests, Sales, Marketing, Settings and maintenance, Mobile CRM, Zapier, App store, API
 so.topic: reference
 so.version: 10.2
 ---
@@ -19,36 +19,54 @@ so.version: 10.2
 
 ### SuperOffice CRM
 
-* 10.2.1:
+* 10.2.1 (27.01.2023):
   * [Task menu list][1] in Settings and maintenance
   * [Custom tasks, Preferences, Batch management, Document preview with meta data][2] in Core CRM
 
-* 10.2.2:
+* 10.2.2 (14.02.2023):
   * [Marketing Email domain validation, From name in mailing][3] in Marketing
-  * [CRMScript on custom tasks in Mobile CRM][4] in Mobile CRM
 
-* 10.2.3:
+* 10.2.3 (07.03.2023):
   * [Mailing AI Content][5] in Marketing
 
-* 10.2.4:
+* 10.2.4 (28.03.2023):
   * [Remove of Old Dashboard][8] in Core CRM
 
-* 10.2.5:
+* 10.2.5 (05.05.2023):
   * [New Requests/Service inside the CRM module][10] in Core CRM/Service
+  * Navigator Search in Core CRM
+
+* 10.2.6 (13.06.2023):
+  * [Close all tabs in Requests screen][12] in Service
+  * [Archive attachment on a message][12] in Service
+  * [Search in the Find request tab gives both selections and requests][12] in Service
 
 ### Mobile CRM
 
-* 10.2.7 (Mobile CRM):
+* 10.2.2 (25.08.2022):
+  * [CRMScript on custom tasks in Mobile CRM][4] in Mobile CRM
+
+* 10.2.7 (25.01.2023):
   * [Custom tasks][11] in Mobile CRM
 
-* 10.2.8 (Mobile CRM):
+* 10.2.8 (22.02.2023):
   * [SharePoint documents in Mobile CRM, Floating + New-button][6] in Mobile CRM
 
-* 10.2.10 (Mobile CRM):
+* 10.2.10 (22.03.2023):
   * [Filter icon on Task button][7] in Mobile CRM
 
-* 10.2.11 (Mobile CRM):
+* 10.2.11 (12.05.2023):
   * [Request with sale and project fields][9] in Mobile CRM
+
+* 10.2.12 (14.06.2023):
+  * [Drill down on Dashboards][13] in Mobile CRM
+
+### Other highlights
+
+* Developer portal 1.0 (07.09.2022):
+  * [Launch of Developer portal][14]
+* Zapier app 3.2 (09.06.2023):
+  * [Contact interest in action step][15] in our [Zapier app][16]
 
 <!-- Referenced links -->
 [1]: admin/10.2.1-update.md
@@ -62,5 +80,10 @@ so.version: 10.2
 [9]: mobile/10.2.11-update.md
 [10]: service/10.2.5-update.md
 [11]: mobile/10.2.7-update.md
+[12]: service/10.2.6-update.md
+[13]: mobile/10.2.12-update.md
+[14]: ../../docs/en/developer-portal/overview.md
+[15]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Zapier_3.2
+[16]: https://zapier.com/apps/superofficecrm/integrations
 
 <!-- Referenced images -->

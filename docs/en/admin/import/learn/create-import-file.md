@@ -77,5 +77,5 @@ You can for instance contains these columns of data: In assortment, product code
 [5]: import-products-from-excel.md
 
 <!-- Referenced images -->
-[img2]: media/import-with-excel.jpg
-[img5]: media/preview-of-an-import-file.png
+[img2]: ../../../../media/loc/en/admin/import-with-excel.jpg
+[img5]: ../../../../media/loc/en/admin/preview-of-an-import-file.png

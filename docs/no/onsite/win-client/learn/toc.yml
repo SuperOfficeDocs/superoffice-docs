@@ -1,0 +1,57 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Rutiner for sikkerhetskopiering
+  href: backup-routines.md
+- name: Status-bildet
+  href: status-screen.md
+- name: Import
+  href: import/index.md
+  items:
+  - name: Oversikt
+    href: import/index.md
+  - name: Importrutiner
+    href: import/import-routines.md
+  - name: ANSI-filer
+    href: import/ansi-files.md
+  - name: Importere filer
+    href: import/importing-files.md
+    items:
+    - name: Oversikt
+      href: import/importing-files.md
+    - name: Felttilordning
+      href: import/field-mapping.md
+      items:
+      - name: Angi felttilordning
+        href: import/specifying-field-mapping.md
+      - name: Slette felttilordning
+        href: import/deleting-field-mapping.md
+      - name: Tilbakestille felttilordning
+        href: import/resetting-field-mapping.md
+      - name: Angi avanserte importinnstillinger
+        href: import/specifying-advanced-import-settings.md
+    - name: Import av duplikater
+      href: import/duplicates-import.md
+      items:
+      - name: Oppdatere regler for duplikathåndtering
+        href: import/updating-rules-for-duplicate-handling.md
+      - name: Tilbakestille regler for duplikathåndtering
+        href: import/resetting-rules-for-duplicate-handling.md
+    - name: Importbeskrivelser
+      href: import/import-descriptions.md
+      items:
+      - name: Opprette importbeskrivelser
+        href: import/creating-import-descriptions.md
+      - name: Redigere importbeskrivelser
+        href: import/editing-import-descriptions.md
+  - name: Eksportere
+    href: export.md
+- name: Arbeide med innstillinger for Windows-klient
+  href: update-database.md
+  items:
+  - name: Oppdatere databasen
+    href: update-database.md
+  - name: Parameterbruk i .ini-filer
+    href: parameter-examples.md
+  - name: Opprette/kopiere snarvei
+    href: creating-shortcuts-to-entries-in-crm.md

@@ -21,9 +21,9 @@ Pocket CRM can't log in to SuperOffice version 10 and later. You need to upgrade
 
 1. Follow the process in Play Store/App Store for downloading and installing the application and **wait for the installation to finish before opening the application.**
 
-    [![Get it on Google Play](../../media/google-play-badge.png "Get it on Google Play")][4]
+    [![Get it on Google Play](../../../media/google-play-badge.png "Get it on Google Play")][4]
 
-    [![Get it on Apple App Store](../../media/download-on-appstore.png "Get it on Apple App Store")][5]
+    [![Get it on Apple App Store](../../../media/download-on-appstore.png "Get it on Apple App Store")][5]
 
 2. Open the installed application on your mobile device.
 

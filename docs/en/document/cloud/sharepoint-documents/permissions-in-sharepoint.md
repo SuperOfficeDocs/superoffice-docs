@@ -51,7 +51,7 @@ This access can't be removed (neither programmatically nor manually).​
 
 For that reason, you need to use a **ServiceAccount** to create your SharePoint site for SuperOffice documents​.
 
-## <a id="aad-service-acccount" />AAD Service Account for SuperOffice documents​
+## <a id="aad-service-account" />AAD Service Account for SuperOffice documents​
 
 In Azure Active Directory (Azure AD), there are three types of [service accounts][1]: managed identities, service principals, and user accounts employed as service accounts. When you create service accounts for automated use, they’re granted permissions to access resources in Azure and Azure AD.
 

@@ -104,7 +104,7 @@ To edit an existing archive, select it and edit the available fields and setting
 
 You can always click **Restore tabs** to undo these changes.
 
-## Undo changes
+## <a id="undo-changes" />Undo changes
 
 If you need to revert to an earlier version of the screen, you can access the following options from the **Task** button:
 
@@ -129,5 +129,5 @@ If you need to revert to an earlier version of the screen, you can access the fo
 [img2]: ../../../../../common/icons/add-icon.png
 [img3]: ../../../../../common/icons/az.png
 [img4]: ../../../../../common/icons/info-ball.png
-[img1]: media/admin-screendesigner-edit-archive.png
-[img5]: media/admin-screendesigner-edit-archive-add-tab.png
+[img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
+[img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png

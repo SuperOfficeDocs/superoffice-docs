@@ -1,0 +1,21 @@
+items:
+  - name: Oversikt
+    href: index.md
+  - name: Opprett utsendelse
+    href: create-mailings.md
+  - name: Send e-post til flere mottakere
+    href: send-email.md
+  - name: Lag oppfølginger
+    href: generate-follow-ups.md
+  - name: Vise utvalg som diagram
+    href: display-as-charts.md
+  - name: Masseredigering
+    href: bulk-update.md
+  - name: Skriv ut etiketter
+    href: print-labels.md
+  - name: Skriv ut firmarapporter
+    href: print-company-reports.md
+  - name: Eksportere til Excel eller fil
+    href: export.md
+  - name: Slett poster permanent
+    href: mass-delete.md

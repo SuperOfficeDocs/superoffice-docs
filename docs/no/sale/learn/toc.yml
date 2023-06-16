@@ -1,0 +1,33 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Status for et salg (faser)
+  href: stages.md
+- name: Salgsguide
+  href: sales-guide/index.md
+- name: Seksjonsfaner ved salg
+  href: screen/toc.yml
+  topicHref: screen/index.md
+- name: Arbeide med salg
+  topicHref: create.md
+  items:
+  - name: Registrer salg
+    href: create.md
+  - name: Slette salg
+    href: delete.md
+  - name: Legge til interessenter
+    href: stakeholders/create.md
+  - name: Redigere eller fjerne interessenter
+    href: stakeholders/edit.md
+  - name: Bruke sidepanelet
+    href: use-side-panel.md
+  - name: Arbeide med salgsguide
+    href: sales-guide/working-with-sales-guide.md
+  - name: Prognoser
+    href: forecasting.md
+- name: Tilbud
+  href: ../../quote/learn/toc.yml
+  topicHref: ../../quote/learn/index.md
+- name: Salgsmål
+  href: sales-targets/toc.yml
+  topicHref: sales-targets/index.md

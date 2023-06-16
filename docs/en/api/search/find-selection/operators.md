@@ -37,6 +37,35 @@ Why? The current dynamic date ranges for selections in SuperOffice CRM do not co
 | Date      | after, afterToday, before, beforeToday, between, date, from, equals, to, today |
 | DateTime  | dateTime, beforeTime, afterTime |
 
+### Operators
+
+There are two types of operators, period and relative operators. 
+
+Period specific accept one argument, the period type.
+
+* thisPeriod (period type)
+* thisPreviousAndNext (period type)
+
+Relative operators take 2 arguments; the number of periods and the period type.
+
+* thisAndNext (n) (period type)
+* thisAndPrevious (n) (period type)
+* nextPeriod (n) (period type)
+* previousPeriod (n) (period type)
+
+| Period type value | Period type names |
+|-- |:---------|
+| 1 | day, days |
+| 2 | week, weeks, wk, wks    |
+| 3 | month, months, mon, mos   |
+| 4 | quarter, quarters, qtr, qtrs |
+| 5 | halfyear, halfyears, hyr, hyrs |
+| 6 | year, years, yr, yrs    |
+
+In this way, you can express  `next` 2 weeks or `thisAndNext` 2 months or `thisAndPrevious` 2 years. 
+
+Period type names are eqivalent, meaning  `next` 2 week, `next` 2 weeks, `next` 2 wk and `next` 2 wks mean the same criteria.
+
 ### Legacy operators
 
 | Data type | Operator |
@@ -51,26 +80,6 @@ Why? The current dynamic date ranges for selections in SuperOffice CRM do not co
 >
 > If saved through the criteria API, they will be converted to the new, equivalent operators and values.
 
-### New operators
-
-Instead of having period-specific operators, they are now more generic. Each relative operator takes 2 arguments; the number of periods and the period type.
-
-* thisPeriod
-* thisAndNext (n) (interval)
-* thisAndPrevious (n) (interval)
-* nextPeriod (list)
-* previousPeriod (n) (interval)
-* thisPreviousAndNext (list)
-
-| Period types | |
-|-- |:---------|
-| 1 | days     |
-| 2 | weeks    |
-| 3 | months   |
-| 4 | quarters |
-| 5 | years    |
-
-In this way, we can express `thisAndNext` 2 weeks or `thisAndPrevious` 2 years.
 
 ### Changed types
 

@@ -127,10 +127,3 @@ references:
   name: AssociateType
   nameWithType: AssociateType
   fullName: CRMScript.NetServer.AssociateType
-references:
-- uid: CRMScript.NetServer.PersonGender
-  commentId: T:CRMScript.NetServer.PersonGender
-  isExternal: true
-  name: PersonGender
-  nameWithType: PersonGender
-  fullName: CRMScript.NetServer.PersonGender

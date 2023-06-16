@@ -1,0 +1,31 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Arbeide med egendefinerte objekter
+  items:
+  - name: Brukerdefinerte felt
+    topicHref: udef/index.md
+    items:
+    - name: Oversikt
+      href: udef/index.md
+    - name: Legge til felt
+      href: udef/add.md
+    - name: Flytte felt
+      href: udef/move.md
+    - name: Redigere TAB-rekkefølge for felt
+      href: udef/change-tab-order.md
+    - name: Redigere felt
+      href: udef/edit.md
+    - name: Side 1-felt
+      href: udef/page-1-fields.md
+    - name: Maksimalt antall felt
+      href: udef/limitations.md
+  - name: Ekstra tabeller og felt
+    topicHref: extra-table/index.md
+    items:
+    - name: Oversikt
+      href: extra-table/index.md
+    - name: Legge til ekstra tabeller
+      href: extra-table/create.md
+    - name: Legge til ekstrafelt
+      href: extra-field/create.md

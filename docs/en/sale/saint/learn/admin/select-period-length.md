@@ -44,4 +44,4 @@ You can specify up to three different periods, so that you can choose between sh
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->
-[img1]: media/admin-saint-counters.png
+[img1]: ../../../../../media/loc/en/sale/admin-saint-counters.png

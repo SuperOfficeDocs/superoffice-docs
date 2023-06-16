@@ -35,4 +35,4 @@ AI can help you make sense of data you have and help you automate processes that
 [3]: ../../chat/learn/admin/channel-create.md#chatbot
 
 <!-- Referenced images -->
-[img1]: media/ai-services.png
+[img1]: ../../../media/loc/en/ai/ai-services.png

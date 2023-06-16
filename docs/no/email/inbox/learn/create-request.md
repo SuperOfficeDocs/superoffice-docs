@@ -1,0 +1,28 @@
+---
+uid: help-no-create-request
+title: Opprett sak
+description: Opprett sak
+author: SuperOffice RnD
+so.date: 07.04.2022
+keywords: E-post
+so.topic: help
+language: no
+---
+
+# Opprett sak
+
+Denne funksjonen lar deg raskt legge til en forespørsel i SuperOffice Service basert på avsenderen og tekstinnholdet i e-postmeldingen.
+
+1. Gå til innboksen.
+2. Merk ønsket melding i innboksen.
+3. Klikk på **Arkiv**![icon][img1]
+4. Klikk på **Opprett sak**.
+5. Fyll ut de relevante feltene i dialogboksen.
+6. Klikk på **Lagre**.
+    * Hvis avsenderens e-postadresse gjenkjennes, kobles forespørselen automatisk til riktig person og firma.
+    * Hvis avsenderens e-postadresse ikke gjenkjennes, registreres avsenderen automatisk som en ny person i SuperOffice Service.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../../common/icons/archive-icon.png

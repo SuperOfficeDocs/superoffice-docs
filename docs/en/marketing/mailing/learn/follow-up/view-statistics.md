@@ -78,4 +78,4 @@ After your mailing is finished, you can see how your mailing performed in the **
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
-[img2]: media/summary-tab.png
+[img2]: ../../../../../media/loc/en/marketing/summary-tab.png

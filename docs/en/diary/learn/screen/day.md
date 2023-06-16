@@ -21,4 +21,4 @@ If [time zones][1] are enabled, you can switch time zone in the lower-left corne
 [1]: ../../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
-[img1]: media/day-plan.bmp
+[img1]: ../../../../media/loc/en/diary/day-plan.bmp

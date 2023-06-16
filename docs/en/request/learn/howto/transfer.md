@@ -48,4 +48,4 @@ As a request handler, you are not always able to answer the request on your own.
 [4]: forward.md
 
 <!-- Referenced images -->
-[img1]: media/reassing-a-request.png
+[img1]: ../../../../media/loc/en/request/reassing-a-request.png

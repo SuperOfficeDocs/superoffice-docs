@@ -54,4 +54,4 @@ Tags can be used to search for requests in the [free-text search][2] and in the 
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/requests-tag-request-small.png
+[img2]: ../../../media/loc/en/request/requests-tag-request-small.png

@@ -54,7 +54,7 @@ Bulk update allows you to change values across multiple records of the same type
 
 10. Click **Close**.
 
-## Search and replace
+## <a id="search-and-replace" />Search and replace
 
 The action type **Search and replace** allows you to find a specific text in a field and replace it.
 

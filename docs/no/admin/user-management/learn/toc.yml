@@ -1,0 +1,30 @@
+items:
+  - name: Oversikt
+    href: index.md
+  - name: Skjermbildet Brukere
+    href: screen/index.md
+  - name: Legge til SuperOffice-bruker
+    href: add-associate.md
+  - name: Importere brukere fra AD
+    href: import-users.md
+  - name: Filtrere og gruppere brukere
+    href: associates-filter-group.md
+  - name: Redigere bruker
+    href: update-user.md
+  - name: Synlighet
+    href: visibility.md
+  - name: Flytt bruker
+    href: move-user.md
+  - name: Slett bruker
+    href: delete-user.md
+  - name: Administrere anonyme brukere og systembrukere
+    href: other-users.md
+  - name: Logge av brukere
+    href: ../../../onsite/win-client/learn/logging-users-off.md
+  - name: Legg til / fjern firma i Våre firmaer
+    href: our-companies.md
+  - name: Administrere brukergrupper
+    href: user-groups.md
+  - name: Rolle
+    href: role/toc.yml
+    topicHref: role/index.md

@@ -1,0 +1,13 @@
+items:
+  - name: Oversikt
+    href: index.md
+  - name: Legge til en prisliste
+    href: add-price-list.md
+  - name: Legge til produkt i prislisten
+    href: add-product-to-price-list.md
+  - name: Velge produktbilde
+    href: select-product-image.md
+  - name: Slette/deaktivere prislister eller produkter
+    href: quote-delete-deactivate-price-list-or-product.md
+  - name: Konfigurer produkt
+    href: configure.md

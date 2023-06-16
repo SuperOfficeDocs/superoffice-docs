@@ -46,4 +46,4 @@ This feature allows you to quickly add an activity in SuperOffice based on the s
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/gmail-link/btn-archive-more.png
-[img2]: media/email-gmaillink-create-activity.jpg
+[img2]: ../../../../media/loc/en/email/email-gmaillink-create-activity.jpg

@@ -2,9 +2,9 @@
 uid: help-en-udef
 title: Fields
 description: Fields
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: udef, custom field
+author: Bergfrid Dias
+so.date: 06.15.2023
+keywords: udef, custom field, user-defined, Fields
 so.topic: concept
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
@@ -15,7 +15,7 @@ language: en
 
 Several sections of SuperOffice CRM, for example, the Company screen, contain a separate tab called **More**. Here you can enter your own fields to customize the program to your organization's requirements. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
-All companies and organizations have their own requirements for the information they need to register concerning their customers, sales, projects, contracts, and so on. You can enter your own fields for SuperOffice CRM in the **Fields** screen. This way, you can customize the type of information that can be registered concerning companies, contacts, projects, sales, documents and follow-ups.
+All companies and organizations have their own requirements for the information they need to register concerning their customers, sales, projects, contracts, and so on. You can enter your own fields for SuperOffice CRM in the **Fields** screen. This way, you can customize the type of information that can be registered concerning companies, contacts, projects, sales, documents, and follow-ups.
 
 > [!NOTE]
 > You can specify 3 fields that can be displayed on the "first page" in their respective screens or dialogs. [How][1]. Please note that this may not be applicable if you are using another layout via the [Screen designer][8].
@@ -39,7 +39,7 @@ All companies and organizations have their own requirements for the information 
 * [The More tab (Project)][3]
 * [The More tab (follow-ups)][4]
 * [The More tab (Document)][5]
-* The Details tab in the Sale screen
+* [The More tab (Sale)][9]
 
 You can specify *page 1 fields* (fields displayed on the "first page" in their respective screens or dialogs) in the following places:
 
@@ -97,5 +97,6 @@ You can then add these fields to the Project screen:
 [6]: ../../../company/learn/create.md#more-tab
 [7]: ../../../contact/learn/create.md#more-tab
 [8]: ../../../ui/screen-designer/learn/index.md
+[9]: ../../../sale/learn/index.md#more-tab
 
 <!-- Referenced images -->

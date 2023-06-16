@@ -37,8 +37,8 @@ The Navigator FastSearcher runs two parallel searches:
 
 <!-- Referenced links -->
 [1]: ../../learn/basics/history.md
-[2]: ../../api/osql/soundx.md
+[2]: ../../../en/api/osql/soundx.md
 
 <!-- Referenced images -->
-[img1]: media/quicksearch-company.bmp
-[img2]: media/quicksearch-sale.bmp
+[img1]: ../../../media/loc/en/search-options/quicksearch-company.bmp
+[img2]: ../../../media/loc/en/search-options/quicksearch-sale.bmp

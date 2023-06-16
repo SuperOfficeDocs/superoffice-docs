@@ -93,11 +93,11 @@ Click on the appointment in your SuperOffice diary to view its details in the pr
 To join the video meeting via the preview screen, just click the Join Meeting button at the bottom of the side panel. After you click it, your video meeting will automatically start.
 
 <!-- Referenced links -->
-[1]: ../../video-meeting/howto/connect-provider.md
+[1]: ../../../en/video-meeting/howto/connect-provider.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/videocall-off.png
 [img2]: ../../../../common/icons/videocall.png
 [img3]: ../../../../common/icons/diary-videocall.png
 [img4]: ../../../../common/icons/diary-copy.png
-[img5]: media/appointment-videomeeting-icon.png
+[img5]: ../../../media/loc/en/diary/appointment-videomeeting-icon.png

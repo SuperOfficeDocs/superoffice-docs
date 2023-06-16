@@ -1,0 +1,9 @@
+items:
+- name: Endre aktivt språk
+  href: change-language.md
+- name: Oversettelse av innhold
+  href: translate-fields.md
+- name: Tidssoner
+  href: time-zones.md
+- name: Språkstøtte i Mobile CRM
+  href: ../../admin/learn/index.md

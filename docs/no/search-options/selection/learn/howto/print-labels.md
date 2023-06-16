@@ -1,0 +1,34 @@
+---
+uid: help-no-selection-print-labels
+title: Skrive ut etiketter Utvalg
+description: Skrive ut etiketter Utvalg
+author: Bergfrid Dias
+so.date: 03.29.2023
+keywords: utvalg
+so.topic: howto
+language: no
+---
+
+# Skriv ut etiketter
+
+Etikettutskrift er nyttig for eksempel når du skal sende ut brev til mange mottakere og vil lage adresselapper til å klistre på konvoluttene.
+
+1. [!include[Start](../includes/steps-start-task.md)]
+
+2. Velg fanen **Firma/person**.
+
+3. Klikk på **Oppgave**-knappen og velg **Skriv ut etiketter**.
+
+4. I dialogboksen **Velg etikett** velger du etikettformatet du trenger og klikker på **OK**.
+
+    > [!NOTE]
+    > I denne dialogboksen kan du også [legge til nye etikettformater,][2] samt [redigere][3] og [slette][4] eksisterende.
+
+5. Åpne den opprettede PDF-filen og skriv den ut.
+
+<!-- Referenced links -->
+[2]: ../../../../reports/learn/labels/add-format.md
+[3]: ../../../../reports/learn/labels/edit-format.md
+[4]: ../../../../reports/learn/labels/remove-format.md
+
+<!-- Referenced images -->

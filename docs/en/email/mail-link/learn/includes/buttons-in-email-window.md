@@ -17,4 +17,4 @@
 [img2]: ../../../../../media/icons/mail-link/archive-is-off.png
 [img3]: ../../../../../media/icons/mail-link/add-recipient.png
 [img4]: ../../../../../media/icons/mail-link/add-document.png
-[img5]: ../media/superoffice-button.png
+[img5]: ../../../../../media/loc/en/email/superoffice-button.png

@@ -49,7 +49,7 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 * [Template variables][1]
 
 <!-- Referenced links -->
-[1]: ../../document/templates/variables/index.md
+[1]: ../../../en/document/templates/variables/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/pref-defaultvalues-h32.png
@@ -64,4 +64,4 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 [img10]: ../../../../common/icons/pref-system-h32.png
 [img11]: ../../../../common/icons/pref-visualeffects-h32.png
 [img12]: ../../../media/icons/personal-settings-small.png
-[img13]: media/getstarted-personalsettings.png
+[img13]: ../../../media/loc/en/learn/getstarted-personalsettings.png

@@ -1,0 +1,22 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Installere Gmail-kobling
+  href: install.md
+- name: Redigere Gmail Link-innstillinger
+  href: settings.md
+- name: Arbeide med e-post
+  topicHref: manage-senders.md
+  items:
+  - name: Administrere avsendere
+    href: manage-senders.md
+  - name: Arkivere innkommende e-post
+    href: email-archive-incoming.md
+  - name: Arkivere vedlegg
+    href: archive-attachments.md
+  - name: Opprett aktivitet
+    href: archive-emails-as-activities.md
+  - name: Opprette sak
+    href: archive-emails-as-requests.md
+  - name: Arkivere utgående e-post
+    href: email-archive-outgoing.md

@@ -72,4 +72,4 @@ You do this by [creating a link that removes the interest][4] in question from r
 [img3]: ../../../../../media/icons/marketing-and-forms/link.png
 [img1]: ../../../../../media/icons/marketing-and-forms/new-para.jpg
 [img2]: ../../../../../media/icons/marketing-and-forms/link.png
-[img4]: media/insert-edit-link-unsubscribe-mailing.png
+[img4]: ../../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

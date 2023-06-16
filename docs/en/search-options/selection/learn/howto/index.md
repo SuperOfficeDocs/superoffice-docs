@@ -75,4 +75,4 @@ The **Task** button contains tasks such as sending emails, mass-editing and expo
 [13]: mass-delete.md
 
 <!-- Referenced images -->
-[img1]: media/selection-task.png
+[img1]: ../../../../../media/loc/en/search-options/selection-task.png

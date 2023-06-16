@@ -1,0 +1,11 @@
+items:
+  - name: Oversikt
+    href: index.md
+  - name: Tilpasse kolonnevisningen
+    href: configure-columns.md
+  - name: Bruke filtre
+    href: filter.md
+  - name: Gruppelister
+    href: group.md
+  - name: Eksportere
+    href: export-archives.md

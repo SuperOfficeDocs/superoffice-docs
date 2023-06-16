@@ -69,8 +69,6 @@ There are three key areas in which the GDPR affects the work of marketeers:
 > [!NOTE]
 > Tracked links and reporting features require the Marketing User licence. You also need functional rights to edit and send mailings.
 
-SMS mailing is not available if you are using CRM Online.
-
 ## Necessary skills
 
 To benefit from SuperOffice marketing features, you need a basic understanding of how to register basic CRM data, such as categories on company and contacts, interests and subscription types on contacts (read more about GDPR and privacy), and how to use selections. These steps of registering data help you segment your customer base and create an effective target list. If you want to know how to configure marketing related functions, please see the section for Manage lists in Settings and maintenance.

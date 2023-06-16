@@ -101,5 +101,5 @@ Is the Compare to target not visible at all, make sure that you have selected th
 [img4]: ../../../../common/icons/bar.png
 [img5]: ../../../../common/icons/gauge.png
 [img6]: ../../../../common/icons/edit-pen.png
-[img7]: media/user-dashboard-tile-comparetotarget.png
-[img8]: media/user-dashboard-tile-disabled-comparetotarget.png
+[img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
+[img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png

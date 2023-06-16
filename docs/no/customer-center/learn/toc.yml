@@ -1,0 +1,13 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Konfigurering
+  href: config.md
+- name: Kildefiler
+  href: edit.md
+- name: Sende passord til personer
+  href: send-credentials.md
+- name: Vis nettprat
+  href: enable-chat.md
+- name: Koble et webskjema
+  href: link-form.md

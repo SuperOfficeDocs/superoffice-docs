@@ -93,6 +93,6 @@ Create a new layout for a specific user group by setting up section tabs with co
 [5]: ../../../admin/user-management/learn/index.md
 
 <!-- Referenced images -->
-[img1]: media/add-button-for-new-screen-layout.png
-[img2]: media/add-new-screen-layout.png
-[img3]: media/admin-screendesigner-add-archive-layout.png
+[img1]: ../../../../media/loc/en/ui/add-button-for-new-screen-layout.png
+[img2]: ../../../../media/loc/en/ui/add-new-screen-layout.png
+[img3]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png

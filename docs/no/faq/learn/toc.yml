@@ -1,0 +1,22 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Arbeide med FAQ
+  topicHref: view-entry.md
+  items:
+  - name: Vise FAQ-oppføringer
+    href: view-entry.md
+  - name: Opprette FAQ-oppføring
+    href: create.md
+  - name: Redigere FAQ-oppføringer
+    href: edit.md
+  - name: Slett FAQ-oppføringer
+    href: delete.md
+  - name: Søk etter FAQ-oppføringer
+    href: search-for.md
+  - name: Administrere mapper med FAQ-oppføringer
+    href: manage-folders.md
+  - name: Publisere FAQ-oppføringer
+    href: publish.md
+  - name: Faser i arbeidsflyt
+    href: workflow.md

@@ -39,4 +39,4 @@ When the notification time arrives, the **Alarm** dialog opens, containing infor
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
-[img2]: media/appointment-alarm-on-meeting.png
+[img2]: ../../../media/loc/en/diary/appointment-alarm-on-meeting.png

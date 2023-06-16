@@ -71,4 +71,4 @@ The email can also contain a link to a customer centre where the contact can man
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img2]: media/confirmation-email.png
+[img2]: ../../../../media/loc/en/security/confirmation-email.png

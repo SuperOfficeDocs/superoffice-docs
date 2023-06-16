@@ -49,4 +49,4 @@ You can check the results of your mailings by logging in to your Google Analytic
 [2]: index.md#google
 
 <!-- Referenced images -->
-[img1]: media/google-analytics-tag.png
+[img1]: ../../../../media/loc/en/marketing/google-analytics-tag.png
