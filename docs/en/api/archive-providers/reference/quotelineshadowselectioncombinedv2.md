@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteLineShadowSelectionCombinedV2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -723,7 +723,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=alternative/version/quote/sale/saleType,alternative/version/quote/sale/person/personAddress/addressId,alternative/version/quote/sale/contact/contactPhone/description,alternative/version/quote/sale/contact/contactUdef/SuperOffice:2,alternative/version/quote/sale/project/projectEvent/hasSignOn
+GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=alternative/version/quote/sale/person/personMobilePhone/formattedNumber,alternative/version/quote/sale/contact/streetAddress/formattedAddress,alternative/version/quote/sale/contact/contactUdef/SuperOffice:13
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteLineShadowDynamicSelectionV2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -718,7 +718,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelectionV2?$select=discountPercent,alternative/version/approvedText,alternative/version/quote/sale/person/personUpdatedByFullName,alternative/version/quote/sale/person/personMobilePhone/formattedNumber,alternative/version/quote/sale/person/personPager/formattedNumber
+GET /api/v1/archive/QuoteLineShadowDynamicSelectionV2?$select=alternative/version/quote/sale/contact/updatedDate,alternative/version/quote/sale/contact/mainContact,alternative/version/quote/sale/person/personAddress/wgs84latitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

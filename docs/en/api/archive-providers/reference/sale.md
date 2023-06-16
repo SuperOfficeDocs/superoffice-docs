@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Sale"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1066,7 +1066,7 @@ Archive provider for Sale type activities. This provider can be used on its own,
 ## Sample
 
 ```http!
-GET /api/v1/archive/Sale?$select=person/personUpdatedBy,person/personAddress/wgs84latitude,person/personUdef/SuperOffice:3,person/personAssociate/ejStatus,contact/contactNoMail
+GET /api/v1/archive/Sale?$select=probPercent,person/birthDay,person/personAssociate/role,person/correspondingAssociate/assocType,contact/contactSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

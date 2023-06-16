@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "LinksAppointments"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -692,7 +692,7 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=person/personAssociate/personId,sale/completed,associate/contactId
+GET /api/v1/archive/LinksAppointments?$select=contact/hasInterests,contact/contactPhone/formattedNumber,contact/contactAssociate/assocType,person/mrMrs,appointmentUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

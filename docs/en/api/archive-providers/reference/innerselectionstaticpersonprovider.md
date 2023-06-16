@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "InnerSelectionStaticPersonProvider"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -762,7 +762,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personAddress/city,personUdef/SuperOffice:10,personSourceRelation/lastName,personTargetRelation/associateType,request/extra/x_ticket_project_relation
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personExtra/x_person_contact_relation,personSourceRelation/isStakeholder,correspondingAssociate/contactId,streetAddress/wgs84latitude,contactExtra/x_contact_request_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "contactfavourites"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -345,7 +345,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/contactfavourites?$select=postAddress/line1,streetAddress/state,streetAddress/wgs84latitude,contactSupportPerson/personExtra/y_rental/id,contactUdef/SuperOffice:8
+GET /api/v1/archive/contactfavourites?$select=contactAssociate/contactName,contactSupportPerson/consentSourceStore,NumberOfActivities,saintTicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

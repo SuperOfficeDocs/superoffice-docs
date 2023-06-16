@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "AppointmentSelection"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -688,7 +688,7 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelection?$select=contact/contactAssociate/middleName,contact/contactAssociate/contactId,person/personActiveErpLinks,person/personAssociate/associateDbId,project/LastDoByActivity
+GET /api/v1/archive/AppointmentSelection?$select=contact/contactAssociate/credentialType,contact/NumberOfNotCompletedActivitiesInPeriod,appointmentUdef/SuperOffice:5,project/projectAssociate/lastName,project/projectAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

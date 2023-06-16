@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleFiltered"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1065,7 +1065,7 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=person/personPrivate/description,person/personExtra/x_person_timespan,contact/department,contact/postAddress/formattedAddress,contact/contactAssociate/mrMrs
+GET /api/v1/archive/SaleFiltered?$select=person/personPrivate/description,contact/contactFax/formattedNumber,contact/streetAddress/formattedAddress,associate/contactCategory,saleStakeholder/person/personAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

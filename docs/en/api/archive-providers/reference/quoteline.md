@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteLine"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -78,7 +78,7 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLine?$select=rank,UnitListPriceSubscriptionQuantity,unitListPrice
+GET /api/v1/archive/QuoteLine?$select=UnitListPriceSubscriptionQuantity,unitListPrice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

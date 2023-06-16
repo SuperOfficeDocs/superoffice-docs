@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Mail2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -464,7 +464,7 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=meeting,person/supportAssociate,person/personBusiness,person/isMailingRecipient,contact/contactAssociate/personEmail
+GET /api/v1/archive/Mail2?$select=subject,person/personUpdatedDate,person/personAssociate/assocTooltip,person/correspondingAssociate/fullName,contact/contactAssociate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

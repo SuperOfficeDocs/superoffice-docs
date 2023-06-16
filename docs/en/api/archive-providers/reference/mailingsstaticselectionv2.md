@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "MailingsStaticSelectionV2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -570,7 +570,7 @@ Static archive Provider for a Selection of Mailingss archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingAddr/contact/restrictionAddress/zip,mailingAddr/contact/contactAssociate/contactCategory,mailingAddr/person/personExtra/x_person_contact_relation
+GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingAddr/contact/restrictionAddress/wgs84latitude,mailingAddr/contact/contactAssociate/title,mailingAddr/contact/contactUdef/SuperOffice:3,mailingAddr/person/supportAssociate,mailingAddr/person/email/emailDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

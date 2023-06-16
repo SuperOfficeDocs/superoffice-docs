@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SystemEvents"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -85,7 +85,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/SystemEvents?$select=registered_associate_id/mrMrs,registered_associate_id/firstName,registered_associate_id/associateDbId
+GET /api/v1/archive/SystemEvents?$select=registered_associate_id/firstName,registered_associate_id/middleName,registered_associate_id/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

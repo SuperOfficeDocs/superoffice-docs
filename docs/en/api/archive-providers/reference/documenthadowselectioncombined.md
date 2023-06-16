@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "DocumenthadowSelectionCombined"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -679,7 +679,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumenthadowSelectionCombined?$select=yourref,person/fullName,contact/contactExtra/x_contact_boolean,associate/ejUserId
+GET /api/v1/archive/DocumenthadowSelectionCombined?$select=person/isStakeholder,person/personAssociate/personEmail,person/correspondingAssociate/firstName,contact/contactUdef/SuperOffice:5,contact/contactExtra/x_contact_timespan
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ChatConversationSelectionV2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -466,7 +466,7 @@ This is the archive Provider for the Selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationSelectionV2?$select=associate/userName,person/personExtra/x_person_hidden_integer,person/restrictionAddress/line3
+GET /api/v1/archive/ChatConversationSelectionV2?$select=duration,contact/stop,contact/restrictionAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

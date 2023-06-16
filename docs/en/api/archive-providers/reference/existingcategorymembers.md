@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ExistingCategoryMembers"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -72,7 +72,7 @@ Lists existing CategoryMembers in table and edited or removed ones through restr
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExistingCategoryMembers?$select=weight,contactId,usergroup
+GET /api/v1/archive/ExistingCategoryMembers?$select=contactId,usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

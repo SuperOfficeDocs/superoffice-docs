@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "DocumentShadowDynamicSelectionV2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -676,7 +676,7 @@ Document shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionV2?$select=person/portraitThumbnail,person/personUdef/SuperOffice:2,person/correspondingAssociate/simultaneousEjUser,contact/NumberOfNotCompletedActivitiesInPeriod,contact/NumberOfSales
+GET /api/v1/archive/DocumentShadowDynamicSelectionV2?$select=documentPublish/publishedFrom,person/supportLanguage,person/personExtra/x_person_longtext,person/personExtra/x_person_appointment_relation,contact/saintIntention
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

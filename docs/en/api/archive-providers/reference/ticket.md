@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Ticket"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -718,7 +718,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ticket?$select=person/personAssociate/mrMrs,contact/streetAddress/line2,contact/contactUdef/SuperOffice:2,contact/NumberOfNotCompletedTickets
+GET /api/v1/archive/Ticket?$select=createdBy/ejUserId,person/personCategory,person/personExtra/x_person_shorttext_list,person/correspondingAssociate/assocType,contact/contactExtra/x_contact_hidden_integer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

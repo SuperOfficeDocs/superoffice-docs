@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Relation"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -532,7 +532,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Sample
 
 ```http!
-GET /api/v1/archive/Relation?$select=source/department,target/contactAssociate/contactName,target/contactExtra/x_contact_contact
+GET /api/v1/archive/Relation?$select=target/email/emailId,target/contactAssociate/simultaneousEjUser,target/title,target/personActiveErpLinks,source/LastDoBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

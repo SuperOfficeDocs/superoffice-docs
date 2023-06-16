@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ChatConversationSelectionCombinedV2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -466,7 +466,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationSelectionCombinedV2?$select=person/position,person/personBusiness,person/legalBaseStore,contact/contactId,contact/email/emailAddress
+GET /api/v1/archive/ChatConversationSelectionCombinedV2?$select=agent,registeredDate,person/kanaFirstName,person/personUdef/SuperOffice:8,person/correspondingAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

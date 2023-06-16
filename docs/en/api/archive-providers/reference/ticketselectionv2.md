@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TicketSelectionV2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -720,7 +720,7 @@ This is the archive Provider for the Selection ticket archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionV2?$select=person/ticketPriority,person/personAssociate/ejDisplayName,contact/email/emailHasBounced,sale/saleNumber,project/projectAssociate/contactFullName
+GET /api/v1/archive/TicketSelectionV2?$select=person/restrictionAddress/zip,person/restrictionAddress/formattedMultiLineAddress,person/personExtra/x_person_timespan,person/correspondingAssociate/contactDepartment,contact/contactUdef/SuperOffice:13
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

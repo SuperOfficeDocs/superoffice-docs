@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FormSubmissionSelectionV2"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -458,7 +458,7 @@ This is the archive Provider for the Selection FormSubmission archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionSelectionV2?$select=formSubmissionStatus,person/personExtra/x_person_hidden_integer,person/restrictionAddress/wgs84latitude
+GET /api/v1/archive/FormSubmissionSelectionV2?$select=contact/contactDeleted,contact/postAddress/formattedAddress,contact/contactUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

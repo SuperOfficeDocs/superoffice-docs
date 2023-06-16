@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TicketNotification"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -60,7 +60,7 @@ Retrieves pending request notifications for current user
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketNotification?$select=ownerAssociateId,expires
+GET /api/v1/archive/TicketNotification?$select=ownerEjUserId,ownerAssociateId,expires
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

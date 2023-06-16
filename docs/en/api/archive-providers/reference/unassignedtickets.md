@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "UnassignedTickets"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -713,7 +713,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/UnassignedTickets?$select=realTimeToClose,createdBy/contactName,person/subscription,contact/deletedDate,contact/contactAssociate/otherGroups
+GET /api/v1/archive/UnassignedTickets?$select=ownedBy/personId,ownedBy/userName,person/personExtra/y_rental/x_amount,contact/contactAssociate/associateDbId,contact/contactUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

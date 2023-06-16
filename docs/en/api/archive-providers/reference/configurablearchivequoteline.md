@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ConfigurableArchiveQuoteLine"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -716,7 +716,7 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=alternative/version/approvedDate,alternative/version/quote/sale/competitor,alternative/version/quote/sale/person/restrictionAddress/state,alternative/version/quote/sale/person/correspondingAssociate/middleName
+GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=alternative/earningPercent,alternative/version/quote/sale/contact/streetAddress/state,alternative/version/quote/sale/contact/restrictionAddress/addressId,alternative/version/quote/sale/contact/LastSale,alternative/version/quote/sale/associate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ContactActivity"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,8 +26,8 @@ Activity archive provider for the Company card
 | ---- | ----- |
 |"chat"|Chat session|
 |"document"|Documents|
-|"formSubmission"|Form submissions|
 |"appointment"|Follow-ups|
+|"formSubmission"|Form submissions|
 |"mailing"|Mailings|
 
 ## Supported Columns
@@ -690,10 +690,6 @@ Activity archive provider for the Company card
 |sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |document/textId|int|Text ID| x |
 |document/description|positiveString|Text: Displays the text entered in the description field| x |
-|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
-|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
-|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
-|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |participating|bool|Participating?: Am I among the participants in a meeting?|  |
 |appointmentId|int|DB ID: Displays the database ID of a row| x |
 |endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -728,6 +724,10 @@ Activity archive provider for the Company card
 |appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
 |appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
+|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
+|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
+|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |mailingId|int|ID: Displays the ID of the mailing| x |
 |mailingSelectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
@@ -1122,7 +1122,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=person/birthdate,person/personAssociateId,person/correspondingAssociate/isActiveText,person/correspondingAssociate/otherGroups,contact/contactUdef/SuperOffice:1
+GET /api/v1/archive/ContactActivity?$select=person/personUdef/SuperOffice:9,contact/postAddress/county,contact/contactAssociate/userName,project/projectUrl/URLDescription,project/projectAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

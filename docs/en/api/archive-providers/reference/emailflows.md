@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "EmailFlows"
 so.generated: true
-so.date: 05.09.2023
+so.date: 05.25.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -90,7 +90,7 @@ Lists all email flows
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlows?$select=thumbnail,workflowInProgressCount,workflowAssociate/mrMrs
+GET /api/v1/archive/EmailFlows?$select=workflowAssociate/contactId,workflowAssociate/mrMrs,workflowInProgressCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
