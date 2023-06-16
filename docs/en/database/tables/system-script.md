@@ -3,14 +3,9 @@ uid: table-system_script
 title: system_script table
 description: A table containing the system script
 so.generated: true
-keywords:
-  - "database"
-  - "system_script"
-so.date: 01.23.2023
+keywords: database table system_script
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # system\_script Table (378)

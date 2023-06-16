@@ -3,14 +3,9 @@ uid: table-Business
 title: Business table
 description: Business list table
 so.generated: true
-keywords:
-  - "database"
-  - "Business"
-so.date: 01.23.2023
+keywords: database table Business
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Business Table (61)

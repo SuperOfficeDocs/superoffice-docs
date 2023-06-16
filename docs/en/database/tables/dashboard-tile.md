@@ -3,14 +3,9 @@ uid: table-dashboard_tile
 title: dashboard_tile table
 description: Represents one tile in the dashboard
 so.generated: true
-keywords:
-  - "database"
-  - "dashboard_tile"
-so.date: 01.23.2023
+keywords: database table dashboard_tile
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # dashboard\_tile Table (480)

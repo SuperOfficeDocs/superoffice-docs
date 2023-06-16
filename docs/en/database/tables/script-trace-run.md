@@ -3,14 +3,9 @@ uid: table-script_trace_run
 title: script_trace_run table
 description: Traces of executed scripts
 so.generated: true
-keywords:
-  - "database"
-  - "script_trace_run"
-so.date: 01.23.2023
+keywords: database table script_trace_run
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # script\_trace\_run Table (474)

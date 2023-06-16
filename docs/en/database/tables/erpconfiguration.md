@@ -3,14 +3,9 @@ uid: table-ErpConfiguration
 title: ErpConfiguration table
 description: Global settings for the Erp Integration Server
 so.generated: true
-keywords:
-  - "database"
-  - "ErpConfiguration"
-so.date: 01.23.2023
+keywords: database table ErpConfiguration
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ErpConfiguration Table (449)

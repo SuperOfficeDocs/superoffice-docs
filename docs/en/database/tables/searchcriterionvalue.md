@@ -3,14 +3,9 @@ uid: table-SearchCriterionValue
 title: SearchCriterionValue table
 description: Criteria storage for Selection and other Find mechanisms
 so.generated: true
-keywords:
-  - "database"
-  - "SearchCriterionValue"
-so.date: 01.23.2023
+keywords: database table SearchCriterionValue
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # SearchCriterionValue Table (204)

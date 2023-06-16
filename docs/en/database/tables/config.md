@@ -3,14 +3,9 @@ uid: table-config
 title: config table
 description: This table contains certain system-wide configuration values.
 so.generated: true
-keywords:
-  - "database"
-  - "config"
-so.date: 01.23.2023
+keywords: database table config
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # config Table (255)

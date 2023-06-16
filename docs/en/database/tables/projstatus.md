@@ -3,14 +3,9 @@ uid: table-ProjStatus
 title: ProjStatus table
 description: ProjStatus list table. Project status
 so.generated: true
-keywords:
-  - "database"
-  - "ProjStatus"
-so.date: 01.23.2023
+keywords: database table ProjStatus
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ProjStatus Table (88)

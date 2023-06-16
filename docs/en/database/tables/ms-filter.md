@@ -3,14 +3,9 @@ uid: table-ms_filter
 title: ms_filter table
 description: This table contains email filters. These are the filters allowing you to do advanced parsing of incomming emails.
 so.generated: true
-keywords:
-  - "database"
-  - "ms_filter"
-so.date: 01.23.2023
+keywords: database table ms_filter
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ms\_filter Table (310)

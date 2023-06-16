@@ -3,14 +3,9 @@ uid: table-wsdl_description
 title: wsdl_description table
 description: Soap wsdl files
 so.generated: true
-keywords:
-  - "database"
-  - "wsdl_description"
-so.date: 01.23.2023
+keywords: database table wsdl_description
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # wsdl\_description Table (357)

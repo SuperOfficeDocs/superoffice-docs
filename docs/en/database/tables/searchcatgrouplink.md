@@ -3,14 +3,9 @@ uid: table-SearchCatGroupLink
 title: SearchCatGroupLink table
 description: User group link table for SearchCat, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "SearchCatGroupLink"
-so.date: 01.23.2023
+keywords: database table SearchCatGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # SearchCatGroupLink Table (107)

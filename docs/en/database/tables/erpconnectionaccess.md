@@ -3,14 +3,9 @@ uid: table-ErpConnectionAccess
 title: ErpConnectionAccess table
 description: Access control for Erp Connections
 so.generated: true
-keywords:
-  - "database"
-  - "ErpConnectionAccess"
-so.date: 01.23.2023
+keywords: database table ErpConnectionAccess
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ErpConnectionAccess Table (420)

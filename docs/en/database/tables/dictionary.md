@@ -3,14 +3,9 @@ uid: table-dictionary
 title: dictionary table
 description: User added dictionary words
 so.generated: true
-keywords:
-  - "database"
-  - "dictionary"
-so.date: 01.23.2023
+keywords: database table dictionary
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # dictionary Table (358)

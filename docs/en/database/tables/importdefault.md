@@ -3,14 +3,9 @@ uid: table-ImportDefault
 title: ImportDefault table
 description: Defaults for import fields/objects
 so.generated: true
-keywords:
-  - "database"
-  - "ImportDefault"
-so.date: 01.23.2023
+keywords: database table ImportDefault
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ImportDefault Table (189)

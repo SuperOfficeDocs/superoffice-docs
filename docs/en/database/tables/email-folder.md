@@ -3,14 +3,9 @@ uid: table-email_folder
 title: email_folder table
 description: Corresponds to an email folder on a mail server
 so.generated: true
-keywords:
-  - "database"
-  - "email_folder"
-so.date: 01.23.2023
+keywords: database table email_folder
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # email\_folder Table (485)

@@ -3,14 +3,9 @@ uid: table-QuoteAlternative
 title: QuoteAlternative table
 description: Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version. The reason we have alternatives is that a quote can say to a customer, “we can solve you problem in two (or more) different ways, with different technology and sideeffects (and price)”. An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount , Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed.
 so.generated: true
-keywords:
-  - "database"
-  - "QuoteAlternative"
-so.date: 01.23.2023
+keywords: database table QuoteAlternative
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # QuoteAlternative Table (47)

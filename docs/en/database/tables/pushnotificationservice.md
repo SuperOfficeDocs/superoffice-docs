@@ -3,17 +3,12 @@ uid: table-PushNotificationService
 title: PushNotificationService table
 description: Used for storing handles to user devices that should receive push notifications
 so.generated: true
-keywords:
-  - "database"
-  - "PushNotificationService"
-so.date: 01.23.2023
+keywords: database table PushNotificationService
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# PushNotificationService Table (493)
+# PushNotificationService Table (494)
 
 Used for storing handles to user devices that should receive push notifications
 

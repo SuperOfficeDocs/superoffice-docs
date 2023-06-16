@@ -3,14 +3,9 @@ uid: table-PaymentTermsGroupLink
 title: PaymentTermsGroupLink table
 description: User group link table for PaymentTerms, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "PaymentTermsGroupLink"
-so.date: 01.23.2023
+keywords: database table PaymentTermsGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # PaymentTermsGroupLink Table (428)

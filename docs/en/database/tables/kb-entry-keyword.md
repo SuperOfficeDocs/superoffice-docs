@@ -3,14 +3,9 @@ uid: table-kb_entry_keyword
 title: kb_entry_keyword table
 description: This table contains all keywords for the faq entries
 so.generated: true
-keywords:
-  - "database"
-  - "kb_entry_keyword"
-so.date: 01.23.2023
+keywords: database table kb_entry_keyword
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # kb\_entry\_keyword Table (288)

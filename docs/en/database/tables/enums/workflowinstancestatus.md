@@ -3,13 +3,9 @@ uid: enum-workflowinstancestatus
 title: Enum values for WorkflowInstanceStatus
 description: Lists the enum values for WorkflowInstanceStatus.
 so.generated: true
-keywords:
-  - "database"
-so.date: 03.01.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # WorkflowInstanceStatus Enum

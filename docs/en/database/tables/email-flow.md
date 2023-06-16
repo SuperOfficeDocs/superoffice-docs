@@ -3,14 +3,9 @@ uid: table-email_flow
 title: email_flow table
 description: A set of properties related to the email workflow.
 so.generated: true
-keywords:
-  - "database"
-  - "email_flow"
-so.date: 03.01.2023
+keywords: database table email_flow
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # email\_flow Table (509)
@@ -31,6 +26,20 @@ A set of properties related to the email workflow.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |hierarchy\_id|This email flow is inside that hierarchy folder|FK [hierarchy](hierarchy.md)| |
+|from\_name|Email From name|String(255)|&#x25CF;|
+|from\_addr|Email From address: name@domain.com|String(255)|&#x25CF;|
+|reply\_to\_addr|Reply to address, if different from From-address|String(255)|&#x25CF;|
+|sms\_sender|SMS sender (number or name)|String(255)|&#x25CF;|
+|use\_timeframe|Use sender timeframe settings, only send email/sms within the timeframe|Bool|&#x25CF;|
+|selected\_days|Selected days (flags, so several days can be selected) for time frame|Enum [Weekday](enums/weekday.md)|&#x25CF;|
+|timeframe\_start|Start of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used|UtcDateTime|&#x25CF;|
+|timeframe\_end|End of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used|UtcDateTime|&#x25CF;|
+|use\_google\_analytics|Use Google Analytics|Bool|&#x25CF;|
+|ga\_source|GA Source|String(255)|&#x25CF;|
+|ga\_campaign|GA Campaign|String(255)|&#x25CF;|
+|from\_type|Email/Mailing From field address algorithm|Enum [EmailFromType](enums/emailfromtype.md)|&#x25CF;|
+|reply\_to\_type|Email/Mailing Reply-To field address algorithm|Enum [EmailReplyToType](enums/emailreplytotype.md)|&#x25CF;|
+|reply\_to\_name|Email Reply-To name|String(255)|&#x25CF;|
 
 
 ![email_flow table relationship diagram](./media/email_flow.png)
@@ -49,6 +58,7 @@ A set of properties related to the email workflow.
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[email\_flow\_content\_link](email-flow-content-link.md)  |Link message content to an email workflow |
 |[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
 |[ShipmentType](shipmenttype.md)  |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists |
 |[workflow](workflow.md)  |SuperOffice specific info about a workflow |

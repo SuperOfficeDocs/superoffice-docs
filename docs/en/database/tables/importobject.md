@@ -3,14 +3,9 @@ uid: table-ImportObject
 title: ImportObject table
 description: Import object types - see localetext for names.
 so.generated: true
-keywords:
-  - "database"
-  - "ImportObject"
-so.date: 01.23.2023
+keywords: database table ImportObject
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ImportObject Table (186)

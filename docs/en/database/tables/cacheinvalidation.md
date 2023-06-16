@@ -3,17 +3,12 @@ uid: table-CacheInvalidation
 title: CacheInvalidation table
 description: Names and generation numbers for distributed invalidation of caches
 so.generated: true
-keywords:
-  - "database"
-  - "CacheInvalidation"
-so.date: 01.23.2023
+keywords: database table CacheInvalidation
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# CacheInvalidation Table (508)
+# CacheInvalidation Table (518)
 
 Names and generation numbers for distributed invalidation of caches
 

@@ -17,4 +17,5 @@ text -> associate [label = "owner_id" style="dashed"]
 RefCountRange -> associate [label = "traveller_id" style="dashed"]
 dashboard -> associate [label = "visible_for_associates" style="dashed"]
 dashboard -> associate [label = "pin_for_associates" style="dashed"]
+workflow -> associate [label = "visible_for_associates" style="dashed"]
 }

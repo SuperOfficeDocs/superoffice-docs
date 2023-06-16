@@ -3,14 +3,9 @@ uid: table-CreditedHeadingLink
 title: CreditedHeadingLink table
 description: Heading link table for Credited, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "CreditedHeadingLink"
-so.date: 01.23.2023
+keywords: database table CreditedHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # CreditedHeadingLink Table (99)

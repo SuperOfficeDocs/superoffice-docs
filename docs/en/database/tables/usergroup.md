@@ -3,14 +3,9 @@ uid: table-UserGroup
 title: UserGroup table
 description: Secondary user groups
 so.generated: true
-keywords:
-  - "database"
-  - "UserGroup"
-so.date: 01.23.2023
+keywords: database table UserGroup
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # UserGroup Table (59)
@@ -115,6 +110,7 @@ Secondary user groups
 |[UDListGroupLink](udlistgrouplink.md)  |User group link table for UDList, for MDO item hiding. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
 |[UserGroupLink](usergrouplink.md)  |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http://techdoc.superoffice.com has more information about how roles are implemented. |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
+|[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 
 
 ## Replication Flags

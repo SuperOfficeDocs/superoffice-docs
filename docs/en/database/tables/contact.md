@@ -3,14 +3,9 @@ uid: table-contact
 title: contact table
 description: Companies and Organizations.   This table features a special record containing information about the contact that owns the database.  
 so.generated: true
-keywords:
-  - "database"
-  - "contact"
-so.date: 01.23.2023
+keywords: database table contact
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # contact Table (5)
@@ -135,6 +130,7 @@ Companies and Organizations.   This table features a special record containing i
 |[udcontactSmall](udcontactsmall.md)  |User-defined fields for contact |
 |[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
 |[UserGroup](usergroup.md)  |Secondary user groups |
+|[workflow\_instance](workflow-instance.md)  |A set of properties related to the workflow instance of one participant going through the flow |
 
 
 ## Replication Flags

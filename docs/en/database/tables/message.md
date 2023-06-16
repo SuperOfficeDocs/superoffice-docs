@@ -3,14 +3,9 @@ uid: table-Message
 title: Message table
 description: Definition of a message, corresponding to the header of a protocol
 so.generated: true
-keywords:
-  - "database"
-  - "Message"
-so.date: 01.23.2023
+keywords: database table Message
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Message Table (242)

@@ -3,14 +3,9 @@ uid: table-PaymentType
 title: PaymentType table
 description: The list of payment types, in the internal product register
 so.generated: true
-keywords:
-  - "database"
-  - "PaymentType"
-so.date: 01.23.2023
+keywords: database table PaymentType
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # PaymentType Table (430)

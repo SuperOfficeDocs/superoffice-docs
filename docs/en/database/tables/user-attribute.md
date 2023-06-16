@@ -3,14 +3,9 @@ uid: table-user_attribute
 title: user_attribute table
 description: This table is used for storing various attributes for users.
 so.generated: true
-keywords:
-  - "database"
-  - "user_attribute"
-so.date: 01.23.2023
+keywords: database table user_attribute
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # user\_attribute Table (403)

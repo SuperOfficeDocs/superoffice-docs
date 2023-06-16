@@ -3,17 +3,12 @@ uid: table-QuoteApprReason
 title: QuoteApprReason table
 description: Predefined reasons for quote approval
 so.generated: true
-keywords:
-  - "database"
-  - "QuoteApprReason"
-so.date: 01.23.2023
+keywords: database table QuoteApprReason
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# QuoteApprReason Table (509)
+# QuoteApprReason Table (519)
 
 QuoteApprReason MDO list item table.
 Predefined reasons for quote approval

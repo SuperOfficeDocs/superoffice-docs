@@ -3,13 +3,9 @@ uid: enum-shipmentliststatus
 title: Enum values for ShipmentListStatus
 description: Lists the enum values for ShipmentListStatus.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ShipmentListStatus Enum

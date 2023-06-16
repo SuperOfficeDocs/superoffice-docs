@@ -3,14 +3,9 @@ uid: table-DocTmplHeadingLink
 title: DocTmplHeadingLink table
 description: Heading link table for DocTmpl, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "DocTmplHeadingLink"
-so.date: 01.23.2023
+keywords: database table DocTmplHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # DocTmplHeadingLink Table (132)

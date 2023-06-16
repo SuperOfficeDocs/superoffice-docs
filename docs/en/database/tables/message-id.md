@@ -3,14 +3,9 @@ uid: table-message_id
 title: message_id table
 description: This table links an email message id to an eJournal item
 so.generated: true
-keywords:
-  - "database"
-  - "message_id"
-so.date: 01.23.2023
+keywords: database table message_id
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # message\_id Table (386)

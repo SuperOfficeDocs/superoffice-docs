@@ -3,14 +3,9 @@ uid: table-ConfigurableScreenAppliesTo
 title: ConfigurableScreenAppliesTo table
 description: Mapping between recipes in scil and chosen type of data (appliesToKey) to differ layouts on
 so.generated: true
-keywords:
-  - "database"
-  - "ConfigurableScreenAppliesTo"
-so.date: 01.23.2023
+keywords: database table ConfigurableScreenAppliesTo
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ConfigurableScreenAppliesTo Table (464)

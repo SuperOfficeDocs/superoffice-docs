@@ -3,14 +3,9 @@ uid: table-SORSection
 title: SORSection table
 description: SuperOffice reporter data
 so.generated: true
-keywords:
-  - "database"
-  - "SORSection"
-so.date: 01.23.2023
+keywords: database table SORSection
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # SORSection Table (177)

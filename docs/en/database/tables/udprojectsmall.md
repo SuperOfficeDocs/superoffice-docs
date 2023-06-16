@@ -3,14 +3,9 @@ uid: table-udprojectSmall
 title: udprojectSmall table
 description: User-defined fields
 so.generated: true
-keywords:
-  - "database"
-  - "udprojectSmall"
-so.date: 01.23.2023
+keywords: database table udprojectSmall
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # udprojectSmall Table (142)

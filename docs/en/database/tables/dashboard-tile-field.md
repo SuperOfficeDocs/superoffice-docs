@@ -3,14 +3,9 @@ uid: table-dashboard_tile_field
 title: dashboard_tile_field table
 description: Describes the contents of a tile field
 so.generated: true
-keywords:
-  - "database"
-  - "dashboard_tile_field"
-so.date: 01.23.2023
+keywords: database table dashboard_tile_field
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # dashboard\_tile\_field Table (481)

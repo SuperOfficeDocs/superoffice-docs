@@ -3,14 +3,9 @@ uid: table-Favourite
 title: Favourite table
 description: Favourite records (star-marking)
 so.generated: true
-keywords:
-  - "database"
-  - "Favourite"
-so.date: 01.23.2023
+keywords: database table Favourite
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Favourite Table (455)

@@ -3,14 +3,9 @@ uid: table-kb_workflow
 title: kb_workflow table
 description: Knowledge base workflow steps
 so.generated: true
-keywords:
-  - "database"
-  - "kb_workflow"
-so.date: 01.23.2023
+keywords: database table kb_workflow
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # kb\_workflow Table (292)

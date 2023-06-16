@@ -3,13 +3,9 @@ uid: enum-freebusy
 title: Enum values for FreeBusy
 description: Lists the enum values for FreeBusy.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # FreeBusy Enum

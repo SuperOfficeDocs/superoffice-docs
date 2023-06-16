@@ -3,14 +3,9 @@ uid: table-Salutation
 title: Salutation table
 description: Academic title for Person
 so.generated: true
-keywords:
-  - "database"
-  - "Salutation"
-so.date: 01.23.2023
+keywords: database table Salutation
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Salutation Table (219)

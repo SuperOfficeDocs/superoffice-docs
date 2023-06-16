@@ -3,14 +3,9 @@ uid: table-ej_message
 title: ej_message table
 description: This table contains the messages listed under tickets.
 so.generated: true
-keywords:
-  - "database"
-  - "ej_message"
-so.date: 01.23.2023
+keywords: database table ej_message
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ej\_message Table (258)
@@ -49,6 +44,7 @@ This table contains the messages listed under tickets.
 |sentimentConfidence|Confidence of sentiment index, 0 = no idea, 100 = completely sure|Int|&#x25CF;|
 |changed\_at|When the message was changed.|DateTime|&#x25CF;|
 |changed\_by|The id of the user who changed the message.|FK [ejuser](ejuser.md)|&#x25CF;|
+|badge|Badge to explicitly determine how a message was generated|Enum [BadgeType](enums/badgetype.md)| |
 
 
 ![ej_message table relationship diagram](./media/ej_message.png)

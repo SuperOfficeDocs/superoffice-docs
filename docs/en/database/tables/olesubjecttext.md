@@ -3,14 +3,9 @@ uid: table-OLESubjectText
 title: OLESubjectText table
 description: Control data table for the OLE DB Provider
 so.generated: true
-keywords:
-  - "database"
-  - "OLESubjectText"
-so.date: 01.23.2023
+keywords: database table OLESubjectText
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # OLESubjectText Table (162)

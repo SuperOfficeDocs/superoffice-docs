@@ -3,14 +3,9 @@ uid: table-udappntlarge
 title: udappntlarge table
 description: User-defined fields
 so.generated: true
-keywords:
-  - "database"
-  - "udappntlarge"
-so.date: 01.23.2023
+keywords: database table udappntlarge
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # udappntlarge Table (229)

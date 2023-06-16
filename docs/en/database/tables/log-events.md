@@ -3,14 +3,9 @@ uid: table-log_events
 title: log_events table
 description: System log
 so.generated: true
-keywords:
-  - "database"
-  - "log_events"
-so.date: 01.23.2023
+keywords: database table log_events
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # log\_events Table (364)

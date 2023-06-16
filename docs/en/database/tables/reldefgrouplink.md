@@ -3,14 +3,9 @@ uid: table-RelDefGroupLink
 title: RelDefGroupLink table
 description: User group link table for RelDef, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "RelDefGroupLink"
-so.date: 01.23.2023
+keywords: database table RelDefGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # RelDefGroupLink Table (49)

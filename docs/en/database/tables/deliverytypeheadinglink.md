@@ -3,14 +3,9 @@ uid: table-DeliveryTypeHeadingLink
 title: DeliveryTypeHeadingLink table
 description: Heading link table for DeliveryType, for MDO item headings
 so.generated: true
-keywords:
-  - "database"
-  - "DeliveryTypeHeadingLink"
-so.date: 01.23.2023
+keywords: database table DeliveryTypeHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # DeliveryTypeHeadingLink Table (438)

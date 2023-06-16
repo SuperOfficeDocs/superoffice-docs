@@ -3,14 +3,9 @@ uid: table-ticket_priority
 title: ticket_priority table
 description: This table contains the ticket priorities.
 so.generated: true
-keywords:
-  - "database"
-  - "ticket_priority"
-so.date: 01.23.2023
+keywords: database table ticket_priority
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ticket\_priority Table (275)

@@ -3,14 +3,9 @@ uid: table-reply_template_body
 title: reply_template_body table
 description: Contains the body of the reply templates in different languages
 so.generated: true
-keywords:
-  - "database"
-  - "reply_template_body"
-so.date: 01.23.2023
+keywords: database table reply_template_body
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # reply\_template\_body Table (279)

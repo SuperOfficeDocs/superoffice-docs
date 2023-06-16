@@ -3,13 +3,9 @@ uid: enum-emailpriority
 title: Enum values for EMailPriority
 description: Lists the enum values for EMailPriority.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # EMailPriority Enum

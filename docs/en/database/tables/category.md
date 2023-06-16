@@ -3,14 +3,9 @@ uid: table-Category
 title: Category table
 description: Category list table
 so.generated: true
-keywords:
-  - "database"
-  - "Category"
-so.date: 01.23.2023
+keywords: database table Category
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Category Table (64)

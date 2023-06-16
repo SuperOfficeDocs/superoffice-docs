@@ -3,14 +3,9 @@ uid: table-chat_message
 title: chat_message table
 description: This table contains messages in a chat session.
 so.generated: true
-keywords:
-  - "database"
-  - "chat_message"
-so.date: 01.23.2023
+keywords: database table chat_message
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # chat\_message Table (333)

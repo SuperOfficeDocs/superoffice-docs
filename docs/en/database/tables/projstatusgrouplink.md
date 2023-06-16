@@ -3,14 +3,9 @@ uid: table-ProjStatusGroupLink
 title: ProjStatusGroupLink table
 description: User group link table for ProjStatus, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "ProjStatusGroupLink"
-so.date: 01.23.2023
+keywords: database table ProjStatusGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ProjStatusGroupLink Table (89)

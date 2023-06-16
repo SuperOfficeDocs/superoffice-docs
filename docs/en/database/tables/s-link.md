@@ -3,14 +3,9 @@ uid: table-s_link
 title: s_link table
 description: Links in messages to measure success rate of a campaign.
 so.generated: true
-keywords:
-  - "database"
-  - "s_link"
-so.date: 01.23.2023
+keywords: database table s_link
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # s\_link Table (336)

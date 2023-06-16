@@ -3,14 +3,9 @@ uid: table-IntentHeadingLink
 title: IntentHeadingLink table
 description: Heading link table for Intent, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "IntentHeadingLink"
-so.date: 01.23.2023
+keywords: database table IntentHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # IntentHeadingLink Table (218)

@@ -3,14 +3,9 @@ uid: table-ejsel_source_xml
 title: ejsel_source_xml table
 description: This table stores a selection source as xml
 so.generated: true
-keywords:
-  - "database"
-  - "ejsel_source_xml"
-so.date: 01.23.2023
+keywords: database table ejsel_source_xml
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ejsel\_source\_xml Table (395)

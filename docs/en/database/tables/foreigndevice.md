@@ -3,14 +3,9 @@ uid: table-foreigndevice
 title: foreigndevice table
 description: Middle level of Foreign Key system
 so.generated: true
-keywords:
-  - "database"
-  - "foreigndevice"
-so.date: 01.23.2023
+keywords: database table foreigndevice
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # foreigndevice Table (182)

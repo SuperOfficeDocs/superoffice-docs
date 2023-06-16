@@ -3,14 +3,9 @@ uid: table-ticket_relation_type
 title: ticket_relation_type table
 description: Contains ticket relation types, used to drive processing logic together with ticket relations
 so.generated: true
-keywords:
-  - "database"
-  - "ticket_relation_type"
-so.date: 01.23.2023
+keywords: database table ticket_relation_type
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ticket\_relation\_type Table (452)

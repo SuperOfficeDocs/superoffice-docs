@@ -3,14 +3,9 @@ uid: table-BusinessGroupLink
 title: BusinessGroupLink table
 description: User group link table for Business, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "BusinessGroupLink"
-so.date: 01.23.2023
+keywords: database table BusinessGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # BusinessGroupLink Table (62)

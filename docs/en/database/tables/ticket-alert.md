@@ -3,14 +3,9 @@ uid: table-ticket_alert
 title: ticket_alert table
 description: This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels.
 so.generated: true
-keywords:
-  - "database"
-  - "ticket_alert"
-so.date: 01.23.2023
+keywords: database table ticket_alert
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ticket\_alert Table (274)

@@ -3,14 +3,9 @@ uid: table-person
 title: person table
 description: Persons in a company or an organizations. All associates have a corresponding person record
 so.generated: true
-keywords:
-  - "database"
-  - "person"
-so.date: 01.23.2023
+keywords: database table person
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # person Table (6)
@@ -158,6 +153,7 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |[udpersonSmall](udpersonsmall.md)  |User-defined fields |
 |[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
 |[user\_candidate](user-candidate.md)  |This table will hold user candidate secrets |
+|[workflow\_instance](workflow-instance.md)  |A set of properties related to the workflow instance of one participant going through the flow |
 
 
 ## Replication Flags

@@ -3,17 +3,12 @@ uid: table-OnlineApp
 title: OnlineApp table
 description: Echo and track information about Online Apps and their usage
 so.generated: true
-keywords:
-  - "database"
-  - "OnlineApp"
-so.date: 01.23.2023
+keywords: database table OnlineApp
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# OnlineApp Table (492)
+# OnlineApp Table (493)
 
 Echo and track information about Online Apps and their usage
 

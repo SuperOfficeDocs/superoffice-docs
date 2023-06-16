@@ -3,17 +3,12 @@ uid: table-QuoteDenyReasonGroupLink
 title: QuoteDenyReasonGroupLink table
 description: User group link table for QuoteDenyReason, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "QuoteDenyReasonGroupLink"
-so.date: 01.23.2023
+keywords: database table QuoteDenyReasonGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# QuoteDenyReasonGroupLink Table (513)
+# QuoteDenyReasonGroupLink Table (523)
 
 User group link table for QuoteDenyReason, for MDO item hiding
 

@@ -3,14 +3,9 @@ uid: table-s_attachment
 title: s_attachment table
 description: A connector between a message and attachments. One message can contain many attachments.
 so.generated: true
-keywords:
-  - "database"
-  - "s_attachment"
-so.date: 01.23.2023
+keywords: database table s_attachment
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # s\_attachment Table (349)

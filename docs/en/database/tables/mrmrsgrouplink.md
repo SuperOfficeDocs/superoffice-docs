@@ -3,14 +3,9 @@ uid: table-MrMrsGroupLink
 title: MrMrsGroupLink table
 description: User group link table for MrMrs, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "MrMrsGroupLink"
-so.date: 01.23.2023
+keywords: database table MrMrsGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # MrMrsGroupLink Table (95)

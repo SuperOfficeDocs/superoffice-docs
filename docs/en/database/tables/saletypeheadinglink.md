@@ -3,14 +3,9 @@ uid: table-SaleTypeHeadingLink
 title: SaleTypeHeadingLink table
 description: Heading link table for SaleType, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "SaleTypeHeadingLink"
-so.date: 01.23.2023
+keywords: database table SaleTypeHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # SaleTypeHeadingLink Table (151)

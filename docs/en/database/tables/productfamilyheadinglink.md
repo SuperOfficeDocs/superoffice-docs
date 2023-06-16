@@ -3,14 +3,9 @@ uid: table-ProductFamilyHeadingLink
 title: ProductFamilyHeadingLink table
 description: Heading link table for ProductFamily, for MDO item headings
 so.generated: true
-keywords:
-  - "database"
-  - "ProductFamilyHeadingLink"
-so.date: 01.23.2023
+keywords: database table ProductFamilyHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ProductFamilyHeadingLink Table (413)

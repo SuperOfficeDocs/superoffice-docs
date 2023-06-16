@@ -3,14 +3,9 @@ uid: table-travelcurrent
 title: travelcurrent table
 description: Information about this database and its place in the hierarchy
 so.generated: true
-keywords:
-  - "database"
-  - "travelcurrent"
-so.date: 01.23.2023
+keywords: database table travelcurrent
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # travelcurrent Table (32)

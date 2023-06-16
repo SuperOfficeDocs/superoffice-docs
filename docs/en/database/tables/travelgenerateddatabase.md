@@ -3,14 +3,9 @@ uid: table-travelgenerateddatabase
 title: travelgenerateddatabase table
 description: Information about all databases generated from this database
 so.generated: true
-keywords:
-  - "database"
-  - "travelgenerateddatabase"
-so.date: 01.23.2023
+keywords: database table travelgenerateddatabase
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # travelgenerateddatabase Table (33)

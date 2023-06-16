@@ -3,14 +3,9 @@ uid: table-invoice
 title: invoice table
 description: This table contains invoice entries, normally created when an invoice is sent to a customer, and we want to update the balance.
 so.generated: true
-keywords:
-  - "database"
-  - "invoice"
-so.date: 01.23.2023
+keywords: database table invoice
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # invoice Table (265)

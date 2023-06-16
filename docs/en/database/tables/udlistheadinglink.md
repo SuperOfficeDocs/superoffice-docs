@@ -3,14 +3,9 @@ uid: table-UDListHeadingLink
 title: UDListHeadingLink table
 description: Heading link table for UDList, for MDO headers. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others.
 so.generated: true
-keywords:
-  - "database"
-  - "UDListHeadingLink"
-so.date: 01.23.2023
+keywords: database table UDListHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # UDListHeadingLink Table (138)

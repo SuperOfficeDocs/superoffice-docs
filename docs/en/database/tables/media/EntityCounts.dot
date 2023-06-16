@@ -1,0 +1,8 @@
+digraph EntityCounts  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+EntityCounts[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+EntityCounts -> associate [headlabel = "associate_id"]
+}

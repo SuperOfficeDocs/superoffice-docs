@@ -3,14 +3,9 @@ uid: table-LanguageInfo
 title: LanguageInfo table
 description: Information about languages, from ISO standards and related information
 so.generated: true
-keywords:
-  - "database"
-  - "LanguageInfo"
-so.date: 01.23.2023
+keywords: database table LanguageInfo
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # LanguageInfo Table (210)

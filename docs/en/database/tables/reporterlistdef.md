@@ -3,14 +3,9 @@ uid: table-ReporterListDef
 title: ReporterListDef table
 description: Reporter definitions
 so.generated: true
-keywords:
-  - "database"
-  - "ReporterListDef"
-so.date: 01.23.2023
+keywords: database table ReporterListDef
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ReporterListDef Table (170)

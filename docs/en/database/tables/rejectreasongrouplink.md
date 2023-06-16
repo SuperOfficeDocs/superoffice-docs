@@ -3,14 +3,9 @@ uid: table-RejectReasonGroupLink
 title: RejectReasonGroupLink table
 description: User group link table for Comptr, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "RejectReasonGroupLink"
-so.date: 01.23.2023
+keywords: database table RejectReasonGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # RejectReasonGroupLink Table (223)

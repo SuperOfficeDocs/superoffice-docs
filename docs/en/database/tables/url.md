@@ -3,14 +3,9 @@ uid: table-URL
 title: URL table
 description: Unified Resource Locators, URL to contacts, persons or projects.
 so.generated: true
-keywords:
-  - "database"
-  - "URL"
-so.date: 01.23.2023
+keywords: database table URL
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # URL Table (54)

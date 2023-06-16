@@ -3,14 +3,9 @@ uid: table-BusinessHeadingLink
 title: BusinessHeadingLink table
 description: Heading link table for Business, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "BusinessHeadingLink"
-so.date: 01.23.2023
+keywords: database table BusinessHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # BusinessHeadingLink Table (63)

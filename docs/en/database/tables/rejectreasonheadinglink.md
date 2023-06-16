@@ -3,14 +3,9 @@ uid: table-RejectReasonHeadingLink
 title: RejectReasonHeadingLink table
 description: Heading link table for RejectReason, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "RejectReasonHeadingLink"
-so.date: 01.23.2023
+keywords: database table RejectReasonHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # RejectReasonHeadingLink Table (224)

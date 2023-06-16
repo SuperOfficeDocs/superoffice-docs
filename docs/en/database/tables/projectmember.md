@@ -3,14 +3,9 @@ uid: table-projectmember
 title: projectmember table
 description: Project members. Link-table between person and project
 so.generated: true
-keywords:
-  - "database"
-  - "projectmember"
-so.date: 01.23.2023
+keywords: database table projectmember
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # projectmember Table (12)

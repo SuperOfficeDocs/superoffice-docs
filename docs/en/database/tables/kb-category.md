@@ -3,14 +3,9 @@ uid: table-kb_category
 title: kb_category table
 description: Knowledge base folder hierarchy
 so.generated: true
-keywords:
-  - "database"
-  - "kb_category"
-so.date: 01.23.2023
+keywords: database table kb_category
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # kb\_category Table (283)

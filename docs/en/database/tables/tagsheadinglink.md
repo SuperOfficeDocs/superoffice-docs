@@ -3,14 +3,9 @@ uid: table-TagsHeadingLink
 title: TagsHeadingLink table
 description: Heading link table for Source, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "TagsHeadingLink"
-so.date: 01.23.2023
+keywords: database table TagsHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # TagsHeadingLink Table (461)

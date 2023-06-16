@@ -3,14 +3,9 @@ uid: table-SearchCat
 title: SearchCat table
 description: SearchCat list table
 so.generated: true
-keywords:
-  - "database"
-  - "SearchCat"
-so.date: 01.23.2023
+keywords: database table SearchCat
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # SearchCat Table (106)

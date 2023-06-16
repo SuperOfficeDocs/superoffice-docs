@@ -3,14 +3,9 @@ uid: table-script_trace
 title: script_trace table
 description: Scripts which should be traced
 so.generated: true
-keywords:
-  - "database"
-  - "script_trace"
-so.date: 01.23.2023
+keywords: database table script_trace
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # script\_trace Table (473)

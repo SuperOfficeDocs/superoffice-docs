@@ -3,14 +3,9 @@ uid: table-QuoteLineConfiguration
 title: QuoteLineConfiguration table
 description: Configuration of quote lines - which fields are in use, rights, labels etc
 so.generated: true
-keywords:
-  - "database"
-  - "QuoteLineConfiguration"
-so.date: 01.23.2023
+keywords: database table QuoteLineConfiguration
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # QuoteLineConfiguration Table (445)

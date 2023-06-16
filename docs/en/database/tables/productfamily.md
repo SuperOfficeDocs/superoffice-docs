@@ -3,14 +3,9 @@ uid: table-ProductFamily
 title: ProductFamily table
 description: List for the ProductFamily field of the Product table (Quote Management)
 so.generated: true
-keywords:
-  - "database"
-  - "ProductFamily"
-so.date: 01.23.2023
+keywords: database table ProductFamily
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ProductFamily Table (411)

@@ -3,14 +3,9 @@ uid: table-DatabaseModel
 title: DatabaseModel table
 description: New DatabaseModel used by Continuous Database
 so.generated: true
-keywords:
-  - "database"
-  - "DatabaseModel"
-so.date: 01.23.2023
+keywords: database table DatabaseModel
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # DatabaseModel Table (456)

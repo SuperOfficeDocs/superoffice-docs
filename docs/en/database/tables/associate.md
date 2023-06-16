@@ -3,14 +3,9 @@ uid: table-associate
 title: associate table
 description: Employees, resources and other users - except for External persons
 so.generated: true
-keywords:
-  - "database"
-  - "associate"
-so.date: 01.23.2023
+keywords: database table associate
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # associate Table (2)
@@ -145,8 +140,11 @@ Employees, resources and other users - except for External persons
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 |[Email](email.md)  |Email addresses for contacts, projects and persons |
 |[email\_account](email-account.md)  |Email account information |
+|[email\_flow](email-flow.md)  |A set of properties related to the email workflow. |
+|[email\_flow\_content\_link](email-flow-content-link.md)  |Link message content to an email workflow |
 |[email\_folder](email-folder.md)  |Corresponds to an email folder on a mail server |
 |[email\_item](email-item.md)  |Email data |
+|[EntityCounts](entitycounts.md)  |Number of different entities an associate has created for usage statistics |
 |[ErpConfiguration](erpconfiguration.md)  |Global settings for the Erp Integration Server |
 |[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
 |[ErpConnectionAccess](erpconnectionaccess.md)  |Access control for Erp Connections |
@@ -186,6 +184,7 @@ Employees, resources and other users - except for External persons
 |[LicenseAssocLink](licenseassoclink.md)  |Link between ModuleLicense and Associate, for per-assoc licenses; this is how licenses are assigned/consumed |
 |[LicenseSatlLink](licensesatllink.md)  |Link between License and Satellite, for per-database licenses |
 |[LocaleText](localetext.md)  |Multi-language text items. Used for user-defined field labels. Must be assigned correct name to match the language they start SuperOffice in.  This table should be viewed in conjunction with FieldLabel. If a row in FieldLable has active = 1 this table will need to contain at least one row with the same resourceId as the FieldLabel row. The language id can be either 0 or one of the Windows language ID&apos;s; SuperOffice will pick the correct language on startup according to the user settings. If a label cannot be found with the given language and also not with language 0, it will not be substituted.  |
+|[MailingDomains](mailingdomains.md)  |List of allowed domains used in a Mailing |
 |[MergeMoveLog](mergemovelog.md)  |Log of merge and move operations (person, contact, project) |
 |[Message](message.md)  |Definition of a message, corresponding to the header of a protocol |
 |[MessageHandler](messagehandler.md)  |Presence and heartbeat of a message handler, should be updated once a minute. Older records are stale |
@@ -194,6 +193,7 @@ Employees, resources and other users - except for External persons
 |[MrMrs](mrmrs.md)  |MrMrs list table. List of salutations. |
 |[MrMrsGroupLink](mrmrsgrouplink.md)  |User group link table for MrMrs, for MDO item hiding |
 |[MrMrsHeadingLink](mrmrsheadinglink.md)  |Heading link table for MrMrs, for MDO headers |
+|[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |
 |[OLEField](olefield.md)  |Control data table for the OLE DB Provider |
 |[OLEFieldText](olefieldtext.md)  |Control data table for the OLE DB Provider |
 |[OLESubject](olesubject.md)  |Control data table for the OLE DB Provider |
@@ -407,6 +407,13 @@ Employees, resources and other users - except for External persons
 |[Webhook](webhook.md)  |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics. |
 |[Webhook\_usage](webhook-usage.md)  |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook. |
 |[WinPosSize](winpossize.md)  |Stores the position and size of each window, so they can be shown in the same place again |
+|[workflow](workflow.md)  |SuperOffice specific info about a workflow |
+|[workflow\_goal](workflow-goal.md)  |A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached. |
+|[workflow\_instance](workflow-instance.md)  |A set of properties related to the workflow instance of one participant going through the flow |
+|[workflow\_step](workflow-step.md)  |A set of steps related to a workflow. |
+|[workflow\_step\_option](workflow-step-option.md)  |Some steps can have optional child &apos;flows&apos;, a new series of steps |
+|[workflow\_step\_option\_link](workflow-step-option-link.md)  |Link steps to other steps through step options |
+|[workflow\_trigger](workflow-trigger.md)  |A set of triggers related to a workflow. |
 
 
 ## Replication Flags

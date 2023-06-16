@@ -3,14 +3,9 @@ uid: table-ej_category
 title: ej_category table
 description: This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner.
 so.generated: true
-keywords:
-  - "database"
-  - "ej_category"
-so.date: 01.23.2023
+keywords: database table ej_category
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ej\_category Table (257)

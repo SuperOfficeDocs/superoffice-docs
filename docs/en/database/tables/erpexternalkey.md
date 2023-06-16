@@ -3,14 +3,9 @@ uid: table-ErpExternalKey
 title: ErpExternalKey table
 description: The external (ERP-facing) key related to a synchronized record / connection
 so.generated: true
-keywords:
-  - "database"
-  - "ErpExternalKey"
-so.date: 01.23.2023
+keywords: database table ErpExternalKey
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ErpExternalKey Table (423)

@@ -3,14 +3,9 @@ uid: table-extra_fields
 title: extra_fields table
 description: This table contains entries for the extra fields in the system.
 so.generated: true
-keywords:
-  - "database"
-  - "extra_fields"
-so.date: 01.23.2023
+keywords: database table extra_fields
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # extra\_fields Table (304)

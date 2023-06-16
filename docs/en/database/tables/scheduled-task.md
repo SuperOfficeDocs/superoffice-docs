@@ -3,14 +3,9 @@ uid: table-scheduled_task
 title: scheduled_task table
 description: A scheduled entry executing a script at certain times
 so.generated: true
-keywords:
-  - "database"
-  - "scheduled_task"
-so.date: 01.23.2023
+keywords: database table scheduled_task
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # scheduled\_task Table (376)

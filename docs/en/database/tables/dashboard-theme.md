@@ -3,14 +3,9 @@ uid: table-dashboard_theme
 title: dashboard_theme table
 description: A set of style rules for the Dashboard
 so.generated: true
-keywords:
-  - "database"
-  - "dashboard_theme"
-so.date: 01.23.2023
+keywords: database table dashboard_theme
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # dashboard\_theme Table (478)

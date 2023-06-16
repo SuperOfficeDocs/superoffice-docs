@@ -3,14 +3,9 @@ uid: table-SalutationHeadingLink
 title: SalutationHeadingLink table
 description: Heading link table for Salutation, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "SalutationHeadingLink"
-so.date: 01.23.2023
+keywords: database table SalutationHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # SalutationHeadingLink Table (221)

@@ -3,14 +3,9 @@ uid: table-access_script
 title: access_script table
 description: Scripts to implement row-based access rules (sentry light)
 so.generated: true
-keywords:
-  - "database"
-  - "access_script"
-so.date: 01.23.2023
+keywords: database table access_script
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # access\_script Table (406)

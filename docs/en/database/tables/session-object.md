@@ -3,14 +3,9 @@ uid: table-session_object
 title: session_object table
 description: Generic session object, accessible from ejscript etc, typically xml or name=value syntax, may be stored over several rows if big
 so.generated: true
-keywords:
-  - "database"
-  - "session_object"
-so.date: 01.23.2023
+keywords: database table session_object
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # session\_object Table (254)

@@ -3,14 +3,9 @@ uid: table-SaleHist
 title: SaleHist table
 description: Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here. 
 so.generated: true
-keywords:
-  - "database"
-  - "SaleHist"
-so.date: 01.23.2023
+keywords: database table SaleHist
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # SaleHist Table (157)

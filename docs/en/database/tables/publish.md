@@ -3,14 +3,9 @@ uid: table-Publish
 title: Publish table
 description: Publishing system for external users
 so.generated: true
-keywords:
-  - "database"
-  - "Publish"
-so.date: 01.23.2023
+keywords: database table Publish
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Publish Table (200)

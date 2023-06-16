@@ -3,14 +3,9 @@ uid: table-ConsentPerson
 title: ConsentPerson table
 description: Link table that defines who has which consents
 so.generated: true
-keywords:
-  - "database"
-  - "ConsentPerson"
-so.date: 01.23.2023
+keywords: database table ConsentPerson
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ConsentPerson Table (471)

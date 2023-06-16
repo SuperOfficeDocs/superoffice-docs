@@ -3,14 +3,9 @@ uid: table-TabOrder
 title: TabOrder table
 description: Order of tabs within a tab control, if configured by a user
 so.generated: true
-keywords:
-  - "database"
-  - "TabOrder"
-so.date: 01.23.2023
+keywords: database table TabOrder
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # TabOrder Table (152)

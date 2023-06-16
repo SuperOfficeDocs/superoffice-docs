@@ -3,13 +3,9 @@ uid: enum-emailaccountstatus
 title: Enum values for EmailAccountStatus
 description: Lists the enum values for EmailAccountStatus.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # EmailAccountStatus Enum

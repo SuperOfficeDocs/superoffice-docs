@@ -3,13 +3,9 @@ uid: enum-criterionoperator
 title: Enum values for CriterionOperator
 description: Lists the enum values for CriterionOperator.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # CriterionOperator Enum

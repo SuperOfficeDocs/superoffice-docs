@@ -3,17 +3,12 @@ uid: table-QuoteDenyReasonHeadingLink
 title: QuoteDenyReasonHeadingLink table
 description: Heading link table for QuoteDenyReason, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "QuoteDenyReasonHeadingLink"
-so.date: 01.23.2023
+keywords: database table QuoteDenyReasonHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# QuoteDenyReasonHeadingLink Table (514)
+# QuoteDenyReasonHeadingLink Table (524)
 
 Heading link table for QuoteDenyReason, for MDO headers
 

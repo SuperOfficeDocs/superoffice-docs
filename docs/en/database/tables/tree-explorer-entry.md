@@ -3,14 +3,9 @@ uid: table-tree_explorer_entry
 title: tree_explorer_entry table
 description: This table stores the entries in a tree-explorer
 so.generated: true
-keywords:
-  - "database"
-  - "tree_explorer_entry"
-so.date: 01.23.2023
+keywords: database table tree_explorer_entry
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # tree\_explorer\_entry Table (399)

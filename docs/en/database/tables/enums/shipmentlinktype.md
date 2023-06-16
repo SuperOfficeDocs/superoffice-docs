@@ -3,13 +3,9 @@ uid: enum-shipmentlinktype
 title: Enum values for ShipmentLinkType
 description: Lists the enum values for ShipmentLinkType.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ShipmentLinkType Enum

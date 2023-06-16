@@ -3,14 +3,9 @@ uid: table-DeliveryType
 title: DeliveryType table
 description: The list of Delivery types, in the internal product register
 so.generated: true
-keywords:
-  - "database"
-  - "DeliveryType"
-so.date: 01.23.2023
+keywords: database table DeliveryType
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # DeliveryType Table (436)

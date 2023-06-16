@@ -3,14 +3,9 @@ uid: table-reply_template_folder
 title: reply_template_folder table
 description: This table contains entries for folders for reply templates.
 so.generated: true
-keywords:
-  - "database"
-  - "reply_template_folder"
-so.date: 01.23.2023
+keywords: database table reply_template_folder
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # reply\_template\_folder Table (276)

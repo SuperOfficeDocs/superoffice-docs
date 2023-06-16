@@ -3,14 +3,9 @@ uid: table-workflow_instance
 title: workflow_instance table
 description: A set of properties related to the workflow instance of one participant going through the flow
 so.generated: true
-keywords:
-  - "database"
-  - "workflow_instance"
-so.date: 03.01.2023
+keywords: database table workflow_instance
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # workflow\_instance Table (510)
@@ -32,6 +27,8 @@ A set of properties related to the workflow instance of one participant going th
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+|next\_step|Next step to be executed when conditions are met|FK [workflow_step](workflow-step.md)|&#x25CF;|
+|wait\_until|Don&apos;t evaluate conditions until given time (set by a waiting step, and status Suspended). An event may change the wait_until or status to Running.|DateTime|&#x25CF;|
 
 
 ![workflow_instance table relationship diagram](./media/workflow_instance.png)
@@ -54,6 +51,7 @@ A set of properties related to the workflow instance of one participant going th
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[workflow](workflow.md)  |SuperOffice specific info about a workflow |
+|[workflow\_step](workflow-step.md)  |A set of steps related to a workflow. |
 
 
 ## Replication Flags

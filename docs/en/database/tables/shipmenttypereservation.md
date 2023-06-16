@@ -3,17 +3,12 @@ uid: table-ShipmentTypeReservation
 title: ShipmentTypeReservation table
 description: ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type
 so.generated: true
-keywords:
-  - "database"
-  - "ShipmentTypeReservation"
-so.date: 01.23.2023
+keywords: database table ShipmentTypeReservation
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# ShipmentTypeReservation Table (495)
+# ShipmentTypeReservation Table (496)
 
 ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type
 

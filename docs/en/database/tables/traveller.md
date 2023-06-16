@@ -3,14 +3,9 @@ uid: table-traveller
 title: traveller table
 description: Associates traveling out from this database
 so.generated: true
-keywords:
-  - "database"
-  - "traveller"
-so.date: 01.23.2023
+keywords: database table traveller
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # traveller Table (31)

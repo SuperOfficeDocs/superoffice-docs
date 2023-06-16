@@ -3,13 +3,9 @@ uid: enum-refcountflags
 title: Enum values for RefcountFlags
 description: Lists the enum values for RefcountFlags.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # RefcountFlags Enum

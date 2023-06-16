@@ -239,12 +239,16 @@ items:
   href: email-account.md
 - name: email_attachment
   href: email-attachment.md
+- name: email_flow
+  href: email-flow.md
+- name: email_flow_content_link
+  href: email-flow-content-link.md
 - name: email_folder
   href: email-folder.md
-- name: Email_Flow
-  href: email-flow.md
 - name: email_item
   href: email-item.md
+- name: EntityCounts
+  href: entitycounts.md
 - name: ErpConfiguration
   href: erpconfiguration.md
 - name: ErpConnection
@@ -1025,6 +1029,8 @@ items:
   href: webhook-usage.md
 - name: WinPosSize
   href: winpossize.md
+- name: word_relations
+  href: word-relations.md
 - name: workflow
   href: workflow.md
 - name: workflow_goal
@@ -1033,6 +1039,10 @@ items:
   href: workflow-instance.md
 - name: workflow_step
   href: workflow-step.md
+- name: workflow_step_option
+  href: workflow-step-option.md
+- name: workflow_step_option_link
+  href: workflow-step-option-link.md
 - name: workflow_trigger
   href: workflow-trigger.md
 - name: wsdl_description
@@ -1065,6 +1075,8 @@ items:
     href: enums/archivebehaviour.md
   - name: AssociateType
     href: enums/associatetype.md
+  - name: BadgeType
+    href: enums/badgetype.md
   - name: BlobLinkType
     href: enums/bloblinktype.md
   - name: ChatMessageSpecialType
@@ -1125,8 +1137,12 @@ items:
     href: enums/emailaccountstatus.md
   - name: EMailFlags
     href: enums/emailflags.md
+  - name: EmailFromType
+    href: enums/emailfromtype.md
   - name: EMailPriority
     href: enums/emailpriority.md
+  - name: EmailReplyToType
+    href: enums/emailreplytotype.md
   - name: EmailType
     href: enums/emailtype.md
   - name: ErpActorType
@@ -1289,6 +1305,8 @@ items:
     href: enums/videomeetingstatus.md
   - name: WebhookState
     href: enums/webhookstate.md
+  - name: Weekday
+    href: enums/weekday.md
   - name: WidgetRequiredFields
     href: enums/widgetrequiredfields.md
   - name: WidgetTheme

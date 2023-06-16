@@ -3,14 +3,9 @@ uid: table-screen_definition_hidden
 title: screen_definition_hidden table
 description: The name of a hidden variable to keep for this screen
 so.generated: true
-keywords:
-  - "database"
-  - "screen_definition_hidden"
-so.date: 01.23.2023
+keywords: database table screen_definition_hidden
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # screen\_definition\_hidden Table (373)

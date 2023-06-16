@@ -3,17 +3,12 @@ uid: table-target_group
 title: target_group table
 description: Info about a set of (sales, project, selection...) targets
 so.generated: true
-keywords:
-  - "database"
-  - "target_group"
-so.date: 01.23.2023
+keywords: database table target_group
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# target\_group Table (497)
+# target\_group Table (498)
 
 Info about a set of (sales, project, selection...) targets
 

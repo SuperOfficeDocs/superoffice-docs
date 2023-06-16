@@ -3,17 +3,12 @@ uid: table-ShipmentType
 title: ShipmentType table
 description: Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists
 so.generated: true
-keywords:
-  - "database"
-  - "ShipmentType"
-so.date: 01.23.2023
+keywords: database table ShipmentType
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# ShipmentType Table (494)
+# ShipmentType Table (495)
 
 Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists
 
@@ -48,6 +43,7 @@ Shipment type list table. Classification of a mailing, allowing recipients to su
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[email\_flow](email-flow.md)  |A set of properties related to the email workflow. |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 |[ShipmentTypeReservation](shipmenttypereservation.md)  |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type |
 

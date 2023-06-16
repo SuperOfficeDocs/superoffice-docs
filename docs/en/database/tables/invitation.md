@@ -3,14 +3,9 @@ uid: table-invitation
 title: invitation table
 description: Invitations to events
 so.generated: true
-keywords:
-  - "database"
-  - "invitation"
-so.date: 01.23.2023
+keywords: database table invitation
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # invitation Table (489)

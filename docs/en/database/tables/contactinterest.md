@@ -3,14 +3,9 @@ uid: table-contactinterest
 title: contactinterest table
 description: Link-table between contact and interests in ContInt
 so.generated: true
-keywords:
-  - "database"
-  - "contactinterest"
-so.date: 01.23.2023
+keywords: database table contactinterest
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # contactinterest Table (14)

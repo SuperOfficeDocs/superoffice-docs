@@ -3,14 +3,9 @@ uid: table-MailingDomains
 title: MailingDomains table
 description: List of allowed domains used in a Mailing
 so.generated: true
-keywords:
-  - "database"
-  - "MailingDomains"
-so.date: 02.15.2023
+keywords: database table MailingDomains
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # MailingDomains Table (491)

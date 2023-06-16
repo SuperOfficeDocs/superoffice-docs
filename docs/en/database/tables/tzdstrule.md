@@ -3,14 +3,9 @@ uid: table-TZDstRule
 title: TZDstRule table
 description: Time zone rule for daylight saving time
 so.generated: true
-keywords:
-  - "database"
-  - "TZDstRule"
-so.date: 01.23.2023
+keywords: database table TZDstRule
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # TZDstRule Table (247)

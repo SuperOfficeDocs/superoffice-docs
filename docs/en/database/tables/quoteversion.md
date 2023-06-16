@@ -3,14 +3,9 @@ uid: table-QuoteVersion
 title: QuoteVersion table
 description: There may be multiple Versions of a Quote, with one of them active
 so.generated: true
-keywords:
-  - "database"
-  - "QuoteVersion"
-so.date: 01.23.2023
+keywords: database table QuoteVersion
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # QuoteVersion Table (39)

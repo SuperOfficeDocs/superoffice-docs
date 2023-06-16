@@ -3,14 +3,9 @@ uid: table-ticket_log
 title: ticket_log table
 description: This table contains log entries for the tickets.
 so.generated: true
-keywords:
-  - "database"
-  - "ticket_log"
-so.date: 01.23.2023
+keywords: database table ticket_log
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ticket\_log Table (267)

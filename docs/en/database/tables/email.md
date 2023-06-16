@@ -3,14 +3,9 @@ uid: table-Email
 title: Email table
 description: Email addresses for contacts, projects and persons
 so.generated: true
-keywords:
-  - "database"
-  - "Email"
-so.date: 01.23.2023
+keywords: database table Email
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Email Table (55)

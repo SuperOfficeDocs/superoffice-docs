@@ -3,14 +3,9 @@ uid: table-kb_workflow_access
 title: kb_workflow_access table
 description: Control of who can do what in a knowledge base workflow step
 so.generated: true
-keywords:
-  - "database"
-  - "kb_workflow_access"
-so.date: 01.23.2023
+keywords: database table kb_workflow_access
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # kb\_workflow\_access Table (293)

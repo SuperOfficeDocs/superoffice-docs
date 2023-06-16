@@ -3,13 +3,9 @@ uid: enum-showwindowstate
 title: Enum values for ShowWindowState
 description: Lists the enum values for ShowWindowState.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ShowWindowState Enum

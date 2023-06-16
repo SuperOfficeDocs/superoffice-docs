@@ -3,14 +3,9 @@ uid: table-ProductFamilyGroupLink
 title: ProductFamilyGroupLink table
 description: User group link table for ProductFamily, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "ProductFamilyGroupLink"
-so.date: 01.23.2023
+keywords: database table ProductFamilyGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ProductFamilyGroupLink Table (412)

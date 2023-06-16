@@ -3,14 +3,9 @@ uid: table-reply_template
 title: reply_template table
 description: Templates for automatic and manual replies to emails/sms organized hierachically
 so.generated: true
-keywords:
-  - "database"
-  - "reply_template"
-so.date: 01.23.2023
+keywords: database table reply_template
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # reply\_template Table (277)

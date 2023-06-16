@@ -3,13 +3,9 @@ uid: enum-apptype
 title: Enum values for AppType
 description: Lists the enum values for AppType.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # AppType Enum

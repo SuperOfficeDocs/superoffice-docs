@@ -3,14 +3,9 @@ uid: table-ComptrHeadingLink
 title: ComptrHeadingLink table
 description: Heading link table for Comptr, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "ComptrHeadingLink"
-so.date: 01.23.2023
+keywords: database table ComptrHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ComptrHeadingLink Table (111)

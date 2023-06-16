@@ -3,14 +3,9 @@ uid: table-SuggestedDocument
 title: SuggestedDocument table
 description: Unique owner of a set of licensed modules
 so.generated: true
-keywords:
-  - "database"
-  - "SuggestedDocument"
-so.date: 01.23.2023
+keywords: database table SuggestedDocument
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # SuggestedDocument Table (126)

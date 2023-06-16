@@ -3,14 +3,9 @@ uid: table-RelDefHeadingLink
 title: RelDefHeadingLink table
 description: Heading link table for RelDef, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "RelDefHeadingLink"
-so.date: 01.23.2023
+keywords: database table RelDefHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # RelDefHeadingLink Table (50)

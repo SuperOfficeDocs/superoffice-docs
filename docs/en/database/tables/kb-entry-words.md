@@ -3,14 +3,9 @@ uid: table-kb_entry_words
 title: kb_entry_words table
 description: This table contains all the words and how many times the are refered                  to in the FAQ entires
 so.generated: true
-keywords:
-  - "database"
-  - "kb_entry_words"
-so.date: 01.23.2023
+keywords: database table kb_entry_words
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # kb\_entry\_words Table (354)

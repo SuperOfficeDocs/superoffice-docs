@@ -3,14 +3,9 @@ uid: table-PMembTypeGroupLink
 title: PMembTypeGroupLink table
 description: User group link table for PMembType, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "PMembTypeGroupLink"
-so.date: 01.23.2023
+keywords: database table PMembTypeGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # PMembTypeGroupLink Table (92)

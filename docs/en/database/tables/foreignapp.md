@@ -3,14 +3,9 @@ uid: table-foreignapp
 title: foreignapp table
 description: Top level of Foreign Key system
 so.generated: true
-keywords:
-  - "database"
-  - "foreignapp"
-so.date: 01.23.2023
+keywords: database table foreignapp
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # foreignapp Table (181)

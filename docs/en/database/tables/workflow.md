@@ -3,14 +3,9 @@ uid: table-workflow
 title: workflow table
 description: SuperOffice specific info about a workflow
 so.generated: true
-keywords:
-  - "database"
-  - "workflow"
-so.date: 03.01.2023
+keywords: database table workflow
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # workflow Table (508)
@@ -37,6 +32,13 @@ SuperOffice specific info about a workflow
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+|use\_workflow\_start|Start the flow running with enrolled participants at the given time|Bool|&#x25CF;|
+|workflow\_start|When to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. Datetime is interpreted in stored timezone or as UTC|UtcDateTime|&#x25CF;|
+|use\_enrollment\_end|End enrollment into the workflow at the given time|Bool|&#x25CF;|
+|enrollment\_end|Do not enroll more participant after given time, interpreted in stored timezone or as UTC|UtcDateTime|&#x25CF;|
+|tzLocationId|Timezone used for this workflows datetimes. If not set, behavior is best guess - databasetime, system time...|FK [TZLocation](tzlocation.md)|&#x25CF;|
+|remove\_from\_flows|Workflows to remove the participants from when they are enrolled in this workflow|FKArray|&#x25CF;|
+|block\_lists|Persons in the given selections are not allowed to enter this workflow|FKArray|&#x25CF;|
 
 
 ![workflow table relationship diagram](./media/workflow.png)
@@ -49,7 +51,7 @@ SuperOffice specific info about a workflow
 |--------|-------|-------------|
 |workflow\_id |PK |Clustered, Unique |
 |associate\_id |FK |Index |
-|visible\_for\_associates, visible\_for\_groups |FKArray, FKArray |Full text |
+|visible\_for\_associates, visible\_for\_groups, remove\_from\_flows, block\_lists |FKArray, FKArray, FKArray, FKArray |Full text |
 
 ## Relationships
 
@@ -57,10 +59,14 @@ SuperOffice specific info about a workflow
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[email\_flow](email-flow.md)  |A set of properties related to the email workflow. |
+|[selection](selection.md)  |Selections |
+|[TZLocation](tzlocation.md)  |Time zone location |
 |[UserGroup](usergroup.md)  |Secondary user groups |
+|[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 |[workflow\_goal](workflow-goal.md)  |A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached. |
 |[workflow\_instance](workflow-instance.md)  |A set of properties related to the workflow instance of one participant going through the flow |
 |[workflow\_step](workflow-step.md)  |A set of steps related to a workflow. |
+|[workflow\_step\_option](workflow-step-option.md)  |Some steps can have optional child &apos;flows&apos;, a new series of steps |
 |[workflow\_trigger](workflow-trigger.md)  |A set of triggers related to a workflow. |
 
 

@@ -3,14 +3,9 @@ uid: table-s_list
 title: s_list table
 description: A list, dynamic or static
 so.generated: true
-keywords:
-  - "database"
-  - "s_list"
-so.date: 01.23.2023
+keywords: database table s_list
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # s\_list Table (344)

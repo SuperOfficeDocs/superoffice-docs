@@ -3,14 +3,9 @@ uid: table-ErpConnector
 title: ErpConnector table
 description: One ERP Connector, known by its URL
 so.generated: true
-keywords:
-  - "database"
-  - "ErpConnector"
-so.date: 01.23.2023
+keywords: database table ErpConnector
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ErpConnector Table (417)

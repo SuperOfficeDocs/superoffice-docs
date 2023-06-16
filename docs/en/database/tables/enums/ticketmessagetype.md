@@ -3,13 +3,9 @@ uid: enum-ticketmessagetype
 title: Enum values for TicketMessageType
 description: Lists the enum values for TicketMessageType.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # TicketMessageType Enum

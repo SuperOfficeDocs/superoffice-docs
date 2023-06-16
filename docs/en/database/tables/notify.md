@@ -3,14 +3,9 @@ uid: table-notify
 title: notify table
 description: This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc.
 so.generated: true
-keywords:
-  - "database"
-  - "notify"
-so.date: 01.23.2023
+keywords: database table notify
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # notify Table (301)
@@ -34,6 +29,8 @@ This table contains the pop-up messages displayed for users for various events, 
 |ticket\_alert\_id|Ticket alert used when tickets are escalated|FK [ticket_alert](ticket-alert.md)|&#x25CF;|
 |custom\_message|Text for custom notify messages|String(255)|&#x25CF;|
 |custom\_url|An URL which can be set with custom notification messages|String(2048)|&#x25CF;|
+|registered|Registered when|UtcDateTime|&#x25CF;|
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)|&#x25CF;|
 
 
 ![notify table relationship diagram](./media/notify.png)
@@ -57,6 +54,7 @@ This table contains the pop-up messages displayed for users for various events, 
 
 | Table|  Description |
 |------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[chat\_topic](chat-topic.md)  |This table contains chat topics. |
 |[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |

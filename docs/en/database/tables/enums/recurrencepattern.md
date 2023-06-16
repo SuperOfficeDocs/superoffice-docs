@@ -3,13 +3,9 @@ uid: enum-recurrencepattern
 title: Enum values for RecurrencePattern
 description: Lists the enum values for RecurrencePattern.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # RecurrencePattern Enum

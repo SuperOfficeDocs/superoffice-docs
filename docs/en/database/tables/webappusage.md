@@ -3,14 +3,9 @@ uid: table-WebAppUsage
 title: WebAppUsage table
 description: Usage statistics for web applications
 so.generated: true
-keywords:
-  - "database"
-  - "WebAppUsage"
-so.date: 01.23.2023
+keywords: database table WebAppUsage
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # WebAppUsage Table (249)

@@ -3,14 +3,9 @@ uid: table-invoice_sum
 title: invoice_sum table
 description: This table is used temporarily when listing invoice statistics. It is used because we need to sort balances from both customers and companies.
 so.generated: true
-keywords:
-  - "database"
-  - "invoice_sum"
-so.date: 01.23.2023
+keywords: database table invoice_sum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # invoice\_sum Table (266)

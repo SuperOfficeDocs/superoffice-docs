@@ -3,14 +3,9 @@ uid: table-service_auth
 title: service_auth table
 description: Authentication for a service (imap, smtp...)
 so.generated: true
-keywords:
-  - "database"
-  - "service_auth"
-so.date: 01.23.2023
+keywords: database table service_auth
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # service\_auth Table (486)

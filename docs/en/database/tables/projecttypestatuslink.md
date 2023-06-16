@@ -3,14 +3,9 @@ uid: table-ProjectTypeStatusLink
 title: ProjectTypeStatusLink table
 description: Many-many link table between project type and status, similar to sale type-stage link; and an anchor point for guide items
 so.generated: true
-keywords:
-  - "database"
-  - "ProjectTypeStatusLink"
-so.date: 01.23.2023
+keywords: database table ProjectTypeStatusLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ProjectTypeStatusLink Table (213)

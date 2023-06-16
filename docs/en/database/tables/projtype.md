@@ -3,14 +3,9 @@ uid: table-ProjType
 title: ProjType table
 description: ProjType list table. List of valid Project types.
 so.generated: true
-keywords:
-  - "database"
-  - "ProjType"
-so.date: 01.23.2023
+keywords: database table ProjType
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ProjType Table (85)

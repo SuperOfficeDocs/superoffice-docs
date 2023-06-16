@@ -3,14 +3,9 @@ uid: table-ejscript_debug
 title: ejscript_debug table
 description: This table contains information when debugging an ejscript
 so.generated: true
-keywords:
-  - "database"
-  - "ejscript_debug"
-so.date: 01.23.2023
+keywords: database table ejscript_debug
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ejscript\_debug Table (387)

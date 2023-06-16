@@ -3,14 +3,9 @@ uid: table-PriorityHeadingLink
 title: PriorityHeadingLink table
 description: Heading link table for Priority, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "PriorityHeadingLink"
-so.date: 01.23.2023
+keywords: database table PriorityHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # PriorityHeadingLink Table (81)

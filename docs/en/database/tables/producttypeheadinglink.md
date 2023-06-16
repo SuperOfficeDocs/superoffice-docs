@@ -3,14 +3,9 @@ uid: table-ProductTypeHeadingLink
 title: ProductTypeHeadingLink table
 description: Heading link table for ProductType, for MDO item headings
 so.generated: true
-keywords:
-  - "database"
-  - "ProductTypeHeadingLink"
-so.date: 01.23.2023
+keywords: database table ProductTypeHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ProductTypeHeadingLink Table (416)

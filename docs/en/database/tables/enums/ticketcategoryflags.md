@@ -3,13 +3,9 @@ uid: enum-ticketcategoryflags
 title: Enum values for TicketCategoryFlags
 description: Lists the enum values for TicketCategoryFlags.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # TicketCategoryFlags Enum

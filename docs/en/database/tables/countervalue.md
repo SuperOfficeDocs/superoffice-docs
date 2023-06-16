@@ -3,14 +3,9 @@ uid: table-CounterValue
 title: CounterValue table
 description: Visible for rights
 so.generated: true
-keywords:
-  - "database"
-  - "CounterValue"
-so.date: 01.23.2023
+keywords: database table CounterValue
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # CounterValue Table (197)

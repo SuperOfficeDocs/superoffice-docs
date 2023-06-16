@@ -25,6 +25,7 @@ selection -> dashboard_tile_definition [headlabel = "dashboard_tile_definition_i
 selection -> associate [label = "lastLoadedBy"]
 selection -> associate [label = "lastMembershipChangeBy"]
 text -> selection [label = "owner_id" style="dashed"]
+workflow -> selection [label = "block_lists" style="dashed"]
 selectionmember -> selection [label = "selection_id"]
 VisibleFor -> selection [label = "selectionId"]
 s_shipment -> selection [label = "selection_id"]

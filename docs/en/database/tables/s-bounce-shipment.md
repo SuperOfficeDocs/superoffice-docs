@@ -3,14 +3,9 @@ uid: table-s_bounce_shipment
 title: s_bounce_shipment table
 description: Email bounces from customers
 so.generated: true
-keywords:
-  - "database"
-  - "s_bounce_shipment"
-so.date: 01.23.2023
+keywords: database table s_bounce_shipment
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # s\_bounce\_shipment Table (342)

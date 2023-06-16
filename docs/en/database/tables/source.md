@@ -3,14 +3,9 @@ uid: table-Source
 title: Source table
 description: Source list table. Source for sale (list)
 so.generated: true
-keywords:
-  - "database"
-  - "Source"
-so.date: 01.23.2023
+keywords: database table Source
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Source Table (100)

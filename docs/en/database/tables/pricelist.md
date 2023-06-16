@@ -3,14 +3,9 @@ uid: table-PriceList
 title: PriceList table
 description: List of prices, cached from an ERP system
 so.generated: true
-keywords:
-  - "database"
-  - "PriceList"
-so.date: 01.23.2023
+keywords: database table PriceList
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # PriceList Table (128)

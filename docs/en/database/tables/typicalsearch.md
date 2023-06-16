@@ -3,17 +3,12 @@ uid: table-TypicalSearch
 title: TypicalSearch table
 description: Owner of a set of predefined selection criteria
 so.generated: true
-keywords:
-  - "database"
-  - "TypicalSearch"
-so.date: 01.23.2023
+keywords: database table TypicalSearch
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# TypicalSearch Table (491)
+# TypicalSearch Table (492)
 
 Owner of a set of predefined selection criteria
 

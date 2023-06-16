@@ -3,14 +3,9 @@ uid: table-dbi_agent_field
 title: dbi_agent_field table
 description: DBI agent fields
 so.generated: true
-keywords:
-  - "database"
-  - "dbi_agent_field"
-so.date: 01.23.2023
+keywords: database table dbi_agent_field
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # dbi\_agent\_field Table (382)

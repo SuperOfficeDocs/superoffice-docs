@@ -3,13 +3,9 @@ uid: enum-functionrighttype
 title: Enum values for FunctionRightType
 description: Lists the enum values for FunctionRightType.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # FunctionRightType Enum

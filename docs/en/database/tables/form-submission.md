@@ -3,14 +3,9 @@ uid: table-form_submission
 title: form_submission table
 description: A form submission
 so.generated: true
-keywords:
-  - "database"
-  - "form_submission"
-so.date: 01.23.2023
+keywords: database table form_submission
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # form\_submission Table (483)

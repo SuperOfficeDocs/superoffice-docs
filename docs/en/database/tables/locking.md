@@ -3,14 +3,9 @@ uid: table-locking
 title: locking table
 description: Generic locking and error messages
 so.generated: true
-keywords:
-  - "database"
-  - "locking"
-so.date: 01.23.2023
+keywords: database table locking
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # locking Table (380)

@@ -3,13 +3,9 @@ uid: enum-ticketbasestatus
 title: Enum values for TicketBaseStatus
 description: Lists the enum values for TicketBaseStatus.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # TicketBaseStatus Enum

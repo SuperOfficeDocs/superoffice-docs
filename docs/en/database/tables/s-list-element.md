@@ -3,14 +3,9 @@ uid: table-s_list_element
 title: s_list_element table
 description: Elements in a static list.
 so.generated: true
-keywords:
-  - "database"
-  - "s_list_element"
-so.date: 01.23.2023
+keywords: database table s_list_element
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # s\_list\_element Table (345)

@@ -3,14 +3,9 @@ uid: table-udcontactLarge
 title: udcontactLarge table
 description: User-defined fields for contact (long strings)
 so.generated: true
-keywords:
-  - "database"
-  - "udcontactLarge"
-so.date: 01.23.2023
+keywords: database table udcontactLarge
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # udcontactLarge Table (36)

@@ -3,14 +3,9 @@ uid: table-Priority
 title: Priority table
 description: Priority list table. Used with appointments; low, high.
 so.generated: true
-keywords:
-  - "database"
-  - "Priority"
-so.date: 01.23.2023
+keywords: database table Priority
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Priority Table (79)

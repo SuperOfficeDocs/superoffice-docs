@@ -3,14 +3,9 @@ uid: table-SalutationGroupLink
 title: SalutationGroupLink table
 description: User group link table for Salutation, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "SalutationGroupLink"
-so.date: 01.23.2023
+keywords: database table SalutationGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # SalutationGroupLink Table (220)

@@ -3,14 +3,9 @@ uid: table-chat_session
 title: chat_session table
 description: This table contains chat sessions.
 so.generated: true
-keywords:
-  - "database"
-  - "chat_session"
-so.date: 01.23.2023
+keywords: database table chat_session
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # chat\_session Table (332)

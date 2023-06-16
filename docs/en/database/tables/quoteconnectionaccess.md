@@ -3,14 +3,9 @@ uid: table-QuoteConnectionAccess
 title: QuoteConnectionAccess table
 description: Access control for Quote Connections
 so.generated: true
-keywords:
-  - "database"
-  - "QuoteConnectionAccess"
-so.date: 01.23.2023
+keywords: database table QuoteConnectionAccess
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # QuoteConnectionAccess Table (27)

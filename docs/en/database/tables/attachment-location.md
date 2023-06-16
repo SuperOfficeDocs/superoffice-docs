@@ -3,14 +3,9 @@ uid: table-attachment_location
 title: attachment_location table
 description: A location for storing attachments
 so.generated: true
-keywords:
-  - "database"
-  - "attachment_location"
-so.date: 01.23.2023
+keywords: database table attachment_location
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # attachment\_location Table (475)

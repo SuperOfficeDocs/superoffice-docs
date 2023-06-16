@@ -3,14 +3,9 @@ uid: table-s_shipment_addr
 title: s_shipment_addr table
 description: Addresses that are ready to be sent in a shipment.
 so.generated: true
-keywords:
-  - "database"
-  - "s_shipment_addr"
-so.date: 01.23.2023
+keywords: database table s_shipment_addr
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # s\_shipment\_addr Table (347)

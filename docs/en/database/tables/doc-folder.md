@@ -3,14 +3,9 @@ uid: table-doc_folder
 title: doc_folder table
 description: A document folder.
 so.generated: true
-keywords:
-  - "database"
-  - "doc_folder"
-so.date: 01.23.2023
+keywords: database table doc_folder
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # doc\_folder Table (281)

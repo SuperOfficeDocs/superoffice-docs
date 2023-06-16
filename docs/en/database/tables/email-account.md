@@ -3,14 +3,9 @@ uid: table-email_account
 title: email_account table
 description: Email account information
 so.generated: true
-keywords:
-  - "database"
-  - "email_account"
-so.date: 01.23.2023
+keywords: database table email_account
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # email\_account Table (484)

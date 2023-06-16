@@ -3,14 +3,9 @@ uid: table-Credentials
 title: Credentials table
 description: Alternative credentials
 so.generated: true
-keywords:
-  - "database"
-  - "Credentials"
-so.date: 01.23.2023
+keywords: database table Credentials
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Credentials Table (250)

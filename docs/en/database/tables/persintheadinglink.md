@@ -3,14 +3,9 @@ uid: table-PersIntHeadingLink
 title: PersIntHeadingLink table
 description: Heading link table for PersInt, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "PersIntHeadingLink"
-so.date: 01.23.2023
+keywords: database table PersIntHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # PersIntHeadingLink Table (75)

@@ -3,14 +3,9 @@ uid: table-dashboard
 title: dashboard table
 description: Describes a dashboard
 so.generated: true
-keywords:
-  - "database"
-  - "dashboard"
-so.date: 01.23.2023
+keywords: database table dashboard
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # dashboard Table (477)

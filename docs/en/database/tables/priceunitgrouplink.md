@@ -3,14 +3,9 @@ uid: table-PriceUnitGroupLink
 title: PriceUnitGroupLink table
 description: User group link table for PriceUnit, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "PriceUnitGroupLink"
-so.date: 01.23.2023
+keywords: database table PriceUnitGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # PriceUnitGroupLink Table (440)

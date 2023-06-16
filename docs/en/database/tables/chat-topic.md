@@ -3,14 +3,9 @@ uid: table-chat_topic
 title: chat_topic table
 description: This table contains chat topics.
 so.generated: true
-keywords:
-  - "database"
-  - "chat_topic"
-so.date: 01.23.2023
+keywords: database table chat_topic
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # chat\_topic Table (330)

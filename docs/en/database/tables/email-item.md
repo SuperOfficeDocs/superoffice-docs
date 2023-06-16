@@ -3,14 +3,9 @@ uid: table-email_item
 title: email_item table
 description: Email data
 so.generated: true
-keywords:
-  - "database"
-  - "email_item"
-so.date: 01.23.2023
+keywords: database table email_item
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # email\_item Table (487)

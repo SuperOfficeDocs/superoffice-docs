@@ -3,13 +3,9 @@ uid: enum-deltastate
 title: Enum values for DeltaState
 description: Lists the enum values for DeltaState.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # DeltaState Enum

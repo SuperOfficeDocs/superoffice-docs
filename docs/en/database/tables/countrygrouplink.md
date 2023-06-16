@@ -3,14 +3,9 @@ uid: table-CountryGroupLink
 title: CountryGroupLink table
 description: User group link table for Country, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "CountryGroupLink"
-so.date: 01.23.2023
+keywords: database table CountryGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # CountryGroupLink Table (20)

@@ -3,14 +3,9 @@ uid: table-ErpField
 title: ErpField table
 description: Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector
 so.generated: true
-keywords:
-  - "database"
-  - "ErpField"
-so.date: 01.23.2023
+keywords: database table ErpField
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ErpField Table (425)

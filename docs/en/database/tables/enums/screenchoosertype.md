@@ -3,13 +3,9 @@ uid: enum-screenchoosertype
 title: Enum values for ScreenChooserType
 description: Lists the enum values for ScreenChooserType.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ScreenChooserType Enum

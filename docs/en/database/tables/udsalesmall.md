@@ -3,14 +3,9 @@ uid: table-udsalesmall
 title: udsalesmall table
 description: User-defined fields
 so.generated: true
-keywords:
-  - "database"
-  - "udsalesmall"
-so.date: 01.23.2023
+keywords: database table udsalesmall
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # udsalesmall Table (158)

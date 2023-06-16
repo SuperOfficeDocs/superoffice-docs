@@ -3,13 +3,9 @@ uid: enum-recipientsorting
 title: Enum values for RecipientSorting
 description: Lists the enum values for RecipientSorting.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # RecipientSorting Enum

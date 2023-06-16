@@ -3,13 +3,9 @@ uid: enum-ticketsecuritylevel
 title: Enum values for TicketSecurityLevel
 description: Lists the enum values for TicketSecurityLevel.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # TicketSecurityLevel Enum

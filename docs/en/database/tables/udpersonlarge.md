@@ -3,14 +3,9 @@ uid: table-udpersonLarge
 title: udpersonLarge table
 description: User-defined fields
 so.generated: true
-keywords:
-  - "database"
-  - "udpersonLarge"
-so.date: 01.23.2023
+keywords: database table udpersonLarge
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # udpersonLarge Table (141)

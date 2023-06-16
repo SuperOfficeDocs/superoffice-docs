@@ -3,14 +3,9 @@ uid: table-country
 title: country table
 description: Country information
 so.generated: true
-keywords:
-  - "database"
-  - "country"
-so.date: 01.23.2023
+keywords: database table country
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # country Table (19)

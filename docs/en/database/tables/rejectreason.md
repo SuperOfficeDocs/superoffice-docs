@@ -3,14 +3,9 @@ uid: table-RejectReason
 title: RejectReason table
 description: Rejection reason (suggested) for bookings
 so.generated: true
-keywords:
-  - "database"
-  - "RejectReason"
-so.date: 01.23.2023
+keywords: database table RejectReason
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # RejectReason Table (222)

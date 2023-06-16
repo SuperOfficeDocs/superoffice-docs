@@ -3,14 +3,9 @@ uid: table-outbox
 title: outbox table
 description: Outgoing emails with sending status and other info
 so.generated: true
-keywords:
-  - "database"
-  - "outbox"
-so.date: 01.23.2023
+keywords: database table outbox
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # outbox Table (351)

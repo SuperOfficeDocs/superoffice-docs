@@ -3,13 +3,9 @@ uid: enum-chatsessionflags
 title: Enum values for ChatSessionFlags
 description: Lists the enum values for ChatSessionFlags.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ChatSessionFlags Enum

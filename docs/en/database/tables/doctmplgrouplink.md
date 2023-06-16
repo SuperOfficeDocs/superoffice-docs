@@ -3,14 +3,9 @@ uid: table-DocTmplGroupLink
 title: DocTmplGroupLink table
 description: User group link table for DocTmpl, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "DocTmplGroupLink"
-so.date: 01.23.2023
+keywords: database table DocTmplGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # DocTmplGroupLink Table (131)

@@ -3,17 +3,12 @@ uid: table-TemporaryKey
 title: TemporaryKey table
 description: Temporary keys for lightweight authentications such as changing ones subscriptions
 so.generated: true
-keywords:
-  - "database"
-  - "TemporaryKey"
-so.date: 01.23.2023
+keywords: database table TemporaryKey
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# TemporaryKey Table (496)
+# TemporaryKey Table (497)
 
 Temporary keys for lightweight authentications such as changing ones subscriptions
 

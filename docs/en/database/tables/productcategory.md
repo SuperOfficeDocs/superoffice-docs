@@ -3,14 +3,9 @@ uid: table-ProductCategory
 title: ProductCategory table
 description: List for the ProductCategory field of the Product table (Quote Management)
 so.generated: true
-keywords:
-  - "database"
-  - "ProductCategory"
-so.date: 01.23.2023
+keywords: database table ProductCategory
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ProductCategory Table (408)

@@ -3,14 +3,9 @@ uid: table-selection
 title: selection table
 description: Selections
 so.generated: true
-keywords:
-  - "database"
-  - "selection"
-so.date: 01.23.2023
+keywords: database table selection
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # selection Table (23)
@@ -84,6 +79,7 @@ Selections
 |[text](text.md)  |Long text fields from all over the system |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
+|[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 
 
 ## Replication Flags

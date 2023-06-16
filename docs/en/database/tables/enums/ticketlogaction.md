@@ -3,13 +3,9 @@ uid: enum-ticketlogaction
 title: Enum values for TicketLogAction
 description: Lists the enum values for TicketLogAction.
 so.generated: true
-keywords:
-  - "database"
-so.date: 02.15.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # TicketLogAction Enum

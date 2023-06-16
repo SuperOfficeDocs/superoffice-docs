@@ -3,13 +3,9 @@ uid: enum-doctmplinvitationtype
 title: Enum values for DocTmplInvitationType
 description: Lists the enum values for DocTmplInvitationType.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # DocTmplInvitationType Enum

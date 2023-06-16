@@ -3,13 +3,9 @@ uid: enum-appntdirection
 title: Enum values for AppntDirection
 description: Lists the enum values for AppntDirection.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # AppntDirection Enum

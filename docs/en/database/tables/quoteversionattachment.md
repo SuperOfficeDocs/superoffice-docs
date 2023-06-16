@@ -3,14 +3,9 @@ uid: table-QuoteVersionAttachment
 title: QuoteVersionAttachment table
 description: Actual attachments to a quote
 so.generated: true
-keywords:
-  - "database"
-  - "QuoteVersionAttachment"
-so.date: 01.23.2023
+keywords: database table QuoteVersionAttachment
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # QuoteVersionAttachment Table (447)

@@ -3,14 +3,9 @@ uid: table-DeliveryTermsGroupLink
 title: DeliveryTermsGroupLink table
 description: User group link table for DeliveryTerms, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "DeliveryTermsGroupLink"
-so.date: 01.23.2023
+keywords: database table DeliveryTermsGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # DeliveryTermsGroupLink Table (434)

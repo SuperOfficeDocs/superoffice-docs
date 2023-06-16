@@ -3,14 +3,9 @@ uid: table-ms_substitute
 title: ms_substitute table
 description: Regexp for extracting info from emails when they enter they system
 so.generated: true
-keywords:
-  - "database"
-  - "ms_substitute"
-so.date: 01.23.2023
+keywords: database table ms_substitute
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ms\_substitute Table (313)

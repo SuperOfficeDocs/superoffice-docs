@@ -3,17 +3,12 @@ uid: table-target_change
 title: target_change table
 description: A single field change.
 so.generated: true
-keywords:
-  - "database"
-  - "target_change"
-so.date: 01.23.2023
+keywords: database table target_change
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# target\_change Table (503)
+# target\_change Table (504)
 
 A single field change.
 

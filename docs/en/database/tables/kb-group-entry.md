@@ -3,14 +3,9 @@ uid: table-kb_group_entry
 title: kb_group_entry table
 description: This table contains group entries for FAQ groups.
 so.generated: true
-keywords:
-  - "database"
-  - "kb_group_entry"
-so.date: 01.23.2023
+keywords: database table kb_group_entry
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # kb\_group\_entry Table (287)

@@ -3,14 +3,9 @@ uid: table-redletterday
 title: redletterday table
 description: Red letter days for calendar (holidays, birthday of king etc)
 so.generated: true
-keywords:
-  - "database"
-  - "redletterday"
-so.date: 01.23.2023
+keywords: database table redletterday
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # redletterday Table (17)

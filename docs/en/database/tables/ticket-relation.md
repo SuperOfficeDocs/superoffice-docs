@@ -3,14 +3,9 @@ uid: table-ticket_relation
 title: ticket_relation table
 description: Contains ticket relations, used to drive processing logic
 so.generated: true
-keywords:
-  - "database"
-  - "ticket_relation"
-so.date: 01.23.2023
+keywords: database table ticket_relation
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ticket\_relation Table (454)

@@ -3,14 +3,9 @@ uid: table-ReasonSold
 title: ReasonSold table
 description: Why was the sale marked as sold (why did we succeed)
 so.generated: true
-keywords:
-  - "database"
-  - "ReasonSold"
-so.date: 01.23.2023
+keywords: database table ReasonSold
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ReasonSold Table (115)

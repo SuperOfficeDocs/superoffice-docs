@@ -3,14 +3,9 @@ uid: table-category_membership
 title: category_membership table
 description: This table connects users to categories (many-to-many).
 so.generated: true
-keywords:
-  - "database"
-  - "category_membership"
-so.date: 01.23.2023
+keywords: database table category_membership
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # category\_membership Table (270)

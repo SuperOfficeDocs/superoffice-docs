@@ -3,14 +3,9 @@ uid: table-s_link_customer_statical
 title: s_link_customer_statical table
 description: A connection between a customer and a link. Registered customers are identified when clicking on a link
 so.generated: true
-keywords:
-  - "database"
-  - "s_link_customer_statical"
-so.date: 01.23.2023
+keywords: database table s_link_customer_statical
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # s\_link\_customer\_statical Table (338)

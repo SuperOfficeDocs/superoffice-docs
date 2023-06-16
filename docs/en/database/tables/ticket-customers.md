@@ -3,14 +3,9 @@ uid: table-ticket_customers
 title: ticket_customers table
 description: This table allows several customers to be connected to several tickets (many-to-many)
 so.generated: true
-keywords:
-  - "database"
-  - "ticket_customers"
-so.date: 01.23.2023
+keywords: database table ticket_customers
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ticket\_customers Table (264)

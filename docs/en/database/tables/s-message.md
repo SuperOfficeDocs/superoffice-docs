@@ -3,14 +3,9 @@ uid: table-s_message
 title: s_message table
 description: A message used in a shipment. Can be html and/or plain text
 so.generated: true
-keywords:
-  - "database"
-  - "s_message"
-so.date: 01.23.2023
+keywords: database table s_message
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # s\_message Table (335)
@@ -60,6 +55,7 @@ A message used in a shipment. Can be html and/or plain text
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[document](document.md)  |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.   |
+|[email\_flow\_content\_link](email-flow-content-link.md)  |Link message content to an email workflow |
 |[external\_document](external-document.md)  |This table stores documents which can be viewed externaly, through the customer module |
 |[s\_attachment](s-attachment.md)  |A connector between a message and attachments. One message can contain many attachments. |
 |[s\_sent\_message](s-sent-message.md)  |Emarketeer message control |

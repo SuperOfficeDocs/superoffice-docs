@@ -3,14 +3,9 @@ uid: table-kb_entry_log
 title: kb_entry_log table
 description: Who and when, if somebody edits a knowledge base entry
 so.generated: true
-keywords:
-  - "database"
-  - "kb_entry_log"
-so.date: 01.23.2023
+keywords: database table kb_entry_log
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # kb\_entry\_log Table (290)

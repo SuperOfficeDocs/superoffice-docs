@@ -3,14 +3,9 @@ uid: table-MrMrs
 title: MrMrs table
 description: MrMrs list table. List of salutations.
 so.generated: true
-keywords:
-  - "database"
-  - "MrMrs"
-so.date: 01.23.2023
+keywords: database table MrMrs
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # MrMrs Table (94)

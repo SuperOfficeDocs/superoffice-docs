@@ -3,14 +3,9 @@ uid: table-item_config
 title: item_config table
 description: This table is a generic table for storing item configuration. It is only used by the class ItemConfig.
 so.generated: true
-keywords:
-  - "database"
-  - "item_config"
-so.date: 01.23.2023
+keywords: database table item_config
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # item\_config Table (368)

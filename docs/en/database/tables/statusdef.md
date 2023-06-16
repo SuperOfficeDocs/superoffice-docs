@@ -3,14 +3,9 @@ uid: table-StatusDef
 title: StatusDef table
 description: Status definitions. Name and description are in LocaleText for internationalization
 so.generated: true
-keywords:
-  - "database"
-  - "StatusDef"
-so.date: 01.23.2023
+keywords: database table StatusDef
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # StatusDef Table (198)

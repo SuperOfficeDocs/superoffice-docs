@@ -3,14 +3,9 @@ uid: table-TZLocation
 title: TZLocation table
 description: Time zone location
 so.generated: true
-keywords:
-  - "database"
-  - "TZLocation"
-so.date: 01.23.2023
+keywords: database table TZLocation
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # TZLocation Table (245)
@@ -65,6 +60,7 @@ Time zone location
 |[project](project.md)  |Projects |
 |[TZDstRule](tzdstrule.md)  |Time zone rule for daylight saving time |
 |[TZStdRule](tzstdrule.md)  |Time zone rule for standard time |
+|[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 
 
 ## Replication Flags

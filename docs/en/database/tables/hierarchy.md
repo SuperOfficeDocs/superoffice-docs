@@ -3,14 +3,9 @@ uid: table-hierarchy
 title: hierarchy table
 description: This table contains folders used to group the extra tables in the system.
 so.generated: true
-keywords:
-  - "database"
-  - "hierarchy"
-so.date: 01.23.2023
+keywords: database table hierarchy
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # hierarchy Table (306)
@@ -55,6 +50,7 @@ This table contains folders used to group the extra tables in the system.
 |[ejscript](ejscript.md)  |ejscript |
 |[ejselection](ejselection.md)  |This table stores selections, dynamic groups. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[email\_flow](email-flow.md)  |A set of properties related to the email workflow. |
 |[external\_document](external-document.md)  |This table stores documents which can be viewed externaly, through the customer module |
 |[extra\_tables](extra-tables.md)  |This table contains entries for the extra tables in the system. |
 |[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |

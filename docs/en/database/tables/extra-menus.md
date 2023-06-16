@@ -3,14 +3,9 @@ uid: table-extra_menus
 title: extra_menus table
 description: This table contains entries for the extra menus in the system.
 so.generated: true
-keywords:
-  - "database"
-  - "extra_menus"
-so.date: 01.23.2023
+keywords: database table extra_menus
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # extra\_menus Table (307)

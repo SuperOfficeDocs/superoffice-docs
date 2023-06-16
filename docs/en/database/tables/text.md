@@ -3,14 +3,9 @@ uid: table-text
 title: text table
 description: Long text fields from all over the system
 so.generated: true
-keywords:
-  - "database"
-  - "text"
-so.date: 01.23.2023
+keywords: database table text
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # text Table (18)
@@ -29,9 +24,10 @@ Long text fields from all over the system
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Table number of list table that this text contains an extension of; this is obsolete functionality|TableNumber| |
-|text|The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases|String(2047)|&#x25CF;|
+|text|The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases|String(4000)|&#x25CF;|
 |lcid|Language/culture code of the text, if known. This is a reserved field for future use|UShort|&#x25CF;|
 |seqno|Sequence number, for possible chaining of multiple records to store longer texts|UShort|&#x25CF;|
+|html\_text|Formatted text suitable for html text editors|Clob|&#x25CF;|
 
 
 ![text table relationship diagram](./media/text.png)
@@ -44,7 +40,7 @@ Long text fields from all over the system
 |--------|-------|-------------|
 |text\_id |PK |Clustered, Unique |
 |owner\_id, type |Id, Enum |Index |
-|text |String(2047) |Full text |
+|text |String(4000) |Full text |
 
 ## Relationships
 

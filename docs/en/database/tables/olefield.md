@@ -3,14 +3,9 @@ uid: table-OLEField
 title: OLEField table
 description: Control data table for the OLE DB Provider
 so.generated: true
-keywords:
-  - "database"
-  - "OLEField"
-so.date: 01.23.2023
+keywords: database table OLEField
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # OLEField Table (165)

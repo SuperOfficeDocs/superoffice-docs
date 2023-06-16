@@ -3,14 +3,9 @@ uid: table-login
 title: login table
 description: This table contains entries for the user sessions. 
 so.generated: true
-keywords:
-  - "database"
-  - "login"
-so.date: 01.23.2023
+keywords: database table login
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # login Table (297)

@@ -3,13 +3,9 @@ uid: enum-officiallanguage
 title: Enum values for OfficialLanguage
 description: Lists the enum values for OfficialLanguage.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # OfficialLanguage Enum

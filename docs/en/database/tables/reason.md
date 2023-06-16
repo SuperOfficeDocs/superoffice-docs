@@ -3,14 +3,9 @@ uid: table-Reason
 title: Reason table
 description: Reason list table. Why we lost the sale (list)
 so.generated: true
-keywords:
-  - "database"
-  - "Reason"
-so.date: 01.23.2023
+keywords: database table Reason
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Reason Table (103)

@@ -3,14 +3,9 @@ uid: table-s_list_customer
 title: s_list_customer table
 description: Elements in a customer list.
 so.generated: true
-keywords:
-  - "database"
-  - "s_list_customer"
-so.date: 01.23.2023
+keywords: database table s_list_customer
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # s\_list\_customer Table (346)

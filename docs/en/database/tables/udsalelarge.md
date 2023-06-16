@@ -3,14 +3,9 @@ uid: table-udsalelarge
 title: udsalelarge table
 description: User-defined fields
 so.generated: true
-keywords:
-  - "database"
-  - "udsalelarge"
-so.date: 01.23.2023
+keywords: database table udsalelarge
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # udsalelarge Table (159)

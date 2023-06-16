@@ -3,14 +3,9 @@ uid: table-RecurrenceRule
 title: RecurrenceRule table
 description: The recurrency pattern for a recurring event. Each recurring event has an appointment.recurrenceRuleId pointing to its pattern.
 so.generated: true
-keywords:
-  - "database"
-  - "RecurrenceRule"
-so.date: 01.23.2023
+keywords: database table RecurrenceRule
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # RecurrenceRule Table (207)

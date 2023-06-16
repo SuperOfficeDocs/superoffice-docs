@@ -3,17 +3,12 @@ uid: table-target_revision
 title: target_revision table
 description: One batch of changes made to targets
 so.generated: true
-keywords:
-  - "database"
-  - "target_revision"
-so.date: 01.23.2023
+keywords: database table target_revision
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# target\_revision Table (502)
+# target\_revision Table (503)
 
 One batch of changes made to targets
 

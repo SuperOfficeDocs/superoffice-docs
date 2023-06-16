@@ -3,14 +3,9 @@ uid: table-mail_alias
 title: mail_alias table
 description: This table contains the alias&amp;apos;es for each mailbox, one-to-many-relation. It is in so we can substract the alias&amp;apos;es when when listing the recipients of a message.     
 so.generated: true
-keywords:
-  - "database"
-  - "mail_alias"
-so.date: 01.23.2023
+keywords: database table mail_alias
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # mail\_alias Table (273)

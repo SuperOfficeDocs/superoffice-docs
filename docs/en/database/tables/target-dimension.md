@@ -3,17 +3,12 @@ uid: table-target_dimension
 title: target_dimension table
 description: Defining target dimension
 so.generated: true
-keywords:
-  - "database"
-  - "target_dimension"
-so.date: 01.23.2023
+keywords: database table target_dimension
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# target\_dimension Table (504)
+# target\_dimension Table (505)
 
 Defining target dimension
 

@@ -3,14 +3,9 @@ uid: table-hotlist
 title: hotlist table
 description: The table is used by the hotlist to store the relationship between tickets and users
 so.generated: true
-keywords:
-  - "database"
-  - "hotlist"
-so.date: 01.23.2023
+keywords: database table hotlist
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # hotlist Table (363)

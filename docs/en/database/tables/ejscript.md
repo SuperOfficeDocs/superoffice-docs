@@ -3,14 +3,9 @@ uid: table-ejscript
 title: ejscript table
 description: ejscript
 so.generated: true
-keywords:
-  - "database"
-  - "ejscript"
-so.date: 01.23.2023
+keywords: database table ejscript
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ejscript Table (377)

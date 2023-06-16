@@ -3,14 +3,9 @@ uid: table-ReasonSoldHeadingLink
 title: ReasonSoldHeadingLink table
 description: Heading link table for ReasonSold, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "ReasonSoldHeadingLink"
-so.date: 01.23.2023
+keywords: database table ReasonSoldHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ReasonSoldHeadingLink Table (117)

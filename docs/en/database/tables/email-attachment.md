@@ -3,14 +3,9 @@ uid: table-email_attachment
 title: email_attachment table
 description: Attachment info related to an email_item
 so.generated: true
-keywords:
-  - "database"
-  - "email_attachment"
-so.date: 01.23.2023
+keywords: database table email_attachment
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # email\_attachment Table (488)

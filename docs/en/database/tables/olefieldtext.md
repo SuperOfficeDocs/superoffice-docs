@@ -3,14 +3,9 @@ uid: table-OLEFieldText
 title: OLEFieldText table
 description: Control data table for the OLE DB Provider
 so.generated: true
-keywords:
-  - "database"
-  - "OLEFieldText"
-so.date: 01.23.2023
+keywords: database table OLEFieldText
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # OLEFieldText Table (166)

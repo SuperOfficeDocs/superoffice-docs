@@ -3,14 +3,9 @@ uid: table-freetextwords
 title: freetextwords table
 description: This table contains the word list (automatically updated by the indexer) for the free-text search. Words are in UPPERCASE and truncated to 9 significant characters. Indexed words, dynamically updated by the freetext index
 so.generated: true
-keywords:
-  - "database"
-  - "freetextwords"
-so.date: 01.23.2023
+keywords: database table freetextwords
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # freetextwords Table (45)

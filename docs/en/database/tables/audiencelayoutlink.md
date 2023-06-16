@@ -3,14 +3,9 @@ uid: table-AudienceLayoutLink
 title: AudienceLayoutLink table
 description: Link between an audience layout and some target grouping table - might be Role or Category
 so.generated: true
-keywords:
-  - "database"
-  - "AudienceLayoutLink"
-so.date: 01.23.2023
+keywords: database table AudienceLayoutLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # AudienceLayoutLink Table (235)

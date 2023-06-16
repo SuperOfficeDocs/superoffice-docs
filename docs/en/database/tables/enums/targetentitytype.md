@@ -3,13 +3,9 @@ uid: enum-targetentitytype
 title: Enum values for TargetEntityType
 description: Lists the enum values for TargetEntityType.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # TargetEntityType Enum

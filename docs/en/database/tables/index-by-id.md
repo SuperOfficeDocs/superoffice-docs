@@ -3,13 +3,9 @@ uid: database-table-listing-by-number
 title: Database table listing by table ID
 description: Lists all tables in the database by table ID.
 so.generated: true
-keywords:
-  - "database"
-so.date: 03.01.2023
+keywords: database
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Database tables by [name](index.md) | **number** 
@@ -532,12 +528,16 @@ so.envir:
 |511| [workflow\_goal](workflow-goal.md) |A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.|
 |512| [workflow\_step](workflow-step.md) |A set of steps related to a workflow.|
 |513| [workflow\_trigger](workflow-trigger.md) |A set of triggers related to a workflow.|
-|514| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
-|515| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
-|516| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval|
-|517| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding|
-|518| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers|
-|519| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial|
-|520| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding|
-|521| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
+|514| [workflow\_step\_option](workflow-step-option.md) |Some steps can have optional child &apos;flows&apos;, a new series of steps|
+|515| [workflow\_step\_option\_link](workflow-step-option-link.md) |Link steps to other steps through step options|
+|516| [email\_flow\_content\_link](email-flow-content-link.md) |Link message content to an email workflow|
+|517| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
+|518| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
+|519| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval|
+|520| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding|
+|521| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers|
+|522| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial|
+|523| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding|
+|524| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
+|525| [EntityCounts](entitycounts.md) |Number of different entities an associate has created for usage statistics|
 

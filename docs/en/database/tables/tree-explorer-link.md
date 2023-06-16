@@ -3,14 +3,9 @@ uid: table-tree_explorer_link
 title: tree_explorer_link table
 description: This table stores the link of entries in a tree-explorer
 so.generated: true
-keywords:
-  - "database"
-  - "tree_explorer_link"
-so.date: 01.23.2023
+keywords: database table tree_explorer_link
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # tree\_explorer\_link Table (400)

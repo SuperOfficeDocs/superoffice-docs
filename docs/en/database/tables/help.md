@@ -3,14 +3,9 @@ uid: table-help
 title: help table
 description: This table contains the help pages.
 so.generated: true
-keywords:
-  - "database"
-  - "help"
-so.date: 01.23.2023
+keywords: database table help
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # help Table (302)

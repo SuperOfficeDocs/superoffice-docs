@@ -3,14 +3,9 @@ uid: table-role_member
 title: role_member table
 description: Users linked to a role. Deprecated.
 so.generated: true
-keywords:
-  - "database"
-  - "role_member"
-so.date: 01.23.2023
+keywords: database table role_member
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # role\_member Table (324)

@@ -3,14 +3,9 @@ uid: table-role_element
 title: role_element table
 description: Profiles associated with a role
 so.generated: true
-keywords:
-  - "database"
-  - "role_element"
-so.date: 01.23.2023
+keywords: database table role_element
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # role\_element Table (326)

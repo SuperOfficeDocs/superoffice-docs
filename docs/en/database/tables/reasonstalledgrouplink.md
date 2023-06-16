@@ -3,14 +3,9 @@ uid: table-ReasonStalledGroupLink
 title: ReasonStalledGroupLink table
 description: Link table for ReasonStalled, for MDO item hiding
 so.generated: true
-keywords:
-  - "database"
-  - "ReasonStalledGroupLink"
-so.date: 01.23.2023
+keywords: database table ReasonStalledGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ReasonStalledGroupLink Table (155)

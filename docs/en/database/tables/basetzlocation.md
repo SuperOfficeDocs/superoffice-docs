@@ -3,14 +3,9 @@ uid: table-BaseTZLocation
 title: BaseTZLocation table
 description: Time zone location for the database (how tz-related datetimes should be stored in the database)
 so.generated: true
-keywords:
-  - "database"
-  - "BaseTZLocation"
-so.date: 01.23.2023
+keywords: database table BaseTZLocation
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # BaseTZLocation Table (248)

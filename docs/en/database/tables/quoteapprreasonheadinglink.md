@@ -3,17 +3,12 @@ uid: table-QuoteApprReasonHeadingLink
 title: QuoteApprReasonHeadingLink table
 description: Heading link table for QuoteApprReason, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "QuoteApprReasonHeadingLink"
-so.date: 01.23.2023
+keywords: database table QuoteApprReasonHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# QuoteApprReasonHeadingLink Table (511)
+# QuoteApprReasonHeadingLink Table (521)
 
 Heading link table for QuoteApprReason, for MDO headers
 

@@ -3,14 +3,9 @@ uid: table-SORPublish
 title: SORPublish table
 description: SuperOffice reporter data
 so.generated: true
-keywords:
-  - "database"
-  - "SORPublish"
-so.date: 01.23.2023
+keywords: database table SORPublish
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # SORPublish Table (174)

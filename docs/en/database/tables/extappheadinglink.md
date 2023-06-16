@@ -3,14 +3,9 @@ uid: table-ExtAppHeadingLink
 title: ExtAppHeadingLink table
 description: Heading link table for ExtApp, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "ExtAppHeadingLink"
-so.date: 01.23.2023
+keywords: database table ExtAppHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ExtAppHeadingLink Table (135)

@@ -3,14 +3,9 @@ uid: table-SORPublishGroupLink
 title: SORPublishGroupLink table
 description: Link table used for filtering reports by user group
 so.generated: true
-keywords:
-  - "database"
-  - "SORPublishGroupLink"
-so.date: 01.23.2023
+keywords: database table SORPublishGroupLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # SORPublishGroupLink Table (25)

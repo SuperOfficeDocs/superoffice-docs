@@ -3,14 +3,9 @@ uid: table-PhoneFormat
 title: PhoneFormat table
 description: Formatting information for telephone numbers
 so.generated: true
-keywords:
-  - "database"
-  - "PhoneFormat"
-so.date: 01.23.2023
+keywords: database table PhoneFormat
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # PhoneFormat Table (251)

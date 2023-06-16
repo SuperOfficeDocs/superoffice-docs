@@ -3,13 +3,9 @@ uid: enum-formtype
 title: Enum values for FormType
 description: Lists the enum values for FormType.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # FormType Enum

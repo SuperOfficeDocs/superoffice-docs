@@ -3,14 +3,9 @@ uid: table-mail_in_uidl
 title: mail_in_uidl table
 description: This table is used to avoid spamming the system by importing the same message several times (normally a result of a crash somewhere). When a mailbox is openede, then unique id for each message is stored in this table, and then removed only when the message has been correctly imported and deleted from mailbox.
 so.generated: true
-keywords:
-  - "database"
-  - "mail_in_uidl"
-so.date: 01.23.2023
+keywords: database table mail_in_uidl
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # mail\_in\_uidl Table (272)

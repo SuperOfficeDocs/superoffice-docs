@@ -3,14 +3,9 @@ uid: table-mail_in_filter
 title: mail_in_filter table
 description: This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP).
 so.generated: true
-keywords:
-  - "database"
-  - "mail_in_filter"
-so.date: 01.23.2023
+keywords: database table mail_in_filter
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # mail\_in\_filter Table (271)

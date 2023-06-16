@@ -3,14 +3,9 @@ uid: table-DeliveryTermsHeadingLink
 title: DeliveryTermsHeadingLink table
 description: Heading link table for DeliveryTerms, for MDO item headings
 so.generated: true
-keywords:
-  - "database"
-  - "DeliveryTermsHeadingLink"
-so.date: 01.23.2023
+keywords: database table DeliveryTermsHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # DeliveryTermsHeadingLink Table (435)

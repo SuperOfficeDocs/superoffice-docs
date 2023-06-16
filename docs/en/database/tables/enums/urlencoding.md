@@ -3,13 +3,9 @@ uid: enum-urlencoding
 title: Enum values for UrlEncoding
 description: Lists the enum values for UrlEncoding.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # UrlEncoding Enum

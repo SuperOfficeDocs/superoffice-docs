@@ -3,14 +3,9 @@ uid: table-DataRight
 title: DataRight table
 description: Data right definition
 so.generated: true
-keywords:
-  - "database"
-  - "DataRight"
-so.date: 01.23.2023
+keywords: database table DataRight
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # DataRight Table (195)

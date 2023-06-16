@@ -3,13 +3,9 @@ uid: enum-shipmentlinkaction
 title: Enum values for ShipmentLinkAction
 description: Lists the enum values for ShipmentLinkAction.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ShipmentLinkAction Enum

@@ -3,14 +3,9 @@ uid: table-ticket_status
 title: ticket_status table
 description: This table user defined ticket status values.
 so.generated: true
-keywords:
-  - "database"
-  - "ticket_status"
-so.date: 01.23.2023
+keywords: database table ticket_status
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ticket\_status Table (263)

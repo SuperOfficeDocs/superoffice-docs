@@ -3,13 +3,9 @@ uid: enum-ticketprioritystatus
 title: Enum values for TicketPriorityStatus
 description: Lists the enum values for TicketPriorityStatus.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # TicketPriorityStatus Enum

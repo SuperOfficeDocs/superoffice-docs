@@ -3,13 +3,9 @@ uid: enum-archivebehaviour
 title: Enum values for ArchiveBehaviour
 description: Lists the enum values for ArchiveBehaviour.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ArchiveBehaviour Enum

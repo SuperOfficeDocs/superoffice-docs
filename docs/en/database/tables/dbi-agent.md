@@ -3,14 +3,9 @@ uid: table-dbi_agent
 title: dbi_agent table
 description: DBI agent settings
 so.generated: true
-keywords:
-  - "database"
-  - "dbi_agent"
-so.date: 01.23.2023
+keywords: database table dbi_agent
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # dbi\_agent Table (381)

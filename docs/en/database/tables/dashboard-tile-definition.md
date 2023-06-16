@@ -3,14 +3,9 @@ uid: table-dashboard_tile_definition
 title: dashboard_tile_definition table
 description: Describes the contents of a tile
 so.generated: true
-keywords:
-  - "database"
-  - "dashboard_tile_definition"
-so.date: 01.23.2023
+keywords: database table dashboard_tile_definition
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # dashboard\_tile\_definition Table (479)

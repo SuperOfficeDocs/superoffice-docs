@@ -3,14 +3,9 @@ uid: table-quick_reply
 title: quick_reply table
 description: Personal quick reply text fragments
 so.generated: true
-keywords:
-  - "database"
-  - "quick_reply"
-so.date: 01.23.2023
+keywords: database table quick_reply
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # quick\_reply Table (462)

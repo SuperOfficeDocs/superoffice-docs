@@ -3,14 +3,9 @@ uid: table-ReasonHeadingLink
 title: ReasonHeadingLink table
 description: Heading link table for Reason, for MDO headers
 so.generated: true
-keywords:
-  - "database"
-  - "ReasonHeadingLink"
-so.date: 01.23.2023
+keywords: database table ReasonHeadingLink
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ReasonHeadingLink Table (105)

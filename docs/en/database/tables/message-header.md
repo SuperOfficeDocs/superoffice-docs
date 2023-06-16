@@ -3,14 +3,9 @@ uid: table-message_header
 title: message_header table
 description: This table contains small pieces of information which is listed over the body for each message.
 so.generated: true
-keywords:
-  - "database"
-  - "message_header"
-so.date: 01.23.2023
+keywords: database table message_header
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # message\_header Table (259)

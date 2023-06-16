@@ -3,14 +3,9 @@ uid: table-ejpackage_item
 title: ejpackage_item table
 description: This table stores info on installed packages in the system
 so.generated: true
-keywords:
-  - "database"
-  - "ejpackage_item"
-so.date: 01.23.2023
+keywords: database table ejpackage_item
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ejpackage\_item Table (385)

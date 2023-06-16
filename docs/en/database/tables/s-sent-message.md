@@ -3,14 +3,9 @@ uid: table-s_sent_message
 title: s_sent_message table
 description: Emarketeer message control
 so.generated: true
-keywords:
-  - "database"
-  - "s_sent_message"
-so.date: 01.23.2023
+keywords: database table s_sent_message
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # s\_sent\_message Table (405)

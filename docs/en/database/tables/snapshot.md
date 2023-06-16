@@ -3,14 +3,9 @@ uid: table-snapshot
 title: snapshot table
 description: Snapshots taken of the system database and attachments via soap
 so.generated: true
-keywords:
-  - "database"
-  - "snapshot"
-so.date: 01.23.2023
+keywords: database table snapshot
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # snapshot Table (369)

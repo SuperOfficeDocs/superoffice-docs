@@ -3,14 +3,9 @@ uid: table-ticket_relation_action
 title: ticket_relation_action table
 description: Contains ticket relation actions, used to drive processing logic together with ticket relations
 so.generated: true
-keywords:
-  - "database"
-  - "ticket_relation_action"
-so.date: 01.23.2023
+keywords: database table ticket_relation_action
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ticket\_relation\_action Table (453)

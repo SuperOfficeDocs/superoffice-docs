@@ -3,14 +3,9 @@ uid: table-appointment
 title: appointment table
 description: Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. 
 so.generated: true
-keywords:
-  - "database"
-  - "appointment"
-so.date: 01.23.2023
+keywords: database table appointment
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # appointment Table (9)
@@ -70,6 +65,8 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 |join\_videomeet\_url|Blank when not a video meeting. Filled with Join Meeting URL when created.|String(2000)|&#x25CF;|
 |centralservice\_videomeet\_id|GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox.|String(100)|&#x25CF;|
 |original\_start\_date|The original start date for an appointment in a recurring series|DateTime|&#x25CF;|
+|agenda\_text\_id|ID of record containing agenda text|FK [text](text.md)|&#x25CF;|
+|internal\_notes\_text\_id|ID of record containing internal notes text|FK [text](text.md)|&#x25CF;|
 |modified\_appointment\_fields|Which important fields of an appointment have been changed. Used by notifications.|Enum [ModifiedAppointmentFields](enums/modifiedappointmentfields.md)|&#x25CF;|
 |cautionWarning|Status field to indicate appointments that have some sort of problem|Enum [AppointmentCautionWarning](enums/appointmentcautionwarning.md)|&#x25CF;|
 |mother\_associate\_id|Associate/owner of the mother appointment|FK [associate](associate.md)|&#x25CF;|
@@ -111,6 +108,8 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 |associate\_id, activeDate, mother\_id, appointment\_id |FK, DateTime, FK, PK |Unique |
 |mother\_id, status, activeDate, registered\_associate\_id, registered, assignedBy, group\_idx, type, associate\_id, appointment\_id |FK, Enum, DateTime, FK, UtcDateTime, FK, FK, Enum, FK, PK |Unique |
 |project\_id, type, activeDate, document\_id, associate\_id, group\_idx, mother\_id, assignedBy, appointment\_id, registered, registered\_associate\_id |FK, Enum, DateTime, FK, FK, FK, FK, FK, PK, UtcDateTime, FK |Unique |
+|type, activeDate |Enum, DateTime |Index |
+|associate\_id, status, do\_by, endDate |FK, Enum, DateTime, DateTime |Index |
 
 ## Relationships
 

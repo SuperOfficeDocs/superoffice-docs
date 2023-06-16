@@ -3,14 +3,9 @@ uid: table-s_shipment
 title: s_shipment table
 description: Contains info about one shipment. The addresses are stored in s_shipment_addr
 so.generated: true
-keywords:
-  - "database"
-  - "s_shipment"
-so.date: 01.23.2023
+keywords: database table s_shipment
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # s\_shipment Table (334)
@@ -65,6 +60,7 @@ Contains info about one shipment. The addresses are stored in s_shipment_addr
 |totalbounce\_num|Total number of bounces|Int|&#x25CF;|
 |totalbounce\_rate|Total bounce rate % (totalbounce_num / number_transmitted)|Double|&#x25CF;|
 |are\_statistics\_dirty|Indicates if shipment needs statistics calculation, set by code that changes the shipment or receives clicks/opens|Bool| |
+|sent\_num|Number of mails sent|Int|&#x25CF;|
 |shipmenttype\_id|Id of subscriptionType that this shipment has, so we may check for reservations|FK [ShipmentType](shipmenttype.md)|&#x25CF;|
 
 

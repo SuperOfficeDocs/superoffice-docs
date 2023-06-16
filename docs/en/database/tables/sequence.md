@@ -3,14 +3,9 @@ uid: table-sequence
 title: sequence table
 description: next_id to be used for each table
 so.generated: true
-keywords:
-  - "database"
-  - "sequence"
-so.date: 01.23.2023
+keywords: database table sequence
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # sequence Table (0)

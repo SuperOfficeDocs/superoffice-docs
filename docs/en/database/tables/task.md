@@ -3,14 +3,9 @@ uid: table-Task
 title: Task table
 description: Task list table, activity types, like Phone, Meeting
 so.generated: true
-keywords:
-  - "database"
-  - "Task"
-so.date: 01.23.2023
+keywords: database table Task
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Task Table (67)

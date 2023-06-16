@@ -3,14 +3,9 @@ uid: table-kb_http_link
 title: kb_http_link table
 description: This table contains URL&amp;apos;s associated with a single FAQ entry.
 so.generated: true
-keywords:
-  - "database"
-  - "kb_http_link"
-so.date: 01.23.2023
+keywords: database table kb_http_link
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # kb\_http\_link Table (285)

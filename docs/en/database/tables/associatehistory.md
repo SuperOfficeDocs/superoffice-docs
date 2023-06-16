@@ -3,17 +3,12 @@ uid: table-AssociateHistory
 title: AssociateHistory table
 description: Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database
 so.generated: true
-keywords:
-  - "database"
-  - "AssociateHistory"
-so.date: 01.23.2023
+keywords: database table AssociateHistory
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# AssociateHistory Table (507)
+# AssociateHistory Table (517)
 
 Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database
 

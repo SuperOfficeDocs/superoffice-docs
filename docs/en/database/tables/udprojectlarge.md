@@ -3,14 +3,9 @@ uid: table-udprojectLarge
 title: udprojectLarge table
 description: User-defined fields. During conversion of user defined fields the data is stored in this table.
 so.generated: true
-keywords:
-  - "database"
-  - "udprojectLarge"
-so.date: 01.23.2023
+keywords: database table udprojectLarge
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # udprojectLarge Table (143)

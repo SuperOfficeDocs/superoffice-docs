@@ -3,14 +3,9 @@ uid: table-project
 title: project table
 description: Projects
 so.generated: true
-keywords:
-  - "database"
-  - "project"
-so.date: 01.23.2023
+keywords: database table project
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # project Table (11)

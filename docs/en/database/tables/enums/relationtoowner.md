@@ -3,13 +3,9 @@ uid: enum-relationtoowner
 title: Enum values for RelationToOwner
 description: Lists the enum values for RelationToOwner.
 so.generated: true
-keywords:
-  - "database"
-so.date: 01.23.2023
+keywords: database enum
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # RelationToOwner Enum

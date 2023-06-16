@@ -3,14 +3,9 @@ uid: table-ProductType
 title: ProductType table
 description: List for the ProductType field of the Product table (Quote Management)
 so.generated: true
-keywords:
-  - "database"
-  - "ProductType"
-so.date: 01.23.2023
+keywords: database table ProductType
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ProductType Table (414)

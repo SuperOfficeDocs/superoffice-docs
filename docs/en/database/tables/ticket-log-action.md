@@ -3,14 +3,9 @@ uid: table-ticket_log_action
 title: ticket_log_action table
 description: This table contains actions for the tickets.
 so.generated: true
-keywords:
-  - "database"
-  - "ticket_log_action"
-so.date: 01.23.2023
+keywords: database table ticket_log_action
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # ticket\_log\_action Table (269)
@@ -28,7 +23,7 @@ This table contains actions for the tickets.
 |user\_id|The id of the user this entry is connected to.|FK [ejuser](ejuser.md)| |
 |customer\_id|The id of the customer this entry is connected to.|FK [person](person.md)| |
 |log\_when|When the action occured.|DateTime|&#x25CF;|
-|log\_action|An enum indicating what kind of log-entry this is.|Int|&#x25CF;|
+|log\_action|An enum indicating what kind of log-entry this is.|Enum [TicketLogAction](enums/ticketlogaction.md)|&#x25CF;|
 |description|Action description, only used by customer actions like ejscript|String(255)| |
 |details|Field for storing details of the log action as e.g. JSON|Clob|&#x25CF;|
 

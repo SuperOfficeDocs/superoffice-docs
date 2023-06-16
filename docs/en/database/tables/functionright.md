@@ -3,14 +3,9 @@ uid: table-FunctionRight
 title: FunctionRight table
 description: Functional right definition
 so.generated: true
-keywords:
-  - "database"
-  - "FunctionRight"
-so.date: 01.23.2023
+keywords: database table FunctionRight
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # FunctionRight Table (193)

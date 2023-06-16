@@ -3,14 +3,9 @@ uid: table-Quote
 title: Quote table
 description: Quote root level, at most one per Sale, always connected to one Sale
 so.generated: true
-keywords:
-  - "database"
-  - "Quote"
-so.date: 01.23.2023
+keywords: database table Quote
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Quote Table (34)
