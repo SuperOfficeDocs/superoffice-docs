@@ -689,8 +689,6 @@ items:
   href: reference/ticketpriorityescalateevent.md
 - name: Ticketread
   href: reference/ticketread.md
-- name: TicketSelectionFreetextSearch
-  href: ticket_selection_freetextsearch.md
 - name: Ticketselectionwithstaticmenu
   href: reference/ticketselectionwithstaticmenu.md
 - name: Ticketslevel
