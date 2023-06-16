@@ -1,0 +1,57 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.PersonGender
+  children:
+  - CRMScript.NetServer.PersonGender.Unknown
+  - CRMScript.NetServer.PersonGender.Female
+  - CRMScript.NetServer.PersonGender.Male
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: PersonGender
+  syntax: 
+    content: PersonGender
+  summary: "Male/female. No jokes please. To be used for selecting correct salutations and grammar. 0 = unknown, 1 = female, 2 = male"
+  name: PersonGender
+  nameWithType: PersonGender
+  fullName: CRMScript.NetServer.PersonGender
+- uid: CRMScript.NetServer.PersonGender.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: PersonGender.Unknown
+  syntax: 
+    content: PersonGender.Unknown
+  summary: "0: Unknown - used when initializing"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.PersonGender.Unknown
+- uid: CRMScript.NetServer.PersonGender.Female
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: PersonGender.Female
+  syntax: 
+    content: PersonGender.Female
+  summary: "1: The person is marked as female"
+  name: Female
+  nameWithType: Female
+  fullName: CRMScript.NetServer.PersonGender.Female
+- uid: CRMScript.NetServer.PersonGender.Male
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: PersonGender.Male
+  syntax: 
+    content: PersonGender.Male
+  summary: "2: The person is marked as male"
+  name: Male
+  nameWithType: Male
+  fullName: CRMScript.NetServer.PersonGender.Male
+references:
+- uid: CRMScript.NetServer.PersonGender
+  commentId: T:CRMScript.NetServer.PersonGender
+  isExternal: true
+  name: PersonGender
+  nameWithType: PersonGender
+  fullName: CRMScript.NetServer.PersonGender
