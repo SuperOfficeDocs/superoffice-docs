@@ -1,6 +1,7 @@
 ---
 title: GET List/MrMrs/Items
 uid: v1MrMrsList_GetAll
+generated: true
 ---
 
 # GET List/MrMrs/Items
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Huel-Borer",
-    "Tooltip": "odit",
-    "Deleted": true,
-    "UdListDefinitionId": 483,
-    "Rank": 787,
+    "Id": 447,
+    "Name": "Jacobson Group",
+    "Tooltip": "nisi",
+    "Deleted": false,
+    "UdListDefinitionId": 897,
+    "Rank": 437,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldType": "System.String",
+        "FieldLength": 953
       }
     }
   }

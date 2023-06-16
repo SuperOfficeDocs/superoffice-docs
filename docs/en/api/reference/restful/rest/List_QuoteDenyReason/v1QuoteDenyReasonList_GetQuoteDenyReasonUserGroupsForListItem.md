@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteDenyReason/Items/{id}/UserGroups
 uid: v1QuoteDenyReasonList_GetQuoteDenyReasonUserGroupsForListItem
+generated: true
 ---
 
 # GET List/QuoteDenyReason/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 883,
-    "Name": "DuBuque Group",
-    "ToolTip": "Cum fugit facilis.",
+    "Id": 540,
+    "Name": "Rempel Inc and Sons",
+    "ToolTip": "Cupiditate nulla optio hic et veritatis et minima.",
     "Deleted": false,
-    "Rank": 143,
-    "Type": "odit",
-    "ColorBlock": 77,
-    "IconHint": "commodi",
-    "Selected": true,
-    "LastChanged": "2000-09-14T03:51:34.8801783+02:00",
+    "Rank": 356,
+    "Type": "doloremque",
+    "ColorBlock": 895,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "2020-12-25T16:00:49.2426861+01:00",
     "ChildItems": [
       {
-        "Id": 13,
-        "Name": "Morissette LLC",
-        "ToolTip": "Rerum ut.",
+        "Id": 737,
+        "Name": "Wiegand, Hyatt and Armstrong",
+        "ToolTip": "Et consequatur sed.",
         "Deleted": false,
-        "Rank": 206,
-        "Type": "repellat",
-        "ColorBlock": 735,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2017-07-04T03:51:34.8801783+02:00",
+        "Rank": 921,
+        "Type": "qui",
+        "ColorBlock": 966,
+        "IconHint": "laboriosam",
+        "Selected": false,
+        "LastChanged": "2008-08-28T16:00:49.2426861+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "beatae",
-        "Hidden": false,
-        "FullName": "Mr. Joana Kenna Zieme I",
+        "ExtraInfo": "sunt",
+        "StyleHint": "maxime",
+        "Hidden": true,
+        "FullName": "Mr. Abelardo Lea Haley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 823
+            "FieldLength": 127
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Dr. Kacey Stephanie Quitzon",
+    "ExtraInfo": "et",
+    "StyleHint": "esse",
+    "Hidden": true,
+    "FullName": "Miss Lizeth Dusty Hintz I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldLength": 138
       }
     }
   }

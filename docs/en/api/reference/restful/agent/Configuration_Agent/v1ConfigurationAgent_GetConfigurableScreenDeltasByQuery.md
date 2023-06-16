@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetConfigurableScreenDeltasByQuery
 uid: v1ConfigurationAgent_GetConfigurableScreenDeltasByQuery
+generated: true
 ---
 
 # POST Agents/Configuration/GetConfigurableScreenDeltasByQuery
@@ -100,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 907,
-    "Name": "Ratke Group",
-    "Description": "Down-sized impactful knowledge user",
-    "DeltaJson": "placeat",
+    "ConfigurableScreenDeltaId": 165,
+    "Name": "Bayer LLC",
+    "Description": "Phased bifurcated collaboration",
+    "DeltaJson": "impedit",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "deleniti",
-    "UpdatedDate": "1998-02-12T03:51:26.787455+01:00",
-    "CreatedDate": "2003-12-06T03:51:26.787455+01:00",
+    "RecipeId": "doloribus",
+    "UpdatedDate": "2022-09-03T16:00:40.3050315+02:00",
+    "CreatedDate": "2005-11-13T16:00:40.3050315+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      818,
-      354
+      684,
+      494
     ],
-    "AppliesToKey": "voluptas",
+    "AppliesToKey": "maxime",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 202
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: GET List/Category/Headings
 uid: v1CategoryList_GetCategoryHeadings
+generated: true
 ---
 
 # GET List/Category/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 132,
-    "Name": "Kassulke Inc and Sons",
-    "Tooltip": "sit",
+    "HeadingId": 319,
+    "Name": "Wilkinson-Dibbert",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 552,
-    "UdListDefinitionId": 272,
+    "Rank": 248,
+    "UdListDefinitionId": 907,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldLength": 791
       }
     }
   }

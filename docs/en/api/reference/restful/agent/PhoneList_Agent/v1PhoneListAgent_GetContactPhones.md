@@ -1,6 +1,7 @@
 ---
 title: POST Agents/PhoneList/GetContactPhones
 uid: v1PhoneListAgent_GetContactPhones
+generated: true
 ---
 
 # POST Agents/PhoneList/GetContactPhones
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 469
+  "ContactId": 184
 }
 ```
 
@@ -99,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-785-116-1034",
-    "PersonCellPhone": "116-295-5646 x402",
-    "PersonPrivatePhone": "(854)323-5711",
-    "PersonFaxNumber": "1767785",
-    "PersonPagerNumber": "920730",
-    "PersonEmail": "arianna@ohara.ca",
-    "Id": 431,
-    "Name": "Spinka, Russel and Gottlieb",
-    "Tooltip": "harum",
-    "UniqueId": "corrupti",
+    "PersonDirectPhone": "301.601.5290 x227",
+    "PersonCellPhone": "063-963-9763 x4427",
+    "PersonPrivatePhone": "(298)839-3831 x5534",
+    "PersonFaxNumber": "1417531",
+    "PersonPagerNumber": "1423998",
+    "PersonEmail": "thora@runolfsson.co.uk",
+    "Id": 583,
+    "Name": "Kautzer, Stiedemann and Streich",
+    "Tooltip": "nostrum",
+    "UniqueId": "nobis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 181
+        "FieldLength": 614
       }
     }
   }

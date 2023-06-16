@@ -1,6 +1,7 @@
 ---
 title: POST Agents/MDO/GetSelectableListWithRestriction
 uid: v1MDOAgent_GetSelectableListWithRestriction
+generated: true
 ---
 
 # POST Agents/MDO/GetSelectableListWithRestriction
@@ -88,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kunde-Bergstrom",
-  "AdditionalInfo": "eligendi",
-  "SearchValue": "quaerat"
+  "Name": "Boyer-Huels",
+  "AdditionalInfo": "voluptas",
+  "SearchValue": "blanditiis"
 }
 ```
 
@@ -106,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "O'Reilly-Dare",
-    "ToolTip": "Quo voluptatem molestiae impedit.",
+    "Id": 977,
+    "Name": "Klein Group",
+    "ToolTip": "Nesciunt dolor velit nihil magni natus sint.",
     "Deleted": false,
-    "Rank": 884,
-    "Type": "quae",
-    "ColorBlock": 996,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2002-12-31T03:51:27.5216578+01:00",
+    "Rank": 758,
+    "Type": "ipsum",
+    "ColorBlock": 782,
+    "IconHint": "quaerat",
+    "Selected": false,
+    "LastChanged": "2012-02-05T16:00:41.2736903+01:00",
     "ChildItems": [
       {
-        "Id": 70,
-        "Name": "Bartoletti, Frami and Maggio",
-        "ToolTip": "Autem doloremque.",
-        "Deleted": true,
-        "Rank": 969,
-        "Type": "possimus",
-        "ColorBlock": 482,
-        "IconHint": "omnis",
+        "Id": 832,
+        "Name": "Marquardt, Cremin and Hagenes",
+        "ToolTip": "Itaque enim omnis.",
+        "Deleted": false,
+        "Rank": 457,
+        "Type": "voluptas",
+        "ColorBlock": 615,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2008-07-13T03:51:27.5216578+02:00",
+        "LastChanged": "2011-06-02T16:00:41.2736903+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "ex",
-        "Hidden": false,
-        "FullName": "Arlo Kub",
+        "ExtraInfo": "fuga",
+        "StyleHint": "aperiam",
+        "Hidden": true,
+        "FullName": "Minnie Delilah Morissette MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 458
+            "FieldLength": 629
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "maxime",
-    "Hidden": true,
-    "FullName": "Quinten Forest Casper I",
+    "ExtraInfo": "odio",
+    "StyleHint": "ipsa",
+    "Hidden": false,
+    "FullName": "Kavon Considine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 210
+        "FieldLength": 248
       }
     }
   }

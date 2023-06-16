@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 uid: v1TargetsAgent_CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
+generated: true
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
@@ -85,8 +86,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 190,
-  "TargetDimensionId": 49
+  "Year": 604,
+  "TargetDimensionId": 281
 }
 ```
 
@@ -98,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 278,
+    "TargetAssignmentInfoId": 351,
     "Values": [
-      553,
-      809
+      394,
+      30
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 636,
-    "DimensionListItemDisplayName": "Oberbrunner-Feil",
+    "DimensionListItem": 71,
+    "DimensionListItemDisplayName": "Dibbert, Hickle and Medhurst",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 570
+        "FieldLength": 101
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuoteLines
 uid: v1QuoteAgent_GetQuoteLines
+generated: true
 ---
 
 # POST Agents/Quote/GetQuoteLines
@@ -120,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 982
+  "QuoteAlternativeId": 849
 }
 ```
 
@@ -136,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 216,
-    "ERPQuoteLineKey": "molestiae",
-    "QuoteAlternativeId": 711,
-    "ERPProductKey": "assumenda",
+    "QuoteLineId": 231,
+    "ERPQuoteLineKey": "sit",
+    "QuoteAlternativeId": 369,
+    "ERPProductKey": "qui",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 9953.5839999999989,
-    "DeliveredQuantity": 10498.9,
-    "Rank": 394,
-    "Name": "Vandervort-Halvorson",
-    "Description": "Open-source tertiary benchmark",
-    "Code": "velit",
-    "QuantityUnit": "est",
-    "PriceUnit": "eum",
-    "ItemNumber": "784109",
+    "Quantity": 10107.15,
+    "DeliveredQuantity": 25150.35,
+    "Rank": 772,
+    "Name": "Schmeler Group",
+    "Description": "Pre-emptive high-level database",
+    "Code": "aut",
+    "QuantityUnit": "et",
+    "PriceUnit": "qui",
+    "ItemNumber": "902083",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "assumenda",
-    "ProductTypeKey": "libero",
-    "Supplier": "animi",
-    "SupplierCode": "aliquid",
-    "Thumbnail": "voluptas",
-    "VATInfo": "ut",
-    "VAT": 2262.748,
-    "UnitCost": 18741.32,
-    "UnitMinimumPrice": 30277.574,
-    "UnitListPrice": 10790.362,
+    "ProductFamilyKey": "ducimus",
+    "ProductTypeKey": "voluptatem",
+    "Supplier": "nisi",
+    "SupplierCode": "sequi",
+    "Thumbnail": "qui",
+    "VATInfo": "porro",
+    "VAT": 15973.998,
+    "UnitCost": 22868.798,
+    "UnitMinimumPrice": 16773.167999999998,
+    "UnitListPrice": 17613.079999999998,
     "ExtraInfo": [
       {
-        "Name": "Kemmer, Mayert and Kutch",
-        "Value": "at",
+        "Name": "Pacocha, McCullough and Conroy",
+        "Value": "dolorem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 667
+            "FieldLength": 419
           }
         }
       },
       {
-        "Name": "Kemmer, Mayert and Kutch",
-        "Value": "at",
+        "Name": "Pacocha, McCullough and Conroy",
+        "Value": "dolorem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 667
+            "FieldLength": 419
           }
         }
       }
     ],
-    "RawExtraInfo": "corrupti",
+    "RawExtraInfo": "doloribus",
     "IsSubscription": false,
-    "SubscriptionUnit": "fugiat",
-    "SubscriptionQuantity": 14197.02,
-    "SubscriptionStart": "2002-12-11T03:51:28.0371601+01:00",
-    "ERPDiscountPercent": 20678.131999999998,
-    "ERPDiscountAmount": 17763.512,
-    "DiscountPercent": 203.70999999999998,
-    "DiscountAmount": 13159.666,
+    "SubscriptionUnit": "quae",
+    "SubscriptionQuantity": 8490.006,
+    "SubscriptionStart": "2002-09-10T16:00:41.6800689+02:00",
+    "ERPDiscountPercent": 19095.462,
+    "ERPDiscountAmount": 9232.764,
+    "DiscountPercent": 10921.99,
+    "DiscountAmount": 27378.624,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 22558.532,
-    "EarningAmount": 29337.374,
-    "SubTotal": 10918.856,
-    "TotalPrice": 9975.521999999999,
-    "Rights": "et",
-    "Rule": "laboriosam",
-    "ExtraField1": "non",
-    "ExtraField2": "quisquam",
-    "ExtraField3": "debitis",
-    "ExtraField4": "omnis",
-    "ExtraField5": "eaque",
+    "EarningPercent": 6744.3679999999995,
+    "EarningAmount": 8574.624,
+    "SubTotal": 3115.196,
+    "TotalPrice": 29625.701999999997,
+    "Rights": "beatae",
+    "Rule": "iste",
+    "ExtraField1": "dolor",
+    "ExtraField2": "ea",
+    "ExtraField3": "velit",
+    "ExtraField4": "et",
+    "ExtraField5": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 542
+        "FieldType": "System.Int32",
+        "FieldLength": 884
       }
     }
   }

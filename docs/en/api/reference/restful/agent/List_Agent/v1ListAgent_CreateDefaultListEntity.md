@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultListEntity
 uid: v1ListAgent_CreateDefaultListEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultListEntity
@@ -65,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 331,
-  "Name": "Buckridge-Leuschke",
-  "Tooltip": "qui",
+  "Id": 568,
+  "Name": "Hane, Heller and McDermott",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 61,
+  "Rank": 978,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "corporis",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "earum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldType": "System.String",
+      "FieldLength": 995
     }
   }
 }

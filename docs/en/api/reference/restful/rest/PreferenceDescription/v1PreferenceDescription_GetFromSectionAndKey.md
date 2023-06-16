@@ -1,6 +1,7 @@
 ---
 title: GET PreferenceDescription/{section}/{key}
 uid: v1PreferenceDescription_GetFromSectionAndKey
+generated: true
 ---
 
 # GET PreferenceDescription/{section}/{key}
@@ -86,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 925,
-  "Section": "facere",
-  "Key": "veritatis",
-  "Name": "Funk-Littel",
+  "PrefDescId": 531,
+  "Section": "autem",
+  "Key": "odit",
+  "Name": "Franecki, Hirthe and Homenick",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "De-engineered even-keeled secured line",
+  "Description": "Pre-emptive attitude-oriented matrices",
   "IsBuiltin": true,
-  "TableName": "Jacobson, Lebsack and Stracke",
-  "UserDefinedListId": 448,
-  "Rank": 594,
-  "SubGroup": "libero",
-  "MinLevel": 1002,
-  "MaxValue": 759,
-  "MinValue": 119,
-  "RequiredLicense": "quod",
+  "TableName": "Terry-Trantow",
+  "UserDefinedListId": 718,
+  "Rank": 727,
+  "SubGroup": "et",
+  "MinLevel": 453,
+  "MaxValue": 181,
+  "MinValue": 498,
+  "RequiredLicense": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 342
     }
   }
 }

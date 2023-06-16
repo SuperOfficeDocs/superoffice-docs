@@ -1,6 +1,7 @@
 ---
 title: PUT List/SaleType/Headings
 uid: v1SaleTypeList_PutSaleTypeEntityHeadings
+generated: true
 ---
 
 # PUT List/SaleType/Headings
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 303,
-    "Name": "Koss-Witting",
-    "Tooltip": "temporibus",
+    "HeadingId": 327,
+    "Name": "Langosh-Gulgowski",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 620,
-    "UdListDefinitionId": 331
+    "Rank": 664,
+    "UdListDefinitionId": 829
   },
   {
-    "HeadingId": 303,
-    "Name": "Koss-Witting",
-    "Tooltip": "temporibus",
+    "HeadingId": 327,
+    "Name": "Langosh-Gulgowski",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 620,
-    "UdListDefinitionId": 331
+    "Rank": 664,
+    "UdListDefinitionId": 829
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 587,
-    "Name": "Kuhlman, Breitenberg and Nikolaus",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 799,
-    "UdListDefinitionId": 680,
+    "HeadingId": 224,
+    "Name": "Marvin LLC",
+    "Tooltip": "nesciunt",
+    "Deleted": true,
+    "Rank": 167,
+    "UdListDefinitionId": 206,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldLength": 332
       }
     }
   }

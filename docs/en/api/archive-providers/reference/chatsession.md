@@ -2,17 +2,10 @@
 uid: ChatSession
 title: ChatSession
 description: Archive provider for listing chat session and related data to a chat
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ChatSession"
+keywords: ChatSession archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ChatSession"
@@ -128,6 +121,10 @@ Archive provider for listing chat session and related data to a chat
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personBusiness|listAny|Business| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
@@ -228,6 +225,10 @@ Archive provider for listing chat session and related data to a chat
 |person/personAssociate/associateDbId|associate|ID| x |
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/personAssociate/contactCategory|listAny|Category: Category| x |
@@ -328,6 +329,10 @@ Archive provider for listing chat session and related data to a chat
 |contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |contact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 |contact/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
@@ -428,6 +433,10 @@ Archive provider for listing chat session and related data to a chat
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contact/NumberOfActivities|int|Number of activities|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |contact/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
@@ -461,7 +470,7 @@ Archive provider for listing chat session and related data to a chat
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatSession?$select=person/personExtra/x_person_category_relation,contact/saintTicketStatus,person/restrictionAddress/line1
+GET /api/v1/archive/ChatSession?$select=associate/simultaneousEjUser,person/personPager/description,person/correspondingAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

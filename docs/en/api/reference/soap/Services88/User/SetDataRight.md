@@ -1,6 +1,6 @@
 ---
 title: Services88.UserAgent.SetDataRight SOAP
-generated: 1
+generated: true
 uid: Services88-User-SetDataRight
 ---
 

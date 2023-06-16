@@ -1,6 +1,7 @@
 ---
 title: DEL TicketMessage/{id}
 uid: v1TicketMessageEntity_DeleteTicketMessageEntity
+generated: true
 ---
 
 # DEL TicketMessage/{id}
@@ -51,7 +52,7 @@ TicketMessageEntity deleted.
 DELETE /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetProjectMemberDocumentsByTemplateType
 uid: v1DocumentAgent_GetProjectMemberDocumentsByTemplateType
+generated: true
 ---
 
 # POST Agents/Document/GetProjectMemberDocumentsByTemplateType
@@ -97,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 648,
-  "StartTime": "2013-11-24T03:51:27.0061522+01:00",
-  "EndTime": "1997-09-01T03:51:27.0061522+02:00",
-  "Count": 609,
-  "DocumentTemplateId": 106
+  "PersonId": 783,
+  "StartTime": "2020-09-19T16:00:40.5706201+02:00",
+  "EndTime": "2000-06-21T16:00:40.5706201+02:00",
+  "Count": 856,
+  "DocumentTemplateId": 507
 }
 ```
 
@@ -117,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 60,
-    "Attention": "id",
-    "Header": "sequi",
-    "Name": "Stiedemann Inc and Sons",
-    "OurRef": "saepe",
-    "YourRef": "sit",
-    "Description": "Profit-focused upward-trending portal",
-    "DocumentTemplate": "repudiandae",
-    "IsPublished": true,
-    "PersonId": 265,
-    "PersonFullName": "Rosalia Sporer",
-    "AssociateFullName": "Foster Abernathy",
-    "ContactId": 57,
-    "ContactName": "Grant-Skiles",
-    "ProjectId": 195,
-    "ProjectName": "Baumbach-Schiller",
-    "AssociateId": 703,
-    "Snum": 139,
-    "SaleId": 558,
-    "SaleName": "Schneider-Kovacek",
+    "DocumentId": 298,
+    "Attention": "molestiae",
+    "Header": "repudiandae",
+    "Name": "Halvorson LLC",
+    "OurRef": "tempore",
+    "YourRef": "repellat",
+    "Description": "Polarised dynamic analyzer",
+    "DocumentTemplate": "ut",
+    "IsPublished": false,
+    "PersonId": 772,
+    "PersonFullName": "Regan Denesik IV",
+    "AssociateFullName": "Bart Prohaska",
+    "ContactId": 913,
+    "ContactName": "Zulauf, Hagenes and Wisozk",
+    "ProjectId": 926,
+    "ProjectName": "Wyman Inc and Sons",
+    "AssociateId": 424,
+    "Snum": 926,
+    "SaleId": 30,
+    "SaleName": "Johnston-Mraz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 781
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   }

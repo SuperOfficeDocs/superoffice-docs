@@ -1,6 +1,7 @@
 ---
 title: GET List/SaleType/Items/Default
 uid: v1SaleTypeList_CreateDefaultSaleTypeEntity
+generated: true
 ---
 
 # GET List/SaleType/Items/Default
@@ -85,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 529,
-  "Name": "Stracke, Will and Rohan",
-  "Tooltip": "dolorum",
-  "Rank": 746,
+  "SaleTypeId": 413,
+  "Name": "Heathcote-O'Reilly",
+  "Tooltip": "eveniet",
+  "Rank": 274,
   "DurationUnit": "Century",
-  "SaleDuration": 385,
-  "SaleTypeCatId": 503,
+  "SaleDuration": 554,
+  "SaleTypeCatId": 811,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 114,
-  "QuoteLinesTemplate": 14,
-  "ConfirmationLinesTemplate": 712,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 964,
+  "QuoteLinesTemplate": 974,
+  "ConfirmationLinesTemplate": 385,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 752,
-  "MinEarningPercent": 691,
-  "GroupQuoteLinesBy": 799,
-  "SortGroupLinesBy": 272,
+  "MaxDiscountPercent": 626,
+  "MinEarningPercent": 956,
+  "GroupQuoteLinesBy": 813,
+  "SortGroupLinesBy": 136,
   "Stages": [
     {
-      "Id": 604,
-      "Name": "Rogahn Inc and Sons",
-      "ToolTip": "Dolore labore quis id ut.",
-      "Deleted": true,
-      "Rank": 460,
-      "Type": "architecto",
-      "ColorBlock": 225,
-      "IconHint": "sed",
-      "Selected": false,
-      "LastChanged": "2019-04-03T03:51:34.9426529+02:00",
+      "Id": 828,
+      "Name": "Carroll, Heathcote and Carter",
+      "ToolTip": "Dicta repudiandae ad consequuntur dolor similique.",
+      "Deleted": false,
+      "Rank": 678,
+      "Type": "aut",
+      "ColorBlock": 254,
+      "IconHint": "odio",
+      "Selected": true,
+      "LastChanged": "2003-05-12T16:00:49.3051793+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "a",
-      "StyleHint": "earum",
+      "ExtraInfo": "amet",
+      "StyleHint": "quis",
       "Hidden": false,
-      "FullName": "Mr. Cristobal Kerluke",
+      "FullName": "Garett Little",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldLength": 241
         }
       }
     }
@@ -141,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 676
     }
   }
 }

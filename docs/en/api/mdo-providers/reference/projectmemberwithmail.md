@@ -1,17 +1,11 @@
 ---
 uid: projectmemberwithmail
 title: projectmemberwithmail
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "projectmemberwithmail"
+keywords: mdoprovider mdo provider projectmemberwithmail
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "projectmemberwithmail" MDO List

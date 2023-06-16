@@ -1,6 +1,6 @@
 ---
 title: Services88.SentryAgent.GetFunctionRights SOAP
-generated: 1
+generated: true
 uid: Services88-Sentry-GetFunctionRights
 ---
 

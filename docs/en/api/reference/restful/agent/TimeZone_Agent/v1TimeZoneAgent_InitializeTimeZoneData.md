@@ -1,6 +1,7 @@
 ---
 title: POST Agents/TimeZone/InitializeTimeZoneData
 uid: v1TimeZoneAgent_InitializeTimeZoneData
+generated: true
 ---
 
 # POST Agents/TimeZone/InitializeTimeZoneData
@@ -79,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 314,
-    "Name": "Mertz-Collins",
-    "TZLocationCode": "quisquam",
-    "TZLocationCities": "nemo",
-    "IsoNumber": 586,
+    "TZLocationID": 796,
+    "Name": "Tillman LLC",
+    "TZLocationCode": "quia",
+    "TZLocationCities": "dicta",
+    "IsoNumber": 175,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 90,
-        "StartMonth": 98,
-        "EndDay": 386,
-        "EndMonth": 621,
-        "TZOffset": 465,
-        "StartRulePattern": "delectus",
-        "EndRulePattern": "magnam"
+        "StartDay": 194,
+        "StartMonth": 678,
+        "EndDay": 511,
+        "EndMonth": 982,
+        "TZOffset": 609,
+        "StartRulePattern": "ut",
+        "EndRulePattern": "numquam"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 344,
-        "StartMonth": 174,
-        "EndDay": 736,
-        "EndMonth": 280,
-        "TZOffset": 530,
-        "StartRulePattern": "rem",
-        "EndRulePattern": "accusamus"
+        "StartDay": 578,
+        "StartMonth": 972,
+        "EndDay": 326,
+        "EndMonth": 486,
+        "TZOffset": 484,
+        "StartRulePattern": "distinctio",
+        "EndRulePattern": "expedita"
       }
     }
   }

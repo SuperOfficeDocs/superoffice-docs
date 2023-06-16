@@ -1,6 +1,7 @@
 ---
 title: GET List/Currency
 uid: v1CurrencyList_GetListDefinition
+generated: true
 ---
 
 # GET List/Currency
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 366,
-  "Name": "Dicki LLC",
-  "Tooltip": "suscipit",
-  "Deleted": false,
-  "Rank": 917,
+  "Id": 287,
+  "Name": "Bechtelar, Hamill and Hand",
+  "Tooltip": "reiciendis",
+  "Deleted": true,
+  "Rank": 236,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "nostrum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 990
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   },
   "_Links": {

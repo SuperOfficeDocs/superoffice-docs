@@ -1,6 +1,7 @@
 ---
 title: PUT Document/{id}/Lock
 uid: v1DocumentEntity_CheckinDocument
+generated: true
 ---
 
 # PUT Document/{id}/Lock
@@ -31,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Profound tangible capacity
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=aut,est
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Centralized 24 hour frame
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=nisi,nisi
 ```
 
 
@@ -75,7 +76,7 @@ OK
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "id",
-  "VersionId": "deserunt",
-  "Success": false,
+  "ExternalReference": "dolorum",
+  "VersionId": "maxime",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "et",
-  "AdditionalInfo": "perferendis"
+  "Value": "dolorum",
+  "AdditionalInfo": "et"
 }
 ```

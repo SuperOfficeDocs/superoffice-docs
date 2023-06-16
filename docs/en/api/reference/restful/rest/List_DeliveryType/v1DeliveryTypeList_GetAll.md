@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryType/Items
 uid: v1DeliveryTypeList_GetAll
+generated: true
 ---
 
 # GET List/DeliveryType/Items
@@ -24,7 +25,7 @@ Gets all the DeliveryType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/DeliveryType/Items?includeDeleted=True
+GET /api/v1/List/DeliveryType/Items?includeDeleted=False
 ```
 
 
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 487,
-    "Name": "Brown-Oberbrunner",
-    "Tooltip": "sequi",
+    "Id": 289,
+    "Name": "Buckridge, Rogahn and Jast",
+    "Tooltip": "praesentium",
     "Deleted": false,
-    "UdListDefinitionId": 832,
-    "Rank": 233,
+    "UdListDefinitionId": 95,
+    "Rank": 438,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldLength": 350
       }
     }
   }

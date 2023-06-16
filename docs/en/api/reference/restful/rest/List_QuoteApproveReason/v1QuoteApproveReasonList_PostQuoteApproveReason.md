@@ -1,6 +1,7 @@
 ---
 title: POST List/QuoteApproveReason/Items
 uid: v1QuoteApproveReasonList_PostQuoteApproveReason
+generated: true
 ---
 
 # POST List/QuoteApproveReason/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 9,
-  "Name": "Konopelski, Greenholt and Zemlak",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "UdListDefinitionId": 258,
-  "Rank": 333
+  "Id": 664,
+  "Name": "McDermott Inc and Sons",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 832,
+  "Rank": 679
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Dietrich Group",
-  "Tooltip": "nisi",
-  "Deleted": false,
-  "UdListDefinitionId": 807,
-  "Rank": 706,
+  "Id": 124,
+  "Name": "Daniel Inc and Sons",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "UdListDefinitionId": 974,
+  "Rank": 85,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldType": "System.String",
+      "FieldLength": 993
     }
   }
 }

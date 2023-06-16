@@ -1,6 +1,7 @@
 ---
 title: PUT List/Position/Headings
 uid: v1PositionList_PutPositionHeadings
+generated: true
 ---
 
 # PUT List/Position/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 820,
-    "Name": "Schulist-Jast",
-    "Tooltip": "dolores",
+    "HeadingId": 200,
+    "Name": "Schaden, O'Reilly and Kub",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 557,
-    "UdListDefinitionId": 740
+    "Rank": 961,
+    "UdListDefinitionId": 985
   },
   {
-    "HeadingId": 820,
-    "Name": "Schulist-Jast",
-    "Tooltip": "dolores",
+    "HeadingId": 200,
+    "Name": "Schaden, O'Reilly and Kub",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 557,
-    "UdListDefinitionId": 740
+    "Rank": 961,
+    "UdListDefinitionId": 985
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 122,
-    "Name": "Brakus, Collier and Adams",
-    "Tooltip": "doloribus",
+    "HeadingId": 629,
+    "Name": "Jacobs-Murazik",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 872,
-    "UdListDefinitionId": 565,
+    "Rank": 122,
+    "UdListDefinitionId": 995,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 393
+        "FieldType": "System.String",
+        "FieldLength": 980
       }
     }
   }

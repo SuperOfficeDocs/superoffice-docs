@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/CreateDefaultTargetAssignment
 uid: v1TargetsAgent_CreateDefaultTargetAssignment
+generated: true
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignment
@@ -64,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 75,
+  "TargetAssignmentInfoId": 390,
   "Values": [
-    521,
-    916
+    232,
+    861
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 285,
-  "DimensionListItemDisplayName": "Rutherford LLC",
+  "DimensionListItem": 947,
+  "DimensionListItemDisplayName": "Kovacek LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldLength": 417
     }
   }
 }

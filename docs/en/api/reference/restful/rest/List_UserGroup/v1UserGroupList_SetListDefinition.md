@@ -1,6 +1,7 @@
 ---
 title: PUT List/UserGroup
 uid: v1UserGroupList_SetListDefinition
+generated: true
 ---
 
 # PUT List/UserGroup
@@ -87,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Hintz-Padberg",
-  "Tooltip": "sapiente",
-  "Deleted": false,
-  "Rank": 658,
+  "Id": 896,
+  "Name": "Homenick, Mayert and Greenholt",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 493,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
-  "InUseByUserDefinedFields": true
+  "ListType": "est",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 282,
-  "Name": "Pacocha, Feil and Gottlieb",
-  "Tooltip": "soluta",
+  "Id": 6,
+  "Name": "DuBuque Inc and Sons",
+  "Tooltip": "at",
   "Deleted": false,
-  "Rank": 725,
-  "IsCustomList": false,
+  "Rank": 767,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quidem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldType": "System.String",
+      "FieldLength": 723
     }
   }
 }

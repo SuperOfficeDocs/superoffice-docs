@@ -1,6 +1,7 @@
 ---
 title: POST List/PaymentTerm/Items
 uid: v1PaymentTermsList_PostPaymentTerm
+generated: true
 ---
 
 # POST List/PaymentTerm/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 472,
-  "Name": "Robel-Krajcik",
-  "Tooltip": "nesciunt",
+  "Id": 364,
+  "Name": "Swift Group",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "UdListDefinitionId": 171,
-  "Rank": 892
+  "UdListDefinitionId": 568,
+  "Rank": 496
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 383,
-  "Name": "Gerhold, Schoen and Sanford",
-  "Tooltip": "aperiam",
+  "Id": 234,
+  "Name": "Hermiston Inc and Sons",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "UdListDefinitionId": 934,
-  "Rank": 733,
+  "UdListDefinitionId": 694,
+  "Rank": 779,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 529
     }
   }
 }

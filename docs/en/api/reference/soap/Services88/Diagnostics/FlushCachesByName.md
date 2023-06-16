@@ -1,6 +1,6 @@
 ---
 title: Services88.DiagnosticsAgent.FlushCachesByName SOAP
-generated: 1
+generated: true
 uid: Services88-Diagnostics-FlushCachesByName
 ---
 

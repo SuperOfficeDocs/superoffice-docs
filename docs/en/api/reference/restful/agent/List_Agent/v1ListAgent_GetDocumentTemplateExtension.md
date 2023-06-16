@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetDocumentTemplateExtension
 uid: v1ListAgent_GetDocumentTemplateExtension
+generated: true
 ---
 
 # POST Agents/List/GetDocumentTemplateExtension
@@ -71,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 740
+  "DocumentTemplateId": 543
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"id"
+"qui"
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Associate/GetAssociatesByGroup
 uid: v1AssociateAgent_GetAssociatesByGroup
+generated: true
 ---
 
 # POST Agents/Associate/GetAssociatesByGroup
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 32,
-  "Type": 579
+  "GroupId": 94,
+  "Type": 353
 }
 ```
 
@@ -103,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 154,
-    "Name": "Ritchie LLC",
-    "PersonId": 168,
-    "Rank": 563,
-    "Tooltip": "quidem",
+    "AssociateId": 17,
+    "Name": "Stamm Group",
+    "PersonId": 321,
+    "Rank": 286,
+    "Tooltip": "aut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 959,
-    "FullName": "Granville Goyette",
-    "FormalName": "Raynor-Abshire",
+    "GroupIdx": 222,
+    "FullName": "Ms. Giovanni Schumm",
+    "FormalName": "Ledner-Fritsch",
     "Deleted": false,
-    "EjUserId": 293,
-    "UserName": "Schmidt, Murray and Jast",
+    "EjUserId": 305,
+    "UserName": "Ledner Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 333
+        "FieldType": "System.Int32",
+        "FieldLength": 260
       }
     }
   }

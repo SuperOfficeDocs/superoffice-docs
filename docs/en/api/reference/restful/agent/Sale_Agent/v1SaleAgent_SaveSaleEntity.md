@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/SaveSaleEntity
 uid: v1SaleAgent_SaveSaleEntity
+generated: true
 ---
 
 # POST Agents/Sale/SaveSaleEntity
@@ -148,7 +149,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -158,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "minima",
+  "SaleText": "qui",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -167,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2003-03-02T03:51:28.0840246+01:00",
-  "Amount": 25050.061999999998,
-  "SaleId": 777,
-  "Earning": 28948.757999999998,
-  "EarningPercent": 29343.642,
-  "Heading": "inventore",
-  "Number": "883772",
-  "Probability": 149,
-  "CreatedDate": "2018-10-27T03:51:28.0840246+02:00",
-  "UpdatedDate": "2018-05-22T03:51:28.0840246+02:00",
+  "Saledate": "2004-08-17T16:00:41.7425676+02:00",
+  "Amount": 6565.73,
+  "SaleId": 128,
+  "Earning": 16158.903999999999,
+  "EarningPercent": 103.422,
+  "Heading": "culpa",
+  "Number": "432685",
+  "Probability": 973,
+  "CreatedDate": "2020-07-03T16:00:41.7425676+02:00",
+  "UpdatedDate": "2004-10-27T16:00:41.7425676+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 933,
+  "ActiveLinks": 648,
   "Links": [
     {
-      "EntityName": "Hoppe Group",
-      "Id": 617,
-      "Description": "Devolved homogeneous superstructure",
-      "ExtraInfo": "facilis",
-      "LinkId": 702
+      "EntityName": "Paucek Inc and Sons",
+      "Id": 764,
+      "Description": "Organized object-oriented local area network",
+      "ExtraInfo": "quasi",
+      "LinkId": 826
     },
     {
-      "EntityName": "Hoppe Group",
-      "Id": 617,
-      "Description": "Devolved homogeneous superstructure",
-      "ExtraInfo": "facilis",
-      "LinkId": 702
+      "EntityName": "Paucek Inc and Sons",
+      "Id": 764,
+      "Description": "Organized object-oriented local area network",
+      "ExtraInfo": "quasi",
+      "LinkId": 826
     }
   ],
-  "NextDueDate": "2010-05-22T03:51:28.0840246+02:00",
-  "Postit": "facere",
+  "NextDueDate": "2004-03-06T16:00:41.7425676+01:00",
+  "Postit": "velit",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-05-11T03:51:28.0840246+02:00",
+  "ReopenDate": "2005-01-27T16:00:41.7425676+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Dickinson, Douglas and Kihn",
-      "Comment": "adipisci",
-      "StakeholderRoleId": 441,
-      "CountryId": 29,
-      "PersonId": 843,
-      "EmailDescription": "theodore@lindgren.co.uk",
-      "EmailId": 967,
-      "EmailAddress": "thelma_gleichner@trantowhessel.us",
-      "PhoneId": 584,
-      "ContactName": "Johns LLC",
-      "ContactId": 554,
-      "SaleId": 278,
-      "Mrmrs": "et",
-      "Firstname": "Kirstin",
-      "MiddleName": "Huels Inc and Sons",
-      "Lastname": "Schimmel",
-      "SaleStakeholderId": 773,
-      "Rank": 346,
-      "Phone": "1-149-671-3612"
+      "StakeholderRoleName": "Pacocha, Luettgen and Jewess",
+      "Comment": "accusantium",
+      "StakeholderRoleId": 722,
+      "CountryId": 787,
+      "PersonId": 467,
+      "EmailDescription": "lelia.casper@gerlachcollier.biz",
+      "EmailId": 331,
+      "EmailAddress": "allen@bernhardpacocha.name",
+      "PhoneId": 865,
+      "ContactName": "Osinski-Bernier",
+      "ContactId": 424,
+      "SaleId": 396,
+      "Mrmrs": "sunt",
+      "Firstname": "Julianne",
+      "MiddleName": "Huel, Friesen and Hahn",
+      "Lastname": "Leffler",
+      "SaleStakeholderId": 448,
+      "Rank": 356,
+      "Phone": "185.861.0250 x59588"
     }
   ],
-  "ActiveErpLinks": 945,
+  "ActiveErpLinks": 806,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Brody Bosco"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Kaleb Jeffery Runolfsson V"
   },
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "iure"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "magni"
+    "CustomFields1": "eligendi",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2016-04-05T03:51:28.0840246+02:00",
-  "PublishTo": "2019-10-25T03:51:28.0840246+02:00",
-  "PublishFrom": "2008-03-24T03:51:28.0840246+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2023-03-19T16:00:41.7425676+01:00",
+  "PublishTo": "1998-10-31T16:00:41.7425676+01:00",
+  "PublishFrom": "2021-05-15T16:00:41.7425676+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 577,
+      "VisibleId": 763,
       "Visibility": "All",
-      "DisplayValue": "dolorem"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 577,
+      "VisibleId": 763,
       "Visibility": "All",
-      "DisplayValue": "dolorem"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -269,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "delectus",
+  "SaleText": "assumenda",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -278,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-08-15T03:51:28.0996448+02:00",
-  "Amount": 2350.5,
-  "SaleId": 766,
-  "Earning": 21496.106,
-  "EarningPercent": 19697.19,
-  "Heading": "sit",
-  "Number": "1019145",
-  "Probability": 411,
-  "CreatedDate": "2007-07-02T03:51:28.0996448+02:00",
-  "UpdatedDate": "2020-09-23T03:51:28.0996448+02:00",
+  "Saledate": "2013-05-15T16:00:41.7581821+02:00",
+  "Amount": 14099.866,
+  "SaleId": 224,
+  "Earning": 31167.629999999997,
+  "EarningPercent": 1780.1119999999999,
+  "Heading": "incidunt",
+  "Number": "1338653",
+  "Probability": 122,
+  "CreatedDate": "2014-01-18T16:00:41.7581821+01:00",
+  "UpdatedDate": "2014-04-14T16:00:41.7581821+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 746,
+  "ActiveLinks": 932,
   "Links": [
     {
-      "EntityName": "Reynolds-Aufderhar",
-      "Id": 748,
-      "Description": "Function-based web-enabled info-mediaries",
-      "ExtraInfo": "cumque",
-      "LinkId": 756,
+      "EntityName": "Harris-Goodwin",
+      "Id": 575,
+      "Description": "Cross-platform foreground toolset",
+      "ExtraInfo": "est",
+      "LinkId": 536,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 316
+          "FieldType": "System.String",
+          "FieldLength": 768
         }
       }
     }
   ],
-  "NextDueDate": "2016-08-22T03:51:28.0996448+02:00",
-  "Postit": "ut",
+  "NextDueDate": "2009-01-22T16:00:41.7581821+01:00",
+  "Postit": "aliquam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2012-06-11T03:51:28.0996448+02:00",
+  "ReopenDate": "2012-05-26T16:00:41.7581821+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Weber Group",
-      "Comment": "totam",
-      "StakeholderRoleId": 448,
-      "CountryId": 718,
-      "PersonId": 351,
-      "EmailDescription": "heath@wisozkharber.us",
-      "EmailId": 291,
-      "EmailAddress": "sabrina_nolan@jerdezemlak.com",
-      "PhoneId": 766,
-      "ContactName": "Cole-Okuneva",
-      "ContactId": 806,
-      "SaleId": 967,
-      "Mrmrs": "quibusdam",
-      "Firstname": "Darien",
-      "MiddleName": "Koss, Friesen and Bahringer",
-      "Lastname": "McLaughlin",
-      "SaleStakeholderId": 980,
-      "Rank": 980,
-      "Phone": "(110)319-6565 x95180",
+      "StakeholderRoleName": "Harvey-Erdman",
+      "Comment": "mollitia",
+      "StakeholderRoleId": 953,
+      "CountryId": 753,
+      "PersonId": 917,
+      "EmailDescription": "elda.abshire@kulas.ca",
+      "EmailId": 376,
+      "EmailAddress": "devyn@walshjakubowski.co.uk",
+      "PhoneId": 768,
+      "ContactName": "Kuvalis-Erdman",
+      "ContactId": 382,
+      "SaleId": 116,
+      "Mrmrs": "unde",
+      "Firstname": "Florencio",
+      "MiddleName": "Hermann-Turner",
+      "Lastname": "Shields",
+      "SaleStakeholderId": 337,
+      "Rank": 256,
+      "Phone": "1-494-763-8082",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldLength": 650
         }
       }
     }
   ],
-  "ActiveErpLinks": 612,
+  "ActiveErpLinks": 586,
   "UserDefinedFields": {
-    "SuperOffice:1": "Jamey Yost",
-    "SuperOffice:2": "Beth Marks"
+    "SuperOffice:1": "Miss Cassidy Lila Zulauf",
+    "SuperOffice:2": "Anibal Wiza"
   },
   "ExtraFields": {
-    "ExtraFields1": "natus",
+    "ExtraFields1": "et",
     "ExtraFields2": "cupiditate"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "nisi"
+    "CustomFields1": "repellendus",
+    "CustomFields2": "occaecati"
   },
-  "PublishEventDate": "2007-04-27T03:51:28.0996448+02:00",
-  "PublishTo": "2023-04-04T03:51:28.0996448+02:00",
-  "PublishFrom": "2010-01-27T03:51:28.0996448+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1996-09-21T16:00:41.7581821+02:00",
+  "PublishTo": "2006-11-15T16:00:41.7581821+01:00",
+  "PublishFrom": "2023-02-27T16:00:41.7581821+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 937,
+      "VisibleId": 210,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 256
+          "FieldLength": 59
         }
       }
     },
     {
-      "VisibleId": 937,
+      "VisibleId": 210,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 256
+          "FieldLength": 59
         }
       }
     }
@@ -394,7 +395,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 472
     }
   }
 }

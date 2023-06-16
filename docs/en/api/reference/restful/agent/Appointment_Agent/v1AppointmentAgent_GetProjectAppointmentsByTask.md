@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetProjectAppointmentsByTask
 uid: v1AppointmentAgent_GetProjectAppointmentsByTask
+generated: true
 ---
 
 # POST Agents/Appointment/GetProjectAppointmentsByTask
@@ -117,6 +118,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -126,15 +130,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 334,
-  "StartTime": "2015-01-17T03:51:26.1157305+01:00",
-  "EndTime": "1998-08-27T03:51:26.1157305+02:00",
-  "Count": 256,
-  "TaskId": 522
+  "ProjectId": 772,
+  "StartTime": "2015-11-08T16:00:39.6019823+01:00",
+  "EndTime": "1999-11-29T16:00:39.6019823+01:00",
+  "Count": 72,
+  "TaskId": 415
 }
 ```
 
@@ -146,61 +150,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 630,
-    "StartDate": "2010-05-05T03:51:26.1157305+02:00",
-    "EndDate": "1997-03-19T03:51:26.1157305+01:00",
+    "AppointmentId": 109,
+    "StartDate": "2011-05-14T16:00:39.6019823+02:00",
+    "EndDate": "2003-11-22T16:00:39.6019823+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Janelle Braun",
-    "ContactName": "Donnelly-Ziemann",
-    "Description": "Seamless multi-state methodology",
-    "PersonFullName": "Phyllis Borer",
-    "PersonId": 507,
-    "ContactId": 378,
-    "ProjectId": 29,
-    "ProjectName": "Kreiger LLC",
-    "IsPublished": false,
-    "AssociateId": 576,
-    "ColorIndex": 812,
-    "IsFree": true,
+    "Task": "illo",
+    "AssociateFullName": "Vernon Lindgren",
+    "ContactName": "Hand, Leffler and Ritchie",
+    "Description": "Inverse assymetric methodology",
+    "PersonFullName": "Annamarie Grimes DDS",
+    "PersonId": 345,
+    "ContactId": 195,
+    "ProjectId": 225,
+    "ProjectName": "Bernier-Bruen",
+    "IsPublished": true,
+    "AssociateId": 147,
+    "ColorIndex": 669,
+    "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 629,
-    "PriorityName": "Rogahn Group",
+    "PriorityId": 296,
+    "PriorityName": "Gusikowski-Wyman",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2019-09-28T03:51:26.1157305+02:00",
+    "ActiveDate": "2021-12-20T16:00:39.6019823+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-10-31T03:51:26.1157305+01:00",
-    "RecurringEndDate": "2008-10-04T03:51:26.1157305+02:00",
-    "MotherId": 320,
-    "AssignedBy": 289,
-    "AssignedByFullName": "Carol Mills",
+    "RecurringStartDate": "2022-11-19T16:00:39.6019823+01:00",
+    "RecurringEndDate": "2000-10-12T16:00:39.6019823+02:00",
+    "MotherId": 973,
+    "AssignedBy": 110,
+    "AssignedByFullName": "Mrs. Afton Guiseppe Smitham PhD",
     "RejectReason": "",
-    "Location": "consequuntur",
-    "AlarmLeadTime": "omnis",
-    "SaleId": 582,
-    "SaleName": "Huel-Abshire",
-    "AssociateName": "Ondricka-Pacocha",
-    "CreatedDate": "1996-12-07T03:51:26.1157305+01:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Ms. Adrien Hyatt",
-    "CreatedByAssociateId": 378,
+    "Location": "voluptate",
+    "AlarmLeadTime": "quia",
+    "SaleId": 990,
+    "SaleName": "Gusikowski-VonRueden",
+    "AssociateName": "Schultz-Gutkowski",
+    "CreatedDate": "2011-04-26T16:00:39.6019823+02:00",
+    "CreatedBy": "nostrum",
+    "CreatedByFullName": "Nayeli Green",
+    "CreatedByAssociateId": 833,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "qui",
+    "Agenda": "libero",
+    "InternalNotes": "delectus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 178
+        "FieldLength": 669
       }
     }
   }

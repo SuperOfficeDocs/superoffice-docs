@@ -1,6 +1,7 @@
 ---
 title: GET List/MrMrs/MDOItems
 uid: v1MrMrsList_GetMDOList
+generated: true
 ---
 
 # GET List/MrMrs/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=est
+GET /api/v1/List/MrMrs/MDOItems?query=porro
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 544,
-    "Name": "Funk LLC",
-    "ToolTip": "Quos ex eos laboriosam perferendis nihil voluptate.",
+    "Id": 798,
+    "Name": "Franecki LLC",
+    "ToolTip": "Velit similique ab vero quam.",
     "Deleted": true,
-    "Rank": 505,
-    "Type": "repellendus",
+    "Rank": 423,
+    "Type": "placeat",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Swaniawski, Nitzsche and Robel",
-        "ToolTip": "Sunt doloremque ut.",
+        "Id": 511,
+        "Name": "Lang LLC",
+        "ToolTip": "Deleniti vel numquam porro temporibus.",
         "Deleted": false,
-        "Rank": 707,
-        "Type": "eveniet",
+        "Rank": 713,
+        "Type": "incidunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "praesentium",
-        "ColorBlock": 44,
-        "ExtraInfo": "est",
-        "StyleHint": "beatae",
-        "FullName": "Mrs. Jailyn Laury Casper",
+        "IconHint": "consequatur",
+        "ColorBlock": 433,
+        "ExtraInfo": "possimus",
+        "StyleHint": "perferendis",
+        "FullName": "Darrick Barney Olson Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 500
+            "FieldLength": 808
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 529,
-    "ExtraInfo": "et",
-    "StyleHint": "ullam",
-    "FullName": "Paxton Simonis",
+    "IconHint": "enim",
+    "ColorBlock": 958,
+    "ExtraInfo": "laudantium",
+    "StyleHint": "neque",
+    "FullName": "Yadira Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 179
+        "FieldLength": 722
       }
     }
   }

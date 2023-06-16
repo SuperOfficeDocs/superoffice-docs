@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/RemoveSelectionMembersById
 uid: v1SelectionAgent_RemoveSelectionMembersById
+generated: true
 ---
 
 # POST Agents/Selection/RemoveSelectionMembersById
@@ -70,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 712,
+  "SelectionId": 720,
   "Ids": [
-    85,
-    33
+    257,
+    900
   ]
 }
 ```

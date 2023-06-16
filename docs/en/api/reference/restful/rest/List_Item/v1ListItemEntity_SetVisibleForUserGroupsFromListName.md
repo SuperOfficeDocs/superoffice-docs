@@ -1,6 +1,7 @@
 ---
 title: PUT List/{udListDefinitionName}/Items/{id}/UserGroups
 uid: v1ListItemEntity_SetVisibleForUserGroupsFromListName
+generated: true
 ---
 
 # PUT List/{udListDefinitionName}/Items/{id}/UserGroups
@@ -95,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Mante-Wiegand",
-    "ToolTip": "Recusandae veritatis.",
+    "Id": 7,
+    "Name": "Kovacek-Hand",
+    "ToolTip": "Ut impedit facere.",
     "Deleted": false,
-    "Rank": 95,
-    "Type": "non",
-    "ColorBlock": 254,
-    "IconHint": "similique",
-    "Selected": true,
-    "LastChanged": "2009-04-17T03:51:34.3490406+02:00",
+    "Rank": 962,
+    "Type": "corrupti",
+    "ColorBlock": 109,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "1998-12-06T16:00:48.8364781+01:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "DuBuque-Hoeger",
-        "ToolTip": "Magni mollitia nihil accusamus et rem perspiciatis autem.",
+        "Id": 975,
+        "Name": "Wilkinson-Lowe",
+        "ToolTip": "Ut dolor reiciendis explicabo sint cumque.",
         "Deleted": false,
-        "Rank": 861,
-        "Type": "voluptatem",
-        "ColorBlock": 268,
-        "IconHint": "harum",
-        "Selected": false,
-        "LastChanged": "2005-04-28T03:51:34.3490406+02:00",
+        "Rank": 809,
+        "Type": "non",
+        "ColorBlock": 461,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2012-07-14T16:00:48.8364781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "voluptatibus",
-        "Hidden": false,
-        "FullName": "Tremayne Isai Sauer V"
+        "ExtraInfo": "enim",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Drew Connelly"
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "odio",
+    "ExtraInfo": "non",
+    "StyleHint": "fugit",
     "Hidden": true,
-    "FullName": "Justice Bergstrom"
+    "FullName": "Jeromy Swaniawski"
   }
 ]
 ```
@@ -148,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Shanahan-Zulauf",
-    "ToolTip": "Maiores cupiditate.",
+    "Id": 844,
+    "Name": "Cartwright-Walker",
+    "ToolTip": "Quae voluptatibus ratione incidunt.",
     "Deleted": false,
-    "Rank": 812,
-    "Type": "qui",
-    "ColorBlock": 25,
-    "IconHint": "earum",
-    "Selected": true,
-    "LastChanged": "2016-07-12T03:51:34.3490406+02:00",
+    "Rank": 991,
+    "Type": "nisi",
+    "ColorBlock": 27,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2017-10-03T16:00:48.8364781+02:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Kemmer Group",
-        "ToolTip": "Natus aut aut ut vero.",
+        "Id": 460,
+        "Name": "Huels Inc and Sons",
+        "ToolTip": "Voluptate similique veniam ut sit rerum totam molestias.",
         "Deleted": false,
-        "Rank": 36,
-        "Type": "quo",
-        "ColorBlock": 390,
-        "IconHint": "aliquid",
+        "Rank": 711,
+        "Type": "saepe",
+        "ColorBlock": 530,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2000-12-15T03:51:34.3490406+01:00",
+        "LastChanged": "2008-08-25T16:00:48.8364781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Mr. Pamela Klocko DDS",
+        "FullName": "Savannah Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 48
+            "FieldLength": 22
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "dolorum",
-    "Hidden": true,
-    "FullName": "Prof. Guadalupe Ronny Kautzer III",
+    "ExtraInfo": "non",
+    "StyleHint": "necessitatibus",
+    "Hidden": false,
+    "FullName": "Kailyn Reichel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 145
+        "FieldType": "System.Int32",
+        "FieldLength": 166
       }
     }
   }

@@ -1,17 +1,11 @@
 ---
 uid: quotelinestatus
 title: quotelinestatus
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "quotelinestatus"
+keywords: mdoprovider mdo provider quotelinestatus
+description: Hard-coded list of values for the QuoteLine.Status field, see <see cref="T:SuperOffice.Data.QuoteStatus" /> enum.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "quotelinestatus" MDO List

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetFunctionalRights
 uid: v1UserAgent_GetFunctionalRights
+generated: true
 ---
 
 # POST Agents/User/GetFunctionalRights
@@ -91,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 171
+  "RoleId": 424
 }
 ```
 
@@ -107,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 315,
-    "Name": "Yost-Marks",
-    "ToolTip": "Mollitia expedita sequi numquam.",
+    "Id": 937,
+    "Name": "Simonis Inc and Sons",
+    "ToolTip": "Illo veritatis eveniet.",
     "Deleted": false,
-    "Rank": 212,
-    "Type": "adipisci",
-    "ColorBlock": 15,
-    "IconHint": "est",
+    "Rank": 299,
+    "Type": "placeat",
+    "ColorBlock": 839,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "1997-11-04T03:51:28.4901768+01:00",
+    "LastChanged": "2000-01-28T16:00:42.3206172+01:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Kling Group",
-        "ToolTip": "Commodi voluptatum voluptatem.",
+        "Id": 496,
+        "Name": "Jaskolski LLC",
+        "ToolTip": "Dolorem delectus consequatur blanditiis.",
         "Deleted": true,
-        "Rank": 780,
-        "Type": "dicta",
-        "ColorBlock": 684,
-        "IconHint": "et",
+        "Rank": 595,
+        "Type": "ea",
+        "ColorBlock": 578,
+        "IconHint": "debitis",
         "Selected": true,
-        "LastChanged": "1999-06-19T03:51:28.4901768+02:00",
+        "LastChanged": "2002-10-05T16:00:42.3206172+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "illum",
-        "Hidden": false,
-        "FullName": "Grace Jakubowski DVM",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "dolor",
+        "Hidden": true,
+        "FullName": "Stefanie Mante",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 637
+            "FieldType": "System.Int32",
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Tamia Bradtke",
+    "ExtraInfo": "ullam",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Miss Kip Thea Hand PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 229
+        "FieldLength": 513
       }
     }
   }

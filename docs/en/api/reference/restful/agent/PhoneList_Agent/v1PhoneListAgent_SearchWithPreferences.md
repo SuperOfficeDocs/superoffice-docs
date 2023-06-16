@@ -1,6 +1,7 @@
 ---
 title: POST Agents/PhoneList/SearchWithPreferences
 uid: v1PhoneListAgent_SearchWithPreferences
+generated: true
 ---
 
 # POST Agents/PhoneList/SearchWithPreferences
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "veniam",
+  "SearchString": "esse",
   "Preferences": null
 }
 ```
@@ -101,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "836-545-5292 x93740",
-    "PersonCellPhone": "051-991-2309 x798",
-    "PersonPrivatePhone": "576-917-1944 x410",
-    "PersonFaxNumber": "1389460",
-    "PersonPagerNumber": "589389",
-    "PersonEmail": "hallie@shields.biz",
-    "Id": 327,
-    "Name": "Parisian-Barrows",
-    "Tooltip": "qui",
-    "UniqueId": "vitae",
+    "PersonDirectPhone": "064.797.8924",
+    "PersonCellPhone": "110-103-8228",
+    "PersonPrivatePhone": "697.131.1720",
+    "PersonFaxNumber": "1578440",
+    "PersonPagerNumber": "1045523",
+    "PersonEmail": "ephraim@runtetorphy.biz",
+    "Id": 611,
+    "Name": "Lehner-Champlin",
+    "Tooltip": "quaerat",
+    "UniqueId": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldType": "System.String",
+        "FieldLength": 743
       }
     }
   }

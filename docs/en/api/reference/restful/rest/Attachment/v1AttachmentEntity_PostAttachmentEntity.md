@@ -1,6 +1,7 @@
 ---
 title: POST Attachment
 uid: v1AttachmentEntity_PostAttachmentEntity
+generated: true
 ---
 
 # POST Attachment
@@ -87,17 +88,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 73,
-  "Name": "Dickens LLC",
-  "ContentType": "nisi",
-  "AttSize": 184,
-  "InlineImage": false,
-  "ContentId": "laboriosam",
-  "AuthKey": "non"
+  "AttachmentId": 837,
+  "Name": "Bailey-Breitenberg",
+  "ContentType": "et",
+  "AttSize": 66,
+  "InlineImage": true,
+  "ContentId": "doloremque",
+  "AuthKey": "corrupti"
 }
 ```
 
@@ -108,19 +109,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 61,
-  "Name": "Schmitt Group",
-  "ContentType": "quae",
-  "AttSize": 958,
-  "InlineImage": true,
-  "ContentId": "eius",
-  "AuthKey": "distinctio",
+  "AttachmentId": 672,
+  "Name": "Wolff-Rohan",
+  "ContentType": "voluptatum",
+  "AttSize": 268,
+  "InlineImage": false,
+  "ContentId": "quia",
+  "AuthKey": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 117
+      "FieldLength": 423
     }
   },
   "_Links": {

@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketCategory/Headings
 uid: v1TicketCategoryList_GetTicketCategoryEntityHeadings
+generated: true
 ---
 
 # GET List/TicketCategory/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 345,
-    "Name": "Gleason, Rippin and Quigley",
-    "Tooltip": "alias",
+    "HeadingId": 594,
+    "Name": "D'Amore Group",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 308,
-    "UdListDefinitionId": 116,
+    "Rank": 237,
+    "UdListDefinitionId": 740,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldType": "System.String",
+        "FieldLength": 145
       }
     }
   }

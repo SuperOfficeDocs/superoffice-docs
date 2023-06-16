@@ -2,17 +2,10 @@
 uid: SaintPerson
 title: SaintPerson
 description: Archive provider for Contact Saint Status - same as Find Contact, but adds ability to call up stored definitions via a statusDefId column
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SaintPerson"
+keywords: SaintPerson archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SaintPerson"
@@ -128,6 +121,10 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
 |contactAssociate/role|listAny|Role : Role| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactAssociate/assocName|associate|User ID : User ID| x |
 |contactAssociate/assocTooltip|string|Description : Description|  |
 |contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
@@ -228,6 +225,10 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sourceRelation/contactSource|listAny|Source - Source: Source (Company)| x |
 |sourceRelation/contactDeleted|bool|Source - Deleted: Deleted| x |
 |sourceRelation/activeErpLinks|bool|Source - ERP connected: Is there an active ERP Sync?| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sourceRelation/deletedDate|datetime|Source - Deleted date: Deleted date|  |
 |sourceRelation/mainContact| *None* |Source - Main contact: Main contact for this company| x |
 |sourceRelation/restrictionContactId|int|Source - Company ID: Database ID of company to fetch relations for|  |
@@ -328,6 +329,10 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/associate/associateDbId|associate|ID| x |
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
@@ -428,6 +433,10 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |appointment/associate/contactCategory|listAny|Category: Category| x |
 |appointment/associate/role|listAny|Role : Role| x |
 |appointment/associate/assocName|associate|User ID : User ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/associate/assocTooltip|string|Description : Description|  |
 |appointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |appointment/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
@@ -528,6 +537,10 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |middleName|string|Middle name: Displays the contact's middle name.| x |
 |fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
 |personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |position|listAny|Position| x |
 |personNumber|string|Number: Displays the contact's number| x |
@@ -628,6 +641,10 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
 |personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
 |personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
@@ -709,7 +726,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintPerson?$select=nameDepartment,NumberOfNotCompletedTicketsInPeriod,appointment/completedDate,personEmail/emailHasBounced,subscription
+GET /api/v1/archive/SaintPerson?$select=restrictionAddress/wgs84longitude,sourceRelation/activeErpLinks,sale/saleUdef/SuperOffice:7,appointment/projectId,appointment/booking
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

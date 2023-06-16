@@ -1,6 +1,7 @@
 ---
 title: PUT List/Priority/Items/{id}/UserGroups
 uid: v1PriorityList_PutPriorityUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/Priority/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Ziemann, Schulist and Hahn",
-    "ToolTip": "Cupiditate sit molestiae.",
-    "Deleted": true,
-    "Rank": 599,
-    "Type": "nihil",
-    "ColorBlock": 529,
-    "IconHint": "enim",
-    "Selected": true,
-    "LastChanged": "2013-05-30T03:51:34.7864536+02:00",
+    "Id": 302,
+    "Name": "Wisozk, Steuber and Effertz",
+    "ToolTip": "Adipisci omnis.",
+    "Deleted": false,
+    "Rank": 751,
+    "Type": "et",
+    "ColorBlock": 417,
+    "IconHint": "porro",
+    "Selected": false,
+    "LastChanged": "2015-07-30T16:00:49.133322+02:00",
     "ChildItems": [
       {
-        "Id": 940,
-        "Name": "Corkery, Waters and Ondricka",
-        "ToolTip": "Incidunt maxime placeat autem blanditiis vel.",
-        "Deleted": true,
-        "Rank": 951,
-        "Type": "quo",
-        "ColorBlock": 280,
-        "IconHint": "et",
+        "Id": 963,
+        "Name": "Hahn-Gorczany",
+        "ToolTip": "Voluptatem necessitatibus nihil.",
+        "Deleted": false,
+        "Rank": 306,
+        "Type": "aperiam",
+        "ColorBlock": 924,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2019-08-08T03:51:34.7864536+02:00",
+        "LastChanged": "2009-09-19T16:00:49.133322+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Dr. Vivian Dovie Quigley"
+        "FullName": "Marvin Legros MD"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "debitis",
+    "ExtraInfo": "repellat",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Adelbert Wolf"
+    "FullName": "Ms. Augustine Gaylord"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 398,
-    "Name": "Sauer, Rath and Zemlak",
-    "ToolTip": "Eum itaque repudiandae libero quis voluptatem error libero.",
+    "Id": 458,
+    "Name": "Grady Inc and Sons",
+    "ToolTip": "Dolores non illo.",
     "Deleted": false,
-    "Rank": 208,
-    "Type": "est",
-    "ColorBlock": 925,
-    "IconHint": "nisi",
+    "Rank": 450,
+    "Type": "reprehenderit",
+    "ColorBlock": 855,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "2000-12-05T03:51:34.7864536+01:00",
+    "LastChanged": "2015-06-04T16:00:49.133322+02:00",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Upton-Dickens",
-        "ToolTip": "Ut occaecati provident iusto officia quaerat repellendus laboriosam.",
-        "Deleted": true,
-        "Rank": 661,
-        "Type": "at",
-        "ColorBlock": 727,
-        "IconHint": "nisi",
+        "Id": 446,
+        "Name": "Auer Group",
+        "ToolTip": "Dolorem nesciunt magnam at veritatis unde.",
+        "Deleted": false,
+        "Rank": 619,
+        "Type": "consectetur",
+        "ColorBlock": 134,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2005-07-23T03:51:34.7864536+02:00",
+        "LastChanged": "2013-05-14T16:00:49.133322+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Gabrielle Kertzmann",
+        "ExtraInfo": "sit",
+        "StyleHint": "ipsa",
+        "Hidden": false,
+        "FullName": "Miss Ethyl Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 208
+            "FieldType": "System.Int32",
+            "FieldLength": 740
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Jarret Bayer",
+    "ExtraInfo": "aut",
+    "StyleHint": "dicta",
+    "Hidden": true,
+    "FullName": "Dina Tate Streich I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 729
+        "FieldLength": 320
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: PUT List/Priority/Items/{id}/Headings
 uid: v1PriorityList_PutPriorityHeadingsForListItem
+generated: true
 ---
 
 # PUT List/Priority/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Rohan LLC",
-    "ToolTip": "Alias repellat qui.",
+    "Id": 819,
+    "Name": "Rippin-Goodwin",
+    "ToolTip": "Dicta nam blanditiis error.",
     "Deleted": true,
-    "Rank": 99,
-    "Type": "voluptate",
-    "ColorBlock": 213,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2006-11-12T03:51:34.7864536+01:00",
+    "Rank": 826,
+    "Type": "omnis",
+    "ColorBlock": 232,
+    "IconHint": "quam",
+    "Selected": false,
+    "LastChanged": "2018-11-26T16:00:49.133322+01:00",
     "ChildItems": [
       {
-        "Id": 795,
-        "Name": "Quigley-Schuppe",
-        "ToolTip": "Libero mollitia sit quo cum.",
+        "Id": 463,
+        "Name": "Luettgen LLC",
+        "ToolTip": "Voluptates necessitatibus sequi fugiat.",
         "Deleted": false,
-        "Rank": 327,
-        "Type": "praesentium",
-        "ColorBlock": 915,
-        "IconHint": "illo",
+        "Rank": 903,
+        "Type": "sunt",
+        "ColorBlock": 543,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "2018-08-31T03:51:34.7864536+02:00",
+        "LastChanged": "2016-02-16T16:00:49.133322+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "explicabo",
-        "Hidden": false,
-        "FullName": "Reese Kohler I"
+        "ExtraInfo": "ipsum",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Trisha Robel"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "neque",
+    "ExtraInfo": "sunt",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Caitlyn Bergstrom"
+    "FullName": "Blanca Grant"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 801,
-    "Name": "Mayert-Barton",
-    "ToolTip": "Aut rerum doloribus nam aliquam corrupti iure.",
-    "Deleted": false,
-    "Rank": 255,
-    "Type": "et",
-    "ColorBlock": 143,
-    "IconHint": "corrupti",
+    "Id": 450,
+    "Name": "DuBuque-Weber",
+    "ToolTip": "Architecto ratione reprehenderit.",
+    "Deleted": true,
+    "Rank": 676,
+    "Type": "dolore",
+    "ColorBlock": 467,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2000-04-12T03:51:34.7864536+02:00",
+    "LastChanged": "1998-02-07T16:00:49.133322+01:00",
     "ChildItems": [
       {
-        "Id": 160,
-        "Name": "Rodriguez, Mertz and Hahn",
-        "ToolTip": "Est repudiandae omnis praesentium autem et.",
+        "Id": 240,
+        "Name": "Bogisich LLC",
+        "ToolTip": "Enim saepe quis.",
         "Deleted": false,
-        "Rank": 386,
-        "Type": "officia",
-        "ColorBlock": 592,
-        "IconHint": "veniam",
+        "Rank": 306,
+        "Type": "dolorum",
+        "ColorBlock": 863,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "1999-06-04T03:51:34.7864536+02:00",
+        "LastChanged": "2005-04-03T16:00:49.133322+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "dolor",
+        "ExtraInfo": "corporis",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Ms. Elmore Amelia Kautzer I",
+        "FullName": "Rudolph Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 444
+            "FieldLength": 801
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "optio",
+    "ExtraInfo": "fugit",
+    "StyleHint": "dolorem",
     "Hidden": true,
-    "FullName": "Prof. Murphy Douglas",
+    "FullName": "Oliver Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 172
+        "FieldType": "System.Int32",
+        "FieldLength": 651
       }
     }
   }

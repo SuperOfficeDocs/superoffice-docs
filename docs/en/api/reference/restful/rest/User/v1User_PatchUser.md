@@ -1,6 +1,7 @@
 ---
 title: PATCH User/{id}
 uid: v1User_PatchUser
+generated: true
 ---
 
 # PATCH User/{id}
@@ -134,18 +135,18 @@ User  updated.
 PATCH /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repellendus",
+    "path": "voluptas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repellendus",
+    "path": "voluptas",
     "value": {}
   }
 ]
@@ -158,14 +159,14 @@ HTTP/1.1 200 User  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 449,
-  "Name": "Gusikowski, Schaefer and Morissette",
-  "Rank": 265,
-  "Tooltip": "eveniet",
+  "AssociateId": 790,
+  "Name": "Gulgowski, Nienow and Koelpin",
+  "Rank": 866,
+  "Tooltip": "voluptatum",
   "LicenseOwners": [
     {
-      "Name": "Rohan-Russel",
-      "Description": "Synergistic 24/7 portal",
+      "Name": "Kunde-Howe",
+      "Description": "Multi-lateral non-volatile moderator",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -179,13 +180,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldLength": 685
         }
       }
     },
     {
-      "Name": "Rohan-Russel",
-      "Description": "Synergistic 24/7 portal",
+      "Name": "Kunde-Howe",
+      "Description": "Multi-lateral non-volatile moderator",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -199,7 +200,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldLength": 685
         }
       }
     }
@@ -208,110 +209,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sunt",
-      "Tooltip": "aperiam",
-      "Id": 813,
-      "Rank": 842,
-      "Deleted": true,
+      "Value": "laborum",
+      "Tooltip": "voluptatem",
+      "Id": 60,
+      "Rank": 502,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 24
+          "FieldType": "System.String",
+          "FieldLength": 941
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2000-08-28T03:51:34.3021806+02:00",
-  "Lastlogout": "2012-07-12T03:51:34.3021806+02:00",
-  "EjUserId": 252,
-  "RequestSignature": "non",
+  "Lastlogin": "2016-12-31T16:00:48.7739843+01:00",
+  "Lastlogout": "2023-06-08T16:00:48.7739843+02:00",
+  "EjUserId": 401,
+  "RequestSignature": "quia",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "recusandae",
-      "DisplayValue": "quia",
+      "Value": "assumenda",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 552
+          "FieldLength": 134
         }
       }
     },
     {
       "Type": null,
-      "Value": "recusandae",
-      "DisplayValue": "quia",
+      "Value": "assumenda",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 552
+          "FieldLength": 134
         }
       }
     }
   ],
-  "UserName": "Strosin LLC",
+  "UserName": "McKenzie, Klocko and Jakubowski",
   "TicketCategories": [
     {
-      "Id": 666,
-      "Name": "Oberbrunner-Dach",
-      "ToolTip": "Provident quisquam dicta.",
-      "Deleted": false,
-      "Rank": 543,
-      "Type": "praesentium",
+      "Id": 646,
+      "Name": "Gerhold, Kuvalis and Kuhic",
+      "ToolTip": "Aliquam fuga et ut.",
+      "Deleted": true,
+      "Rank": 678,
+      "Type": "ea",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "facilis",
-      "ColorBlock": 625,
-      "ExtraInfo": "expedita",
-      "StyleHint": "reprehenderit",
-      "FullName": "Bernardo Ondricka I",
+      "IconHint": "aut",
+      "ColorBlock": 855,
+      "ExtraInfo": "nemo",
+      "StyleHint": "rerum",
+      "FullName": "Melany VonRueden",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 725
+          "FieldLength": 203
         }
       }
     }
   ],
-  "NickName": "Purdy, Prohaska and Lubowitz",
+  "NickName": "Larkin-Spinka",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "explicabo"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "a",
-    "CustomFields2": "dolor"
+    "CustomFields1": "debitis",
+    "CustomFields2": "et"
   },
   "PostSaveCommands": [
     {
-      "Name": "Lubowitz-Larkin",
-      "DisplayName": "Considine LLC",
-      "Description": "Focused directional approach",
-      "ToolTip": "Necessitatibus velit illo.",
+      "Name": "Ebert LLC",
+      "DisplayName": "Ullrich, Harvey and Crooks",
+      "Description": "Reverse-engineered impactful archive",
+      "ToolTip": "Recusandae quisquam consequatur.",
       "Actions": "Implicit",
-      "ActionData": "exercitationem",
+      "ActionData": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldLength": 669
         }
       }
     }
@@ -320,8 +321,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldType": "System.String",
+      "FieldLength": 211
     }
   },
   "_Links": {

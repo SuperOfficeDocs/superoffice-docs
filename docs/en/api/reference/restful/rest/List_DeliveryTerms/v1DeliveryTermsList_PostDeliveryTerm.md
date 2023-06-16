@@ -1,6 +1,7 @@
 ---
 title: POST List/DeliveryTerm/Items
 uid: v1DeliveryTermsList_PostDeliveryTerm
+generated: true
 ---
 
 # POST List/DeliveryTerm/Items
@@ -76,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 742,
-  "Name": "Lebsack, Kemmer and Runte",
-  "Tooltip": "aut",
+  "Id": 203,
+  "Name": "Abshire, Rippin and Stiedemann",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 100,
-  "Rank": 141
+  "UdListDefinitionId": 310,
+  "Rank": 519
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 722,
-  "Name": "Keeling-Mann",
-  "Tooltip": "ducimus",
-  "Deleted": true,
-  "UdListDefinitionId": 600,
-  "Rank": 122,
+  "Id": 236,
+  "Name": "Cremin, Steuber and VonRueden",
+  "Tooltip": "dolores",
+  "Deleted": false,
+  "UdListDefinitionId": 410,
+  "Rank": 963,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldType": "System.String",
+      "FieldLength": 206
     }
   }
 }

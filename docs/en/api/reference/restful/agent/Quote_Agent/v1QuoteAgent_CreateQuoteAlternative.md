@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CreateQuoteAlternative
 uid: v1QuoteAgent_CreateQuoteAlternative
+generated: true
 ---
 
 # POST Agents/Quote/CreateQuoteAlternative
@@ -96,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 331,
-  "QuoteAlternativeName": "Connelly, Schmidt and King",
-  "QuoteAlternativeDescription": "Implemented bi-directional attitude"
+  "QuoteVersionId": 137,
+  "QuoteAlternativeName": "Vandervort-Hickle",
+  "QuoteAlternativeDescription": "Up-sized optimizing methodology"
 }
 ```
 
@@ -113,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 73,
-  "ERPQuoteAlternativeKey": "a",
-  "QuoteVersionId": 552,
-  "Name": "Blick-Wehner",
-  "Description": "Multi-lateral 5th generation hierarchy",
+  "QuoteAlternativeId": 182,
+  "ERPQuoteAlternativeKey": "aut",
+  "QuoteVersionId": 503,
+  "Name": "Heller-Hilpert",
+  "Description": "Proactive needs-based open system",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 7684.5679999999993,
-  "ERPDiscountAmount": 495.17199999999997,
-  "DiscountPercent": 1911.74,
-  "DiscountAmount": 17302.814,
+  "ERPDiscountPercent": 20424.278,
+  "ERPDiscountAmount": 18672.372,
+  "DiscountPercent": 25548.368,
+  "DiscountAmount": 23251.146,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "rerum",
-  "VAT": 115.958,
-  "EarningPercent": 21367.612,
-  "EarningAmount": 23978.234,
-  "SubTotal": 29218.282,
-  "TotalPrice": 8301.966,
-  "ExtraField1": "accusamus",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "et",
-  "ExtraField4": "quia",
-  "ExtraField5": "enim",
+  "VATInfo": "nam",
+  "VAT": 30757.075999999997,
+  "EarningPercent": 16976.878,
+  "EarningAmount": 16171.439999999999,
+  "SubTotal": 23790.194,
+  "TotalPrice": 23138.322,
+  "ExtraField1": "facilis",
+  "ExtraField2": "qui",
+  "ExtraField3": "fugiat",
+  "ExtraField4": "laborum",
+  "ExtraField5": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldType": "System.String",
+      "FieldLength": 305
     }
   }
 }

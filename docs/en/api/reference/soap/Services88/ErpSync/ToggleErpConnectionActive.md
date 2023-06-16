@@ -1,6 +1,6 @@
 ---
 title: Services88.ErpSyncAgent.ToggleErpConnectionActive SOAP
-generated: 1
+generated: true
 uid: Services88-ErpSync-ToggleErpConnectionActive
 ---
 

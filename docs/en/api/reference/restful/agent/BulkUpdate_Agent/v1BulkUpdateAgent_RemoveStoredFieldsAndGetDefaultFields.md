@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 uid: v1BulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields
+generated: true
 ---
 
 # POST Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
@@ -87,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Collins-Jewess",
-  "Context": "voluptatum"
+  "TableName": "Mertz-Bahringer",
+  "Context": "repellat"
 }
 ```
 
@@ -108,72 +109,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "quos",
-    "ValueType": "enim",
+    "Key": "soluta",
+    "ValueType": "dignissimos",
     "Mandatory": false,
-    "EncodedDisplayName": "Kertzmann, Stracke and O'Connell",
-    "EncodedDisplayDescription": "Synergized hybrid success",
-    "IconHint": "commodi",
+    "EncodedDisplayName": "Hettinger, Bogisich and Luettgen",
+    "EncodedDisplayDescription": "Switchable background open architecture",
+    "IconHint": "sed",
     "ControlInfos": [
       {
-        "Type": "optio",
-        "Label": "cupiditate",
-        "Dimension": 536,
-        "ListProviderName": "Emard Group",
-        "ListProviderExtraInfo": "laboriosam",
-        "ListProviderPrimaryKeyName": "Deckow-Mraz",
-        "ListLeadText": "cupiditate",
+        "Type": "eligendi",
+        "Label": "mollitia",
+        "Dimension": 222,
+        "ListProviderName": "Murazik LLC",
+        "ListProviderExtraInfo": "assumenda",
+        "ListProviderPrimaryKeyName": "Keeling-Zemlak",
+        "ListLeadText": "rerum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 980
+            "FieldLength": 358
           }
         }
       }
     ],
-    "EncodedDataCaption": "voluptatibus",
-    "EncodedDataCaptionDescription": "Versatile local alliance",
-    "CurrentOperationType": "ut",
+    "EncodedDataCaption": "placeat",
+    "EncodedDataCaptionDescription": "Implemented demand-driven productivity",
+    "CurrentOperationType": "quisquam",
     "Values": [
-      "et",
-      "ab"
+      "maiores",
+      "aut"
     ],
     "DisplayValues": [
-      "officiis",
-      "perferendis"
+      "omnis",
+      "et"
     ],
     "OperationInfos": [
       {
-        "Key": "voluptate",
-        "EncodedDisplayName": "Rogahn, Wyman and Daugherty",
+        "Key": "enim",
+        "EncodedDisplayName": "Farrell, Hettinger and Stamm",
         "EncodedLeadTexts": [
-          "itaque",
-          "suscipit"
+          "excepturi",
+          "soluta"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 402
+            "FieldType": "System.Int32",
+            "FieldLength": 378
           }
         }
       },
       {
-        "Key": "voluptate",
-        "EncodedDisplayName": "Rogahn, Wyman and Daugherty",
+        "Key": "enim",
+        "EncodedDisplayName": "Farrell, Hettinger and Stamm",
         "EncodedLeadTexts": [
-          "itaque",
-          "suscipit"
+          "excepturi",
+          "soluta"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 402
+            "FieldType": "System.Int32",
+            "FieldLength": 378
           }
         }
       }

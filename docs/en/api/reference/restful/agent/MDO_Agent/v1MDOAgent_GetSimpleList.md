@@ -1,6 +1,7 @@
 ---
 title: POST Agents/MDO/GetSimpleList
 uid: v1MDOAgent_GetSimpleList
+generated: true
 ---
 
 # POST Agents/MDO/GetSimpleList
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bergnaum Inc and Sons"
+  "Name": "Bailey-Deckow"
 }
 ```
 
@@ -99,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Morissette LLC",
-    "ToolTip": "Sint placeat consectetur aperiam quasi.",
+    "Id": 374,
+    "Name": "Reilly LLC",
+    "ToolTip": "Nobis reiciendis hic dolores vero sint.",
     "Deleted": false,
-    "Rank": 395,
-    "Type": "dolores",
+    "Rank": 979,
+    "Type": "esse",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Batz Inc and Sons",
-        "ToolTip": "Suscipit non in.",
+        "Id": 334,
+        "Name": "Bradtke LLC",
+        "ToolTip": "Quos ut.",
         "Deleted": false,
-        "Rank": 232,
-        "Type": "vitae",
+        "Rank": 965,
+        "Type": "facilis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 286,
-        "ExtraInfo": "eveniet",
-        "StyleHint": "qui",
-        "FullName": "Sherman Haven Reichel V",
+        "IconHint": "vel",
+        "ColorBlock": 220,
+        "ExtraInfo": "fugiat",
+        "StyleHint": "adipisci",
+        "FullName": "Fletcher Volkman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 793
+            "FieldLength": 997
           }
         }
       }
     ],
-    "IconHint": "ipsam",
-    "ColorBlock": 669,
-    "ExtraInfo": "est",
-    "StyleHint": "error",
-    "FullName": "Vinnie Feeney Jr.",
+    "IconHint": "cum",
+    "ColorBlock": 714,
+    "ExtraInfo": "officia",
+    "StyleHint": "deleniti",
+    "FullName": "Mr. Emery Kling Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldType": "System.String",
+        "FieldLength": 525
       }
     }
   }

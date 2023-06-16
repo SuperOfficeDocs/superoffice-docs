@@ -1,6 +1,6 @@
 ---
 title: Services88.EMailAgent.GetReadySyncEmailAccounts SOAP
-generated: 1
+generated: true
 uid: Services88-EMail-GetReadySyncEmailAccounts
 ---
 

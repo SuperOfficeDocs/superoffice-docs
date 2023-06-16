@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetPreferenceDescription
 uid: v1PreferenceAgent_GetPreferenceDescription
+generated: true
 ---
 
 # POST Agents/Preference/GetPreferenceDescription
@@ -25,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=898
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=9
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -83,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 468,
-  "Section": "saepe",
-  "Key": "ullam",
-  "Name": "Purdy Inc and Sons",
+  "PrefDescId": 230,
+  "Section": "soluta",
+  "Key": "et",
+  "Name": "Turcotte-Kozey",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-architected content-based migration",
-  "IsBuiltin": true,
-  "TableName": "Rutherford, Muller and Steuber",
-  "UserDefinedListId": 520,
-  "Rank": 798,
-  "SubGroup": "itaque",
-  "MinLevel": 934,
-  "MaxValue": 14,
-  "MinValue": 821,
-  "RequiredLicense": "iure",
+  "Description": "Phased bifurcated Graphic Interface",
+  "IsBuiltin": false,
+  "TableName": "Hansen-Fahey",
+  "UserDefinedListId": 467,
+  "Rank": 485,
+  "SubGroup": "earum",
+  "MinLevel": 277,
+  "MaxValue": 738,
+  "MinValue": 127,
+  "RequiredLicense": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 609
     }
   }
 }

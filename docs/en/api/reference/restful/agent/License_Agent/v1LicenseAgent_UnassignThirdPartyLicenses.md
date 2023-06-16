@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/UnassignThirdPartyLicenses
 uid: v1LicenseAgent_UnassignThirdPartyLicenses
+generated: true
 ---
 
 # POST Agents/License/UnassignThirdPartyLicenses
@@ -87,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 896,
+  "AssociateId": 737,
   "ModuleOwner": "consequatur",
   "ModuleLicenseNames": [
-    "Dickinson-Yundt",
-    "Goldner, Trantow and King"
+    "Steuber-Stoltenberg",
+    "Reichel, Sporer and Huels"
   ]
 }
 ```
@@ -108,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 973,
-    "Tooltip": "ullam",
-    "CanAssign": true,
-    "Free": 684,
-    "InUse": 385,
-    "IsHidden": true,
+    "Unrestricted": false,
+    "Total": 979,
+    "Tooltip": "tenetur",
+    "CanAssign": false,
+    "Free": 24,
+    "InUse": 74,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 528,
-    "Name": "Franecki Group",
-    "Description": "Compatible local intranet",
-    "PrerequisiteModuleName": "Hirthe Group",
-    "SortOrder": 22,
-    "ExtraFlags": 171,
+    "ModuleLicenseId": 292,
+    "Name": "Pacocha Inc and Sons",
+    "Description": "Advanced client-driven array",
+    "PrerequisiteModuleName": "O'Hara-Lebsack",
+    "SortOrder": 757,
+    "ExtraFlags": 248,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldType": "System.String",
+        "FieldLength": 483
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetForeignDevice
 uid: v1ForeignSystemAgent_GetForeignDevice
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetForeignDevice
@@ -25,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=705
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=447
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -84,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 913,
-  "Name": "Greenfelder, Von and Harber",
-  "CreatedDate": "2017-02-05T03:51:27.3498217+01:00",
-  "UpdatedDate": "1997-01-28T03:51:27.3498217+01:00",
-  "AssociateFullName": "Kareem Ezra Swift MD",
-  "CreatedBy": "eos",
-  "UpdatedBy": "est",
-  "DeviceIdentifier": "fugiat",
-  "ForeignAppId": 924,
+  "ForeignDeviceId": 453,
+  "Name": "Bode, Graham and Zieme",
+  "CreatedDate": "2008-09-07T16:00:41.0705907+02:00",
+  "UpdatedDate": "2005-10-06T16:00:41.0705907+02:00",
+  "AssociateFullName": "Prof. Chance Lydia Kuvalis III",
+  "CreatedBy": "est",
+  "UpdatedBy": "pariatur",
+  "DeviceIdentifier": "perferendis",
+  "ForeignAppId": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldType": "System.String",
+      "FieldLength": 216
     }
   }
 }

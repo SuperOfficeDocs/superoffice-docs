@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/CreateDefaultPreference
 uid: v1PreferenceAgent_CreateDefaultPreference
+generated: true
 ---
 
 # POST Agents/Preference/CreateDefaultPreference
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "similique",
+  "RawValue": "eos",
   "Specification": null,
-  "DisplayValue": "enim",
-  "DisplayTooltip": "necessitatibus",
+  "DisplayValue": "eligendi",
+  "DisplayTooltip": "quo",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 613,
-  "PrefDescId": 300,
-  "TableName": "Langosh Inc and Sons",
-  "UserPreferenceId": 722,
+  "TargetId": 327,
+  "PrefDescId": 545,
+  "TableName": "Bergstrom, Walsh and Armstrong",
+  "UserPreferenceId": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 75
     }
   }
 }

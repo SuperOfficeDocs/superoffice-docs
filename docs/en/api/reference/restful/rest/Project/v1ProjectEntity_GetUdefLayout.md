@@ -1,6 +1,7 @@
 ---
 title: GET Project/UdefLayout
 uid: v1ProjectEntity_GetUdefLayout
+generated: true
 ---
 
 # GET Project/UdefLayout
@@ -89,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 749,
-    "ColumnId": 132,
-    "FieldDefault": "odit",
-    "FieldHeight": 787,
-    "FieldLabel": "totam",
-    "FieldLeft": 613,
-    "FieldTop": 668,
+    "UDefFieldId": 3,
+    "ColumnId": 765,
+    "FieldDefault": "minima",
+    "FieldHeight": 386,
+    "FieldLabel": "et",
+    "FieldLeft": 699,
+    "FieldTop": 182,
     "FieldType": "Checkbox",
-    "FieldWidth": 295,
-    "FormatMask": "sunt",
+    "FieldWidth": 24,
+    "FormatMask": "alias",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 239,
-    "LabelLeft": 832,
-    "LabelTop": 659,
-    "LabelWidth": 180,
-    "LastVersionId": 538,
-    "ListTableId": 767,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 119,
+    "LabelLeft": 925,
+    "LabelTop": 817,
+    "LabelWidth": 680,
+    "LastVersionId": 312,
+    "ListTableId": 560,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 273,
-    "ProgId": "est",
+    "Page1LineNo": 365,
+    "ProgId": "in",
     "IsReadOnly": false,
-    "ShortLabel": "in",
-    "TabOrder": 260,
-    "TextLength": 453,
-    "Tooltip": "provident",
-    "UdefIdentity": 740,
-    "UDListDefinitionId": 232,
+    "ShortLabel": "sit",
+    "TabOrder": 922,
+    "TextLength": 552,
+    "Tooltip": "quas",
+    "UdefIdentity": 154,
+    "UDListDefinitionId": 851,
     "Justification": "Center",
-    "Version": 836,
-    "TemplateVariableName": "Nader Group",
-    "HasBeenPublished": false,
-    "MdoListName": "Kohler-Steuber",
+    "Version": 356,
+    "TemplateVariableName": "Rogahn Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Lakin Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 670
+        "FieldLength": 102
       }
     }
   }

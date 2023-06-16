@@ -1,6 +1,6 @@
 ---
 title: Services88.ProjectAgent.Merge SOAP
-generated: 1
+generated: true
 uid: Services88-Project-Merge
 ---
 

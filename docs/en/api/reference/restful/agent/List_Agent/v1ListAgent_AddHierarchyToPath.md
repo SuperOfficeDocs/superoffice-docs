@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/AddHierarchyToPath
 uid: v1ListAgent_AddHierarchyToPath
+generated: true
 ---
 
 # POST Agents/List/AddHierarchyToPath
@@ -83,13 +84,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "consequatur",
-  "Name": "Predovic Group"
+  "Path": "ea",
+  "Name": "Harber LLC"
 }
 ```
 
@@ -100,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 893,
+  "HierarchyId": 782,
   "Domain": "Dashboards",
-  "Name": "Hegmann LLC",
-  "Fullname": "incidunt",
-  "ParentId": 747,
+  "Name": "Stracke LLC",
+  "Fullname": "nesciunt",
+  "ParentId": 819,
   "Children": [
     {
-      "HierarchyId": 648,
+      "HierarchyId": 467,
       "Domain": "Dashboards",
-      "Name": "Cremin Group",
-      "Fullname": "et",
-      "ParentId": 735,
+      "Name": "Walsh LLC",
+      "Fullname": "voluptatem",
+      "ParentId": 562,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-05-02T03:51:27.4591714+02:00",
-      "RegisteredAssociateId": 544,
-      "Updated": "1999-09-10T03:51:27.4591714+02:00",
-      "UpdatedAssociateId": 10,
+      "Registered": "2008-12-02T16:00:41.1955783+01:00",
+      "RegisteredAssociateId": 543,
+      "Updated": "2013-12-23T16:00:41.1955783+01:00",
+      "UpdatedAssociateId": 910,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 46
+          "FieldLength": 538
         }
       }
     }
   ],
-  "Registered": "2001-12-25T03:51:27.4591714+01:00",
-  "RegisteredAssociateId": 372,
-  "Updated": "2008-10-19T03:51:27.4591714+02:00",
-  "UpdatedAssociateId": 474,
+  "Registered": "1996-05-10T16:00:41.1955783+02:00",
+  "RegisteredAssociateId": 603,
+  "Updated": "2001-04-13T16:00:41.1955783+02:00",
+  "UpdatedAssociateId": 60,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 838
+      "FieldType": "System.Int32",
+      "FieldLength": 435
     }
   }
 }

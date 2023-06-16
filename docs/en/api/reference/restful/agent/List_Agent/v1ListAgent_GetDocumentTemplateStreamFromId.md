@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetDocumentTemplateStreamFromId
 uid: v1ListAgent_GetDocumentTemplateStreamFromId
+generated: true
 ---
 
 # POST Agents/List/GetDocumentTemplateStreamFromId
@@ -68,12 +69,12 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 507,
-  "LanguageCode": "ex"
+  "DocumentTemplateId": 98,
+  "LanguageCode": "dolore"
 }
 ```
 

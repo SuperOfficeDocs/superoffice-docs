@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 uid: v1FindAgent_GetSpecifiedCriteriaInformationWithDefaults
+generated: true
 ---
 
 # POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
@@ -85,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eligendi",
-  "ProviderName": "Skiles-Sipes",
-  "StorageKey": "quos",
+  "StorageType": "aspernatur",
+  "ProviderName": "Johns LLC",
+  "StorageKey": "est",
   "DesiredColumnNames": [
-    "McClure, Abbott and Kirlin",
-    "Smitham, Hettinger and Dare"
+    "Weber-Crona",
+    "Bogisich, Ortiz and Herzog"
   ],
   "StaticColumns": [
-    "voluptatem",
-    "et"
+    "odit",
+    "dolor"
   ]
 }
 ```
@@ -108,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Bechtelar, Doyle and Daniel",
-      "Operator": "consequatur",
+      "Name": "Zemlak Group",
+      "Operator": "laboriosam",
       "Values": [
-        "a",
-        "iure"
+        "fugiat",
+        "fuga"
       ],
       "DisplayValues": [
-        "nisi",
-        "rerum"
+        "voluptatem",
+        "nam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -124,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 945,
+      "InterParenthesis": 730,
       "InterOperator": "And",
-      "UniqueHash": 962
+      "UniqueHash": 269
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Wolff Group",
-      "DisplayTooltip": "reiciendis",
-      "DisplayType": "omnis",
-      "CanOrderBy": false,
-      "Name": "Denesik-Cassin",
-      "CanRestrictBy": true,
+      "DisplayName": "Boyer Group",
+      "DisplayTooltip": "quia",
+      "DisplayType": "dolor",
+      "CanOrderBy": true,
+      "Name": "Sauer, Krajcik and Purdy",
+      "CanRestrictBy": false,
       "RestrictionType": "omnis",
-      "RestrictionListName": "Gulgowski-Mueller",
-      "IsVisible": true,
-      "ExtraInfo": "corporis",
-      "Width": "rerum",
-      "IconHint": "reiciendis",
-      "HeadingIconHint": "accusantium"
+      "RestrictionListName": "Cole, Keeling and Christiansen",
+      "IsVisible": false,
+      "ExtraInfo": "doloremque",
+      "Width": "error",
+      "IconHint": "possimus",
+      "HeadingIconHint": "eaque"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Heathcote-Becker",
-      "PrimaryKey": 58,
+      "EntityName": "Cruickshank-Hagenes",
+      "PrimaryKey": 76,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "harum",
-          "TooltipHint": "accusamus",
-          "LinkHint": "a"
+          "DisplayValue": "veniam",
+          "TooltipHint": "ex",
+          "LinkHint": "ratione"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "voluptatem",
+      "LinkHint": "velit",
+      "StyleHint": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 725
+          "FieldType": "System.Int32",
+          "FieldLength": 37
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Funk, Gerhold and Oberbrunner",
-      "Description": "Managed multi-tasking approach",
-      "Rank": 469,
+      "Name": "Sawayn Group",
+      "Description": "Implemented transitional product",
+      "Rank": 282,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Funk, Gerhold and Oberbrunner",
-      "Description": "Managed multi-tasking approach",
-      "Rank": 469,
+      "Name": "Sawayn Group",
+      "Description": "Implemented transitional product",
+      "Rank": 282,
       "Restrictions": [
         {},
         {}
@@ -193,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldType": "System.Int32",
+      "FieldLength": 759
     }
   }
 }

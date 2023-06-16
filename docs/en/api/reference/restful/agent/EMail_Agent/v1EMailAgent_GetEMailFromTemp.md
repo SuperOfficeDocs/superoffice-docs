@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetEMailFromTemp
 uid: v1EMailAgent_GetEMailFromTemp
+generated: true
 ---
 
 # POST Agents/EMail/GetEMailFromTemp
@@ -103,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Olson-Schoen"
+  "FileName": "Kris Group"
 }
 ```
 
@@ -116,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 683,
-      "ContactName": "Keeling Inc and Sons",
-      "PersonId": 756,
-      "PersonName": "Bahringer, Ondricka and Larson",
-      "AssociateId": 766,
-      "Address": "maiores",
-      "EmailId": 868,
+      "ContactId": 942,
+      "ContactName": "Prohaska Group",
+      "PersonId": 399,
+      "PersonName": "Harris, Welch and Stoltenberg",
+      "AssociateId": 12,
+      "Address": "aut",
+      "EmailId": 833,
       "DuplicatePersonIds": [
-        527,
-        668
+        460,
+        992
       ],
-      "Name": "Boehm, Aufderhar and Lockman",
+      "Name": "Cruickshank Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 149
+          "FieldLength": 732
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 1000,
-      "ContactName": "Maggio, Aufderhar and Lang",
-      "PersonId": 334,
-      "PersonName": "Gusikowski Group",
-      "AssociateId": 555,
-      "Address": "dolor",
-      "EmailId": 505,
+      "ContactId": 96,
+      "ContactName": "Okuneva-Batz",
+      "PersonId": 203,
+      "PersonName": "Zieme-Kunze",
+      "AssociateId": 895,
+      "Address": "neque",
+      "EmailId": 341,
       "DuplicatePersonIds": [
-        59,
-        835
+        331,
+        370
       ],
-      "Name": "Welch, Mohr and Green",
+      "Name": "Reinger Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 138
+          "FieldType": "System.Int32",
+          "FieldLength": 438
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 763,
-      "ContactName": "Franecki LLC",
-      "PersonId": 22,
-      "PersonName": "Kuhn, Dickens and Davis",
-      "AssociateId": 776,
-      "Address": "enim",
-      "EmailId": 59,
+      "ContactId": 673,
+      "ContactName": "Moore, Cronin and Weber",
+      "PersonId": 613,
+      "PersonName": "Williamson LLC",
+      "AssociateId": 636,
+      "Address": "suscipit",
+      "EmailId": 340,
       "DuplicatePersonIds": [
-        180,
-        581
+        509,
+        211
       ],
-      "Name": "Greenholt Group",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 97
-        }
-      }
-    }
-  ],
-  "Subject": "placeat",
-  "HTMLBody": "voluptates",
-  "From": null,
-  "Sent": "2021-11-10T03:51:27.2717144+01:00",
-  "Size": 82,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "cum",
-  "PlainBody": "aperiam",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 679,
-  "Attachments": [
-    {
-      "Description": "Customer-focused value-added initiative",
-      "Filename": "maxime",
-      "Size": 147,
-      "Type": "sed",
-      "Encoding": "quis",
-      "Id": "culpa",
-      "Disposition": "exercitationem",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Hilll, Bashirian and Schaden",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 869
+          "FieldLength": 134
+        }
+      }
+    }
+  ],
+  "Subject": "suscipit",
+  "HTMLBody": "tempora",
+  "From": null,
+  "Sent": "2001-06-01T16:00:40.9768577+02:00",
+  "Size": 202,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "in",
+  "PlainBody": "ea",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 298,
+  "Attachments": [
+    {
+      "Description": "Cloned even-keeled database",
+      "Filename": "minus",
+      "Size": 983,
+      "Type": "non",
+      "Encoding": "voluptatibus",
+      "Id": "commodi",
+      "Disposition": "neque",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 328
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Larson-O'Kon",
+      "Name": "Weimann-Bartoletti",
       "Values": [
-        "sint",
-        "ea"
+        "est",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldLength": 811
         }
       }
     },
     {
-      "Name": "Larson-O'Kon",
+      "Name": "Weimann-Bartoletti",
       "Values": [
-        "sint",
-        "ea"
+        "est",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldLength": 811
         }
       }
     }
   ],
-  "FolderName": "Deckow, Spencer and Koelpin",
-  "EmailItemId": 795,
-  "AccountId": 261,
-  "ReceivedAt": "2017-04-28T03:51:27.2717144+02:00",
+  "FolderName": "Nienow-Stoltenberg",
+  "EmailItemId": 448,
+  "AccountId": 813,
+  "ReceivedAt": "2015-01-09T16:00:40.9768577+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-09-12T03:51:27.2717144+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2012-12-09T16:00:40.9768577+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -264,7 +265,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldLength": 472
     }
   }
 }

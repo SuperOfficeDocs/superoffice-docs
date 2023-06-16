@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetPersonList
 uid: v1PersonAgent_GetPersonList
+generated: true
 ---
 
 # POST Agents/Person/GetPersonList
@@ -108,7 +109,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -119,52 +120,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ut",
-    "PersonId": 68,
-    "Mrmrs": "excepturi",
-    "Firstname": "Jeremie",
-    "Lastname": "Spinka",
-    "MiddleName": "Morissette, Mayert and Reichert",
-    "Title": "sint",
-    "Description": "Re-engineered full-range encryption",
-    "Email": "jean_bartell@fay.us",
-    "FullName": "Prof. Maryam Volkman III",
-    "DirectPhone": "(929)750-7412 x017",
-    "FormalName": "Boehm-Russel",
-    "CountryId": 250,
-    "ContactId": 716,
-    "ContactName": "Paucek, Sipes and Davis",
-    "Retired": 354,
-    "Rank": 271,
-    "ActiveInterests": 562,
+    "Position": "autem",
+    "PersonId": 713,
+    "Mrmrs": "aut",
+    "Firstname": "Jody",
+    "Lastname": "Marks",
+    "MiddleName": "Russel, Nitzsche and Ritchie",
+    "Title": "est",
+    "Description": "Innovative heuristic support",
+    "Email": "electa@haneschamberger.info",
+    "FullName": "Juwan Gaylord",
+    "DirectPhone": "1-372-388-8086 x792",
+    "FormalName": "Wolff Group",
+    "CountryId": 363,
+    "ContactId": 679,
+    "ContactName": "Hilpert Inc and Sons",
+    "Retired": 371,
+    "Rank": 537,
+    "ActiveInterests": 723,
     "ContactDepartment": "",
-    "ContactCountryId": 578,
-    "ContactOrgNr": "656840",
-    "FaxPhone": "1-536-829-4635 x40337",
-    "MobilePhone": "1-112-165-8557 x1559",
-    "ContactPhone": "784.809.2096 x9998",
-    "AssociateName": "Schoen, Mosciski and Cummerata",
-    "AssociateId": 606,
+    "ContactCountryId": 918,
+    "ContactOrgNr": "546370",
+    "FaxPhone": "004.382.2456",
+    "MobilePhone": "569.775.9652",
+    "ContactPhone": "1-997-678-2824",
+    "AssociateName": "Ankunding-Stark",
+    "AssociateId": 101,
     "UsePersonAddress": false,
-    "ContactFax": "unde",
-    "Kanafname": "aut",
-    "Kanalname": "hic",
-    "Post1": "delectus",
-    "Post2": "debitis",
-    "Post3": "id",
-    "EmailName": "giles.herman@willmsgerhold.ca",
-    "ContactFullName": "Pete Gerhold",
-    "ActiveErpLinks": 302,
-    "TicketPriorityId": 761,
-    "SupportLanguageId": 688,
-    "SupportAssociateId": 113,
+    "ContactFax": "accusantium",
+    "Kanafname": "quia",
+    "Kanalname": "officia",
+    "Post1": "fugiat",
+    "Post2": "voluptatem",
+    "Post3": "a",
+    "EmailName": "salvatore_hodkiewicz@rosenbaum.co.uk",
+    "ContactFullName": "Delbert Streich",
+    "ActiveErpLinks": 851,
+    "TicketPriorityId": 911,
+    "SupportLanguageId": 80,
+    "SupportAssociateId": 19,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 250
+        "FieldLength": 88
       }
     }
   }

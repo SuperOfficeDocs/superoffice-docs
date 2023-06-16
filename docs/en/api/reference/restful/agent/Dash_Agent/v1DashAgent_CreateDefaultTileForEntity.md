@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/CreateDefaultTileForEntity
 uid: v1DashAgent_CreateDefaultTileForEntity
+generated: true
 ---
 
 # POST Agents/Dash/CreateDefaultTileForEntity
@@ -81,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Tremblay, Hand and Koss"
+  "EntityName": "Fritsch-Gutmann"
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 465,
-  "DashboardId": 761,
-  "Height": 523,
-  "Width": 970,
-  "Rank": 760,
+  "DashboardTileId": 31,
+  "DashboardId": 232,
+  "Height": 367,
+  "Width": 102,
+  "Rank": 358,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 832
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: PUT Person/{id}/Consent/{purpose}
 uid: v1PersonEntity_SetConsent
+generated: true
 ---
 
 # PUT Person/{id}/Consent/{purpose}
@@ -31,9 +32,9 @@ Set a specified type of consent on the person.
 | comment | string |  A comment regarding this consent. May be null or empty. |
 
 ```http
-PUT /api/v1/Person/{personId}/Consent/{purpose}?source=est
-PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=non
-PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=debitis
+PUT /api/v1/Person/{personId}/Consent/{purpose}?source=esse
+PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=eos
+PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=eos
 ```
 
 
@@ -64,7 +65,7 @@ No Content
 PUT /api/v1/Person/{personId}/Consent/{purpose}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

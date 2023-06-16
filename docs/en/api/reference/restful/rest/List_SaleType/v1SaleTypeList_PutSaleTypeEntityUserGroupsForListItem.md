@@ -1,6 +1,7 @@
 ---
 title: PUT List/SaleType/Items/{id}/UserGroups
 uid: v1SaleTypeList_PutSaleTypeEntityUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/SaleType/Items/{id}/UserGroups
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Leffler, Ernser and Stokes",
-    "ToolTip": "Debitis molestias ut ea quaerat ut quaerat sunt.",
+    "Id": 446,
+    "Name": "Dach, Streich and Von",
+    "ToolTip": "Sed voluptatibus voluptatibus ducimus voluptate aut natus eius.",
     "Deleted": false,
-    "Rank": 302,
-    "Type": "quas",
-    "ColorBlock": 936,
-    "IconHint": "libero",
-    "Selected": false,
-    "LastChanged": "2022-06-19T03:51:34.9582718+02:00",
+    "Rank": 573,
+    "Type": "error",
+    "ColorBlock": 508,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2005-10-20T16:00:49.3208058+02:00",
     "ChildItems": [
       {
-        "Id": 289,
-        "Name": "Green LLC",
-        "ToolTip": "Amet quis quidem unde.",
-        "Deleted": true,
-        "Rank": 64,
-        "Type": "est",
-        "ColorBlock": 922,
-        "IconHint": "cum",
-        "Selected": true,
-        "LastChanged": "2003-03-15T03:51:34.9582718+01:00",
+        "Id": 805,
+        "Name": "Russel-Franecki",
+        "ToolTip": "Sint deserunt repellat ipsam nam consequatur et.",
+        "Deleted": false,
+        "Rank": 548,
+        "Type": "cum",
+        "ColorBlock": 750,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2010-04-26T16:00:49.3208058+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "praesentium",
+        "ExtraInfo": "animi",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Prof. Grace Connelly"
+        "FullName": "Jeremy Hintz"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "et",
+    "ExtraInfo": "est",
+    "StyleHint": "soluta",
     "Hidden": false,
-    "FullName": "Mrs. Brooklyn Sanford"
+    "FullName": "Abigail Tillman"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Weissnat-Nikolaus",
-    "ToolTip": "Perferendis quaerat nobis pariatur ea beatae.",
-    "Deleted": true,
-    "Rank": 137,
-    "Type": "ut",
-    "ColorBlock": 547,
-    "IconHint": "soluta",
+    "Id": 738,
+    "Name": "Koch LLC",
+    "ToolTip": "Tenetur dolore sapiente earum illum labore tempore exercitationem.",
+    "Deleted": false,
+    "Rank": 545,
+    "Type": "dolorem",
+    "ColorBlock": 431,
+    "IconHint": "quibusdam",
     "Selected": false,
-    "LastChanged": "1997-01-03T03:51:34.9582718+01:00",
+    "LastChanged": "1998-09-10T16:00:49.3208058+02:00",
     "ChildItems": [
       {
-        "Id": 135,
-        "Name": "Corwin-Hansen",
-        "ToolTip": "Ullam asperiores enim aspernatur in ipsum.",
-        "Deleted": false,
+        "Id": 429,
+        "Name": "O'Kon-Sauer",
+        "ToolTip": "Cupiditate aliquid est repudiandae est ea aut nobis.",
+        "Deleted": true,
         "Rank": 760,
-        "Type": "a",
-        "ColorBlock": 641,
-        "IconHint": "ipsa",
-        "Selected": true,
-        "LastChanged": "2012-06-09T03:51:34.9582718+02:00",
+        "Type": "accusamus",
+        "ColorBlock": 724,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2020-01-23T16:00:49.3208058+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "sequi",
+        "ExtraInfo": "omnis",
+        "StyleHint": "quam",
         "Hidden": true,
-        "FullName": "Hayley Mosciski",
+        "FullName": "Miss Rosanna Welch DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 256
+            "FieldType": "System.Int32",
+            "FieldLength": 486
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Ms. Kailey Olson",
+    "ExtraInfo": "error",
+    "StyleHint": "maxime",
+    "Hidden": false,
+    "FullName": "Delphia Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 48
       }
     }
   }

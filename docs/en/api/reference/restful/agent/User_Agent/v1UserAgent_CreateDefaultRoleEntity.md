@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/CreateDefaultRoleEntity
 uid: v1UserAgent_CreateDefaultRoleEntity
+generated: true
 ---
 
 # POST Agents/User/CreateDefaultRoleEntity
@@ -70,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 355,
-  "Name": "Johnston-Reynolds",
-  "Tooltip": "quos",
+  "RoleId": 864,
+  "Name": "Boehm LLC",
+  "Tooltip": "illum",
   "RoleType": "Anonymous",
-  "Deleted": 255,
-  "Rank": 359,
-  "Created": "2000-11-18T03:51:28.4589368+01:00",
-  "UseCategories": 8,
+  "Deleted": 340,
+  "Rank": 390,
+  "Created": "1996-06-27T16:00:42.2893736+02:00",
+  "UseCategories": 334,
   "CreatedBy": null,
-  "Updated": "2018-08-01T03:51:28.4589368+02:00",
+  "Updated": "2004-05-05T16:00:42.2893736+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 522
+      "FieldType": "System.Int32",
+      "FieldLength": 859
     }
   }
 }

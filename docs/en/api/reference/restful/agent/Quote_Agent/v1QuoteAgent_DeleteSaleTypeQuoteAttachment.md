@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/DeleteSaleTypeQuoteAttachment
 uid: v1QuoteAgent_DeleteSaleTypeQuoteAttachment
+generated: true
 ---
 
 # POST Agents/Quote/DeleteSaleTypeQuoteAttachment
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/Quote/DeleteSaleTypeQuoteAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeQuoteAttachmentId": 561
+  "SaleTypeQuoteAttachmentId": 31
 }
 ```
 

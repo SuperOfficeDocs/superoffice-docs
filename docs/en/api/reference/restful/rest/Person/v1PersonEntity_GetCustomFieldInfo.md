@@ -1,6 +1,7 @@
 ---
 title: GET Person/CustomField/{fieldName}
 uid: v1PersonEntity_GetCustomFieldInfo
+generated: true
 ---
 
 # GET Person/CustomField/{fieldName}
@@ -81,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kihn-Borer",
-  "DisplayName": "Jacobs Inc and Sons",
-  "Description": "Visionary explicit secured line",
-  "ShortLabel": "sit",
-  "HideLabel": true,
-  "HideField": false,
+  "FieldName": "Hoppe Inc and Sons",
+  "DisplayName": "Kuhn Group",
+  "Description": "Upgradable transitional frame",
+  "ShortLabel": "excepturi",
+  "HideLabel": false,
+  "HideField": true,
   "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 601,
-  "TemplateVariableName": "Kling, Luettgen and Willms"
+  "Rank": 101,
+  "TemplateVariableName": "Conn, Berge and Hane"
 }
 ```

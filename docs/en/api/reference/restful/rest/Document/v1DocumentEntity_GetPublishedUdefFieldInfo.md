@@ -1,6 +1,7 @@
 ---
 title: GET Document/UdefLayout/Published/{progidOrLabel}
 uid: v1DocumentEntity_GetPublishedUdefFieldInfo
+generated: true
 ---
 
 # GET Document/UdefLayout/Published/{progidOrLabel}
@@ -92,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 19,
-  "ColumnId": 932,
-  "FieldDefault": "sunt",
-  "FieldHeight": 560,
-  "FieldLabel": "molestias",
-  "FieldLeft": 35,
-  "FieldTop": 494,
+  "UDefFieldId": 15,
+  "ColumnId": 559,
+  "FieldDefault": "repudiandae",
+  "FieldHeight": 115,
+  "FieldLabel": "quibusdam",
+  "FieldLeft": 563,
+  "FieldTop": 63,
   "FieldType": "Checkbox",
-  "FieldWidth": 554,
-  "FormatMask": "minima",
+  "FieldWidth": 164,
+  "FormatMask": "sed",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 30,
-  "LabelLeft": 364,
-  "LabelTop": 753,
-  "LabelWidth": 41,
-  "LastVersionId": 551,
-  "ListTableId": 915,
+  "LabelHeight": 17,
+  "LabelLeft": 166,
+  "LabelTop": 888,
+  "LabelWidth": 298,
+  "LastVersionId": 611,
+  "ListTableId": 373,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 290,
-  "ProgId": "asperiores",
+  "Page1LineNo": 47,
+  "ProgId": "placeat",
   "IsReadOnly": false,
-  "ShortLabel": "autem",
-  "TabOrder": 745,
-  "TextLength": 511,
-  "Tooltip": "maxime",
-  "UdefIdentity": 426,
-  "UDListDefinitionId": 668,
+  "ShortLabel": "quo",
+  "TabOrder": 490,
+  "TextLength": 183,
+  "Tooltip": "esse",
+  "UdefIdentity": 299,
+  "UDListDefinitionId": 389,
   "Justification": "Center",
-  "Version": 69,
-  "TemplateVariableName": "Kshlerin, Keebler and Schroeder",
+  "Version": 869,
+  "TemplateVariableName": "Kirlin, Stracke and Kuphal",
   "HasBeenPublished": false,
-  "MdoListName": "Fisher, Jerde and Rosenbaum",
+  "MdoListName": "Terry-Bergstrom",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldType": "System.Int32",
+      "FieldLength": 125
     }
   }
 }

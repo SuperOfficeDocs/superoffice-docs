@@ -2,17 +2,10 @@
 uid: AssociateProjects
 title: AssociateProjects
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "AssociateProjects"
+keywords: AssociateProjects archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "AssociateProjects"
@@ -78,7 +71,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjects?$select=updatedByFullName,imageThumbnail
+GET /api/v1/archive/AssociateProjects?$select=projectUdef/SuperOffice:5,updatedByFullName,imageThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

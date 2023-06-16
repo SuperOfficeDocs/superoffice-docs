@@ -1,6 +1,7 @@
 ---
 title: PUT List/MrMrs/Headings
 uid: v1MrMrsList_PutMrMrsHeadings
+generated: true
 ---
 
 # PUT List/MrMrs/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 772,
-    "Name": "Treutel-Marquardt",
-    "Tooltip": "qui",
+    "HeadingId": 840,
+    "Name": "Bergstrom, Zulauf and Flatley",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 295,
-    "UdListDefinitionId": 831
+    "Rank": 730,
+    "UdListDefinitionId": 486
   },
   {
-    "HeadingId": 772,
-    "Name": "Treutel-Marquardt",
-    "Tooltip": "qui",
+    "HeadingId": 840,
+    "Name": "Bergstrom, Zulauf and Flatley",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 295,
-    "UdListDefinitionId": 831
+    "Rank": 730,
+    "UdListDefinitionId": 486
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 975,
-    "Name": "Abernathy-Quigley",
-    "Tooltip": "dignissimos",
+    "HeadingId": 687,
+    "Name": "Zulauf LLC",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 722,
-    "UdListDefinitionId": 706,
+    "Rank": 607,
+    "UdListDefinitionId": 925,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 791
+        "FieldLength": 232
       }
     }
   }

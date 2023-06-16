@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetDefaultPersonImage
 uid: v1AudienceAgent_GetDefaultPersonImage
+generated: true
 ---
 
 # POST Agents/Audience/GetDefaultPersonImage
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/Audience/GetDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Kerluke LLC"
+  "LayoutName": "Gutmann-Bogisich"
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetMyOpportunities
 uid: v1SaleAgent_GetMyOpportunities
+generated: true
 ---
 
 # POST Agents/Sale/GetMyOpportunities
@@ -96,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 627
+  "Count": 918
 }
 ```
 
@@ -112,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Halvorson, Ortiz and Konopelski",
-    "SaleDate": "2016-01-12T03:51:28.1152684+01:00",
-    "SaleId": 751,
-    "Probability": 847,
-    "Title": "autem",
-    "Amount": 9859.564,
-    "Currency": "et",
-    "ProjectName": "Feeney-Greenfelder",
-    "AssociateFullName": "Gregg Wisozk",
-    "Description": "Public-key 5th generation matrix",
+    "ContactName": "Langworth-Bahringer",
+    "SaleDate": "2002-06-04T16:00:41.7894273+02:00",
+    "SaleId": 980,
+    "Probability": 225,
+    "Title": "sint",
+    "Amount": 18662.97,
+    "Currency": "fugiat",
+    "ProjectName": "Kshlerin LLC",
+    "AssociateFullName": "Larue Reichel",
+    "Description": "Organic radical data-warehouse",
     "Status": "Lost",
-    "WeightedAmount": 1993.224,
-    "ProjectId": 906,
-    "EarningPercent": 26040.406,
-    "Earning": 16519.314,
-    "ContactId": 649,
-    "AssociateId": 989,
-    "PersonId": 524,
-    "SaleTypeId": 74,
-    "SaleTypeName": "Harvey-Hodkiewicz",
-    "PersonFullName": "Sedrick O'Kon",
+    "WeightedAmount": 12188.126,
+    "ProjectId": 161,
+    "EarningPercent": 3412.926,
+    "Earning": 5660.004,
+    "ContactId": 364,
+    "AssociateId": 719,
+    "PersonId": 502,
+    "SaleTypeId": 311,
+    "SaleTypeName": "Pagac, Farrell and Roberts",
+    "PersonFullName": "Sigurd Fadel",
     "Completed": "Completed",
-    "ActiveErpLinks": 145,
-    "NextDueDate": "1998-11-13T03:51:28.1152684+01:00",
-    "Number": "834554",
+    "ActiveErpLinks": 898,
+    "NextDueDate": "2015-10-23T16:00:41.7894273+02:00",
+    "Number": "1518911",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 184
+        "FieldType": "System.Int32",
+        "FieldLength": 994
       }
     }
   }

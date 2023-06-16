@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetQuickReplies
 uid: v1ListAgent_GetQuickReplies
+generated: true
 ---
 
 # POST Agents/List/GetQuickReplies
@@ -77,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 90,
-    "Name": "Schultz, Greenholt and Ziemann",
-    "HtmlBody": "beatae",
+    "QuickReplyId": 719,
+    "Name": "VonRueden-Morissette",
+    "HtmlBody": "atque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 609
+        "FieldLength": 556
       }
     }
   },
   {
-    "QuickReplyId": 90,
-    "Name": "Schultz, Greenholt and Ziemann",
-    "HtmlBody": "beatae",
+    "QuickReplyId": 719,
+    "Name": "VonRueden-Morissette",
+    "HtmlBody": "atque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 609
+        "FieldLength": 556
       }
     }
   }

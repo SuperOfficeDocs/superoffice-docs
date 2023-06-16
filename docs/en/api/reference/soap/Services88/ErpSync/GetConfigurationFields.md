@@ -1,6 +1,6 @@
 ---
 title: Services88.ErpSyncAgent.GetConfigurationFields SOAP
-generated: 1
+generated: true
 uid: Services88-ErpSync-GetConfigurationFields
 ---
 

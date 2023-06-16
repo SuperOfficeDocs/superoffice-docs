@@ -1,6 +1,7 @@
 ---
 title: GET Sale/UdefLayout/Published
 uid: v1SaleEntity_GetPublishedUdefLayout
+generated: true
 ---
 
 # GET Sale/UdefLayout/Published
@@ -87,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 27,
-    "ColumnId": 344,
-    "FieldDefault": "asperiores",
-    "FieldHeight": 332,
-    "FieldLabel": "autem",
-    "FieldLeft": 276,
-    "FieldTop": 530,
+    "UDefFieldId": 48,
+    "ColumnId": 83,
+    "FieldDefault": "illo",
+    "FieldHeight": 709,
+    "FieldLabel": "atque",
+    "FieldLeft": 98,
+    "FieldTop": 117,
     "FieldType": "Checkbox",
-    "FieldWidth": 685,
-    "FormatMask": "voluptate",
+    "FieldWidth": 220,
+    "FormatMask": "aut",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 702,
-    "LabelLeft": 25,
-    "LabelTop": 818,
-    "LabelWidth": 713,
-    "LastVersionId": 872,
-    "ListTableId": 906,
+    "LabelHeight": 207,
+    "LabelLeft": 335,
+    "LabelTop": 418,
+    "LabelWidth": 898,
+    "LastVersionId": 705,
+    "ListTableId": 936,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 455,
-    "ProgId": "enim",
-    "IsReadOnly": true,
-    "ShortLabel": "praesentium",
-    "TabOrder": 670,
-    "TextLength": 647,
-    "Tooltip": "enim",
-    "UdefIdentity": 615,
-    "UDListDefinitionId": 90,
+    "Page1LineNo": 696,
+    "ProgId": "neque",
+    "IsReadOnly": false,
+    "ShortLabel": "sequi",
+    "TabOrder": 200,
+    "TextLength": 979,
+    "Tooltip": "qui",
+    "UdefIdentity": 909,
+    "UDListDefinitionId": 884,
     "Justification": "Center",
-    "Version": 151,
-    "TemplateVariableName": "Ebert-Krajcik",
+    "Version": 582,
+    "TemplateVariableName": "Collins LLC",
     "HasBeenPublished": true,
-    "MdoListName": "Mayert, Rath and Sauer",
+    "MdoListName": "Keeling-Borer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldType": "System.String",
+        "FieldLength": 978
       }
     }
   }

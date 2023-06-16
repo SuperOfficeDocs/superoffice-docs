@@ -1,6 +1,7 @@
 ---
 title: POST List/Position/Items
 uid: v1PositionList_PostPosition
+generated: true
 ---
 
 # POST List/Position/Items
@@ -76,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 558,
-  "Name": "Ullrich, Kemmer and Treutel",
-  "Tooltip": "magnam",
-  "Deleted": false,
-  "UdListDefinitionId": 703,
-  "Rank": 233
+  "Id": 414,
+  "Name": "McDermott, Hudson and Bergstrom",
+  "Tooltip": "modi",
+  "Deleted": true,
+  "UdListDefinitionId": 693,
+  "Rank": 253
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 112,
-  "Name": "Tromp, Kiehn and Lang",
-  "Tooltip": "laborum",
-  "Deleted": true,
-  "UdListDefinitionId": 148,
-  "Rank": 11,
+  "Id": 764,
+  "Name": "Ward-Nolan",
+  "Tooltip": "repudiandae",
+  "Deleted": false,
+  "UdListDefinitionId": 67,
+  "Rank": 830,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 219
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   }
 }

@@ -1,17 +1,11 @@
 ---
 uid: personemailaddress
 title: personemailaddress
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "personemailaddress"
+keywords: mdoprovider mdo provider personemailaddress
+description: List of e-mail addresses matching the search value, possibly restricted to a given company or person.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "personemailaddress" MDO List

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumnsWithHeader2
 uid: v1ArchiveAgent_GetArchiveListByColumnsWithHeader2
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithHeader2
@@ -165,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Witting-Cremin",
-  "Columns": "tempore",
-  "SortOrder": "quia",
-  "Restriction": "quis",
-  "Entities": "hic",
-  "Page": 587,
-  "PageSize": 688,
-  "Options": "vel"
+  "ProviderName": "Hane Inc and Sons",
+  "Columns": "eaque",
+  "SortOrder": "labore",
+  "Restriction": "rerum",
+  "Entities": "cum",
+  "Page": 680,
+  "PageSize": 92,
+  "Options": "occaecati"
 }
 ```
 
@@ -187,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 389,
+  "RowCount": 700,
   "Rows": [
     {
-      "EntityName": "Conn Inc and Sons",
-      "PrimaryKey": 105,
+      "EntityName": "Rutherford Group",
+      "PrimaryKey": 402,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "odio",
-          "TooltipHint": "inventore",
-          "LinkHint": "minima"
+          "DisplayValue": "accusantium",
+          "TooltipHint": "atque",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "consequatur",
-      "StyleHint": "et",
+      "LinkHint": "qui",
+      "StyleHint": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldLength": 884
         }
       }
     }
@@ -215,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldType": "System.Int32",
+      "FieldLength": 299
     }
   }
 }

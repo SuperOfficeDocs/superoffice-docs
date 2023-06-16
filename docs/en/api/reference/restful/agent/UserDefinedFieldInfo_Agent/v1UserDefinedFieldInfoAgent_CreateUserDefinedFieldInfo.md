@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 uid: v1UserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
@@ -106,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 925,
-  "ColumnId": 660,
-  "FieldDefault": "est",
-  "FieldHeight": 838,
-  "FieldLabel": "ipsum",
-  "FieldLeft": 208,
-  "FieldTop": 159,
+  "UDefFieldId": 773,
+  "ColumnId": 417,
+  "FieldDefault": "ut",
+  "FieldHeight": 162,
+  "FieldLabel": "blanditiis",
+  "FieldLeft": 570,
+  "FieldTop": 77,
   "FieldType": "Checkbox",
-  "FieldWidth": 411,
-  "FormatMask": "placeat",
+  "FieldWidth": 68,
+  "FormatMask": "at",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 218,
-  "LabelLeft": 885,
-  "LabelTop": 352,
-  "LabelWidth": 525,
-  "LastVersionId": 687,
-  "ListTableId": 330,
+  "LabelHeight": 3,
+  "LabelLeft": 311,
+  "LabelTop": 970,
+  "LabelWidth": 69,
+  "LastVersionId": 524,
+  "ListTableId": 386,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 614,
+  "Page1LineNo": 839,
   "ProgId": "ut",
-  "IsReadOnly": true,
-  "ShortLabel": "eaque",
-  "TabOrder": 228,
-  "TextLength": 562,
-  "Tooltip": "est",
-  "UdefIdentity": 919,
-  "UDListDefinitionId": 853,
+  "IsReadOnly": false,
+  "ShortLabel": "odio",
+  "TabOrder": 64,
+  "TextLength": 611,
+  "Tooltip": "ipsam",
+  "UdefIdentity": 445,
+  "UDListDefinitionId": 620,
   "Justification": "Center",
-  "Version": 923,
-  "TemplateVariableName": "Schmidt-Rau",
+  "Version": 944,
+  "TemplateVariableName": "Hermiston, Altenwerth and Marks",
   "HasBeenPublished": false,
-  "MdoListName": "Dibbert, Altenwerth and Powlowski",
+  "MdoListName": "O'Reilly, Mante and Collins",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldLength": 563
     }
   }
 }

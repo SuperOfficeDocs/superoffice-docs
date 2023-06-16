@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 uid: v1SelectionAgent_CreateTemporaryContactSelectionFromContactPersonIds
+generated: true
 ---
 
 # POST Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
@@ -112,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 986,
-      "ContactId": 819
+      "PersonId": 6,
+      "ContactId": 116
     },
     {
-      "PersonId": 986,
-      "ContactId": 819
+      "PersonId": 6,
+      "ContactId": 116
     }
   ]
 }
@@ -136,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots holistic toolset",
-  "Postit": "perferendis",
+  "Description": "Front-line transitional matrix",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 368,
-  "IncludePerson": 866,
-  "MemberCount": 696,
-  "Name": "Marks Group",
-  "PostitTextId": 10,
-  "CreatedDate": "2010-07-18T03:51:28.1621313+02:00",
-  "SelectionId": 285,
-  "SoundEx": "impedit",
-  "Source": 469,
-  "TextId": 772,
-  "UpdatedDate": "2003-03-28T03:51:28.1621313+01:00",
-  "UpdatedCount": 446,
-  "Visibility": 504,
+  "GroupIdx": 844,
+  "IncludePerson": 97,
+  "MemberCount": 355,
+  "Name": "Roberts LLC",
+  "PostitTextId": 453,
+  "CreatedDate": "2003-07-30T16:00:41.8362961+02:00",
+  "SelectionId": 382,
+  "SoundEx": "corporis",
+  "Source": 316,
+  "TextId": 537,
+  "UpdatedDate": "2001-11-25T16:00:41.8362961+01:00",
+  "UpdatedCount": 355,
+  "Visibility": 179,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 665,
-  "TargetTableName": "Spinka-Boehm",
+  "TargetTableNumber": 513,
+  "TargetTableName": "Ziemann, Wilderman and Durgan",
   "Completed": false,
-  "LeftSelectionId": 113,
-  "RightSelectionId": 335,
+  "LeftSelectionId": 863,
+  "RightSelectionId": 884,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schulist, Wolff and Hagenes",
-  "ShadowProviderName": "Littel, Ebert and Lang",
-  "ChartKey": "occaecati",
-  "LastLoaded": "2010-09-30T03:51:28.1621313+02:00",
-  "LastLoadedBy": 980,
+  "MainProviderName": "Mosciski, Halvorson and Terry",
+  "ShadowProviderName": "Feil, Wisoky and Hoppe",
+  "ChartKey": "illo",
+  "LastLoaded": "2020-04-06T16:00:41.8362961+02:00",
+  "LastLoadedBy": 732,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-03-01T03:51:28.1621313+01:00",
-  "LastMembershipChangeBy": 135,
+  "LastMembershipChange": "2004-10-23T16:00:41.8362961+02:00",
+  "LastMembershipChangeBy": 451,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "repudiandae",
-  "MemberTabHeading": "officia",
-  "MailingsProviderName": "Hessel-Klocko",
-  "DashboardTileDefinitionId": 870,
+  "MainHeading": "nobis",
+  "MemberTabHeading": "culpa",
+  "MailingsProviderName": "Effertz, Schiller and Christiansen",
+  "DashboardTileDefinitionId": 128,
   "VisibleFor": [
     {
-      "VisibleId": 290,
+      "VisibleId": 258,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldLength": 525
         }
       }
     },
     {
-      "VisibleId": 290,
+      "VisibleId": 258,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldLength": 525
         }
       }
     }
@@ -208,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldType": "System.String",
+      "FieldLength": 481
     }
   }
 }

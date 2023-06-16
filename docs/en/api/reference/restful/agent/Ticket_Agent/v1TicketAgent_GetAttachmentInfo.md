@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/GetAttachmentInfo
 uid: v1TicketAgent_GetAttachmentInfo
+generated: true
 ---
 
 # POST Agents/Ticket/GetAttachmentInfo
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 768
+  "TicketMessageEntityId": 468
 }
 ```
 
@@ -94,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 703,
-    "Name": "Bernhard-O'Kon",
-    "ContentType": "id",
-    "AttSize": 336,
+    "AttachmentId": 292,
+    "Name": "Heathcote, Bauch and Schroeder",
+    "ContentType": "qui",
+    "AttSize": 11,
     "InlineImage": false,
-    "ContentId": "modi",
-    "AuthKey": "porro",
+    "ContentId": "consequuntur",
+    "AuthKey": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldType": "System.String",
+        "FieldLength": 28
       }
     }
   }

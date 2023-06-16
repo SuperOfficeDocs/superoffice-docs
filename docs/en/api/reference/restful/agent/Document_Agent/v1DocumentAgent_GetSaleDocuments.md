@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetSaleDocuments
 uid: v1DocumentAgent_GetSaleDocuments
+generated: true
 ---
 
 # POST Agents/Document/GetSaleDocuments
@@ -97,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 284
+  "SaleId": 294
 }
 ```
 
@@ -109,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 575,
-    "Attention": "molestiae",
-    "Header": "sed",
-    "Name": "Kutch, Anderson and Ernser",
-    "OurRef": "tenetur",
-    "YourRef": "qui",
-    "Description": "Devolved demand-driven Graphical User Interface",
-    "DocumentTemplate": "atque",
+    "DocumentId": 913,
+    "Attention": "in",
+    "Header": "voluptatem",
+    "Name": "Ruecker-Rath",
+    "OurRef": "ut",
+    "YourRef": "doloribus",
+    "Description": "Open-architected radical neural-net",
+    "DocumentTemplate": "doloremque",
     "IsPublished": false,
-    "PersonId": 396,
-    "PersonFullName": "Anibal Schoen",
-    "AssociateFullName": "Monique Klocko",
-    "ContactId": 766,
-    "ContactName": "Rohan, Johns and Koch",
-    "ProjectId": 412,
-    "ProjectName": "Wintheiser, Collins and Hoeger",
-    "AssociateId": 810,
-    "Snum": 4,
-    "SaleId": 961,
-    "SaleName": "Sanford, Smith and Schowalter",
+    "PersonId": 687,
+    "PersonFullName": "Colt Hartmann",
+    "AssociateFullName": "Dr. Ryley Lillie Stark",
+    "ContactId": 486,
+    "ContactName": "Carter, Batz and Zieme",
+    "ProjectId": 208,
+    "ProjectName": "Walter, Turner and Grimes",
+    "AssociateId": 207,
+    "Snum": 362,
+    "SaleId": 781,
+    "SaleName": "Ortiz-Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldLength": 439
       }
     }
   }

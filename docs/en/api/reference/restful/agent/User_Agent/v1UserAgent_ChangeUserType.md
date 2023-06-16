@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/ChangeUserType
 uid: v1UserAgent_ChangeUserType
+generated: true
 ---
 
 # POST Agents/User/ChangeUserType
@@ -99,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 245,
+  "AssociateId": 790,
   "Name": "Dach Group",
-  "Rank": 321,
-  "Tooltip": "non",
+  "Rank": 708,
+  "Tooltip": "quaerat",
   "LicenseOwners": [
     {
-      "Name": "Schaden-Daniel",
-      "Description": "Advanced global database",
+      "Name": "Steuber Group",
+      "Description": "Down-sized full-range capacity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldType": "System.String",
+          "FieldLength": 35
         }
       }
     },
     {
-      "Name": "Schaden-Daniel",
-      "Description": "Advanced global database",
+      "Name": "Steuber Group",
+      "Description": "Down-sized full-range capacity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldType": "System.String",
+          "FieldLength": 35
         }
       }
     }
@@ -165,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "et",
-      "Tooltip": "quia",
-      "Id": 324,
-      "Rank": 825,
+      "Value": "beatae",
+      "Tooltip": "nostrum",
+      "Id": 528,
+      "Rank": 763,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 38
+          "FieldLength": 276
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2001-11-22T03:51:28.4433187+01:00",
-  "Lastlogout": "2006-06-02T03:51:28.4433187+02:00",
-  "EjUserId": 317,
-  "RequestSignature": "dicta",
+  "Lastlogin": "2012-03-22T16:00:42.2737488+01:00",
+  "Lastlogout": "2001-01-11T16:00:42.2737488+01:00",
+  "EjUserId": 721,
+  "RequestSignature": "fugit",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "reiciendis",
-      "DisplayValue": "modi",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 231
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "reiciendis",
-      "DisplayValue": "modi",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 231
-        }
-      }
-    }
-  ],
-  "UserName": "Lang-Welch",
-  "TicketCategories": [
-    {
-      "Id": 644,
-      "Name": "Wuckert-Yost",
-      "ToolTip": "Adipisci non.",
-      "Deleted": true,
-      "Rank": 734,
-      "Type": "incidunt",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "cupiditate",
-      "ColorBlock": 999,
-      "ExtraInfo": "cupiditate",
-      "StyleHint": "natus",
-      "FullName": "Woodrow Stiedemann",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 150
-        }
-      }
-    }
-  ],
-  "NickName": "Champlin, O'Kon and Bartell",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "iste"
-  },
-  "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "in"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Goodwin Inc and Sons",
-      "DisplayName": "Gulgowski, Nienow and Olson",
-      "Description": "Adaptive impactful capacity",
-      "ToolTip": "Excepturi aut sit.",
-      "Actions": "Implicit",
-      "ActionData": "accusamus",
+      "Value": "qui",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 6
+          "FieldLength": 919
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "qui",
+      "DisplayValue": "quo",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 919
+        }
+      }
+    }
+  ],
+  "UserName": "Miller, McLaughlin and Ondricka",
+  "TicketCategories": [
+    {
+      "Id": 658,
+      "Name": "Goyette LLC",
+      "ToolTip": "Quaerat provident adipisci sunt quidem ducimus doloremque.",
+      "Deleted": true,
+      "Rank": 260,
+      "Type": "quo",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "rerum",
+      "ColorBlock": 937,
+      "ExtraInfo": "ut",
+      "StyleHint": "enim",
+      "FullName": "Miss Nathanial Zieme",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 196
+        }
+      }
+    }
+  ],
+  "NickName": "Gorczany Group",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "ea",
+    "ExtraFields2": "maiores"
+  },
+  "CustomFields": {
+    "CustomFields1": "iure",
+    "CustomFields2": "ut"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Roberts, Conroy and Sanford",
+      "DisplayName": "Leffler-Konopelski",
+      "Description": "Multi-channelled intangible attitude",
+      "ToolTip": "Quasi occaecati.",
+      "Actions": "Implicit",
+      "ActionData": "quasi",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     }
@@ -278,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 835
     }
   }
 }

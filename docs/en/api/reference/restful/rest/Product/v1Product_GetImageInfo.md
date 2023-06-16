@@ -1,6 +1,7 @@
 ---
 title: GET Product/{id}/ImageInfo
 uid: v1Product_GetImageInfo
+generated: true
 ---
 
 # GET Product/{id}/ImageInfo
@@ -80,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 12 Apr 1997 03:51:34 G4T
+Last-Modified: Thu, 01 Sep 2011 16:00:48 G9T
 
 {
-  "BlobId": 35,
-  "BlobSize": 738,
-  "Description": "Enterprise-wide systemic help-desk",
-  "ExtraInfo": "dolorum",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "ipsa",
-  "OriginalSize": 145,
-  "CreatedDate": "1996-04-07T03:51:34.2396907+02:00",
-  "UpdatedDate": "1997-04-12T03:51:34.2396907+02:00",
+  "BlobId": 775,
+  "BlobSize": 949,
+  "Description": "Balanced leading edge policy",
+  "ExtraInfo": "aut",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "mollitia",
+  "OriginalSize": 825,
+  "CreatedDate": "2015-07-18T16:00:48.6958683+02:00",
+  "UpdatedDate": "2011-09-01T16:00:48.6958683+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quas",
+  "ConceptualType": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldType": "System.Int32",
+      "FieldLength": 81
     }
   }
 }

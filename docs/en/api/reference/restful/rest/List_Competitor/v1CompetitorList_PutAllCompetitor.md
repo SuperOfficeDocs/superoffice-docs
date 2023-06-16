@@ -1,6 +1,7 @@
 ---
 title: PUT List/Competitor/Items
 uid: v1CompetitorList_PutAllCompetitor
+generated: true
 ---
 
 # PUT List/Competitor/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 856,
-    "Name": "Gleason-Leannon",
-    "Tooltip": "voluptate",
+    "Id": 791,
+    "Name": "Doyle, Grant and Mills",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 950,
-    "Rank": 494
+    "UdListDefinitionId": 469,
+    "Rank": 717
   },
   {
-    "Id": 856,
-    "Name": "Gleason-Leannon",
-    "Tooltip": "voluptate",
+    "Id": 791,
+    "Name": "Doyle, Grant and Mills",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 950,
-    "Rank": 494
+    "UdListDefinitionId": 469,
+    "Rank": 717
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Pacocha Inc and Sons",
-    "Tooltip": "iusto",
-    "Deleted": false,
-    "UdListDefinitionId": 770,
-    "Rank": 381,
+    "Id": 136,
+    "Name": "Medhurst, Kassulke and Schmidt",
+    "Tooltip": "magnam",
+    "Deleted": true,
+    "UdListDefinitionId": 538,
+    "Rank": 952,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 131
+        "FieldType": "System.Int32",
+        "FieldLength": 387
       }
     }
   }

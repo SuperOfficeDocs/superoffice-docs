@@ -1,6 +1,7 @@
 ---
 title: GET List/Currency/Items/{id}/UserGroups
 uid: v1CurrencyList_GetCurrencyEntityUserGroupsForListItem
+generated: true
 ---
 
 # GET List/Currency/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 398,
-    "Name": "Huels-Bartoletti",
-    "ToolTip": "Et nihil amet qui odio quasi.",
+    "Id": 57,
+    "Name": "Hills Inc and Sons",
+    "ToolTip": "Dolorem porro animi labore molestias quis voluptatibus.",
     "Deleted": false,
-    "Rank": 121,
-    "Type": "reprehenderit",
-    "ColorBlock": 269,
-    "IconHint": "possimus",
+    "Rank": 979,
+    "Type": "magni",
+    "ColorBlock": 704,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2014-12-04T03:51:34.6458549+01:00",
+    "LastChanged": "2016-06-24T16:00:48.9770869+02:00",
     "ChildItems": [
       {
-        "Id": 296,
-        "Name": "Walter, Huel and Larson",
-        "ToolTip": "Ducimus minima non sed rerum ducimus laudantium non.",
-        "Deleted": false,
-        "Rank": 827,
-        "Type": "rerum",
-        "ColorBlock": 343,
-        "IconHint": "optio",
+        "Id": 205,
+        "Name": "Weissnat Group",
+        "ToolTip": "Voluptatem autem voluptatem mollitia praesentium modi.",
+        "Deleted": true,
+        "Rank": 103,
+        "Type": "porro",
+        "ColorBlock": 860,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2015-10-24T03:51:34.6458549+02:00",
+        "LastChanged": "1996-02-21T16:00:48.9770869+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "et",
+        "ExtraInfo": "et",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Giovanny Schmidt",
+        "FullName": "Joaquin Leland Kerluke II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 24
+            "FieldType": "System.String",
+            "FieldLength": 937
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "earum",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Prof. Sherwood Casimer Brekke",
+    "FullName": "Rosemarie Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 478
+        "FieldType": "System.Int32",
+        "FieldLength": 681
       }
     }
   }

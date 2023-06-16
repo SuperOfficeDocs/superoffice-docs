@@ -1,6 +1,7 @@
 ---
 title: POST List/ProductType/Headings
 uid: v1ProductTypeList_PostProductTypeHeading
+generated: true
 ---
 
 # POST List/ProductType/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 685,
-  "Name": "Hauck-Collins",
-  "Tooltip": "qui",
+  "HeadingId": 253,
+  "Name": "Kozey, Turcotte and Koch",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 503,
-  "UdListDefinitionId": 73
+  "Rank": 672,
+  "UdListDefinitionId": 932
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 776,
-  "Name": "Donnelly LLC",
-  "Tooltip": "laudantium",
-  "Deleted": true,
-  "Rank": 479,
-  "UdListDefinitionId": 949,
+  "HeadingId": 925,
+  "Name": "Collier, Yundt and Bahringer",
+  "Tooltip": "error",
+  "Deleted": false,
+  "Rank": 426,
+  "UdListDefinitionId": 15,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 614
     }
   }
 }

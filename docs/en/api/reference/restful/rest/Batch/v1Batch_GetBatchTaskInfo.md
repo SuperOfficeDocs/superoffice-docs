@@ -1,6 +1,7 @@
 ---
 title: GET BatchTask/{id}
 uid: v1Batch_GetBatchTaskInfo
+generated: true
 ---
 
 # GET BatchTask/{id}
@@ -80,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 702,
-  "Name": "Hirthe-Eichmann",
-  "AssociateId": 835,
-  "DetailsTable": 938,
-  "DetailsRecord": 830,
+  "Id": 980,
+  "Name": "Hegmann-McKenzie",
+  "AssociateId": 58,
+  "DetailsTable": 880,
+  "DetailsRecord": 839,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "qui",
-    "ParameterObject2": "quibusdam"
+    "ParameterObject1": "sit",
+    "ParameterObject2": "consequatur"
   },
-  "LastStarted": "2017-03-09T03:51:34.1772068+01:00",
-  "Created": "2008-10-09T03:51:34.1772068+02:00",
-  "StartCount": 828,
-  "DatabaseSerialNumber": "976499",
-  "Context": "aut",
-  "Result": "illum",
+  "LastStarted": "2018-03-21T16:00:48.6333798+01:00",
+  "Created": "2007-10-13T16:00:48.6333798+02:00",
+  "StartCount": 271,
+  "DatabaseSerialNumber": "1268266",
+  "Context": "non",
+  "Result": "inventore",
   "State": "All",
-  "Description": "Profit-focused actuating alliance",
-  "Response": "consequatur",
-  "Request": "voluptatibus",
-  "ProgressDescription": "Organic human-resource framework",
-  "ProgressPercent": 365,
-  "FileName": "Toy Inc and Sons",
+  "Description": "Synergized responsive policy",
+  "Response": "quis",
+  "Request": "sit",
+  "ProgressDescription": "Multi-layered reciprocal info-mediaries",
+  "ProgressPercent": 765,
+  "FileName": "McCullough Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldType": "System.String",
+      "FieldLength": 316
     }
   }
 }

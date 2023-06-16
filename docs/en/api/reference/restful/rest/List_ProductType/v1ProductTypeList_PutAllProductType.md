@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductType/Items
 uid: v1ProductTypeList_PutAllProductType
+generated: true
 ---
 
 # PUT List/ProductType/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Rosenbaum Group",
-    "Tooltip": "mollitia",
-    "Deleted": false,
-    "UdListDefinitionId": 790,
-    "Rank": 252
+    "Id": 755,
+    "Name": "Gleichner Inc and Sons",
+    "Tooltip": "veniam",
+    "Deleted": true,
+    "UdListDefinitionId": 14,
+    "Rank": 506
   },
   {
-    "Id": 551,
-    "Name": "Rosenbaum Group",
-    "Tooltip": "mollitia",
-    "Deleted": false,
-    "UdListDefinitionId": 790,
-    "Rank": 252
+    "Id": 755,
+    "Name": "Gleichner Inc and Sons",
+    "Tooltip": "veniam",
+    "Deleted": true,
+    "UdListDefinitionId": 14,
+    "Rank": 506
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Auer-Jacobson",
-    "Tooltip": "dolores",
+    "Id": 691,
+    "Name": "Rogahn, Donnelly and Hayes",
+    "Tooltip": "odit",
     "Deleted": true,
-    "UdListDefinitionId": 70,
-    "Rank": 574,
+    "UdListDefinitionId": 624,
+    "Rank": 595,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldLength": 224
       }
     }
   }

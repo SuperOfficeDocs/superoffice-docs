@@ -1,6 +1,7 @@
 ---
 title: PUT DashTileDefinition/{id}
 uid: v1DashTileDefinition_PutDashTileDefinition
+generated: true
 ---
 
 # PUT DashTileDefinition/{id}
@@ -114,29 +115,29 @@ DashTileDefinition updated.
 PUT /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 108,
-  "Name": "Mills-Kuhn",
-  "Description": "Persevering stable productivity",
-  "DefaultHeight": 1001,
-  "DefaultWidth": 63,
+  "DashboardTileDefinitionId": 577,
+  "Name": "Ebert Group",
+  "Description": "Multi-tiered user-facing customer loyalty",
+  "DefaultHeight": 172,
+  "DefaultWidth": 589,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bailey Group",
-  "SelectionId": 626,
+  "EntityName": "Lehner LLC",
+  "SelectionId": 139,
   "CurrencyMode": "Base",
-  "CurrencyCode": "adipisci",
+  "CurrencyCode": "ratione",
   "Measure": "Average",
-  "MeasureField": "adipisci",
-  "SortBy": "architecto",
-  "LayoutConfig": "quasi",
-  "SecondarySelectionId": 835,
-  "MeasureByField": "non",
+  "MeasureField": "et",
+  "SortBy": "nihil",
+  "LayoutConfig": "molestiae",
+  "SecondarySelectionId": 305,
+  "MeasureByField": "illo",
   "Usage": "Dashboard",
-  "ProviderName": "Ebert Group"
+  "ProviderName": "Crona-Wiza"
 }
 ```
 
@@ -147,36 +148,36 @@ HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 923,
-  "Name": "West, Abernathy and Kozey",
-  "Description": "Universal content-based software",
-  "DefaultHeight": 545,
-  "DefaultWidth": 742,
+  "DashboardTileDefinitionId": 879,
+  "Name": "Rohan Inc and Sons",
+  "Description": "Exclusive intermediate migration",
+  "DefaultHeight": 149,
+  "DefaultWidth": 462,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Streich-Gorczany",
-  "SelectionId": 503,
+  "EntityName": "Hermiston Group",
+  "SelectionId": 283,
   "CurrencyMode": "Base",
-  "CurrencyCode": "voluptas",
+  "CurrencyCode": "dolores",
   "Measure": "Average",
-  "MeasureField": "reprehenderit",
-  "SortBy": "aut",
-  "LayoutConfig": "neque",
-  "SecondarySelectionId": 533,
-  "MeasureByField": "omnis",
+  "MeasureField": "omnis",
+  "SortBy": "ea",
+  "LayoutConfig": "quibusdam",
+  "SecondarySelectionId": 221,
+  "MeasureByField": "commodi",
   "Usage": "Dashboard",
-  "ProviderName": "O'Connell-Reynolds",
+  "ProviderName": "Cassin Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

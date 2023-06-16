@@ -1,6 +1,6 @@
 ---
 title: Services88.TargetsAgent.DeleteTargetDimension SOAP
-generated: 1
+generated: true
 uid: Services88-Targets-DeleteTargetDimension
 ---
 

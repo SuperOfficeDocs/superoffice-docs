@@ -1,6 +1,7 @@
 ---
 title: POST Role
 uid: v1RoleEntity_PostRoleEntity
+generated: true
 ---
 
 # POST Role
@@ -100,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 546,
-  "Name": "O'Conner Group",
-  "Tooltip": "sed",
+  "RoleId": 920,
+  "Name": "Zulauf, Jacobson and Conroy",
+  "Tooltip": "fugiat",
   "RoleType": "Anonymous",
-  "Deleted": 454,
-  "Rank": 307,
-  "Created": "2001-02-23T03:51:33.864677+01:00",
-  "UseCategories": 120,
+  "Deleted": 404,
+  "Rank": 701,
+  "Created": "2003-12-21T16:00:48.1959227+01:00",
+  "UseCategories": 948,
   "CreatedBy": null,
-  "Updated": "2009-05-14T03:51:33.864677+02:00",
+  "Updated": "2005-07-17T16:00:48.1959227+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -126,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 350,
-  "Name": "McClure-Paucek",
-  "Tooltip": "quae",
+  "RoleId": 641,
+  "Name": "Hettinger Group",
+  "Tooltip": "maxime",
   "RoleType": "Anonymous",
-  "Deleted": 197,
-  "Rank": 37,
-  "Created": "2014-03-06T03:51:33.8802911+01:00",
-  "UseCategories": 158,
+  "Deleted": 631,
+  "Rank": 686,
+  "Created": "2011-12-29T16:00:48.1959227+01:00",
+  "UseCategories": 859,
   "CreatedBy": null,
-  "Updated": "2007-01-12T03:51:33.8802911+01:00",
+  "Updated": "1997-10-03T16:00:48.1959227+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 986
+      "FieldType": "System.Int32",
+      "FieldLength": 785
     }
   },
   "_Links": {

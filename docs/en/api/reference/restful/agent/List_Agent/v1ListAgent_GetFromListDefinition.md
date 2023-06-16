@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetFromListDefinition
 uid: v1ListAgent_GetFromListDefinition
+generated: true
 ---
 
 # POST Agents/List/GetFromListDefinition
@@ -78,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 962,
-  "UdListDefinitionId": 928
+  "Id": 225,
+  "UdListDefinitionId": 204
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 655,
-  "Name": "Hamill-Nicolas",
-  "Tooltip": "dolorum",
+  "Id": 40,
+  "Name": "Kris LLC",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "UdListDefinitionId": 463,
-  "Rank": 664,
+  "UdListDefinitionId": 924,
+  "Rank": 363,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 47
     }
   }
 }

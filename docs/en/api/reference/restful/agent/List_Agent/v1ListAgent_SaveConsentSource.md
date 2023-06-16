@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveConsentSource
 uid: v1ListAgent_SaveConsentSource
+generated: true
 ---
 
 # POST Agents/List/SaveConsentSource
@@ -78,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 811,
-  "Name": "Adams-Gusikowski",
-  "Tooltip": "inventore",
-  "Rank": 722,
-  "Key": "accusamus",
-  "MailTemplateId": 27,
-  "Deleted": true,
+  "ConsentSourceId": 418,
+  "Name": "Jakubowski, Murray and Rath",
+  "Tooltip": "sapiente",
+  "Rank": 88,
+  "Key": "officia",
+  "MailTemplateId": 738,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 167
     }
   }
 }

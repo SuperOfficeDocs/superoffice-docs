@@ -1,17 +1,12 @@
 ---
 uid: resourcerestrictions
 title: resourcerestrictions
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "resourcerestrictions"
+keywords: mdoprovider mdo provider resourcerestrictions
+description: MDO provider for resources (from the associate table) that uses restrictions to include
+conflict checking
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "resourcerestrictions" MDO List

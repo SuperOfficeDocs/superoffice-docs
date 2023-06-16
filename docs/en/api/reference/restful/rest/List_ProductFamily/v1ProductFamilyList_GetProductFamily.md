@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductFamily/Items/{id}
 uid: v1ProductFamilyList_GetProductFamily
+generated: true
 ---
 
 # GET List/ProductFamily/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 364,
-  "Name": "Schuster Inc and Sons",
-  "Tooltip": "aperiam",
+  "Id": 302,
+  "Name": "Ankunding, Crona and Kutch",
+  "Tooltip": "ea",
   "Deleted": false,
-  "UdListDefinitionId": 645,
-  "Rank": 479,
+  "UdListDefinitionId": 344,
+  "Rank": 555,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldType": "System.String",
+      "FieldLength": 710
     }
   }
 }

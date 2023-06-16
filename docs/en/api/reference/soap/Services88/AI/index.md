@@ -1,7 +1,7 @@
 ---
 title: Services88.AIAgent SOAP
 uid: Services88-AI-soap
-generated: 1
+generated: true
 ---
 
 # Services88 AI SOAP

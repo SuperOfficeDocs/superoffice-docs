@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/FindFromRestrictionsColumnsOrderBy
 uid: v1FindAgent_FindFromRestrictionsColumnsOrderBy
+generated: true
 ---
 
 # POST Agents/Find/FindFromRestrictionsColumnsOrderBy
@@ -81,21 +82,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Davis-Treutel",
-      "Operator": "cum",
+      "Name": "Hessel LLC",
+      "Operator": "est",
       "Values": [
-        "facere",
-        "temporibus"
+        "sunt",
+        "consequatur"
       ],
       "DisplayValues": [
-        "sapiente",
-        "sapiente"
+        "id",
+        "ipsum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -103,28 +104,28 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 183,
+      "InterParenthesis": 579,
       "InterOperator": "And",
-      "UniqueHash": 483
+      "UniqueHash": 829
     }
   ],
-  "ProviderName": "Gerlach-Graham",
+  "ProviderName": "Schamberger Group",
   "DesiredColumns": [
-    "omnis",
-    "illum"
+    "aut",
+    "pariatur"
   ],
   "OrderBy": [
     {
-      "Name": "Schultz, Gusikowski and Mann",
+      "Name": "Jakubowski Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Schultz, Gusikowski and Mann",
+      "Name": "Jakubowski Group",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 974,
-  "PageNumber": 352
+  "PageSize": 213,
+  "PageNumber": 79
 }
 ```
 
@@ -137,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hintz, Ryan and Bartoletti",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "eligendi",
-      "CanOrderBy": true,
-      "Name": "Mitchell LLC",
+      "DisplayName": "Hilpert, Boehm and Frami",
+      "DisplayTooltip": "possimus",
+      "DisplayType": "inventore",
+      "CanOrderBy": false,
+      "Name": "Kessler, Bruen and Purdy",
       "CanRestrictBy": true,
-      "RestrictionType": "voluptate",
-      "RestrictionListName": "Towne-Halvorson",
+      "RestrictionType": "eum",
+      "RestrictionListName": "Schroeder Group",
       "IsVisible": false,
-      "ExtraInfo": "deleniti",
-      "Width": "autem",
-      "IconHint": "et",
-      "HeadingIconHint": "eius"
+      "ExtraInfo": "veniam",
+      "Width": "minus",
+      "IconHint": "tempore",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bradtke Group",
-      "PrimaryKey": 820,
+      "EntityName": "Kunze-Grant",
+      "PrimaryKey": 562,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "suscipit",
-          "TooltipHint": "aut",
-          "LinkHint": "tenetur"
+          "DisplayValue": "rerum",
+          "TooltipHint": "quibusdam",
+          "LinkHint": "dicta"
         }
       },
-      "LinkHint": "ea",
-      "StyleHint": "adipisci",
+      "LinkHint": "in",
+      "StyleHint": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 244
+          "FieldType": "System.Int32",
+          "FieldLength": 497
         }
       }
     }
   ],
-  "RowCount": 855,
+  "RowCount": 548,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 189
+      "FieldLength": 229
     }
   }
 }

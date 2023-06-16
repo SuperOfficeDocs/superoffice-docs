@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetConnectionsForAssociate
 uid: v1QuoteAgent_GetConnectionsForAssociate
+generated: true
 ---
 
 # POST Agents/Quote/GetConnectionsForAssociate
@@ -90,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 552
+  "AssociateId": 462
 }
 ```
 
@@ -102,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 92,
-    "ERPName": "Runolfsdottir-Rowe",
-    "DisplayName": "Kirlin Group",
-    "DisplayDescription": "Ameliorated static array",
-    "Rank": 688,
-    "ConnectorName": "Stanton-Stracke",
-    "ErpConnectionId": 357,
-    "ExtraData": "tempora",
+    "QuoteConnectionId": 169,
+    "ERPName": "Satterfield, Walker and Bernhard",
+    "DisplayName": "Purdy-Reilly",
+    "DisplayDescription": "Total neutral secured line",
+    "Rank": 479,
+    "ConnectorName": "Armstrong-Feest",
+    "ErpConnectionId": 62,
+    "ExtraData": "est",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 174,
-        "ERPPriceListKey": "quia",
-        "QuoteConnectionId": 529,
-        "Name": "Rice Inc and Sons",
-        "Description": "Reduced logistical toolset",
-        "Currency": "deleniti",
-        "CurrencyName": "Cummerata-Hand",
-        "ValidFrom": "2005-12-04T03:51:28.0215395+01:00",
-        "ValidTo": "2010-01-31T03:51:28.0215395+01:00",
+        "PriceListId": 807,
+        "ERPPriceListKey": "accusantium",
+        "QuoteConnectionId": 180,
+        "Name": "Bogisich Group",
+        "Description": "Front-line eco-centric installation",
+        "Currency": "ab",
+        "CurrencyName": "Bins, Lowe and Lemke",
+        "ValidFrom": "1998-06-01T16:00:41.6488224+02:00",
+        "ValidTo": "2023-05-28T16:00:41.6488224+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 850
+            "FieldType": "System.String",
+            "FieldLength": 927
           }
         }
       }
@@ -137,19 +138,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      914,
-      32
+      342,
+      961
     ],
     "AssociateAccessIds": [
-      405,
-      624
+      192,
+      915
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 765
       }
     }
   }

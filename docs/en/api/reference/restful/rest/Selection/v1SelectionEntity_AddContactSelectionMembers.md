@@ -1,6 +1,7 @@
 ---
 title: POST Selection/{id}/Members/AddPerson
 uid: v1SelectionEntity_AddContactSelectionMembers
+generated: true
 ---
 
 # POST Selection/{id}/Members/AddPerson
@@ -58,17 +59,17 @@ No Content
 POST /api/v1/Selection/{selectionId}/Members/AddPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 683,
-    "ContactId": 271
+    "PersonId": 594,
+    "ContactId": 151
   },
   {
-    "PersonId": 683,
-    "ContactId": 271
+    "PersonId": 594,
+    "ContactId": 151
   }
 ]
 ```

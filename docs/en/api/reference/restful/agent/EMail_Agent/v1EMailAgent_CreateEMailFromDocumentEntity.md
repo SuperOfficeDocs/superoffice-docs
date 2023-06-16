@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateEMailFromDocumentEntity
 uid: v1EMailAgent_CreateEMailFromDocumentEntity
+generated: true
 ---
 
 # POST Agents/EMail/CreateEMailFromDocumentEntity
@@ -116,146 +117,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 852,
-      "ContactName": "Crona-Wunsch",
-      "PersonId": 970,
-      "PersonName": "Rippin-Pfannerstill",
-      "AssociateId": 574,
-      "Address": "nam",
-      "EmailId": 427,
+      "ContactId": 997,
+      "ContactName": "Abbott, Keebler and Vandervort",
+      "PersonId": 623,
+      "PersonName": "Wisoky-Heathcote",
+      "AssociateId": 618,
+      "Address": "consequatur",
+      "EmailId": 491,
       "DuplicatePersonIds": [
-        180,
-        197
+        72,
+        239
       ],
-      "Name": "Klein Inc and Sons",
+      "Name": "Koepp-Sauer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 160
+          "FieldType": "System.Int32",
+          "FieldLength": 614
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 644,
-      "ContactName": "Baumbach Inc and Sons",
-      "PersonId": 223,
-      "PersonName": "Hoeger LLC",
-      "AssociateId": 14,
-      "Address": "eum",
-      "EmailId": 737,
+      "ContactId": 605,
+      "ContactName": "Senger Group",
+      "PersonId": 686,
+      "PersonName": "Hessel, Turner and Christiansen",
+      "AssociateId": 751,
+      "Address": "praesentium",
+      "EmailId": 851,
       "DuplicatePersonIds": [
-        808,
-        261
+        82,
+        506
       ],
-      "Name": "Quigley Group",
+      "Name": "O'Kon Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldLength": 890
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 651,
-      "ContactName": "Sanford Inc and Sons",
-      "PersonId": 88,
-      "PersonName": "Davis LLC",
-      "AssociateId": 204,
-      "Address": "aut",
-      "EmailId": 673,
+      "ContactId": 841,
+      "ContactName": "Sauer, Feeney and Hyatt",
+      "PersonId": 979,
+      "PersonName": "Hane, Crist and White",
+      "AssociateId": 419,
+      "Address": "laudantium",
+      "EmailId": 709,
       "DuplicatePersonIds": [
-        325,
-        896
+        984,
+        255
       ],
-      "Name": "Armstrong-Jacobson",
+      "Name": "Harber Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldType": "System.Int32",
+          "FieldLength": 135
         }
       }
     }
   ],
-  "Subject": "reiciendis",
+  "Subject": "culpa",
   "HTMLBody": "et",
   "From": null,
-  "Sent": "2002-05-09T03:51:27.2560919+02:00",
-  "Size": 70,
+  "Sent": "2017-08-23T16:00:40.9612259+02:00",
+  "Size": 290,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "velit",
-  "PlainBody": "quaerat",
-  "IsSent": false,
+  "MessageID": "beatae",
+  "PlainBody": "et",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 807,
+  "ServerId": 294,
   "Attachments": [
     {
-      "Description": "Multi-layered needs-based groupware",
-      "Filename": "vel",
-      "Size": 2,
-      "Type": "quis",
-      "Encoding": "ea",
-      "Id": "voluptas",
-      "Disposition": "autem",
+      "Description": "Reduced well-modulated knowledge user",
+      "Filename": "eum",
+      "Size": 752,
+      "Type": "iure",
+      "Encoding": "vero",
+      "Id": "voluptatum",
+      "Disposition": "nisi",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 218
+          "FieldLength": 235
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bradtke Inc and Sons",
+      "Name": "Borer, Barton and Toy",
       "Values": [
-        "sint",
-        "quasi"
+        "vitae",
+        "blanditiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldType": "System.String",
+          "FieldLength": 51
         }
       }
     },
     {
-      "Name": "Bradtke Inc and Sons",
+      "Name": "Borer, Barton and Toy",
       "Values": [
-        "sint",
-        "quasi"
+        "vitae",
+        "blanditiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldType": "System.String",
+          "FieldLength": 51
         }
       }
     }
   ],
-  "FolderName": "Smitham, Schroeder and Windler",
-  "EmailItemId": 290,
-  "AccountId": 606,
-  "ReceivedAt": "2020-01-12T03:51:27.2560919+01:00",
+  "FolderName": "Rippin, Kohler and Bogisich",
+  "EmailItemId": 451,
+  "AccountId": 247,
+  "ReceivedAt": "2016-09-06T16:00:40.9612259+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-08-03T03:51:27.2560919+02:00",
+  "RepliedAt": "2017-09-01T16:00:40.9612259+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -264,7 +265,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 274
     }
   }
 }

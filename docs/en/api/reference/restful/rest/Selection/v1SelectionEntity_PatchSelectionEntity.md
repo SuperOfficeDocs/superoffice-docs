@@ -1,6 +1,7 @@
 ---
 title: PATCH Selection/{id}
 uid: v1SelectionEntity_PatchSelectionEntity
+generated: true
 ---
 
 # PATCH Selection/{id}
@@ -147,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "cum",
+    "path": "corrupti",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cum",
+    "path": "corrupti",
     "value": {}
   }
 ]
@@ -171,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-lateral systematic protocol",
-  "Postit": "quos",
+  "Description": "Synergistic well-modulated definition",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 350,
-  "IncludePerson": 343,
-  "MemberCount": 810,
-  "Name": "Abshire LLC",
-  "PostitTextId": 922,
-  "CreatedDate": "2017-07-08T03:51:34.0052619+02:00",
-  "SelectionId": 988,
-  "SoundEx": "minima",
-  "Source": 504,
-  "TextId": 803,
-  "UpdatedDate": "1997-08-09T03:51:34.0052619+02:00",
-  "UpdatedCount": 353,
-  "Visibility": 824,
+  "GroupIdx": 471,
+  "IncludePerson": 783,
+  "MemberCount": 585,
+  "Name": "Stark Inc and Sons",
+  "PostitTextId": 693,
+  "CreatedDate": "2021-09-02T16:00:48.4458989+02:00",
+  "SelectionId": 868,
+  "SoundEx": "rerum",
+  "Source": 584,
+  "TextId": 871,
+  "UpdatedDate": "2001-10-14T16:00:48.4458989+02:00",
+  "UpdatedCount": 596,
+  "Visibility": 498,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 90,
-  "TargetTableName": "Cummerata, Paucek and Huel",
+  "TargetTableNumber": 818,
+  "TargetTableName": "Harris, Stiedemann and Carroll",
   "Completed": false,
-  "LeftSelectionId": 366,
-  "RightSelectionId": 46,
+  "LeftSelectionId": 16,
+  "RightSelectionId": 671,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schiller, Pfannerstill and Stroman",
-  "ShadowProviderName": "Spinka Group",
-  "ChartKey": "explicabo",
-  "LastLoaded": "1996-07-31T03:51:34.0052619+02:00",
-  "LastLoadedBy": 472,
+  "MainProviderName": "Goldner, Hansen and Kiehn",
+  "ShadowProviderName": "Stokes LLC",
+  "ChartKey": "ut",
+  "LastLoaded": "1996-08-05T16:00:48.4458989+02:00",
+  "LastLoadedBy": 105,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-03-23T03:51:34.0052619+01:00",
-  "LastMembershipChangeBy": 263,
+  "LastMembershipChange": "1998-08-27T16:00:48.4458989+02:00",
+  "LastMembershipChangeBy": 889,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "optio",
-  "MemberTabHeading": "consequuntur",
-  "MailingsProviderName": "Carter, Kertzmann and Schuppe",
-  "DashboardTileDefinitionId": 331,
+  "MainHeading": "culpa",
+  "MemberTabHeading": "esse",
+  "MailingsProviderName": "Heller, Nikolaus and Moore",
+  "DashboardTileDefinitionId": 321,
   "VisibleFor": [
     {
-      "VisibleId": 496,
+      "VisibleId": 244,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 686
+          "FieldLength": 229
         }
       }
     },
     {
-      "VisibleId": 496,
+      "VisibleId": 244,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 686
+          "FieldLength": 229
         }
       }
     }
@@ -244,12 +245,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldLength": 261
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

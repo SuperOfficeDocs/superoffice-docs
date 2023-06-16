@@ -1,6 +1,7 @@
 ---
 title: POST List/DeliveryTerm/Headings
 uid: v1DeliveryTermsList_PostDeliveryTermHeading
+generated: true
 ---
 
 # POST List/DeliveryTerm/Headings
@@ -78,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 704,
-  "Name": "Collier-Thompson",
-  "Tooltip": "veritatis",
-  "Deleted": false,
-  "Rank": 227,
-  "UdListDefinitionId": 339
+  "HeadingId": 977,
+  "Name": "Schaefer, Kuhic and Erdman",
+  "Tooltip": "accusantium",
+  "Deleted": true,
+  "Rank": 894,
+  "UdListDefinitionId": 554
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 938,
-  "Name": "Schuppe, Wunsch and Trantow",
-  "Tooltip": "veniam",
+  "HeadingId": 767,
+  "Name": "Cole Group",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 806,
-  "UdListDefinitionId": 901,
+  "Rank": 212,
+  "UdListDefinitionId": 727,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldLength": 668
     }
   }
 }

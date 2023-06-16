@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/RemoveLicenseFromDB
 uid: v1LicenseAgent_RemoveLicenseFromDB
+generated: true
 ---
 
 # POST Agents/License/RemoveLicenseFromDB
@@ -79,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ModuleOwner": "ratione"
+  "ModuleOwner": "ea"
 }
 ```
 
@@ -90,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": false,
+  "Succeeded": true,
   "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 386
+      "FieldType": "System.Int32",
+      "FieldLength": 907
     }
   }
 }

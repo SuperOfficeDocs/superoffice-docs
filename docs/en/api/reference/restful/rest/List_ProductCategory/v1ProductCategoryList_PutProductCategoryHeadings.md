@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductCategory/Headings
 uid: v1ProductCategoryList_PutProductCategoryHeadings
+generated: true
 ---
 
 # PUT List/ProductCategory/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 844,
-    "Name": "Howe-Cormier",
-    "Tooltip": "et",
+    "HeadingId": 276,
+    "Name": "Lueilwitz, Lesch and Watsica",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 125,
-    "UdListDefinitionId": 373
+    "Rank": 194,
+    "UdListDefinitionId": 906
   },
   {
-    "HeadingId": 844,
-    "Name": "Howe-Cormier",
-    "Tooltip": "et",
+    "HeadingId": 276,
+    "Name": "Lueilwitz, Lesch and Watsica",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 125,
-    "UdListDefinitionId": 373
+    "Rank": 194,
+    "UdListDefinitionId": 906
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 990,
-    "Name": "Kuhn Group",
-    "Tooltip": "odit",
+    "HeadingId": 208,
+    "Name": "Tromp Inc and Sons",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 484,
-    "UdListDefinitionId": 628,
+    "Rank": 984,
+    "UdListDefinitionId": 892,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldLength": 657
       }
     }
   }

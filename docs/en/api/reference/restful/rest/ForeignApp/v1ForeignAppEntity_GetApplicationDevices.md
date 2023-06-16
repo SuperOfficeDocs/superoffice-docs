@@ -1,6 +1,7 @@
 ---
 title: GET ForeignApp/{applicationName}/Devices
 uid: v1ForeignAppEntity_GetApplicationDevices
+generated: true
 ---
 
 # GET ForeignApp/{applicationName}/Devices
@@ -74,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 05 Oct 1999 03:51:33 G10T
+Last-Modified: Sun, 04 May 2003 16:00:47 G5T
 
 [
   {
-    "ForeignDeviceId": 536,
-    "Name": "Dare-Schaden",
-    "CreatedDate": "2001-04-02T03:51:33.677213+02:00",
-    "UpdatedDate": "1999-10-05T03:51:33.677213+02:00",
-    "AssociateFullName": "Earlene Kutch I",
-    "CreatedBy": "suscipit",
-    "UpdatedBy": "aut",
-    "DeviceIdentifier": "molestias",
-    "ForeignAppId": 464,
+    "ForeignDeviceId": 312,
+    "Name": "Ledner-Ernser",
+    "CreatedDate": "2010-02-09T16:00:47.9772018+01:00",
+    "UpdatedDate": "2003-05-04T16:00:47.9772018+02:00",
+    "AssociateFullName": "Leonor Haley DDS",
+    "CreatedBy": "neque",
+    "UpdatedBy": "qui",
+    "DeviceIdentifier": "incidunt",
+    "ForeignAppId": 472,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 992
+        "FieldType": "System.Int32",
+        "FieldLength": 668
       }
     }
   }

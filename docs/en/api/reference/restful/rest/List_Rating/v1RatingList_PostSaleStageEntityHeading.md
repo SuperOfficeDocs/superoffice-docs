@@ -1,6 +1,7 @@
 ---
 title: POST List/Rating/Headings
 uid: v1RatingList_PostSaleStageEntityHeading
+generated: true
 ---
 
 # POST List/Rating/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 518,
-  "Name": "Bauch, Yost and Mann",
-  "Tooltip": "voluptatem",
+  "HeadingId": 661,
+  "Name": "Mitchell LLC",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 381,
-  "UdListDefinitionId": 737
+  "Rank": 717,
+  "UdListDefinitionId": 769
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 846,
-  "Name": "Aufderhar LLC",
-  "Tooltip": "sint",
+  "HeadingId": 790,
+  "Name": "Kassulke-Daugherty",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 789,
-  "UdListDefinitionId": 325,
+  "Rank": 862,
+  "UdListDefinitionId": 820,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 198
     }
   }
 }

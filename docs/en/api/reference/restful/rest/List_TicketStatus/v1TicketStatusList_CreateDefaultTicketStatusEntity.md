@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketStatus/Items/Default
 uid: v1TicketStatusList_CreateDefaultTicketStatusEntity
+generated: true
 ---
 
 # GET List/TicketStatus/Items/Default
@@ -70,11 +71,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 137,
-  "Name": "Kovacek-Gibson",
+  "TicketStatusId": 382,
+  "Name": "Bins LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
@@ -82,7 +83,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldLength": 291
     }
   }
 }

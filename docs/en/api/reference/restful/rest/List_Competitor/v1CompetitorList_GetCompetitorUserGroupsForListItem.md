@@ -1,6 +1,7 @@
 ---
 title: GET List/Competitor/Items/{id}/UserGroups
 uid: v1CompetitorList_GetCompetitorUserGroupsForListItem
+generated: true
 ---
 
 # GET List/Competitor/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 462,
-    "Name": "Treutel, Reichel and Harvey",
-    "ToolTip": "Accusamus dolores quod nobis veniam.",
+    "Id": 580,
+    "Name": "Boyle, Crooks and Hoeger",
+    "ToolTip": "Non at dolores quaerat inventore et.",
     "Deleted": false,
-    "Rank": 118,
-    "Type": "dolore",
-    "ColorBlock": 275,
-    "IconHint": "aut",
+    "Rank": 204,
+    "Type": "maiores",
+    "ColorBlock": 448,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2021-12-15T03:51:34.5833707+01:00",
+    "LastChanged": "2011-05-07T16:00:48.8989756+02:00",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Quitzon, Shields and Thiel",
-        "ToolTip": "Qui voluptates labore quia sunt assumenda.",
-        "Deleted": true,
-        "Rank": 366,
-        "Type": "possimus",
-        "ColorBlock": 145,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2000-02-13T03:51:34.5833707+01:00",
+        "Id": 641,
+        "Name": "Steuber, Will and Berge",
+        "ToolTip": "At dolores optio eius corrupti.",
+        "Deleted": false,
+        "Rank": 613,
+        "Type": "similique",
+        "ColorBlock": 879,
+        "IconHint": "molestiae",
+        "Selected": true,
+        "LastChanged": "2012-10-28T16:00:48.8989756+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "modi",
+        "ExtraInfo": "in",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Ms. Julie Sanford V",
+        "FullName": "Lew Beahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 486
+            "FieldType": "System.Int32",
+            "FieldLength": 881
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Vilma Turcotte",
+    "ExtraInfo": "dolores",
+    "StyleHint": "blanditiis",
+    "Hidden": true,
+    "FullName": "Tara Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 27
+        "FieldType": "System.Int32",
+        "FieldLength": 528
       }
     }
   }

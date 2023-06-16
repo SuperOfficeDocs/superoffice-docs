@@ -2,17 +2,10 @@
 uid: FindContactWithoutPhoneAddressEmail
 title: FindContactWithoutPhoneAddressEmail
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "FindContactWithoutPhoneAddressEmail"
+keywords: FindContactWithoutPhoneAddressEmail archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "FindContactWithoutPhoneAddressEmail"
@@ -126,6 +119,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/contactCategory|listAny|Category: Category| x |
 |contactAssociate/role|listAny|Role : Role| x |
 |contactAssociate/assocName|associate|User ID : User ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactAssociate/assocTooltip|string|Description : Description|  |
 |contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
@@ -226,6 +223,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sourceRelation/contactDeleted|bool|Source - Deleted: Deleted| x |
 |sourceRelation/activeErpLinks|bool|Source - ERP connected: Is there an active ERP Sync?| x |
 |sourceRelation/deletedDate|datetime|Source - Deleted date: Deleted date|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sourceRelation/mainContact| *None* |Source - Main contact: Main contact for this company| x |
 |sourceRelation/restrictionContactId|int|Source - Company ID: Database ID of company to fetch relations for|  |
 |sourceRelation/who| *None* |Source - Full name: Full name of company/contact| x |
@@ -326,6 +327,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/associateDbId|associate|ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -426,6 +431,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/associate/role|listAny|Role : Role| x |
 |appointment/associate/assocName|associate|User ID : User ID| x |
 |appointment/associate/assocTooltip|string|Description : Description|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |appointment/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |appointment/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
@@ -526,6 +535,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
 |personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |position|listAny|Position| x |
 |personNumber|string|Number: Displays the contact's number| x |
 |title|string|Title: Displays the contact's job title| x |
@@ -626,6 +639,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
 |personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
 |personExtra/y\_rental/x\_end|date|Rental - End| x |
@@ -706,7 +723,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindContactWithoutPhoneAddressEmail?$select=registeredBy,contactPhone/description,contactFax/description,contactAssociate/contactDepartment,sale/sale/description
+GET /api/v1/archive/FindContactWithoutPhoneAddressEmail?$select=category,business,registeredBy,postAddress/city,contactAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

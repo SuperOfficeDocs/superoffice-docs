@@ -1,6 +1,7 @@
 ---
 title: PUT List/Currency/Items/{id}
 uid: v1CurrencyList_PutCurrencyEntity
+generated: true
 ---
 
 # PUT List/Currency/Items/{id}
@@ -85,13 +86,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 857,
-  "Name": "Conroy-Huel",
-  "Tooltip": "dolore",
-  "Rank": 937,
-  "Rate": 12379.3,
-  "Units": 15560.31,
-  "Deleted": true
+  "CurrencyId": 506,
+  "Name": "Stamm-Mayer",
+  "Tooltip": "porro",
+  "Rank": 66,
+  "Rate": 19443.336,
+  "Units": 17202.525999999998,
+  "Deleted": false
 }
 ```
 
@@ -102,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 950,
-  "Name": "Crist LLC",
-  "Tooltip": "et",
-  "Rank": 710,
-  "Rate": 28287.484,
-  "Units": 27011.946,
-  "Deleted": false,
+  "CurrencyId": 877,
+  "Name": "Kohler LLC",
+  "Tooltip": "iure",
+  "Rank": 305,
+  "Rate": 25009.32,
+  "Units": 17907.676,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 591
     }
   }
 }

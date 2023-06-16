@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/GetTargetDimensionsForEntityType
 uid: v1TargetsAgent_GetTargetDimensionsForEntityType
+generated: true
 ---
 
 # POST Agents/Targets/GetTargetDimensionsForEntityType
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 124,
+    "TargetDimensionId": 665,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "a",
-    "DimensionListName": "Ryan-Upton",
-    "DimensionListId": 47,
-    "DimensionListLabel": "nam",
+    "DimensionListField": "provident",
+    "DimensionListName": "Mann Group",
+    "DimensionListId": 37,
+    "DimensionListLabel": "cumque",
     "SelectedDimensions": [
-      994,
-      490
+      646,
+      220
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 901
+        "FieldLength": 112
       }
     }
   }

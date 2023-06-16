@@ -1,6 +1,7 @@
 ---
 title: GET List/Source
 uid: v1SourceList_GetListDefinition
+generated: true
 ---
 
 # GET List/Source
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 293,
-  "Name": "Yost-Toy",
-  "Tooltip": "veritatis",
+  "Id": 907,
+  "Name": "Graham, Strosin and Armstrong",
+  "Tooltip": "ad",
   "Deleted": false,
-  "Rank": 591,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 912,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "minus",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 632
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

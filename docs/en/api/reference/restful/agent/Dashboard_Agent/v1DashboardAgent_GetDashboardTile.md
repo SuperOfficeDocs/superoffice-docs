@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dashboard/GetDashboardTile
 uid: v1DashboardAgent_GetDashboardTile
+generated: true
 ---
 
 # POST Agents/Dashboard/GetDashboardTile
@@ -25,7 +26,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=235
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=415
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,64 +90,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 900,
-  "Caption": "saepe",
-  "Description": "Upgradable high-level approach",
-  "ChartName": "Casper-Zieme",
-  "ChartId": "eius",
-  "IsDefault": true,
-  "AssociateId": 800,
-  "GroupId": 151,
-  "SelectionId": 69,
-  "Config": "ab",
+  "DashboardTileId": 457,
+  "Caption": "adipisci",
+  "Description": "Multi-channelled didactic task-force",
+  "ChartName": "Thiel Group",
+  "ChartId": "perspiciatis",
+  "IsDefault": false,
+  "AssociateId": 394,
+  "GroupId": 734,
+  "SelectionId": 229,
+  "Config": "harum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Bernier-Muller",
-      "Description": "Intuitive asynchronous strategy",
+      "Name": "Prohaska, Howell and Schamberger",
+      "Description": "Right-sized systemic time-frame",
       "Type": "Boolean",
-      "ListName": "Leannon LLC",
+      "ListName": "Goyette Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "dolor",
+      "Value": "delectus",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldType": "System.String",
+          "FieldLength": 951
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 203,
+      "VisibleId": 820,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 273
         }
       }
     },
     {
-      "VisibleId": 203,
+      "VisibleId": 820,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 273
         }
       }
     }
@@ -156,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldLength": 371
     }
   }
 }

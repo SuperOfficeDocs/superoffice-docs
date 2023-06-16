@@ -1,6 +1,7 @@
 ---
 title: GET PreferenceDescription/{id}
 uid: v1PreferenceDescription_GetPreferenceDescription
+generated: true
 ---
 
 # GET PreferenceDescription/{id}
@@ -89,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 746,
-  "Section": "quia",
-  "Key": "a",
-  "Name": "Parker-Treutel",
+  "PrefDescId": 276,
+  "Section": "velit",
+  "Key": "quia",
+  "Name": "Adams-Blanda",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Face to face multi-state adapter",
-  "IsBuiltin": false,
-  "TableName": "Emmerich-Brekke",
-  "UserDefinedListId": 596,
-  "Rank": 794,
-  "SubGroup": "nihil",
-  "MinLevel": 862,
-  "MaxValue": 115,
-  "MinValue": 301,
-  "RequiredLicense": "aut",
+  "Description": "Fully-configurable zero tolerance hierarchy",
+  "IsBuiltin": true,
+  "TableName": "Price-Bechtelar",
+  "UserDefinedListId": 263,
+  "Rank": 877,
+  "SubGroup": "molestiae",
+  "MinLevel": 93,
+  "MaxValue": 338,
+  "MinValue": 933,
+  "RequiredLicense": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldLength": 299
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

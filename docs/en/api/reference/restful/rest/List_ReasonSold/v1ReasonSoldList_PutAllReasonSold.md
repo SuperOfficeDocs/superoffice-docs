@@ -1,6 +1,7 @@
 ---
 title: PUT List/ReasonSold/Items
 uid: v1ReasonSoldList_PutAllReasonSold
+generated: true
 ---
 
 # PUT List/ReasonSold/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Doyle-Marks",
-    "Tooltip": "facere",
+    "Id": 808,
+    "Name": "Moen-Altenwerth",
+    "Tooltip": "qui",
     "Deleted": true,
-    "UdListDefinitionId": 533,
-    "Rank": 792
+    "UdListDefinitionId": 120,
+    "Rank": 932
   },
   {
-    "Id": 76,
-    "Name": "Doyle-Marks",
-    "Tooltip": "facere",
+    "Id": 808,
+    "Name": "Moen-Altenwerth",
+    "Tooltip": "qui",
     "Deleted": true,
-    "UdListDefinitionId": 533,
-    "Rank": 792
+    "UdListDefinitionId": 120,
+    "Rank": 932
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Jaskolski, Jacobi and McGlynn",
-    "Tooltip": "et",
+    "Id": 780,
+    "Name": "Goyette-Klein",
+    "Tooltip": "eveniet",
     "Deleted": false,
-    "UdListDefinitionId": 862,
-    "Rank": 835,
+    "UdListDefinitionId": 467,
+    "Rank": 580,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 47
+        "FieldType": "System.Int32",
+        "FieldLength": 511
       }
     }
   }

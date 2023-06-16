@@ -1,6 +1,7 @@
 ---
 title: POST Agents/AI/TrainCategoryGuesser
 uid: v1AIAgent_TrainCategoryGuesser
+generated: true
 ---
 
 # POST Agents/AI/TrainCategoryGuesser
@@ -73,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 811,
-  "MaxItems": 528,
-  "MaxTextLength": 264
+  "SelectionId": 655,
+  "MaxItems": 562,
+  "MaxTextLength": 553
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: PUT List/TicketCategory/Headings
 uid: v1TicketCategoryList_PutTicketCategoryEntityHeadings
+generated: true
 ---
 
 # PUT List/TicketCategory/Headings
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 162,
-    "Name": "Kuhic-Schiller",
-    "Tooltip": "eum",
+    "HeadingId": 575,
+    "Name": "Abbott, Jast and Smitham",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "Rank": 19,
-    "UdListDefinitionId": 136
+    "Rank": 563,
+    "UdListDefinitionId": 124
   },
   {
-    "HeadingId": 162,
-    "Name": "Kuhic-Schiller",
-    "Tooltip": "eum",
+    "HeadingId": 575,
+    "Name": "Abbott, Jast and Smitham",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "Rank": 19,
-    "UdListDefinitionId": 136
+    "Rank": 563,
+    "UdListDefinitionId": 124
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 718,
-    "Name": "Bayer, Torp and Green",
-    "Tooltip": "ipsam",
+    "HeadingId": 466,
+    "Name": "Leannon, Lockman and Crooks",
+    "Tooltip": "eveniet",
     "Deleted": false,
-    "Rank": 1000,
-    "UdListDefinitionId": 244,
+    "Rank": 486,
+    "UdListDefinitionId": 784,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 873
+        "FieldLength": 895
       }
     }
   }

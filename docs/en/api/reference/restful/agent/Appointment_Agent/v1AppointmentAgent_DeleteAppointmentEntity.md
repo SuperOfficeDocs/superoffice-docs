@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/DeleteAppointmentEntity
 uid: v1AppointmentAgent_DeleteAppointmentEntity
+generated: true
 ---
 
 # POST Agents/Appointment/DeleteAppointmentEntity
@@ -24,7 +25,7 @@ Deletes the AppointmentEntity
 | AppointmentEntityId | int32 | **Required** The id of the AppointmentEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?AppointmentEntityId=957
+POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?AppointmentEntityId=489
 ```
 
 

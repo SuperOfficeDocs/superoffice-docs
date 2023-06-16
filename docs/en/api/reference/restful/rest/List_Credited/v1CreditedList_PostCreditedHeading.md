@@ -1,6 +1,7 @@
 ---
 title: POST List/Credited/Headings
 uid: v1CreditedList_PostCreditedHeading
+generated: true
 ---
 
 # POST List/Credited/Headings
@@ -78,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 876,
-  "Name": "Toy Inc and Sons",
-  "Tooltip": "eum",
+  "HeadingId": 64,
+  "Name": "Graham, Baumbach and Glover",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 398,
-  "UdListDefinitionId": 862
+  "Rank": 665,
+  "UdListDefinitionId": 792
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 151,
-  "Name": "Wyman, Casper and Leffler",
-  "Tooltip": "ipsum",
-  "Deleted": true,
-  "Rank": 546,
-  "UdListDefinitionId": 919,
+  "HeadingId": 583,
+  "Name": "Dietrich LLC",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "Rank": 547,
+  "UdListDefinitionId": 829,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 436
+      "FieldType": "System.Int32",
+      "FieldLength": 873
     }
   }
 }

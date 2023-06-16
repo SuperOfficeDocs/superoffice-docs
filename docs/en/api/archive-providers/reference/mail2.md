@@ -2,17 +2,10 @@
 uid: Mail2
 title: Mail2
 description: Provides populated mail envelope rows as an archive
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "Mail2"
+keywords: Mail2 archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "Mail2"
@@ -128,6 +121,10 @@ Provides populated mail envelope rows as an archive
 |person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |person/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |person/personUrl/URLAddress|string|URL| x |
 |person/personUrl/URLDescription|string|Description| x |
@@ -228,6 +225,10 @@ Provides populated mail envelope rows as an archive
 |person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/correspondingAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/correspondingAssociate/associateDbId|associate|ID| x |
 |person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
@@ -328,6 +329,10 @@ Provides populated mail envelope rows as an archive
 |contact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
 |contact/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
 |contact/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 |contact/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
 |contact/restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
@@ -428,6 +433,10 @@ Provides populated mail envelope rows as an archive
 |contact/saintActivityType|listAny|SAINT type|  |
 |contact/saintDirection|listAny|Direction|  |
 |contact/saintIntention|listAny|Intention|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/saintTicketStatus|listAny|Status|  |
 |contact/saintTicketCategory|listAny|Category|  |
 |accountAssociate/firstName|string|First name: Displays the contact's first name| x |
@@ -464,7 +473,7 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=subject,person/personUpdatedDate,person/personAssociate/assocTooltip,person/correspondingAssociate/fullName,contact/contactAssociate/userName
+GET /api/v1/archive/Mail2?$select=person/personDeletedDate,contact/email/emailBounceCount,contact/postAddress/addressId,contact/contactAssociate/associateDbId,contact/contactExtra/x_contact_dropdown
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

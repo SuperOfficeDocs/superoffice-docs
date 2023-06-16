@@ -1,6 +1,6 @@
 ---
 title: Services88.DocumentAgent.GetPublishedDocument SOAP
-generated: 1
+generated: true
 uid: Services88-Document-GetPublishedDocument
 ---
 

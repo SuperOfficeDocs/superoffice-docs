@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetSourceList
 uid: v1ListAgent_GetSourceList
+generated: true
 ---
 
 # POST Agents/List/GetSourceList
@@ -82,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Value": "est",
-    "Tooltip": "eos",
+    "Id": 137,
+    "Value": "beatae",
+    "Tooltip": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldType": "System.String",
+        "FieldLength": 925
       }
     }
   },
   {
-    "Id": 192,
-    "Value": "est",
-    "Tooltip": "eos",
+    "Id": 137,
+    "Value": "beatae",
+    "Tooltip": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldType": "System.String",
+        "FieldLength": 925
       }
     }
   }

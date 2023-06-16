@@ -1,6 +1,7 @@
 ---
 title: POST User/Validate
 uid: v1User_ValidateUser
+generated: true
 ---
 
 # POST User/Validate
@@ -83,18 +84,18 @@ OK
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 455,
-  "Name": "Cormier-Stamm",
-  "Rank": 926,
-  "Tooltip": "reprehenderit",
+  "AssociateId": 152,
+  "Name": "Beatty LLC",
+  "Rank": 24,
+  "Tooltip": "officia",
   "LicenseOwners": [
     {
-      "Name": "Schulist Inc and Sons",
-      "Description": "Programmable modular application",
+      "Name": "Ortiz, King and Emmerich",
+      "Description": "Multi-channelled analyzing framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -105,8 +106,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Schulist Inc and Sons",
-      "Description": "Programmable modular application",
+      "Name": "Ortiz, King and Emmerich",
+      "Description": "Multi-channelled analyzing framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,87 +122,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "enim",
-      "Tooltip": "accusantium",
-      "Id": 389,
-      "Rank": 513,
-      "Deleted": false
+      "Value": "repellat",
+      "Tooltip": "labore",
+      "Id": 344,
+      "Rank": 937,
+      "Deleted": true
     },
     {
-      "Value": "enim",
-      "Tooltip": "accusantium",
-      "Id": 389,
-      "Rank": 513,
-      "Deleted": false
+      "Value": "repellat",
+      "Tooltip": "labore",
+      "Id": 344,
+      "Rank": 937,
+      "Deleted": true
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2015-01-08T03:51:34.3178017+01:00",
-  "Lastlogout": "2003-04-27T03:51:34.3178017+02:00",
-  "EjUserId": 326,
-  "RequestSignature": "nam",
+  "Lastlogin": "2003-01-03T16:00:48.8052335+01:00",
+  "Lastlogout": "2022-09-13T16:00:48.8052335+02:00",
+  "EjUserId": 423,
+  "RequestSignature": "reprehenderit",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "vero",
-      "DisplayValue": "sed"
+      "Value": "et",
+      "DisplayValue": "non"
     },
     {
       "Type": null,
-      "Value": "vero",
-      "DisplayValue": "sed"
+      "Value": "et",
+      "DisplayValue": "non"
     }
   ],
-  "UserName": "Ondricka-Watsica",
+  "UserName": "Smitham Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 32,
-      "Name": "Marks Group",
-      "ToolTip": "Aut nihil ut similique laborum.",
+      "Id": 427,
+      "Name": "Wisoky Inc and Sons",
+      "ToolTip": "Rerum dolor dolor consequatur molestiae ut inventore rem.",
       "Deleted": false,
-      "Rank": 165,
-      "Type": "sit",
+      "Rank": 822,
+      "Type": "excepturi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 205,
-      "ExtraInfo": "alias",
-      "StyleHint": "exercitationem",
-      "FullName": "Mrs. Eva Jaiden Swaniawski"
+      "IconHint": "eos",
+      "ColorBlock": 992,
+      "ExtraInfo": "eum",
+      "StyleHint": "aut",
+      "FullName": "Kristoffer Cremin"
     }
   ],
-  "NickName": "Mraz LLC",
+  "NickName": "Durgan-Gleason",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "aliquid",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "in"
+    "CustomFields1": "aperiam",
+    "CustomFields2": "consequatur"
   },
   "PostSaveCommands": [
     {
-      "Name": "Upton, Hilll and Torp",
-      "DisplayName": "Ward, Kreiger and Walker",
-      "Description": "Multi-layered attitude-oriented groupware",
-      "ToolTip": "Pariatur non deleniti.",
+      "Name": "Rempel, Dibbert and Schmidt",
+      "DisplayName": "Medhurst-Kassulke",
+      "Description": "Ameliorated fresh-thinking superstructure",
+      "ToolTip": "Eius hic provident fuga explicabo.",
       "Actions": "Implicit",
-      "ActionData": "aliquid"
+      "ActionData": "omnis"
     },
     {
-      "Name": "Upton, Hilll and Torp",
-      "DisplayName": "Ward, Kreiger and Walker",
-      "Description": "Multi-layered attitude-oriented groupware",
-      "ToolTip": "Pariatur non deleniti.",
+      "Name": "Rempel, Dibbert and Schmidt",
+      "DisplayName": "Medhurst-Kassulke",
+      "Description": "Ameliorated fresh-thinking superstructure",
+      "ToolTip": "Eius hic provident fuga explicabo.",
       "Actions": "Implicit",
-      "ActionData": "aliquid"
+      "ActionData": "omnis"
     }
   ]
 }
@@ -214,7 +215,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ut",
-  "2": "dolore"
+  "1": "ea",
+  "2": "voluptatem"
 }
 ```

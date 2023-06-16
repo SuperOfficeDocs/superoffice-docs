@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetErpConnectionConfigFields
 uid: v1ErpSyncAgent_GetErpConnectionConfigFields
+generated: true
 ---
 
 # POST Agents/ErpSync/GetErpConnectionConfigFields
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpConnectionConfigFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 384
+  "ErpConnectionId": 524
 }
 ```
 
@@ -84,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolore",
-  "2": "consequatur"
+  "1": "dolores",
+  "2": "quia"
 }
 ```

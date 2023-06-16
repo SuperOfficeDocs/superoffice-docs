@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetSuggestedAppointmentEntity
 uid: v1AppointmentAgent_GetSuggestedAppointmentEntity
+generated: true
 ---
 
 # POST Agents/Appointment/GetSuggestedAppointmentEntity
@@ -25,7 +26,7 @@ Gets a SuggestedAppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=451
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=350
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -89,17 +90,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 652,
-  "Name": "Boyer, Botsford and Herzog",
-  "Tooltip": "fuga",
-  "Rank": 799,
-  "Deleted": true,
-  "DaysFuture": 57,
-  "Duration": "magnam",
-  "AutoSuggest": true,
-  "IsMilestone": false,
+  "SuggestedAppointmentId": 241,
+  "Name": "Kassulke Group",
+  "Tooltip": "provident",
+  "Rank": 760,
+  "Deleted": false,
+  "DaysFuture": 624,
+  "Duration": "rerum",
+  "AutoSuggest": false,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "iure",
+  "Text": "est",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -107,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldType": "System.String",
+      "FieldLength": 766
     }
   }
 }

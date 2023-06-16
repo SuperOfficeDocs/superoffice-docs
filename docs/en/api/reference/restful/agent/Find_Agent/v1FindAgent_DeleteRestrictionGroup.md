@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/DeleteRestrictionGroup
 uid: v1FindAgent_DeleteRestrictionGroup
+generated: true
 ---
 
 # POST Agents/Find/DeleteRestrictionGroup
@@ -67,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequatur",
-  "ProviderName": "Dickinson LLC",
-  "StorageKey": "non",
-  "Rank": 216,
-  "Context": "eligendi"
+  "StorageType": "ratione",
+  "ProviderName": "Berge, Schiller and Renner",
+  "StorageKey": "beatae",
+  "Rank": 472,
+  "Context": "repellendus"
 }
 ```
 

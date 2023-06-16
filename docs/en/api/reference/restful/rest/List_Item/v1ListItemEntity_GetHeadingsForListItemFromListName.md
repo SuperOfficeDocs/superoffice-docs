@@ -1,6 +1,7 @@
 ---
 title: GET List/{udListDefinitionName}/Items/{id}/Headings
 uid: v1ListItemEntity_GetHeadingsForListItemFromListName
+generated: true
 ---
 
 # GET List/{udListDefinitionName}/Items/{id}/Headings
@@ -83,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Harris, Koch and Becker",
-    "ToolTip": "Harum voluptatem.",
+    "Id": 884,
+    "Name": "Bradtke Inc and Sons",
+    "ToolTip": "Facere fugit ab nam mollitia.",
     "Deleted": false,
-    "Rank": 902,
-    "Type": "facere",
-    "ColorBlock": 268,
-    "IconHint": "natus",
+    "Rank": 469,
+    "Type": "voluptas",
+    "ColorBlock": 986,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2001-02-05T03:51:34.3646689+01:00",
+    "LastChanged": "1996-02-26T16:00:48.8364781+01:00",
     "ChildItems": [
       {
-        "Id": 506,
-        "Name": "Heaney-Collins",
-        "ToolTip": "Consectetur qui commodi.",
+        "Id": 391,
+        "Name": "Corwin-Kuvalis",
+        "ToolTip": "Autem at ut eos repudiandae porro ad.",
         "Deleted": false,
-        "Rank": 889,
-        "Type": "quibusdam",
-        "ColorBlock": 305,
-        "IconHint": "hic",
-        "Selected": true,
-        "LastChanged": "2006-05-24T03:51:34.3646689+02:00",
+        "Rank": 920,
+        "Type": "similique",
+        "ColorBlock": 675,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2017-07-08T16:00:48.8364781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "sequi",
-        "Hidden": true,
-        "FullName": "Prof. Neha Koby Casper",
+        "ExtraInfo": "aut",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Duncan Douglas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 763
+            "FieldLength": 355
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Prof. Hattie Alayna Marks III",
+    "ExtraInfo": "nulla",
+    "StyleHint": "cupiditate",
+    "Hidden": false,
+    "FullName": "Donnell Schamberger Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

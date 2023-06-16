@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
 uid: v1AppointmentAgent_GetRedLetterInformationListByDatesAndAssociate
+generated: true
 ---
 
 # POST Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
@@ -82,9 +83,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2005-03-26T03:51:26.1469713+01:00",
-  "EndDate": "2023-02-13T03:51:26.1469713+01:00",
-  "AssociateId": 387
+  "StartDate": "2014-11-18T16:00:39.6644704+01:00",
+  "EndDate": "2018-01-16T16:00:39.6644704+01:00",
+  "AssociateId": 210
 }
 ```
 
@@ -96,28 +97,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2005-07-20T03:51:26.1469713+02:00",
+    "Date": "2001-12-12T16:00:39.6644704+01:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 831
+        "FieldType": "System.Int32",
+        "FieldLength": 777
       }
     }
   },
   {
-    "Date": "2005-07-20T03:51:26.1469713+02:00",
+    "Date": "2001-12-12T16:00:39.6644704+01:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 831
+        "FieldType": "System.Int32",
+        "FieldLength": 777
       }
     }
   }

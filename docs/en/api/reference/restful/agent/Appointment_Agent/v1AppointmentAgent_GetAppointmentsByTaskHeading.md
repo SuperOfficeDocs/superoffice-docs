@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetAppointmentsByTaskHeading
 uid: v1AppointmentAgent_GetAppointmentsByTaskHeading
+generated: true
 ---
 
 # POST Agents/Appointment/GetAppointmentsByTaskHeading
@@ -113,6 +114,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -122,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskHeadingId": 640
+  "TaskHeadingId": 317
 }
 ```
 
@@ -138,61 +142,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 375,
-    "StartDate": "2007-11-21T03:51:26.1313562+01:00",
-    "EndDate": "2013-03-30T03:51:26.1313562+01:00",
+    "AppointmentId": 406,
+    "StartDate": "2015-05-25T16:00:39.6488525+02:00",
+    "EndDate": "2015-11-30T16:00:39.6488525+01:00",
     "Type": "BookingForChecklist",
-    "Task": "nobis",
-    "AssociateFullName": "Mariam Connelly",
-    "ContactName": "Von-Turner",
-    "Description": "Operative systemic product",
-    "PersonFullName": "Libbie Veum II",
-    "PersonId": 360,
-    "ContactId": 721,
-    "ProjectId": 908,
-    "ProjectName": "Douglas-Koch",
-    "IsPublished": false,
-    "AssociateId": 232,
-    "ColorIndex": 667,
+    "Task": "et",
+    "AssociateFullName": "Miss Ashton Russ Schulist",
+    "ContactName": "Keebler-Macejkovic",
+    "Description": "Enterprise-wide cohesive methodology",
+    "PersonFullName": "Queenie Beahan",
+    "PersonId": 653,
+    "ContactId": 5,
+    "ProjectId": 428,
+    "ProjectName": "Olson Inc and Sons",
+    "IsPublished": true,
+    "AssociateId": 371,
+    "ColorIndex": 520,
     "IsFree": true,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 645,
-    "PriorityName": "Yundt Group",
+    "PriorityId": 328,
+    "PriorityName": "Morar-Dooley",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2000-07-05T03:51:26.1313562+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2004-12-20T16:00:39.6488525+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1995-12-27T03:51:26.1313562+01:00",
-    "RecurringEndDate": "2006-02-02T03:51:26.1313562+01:00",
-    "MotherId": 138,
-    "AssignedBy": 975,
-    "AssignedByFullName": "Prof. Broderick Jewess IV",
+    "RecurringStartDate": "2011-08-25T16:00:39.6488525+02:00",
+    "RecurringEndDate": "2006-01-07T16:00:39.6488525+01:00",
+    "MotherId": 426,
+    "AssignedBy": 892,
+    "AssignedByFullName": "Esmeralda Littel",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "nihil",
-    "SaleId": 997,
-    "SaleName": "Hermiston LLC",
-    "AssociateName": "Hudson, Schneider and Cummings",
-    "CreatedDate": "2019-08-16T03:51:26.1313562+02:00",
-    "CreatedBy": "quae",
-    "CreatedByFullName": "Mr. Adonis Gail Gleason",
-    "CreatedByAssociateId": 22,
+    "Location": "voluptatem",
+    "AlarmLeadTime": "accusamus",
+    "SaleId": 587,
+    "SaleName": "McKenzie LLC",
+    "AssociateName": "Hegmann, Mueller and Wiza",
+    "CreatedDate": "2008-02-24T16:00:39.6488525+01:00",
+    "CreatedBy": "fuga",
+    "CreatedByFullName": "Dr. Haylee Reilly III",
+    "CreatedByAssociateId": 77,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "sequi",
+    "Agenda": "dolor",
+    "InternalNotes": "nisi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 182
+        "FieldType": "System.Int32",
+        "FieldLength": 915
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/AuthenticateOutgoing
 uid: v1EMailAgent_AuthenticateOutgoing
+generated: true
 ---
 
 # POST Agents/EMail/AuthenticateOutgoing
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/EMail/AuthenticateOutgoing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {

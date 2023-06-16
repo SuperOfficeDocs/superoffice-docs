@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetMrMrsList
 uid: v1ListAgent_GetMrMrsList
+generated: true
 ---
 
 # POST Agents/List/GetMrMrsList
@@ -82,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Value": "et",
-    "Tooltip": "doloribus",
+    "Id": 579,
+    "Value": "similique",
+    "Tooltip": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 72
+        "FieldLength": 876
       }
     }
   },
   {
-    "Id": 274,
-    "Value": "et",
-    "Tooltip": "doloribus",
+    "Id": 579,
+    "Value": "similique",
+    "Tooltip": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 72
+        "FieldLength": 876
       }
     }
   }

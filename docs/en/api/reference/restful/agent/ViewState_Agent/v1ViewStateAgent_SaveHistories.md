@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ViewState/SaveHistories
 uid: v1ViewStateAgent_SaveHistories
+generated: true
 ---
 
 # POST Agents/ViewState/SaveHistories
@@ -81,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "VonRueden, Cronin and Schroeder",
+  "HistoryName": "Terry-Ratke",
   "History": [
     {
-      "Rank": 837,
-      "Id": 470,
-      "HistoryName": "Littel-Kunde",
-      "HistoryId": 146,
-      "AssociateId": 835,
-      "Name": "Ferry-Mayert",
-      "ItemInfo": "eligendi"
+      "Rank": 173,
+      "Id": 504,
+      "HistoryName": "Wyman, Halvorson and Jerde",
+      "HistoryId": 826,
+      "AssociateId": 48,
+      "Name": "Krajcik, Koch and Dickinson",
+      "ItemInfo": "est"
     }
   ]
 }
@@ -108,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 882,
-    "Id": 239,
-    "HistoryName": "Rutherford Inc and Sons",
-    "HistoryId": 74,
-    "AssociateId": 518,
-    "Name": "Lind Group",
-    "ItemInfo": "distinctio",
+    "Rank": 88,
+    "Id": 650,
+    "HistoryName": "Kemmer-Corkery",
+    "HistoryId": 636,
+    "AssociateId": 32,
+    "Name": "Christiansen-Schmitt",
+    "ItemInfo": "quasi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldLength": 939
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetPublishedAppointment
 uid: v1AppointmentAgent_GetPublishedAppointment
+generated: true
 ---
 
 # POST Agents/Appointment/GetPublishedAppointment
@@ -111,6 +112,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -124,7 +128,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 356
+  "AppointmentId": 105
 }
 ```
 
@@ -135,61 +139,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 958,
-  "StartDate": "2016-01-03T03:51:26.1313562+01:00",
-  "EndDate": "2013-07-15T03:51:26.1313562+02:00",
+  "AppointmentId": 375,
+  "StartDate": "2000-05-30T16:00:39.6332261+02:00",
+  "EndDate": "2019-10-10T16:00:39.6332261+02:00",
   "Type": "BookingForChecklist",
-  "Task": "et",
-  "AssociateFullName": "Amparo Swift",
-  "ContactName": "Rohan Group",
-  "Description": "User-centric user-facing hub",
-  "PersonFullName": "Santos D'Amore",
-  "PersonId": 804,
-  "ContactId": 436,
-  "ProjectId": 562,
-  "ProjectName": "Sporer-Hartmann",
+  "Task": "aliquid",
+  "AssociateFullName": "Mrs. Tia April Cassin MD",
+  "ContactName": "Steuber LLC",
+  "Description": "Profound directional secured line",
+  "PersonFullName": "Allen Aaliyah Predovic I",
+  "PersonId": 873,
+  "ContactId": 859,
+  "ProjectId": 943,
+  "ProjectName": "Grady-Thompson",
   "IsPublished": false,
-  "AssociateId": 594,
-  "ColorIndex": 579,
+  "AssociateId": 642,
+  "ColorIndex": 531,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 804,
-  "PriorityName": "Halvorson-Walter",
+  "PriorityId": 60,
+  "PriorityName": "Reilly, Sipes and Cummerata",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2022-04-21T03:51:26.1313562+02:00",
+  "IsBooking": false,
+  "ActiveDate": "1999-05-03T16:00:39.6332261+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2007-04-13T03:51:26.1313562+02:00",
-  "RecurringEndDate": "2019-02-24T03:51:26.1313562+01:00",
-  "MotherId": 729,
-  "AssignedBy": 839,
-  "AssignedByFullName": "Richie Hackett",
-  "RejectReason": "",
-  "Location": "iste",
-  "AlarmLeadTime": "dolor",
-  "SaleId": 343,
-  "SaleName": "Roob Inc and Sons",
-  "AssociateName": "Kautzer Group",
-  "CreatedDate": "2022-04-17T03:51:26.1313562+02:00",
+  "RecurringStartDate": "2010-12-23T16:00:39.6332261+01:00",
+  "RecurringEndDate": "2019-09-27T16:00:39.6332261+02:00",
+  "MotherId": 548,
+  "AssignedBy": 834,
+  "AssignedByFullName": "Prof. Ramon Alfred Bins",
+  "RejectReason": "whiteboard ubiquitous vortals",
+  "Location": "omnis",
+  "AlarmLeadTime": "laboriosam",
+  "SaleId": 10,
+  "SaleName": "Lowe Group",
+  "AssociateName": "Schulist Group",
+  "CreatedDate": "2015-11-16T16:00:39.6332261+01:00",
   "CreatedBy": "sed",
-  "CreatedByFullName": "Brisa Von V",
-  "CreatedByAssociateId": 758,
+  "CreatedByFullName": "Douglas Goyette",
+  "CreatedByAssociateId": 349,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
+  "Title": "tempora",
+  "Agenda": "sed",
+  "InternalNotes": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   }
 }

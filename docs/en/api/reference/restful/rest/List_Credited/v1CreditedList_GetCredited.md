@@ -1,6 +1,7 @@
 ---
 title: GET List/Credited/Items/{id}
 uid: v1CreditedList_GetCredited
+generated: true
 ---
 
 # GET List/Credited/Items/{id}
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 953,
-  "Name": "Bauch LLC",
-  "Tooltip": "quasi",
+  "Id": 938,
+  "Name": "Lynch Group",
+  "Tooltip": "error",
   "Deleted": false,
-  "UdListDefinitionId": 66,
-  "Rank": 430,
+  "UdListDefinitionId": 114,
+  "Rank": 157,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 483
     }
   }
 }

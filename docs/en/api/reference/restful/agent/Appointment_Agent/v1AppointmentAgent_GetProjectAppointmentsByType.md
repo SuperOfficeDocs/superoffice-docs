@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetProjectAppointmentsByType
 uid: v1AppointmentAgent_GetProjectAppointmentsByType
+generated: true
 ---
 
 # POST Agents/Appointment/GetProjectAppointmentsByType
@@ -117,6 +118,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -126,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 407,
-  "StartTime": "2006-09-26T03:51:26.5531332+02:00",
-  "EndTime": "1998-09-20T03:51:26.5531332+02:00",
-  "Count": 424,
+  "ProjectId": 66,
+  "StartTime": "2021-02-20T16:00:40.0550846+01:00",
+  "EndTime": "2018-09-14T16:00:40.0550846+02:00",
+  "Count": 836,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,61 +150,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 936,
-    "StartDate": "2010-07-20T03:51:26.5531332+02:00",
-    "EndDate": "2012-03-12T03:51:26.5531332+01:00",
+    "AppointmentId": 518,
+    "StartDate": "2011-08-13T16:00:40.0550846+02:00",
+    "EndDate": "2002-06-06T16:00:40.0550846+02:00",
     "Type": "BookingForChecklist",
-    "Task": "exercitationem",
-    "AssociateFullName": "Raymundo Herzog",
-    "ContactName": "Schmitt Inc and Sons",
-    "Description": "Fundamental bandwidth-monitored focus group",
-    "PersonFullName": "Hope Emely Bahringer MD",
-    "PersonId": 874,
-    "ContactId": 121,
-    "ProjectId": 268,
-    "ProjectName": "Homenick Group",
-    "IsPublished": false,
-    "AssociateId": 926,
-    "ColorIndex": 145,
-    "IsFree": false,
+    "Task": "qui",
+    "AssociateFullName": "Dallas Homenick",
+    "ContactName": "Weber Inc and Sons",
+    "Description": "Switchable tertiary initiative",
+    "PersonFullName": "Eden Leannon",
+    "PersonId": 260,
+    "ContactId": 295,
+    "ProjectId": 282,
+    "ProjectName": "Jacobson Inc and Sons",
+    "IsPublished": true,
+    "AssociateId": 461,
+    "ColorIndex": 952,
+    "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 165,
-    "PriorityName": "Kshlerin LLC",
+    "PriorityId": 120,
+    "PriorityName": "Nolan Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2004-12-26T03:51:26.5531332+01:00",
+    "ActiveDate": "2014-09-20T16:00:40.0550846+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-11-14T03:51:26.5531332+01:00",
-    "RecurringEndDate": "2016-05-07T03:51:26.5531332+02:00",
-    "MotherId": 365,
-    "AssignedBy": 139,
-    "AssignedByFullName": "Mr. Jaren Caesar Hansen",
+    "RecurringStartDate": "2008-08-21T16:00:40.0550846+02:00",
+    "RecurringEndDate": "2007-03-17T16:00:40.0550846+01:00",
+    "MotherId": 666,
+    "AssignedBy": 96,
+    "AssignedByFullName": "Dr. Alison Edd Jewess",
     "RejectReason": "",
     "Location": "nam",
-    "AlarmLeadTime": "dolores",
-    "SaleId": 587,
-    "SaleName": "Stanton Group",
-    "AssociateName": "Emmerich-Connelly",
-    "CreatedDate": "2004-01-18T03:51:26.5531332+01:00",
-    "CreatedBy": "cumque",
-    "CreatedByFullName": "Moriah Hansen",
-    "CreatedByAssociateId": 741,
+    "AlarmLeadTime": "est",
+    "SaleId": 41,
+    "SaleName": "Bosco LLC",
+    "AssociateName": "Nicolas, McGlynn and Emmerich",
+    "CreatedDate": "2008-04-23T16:00:40.0550846+02:00",
+    "CreatedBy": "minus",
+    "CreatedByFullName": "Darien Hackett",
+    "CreatedByAssociateId": 508,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "possimus",
+    "Agenda": "labore",
+    "InternalNotes": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldLength": 944
       }
     }
   }

@@ -1,17 +1,11 @@
 ---
 uid: importnewproductlistitem
 title: importnewproductlistitem
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "importnewproductlistitem"
+keywords: mdoprovider mdo provider importnewproductlistitem
+description: Import product list items: add, use blank
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "importnewproductlistitem" MDO List

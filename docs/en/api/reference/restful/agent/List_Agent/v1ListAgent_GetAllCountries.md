@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAllCountries
 uid: v1ListAgent_GetAllCountries
+generated: true
 ---
 
 # POST Agents/List/GetAllCountries
@@ -89,7 +90,7 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 61,
-    "Name": "Schmitt, Schmeler and Blanda",
-    "CurrencyId": 715,
-    "EnglishName": "Kuhn, Hoppe and McClure",
+    "CountryId": 427,
+    "Name": "Metz, Hartmann and Abshire",
+    "CurrencyId": 549,
+    "EnglishName": "O'Connell, Ortiz and Prosacco",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Organized human-resource toolset",
-    "OrgNrText": "490687",
-    "InterAreaPrefix": "non",
-    "DialInPrefix": "sunt",
-    "ZipPrefix": "ratione",
-    "DomainName": "Ryan-Turner",
-    "AddressLayoutId": 840,
-    "DomesticAddressLayoutId": 761,
-    "ForeignAddressLayoutId": 177,
-    "Rank": 260,
-    "Tooltip": "eius",
+    "ImageDescription": "Realigned fault-tolerant benchmark",
+    "OrgNrText": "699936",
+    "InterAreaPrefix": "voluptas",
+    "DialInPrefix": "sed",
+    "ZipPrefix": "omnis",
+    "DomainName": "Crona, Mayert and Greenfelder",
+    "AddressLayoutId": 245,
+    "DomesticAddressLayoutId": 234,
+    "ForeignAddressLayoutId": 779,
+    "Rank": 704,
+    "Tooltip": "molestiae",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldLength": 272
       }
     }
   }

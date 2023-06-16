@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/GetSelectionShadowMembersArchiveRows
 uid: v1SelectionAgent_GetSelectionShadowMembersArchiveRows
+generated: true
 ---
 
 # POST Agents/Selection/GetSelectionShadowMembersArchiveRows
@@ -79,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 724,
-  "Select": "dolores"
+  "SelectionId": 901,
+  "Select": "necessitatibus"
 }
 ```
 
@@ -96,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Stracke Inc and Sons",
-    "PrimaryKey": 112,
+    "EntityName": "Turcotte, Dicki and Gleichner",
+    "PrimaryKey": 571,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "aspernatur",
-        "TooltipHint": "aliquam",
-        "LinkHint": "omnis"
+        "DisplayValue": "minima",
+        "TooltipHint": "expedita",
+        "LinkHint": "doloribus"
       }
     },
-    "LinkHint": "accusantium",
-    "StyleHint": "voluptatem",
+    "LinkHint": "delectus",
+    "StyleHint": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 183
       }
     }
   }

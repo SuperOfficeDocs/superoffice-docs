@@ -1,6 +1,7 @@
 ---
 title: PUT Document/UdefLayout
 uid: v1DocumentEntity_SaveUdefLayout
+generated: true
 ---
 
 # PUT Document/UdefLayout
@@ -128,45 +129,45 @@ OK
 PUT /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 712,
-    "ColumnId": 528,
-    "FieldDefault": "necessitatibus",
-    "FieldHeight": 924,
-    "FieldLabel": "laudantium",
-    "FieldLeft": 495,
-    "FieldTop": 417,
+    "UDefFieldId": 241,
+    "ColumnId": 177,
+    "FieldDefault": "aut",
+    "FieldHeight": 795,
+    "FieldLabel": "sit",
+    "FieldLeft": 59,
+    "FieldTop": 140,
     "FieldType": "Checkbox",
-    "FieldWidth": 936,
-    "FormatMask": "asperiores",
+    "FieldWidth": 202,
+    "FormatMask": "aut",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 540,
-    "LabelLeft": 373,
-    "LabelTop": 319,
-    "LabelWidth": 765,
-    "LastVersionId": 776,
-    "ListTableId": 193,
-    "IsMandatory": true,
+    "LabelHeight": 405,
+    "LabelLeft": 345,
+    "LabelTop": 290,
+    "LabelWidth": 85,
+    "LastVersionId": 665,
+    "ListTableId": 529,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 319,
-    "ProgId": "voluptatem",
+    "Page1LineNo": 259,
+    "ProgId": "voluptas",
     "IsReadOnly": false,
-    "ShortLabel": "quia",
-    "TabOrder": 868,
-    "TextLength": 550,
-    "Tooltip": "exercitationem",
-    "UdefIdentity": 866,
-    "UDListDefinitionId": 563,
+    "ShortLabel": "vel",
+    "TabOrder": 819,
+    "TextLength": 923,
+    "Tooltip": "nihil",
+    "UdefIdentity": 180,
+    "UDListDefinitionId": 507,
     "Justification": "Center",
-    "Version": 473,
-    "TemplateVariableName": "Auer, Marks and Hettinger",
+    "Version": 356,
+    "TemplateVariableName": "Mohr Group",
     "HasBeenPublished": false,
-    "MdoListName": "Cruickshank LLC"
+    "MdoListName": "Runte Group"
   }
 ]
 ```
@@ -179,46 +180,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 100,
-    "ColumnId": 72,
-    "FieldDefault": "fugit",
-    "FieldHeight": 209,
-    "FieldLabel": "aut",
-    "FieldLeft": 843,
-    "FieldTop": 448,
+    "UDefFieldId": 527,
+    "ColumnId": 155,
+    "FieldDefault": "occaecati",
+    "FieldHeight": 864,
+    "FieldLabel": "autem",
+    "FieldLeft": 957,
+    "FieldTop": 776,
     "FieldType": "Checkbox",
-    "FieldWidth": 597,
-    "FormatMask": "et",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 342,
-    "LabelLeft": 923,
-    "LabelTop": 443,
-    "LabelWidth": 423,
-    "LastVersionId": 847,
-    "ListTableId": 841,
-    "IsMandatory": false,
+    "FieldWidth": 927,
+    "FormatMask": "ut",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 132,
+    "LabelLeft": 243,
+    "LabelTop": 932,
+    "LabelWidth": 152,
+    "LastVersionId": 732,
+    "ListTableId": 899,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 599,
-    "ProgId": "neque",
-    "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 563,
-    "TextLength": 838,
-    "Tooltip": "saepe",
-    "UdefIdentity": 783,
-    "UDListDefinitionId": 969,
+    "Page1LineNo": 259,
+    "ProgId": "id",
+    "IsReadOnly": true,
+    "ShortLabel": "accusamus",
+    "TabOrder": 517,
+    "TextLength": 434,
+    "Tooltip": "harum",
+    "UdefIdentity": 377,
+    "UDListDefinitionId": 129,
     "Justification": "Center",
-    "Version": 401,
-    "TemplateVariableName": "McGlynn, Sipes and Mohr",
-    "HasBeenPublished": false,
-    "MdoListName": "Sawayn, Waelchi and Rau",
+    "Version": 674,
+    "TemplateVariableName": "Gislason, Cassin and Ullrich",
+    "HasBeenPublished": true,
+    "MdoListName": "Bechtelar, Trantow and McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 609
+        "FieldLength": 640
       }
     }
   }

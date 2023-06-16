@@ -1,6 +1,7 @@
 ---
 title: DEL List/Business/Items
 uid: v1BusinessList_DeleteAllBusiness
+generated: true
 ---
 
 # DEL List/Business/Items

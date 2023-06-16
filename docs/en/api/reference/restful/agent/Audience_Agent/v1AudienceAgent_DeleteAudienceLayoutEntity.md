@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/DeleteAudienceLayoutEntity
 uid: v1AudienceAgent_DeleteAudienceLayoutEntity
+generated: true
 ---
 
 # POST Agents/Audience/DeleteAudienceLayoutEntity
@@ -24,7 +25,7 @@ Deletes the AudienceLayoutEntity
 | AudienceLayoutEntityId | int32 | **Required** The id of the AudienceLayoutEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Audience/DeleteAudienceLayoutEntity?AudienceLayoutEntityId=955
+POST /api/v1/Agents/Audience/DeleteAudienceLayoutEntity?AudienceLayoutEntityId=857
 ```
 
 
@@ -55,7 +56,7 @@ No Content
 POST /api/v1/Agents/Audience/DeleteAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response

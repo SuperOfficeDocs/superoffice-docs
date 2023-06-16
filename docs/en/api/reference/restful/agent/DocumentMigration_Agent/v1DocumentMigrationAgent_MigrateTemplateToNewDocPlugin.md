@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DocumentMigration/MigrateTemplateToNewDocPlugin
 uid: v1DocumentMigrationAgent_MigrateTemplateToNewDocPlugin
+generated: true
 ---
 
 # POST Agents/DocumentMigration/MigrateTemplateToNewDocPlugin
@@ -66,12 +67,12 @@ No Content
 POST /api/v1/Agents/DocumentMigration/MigrateTemplateToNewDocPlugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 647,
-  "TargetDocumentPluginId": 998
+  "DocumentTemplateId": 70,
+  "TargetDocumentPluginId": 195
 }
 ```
 

@@ -1,17 +1,11 @@
 ---
 uid: personphone
 title: personphone
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "personphone"
+keywords: mdoprovider mdo provider personphone
+description: Search phone numbers for matching values, restricted to a given company or person.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "personphone" MDO List

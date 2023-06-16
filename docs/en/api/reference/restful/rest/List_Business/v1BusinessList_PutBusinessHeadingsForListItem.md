@@ -1,6 +1,7 @@
 ---
 title: PUT List/Business/Items/{id}/Headings
 uid: v1BusinessList_PutBusinessHeadingsForListItem
+generated: true
 ---
 
 # PUT List/Business/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Howe, Marks and Smith",
-    "ToolTip": "Eligendi qui sequi voluptas qui et.",
+    "Id": 275,
+    "Name": "Bernier, Gibson and Bergnaum",
+    "ToolTip": "Amet ipsam sit.",
     "Deleted": false,
-    "Rank": 915,
-    "Type": "quia",
-    "ColorBlock": 372,
-    "IconHint": "sequi",
+    "Rank": 141,
+    "Type": "aut",
+    "ColorBlock": 885,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2023-01-30T03:51:34.3802934+01:00",
+    "LastChanged": "2020-02-12T16:00:48.8677298+01:00",
     "ChildItems": [
       {
-        "Id": 515,
-        "Name": "Kuhlman-Balistreri",
-        "ToolTip": "Error voluptatum et odio eos eum dolorem.",
+        "Id": 111,
+        "Name": "Abernathy, Crona and Swaniawski",
+        "ToolTip": "Esse voluptatem molestias aut alias.",
         "Deleted": false,
-        "Rank": 79,
-        "Type": "sit",
-        "ColorBlock": 329,
-        "IconHint": "accusamus",
+        "Rank": 389,
+        "Type": "impedit",
+        "ColorBlock": 735,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "1996-07-17T03:51:34.3802934+02:00",
+        "LastChanged": "2012-12-08T16:00:48.8677298+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "magnam",
+        "ExtraInfo": "in",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Mrs. Vanessa Schiller"
+        "FullName": "Prof. Hollie Balistreri IV"
       }
     ],
     "ExtraInfo": "dolorem",
-    "StyleHint": "iusto",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Mrs. Justine Sandrine Balistreri MD"
+    "FullName": "Mrs. Jaron Beulah Schoen"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Kulas, Jerde and Lemke",
-    "ToolTip": "Et necessitatibus natus facilis ut nulla.",
+    "Id": 31,
+    "Name": "Boehm-Huel",
+    "ToolTip": "Quae aut sed dolores dolores.",
     "Deleted": false,
-    "Rank": 722,
-    "Type": "occaecati",
-    "ColorBlock": 294,
-    "IconHint": "molestias",
+    "Rank": 874,
+    "Type": "unde",
+    "ColorBlock": 819,
+    "IconHint": "temporibus",
     "Selected": false,
-    "LastChanged": "2003-01-04T03:51:34.3802934+01:00",
+    "LastChanged": "1996-10-28T16:00:48.8677298+01:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Mante-Simonis",
-        "ToolTip": "Harum ut suscipit voluptatem fugiat autem sint.",
-        "Deleted": false,
-        "Rank": 568,
-        "Type": "pariatur",
-        "ColorBlock": 95,
-        "IconHint": "rem",
+        "Id": 401,
+        "Name": "Effertz Inc and Sons",
+        "ToolTip": "Quaerat odio aperiam.",
+        "Deleted": true,
+        "Rank": 286,
+        "Type": "et",
+        "ColorBlock": 73,
+        "IconHint": "at",
         "Selected": false,
-        "LastChanged": "2012-09-14T03:51:34.3802934+02:00",
+        "LastChanged": "1996-10-19T16:00:48.8677298+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "repellendus",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Malcolm Blanda",
+        "FullName": "Dr. Roma Jordon Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 696
+            "FieldLength": 951
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Mr. Barry Emmanuelle Feil V",
+    "FullName": "Gaston Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 823
+        "FieldType": "System.Int32",
+        "FieldLength": 780
       }
     }
   }

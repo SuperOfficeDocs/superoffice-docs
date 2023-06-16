@@ -1,17 +1,13 @@
 ---
 uid: combinedcontactpersonsearch
 title: combinedcontactpersonsearch
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "combinedcontactpersonsearch"
+keywords: mdoprovider mdo provider combinedcontactpersonsearch
+description: Provider for selecting a Person or a Contact, including search on contacts that match as well as persons. this provider will
+return a mix of contact and person records. The type is indicated in the Type property of the item, and the contact
+ID is always in the extraInfo.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "combinedcontactpersonsearch" MDO List

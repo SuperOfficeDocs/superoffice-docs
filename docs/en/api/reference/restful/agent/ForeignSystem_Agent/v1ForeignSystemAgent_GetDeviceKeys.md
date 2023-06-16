@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetDeviceKeys
 uid: v1ForeignSystemAgent_GetDeviceKeys
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetDeviceKeys
@@ -80,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Miller Inc and Sons",
-  "DeviceName": "Johnston Inc and Sons"
+  "ApplicationName": "Bednar LLC",
+  "DeviceName": "Spencer Inc and Sons"
 }
 ```
 
@@ -97,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "facilis",
-    "Value": "nesciunt",
-    "RecordId": 609,
-    "CreatedDate": "2023-04-15T03:51:27.3498217+02:00",
-    "UpdatedDate": "1996-07-04T03:51:27.3498217+02:00",
-    "UpdatedBy": "error",
-    "CreatedBy": "amet",
-    "TableName": "Kihn-Kautzer",
+    "Key": "totam",
+    "Value": "molestiae",
+    "RecordId": 957,
+    "CreatedDate": "2015-01-03T16:00:41.0705907+01:00",
+    "UpdatedDate": "2004-03-25T16:00:41.0705907+01:00",
+    "UpdatedBy": "voluptas",
+    "CreatedBy": "dolores",
+    "TableName": "Jewess-Purdy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldLength": 708
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DocumentMigration/GetForAllDocuments
 uid: v1DocumentMigrationAgent_GetForAllDocuments
+generated: true
 ---
 
 # POST Agents/DocumentMigration/GetForAllDocuments
@@ -79,12 +80,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 715,
-  "IncludeEmails": true
+  "DocumentPluginId": 821,
+  "IncludeEmails": false
 }
 ```
 
@@ -95,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 72,
-  "NumDocumentsAlreadyMigrated": 448,
+  "NumDocumentsOmitted": 431,
+  "NumDocumentsAlreadyMigrated": 950,
   "Documents": [
     {
-      "DocumentId": 772,
-      "ContactId": 792,
-      "PersonId": 700,
-      "SaleId": 467,
-      "ProjectId": 929,
-      "DocTmplId": 851,
-      "AssociateId": 733,
-      "UserGroupId": 562,
-      "VisibleForId": 718
+      "DocumentId": 654,
+      "ContactId": 753,
+      "PersonId": 142,
+      "SaleId": 861,
+      "ProjectId": 174,
+      "DocTmplId": 963,
+      "AssociateId": 774,
+      "UserGroupId": 699,
+      "VisibleForId": 447
     }
   ],
   "Associates": [
     {
-      "AssociateId": 665,
-      "EmailAddress": "edna@lindgren.uk"
+      "AssociateId": 460,
+      "EmailAddress": "lawson.kiehn@jonesgislason.uk"
     },
     {
-      "AssociateId": 665,
-      "EmailAddress": "edna@lindgren.uk"
+      "AssociateId": 460,
+      "EmailAddress": "lawson.kiehn@jonesgislason.uk"
     }
   ]
 }

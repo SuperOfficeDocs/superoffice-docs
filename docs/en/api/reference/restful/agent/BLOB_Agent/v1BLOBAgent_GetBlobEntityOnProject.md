@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/GetBlobEntityOnProject
 uid: v1BLOBAgent_GetBlobEntityOnProject
+generated: true
 ---
 
 # POST Agents/BLOB/GetBlobEntityOnProject
@@ -88,7 +89,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 391
+  "ProjectId": 759
 }
 ```
 
@@ -99,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 216,
-  "BlobSize": 586,
-  "Description": "Down-sized empowering product",
-  "ExtraInfo": "quisquam",
-  "IsEncrypted": true,
+  "BlobId": 443,
+  "BlobSize": 170,
+  "Description": "Managed explicit pricing structure",
+  "ExtraInfo": "dolor",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "enim",
-  "OriginalSize": 120,
-  "CreatedDate": "2013-07-27T03:51:26.6312416+02:00",
-  "UpdatedDate": "2002-01-10T03:51:26.6312416+01:00",
+  "MimeType": "officiis",
+  "OriginalSize": 406,
+  "CreatedDate": "2004-11-02T16:00:40.1175682+01:00",
+  "UpdatedDate": "2019-09-15T16:00:40.1175682+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldType": "System.Int32",
+      "FieldLength": 448
     }
   }
 }

@@ -1,17 +1,11 @@
 ---
 uid: visibleintask
 title: visibleintask
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "visibleintask"
+keywords: mdoprovider mdo provider visibleintask
+description: Visible in list for tasks: places where task button can appear.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "visibleintask" MDO List

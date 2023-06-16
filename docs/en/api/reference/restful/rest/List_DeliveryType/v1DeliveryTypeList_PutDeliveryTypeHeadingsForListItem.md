@@ -1,6 +1,7 @@
 ---
 title: PUT List/DeliveryType/Items/{id}/Headings
 uid: v1DeliveryTypeList_PutDeliveryTypeHeadingsForListItem
+generated: true
 ---
 
 # PUT List/DeliveryType/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Watsica, Moen and Ernser",
-    "ToolTip": "Sunt velit.",
+    "Id": 932,
+    "Name": "Tillman, Schaden and Kertzmann",
+    "ToolTip": "Dolores quia et molestiae consequuntur.",
     "Deleted": false,
-    "Rank": 147,
-    "Type": "vitae",
-    "ColorBlock": 63,
-    "IconHint": "possimus",
+    "Rank": 686,
+    "Type": "odio",
+    "ColorBlock": 457,
+    "IconHint": "distinctio",
     "Selected": true,
-    "LastChanged": "2002-06-24T03:51:34.6770975+02:00",
+    "LastChanged": "2017-04-08T16:00:49.0239624+02:00",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Collier Inc and Sons",
-        "ToolTip": "Fugit omnis aut qui eaque assumenda quia tempore.",
-        "Deleted": true,
-        "Rank": 268,
-        "Type": "quas",
-        "ColorBlock": 331,
-        "IconHint": "aliquam",
-        "Selected": false,
-        "LastChanged": "2006-04-29T03:51:34.6770975+02:00",
+        "Id": 163,
+        "Name": "O'Kon Group",
+        "ToolTip": "In est.",
+        "Deleted": false,
+        "Rank": 456,
+        "Type": "autem",
+        "ColorBlock": 908,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "1997-12-20T16:00:49.0239624+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "possimus",
-        "StyleHint": "sed",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Margret Koch"
+        "FullName": "Beaulah Sanford"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
+    "ExtraInfo": "quis",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Irving Lucinda Stehr MD"
+    "FullName": "Abigale Prosacco"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 681,
-    "Name": "Kutch Inc and Sons",
-    "ToolTip": "Nihil nisi.",
+    "Id": 789,
+    "Name": "Robel-Swaniawski",
+    "ToolTip": "Natus cum expedita omnis id quas.",
     "Deleted": true,
-    "Rank": 254,
-    "Type": "et",
-    "ColorBlock": 208,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "1998-02-18T03:51:34.6770975+01:00",
+    "Rank": 298,
+    "Type": "quia",
+    "ColorBlock": 834,
+    "IconHint": "tempora",
+    "Selected": false,
+    "LastChanged": "2019-08-23T16:00:49.0239624+02:00",
     "ChildItems": [
       {
-        "Id": 514,
-        "Name": "Pfeffer Group",
-        "ToolTip": "In minima.",
+        "Id": 330,
+        "Name": "Funk LLC",
+        "ToolTip": "Officiis mollitia itaque itaque ut ipsum quo.",
         "Deleted": false,
-        "Rank": 605,
-        "Type": "repellat",
-        "ColorBlock": 254,
-        "IconHint": "magnam",
-        "Selected": true,
-        "LastChanged": "2006-04-11T03:51:34.6770975+02:00",
+        "Rank": 183,
+        "Type": "fugiat",
+        "ColorBlock": 800,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "2000-10-07T16:00:49.0239624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "illum",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Otha Graham",
+        "FullName": "Prof. Dannie Daugherty II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 556
+            "FieldType": "System.String",
+            "FieldLength": 853
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Itzel Dach",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Mrs. Kianna Delmer Simonis DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 527
+        "FieldLength": 865
       }
     }
   }

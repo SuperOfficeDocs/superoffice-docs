@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Pocket/RegisterDeviceForPushNotification
 uid: v1PocketAgent_RegisterDeviceForPushNotification
+generated: true
 ---
 
 # POST Agents/Pocket/RegisterDeviceForPushNotification

@@ -1,6 +1,7 @@
 ---
 title: PUT Dash/{id}
 uid: v1Dash_PutDash
+generated: true
 ---
 
 # PUT Dash/{id}
@@ -102,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 378,
-  "UniqueId": "et",
-  "Name": "Hagenes LLC",
-  "Description": "Object-based transitional adapter",
-  "AssociateId": 126,
-  "Columns": 462,
+  "DashboardId": 852,
+  "UniqueId": "aut",
+  "Name": "Conn Group",
+  "Description": "Customer-focused zero tolerance success",
+  "AssociateId": 242,
+  "Columns": 728,
   "Theme": null,
-  "VisibleForAll": 698,
+  "VisibleForAll": 281,
   "VisibleForAssociates": [
-    188,
-    848
+    508,
+    31
   ],
   "VisibleForGroups": [
-    366,
-    449
+    449,
+    721
   ],
-  "PinForAll": 40,
+  "PinForAll": 108,
   "PinForAssociates": [
-    939,
-    652
+    360,
+    896
   ],
   "PinForGroups": [
-    210,
-    43
+    35,
+    977
   ]
 }
 ```
@@ -141,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 400,
-  "UniqueId": "et",
-  "Name": "Jenkins, Reynolds and Zemlak",
-  "Description": "Up-sized mobile budgetary management",
-  "AssociateId": 67,
-  "Columns": 165,
+  "DashboardId": 972,
+  "UniqueId": "ducimus",
+  "Name": "Bode-Fahey",
+  "Description": "Function-based system-worthy time-frame",
+  "AssociateId": 922,
+  "Columns": 400,
   "Theme": null,
-  "VisibleForAll": 742,
+  "VisibleForAll": 436,
   "VisibleForAssociates": [
-    276,
-    899
+    206,
+    980
   ],
   "VisibleForGroups": [
-    442,
-    913
+    827,
+    385
   ],
-  "PinForAll": 933,
+  "PinForAll": 375,
   "PinForAssociates": [
-    561,
-    377
+    110,
+    747
   ],
   "PinForGroups": [
-    445,
-    4
+    1002,
+    117
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 928
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

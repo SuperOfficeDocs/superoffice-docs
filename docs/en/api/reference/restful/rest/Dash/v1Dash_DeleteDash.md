@@ -1,6 +1,7 @@
 ---
 title: DEL Dash/{id}
 uid: v1Dash_DeleteDash
+generated: true
 ---
 
 # DEL Dash/{id}

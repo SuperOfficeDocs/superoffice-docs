@@ -2,17 +2,10 @@
 uid: ChecklistAppointment
 title: ChecklistAppointment
 description: Archive provider for Appointment activities, of the Diary type (not followup or booking). This provider can be used on its own, or can form part of the
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ChecklistAppointment"
+keywords: ChecklistAppointment archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ChecklistAppointment"
@@ -129,6 +122,10 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 |contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
 |contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
@@ -229,6 +226,10 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |contact/NumberOfSales|int|Number of sales|  |
 |contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |contact/LastSale|date|Date of last sale|  |
 |contact/LastCompletedSale|date|Date of last completed sale|  |
@@ -329,6 +330,10 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |person/personAddress/city|string|Contact address - City: This criterion corresponds to the City field on the Company card.| x |
 |person/personAddress/zip|string|Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |person/personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAddress/wgs84latitude|decimal|Contact address - Latitude: Latitude| x |
 |person/personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
 |person/personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
@@ -429,6 +434,10 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |person/correspondingAssociate/assocTooltip|string|Description : Description|  |
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -529,6 +538,10 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
 |project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |project/NumberOfActivities|int|Number of activities|  |
@@ -629,6 +642,10 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |sale/associate/assocTooltip|string|Description : Description|  |
 |sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -684,7 +701,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChecklistAppointment?$select=contact/number,contact/contactAssociate/personEmail,person/personRegisteredBy,person/personDirectFax/formattedNumber,project/nextMilestone
+GET /api/v1/archive/ChecklistAppointment?$select=visibleFor,contact/email/emailLastSent,person/birthMonth,person/correspondingAssociate/isActive,project/projectUdef/SuperOffice:10
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

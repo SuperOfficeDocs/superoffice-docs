@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/SaveProjectEventEntity
 uid: v1ProjectAgent_SaveProjectEventEntity
+generated: true
 ---
 
 # POST Agents/Project/SaveProjectEventEntity
@@ -120,76 +121,76 @@ OK
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "omnis",
-  "SignOffText": "consectetur",
-  "SignOnConfirmationText": "sunt",
-  "SignOnText": "tempore",
-  "EventDate": "2014-10-21T03:51:27.912192+02:00",
+  "SignOffConfirmationText": "aliquam",
+  "SignOffText": "eveniet",
+  "SignOnConfirmationText": "nesciunt",
+  "SignOnText": "sed",
+  "EventDate": "2017-07-21T16:00:41.5394564+02:00",
   "Enabled": false,
-  "CreatedDate": "2018-02-03T03:51:27.912192+01:00",
-  "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 584,
+  "CreatedDate": "1997-10-14T16:00:41.5394564+02:00",
+  "SignOff": false,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 629,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 631,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2007-05-01T03:51:27.912192+02:00",
+  "SignOn": true,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 170,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2019-12-18T16:00:41.5394564+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 373,
-  "Id": 802,
-  "PublishFrom": "2001-01-05T03:51:27.912192+01:00",
+  "ProjectId": 302,
+  "Id": 727,
+  "PublishFrom": "2018-01-07T16:00:41.5394564+01:00",
   "PublishType": "External",
-  "PublishTo": "2021-03-12T03:51:27.912192+01:00",
+  "PublishTo": "2005-06-19T16:00:41.5394564+02:00",
   "VisibleForCategories": [
     {
-      "Id": 612,
-      "Name": "Predovic-Senger",
-      "ToolTip": "Nihil eos consequatur ipsa dolorum rerum.",
+      "Id": 799,
+      "Name": "Koss, Kshlerin and Howe",
+      "ToolTip": "Molestias rem.",
       "Deleted": false,
-      "Rank": 865,
-      "Type": "doloremque",
+      "Rank": 281,
+      "Type": "perspiciatis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eos",
-      "ColorBlock": 619,
-      "ExtraInfo": "tempora",
-      "StyleHint": "est",
-      "FullName": "Prof. Eileen Balistreri DVM"
+      "IconHint": "doloremque",
+      "ColorBlock": 64,
+      "ExtraInfo": "distinctio",
+      "StyleHint": "et",
+      "FullName": "Lori Lebsack"
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 764,
-      "Name": "Stracke-Weber",
-      "ToolTip": "Dolores culpa iure.",
+      "Id": 455,
+      "Name": "Hoppe-Mayer",
+      "ToolTip": "Nesciunt ut reiciendis.",
       "Deleted": false,
-      "Rank": 815,
-      "Type": "saepe",
+      "Rank": 820,
+      "Type": "voluptatum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "velit",
-      "ColorBlock": 149,
-      "ExtraInfo": "veritatis",
-      "StyleHint": "quas",
-      "FullName": "Kendrick Nienow"
+      "IconHint": "ab",
+      "ColorBlock": 326,
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "laborum",
+      "FullName": "Mr. Clinton Angie Heaney"
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 33
+  "ProjectEventId": 332
 }
 ```
 
@@ -200,94 +201,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "voluptatem",
-  "SignOffText": "enim",
-  "SignOnConfirmationText": "ut",
-  "SignOnText": "et",
-  "EventDate": "2011-01-12T03:51:27.912192+01:00",
-  "Enabled": true,
-  "CreatedDate": "2019-08-13T03:51:27.912192+02:00",
-  "SignOff": true,
+  "SignOffConfirmationText": "natus",
+  "SignOffText": "sit",
+  "SignOnConfirmationText": "voluptatibus",
+  "SignOnText": "corporis",
+  "EventDate": "2022-07-15T16:00:41.5394564+02:00",
+  "Enabled": false,
+  "CreatedDate": "1997-01-11T16:00:41.5394564+01:00",
+  "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 641,
-  "SignOffTriggersAssign": false,
+  "SignOffTaskId": 285,
+  "SignOffTriggersAssign": true,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 827,
+  "SignOnTaskId": 633,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2022-08-08T03:51:27.912192+02:00",
+  "UpdatedDate": "2019-08-11T16:00:41.5394564+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 589,
-  "Id": 288,
-  "PublishFrom": "1999-12-21T03:51:27.912192+01:00",
+  "ProjectId": 458,
+  "Id": 383,
+  "PublishFrom": "2003-10-22T16:00:41.5394564+02:00",
   "PublishType": "External",
-  "PublishTo": "2007-11-06T03:51:27.912192+01:00",
+  "PublishTo": "2010-12-28T16:00:41.5394564+01:00",
   "VisibleForCategories": [
     {
-      "Id": 451,
-      "Name": "Feeney-Kuhic",
-      "ToolTip": "Assumenda doloremque cum.",
+      "Id": 866,
+      "Name": "Walker, Corkery and Zulauf",
+      "ToolTip": "Nihil totam nostrum placeat explicabo repellendus.",
       "Deleted": false,
-      "Rank": 185,
+      "Rank": 845,
       "Type": "magni",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolores",
-      "ColorBlock": 341,
-      "ExtraInfo": "facilis",
-      "StyleHint": "accusantium",
-      "FullName": "Ms. Eloisa Ferry",
+      "IconHint": "eum",
+      "ColorBlock": 74,
+      "ExtraInfo": "magni",
+      "StyleHint": "qui",
+      "FullName": "Verlie Kunde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 418
+          "FieldType": "System.Int32",
+          "FieldLength": 641
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 957,
-      "Name": "Beier, Murray and Connelly",
-      "ToolTip": "Quibusdam consequatur nihil facilis.",
+      "Id": 691,
+      "Name": "Roberts, Schuster and Osinski",
+      "ToolTip": "Deserunt qui fuga maxime neque.",
       "Deleted": false,
-      "Rank": 783,
-      "Type": "sed",
+      "Rank": 346,
+      "Type": "odio",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "qui",
-      "ColorBlock": 62,
-      "ExtraInfo": "sequi",
-      "StyleHint": "temporibus",
-      "FullName": "Garrett McKenzie",
+      "IconHint": "blanditiis",
+      "ColorBlock": 913,
+      "ExtraInfo": "consequatur",
+      "StyleHint": "esse",
+      "FullName": "Jessyca Julio King DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 850
+          "FieldType": "System.String",
+          "FieldLength": 586
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": true,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 808,
+  "ProjectEventId": 447,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 563
     }
   }
 }

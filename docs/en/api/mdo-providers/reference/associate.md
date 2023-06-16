@@ -1,17 +1,11 @@
 ---
 uid: associate
 title: associate
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "associate"
+keywords: mdoprovider mdo provider associate
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "associate" MDO List

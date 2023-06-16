@@ -1,6 +1,7 @@
 ---
 title: PATCH List/{id}
 uid: v1ListEntity_PatchListEntity
+generated: true
 ---
 
 # PATCH List/{id}
@@ -116,18 +117,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "aspernatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "aspernatur",
     "value": {}
   }
 ]
@@ -140,27 +141,27 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 219,
-  "Name": "Runte-Swift",
-  "Tooltip": "exercitationem",
-  "Deleted": true,
-  "Rank": 452,
+  "Id": 571,
+  "Name": "Boehm LLC",
+  "Tooltip": "optio",
+  "Deleted": false,
+  "Rank": 727,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "necessitatibus",
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 653
+      "FieldLength": 298
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: GET List/Business/Items/Default
 uid: v1BusinessList_CreateDefaultBusiness
+generated: true
 ---
 
 # GET List/Business/Items/Default
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 299,
-  "Name": "Olson-Legros",
-  "Tooltip": "odit",
+  "Id": 554,
+  "Name": "Bode, Moore and Kshlerin",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 772,
-  "Rank": 262,
+  "UdListDefinitionId": 988,
+  "Rank": 717,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 588
     }
   }
 }

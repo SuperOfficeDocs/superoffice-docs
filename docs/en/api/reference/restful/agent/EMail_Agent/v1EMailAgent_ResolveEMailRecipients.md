@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/ResolveEMailRecipients
 uid: v1EMailAgent_ResolveEMailRecipients
+generated: true
 ---
 
 # POST Agents/EMail/ResolveEMailRecipients
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "kole@baileywunsch.info"
+  "EmailAddress": "orin@lockmanraynor.us"
 }
 ```
 
@@ -101,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 394,
-    "ContactName": "Schroeder-Orn",
-    "PersonId": 358,
-    "PersonName": "Haley, Marquardt and Frami",
-    "AssociateId": 930,
-    "Address": "aut",
-    "EmailId": 502,
+    "ContactId": 33,
+    "ContactName": "Von, Hamill and Ebert",
+    "PersonId": 836,
+    "PersonName": "Homenick, Harber and Shanahan",
+    "AssociateId": 610,
+    "Address": "ut",
+    "EmailId": 923,
     "DuplicatePersonIds": [
-      739,
-      479
+      875,
+      245
     ],
-    "Name": "Satterfield Group",
+    "Name": "Langosh Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldType": "System.String",
+        "FieldLength": 401
       }
     }
   }

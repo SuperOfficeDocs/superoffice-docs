@@ -1,6 +1,7 @@
 ---
 title: DEL List/DocumentTemplate/Headings
 uid: v1DocumentTemplateList_DeleteDocumentTemplateEntityHeadings
+generated: true
 ---
 
 # DEL List/DocumentTemplate/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

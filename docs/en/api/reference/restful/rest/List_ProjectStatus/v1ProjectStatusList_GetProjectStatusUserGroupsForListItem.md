@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectStatus/Items/{id}/UserGroups
 uid: v1ProjectStatusList_GetProjectStatusUserGroupsForListItem
+generated: true
 ---
 
 # GET List/ProjectStatus/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Friesen, Pouros and Douglas",
-    "ToolTip": "Ut accusamus dolor tempore in unde.",
+    "Id": 85,
+    "Name": "Hudson-Wiegand",
+    "ToolTip": "Aut quisquam maiores minima a sit ut qui.",
     "Deleted": false,
-    "Rank": 329,
-    "Type": "voluptatem",
-    "ColorBlock": 748,
-    "IconHint": "doloremque",
-    "Selected": true,
-    "LastChanged": "2023-01-14T03:51:34.833319+01:00",
+    "Rank": 663,
+    "Type": "et",
+    "ColorBlock": 771,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "2002-12-20T16:00:49.1958202+01:00",
     "ChildItems": [
       {
-        "Id": 178,
-        "Name": "Koch Group",
-        "ToolTip": "Enim est fuga.",
+        "Id": 989,
+        "Name": "Johnston-Schmeler",
+        "ToolTip": "Eius praesentium consequatur.",
         "Deleted": false,
-        "Rank": 980,
-        "Type": "quas",
-        "ColorBlock": 799,
-        "IconHint": "facere",
+        "Rank": 63,
+        "Type": "odit",
+        "ColorBlock": 95,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "1999-06-14T03:51:34.833319+02:00",
+        "LastChanged": "2000-02-24T16:00:49.1958202+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "laborum",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Bradly Rice",
+        "FullName": "Louisa Schulist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 117
+            "FieldLength": 48
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "dolor",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "autem",
     "Hidden": true,
-    "FullName": "Mireille Rowe",
+    "FullName": "Mr. Maxwell Evelyn Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldLength": 811
       }
     }
   }

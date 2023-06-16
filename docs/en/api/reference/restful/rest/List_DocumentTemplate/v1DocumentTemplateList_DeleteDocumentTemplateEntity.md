@@ -1,6 +1,7 @@
 ---
 title: DEL List/DocumentTemplate/Items/{id}
 uid: v1DocumentTemplateList_DeleteDocumentTemplateEntity
+generated: true
 ---
 
 # DEL List/DocumentTemplate/Items/{id}

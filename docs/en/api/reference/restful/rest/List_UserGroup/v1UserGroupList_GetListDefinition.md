@@ -1,6 +1,7 @@
 ---
 title: GET List/UserGroup
 uid: v1UserGroupList_GetListDefinition
+generated: true
 ---
 
 # GET List/UserGroup
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 83,
-  "Name": "Feil-Ortiz",
-  "Tooltip": "autem",
+  "Id": 704,
+  "Name": "Bartoletti Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 861,
+  "Rank": 807,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "illum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "accusantium",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 802
+      "FieldType": "System.Int32",
+      "FieldLength": 580
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

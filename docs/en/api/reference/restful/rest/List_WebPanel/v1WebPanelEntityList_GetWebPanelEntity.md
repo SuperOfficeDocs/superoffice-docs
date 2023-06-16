@@ -1,6 +1,7 @@
 ---
 title: GET List/WebPanel/Items/{id}
 uid: v1WebPanelEntityList_GetWebPanelEntity
+generated: true
 ---
 
 # GET List/WebPanel/Items/{id}
@@ -81,7 +82,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,33 +92,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 665,
-  "Name": "Hermann Group",
-  "Tooltip": "magnam",
-  "Deleted": true,
-  "Rank": 743,
+  "WebPanelId": 118,
+  "Name": "Effertz LLC",
+  "Tooltip": "modi",
+  "Deleted": false,
+  "Rank": 619,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Nienow-Pagac",
+  "WindowName": "Reinger LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "culpa",
-  "Icon": 993,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "et",
+  "Icon": 659,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 675
+      "FieldType": "System.Int32",
+      "FieldLength": 672
     }
   }
 }

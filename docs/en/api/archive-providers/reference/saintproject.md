@@ -2,17 +2,10 @@
 uid: SaintProject
 title: SaintProject
 description: Archive provider for Project Saint Status - same as Find Project, but adds ability to call up stored definitions via a statusDefId column
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SaintProject"
+keywords: SaintProject archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SaintProject"
@@ -128,6 +121,10 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
@@ -228,6 +225,10 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |appointment/recordType|string|Record type : Shows the record type| x |
 |appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/contactId|listAny|Company ID: Database ID of company| x |
 |appointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 |appointment/projectId|listAny|Project ID: Database ID of project record| x |
@@ -328,6 +329,10 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |document/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |document/documentId|int|Document ID: Database ID of document record| x |
 |document/keywords|string|Keywords | x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |document/ourref|string|Our ref.| x |
 |document/yourref|string|Your ref.| x |
 |document/attention|string|Salutation| x |
@@ -428,6 +433,10 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |projectMember/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |projectMember/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/personAssociateId|associate|Our contact: Displays our contact| x |
 |projectMember/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |projectMember/personCategory|listAny|Category| x |
@@ -528,6 +537,10 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |projectMember/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/personAssociate/associateDbId|associate|ID| x |
 |projectMember/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMember/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
@@ -628,6 +641,10 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/contactEmail/emailHasBounced|bool|Company - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |projectMember/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 |projectMember/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
 |projectMember/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
 |projectMember/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
@@ -728,6 +745,10 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/LastDoBySale|date|Date of last non-completed sale|  |
 |projectMember/NumberOfTickets|int|Number of requests|  |
 |projectMember/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
 |projectMember/NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
 |projectMember/LastTicket|date|Date of last request|  |
@@ -748,7 +769,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintProject?$select=activeErpLinks,saintSaleStatus,saintActivityType,sale/description,appointment/date
+GET /api/v1/archive/SaintProject?$select=projectAssociate/otherGroups,LastActivity,sale/lossReason,appointment/associate/assocTooltip,projectMember/personExtra/y_rental/id
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

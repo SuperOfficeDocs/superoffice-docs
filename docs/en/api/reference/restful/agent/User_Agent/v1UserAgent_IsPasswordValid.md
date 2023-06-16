@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/IsPasswordValid
 uid: v1UserAgent_IsPasswordValid
+generated: true
 ---
 
 # POST Agents/User/IsPasswordValid
@@ -72,14 +73,14 @@ OK
 POST /api/v1/Agents/User/IsPasswordValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 278,
+  "AssociateId": 25,
   "Type": "AnonymousAssociate",
-  "PersonId": 94,
-  "Password": "aut"
+  "PersonId": 765,
+  "Password": "maxime"
 }
 ```
 

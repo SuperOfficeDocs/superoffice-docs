@@ -1,6 +1,7 @@
 ---
 title: POST Project/UdefLayout
 uid: v1ProjectEntity_AddUdefField
+generated: true
 ---
 
 # POST Project/UdefLayout
@@ -97,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 226,
-  "ColumnId": 277,
-  "FieldDefault": "debitis",
-  "FieldHeight": 987,
-  "FieldLabel": "non",
-  "FieldLeft": 25,
-  "FieldTop": 667,
+  "UDefFieldId": 941,
+  "ColumnId": 590,
+  "FieldDefault": "et",
+  "FieldHeight": 420,
+  "FieldLabel": "assumenda",
+  "FieldLeft": 667,
+  "FieldTop": 296,
   "FieldType": "Checkbox",
-  "FieldWidth": 284,
-  "FormatMask": "nemo",
+  "FieldWidth": 66,
+  "FormatMask": "repellendus",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 129,
-  "LabelLeft": 913,
-  "LabelTop": 768,
-  "LabelWidth": 236,
-  "LastVersionId": 808,
-  "ListTableId": 990,
+  "LabelHeight": 115,
+  "LabelLeft": 551,
+  "LabelTop": 877,
+  "LabelWidth": 307,
+  "LastVersionId": 434,
+  "ListTableId": 47,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 244,
-  "ProgId": "est",
-  "IsReadOnly": true,
-  "ShortLabel": "repellat",
-  "TabOrder": 492,
-  "TextLength": 250,
-  "Tooltip": "ut",
-  "UdefIdentity": 728,
-  "UDListDefinitionId": 661,
+  "Page1LineNo": 713,
+  "ProgId": "consectetur",
+  "IsReadOnly": false,
+  "ShortLabel": "velit",
+  "TabOrder": 121,
+  "TextLength": 925,
+  "Tooltip": "exercitationem",
+  "UdefIdentity": 839,
+  "UDListDefinitionId": 755,
   "Justification": "Center",
-  "Version": 128,
-  "TemplateVariableName": "Quigley, Braun and Douglas",
+  "Version": 57,
+  "TemplateVariableName": "Walsh, Wisozk and Bode",
   "HasBeenPublished": true,
-  "MdoListName": "Labadie Inc and Sons",
+  "MdoListName": "Smitham Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 244
+      "FieldLength": 944
     }
   }
 }

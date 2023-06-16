@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/GetMyContact
 uid: v1ContactAgent_GetMyContact
+generated: true
 ---
 
 # POST Agents/Contact/GetMyContact
@@ -107,7 +108,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,157 +118,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 422,
-  "Name": "Larson-Von",
+  "ContactId": 75,
+  "Name": "Krajcik Inc and Sons",
   "Department": "",
-  "OrgNr": "1481116",
-  "Number1": "1430529",
-  "Number2": "1323632",
-  "UpdatedDate": "1996-09-23T03:51:26.8655518+02:00",
-  "CreatedDate": "1998-05-23T03:51:26.8655518+02:00",
+  "OrgNr": "755872",
+  "Number1": "1529108",
+  "Number2": "578370",
+  "UpdatedDate": "2015-07-24T16:00:40.398769+02:00",
+  "CreatedDate": "1998-02-16T16:00:40.398769+01:00",
   "Emails": [
     {
-      "Value": "laudantium",
-      "StrippedValue": "amet",
-      "Description": "Up-sized tangible algorithm",
+      "Value": "odit",
+      "StrippedValue": "explicabo",
+      "Description": "Fundamental interactive hierarchy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 79
         }
       }
     },
     {
-      "Value": "laudantium",
-      "StrippedValue": "amet",
-      "Description": "Up-sized tangible algorithm",
+      "Value": "odit",
+      "StrippedValue": "explicabo",
+      "Description": "Fundamental interactive hierarchy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 79
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 996,
-      "Name": "Sawayn Inc and Sons",
-      "ToolTip": "Quaerat sit fuga eos molestias perferendis.",
+      "Id": 129,
+      "Name": "Berge, Wunsch and Hills",
+      "ToolTip": "Natus alias incidunt cumque.",
       "Deleted": false,
-      "Rank": 531,
-      "Type": "aspernatur",
-      "ColorBlock": 31,
-      "IconHint": "soluta",
+      "Rank": 483,
+      "Type": "non",
+      "ColorBlock": 260,
+      "IconHint": "saepe",
       "Selected": false,
-      "LastChanged": "2023-03-05T03:51:26.8655518+01:00",
+      "LastChanged": "2000-12-27T16:00:40.398769+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "repellat",
-      "Hidden": true,
-      "FullName": "Ms. Lisette Casper",
+      "ExtraInfo": "iusto",
+      "StyleHint": "possimus",
+      "Hidden": false,
+      "FullName": "Prof. Casper Paul Schimmel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 760
+          "FieldType": "System.Int32",
+          "FieldLength": 729
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "id",
-      "StrippedValue": "dicta",
-      "Description": "Optional human-resource frame",
+      "Value": "quasi",
+      "StrippedValue": "totam",
+      "Description": "Switchable static paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 294
+          "FieldLength": 537
         }
       }
     },
     {
-      "Value": "id",
-      "StrippedValue": "dicta",
-      "Description": "Optional human-resource frame",
+      "Value": "quasi",
+      "StrippedValue": "totam",
+      "Description": "Switchable static paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 294
+          "FieldLength": 537
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "perferendis",
-      "StrippedValue": "nihil",
-      "Description": "Vision-oriented motivating migration",
+      "Value": "adipisci",
+      "StrippedValue": "aliquid",
+      "Description": "Versatile uniform methodology",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldType": "System.String",
+          "FieldLength": 466
         }
       }
     },
     {
-      "Value": "perferendis",
-      "StrippedValue": "nihil",
-      "Description": "Vision-oriented motivating migration",
+      "Value": "adipisci",
+      "StrippedValue": "aliquid",
+      "Description": "Versatile uniform methodology",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldType": "System.String",
+          "FieldLength": 466
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "veritatis",
-      "StrippedValue": "voluptatem",
-      "Description": "Re-contextualized even-keeled interface",
+      "Value": "recusandae",
+      "StrippedValue": "in",
+      "Description": "Down-sized assymetric Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldType": "System.Int32",
+          "FieldLength": 298
         }
       }
     },
     {
-      "Value": "veritatis",
-      "StrippedValue": "voluptatem",
-      "Description": "Re-contextualized even-keeled interface",
+      "Value": "recusandae",
+      "StrippedValue": "in",
+      "Description": "Down-sized assymetric Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldType": "System.Int32",
+          "FieldLength": 298
         }
       }
     }
   ],
-  "Description": "Innovative needs-based local area network",
+  "Description": "Synchronised regional product",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -276,100 +277,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "perspiciatis",
-      "PersonId": 212,
+      "Position": "necessitatibus",
+      "PersonId": 613,
       "Mrmrs": "et",
-      "Firstname": "Golda",
-      "Lastname": "Mayer",
-      "MiddleName": "Funk, Doyle and Lemke",
-      "Title": "aliquid",
-      "Description": "Switchable needs-based ability",
-      "Email": "gavin@towne.co.uk",
-      "FullName": "Virginie Schmeler",
-      "DirectPhone": "(717)074-9775 x45286",
-      "FormalName": "Powlowski Inc and Sons",
-      "CountryId": 291,
-      "ContactId": 976,
-      "ContactName": "Bruen, Leannon and Renner",
-      "Retired": 654,
-      "Rank": 477,
-      "ActiveInterests": 877,
+      "Firstname": "Kathleen",
+      "Lastname": "Wisoky",
+      "MiddleName": "Kuhic-Leuschke",
+      "Title": "nulla",
+      "Description": "Cloned attitude-oriented productivity",
+      "Email": "delia_hermiston@gottliebdonnelly.co.uk",
+      "FullName": "Dr. Ozella Swaniawski",
+      "DirectPhone": "(357)525-6305 x151",
+      "FormalName": "Leannon, Morissette and Mayert",
+      "CountryId": 868,
+      "ContactId": 227,
+      "ContactName": "Glover Inc and Sons",
+      "Retired": 649,
+      "Rank": 744,
+      "ActiveInterests": 955,
       "ContactDepartment": "",
-      "ContactCountryId": 888,
-      "ContactOrgNr": "1133969",
-      "FaxPhone": "(074)794-4496 x050",
-      "MobilePhone": "629.175.8827 x06819",
-      "ContactPhone": "1-958-535-4429",
-      "AssociateName": "Morissette-Mohr",
-      "AssociateId": 834,
+      "ContactCountryId": 471,
+      "ContactOrgNr": "994219",
+      "FaxPhone": "003.318.9268",
+      "MobilePhone": "169.867.7582 x803",
+      "ContactPhone": "058.999.7868 x8715",
+      "AssociateName": "Abbott-Marquardt",
+      "AssociateId": 672,
       "UsePersonAddress": false,
-      "ContactFax": "velit",
-      "Kanafname": "voluptate",
-      "Kanalname": "consectetur",
-      "Post1": "sunt",
-      "Post2": "error",
-      "Post3": "voluptatem",
-      "EmailName": "malcolm@hodkiewicz.us",
-      "ContactFullName": "Jessica Schamberger",
-      "ActiveErpLinks": 325,
-      "TicketPriorityId": 489,
-      "SupportLanguageId": 411,
-      "SupportAssociateId": 467,
+      "ContactFax": "voluptatem",
+      "Kanafname": "inventore",
+      "Kanalname": "error",
+      "Post1": "quis",
+      "Post2": "est",
+      "Post3": "nesciunt",
+      "EmailName": "freddy@bashirian.ca",
+      "ContactFullName": "Marquise Birdie Gusikowski V",
+      "ActiveErpLinks": 876,
+      "TicketPriorityId": 790,
+      "SupportLanguageId": 375,
+      "SupportAssociateId": 434,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldType": "System.String",
+          "FieldLength": 986
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "quaerat",
-  "Xstop": true,
-  "ActiveInterests": 937,
-  "GroupId": 423,
-  "ActiveStatusMonitorId": 693,
+  "NoMailing": true,
+  "Kananame": "voluptas",
+  "Xstop": false,
+  "ActiveInterests": 984,
+  "GroupId": 994,
+  "ActiveStatusMonitorId": 373,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 179,
-  "DbiAgentId": 19,
-  "DbiLastSyncronized": "2020-06-24T03:51:26.8655518+02:00",
-  "DbiKey": "iure",
-  "DbiLastModified": "2022-01-20T03:51:26.8655518+01:00",
+  "Deleted": 205,
+  "DbiAgentId": 901,
+  "DbiLastSyncronized": "2002-07-06T16:00:40.4143897+02:00",
+  "DbiKey": "eveniet",
+  "DbiLastModified": "2016-10-10T16:00:40.4143897+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 479,
-  "ActiveErpLinks": 698,
+  "Source": 732,
+  "ActiveErpLinks": 650,
   "BounceEmails": [
-    "lauren@moen.co.uk",
-    "reta@johnstongerlach.name"
+    "selena@paucekdietrich.name",
+    "kelli@kessler.us"
   ],
   "Domains": [
-    "nisi",
-    "aut"
+    "animi",
+    "sunt"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Abraham Schaden",
-    "SuperOffice:2": "Noah Jacobs"
+    "SuperOffice:1": "1910236032",
+    "SuperOffice:2": "Maye Willow Powlowski III"
   },
   "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "earum"
+    "CustomFields1": "corporis",
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldLength": 750
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/GetDynamicSelectionCriteria
 uid: v1SelectionAgent_GetDynamicSelectionCriteria
+generated: true
 ---
 
 # POST Agents/Selection/GetDynamicSelectionCriteria
@@ -83,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 59
+  "SelectionId": 172
 }
 ```
 
@@ -95,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hane Inc and Sons",
-    "Operator": "debitis",
+    "Name": "Bauch LLC",
+    "Operator": "repellat",
     "Values": [
-      "quibusdam",
-      "fuga"
+      "nemo",
+      "aut"
     ],
     "DisplayValues": [
-      "occaecati",
-      "veritatis"
+      "ad",
+      "modi"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Treutel LLC",
-        "Operator": "non",
+        "Name": "Luettgen, McClure and Stokes",
+        "Operator": "facere",
         "Values": [
-          "ut",
-          "sit"
+          "dolore",
+          "et"
         ],
         "DisplayValues": [
-          "a",
-          "repudiandae"
+          "iure",
+          "libero"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -125,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 958,
+        "InterParenthesis": 496,
         "InterOperator": "And",
-        "UniqueHash": 11
+        "UniqueHash": 958
       }
     ],
-    "InterParenthesis": 485,
+    "InterParenthesis": 596,
     "InterOperator": "And",
-    "UniqueHash": 932
+    "UniqueHash": 753
   }
 ]
 ```

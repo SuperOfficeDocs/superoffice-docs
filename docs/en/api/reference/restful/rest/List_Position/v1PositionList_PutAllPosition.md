@@ -1,6 +1,7 @@
 ---
 title: PUT List/Position/Items
 uid: v1PositionList_PutAllPosition
+generated: true
 ---
 
 # PUT List/Position/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "King LLC",
-    "Tooltip": "eaque",
-    "Deleted": false,
-    "UdListDefinitionId": 447,
-    "Rank": 873
+    "Id": 91,
+    "Name": "Kertzmann Inc and Sons",
+    "Tooltip": "laboriosam",
+    "Deleted": true,
+    "UdListDefinitionId": 305,
+    "Rank": 686
   },
   {
-    "Id": 734,
-    "Name": "King LLC",
-    "Tooltip": "eaque",
-    "Deleted": false,
-    "UdListDefinitionId": 447,
-    "Rank": 873
+    "Id": 91,
+    "Name": "Kertzmann Inc and Sons",
+    "Tooltip": "laboriosam",
+    "Deleted": true,
+    "UdListDefinitionId": 305,
+    "Rank": 686
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 59,
-    "Name": "Jones Group",
-    "Tooltip": "et",
+    "Id": 955,
+    "Name": "Lind LLC",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "UdListDefinitionId": 1001,
-    "Rank": 982,
+    "UdListDefinitionId": 849,
+    "Rank": 885,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldType": "System.String",
+        "FieldLength": 191
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: GET List/ConsentPurpose
 uid: v1ConsentPurposeList_GetListDefinition
+generated: true
 ---
 
 # GET List/ConsentPurpose
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 566,
-  "Name": "Torp-Murazik",
-  "Tooltip": "harum",
+  "Id": 650,
+  "Name": "Schaefer-Windler",
+  "Tooltip": "deserunt",
   "Deleted": true,
-  "Rank": 89,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
-  "InUseByUserDefinedFields": true,
+  "Rank": 121,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 115
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

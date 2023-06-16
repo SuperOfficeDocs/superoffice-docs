@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveHeadingsForListItemFromListName
 uid: v1ListAgent_SaveHeadingsForListItemFromListName
+generated: true
 ---
 
 # POST Agents/List/SaveHeadingsForListItemFromListName
@@ -92,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Orn, Rice and Cummings",
-  "ListItemId": 272,
+  "UdListDefinitionName": "Barrows LLC",
+  "ListItemId": 435,
   "Headings": [
     {
-      "Id": 115,
-      "Name": "Christiansen-Prohaska",
-      "ToolTip": "Rerum tenetur et.",
+      "Id": 945,
+      "Name": "Doyle, Howe and Kshlerin",
+      "ToolTip": "Rerum et et.",
       "Deleted": false,
-      "Rank": 651,
-      "Type": "asperiores",
-      "ColorBlock": 378,
-      "IconHint": "aut",
-      "Selected": true,
-      "LastChanged": "2019-05-24T03:51:27.4279277+02:00",
+      "Rank": 826,
+      "Type": "consequatur",
+      "ColorBlock": 472,
+      "IconHint": "maiores",
+      "Selected": false,
+      "LastChanged": "1996-10-28T16:00:41.1643284+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iure",
-      "StyleHint": "iusto",
+      "ExtraInfo": "omnis",
+      "StyleHint": "nesciunt",
       "Hidden": false,
-      "FullName": "Mr. Aurelio Clarissa Braun"
+      "FullName": "Ms. Katelynn Ryleigh Pouros"
     }
   ]
 }
@@ -127,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Altenwerth-Schneider",
-    "ToolTip": "Hic consequatur.",
+    "Id": 143,
+    "Name": "Feil Inc and Sons",
+    "ToolTip": "Adipisci maiores.",
     "Deleted": true,
-    "Rank": 37,
-    "Type": "voluptatibus",
-    "ColorBlock": 792,
-    "IconHint": "pariatur",
+    "Rank": 215,
+    "Type": "dolor",
+    "ColorBlock": 135,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2016-08-19T03:51:27.4279277+02:00",
+    "LastChanged": "1999-12-20T16:00:41.1643284+01:00",
     "ChildItems": [
       {
-        "Id": 383,
-        "Name": "Fay-Lehner",
-        "ToolTip": "Corporis veritatis quia sunt consequatur in commodi.",
-        "Deleted": false,
-        "Rank": 139,
-        "Type": "consequatur",
-        "ColorBlock": 686,
-        "IconHint": "est",
+        "Id": 649,
+        "Name": "Green, Ullrich and Corwin",
+        "ToolTip": "Molestias aut rerum incidunt est omnis et sunt.",
+        "Deleted": true,
+        "Rank": 635,
+        "Type": "dolores",
+        "ColorBlock": 265,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2020-02-20T03:51:27.4279277+01:00",
+        "LastChanged": "2012-03-16T16:00:41.1643284+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Dr. Dean Nat Mayer II",
+        "ExtraInfo": "eos",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Eladio Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 178
+            "FieldLength": 166
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "soluta",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Ms. Bethany O'Reilly",
+    "FullName": "Anahi Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldLength": 421
       }
     }
   }

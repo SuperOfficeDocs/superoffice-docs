@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/DeleteAllHeadingsFromListDefinition
 uid: v1ListAgent_DeleteAllHeadingsFromListDefinition
+generated: true
 ---
 
 # POST Agents/List/DeleteAllHeadingsFromListDefinition
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/List/DeleteAllHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 615
+  "Id": 100
 }
 ```
 

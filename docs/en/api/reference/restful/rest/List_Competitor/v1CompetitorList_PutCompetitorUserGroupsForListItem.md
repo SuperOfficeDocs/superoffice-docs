@@ -1,6 +1,7 @@
 ---
 title: PUT List/Competitor/Items/{id}/UserGroups
 uid: v1CompetitorList_PutCompetitorUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/Competitor/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Yundt, Bernier and Hudson",
-    "ToolTip": "Tenetur qui.",
-    "Deleted": false,
-    "Rank": 502,
-    "Type": "nulla",
-    "ColorBlock": 733,
-    "IconHint": "voluptate",
-    "Selected": true,
-    "LastChanged": "2003-02-02T03:51:34.5833707+01:00",
+    "Id": 261,
+    "Name": "Cronin LLC",
+    "ToolTip": "Vitae dignissimos nihil quae dolores perferendis totam eum.",
+    "Deleted": true,
+    "Rank": 863,
+    "Type": "debitis",
+    "ColorBlock": 808,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "2004-08-03T16:00:48.8989756+02:00",
     "ChildItems": [
       {
-        "Id": 107,
-        "Name": "Bahringer-Stoltenberg",
-        "ToolTip": "Voluptatem ea beatae.",
+        "Id": 866,
+        "Name": "Buckridge-Armstrong",
+        "ToolTip": "Atque qui.",
         "Deleted": false,
-        "Rank": 40,
-        "Type": "ut",
-        "ColorBlock": 559,
-        "IconHint": "voluptas",
+        "Rank": 777,
+        "Type": "voluptas",
+        "ColorBlock": 299,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "1999-02-24T03:51:34.5833707+01:00",
+        "LastChanged": "2023-06-01T16:00:48.8989756+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "saepe",
+        "ExtraInfo": "et",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Oceane Jeffrey Johns I"
+        "FullName": "Mrs. Jesse Elnora Mueller DVM"
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "nesciunt",
-    "Hidden": true,
-    "FullName": "Mable Pouros"
+    "ExtraInfo": "distinctio",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Ms. Isaias Bailey"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "Ortiz, Paucek and Jakubowski",
-    "ToolTip": "Aut sunt sed quas.",
+    "Id": 211,
+    "Name": "Waters Group",
+    "ToolTip": "Libero quas.",
     "Deleted": false,
-    "Rank": 309,
-    "Type": "est",
-    "ColorBlock": 452,
-    "IconHint": "tenetur",
-    "Selected": true,
-    "LastChanged": "1999-04-29T03:51:34.5833707+02:00",
+    "Rank": 690,
+    "Type": "totam",
+    "ColorBlock": 228,
+    "IconHint": "repudiandae",
+    "Selected": false,
+    "LastChanged": "1998-11-08T16:00:48.8989756+01:00",
     "ChildItems": [
       {
-        "Id": 592,
-        "Name": "Herman, Klein and Block",
-        "ToolTip": "Harum tempora vel blanditiis et ad ab.",
+        "Id": 717,
+        "Name": "Fisher, Russel and Friesen",
+        "ToolTip": "Tempora neque.",
         "Deleted": false,
-        "Rank": 14,
-        "Type": "non",
-        "ColorBlock": 990,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2021-04-11T03:51:34.5833707+02:00",
+        "Rank": 68,
+        "Type": "quo",
+        "ColorBlock": 890,
+        "IconHint": "cum",
+        "Selected": false,
+        "LastChanged": "2011-06-10T16:00:48.8989756+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Susana McDermott",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Mr. Celestino Eino Hane III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 964
+            "FieldLength": 295
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "iusto",
+    "ExtraInfo": "autem",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Santa VonRueden",
+    "FullName": "Aiden Durgan DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 269
+        "FieldLength": 857
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetExtAppEntity
 uid: v1ListAgent_GetExtAppEntity
+generated: true
 ---
 
 # POST Agents/List/GetExtAppEntity
@@ -25,7 +26,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=962
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=761
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 34,
-  "Name": "Ernser-Orn",
-  "Tooltip": "sed",
+  "ExtAppId": 158,
+  "Name": "Gutkowski-Emard",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 989,
-  "Filename": "corrupti",
-  "Parameters": "aut",
-  "Workdir": "qui",
+  "Rank": 41,
+  "Filename": "dolores",
+  "Parameters": "nulla",
+  "Workdir": "nesciunt",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 108,
-  "WaitToFinish": true,
+  "Icon": 446,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "hic",
+  "Path": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 444
+      "FieldType": "System.Int32",
+      "FieldLength": 169
     }
   }
 }

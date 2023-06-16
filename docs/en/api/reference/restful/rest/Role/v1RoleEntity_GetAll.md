@@ -1,6 +1,7 @@
 ---
 title: GET Role
 uid: v1RoleEntity_GetAll
+generated: true
 ---
 
 # GET Role
@@ -69,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=eveniet
-GET /api/v1/Role?$top=270
-GET /api/v1/Role?$skip=690
+GET /api/v1/Role?$entities=suscipit
+GET /api/v1/Role?$top=406
+GET /api/v1/Role?$skip=741
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=maiores
+GET /api/v1/Role?$context=esse
 GET /api/v1/Role?$format=JSON
-GET /api/v1/Role?$jsonSafe=True
+GET /api/v1/Role?$jsonSafe=False
 GET /api/v1/Role?$output=Display
 ```
 
@@ -128,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "repellat",
   "value": [
     {
-      "PrimaryKey": 1714,
+      "PrimaryKey": 8251,
       "EntityName": "sale",
-      "saleId": 1714,
-      "contactId": 6202,
-      "name": "Hagenes Inc and Sons"
+      "saleId": 8251,
+      "contactId": 9496,
+      "name": "Becker Inc and Sons"
     },
     {
-      "PrimaryKey": 7167,
+      "PrimaryKey": 5375,
       "EntityName": "sale",
-      "saleId": 7167,
-      "contactId": 1957,
-      "name": "Mohr, Pouros and Lesch"
+      "saleId": 5375,
+      "contactId": 4824,
+      "name": "Feil Group"
     }
   ]
 }

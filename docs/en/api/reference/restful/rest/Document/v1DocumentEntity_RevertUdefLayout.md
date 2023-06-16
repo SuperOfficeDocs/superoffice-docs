@@ -1,6 +1,7 @@
 ---
 title: POST Document/UdefLayout/Revert
 uid: v1DocumentEntity_RevertUdefLayout
+generated: true
 ---
 
 # POST Document/UdefLayout/Revert
@@ -47,7 +48,7 @@ No Content
 POST /api/v1/Document/UdefLayout/Revert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

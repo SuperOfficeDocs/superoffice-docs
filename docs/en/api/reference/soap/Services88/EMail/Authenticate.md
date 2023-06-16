@@ -1,6 +1,6 @@
 ---
 title: Services88.EMailAgent.Authenticate SOAP
-generated: 1
+generated: true
 uid: Services88-EMail-Authenticate
 ---
 

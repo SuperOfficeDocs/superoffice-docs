@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Report/ImportReport
 uid: v1ReportAgent_ImportReport
+generated: true
 ---
 
 # POST Agents/Report/ImportReport
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/Report/ImportReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Report": "quod"
+  "Report": "non"
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-376
+818
 ```

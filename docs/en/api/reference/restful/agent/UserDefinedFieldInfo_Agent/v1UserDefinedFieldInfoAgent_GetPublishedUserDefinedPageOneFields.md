@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 uid: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
@@ -106,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 219
+  "UserGroupId": 688
 }
 ```
 
@@ -123,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 747,
-    "ColumnId": 11,
-    "FieldDefault": "eveniet",
-    "FieldHeight": 904,
-    "FieldLabel": "sed",
-    "FieldLeft": 912,
-    "FieldTop": 694,
+    "UDefFieldId": 627,
+    "ColumnId": 789,
+    "FieldDefault": "nulla",
+    "FieldHeight": 493,
+    "FieldLabel": "rerum",
+    "FieldLeft": 690,
+    "FieldTop": 842,
     "FieldType": "Checkbox",
-    "FieldWidth": 69,
-    "FormatMask": "eos",
-    "HideLabel": true,
+    "FieldWidth": 728,
+    "FormatMask": "id",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 69,
-    "LabelLeft": 174,
-    "LabelTop": 240,
-    "LabelWidth": 252,
-    "LastVersionId": 360,
-    "ListTableId": 905,
+    "LabelHeight": 858,
+    "LabelLeft": 962,
+    "LabelTop": 769,
+    "LabelWidth": 362,
+    "LastVersionId": 787,
+    "ListTableId": 363,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 470,
-    "ProgId": "a",
-    "IsReadOnly": true,
-    "ShortLabel": "eligendi",
-    "TabOrder": 39,
-    "TextLength": 608,
-    "Tooltip": "iure",
-    "UdefIdentity": 99,
-    "UDListDefinitionId": 458,
+    "Page1LineNo": 794,
+    "ProgId": "et",
+    "IsReadOnly": false,
+    "ShortLabel": "culpa",
+    "TabOrder": 305,
+    "TextLength": 221,
+    "Tooltip": "beatae",
+    "UdefIdentity": 313,
+    "UDListDefinitionId": 424,
     "Justification": "Center",
-    "Version": 728,
-    "TemplateVariableName": "Nicolas, Yundt and Schumm",
+    "Version": 484,
+    "TemplateVariableName": "Witting, Jacobson and Runolfsson",
     "HasBeenPublished": false,
-    "MdoListName": "Rohan, Simonis and Willms",
+    "MdoListName": "Larkin Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldType": "System.String",
+        "FieldLength": 596
       }
     }
   }

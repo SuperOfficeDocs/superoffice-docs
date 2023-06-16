@@ -1,6 +1,7 @@
 ---
 title: PUT List/SelectionCategory
 uid: v1SelectionCategoryList_SetListDefinition
+generated: true
 ---
 
 # PUT List/SelectionCategory
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 100,
-  "Name": "Rolfson-Hills",
-  "Tooltip": "sed",
+  "Id": 834,
+  "Name": "Schmitt Inc and Sons",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "Rank": 605,
+  "Rank": 283,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "hic",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "amet",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 889,
-  "Name": "Schultz, Haley and Hirthe",
-  "Tooltip": "deleniti",
+  "Id": 993,
+  "Name": "Durgan, Schinner and Hartmann",
+  "Tooltip": "sit",
   "Deleted": true,
-  "Rank": 804,
+  "Rank": 345,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "inventore",
-  "InUseByUserDefinedFields": false,
+  "ListType": "doloremque",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldLength": 550
     }
   }
 }

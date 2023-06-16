@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/SaveDeviceByIdentifier
 uid: v1ForeignSystemAgent_SaveDeviceByIdentifier
+generated: true
 ---
 
 # POST Agents/ForeignSystem/SaveDeviceByIdentifier
@@ -83,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rau-Emard",
-  "DeviceName": "Beier, Dickens and Reilly",
-  "DeviceIdentifier": "consequuntur",
+  "ApplicationName": "Adams, Ankunding and Harvey",
+  "DeviceName": "Schaefer Inc and Sons",
+  "DeviceIdentifier": "omnis",
   "ForeignDevice": null
 }
 ```
@@ -101,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 949,
-  "Name": "Kunde-O'Reilly",
-  "CreatedDate": "2006-09-10T03:51:27.3498217+02:00",
-  "UpdatedDate": "2019-04-20T03:51:27.3498217+02:00",
-  "AssociateFullName": "Zola Herman",
-  "CreatedBy": "quae",
-  "UpdatedBy": "consectetur",
-  "DeviceIdentifier": "maiores",
-  "ForeignAppId": 344,
+  "ForeignDeviceId": 863,
+  "Name": "Block-Johnston",
+  "CreatedDate": "2016-12-20T16:00:41.0705907+01:00",
+  "UpdatedDate": "2006-09-22T16:00:41.0705907+02:00",
+  "AssociateFullName": "Dr. Hoyt Brekke Jr.",
+  "CreatedBy": "corrupti",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "quia",
+  "ForeignAppId": 504,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 676
     }
   }
 }

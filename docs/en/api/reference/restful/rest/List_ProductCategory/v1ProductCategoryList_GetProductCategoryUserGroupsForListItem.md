@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductCategory/Items/{id}/UserGroups
 uid: v1ProductCategoryList_GetProductCategoryUserGroupsForListItem
+generated: true
 ---
 
 # GET List/ProductCategory/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Sauer-Green",
-    "ToolTip": "Officia sed sit optio.",
+    "Id": 85,
+    "Name": "Shields-Kozey",
+    "ToolTip": "Sed tempora.",
     "Deleted": false,
-    "Rank": 403,
-    "Type": "quia",
-    "ColorBlock": 959,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2019-08-19T03:51:34.8020755+02:00",
+    "Rank": 707,
+    "Type": "est",
+    "ColorBlock": 742,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2014-12-26T16:00:49.1489485+01:00",
     "ChildItems": [
       {
-        "Id": 29,
-        "Name": "McCullough-Ledner",
-        "ToolTip": "Sint est est voluptas hic modi omnis.",
+        "Id": 528,
+        "Name": "Luettgen-Dickinson",
+        "ToolTip": "Enim non consequuntur deserunt earum nulla.",
         "Deleted": false,
-        "Rank": 856,
-        "Type": "maxime",
-        "ColorBlock": 896,
-        "IconHint": "optio",
+        "Rank": 978,
+        "Type": "nisi",
+        "ColorBlock": 475,
+        "IconHint": "recusandae",
         "Selected": false,
-        "LastChanged": "2009-05-09T03:51:34.8020755+02:00",
+        "LastChanged": "2006-11-07T16:00:49.1489485+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "a",
-        "Hidden": true,
-        "FullName": "Matt Heathcote",
+        "ExtraInfo": "provident",
+        "StyleHint": "animi",
+        "Hidden": false,
+        "FullName": "Saige Gutmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldType": "System.String",
+            "FieldLength": 163
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ut",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Lelah Hodkiewicz",
+    "FullName": "Adonis Parker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 418
+        "FieldType": "System.Int32",
+        "FieldLength": 772
       }
     }
   }

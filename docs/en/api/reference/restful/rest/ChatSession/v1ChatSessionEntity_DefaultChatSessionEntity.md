@@ -1,6 +1,7 @@
 ---
 title: GET ChatSession/default
 uid: v1ChatSessionEntity_DefaultChatSessionEntity
+generated: true
 ---
 
 # GET ChatSession/default
@@ -86,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 694,
-  "TopicId": 727,
+  "ChatSessionId": 198,
+  "TopicId": 150,
   "User": null,
   "Person": null,
-  "CustomerAlias": "laudantium",
-  "CustomerHost": "dolor",
-  "CustomerName": "Casper LLC",
-  "CustomerEmail": "torey@morissette.info",
-  "CustomerPhone": "1-586-180-6409",
+  "CustomerAlias": "qui",
+  "CustomerHost": "inventore",
+  "CustomerName": "Goldner-Okuneva",
+  "CustomerEmail": "elmo@prohaska.info",
+  "CustomerPhone": "1-265-032-6308",
   "CustomerConsented": true,
-  "CustomerCompanyName": "King, Abshire and Erdman",
+  "CustomerCompanyName": "Denesik-Ondricka",
   "Status": "Closed",
-  "FirstMessage": "quasi",
-  "LastMessage": "sint",
-  "WhenRequested": "1996-06-14T03:51:33.1148316+02:00",
-  "WhenStarted": "1998-09-06T03:51:33.1148316+02:00",
-  "WhenEnded": "2018-05-15T03:51:33.1148316+02:00",
-  "WhenIdle": "2000-08-31T03:51:33.1148316+02:00",
-  "WhenFetched": "2018-02-10T03:51:33.1148316+01:00",
-  "SessionKey": "autem",
-  "InitialQueuePos": 22,
-  "AlertLevel": 977,
-  "Rank": 52,
+  "FirstMessage": "dolorum",
+  "LastMessage": "velit",
+  "WhenRequested": "2017-12-19T16:00:47.5241237+01:00",
+  "WhenStarted": "2019-08-31T16:00:47.5241237+02:00",
+  "WhenEnded": "2023-05-13T16:00:47.5241237+02:00",
+  "WhenIdle": "2013-06-16T16:00:47.5241237+02:00",
+  "WhenFetched": "1999-04-14T16:00:47.5241237+02:00",
+  "SessionKey": "facilis",
+  "InitialQueuePos": 929,
+  "AlertLevel": 270,
+  "Rank": 133,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 205,
+  "ChatbotIsActive": false,
+  "Rating": 755,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 421
     }
   }
 }

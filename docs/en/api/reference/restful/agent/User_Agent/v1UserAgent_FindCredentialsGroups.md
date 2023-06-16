@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/FindCredentialsGroups
 uid: v1UserAgent_FindCredentialsGroups
+generated: true
 ---
 
 # POST Agents/User/FindCredentialsGroups
@@ -79,12 +80,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "sed",
-  "SearchString": "facilis"
+  "Type": "vitae",
+  "SearchString": "accusantium"
 }
 ```
 
@@ -96,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Thompson-Grady",
-    "DisplayName": "Bashirian Inc and Sons",
+    "Name": "Krajcik LLC",
+    "DisplayName": "Kihn LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 175
+        "FieldType": "System.Int32",
+        "FieldLength": 74
       }
     }
   },
   {
-    "Name": "Thompson-Grady",
-    "DisplayName": "Bashirian Inc and Sons",
+    "Name": "Krajcik LLC",
+    "DisplayName": "Kihn LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 175
+        "FieldType": "System.Int32",
+        "FieldLength": 74
       }
     }
   }

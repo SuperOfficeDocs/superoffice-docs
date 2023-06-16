@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 uid: v1UserDefinedFieldInfoAgent_GetCustomFieldInfoList
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
@@ -83,12 +84,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Donnelly, Barton and Ryan",
-  "IncludeStandard": true
+  "TableName": "Von LLC",
+  "IncludeStandard": false
 }
 ```
 
@@ -101,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schumm, Kassulke and Stroman",
-    "DisplayName": "O'Conner, Bradtke and Cole",
-    "Description": "Customizable 5th generation infrastructure",
-    "ShortLabel": "doloremque",
-    "HideLabel": true,
-    "HideField": false,
+    "FieldName": "Hand-Cummerata",
+    "DisplayName": "Emard LLC",
+    "Description": "Multi-tiered 3rd generation time-frame",
+    "ShortLabel": "ratione",
+    "HideLabel": false,
+    "HideField": true,
     "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 430,
-    "TemplateVariableName": "Baumbach-Ernser"
+    "Rank": 783,
+    "TemplateVariableName": "Cartwright Group"
   }
 ]
 ```

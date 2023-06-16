@@ -1,5 +1,6 @@
 ---
 title: Hierarchy
+generated: true
 ---
 
 ```http

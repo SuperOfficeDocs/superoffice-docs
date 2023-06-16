@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ViewState/SaveCurrents
 uid: v1ViewStateAgent_SaveCurrents
+generated: true
 ---
 
 # POST Agents/ViewState/SaveCurrents
@@ -80,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 407,
-      "Id": 988,
-      "HistoryName": "Blick-Durgan",
-      "HistoryId": 221,
-      "AssociateId": 554,
-      "Name": "Schaden-Reichert",
-      "ItemInfo": "dolor"
+      "Rank": 237,
+      "Id": 800,
+      "HistoryName": "Jacobson-Huel",
+      "HistoryId": 446,
+      "AssociateId": 787,
+      "Name": "Donnelly Inc and Sons",
+      "ItemInfo": "sit"
     }
   ]
 }
@@ -106,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 917,
-    "Id": 615,
-    "HistoryName": "Hane, Beier and Bauch",
-    "HistoryId": 472,
-    "AssociateId": 606,
-    "Name": "Champlin-Walter",
-    "ItemInfo": "vel",
+    "Rank": 184,
+    "Id": 223,
+    "HistoryName": "Hahn-Bogisich",
+    "HistoryId": 997,
+    "AssociateId": 697,
+    "Name": "Ullrich-Tremblay",
+    "ItemInfo": "tempore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 109
+        "FieldLength": 361
       }
     }
   }

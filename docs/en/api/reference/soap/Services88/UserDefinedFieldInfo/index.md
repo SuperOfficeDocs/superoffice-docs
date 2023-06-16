@@ -1,7 +1,7 @@
 ---
 title: Services88.UserDefinedFieldInfoAgent SOAP
 uid: Services88-UserDefinedFieldInfo-soap
-generated: 1
+generated: true
 ---
 
 # Services88 UserDefinedFieldInfo SOAP

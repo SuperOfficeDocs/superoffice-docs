@@ -1,6 +1,7 @@
 ---
 title: GET List/Reason/Items/Default
 uid: v1ReasonList_CreateDefaultReason
+generated: true
 ---
 
 # GET List/Reason/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 824,
-  "Name": "Price Group",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "UdListDefinitionId": 744,
-  "Rank": 66,
+  "Id": 449,
+  "Name": "Wolf-Cormier",
+  "Tooltip": "officiis",
+  "Deleted": true,
+  "UdListDefinitionId": 58,
+  "Rank": 452,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldType": "System.String",
+      "FieldLength": 311
     }
   }
 }

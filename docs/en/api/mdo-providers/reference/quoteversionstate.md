@@ -1,17 +1,11 @@
 ---
 uid: quoteversionstate
 title: quoteversionstate
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "quoteversionstate"
+keywords: mdoprovider mdo provider quoteversionstate
+description: List provider for the <see cref="T:SuperOffice.Data.QuoteVersionState" /> enum
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "quoteversionstate" MDO List

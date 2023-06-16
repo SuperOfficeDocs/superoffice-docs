@@ -1,6 +1,7 @@
 ---
 title: PUT List/WebPanel/Headings
 uid: v1WebPanelEntityList_PutWebPanelEntityHeadings
+generated: true
 ---
 
 # PUT List/WebPanel/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 32,
-    "Name": "Jenkins LLC",
-    "Tooltip": "qui",
+    "HeadingId": 102,
+    "Name": "Corwin, Bruen and Kerluke",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 104,
-    "UdListDefinitionId": 230
+    "Rank": 983,
+    "UdListDefinitionId": 974
   },
   {
-    "HeadingId": 32,
-    "Name": "Jenkins LLC",
-    "Tooltip": "qui",
+    "HeadingId": 102,
+    "Name": "Corwin, Bruen and Kerluke",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 104,
-    "UdListDefinitionId": 230
+    "Rank": 983,
+    "UdListDefinitionId": 974
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 144,
-    "Name": "Funk, Shanahan and Macejkovic",
+    "HeadingId": 689,
+    "Name": "Cormier, Schultz and Shanahan",
     "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 899,
-    "UdListDefinitionId": 782,
+    "Deleted": true,
+    "Rank": 576,
+    "UdListDefinitionId": 394,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldType": "System.String",
+        "FieldLength": 408
       }
     }
   }

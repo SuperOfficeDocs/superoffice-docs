@@ -1,6 +1,7 @@
 ---
 title: DEL List/MrMrs/Items/{id}
 uid: v1MrMrsList_DeleteMrMrs
+generated: true
 ---
 
 # DEL List/MrMrs/Items/{id}

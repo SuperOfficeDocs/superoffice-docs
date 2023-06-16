@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetContactAppointmentsByTask
 uid: v1AppointmentAgent_GetContactAppointmentsByTask
+generated: true
 ---
 
 # POST Agents/Appointment/GetContactAppointmentsByTask
@@ -117,6 +118,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -126,15 +130,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 825,
-  "StartTime": "2016-08-15T03:51:26.1157305+02:00",
-  "EndTime": "2018-11-11T03:51:26.1157305+01:00",
-  "Count": 203,
-  "TaskId": 557
+  "ContactId": 279,
+  "StartTime": "1996-12-13T16:00:39.6176013+01:00",
+  "EndTime": "2021-09-26T16:00:39.6176013+02:00",
+  "Count": 479,
+  "TaskId": 376
 }
 ```
 
@@ -146,61 +150,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 632,
-    "StartDate": "2002-02-05T03:51:26.1157305+01:00",
-    "EndDate": "2021-12-29T03:51:26.1157305+01:00",
+    "AppointmentId": 895,
+    "StartDate": "2017-08-21T16:00:39.6176013+02:00",
+    "EndDate": "2014-08-12T16:00:39.6176013+02:00",
     "Type": "BookingForChecklist",
-    "Task": "consequatur",
-    "AssociateFullName": "Dr. Jalyn Tina Hills",
-    "ContactName": "Koch Inc and Sons",
-    "Description": "Pre-emptive full-range algorithm",
-    "PersonFullName": "Horace Hermann",
-    "PersonId": 524,
-    "ContactId": 336,
-    "ProjectId": 190,
-    "ProjectName": "Carter-Terry",
+    "Task": "velit",
+    "AssociateFullName": "Marcella Funk",
+    "ContactName": "Homenick, Pfannerstill and Hettinger",
+    "Description": "Inverse holistic Graphic Interface",
+    "PersonFullName": "Velma Thiel",
+    "PersonId": 129,
+    "ContactId": 490,
+    "ProjectId": 25,
+    "ProjectName": "Turner-Rice",
     "IsPublished": true,
-    "AssociateId": 413,
-    "ColorIndex": 33,
-    "IsFree": false,
+    "AssociateId": 928,
+    "ColorIndex": 450,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 185,
-    "PriorityName": "Ankunding Group",
+    "PriorityId": 282,
+    "PriorityName": "Johnson LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2000-11-18T03:51:26.1313562+01:00",
+    "ActiveDate": "2018-06-16T16:00:39.6176013+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-04-24T03:51:26.1313562+02:00",
-    "RecurringEndDate": "2006-03-29T03:51:26.1313562+02:00",
-    "MotherId": 569,
-    "AssignedBy": 958,
-    "AssignedByFullName": "Prof. Alexandrea Raynor PhD",
+    "RecurringStartDate": "2008-11-22T16:00:39.6176013+01:00",
+    "RecurringEndDate": "2020-07-18T16:00:39.6176013+02:00",
+    "MotherId": 865,
+    "AssignedBy": 208,
+    "AssignedByFullName": "Garland Nikolaus DDS",
     "RejectReason": "",
-    "Location": "vel",
+    "Location": "illo",
     "AlarmLeadTime": "consequatur",
-    "SaleId": 395,
-    "SaleName": "Jenkins, Swift and Kassulke",
-    "AssociateName": "Green LLC",
-    "CreatedDate": "1998-01-16T03:51:26.1313562+01:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Cristobal Berge",
-    "CreatedByAssociateId": 840,
+    "SaleId": 904,
+    "SaleName": "Leffler LLC",
+    "AssociateName": "Gutkowski-Kertzmann",
+    "CreatedDate": "1997-04-06T16:00:39.6176013+02:00",
+    "CreatedBy": "fugit",
+    "CreatedByFullName": "Cleve Schaden",
+    "CreatedByAssociateId": 732,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "unde",
+    "Agenda": "sint",
+    "InternalNotes": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldLength": 904
       }
     }
   }

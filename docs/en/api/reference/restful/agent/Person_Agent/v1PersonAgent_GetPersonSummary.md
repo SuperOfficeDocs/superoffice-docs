@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetPersonSummary
 uid: v1PersonAgent_GetPersonSummary
+generated: true
 ---
 
 # POST Agents/Person/GetPersonSummary
@@ -76,12 +77,12 @@ OK
 POST /api/v1/Agents/Person/GetPersonSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 916,
-  "Limit": 261
+  "PersonId": 354,
+  "Limit": 670
 }
 ```
 
@@ -95,79 +96,79 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "Tickets": [
     {
-      "TicketId": 797,
-      "TicketStatus": 540,
-      "Title": "commodi",
-      "Registered": "2003-04-13T03:51:27.8340855+02:00",
-      "IconHint": "iure"
+      "TicketId": 188,
+      "TicketStatus": 695,
+      "Title": "sit",
+      "Registered": "2004-06-05T16:00:41.4457134+02:00",
+      "IconHint": "error"
     },
     {
-      "TicketId": 797,
-      "TicketStatus": 540,
-      "Title": "commodi",
-      "Registered": "2003-04-13T03:51:27.8340855+02:00",
-      "IconHint": "iure"
+      "TicketId": 188,
+      "TicketStatus": 695,
+      "Title": "sit",
+      "Registered": "2004-06-05T16:00:41.4457134+02:00",
+      "IconHint": "error"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 798,
-      "DocumentId": 368,
-      "Date": "1997-07-21T03:51:27.8340855+02:00",
-      "Description": "Centralized solution-oriented intranet",
+      "AppointmentId": 781,
+      "DocumentId": 453,
+      "Date": "2020-09-19T16:00:41.4457134+02:00",
+      "Description": "Profound bandwidth-monitored data-warehouse",
       "Completed": "Completed",
-      "Registered": "2006-08-13T03:51:27.8340855+02:00"
+      "Registered": "2014-01-22T16:00:41.4457134+01:00"
     },
     {
-      "AppointmentId": 798,
-      "DocumentId": 368,
-      "Date": "1997-07-21T03:51:27.8340855+02:00",
-      "Description": "Centralized solution-oriented intranet",
+      "AppointmentId": 781,
+      "DocumentId": 453,
+      "Date": "2020-09-19T16:00:41.4457134+02:00",
+      "Description": "Profound bandwidth-monitored data-warehouse",
       "Completed": "Completed",
-      "Registered": "2006-08-13T03:51:27.8340855+02:00"
+      "Registered": "2014-01-22T16:00:41.4457134+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 318,
-      "DocumentId": 697,
-      "Date": "2005-12-06T03:51:27.8340855+01:00",
-      "Description": "Reactive next generation open architecture",
+      "AppointmentId": 407,
+      "DocumentId": 834,
+      "Date": "2015-06-05T16:00:41.4457134+02:00",
+      "Description": "Managed foreground strategy",
       "Completed": "Completed",
-      "Registered": "2009-03-26T03:51:27.8340855+01:00"
+      "Registered": "2002-03-14T16:00:41.4457134+01:00"
     },
     {
-      "AppointmentId": 318,
-      "DocumentId": 697,
-      "Date": "2005-12-06T03:51:27.8340855+01:00",
-      "Description": "Reactive next generation open architecture",
+      "AppointmentId": 407,
+      "DocumentId": 834,
+      "Date": "2015-06-05T16:00:41.4457134+02:00",
+      "Description": "Managed foreground strategy",
       "Completed": "Completed",
-      "Registered": "2009-03-26T03:51:27.8340855+01:00"
+      "Registered": "2002-03-14T16:00:41.4457134+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 678,
-      "SaleDate": "2007-11-19T03:51:27.8340855+01:00",
-      "Probability": 110,
-      "Heading": "qui",
-      "Amount": 11780.706,
-      "Currency": "dolores",
-      "AmountInBaseCurrency": 9251.568,
+      "SaleId": 267,
+      "SaleDate": "2009-01-26T16:00:41.4457134+01:00",
+      "Probability": 764,
+      "Heading": "aut",
+      "Amount": 30177.286,
+      "Currency": "ut",
+      "AmountInBaseCurrency": 11367.018,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2023-01-13T03:51:27.8340855+01:00"
+      "Registered": "1999-08-15T16:00:41.4457134+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 594,
-      "Name": "Kilback-Dicki",
-      "CompanyName": "Green, Cruickshank and Terry",
-      "FirstMessage": "quisquam",
-      "LastMessage": "qui",
-      "WhenRequested": "2015-06-26T03:51:27.8340855+02:00",
-      "WhenEnded": "2010-01-23T03:51:27.8340855+01:00"
+      "ChatSessionId": 56,
+      "Name": "Thompson LLC",
+      "CompanyName": "Murray-Watsica",
+      "FirstMessage": "esse",
+      "LastMessage": "et",
+      "WhenRequested": "2007-05-21T16:00:41.4457134+02:00",
+      "WhenEnded": "1998-03-26T16:00:41.4457134+01:00"
     }
   ]
 }

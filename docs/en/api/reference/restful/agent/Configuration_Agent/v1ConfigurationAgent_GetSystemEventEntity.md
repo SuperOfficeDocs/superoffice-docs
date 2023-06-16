@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetSystemEventEntity
 uid: v1ConfigurationAgent_GetSystemEventEntity
+generated: true
 ---
 
 # POST Agents/Configuration/GetSystemEventEntity
@@ -25,7 +26,7 @@ Gets a SystemEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=307
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=278
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
 
@@ -85,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 418,
+  "SystemEventId": 614,
   "Scope": "Database",
-  "Eta": "2001-01-15T03:51:26.787455+01:00",
-  "Eventkey": "ullam",
-  "Eventmess": "id",
-  "ExtraInfo": 573,
-  "Owner": 97,
-  "UpdatedCount": 482,
-  "Registered": "2021-04-14T03:51:26.787455+02:00",
+  "Eta": "2003-05-26T16:00:40.320651+02:00",
+  "Eventkey": "aliquam",
+  "Eventmess": "deserunt",
+  "ExtraInfo": 375,
+  "Owner": 587,
+  "UpdatedCount": 618,
+  "Registered": "2003-01-23T16:00:40.320651+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 60
+      "FieldLength": 640
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/TimeZone/CheckNewTimeZoneDataAvailable
 uid: v1TimeZoneAgent_CheckNewTimeZoneDataAvailable
+generated: true
 ---
 
 # POST Agents/TimeZone/CheckNewTimeZoneDataAvailable
@@ -68,5 +69,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

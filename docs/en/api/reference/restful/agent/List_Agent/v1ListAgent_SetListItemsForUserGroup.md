@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetListItemsForUserGroup
 uid: v1ListAgent_SetListItemsForUserGroup
+generated: true
 ---
 
 # POST Agents/List/SetListItemsForUserGroup
@@ -70,13 +71,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 801,
-  "UsergroupId": 231,
+  "UdListDefinitionId": 20,
+  "UsergroupId": 274,
   "ListItemIds": [
-    793,
-    725
+    365,
+    229
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

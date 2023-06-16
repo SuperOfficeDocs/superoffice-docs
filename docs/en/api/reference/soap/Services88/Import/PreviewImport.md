@@ -1,6 +1,6 @@
 ---
 title: Services88.ImportAgent.PreviewImport SOAP
-generated: 1
+generated: true
 uid: Services88-Import-PreviewImport
 ---
 

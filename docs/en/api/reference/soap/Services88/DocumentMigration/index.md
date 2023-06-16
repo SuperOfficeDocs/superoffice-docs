@@ -1,7 +1,7 @@
 ---
 title: Services88.DocumentMigrationAgent SOAP
 uid: Services88-DocumentMigration-soap
-generated: 1
+generated: true
 ---
 
 # Services88 DocumentMigration SOAP

@@ -1,5 +1,5 @@
 ---
-generated: 1
+generated: true
 uid: wsdl-Services88-Appointment
 title: Services88.AppointmentAgent WSDL
 ---
@@ -92,6 +92,9 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="CautionWarning" type="q6:AppointmentCautionWarning" />
               <xs:element minOccurs="0" name="JoinVideomeetUrl" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CentralserviceVideomeetId" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Agenda" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="InternalNotes" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="q6:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q6:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q6:StringDictionary" />
@@ -1276,6 +1279,9 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="CreatedByAssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="CautionWarning" type="q127:AppointmentCautionWarning" />
               <xs:element minOccurs="0" name="JoinVideomeetUrl" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Agenda" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="InternalNotes" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

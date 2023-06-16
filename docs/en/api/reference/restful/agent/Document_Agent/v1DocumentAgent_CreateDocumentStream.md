@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/CreateDocumentStream
 uid: v1DocumentAgent_CreateDocumentStream
+generated: true
 ---
 
 # POST Agents/Document/CreateDocumentStream

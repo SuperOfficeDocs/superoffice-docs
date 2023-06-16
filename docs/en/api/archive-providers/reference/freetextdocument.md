@@ -2,17 +2,10 @@
 uid: FreetextDocument
 title: FreetextDocument
 description: Archive provider for freetext search on the Document entity (any kind of document).
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "FreetextDocument"
+keywords: FreetextDocument archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "FreetextDocument"
@@ -138,6 +131,10 @@ as well as before any ORDER BY, are applied.
 |person/personPager/description|string|Other - Description: Phone number description| x |
 |person/personDirectFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |person/personDirectFax/description|string|Fax - Description: Phone number description| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/searchPhone/formattedNumber|string|Phone : Displays phone number|  |
 |person/searchPhone/description|string|Description: Phone number description| x |
 |person/personInfo/textId|int|Text ID| x |
@@ -238,6 +235,10 @@ as well as before any ORDER BY, are applied.
 |person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |person/personAssociate/userName|string|User name: User name| x |
 |person/personAssociate/personEmail|string|E-mail| x |
@@ -338,6 +339,10 @@ as well as before any ORDER BY, are applied.
 |contact/streetAddress/addressId|int|Street address - Address ID: Database ID for the address record| x |
 |contact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
 |contact/streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/streetAddress/line3|string|Street address - Address 3: Third line of the address| x |
 |contact/streetAddress/county|string|Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |contact/streetAddress/city|string|Street address - City: This criterion corresponds to the City field on the Company card.| x |
@@ -438,6 +443,10 @@ as well as before any ORDER BY, are applied.
 |contact/NumberOfTickets|int|Number of requests|  |
 |contact/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |contact/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
 |contact/LastTicket|date|Date of last request|  |
 |contact/LastCompletedTicket|date|Date of last completed request|  |
@@ -538,6 +547,10 @@ as well as before any ORDER BY, are applied.
 |project/LastSale|date|Date of last sale|  |
 |project/LastCompletedSale|date|Date of last completed sale|  |
 |project/LastDoBySale|date|Date of last non-completed sale|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |project/saintSaleStatus|listAny|With status|  |
 |project/saintAmountClass|listAny|Amount class|  |
@@ -638,6 +651,10 @@ as well as before any ORDER BY, are applied.
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
 |sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
@@ -685,7 +702,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextDocument?$select=documentPublish/publishedBy,person/restrictionAddress/addressId,person/personUdef/SuperOffice:3,person/personExtra/x_person_shorttext,person/personAssociate/associateDbId
+GET /api/v1/archive/FreetextDocument?$select=person/personUpdatedBy,contact/streetAddress/state,associate/assocName,documentUdef/SuperOffice:7,sale/saleUdef/SuperOffice:8
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

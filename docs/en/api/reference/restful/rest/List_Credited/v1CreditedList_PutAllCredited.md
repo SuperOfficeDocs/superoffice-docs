@@ -1,6 +1,7 @@
 ---
 title: PUT List/Credited/Items
 uid: v1CreditedList_PutAllCredited
+generated: true
 ---
 
 # PUT List/Credited/Items
@@ -77,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 314,
-    "Name": "Moore-Kuhn",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "UdListDefinitionId": 454,
-    "Rank": 613
+    "Id": 873,
+    "Name": "Kshlerin Group",
+    "Tooltip": "aperiam",
+    "Deleted": false,
+    "UdListDefinitionId": 238,
+    "Rank": 469
   },
   {
-    "Id": 314,
-    "Name": "Moore-Kuhn",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "UdListDefinitionId": 454,
-    "Rank": 613
+    "Id": 873,
+    "Name": "Kshlerin Group",
+    "Tooltip": "aperiam",
+    "Deleted": false,
+    "UdListDefinitionId": 238,
+    "Rank": 469
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Hagenes, Stehr and Johnson",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "UdListDefinitionId": 546,
-    "Rank": 888,
+    "Id": 551,
+    "Name": "Mertz-Rempel",
+    "Tooltip": "quas",
+    "Deleted": false,
+    "UdListDefinitionId": 827,
+    "Rank": 126,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldType": "System.String",
+        "FieldLength": 482
       }
     }
   }

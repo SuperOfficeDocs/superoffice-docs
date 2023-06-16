@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveDocumentTemplateStream
 uid: v1ListAgent_SaveDocumentTemplateStream
+generated: true
 ---
 
 # POST Agents/List/SaveDocumentTemplateStream
@@ -81,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 23,
+  "DocumentTemplateId": 79,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "quia",
-  "PluginId": 78
+  "LanguageCode": "itaque",
+  "PluginId": 421
 }
 ```
 
@@ -95,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Trantow-Robel",
-  "Description": "Diverse attitude-oriented collaboration",
-  "ExternalReference": "sed",
-  "MimeType": "blanditiis",
-  "PluginId": 329
+  "Name": "Pfeffer-Volkman",
+  "Description": "Realigned solution-oriented capacity",
+  "ExternalReference": "ut",
+  "MimeType": "ipsa",
+  "PluginId": 331
 }
 ```

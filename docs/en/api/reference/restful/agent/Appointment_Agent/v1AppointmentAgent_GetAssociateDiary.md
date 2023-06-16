@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetAssociateDiary
 uid: v1AppointmentAgent_GetAssociateDiary
+generated: true
 ---
 
 # POST Agents/Appointment/GetAssociateDiary
@@ -114,6 +115,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -123,14 +127,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 203,
-  "StartTime": "2021-01-29T03:51:26.1313562+01:00",
-  "EndTime": "2022-11-10T03:51:26.1313562+01:00",
-  "Count": 635
+  "AssociateId": 231,
+  "StartTime": "2022-08-04T16:00:39.6488525+02:00",
+  "EndTime": "2017-06-24T16:00:39.6488525+02:00",
+  "Count": 477
 }
 ```
 
@@ -142,61 +146,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 375,
-    "StartDate": "2009-07-01T03:51:26.1469713+02:00",
-    "EndDate": "2012-01-08T03:51:26.1469713+01:00",
+    "AppointmentId": 10,
+    "StartDate": "2010-08-04T16:00:39.6488525+02:00",
+    "EndDate": "2007-09-23T16:00:39.6488525+02:00",
     "Type": "BookingForChecklist",
-    "Task": "repudiandae",
-    "AssociateFullName": "Anibal Beahan",
-    "ContactName": "Carter LLC",
-    "Description": "Seamless 3rd generation standardization",
-    "PersonFullName": "Holden Wehner",
-    "PersonId": 332,
-    "ContactId": 695,
-    "ProjectId": 532,
-    "ProjectName": "Grady Group",
+    "Task": "unde",
+    "AssociateFullName": "Theo Mitchell",
+    "ContactName": "Upton-White",
+    "Description": "Assimilated zero administration hierarchy",
+    "PersonFullName": "Jaeden Hudson",
+    "PersonId": 349,
+    "ContactId": 217,
+    "ProjectId": 861,
+    "ProjectName": "Sawayn-Renner",
     "IsPublished": false,
-    "AssociateId": 36,
-    "ColorIndex": 496,
-    "IsFree": true,
+    "AssociateId": 689,
+    "ColorIndex": 694,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 702,
-    "PriorityName": "Lesch Inc and Sons",
+    "PriorityId": 889,
+    "PriorityName": "Christiansen, Wiegand and Gerlach",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2010-10-14T03:51:26.1469713+02:00",
+    "ActiveDate": "2003-07-30T16:00:39.6488525+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-11-08T03:51:26.1469713+01:00",
-    "RecurringEndDate": "2000-11-13T03:51:26.1469713+01:00",
-    "MotherId": 964,
-    "AssignedBy": 108,
-    "AssignedByFullName": "Dr. Aryanna Kuphal",
+    "RecurringStartDate": "2022-10-02T16:00:39.6488525+02:00",
+    "RecurringEndDate": "2020-03-28T16:00:39.6488525+01:00",
+    "MotherId": 816,
+    "AssignedBy": 711,
+    "AssignedByFullName": "Luigi Mante",
     "RejectReason": "",
-    "Location": "dolor",
-    "AlarmLeadTime": "atque",
-    "SaleId": 939,
-    "SaleName": "Schroeder-Stehr",
-    "AssociateName": "Block, Weimann and Gerlach",
-    "CreatedDate": "2004-08-09T03:51:26.1469713+02:00",
-    "CreatedBy": "porro",
-    "CreatedByFullName": "Mr. Myrna Clemens Satterfield",
-    "CreatedByAssociateId": 510,
+    "Location": "facere",
+    "AlarmLeadTime": "voluptate",
+    "SaleId": 663,
+    "SaleName": "Gislason Inc and Sons",
+    "AssociateName": "Yost, Kuhlman and Sawayn",
+    "CreatedDate": "2020-07-13T16:00:39.6488525+02:00",
+    "CreatedBy": "sed",
+    "CreatedByFullName": "Ismael Hartmann",
+    "CreatedByAssociateId": 283,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "numquam",
+    "Agenda": "aut",
+    "InternalNotes": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 914
       }
     }
   }

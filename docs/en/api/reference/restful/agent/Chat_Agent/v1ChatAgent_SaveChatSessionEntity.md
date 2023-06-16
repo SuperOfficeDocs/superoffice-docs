@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/SaveChatSessionEntity
 uid: v1ChatAgent_SaveChatSessionEntity
+generated: true
 ---
 
 # POST Agents/Chat/SaveChatSessionEntity
@@ -122,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 950,
-  "TopicId": 562,
+  "ChatSessionId": 658,
+  "TopicId": 757,
   "User": null,
   "Person": null,
-  "CustomerAlias": "exercitationem",
-  "CustomerHost": "accusamus",
-  "CustomerName": "Goyette LLC",
-  "CustomerEmail": "wilfredo@daughertycremin.uk",
-  "CustomerPhone": "602-260-9788",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Klein, Bartoletti and Goldner",
+  "CustomerAlias": "aut",
+  "CustomerHost": "exercitationem",
+  "CustomerName": "Stamm Inc and Sons",
+  "CustomerEmail": "beryl_wolff@langoshwalker.uk",
+  "CustomerPhone": "1-838-701-2690 x373",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Barton LLC",
   "Status": "Closed",
-  "FirstMessage": "blanditiis",
-  "LastMessage": "et",
-  "WhenRequested": "2011-09-17T03:51:26.6468635+02:00",
-  "WhenStarted": "2010-10-08T03:51:26.6468635+02:00",
-  "WhenEnded": "2018-03-13T03:51:26.6468635+01:00",
-  "WhenIdle": "1999-09-08T03:51:26.6468635+02:00",
-  "WhenFetched": "1998-11-21T03:51:26.6468635+01:00",
-  "SessionKey": "eius",
-  "InitialQueuePos": 457,
-  "AlertLevel": 89,
-  "Rank": 764,
+  "FirstMessage": "nam",
+  "LastMessage": "fugit",
+  "WhenRequested": "2020-06-06T16:00:40.1488166+02:00",
+  "WhenStarted": "2006-06-28T16:00:40.1488166+02:00",
+  "WhenEnded": "2021-02-09T16:00:40.1488166+01:00",
+  "WhenIdle": "2003-08-28T16:00:40.1488166+02:00",
+  "WhenFetched": "2015-10-24T16:00:40.1488166+02:00",
+  "SessionKey": "sed",
+  "InitialQueuePos": 13,
+  "AlertLevel": 590,
+  "Rank": 261,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 694
+  "ChatbotIsActive": true,
+  "Rating": 363
 }
 ```
 
@@ -167,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 125,
-  "TopicId": 229,
+  "ChatSessionId": 716,
+  "TopicId": 367,
   "User": null,
   "Person": null,
-  "CustomerAlias": "molestias",
-  "CustomerHost": "et",
-  "CustomerName": "Gutmann Inc and Sons",
-  "CustomerEmail": "kenton@dooley.uk",
-  "CustomerPhone": "282.258.6232",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Daugherty, Mante and Beier",
+  "CustomerAlias": "nam",
+  "CustomerHost": "minus",
+  "CustomerName": "Steuber, Sanford and Hansen",
+  "CustomerEmail": "hortense_bayer@mcclure.ca",
+  "CustomerPhone": "(896)706-1474",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Kuhic Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "similique",
-  "LastMessage": "distinctio",
-  "WhenRequested": "2001-03-12T03:51:26.6624841+01:00",
-  "WhenStarted": "2008-03-01T03:51:26.6624841+01:00",
-  "WhenEnded": "2022-12-08T03:51:26.6624841+01:00",
-  "WhenIdle": "2012-11-04T03:51:26.6624841+01:00",
-  "WhenFetched": "2015-09-06T03:51:26.6624841+02:00",
-  "SessionKey": "blanditiis",
-  "InitialQueuePos": 361,
-  "AlertLevel": 940,
-  "Rank": 501,
+  "FirstMessage": "eos",
+  "LastMessage": "aut",
+  "WhenRequested": "2018-08-25T16:00:40.1644405+02:00",
+  "WhenStarted": "2019-10-08T16:00:40.1644405+02:00",
+  "WhenEnded": "1998-08-23T16:00:40.1644405+02:00",
+  "WhenIdle": "2018-01-12T16:00:40.1644405+01:00",
+  "WhenFetched": "2014-09-11T16:00:40.1644405+02:00",
+  "SessionKey": "beatae",
+  "InitialQueuePos": 14,
+  "AlertLevel": 415,
+  "Rank": 621,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 662,
+  "ChatbotIsActive": true,
+  "Rating": 440,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 941
+      "FieldType": "System.String",
+      "FieldLength": 740
     }
   }
 }

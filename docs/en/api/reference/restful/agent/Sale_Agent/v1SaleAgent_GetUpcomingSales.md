@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetUpcomingSales
 uid: v1SaleAgent_GetUpcomingSales
+generated: true
 ---
 
 # POST Agents/Sale/GetUpcomingSales
@@ -99,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 909,
-  "Count": 670
+  "WeightedAmountLimit": 884,
+  "Count": 29
 }
 ```
 
@@ -116,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kub-Dare",
-    "SaleDate": "2004-11-10T03:51:28.1308861+01:00",
-    "SaleId": 634,
-    "Probability": 330,
-    "Title": "et",
-    "Amount": 30603.51,
-    "Currency": "quibusdam",
-    "ProjectName": "Jast-Raynor",
-    "AssociateFullName": "Mr. Amelia Runolfsson I",
-    "Description": "Visionary tertiary success",
+    "ContactName": "Weimann Inc and Sons",
+    "SaleDate": "2004-05-16T16:00:41.7894273+02:00",
+    "SaleId": 888,
+    "Probability": 92,
+    "Title": "rerum",
+    "Amount": 18572.084,
+    "Currency": "nesciunt",
+    "ProjectName": "Bayer, Lockman and Lind",
+    "AssociateFullName": "Ms. Jolie Jewel Strosin IV",
+    "Description": "Customer-focused modular flexibility",
     "Status": "Lost",
-    "WeightedAmount": 24630.106,
-    "ProjectId": 140,
-    "EarningPercent": 14099.866,
-    "Earning": 29143.066,
-    "ContactId": 764,
-    "AssociateId": 16,
-    "PersonId": 789,
-    "SaleTypeId": 855,
-    "SaleTypeName": "Murray-West",
-    "PersonFullName": "Vicente Abshire",
+    "WeightedAmount": 28397.174,
+    "ProjectId": 937,
+    "EarningPercent": 13874.217999999999,
+    "Earning": 25911.912,
+    "ContactId": 444,
+    "AssociateId": 223,
+    "PersonId": 322,
+    "SaleTypeId": 658,
+    "SaleTypeName": "Bradtke, Wolf and Stamm",
+    "PersonFullName": "Ricardo Reynolds",
     "Completed": "Completed",
-    "ActiveErpLinks": 398,
-    "NextDueDate": "2008-06-27T03:51:28.1308861+02:00",
-    "Number": "863726",
+    "ActiveErpLinks": 596,
+    "NextDueDate": "2005-10-13T16:00:41.7894273+02:00",
+    "Number": "1163587",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldType": "System.String",
+        "FieldLength": 889
       }
     }
   }

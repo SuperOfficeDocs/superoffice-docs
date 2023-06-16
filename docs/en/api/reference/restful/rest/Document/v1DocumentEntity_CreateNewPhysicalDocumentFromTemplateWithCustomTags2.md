@@ -1,6 +1,7 @@
 ---
 title: POST Document/{id}/Content
 uid: v1DocumentEntity_CreateNewPhysicalDocumentFromTemplateWithCustomTags2
+generated: true
 ---
 
 # POST Document/{id}/Content
@@ -36,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=690
-POST /api/v1/Document/{documentId}/Content?personId=647
-POST /api/v1/Document/{documentId}/Content?appointmentId=80
-POST /api/v1/Document/{documentId}/Content?saleId=997
-POST /api/v1/Document/{documentId}/Content?selectionId=676
-POST /api/v1/Document/{documentId}/Content?projectId=774
-POST /api/v1/Document/{documentId}/Content?uiCulture=non
+POST /api/v1/Document/{documentId}/Content?contactId=772
+POST /api/v1/Document/{documentId}/Content?personId=587
+POST /api/v1/Document/{documentId}/Content?appointmentId=274
+POST /api/v1/Document/{documentId}/Content?saleId=487
+POST /api/v1/Document/{documentId}/Content?selectionId=435
+POST /api/v1/Document/{documentId}/Content?projectId=698
+POST /api/v1/Document/{documentId}/Content?uiCulture=tenetur
 ```
 
 
@@ -120,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -130,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 911,
+  "DocumentId": 423,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sed",
-  "Header": "quas",
-  "Name": "Schamberger, Beier and Marquardt",
-  "OurRef": "aperiam",
-  "YourRef": "consequuntur",
-  "CreatedDate": "2020-07-26T03:51:33.645969+02:00",
-  "UpdatedDate": "2021-09-28T03:51:33.645969+02:00",
-  "Description": "Decentralized maximized installation",
+  "Attention": "est",
+  "Header": "aut",
+  "Name": "Yost LLC",
+  "OurRef": "suscipit",
+  "YourRef": "est",
+  "CreatedDate": "2021-01-22T16:00:47.9303311+01:00",
+  "UpdatedDate": "2012-04-16T16:00:47.9303311+02:00",
+  "Description": "Focused web-enabled ability",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-01-20T03:51:33.645969+01:00",
-  "ExternalRef": "nobis",
+  "Date": "2000-01-24T16:00:47.9303311+01:00",
+  "ExternalRef": "voluptatem",
   "Completed": "Completed",
-  "ActiveLinks": 44,
+  "ActiveLinks": 217,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Walsh, Schmitt and Hickle",
-      "Id": 22,
-      "Description": "Grass-roots responsive standardization",
-      "ExtraInfo": "blanditiis",
-      "LinkId": 720,
+      "EntityName": "Bradtke-Parker",
+      "Id": 859,
+      "Description": "Public-key needs-based concept",
+      "ExtraInfo": "unde",
+      "LinkId": 267,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldLength": 582
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 108,
-  "Snum": 533,
+  "SuggestedDocumentId": 9,
+  "Snum": 828,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Edythe Wuckert"
+    "SuperOffice:1": "Adelia Walsh",
+    "SuperOffice:2": "Dr. Wilson Predovic"
   },
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "dignissimos"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "deserunt",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2003-07-15T03:51:33.645969+02:00",
-  "PublishTo": "2011-05-21T03:51:33.645969+02:00",
-  "PublishFrom": "1998-01-26T03:51:33.645969+01:00",
+  "PublishEventDate": "2008-03-29T16:00:47.9303311+01:00",
+  "PublishTo": "2001-11-27T16:00:47.9303311+01:00",
+  "PublishFrom": "2004-01-04T16:00:47.9303311+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 767,
+      "VisibleId": 204,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 556
+          "FieldType": "System.Int32",
+          "FieldLength": 191
         }
       }
     },
     {
-      "VisibleId": 767,
+      "VisibleId": 204,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 556
+          "FieldType": "System.Int32",
+          "FieldLength": 191
         }
       }
     }
@@ -221,7 +222,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 566
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryTerm/Items/Default
 uid: v1DeliveryTermsList_CreateDefaultDeliveryTerm
+generated: true
 ---
 
 # GET List/DeliveryTerm/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 618,
-  "Name": "Kessler Group",
+  "Id": 940,
+  "Name": "Champlin LLC",
   "Tooltip": "soluta",
-  "Deleted": true,
-  "UdListDefinitionId": 603,
+  "Deleted": false,
+  "UdListDefinitionId": 435,
   "Rank": 487,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldLength": 341
     }
   }
 }

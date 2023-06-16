@@ -1,6 +1,7 @@
 ---
 title: POST Agents/TimeZone/TimeOfLastTimeZoneUpdate
 uid: v1TimeZoneAgent_TimeOfLastTimeZoneUpdate
+generated: true
 ---
 
 # POST Agents/TimeZone/TimeOfLastTimeZoneUpdate
@@ -68,5 +69,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2011-05-30T03:51:28.4276928+02:00"
+"2009-10-10T16:00:42.2581348+02:00"
 ```

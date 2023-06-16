@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/ValidateTriggerScript
 uid: v1CRMScriptAgent_ValidateTriggerScript
+generated: true
 ---
 
 # POST Agents/CRMScript/ValidateTriggerScript
@@ -82,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptId": 697
+  "TriggerScriptId": 980
 }
 ```
 
@@ -94,13 +95,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "est",
+  "ErrorMessage": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldLength": 703
     }
   }
 }

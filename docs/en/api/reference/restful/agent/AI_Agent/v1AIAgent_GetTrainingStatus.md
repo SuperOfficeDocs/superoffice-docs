@@ -1,6 +1,7 @@
 ---
 title: POST Agents/AI/GetTrainingStatus
 uid: v1AIAgent_GetTrainingStatus
+generated: true
 ---
 
 # POST Agents/AI/GetTrainingStatus
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/AI/GetTrainingStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,16 +78,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContextIdentifier": "modi",
-  "Status": "facere",
+  "ContextIdentifier": "numquam",
+  "Status": "doloribus",
   "CurrentModel": null,
   "PreviousModel": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldType": "System.String",
+      "FieldLength": 909
     }
   }
 }

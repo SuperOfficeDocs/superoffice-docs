@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentTerm/Items
 uid: v1PaymentTermsList_GetAll
+generated: true
 ---
 
 # GET List/PaymentTerm/Items
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Harber-Koelpin",
-    "Tooltip": "est",
+    "Id": 344,
+    "Name": "Schneider-Purdy",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 653,
-    "Rank": 753,
+    "UdListDefinitionId": 486,
+    "Rank": 127,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldType": "System.String",
+        "FieldLength": 235
       }
     }
   }

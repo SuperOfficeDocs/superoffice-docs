@@ -1,6 +1,7 @@
 ---
 title: GET List/DocumentTemplate/Items/{id}/Extension
 uid: v1DocumentTemplateList_GetDocumentTemplateExtension
+generated: true
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Extension
@@ -62,5 +63,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptas"
+"quia"
 ```

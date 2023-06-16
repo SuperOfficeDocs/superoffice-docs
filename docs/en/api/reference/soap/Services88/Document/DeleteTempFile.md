@@ -1,6 +1,6 @@
 ---
 title: Services88.DocumentAgent.DeleteTempFile SOAP
-generated: 1
+generated: true
 uid: Services88-Document-DeleteTempFile
 ---
 

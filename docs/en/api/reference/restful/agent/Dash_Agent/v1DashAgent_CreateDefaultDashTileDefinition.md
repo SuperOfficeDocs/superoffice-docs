@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/CreateDefaultDashTileDefinition
 uid: v1DashAgent_CreateDefaultDashTileDefinition
+generated: true
 ---
 
 # POST Agents/Dash/CreateDefaultDashTileDefinition
@@ -74,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 296,
-  "Name": "Gleason, Heidenreich and Waelchi",
-  "Description": "Networked systematic support",
-  "DefaultHeight": 314,
-  "DefaultWidth": 641,
+  "DashboardTileDefinitionId": 880,
+  "Name": "Johnston, Kling and Fisher",
+  "Description": "Down-sized intermediate strategy",
+  "DefaultHeight": 48,
+  "DefaultWidth": 213,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "McGlynn, Jaskolski and Borer",
-  "SelectionId": 194,
+  "EntityName": "Boyle-Pacocha",
+  "SelectionId": 185,
   "CurrencyMode": "Base",
-  "CurrencyCode": "est",
+  "CurrencyCode": "iure",
   "Measure": "Average",
-  "MeasureField": "sint",
-  "SortBy": "dolorem",
-  "LayoutConfig": "est",
-  "SecondarySelectionId": 10,
-  "MeasureByField": "rerum",
+  "MeasureField": "atque",
+  "SortBy": "minus",
+  "LayoutConfig": "quia",
+  "SecondarySelectionId": 735,
+  "MeasureByField": "commodi",
   "Usage": "Dashboard",
-  "ProviderName": "Toy-Thompson",
+  "ProviderName": "Mitchell, Mayert and Braun",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldLength": 413
     }
   }
 }

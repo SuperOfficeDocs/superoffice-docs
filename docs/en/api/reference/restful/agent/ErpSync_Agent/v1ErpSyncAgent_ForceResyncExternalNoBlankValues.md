@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/ForceResyncExternalNoBlankValues
 uid: v1ErpSyncAgent_ForceResyncExternalNoBlankValues
+generated: true
 ---
 
 # POST Agents/ErpSync/ForceResyncExternalNoBlankValues
@@ -88,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 518,
+  "ErpConnectionId": 934,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "quibusdam",
-    "magnam"
+    "non",
+    "odit"
   ]
 }
 ```
@@ -104,10 +105,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "quidem",
-  "TechExplanation": "corrupti",
-  "ErrorCode": "quas",
+  "IsOk": true,
+  "UserExplanation": "ut",
+  "TechExplanation": "rerum",
+  "ErrorCode": "ut",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -115,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 443
+      "FieldLength": 924
     }
   }
 }

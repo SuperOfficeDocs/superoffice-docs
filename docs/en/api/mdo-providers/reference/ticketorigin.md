@@ -1,17 +1,11 @@
 ---
 uid: ticketorigin
 title: ticketorigin
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "ticketorigin"
+keywords: mdoprovider mdo provider ticketorigin
+description: Ticket Origin
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ticketorigin" MDO List

@@ -1,6 +1,7 @@
 ---
 title: PUT PreferenceDescription/{id}
 uid: v1PreferenceDescription_PutPreferenceDescription
+generated: true
 ---
 
 # PUT PreferenceDescription/{id}
@@ -112,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 512,
-  "Section": "et",
-  "Key": "repudiandae",
-  "Name": "Kulas LLC",
+  "PrefDescId": 545,
+  "Section": "eum",
+  "Key": "iusto",
+  "Name": "Kutch-Luettgen",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Progressive regional Graphical User Interface",
+  "Description": "Digitized local infrastructure",
   "IsBuiltin": true,
-  "TableName": "Treutel-Zieme",
-  "UserDefinedListId": 86,
-  "Rank": 778,
-  "SubGroup": "iure",
-  "MinLevel": 157,
-  "MaxValue": 317,
-  "MinValue": 301,
-  "RequiredLicense": "nulla"
+  "TableName": "Zemlak Inc and Sons",
+  "UserDefinedListId": 909,
+  "Rank": 136,
+  "SubGroup": "occaecati",
+  "MinLevel": 862,
+  "MaxValue": 426,
+  "MinValue": 361,
+  "RequiredLicense": "fugit"
 }
 ```
 
@@ -144,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 519,
-  "Section": "ipsum",
-  "Key": "pariatur",
-  "Name": "Ebert-Kerluke",
+  "PrefDescId": 525,
+  "Section": "inventore",
+  "Key": "officiis",
+  "Name": "Wunsch, Romaguera and Emmerich",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Stand-alone executive internet solution",
+  "Description": "Innovative maximized budgetary management",
   "IsBuiltin": true,
-  "TableName": "Ortiz Group",
-  "UserDefinedListId": 661,
-  "Rank": 474,
-  "SubGroup": "velit",
-  "MinLevel": 643,
-  "MaxValue": 360,
-  "MinValue": 939,
-  "RequiredLicense": "quidem",
+  "TableName": "Lubowitz LLC",
+  "UserDefinedListId": 170,
+  "Rank": 44,
+  "SubGroup": "sed",
+  "MinLevel": 216,
+  "MaxValue": 65,
+  "MinValue": 938,
+  "RequiredLicense": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 12
+      "FieldType": "System.String",
+      "FieldLength": 950
     }
   },
   "_Links": {

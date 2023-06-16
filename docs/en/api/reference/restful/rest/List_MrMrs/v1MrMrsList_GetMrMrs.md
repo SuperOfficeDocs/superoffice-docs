@@ -1,6 +1,7 @@
 ---
 title: GET List/MrMrs/Items/{id}
 uid: v1MrMrsList_GetMrMrs
+generated: true
 ---
 
 # GET List/MrMrs/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 906,
-  "Name": "Quitzon-Waelchi",
-  "Tooltip": "ipsum",
+  "Id": 991,
+  "Name": "Yost Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 418,
-  "Rank": 897,
+  "UdListDefinitionId": 681,
+  "Rank": 148,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldType": "System.String",
+      "FieldLength": 877
     }
   }
 }

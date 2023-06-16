@@ -1,6 +1,7 @@
 ---
 title: GET List/{id}/Headings
 uid: v1ListItemEntity_GetHeadingsFromListDefinition
+generated: true
 ---
 
 # GET List/{id}/Headings
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 977,
-    "Name": "Grady, Wyman and Rowe",
-    "Tooltip": "quisquam",
-    "Deleted": true,
-    "Rank": 850,
-    "UdListDefinitionId": 758,
+    "HeadingId": 894,
+    "Name": "Schuster Inc and Sons",
+    "Tooltip": "animi",
+    "Deleted": false,
+    "Rank": 734,
+    "UdListDefinitionId": 666,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 762
+        "FieldType": "System.String",
+        "FieldLength": 467
       }
     }
   }

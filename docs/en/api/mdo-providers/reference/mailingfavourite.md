@@ -1,17 +1,11 @@
 ---
 uid: mailingfavourite
 title: mailingfavourite
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "mailingfavourite"
+keywords: mdoprovider mdo provider mailingfavourite
+description: MDO list provider for Favourites
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "mailingfavourite" MDO List

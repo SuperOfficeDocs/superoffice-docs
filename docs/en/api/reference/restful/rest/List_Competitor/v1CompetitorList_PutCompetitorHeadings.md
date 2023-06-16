@@ -1,6 +1,7 @@
 ---
 title: PUT List/Competitor/Headings
 uid: v1CompetitorList_PutCompetitorHeadings
+generated: true
 ---
 
 # PUT List/Competitor/Headings
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 221,
-    "Name": "Kris-Windler",
-    "Tooltip": "exercitationem",
+    "HeadingId": 527,
+    "Name": "Stroman, Reichert and Christiansen",
+    "Tooltip": "ea",
     "Deleted": true,
-    "Rank": 588,
-    "UdListDefinitionId": 337
+    "Rank": 604,
+    "UdListDefinitionId": 334
   },
   {
-    "HeadingId": 221,
-    "Name": "Kris-Windler",
-    "Tooltip": "exercitationem",
+    "HeadingId": 527,
+    "Name": "Stroman, Reichert and Christiansen",
+    "Tooltip": "ea",
     "Deleted": true,
-    "Rank": 588,
-    "UdListDefinitionId": 337
+    "Rank": 604,
+    "UdListDefinitionId": 334
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 773,
-    "Name": "Hettinger-Koch",
-    "Tooltip": "ipsam",
+    "HeadingId": 120,
+    "Name": "Sawayn LLC",
+    "Tooltip": "minus",
     "Deleted": false,
-    "Rank": 601,
-    "UdListDefinitionId": 777,
+    "Rank": 368,
+    "UdListDefinitionId": 81,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldLength": 556
       }
     }
   }

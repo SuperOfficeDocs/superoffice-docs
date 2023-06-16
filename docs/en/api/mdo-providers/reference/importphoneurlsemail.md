@@ -1,17 +1,11 @@
 ---
 uid: importphoneurlsemail
 title: importphoneurlsemail
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "importphoneurlsemail"
+keywords: mdoprovider mdo provider importphoneurlsemail
+description: Import phone/url/email values: Add, Replace, Skip
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "importphoneurlsemail" MDO List

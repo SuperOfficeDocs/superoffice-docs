@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetMyTasks
 uid: v1AppointmentAgent_GetMyTasks
+generated: true
 ---
 
 # POST Agents/Appointment/GetMyTasks
@@ -113,6 +114,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -122,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 101
+  "Count": 546
 }
 ```
 
@@ -138,61 +142,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 258,
-    "StartDate": "2012-11-14T03:51:26.5375163+01:00",
-    "EndDate": "2013-09-26T03:51:26.5375163+02:00",
+    "AppointmentId": 295,
+    "StartDate": "1998-07-19T16:00:40.0394546+02:00",
+    "EndDate": "2018-11-01T16:00:40.0394546+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quidem",
-    "AssociateFullName": "Serenity Lubowitz",
-    "ContactName": "O'Hara, Feeney and Kutch",
-    "Description": "Cross-platform needs-based policy",
-    "PersonFullName": "Kellen Prosacco",
-    "PersonId": 89,
-    "ContactId": 545,
-    "ProjectId": 360,
-    "ProjectName": "Bauch-Beer",
-    "IsPublished": false,
-    "AssociateId": 149,
-    "ColorIndex": 402,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "et",
+    "AssociateFullName": "Raven Schamberger",
+    "ContactName": "Hills-Stehr",
+    "Description": "Cross-platform hybrid database",
+    "PersonFullName": "Mikel Feeney",
+    "PersonId": 402,
+    "ContactId": 415,
+    "ProjectId": 110,
+    "ProjectName": "Wilkinson-Gorczany",
+    "IsPublished": true,
+    "AssociateId": 690,
+    "ColorIndex": 380,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 468,
-    "PriorityName": "Mitchell LLC",
+    "PriorityId": 132,
+    "PriorityName": "White-Orn",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2012-09-27T03:51:26.5375163+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2021-08-08T16:00:40.0394546+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-07-12T03:51:26.5375163+02:00",
-    "RecurringEndDate": "2020-01-27T03:51:26.5375163+01:00",
-    "MotherId": 949,
-    "AssignedBy": 954,
-    "AssignedByFullName": "Ms. Meaghan Hartmann",
+    "RecurringStartDate": "2022-06-16T16:00:40.0394546+02:00",
+    "RecurringEndDate": "2007-11-29T16:00:40.0394546+01:00",
+    "MotherId": 593,
+    "AssignedBy": 493,
+    "AssignedByFullName": "Daisha Wiza",
     "RejectReason": "",
-    "Location": "quam",
-    "AlarmLeadTime": "nostrum",
-    "SaleId": 562,
-    "SaleName": "Bode LLC",
-    "AssociateName": "Hayes-Strosin",
-    "CreatedDate": "2018-12-22T03:51:26.5375163+01:00",
-    "CreatedBy": "reprehenderit",
-    "CreatedByFullName": "Prof. Bryana Denesik IV",
-    "CreatedByAssociateId": 76,
+    "Location": "laboriosam",
+    "AlarmLeadTime": "occaecati",
+    "SaleId": 622,
+    "SaleName": "Mohr, Maggio and Wintheiser",
+    "AssociateName": "Hoppe-Rath",
+    "CreatedDate": "2019-08-21T16:00:40.0394546+02:00",
+    "CreatedBy": "consequuntur",
+    "CreatedByFullName": "Krystina Lynn Hauck DVM",
+    "CreatedByAssociateId": 388,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "corporis",
+    "Agenda": "dolores",
+    "InternalNotes": "ullam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldType": "System.Int32",
+        "FieldLength": 144
       }
     }
   }

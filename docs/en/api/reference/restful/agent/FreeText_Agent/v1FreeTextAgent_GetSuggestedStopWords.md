@@ -1,6 +1,7 @@
 ---
 title: POST Agents/FreeText/GetSuggestedStopWords
 uid: v1FreeTextAgent_GetSuggestedStopWords
+generated: true
 ---
 
 # POST Agents/FreeText/GetSuggestedStopWords
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 388
+  "CountWords": 12
 }
 ```
 
@@ -99,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Kertzmann, Buckridge and Herman",
-    "ToolTip": "Necessitatibus voluptatem.",
-    "Deleted": false,
-    "Rank": 900,
-    "Type": "reprehenderit",
+    "Id": 338,
+    "Name": "Kunze Inc and Sons",
+    "ToolTip": "Amet tenetur tenetur est ducimus mollitia.",
+    "Deleted": true,
+    "Rank": 606,
+    "Type": "repellendus",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Hessel, Rogahn and Feeney",
-        "ToolTip": "Quae velit nihil sint reiciendis aperiam nam.",
+        "Id": 712,
+        "Name": "Cummings-Heidenreich",
+        "ToolTip": "Animi non.",
         "Deleted": true,
-        "Rank": 925,
-        "Type": "sed",
+        "Rank": 152,
+        "Type": "dolore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 661,
-        "ExtraInfo": "quos",
-        "StyleHint": "eligendi",
-        "FullName": "Janis Buckridge",
+        "IconHint": "fuga",
+        "ColorBlock": 896,
+        "ExtraInfo": "sapiente",
+        "StyleHint": "dolorem",
+        "FullName": "Ibrahim Schaden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 329
+            "FieldType": "System.String",
+            "FieldLength": 507
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 475,
-    "ExtraInfo": "quo",
-    "StyleHint": "fugit",
-    "FullName": "Dr. Hillard Dickinson V",
+    "IconHint": "distinctio",
+    "ColorBlock": 707,
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "doloribus",
+    "FullName": "Dr. Elta Tristian Harvey V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 982
       }
     }
   }

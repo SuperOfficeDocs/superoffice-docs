@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Favourite/RemoveFavouritesById
 uid: v1FavouriteAgent_RemoveFavouritesById
+generated: true
 ---
 
 # POST Agents/Favourite/RemoveFavouritesById
@@ -63,13 +64,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavouritesById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FavouriteIds": [
-    63,
-    367
+    773,
+    147
   ]
 }
 ```

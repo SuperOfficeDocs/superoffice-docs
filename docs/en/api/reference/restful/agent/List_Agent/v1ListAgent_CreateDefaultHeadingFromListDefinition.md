@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultHeadingFromListDefinition
 uid: v1ListAgent_CreateDefaultHeadingFromListDefinition
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultHeadingFromListDefinition
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 664
+  "UdListDefinitionId": 14
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 998,
-  "Name": "Okuneva Inc and Sons",
-  "Tooltip": "autem",
+  "HeadingId": 764,
+  "Name": "Rau-Berge",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 631,
-  "UdListDefinitionId": 638,
+  "Rank": 51,
+  "UdListDefinitionId": 806,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 457
     }
   }
 }

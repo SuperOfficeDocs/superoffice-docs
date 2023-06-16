@@ -1,6 +1,7 @@
 ---
 title: GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{id}/Value
 uid: v1ForeignAppEntity_GetKeyValue
+generated: true
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{id}/Value
@@ -59,7 +60,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}/Value
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,5 +69,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"tenetur"
+"fuga"
 ```

@@ -1,17 +1,11 @@
 ---
 uid: htmlmailing
 title: htmlmailing
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "htmlmailing"
+keywords: mdoprovider mdo provider htmlmailing
+description: MDO provider for the different types of Mailings
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "htmlmailing" MDO List

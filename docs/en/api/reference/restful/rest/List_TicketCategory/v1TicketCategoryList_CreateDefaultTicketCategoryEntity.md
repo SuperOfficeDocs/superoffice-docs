@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketCategory/Items/Default
 uid: v1TicketCategoryList_CreateDefaultTicketCategoryEntity
+generated: true
 ---
 
 # GET List/TicketCategory/Items/Default
@@ -81,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 928,
-  "ParentId": 522,
-  "Name": "Hoppe, Windler and Haag",
-  "Fullname": "quisquam",
-  "CategoryMaster": 77,
+  "TicketCategoryId": 666,
+  "ParentId": 667,
+  "Name": "Gorczany, Ullrich and O'Reilly",
+  "Fullname": "debitis",
+  "CategoryMaster": 8,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Lebsack Inc and Sons",
+  "ExternalName": "Morissette, Walker and Gorczany",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 491,
-  "ReplyTemplate": 485,
-  "NotificationEmail": "dusty.christiansen@keeling.name",
+  "AssignmentLag": 361,
+  "ReplyTemplate": 219,
+  "NotificationEmail": "micaela@littel.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 24,
+  "EffectiveReplyTemplateId": 331,
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "perspiciatis",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "quam",
+    "CustomFields2": "facilis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldType": "System.String",
+      "FieldLength": 794
     }
   }
 }

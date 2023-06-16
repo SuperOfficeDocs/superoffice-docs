@@ -1,6 +1,6 @@
 ---
 title: Services88.AudienceAgent.GetDefaultProjectImage SOAP
-generated: 1
+generated: true
 uid: Services88-Audience-GetDefaultProjectImage
 ---
 

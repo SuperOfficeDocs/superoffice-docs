@@ -1,6 +1,6 @@
 ---
 title: Services88.BulkUpdateAgent.GetAvailableFields SOAP
-generated: 1
+generated: true
 uid: Services88-BulkUpdate-GetAvailableFields
 ---
 

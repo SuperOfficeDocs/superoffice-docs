@@ -1,6 +1,6 @@
 ---
 title: Services88.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId SOAP
-generated: 1
+generated: true
 uid: Services88-ForeignSystem-GetDeviceKeysOnDeviceIdentifierTableRecordId
 ---
 
@@ -69,8 +69,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
      <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
      <ForeignSystem:RecordId xsi:type="xsd:int">0</ForeignSystem:RecordId>
-     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2023-05-25T11:09:18Z</ForeignSystem:CreatedDate>
-     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2023-05-25T11:09:18Z</ForeignSystem:UpdatedDate>
+     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2023-06-09T13:59:20Z</ForeignSystem:CreatedDate>
+     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2023-06-09T13:59:20Z</ForeignSystem:UpdatedDate>
      <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
      <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
      <ForeignSystem:TableName xsi:type="xsd:string"></ForeignSystem:TableName>

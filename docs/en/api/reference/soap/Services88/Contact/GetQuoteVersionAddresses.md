@@ -1,6 +1,6 @@
 ---
 title: Services88.ContactAgent.GetQuoteVersionAddresses SOAP
-generated: 1
+generated: true
 uid: Services88-Contact-GetQuoteVersionAddresses
 ---
 

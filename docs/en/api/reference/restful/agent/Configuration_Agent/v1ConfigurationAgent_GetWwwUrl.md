@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetWwwUrl
 uid: v1ConfigurationAgent_GetWwwUrl
+generated: true
 ---
 
 # POST Agents/Configuration/GetWwwUrl
@@ -71,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Client": "iste"
+  "Client": "omnis"
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: PATCH ChatSession/{id}
 uid: v1ChatSessionEntity_PatchChatSessionEntity
+generated: true
 ---
 
 # PATCH ChatSession/{id}
@@ -137,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "expedita",
+    "path": "rem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "expedita",
+    "path": "rem",
     "value": {}
   }
 ]
@@ -161,43 +162,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 782,
-  "TopicId": 102,
+  "ChatSessionId": 742,
+  "TopicId": 614,
   "User": null,
   "Person": null,
-  "CustomerAlias": "exercitationem",
-  "CustomerHost": "excepturi",
-  "CustomerName": "Ledner, Langosh and Hegmann",
-  "CustomerEmail": "dorcas.jacobi@cronin.ca",
-  "CustomerPhone": "(958)984-7779",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Rogahn Group",
+  "CustomerAlias": "explicabo",
+  "CustomerHost": "ut",
+  "CustomerName": "Klein Inc and Sons",
+  "CustomerEmail": "dandre.ullrich@hegmann.com",
+  "CustomerPhone": "1-397-649-2268 x70431",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Stoltenberg Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "asperiores",
-  "LastMessage": "atque",
-  "WhenRequested": "2016-05-21T03:51:33.161706+02:00",
-  "WhenStarted": "2002-02-07T03:51:33.161706+01:00",
-  "WhenEnded": "2008-08-26T03:51:33.161706+02:00",
-  "WhenIdle": "2000-07-20T03:51:33.161706+02:00",
-  "WhenFetched": "2007-09-11T03:51:33.161706+02:00",
-  "SessionKey": "unde",
-  "InitialQueuePos": 938,
-  "AlertLevel": 354,
-  "Rank": 371,
+  "FirstMessage": "consequatur",
+  "LastMessage": "nesciunt",
+  "WhenRequested": "2012-06-15T16:00:47.570999+02:00",
+  "WhenStarted": "2022-01-27T16:00:47.570999+01:00",
+  "WhenEnded": "2000-01-15T16:00:47.570999+01:00",
+  "WhenIdle": "2018-10-02T16:00:47.570999+02:00",
+  "WhenFetched": "2016-05-06T16:00:47.570999+02:00",
+  "SessionKey": "accusantium",
+  "InitialQueuePos": 66,
+  "AlertLevel": 236,
+  "Rank": 813,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 330,
+  "ChatbotIsActive": true,
+  "Rating": 967,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldType": "System.String",
+      "FieldLength": 28
     }
   },
   "_Links": {

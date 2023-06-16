@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProjectType/Items/{id}
 uid: v1ProjectTypeList_PutProjectType
+generated: true
 ---
 
 # PUT List/ProjectType/Items/{id}
@@ -81,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 681,
-  "Name": "Sauer, O'Connell and Rowe",
-  "Tooltip": "consectetur",
-  "Deleted": true,
-  "UdListDefinitionId": 86,
-  "Rank": 986
+  "Id": 504,
+  "Name": "Gerhold-Swift",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 57,
+  "Rank": 48
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 597,
-  "Name": "Muller-Moen",
-  "Tooltip": "reprehenderit",
-  "Deleted": true,
-  "UdListDefinitionId": 73,
-  "Rank": 120,
+  "Id": 320,
+  "Name": "Wyman LLC",
+  "Tooltip": "hic",
+  "Deleted": false,
+  "UdListDefinitionId": 223,
+  "Rank": 31,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 549
     }
   }
 }

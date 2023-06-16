@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/GetBatchTaskInfo
 uid: v1BatchAgent_GetBatchTaskInfo
+generated: true
 ---
 
 # POST Agents/Batch/GetBatchTaskInfo
@@ -97,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 590
+  "Id": 527
 }
 ```
 
@@ -108,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 724,
-  "Name": "Homenick, Moen and Schumm",
-  "AssociateId": 118,
-  "DetailsTable": 595,
-  "DetailsRecord": 849,
-  "IsSystemTask": false,
+  "Id": 52,
+  "Name": "Mueller-Lesch",
+  "AssociateId": 193,
+  "DetailsTable": 767,
+  "DetailsRecord": 389,
+  "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "qui",
+    "ParameterObject1": "quam",
     "ParameterObject2": "aut"
   },
-  "LastStarted": "2000-04-03T03:51:26.5999985+02:00",
-  "Created": "2020-10-31T03:51:26.5999985+01:00",
-  "StartCount": 702,
-  "DatabaseSerialNumber": "1262458",
-  "Context": "sapiente",
-  "Result": "quia",
+  "LastStarted": "2014-12-21T16:00:40.1019505+01:00",
+  "Created": "2006-09-27T16:00:40.1019505+02:00",
+  "StartCount": 490,
+  "DatabaseSerialNumber": "1512025",
+  "Context": "autem",
+  "Result": "est",
   "State": "All",
-  "Description": "Public-key mission-critical alliance",
-  "Response": "ducimus",
-  "Request": "placeat",
-  "ProgressDescription": "Distributed incremental ability",
-  "ProgressPercent": 85,
-  "FileName": "Gorczany-Lind",
+  "Description": "Horizontal mobile info-mediaries",
+  "Response": "similique",
+  "Request": "rerum",
+  "ProgressDescription": "Profound bottom-line attitude",
+  "ProgressPercent": 471,
+  "FileName": "Terry, Borer and Willms",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 149
+      "FieldType": "System.Int32",
+      "FieldLength": 546
     }
   }
 }

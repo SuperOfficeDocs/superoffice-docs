@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Diagnostics/ChangeLogSettings
 uid: v1DiagnosticsAgent_ChangeLogSettings
+generated: true
 ---
 
 # POST Agents/Diagnostics/ChangeLogSettings
@@ -70,18 +71,18 @@ No Content
 POST /api/v1/Agents/Diagnostics/ChangeLogSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "LogWarning": true,
-  "LogInformation": true,
+  "LogInformation": false,
   "LogSuccessAudit": false,
-  "LogFailureAudit": true,
-  "LogToEventLog": false,
-  "LogToSuperOffice": false,
-  "LogToFile": true,
-  "LogToTrace": true
+  "LogFailureAudit": false,
+  "LogToEventLog": true,
+  "LogToSuperOffice": true,
+  "LogToFile": false,
+  "LogToTrace": false
 }
 ```
 

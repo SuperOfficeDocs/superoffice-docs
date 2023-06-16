@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/RelayMessage
 uid: v1EMailAgent_RelayMessage
+generated: true
 ---
 
 # POST Agents/EMail/RelayMessage
@@ -73,11 +74,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": null,
-  "Rfc822": "quaerat",
-  "From": "quae",
+  "Rfc822": "autem",
+  "From": "et",
   "Recipients": [
-    "nam",
-    "rem"
+    "illum",
+    "dicta"
   ]
 }
 ```

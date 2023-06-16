@@ -2,17 +2,10 @@
 uid: InnerSelectionStaticContactProvider
 title: InnerSelectionStaticContactProvider
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "InnerSelectionStaticContactProvider"
+keywords: InnerSelectionStaticContactProvider archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "InnerSelectionStaticContactProvider"
@@ -126,6 +119,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactAssociate/role|listAny|Role : Role| x |
 |contactAssociate/assocName|associate|User ID : User ID| x |
 |contactAssociate/assocTooltip|string|Description : Description|  |
@@ -226,6 +223,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sourceRelation/registeredDate|date|Source - Registered date: The date/time the data was registered in UTC.| x |
 |sourceRelation/contactSource|listAny|Source - Source: Source (Company)| x |
 |sourceRelation/contactDeleted|bool|Source - Deleted: Deleted| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sourceRelation/activeErpLinks|bool|Source - ERP connected: Is there an active ERP Sync?| x |
 |sourceRelation/deletedDate|datetime|Source - Deleted date: Deleted date|  |
 |sourceRelation/mainContact| *None* |Source - Main contact: Main contact for this company| x |
@@ -326,6 +327,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/associateDbId|associate|ID| x |
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -426,6 +431,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointment/associate/contactCategory|listAny|Category: Category| x |
 |appointment/associate/role|listAny|Role : Role| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/associate/assocName|associate|User ID : User ID| x |
 |appointment/associate/assocTooltip|string|Description : Description|  |
 |appointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
@@ -526,6 +535,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle name: Displays the contact's middle name.| x |
 |fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |position|listAny|Position| x |
@@ -615,7 +628,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=targetRelation/name,sale/projectId,sale/visibleFor,document/associate/isActive,personUpdatedByFullName
+GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=postAddress/city,postAddress/zip,targetRelation/activeErpLinks,appointment/associate/middleName,document/associate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

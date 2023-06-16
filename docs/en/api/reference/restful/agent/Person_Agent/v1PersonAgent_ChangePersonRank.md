@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/ChangePersonRank
 uid: v1PersonAgent_ChangePersonRank
+generated: true
 ---
 
 # POST Agents/Person/ChangePersonRank
@@ -74,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 483,
-  "MoveUp": false
+  "PersonId": 671,
+  "MoveUp": true
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-503
+765
 ```

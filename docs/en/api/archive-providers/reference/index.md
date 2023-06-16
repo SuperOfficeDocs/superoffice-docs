@@ -2,16 +2,10 @@
 uid: archiveproviderslist
 title: Archive Provider List
 description: This is a list of all the valid provider names, and the associated column names and types.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
+keywords: archive providers
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # Archive Providers
@@ -118,6 +112,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [Ejscripts](Ejscripts.md)
 * [EmailAddress](EmailAddress.md)
 * [emailcontactaddress](emailcontactaddress.md)
+* [EmailFlowContent](EmailFlowContent.md)
 * [EmailFlowFolders](EmailFlowFolders.md)
 * [EmailFlowInstances](EmailFlowInstances.md)
 * [EmailFlows](EmailFlows.md)
@@ -131,7 +126,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [EventHandler](EventHandler.md)
 * [ExistingCategoryMembers](ExistingCategoryMembers.md)
 * [ExplicitInvitation](ExplicitInvitation.md)
-* [externaldocumentfolder](externaldocumentfolder.md)
+* [externaldocumentfolders](externaldocumentfolders.md)
 * [externaldocumentitems](externaldocumentitems.md)
 * [externaldocuments](externaldocuments.md)
 * [ExternalPersons](ExternalPersons.md)

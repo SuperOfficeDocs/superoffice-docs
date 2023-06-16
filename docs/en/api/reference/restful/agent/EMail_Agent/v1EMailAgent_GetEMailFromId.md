@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetEMailFromId
 uid: v1EMailAgent_GetEMailFromId
+generated: true
 ---
 
 # POST Agents/EMail/GetEMailFromId
@@ -103,15 +104,15 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 339,
-  "LookupAddresses": true,
+  "MessageServerId": 125,
+  "LookupAddresses": false,
   "Flags": "Answered",
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -124,155 +125,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 798,
-      "ContactName": "Dare, Bartoletti and Russel",
-      "PersonId": 462,
-      "PersonName": "Feil Inc and Sons",
-      "AssociateId": 827,
-      "Address": "odit",
-      "EmailId": 471,
+      "ContactId": 438,
+      "ContactName": "Grant, Turner and Adams",
+      "PersonId": 888,
+      "PersonName": "Steuber, Mayer and Carter",
+      "AssociateId": 179,
+      "Address": "voluptatem",
+      "EmailId": 391,
       "DuplicatePersonIds": [
-        829,
-        483
+        555,
+        702
       ],
-      "Name": "Steuber-Dickinson",
+      "Name": "Romaguera, Rodriguez and Senger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 176
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 49,
-      "ContactName": "Hansen Group",
-      "PersonId": 997,
-      "PersonName": "Roberts-Stroman",
-      "AssociateId": 285,
-      "Address": "reprehenderit",
-      "EmailId": 912,
+      "ContactId": 179,
+      "ContactName": "Lang-Gottlieb",
+      "PersonId": 9,
+      "PersonName": "Beier, Lesch and Auer",
+      "AssociateId": 774,
+      "Address": "delectus",
+      "EmailId": 963,
       "DuplicatePersonIds": [
-        280,
-        657
+        90,
+        1001
       ],
-      "Name": "Orn, Kuphal and Cassin",
+      "Name": "Bednar, Leffler and Hilll",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 469
+          "FieldType": "System.Int32",
+          "FieldLength": 352
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 6,
-      "ContactName": "Kshlerin, Spinka and Pagac",
-      "PersonId": 700,
-      "PersonName": "Bauch Inc and Sons",
-      "AssociateId": 724,
-      "Address": "fuga",
-      "EmailId": 427,
+      "ContactId": 989,
+      "ContactName": "McCullough-Kautzer",
+      "PersonId": 968,
+      "PersonName": "Bartell, Swift and Quitzon",
+      "AssociateId": 401,
+      "Address": "velit",
+      "EmailId": 594,
       "DuplicatePersonIds": [
-        367,
-        997
+        703,
+        426
       ],
-      "Name": "Hayes, Beatty and Orn",
+      "Name": "Eichmann-Nikolaus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 475
+          "FieldType": "System.Int32",
+          "FieldLength": 36
         }
       }
     }
   ],
-  "Subject": "similique",
-  "HTMLBody": "ad",
+  "Subject": "ducimus",
+  "HTMLBody": "qui",
   "From": null,
-  "Sent": "2008-12-27T03:51:27.2248494+01:00",
-  "Size": 452,
+  "Sent": "2011-02-06T16:00:40.9299854+01:00",
+  "Size": 616,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "laboriosam",
-  "PlainBody": "aperiam",
+  "MessageID": "et",
+  "PlainBody": "aut",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 561,
+  "ServerId": 403,
   "Attachments": [
     {
-      "Description": "Expanded radical infrastructure",
+      "Description": "Vision-oriented intermediate migration",
       "Filename": "blanditiis",
-      "Size": 55,
-      "Type": "beatae",
-      "Encoding": "provident",
-      "Id": "dolore",
-      "Disposition": "optio",
+      "Size": 404,
+      "Type": "consequatur",
+      "Encoding": "nam",
+      "Id": "illum",
+      "Disposition": "sint",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 61
+          "FieldType": "System.Int32",
+          "FieldLength": 479
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Friesen, O'Connell and Bradtke",
+      "Name": "Koss Inc and Sons",
       "Values": [
-        "deleniti",
-        "id"
+        "qui",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 108
+          "FieldType": "System.Int32",
+          "FieldLength": 267
         }
       }
     },
     {
-      "Name": "Friesen, O'Connell and Bradtke",
+      "Name": "Koss Inc and Sons",
       "Values": [
-        "deleniti",
-        "id"
+        "qui",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 108
+          "FieldType": "System.Int32",
+          "FieldLength": 267
         }
       }
     }
   ],
-  "FolderName": "Koepp, Boyer and Hackett",
-  "EmailItemId": 361,
-  "AccountId": 870,
-  "ReceivedAt": "2001-07-18T03:51:27.2248494+02:00",
+  "FolderName": "Reichert, Walsh and Reynolds",
+  "EmailItemId": 880,
+  "AccountId": 452,
+  "ReceivedAt": "2021-01-01T16:00:40.9299854+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1997-04-18T03:51:27.2248494+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2010-12-29T16:00:40.9299854+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldType": "System.String",
+      "FieldLength": 458
     }
   }
 }

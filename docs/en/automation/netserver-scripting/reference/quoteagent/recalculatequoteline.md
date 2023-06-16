@@ -3,13 +3,9 @@ uid: quoteagent-recalculatequoteline
 title: QuoteAgent.RecalculateQuoteLine event method
 description: Scripting events called on the RecalculateQuoteLine method on the QuoteAgent service agent.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 # QuoteAgent.RecalculateQuoteLine
 

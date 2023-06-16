@@ -1,5 +1,6 @@
 ---
 title: DashTileDefinition
+generated: true
 ---
 
 ```http

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/SetConsent
 uid: v1PersonAgent_SetConsent
+generated: true
 ---
 
 # POST Agents/Person/SetConsent
@@ -71,11 +72,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 459,
-  "Purpose": "velit",
-  "Source": "officiis",
-  "LegalBase": "sit",
-  "Comment": "et"
+  "PersonId": 490,
+  "Purpose": "amet",
+  "Source": "temporibus",
+  "LegalBase": "et",
+  "Comment": "iure"
 }
 ```
 

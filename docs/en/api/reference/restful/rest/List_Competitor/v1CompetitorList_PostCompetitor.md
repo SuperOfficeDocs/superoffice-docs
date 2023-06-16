@@ -1,6 +1,7 @@
 ---
 title: POST List/Competitor/Items
 uid: v1CompetitorList_PostCompetitor
+generated: true
 ---
 
 # POST List/Competitor/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "Name": "Hackett, Brakus and Bode",
-  "Tooltip": "laborum",
-  "Deleted": false,
-  "UdListDefinitionId": 261,
-  "Rank": 439
+  "Id": 719,
+  "Name": "Goodwin-Zboncak",
+  "Tooltip": "in",
+  "Deleted": true,
+  "UdListDefinitionId": 208,
+  "Rank": 320
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 617,
-  "Name": "Schneider Group",
-  "Tooltip": "veritatis",
+  "Id": 993,
+  "Name": "Heidenreich, Stanton and Mills",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "UdListDefinitionId": 212,
-  "Rank": 784,
+  "UdListDefinitionId": 340,
+  "Rank": 402,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldLength": 235
     }
   }
 }

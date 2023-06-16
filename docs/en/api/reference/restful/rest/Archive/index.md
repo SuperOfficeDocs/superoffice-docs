@@ -1,5 +1,6 @@
 ---
 title: Archive
+generated: true
 ---
 
 ```http

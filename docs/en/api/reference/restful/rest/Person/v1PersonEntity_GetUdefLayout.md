@@ -1,6 +1,7 @@
 ---
 title: GET Person/UdefLayout
 uid: v1PersonEntity_GetUdefLayout
+generated: true
 ---
 
 # GET Person/UdefLayout
@@ -89,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 201,
-    "ColumnId": 29,
-    "FieldDefault": "quam",
-    "FieldHeight": 955,
-    "FieldLabel": "eos",
-    "FieldLeft": 698,
-    "FieldTop": 732,
+    "UDefFieldId": 100,
+    "ColumnId": 103,
+    "FieldDefault": "sint",
+    "FieldHeight": 640,
+    "FieldLabel": "non",
+    "FieldLeft": 322,
+    "FieldTop": 290,
     "FieldType": "Checkbox",
-    "FieldWidth": 427,
-    "FormatMask": "quas",
-    "HideLabel": true,
+    "FieldWidth": 441,
+    "FormatMask": "odio",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 367,
-    "LabelLeft": 107,
-    "LabelTop": 859,
-    "LabelWidth": 210,
-    "LastVersionId": 367,
-    "ListTableId": 610,
+    "LabelHeight": 12,
+    "LabelLeft": 256,
+    "LabelTop": 255,
+    "LabelWidth": 843,
+    "LastVersionId": 801,
+    "ListTableId": 735,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 166,
-    "ProgId": "officiis",
+    "Page1LineNo": 235,
+    "ProgId": "eum",
     "IsReadOnly": false,
-    "ShortLabel": "nisi",
-    "TabOrder": 126,
-    "TextLength": 752,
-    "Tooltip": "voluptas",
-    "UdefIdentity": 257,
-    "UDListDefinitionId": 968,
+    "ShortLabel": "omnis",
+    "TabOrder": 409,
+    "TextLength": 325,
+    "Tooltip": "sunt",
+    "UdefIdentity": 528,
+    "UDListDefinitionId": 384,
     "Justification": "Center",
-    "Version": 887,
-    "TemplateVariableName": "West, Paucek and Kassulke",
-    "HasBeenPublished": true,
-    "MdoListName": "Pagac-Schinner",
+    "Version": 696,
+    "TemplateVariableName": "Gleason Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Hegmann LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldLength": 185
       }
     }
   }

@@ -1,5 +1,5 @@
 ---
-generated: 1
+generated: true
 uid: wsdl-Services88-MDO
 title: Services88.MDOAgent WSDL
 ---

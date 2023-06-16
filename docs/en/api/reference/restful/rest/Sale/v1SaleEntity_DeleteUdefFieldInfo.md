@@ -1,6 +1,7 @@
 ---
 title: DEL Sale/UdefLayout/{progidOrLabel}
 uid: v1SaleEntity_DeleteUdefFieldInfo
+generated: true
 ---
 
 # DEL Sale/UdefLayout/{progidOrLabel}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

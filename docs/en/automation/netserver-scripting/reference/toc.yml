@@ -297,6 +297,8 @@ items:
     href: associateagent/getassociatelist.md
   - name: GetAssociatesByGroup
     href: associateagent/getassociatesbygroup.md
+  - name: GetEncryptionKey
+    href: associateagent/getencryptionkey.md
   - name: GetNote
     href: associateagent/getnote.md
   - name: LogOffWindowsUsers
@@ -3283,6 +3285,8 @@ items:
     href: ticketagent/clearnotify.md
   - name: CopyFromCRMDocument
     href: ticketagent/copyfromcrmdocument.md
+  - name: CopyToTempFile
+    href: ticketagent/copytotempfile.md
   - name: CreateDefaultAttachmentEntity
     href: ticketagent/createdefaultattachmententity.md
   - name: CreateDefaultTicketEntity
@@ -3733,6 +3737,8 @@ items:
   items:
   - name: AddAfterWorkflowStep
     href: workflowagent/addafterworkflowstep.md
+  - name: ConnectEmailFlowContent
+    href: workflowagent/connectemailflowcontent.md
   - name: CreateDefaultEmailFlow
     href: workflowagent/createdefaultemailflow.md
   - name: CreateDefaultWorkflowFilter
@@ -3745,6 +3751,8 @@ items:
     href: workflowagent/createdefaultworkflowstepoption.md
   - name: CreateDefaultWorkflowTrigger
     href: workflowagent/createdefaultworkflowtrigger.md
+  - name: CreateEmailFlowContent
+    href: workflowagent/createemailflowcontent.md
   - name: DeleteEmailFlow
     href: workflowagent/deleteemailflow.md
   - name: DeleteWorkflowGoal

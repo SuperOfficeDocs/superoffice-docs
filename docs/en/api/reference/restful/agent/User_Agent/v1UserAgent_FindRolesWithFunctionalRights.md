@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/FindRolesWithFunctionalRights
 uid: v1UserAgent_FindRolesWithFunctionalRights
+generated: true
 ---
 
 # POST Agents/User/FindRolesWithFunctionalRights
@@ -72,13 +73,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Jast Group",
-    "Blanda Inc and Sons"
+    "Monahan Inc and Sons",
+    "Gibson, Huel and Osinski"
   ]
 }
 ```
@@ -90,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  790,
-  195
+  505,
+  59
 ]
 ```

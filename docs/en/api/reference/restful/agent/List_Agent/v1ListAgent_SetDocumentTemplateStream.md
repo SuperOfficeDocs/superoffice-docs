@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetDocumentTemplateStream
 uid: v1ListAgent_SetDocumentTemplateStream
+generated: true
 ---
 
 # POST Agents/List/SetDocumentTemplateStream
@@ -107,8 +108,8 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "dolore",
-  "PluginId": 95
+  "LanguageCode": "optio",
+  "PluginId": 491
 }
 ```
 
@@ -119,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 248,
-  "Name": "Reichert, Littel and Klocko",
-  "Tooltip": "dolorem",
-  "SaveInDb": 556,
-  "Filename": "porro",
-  "DefaultOref": "sapiente",
+  "DocumentTemplateId": 471,
+  "Name": "Marks-Satterfield",
+  "Tooltip": "quo",
+  "SaveInDb": 367,
+  "Filename": "sit",
+  "DefaultOref": "harum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 877,
-  "IntentId": 147,
+  "AutoeventId": 854,
+  "IntentId": 996,
   "IsDefaultPublished": false,
-  "Rank": 640,
-  "LoadTemplateFromPlugin": 961,
-  "MimeType": "praesentium",
+  "Rank": 96,
+  "LoadTemplateFromPlugin": 590,
+  "MimeType": "accusamus",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 30,
+  "DocumentTypeKey": 893,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "ressie@zulaufjacobi.uk",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "jaida@heathcote.co.uk",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "anne@blocklittle.com",
+  "SenderEmailAddress": "adan@crist.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldLength": 965
     }
   }
 }

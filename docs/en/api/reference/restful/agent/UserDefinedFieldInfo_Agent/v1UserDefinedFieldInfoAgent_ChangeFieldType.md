@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/ChangeFieldType
 uid: v1UserDefinedFieldInfoAgent_ChangeFieldType
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/ChangeFieldType
@@ -107,13 +108,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
   "FieldType": "Checkbox",
-  "IsIndexed": true
+  "IsIndexed": false
 }
 ```
 
@@ -124,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 492,
-  "ColumnId": 694,
-  "FieldDefault": "tempora",
-  "FieldHeight": 995,
-  "FieldLabel": "perspiciatis",
-  "FieldLeft": 500,
-  "FieldTop": 243,
+  "UDefFieldId": 817,
+  "ColumnId": 312,
+  "FieldDefault": "harum",
+  "FieldHeight": 868,
+  "FieldLabel": "aut",
+  "FieldLeft": 862,
+  "FieldTop": 527,
   "FieldType": "Checkbox",
-  "FieldWidth": 587,
-  "FormatMask": "voluptates",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 322,
-  "LabelLeft": 96,
-  "LabelTop": 971,
-  "LabelWidth": 375,
-  "LastVersionId": 770,
-  "ListTableId": 98,
+  "FieldWidth": 829,
+  "FormatMask": "eaque",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 82,
+  "LabelLeft": 821,
+  "LabelTop": 190,
+  "LabelWidth": 228,
+  "LastVersionId": 806,
+  "ListTableId": 193,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 303,
-  "ProgId": "maiores",
+  "Page1LineNo": 38,
+  "ProgId": "in",
   "IsReadOnly": false,
-  "ShortLabel": "eos",
-  "TabOrder": 851,
-  "TextLength": 72,
-  "Tooltip": "eum",
-  "UdefIdentity": 504,
-  "UDListDefinitionId": 363,
+  "ShortLabel": "quas",
+  "TabOrder": 411,
+  "TextLength": 123,
+  "Tooltip": "quae",
+  "UdefIdentity": 337,
+  "UDListDefinitionId": 607,
   "Justification": "Center",
-  "Version": 234,
-  "TemplateVariableName": "Feest, Roob and McLaughlin",
+  "Version": 648,
+  "TemplateVariableName": "Dibbert, Hirthe and Parisian",
   "HasBeenPublished": true,
-  "MdoListName": "Nienow LLC",
+  "MdoListName": "Legros-Ondricka",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldType": "System.String",
+      "FieldLength": 86
     }
   }
 }

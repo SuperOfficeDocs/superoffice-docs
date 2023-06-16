@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/SplitTicketMessage
 uid: v1TicketAgent_SplitTicketMessage
+generated: true
 ---
 
 # POST Agents/Ticket/SplitTicketMessage
@@ -129,7 +130,7 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -137,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "NewTicketEntity": null,
   "NewTicketMessage": null,
   "TransferAttachmentsIds": [
-    778,
-    354
+    886,
+    370
   ]
 }
 ```
@@ -150,21 +151,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 320,
-  "Title": "qui",
-  "CreatedAt": "2007-03-07T03:51:28.3808319+01:00",
-  "LastChanged": "2004-12-16T03:51:28.3808319+01:00",
-  "ReadByOwner": "2000-09-27T03:51:28.3808319+02:00",
-  "ReadByCustomer": "1999-08-21T03:51:28.3808319+02:00",
-  "FirstReadByOwner": "2002-01-31T03:51:28.3808319+01:00",
-  "FirstReadByUser": "1997-07-30T03:51:28.3808319+02:00",
-  "Activate": "2005-02-17T03:51:28.3808319+01:00",
-  "ClosedAt": "2014-04-16T03:51:28.3808319+02:00",
-  "RepliedAt": "1996-07-07T03:51:28.3808319+02:00",
-  "AlertTimeout": "2011-12-08T03:51:28.3808319+01:00",
-  "Deadline": "1996-04-14T03:51:28.3808319+02:00",
+  "TicketId": 287,
+  "Title": "asperiores",
+  "CreatedAt": "2012-02-25T16:00:42.1956362+01:00",
+  "LastChanged": "2006-04-01T16:00:42.1956362+02:00",
+  "ReadByOwner": "2000-08-02T16:00:42.1956362+02:00",
+  "ReadByCustomer": "2011-11-28T16:00:42.1956362+01:00",
+  "FirstReadByOwner": "2013-06-18T16:00:42.1956362+02:00",
+  "FirstReadByUser": "2008-01-04T16:00:42.1956362+01:00",
+  "Activate": "2000-02-11T16:00:42.1956362+01:00",
+  "ClosedAt": "2020-12-21T16:00:42.1956362+01:00",
+  "RepliedAt": "2007-09-27T16:00:42.1956362+02:00",
+  "AlertTimeout": "2010-07-24T16:00:42.1956362+02:00",
+  "Deadline": "1997-11-09T16:00:42.1956362+01:00",
   "CreatedBy": null,
-  "Author": "voluptatem",
+  "Author": "optio",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -175,151 +176,151 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "quasi",
-      "PersonId": 946,
-      "Mrmrs": "quia",
-      "Firstname": "Gene",
-      "Lastname": "Lang",
-      "MiddleName": "Simonis-Lynch",
-      "Title": "animi",
-      "Description": "Multi-tiered national process improvement",
-      "Email": "ellie_schroeder@bins.ca",
-      "FullName": "Carissa Buckridge",
-      "DirectPhone": "080.586.4166 x54095",
-      "FormalName": "Runolfsson-Walter",
-      "CountryId": 398,
-      "ContactId": 609,
-      "ContactName": "Smitham Inc and Sons",
-      "Retired": 271,
-      "Rank": 541,
-      "ActiveInterests": 80,
+      "Position": "dolore",
+      "PersonId": 722,
+      "Mrmrs": "distinctio",
+      "Firstname": "Rickey",
+      "Lastname": "Mayer",
+      "MiddleName": "Trantow, Pouros and Eichmann",
+      "Title": "eos",
+      "Description": "Self-enabling heuristic contingency",
+      "Email": "keira.koelpin@vonbayer.uk",
+      "FullName": "Bruce Bayer",
+      "DirectPhone": "591-161-0876 x599",
+      "FormalName": "Kertzmann, Stehr and Davis",
+      "CountryId": 974,
+      "ContactId": 9,
+      "ContactName": "Fadel, Frami and Hickle",
+      "Retired": 408,
+      "Rank": 381,
+      "ActiveInterests": 64,
       "ContactDepartment": "",
-      "ContactCountryId": 95,
-      "ContactOrgNr": "418462",
-      "FaxPhone": "261-874-4067 x621",
-      "MobilePhone": "1-321-179-4527",
-      "ContactPhone": "008.916.1278",
-      "AssociateName": "Lubowitz-Fisher",
-      "AssociateId": 408,
-      "UsePersonAddress": true,
-      "ContactFax": "facere",
-      "Kanafname": "aut",
-      "Kanalname": "quibusdam",
-      "Post1": "repellendus",
-      "Post2": "facilis",
-      "Post3": "quo",
-      "EmailName": "modesta.bosco@gusikowskijacobson.com",
-      "ContactFullName": "Miss Tre Jamir Herzog I",
-      "ActiveErpLinks": 699,
-      "TicketPriorityId": 983,
-      "SupportLanguageId": 697,
-      "SupportAssociateId": 285,
+      "ContactCountryId": 428,
+      "ContactOrgNr": "1229972",
+      "FaxPhone": "856-447-3952",
+      "MobilePhone": "(047)943-6570 x082",
+      "ContactPhone": "1-582-042-6268 x6867",
+      "AssociateName": "Senger Inc and Sons",
+      "AssociateId": 680,
+      "UsePersonAddress": false,
+      "ContactFax": "qui",
+      "Kanafname": "qui",
+      "Kanalname": "consectetur",
+      "Post1": "nobis",
+      "Post2": "aspernatur",
+      "Post3": "et",
+      "EmailName": "enrique.auer@kessler.com",
+      "ContactFullName": "Damaris Gusikowski II",
+      "ActiveErpLinks": 98,
+      "TicketPriorityId": 494,
+      "SupportLanguageId": 319,
+      "SupportAssociateId": 445,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 738
+          "FieldLength": 975
         }
       }
     }
   ],
-  "AlertLevel": 290,
-  "ConnectId": 178,
+  "AlertLevel": 42,
+  "ConnectId": 125,
   "ReadStatus": "Green",
-  "TimeToReply": 495,
-  "RealTimeToReply": 478,
-  "TimeToClose": 125,
-  "RealTimeToClose": 380,
-  "TimeSpentInternally": 779,
-  "TimeSpentExternally": 220,
-  "TimeSpentQueue": 295,
-  "RealTimeSpentInternally": 601,
-  "RealTimeSpentExternally": 187,
-  "RealTimeSpentQueue": 82,
-  "HasAttachment": true,
-  "NumReplies": 982,
-  "NumMessages": 406,
-  "FromAddress": "beatae",
+  "TimeToReply": 583,
+  "RealTimeToReply": 996,
+  "TimeToClose": 599,
+  "RealTimeToClose": 352,
+  "TimeSpentInternally": 265,
+  "TimeSpentExternally": 855,
+  "TimeSpentQueue": 332,
+  "RealTimeSpentInternally": 34,
+  "RealTimeSpentExternally": 323,
+  "RealTimeSpentQueue": 492,
+  "HasAttachment": false,
+  "NumReplies": 342,
+  "NumMessages": 289,
+  "FromAddress": "est",
   "Messages": [
     {
-      "TicketMessageId": 447,
-      "CreatedAt": "1997-01-19T03:51:28.3808319+01:00",
+      "TicketMessageId": 46,
+      "CreatedAt": "2016-10-08T16:00:42.1956362+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "rerum",
-      "PersonId": 962,
-      "PersonFullName": "Rusty Parisian",
-      "ContactId": 143,
-      "ContactName": "Ullrich Group",
+      "Important": true,
+      "Author": "repellendus",
+      "PersonId": 697,
+      "PersonFullName": "Mrs. Stella Wintheiser",
+      "ContactId": 695,
+      "ContactName": "Rath Group",
       "ContactDepartment": "",
-      "NumAttachments": 360,
-      "EmailHeader": "arne@vonlangosh.info",
+      "NumAttachments": 12,
+      "EmailHeader": "kendall@turcotte.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "nostrum",
-      "Sentiment": 702,
-      "SentimentConfidence": 431,
-      "CreatedBy": 617,
-      "ChangedAt": "2020-12-18T03:51:28.3808319+01:00",
+      "Language": "consequatur",
+      "Sentiment": 507,
+      "SentimentConfidence": 896,
+      "CreatedBy": 495,
+      "ChangedAt": "1996-04-16T16:00:42.1956362+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldType": "System.Int32",
+          "FieldLength": 225
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 243,
-      "Name": "Hammes-Hoeger",
-      "ToolTip": "Modi non eveniet autem velit ipsum.",
+      "Id": 354,
+      "Name": "Spencer Group",
+      "ToolTip": "Ut qui qui ab est quo quasi ab.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 378
         }
       }
     },
     {
-      "Id": 243,
-      "Name": "Hammes-Hoeger",
-      "ToolTip": "Modi non eveniet autem velit ipsum.",
+      "Id": 354,
+      "Name": "Spencer Group",
+      "ToolTip": "Ut qui qui ab est quo quasi ab.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 378
         }
       }
     }
   ],
-  "Language": "quibusdam",
-  "Sentiment": 77,
-  "SentimentConfidence": 739,
-  "SuggestedCategoryId": 577,
+  "Language": "assumenda",
+  "Sentiment": 160,
+  "SentimentConfidence": 113,
+  "SuggestedCategoryId": 338,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 228,
-  "IconHint": "dicta",
+  "OrigHumanCategoryId": 356,
+  "IconHint": "fugit",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "repellat",
-    "ExtraFields2": "aspernatur"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "illum",
+    "CustomFields1": "maiores",
     "CustomFields2": "ut"
   },
   "TableRight": null,
@@ -327,7 +328,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 972
     }
   }
 }

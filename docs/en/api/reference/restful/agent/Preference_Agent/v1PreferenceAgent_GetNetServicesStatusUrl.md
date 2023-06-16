@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetNetServicesStatusUrl
 uid: v1PreferenceAgent_GetNetServicesStatusUrl
+generated: true
 ---
 
 # POST Agents/Preference/GetNetServicesStatusUrl
@@ -61,7 +62,7 @@ OK
 POST /api/v1/Agents/Preference/GetNetServicesStatusUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

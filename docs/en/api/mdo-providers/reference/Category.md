@@ -1,17 +1,11 @@
 ---
 uid: category
 title: category
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "category"
+keywords: mdoprovider mdo provider category
+description: GenericMDOProvider reads MDO lists with default settings
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "category" MDO List

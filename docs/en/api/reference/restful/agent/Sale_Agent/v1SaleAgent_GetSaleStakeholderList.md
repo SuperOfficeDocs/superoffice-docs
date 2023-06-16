@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetSaleStakeholderList
 uid: v1SaleAgent_GetSaleStakeholderList
+generated: true
 ---
 
 # POST Agents/Sale/GetSaleStakeholderList
@@ -87,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Nicolas, Towne and Heller",
-    "Comment": "et",
-    "StakeholderRoleId": 81,
-    "CountryId": 442,
-    "PersonId": 322,
-    "EmailDescription": "gianni@lueilwitzmarvin.uk",
-    "EmailId": 365,
-    "EmailAddress": "sylvan.towne@beer.biz",
-    "PhoneId": 928,
-    "ContactName": "Beatty, Gulgowski and Ruecker",
-    "ContactId": 586,
-    "SaleId": 516,
-    "Mrmrs": "doloribus",
-    "Firstname": "Linnea",
-    "MiddleName": "Harvey LLC",
-    "Lastname": "Schinner",
-    "SaleStakeholderId": 277,
-    "Rank": 93,
-    "Phone": "(770)559-0092",
+    "StakeholderRoleName": "Altenwerth Inc and Sons",
+    "Comment": "ipsam",
+    "StakeholderRoleId": 904,
+    "CountryId": 43,
+    "PersonId": 892,
+    "EmailDescription": "earnestine_berge@herzoghane.co.uk",
+    "EmailId": 891,
+    "EmailAddress": "marcelle@gleason.name",
+    "PhoneId": 186,
+    "ContactName": "O'Hara LLC",
+    "ContactId": 517,
+    "SaleId": 190,
+    "Mrmrs": "voluptatem",
+    "Firstname": "Casimir",
+    "MiddleName": "Hamill Inc and Sons",
+    "Lastname": "Beier",
+    "SaleStakeholderId": 524,
+    "Rank": 887,
+    "Phone": "943-017-4197",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 80
+        "FieldLength": 6
       }
     }
   }

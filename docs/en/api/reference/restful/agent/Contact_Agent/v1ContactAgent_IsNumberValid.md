@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/IsNumberValid
 uid: v1ContactAgent_IsNumberValid
+generated: true
 ---
 
 # POST Agents/Contact/IsNumberValid
@@ -70,12 +71,12 @@ OK
 POST /api/v1/Agents/Contact/IsNumberValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 474,
-  "Number": "909999"
+  "ContactId": 782,
+  "Number": "549534"
 }
 ```
 

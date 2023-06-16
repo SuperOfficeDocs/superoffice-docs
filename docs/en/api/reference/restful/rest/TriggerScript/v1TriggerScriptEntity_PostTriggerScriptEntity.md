@@ -1,6 +1,7 @@
 ---
 title: POST TriggerScript
 uid: v1TriggerScriptEntity_PostTriggerScriptEntity
+generated: true
 ---
 
 # POST TriggerScript
@@ -100,16 +101,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 570,
-  "Name": "Bergnaum-Cruickshank",
+  "ScreenChooserId": 508,
+  "Name": "Koch-Walsh",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "nesciunt",
-  "Source": "sint",
-  "Registered": "2006-12-26T03:51:34.1615868+01:00",
-  "RegisteredAssociateId": 335,
-  "Updated": "2004-06-03T03:51:34.1615868+02:00",
-  "UpdatedAssociateId": 302
+  "Enabled": false,
+  "UniqueIdentifier": "et",
+  "Source": "nostrum",
+  "Registered": "2018-03-21T16:00:48.617756+01:00",
+  "RegisteredAssociateId": 885,
+  "Updated": "2018-12-26T16:00:48.617756+01:00",
+  "UpdatedAssociateId": 723
 }
 ```
 
@@ -120,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 653,
-  "Name": "Crona-Baumbach",
+  "ScreenChooserId": 186,
+  "Name": "Senger, Purdy and Hayes",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quia",
-  "Source": "et",
-  "Registered": "2016-12-24T03:51:34.1615868+01:00",
-  "RegisteredAssociateId": 502,
-  "Updated": "2016-11-02T03:51:34.1615868+01:00",
-  "UpdatedAssociateId": 934,
+  "UniqueIdentifier": "totam",
+  "Source": "laborum",
+  "Registered": "2011-01-16T16:00:48.617756+01:00",
+  "RegisteredAssociateId": 777,
+  "Updated": "2020-10-06T16:00:48.617756+02:00",
+  "UpdatedAssociateId": 983,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 457
     }
   },
   "_Links": {

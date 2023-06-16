@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/SaveDefaultValueInfo
 uid: v1ErpSyncAgent_SaveDefaultValueInfo
+generated: true
 ---
 
 # POST Agents/ErpSync/SaveDefaultValueInfo
@@ -98,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 374,
-  "DefaultValue": "sit",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "qui",
-  "PromptUser": true,
-  "Mandatory": true,
-  "ErpFieldKey": "illo",
+  "ErpFieldId": 837,
+  "DefaultValue": "pariatur",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "quia",
+  "PromptUser": false,
+  "Mandatory": false,
+  "ErpFieldKey": "a",
   "FieldType": "Checkbox",
-  "ListName": "Hilpert, Berge and Lesch",
+  "ListName": "Hilpert-Altenwerth",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 49
     }
   }
 }

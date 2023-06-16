@@ -1,5 +1,6 @@
 ---
 title: Product
+generated: true
 ---
 
 ```http

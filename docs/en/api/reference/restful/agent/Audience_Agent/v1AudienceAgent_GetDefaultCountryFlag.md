@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetDefaultCountryFlag
 uid: v1AudienceAgent_GetDefaultCountryFlag
+generated: true
 ---
 
 # POST Agents/Audience/GetDefaultCountryFlag
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/Audience/GetDefaultCountryFlag
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Predovic, Zieme and Collins"
+  "LayoutName": "Hettinger, Connelly and Labadie"
 }
 ```
 

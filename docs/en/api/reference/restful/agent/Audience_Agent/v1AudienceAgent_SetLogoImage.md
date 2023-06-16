@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/SetLogoImage
 uid: v1AudienceAgent_SetLogoImage
+generated: true
 ---
 
 # POST Agents/Audience/SetLogoImage
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/Audience/SetLogoImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Schmitt-Satterfield",
+  "LayoutName": "Heidenreich Group",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

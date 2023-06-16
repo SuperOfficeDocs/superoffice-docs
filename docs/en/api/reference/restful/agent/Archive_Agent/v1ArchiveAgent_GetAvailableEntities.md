@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetAvailableEntities
 uid: v1ArchiveAgent_GetAvailableEntities
+generated: true
 ---
 
 # POST Agents/Archive/GetAvailableEntities
@@ -169,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lindgren Inc and Sons",
-  "Context": "doloribus"
+  "ProviderName": "Jenkins-Runte",
+  "Context": "vero"
 }
 ```
 
@@ -186,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Krajcik, Lang and Bechtelar",
-    "ToolTip": "Aut voluptas tempora aut exercitationem corrupti.",
+    "Id": 82,
+    "Name": "Mosciski Inc and Sons",
+    "ToolTip": "Optio commodi deleniti et corrupti ab blanditiis.",
     "Deleted": false,
-    "Rank": 737,
-    "Type": "atque",
+    "Rank": 634,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 793,
-        "Name": "Lemke, Gutkowski and Hamill",
-        "ToolTip": "Ut fuga a repellendus.",
-        "Deleted": true,
-        "Rank": 446,
-        "Type": "doloremque",
+        "Id": 928,
+        "Name": "Kiehn Group",
+        "ToolTip": "Ducimus temporibus quis omnis enim.",
+        "Deleted": false,
+        "Rank": 827,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 240,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "nisi",
-        "FullName": "Reymundo Reichert",
+        "IconHint": "ducimus",
+        "ColorBlock": 763,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "sit",
+        "FullName": "Sanford Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 920
+            "FieldType": "System.String",
+            "FieldLength": 364
           }
         }
       }
     ],
-    "IconHint": "quisquam",
-    "ColorBlock": 751,
-    "ExtraInfo": "deserunt",
-    "StyleHint": "quod",
-    "FullName": "Gayle Kilback",
+    "IconHint": "inventore",
+    "ColorBlock": 640,
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "ea",
+    "FullName": "Ms. Marilie Duane Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldLength": 878
       }
     }
   }

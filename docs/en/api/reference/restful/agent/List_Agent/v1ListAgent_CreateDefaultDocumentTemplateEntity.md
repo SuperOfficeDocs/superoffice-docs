@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultDocumentTemplateEntity
 uid: v1ListAgent_CreateDefaultDocumentTemplateEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultDocumentTemplateEntity
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 540,
-  "Name": "Bergstrom-Ryan",
-  "Tooltip": "voluptas",
-  "SaveInDb": 839,
-  "Filename": "architecto",
-  "DefaultOref": "doloribus",
+  "DocumentTemplateId": 57,
+  "Name": "Sipes-Renner",
+  "Tooltip": "id",
+  "SaveInDb": 457,
+  "Filename": "veniam",
+  "DefaultOref": "alias",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 116,
-  "IntentId": 376,
+  "AutoeventId": 353,
+  "IntentId": 39,
   "IsDefaultPublished": true,
-  "Rank": 324,
-  "LoadTemplateFromPlugin": 771,
-  "MimeType": "praesentium",
+  "Rank": 718,
+  "LoadTemplateFromPlugin": 584,
+  "MimeType": "consequatur",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 339,
+  "DocumentTypeKey": 990,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "ralph.shanahan@runolfsson.info",
-  "IncludeSignature": true,
+  "EmailSubject": "janelle_harvey@hilll.name",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "carlotta.hyatt@homenickschuster.co.uk",
+  "SenderEmailAddress": "lysanne.hickle@graham.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 142
     }
   }
 }

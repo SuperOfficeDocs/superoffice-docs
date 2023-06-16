@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/DeleteConsentPerson
 uid: v1PersonAgent_DeleteConsentPerson
+generated: true
 ---
 
 # POST Agents/Person/DeleteConsentPerson
@@ -24,7 +25,7 @@ Deletes the ConsentPerson
 | ConsentPersonId | int32 | **Required** The id of the ConsentPerson to be deleted. |
 
 ```http
-POST /api/v1/Agents/Person/DeleteConsentPerson?ConsentPersonId=387
+POST /api/v1/Agents/Person/DeleteConsentPerson?ConsentPersonId=965
 ```
 
 
@@ -55,7 +56,7 @@ No Content
 POST /api/v1/Agents/Person/DeleteConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

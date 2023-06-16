@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIds
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
@@ -108,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "distinctio",
-    "numquam"
+    "et",
+    "optio"
   ],
   "OwnerType": "Appointment"
 }
@@ -128,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 85,
-    "ColumnId": 491,
-    "FieldDefault": "voluptates",
-    "FieldHeight": 342,
-    "FieldLabel": "est",
-    "FieldLeft": 957,
-    "FieldTop": 951,
+    "UDefFieldId": 354,
+    "ColumnId": 606,
+    "FieldDefault": "nisi",
+    "FieldHeight": 390,
+    "FieldLabel": "sequi",
+    "FieldLeft": 778,
+    "FieldTop": 1000,
     "FieldType": "Checkbox",
-    "FieldWidth": 551,
-    "FormatMask": "voluptas",
-    "HideLabel": false,
+    "FieldWidth": 687,
+    "FormatMask": "reprehenderit",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 101,
-    "LabelLeft": 764,
-    "LabelTop": 818,
-    "LabelWidth": 45,
-    "LastVersionId": 54,
-    "ListTableId": 107,
+    "LabelHeight": 503,
+    "LabelLeft": 794,
+    "LabelTop": 47,
+    "LabelWidth": 779,
+    "LastVersionId": 563,
+    "ListTableId": 887,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 864,
-    "ProgId": "numquam",
-    "IsReadOnly": false,
-    "ShortLabel": "deleniti",
-    "TabOrder": 535,
-    "TextLength": 841,
-    "Tooltip": "blanditiis",
-    "UdefIdentity": 938,
-    "UDListDefinitionId": 135,
+    "Page1LineNo": 207,
+    "ProgId": "qui",
+    "IsReadOnly": true,
+    "ShortLabel": "dolor",
+    "TabOrder": 719,
+    "TextLength": 426,
+    "Tooltip": "eum",
+    "UdefIdentity": 436,
+    "UDListDefinitionId": 523,
     "Justification": "Center",
-    "Version": 667,
-    "TemplateVariableName": "Moen Inc and Sons",
+    "Version": 883,
+    "TemplateVariableName": "Altenwerth Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Feeney-Wuckert",
+    "MdoListName": "Stracke-Koelpin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 287
       }
     }
   }

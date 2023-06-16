@@ -1,6 +1,7 @@
 ---
 title: GET List/ReasonSold/Items/{id}/UserGroups
 uid: v1ReasonSoldList_GetReasonSoldUserGroupsForListItem
+generated: true
 ---
 
 # GET List/ReasonSold/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Schuppe Inc and Sons",
-    "ToolTip": "In in.",
-    "Deleted": false,
-    "Rank": 419,
-    "Type": "dolore",
-    "ColorBlock": 147,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2016-10-28T03:51:34.9114158+02:00",
+    "Id": 787,
+    "Name": "Block Inc and Sons",
+    "ToolTip": "Porro dolores.",
+    "Deleted": true,
+    "Rank": 717,
+    "Type": "totam",
+    "ColorBlock": 871,
+    "IconHint": "laboriosam",
+    "Selected": true,
+    "LastChanged": "1998-08-07T16:00:49.2739351+02:00",
     "ChildItems": [
       {
-        "Id": 544,
-        "Name": "Reinger-Ondricka",
-        "ToolTip": "Dicta inventore omnis aperiam et.",
+        "Id": 551,
+        "Name": "Towne, Walsh and Lockman",
+        "ToolTip": "Libero eos est quasi distinctio voluptates et.",
         "Deleted": false,
-        "Rank": 220,
-        "Type": "accusantium",
-        "ColorBlock": 136,
-        "IconHint": "mollitia",
+        "Rank": 932,
+        "Type": "est",
+        "ColorBlock": 465,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2007-06-09T03:51:34.9114158+02:00",
+        "LastChanged": "2004-06-17T16:00:49.2739351+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ab",
-        "Hidden": false,
-        "FullName": "Mr. Elisabeth Nienow",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "nostrum",
+        "Hidden": true,
+        "FullName": "Dr. Jack Mohammad Ferry Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 701
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "fugit",
-    "Hidden": false,
-    "FullName": "Mrs. Jailyn Jacinthe Roberts",
+    "ExtraInfo": "dolores",
+    "StyleHint": "velit",
+    "Hidden": true,
+    "FullName": "Ben Swift MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldLength": 880
       }
     }
   }

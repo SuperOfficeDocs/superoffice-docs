@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetFolderList
 uid: v1EMailAgent_GetFolderList
+generated: true
 ---
 
 # POST Agents/EMail/GetFolderList
@@ -89,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "qui",
-  "ad"
+  "aut",
+  "aut"
 ]
 ```

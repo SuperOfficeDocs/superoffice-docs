@@ -1,17 +1,11 @@
 ---
 uid: fontsize
 title: fontsize
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "fontsize"
+keywords: mdoprovider mdo provider fontsize
+description: List of font types
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "fontsize" MDO List

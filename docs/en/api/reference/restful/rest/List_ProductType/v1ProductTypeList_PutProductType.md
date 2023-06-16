@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductType/Items/{id}
 uid: v1ProductTypeList_PutProductType
+generated: true
 ---
 
 # PUT List/ProductType/Items/{id}
@@ -77,16 +78,16 @@ OK
 PUT /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 472,
-  "Name": "Lemke, Luettgen and Rath",
-  "Tooltip": "labore",
-  "Deleted": false,
-  "UdListDefinitionId": 381,
-  "Rank": 401
+  "Id": 425,
+  "Name": "Macejkovic Group",
+  "Tooltip": "pariatur",
+  "Deleted": true,
+  "UdListDefinitionId": 939,
+  "Rank": 561
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 340,
-  "Name": "Hessel LLC",
-  "Tooltip": "sunt",
+  "Id": 998,
+  "Name": "Russel Group",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "UdListDefinitionId": 410,
-  "Rank": 950,
+  "UdListDefinitionId": 850,
+  "Rank": 329,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 236
     }
   }
 }

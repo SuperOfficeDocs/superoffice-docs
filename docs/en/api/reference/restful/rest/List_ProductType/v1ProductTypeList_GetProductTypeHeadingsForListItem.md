@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductType/Items/{id}/Headings
 uid: v1ProductTypeList_GetProductTypeHeadingsForListItem
+generated: true
 ---
 
 # GET List/ProductType/Items/{id}/Headings
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 233,
-    "Name": "Turcotte, Orn and Hagenes",
-    "ToolTip": "Est minima quia nemo voluptatibus similique.",
+    "Id": 205,
+    "Name": "Beatty Inc and Sons",
+    "ToolTip": "Quae reprehenderit ut rem nam sunt enim.",
     "Deleted": false,
-    "Rank": 121,
-    "Type": "voluptatem",
-    "ColorBlock": 765,
-    "IconHint": "sit",
+    "Rank": 117,
+    "Type": "a",
+    "ColorBlock": 151,
+    "IconHint": "temporibus",
     "Selected": false,
-    "LastChanged": "2022-05-04T03:51:34.833319+02:00",
+    "LastChanged": "2017-04-28T16:00:49.1801938+02:00",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "Klocko Inc and Sons",
-        "ToolTip": "Eveniet et quia minus ipsa quaerat aut.",
+        "Id": 328,
+        "Name": "Batz-Kuhic",
+        "ToolTip": "Dolor voluptatem ipsam.",
         "Deleted": false,
-        "Rank": 602,
-        "Type": "at",
-        "ColorBlock": 463,
-        "IconHint": "et",
+        "Rank": 826,
+        "Type": "aut",
+        "ColorBlock": 63,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "1996-06-03T03:51:34.833319+02:00",
+        "LastChanged": "2016-04-25T16:00:49.1801938+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "molestias",
-        "Hidden": false,
-        "FullName": "Prof. Tessie Lauriane Romaguera",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "impedit",
+        "Hidden": true,
+        "FullName": "Ms. Nova Raphaelle Feil",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 610
+            "FieldLength": 549
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "vero",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Prof. Juwan Gleichner I",
+    "FullName": "Katharina Orpha Kuhic Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 557
+        "FieldType": "System.Int32",
+        "FieldLength": 38
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CreateDefaultProduct
 uid: v1QuoteAgent_CreateDefaultProduct
+generated: true
 ---
 
 # POST Agents/Quote/CreateDefaultProduct
@@ -89,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 669,
-  "ERPProductKey": "a",
-  "ERPPriceListKey": "voluptatem",
-  "Name": "Cremin, Harber and Rice",
-  "Description": "Future-proofed background benchmark",
-  "Code": "nulla",
-  "PriceUnit": "vitae",
-  "QuantityUnit": "ratione",
+  "ProductId": 953,
+  "ERPProductKey": "ratione",
+  "ERPPriceListKey": "distinctio",
+  "Name": "Jakubowski, Luettgen and Hamill",
+  "Description": "Customer-focused explicit customer loyalty",
+  "Code": "distinctio",
+  "PriceUnit": "vero",
+  "QuantityUnit": "ipsam",
   "IsSubscription": false,
-  "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 8317.636,
-  "ItemNumber": "1370824",
+  "SubscriptionUnit": "deserunt",
+  "DefaultSubscriptionQuantity": 2265.882,
+  "ItemNumber": "951980",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quaerat",
-  "ProductTypeKey": "architecto",
-  "VAT": 26005.932,
-  "VATInfo": "unde",
-  "UnitCost": 31305.525999999998,
-  "UnitMinimumPrice": 23633.494,
-  "UnitListPrice": 28124.516,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "id",
+  "VAT": 1626.546,
+  "VATInfo": "necessitatibus",
+  "UnitCost": 21966.206,
+  "UnitMinimumPrice": 8352.11,
+  "UnitListPrice": 9060.394,
   "InAssortment": false,
-  "Supplier": "illo",
-  "SupplierCode": "aut",
-  "Rights": "doloribus",
-  "Rule": "omnis",
+  "Supplier": "aliquam",
+  "SupplierCode": "quis",
+  "Rights": "unde",
+  "Rule": "id",
   "ExtraInfo": [
     {
-      "Name": "Boyer, Mayer and Hyatt",
-      "Value": "qui",
+      "Name": "Boyer-Miller",
+      "Value": "necessitatibus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 525
+          "FieldLength": 126
         }
       }
     },
     {
-      "Name": "Boyer, Mayer and Hyatt",
-      "Value": "qui",
+      "Name": "Boyer-Miller",
+      "Value": "necessitatibus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 525
+          "FieldLength": 126
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "tempore",
-  "ExtraField2": "necessitatibus",
-  "ExtraField3": "voluptates",
-  "ExtraField4": "in",
-  "ExtraField5": "magnam",
-  "InStock": 28889.212,
+  "RawExtraInfo": "eius",
+  "ExtraField1": "dolore",
+  "ExtraField2": "at",
+  "ExtraField3": "maxime",
+  "ExtraField4": "quis",
+  "ExtraField5": "voluptas",
+  "InStock": 10787.228,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldLength": 503
     }
   }
 }

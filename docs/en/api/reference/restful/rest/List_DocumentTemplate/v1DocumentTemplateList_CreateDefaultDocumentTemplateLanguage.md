@@ -1,6 +1,7 @@
 ---
 title: POST List/DocumentTemplate/Items/{id}/Content/{languageCode}
 uid: v1DocumentTemplateList_CreateDefaultDocumentTemplateLanguage
+generated: true
 ---
 
 # POST List/DocumentTemplate/Items/{id}/Content/{languageCode}
@@ -50,7 +51,7 @@ No Content
 POST /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

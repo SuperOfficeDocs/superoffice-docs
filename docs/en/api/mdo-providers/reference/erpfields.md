@@ -1,17 +1,11 @@
 ---
 uid: erpfields
 title: erpfields
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "erpfields"
+keywords: mdoprovider mdo provider erpfields
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "erpfields" MDO List

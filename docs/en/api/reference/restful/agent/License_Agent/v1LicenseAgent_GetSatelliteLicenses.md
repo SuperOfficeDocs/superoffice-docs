@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/GetSatelliteLicenses
 uid: v1LicenseAgent_GetSatelliteLicenses
+generated: true
 ---
 
 # POST Agents/License/GetSatelliteLicenses
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 173
+  "SatelliteId": 118
 }
 ```
 
@@ -91,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kirlin LLC",
-    "Description": "Organic context-sensitive superstructure",
+    "Name": "Lakin, Kunde and Becker",
+    "Description": "Adaptive client-driven software",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 974,
-        "Tooltip": "in",
+        "Unrestricted": false,
+        "Total": 758,
+        "Tooltip": "et",
         "CanAssign": true,
-        "Free": 960,
-        "InUse": 341,
+        "Free": 754,
+        "InUse": 390,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 402,
-        "Name": "Klocko Inc and Sons",
-        "Description": "Triple-buffered discrete parallelism",
-        "PrerequisiteModuleName": "Trantow LLC",
-        "SortOrder": 952,
-        "ExtraFlags": 537,
+        "Assigned": false,
+        "ModuleLicenseId": 898,
+        "Name": "Gerlach, Schowalter and Durgan",
+        "Description": "Optional motivating conglomeration",
+        "PrerequisiteModuleName": "Cummerata Inc and Sons",
+        "SortOrder": 883,
+        "ExtraFlags": 657,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 316
+            "FieldLength": 658
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 396,
-        "Tooltip": "tempora",
+        "Unrestricted": false,
+        "Total": 492,
+        "Tooltip": "rerum",
         "CanAssign": true,
-        "Free": 524,
-        "InUse": 52,
+        "Free": 419,
+        "InUse": 501,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 891,
-        "Name": "Koelpin-Murazik",
-        "Description": "Monitored local open architecture",
-        "PrerequisiteModuleName": "Koepp Inc and Sons",
-        "SortOrder": 209,
-        "ExtraFlags": 323,
+        "ModuleLicenseId": 979,
+        "Name": "Kirlin-Rutherford",
+        "Description": "Organic assymetric alliance",
+        "PrerequisiteModuleName": "Schuppe-Keeling",
+        "SortOrder": 475,
+        "ExtraFlags": 174,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 846
+            "FieldLength": 887
           }
         }
       }
@@ -150,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 480
       }
     }
   },
   {
-    "Name": "Kirlin LLC",
-    "Description": "Organic context-sensitive superstructure",
+    "Name": "Lakin, Kunde and Becker",
+    "Description": "Adaptive client-driven software",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 974,
-        "Tooltip": "in",
+        "Unrestricted": false,
+        "Total": 758,
+        "Tooltip": "et",
         "CanAssign": true,
-        "Free": 960,
-        "InUse": 341,
+        "Free": 754,
+        "InUse": 390,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 402,
-        "Name": "Klocko Inc and Sons",
-        "Description": "Triple-buffered discrete parallelism",
-        "PrerequisiteModuleName": "Trantow LLC",
-        "SortOrder": 952,
-        "ExtraFlags": 537,
+        "Assigned": false,
+        "ModuleLicenseId": 898,
+        "Name": "Gerlach, Schowalter and Durgan",
+        "Description": "Optional motivating conglomeration",
+        "PrerequisiteModuleName": "Cummerata Inc and Sons",
+        "SortOrder": 883,
+        "ExtraFlags": 657,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 316
+            "FieldLength": 658
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 396,
-        "Tooltip": "tempora",
+        "Unrestricted": false,
+        "Total": 492,
+        "Tooltip": "rerum",
         "CanAssign": true,
-        "Free": 524,
-        "InUse": 52,
+        "Free": 419,
+        "InUse": 501,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 891,
-        "Name": "Koelpin-Murazik",
-        "Description": "Monitored local open architecture",
-        "PrerequisiteModuleName": "Koepp Inc and Sons",
-        "SortOrder": 209,
-        "ExtraFlags": 323,
+        "ModuleLicenseId": 979,
+        "Name": "Kirlin-Rutherford",
+        "Description": "Organic assymetric alliance",
+        "PrerequisiteModuleName": "Schuppe-Keeling",
+        "SortOrder": 475,
+        "ExtraFlags": 174,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 846
+            "FieldLength": 887
           }
         }
       }
@@ -214,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 480
       }
     }
   }

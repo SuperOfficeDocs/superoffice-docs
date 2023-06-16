@@ -1,6 +1,6 @@
 ---
 title: Services88.AudienceAgent.DeleteConfigParameter SOAP
-generated: 1
+generated: true
 uid: Services88-Audience-DeleteConfigParameter
 ---
 

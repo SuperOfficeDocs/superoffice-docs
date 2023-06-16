@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/AddChatTopicUserAgent
 uid: v1ChatAgent_AddChatTopicUserAgent
+generated: true
 ---
 
 # POST Agents/Chat/AddChatTopicUserAgent
@@ -80,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 328,
+  "ChatTopicId": 163,
   "Useragent": null
 }
 ```
@@ -92,11 +93,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 542,
+  "TopicId": 871,
   "User": null,
-  "CanListen": false,
-  "CanRespond": false,
-  "CanManage": true,
+  "CanListen": true,
+  "CanRespond": true,
+  "CanManage": false,
   "CanNotify": true
 }
 ```

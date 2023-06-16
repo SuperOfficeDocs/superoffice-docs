@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteDenyReason/MDOItems
 uid: v1QuoteDenyReasonList_GetMDOList
+generated: true
 ---
 
 # GET List/QuoteDenyReason/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=neque
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=vel
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Morar Group",
-    "ToolTip": "Alias autem quidem et perferendis.",
+    "Id": 258,
+    "Name": "Kessler, Hettinger and Ritchie",
+    "ToolTip": "Voluptate amet.",
     "Deleted": false,
-    "Rank": 352,
-    "Type": "repellendus",
+    "Rank": 737,
+    "Type": "exercitationem",
     "ChildItems": [
       {
-        "Id": 747,
-        "Name": "Schumm LLC",
-        "ToolTip": "Possimus sed commodi nesciunt excepturi incidunt.",
-        "Deleted": true,
-        "Rank": 168,
-        "Type": "enim",
+        "Id": 378,
+        "Name": "Goyette, Ledner and Jakubowski",
+        "ToolTip": "Architecto pariatur quas sit explicabo.",
+        "Deleted": false,
+        "Rank": 794,
+        "Type": "veniam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 97,
-        "ExtraInfo": "officia",
-        "StyleHint": "minima",
-        "FullName": "Ahmad Steuber DVM",
+        "IconHint": "dolor",
+        "ColorBlock": 196,
+        "ExtraInfo": "id",
+        "StyleHint": "velit",
+        "FullName": "Marisa Sasha Kuphal DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 718
+            "FieldLength": 154
           }
         }
       }
     ],
-    "IconHint": "soluta",
-    "ColorBlock": 174,
-    "ExtraInfo": "earum",
-    "StyleHint": "maxime",
-    "FullName": "Unique Jordyn Heaney Sr.",
+    "IconHint": "culpa",
+    "ColorBlock": 105,
+    "ExtraInfo": "et",
+    "StyleHint": "laboriosam",
+    "FullName": "Ms. Rosalind Jolie Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 41
+        "FieldType": "System.Int32",
+        "FieldLength": 863
       }
     }
   }

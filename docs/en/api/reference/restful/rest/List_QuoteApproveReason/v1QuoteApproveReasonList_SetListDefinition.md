@@ -1,6 +1,7 @@
 ---
 title: PUT List/QuoteApproveReason
 uid: v1QuoteApproveReasonList_SetListDefinition
+generated: true
 ---
 
 # PUT List/QuoteApproveReason
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 480,
-  "Name": "Larson Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 763,
+  "Id": 632,
+  "Name": "Oberbrunner LLC",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "Rank": 643,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sequi",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 613,
-  "Name": "Heaney-Nicolas",
-  "Tooltip": "quasi",
+  "Id": 961,
+  "Name": "Satterfield-Beier",
+  "Tooltip": "eaque",
   "Deleted": false,
-  "Rank": 156,
+  "Rank": 176,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 299
+      "FieldType": "System.Int32",
+      "FieldLength": 484
     }
   }
 }

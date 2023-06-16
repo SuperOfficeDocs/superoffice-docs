@@ -1,6 +1,7 @@
 ---
 title: PUT List/PaymentTerm/Items/{id}
 uid: v1PaymentTermsList_PutPaymentTerm
+generated: true
 ---
 
 # PUT List/PaymentTerm/Items/{id}
@@ -81,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 589,
-  "Name": "Feil-Beahan",
-  "Tooltip": "repellat",
+  "Id": 334,
+  "Name": "Barrows, Murphy and Bosco",
+  "Tooltip": "hic",
   "Deleted": false,
-  "UdListDefinitionId": 563,
-  "Rank": 835
+  "UdListDefinitionId": 582,
+  "Rank": 647
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 954,
-  "Name": "Watsica-Spencer",
-  "Tooltip": "in",
+  "Id": 669,
+  "Name": "Morar-Kuhlman",
+  "Tooltip": "quidem",
   "Deleted": true,
-  "UdListDefinitionId": 807,
-  "Rank": 687,
+  "UdListDefinitionId": 95,
+  "Rank": 703,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldType": "System.String",
+      "FieldLength": 179
     }
   }
 }

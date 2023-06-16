@@ -1,6 +1,7 @@
 ---
 title: DEL List/Competitor/Items
 uid: v1CompetitorList_DeleteAllCompetitor
+generated: true
 ---
 
 # DEL List/Competitor/Items

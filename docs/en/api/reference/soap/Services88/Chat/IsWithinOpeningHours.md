@@ -1,6 +1,6 @@
 ---
 title: Services88.ChatAgent.IsWithinOpeningHours SOAP
-generated: 1
+generated: true
 uid: Services88-Chat-IsWithinOpeningHours
 ---
 

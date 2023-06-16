@@ -1,17 +1,11 @@
 ---
 uid: simplemailingstatus
 title: simplemailingstatus
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "simplemailingstatus"
+keywords: mdoprovider mdo provider simplemailingstatus
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "simplemailingstatus" MDO List

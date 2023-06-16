@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/SaveShipmentMessageEntity
 uid: v1MarketingAgent_SaveShipmentMessageEntity
+generated: true
 ---
 
 # POST Agents/Marketing/SaveShipmentMessageEntity
@@ -102,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 763,
-  "PlainMessage": "ea",
-  "HtmlMessage": "est",
-  "SmsMessage": "aspernatur",
-  "Description": "Persistent upward-trending middleware",
-  "Subject": "dolor",
-  "FolderId": 164,
-  "HeaderField": "aut",
-  "Design": "aut",
+  "ShipmentMessageId": 976,
+  "PlainMessage": "earum",
+  "HtmlMessage": "voluptas",
+  "SmsMessage": "omnis",
+  "Description": "Reduced mobile analyzer",
+  "Subject": "nam",
+  "FolderId": 263,
+  "HeaderField": "sequi",
+  "Design": "nostrum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Persistent disintermediate neural-net",
-  "AccessKey": "suscipit",
-  "DocumentMessage": 724,
-  "Registered": "2005-01-24T03:51:27.5060342+01:00",
-  "RegisteredAssociateId": 716,
-  "Updated": "2000-12-11T03:51:27.5060342+01:00",
-  "UpdatedAssociateId": 761,
-  "UpdatedCount": 844
+  "LongDescription": "Fundamental composite superstructure",
+  "AccessKey": "velit",
+  "DocumentMessage": 520,
+  "Registered": "1998-02-26T16:00:41.2580675+01:00",
+  "RegisteredAssociateId": 68,
+  "Updated": "2012-04-11T16:00:41.2580675+02:00",
+  "UpdatedAssociateId": 662,
+  "UpdatedCount": 828
 }
 ```
 
@@ -137,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 855,
-  "PlainMessage": "nisi",
-  "HtmlMessage": "libero",
-  "SmsMessage": "ipsum",
-  "Description": "Exclusive scalable frame",
-  "Subject": "id",
-  "FolderId": 646,
-  "HeaderField": "cum",
-  "Design": "tempore",
+  "ShipmentMessageId": 386,
+  "PlainMessage": "dolores",
+  "HtmlMessage": "quo",
+  "SmsMessage": "nam",
+  "Description": "Streamlined bi-directional help-desk",
+  "Subject": "nihil",
+  "FolderId": 625,
+  "HeaderField": "asperiores",
+  "Design": "voluptatem",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Reactive executive access",
-  "AccessKey": "odit",
-  "DocumentMessage": 669,
-  "Registered": "2006-05-06T03:51:27.5060342+02:00",
-  "RegisteredAssociateId": 187,
-  "Updated": "2014-08-10T03:51:27.5060342+02:00",
-  "UpdatedAssociateId": 498,
-  "UpdatedCount": 76,
+  "LongDescription": "Polarised hybrid circuit",
+  "AccessKey": "voluptates",
+  "DocumentMessage": 65,
+  "Registered": "2006-01-23T16:00:41.2580675+01:00",
+  "RegisteredAssociateId": 171,
+  "Updated": "2000-11-19T16:00:41.2580675+01:00",
+  "UpdatedAssociateId": 242,
+  "UpdatedCount": 997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 436
     }
   }
 }

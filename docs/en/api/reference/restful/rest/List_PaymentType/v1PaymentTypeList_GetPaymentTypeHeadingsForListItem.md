@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentType/Items/{id}/Headings
 uid: v1PaymentTypeList_GetPaymentTypeHeadingsForListItem
+generated: true
 ---
 
 # GET List/PaymentType/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 257,
-    "Name": "Murphy, Schaefer and Haag",
-    "ToolTip": "Hic ex aspernatur perferendis corporis.",
+    "Id": 984,
+    "Name": "Halvorson, Marquardt and Lindgren",
+    "ToolTip": "Velit maxime magni.",
     "Deleted": false,
-    "Rank": 824,
-    "Type": "natus",
-    "ColorBlock": 296,
-    "IconHint": "fugit",
+    "Rank": 656,
+    "Type": "velit",
+    "ColorBlock": 386,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2019-06-09T03:51:34.7552114+02:00",
+    "LastChanged": "2001-12-07T16:00:49.1020725+01:00",
     "ChildItems": [
       {
-        "Id": 502,
-        "Name": "Von Group",
-        "ToolTip": "Soluta possimus voluptas qui.",
-        "Deleted": false,
-        "Rank": 907,
-        "Type": "et",
-        "ColorBlock": 22,
-        "IconHint": "nobis",
+        "Id": 501,
+        "Name": "McDermott-Kovacek",
+        "ToolTip": "Esse culpa voluptatem nam ad animi.",
+        "Deleted": true,
+        "Rank": 751,
+        "Type": "impedit",
+        "ColorBlock": 35,
+        "IconHint": "modi",
         "Selected": true,
-        "LastChanged": "2007-05-13T03:51:34.7552114+02:00",
+        "LastChanged": "2014-10-28T16:00:49.1020725+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Alexane Labadie DVM",
+        "FullName": "Aubrey Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 351
+            "FieldType": "System.Int32",
+            "FieldLength": 507
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "quam",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Mrs. Lauretta O'Kon DDS",
+    "FullName": "Dr. Michaela Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 702
+        "FieldType": "System.Int32",
+        "FieldLength": 899
       }
     }
   }

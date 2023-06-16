@@ -1,6 +1,7 @@
 ---
 title: DEL List/PaymentType/Headings
 uid: v1PaymentTypeList_DeletePaymentTypeHeadings
+generated: true
 ---
 
 # DEL List/PaymentType/Headings

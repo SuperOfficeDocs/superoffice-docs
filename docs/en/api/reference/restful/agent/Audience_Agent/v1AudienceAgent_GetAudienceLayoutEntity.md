@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetAudienceLayoutEntity
 uid: v1AudienceAgent_GetAudienceLayoutEntity
+generated: true
 ---
 
 # POST Agents/Audience/GetAudienceLayoutEntity
@@ -25,7 +26,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=188
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=14
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -82,11 +83,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 198,
-  "InstanceLayout": "dolor",
-  "InstanceName": "Rosenbaum Inc and Sons",
-  "CreatedDate": "1997-09-18T03:51:26.5999985+02:00",
-  "UpdatedDate": "2015-01-14T03:51:26.5999985+01:00",
+  "AudienceLayoutId": 661,
+  "InstanceLayout": "nam",
+  "InstanceName": "Hoppe-McGlynn",
+  "CreatedDate": "1997-07-03T16:00:40.1019505+02:00",
+  "UpdatedDate": "2016-10-11T16:00:40.1019505+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -94,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 545
+      "FieldLength": 419
     }
   }
 }

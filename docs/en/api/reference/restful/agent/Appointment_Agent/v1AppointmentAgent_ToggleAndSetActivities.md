@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/ToggleAndSetActivities
 uid: v1AppointmentAgent_ToggleAndSetActivities
+generated: true
 ---
 
 # POST Agents/Appointment/ToggleAndSetActivities
@@ -74,8 +75,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifiers": [
-    "ad",
-    "occaecati"
+    "similique",
+    "dolorum"
   ]
 }
 ```
@@ -87,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "sit",
-  "aperiam"
+  "ad",
+  "id"
 ]
 ```

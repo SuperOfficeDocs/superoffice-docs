@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/SaveChatTopicEntity
 uid: v1ChatAgent_SaveChatTopicEntity
+generated: true
 ---
 
 # POST Agents/Chat/SaveChatTopicEntity
@@ -122,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 983,
-  "Name": "Haag, Maggio and Wyman",
-  "Description": "Advanced user-facing forecast",
-  "WelcomeMessage": "a",
+  "ChatTopicId": 716,
+  "Name": "Murazik Group",
+  "Description": "Visionary heuristic strategy",
+  "WelcomeMessage": "dicta",
   "Language": null,
-  "LastAccept": "2004-07-04T03:51:26.6624841+02:00",
-  "SecondsPrAccept": 446,
-  "AlertRecipient": "consequatur",
+  "LastAccept": "2022-03-10T16:00:40.1644405+01:00",
+  "SecondsPrAccept": 784,
+  "AlertRecipient": "aut",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "repellat",
+  "CollectConsent": true,
+  "BadgeHeader": "asperiores",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ipsum",
-  "WarnNewChatMinutes": 727,
-  "WarnManagerNewChatMinutes": 472,
+  "CustomQueueText": "quos",
+  "WarnNewChatMinutes": 758,
+  "WarnManagerNewChatMinutes": 553,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 975,
-  "WarnManagerChatMessageMinutes": 737,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 363,
-  "OfflineFormQueueLength": 823,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "ex"
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 416,
+  "WarnManagerChatMessageMinutes": 666,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 688,
+  "OfflineFormQueueLength": 623,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "ea"
 }
 ```
 
@@ -167,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 616,
-  "Name": "Halvorson LLC",
-  "Description": "Front-line explicit intranet",
-  "WelcomeMessage": "ut",
+  "ChatTopicId": 128,
+  "Name": "Gulgowski-O'Connell",
+  "Description": "Sharable optimizing conglomeration",
+  "WelcomeMessage": "culpa",
   "Language": null,
-  "LastAccept": "2021-02-23T03:51:26.6624841+01:00",
-  "SecondsPrAccept": 329,
-  "AlertRecipient": "aut",
+  "LastAccept": "2004-05-14T16:00:40.1800621+02:00",
+  "SecondsPrAccept": 752,
+  "AlertRecipient": "dicta",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "soluta",
+  "BadgeHeader": "eligendi",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "facere",
-  "WarnNewChatMinutes": 163,
-  "WarnManagerNewChatMinutes": 940,
-  "TicketEnabled": false,
+  "CustomQueueText": "magnam",
+  "WarnNewChatMinutes": 599,
+  "WarnManagerNewChatMinutes": 190,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 73,
-  "WarnManagerChatMessageMinutes": 23,
+  "WarnChatMessageMinutes": 706,
+  "WarnManagerChatMessageMinutes": 452,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 319,
-  "OfflineFormQueueLength": 573,
+  "OfflineFormTimeLimit": 280,
+  "OfflineFormQueueLength": 45,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "itaque",
+  "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldLength": 169
     }
   }
 }

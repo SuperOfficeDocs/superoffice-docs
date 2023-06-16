@@ -1,5 +1,6 @@
 ---
 title: ForeignSystem_Agent
+generated: true
 ---
 
 ```http

@@ -1,6 +1,6 @@
 ---
 title: Services88.MDOAgent.GetList SOAP
-generated: 1
+generated: true
 uid: Services88-MDO-GetList
 ---
 

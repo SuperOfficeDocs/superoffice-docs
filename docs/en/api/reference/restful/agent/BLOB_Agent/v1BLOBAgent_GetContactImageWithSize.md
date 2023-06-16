@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/GetContactImageWithSize
 uid: v1BLOBAgent_GetContactImageWithSize
+generated: true
 ---
 
 # POST Agents/BLOB/GetContactImageWithSize
@@ -73,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 168,
-  "Width": 740,
-  "Height": 978
+  "ContactId": 79,
+  "Width": 366,
+  "Height": 833
 }
 ```
 

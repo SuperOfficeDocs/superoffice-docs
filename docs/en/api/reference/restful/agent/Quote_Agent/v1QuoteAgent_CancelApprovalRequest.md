@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CancelApprovalRequest
 uid: v1QuoteAgent_CancelApprovalRequest
+generated: true
 ---
 
 # POST Agents/Quote/CancelApprovalRequest
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Quote/CancelApprovalRequest
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 173
+  "QuoteVersionId": 34
 }
 ```
 
@@ -93,9 +94,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "quasi",
-  "TechExplanation": "qui",
-  "ErrorCode": "asperiores",
+  "UserExplanation": "occaecati",
+  "TechExplanation": "odit",
+  "ErrorCode": "cumque",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -103,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 232
     }
   }
 }

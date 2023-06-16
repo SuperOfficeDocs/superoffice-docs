@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductCategory/Items/Default
 uid: v1ProductCategoryList_CreateDefaultProductCategory
+generated: true
 ---
 
 # GET List/ProductCategory/Items/Default
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 796,
-  "Name": "Mertz-Macejkovic",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "UdListDefinitionId": 164,
-  "Rank": 676,
+  "Id": 730,
+  "Name": "Heller LLC",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "UdListDefinitionId": 881,
+  "Rank": 478,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 658
     }
   }
 }

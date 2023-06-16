@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/SendEMails
 uid: v1EMailAgent_SendEMails
+generated: true
 ---
 
 # POST Agents/EMail/SendEMails
@@ -101,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -120,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "odio",
-      "HTMLBody": "corporis",
+      "Subject": "asperiores",
+      "HTMLBody": "suscipit",
       "From": null,
-      "Sent": "2000-02-03T03:51:27.2248494+01:00",
-      "Size": 365,
+      "Sent": "2017-09-03T16:00:40.9299854+02:00",
+      "Size": 1001,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "ut",
-      "PlainBody": "odit",
-      "IsSent": false,
+      "MessageID": "quidem",
+      "PlainBody": "rem",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 235,
+      "ServerId": 613,
       "Attachments": [
         {},
         {}
@@ -140,12 +141,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Rippin, Romaguera and Nader",
-      "EmailItemId": 477,
-      "AccountId": 105,
-      "ReceivedAt": "2002-10-20T03:51:27.2248494+02:00",
+      "FolderName": "Roberts-Greenfelder",
+      "EmailItemId": 237,
+      "AccountId": 250,
+      "ReceivedAt": "2006-07-03T16:00:40.9299854+02:00",
       "InReplyTo": null,
-      "RepliedAt": "1998-09-10T03:51:27.2248494+02:00",
+      "RepliedAt": "2016-09-13T16:00:40.9299854+02:00",
       "HasCalendarData": true,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -165,155 +166,155 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 102,
-        "ContactName": "DuBuque, Stanton and Jerde",
-        "PersonId": 311,
-        "PersonName": "Schimmel Group",
-        "AssociateId": 124,
-        "Address": "non",
-        "EmailId": 591,
+        "ContactId": 623,
+        "ContactName": "Jast-Bartell",
+        "PersonId": 896,
+        "PersonName": "Adams, Bailey and Rowe",
+        "AssociateId": 143,
+        "Address": "placeat",
+        "EmailId": 650,
         "DuplicatePersonIds": [
-          139,
-          363
+          10,
+          818
         ],
-        "Name": "Treutel, Graham and Kuvalis",
+        "Name": "Murazik-Senger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 934
+            "FieldLength": 464
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 403,
-        "ContactName": "Hickle-O'Kon",
-        "PersonId": 203,
-        "PersonName": "Prohaska, Skiles and Wisoky",
-        "AssociateId": 499,
-        "Address": "doloribus",
-        "EmailId": 223,
+        "ContactId": 343,
+        "ContactName": "Bashirian, Weissnat and Littel",
+        "PersonId": 652,
+        "PersonName": "Nicolas, Connelly and O'Reilly",
+        "AssociateId": 376,
+        "Address": "et",
+        "EmailId": 400,
         "DuplicatePersonIds": [
-          84,
-          269
+          927,
+          555
         ],
-        "Name": "Lebsack Group",
+        "Name": "Upton Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 833
+            "FieldType": "System.String",
+            "FieldLength": 215
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 632,
-        "ContactName": "Mraz Group",
-        "PersonId": 543,
-        "PersonName": "Farrell, Schumm and Ortiz",
-        "AssociateId": 940,
-        "Address": "eius",
-        "EmailId": 605,
+        "ContactId": 560,
+        "ContactName": "Beer, Corwin and Vandervort",
+        "PersonId": 87,
+        "PersonName": "O'Kon-Wilderman",
+        "AssociateId": 90,
+        "Address": "eaque",
+        "EmailId": 629,
         "DuplicatePersonIds": [
-          383,
-          81
+          397,
+          949
         ],
-        "Name": "Schulist LLC",
+        "Name": "Wisoky, Wisoky and Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 980
+            "FieldLength": 748
           }
         }
       }
     ],
-    "Subject": "dolor",
-    "HTMLBody": "animi",
+    "Subject": "sit",
+    "HTMLBody": "et",
     "From": null,
-    "Sent": "2003-02-20T03:51:27.2248494+01:00",
-    "Size": 166,
+    "Sent": "2007-10-29T16:00:40.9299854+01:00",
+    "Size": 811,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "maxime",
-    "PlainBody": "fugit",
-    "IsSent": false,
+    "MessageID": "optio",
+    "PlainBody": "et",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 756,
+    "ServerId": 143,
     "Attachments": [
       {
-        "Description": "Persistent responsive open architecture",
-        "Filename": "perspiciatis",
-        "Size": 338,
-        "Type": "quos",
-        "Encoding": "omnis",
-        "Id": "est",
-        "Disposition": "dolores",
+        "Description": "Front-line well-modulated secured line",
+        "Filename": "animi",
+        "Size": 850,
+        "Type": "voluptas",
+        "Encoding": "tempora",
+        "Id": "corrupti",
+        "Disposition": "voluptatem",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 784
+            "FieldLength": 277
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Russel-Bergnaum",
+        "Name": "Kiehn-McClure",
         "Values": [
-          "animi",
-          "ipsa"
+          "doloribus",
+          "quae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 85
           }
         }
       },
       {
-        "Name": "Russel-Bergnaum",
+        "Name": "Kiehn-McClure",
         "Values": [
-          "animi",
-          "ipsa"
+          "doloribus",
+          "quae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 85
           }
         }
       }
     ],
-    "FolderName": "Smitham, Berge and Kilback",
-    "EmailItemId": 989,
-    "AccountId": 161,
-    "ReceivedAt": "2009-03-25T03:51:27.2248494+01:00",
+    "FolderName": "Kreiger-Hoeger",
+    "EmailItemId": 642,
+    "AccountId": 734,
+    "ReceivedAt": "2001-04-02T16:00:40.9299854+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2000-07-11T03:51:27.2248494+02:00",
-    "HasCalendarData": false,
+    "RepliedAt": "1997-07-13T16:00:40.9299854+02:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldType": "System.String",
+        "FieldLength": 495
       }
     }
   }

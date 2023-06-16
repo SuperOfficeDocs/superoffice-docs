@@ -1,17 +1,11 @@
 ---
 uid: visibleforassociate
 title: visibleforassociate
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "visibleforassociate"
+keywords: mdoprovider mdo provider visibleforassociate
+description: List provider that returns a list suitable for VisibleFor and PinTo (with groups and possibly some other special items like All).
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "visibleforassociate" MDO List

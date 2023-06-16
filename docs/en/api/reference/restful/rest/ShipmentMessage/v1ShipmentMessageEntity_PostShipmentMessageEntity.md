@@ -1,6 +1,7 @@
 ---
 title: POST ShipmentMessage
 uid: v1ShipmentMessageEntity_PostShipmentMessageEntity
+generated: true
 ---
 
 # POST ShipmentMessage
@@ -119,27 +120,27 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 147,
-  "PlainMessage": "iusto",
-  "HtmlMessage": "architecto",
-  "SmsMessage": "est",
-  "Description": "Centralized heuristic software",
-  "Subject": "magnam",
-  "FolderId": 677,
-  "HeaderField": "quos",
-  "Design": "magnam",
+  "ShipmentMessageId": 623,
+  "PlainMessage": "dolores",
+  "HtmlMessage": "ut",
+  "SmsMessage": "maiores",
+  "Description": "Open-architected 6th generation ability",
+  "Subject": "eius",
+  "FolderId": 751,
+  "HeaderField": "provident",
+  "Design": "asperiores",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Realigned incremental encoding",
-  "AccessKey": "sit",
-  "DocumentMessage": 450,
-  "Registered": "2018-09-22T03:51:34.0208828+02:00",
-  "RegisteredAssociateId": 801,
-  "Updated": "2002-07-01T03:51:34.0208828+02:00",
-  "UpdatedAssociateId": 343,
-  "UpdatedCount": 401
+  "LongDescription": "Up-sized fault-tolerant focus group",
+  "AccessKey": "iste",
+  "DocumentMessage": 328,
+  "Registered": "2009-10-11T16:00:48.4615203+02:00",
+  "RegisteredAssociateId": 816,
+  "Updated": "2020-03-15T16:00:48.4615203+01:00",
+  "UpdatedAssociateId": 278,
+  "UpdatedCount": 20
 }
 ```
 
@@ -150,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 970,
-  "PlainMessage": "non",
-  "HtmlMessage": "consectetur",
-  "SmsMessage": "veritatis",
-  "Description": "Switchable next generation archive",
+  "ShipmentMessageId": 669,
+  "PlainMessage": "temporibus",
+  "HtmlMessage": "doloribus",
+  "SmsMessage": "ex",
+  "Description": "Networked 24/7 ability",
   "Subject": "ad",
-  "FolderId": 805,
-  "HeaderField": "optio",
-  "Design": "modi",
+  "FolderId": 533,
+  "HeaderField": "sit",
+  "Design": "nam",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Streamlined multimedia algorithm",
-  "AccessKey": "enim",
-  "DocumentMessage": 942,
-  "Registered": "2011-02-05T03:51:34.0208828+01:00",
-  "RegisteredAssociateId": 926,
-  "Updated": "2015-06-29T03:51:34.0208828+02:00",
-  "UpdatedAssociateId": 39,
-  "UpdatedCount": 444,
+  "LongDescription": "Optimized full-range definition",
+  "AccessKey": "fuga",
+  "DocumentMessage": 210,
+  "Registered": "2015-03-04T16:00:48.4615203+01:00",
+  "RegisteredAssociateId": 116,
+  "Updated": "2010-06-12T16:00:48.4615203+02:00",
+  "UpdatedAssociateId": 983,
+  "UpdatedCount": 453,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldType": "System.String",
+      "FieldLength": 533
     }
   },
   "_Links": {

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CreateDefaultReOpenAppointment
 uid: v1AppointmentAgent_CreateDefaultReOpenAppointment
+generated: true
 ---
 
 # POST Agents/Appointment/CreateDefaultReOpenAppointment
@@ -109,6 +110,9 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -126,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 552
+  "SaleId": 982
 }
 ```
 
@@ -145,63 +149,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-12-24T03:51:26.3344358+01:00",
-  "AppointmentId": 8,
-  "Description": "Reduced object-oriented workforce",
-  "StartDate": "2017-02-12T03:51:26.3344358+01:00",
-  "EndDate": "2015-10-03T03:51:26.3344358+02:00",
+  "CreatedDate": "1996-10-02T16:00:39.9769681+02:00",
+  "AppointmentId": 814,
+  "Description": "Triple-buffered discrete migration",
+  "StartDate": "2002-01-20T16:00:39.9769681+01:00",
+  "EndDate": "2009-06-06T16:00:39.9769681+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 615,
+  "MotherId": 765,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-12-27T03:51:26.3344358+01:00",
+  "UpdatedDate": "2005-09-09T16:00:39.9769681+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 796,
+  "ActiveLinks": 432,
   "Links": [
     {
-      "EntityName": "Green Group",
-      "Id": 926,
-      "Description": "Function-based responsive budgetary management",
-      "ExtraInfo": "sapiente",
-      "LinkId": 292,
+      "EntityName": "Goodwin-O'Kon",
+      "Id": 198,
+      "Description": "Quality-focused demand-driven superstructure",
+      "ExtraInfo": "qui",
+      "LinkId": 753,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 294
         }
       }
     }
   ],
-  "AlarmLeadTime": "aut",
-  "HasAlarm": false,
-  "ColorIndex": 435,
+  "AlarmLeadTime": "incidunt",
+  "HasAlarm": true,
+  "ColorIndex": 586,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "quia",
-  "LeadTime": "at",
-  "Location": "amet",
-  "RejectCounter": 438,
+  "IsAlldayEvent": false,
+  "LagTime": "vero",
+  "LeadTime": "in",
+  "Location": "qui",
+  "RejectCounter": 339,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 280,
-      "PersonId": 968,
-      "ContactId": 1000,
-      "EmailId": 927,
+      "AssociateId": 689,
+      "PersonId": 291,
+      "ContactId": 704,
+      "EmailId": 672,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 280,
-      "PersonId": 968,
-      "ContactId": 1000,
-      "EmailId": 927,
+      "AssociateId": 689,
+      "PersonId": 291,
+      "ContactId": 704,
+      "EmailId": 672,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -209,58 +213,61 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1996-01-11T03:51:26.3344358+01:00",
-  "HasConflict": true,
+  "ActiveDate": "1996-04-22T16:00:39.9769681+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 372,
+  "PreferredTZLocation": 280,
   "Sale": null,
-  "SuggestedAppointmentId": 798,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 339,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "iusto",
+  "CentralserviceVideomeetId": "corporis",
+  "Title": "nesciunt",
+  "Agenda": "asperiores",
+  "InternalNotes": "quis",
   "UserDefinedFields": {
-    "SuperOffice:1": "Cleveland Brekke III",
-    "SuperOffice:2": "Green Zaria Bradtke II"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "magni",
-    "ExtraFields2": "officiis"
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "excepturi"
+    "CustomFields1": "et",
+    "CustomFields2": "error"
   },
-  "PublishEventDate": "2007-10-04T03:51:26.3344358+02:00",
-  "PublishTo": "2002-03-04T03:51:26.3344358+01:00",
-  "PublishFrom": "2013-02-26T03:51:26.3344358+01:00",
+  "PublishEventDate": "2009-09-22T16:00:39.9769681+02:00",
+  "PublishTo": "2007-12-02T16:00:39.9769681+01:00",
+  "PublishFrom": "2005-07-12T16:00:39.9769681+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 580,
+      "VisibleId": 311,
       "Visibility": "All",
-      "DisplayValue": "vero",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 500
+          "FieldType": "System.Int32",
+          "FieldLength": 21
         }
       }
     },
     {
-      "VisibleId": 580,
+      "VisibleId": 311,
       "Visibility": "All",
-      "DisplayValue": "vero",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 500
+          "FieldType": "System.Int32",
+          "FieldLength": 21
         }
       }
     }
@@ -269,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldType": "System.Int32",
+      "FieldLength": 437
     }
   }
 }

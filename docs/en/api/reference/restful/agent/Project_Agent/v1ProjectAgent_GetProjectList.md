@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetProjectList
 uid: v1ProjectAgent_GetProjectList
+generated: true
 ---
 
 # POST Agents/Project/GetProjectList
@@ -86,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 781,
-    "Name": "Beahan-Gorczany",
-    "Description": "Upgradable value-added moratorium",
+    "ProjectId": 720,
+    "Name": "Mosciski-Bergstrom",
+    "Description": "Self-enabling real-time synergy",
     "URL": "http://www.example.com/",
-    "Type": "sed",
-    "AssociateId": 749,
-    "AssociateFullName": "Philip Bartoletti",
-    "TypeId": 228,
-    "Updated": "2008-12-14T03:51:27.943438+01:00",
-    "StatusId": 217,
-    "Status": "et",
-    "TextId": 106,
-    "PublishTo": "2007-05-16T03:51:27.943438+02:00",
-    "PublishFrom": "2018-06-11T03:51:27.943438+02:00",
+    "Type": "nulla",
+    "AssociateId": 339,
+    "AssociateFullName": "Alford Fisher",
+    "TypeId": 748,
+    "Updated": "2020-02-14T16:00:41.5707037+01:00",
+    "StatusId": 891,
+    "Status": "ex",
+    "TextId": 359,
+    "PublishTo": "1998-02-13T16:00:41.5707037+01:00",
+    "PublishFrom": "2016-10-12T16:00:41.5707037+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "576831",
-    "ActiveErpLinks": 727,
+    "ProjectNumber": "1311296",
+    "ActiveErpLinks": 243,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldLength": 402
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: PATCH DashTheme/{id}
 uid: v1DashTheme_PatchDashTheme
+generated: true
 ---
 
 # PATCH DashTheme/{id}
@@ -112,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aperiam",
+    "path": "aspernatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aperiam",
+    "path": "aspernatur",
     "value": {}
   }
 ]
@@ -136,23 +137,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 695,
-  "Name": "Marvin Group",
-  "Config": "dicta",
-  "Rank": 203,
-  "Client": "dolorem",
-  "Style": "molestias",
+  "DashboardThemeId": 319,
+  "Name": "Satterfield, Dicki and Muller",
+  "Config": "dolores",
+  "Rank": 166,
+  "Client": "ullam",
+  "Style": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 514
+      "FieldType": "System.Int32",
+      "FieldLength": 1001
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

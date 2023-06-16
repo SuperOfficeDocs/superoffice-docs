@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/GetUserAgentList
 uid: v1ChatAgent_GetUserAgentList
+generated: true
 ---
 
 # POST Agents/Chat/GetUserAgentList
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": false,
-  "OnlyPresent": false
+  "Flat": true,
+  "OnlyPresent": true
 }
 ```
 
@@ -103,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 971,
-    "Name": "Glover Group",
-    "ToolTip": "Voluptas voluptas error et consequatur sapiente aut quis.",
-    "Deleted": false,
-    "Rank": 274,
-    "Type": "possimus",
+    "Id": 445,
+    "Name": "Flatley-McClure",
+    "ToolTip": "Rerum corporis qui iure earum non.",
+    "Deleted": true,
+    "Rank": 657,
+    "Type": "culpa",
     "ChildItems": [
       {
-        "Id": 941,
-        "Name": "VonRueden Group",
-        "ToolTip": "Praesentium aspernatur a necessitatibus.",
+        "Id": 238,
+        "Name": "Jaskolski-Stracke",
+        "ToolTip": "Ut sint molestiae et error eos aperiam.",
         "Deleted": false,
-        "Rank": 394,
-        "Type": "culpa",
+        "Rank": 808,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "illo",
-        "ColorBlock": 427,
-        "ExtraInfo": "sint",
-        "StyleHint": "aut",
-        "FullName": "Leon Aufderhar",
+        "IconHint": "aperiam",
+        "ColorBlock": 409,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "earum",
+        "FullName": "Ms. Ocie Cummerata II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 841
+            "FieldType": "System.Int32",
+            "FieldLength": 836
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 344,
-    "ExtraInfo": "aut",
-    "StyleHint": "eligendi",
-    "FullName": "Tianna Talia Rohan IV",
+    "IconHint": "labore",
+    "ColorBlock": 529,
+    "ExtraInfo": "ut",
+    "StyleHint": "similique",
+    "FullName": "Zaria Josiane Stoltenberg V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldType": "System.String",
+        "FieldLength": 304
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailEnvelope
 uid: v1EMailAgent_CreateDefaultEMailEnvelope
+generated: true
 ---
 
 # POST Agents/EMail/CreateDefaultEMailEnvelope
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 633,
-  "MessageId": "dolor",
-  "Subject": "aut",
+  "ServerId": 197,
+  "MessageId": "accusantium",
+  "Subject": "aliquam",
   "From": null,
   "To": [
     {
-      "ContactId": 571,
-      "ContactName": "Beatty, Gerhold and Herzog",
-      "PersonId": 768,
-      "PersonName": "Runte, Bartoletti and Moen",
-      "AssociateId": 642,
-      "Address": "ducimus",
-      "EmailId": 143,
+      "ContactId": 468,
+      "ContactName": "Hoppe Group",
+      "PersonId": 761,
+      "PersonName": "Roob, Volkman and Blanda",
+      "AssociateId": 615,
+      "Address": "iste",
+      "EmailId": 59,
       "DuplicatePersonIds": [
-        243,
-        941
+        70,
+        112
       ],
-      "Name": "Lang-Gerlach",
+      "Name": "Bode Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 362
+          "FieldLength": 223
         }
       }
     }
   ],
-  "Sent": "2013-10-25T03:51:27.2092335+02:00",
+  "Sent": "2016-02-11T16:00:40.8987367+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 507,
+  "Size": 776,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 966
+      "FieldType": "System.Int32",
+      "FieldLength": 154
     }
   }
 }

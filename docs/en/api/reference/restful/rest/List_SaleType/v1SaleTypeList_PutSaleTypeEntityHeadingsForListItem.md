@@ -1,6 +1,7 @@
 ---
 title: PUT List/SaleType/Items/{id}/Headings
 uid: v1SaleTypeList_PutSaleTypeEntityHeadingsForListItem
+generated: true
 ---
 
 # PUT List/SaleType/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 21,
-    "Name": "Treutel LLC",
-    "ToolTip": "Pariatur quasi ut voluptas dolores illum deleniti ullam.",
+    "Id": 215,
+    "Name": "Champlin-Leuschke",
+    "ToolTip": "Similique hic quaerat omnis et molestiae et saepe.",
     "Deleted": true,
-    "Rank": 877,
-    "Type": "earum",
-    "ColorBlock": 920,
-    "IconHint": "a",
-    "Selected": false,
-    "LastChanged": "2023-01-03T03:51:34.9582718+01:00",
+    "Rank": 509,
+    "Type": "non",
+    "ColorBlock": 707,
+    "IconHint": "molestias",
+    "Selected": true,
+    "LastChanged": "2015-05-19T16:00:49.3208058+02:00",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "Conroy LLC",
-        "ToolTip": "Exercitationem recusandae animi consequatur.",
-        "Deleted": true,
-        "Rank": 89,
-        "Type": "illo",
-        "ColorBlock": 410,
-        "IconHint": "officia",
-        "Selected": false,
-        "LastChanged": "2017-04-16T03:51:34.9582718+02:00",
+        "Id": 202,
+        "Name": "Rowe, Hand and Kling",
+        "ToolTip": "Corrupti ipsum sequi saepe labore ipsam similique cumque.",
+        "Deleted": false,
+        "Rank": 660,
+        "Type": "odit",
+        "ColorBlock": 476,
+        "IconHint": "veritatis",
+        "Selected": true,
+        "LastChanged": "2002-12-23T16:00:49.3208058+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "voluptates",
-        "Hidden": true,
-        "FullName": "Lera Shanahan V"
+        "ExtraInfo": "eligendi",
+        "StyleHint": "aliquid",
+        "Hidden": false,
+        "FullName": "Shayne Greenholt"
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "nobis",
+    "ExtraInfo": "quis",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Anissa Gregoria Johnston IV"
+    "FullName": "Destini Altenwerth"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Crooks-Dietrich",
-    "ToolTip": "Error sint omnis ratione.",
+    "Id": 409,
+    "Name": "Krajcik-Cartwright",
+    "ToolTip": "Dolor iure velit illum quis voluptas reiciendis.",
     "Deleted": false,
-    "Rank": 321,
-    "Type": "maxime",
-    "ColorBlock": 446,
-    "IconHint": "aperiam",
+    "Rank": 261,
+    "Type": "ut",
+    "ColorBlock": 537,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2013-08-25T03:51:34.9582718+02:00",
+    "LastChanged": "2006-08-15T16:00:49.3208058+02:00",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Williamson-Spencer",
-        "ToolTip": "Error odio illo earum odio.",
+        "Id": 538,
+        "Name": "Steuber-Stoltenberg",
+        "ToolTip": "Qui saepe dicta.",
         "Deleted": false,
-        "Rank": 360,
-        "Type": "saepe",
-        "ColorBlock": 763,
-        "IconHint": "quam",
+        "Rank": 616,
+        "Type": "nisi",
+        "ColorBlock": 231,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2007-03-27T03:51:34.9582718+02:00",
+        "LastChanged": "2021-09-25T16:00:49.3208058+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "et",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Edd Steuber",
+        "FullName": "Duane Medhurst",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 63
+            "FieldLength": 723
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "id",
+    "ExtraInfo": "dolor",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Miss Eino Ottis Hirthe",
+    "FullName": "Toby Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldLength": 354
       }
     }
   }

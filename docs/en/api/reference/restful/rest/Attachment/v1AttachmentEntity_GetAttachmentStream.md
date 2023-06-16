@@ -1,6 +1,7 @@
 ---
 title: GET Attachment/{id}/Content
 uid: v1AttachmentEntity_GetAttachmentStream
+generated: true
 ---
 
 # GET Attachment/{id}/Content
@@ -53,7 +54,7 @@ OK
 GET /api/v1/Attachment/{attachmentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

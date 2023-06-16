@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/AddForeignKey
 uid: v1ForeignSystemAgent_AddForeignKey
+generated: true
 ---
 
 # POST Agents/ForeignSystem/AddForeignKey
@@ -82,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Tremblay-Lind",
-  "DeviceName": "Reinger, Walter and Farrell",
-  "DeviceIdentifier": "consectetur"
+  "ApplicationName": "O'Kon, Corkery and Homenick",
+  "DeviceName": "Koepp-Schmidt",
+  "DeviceIdentifier": "labore"
 }
 ```
 
@@ -100,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aliquam",
-  "Value": "dolores",
-  "RecordId": 410,
-  "CreatedDate": "2019-09-25T03:51:27.3498217+02:00",
-  "UpdatedDate": "2007-08-14T03:51:27.3498217+02:00",
-  "UpdatedBy": "in",
-  "CreatedBy": "natus",
-  "TableName": "Tillman-Shields",
+  "Key": "ipsam",
+  "Value": "cupiditate",
+  "RecordId": 549,
+  "CreatedDate": "2011-04-21T16:00:41.0705907+02:00",
+  "UpdatedDate": "2007-02-25T16:00:41.0705907+01:00",
+  "UpdatedBy": "sed",
+  "CreatedBy": "consequuntur",
+  "TableName": "Wisoky-Jacobs",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldLength": 129
     }
   }
 }

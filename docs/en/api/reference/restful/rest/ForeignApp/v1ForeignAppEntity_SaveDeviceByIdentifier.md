@@ -1,6 +1,7 @@
 ---
 title: PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 uid: v1ForeignAppEntity_SaveDeviceByIdentifier
+generated: true
 ---
 
 # PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 198,
-  "Name": "Fahey LLC",
-  "CreatedDate": "2011-04-26T03:51:33.677213+02:00",
-  "UpdatedDate": "1998-11-03T03:51:33.677213+01:00",
-  "AssociateFullName": "Ms. Lurline Oberbrunner",
-  "CreatedBy": "in",
-  "UpdatedBy": "cupiditate",
-  "DeviceIdentifier": "minus",
-  "ForeignAppId": 672
+  "ForeignDeviceId": 354,
+  "Name": "McCullough Inc and Sons",
+  "CreatedDate": "2000-11-12T16:00:47.9772018+01:00",
+  "UpdatedDate": "2019-07-21T16:00:47.9772018+02:00",
+  "AssociateFullName": "Tatum Wolff",
+  "CreatedBy": "atque",
+  "UpdatedBy": "quae",
+  "DeviceIdentifier": "odio",
+  "ForeignAppId": 890
 }
 ```
 
@@ -107,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 492,
-  "Name": "Miller, Aufderhar and Zulauf",
-  "CreatedDate": "2014-03-11T03:51:33.677213+01:00",
-  "UpdatedDate": "1998-04-23T03:51:33.677213+02:00",
-  "AssociateFullName": "Maximo Annabell Kulas I",
-  "CreatedBy": "et",
-  "UpdatedBy": "possimus",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 977,
+  "ForeignDeviceId": 510,
+  "Name": "Brakus, Lindgren and Skiles",
+  "CreatedDate": "2017-09-19T16:00:47.9772018+02:00",
+  "UpdatedDate": "1998-05-04T16:00:47.9772018+02:00",
+  "AssociateFullName": "Sincere Conroy",
+  "CreatedBy": "provident",
+  "UpdatedBy": "recusandae",
+  "DeviceIdentifier": "consequatur",
+  "ForeignAppId": 450,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 96
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: DEL List/ProjectStatus/Items/{id}
 uid: v1ProjectStatusList_DeleteProjectStatus
+generated: true
 ---
 
 # DEL List/ProjectStatus/Items/{id}

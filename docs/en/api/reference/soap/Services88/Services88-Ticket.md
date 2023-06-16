@@ -1,5 +1,5 @@
 ---
-generated: 1
+generated: true
 uid: wsdl-Services88-Ticket
 title: Services88.TicketAgent WSDL
 ---
@@ -1183,6 +1183,21 @@ title: Services88.TicketAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="CopyToTempFile">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Filename" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="AttachmentId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CopyToTempFileResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="UploadAttachment">
         <xs:complexType>
           <xs:sequence>
@@ -2233,6 +2248,23 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CopyToTempFileRequest">
+    <wsdl:part name="parameters" element="tns:CopyToTempFile" />
+  </wsdl:message>
+  <wsdl:message name="CopyToTempFileRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CopyToTempFileResponse">
+    <wsdl:part name="parameters" element="tns:CopyToTempFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="CopyToTempFileResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="UploadAttachmentRequest">
     <wsdl:part name="parameters" element="tns:UploadAttachment" />
   </wsdl:message>
@@ -3099,6 +3131,10 @@ title: Services88.TicketAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CopyFromCRMDocument" name="CopyFromCRMDocumentRequest" message="tns:CopyFromCRMDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CopyFromCRMDocumentResponse" name="CopyFromCRMDocumentResponse" message="tns:CopyFromCRMDocumentResponse" />
     </wsdl:operation>
+    <wsdl:operation name="CopyToTempFile">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CopyToTempFile" name="CopyToTempFileRequest" message="tns:CopyToTempFileRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CopyToTempFileResponse" name="CopyToTempFileResponse" message="tns:CopyToTempFileResponse" />
+    </wsdl:operation>
     <wsdl:operation name="UploadAttachment">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UploadAttachment" name="UploadAttachmentRequest" message="tns:UploadAttachmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UploadAttachmentResponse" name="UploadAttachmentResponse" message="tns:UploadAttachmentResponse" />
@@ -3423,6 +3459,22 @@ title: Services88.TicketAgent WSDL
         <soap:header message="tns:CopyFromCRMDocumentResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:CopyFromCRMDocumentResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:CopyFromCRMDocumentResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CopyToTempFile">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CopyToTempFile" style="document" />
+      <wsdl:input name="CopyToTempFileRequest">
+        <soap:header message="tns:CopyToTempFileRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CopyToTempFileRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CopyToTempFileRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CopyToTempFileResponse">
+        <soap:header message="tns:CopyToTempFileResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CopyToTempFileResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CopyToTempFileResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CopyToTempFileResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

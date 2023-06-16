@@ -2,17 +2,10 @@
 uid: TicketEscalatedNotification
 title: TicketEscalatedNotification
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "TicketEscalatedNotification"
+keywords: TicketEscalatedNotification archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "TicketEscalatedNotification"
@@ -42,7 +35,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketEscalatedNotification?$select=associateId,notifyDateTime
+GET /api/v1/archive/TicketEscalatedNotification?$select=title,associateId,notifyDateTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

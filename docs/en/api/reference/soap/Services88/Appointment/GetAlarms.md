@@ -1,6 +1,6 @@
 ---
 title: Services88.AppointmentAgent.GetAlarms SOAP
-generated: 1
+generated: true
 uid: Services88-Appointment-GetAlarms
 ---
 
@@ -68,9 +68,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Appointment:Alarms xsi:type="Appointment:ArrayOfAlarmData">
      <Appointment:AlarmData xsi:type="Appointment:AlarmData">
       <Appointment:AppointmentId xsi:type="xsd:int">0</Appointment:AppointmentId>
-      <Appointment:StartTime xsi:type="xsd:dateTime">2023-05-25T11:08:02Z</Appointment:StartTime>
-      <Appointment:EndDate xsi:type="xsd:dateTime">2023-05-25T11:08:02Z</Appointment:EndDate>
-      <Appointment:AlarmTime xsi:type="xsd:dateTime">2023-05-25T11:08:02Z</Appointment:AlarmTime>
+      <Appointment:StartTime xsi:type="xsd:dateTime">2023-06-09T13:58:04Z</Appointment:StartTime>
+      <Appointment:EndDate xsi:type="xsd:dateTime">2023-06-09T13:58:04Z</Appointment:EndDate>
+      <Appointment:AlarmTime xsi:type="xsd:dateTime">2023-06-09T13:58:04Z</Appointment:AlarmTime>
       <Appointment:PersonId xsi:type="xsd:int">0</Appointment:PersonId>
       <Appointment:PersonFullName xsi:type="xsd:string"></Appointment:PersonFullName>
       <Appointment:ContactName xsi:type="xsd:string"></Appointment:ContactName>

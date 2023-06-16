@@ -1,6 +1,7 @@
 ---
 title: GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{id}
 uid: v1ForeignAppEntity_GetKey
+generated: true
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{id}
@@ -79,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 03 Jul 2007 03:51:33 G7T
+Last-Modified: Tue, 30 Nov 2004 16:00:47 G11T
 
 {
-  "Key": "aut",
-  "Value": "laboriosam",
-  "RecordId": 324,
-  "CreatedDate": "2017-09-29T03:51:33.6928335+02:00",
-  "UpdatedDate": "2007-07-03T03:51:33.6928335+02:00",
-  "UpdatedBy": "quis",
-  "CreatedBy": "sed",
-  "TableName": "Gaylord-Franecki",
+  "Key": "deleniti",
+  "Value": "corrupti",
+  "RecordId": 756,
+  "CreatedDate": "1998-02-24T16:00:47.9772018+01:00",
+  "UpdatedDate": "2004-11-30T16:00:47.9772018+01:00",
+  "UpdatedBy": "voluptatum",
+  "CreatedBy": "eveniet",
+  "TableName": "Schultz, Witting and Murphy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 212
     }
   }
 }

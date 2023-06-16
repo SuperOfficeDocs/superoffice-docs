@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/DeleteTriggerScriptByUniqueId
 uid: v1CRMScriptAgent_DeleteTriggerScriptByUniqueId
+generated: true
 ---
 
 # POST Agents/CRMScript/DeleteTriggerScriptByUniqueId
@@ -69,7 +70,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "rerum"
+  "TriggerScriptUniqueId": "ut"
 }
 ```
 

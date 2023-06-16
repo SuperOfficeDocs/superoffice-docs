@@ -1,6 +1,6 @@
 ---
 title: Services88.ReportAgent.UpdateFavorite SOAP
-generated: 1
+generated: true
 uid: Services88-Report-UpdateFavorite
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: PUT Hierarchy/{id}
 uid: v1HierarchyEntity_PutHierarchyEntity
+generated: true
 ---
 
 # PUT Hierarchy/{id}
@@ -96,36 +97,36 @@ HierarchyEntity updated.
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 638,
+  "HierarchyId": 21,
   "Domain": "Dashboards",
-  "Name": "McKenzie-Hammes",
-  "Fullname": "laudantium",
-  "ParentId": 554,
+  "Name": "Monahan, Purdy and Ziemann",
+  "Fullname": "voluptates",
+  "ParentId": 451,
   "Children": [
     {
-      "HierarchyId": 593,
+      "HierarchyId": 136,
       "Domain": "Dashboards",
-      "Name": "Reichel, Lockman and Jakubowski",
-      "Fullname": "est",
-      "ParentId": 789,
+      "Name": "King-Zemlak",
+      "Fullname": "eum",
+      "ParentId": 169,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-01-13T03:51:33.6928335+01:00",
-      "RegisteredAssociateId": 99,
-      "Updated": "2021-09-10T03:51:33.6928335+02:00",
-      "UpdatedAssociateId": 356
+      "Registered": "2007-04-28T16:00:47.9928249+02:00",
+      "RegisteredAssociateId": 626,
+      "Updated": "2019-05-09T16:00:47.9928249+02:00",
+      "UpdatedAssociateId": 177
     }
   ],
-  "Registered": "2007-04-17T03:51:33.6928335+02:00",
-  "RegisteredAssociateId": 571,
-  "Updated": "2006-02-07T03:51:33.6928335+01:00",
-  "UpdatedAssociateId": 1001
+  "Registered": "2019-06-21T16:00:47.9928249+02:00",
+  "RegisteredAssociateId": 772,
+  "Updated": "2011-10-21T16:00:47.9928249+02:00",
+  "UpdatedAssociateId": 650
 }
 ```
 
@@ -136,46 +137,46 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 534,
+  "HierarchyId": 578,
   "Domain": "Dashboards",
-  "Name": "Kerluke LLC",
-  "Fullname": "numquam",
-  "ParentId": 324,
+  "Name": "Hills, Huel and Satterfield",
+  "Fullname": "libero",
+  "ParentId": 577,
   "Children": [
     {
-      "HierarchyId": 212,
+      "HierarchyId": 809,
       "Domain": "Dashboards",
-      "Name": "Jakubowski, Ryan and Becker",
-      "Fullname": "dicta",
-      "ParentId": 864,
+      "Name": "Stark LLC",
+      "Fullname": "sed",
+      "ParentId": 973,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-11-04T03:51:33.6928335+01:00",
-      "RegisteredAssociateId": 327,
-      "Updated": "2008-12-15T03:51:33.6928335+01:00",
-      "UpdatedAssociateId": 422,
+      "Registered": "2000-02-02T16:00:47.9928249+01:00",
+      "RegisteredAssociateId": 151,
+      "Updated": "2015-05-22T16:00:47.9928249+02:00",
+      "UpdatedAssociateId": 151,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldType": "System.String",
+          "FieldLength": 744
         }
       }
     }
   ],
-  "Registered": "2011-01-26T03:51:33.6928335+01:00",
-  "RegisteredAssociateId": 660,
-  "Updated": "2013-12-02T03:51:33.6928335+01:00",
-  "UpdatedAssociateId": 98,
+  "Registered": "2014-03-05T16:00:47.9928249+01:00",
+  "RegisteredAssociateId": 479,
+  "Updated": "2005-09-30T16:00:47.9928249+02:00",
+  "UpdatedAssociateId": 268,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldLength": 456
     }
   },
   "_Links": {

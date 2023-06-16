@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/SaveTicketMessageEntityWithNotify
 uid: v1TicketAgent_SaveTicketMessageEntityWithNotify
+generated: true
 ---
 
 # POST Agents/Ticket/SaveTicketMessageEntityWithNotify
@@ -98,7 +99,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 630,
+  "EjMessageId": 669,
   "Ticket": null,
-  "CreatedAt": "2000-07-03T03:51:28.4120734+02:00",
+  "CreatedAt": "2015-10-21T16:00:42.2425099+02:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "cumque",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "corporis",
-  "TimeSpent": 993,
-  "Body": "voluptate",
-  "HtmlBody": "quae",
-  "EmailHeader": "kirsten@wittingstiedemann.co.uk",
-  "DebugInfo": "nemo",
-  "MailSorter": "magnam",
+  "MessageId": "fugit",
+  "TimeSpent": 596,
+  "Body": "delectus",
+  "HtmlBody": "non",
+  "EmailHeader": "aiyana.johns@vandervort.com",
+  "DebugInfo": "modi",
+  "MailSorter": "non",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "fuga",
+  "SearchTitle": "accusamus",
   "MessageHeaders": [
     {
-      "Id": 429,
-      "Name": "Bartell-Tillman",
-      "Value": "quo",
+      "Id": 866,
+      "Name": "Schumm LLC",
+      "Value": "eligendi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -143,49 +144,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldLength": 874
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "voluptates",
-  "Sentiment": 255,
-  "SentimentConfidence": 165,
+  "Important": true,
+  "Language": "quis",
+  "Sentiment": 333,
+  "SentimentConfidence": 485,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 718,
-      "Name": "Volkman Inc and Sons",
-      "ContentType": "ea",
-      "AttSize": 665,
-      "InlineImage": false,
-      "ContentId": "corporis",
-      "AuthKey": "quidem",
+      "AttachmentId": 838,
+      "Name": "Koch LLC",
+      "ContentType": "quos",
+      "AttSize": 402,
+      "InlineImage": true,
+      "ContentId": "commodi",
+      "AuthKey": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 662
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "natus",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "et",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "voluptate"
+    "CustomFields1": "ea",
+    "CustomFields2": "quos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldType": "System.String",
+      "FieldLength": 976
     }
   }
 }

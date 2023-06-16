@@ -1,5 +1,6 @@
 ---
 title: CRMScript
+generated: true
 ---
 
 ```http

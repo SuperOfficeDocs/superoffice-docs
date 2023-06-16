@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetPublishedDocuments
 uid: v1DocumentAgent_GetPublishedDocuments
+generated: true
 ---
 
 # POST Agents/Document/GetPublishedDocuments
@@ -96,8 +97,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    48,
-    674
+    708,
+    417
   ]
 }
 ```
@@ -110,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 286,
-    "Attention": "et",
-    "Header": "earum",
-    "Name": "Hand-Terry",
-    "OurRef": "quas",
-    "YourRef": "quae",
-    "Description": "Devolved fault-tolerant task-force",
-    "DocumentTemplate": "quas",
+    "DocumentId": 92,
+    "Attention": "porro",
+    "Header": "dolore",
+    "Name": "Larkin, Mayert and Ratke",
+    "OurRef": "provident",
+    "YourRef": "natus",
+    "Description": "Persistent executive analyzer",
+    "DocumentTemplate": "dolore",
     "IsPublished": false,
-    "PersonId": 742,
-    "PersonFullName": "Eda Schaefer",
-    "AssociateFullName": "Jonathon Murray",
-    "ContactId": 92,
-    "ContactName": "Hansen Inc and Sons",
-    "ProjectId": 817,
-    "ProjectName": "Lubowitz LLC",
-    "AssociateId": 638,
-    "Snum": 26,
-    "SaleId": 413,
-    "SaleName": "Lakin LLC",
+    "PersonId": 794,
+    "PersonFullName": "Florencio Hintz",
+    "AssociateFullName": "Hubert Toy",
+    "ContactId": 733,
+    "ContactName": "Doyle LLC",
+    "ProjectId": 270,
+    "ProjectName": "Frami, Bogisich and Oberbrunner",
+    "AssociateId": 179,
+    "Snum": 952,
+    "SaleId": 556,
+    "SaleName": "Walsh, McClure and Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 366
+        "FieldLength": 264
       }
     }
   }

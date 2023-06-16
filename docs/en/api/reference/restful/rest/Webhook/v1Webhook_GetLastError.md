@@ -1,6 +1,7 @@
 ---
 title: GET Webhook/{id}/LastError
 uid: v1Webhook_GetLastError
+generated: true
 ---
 
 # GET Webhook/{id}/LastError
@@ -55,7 +56,7 @@ OK
 GET /api/v1/Webhook/{webhookId}/LastError
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -64,5 +65,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"enim"
+"magnam"
 ```

@@ -1,6 +1,7 @@
 ---
 title: PUT List/ConsentSource/Items/{id}/UserGroups
 uid: v1ConsentSourceList_PutConsentSourceUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/ConsentSource/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 982,
-    "Name": "Wolff, Satterfield and Brakus",
-    "ToolTip": "Hic voluptatum quibusdam et laboriosam quasi et.",
+    "Id": 662,
+    "Name": "Boyer LLC",
+    "ToolTip": "Exercitationem quasi omnis consectetur qui modi sit.",
     "Deleted": false,
-    "Rank": 500,
-    "Type": "iure",
-    "ColorBlock": 130,
-    "IconHint": "repellendus",
-    "Selected": false,
-    "LastChanged": "2008-05-13T03:51:34.6146173+02:00",
+    "Rank": 806,
+    "Type": "nisi",
+    "ColorBlock": 489,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2011-03-26T16:00:48.9302244+01:00",
     "ChildItems": [
       {
-        "Id": 590,
-        "Name": "Gulgowski-Schuster",
-        "ToolTip": "Sapiente error sunt accusantium similique quibusdam corrupti.",
-        "Deleted": true,
-        "Rank": 33,
-        "Type": "est",
-        "ColorBlock": 663,
-        "IconHint": "illo",
+        "Id": 535,
+        "Name": "Corkery Group",
+        "ToolTip": "Dicta et cupiditate voluptatibus.",
+        "Deleted": false,
+        "Rank": 326,
+        "Type": "quibusdam",
+        "ColorBlock": 267,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2021-09-24T03:51:34.6146173+02:00",
+        "LastChanged": "2016-09-06T16:00:48.9302244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "nemo",
-        "Hidden": false,
-        "FullName": "Keshaun Bosco"
+        "ExtraInfo": "veritatis",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Ms. Dimitri Giovanna Reynolds IV"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quis",
+    "ExtraInfo": "fugit",
+    "StyleHint": "rerum",
     "Hidden": true,
-    "FullName": "Domenic Bins"
+    "FullName": "Clarabelle Will"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Jerde Group",
-    "ToolTip": "Quam sit consequatur dolor.",
+    "Id": 462,
+    "Name": "Walter Group",
+    "ToolTip": "Natus ut animi sed consequuntur culpa.",
     "Deleted": false,
-    "Rank": 652,
-    "Type": "similique",
-    "ColorBlock": 831,
-    "IconHint": "labore",
+    "Rank": 430,
+    "Type": "fugiat",
+    "ColorBlock": 425,
+    "IconHint": "mollitia",
     "Selected": false,
-    "LastChanged": "2008-03-01T03:51:34.6146173+01:00",
+    "LastChanged": "2018-03-19T16:00:48.9302244+01:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Bashirian Inc and Sons",
-        "ToolTip": "Et culpa vitae.",
+        "Id": 334,
+        "Name": "Trantow, Smith and Bayer",
+        "ToolTip": "Eum vel ratione voluptatem quos saepe nulla exercitationem.",
         "Deleted": false,
-        "Rank": 977,
-        "Type": "voluptas",
-        "ColorBlock": 799,
-        "IconHint": "amet",
+        "Rank": 891,
+        "Type": "quo",
+        "ColorBlock": 348,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2016-11-14T03:51:34.6146173+01:00",
+        "LastChanged": "2005-11-13T16:00:48.9302244+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "repellat",
-        "Hidden": true,
-        "FullName": "Kevon Crona",
+        "ExtraInfo": "aut",
+        "StyleHint": "sint",
+        "Hidden": false,
+        "FullName": "Miss Weston Ed Johnson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 621
+            "FieldLength": 448
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "deleniti",
-    "Hidden": true,
-    "FullName": "Drake Feil",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Dr. Demetrius Schmeler V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldLength": 83
       }
     }
   }

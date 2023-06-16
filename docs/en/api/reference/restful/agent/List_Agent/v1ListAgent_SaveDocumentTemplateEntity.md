@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveDocumentTemplateEntity
 uid: v1ListAgent_SaveDocumentTemplateEntity
+generated: true
 ---
 
 # POST Agents/List/SaveDocumentTemplateEntity
@@ -114,30 +115,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 81,
-  "Name": "Bernier Group",
-  "Tooltip": "dolor",
-  "SaveInDb": 973,
-  "Filename": "ut",
-  "DefaultOref": "modi",
+  "DocumentTemplateId": 734,
+  "Name": "Jacobson, Hodkiewicz and Goodwin",
+  "Tooltip": "dignissimos",
+  "SaveInDb": 920,
+  "Filename": "quidem",
+  "DefaultOref": "eaque",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 247,
-  "IntentId": 475,
+  "AutoeventId": 361,
+  "IntentId": 357,
   "IsDefaultPublished": false,
-  "Rank": 129,
-  "LoadTemplateFromPlugin": 670,
-  "MimeType": "hic",
+  "Rank": 300,
+  "LoadTemplateFromPlugin": 196,
+  "MimeType": "eos",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 976,
+  "DocumentTypeKey": 836,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rhett_yundt@walker.biz",
-  "IncludeSignature": true,
+  "EmailSubject": "boyd_von@andersoncronin.com",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "newell@welchhartmann.biz",
+  "SenderEmailAddress": "patrick_ortiz@reinger.info",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -149,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 554,
-  "Name": "Dibbert, Von and Boyle",
-  "Tooltip": "repellendus",
-  "SaveInDb": 794,
-  "Filename": "et",
-  "DefaultOref": "omnis",
+  "DocumentTemplateId": 667,
+  "Name": "Funk-Spinka",
+  "Tooltip": "perferendis",
+  "SaveInDb": 953,
+  "Filename": "voluptas",
+  "DefaultOref": "ullam",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 414,
-  "IntentId": 762,
+  "AutoeventId": 33,
+  "IntentId": 871,
   "IsDefaultPublished": false,
-  "Rank": 66,
-  "LoadTemplateFromPlugin": 343,
-  "MimeType": "deserunt",
+  "Rank": 318,
+  "LoadTemplateFromPlugin": 621,
+  "MimeType": "sit",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 57,
+  "DocumentTypeKey": 897,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "vivien@schultz.biz",
+  "EmailSubject": "harmon.waters@brownleuschke.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "willa@hahn.info",
+  "SenderEmailAddress": "freddy_kozey@huels.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 210
+      "FieldLength": 932
     }
   }
 }

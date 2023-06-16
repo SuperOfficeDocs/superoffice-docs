@@ -1,6 +1,7 @@
 ---
 title: PUT Webhook/{id}
 uid: v1Webhook_PutWebhook
+generated: true
 ---
 
 # PUT Webhook/{id}
@@ -102,30 +103,30 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 60,
-  "Name": "Senger-Fadel",
+  "WebhookId": 829,
+  "Name": "Von-Keeling",
   "Events": [
-    "odit",
-    "velit"
+    "explicabo",
+    "quidem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "perferendis",
+  "Secret": "odio",
   "State": "Active",
-  "Type": "aut",
+  "Type": "quis",
   "Headers": {
-    "Headers1": "unde",
-    "Headers2": "ut"
+    "Headers1": "accusantium",
+    "Headers2": "laboriosam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-03-18T03:51:34.3334209+01:00",
+  "Registered": "2010-05-27T16:00:48.8208679+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2005-04-09T03:51:34.3334209+02:00",
+  "Updated": "2006-11-25T16:00:48.8208679+01:00",
   "UpdatedAssociate": null
 }
 ```
@@ -137,30 +138,30 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 151,
-  "Name": "Marvin-Walker",
+  "WebhookId": 189,
+  "Name": "Rice, Champlin and Braun",
   "Events": [
     "provident",
-    "aut"
+    "repellat"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "autem",
+  "Secret": "architecto",
   "State": "Active",
-  "Type": "tempora",
+  "Type": "minus",
   "Headers": {
-    "Headers1": "ipsa",
-    "Headers2": "quisquam"
+    "Headers1": "ut",
+    "Headers2": "ad"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-04-06T03:51:34.3334209+02:00",
+  "Registered": "2019-12-11T16:00:48.8208679+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-04-22T03:51:34.3334209+02:00",
+  "Updated": "2009-02-13T16:00:48.8208679+01:00",
   "UpdatedAssociate": null,
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

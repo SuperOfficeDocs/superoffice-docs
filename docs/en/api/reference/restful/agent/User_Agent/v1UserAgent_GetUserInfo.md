@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetUserInfo
 uid: v1UserAgent_GetUserInfo
+generated: true
 ---
 
 # POST Agents/User/GetUserInfo
@@ -27,7 +28,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=639
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=984
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,29 +94,29 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Deleted": false,
-  "UserInfoId": 576,
-  "UserName": "Reynolds-Pagac",
-  "PersonId": 120,
-  "Rank": 565,
-  "Tooltip": "incidunt",
-  "UserGroupId": 433,
-  "EjUserId": 697,
+  "UserInfoId": 595,
+  "UserName": "Reichert, Boyle and Jones",
+  "PersonId": 803,
+  "Rank": 529,
+  "Tooltip": "voluptatem",
+  "UserGroupId": 661,
+  "EjUserId": 211,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "dolorem",
-    "at"
+    "est",
+    "fuga"
   ],
-  "CanLogon": true,
-  "RoleName": "King, Block and Kassulke",
-  "RoleTooltip": "ad",
-  "UserGroupName": "Heaney-Kunde",
-  "UserGroupTooltip": "atque",
+  "CanLogon": false,
+  "RoleName": "Reichert-Effertz",
+  "RoleTooltip": "eius",
+  "UserGroupName": "Volkman LLC",
+  "UserGroupTooltip": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldType": "System.String",
+      "FieldLength": 329
     }
   }
 }

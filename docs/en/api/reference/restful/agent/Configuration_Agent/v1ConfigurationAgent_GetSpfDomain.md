@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetSpfDomain
 uid: v1ConfigurationAgent_GetSpfDomain
+generated: true
 ---
 
 # POST Agents/Configuration/GetSpfDomain
@@ -68,5 +69,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"vitae"
+"minima"
 ```

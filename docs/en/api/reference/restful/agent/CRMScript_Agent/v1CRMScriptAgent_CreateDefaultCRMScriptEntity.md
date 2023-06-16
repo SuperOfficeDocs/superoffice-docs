@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/CreateDefaultCRMScriptEntity
 uid: v1CRMScriptAgent_CreateDefaultCRMScriptEntity
+generated: true
 ---
 
 # POST Agents/CRMScript/CreateDefaultCRMScriptEntity
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 973,
-  "UniqueIdentifier": "aut",
-  "Name": "Herzog Inc and Sons",
-  "Description": "Cross-group assymetric paradigm",
-  "IncludeId": "est",
-  "HierarchyId": 911,
-  "Source": "voluptatem",
-  "Registered": "2021-01-06T03:51:26.9280353+01:00",
-  "RegisteredAssociateId": 230,
-  "Updated": "2001-11-02T03:51:26.9280353+01:00",
-  "UpdatedAssociateId": 103,
+  "EjscriptId": 175,
+  "UniqueIdentifier": "quidem",
+  "Name": "Ankunding-Koss",
+  "Description": "Proactive heuristic algorithm",
+  "IncludeId": "eos",
+  "HierarchyId": 357,
+  "Source": "pariatur",
+  "Registered": "2022-12-26T16:00:40.4768796+01:00",
+  "RegisteredAssociateId": 152,
+  "Updated": "2005-02-24T16:00:40.4768796+01:00",
+  "UpdatedAssociateId": 678,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 92
+      "FieldType": "System.Int32",
+      "FieldLength": 129
     }
   }
 }

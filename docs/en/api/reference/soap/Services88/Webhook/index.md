@@ -1,7 +1,7 @@
 ---
 title: Services88.WebhookAgent SOAP
 uid: Services88-Webhook-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Webhook SOAP

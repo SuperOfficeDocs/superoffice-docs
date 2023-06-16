@@ -1,6 +1,7 @@
 ---
 title: POST Attachment/CopyFromCRMDocument/{id}
 uid: v1AttachmentEntity_CopyFromCRMDocument
+generated: true
 ---
 
 # POST Attachment/CopyFromCRMDocument/{id}
@@ -74,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 432,
-  "Name": "Daugherty, Schuppe and Bashirian",
-  "ContentType": "tenetur",
-  "AttSize": 543,
+  "AttachmentId": 535,
+  "Name": "Franecki Inc and Sons",
+  "ContentType": "quod",
+  "AttSize": 138,
   "InlineImage": false,
-  "ContentId": "voluptatem",
-  "AuthKey": "odit",
+  "ContentId": "autem",
+  "AuthKey": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 696
     }
   }
 }

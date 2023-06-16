@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectStatus
 uid: v1ProjectStatusList_GetListDefinition
+generated: true
 ---
 
 # GET List/ProjectStatus
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 917,
-  "Name": "Walker Group",
-  "Tooltip": "assumenda",
+  "Id": 723,
+  "Name": "Boyer-Kessler",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 457,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quis",
-  "InUseByUserDefinedFields": false,
+  "Rank": 979,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "vel",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldType": "System.String",
+      "FieldLength": 333
     }
   },
   "_Links": {

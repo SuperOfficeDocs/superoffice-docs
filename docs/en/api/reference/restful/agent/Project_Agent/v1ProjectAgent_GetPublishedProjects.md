@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetPublishedProjects
 uid: v1ProjectAgent_GetPublishedProjects
+generated: true
 ---
 
 # POST Agents/Project/GetPublishedProjects
@@ -89,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    182,
-    552
+    458,
+    941
   ]
 }
 ```
@@ -108,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 852,
-    "Name": "Purdy LLC",
-    "Description": "Fully-configurable zero defect toolset",
+    "ProjectId": 901,
+    "Name": "Rath, Hegmann and Cronin",
+    "Description": "Open-architected uniform focus group",
     "URL": "http://www.example.com/",
-    "Type": "repudiandae",
-    "AssociateId": 63,
-    "AssociateFullName": "Annetta Bruen",
-    "TypeId": 893,
-    "Updated": "2002-10-29T03:51:27.9590553+01:00",
-    "StatusId": 247,
-    "Status": "tempora",
-    "TextId": 206,
-    "PublishTo": "2002-02-24T03:51:27.9590553+01:00",
-    "PublishFrom": "2006-08-17T03:51:27.9590553+02:00",
+    "Type": "quo",
+    "AssociateId": 612,
+    "AssociateFullName": "Ms. Pattie Farrell",
+    "TypeId": 261,
+    "Updated": "2006-07-16T16:00:41.5707037+02:00",
+    "StatusId": 706,
+    "Status": "nesciunt",
+    "TextId": 119,
+    "PublishTo": "2014-03-09T16:00:41.5707037+01:00",
+    "PublishFrom": "2007-05-01T16:00:41.5707037+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1737622",
-    "ActiveErpLinks": 323,
+    "ProjectNumber": "494539",
+    "ActiveErpLinks": 468,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldLength": 760
       }
     }
   }

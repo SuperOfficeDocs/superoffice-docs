@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultHeadingEntity
 uid: v1ListAgent_CreateDefaultHeadingEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultHeadingEntity
@@ -61,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 635,
-  "Name": "Hermiston-Prohaska",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 735,
-  "UdListDefinitionId": 680,
+  "HeadingId": 936,
+  "Name": "Shanahan-Lueilwitz",
+  "Tooltip": "amet",
+  "Deleted": false,
+  "Rank": 750,
+  "UdListDefinitionId": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldLength": 127
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/SetAsLost
 uid: v1SaleAgent_SetAsLost
+generated: true
 ---
 
 # POST Agents/Sale/SetAsLost
@@ -70,8 +71,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    542,
-    543
+    56,
+    496
   ]
 }
 ```

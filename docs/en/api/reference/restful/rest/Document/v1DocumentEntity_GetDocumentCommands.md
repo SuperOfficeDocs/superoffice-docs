@@ -1,6 +1,7 @@
 ---
 title: GET Document/{id}/Command
 uid: v1DocumentEntity_GetDocumentCommands
+generated: true
 ---
 
 # GET Document/{id}/Command
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Document/{documentId}/Command
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marks, Cronin and Pagac",
-    "DisplayName": "Auer-Hermiston",
-    "DisplayTooltip": "adipisci",
-    "IconHint": "asperiores",
+    "Name": "DuBuque LLC",
+    "DisplayName": "Mann Group",
+    "DisplayTooltip": "minima",
+    "IconHint": "voluptatem",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Marks, Cronin and Pagac",
-    "DisplayName": "Auer-Hermiston",
-    "DisplayTooltip": "adipisci",
-    "IconHint": "asperiores",
+    "Name": "DuBuque LLC",
+    "DisplayName": "Mann Group",
+    "DisplayTooltip": "minima",
+    "IconHint": "voluptatem",
     "ReturnType": "CustomGui"
   }
 ]

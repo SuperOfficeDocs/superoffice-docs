@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentTerm/Items/{id}
 uid: v1PaymentTermsList_GetPaymentTerm
+generated: true
 ---
 
 # GET List/PaymentTerm/Items/{id}
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 252,
-  "Name": "Ankunding-Bergnaum",
-  "Tooltip": "id",
-  "Deleted": false,
-  "UdListDefinitionId": 829,
-  "Rank": 489,
+  "Id": 901,
+  "Name": "Koelpin, Connelly and Paucek",
+  "Tooltip": "minima",
+  "Deleted": true,
+  "UdListDefinitionId": 733,
+  "Rank": 191,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 344
     }
   }
 }

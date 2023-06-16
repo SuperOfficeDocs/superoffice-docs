@@ -2,17 +2,10 @@
 uid: Notification
 title: Notification
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "Notification"
+keywords: Notification archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "Notification"
@@ -63,7 +56,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Notification?$select=startDateTime,updateType,location
+GET /api/v1/archive/Notification?$select=updateType,location
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

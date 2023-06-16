@@ -1,6 +1,7 @@
 ---
 title: DEL List/PaymentTerm/Items
 uid: v1PaymentTermsList_DeleteAllPaymentTerm
+generated: true
 ---
 
 # DEL List/PaymentTerm/Items

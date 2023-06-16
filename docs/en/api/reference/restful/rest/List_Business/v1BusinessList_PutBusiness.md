@@ -1,6 +1,7 @@
 ---
 title: PUT List/Business/Items/{id}
 uid: v1BusinessList_PutBusiness
+generated: true
 ---
 
 # PUT List/Business/Items/{id}
@@ -77,16 +78,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 725,
-  "Name": "Hills, Cole and Dietrich",
-  "Tooltip": "in",
-  "Deleted": false,
-  "UdListDefinitionId": 701,
-  "Rank": 64
+  "Id": 937,
+  "Name": "Gleason-Hilpert",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "UdListDefinitionId": 966,
+  "Rank": 35
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 816,
-  "Name": "Tillman-Kuhic",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "UdListDefinitionId": 761,
-  "Rank": 859,
+  "Id": 882,
+  "Name": "Satterfield LLC",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 229,
+  "Rank": 285,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 27
     }
   }
 }

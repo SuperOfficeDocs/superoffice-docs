@@ -1,6 +1,7 @@
 ---
 title: PUT List/DocumentTemplate/Items/{id}/Headings
 uid: v1DocumentTemplateList_PutDocumentTemplateEntityHeadingsForListItem
+generated: true
 ---
 
 # PUT List/DocumentTemplate/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 323,
-    "Name": "Blick Inc and Sons",
-    "ToolTip": "Minima sit et sunt.",
+    "Id": 579,
+    "Name": "King, Metz and Hills",
+    "ToolTip": "Nobis omnis omnis tenetur consequuntur.",
     "Deleted": false,
-    "Rank": 111,
-    "Type": "laudantium",
-    "ColorBlock": 440,
-    "IconHint": "qui",
+    "Rank": 816,
+    "Type": "dolorum",
+    "ColorBlock": 259,
+    "IconHint": "eligendi",
     "Selected": true,
-    "LastChanged": "1998-09-04T03:51:34.692727+02:00",
+    "LastChanged": "2008-12-12T16:00:49.0395847+01:00",
     "ChildItems": [
       {
-        "Id": 193,
-        "Name": "Barrows LLC",
-        "ToolTip": "Aut expedita repudiandae maiores ipsa omnis.",
+        "Id": 636,
+        "Name": "Feeney-Barton",
+        "ToolTip": "Nemo odio qui.",
         "Deleted": false,
-        "Rank": 592,
-        "Type": "consectetur",
-        "ColorBlock": 764,
-        "IconHint": "natus",
-        "Selected": false,
-        "LastChanged": "2001-06-14T03:51:34.692727+02:00",
+        "Rank": 970,
+        "Type": "dolor",
+        "ColorBlock": 613,
+        "IconHint": "veniam",
+        "Selected": true,
+        "LastChanged": "1998-01-15T16:00:49.0395847+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "nam",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Fredy Spinka"
+        "FullName": "Mrs. Rachelle Cruickshank DDS"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Gideon Ondricka I"
+    "ExtraInfo": "aliquam",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Thaddeus Quigley"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 664,
-    "Name": "Spinka-Connelly",
-    "ToolTip": "Aut et et omnis.",
-    "Deleted": true,
-    "Rank": 664,
-    "Type": "vel",
-    "ColorBlock": 57,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2001-04-11T03:51:34.692727+02:00",
+    "Id": 234,
+    "Name": "Wilkinson-Heller",
+    "ToolTip": "Molestiae ipsa voluptas voluptatem provident.",
+    "Deleted": false,
+    "Rank": 954,
+    "Type": "et",
+    "ColorBlock": 464,
+    "IconHint": "modi",
+    "Selected": false,
+    "LastChanged": "2006-09-26T16:00:49.0395847+02:00",
     "ChildItems": [
       {
-        "Id": 327,
-        "Name": "Windler LLC",
-        "ToolTip": "Nam perferendis.",
+        "Id": 805,
+        "Name": "Muller, Brown and Shanahan",
+        "ToolTip": "Non voluptas eligendi laboriosam.",
         "Deleted": false,
-        "Rank": 265,
-        "Type": "commodi",
-        "ColorBlock": 121,
-        "IconHint": "ea",
+        "Rank": 282,
+        "Type": "omnis",
+        "ColorBlock": 782,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2009-07-29T03:51:34.692727+02:00",
+        "LastChanged": "2006-08-09T16:00:49.0395847+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "repellat",
+        "ExtraInfo": "dolores",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Pansy Kuhic",
+        "FullName": "Rosario Bartell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 174
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Quinton Hyatt",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Ms. Fred Torey DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 762
+        "FieldLength": 302
       }
     }
   }

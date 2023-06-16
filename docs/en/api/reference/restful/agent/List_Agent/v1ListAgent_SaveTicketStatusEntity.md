@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveTicketStatusEntity
 uid: v1ListAgent_SaveTicketStatusEntity
+generated: true
 ---
 
 # POST Agents/List/SaveTicketStatusEntity
@@ -74,16 +75,16 @@ OK
 POST /api/v1/Agents/List/SaveTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 765,
-  "Name": "Rath, Reichert and Cartwright",
+  "TicketStatusId": 404,
+  "Name": "West-Schaefer",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": true,
+  "NoEmailReopen": true,
+  "IsDefault": false,
   "UsedInQueue": false
 }
 ```
@@ -95,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 109,
-  "Name": "Parisian-Trantow",
+  "TicketStatusId": 178,
+  "Name": "Blanda-Powlowski",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
-  "IsDefault": false,
+  "IsDefault": true,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldType": "System.Int32",
+      "FieldLength": 305
     }
   }
 }

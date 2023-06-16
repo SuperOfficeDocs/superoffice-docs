@@ -2,17 +2,10 @@
 uid: AppointmentSelectionV2
 title: AppointmentSelectionV2
 description: This is the archive Provider for the Selection appouintment archive.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "AppointmentSelectionV2"
+keywords: AppointmentSelectionV2 archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "AppointmentSelectionV2"
@@ -128,6 +121,10 @@ This is the archive Provider for the Selection appouintment archive.
 |contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
 |contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
@@ -228,6 +225,10 @@ This is the archive Provider for the Selection appouintment archive.
 |contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |contact/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/LastSale|date|Date of last sale|  |
 |contact/LastCompletedSale|date|Date of last completed sale|  |
 |contact/LastDoBySale|date|Date of last non-completed sale|  |
@@ -328,6 +329,10 @@ This is the archive Provider for the Selection appouintment archive.
 |person/personAddress/zip|string|Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |person/personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |person/personAddress/wgs84latitude|decimal|Contact address - Latitude: Latitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
 |person/personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |person/personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
@@ -428,6 +433,10 @@ This is the archive Provider for the Selection appouintment archive.
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
@@ -528,6 +537,10 @@ This is the archive Provider for the Selection appouintment archive.
 |project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |project/NumberOfActivities|int|Number of activities|  |
 |project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
@@ -628,6 +641,10 @@ This is the archive Provider for the Selection appouintment archive.
 |sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
@@ -688,7 +705,7 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionV2?$select=contact/contactExtra/x_contact_float,person/personUdef/SuperOffice:2,person/personUdef/SuperOffice:8,sale/saleId,sale/earningPercent
+GET /api/v1/archive/AppointmentSelectionV2?$select=project/projectAssociate/personEmail,project/NumberOfNotCompletedActivitiesInPeriod,person/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

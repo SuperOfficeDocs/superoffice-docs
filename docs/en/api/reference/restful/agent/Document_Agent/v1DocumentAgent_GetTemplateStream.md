@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetTemplateStream
 uid: v1DocumentAgent_GetTemplateStream
+generated: true
 ---
 
 # POST Agents/Document/GetTemplateStream
@@ -69,13 +70,13 @@ OK
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Langworth-Luettgen",
+  "TemplateName": "Cole Inc and Sons",
   "AllowPersonal": false,
-  "UiCulture": "quas"
+  "UiCulture": "dolores"
 }
 ```
 

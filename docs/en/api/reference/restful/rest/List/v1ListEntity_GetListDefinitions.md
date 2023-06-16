@@ -1,6 +1,7 @@
 ---
 title: GET List
 uid: v1ListEntity_GetListDefinitions
+generated: true
 ---
 
 # GET List
@@ -73,7 +74,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Name": "Weimann-Bergstrom",
-    "Tooltip": "quas",
+    "Id": 685,
+    "Name": "Cremin Group",
+    "Tooltip": "minima",
     "Deleted": false,
-    "Rank": 441,
+    "Rank": 924,
     "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "magni",
-    "InUseByUserDefinedFields": true,
+    "ListType": "id",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 906
+        "FieldLength": 968
       }
     }
   }

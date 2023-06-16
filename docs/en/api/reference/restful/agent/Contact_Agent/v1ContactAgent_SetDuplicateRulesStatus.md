@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/SetDuplicateRulesStatus
 uid: v1ContactAgent_SetDuplicateRulesStatus
+generated: true
 ---
 
 # POST Agents/Contact/SetDuplicateRulesStatus
@@ -63,22 +64,22 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Kulas Group",
-      "DisplayName": "Bernhard-Botsford",
-      "DisplayTooltip": "sed",
-      "IsActive": true
+      "Name": "Cassin, Kuhic and Lindgren",
+      "DisplayName": "Nolan, Bartoletti and Pfannerstill",
+      "DisplayTooltip": "quaerat",
+      "IsActive": false
     },
     {
-      "Name": "Kulas Group",
-      "DisplayName": "Bernhard-Botsford",
-      "DisplayTooltip": "sed",
-      "IsActive": true
+      "Name": "Cassin, Kuhic and Lindgren",
+      "DisplayName": "Nolan, Bartoletti and Pfannerstill",
+      "DisplayTooltip": "quaerat",
+      "IsActive": false
     }
   ]
 }

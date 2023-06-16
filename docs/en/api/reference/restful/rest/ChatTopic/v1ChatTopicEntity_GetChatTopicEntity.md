@@ -1,6 +1,7 @@
 ---
 title: GET ChatTopic/{id}
 uid: v1ChatTopicEntity_GetChatTopicEntity
+generated: true
 ---
 
 # GET ChatTopic/{id}
@@ -102,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -112,21 +113,21 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 552,
-  "Name": "Jerde-Gulgowski",
-  "Description": "Cross-platform well-modulated ability",
-  "WelcomeMessage": "sint",
+  "ChatTopicId": 934,
+  "Name": "Parisian-Macejkovic",
+  "Description": "Balanced systemic toolset",
+  "WelcomeMessage": "voluptate",
   "Language": null,
-  "LastAccept": "1998-04-10T03:51:33.2241895+02:00",
-  "SecondsPrAccept": 95,
-  "AlertRecipient": "dolor",
+  "LastAccept": "2009-09-19T16:00:47.6647341+02:00",
+  "SecondsPrAccept": 354,
+  "AlertRecipient": "dolorem",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "sint",
+  "BadgeHeader": "maxime",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "asperiores",
-  "WarnNewChatMinutes": 248,
-  "WarnManagerNewChatMinutes": 573,
+  "CustomQueueText": "minus",
+  "WarnNewChatMinutes": 227,
+  "WarnManagerNewChatMinutes": 210,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -135,20 +136,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 630,
-  "WarnManagerChatMessageMinutes": 444,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 957,
+  "WarnManagerChatMessageMinutes": 171,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 562,
-  "OfflineFormQueueLength": 692,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "velit",
+  "OfflineFormTimeLimit": 357,
+  "OfflineFormQueueLength": 22,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 180
     }
   },
   "_Links": {

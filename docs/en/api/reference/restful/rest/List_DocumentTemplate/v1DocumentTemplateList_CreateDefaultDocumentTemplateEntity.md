@@ -1,6 +1,7 @@
 ---
 title: GET List/DocumentTemplate/Items/Default
 uid: v1DocumentTemplateList_CreateDefaultDocumentTemplateEntity
+generated: true
 ---
 
 # GET List/DocumentTemplate/Items/Default
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 75,
-  "Name": "Windler, Labadie and Morissette",
-  "Tooltip": "est",
-  "SaveInDb": 431,
-  "Filename": "illum",
+  "DocumentTemplateId": 363,
+  "Name": "Flatley, Skiles and Cartwright",
+  "Tooltip": "dolores",
+  "SaveInDb": 767,
+  "Filename": "modi",
   "DefaultOref": "explicabo",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 982,
-  "IntentId": 832,
-  "IsDefaultPublished": true,
-  "Rank": 728,
-  "LoadTemplateFromPlugin": 531,
-  "MimeType": "aut",
+  "AutoeventId": 603,
+  "IntentId": 371,
+  "IsDefaultPublished": false,
+  "Rank": 352,
+  "LoadTemplateFromPlugin": 696,
+  "MimeType": "ratione",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 187,
+  "DocumentTypeKey": 983,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cecelia_hansen@blandapowlowski.info",
+  "EmailSubject": "jaylon.bernhard@erdman.ca",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lucinda@kreiger.biz",
+  "SenderEmailAddress": "jo.bednar@kovacek.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 43
+      "FieldLength": 355
     }
   }
 }

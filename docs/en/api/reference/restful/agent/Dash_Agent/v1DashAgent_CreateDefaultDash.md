@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/CreateDefaultDash
 uid: v1DashAgent_CreateDefaultDash
+generated: true
 ---
 
 # POST Agents/Dash/CreateDefaultDash
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 995,
-  "UniqueId": "similique",
-  "Name": "Padberg, Hilpert and Heathcote",
-  "Description": "Organized explicit superstructure",
-  "AssociateId": 627,
-  "Columns": 835,
+  "DashboardId": 495,
+  "UniqueId": "quia",
+  "Name": "Paucek-Larkin",
+  "Description": "Automated needs-based framework",
+  "AssociateId": 827,
+  "Columns": 776,
   "Theme": null,
-  "VisibleForAll": 498,
+  "VisibleForAll": 195,
   "VisibleForAssociates": [
-    185,
-    971
+    529,
+    312
   ],
   "VisibleForGroups": [
-    928,
-    973
+    103,
+    499
   ],
-  "PinForAll": 548,
+  "PinForAll": 560,
   "PinForAssociates": [
-    806,
-    94
+    658,
+    974
   ],
   "PinForGroups": [
-    130,
-    158
+    401,
+    926
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 692
+      "FieldType": "System.Int32",
+      "FieldLength": 49
     }
   }
 }

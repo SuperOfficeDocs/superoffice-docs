@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/AddChatMessage
 uid: v1ChatAgent_AddChatMessage
+generated: true
 ---
 
 # POST Agents/Chat/AddChatMessage
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/Chat/AddChatMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 828,
+  "ChatSessionId": 566,
   "Message": null
 }
 ```
@@ -95,14 +96,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 797,
-  "ChatSessionId": 398,
+  "ChatMessageId": 728,
+  "ChatSessionId": 285,
   "Type": "Invalid",
-  "Message": "nobis",
-  "Author": "neque",
-  "ReadByCustomer": 431,
+  "Message": "architecto",
+  "Author": "est",
+  "ReadByCustomer": 996,
   "SpecialType": "Block",
-  "SpecialParam": "omnis",
-  "WhenPosted": "2015-03-11T03:51:26.7562093+01:00"
+  "SpecialParam": "sunt",
+  "WhenPosted": "2019-03-20T16:00:40.2581782+01:00"
 }
 ```

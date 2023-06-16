@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/GetMyRecentContacts
 uid: v1ContactAgent_GetMyRecentContacts
+generated: true
 ---
 
 # POST Agents/Contact/GetMyRecentContacts
@@ -97,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 115,
-    "Name": "Bartell, Gorczany and Cronin",
-    "OrgNr": "733044",
+    "ContactId": 692,
+    "Name": "Mueller, Yost and Cummerata",
+    "OrgNr": "1252010",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "nostrum",
-    "DirectPhone": "(744)719-2099 x1533",
-    "AssociateId": 875,
-    "CountryId": 536,
-    "EmailAddress": "gerhard_denesik@macejkovic.uk",
-    "Kananame": "soluta",
-    "EmailAddressName": "delta_toy@cole.com",
+    "City": "asperiores",
+    "DirectPhone": "820.647.6360 x3746",
+    "AssociateId": 431,
+    "CountryId": 7,
+    "EmailAddress": "afton@baileyrunolfsson.biz",
+    "Kananame": "harum",
+    "EmailAddressName": "hildegard@runtefahey.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Rodrigo Grady",
+    "AssociateFullName": "Emma Rippin",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "quo",
-    "FullName": "Jamison Adams",
+    "FormattedAddress": "et",
+    "FullName": "Myrtle Satterfield",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 782,
-    "Number1": "260261",
-    "Number2": "1359458",
+    "ActiveErpLinks": 193,
+    "Number1": "582061",
+    "Number2": "1178621",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldType": "System.String",
+        "FieldLength": 221
       }
     }
   }

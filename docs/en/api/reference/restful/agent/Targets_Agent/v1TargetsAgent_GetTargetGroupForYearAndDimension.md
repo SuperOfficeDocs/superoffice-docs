@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/GetTargetGroupForYearAndDimension
 uid: v1TargetsAgent_GetTargetGroupForYearAndDimension
+generated: true
 ---
 
 # POST Agents/Targets/GetTargetGroupForYearAndDimension
@@ -78,12 +79,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 751,
-  "DimensionId": 638
+  "TargetYear": 936,
+  "DimensionId": 664
 }
 ```
 
@@ -94,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 356,
-  "Year": 748,
+  "TargetGroupId": 913,
+  "Year": 908,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 218,
+      "TargetAssignmentInfoId": 51,
       "Values": [
-        513,
-        330
+        384,
+        931
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 375,
-      "DimensionListItemDisplayName": "Prosacco Group",
+      "DimensionListItem": 867,
+      "DimensionListItemDisplayName": "Purdy-Maggio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldType": "System.String",
+          "FieldLength": 90
         }
       }
     }
@@ -128,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 550
     }
   }
 }

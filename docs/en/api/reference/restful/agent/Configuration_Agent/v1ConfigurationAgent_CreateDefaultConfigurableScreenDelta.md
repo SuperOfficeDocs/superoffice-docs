@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/CreateDefaultConfigurableScreenDelta
 uid: v1ConfigurationAgent_CreateDefaultConfigurableScreenDelta
+generated: true
 ---
 
 # POST Agents/Configuration/CreateDefaultConfigurableScreenDelta
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 213,
-  "Name": "Abshire, Mertz and Langworth",
-  "Description": "Enhanced incremental standardization",
-  "DeltaJson": "velit",
+  "ConfigurableScreenDeltaId": 899,
+  "Name": "Vandervort Group",
+  "Description": "Progressive mobile algorithm",
+  "DeltaJson": "eos",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "vitae",
-  "UpdatedDate": "2018-09-11T03:51:26.7718335+02:00",
-  "CreatedDate": "2005-11-03T03:51:26.7718335+01:00",
+  "RecipeId": "earum",
+  "UpdatedDate": "2020-04-12T16:00:40.2894057+02:00",
+  "CreatedDate": "1996-04-02T16:00:40.2894057+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    258,
-    13
+    463,
+    973
   ],
-  "AppliesToKey": "non",
+  "AppliesToKey": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 469
+      "FieldType": "System.Int32",
+      "FieldLength": 274
     }
   }
 }

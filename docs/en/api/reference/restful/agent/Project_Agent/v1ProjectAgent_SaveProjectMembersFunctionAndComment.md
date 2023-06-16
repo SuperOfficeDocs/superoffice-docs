@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/SaveProjectMembersFunctionAndComment
 uid: v1ProjectAgent_SaveProjectMembersFunctionAndComment
+generated: true
 ---
 
 # POST Agents/Project/SaveProjectMembersFunctionAndComment
@@ -65,16 +66,16 @@ No Content
 POST /api/v1/Agents/Project/SaveProjectMembersFunctionAndComment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    466,
-    284
+    784,
+    353
   ],
-  "RoleId": 302,
-  "Comment": "beatae"
+  "RoleId": 304,
+  "Comment": "id"
 }
 ```
 

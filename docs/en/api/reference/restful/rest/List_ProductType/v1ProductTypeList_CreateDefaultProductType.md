@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductType/Items/Default
 uid: v1ProductTypeList_CreateDefaultProductType
+generated: true
 ---
 
 # GET List/ProductType/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 57,
-  "Name": "Jacobson-Bergnaum",
-  "Tooltip": "iure",
-  "Deleted": true,
-  "UdListDefinitionId": 288,
-  "Rank": 396,
+  "Id": 152,
+  "Name": "Bruen, Trantow and Heathcote",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 670,
+  "Rank": 55,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldType": "System.Int32",
+      "FieldLength": 383
     }
   }
 }

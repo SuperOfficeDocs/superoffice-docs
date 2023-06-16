@@ -1,6 +1,7 @@
 ---
 title: DEL List/ReasonSold/Items/{id}
 uid: v1ReasonSoldList_DeleteReasonSold
+generated: true
 ---
 
 # DEL List/ReasonSold/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

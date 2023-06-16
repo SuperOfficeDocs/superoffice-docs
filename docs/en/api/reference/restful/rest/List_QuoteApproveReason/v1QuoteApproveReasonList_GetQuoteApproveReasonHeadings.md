@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteApproveReason/Headings
 uid: v1QuoteApproveReasonList_GetQuoteApproveReasonHeadings
+generated: true
 ---
 
 # GET List/QuoteApproveReason/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 724,
-    "Name": "Jaskolski, Upton and Larson",
-    "Tooltip": "et",
+    "HeadingId": 441,
+    "Name": "Dooley-Stark",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "Rank": 202,
-    "UdListDefinitionId": 539,
+    "Rank": 478,
+    "UdListDefinitionId": 710,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 103
+        "FieldType": "System.Int32",
+        "FieldLength": 439
       }
     }
   }

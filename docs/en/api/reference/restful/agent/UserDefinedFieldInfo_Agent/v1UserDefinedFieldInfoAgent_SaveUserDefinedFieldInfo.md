@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 uid: v1UserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
@@ -128,44 +129,44 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 270,
-  "ColumnId": 952,
-  "FieldDefault": "iste",
-  "FieldHeight": 475,
-  "FieldLabel": "eos",
-  "FieldLeft": 224,
-  "FieldTop": 123,
+  "UDefFieldId": 455,
+  "ColumnId": 619,
+  "FieldDefault": "voluptatibus",
+  "FieldHeight": 13,
+  "FieldLabel": "expedita",
+  "FieldLeft": 805,
+  "FieldTop": 848,
   "FieldType": "Checkbox",
-  "FieldWidth": 921,
-  "FormatMask": "in",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 696,
-  "LabelLeft": 961,
-  "LabelTop": 276,
-  "LabelWidth": 133,
-  "LastVersionId": 799,
-  "ListTableId": 129,
-  "IsMandatory": false,
+  "FieldWidth": 192,
+  "FormatMask": "harum",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 446,
+  "LabelLeft": 899,
+  "LabelTop": 366,
+  "LabelWidth": 148,
+  "LastVersionId": 699,
+  "ListTableId": 697,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 594,
-  "ProgId": "assumenda",
-  "IsReadOnly": false,
-  "ShortLabel": "ut",
-  "TabOrder": 917,
-  "TextLength": 332,
-  "Tooltip": "soluta",
-  "UdefIdentity": 606,
-  "UDListDefinitionId": 963,
+  "Page1LineNo": 411,
+  "ProgId": "est",
+  "IsReadOnly": true,
+  "ShortLabel": "facilis",
+  "TabOrder": 82,
+  "TextLength": 7,
+  "Tooltip": "voluptate",
+  "UdefIdentity": 316,
+  "UDListDefinitionId": 96,
   "Justification": "Center",
-  "Version": 175,
-  "TemplateVariableName": "Kilback, Klein and Friesen",
+  "Version": 186,
+  "TemplateVariableName": "Effertz LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Dare LLC"
+  "MdoListName": "Pfeffer, Hammes and Dibbert"
 }
 ```
 
@@ -176,46 +177,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 848,
-  "ColumnId": 178,
-  "FieldDefault": "dolor",
-  "FieldHeight": 228,
-  "FieldLabel": "soluta",
-  "FieldLeft": 282,
-  "FieldTop": 47,
+  "UDefFieldId": 20,
+  "ColumnId": 5,
+  "FieldDefault": "qui",
+  "FieldHeight": 767,
+  "FieldLabel": "ea",
+  "FieldLeft": 845,
+  "FieldTop": 515,
   "FieldType": "Checkbox",
-  "FieldWidth": 918,
-  "FormatMask": "fugiat",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 878,
-  "LabelLeft": 307,
-  "LabelTop": 321,
-  "LabelWidth": 887,
-  "LastVersionId": 996,
-  "ListTableId": 847,
-  "IsMandatory": false,
+  "FieldWidth": 559,
+  "FormatMask": "hic",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 221,
+  "LabelLeft": 516,
+  "LabelTop": 613,
+  "LabelWidth": 682,
+  "LastVersionId": 910,
+  "ListTableId": 592,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 638,
-  "ProgId": "corporis",
-  "IsReadOnly": false,
-  "ShortLabel": "numquam",
-  "TabOrder": 230,
-  "TextLength": 277,
-  "Tooltip": "velit",
-  "UdefIdentity": 854,
-  "UDListDefinitionId": 863,
+  "Page1LineNo": 591,
+  "ProgId": "quibusdam",
+  "IsReadOnly": true,
+  "ShortLabel": "neque",
+  "TabOrder": 665,
+  "TextLength": 387,
+  "Tooltip": "perferendis",
+  "UdefIdentity": 713,
+  "UDListDefinitionId": 58,
   "Justification": "Center",
-  "Version": 627,
-  "TemplateVariableName": "Skiles-Howe",
-  "HasBeenPublished": false,
-  "MdoListName": "O'Keefe, Wisoky and Reilly",
+  "Version": 54,
+  "TemplateVariableName": "Daugherty Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Swift Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldType": "System.String",
+      "FieldLength": 889
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/GetDashTileHtml
 uid: v1DashAgent_GetDashTileHtml
+generated: true
 ---
 
 # POST Agents/Dash/GetDashTileHtml
@@ -74,12 +75,12 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileHtml
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 86,
-  "LanguageCode": "iste"
+  "DashboardTileDefinitionId": 279,
+  "LanguageCode": "laudantium"
 }
 ```
 
@@ -90,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "reiciendis",
-  "Html": "iusto",
+  "LanguageCode": "voluptas",
+  "Html": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldLength": 594
     }
   }
 }

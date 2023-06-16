@@ -1,6 +1,6 @@
 ---
 title: Services88.AssociateAgent.LogOffWindowsUsers SOAP
-generated: 1
+generated: true
 uid: Services88-Associate-LogOffWindowsUsers
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: GET License
 uid: v1License_GetLicenseForAllOwnersFromDB
+generated: true
 ---
 
 # GET License
@@ -57,7 +58,7 @@ OK
 GET /api/v1/License
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,41 +70,41 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Reason": "",
-    "CanBeActivated": true,
+    "CanBeActivated": false,
     "New": null,
     "Current": null,
     "ExtendedModuleLicenses": [
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 295,
-        "NumberOfLicensesFree": 159,
-        "NumberOfLicensesAdded": 848,
-        "NumberOfLicensesNewTotal": 352,
-        "NumberOfLicensesNewFree": 251,
-        "NumberOfLicensesTotal": 668
+        "NumberOfLicensesInUse": 542,
+        "NumberOfLicensesFree": 374,
+        "NumberOfLicensesAdded": 538,
+        "NumberOfLicensesNewTotal": 42,
+        "NumberOfLicensesNewFree": 271,
+        "NumberOfLicensesTotal": 319
       }
     ],
-    "AccumulatedNextCheckDate": "2011-01-29T03:51:34.2084568+01:00"
+    "AccumulatedNextCheckDate": "2012-07-29T16:00:48.664623+02:00"
   },
   {
     "Reason": "",
-    "CanBeActivated": true,
+    "CanBeActivated": false,
     "New": null,
     "Current": null,
     "ExtendedModuleLicenses": [
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 295,
-        "NumberOfLicensesFree": 159,
-        "NumberOfLicensesAdded": 848,
-        "NumberOfLicensesNewTotal": 352,
-        "NumberOfLicensesNewFree": 251,
-        "NumberOfLicensesTotal": 668
+        "NumberOfLicensesInUse": 542,
+        "NumberOfLicensesFree": 374,
+        "NumberOfLicensesAdded": 538,
+        "NumberOfLicensesNewTotal": 42,
+        "NumberOfLicensesNewFree": 271,
+        "NumberOfLicensesTotal": 319
       }
     ],
-    "AccumulatedNextCheckDate": "2011-01-29T03:51:34.2084568+01:00"
+    "AccumulatedNextCheckDate": "2012-07-29T16:00:48.664623+02:00"
   }
 ]
 ```

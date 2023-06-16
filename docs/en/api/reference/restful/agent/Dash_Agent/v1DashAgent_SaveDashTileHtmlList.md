@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/SaveDashTileHtmlList
 uid: v1DashAgent_SaveDashTileHtmlList
+generated: true
 ---
 
 # POST Agents/Dash/SaveDashTileHtmlList
@@ -78,15 +79,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 452,
+  "DashboardTileDefinitionId": 290,
   "Languages": [
     {
-      "LanguageCode": "vero",
-      "Html": "quod"
+      "LanguageCode": "voluptatem",
+      "Html": "aut"
     },
     {
-      "LanguageCode": "vero",
-      "Html": "quod"
+      "LanguageCode": "voluptatem",
+      "Html": "aut"
     }
   ]
 }
@@ -100,26 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "porro",
-    "Html": "repellat",
+    "LanguageCode": "ut",
+    "Html": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 102
       }
     }
   },
   {
-    "LanguageCode": "porro",
-    "Html": "repellat",
+    "LanguageCode": "ut",
+    "Html": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 102
       }
     }
   }

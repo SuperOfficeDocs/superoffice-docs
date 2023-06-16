@@ -1,6 +1,7 @@
 ---
 title: GET List/DocumentTemplate/Items/{id}
 uid: v1DocumentTemplateList_GetDocumentTemplateEntity
+generated: true
 ---
 
 # GET List/DocumentTemplate/Items/{id}
@@ -95,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 53,
-  "Name": "Schulist, Funk and Bechtelar",
-  "Tooltip": "qui",
-  "SaveInDb": 380,
-  "Filename": "facilis",
-  "DefaultOref": "modi",
+  "DocumentTemplateId": 317,
+  "Name": "Metz, Macejkovic and Wunsch",
+  "Tooltip": "error",
+  "SaveInDb": 402,
+  "Filename": "et",
+  "DefaultOref": "eos",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 500,
-  "IntentId": 242,
+  "AutoeventId": 548,
+  "IntentId": 934,
   "IsDefaultPublished": false,
-  "Rank": 216,
-  "LoadTemplateFromPlugin": 534,
-  "MimeType": "exercitationem",
+  "Rank": 162,
+  "LoadTemplateFromPlugin": 55,
+  "MimeType": "consequatur",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 960,
+  "DocumentTypeKey": 259,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "thelma@emard.ca",
+  "EmailSubject": "micaela@jerde.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "sheridan.thiel@cronin.uk",
+  "SenderEmailAddress": "kaci_schamberger@brekketurcotte.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldType": "System.Int32",
+      "FieldLength": 29
     }
   }
 }

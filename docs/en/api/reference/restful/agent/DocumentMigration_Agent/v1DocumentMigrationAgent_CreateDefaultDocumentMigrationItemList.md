@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 uid: v1DocumentMigrationAgent_CreateDefaultDocumentMigrationItemList
+generated: true
 ---
 
 # POST Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 747,
-  "NumDocumentsAlreadyMigrated": 941,
+  "NumDocumentsOmitted": 969,
+  "NumDocumentsAlreadyMigrated": 993,
   "Documents": [
     {
-      "DocumentId": 472,
-      "ContactId": 615,
-      "PersonId": 692,
-      "SaleId": 129,
-      "ProjectId": 432,
-      "DocTmplId": 146,
-      "AssociateId": 575,
-      "UserGroupId": 12,
-      "VisibleForId": 503
+      "DocumentId": 174,
+      "ContactId": 838,
+      "PersonId": 807,
+      "SaleId": 825,
+      "ProjectId": 213,
+      "DocTmplId": 32,
+      "AssociateId": 293,
+      "UserGroupId": 566,
+      "VisibleForId": 478
     }
   ],
   "Associates": [
     {
-      "AssociateId": 449,
-      "EmailAddress": "helena@bahringer.info"
+      "AssociateId": 60,
+      "EmailAddress": "kirk.orn@gorczany.com"
     },
     {
-      "AssociateId": 449,
-      "EmailAddress": "helena@bahringer.info"
+      "AssociateId": 60,
+      "EmailAddress": "kirk.orn@gorczany.com"
     }
   ]
 }

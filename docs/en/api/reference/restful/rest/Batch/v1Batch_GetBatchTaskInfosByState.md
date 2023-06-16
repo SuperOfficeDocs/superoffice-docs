@@ -1,6 +1,7 @@
 ---
 title: GET BatchTask/{state}
 uid: v1Batch_GetBatchTaskInfosByState
+generated: true
 ---
 
 # GET BatchTask/{state}
@@ -79,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Skiles LLC",
-    "AssociateId": 629,
-    "DetailsTable": 324,
-    "DetailsRecord": 648,
+    "Id": 122,
+    "Name": "Dooley, Doyle and Mayer",
+    "AssociateId": 303,
+    "DetailsTable": 679,
+    "DetailsRecord": 477,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "occaecati",
-      "ParameterObject2": "assumenda"
+      "ParameterObject1": "molestias",
+      "ParameterObject2": "corporis"
     },
-    "LastStarted": "2001-05-15T03:51:34.1772068+02:00",
-    "Created": "2008-06-01T03:51:34.1772068+02:00",
-    "StartCount": 328,
-    "DatabaseSerialNumber": "1092006",
-    "Context": "atque",
-    "Result": "ipsam",
+    "LastStarted": "2022-07-14T16:00:48.6333798+02:00",
+    "Created": "2000-10-22T16:00:48.6333798+02:00",
+    "StartCount": 466,
+    "DatabaseSerialNumber": "1667854",
+    "Context": "aliquid",
+    "Result": "molestiae",
     "State": "All",
-    "Description": "Optimized multi-state alliance",
-    "Response": "harum",
+    "Description": "Organized high-level infrastructure",
+    "Response": "tenetur",
     "Request": "consequatur",
-    "ProgressDescription": "Profit-focused 3rd generation flexibility",
-    "ProgressPercent": 43,
-    "FileName": "Rohan-Veum",
+    "ProgressDescription": "Diverse clear-thinking ability",
+    "ProgressPercent": 433,
+    "FileName": "Marks-Stamm",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 419
       }
     }
   }

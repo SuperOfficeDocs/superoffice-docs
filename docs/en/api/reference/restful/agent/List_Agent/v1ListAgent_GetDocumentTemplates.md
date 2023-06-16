@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetDocumentTemplates
 uid: v1ListAgent_GetDocumentTemplates
+generated: true
 ---
 
 # POST Agents/List/GetDocumentTemplates
@@ -74,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 353,
-    "Name": "Bauch, Boyer and McCullough",
-    "Tooltip": "repellendus",
-    "SaveInDb": 128,
-    "Filename": "ut",
-    "DefaultOref": "nemo",
+    "DocumentTemplateId": 878,
+    "Name": "Adams, Haley and Moore",
+    "Tooltip": "eum",
+    "SaveInDb": 100,
+    "Filename": "repellendus",
+    "DefaultOref": "ut",
     "RecordType": "Appointment",
-    "Deleted": 579,
+    "Deleted": 780,
     "Direction": "Incoming",
-    "AutoeventId": 825,
+    "AutoeventId": 59,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 417
+        "FieldLength": 945
       }
     }
   }

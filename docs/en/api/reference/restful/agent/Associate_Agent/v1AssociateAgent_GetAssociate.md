@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Associate/GetAssociate
 uid: v1AssociateAgent_GetAssociate
+generated: true
 ---
 
 # POST Agents/Associate/GetAssociate
@@ -25,7 +26,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=585
+POST /api/v1/Agents/Associate/GetAssociate?associateId=616
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -87,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 597,
-  "Name": "Reynolds Inc and Sons",
-  "PersonId": 40,
-  "Rank": 401,
-  "Tooltip": "harum",
+  "AssociateId": 563,
+  "Name": "Murray-Swift",
+  "PersonId": 545,
+  "Rank": 903,
+  "Tooltip": "nobis",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 346,
-  "FullName": "Russel Schowalter",
-  "FormalName": "Hauck, Balistreri and Howe",
-  "Deleted": true,
-  "EjUserId": 892,
-  "UserName": "Pfeffer-Haag",
+  "GroupIdx": 458,
+  "FullName": "Gordon Markus Murphy IV",
+  "FormalName": "Shanahan, Crooks and Smitham",
+  "Deleted": false,
+  "EjUserId": 646,
+  "UserName": "Lakin-Dach",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 919
     }
   }
 }

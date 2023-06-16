@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/DeleteForeignDevice
 uid: v1ForeignSystemAgent_DeleteForeignDevice
+generated: true
 ---
 
 # POST Agents/ForeignSystem/DeleteForeignDevice
@@ -69,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Zieme, Kessler and Kris"
+  "ApplicationName": "Mitchell, Zboncak and Macejkovic"
 }
 ```
 

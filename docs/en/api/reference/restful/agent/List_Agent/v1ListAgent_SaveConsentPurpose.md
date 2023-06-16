@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveConsentPurpose
 uid: v1ListAgent_SaveConsentPurpose
+generated: true
 ---
 
 # POST Agents/List/SaveConsentPurpose
@@ -99,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 785,
-  "Name": "Mraz-Koch",
-  "ConsentText": "velit",
-  "FormText": "laboriosam",
-  "Key": "quia",
-  "Tooltip": "dolorem",
-  "Active": 116,
-  "UpdatedDate": "2021-05-22T03:51:27.5060342+02:00",
+  "ConsentPurposeId": 217,
+  "Name": "Hane-Ziemann",
+  "ConsentText": "id",
+  "FormText": "quo",
+  "Key": "sed",
+  "Tooltip": "nemo",
+  "Active": 903,
+  "UpdatedDate": "2008-06-04T16:00:41.2424478+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 635,
-  "PrivacyStatementDesc": "qui",
+  "Rank": 19,
+  "PrivacyStatementDesc": "distinctio",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldType": "System.String",
+      "FieldLength": 861
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sentry/GetTableRightByContactOwnership
 uid: v1SentryAgent_GetTableRightByContactOwnership
+generated: true
 ---
 
 # POST Agents/Sentry/GetTableRightByContactOwnership
@@ -72,12 +73,12 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByContactOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Keeling LLC",
-  "ContactId": 774
+  "TableName": "Hermann Group",
+  "ContactId": 454
 }
 ```
 

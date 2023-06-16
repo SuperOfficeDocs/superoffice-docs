@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/CreateActorLink
 uid: v1ErpSyncAgent_CreateActorLink
+generated: true
 ---
 
 # POST Agents/ErpSync/CreateActorLink
@@ -73,14 +74,14 @@ OK
 POST /api/v1/Agents/ErpSync/CreateActorLink
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 540,
-  "CrmRecordId": 901,
+  "ErpConnectionId": 786,
+  "CrmRecordId": 344,
   "CrmActorType": "Contact",
-  "ErpKey": "labore",
+  "ErpKey": "assumenda",
   "ErpActorType": "Customer"
 }
 ```

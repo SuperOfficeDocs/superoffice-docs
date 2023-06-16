@@ -1,6 +1,7 @@
 ---
 title: PUT List/Category/Items/{id}/UserGroups
 uid: v1CategoryList_PutCategoryUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/Category/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 582,
-    "Name": "Feeney, Kulas and Konopelski",
-    "ToolTip": "Tempora est porro non.",
-    "Deleted": false,
-    "Rank": 938,
-    "Type": "magni",
-    "ColorBlock": 800,
-    "IconHint": "placeat",
+    "Id": 382,
+    "Name": "Durgan-Crist",
+    "ToolTip": "Suscipit ut sint nemo quaerat.",
+    "Deleted": true,
+    "Rank": 89,
+    "Type": "aspernatur",
+    "ColorBlock": 41,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2002-01-18T03:51:34.505269+01:00",
+    "LastChanged": "2003-09-21T16:00:48.8833485+02:00",
     "ChildItems": [
       {
-        "Id": 966,
-        "Name": "Bernier, Davis and Mosciski",
-        "ToolTip": "Dolorem culpa.",
-        "Deleted": false,
-        "Rank": 819,
-        "Type": "placeat",
-        "ColorBlock": 112,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2011-06-14T03:51:34.5208913+02:00",
+        "Id": 613,
+        "Name": "Hoppe, Emard and Walsh",
+        "ToolTip": "Eius sint.",
+        "Deleted": true,
+        "Rank": 462,
+        "Type": "ea",
+        "ColorBlock": 824,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2011-12-08T16:00:48.8833485+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "non",
+        "ExtraInfo": "odio",
+        "StyleHint": "fugiat",
         "Hidden": false,
-        "FullName": "Cornelius Turcotte"
+        "FullName": "Jayce Johnson"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "quis",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Bethany Bechtelar"
+    "FullName": "Janick Bradtke"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 417,
-    "Name": "Rath LLC",
-    "ToolTip": "Minima labore eum unde labore dolore rem.",
-    "Deleted": false,
-    "Rank": 633,
-    "Type": "officiis",
-    "ColorBlock": 107,
-    "IconHint": "cumque",
+    "Id": 773,
+    "Name": "Casper Inc and Sons",
+    "ToolTip": "Facere itaque asperiores optio est soluta.",
+    "Deleted": true,
+    "Rank": 559,
+    "Type": "enim",
+    "ColorBlock": 379,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "2019-12-11T03:51:34.5365055+01:00",
+    "LastChanged": "2012-01-07T16:00:48.8833485+01:00",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Medhurst-Howe",
-        "ToolTip": "Expedita quis.",
-        "Deleted": true,
-        "Rank": 435,
-        "Type": "dicta",
-        "ColorBlock": 96,
-        "IconHint": "fugiat",
-        "Selected": false,
-        "LastChanged": "2011-06-10T03:51:34.5521277+02:00",
+        "Id": 804,
+        "Name": "Rutherford-Rodriguez",
+        "ToolTip": "Perferendis dicta sint itaque odit non.",
+        "Deleted": false,
+        "Rank": 560,
+        "Type": "ut",
+        "ColorBlock": 146,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "1998-10-10T16:00:48.8833485+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "dolor",
+        "ExtraInfo": "placeat",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Kiel Reynolds",
+        "FullName": "Ila Fisher",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 276
+            "FieldLength": 903
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Delta Hoeger",
+    "ExtraInfo": "atque",
+    "StyleHint": "ratione",
+    "Hidden": true,
+    "FullName": "Mr. Marcel Wava Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 592
       }
     }
   }

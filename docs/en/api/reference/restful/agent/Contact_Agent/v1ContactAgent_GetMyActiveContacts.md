@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/GetMyActiveContacts
 uid: v1ContactAgent_GetMyActiveContacts
+generated: true
 ---
 
 # POST Agents/Contact/GetMyActiveContacts
@@ -89,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2019-07-04T03:51:26.8343195+02:00",
+  "ActivityStartTime": "2019-05-04T16:00:40.3675171+02:00",
   "ContactCategories": [
-    661,
-    438
+    796,
+    528
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -110,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 693,
+    "ContactId": 182,
     "Department": "",
-    "OrgNr": "1418562",
-    "Name": "Hauck, Cummerata and Jewess",
+    "OrgNr": "1623438",
+    "Name": "West, Robel and Conn",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Mary Ward Sawayn",
+    "AssociateFullName": "Miss Mathias Kirk Huels",
     "Action": "ActivityCompleted",
-    "ActionTime": "2021-07-17T03:51:26.8343195+02:00",
+    "ActionTime": "2007-03-22T16:00:40.3675171+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Stroman, Wiza and Ortiz",
-    "ActionId": 580,
-    "PersonId": 998,
-    "ActivityPersonId": 788,
-    "AssociateId": 890,
+    "ActivityPersonName": "Schneider Group",
+    "ActionId": 679,
+    "PersonId": 477,
+    "ActivityPersonId": 449,
+    "AssociateId": 415,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldType": "System.String",
+        "FieldLength": 950
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: Services88.AIAgent.GuessCategory SOAP
-generated: 1
+generated: true
 uid: Services88-AI-GuessCategory
 ---
 

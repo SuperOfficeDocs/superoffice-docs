@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/FindWithColumns
 uid: v1FindAgent_FindWithColumns
+generated: true
 ---
 
 # POST Agents/Find/FindWithColumns
@@ -86,22 +87,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quaerat",
-  "ProviderName": "Dickinson, Volkman and Ebert",
-  "StorageKey": "dignissimos",
+  "StorageType": "quia",
+  "ProviderName": "Legros-Jacobson",
+  "StorageKey": "et",
   "DesiredColumns": [
-    "quia",
-    "qui"
+    "eum",
+    "natus"
   ],
-  "PageSize": 656,
-  "PageNumber": 607,
+  "PageSize": 249,
+  "PageNumber": 1000,
   "OrderBy": [
     {
-      "Name": "Price-Swift",
+      "Name": "Krajcik, Howe and Bins",
       "Direction": "ASC"
     },
     {
-      "Name": "Price-Swift",
+      "Name": "Krajcik, Howe and Bins",
       "Direction": "ASC"
     }
   ]
@@ -117,51 +118,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Miller-Jerde",
-      "DisplayTooltip": "eveniet",
-      "DisplayType": "sed",
+      "DisplayName": "Schultz, Nolan and Walter",
+      "DisplayTooltip": "aut",
+      "DisplayType": "id",
       "CanOrderBy": false,
-      "Name": "Marks-McCullough",
+      "Name": "Lueilwitz LLC",
       "CanRestrictBy": true,
-      "RestrictionType": "molestiae",
-      "RestrictionListName": "Dickens Inc and Sons",
+      "RestrictionType": "et",
+      "RestrictionListName": "Williamson, Crist and Marquardt",
       "IsVisible": false,
-      "ExtraInfo": "quibusdam",
-      "Width": "in",
-      "IconHint": "qui",
-      "HeadingIconHint": "consequatur"
+      "ExtraInfo": "aliquid",
+      "Width": "quaerat",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "libero"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Mayer-Kozey",
-      "PrimaryKey": 544,
+      "EntityName": "Davis Group",
+      "PrimaryKey": 166,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "incidunt",
-          "TooltipHint": "perferendis",
-          "LinkHint": "tempora"
+          "DisplayValue": "soluta",
+          "TooltipHint": "et",
+          "LinkHint": "sunt"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "sint",
+      "LinkHint": "quis",
+      "StyleHint": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 865
+          "FieldLength": 252
         }
       }
     }
   ],
-  "RowCount": 491,
+  "RowCount": 939,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 50
+      "FieldType": "System.Int32",
+      "FieldLength": 858
     }
   }
 }

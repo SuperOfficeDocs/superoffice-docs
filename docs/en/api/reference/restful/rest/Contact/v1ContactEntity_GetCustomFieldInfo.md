@@ -1,6 +1,7 @@
 ---
 title: GET Contact/CustomField/{fieldName}
 uid: v1ContactEntity_GetCustomFieldInfo
+generated: true
 ---
 
 # GET Contact/CustomField/{fieldName}
@@ -70,7 +71,7 @@ OK
 GET /api/v1/Contact/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Wiza LLC",
-  "DisplayName": "Hegmann-Doyle",
-  "Description": "Multi-channelled coherent concept",
-  "ShortLabel": "officiis",
-  "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": false,
+  "FieldName": "Stiedemann, Jacobson and Stehr",
+  "DisplayName": "Strosin, Muller and Hansen",
+  "Description": "Implemented methodical ability",
+  "ShortLabel": "in",
+  "HideLabel": true,
+  "HideField": false,
+  "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": true,
-  "IsExternal": false,
-  "Rank": 606,
-  "TemplateVariableName": "Langosh, Barton and Gulgowski"
+  "IsExternal": true,
+  "Rank": 86,
+  "TemplateVariableName": "Gleason, Nitzsche and Durgan"
 }
 ```

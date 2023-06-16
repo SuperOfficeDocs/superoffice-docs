@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Webhook/CreateDefaultWebhook
 uid: v1WebhookAgent_CreateDefaultWebhook
+generated: true
 ---
 
 # POST Agents/Webhook/CreateDefaultWebhook
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,26 +80,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 843,
-  "Name": "Bradtke, Paucek and Auer",
+  "WebhookId": 543,
+  "Name": "Weimann-Gutkowski",
   "Events": [
-    "aliquam",
-    "corrupti"
+    "laborum",
+    "consectetur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "excepturi",
+  "Secret": "libero",
   "State": "Active",
-  "Type": "tempore",
+  "Type": "optio",
   "Headers": {
-    "Headers1": "impedit",
-    "Headers2": "quia"
+    "Headers1": "et",
+    "Headers2": "veniam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-11-05T03:51:28.5526663+01:00",
+  "Registered": "2018-09-17T16:00:42.4143588+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-08-18T03:51:28.5526663+02:00",
+  "Updated": "2011-02-03T16:00:42.4143588+01:00",
   "UpdatedAssociate": null
 }
 ```

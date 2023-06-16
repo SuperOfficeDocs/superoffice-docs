@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/TransferChatSession
 uid: v1ChatAgent_TransferChatSession
+generated: true
 ---
 
 # POST Agents/Chat/TransferChatSession
@@ -105,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 418,
-  "ToAssociate": "ut"
+  "ChatSessionId": 208,
+  "ToAssociate": "odit"
 }
 ```
 
@@ -121,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 559,
-  "TopicId": 627,
+  "ChatSessionId": 105,
+  "TopicId": 574,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatibus",
-  "CustomerHost": "at",
-  "CustomerName": "Ankunding, Stark and Glover",
-  "CustomerEmail": "dejuan@hartmann.uk",
-  "CustomerPhone": "1-706-652-0343",
+  "CustomerAlias": "illum",
+  "CustomerHost": "nesciunt",
+  "CustomerName": "Kuhic, Eichmann and Huels",
+  "CustomerEmail": "joshuah@heidenreich.info",
+  "CustomerPhone": "051.204.3757",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hartmann, Bednar and Franecki",
+  "CustomerCompanyName": "Douglas, Streich and Harber",
   "Status": "Closed",
-  "FirstMessage": "qui",
-  "LastMessage": "illum",
-  "WhenRequested": "2015-10-27T03:51:26.6937299+01:00",
-  "WhenStarted": "1996-11-26T03:51:26.6937299+01:00",
-  "WhenEnded": "2021-09-24T03:51:26.6937299+02:00",
-  "WhenIdle": "2009-10-30T03:51:26.6937299+01:00",
-  "WhenFetched": "2003-04-03T03:51:26.6937299+02:00",
-  "SessionKey": "sit",
-  "InitialQueuePos": 256,
-  "AlertLevel": 827,
-  "Rank": 851,
+  "FirstMessage": "nihil",
+  "LastMessage": "facere",
+  "WhenRequested": "2018-02-25T16:00:40.2113079+01:00",
+  "WhenStarted": "1998-03-28T16:00:40.2113079+01:00",
+  "WhenEnded": "2020-05-25T16:00:40.2113079+02:00",
+  "WhenIdle": "2009-06-02T16:00:40.2113079+02:00",
+  "WhenFetched": "2018-03-03T16:00:40.2113079+01:00",
+  "SessionKey": "quibusdam",
+  "InitialQueuePos": 869,
+  "AlertLevel": 884,
+  "Rank": 268,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -151,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 771,
+  "Rating": 651,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 472
     }
   }
 }

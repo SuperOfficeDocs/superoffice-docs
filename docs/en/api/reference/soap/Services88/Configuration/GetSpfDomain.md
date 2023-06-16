@@ -1,6 +1,6 @@
 ---
 title: Services88.ConfigurationAgent.GetSpfDomain SOAP
-generated: 1
+generated: true
 uid: Services88-Configuration-GetSpfDomain
 ---
 

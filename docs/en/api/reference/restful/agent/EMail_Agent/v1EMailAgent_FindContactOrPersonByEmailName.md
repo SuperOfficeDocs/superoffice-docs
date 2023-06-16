@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/FindContactOrPersonByEmailName
 uid: v1EMailAgent_FindContactOrPersonByEmailName
+generated: true
 ---
 
 # POST Agents/EMail/FindContactOrPersonByEmailName
@@ -82,12 +83,12 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Howe, Gaylord and Mayer",
-  "EmailAddress": "kathleen.mcglynn@nikolaus.ca"
+  "Name": "Crona-Jones",
+  "EmailAddress": "harmony.jacobs@kemmer.info"
 }
 ```
 
@@ -99,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 996,
-    "FullName": "Dr. Odell Nicolas II",
-    "EmailAddress": "raleigh_tremblay@beerwalter.com",
-    "ContactId": 433,
-    "ContactName": "O'Connell, Murazik and Barrows",
+    "PersonId": 72,
+    "FullName": "Claire Rogahn",
+    "EmailAddress": "jessica.harvey@ullrich.us",
+    "ContactId": 994,
+    "ContactName": "Ritchie Inc and Sons",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Prosacco-Legros",
+    "SortName": "Leannon Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldLength": 595
       }
     }
   }

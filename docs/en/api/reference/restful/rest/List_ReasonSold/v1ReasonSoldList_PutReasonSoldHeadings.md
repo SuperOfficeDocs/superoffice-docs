@@ -1,6 +1,7 @@
 ---
 title: PUT List/ReasonSold/Headings
 uid: v1ReasonSoldList_PutReasonSoldHeadings
+generated: true
 ---
 
 # PUT List/ReasonSold/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 663,
-    "Name": "Windler Inc and Sons",
-    "Tooltip": "dolore",
+    "HeadingId": 475,
+    "Name": "Zboncak LLC",
+    "Tooltip": "modi",
     "Deleted": false,
-    "Rank": 633,
-    "UdListDefinitionId": 171
+    "Rank": 343,
+    "UdListDefinitionId": 563
   },
   {
-    "HeadingId": 663,
-    "Name": "Windler Inc and Sons",
-    "Tooltip": "dolore",
+    "HeadingId": 475,
+    "Name": "Zboncak LLC",
+    "Tooltip": "modi",
     "Deleted": false,
-    "Rank": 633,
-    "UdListDefinitionId": 171
+    "Rank": 343,
+    "UdListDefinitionId": 563
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 886,
-    "Name": "Schultz, Ernser and Prosacco",
-    "Tooltip": "quibusdam",
+    "HeadingId": 934,
+    "Name": "Littel Group",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 374,
-    "UdListDefinitionId": 790,
+    "Rank": 221,
+    "UdListDefinitionId": 725,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldType": "System.String",
+        "FieldLength": 331
       }
     }
   }

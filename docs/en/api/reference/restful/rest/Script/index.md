@@ -1,5 +1,6 @@
 ---
 title: Script
+generated: true
 ---
 
 ```http

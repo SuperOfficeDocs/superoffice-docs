@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductFamily
 uid: v1ProductFamilyList_SetListDefinition
+generated: true
 ---
 
 # PUT List/ProductFamily
@@ -87,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 542,
-  "Name": "Marvin, Feeney and Keebler",
-  "Tooltip": "atque",
+  "Id": 886,
+  "Name": "Veum Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 698,
+  "Rank": 380,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": false
+  "ListType": "quo",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Auer LLC",
-  "Tooltip": "autem",
+  "Id": 526,
+  "Name": "Runolfsson, Reichert and Gleichner",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 463,
-  "IsCustomList": true,
+  "Rank": 846,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldLength": 895
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/CanChangePassword
 uid: v1UserAgent_CanChangePassword
+generated: true
 ---
 
 # POST Agents/User/CanChangePassword
@@ -73,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 892
+  "AssociateId": 540
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

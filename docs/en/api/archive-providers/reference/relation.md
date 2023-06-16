@@ -2,17 +2,10 @@
 uid: Relation
 title: Relation
 description: Data provider class for the 'Relation' archive under the company card. This class combines output from
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "Relation"
+keywords: Relation archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "Relation"
@@ -131,6 +124,10 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/contactPhone/formattedNumber|string|Source - Telephone - Phone: Displays phone number|  |
 |source/contactPhone/description|string|Source - Telephone - Description: Phone number description| x |
 |target/contactId|int|Target - Company ID: Database ID of company| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |target/name|stringorPK|Target - Company name| x |
 |target/department|string|Target - Department| x |
 |target/nameDepartment| *None* |Target - Company: Displays the company an activity is linked to| x |
@@ -231,6 +228,10 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |target/contactAssociate/assocTooltip| *None* |Target - Description: Description|  |
 |target/contactAssociate/assocType| *None* |Target - Type: Type of user: associate, external user, system user, anonymous account|  |
 |target/contactAssociate/ejUserId| *None* |Target - Service user ID: The database ID of a Service user|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |target/contactAssociate/simultaneousEjUser| *None* |Target - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |target/contactAssociate/ejDisplayName| *None* |Target - Nick name: User's nick name in Service|  |
 |target/contactAssociate/ejStatus| *None* |Target - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -331,6 +332,10 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |portraitThumbnail| *None* |Person image: Person image|  |
 |otherGroups|userGroup|Other groups: Other groups|  |
 |userName|string|User name: User name| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personEmail|string|E-mail| x |
 |target/personId| *None* |Target - DB ID: Displays the database ID of a contact|  |
 |target/firstName| *None* |Target - First name: Displays the contact's first name|  |
@@ -431,6 +436,10 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/restrictionAddress/county| *None* |Source - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
 |source/restrictionAddress/city| *None* |Source - Search address - City: This criterion corresponds to the City field on the Company card.|  |
 |source/restrictionAddress/zip| *None* |Source - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |source/restrictionAddress/state| *None* |Source - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
 |source/restrictionAddress/wgs84latitude| *None* |Source - Search address - Latitude: Latitude|  |
 |source/restrictionAddress/wgs84longitude| *None* |Source - Search address - Longitude: Longitude|  |
@@ -532,7 +541,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Sample
 
 ```http!
-GET /api/v1/archive/Relation?$select=target/email/emailId,target/contactAssociate/simultaneousEjUser,target/title,target/personActiveErpLinks,source/LastDoBySale
+GET /api/v1/archive/Relation?$select=direction,source/stop,target/streetAddress/line2,target/LastSale,middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

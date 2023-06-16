@@ -1,17 +1,13 @@
 ---
 uid: availablereports
 title: availablereports
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "availablereports"
+keywords: mdoprovider mdo provider availablereports
+description: AvailableReportsProvider creates an MDO list containing the available reports.
+The available reports are either the standard SuperOffice reports, the reports defined in ReporterStudio,
+or the favorites for each user as defined in SuperOffice.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "availablereports" MDO List

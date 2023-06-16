@@ -2,17 +2,10 @@
 uid: SystemEvents
 title: SystemEvents
 description: Archive provider
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SystemEvents"
+keywords: SystemEvents archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SystemEvents"
@@ -85,7 +78,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/SystemEvents?$select=registered_associate_id/firstName,registered_associate_id/middleName,registered_associate_id/firstName
+GET /api/v1/archive/SystemEvents?$select=registered_associate_id/firstName,registered_associate_id/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

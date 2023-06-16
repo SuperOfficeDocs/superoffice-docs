@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetLegalBaseList
 uid: v1ListAgent_GetLegalBaseList
+generated: true
 ---
 
 # POST Agents/List/GetLegalBaseList
@@ -85,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 191,
-    "Name": "Hauck-Marquardt",
-    "Tooltip": "nam",
-    "Rank": 115,
-    "Key": "aperiam",
-    "Deleted": true,
+    "LegalBaseId": 820,
+    "Name": "Pfeffer, Prohaska and Dooley",
+    "Tooltip": "rerum",
+    "Rank": 857,
+    "Key": "id",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 263
+        "FieldLength": 78
       }
     }
   }

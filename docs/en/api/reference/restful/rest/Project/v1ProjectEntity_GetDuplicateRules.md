@@ -1,6 +1,7 @@
 ---
 title: GET Project/DuplicateRules
 uid: v1ProjectEntity_GetDuplicateRules
+generated: true
 ---
 
 # GET Project/DuplicateRules
@@ -57,7 +58,7 @@ OK
 GET /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fisher-Russel",
-    "DisplayName": "Bailey Group",
-    "DisplayTooltip": "fugit",
-    "IsActive": true,
+    "Name": "Klocko, O'Kon and Ruecker",
+    "DisplayName": "Windler, Nolan and Corwin",
+    "DisplayTooltip": "qui",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 877
+        "FieldLength": 208
       }
     }
   },
   {
-    "Name": "Fisher-Russel",
-    "DisplayName": "Bailey Group",
-    "DisplayTooltip": "fugit",
-    "IsActive": true,
+    "Name": "Klocko, O'Kon and Ruecker",
+    "DisplayName": "Windler, Nolan and Corwin",
+    "DisplayTooltip": "qui",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 877
+        "FieldLength": 208
       }
     }
   }

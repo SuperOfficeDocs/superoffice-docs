@@ -1,6 +1,7 @@
 ---
 title: PUT List/PaymentTerm/Items/{id}/Headings
 uid: v1PaymentTermsList_PutPaymentTermHeadingsForListItem
+generated: true
 ---
 
 # PUT List/PaymentTerm/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 668,
-    "Name": "Volkman-Haag",
-    "ToolTip": "Rem molestias dolores est alias iste.",
+    "Id": 163,
+    "Name": "Harber Group",
+    "ToolTip": "Ipsam aspernatur quidem qui rerum sint.",
     "Deleted": false,
-    "Rank": 707,
-    "Type": "quaerat",
-    "ColorBlock": 837,
-    "IconHint": "eius",
-    "Selected": true,
-    "LastChanged": "1996-09-24T03:51:34.7395889+02:00",
+    "Rank": 938,
+    "Type": "et",
+    "ColorBlock": 159,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2012-10-11T16:00:49.086451+02:00",
     "ChildItems": [
       {
-        "Id": 502,
-        "Name": "O'Conner, Denesik and Connelly",
-        "ToolTip": "Accusantium possimus excepturi quasi et.",
-        "Deleted": true,
-        "Rank": 909,
-        "Type": "voluptas",
-        "ColorBlock": 439,
-        "IconHint": "tenetur",
-        "Selected": false,
-        "LastChanged": "2014-01-17T03:51:34.7395889+01:00",
+        "Id": 669,
+        "Name": "Hills, Emard and Witting",
+        "ToolTip": "Quia est odit beatae.",
+        "Deleted": false,
+        "Rank": 994,
+        "Type": "et",
+        "ColorBlock": 639,
+        "IconHint": "blanditiis",
+        "Selected": true,
+        "LastChanged": "1998-04-29T16:00:49.086451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "et",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Muhammad Kuhlman"
+        "FullName": "Abbey Hettinger"
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Colleen Renner"
+    "ExtraInfo": "eaque",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Prof. Giovanni Anderson Jacobs"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "Orn Group",
-    "ToolTip": "Sed neque.",
-    "Deleted": true,
-    "Rank": 943,
-    "Type": "aut",
-    "ColorBlock": 297,
+    "Id": 832,
+    "Name": "Abshire-Erdman",
+    "ToolTip": "Et sed et.",
+    "Deleted": false,
+    "Rank": 884,
+    "Type": "suscipit",
+    "ColorBlock": 774,
     "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2002-10-09T03:51:34.7395889+02:00",
+    "LastChanged": "2014-10-31T16:00:49.086451+01:00",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Walsh Inc and Sons",
-        "ToolTip": "Facere ipsam atque soluta in minima veritatis autem.",
-        "Deleted": false,
-        "Rank": 305,
-        "Type": "iusto",
-        "ColorBlock": 762,
-        "IconHint": "corporis",
+        "Id": 835,
+        "Name": "Labadie-Pollich",
+        "ToolTip": "Et ex.",
+        "Deleted": true,
+        "Rank": 143,
+        "Type": "repudiandae",
+        "ColorBlock": 717,
+        "IconHint": "iure",
         "Selected": true,
-        "LastChanged": "2006-12-16T03:51:34.7395889+01:00",
+        "LastChanged": "1998-09-06T16:00:49.086451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Deshaun Herzog",
+        "ExtraInfo": "est",
+        "StyleHint": "deserunt",
+        "Hidden": false,
+        "FullName": "Yvonne Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 113
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Serenity Trantow",
+    "ExtraInfo": "impedit",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Graciela Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldType": "System.Int32",
+        "FieldLength": 227
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/RemoveContactSelectionMembers
 uid: v1SelectionAgent_RemoveContactSelectionMembers
+generated: true
 ---
 
 # POST Agents/Selection/RemoveContactSelectionMembers
@@ -64,19 +65,19 @@ No Content
 POST /api/v1/Agents/Selection/RemoveContactSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 793,
+  "SelectionId": 779,
   "ContactPersonIds": [
     {
-      "PersonId": 623,
-      "ContactId": 710
+      "PersonId": 951,
+      "ContactId": 32
     },
     {
-      "PersonId": 623,
-      "ContactId": 710
+      "PersonId": 951,
+      "ContactId": 32
     }
   ]
 }

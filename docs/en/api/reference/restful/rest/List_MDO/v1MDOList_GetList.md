@@ -1,6 +1,7 @@
 ---
 title: GET MDOList/{listname}
 uid: v1MDOList_GetList
+generated: true
 ---
 
 # GET MDOList/{listname}
@@ -31,8 +32,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=consequatur
-GET /api/v1/MDOList/{listname}?query=et
+GET /api/v1/MDOList/{listname}?additional=voluptatem
+GET /api/v1/MDOList/{listname}?query=id
 ```
 
 
@@ -83,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Paucek LLC",
-    "ToolTip": "Illo aspernatur ab.",
+    "Id": 416,
+    "Name": "Huels Group",
+    "ToolTip": "Et eos sed tenetur in atque est molestias.",
     "Deleted": true,
-    "Rank": 709,
-    "Type": "ipsa",
+    "Rank": 207,
+    "Type": "consequuntur",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Ebert Inc and Sons",
-        "ToolTip": "Inventore repudiandae et sit et.",
+        "Id": 266,
+        "Name": "Russel LLC",
+        "ToolTip": "Quis corporis praesentium.",
         "Deleted": false,
-        "Rank": 460,
-        "Type": "rerum",
+        "Rank": 163,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 902,
-        "ExtraInfo": "sit",
-        "StyleHint": "magni",
-        "FullName": "Carter Kuhn MD",
+        "IconHint": "ex",
+        "ColorBlock": 725,
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "laborum",
+        "FullName": "Araceli Alfonso Dickinson DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 533
+            "FieldLength": 922
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 583,
-    "ExtraInfo": "quia",
-    "StyleHint": "maxime",
-    "FullName": "Jamal Bergstrom",
+    "IconHint": "iure",
+    "ColorBlock": 65,
+    "ExtraInfo": "odio",
+    "StyleHint": "quos",
+    "FullName": "Odessa Sporer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldLength": 487
       }
     }
   }

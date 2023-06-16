@@ -1,5 +1,5 @@
 ---
-generated: 1
+generated: true
 uid: wsdl-Services88-Tooltips
 title: Services88.TooltipsAgent WSDL
 ---

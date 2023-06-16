@@ -1,6 +1,6 @@
 ---
 title: Services88.ContactAgent.GetDuplicates SOAP
-generated: 1
+generated: true
 uid: Services88-Contact-GetDuplicates
 ---
 

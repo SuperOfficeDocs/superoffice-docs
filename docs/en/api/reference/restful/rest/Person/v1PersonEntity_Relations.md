@@ -1,6 +1,7 @@
 ---
 title: GET Person/{id}/Relations
 uid: v1PersonEntity_Relations
+generated: true
 ---
 
 # GET Person/{id}/Relations
@@ -73,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Relations?$select=name,department,category/id
 GET /api/v1/Person/{id}/Relations?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Relations?$orderBy=name asc
-GET /api/v1/Person/{id}/Relations?$entities=accusantium
-GET /api/v1/Person/{id}/Relations?$top=612
-GET /api/v1/Person/{id}/Relations?$skip=530
+GET /api/v1/Person/{id}/Relations?$entities=dolore
+GET /api/v1/Person/{id}/Relations?$top=487
+GET /api/v1/Person/{id}/Relations?$skip=376
 GET /api/v1/Person/{id}/Relations?$mode=Full
 GET /api/v1/Person/{id}/Relations?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Relations?$context=aut
+GET /api/v1/Person/{id}/Relations?$context=magni
 GET /api/v1/Person/{id}/Relations?$format=JSON
 GET /api/v1/Person/{id}/Relations?$jsonSafe=False
 GET /api/v1/Person/{id}/Relations?$output=Display
@@ -122,7 +123,7 @@ OK
 GET /api/v1/Person/{id}/Relations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "fugiat",
+  "odata.nextLink": "officiis",
   "value": [
     {
-      "PrimaryKey": 8472,
+      "PrimaryKey": 5135,
       "EntityName": "sale",
-      "saleId": 8472,
-      "contactId": 1406,
-      "name": "Pfeffer LLC"
+      "saleId": 5135,
+      "contactId": 4332,
+      "name": "Beier, Ritchie and Conn"
     },
     {
-      "PrimaryKey": 3970,
+      "PrimaryKey": 7273,
       "EntityName": "sale",
-      "saleId": 3970,
-      "contactId": 2530,
-      "name": "Nikolaus-Roberts"
+      "saleId": 7273,
+      "contactId": 5252,
+      "name": "Gutmann-Tromp"
     }
   ]
 }

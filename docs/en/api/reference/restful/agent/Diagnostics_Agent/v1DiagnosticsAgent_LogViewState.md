@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Diagnostics/LogViewState
 uid: v1DiagnosticsAgent_LogViewState
+generated: true
 ---
 
 # POST Agents/Diagnostics/LogViewState
@@ -69,7 +70,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ViewState": "omnis"
+  "ViewState": "eius"
 }
 ```
 

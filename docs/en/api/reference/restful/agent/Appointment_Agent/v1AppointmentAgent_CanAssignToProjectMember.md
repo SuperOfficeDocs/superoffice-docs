@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CanAssignToProjectMember
 uid: v1AppointmentAgent_CanAssignToProjectMember
+generated: true
 ---
 
 # POST Agents/Appointment/CanAssignToProjectMember
@@ -68,12 +69,12 @@ OK
 POST /api/v1/Agents/Appointment/CanAssignToProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 590,
-  "SuggestedAppointmentId": 793
+  "ProjectId": 212,
+  "SuggestedAppointmentId": 102
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

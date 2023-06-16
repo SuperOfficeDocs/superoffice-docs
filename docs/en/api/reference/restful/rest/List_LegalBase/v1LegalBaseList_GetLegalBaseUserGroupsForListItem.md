@@ -1,6 +1,7 @@
 ---
 title: GET List/LegalBase/Items/{id}/UserGroups
 uid: v1LegalBaseList_GetLegalBaseUserGroupsForListItem
+generated: true
 ---
 
 # GET List/LegalBase/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Hilpert LLC",
-    "ToolTip": "Qui sed omnis velit eum illum.",
+    "Id": 631,
+    "Name": "Conn, Howe and Spencer",
+    "ToolTip": "Itaque sint.",
     "Deleted": false,
-    "Rank": 757,
-    "Type": "quibusdam",
-    "ColorBlock": 149,
-    "IconHint": "veritatis",
+    "Rank": 456,
+    "Type": "qui",
+    "ColorBlock": 985,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2007-10-11T03:51:34.7083411+02:00",
+    "LastChanged": "2000-05-08T16:00:49.0552074+02:00",
     "ChildItems": [
       {
-        "Id": 300,
-        "Name": "Ortiz Group",
-        "ToolTip": "Eum dicta placeat tempore.",
+        "Id": 374,
+        "Name": "Christiansen-Armstrong",
+        "ToolTip": "Adipisci corporis debitis eum dolorum.",
         "Deleted": false,
-        "Rank": 585,
-        "Type": "incidunt",
-        "ColorBlock": 734,
-        "IconHint": "ipsam",
-        "Selected": false,
-        "LastChanged": "2020-11-26T03:51:34.7083411+01:00",
+        "Rank": 566,
+        "Type": "tenetur",
+        "ColorBlock": 338,
+        "IconHint": "quod",
+        "Selected": true,
+        "LastChanged": "2006-10-27T16:00:49.0552074+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "iure",
-        "Hidden": false,
-        "FullName": "Miss Carleton Myah Runolfsdottir",
+        "ExtraInfo": "et",
+        "StyleHint": "quod",
+        "Hidden": true,
+        "FullName": "Jadon Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 522
+            "FieldType": "System.Int32",
+            "FieldLength": 417
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Tamia Jayme Douglas II",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "mollitia",
+    "Hidden": true,
+    "FullName": "Mrs. Dorthy Rocky Haley I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldLength": 193
       }
     }
   }

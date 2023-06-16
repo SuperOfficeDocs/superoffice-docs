@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/DeleteDeviceByIdentifier
 uid: v1ForeignSystemAgent_DeleteDeviceByIdentifier
+generated: true
 ---
 
 # POST Agents/ForeignSystem/DeleteDeviceByIdentifier
@@ -65,13 +66,13 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schinner-Koss",
-  "DeviceName": "Effertz, Bode and Daniel",
-  "DeviceIdentifier": "sunt"
+  "ApplicationName": "Hilll, Turner and Kub",
+  "DeviceName": "Pacocha Inc and Sons",
+  "DeviceIdentifier": "omnis"
 }
 ```
 

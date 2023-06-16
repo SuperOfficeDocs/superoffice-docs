@@ -1,17 +1,11 @@
 ---
 uid: documenttemplatelanguage
 title: documenttemplatelanguage
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "documenttemplatelanguage"
+keywords: mdoprovider mdo provider documenttemplatelanguage
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "documenttemplatelanguage" MDO List

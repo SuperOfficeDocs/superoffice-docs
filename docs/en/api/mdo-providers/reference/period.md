@@ -1,17 +1,11 @@
 ---
 uid: period
 title: period
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "period"
+keywords: mdoprovider mdo provider period
+description: Period values: Day, Week, Month, Quarter, Year
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "period" MDO List

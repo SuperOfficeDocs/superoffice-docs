@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BulkUpdate/GetJobResultsFromStorageAsJson
 uid: v1BulkUpdateAgent_GetJobResultsFromStorageAsJson
+generated: true
 ---
 
 # POST Agents/BulkUpdate/GetJobResultsFromStorageAsJson
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetJobResultsFromStorageAsJson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,7 +70,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "nihil",
-  "laboriosam"
+  "mollitia",
+  "fugiat"
 ]
 ```

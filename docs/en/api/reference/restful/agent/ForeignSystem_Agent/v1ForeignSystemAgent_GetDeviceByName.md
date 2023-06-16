@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetDeviceByName
 uid: v1ForeignSystemAgent_GetDeviceByName
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetDeviceByName
@@ -81,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Luettgen, Bergstrom and Okuneva",
-  "DeviceName": "Ratke, West and Kulas"
+  "ApplicationName": "Keeling, Langosh and Mayer",
+  "DeviceName": "Reinger LLC"
 }
 ```
 
@@ -97,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 700,
-  "Name": "Ferry, Hoppe and Greenfelder",
-  "CreatedDate": "2020-12-20T03:51:27.3498217+01:00",
-  "UpdatedDate": "2014-05-20T03:51:27.3498217+02:00",
-  "AssociateFullName": "Dr. Roxanne Kohler I",
-  "CreatedBy": "autem",
-  "UpdatedBy": "aperiam",
-  "DeviceIdentifier": "consequatur",
-  "ForeignAppId": 415,
+  "ForeignDeviceId": 845,
+  "Name": "McDermott Group",
+  "CreatedDate": "2018-03-10T16:00:41.0705907+01:00",
+  "UpdatedDate": "2015-09-07T16:00:41.0705907+02:00",
+  "AssociateFullName": "Justus Runolfsson",
+  "CreatedBy": "non",
+  "UpdatedBy": "impedit",
+  "DeviceIdentifier": "sit",
+  "ForeignAppId": 315,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldLength": 61
     }
   }
 }

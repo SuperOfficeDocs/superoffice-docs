@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/CreateDefaultTicketMessageEntity
 uid: v1TicketAgent_CreateDefaultTicketMessageEntity
+generated: true
 ---
 
 # POST Agents/Ticket/CreateDefaultTicketMessageEntity
@@ -81,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 396,
+  "EjMessageId": 414,
   "Ticket": null,
-  "CreatedAt": "1996-08-20T03:51:28.2870905+02:00",
+  "CreatedAt": "2014-11-14T16:00:41.9769129+01:00",
   "CreatedBy": null,
-  "Author": "a",
+  "Author": "magnam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eveniet",
-  "TimeSpent": 354,
-  "Body": "dolores",
-  "HtmlBody": "aliquam",
-  "EmailHeader": "sydnee.hayes@wizacronin.info",
-  "DebugInfo": "repellendus",
-  "MailSorter": "assumenda",
+  "MessageId": "quae",
+  "TimeSpent": 361,
+  "Body": "voluptatum",
+  "HtmlBody": "accusamus",
+  "EmailHeader": "owen@batz.us",
+  "DebugInfo": "vel",
+  "MailSorter": "voluptatem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "minus",
+  "SearchTitle": "laboriosam",
   "MessageHeaders": [
     {
-      "Id": 645,
-      "Name": "Borer, Conn and Marquardt",
-      "Value": "debitis",
+      "Id": 659,
+      "Name": "Fay-Mohr",
+      "Value": "quo",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -120,49 +121,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 624
+          "FieldLength": 421
         }
       }
     }
   ],
   "Important": false,
-  "Language": "iure",
-  "Sentiment": 383,
-  "SentimentConfidence": 149,
+  "Language": "dicta",
+  "Sentiment": 424,
+  "SentimentConfidence": 28,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 279,
-      "Name": "Powlowski Inc and Sons",
-      "ContentType": "quos",
-      "AttSize": 971,
+      "AttachmentId": 384,
+      "Name": "Buckridge, Auer and Abshire",
+      "ContentType": "et",
+      "AttSize": 144,
       "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "ea",
+      "ContentId": "nesciunt",
+      "AuthKey": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldLength": 732
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "odit"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "doloremque"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "quos"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "fugiat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 689
+      "FieldLength": 892
     }
   }
 }

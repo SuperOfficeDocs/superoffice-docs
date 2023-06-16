@@ -1,6 +1,6 @@
 ---
 title: Services88.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields SOAP
-generated: 1
+generated: true
 uid: Services88-BulkUpdate-RemoveStoredFieldsAndGetDefaultFields
 ---
 

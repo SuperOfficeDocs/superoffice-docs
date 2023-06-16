@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetPersonTasks
 uid: v1AppointmentAgent_GetPersonTasks
+generated: true
 ---
 
 # POST Agents/Appointment/GetPersonTasks
@@ -114,6 +115,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -123,12 +127,12 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 686,
-  "Count": 919
+  "PersonId": 955,
+  "Count": 728
 }
 ```
 
@@ -140,61 +144,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 428,
-    "StartDate": "2022-08-28T03:51:26.5531332+02:00",
-    "EndDate": "1996-11-08T03:51:26.5531332+01:00",
+    "AppointmentId": 369,
+    "StartDate": "2009-03-02T16:00:40.0394546+01:00",
+    "EndDate": "1997-12-14T16:00:40.0394546+01:00",
     "Type": "BookingForChecklist",
-    "Task": "accusamus",
-    "AssociateFullName": "Loyal Wunsch",
-    "ContactName": "Lehner-Funk",
-    "Description": "De-engineered homogeneous support",
-    "PersonFullName": "Danika Borer",
-    "PersonId": 137,
-    "ContactId": 184,
-    "ProjectId": 37,
-    "ProjectName": "Rau LLC",
+    "Task": "ut",
+    "AssociateFullName": "Mr. Alexane Abshire",
+    "ContactName": "Schaefer, Graham and O'Keefe",
+    "Description": "Versatile optimizing framework",
+    "PersonFullName": "Miss Bertha Haag PhD",
+    "PersonId": 514,
+    "ContactId": 208,
+    "ProjectId": 785,
+    "ProjectName": "Torp Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 708,
-    "ColorIndex": 570,
-    "IsFree": true,
+    "AssociateId": 279,
+    "ColorIndex": 116,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 638,
-    "PriorityName": "Runte, Harris and Fadel",
+    "PriorityId": 47,
+    "PriorityName": "Gulgowski Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2002-11-14T03:51:26.5531332+01:00",
+    "ActiveDate": "2007-09-02T16:00:40.0394546+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-01-23T03:51:26.5531332+01:00",
-    "RecurringEndDate": "2016-08-16T03:51:26.5531332+02:00",
-    "MotherId": 648,
-    "AssignedBy": 570,
-    "AssignedByFullName": "Aurelio Hegmann DVM",
+    "RecurringStartDate": "2020-03-31T16:00:40.0394546+02:00",
+    "RecurringEndDate": "2021-07-26T16:00:40.0394546+02:00",
+    "MotherId": 411,
+    "AssignedBy": 852,
+    "AssignedByFullName": "Mr. Felicity Julie Wolf DDS",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "dolor",
-    "SaleId": 787,
-    "SaleName": "Denesik-Cronin",
-    "AssociateName": "Stamm Inc and Sons",
-    "CreatedDate": "2021-03-29T03:51:26.5531332+02:00",
-    "CreatedBy": "reprehenderit",
-    "CreatedByFullName": "Liliana Price",
-    "CreatedByAssociateId": 806,
+    "Location": "eveniet",
+    "AlarmLeadTime": "natus",
+    "SaleId": 11,
+    "SaleName": "Labadie-O'Connell",
+    "AssociateName": "Weber Inc and Sons",
+    "CreatedDate": "2006-11-30T16:00:40.0394546+01:00",
+    "CreatedBy": "non",
+    "CreatedByFullName": "Mr. Destiney Smitham PhD",
+    "CreatedByAssociateId": 359,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "repellendus",
+    "Agenda": "quia",
+    "InternalNotes": "harum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldLength": 365
       }
     }
   }

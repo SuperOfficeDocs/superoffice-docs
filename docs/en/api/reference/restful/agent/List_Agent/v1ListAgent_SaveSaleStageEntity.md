@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveSaleStageEntity
 uid: v1ListAgent_SaveSaleStageEntity
+generated: true
 ---
 
 # POST Agents/List/SaveSaleStageEntity
@@ -72,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveSaleStageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 487,
-  "Value": "et",
-  "Tooltip": "beatae",
-  "Probability": 607,
+  "SaleStageId": 286,
+  "Value": "perspiciatis",
+  "Tooltip": "ea",
+  "Probability": 672,
   "Deleted": false,
-  "Rank": 554
+  "Rank": 704
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 66,
-  "Value": "numquam",
-  "Tooltip": "repellendus",
-  "Probability": 509,
+  "SaleStageId": 662,
+  "Value": "alias",
+  "Tooltip": "facere",
+  "Probability": 331,
   "Deleted": false,
-  "Rank": 57,
+  "Rank": 497,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 261
+      "FieldType": "System.Int32",
+      "FieldLength": 230
     }
   }
 }

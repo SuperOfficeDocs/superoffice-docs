@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetOrganizerName
 uid: v1AppointmentAgent_GetOrganizerName
+generated: true
 ---
 
 # POST Agents/Appointment/GetOrganizerName
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Appointment/GetOrganizerName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherAppointmentId": 573
+  "MotherAppointmentId": 15
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Fahey Group"
+"Gulgowski-Barton"
 ```

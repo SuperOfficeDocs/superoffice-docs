@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateSelectionFromSelection
 uid: v1SelectionAgent_CreateSelectionFromSelection
+generated: true
 ---
 
 # POST Agents/Selection/CreateSelectionFromSelection
@@ -115,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 593,
-  "Name": "Brekke Inc and Sons",
+  "SelectionId": 836,
+  "Name": "Feeney Inc and Sons",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -133,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Advanced 24 hour throughput",
-  "Postit": "minus",
+  "Description": "Digitized leading edge open architecture",
+  "Postit": "facilis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 688,
-  "IncludePerson": 907,
-  "MemberCount": 157,
-  "Name": "Kohler-Moore",
-  "PostitTextId": 355,
-  "CreatedDate": "2016-01-08T03:51:28.1933756+01:00",
-  "SelectionId": 962,
-  "SoundEx": "in",
-  "Source": 344,
-  "TextId": 432,
-  "UpdatedDate": "1998-12-19T03:51:28.1933756+01:00",
-  "UpdatedCount": 550,
-  "Visibility": 627,
+  "GroupIdx": 368,
+  "IncludePerson": 72,
+  "MemberCount": 799,
+  "Name": "Kihn, Douglas and Feil",
+  "PostitTextId": 854,
+  "CreatedDate": "2004-12-05T16:00:41.8675477+01:00",
+  "SelectionId": 288,
+  "SoundEx": "sequi",
+  "Source": 297,
+  "TextId": 387,
+  "UpdatedDate": "2007-01-02T16:00:41.8675477+01:00",
+  "UpdatedCount": 593,
+  "Visibility": 446,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 316,
-  "TargetTableName": "Wintheiser LLC",
-  "Completed": false,
-  "LeftSelectionId": 317,
-  "RightSelectionId": 517,
+  "TargetTableNumber": 851,
+  "TargetTableName": "Lesch, Bauch and Parisian",
+  "Completed": true,
+  "LeftSelectionId": 475,
+  "RightSelectionId": 667,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Eichmann LLC",
-  "ShadowProviderName": "Dibbert, Dickens and O'Keefe",
-  "ChartKey": "repellat",
-  "LastLoaded": "2020-12-22T03:51:28.1933756+01:00",
-  "LastLoadedBy": 553,
+  "MainProviderName": "McDermott, Prohaska and Reilly",
+  "ShadowProviderName": "Pollich, Hagenes and Marks",
+  "ChartKey": "reiciendis",
+  "LastLoaded": "2000-01-21T16:00:41.8675477+01:00",
+  "LastLoadedBy": 918,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-01-05T03:51:28.1933756+01:00",
-  "LastMembershipChangeBy": 617,
+  "LastMembershipChange": "2005-12-21T16:00:41.8675477+01:00",
+  "LastMembershipChangeBy": 316,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "perferendis",
-  "MemberTabHeading": "exercitationem",
-  "MailingsProviderName": "Labadie, Carroll and Kovacek",
-  "DashboardTileDefinitionId": 508,
+  "MainHeading": "omnis",
+  "MemberTabHeading": "occaecati",
+  "MailingsProviderName": "Koch Inc and Sons",
+  "DashboardTileDefinitionId": 969,
   "VisibleFor": [
     {
-      "VisibleId": 424,
+      "VisibleId": 893,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 349
+          "FieldType": "System.Int32",
+          "FieldLength": 968
         }
       }
     },
     {
-      "VisibleId": 424,
+      "VisibleId": 893,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 349
+          "FieldType": "System.Int32",
+          "FieldLength": 968
         }
       }
     }
@@ -205,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 258
+      "FieldType": "System.Int32",
+      "FieldLength": 731
     }
   }
 }

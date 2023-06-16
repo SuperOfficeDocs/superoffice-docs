@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 uid: v1DocumentAgent_GetProjectMemberDocumentsByTemplateTypes
+generated: true
 ---
 
 # POST Agents/Document/GetProjectMemberDocumentsByTemplateTypes
@@ -97,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 746,
-  "StartTime": "2013-03-27T03:51:27.0061522+01:00",
-  "EndTime": "2015-02-17T03:51:27.0061522+01:00",
-  "Count": 970,
+  "PersonId": 881,
+  "StartTime": "2008-07-01T16:00:40.5706201+02:00",
+  "EndTime": "2004-07-21T16:00:40.5706201+02:00",
+  "Count": 271,
   "DocumentTemplateIds": [
-    947,
-    813
+    261,
+    368
   ]
 }
 ```
@@ -120,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 156,
-    "Attention": "officiis",
-    "Header": "incidunt",
-    "Name": "Blick, Lesch and Macejkovic",
-    "OurRef": "vel",
-    "YourRef": "rerum",
-    "Description": "Versatile solution-oriented intranet",
-    "DocumentTemplate": "accusantium",
+    "DocumentId": 107,
+    "Attention": "asperiores",
+    "Header": "porro",
+    "Name": "Predovic, Hoeger and Wehner",
+    "OurRef": "ut",
+    "YourRef": "dolore",
+    "Description": "Centralized value-added support",
+    "DocumentTemplate": "quibusdam",
     "IsPublished": true,
-    "PersonId": 319,
-    "PersonFullName": "Prof. Ceasar Okuneva II",
-    "AssociateFullName": "Alexie Greenfelder",
-    "ContactId": 685,
-    "ContactName": "Waters, Stamm and Rogahn",
-    "ProjectId": 625,
-    "ProjectName": "Volkman LLC",
-    "AssociateId": 242,
-    "Snum": 331,
-    "SaleId": 847,
-    "SaleName": "Ratke LLC",
+    "PersonId": 321,
+    "PersonFullName": "Hettie Runte",
+    "AssociateFullName": "Jamey Renner",
+    "ContactId": 928,
+    "ContactName": "Hartmann Inc and Sons",
+    "ProjectId": 901,
+    "ProjectName": "Armstrong, Nikolaus and Walker",
+    "AssociateId": 596,
+    "Snum": 393,
+    "SaleId": 194,
+    "SaleName": "Bogan Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 544
+        "FieldType": "System.String",
+        "FieldLength": 153
       }
     }
   }

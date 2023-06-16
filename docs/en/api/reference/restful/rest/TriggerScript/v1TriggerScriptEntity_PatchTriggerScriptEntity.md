@@ -1,6 +1,7 @@
 ---
 title: PATCH TriggerScript/{id}
 uid: v1TriggerScriptEntity_PatchTriggerScriptEntity
+generated: true
 ---
 
 # PATCH TriggerScript/{id}
@@ -119,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repudiandae",
+    "path": "distinctio",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repudiandae",
+    "path": "distinctio",
     "value": {}
   }
 ]
@@ -143,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 450,
-  "Name": "Trantow-Greenholt",
+  "ScreenChooserId": 542,
+  "Name": "Rath, Metz and Okuneva",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "dolore",
-  "Source": "illo",
-  "Registered": "2019-05-18T03:51:34.1615868+02:00",
-  "RegisteredAssociateId": 793,
-  "Updated": "2018-03-15T03:51:34.1615868+01:00",
-  "UpdatedAssociateId": 325,
+  "UniqueIdentifier": "accusamus",
+  "Source": "non",
+  "Registered": "2008-06-05T16:00:48.617756+02:00",
+  "RegisteredAssociateId": 415,
+  "Updated": "2003-02-20T16:00:48.617756+01:00",
+  "UpdatedAssociateId": 42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldType": "System.Int32",
+      "FieldLength": 432
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

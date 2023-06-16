@@ -1,6 +1,7 @@
 ---
 title: GET List/DocumentTemplate/MDOItems
 uid: v1DocumentTemplateList_GetMDOList
+generated: true
 ---
 
 # GET List/DocumentTemplate/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=illum
+GET /api/v1/List/DocumentTemplate/MDOItems?query=corporis
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Nicolas-Beier",
-    "ToolTip": "Quo est est iusto ipsum amet.",
+    "Id": 940,
+    "Name": "Schuster, Gerhold and Murray",
+    "ToolTip": "Quia quo.",
     "Deleted": false,
-    "Rank": 894,
-    "Type": "amet",
+    "Rank": 218,
+    "Type": "iste",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "Ratke-Marquardt",
-        "ToolTip": "Aut fugit veritatis voluptatem.",
-        "Deleted": false,
-        "Rank": 487,
-        "Type": "aliquid",
+        "Id": 10,
+        "Name": "Kozey Inc and Sons",
+        "ToolTip": "Dolorum id voluptatem.",
+        "Deleted": true,
+        "Rank": 240,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 131,
-        "ExtraInfo": "repellendus",
-        "StyleHint": "consequatur",
-        "FullName": "Miss Kade Lemke MD",
+        "IconHint": "labore",
+        "ColorBlock": 476,
+        "ExtraInfo": "numquam",
+        "StyleHint": "dolorem",
+        "FullName": "Miss Zack Eusebio Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 528
+            "FieldType": "System.Int32",
+            "FieldLength": 211
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 33,
-    "ExtraInfo": "nam",
-    "StyleHint": "sit",
-    "FullName": "Clint Christiansen",
+    "IconHint": "facilis",
+    "ColorBlock": 118,
+    "ExtraInfo": "non",
+    "StyleHint": "autem",
+    "FullName": "Noel Gorczany V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 239
+        "FieldLength": 955
       }
     }
   }

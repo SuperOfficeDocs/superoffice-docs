@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Replication/SaveSatellite
 uid: v1ReplicationAgent_SaveSatellite
+generated: true
 ---
 
 # POST Agents/Replication/SaveSatellite
@@ -78,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 38,
-  "Created": "2021-11-24T03:51:28.0527796+01:00",
+  "SatelliteId": 643,
+  "Created": "2016-06-10T16:00:41.6956884+02:00",
   "CreatedBy": null,
-  "Updated": "2007-01-24T03:51:28.0527796+01:00",
+  "Updated": "1997-12-05T16:00:41.6956884+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Haley-Bailey",
-      "Description": "Inverse fresh-thinking Graphic Interface",
+      "Name": "Luettgen, Cummerata and Abernathy",
+      "Description": "Face to face mobile data-warehouse",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -103,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Haley-Bailey",
-      "Description": "Inverse fresh-thinking Graphic Interface",
+      "Name": "Luettgen, Cummerata and Abernathy",
+      "Description": "Face to face mobile data-warehouse",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -125,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 725,
-  "Created": "2019-05-26T03:51:28.0527796+02:00",
+  "SatelliteId": 656,
+  "Created": "1996-03-26T16:00:41.6956884+01:00",
   "CreatedBy": null,
-  "Updated": "2016-01-21T03:51:28.0527796+01:00",
+  "Updated": "2017-08-31T16:00:41.6956884+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Kshlerin, Von and Mitchell",
-      "Description": "Triple-buffered holistic capacity",
+      "Name": "Lueilwitz-O'Hara",
+      "Description": "Ergonomic assymetric capability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,13 +150,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 527
+          "FieldLength": 128
         }
       }
     },
     {
-      "Name": "Kshlerin, Von and Mitchell",
-      "Description": "Triple-buffered holistic capacity",
+      "Name": "Lueilwitz-O'Hara",
+      "Description": "Ergonomic assymetric capability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,7 +170,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 527
+          "FieldLength": 128
         }
       }
     }
@@ -179,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 851
     }
   }
 }

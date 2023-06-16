@@ -1,6 +1,7 @@
 ---
 title: GET Project/{id}/Activities
 uid: v1ProjectEntity_Activities
+generated: true
 ---
 
 # GET Project/{id}/Activities
@@ -73,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project/{id}/Activities?$select=name,department,category/id
 GET /api/v1/Project/{id}/Activities?$filter=name begins 'S'
 GET /api/v1/Project/{id}/Activities?$orderBy=name asc
-GET /api/v1/Project/{id}/Activities?$entities=non
-GET /api/v1/Project/{id}/Activities?$top=149
-GET /api/v1/Project/{id}/Activities?$skip=896
+GET /api/v1/Project/{id}/Activities?$entities=alias
+GET /api/v1/Project/{id}/Activities?$top=182
+GET /api/v1/Project/{id}/Activities?$skip=341
 GET /api/v1/Project/{id}/Activities?$mode=Full
 GET /api/v1/Project/{id}/Activities?$options=GrandTotal=true
-GET /api/v1/Project/{id}/Activities?$context=illo
+GET /api/v1/Project/{id}/Activities?$context=omnis
 GET /api/v1/Project/{id}/Activities?$format=JSON
 GET /api/v1/Project/{id}/Activities?$jsonSafe=False
 GET /api/v1/Project/{id}/Activities?$output=Display
@@ -122,7 +123,7 @@ OK
 GET /api/v1/Project/{id}/Activities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sunt",
+  "odata.nextLink": "recusandae",
   "value": [
     {
-      "PrimaryKey": 4849,
+      "PrimaryKey": 8290,
       "EntityName": "sale",
-      "saleId": 4849,
-      "contactId": 5613,
-      "name": "Funk-Kessler"
+      "saleId": 8290,
+      "contactId": 6351,
+      "name": "Kassulke, Lemke and Jenkins"
     },
     {
-      "PrimaryKey": 1332,
+      "PrimaryKey": 697,
       "EntityName": "sale",
-      "saleId": 1332,
-      "contactId": 6205,
-      "name": "Ledner-Hammes"
+      "saleId": 697,
+      "contactId": 691,
+      "name": "Conn-Upton"
     }
   ]
 }

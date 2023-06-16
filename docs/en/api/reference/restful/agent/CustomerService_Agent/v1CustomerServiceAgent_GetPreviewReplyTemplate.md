@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/GetPreviewReplyTemplate
 uid: v1CustomerServiceAgent_GetPreviewReplyTemplate
+generated: true
 ---
 
 # POST Agents/CustomerService/GetPreviewReplyTemplate
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 273
+  "ReplyTemplateId": 139
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wisoky, Ullrich and Kautzer",
-  "Description": "Up-sized bottom-line internet solution",
-  "OwnedByFullName": "Kailey Russel",
-  "Updated": "2015-10-28T03:51:26.9592824+01:00",
-  "Body": "dolor",
-  "IsHtml": true,
+  "Name": "Wisozk-Botsford",
+  "Description": "Reduced value-added artificial intelligence",
+  "OwnedByFullName": "Miss Alfredo Marks V",
+  "Updated": "2007-12-22T16:00:40.5081328+01:00",
+  "Body": "cum",
+  "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldType": "System.String",
+      "FieldLength": 514
     }
   }
 }

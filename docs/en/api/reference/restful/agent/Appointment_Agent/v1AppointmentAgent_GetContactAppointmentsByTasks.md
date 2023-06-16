@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetContactAppointmentsByTasks
 uid: v1AppointmentAgent_GetContactAppointmentsByTasks
+generated: true
 ---
 
 # POST Agents/Appointment/GetContactAppointmentsByTasks
@@ -117,6 +118,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -126,17 +130,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 917,
-  "StartTime": "2014-05-19T03:51:26.1313562+02:00",
-  "EndTime": "2000-06-19T03:51:26.1313562+02:00",
-  "Count": 748,
+  "ContactId": 630,
+  "StartTime": "2007-01-11T16:00:39.6176013+01:00",
+  "EndTime": "2008-10-29T16:00:39.6176013+01:00",
+  "Count": 133,
   "TaskIds": [
-    482,
-    524
+    334,
+    316
   ]
 }
 ```
@@ -149,61 +153,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 344,
-    "StartDate": "2009-04-09T03:51:26.1313562+02:00",
-    "EndDate": "2017-01-28T03:51:26.1313562+01:00",
+    "AppointmentId": 616,
+    "StartDate": "2003-10-17T16:00:39.6176013+02:00",
+    "EndDate": "2016-04-23T16:00:39.6176013+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Mrs. Jovani Nova Keeling",
-    "ContactName": "Denesik-Wunsch",
-    "Description": "Organic bandwidth-monitored algorithm",
-    "PersonFullName": "Mackenzie Garret Brekke III",
-    "PersonId": 298,
-    "ContactId": 915,
-    "ProjectId": 799,
-    "ProjectName": "Crona Group",
+    "Task": "qui",
+    "AssociateFullName": "Caroline Kunze",
+    "ContactName": "Schmeler-Schamberger",
+    "Description": "Reverse-engineered impactful function",
+    "PersonFullName": "Mariano Kuvalis",
+    "PersonId": 724,
+    "ContactId": 537,
+    "ProjectId": 177,
+    "ProjectName": "Shanahan Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 423,
-    "ColorIndex": 748,
+    "AssociateId": 905,
+    "ColorIndex": 85,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 586,
-    "PriorityName": "Wiza, Buckridge and Cruickshank",
+    "PriorityId": 727,
+    "PriorityName": "Johnston, Ledner and Bauch",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2016-08-31T03:51:26.1313562+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2001-08-17T16:00:39.6176013+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-01-22T03:51:26.1313562+01:00",
-    "RecurringEndDate": "2021-06-08T03:51:26.1313562+02:00",
-    "MotherId": 909,
-    "AssignedBy": 811,
-    "AssignedByFullName": "Aidan Torp DDS",
+    "RecurringStartDate": "2016-06-09T16:00:39.6176013+02:00",
+    "RecurringEndDate": "2010-09-25T16:00:39.6176013+02:00",
+    "MotherId": 30,
+    "AssignedBy": 686,
+    "AssignedByFullName": "Tracy Rodriguez",
     "RejectReason": "",
-    "Location": "dignissimos",
-    "AlarmLeadTime": "repudiandae",
-    "SaleId": 418,
-    "SaleName": "Bernhard, Bergstrom and Rath",
-    "AssociateName": "Schuppe Inc and Sons",
-    "CreatedDate": "2020-01-19T03:51:26.1313562+01:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Raymundo Armstrong",
-    "CreatedByAssociateId": 345,
+    "Location": "minima",
+    "AlarmLeadTime": "sit",
+    "SaleId": 71,
+    "SaleName": "Mertz LLC",
+    "AssociateName": "Skiles, Gibson and McClure",
+    "CreatedDate": "2015-01-03T16:00:39.6332261+01:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Tate Bode",
+    "CreatedByAssociateId": 698,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "officia",
+    "Agenda": "earum",
+    "InternalNotes": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldLength": 327
       }
     }
   }

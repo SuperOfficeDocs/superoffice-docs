@@ -1,6 +1,6 @@
 ---
 title: Services88.ProjectAgent.GetProjectEvent SOAP
-generated: 1
+generated: true
 uid: Services88-Project-GetProjectEvent
 ---
 
@@ -73,7 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:SignOffText xsi:type="xsd:string"></Project:SignOffText>
     <Project:SignOnConfirmationText xsi:type="xsd:string"></Project:SignOnConfirmationText>
     <Project:SignOnText xsi:type="xsd:string"></Project:SignOnText>
-    <Project:EventDate xsi:type="xsd:dateTime">2023-05-25T11:09:50Z</Project:EventDate>
+    <Project:EventDate xsi:type="xsd:dateTime">2023-06-09T13:59:51Z</Project:EventDate>
     <Project:Enabled xsi:type="xsd:boolean">false</Project:Enabled>
     <Project:SignOff xsi:type="xsd:boolean">false</Project:SignOff>
     <Project:SignOffTaskEnable xsi:type="xsd:boolean">false</Project:SignOffTaskEnable>

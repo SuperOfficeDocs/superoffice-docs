@@ -1,6 +1,7 @@
 ---
 title: DEL List/Country/Items/{id}
 uid: v1CountryList_DeleteCountry
+generated: true
 ---
 
 # DEL List/Country/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

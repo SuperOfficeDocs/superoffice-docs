@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/ValidateDays
 uid: v1AppointmentAgent_ValidateDays
+generated: true
 ---
 
 # POST Agents/Appointment/ValidateDays
@@ -81,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "eum",
-    "voluptas"
+    "et",
+    "harum"
   ]
 }
 ```
@@ -95,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "1998-10-29T03:51:26.2563301+01:00",
-    "IsConflict": false,
-    "Description": "Decentralized bottom-line matrix",
-    "DescriptionStyleHint": "Organic optimal access",
-    "Tooltip": "quaerat"
+    "Date": "1997-08-22T16:00:39.8832222+02:00",
+    "IsConflict": true,
+    "Description": "De-engineered didactic open architecture",
+    "DescriptionStyleHint": "Re-contextualized 24 hour data-warehouse",
+    "Tooltip": "neque"
   },
   {
-    "Date": "1998-10-29T03:51:26.2563301+01:00",
-    "IsConflict": false,
-    "Description": "Decentralized bottom-line matrix",
-    "DescriptionStyleHint": "Organic optimal access",
-    "Tooltip": "quaerat"
+    "Date": "1997-08-22T16:00:39.8832222+02:00",
+    "IsConflict": true,
+    "Description": "De-engineered didactic open architecture",
+    "DescriptionStyleHint": "Re-contextualized 24 hour data-warehouse",
+    "Tooltip": "neque"
   }
 ]
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/UpdateConnectionFields
 uid: v1ErpSyncAgent_UpdateConnectionFields
+generated: true
 ---
 
 # POST Agents/ErpSync/UpdateConnectionFields
@@ -73,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 419
+  "ErpConnectionId": 389
 }
 ```
 

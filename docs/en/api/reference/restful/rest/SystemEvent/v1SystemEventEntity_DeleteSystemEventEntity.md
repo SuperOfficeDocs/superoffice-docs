@@ -1,6 +1,7 @@
 ---
 title: DEL SystemEvent/{id}
 uid: v1SystemEventEntity_DeleteSystemEventEntity
+generated: true
 ---
 
 # DEL SystemEvent/{id}
@@ -51,7 +52,7 @@ SystemEventEntity deleted.
 DELETE /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

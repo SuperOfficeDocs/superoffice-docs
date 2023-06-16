@@ -1,17 +1,11 @@
 ---
 uid: projectstatus
 title: projectstatus
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "projectstatus"
+keywords: mdoprovider mdo provider projectstatus
+description: List of project guide steps status values.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "projectstatus" MDO List

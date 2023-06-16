@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetActivePriceListsByCurrencyId
 uid: v1QuoteAgent_GetActivePriceListsByCurrencyId
+generated: true
 ---
 
 # POST Agents/Quote/GetActivePriceListsByCurrencyId
@@ -88,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 360,
-  "CurrencyId": 706
+  "QuoteConnectionId": 795,
+  "CurrencyId": 545
 }
 ```
 
@@ -101,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 322,
-    "ERPPriceListKey": "cupiditate",
-    "QuoteConnectionId": 5,
-    "Name": "Dibbert Inc and Sons",
-    "Description": "Upgradable impactful portal",
-    "Currency": "laudantium",
-    "CurrencyName": "Roberts Inc and Sons",
-    "ValidFrom": "1996-03-15T03:51:28.0215395+01:00",
-    "ValidTo": "2021-05-25T03:51:28.0215395+02:00",
-    "IsActive": false,
+    "PriceListId": 854,
+    "ERPPriceListKey": "dolore",
+    "QuoteConnectionId": 921,
+    "Name": "Quigley, O'Keefe and Berge",
+    "Description": "Realigned grid-enabled intranet",
+    "Currency": "dolorum",
+    "CurrencyName": "Hermiston, Green and Klein",
+    "ValidFrom": "2017-12-17T16:00:41.6488224+01:00",
+    "ValidTo": "2001-03-24T16:00:41.6488224+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldType": "System.Int32",
+        "FieldLength": 731
       }
     }
   }

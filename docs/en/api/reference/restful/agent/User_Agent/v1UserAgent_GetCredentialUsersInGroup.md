@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetCredentialUsersInGroup
 uid: v1UserAgent_GetCredentialUsersInGroup
+generated: true
 ---
 
 # POST Agents/User/GetCredentialUsersInGroup
@@ -76,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "vel",
-  "GroupName": "Daniel, Kirlin and Dietrich"
+  "Type": "et",
+  "GroupName": "Bradtke LLC"
 }
 ```
 
@@ -93,16 +94,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "itaque",
-    "libero"
+    "in",
+    "magnam"
   ],
   "Users": [
     {
-      "Value": "ducimus",
-      "DisplayValue": "sed",
+      "Value": "animi",
+      "DisplayValue": "ut",
       "Columns": [
-        "distinctio",
-        "eaque"
+        "quia",
+        "ipsam"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -110,16 +111,16 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 307
         }
       }
     },
     {
-      "Value": "ducimus",
-      "DisplayValue": "sed",
+      "Value": "animi",
+      "DisplayValue": "ut",
       "Columns": [
-        "distinctio",
-        "eaque"
+        "quia",
+        "ipsam"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -127,7 +128,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 307
         }
       }
     }
@@ -136,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 929
+      "FieldType": "System.Int32",
+      "FieldLength": 898
     }
   }
 }

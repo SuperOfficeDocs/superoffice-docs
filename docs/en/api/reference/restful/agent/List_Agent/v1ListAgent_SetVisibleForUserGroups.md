@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetVisibleForUserGroups
 uid: v1ListAgent_SetVisibleForUserGroups
+generated: true
 ---
 
 # POST Agents/List/SetVisibleForUserGroups
@@ -88,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 313,
-  "ListItemId": 162,
+  "UdListDefinitionId": 743,
+  "ListItemId": 85,
   "UserGroups": [
     {
-      "Id": 425,
-      "Name": "Ebert-Schmidt",
-      "ToolTip": "Nesciunt quisquam omnis.",
+      "Id": 78,
+      "Name": "Gulgowski LLC",
+      "ToolTip": "Aut doloremque facilis ab totam illum.",
       "Deleted": false,
-      "Rank": 295,
-      "Type": "est",
-      "ColorBlock": 109,
-      "IconHint": "nam",
+      "Rank": 802,
+      "Type": "officiis",
+      "ColorBlock": 573,
+      "IconHint": "similique",
       "Selected": false,
-      "LastChanged": "2018-02-05T03:51:27.4123074+01:00",
+      "LastChanged": "2016-12-16T16:00:41.1487084+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quis",
-      "StyleHint": "omnis",
+      "ExtraInfo": "dolorem",
+      "StyleHint": "nostrum",
       "Hidden": false,
-      "FullName": "Elfrieda Dana Crooks Jr."
+      "FullName": "Maiya Mohr"
     }
   ]
 }
@@ -127,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 342,
-    "Name": "Beier-Sawayn",
-    "ToolTip": "Qui ullam quam quia ad ullam.",
+    "Id": 882,
+    "Name": "Stamm Inc and Sons",
+    "ToolTip": "Accusamus accusamus dignissimos sit.",
     "Deleted": false,
-    "Rank": 384,
+    "Rank": 190,
     "Type": "aut",
-    "ColorBlock": 850,
-    "IconHint": "tenetur",
+    "ColorBlock": 988,
+    "IconHint": "voluptatibus",
     "Selected": false,
-    "LastChanged": "2004-07-22T03:51:27.4123074+02:00",
+    "LastChanged": "2020-03-10T16:00:41.1487084+01:00",
     "ChildItems": [
       {
-        "Id": 394,
-        "Name": "Leffler, Roberts and Lehner",
-        "ToolTip": "Inventore quia quibusdam omnis expedita repudiandae incidunt dicta.",
+        "Id": 669,
+        "Name": "Beier-Gaylord",
+        "ToolTip": "Voluptates eos ipsum.",
         "Deleted": false,
-        "Rank": 114,
-        "Type": "occaecati",
-        "ColorBlock": 592,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2019-06-22T03:51:27.4123074+02:00",
+        "Rank": 338,
+        "Type": "facere",
+        "ColorBlock": 402,
+        "IconHint": "suscipit",
+        "Selected": true,
+        "LastChanged": "2011-11-22T16:00:41.1487084+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "natus",
-        "Hidden": true,
-        "FullName": "Korey Alva Mitchell DDS",
+        "ExtraInfo": "modi",
+        "StyleHint": "nostrum",
+        "Hidden": false,
+        "FullName": "Devin Orn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 376
+            "FieldType": "System.String",
+            "FieldLength": 482
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "sed",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Wilford Hailey Jacobi Sr.",
+    "FullName": "Edna Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 793
       }
     }
   }

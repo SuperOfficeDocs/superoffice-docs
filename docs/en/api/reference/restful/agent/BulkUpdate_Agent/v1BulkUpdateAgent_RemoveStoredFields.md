@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BulkUpdate/RemoveStoredFields
 uid: v1BulkUpdateAgent_RemoveStoredFields
+generated: true
 ---
 
 # POST Agents/BulkUpdate/RemoveStoredFields
@@ -72,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Marvin-Hilpert",
-  "Context": "quasi"
+  "TableName": "Grimes, Witting and Hackett",
+  "Context": "distinctio"
 }
 ```
 

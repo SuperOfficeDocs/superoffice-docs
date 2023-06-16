@@ -1,6 +1,7 @@
 ---
 title: GET List/Rating/Items/{id}
 uid: v1RatingList_GetSaleStageEntity
+generated: true
 ---
 
 # GET List/Rating/Items/{id}
@@ -66,7 +67,7 @@ OK
 GET /api/v1/List/Rating/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 92,
-  "Value": "quasi",
-  "Tooltip": "sit",
-  "Probability": 874,
+  "SaleStageId": 74,
+  "Value": "culpa",
+  "Tooltip": "et",
+  "Probability": 333,
   "Deleted": false,
-  "Rank": 133,
+  "Rank": 853,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 184
     }
   }
 }

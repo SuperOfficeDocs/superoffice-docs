@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/CopyFromCRMDocument
 uid: v1TicketAgent_CopyFromCRMDocument
+generated: true
 ---
 
 # POST Agents/Ticket/CopyFromCRMDocument
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 792
+  "DocumentId": 619
 }
 ```
 
@@ -93,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 299,
-  "Name": "Klein-Jaskolski",
-  "ContentType": "ipsum",
-  "AttSize": 972,
-  "InlineImage": true,
-  "ContentId": "illum",
-  "AuthKey": "autem",
+  "AttachmentId": 430,
+  "Name": "Brown-Muller",
+  "ContentType": "illo",
+  "AttSize": 71,
+  "InlineImage": false,
+  "ContentId": "eligendi",
+  "AuthKey": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldType": "System.String",
+      "FieldLength": 597
     }
   }
 }

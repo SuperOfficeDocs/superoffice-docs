@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/GetModuleLicenseHistoryFromLicenseServer
 uid: v1LicenseAgent_GetModuleLicenseHistoryFromLicenseServer
+generated: true
 ---
 
 # POST Agents/License/GetModuleLicenseHistoryFromLicenseServer
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseHistoryFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"est"
+"error"
 ```

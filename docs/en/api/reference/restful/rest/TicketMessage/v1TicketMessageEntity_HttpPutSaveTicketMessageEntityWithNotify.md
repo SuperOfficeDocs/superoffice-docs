@@ -1,6 +1,7 @@
 ---
 title: PUT TicketMessage/{id}
 uid: v1TicketMessageEntity_HttpPutSaveTicketMessageEntityWithNotify
+generated: true
 ---
 
 # PUT TicketMessage/{id}
@@ -28,7 +29,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=True
+PUT /api/v1/TicketMessage/{id}?notify=False
 ```
 
 
@@ -127,66 +128,66 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 854,
+  "EjMessageId": 800,
   "Ticket": null,
-  "CreatedAt": "2021-11-11T03:51:34.1459634+01:00",
+  "CreatedAt": "1997-01-01T16:00:48.586505+01:00",
   "CreatedBy": null,
-  "Author": "veritatis",
+  "Author": "necessitatibus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rem",
-  "TimeSpent": 999,
-  "Body": "qui",
-  "HtmlBody": "est",
-  "EmailHeader": "maribel.wolf@jacobidenesik.info",
-  "DebugInfo": "similique",
-  "MailSorter": "illum",
+  "MessageId": "dolorum",
+  "TimeSpent": 587,
+  "Body": "vel",
+  "HtmlBody": "enim",
+  "EmailHeader": "belle@beier.ca",
+  "DebugInfo": "tempora",
+  "MailSorter": "magni",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "non",
+  "SearchTitle": "molestias",
   "MessageHeaders": [
     {
-      "Id": 585,
-      "Name": "Jast, Hauck and Ankunding",
-      "Value": "numquam",
+      "Id": 176,
+      "Name": "Balistreri, Klein and Olson",
+      "Value": "nostrum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 585,
-      "Name": "Jast, Hauck and Ankunding",
-      "Value": "numquam",
+      "Id": 176,
+      "Name": "Balistreri, Klein and Olson",
+      "Value": "nostrum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "dolores",
-  "Sentiment": 191,
-  "SentimentConfidence": 7,
+  "Language": "voluptatibus",
+  "Sentiment": 215,
+  "SentimentConfidence": 270,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 156,
-      "Name": "Howell Group",
-      "ContentType": "architecto",
-      "AttSize": 458,
-      "InlineImage": true,
-      "ContentId": "at",
-      "AuthKey": "qui"
+      "AttachmentId": 748,
+      "Name": "Lubowitz, Stoltenberg and Stroman",
+      "ContentType": "sit",
+      "AttSize": 765,
+      "InlineImage": false,
+      "ContentId": "provident",
+      "AuthKey": "suscipit"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "non",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "at"
+    "CustomFields1": "nisi",
+    "CustomFields2": "dolorem"
   }
 }
 ```
@@ -198,28 +199,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 951,
+  "EjMessageId": 808,
   "Ticket": null,
-  "CreatedAt": "2000-12-02T03:51:34.1459634+01:00",
+  "CreatedAt": "2019-09-12T16:00:48.6021304+02:00",
   "CreatedBy": null,
-  "Author": "ea",
+  "Author": "delectus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ea",
-  "TimeSpent": 228,
-  "Body": "sit",
-  "HtmlBody": "et",
-  "EmailHeader": "chaya@mann.info",
-  "DebugInfo": "rerum",
-  "MailSorter": "accusantium",
+  "MessageId": "nam",
+  "TimeSpent": 479,
+  "Body": "omnis",
+  "HtmlBody": "aut",
+  "EmailHeader": "leann_schuster@waters.com",
+  "DebugInfo": "laborum",
+  "MailSorter": "error",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolores",
+  "SearchTitle": "soluta",
   "MessageHeaders": [
     {
-      "Id": 389,
-      "Name": "Purdy, Jenkins and Casper",
-      "Value": "magni",
+      "Id": 530,
+      "Name": "Kovacek, Becker and Buckridge",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -227,49 +228,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 81
+          "FieldLength": 673
         }
       }
     }
   ],
   "Important": false,
-  "Language": "ratione",
-  "Sentiment": 56,
-  "SentimentConfidence": 112,
+  "Language": "incidunt",
+  "Sentiment": 646,
+  "SentimentConfidence": 594,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 203,
-      "Name": "Berge Inc and Sons",
-      "ContentType": "doloribus",
-      "AttSize": 636,
-      "InlineImage": false,
-      "ContentId": "cupiditate",
-      "AuthKey": "repellat",
+      "AttachmentId": 595,
+      "Name": "Kulas LLC",
+      "ContentType": "et",
+      "AttSize": 471,
+      "InlineImage": true,
+      "ContentId": "omnis",
+      "AuthKey": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldLength": 436
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "numquam"
+    "ExtraFields1": "rem",
+    "ExtraFields2": "ullam"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "velit",
+    "CustomFields2": "perspiciatis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 909
     }
   }
 }

@@ -3,13 +3,9 @@ uid: timezoneagent-updatetimezonedata
 title: TimeZoneAgent.UpdateTimeZoneData event method
 description: Scripting events called on the UpdateTimeZoneData method on the TimeZoneAgent service agent.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 # TimeZoneAgent.UpdateTimeZoneData
 

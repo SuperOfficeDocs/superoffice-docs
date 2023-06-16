@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetOurCurrency
 uid: v1ListAgent_GetOurCurrency
+generated: true
 ---
 
 # POST Agents/List/GetOurCurrency
@@ -76,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 408,
-  "Value": "maxime",
-  "Tooltip": "asperiores",
+  "Id": 81,
+  "Value": "ad",
+  "Tooltip": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 699
     }
   }
 }

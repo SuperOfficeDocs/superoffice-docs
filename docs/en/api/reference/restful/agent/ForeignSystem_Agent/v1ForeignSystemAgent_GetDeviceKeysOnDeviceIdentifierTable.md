@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 uid: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTable
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
@@ -82,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Goodwin-Emard",
-  "DeviceName": "Deckow-Hilpert",
-  "DeviceIdentifier": "voluptate",
-  "TableName": "Langworth Inc and Sons"
+  "ApplicationName": "Weissnat, Schroeder and Bechtelar",
+  "DeviceName": "Beahan, Keebler and Prosacco",
+  "DeviceIdentifier": "culpa",
+  "TableName": "Rohan Inc and Sons"
 }
 ```
 
@@ -101,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "dolor",
-    "Value": "dolore",
-    "RecordId": 205,
-    "CreatedDate": "2017-06-21T03:51:27.3498217+02:00",
-    "UpdatedDate": "2015-06-20T03:51:27.3498217+02:00",
-    "UpdatedBy": "eos",
-    "CreatedBy": "consequatur",
-    "TableName": "Tremblay-Smitham",
+    "Key": "nihil",
+    "Value": "cupiditate",
+    "RecordId": 244,
+    "CreatedDate": "2003-03-07T16:00:41.0705907+01:00",
+    "UpdatedDate": "1999-12-06T16:00:41.0705907+01:00",
+    "UpdatedBy": "blanditiis",
+    "CreatedBy": "illum",
+    "TableName": "Grady Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldType": "System.String",
+        "FieldLength": 410
       }
     }
   }

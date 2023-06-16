@@ -1,6 +1,7 @@
 ---
 title: GET Contact/{id}/Relations
 uid: v1ContactEntity_Relations
+generated: true
 ---
 
 # GET Contact/{id}/Relations
@@ -73,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Relations?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Relations?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Relations?$orderBy=name asc
-GET /api/v1/Contact/{id}/Relations?$entities=corrupti
-GET /api/v1/Contact/{id}/Relations?$top=717
-GET /api/v1/Contact/{id}/Relations?$skip=490
+GET /api/v1/Contact/{id}/Relations?$entities=illo
+GET /api/v1/Contact/{id}/Relations?$top=430
+GET /api/v1/Contact/{id}/Relations?$skip=553
 GET /api/v1/Contact/{id}/Relations?$mode=Full
 GET /api/v1/Contact/{id}/Relations?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Relations?$context=et
+GET /api/v1/Contact/{id}/Relations?$context=eligendi
 GET /api/v1/Contact/{id}/Relations?$format=JSON
 GET /api/v1/Contact/{id}/Relations?$jsonSafe=False
 GET /api/v1/Contact/{id}/Relations?$output=Display
@@ -122,7 +123,7 @@ OK
 GET /api/v1/Contact/{id}/Relations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatem",
+  "odata.nextLink": "corporis",
   "value": [
     {
-      "PrimaryKey": 3661,
+      "PrimaryKey": 4526,
       "EntityName": "sale",
-      "saleId": 3661,
-      "contactId": 653,
-      "name": "Wiegand, Christiansen and Schamberger"
+      "saleId": 4526,
+      "contactId": 2461,
+      "name": "Stoltenberg, Hudson and Kilback"
     },
     {
-      "PrimaryKey": 272,
+      "PrimaryKey": 3775,
       "EntityName": "sale",
-      "saleId": 272,
-      "contactId": 9994,
-      "name": "Kautzer, Kuphal and Walter"
+      "saleId": 3775,
+      "contactId": 9825,
+      "name": "Stiedemann, Gislason and Dickinson"
     }
   ]
 }

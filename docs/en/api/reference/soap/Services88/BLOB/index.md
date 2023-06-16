@@ -1,7 +1,7 @@
 ---
 title: Services88.BLOBAgent SOAP
 uid: Services88-BLOB-soap
-generated: 1
+generated: true
 ---
 
 # Services88 BLOB SOAP

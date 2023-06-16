@@ -1,6 +1,7 @@
 ---
 title: GET Selection/{id}
 uid: v1SelectionEntity_GetSelectionEntity
+generated: true
 ---
 
 # GET Selection/{id}
@@ -113,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -121,73 +122,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 27 May 2012 03:51:34 G5T
+Last-Modified: Tue, 16 Nov 1999 16:00:48 G11T
 
 {
-  "Description": "Implemented client-server open architecture",
-  "Postit": "facilis",
+  "Description": "Configurable incremental toolset",
+  "Postit": "quas",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 337,
-  "IncludePerson": 48,
-  "MemberCount": 949,
-  "Name": "Mann Inc and Sons",
-  "PostitTextId": 927,
-  "CreatedDate": "2010-01-28T03:51:34.0052619+01:00",
-  "SelectionId": 32,
-  "SoundEx": "quidem",
-  "Source": 968,
-  "TextId": 535,
-  "UpdatedDate": "2012-05-27T03:51:34.0052619+02:00",
-  "UpdatedCount": 750,
-  "Visibility": 219,
+  "GroupIdx": 93,
+  "IncludePerson": 946,
+  "MemberCount": 477,
+  "Name": "Boehm-Fahey",
+  "PostitTextId": 666,
+  "CreatedDate": "2009-02-12T16:00:48.4458989+01:00",
+  "SelectionId": 363,
+  "SoundEx": "non",
+  "Source": 689,
+  "TextId": 631,
+  "UpdatedDate": "1999-11-16T16:00:48.4458989+01:00",
+  "UpdatedCount": 723,
+  "Visibility": 392,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 240,
-  "TargetTableName": "Cummings LLC",
+  "TargetTableNumber": 190,
+  "TargetTableName": "Kuhlman Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 54,
-  "RightSelectionId": 829,
+  "LeftSelectionId": 946,
+  "RightSelectionId": 682,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Maggio Inc and Sons",
-  "ShadowProviderName": "Cole LLC",
-  "ChartKey": "cum",
-  "LastLoaded": "2002-02-10T03:51:34.0052619+01:00",
-  "LastLoadedBy": 855,
+  "MainProviderName": "Stokes, Gislason and Hermann",
+  "ShadowProviderName": "Muller-Pfeffer",
+  "ChartKey": "adipisci",
+  "LastLoaded": "2002-07-22T16:00:48.4458989+02:00",
+  "LastLoadedBy": 453,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-05-15T03:51:34.0052619+02:00",
-  "LastMembershipChangeBy": 461,
+  "LastMembershipChange": "2006-09-01T16:00:48.4458989+02:00",
+  "LastMembershipChangeBy": 538,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "similique",
-  "MemberTabHeading": "sequi",
-  "MailingsProviderName": "Yundt, Reynolds and Toy",
-  "DashboardTileDefinitionId": 417,
+  "MainHeading": "tenetur",
+  "MemberTabHeading": "sint",
+  "MailingsProviderName": "Leffler-Watsica",
+  "DashboardTileDefinitionId": 199,
   "VisibleFor": [
     {
-      "VisibleId": 393,
+      "VisibleId": 288,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldLength": 925
         }
       }
     },
     {
-      "VisibleId": 393,
+      "VisibleId": 288,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldLength": 925
         }
       }
     }
@@ -196,8 +197,8 @@ Last-Modified: Sun, 27 May 2012 03:51:34 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldType": "System.String",
+      "FieldLength": 21
     }
   },
   "_Links": {

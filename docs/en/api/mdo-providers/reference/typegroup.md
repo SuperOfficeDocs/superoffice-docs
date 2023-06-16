@@ -1,17 +1,11 @@
 ---
 uid: typegroup
 title: typegroup
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "typegroup"
+keywords: mdoprovider mdo provider typegroup
+description: Type Group: Task, Activity, Document, Sale
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "typegroup" MDO List

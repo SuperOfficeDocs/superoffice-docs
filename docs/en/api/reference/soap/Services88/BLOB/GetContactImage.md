@@ -1,6 +1,6 @@
 ---
 title: Services88.BLOBAgent.GetContactImage SOAP
-generated: 1
+generated: true
 uid: Services88-BLOB-GetContactImage
 ---
 

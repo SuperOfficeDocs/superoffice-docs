@@ -1,6 +1,7 @@
 ---
 title: PUT List/WebPanel/Items/{id}
 uid: v1WebPanelEntityList_PutWebPanelEntity
+generated: true
 ---
 
 # PUT List/WebPanel/Items/{id}
@@ -109,31 +110,31 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 135,
-  "Name": "Gutmann, Zulauf and Von",
-  "Tooltip": "nam",
-  "Deleted": true,
-  "Rank": 705,
+  "WebPanelId": 336,
+  "Name": "Treutel, Collins and Gerhold",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 552,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnCentral": true,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Flatley, O'Reilly and Sanford",
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Luettgen, O'Conner and Trantow",
   "Url": "http://www.example.com/",
-  "ProgId": "eius",
-  "Icon": 525,
-  "AlwaysReloadOnShow": false
+  "ProgId": "corporis",
+  "Icon": 186,
+  "AlwaysReloadOnShow": true
 }
 ```
 
@@ -144,33 +145,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 903,
-  "Name": "Wiza Inc and Sons",
-  "Tooltip": "dolore",
+  "WebPanelId": 357,
+  "Name": "Hayes-Goldner",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 706,
+  "Rank": 316,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Collier Group",
+  "WindowName": "Raynor-Cummings",
   "Url": "http://www.example.com/",
-  "ProgId": "quia",
-  "Icon": 695,
+  "ProgId": "corrupti",
+  "Icon": 243,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldType": "System.String",
+      "FieldLength": 308
     }
   }
 }

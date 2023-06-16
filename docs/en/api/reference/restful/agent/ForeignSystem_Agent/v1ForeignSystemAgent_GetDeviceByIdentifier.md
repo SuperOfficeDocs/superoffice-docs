@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetDeviceByIdentifier
 uid: v1ForeignSystemAgent_GetDeviceByIdentifier
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetDeviceByIdentifier
@@ -82,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Veum-Ebert",
-  "DeviceName": "Beatty-Schmitt",
-  "DeviceIdentifier": "esse"
+  "ApplicationName": "Sawayn, Moen and Kiehn",
+  "DeviceName": "Wolff, Conroy and Abshire",
+  "DeviceIdentifier": "recusandae"
 }
 ```
 
@@ -99,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 596,
-  "Name": "Bahringer-Monahan",
-  "CreatedDate": "2019-11-15T03:51:27.3498217+01:00",
-  "UpdatedDate": "2011-03-13T03:51:27.3498217+01:00",
-  "AssociateFullName": "Christop Ortiz",
-  "CreatedBy": "repellat",
-  "UpdatedBy": "velit",
-  "DeviceIdentifier": "id",
-  "ForeignAppId": 355,
+  "ForeignDeviceId": 825,
+  "Name": "Robel, McKenzie and Bartoletti",
+  "CreatedDate": "2005-08-20T16:00:41.0705907+02:00",
+  "UpdatedDate": "2010-07-15T16:00:41.0705907+02:00",
+  "AssociateFullName": "Arielle Lynch",
+  "CreatedBy": "perferendis",
+  "UpdatedBy": "cumque",
+  "DeviceIdentifier": "officiis",
+  "ForeignAppId": 8,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldLength": 601
     }
   }
 }

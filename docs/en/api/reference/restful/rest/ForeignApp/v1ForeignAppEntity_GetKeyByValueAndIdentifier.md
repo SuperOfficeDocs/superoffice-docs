@@ -1,6 +1,7 @@
 ---
 title: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 uid: v1ForeignAppEntity_GetKeyByValueAndIdentifier
+generated: true
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
@@ -32,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sint
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=molestias
 ```
 
 
@@ -79,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +88,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 05 Dec 1998 03:51:33 G12T
+Last-Modified: Sun, 10 Oct 2010 16:00:47 G10T
 
 {
-  "Key": "repellat",
-  "Value": "culpa",
-  "RecordId": 976,
-  "CreatedDate": "1996-01-27T03:51:33.6928335+01:00",
-  "UpdatedDate": "1998-12-05T03:51:33.6928335+01:00",
-  "UpdatedBy": "totam",
-  "CreatedBy": "voluptatibus",
-  "TableName": "Swaniawski-Corkery",
+  "Key": "non",
+  "Value": "sit",
+  "RecordId": 390,
+  "CreatedDate": "2022-04-18T16:00:47.9928249+02:00",
+  "UpdatedDate": "2010-10-10T16:00:47.9928249+02:00",
+  "UpdatedBy": "deserunt",
+  "CreatedBy": "minus",
+  "TableName": "Anderson, Nolan and Pacocha",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldLength": 342
     }
   }
 }

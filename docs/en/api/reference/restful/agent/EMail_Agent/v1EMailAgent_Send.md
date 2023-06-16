@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/Send
 uid: v1EMailAgent_Send
+generated: true
 ---
 
 # POST Agents/EMail/Send
@@ -99,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "accusamus",
-      "HTMLBody": "nesciunt",
+      "Subject": "vitae",
+      "HTMLBody": "quidem",
       "From": null,
-      "Sent": "2020-07-17T03:51:27.1623664+02:00",
-      "Size": 78,
+      "Sent": "2018-06-13T16:00:40.8518697+02:00",
+      "Size": 174,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "alias",
-      "PlainBody": "officiis",
+      "MessageID": "ut",
+      "PlainBody": "beatae",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 407,
+      "ServerId": 432,
       "Attachments": [
         {},
         {}
@@ -137,12 +138,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Carter Inc and Sons",
-      "EmailItemId": 547,
-      "AccountId": 804,
-      "ReceivedAt": "2012-10-15T03:51:27.1623664+02:00",
+      "FolderName": "Keebler-Streich",
+      "EmailItemId": 804,
+      "AccountId": 490,
+      "ReceivedAt": "2009-02-19T16:00:40.8518697+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2020-10-08T03:51:27.1623664+02:00",
+      "RepliedAt": "2014-07-15T16:00:40.8518697+02:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -161,147 +162,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 188,
-        "ContactName": "Towne, Muller and Buckridge",
-        "PersonId": 710,
-        "PersonName": "Collins LLC",
-        "AssociateId": 462,
-        "Address": "commodi",
-        "EmailId": 545,
+        "ContactId": 895,
+        "ContactName": "Bogisich LLC",
+        "PersonId": 229,
+        "PersonName": "Bergstrom Group",
+        "AssociateId": 762,
+        "Address": "eius",
+        "EmailId": 366,
         "DuplicatePersonIds": [
-          888,
-          829
+          764,
+          621
         ],
-        "Name": "Ebert Inc and Sons",
+        "Name": "Gaylord-Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 867
+            "FieldLength": 351
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 769,
-        "ContactName": "Waelchi-Bins",
-        "PersonId": 796,
-        "PersonName": "Cronin LLC",
-        "AssociateId": 487,
-        "Address": "veritatis",
-        "EmailId": 864,
+        "ContactId": 396,
+        "ContactName": "Reinger Inc and Sons",
+        "PersonId": 1001,
+        "PersonName": "Bogan, Watsica and Schaefer",
+        "AssociateId": 577,
+        "Address": "in",
+        "EmailId": 899,
         "DuplicatePersonIds": [
-          480,
-          990
+          469,
+          834
         ],
-        "Name": "Haley-Terry",
+        "Name": "Bode-Champlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 128
+            "FieldLength": 838
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 632,
-        "ContactName": "O'Conner LLC",
-        "PersonId": 730,
-        "PersonName": "Balistreri Inc and Sons",
-        "AssociateId": 451,
-        "Address": "optio",
-        "EmailId": 72,
+        "ContactId": 658,
+        "ContactName": "Price-Bode",
+        "PersonId": 46,
+        "PersonName": "Mertz-Wilderman",
+        "AssociateId": 339,
+        "Address": "qui",
+        "EmailId": 575,
         "DuplicatePersonIds": [
-          343,
-          696
+          318,
+          693
         ],
-        "Name": "Tillman, O'Kon and Nitzsche",
+        "Name": "Ritchie, Haley and Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 891
+            "FieldType": "System.String",
+            "FieldLength": 437
           }
         }
       }
     ],
-    "Subject": "veniam",
-    "HTMLBody": "sapiente",
+    "Subject": "qui",
+    "HTMLBody": "velit",
     "From": null,
-    "Sent": "2021-12-11T03:51:27.1623664+01:00",
-    "Size": 950,
+    "Sent": "1998-07-12T16:00:40.8518697+02:00",
+    "Size": 320,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "aut",
-    "PlainBody": "occaecati",
-    "IsSent": false,
+    "MessageID": "harum",
+    "PlainBody": "adipisci",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 589,
+    "ServerId": 745,
     "Attachments": [
       {
-        "Description": "User-friendly coherent initiative",
-        "Filename": "voluptatem",
-        "Size": 500,
-        "Type": "soluta",
-        "Encoding": "iste",
-        "Id": "quas",
-        "Disposition": "voluptas",
+        "Description": "Function-based multi-tasking groupware",
+        "Filename": "sapiente",
+        "Size": 459,
+        "Type": "ut",
+        "Encoding": "sit",
+        "Id": "non",
+        "Disposition": "et",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 259
+            "FieldLength": 316
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Zemlak-Gottlieb",
+        "Name": "Parisian, Johnston and Rath",
         "Values": [
-          "nemo",
-          "reiciendis"
+          "iure",
+          "odit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldLength": 935
           }
         }
       },
       {
-        "Name": "Zemlak-Gottlieb",
+        "Name": "Parisian, Johnston and Rath",
         "Values": [
-          "nemo",
-          "reiciendis"
+          "iure",
+          "odit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldLength": 935
           }
         }
       }
     ],
-    "FolderName": "Oberbrunner, Koepp and Lang",
-    "EmailItemId": 621,
-    "AccountId": 495,
-    "ReceivedAt": "2022-09-05T03:51:27.1623664+02:00",
+    "FolderName": "Effertz-Douglas",
+    "EmailItemId": 988,
+    "AccountId": 194,
+    "ReceivedAt": "2006-11-04T16:00:40.8518697+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2016-12-29T03:51:27.1623664+01:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2005-03-01T16:00:40.8518697+01:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -309,7 +310,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 985
       }
     }
   }

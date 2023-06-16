@@ -1,6 +1,7 @@
 ---
 title: POST List/SaleType/Headings
 uid: v1SaleTypeList_PostSaleTypeEntityHeading
+generated: true
 ---
 
 # POST List/SaleType/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 401,
-  "Name": "Murphy Group",
-  "Tooltip": "ratione",
+  "HeadingId": 526,
+  "Name": "Pacocha-Langworth",
+  "Tooltip": "impedit",
   "Deleted": false,
-  "Rank": 384,
-  "UdListDefinitionId": 160
+  "Rank": 140,
+  "UdListDefinitionId": 277
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 777,
-  "Name": "Marvin, Purdy and Reichel",
-  "Tooltip": "eligendi",
+  "HeadingId": 539,
+  "Name": "Koch-Krajcik",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 250,
-  "UdListDefinitionId": 871,
+  "Rank": 345,
+  "UdListDefinitionId": 49,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldLength": 180
     }
   }
 }

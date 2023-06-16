@@ -1,6 +1,7 @@
 ---
 title: POST List/ConsentPurpose/Headings
 uid: v1ConsentPurposeList_PostConsentPurposeHeading
+generated: true
 ---
 
 # POST List/ConsentPurpose/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 231,
-  "Name": "Boehm Group",
-  "Tooltip": "tempore",
+  "HeadingId": 147,
+  "Name": "Moen-Leffler",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 160,
-  "UdListDefinitionId": 913
+  "Rank": 640,
+  "UdListDefinitionId": 981
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 578,
-  "Name": "Walker Inc and Sons",
-  "Tooltip": "sit",
+  "HeadingId": 347,
+  "Name": "O'Hara Group",
+  "Tooltip": "voluptate",
   "Deleted": true,
-  "Rank": 697,
-  "UdListDefinitionId": 154,
+  "Rank": 162,
+  "UdListDefinitionId": 373,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldType": "System.String",
+      "FieldLength": 417
     }
   }
 }

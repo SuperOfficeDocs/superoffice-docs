@@ -1,6 +1,7 @@
 ---
 title: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 uid: v1ForeignAppEntity_GetDeviceByIdentifier
+generated: true
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
@@ -68,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,24 +77,24 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 05 May 2017 03:51:33 G5T
+Last-Modified: Thu, 13 Mar 2003 16:00:47 G3T
 
 {
-  "ForeignDeviceId": 503,
-  "Name": "Cole, Swift and Waters",
-  "CreatedDate": "2008-08-31T03:51:33.677213+02:00",
-  "UpdatedDate": "2017-05-05T03:51:33.677213+02:00",
-  "AssociateFullName": "Mr. Walter Parker DDS",
-  "CreatedBy": "reiciendis",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "ut",
-  "ForeignAppId": 775,
+  "ForeignDeviceId": 602,
+  "Name": "Bogisich LLC",
+  "CreatedDate": "2010-12-04T16:00:47.9772018+01:00",
+  "UpdatedDate": "2003-03-13T16:00:47.9772018+01:00",
+  "AssociateFullName": "Hugh Bartoletti",
+  "CreatedBy": "veniam",
+  "UpdatedBy": "eum",
+  "DeviceIdentifier": "sit",
+  "ForeignAppId": 672,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 693
+      "FieldLength": 574
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailAccount
 uid: v1EMailAgent_CreateDefaultEMailAccount
+generated: true
 ---
 
 # POST Agents/EMail/CreateDefaultEMailAccount
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 596,
-  "EMailAddress": "praesentium",
-  "AssociateId": 20,
+  "EMailAccountId": 360,
+  "EMailAddress": "voluptatem",
+  "AssociateId": 448,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 380,
-  "ErrorCount": 78,
+  "AccountStatus": 154,
+  "ErrorCount": 65,
   "ErrorReason": "",
-  "InboxFolder": "expedita",
-  "SentFolder": "reiciendis",
+  "InboxFolder": "maxime",
+  "SentFolder": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldType": "System.String",
+      "FieldLength": 824
     }
   }
 }

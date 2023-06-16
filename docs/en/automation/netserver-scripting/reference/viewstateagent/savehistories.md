@@ -3,13 +3,9 @@ uid: viewstateagent-savehistories
 title: ViewStateAgent.SaveHistories event method
 description: Scripting events called on the SaveHistories method on the ViewStateAgent service agent.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 # ViewStateAgent.SaveHistories
 

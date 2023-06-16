@@ -1,6 +1,6 @@
 ---
 title: Services88.SaleAgent.GetSummaryByGroup SOAP
-generated: 1
+generated: true
 uid: Services88-Sale-GetSummaryByGroup
 ---
 
@@ -40,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Sale:GetSummaryByGroup>
     <Sale:GroupId xsi:type="xsd:int">0</Sale:GroupId>
-    <Sale:FromDate xsi:type="xsd:dateTime">2023-05-25T11:10:00Z</Sale:FromDate>
-    <Sale:ToDate xsi:type="xsd:dateTime">2023-05-25T11:10:00Z</Sale:ToDate>
+    <Sale:FromDate xsi:type="xsd:dateTime">2023-06-09T14:00:02Z</Sale:FromDate>
+    <Sale:ToDate xsi:type="xsd:dateTime">2023-06-09T14:00:02Z</Sale:ToDate>
    </Sale:GetSummaryByGroup>
 
  </SOAP-ENV:Body>

@@ -1,6 +1,7 @@
 ---
 title: POST ChatTopic
 uid: v1ChatTopicEntity_PostChatTopicEntity
+generated: true
 ---
 
 # POST ChatTopic
@@ -135,41 +136,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 91,
-  "Name": "O'Reilly, Bogisich and Doyle",
-  "Description": "Fully-configurable maximized circuit",
-  "WelcomeMessage": "quidem",
+  "ChatTopicId": 751,
+  "Name": "Rutherford LLC",
+  "Description": "Reduced static collaboration",
+  "WelcomeMessage": "fugiat",
   "Language": null,
-  "LastAccept": "2022-11-30T03:51:33.2241895+01:00",
-  "SecondsPrAccept": 737,
-  "AlertRecipient": "reiciendis",
+  "LastAccept": "2015-12-20T16:00:47.6647341+01:00",
+  "SecondsPrAccept": 386,
+  "AlertRecipient": "incidunt",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "quis",
+  "BadgeHeader": "cumque",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "dolor",
-  "WarnNewChatMinutes": 79,
-  "WarnManagerNewChatMinutes": 107,
-  "TicketEnabled": false,
+  "CustomQueueText": "rerum",
+  "WarnNewChatMinutes": 174,
+  "WarnManagerNewChatMinutes": 544,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 868,
-  "WarnManagerChatMessageMinutes": 376,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 760,
-  "OfflineFormQueueLength": 840,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "vel"
+  "WarnChatMessageMinutes": 221,
+  "WarnManagerChatMessageMinutes": 479,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 64,
+  "OfflineFormQueueLength": 871,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "nobis"
 }
 ```
 
@@ -180,43 +181,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 989,
-  "Name": "Mann, Powlowski and Klein",
-  "Description": "Vision-oriented secondary open system",
-  "WelcomeMessage": "et",
+  "ChatTopicId": 173,
+  "Name": "Reinger, Herman and Okuneva",
+  "Description": "Managed background artificial intelligence",
+  "WelcomeMessage": "eum",
   "Language": null,
-  "LastAccept": "2017-09-26T03:51:33.2241895+02:00",
-  "SecondsPrAccept": 850,
-  "AlertRecipient": "corporis",
+  "LastAccept": "2003-02-07T16:00:47.6647341+01:00",
+  "SecondsPrAccept": 628,
+  "AlertRecipient": "expedita",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "necessitatibus",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "illo",
-  "WarnNewChatMinutes": 883,
-  "WarnManagerNewChatMinutes": 309,
+  "CollectConsent": true,
+  "BadgeHeader": "molestias",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "sint",
+  "WarnNewChatMinutes": 766,
+  "WarnManagerNewChatMinutes": 170,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 431,
-  "WarnManagerChatMessageMinutes": 403,
+  "WarnChatMessageMinutes": 1001,
+  "WarnManagerChatMessageMinutes": 199,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 486,
-  "OfflineFormQueueLength": 421,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "ut",
+  "OfflineFormTimeLimit": 675,
+  "OfflineFormQueueLength": 195,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 441
     }
   },
   "_Links": {

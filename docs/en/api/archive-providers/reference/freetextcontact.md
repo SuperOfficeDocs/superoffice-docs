@@ -2,17 +2,10 @@
 uid: FreetextContact
 title: FreetextContact
 description: Archive provider for freetext search on the Contact (company) entity.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "FreetextContact"
+keywords: FreetextContact archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "FreetextContact"
@@ -138,6 +131,10 @@ as well as before any ORDER BY, are applied.
 |contactAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |contactAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |contactAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |contactAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -238,6 +235,10 @@ as well as before any ORDER BY, are applied.
 |contactSupportPerson/personCategory|listAny|User support contact - Category| x |
 |contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
 |contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
 |contactSupportPerson/isStakeholder|bool|User support contact - Is stakeholder: This person is a sale stakeholder| x |
@@ -338,6 +339,10 @@ as well as before any ORDER BY, are applied.
 |NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
 |LastTicket|date|Date of last request|  |
 |LastCompletedTicket|date|Date of last completed request|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |LastDoByTicket|date|Date of last non-completed request|  |
 |SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
@@ -354,7 +359,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=restrictionAddress/line1,restrictionAddress/formattedMultiLineAddress,contactSupportAssociate/lastName,contactSupportAssociate/isActive,contactSupportAssociate/portraitThumbnail
+GET /api/v1/archive/FreetextContact?$select=postAddress/state,contactSupportPerson/personExtra/x_person_contact_relation,contactExtra/x_contact_short_dropdown,NumberOfActivities,LastDoBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

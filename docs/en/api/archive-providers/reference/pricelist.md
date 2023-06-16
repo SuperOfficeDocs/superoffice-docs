@@ -2,17 +2,10 @@
 uid: PriceList
 title: PriceList
 description: Archive of Pricelists - used by the web api.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "PriceList"
+keywords: PriceList archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "PriceList"

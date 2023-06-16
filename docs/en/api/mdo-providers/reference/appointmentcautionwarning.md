@@ -1,17 +1,11 @@
 ---
 uid: appointmentcautionwarning
 title: appointmentcautionwarning
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "appointmentcautionwarning"
+keywords: mdoprovider mdo provider appointmentcautionwarning
+description: Appointment.CautionWarning. Appointment and invitation synchronization info
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "appointmentcautionwarning" MDO List

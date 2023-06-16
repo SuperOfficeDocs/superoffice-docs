@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/HasConnections
 uid: v1QuoteAgent_HasConnections
+generated: true
 ---
 
 # POST Agents/Quote/HasConnections
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/Quote/HasConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "dolores",
-  "TechExplanation": "aut",
-  "ErrorCode": "facilis",
+  "UserExplanation": "quidem",
+  "TechExplanation": "dolor",
+  "ErrorCode": "eveniet",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 308
     }
   }
 }

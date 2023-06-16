@@ -1,6 +1,6 @@
 ---
 title: Services88.AppointmentAgent.CanAssignToProjectMember SOAP
-generated: 1
+generated: true
 uid: Services88-Appointment-CanAssignToProjectMember
 ---
 

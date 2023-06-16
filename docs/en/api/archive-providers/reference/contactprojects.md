@@ -2,17 +2,10 @@
 uid: ContactProjects
 title: ContactProjects
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ContactProjects"
+keywords: ContactProjects archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ContactProjects"
@@ -126,12 +119,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
 |project/textId|int|Text ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactProjects?$select=getAllRows,projectAssociate/associateDbId,projectEvent/hasSignOff
+GET /api/v1/archive/ContactProjects?$select=projectEvent/hasSignOff,projectAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/SetDataRight
 uid: v1UserAgent_SetDataRight
+generated: true
 ---
 
 # POST Agents/User/SetDataRight
@@ -71,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 738,
-  "TableName": "Turcotte, Prosacco and Armstrong",
+  "RoleId": 907,
+  "TableName": "Beahan, Fahey and Nolan",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "ut"
+  "DataRightValue": "atque"
 }
 ```
 

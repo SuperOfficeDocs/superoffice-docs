@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/SaveConfigParameter
 uid: v1AudienceAgent_SaveConfigParameter
+generated: true
 ---
 
 # POST Agents/Audience/SaveConfigParameter
@@ -83,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Batz Inc and Sons",
+  "LayoutName": "Graham-Rath",
   "ConfigParameter": null
 }
 ```
@@ -95,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 593,
-  "Name": "Purdy-Rogahn",
-  "Value": "voluptas",
-  "CreatedDate": "2022-03-30T03:51:26.5999985+02:00",
-  "UpdatedDate": "2008-05-16T03:51:26.5999985+02:00",
-  "CreatedBy": "illo",
-  "UpdatedBy": "vitae",
+  "AudienceLayoutId": 437,
+  "Name": "Eichmann-Jenkins",
+  "Value": "voluptatibus",
+  "CreatedDate": "2002-03-19T16:00:40.086328+01:00",
+  "UpdatedDate": "2017-03-12T16:00:40.086328+01:00",
+  "CreatedBy": "et",
+  "UpdatedBy": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldType": "System.Int32",
+      "FieldLength": 556
     }
   }
 }

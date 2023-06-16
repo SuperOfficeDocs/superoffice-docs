@@ -1,6 +1,7 @@
 ---
 title: GET List/ConsentSource/MDOItems
 uid: v1ConsentSourceList_GetMDOList
+generated: true
 ---
 
 # GET List/ConsentSource/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=eum
+GET /api/v1/List/ConsentSource/MDOItems?flat=True
+GET /api/v1/List/ConsentSource/MDOItems?query=enim
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 535,
-    "Name": "Torp-Kassulke",
-    "ToolTip": "Amet numquam et voluptate maiores et.",
+    "Id": 611,
+    "Name": "Schaefer Group",
+    "ToolTip": "Commodi odio deleniti necessitatibus est dolorem magni quis.",
     "Deleted": false,
-    "Rank": 524,
-    "Type": "voluptatem",
+    "Rank": 984,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 705,
-        "Name": "Lueilwitz, Quigley and Denesik",
-        "ToolTip": "Et fugiat architecto et possimus.",
+        "Id": 981,
+        "Name": "Hammes, Doyle and Kub",
+        "ToolTip": "Debitis possimus perspiciatis.",
         "Deleted": false,
-        "Rank": 155,
-        "Type": "et",
+        "Rank": 779,
+        "Type": "voluptatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 158,
-        "ExtraInfo": "odio",
-        "StyleHint": "in",
-        "FullName": "Myrna Hahn",
+        "IconHint": "enim",
+        "ColorBlock": 468,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eveniet",
+        "FullName": "Cortez Isom Upton II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 11
+            "FieldLength": 21
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 691,
-    "ExtraInfo": "vel",
-    "StyleHint": "omnis",
-    "FullName": "Napoleon Schmitt",
+    "IconHint": "quam",
+    "ColorBlock": 757,
+    "ExtraInfo": "atque",
+    "StyleHint": "ut",
+    "FullName": "Ansley Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldLength": 978
       }
     }
   }

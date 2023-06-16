@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/GetParsedTemplate
 uid: v1CustomerServiceAgent_GetParsedTemplate
+generated: true
 ---
 
 # POST Agents/CustomerService/GetParsedTemplate
@@ -83,10 +84,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 328,
-  "LanguageId": 396,
-  "PersonId": 322,
-  "TicketId": 152
+  "ReplyTemplateId": 274,
+  "LanguageId": 388,
+  "PersonId": 60,
+  "TicketId": 334
 }
 ```
 
@@ -97,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 84,
-  "PlainParsed": "iusto",
-  "HtmlParsed": "at",
+  "ReplyTemplateId": 341,
+  "PlainParsed": "dolores",
+  "HtmlParsed": "aut",
   "Attachments": [
     {
-      "AttachmentId": 575,
-      "Name": "Bahringer, Hermann and Morar",
-      "ContentType": "totam",
-      "AttSize": 481,
+      "AttachmentId": 582,
+      "Name": "Larson, Johnson and Stiedemann",
+      "ContentType": "asperiores",
+      "AttSize": 482,
       "InlineImage": false,
-      "ContentId": "deserunt",
-      "AuthKey": "ut",
+      "ContentId": "et",
+      "AuthKey": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 435
+          "FieldLength": 54
         }
       }
     }
   ],
-  "Subject": "ipsa",
+  "Subject": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldType": "System.Int32",
+      "FieldLength": 563
     }
   }
 }

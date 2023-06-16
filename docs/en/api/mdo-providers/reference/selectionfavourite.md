@@ -1,17 +1,13 @@
 ---
 uid: selectionfavourite
 title: selectionfavourite
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "selectionfavourite"
+keywords: mdoprovider mdo provider selectionfavourite
+description: MDO list provider for selection favourites.
+Supported additionalInfo:
+membertype=[tablename] to restrict to one kind of entities.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "selectionfavourite" MDO List

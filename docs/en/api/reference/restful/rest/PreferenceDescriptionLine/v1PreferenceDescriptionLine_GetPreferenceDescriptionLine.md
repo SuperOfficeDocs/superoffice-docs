@@ -1,6 +1,7 @@
 ---
 title: GET PreferenceDescriptionLine/{id}
 uid: v1PreferenceDescriptionLine_GetPreferenceDescriptionLine
+generated: true
 ---
 
 # GET PreferenceDescriptionLine/{id}
@@ -87,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 591,
-  "PrefDescId": 795,
-  "PrefValue": "aspernatur",
-  "PrefShowValue": "ex",
-  "Description": "Self-enabling logistical frame",
-  "IsBuiltin": true,
+  "PrefDescLineId": 860,
+  "PrefDescId": 305,
+  "PrefValue": "eligendi",
+  "PrefShowValue": "vero",
+  "Description": "Inverse 4th generation secured line",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 706
+      "FieldLength": 368
     }
   },
   "_Links": {

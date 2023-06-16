@@ -1,6 +1,7 @@
 ---
 title: POST Agents/TimeZone/SetBaseTimeZoneId
 uid: v1TimeZoneAgent_SetBaseTimeZoneId
+generated: true
 ---
 
 # POST Agents/TimeZone/SetBaseTimeZoneId
@@ -71,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneId": 917
+  "TimezoneId": 522
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

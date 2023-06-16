@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/DeleteHierarchyFromPath
 uid: v1ListAgent_DeleteHierarchyFromPath
+generated: true
 ---
 
 # POST Agents/List/DeleteHierarchyFromPath
@@ -69,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "laboriosam"
+  "Path": "atque"
 }
 ```
 

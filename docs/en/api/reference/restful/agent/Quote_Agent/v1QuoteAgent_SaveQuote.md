@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SaveQuote
 uid: v1QuoteAgent_SaveQuote
+generated: true
 ---
 
 # POST Agents/Quote/SaveQuote
@@ -100,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 223,
-  "SaleId": 251,
-  "QuoteConnectionId": 232,
-  "ERPQuoteKey": "neque",
-  "ERPOrderKey": "quae",
-  "ActiveQuoteVersionId": 187,
-  "AcceptedQuoteAlternativeId": 117,
-  "UseValuesFromQuote": 914,
-  "DocumentId": 350,
-  "PoNumber": "1040539",
-  "OrderComment": "doloremque",
-  "PreferredEmailCulture": "chase@koelpin.name",
+  "QuoteId": 477,
+  "SaleId": 181,
+  "QuoteConnectionId": 604,
+  "ERPQuoteKey": "hic",
+  "ERPOrderKey": "veritatis",
+  "ActiveQuoteVersionId": 452,
+  "AcceptedQuoteAlternativeId": 952,
+  "UseValuesFromQuote": 289,
+  "DocumentId": 422,
+  "PoNumber": "1147442",
+  "OrderComment": "quia",
+  "PreferredEmailCulture": "melody@breitenbergnienow.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 133
+      "FieldType": "System.Int32",
+      "FieldLength": 759
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/SaveDashTiles
 uid: v1DashAgent_SaveDashTiles
+generated: true
 ---
 
 # POST Agents/Dash/SaveDashTiles
@@ -64,26 +65,26 @@ No Content
 POST /api/v1/Agents/Dash/SaveDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 500,
+  "DashboardId": 717,
   "DashTiles": [
     {
-      "DashboardTileId": 739,
-      "DashboardId": 236,
-      "Height": 495,
-      "Width": 823,
-      "Rank": 953,
+      "DashboardTileId": 399,
+      "DashboardId": 609,
+      "Height": 52,
+      "Width": 918,
+      "Rank": 965,
       "DashTileDefinition": null
     },
     {
-      "DashboardTileId": 739,
-      "DashboardId": 236,
-      "Height": 495,
-      "Width": 823,
-      "Rank": 953,
+      "DashboardTileId": 399,
+      "DashboardId": 609,
+      "Height": 52,
+      "Width": 918,
+      "Rank": 965,
       "DashTileDefinition": null
     }
   ]

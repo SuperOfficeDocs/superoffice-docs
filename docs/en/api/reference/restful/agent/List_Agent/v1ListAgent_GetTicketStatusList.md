@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetTicketStatusList
 uid: v1ListAgent_GetTicketStatusList
+generated: true
 ---
 
 # POST Agents/List/GetTicketStatusList
@@ -86,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 196,
-    "Name": "Mills Inc and Sons",
+    "TicketStatusId": 233,
+    "Name": "Walker, Romaguera and Strosin",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": true,
+    "NoEmailReopen": false,
     "IsDefault": false,
-    "UsedInQueue": false,
+    "UsedInQueue": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 670
+        "FieldLength": 108
       }
     }
   }

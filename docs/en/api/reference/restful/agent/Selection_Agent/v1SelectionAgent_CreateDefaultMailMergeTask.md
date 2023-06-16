@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateDefaultMailMergeTask
 uid: v1SelectionAgent_CreateDefaultMailMergeTask
+generated: true
 ---
 
 # POST Agents/Selection/CreateDefaultMailMergeTask
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,23 +77,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 605,
-  "TypeId": 721,
-  "StartDate": "2014-12-12T03:51:28.14651+01:00",
-  "Duration": 853,
-  "Description": "User-friendly assymetric contingency",
-  "PriorityId": 765,
+  "ProjectId": 592,
+  "TypeId": 190,
+  "StartDate": "2021-02-07T16:00:41.8050578+01:00",
+  "Duration": 215,
+  "Description": "Centralized 24 hour database",
+  "PriorityId": 240,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 937,
+  "OwnerAssociateId": 3,
   "SingleEntryOnEachCompany": true,
-  "SaleId": 124,
+  "SaleId": 307,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 568
+      "FieldLength": 376
     }
   }
 }

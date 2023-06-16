@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAllFromListName
 uid: v1ListAgent_GetAllFromListName
+generated: true
 ---
 
 # POST Agents/List/GetAllFromListName
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "O'Conner Inc and Sons",
+  "UdListDefinitionName": "Cremin, Johns and Considine",
   "IncludeDeleted": false
 }
 ```
@@ -95,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 48,
-    "Name": "Wintheiser Inc and Sons",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "UdListDefinitionId": 837,
-    "Rank": 788,
+    "Id": 977,
+    "Name": "Huels LLC",
+    "Tooltip": "veritatis",
+    "Deleted": false,
+    "UdListDefinitionId": 490,
+    "Rank": 1001,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 331
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: PUT TriggerScript/{id}
 uid: v1TriggerScriptEntity_PutTriggerScriptEntity
+generated: true
 ---
 
 # PUT TriggerScript/{id}
@@ -98,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 739,
-  "Name": "Mills LLC",
+  "ScreenChooserId": 819,
+  "Name": "Green Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "suscipit",
-  "Source": "quisquam",
-  "Registered": "1998-06-29T03:51:34.1615868+02:00",
-  "RegisteredAssociateId": 608,
-  "Updated": "2003-02-10T03:51:34.1615868+01:00",
-  "UpdatedAssociateId": 983
+  "UniqueIdentifier": "repudiandae",
+  "Source": "rerum",
+  "Registered": "2001-07-28T16:00:48.617756+02:00",
+  "RegisteredAssociateId": 73,
+  "Updated": "2015-11-27T16:00:48.617756+01:00",
+  "UpdatedAssociateId": 581
 }
 ```
 
@@ -122,27 +123,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 819,
-  "Name": "Conn, Davis and Kertzmann",
+  "ScreenChooserId": 99,
+  "Name": "Bogisich, Bergnaum and Bashirian",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptates",
-  "Source": "dolorum",
-  "Registered": "2008-09-23T03:51:34.1615868+02:00",
-  "RegisteredAssociateId": 741,
-  "Updated": "2022-01-10T03:51:34.1615868+01:00",
-  "UpdatedAssociateId": 281,
+  "UniqueIdentifier": "tenetur",
+  "Source": "laboriosam",
+  "Registered": "2006-02-11T16:00:48.617756+01:00",
+  "RegisteredAssociateId": 323,
+  "Updated": "1996-06-08T16:00:48.617756+02:00",
+  "UpdatedAssociateId": 977,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 329
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

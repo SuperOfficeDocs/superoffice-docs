@@ -1,6 +1,7 @@
 ---
 title: PUT Project/DuplicateRules
 uid: v1ProjectEntity_SetDuplicateRulesStatus
+generated: true
 ---
 
 # PUT Project/DuplicateRules
@@ -56,20 +57,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ryan-Lakin",
-    "DisplayName": "Kling Group",
-    "DisplayTooltip": "aperiam",
+    "Name": "Dooley Group",
+    "DisplayName": "Morar-Gibson",
+    "DisplayTooltip": "commodi",
     "IsActive": true
   },
   {
-    "Name": "Ryan-Lakin",
-    "DisplayName": "Kling Group",
-    "DisplayTooltip": "aperiam",
+    "Name": "Dooley Group",
+    "DisplayName": "Morar-Gibson",
+    "DisplayTooltip": "commodi",
     "IsActive": true
   }
 ]

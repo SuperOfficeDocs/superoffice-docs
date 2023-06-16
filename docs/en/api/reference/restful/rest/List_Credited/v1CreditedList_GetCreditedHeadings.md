@@ -1,6 +1,7 @@
 ---
 title: GET List/Credited/Headings
 uid: v1CreditedList_GetCreditedHeadings
+generated: true
 ---
 
 # GET List/Credited/Headings
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 665,
-    "Name": "Harris, Stanton and Heathcote",
-    "Tooltip": "quaerat",
-    "Deleted": true,
-    "Rank": 114,
-    "UdListDefinitionId": 997,
+    "HeadingId": 407,
+    "Name": "Heathcote-Gislason",
+    "Tooltip": "expedita",
+    "Deleted": false,
+    "Rank": 451,
+    "UdListDefinitionId": 453,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldType": "System.String",
+        "FieldLength": 405
       }
     }
   }

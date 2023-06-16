@@ -1,6 +1,6 @@
 ---
 title: Services88.FreeTextAgent.RegenerateIndex SOAP
-generated: 1
+generated: true
 uid: Services88-FreeText-RegenerateIndex
 ---
 
@@ -76,8 +76,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <FreeText:Value xsi:type="xsd:string"></FreeText:Value>
      </FreeText:StringKeyValuePair>
     </FreeText:ParameterObject>
-    <FreeText:LastStarted xsi:type="xsd:dateTime">2023-05-25T11:09:18Z</FreeText:LastStarted>
-    <FreeText:Created xsi:type="xsd:dateTime">2023-05-25T11:09:18Z</FreeText:Created>
+    <FreeText:LastStarted xsi:type="xsd:dateTime">2023-06-09T13:59:20Z</FreeText:LastStarted>
+    <FreeText:Created xsi:type="xsd:dateTime">2023-06-09T13:59:20Z</FreeText:Created>
     <FreeText:StartCount xsi:type="xsd:int">0</FreeText:StartCount>
     <FreeText:DatabaseSerialNumber xsi:type="xsd:string"></FreeText:DatabaseSerialNumber>
     <FreeText:Context xsi:type="xsd:string"></FreeText:Context>

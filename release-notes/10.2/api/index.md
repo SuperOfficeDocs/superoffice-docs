@@ -13,8 +13,12 @@ so.topic: reference
 
 ## New Archive provider
 
+* v10.2.6
+  * [EmailFlowContentProvider][120]
+  * [ExternalDocumentItems][121]
+
 * v10.2.5
-  * [ExternalDocumentFolder][120]
+  * ExternalDocumentFolder (Renamed in 10.2.6)
   * [ExternalDocumentItems][121]
   * [ExternalDocuments][122]
 
@@ -67,6 +71,7 @@ so.topic: reference
 |IAppointmentAgent | SetSeenMany                            |10.2.2   | [REST Link][60] | [SOAP Link][61] |
 |IArchiveAgent     | GetRelatedData                         |10.2.1   | [REST Link][8]  | [SOAP Link][26] |
 |IArchiveAgent     | GetRelatedData2                        |10.2.1   | [REST Link][9]  | [SOAP Link][27] |
+|IAssociateAgent   | GetEncryptionKey                       |10.2.6   | [REST Link][123]| [SOAP Link][124]|
 |IDiagnosticsAgent | GetEntityCountsForCurrentUser          |10.2.4   | [REST Link][76] | [SOAP Link][98] |
 |IEMailAgent       | HasSPFRecord                           |10.2.1   | [REST Link][10] | [SOAP Link][28] |
 |IEMailAgent       | ResolveEMailRecipients                 |10.2.4   | [REST Link][77] | [SOAP Link][99] |
@@ -86,6 +91,7 @@ so.topic: reference
 |IPersonAgent      | SendEmail                              |10.2.4   | [REST Link][81] | [SOAP Link][103]|
 |ITicketAgent      | ClearNotify                            |10.2.3   | [REST Link][46] | [SOAP Link][47] |
 |ITicketAgent      | CopyFromCRMDocument                    |10.2.3   | [REST Link][48] | [SOAP Link][49] |
+|ITicketAgent      | CopyToTempFile                         |10.2.6   | [REST Link][125] | [SOAP Link][126] |
 |ITicketAgent      | GetNextInQueue                         |10.2.3   | [REST Link][50] | [SOAP Link][51] |
 |ITicketAgent      | GetTicketMessageWithOptions            |10.2.1   | [REST Link][20] | [SOAP Link][38] |
 |ITicketAgent      | UndeleteByIds                          |10.2.1   | [REST Link][21] | [SOAP Link][39] |
@@ -94,12 +100,14 @@ so.topic: reference
 |IUserAgent        | SetUserPresenceStatus                  |10.2.1   | [REST Link][24] | [SOAP Link][42] |
 |IUserDefinedFieldInfoAgent | ClearCaches                   |10.2.1   | [REST Link][25] | [SOAP Link][43] |
 |IViewStateAgent   | GetLiveUiConfig                        |10.2.4   | [REST Link][82] | [SOAP Link][104]|
-|IViewStateAgent   | PublishAndRetrieveUiEvents             |10.2.4   | [REST Link][83] | [SOAP Link][105]|
+|IViewStateAgent   | PublishAndRetrieveUiEvents (in 10.2.4) |10.2.6   | [REST Link][83] | [SOAP Link][105]|
+|IWorkflowAgent    | ConnectEmailFlowContent                |10.2.6   | [REST Link][127] | [SOAP Link][128]|
 |IWorkflowAgent    | CreateDefaultWorkflowFilter            |10.2.4   | [REST Link][84] | [SOAP Link][106]|
 |IWorkflowAgent    | CreateDefaultWorkflowGoal              |10.2.4   | [REST Link][85] | [SOAP Link][107]|
 |IWorkflowAgent    | CreateDefaultWorkflowStepFromType      |10.2.4   | [REST Link][86] | [SOAP Link][108]|
 |IWorkflowAgent    | CreateDefaultWorkflowStepOption        |10.2.4   | [REST Link][87] | [SOAP Link][109]|
 |IWorkflowAgent    | CreateDefaultWorkflowTrigger           |10.2.4   | [REST Link][88] | [SOAP Link][110]|
+|IWorkflowAgent    | CreateEmailFlowContent                 |10.2.6   | [REST Link][129] | [SOAP Link][130]|
 |IWorkflowAgent    | DeleteWorkflowGoal                     |10.2.4   | [REST Link][89] | [SOAP Link][111]|
 |IWorkflowAgent    | DeleteWorkflowStepOption               |10.2.4   | [REST Link][90] | [SOAP Link][112]|
 |IWorkflowAgent    | DeleteWorkflowTrigger                  |10.2.4   | [REST Link][91] | [SOAP Link][113]|
@@ -308,6 +316,14 @@ services.AddLogging(a =>
 [117]: ../../../docs/en/api/reference/soap/Services88/Workflow/SaveWorkflowGoal.md
 [118]: ../../../docs/en/api/reference/soap/Services88/Workflow/SaveWorkflowStepOption.md
 [119]: ../../../docs/en/api/reference/soap/Services88/Workflow/SaveWorkflowTrigger.md
-[120]: ../../../docs/en/api/archive-providers/reference/externaldocumentfolder.md
+[120]: ../../../docs/en/api/archive-providers/reference/externaldocumentfolders.md
 [121]: ../../../docs/en/api/archive-providers/reference/externaldocumentitems.md
 [122]: ../../../docs/en/api/archive-providers/reference/externaldocuments.md
+[123]: ../../../docs/en/api/reference/restful/agent/Associate_Agent/v1AssociateAgent_GetEncryptionKey.md
+[124]: ../../../docs/en/api/reference/soap/Services88/Associate/GetEncryptionKey.md
+[125]: ../../../docs/en/api/reference/restful/agent/Ticket_Agent/v1TicketAgent_CopyToTempFile.md
+[126]: ../../../docs/en/api/reference/soap/Services88/Ticket/CopyToTempFile.md
+[127]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_ConnectEmailFlowContent.md
+[128]: ../../../docs/en/api/reference/soap/Services88/Workflow/ConnectEmailFlowContent.md
+[129]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateEmailFlowContent.md
+[130]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateEmailFlowContent.md

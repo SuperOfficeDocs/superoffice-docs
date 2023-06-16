@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetDocumentTemplateUrl
 uid: v1ListAgent_GetDocumentTemplateUrl
+generated: true
 ---
 
 # POST Agents/List/GetDocumentTemplateUrl
@@ -69,13 +70,13 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 526,
+  "DocumentTemplateId": 555,
   "WritableUrl": false,
-  "LanguageCode": "nesciunt"
+  "LanguageCode": "aliquam"
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedPageOneFields
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
@@ -106,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 782
+  "UserGroupId": 457
 }
 ```
 
@@ -123,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 34,
-    "ColumnId": 711,
-    "FieldDefault": "quaerat",
-    "FieldHeight": 692,
-    "FieldLabel": "aut",
-    "FieldLeft": 563,
-    "FieldTop": 607,
+    "UDefFieldId": 365,
+    "ColumnId": 459,
+    "FieldDefault": "fuga",
+    "FieldHeight": 751,
+    "FieldLabel": "ratione",
+    "FieldLeft": 351,
+    "FieldTop": 285,
     "FieldType": "Checkbox",
-    "FieldWidth": 140,
-    "FormatMask": "voluptas",
+    "FieldWidth": 292,
+    "FormatMask": "facere",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 239,
-    "LabelLeft": 431,
-    "LabelTop": 326,
-    "LabelWidth": 947,
-    "LastVersionId": 453,
-    "ListTableId": 525,
-    "IsMandatory": true,
+    "LabelHeight": 518,
+    "LabelLeft": 822,
+    "LabelTop": 748,
+    "LabelWidth": 298,
+    "LastVersionId": 853,
+    "ListTableId": 542,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 757,
-    "ProgId": "vero",
+    "Page1LineNo": 131,
+    "ProgId": "consequatur",
     "IsReadOnly": false,
-    "ShortLabel": "facilis",
-    "TabOrder": 817,
-    "TextLength": 733,
-    "Tooltip": "recusandae",
-    "UdefIdentity": 45,
-    "UDListDefinitionId": 492,
+    "ShortLabel": "sunt",
+    "TabOrder": 569,
+    "TextLength": 734,
+    "Tooltip": "voluptas",
+    "UdefIdentity": 304,
+    "UDListDefinitionId": 995,
     "Justification": "Center",
-    "Version": 769,
-    "TemplateVariableName": "Auer, Ebert and Heaney",
-    "HasBeenPublished": false,
-    "MdoListName": "Hoeger-Jacobi",
+    "Version": 425,
+    "TemplateVariableName": "Powlowski Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Davis-Schimmel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldLength": 433
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: GET Sale/{id}/History
 uid: v1SaleEntity_History
+generated: true
 ---
 
 # GET Sale/{id}/History
@@ -73,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/History?$select=name,department,category/id
 GET /api/v1/Sale/{id}/History?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/History?$orderBy=name asc
-GET /api/v1/Sale/{id}/History?$entities=iste
-GET /api/v1/Sale/{id}/History?$top=787
-GET /api/v1/Sale/{id}/History?$skip=667
+GET /api/v1/Sale/{id}/History?$entities=atque
+GET /api/v1/Sale/{id}/History?$top=919
+GET /api/v1/Sale/{id}/History?$skip=743
 GET /api/v1/Sale/{id}/History?$mode=Full
 GET /api/v1/Sale/{id}/History?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/History?$context=quam
+GET /api/v1/Sale/{id}/History?$context=necessitatibus
 GET /api/v1/Sale/{id}/History?$format=JSON
 GET /api/v1/Sale/{id}/History?$jsonSafe=False
 GET /api/v1/Sale/{id}/History?$output=Display
@@ -122,7 +123,7 @@ OK
 GET /api/v1/Sale/{id}/History
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "tenetur",
+  "odata.nextLink": "cupiditate",
   "value": [
     {
-      "PrimaryKey": 6853,
+      "PrimaryKey": 8608,
       "EntityName": "sale",
-      "saleId": 6853,
-      "contactId": 9126,
-      "name": "Beier LLC"
+      "saleId": 8608,
+      "contactId": 1131,
+      "name": "Quigley-Fay"
     },
     {
-      "PrimaryKey": 9123,
+      "PrimaryKey": 674,
       "EntityName": "sale",
-      "saleId": 9123,
-      "contactId": 3160,
-      "name": "Veum LLC"
+      "saleId": 674,
+      "contactId": 6081,
+      "name": "Gutkowski-Price"
     }
   ]
 }

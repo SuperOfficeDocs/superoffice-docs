@@ -1,6 +1,7 @@
 ---
 title: PUT List/Currency/Items/{id}/UserGroups
 uid: v1CurrencyList_PutCurrencyEntityUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/Currency/Items/{id}/UserGroups
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Kiehn-Keebler",
-    "ToolTip": "Alias sed.",
-    "Deleted": false,
-    "Rank": 685,
-    "Type": "minima",
-    "ColorBlock": 291,
-    "IconHint": "eos",
+    "Id": 114,
+    "Name": "Champlin-Kulas",
+    "ToolTip": "Sapiente praesentium.",
+    "Deleted": true,
+    "Rank": 131,
+    "Type": "debitis",
+    "ColorBlock": 671,
+    "IconHint": "accusamus",
     "Selected": false,
-    "LastChanged": "1999-03-16T03:51:34.6458549+01:00",
+    "LastChanged": "2008-07-21T16:00:48.9770869+02:00",
     "ChildItems": [
       {
-        "Id": 670,
-        "Name": "Roob-Kris",
-        "ToolTip": "Mollitia nam blanditiis recusandae corrupti quia.",
+        "Id": 754,
+        "Name": "Hirthe-Bayer",
+        "ToolTip": "Adipisci ut fugit eum.",
         "Deleted": false,
-        "Rank": 83,
-        "Type": "voluptatem",
-        "ColorBlock": 795,
-        "IconHint": "beatae",
+        "Rank": 670,
+        "Type": "modi",
+        "ColorBlock": 531,
+        "IconHint": "earum",
         "Selected": false,
-        "LastChanged": "2013-04-17T03:51:34.6458549+02:00",
+        "LastChanged": "2012-07-19T16:00:48.9770869+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Kennedy Streich"
+        "ExtraInfo": "nihil",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Terrell Miller"
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "provident",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Edmund Marks"
+    "FullName": "Mrs. America Amparo Cummerata DVM"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Morar, Schaefer and Lebsack",
-    "ToolTip": "Eum amet rerum atque natus.",
-    "Deleted": false,
-    "Rank": 683,
-    "Type": "alias",
-    "ColorBlock": 13,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2015-09-13T03:51:34.6458549+02:00",
+    "Id": 300,
+    "Name": "Collier-Renner",
+    "ToolTip": "Ut consectetur consequatur veniam natus reiciendis voluptatum.",
+    "Deleted": true,
+    "Rank": 488,
+    "Type": "dolore",
+    "ColorBlock": 70,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2004-12-12T16:00:48.9770869+01:00",
     "ChildItems": [
       {
-        "Id": 649,
-        "Name": "Stark LLC",
-        "ToolTip": "Esse magnam sunt libero id voluptatem libero consequatur.",
-        "Deleted": true,
-        "Rank": 280,
-        "Type": "doloremque",
-        "ColorBlock": 782,
-        "IconHint": "porro",
+        "Id": 949,
+        "Name": "Hammes Inc and Sons",
+        "ToolTip": "Cupiditate consequatur sit nulla rerum quasi perspiciatis.",
+        "Deleted": false,
+        "Rank": 269,
+        "Type": "aut",
+        "ColorBlock": 563,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2009-10-23T03:51:34.6458549+02:00",
+        "LastChanged": "2016-04-13T16:00:48.9770869+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "magni",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "nisi",
         "Hidden": true,
-        "FullName": "Ramiro Hackett",
+        "FullName": "Prof. Sabina Rodriguez I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 665
+            "FieldType": "System.String",
+            "FieldLength": 501
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "vero",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Andrew Simonis",
+    "FullName": "Claud Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldType": "System.String",
+        "FieldLength": 685
       }
     }
   }

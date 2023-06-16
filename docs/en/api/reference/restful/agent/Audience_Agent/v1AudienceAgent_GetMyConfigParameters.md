@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetMyConfigParameters
 uid: v1AudienceAgent_GetMyConfigParameters
+generated: true
 ---
 
 # POST Agents/Audience/GetMyConfigParameters
@@ -81,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 476,
-    "Name": "Zemlak-Will",
-    "Value": "ipsam",
-    "CreatedDate": "2010-01-26T03:51:26.5999985+01:00",
-    "UpdatedDate": "2005-04-25T03:51:26.5999985+02:00",
-    "CreatedBy": "vel",
-    "UpdatedBy": "dolor",
+    "AudienceLayoutId": 865,
+    "Name": "Blanda, Marks and VonRueden",
+    "Value": "atque",
+    "CreatedDate": "2020-03-14T16:00:40.1019505+01:00",
+    "UpdatedDate": "2010-03-21T16:00:40.1019505+01:00",
+    "CreatedBy": "facilis",
+    "UpdatedBy": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldLength": 302
       }
     }
   }

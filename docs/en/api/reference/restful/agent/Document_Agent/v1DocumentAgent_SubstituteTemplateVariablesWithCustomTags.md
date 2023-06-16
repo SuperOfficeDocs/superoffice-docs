@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/SubstituteTemplateVariablesWithCustomTags
 uid: v1DocumentAgent_SubstituteTemplateVariablesWithCustomTags
+generated: true
 ---
 
 # POST Agents/Document/SubstituteTemplateVariablesWithCustomTags
@@ -80,28 +81,28 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "illum",
+  "Source": "est",
   "GeneratorEncoding": "Html",
   "CustomTags": [
-    "a",
-    "et"
+    "enim",
+    "commodi"
   ],
   "CustomValues": [
-    "rerum",
-    "ut"
+    "animi",
+    "modi"
   ],
-  "ContactId": 574,
-  "PersonId": 463,
-  "AppointmentId": 648,
-  "DocumentId": 425,
-  "SaleId": 237,
-  "SelectionId": 964,
-  "ProjectId": 288,
-  "CultureName": "en"
+  "ContactId": 542,
+  "PersonId": 769,
+  "AppointmentId": 271,
+  "DocumentId": 71,
+  "SaleId": 443,
+  "SelectionId": 761,
+  "ProjectId": 193,
+  "CultureName": "sv"
 }
 ```
 
@@ -111,5 +112,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"non"
+"porro"
 ```

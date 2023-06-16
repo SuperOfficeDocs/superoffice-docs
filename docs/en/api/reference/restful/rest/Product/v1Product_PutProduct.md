@@ -1,6 +1,7 @@
 ---
 title: PUT Product/{id}
 uid: v1Product_PutProduct
+generated: true
 ---
 
 # PUT Product/{id}
@@ -143,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 831,
-  "ERPProductKey": "ducimus",
-  "ERPPriceListKey": "vero",
-  "Name": "Turcotte-Stokes",
-  "Description": "Adaptive systematic core",
-  "Code": "ipsum",
-  "PriceUnit": "sunt",
-  "QuantityUnit": "ea",
-  "IsSubscription": true,
-  "SubscriptionUnit": "assumenda",
-  "DefaultSubscriptionQuantity": 30359.057999999997,
-  "ItemNumber": "1598932",
+  "ProductId": 38,
+  "ERPProductKey": "sed",
+  "ERPPriceListKey": "reprehenderit",
+  "Name": "Krajcik, Breitenberg and Ankunding",
+  "Description": "Reverse-engineered systemic superstructure",
+  "Code": "aliquam",
+  "PriceUnit": "deleniti",
+  "QuantityUnit": "sapiente",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ex",
+  "DefaultSubscriptionQuantity": 28491.194,
+  "ItemNumber": "1240315",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "blanditiis",
-  "ProductTypeKey": "cupiditate",
-  "VAT": 4860.834,
-  "VATInfo": "voluptatum",
-  "UnitCost": 29349.91,
-  "UnitMinimumPrice": 19158.142,
-  "UnitListPrice": 3246.824,
-  "InAssortment": false,
-  "Supplier": "et",
-  "SupplierCode": "harum",
-  "Rights": "commodi",
-  "Rule": "assumenda",
+  "ProductFamilyKey": "recusandae",
+  "ProductTypeKey": "quibusdam",
+  "VAT": 22542.862,
+  "VATInfo": "et",
+  "UnitCost": 2162.46,
+  "UnitMinimumPrice": 8339.574,
+  "UnitListPrice": 11536.253999999999,
+  "InAssortment": true,
+  "Supplier": "temporibus",
+  "SupplierCode": "animi",
+  "Rights": "et",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Kub, Altenwerth and Romaguera",
-      "Value": "consequatur",
+      "Name": "Mosciski-Von",
+      "Value": "est",
       "Type": "Image"
     },
     {
-      "Name": "Kub, Altenwerth and Romaguera",
-      "Value": "consequatur",
+      "Name": "Mosciski-Von",
+      "Value": "est",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "totam",
+  "RawExtraInfo": "sed",
   "ExtraField1": "quia",
-  "ExtraField2": "animi",
-  "ExtraField3": "est",
-  "ExtraField4": "dolorum",
-  "ExtraField5": "quis",
-  "InStock": 15209.302
+  "ExtraField2": "et",
+  "ExtraField3": "nisi",
+  "ExtraField4": "sequi",
+  "ExtraField5": "labore",
+  "InStock": 14579.368
 }
 ```
 
@@ -202,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 702,
-  "ERPProductKey": "totam",
-  "ERPPriceListKey": "inventore",
-  "Name": "Hickle-Vandervort",
-  "Description": "Streamlined directional strategy",
-  "Code": "non",
-  "PriceUnit": "et",
-  "QuantityUnit": "ab",
+  "ProductId": 250,
+  "ERPProductKey": "consequatur",
+  "ERPPriceListKey": "minima",
+  "Name": "Gibson-Marks",
+  "Description": "Customizable optimizing forecast",
+  "Code": "repellat",
+  "PriceUnit": "rem",
+  "QuantityUnit": "amet",
   "IsSubscription": false,
-  "SubscriptionUnit": "expedita",
-  "DefaultSubscriptionQuantity": 10655.6,
-  "ItemNumber": "1253164",
+  "SubscriptionUnit": "consequuntur",
+  "DefaultSubscriptionQuantity": 8095.1219999999994,
+  "ItemNumber": "1181284",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ratione",
-  "ProductTypeKey": "eum",
-  "VAT": 27858.126,
-  "VATInfo": "unde",
-  "UnitCost": 7048.366,
-  "UnitMinimumPrice": 821.108,
-  "UnitListPrice": 11100.627999999999,
-  "InAssortment": true,
-  "Supplier": "quo",
-  "SupplierCode": "repellendus",
-  "Rights": "vel",
-  "Rule": "quia",
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "sapiente",
+  "VAT": 3337.71,
+  "VATInfo": "doloremque",
+  "UnitCost": 26933.595999999998,
+  "UnitMinimumPrice": 3698.12,
+  "UnitListPrice": 2808.064,
+  "InAssortment": false,
+  "Supplier": "dolor",
+  "SupplierCode": "ea",
+  "Rights": "sed",
+  "Rule": "facilis",
   "ExtraInfo": [
     {
-      "Name": "Nicolas LLC",
-      "Value": "deserunt",
+      "Name": "Collier Inc and Sons",
+      "Value": "ipsa",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 546
+          "FieldLength": 576
         }
       }
     },
     {
-      "Name": "Nicolas LLC",
-      "Value": "deserunt",
+      "Name": "Collier Inc and Sons",
+      "Value": "ipsa",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 546
+          "FieldLength": 576
         }
       }
     }
   ],
-  "RawExtraInfo": "consequatur",
-  "ExtraField1": "culpa",
-  "ExtraField2": "rem",
-  "ExtraField3": "blanditiis",
-  "ExtraField4": "ut",
-  "ExtraField5": "ex",
-  "InStock": 6619.008,
+  "RawExtraInfo": "alias",
+  "ExtraField1": "incidunt",
+  "ExtraField2": "ad",
+  "ExtraField3": "aut",
+  "ExtraField4": "molestiae",
+  "ExtraField5": "omnis",
+  "InStock": 11755.634,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldLength": 927
     }
   }
 }

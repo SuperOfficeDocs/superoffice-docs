@@ -1,17 +1,12 @@
 ---
 uid: typicalsearch
 title: typicalsearch
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "typicalsearch"
+keywords: mdoprovider mdo provider typicalsearch
+description: MDO provider for the TypicalSearch Title, Tooltip and Id
+ExtraInfo parameter specifies the entity of the typical search rows to fetch
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "typicalsearch" MDO List

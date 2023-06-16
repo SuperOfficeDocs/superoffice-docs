@@ -1,6 +1,7 @@
 ---
 title: GET Contact/UdefLayout/{progidOrLabel}
 uid: v1ContactEntity_GetUdefFieldInfo
+generated: true
 ---
 
 # GET Contact/UdefLayout/{progidOrLabel}
@@ -92,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 34,
-  "ColumnId": 894,
-  "FieldDefault": "rerum",
-  "FieldHeight": 510,
-  "FieldLabel": "qui",
-  "FieldLeft": 679,
-  "FieldTop": 216,
+  "UDefFieldId": 913,
+  "ColumnId": 181,
+  "FieldDefault": "eos",
+  "FieldHeight": 45,
+  "FieldLabel": "enim",
+  "FieldLeft": 301,
+  "FieldTop": 422,
   "FieldType": "Checkbox",
-  "FieldWidth": 593,
-  "FormatMask": "necessitatibus",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 857,
-  "LabelLeft": 941,
-  "LabelTop": 868,
-  "LabelWidth": 822,
-  "LastVersionId": 877,
-  "ListTableId": 526,
+  "FieldWidth": 324,
+  "FormatMask": "ex",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 187,
+  "LabelLeft": 636,
+  "LabelTop": 92,
+  "LabelWidth": 982,
+  "LastVersionId": 138,
+  "ListTableId": 422,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 323,
-  "ProgId": "in",
+  "Page1LineNo": 335,
+  "ProgId": "esse",
   "IsReadOnly": false,
-  "ShortLabel": "necessitatibus",
-  "TabOrder": 292,
-  "TextLength": 904,
-  "Tooltip": "ratione",
-  "UdefIdentity": 838,
-  "UDListDefinitionId": 442,
+  "ShortLabel": "quas",
+  "TabOrder": 380,
+  "TextLength": 529,
+  "Tooltip": "molestias",
+  "UdefIdentity": 360,
+  "UDListDefinitionId": 865,
   "Justification": "Center",
-  "Version": 752,
-  "TemplateVariableName": "Murphy Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Altenwerth-Welch",
+  "Version": 397,
+  "TemplateVariableName": "Johns, Lind and Hickle",
+  "HasBeenPublished": true,
+  "MdoListName": "Howe-Hansen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldLength": 755
     }
   }
 }

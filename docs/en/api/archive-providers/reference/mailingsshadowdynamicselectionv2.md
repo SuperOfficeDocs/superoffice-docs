@@ -2,17 +2,10 @@
 uid: MailingsShadowDynamicSelectionV2
 title: MailingsShadowDynamicSelectionV2
 description: Mailings shadow selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionDynamicProviderSingleCriteriaGroup" />.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "MailingsShadowDynamicSelectionV2"
+keywords: MailingsShadowDynamicSelectionV2 archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "MailingsShadowDynamicSelectionV2"
@@ -128,6 +121,10 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |mailingAddr/contact/streetAddress/zip|string|Company - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |mailingAddr/contact/streetAddress/state|string|Company - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |mailingAddr/contact/streetAddress/wgs84latitude|decimal|Company - Street address - Latitude: Latitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/streetAddress/wgs84longitude|decimal|Company - Street address - Longitude: Longitude| x |
 |mailingAddr/contact/streetAddress/formattedAddress| *None* |Company - Street address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/contact/streetAddress/formattedMultiLineAddress| *None* |Company - Street address - {formattedAddress}: {formattedAddress}|  |
@@ -228,6 +225,10 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |mailingAddr/contact/LastDoByTicket|date|Company - Date of last non-completed request|  |
 |mailingAddr/contact/SaintStatus1|saintStatus|Company - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |mailingAddr/contact/SaintStatus2|saintStatus|Company - C-company: Kundens navn starter med bokstaven C|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/saintSaleStatus|listAny|Company - With status|  |
 |mailingAddr/contact/saintAmountClass|listAny|Company - Amount class|  |
 |mailingAddr/contact/saintActivityType|listAny|Company - SAINT type|  |
@@ -328,6 +329,10 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |mailingAddr/person/restrictionAddress/zip|string|Contact - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |mailingAddr/person/restrictionAddress/state|string|Contact - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |mailingAddr/person/restrictionAddress/wgs84latitude|decimal|Contact - Search address - Latitude: Latitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/restrictionAddress/wgs84longitude|decimal|Contact - Search address - Longitude: Longitude| x |
 |mailingAddr/person/restrictionAddress/formattedAddress| *None* |Contact - Search address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/person/restrictionAddress/formattedMultiLineAddress| *None* |Contact - Search address - {formattedAddress}: {formattedAddress}|  |
@@ -428,6 +433,10 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |mailingAddr/person/correspondingAssociate/personEmail|string|Contact - E-mail| x |
 |mailingAddr/person/isMailingRecipient|bool|Contact - Is mailing recipient: isMailingRecipient| x |
 |mailingAddr/person/hasStoreConsent|bool|Contact - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/withdrawnStoreConsent|bool|Contact - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |mailingAddr/person/hasEmarketingConsent|bool|Contact - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |mailingAddr/person/withdrawnEmarketingConsent|bool|Contact - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -528,6 +537,10 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |project/projectAssociate/userName|string|User name: User name| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectAssociate/personEmail|string|E-mail| x |
 |project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |project/projectUdef/SuperOffice:2|string|projectlongtext| x |
@@ -567,7 +580,7 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingAddr/contact/postAddress/line1,mailingAddr/contact/NumberOfNotCompletedActivities,mailingAddr/person/personInfo/infoText
+GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingAddr/person/rank,mailingAddr/person/restrictionAddress/wgs84latitude,mailingAddr/person/correspondingAssociate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

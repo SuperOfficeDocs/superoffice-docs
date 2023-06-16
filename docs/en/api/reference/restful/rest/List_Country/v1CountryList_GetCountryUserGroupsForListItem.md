@@ -1,6 +1,7 @@
 ---
 title: GET List/Country/Items/{id}/UserGroups
 uid: v1CountryList_GetCountryUserGroupsForListItem
+generated: true
 ---
 
 # GET List/Country/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 681,
-    "Name": "Weber Group",
-    "ToolTip": "Asperiores voluptate accusamus.",
+    "Id": 818,
+    "Name": "Donnelly-Parisian",
+    "ToolTip": "Aut nulla et quasi odio.",
     "Deleted": false,
-    "Rank": 396,
-    "Type": "maiores",
-    "ColorBlock": 19,
-    "IconHint": "accusamus",
+    "Rank": 186,
+    "Type": "quasi",
+    "ColorBlock": 686,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2017-08-01T03:51:34.6302346+02:00",
+    "LastChanged": "1996-03-13T16:00:48.9614655+01:00",
     "ChildItems": [
       {
-        "Id": 906,
-        "Name": "Becker Inc and Sons",
-        "ToolTip": "Ab occaecati autem rerum.",
+        "Id": 434,
+        "Name": "Balistreri Inc and Sons",
+        "ToolTip": "Distinctio eius ut ut voluptates omnis cum rerum.",
         "Deleted": true,
-        "Rank": 291,
-        "Type": "ducimus",
-        "ColorBlock": 35,
-        "IconHint": "provident",
-        "Selected": false,
-        "LastChanged": "2013-09-24T03:51:34.6302346+02:00",
+        "Rank": 943,
+        "Type": "ullam",
+        "ColorBlock": 802,
+        "IconHint": "consectetur",
+        "Selected": true,
+        "LastChanged": "2009-12-09T16:00:48.9614655+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "est",
+        "ExtraInfo": "et",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Mr. Erica Kihn III",
+        "FullName": "Rubie Hansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 37
+            "FieldLength": 722
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "debitis",
-    "Hidden": false,
-    "FullName": "Dr. Ben Federico Rice MD",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "officia",
+    "Hidden": true,
+    "FullName": "Dasia Hane II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldLength": 965
       }
     }
   }

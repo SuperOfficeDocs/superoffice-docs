@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetBaseCurrency
 uid: v1ListAgent_GetBaseCurrency
+generated: true
 ---
 
 # POST Agents/List/GetBaseCurrency
@@ -80,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 912,
-  "Name": "Torphy LLC",
-  "Tooltip": "et",
-  "Rank": 818,
-  "Rate": 30487.552,
-  "Units": 13178.47,
+  "CurrencyId": 663,
+  "Name": "Steuber-Rath",
+  "Tooltip": "tenetur",
+  "Rank": 963,
+  "Rate": 26917.926,
+  "Units": 18578.352,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 879
+      "FieldType": "System.Int32",
+      "FieldLength": 228
     }
   }
 }

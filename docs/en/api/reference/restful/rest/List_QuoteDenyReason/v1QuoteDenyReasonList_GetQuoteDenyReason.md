@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteDenyReason/Items/{id}
 uid: v1QuoteDenyReasonList_GetQuoteDenyReason
+generated: true
 ---
 
 # GET List/QuoteDenyReason/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 784,
-  "Name": "Quitzon-Murazik",
-  "Tooltip": "est",
+  "Id": 547,
+  "Name": "Kassulke, Fisher and Rodriguez",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "UdListDefinitionId": 458,
-  "Rank": 22,
+  "UdListDefinitionId": 91,
+  "Rank": 930,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 466
+      "FieldType": "System.Int32",
+      "FieldLength": 518
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/SetUserDefinedPageOneField
 uid: v1UserDefinedFieldInfoAgent_SetUserDefinedPageOneField
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/SetUserDefinedPageOneField
@@ -66,14 +67,14 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SetUserDefinedPageOneField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UdefFieldId": 810,
-  "UserGroupId": 630,
-  "FieldLineNo": 676
+  "UdefFieldId": 704,
+  "UserGroupId": 831,
+  "FieldLineNo": 1000
 }
 ```
 

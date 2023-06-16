@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetCountries
 uid: v1ListAgent_GetCountries
+generated: true
 ---
 
 # POST Agents/List/GetCountries
@@ -81,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 579,
-    "Name": "Fisher-Cormier",
-    "CurrencyId": 16,
-    "EnglishName": "O'Reilly Group",
+    "CountryId": 328,
+    "Name": "Kassulke LLC",
+    "CurrencyId": 211,
+    "EnglishName": "Kris-Hickle",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Public-key heuristic monitoring",
-    "OrgNrText": "413386",
-    "InterAreaPrefix": "laborum",
-    "DialInPrefix": "pariatur",
-    "ZipPrefix": "porro",
-    "DomainName": "Bechtelar Inc and Sons",
-    "AddressLayoutId": 181,
-    "DomesticAddressLayoutId": 566,
-    "ForeignAddressLayoutId": 570,
-    "Rank": 927,
-    "Tooltip": "et",
-    "Deleted": true,
+    "ImageDescription": "Secured actuating open system",
+    "OrgNrText": "1150853",
+    "InterAreaPrefix": "dolore",
+    "DialInPrefix": "modi",
+    "ZipPrefix": "tenetur",
+    "DomainName": "Koss, Anderson and Witting",
+    "AddressLayoutId": 247,
+    "DomesticAddressLayoutId": 666,
+    "ForeignAddressLayoutId": 716,
+    "Rank": 458,
+    "Tooltip": "eius",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldType": "System.Int32",
+        "FieldLength": 169
       }
     }
   }

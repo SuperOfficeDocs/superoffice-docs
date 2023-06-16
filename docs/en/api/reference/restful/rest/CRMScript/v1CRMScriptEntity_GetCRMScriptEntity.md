@@ -1,6 +1,7 @@
 ---
 title: GET CRMScript/{id}
 uid: v1CRMScriptEntity_GetCRMScriptEntity
+generated: true
 ---
 
 # GET CRMScript/{id}
@@ -85,7 +86,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,23 +96,23 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 433,
-  "UniqueIdentifier": "laborum",
-  "Name": "Schinner-Hills",
-  "Description": "Down-sized actuating policy",
-  "IncludeId": "repellendus",
-  "HierarchyId": 566,
-  "Source": "amet",
-  "Registered": "2018-03-23T03:51:33.5678642+01:00",
-  "RegisteredAssociateId": 392,
-  "Updated": "1997-08-28T03:51:33.5678642+02:00",
-  "UpdatedAssociateId": 430,
+  "EjscriptId": 939,
+  "UniqueIdentifier": "iste",
+  "Name": "Bednar Group",
+  "Description": "Focused zero tolerance structure",
+  "IncludeId": "repudiandae",
+  "HierarchyId": 315,
+  "Source": "non",
+  "Registered": "2018-09-21T16:00:47.83659+02:00",
+  "RegisteredAssociateId": 974,
+  "Updated": "1997-02-10T16:00:47.83659+01:00",
+  "UpdatedAssociateId": 102,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 729
     }
   },
   "_Links": {

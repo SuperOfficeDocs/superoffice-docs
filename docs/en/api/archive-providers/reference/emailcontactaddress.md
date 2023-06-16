@@ -2,17 +2,10 @@
 uid: emailcontactaddress
 title: emailcontactaddress
 description: Contact subchannel for special purpose archive provider used to search for email addresses.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "emailcontactaddress"
+keywords: emailcontactaddress archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "emailcontactaddress"
@@ -134,6 +127,10 @@ the email_id.
 |restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
 |restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
@@ -234,6 +231,10 @@ the email_id.
 |contactSupportPerson/personRegisteredDate|date|User support contact - Registered date: The date/time the data was registered in UTC.| x |
 |contactSupportPerson/portraitThumbnail| *None* |User support contact - Person image: Person image|  |
 |contactSupportPerson/personActiveErpLinks|bool|User support contact - ERP connected: Is there an active ERP Sync?| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactSupportPerson/ticketPriority|listAny|User support contact - Service priority: Default service priority for this contact| x |
 |contactSupportPerson/supportLanguage|listAny|User support contact - Preferred language: Preferred language used for reply templates and more| x |
 |contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
@@ -334,6 +335,10 @@ the email_id.
 |NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |LastSale|date|Date of last sale|  |
 |LastCompletedSale|date|Date of last completed sale|  |
 |LastDoBySale|date|Date of last non-completed sale|  |
@@ -359,7 +364,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailcontactaddress?$select=contactSupportPerson/supportAssociateFullName,contactSupportPerson/personBusiness,contactAssociate/middleName
+GET /api/v1/archive/emailcontactaddress?$select=email/emailAddress,streetAddress/line3,url/URLDescription,contactSupportAssociate/mrMrs,LastCompletedTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

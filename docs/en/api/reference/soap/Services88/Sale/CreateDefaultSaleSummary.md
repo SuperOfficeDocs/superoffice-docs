@@ -1,6 +1,6 @@
 ---
 title: Services88.SaleAgent.CreateDefaultSaleSummary SOAP
-generated: 1
+generated: true
 uid: Services88-Sale-CreateDefaultSaleSummary
 ---
 

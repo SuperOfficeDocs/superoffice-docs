@@ -1,6 +1,7 @@
 ---
 title: GET Hierarchy
 uid: v1HierarchyEntity_GetAllDomains
+generated: true
 ---
 
 # GET Hierarchy
@@ -49,7 +50,7 @@ OK
 GET /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -59,7 +60,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "mollitia",
-  "sed"
+  "consequuntur",
+  "ullam"
 ]
 ```

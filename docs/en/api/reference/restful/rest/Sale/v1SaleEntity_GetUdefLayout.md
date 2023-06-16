@@ -1,6 +1,7 @@
 ---
 title: GET Sale/UdefLayout
 uid: v1SaleEntity_GetUdefLayout
+generated: true
 ---
 
 # GET Sale/UdefLayout
@@ -89,7 +90,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 164,
-    "ColumnId": 264,
-    "FieldDefault": "natus",
-    "FieldHeight": 954,
-    "FieldLabel": "et",
-    "FieldLeft": 844,
-    "FieldTop": 45,
+    "UDefFieldId": 218,
+    "ColumnId": 992,
+    "FieldDefault": "dolorem",
+    "FieldHeight": 705,
+    "FieldLabel": "expedita",
+    "FieldLeft": 315,
+    "FieldTop": 641,
     "FieldType": "Checkbox",
-    "FieldWidth": 795,
-    "FormatMask": "voluptatem",
+    "FieldWidth": 648,
+    "FormatMask": "corporis",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 63,
-    "LabelLeft": 544,
-    "LabelTop": 790,
-    "LabelWidth": 613,
-    "LastVersionId": 319,
-    "ListTableId": 152,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "LabelHeight": 641,
+    "LabelLeft": 723,
+    "LabelTop": 169,
+    "LabelWidth": 679,
+    "LastVersionId": 131,
+    "ListTableId": 559,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 408,
-    "ProgId": "modi",
-    "IsReadOnly": false,
-    "ShortLabel": "enim",
-    "TabOrder": 997,
-    "TextLength": 630,
-    "Tooltip": "eveniet",
-    "UdefIdentity": 770,
-    "UDListDefinitionId": 778,
+    "Page1LineNo": 437,
+    "ProgId": "officia",
+    "IsReadOnly": true,
+    "ShortLabel": "non",
+    "TabOrder": 25,
+    "TextLength": 849,
+    "Tooltip": "aut",
+    "UdefIdentity": 76,
+    "UDListDefinitionId": 530,
     "Justification": "Center",
-    "Version": 17,
-    "TemplateVariableName": "Marquardt-Erdman",
-    "HasBeenPublished": true,
-    "MdoListName": "Howe, Rogahn and Boyle",
+    "Version": 605,
+    "TemplateVariableName": "Bode Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Senger-Wuckert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 355
+        "FieldLength": 230
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: PUT ForeignApp/{appName}
 uid: v1ForeignAppEntity_PostForeignApp_PUT
+generated: true
 ---
 
 # PUT ForeignApp/{appName}
@@ -66,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 410,
-  "Name": "Schowalter Group",
-  "CreatedDate": "2021-10-01T03:51:33.6615947+02:00",
-  "UpdatedDate": "2005-12-17T03:51:33.6615947+01:00",
+  "ForeignAppId": 878,
+  "Name": "Ebert-Kuhlman",
+  "CreatedDate": "2021-06-02T16:00:47.9459565+02:00",
+  "UpdatedDate": "2001-05-12T16:00:47.9459565+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 673,
-      "Name": "Mueller-Tremblay",
-      "CreatedDate": "2019-06-02T03:51:33.6615947+02:00",
-      "UpdatedDate": "2009-04-16T03:51:33.6615947+02:00",
-      "AssociateFullName": "Amber Gutkowski",
-      "CreatedBy": "in",
-      "UpdatedBy": "in",
-      "DeviceIdentifier": "dolorem",
-      "ForeignAppId": 354,
+      "ForeignDeviceId": 967,
+      "Name": "Wilkinson Inc and Sons",
+      "CreatedDate": "2002-01-25T16:00:47.9459565+01:00",
+      "UpdatedDate": "1999-08-21T16:00:47.9459565+02:00",
+      "AssociateFullName": "Tyra Leannon",
+      "CreatedBy": "quia",
+      "UpdatedBy": "minus",
+      "DeviceIdentifier": "necessitatibus",
+      "ForeignAppId": 961,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 755
+          "FieldLength": 195
         }
       }
     }
@@ -107,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldType": "System.String",
+      "FieldLength": 927
     }
   }
 }

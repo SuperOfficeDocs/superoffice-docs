@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/UpdateBatchTask
 uid: v1BatchAgent_UpdateBatchTask
+generated: true
 ---
 
 # POST Agents/Batch/UpdateBatchTask
@@ -95,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 449,
-  "Name": "Tremblay-Lebsack",
-  "AssociateId": 662,
-  "DetailsTable": 957,
-  "DetailsRecord": 342,
+  "Id": 649,
+  "Name": "Considine-Balistreri",
+  "AssociateId": 951,
+  "DetailsTable": 733,
+  "DetailsRecord": 728,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "nostrum",
-    "ParameterObject2": "eos"
+    "ParameterObject1": "doloribus",
+    "ParameterObject2": "asperiores"
   },
-  "LastStarted": "2007-06-09T03:51:26.6156255+02:00",
-  "Created": "2004-04-17T03:51:26.6156255+02:00",
-  "StartCount": 583,
-  "DatabaseSerialNumber": "1090895",
-  "Context": "aut",
-  "Result": "quo",
+  "LastStarted": "2004-07-05T16:00:40.1019505+02:00",
+  "Created": "2021-07-29T16:00:40.1019505+02:00",
+  "StartCount": 470,
+  "DatabaseSerialNumber": "644078",
+  "Context": "reiciendis",
+  "Result": "culpa",
   "State": "All",
-  "Description": "Persistent responsive model",
-  "Response": "recusandae",
-  "Request": "aut",
-  "ProgressDescription": "Synchronised 3rd generation function",
-  "ProgressPercent": 677,
-  "FileName": "Watsica, Kub and Kunde",
+  "Description": "Enhanced full-range emulation",
+  "Response": "modi",
+  "Request": "amet",
+  "ProgressDescription": "Cloned dedicated initiative",
+  "ProgressPercent": 685,
+  "FileName": "Schulist-Bartoletti",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 673
     }
   }
 }

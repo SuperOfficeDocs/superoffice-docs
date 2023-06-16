@@ -1,6 +1,7 @@
 ---
 title: PUT DashTheme/{id}
 uid: v1DashTheme_PutDashTheme
+generated: true
 ---
 
 # PUT DashTheme/{id}
@@ -88,16 +89,16 @@ DashTheme updated.
 PUT /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 525,
-  "Name": "Rohan, Schroeder and VonRueden",
-  "Config": "libero",
-  "Rank": 72,
-  "Client": "officia",
-  "Style": "est"
+  "DashboardThemeId": 264,
+  "Name": "Boyer-Champlin",
+  "Config": "voluptas",
+  "Rank": 170,
+  "Client": "debitis",
+  "Style": "earum"
 }
 ```
 
@@ -108,23 +109,23 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 846,
-  "Name": "Funk-White",
-  "Config": "illum",
-  "Rank": 42,
-  "Client": "enim",
-  "Style": "non",
+  "DashboardThemeId": 105,
+  "Name": "Bashirian, Weimann and Wilkinson",
+  "Config": "voluptas",
+  "Rank": 987,
+  "Client": "velit",
+  "Style": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 262
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

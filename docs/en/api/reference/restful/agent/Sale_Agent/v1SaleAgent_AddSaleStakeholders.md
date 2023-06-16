@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/AddSaleStakeholders
 uid: v1SaleAgent_AddSaleStakeholders
+generated: true
 ---
 
 # POST Agents/Sale/AddSaleStakeholders
@@ -64,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 878,
+  "SaleId": 541,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schoen-Thompson",
-      "Comment": "dignissimos",
-      "StakeholderRoleId": 688,
-      "CountryId": 25,
-      "PersonId": 96,
-      "EmailDescription": "lennie@schinner.biz",
-      "EmailId": 163,
-      "EmailAddress": "laney@lueilwitzschroeder.biz",
-      "PhoneId": 496,
-      "ContactName": "Fay Group",
-      "ContactId": 310,
-      "SaleId": 933,
-      "Mrmrs": "vitae",
-      "Firstname": "Ron",
-      "MiddleName": "Sipes, Mayer and Larson",
-      "Lastname": "Oberbrunner",
-      "SaleStakeholderId": 248,
-      "Rank": 361,
-      "Phone": "(784)430-3350"
+      "StakeholderRoleName": "Murazik Group",
+      "Comment": "rerum",
+      "StakeholderRoleId": 265,
+      "CountryId": 174,
+      "PersonId": 75,
+      "EmailDescription": "arianna@hilll.com",
+      "EmailId": 825,
+      "EmailAddress": "ross.olson@wolffromaguera.us",
+      "PhoneId": 532,
+      "ContactName": "Rice, Tremblay and Sporer",
+      "ContactId": 360,
+      "SaleId": 83,
+      "Mrmrs": "velit",
+      "Firstname": "Davin",
+      "MiddleName": "Fay-Veum",
+      "Lastname": "Hermiston",
+      "SaleStakeholderId": 344,
+      "Rank": 659,
+      "Phone": "1-414-239-7816 x2488"
     }
   ]
 }

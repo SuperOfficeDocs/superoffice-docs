@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/GetFormEntity
 uid: v1MarketingAgent_GetFormEntity
+generated: true
 ---
 
 # POST Agents/Marketing/GetFormEntity
@@ -25,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=507
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=620
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +88,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 735,
-  "FormKey": "delectus",
-  "Name": "Bernier-Denesik",
-  "Description": "Cloned cohesive open system",
-  "Config": "et",
-  "FolderId": 231,
-  "ScriptId": 518,
-  "ResponseShipmentId": 250,
+  "FormId": 369,
+  "FormKey": "enim",
+  "Name": "Gibson Group",
+  "Description": "Assimilated homogeneous emulation",
+  "Config": "animi",
+  "FolderId": 506,
+  "ScriptId": 22,
+  "ResponseShipmentId": 606,
   "Active": false,
-  "Expires": "2009-11-26T03:51:27.5060342+01:00",
-  "MaxSubmits": 16,
+  "Expires": "2016-11-10T16:00:41.2580675+01:00",
+  "MaxSubmits": 599,
   "Type": "Normal",
-  "Recipe": "quia",
-  "GroupId": 965,
+  "Recipe": "dolor",
+  "GroupId": 950,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2007-09-16T03:51:27.5060342+02:00",
-  "RegisteredAssociateId": 724,
-  "Updated": "2000-08-13T03:51:27.5060342+02:00",
-  "UpdatedAssociateId": 850,
-  "UpdatedCount": 22,
-  "FolderName": "Renner-Quitzon",
+  "Registered": "2001-07-02T16:00:41.2580675+02:00",
+  "RegisteredAssociateId": 824,
+  "Updated": "2010-05-02T16:00:41.2580675+02:00",
+  "UpdatedAssociateId": 647,
+  "UpdatedCount": 478,
+  "FolderName": "Gutmann Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldType": "System.String",
+      "FieldLength": 44
     }
   }
 }

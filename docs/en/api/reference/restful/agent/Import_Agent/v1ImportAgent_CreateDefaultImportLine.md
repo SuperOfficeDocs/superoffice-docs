@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Import/CreateDefaultImportLine
 uid: v1ImportAgent_CreateDefaultImportLine
+generated: true
 ---
 
 # POST Agents/Import/CreateDefaultImportLine
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/Import/CreateDefaultImportLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 784
+  "CountColumns": 144
 }
 ```
 
@@ -92,19 +93,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "aperiam",
-    "voluptatibus"
+    "modi",
+    "consequatur"
   ],
   "Selected": false,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "aut",
+  "ExternalKey": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 279
     }
   }
 }

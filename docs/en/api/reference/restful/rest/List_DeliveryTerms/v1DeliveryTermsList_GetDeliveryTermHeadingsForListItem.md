@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryTerm/Items/{id}/Headings
 uid: v1DeliveryTermsList_GetDeliveryTermHeadingsForListItem
+generated: true
 ---
 
 # GET List/DeliveryTerm/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Lynch Group",
-    "ToolTip": "Ut nisi quasi ut officiis accusamus.",
+    "Id": 336,
+    "Name": "Wunsch Group",
+    "ToolTip": "Dolores non nulla quam sequi.",
     "Deleted": true,
-    "Rank": 677,
-    "Type": "iste",
-    "ColorBlock": 61,
-    "IconHint": "labore",
-    "Selected": false,
-    "LastChanged": "1999-03-31T03:51:34.6614813+02:00",
+    "Rank": 875,
+    "Type": "non",
+    "ColorBlock": 849,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2022-09-25T16:00:49.0083336+02:00",
     "ChildItems": [
       {
-        "Id": 644,
-        "Name": "Kub, Gerlach and Monahan",
-        "ToolTip": "Commodi deserunt consequuntur nihil tempora accusamus aliquid debitis.",
+        "Id": 684,
+        "Name": "Eichmann Group",
+        "ToolTip": "Natus voluptatem.",
         "Deleted": false,
-        "Rank": 780,
-        "Type": "similique",
-        "ColorBlock": 426,
-        "IconHint": "voluptates",
-        "Selected": false,
-        "LastChanged": "2004-03-02T03:51:34.6614813+01:00",
+        "Rank": 988,
+        "Type": "sunt",
+        "ColorBlock": 255,
+        "IconHint": "nulla",
+        "Selected": true,
+        "LastChanged": "2016-12-15T16:00:49.0083336+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "nostrum",
-        "Hidden": false,
-        "FullName": "Gust Okuneva",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Angelina Bechtelar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 199
+            "FieldLength": 112
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "qui",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Ms. Jacynthe Ankunding",
+    "FullName": "Prof. Bailey Damion Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldType": "System.Int32",
+        "FieldLength": 40
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: GET Table/{tableName}/{id}
 uid: v1TableRecord_ReadRow
+generated: true
 ---
 
 # GET Table/{tableName}/{id}
@@ -60,7 +61,7 @@ OK
 GET /api/v1/Table/{tableName}/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,15 +72,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "non",
-    "Values2": "quae"
+    "Values1": "sit",
+    "Values2": "quo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 33
     }
   }
 }

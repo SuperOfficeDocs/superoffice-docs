@@ -1,5 +1,6 @@
 ---
 title: DashTheme
+generated: true
 ---
 
 ```http

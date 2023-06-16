@@ -1,17 +1,11 @@
 ---
 uid: faqcategory
 title: faqcategory
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "faqcategory"
+keywords: mdoprovider mdo provider faqcategory
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "faqcategory" MDO List

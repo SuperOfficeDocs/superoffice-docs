@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetColleaguesByDepartment
 uid: v1PersonAgent_GetColleaguesByDepartment
+generated: true
 ---
 
 # POST Agents/Person/GetColleaguesByDepartment
@@ -113,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 706
+  "DepartmentId": 101
 }
 ```
 
@@ -129,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ut",
-    "PersonId": 337,
-    "Mrmrs": "vitae",
-    "Firstname": "Yasmine",
-    "Lastname": "Greenholt",
-    "MiddleName": "Quitzon-Legros",
-    "Title": "aspernatur",
-    "Description": "Optional exuding artificial intelligence",
-    "Email": "mohamed.eichmann@gleason.co.uk",
-    "FullName": "Myrtice Hermann",
-    "DirectPhone": "(687)304-4834",
-    "FormalName": "Barton-Hammes",
-    "CountryId": 256,
-    "ContactId": 264,
-    "ContactName": "Haag-Strosin",
-    "Retired": 564,
-    "Rank": 253,
-    "ActiveInterests": 82,
+    "Position": "quidem",
+    "PersonId": 465,
+    "Mrmrs": "facilis",
+    "Firstname": "Kiara",
+    "Lastname": "Wiza",
+    "MiddleName": "Durgan, Kertzmann and Klocko",
+    "Title": "inventore",
+    "Description": "Visionary fresh-thinking hardware",
+    "Email": "verdie@christiansen.name",
+    "FullName": "Daphney Corwin V",
+    "DirectPhone": "1-108-839-6211",
+    "FormalName": "Altenwerth Group",
+    "CountryId": 945,
+    "ContactId": 748,
+    "ContactName": "Koelpin Inc and Sons",
+    "Retired": 535,
+    "Rank": 330,
+    "ActiveInterests": 159,
     "ContactDepartment": "",
-    "ContactCountryId": 418,
-    "ContactOrgNr": "1432970",
-    "FaxPhone": "155-912-4054",
-    "MobilePhone": "(432)602-9865",
-    "ContactPhone": "083.965.5485",
-    "AssociateName": "Schmeler-Dibbert",
-    "AssociateId": 60,
+    "ContactCountryId": 109,
+    "ContactOrgNr": "1281239",
+    "FaxPhone": "1-566-544-7785 x566",
+    "MobilePhone": "084-029-4382 x591",
+    "ContactPhone": "1-609-850-6740 x78971",
+    "AssociateName": "Kautzer Inc and Sons",
+    "AssociateId": 960,
     "UsePersonAddress": false,
-    "ContactFax": "illum",
-    "Kanafname": "ad",
-    "Kanalname": "temporibus",
-    "Post1": "dolorem",
-    "Post2": "nulla",
-    "Post3": "perferendis",
-    "EmailName": "arielle.hyatt@kuvalis.com",
-    "ContactFullName": "Nicklaus Grant",
-    "ActiveErpLinks": 632,
-    "TicketPriorityId": 357,
-    "SupportLanguageId": 37,
-    "SupportAssociateId": 100,
+    "ContactFax": "voluptas",
+    "Kanafname": "sint",
+    "Kanalname": "ab",
+    "Post1": "quam",
+    "Post2": "quidem",
+    "Post3": "voluptatem",
+    "EmailName": "allan@koepp.com",
+    "ContactFullName": "Dr. Lorenza Dietrich I",
+    "ActiveErpLinks": 296,
+    "TicketPriorityId": 3,
+    "SupportLanguageId": 566,
+    "SupportAssociateId": 7,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldType": "System.String",
+        "FieldLength": 220
       }
     }
   }

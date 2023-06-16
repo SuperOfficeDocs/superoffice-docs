@@ -1,17 +1,11 @@
 ---
 uid: faqreplytemplatefavourite
 title: faqreplytemplatefavourite
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "faqreplytemplatefavourite"
+keywords: mdoprovider mdo provider faqreplytemplatefavourite
+description: MDO list provider for Favourites
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "faqreplytemplatefavourite" MDO List

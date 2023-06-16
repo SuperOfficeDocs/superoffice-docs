@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetVisibleForUserGroupsFromListName
 uid: v1ListAgent_SetVisibleForUserGroupsFromListName
+generated: true
 ---
 
 # POST Agents/List/SetVisibleForUserGroupsFromListName
@@ -88,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Harvey, Pagac and Kemmer",
-  "ListItemId": 539,
+  "UdListDefinitionName": "Kunde, Emard and Wuckert",
+  "ListItemId": 764,
   "UserGroups": [
     {
-      "Id": 782,
-      "Name": "Walsh, Jewess and Nitzsche",
-      "ToolTip": "Ut alias harum et sunt.",
-      "Deleted": true,
-      "Rank": 174,
-      "Type": "quo",
-      "ColorBlock": 889,
-      "IconHint": "eligendi",
+      "Id": 274,
+      "Name": "Tremblay, Balistreri and Hayes",
+      "ToolTip": "Dolores et.",
+      "Deleted": false,
+      "Rank": 368,
+      "Type": "rem",
+      "ColorBlock": 331,
+      "IconHint": "vero",
       "Selected": false,
-      "LastChanged": "2012-03-09T03:51:27.4123074+01:00",
+      "LastChanged": "2002-08-28T16:00:41.1487084+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "perspiciatis",
-      "Hidden": true,
-      "FullName": "Ms. Rogers Boyle I"
+      "ExtraInfo": "quasi",
+      "StyleHint": "voluptatem",
+      "Hidden": false,
+      "FullName": "Dr. Delphia Alessia Rath"
     }
   ]
 }
@@ -127,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 858,
-    "Name": "Reichert, Bashirian and Littel",
-    "ToolTip": "Provident optio nulla porro in ad esse.",
+    "Id": 993,
+    "Name": "Kris LLC",
+    "ToolTip": "Quia est et ab fugit cumque dolorem ea.",
     "Deleted": true,
-    "Rank": 653,
-    "Type": "suscipit",
-    "ColorBlock": 217,
-    "IconHint": "deleniti",
+    "Rank": 445,
+    "Type": "maiores",
+    "ColorBlock": 386,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2012-03-30T03:51:27.4123074+02:00",
+    "LastChanged": "2020-03-06T16:00:41.1487084+01:00",
     "ChildItems": [
       {
-        "Id": 765,
-        "Name": "Kuhlman LLC",
-        "ToolTip": "Temporibus veniam dolor consectetur.",
-        "Deleted": true,
-        "Rank": 197,
-        "Type": "mollitia",
-        "ColorBlock": 509,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "1996-12-31T03:51:27.4123074+01:00",
+        "Id": 302,
+        "Name": "Feeney-Beatty",
+        "ToolTip": "Et ex.",
+        "Deleted": false,
+        "Rank": 110,
+        "Type": "quasi",
+        "ColorBlock": 553,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2011-07-06T16:00:41.1487084+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "nihil",
+        "ExtraInfo": "qui",
+        "StyleHint": "ducimus",
         "Hidden": true,
-        "FullName": "Lorna Lia Gleichner I",
+        "FullName": "Dovie Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 326
+            "FieldLength": 816
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "veniam",
-    "Hidden": false,
-    "FullName": "Prof. Chase Hegmann Jr.",
+    "ExtraInfo": "velit",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Rickey Parisian II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldType": "System.String",
+        "FieldLength": 513
       }
     }
   }

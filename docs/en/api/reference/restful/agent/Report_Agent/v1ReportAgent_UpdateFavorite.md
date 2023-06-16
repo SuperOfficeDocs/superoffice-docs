@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Report/UpdateFavorite
 uid: v1ReportAgent_UpdateFavorite
+generated: true
 ---
 
 # POST Agents/Report/UpdateFavorite
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 381,
+  "ReportId": 576,
   "ReportCategory": "All",
-  "Description": "Distributed tertiary function",
+  "Description": "Distributed mission-critical encoding",
   "ReportLayout": "CalendarMonth",
-  "Name": "McGlynn-Emmerich",
-  "AssociateId": 828,
-  "TemplateId": 65,
+  "Name": "Hudson Inc and Sons",
+  "AssociateId": 284,
+  "TemplateId": 7,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 21
     }
   }
 }

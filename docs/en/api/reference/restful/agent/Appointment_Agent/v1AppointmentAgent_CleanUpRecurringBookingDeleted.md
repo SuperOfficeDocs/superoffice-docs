@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CleanUpRecurringBookingDeleted
 uid: v1AppointmentAgent_CleanUpRecurringBookingDeleted
+generated: true
 ---
 
 # POST Agents/Appointment/CleanUpRecurringBookingDeleted
@@ -68,5 +69,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-71
+879
 ```

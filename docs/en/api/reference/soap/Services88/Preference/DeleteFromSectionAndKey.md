@@ -1,6 +1,6 @@
 ---
 title: Services88.PreferenceAgent.DeleteFromSectionAndKey SOAP
-generated: 1
+generated: true
 uid: Services88-Preference-DeleteFromSectionAndKey
 ---
 

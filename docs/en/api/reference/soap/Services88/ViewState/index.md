@@ -1,7 +1,7 @@
 ---
 title: Services88.ViewStateAgent SOAP
 uid: Services88-ViewState-soap
-generated: 1
+generated: true
 ---
 
 # Services88 ViewState SOAP

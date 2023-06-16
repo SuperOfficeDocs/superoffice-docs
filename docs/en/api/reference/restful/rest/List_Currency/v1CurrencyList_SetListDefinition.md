@@ -1,6 +1,7 @@
 ---
 title: PUT List/Currency
 uid: v1CurrencyList_SetListDefinition
+generated: true
 ---
 
 # PUT List/Currency
@@ -87,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 974,
-  "Name": "Lehner-Stamm",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 575,
+  "Id": 949,
+  "Name": "Witting-Tillman",
+  "Tooltip": "eligendi",
+  "Deleted": false,
+  "Rank": 367,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "iusto",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "error",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 86,
-  "Name": "Walter Inc and Sons",
-  "Tooltip": "rerum",
+  "Id": 699,
+  "Name": "Powlowski LLC",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "Rank": 886,
-  "IsCustomList": true,
+  "Rank": 125,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cumque",
+  "UseGroupsAndHeadings": true,
+  "ListType": "rerum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 204
+      "FieldLength": 691
     }
   }
 }

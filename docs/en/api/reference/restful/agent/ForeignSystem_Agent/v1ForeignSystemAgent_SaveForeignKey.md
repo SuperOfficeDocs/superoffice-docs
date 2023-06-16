@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/SaveForeignKey
 uid: v1ForeignSystemAgent_SaveForeignKey
+generated: true
 ---
 
 # POST Agents/ForeignSystem/SaveForeignKey
@@ -82,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Boyer, Gleason and Konopelski",
-  "DeviceName": "Simonis LLC",
-  "DeviceIdentifier": "eligendi"
+  "ApplicationName": "Dickens LLC",
+  "DeviceName": "Legros-Ondricka",
+  "DeviceIdentifier": "at"
 }
 ```
 
@@ -100,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "autem",
-  "Value": "in",
-  "RecordId": 667,
-  "CreatedDate": "2012-08-01T03:51:27.3498217+02:00",
-  "UpdatedDate": "2019-10-25T03:51:27.3498217+02:00",
-  "UpdatedBy": "commodi",
-  "CreatedBy": "alias",
-  "TableName": "Schiller-Thompson",
+  "Key": "non",
+  "Value": "aut",
+  "RecordId": 824,
+  "CreatedDate": "2020-10-24T16:00:41.0705907+02:00",
+  "UpdatedDate": "2013-08-22T16:00:41.0705907+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "numquam",
+  "TableName": "Lind LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldType": "System.Int32",
+      "FieldLength": 388
     }
   }
 }

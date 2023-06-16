@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/GetAllCustomerCenterConfigs
 uid: v1CustomerServiceAgent_GetAllCustomerCenterConfigs
+generated: true
 ---
 
 # POST Agents/CustomerService/GetAllCustomerCenterConfigs
@@ -82,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 907,
+    "CustConfigId": 797,
     "Type": "Options",
-    "Config": "autem",
-    "CustLangId": 899,
-    "Registered": "2016-05-04T03:51:26.9436626+02:00",
-    "RegisteredAssociateId": 192,
-    "Updated": "2021-03-13T03:51:26.9436626+01:00",
-    "UpdatedAssociateId": 700,
+    "Config": "adipisci",
+    "CustLangId": 453,
+    "Registered": "1997-10-17T16:00:40.5081328+02:00",
+    "RegisteredAssociateId": 908,
+    "Updated": "2022-07-30T16:00:40.5081328+02:00",
+    "UpdatedAssociateId": 5,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldLength": 619
       }
     }
   }

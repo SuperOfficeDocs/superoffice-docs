@@ -1,17 +1,11 @@
 ---
 uid: filtergroups
 title: filtergroups
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "filtergroups"
+keywords: mdoprovider mdo provider filtergroups
+description: User groups, filtered according to the usergroups selected in the filter dialog.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "filtergroups" MDO List

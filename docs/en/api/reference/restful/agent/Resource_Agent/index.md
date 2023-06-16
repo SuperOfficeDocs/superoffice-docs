@@ -1,5 +1,6 @@
 ---
 title: Resource_Agent
+generated: true
 ---
 
 ```http

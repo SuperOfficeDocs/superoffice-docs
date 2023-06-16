@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetListItemsForUserGroup
 uid: v1ListAgent_GetListItemsForUserGroup
+generated: true
 ---
 
 # POST Agents/List/GetListItemsForUserGroup
@@ -91,8 +92,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 557,
-  "GroupId": 15
+  "UdListDefinitionId": 278,
+  "GroupId": 74
 }
 ```
 
@@ -104,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 206,
-    "Name": "Connelly-Medhurst",
-    "ToolTip": "Harum aliquam omnis expedita.",
+    "Id": 309,
+    "Name": "Labadie, Herman and Medhurst",
+    "ToolTip": "Aut suscipit illo nostrum aut ea voluptate.",
     "Deleted": false,
-    "Rank": 531,
-    "Type": "repellendus",
-    "ColorBlock": 640,
-    "IconHint": "dolorem",
+    "Rank": 147,
+    "Type": "dolorum",
+    "ColorBlock": 865,
+    "IconHint": "ducimus",
     "Selected": true,
-    "LastChanged": "2000-12-31T03:51:27.4279277+01:00",
+    "LastChanged": "2003-04-29T16:00:41.1487084+02:00",
     "ChildItems": [
       {
-        "Id": 73,
-        "Name": "Roberts LLC",
-        "ToolTip": "Minima velit expedita incidunt dolores dolor autem reiciendis.",
-        "Deleted": false,
-        "Rank": 738,
-        "Type": "cupiditate",
-        "ColorBlock": 452,
-        "IconHint": "praesentium",
+        "Id": 467,
+        "Name": "Funk Inc and Sons",
+        "ToolTip": "Quisquam aut dolores aspernatur in ut velit magni.",
+        "Deleted": true,
+        "Rank": 789,
+        "Type": "velit",
+        "ColorBlock": 491,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2022-05-07T03:51:27.4279277+02:00",
+        "LastChanged": "2003-04-02T16:00:41.1487084+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Blanche Bahringer",
+        "ExtraInfo": "itaque",
+        "StyleHint": "modi",
+        "Hidden": true,
+        "FullName": "Shayne Volkman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 317
+            "FieldType": "System.Int32",
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "perferendis",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "cumque",
     "Hidden": false,
-    "FullName": "Alvina Lesch",
+    "FullName": "Aletha Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldLength": 884
       }
     }
   }

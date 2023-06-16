@@ -1,6 +1,7 @@
 ---
 title: POST Agents/MDO/GetListWithRestriction
 uid: v1MDOAgent_GetListWithRestriction
+generated: true
 ---
 
 # POST Agents/MDO/GetListWithRestriction
@@ -85,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bashirian, Rohan and Raynor",
-  "AdditionalInfo": "dolor",
-  "SearchValue": "sit"
+  "Name": "Howell Group",
+  "AdditionalInfo": "est",
+  "SearchValue": "sed"
 }
 ```
 
@@ -103,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Collier, Jast and Greenholt",
-    "ToolTip": "Ipsum dolorem consequuntur reprehenderit.",
-    "Deleted": true,
-    "Rank": 223,
-    "Type": "maxime",
+    "Id": 167,
+    "Name": "Walter Inc and Sons",
+    "ToolTip": "Explicabo quaerat est incidunt.",
+    "Deleted": false,
+    "Rank": 612,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 875,
-        "Name": "Koelpin, Romaguera and Kub",
-        "ToolTip": "Sunt at laboriosam soluta aut iusto voluptas.",
-        "Deleted": false,
-        "Rank": 329,
-        "Type": "dolor",
+        "Id": 435,
+        "Name": "Dickinson-Bartell",
+        "ToolTip": "Dolorum nisi.",
+        "Deleted": true,
+        "Rank": 661,
+        "Type": "debitis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 509,
-        "ExtraInfo": "iste",
-        "StyleHint": "minus",
-        "FullName": "Velva Bashirian",
+        "IconHint": "dignissimos",
+        "ColorBlock": 692,
+        "ExtraInfo": "beatae",
+        "StyleHint": "occaecati",
+        "FullName": "Margarett Kirlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 683
+            "FieldLength": 972
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 874,
+    "IconHint": "est",
+    "ColorBlock": 481,
     "ExtraInfo": "aut",
-    "StyleHint": "corrupti",
-    "FullName": "Lela Wunsch",
+    "StyleHint": "iste",
+    "FullName": "Prudence Hansen IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldType": "System.String",
+        "FieldLength": 689
       }
     }
   }

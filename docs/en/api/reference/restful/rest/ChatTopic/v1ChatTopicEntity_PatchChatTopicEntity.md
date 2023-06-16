@@ -1,6 +1,7 @@
 ---
 title: PATCH ChatTopic/{id}
 uid: v1ChatTopicEntity_PatchChatTopicEntity
+generated: true
 ---
 
 # PATCH ChatTopic/{id}
@@ -137,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "neque",
+    "path": "blanditiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "neque",
+    "path": "blanditiis",
     "value": {}
   }
 ]
@@ -161,43 +162,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 731,
-  "Name": "Quitzon-Schulist",
-  "Description": "Sharable actuating array",
-  "WelcomeMessage": "enim",
+  "ChatTopicId": 774,
+  "Name": "Kutch-Roberts",
+  "Description": "Digitized discrete core",
+  "WelcomeMessage": "dolor",
   "Language": null,
-  "LastAccept": "2010-10-29T03:51:33.2398098+02:00",
-  "SecondsPrAccept": 718,
-  "AlertRecipient": "repellat",
+  "LastAccept": "2000-02-14T16:00:47.6803565+01:00",
+  "SecondsPrAccept": 741,
+  "AlertRecipient": "voluptatem",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "sed",
+  "BadgeHeader": "temporibus",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "maiores",
-  "WarnNewChatMinutes": 194,
-  "WarnManagerNewChatMinutes": 423,
-  "TicketEnabled": false,
+  "CustomQueueText": "ratione",
+  "WarnNewChatMinutes": 501,
+  "WarnManagerNewChatMinutes": 393,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 665,
-  "WarnManagerChatMessageMinutes": 133,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 329,
+  "WarnManagerChatMessageMinutes": 312,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 775,
-  "OfflineFormQueueLength": 88,
+  "OfflineFormTimeLimit": 408,
+  "OfflineFormQueueLength": 752,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "dolorem",
+  "WidgetRatingText": "illo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldType": "System.Int32",
+      "FieldLength": 961
     }
   },
   "_Links": {

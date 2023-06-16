@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/DeleteEmails
 uid: v1EMailAgent_DeleteEmails
+generated: true
 ---
 
 # POST Agents/EMail/DeleteEmails
@@ -66,15 +67,15 @@ No Content
 POST /api/v1/Agents/EMail/DeleteEmails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    739,
-    978
+    579,
+    872
   ],
-  "MoveToFolder": "beatae"
+  "MoveToFolder": "magnam"
 }
 ```
 

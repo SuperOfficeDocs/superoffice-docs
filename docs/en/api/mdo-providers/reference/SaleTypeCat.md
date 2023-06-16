@@ -1,17 +1,11 @@
 ---
 uid: saletypecat
 title: saletypecat
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "saletypecat"
+keywords: mdoprovider mdo provider saletypecat
+description: GenericMDOProvider reads MDO lists with default settings
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "saletypecat" MDO List

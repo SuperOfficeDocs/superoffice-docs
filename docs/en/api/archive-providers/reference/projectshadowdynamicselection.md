@@ -2,17 +2,10 @@
 uid: ProjectShadowDynamicSelection
 title: ProjectShadowDynamicSelection
 description: Shadow contact provider for the dynamic Project provider.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ProjectShadowDynamicSelection"
+keywords: ProjectShadowDynamicSelection archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ProjectShadowDynamicSelection"
@@ -128,6 +121,10 @@ Shadow contact provider for the dynamic Project provider.
 |saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -228,6 +225,10 @@ Shadow contact provider for the dynamic Project provider.
 |appointment/type|listAny|Type: Displays the type of an activity| x |
 |appointment/recordType|string|Record type : Shows the record type| x |
 |appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |appointment/contactId|listAny|Company ID: Database ID of company| x |
 |appointment/personId|listAny|Contact ID: Database ID of the contact row| x |
@@ -328,6 +329,10 @@ Shadow contact provider for the dynamic Project provider.
 |document/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |document/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |document/documentId|int|Document ID: Database ID of document record| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |document/keywords|string|Keywords | x |
 |document/ourref|string|Our ref.| x |
 |document/yourref|string|Your ref.| x |
@@ -428,6 +433,10 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |projectMember/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |projectMember/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |projectMember/personAssociateId|associate|Our contact: Displays our contact| x |
 |projectMember/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
@@ -528,6 +537,10 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |projectMember/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |projectMember/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/personAssociate/associateDbId|associate|ID| x |
 |projectMember/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -628,6 +641,10 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/contactEmail/emailLastBounce|datetime|Company - Last bounce: Date and time for last bounce to this e-mail address| x |
 |projectMember/contactEmail/emailHasBounced|bool|Company - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |projectMember/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
 |projectMember/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
 |projectMember/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
@@ -728,6 +745,10 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/LastCompletedSale|date|Date of last completed sale|  |
 |projectMember/LastDoBySale|date|Date of last non-completed sale|  |
 |projectMember/NumberOfTickets|int|Number of requests|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |projectMember/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
 |projectMember/NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
@@ -749,7 +770,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelection?$select=sale/projectId,appointment/appointmentPublish/publishedBy,document/updatedDate,document/associate/assocType,document/documentUdef/SuperOffice:5
+GET /api/v1/archive/ProjectShadowDynamicSelection?$select=saintActivityType,sale/saleUdef/SuperOffice:3,projectMember/correspondingAssociate/ejDisplayName,projectMember/NumberOfTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

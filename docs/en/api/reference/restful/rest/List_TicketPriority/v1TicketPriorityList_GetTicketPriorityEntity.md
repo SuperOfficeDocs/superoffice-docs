@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketPriority/Items/{id}
 uid: v1TicketPriorityList_GetTicketPriorityEntity
+generated: true
 ---
 
 # GET List/TicketPriority/Items/{id}
@@ -88,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 668,
-  "Name": "Stanton, Balistreri and Harris",
+  "TicketPriorityId": 356,
+  "Name": "Haley-Hegmann",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 146,
+  "SortOrder": 1001,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 685,
-  "MonStart": "2003-07-15T03:51:35.0051461+02:00",
-  "MonStop": "2020-02-06T03:51:35.0051461+01:00",
-  "TueStart": "2010-01-17T03:51:35.0051461+01:00",
-  "TueStop": "2015-12-13T03:51:35.0051461+01:00",
-  "WedStart": "1998-02-21T03:51:35.0051461+01:00",
-  "WedStop": "2002-08-13T03:51:35.0051461+02:00",
-  "ThuStart": "2003-04-08T03:51:35.0051461+02:00",
-  "ThuStop": "2023-02-16T03:51:35.0051461+01:00",
-  "FriStart": "2012-04-28T03:51:35.0051461+02:00",
-  "FriStop": "2012-02-14T03:51:35.0051461+01:00",
-  "SatStart": "2019-03-31T03:51:35.0051461+02:00",
-  "SatStop": "2018-12-07T03:51:35.0051461+01:00",
-  "SunStart": "1997-09-08T03:51:35.0051461+02:00",
-  "SunStop": "2011-01-17T03:51:35.0051461+01:00",
+  "Deadline": 249,
+  "MonStart": "2009-08-11T16:00:49.3990302+02:00",
+  "MonStop": "2000-12-22T16:00:49.3990302+01:00",
+  "TueStart": "2000-08-22T16:00:49.3990302+02:00",
+  "TueStop": "2013-03-23T16:00:49.3990302+01:00",
+  "WedStart": "1996-06-29T16:00:49.3990302+02:00",
+  "WedStop": "2005-08-15T16:00:49.3990302+02:00",
+  "ThuStart": "2015-07-06T16:00:49.3990302+02:00",
+  "ThuStop": "2017-07-06T16:00:49.3990302+02:00",
+  "FriStart": "2009-01-15T16:00:49.3990302+01:00",
+  "FriStop": "2002-01-30T16:00:49.3990302+01:00",
+  "SatStart": "1999-06-30T16:00:49.3990302+02:00",
+  "SatStop": "1996-06-12T16:00:49.3990302+02:00",
+  "SunStart": "2004-11-27T16:00:49.3990302+01:00",
+  "SunStop": "2008-10-26T16:00:49.3990302+01:00",
   "NonDates": [
-    "suscipit",
-    "doloribus"
+    "incidunt",
+    "facere"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 893,
-      "AlertLevel": 175,
-      "AlertTimeout": 107,
-      "Action": 345,
-      "DelegateTo": 616,
-      "ScriptId": 893,
-      "EmailTo": "ethyl@upton.ca",
-      "SmsTo": "omnis",
-      "ReplyTemplateIdCustomer": 76,
-      "ReplyTemplateIdUser": 80,
-      "ReplyTemplateIdCatmast": 761,
-      "ReplyTemplateIdEmail": 406,
-      "RtiCustomerSms": 689,
-      "ReplyTemplateIdUserSms": 689,
-      "ReplyTemplateIdCatmastSms": 392,
-      "ReplyTemplateIdSms": 785,
+      "TicketAlertId": 637,
+      "AlertLevel": 176,
+      "AlertTimeout": 589,
+      "Action": 723,
+      "DelegateTo": 721,
+      "ScriptId": 903,
+      "EmailTo": "alexandra_lehner@wilkinsonheidenreich.biz",
+      "SmsTo": "veritatis",
+      "ReplyTemplateIdCustomer": 551,
+      "ReplyTemplateIdUser": 467,
+      "ReplyTemplateIdCatmast": 760,
+      "ReplyTemplateIdEmail": 64,
+      "RtiCustomerSms": 221,
+      "ReplyTemplateIdUserSms": 438,
+      "ReplyTemplateIdCatmastSms": 23,
+      "ReplyTemplateIdSms": 326,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 871
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     }
@@ -161,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 199
     }
   }
 }

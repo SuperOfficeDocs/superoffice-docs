@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetCheckoutState
 uid: v1DocumentAgent_GetCheckoutState
+generated: true
 ---
 
 # POST Agents/Document/GetCheckoutState
@@ -72,11 +73,11 @@ OK
 POST /api/v1/Agents/Document/GetCheckoutState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 996
+  "DocumentId": 221
 }
 ```
 
@@ -88,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 611,
-  "Name": "Cummings Group"
+  "AssociateId": 88,
+  "Name": "Gusikowski Inc and Sons"
 }
 ```

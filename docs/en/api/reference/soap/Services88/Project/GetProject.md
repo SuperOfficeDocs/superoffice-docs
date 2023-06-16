@@ -1,6 +1,6 @@
 ---
 title: Services88.ProjectAgent.GetProject SOAP
-generated: 1
+generated: true
 uid: Services88-Project-GetProject
 ---
 
@@ -71,12 +71,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:AssociateId xsi:type="xsd:int">0</Project:AssociateId>
     <Project:AssociateFullName xsi:type="xsd:string"></Project:AssociateFullName>
     <Project:TypeId xsi:type="xsd:int">0</Project:TypeId>
-    <Project:Updated xsi:type="xsd:dateTime">2023-05-25T11:09:45Z</Project:Updated>
+    <Project:Updated xsi:type="xsd:dateTime">2023-06-09T13:59:46Z</Project:Updated>
     <Project:StatusId xsi:type="xsd:int">0</Project:StatusId>
     <Project:Status xsi:type="xsd:string"></Project:Status>
     <Project:TextId xsi:type="xsd:int">0</Project:TextId>
-    <Project:PublishTo xsi:type="xsd:dateTime">2023-05-25T11:09:45Z</Project:PublishTo>
-    <Project:PublishFrom xsi:type="xsd:dateTime">2023-05-25T11:09:45Z</Project:PublishFrom>
+    <Project:PublishTo xsi:type="xsd:dateTime">2023-06-09T13:59:46Z</Project:PublishTo>
+    <Project:PublishFrom xsi:type="xsd:dateTime">2023-06-09T13:59:46Z</Project:PublishFrom>
     <Project:IsPublished xsi:type="xsd:boolean">false</Project:IsPublished>
     <Project:URLName xsi:type="xsd:string"></Project:URLName>
     <Project:ProjectNumber xsi:type="xsd:string"></Project:ProjectNumber>

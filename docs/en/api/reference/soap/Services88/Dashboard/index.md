@@ -1,7 +1,7 @@
 ---
 title: Services88.DashboardAgent SOAP
 uid: Services88-Dashboard-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Dashboard SOAP

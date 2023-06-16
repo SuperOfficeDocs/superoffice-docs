@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetDocumentLength
 uid: v1DocumentAgent_GetDocumentLength
+generated: true
 ---
 
 # POST Agents/Document/GetDocumentLength
@@ -68,12 +69,12 @@ OK
 POST /api/v1/Agents/Document/GetDocumentLength
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 405,
-  "VersionId": "omnis"
+  "DocumentId": 250,
+  "VersionId": "debitis"
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: DEL User/{userName}
 uid: v1User_DeleteUserFromName
+generated: true
 ---
 
 # DEL User/{userName}

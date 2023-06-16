@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/GetFormSubmissionsCount
 uid: v1MarketingAgent_GetFormSubmissionsCount
+generated: true
 ---
 
 # POST Agents/Marketing/GetFormSubmissionsCount
@@ -74,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 569,
+  "FormId": 283,
   "Status": "EmailVerification"
 }
 ```
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-105
+148
 ```

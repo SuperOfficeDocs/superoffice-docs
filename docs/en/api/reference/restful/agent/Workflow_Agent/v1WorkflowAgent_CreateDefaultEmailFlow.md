@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/CreateDefaultEmailFlow
 uid: v1WorkflowAgent_CreateDefaultEmailFlow
+generated: true
 ---
 
 # POST Agents/Workflow/CreateDefaultEmailFlow
@@ -50,9 +51,6 @@ OK
 | Name | string | Name of the workflow |
 | Description | string | Description of the workflow |
 | Status | string | Status of the workflow definition |
-| VisibleForAll | bool | True if visible for all |
-| VisibleForAssociates | array | Array of references to the visible for associates |
-| VisibleForGroups | array | Array of references to the visible for groups |
 | JumpToFinish | bool | When a goal is reached, contact jumps directly to finished |
 | StartOnlyOnce | bool | A contact can start this flow only once |
 | OverrideConsentSubscription | bool | Override consent and subscription |
@@ -68,12 +66,12 @@ OK
 | GaCampaign | string | GA Campaign |
 | UseTimeframe | bool | Use sender timeframe settings, only send email/sms within the timeframe |
 | SelectedDays | string | Selected days (flags, so several days can be selected) for time frame |
-| TimeframeStart | date-time | Start of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used |
-| TimeframeEnd | date-time | End of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used |
+| TimeframeStart | date-time | Start of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used  in UTC. |
+| TimeframeEnd | date-time | End of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used  in UTC. |
 | UseWorkflowStart | bool | Start the flow running with enrolled participants at the given time |
-| WorkflowStart | date-time | When to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. Datetime is interpreted in stored timezone or as UTC |
+| WorkflowStart | date-time | When to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. Datetime is interpreted in stored timezone or as UTC  in UTC. |
 | UseEnrollmentEnd | bool | End enrollment into the workflow at the given time |
-| EnrollmentEnd | date-time | Do not enroll more participant after given time, interpreted in stored timezone or as UTC |
+| EnrollmentEnd | date-time | Do not enroll more participant after given time, interpreted in stored timezone or as UTC  in UTC. |
 | RemoveFromFlows | array | Workflows to remove the participants from when they are enrolled in this workflow |
 | TzLocation | TimeZoneData | The workflow timezone setting |
 | Folder | HierarchyEntity | The folder/hierarchy the email flow is in.  <para>Use MDO List name "hierarchy" to get list items.</para> |
@@ -84,6 +82,7 @@ OK
 | Goals | array | The goals for the workflow. |
 | Filter | WorkflowFilter | The filter for the workflow. |
 | BlockLists | array | Persons in the given selections are not allowed to enter this workflow |
+| VisibleFor | array | The set of users or groups the record is visible for |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -93,7 +92,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,43 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 82,
-  "Name": "Gislason Group",
-  "Description": "Right-sized leading edge success",
+  "EmailFlowId": 863,
+  "Name": "Haag Group",
+  "Description": "Expanded non-volatile database",
   "Status": "None",
-  "VisibleForAll": true,
-  "VisibleForAssociates": [
-    941,
-    102
-  ],
-  "VisibleForGroups": [
-    645,
-    222
-  ],
   "JumpToFinish": false,
-  "StartOnlyOnce": false,
+  "StartOnlyOnce": true,
   "OverrideConsentSubscription": false,
   "FromType": "FromOnlySpecified",
-  "FromName": "Raynor LLC",
-  "FromAddr": "et",
+  "FromName": "Bashirian Inc and Sons",
+  "FromAddr": "dolores",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "ratione",
-  "ReplyToName": "Langosh Group",
-  "SmsSender": "praesentium",
-  "UseGoogleAnalytics": false,
-  "GaSource": "optio",
-  "GaCampaign": "pariatur",
-  "UseTimeframe": true,
+  "ReplyToAddr": "accusamus",
+  "ReplyToName": "Cormier, Buckridge and O'Reilly",
+  "SmsSender": "itaque",
+  "UseGoogleAnalytics": true,
+  "GaSource": "quidem",
+  "GaCampaign": "at",
+  "UseTimeframe": false,
   "SelectedDays": "Friday",
-  "TimeframeStart": "2010-03-10T03:51:28.5682842+01:00",
-  "TimeframeEnd": "2001-11-05T03:51:28.5682842+01:00",
-  "UseWorkflowStart": false,
-  "WorkflowStart": "2001-04-22T03:51:28.5682842+02:00",
-  "UseEnrollmentEnd": true,
-  "EnrollmentEnd": "2005-01-04T03:51:28.5682842+01:00",
+  "TimeframeStart": "2018-04-05T16:00:42.4143588+02:00",
+  "TimeframeEnd": "2005-07-10T16:00:42.4143588+02:00",
+  "UseWorkflowStart": true,
+  "WorkflowStart": "2021-12-17T16:00:42.4143588+01:00",
+  "UseEnrollmentEnd": false,
+  "EnrollmentEnd": "2022-04-19T16:00:42.4143588+02:00",
   "RemoveFromFlows": [
-    727,
-    728
+    75,
+    903
   ],
   "TzLocation": null,
   "Folder": null,
@@ -147,22 +137,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 973,
-      "WorkflowId": 833,
+      "WorkflowStepId": 391,
+      "WorkflowId": 752,
       "StepType": "AddToList",
-      "Rank": 167
+      "Rank": 589
     },
     {
-      "WorkflowStepId": 973,
-      "WorkflowId": 833,
+      "WorkflowStepId": 391,
+      "WorkflowId": 752,
       "StepType": "AddToList",
-      "Rank": 167
+      "Rank": 589
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 506,
-      "WorkflowId": 804,
+      "WorkflowTriggerId": 174,
+      "WorkflowId": 107,
       "TriggerType": "AddToList",
       "RestrictionGroups": [
         {},
@@ -172,14 +162,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 35
+          "FieldType": "System.Int32",
+          "FieldLength": 335
         }
       }
     },
     {
-      "WorkflowTriggerId": 506,
-      "WorkflowId": 804,
+      "WorkflowTriggerId": 174,
+      "WorkflowId": 107,
       "TriggerType": "AddToList",
       "RestrictionGroups": [
         {},
@@ -189,16 +179,16 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 35
+          "FieldType": "System.Int32",
+          "FieldLength": 335
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 915,
-      "WorkflowId": 679,
+      "WorkflowGoalId": 62,
+      "WorkflowId": 769,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -209,13 +199,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 804
+          "FieldLength": 568
         }
       }
     },
     {
-      "WorkflowGoalId": 915,
-      "WorkflowId": 679,
+      "WorkflowGoalId": 62,
+      "WorkflowId": 769,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -226,22 +216,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 804
+          "FieldLength": 568
         }
       }
     }
   ],
   "Filter": null,
   "BlockLists": [
-    511,
-    831
+    331,
+    358
+  ],
+  "VisibleFor": [
+    {
+      "VisibleId": 660,
+      "Visibility": "All",
+      "DisplayValue": "voluptates",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 739
+        }
+      }
+    },
+    {
+      "VisibleId": 660,
+      "Visibility": "All",
+      "DisplayValue": "voluptates",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 739
+        }
+      }
+    }
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 73
     }
   }
 }

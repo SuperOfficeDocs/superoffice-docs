@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/RestoreConnection
 uid: v1QuoteAgent_RestoreConnection
+generated: true
 ---
 
 # POST Agents/Quote/RestoreConnection
@@ -63,11 +64,11 @@ No Content
 POST /api/v1/Agents/Quote/RestoreConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 152
+  "QuoteConnectionId": 587
 }
 ```
 

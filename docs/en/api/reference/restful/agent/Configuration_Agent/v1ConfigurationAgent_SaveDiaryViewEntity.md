@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/SaveDiaryViewEntity
 uid: v1ConfigurationAgent_SaveDiaryViewEntity
+generated: true
 ---
 
 # POST Agents/Configuration/SaveDiaryViewEntity
@@ -76,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 379,
-  "Name": "Greenfelder-Hickle",
-  "Tooltip": "quia",
-  "VisibleColumns": 984,
-  "Rank": 115,
-  "AssocId": 954,
+  "DiaryViewId": 492,
+  "Name": "Blick-Considine",
+  "Tooltip": "ad",
+  "VisibleColumns": 31,
+  "Rank": 437,
+  "AssocId": 255,
   "AssociateList": [
     {
-      "Id": 695,
-      "Name": "Koepp, Stracke and Deckow",
-      "ToolTip": "Atque voluptas alias dolore.",
-      "Deleted": false,
-      "Rank": 786,
-      "Type": "molestiae",
-      "ColorBlock": 537,
-      "IconHint": "voluptas",
-      "Selected": false,
-      "LastChanged": "2019-07-06T03:51:26.7718335+02:00",
+      "Id": 220,
+      "Name": "Walsh, Miller and Schmidt",
+      "ToolTip": "Qui et incidunt recusandae.",
+      "Deleted": true,
+      "Rank": 980,
+      "Type": "asperiores",
+      "ColorBlock": 315,
+      "IconHint": "eaque",
+      "Selected": true,
+      "LastChanged": "1999-03-31T16:00:40.2894057+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "tempore",
-      "Hidden": false,
-      "FullName": "Miss Shanie Pagac DDS"
+      "ExtraInfo": "saepe",
+      "StyleHint": "qui",
+      "Hidden": true,
+      "FullName": "Hope VonRueden MD"
     }
   ],
-  "TzLocationId": 319
+  "TzLocationId": 640
 }
 ```
 
@@ -119,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 721,
-  "Name": "Langosh, Stracke and Osinski",
-  "Tooltip": "corporis",
-  "VisibleColumns": 624,
-  "Rank": 908,
-  "AssocId": 399,
+  "DiaryViewId": 416,
+  "Name": "Bauch, Cartwright and Rogahn",
+  "Tooltip": "omnis",
+  "VisibleColumns": 56,
+  "Rank": 839,
+  "AssocId": 994,
   "AssociateList": [
     {
-      "Id": 884,
-      "Name": "Oberbrunner LLC",
-      "ToolTip": "Suscipit est temporibus aperiam dolorem fugit.",
+      "Id": 117,
+      "Name": "Smith-Gerhold",
+      "ToolTip": "Minima ea labore voluptates.",
       "Deleted": false,
-      "Rank": 752,
-      "Type": "quis",
-      "ColorBlock": 951,
-      "IconHint": "a",
+      "Rank": 839,
+      "Type": "et",
+      "ColorBlock": 488,
+      "IconHint": "libero",
       "Selected": true,
-      "LastChanged": "2007-04-07T03:51:26.7718335+02:00",
+      "LastChanged": "2009-11-03T16:00:40.2894057+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "corporis",
-      "StyleHint": "asperiores",
-      "Hidden": false,
-      "FullName": "Alf Johns",
+      "ExtraInfo": "quia",
+      "StyleHint": "quos",
+      "Hidden": true,
+      "FullName": "Noemi Funk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 473
+          "FieldLength": 58
         }
       }
     }
   ],
-  "TzLocationId": 331,
+  "TzLocationId": 852,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 446
     }
   }
 }

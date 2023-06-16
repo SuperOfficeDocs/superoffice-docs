@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetRankOnProjectDocument
 uid: v1ListAgent_SetRankOnProjectDocument
+generated: true
 ---
 
 # POST Agents/List/SetRankOnProjectDocument
@@ -64,14 +65,14 @@ No Content
 POST /api/v1/Agents/List/SetRankOnProjectDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectTypeStatusLinkId": 791,
+  "ProjectTypeStatusLinkId": 328,
   "ItemsIds": [
-    873,
-    750
+    364,
+    513
   ]
 }
 ```

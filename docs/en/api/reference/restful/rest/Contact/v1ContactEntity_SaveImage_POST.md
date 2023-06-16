@@ -1,6 +1,7 @@
 ---
 title: POST Contact/{id}/Image
 uid: v1ContactEntity_SaveImage_POST
+generated: true
 ---
 
 # POST Contact/{id}/Image
@@ -61,7 +62,7 @@ The blob id for the image
 POST /api/v1/Contact/{contactId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,5 +71,5 @@ Accept-Language: sv
 HTTP/1.1 200 The blob id for the image
 Content-Type: application/json; charset=utf-8
 
-215
+105
 ```

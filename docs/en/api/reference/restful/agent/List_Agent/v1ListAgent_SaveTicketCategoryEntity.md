@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveTicketCategoryEntity
 uid: v1ListAgent_SaveTicketCategoryEntity
+generated: true
 ---
 
 # POST Agents/List/SaveTicketCategoryEntity
@@ -100,29 +101,29 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 760,
-  "ParentId": 418,
-  "Name": "Homenick, Crist and Adams",
-  "Fullname": "dolore",
-  "CategoryMaster": 130,
+  "TicketCategoryId": 945,
+  "ParentId": 832,
+  "Name": "Orn, Stiedemann and Abernathy",
+  "Fullname": "ex",
+  "CategoryMaster": 542,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schroeder-Turcotte",
+  "ExternalName": "Klocko, Koelpin and Lindgren",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 704,
-  "ReplyTemplate": 493,
-  "NotificationEmail": "jayson@glover.biz",
+  "AssignmentLag": 579,
+  "ReplyTemplate": 585,
+  "NotificationEmail": "hudson@pouros.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 384,
+  "EffectiveReplyTemplateId": 536,
   "ExtraFields": {
-    "ExtraFields1": "minus",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "porro",
+    "ExtraFields2": "ex"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "dolores"
+    "CustomFields1": "quae",
+    "CustomFields2": "sequi"
   }
 }
 ```
@@ -134,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 949,
-  "ParentId": 203,
-  "Name": "Bradtke LLC",
-  "Fullname": "ut",
-  "CategoryMaster": 552,
+  "TicketCategoryId": 757,
+  "ParentId": 400,
+  "Name": "Hoeger, Herman and Nitzsche",
+  "Fullname": "omnis",
+  "CategoryMaster": 900,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Gerhold-Batz",
+  "ExternalName": "Becker-Kuhn",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 956,
-  "ReplyTemplate": 934,
-  "NotificationEmail": "verlie.marvin@aufderhar.info",
+  "AssignmentLag": 799,
+  "ReplyTemplate": 607,
+  "NotificationEmail": "julian@quitzon.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 162,
+  "EffectiveReplyTemplateId": 164,
   "ExtraFields": {
-    "ExtraFields1": "sequi",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "atque"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "optio"
+    "CustomFields1": "est",
+    "CustomFields2": "fugit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldLength": 996
     }
   }
 }

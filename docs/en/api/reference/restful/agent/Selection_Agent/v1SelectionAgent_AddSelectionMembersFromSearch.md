@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/AddSelectionMembersFromSearch
 uid: v1SelectionAgent_AddSelectionMembersFromSearch
+generated: true
 ---
 
 # POST Agents/Selection/AddSelectionMembersFromSearch
@@ -68,12 +69,12 @@ OK
 POST /api/v1/Agents/Selection/AddSelectionMembersFromSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 55,
-  "StorageKey": "ea"
+  "SelectionId": 842,
+  "StorageKey": "repudiandae"
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-519
+468
 ```

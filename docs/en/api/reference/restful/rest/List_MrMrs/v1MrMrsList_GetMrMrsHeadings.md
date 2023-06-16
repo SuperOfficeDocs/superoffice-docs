@@ -1,6 +1,7 @@
 ---
 title: GET List/MrMrs/Headings
 uid: v1MrMrsList_GetMrMrsHeadings
+generated: true
 ---
 
 # GET List/MrMrs/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 876,
-    "Name": "Morissette, Waelchi and Hoppe",
-    "Tooltip": "nostrum",
-    "Deleted": false,
-    "Rank": 150,
-    "UdListDefinitionId": 894,
+    "HeadingId": 807,
+    "Name": "Schuster-Botsford",
+    "Tooltip": "voluptatum",
+    "Deleted": true,
+    "Rank": 126,
+    "UdListDefinitionId": 470,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 171
+        "FieldType": "System.Int32",
+        "FieldLength": 394
       }
     }
   }

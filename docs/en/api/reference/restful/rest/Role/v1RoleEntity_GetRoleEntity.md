@@ -1,6 +1,7 @@
 ---
 title: GET Role/{id}
 uid: v1RoleEntity_GetRoleEntity
+generated: true
 ---
 
 # GET Role/{id}
@@ -96,16 +97,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 719,
-  "Name": "Lockman Inc and Sons",
-  "Tooltip": "accusamus",
+  "RoleId": 328,
+  "Name": "Nikolaus, Runolfsdottir and Durgan",
+  "Tooltip": "facere",
   "RoleType": "Anonymous",
-  "Deleted": 578,
-  "Rank": 27,
-  "Created": "2015-01-04T03:51:33.8802911+01:00",
-  "UseCategories": 900,
+  "Deleted": 53,
+  "Rank": 844,
+  "Created": "2000-05-10T16:00:48.1959227+02:00",
+  "UseCategories": 297,
   "CreatedBy": null,
-  "Updated": "2004-02-26T03:51:33.8802911+01:00",
+  "Updated": "2005-10-10T16:00:48.1959227+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -113,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 524
     }
   },
   "_Links": {

@@ -1,6 +1,7 @@
 ---
 title: GET Role/{roleType}
 uid: v1RoleEntity_GetAllRoles
+generated: true
 ---
 
 # GET Role/{roleType}
@@ -88,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Collier Inc and Sons",
-    "ToolTip": "Qui et quam voluptate tempore.",
+    "Id": 658,
+    "Name": "Lueilwitz, Schroeder and Emmerich",
+    "ToolTip": "Sit dicta ut dolor ea suscipit et.",
     "Deleted": true,
-    "Rank": 232,
-    "Type": "ad",
-    "ColorBlock": 609,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2022-01-21T03:51:33.8802911+01:00",
+    "Rank": 853,
+    "Type": "molestiae",
+    "ColorBlock": 980,
+    "IconHint": "ea",
+    "Selected": true,
+    "LastChanged": "2003-09-13T16:00:48.1959227+02:00",
     "ChildItems": [
       {
-        "Id": 642,
-        "Name": "Abshire, Schimmel and Murray",
-        "ToolTip": "Ea est molestiae consequatur.",
+        "Id": 78,
+        "Name": "Koch Inc and Sons",
+        "ToolTip": "Voluptatibus voluptatem dolorem et voluptatem magni.",
         "Deleted": false,
-        "Rank": 937,
-        "Type": "voluptatem",
-        "ColorBlock": 906,
-        "IconHint": "illo",
+        "Rank": 990,
+        "Type": "est",
+        "ColorBlock": 998,
+        "IconHint": "quibusdam",
         "Selected": true,
-        "LastChanged": "2019-11-23T03:51:33.8802911+01:00",
+        "LastChanged": "2014-04-19T16:00:48.1959227+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "non",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "dicta",
         "Hidden": false,
-        "FullName": "Mrs. Rico Hills MD",
+        "FullName": "Doris Stanton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 618
+            "FieldLength": 240
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Nicolas Corkery",
+    "ExtraInfo": "nihil",
+    "StyleHint": "quibusdam",
+    "Hidden": false,
+    "FullName": "Cristopher Savanna Ledner V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 781
+        "FieldLength": 486
       }
     }
   }

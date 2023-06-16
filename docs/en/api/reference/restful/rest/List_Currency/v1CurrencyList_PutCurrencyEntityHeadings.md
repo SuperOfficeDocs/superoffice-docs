@@ -1,6 +1,7 @@
 ---
 title: PUT List/Currency/Headings
 uid: v1CurrencyList_PutCurrencyEntityHeadings
+generated: true
 ---
 
 # PUT List/Currency/Headings
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 620,
-    "Name": "Anderson Group",
-    "Tooltip": "quod",
-    "Deleted": true,
-    "Rank": 448,
-    "UdListDefinitionId": 785
+    "HeadingId": 379,
+    "Name": "Rau, Bartoletti and Ortiz",
+    "Tooltip": "hic",
+    "Deleted": false,
+    "Rank": 270,
+    "UdListDefinitionId": 916
   },
   {
-    "HeadingId": 620,
-    "Name": "Anderson Group",
-    "Tooltip": "quod",
-    "Deleted": true,
-    "Rank": 448,
-    "UdListDefinitionId": 785
+    "HeadingId": 379,
+    "Name": "Rau, Bartoletti and Ortiz",
+    "Tooltip": "hic",
+    "Deleted": false,
+    "Rank": 270,
+    "UdListDefinitionId": 916
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 904,
-    "Name": "Frami-Shields",
-    "Tooltip": "dolore",
+    "HeadingId": 701,
+    "Name": "Swaniawski, Becker and Kuvalis",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 837,
-    "UdListDefinitionId": 814,
+    "Rank": 52,
+    "UdListDefinitionId": 557,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldLength": 734
       }
     }
   }

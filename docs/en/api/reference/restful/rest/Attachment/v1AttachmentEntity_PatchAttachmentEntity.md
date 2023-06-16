@@ -1,6 +1,7 @@
 ---
 title: PATCH Attachment/{id}
 uid: v1AttachmentEntity_PatchAttachmentEntity
+generated: true
 ---
 
 # PATCH Attachment/{id}
@@ -113,18 +114,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "recusandae",
+    "path": "distinctio",
     "value": {}
   },
   {
     "op": "add",
-    "path": "recusandae",
+    "path": "distinctio",
     "value": {}
   }
 ]
@@ -137,24 +138,24 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 185,
-  "Name": "Schuster LLC",
-  "ContentType": "adipisci",
-  "AttSize": 965,
+  "AttachmentId": 528,
+  "Name": "Cartwright, Grimes and O'Connell",
+  "ContentType": "voluptatum",
+  "AttSize": 106,
   "InlineImage": false,
-  "ContentId": "inventore",
-  "AuthKey": "quis",
+  "ContentId": "ea",
+  "AuthKey": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 362
+      "FieldLength": 247
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

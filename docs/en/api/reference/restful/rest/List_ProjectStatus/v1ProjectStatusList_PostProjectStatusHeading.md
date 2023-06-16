@@ -1,6 +1,7 @@
 ---
 title: POST List/ProjectStatus/Headings
 uid: v1ProjectStatusList_PostProjectStatusHeading
+generated: true
 ---
 
 # POST List/ProjectStatus/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 3,
-  "Name": "Williamson-Osinski",
-  "Tooltip": "asperiores",
+  "HeadingId": 741,
+  "Name": "Beatty-Hackett",
+  "Tooltip": "ex",
   "Deleted": false,
-  "Rank": 75,
-  "UdListDefinitionId": 767
+  "Rank": 440,
+  "UdListDefinitionId": 695
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 681,
-  "Name": "Reichel Group",
-  "Tooltip": "praesentium",
-  "Deleted": false,
-  "Rank": 430,
-  "UdListDefinitionId": 651,
+  "HeadingId": 730,
+  "Name": "Jast, Altenwerth and Barrows",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 497,
+  "UdListDefinitionId": 1000,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldLength": 237
     }
   }
 }

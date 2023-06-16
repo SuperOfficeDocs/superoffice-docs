@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.GetReasonList SOAP
-generated: 1
+generated: true
 uid: Services88-List-GetReasonList
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: GET Sale/{id}
 uid: v1SaleEntity_GetSaleEntity
+generated: true
 ---
 
 # GET Sale/{id}
@@ -118,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +127,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 09 Jan 2022 03:51:33 G1T
+Last-Modified: Thu, 29 Apr 2004 16:00:48 G4T
 
 {
   "Appointment": null,
@@ -135,7 +136,7 @@ Last-Modified: Sun, 09 Jan 2022 03:51:33 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quos",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -144,113 +145,113 @@ Last-Modified: Sun, 09 Jan 2022 03:51:33 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-12-14T03:51:33.9271534+01:00",
-  "Amount": 6719.2959999999994,
-  "SaleId": 297,
-  "Earning": 4845.164,
-  "EarningPercent": 12542.268,
-  "Heading": "ratione",
-  "Number": "1096230",
-  "Probability": 499,
-  "CreatedDate": "1997-11-21T03:51:33.9271534+01:00",
-  "UpdatedDate": "2022-01-09T03:51:33.9271534+01:00",
+  "Saledate": "2005-03-24T16:00:48.2584195+01:00",
+  "Amount": 22176.183999999997,
+  "SaleId": 378,
+  "Earning": 291.462,
+  "EarningPercent": 3149.67,
+  "Heading": "quia",
+  "Number": "823497",
+  "Probability": 523,
+  "CreatedDate": "2005-01-11T16:00:48.2584195+01:00",
+  "UpdatedDate": "2004-04-29T16:00:48.2584195+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 13,
+  "ActiveLinks": 650,
   "Links": [
     {
-      "EntityName": "Rolfson-Muller",
-      "Id": 557,
-      "Description": "Synergized encompassing info-mediaries",
-      "ExtraInfo": "numquam",
-      "LinkId": 117,
+      "EntityName": "Wilkinson, Schuppe and Koepp",
+      "Id": 237,
+      "Description": "Distributed interactive leverage",
+      "ExtraInfo": "sit",
+      "LinkId": 868,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldLength": 450
         }
       }
     }
   ],
-  "NextDueDate": "1996-02-03T03:51:33.9271534+01:00",
-  "Postit": "accusamus",
+  "NextDueDate": "2022-10-08T16:00:48.2584195+02:00",
+  "Postit": "suscipit",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-10-23T03:51:33.9271534+02:00",
+  "ReopenDate": "1997-10-02T16:00:48.2584195+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Lindgren LLC",
-      "Comment": "et",
-      "StakeholderRoleId": 615,
-      "CountryId": 105,
-      "PersonId": 706,
-      "EmailDescription": "vincenza.rath@terry.info",
-      "EmailId": 857,
-      "EmailAddress": "alicia@green.uk",
-      "PhoneId": 832,
-      "ContactName": "Hermiston-Rodriguez",
-      "ContactId": 69,
-      "SaleId": 207,
-      "Mrmrs": "officiis",
-      "Firstname": "Gillian",
-      "MiddleName": "Hagenes-Ankunding",
-      "Lastname": "Harris",
-      "SaleStakeholderId": 434,
-      "Rank": 761,
-      "Phone": "1-187-023-8446",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 417
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 157,
-  "UserDefinedFields": {
-    "SuperOffice:1": "1744514323",
-    "SuperOffice:2": "Christian Mohr"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "fugit",
-    "ExtraFields2": "aliquam"
-  },
-  "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "tenetur"
-  },
-  "PublishEventDate": "2016-11-04T03:51:33.9271534+01:00",
-  "PublishTo": "2012-07-29T03:51:33.9271534+02:00",
-  "PublishFrom": "1996-02-20T03:51:33.9271534+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 887,
-      "Visibility": "All",
-      "DisplayValue": "sed",
+      "StakeholderRoleName": "Windler, Reichel and Wilkinson",
+      "Comment": "est",
+      "StakeholderRoleId": 277,
+      "CountryId": 36,
+      "PersonId": 368,
+      "EmailDescription": "elmo.dickinson@hegmann.uk",
+      "EmailId": 95,
+      "EmailAddress": "neil_schiller@von.ca",
+      "PhoneId": 225,
+      "ContactName": "Wehner-Muller",
+      "ContactId": 25,
+      "SaleId": 983,
+      "Mrmrs": "quam",
+      "Firstname": "Sophie",
+      "MiddleName": "Bartoletti Group",
+      "Lastname": "Brekke",
+      "SaleStakeholderId": 978,
+      "Rank": 491,
+      "Phone": "385.882.9191 x06418",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldLength": 411
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 304,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Delaney Kutch",
+    "SuperOffice:2": "Mervin Bernier"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "ab",
+    "ExtraFields2": "voluptas"
+  },
+  "CustomFields": {
+    "CustomFields1": "maiores",
+    "CustomFields2": "delectus"
+  },
+  "PublishEventDate": "2007-04-29T16:00:48.2584195+02:00",
+  "PublishTo": "2019-07-14T16:00:48.2584195+02:00",
+  "PublishFrom": "1998-08-19T16:00:48.2584195+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 844,
+      "Visibility": "All",
+      "DisplayValue": "non",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 106
         }
       }
     },
     {
-      "VisibleId": 887,
+      "VisibleId": 844,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldLength": 106
         }
       }
     }
@@ -259,13 +260,13 @@ Last-Modified: Sun, 09 Jan 2022 03:51:33 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldType": "System.String",
+      "FieldLength": 796
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

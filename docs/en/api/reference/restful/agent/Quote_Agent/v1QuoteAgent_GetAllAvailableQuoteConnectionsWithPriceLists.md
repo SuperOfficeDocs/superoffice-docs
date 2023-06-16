@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 uid: v1QuoteAgent_GetAllAvailableQuoteConnectionsWithPriceLists
+generated: true
 ---
 
 # POST Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 297,
-    "ERPName": "Botsford, Jakubowski and Wehner",
-    "DisplayName": "Reinger Group",
-    "DisplayDescription": "Multi-channelled incremental function",
-    "Rank": 242,
-    "ConnectorName": "Padberg Group",
-    "ErpConnectionId": 927,
-    "ExtraData": "porro",
+    "QuoteConnectionId": 676,
+    "ERPName": "Kutch LLC",
+    "DisplayName": "Bahringer, Bogisich and Vandervort",
+    "DisplayDescription": "Synergized solution-oriented strategy",
+    "Rank": 135,
+    "ConnectorName": "Swaniawski-Barton",
+    "ErpConnectionId": 116,
+    "ExtraData": "dolorum",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 990,
-        "ERPPriceListKey": "inventore",
-        "QuoteConnectionId": 274,
-        "Name": "Shields-Osinski",
-        "Description": "Diverse mobile functionalities",
-        "Currency": "aspernatur",
-        "CurrencyName": "Hayes, Schaefer and Gerlach",
-        "ValidFrom": "2001-01-23T03:51:28.0059393+01:00",
-        "ValidTo": "2022-01-27T03:51:28.0059393+01:00",
+        "PriceListId": 302,
+        "ERPPriceListKey": "minima",
+        "QuoteConnectionId": 945,
+        "Name": "Schoen, Rempel and Schmitt",
+        "Description": "Business-focused static project",
+        "Currency": "optio",
+        "CurrencyName": "Marquardt-Schiller",
+        "ValidFrom": "2000-01-02T16:00:41.6488224+01:00",
+        "ValidTo": "2022-08-11T16:00:41.6488224+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 767
+            "FieldLength": 881
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      428,
-      628
+      907,
+      788
     ],
     "AssociateAccessIds": [
-      806,
-      506
+      786,
+      708
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 80
+        "FieldType": "System.Int32",
+        "FieldLength": 78
       }
     }
   }

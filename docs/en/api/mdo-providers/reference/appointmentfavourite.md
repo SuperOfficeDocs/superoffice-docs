@@ -1,17 +1,11 @@
 ---
 uid: appointmentfavourite
 title: appointmentfavourite
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "appointmentfavourite"
+keywords: mdoprovider mdo provider appointmentfavourite
+description: MDO list provider for Favourites
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "appointmentfavourite" MDO List

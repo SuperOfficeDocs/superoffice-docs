@@ -1,6 +1,7 @@
 ---
 title: PUT List/Credited
 uid: v1CreditedList_SetListDefinition
+generated: true
 ---
 
 # PUT List/Credited
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 444,
-  "Name": "Aufderhar LLC",
+  "Id": 431,
+  "Name": "Schumm Group",
   "Tooltip": "ratione",
-  "Deleted": true,
-  "Rank": 296,
+  "Deleted": false,
+  "Rank": 429,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "assumenda",
-  "InUseByUserDefinedFields": true
+  "ListType": "commodi",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 783,
-  "Name": "Feil, Langosh and Swift",
-  "Tooltip": "at",
+  "Id": 2,
+  "Name": "Green-Bartoletti",
+  "Tooltip": "atque",
   "Deleted": false,
-  "Rank": 986,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 369,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldLength": 630
     }
   }
 }

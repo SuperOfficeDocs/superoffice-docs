@@ -1,6 +1,7 @@
 ---
 title: GET String/KnownLanguages
 uid: v1String_GetKnownLanguages
+generated: true
 ---
 
 # GET String/KnownLanguages
@@ -59,7 +60,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "sed",
-  "quia"
+  "non",
+  "qui"
 ]
 ```

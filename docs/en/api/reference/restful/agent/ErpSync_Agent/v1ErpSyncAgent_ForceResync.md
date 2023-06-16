@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/ForceResync
 uid: v1ErpSyncAgent_ForceResync
+generated: true
 ---
 
 # POST Agents/ErpSync/ForceResync
@@ -80,14 +81,14 @@ OK
 POST /api/v1/Agents/ErpSync/ForceResync
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 147,
+  "ErpConnectionId": 70,
   "InternalKeyIds": [
-    8,
-    91
+    30,
+    394
   ]
 }
 ```
@@ -99,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "illum",
-  "TechExplanation": "laudantium",
-  "ErrorCode": "optio",
+  "IsOk": false,
+  "UserExplanation": "rerum",
+  "TechExplanation": "recusandae",
+  "ErrorCode": "non",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   }
 }

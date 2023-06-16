@@ -1,5 +1,6 @@
 ---
 title: BLOB_Agent
+generated: true
 ---
 
 ```http

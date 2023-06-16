@@ -1,6 +1,7 @@
 ---
 title: GET Selection/DuplicateRules
 uid: v1SelectionEntity_GetDuplicateRules
+generated: true
 ---
 
 # GET Selection/DuplicateRules
@@ -68,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rowe LLC",
-    "DisplayName": "Nicolas, Considine and Marvin",
-    "DisplayTooltip": "ab",
+    "Name": "Rippin LLC",
+    "DisplayName": "Herman, Haag and Roob",
+    "DisplayTooltip": "temporibus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 993
       }
     }
   },
   {
-    "Name": "Rowe LLC",
-    "DisplayName": "Nicolas, Considine and Marvin",
-    "DisplayTooltip": "ab",
+    "Name": "Rippin LLC",
+    "DisplayName": "Herman, Haag and Roob",
+    "DisplayTooltip": "temporibus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 993
       }
     }
   }

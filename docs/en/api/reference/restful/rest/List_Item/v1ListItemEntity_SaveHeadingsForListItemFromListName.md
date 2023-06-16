@@ -1,6 +1,7 @@
 ---
 title: PUT List/{udListDefinitionName}/Items/{id}/Headings
 uid: v1ListItemEntity_SaveHeadingsForListItemFromListName
+generated: true
 ---
 
 # PUT List/{udListDefinitionName}/Items/{id}/Headings
@@ -95,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "Schmeler-Connelly",
-    "ToolTip": "Quidem voluptatum recusandae maxime rerum dolorem impedit et.",
+    "Id": 190,
+    "Name": "Bogisich Group",
+    "ToolTip": "Quasi vitae architecto sint quia.",
     "Deleted": false,
-    "Rank": 945,
-    "Type": "architecto",
-    "ColorBlock": 627,
-    "IconHint": "qui",
+    "Rank": 58,
+    "Type": "reprehenderit",
+    "ColorBlock": 520,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2021-01-29T03:51:34.3646689+01:00",
+    "LastChanged": "2018-03-13T16:00:48.8521026+01:00",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Hilpert Inc and Sons",
-        "ToolTip": "Omnis minima doloribus nesciunt dolores.",
-        "Deleted": true,
-        "Rank": 898,
-        "Type": "eligendi",
-        "ColorBlock": 286,
-        "IconHint": "voluptatum",
-        "Selected": false,
-        "LastChanged": "2017-02-18T03:51:34.3646689+01:00",
+        "Id": 133,
+        "Name": "Feil-Wiegand",
+        "ToolTip": "Qui recusandae.",
+        "Deleted": false,
+        "Rank": 791,
+        "Type": "quis",
+        "ColorBlock": 85,
+        "IconHint": "iste",
+        "Selected": true,
+        "LastChanged": "2000-01-05T16:00:48.8521026+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "iusto",
+        "ExtraInfo": "illum",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Eileen Kihn"
+        "FullName": "Mabel Mosciski"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "dolore",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Jovan Dicki"
+    "FullName": "Trevor Gutmann"
   }
 ]
 ```
@@ -148,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Powlowski-Oberbrunner",
-    "ToolTip": "Quod optio.",
+    "Id": 835,
+    "Name": "Mitchell, Stehr and Kunde",
+    "ToolTip": "Odio cupiditate.",
     "Deleted": false,
-    "Rank": 239,
-    "Type": "qui",
-    "ColorBlock": 946,
-    "IconHint": "reprehenderit",
+    "Rank": 704,
+    "Type": "labore",
+    "ColorBlock": 358,
+    "IconHint": "dignissimos",
     "Selected": false,
-    "LastChanged": "2009-05-09T03:51:34.3646689+02:00",
+    "LastChanged": "1998-10-06T16:00:48.8521026+02:00",
     "ChildItems": [
       {
-        "Id": 626,
-        "Name": "Breitenberg-Boyle",
-        "ToolTip": "Nemo tenetur sint sint quod doloribus repellendus.",
+        "Id": 776,
+        "Name": "Harvey LLC",
+        "ToolTip": "Quas tempora.",
         "Deleted": false,
-        "Rank": 212,
-        "Type": "eligendi",
-        "ColorBlock": 198,
-        "IconHint": "non",
+        "Rank": 358,
+        "Type": "odit",
+        "ColorBlock": 310,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2021-07-28T03:51:34.3646689+02:00",
+        "LastChanged": "2014-11-27T16:00:48.8521026+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "molestias",
+        "ExtraInfo": "iste",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Prof. Adell Idell Casper Sr.",
+        "FullName": "Rahul Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 604
+            "FieldLength": 720
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "quae",
+    "ExtraInfo": "sit",
+    "StyleHint": "suscipit",
     "Hidden": false,
-    "FullName": "Summer Farrell",
+    "FullName": "Sim Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 412
       }
     }
   }

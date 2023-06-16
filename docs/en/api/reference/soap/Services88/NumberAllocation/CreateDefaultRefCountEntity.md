@@ -1,6 +1,6 @@
 ---
 title: Services88.NumberAllocationAgent.CreateDefaultRefCountEntity SOAP
-generated: 1
+generated: true
 uid: Services88-NumberAllocation-CreateDefaultRefCountEntity
 ---
 

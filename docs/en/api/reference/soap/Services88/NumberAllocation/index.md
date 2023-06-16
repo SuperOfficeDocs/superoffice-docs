@@ -1,7 +1,7 @@
 ---
 title: Services88.NumberAllocationAgent SOAP
 uid: Services88-NumberAllocation-soap
-generated: 1
+generated: true
 ---
 
 # Services88 NumberAllocation SOAP

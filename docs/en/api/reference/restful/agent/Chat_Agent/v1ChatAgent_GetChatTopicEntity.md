@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/GetChatTopicEntity
 uid: v1ChatAgent_GetChatTopicEntity
+generated: true
 ---
 
 # POST Agents/Chat/GetChatTopicEntity
@@ -25,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=80
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=179
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -96,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -106,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 762,
-  "Name": "Heaney, Walsh and Wintheiser",
-  "Description": "Automated mission-critical algorithm",
-  "WelcomeMessage": "qui",
+  "ChatTopicId": 571,
+  "Name": "Considine Group",
+  "Description": "Synergized discrete info-mediaries",
+  "WelcomeMessage": "optio",
   "Language": null,
-  "LastAccept": "2000-01-30T03:51:26.7562093+01:00",
-  "SecondsPrAccept": 346,
-  "AlertRecipient": "expedita",
+  "LastAccept": "2021-12-14T16:00:40.2581782+01:00",
+  "SecondsPrAccept": 918,
+  "AlertRecipient": "nostrum",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "molestiae",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "iusto",
-  "WarnNewChatMinutes": 554,
-  "WarnManagerNewChatMinutes": 844,
+  "BadgeHeader": "ut",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "placeat",
+  "WarnNewChatMinutes": 510,
+  "WarnManagerNewChatMinutes": 999,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 692,
-  "WarnManagerChatMessageMinutes": 765,
+  "WarnChatMessageMinutes": 271,
+  "WarnManagerChatMessageMinutes": 679,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 954,
-  "OfflineFormQueueLength": 399,
+  "OfflineFormTimeLimit": 465,
+  "OfflineFormQueueLength": 653,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "et",
+  "WidgetRatingText": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 563
+      "FieldLength": 889
     }
   }
 }

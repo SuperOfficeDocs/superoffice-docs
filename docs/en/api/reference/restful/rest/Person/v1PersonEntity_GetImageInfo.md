@@ -1,6 +1,7 @@
 ---
 title: GET Person/{id}/ImageInfo
 uid: v1PersonEntity_GetImageInfo
+generated: true
 ---
 
 # GET Person/{id}/ImageInfo
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 26 Aug 2011 03:51:33 G8T
+Last-Modified: Sun, 26 Mar 2006 16:00:48 G3T
 
 {
-  "BlobId": 883,
-  "BlobSize": 862,
-  "Description": "Configurable non-volatile leverage",
-  "ExtraInfo": "quisquam",
+  "BlobId": 514,
+  "BlobSize": 144,
+  "Description": "Organic high-level Graphic Interface",
+  "ExtraInfo": "nam",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "debitis",
-  "OriginalSize": 441,
-  "CreatedDate": "1997-07-16T03:51:33.802183+02:00",
-  "UpdatedDate": "2011-08-26T03:51:33.802183+02:00",
+  "MimeType": "eum",
+  "OriginalSize": 278,
+  "CreatedDate": "1996-05-21T16:00:48.1178151+02:00",
+  "UpdatedDate": "2006-03-26T16:00:48.1178151+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "occaecati",
+  "ConceptualType": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldLength": 379
     }
   }
 }

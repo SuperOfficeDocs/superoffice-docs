@@ -1,5 +1,5 @@
 ---
-generated: 1
+generated: true
 uid: wsdl-Services88-License
 title: Services88.LicenseAgent WSDL
 ---

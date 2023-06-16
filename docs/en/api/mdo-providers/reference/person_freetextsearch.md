@@ -1,17 +1,13 @@
 ---
 uid: person_freetextsearch
 title: person_freetextsearch
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "person_freetextsearch"
+keywords: mdoprovider mdo provider person_freetextsearch
+description: Provider for selecting a Person - without contact search.
+Does keyword matching and scoring across multiple
+tables using freetext index.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "person_freetextsearch" MDO List

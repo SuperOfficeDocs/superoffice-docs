@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/SaveBlobEntity
 uid: v1BLOBAgent_SaveBlobEntity
+generated: true
 ---
 
 # POST Agents/BLOB/SaveBlobEntity
@@ -90,16 +91,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 975,
-  "BlobSize": 805,
-  "Description": "Centralized optimal implementation",
-  "ExtraInfo": "quod",
+  "BlobId": 602,
+  "BlobSize": 129,
+  "Description": "Proactive asynchronous hierarchy",
+  "ExtraInfo": "ipsa",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "consequatur",
-  "OriginalSize": 605,
-  "CreatedDate": "2008-12-08T03:51:26.6156255+01:00",
-  "UpdatedDate": "2015-02-09T03:51:26.6156255+01:00",
+  "IsZipped": true,
+  "MimeType": "voluptatem",
+  "OriginalSize": 150,
+  "CreatedDate": "1998-11-01T16:00:40.1175682+01:00",
+  "UpdatedDate": "2010-04-04T16:00:40.1175682+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "ConceptualType": "iste"
@@ -113,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 665,
-  "BlobSize": 90,
-  "Description": "Open-source human-resource product",
-  "ExtraInfo": "est",
-  "IsEncrypted": false,
+  "BlobId": 307,
+  "BlobSize": 870,
+  "Description": "Balanced disintermediate data-warehouse",
+  "ExtraInfo": "consequatur",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 479,
-  "CreatedDate": "2004-05-13T03:51:26.6156255+02:00",
-  "UpdatedDate": "2003-01-27T03:51:26.6156255+01:00",
+  "MimeType": "maiores",
+  "OriginalSize": 638,
+  "CreatedDate": "2011-11-15T16:00:40.1175682+01:00",
+  "UpdatedDate": "2000-03-18T16:00:40.1175682+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ab",
+  "ConceptualType": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldLength": 730
     }
   }
 }

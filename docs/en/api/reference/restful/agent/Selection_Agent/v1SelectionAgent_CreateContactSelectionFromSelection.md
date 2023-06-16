@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateContactSelectionFromSelection
 uid: v1SelectionAgent_CreateContactSelectionFromSelection
+generated: true
 ---
 
 # POST Agents/Selection/CreateContactSelectionFromSelection
@@ -119,10 +120,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 809,
-  "Name": "Bradtke, Russel and Hoppe",
+  "SelectionId": 491,
+  "Name": "Breitenberg, Stoltenberg and Tromp",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -133,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enterprise-wide interactive groupware",
-  "Postit": "culpa",
+  "Description": "Optional system-worthy flexibility",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 502,
-  "IncludePerson": 61,
-  "MemberCount": 647,
-  "Name": "Littel-Weber",
-  "PostitTextId": 372,
-  "CreatedDate": "2014-04-10T03:51:28.1621313+02:00",
-  "SelectionId": 480,
-  "SoundEx": "tenetur",
-  "Source": 76,
-  "TextId": 899,
-  "UpdatedDate": "2009-07-24T03:51:28.1621313+02:00",
-  "UpdatedCount": 514,
-  "Visibility": 734,
+  "GroupIdx": 822,
+  "IncludePerson": 391,
+  "MemberCount": 218,
+  "Name": "Powlowski Inc and Sons",
+  "PostitTextId": 671,
+  "CreatedDate": "2009-11-03T16:00:41.8362961+01:00",
+  "SelectionId": 455,
+  "SoundEx": "occaecati",
+  "Source": 122,
+  "TextId": 866,
+  "UpdatedDate": "2014-06-01T16:00:41.8362961+02:00",
+  "UpdatedCount": 700,
+  "Visibility": 492,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 101,
-  "TargetTableName": "Kling-Will",
+  "CompanyUnique": false,
+  "TargetTableNumber": 357,
+  "TargetTableName": "Cummerata LLC",
   "Completed": true,
-  "LeftSelectionId": 756,
-  "RightSelectionId": 778,
+  "LeftSelectionId": 539,
+  "RightSelectionId": 874,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schmeler Inc and Sons",
-  "ShadowProviderName": "Casper-Rosenbaum",
-  "ChartKey": "eos",
-  "LastLoaded": "2019-12-25T03:51:28.1621313+01:00",
-  "LastLoadedBy": 116,
+  "MainProviderName": "Wehner-Runolfsson",
+  "ShadowProviderName": "Vandervort Inc and Sons",
+  "ChartKey": "aut",
+  "LastLoaded": "2006-04-02T16:00:41.8362961+02:00",
+  "LastLoadedBy": 924,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-05-18T03:51:28.1621313+02:00",
-  "LastMembershipChangeBy": 521,
+  "LastMembershipChange": "2011-10-14T16:00:41.8362961+02:00",
+  "LastMembershipChangeBy": 632,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "provident",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "McDermott LLC",
-  "DashboardTileDefinitionId": 766,
+  "MainHeading": "ea",
+  "MemberTabHeading": "consequatur",
+  "MailingsProviderName": "Connelly, Zboncak and Boyle",
+  "DashboardTileDefinitionId": 132,
   "VisibleFor": [
     {
-      "VisibleId": 269,
+      "VisibleId": 934,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 850
+          "FieldLength": 642
         }
       }
     },
     {
-      "VisibleId": 269,
+      "VisibleId": 934,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 850
+          "FieldLength": 642
         }
       }
     }
@@ -205,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldType": "System.String",
+      "FieldLength": 501
     }
   }
 }

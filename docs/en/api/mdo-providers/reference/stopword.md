@@ -1,17 +1,11 @@
 ---
 uid: stopword
 title: stopword
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "stopword"
+keywords: mdoprovider mdo provider stopword
+description: List of stop words. i.e. words which will not be included in the free-text index.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "stopword" MDO List

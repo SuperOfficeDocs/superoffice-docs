@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/GetBlobEntityOnContact
 uid: v1BLOBAgent_GetBlobEntityOnContact
+generated: true
 ---
 
 # POST Agents/BLOB/GetBlobEntityOnContact
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 478
+  "ContactId": 656
 }
 ```
 
@@ -99,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 556,
-  "BlobSize": 685,
-  "Description": "Stand-alone mobile archive",
-  "ExtraInfo": "consequatur",
+  "BlobId": 85,
+  "BlobSize": 920,
+  "Description": "Balanced intermediate flexibility",
+  "ExtraInfo": "animi",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "aspernatur",
-  "OriginalSize": 788,
-  "CreatedDate": "2004-09-09T03:51:26.6312416+02:00",
-  "UpdatedDate": "1998-02-09T03:51:26.6312416+01:00",
+  "MimeType": "temporibus",
+  "OriginalSize": 9,
+  "CreatedDate": "1999-08-22T16:00:40.1331959+02:00",
+  "UpdatedDate": "2005-05-14T16:00:40.1331959+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quod",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldLength": 561
     }
   }
 }

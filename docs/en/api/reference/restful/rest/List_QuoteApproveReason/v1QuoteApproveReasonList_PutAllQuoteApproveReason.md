@@ -1,6 +1,7 @@
 ---
 title: PUT List/QuoteApproveReason/Items
 uid: v1QuoteApproveReasonList_PutAllQuoteApproveReason
+generated: true
 ---
 
 # PUT List/QuoteApproveReason/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 593,
-    "Name": "Haag, Roberts and Boyle",
-    "Tooltip": "excepturi",
+    "Id": 463,
+    "Name": "Beier Inc and Sons",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 347,
-    "Rank": 866
+    "UdListDefinitionId": 287,
+    "Rank": 629
   },
   {
-    "Id": 593,
-    "Name": "Haag, Roberts and Boyle",
-    "Tooltip": "excepturi",
+    "Id": 463,
+    "Name": "Beier Inc and Sons",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 347,
-    "Rank": 866
+    "UdListDefinitionId": 287,
+    "Rank": 629
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 896,
-    "Name": "Walker-Conroy",
-    "Tooltip": "quidem",
-    "Deleted": false,
-    "UdListDefinitionId": 822,
-    "Rank": 617,
+    "Id": 132,
+    "Name": "Konopelski, Treutel and Grant",
+    "Tooltip": "reiciendis",
+    "Deleted": true,
+    "UdListDefinitionId": 402,
+    "Rank": 124,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 491
+        "FieldLength": 571
       }
     }
   }

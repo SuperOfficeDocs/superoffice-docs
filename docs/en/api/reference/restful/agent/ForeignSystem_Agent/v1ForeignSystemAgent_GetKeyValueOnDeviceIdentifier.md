@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
 uid: v1ForeignSystemAgent_GetKeyValueOnDeviceIdentifier
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
@@ -74,16 +75,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Brown-D'Amore",
-  "DeviceName": "Waelchi-Gaylord",
-  "DeviceIdentifier": "placeat",
-  "KeyName": "Kuhlman-Hills",
-  "TableName": "Rolfson Inc and Sons",
-  "RecordId": 694
+  "ApplicationName": "Bode Group",
+  "DeviceName": "Abbott-Jacobson",
+  "DeviceIdentifier": "sequi",
+  "KeyName": "Mante, Gleason and Yundt",
+  "TableName": "Braun-Kirlin",
+  "RecordId": 649
 }
 ```
 
@@ -93,5 +94,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptates"
+"amet"
 ```

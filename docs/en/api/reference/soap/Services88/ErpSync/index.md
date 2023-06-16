@@ -1,7 +1,7 @@
 ---
 title: Services88.ErpSyncAgent SOAP
 uid: Services88-ErpSync-soap
-generated: 1
+generated: true
 ---
 
 # Services88 ErpSync SOAP

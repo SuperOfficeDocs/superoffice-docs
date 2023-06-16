@@ -1,6 +1,7 @@
 ---
 title: POST ChatSession
 uid: v1ChatSessionEntity_PostChatSessionEntity
+generated: true
 ---
 
 # POST ChatSession
@@ -135,41 +136,41 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 699,
-  "TopicId": 108,
+  "ChatSessionId": 531,
+  "TopicId": 413,
   "User": null,
   "Person": null,
-  "CustomerAlias": "magni",
-  "CustomerHost": "assumenda",
-  "CustomerName": "Kihn-Schroeder",
-  "CustomerEmail": "arne_marvin@romaguera.uk",
-  "CustomerPhone": "326-348-9026",
+  "CustomerAlias": "qui",
+  "CustomerHost": "cum",
+  "CustomerName": "Batz, Senger and Dicki",
+  "CustomerEmail": "milo@dickenshayes.name",
+  "CustomerPhone": "1-526-929-7986 x93336",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Haley, Prohaska and Swift",
+  "CustomerCompanyName": "Bednar, Dietrich and McClure",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "quos",
-  "WhenRequested": "2002-07-16T03:51:33.1148316+02:00",
-  "WhenStarted": "2003-07-15T03:51:33.1148316+02:00",
-  "WhenEnded": "2022-09-28T03:51:33.1148316+02:00",
-  "WhenIdle": "2003-07-13T03:51:33.1148316+02:00",
-  "WhenFetched": "2005-08-18T03:51:33.1148316+02:00",
-  "SessionKey": "vel",
-  "InitialQueuePos": 464,
-  "AlertLevel": 851,
-  "Rank": 400,
+  "FirstMessage": "aut",
+  "LastMessage": "similique",
+  "WhenRequested": "2014-10-25T16:00:47.5241237+02:00",
+  "WhenStarted": "2002-03-25T16:00:47.5241237+01:00",
+  "WhenEnded": "1999-01-26T16:00:47.5241237+01:00",
+  "WhenIdle": "2007-09-16T16:00:47.5241237+02:00",
+  "WhenFetched": "2006-05-27T16:00:47.5241237+02:00",
+  "SessionKey": "ad",
+  "InitialQueuePos": 655,
+  "AlertLevel": 739,
+  "Rank": 277,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 831
+  "ChatbotIsActive": false,
+  "Rating": 597
 }
 ```
 
@@ -180,29 +181,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 178,
-  "TopicId": 656,
+  "ChatSessionId": 961,
+  "TopicId": 889,
   "User": null,
   "Person": null,
-  "CustomerAlias": "temporibus",
-  "CustomerHost": "commodi",
-  "CustomerName": "Turner LLC",
-  "CustomerEmail": "tate.gislason@tremblay.biz",
-  "CustomerPhone": "068.543.6693 x5614",
+  "CustomerAlias": "sapiente",
+  "CustomerHost": "delectus",
+  "CustomerName": "Altenwerth Group",
+  "CustomerEmail": "margarette@langoshbins.us",
+  "CustomerPhone": "1-357-499-8221",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Smitham, Williamson and Sporer",
+  "CustomerCompanyName": "Mosciski, Wintheiser and Koch",
   "Status": "Closed",
-  "FirstMessage": "pariatur",
-  "LastMessage": "nemo",
-  "WhenRequested": "2004-08-26T03:51:33.1304604+02:00",
-  "WhenStarted": "2001-03-29T03:51:33.1304604+02:00",
-  "WhenEnded": "1998-11-04T03:51:33.1304604+01:00",
-  "WhenIdle": "2009-08-05T03:51:33.1304604+02:00",
-  "WhenFetched": "2009-11-19T03:51:33.1304604+01:00",
-  "SessionKey": "veritatis",
-  "InitialQueuePos": 253,
-  "AlertLevel": 625,
-  "Rank": 725,
+  "FirstMessage": "consectetur",
+  "LastMessage": "cumque",
+  "WhenRequested": "2010-09-22T16:00:47.5397493+02:00",
+  "WhenStarted": "2006-03-24T16:00:47.5397493+01:00",
+  "WhenEnded": "2022-12-11T16:00:47.5397493+01:00",
+  "WhenIdle": "1998-03-19T16:00:47.5397493+01:00",
+  "WhenFetched": "2004-02-17T16:00:47.5397493+01:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 12,
+  "AlertLevel": 300,
+  "Rank": 1000,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -210,13 +211,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 616,
+  "Rating": 586,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldType": "System.String",
+      "FieldLength": 367
     }
   },
   "_Links": {

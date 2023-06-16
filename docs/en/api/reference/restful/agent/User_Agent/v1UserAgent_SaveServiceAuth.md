@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/SaveServiceAuth
 uid: v1UserAgent_SaveServiceAuth
+generated: true
 ---
 
 # POST Agents/User/SaveServiceAuth
@@ -78,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 509,
-  "Server": "aliquid",
-  "Port": 330,
-  "AuthType": "quam",
-  "Username": "ut",
-  "Password": "qui"
+  "ServiceAuthId": 989,
+  "Server": "quia",
+  "Port": 963,
+  "AuthType": "sapiente",
+  "Username": "omnis",
+  "Password": "et"
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 24,
-  "Server": "possimus",
-  "Port": 857,
-  "AuthType": "harum",
-  "Username": "aliquid",
-  "Password": "ipsam",
+  "ServiceAuthId": 776,
+  "Server": "ipsa",
+  "Port": 666,
+  "AuthType": "saepe",
+  "Username": "eum",
+  "Password": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldLength": 38
     }
   }
 }

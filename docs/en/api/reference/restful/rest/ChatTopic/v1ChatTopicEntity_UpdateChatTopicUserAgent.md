@@ -1,6 +1,7 @@
 ---
 title: PUT ChatTopic/{id}/UserAgent/{username}
 uid: v1ChatTopicEntity_UpdateChatTopicUserAgent
+generated: true
 ---
 
 # PUT ChatTopic/{id}/UserAgent/{username}
@@ -79,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 32,
+  "TopicId": 502,
   "User": null,
   "CanListen": true,
   "CanRespond": false,
@@ -95,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 809,
+  "TopicId": 910,
   "User": null,
   "CanListen": false,
-  "CanRespond": true,
+  "CanRespond": false,
   "CanManage": false,
   "CanNotify": false
 }

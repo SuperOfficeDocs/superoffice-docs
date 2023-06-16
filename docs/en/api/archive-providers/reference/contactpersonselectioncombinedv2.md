@@ -2,17 +2,10 @@
 uid: ContactPersonSelectionCombinedV2
 title: ContactPersonSelectionCombinedV2
 description: Implementation of the provider for the combined selection
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ContactPersonSelectionCombinedV2"
+keywords: ContactPersonSelectionCombinedV2 archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ContactPersonSelectionCombinedV2"
@@ -129,6 +122,10 @@ Implementation of the provider for the combined selection
 |contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
 |contactAssociate/role|listAny|Role : Role| x |
 |contactAssociate/assocName|associate|User ID : User ID| x |
@@ -229,6 +226,10 @@ Implementation of the provider for the combined selection
 |sourceRelation/registeredByFullName| *None* |Source - Registered by - Full name: The user who registered the data|  |
 |sourceRelation/registeredDate| *None* |Source - Registered date: The date/time the data was registered in UTC.|  |
 |sourceRelation/contactSource| *None* |Source - Source: Source (Company)|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sourceRelation/contactDeleted| *None* |Source - Deleted: Deleted|  |
 |sourceRelation/activeErpLinks| *None* |Source - ERP connected: Is there an active ERP Sync?|  |
 |sourceRelation/deletedDate| *None* |Source - Deleted date: Deleted date|  |
@@ -329,6 +330,10 @@ Implementation of the provider for the combined selection
 |sale/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |sale/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |sale/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |sale/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 |sale/associate/associateDbId| *None* |ID|  |
@@ -429,6 +434,10 @@ Implementation of the provider for the combined selection
 |appointment/associate/usergroup| *None* |Primary group: The user's primary user group|  |
 |appointment/associate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |appointment/associate/contactCategory| *None* |Category: Category|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/associate/role| *None* |Role : Role|  |
 |appointment/associate/assocName| *None* |User ID : User ID|  |
 |appointment/associate/assocTooltip| *None* |Description : Description|  |
@@ -529,6 +538,10 @@ Implementation of the provider for the combined selection
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle name: Displays the contact's middle name.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
 |personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -629,6 +642,10 @@ Implementation of the provider for the combined selection
 |personEmail/emailProtocol| *None* |Protocol: E-mail protocol, such as SMTP|  |
 |personEmail/emailAddress| *None* |E-mail|  |
 |personEmail/emailDescription| *None* |Description|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personEmail/emailId| *None* |ID|  |
 |personEmail/emailLastSent| *None* |Last sent: The date and time an e-mail was last sent to this address|  |
 |personEmail/emailBounceCount| *None* |Bounce count: Bounce count for this e-mail address|  |
@@ -729,6 +746,10 @@ Implementation of the provider for the combined selection
 |personTargetRelation/kanaLastName| *None* |Target - Last name, kana: Contact's last name, in kana alphabet|  |
 |personTargetRelation/personUpdatedBy| *None* |Target - Updated by: The user who last updated the data|  |
 |personTargetRelation/personUpdatedByFullName| *None* |Target - Updated by - Full name: The user who last updated the data|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personTargetRelation/personUpdatedDate| *None* |Target - Updated: The date/time the data was last updated in UTC.|  |
 |personTargetRelation/personRegisteredBy| *None* |Target - Registered by: The user who registered the data|  |
 |personTargetRelation/personRegisteredByFullName| *None* |Target - Registered by - Full name: The user who registered the data|  |
@@ -829,6 +850,10 @@ Implementation of the provider for the combined selection
 |request/firstReadByOwner| *None* |First read by owner: Displays when the request was read by owner for the first time|  |
 |request/firstReadByUser| *None* |First read by user: Displays when the request was read by user for the first time|  |
 |request/readByCustomer| *None* |Read by contact: Displays when the request was read by the contact|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/status| *None* |Internal status: Shows only system defined statuses for a request|  |
 |request/origin| *None* |Origin: Origin|  |
 |request/slevel| *None* |Access level: Access level|  |
@@ -929,6 +954,10 @@ Implementation of the provider for the combined selection
 |request/extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot|  |
 |request/extra/x\_ticket\_timestamp| *None* |Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field|  |
 |request/extra/x\_ticket\_project\_relation| *None* |Extra project: Custom project relation on Request|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/extra/x\_ticket\_faq| *None* |Extra FAQ Relation|  |
 |request/extra/x\_ticket\_category\_relation| *None* |Extra category relation: Category relation on request|  |
 |request/extra/y\_equipment/x\_name| *None* |Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
@@ -1029,6 +1058,10 @@ Implementation of the provider for the combined selection
 |projectMembers/saintTicketStatus| *None* |Status|  |
 |projectMembers/saintTicketCategory| *None* |Category|  |
 |projectMembers/project/textId| *None* |Text ID|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/project/infoText| *None* |Information: Displays the text entered in the description field|  |
 |personAppointment/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed|  |
 |personAppointment/icon| *None* |Category: Displays the icon for an activity type|  |
@@ -1120,7 +1153,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=streetAddress/wgs84latitude,restrictionAddress/state,targetRelation/category,document/date,personEmail/emailDescription
+GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=sale/who,appointment/appointmentUdef/SuperOffice:6,appointment/associate/contactFullName,document/documentUdef/SuperOffice:6,withdrawnStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

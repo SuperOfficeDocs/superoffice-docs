@@ -1,6 +1,7 @@
 ---
 title: GET Presence/GetAll
 uid: v1ChatPresence_GetChatPresence
+generated: true
 ---
 
 # GET Presence/GetAll
@@ -58,7 +59,7 @@ OK
 GET /api/v1/Presence/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 910,
-    "DisplayName": "Bauch LLC",
-    "OngoingChats": 454,
+    "UserId": 900,
+    "DisplayName": "Schoen Group",
+    "OngoingChats": 912,
     "Present": false,
     "ChatTopics": [
-      836,
-      220
+      620,
+      615
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 334
+        "FieldLength": 639
       }
     }
   }

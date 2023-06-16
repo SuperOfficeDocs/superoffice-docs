@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/GetUserLicenses
 uid: v1LicenseAgent_GetUserLicenses
+generated: true
 ---
 
 # POST Agents/License/GetUserLicenses
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 219
+  "AssociateId": 464
 }
 ```
 
@@ -91,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "D'Amore-Lindgren",
-    "Description": "Reduced modular archive",
+    "Name": "Denesik Group",
+    "Description": "Virtual tangible frame",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 283,
-        "Tooltip": "eveniet",
-        "CanAssign": false,
-        "Free": 406,
-        "InUse": 540,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 544,
+        "Tooltip": "asperiores",
+        "CanAssign": true,
+        "Free": 744,
+        "InUse": 953,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 222,
-        "Name": "Schulist, Wiza and Wisoky",
-        "Description": "Grass-roots user-facing hardware",
-        "PrerequisiteModuleName": "Abshire-Jakubowski",
-        "SortOrder": 888,
-        "ExtraFlags": 56,
+        "ModuleLicenseId": 781,
+        "Name": "Jast Inc and Sons",
+        "Description": "Multi-lateral zero tolerance approach",
+        "PrerequisiteModuleName": "Douglas Group",
+        "SortOrder": 608,
+        "ExtraFlags": 97,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 84
+            "FieldLength": 136
           }
         }
       }
@@ -122,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 760,
-        "Tooltip": "tempora",
+        "Total": 150,
+        "Tooltip": "eum",
         "CanAssign": false,
-        "Free": 815,
-        "InUse": 434,
+        "Free": 317,
+        "InUse": 925,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 365,
-        "Name": "Wilkinson Inc and Sons",
-        "Description": "Adaptive mobile migration",
-        "PrerequisiteModuleName": "Wilderman, Schroeder and Prosacco",
-        "SortOrder": 279,
-        "ExtraFlags": 331,
+        "ModuleLicenseId": 368,
+        "Name": "Ratke Group",
+        "Description": "Public-key mission-critical help-desk",
+        "PrerequisiteModuleName": "Denesik Inc and Sons",
+        "SortOrder": 243,
+        "ExtraFlags": 743,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 649
+            "FieldType": "System.String",
+            "FieldLength": 536
           }
         }
       }
@@ -150,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldLength": 835
       }
     }
   },
   {
-    "Name": "D'Amore-Lindgren",
-    "Description": "Reduced modular archive",
+    "Name": "Denesik Group",
+    "Description": "Virtual tangible frame",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 283,
-        "Tooltip": "eveniet",
-        "CanAssign": false,
-        "Free": 406,
-        "InUse": 540,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 544,
+        "Tooltip": "asperiores",
+        "CanAssign": true,
+        "Free": 744,
+        "InUse": 953,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 222,
-        "Name": "Schulist, Wiza and Wisoky",
-        "Description": "Grass-roots user-facing hardware",
-        "PrerequisiteModuleName": "Abshire-Jakubowski",
-        "SortOrder": 888,
-        "ExtraFlags": 56,
+        "ModuleLicenseId": 781,
+        "Name": "Jast Inc and Sons",
+        "Description": "Multi-lateral zero tolerance approach",
+        "PrerequisiteModuleName": "Douglas Group",
+        "SortOrder": 608,
+        "ExtraFlags": 97,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 84
+            "FieldLength": 136
           }
         }
       }
@@ -186,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 760,
-        "Tooltip": "tempora",
+        "Total": 150,
+        "Tooltip": "eum",
         "CanAssign": false,
-        "Free": 815,
-        "InUse": 434,
+        "Free": 317,
+        "InUse": 925,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 365,
-        "Name": "Wilkinson Inc and Sons",
-        "Description": "Adaptive mobile migration",
-        "PrerequisiteModuleName": "Wilderman, Schroeder and Prosacco",
-        "SortOrder": 279,
-        "ExtraFlags": 331,
+        "ModuleLicenseId": 368,
+        "Name": "Ratke Group",
+        "Description": "Public-key mission-critical help-desk",
+        "PrerequisiteModuleName": "Denesik Inc and Sons",
+        "SortOrder": 243,
+        "ExtraFlags": 743,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 649
+            "FieldType": "System.String",
+            "FieldLength": 536
           }
         }
       }
@@ -214,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldLength": 835
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/SaveFromSectionAndKey
 uid: v1PreferenceAgent_SaveFromSectionAndKey
+generated: true
 ---
 
 # POST Agents/Preference/SaveFromSectionAndKey
@@ -91,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "modi",
-  "Key": "quia",
+  "Section": "qui",
+  "Key": "assumenda",
   "PreferenceDescription": null
 }
 ```
@@ -108,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 23,
-  "Section": "non",
-  "Key": "aut",
-  "Name": "Goyette-Brakus",
+  "PrefDescId": 318,
+  "Section": "facilis",
+  "Key": "qui",
+  "Name": "Mayer-White",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Realigned impactful approach",
+  "Description": "Right-sized tangible ability",
   "IsBuiltin": false,
-  "TableName": "Kihn, Effertz and O'Keefe",
-  "UserDefinedListId": 367,
-  "Rank": 357,
-  "SubGroup": "consectetur",
-  "MinLevel": 26,
-  "MaxValue": 295,
-  "MinValue": 119,
-  "RequiredLicense": "dolore",
+  "TableName": "Kiehn, Fisher and Legros",
+  "UserDefinedListId": 18,
+  "Rank": 825,
+  "SubGroup": "nam",
+  "MinLevel": 20,
+  "MaxValue": 793,
+  "MinValue": 667,
+  "RequiredLicense": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldType": "System.String",
+      "FieldLength": 25
     }
   }
 }

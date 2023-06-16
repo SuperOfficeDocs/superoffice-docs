@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/DuplicateTile
 uid: v1DashAgent_DuplicateTile
+generated: true
 ---
 
 # POST Agents/Dash/DuplicateTile
@@ -82,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 121,
-  "Name": "Heller, Kozey and DuBuque"
+  "DashTileId": 659,
+  "Name": "Jacobs-Brakus"
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 817,
-  "DashboardId": 183,
-  "Height": 490,
-  "Width": 469,
-  "Rank": 368,
+  "DashboardTileId": 665,
+  "DashboardId": 952,
+  "Height": 869,
+  "Width": 783,
+  "Rank": 942,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 608
+      "FieldLength": 472
     }
   }
 }

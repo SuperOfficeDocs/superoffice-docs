@@ -1,6 +1,7 @@
 ---
 title: GET TicketMessage/CustomField
 uid: v1TicketMessageEntity_GetCustomFieldInfoList
+generated: true
 ---
 
 # GET TicketMessage/CustomField
@@ -78,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Strosin, Walker and Ankunding",
-    "DisplayName": "Hickle-Lemke",
-    "Description": "Streamlined logistical matrices",
-    "ShortLabel": "omnis",
-    "HideLabel": true,
+    "FieldName": "Towne Group",
+    "DisplayName": "Gusikowski-Conn",
+    "Description": "Right-sized systematic process improvement",
+    "ShortLabel": "quas",
+    "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 745,
-    "TemplateVariableName": "Gorczany Group"
+    "Rank": 410,
+    "TemplateVariableName": "Haley, Hintz and Tremblay"
   }
 ]
 ```

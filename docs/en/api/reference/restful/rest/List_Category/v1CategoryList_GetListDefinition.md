@@ -1,6 +1,7 @@
 ---
 title: GET List/Category
 uid: v1CategoryList_GetListDefinition
+generated: true
 ---
 
 # GET List/Category
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 212,
-  "Name": "Jerde, Bailey and Schroeder",
-  "Tooltip": "blanditiis",
-  "Deleted": true,
-  "Rank": 955,
-  "IsCustomList": false,
+  "Id": 585,
+  "Name": "Schmidt-Thiel",
+  "Tooltip": "cum",
+  "Deleted": false,
+  "Rank": 968,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "illum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "necessitatibus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldLength": 94
     }
   },
   "_Links": {

@@ -1,6 +1,7 @@
 ---
 title: DEL ChatTopic/{id}
 uid: v1ChatTopicEntity_DeleteChatTopicEntity
+generated: true
 ---
 
 # DEL ChatTopic/{id}
@@ -51,7 +52,7 @@ ChatTopicEntity deleted.
 DELETE /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

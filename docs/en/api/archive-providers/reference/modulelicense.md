@@ -2,17 +2,10 @@
 uid: ModuleLicense
 title: ModuleLicense
 description: Simple provider for module licences. This provider will return a flat list with
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ModuleLicense"
+keywords: ModuleLicense archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ModuleLicense"
@@ -49,7 +42,7 @@ security items.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ModuleLicense?$select=moduleName,licenseType
+GET /api/v1/archive/ModuleLicense?$select=moduleDesc,moduleName,licenseType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

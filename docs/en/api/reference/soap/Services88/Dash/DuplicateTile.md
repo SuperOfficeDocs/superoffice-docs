@@ -1,6 +1,6 @@
 ---
 title: Services88.DashAgent.DuplicateTile SOAP
-generated: 1
+generated: true
 uid: Services88-Dash-DuplicateTile
 ---
 

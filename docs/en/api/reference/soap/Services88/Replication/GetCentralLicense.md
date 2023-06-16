@@ -1,6 +1,6 @@
 ---
 title: Services88.ReplicationAgent.GetCentralLicense SOAP
-generated: 1
+generated: true
 uid: Services88-Replication-GetCentralLicense
 ---
 

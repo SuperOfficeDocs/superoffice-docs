@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetKey
 uid: v1ForeignSystemAgent_GetKey
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetKey
@@ -85,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bins Inc and Sons",
-  "DeviceName": "McDermott-Gaylord",
-  "KeyName": "Wintheiser Inc and Sons",
-  "TableName": "Russel-Thiel",
-  "RecordId": 424
+  "ApplicationName": "Labadie, Runte and Tremblay",
+  "DeviceName": "Gerhold LLC",
+  "KeyName": "Keeling-Paucek",
+  "TableName": "Schaden-Schmitt",
+  "RecordId": 988
 }
 ```
 
@@ -104,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ullam",
-  "Value": "et",
-  "RecordId": 312,
-  "CreatedDate": "2012-10-29T03:51:27.3498217+01:00",
-  "UpdatedDate": "2017-10-08T03:51:27.3498217+02:00",
-  "UpdatedBy": "eos",
-  "CreatedBy": "ut",
-  "TableName": "Bashirian LLC",
+  "Key": "laudantium",
+  "Value": "dolorum",
+  "RecordId": 501,
+  "CreatedDate": "2003-10-23T16:00:41.0705907+02:00",
+  "UpdatedDate": "1996-12-15T16:00:41.0705907+01:00",
+  "UpdatedBy": "itaque",
+  "CreatedBy": "nihil",
+  "TableName": "Marks-Connelly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldLength": 666
     }
   }
 }

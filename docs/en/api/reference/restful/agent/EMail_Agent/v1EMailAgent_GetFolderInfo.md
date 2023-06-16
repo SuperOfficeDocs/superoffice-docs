@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetFolderInfo
 uid: v1EMailAgent_GetFolderInfo
+generated: true
 ---
 
 # POST Agents/EMail/GetFolderInfo
@@ -84,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "omnis",
-    "ullam"
+    "est",
+    "assumenda"
   ]
 }
 ```
@@ -104,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Larkin Group",
-    "Delimiter": "qui",
-    "Flags": "eum",
-    "TotalItems": 829,
-    "UnreadItems": 824,
-    "Subscribed": false,
-    "EmailFolderId": 206,
+    "Name": "Jacobs, Mosciski and Lubowitz",
+    "Delimiter": "id",
+    "Flags": "sed",
+    "TotalItems": 652,
+    "UnreadItems": 748,
+    "Subscribed": true,
+    "EmailFolderId": 670,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 525
+        "FieldType": "System.Int32",
+        "FieldLength": 737
       }
     }
   }

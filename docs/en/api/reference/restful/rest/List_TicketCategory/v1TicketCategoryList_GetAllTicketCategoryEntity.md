@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketCategory/Items
 uid: v1TicketCategoryList_GetAllTicketCategoryEntity
+generated: true
 ---
 
 # GET List/TicketCategory/Items
@@ -84,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 77,
-    "ParentId": 44,
-    "Name": "Bins LLC",
-    "Fullname": "totam",
-    "CategoryMaster": 946,
+    "TicketCategoryId": 431,
+    "ParentId": 697,
+    "Name": "Frami, Kessler and Homenick",
+    "Fullname": "voluptatem",
+    "CategoryMaster": 780,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "O'Kon, Baumbach and Heathcote",
+    "ExternalName": "Hamill, Predovic and Jakubowski",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 109,
-    "ReplyTemplate": 76,
-    "NotificationEmail": "maybelle@hagenes.us",
+    "AssignmentLag": 386,
+    "ReplyTemplate": 183,
+    "NotificationEmail": "alva@beckerbartoletti.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 301,
+    "EffectiveReplyTemplateId": 117,
     "ExtraFields": {
-      "ExtraFields1": "ut",
-      "ExtraFields2": "sint"
+      "ExtraFields1": "quasi",
+      "ExtraFields2": "molestiae"
     },
     "CustomFields": {
-      "CustomFields1": "alias",
-      "CustomFields2": "vel"
+      "CustomFields1": "dolorem",
+      "CustomFields2": "fugiat"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldType": "System.String",
+        "FieldLength": 36
       }
     }
   }

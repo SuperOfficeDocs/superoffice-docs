@@ -1,6 +1,7 @@
 ---
 title: POST Agents/MDO/GetSelectableSimpleList
 uid: v1MDOAgent_GetSelectableSimpleList
+generated: true
 ---
 
 # POST Agents/MDO/GetSelectableSimpleList
@@ -86,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hoeger, Cummings and Cronin"
+  "Name": "Bergnaum LLC"
 }
 ```
 
@@ -102,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 437,
-    "Name": "Watsica Group",
-    "ToolTip": "Dolor voluptatem dolor quas aut quae.",
-    "Deleted": true,
-    "Rank": 594,
-    "Type": "exercitationem",
-    "ColorBlock": 754,
-    "IconHint": "cupiditate",
+    "Id": 674,
+    "Name": "Thompson, Hirthe and Huels",
+    "ToolTip": "Aut delectus ut.",
+    "Deleted": false,
+    "Rank": 616,
+    "Type": "suscipit",
+    "ColorBlock": 121,
+    "IconHint": "non",
     "Selected": true,
-    "LastChanged": "2019-05-06T03:51:27.5216578+02:00",
+    "LastChanged": "2003-08-09T16:00:41.2736903+02:00",
     "ChildItems": [
       {
-        "Id": 544,
-        "Name": "West Group",
-        "ToolTip": "Sit omnis.",
+        "Id": 339,
+        "Name": "Bogisich Inc and Sons",
+        "ToolTip": "Blanditiis hic est nulla a.",
         "Deleted": false,
-        "Rank": 335,
-        "Type": "ab",
-        "ColorBlock": 224,
-        "IconHint": "maiores",
+        "Rank": 579,
+        "Type": "non",
+        "ColorBlock": 191,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2015-01-12T03:51:27.5216578+01:00",
+        "LastChanged": "2004-09-22T16:00:41.2736903+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Miss Luther Natalie Corkery",
+        "FullName": "Heber Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldLength": 875
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "saepe",
+    "ExtraInfo": "nihil",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Tom Becker",
+    "FullName": "Wilber Schoen Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 812
       }
     }
   }

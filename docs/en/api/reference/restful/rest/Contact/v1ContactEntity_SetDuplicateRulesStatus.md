@@ -1,6 +1,7 @@
 ---
 title: PUT Contact/DuplicateRules
 uid: v1ContactEntity_SetDuplicateRulesStatus
+generated: true
 ---
 
 # PUT Contact/DuplicateRules
@@ -56,21 +57,21 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Torp LLC",
-    "DisplayName": "Anderson-Doyle",
-    "DisplayTooltip": "at",
-    "IsActive": true
+    "Name": "Spinka Inc and Sons",
+    "DisplayName": "Macejkovic LLC",
+    "DisplayTooltip": "et",
+    "IsActive": false
   },
   {
-    "Name": "Torp LLC",
-    "DisplayName": "Anderson-Doyle",
-    "DisplayTooltip": "at",
-    "IsActive": true
+    "Name": "Spinka Inc and Sons",
+    "DisplayName": "Macejkovic LLC",
+    "DisplayTooltip": "et",
+    "IsActive": false
   }
 ]
 ```

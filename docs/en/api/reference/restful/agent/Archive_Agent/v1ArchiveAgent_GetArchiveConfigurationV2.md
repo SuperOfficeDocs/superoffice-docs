@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveConfigurationV2
 uid: v1ArchiveAgent_GetArchiveConfigurationV2
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveConfigurationV2
@@ -84,10 +85,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Ritchie-Murray",
-  "ProviderName": "Boyle-Wintheiser",
-  "Context": "nam",
-  "OwnerKeys": "consequatur"
+  "GuiName": "Gusikowski, Haley and Mann",
+  "ProviderName": "Murazik, Schinner and Romaguera",
+  "Context": "dolor",
+  "OwnerKeys": "accusamus"
 }
 ```
 
@@ -100,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Ziemann-Beer",
-      "DisplayTooltip": "quidem",
-      "DisplayType": "odio",
-      "CanOrderBy": false,
-      "Name": "Larkin, Renner and Fisher",
-      "CanRestrictBy": true,
-      "RestrictionType": "sunt",
-      "RestrictionListName": "Hyatt Group",
-      "IsVisible": false,
-      "ExtraInfo": "laudantium",
-      "Width": "placeat",
-      "IconHint": "excepturi",
-      "HeadingIconHint": "consequatur"
+      "DisplayName": "Marks Inc and Sons",
+      "DisplayTooltip": "quis",
+      "DisplayType": "ipsum",
+      "CanOrderBy": true,
+      "Name": "Rogahn, Jenkins and Nader",
+      "CanRestrictBy": false,
+      "RestrictionType": "esse",
+      "RestrictionListName": "Collier-Dare",
+      "IsVisible": true,
+      "ExtraInfo": "et",
+      "Width": "harum",
+      "IconHint": "nostrum",
+      "HeadingIconHint": "ut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 262,
-      "Name": "Swaniawski LLC",
-      "ToolTip": "Vero dolores amet saepe et odio odio libero.",
+      "Id": 121,
+      "Name": "Braun, Harris and Jerde",
+      "ToolTip": "Amet rerum.",
       "Deleted": false,
-      "Rank": 250,
-      "Type": "est",
-      "ColorBlock": 529,
-      "IconHint": "voluptatibus",
+      "Rank": 586,
+      "Type": "ea",
+      "ColorBlock": 333,
+      "IconHint": "est",
       "Selected": false,
-      "LastChanged": "2011-11-11T03:51:26.568754+01:00",
+      "LastChanged": "2018-01-12T16:00:40.0550846+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "illum",
+      "ExtraInfo": "consequatur",
+      "StyleHint": "nihil",
       "Hidden": false,
-      "FullName": "Hank Stamm",
+      "FullName": "Meta Feil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 525
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Streich-Thompson",
+      "Name": "Greenholt, Haag and Batz",
       "Direction": "ASC"
     },
     {
-      "Name": "Streich-Thompson",
+      "Name": "Greenholt, Haag and Batz",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "asperiores",
+  "OwnerKeys": "culpa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldLength": 741
     }
   }
 }

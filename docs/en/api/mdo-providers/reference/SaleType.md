@@ -1,17 +1,11 @@
 ---
 uid: saletype
 title: saletype
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "saletype"
+keywords: mdoprovider mdo provider saletype
+description: List of sale types, with default sale duration in minutes in extra info.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "saletype" MDO List
@@ -49,9 +43,9 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |1|General sale||43200|
-|4|Staged Sale||44640|
+|4|Staged Sale||43200|
 |3|Stakeholders||132480|
-|2|Guided Sale||44640|
+|2|Guided Sale||43200|
 
 
 ## Related MDO Lists

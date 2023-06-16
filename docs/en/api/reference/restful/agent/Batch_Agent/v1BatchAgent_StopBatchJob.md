@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/StopBatchJob
 uid: v1BatchAgent_StopBatchJob
+generated: true
 ---
 
 # POST Agents/Batch/StopBatchJob
@@ -71,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 97
+  "Id": 320
 }
 ```
 

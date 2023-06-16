@@ -1,6 +1,7 @@
 ---
 title: GET List/UserGroup/Items
 uid: v1UserGroupList_GetAllUserGroup
+generated: true
 ---
 
 # GET List/UserGroup/Items
@@ -26,7 +27,7 @@ Calls the User agent service GetAllUserGroup.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/UserGroup/Items?includeDeleted=False
+GET /api/v1/List/UserGroup/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/UserGroup/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "perspiciatis",
-    "Tooltip": "libero",
-    "Id": 401,
-    "Rank": 774,
+    "Value": "quia",
+    "Tooltip": "amet",
+    "Id": 677,
+    "Rank": 409,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldType": "System.Int32",
+        "FieldLength": 29
       }
     }
   }

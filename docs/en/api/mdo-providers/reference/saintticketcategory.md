@@ -1,17 +1,11 @@
 ---
 uid: saintticketcategory
 title: saintticketcategory
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "saintticketcategory"
+keywords: mdoprovider mdo provider saintticketcategory
+description: This SoList provider generates the eJournal top-level categories, meant for the saint system
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "saintticketcategory" MDO List

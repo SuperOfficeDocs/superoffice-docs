@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/MoveErpFieldItem
 uid: v1ErpSyncAgent_MoveErpFieldItem
+generated: true
 ---
 
 # POST Agents/ErpSync/MoveErpFieldItem
@@ -72,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 953,
-  "Direction": 467,
-  "ErpConnectionId": 61,
+  "ErpFieldId": 802,
+  "Direction": 192,
+  "ErpConnectionId": 741,
   "ErpActorType": "Customer"
 }
 ```

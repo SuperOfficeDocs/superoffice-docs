@@ -1,6 +1,7 @@
 ---
 title: POST List/Category/Items
 uid: v1CategoryList_PostCategory
+generated: true
 ---
 
 # POST List/Category/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 880,
-  "Name": "Goodwin, Leannon and Kub",
-  "Tooltip": "qui",
+  "Id": 337,
+  "Name": "Thompson LLC",
+  "Tooltip": "nam",
   "Deleted": false,
-  "UdListDefinitionId": 817,
-  "Rank": 290
+  "UdListDefinitionId": 336,
+  "Rank": 899
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 104,
-  "Name": "Klein LLC",
-  "Tooltip": "placeat",
+  "Id": 225,
+  "Name": "Konopelski, Purdy and Kub",
+  "Tooltip": "iste",
   "Deleted": false,
-  "UdListDefinitionId": 533,
-  "Rank": 905,
+  "UdListDefinitionId": 1000,
+  "Rank": 301,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldLength": 80
     }
   }
 }

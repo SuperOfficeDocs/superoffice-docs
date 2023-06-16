@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetBestSoLanguageForTemplate
 uid: v1PersonAgent_GetBestSoLanguageForTemplate
+generated: true
 ---
 
 # POST Agents/Person/GetBestSoLanguageForTemplate
@@ -72,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 147,
-  "TemplateId": 320
+  "PersonId": 787,
+  "TemplateId": 995
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"possimus"
+"rem"
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetContactDocumentsByTemplateTypes
 uid: v1DocumentAgent_GetContactDocumentsByTemplateTypes
+generated: true
 ---
 
 # POST Agents/Document/GetContactDocumentsByTemplateTypes
@@ -97,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 73,
-  "StartTime": "2014-01-10T03:51:27.0061522+01:00",
-  "EndTime": "2023-04-14T03:51:27.0061522+02:00",
-  "Count": 890,
+  "ContactId": 902,
+  "StartTime": "2021-11-04T16:00:40.5550049+01:00",
+  "EndTime": "2018-05-26T16:00:40.5550049+02:00",
+  "Count": 365,
   "DocumentTemplateIds": [
-    78,
-    627
+    323,
+    132
   ]
 }
 ```
@@ -120,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 57,
-    "Attention": "nemo",
-    "Header": "voluptatibus",
-    "Name": "Kihn Group",
-    "OurRef": "laborum",
-    "YourRef": "voluptatem",
-    "Description": "Upgradable 3rd generation application",
-    "DocumentTemplate": "architecto",
+    "DocumentId": 261,
+    "Attention": "sit",
+    "Header": "iste",
+    "Name": "Schamberger, Zieme and Hauck",
+    "OurRef": "voluptates",
+    "YourRef": "doloremque",
+    "Description": "Down-sized hybrid orchestration",
+    "DocumentTemplate": "dignissimos",
     "IsPublished": false,
-    "PersonId": 841,
-    "PersonFullName": "Kim Weimann",
-    "AssociateFullName": "Dr. Christa Bradtke",
-    "ContactId": 71,
-    "ContactName": "Brekke LLC",
-    "ProjectId": 183,
-    "ProjectName": "Casper-Dooley",
-    "AssociateId": 748,
-    "Snum": 187,
-    "SaleId": 743,
-    "SaleName": "Kertzmann, Johnson and Runolfsdottir",
+    "PersonId": 863,
+    "PersonFullName": "Isaiah Volkman Sr.",
+    "AssociateFullName": "Frank Schmidt",
+    "ContactId": 661,
+    "ContactName": "Brekke Inc and Sons",
+    "ProjectId": 462,
+    "ProjectName": "Crona, Armstrong and Smitham",
+    "AssociateId": 531,
+    "Snum": 675,
+    "SaleId": 678,
+    "SaleName": "Nolan-Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 331
+        "FieldLength": 820
       }
     }
   }

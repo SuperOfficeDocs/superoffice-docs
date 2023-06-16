@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetReasonSoldList
 uid: v1ListAgent_GetReasonSoldList
+generated: true
 ---
 
 # POST Agents/List/GetReasonSoldList
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetReasonSoldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 735,
-    "Value": "mollitia",
-    "Tooltip": "voluptas",
+    "Id": 220,
+    "Value": "sunt",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 827
+        "FieldType": "System.String",
+        "FieldLength": 47
       }
     }
   },
   {
-    "Id": 735,
-    "Value": "mollitia",
-    "Tooltip": "voluptas",
+    "Id": 220,
+    "Value": "sunt",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 827
+        "FieldType": "System.String",
+        "FieldLength": 47
       }
     }
   }

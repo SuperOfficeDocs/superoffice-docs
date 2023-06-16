@@ -1,6 +1,7 @@
 ---
 title: POST Pricelist/{id}/CopyTo/{newName}
 uid: v1PriceList_CopySuperOfficePriceList
+generated: true
 ---
 
 # POST Pricelist/{id}/CopyTo/{newName}
@@ -32,10 +33,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=09/26/2018 03:51:36
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=01/12/2021 03:51:36
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=199
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=12/31/1996 16:00:50
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=09/19/1998 16:00:50
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=220
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
 
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 880,
-  "ERPPriceListKey": "aliquam",
-  "QuoteConnectionId": 446,
-  "Name": "Raynor-Kertzmann",
-  "Description": "Front-line client-driven analyzer",
-  "Currency": "ut",
-  "CurrencyName": "Sipes Group",
-  "ValidFrom": "2004-12-26T03:51:34.7708309+01:00",
-  "ValidTo": "2019-03-30T03:51:34.7708309+01:00",
-  "IsActive": false,
+  "PriceListId": 518,
+  "ERPPriceListKey": "totam",
+  "QuoteConnectionId": 188,
+  "Name": "Johnston, Abernathy and Reichel",
+  "Description": "Cross-group bifurcated function",
+  "Currency": "magnam",
+  "CurrencyName": "Rau-Reichel",
+  "ValidFrom": "2012-01-01T16:00:49.1177018+01:00",
+  "ValidTo": "2004-04-08T16:00:49.1177018+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldType": "System.String",
+      "FieldLength": 206
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: PUT List/Position
 uid: v1PositionList_SetListDefinition
+generated: true
 ---
 
 # PUT List/Position
@@ -83,20 +84,20 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 776,
-  "Name": "Tremblay Inc and Sons",
-  "Tooltip": "ut",
+  "Id": 885,
+  "Name": "Hackett LLC",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 125,
+  "Rank": 900,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
-  "InUseByUserDefinedFields": true
+  "ListType": "vitae",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 926,
-  "Name": "Huel-Keeling",
-  "Tooltip": "magni",
-  "Deleted": false,
-  "Rank": 274,
-  "IsCustomList": true,
+  "Id": 427,
+  "Name": "Lemke LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 501,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "excepturi",
+  "ListType": "neque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldType": "System.String",
+      "FieldLength": 606
     }
   }
 }

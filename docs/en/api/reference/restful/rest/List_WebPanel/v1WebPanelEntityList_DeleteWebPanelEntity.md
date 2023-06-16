@@ -1,6 +1,7 @@
 ---
 title: DEL List/WebPanel/Items/{id}
 uid: v1WebPanelEntityList_DeleteWebPanelEntity
+generated: true
 ---
 
 # DEL List/WebPanel/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

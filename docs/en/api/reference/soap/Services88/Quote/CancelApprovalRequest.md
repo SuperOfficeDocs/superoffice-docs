@@ -1,6 +1,6 @@
 ---
 title: Services88.QuoteAgent.CancelApprovalRequest SOAP
-generated: 1
+generated: true
 uid: Services88-Quote-CancelApprovalRequest
 ---
 

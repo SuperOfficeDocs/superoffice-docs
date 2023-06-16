@@ -1,6 +1,7 @@
 ---
 title: GET Hierarchy/{domain}
 uid: v1HierarchyEntity_GetAllInDomain
+generated: true
 ---
 
 # GET Hierarchy/{domain}
@@ -28,7 +29,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=False
+GET /api/v1/Hierarchy/{domain}?children=True
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 372,
+    "HierarchyId": 973,
     "Domain": "Dashboards",
-    "Name": "Rohan Group",
-    "Fullname": "cum",
-    "ParentId": 482,
+    "Name": "Thompson, Cremin and Rempel",
+    "Fullname": "ut",
+    "ParentId": 401,
     "Children": [
       {
-        "HierarchyId": 307,
+        "HierarchyId": 414,
         "Domain": "Dashboards",
-        "Name": "Dare Inc and Sons",
-        "Fullname": "itaque",
-        "ParentId": 13,
+        "Name": "Metz, Heathcote and Feest",
+        "Fullname": "at",
+        "ParentId": 142,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2022-03-07T03:51:33.6928335+01:00",
-        "RegisteredAssociateId": 163,
-        "Updated": "2006-11-10T03:51:33.6928335+01:00",
-        "UpdatedAssociateId": 334,
+        "Registered": "2015-09-26T16:00:47.9928249+02:00",
+        "RegisteredAssociateId": 102,
+        "Updated": "2005-02-22T16:00:47.9928249+01:00",
+        "UpdatedAssociateId": 303,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 647
+            "FieldLength": 881
           }
         }
       }
     ],
-    "Registered": "1999-07-17T03:51:33.6928335+02:00",
-    "RegisteredAssociateId": 764,
-    "Updated": "2000-04-04T03:51:33.6928335+02:00",
-    "UpdatedAssociateId": 878,
+    "Registered": "2014-08-01T16:00:47.9928249+02:00",
+    "RegisteredAssociateId": 177,
+    "Updated": "2018-11-20T16:00:47.9928249+01:00",
+    "UpdatedAssociateId": 604,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 225
+        "FieldType": "System.Int32",
+        "FieldLength": 52
       }
     }
   }

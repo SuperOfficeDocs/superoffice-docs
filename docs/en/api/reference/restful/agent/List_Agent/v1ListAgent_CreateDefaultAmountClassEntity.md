@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultAmountClassEntity
 uid: v1ListAgent_CreateDefaultAmountClassEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultAmountClassEntity
@@ -63,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 408,
-  "Name": "Cummerata LLC",
-  "Tooltip": "ut",
-  "Rank": 84,
-  "AmountFrom": 11664.748,
-  "AmountTo": 5230.646,
-  "Deleted": true,
-  "CurrencyId": 668,
+  "AmountClassId": 100,
+  "Name": "Wisoky-Torphy",
+  "Tooltip": "impedit",
+  "Rank": 660,
+  "AmountFrom": 20991.532,
+  "AmountTo": 25889.974,
+  "Deleted": false,
+  "CurrencyId": 708,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldLength": 367
     }
   }
 }

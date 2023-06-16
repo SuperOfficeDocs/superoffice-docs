@@ -2,17 +2,10 @@
 uid: AssociateProjectStaticSelection
 title: AssociateProjectStaticSelection
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "AssociateProjectStaticSelection"
+keywords: AssociateProjectStaticSelection archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "AssociateProjectStaticSelection"
@@ -95,7 +88,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectStaticSelection?$select=nextMilestone,projectAssociate/title
+GET /api/v1/archive/AssociateProjectStaticSelection?$select=getNoRows,nextMilestone,projectAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/MDO/GetListWithHistory
 uid: v1MDOAgent_GetListWithHistory
+generated: true
 ---
 
 # POST Agents/MDO/GetListWithHistory
@@ -87,16 +88,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Harber, Schneider and Jones",
-  "ForceFlatList": false,
-  "AdditionalInfo": "unde",
+  "Name": "O'Connell, Heaney and Dooley",
+  "ForceFlatList": true,
+  "AdditionalInfo": "et",
   "HistoryItems": [
-    383,
-    970
+    57,
+    269
   ],
   "OnlyHistory": false
 }
@@ -110,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 800,
-    "Name": "Mueller Group",
-    "ToolTip": "Vero commodi et unde enim et.",
+    "Id": 56,
+    "Name": "White LLC",
+    "ToolTip": "Accusamus itaque qui excepturi et nemo hic dolore.",
     "Deleted": false,
-    "Rank": 323,
-    "Type": "adipisci",
+    "Rank": 959,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Jenkins, Hagenes and Lowe",
-        "ToolTip": "Corporis rerum.",
+        "Id": 957,
+        "Name": "Medhurst, Dibbert and Ryan",
+        "ToolTip": "Itaque provident voluptatem dolores.",
         "Deleted": true,
-        "Rank": 508,
-        "Type": "officiis",
+        "Rank": 197,
+        "Type": "laudantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatibus",
-        "ColorBlock": 967,
-        "ExtraInfo": "impedit",
-        "StyleHint": "ut",
-        "FullName": "Reilly McGlynn",
+        "IconHint": "qui",
+        "ColorBlock": 208,
+        "ExtraInfo": "dolor",
+        "StyleHint": "dolor",
+        "FullName": "Ms. Jack Kris Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 860
+            "FieldType": "System.Int32",
+            "FieldLength": 327
           }
         }
       }
     ],
-    "IconHint": "incidunt",
-    "ColorBlock": 281,
-    "ExtraInfo": "nihil",
-    "StyleHint": "non",
-    "FullName": "Raven Auer",
+    "IconHint": "dolore",
+    "ColorBlock": 561,
+    "ExtraInfo": "sit",
+    "StyleHint": "eos",
+    "FullName": "Leonardo Rowe DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 700
+        "FieldType": "System.Int32",
+        "FieldLength": 937
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/SaveUntrustedCredentialsForAssociate
 uid: v1UserAgent_SaveUntrustedCredentialsForAssociate
+generated: true
 ---
 
 # POST Agents/User/SaveUntrustedCredentialsForAssociate
@@ -71,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 880,
-  "Type": "quasi",
+  "AssociateId": 555,
+  "Type": "incidunt",
   "Credentials": null
 }
 ```

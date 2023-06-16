@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetTicketCategories
 uid: v1ListAgent_GetTicketCategories
+generated: true
 ---
 
 # POST Agents/List/GetTicketCategories
@@ -92,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 396,
-    "ParentId": 568,
-    "Name": "Farrell-Kreiger",
-    "Fullname": "quas",
-    "CategoryMaster": 28,
+    "TicketCategoryId": 839,
+    "ParentId": 124,
+    "Name": "Witting-Gorczany",
+    "Fullname": "esse",
+    "CategoryMaster": 633,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Tremblay, Cassin and Renner",
+    "ExternalName": "McClure-Lesch",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 735,
-    "ReplyTemplate": 925,
-    "NotificationEmail": "sigmund.west@kovacek.ca",
+    "AssignmentLag": 961,
+    "ReplyTemplate": 154,
+    "NotificationEmail": "giuseppe.schmitt@lynch.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 460,
+    "EffectiveReplyTemplateId": 517,
     "ExtraFields": {
-      "ExtraFields1": "tempora",
-      "ExtraFields2": "sunt"
+      "ExtraFields1": "et",
+      "ExtraFields2": "unde"
     },
     "CustomFields": {
-      "CustomFields1": "quisquam",
-      "CustomFields2": "ab"
+      "CustomFields1": "unde",
+      "CustomFields2": "amet"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldType": "System.String",
+        "FieldLength": 134
       }
     }
   }

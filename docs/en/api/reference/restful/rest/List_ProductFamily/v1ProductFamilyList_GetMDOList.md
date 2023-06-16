@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductFamily/MDOItems
 uid: v1ProductFamilyList_GetMDOList
+generated: true
 ---
 
 # GET List/ProductFamily/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=harum
+GET /api/v1/List/ProductFamily/MDOItems?flat=True
+GET /api/v1/List/ProductFamily/MDOItems?query=deleniti
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Collins-Kutch",
-    "ToolTip": "Aut provident consequatur.",
-    "Deleted": false,
-    "Rank": 91,
-    "Type": "aut",
+    "Id": 997,
+    "Name": "Wunsch Group",
+    "ToolTip": "Sed rerum.",
+    "Deleted": true,
+    "Rank": 977,
+    "Type": "repudiandae",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Funk, Fritsch and Schaden",
-        "ToolTip": "Incidunt sit molestiae et beatae.",
+        "Id": 146,
+        "Name": "Windler, Spinka and Kreiger",
+        "ToolTip": "Qui dolores eaque.",
         "Deleted": true,
-        "Rank": 291,
-        "Type": "quos",
+        "Rank": 792,
+        "Type": "optio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloribus",
-        "ColorBlock": 794,
-        "ExtraInfo": "aut",
-        "StyleHint": "alias",
-        "FullName": "Hosea Mohr",
+        "IconHint": "et",
+        "ColorBlock": 808,
+        "ExtraInfo": "quaerat",
+        "StyleHint": "non",
+        "FullName": "Trever Bogan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 948
+            "FieldType": "System.String",
+            "FieldLength": 83
           }
         }
       }
     ],
-    "IconHint": "officia",
-    "ColorBlock": 99,
-    "ExtraInfo": "iure",
-    "StyleHint": "in",
-    "FullName": "Miss Dustin Yolanda Bailey II",
+    "IconHint": "quo",
+    "ColorBlock": 802,
+    "ExtraInfo": "commodi",
+    "StyleHint": "qui",
+    "FullName": "Christophe Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 89
+        "FieldType": "System.Int32",
+        "FieldLength": 420
       }
     }
   }

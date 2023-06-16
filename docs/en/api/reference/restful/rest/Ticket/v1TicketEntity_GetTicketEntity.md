@@ -1,6 +1,7 @@
 ---
 title: GET Ticket/{id}
 uid: v1TicketEntity_GetTicketEntity
+generated: true
 ---
 
 # GET Ticket/{id}
@@ -32,7 +33,7 @@ Calls the Ticket agent service GetTicketEntity.
 
 ```http
 GET /api/v1/Ticket/{id}?$select=name,department,category/id
-GET /api/v1/Ticket/{id}?fk=False
+GET /api/v1/Ticket/{id}?fk=True
 ```
 
 
@@ -138,21 +139,21 @@ HTTP/1.1 200 TicketEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 146,
-  "Title": "deserunt",
-  "CreatedAt": "2009-05-29T03:51:34.0678657+02:00",
-  "LastChanged": "2003-02-06T03:51:34.0678657+01:00",
-  "ReadByOwner": "2002-08-04T03:51:34.0678657+02:00",
-  "ReadByCustomer": "2021-08-01T03:51:34.0678657+02:00",
-  "FirstReadByOwner": "2006-07-20T03:51:34.0678657+02:00",
-  "FirstReadByUser": "2010-11-10T03:51:34.0678657+01:00",
-  "Activate": "2018-11-14T03:51:34.0678657+01:00",
-  "ClosedAt": "2000-09-07T03:51:34.0678657+02:00",
-  "RepliedAt": "2000-02-01T03:51:34.0678657+01:00",
-  "AlertTimeout": "2002-12-05T03:51:34.0678657+01:00",
-  "Deadline": "2011-11-28T03:51:34.0678657+01:00",
+  "TicketId": 394,
+  "Title": "ullam",
+  "CreatedAt": "2013-09-20T16:00:48.5083897+02:00",
+  "LastChanged": "2018-03-20T16:00:48.5083897+01:00",
+  "ReadByOwner": "2021-12-14T16:00:48.5083897+01:00",
+  "ReadByCustomer": "2018-07-15T16:00:48.5083897+02:00",
+  "FirstReadByOwner": "2015-06-09T16:00:48.5083897+02:00",
+  "FirstReadByUser": "2019-10-06T16:00:48.5083897+02:00",
+  "Activate": "2007-10-22T16:00:48.5083897+02:00",
+  "ClosedAt": "2015-11-12T16:00:48.5083897+01:00",
+  "RepliedAt": "2016-06-05T16:00:48.5083897+02:00",
+  "AlertTimeout": "2002-03-21T16:00:48.5083897+01:00",
+  "Deadline": "2018-08-18T16:00:48.5083897+02:00",
   "CreatedBy": null,
-  "Author": "eos",
+  "Author": "qui",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -163,159 +164,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "sunt",
-      "PersonId": 738,
-      "Mrmrs": "et",
-      "Firstname": "Roslyn",
-      "Lastname": "Lubowitz",
-      "MiddleName": "Swift-Koelpin",
-      "Title": "nesciunt",
-      "Description": "Profit-focused contextually-based hardware",
-      "Email": "seamus.hamill@mertz.co.uk",
-      "FullName": "Carolyn Solon Rutherford I",
-      "DirectPhone": "1-363-182-4821",
-      "FormalName": "Predovic, Bailey and Hudson",
-      "CountryId": 892,
-      "ContactId": 447,
-      "ContactName": "Stehr-Cronin",
-      "Retired": 481,
-      "Rank": 852,
-      "ActiveInterests": 228,
+      "Position": "blanditiis",
+      "PersonId": 514,
+      "Mrmrs": "sit",
+      "Firstname": "Kamille",
+      "Lastname": "Luettgen",
+      "MiddleName": "Haag-Cassin",
+      "Title": "perferendis",
+      "Description": "Reverse-engineered even-keeled functionalities",
+      "Email": "kaitlin@grahamgerlach.biz",
+      "FullName": "Grace Willms",
+      "DirectPhone": "664.215.9277",
+      "FormalName": "Wilkinson LLC",
+      "CountryId": 723,
+      "ContactId": 938,
+      "ContactName": "Swaniawski, Russel and O'Hara",
+      "Retired": 283,
+      "Rank": 647,
+      "ActiveInterests": 489,
       "ContactDepartment": "",
-      "ContactCountryId": 742,
-      "ContactOrgNr": "915319",
-      "FaxPhone": "(909)662-9490",
-      "MobilePhone": "(619)599-0645 x86973",
-      "ContactPhone": "1-028-378-9424 x031",
-      "AssociateName": "Torp, Grady and Bruen",
-      "AssociateId": 782,
+      "ContactCountryId": 17,
+      "ContactOrgNr": "1459982",
+      "FaxPhone": "912-545-7605",
+      "MobilePhone": "1-521-570-0114 x0217",
+      "ContactPhone": "(823)046-9941 x94329",
+      "AssociateName": "Murphy-Quitzon",
+      "AssociateId": 325,
       "UsePersonAddress": false,
-      "ContactFax": "in",
-      "Kanafname": "rem",
-      "Kanalname": "nesciunt",
-      "Post1": "suscipit",
-      "Post2": "eaque",
-      "Post3": "aut",
-      "EmailName": "ezra_jerde@haley.biz",
-      "ContactFullName": "Makayla Macejkovic",
-      "ActiveErpLinks": 240,
-      "TicketPriorityId": 770,
-      "SupportLanguageId": 88,
-      "SupportAssociateId": 308,
+      "ContactFax": "architecto",
+      "Kanafname": "omnis",
+      "Kanalname": "sit",
+      "Post1": "labore",
+      "Post2": "molestias",
+      "Post3": "quod",
+      "EmailName": "kailey.mueller@rosenbaum.ca",
+      "ContactFullName": "Ayana Simonis",
+      "ActiveErpLinks": 955,
+      "TicketPriorityId": 419,
+      "SupportLanguageId": 495,
+      "SupportAssociateId": 570,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 389
+          "FieldLength": 952
         }
       }
     }
   ],
-  "AlertLevel": 617,
-  "ConnectId": 987,
+  "AlertLevel": 91,
+  "ConnectId": 341,
   "ReadStatus": "Green",
-  "TimeToReply": 971,
-  "RealTimeToReply": 275,
-  "TimeToClose": 288,
-  "RealTimeToClose": 346,
-  "TimeSpentInternally": 619,
-  "TimeSpentExternally": 952,
-  "TimeSpentQueue": 51,
-  "RealTimeSpentInternally": 862,
-  "RealTimeSpentExternally": 140,
-  "RealTimeSpentQueue": 144,
+  "TimeToReply": 198,
+  "RealTimeToReply": 431,
+  "TimeToClose": 713,
+  "RealTimeToClose": 507,
+  "TimeSpentInternally": 256,
+  "TimeSpentExternally": 2,
+  "TimeSpentQueue": 196,
+  "RealTimeSpentInternally": 282,
+  "RealTimeSpentExternally": 643,
+  "RealTimeSpentQueue": 753,
   "HasAttachment": false,
-  "NumReplies": 936,
-  "NumMessages": 185,
-  "FromAddress": "voluptas",
+  "NumReplies": 878,
+  "NumMessages": 958,
+  "FromAddress": "excepturi",
   "Messages": [
     {
-      "TicketMessageId": 129,
-      "CreatedAt": "2012-10-16T03:51:34.0678657+02:00",
+      "TicketMessageId": 717,
+      "CreatedAt": "2013-10-14T16:00:48.5083897+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "natus",
-      "PersonId": 440,
-      "PersonFullName": "Crystal Gusikowski",
-      "ContactId": 3,
-      "ContactName": "Grady-Lesch",
+      "Author": "libero",
+      "PersonId": 860,
+      "PersonFullName": "Dereck Hudson",
+      "ContactId": 808,
+      "ContactName": "Brekke Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 772,
-      "EmailHeader": "emma.rutherford@jenkinsschowalter.com",
+      "NumAttachments": 822,
+      "EmailHeader": "thurman@dach.us",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "incidunt",
-      "Sentiment": 97,
-      "SentimentConfidence": 955,
-      "CreatedBy": 266,
-      "ChangedAt": "2022-01-04T03:51:34.0678657+01:00",
+      "Language": "iusto",
+      "Sentiment": 915,
+      "SentimentConfidence": 720,
+      "CreatedBy": 516,
+      "ChangedAt": "1999-07-09T16:00:48.5083897+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 62
+          "FieldLength": 211
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 616,
-      "Name": "Terry-Heller",
-      "ToolTip": "Nostrum aliquam consectetur sed.",
+      "Id": 739,
+      "Name": "Raynor-Walker",
+      "ToolTip": "Cum rem eos in debitis sunt quia.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldLength": 403
         }
       }
     },
     {
-      "Id": 616,
-      "Name": "Terry-Heller",
-      "ToolTip": "Nostrum aliquam consectetur sed.",
+      "Id": 739,
+      "Name": "Raynor-Walker",
+      "ToolTip": "Cum rem eos in debitis sunt quia.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldLength": 403
         }
       }
     }
   ],
-  "Language": "et",
-  "Sentiment": 818,
-  "SentimentConfidence": 277,
-  "SuggestedCategoryId": 370,
+  "Language": "nesciunt",
+  "Sentiment": 63,
+  "SentimentConfidence": 144,
+  "SuggestedCategoryId": 420,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 728,
-  "IconHint": "cum",
+  "OrigHumanCategoryId": 328,
+  "IconHint": "velit",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "harum"
+    "CustomFields1": "debitis",
+    "CustomFields2": "totam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 116
+      "FieldType": "System.Int32",
+      "FieldLength": 316
     }
   },
   "_Links": {

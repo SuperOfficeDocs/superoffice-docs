@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductType/MDOItems
 uid: v1ProductTypeList_GetMDOList
+generated: true
 ---
 
 # GET List/ProductType/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=nam
+GET /api/v1/List/ProductType/MDOItems?query=facere
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Name": "D'Amore Group",
-    "ToolTip": "Quibusdam ipsum culpa nesciunt incidunt et quae et.",
-    "Deleted": false,
-    "Rank": 85,
-    "Type": "modi",
+    "Id": 357,
+    "Name": "Sauer-Schamberger",
+    "ToolTip": "Qui qui sed eligendi adipisci omnis inventore.",
+    "Deleted": true,
+    "Rank": 57,
+    "Type": "deleniti",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "Koch-Schuster",
-        "ToolTip": "Qui rerum.",
+        "Id": 669,
+        "Name": "Krajcik, Weimann and Konopelski",
+        "ToolTip": "Amet debitis sint repellendus quia.",
         "Deleted": false,
-        "Rank": 744,
-        "Type": "similique",
+        "Rank": 41,
+        "Type": "nam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 391,
-        "ExtraInfo": "et",
-        "StyleHint": "iusto",
-        "FullName": "Mrs. Makenzie Elbert Zemlak DVM",
+        "IconHint": "porro",
+        "ColorBlock": 653,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "harum",
+        "FullName": "Cydney Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 128
+            "FieldType": "System.String",
+            "FieldLength": 531
           }
         }
       }
     ],
-    "IconHint": "ullam",
-    "ColorBlock": 734,
-    "ExtraInfo": "aperiam",
-    "StyleHint": "deserunt",
-    "FullName": "Mrs. Carli Kianna Kuvalis IV",
+    "IconHint": "quae",
+    "ColorBlock": 329,
+    "ExtraInfo": "libero",
+    "StyleHint": "qui",
+    "FullName": "Mr. Lonie Rene Stroman I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldLength": 588
       }
     }
   }

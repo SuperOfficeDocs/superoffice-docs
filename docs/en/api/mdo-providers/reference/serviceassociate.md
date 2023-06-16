@@ -1,17 +1,11 @@
 ---
 uid: serviceassociate
 title: serviceassociate
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "serviceassociate"
+keywords: mdoprovider mdo provider serviceassociate
+description: MDO provider for associates that are allowed to approve a quote.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "serviceassociate" MDO List

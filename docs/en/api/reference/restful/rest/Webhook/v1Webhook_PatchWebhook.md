@@ -1,6 +1,7 @@
 ---
 title: PATCH Webhook/{id}
 uid: v1Webhook_PatchWebhook
+generated: true
 ---
 
 # PATCH Webhook/{id}
@@ -120,18 +121,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nemo",
+    "path": "velit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nemo",
+    "path": "velit",
     "value": {}
   }
 ]
@@ -144,30 +145,30 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 135,
-  "Name": "Reynolds Inc and Sons",
+  "WebhookId": 710,
+  "Name": "Kautzer Inc and Sons",
   "Events": [
-    "quia",
-    "non"
+    "architecto",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "non",
+  "Secret": "illo",
   "State": "Active",
-  "Type": "sed",
+  "Type": "est",
   "Headers": {
-    "Headers1": "commodi",
-    "Headers2": "modi"
+    "Headers1": "harum",
+    "Headers2": "voluptatem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2009-05-04T03:51:34.3490406+02:00",
+  "Registered": "2015-10-03T16:00:48.8208679+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2000-02-29T03:51:34.3490406+01:00",
+  "Updated": "2007-03-15T16:00:48.8208679+01:00",
   "UpdatedAssociate": null,
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

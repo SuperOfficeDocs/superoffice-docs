@@ -1,6 +1,7 @@
 ---
 title: PUT List/DocumentTemplate/Items/{id}/UserGroups
 uid: v1DocumentTemplateList_PutDocumentTemplateEntityUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/DocumentTemplate/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Mann LLC",
-    "ToolTip": "Harum ab voluptatem sed ut suscipit aut iure.",
+    "Id": 873,
+    "Name": "Rempel LLC",
+    "ToolTip": "Ex officiis autem ratione vel ipsa.",
     "Deleted": false,
-    "Rank": 668,
-    "Type": "quisquam",
-    "ColorBlock": 740,
-    "IconHint": "tempora",
+    "Rank": 346,
+    "Type": "ea",
+    "ColorBlock": 286,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2004-12-20T03:51:34.692727+01:00",
+    "LastChanged": "2020-05-01T16:00:49.0395847+02:00",
     "ChildItems": [
       {
-        "Id": 876,
-        "Name": "Bosco Group",
-        "ToolTip": "Asperiores hic.",
+        "Id": 735,
+        "Name": "Fay-Franecki",
+        "ToolTip": "Dignissimos praesentium commodi minus exercitationem quidem aut est.",
         "Deleted": false,
-        "Rank": 734,
-        "Type": "occaecati",
-        "ColorBlock": 646,
-        "IconHint": "dolorem",
+        "Rank": 494,
+        "Type": "dolor",
+        "ColorBlock": 562,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "1997-02-13T03:51:34.692727+01:00",
+        "LastChanged": "2015-03-13T16:00:49.0395847+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "suscipit",
-        "Hidden": false,
-        "FullName": "Tressa King"
+        "ExtraInfo": "rerum",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Eleazar Stehr III"
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "dolor",
+    "ExtraInfo": "veniam",
+    "StyleHint": "sapiente",
     "Hidden": false,
-    "FullName": "Gail Carter DVM"
+    "FullName": "Prof. Jerome Jaeden Jones"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Rempel Inc and Sons",
-    "ToolTip": "Sit labore et omnis vel.",
-    "Deleted": true,
-    "Rank": 57,
-    "Type": "nostrum",
-    "ColorBlock": 550,
-    "IconHint": "est",
+    "Id": 802,
+    "Name": "Bahringer, Little and Boehm",
+    "ToolTip": "Voluptatibus explicabo fuga.",
+    "Deleted": false,
+    "Rank": 307,
+    "Type": "impedit",
+    "ColorBlock": 784,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "1996-08-21T03:51:34.692727+02:00",
+    "LastChanged": "2012-07-08T16:00:49.0395847+02:00",
     "ChildItems": [
       {
-        "Id": 590,
-        "Name": "Fahey, Dibbert and Feil",
-        "ToolTip": "Corrupti dolore.",
-        "Deleted": false,
-        "Rank": 520,
-        "Type": "distinctio",
-        "ColorBlock": 72,
-        "IconHint": "corrupti",
-        "Selected": false,
-        "LastChanged": "1997-12-09T03:51:34.692727+01:00",
+        "Id": 122,
+        "Name": "Friesen-Schamberger",
+        "ToolTip": "Odit vero et quam tenetur adipisci vero velit.",
+        "Deleted": true,
+        "Rank": 696,
+        "Type": "in",
+        "ColorBlock": 568,
+        "IconHint": "harum",
+        "Selected": true,
+        "LastChanged": "2000-05-09T16:00:49.0395847+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Miss Rick Evans Braun",
+        "ExtraInfo": "est",
+        "StyleHint": "ipsum",
+        "Hidden": true,
+        "FullName": "Stephania Hannah Reilly III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 624
+            "FieldLength": 852
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "commodi",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Mrs. Alize Stanton III",
+    "FullName": "Leola Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 333
+        "FieldType": "System.Int32",
+        "FieldLength": 531
       }
     }
   }

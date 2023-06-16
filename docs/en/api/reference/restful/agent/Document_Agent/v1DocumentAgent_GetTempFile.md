@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetTempFile
 uid: v1DocumentAgent_GetTempFile
+generated: true
 ---
 
 # POST Agents/Document/GetTempFile
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Document/GetTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "sit"
+  "Filename": "optio"
 }
 ```
 

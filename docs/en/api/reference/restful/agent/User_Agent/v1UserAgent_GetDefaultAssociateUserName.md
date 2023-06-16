@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetDefaultAssociateUserName
 uid: v1UserAgent_GetDefaultAssociateUserName
+generated: true
 ---
 
 # POST Agents/User/GetDefaultAssociateUserName
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetDefaultAssociateUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Gaylord Inc and Sons"
+"Gerlach Group"
 ```

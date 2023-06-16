@@ -1,6 +1,7 @@
 ---
 title: GET Project/CustomField
 uid: v1ProjectEntity_GetCustomFieldInfoList
+generated: true
 ---
 
 # GET Project/CustomField
@@ -66,7 +67,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Corkery, Harris and Murray",
-    "DisplayName": "Berge, Gutkowski and Carroll",
-    "Description": "Synchronised methodical neural-net",
-    "ShortLabel": "odio",
+    "FieldName": "DuBuque LLC",
+    "DisplayName": "Hessel Inc and Sons",
+    "Description": "Public-key multi-tasking capability",
+    "ShortLabel": "tempore",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 773,
-    "TemplateVariableName": "Wiza Group"
+    "IsMandatory": true,
+    "IsReadOnly": true,
+    "IsExternal": true,
+    "Rank": 210,
+    "TemplateVariableName": "Emmerich, Spencer and Greenfelder"
   }
 ]
 ```

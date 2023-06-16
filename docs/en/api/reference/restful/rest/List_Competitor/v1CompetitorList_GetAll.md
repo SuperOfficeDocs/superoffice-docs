@@ -1,6 +1,7 @@
 ---
 title: GET List/Competitor/Items
 uid: v1CompetitorList_GetAll
+generated: true
 ---
 
 # GET List/Competitor/Items
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Hermann, Hoppe and Paucek",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "UdListDefinitionId": 877,
-    "Rank": 91,
+    "Id": 101,
+    "Name": "Medhurst, Waters and Legros",
+    "Tooltip": "saepe",
+    "Deleted": false,
+    "UdListDefinitionId": 72,
+    "Rank": 503,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldType": "System.String",
+        "FieldLength": 180
       }
     }
   }

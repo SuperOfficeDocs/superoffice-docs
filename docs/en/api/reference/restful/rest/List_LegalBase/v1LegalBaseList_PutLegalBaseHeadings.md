@@ -1,6 +1,7 @@
 ---
 title: PUT List/LegalBase/Headings
 uid: v1LegalBaseList_PutLegalBaseHeadings
+generated: true
 ---
 
 # PUT List/LegalBase/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 788,
-    "Name": "Prosacco-Howell",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 385,
-    "UdListDefinitionId": 164
+    "HeadingId": 575,
+    "Name": "Zieme Inc and Sons",
+    "Tooltip": "minima",
+    "Deleted": false,
+    "Rank": 130,
+    "UdListDefinitionId": 141
   },
   {
-    "HeadingId": 788,
-    "Name": "Prosacco-Howell",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 385,
-    "UdListDefinitionId": 164
+    "HeadingId": 575,
+    "Name": "Zieme Inc and Sons",
+    "Tooltip": "minima",
+    "Deleted": false,
+    "Rank": 130,
+    "UdListDefinitionId": 141
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 174,
-    "Name": "Kerluke-Howell",
-    "Tooltip": "dignissimos",
-    "Deleted": false,
-    "Rank": 541,
-    "UdListDefinitionId": 101,
+    "HeadingId": 835,
+    "Name": "Schamberger, Terry and Runolfsdottir",
+    "Tooltip": "repellendus",
+    "Deleted": true,
+    "Rank": 779,
+    "UdListDefinitionId": 979,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 920
+        "FieldType": "System.Int32",
+        "FieldLength": 55
       }
     }
   }

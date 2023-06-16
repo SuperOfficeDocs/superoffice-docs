@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/SaveTicketMessageEntity
 uid: v1TicketAgent_SaveTicketMessageEntity
+generated: true
 ---
 
 # POST Agents/Ticket/SaveTicketMessageEntity
@@ -112,66 +113,66 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 341,
+  "EjMessageId": 854,
   "Ticket": null,
-  "CreatedAt": "2012-08-06T03:51:28.2870905+02:00",
+  "CreatedAt": "2008-09-05T16:00:42.0862728+02:00",
   "CreatedBy": null,
-  "Author": "rerum",
+  "Author": "officia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "iure",
-  "TimeSpent": 202,
-  "Body": "dolores",
-  "HtmlBody": "unde",
-  "EmailHeader": "margarete@veumfahey.info",
-  "DebugInfo": "aperiam",
-  "MailSorter": "temporibus",
+  "MessageId": "sed",
+  "TimeSpent": 681,
+  "Body": "dolorum",
+  "HtmlBody": "itaque",
+  "EmailHeader": "joana_friesen@haleylakin.ca",
+  "DebugInfo": "placeat",
+  "MailSorter": "aspernatur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "temporibus",
+  "SearchTitle": "quibusdam",
   "MessageHeaders": [
     {
-      "Id": 156,
-      "Name": "Langosh Group",
-      "Value": "odit",
+      "Id": 551,
+      "Name": "Kutch Group",
+      "Value": "adipisci",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 156,
-      "Name": "Langosh Group",
-      "Value": "odit",
+      "Id": 551,
+      "Name": "Kutch Group",
+      "Value": "adipisci",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "esse",
-  "Sentiment": 733,
-  "SentimentConfidence": 249,
+  "Important": false,
+  "Language": "animi",
+  "Sentiment": 129,
+  "SentimentConfidence": 547,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 635,
-      "Name": "Hirthe Inc and Sons",
-      "ContentType": "sapiente",
-      "AttSize": 4,
+      "AttachmentId": 174,
+      "Name": "Jewess Group",
+      "ContentType": "nostrum",
+      "AttSize": 442,
       "InlineImage": false,
-      "ContentId": "rem",
-      "AuthKey": "sit"
+      "ContentId": "fugit",
+      "AuthKey": "explicabo"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "nobis"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "impedit"
+    "CustomFields1": "molestias",
+    "CustomFields2": "dolores"
   }
 }
 ```
@@ -183,28 +184,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 289,
+  "EjMessageId": 399,
   "Ticket": null,
-  "CreatedAt": "2000-12-07T03:51:28.2870905+01:00",
+  "CreatedAt": "2014-03-23T16:00:42.0862728+01:00",
   "CreatedBy": null,
-  "Author": "architecto",
+  "Author": "corporis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptate",
-  "TimeSpent": 995,
-  "Body": "in",
-  "HtmlBody": "occaecati",
-  "EmailHeader": "ted@steuber.us",
-  "DebugInfo": "corporis",
-  "MailSorter": "vel",
+  "MessageId": "quis",
+  "TimeSpent": 451,
+  "Body": "et",
+  "HtmlBody": "autem",
+  "EmailHeader": "jana@carroll.uk",
+  "DebugInfo": "eos",
+  "MailSorter": "saepe",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "velit",
+  "SearchTitle": "delectus",
   "MessageHeaders": [
     {
-      "Id": 739,
-      "Name": "Kautzer Inc and Sons",
-      "Value": "voluptates",
+      "Id": 155,
+      "Name": "Smith, Raynor and Daugherty",
+      "Value": "suscipit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -212,49 +213,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldLength": 476
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "non",
-  "Sentiment": 504,
-  "SentimentConfidence": 58,
+  "Important": true,
+  "Language": "dolorum",
+  "Sentiment": 599,
+  "SentimentConfidence": 522,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 57,
-      "Name": "Pagac, Tillman and Breitenberg",
-      "ContentType": "dolor",
-      "AttSize": 184,
+      "AttachmentId": 292,
+      "Name": "Toy Inc and Sons",
+      "ContentType": "aut",
+      "AttSize": 319,
       "InlineImage": true,
-      "ContentId": "dolorum",
-      "AuthKey": "magni",
+      "ContentId": "hic",
+      "AuthKey": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldLength": 343
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "excepturi"
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "commodi"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "consectetur"
+    "CustomFields1": "facere",
+    "CustomFields2": "dolores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldType": "System.String",
+      "FieldLength": 679
     }
   }
 }

@@ -2,17 +2,10 @@
 uid: SimpleAppointment
 title: SimpleAppointment
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SimpleAppointment"
+keywords: SimpleAppointment archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SimpleAppointment"
@@ -126,6 +119,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
 |contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
@@ -226,6 +223,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |contact/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/LastSale|date|Date of last sale|  |
 |contact/LastCompletedSale|date|Date of last completed sale|  |
 |contact/LastDoBySale|date|Date of last non-completed sale|  |
@@ -326,6 +327,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/personAddress/zip|string|Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |person/personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |person/personAddress/wgs84latitude|decimal|Contact address - Latitude: Latitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
 |person/personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |person/personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
@@ -426,6 +431,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
@@ -526,6 +535,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |project/NumberOfActivities|int|Number of activities|  |
 |project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
@@ -626,6 +639,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
@@ -680,7 +697,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleAppointment?$select=contact/hasInfoText,person/birthMonth,person/personAddress/line2,person/personAssociate/credentialType,project/projectAssociate/portraitThumbnail
+GET /api/v1/archive/SimpleAppointment?$select=contact/streetAddress/wgs84latitude,contact/contactAssociate/contactId,person/birthdate,person/personExtra/x_person_date,person/personAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

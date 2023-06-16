@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetActivePriceLists
 uid: v1QuoteAgent_GetActivePriceLists
+generated: true
 ---
 
 # POST Agents/Quote/GetActivePriceLists
@@ -84,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 10,
-  "Currency": "voluptate"
+  "QuoteConnectionId": 464,
+  "Currency": "a"
 }
 ```
 
@@ -101,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 922,
-    "ERPPriceListKey": "quisquam",
-    "QuoteConnectionId": 1001,
-    "Name": "Champlin-Oberbrunner",
-    "Description": "Optional bi-directional policy",
-    "Currency": "quo",
-    "CurrencyName": "Hettinger Inc and Sons",
-    "ValidFrom": "2008-03-21T03:51:28.0215395+01:00",
-    "ValidTo": "2010-10-30T03:51:28.0215395+02:00",
+    "PriceListId": 542,
+    "ERPPriceListKey": "consequatur",
+    "QuoteConnectionId": 257,
+    "Name": "Hartmann-Schumm",
+    "Description": "Team-oriented upward-trending interface",
+    "Currency": "blanditiis",
+    "CurrencyName": "Streich-Glover",
+    "ValidFrom": "2010-02-25T16:00:41.6488224+01:00",
+    "ValidTo": "2016-01-31T16:00:41.6488224+01:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 103
+        "FieldLength": 662
       }
     }
   }

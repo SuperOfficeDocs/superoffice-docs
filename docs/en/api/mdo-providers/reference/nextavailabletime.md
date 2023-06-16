@@ -1,17 +1,11 @@
 ---
 uid: nextavailabletime
 title: nextavailabletime
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "nextavailabletime"
+keywords: mdoprovider mdo provider nextavailabletime
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "nextavailabletime" MDO List

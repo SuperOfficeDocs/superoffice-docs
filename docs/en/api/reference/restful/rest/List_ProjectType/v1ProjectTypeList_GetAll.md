@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectType/Items
 uid: v1ProjectTypeList_GetAll
+generated: true
 ---
 
 # GET List/ProjectType/Items
@@ -24,7 +25,7 @@ Gets all the ProjectType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectType/Items?includeDeleted=False
+GET /api/v1/List/ProjectType/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Name": "Hegmann LLC",
-    "Tooltip": "earum",
-    "Deleted": true,
-    "UdListDefinitionId": 738,
-    "Rank": 937,
+    "Id": 336,
+    "Name": "Ryan-Heathcote",
+    "Tooltip": "expedita",
+    "Deleted": false,
+    "UdListDefinitionId": 264,
+    "Rank": 410,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldType": "System.String",
+        "FieldLength": 824
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetListItemsForUserGroupFromListName
 uid: v1ListAgent_SetListItemsForUserGroupFromListName
+generated: true
 ---
 
 # POST Agents/List/SetListItemsForUserGroupFromListName
@@ -70,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Pouros, Douglas and Murray",
-  "UsergroupId": 917,
+  "UdListDefinitionName": "Ledner Group",
+  "UsergroupId": 274,
   "ListItemsID": [
-    655,
-    32
+    492,
+    827
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

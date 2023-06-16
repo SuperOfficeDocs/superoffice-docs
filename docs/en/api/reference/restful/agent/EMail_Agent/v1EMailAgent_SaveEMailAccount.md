@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/SaveEMailAccount
 uid: v1EMailAgent_SaveEMailAccount
+generated: true
 ---
 
 # POST Agents/EMail/SaveEMailAccount
@@ -82,20 +83,20 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 373,
-  "EMailAddress": "omnis",
-  "AssociateId": 49,
+  "EMailAccountId": 28,
+  "EMailAddress": "labore",
+  "AssociateId": 443,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 640,
-  "ErrorCount": 641,
+  "AccountStatus": 185,
+  "ErrorCount": 903,
   "ErrorReason": "",
-  "InboxFolder": "aliquid",
-  "SentFolder": "suscipit"
+  "InboxFolder": "veritatis",
+  "SentFolder": "sit"
 }
 ```
 
@@ -106,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 994,
-  "EMailAddress": "dolorem",
-  "AssociateId": 483,
+  "EMailAccountId": 332,
+  "EMailAddress": "expedita",
+  "AssociateId": 375,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 693,
-  "ErrorCount": 276,
+  "AccountStatus": 93,
+  "ErrorCount": 309,
   "ErrorReason": "",
-  "InboxFolder": "molestias",
-  "SentFolder": "sint",
+  "InboxFolder": "eos",
+  "SentFolder": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 797
+      "FieldType": "System.Int32",
+      "FieldLength": 168
     }
   }
 }

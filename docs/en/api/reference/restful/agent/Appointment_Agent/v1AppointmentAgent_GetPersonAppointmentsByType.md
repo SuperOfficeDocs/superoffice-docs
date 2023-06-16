@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetPersonAppointmentsByType
 uid: v1AppointmentAgent_GetPersonAppointmentsByType
+generated: true
 ---
 
 # POST Agents/Appointment/GetPersonAppointmentsByType
@@ -118,6 +119,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -127,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 84,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2006-07-23T03:51:26.5531332+02:00",
-  "EndTime": "2004-01-02T03:51:26.5531332+01:00",
-  "Count": 281,
+  "PersonId": 213,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2010-12-03T16:00:40.0394546+01:00",
+  "EndTime": "2017-08-28T16:00:40.0394546+02:00",
+  "Count": 394,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -148,61 +152,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 494,
-    "StartDate": "2022-11-03T03:51:26.5531332+01:00",
-    "EndDate": "2015-01-29T03:51:26.5531332+01:00",
+    "AppointmentId": 292,
+    "StartDate": "2006-12-28T16:00:40.0394546+01:00",
+    "EndDate": "2012-05-09T16:00:40.0394546+02:00",
     "Type": "BookingForChecklist",
-    "Task": "rerum",
-    "AssociateFullName": "Ms. Dell Jacobi",
-    "ContactName": "Hirthe, Kovacek and Lockman",
-    "Description": "Ameliorated responsive adapter",
-    "PersonFullName": "Miss Kamryn Zelma Deckow I",
-    "PersonId": 227,
-    "ContactId": 949,
-    "ProjectId": 589,
-    "ProjectName": "Rosenbaum, Lockman and Fahey",
+    "Task": "repudiandae",
+    "AssociateFullName": "Savanah Zulauf",
+    "ContactName": "Ziemann Group",
+    "Description": "Balanced encompassing synergy",
+    "PersonFullName": "Velma Dickinson",
+    "PersonId": 188,
+    "ContactId": 643,
+    "ProjectId": 724,
+    "ProjectName": "Hills Group",
     "IsPublished": false,
-    "AssociateId": 239,
-    "ColorIndex": 550,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 873,
+    "ColorIndex": 218,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 815,
-    "PriorityName": "Ortiz Inc and Sons",
+    "PriorityId": 507,
+    "PriorityName": "Pacocha-Fahey",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1996-02-06T03:51:26.5531332+01:00",
+    "ActiveDate": "2000-03-26T16:00:40.0394546+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-04-26T03:51:26.5531332+02:00",
-    "RecurringEndDate": "1997-02-04T03:51:26.5531332+01:00",
-    "MotherId": 424,
-    "AssignedBy": 823,
-    "AssignedByFullName": "Sienna Lockman Sr.",
-    "RejectReason": "extend intuitive portals",
-    "Location": "voluptates",
-    "AlarmLeadTime": "nihil",
-    "SaleId": 195,
-    "SaleName": "Braun Group",
-    "AssociateName": "Mante LLC",
-    "CreatedDate": "2018-12-02T03:51:26.5531332+01:00",
-    "CreatedBy": "saepe",
-    "CreatedByFullName": "Johanna Bosco",
-    "CreatedByAssociateId": 463,
+    "RecurringStartDate": "2018-09-22T16:00:40.0394546+02:00",
+    "RecurringEndDate": "2016-08-29T16:00:40.0394546+02:00",
+    "MotherId": 64,
+    "AssignedBy": 525,
+    "AssignedByFullName": "Eldon Stehr",
+    "RejectReason": "",
+    "Location": "deserunt",
+    "AlarmLeadTime": "alias",
+    "SaleId": 226,
+    "SaleName": "Cole-Greenholt",
+    "AssociateName": "Volkman-Klocko",
+    "CreatedDate": "2023-03-06T16:00:40.0394546+01:00",
+    "CreatedBy": "voluptatem",
+    "CreatedByFullName": "Lisette Hackett",
+    "CreatedByAssociateId": 206,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "maiores",
+    "Agenda": "possimus",
+    "InternalNotes": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 105
+        "FieldType": "System.Int32",
+        "FieldLength": 277
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/SetXsrfPaths
 uid: v1PreferenceAgent_SetXsrfPaths
+generated: true
 ---
 
 # POST Agents/Preference/SetXsrfPaths
@@ -64,14 +65,14 @@ No Content
 POST /api/v1/Agents/Preference/SetXsrfPaths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "omnis",
+  "Hostname": "sunt",
   "Paths": [
-    "quos",
-    "adipisci"
+    "fugit",
+    "sunt"
   ]
 }
 ```

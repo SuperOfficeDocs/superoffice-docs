@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetDocumentPluginForAllDocumentTemplates
 uid: v1ListAgent_SetDocumentPluginForAllDocumentTemplates
+generated: true
 ---
 
 # POST Agents/List/SetDocumentPluginForAllDocumentTemplates
@@ -67,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 817
+  "DocumentPluginId": 865
 }
 ```
 

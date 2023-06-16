@@ -1,6 +1,7 @@
 ---
 title: PUT List/UserGroup/Items/{id}
 uid: v1UserGroupList_PutUserGroup
+generated: true
 ---
 
 # PUT List/UserGroup/Items/{id}
@@ -81,11 +82,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "necessitatibus",
-  "Tooltip": "nulla",
-  "Id": 292,
-  "Rank": 304,
-  "Deleted": true
+  "Value": "cum",
+  "Tooltip": "et",
+  "Id": 659,
+  "Rank": 272,
+  "Deleted": false
 }
 ```
 
@@ -96,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "et",
-  "Tooltip": "deserunt",
-  "Id": 202,
-  "Rank": 373,
-  "Deleted": true,
+  "Value": "quia",
+  "Tooltip": "et",
+  "Id": 617,
+  "Rank": 201,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 542
     }
   }
 }

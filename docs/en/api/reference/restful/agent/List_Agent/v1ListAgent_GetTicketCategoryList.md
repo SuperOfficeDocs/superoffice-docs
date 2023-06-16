@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetTicketCategoryList
 uid: v1ListAgent_GetTicketCategoryList
+generated: true
 ---
 
 # POST Agents/List/GetTicketCategoryList
@@ -86,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 370,
-    "ParentId": 801,
-    "Name": "Grady-Miller",
-    "Fullname": "asperiores",
-    "CategoryMaster": 925,
+    "TicketCategoryId": 440,
+    "ParentId": 850,
+    "Name": "Schaefer, Sipes and Quitzon",
+    "Fullname": "voluptatum",
+    "CategoryMaster": 324,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Boyer-Monahan",
+    "ExternalName": "Koss LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 365,
-    "ReplyTemplate": 705,
-    "NotificationEmail": "annetta_upton@little.us",
+    "AssignmentLag": 795,
+    "ReplyTemplate": 40,
+    "NotificationEmail": "carli@osinski.us",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 200,
+    "EffectiveReplyTemplateId": 680,
     "ExtraFields": {
-      "ExtraFields1": "omnis",
-      "ExtraFields2": "et"
+      "ExtraFields1": "voluptatem",
+      "ExtraFields2": "dolor"
     },
     "CustomFields": {
-      "CustomFields1": "eos",
-      "CustomFields2": "labore"
+      "CustomFields1": "aut",
+      "CustomFields2": "aspernatur"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 295
+        "FieldLength": 719
       }
     }
   }

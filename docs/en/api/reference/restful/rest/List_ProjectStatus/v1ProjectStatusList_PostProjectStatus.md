@@ -1,6 +1,7 @@
 ---
 title: POST List/ProjectStatus/Items
 uid: v1ProjectStatusList_PostProjectStatus
+generated: true
 ---
 
 # POST List/ProjectStatus/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 534,
-  "Name": "Ferry-Effertz",
-  "Tooltip": "mollitia",
+  "Id": 37,
+  "Name": "Deckow LLC",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "UdListDefinitionId": 647,
-  "Rank": 585
+  "UdListDefinitionId": 221,
+  "Rank": 475
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 571,
-  "Name": "Kling, Breitenberg and Schinner",
-  "Tooltip": "aliquam",
+  "Id": 854,
+  "Name": "Kub, Johnson and Altenwerth",
+  "Tooltip": "odit",
   "Deleted": true,
-  "UdListDefinitionId": 991,
-  "Rank": 599,
+  "UdListDefinitionId": 123,
+  "Rank": 647,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 493
     }
   }
 }

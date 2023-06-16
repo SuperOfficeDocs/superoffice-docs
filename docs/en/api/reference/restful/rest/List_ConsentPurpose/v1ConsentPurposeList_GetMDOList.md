@@ -1,6 +1,7 @@
 ---
 title: GET List/ConsentPurpose/MDOItems
 uid: v1ConsentPurposeList_GetMDOList
+generated: true
 ---
 
 # GET List/ConsentPurpose/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=pariatur
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
+GET /api/v1/List/ConsentPurpose/MDOItems?query=facere
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Jacobs Inc and Sons",
-    "ToolTip": "Voluptatem ullam odio et natus ad aut.",
+    "Id": 812,
+    "Name": "Gibson-Koepp",
+    "ToolTip": "Voluptatem repudiandae iusto sapiente consequatur ullam quod.",
     "Deleted": false,
-    "Rank": 944,
-    "Type": "eos",
+    "Rank": 875,
+    "Type": "nesciunt",
     "ChildItems": [
       {
-        "Id": 124,
-        "Name": "Metz Inc and Sons",
-        "ToolTip": "Quasi in assumenda voluptate incidunt illum.",
+        "Id": 924,
+        "Name": "Will, Ledner and Kuvalis",
+        "ToolTip": "Provident explicabo.",
         "Deleted": false,
-        "Rank": 649,
-        "Type": "et",
+        "Rank": 955,
+        "Type": "modi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "libero",
-        "ColorBlock": 451,
-        "ExtraInfo": "libero",
-        "StyleHint": "voluptates",
-        "FullName": "Skylar Weimann",
+        "IconHint": "ea",
+        "ColorBlock": 748,
+        "ExtraInfo": "illum",
+        "StyleHint": "expedita",
+        "FullName": "Angeline Terry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 479
+            "FieldType": "System.Int32",
+            "FieldLength": 161
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 585,
-    "ExtraInfo": "minima",
-    "StyleHint": "nam",
-    "FullName": "Ms. Morris Johns",
+    "IconHint": "quaerat",
+    "ColorBlock": 484,
+    "ExtraInfo": "officiis",
+    "StyleHint": "tenetur",
+    "FullName": "Louie Bednar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 84
+        "FieldType": "System.Int32",
+        "FieldLength": 29
       }
     }
   }

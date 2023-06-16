@@ -2,17 +2,10 @@
 uid: contactfavourites
 title: contactfavourites
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "contactfavourites"
+keywords: contactfavourites archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "contactfavourites"
@@ -126,6 +119,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |url/URLAddress|string|URL| x |
 |url/URLDescription|string|Description| x |
 |contactAssociate/firstName|string|First name: Displays the contact's first name| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |contactAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -226,6 +223,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactSupportPerson/supportAssociateFullName|associate|User support contact - Our service contact - Full name: Default service contact for this contact| x |
 |contactSupportPerson/personAssociateId|associate|User support contact - Our contact: Displays our contact| x |
 |contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactSupportPerson/personCategory|listAny|User support contact - Category| x |
 |contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
 |contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
@@ -326,6 +327,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |NumberOfTickets|int|Number of requests|  |
 |NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
 |LastTicket|date|Date of last request|  |
 |LastCompletedTicket|date|Date of last completed request|  |
@@ -345,7 +350,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/contactfavourites?$select=contactAssociate/contactName,contactSupportPerson/consentSourceStore,NumberOfActivities,saintTicketCategory
+GET /api/v1/archive/contactfavourites?$select=deletedDate,streetAddress/state,contactAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

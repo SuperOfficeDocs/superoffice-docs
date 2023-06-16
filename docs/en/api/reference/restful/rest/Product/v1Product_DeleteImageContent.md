@@ -1,6 +1,7 @@
 ---
 title: DEL Product/{id}/Image
 uid: v1Product_DeleteImageContent
+generated: true
 ---
 
 # DEL Product/{id}/Image

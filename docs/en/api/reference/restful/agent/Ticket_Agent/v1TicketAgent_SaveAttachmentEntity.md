@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/SaveAttachmentEntity
 uid: v1TicketAgent_SaveAttachmentEntity
+generated: true
 ---
 
 # POST Agents/Ticket/SaveAttachmentEntity
@@ -78,13 +79,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 292,
-  "Name": "Mayer-Ortiz",
-  "ContentType": "sed",
-  "AttSize": 128,
-  "InlineImage": true,
-  "ContentId": "recusandae",
-  "AuthKey": "magni"
+  "AttachmentId": 364,
+  "Name": "Parisian-Kunze",
+  "ContentType": "aliquid",
+  "AttSize": 664,
+  "InlineImage": false,
+  "ContentId": "voluptatem",
+  "AuthKey": "nam"
 }
 ```
 
@@ -95,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 431,
-  "Name": "Hilpert Inc and Sons",
-  "ContentType": "enim",
-  "AttSize": 111,
+  "AttachmentId": 970,
+  "Name": "Parisian Group",
+  "ContentType": "repellendus",
+  "AttSize": 340,
   "InlineImage": false,
-  "ContentId": "nostrum",
-  "AuthKey": "sit",
+  "ContentId": "similique",
+  "AuthKey": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 174
     }
   }
 }

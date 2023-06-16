@@ -1,17 +1,11 @@
 ---
 uid: favouritetype
 title: favouritetype
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "favouritetype"
+keywords: mdoprovider mdo provider favouritetype
+description: MDO list provider for Favourite types
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "favouritetype" MDO List

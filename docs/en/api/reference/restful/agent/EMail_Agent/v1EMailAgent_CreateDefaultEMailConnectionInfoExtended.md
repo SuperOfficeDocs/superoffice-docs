@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 uid: v1EMailAgent_CreateDefaultEMailConnectionInfoExtended
+generated: true
 ---
 
 # POST Agents/EMail/CreateDefaultEMailConnectionInfoExtended
@@ -65,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 746,
-  "ServerName": "Tremblay, Leffler and Lakin",
-  "Protocol": "sed",
-  "UserName": "Carter-Willms",
-  "Password": "ipsam",
-  "UseSSL": true,
-  "Folder": "dolore",
+  "Port": 776,
+  "ServerName": "Tremblay-Mosciski",
+  "Protocol": "nisi",
+  "UserName": "Mueller-Hackett",
+  "Password": "qui",
+  "UseSSL": false,
+  "Folder": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

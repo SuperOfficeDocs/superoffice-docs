@@ -1,17 +1,11 @@
 ---
 uid: plugin
 title: plugin
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "plugin"
+keywords: mdoprovider mdo provider plugin
+description: List of installed and available Document plugins
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "plugin" MDO List

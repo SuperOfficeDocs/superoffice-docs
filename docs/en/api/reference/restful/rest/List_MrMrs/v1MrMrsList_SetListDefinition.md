@@ -1,6 +1,7 @@
 ---
 title: PUT List/MrMrs
 uid: v1MrMrsList_SetListDefinition
+generated: true
 ---
 
 # PUT List/MrMrs
@@ -83,19 +84,19 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 647,
-  "Name": "Swift-D'Amore",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 40,
-  "IsCustomList": false,
+  "Id": 184,
+  "Name": "Simonis-Von",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 562,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "laborum",
+  "ListType": "unde",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 625,
-  "Name": "Toy-Mosciski",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "Rank": 302,
-  "IsCustomList": true,
+  "Id": 898,
+  "Name": "Kihn Group",
+  "Tooltip": "eum",
+  "Deleted": false,
+  "Rank": 577,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "veritatis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldLength": 515
     }
   }
 }

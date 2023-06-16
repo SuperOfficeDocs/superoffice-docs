@@ -1,6 +1,7 @@
 ---
 title: PUT List/TicketPriority/Headings
 uid: v1TicketPriorityList_PutTicketPriorityEntityHeadings
+generated: true
 ---
 
 # PUT List/TicketPriority/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 168,
-    "Name": "Weissnat, Ondricka and Bednar",
-    "Tooltip": "sunt",
+    "HeadingId": 193,
+    "Name": "Marvin Group",
+    "Tooltip": "sed",
     "Deleted": true,
-    "Rank": 233,
-    "UdListDefinitionId": 18
+    "Rank": 491,
+    "UdListDefinitionId": 342
   },
   {
-    "HeadingId": 168,
-    "Name": "Weissnat, Ondricka and Bednar",
-    "Tooltip": "sunt",
+    "HeadingId": 193,
+    "Name": "Marvin Group",
+    "Tooltip": "sed",
     "Deleted": true,
-    "Rank": 233,
-    "UdListDefinitionId": 18
+    "Rank": 491,
+    "UdListDefinitionId": 342
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 608,
-    "Name": "Renner-Waelchi",
-    "Tooltip": "doloremque",
+    "HeadingId": 33,
+    "Name": "Altenwerth-Carter",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 126,
-    "UdListDefinitionId": 445,
+    "Rank": 946,
+    "UdListDefinitionId": 191,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldType": "System.String",
+        "FieldLength": 796
       }
     }
   }

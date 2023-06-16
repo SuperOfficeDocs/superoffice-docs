@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetSalesFromPerson
 uid: v1SaleAgent_GetSalesFromPerson
+generated: true
 ---
 
 # POST Agents/Sale/GetSalesFromPerson
@@ -97,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 775,
+  "PersonId": 297,
   "OnlyOpenSales": false
 }
 ```
@@ -114,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Stracke Inc and Sons",
-    "SaleDate": "1996-02-26T03:51:28.1308861+01:00",
-    "SaleId": 662,
-    "Probability": 543,
-    "Title": "ut",
-    "Amount": 2920.888,
-    "Currency": "saepe",
-    "ProjectName": "Renner, Stehr and Beier",
-    "AssociateFullName": "Ray Langosh V",
-    "Description": "Focused 3rd generation portal",
+    "ContactName": "Abshire-Reichel",
+    "SaleDate": "2016-01-30T16:00:41.7894273+01:00",
+    "SaleId": 655,
+    "Probability": 952,
+    "Title": "mollitia",
+    "Amount": 6948.0779999999995,
+    "Currency": "quos",
+    "ProjectName": "Daniel, Cruickshank and Konopelski",
+    "AssociateFullName": "Abbigail Turner IV",
+    "Description": "User-centric assymetric product",
     "Status": "Lost",
-    "WeightedAmount": 15441.217999999999,
-    "ProjectId": 303,
-    "EarningPercent": 2707.776,
-    "Earning": 15930.122,
-    "ContactId": 907,
-    "AssociateId": 717,
-    "PersonId": 402,
-    "SaleTypeId": 406,
-    "SaleTypeName": "Crona-Grimes",
-    "PersonFullName": "Xzavier Bayer",
+    "WeightedAmount": 28165.257999999998,
+    "ProjectId": 677,
+    "EarningPercent": 14864.562,
+    "Earning": 3964.5099999999998,
+    "ContactId": 31,
+    "AssociateId": 639,
+    "PersonId": 355,
+    "SaleTypeId": 126,
+    "SaleTypeName": "Prosacco-Schinner",
+    "PersonFullName": "Yoshiko Ledner",
     "Completed": "Completed",
-    "ActiveErpLinks": 598,
-    "NextDueDate": "2000-12-18T03:51:28.1308861+01:00",
-    "Number": "995130",
+    "ActiveErpLinks": 851,
+    "NextDueDate": "2022-06-01T16:00:41.7894273+02:00",
+    "Number": "1564958",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 819
+        "FieldType": "System.String",
+        "FieldLength": 207
       }
     }
   }

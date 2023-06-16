@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.GetSaleTypeList SOAP
-generated: 1
+generated: true
 uid: Services88-List-GetSaleTypeList
 ---
 

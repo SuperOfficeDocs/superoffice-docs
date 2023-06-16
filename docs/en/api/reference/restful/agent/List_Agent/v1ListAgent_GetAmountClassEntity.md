@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAmountClassEntity
 uid: v1ListAgent_GetAmountClassEntity
+generated: true
 ---
 
 # POST Agents/List/GetAmountClassEntity
@@ -25,7 +26,7 @@ Gets a AmountClassEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=552
+POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=12
 POST /api/v1/Agents/List/GetAmountClassEntity?$select=name,department,category/id
 ```
 
@@ -83,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 979,
-  "Name": "Sauer LLC",
-  "Tooltip": "autem",
-  "Rank": 199,
-  "AmountFrom": 10570.982,
-  "AmountTo": 12241.404,
+  "AmountClassId": 628,
+  "Name": "Raynor Inc and Sons",
+  "Tooltip": "eos",
+  "Rank": 674,
+  "AmountFrom": 12319.753999999999,
+  "AmountTo": 18772.66,
   "Deleted": true,
-  "CurrencyId": 986,
+  "CurrencyId": 269,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   }
 }

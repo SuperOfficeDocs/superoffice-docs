@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/DeleteSelectionEntity
 uid: v1SelectionAgent_DeleteSelectionEntity
+generated: true
 ---
 
 # POST Agents/Selection/DeleteSelectionEntity
@@ -24,7 +25,7 @@ Deletes the SelectionEntity
 | SelectionEntityId | int32 | **Required** The id of the SelectionEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Selection/DeleteSelectionEntity?SelectionEntityId=736
+POST /api/v1/Agents/Selection/DeleteSelectionEntity?SelectionEntityId=997
 ```
 
 
@@ -55,7 +56,7 @@ No Content
 POST /api/v1/Agents/Selection/DeleteSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

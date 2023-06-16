@@ -1,7 +1,7 @@
 ---
 title: Services88.SaintAgent SOAP
 uid: Services88-Saint-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Saint SOAP

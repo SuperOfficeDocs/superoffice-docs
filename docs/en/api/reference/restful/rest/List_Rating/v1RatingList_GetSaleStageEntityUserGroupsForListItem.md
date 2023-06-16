@@ -1,6 +1,7 @@
 ---
 title: GET List/Rating/Items/{id}/UserGroups
 uid: v1RatingList_GetSaleStageEntityUserGroupsForListItem
+generated: true
 ---
 
 # GET List/Rating/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 818,
-    "Name": "Hegmann Group",
-    "ToolTip": "Quia aut qui praesentium labore quo.",
+    "Id": 708,
+    "Name": "Zemlak-Predovic",
+    "ToolTip": "Reiciendis libero est accusamus eos autem et est.",
     "Deleted": false,
-    "Rank": 447,
-    "Type": "id",
-    "ColorBlock": 674,
-    "IconHint": "est",
+    "Rank": 220,
+    "Type": "sint",
+    "ColorBlock": 160,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2014-12-14T03:51:34.8957999+01:00",
+    "LastChanged": "2017-07-07T16:00:49.2426861+02:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Schulist-Nikolaus",
-        "ToolTip": "Et iste provident.",
+        "Id": 244,
+        "Name": "Ortiz-Cremin",
+        "ToolTip": "Et sed tempora ut dolorum.",
         "Deleted": false,
-        "Rank": 94,
-        "Type": "eum",
-        "ColorBlock": 349,
-        "IconHint": "tempore",
-        "Selected": true,
-        "LastChanged": "1997-05-11T03:51:34.8957999+02:00",
+        "Rank": 157,
+        "Type": "est",
+        "ColorBlock": 656,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2016-11-27T16:00:49.2583068+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "ut",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "David Marquardt I",
+        "FullName": "Mr. Daphnee Sim Schmeler IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 821
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "corrupti",
-    "Hidden": false,
-    "FullName": "Erik Hailee Klocko II",
+    "ExtraInfo": "iste",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Russ Zulauf DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldType": "System.String",
+        "FieldLength": 54
       }
     }
   }

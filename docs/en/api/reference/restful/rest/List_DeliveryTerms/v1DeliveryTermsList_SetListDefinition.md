@@ -1,6 +1,7 @@
 ---
 title: PUT List/DeliveryTerm
 uid: v1DeliveryTermsList_SetListDefinition
+generated: true
 ---
 
 # PUT List/DeliveryTerm
@@ -87,16 +88,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 977,
-  "Name": "Rodriguez-Balistreri",
-  "Tooltip": "porro",
+  "Id": 54,
+  "Name": "Terry-Pagac",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 768,
+  "Rank": 523,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quidem",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "atque",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 77,
-  "Name": "Abernathy, Barton and Ledner",
-  "Tooltip": "tenetur",
+  "Id": 490,
+  "Name": "Kassulke-Quitzon",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "Rank": 186,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 934,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsam",
+  "ListType": "vero",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 485
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: Services88.ContactAgent.GetMyActiveContacts SOAP
-generated: 1
+generated: true
 uid: Services88-Contact-GetMyActiveContacts
 ---
 
@@ -39,7 +39,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Contact:Credentials>
  <SOAP-ENV:Body>
    <Contact:GetMyActiveContacts>
-    <Contact:ActivityStartTime xsi:type="xsd:dateTime">2023-05-25T11:08:27Z</Contact:ActivityStartTime>
+    <Contact:ActivityStartTime xsi:type="xsd:dateTime">2023-06-09T13:58:29Z</Contact:ActivityStartTime>
     <Contact:ContactCategories xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
     </Contact:ContactCategories>
@@ -75,7 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Contact:URL xsi:type="xsd:string"></Contact:URL>
      <Contact:AssociateFullName xsi:type="xsd:string"></Contact:AssociateFullName>
      <Contact:Action xsi:type="Contact:ContactAction">Created</Contact:Action>
-     <Contact:ActionTime xsi:type="xsd:dateTime">2023-05-25T11:08:27Z</Contact:ActionTime>
+     <Contact:ActionTime xsi:type="xsd:dateTime">2023-06-09T13:58:29Z</Contact:ActionTime>
      <Contact:Category xsi:type="xsd:string"></Contact:Category>
      <Contact:ActivityPersonName xsi:type="xsd:string"></Contact:ActivityPersonName>
      <Contact:ActionId xsi:type="xsd:int">0</Contact:ActionId>

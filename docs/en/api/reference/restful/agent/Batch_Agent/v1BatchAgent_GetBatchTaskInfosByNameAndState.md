@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/GetBatchTaskInfosByNameAndState
 uid: v1BatchAgent_GetBatchTaskInfosByNameAndState
+generated: true
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByNameAndState
@@ -94,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wyman, Tromp and Hintz",
+  "Name": "Harber Group",
   "State": "All"
 }
 ```
@@ -111,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 452,
-    "Name": "Mosciski Inc and Sons",
-    "AssociateId": 184,
-    "DetailsTable": 95,
-    "DetailsRecord": 517,
+    "Id": 848,
+    "Name": "Purdy-Graham",
+    "AssociateId": 702,
+    "DetailsTable": 615,
+    "DetailsRecord": 453,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "molestias",
-      "ParameterObject2": "officia"
+      "ParameterObject1": "sunt",
+      "ParameterObject2": "ea"
     },
-    "LastStarted": "2010-07-17T03:51:26.6156255+02:00",
-    "Created": "2021-04-07T03:51:26.6156255+02:00",
-    "StartCount": 462,
-    "DatabaseSerialNumber": "982865",
-    "Context": "quibusdam",
-    "Result": "omnis",
+    "LastStarted": "2015-09-29T16:00:40.1019505+02:00",
+    "Created": "2008-06-17T16:00:40.1019505+02:00",
+    "StartCount": 993,
+    "DatabaseSerialNumber": "681478",
+    "Context": "quaerat",
+    "Result": "mollitia",
     "State": "All",
-    "Description": "Down-sized demand-driven access",
-    "Response": "et",
-    "Request": "eos",
-    "ProgressDescription": "Decentralized multi-tasking database",
-    "ProgressPercent": 463,
-    "FileName": "Koepp LLC",
+    "Description": "Multi-channelled object-oriented methodology",
+    "Response": "nam",
+    "Request": "ut",
+    "ProgressDescription": "Innovative even-keeled service-desk",
+    "ProgressPercent": 362,
+    "FileName": "Rau-Bahringer",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldType": "System.String",
+        "FieldLength": 422
       }
     }
   }

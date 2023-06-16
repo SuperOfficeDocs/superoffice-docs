@@ -1,6 +1,7 @@
 ---
 title: GET Project/UdefLayout/Published/{progidOrLabel}
 uid: v1ProjectEntity_GetPublishedUdefFieldInfo
+generated: true
 ---
 
 # GET Project/UdefLayout/Published/{progidOrLabel}
@@ -92,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 570,
-  "ColumnId": 58,
-  "FieldDefault": "et",
-  "FieldHeight": 525,
-  "FieldLabel": "soluta",
-  "FieldLeft": 240,
-  "FieldTop": 618,
+  "UDefFieldId": 934,
+  "ColumnId": 214,
+  "FieldDefault": "facilis",
+  "FieldHeight": 36,
+  "FieldLabel": "laboriosam",
+  "FieldLeft": 922,
+  "FieldTop": 71,
   "FieldType": "Checkbox",
-  "FieldWidth": 144,
-  "FormatMask": "id",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 47,
-  "LabelLeft": 929,
-  "LabelTop": 215,
-  "LabelWidth": 540,
-  "LastVersionId": 624,
-  "ListTableId": 90,
+  "FieldWidth": 165,
+  "FormatMask": "omnis",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 919,
+  "LabelLeft": 749,
+  "LabelTop": 157,
+  "LabelWidth": 232,
+  "LastVersionId": 317,
+  "ListTableId": 509,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 179,
-  "ProgId": "voluptas",
+  "Page1LineNo": 173,
+  "ProgId": "magni",
   "IsReadOnly": false,
-  "ShortLabel": "aperiam",
-  "TabOrder": 189,
-  "TextLength": 644,
-  "Tooltip": "ea",
-  "UdefIdentity": 179,
-  "UDListDefinitionId": 544,
+  "ShortLabel": "alias",
+  "TabOrder": 63,
+  "TextLength": 2,
+  "Tooltip": "sit",
+  "UdefIdentity": 525,
+  "UDListDefinitionId": 889,
   "Justification": "Center",
-  "Version": 324,
-  "TemplateVariableName": "Kunze Group",
+  "Version": 941,
+  "TemplateVariableName": "Thiel LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Boyer LLC",
+  "MdoListName": "Beatty-Lueilwitz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldType": "System.String",
+      "FieldLength": 102
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteApproveReason/Items/{id}
 uid: v1QuoteApproveReasonList_GetQuoteApproveReason
+generated: true
 ---
 
 # GET List/QuoteApproveReason/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Haag, Langworth and Keebler",
-  "Tooltip": "asperiores",
-  "Deleted": true,
-  "UdListDefinitionId": 246,
-  "Rank": 456,
+  "Id": 496,
+  "Name": "Hoppe-Ferry",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "UdListDefinitionId": 516,
+  "Rank": 724,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

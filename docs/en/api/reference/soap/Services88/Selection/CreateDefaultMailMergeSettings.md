@@ -1,6 +1,6 @@
 ---
 title: Services88.SelectionAgent.CreateDefaultMailMergeSettings SOAP
-generated: 1
+generated: true
 uid: Services88-Selection-CreateDefaultMailMergeSettings
 ---
 
@@ -72,7 +72,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:TaskEntity xsi:type="Selection:MailMergeTask">
      <Selection:ProjectId xsi:type="xsd:int">0</Selection:ProjectId>
      <Selection:TypeId xsi:type="xsd:int">0</Selection:TypeId>
-     <Selection:StartDate xsi:type="xsd:dateTime">2023-05-25T11:10:00Z</Selection:StartDate>
+     <Selection:StartDate xsi:type="xsd:dateTime">2023-06-09T14:00:02Z</Selection:StartDate>
      <Selection:Duration xsi:type="xsd:int">0</Selection:Duration>
      <Selection:Description xsi:type="xsd:string"></Selection:Description>
      <Selection:PriorityId xsi:type="xsd:int">0</Selection:PriorityId>

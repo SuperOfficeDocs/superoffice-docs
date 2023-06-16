@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dashboard/CreateDefaultDashboard
 uid: v1DashboardAgent_CreateDefaultDashboard
+generated: true
 ---
 
 # POST Agents/Dashboard/CreateDefaultDashboard
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 843,
-  "AssociateId": 170,
-  "Caption": "eaque",
+  "DashboardId": 907,
+  "AssociateId": 939,
+  "Caption": "non",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 375,
-      "Caption": "et",
-      "Description": "Phased discrete customer loyalty",
-      "ChartName": "Spencer, Adams and Lueilwitz",
-      "ChartId": "similique",
+      "DashboardTileId": 547,
+      "Caption": "debitis",
+      "Description": "Organized explicit budgetary management",
+      "ChartName": "Bednar, Hagenes and Hirthe",
+      "ChartId": "laudantium",
       "IsDefault": false,
-      "AssociateId": 235,
-      "GroupId": 630,
-      "SelectionId": 239,
-      "Config": "voluptatum",
+      "AssociateId": 356,
+      "GroupId": 164,
+      "SelectionId": 376,
+      "Config": "voluptate",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -100,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldType": "System.String",
+          "FieldLength": 766
         }
       }
     }
@@ -110,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldType": "System.String",
+      "FieldLength": 957
     }
   }
 }

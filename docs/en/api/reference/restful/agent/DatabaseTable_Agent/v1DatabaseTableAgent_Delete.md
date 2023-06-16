@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DatabaseTable/Delete
 uid: v1DatabaseTableAgent_Delete
+generated: true
 ---
 
 # POST Agents/DatabaseTable/Delete
@@ -78,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cummerata Inc and Sons",
+  "TableName": "Medhurst, Kertzmann and Kohler",
   "IDs": [
-    316,
-    559
+    425,
+    649
   ]
 }
 ```
@@ -98,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "voluptas",
-  "Inserts": 850,
-  "Updates": 527,
-  "Deletes": 17,
+  "Message": "maiores",
+  "Inserts": 641,
+  "Updates": 538,
+  "Deletes": 592,
   "RowStatus": [
     {
-      "PrimaryKey": 901,
+      "PrimaryKey": 381,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quos",
-        "rem"
+        "quis",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldLength": 530
         }
       }
     },
     {
-      "PrimaryKey": 901,
+      "PrimaryKey": 381,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quos",
-        "rem"
+        "quis",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldLength": 530
         }
       }
     }
@@ -141,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 561
     }
   }
 }

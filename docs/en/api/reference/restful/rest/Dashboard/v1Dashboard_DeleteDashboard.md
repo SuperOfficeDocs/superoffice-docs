@@ -1,6 +1,7 @@
 ---
 title: DEL Dashboard/{id}
 uid: v1Dashboard_DeleteDashboard
+generated: true
 ---
 
 # DEL Dashboard/{id}
@@ -51,7 +52,7 @@ Dashboard deleted.
 DELETE /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

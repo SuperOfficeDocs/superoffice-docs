@@ -1,17 +1,11 @@
 ---
 uid: documenttemplatesfiltered
 title: documenttemplatesfiltered
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "documenttemplatesfiltered"
+keywords: mdoprovider mdo provider documenttemplatesfiltered
+description: MDO Provider for Document Templates, excluding Document details and quote mail templates, which are for system use rather than end-user choosing.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "documenttemplatesfiltered" MDO List

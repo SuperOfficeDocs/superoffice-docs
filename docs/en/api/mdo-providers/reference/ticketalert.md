@@ -1,17 +1,11 @@
 ---
 uid: ticketalert
 title: ticketalert
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "ticketalert"
+keywords: mdoprovider mdo provider ticketalert
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ticketalert" MDO List

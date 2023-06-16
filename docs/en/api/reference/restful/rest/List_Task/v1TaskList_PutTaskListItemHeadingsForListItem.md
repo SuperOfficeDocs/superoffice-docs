@@ -1,6 +1,7 @@
 ---
 title: PUT List/Task/Items/{id}/Headings
 uid: v1TaskList_PutTaskListItemHeadingsForListItem
+generated: true
 ---
 
 # PUT List/Task/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 752,
-    "Name": "Russel, Hilll and Ondricka",
-    "ToolTip": "Quia et ratione voluptatem sint.",
+    "Id": 789,
+    "Name": "Beer, Wyman and Fay",
+    "ToolTip": "Dolor esse amet non minus vel veniam nisi.",
     "Deleted": false,
-    "Rank": 685,
-    "Type": "aperiam",
-    "ColorBlock": 804,
-    "IconHint": "expedita",
+    "Rank": 977,
+    "Type": "magnam",
+    "ColorBlock": 722,
+    "IconHint": "perspiciatis",
     "Selected": true,
-    "LastChanged": "1998-09-21T03:51:34.9895221+02:00",
+    "LastChanged": "2021-03-15T16:00:49.3677537+01:00",
     "ChildItems": [
       {
-        "Id": 63,
-        "Name": "Bartell Inc and Sons",
-        "ToolTip": "Qui eum illo ipsam facere.",
+        "Id": 409,
+        "Name": "Kuhic LLC",
+        "ToolTip": "Enim sed quaerat consequatur eum ut libero soluta.",
         "Deleted": false,
-        "Rank": 606,
-        "Type": "voluptates",
-        "ColorBlock": 482,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "2022-01-05T03:51:34.9895221+01:00",
+        "Rank": 160,
+        "Type": "est",
+        "ColorBlock": 262,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "1996-12-10T16:00:49.3677537+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "alias",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Ms. Yasmine Hiram Schroeder"
+        "FullName": "Fannie Feeney"
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "tempore",
+    "ExtraInfo": "aut",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Chasity Laron Hickle I"
+    "FullName": "Miss Maynard Ardella Ebert Sr."
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 519,
-    "Name": "Kuhn, Jacobs and Luettgen",
-    "ToolTip": "Ex placeat reprehenderit sit.",
-    "Deleted": false,
-    "Rank": 14,
-    "Type": "et",
-    "ColorBlock": 661,
-    "IconHint": "corrupti",
+    "Id": 473,
+    "Name": "Beatty-Schaden",
+    "ToolTip": "A sed quis.",
+    "Deleted": true,
+    "Rank": 132,
+    "Type": "quam",
+    "ColorBlock": 187,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2000-09-06T03:51:34.9895221+02:00",
+    "LastChanged": "2008-07-13T16:00:49.3677537+02:00",
     "ChildItems": [
       {
-        "Id": 56,
-        "Name": "Wisozk LLC",
-        "ToolTip": "Eligendi dignissimos qui quas odio molestiae.",
+        "Id": 254,
+        "Name": "Carroll, Goyette and Johnston",
+        "ToolTip": "Animi voluptas aperiam sequi esse et unde.",
         "Deleted": true,
-        "Rank": 114,
-        "Type": "velit",
-        "ColorBlock": 861,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2011-05-12T03:51:34.9895221+02:00",
+        "Rank": 920,
+        "Type": "eaque",
+        "ColorBlock": 37,
+        "IconHint": "ab",
+        "Selected": true,
+        "LastChanged": "1996-03-03T16:00:49.3677537+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "aut",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "maxime",
         "Hidden": false,
-        "FullName": "Karley Stark",
+        "FullName": "Alene Heather Heidenreich DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 738
+            "FieldType": "System.Int32",
+            "FieldLength": 472
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "autem",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Ms. Eden Hartmann",
+    "FullName": "Delmer Greenholt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 673
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: GET List/Priority/MDOItems
 uid: v1PriorityList_GetMDOList
+generated: true
 ---
 
 # GET List/Priority/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=mollitia
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=officia
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 679,
-    "Name": "Waelchi-Haag",
-    "ToolTip": "Unde quis dicta soluta voluptas in.",
-    "Deleted": false,
-    "Rank": 552,
-    "Type": "sit",
+    "Id": 274,
+    "Name": "Gibson-Toy",
+    "ToolTip": "Aut est placeat ipsum nostrum.",
+    "Deleted": true,
+    "Rank": 644,
+    "Type": "praesentium",
     "ChildItems": [
       {
-        "Id": 820,
-        "Name": "Cummerata Group",
-        "ToolTip": "Minus tenetur est mollitia odit.",
-        "Deleted": false,
-        "Rank": 520,
-        "Type": "impedit",
+        "Id": 616,
+        "Name": "O'Reilly, Bradtke and Strosin",
+        "ToolTip": "Ut deleniti accusamus ut fugiat.",
+        "Deleted": true,
+        "Rank": 347,
+        "Type": "praesentium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vero",
-        "ColorBlock": 884,
-        "ExtraInfo": "in",
-        "StyleHint": "sit",
-        "FullName": "Gabriel Lowe",
+        "IconHint": "et",
+        "ColorBlock": 6,
+        "ExtraInfo": "ullam",
+        "StyleHint": "neque",
+        "FullName": "Amir Dibbert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 452
+            "FieldType": "System.String",
+            "FieldLength": 925
           }
         }
       }
     ],
-    "IconHint": "labore",
-    "ColorBlock": 722,
-    "ExtraInfo": "culpa",
-    "StyleHint": "odio",
-    "FullName": "Solon Breitenberg",
+    "IconHint": "dolor",
+    "ColorBlock": 721,
+    "ExtraInfo": "et",
+    "StyleHint": "impedit",
+    "FullName": "Fredy Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldLength": 261
       }
     }
   }

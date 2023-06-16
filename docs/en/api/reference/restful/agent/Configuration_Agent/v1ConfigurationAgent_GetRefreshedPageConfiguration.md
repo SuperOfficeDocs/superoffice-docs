@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetRefreshedPageConfiguration
 uid: v1ConfigurationAgent_GetRefreshedPageConfiguration
+generated: true
 ---
 
 # POST Agents/Configuration/GetRefreshedPageConfiguration
@@ -71,13 +72,13 @@ OK
 POST /api/v1/Agents/Configuration/GetRefreshedPageConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "repellendus",
-  "Instance": "est",
-  "Page": "non"
+  "Application": "maxime",
+  "Instance": "mollitia",
+  "Page": "sed"
 }
 ```
 
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptas"
+"libero"
 ```

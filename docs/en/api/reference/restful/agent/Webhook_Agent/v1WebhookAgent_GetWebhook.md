@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Webhook/GetWebhook
 uid: v1WebhookAgent_GetWebhook
+generated: true
 ---
 
 # POST Agents/Webhook/GetWebhook
@@ -27,7 +28,7 @@ Gets a Webhook object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=705
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=53
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -88,26 +89,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 890,
-  "Name": "Weissnat Inc and Sons",
+  "WebhookId": 999,
+  "Name": "Goldner Group",
   "Events": [
-    "numquam",
-    "et"
+    "repudiandae",
+    "ratione"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "nesciunt",
+  "Secret": "dolor",
   "State": "Active",
-  "Type": "minus",
+  "Type": "itaque",
   "Headers": {
-    "Headers1": "itaque",
-    "Headers2": "quod"
+    "Headers1": "illum",
+    "Headers2": "perferendis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-09-07T03:51:28.5682842+02:00",
+  "Registered": "1996-11-23T16:00:42.4143588+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2021-05-26T03:51:28.5682842+02:00",
+  "Updated": "2005-04-02T16:00:42.4143588+02:00",
   "UpdatedAssociate": null
 }
 ```

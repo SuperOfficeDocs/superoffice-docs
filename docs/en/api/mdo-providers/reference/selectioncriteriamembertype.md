@@ -1,17 +1,11 @@
 ---
 uid: selectioncriteriamembertype
 title: selectioncriteriamembertype
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "selectioncriteriamembertype"
+keywords: mdoprovider mdo provider selectioncriteriamembertype
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "selectioncriteriamembertype" MDO List

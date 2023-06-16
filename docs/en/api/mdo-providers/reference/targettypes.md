@@ -1,17 +1,11 @@
 ---
 uid: targettypes
 title: targettypes
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "targettypes"
+keywords: mdoprovider mdo provider targettypes
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "targettypes" MDO List

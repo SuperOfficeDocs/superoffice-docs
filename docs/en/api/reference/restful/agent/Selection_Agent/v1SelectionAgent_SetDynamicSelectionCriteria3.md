@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/SetDynamicSelectionCriteria3
 uid: v1SelectionAgent_SetDynamicSelectionCriteria3
+generated: true
 ---
 
 # POST Agents/Selection/SetDynamicSelectionCriteria3
@@ -83,22 +84,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 625,
+  "SelectionId": 759,
   "Criteria": [
     {
-      "Name": "Ryan Inc and Sons",
-      "Operator": "voluptas",
+      "Name": "Beier Inc and Sons",
+      "Operator": "ducimus",
       "Values": [
-        "est",
-        "natus"
+        "dicta",
+        "ducimus"
       ],
       "DisplayValues": [
-        "consequatur",
-        "quod"
+        "autem",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,12 +107,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 139,
+      "InterParenthesis": 488,
       "InterOperator": "And",
-      "UniqueHash": 27
+      "UniqueHash": 644
     }
   ],
-  "Filter": "ut"
+  "Filter": "dolorem"
 }
 ```
 
@@ -123,44 +124,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Parisian, Pouros and Halvorson",
-    "Operator": "consequatur",
+    "Name": "Collins, Kessler and Nitzsche",
+    "Operator": "possimus",
     "Values": [
-      "quia",
-      "est"
+      "in",
+      "qui"
     ],
     "DisplayValues": [
-      "sit",
-      "laboriosam"
+      "quia",
+      "eos"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schroeder, Frami and McKenzie",
-        "Operator": "similique",
+        "Name": "Feil, Eichmann and McClure",
+        "Operator": "facilis",
         "Values": [
-          "voluptatem",
-          "qui"
+          "expedita",
+          "corrupti"
         ],
         "DisplayValues": [
-          "eligendi",
-          "voluptate"
+          "neque",
+          "corrupti"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 436,
+        "InterParenthesis": 727,
         "InterOperator": "And",
-        "UniqueHash": 334
+        "UniqueHash": 290
       }
     ],
-    "InterParenthesis": 284,
+    "InterParenthesis": 169,
     "InterOperator": "And",
-    "UniqueHash": 206
+    "UniqueHash": 398
   }
 ]
 ```

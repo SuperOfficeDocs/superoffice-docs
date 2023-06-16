@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetHeadingsForListItemFromListName
 uid: v1ListAgent_GetHeadingsForListItemFromListName
+generated: true
 ---
 
 # POST Agents/List/GetHeadingsForListItemFromListName
@@ -88,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Fadel, Larson and Sipes",
-  "ListItemId": 881,
-  "ShowDeleted": false
+  "UdListDefinitionName": "Metz Inc and Sons",
+  "ListItemId": 405,
+  "ShowDeleted": true
 }
 ```
 
@@ -106,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Medhurst Inc and Sons",
-    "ToolTip": "Commodi laboriosam et aut et saepe.",
+    "Id": 564,
+    "Name": "Halvorson Group",
+    "ToolTip": "Totam illum tempora.",
     "Deleted": true,
-    "Rank": 609,
-    "Type": "modi",
-    "ColorBlock": 771,
-    "IconHint": "ducimus",
+    "Rank": 796,
+    "Type": "blanditiis",
+    "ColorBlock": 90,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2011-03-27T03:51:27.4279277+02:00",
+    "LastChanged": "2023-03-31T16:00:41.1487084+02:00",
     "ChildItems": [
       {
-        "Id": 85,
-        "Name": "Hessel-Rice",
-        "ToolTip": "Dolorum dicta dolorum adipisci.",
-        "Deleted": false,
-        "Rank": 920,
-        "Type": "ipsum",
-        "ColorBlock": 213,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2011-06-04T03:51:27.4279277+02:00",
+        "Id": 91,
+        "Name": "Goodwin LLC",
+        "ToolTip": "Quisquam accusantium esse aut et itaque tempore temporibus.",
+        "Deleted": true,
+        "Rank": 22,
+        "Type": "provident",
+        "ColorBlock": 932,
+        "IconHint": "maxime",
+        "Selected": false,
+        "LastChanged": "2006-03-17T16:00:41.1487084+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "consequuntur",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Ms. Junius Trey Aufderhar",
+        "FullName": "Ms. Ulises Toby Wunsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 46
+            "FieldType": "System.Int32",
+            "FieldLength": 545
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Ms. Chadrick Una Stehr PhD",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Carolyn Hodkiewicz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldType": "System.String",
+        "FieldLength": 692
       }
     }
   }

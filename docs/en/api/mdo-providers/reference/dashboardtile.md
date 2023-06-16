@@ -1,17 +1,13 @@
 ---
 uid: dashboardtile
 title: dashboardtile
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "dashboardtile"
+keywords: mdoprovider mdo provider dashboardtile
+description: MDO list provider for Dashboard tiles
+If the DashboardTileEntityType parameter is given in the ExtraInfo, only this type will be shown in list, so no tree view in that case.
+Example: DashboardTileEntityType=Company
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "dashboardtile" MDO List

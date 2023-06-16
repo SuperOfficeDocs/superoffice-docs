@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetFilterList
 uid: v1ConfigurationAgent_GetFilterList
+generated: true
 ---
 
 # POST Agents/Configuration/GetFilterList
@@ -68,12 +69,12 @@ OK
 POST /api/v1/Agents/Configuration/GetFilterList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "eos",
-  "Instance": "voluptatem"
+  "Application": "voluptas",
+  "Instance": "vitae"
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"corrupti"
+"eaque"
 ```

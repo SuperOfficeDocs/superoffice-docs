@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetNextDueDate
 uid: v1SaleAgent_GetNextDueDate
+generated: true
 ---
 
 # POST Agents/Sale/GetNextDueDate
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/Sale/GetNextDueDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 244
+  "SaleId": 306
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2013-04-11T03:51:28.1152684+02:00"
+"2002-10-29T16:00:41.7738086+01:00"
 ```

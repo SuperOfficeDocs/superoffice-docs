@@ -1,6 +1,7 @@
 ---
 title: PATCH ForeignApp/{id}
 uid: v1ForeignAppEntity_PatchForeignAppEntity
+generated: true
 ---
 
 # PATCH ForeignApp/{id}
@@ -113,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quae",
+    "path": "magnam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quae",
+    "path": "magnam",
     "value": {}
   }
 ]
@@ -137,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 882,
-  "Name": "Schulist Group",
-  "CreatedDate": "2018-12-25T03:51:33.677213+01:00",
-  "UpdatedDate": "2019-04-11T03:51:33.677213+02:00",
+  "ForeignAppId": 232,
+  "Name": "Turcotte LLC",
+  "CreatedDate": "2015-12-21T16:00:47.9772018+01:00",
+  "UpdatedDate": "2013-11-13T16:00:47.9772018+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 317,
-      "Name": "Howell, Harris and Stroman",
-      "CreatedDate": "2016-11-17T03:51:33.677213+01:00",
-      "UpdatedDate": "1999-03-25T03:51:33.677213+01:00",
-      "AssociateFullName": "Mr. Palma Eveline Herman I",
-      "CreatedBy": "voluptates",
-      "UpdatedBy": "voluptatibus",
-      "DeviceIdentifier": "a",
-      "ForeignAppId": 170,
+      "ForeignDeviceId": 727,
+      "Name": "Pacocha, Beahan and Tromp",
+      "CreatedDate": "2004-01-04T16:00:47.9772018+01:00",
+      "UpdatedDate": "2004-11-01T16:00:47.9772018+01:00",
+      "AssociateFullName": "Dorothy Jacobson",
+      "CreatedBy": "nihil",
+      "UpdatedBy": "at",
+      "DeviceIdentifier": "saepe",
+      "ForeignAppId": 313,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 193
+          "FieldType": "System.Int32",
+          "FieldLength": 692
         }
       }
     }
@@ -169,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 716
     }
   },
   "_Links": {

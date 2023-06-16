@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetPaymentTerms
 uid: v1ListAgent_GetPaymentTerms
+generated: true
 ---
 
 # POST Agents/List/GetPaymentTerms
@@ -77,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 744,
-    "Value": "corporis",
-    "Tooltip": "eius",
+    "Id": 44,
+    "Value": "aut",
+    "Tooltip": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldLength": 104
       }
     }
   },
   {
-    "Id": 744,
-    "Value": "corporis",
-    "Tooltip": "eius",
+    "Id": 44,
+    "Value": "aut",
+    "Tooltip": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldLength": 104
       }
     }
   }

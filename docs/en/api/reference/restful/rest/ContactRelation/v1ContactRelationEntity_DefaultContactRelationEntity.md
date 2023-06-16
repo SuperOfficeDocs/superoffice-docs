@@ -1,6 +1,7 @@
 ---
 title: GET Relation/default
 uid: v1ContactRelationEntity_DefaultContactRelationEntity
+generated: true
 ---
 
 # GET Relation/default
@@ -73,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 15 Aug 2004 03:51:33 G8T
+Last-Modified: Tue, 27 Dec 2022 16:00:47 G12T
 
 {
-  "SourceContactId": 307,
-  "SourcePersonId": 885,
-  "DestinationContactId": 292,
-  "DestinationPersonId": 148,
-  "RelationId": 513,
-  "Comment": "optio",
-  "RelationDefinitionId": 462,
-  "Reversed": 87,
-  "UpdatedDate": "2004-08-15T03:51:33.552243+02:00",
-  "CreatedDate": "2017-11-16T03:51:33.552243+01:00",
+  "SourceContactId": 244,
+  "SourcePersonId": 955,
+  "DestinationContactId": 351,
+  "DestinationPersonId": 241,
+  "RelationId": 526,
+  "Comment": "praesentium",
+  "RelationDefinitionId": 985,
+  "Reversed": 577,
+  "UpdatedDate": "2022-12-27T16:00:47.8209689+01:00",
+  "CreatedDate": "2015-11-25T16:00:47.8209689+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kling-Howe",
-  "SourcePersonName": "Predovic, Stracke and Anderson",
-  "DestinationContactName": "Miller-Johnson",
-  "DestinationPersonName": "Daugherty LLC",
-  "ActiveText": "aut",
-  "PassiveText": "consequatur",
+  "SourceContactName": "Wisoky-Donnelly",
+  "SourcePersonName": "Rogahn, Streich and Greenfelder",
+  "DestinationContactName": "Prosacco Inc and Sons",
+  "DestinationPersonName": "Runolfsdottir-Kuhn",
+  "ActiveText": "et",
+  "PassiveText": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 997
     }
   }
 }

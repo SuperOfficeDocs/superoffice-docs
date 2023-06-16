@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/ExecuteEventHandlers
 uid: v1CustomerServiceAgent_ExecuteEventHandlers
+generated: true
 ---
 
 # POST Agents/CustomerService/ExecuteEventHandlers
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,28 +98,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "enim",
-    "InputValues2": "alias"
+    "InputValues1": "expedita",
+    "InputValues2": "ex"
   },
-  "BlockExecution": false,
-  "NavigateTo": "et",
-  "Message": "consequatur",
-  "ShowDialog": "voluptas",
+  "BlockExecution": true,
+  "NavigateTo": "a",
+  "Message": "ducimus",
+  "ShowDialog": "iure",
   "OutputValues": {
-    "OutputValues1": "velit",
-    "OutputValues2": "voluptatem"
+    "OutputValues1": "quam",
+    "OutputValues2": "debitis"
   },
   "StateValues": {
-    "StateValues1": "iusto",
-    "StateValues2": "temporibus"
+    "StateValues1": "non",
+    "StateValues2": "qui"
   },
-  "Exception": "quod",
+  "Exception": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 278
+      "FieldType": "System.Int32",
+      "FieldLength": 995
     }
   }
 }

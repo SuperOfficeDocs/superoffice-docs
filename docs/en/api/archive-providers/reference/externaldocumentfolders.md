@@ -1,21 +1,14 @@
 ---
-uid: externaldocumentfolder
-title: externaldocumentfolder
+uid: externaldocumentfolders
+title: externaldocumentfolders
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "externaldocumentfolder"
+keywords: externaldocumentfolders archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
-# "externaldocumentfolder"
+# "externaldocumentfolders"
 
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.ExternalDocumentFolderProvider">SuperOffice.CRM.ArchiveLists.ExternalDocumentFolderProvider</see> inside NetServer's SODatabase assembly.
 
@@ -33,6 +26,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
 |hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
 |hierarchyParentId|int|Hierarchy ID: Foreign key to hierarchy table| x |
+|hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
 |title|string|Title: Title of an External Document| x |
 |description|string|Description: Description of an External Document| x |
 |created|date|Created: Displays when the request was created| x |
@@ -41,7 +35,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/externaldocumentfolder?$select=hierarchyFullname,hierarchyParentId
+GET /api/v1/archive/externaldocumentfolders?$select=hierarchyFullname,hierarchyParentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

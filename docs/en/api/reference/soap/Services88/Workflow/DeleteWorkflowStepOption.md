@@ -1,6 +1,6 @@
 ---
 title: Services88.WorkflowAgent.DeleteWorkflowStepOption SOAP
-generated: 1
+generated: true
 uid: Services88-Workflow-DeleteWorkflowStepOption
 ---
 

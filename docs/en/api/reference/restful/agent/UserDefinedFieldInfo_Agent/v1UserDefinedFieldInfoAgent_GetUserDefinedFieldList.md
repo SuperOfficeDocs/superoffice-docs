@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldList
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
@@ -107,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 565,
-    "ColumnId": 881,
-    "FieldDefault": "aut",
-    "FieldHeight": 922,
-    "FieldLabel": "voluptatibus",
-    "FieldLeft": 304,
-    "FieldTop": 642,
+    "UDefFieldId": 813,
+    "ColumnId": 923,
+    "FieldDefault": "dolorem",
+    "FieldHeight": 141,
+    "FieldLabel": "quam",
+    "FieldLeft": 864,
+    "FieldTop": 745,
     "FieldType": "Checkbox",
-    "FieldWidth": 314,
-    "FormatMask": "quas",
-    "HideLabel": true,
+    "FieldWidth": 658,
+    "FormatMask": "et",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 92,
-    "LabelLeft": 149,
-    "LabelTop": 504,
-    "LabelWidth": 846,
-    "LastVersionId": 385,
-    "ListTableId": 685,
+    "LabelHeight": 919,
+    "LabelLeft": 110,
+    "LabelTop": 810,
+    "LabelWidth": 3,
+    "LastVersionId": 645,
+    "ListTableId": 696,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 19,
-    "ProgId": "vel",
+    "Page1LineNo": 280,
+    "ProgId": "sit",
     "IsReadOnly": false,
-    "ShortLabel": "perspiciatis",
-    "TabOrder": 178,
-    "TextLength": 938,
-    "Tooltip": "et",
-    "UdefIdentity": 833,
-    "UDListDefinitionId": 476,
+    "ShortLabel": "odio",
+    "TabOrder": 695,
+    "TextLength": 252,
+    "Tooltip": "quia",
+    "UdefIdentity": 566,
+    "UDListDefinitionId": 901,
     "Justification": "Center",
-    "Version": 316,
-    "TemplateVariableName": "Farrell LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Powlowski Inc and Sons",
+    "Version": 209,
+    "TemplateVariableName": "Lueilwitz LLC",
+    "HasBeenPublished": false,
+    "MdoListName": "Kunde-Brakus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 514
+        "FieldType": "System.Int32",
+        "FieldLength": 870
       }
     }
   }

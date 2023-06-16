@@ -1,6 +1,7 @@
 ---
 title: POST DashTileDefinition
 uid: v1DashTileDefinition_PostDashTileDefinition
+generated: true
 ---
 
 # POST DashTileDefinition
@@ -111,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 848,
-  "Name": "Tromp, Bechtelar and Herman",
-  "Description": "Down-sized multimedia info-mediaries",
-  "DefaultHeight": 647,
-  "DefaultWidth": 663,
+  "DashboardTileDefinitionId": 118,
+  "Name": "McKenzie LLC",
+  "Description": "Face to face heuristic forecast",
+  "DefaultHeight": 892,
+  "DefaultWidth": 232,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Lubowitz Inc and Sons",
-  "SelectionId": 840,
+  "EntityName": "Schowalter, Lowe and Maggio",
+  "SelectionId": 670,
   "CurrencyMode": "Base",
-  "CurrencyCode": "quod",
+  "CurrencyCode": "consequatur",
   "Measure": "Average",
-  "MeasureField": "nihil",
-  "SortBy": "occaecati",
-  "LayoutConfig": "reprehenderit",
-  "SecondarySelectionId": 818,
-  "MeasureByField": "ducimus",
+  "MeasureField": "possimus",
+  "SortBy": "eos",
+  "LayoutConfig": "eum",
+  "SecondarySelectionId": 61,
+  "MeasureByField": "rem",
   "Usage": "Dashboard",
-  "ProviderName": "Crist, Pacocha and Ruecker"
+  "ProviderName": "Robel, Morar and Runolfsdottir"
 }
 ```
 
@@ -144,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 303,
-  "Name": "Rutherford, Quitzon and Wilkinson",
-  "Description": "Multi-layered logistical budgetary management",
-  "DefaultHeight": 492,
-  "DefaultWidth": 366,
+  "DashboardTileDefinitionId": 45,
+  "Name": "Jaskolski-Hayes",
+  "Description": "Robust asynchronous encryption",
+  "DefaultHeight": 642,
+  "DefaultWidth": 668,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kirlin-Senger",
-  "SelectionId": 875,
+  "EntityName": "Lueilwitz Group",
+  "SelectionId": 576,
   "CurrencyMode": "Base",
-  "CurrencyCode": "est",
+  "CurrencyCode": "ipsam",
   "Measure": "Average",
-  "MeasureField": "accusamus",
-  "SortBy": "tempora",
-  "LayoutConfig": "nihil",
-  "SecondarySelectionId": 616,
-  "MeasureByField": "fugiat",
+  "MeasureField": "earum",
+  "SortBy": "quibusdam",
+  "LayoutConfig": "qui",
+  "SecondarySelectionId": 666,
+  "MeasureByField": "amet",
   "Usage": "Dashboard",
-  "ProviderName": "Zulauf, Friesen and Gorczany",
+  "ProviderName": "Stark, Corwin and Conn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldLength": 774
     }
   },
   "_Links": {

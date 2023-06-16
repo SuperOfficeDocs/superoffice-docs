@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProjectType/Items/{id}/Headings
 uid: v1ProjectTypeList_PutProjectTypeHeadingsForListItem
+generated: true
 ---
 
 # PUT List/ProjectType/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 689,
-    "Name": "Mosciski Inc and Sons",
-    "ToolTip": "Expedita incidunt est aut ut ipsam et.",
+    "Id": 247,
+    "Name": "Ruecker, Jakubowski and Mayer",
+    "ToolTip": "Fugit voluptas illum consequuntur.",
     "Deleted": false,
-    "Rank": 36,
-    "Type": "consectetur",
-    "ColorBlock": 690,
-    "IconHint": "quaerat",
-    "Selected": true,
-    "LastChanged": "2005-04-24T03:51:34.8489374+02:00",
+    "Rank": 173,
+    "Type": "esse",
+    "ColorBlock": 878,
+    "IconHint": "ipsam",
+    "Selected": false,
+    "LastChanged": "2010-03-01T16:00:49.211436+01:00",
     "ChildItems": [
       {
-        "Id": 368,
-        "Name": "Torp, D'Amore and Swaniawski",
-        "ToolTip": "Minima fugiat et et.",
+        "Id": 98,
+        "Name": "Reichert LLC",
+        "ToolTip": "Quia ut reiciendis.",
         "Deleted": true,
-        "Rank": 131,
-        "Type": "eos",
-        "ColorBlock": 180,
-        "IconHint": "aliquam",
+        "Rank": 194,
+        "Type": "et",
+        "ColorBlock": 191,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2000-07-01T03:51:34.8489374+02:00",
+        "LastChanged": "1998-08-05T16:00:49.211436+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "natus",
+        "ExtraInfo": "quo",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Keon Lowe"
+        "FullName": "Mr. Alexys Stone Halvorson"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "qui",
+    "StyleHint": "vero",
     "Hidden": true,
-    "FullName": "Wilfrid Blanda"
+    "FullName": "Napoleon Waelchi"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 720,
-    "Name": "Blanda Inc and Sons",
-    "ToolTip": "Temporibus occaecati et iste quia ut rerum.",
-    "Deleted": true,
-    "Rank": 117,
-    "Type": "enim",
-    "ColorBlock": 183,
-    "IconHint": "laboriosam",
+    "Id": 153,
+    "Name": "Brown-Yost",
+    "ToolTip": "Et nihil quia.",
+    "Deleted": false,
+    "Rank": 352,
+    "Type": "minima",
+    "ColorBlock": 637,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2002-05-07T03:51:34.8489374+02:00",
+    "LastChanged": "2006-02-10T16:00:49.211436+01:00",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "Morar-Pollich",
-        "ToolTip": "Id corporis aut autem aut maxime autem quo.",
+        "Id": 997,
+        "Name": "Buckridge Group",
+        "ToolTip": "Nostrum voluptatem placeat est earum aperiam.",
         "Deleted": false,
-        "Rank": 33,
-        "Type": "ut",
-        "ColorBlock": 99,
-        "IconHint": "ab",
+        "Rank": 230,
+        "Type": "fuga",
+        "ColorBlock": 601,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "2007-07-08T03:51:34.8489374+02:00",
+        "LastChanged": "2022-11-27T16:00:49.211436+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "culpa",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "repellendus",
         "Hidden": false,
-        "FullName": "Mrs. Hosea Mueller",
+        "FullName": "Orlo Yost",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 994
+            "FieldType": "System.Int32",
+            "FieldLength": 426
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "quasi",
-    "Hidden": true,
-    "FullName": "Jacinto Lind",
+    "ExtraInfo": "est",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Mrs. Gussie Yundt I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldType": "System.String",
+        "FieldLength": 520
       }
     }
   }

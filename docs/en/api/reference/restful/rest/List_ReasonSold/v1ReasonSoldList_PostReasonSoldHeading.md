@@ -1,6 +1,7 @@
 ---
 title: POST List/ReasonSold/Headings
 uid: v1ReasonSoldList_PostReasonSoldHeading
+generated: true
 ---
 
 # POST List/ReasonSold/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 790,
-  "Name": "Pacocha-Mohr",
-  "Tooltip": "facere",
+  "HeadingId": 860,
+  "Name": "Okuneva Inc and Sons",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "Rank": 652,
-  "UdListDefinitionId": 554
+  "Rank": 649,
+  "UdListDefinitionId": 191
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 134,
-  "Name": "Blanda, Lueilwitz and Welch",
-  "Tooltip": "itaque",
+  "HeadingId": 71,
+  "Name": "Schaden-Lehner",
+  "Tooltip": "eaque",
   "Deleted": true,
-  "Rank": 834,
-  "UdListDefinitionId": 655,
+  "Rank": 828,
+  "UdListDefinitionId": 814,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 531
+      "FieldType": "System.Int32",
+      "FieldLength": 259
     }
   }
 }

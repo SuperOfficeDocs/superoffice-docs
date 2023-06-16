@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveSaleTypeEntity
 uid: v1ListAgent_SaveSaleTypeEntity
+generated: true
 ---
 
 # POST Agents/List/SaveSaleTypeEntity
@@ -104,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 381,
-  "Name": "Stracke-Trantow",
-  "Tooltip": "commodi",
-  "Rank": 699,
+  "SaleTypeId": 605,
+  "Name": "Kunze, Johnson and Kemmer",
+  "Tooltip": "qui",
+  "Rank": 440,
   "DurationUnit": "Century",
-  "SaleDuration": 103,
-  "SaleTypeCatId": 376,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 157,
+  "SaleTypeCatId": 303,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 698,
-  "QuoteLinesTemplate": 110,
-  "ConfirmationLinesTemplate": 392,
-  "MaxDiscountPercentSet": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 781,
+  "QuoteLinesTemplate": 10,
+  "ConfirmationLinesTemplate": 61,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 381,
-  "MinEarningPercent": 435,
-  "GroupQuoteLinesBy": 990,
-  "SortGroupLinesBy": 528,
+  "MaxDiscountPercent": 846,
+  "MinEarningPercent": 110,
+  "GroupQuoteLinesBy": 215,
+  "SortGroupLinesBy": 117,
   "Stages": [
     {
-      "Id": 890,
-      "Name": "Brown, Rippin and Pacocha",
-      "ToolTip": "Quos exercitationem explicabo veniam corrupti vero id.",
-      "Deleted": false,
-      "Rank": 804,
-      "Type": "cum",
-      "ColorBlock": 299,
-      "IconHint": "ipsum",
+      "Id": 739,
+      "Name": "Hansen-Feil",
+      "ToolTip": "Optio voluptate velit.",
+      "Deleted": true,
+      "Rank": 599,
+      "Type": "nam",
+      "ColorBlock": 194,
+      "IconHint": "harum",
       "Selected": true,
-      "LastChanged": "2016-04-27T03:51:27.4904158+02:00",
+      "LastChanged": "1999-07-07T16:00:41.2268306+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "nam",
-      "Hidden": false,
-      "FullName": "Miss Elody Arlie Kreiger"
+      "ExtraInfo": "nihil",
+      "StyleHint": "repudiandae",
+      "Hidden": true,
+      "FullName": "Lia Barry Schneider I"
     }
   ]
 }
@@ -161,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 821,
-  "Name": "Dietrich-VonRueden",
-  "Tooltip": "sed",
-  "Rank": 167,
+  "SaleTypeId": 412,
+  "Name": "Harber, Kulas and Wolff",
+  "Tooltip": "autem",
+  "Rank": 233,
   "DurationUnit": "Century",
-  "SaleDuration": 573,
-  "SaleTypeCatId": 155,
+  "SaleDuration": 644,
+  "SaleTypeCatId": 512,
   "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 754,
-  "QuoteLinesTemplate": 317,
-  "ConfirmationLinesTemplate": 941,
+  "DefaultQuoteValidity": 889,
+  "QuoteLinesTemplate": 770,
+  "ConfirmationLinesTemplate": 867,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 594,
-  "MinEarningPercent": 413,
-  "GroupQuoteLinesBy": 813,
-  "SortGroupLinesBy": 966,
+  "MaxDiscountPercent": 180,
+  "MinEarningPercent": 974,
+  "GroupQuoteLinesBy": 263,
+  "SortGroupLinesBy": 516,
   "Stages": [
     {
-      "Id": 181,
-      "Name": "Abshire, Powlowski and Ernser",
-      "ToolTip": "Est ipsa asperiores exercitationem aut ut harum.",
+      "Id": 608,
+      "Name": "Parisian-Johns",
+      "ToolTip": "Cumque ipsam tempore.",
       "Deleted": false,
-      "Rank": 120,
-      "Type": "beatae",
-      "ColorBlock": 180,
-      "IconHint": "voluptates",
-      "Selected": true,
-      "LastChanged": "2020-10-07T03:51:27.4904158+02:00",
+      "Rank": 608,
+      "Type": "voluptas",
+      "ColorBlock": 61,
+      "IconHint": "quos",
+      "Selected": false,
+      "LastChanged": "2013-08-31T16:00:41.2268306+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aperiam",
-      "StyleHint": "eius",
-      "Hidden": false,
-      "FullName": "Mrs. Houston Zemlak",
+      "ExtraInfo": "sit",
+      "StyleHint": "placeat",
+      "Hidden": true,
+      "FullName": "Dustin Goodwin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldLength": 799
         }
       }
     }
@@ -217,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 692
     }
   }
 }

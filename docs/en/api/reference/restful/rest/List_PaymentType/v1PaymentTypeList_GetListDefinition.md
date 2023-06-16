@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentType
 uid: v1PaymentTypeList_GetListDefinition
+generated: true
 ---
 
 # GET List/PaymentType
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 332,
-  "Name": "Denesik Group",
-  "Tooltip": "assumenda",
+  "Id": 691,
+  "Name": "Russel-Cummerata",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 658,
+  "Rank": 77,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "officia",
+  "ListType": "vitae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 498
+      "FieldLength": 984
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

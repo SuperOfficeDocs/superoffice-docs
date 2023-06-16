@@ -1,6 +1,7 @@
 ---
 title: POST ChatSession/{id}/Messages
 uid: v1ChatSessionEntity_AddChatMessage
+generated: true
 ---
 
 # POST ChatSession/{id}/Messages
@@ -80,19 +81,19 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 948,
-  "ChatSessionId": 117,
+  "ChatMessageId": 282,
+  "ChatSessionId": 890,
   "Type": "Invalid",
-  "Message": "quidem",
-  "Author": "rerum",
-  "ReadByCustomer": 501,
+  "Message": "qui",
+  "Author": "eos",
+  "ReadByCustomer": 418,
   "SpecialType": "Block",
-  "SpecialParam": "aut",
-  "WhenPosted": "2017-01-01T03:51:33.2241895+01:00"
+  "SpecialParam": "ut",
+  "WhenPosted": "2016-11-15T16:00:47.6647341+01:00"
 }
 ```
 
@@ -103,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 21,
-  "ChatSessionId": 908,
+  "ChatMessageId": 630,
+  "ChatSessionId": 831,
   "Type": "Invalid",
-  "Message": "fugit",
-  "Author": "nobis",
-  "ReadByCustomer": 282,
+  "Message": "aut",
+  "Author": "et",
+  "ReadByCustomer": 928,
   "SpecialType": "Block",
-  "SpecialParam": "earum",
-  "WhenPosted": "2014-07-07T03:51:33.2241895+02:00"
+  "SpecialParam": "quis",
+  "WhenPosted": "2018-06-11T16:00:47.6647341+02:00"
 }
 ```

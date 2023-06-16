@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/DeleteCredential
 uid: v1UserAgent_DeleteCredential
+generated: true
 ---
 
 # POST Agents/User/DeleteCredential
@@ -70,12 +71,12 @@ OK
 POST /api/v1/Agents/User/DeleteCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 936,
-  "CredentialType": "dolores"
+  "UserId": 350,
+  "CredentialType": "soluta"
 }
 ```
 

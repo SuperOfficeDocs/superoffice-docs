@@ -1,6 +1,7 @@
 ---
 title: POST Agents/AI/DetectSentiment
 uid: v1AIAgent_DetectSentiment
+generated: true
 ---
 
 # POST Agents/AI/DetectSentiment
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/AI/DetectSentiment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "sed"
+  "Text": "ipsa"
 }
 ```
 
@@ -90,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Score": 280,
-  "Confidence": 846,
+  "Score": 740,
+  "Confidence": 616,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 816
     }
   }
 }

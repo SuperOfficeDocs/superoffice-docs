@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/GetSystemBatchTaskInfosByName
 uid: v1BatchAgent_GetSystemBatchTaskInfosByName
+generated: true
 ---
 
 # POST Agents/Batch/GetSystemBatchTaskInfosByName
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Lindgren Inc and Sons"
+  "TaskName": "Ledner-Gerhold"
 }
 ```
 
@@ -109,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 876,
-    "Name": "Hagenes, Cummings and Rau",
-    "AssociateId": 151,
-    "DetailsTable": 150,
-    "DetailsRecord": 994,
+    "Id": 335,
+    "Name": "White-Zieme",
+    "AssociateId": 987,
+    "DetailsTable": 721,
+    "DetailsRecord": 806,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quibusdam",
-      "ParameterObject2": "sit"
+      "ParameterObject1": "corrupti",
+      "ParameterObject2": "quo"
     },
-    "LastStarted": "2008-04-03T03:51:26.6156255+02:00",
-    "Created": "2008-07-12T03:51:26.6156255+02:00",
-    "StartCount": 638,
-    "DatabaseSerialNumber": "1433556",
-    "Context": "occaecati",
-    "Result": "rem",
+    "LastStarted": "1996-04-20T16:00:40.1175682+02:00",
+    "Created": "2012-11-26T16:00:40.1175682+01:00",
+    "StartCount": 317,
+    "DatabaseSerialNumber": "846731",
+    "Context": "aliquam",
+    "Result": "velit",
     "State": "All",
-    "Description": "Optimized secondary concept",
-    "Response": "aliquid",
-    "Request": "non",
-    "ProgressDescription": "Advanced non-volatile installation",
-    "ProgressPercent": 471,
-    "FileName": "Stark, Mante and Hilpert",
+    "Description": "Synergized assymetric support",
+    "Response": "a",
+    "Request": "ut",
+    "ProgressDescription": "Implemented high-level time-frame",
+    "ProgressPercent": 766,
+    "FileName": "Gusikowski, Heidenreich and Lockman",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldLength": 92
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: Services88.WorkflowAgent.AddAfterWorkflowStep SOAP
-generated: 1
+generated: true
 uid: Services88-Workflow-AddAfterWorkflowStep
 ---
 

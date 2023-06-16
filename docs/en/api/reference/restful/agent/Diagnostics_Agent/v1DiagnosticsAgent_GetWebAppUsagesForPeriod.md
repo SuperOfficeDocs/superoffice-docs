@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Diagnostics/GetWebAppUsagesForPeriod
 uid: v1DiagnosticsAgent_GetWebAppUsagesForPeriod
+generated: true
 ---
 
 # POST Agents/Diagnostics/GetWebAppUsagesForPeriod
@@ -84,9 +85,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2015-05-19T03:51:26.9905317+02:00",
-  "ToDate": "2003-07-02T03:51:26.9905317+02:00",
-  "SearchTerm": "qui"
+  "FromDate": "2014-04-14T16:00:40.5550049+02:00",
+  "ToDate": "2014-02-05T16:00:40.5550049+01:00",
+  "SearchTerm": "eveniet"
 }
 ```
 
@@ -98,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 567,
-    "AssocId": 149,
-    "Timestamp": "2014-12-29T03:51:26.9905317+01:00",
-    "ViewState": "quo",
-    "AggregateCount": 895,
-    "AggregateBin": 381,
-    "Version": 384,
+    "WebAppUsageId": 392,
+    "AssocId": 652,
+    "Timestamp": "2011-10-05T16:00:40.5550049+02:00",
+    "ViewState": "consequatur",
+    "AggregateCount": 943,
+    "AggregateBin": 197,
+    "Version": 806,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 519
+        "FieldType": "System.Int32",
+        "FieldLength": 595
       }
     }
   }

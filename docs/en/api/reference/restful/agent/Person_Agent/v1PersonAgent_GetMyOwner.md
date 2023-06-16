@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetMyOwner
 uid: v1PersonAgent_GetMyOwner
+generated: true
 ---
 
 # POST Agents/Person/GetMyOwner
@@ -103,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,52 +114,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "est",
-  "PersonId": 174,
-  "Mrmrs": "dignissimos",
-  "Firstname": "Jerry",
-  "Lastname": "Bayer",
-  "MiddleName": "Hartmann Group",
-  "Title": "a",
-  "Description": "Balanced human-resource approach",
-  "Email": "adelia@pacochawilderman.us",
-  "FullName": "Ms. America Block DDS",
-  "DirectPhone": "459-886-1859 x7079",
-  "FormalName": "Zboncak Inc and Sons",
-  "CountryId": 730,
-  "ContactId": 4,
-  "ContactName": "Kerluke, Wiza and Schroeder",
-  "Retired": 933,
-  "Rank": 1000,
-  "ActiveInterests": 298,
+  "Position": "nostrum",
+  "PersonId": 835,
+  "Mrmrs": "ullam",
+  "Firstname": "Hershel",
+  "Lastname": "Corkery",
+  "MiddleName": "McClure-Yundt",
+  "Title": "ipsam",
+  "Description": "Organized interactive moderator",
+  "Email": "davon@smitham.biz",
+  "FullName": "Federico Cruickshank",
+  "DirectPhone": "(534)360-3541 x24666",
+  "FormalName": "Oberbrunner-Jacobson",
+  "CountryId": 756,
+  "ContactId": 697,
+  "ContactName": "Vandervort-Moore",
+  "Retired": 858,
+  "Rank": 80,
+  "ActiveInterests": 146,
   "ContactDepartment": "",
-  "ContactCountryId": 579,
-  "ContactOrgNr": "953528",
-  "FaxPhone": "054-408-3024 x16475",
-  "MobilePhone": "1-501-376-8851 x904",
-  "ContactPhone": "926.213.5960",
-  "AssociateName": "Rippin, Crona and Schmidt",
-  "AssociateId": 948,
+  "ContactCountryId": 363,
+  "ContactOrgNr": "1926895",
+  "FaxPhone": "919-316-9230",
+  "MobilePhone": "(762)212-6917",
+  "ContactPhone": "1-211-112-3208",
+  "AssociateName": "Prohaska, Ratke and Bechtelar",
+  "AssociateId": 960,
   "UsePersonAddress": false,
-  "ContactFax": "sapiente",
-  "Kanafname": "sit",
-  "Kanalname": "expedita",
-  "Post1": "qui",
-  "Post2": "ad",
-  "Post3": "consequatur",
-  "EmailName": "adalberto@hilllstreich.ca",
-  "ContactFullName": "Dr. Bell Quinton Batz",
-  "ActiveErpLinks": 336,
-  "TicketPriorityId": 274,
-  "SupportLanguageId": 984,
-  "SupportAssociateId": 99,
+  "ContactFax": "reprehenderit",
+  "Kanafname": "dolorem",
+  "Kanalname": "dolores",
+  "Post1": "blanditiis",
+  "Post2": "quos",
+  "Post3": "similique",
+  "EmailName": "kaylah@bosco.us",
+  "ContactFullName": "Simone West",
+  "ActiveErpLinks": 468,
+  "TicketPriorityId": 844,
+  "SupportLanguageId": 235,
+  "SupportAssociateId": 653,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 321
     }
   }
 }

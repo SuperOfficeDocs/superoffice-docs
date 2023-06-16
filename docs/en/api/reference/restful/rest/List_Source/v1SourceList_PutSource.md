@@ -1,6 +1,7 @@
 ---
 title: PUT List/Source/Items/{id}
 uid: v1SourceList_PutSource
+generated: true
 ---
 
 # PUT List/Source/Items/{id}
@@ -77,16 +78,16 @@ OK
 PUT /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 550,
-  "Name": "Bins Group",
-  "Tooltip": "illum",
+  "Id": 317,
+  "Name": "Koepp, Bins and Runte",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "UdListDefinitionId": 660,
-  "Rank": 971
+  "UdListDefinitionId": 451,
+  "Rank": 633
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 506,
-  "Name": "Schultz, Jewess and Hilpert",
-  "Tooltip": "expedita",
+  "Id": 898,
+  "Name": "Lubowitz Group",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 476,
-  "Rank": 630,
+  "UdListDefinitionId": 324,
+  "Rank": 901,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldType": "System.Int32",
+      "FieldLength": 450
     }
   }
 }

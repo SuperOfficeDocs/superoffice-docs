@@ -1,6 +1,7 @@
 ---
 title: GET Appointment/UdefLayout
 uid: v1AppointmentEntity_GetUdefLayout
+generated: true
 ---
 
 # GET Appointment/UdefLayout
@@ -89,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 798,
-    "ColumnId": 833,
-    "FieldDefault": "amet",
-    "FieldHeight": 265,
-    "FieldLabel": "quas",
-    "FieldLeft": 803,
-    "FieldTop": 309,
+    "UDefFieldId": 659,
+    "ColumnId": 70,
+    "FieldDefault": "nihil",
+    "FieldHeight": 483,
+    "FieldLabel": "sed",
+    "FieldLeft": 196,
+    "FieldTop": 367,
     "FieldType": "Checkbox",
-    "FieldWidth": 905,
-    "FormatMask": "aliquid",
-    "HideLabel": true,
+    "FieldWidth": 862,
+    "FormatMask": "cumque",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 351,
-    "LabelLeft": 346,
-    "LabelTop": 775,
-    "LabelWidth": 799,
-    "LastVersionId": 717,
-    "ListTableId": 745,
+    "LabelHeight": 101,
+    "LabelLeft": 719,
+    "LabelTop": 253,
+    "LabelWidth": 623,
+    "LastVersionId": 333,
+    "ListTableId": 776,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 684,
-    "ProgId": "odio",
-    "IsReadOnly": false,
-    "ShortLabel": "aliquid",
-    "TabOrder": 951,
-    "TextLength": 735,
-    "Tooltip": "ut",
-    "UdefIdentity": 422,
-    "UDListDefinitionId": 390,
+    "Page1LineNo": 185,
+    "ProgId": "provident",
+    "IsReadOnly": true,
+    "ShortLabel": "est",
+    "TabOrder": 571,
+    "TextLength": 784,
+    "Tooltip": "non",
+    "UdefIdentity": 797,
+    "UDListDefinitionId": 338,
     "Justification": "Center",
-    "Version": 132,
-    "TemplateVariableName": "O'Kon, Wuckert and Reichel",
-    "HasBeenPublished": true,
-    "MdoListName": "Hessel, Wolf and Hyatt",
+    "Version": 854,
+    "TemplateVariableName": "Franecki Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Cruickshank Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldType": "System.String",
+        "FieldLength": 335
       }
     }
   }

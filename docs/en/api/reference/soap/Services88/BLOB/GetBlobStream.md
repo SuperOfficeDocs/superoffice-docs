@@ -1,6 +1,6 @@
 ---
 title: Services88.BLOBAgent.GetBlobStream SOAP
-generated: 1
+generated: true
 uid: Services88-BLOB-GetBlobStream
 ---
 

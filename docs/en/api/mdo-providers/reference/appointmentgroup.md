@@ -1,17 +1,11 @@
 ---
 uid: appointmentgroup
 title: appointmentgroup
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "appointmentgroup"
+keywords: mdoprovider mdo provider appointmentgroup
+description: Appointment grouping types: TaskType.Appointment, Phone, ToDo
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "appointmentgroup" MDO List

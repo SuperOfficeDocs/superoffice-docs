@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetHelpDispatcherUrl
 uid: v1ConfigurationAgent_GetHelpDispatcherUrl
+generated: true
 ---
 
 # POST Agents/Configuration/GetHelpDispatcherUrl
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Agents/Configuration/GetHelpDispatcherUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

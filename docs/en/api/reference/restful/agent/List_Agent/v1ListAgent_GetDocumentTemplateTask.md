@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetDocumentTemplateTask
 uid: v1ListAgent_GetDocumentTemplateTask
+generated: true
 ---
 
 # POST Agents/List/GetDocumentTemplateTask
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 978
+  "DocumentTemplateId": 427
 }
 ```
 
@@ -91,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 713,
-  "Value": "harum",
-  "Tooltip": "quos",
+  "Id": 225,
+  "Value": "porro",
+  "Tooltip": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldLength": 773
     }
   }
 }

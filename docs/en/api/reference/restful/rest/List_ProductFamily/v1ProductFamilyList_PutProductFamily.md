@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductFamily/Items/{id}
 uid: v1ProductFamilyList_PutProductFamily
+generated: true
 ---
 
 # PUT List/ProductFamily/Items/{id}
@@ -81,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 346,
-  "Name": "Morissette, Gerlach and Batz",
-  "Tooltip": "iste",
-  "Deleted": true,
-  "UdListDefinitionId": 256,
-  "Rank": 817
+  "Id": 17,
+  "Name": "Fisher, Witting and Mraz",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 82,
+  "Rank": 262
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 366,
-  "Name": "Nienow, Lockman and McGlynn",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "UdListDefinitionId": 891,
-  "Rank": 968,
+  "Id": 583,
+  "Name": "Frami-Little",
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "UdListDefinitionId": 655,
+  "Rank": 380,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldType": "System.Int32",
+      "FieldLength": 675
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetPriceList
 uid: v1QuoteAgent_GetPriceList
+generated: true
 ---
 
 # POST Agents/Quote/GetPriceList
@@ -25,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=109
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=741
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -75,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 892,
-  "ERPPriceListKey": "in",
-  "QuoteConnectionId": 110,
-  "Name": "Cremin, Steuber and Carroll",
-  "Description": "Persistent actuating standardization",
-  "Currency": "cum",
-  "CurrencyName": "Bernhard-Goyette",
-  "ValidFrom": "1997-11-25T03:51:27.9902963+01:00",
-  "ValidTo": "2004-11-05T03:51:27.9902963+01:00",
+  "PriceListId": 816,
+  "ERPPriceListKey": "ut",
+  "QuoteConnectionId": 234,
+  "Name": "Jenkins-Metz",
+  "Description": "Configurable secondary initiative",
+  "Currency": "non",
+  "CurrencyName": "Kulas LLC",
+  "ValidFrom": "2001-06-29T16:00:41.6331946+02:00",
+  "ValidTo": "2004-04-02T16:00:41.6331946+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldLength": 778
     }
   }
 }

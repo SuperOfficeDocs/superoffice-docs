@@ -1,6 +1,7 @@
 ---
 title: GET List/Business
 uid: v1BusinessList_GetListDefinition
+generated: true
 ---
 
 # GET List/Business
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 708,
-  "Name": "Morar, Grimes and Boyer",
-  "Tooltip": "et",
+  "Id": 658,
+  "Name": "Rosenbaum, Dickinson and Goyette",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "Rank": 678,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 486,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "quo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 918
     }
   },
   "_Links": {

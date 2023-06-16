@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/SaveRestrictionGroup
 uid: v1FindAgent_SaveRestrictionGroup
+generated: true
 ---
 
 # POST Agents/Find/SaveRestrictionGroup
@@ -67,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quo",
-  "ProviderName": "Cremin-Turner",
-  "StorageKey": "reiciendis",
+  "StorageType": "repellendus",
+  "ProviderName": "Lehner, Wiza and Grant",
+  "StorageKey": "illo",
   "RestrictionGroup": null,
-  "Context": "facere"
+  "Context": "qui"
 }
 ```
 

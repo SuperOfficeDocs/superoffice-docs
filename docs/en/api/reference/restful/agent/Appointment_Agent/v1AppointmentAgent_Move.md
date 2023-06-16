@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/Move
 uid: v1AppointmentAgent_Move
+generated: true
 ---
 
 # POST Agents/Appointment/Move
@@ -111,6 +112,9 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -128,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/Move
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 696,
-  "NewStartTime": "2012-11-29T03:51:26.2719523+01:00",
+  "AppointmentId": 40,
+  "NewStartTime": "2002-04-16T16:00:39.8988473+02:00",
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -149,122 +153,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2023-02-09T03:51:26.2719523+01:00",
-  "AppointmentId": 294,
-  "Description": "Optional value-added architecture",
-  "StartDate": "2021-06-13T03:51:26.2719523+02:00",
-  "EndDate": "2013-08-04T03:51:26.2719523+02:00",
+  "CreatedDate": "2016-04-16T16:00:39.914467+02:00",
+  "AppointmentId": 485,
+  "Description": "Multi-lateral secondary infrastructure",
+  "StartDate": "2007-04-04T16:00:39.914467+02:00",
+  "EndDate": "2009-02-07T16:00:39.914467+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 627,
+  "MotherId": 765,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-07-14T03:51:26.2875764+02:00",
+  "UpdatedDate": "2013-04-05T16:00:39.914467+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 652,
+  "ActiveLinks": 356,
   "Links": [
     {
-      "EntityName": "Boyle Group",
-      "Id": 770,
-      "Description": "Reactive tangible matrix",
-      "ExtraInfo": "error",
-      "LinkId": 221,
+      "EntityName": "Runte Group",
+      "Id": 213,
+      "Description": "Balanced value-added archive",
+      "ExtraInfo": "enim",
+      "LinkId": 984,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 472
+          "FieldLength": 519
         }
       }
     }
   ],
-  "AlarmLeadTime": "molestiae",
-  "HasAlarm": true,
-  "ColorIndex": 181,
-  "IsFree": true,
+  "AlarmLeadTime": "sunt",
+  "HasAlarm": false,
+  "ColorIndex": 267,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "eaque",
-  "LeadTime": "quod",
-  "Location": "molestias",
-  "RejectCounter": 542,
-  "RejectReason": "",
+  "LagTime": "saepe",
+  "LeadTime": "sequi",
+  "Location": "ex",
+  "RejectCounter": 492,
+  "RejectReason": "enable leading-edge e-services",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 890,
-      "PersonId": 672,
-      "ContactId": 757,
-      "EmailId": 519,
-      "SendEmail": false,
+      "AssociateId": 843,
+      "PersonId": 643,
+      "ContactId": 81,
+      "EmailId": 734,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 890,
-      "PersonId": 672,
-      "ContactId": 757,
-      "EmailId": 519,
-      "SendEmail": false,
+      "AssociateId": 843,
+      "PersonId": 643,
+      "ContactId": 81,
+      "EmailId": 734,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-06-04T03:51:26.2875764+02:00",
-  "HasConflict": false,
+  "ActiveDate": "1999-03-18T16:00:39.914467+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 225,
+  "PreferredTZLocation": 766,
   "Sale": null,
-  "SuggestedAppointmentId": 79,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 970,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "itaque",
+  "CentralserviceVideomeetId": "officia",
+  "Title": "fugit",
+  "Agenda": "dolor",
+  "InternalNotes": "voluptatem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Linwood Bauch",
-    "SuperOffice:2": "Marilie Okuneva"
+    "SuperOffice:1": "267760172",
+    "SuperOffice:2": "1991264165"
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "quo"
+    "CustomFields1": "omnis",
+    "CustomFields2": "sint"
   },
-  "PublishEventDate": "1995-12-29T03:51:26.2875764+01:00",
-  "PublishTo": "2001-07-03T03:51:26.2875764+02:00",
-  "PublishFrom": "2012-04-03T03:51:26.2875764+02:00",
+  "PublishEventDate": "2017-08-13T16:00:39.914467+02:00",
+  "PublishTo": "2018-10-22T16:00:39.914467+02:00",
+  "PublishFrom": "1996-04-29T16:00:39.914467+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 228,
+      "VisibleId": 956,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 827
+          "FieldType": "System.String",
+          "FieldLength": 828
         }
       }
     },
     {
-      "VisibleId": 228,
+      "VisibleId": 956,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 827
+          "FieldType": "System.String",
+          "FieldLength": 828
         }
       }
     }
@@ -273,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldType": "System.String",
+      "FieldLength": 579
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/SaveRestrictions2
 uid: v1FindAgent_SaveRestrictions2
+generated: true
 ---
 
 # POST Agents/Find/SaveRestrictions2
@@ -66,14 +67,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "assumenda",
-  "ProviderName": "Braun-Cassin",
-  "StorageKey": "repudiandae",
-  "Restrictions": "aut"
+  "StorageType": "aut",
+  "ProviderName": "Lowe Group",
+  "StorageKey": "dolores",
+  "Restrictions": "quaerat"
 }
 ```
 

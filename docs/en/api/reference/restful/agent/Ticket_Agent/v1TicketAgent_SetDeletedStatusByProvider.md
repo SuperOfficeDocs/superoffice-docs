@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/SetDeletedStatusByProvider
 uid: v1TicketAgent_SetDeletedStatusByProvider
+generated: true
 ---
 
 # POST Agents/Ticket/SetDeletedStatusByProvider
@@ -74,18 +75,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Baumbach-Bailey",
+  "ProviderName": "Wuckert-Metz",
   "Restrictions": [
     {
-      "Name": "Halvorson Group",
-      "Operator": "aut",
+      "Name": "Swift-McLaughlin",
+      "Operator": "nulla",
       "Values": [
-        "et",
-        "dolor"
+        "cumque",
+        "quia"
       ],
       "DisplayValues": [
-        "quo",
-        "laborum"
+        "occaecati",
+        "rerum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 129,
+      "InterParenthesis": 428,
       "InterOperator": "And",
-      "UniqueHash": 9
+      "UniqueHash": 1001
     }
   ]
 }
@@ -108,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  791,
-  119
+  206,
+  478
 ]
 ```

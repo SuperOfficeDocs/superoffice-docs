@@ -1,6 +1,6 @@
 ---
 title: Services88.QuoteAgent.IncludeQuoteVersionAttachment SOAP
-generated: 1
+generated: true
 uid: Services88-Quote-IncludeQuoteVersionAttachment
 ---
 

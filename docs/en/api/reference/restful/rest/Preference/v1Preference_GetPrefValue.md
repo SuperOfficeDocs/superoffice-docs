@@ -1,6 +1,7 @@
 ---
 title: GET Preference/{section}/{key}
 uid: v1Preference_GetPrefValue
+generated: true
 ---
 
 # GET Preference/{section}/{key}
@@ -82,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "quo",
   "Specification": null,
-  "DisplayValue": "quos",
-  "DisplayTooltip": "omnis",
+  "DisplayValue": "omnis",
+  "DisplayTooltip": "repellat",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 700,
-  "PrefDescId": 238,
-  "TableName": "Bednar Inc and Sons",
-  "UserPreferenceId": 79,
+  "TargetId": 501,
+  "PrefDescId": 842,
+  "TableName": "Reichel-Corwin",
+  "UserPreferenceId": 701,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldLength": 777
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET Pricelist
 uid: v1PriceList_GetAll
+generated: true
 ---
 
 # GET Pricelist
@@ -69,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=consequatur
-GET /api/v1/Pricelist?$top=611
-GET /api/v1/Pricelist?$skip=533
+GET /api/v1/Pricelist?$entities=architecto
+GET /api/v1/Pricelist?$top=225
+GET /api/v1/Pricelist?$skip=990
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=quasi
+GET /api/v1/Pricelist?$context=sapiente
 GET /api/v1/Pricelist?$format=JSON
-GET /api/v1/Pricelist?$jsonSafe=True
+GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
 ```
 
@@ -128,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "voluptas",
   "value": [
     {
-      "PrimaryKey": 9044,
+      "PrimaryKey": 480,
       "EntityName": "sale",
-      "saleId": 9044,
-      "contactId": 4172,
-      "name": "Simonis LLC"
+      "saleId": 480,
+      "contactId": 5832,
+      "name": "Eichmann, Walsh and Kub"
     },
     {
-      "PrimaryKey": 4464,
+      "PrimaryKey": 8893,
       "EntityName": "sale",
-      "saleId": 4464,
-      "contactId": 7153,
-      "name": "Zboncak Inc and Sons"
+      "saleId": 8893,
+      "contactId": 9059,
+      "name": "Harvey, Braun and Emard"
     }
   ]
 }

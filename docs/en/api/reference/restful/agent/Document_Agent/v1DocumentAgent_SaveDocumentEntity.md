@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/SaveDocumentEntity
 uid: v1DocumentAgent_SaveDocumentEntity
+generated: true
 ---
 
 # POST Agents/Document/SaveDocumentEntity
@@ -132,71 +133,71 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 506,
+  "DocumentId": 424,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sed",
-  "Header": "quos",
-  "Name": "Von, Maggio and Schimmel",
-  "OurRef": "ad",
-  "YourRef": "in",
-  "CreatedDate": "2022-09-18T03:51:27.0373963+02:00",
-  "UpdatedDate": "2016-10-02T03:51:27.0373963+02:00",
-  "Description": "Reactive well-modulated emulation",
+  "Attention": "enim",
+  "Header": "a",
+  "Name": "Reichert Group",
+  "OurRef": "earum",
+  "YourRef": "aut",
+  "CreatedDate": "2001-07-29T16:00:40.6018681+02:00",
+  "UpdatedDate": "2016-06-20T16:00:40.6018681+02:00",
+  "Description": "Persistent regional knowledge user",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-04-30T03:51:27.0373963+02:00",
-  "ExternalRef": "nulla",
+  "Date": "2009-05-12T16:00:40.6018681+02:00",
+  "ExternalRef": "rem",
   "Completed": "Completed",
-  "ActiveLinks": 20,
+  "ActiveLinks": 554,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Mayer, Kuvalis and Torp",
-      "Id": 258,
-      "Description": "Up-sized web-enabled portal",
-      "ExtraInfo": "eligendi",
-      "LinkId": 421
+      "EntityName": "Pfeffer LLC",
+      "Id": 245,
+      "Description": "Profit-focused client-server standardization",
+      "ExtraInfo": "rem",
+      "LinkId": 578
     },
     {
-      "EntityName": "Mayer, Kuvalis and Torp",
-      "Id": 258,
-      "Description": "Up-sized web-enabled portal",
-      "ExtraInfo": "eligendi",
-      "LinkId": 421
+      "EntityName": "Pfeffer LLC",
+      "Id": 245,
+      "Description": "Profit-focused client-server standardization",
+      "ExtraInfo": "rem",
+      "LinkId": 578
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 525,
-  "Snum": 715,
+  "SuggestedDocumentId": 340,
+  "Snum": 806,
   "UserDefinedFields": {
-    "SuperOffice:1": "437465235",
-    "SuperOffice:2": "1223743167"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Miss Sammy Audrey Kessler"
   },
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "sit"
+    "CustomFields1": "est",
+    "CustomFields2": "esse"
   },
-  "PublishEventDate": "2020-03-27T03:51:27.0373963+01:00",
-  "PublishTo": "2013-04-20T03:51:27.0373963+02:00",
-  "PublishFrom": "2015-01-01T03:51:27.0373963+01:00",
+  "PublishEventDate": "2013-03-06T16:00:40.6018681+01:00",
+  "PublishTo": "2018-10-03T16:00:40.6018681+02:00",
+  "PublishFrom": "2008-08-18T16:00:40.6018681+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 896,
+      "VisibleId": 367,
       "Visibility": "All",
       "DisplayValue": "et"
     },
     {
-      "VisibleId": 896,
+      "VisibleId": 367,
       "Visibility": "All",
       "DisplayValue": "et"
     }
@@ -211,88 +212,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 381,
+  "DocumentId": 520,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "amet",
+  "Attention": "repellendus",
   "Header": "rerum",
-  "Name": "Bosco-Nikolaus",
-  "OurRef": "a",
-  "YourRef": "quasi",
-  "CreatedDate": "2012-05-16T03:51:27.0530147+02:00",
-  "UpdatedDate": "2009-10-26T03:51:27.0530147+01:00",
-  "Description": "Implemented web-enabled monitoring",
+  "Name": "Huels-Trantow",
+  "OurRef": "veritatis",
+  "YourRef": "ut",
+  "CreatedDate": "2005-08-16T16:00:40.6174891+02:00",
+  "UpdatedDate": "1997-11-05T16:00:40.6174891+01:00",
+  "Description": "Profit-focused asynchronous monitoring",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1997-10-13T03:51:27.0530147+02:00",
-  "ExternalRef": "voluptates",
+  "Date": "2007-08-20T16:00:40.6174891+02:00",
+  "ExternalRef": "aspernatur",
   "Completed": "Completed",
-  "ActiveLinks": 750,
+  "ActiveLinks": 521,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wilderman, Will and Hackett",
-      "Id": 478,
-      "Description": "Managed coherent structure",
-      "ExtraInfo": "et",
-      "LinkId": 788,
+      "EntityName": "Mosciski, Becker and Schaefer",
+      "Id": 846,
+      "Description": "Switchable client-driven array",
+      "ExtraInfo": "consequuntur",
+      "LinkId": 748,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 601
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 285,
-  "Snum": 886,
+  "SuggestedDocumentId": 829,
+  "Snum": 650,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Lyla Rupert Kulas Sr.",
+    "SuperOffice:2": "Florencio Ratke"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatibus",
-    "ExtraFields2": "doloremque"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "temporibus",
-    "CustomFields2": "at"
+    "CustomFields1": "est",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2018-07-30T03:51:27.0530147+02:00",
-  "PublishTo": "2011-10-07T03:51:27.0530147+02:00",
-  "PublishFrom": "2021-12-02T03:51:27.0530147+01:00",
+  "PublishEventDate": "2019-05-03T16:00:40.6174891+02:00",
+  "PublishTo": "2010-09-28T16:00:40.6174891+02:00",
+  "PublishFrom": "2008-04-23T16:00:40.6174891+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 271,
+      "VisibleId": 731,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldType": "System.String",
+          "FieldLength": 544
         }
       }
     },
     {
-      "VisibleId": 271,
+      "VisibleId": 731,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldType": "System.String",
+          "FieldLength": 544
         }
       }
     }
@@ -302,7 +303,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 164
+      "FieldLength": 411
     }
   }
 }

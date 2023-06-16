@@ -1,6 +1,7 @@
 ---
 title: DEL List/SelectionCategory/Headings
 uid: v1SelectionCategoryList_DeleteSelectionCategoryHeadings
+generated: true
 ---
 
 # DEL List/SelectionCategory/Headings

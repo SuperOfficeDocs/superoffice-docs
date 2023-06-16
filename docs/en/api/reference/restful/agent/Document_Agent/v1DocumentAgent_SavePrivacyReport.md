@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/SavePrivacyReport
 uid: v1DocumentAgent_SavePrivacyReport
+generated: true
 ---
 
 # POST Agents/Document/SavePrivacyReport
@@ -73,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HtmlReport": "hic",
-  "Title": "odit",
-  "PersonId": 168
+  "HtmlReport": "dicta",
+  "Title": "vel",
+  "PersonId": 892
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-326
+965
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/GetUnparsedTemplate
 uid: v1CustomerServiceAgent_GetUnparsedTemplate
+generated: true
 ---
 
 # POST Agents/CustomerService/GetUnparsedTemplate
@@ -79,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 172,
-  "LanguageId": 184
+  "ReplyTemplateId": 477,
+  "LanguageId": 90
 }
 ```
 
@@ -95,35 +96,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 741,
-  "PlainParsed": "eos",
-  "HtmlParsed": "quos",
+  "ReplyTemplateId": 608,
+  "PlainParsed": "corporis",
+  "HtmlParsed": "cumque",
   "Attachments": [
     {
-      "AttachmentId": 902,
-      "Name": "Boehm-Volkman",
-      "ContentType": "qui",
-      "AttSize": 463,
-      "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "laboriosam",
+      "AttachmentId": 704,
+      "Name": "Schaefer, Green and Gaylord",
+      "ContentType": "velit",
+      "AttSize": 693,
+      "InlineImage": true,
+      "ContentId": "fugit",
+      "AuthKey": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 928
         }
       }
     }
   ],
-  "Subject": "iste",
+  "Subject": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldType": "System.String",
+      "FieldLength": 53
     }
   }
 }

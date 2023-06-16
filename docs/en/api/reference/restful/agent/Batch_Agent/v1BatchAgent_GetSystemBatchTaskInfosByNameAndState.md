@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 uid: v1BatchAgent_GetSystemBatchTaskInfosByNameAndState
+generated: true
 ---
 
 # POST Agents/Batch/GetSystemBatchTaskInfosByNameAndState
@@ -94,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Doyle Group",
+  "TaskName": "Klocko, Runte and Huels",
   "State": "All"
 }
 ```
@@ -111,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 815,
-    "Name": "Marks, Crist and Hills",
-    "AssociateId": 937,
-    "DetailsTable": 658,
-    "DetailsRecord": 106,
+    "Id": 997,
+    "Name": "West LLC",
+    "AssociateId": 17,
+    "DetailsTable": 515,
+    "DetailsRecord": 303,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "hic",
-      "ParameterObject2": "inventore"
+      "ParameterObject1": "autem",
+      "ParameterObject2": "distinctio"
     },
-    "LastStarted": "2007-04-01T03:51:26.6156255+02:00",
-    "Created": "1998-06-19T03:51:26.6156255+02:00",
-    "StartCount": 1000,
-    "DatabaseSerialNumber": "924532",
-    "Context": "atque",
-    "Result": "perspiciatis",
+    "LastStarted": "2003-10-01T16:00:40.1175682+02:00",
+    "Created": "2015-08-19T16:00:40.1175682+02:00",
+    "StartCount": 903,
+    "DatabaseSerialNumber": "1113508",
+    "Context": "rerum",
+    "Result": "ut",
     "State": "All",
-    "Description": "Optional bottom-line access",
-    "Response": "qui",
-    "Request": "nihil",
-    "ProgressDescription": "Distributed non-volatile approach",
-    "ProgressPercent": 686,
-    "FileName": "Hudson, Conn and Cruickshank",
+    "Description": "Upgradable explicit process improvement",
+    "Response": "dolores",
+    "Request": "facilis",
+    "ProgressDescription": "Sharable exuding interface",
+    "ProgressPercent": 492,
+    "FileName": "Bashirian LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 469
+        "FieldType": "System.Int32",
+        "FieldLength": 455
       }
     }
   }

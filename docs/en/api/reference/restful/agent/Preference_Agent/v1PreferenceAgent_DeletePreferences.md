@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/DeletePreferences
 uid: v1PreferenceAgent_DeletePreferences
+generated: true
 ---
 
 # POST Agents/Preference/DeletePreferences
@@ -63,13 +64,13 @@ No Content
 POST /api/v1/Agents/Preference/DeletePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    129,
-    660
+    950,
+    579
   ]
 }
 ```

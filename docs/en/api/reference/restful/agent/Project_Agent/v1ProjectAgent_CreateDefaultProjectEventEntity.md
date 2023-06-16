@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/CreateDefaultProjectEventEntity
 uid: v1ProjectAgent_CreateDefaultProjectEventEntity
+generated: true
 ---
 
 # POST Agents/Project/CreateDefaultProjectEventEntity
@@ -85,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quaerat",
-  "SignOffText": "ad",
-  "SignOnConfirmationText": "cupiditate",
-  "SignOnText": "ad",
-  "EventDate": "2022-01-10T03:51:27.912192+01:00",
+  "SignOffConfirmationText": "quidem",
+  "SignOffText": "ratione",
+  "SignOnConfirmationText": "eius",
+  "SignOnText": "enim",
+  "EventDate": "2000-02-27T16:00:41.5394564+01:00",
   "Enabled": false,
-  "CreatedDate": "2003-08-19T03:51:27.912192+02:00",
+  "CreatedDate": "2009-11-09T16:00:41.5394564+01:00",
   "SignOff": true,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 801,
-  "SignOffTriggersAssign": false,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 453,
+  "SignOffTriggersAssign": true,
   "SignOn": true,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 407,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2022-10-16T03:51:27.912192+02:00",
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 677,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2001-10-01T16:00:41.5394564+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 297,
-  "Id": 773,
-  "PublishFrom": "1997-05-28T03:51:27.912192+02:00",
+  "ProjectId": 814,
+  "Id": 840,
+  "PublishFrom": "2014-08-23T16:00:41.5394564+02:00",
   "PublishType": "External",
-  "PublishTo": "1996-01-22T03:51:27.912192+01:00",
+  "PublishTo": "2001-04-12T16:00:41.5394564+02:00",
   "VisibleForCategories": [
     {
-      "Id": 153,
-      "Name": "Weissnat LLC",
-      "ToolTip": "Animi accusantium cupiditate.",
+      "Id": 763,
+      "Name": "Crona-Kerluke",
+      "ToolTip": "Omnis odio voluptas cumque.",
       "Deleted": false,
-      "Rank": 662,
-      "Type": "dolorum",
+      "Rank": 342,
+      "Type": "voluptates",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quis",
-      "ColorBlock": 330,
-      "ExtraInfo": "officia",
-      "StyleHint": "neque",
-      "FullName": "Priscilla Daniel V",
+      "IconHint": "dolorum",
+      "ColorBlock": 583,
+      "ExtraInfo": "eos",
+      "StyleHint": "aperiam",
+      "FullName": "Roberto Ledner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 111
+          "FieldType": "System.Int32",
+          "FieldLength": 828
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 156,
-      "Name": "Yost Group",
-      "ToolTip": "Praesentium et possimus.",
+      "Id": 48,
+      "Name": "Barrows, Kertzmann and Mohr",
+      "ToolTip": "Exercitationem fugit voluptas dolor optio porro.",
       "Deleted": false,
-      "Rank": 746,
-      "Type": "deleniti",
+      "Rank": 98,
+      "Type": "ab",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "velit",
-      "ColorBlock": 383,
-      "ExtraInfo": "temporibus",
-      "StyleHint": "quos",
-      "FullName": "Dr. Brando Kayden O'Kon IV",
+      "IconHint": "praesentium",
+      "ColorBlock": 222,
+      "ExtraInfo": "earum",
+      "StyleHint": "consequatur",
+      "FullName": "Guy Horacio King Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 245
+          "FieldType": "System.Int32",
+          "FieldLength": 957
         }
       }
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 760,
+  "ProjectEventId": 949,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 22
     }
   }
 }

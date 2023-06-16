@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetSalesFromContact
 uid: v1SaleAgent_GetSalesFromContact
+generated: true
 ---
 
 # POST Agents/Sale/GetSalesFromContact
@@ -97,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 910,
+  "ContactId": 30,
   "OnlyOpenSales": false
 }
 ```
@@ -114,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Emmerich-Heller",
-    "SaleDate": "2017-11-29T03:51:28.1308861+01:00",
-    "SaleId": 455,
-    "Probability": 518,
-    "Title": "non",
-    "Amount": 15748.35,
-    "Currency": "fugiat",
-    "ProjectName": "Mayer-Cummings",
-    "AssociateFullName": "Petra Herman III",
-    "Description": "Polarised tangible encoding",
+    "ContactName": "Gutkowski-Nikolaus",
+    "SaleDate": "2007-03-11T16:00:41.7894273+01:00",
+    "SaleId": 857,
+    "Probability": 480,
+    "Title": "nisi",
+    "Amount": 20364.732,
+    "Currency": "sed",
+    "ProjectName": "O'Conner Inc and Sons",
+    "AssociateFullName": "Ms. Gertrude Herman II",
+    "Description": "Intuitive actuating core",
     "Status": "Lost",
-    "WeightedAmount": 27616.808,
-    "ProjectId": 557,
-    "EarningPercent": 2074.708,
-    "Earning": 19618.84,
-    "ContactId": 851,
-    "AssociateId": 276,
-    "PersonId": 773,
-    "SaleTypeId": 569,
-    "SaleTypeName": "Ward LLC",
-    "PersonFullName": "Yolanda Lynch",
+    "WeightedAmount": 21938.0,
+    "ProjectId": 320,
+    "EarningPercent": 1438.5059999999999,
+    "Earning": 29785.536,
+    "ContactId": 505,
+    "AssociateId": 383,
+    "PersonId": 421,
+    "SaleTypeId": 567,
+    "SaleTypeName": "Medhurst-Osinski",
+    "PersonFullName": "Miss Newell Sigurd Kohler DDS",
     "Completed": "Completed",
-    "ActiveErpLinks": 832,
-    "NextDueDate": "2009-07-30T03:51:28.1308861+02:00",
-    "Number": "1053628",
+    "ActiveErpLinks": 538,
+    "NextDueDate": "2015-11-24T16:00:41.7894273+01:00",
+    "Number": "198519",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldType": "System.String",
+        "FieldLength": 45
       }
     }
   }

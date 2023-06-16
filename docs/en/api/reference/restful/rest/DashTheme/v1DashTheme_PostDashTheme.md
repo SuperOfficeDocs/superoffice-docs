@@ -1,6 +1,7 @@
 ---
 title: POST DashTheme
 uid: v1DashTheme_PostDashTheme
+generated: true
 ---
 
 # POST DashTheme
@@ -89,12 +90,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 792,
-  "Name": "Hamill-Towne",
-  "Config": "qui",
-  "Rank": 362,
-  "Client": "dolor",
-  "Style": "nisi"
+  "DashboardThemeId": 649,
+  "Name": "Prohaska, Skiles and Rodriguez",
+  "Config": "impedit",
+  "Rank": 303,
+  "Client": "maiores",
+  "Style": "est"
 }
 ```
 
@@ -105,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 60,
-  "Name": "Hirthe, Blick and Klocko",
-  "Config": "sunt",
-  "Rank": 830,
-  "Client": "aut",
-  "Style": "ea",
+  "DashboardThemeId": 39,
+  "Name": "Cole-Carter",
+  "Config": "non",
+  "Rank": 565,
+  "Client": "reiciendis",
+  "Style": "voluptates",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 654
+      "FieldType": "System.Int32",
+      "FieldLength": 13
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

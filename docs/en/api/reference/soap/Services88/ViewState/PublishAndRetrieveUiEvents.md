@@ -1,6 +1,6 @@
 ---
 title: Services88.ViewStateAgent.PublishAndRetrieveUiEvents SOAP
-generated: 1
+generated: true
 uid: Services88-ViewState-PublishAndRetrieveUiEvents
 ---
 
@@ -48,9 +48,15 @@ Application tokens must be specified if calling an Online installation. Applicat
       <ViewState:EntityKey xsi:type="xsd:int">0</ViewState:EntityKey>
       <ViewState:AssociateId xsi:type="xsd:int">0</ViewState:AssociateId>
       <ViewState:AssociateName xsi:type="xsd:string"></ViewState:AssociateName>
-      <ViewState:EventDateTime xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</ViewState:EventDateTime>
+      <ViewState:EventDateTime xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</ViewState:EventDateTime>
      </ViewState:UiEvent>
     </ViewState:PublishEvents>
+    <ViewState:Metrics xsi:type="ViewState:ArrayOfMetricPair">
+     <ViewState:MetricPair xsi:type="ViewState:MetricPair">
+      <ViewState:Name xsi:type="xsd:string"></ViewState:Name>
+      <ViewState:Value xsi:type="xsd:int">0</ViewState:Value>
+     </ViewState:MetricPair>
+    </ViewState:Metrics>
    </ViewState:PublishAndRetrieveUiEvents>
 
  </SOAP-ENV:Body>
@@ -81,7 +87,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <ViewState:EntityKey xsi:type="xsd:int">0</ViewState:EntityKey>
      <ViewState:AssociateId xsi:type="xsd:int">0</ViewState:AssociateId>
      <ViewState:AssociateName xsi:type="xsd:string"></ViewState:AssociateName>
-     <ViewState:EventDateTime xsi:type="xsd:dateTime">2023-05-25T11:10:26Z</ViewState:EventDateTime>
+     <ViewState:EventDateTime xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</ViewState:EventDateTime>
     </ViewState:UiEvent>
    </ViewState:Response>
   </ViewState:PublishAndRetrieveUiEventsResponse>

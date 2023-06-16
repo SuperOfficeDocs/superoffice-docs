@@ -1,6 +1,7 @@
 ---
 title: POST List/Source/Headings
 uid: v1SourceList_PostSourceHeading
+generated: true
 ---
 
 # POST List/Source/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 282,
-  "Name": "Mueller-Jaskolski",
-  "Tooltip": "incidunt",
+  "HeadingId": 509,
+  "Name": "Hand, Witting and Dare",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "Rank": 86,
-  "UdListDefinitionId": 248
+  "Rank": 532,
+  "UdListDefinitionId": 226
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 576,
-  "Name": "Harris LLC",
-  "Tooltip": "expedita",
+  "HeadingId": 298,
+  "Name": "Willms, Sanford and Hermiston",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "Rank": 892,
-  "UdListDefinitionId": 308,
+  "Rank": 57,
+  "UdListDefinitionId": 11,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 972
     }
   }
 }

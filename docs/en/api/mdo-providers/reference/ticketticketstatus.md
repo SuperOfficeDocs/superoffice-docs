@@ -1,17 +1,11 @@
 ---
 uid: ticketticketstatus
 title: ticketticketstatus
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "ticketticketstatus"
+keywords: mdoprovider mdo provider ticketticketstatus
+description: TicketTicketStatusProvider creates a flat list based on the table: TICKET_STATUS
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ticketticketstatus" MDO List

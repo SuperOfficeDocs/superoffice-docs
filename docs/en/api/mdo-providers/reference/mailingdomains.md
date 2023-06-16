@@ -1,17 +1,11 @@
 ---
 uid: mailingdomains
 title: mailingdomains
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "mailingdomains"
+keywords: mdoprovider mdo provider mailingdomains
+description: MDO list provider for Mailing domains, including leading @
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "mailingdomains" MDO List

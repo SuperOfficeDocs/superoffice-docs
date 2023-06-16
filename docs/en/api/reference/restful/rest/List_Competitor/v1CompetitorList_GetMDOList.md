@@ -1,6 +1,7 @@
 ---
 title: GET List/Competitor/MDOItems
 uid: v1CompetitorList_GetMDOList
+generated: true
 ---
 
 # GET List/Competitor/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=omnis
+GET /api/v1/List/Competitor/MDOItems?query=magnam
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 878,
-    "Name": "Cremin-O'Conner",
-    "ToolTip": "Nesciunt soluta pariatur.",
+    "Id": 817,
+    "Name": "Hegmann, Jones and Weissnat",
+    "ToolTip": "Ut accusantium tenetur commodi quia sunt quod.",
     "Deleted": false,
-    "Rank": 11,
-    "Type": "saepe",
+    "Rank": 912,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 178,
-        "Name": "Collier Inc and Sons",
-        "ToolTip": "Est beatae.",
-        "Deleted": true,
-        "Rank": 222,
-        "Type": "soluta",
+        "Id": 923,
+        "Name": "Borer, Swaniawski and Christiansen",
+        "ToolTip": "Quae similique error nihil occaecati magnam.",
+        "Deleted": false,
+        "Rank": 193,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 414,
-        "ExtraInfo": "unde",
-        "StyleHint": "sed",
-        "FullName": "Royal Reichert",
+        "IconHint": "autem",
+        "ColorBlock": 120,
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "eveniet",
+        "FullName": "Brandyn Towne",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldLength": 923
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 984,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "rem",
-    "FullName": "Dr. Bill Albina Schuster",
+    "IconHint": "omnis",
+    "ColorBlock": 567,
+    "ExtraInfo": "quas",
+    "StyleHint": "at",
+    "FullName": "Sabina Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 456
+        "FieldType": "System.String",
+        "FieldLength": 407
       }
     }
   }

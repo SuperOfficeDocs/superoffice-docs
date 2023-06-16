@@ -1,6 +1,6 @@
 ---
 title: Services88.NavigatorAgent.GetNavigatorCompany SOAP
-generated: 1
+generated: true
 uid: Services88-Navigator-GetNavigatorCompany
 ---
 

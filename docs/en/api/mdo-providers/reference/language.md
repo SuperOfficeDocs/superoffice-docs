@@ -1,17 +1,11 @@
 ---
 uid: language
 title: language
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "language"
+keywords: mdoprovider mdo provider language
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "language" MDO List

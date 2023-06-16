@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CleanUpBookingDeletedWithUpdateMode
 uid: v1AppointmentAgent_CleanUpBookingDeletedWithUpdateMode
+generated: true
 ---
 
 # POST Agents/Appointment/CleanUpBookingDeletedWithUpdateMode
@@ -71,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    481,
-    486
+    335,
+    266
   ],
   "UpdateMode": "OnlyThis"
 }

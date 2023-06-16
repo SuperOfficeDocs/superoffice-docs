@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CreateAndAcceptWithEmailConfirmation
 uid: v1AppointmentAgent_CreateAndAcceptWithEmailConfirmation
+generated: true
 ---
 
 # POST Agents/Appointment/CreateAndAcceptWithEmailConfirmation
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/Appointment/CreateAndAcceptWithEmailConfirmation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 211,
+  "EmailItemId": 905,
   "UpdateMode": "OnlyThis"
 }
 ```

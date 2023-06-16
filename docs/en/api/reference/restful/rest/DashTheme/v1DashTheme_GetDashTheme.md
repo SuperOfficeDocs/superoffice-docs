@@ -1,6 +1,7 @@
 ---
 title: GET DashTheme/{id}
 uid: v1DashTheme_GetDashTheme
+generated: true
 ---
 
 # GET DashTheme/{id}
@@ -77,7 +78,7 @@ DashTheme found.
 GET /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,18 +88,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 733,
-  "Name": "Dickinson Inc and Sons",
-  "Config": "impedit",
-  "Rank": 499,
-  "Client": "nihil",
-  "Style": "dicta",
+  "DashboardThemeId": 137,
+  "Name": "Glover Group",
+  "Config": "dolore",
+  "Rank": 429,
+  "Client": "nemo",
+  "Style": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldType": "System.String",
+      "FieldLength": 170
     }
   },
   "_Links": {

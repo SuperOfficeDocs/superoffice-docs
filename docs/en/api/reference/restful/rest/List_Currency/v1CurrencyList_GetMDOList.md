@@ -1,6 +1,7 @@
 ---
 title: GET List/Currency/MDOItems
 uid: v1CurrencyList_GetMDOList
+generated: true
 ---
 
 # GET List/Currency/MDOItems
@@ -25,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=fugit
+GET /api/v1/List/Currency/MDOItems?flat=True
+GET /api/v1/List/Currency/MDOItems?query=aut
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 676,
-    "Name": "Baumbach, Welch and Thiel",
-    "ToolTip": "Voluptatem enim et.",
-    "Deleted": true,
-    "Rank": 960,
-    "Type": "consequatur",
+    "Id": 203,
+    "Name": "Ullrich Group",
+    "ToolTip": "Consequuntur dolorem est id temporibus quis eaque ipsam.",
+    "Deleted": false,
+    "Rank": 886,
+    "Type": "perspiciatis",
     "ChildItems": [
       {
-        "Id": 992,
-        "Name": "Beahan, Leannon and Botsford",
-        "ToolTip": "Natus laboriosam impedit.",
-        "Deleted": false,
-        "Rank": 802,
-        "Type": "placeat",
+        "Id": 62,
+        "Name": "Dickinson-Buckridge",
+        "ToolTip": "Rerum ab quis quod totam.",
+        "Deleted": true,
+        "Rank": 157,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eligendi",
-        "ColorBlock": 541,
-        "ExtraInfo": "natus",
-        "StyleHint": "voluptas",
-        "FullName": "Rey Shanahan",
+        "IconHint": "quas",
+        "ColorBlock": 856,
+        "ExtraInfo": "in",
+        "StyleHint": "commodi",
+        "FullName": "Ellen Hermann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 109
+            "FieldType": "System.Int32",
+            "FieldLength": 898
           }
         }
       }
     ],
-    "IconHint": "atque",
-    "ColorBlock": 921,
-    "ExtraInfo": "accusantium",
-    "StyleHint": "officia",
-    "FullName": "Miss Katrine Jessyca Reichert",
+    "IconHint": "magni",
+    "ColorBlock": 410,
+    "ExtraInfo": "qui",
+    "StyleHint": "est",
+    "FullName": "Ellis Ladarius Padberg III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 857
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

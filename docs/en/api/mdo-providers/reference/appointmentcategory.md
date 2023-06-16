@@ -1,17 +1,11 @@
 ---
 uid: appointmentcategory
 title: appointmentcategory
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "appointmentcategory"
+keywords: mdoprovider mdo provider appointmentcategory
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "appointmentcategory" MDO List

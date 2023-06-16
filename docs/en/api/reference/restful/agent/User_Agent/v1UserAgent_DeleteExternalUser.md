@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/DeleteExternalUser
 uid: v1UserAgent_DeleteExternalUser
+generated: true
 ---
 
 # POST Agents/User/DeleteExternalUser
@@ -65,11 +66,11 @@ No Content
 POST /api/v1/Agents/User/DeleteExternalUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 420
+  "AssociateId": 245
 }
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: Services88.MarketingAgent.DeleteShipmentMessageBlockEntity SOAP
-generated: 1
+generated: true
 uid: Services88-Marketing-DeleteShipmentMessageBlockEntity
 ---
 

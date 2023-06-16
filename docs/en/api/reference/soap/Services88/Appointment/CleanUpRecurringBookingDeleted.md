@@ -1,6 +1,6 @@
 ---
 title: Services88.AppointmentAgent.CleanUpRecurringBookingDeleted SOAP
-generated: 1
+generated: true
 uid: Services88-Appointment-CleanUpRecurringBookingDeleted
 ---
 

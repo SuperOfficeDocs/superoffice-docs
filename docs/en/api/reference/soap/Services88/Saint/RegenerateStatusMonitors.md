@@ -1,6 +1,6 @@
 ---
 title: Services88.SaintAgent.RegenerateStatusMonitors SOAP
-generated: 1
+generated: true
 uid: Services88-Saint-RegenerateStatusMonitors
 ---
 
@@ -76,8 +76,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Saint:Value xsi:type="xsd:string"></Saint:Value>
      </Saint:StringKeyValuePair>
     </Saint:ParameterObject>
-    <Saint:LastStarted xsi:type="xsd:dateTime">2023-05-25T11:09:55Z</Saint:LastStarted>
-    <Saint:Created xsi:type="xsd:dateTime">2023-05-25T11:09:55Z</Saint:Created>
+    <Saint:LastStarted xsi:type="xsd:dateTime">2023-06-09T13:59:57Z</Saint:LastStarted>
+    <Saint:Created xsi:type="xsd:dateTime">2023-06-09T13:59:57Z</Saint:Created>
     <Saint:StartCount xsi:type="xsd:int">0</Saint:StartCount>
     <Saint:DatabaseSerialNumber xsi:type="xsd:string"></Saint:DatabaseSerialNumber>
     <Saint:Context xsi:type="xsd:string"></Saint:Context>

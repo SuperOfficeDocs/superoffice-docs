@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/SaveTicketMessageEntityWithOptions
 uid: v1TicketAgent_SaveTicketMessageEntityWithOptions
+generated: true
 ---
 
 # POST Agents/Ticket/SaveTicketMessageEntityWithOptions
@@ -105,12 +106,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": true,
+  "Notify": false,
   "AttachmentIds": [
-    735,
-    851
+    595,
+    14
   ],
-  "UpdateRepliedAt": false
+  "UpdateRepliedAt": true
 }
 ```
 
@@ -121,78 +122,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 464,
+  "EjMessageId": 799,
   "Ticket": null,
-  "CreatedAt": "2008-05-10T03:51:28.4120734+02:00",
+  "CreatedAt": "2011-12-10T16:00:42.2425099+01:00",
   "CreatedBy": null,
-  "Author": "dicta",
+  "Author": "vitae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 503,
-  "Body": "numquam",
-  "HtmlBody": "sapiente",
-  "EmailHeader": "nathen@luettgen.uk",
-  "DebugInfo": "dolorem",
-  "MailSorter": "eligendi",
+  "MessageId": "voluptas",
+  "TimeSpent": 591,
+  "Body": "inventore",
+  "HtmlBody": "quae",
+  "EmailHeader": "hassan@bechtelarschmeler.uk",
+  "DebugInfo": "consequatur",
+  "MailSorter": "consequatur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "occaecati",
   "MessageHeaders": [
     {
-      "Id": 938,
-      "Name": "Robel-O'Hara",
-      "Value": "reprehenderit",
+      "Id": 291,
+      "Name": "O'Conner-Moen",
+      "Value": "ea",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldType": "System.String",
+          "FieldLength": 126
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "tempore",
-  "Sentiment": 357,
-  "SentimentConfidence": 613,
+  "Important": false,
+  "Language": "natus",
+  "Sentiment": 387,
+  "SentimentConfidence": 192,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 811,
-      "Name": "Hahn LLC",
-      "ContentType": "eos",
-      "AttSize": 301,
+      "AttachmentId": 166,
+      "Name": "Jacobson LLC",
+      "ContentType": "suscipit",
+      "AttSize": 27,
       "InlineImage": false,
-      "ContentId": "fugiat",
-      "AuthKey": "in",
+      "ContentId": "quis",
+      "AuthKey": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldLength": 107
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "harum"
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "dolorum"
+    "CustomFields1": "ut",
+    "CustomFields2": "deleniti"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 363
     }
   }
 }

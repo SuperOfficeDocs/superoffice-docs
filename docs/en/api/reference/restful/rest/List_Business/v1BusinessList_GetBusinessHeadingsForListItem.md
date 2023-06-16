@@ -1,6 +1,7 @@
 ---
 title: GET List/Business/Items/{id}/Headings
 uid: v1BusinessList_GetBusinessHeadingsForListItem
+generated: true
 ---
 
 # GET List/Business/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 489,
-    "Name": "Stroman Inc and Sons",
-    "ToolTip": "Recusandae illo deserunt quas.",
+    "Id": 587,
+    "Name": "Emmerich-Beatty",
+    "ToolTip": "Voluptatum sed et facere voluptatem consectetur dolores.",
     "Deleted": false,
-    "Rank": 7,
-    "Type": "facilis",
-    "ColorBlock": 393,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2009-09-14T03:51:34.3802934+02:00",
+    "Rank": 404,
+    "Type": "nesciunt",
+    "ColorBlock": 829,
+    "IconHint": "itaque",
+    "Selected": false,
+    "LastChanged": "1998-11-05T16:00:48.8677298+01:00",
     "ChildItems": [
       {
-        "Id": 417,
-        "Name": "Homenick-Moen",
-        "ToolTip": "A non deserunt laborum sed.",
-        "Deleted": true,
-        "Rank": 857,
-        "Type": "sunt",
-        "ColorBlock": 14,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "1998-02-10T03:51:34.3802934+01:00",
+        "Id": 276,
+        "Name": "Flatley, Frami and Johns",
+        "ToolTip": "Quas at autem ipsum voluptates.",
+        "Deleted": false,
+        "Rank": 56,
+        "Type": "in",
+        "ColorBlock": 966,
+        "IconHint": "hic",
+        "Selected": false,
+        "LastChanged": "1999-02-06T16:00:48.8677298+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "est",
+        "StyleHint": "nobis",
         "Hidden": false,
-        "FullName": "Carmela Swift",
+        "FullName": "Courtney Jewel Runte PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 804
+            "FieldType": "System.String",
+            "FieldLength": 242
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "blanditiis",
-    "Hidden": true,
-    "FullName": "Dr. Brannon Kris",
+    "ExtraInfo": "neque",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Prof. Anabelle Orrin Botsford Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldType": "System.String",
+        "FieldLength": 578
       }
     }
   }

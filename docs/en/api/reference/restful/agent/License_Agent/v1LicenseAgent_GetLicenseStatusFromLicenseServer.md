@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/GetLicenseStatusFromLicenseServer
 uid: v1LicenseAgent_GetLicenseStatusFromLicenseServer
+generated: true
 ---
 
 # POST Agents/License/GetLicenseStatusFromLicenseServer
@@ -76,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Simonis Group"
+  "OwnerName": "Ebert, Schamberger and Von"
 }
 ```
 
@@ -88,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "sunt",
+  "Message": "sed",
   "Url": "http://www.example.com/"
 }
 ```

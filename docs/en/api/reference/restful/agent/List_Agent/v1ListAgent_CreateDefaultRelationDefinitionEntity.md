@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultRelationDefinitionEntity
 uid: v1ListAgent_CreateDefaultRelationDefinitionEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultRelationDefinitionEntity
@@ -63,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 636,
-  "Name": "Rosenbaum-Breitenberg",
-  "Tooltip": "distinctio",
-  "PassiveText": "error",
+  "ReldefId": 52,
+  "Name": "Quitzon, Stiedemann and Rippin",
+  "Tooltip": "voluptates",
+  "PassiveText": "explicabo",
   "Deleted": false,
-  "Rank": 807,
+  "Rank": 207,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -86,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 689
     }
   }
 }

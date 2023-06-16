@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetDocumentTemplateLanguages
 uid: v1ListAgent_GetDocumentTemplateLanguages
+generated: true
 ---
 
 # POST Agents/List/GetDocumentTemplateLanguages
@@ -71,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 450
+  "DocumentTemplateId": 484
 }
 ```
 
@@ -82,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "velit",
-  "et"
+  "impedit",
+  "libero"
 ]
 ```

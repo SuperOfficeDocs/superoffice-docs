@@ -1,17 +1,11 @@
 ---
 uid: emailfromtype
 title: emailfromtype
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "emailfromtype"
+keywords: mdoprovider mdo provider emailfromtype
+description: MDO provider for the EmailFromType enum
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "emailfromtype" MDO List

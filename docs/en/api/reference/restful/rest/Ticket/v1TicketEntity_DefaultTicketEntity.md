@@ -1,6 +1,7 @@
 ---
 title: GET Ticket/default
 uid: v1TicketEntity_DefaultTicketEntity
+generated: true
 ---
 
 # GET Ticket/default
@@ -110,7 +111,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -120,21 +121,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 129,
-  "Title": "at",
-  "CreatedAt": "2001-10-16T03:51:34.04818+02:00",
-  "LastChanged": "2018-12-21T03:51:34.04818+01:00",
-  "ReadByOwner": "2013-12-26T03:51:34.04818+01:00",
-  "ReadByCustomer": "2018-01-09T03:51:34.04818+01:00",
-  "FirstReadByOwner": "2015-07-06T03:51:34.04818+02:00",
-  "FirstReadByUser": "1996-07-16T03:51:34.04818+02:00",
-  "Activate": "2011-01-15T03:51:34.04818+01:00",
-  "ClosedAt": "1996-08-07T03:51:34.04818+02:00",
-  "RepliedAt": "2009-12-05T03:51:34.04818+01:00",
-  "AlertTimeout": "2012-02-18T03:51:34.04818+01:00",
-  "Deadline": "2010-04-22T03:51:34.04818+02:00",
+  "TicketId": 676,
+  "Title": "enim",
+  "CreatedAt": "2010-01-26T16:00:48.4771472+01:00",
+  "LastChanged": "2006-01-06T16:00:48.4771472+01:00",
+  "ReadByOwner": "2000-11-24T16:00:48.4771472+01:00",
+  "ReadByCustomer": "2003-08-03T16:00:48.4771472+02:00",
+  "FirstReadByOwner": "1997-07-27T16:00:48.4771472+02:00",
+  "FirstReadByUser": "2003-04-21T16:00:48.4771472+02:00",
+  "Activate": "2003-07-15T16:00:48.4771472+02:00",
+  "ClosedAt": "1998-01-27T16:00:48.4771472+01:00",
+  "RepliedAt": "2016-04-18T16:00:48.4771472+02:00",
+  "AlertTimeout": "2017-12-30T16:00:48.4771472+01:00",
+  "Deadline": "2020-03-06T16:00:48.4771472+01:00",
   "CreatedBy": null,
-  "Author": "consectetur",
+  "Author": "natus",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -145,159 +146,159 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "perferendis",
-      "PersonId": 51,
-      "Mrmrs": "et",
-      "Firstname": "Raul",
-      "Lastname": "Bradtke",
-      "MiddleName": "Cummings-Hoppe",
-      "Title": "odio",
-      "Description": "Inverse stable knowledge user",
-      "Email": "buck@beier.ca",
-      "FullName": "Kitty Koepp",
-      "DirectPhone": "1-606-836-6011 x51490",
-      "FormalName": "Corwin, Beahan and Ward",
-      "CountryId": 611,
-      "ContactId": 663,
-      "ContactName": "Stoltenberg, Spinka and Blanda",
-      "Retired": 745,
-      "Rank": 154,
-      "ActiveInterests": 733,
+      "Position": "tempore",
+      "PersonId": 766,
+      "Mrmrs": "voluptate",
+      "Firstname": "Carli",
+      "Lastname": "Reichert",
+      "MiddleName": "Olson-Ebert",
+      "Title": "fuga",
+      "Description": "Decentralized systematic process improvement",
+      "Email": "addison@robel.co.uk",
+      "FullName": "Cassandra Pfannerstill DDS",
+      "DirectPhone": "564-720-4271 x98308",
+      "FormalName": "Zieme, Legros and Durgan",
+      "CountryId": 264,
+      "ContactId": 821,
+      "ContactName": "Parker, Senger and Dibbert",
+      "Retired": 865,
+      "Rank": 440,
+      "ActiveInterests": 129,
       "ContactDepartment": "",
-      "ContactCountryId": 371,
-      "ContactOrgNr": "1169628",
-      "FaxPhone": "1-164-744-6505 x131",
-      "MobilePhone": "359-844-7010 x26729",
-      "ContactPhone": "646.252.1432",
-      "AssociateName": "Crist Group",
-      "AssociateId": 952,
-      "UsePersonAddress": true,
-      "ContactFax": "et",
-      "Kanafname": "voluptas",
-      "Kanalname": "aut",
-      "Post1": "dolorum",
-      "Post2": "distinctio",
-      "Post3": "et",
-      "EmailName": "enola@mann.biz",
-      "ContactFullName": "Tracey Gardner Reilly MD",
-      "ActiveErpLinks": 224,
-      "TicketPriorityId": 140,
-      "SupportLanguageId": 649,
-      "SupportAssociateId": 272,
+      "ContactCountryId": 832,
+      "ContactOrgNr": "668382",
+      "FaxPhone": "1-020-329-9892",
+      "MobilePhone": "223.043.7912 x172",
+      "ContactPhone": "1-122-638-1903 x756",
+      "AssociateName": "Schowalter Group",
+      "AssociateId": 705,
+      "UsePersonAddress": false,
+      "ContactFax": "aperiam",
+      "Kanafname": "animi",
+      "Kanalname": "nostrum",
+      "Post1": "ipsum",
+      "Post2": "numquam",
+      "Post3": "itaque",
+      "EmailName": "casimir@heller.name",
+      "ContactFullName": "Gerard Parisian",
+      "ActiveErpLinks": 365,
+      "TicketPriorityId": 627,
+      "SupportLanguageId": 845,
+      "SupportAssociateId": 213,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldType": "System.String",
+          "FieldLength": 251
         }
       }
     }
   ],
-  "AlertLevel": 513,
-  "ConnectId": 390,
+  "AlertLevel": 495,
+  "ConnectId": 944,
   "ReadStatus": "Green",
-  "TimeToReply": 519,
-  "RealTimeToReply": 968,
-  "TimeToClose": 995,
-  "RealTimeToClose": 126,
-  "TimeSpentInternally": 410,
-  "TimeSpentExternally": 666,
-  "TimeSpentQueue": 298,
-  "RealTimeSpentInternally": 855,
-  "RealTimeSpentExternally": 412,
-  "RealTimeSpentQueue": 395,
+  "TimeToReply": 26,
+  "RealTimeToReply": 413,
+  "TimeToClose": 675,
+  "RealTimeToClose": 915,
+  "TimeSpentInternally": 974,
+  "TimeSpentExternally": 917,
+  "TimeSpentQueue": 435,
+  "RealTimeSpentInternally": 906,
+  "RealTimeSpentExternally": 248,
+  "RealTimeSpentQueue": 211,
   "HasAttachment": false,
-  "NumReplies": 146,
-  "NumMessages": 831,
-  "FromAddress": "a",
+  "NumReplies": 109,
+  "NumMessages": 475,
+  "FromAddress": "ducimus",
   "Messages": [
     {
-      "TicketMessageId": 1002,
-      "CreatedAt": "2011-02-14T03:51:34.052187+01:00",
+      "TicketMessageId": 540,
+      "CreatedAt": "2002-06-13T16:00:48.4771472+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "consequuntur",
-      "PersonId": 929,
-      "PersonFullName": "Prof. Michele Jayden Lynch Sr.",
-      "ContactId": 23,
-      "ContactName": "Marvin, Stehr and Stroman",
+      "Author": "sit",
+      "PersonId": 714,
+      "PersonFullName": "Mrs. Ray Hackett",
+      "ContactId": 74,
+      "ContactName": "Tromp Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 554,
-      "EmailHeader": "litzy@grady.ca",
+      "NumAttachments": 963,
+      "EmailHeader": "estefania@keeblernader.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "recusandae",
-      "Sentiment": 90,
-      "SentimentConfidence": 777,
-      "CreatedBy": 167,
-      "ChangedAt": "1999-01-17T03:51:34.052187+01:00",
+      "Language": "qui",
+      "Sentiment": 568,
+      "SentimentConfidence": 768,
+      "CreatedBy": 672,
+      "ChangedAt": "2008-11-20T16:00:48.4771472+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 994
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 586,
-      "Name": "Glover-Langosh",
-      "ToolTip": "Eligendi eum repellat architecto a odio quisquam amet.",
+      "Id": 861,
+      "Name": "Kassulke LLC",
+      "ToolTip": "Harum rerum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 586
         }
       }
     },
     {
-      "Id": 586,
-      "Name": "Glover-Langosh",
-      "ToolTip": "Eligendi eum repellat architecto a odio quisquam amet.",
+      "Id": 861,
+      "Name": "Kassulke LLC",
+      "ToolTip": "Harum rerum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 586
         }
       }
     }
   ],
-  "Language": "harum",
-  "Sentiment": 158,
-  "SentimentConfidence": 217,
-  "SuggestedCategoryId": 139,
+  "Language": "perferendis",
+  "Sentiment": 197,
+  "SentimentConfidence": 715,
+  "SuggestedCategoryId": 622,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 698,
-  "IconHint": "modi",
+  "OrigHumanCategoryId": 670,
+  "IconHint": "similique",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "perferendis"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "consequuntur"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "aut"
+    "CustomFields1": "velit",
+    "CustomFields2": "tenetur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldType": "System.String",
+      "FieldLength": 643
     }
   }
 }

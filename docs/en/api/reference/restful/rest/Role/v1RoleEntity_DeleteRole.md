@@ -1,6 +1,7 @@
 ---
 title: DEL Role/{roleIdToDelete}
 uid: v1RoleEntity_DeleteRole
+generated: true
 ---
 
 # DEL Role/{roleIdToDelete}
@@ -30,7 +31,7 @@ Delete the specified role and move all users associated with the role to the rep
 | replacingRoleId | int32 |  The roleId which all associated users will be moved to. |
 
 ```http
-DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=501
+DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=690
 ```
 
 

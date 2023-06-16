@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/MoveEmailsToFolder
 uid: v1EMailAgent_MoveEmailsToFolder
+generated: true
 ---
 
 # POST Agents/EMail/MoveEmailsToFolder
@@ -70,10 +71,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 756,
+  "FolderId": 60,
   "EmailItemIds": [
-    695,
-    439
+    934,
+    575
   ]
 }
 ```

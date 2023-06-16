@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetListEntity
 uid: v1ListAgent_GetListEntity
+generated: true
 ---
 
 # POST Agents/List/GetListEntity
@@ -25,7 +26,7 @@ Gets a ListEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetListEntity?listEntityId=543
+POST /api/v1/Agents/List/GetListEntity?listEntityId=458
 POST /api/v1/Agents/List/GetListEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 209,
-  "Name": "Heller-McDermott",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 651,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 3,
+  "Name": "Franecki LLC",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "Rank": 513,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": true,
+  "ListType": "voluptatibus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldType": "System.Int32",
+      "FieldLength": 302
     }
   }
 }

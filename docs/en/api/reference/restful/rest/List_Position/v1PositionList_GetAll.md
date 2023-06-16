@@ -1,6 +1,7 @@
 ---
 title: GET List/Position/Items
 uid: v1PositionList_GetAll
+generated: true
 ---
 
 # GET List/Position/Items
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Waelchi Inc and Sons",
-    "Tooltip": "dolor",
+    "Id": 24,
+    "Name": "Keebler Inc and Sons",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "UdListDefinitionId": 34,
-    "Rank": 779,
+    "UdListDefinitionId": 960,
+    "Rank": 138,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldLength": 639
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetConfigParametersByLayoutName
 uid: v1AudienceAgent_GetConfigParametersByLayoutName
+generated: true
 ---
 
 # POST Agents/Audience/GetConfigParametersByLayoutName
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Collier, Ernser and Hettinger"
+  "LayoutName": "Prosacco-Wunsch"
 }
 ```
 
@@ -94,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 720,
-    "Name": "Stroman, Schroeder and Huel",
-    "Value": "quia",
-    "CreatedDate": "2005-01-16T03:51:26.5999985+01:00",
-    "UpdatedDate": "2019-10-23T03:51:26.5999985+02:00",
-    "CreatedBy": "voluptatem",
-    "UpdatedBy": "repellat",
+    "AudienceLayoutId": 528,
+    "Name": "Marquardt, Marvin and Upton",
+    "Value": "ad",
+    "CreatedDate": "2012-12-06T16:00:40.1019505+01:00",
+    "UpdatedDate": "2008-06-13T16:00:40.1019505+02:00",
+    "CreatedBy": "earum",
+    "UpdatedBy": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldLength": 398
       }
     }
   }

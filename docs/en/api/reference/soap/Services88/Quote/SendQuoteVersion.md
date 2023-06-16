@@ -1,6 +1,6 @@
 ---
 title: Services88.QuoteAgent.SendQuoteVersion SOAP
-generated: 1
+generated: true
 uid: Services88-Quote-SendQuoteVersion
 ---
 
@@ -40,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Quote:SendQuoteVersion>
     <Quote:QuoteVersionId xsi:type="xsd:int">0</Quote:QuoteVersionId>
-    <Quote:ExpiryDate xsi:type="xsd:dateTime">2023-05-25T11:09:55Z</Quote:ExpiryDate>
-    <Quote:FollowupDate xsi:type="xsd:dateTime">2023-05-25T11:09:55Z</Quote:FollowupDate>
+    <Quote:ExpiryDate xsi:type="xsd:dateTime">2023-06-09T13:59:56Z</Quote:ExpiryDate>
+    <Quote:FollowupDate xsi:type="xsd:dateTime">2023-06-09T13:59:56Z</Quote:FollowupDate>
     <Quote:FollowupText xsi:type="xsd:string"></Quote:FollowupText>
     <Quote:Culture xsi:type="xsd:string"></Quote:Culture>
    </Quote:SendQuoteVersion>

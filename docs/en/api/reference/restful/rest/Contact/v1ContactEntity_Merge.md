@@ -1,6 +1,7 @@
 ---
 title: POST Contact/{id}/MergeTo/{id}
 uid: v1ContactEntity_Merge
+generated: true
 ---
 
 # POST Contact/{id}/MergeTo/{id}
@@ -33,7 +34,7 @@ The destination contact will remain.
 
 ```http
 POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?mergeIdenticalPersons=False
-POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?replaceEmptyFieldsOnDestination=True
+POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?replaceEmptyFieldsOnDestination=False
 ```
 
 
@@ -64,7 +65,7 @@ No Content
 POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

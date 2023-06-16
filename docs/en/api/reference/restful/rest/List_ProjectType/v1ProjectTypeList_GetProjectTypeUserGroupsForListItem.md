@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectType/Items/{id}/UserGroups
 uid: v1ProjectTypeList_GetProjectTypeUserGroupsForListItem
+generated: true
 ---
 
 # GET List/ProjectType/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Greenfelder-Langworth",
-    "ToolTip": "Omnis non sunt ratione nobis qui.",
-    "Deleted": true,
-    "Rank": 244,
-    "Type": "nam",
-    "ColorBlock": 57,
-    "IconHint": "voluptate",
-    "Selected": true,
-    "LastChanged": "2012-08-13T03:51:34.8489374+02:00",
+    "Id": 899,
+    "Name": "Abernathy, Fay and Reichel",
+    "ToolTip": "Explicabo saepe autem.",
+    "Deleted": false,
+    "Rank": 540,
+    "Type": "quae",
+    "ColorBlock": 185,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2006-02-13T16:00:49.211436+01:00",
     "ChildItems": [
       {
-        "Id": 488,
-        "Name": "Crooks, Stamm and Kohler",
-        "ToolTip": "Nisi voluptates vel dolorum.",
+        "Id": 858,
+        "Name": "Conroy, Douglas and Quitzon",
+        "ToolTip": "Molestiae qui in eaque qui qui asperiores.",
         "Deleted": false,
-        "Rank": 175,
-        "Type": "ea",
-        "ColorBlock": 201,
-        "IconHint": "eius",
-        "Selected": false,
-        "LastChanged": "2006-03-28T03:51:34.8489374+02:00",
+        "Rank": 158,
+        "Type": "aut",
+        "ColorBlock": 124,
+        "IconHint": "laboriosam",
+        "Selected": true,
+        "LastChanged": "2012-03-04T16:00:49.211436+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "ea",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Glennie Stoltenberg",
+        "FullName": "Whitney Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 690
+            "FieldType": "System.Int32",
+            "FieldLength": 608
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Trudie Hintz Jr.",
+    "ExtraInfo": "aut",
+    "StyleHint": "adipisci",
+    "Hidden": true,
+    "FullName": "Aracely Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldType": "System.String",
+        "FieldLength": 256
       }
     }
   }

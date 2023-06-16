@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetPreferencesWithDisplayValues
 uid: v1PreferenceAgent_GetPreferencesWithDisplayValues
+generated: true
 ---
 
 # POST Agents/Preference/GetPreferencesWithDisplayValues
@@ -82,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "id",
-      "Key": "quo"
+      "Section": "pariatur",
+      "Key": "ipsum"
     },
     {
-      "Section": "id",
-      "Key": "quo"
+      "Section": "pariatur",
+      "Key": "ipsum"
     }
   ]
 }
@@ -108,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "sed",
+    "RawValue": "ut",
     "Specification": null,
-    "DisplayValue": "enim",
-    "DisplayTooltip": "rerum",
+    "DisplayValue": "exercitationem",
+    "DisplayTooltip": "dicta",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 4,
-    "PrefDescId": 428,
-    "TableName": "Monahan LLC",
-    "UserPreferenceId": 575,
+    "TargetId": 26,
+    "PrefDescId": 649,
+    "TableName": "Olson-Vandervort",
+    "UserPreferenceId": 98,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 837
+        "FieldType": "System.String",
+        "FieldLength": 409
       }
     }
   }

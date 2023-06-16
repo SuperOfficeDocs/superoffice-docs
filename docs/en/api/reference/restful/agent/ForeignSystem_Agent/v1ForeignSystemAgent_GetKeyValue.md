@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetKeyValue
 uid: v1ForeignSystemAgent_GetKeyValue
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetKeyValue
@@ -73,15 +74,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Pfeffer Inc and Sons",
-  "DeviceName": "Towne, Cummings and Koepp",
-  "KeyName": "Luettgen Inc and Sons",
-  "TableName": "Witting Group",
-  "RecordId": 32
+  "ApplicationName": "Flatley Inc and Sons",
+  "DeviceName": "Hessel, Collier and Fadel",
+  "KeyName": "Hyatt, Becker and Carroll",
+  "TableName": "Feeney-Orn",
+  "RecordId": 493
 }
 ```
 
@@ -91,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"iusto"
+"commodi"
 ```

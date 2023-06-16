@@ -1,6 +1,6 @@
 ---
 title: Services88.ImportAgent.CreateErpImportData SOAP
-generated: 1
+generated: true
 uid: Services88-Import-CreateErpImportData
 ---
 

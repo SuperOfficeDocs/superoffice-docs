@@ -1,17 +1,11 @@
 ---
 uid: workflowgoaltype
 title: workflowgoaltype
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "workflowgoaltype"
+keywords: mdoprovider mdo provider workflowgoaltype
+description: MDO provider for the WorkflowGoalType enum
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "workflowgoaltype" MDO List

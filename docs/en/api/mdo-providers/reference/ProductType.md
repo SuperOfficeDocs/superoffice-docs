@@ -1,17 +1,11 @@
 ---
 uid: producttype
 title: producttype
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "producttype"
+keywords: mdoprovider mdo provider producttype
+description: GenericMDOProvider reads MDO lists with default settings
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "producttype" MDO List

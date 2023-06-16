@@ -2,17 +2,10 @@
 uid: EmailAddress
 title: EmailAddress
 description: Special purpose archive provider used to search for email addresses.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "EmailAddress"
+keywords: EmailAddress archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "EmailAddress"
@@ -137,6 +130,10 @@ the email_id.
 |personContact/orgnr| *None* |VAT No.|  |
 |personContact/stop| *None* |Stop|  |
 |personContact/contactNoMail| *None* |No mailings (company|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/updatedBy| *None* |Updated by: The user who last updated the data|  |
 |personContact/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |personContact/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
@@ -237,6 +234,10 @@ the email_id.
 |postAddress/wgs84longitude| *None* |Postal address - Longitude: Longitude|  |
 |postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |restrictionPostalAddress/addressId| *None* |Postal address - Address ID: Database ID for the address record|  |
 |restrictionPostalAddress/line1| *None* |Postal address - Address 1: First line of the address|  |
 |restrictionPostalAddress/line2| *None* |Postal address - Address 2: Second line of the address|  |
@@ -337,6 +338,10 @@ the email_id.
 |contactSupportAssociate/personEmail| *None* |Our service contact - E-mail|  |
 |contactSupportPerson/personId| *None* |User support contact - DB ID: Displays the database ID of a contact|  |
 |contactSupportPerson/firstName| *None* |User support contact - First name: Displays the contact's first name|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactSupportPerson/lastName| *None* |User support contact - Last name: Displays the contact's last name|  |
 |contactSupportPerson/middleName| *None* |User support contact - Middle name: Displays the contact's middle name.|  |
 |contactSupportPerson/fullName| *None* |User support contact - Contact: Displays the contact to which an item is linked|  |
@@ -437,6 +442,10 @@ the email_id.
 |contactUdef/SuperOffice:5| *None* |companyunlimiteddate: tooltipunlimiteddate|  |
 |contactUdef/SuperOffice:6| *None* |companycheckbox|  |
 |contactUdef/SuperOffice:7| *None* |companydropdownlistbox|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactUdef/SuperOffice:8| *None* |companydecimal|  |
 |contactUdef/SuperOffice:9| *None* |page1saleonly|  |
 |contactUdef/SuperOffice:10| *None* |page1marketingonly|  |
@@ -495,7 +504,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=hasCompany,contactSupportPerson/personExtra/x_person_appointment_relation,contactExtra/x_contact_float,contactExtra/x_contact_timespan
+GET /api/v1/archive/EmailAddress?$select=contactId,personContact/streetAddress/county,searchPhone/description,contactSupportAssociate/ejStatus,contactSupportPerson/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

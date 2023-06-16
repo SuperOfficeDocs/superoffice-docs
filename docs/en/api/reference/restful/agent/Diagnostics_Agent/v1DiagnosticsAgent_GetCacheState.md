@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Diagnostics/GetCacheState
 uid: v1DiagnosticsAgent_GetCacheState
+generated: true
 ---
 
 # POST Agents/Diagnostics/GetCacheState
@@ -69,13 +70,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Altenwerth Group",
-    "Wisoky Group"
+    "Towne Group",
+    "Hand LLC"
   ]
 }
 ```
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"esse"
+"saepe"
 ```

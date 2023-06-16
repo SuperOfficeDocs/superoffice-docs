@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/GetTicketMessageWithOptions
 uid: v1TicketAgent_GetTicketMessageWithOptions
+generated: true
 ---
 
 # POST Agents/Ticket/GetTicketMessageWithOptions
@@ -102,7 +103,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 763,
+  "TicketMessageEntityId": 556,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -114,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 564,
+  "EjMessageId": 625,
   "Ticket": null,
-  "CreatedAt": "2005-07-20T03:51:28.4276928+02:00",
+  "CreatedAt": "2020-05-17T16:00:42.2581348+02:00",
   "CreatedBy": null,
-  "Author": "voluptate",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
   "MessageId": "aut",
-  "TimeSpent": 810,
-  "Body": "qui",
-  "HtmlBody": "molestiae",
-  "EmailHeader": "damien_toy@dietrich.biz",
-  "DebugInfo": "dolores",
-  "MailSorter": "sequi",
+  "TimeSpent": 121,
+  "Body": "saepe",
+  "HtmlBody": "dolores",
+  "EmailHeader": "haleigh@erdmanrunte.biz",
+  "DebugInfo": "est",
+  "MailSorter": "est",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "fuga",
+  "SearchTitle": "est",
   "MessageHeaders": [
     {
-      "Id": 201,
-      "Name": "Stracke, Sanford and Rempel",
-      "Value": "quia",
+      "Id": 190,
+      "Name": "Swaniawski-Wyman",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -143,49 +144,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 485
+          "FieldLength": 531
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "voluptatem",
-  "Sentiment": 375,
-  "SentimentConfidence": 632,
+  "Important": false,
+  "Language": "perspiciatis",
+  "Sentiment": 755,
+  "SentimentConfidence": 521,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 724,
-      "Name": "Rohan-Robel",
-      "ContentType": "sit",
-      "AttSize": 920,
-      "InlineImage": false,
-      "ContentId": "earum",
-      "AuthKey": "repellat",
+      "AttachmentId": 504,
+      "Name": "Morar-Lind",
+      "ContentType": "autem",
+      "AttSize": 535,
+      "InlineImage": true,
+      "ContentId": "ullam",
+      "AuthKey": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 595
+          "FieldType": "System.String",
+          "FieldLength": 124
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "temporibus",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "cupiditate"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "provident",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 998
+      "FieldType": "System.Int32",
+      "FieldLength": 962
     }
   }
 }

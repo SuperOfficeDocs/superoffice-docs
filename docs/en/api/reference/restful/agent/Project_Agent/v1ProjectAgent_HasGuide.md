@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/HasGuide
 uid: v1ProjectAgent_HasGuide
+generated: true
 ---
 
 # POST Agents/Project/HasGuide
@@ -71,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 579
+  "ProjectId": 160
 }
 ```
 

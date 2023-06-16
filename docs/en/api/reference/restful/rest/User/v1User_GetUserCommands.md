@@ -1,6 +1,7 @@
 ---
 title: GET User/{id}/CustomCommand
 uid: v1User_GetUserCommands
+generated: true
 ---
 
 # GET User/{id}/CustomCommand
@@ -55,7 +56,7 @@ Not Found.
 GET /api/v1/User/{id}/CustomCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

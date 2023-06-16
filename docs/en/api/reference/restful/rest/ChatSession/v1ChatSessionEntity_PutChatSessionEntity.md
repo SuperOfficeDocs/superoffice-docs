@@ -1,6 +1,7 @@
 ---
 title: PUT ChatSession/{id}
 uid: v1ChatSessionEntity_PutChatSessionEntity
+generated: true
 ---
 
 # PUT ChatSession/{id}
@@ -138,33 +139,33 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 678,
-  "TopicId": 75,
+  "ChatSessionId": 929,
+  "TopicId": 684,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "non",
-  "CustomerName": "Buckridge, Farrell and Walsh",
-  "CustomerEmail": "jerrold@crona.ca",
-  "CustomerPhone": "1-160-847-7129 x42283",
+  "CustomerAlias": "asperiores",
+  "CustomerHost": "possimus",
+  "CustomerName": "O'Keefe, Stanton and Zboncak",
+  "CustomerEmail": "edyth_padberg@schimmel.name",
+  "CustomerPhone": "804.752.3576",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bins, Buckridge and Stoltenberg",
+  "CustomerCompanyName": "Turner LLC",
   "Status": "Closed",
-  "FirstMessage": "quo",
-  "LastMessage": "non",
-  "WhenRequested": "2005-06-08T03:51:33.1460817+02:00",
-  "WhenStarted": "2006-07-03T03:51:33.1460817+02:00",
-  "WhenEnded": "2010-06-11T03:51:33.1460817+02:00",
-  "WhenIdle": "2018-05-19T03:51:33.1460817+02:00",
-  "WhenFetched": "2004-04-29T03:51:33.1460817+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 331,
-  "AlertLevel": 98,
-  "Rank": 324,
+  "FirstMessage": "recusandae",
+  "LastMessage": "sint",
+  "WhenRequested": "2003-09-25T16:00:47.5553723+02:00",
+  "WhenStarted": "2014-07-22T16:00:47.5553723+02:00",
+  "WhenEnded": "2016-09-12T16:00:47.5553723+02:00",
+  "WhenIdle": "1996-08-26T16:00:47.5553723+02:00",
+  "WhenFetched": "2020-05-02T16:00:47.5553723+02:00",
+  "SessionKey": "quas",
+  "InitialQueuePos": 580,
+  "AlertLevel": 778,
+  "Rank": 747,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -172,7 +173,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 706
+  "Rating": 671
 }
 ```
 
@@ -183,48 +184,48 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 635,
-  "TopicId": 323,
+  "ChatSessionId": 517,
+  "TopicId": 908,
   "User": null,
   "Person": null,
-  "CustomerAlias": "perspiciatis",
-  "CustomerHost": "accusantium",
-  "CustomerName": "Jacobi Inc and Sons",
-  "CustomerEmail": "samara@cartwright.us",
-  "CustomerPhone": "(409)339-2497 x39494",
+  "CustomerAlias": "molestiae",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Murray-Krajcik",
+  "CustomerEmail": "ludwig_vonrueden@jerde.co.uk",
+  "CustomerPhone": "378.418.3642 x19895",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Dickinson-Gottlieb",
+  "CustomerCompanyName": "Zemlak, Abernathy and Gislason",
   "Status": "Closed",
-  "FirstMessage": "in",
-  "LastMessage": "aperiam",
-  "WhenRequested": "2000-03-01T03:51:33.1460817+01:00",
-  "WhenStarted": "2007-07-22T03:51:33.1460817+02:00",
-  "WhenEnded": "2009-05-19T03:51:33.1460817+02:00",
-  "WhenIdle": "1998-03-03T03:51:33.1460817+01:00",
-  "WhenFetched": "2012-04-25T03:51:33.1460817+02:00",
-  "SessionKey": "molestiae",
-  "InitialQueuePos": 579,
-  "AlertLevel": 153,
-  "Rank": 343,
+  "FirstMessage": "repellat",
+  "LastMessage": "sit",
+  "WhenRequested": "2003-10-29T16:00:47.570999+01:00",
+  "WhenStarted": "2010-03-06T16:00:47.570999+01:00",
+  "WhenEnded": "2017-12-27T16:00:47.570999+01:00",
+  "WhenIdle": "2021-07-17T16:00:47.570999+02:00",
+  "WhenFetched": "2015-02-18T16:00:47.570999+01:00",
+  "SessionKey": "vero",
+  "InitialQueuePos": 662,
+  "AlertLevel": 814,
+  "Rank": 633,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 165,
+  "ChatbotIsActive": true,
+  "Rating": 775,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 551
+      "FieldLength": 762
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

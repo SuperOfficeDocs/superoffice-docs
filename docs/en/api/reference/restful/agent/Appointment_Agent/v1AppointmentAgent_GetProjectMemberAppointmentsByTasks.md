@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetProjectMemberAppointmentsByTasks
 uid: v1AppointmentAgent_GetProjectMemberAppointmentsByTasks
+generated: true
 ---
 
 # POST Agents/Appointment/GetProjectMemberAppointmentsByTasks
@@ -117,6 +118,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -126,17 +130,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 555,
-  "StartTime": "1999-08-05T03:51:26.1157305+02:00",
-  "EndTime": "2012-01-11T03:51:26.1157305+01:00",
-  "Count": 187,
+  "PersonId": 129,
+  "StartTime": "2019-02-23T16:00:39.6176013+01:00",
+  "EndTime": "1999-03-08T16:00:39.6176013+01:00",
+  "Count": 22,
   "TaskIds": [
-    94,
-    59
+    197,
+    503
   ]
 }
 ```
@@ -149,61 +153,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 435,
-    "StartDate": "2003-01-09T03:51:26.1157305+01:00",
-    "EndDate": "2008-03-06T03:51:26.1157305+01:00",
+    "AppointmentId": 993,
+    "StartDate": "2015-01-09T16:00:39.6176013+01:00",
+    "EndDate": "2004-04-12T16:00:39.6176013+02:00",
     "Type": "BookingForChecklist",
-    "Task": "suscipit",
-    "AssociateFullName": "Mina Kuvalis V",
-    "ContactName": "Wiza, Kris and Howell",
-    "Description": "Enterprise-wide systematic open architecture",
-    "PersonFullName": "Dr. Ron Heaney",
-    "PersonId": 784,
-    "ContactId": 410,
-    "ProjectId": 257,
-    "ProjectName": "Jacobson Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 836,
-    "ColorIndex": 147,
-    "IsFree": true,
+    "Task": "repellendus",
+    "AssociateFullName": "Stacey Wuckert",
+    "ContactName": "Beer-Hodkiewicz",
+    "Description": "Persevering discrete Graphical User Interface",
+    "PersonFullName": "Dr. Martina Sauer",
+    "PersonId": 968,
+    "ContactId": 549,
+    "ProjectId": 109,
+    "ProjectName": "Kirlin LLC",
+    "IsPublished": false,
+    "AssociateId": 876,
+    "ColorIndex": 994,
+    "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 835,
-    "PriorityName": "Armstrong-Tromp",
+    "PriorityId": 962,
+    "PriorityName": "Fadel-Swift",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2018-08-15T03:51:26.1157305+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2016-08-10T16:00:39.6176013+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-10-14T03:51:26.1157305+02:00",
-    "RecurringEndDate": "1996-08-10T03:51:26.1157305+02:00",
-    "MotherId": 196,
-    "AssignedBy": 654,
-    "AssignedByFullName": "Mrs. Fausto Nienow I",
+    "RecurringStartDate": "2023-02-20T16:00:39.6176013+01:00",
+    "RecurringEndDate": "2000-11-15T16:00:39.6176013+01:00",
+    "MotherId": 449,
+    "AssignedBy": 65,
+    "AssignedByFullName": "Davonte Nolan",
     "RejectReason": "",
-    "Location": "minus",
-    "AlarmLeadTime": "dolorem",
-    "SaleId": 790,
-    "SaleName": "Gutmann-Kassulke",
-    "AssociateName": "Auer Group",
-    "CreatedDate": "2004-12-31T03:51:26.1157305+01:00",
-    "CreatedBy": "voluptatum",
-    "CreatedByFullName": "Santino Hermiston",
-    "CreatedByAssociateId": 454,
+    "Location": "excepturi",
+    "AlarmLeadTime": "eos",
+    "SaleId": 536,
+    "SaleName": "Kuphal Inc and Sons",
+    "AssociateName": "Morissette-Kub",
+    "CreatedDate": "2006-02-27T16:00:39.6176013+01:00",
+    "CreatedBy": "dolor",
+    "CreatedByFullName": "Cathy Walter Jr.",
+    "CreatedByAssociateId": 523,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "asperiores",
+    "Agenda": "illo",
+    "InternalNotes": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 169
+        "FieldLength": 251
       }
     }
   }

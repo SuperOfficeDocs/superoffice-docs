@@ -1,5 +1,5 @@
 ---
-generated: 1
+generated: true
 uid: wsdl-Services88-ViewState
 title: Services88.ViewStateAgent WSDL
 ---
@@ -443,6 +443,7 @@ title: Services88.ViewStateAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="LatestKnownEventId" type="xs:int" />
             <xs:element minOccurs="0" name="PublishEvents" nillable="true" type="tns:ArrayOfUiEvent" />
+            <xs:element minOccurs="0" name="Metrics" nillable="true" type="tns:ArrayOfMetricPair" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -468,6 +469,19 @@ title: Services88.ViewStateAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="UiEvent" nillable="true" type="tns:UiEvent" />
+      <xs:complexType name="ArrayOfMetricPair">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="MetricPair" nillable="true" type="tns:MetricPair" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfMetricPair" nillable="true" type="tns:ArrayOfMetricPair" />
+      <xs:complexType name="MetricPair">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="MetricPair" nillable="true" type="tns:MetricPair" />
       <xs:element name="PublishAndRetrieveUiEventsResponse">
         <xs:complexType>
           <xs:sequence>

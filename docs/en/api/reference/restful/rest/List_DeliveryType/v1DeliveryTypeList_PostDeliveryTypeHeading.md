@@ -1,6 +1,7 @@
 ---
 title: POST List/DeliveryType/Headings
 uid: v1DeliveryTypeList_PostDeliveryTypeHeading
+generated: true
 ---
 
 # POST List/DeliveryType/Headings
@@ -78,12 +79,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 903,
-  "Name": "Botsford, Terry and Osinski",
-  "Tooltip": "quibusdam",
-  "Deleted": false,
-  "Rank": 551,
-  "UdListDefinitionId": 625
+  "HeadingId": 503,
+  "Name": "Smith, Paucek and Nolan",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 675,
+  "UdListDefinitionId": 927
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 216,
-  "Name": "Langosh, Gottlieb and O'Hara",
-  "Tooltip": "magni",
-  "Deleted": true,
-  "Rank": 306,
-  "UdListDefinitionId": 524,
+  "HeadingId": 783,
+  "Name": "Torphy-Anderson",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "Rank": 613,
+  "UdListDefinitionId": 731,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldType": "System.String",
+      "FieldLength": 640
     }
   }
 }

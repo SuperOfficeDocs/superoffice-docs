@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetCanInsertForAssociates
 uid: v1AppointmentAgent_GetCanInsertForAssociates
+generated: true
 ---
 
 # POST Agents/Appointment/GetCanInsertForAssociates
@@ -72,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    654,
-    908
+    470,
+    50
   ]
 }
 ```

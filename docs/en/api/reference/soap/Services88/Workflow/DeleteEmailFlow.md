@@ -1,6 +1,6 @@
 ---
 title: Services88.WorkflowAgent.DeleteEmailFlow SOAP
-generated: 1
+generated: true
 uid: Services88-Workflow-DeleteEmailFlow
 ---
 

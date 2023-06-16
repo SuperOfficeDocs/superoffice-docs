@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/SaveProjectImage
 uid: v1BLOBAgent_SaveProjectImage
+generated: true
 ---
 
 # POST Agents/BLOB/SaveProjectImage
@@ -68,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized national capability",
+  "Description": "Cross-group hybrid website",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

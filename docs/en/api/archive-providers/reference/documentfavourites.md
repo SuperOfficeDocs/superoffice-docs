@@ -2,17 +2,10 @@
 uid: documentfavourites
 title: documentfavourites
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "documentfavourites"
+keywords: documentfavourites archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "documentfavourites"
@@ -126,6 +119,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/personPager/formattedNumber|string|Other - Phone: Displays phone number|  |
 |person/personPager/description|string|Other - Description: Phone number description| x |
 |person/personDirectFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personDirectFax/description|string|Fax - Description: Phone number description| x |
 |person/searchPhone/formattedNumber|string|Phone : Displays phone number|  |
 |person/searchPhone/description|string|Description: Phone number description| x |
@@ -226,6 +223,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |person/personAssociate/userName|string|User name: User name| x |
@@ -326,6 +327,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/streetAddress/addressId|int|Street address - Address ID: Database ID for the address record| x |
 |contact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
 |contact/streetAddress/line3|string|Street address - Address 3: Third line of the address| x |
 |contact/streetAddress/county|string|Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
@@ -426,6 +431,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/LastDoBySale|date|Date of last non-completed sale|  |
 |contact/NumberOfTickets|int|Number of requests|  |
 |contact/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
 |contact/NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
 |contact/LastTicket|date|Date of last request|  |
@@ -526,6 +535,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |project/LastSale|date|Date of last sale|  |
 |project/LastCompletedSale|date|Date of last completed sale|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/LastDoBySale|date|Date of last non-completed sale|  |
 |project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |project/saintSaleStatus|listAny|With status|  |
@@ -626,6 +639,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -674,7 +691,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/documentfavourites?$select=person/correspondingAssociate/isActiveText,contact/contactUdef/SuperOffice:4,contact/contactUdef/SuperOffice:13,project/SaintStatus3,sale/associate/userName
+GET /api/v1/archive/documentfavourites?$select=getNoRows,person/personNoMail,person/personAssociate/credentialType,contact/associateId,associate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

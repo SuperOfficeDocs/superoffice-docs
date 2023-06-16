@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BulkUpdate/GetStoredFields
 uid: v1BulkUpdateAgent_GetStoredFields
+generated: true
 ---
 
 # POST Agents/BulkUpdate/GetStoredFields
@@ -87,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "magni"
+  "Context": "odit"
 }
 ```
 
@@ -106,74 +107,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "nemo",
-    "ValueType": "maxime",
+    "Key": "asperiores",
+    "ValueType": "consequuntur",
     "Mandatory": false,
-    "EncodedDisplayName": "Fisher, Weissnat and Schmidt",
-    "EncodedDisplayDescription": "Horizontal executive capacity",
-    "IconHint": "quo",
+    "EncodedDisplayName": "Hauck-Lindgren",
+    "EncodedDisplayDescription": "Stand-alone modular matrix",
+    "IconHint": "commodi",
     "ControlInfos": [
       {
-        "Type": "ea",
-        "Label": "voluptatibus",
-        "Dimension": 710,
-        "ListProviderName": "Green, Hane and Parisian",
-        "ListProviderExtraInfo": "nihil",
-        "ListProviderPrimaryKeyName": "Swaniawski, Yundt and Hilll",
-        "ListLeadText": "velit",
+        "Type": "suscipit",
+        "Label": "laborum",
+        "Dimension": 992,
+        "ListProviderName": "Armstrong LLC",
+        "ListProviderExtraInfo": "voluptatem",
+        "ListProviderPrimaryKeyName": "Boyer-Borer",
+        "ListLeadText": "non",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 810
+            "FieldType": "System.String",
+            "FieldLength": 45
           }
         }
       }
     ],
-    "EncodedDataCaption": "dolorum",
-    "EncodedDataCaptionDescription": "Exclusive client-driven conglomeration",
-    "CurrentOperationType": "dolores",
+    "EncodedDataCaption": "corrupti",
+    "EncodedDataCaptionDescription": "User-centric multi-tasking architecture",
+    "CurrentOperationType": "fuga",
     "Values": [
-      "ut",
-      "qui"
+      "rerum",
+      "fuga"
     ],
     "DisplayValues": [
-      "rerum",
-      "quasi"
+      "ut",
+      "esse"
     ],
     "OperationInfos": [
       {
-        "Key": "consequatur",
-        "EncodedDisplayName": "Quigley, Bashirian and Hauck",
+        "Key": "nulla",
+        "EncodedDisplayName": "Ortiz LLC",
         "EncodedLeadTexts": [
-          "facilis",
-          "quisquam"
+          "consectetur",
+          "totam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 301
+            "FieldType": "System.String",
+            "FieldLength": 91
           }
         }
       },
       {
-        "Key": "consequatur",
-        "EncodedDisplayName": "Quigley, Bashirian and Hauck",
+        "Key": "nulla",
+        "EncodedDisplayName": "Ortiz LLC",
         "EncodedLeadTexts": [
-          "facilis",
-          "quisquam"
+          "consectetur",
+          "totam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 301
+            "FieldType": "System.String",
+            "FieldLength": 91
           }
         }
       }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/FindRolesWithFunctionalRight
 uid: v1UserAgent_FindRolesWithFunctionalRight
+generated: true
 ---
 
 # POST Agents/User/FindRolesWithFunctionalRight
@@ -92,7 +93,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Bradtke, Hyatt and Mitchell"
+  "FunctionalRightName": "Stiedemann Group"
 }
 ```
 
@@ -104,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "McClure Group",
-    "ToolTip": "Placeat id sint dolores.",
-    "Deleted": true,
-    "Rank": 245,
-    "Type": "omnis",
+    "Id": 719,
+    "Name": "Hermann, Haley and Ullrich",
+    "ToolTip": "Quo omnis sit.",
+    "Deleted": false,
+    "Rank": 382,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 213,
-        "Name": "Considine, Gutmann and Carroll",
-        "ToolTip": "Voluptas minus aut voluptatem voluptates.",
+        "Id": 255,
+        "Name": "Satterfield-Roob",
+        "ToolTip": "Et qui totam non.",
         "Deleted": false,
-        "Rank": 766,
-        "Type": "ex",
+        "Rank": 996,
+        "Type": "dicta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aspernatur",
-        "ColorBlock": 921,
-        "ExtraInfo": "neque",
-        "StyleHint": "optio",
-        "FullName": "Velva Reichert III",
+        "IconHint": "repudiandae",
+        "ColorBlock": 844,
+        "ExtraInfo": "quo",
+        "StyleHint": "ut",
+        "FullName": "Imogene Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 368
+            "FieldLength": 182
           }
         }
       }
     ],
-    "IconHint": "cupiditate",
-    "ColorBlock": 187,
-    "ExtraInfo": "quisquam",
-    "StyleHint": "qui",
-    "FullName": "Era Heidenreich",
+    "IconHint": "debitis",
+    "ColorBlock": 327,
+    "ExtraInfo": "atque",
+    "StyleHint": "expedita",
+    "FullName": "Thaddeus Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 605
+        "FieldType": "System.Int32",
+        "FieldLength": 710
       }
     }
   }

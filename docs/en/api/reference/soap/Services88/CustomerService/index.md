@@ -1,7 +1,7 @@
 ---
 title: Services88.CustomerServiceAgent SOAP
 uid: Services88-CustomerService-soap
-generated: 1
+generated: true
 ---
 
 # Services88 CustomerService SOAP

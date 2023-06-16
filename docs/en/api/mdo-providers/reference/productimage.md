@@ -1,17 +1,11 @@
 ---
 uid: productimage
 title: productimage
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "productimage"
+keywords: mdoprovider mdo provider productimage
+description: Return product images from the blob table
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "productimage" MDO List

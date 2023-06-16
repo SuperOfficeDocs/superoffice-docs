@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAllTicketPriorities
 uid: v1ListAgent_GetAllTicketPriorities
+generated: true
 ---
 
 # POST Agents/List/GetAllTicketPriorities
@@ -103,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -115,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 851,
-    "Name": "Ritchie, Predovic and Shields",
+    "TicketPriorityId": 707,
+    "Name": "King Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 388,
+    "SortOrder": 202,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 622,
-    "MonStart": "1999-06-18T03:51:27.3810657+02:00",
-    "MonStop": "2014-12-21T03:51:27.3810657+01:00",
-    "TueStart": "2009-03-27T03:51:27.3810657+01:00",
-    "TueStop": "2017-01-21T03:51:27.3810657+01:00",
-    "WedStart": "2013-10-19T03:51:27.3810657+02:00",
-    "WedStop": "2003-10-07T03:51:27.3810657+02:00",
-    "ThuStart": "2005-04-24T03:51:27.3810657+02:00",
-    "ThuStop": "2018-11-15T03:51:27.3810657+01:00",
-    "FriStart": "2011-02-14T03:51:27.3810657+01:00",
-    "FriStop": "2001-02-11T03:51:27.3810657+01:00",
-    "SatStart": "2000-03-31T03:51:27.3810657+02:00",
-    "SatStop": "2005-02-17T03:51:27.3810657+01:00",
-    "SunStart": "2007-12-21T03:51:27.3810657+01:00",
-    "SunStop": "1996-05-24T03:51:27.3810657+02:00",
+    "Deadline": 36,
+    "MonStart": "2013-08-13T16:00:41.1018406+02:00",
+    "MonStop": "2015-10-28T16:00:41.1018406+01:00",
+    "TueStart": "2012-08-29T16:00:41.1018406+02:00",
+    "TueStop": "2003-10-22T16:00:41.1018406+02:00",
+    "WedStart": "2021-10-21T16:00:41.1018406+02:00",
+    "WedStop": "2017-04-04T16:00:41.1018406+02:00",
+    "ThuStart": "2011-11-12T16:00:41.1018406+01:00",
+    "ThuStop": "2001-11-08T16:00:41.1018406+01:00",
+    "FriStart": "2009-12-08T16:00:41.1018406+01:00",
+    "FriStop": "2014-02-20T16:00:41.1018406+01:00",
+    "SatStart": "2015-11-03T16:00:41.1018406+01:00",
+    "SatStop": "2008-08-07T16:00:41.1018406+02:00",
+    "SunStart": "2001-06-09T16:00:41.1018406+02:00",
+    "SunStop": "2003-07-29T16:00:41.1018406+02:00",
     "NonDates": [
-      "molestias",
-      "dolor"
+      "numquam",
+      "voluptatem"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 739,
-        "AlertLevel": 832,
-        "AlertTimeout": 816,
-        "Action": 109,
-        "DelegateTo": 598,
-        "ScriptId": 991,
-        "EmailTo": "zechariah.reynolds@walshmarquardt.us",
-        "SmsTo": "est",
-        "ReplyTemplateIdCustomer": 350,
-        "ReplyTemplateIdUser": 699,
-        "ReplyTemplateIdCatmast": 764,
-        "ReplyTemplateIdEmail": 756,
-        "RtiCustomerSms": 504,
-        "ReplyTemplateIdUserSms": 936,
-        "ReplyTemplateIdCatmastSms": 938,
-        "ReplyTemplateIdSms": 844,
+        "TicketAlertId": 543,
+        "AlertLevel": 830,
+        "AlertTimeout": 891,
+        "Action": 945,
+        "DelegateTo": 797,
+        "ScriptId": 273,
+        "EmailTo": "layne@erdman.ca",
+        "SmsTo": "accusantium",
+        "ReplyTemplateIdCustomer": 694,
+        "ReplyTemplateIdUser": 11,
+        "ReplyTemplateIdCatmast": 427,
+        "ReplyTemplateIdEmail": 964,
+        "RtiCustomerSms": 103,
+        "ReplyTemplateIdUserSms": 280,
+        "ReplyTemplateIdCatmastSms": 629,
+        "ReplyTemplateIdSms": 344,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 272
+            "FieldLength": 426
           }
         }
       }
@@ -177,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 145
+        "FieldType": "System.Int32",
+        "FieldLength": 371
       }
     }
   }

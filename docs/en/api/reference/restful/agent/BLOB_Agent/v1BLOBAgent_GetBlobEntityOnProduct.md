@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/GetBlobEntityOnProduct
 uid: v1BLOBAgent_GetBlobEntityOnProduct
+generated: true
 ---
 
 # POST Agents/BLOB/GetBlobEntityOnProduct
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 303
+  "ProductId": 421
 }
 ```
 
@@ -99,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 190,
-  "BlobSize": 784,
-  "Description": "Down-sized user-facing toolset",
-  "ExtraInfo": "iste",
+  "BlobId": 788,
+  "BlobSize": 136,
+  "Description": "Extended content-based firmware",
+  "ExtraInfo": "occaecati",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "reprehenderit",
-  "OriginalSize": 969,
-  "CreatedDate": "1999-01-13T03:51:26.6312416+01:00",
-  "UpdatedDate": "2014-10-08T03:51:26.6312416+02:00",
+  "IsZipped": true,
+  "MimeType": "ex",
+  "OriginalSize": 329,
+  "CreatedDate": "2000-08-18T16:00:40.1331959+02:00",
+  "UpdatedDate": "2015-12-04T16:00:40.1331959+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consequatur",
+  "ConceptualType": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldLength": 836
     }
   }
 }

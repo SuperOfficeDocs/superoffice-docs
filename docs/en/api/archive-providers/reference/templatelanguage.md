@@ -2,17 +2,10 @@
 uid: TemplateLanguage
 title: TemplateLanguage
 description: Archive Provider for retriving the registered languages for a given document template.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "TemplateLanguage"
+keywords: TemplateLanguage archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "TemplateLanguage"

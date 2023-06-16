@@ -1,6 +1,6 @@
 ---
 title: Services88.SaintAgent.SaveStatusMonitorPeriods SOAP
-generated: 1
+generated: true
 uid: Services88-Saint-SaveStatusMonitorPeriods
 ---
 

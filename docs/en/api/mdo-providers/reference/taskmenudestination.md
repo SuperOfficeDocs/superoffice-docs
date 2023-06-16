@@ -1,17 +1,11 @@
 ---
 uid: taskmenudestination
 title: taskmenudestination
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "taskmenudestination"
+keywords: mdoprovider mdo provider taskmenudestination
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "taskmenudestination" MDO List

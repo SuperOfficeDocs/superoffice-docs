@@ -1,6 +1,7 @@
 ---
 title: GET Selection/{id}/CriteriaGroups
 uid: v1SelectionEntity_GetDynamicSelectionCriteriaGroups
+generated: true
 ---
 
 # GET Selection/{id}/CriteriaGroups
@@ -72,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hickle LLC",
-    "Description": "Universal reciprocal concept",
-    "Rank": 463,
+    "Name": "Huel LLC",
+    "Description": "Networked systemic policy",
+    "Rank": 869,
     "Restrictions": [
       {
-        "Name": "Zemlak-Grady",
-        "Operator": "voluptates",
+        "Name": "Hauck-Douglas",
+        "Operator": "qui",
         "Values": [
-          "sit",
-          "placeat"
+          "nobis",
+          "consectetur"
         ],
         "DisplayValues": [
-          "sapiente",
-          "voluptatibus"
+          "aut",
+          "nisi"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -93,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 846,
+        "InterParenthesis": 261,
         "InterOperator": "And",
-        "UniqueHash": 724
+        "UniqueHash": 805
       }
     ]
   },
   {
-    "Name": "Hickle LLC",
-    "Description": "Universal reciprocal concept",
-    "Rank": 463,
+    "Name": "Huel LLC",
+    "Description": "Networked systemic policy",
+    "Rank": 869,
     "Restrictions": [
       {
-        "Name": "Zemlak-Grady",
-        "Operator": "voluptates",
+        "Name": "Hauck-Douglas",
+        "Operator": "qui",
         "Values": [
-          "sit",
-          "placeat"
+          "nobis",
+          "consectetur"
         ],
         "DisplayValues": [
-          "sapiente",
-          "voluptatibus"
+          "aut",
+          "nisi"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -121,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 846,
+        "InterParenthesis": 261,
         "InterOperator": "And",
-        "UniqueHash": 724
+        "UniqueHash": 805
       }
     ]
   }

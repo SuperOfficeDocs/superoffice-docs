@@ -1,6 +1,7 @@
 ---
 title: GET Sale/CustomField/{fieldName}
 uid: v1SaleEntity_GetCustomFieldInfo
+generated: true
 ---
 
 # GET Sale/CustomField/{fieldName}
@@ -81,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Hagenes, Robel and Metz",
-  "DisplayName": "Paucek, Beahan and Rodriguez",
-  "Description": "Function-based motivating support",
-  "ShortLabel": "expedita",
+  "FieldName": "Grady Group",
+  "DisplayName": "Schultz, Boehm and Klocko",
+  "Description": "Exclusive maximized pricing structure",
+  "ShortLabel": "laudantium",
   "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": true,
+  "HideField": false,
+  "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 455,
-  "TemplateVariableName": "Brakus Inc and Sons"
+  "Rank": 837,
+  "TemplateVariableName": "Shanahan-Murazik"
 }
 ```

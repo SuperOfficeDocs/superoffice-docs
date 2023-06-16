@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Report/SaveReportLabelLayoutEntity
 uid: v1ReportAgent_SaveReportLabelLayoutEntity
+generated: true
 ---
 
 # POST Agents/Report/SaveReportLabelLayoutEntity
@@ -88,18 +89,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 787,
-  "Name": "Schumm-Stoltenberg",
-  "Description": "Seamless needs-based alliance",
+  "ReportLabelLayoutId": 314,
+  "Name": "Kshlerin Inc and Sons",
+  "Description": "Cloned national superstructure",
   "Orientation": "Landscape",
-  "PaperWidth": 353,
-  "PaperHeight": 996,
-  "LeftMargin": 154,
-  "RightMargin": 261,
-  "TopMargin": 624,
-  "BottomMargin": 325,
-  "CountColumns": 125,
-  "CountRows": 991
+  "PaperWidth": 546,
+  "PaperHeight": 411,
+  "LeftMargin": 164,
+  "RightMargin": 931,
+  "TopMargin": 983,
+  "BottomMargin": 880,
+  "CountColumns": 188,
+  "CountRows": 277
 }
 ```
 
@@ -110,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 915,
-  "Name": "Kshlerin, Tremblay and Luettgen",
-  "Description": "Fundamental static standardization",
+  "ReportLabelLayoutId": 676,
+  "Name": "White LLC",
+  "Description": "Switchable reciprocal algorithm",
   "Orientation": "Landscape",
-  "PaperWidth": 371,
-  "PaperHeight": 546,
-  "LeftMargin": 848,
-  "RightMargin": 283,
-  "TopMargin": 956,
-  "BottomMargin": 660,
-  "CountColumns": 343,
-  "CountRows": 784,
+  "PaperWidth": 779,
+  "PaperHeight": 489,
+  "LeftMargin": 335,
+  "RightMargin": 639,
+  "TopMargin": 235,
+  "BottomMargin": 10,
+  "CountColumns": 216,
+  "CountRows": 51,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 437
     }
   }
 }

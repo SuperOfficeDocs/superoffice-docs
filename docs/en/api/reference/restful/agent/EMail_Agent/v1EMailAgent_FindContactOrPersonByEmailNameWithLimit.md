@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 uid: v1EMailAgent_FindContactOrPersonByEmailNameWithLimit
+generated: true
 ---
 
 # POST Agents/EMail/FindContactOrPersonByEmailNameWithLimit
@@ -84,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Morar-Heathcote",
-  "EmailAddress": "mireille@jones.info",
-  "NumberOfContacts": 535,
-  "NumberOfPersons": 492
+  "Name": "Hickle-Friesen",
+  "EmailAddress": "cielo.kris@hyatt.biz",
+  "NumberOfContacts": 93,
+  "NumberOfPersons": 595
 }
 ```
 
@@ -103,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 487,
-    "FullName": "Mrs. Enola Tianna Schoen II",
-    "EmailAddress": "wade_corwin@bergstromhessel.name",
-    "ContactId": 29,
-    "ContactName": "Thompson-Ernser",
+    "PersonId": 236,
+    "FullName": "Dillon Judson Wuckert I",
+    "EmailAddress": "dolores_mayert@lindgrenkris.uk",
+    "ContactId": 784,
+    "ContactName": "Gerhold LLC",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Maggio-Emard",
+    "SortName": "Cartwright Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldLength": 871
       }
     }
   }

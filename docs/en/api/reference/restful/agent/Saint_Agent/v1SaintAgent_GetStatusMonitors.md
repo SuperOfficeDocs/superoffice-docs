@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Saint/GetStatusMonitors
 uid: v1SaintAgent_GetStatusMonitors
+generated: true
 ---
 
 # POST Agents/Saint/GetStatusMonitors
@@ -91,8 +92,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 665,
-  "Type": "a"
+  "Id": 279,
+  "Type": "nemo"
 }
 ```
 
@@ -104,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 50,
-    "Rank": 817,
-    "DefaultTask": 761,
-    "DefaultTaskText": "dolores",
+    "OwnerTable": 521,
+    "Rank": 955,
+    "DefaultTask": 264,
+    "DefaultTaskText": "ut",
     "IsVisual": false,
-    "LastGenerated": "2011-10-20T03:51:28.0684042+02:00",
-    "Description": "User-friendly assymetric Graphic Interface",
-    "Name": "McClure, White and Rippin",
-    "StatusMonitorId": 324,
-    "PictureId": 185,
+    "LastGenerated": "2021-08-13T16:00:41.711291+02:00",
+    "Description": "Programmable methodical synergy",
+    "Name": "Gulgowski-Nitzsche",
+    "StatusMonitorId": 294,
+    "PictureId": 295,
     "NeedsUpdate": false,
     "Deleted": false,
-    "NumMatches": 303,
-    "NumNeedUpdate": 851,
-    "GenerationStart": "2018-09-29T03:51:28.0684042+02:00",
+    "NumMatches": 709,
+    "NumNeedUpdate": 609,
+    "GenerationStart": "2012-02-12T16:00:41.711291+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldLength": 395
       }
     }
   }

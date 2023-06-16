@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetProjectMember
 uid: v1ProjectAgent_GetProjectMember
+generated: true
 ---
 
 # POST Agents/Project/GetProjectMember
@@ -25,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=919
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=981
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -86,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 358,
-  "ContactId": 437,
-  "ProjectId": 180,
-  "ContactName": "Streich-Botsford",
+  "ProjectmemberId": 448,
+  "ContactId": 329,
+  "ProjectId": 645,
+  "ContactName": "Schuppe-Jakubowski",
   "ContactDepartment": "",
-  "ProjectName": "Braun Group",
-  "EmailId": 439,
-  "EmailAddress": "glenda.corwin@franecki.biz",
-  "CountryId": 621,
-  "Firstname": "Stacy",
-  "MiddleName": "Kuphal Group",
-  "Lastname": "Nikolaus",
-  "PersonId": 451,
-  "Mrmrs": "porro",
-  "ProjectMemberTypeName": "Wunsch-Beer",
-  "Phone": "1-251-075-0617",
-  "PhoneId": 899,
-  "ProjectMemberTypeId": 804,
-  "EmailAddressName": "may@ratke.ca",
-  "Comment": "sed",
-  "FullName": "Adah Fay",
+  "ProjectName": "Batz Inc and Sons",
+  "EmailId": 598,
+  "EmailAddress": "eva@moenlangworth.name",
+  "CountryId": 459,
+  "Firstname": "Justina",
+  "MiddleName": "Schamberger LLC",
+  "Lastname": "Graham",
+  "PersonId": 281,
+  "Mrmrs": "veniam",
+  "ProjectMemberTypeName": "Torphy, Predovic and Waters",
+  "Phone": "(054)801-1953",
+  "PhoneId": 830,
+  "ProjectMemberTypeId": 569,
+  "EmailAddressName": "magdalena@harvey.name",
+  "Comment": "laboriosam",
+  "FullName": "Scotty Kozey",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 203
+      "FieldType": "System.Int32",
+      "FieldLength": 777
     }
   }
 }

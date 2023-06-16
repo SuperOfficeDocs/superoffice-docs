@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetProjectEventsOnPerson
 uid: v1ProjectAgent_GetProjectEventsOnPerson
+generated: true
 ---
 
 # POST Agents/Project/GetProjectEventsOnPerson
@@ -95,11 +96,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventsOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 807
+  "PersonId": 629
 }
 ```
 
@@ -111,34 +112,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Chanel King",
-    "Description": "Ameliorated uniform parallelism",
-    "ProjectId": 711,
-    "EventName": "Adams, Flatley and Runte",
-    "AssociateId": 40,
+    "AssociateFullName": "Eduardo Zboncak Sr.",
+    "Description": "Universal tangible infrastructure",
+    "ProjectId": 250,
+    "EventName": "Strosin Group",
+    "AssociateId": 558,
     "IsSignedOn": true,
-    "SignOffConfirmationText": "a",
-    "SignOffText": "numquam",
-    "SignOnConfirmationText": "sit",
-    "SignOnText": "eveniet",
-    "EventDate": "2003-05-29T03:51:27.943438+02:00",
-    "Enabled": true,
+    "SignOffConfirmationText": "laborum",
+    "SignOffText": "sed",
+    "SignOnConfirmationText": "dolor",
+    "SignOnText": "iusto",
+    "EventDate": "2023-02-27T16:00:41.5707037+01:00",
+    "Enabled": false,
     "SignOff": false,
-    "SignOffTaskEnable": true,
+    "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
-    "SignOn": false,
-    "SignOffTaskId": 434,
-    "SignOnTaskId": 622,
+    "SignOn": true,
+    "SignOffTaskId": 979,
+    "SignOnTaskId": 375,
     "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 371,
-    "SignOffPersonId": 479,
+    "SignOnPersonId": 770,
+    "SignOffPersonId": 397,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 200
+        "FieldType": "System.Int32",
+        "FieldLength": 270
       }
     }
   }

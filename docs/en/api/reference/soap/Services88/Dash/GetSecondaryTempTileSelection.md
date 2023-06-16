@@ -1,6 +1,6 @@
 ---
 title: Services88.DashAgent.GetSecondaryTempTileSelection SOAP
-generated: 1
+generated: true
 uid: Services88-Dash-GetSecondaryTempTileSelection
 ---
 

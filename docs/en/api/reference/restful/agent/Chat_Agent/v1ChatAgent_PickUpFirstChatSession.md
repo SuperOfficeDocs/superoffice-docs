@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/PickUpFirstChatSession
 uid: v1ChatAgent_PickUpFirstChatSession
+generated: true
 ---
 
 # POST Agents/Chat/PickUpFirstChatSession
@@ -106,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 162,
-  "TopicId": 34,
+  "ChatSessionId": 724,
+  "TopicId": 518,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ut",
-  "CustomerHost": "rerum",
-  "CustomerName": "Hauck, Satterfield and Moen",
-  "CustomerEmail": "salma@heidenreich.com",
-  "CustomerPhone": "(076)295-8005",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Rosenbaum Group",
+  "CustomerAlias": "quidem",
+  "CustomerHost": "earum",
+  "CustomerName": "Hilpert Group",
+  "CustomerEmail": "shyann_grady@homenick.us",
+  "CustomerPhone": "(439)314-6272 x48551",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Cummerata, McKenzie and Gutmann",
   "Status": "Closed",
-  "FirstMessage": "aperiam",
-  "LastMessage": "recusandae",
-  "WhenRequested": "2004-03-10T03:51:26.7405913+01:00",
-  "WhenStarted": "2007-07-27T03:51:26.7405913+02:00",
-  "WhenEnded": "2016-08-17T03:51:26.7405913+02:00",
-  "WhenIdle": "2021-05-06T03:51:26.7405913+02:00",
-  "WhenFetched": "2020-08-25T03:51:26.7405913+02:00",
-  "SessionKey": "ullam",
-  "InitialQueuePos": 14,
-  "AlertLevel": 288,
-  "Rank": 250,
+  "FirstMessage": "velit",
+  "LastMessage": "temporibus",
+  "WhenRequested": "2022-08-28T16:00:40.2425561+02:00",
+  "WhenStarted": "2005-03-18T16:00:40.2425561+01:00",
+  "WhenEnded": "2010-04-30T16:00:40.2425561+02:00",
+  "WhenIdle": "1999-10-05T16:00:40.2425561+02:00",
+  "WhenFetched": "2022-07-22T16:00:40.2425561+02:00",
+  "SessionKey": "amet",
+  "InitialQueuePos": 451,
+  "AlertLevel": 996,
+  "Rank": 466,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -136,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 341,
+  "Rating": 153,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldType": "System.String",
+      "FieldLength": 395
     }
   }
 }

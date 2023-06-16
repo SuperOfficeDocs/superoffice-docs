@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/ChangeEngineStatus
 uid: v1ErpSyncAgent_ChangeEngineStatus
+generated: true
 ---
 
 # POST Agents/ErpSync/ChangeEngineStatus
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/ErpSync/ChangeEngineStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,14 +93,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": false,
-  "StatusMessage": "error",
+  "StatusMessage": "maxime",
   "Interval": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 663
     }
   }
 }

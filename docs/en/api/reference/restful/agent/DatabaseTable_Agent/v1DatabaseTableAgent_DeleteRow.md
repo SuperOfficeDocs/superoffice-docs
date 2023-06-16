@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DatabaseTable/DeleteRow
 uid: v1DatabaseTableAgent_DeleteRow
+generated: true
 ---
 
 # POST Agents/DatabaseTable/DeleteRow
@@ -64,12 +65,12 @@ No Content
 POST /api/v1/Agents/DatabaseTable/DeleteRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Roob, Keeling and Brakus",
-  "Id": 790
+  "TableName": "Schmitt, Larkin and Donnelly",
+  "Id": 32
 }
 ```
 

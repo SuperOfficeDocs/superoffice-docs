@@ -1,6 +1,7 @@
 ---
 title: GET Document/Plugin/{id}
 uid: v1DocumentEntity_GetPluginCapabilities
+generated: true
 ---
 
 # GET Document/Plugin/{id}
@@ -55,7 +56,7 @@ OK
 GET /api/v1/Document/Plugin/{pluginId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -65,7 +66,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "et",
-  "2": "sed"
+  "1": "dolores",
+  "2": "fuga"
 }
 ```

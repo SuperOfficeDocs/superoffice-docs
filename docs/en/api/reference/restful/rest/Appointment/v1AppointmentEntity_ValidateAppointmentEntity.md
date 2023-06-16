@@ -1,6 +1,7 @@
 ---
 title: POST Appointment/Validate
 uid: v1AppointmentEntity_ValidateAppointmentEntity
+generated: true
 ---
 
 # POST Appointment/Validate
@@ -85,6 +86,9 @@ Entity to be checked.
 | CautionWarning | String | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | String | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | String | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
+| Title | String | The title of the appointment. |
+| Agenda | String | The agenda of the appointment. |
+| InternalNotes | String | Internal notes for the appointment. |
 | UserDefinedFields | Object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | Object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | Object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -111,7 +115,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,107 +123,110 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-06-11T03:51:33.0835907+02:00",
-  "AppointmentId": 466,
-  "Description": "Function-based tertiary analyzer",
-  "StartDate": "2011-04-30T03:51:33.0835907+02:00",
-  "EndDate": "2016-12-24T03:51:33.0835907+01:00",
+  "CreatedDate": "2016-03-23T16:00:47.4928791+01:00",
+  "AppointmentId": 83,
+  "Description": "Versatile 5th generation leverage",
+  "StartDate": "1998-10-06T16:00:47.4928791+02:00",
+  "EndDate": "2016-12-15T16:00:47.4928791+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 705,
+  "MotherId": 513,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-05-30T03:51:33.0992097+02:00",
+  "UpdatedDate": "2014-03-03T16:00:47.4928791+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 652,
+  "ActiveLinks": 699,
   "Links": [
     {
-      "EntityName": "Kutch Inc and Sons",
-      "Id": 957,
-      "Description": "Cross-platform reciprocal hub",
-      "ExtraInfo": "inventore",
-      "LinkId": 430
+      "EntityName": "Bailey, Romaguera and Wiegand",
+      "Id": 626,
+      "Description": "Programmable motivating website",
+      "ExtraInfo": "quia",
+      "LinkId": 113
     },
     {
-      "EntityName": "Kutch Inc and Sons",
-      "Id": 957,
-      "Description": "Cross-platform reciprocal hub",
-      "ExtraInfo": "inventore",
-      "LinkId": 430
+      "EntityName": "Bailey, Romaguera and Wiegand",
+      "Id": 626,
+      "Description": "Programmable motivating website",
+      "ExtraInfo": "quia",
+      "LinkId": 113
     }
   ],
-  "AlarmLeadTime": "explicabo",
-  "HasAlarm": true,
-  "ColorIndex": 720,
+  "AlarmLeadTime": "fugit",
+  "HasAlarm": false,
+  "ColorIndex": 659,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "aut",
-  "LeadTime": "voluptatem",
-  "Location": "atque",
-  "RejectCounter": 10,
+  "LagTime": "reiciendis",
+  "LeadTime": "accusantium",
+  "Location": "nesciunt",
+  "RejectCounter": 351,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 868,
-      "PersonId": 959,
-      "ContactId": 346,
-      "EmailId": 171,
-      "SendEmail": false,
+      "AssociateId": 217,
+      "PersonId": 572,
+      "ContactId": 797,
+      "EmailId": 182,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 868,
-      "PersonId": 959,
-      "ContactId": 346,
-      "EmailId": 171,
-      "SendEmail": false,
+      "AssociateId": 217,
+      "PersonId": 572,
+      "ContactId": 797,
+      "EmailId": 182,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-06-03T03:51:33.0992097+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2001-08-21T16:00:47.4928791+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 148,
+  "PreferredTZLocation": 47,
   "Sale": null,
-  "SuggestedAppointmentId": 548,
+  "SuggestedAppointmentId": 939,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sequi",
+  "CentralserviceVideomeetId": "magni",
+  "Title": "cupiditate",
+  "Agenda": "placeat",
+  "InternalNotes": "voluptas",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Bert Ryan",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "1894386399",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "debitis"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "temporibus",
+    "CustomFields2": "dignissimos"
   },
-  "PublishEventDate": "2020-08-24T03:51:33.0992097+02:00",
-  "PublishTo": "2014-02-06T03:51:33.0992097+01:00",
-  "PublishFrom": "2010-03-02T03:51:33.0992097+01:00",
+  "PublishEventDate": "2000-01-21T16:00:47.4928791+01:00",
+  "PublishTo": "1997-02-11T16:00:47.4928791+01:00",
+  "PublishFrom": "2003-01-24T16:00:47.4928791+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 613,
+      "VisibleId": 223,
       "Visibility": "All",
-      "DisplayValue": "enim"
+      "DisplayValue": "qui"
     },
     {
-      "VisibleId": 613,
+      "VisibleId": 223,
       "Visibility": "All",
-      "DisplayValue": "enim"
+      "DisplayValue": "qui"
     }
   ]
 }
@@ -232,7 +239,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "at",
-  "2": "deserunt"
+  "1": "sit",
+  "2": "voluptatem"
 }
 ```

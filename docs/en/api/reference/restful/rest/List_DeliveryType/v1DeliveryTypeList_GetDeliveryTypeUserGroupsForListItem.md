@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryType/Items/{id}/UserGroups
 uid: v1DeliveryTypeList_GetDeliveryTypeUserGroupsForListItem
+generated: true
 ---
 
 # GET List/DeliveryType/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Emard, Hettinger and Okuneva",
-    "ToolTip": "Quia ratione aut dignissimos consequatur possimus.",
+    "Id": 629,
+    "Name": "Goyette Inc and Sons",
+    "ToolTip": "Vero corporis architecto alias nihil nostrum voluptatum nesciunt.",
     "Deleted": false,
-    "Rank": 397,
-    "Type": "dolorum",
-    "ColorBlock": 924,
-    "IconHint": "sed",
+    "Rank": 719,
+    "Type": "incidunt",
+    "ColorBlock": 114,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2012-03-22T03:51:34.6770975+01:00",
+    "LastChanged": "2001-03-25T16:00:49.0083336+02:00",
     "ChildItems": [
       {
-        "Id": 173,
-        "Name": "Veum-Wiegand",
-        "ToolTip": "Porro aut itaque maxime repellat aut dolor in.",
+        "Id": 646,
+        "Name": "Gulgowski, Padberg and Adams",
+        "ToolTip": "Facere mollitia ea at minima.",
         "Deleted": false,
-        "Rank": 999,
-        "Type": "molestiae",
-        "ColorBlock": 710,
-        "IconHint": "fuga",
-        "Selected": false,
-        "LastChanged": "2002-02-21T03:51:34.6770975+01:00",
+        "Rank": 810,
+        "Type": "impedit",
+        "ColorBlock": 777,
+        "IconHint": "at",
+        "Selected": true,
+        "LastChanged": "2019-07-07T16:00:49.0083336+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "sunt",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Lenna Gulgowski",
+        "FullName": "Ms. Doug Swift III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 76
+            "FieldType": "System.String",
+            "FieldLength": 103
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "saepe",
+    "ExtraInfo": "sit",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Dr. Marlene Jacobs",
+    "FullName": "Ms. Antonio Alexys Schiller V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldType": "System.String",
+        "FieldLength": 111
       }
     }
   }

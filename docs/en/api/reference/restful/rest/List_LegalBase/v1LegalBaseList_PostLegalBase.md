@@ -1,6 +1,7 @@
 ---
 title: POST List/LegalBase/Items
 uid: v1LegalBaseList_PostLegalBase
+generated: true
 ---
 
 # POST List/LegalBase/Items
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 398,
-  "Name": "Corwin, Herzog and Cronin",
-  "Tooltip": "dolores",
-  "Rank": 301,
-  "Key": "in",
-  "Deleted": true
+  "LegalBaseId": 967,
+  "Name": "Huel-Rowe",
+  "Tooltip": "rerum",
+  "Rank": 885,
+  "Key": "praesentium",
+  "Deleted": false
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 655,
-  "Name": "West-Becker",
-  "Tooltip": "consequuntur",
-  "Rank": 917,
-  "Key": "voluptate",
-  "Deleted": false,
+  "LegalBaseId": 59,
+  "Name": "Schamberger-Satterfield",
+  "Tooltip": "aliquid",
+  "Rank": 598,
+  "Key": "aut",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldLength": 348
     }
   }
 }

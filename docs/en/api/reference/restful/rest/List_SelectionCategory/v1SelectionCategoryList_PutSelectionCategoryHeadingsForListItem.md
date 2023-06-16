@@ -1,6 +1,7 @@
 ---
 title: PUT List/SelectionCategory/Items/{id}/Headings
 uid: v1SelectionCategoryList_PutSelectionCategoryHeadingsForListItem
+generated: true
 ---
 
 # PUT List/SelectionCategory/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 605,
-    "Name": "Lockman, Davis and Gutmann",
-    "ToolTip": "Qui eum laboriosam vel dolore maiores sint debitis.",
+    "Id": 738,
+    "Name": "Krajcik-Johnston",
+    "ToolTip": "Alias quia ipsum quia voluptatem blanditiis totam suscipit.",
     "Deleted": true,
-    "Rank": 902,
-    "Type": "a",
-    "ColorBlock": 175,
-    "IconHint": "repellendus",
-    "Selected": true,
-    "LastChanged": "2015-04-29T03:51:34.9738936+02:00",
+    "Rank": 49,
+    "Type": "enim",
+    "ColorBlock": 163,
+    "IconHint": "repellat",
+    "Selected": false,
+    "LastChanged": "2017-08-30T16:00:49.3364234+02:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Howe, Blanda and Emmerich",
-        "ToolTip": "Officiis aut.",
-        "Deleted": true,
-        "Rank": 596,
-        "Type": "inventore",
-        "ColorBlock": 678,
-        "IconHint": "nesciunt",
+        "Id": 183,
+        "Name": "Hoppe, Ledner and Walsh",
+        "ToolTip": "Vel et aut nemo perspiciatis.",
+        "Deleted": false,
+        "Rank": 333,
+        "Type": "illum",
+        "ColorBlock": 372,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2016-03-19T03:51:34.9738936+01:00",
+        "LastChanged": "2005-12-30T16:00:49.3364234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Mrs. Jorge Jamel Miller Jr."
+        "ExtraInfo": "sed",
+        "StyleHint": "optio",
+        "Hidden": true,
+        "FullName": "Mr. Shany Rippin"
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "error",
+    "StyleHint": "laboriosam",
     "Hidden": false,
-    "FullName": "Mr. Roxanne Kihn III"
+    "FullName": "Ms. Halle Kub V"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 520,
-    "Name": "Macejkovic Inc and Sons",
-    "ToolTip": "Animi non adipisci.",
+    "Id": 801,
+    "Name": "Huel, Lebsack and Goldner",
+    "ToolTip": "Quia et odit reprehenderit aut laudantium in.",
     "Deleted": true,
-    "Rank": 278,
-    "Type": "et",
-    "ColorBlock": 717,
-    "IconHint": "aut",
+    "Rank": 438,
+    "Type": "aspernatur",
+    "ColorBlock": 955,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "1996-03-07T03:51:34.9738936+01:00",
+    "LastChanged": "2001-10-10T16:00:49.3364234+02:00",
     "ChildItems": [
       {
-        "Id": 58,
-        "Name": "Stoltenberg Group",
-        "ToolTip": "Nihil incidunt iure iusto.",
-        "Deleted": true,
-        "Rank": 57,
-        "Type": "velit",
-        "ColorBlock": 279,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2021-11-26T03:51:34.9738936+01:00",
+        "Id": 996,
+        "Name": "Spencer LLC",
+        "ToolTip": "Itaque animi.",
+        "Deleted": false,
+        "Rank": 67,
+        "Type": "doloremque",
+        "ColorBlock": 210,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2021-10-14T16:00:49.3364234+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "nihil",
-        "Hidden": false,
-        "FullName": "Russell Mossie Krajcik Sr.",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Carlie Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 788
+            "FieldLength": 853
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Rachael Hettinger",
+    "ExtraInfo": "facilis",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Magnolia Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 481
+        "FieldType": "System.Int32",
+        "FieldLength": 889
       }
     }
   }

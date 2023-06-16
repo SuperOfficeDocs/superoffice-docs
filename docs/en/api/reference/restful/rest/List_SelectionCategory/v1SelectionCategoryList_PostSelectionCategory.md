@@ -1,6 +1,7 @@
 ---
 title: POST List/SelectionCategory/Items
 uid: v1SelectionCategoryList_PostSelectionCategory
+generated: true
 ---
 
 # POST List/SelectionCategory/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 916,
-  "Name": "Streich Group",
-  "Tooltip": "quia",
+  "Id": 334,
+  "Name": "Kohler Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 512,
-  "Rank": 319
+  "UdListDefinitionId": 845,
+  "Rank": 704
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 828,
-  "Name": "Purdy, Emmerich and Erdman",
-  "Tooltip": "dolorum",
+  "Id": 681,
+  "Name": "Lueilwitz Group",
+  "Tooltip": "autem",
   "Deleted": false,
-  "UdListDefinitionId": 623,
-  "Rank": 956,
+  "UdListDefinitionId": 642,
+  "Rank": 874,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldType": "System.Int32",
+      "FieldLength": 191
     }
   }
 }

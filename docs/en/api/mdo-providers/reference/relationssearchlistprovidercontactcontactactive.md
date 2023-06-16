@@ -1,17 +1,12 @@
 ---
 uid: relationssearchlistprovidercontactcontactactive
 title: relationssearchlistprovidercontactcontactactive
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "relationssearchlistprovidercontactcontactactive"
+keywords: mdoprovider mdo provider relationssearchlistprovidercontactcontactactive
+description: Serve the active and passive texts of relations, with a given table as source (active)
+or destination (passive).
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "relationssearchlistprovidercontactcontactactive" MDO List

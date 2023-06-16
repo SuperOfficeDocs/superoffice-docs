@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.MoveListItem SOAP
-generated: 1
+generated: true
 uid: Services88-List-MoveListItem
 ---
 

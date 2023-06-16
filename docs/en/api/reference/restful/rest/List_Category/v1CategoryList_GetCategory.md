@@ -1,6 +1,7 @@
 ---
 title: GET List/Category/Items/{id}
 uid: v1CategoryList_GetCategory
+generated: true
 ---
 
 # GET List/Category/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 199,
-  "Name": "Zulauf-Walker",
-  "Tooltip": "earum",
+  "Id": 164,
+  "Name": "Bogisich, Ritchie and Murazik",
+  "Tooltip": "perferendis",
   "Deleted": true,
-  "UdListDefinitionId": 441,
-  "Rank": 586,
+  "UdListDefinitionId": 527,
+  "Rank": 582,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldLength": 182
     }
   }
 }

@@ -2,17 +2,10 @@
 uid: DummySelectionContact
 title: DummySelectionContact
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "DummySelectionContact"
+keywords: DummySelectionContact archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "DummySelectionContact"
@@ -126,6 +119,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/role|listAny|Role : Role| x |
 |contactAssociate/assocName|associate|User ID : User ID| x |
 |contactAssociate/assocTooltip|string|Description : Description|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
@@ -226,6 +223,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sourceRelation/activeErpLinks|bool|Source - ERP connected: Is there an active ERP Sync?| x |
 |sourceRelation/deletedDate|datetime|Source - Deleted date: Deleted date|  |
 |sourceRelation/mainContact| *None* |Source - Main contact: Main contact for this company| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sourceRelation/restrictionContactId|int|Source - Company ID: Database ID of company to fetch relations for|  |
 |sourceRelation/who| *None* |Source - Full name: Full name of company/contact| x |
 |sourceRelation/csRelation|listAny|Source - Company-to-company relation: Name of relation, not taking into account the relation direction| x |
@@ -326,6 +327,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/associateDbId|associate|ID| x |
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
@@ -426,6 +431,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/associate/assocName|associate|User ID : User ID| x |
 |appointment/associate/assocTooltip|string|Description : Description|  |
 |appointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |appointment/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |appointment/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
@@ -522,7 +531,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DummySelectionContact?$select=contactExtra/x_contact_longtext,appointment/appointmentUdef/SuperOffice:6,appointment/associate/role,document/isReport
+GET /api/v1/archive/DummySelectionContact?$select=document/documentId,SaintStatus1,sale/saleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteApproveReason/Items
 uid: v1QuoteApproveReasonList_GetAll
+generated: true
 ---
 
 # GET List/QuoteApproveReason/Items
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 337,
-    "Name": "Goyette LLC",
-    "Tooltip": "et",
+    "Id": 269,
+    "Name": "Renner LLC",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "UdListDefinitionId": 589,
-    "Rank": 438,
+    "UdListDefinitionId": 204,
+    "Rank": 173,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 159
       }
     }
   }

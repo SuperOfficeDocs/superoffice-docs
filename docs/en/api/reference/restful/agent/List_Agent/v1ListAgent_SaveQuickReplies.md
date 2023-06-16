@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveQuickReplies
 uid: v1ListAgent_SaveQuickReplies
+generated: true
 ---
 
 # POST Agents/List/SaveQuickReplies
@@ -69,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 70,
-      "Name": "Daugherty Group",
-      "HtmlBody": "voluptates"
+      "QuickReplyId": 894,
+      "Name": "Koepp LLC",
+      "HtmlBody": "aut"
     },
     {
-      "QuickReplyId": 70,
-      "Name": "Daugherty Group",
-      "HtmlBody": "voluptates"
+      "QuickReplyId": 894,
+      "Name": "Koepp LLC",
+      "HtmlBody": "aut"
     }
   ]
 }

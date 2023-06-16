@@ -1,17 +1,12 @@
 ---
 uid: erppaymentterms
 title: erppaymentterms
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "erppaymentterms"
+keywords: mdoprovider mdo provider erppaymentterms
+description: Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;.
+Consider using "QM_"+&lt;sale_id&gt;+&lt;list name&gt; instead if you can.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "erppaymentterms" MDO List

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/GetSelectionSummaries
 uid: v1SelectionAgent_GetSelectionSummaries
+generated: true
 ---
 
 # POST Agents/Selection/GetSelectionSummaries
@@ -74,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    71,
-    969
+    721,
+    926
   ]
 }
 ```
@@ -93,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 783,
-    "Name": "Kertzmann, Gorczany and Rempel",
-    "TargetTable": "pariatur",
-    "Registered": "2013-10-17T03:51:28.2089972+02:00",
-    "ProviderName": "McDermott Group"
+    "SelectionId": 715,
+    "Name": "Mills-Pacocha",
+    "TargetTable": "nostrum",
+    "Registered": "2000-05-11T16:00:41.883165+02:00",
+    "ProviderName": "Abshire Inc and Sons"
   },
   {
-    "SelectionId": 783,
-    "Name": "Kertzmann, Gorczany and Rempel",
-    "TargetTable": "pariatur",
-    "Registered": "2013-10-17T03:51:28.2089972+02:00",
-    "ProviderName": "McDermott Group"
+    "SelectionId": 715,
+    "Name": "Mills-Pacocha",
+    "TargetTable": "nostrum",
+    "Registered": "2000-05-11T16:00:41.883165+02:00",
+    "ProviderName": "Abshire Inc and Sons"
   }
 ]
 ```

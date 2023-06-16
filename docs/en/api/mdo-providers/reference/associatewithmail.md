@@ -1,17 +1,11 @@
 ---
 uid: associatewithmail
 title: associatewithmail
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "associatewithmail"
+keywords: mdoprovider mdo provider associatewithmail
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "associatewithmail" MDO List

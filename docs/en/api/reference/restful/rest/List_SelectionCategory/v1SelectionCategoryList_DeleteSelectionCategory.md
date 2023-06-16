@@ -1,6 +1,7 @@
 ---
 title: DEL List/SelectionCategory/Items/{id}
 uid: v1SelectionCategoryList_DeleteSelectionCategory
+generated: true
 ---
 
 # DEL List/SelectionCategory/Items/{id}

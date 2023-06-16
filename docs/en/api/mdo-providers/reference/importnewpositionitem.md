@@ -1,17 +1,11 @@
 ---
 uid: importnewpositionitem
 title: importnewpositionitem
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "importnewpositionitem"
+keywords: mdoprovider mdo provider importnewpositionitem
+description: Import position items: Add to list, set to blank
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "importnewpositionitem" MDO List

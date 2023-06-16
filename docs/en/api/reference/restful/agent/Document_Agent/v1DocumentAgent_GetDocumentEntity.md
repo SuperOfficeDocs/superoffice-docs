@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetDocumentEntity
 uid: v1DocumentAgent_GetDocumentEntity
+generated: true
 ---
 
 # POST Agents/Document/GetDocumentEntity
@@ -25,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=996
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=312
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -99,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -109,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 456,
+  "DocumentId": 912,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "illum",
-  "Header": "consequatur",
-  "Name": "Schmeler Inc and Sons",
-  "OurRef": "commodi",
-  "YourRef": "sit",
-  "CreatedDate": "2020-01-12T03:51:27.0686399+01:00",
-  "UpdatedDate": "2020-04-11T03:51:27.0686399+02:00",
-  "Description": "Open-architected clear-thinking intranet",
+  "Attention": "commodi",
+  "Header": "aspernatur",
+  "Name": "Emmerich, Green and Collier",
+  "OurRef": "non",
+  "YourRef": "deleniti",
+  "CreatedDate": "2008-12-25T16:00:40.6331138+01:00",
+  "UpdatedDate": "2006-12-07T16:00:40.6331138+01:00",
+  "Description": "Focused well-modulated knowledge user",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-12-29T03:51:27.0686399+01:00",
-  "ExternalRef": "labore",
+  "Date": "2012-02-13T16:00:40.7268278+01:00",
+  "ExternalRef": "velit",
   "Completed": "Completed",
-  "ActiveLinks": 221,
+  "ActiveLinks": 859,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kertzmann, Kiehn and Purdy",
-      "Id": 644,
-      "Description": "Compatible bi-directional hardware",
-      "ExtraInfo": "animi",
-      "LinkId": 821,
+      "EntityName": "Roberts, Lynch and Miller",
+      "Id": 768,
+      "Description": "Business-focused real-time implementation",
+      "ExtraInfo": "sunt",
+      "LinkId": 613,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 941
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 890,
-  "Snum": 389,
+  "SuggestedDocumentId": 151,
+  "Snum": 74,
   "UserDefinedFields": {
-    "SuperOffice:1": "Leonora Lauryn Kling PhD",
-    "SuperOffice:2": "1089099409"
+    "SuperOffice:1": "Miss Shanon Green IV",
+    "SuperOffice:2": "Linnie Schaefer"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "distinctio"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "facere",
+    "CustomFields2": "molestiae"
   },
-  "PublishEventDate": "2019-05-05T03:51:27.0686399+02:00",
-  "PublishTo": "2011-07-25T03:51:27.0686399+02:00",
-  "PublishFrom": "2004-03-09T03:51:27.0686399+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2009-10-28T16:00:40.7268278+01:00",
+  "PublishTo": "2020-05-10T16:00:40.7268278+02:00",
+  "PublishFrom": "1999-12-01T16:00:40.7268278+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 755,
+      "VisibleId": 633,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 37
+          "FieldLength": 516
         }
       }
     },
     {
-      "VisibleId": 755,
+      "VisibleId": 633,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 37
+          "FieldLength": 516
         }
       }
     }
@@ -199,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 626
     }
   }
 }

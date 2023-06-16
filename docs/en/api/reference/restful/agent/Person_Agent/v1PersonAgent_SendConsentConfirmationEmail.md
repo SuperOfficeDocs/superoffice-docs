@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/SendConsentConfirmationEmail
 uid: v1PersonAgent_SendConsentConfirmationEmail
+generated: true
 ---
 
 # POST Agents/Person/SendConsentConfirmationEmail
@@ -67,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 631,
-  "EmailAddress": "rudolph.wilkinson@hesselrobel.biz",
-  "EmailTemplateId": 241,
-  "CultureLcidId": 290,
-  "Subject": "tempora"
+  "PersonId": 790,
+  "EmailAddress": "kristin.osinski@stroman.info",
+  "EmailTemplateId": 940,
+  "CultureLcidId": 316,
+  "Subject": "illo"
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetProjectImage
 uid: v1ProjectAgent_GetProjectImage
+generated: true
 ---
 
 # POST Agents/Project/GetProjectImage
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 228
+  "ProjectId": 139
 }
 ```
 

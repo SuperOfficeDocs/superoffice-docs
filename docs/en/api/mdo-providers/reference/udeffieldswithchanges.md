@@ -1,17 +1,12 @@
 ---
 uid: udeffieldswithchanges
 title: udeffieldswithchanges
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "udeffieldswithchanges"
+keywords: mdoprovider mdo provider udeffieldswithchanges
+description: Get a list of udef fields for a given type.
+Optionally it is possible to exclude page one fields by adding extrainfo ( 'Contact,excludepageone' )
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "udeffieldswithchanges" MDO List

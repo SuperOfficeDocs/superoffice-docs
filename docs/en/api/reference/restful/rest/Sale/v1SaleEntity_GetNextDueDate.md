@@ -1,6 +1,7 @@
 ---
 title: GET Sale/{id}/NextDueDate
 uid: v1SaleEntity_GetNextDueDate
+generated: true
 ---
 
 # GET Sale/{id}/NextDueDate
@@ -64,5 +65,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2015-05-21T03:51:33.9740156+02:00"
+"2000-04-30T16:00:48.3990266+02:00"
 ```

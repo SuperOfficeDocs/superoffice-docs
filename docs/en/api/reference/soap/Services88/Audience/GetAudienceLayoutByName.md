@@ -1,6 +1,6 @@
 ---
 title: Services88.AudienceAgent.GetAudienceLayoutByName SOAP
-generated: 1
+generated: true
 uid: Services88-Audience-GetAudienceLayoutByName
 ---
 
@@ -64,8 +64,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
     <Audience:InstanceLayout xsi:type="xsd:string"></Audience:InstanceLayout>
     <Audience:InstanceName xsi:type="xsd:string"></Audience:InstanceName>
-    <Audience:CreatedDate xsi:type="xsd:dateTime">2023-05-25T11:08:12Z</Audience:CreatedDate>
-    <Audience:UpdatedDate xsi:type="xsd:dateTime">2023-05-25T11:08:12Z</Audience:UpdatedDate>
+    <Audience:CreatedDate xsi:type="xsd:dateTime">2023-06-09T13:58:14Z</Audience:CreatedDate>
+    <Audience:UpdatedDate xsi:type="xsd:dateTime">2023-06-09T13:58:14Z</Audience:UpdatedDate>
     <Audience:CreatedBy xsi:type="Audience:Associate">
      <Audience:AssociateId xsi:type="xsd:int">0</Audience:AssociateId>
      <Audience:Name xsi:type="xsd:string"></Audience:Name>

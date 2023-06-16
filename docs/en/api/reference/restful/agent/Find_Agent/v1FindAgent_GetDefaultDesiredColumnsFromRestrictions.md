@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 uid: v1FindAgent_GetDefaultDesiredColumnsFromRestrictions
+generated: true
 ---
 
 # POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions
@@ -85,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Swaniawski LLC",
+  "ProviderName": "Lang-Gusikowski",
   "Restrictions": [
     {
-      "Name": "Heathcote Inc and Sons",
-      "Operator": "fugit",
+      "Name": "Ullrich, Nolan and Crist",
+      "Operator": "ut",
       "Values": [
-        "non",
-        "et"
+        "autem",
+        "omnis"
       ],
       "DisplayValues": [
-        "quia",
-        "expedita"
+        "fuga",
+        "consequuntur"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -108,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 392,
+      "InterParenthesis": 684,
       "InterOperator": "And",
-      "UniqueHash": 346
+      "UniqueHash": 89
     }
   ]
 }
@@ -124,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Willms, Hoeger and Cronin",
-    "DisplayTooltip": "eaque",
-    "DisplayType": "iste",
-    "CanOrderBy": true,
-    "Name": "Kutch-Trantow",
-    "CanRestrictBy": true,
-    "RestrictionType": "deserunt",
-    "RestrictionListName": "Terry Group",
+    "DisplayName": "Crist, Koss and Murray",
+    "DisplayTooltip": "eos",
+    "DisplayType": "assumenda",
+    "CanOrderBy": false,
+    "Name": "Stroman Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "ea",
+    "RestrictionListName": "Gleichner-Paucek",
     "IsVisible": false,
-    "ExtraInfo": "et",
-    "Width": "illum",
-    "IconHint": "suscipit",
-    "HeadingIconHint": "iure"
+    "ExtraInfo": "dicta",
+    "Width": "quae",
+    "IconHint": "numquam",
+    "HeadingIconHint": "nihil"
   }
 ]
 ```

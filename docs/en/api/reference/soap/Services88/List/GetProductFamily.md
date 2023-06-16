@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.GetProductFamily SOAP
-generated: 1
+generated: true
 uid: Services88-List-GetProductFamily
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Services88.QuoteAgent.GenerateQuoteDocuments SOAP
-generated: 1
+generated: true
 uid: Services88-Quote-GenerateQuoteDocuments
 ---
 

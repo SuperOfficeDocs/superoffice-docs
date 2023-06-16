@@ -1,6 +1,7 @@
 ---
 title: GET List/Reason/Headings
 uid: v1ReasonList_GetReasonHeadings
+generated: true
 ---
 
 # GET List/Reason/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 890,
-    "Name": "Kohler, Ziemann and Upton",
-    "Tooltip": "asperiores",
-    "Deleted": true,
-    "Rank": 62,
-    "UdListDefinitionId": 462,
+    "HeadingId": 45,
+    "Name": "Deckow, Cassin and McDermott",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 962,
+    "UdListDefinitionId": 975,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldLength": 5
       }
     }
   }

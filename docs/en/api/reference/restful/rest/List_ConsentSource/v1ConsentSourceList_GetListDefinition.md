@@ -1,6 +1,7 @@
 ---
 title: GET List/ConsentSource
 uid: v1ConsentSourceList_GetListDefinition
+generated: true
 ---
 
 # GET List/ConsentSource
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 549,
-  "Name": "Schmitt-Wintheiser",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "Rank": 841,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 84,
+  "Name": "Becker, Upton and Boyle",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 171,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "praesentium",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ratione",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 167
+      "FieldLength": 265
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

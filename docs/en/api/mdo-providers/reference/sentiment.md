@@ -1,17 +1,11 @@
 ---
 uid: sentiment
 title: sentiment
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "sentiment"
+keywords: mdoprovider mdo provider sentiment
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "sentiment" MDO List

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetAllRoles
 uid: v1UserAgent_GetAllRoles
+generated: true
 ---
 
 # POST Agents/User/GetAllRoles
@@ -91,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 228,
-    "Name": "Walker-Raynor",
-    "ToolTip": "Repellendus harum dolore.",
+    "Id": 186,
+    "Name": "Hessel-McLaughlin",
+    "ToolTip": "Occaecati aspernatur dignissimos voluptatem ullam.",
     "Deleted": false,
-    "Rank": 596,
-    "Type": "vel",
-    "ColorBlock": 888,
-    "IconHint": "voluptates",
+    "Rank": 322,
+    "Type": "perspiciatis",
+    "ColorBlock": 745,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2020-12-24T03:51:28.474562+01:00",
+    "LastChanged": "2015-08-25T16:00:42.3206172+02:00",
     "ChildItems": [
       {
-        "Id": 356,
-        "Name": "Schiller Inc and Sons",
-        "ToolTip": "Molestiae ad ullam doloribus quibusdam.",
+        "Id": 814,
+        "Name": "Haag LLC",
+        "ToolTip": "Eum magni necessitatibus quam beatae omnis.",
         "Deleted": false,
-        "Rank": 52,
-        "Type": "voluptatibus",
-        "ColorBlock": 173,
-        "IconHint": "distinctio",
-        "Selected": false,
-        "LastChanged": "2013-02-28T03:51:28.474562+01:00",
+        "Rank": 512,
+        "Type": "cum",
+        "ColorBlock": 690,
+        "IconHint": "totam",
+        "Selected": true,
+        "LastChanged": "2020-12-24T16:00:42.3206172+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "magnam",
+        "ExtraInfo": "ab",
+        "StyleHint": "hic",
         "Hidden": false,
-        "FullName": "Mallie Collins Sr.",
+        "FullName": "Dr. Christian Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 406
+            "FieldLength": 688
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "et",
+    "StyleHint": "iure",
     "Hidden": false,
-    "FullName": "Wilton Dicki",
+    "FullName": "Franz Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 255
+        "FieldLength": 41
       }
     }
   }

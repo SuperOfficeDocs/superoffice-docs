@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetPositions
 uid: v1ListAgent_GetPositions
+generated: true
 ---
 
 # POST Agents/List/GetPositions
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetPositions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 877,
-    "Value": "voluptates",
-    "Tooltip": "modi",
+    "Id": 865,
+    "Value": "dolorem",
+    "Tooltip": "ducimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 127
       }
     }
   },
   {
-    "Id": 877,
-    "Value": "voluptates",
-    "Tooltip": "modi",
+    "Id": 865,
+    "Value": "dolorem",
+    "Tooltip": "ducimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 127
       }
     }
   }

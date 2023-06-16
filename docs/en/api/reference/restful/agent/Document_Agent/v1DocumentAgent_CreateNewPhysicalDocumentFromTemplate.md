@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/CreateNewPhysicalDocumentFromTemplate
 uid: v1DocumentAgent_CreateNewPhysicalDocumentFromTemplate
+generated: true
 ---
 
 # POST Agents/Document/CreateNewPhysicalDocumentFromTemplate
@@ -114,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 169,
-  "PersonId": 722,
-  "AppointmentId": 296,
-  "DocumentId": 924,
-  "SaleId": 151,
-  "SelectionId": 799,
-  "ProjectId": 80,
-  "UiCulture": "voluptas"
+  "ContactId": 434,
+  "PersonId": 325,
+  "AppointmentId": 959,
+  "DocumentId": 497,
+  "SaleId": 728,
+  "SelectionId": 260,
+  "ProjectId": 494,
+  "UiCulture": "sit"
 }
 ```
 
@@ -136,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 663,
+  "DocumentId": 55,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sit",
-  "Header": "autem",
-  "Name": "Parker, Feest and Zieme",
-  "OurRef": "quis",
-  "YourRef": "perspiciatis",
-  "CreatedDate": "2003-08-26T03:51:27.1155029+02:00",
-  "UpdatedDate": "2009-04-12T03:51:27.1155029+02:00",
-  "Description": "Quality-focused incremental circuit",
+  "Attention": "corrupti",
+  "Header": "libero",
+  "Name": "Kuhlman-Batz",
+  "OurRef": "minus",
+  "YourRef": "porro",
+  "CreatedDate": "2014-02-24T16:00:40.7893736+01:00",
+  "UpdatedDate": "2013-11-22T16:00:40.7893736+01:00",
+  "Description": "Re-engineered background concept",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-10-08T03:51:27.1155029+02:00",
-  "ExternalRef": "aliquam",
+  "Date": "1996-11-11T16:00:40.7893736+01:00",
+  "ExternalRef": "quo",
   "Completed": "Completed",
-  "ActiveLinks": 215,
+  "ActiveLinks": 664,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kertzmann LLC",
-      "Id": 653,
-      "Description": "Ergonomic uniform interface",
-      "ExtraInfo": "soluta",
-      "LinkId": 433,
+      "EntityName": "Dickinson-Kunze",
+      "Id": 915,
+      "Description": "Object-based directional attitude",
+      "ExtraInfo": "qui",
+      "LinkId": 139,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldLength": 844
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 78,
-  "Snum": 970,
+  "SuggestedDocumentId": 342,
+  "Snum": 618,
   "UserDefinedFields": {
-    "SuperOffice:1": "745343993",
+    "SuperOffice:1": "Ibrahim Ritchie",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "error",
-    "ExtraFields2": "odit"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "placeat",
+    "CustomFields2": "dolor"
   },
-  "PublishEventDate": "2016-02-21T03:51:27.1155029+01:00",
-  "PublishTo": "2003-01-01T03:51:27.1155029+01:00",
-  "PublishFrom": "2007-05-27T03:51:27.1155029+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2003-01-29T16:00:40.7893736+01:00",
+  "PublishTo": "2006-06-11T16:00:40.7893736+02:00",
+  "PublishFrom": "2006-06-09T16:00:40.7893736+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 918,
+      "VisibleId": 174,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 836
+          "FieldLength": 247
         }
       }
     },
     {
-      "VisibleId": 918,
+      "VisibleId": 174,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 836
+          "FieldLength": 247
         }
       }
     }
@@ -226,8 +227,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 922
+      "FieldType": "System.Int32",
+      "FieldLength": 496
     }
   }
 }

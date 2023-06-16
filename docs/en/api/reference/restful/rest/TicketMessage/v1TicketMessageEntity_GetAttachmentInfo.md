@@ -1,6 +1,7 @@
 ---
 title: GET TicketMessage/{id}/Attachment
 uid: v1TicketMessageEntity_GetAttachmentInfo
+generated: true
 ---
 
 # GET TicketMessage/{id}/Attachment
@@ -75,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 130,
-    "Name": "Jacobson Inc and Sons",
-    "ContentType": "consequatur",
-    "AttSize": 429,
-    "InlineImage": true,
-    "ContentId": "qui",
-    "AuthKey": "possimus",
+    "AttachmentId": 427,
+    "Name": "Daugherty-Langosh",
+    "ContentType": "nobis",
+    "AttSize": 280,
+    "InlineImage": false,
+    "ContentId": "rerum",
+    "AuthKey": "laudantium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 976
+        "FieldLength": 943
       }
     }
   }

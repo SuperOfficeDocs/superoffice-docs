@@ -1,6 +1,7 @@
 ---
 title: GET License/{ownerName}/{moduleName}
 uid: v1License_GetModuleLicenseFromDB
+generated: true
 ---
 
 # GET License/{ownerName}/{moduleName}
@@ -71,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Stokes-Tromp",
-  "ModuleName": "Schuppe-Streich",
-  "ModuleDescription": "Universal stable workforce",
-  "ModuleTooltip": "blanditiis",
-  "ModuleVersion": "odit",
+  "OwnerName": "Abernathy-Mann",
+  "ModuleName": "Kunze, Bernhard and McClure",
+  "ModuleDescription": "Implemented radical migration",
+  "ModuleTooltip": "quis",
+  "ModuleVersion": "omnis",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 4,
-  "ExtraFlags": 119,
-  "ExtraInfo": "architecto",
-  "SortOrder": 499,
+  "NumberOfLicenses": 850,
+  "ExtraFlags": 16,
+  "ExtraInfo": "omnis",
+  "SortOrder": 494,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Larson-Lockman",
-  "Signature": "aut"
+  "PrerequisiteModuleName": "Prohaska Group",
+  "Signature": "rerum"
 }
 ```

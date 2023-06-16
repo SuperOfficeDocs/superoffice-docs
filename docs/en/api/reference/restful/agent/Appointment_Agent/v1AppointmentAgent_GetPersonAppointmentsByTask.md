@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetPersonAppointmentsByTask
 uid: v1AppointmentAgent_GetPersonAppointmentsByTask
+generated: true
 ---
 
 # POST Agents/Appointment/GetPersonAppointmentsByTask
@@ -118,6 +119,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -127,16 +131,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 556,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2009-05-25T03:51:26.1001041+02:00",
-  "EndTime": "2022-09-08T03:51:26.1001041+02:00",
-  "Count": 760,
-  "TaskId": 941
+  "PersonId": 820,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2012-05-30T16:00:39.6019823+02:00",
+  "EndTime": "2003-06-13T16:00:39.6019823+02:00",
+  "Count": 330,
+  "TaskId": 745
 }
 ```
 
@@ -148,61 +152,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 910,
-    "StartDate": "2016-03-12T03:51:26.1001041+01:00",
-    "EndDate": "1998-02-07T03:51:26.1001041+01:00",
+    "AppointmentId": 717,
+    "StartDate": "2017-03-04T16:00:39.6019823+01:00",
+    "EndDate": "2019-12-17T16:00:39.6019823+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dolores",
-    "AssociateFullName": "Mrs. Della Ritchie I",
-    "ContactName": "McKenzie-Hand",
-    "Description": "Proactive exuding initiative",
-    "PersonFullName": "Prof. Rachael Keven Rempel Sr.",
-    "PersonId": 396,
-    "ContactId": 971,
-    "ProjectId": 126,
-    "ProjectName": "Johnson, Parker and McLaughlin",
+    "Task": "quibusdam",
+    "AssociateFullName": "Mrs. Pat Sylvia Bartell Sr.",
+    "ContactName": "Shields Group",
+    "Description": "User-friendly tangible artificial intelligence",
+    "PersonFullName": "Rigoberto Trantow Sr.",
+    "PersonId": 531,
+    "ContactId": 432,
+    "ProjectId": 138,
+    "ProjectName": "Terry-Nitzsche",
     "IsPublished": true,
-    "AssociateId": 120,
-    "ColorIndex": 183,
+    "AssociateId": 603,
+    "ColorIndex": 697,
     "IsFree": true,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 887,
-    "PriorityName": "Abshire-Becker",
+    "PriorityId": 375,
+    "PriorityName": "King, Breitenberg and Powlowski",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2021-09-21T03:51:26.1001041+02:00",
+    "ActiveDate": "2011-12-08T16:00:39.6019823+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-07-17T03:51:26.1001041+02:00",
-    "RecurringEndDate": "2010-09-16T03:51:26.1001041+02:00",
-    "MotherId": 73,
-    "AssignedBy": 302,
-    "AssignedByFullName": "Nathen Gibson",
+    "RecurringStartDate": "2011-03-08T16:00:39.6019823+01:00",
+    "RecurringEndDate": "2020-01-29T16:00:39.6019823+01:00",
+    "MotherId": 96,
+    "AssignedBy": 524,
+    "AssignedByFullName": "Jamie Friesen",
     "RejectReason": "",
-    "Location": "doloremque",
-    "AlarmLeadTime": "veritatis",
-    "SaleId": 818,
-    "SaleName": "Kunde, Schneider and Walter",
-    "AssociateName": "King Group",
-    "CreatedDate": "2001-11-10T03:51:26.1001041+01:00",
-    "CreatedBy": "molestias",
-    "CreatedByFullName": "Melvin Johnston",
-    "CreatedByAssociateId": 212,
+    "Location": "deleniti",
+    "AlarmLeadTime": "nostrum",
+    "SaleId": 431,
+    "SaleName": "Towne, Thiel and Stark",
+    "AssociateName": "Heaney-Muller",
+    "CreatedDate": "2018-07-04T16:00:39.6019823+02:00",
+    "CreatedBy": "vitae",
+    "CreatedByFullName": "Miss Amaya Mason Satterfield III",
+    "CreatedByAssociateId": 661,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "eveniet",
+    "Agenda": "voluptatem",
+    "InternalNotes": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 187
       }
     }
   }

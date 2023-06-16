@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dashboard/CreateDefaultDashboardTile
 uid: v1DashboardAgent_CreateDefaultDashboardTile
+generated: true
 ---
 
 # POST Agents/Dashboard/CreateDefaultDashboardTile
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 204,
-  "Caption": "occaecati",
-  "Description": "Balanced well-modulated encryption",
-  "ChartName": "Gislason Group",
-  "ChartId": "iure",
+  "DashboardTileId": 962,
+  "Caption": "omnis",
+  "Description": "Seamless disintermediate flexibility",
+  "ChartName": "Cremin LLC",
+  "ChartId": "cupiditate",
   "IsDefault": false,
-  "AssociateId": 835,
-  "GroupId": 802,
-  "SelectionId": 377,
-  "Config": "tempora",
+  "AssociateId": 333,
+  "GroupId": 418,
+  "SelectionId": 200,
+  "Config": "voluptas",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Johnson Inc and Sons",
-      "Description": "Open-source solution-oriented knowledge base",
+      "Name": "Zieme-Adams",
+      "Description": "Adaptive intangible moderator",
       "Type": "Boolean",
-      "ListName": "Beahan-Kozey",
+      "ListName": "Koch, Stehr and Hettinger",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "omnis",
+      "Value": "repudiandae",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 951
+          "FieldLength": 624
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 903,
+      "VisibleId": 586,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 744
+          "FieldLength": 966
         }
       }
     },
     {
-      "VisibleId": 903,
+      "VisibleId": 586,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 744
+          "FieldLength": 966
         }
       }
     }
@@ -145,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   }
 }

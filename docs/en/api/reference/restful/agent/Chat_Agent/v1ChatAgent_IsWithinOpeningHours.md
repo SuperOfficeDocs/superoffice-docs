@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/IsWithinOpeningHours
 uid: v1ChatAgent_IsWithinOpeningHours
+generated: true
 ---
 
 # POST Agents/Chat/IsWithinOpeningHours
@@ -73,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 909
+  "ChatTopicId": 737
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

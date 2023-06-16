@@ -1,6 +1,6 @@
 ---
 title: Services88.PreferenceAgent.GetTabOrder SOAP
-generated: 1
+generated: true
 uid: Services88-Preference-GetTabOrder
 ---
 

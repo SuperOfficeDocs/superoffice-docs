@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Navigator/GetNavigatorCompanies
 uid: v1NavigatorAgent_GetNavigatorCompanies
+generated: true
 ---
 
 # POST Agents/Navigator/GetNavigatorCompanies
@@ -78,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Macejkovic Group"
+  "Name": "Casper LLC"
 }
 ```
 
@@ -90,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Value": "rem",
-    "Tooltip": "possimus",
+    "Id": 126,
+    "Value": "autem",
+    "Tooltip": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldLength": 464
       }
     }
   },
   {
-    "Id": 690,
-    "Value": "rem",
-    "Tooltip": "possimus",
+    "Id": 126,
+    "Value": "autem",
+    "Tooltip": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldLength": 464
       }
     }
   }

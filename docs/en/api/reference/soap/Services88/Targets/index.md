@@ -1,7 +1,7 @@
 ---
 title: Services88.TargetsAgent SOAP
 uid: Services88-Targets-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Targets SOAP

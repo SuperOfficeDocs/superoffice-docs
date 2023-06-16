@@ -1,6 +1,7 @@
 ---
 title: GET List/Priority
 uid: v1PriorityList_GetListDefinition
+generated: true
 ---
 
 # GET List/Priority
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 452,
-  "Name": "Kulas Inc and Sons",
-  "Tooltip": "et",
+  "Id": 226,
+  "Name": "Cremin-Douglas",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "Rank": 444,
+  "Rank": 945,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
+  "ListType": "ex",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldType": "System.Int32",
+      "FieldLength": 774
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/SaveDashTileDefinition
 uid: v1DashAgent_SaveDashTileDefinition
+generated: true
 ---
 
 # POST Agents/Dash/SaveDashTileDefinition
@@ -98,29 +99,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 300,
-  "Name": "Stoltenberg, Yundt and Kovacek",
-  "Description": "Customer-focused optimizing focus group",
-  "DefaultHeight": 686,
-  "DefaultWidth": 393,
+  "DashboardTileDefinitionId": 570,
+  "Name": "Hermiston-Hilll",
+  "Description": "Decentralized full-range neural-net",
+  "DefaultHeight": 120,
+  "DefaultWidth": 413,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Stiedemann-Mann",
-  "SelectionId": 258,
+  "EntityName": "Lockman Inc and Sons",
+  "SelectionId": 210,
   "CurrencyMode": "Base",
-  "CurrencyCode": "magnam",
+  "CurrencyCode": "ipsa",
   "Measure": "Average",
-  "MeasureField": "aut",
-  "SortBy": "illo",
-  "LayoutConfig": "est",
-  "SecondarySelectionId": 654,
-  "MeasureByField": "id",
+  "MeasureField": "qui",
+  "SortBy": "culpa",
+  "LayoutConfig": "velit",
+  "SecondarySelectionId": 555,
+  "MeasureByField": "reiciendis",
   "Usage": "Dashboard",
-  "ProviderName": "Bergnaum, Ryan and Emard"
+  "ProviderName": "Mayert Group"
 }
 ```
 
@@ -131,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 121,
-  "Name": "Mann-Kilback",
-  "Description": "Cross-group leading edge policy",
-  "DefaultHeight": 250,
-  "DefaultWidth": 4,
+  "DashboardTileDefinitionId": 887,
+  "Name": "Jaskolski LLC",
+  "Description": "User-centric secondary encryption",
+  "DefaultHeight": 601,
+  "DefaultWidth": 174,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Jenkins, Ullrich and Crooks",
-  "SelectionId": 963,
+  "EntityName": "Waelchi LLC",
+  "SelectionId": 426,
   "CurrencyMode": "Base",
-  "CurrencyCode": "voluptatem",
+  "CurrencyCode": "aut",
   "Measure": "Average",
-  "MeasureField": "fugit",
-  "SortBy": "voluptas",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 338,
-  "MeasureByField": "in",
+  "MeasureField": "sunt",
+  "SortBy": "esse",
+  "LayoutConfig": "natus",
+  "SecondarySelectionId": 946,
+  "MeasureByField": "quibusdam",
   "Usage": "Dashboard",
-  "ProviderName": "Bechtelar Group",
+  "ProviderName": "Feest, Gusikowski and Wunsch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 139
+      "FieldLength": 83
     }
   }
 }

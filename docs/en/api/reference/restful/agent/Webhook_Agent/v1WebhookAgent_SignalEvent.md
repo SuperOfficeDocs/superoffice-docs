@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Webhook/SignalEvent
 uid: v1WebhookAgent_SignalEvent
+generated: true
 ---
 
 # POST Agents/Webhook/SignalEvent
@@ -70,12 +71,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Halvorson Group",
-  "PrimaryKey": 528,
+  "EventName": "Jacobs-Hermiston",
+  "PrimaryKey": 846,
   "Data": {
     "fieldName": {}
   }

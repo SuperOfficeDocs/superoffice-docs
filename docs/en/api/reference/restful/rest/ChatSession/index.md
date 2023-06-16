@@ -1,5 +1,6 @@
 ---
 title: ChatSession
+generated: true
 ---
 
 ```http

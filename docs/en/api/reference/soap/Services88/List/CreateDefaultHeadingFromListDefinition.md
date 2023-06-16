@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.CreateDefaultHeadingFromListDefinition SOAP
-generated: 1
+generated: true
 uid: Services88-List-CreateDefaultHeadingFromListDefinition
 ---
 

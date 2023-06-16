@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 uid: v1EMailAgent_GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
+generated: true
 ---
 
 # POST Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
@@ -106,7 +107,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 831
+  "DocumentId": 963
 }
 ```
 
@@ -119,147 +120,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 376,
-      "ContactName": "Lemke-Klein",
-      "PersonId": 463,
-      "PersonName": "Rogahn-Rolfson",
-      "AssociateId": 413,
-      "Address": "qui",
-      "EmailId": 465,
+      "ContactId": 117,
+      "ContactName": "Murphy Inc and Sons",
+      "PersonId": 535,
+      "PersonName": "Schinner-Effertz",
+      "AssociateId": 783,
+      "Address": "quisquam",
+      "EmailId": 909,
       "DuplicatePersonIds": [
-        407,
-        845
+        639,
+        141
       ],
-      "Name": "Wilderman-Pacocha",
+      "Name": "Muller LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldLength": 526
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 483,
-      "ContactName": "Kub-Doyle",
-      "PersonId": 174,
-      "PersonName": "Bins-Hand",
-      "AssociateId": 521,
-      "Address": "ut",
-      "EmailId": 152,
+      "ContactId": 728,
+      "ContactName": "Jacobs LLC",
+      "PersonId": 37,
+      "PersonName": "Weimann-West",
+      "AssociateId": 14,
+      "Address": "voluptatem",
+      "EmailId": 250,
       "DuplicatePersonIds": [
-        698,
-        584
+        305,
+        211
       ],
-      "Name": "Abbott-McGlynn",
+      "Name": "Brakus-Considine",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldType": "System.String",
+          "FieldLength": 976
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 159,
-      "ContactName": "Feil Group",
-      "PersonId": 23,
-      "PersonName": "Bailey-Hoeger",
-      "AssociateId": 146,
-      "Address": "modi",
-      "EmailId": 129,
+      "ContactId": 909,
+      "ContactName": "Wintheiser-Abbott",
+      "PersonId": 15,
+      "PersonName": "Wiza LLC",
+      "AssociateId": 579,
+      "Address": "exercitationem",
+      "EmailId": 171,
       "DuplicatePersonIds": [
-        771,
-        433
+        480,
+        831
       ],
-      "Name": "Hermiston-Zemlak",
+      "Name": "Armstrong, Lynch and Moore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 394
+          "FieldLength": 114
         }
       }
     }
   ],
-  "Subject": "dicta",
-  "HTMLBody": "eos",
+  "Subject": "incidunt",
+  "HTMLBody": "molestias",
   "From": null,
-  "Sent": "2002-02-05T03:51:27.1779858+01:00",
-  "Size": 86,
+  "Sent": "2001-06-20T16:00:40.8674876+02:00",
+  "Size": 935,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolores",
-  "PlainBody": "consequuntur",
-  "IsSent": true,
+  "MessageID": "voluptatem",
+  "PlainBody": "nemo",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 919,
+  "ServerId": 90,
   "Attachments": [
     {
-      "Description": "Proactive zero administration toolset",
-      "Filename": "molestiae",
-      "Size": 6,
-      "Type": "necessitatibus",
-      "Encoding": "quisquam",
-      "Id": "rerum",
-      "Disposition": "ipsum",
+      "Description": "Re-contextualized static throughput",
+      "Filename": "ad",
+      "Size": 570,
+      "Type": "saepe",
+      "Encoding": "rem",
+      "Id": "aperiam",
+      "Disposition": "rerum",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldLength": 941
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Nolan, Upton and Kuhic",
+      "Name": "Schaden Group",
       "Values": [
-        "et",
-        "dicta"
+        "non",
+        "ab"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 319
+          "FieldType": "System.Int32",
+          "FieldLength": 684
         }
       }
     },
     {
-      "Name": "Nolan, Upton and Kuhic",
+      "Name": "Schaden Group",
       "Values": [
-        "et",
-        "dicta"
+        "non",
+        "ab"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 319
+          "FieldType": "System.Int32",
+          "FieldLength": 684
         }
       }
     }
   ],
-  "FolderName": "Weissnat LLC",
-  "EmailItemId": 407,
-  "AccountId": 984,
-  "ReceivedAt": "2000-04-07T03:51:27.1779858+02:00",
+  "FolderName": "Trantow Inc and Sons",
+  "EmailItemId": 318,
+  "AccountId": 817,
+  "ReceivedAt": "2016-06-11T16:00:40.8674876+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-11-07T03:51:27.1779858+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2022-11-16T16:00:40.8674876+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -267,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 74
     }
   }
 }

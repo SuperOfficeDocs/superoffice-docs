@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
 uid: v1ErpSyncAgent_CreateDefaultErpSyncConnectorEntity
+generated: true
 ---
 
 # POST Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
@@ -72,8 +73,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 704,
-  "DisplayName": "Ward-Hackett",
+  "ErpConnectorId": 363,
+  "DisplayName": "Prosacco, Rippin and Dicki",
   "URL": "http://www.example.com/",
   "Deleted": true,
   "TableRight": null,
@@ -81,7 +82,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 820
     }
   }
 }

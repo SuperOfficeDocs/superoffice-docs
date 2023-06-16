@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/DeleteProjectMemberByIds
 uid: v1ProjectAgent_DeleteProjectMemberByIds
+generated: true
 ---
 
 # POST Agents/Project/DeleteProjectMemberByIds
@@ -68,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    654,
-    383
+    512,
+    478
   ]
 }
 ```

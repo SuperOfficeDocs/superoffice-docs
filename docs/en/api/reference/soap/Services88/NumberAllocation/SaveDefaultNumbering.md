@@ -1,6 +1,6 @@
 ---
 title: Services88.NumberAllocationAgent.SaveDefaultNumbering SOAP
-generated: 1
+generated: true
 uid: Services88-NumberAllocation-SaveDefaultNumbering
 ---
 

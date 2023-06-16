@@ -1,7 +1,7 @@
 ---
 title: Services88.DatabaseAgent SOAP
 uid: Services88-Database-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Database SOAP

@@ -1,6 +1,7 @@
 ---
 title: POST Sale/UdefLayout/Publish
 uid: v1SaleEntity_PublishUdefLayout
+generated: true
 ---
 
 # POST Sale/UdefLayout/Publish
@@ -60,5 +61,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-731
+424
 ```

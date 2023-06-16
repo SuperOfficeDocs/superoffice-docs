@@ -1,6 +1,6 @@
 ---
 title: Services88.TargetsAgent.GetTargetRevisionHistory SOAP
-generated: 1
+generated: true
 uid: Services88-Targets-GetTargetRevisionHistory
 ---
 
@@ -82,7 +82,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Targets:EjUserId xsi:type="xsd:int">0</Targets:EjUserId>
        <Targets:UserName xsi:type="xsd:string"></Targets:UserName>
       </Targets:Who>
-      <Targets:When xsi:type="xsd:dateTime">2023-05-25T11:10:10Z</Targets:When>
+      <Targets:When xsi:type="xsd:dateTime">2023-06-09T14:00:12Z</Targets:When>
       <Targets:Changes xsi:type="Targets:ArrayOfTargetChange">
        <Targets:TargetChange xsi:type="Targets:TargetChange">
         <Targets:FieldIdentifier xsi:type="xsd:string"></Targets:FieldIdentifier>

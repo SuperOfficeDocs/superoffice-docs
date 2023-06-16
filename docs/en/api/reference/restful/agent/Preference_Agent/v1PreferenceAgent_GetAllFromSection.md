@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetAllFromSection
 uid: v1PreferenceAgent_GetAllFromSection
+generated: true
 ---
 
 # POST Agents/Preference/GetAllFromSection
@@ -89,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "deleniti"
+  "Section": "rem"
 }
 ```
 
@@ -105,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 533,
-    "Section": "et",
-    "Key": "hic",
-    "Name": "Rolfson-Quigley",
+    "PrefDescId": 946,
+    "Section": "alias",
+    "Key": "fugit",
+    "Name": "Bahringer, Rosenbaum and Halvorson",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Automated 3rd generation array",
-    "IsBuiltin": false,
-    "TableName": "Zieme-Labadie",
-    "UserDefinedListId": 489,
-    "Rank": 7,
-    "SubGroup": "molestiae",
-    "MinLevel": 720,
-    "MaxValue": 712,
-    "MinValue": 858,
-    "RequiredLicense": "in",
+    "Description": "Operative zero administration workforce",
+    "IsBuiltin": true,
+    "TableName": "Schamberger Inc and Sons",
+    "UserDefinedListId": 591,
+    "Rank": 29,
+    "SubGroup": "est",
+    "MinLevel": 656,
+    "MaxValue": 873,
+    "MinValue": 889,
+    "RequiredLicense": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 698
+        "FieldType": "System.String",
+        "FieldLength": 548
       }
     }
   }

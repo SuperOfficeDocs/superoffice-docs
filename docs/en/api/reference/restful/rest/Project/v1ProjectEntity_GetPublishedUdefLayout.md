@@ -1,6 +1,7 @@
 ---
 title: GET Project/UdefLayout/Published
 uid: v1ProjectEntity_GetPublishedUdefLayout
+generated: true
 ---
 
 # GET Project/UdefLayout/Published
@@ -87,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 294,
-    "ColumnId": 745,
-    "FieldDefault": "architecto",
-    "FieldHeight": 47,
-    "FieldLabel": "tempore",
-    "FieldLeft": 808,
-    "FieldTop": 149,
+    "UDefFieldId": 259,
+    "ColumnId": 19,
+    "FieldDefault": "consequatur",
+    "FieldHeight": 761,
+    "FieldLabel": "quo",
+    "FieldLeft": 549,
+    "FieldTop": 81,
     "FieldType": "Checkbox",
-    "FieldWidth": 275,
-    "FormatMask": "placeat",
+    "FieldWidth": 774,
+    "FormatMask": "quo",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 921,
-    "LabelLeft": 619,
-    "LabelTop": 345,
-    "LabelWidth": 24,
-    "LastVersionId": 879,
-    "ListTableId": 697,
+    "LabelHeight": 76,
+    "LabelLeft": 838,
+    "LabelTop": 241,
+    "LabelWidth": 283,
+    "LastVersionId": 330,
+    "ListTableId": 316,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 915,
-    "ProgId": "doloremque",
+    "Page1LineNo": 920,
+    "ProgId": "atque",
     "IsReadOnly": false,
-    "ShortLabel": "id",
-    "TabOrder": 798,
-    "TextLength": 643,
-    "Tooltip": "rerum",
-    "UdefIdentity": 424,
-    "UDListDefinitionId": 225,
+    "ShortLabel": "ex",
+    "TabOrder": 659,
+    "TextLength": 57,
+    "Tooltip": "inventore",
+    "UdefIdentity": 47,
+    "UDListDefinitionId": 305,
     "Justification": "Center",
-    "Version": 641,
-    "TemplateVariableName": "Ondricka, Paucek and Okuneva",
-    "HasBeenPublished": false,
-    "MdoListName": "Rau, Morissette and Wisoky",
+    "Version": 628,
+    "TemplateVariableName": "Simonis-Kessler",
+    "HasBeenPublished": true,
+    "MdoListName": "Hermann, Little and Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 755
       }
     }
   }

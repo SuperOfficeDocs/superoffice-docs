@@ -1,6 +1,7 @@
 ---
 title: GET List/{name}
 uid: v1ListEntity_GetListEntityByName
+generated: true
 ---
 
 # GET List/{name}
@@ -67,7 +68,7 @@ OK
 GET /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 912,
-  "Name": "Hintz, Wunsch and Beahan",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "Rank": 124,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "incidunt",
-  "InUseByUserDefinedFields": true,
+  "Id": 821,
+  "Name": "Halvorson-Klocko",
+  "Tooltip": "possimus",
+  "Deleted": false,
+  "Rank": 806,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "accusamus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldLength": 498
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET List/DocumentTemplate/Items
 uid: v1DocumentTemplateList_GetAllDocumentTemplateEntity
+generated: true
 ---
 
 # GET List/DocumentTemplate/Items
@@ -101,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 945,
-    "Name": "Windler-Ondricka",
-    "Tooltip": "repellendus",
-    "SaveInDb": 305,
-    "Filename": "praesentium",
-    "DefaultOref": "odit",
+    "DocumentTemplateId": 161,
+    "Name": "Hyatt LLC",
+    "Tooltip": "harum",
+    "SaveInDb": 441,
+    "Filename": "non",
+    "DefaultOref": "sint",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 860,
-    "IntentId": 724,
+    "AutoeventId": 62,
+    "IntentId": 395,
     "IsDefaultPublished": false,
-    "Rank": 660,
-    "LoadTemplateFromPlugin": 137,
-    "MimeType": "similique",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 27,
+    "Rank": 514,
+    "LoadTemplateFromPlugin": 363,
+    "MimeType": "alias",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 757,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "palma_schinner@thiel.uk",
-    "IncludeSignature": false,
+    "EmailSubject": "hayden@goodwinpurdy.ca",
+    "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "bradly_runte@leffler.name",
+    "SenderEmailAddress": "jannie_toy@considine.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 680
+        "FieldLength": 549
       }
     }
   }

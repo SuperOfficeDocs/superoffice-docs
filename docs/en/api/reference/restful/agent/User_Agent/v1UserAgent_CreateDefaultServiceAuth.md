@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/CreateDefaultServiceAuth
 uid: v1UserAgent_CreateDefaultServiceAuth
+generated: true
 ---
 
 # POST Agents/User/CreateDefaultServiceAuth
@@ -64,7 +65,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 328,
-  "Server": "impedit",
-  "Port": 626,
-  "AuthType": "ducimus",
-  "Username": "laboriosam",
-  "Password": "qui",
+  "ServiceAuthId": 137,
+  "Server": "iure",
+  "Port": 79,
+  "AuthType": "rerum",
+  "Username": "quia",
+  "Password": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldLength": 587
     }
   }
 }

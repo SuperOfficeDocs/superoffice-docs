@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Relation/CreateDefaultContactRelationEntity
 uid: v1RelationAgent_CreateDefaultContactRelationEntity
+generated: true
 ---
 
 # POST Agents/Relation/CreateDefaultContactRelationEntity
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 756,
-  "SourcePersonId": 545,
-  "DestinationContactId": 635,
-  "DestinationPersonId": 147,
-  "RelationId": 712,
-  "Comment": "omnis",
-  "RelationDefinitionId": 524,
-  "Reversed": 59,
-  "UpdatedDate": "2011-01-14T03:51:28.0371601+01:00",
-  "CreatedDate": "2007-01-15T03:51:28.0371601+01:00",
+  "SourceContactId": 588,
+  "SourcePersonId": 632,
+  "DestinationContactId": 512,
+  "DestinationPersonId": 666,
+  "RelationId": 90,
+  "Comment": "error",
+  "RelationDefinitionId": 548,
+  "Reversed": 959,
+  "UpdatedDate": "2015-10-17T16:00:41.6800689+02:00",
+  "CreatedDate": "2017-08-24T16:00:41.6800689+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bernier, Lemke and Oberbrunner",
-  "SourcePersonName": "Howe, Ruecker and Rempel",
-  "DestinationContactName": "Morar-Kemmer",
-  "DestinationPersonName": "Powlowski-Kuvalis",
-  "ActiveText": "cum",
-  "PassiveText": "aut",
+  "SourceContactName": "Shanahan, Hegmann and Dicki",
+  "SourcePersonName": "Hagenes Inc and Sons",
+  "DestinationContactName": "Bosco, Parisian and Jones",
+  "DestinationPersonName": "Wiegand-Collins",
+  "ActiveText": "voluptas",
+  "PassiveText": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 994
+      "FieldType": "System.Int32",
+      "FieldLength": 881
     }
   }
 }

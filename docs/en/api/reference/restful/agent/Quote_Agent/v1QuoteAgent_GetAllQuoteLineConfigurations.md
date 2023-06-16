@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetAllQuoteLineConfigurations
 uid: v1QuoteAgent_GetAllQuoteLineConfigurations
+generated: true
 ---
 
 # POST Agents/Quote/GetAllQuoteLineConfigurations
@@ -83,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 95,
-    "FieldName": "Senger, Pfannerstill and Turcotte",
-    "Label": "tenetur",
-    "Tooltip": "quas",
-    "Editable": true,
-    "InUse": false,
+    "QuoteLineConfigurationId": 295,
+    "FieldName": "Feeney Group",
+    "Label": "exercitationem",
+    "Tooltip": "eveniet",
+    "Editable": false,
+    "InUse": true,
     "Mandatory": true,
-    "Rank": 415,
+    "Rank": 960,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 873
+        "FieldType": "System.Int32",
+        "FieldLength": 166
       }
     }
   }

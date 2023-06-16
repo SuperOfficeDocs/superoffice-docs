@@ -1,6 +1,7 @@
 ---
 title: GET ShipmentMessage/{id}
 uid: v1ShipmentMessageEntity_GetShipmentMessageEntity
+generated: true
 ---
 
 # GET ShipmentMessage/{id}
@@ -92,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 302,
-  "PlainMessage": "dolores",
-  "HtmlMessage": "quis",
-  "SmsMessage": "reiciendis",
-  "Description": "Enterprise-wide optimizing initiative",
-  "Subject": "et",
-  "FolderId": 901,
-  "HeaderField": "molestiae",
-  "Design": "quasi",
+  "ShipmentMessageId": 214,
+  "PlainMessage": "accusantium",
+  "HtmlMessage": "perspiciatis",
+  "SmsMessage": "itaque",
+  "Description": "Automated actuating strategy",
+  "Subject": "deserunt",
+  "FolderId": 803,
+  "HeaderField": "accusamus",
+  "Design": "voluptas",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Networked explicit matrices",
-  "AccessKey": "maiores",
-  "DocumentMessage": 555,
-  "Registered": "1996-10-17T03:51:34.0208828+02:00",
-  "RegisteredAssociateId": 519,
-  "Updated": "1996-07-14T03:51:34.0208828+02:00",
-  "UpdatedAssociateId": 205,
-  "UpdatedCount": 567,
+  "InlineImages": true,
+  "LongDescription": "Configurable system-worthy circuit",
+  "AccessKey": "quis",
+  "DocumentMessage": 538,
+  "Registered": "2009-04-08T16:00:48.4615203+02:00",
+  "RegisteredAssociateId": 847,
+  "Updated": "1998-03-17T16:00:48.4615203+01:00",
+  "UpdatedAssociateId": 589,
+  "UpdatedCount": 928,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 466
+      "FieldType": "System.Int32",
+      "FieldLength": 838
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

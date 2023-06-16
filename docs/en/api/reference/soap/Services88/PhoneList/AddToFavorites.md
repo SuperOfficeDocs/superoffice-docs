@@ -1,6 +1,6 @@
 ---
 title: Services88.PhoneListAgent.AddToFavorites SOAP
-generated: 1
+generated: true
 uid: Services88-PhoneList-AddToFavorites
 ---
 

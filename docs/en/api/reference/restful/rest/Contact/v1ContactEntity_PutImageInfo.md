@@ -1,6 +1,7 @@
 ---
 title: PUT Contact/{id}/ImageInfo
 uid: v1ContactEntity_PutImageInfo
+generated: true
 ---
 
 # PUT Contact/{id}/ImageInfo
@@ -92,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 234,
-  "BlobSize": 440,
-  "Description": "Re-engineered object-oriented task-force",
-  "ExtraInfo": "rem",
+  "BlobId": 97,
+  "BlobSize": 24,
+  "Description": "Seamless zero tolerance algorithm",
+  "ExtraInfo": "quibusdam",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "amet",
-  "OriginalSize": 173,
-  "CreatedDate": "2007-09-05T03:51:33.2554342+02:00",
-  "UpdatedDate": "2000-07-29T03:51:33.2554342+02:00",
+  "IsZipped": true,
+  "MimeType": "vel",
+  "OriginalSize": 426,
+  "CreatedDate": "2014-09-01T16:00:47.6959793+02:00",
+  "UpdatedDate": "2013-03-24T16:00:47.6959793+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "tenetur"
+  "ConceptualType": "dignissimos"
 }
 ```
 
@@ -119,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 138,
-  "BlobSize": 976,
-  "Description": "Realigned discrete ability",
-  "ExtraInfo": "fugit",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "accusantium",
-  "OriginalSize": 187,
-  "CreatedDate": "2007-08-13T03:51:33.2554342+02:00",
-  "UpdatedDate": "2003-10-29T03:51:33.2554342+01:00",
+  "BlobId": 916,
+  "BlobSize": 436,
+  "Description": "Centralized foreground productivity",
+  "ExtraInfo": "velit",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "qui",
+  "OriginalSize": 371,
+  "CreatedDate": "2010-07-29T16:00:47.6959793+02:00",
+  "UpdatedDate": "2010-11-09T16:00:47.6959793+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sunt",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 228
+      "FieldLength": 882
     }
   }
 }

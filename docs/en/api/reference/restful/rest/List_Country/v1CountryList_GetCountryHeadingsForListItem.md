@@ -1,6 +1,7 @@
 ---
 title: GET List/Country/Items/{id}/Headings
 uid: v1CountryList_GetCountryHeadingsForListItem
+generated: true
 ---
 
 # GET List/Country/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Huels, Vandervort and Quitzon",
-    "ToolTip": "Omnis velit aut iusto autem ratione unde.",
-    "Deleted": false,
-    "Rank": 662,
-    "Type": "atque",
-    "ColorBlock": 702,
-    "IconHint": "debitis",
+    "Id": 685,
+    "Name": "Goodwin-Corwin",
+    "ToolTip": "Aspernatur corrupti architecto et voluptates est occaecati ullam.",
+    "Deleted": true,
+    "Rank": 739,
+    "Type": "cumque",
+    "ColorBlock": 410,
+    "IconHint": "nesciunt",
     "Selected": true,
-    "LastChanged": "2022-05-04T03:51:34.6302346+02:00",
+    "LastChanged": "2013-11-11T16:00:48.9614655+01:00",
     "ChildItems": [
       {
-        "Id": 986,
-        "Name": "Jones, Berge and Powlowski",
-        "ToolTip": "Corporis eum voluptatibus qui sunt amet magni earum.",
-        "Deleted": false,
-        "Rank": 17,
-        "Type": "est",
-        "ColorBlock": 841,
-        "IconHint": "repellat",
+        "Id": 21,
+        "Name": "Rau Inc and Sons",
+        "ToolTip": "Sed aut voluptate est fugit aut rerum sit.",
+        "Deleted": true,
+        "Rank": 348,
+        "Type": "in",
+        "ColorBlock": 686,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2000-01-26T03:51:34.6302346+01:00",
+        "LastChanged": "2010-05-31T16:00:48.9614655+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "et",
+        "ExtraInfo": "numquam",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Keven Rosalinda Upton DVM",
+        "FullName": "Rene Schumm I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 13
+            "FieldType": "System.String",
+            "FieldLength": 414
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "provident",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Marilie Thompson",
+    "FullName": "Titus Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 416
+        "FieldLength": 440
       }
     }
   }

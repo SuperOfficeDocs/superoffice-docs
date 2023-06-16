@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetProjectMemberAppointmentsByType
 uid: v1AppointmentAgent_GetProjectMemberAppointmentsByType
+generated: true
 ---
 
 # POST Agents/Appointment/GetProjectMemberAppointmentsByType
@@ -117,6 +118,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -126,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 51,
-  "StartTime": "1998-06-29T03:51:26.1001041+02:00",
-  "EndTime": "2004-07-14T03:51:26.1001041+02:00",
-  "Count": 956,
+  "PersonId": 494,
+  "StartTime": "2007-04-24T16:00:39.6019823+02:00",
+  "EndTime": "1996-09-27T16:00:39.6019823+02:00",
+  "Count": 867,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,61 +150,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 809,
-    "StartDate": "1999-08-13T03:51:26.1001041+02:00",
-    "EndDate": "2019-04-27T03:51:26.1001041+02:00",
+    "AppointmentId": 133,
+    "StartDate": "2017-06-25T16:00:39.6019823+02:00",
+    "EndDate": "1997-06-16T16:00:39.6019823+02:00",
     "Type": "BookingForChecklist",
-    "Task": "laborum",
-    "AssociateFullName": "Eleazar McKenzie",
-    "ContactName": "Kozey LLC",
-    "Description": "Centralized optimizing success",
-    "PersonFullName": "Kristofer Ward I",
-    "PersonId": 454,
-    "ContactId": 10,
-    "ProjectId": 382,
-    "ProjectName": "Kassulke, Hamill and Klocko",
-    "IsPublished": false,
-    "AssociateId": 181,
-    "ColorIndex": 283,
-    "IsFree": true,
+    "Task": "numquam",
+    "AssociateFullName": "Adolfo Stokes",
+    "ContactName": "Tillman LLC",
+    "Description": "Multi-channelled bottom-line artificial intelligence",
+    "PersonFullName": "Nicole Cormier",
+    "PersonId": 569,
+    "ContactId": 908,
+    "ProjectId": 809,
+    "ProjectName": "Halvorson, Flatley and Lockman",
+    "IsPublished": true,
+    "AssociateId": 368,
+    "ColorIndex": 109,
+    "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 756,
-    "PriorityName": "Hermiston, Shields and Lueilwitz",
+    "PriorityId": 856,
+    "PriorityName": "Schulist, Frami and Nolan",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2018-08-08T03:51:26.1001041+02:00",
+    "ActiveDate": "1999-10-07T16:00:39.6019823+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-11-30T03:51:26.1001041+01:00",
-    "RecurringEndDate": "2009-04-06T03:51:26.1001041+02:00",
-    "MotherId": 556,
-    "AssignedBy": 428,
-    "AssignedByFullName": "Westley Kihn",
+    "RecurringStartDate": "1998-10-07T16:00:39.6019823+02:00",
+    "RecurringEndDate": "2008-04-21T16:00:39.6019823+02:00",
+    "MotherId": 179,
+    "AssignedBy": 375,
+    "AssignedByFullName": "Velda Senger",
     "RejectReason": "",
-    "Location": "eligendi",
-    "AlarmLeadTime": "qui",
-    "SaleId": 692,
-    "SaleName": "Rippin Inc and Sons",
-    "AssociateName": "Prosacco-Zemlak",
-    "CreatedDate": "2014-03-28T03:51:26.1001041+01:00",
-    "CreatedBy": "dolores",
-    "CreatedByFullName": "Kaia Koch I",
-    "CreatedByAssociateId": 102,
+    "Location": "iure",
+    "AlarmLeadTime": "tenetur",
+    "SaleId": 207,
+    "SaleName": "Okuneva, Goldner and Franecki",
+    "AssociateName": "Yundt Group",
+    "CreatedDate": "2011-04-11T16:00:39.6019823+02:00",
+    "CreatedBy": "sed",
+    "CreatedByFullName": "Mrs. Jacklyn Watson Jerde DDS",
+    "CreatedByAssociateId": 728,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "dolorem",
+    "Agenda": "recusandae",
+    "InternalNotes": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldType": "System.String",
+        "FieldLength": 277
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetPublishedProjectsOnPersonId
 uid: v1ProjectAgent_GetPublishedProjectsOnPersonId
+generated: true
 ---
 
 # POST Agents/Project/GetPublishedProjectsOnPersonId
@@ -89,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 729
+  "PersonId": 138
 }
 ```
 
@@ -105,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 578,
-    "Name": "Cummerata-Greenfelder",
-    "Description": "Configurable zero tolerance pricing structure",
+    "ProjectId": 940,
+    "Name": "Ortiz, Von and Little",
+    "Description": "Extended leading edge moratorium",
     "URL": "http://www.example.com/",
-    "Type": "sunt",
-    "AssociateId": 527,
-    "AssociateFullName": "Blake Kshlerin",
-    "TypeId": 931,
-    "Updated": "2014-09-30T03:51:27.9590553+02:00",
-    "StatusId": 274,
-    "Status": "ut",
-    "TextId": 921,
-    "PublishTo": "2013-12-01T03:51:27.9590553+01:00",
-    "PublishFrom": "2016-08-06T03:51:27.9590553+02:00",
-    "IsPublished": false,
+    "Type": "eos",
+    "AssociateId": 970,
+    "AssociateFullName": "Prof. Orval Major Dach I",
+    "TypeId": 936,
+    "Updated": "2002-12-03T16:00:41.5863238+01:00",
+    "StatusId": 987,
+    "Status": "non",
+    "TextId": 283,
+    "PublishTo": "2004-08-10T16:00:41.5863238+02:00",
+    "PublishFrom": "2014-10-14T16:00:41.5863238+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "305341",
-    "ActiveErpLinks": 913,
+    "ProjectNumber": "1029255",
+    "ActiveErpLinks": 654,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 582
+        "FieldLength": 252
       }
     }
   }

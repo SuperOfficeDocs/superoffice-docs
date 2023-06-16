@@ -1,6 +1,6 @@
 ---
 title: Services88.DatabaseAgent.GetStepsInDatabase SOAP
-generated: 1
+generated: true
 uid: Services88-Database-GetStepsInDatabase
 ---
 

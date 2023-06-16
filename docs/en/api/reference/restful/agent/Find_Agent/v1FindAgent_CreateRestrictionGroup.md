@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/CreateRestrictionGroup
 uid: v1FindAgent_CreateRestrictionGroup
+generated: true
 ---
 
 # POST Agents/Find/CreateRestrictionGroup
@@ -76,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aliquam",
-  "ProviderName": "McCullough, Kautzer and Ullrich",
-  "StorageKey": "aspernatur",
-  "Context": "et"
+  "StorageType": "omnis",
+  "ProviderName": "Ondricka-Stanton",
+  "StorageKey": "nemo",
+  "Context": "voluptas"
 }
 ```
 
@@ -94,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ernser Group",
-  "Description": "Devolved interactive array",
-  "Rank": 434,
+  "Name": "Kub-Bode",
+  "Description": "Fully-configurable background contingency",
+  "Rank": 853,
   "Restrictions": [
     {
-      "Name": "Schamberger, Ebert and Ferry",
-      "Operator": "numquam",
+      "Name": "Schimmel-Torp",
+      "Operator": "fuga",
       "Values": [
-        "vel",
-        "soluta"
+        "itaque",
+        "ipsa"
       ],
       "DisplayValues": [
-        "nisi",
-        "voluptates"
+        "autem",
+        "molestiae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -115,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 311,
+      "InterParenthesis": 106,
       "InterOperator": "And",
-      "UniqueHash": 106
+      "UniqueHash": 218
     }
   ]
 }

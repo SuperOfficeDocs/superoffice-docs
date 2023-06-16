@@ -1,6 +1,7 @@
 ---
 title: GET Project/{id}/ForeignKey
 uid: v1ProjectEntity_GetAllForeignKeysOnEntity
+generated: true
 ---
 
 # GET Project/{id}/ForeignKey
@@ -54,7 +55,7 @@ OK
 GET /api/v1/Project/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -65,6 +66,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "1": "quia",
-  "2": "suscipit"
+  "2": "est"
 }
 ```

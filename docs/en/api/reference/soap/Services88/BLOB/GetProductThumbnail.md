@@ -1,6 +1,6 @@
 ---
 title: Services88.BLOBAgent.GetProductThumbnail SOAP
-generated: 1
+generated: true
 uid: Services88-BLOB-GetProductThumbnail
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Import/PreviewImport
 uid: v1ImportAgent_PreviewImport
+generated: true
 ---
 
 # POST Agents/Import/PreviewImport
@@ -79,38 +80,38 @@ OK
 POST /api/v1/Agents/Import/PreviewImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "veniam",
-        "sed"
+        "qui",
+        "ut"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "ullam"
+      "ExternalKey": "ratione"
     },
     {
       "Values": [
-        "veniam",
-        "sed"
+        "qui",
+        "ut"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "ullam"
+      "ExternalKey": "ratione"
     }
   ],
   "ColumnDefinition": [
-    "molestias",
-    "sint"
+    "reprehenderit",
+    "recusandae"
   ],
-  "Culture": "porro",
-  "Context": "incidunt"
+  "Culture": "rerum",
+  "Context": "dolor"
 }
 ```
 
@@ -123,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "expedita",
-      "a"
+      "reiciendis",
+      "eum"
     ],
-    "Selected": false,
+    "Selected": true,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "voluptatem",
+    "ExternalKey": "quisquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldType": "System.String",
+        "FieldLength": 139
       }
     }
   }

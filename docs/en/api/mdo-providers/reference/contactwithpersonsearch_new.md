@@ -1,17 +1,13 @@
 ---
 uid: contactwithpersonsearch_new
 title: contactwithpersonsearch_new
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "contactwithpersonsearch_new"
+keywords: mdoprovider mdo provider contactwithpersonsearch_new
+description: Provider for selecting a Contact, including search on persons that match as well as contacts. this provider will
+return a mix of contact and person records. The type is indicated in the Type property of the item, and the contact
+ID is always in the extraInfo.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "contactwithpersonsearch_new" MDO List

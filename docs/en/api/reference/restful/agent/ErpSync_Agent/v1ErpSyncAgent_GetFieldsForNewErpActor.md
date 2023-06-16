@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetFieldsForNewErpActor
 uid: v1ErpSyncAgent_GetFieldsForNewErpActor
+generated: true
 ---
 
 # POST Agents/ErpSync/GetFieldsForNewErpActor
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 128,
+  "ErpConnectionId": 694,
   "ErpActorType": "Customer"
 }
 ```
@@ -101,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "quis",
-    "Rank": 634,
-    "DisplayName": "Mayer LLC",
-    "DisplayDescription": "Object-based asynchronous access",
+    "FieldKey": "deserunt",
+    "Rank": 696,
+    "DisplayName": "Schuppe Inc and Sons",
+    "DisplayDescription": "Decentralized explicit conglomeration",
     "FieldType": "Checkbox",
-    "ListName": "Terry-Koepp",
-    "DefaultValue": "dolor",
-    "MaxLength": 578,
+    "ListName": "Metz-Jast",
+    "DefaultValue": "harum",
+    "MaxLength": 252,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 494
       }
     }
   }

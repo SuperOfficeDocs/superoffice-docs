@@ -1,6 +1,7 @@
 ---
 title: DEL List/LegalBase/Items/{id}
 uid: v1LegalBaseList_DeleteLegalBase
+generated: true
 ---
 
 # DEL List/LegalBase/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

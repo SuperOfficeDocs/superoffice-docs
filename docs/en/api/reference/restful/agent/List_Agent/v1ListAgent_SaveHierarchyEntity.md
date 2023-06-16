@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveHierarchyEntity
 uid: v1ListAgent_SaveHierarchyEntity
+generated: true
 ---
 
 # POST Agents/List/SaveHierarchyEntity
@@ -84,32 +85,32 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 391,
+  "HierarchyId": 343,
   "Domain": "Dashboards",
-  "Name": "Heaney, Ortiz and O'Keefe",
-  "Fullname": "similique",
-  "ParentId": 835,
+  "Name": "Dibbert-Balistreri",
+  "Fullname": "accusantium",
+  "ParentId": 39,
   "Children": [
     {
-      "HierarchyId": 324,
+      "HierarchyId": 463,
       "Domain": "Dashboards",
-      "Name": "Hyatt, Berge and Hills",
-      "Fullname": "quo",
-      "ParentId": 26,
+      "Name": "Hoppe, Spencer and Rempel",
+      "Fullname": "voluptatem",
+      "ParentId": 175,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-04-21T03:51:27.4747952+02:00",
-      "RegisteredAssociateId": 955,
-      "Updated": "2003-02-12T03:51:27.4747952+01:00",
-      "UpdatedAssociateId": 186
+      "Registered": "1997-03-14T16:00:41.2112045+01:00",
+      "RegisteredAssociateId": 97,
+      "Updated": "1996-11-19T16:00:41.2112045+01:00",
+      "UpdatedAssociateId": 401
     }
   ],
-  "Registered": "2019-12-26T03:51:27.4747952+01:00",
-  "RegisteredAssociateId": 169,
-  "Updated": "2008-12-02T03:51:27.4747952+01:00",
-  "UpdatedAssociateId": 681
+  "Registered": "2022-01-08T16:00:41.2112045+01:00",
+  "RegisteredAssociateId": 306,
+  "Updated": "2014-03-19T16:00:41.2112045+01:00",
+  "UpdatedAssociateId": 978
 }
 ```
 
@@ -120,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 121,
+  "HierarchyId": 796,
   "Domain": "Dashboards",
-  "Name": "Eichmann, Beier and Lockman",
-  "Fullname": "incidunt",
-  "ParentId": 770,
+  "Name": "Torp Inc and Sons",
+  "Fullname": "illo",
+  "ParentId": 422,
   "Children": [
     {
-      "HierarchyId": 913,
+      "HierarchyId": 96,
       "Domain": "Dashboards",
-      "Name": "Gusikowski-Wehner",
-      "Fullname": "rerum",
-      "ParentId": 877,
+      "Name": "Schoen-Nikolaus",
+      "Fullname": "recusandae",
+      "ParentId": 55,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-01-30T03:51:27.4747952+01:00",
-      "RegisteredAssociateId": 783,
-      "Updated": "1999-02-27T03:51:27.4747952+01:00",
-      "UpdatedAssociateId": 417,
+      "Registered": "2002-02-11T16:00:41.2112045+01:00",
+      "RegisteredAssociateId": 633,
+      "Updated": "2002-12-28T16:00:41.2112045+01:00",
+      "UpdatedAssociateId": 42,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 834
+          "FieldType": "System.Int32",
+          "FieldLength": 890
         }
       }
     }
   ],
-  "Registered": "2016-07-22T03:51:27.4747952+02:00",
-  "RegisteredAssociateId": 94,
-  "Updated": "2018-08-29T03:51:27.4747952+02:00",
-  "UpdatedAssociateId": 554,
+  "Registered": "2008-04-19T16:00:41.2112045+02:00",
+  "RegisteredAssociateId": 318,
+  "Updated": "1996-06-16T16:00:41.2112045+02:00",
+  "UpdatedAssociateId": 276,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 648
     }
   }
 }

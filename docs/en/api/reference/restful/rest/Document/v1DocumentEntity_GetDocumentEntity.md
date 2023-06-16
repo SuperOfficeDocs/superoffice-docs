@@ -1,6 +1,7 @@
 ---
 title: GET Document/{id}
 uid: v1DocumentEntity_GetDocumentEntity
+generated: true
 ---
 
 # GET Document/{id}
@@ -32,7 +33,7 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=False
+GET /api/v1/Document/{id}?fk=True
 ```
 
 
@@ -116,91 +117,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 26 Mar 2021 03:51:33 G3T
+Last-Modified: Wed, 06 Nov 2002 16:00:47 G11T
 
 {
-  "DocumentId": 955,
+  "DocumentId": 477,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsum",
-  "Header": "voluptas",
-  "Name": "Smith, Rolfson and Volkman",
-  "OurRef": "placeat",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2006-02-15T03:51:33.5991057+01:00",
-  "UpdatedDate": "2021-03-26T03:51:33.5991057+01:00",
-  "Description": "Monitored static flexibility",
+  "Attention": "neque",
+  "Header": "et",
+  "Name": "Ruecker LLC",
+  "OurRef": "voluptates",
+  "YourRef": "voluptas",
+  "CreatedDate": "2017-03-11T16:00:47.8678402+01:00",
+  "UpdatedDate": "2002-11-06T16:00:47.8678402+01:00",
+  "Description": "Inverse maximized open architecture",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-02-20T03:51:33.5991057+01:00",
-  "ExternalRef": "ducimus",
+  "Date": "2018-10-14T16:00:47.8834585+02:00",
+  "ExternalRef": "eos",
   "Completed": "Completed",
-  "ActiveLinks": 363,
+  "ActiveLinks": 481,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kshlerin, Reilly and McGlynn",
-      "Id": 721,
-      "Description": "Public-key leading edge projection",
-      "ExtraInfo": "accusantium",
-      "LinkId": 841,
+      "EntityName": "Kessler, Terry and Rutherford",
+      "Id": 73,
+      "Description": "Object-based context-sensitive architecture",
+      "ExtraInfo": "in",
+      "LinkId": 277,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldType": "System.String",
+          "FieldLength": 201
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 852,
-  "Snum": 727,
+  "SuggestedDocumentId": 940,
+  "Snum": 488,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "199753556"
+    "SuperOffice:1": "Enrico Quitzon",
+    "SuperOffice:2": "Mitchell Trantow"
   },
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "mollitia"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "beatae"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "tempora",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2017-08-23T03:51:33.5991057+02:00",
-  "PublishTo": "2006-10-13T03:51:33.5991057+02:00",
-  "PublishFrom": "1997-03-19T03:51:33.5991057+01:00",
+  "PublishEventDate": "1997-07-24T16:00:47.8834585+02:00",
+  "PublishTo": "2017-08-20T16:00:47.8834585+02:00",
+  "PublishFrom": "2016-02-24T16:00:47.8834585+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 441,
+      "VisibleId": 519,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldLength": 848
         }
       }
     },
     {
-      "VisibleId": 441,
+      "VisibleId": 519,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldLength": 848
         }
       }
     }
@@ -210,7 +211,7 @@ Last-Modified: Fri, 26 Mar 2021 03:51:33 G3T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldLength": 303
     }
   },
   "_Links": {

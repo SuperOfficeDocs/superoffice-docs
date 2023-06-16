@@ -1,6 +1,7 @@
 ---
 title: DEL List/ProductFamily/Items/{id}
 uid: v1ProductFamilyList_DeleteProductFamily
+generated: true
 ---
 
 # DEL List/ProductFamily/Items/{id}

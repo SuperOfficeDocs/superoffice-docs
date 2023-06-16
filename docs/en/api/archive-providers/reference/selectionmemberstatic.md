@@ -2,17 +2,10 @@
 uid: SelectionMemberStatic
 title: SelectionMemberStatic
 description: Provider for the Selection Member table
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SelectionMemberStatic"
+keywords: SelectionMemberStatic archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SelectionMemberStatic"

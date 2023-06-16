@@ -1,6 +1,6 @@
 ---
 title: Services88.DocumentMigrationAgent.GetForDateRange SOAP
-generated: 1
+generated: true
 uid: Services88-DocumentMigration-GetForDateRange
 ---
 
@@ -40,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <DocumentMigration:GetForDateRange>
     <DocumentMigration:DocumentPluginId xsi:type="xsd:int">0</DocumentMigration:DocumentPluginId>
-    <DocumentMigration:MinDate xsi:type="xsd:dateTime">2023-05-25T11:08:58Z</DocumentMigration:MinDate>
-    <DocumentMigration:MaxDate xsi:type="xsd:dateTime">2023-05-25T11:08:58Z</DocumentMigration:MaxDate>
+    <DocumentMigration:MinDate xsi:type="xsd:dateTime">2023-06-09T13:59:00Z</DocumentMigration:MinDate>
+    <DocumentMigration:MaxDate xsi:type="xsd:dateTime">2023-06-09T13:59:00Z</DocumentMigration:MaxDate>
     <DocumentMigration:IncludeEmails xsi:type="xsd:boolean">false</DocumentMigration:IncludeEmails>
    </DocumentMigration:GetForDateRange>
 

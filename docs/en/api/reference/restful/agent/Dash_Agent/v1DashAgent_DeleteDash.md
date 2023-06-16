@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/DeleteDash
 uid: v1DashAgent_DeleteDash
+generated: true
 ---
 
 # POST Agents/Dash/DeleteDash
@@ -24,7 +25,7 @@ Deletes the Dash
 | DashId | int32 | **Required** The id of the Dash to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDash?DashId=196
+POST /api/v1/Agents/Dash/DeleteDash?DashId=992
 ```
 
 
@@ -55,7 +56,7 @@ No Content
 POST /api/v1/Agents/Dash/DeleteDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

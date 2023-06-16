@@ -1,6 +1,7 @@
 ---
 title: GET Sale/default
 uid: v1SaleEntity_DefaultSaleEntity
+generated: true
 ---
 
 # GET Sale/default
@@ -99,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,7 +108,7 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 Dec 2015 03:51:33 G12T
+Last-Modified: Sat, 28 Nov 2020 16:00:48 G11T
 
 {
   "Appointment": null,
@@ -116,7 +117,7 @@ Last-Modified: Fri, 11 Dec 2015 03:51:33 G12T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "et",
+  "SaleText": "sunt",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +126,113 @@ Last-Modified: Fri, 11 Dec 2015 03:51:33 G12T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-02-09T03:51:33.8959111+01:00",
-  "Amount": 17691.43,
-  "SaleId": 766,
-  "Earning": 15848.637999999999,
-  "EarningPercent": 2312.892,
-  "Heading": "ad",
-  "Number": "1503243",
-  "Probability": 748,
-  "CreatedDate": "1996-05-14T03:51:33.8959111+02:00",
-  "UpdatedDate": "2015-12-11T03:51:33.8959111+01:00",
+  "Saledate": "2016-07-29T16:00:48.22717+02:00",
+  "Amount": 15554.042,
+  "SaleId": 287,
+  "Earning": 26375.744,
+  "EarningPercent": 6161.4439999999995,
+  "Heading": "nulla",
+  "Number": "715276",
+  "Probability": 384,
+  "CreatedDate": "2012-09-03T16:00:48.22717+02:00",
+  "UpdatedDate": "2020-11-28T16:00:48.22717+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 292,
+  "ActiveLinks": 593,
   "Links": [
     {
-      "EntityName": "Luettgen-Homenick",
-      "Id": 394,
-      "Description": "User-centric secondary architecture",
-      "ExtraInfo": "aspernatur",
-      "LinkId": 599,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 136
-        }
-      }
-    }
-  ],
-  "NextDueDate": "1997-04-14T03:51:33.8959111+02:00",
-  "Postit": "quo",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "1996-05-09T03:51:33.8959111+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Bogan Group",
-      "Comment": "non",
-      "StakeholderRoleId": 324,
-      "CountryId": 718,
-      "PersonId": 403,
-      "EmailDescription": "troy.stanton@rodriguezrolfson.ca",
-      "EmailId": 509,
-      "EmailAddress": "kailyn@pouros.name",
-      "PhoneId": 759,
-      "ContactName": "Gusikowski-Hickle",
-      "ContactId": 756,
-      "SaleId": 81,
-      "Mrmrs": "consequatur",
-      "Firstname": "Vilma",
-      "MiddleName": "Von-Nikolaus",
-      "Lastname": "Haag",
-      "SaleStakeholderId": 375,
-      "Rank": 818,
-      "Phone": "630.713.0382 x436",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 136,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Janet Matilda Brown IV",
-    "SuperOffice:2": "Lonzo Beier"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "debitis"
-  },
-  "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "earum"
-  },
-  "PublishEventDate": "2000-08-21T03:51:33.8959111+02:00",
-  "PublishTo": "1996-08-26T03:51:33.8959111+02:00",
-  "PublishFrom": "2001-01-05T03:51:33.8959111+01:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 887,
-      "Visibility": "All",
-      "DisplayValue": "ea",
+      "EntityName": "Hermiston-Leffler",
+      "Id": 221,
+      "Description": "Fully-configurable analyzing core",
+      "ExtraInfo": "voluptas",
+      "LinkId": 255,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 706
+          "FieldLength": 617
+        }
+      }
+    }
+  ],
+  "NextDueDate": "1997-04-02T16:00:48.22717+02:00",
+  "Postit": "minima",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2016-04-07T16:00:48.22717+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Cremin Inc and Sons",
+      "Comment": "molestias",
+      "StakeholderRoleId": 306,
+      "CountryId": 631,
+      "PersonId": 15,
+      "EmailDescription": "aubrey.olson@prosaccotowne.us",
+      "EmailId": 326,
+      "EmailAddress": "patsy.johns@lueilwitz.info",
+      "PhoneId": 402,
+      "ContactName": "Jaskolski-Green",
+      "ContactId": 993,
+      "SaleId": 893,
+      "Mrmrs": "modi",
+      "Firstname": "Hortense",
+      "MiddleName": "Reichel-Walter",
+      "Lastname": "Schaden",
+      "SaleStakeholderId": 281,
+      "Rank": 197,
+      "Phone": "(896)218-2979",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 101
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 150,
+  "UserDefinedFields": {
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "False"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "id",
+    "ExtraFields2": "sequi"
+  },
+  "CustomFields": {
+    "CustomFields1": "ratione",
+    "CustomFields2": "voluptatem"
+  },
+  "PublishEventDate": "2016-01-31T16:00:48.22717+01:00",
+  "PublishTo": "2022-03-22T16:00:48.22717+01:00",
+  "PublishFrom": "2021-08-25T16:00:48.22717+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 746,
+      "Visibility": "All",
+      "DisplayValue": "molestiae",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 141
         }
       }
     },
     {
-      "VisibleId": 887,
+      "VisibleId": 746,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 706
+          "FieldType": "System.Int32",
+          "FieldLength": 141
         }
       }
     }
@@ -241,7 +242,7 @@ Last-Modified: Fri, 11 Dec 2015 03:51:33 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 841
     }
   }
 }

@@ -1,17 +1,11 @@
 ---
 uid: culture
 title: culture
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "culture"
+keywords: mdoprovider mdo provider culture
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "culture" MDO List

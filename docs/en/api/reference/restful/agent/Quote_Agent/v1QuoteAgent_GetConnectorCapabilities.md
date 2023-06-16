@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetConnectorCapabilities
 uid: v1QuoteAgent_GetConnectorCapabilities
+generated: true
 ---
 
 # POST Agents/Quote/GetConnectorCapabilities
@@ -71,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 990
+  "QuoteConnectionId": 965
 }
 ```
 
@@ -82,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "quos",
-  "nulla"
+  "debitis",
+  "incidunt"
 ]
 ```

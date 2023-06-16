@@ -1,17 +1,11 @@
 ---
 uid: project
 title: project
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "project"
+keywords: mdoprovider mdo provider project
+description: Provider for selecting a project.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "project" MDO List

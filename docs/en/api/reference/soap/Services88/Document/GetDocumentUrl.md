@@ -1,6 +1,6 @@
 ---
 title: Services88.DocumentAgent.GetDocumentUrl SOAP
-generated: 1
+generated: true
 uid: Services88-Document-GetDocumentUrl
 ---
 

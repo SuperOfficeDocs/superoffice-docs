@@ -1,6 +1,7 @@
 ---
 title: GET List/Country
 uid: v1CountryList_GetListDefinition
+generated: true
 ---
 
 # GET List/Country
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 818,
-  "Name": "Parker-McKenzie",
-  "Tooltip": "provident",
+  "Id": 340,
+  "Name": "Rowe LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 185,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "maiores",
+  "Rank": 107,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nulla",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 281
     }
   },
   "_Links": {

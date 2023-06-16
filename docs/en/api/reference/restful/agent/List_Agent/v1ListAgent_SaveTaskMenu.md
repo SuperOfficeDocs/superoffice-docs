@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveTaskMenu
 uid: v1ListAgent_SaveTaskMenu
+generated: true
 ---
 
 # POST Agents/List/SaveTaskMenu
@@ -88,23 +89,23 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 914,
-  "Name": "McClure Group",
-  "Tooltip": "aliquam",
-  "TableName": "Terry Inc and Sons",
-  "Area": "quasi",
+  "TaskMenuId": 861,
+  "Name": "Wiegand Inc and Sons",
+  "Tooltip": "inventore",
+  "TableName": "Renner Group",
+  "Area": "maxime",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 389,
+  "CrmScriptId": 580,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 271,
+  "Rank": 357,
   "Encoding": "ANSI",
-  "ProgId": "amet",
+  "ProgId": "quibusdam",
   "Deleted": false
 }
 ```
@@ -116,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 549,
-  "Name": "O'Reilly, Spencer and Gutkowski",
-  "Tooltip": "facilis",
-  "TableName": "Conroy Inc and Sons",
-  "Area": "ut",
+  "TaskMenuId": 29,
+  "Name": "Beatty, Okuneva and Schultz",
+  "Tooltip": "eos",
+  "TableName": "Fadel-Satterfield",
+  "Area": "corrupti",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 865,
+  "CrmScriptId": 860,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 603,
+  "Rank": 677,
   "Encoding": "ANSI",
-  "ProgId": "libero",
-  "Deleted": true,
+  "ProgId": "est",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 420
+      "FieldType": "System.Int32",
+      "FieldLength": 903
     }
   }
 }

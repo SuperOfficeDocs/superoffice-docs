@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/SubstituteTemplateVariables
 uid: v1DocumentAgent_SubstituteTemplateVariables
+generated: true
 ---
 
 # POST Agents/Document/SubstituteTemplateVariables
@@ -76,20 +77,20 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "possimus",
+  "Source": "magnam",
   "GeneratorEncoding": "Html",
-  "ContactId": 18,
-  "PersonId": 687,
-  "AppointmentId": 975,
-  "DocumentId": 77,
-  "SaleId": 791,
-  "SelectionId": 146,
-  "ProjectId": 415,
-  "CultureName": "en"
+  "ContactId": 867,
+  "PersonId": 863,
+  "AppointmentId": 88,
+  "DocumentId": 905,
+  "SaleId": 26,
+  "SelectionId": 168,
+  "ProjectId": 804,
+  "CultureName": "sv"
 }
 ```
 
@@ -99,5 +100,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"accusantium"
+"sit"
 ```

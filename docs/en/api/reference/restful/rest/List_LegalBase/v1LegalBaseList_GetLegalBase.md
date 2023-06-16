@@ -1,6 +1,7 @@
 ---
 title: GET List/LegalBase/Items/{id}
 uid: v1LegalBaseList_GetLegalBase
+generated: true
 ---
 
 # GET List/LegalBase/Items/{id}
@@ -66,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 399,
-  "Name": "O'Connell, Schumm and Ziemann",
-  "Tooltip": "vitae",
-  "Rank": 165,
-  "Key": "sit",
+  "LegalBaseId": 338,
+  "Name": "Kozey-DuBuque",
+  "Tooltip": "aperiam",
+  "Rank": 356,
+  "Key": "vero",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldType": "System.String",
+      "FieldLength": 100
     }
   }
 }

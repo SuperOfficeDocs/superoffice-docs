@@ -1,6 +1,7 @@
 ---
 title: PUT List/ReasonSold/Items/{id}/UserGroups
 uid: v1ReasonSoldList_PutReasonSoldUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/ReasonSold/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Name": "Maggio Inc and Sons",
-    "ToolTip": "Aut velit repellat.",
+    "Id": 129,
+    "Name": "Conroy-Gerhold",
+    "ToolTip": "Fugit magni omnis voluptatem aut quia.",
     "Deleted": false,
-    "Rank": 938,
-    "Type": "quidem",
-    "ColorBlock": 830,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2009-05-30T03:51:34.9114158+02:00",
+    "Rank": 757,
+    "Type": "quam",
+    "ColorBlock": 404,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2017-04-27T16:00:49.289556+02:00",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "Greenfelder-Schroeder",
-        "ToolTip": "Ipsa eveniet beatae rem aliquid.",
+        "Id": 463,
+        "Name": "Schmeler-McDermott",
+        "ToolTip": "Reprehenderit ipsum.",
         "Deleted": false,
-        "Rank": 385,
-        "Type": "aut",
-        "ColorBlock": 861,
-        "IconHint": "id",
+        "Rank": 497,
+        "Type": "ut",
+        "ColorBlock": 243,
+        "IconHint": "voluptates",
         "Selected": false,
-        "LastChanged": "2017-03-16T03:51:34.9114158+01:00",
+        "LastChanged": "2013-10-26T16:00:49.289556+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "maiores",
-        "Hidden": false,
-        "FullName": "Mrs. Deborah Thelma Gislason"
+        "ExtraInfo": "cum",
+        "StyleHint": "veniam",
+        "Hidden": true,
+        "FullName": "Clement Koss"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "quod",
-    "Hidden": false,
-    "FullName": "Ryder Turcotte"
+    "ExtraInfo": "nemo",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Bertrand McKenzie"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Heller Group",
-    "ToolTip": "Possimus laboriosam.",
+    "Id": 172,
+    "Name": "Ward, Gutmann and Herzog",
+    "ToolTip": "Reprehenderit ipsum.",
     "Deleted": false,
-    "Rank": 630,
-    "Type": "sit",
-    "ColorBlock": 641,
-    "IconHint": "molestias",
+    "Rank": 192,
+    "Type": "eius",
+    "ColorBlock": 523,
+    "IconHint": "quod",
     "Selected": false,
-    "LastChanged": "2008-01-27T03:51:34.9270326+01:00",
+    "LastChanged": "2009-02-04T16:00:49.289556+01:00",
     "ChildItems": [
       {
-        "Id": 582,
-        "Name": "Bernhard, Veum and Weber",
-        "ToolTip": "Temporibus voluptas fugit perspiciatis voluptatem enim.",
-        "Deleted": true,
-        "Rank": 585,
-        "Type": "dolore",
-        "ColorBlock": 1002,
-        "IconHint": "consequuntur",
+        "Id": 484,
+        "Name": "Lebsack-Mitchell",
+        "ToolTip": "Doloribus ea corrupti.",
+        "Deleted": false,
+        "Rank": 436,
+        "Type": "delectus",
+        "ColorBlock": 301,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2005-09-04T03:51:34.9270326+02:00",
+        "LastChanged": "2007-01-30T16:00:49.289556+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "repellat",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Lizeth Dicki",
+        "FullName": "Boris Borer Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 898
+            "FieldType": "System.Int32",
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Mr. Jonatan Kulas",
+    "FullName": "Mariano Chester Dare PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 714
+        "FieldLength": 874
       }
     }
   }

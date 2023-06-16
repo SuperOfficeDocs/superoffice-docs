@@ -1,6 +1,7 @@
 ---
 title: POST List/SelectionCategory/Headings
 uid: v1SelectionCategoryList_PostSelectionCategoryHeading
+generated: true
 ---
 
 # POST List/SelectionCategory/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 131,
-  "Name": "Bartell, Rath and Koepp",
-  "Tooltip": "explicabo",
+  "HeadingId": 735,
+  "Name": "Reynolds-Hagenes",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 845,
-  "UdListDefinitionId": 983
+  "Rank": 900,
+  "UdListDefinitionId": 132
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 888,
-  "Name": "Kessler-Toy",
-  "Tooltip": "sapiente",
-  "Deleted": true,
-  "Rank": 999,
-  "UdListDefinitionId": 957,
+  "HeadingId": 644,
+  "Name": "Schmeler-Wiegand",
+  "Tooltip": "saepe",
+  "Deleted": false,
+  "Rank": 934,
+  "UdListDefinitionId": 738,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 103
     }
   }
 }

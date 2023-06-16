@@ -1,5 +1,6 @@
 ---
 title: User
+generated: true
 ---
 
 ```http

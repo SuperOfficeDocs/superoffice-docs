@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveList2
 uid: v1ArchiveAgent_GetArchiveList2
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveList2
@@ -171,13 +172,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "VonRueden, Mann and Gulgowski",
-  "ProviderName": "Ledner-Walsh",
-  "SortOrder": "sequi",
-  "Restriction": "fugit",
-  "Entities": "nobis",
-  "Page": 437,
-  "PageSize": 123
+  "GuiName": "McLaughlin Group",
+  "ProviderName": "Larkin-Schumm",
+  "SortOrder": "ut",
+  "Restriction": "mollitia",
+  "Entities": "quo",
+  "Page": 368,
+  "PageSize": 580
 }
 ```
 
@@ -189,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Pfeffer Inc and Sons",
-    "PrimaryKey": 11,
+    "EntityName": "Bosco-Davis",
+    "PrimaryKey": 902,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "saepe",
-        "TooltipHint": "deleniti",
-        "LinkHint": "deleniti"
+        "DisplayValue": "expedita",
+        "TooltipHint": "qui",
+        "LinkHint": "voluptate"
       }
     },
-    "LinkHint": "tempora",
-    "StyleHint": "ratione",
+    "LinkHint": "dolor",
+    "StyleHint": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldType": "System.String",
+        "FieldLength": 716
       }
     }
   }

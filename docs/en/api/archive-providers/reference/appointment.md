@@ -2,17 +2,10 @@
 uid: Appointment
 title: Appointment
 description: Activity archive provider which handles appointments
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "Appointment"
+keywords: Appointment archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "Appointment"
@@ -131,6 +124,10 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 |contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 |contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
 |contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
@@ -231,6 +228,10 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 |contact/NumberOfSales|int|Number of sales|  |
 |contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |contact/LastSale|date|Date of last sale|  |
 |contact/LastCompletedSale|date|Date of last completed sale|  |
@@ -331,6 +332,10 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 |person/personAddress/city|string|Contact address - City: This criterion corresponds to the City field on the Company card.| x |
 |person/personAddress/zip|string|Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |person/personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAddress/wgs84latitude|decimal|Contact address - Latitude: Latitude| x |
 |person/personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
 |person/personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
@@ -431,6 +436,10 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 |person/correspondingAssociate/assocTooltip|string|Description : Description|  |
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -531,6 +540,10 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 |project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
 |project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |project/NumberOfActivities|int|Number of activities|  |
@@ -631,6 +644,10 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 |sale/associate/assocTooltip|string|Description : Description|  |
 |sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -686,7 +703,7 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 ## Sample
 
 ```http!
-GET /api/v1/archive/Appointment?$select=completed,contact/category,contact/contactAssociate/personId,contact/saintSaleStatus,person/personUdef/SuperOffice:3
+GET /api/v1/archive/Appointment?$select=contact/hasInfoText,contact/contactSource,contact/contactPhone/description,contact/NumberOfNotCompletedSales,person/birthdate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

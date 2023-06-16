@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/CreateDefaultTargetDimension
 uid: v1TargetsAgent_CreateDefaultTargetDimension
+generated: true
 ---
 
 # POST Agents/Targets/CreateDefaultTargetDimension
@@ -64,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 323,
+  "TargetDimensionId": 706,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "nam",
-  "DimensionListName": "Leuschke, Considine and Lakin",
-  "DimensionListId": 460,
-  "DimensionListLabel": "reprehenderit",
+  "DimensionListField": "fuga",
+  "DimensionListName": "Dach Inc and Sons",
+  "DimensionListId": 36,
+  "DimensionListLabel": "nam",
   "SelectedDimensions": [
-    730,
-    401
+    622,
+    987
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 105
     }
   }
 }

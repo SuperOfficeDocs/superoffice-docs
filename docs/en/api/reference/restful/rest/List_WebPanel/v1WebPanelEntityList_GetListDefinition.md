@@ -1,6 +1,7 @@
 ---
 title: GET List/WebPanel
 uid: v1WebPanelEntityList_GetListDefinition
+generated: true
 ---
 
 # GET List/WebPanel
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 362,
-  "Name": "Blanda, Luettgen and Spencer",
-  "Tooltip": "explicabo",
+  "Id": 637,
+  "Name": "Rempel, Lang and Stark",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 18,
+  "Rank": 247,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 120
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

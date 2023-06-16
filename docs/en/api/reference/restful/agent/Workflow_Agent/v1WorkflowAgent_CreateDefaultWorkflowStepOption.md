@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/CreateDefaultWorkflowStepOption
 uid: v1WorkflowAgent_CreateDefaultWorkflowStepOption
+generated: true
 ---
 
 # POST Agents/Workflow/CreateDefaultWorkflowStepOption
@@ -62,7 +63,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,32 +73,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 635,
-  "WorkflowStepId": 728,
-  "WorkflowId": 842,
-  "Key": "molestiae",
-  "Name": "Stanton, Smitham and Kozey",
-  "Rank": 900,
+  "WorkflowStepOptionId": 427,
+  "WorkflowStepId": 883,
+  "WorkflowId": 468,
+  "Key": "totam",
+  "Name": "Larson LLC",
+  "Rank": 528,
   "Steps": [
     {
-      "WorkflowStepId": 85,
-      "WorkflowId": 944,
+      "WorkflowStepId": 87,
+      "WorkflowId": 843,
       "StepType": "AddToList",
-      "Rank": 482
+      "Rank": 190
     },
     {
-      "WorkflowStepId": 85,
-      "WorkflowId": 944,
+      "WorkflowStepId": 87,
+      "WorkflowId": 843,
       "StepType": "AddToList",
-      "Rank": 482
+      "Rank": 190
     }
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldType": "System.String",
+      "FieldLength": 284
     }
   }
 }

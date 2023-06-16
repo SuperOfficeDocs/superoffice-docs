@@ -1,6 +1,7 @@
 ---
 title: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{id}
 uid: v1ForeignAppEntity_GetKeyOnDeviceIdentifier
+generated: true
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{id}
@@ -72,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +81,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 06 Sep 2021 03:51:33 G9T
+Last-Modified: Mon, 21 Apr 2003 16:00:47 G4T
 
 {
-  "Key": "asperiores",
-  "Value": "officia",
-  "RecordId": 570,
-  "CreatedDate": "2009-07-06T03:51:33.6928335+02:00",
-  "UpdatedDate": "2021-09-06T03:51:33.6928335+02:00",
-  "UpdatedBy": "quis",
-  "CreatedBy": "esse",
-  "TableName": "Stamm, Purdy and Lockman",
+  "Key": "aut",
+  "Value": "rerum",
+  "RecordId": 399,
+  "CreatedDate": "2015-01-07T16:00:47.9772018+01:00",
+  "UpdatedDate": "2003-04-21T16:00:47.9772018+02:00",
+  "UpdatedBy": "cumque",
+  "CreatedBy": "eligendi",
+  "TableName": "Goodwin-Will",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 278
+      "FieldLength": 397
     }
   }
 }

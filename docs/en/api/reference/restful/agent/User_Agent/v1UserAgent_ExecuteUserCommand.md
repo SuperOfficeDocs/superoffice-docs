@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/ExecuteUserCommand
 uid: v1UserAgent_ExecuteUserCommand
+generated: true
 ---
 
 # POST Agents/User/ExecuteUserCommand
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Torphy Inc and Sons",
+  "CommandName": "Williamson, Waters and Konopelski",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -86,14 +87,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "harum",
+  "Message": "quia",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 24
     }
   }
 }

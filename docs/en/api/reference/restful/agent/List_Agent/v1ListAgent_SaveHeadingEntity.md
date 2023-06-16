@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveHeadingEntity
 uid: v1ListAgent_SaveHeadingEntity
+generated: true
 ---
 
 # POST Agents/List/SaveHeadingEntity
@@ -72,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 58,
-  "Name": "Reichert, Douglas and Witting",
-  "Tooltip": "blanditiis",
-  "Deleted": true,
-  "Rank": 576,
-  "UdListDefinitionId": 945
+  "HeadingId": 396,
+  "Name": "Fadel-Rosenbaum",
+  "Tooltip": "tempora",
+  "Deleted": false,
+  "Rank": 703,
+  "UdListDefinitionId": 110
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 526,
-  "Name": "Greenholt-VonRueden",
-  "Tooltip": "quis",
+  "HeadingId": 349,
+  "Name": "Schmeler Inc and Sons",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "Rank": 805,
-  "UdListDefinitionId": 380,
+  "Rank": 644,
+  "UdListDefinitionId": 36,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 838
     }
   }
 }

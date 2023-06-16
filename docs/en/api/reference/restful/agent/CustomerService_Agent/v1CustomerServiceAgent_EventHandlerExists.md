@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/EventHandlerExists
 uid: v1CustomerServiceAgent_EventHandlerExists
+generated: true
 ---
 
 # POST Agents/CustomerService/EventHandlerExists
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

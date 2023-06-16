@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/ChangeProjectImage
 uid: v1BLOBAgent_ChangeProjectImage
+generated: true
 ---
 
 # POST Agents/BLOB/ChangeProjectImage
@@ -66,12 +67,12 @@ No Content
 POST /api/v1/Agents/BLOB/ChangeProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 8,
-  "BlobId": 554
+  "ProjectId": 362,
+  "BlobId": 32
 }
 ```
 

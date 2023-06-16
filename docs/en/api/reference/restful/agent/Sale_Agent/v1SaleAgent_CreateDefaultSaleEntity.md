@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/CreateDefaultSaleEntity
 uid: v1SaleAgent_CreateDefaultSaleEntity
+generated: true
 ---
 
 # POST Agents/Sale/CreateDefaultSaleEntity
@@ -115,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "aut",
+  "SaleText": "doloremque",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -124,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-02-06T03:51:28.0840246+01:00",
-  "Amount": 30578.438,
-  "SaleId": 766,
-  "Earning": 586.058,
-  "EarningPercent": 8787.735999999999,
-  "Heading": "id",
-  "Number": "996022",
-  "Probability": 454,
-  "CreatedDate": "2017-12-11T03:51:28.0840246+01:00",
-  "UpdatedDate": "2003-02-07T03:51:28.0840246+01:00",
+  "Saledate": "2014-06-06T16:00:41.7269142+02:00",
+  "Amount": 698.882,
+  "SaleId": 28,
+  "Earning": 30722.602,
+  "EarningPercent": 15177.962,
+  "Heading": "debitis",
+  "Number": "1292971",
+  "Probability": 783,
+  "CreatedDate": "2022-06-06T16:00:41.7269142+02:00",
+  "UpdatedDate": "1999-11-03T16:00:41.7269142+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 719,
+  "ActiveLinks": 74,
   "Links": [
     {
-      "EntityName": "Deckow Inc and Sons",
-      "Id": 907,
-      "Description": "Down-sized demand-driven toolset",
-      "ExtraInfo": "deleniti",
-      "LinkId": 581,
+      "EntityName": "Terry, Rippin and Klein",
+      "Id": 997,
+      "Description": "Business-focused solution-oriented open system",
+      "ExtraInfo": "et",
+      "LinkId": 18,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 597
         }
       }
     }
   ],
-  "NextDueDate": "2010-03-15T03:51:28.0840246+01:00",
-  "Postit": "ut",
+  "NextDueDate": "2001-11-20T16:00:41.7269142+01:00",
+  "Postit": "eum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2008-05-08T03:51:28.0840246+02:00",
+  "ReopenDate": "2000-03-14T16:00:41.7269142+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Christiansen, Effertz and Gislason",
-      "Comment": "nisi",
-      "StakeholderRoleId": 764,
-      "CountryId": 957,
-      "PersonId": 510,
-      "EmailDescription": "jana@mann.ca",
-      "EmailId": 753,
-      "EmailAddress": "blaze@collier.info",
-      "PhoneId": 662,
-      "ContactName": "Nicolas, Reichel and Tromp",
-      "ContactId": 238,
-      "SaleId": 864,
-      "Mrmrs": "in",
-      "Firstname": "Thurman",
-      "MiddleName": "McClure-Kuhlman",
-      "Lastname": "Bogisich",
-      "SaleStakeholderId": 858,
-      "Rank": 775,
-      "Phone": "809-535-5115 x2312",
+      "StakeholderRoleName": "Huels Group",
+      "Comment": "voluptas",
+      "StakeholderRoleId": 67,
+      "CountryId": 521,
+      "PersonId": 413,
+      "EmailDescription": "seamus_daniel@ferrycruickshank.co.uk",
+      "EmailId": 899,
+      "EmailAddress": "fannie@mullerhauck.biz",
+      "PhoneId": 481,
+      "ContactName": "Haley Inc and Sons",
+      "ContactId": 513,
+      "SaleId": 846,
+      "Mrmrs": "consectetur",
+      "Firstname": "Karley",
+      "MiddleName": "Hane, Gaylord and Daniel",
+      "Lastname": "Barton",
+      "SaleStakeholderId": 831,
+      "Rank": 138,
+      "Phone": "(612)233-1418 x70678",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 785
+          "FieldLength": 850
         }
       }
     }
   ],
-  "ActiveErpLinks": 771,
+  "ActiveErpLinks": 484,
   "UserDefinedFields": {
-    "SuperOffice:1": "Myrtice Becker",
-    "SuperOffice:2": "Retha Bins"
+    "SuperOffice:1": "Cletus Hudson",
+    "SuperOffice:2": "2124685794"
   },
   "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "praesentium"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "harum"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "ipsa",
+    "CustomFields2": "dolor"
   },
-  "PublishEventDate": "2022-08-22T03:51:28.0840246+02:00",
-  "PublishTo": "2012-07-29T03:51:28.0840246+02:00",
-  "PublishFrom": "2011-12-25T03:51:28.0840246+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2007-02-04T16:00:41.7269142+01:00",
+  "PublishTo": "2015-05-05T16:00:41.7269142+02:00",
+  "PublishFrom": "2023-01-29T16:00:41.7269142+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 493,
+      "VisibleId": 46,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldLength": 143
         }
       }
     },
     {
-      "VisibleId": 493,
+      "VisibleId": 46,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldLength": 143
         }
       }
     }
@@ -239,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldType": "System.String",
+      "FieldLength": 29
     }
   }
 }

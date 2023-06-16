@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/GetSelectionForFind
 uid: v1SelectionAgent_GetSelectionForFind
+generated: true
 ---
 
 # POST Agents/Selection/GetSelectionForFind
@@ -80,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Brekke Inc and Sons",
-  "TypicalSearchId": 787
+  "EntityName": "O'Connell-Howe",
+  "TypicalSearchId": 602
 }
 ```
 
@@ -96,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Christiansen Inc and Sons",
-  "SelectionId": 117,
+  "ProviderName": "Rippin, Herzog and Mayer",
+  "SelectionId": 476,
   "CanSaveAsSelection": false,
-  "MainHeading": "quae",
-  "FilterScreenHeading": "ut",
-  "SelectionEntityHeading": "dignissimos",
+  "MainHeading": "eos",
+  "FilterScreenHeading": "eos",
+  "SelectionEntityHeading": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: Services88.PreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId SOAP
-generated: 1
+generated: true
 uid: Services88-Preference-GetPreferenceDescriptionLinesByPrefDescId
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/RemoveSelectionMembersFromSearch
 uid: v1SelectionAgent_RemoveSelectionMembersFromSearch
+generated: true
 ---
 
 # POST Agents/Selection/RemoveSelectionMembersFromSearch
@@ -72,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 927,
-  "StorageKey": "voluptas"
+  "SelectionId": 377,
+  "StorageKey": "ea"
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-51
+772
 ```

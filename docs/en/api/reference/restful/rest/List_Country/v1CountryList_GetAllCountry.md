@@ -1,6 +1,7 @@
 ---
 title: GET List/Country/Items
 uid: v1CountryList_GetAllCountry
+generated: true
 ---
 
 # GET List/Country/Items
@@ -26,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -83,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 325,
-    "Name": "Keebler, Littel and Waelchi",
-    "CurrencyId": 113,
-    "EnglishName": "Wisozk Inc and Sons",
+    "CountryId": 400,
+    "Name": "Mraz-Stamm",
+    "CurrencyId": 184,
+    "EnglishName": "Bernier LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Distributed zero tolerance implementation",
-    "OrgNrText": "768765",
-    "InterAreaPrefix": "eius",
-    "DialInPrefix": "quam",
-    "ZipPrefix": "quis",
-    "DomainName": "Hessel, Hagenes and Smith",
-    "AddressLayoutId": 165,
-    "DomesticAddressLayoutId": 474,
-    "ForeignAddressLayoutId": 210,
-    "Rank": 151,
-    "Tooltip": "doloremque",
-    "Deleted": true,
+    "ImageDescription": "Devolved intangible definition",
+    "OrgNrText": "1080381",
+    "InterAreaPrefix": "deleniti",
+    "DialInPrefix": "repellendus",
+    "ZipPrefix": "error",
+    "DomainName": "Connelly LLC",
+    "AddressLayoutId": 259,
+    "DomesticAddressLayoutId": 460,
+    "ForeignAddressLayoutId": 634,
+    "Rank": 256,
+    "Tooltip": "maiores",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldLength": 443
       }
     }
   }

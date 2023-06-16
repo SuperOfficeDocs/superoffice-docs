@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/ExistsSystemEvent
 uid: v1ConfigurationAgent_ExistsSystemEvent
+generated: true
 ---
 
 # POST Agents/Configuration/ExistsSystemEvent
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Configuration/ExistsSystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "minima"
+  "Key": "voluptas"
 }
 ```
 

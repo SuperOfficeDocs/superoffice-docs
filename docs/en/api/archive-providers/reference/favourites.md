@@ -4,7 +4,6 @@ title: Favourites
 description: Archive provider for the list of favourites
 keywords: Favourites archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
 so.envir: onsite, online
 ---
@@ -13,7 +12,14 @@ so.envir: onsite, online
 
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.FavouritesProvider">SuperOffice.CRM.ArchiveLists.FavouritesProvider</see> inside NetServer's SODatabase assembly.
 
-Archive provider for the list of favourites.
+Archive provider for the list of favourites
+
+Blah...
+<para />
+blah....
+<para />
+...
+<para />
 ........
 
 ## Supported Entities
@@ -3129,11 +3135,7 @@ Archive provider for the list of favourites.
 ## Sample
 
 ```http!
-<<<<<<< HEAD
-GET /api/v1/archive/Favourites?$select=lossReason,salePublish/publishedBy,person/isProjectMember,contact/streetAddress/wgs84latitude,contact/contactAssociate/contactFullName
-=======
-GET /api/v1/archive/Favourites?$select=icon,activeErpLinks,person/personBusiness,person/personInterestIds,person/personUdef/SuperOffice:7
->>>>>>> 468ed48511 (update to 10.2.5.1175)
+GET /api/v1/archive/Favourites?$select=person/retired,person/personExtra/x_person_timespan,person/correspondingAssociate/mrMrs,contact/contactDeleted,contact/contactFax/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

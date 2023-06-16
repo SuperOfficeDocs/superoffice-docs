@@ -1,6 +1,7 @@
 ---
 title: PUT List/ConsentPurpose/Items/{id}/Headings
 uid: v1ConsentPurposeList_PutConsentPurposeHeadingsForListItem
+generated: true
 ---
 
 # PUT List/ConsentPurpose/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 620,
-    "Name": "Krajcik, Kautzer and Yost",
-    "ToolTip": "Magnam distinctio dicta aut.",
+    "Id": 767,
+    "Name": "Towne, Mante and Von",
+    "ToolTip": "Nesciunt at et.",
     "Deleted": false,
-    "Rank": 170,
-    "Type": "sed",
-    "ColorBlock": 691,
-    "IconHint": "voluptas",
+    "Rank": 243,
+    "Type": "perspiciatis",
+    "ColorBlock": 825,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2000-01-08T03:51:34.5989925+01:00",
+    "LastChanged": "2001-03-16T16:00:48.9302244+01:00",
     "ChildItems": [
       {
-        "Id": 815,
-        "Name": "Bogan-McDermott",
-        "ToolTip": "Ut saepe quae voluptatem.",
+        "Id": 586,
+        "Name": "Rodriguez-Bogisich",
+        "ToolTip": "Numquam aut similique dicta id natus quia.",
         "Deleted": false,
-        "Rank": 346,
-        "Type": "sint",
-        "ColorBlock": 566,
-        "IconHint": "eligendi",
+        "Rank": 85,
+        "Type": "quia",
+        "ColorBlock": 663,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "1996-09-25T03:51:34.5989925+02:00",
+        "LastChanged": "2013-04-10T16:00:48.9302244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "architecto",
-        "Hidden": true,
-        "FullName": "Mr. Veda King MD"
+        "ExtraInfo": "quia",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Evangeline Sauer"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Nathanael Miller"
+    "ExtraInfo": "et",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Miss Nia Welch MD"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Monahan-Johnson",
-    "ToolTip": "Odio ullam quam tempore animi.",
+    "Id": 242,
+    "Name": "Roob, Bechtelar and Rath",
+    "ToolTip": "Nisi minus qui eveniet.",
     "Deleted": false,
-    "Rank": 281,
-    "Type": "excepturi",
-    "ColorBlock": 303,
-    "IconHint": "aspernatur",
-    "Selected": false,
-    "LastChanged": "1998-01-01T03:51:34.5989925+01:00",
+    "Rank": 362,
+    "Type": "porro",
+    "ColorBlock": 988,
+    "IconHint": "odio",
+    "Selected": true,
+    "LastChanged": "2018-08-24T16:00:48.9302244+02:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Ebert LLC",
-        "ToolTip": "Quia vitae perferendis sunt tenetur.",
+        "Id": 764,
+        "Name": "Parisian LLC",
+        "ToolTip": "Veniam eligendi ut tempora.",
         "Deleted": false,
-        "Rank": 215,
-        "Type": "qui",
-        "ColorBlock": 112,
-        "IconHint": "explicabo",
-        "Selected": true,
-        "LastChanged": "2001-10-19T03:51:34.5989925+02:00",
+        "Rank": 828,
+        "Type": "quod",
+        "ColorBlock": 393,
+        "IconHint": "atque",
+        "Selected": false,
+        "LastChanged": "2019-03-26T16:00:48.9302244+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "libero",
+        "ExtraInfo": "quis",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Rafaela Schulist",
+        "FullName": "Mrs. Chanel Stanton IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 734
+            "FieldLength": 261
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "est",
+    "ExtraInfo": "omnis",
+    "StyleHint": "odio",
     "Hidden": false,
-    "FullName": "Kody Boyer",
+    "FullName": "Mortimer Bethel Volkman IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 264
+        "FieldType": "System.String",
+        "FieldLength": 777
       }
     }
   }

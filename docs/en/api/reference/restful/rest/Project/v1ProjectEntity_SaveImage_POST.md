@@ -1,6 +1,7 @@
 ---
 title: POST Project/{id}/Image
 uid: v1ProjectEntity_SaveImage_POST
+generated: true
 ---
 
 # POST Project/{id}/Image
@@ -61,7 +62,7 @@ The blob id for the image
 POST /api/v1/Project/{projectId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,5 +71,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 The blob id for the image
 Content-Type: application/json; charset=utf-8
 
-920
+396
 ```

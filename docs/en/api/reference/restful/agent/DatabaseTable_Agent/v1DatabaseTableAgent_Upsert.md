@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DatabaseTable/Upsert
 uid: v1DatabaseTableAgent_Upsert
+generated: true
 ---
 
 # POST Agents/DatabaseTable/Upsert
@@ -84,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gibson LLC",
+  "TableName": "Lebsack, Pagac and Abshire",
   "Columns": [
-    "rerum",
-    "omnis"
+    "omnis",
+    "alias"
   ],
   "Keys": [
-    "eius",
-    "at"
+    "quasi",
+    "aut"
   ],
   "Data": [
     [
@@ -118,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "alias",
-  "Inserts": 215,
-  "Updates": 254,
-  "Deletes": 884,
+  "Message": "praesentium",
+  "Inserts": 712,
+  "Updates": 340,
+  "Deletes": 382,
   "RowStatus": [
     {
-      "PrimaryKey": 829,
+      "PrimaryKey": 781,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quo",
-        "facilis"
+        "sed",
+        "omnis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldType": "System.String",
+          "FieldLength": 813
         }
       }
     },
     {
-      "PrimaryKey": 829,
+      "PrimaryKey": 781,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quo",
-        "facilis"
+        "sed",
+        "omnis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldType": "System.String",
+          "FieldLength": 813
         }
       }
     }
@@ -161,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 557
     }
   }
 }

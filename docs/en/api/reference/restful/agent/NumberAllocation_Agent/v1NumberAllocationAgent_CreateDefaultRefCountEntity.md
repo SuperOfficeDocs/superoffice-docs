@@ -1,6 +1,7 @@
 ---
 title: POST Agents/NumberAllocation/CreateDefaultRefCountEntity
 uid: v1NumberAllocationAgent_CreateDefaultRefCountEntity
+generated: true
 ---
 
 # POST Agents/NumberAllocation/CreateDefaultRefCountEntity
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 734,
-  "Field": "quisquam",
-  "RecordId": 499,
+  "RefCountsId": 468,
+  "Field": "laudantium",
+  "RecordId": 65,
   "SuggestedRecords": [
     {
-      "Id": 427,
-      "Name": "Moore, Kihn and Graham",
-      "ToolTip": "Natus incidunt sunt.",
+      "Id": 884,
+      "Name": "Emmerich, Raynor and Feest",
+      "ToolTip": "Omnis omnis assumenda.",
       "Deleted": false,
-      "Rank": 708,
-      "Type": "nostrum",
+      "Rank": 798,
+      "Type": "tempora",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "id",
-      "ColorBlock": 75,
-      "ExtraInfo": "et",
-      "StyleHint": "iure",
-      "FullName": "Maudie Bartell",
+      "IconHint": "harum",
+      "ColorBlock": 406,
+      "ExtraInfo": "aperiam",
+      "StyleHint": "doloremque",
+      "FullName": "Freida Stiedemann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldLength": 87
         }
       }
     }
   ],
-  "CurrentValue": 558,
-  "TravelPrefix": 410,
-  "SatPrefix": 928,
+  "CurrentValue": 278,
+  "TravelPrefix": 316,
+  "SatPrefix": 773,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 435
     }
   }
 }

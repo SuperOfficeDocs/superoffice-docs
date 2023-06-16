@@ -1,6 +1,7 @@
 ---
 title: GET CRMScript/default
 uid: v1CRMScriptEntity_DefaultCRMScriptEntity
+generated: true
 ---
 
 # GET CRMScript/default
@@ -69,7 +70,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 334,
-  "UniqueIdentifier": "ducimus",
-  "Name": "Dach-Blanda",
-  "Description": "Profound client-driven intranet",
-  "IncludeId": "et",
-  "HierarchyId": 603,
-  "Source": "iste",
-  "Registered": "1996-02-21T03:51:33.5678642+01:00",
-  "RegisteredAssociateId": 783,
-  "Updated": "2002-08-24T03:51:33.5678642+02:00",
-  "UpdatedAssociateId": 175,
+  "EjscriptId": 625,
+  "UniqueIdentifier": "dolorum",
+  "Name": "McClure, Swift and Larson",
+  "Description": "Re-contextualized contextually-based protocol",
+  "IncludeId": "aut",
+  "HierarchyId": 286,
+  "Source": "iure",
+  "Registered": "2001-02-28T16:00:47.83659+01:00",
+  "RegisteredAssociateId": 661,
+  "Updated": "2000-02-21T16:00:47.83659+01:00",
+  "UpdatedAssociateId": 263,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 721
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST List/Source/Items
 uid: v1SourceList_PostSource
+generated: true
 ---
 
 # POST List/Source/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 364,
-  "Name": "O'Reilly-Lockman",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "UdListDefinitionId": 296,
-  "Rank": 44
+  "Id": 398,
+  "Name": "Rosenbaum-Medhurst",
+  "Tooltip": "quibusdam",
+  "Deleted": false,
+  "UdListDefinitionId": 814,
+  "Rank": 267
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 78,
-  "Name": "Green Group",
-  "Tooltip": "sit",
+  "Id": 450,
+  "Name": "Gorczany LLC",
+  "Tooltip": "dolor",
   "Deleted": true,
-  "UdListDefinitionId": 449,
-  "Rank": 865,
+  "UdListDefinitionId": 963,
+  "Rank": 705,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 28
     }
   }
 }

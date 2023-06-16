@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveConfiguration
 uid: v1ArchiveAgent_GetArchiveConfiguration
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveConfiguration
@@ -78,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Will LLC",
-  "ProviderName": "Schamberger Group"
+  "GuiName": "Kshlerin-Lueilwitz",
+  "ProviderName": "Langosh-Blick"
 }
 ```
 
@@ -96,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Stamm-Stoltenberg",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "eum",
-      "CanOrderBy": false,
-      "Name": "Skiles, Kub and Klein",
+      "DisplayName": "Sanford-Wolff",
+      "DisplayTooltip": "porro",
+      "DisplayType": "libero",
+      "CanOrderBy": true,
+      "Name": "Cartwright-Schoen",
       "CanRestrictBy": true,
-      "RestrictionType": "enim",
-      "RestrictionListName": "Fay-Runolfsdottir",
-      "IsVisible": true,
-      "ExtraInfo": "quidem",
-      "Width": "quia",
-      "IconHint": "ut",
-      "HeadingIconHint": "sit"
+      "RestrictionType": "voluptatem",
+      "RestrictionListName": "Haley-Ortiz",
+      "IsVisible": false,
+      "ExtraInfo": "qui",
+      "Width": "eligendi",
+      "IconHint": "est",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 750,
-      "Name": "Gottlieb-Larkin",
-      "ToolTip": "Non et dolorem quisquam qui.",
-      "Deleted": false,
-      "Rank": 618,
-      "Type": "accusantium",
-      "ColorBlock": 357,
-      "IconHint": "impedit",
-      "Selected": false,
-      "LastChanged": "2021-08-07T03:51:26.568754+02:00",
+      "Id": 547,
+      "Name": "Stanton, Hayes and Carroll",
+      "ToolTip": "Incidunt facilis incidunt.",
+      "Deleted": true,
+      "Rank": 377,
+      "Type": "ut",
+      "ColorBlock": 514,
+      "IconHint": "unde",
+      "Selected": true,
+      "LastChanged": "2010-05-12T16:00:40.0550846+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "accusantium",
+      "ExtraInfo": "ducimus",
+      "StyleHint": "alias",
       "Hidden": false,
-      "FullName": "Connie Zulauf",
+      "FullName": "Michael Okuneva",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 166
+          "FieldType": "System.Int32",
+          "FieldLength": 975
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Corkery Group",
+      "Name": "Mann, Sporer and Kerluke",
       "Direction": "ASC"
     },
     {
-      "Name": "Corkery Group",
+      "Name": "Mann, Sporer and Kerluke",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "magni",
+  "OwnerKeys": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 659
     }
   }
 }

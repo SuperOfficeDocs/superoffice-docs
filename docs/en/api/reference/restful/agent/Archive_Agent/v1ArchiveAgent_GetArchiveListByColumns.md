@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumns
 uid: v1ArchiveAgent_GetArchiveListByColumns
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveListByColumns
@@ -102,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Veum-Krajcik",
+  "ProviderName": "Schmeler-Wintheiser",
   "Columns": [
-    "quia",
-    "aut"
+    "quis",
+    "earum"
   ],
   "SortOrder": [
     {
-      "Name": "Prohaska Inc and Sons",
+      "Name": "Maggio LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Prohaska Inc and Sons",
+      "Name": "Maggio LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Cole LLC",
-      "Operator": "aspernatur",
+      "Name": "Robel-Blanda",
+      "Operator": "eveniet",
       "Values": [
-        "et",
-        "dicta"
+        "dolore",
+        "tempora"
       ],
       "DisplayValues": [
-        "rerum",
-        "quia"
+        "cupiditate",
+        "sed"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 557,
+      "InterParenthesis": 589,
       "InterOperator": "And",
-      "UniqueHash": 4
+      "UniqueHash": 880
     }
   ],
   "Entities": [
-    "dicta",
-    "eaque"
+    "sequi",
+    "et"
   ],
-  "Page": 370,
-  "PageSize": 461
+  "Page": 768,
+  "PageSize": 703
 }
 ```
 
@@ -161,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Stoltenberg, Borer and Schaefer",
-    "PrimaryKey": 331,
+    "EntityName": "O'Keefe Inc and Sons",
+    "PrimaryKey": 439,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "cumque",
-        "TooltipHint": "mollitia",
-        "LinkHint": "ut"
+        "DisplayValue": "harum",
+        "TooltipHint": "eius",
+        "LinkHint": "qui"
       }
     },
-    "LinkHint": "vitae",
-    "StyleHint": "sed",
+    "LinkHint": "est",
+    "StyleHint": "facilis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 753
+        "FieldLength": 651
       }
     }
   }

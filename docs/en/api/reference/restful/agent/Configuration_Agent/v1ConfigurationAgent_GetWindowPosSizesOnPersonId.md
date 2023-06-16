@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetWindowPosSizesOnPersonId
 uid: v1ConfigurationAgent_GetWindowPosSizesOnPersonId
+generated: true
 ---
 
 # POST Agents/Configuration/GetWindowPosSizesOnPersonId
@@ -86,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 714
+  "PersonId": 261
 }
 ```
 
@@ -98,23 +99,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "voluptas",
-    "PersonId": 435,
-    "AssociateId": 24,
-    "ExtraId": 173,
-    "ExtraInfo": "et",
-    "Height": 471,
-    "LeftX": 28,
+    "OwnerWindow": "ipsa",
+    "PersonId": 776,
+    "AssociateId": 823,
+    "ExtraId": 120,
+    "ExtraInfo": "aspernatur",
+    "Height": 496,
+    "LeftX": 951,
     "State": "Maximized",
-    "UpperY": 875,
-    "Width": 756,
-    "WindowPosSizeId": 350,
+    "UpperY": 39,
+    "Width": 838,
+    "WindowPosSizeId": 413,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 503
+        "FieldLength": 775
       }
     }
   }

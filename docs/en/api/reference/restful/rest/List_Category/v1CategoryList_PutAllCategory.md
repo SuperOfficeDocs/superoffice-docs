@@ -1,6 +1,7 @@
 ---
 title: PUT List/Category/Items
 uid: v1CategoryList_PutAllCategory
+generated: true
 ---
 
 # PUT List/Category/Items
@@ -77,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "Miller, Mills and Haley",
-    "Tooltip": "rem",
+    "Id": 229,
+    "Name": "Windler-Glover",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "UdListDefinitionId": 729,
-    "Rank": 320
+    "UdListDefinitionId": 435,
+    "Rank": 964
   },
   {
-    "Id": 645,
-    "Name": "Miller, Mills and Haley",
-    "Tooltip": "rem",
+    "Id": 229,
+    "Name": "Windler-Glover",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "UdListDefinitionId": 729,
-    "Rank": 320
+    "UdListDefinitionId": 435,
+    "Rank": 964
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Oberbrunner, Blick and Marks",
-    "Tooltip": "delectus",
+    "Id": 689,
+    "Name": "Hartmann-Mueller",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 315,
-    "Rank": 769,
+    "UdListDefinitionId": 400,
+    "Rank": 87,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 84
+        "FieldType": "System.Int32",
+        "FieldLength": 719
       }
     }
   }

@@ -1,17 +1,11 @@
 ---
 uid: mailtemplate
 title: mailtemplate
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "mailtemplate"
+keywords: mdoprovider mdo provider mailtemplate
+description: List provider for the Mailtemplates.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "mailtemplate" MDO List

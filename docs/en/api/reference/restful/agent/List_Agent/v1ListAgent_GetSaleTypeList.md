@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetSaleTypeList
 uid: v1ListAgent_GetSaleTypeList
+generated: true
 ---
 
 # POST Agents/List/GetSaleTypeList
@@ -82,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 930,
-    "Value": "alias",
-    "Tooltip": "facere",
+    "Id": 88,
+    "Value": "inventore",
+    "Tooltip": "quasi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 953
+        "FieldType": "System.Int32",
+        "FieldLength": 570
       }
     }
   },
   {
-    "Id": 930,
-    "Value": "alias",
-    "Tooltip": "facere",
+    "Id": 88,
+    "Value": "inventore",
+    "Tooltip": "quasi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 953
+        "FieldType": "System.Int32",
+        "FieldLength": 570
       }
     }
   }

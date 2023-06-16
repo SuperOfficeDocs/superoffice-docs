@@ -1,6 +1,7 @@
 ---
 title: DEL Contact/{id}/Image
 uid: v1ContactEntity_DeleteImageContent
+generated: true
 ---
 
 # DEL Contact/{id}/Image
@@ -49,7 +50,7 @@ No Content
 DELETE /api/v1/Contact/{contactId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

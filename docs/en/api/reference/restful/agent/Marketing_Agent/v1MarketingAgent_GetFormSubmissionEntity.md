@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/GetFormSubmissionEntity
 uid: v1MarketingAgent_GetFormSubmissionEntity
+generated: true
 ---
 
 # POST Agents/Marketing/GetFormSubmissionEntity
@@ -25,7 +26,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=802
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=285
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -85,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 378,
-  "FormId": 151,
-  "WhenSubmitted": "2023-03-28T03:51:27.5060342+02:00",
-  "ContactId": 631,
-  "PersonId": 502,
-  "EmailAddress": "eli_rolfson@davis.ca",
-  "ResponseShipmentAddrId": 757,
-  "Response": "cumque",
+  "FormSubmissionId": 452,
+  "FormId": 775,
+  "WhenSubmitted": "2019-06-27T16:00:41.2580675+02:00",
+  "ContactId": 767,
+  "PersonId": 11,
+  "EmailAddress": "ayana.huels@weissnatabernathy.uk",
+  "ResponseShipmentAddrId": 590,
+  "Response": "dolore",
   "Status": "EmailVerification",
-  "ProcessingLog": "alias",
+  "ProcessingLog": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 729
     }
   }
 }

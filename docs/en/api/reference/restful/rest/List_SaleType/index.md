@@ -1,5 +1,6 @@
 ---
 title: List_SaleType
+generated: true
 ---
 
 ```http

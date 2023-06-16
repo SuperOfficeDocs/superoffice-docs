@@ -1,6 +1,7 @@
 ---
 title: GET Dash/default
 uid: v1Dash_DefaultDash
+generated: true
 ---
 
 # GET Dash/default
@@ -68,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 507,
-  "UniqueId": "iusto",
-  "Name": "Koss LLC",
-  "Description": "User-centric 3rd generation challenge",
-  "AssociateId": 876,
-  "Columns": 989,
+  "DashboardId": 721,
+  "UniqueId": "soluta",
+  "Name": "Rippin, Terry and Turner",
+  "Description": "Centralized contextually-based monitoring",
+  "AssociateId": 546,
+  "Columns": 89,
   "Theme": null,
-  "VisibleForAll": 311,
+  "VisibleForAll": 895,
   "VisibleForAssociates": [
-    348,
-    154
+    800,
+    416
   ],
   "VisibleForGroups": [
-    51,
-    507
+    87,
+    821
   ],
-  "PinForAll": 65,
+  "PinForAll": 54,
   "PinForAssociates": [
-    590,
-    157
+    106,
+    273
   ],
   "PinForGroups": [
-    515,
-    911
+    652,
+    622
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 643
+      "FieldLength": 713
     }
   }
 }

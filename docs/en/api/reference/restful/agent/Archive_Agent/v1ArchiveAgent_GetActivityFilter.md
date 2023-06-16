@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetActivityFilter
 uid: v1ArchiveAgent_GetActivityFilter
+generated: true
 ---
 
 # POST Agents/Archive/GetActivityFilter
@@ -78,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2006-01-26T03:51:26.5531332+01:00",
-  "ToDate": "2022-09-24T03:51:26.5531332+02:00",
+  "FromDate": "2016-12-06T16:00:40.0550846+01:00",
+  "ToDate": "2015-02-18T16:00:40.0550846+01:00",
   "AssociateList": [
     {
-      "Id": 258,
-      "Name": "Kovacek, Pouros and Pouros",
-      "ToolTip": "Dolorum unde quaerat neque perferendis eum repellendus.",
+      "Id": 104,
+      "Name": "Keebler Inc and Sons",
+      "ToolTip": "Adipisci culpa omnis in sunt.",
       "Deleted": false,
-      "Rank": 686,
-      "Type": "et",
-      "ColorBlock": 338,
-      "IconHint": "ipsum",
+      "Rank": 89,
+      "Type": "iste",
+      "ColorBlock": 776,
+      "IconHint": "rerum",
       "Selected": false,
-      "LastChanged": "2020-02-06T03:51:26.5531332+01:00",
+      "LastChanged": "1998-07-11T16:00:40.0550846+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "in",
+      "ExtraInfo": "numquam",
+      "StyleHint": "porro",
       "Hidden": false,
-      "FullName": "Kariane Camille Wilkinson I",
+      "FullName": "Mrs. Nelson Amie Stoltenberg MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldType": "System.String",
+          "FieldLength": 162
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 420,
-      "Name": "Heathcote-Leannon",
-      "ToolTip": "Ipsum qui veritatis.",
+      "Id": 247,
+      "Name": "Bernhard, Mosciski and Carroll",
+      "ToolTip": "Placeat commodi consequatur minus veniam.",
       "Deleted": false,
-      "Rank": 827,
-      "Type": "eligendi",
-      "ColorBlock": 876,
-      "IconHint": "veniam",
-      "Selected": false,
-      "LastChanged": "2022-01-27T03:51:26.5531332+01:00",
+      "Rank": 815,
+      "Type": "tenetur",
+      "ColorBlock": 368,
+      "IconHint": "ullam",
+      "Selected": true,
+      "LastChanged": "2014-08-08T16:00:40.0550846+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iure",
-      "StyleHint": "doloribus",
-      "Hidden": false,
-      "FullName": "Judd Runolfsdottir",
+      "ExtraInfo": "aperiam",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Lori Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 348
+          "FieldType": "System.Int32",
+          "FieldLength": 630
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 872,
-      "Name": "Mante-Kiehn",
-      "ToolTip": "Ut iure eaque voluptatibus autem nisi beatae voluptas.",
-      "Deleted": false,
-      "Rank": 593,
-      "Type": "qui",
+      "Id": 454,
+      "Name": "Windler-Batz",
+      "ToolTip": "Voluptates atque autem optio.",
+      "Deleted": true,
+      "Rank": 829,
+      "Type": "temporibus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "at",
-      "ColorBlock": 779,
-      "ExtraInfo": "sit",
-      "StyleHint": "minima",
-      "FullName": "Mr. Bridie Shanahan",
+      "IconHint": "magni",
+      "ColorBlock": 986,
+      "ExtraInfo": "quam",
+      "StyleHint": "sit",
+      "FullName": "Marguerite Abbott",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 301
         }
       }
     }
@@ -172,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldLength": 643
     }
   }
 }

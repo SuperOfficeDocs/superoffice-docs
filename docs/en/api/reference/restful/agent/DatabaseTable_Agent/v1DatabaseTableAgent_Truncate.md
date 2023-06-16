@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DatabaseTable/Truncate
 uid: v1DatabaseTableAgent_Truncate
+generated: true
 ---
 
 # POST Agents/DatabaseTable/Truncate
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hoppe-Tremblay"
+  "TableName": "Gleason, Bogisich and Dickinson"
 }
 ```
 
@@ -95,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "dolorum",
-  "Inserts": 622,
-  "Updates": 440,
-  "Deletes": 581,
+  "Message": "nobis",
+  "Inserts": 523,
+  "Updates": 377,
+  "Deletes": 338,
   "RowStatus": [
     {
-      "PrimaryKey": 459,
+      "PrimaryKey": 470,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "et",
-        "doloribus"
+        "voluptas",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldLength": 262
         }
       }
     },
     {
-      "PrimaryKey": 459,
+      "PrimaryKey": 470,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "et",
-        "doloribus"
+        "voluptas",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldLength": 262
         }
       }
     }
@@ -137,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldType": "System.String",
+      "FieldLength": 507
     }
   }
 }

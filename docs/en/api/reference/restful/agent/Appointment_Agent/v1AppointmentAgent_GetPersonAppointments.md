@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetPersonAppointments
 uid: v1AppointmentAgent_GetPersonAppointments
+generated: true
 ---
 
 # POST Agents/Appointment/GetPersonAppointments
@@ -117,6 +118,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -130,11 +134,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 435,
+  "PersonId": 977,
   "IncludeProjectAppointments": false,
-  "StartTime": "2006-03-26T03:51:26.3813013+02:00",
-  "EndTime": "2008-10-27T03:51:26.3813013+01:00",
-  "Count": 776
+  "StartTime": "2019-02-24T16:00:40.0238335+01:00",
+  "EndTime": "2002-10-31T16:00:40.0238335+01:00",
+  "Count": 603
 }
 ```
 
@@ -146,61 +150,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 431,
-    "StartDate": "2008-05-09T03:51:26.3813013+02:00",
-    "EndDate": "2000-07-06T03:51:26.3813013+02:00",
+    "AppointmentId": 808,
+    "StartDate": "2005-04-18T16:00:40.0238335+02:00",
+    "EndDate": "1998-12-03T16:00:40.0238335+01:00",
     "Type": "BookingForChecklist",
-    "Task": "pariatur",
-    "AssociateFullName": "Candelario Purdy",
-    "ContactName": "Cummerata-Bartoletti",
-    "Description": "Implemented mission-critical complexity",
-    "PersonFullName": "Madelyn Stanton",
-    "PersonId": 186,
-    "ContactId": 139,
-    "ProjectId": 409,
-    "ProjectName": "Walker, Gottlieb and Gerlach",
-    "IsPublished": true,
-    "AssociateId": 179,
-    "ColorIndex": 880,
+    "Task": "sit",
+    "AssociateFullName": "Aliyah Hartmann",
+    "ContactName": "Grimes Inc and Sons",
+    "Description": "Realigned regional info-mediaries",
+    "PersonFullName": "Chelsea Wiza",
+    "PersonId": 203,
+    "ContactId": 776,
+    "ProjectId": 422,
+    "ProjectName": "Ortiz-Bednar",
+    "IsPublished": false,
+    "AssociateId": 732,
+    "ColorIndex": 312,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 564,
-    "PriorityName": "Schultz Group",
+    "PriorityId": 844,
+    "PriorityName": "Corwin Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2020-04-06T03:51:26.3813013+02:00",
+    "ActiveDate": "2001-12-29T16:00:40.0238335+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-12-30T03:51:26.3813013+01:00",
-    "RecurringEndDate": "2003-10-07T03:51:26.3813013+02:00",
-    "MotherId": 178,
-    "AssignedBy": 171,
-    "AssignedByFullName": "Malinda Mills DVM",
+    "RecurringStartDate": "2020-10-24T16:00:40.0238335+02:00",
+    "RecurringEndDate": "2006-01-15T16:00:40.0238335+01:00",
+    "MotherId": 263,
+    "AssignedBy": 864,
+    "AssignedByFullName": "Dr. Ettie Mathias Lesch",
     "RejectReason": "",
-    "Location": "ipsa",
-    "AlarmLeadTime": "perspiciatis",
-    "SaleId": 474,
-    "SaleName": "Corkery, Pfannerstill and Sporer",
-    "AssociateName": "Metz Group",
-    "CreatedDate": "2022-12-17T03:51:26.3813013+01:00",
-    "CreatedBy": "autem",
-    "CreatedByFullName": "Miss Albert Keeley Thiel",
-    "CreatedByAssociateId": 904,
+    "Location": "minima",
+    "AlarmLeadTime": "ut",
+    "SaleId": 862,
+    "SaleName": "Lindgren Group",
+    "AssociateName": "Runte, Bartoletti and Jerde",
+    "CreatedDate": "2013-09-18T16:00:40.0238335+02:00",
+    "CreatedBy": "tempora",
+    "CreatedByFullName": "Prof. Yasmin Jeffery Price",
+    "CreatedByAssociateId": 393,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "est",
+    "Agenda": "aut",
+    "InternalNotes": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldLength": 874
       }
     }
   }

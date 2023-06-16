@@ -1,17 +1,11 @@
 ---
 uid: importnewlistitem
 title: importnewlistitem
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "importnewlistitem"
+keywords: mdoprovider mdo provider importnewlistitem
+description: Import list items: Add item, use default, use blank
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "importnewlistitem" MDO List

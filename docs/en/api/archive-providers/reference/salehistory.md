@@ -2,17 +2,10 @@
 uid: SaleHistory
 title: SaleHistory
 description: Sale histories. Contains all changes to the sale records over time.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SaleHistory"
+keywords: SaleHistory archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SaleHistory"
@@ -128,6 +121,10 @@ Sale histories. Contains all changes to the sale records over time.
 |person/birthMonth|int|Birth month: Displays contact's birth month| x |
 |person/birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
 |person/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |person/personUpdatedBy|associate|Updated by: The user who last updated the data| x |
 |person/personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
@@ -205,7 +202,7 @@ Sale histories. Contains all changes to the sale records over time.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleHistory?$select=associate/personId,associate/ejUserId,contact/hasInterests,project/activeErpLinks
+GET /api/v1/archive/SaleHistory?$select=associate/role,person/personCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

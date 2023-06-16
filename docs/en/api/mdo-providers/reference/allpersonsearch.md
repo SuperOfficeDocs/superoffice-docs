@@ -1,17 +1,13 @@
 ---
 uid: allpersonsearch
 title: allpersonsearch
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "allpersonsearch"
+keywords: mdoprovider mdo provider allpersonsearch
+description: Provider for selecting a Person, including search on contacts that match as well as persons. this provider will
+return a mix of contact and person records. The type is indicated in the Type property of the item, and the contact
+ID is always in the extraInfo.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "allpersonsearch" MDO List
@@ -29,7 +25,7 @@ id = person_id,
 <para />
 Name = contact.name + department or person first+last name (contact name + department)
 <para />
-ExtraInfo = contact_id,
+ExtraInfo = contact_id
 <para />
 Type = "Person"
 

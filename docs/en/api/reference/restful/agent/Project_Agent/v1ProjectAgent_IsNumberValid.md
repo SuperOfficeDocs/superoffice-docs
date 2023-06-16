@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/IsNumberValid
 uid: v1ProjectAgent_IsNumberValid
+generated: true
 ---
 
 # POST Agents/Project/IsNumberValid
@@ -74,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 887,
-  "Number": "854770"
+  "ContactId": 471,
+  "Number": "718338"
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductFamily/Items
 uid: v1ProductFamilyList_PutAllProductFamily
+generated: true
 ---
 
 # PUT List/ProductFamily/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "Torp, Schultz and Senger",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "UdListDefinitionId": 152,
-    "Rank": 47
+    "Id": 735,
+    "Name": "Bergstrom, Tremblay and Stokes",
+    "Tooltip": "quibusdam",
+    "Deleted": false,
+    "UdListDefinitionId": 221,
+    "Rank": 177
   },
   {
-    "Id": 143,
-    "Name": "Torp, Schultz and Senger",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "UdListDefinitionId": 152,
-    "Rank": 47
+    "Id": 735,
+    "Name": "Bergstrom, Tremblay and Stokes",
+    "Tooltip": "quibusdam",
+    "Deleted": false,
+    "UdListDefinitionId": 221,
+    "Rank": 177
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Schmidt, Runolfsdottir and Zemlak",
-    "Tooltip": "error",
+    "Id": 539,
+    "Name": "Durgan, Jacobs and Reynolds",
+    "Tooltip": "iusto",
     "Deleted": false,
-    "UdListDefinitionId": 474,
-    "Rank": 689,
+    "UdListDefinitionId": 632,
+    "Rank": 866,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldLength": 910
       }
     }
   }

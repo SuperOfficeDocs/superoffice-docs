@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Report/GenerateReport
 uid: v1ReportAgent_GenerateReport
+generated: true
 ---
 
 # POST Agents/Report/GenerateReport
@@ -72,36 +73,36 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 260,
-  "LabelLayoutId": 327,
-  "Filename": "fuga",
-  "Language": "ea",
-  "FileType": "voluptatem",
+  "ReportId": 770,
+  "LabelLayoutId": 10,
+  "Filename": "aliquam",
+  "Language": "veniam",
+  "FileType": "reprehenderit",
   "Restrictions": [
     {
-      "Name": "Schroeder LLC",
-      "Operator": "sit",
+      "Name": "Beahan-Bauch",
+      "Operator": "aut",
       "Values": [
-        "ut",
-        "ab"
+        "alias",
+        "maiores"
       ],
       "DisplayValues": [
-        "dolore",
-        "repudiandae"
+        "voluptates",
+        "numquam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 184,
+      "InterParenthesis": 313,
       "InterOperator": "And",
-      "UniqueHash": 11
+      "UniqueHash": 565
     }
   ]
 }
@@ -113,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"doloremque"
+"hic"
 ```

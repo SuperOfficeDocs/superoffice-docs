@@ -1,6 +1,6 @@
 ---
 title: Services88.MarketingAgent.GetPreviewMailingHeader SOAP
-generated: 1
+generated: true
 uid: Services88-Marketing-GetPreviewMailingHeader
 ---
 
@@ -61,7 +61,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <Marketing:GetPreviewMailingHeaderResponse>
    <Marketing:Response xsi:type="Marketing:PreviewMailingHeader">
-    <Marketing:StartDate xsi:type="xsd:dateTime">2023-05-25T11:09:34Z</Marketing:StartDate>
+    <Marketing:StartDate xsi:type="xsd:dateTime">2023-06-09T13:59:36Z</Marketing:StartDate>
     <Marketing:Status xsi:type="Marketing:ShipmentStatus">None</Marketing:Status>
     <Marketing:ShipmentId xsi:type="xsd:int">0</Marketing:ShipmentId>
     <Marketing:ShipmentDescription xsi:type="xsd:string"></Marketing:ShipmentDescription>

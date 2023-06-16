@@ -1,17 +1,11 @@
 ---
 uid: credited
 title: credited
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "credited"
+keywords: mdoprovider mdo provider credited
+description: GenericMDOProvider reads MDO lists with default settings
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "credited" MDO List

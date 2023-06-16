@@ -1,17 +1,13 @@
 ---
 uid: personwithmail
 title: personwithmail
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "personwithmail"
+keywords: mdoprovider mdo provider personwithmail
+description: List of persons fetched based on provided criteria
+Output is in format: "Person Full Name &lt;person@mail.com&gt;"
+Optional: Get multiple emails pr. person. (getallemails)
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "personwithmail" MDO List

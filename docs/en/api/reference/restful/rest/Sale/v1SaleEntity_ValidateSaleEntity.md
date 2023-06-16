@@ -1,6 +1,7 @@
 ---
 title: POST Sale/Validate
 uid: v1SaleEntity_ValidateSaleEntity
+generated: true
 ---
 
 # POST Sale/Validate
@@ -110,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "minima",
+  "SaleText": "est",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -119,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2001-07-23T03:51:33.9740156+02:00",
-  "Amount": 20010.59,
-  "SaleId": 955,
-  "Earning": 1247.3319999999999,
-  "EarningPercent": 10931.392,
-  "Heading": "ad",
-  "Number": "624690",
-  "Probability": 200,
-  "CreatedDate": "2014-12-13T03:51:33.9740156+01:00",
-  "UpdatedDate": "2008-10-27T03:51:33.9740156+01:00",
+  "Saledate": "2019-03-22T16:00:48.3990266+01:00",
+  "Amount": 28058.701999999997,
+  "SaleId": 640,
+  "Earning": 1165.848,
+  "EarningPercent": 16629.004,
+  "Heading": "sunt",
+  "Number": "515947",
+  "Probability": 308,
+  "CreatedDate": "1999-04-07T16:00:48.3990266+02:00",
+  "UpdatedDate": "2002-12-14T16:00:48.3990266+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 139,
+  "ActiveLinks": 251,
   "Links": [
     {
-      "EntityName": "Robel Inc and Sons",
-      "Id": 600,
-      "Description": "Profit-focused fresh-thinking function",
-      "ExtraInfo": "molestiae",
-      "LinkId": 261
+      "EntityName": "Ratke-Connelly",
+      "Id": 938,
+      "Description": "Balanced didactic initiative",
+      "ExtraInfo": "possimus",
+      "LinkId": 953
     },
     {
-      "EntityName": "Robel Inc and Sons",
-      "Id": 600,
-      "Description": "Profit-focused fresh-thinking function",
-      "ExtraInfo": "molestiae",
-      "LinkId": 261
+      "EntityName": "Ratke-Connelly",
+      "Id": 938,
+      "Description": "Balanced didactic initiative",
+      "ExtraInfo": "possimus",
+      "LinkId": 953
     }
   ],
-  "NextDueDate": "2014-08-30T03:51:33.9740156+02:00",
-  "Postit": "voluptas",
+  "NextDueDate": "2023-04-19T16:00:48.3990266+02:00",
+  "Postit": "esse",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-06-05T03:51:33.9740156+02:00",
+  "ReopenDate": "2015-09-06T16:00:48.3990266+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Swift Group",
-      "Comment": "assumenda",
-      "StakeholderRoleId": 914,
-      "CountryId": 215,
-      "PersonId": 396,
-      "EmailDescription": "kallie@davisgoyette.uk",
-      "EmailId": 727,
-      "EmailAddress": "marcel@jakubowski.us",
-      "PhoneId": 87,
-      "ContactName": "Fritsch Group",
-      "ContactId": 171,
-      "SaleId": 434,
-      "Mrmrs": "illo",
-      "Firstname": "Morgan",
-      "MiddleName": "Monahan Inc and Sons",
-      "Lastname": "Moore",
-      "SaleStakeholderId": 796,
-      "Rank": 356,
-      "Phone": "(454)622-1806"
+      "StakeholderRoleName": "Goyette Group",
+      "Comment": "earum",
+      "StakeholderRoleId": 820,
+      "CountryId": 559,
+      "PersonId": 245,
+      "EmailDescription": "kaleigh@jacobi.uk",
+      "EmailId": 624,
+      "EmailAddress": "beaulah@rutherfordcruickshank.ca",
+      "PhoneId": 625,
+      "ContactName": "Blanda-Morissette",
+      "ContactId": 85,
+      "SaleId": 500,
+      "Mrmrs": "ratione",
+      "Firstname": "Wilfrid",
+      "MiddleName": "Miller-Smith",
+      "Lastname": "Cremin",
+      "SaleStakeholderId": 536,
+      "Rank": 370,
+      "Phone": "(635)505-1661 x3325"
     }
   ],
-  "ActiveErpLinks": 290,
+  "ActiveErpLinks": 162,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Saul Eichmann"
+    "SuperOffice:1": "Mrs. Rosario Alessandro Borer DVM",
+    "SuperOffice:2": "Ms. Daryl Angeline Huels PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "tempora"
+    "CustomFields1": "ipsa",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2001-03-15T03:51:33.9740156+01:00",
-  "PublishTo": "2010-03-11T03:51:33.9740156+01:00",
-  "PublishFrom": "2003-12-09T03:51:33.9740156+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2011-06-27T16:00:48.3990266+02:00",
+  "PublishTo": "2001-08-27T16:00:48.3990266+02:00",
+  "PublishFrom": "2006-04-06T16:00:48.3990266+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 814,
+      "VisibleId": 88,
       "Visibility": "All",
-      "DisplayValue": "ducimus"
+      "DisplayValue": "ut"
     },
     {
-      "VisibleId": 814,
+      "VisibleId": 88,
       "Visibility": "All",
-      "DisplayValue": "ducimus"
+      "DisplayValue": "ut"
     }
   ]
 }
@@ -215,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "reiciendis",
-  "2": "dignissimos"
+  "1": "libero",
+  "2": "sapiente"
 }
 ```

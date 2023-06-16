@@ -1,6 +1,6 @@
 ---
 title: Services88.ChatAgent.CreateDefaultChatTopicEntity SOAP
-generated: 1
+generated: true
 uid: Services88-Chat-CreateDefaultChatTopicEntity
 ---
 
@@ -71,7 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:Value xsi:type="xsd:string"></Chat:Value>
      <Chat:Tooltip xsi:type="xsd:string"></Chat:Tooltip>
     </Chat:Language>
-    <Chat:LastAccept xsi:type="xsd:dateTime">2023-05-25T11:08:17Z</Chat:LastAccept>
+    <Chat:LastAccept xsi:type="xsd:dateTime">2023-06-09T13:58:19Z</Chat:LastAccept>
     <Chat:SecondsPrAccept xsi:type="xsd:int">0</Chat:SecondsPrAccept>
     <Chat:AlertRecipient xsi:type="xsd:string"></Chat:AlertRecipient>
     <Chat:AlertTemplate xsi:type="Chat:ReplyTemplate">

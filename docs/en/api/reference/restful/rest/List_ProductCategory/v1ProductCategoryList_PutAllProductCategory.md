@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductCategory/Items
 uid: v1ProductCategoryList_PutAllProductCategory
+generated: true
 ---
 
 # PUT List/ProductCategory/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Ortiz-Satterfield",
-    "Tooltip": "soluta",
+    "Id": 816,
+    "Name": "Hagenes, Reinger and Beier",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 268,
-    "Rank": 433
+    "UdListDefinitionId": 960,
+    "Rank": 765
   },
   {
-    "Id": 791,
-    "Name": "Ortiz-Satterfield",
-    "Tooltip": "soluta",
+    "Id": 816,
+    "Name": "Hagenes, Reinger and Beier",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 268,
-    "Rank": 433
+    "UdListDefinitionId": 960,
+    "Rank": 765
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 736,
-    "Name": "Gutmann, Lesch and Cruickshank",
-    "Tooltip": "soluta",
-    "Deleted": false,
-    "UdListDefinitionId": 84,
-    "Rank": 415,
+    "Id": 710,
+    "Name": "Harvey, Haley and Senger",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "UdListDefinitionId": 558,
+    "Rank": 925,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldType": "System.String",
+        "FieldLength": 960
       }
     }
   }

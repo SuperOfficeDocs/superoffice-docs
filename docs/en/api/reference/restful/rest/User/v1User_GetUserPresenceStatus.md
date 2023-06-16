@@ -1,6 +1,7 @@
 ---
 title: GET User/{id}/UserPresenceStatus
 uid: v1User_GetUserPresenceStatus
+generated: true
 ---
 
 # GET User/{id}/UserPresenceStatus
@@ -70,6 +71,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "rem"
+  "Message": "cupiditate"
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/GetTargetAssignmentForYearAndDimension
 uid: v1TargetsAgent_GetTargetAssignmentForYearAndDimension
+generated: true
 ---
 
 # POST Agents/Targets/GetTargetAssignmentForYearAndDimension
@@ -88,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 552,
+  "TargetYear": 124,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 491,
-  "DimensionId": 748
+  "Id": 11,
+  "DimensionId": 878
 }
 ```
 
@@ -103,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 790,
+  "TargetAssignmentInfoId": 972,
   "Values": [
-    407,
-    900
+    211,
+    561
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 526,
-  "DimensionListItemDisplayName": "Dickinson Inc and Sons",
+  "DimensionListItem": 6,
+  "DimensionListItemDisplayName": "Wisozk, Boehm and Franecki",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 750
+      "FieldType": "System.Int32",
+      "FieldLength": 329
     }
   }
 }

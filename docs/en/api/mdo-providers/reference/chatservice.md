@@ -1,17 +1,11 @@
 ---
 uid: chatservice
 title: chatservice
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "chatservice"
+keywords: mdoprovider mdo provider chatservice
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "chatservice" MDO List

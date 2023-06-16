@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetCountryList
 uid: v1ListAgent_GetCountryList
+generated: true
 ---
 
 # POST Agents/List/GetCountryList
@@ -86,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 453,
-    "Name": "Bode, McKenzie and Ortiz",
-    "CurrencyId": 185,
-    "EnglishName": "Batz, Mraz and Schroeder",
+    "CountryId": 205,
+    "Name": "Hahn-Jewess",
+    "CurrencyId": 338,
+    "EnglishName": "Veum LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Public-key well-modulated leverage",
-    "OrgNrText": "1259086",
-    "InterAreaPrefix": "eveniet",
-    "DialInPrefix": "illo",
-    "ZipPrefix": "expedita",
-    "DomainName": "Mertz-Harris",
-    "AddressLayoutId": 441,
-    "DomesticAddressLayoutId": 45,
-    "ForeignAddressLayoutId": 696,
-    "Rank": 813,
-    "Tooltip": "nihil",
+    "ImageDescription": "Proactive didactic open architecture",
+    "OrgNrText": "1065787",
+    "InterAreaPrefix": "voluptatibus",
+    "DialInPrefix": "accusamus",
+    "ZipPrefix": "dolore",
+    "DomainName": "Emard, Hodkiewicz and Williamson",
+    "AddressLayoutId": 195,
+    "DomesticAddressLayoutId": 845,
+    "ForeignAddressLayoutId": 886,
+    "Rank": 430,
+    "Tooltip": "cum",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 18
+        "FieldLength": 621
       }
     }
   }

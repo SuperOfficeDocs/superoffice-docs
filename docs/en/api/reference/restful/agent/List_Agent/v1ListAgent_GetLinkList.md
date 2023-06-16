@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetLinkList
 uid: v1ListAgent_GetLinkList
+generated: true
 ---
 
 # POST Agents/List/GetLinkList
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Cartwright LLC",
-    "Id": 989,
-    "Description": "Diverse uniform help-desk",
-    "ExtraInfo": "quo",
-    "LinkId": 238,
+    "EntityName": "Buckridge, Hirthe and Ritchie",
+    "Id": 58,
+    "Description": "Operative 6th generation circuit",
+    "ExtraInfo": "soluta",
+    "LinkId": 271,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldLength": 290
       }
     }
   }

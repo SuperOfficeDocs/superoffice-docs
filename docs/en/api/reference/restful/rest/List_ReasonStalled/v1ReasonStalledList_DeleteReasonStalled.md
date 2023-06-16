@@ -1,6 +1,7 @@
 ---
 title: DEL List/ReasonStalled/Items/{id}
 uid: v1ReasonStalledList_DeleteReasonStalled
+generated: true
 ---
 
 # DEL List/ReasonStalled/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 uid: v1DocumentAgent_CreateNewPhysicalDocumentFromTemplateWithCustomTags
+generated: true
 ---
 
 # POST Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
@@ -120,22 +121,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 47,
-  "PersonId": 530,
-  "AppointmentId": 809,
-  "DocumentId": 311,
-  "SaleId": 407,
-  "SelectionId": 948,
-  "ProjectId": 174,
+  "ContactId": 732,
+  "PersonId": 375,
+  "AppointmentId": 459,
+  "DocumentId": 632,
+  "SaleId": 49,
+  "SelectionId": 725,
+  "ProjectId": 131,
   "CustomTags": [
-    "debitis",
-    "dolore"
+    "quibusdam",
+    "qui"
   ],
   "CustomValues": [
-    "omnis",
-    "eum"
+    "recusandae",
+    "hic"
   ],
-  "UiCulture": "ipsa"
+  "UiCulture": "modi"
 }
 ```
 
@@ -146,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 28,
+  "DocumentId": 859,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "culpa",
-  "Header": "natus",
-  "Name": "Morar, Keeling and Lockman",
-  "OurRef": "sit",
-  "YourRef": "iure",
-  "CreatedDate": "2017-08-01T03:51:27.0998796+02:00",
-  "UpdatedDate": "2002-09-06T03:51:27.0998796+02:00",
-  "Description": "Re-engineered hybrid help-desk",
+  "Attention": "enim",
+  "Header": "sit",
+  "Name": "Nicolas, Marks and Lakin",
+  "OurRef": "iusto",
+  "YourRef": "qui",
+  "CreatedDate": "2021-12-02T16:00:40.7581269+01:00",
+  "UpdatedDate": "2004-05-05T16:00:40.7581269+02:00",
+  "Description": "Multi-lateral multi-state conglomeration",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-04-08T03:51:27.0998796+02:00",
-  "ExternalRef": "qui",
+  "Date": "2013-11-06T16:00:40.7737465+01:00",
+  "ExternalRef": "labore",
   "Completed": "Completed",
-  "ActiveLinks": 797,
+  "ActiveLinks": 14,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gerhold Group",
-      "Id": 546,
-      "Description": "De-engineered uniform ability",
-      "ExtraInfo": "sit",
-      "LinkId": 606,
+      "EntityName": "Gaylord, Torp and Cummings",
+      "Id": 881,
+      "Description": "Customizable directional benchmark",
+      "ExtraInfo": "tenetur",
+      "LinkId": 117,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 962
+          "FieldLength": 790
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 797,
-  "Snum": 390,
+  "SuggestedDocumentId": 199,
+  "Snum": 936,
   "UserDefinedFields": {
-    "SuperOffice:1": "397629224",
-    "SuperOffice:2": "1042694200"
+    "SuperOffice:1": "Wallace Dibbert",
+    "SuperOffice:2": "1670109785"
   },
   "ExtraFields": {
-    "ExtraFields1": "exercitationem",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "ab",
-    "CustomFields2": "occaecati"
+    "CustomFields1": "ducimus",
+    "CustomFields2": "reprehenderit"
   },
-  "PublishEventDate": "2019-03-17T03:51:27.0998796+01:00",
-  "PublishTo": "2021-09-21T03:51:27.0998796+02:00",
-  "PublishFrom": "2000-04-27T03:51:27.0998796+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-09-26T16:00:40.7737465+02:00",
+  "PublishTo": "2017-05-20T16:00:40.7737465+02:00",
+  "PublishFrom": "2020-01-09T16:00:40.7737465+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 1001,
+      "VisibleId": 354,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 611
+          "FieldLength": 233
         }
       }
     },
     {
-      "VisibleId": 1001,
+      "VisibleId": 354,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 611
+          "FieldLength": 233
         }
       }
     }
@@ -237,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 428
     }
   }
 }

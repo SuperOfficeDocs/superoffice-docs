@@ -1,6 +1,7 @@
 ---
 title: POST Pricelist
 uid: v1PriceList_PostPriceList
+generated: true
 ---
 
 # POST Pricelist
@@ -93,20 +94,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 523,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 563,
-  "Name": "Haley, Carroll and Gislason",
-  "Description": "Monitored neutral alliance",
-  "Currency": "minus",
-  "CurrencyName": "Cremin, Boyer and Hermann",
-  "ValidFrom": "2001-01-09T03:51:34.7708309+01:00",
-  "ValidTo": "1997-09-30T03:51:34.7708309+02:00",
-  "IsActive": false
+  "PriceListId": 454,
+  "ERPPriceListKey": "atque",
+  "QuoteConnectionId": 431,
+  "Name": "O'Kon-Beer",
+  "Description": "Distributed well-modulated alliance",
+  "Currency": "aut",
+  "CurrencyName": "Fay-Marquardt",
+  "ValidFrom": "2013-03-14T16:00:49.1177018+01:00",
+  "ValidTo": "2002-11-05T16:00:49.1177018+01:00",
+  "IsActive": true
 }
 ```
 
@@ -117,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 714,
-  "ERPPriceListKey": "officia",
-  "QuoteConnectionId": 530,
-  "Name": "Skiles-Macejkovic",
-  "Description": "Proactive encompassing productivity",
-  "Currency": "esse",
-  "CurrencyName": "Crooks, Keebler and Bashirian",
-  "ValidFrom": "2022-02-07T03:51:34.7708309+01:00",
-  "ValidTo": "2018-12-28T03:51:34.7708309+01:00",
+  "PriceListId": 900,
+  "ERPPriceListKey": "sit",
+  "QuoteConnectionId": 491,
+  "Name": "Renner Group",
+  "Description": "Phased static implementation",
+  "Currency": "laboriosam",
+  "CurrencyName": "Abshire-Sawayn",
+  "ValidFrom": "2008-06-19T16:00:49.1177018+02:00",
+  "ValidTo": "2020-02-17T16:00:49.1177018+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldLength": 43
     }
   },
   "_Links": {

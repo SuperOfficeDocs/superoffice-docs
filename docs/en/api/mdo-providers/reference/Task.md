@@ -1,17 +1,11 @@
 ---
 uid: task
 title: task
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "task"
+keywords: mdoprovider mdo provider task
+description: Task table MDO list. Optional include "None" as first value.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "task" MDO List

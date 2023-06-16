@@ -1,5 +1,6 @@
 ---
 title: List_LegalBase
+generated: true
 ---
 
 ```http

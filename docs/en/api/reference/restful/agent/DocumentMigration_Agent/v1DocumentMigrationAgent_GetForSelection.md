@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DocumentMigration/GetForSelection
 uid: v1DocumentMigrationAgent_GetForSelection
+generated: true
 ---
 
 # POST Agents/DocumentMigration/GetForSelection
@@ -81,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 294,
-  "SelectionId": 382,
-  "IncludeEmails": false
+  "DocumentPluginId": 450,
+  "SelectionId": 489,
+  "IncludeEmails": true
 }
 ```
 
@@ -94,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 594,
-  "NumDocumentsAlreadyMigrated": 22,
+  "NumDocumentsOmitted": 332,
+  "NumDocumentsAlreadyMigrated": 298,
   "Documents": [
     {
-      "DocumentId": 220,
-      "ContactId": 990,
-      "PersonId": 160,
-      "SaleId": 447,
-      "ProjectId": 371,
-      "DocTmplId": 900,
-      "AssociateId": 828,
-      "UserGroupId": 786,
-      "VisibleForId": 737
+      "DocumentId": 935,
+      "ContactId": 247,
+      "PersonId": 551,
+      "SaleId": 551,
+      "ProjectId": 946,
+      "DocTmplId": 167,
+      "AssociateId": 403,
+      "UserGroupId": 357,
+      "VisibleForId": 521
     }
   ],
   "Associates": [
     {
-      "AssociateId": 384,
-      "EmailAddress": "unique@gutkowskikeeling.biz"
+      "AssociateId": 596,
+      "EmailAddress": "gregoria.kiehn@huel.ca"
     },
     {
-      "AssociateId": 384,
-      "EmailAddress": "unique@gutkowskikeeling.biz"
+      "AssociateId": 596,
+      "EmailAddress": "gregoria.kiehn@huel.ca"
     }
   ]
 }

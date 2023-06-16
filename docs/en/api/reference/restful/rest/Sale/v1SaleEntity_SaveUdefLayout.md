@@ -1,6 +1,7 @@
 ---
 title: PUT Sale/UdefLayout
 uid: v1SaleEntity_SaveUdefLayout
+generated: true
 ---
 
 # PUT Sale/UdefLayout
@@ -128,45 +129,45 @@ OK
 PUT /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 394,
-    "ColumnId": 891,
-    "FieldDefault": "laboriosam",
-    "FieldHeight": 176,
-    "FieldLabel": "dolores",
-    "FieldLeft": 692,
-    "FieldTop": 533,
+    "UDefFieldId": 718,
+    "ColumnId": 828,
+    "FieldDefault": "ex",
+    "FieldHeight": 893,
+    "FieldLabel": "amet",
+    "FieldLeft": 64,
+    "FieldTop": 16,
     "FieldType": "Checkbox",
-    "FieldWidth": 442,
-    "FormatMask": "enim",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 952,
-    "LabelLeft": 584,
-    "LabelTop": 873,
-    "LabelWidth": 942,
-    "LastVersionId": 644,
-    "ListTableId": 787,
-    "IsMandatory": false,
+    "FieldWidth": 102,
+    "FormatMask": "saepe",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 14,
+    "LabelLeft": 792,
+    "LabelTop": 506,
+    "LabelWidth": 59,
+    "LastVersionId": 555,
+    "ListTableId": 190,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 881,
-    "ProgId": "blanditiis",
+    "Page1LineNo": 506,
+    "ProgId": "porro",
     "IsReadOnly": false,
-    "ShortLabel": "porro",
-    "TabOrder": 874,
-    "TextLength": 35,
-    "Tooltip": "suscipit",
-    "UdefIdentity": 298,
-    "UDListDefinitionId": 181,
+    "ShortLabel": "in",
+    "TabOrder": 463,
+    "TextLength": 332,
+    "Tooltip": "voluptatem",
+    "UdefIdentity": 382,
+    "UDListDefinitionId": 912,
     "Justification": "Center",
-    "Version": 781,
-    "TemplateVariableName": "Kreiger LLC",
+    "Version": 538,
+    "TemplateVariableName": "McKenzie LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Mills Group"
+    "MdoListName": "Gulgowski-Mayert"
   }
 ]
 ```
@@ -179,46 +180,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 154,
-    "ColumnId": 390,
-    "FieldDefault": "excepturi",
-    "FieldHeight": 628,
-    "FieldLabel": "aperiam",
-    "FieldLeft": 123,
-    "FieldTop": 525,
+    "UDefFieldId": 161,
+    "ColumnId": 94,
+    "FieldDefault": "rerum",
+    "FieldHeight": 188,
+    "FieldLabel": "ducimus",
+    "FieldLeft": 924,
+    "FieldTop": 664,
     "FieldType": "Checkbox",
-    "FieldWidth": 208,
-    "FormatMask": "ipsum",
+    "FieldWidth": 170,
+    "FormatMask": "cupiditate",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 580,
-    "LabelLeft": 668,
-    "LabelTop": 624,
-    "LabelWidth": 828,
-    "LastVersionId": 216,
-    "ListTableId": 290,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "LabelHeight": 489,
+    "LabelLeft": 417,
+    "LabelTop": 358,
+    "LabelWidth": 109,
+    "LastVersionId": 407,
+    "ListTableId": 912,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 580,
-    "ProgId": "et",
+    "Page1LineNo": 730,
+    "ProgId": "enim",
     "IsReadOnly": false,
-    "ShortLabel": "est",
-    "TabOrder": 323,
-    "TextLength": 164,
-    "Tooltip": "sit",
-    "UdefIdentity": 455,
-    "UDListDefinitionId": 720,
+    "ShortLabel": "impedit",
+    "TabOrder": 8,
+    "TextLength": 411,
+    "Tooltip": "cum",
+    "UdefIdentity": 916,
+    "UDListDefinitionId": 59,
     "Justification": "Center",
-    "Version": 427,
-    "TemplateVariableName": "Mertz-Beatty",
+    "Version": 882,
+    "TemplateVariableName": "Gibson LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Fadel-Blick",
+    "MdoListName": "Gorczany, Lehner and Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldLength": 572
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetPersonDiary
 uid: v1AppointmentAgent_GetPersonDiary
+generated: true
 ---
 
 # POST Agents/Appointment/GetPersonDiary
@@ -116,6 +117,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -125,14 +129,14 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 158,
-  "StartTime": "2017-03-28T03:51:26.5375163+02:00",
-  "EndTime": "2006-10-10T03:51:26.5375163+02:00",
-  "Count": 174
+  "PersonId": 6,
+  "StartTime": "2006-07-26T16:00:40.0394546+02:00",
+  "EndTime": "2009-08-12T16:00:40.0394546+02:00",
+  "Count": 807
 }
 ```
 
@@ -144,61 +148,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 594,
-    "StartDate": "2004-09-21T03:51:26.5375163+02:00",
-    "EndDate": "2004-10-06T03:51:26.5375163+02:00",
+    "AppointmentId": 871,
+    "StartDate": "2009-01-15T16:00:40.0394546+01:00",
+    "EndDate": "2005-06-19T16:00:40.0394546+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolorem",
-    "AssociateFullName": "Carolyne McLaughlin",
-    "ContactName": "Stracke, Kub and Turcotte",
-    "Description": "Ameliorated object-oriented access",
-    "PersonFullName": "Prof. Phoebe Unique Gleason PhD",
-    "PersonId": 225,
-    "ContactId": 96,
-    "ProjectId": 252,
-    "ProjectName": "Kovacek, Kunze and Gusikowski",
+    "Task": "provident",
+    "AssociateFullName": "Hugh Hackett",
+    "ContactName": "Pacocha, Schulist and Jakubowski",
+    "Description": "Profound systematic moderator",
+    "PersonFullName": "Agustina Walsh",
+    "PersonId": 431,
+    "ContactId": 628,
+    "ProjectId": 620,
+    "ProjectName": "Fritsch, Nolan and Fahey",
     "IsPublished": false,
-    "AssociateId": 325,
-    "ColorIndex": 597,
+    "AssociateId": 572,
+    "ColorIndex": 252,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 576,
-    "PriorityName": "Davis Group",
+    "PriorityId": 720,
+    "PriorityName": "Zulauf LLC",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2000-01-02T03:51:26.5375163+01:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2018-09-01T16:00:40.0394546+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-06-08T03:51:26.5375163+02:00",
-    "RecurringEndDate": "2003-06-19T03:51:26.5375163+02:00",
-    "MotherId": 744,
-    "AssignedBy": 259,
-    "AssignedByFullName": "Mason Smith",
+    "RecurringStartDate": "2012-11-16T16:00:40.0394546+01:00",
+    "RecurringEndDate": "1999-10-10T16:00:40.0394546+02:00",
+    "MotherId": 797,
+    "AssignedBy": 692,
+    "AssignedByFullName": "Nico Wilderman I",
     "RejectReason": "",
-    "Location": "id",
-    "AlarmLeadTime": "consectetur",
-    "SaleId": 457,
-    "SaleName": "Skiles-Parker",
-    "AssociateName": "Rodriguez-Eichmann",
-    "CreatedDate": "2007-01-27T03:51:26.5375163+01:00",
-    "CreatedBy": "velit",
-    "CreatedByFullName": "Mr. Larue Josue Dibbert II",
-    "CreatedByAssociateId": 83,
+    "Location": "assumenda",
+    "AlarmLeadTime": "eos",
+    "SaleId": 207,
+    "SaleName": "Nienow, Thiel and Fahey",
+    "AssociateName": "White, Breitenberg and Johnston",
+    "CreatedDate": "2008-10-21T16:00:40.0394546+02:00",
+    "CreatedBy": "itaque",
+    "CreatedByFullName": "Mr. Breanne Dooley DDS",
+    "CreatedByAssociateId": 98,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "commodi",
+    "Agenda": "pariatur",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 453
       }
     }
   }

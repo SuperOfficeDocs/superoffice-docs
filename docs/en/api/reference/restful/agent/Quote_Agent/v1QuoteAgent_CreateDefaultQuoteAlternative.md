@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CreateDefaultQuoteAlternative
 uid: v1QuoteAgent_CreateDefaultQuoteAlternative
+generated: true
 ---
 
 # POST Agents/Quote/CreateDefaultQuoteAlternative
@@ -78,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 54,
-  "ERPQuoteAlternativeKey": "nisi",
-  "QuoteVersionId": 708,
-  "Name": "Roob, Towne and Fay",
-  "Description": "Polarised disintermediate synergy",
+  "QuoteAlternativeId": 586,
+  "ERPQuoteAlternativeKey": "delectus",
+  "QuoteVersionId": 495,
+  "Name": "Lindgren, Brown and Schmeler",
+  "Description": "Centralized bottom-line initiative",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 18581.486,
-  "ERPDiscountAmount": 30691.262,
-  "DiscountPercent": 12376.166,
-  "DiscountAmount": 21571.322,
+  "ERPDiscountPercent": 17252.67,
+  "ERPDiscountAmount": 26855.246,
+  "DiscountPercent": 9599.442,
+  "DiscountAmount": 27435.036,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quis",
-  "VAT": 28030.496,
-  "EarningPercent": 6020.414,
-  "EarningAmount": 18399.714,
-  "SubTotal": 21054.212,
-  "TotalPrice": 5089.616,
-  "ExtraField1": "tempora",
-  "ExtraField2": "totam",
-  "ExtraField3": "repellat",
-  "ExtraField4": "beatae",
-  "ExtraField5": "et",
+  "VATInfo": "et",
+  "VAT": 23727.514,
+  "EarningPercent": 24711.59,
+  "EarningAmount": 8380.3159999999989,
+  "SubTotal": 7637.558,
+  "TotalPrice": 25419.874,
+  "ExtraField1": "doloribus",
+  "ExtraField2": "consectetur",
+  "ExtraField3": "sed",
+  "ExtraField4": "laudantium",
+  "ExtraField5": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldLength": 938
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProjectType/Items/{id}/UserGroups
 uid: v1ProjectTypeList_PutProjectTypeUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/ProjectType/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 154,
-    "Name": "Jacobson, Bartell and Kerluke",
-    "ToolTip": "Aut sint dolores ut ut qui et.",
+    "Id": 64,
+    "Name": "Hammes-Kulas",
+    "ToolTip": "Fuga unde at totam rerum voluptatum.",
     "Deleted": false,
-    "Rank": 617,
-    "Type": "et",
-    "ColorBlock": 284,
-    "IconHint": "ipsa",
+    "Rank": 475,
+    "Type": "repellat",
+    "ColorBlock": 829,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2015-05-04T03:51:34.8489374+02:00",
+    "LastChanged": "2018-04-28T16:00:49.211436+02:00",
     "ChildItems": [
       {
-        "Id": 862,
-        "Name": "Nader-Ryan",
-        "ToolTip": "Illo beatae asperiores est nesciunt quis libero.",
-        "Deleted": false,
-        "Rank": 514,
-        "Type": "iusto",
-        "ColorBlock": 861,
-        "IconHint": "dignissimos",
-        "Selected": true,
-        "LastChanged": "2007-09-18T03:51:34.8489374+02:00",
+        "Id": 849,
+        "Name": "Armstrong, Conn and Dare",
+        "ToolTip": "Explicabo deleniti modi est blanditiis distinctio consectetur.",
+        "Deleted": true,
+        "Rank": 943,
+        "Type": "vero",
+        "ColorBlock": 267,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2010-05-26T16:00:49.211436+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "vitae",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Felicity Cruickshank"
+        "FullName": "Eldon Schowalter"
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "aliquam",
-    "Hidden": true,
-    "FullName": "Willow Kuhn"
+    "ExtraInfo": "nostrum",
+    "StyleHint": "excepturi",
+    "Hidden": false,
+    "FullName": "Justen Trantow"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Huel, Cassin and Gutmann",
-    "ToolTip": "Est ab dignissimos temporibus eum aut.",
-    "Deleted": true,
-    "Rank": 936,
-    "Type": "dolorem",
-    "ColorBlock": 255,
-    "IconHint": "sapiente",
+    "Id": 262,
+    "Name": "Kuvalis, Fahey and Pagac",
+    "ToolTip": "Molestias consequatur facilis.",
+    "Deleted": false,
+    "Rank": 875,
+    "Type": "omnis",
+    "ColorBlock": 425,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2010-01-23T03:51:34.8489374+01:00",
+    "LastChanged": "2019-03-21T16:00:49.211436+01:00",
     "ChildItems": [
       {
-        "Id": 630,
-        "Name": "Ledner LLC",
-        "ToolTip": "Sequi velit.",
-        "Deleted": false,
-        "Rank": 93,
-        "Type": "asperiores",
-        "ColorBlock": 851,
-        "IconHint": "et",
+        "Id": 320,
+        "Name": "Jacobson, Wuckert and Stamm",
+        "ToolTip": "Consequuntur libero dolorem.",
+        "Deleted": true,
+        "Rank": 102,
+        "Type": "porro",
+        "ColorBlock": 484,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "2007-09-01T03:51:34.8489374+02:00",
+        "LastChanged": "2022-12-24T16:00:49.211436+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "et",
+        "ExtraInfo": "velit",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Ms. Pearline Ron Kertzmann I",
+        "FullName": "Al Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 172
+            "FieldLength": 365
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "nulla",
-    "Hidden": true,
-    "FullName": "Adrian Walker",
+    "ExtraInfo": "iusto",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Miss Reba Wilton Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 358
+        "FieldType": "System.String",
+        "FieldLength": 235
       }
     }
   }

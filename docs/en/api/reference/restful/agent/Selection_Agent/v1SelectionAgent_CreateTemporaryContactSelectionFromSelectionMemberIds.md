@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 uid: v1SelectionAgent_CreateTemporaryContactSelectionFromSelectionMemberIds
+generated: true
 ---
 
 # POST Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
@@ -113,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 521,
+  "SelectionId": 315,
   "SelectionMemberIds": [
-    94,
-    549
+    26,
+    375
   ]
 }
 ```
@@ -132,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless uniform customer loyalty",
-  "Postit": "explicabo",
+  "Description": "Adaptive full-range core",
+  "Postit": "nihil",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 429,
-  "IncludePerson": 507,
-  "MemberCount": 325,
-  "Name": "Braun, Reinger and Kassulke",
-  "PostitTextId": 758,
-  "CreatedDate": "1996-04-06T03:51:28.1777523+02:00",
-  "SelectionId": 203,
-  "SoundEx": "maiores",
-  "Source": 771,
-  "TextId": 931,
-  "UpdatedDate": "2008-09-27T03:51:28.1777523+02:00",
-  "UpdatedCount": 47,
-  "Visibility": 128,
+  "GroupIdx": 162,
+  "IncludePerson": 899,
+  "MemberCount": 694,
+  "Name": "Keeling, Johnson and Quitzon",
+  "PostitTextId": 874,
+  "CreatedDate": "2011-08-10T16:00:41.8519261+02:00",
+  "SelectionId": 840,
+  "SoundEx": "temporibus",
+  "Source": 739,
+  "TextId": 222,
+  "UpdatedDate": "2011-03-28T16:00:41.8519261+02:00",
+  "UpdatedCount": 245,
+  "Visibility": 615,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 860,
-  "TargetTableName": "Hayes, Aufderhar and Balistreri",
+  "TargetTableNumber": 78,
+  "TargetTableName": "Conroy Group",
   "Completed": false,
-  "LeftSelectionId": 616,
-  "RightSelectionId": 201,
+  "LeftSelectionId": 679,
+  "RightSelectionId": 628,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Zemlak Group",
-  "ShadowProviderName": "Thiel-Legros",
-  "ChartKey": "aut",
-  "LastLoaded": "2016-11-24T03:51:28.1777523+01:00",
-  "LastLoadedBy": 39,
+  "MainProviderName": "Ward, Predovic and Schuster",
+  "ShadowProviderName": "Kling-Rowe",
+  "ChartKey": "dolore",
+  "LastLoaded": "2006-04-25T16:00:41.8519261+02:00",
+  "LastLoadedBy": 384,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-01-17T03:51:28.1777523+01:00",
-  "LastMembershipChangeBy": 515,
+  "LastMembershipChange": "1996-08-02T16:00:41.8519261+02:00",
+  "LastMembershipChangeBy": 308,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eius",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Mayer, Torphy and Bechtelar",
-  "DashboardTileDefinitionId": 478,
+  "MainHeading": "et",
+  "MemberTabHeading": "non",
+  "MailingsProviderName": "Parker, Effertz and Will",
+  "DashboardTileDefinitionId": 184,
   "VisibleFor": [
     {
-      "VisibleId": 735,
+      "VisibleId": 2,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 515
+          "FieldType": "System.Int32",
+          "FieldLength": 397
         }
       }
     },
     {
-      "VisibleId": 735,
+      "VisibleId": 2,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 515
+          "FieldType": "System.Int32",
+          "FieldLength": 397
         }
       }
     }
@@ -204,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldType": "System.String",
+      "FieldLength": 362
     }
   }
 }

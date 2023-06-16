@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetConsentPurposes
 uid: v1ListAgent_GetConsentPurposes
+generated: true
 ---
 
 # POST Agents/List/GetConsentPurposes
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 132,
-    "Name": "Bednar LLC",
-    "ConsentText": "asperiores",
-    "FormText": "possimus",
-    "Key": "delectus",
-    "Tooltip": "nobis",
-    "Active": 596,
-    "UpdatedDate": "2009-03-11T03:51:27.5060342+01:00",
+    "ConsentPurposeId": 493,
+    "Name": "Abbott LLC",
+    "ConsentText": "nihil",
+    "FormText": "dolorem",
+    "Key": "consequuntur",
+    "Tooltip": "amet",
+    "Active": 504,
+    "UpdatedDate": "2000-07-08T16:00:41.2580675+02:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 817,
-    "PrivacyStatementDesc": "cum",
+    "Rank": 900,
+    "PrivacyStatementDesc": "totam",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 956
+        "FieldLength": 451
       }
     }
   }

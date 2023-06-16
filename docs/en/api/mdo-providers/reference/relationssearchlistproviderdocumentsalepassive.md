@@ -1,17 +1,12 @@
 ---
 uid: relationssearchlistproviderdocumentsalepassive
 title: relationssearchlistproviderdocumentsalepassive
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "relationssearchlistproviderdocumentsalepassive"
+keywords: mdoprovider mdo provider relationssearchlistproviderdocumentsalepassive
+description: Serve the active and passive texts of relations, with a given table as source (active)
+or destination (passive).
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "relationssearchlistproviderdocumentsalepassive" MDO List

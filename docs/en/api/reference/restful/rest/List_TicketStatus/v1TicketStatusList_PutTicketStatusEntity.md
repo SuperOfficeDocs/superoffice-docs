@@ -1,6 +1,7 @@
 ---
 title: PUT List/TicketStatus/Items/{id}
 uid: v1TicketStatusList_PutTicketStatusEntity
+generated: true
 ---
 
 # PUT List/TicketStatus/Items/{id}
@@ -81,17 +82,17 @@ OK
 PUT /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 865,
-  "Name": "Ferry-Hudson",
+  "TicketStatusId": 890,
+  "Name": "Schneider Group",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": false
+  "IsDefault": false,
+  "UsedInQueue": true
 }
 ```
 
@@ -102,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 129,
-  "Name": "Weimann, Jewess and Crona",
+  "TicketStatusId": 812,
+  "Name": "Brown, Marvin and Kihn",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": true,
-  "UsedInQueue": false,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldLength": 503
     }
   }
 }

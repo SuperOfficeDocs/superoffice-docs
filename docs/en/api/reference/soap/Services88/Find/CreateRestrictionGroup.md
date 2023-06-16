@@ -1,6 +1,6 @@
 ---
 title: Services88.FindAgent.CreateRestrictionGroup SOAP
-generated: 1
+generated: true
 uid: Services88-Find-CreateRestrictionGroup
 ---
 

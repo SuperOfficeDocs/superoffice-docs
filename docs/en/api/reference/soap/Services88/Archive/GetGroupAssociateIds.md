@@ -1,6 +1,6 @@
 ---
 title: Services88.ArchiveAgent.GetGroupAssociateIds SOAP
-generated: 1
+generated: true
 uid: Services88-Archive-GetGroupAssociateIds
 ---
 

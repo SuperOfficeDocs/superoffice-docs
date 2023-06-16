@@ -1,17 +1,11 @@
 ---
 uid: ticketpriority
 title: ticketpriority
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "ticketpriority"
+keywords: mdoprovider mdo provider ticketpriority
+description: MDO list provider for ticket priorities.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ticketpriority" MDO List

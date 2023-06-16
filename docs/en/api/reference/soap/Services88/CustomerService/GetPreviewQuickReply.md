@@ -1,6 +1,6 @@
 ---
 title: Services88.CustomerServiceAgent.GetPreviewQuickReply SOAP
-generated: 1
+generated: true
 uid: Services88-CustomerService-GetPreviewQuickReply
 ---
 
@@ -65,7 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <CustomerService:Response xsi:type="CustomerService:PreviewQuickReply">
     <CustomerService:Name xsi:type="xsd:string"></CustomerService:Name>
     <CustomerService:UpdatedByFullName xsi:type="xsd:string"></CustomerService:UpdatedByFullName>
-    <CustomerService:Updated xsi:type="xsd:dateTime">2023-05-25T11:08:43Z</CustomerService:Updated>
+    <CustomerService:Updated xsi:type="xsd:dateTime">2023-06-09T13:58:44Z</CustomerService:Updated>
     <CustomerService:HtmlBody xsi:type="xsd:string"></CustomerService:HtmlBody>
    </CustomerService:Response>
   </CustomerService:GetPreviewQuickReplyResponse>

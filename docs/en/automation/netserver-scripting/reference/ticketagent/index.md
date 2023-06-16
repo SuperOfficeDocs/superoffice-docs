@@ -3,13 +3,9 @@ uid: ticketagent-script-events
 title: TicketAgent script event methods
 description: NetServer script event methods.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 
 # TicketAgent method listing
@@ -22,6 +18,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>T
 * [CalculateMessageRecipients](calculatemessagerecipients.md)
 * [ClearNotify](clearnotify.md)
 * [CopyFromCRMDocument](copyfromcrmdocument.md)
+* [CopyToTempFile](copytotempfile.md)
 * [CreateDefaultAttachmentEntity](createdefaultattachmententity.md)
 * [CreateDefaultTicketEntity](createdefaultticketentity.md)
 * [CreateDefaultTicketMessageEntity](createdefaultticketmessageentity.md)

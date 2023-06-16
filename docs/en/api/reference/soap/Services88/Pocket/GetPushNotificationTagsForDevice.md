@@ -1,6 +1,6 @@
 ---
 title: Services88.PocketAgent.GetPushNotificationTagsForDevice SOAP
-generated: 1
+generated: true
 uid: Services88-Pocket-GetPushNotificationTagsForDevice
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryTerm/MDOItems
 uid: v1DeliveryTermsList_GetMDOList
+generated: true
 ---
 
 # GET List/DeliveryTerm/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=id
+GET /api/v1/List/DeliveryTerm/MDOItems?query=distinctio
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Name": "Koss-Volkman",
-    "ToolTip": "Enim eaque vel.",
-    "Deleted": false,
-    "Rank": 462,
-    "Type": "accusantium",
+    "Id": 976,
+    "Name": "Wolf LLC",
+    "ToolTip": "Enim vitae.",
+    "Deleted": true,
+    "Rank": 541,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Fahey, Gutkowski and Fisher",
-        "ToolTip": "Eos nihil.",
+        "Id": 291,
+        "Name": "Walker, McCullough and McKenzie",
+        "ToolTip": "Harum atque possimus.",
         "Deleted": false,
-        "Rank": 128,
-        "Type": "sint",
+        "Rank": 391,
+        "Type": "nam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 276,
-        "ExtraInfo": "asperiores",
-        "StyleHint": "aut",
-        "FullName": "Stephen Greenfelder",
+        "IconHint": "ab",
+        "ColorBlock": 423,
+        "ExtraInfo": "vel",
+        "StyleHint": "nam",
+        "FullName": "Olin Schmidt I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 621
+            "FieldLength": 578
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 808,
-    "ExtraInfo": "corrupti",
-    "StyleHint": "voluptates",
-    "FullName": "Leora Huel I",
+    "IconHint": "placeat",
+    "ColorBlock": 348,
+    "ExtraInfo": "sit",
+    "StyleHint": "et",
+    "FullName": "Mrs. Ines Chad McGlynn Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldType": "System.String",
+        "FieldLength": 939
       }
     }
   }

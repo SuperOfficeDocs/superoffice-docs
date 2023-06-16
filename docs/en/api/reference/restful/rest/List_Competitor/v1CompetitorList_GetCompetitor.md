@@ -1,6 +1,7 @@
 ---
 title: GET List/Competitor/Items/{id}
 uid: v1CompetitorList_GetCompetitor
+generated: true
 ---
 
 # GET List/Competitor/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 707,
-  "Name": "Jaskolski, Rempel and Russel",
-  "Tooltip": "accusamus",
+  "Id": 551,
+  "Name": "Bartoletti Group",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 218,
-  "Rank": 312,
+  "UdListDefinitionId": 209,
+  "Rank": 656,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 434
     }
   }
 }

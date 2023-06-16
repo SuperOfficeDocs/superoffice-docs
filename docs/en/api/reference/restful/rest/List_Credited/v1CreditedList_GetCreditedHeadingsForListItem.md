@@ -1,6 +1,7 @@
 ---
 title: GET List/Credited/Items/{id}/Headings
 uid: v1CreditedList_GetCreditedHeadingsForListItem
+generated: true
 ---
 
 # GET List/Credited/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Boyle Group",
-    "ToolTip": "Quo repellendus optio non.",
-    "Deleted": true,
-    "Rank": 293,
-    "Type": "facilis",
-    "ColorBlock": 886,
-    "IconHint": "sint",
+    "Id": 394,
+    "Name": "Hyatt, Schaden and Tromp",
+    "ToolTip": "Nobis odit veritatis dolorem quia accusamus.",
+    "Deleted": false,
+    "Rank": 548,
+    "Type": "mollitia",
+    "ColorBlock": 702,
+    "IconHint": "commodi",
     "Selected": false,
-    "LastChanged": "2004-06-06T03:51:34.6458549+02:00",
+    "LastChanged": "1998-06-18T16:00:48.9770869+02:00",
     "ChildItems": [
       {
-        "Id": 292,
-        "Name": "Bins-Altenwerth",
-        "ToolTip": "Ullam voluptas nam et adipisci perferendis quod.",
-        "Deleted": true,
-        "Rank": 494,
-        "Type": "est",
-        "ColorBlock": 598,
-        "IconHint": "non",
+        "Id": 195,
+        "Name": "Hintz-Jenkins",
+        "ToolTip": "Explicabo id suscipit odio quae similique velit.",
+        "Deleted": false,
+        "Rank": 171,
+        "Type": "eaque",
+        "ColorBlock": 440,
+        "IconHint": "magnam",
         "Selected": false,
-        "LastChanged": "2012-03-20T03:51:34.6458549+01:00",
+        "LastChanged": "2013-01-16T16:00:48.9770869+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "aut",
+        "ExtraInfo": "hic",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Clarissa Conroy",
+        "FullName": "Ms. Landen Darrin Gleichner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 565
+            "FieldLength": 990
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Dr. Efren Icie Hermiston DDS",
+    "ExtraInfo": "ea",
+    "StyleHint": "nihil",
+    "Hidden": true,
+    "FullName": "Mary Sauer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 569
       }
     }
   }

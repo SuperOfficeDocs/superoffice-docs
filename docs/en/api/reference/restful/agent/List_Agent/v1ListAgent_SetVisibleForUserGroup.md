@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetVisibleForUserGroup
 uid: v1ListAgent_SetVisibleForUserGroup
+generated: true
 ---
 
 # POST Agents/List/SetVisibleForUserGroup
@@ -66,15 +67,15 @@ No Content
 POST /api/v1/Agents/List/SetVisibleForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 586,
-  "ListItemId": 311,
+  "UdListDefinitionId": 78,
+  "ListItemId": 412,
   "UserGroupId": [
-    984,
-    449
+    805,
+    362
   ],
   "Enable": true
 }

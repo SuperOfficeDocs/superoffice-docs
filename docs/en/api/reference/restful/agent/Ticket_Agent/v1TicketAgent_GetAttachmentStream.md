@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/GetAttachmentStream
 uid: v1TicketAgent_GetAttachmentStream
+generated: true
 ---
 
 # POST Agents/Ticket/GetAttachmentStream
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 394
+  "AttachmentId": 641
 }
 ```
 

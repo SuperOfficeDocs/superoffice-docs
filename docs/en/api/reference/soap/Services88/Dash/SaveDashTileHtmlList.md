@@ -1,6 +1,6 @@
 ---
 title: Services88.DashAgent.SaveDashTileHtmlList SOAP
-generated: 1
+generated: true
 uid: Services88-Dash-SaveDashTileHtmlList
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/AddFromListName
 uid: v1ListAgent_AddFromListName
+generated: true
 ---
 
 # POST Agents/List/AddFromListName
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Rutherford, Paucek and Marquardt",
+  "UdListDefinitionName": "Cremin-Lynch",
   "Item": null
 }
 ```
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 159,
-  "Name": "Hackett-Volkman",
-  "Tooltip": "fugit",
+  "Id": 166,
+  "Name": "Waelchi, Kovacek and Hudson",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "UdListDefinitionId": 930,
-  "Rank": 876,
+  "UdListDefinitionId": 466,
+  "Rank": 903,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   }
 }

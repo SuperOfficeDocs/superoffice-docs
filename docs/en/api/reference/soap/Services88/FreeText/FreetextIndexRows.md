@@ -1,6 +1,6 @@
 ---
 title: Services88.FreeTextAgent.FreetextIndexRows SOAP
-generated: 1
+generated: true
 uid: Services88-FreeText-FreetextIndexRows
 ---
 

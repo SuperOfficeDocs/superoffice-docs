@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryType/Items/Default
 uid: v1DeliveryTypeList_CreateDefaultDeliveryType
+generated: true
 ---
 
 # GET List/DeliveryType/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 900,
-  "Name": "Runte, Medhurst and Weissnat",
-  "Tooltip": "esse",
+  "Id": 304,
+  "Name": "O'Hara LLC",
+  "Tooltip": "est",
   "Deleted": true,
-  "UdListDefinitionId": 740,
-  "Rank": 933,
+  "UdListDefinitionId": 651,
+  "Rank": 535,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldLength": 475
     }
   }
 }

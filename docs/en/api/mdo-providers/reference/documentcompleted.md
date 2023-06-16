@@ -1,17 +1,11 @@
 ---
 uid: documentcompleted
 title: documentcompleted
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "documentcompleted"
+keywords: mdoprovider mdo provider documentcompleted
+description: Document completed status list: Not done, Done.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "documentcompleted" MDO List

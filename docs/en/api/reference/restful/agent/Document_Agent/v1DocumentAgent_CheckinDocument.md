@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/CheckinDocument
 uid: v1DocumentAgent_CheckinDocument
+generated: true
 ---
 
 # POST Agents/Document/CheckinDocument
@@ -82,15 +83,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 771,
+  "DocumentId": 640,
   "AllowedReturnTypes": [
-    "est",
-    "nihil"
+    "quas",
+    "perspiciatis"
   ],
-  "VersionDescription": "Focused system-worthy artificial intelligence",
+  "VersionDescription": "Distributed real-time complexity",
   "VersionExtraFields": [
-    "rem",
-    "aliquam"
+    "suscipit",
+    "aliquid"
   ]
 }
 ```
@@ -102,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "praesentium",
-  "VersionId": "suscipit",
+  "ExternalReference": "omnis",
+  "VersionId": "sunt",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "dicta",
-  "AdditionalInfo": "est"
+  "Value": "aut",
+  "AdditionalInfo": "enim"
 }
 ```

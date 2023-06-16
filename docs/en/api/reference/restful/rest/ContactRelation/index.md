@@ -1,5 +1,6 @@
 ---
 title: ContactRelation
+generated: true
 ---
 
 ```http

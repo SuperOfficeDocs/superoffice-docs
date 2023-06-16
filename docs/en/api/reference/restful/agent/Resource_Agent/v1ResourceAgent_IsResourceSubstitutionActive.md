@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Resource/IsResourceSubstitutionActive
 uid: v1ResourceAgent_IsResourceSubstitutionActive
+generated: true
 ---
 
 # POST Agents/Resource/IsResourceSubstitutionActive
@@ -76,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Auer, Spencer and Torphy",
-    "Veum, Bogisich and Eichmann"
+    "Cruickshank-Johns",
+    "Kuvalis-Lebsack"
   ],
-  "Culture": "et"
+  "Culture": "dolor"
 }
 ```
 
@@ -96,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Trantow-O'Hara",
-    "ResourceValue": "vel",
-    "Culture": "ducimus",
-    "IsActive": true,
+    "ResourceName": "Ratke, Rippin and Considine",
+    "ResourceValue": "pariatur",
+    "Culture": "id",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldType": "System.String",
+        "FieldLength": 140
       }
     }
   },
   {
-    "ResourceName": "Trantow-O'Hara",
-    "ResourceValue": "vel",
-    "Culture": "ducimus",
-    "IsActive": true,
+    "ResourceName": "Ratke, Rippin and Considine",
+    "ResourceValue": "pariatur",
+    "Culture": "id",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldType": "System.String",
+        "FieldLength": 140
       }
     }
   }

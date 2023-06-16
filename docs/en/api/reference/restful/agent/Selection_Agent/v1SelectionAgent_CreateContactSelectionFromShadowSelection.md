@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateContactSelectionFromShadowSelection
 uid: v1SelectionAgent_CreateContactSelectionFromShadowSelection
+generated: true
 ---
 
 # POST Agents/Selection/CreateContactSelectionFromShadowSelection
@@ -115,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 784,
-  "Name": "Mohr Inc and Sons"
+  "SelectionId": 739,
+  "Name": "Mills-Terry"
 }
 ```
 
@@ -131,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Intuitive static Graphical User Interface",
-  "Postit": "consequatur",
+  "Description": "Configurable next generation flexibility",
+  "Postit": "laudantium",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 195,
-  "IncludePerson": 197,
-  "MemberCount": 928,
-  "Name": "Beatty, Blanda and Kovacek",
-  "PostitTextId": 24,
-  "CreatedDate": "2015-09-11T03:51:28.1933756+02:00",
-  "SelectionId": 51,
-  "SoundEx": "ut",
-  "Source": 835,
-  "TextId": 875,
-  "UpdatedDate": "2007-09-07T03:51:28.1933756+02:00",
-  "UpdatedCount": 535,
-  "Visibility": 117,
+  "GroupIdx": 908,
+  "IncludePerson": 790,
+  "MemberCount": 506,
+  "Name": "Torphy, Beatty and Stoltenberg",
+  "PostitTextId": 874,
+  "CreatedDate": "2001-08-08T16:00:41.8675477+02:00",
+  "SelectionId": 619,
+  "SoundEx": "neque",
+  "Source": 134,
+  "TextId": 853,
+  "UpdatedDate": "2012-11-04T16:00:41.8675477+01:00",
+  "UpdatedCount": 57,
+  "Visibility": 333,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 331,
-  "TargetTableName": "Mills-Becker",
+  "TargetTableNumber": 940,
+  "TargetTableName": "Stoltenberg-Jerde",
   "Completed": false,
-  "LeftSelectionId": 359,
-  "RightSelectionId": 206,
+  "LeftSelectionId": 493,
+  "RightSelectionId": 671,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Swaniawski, Purdy and Leannon",
-  "ShadowProviderName": "Cummings LLC",
-  "ChartKey": "omnis",
-  "LastLoaded": "2000-04-25T03:51:28.1933756+02:00",
-  "LastLoadedBy": 700,
+  "MainProviderName": "Hartmann, Purdy and Brown",
+  "ShadowProviderName": "Towne-Swaniawski",
+  "ChartKey": "adipisci",
+  "LastLoaded": "2011-06-22T16:00:41.8675477+02:00",
+  "LastLoadedBy": 148,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-10-13T03:51:28.1933756+02:00",
-  "LastMembershipChangeBy": 618,
+  "LastMembershipChange": "2004-03-09T16:00:41.8675477+01:00",
+  "LastMembershipChangeBy": 996,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "debitis",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Rodriguez LLC",
-  "DashboardTileDefinitionId": 630,
+  "MainHeading": "et",
+  "MemberTabHeading": "quam",
+  "MailingsProviderName": "Friesen-Altenwerth",
+  "DashboardTileDefinitionId": 51,
   "VisibleFor": [
     {
-      "VisibleId": 402,
+      "VisibleId": 961,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldLength": 627
         }
       }
     },
     {
-      "VisibleId": 402,
+      "VisibleId": 961,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldLength": 627
         }
       }
     }
@@ -204,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 95
     }
   }
 }

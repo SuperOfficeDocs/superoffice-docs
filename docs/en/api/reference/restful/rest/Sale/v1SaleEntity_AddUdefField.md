@@ -1,6 +1,7 @@
 ---
 title: POST Sale/UdefLayout
 uid: v1SaleEntity_AddUdefField
+generated: true
 ---
 
 # POST Sale/UdefLayout
@@ -97,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 106,
-  "ColumnId": 186,
-  "FieldDefault": "doloribus",
-  "FieldHeight": 264,
-  "FieldLabel": "sint",
-  "FieldLeft": 621,
-  "FieldTop": 201,
+  "UDefFieldId": 427,
+  "ColumnId": 613,
+  "FieldDefault": "nam",
+  "FieldHeight": 708,
+  "FieldLabel": "ullam",
+  "FieldLeft": 663,
+  "FieldTop": 621,
   "FieldType": "Checkbox",
-  "FieldWidth": 265,
-  "FormatMask": "officiis",
+  "FieldWidth": 142,
+  "FormatMask": "neque",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 488,
-  "LabelLeft": 745,
-  "LabelTop": 427,
-  "LabelWidth": 484,
-  "LastVersionId": 780,
-  "ListTableId": 119,
+  "IsIndexed": false,
+  "LabelHeight": 747,
+  "LabelLeft": 919,
+  "LabelTop": 260,
+  "LabelWidth": 486,
+  "LastVersionId": 755,
+  "ListTableId": 372,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 149,
-  "ProgId": "repellat",
-  "IsReadOnly": true,
-  "ShortLabel": "iure",
-  "TabOrder": 87,
-  "TextLength": 347,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 908,
-  "UDListDefinitionId": 604,
+  "Page1LineNo": 227,
+  "ProgId": "recusandae",
+  "IsReadOnly": false,
+  "ShortLabel": "ut",
+  "TabOrder": 448,
+  "TextLength": 136,
+  "Tooltip": "et",
+  "UdefIdentity": 893,
+  "UDListDefinitionId": 744,
   "Justification": "Center",
-  "Version": 762,
-  "TemplateVariableName": "O'Connell-Robel",
-  "HasBeenPublished": true,
-  "MdoListName": "Altenwerth-Abernathy",
+  "Version": 849,
+  "TemplateVariableName": "Schroeder, D'Amore and Goyette",
+  "HasBeenPublished": false,
+  "MdoListName": "Wunsch LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 341
     }
   }
 }

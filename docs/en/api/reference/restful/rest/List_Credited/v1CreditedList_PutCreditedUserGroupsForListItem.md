@@ -1,6 +1,7 @@
 ---
 title: PUT List/Credited/Items/{id}/UserGroups
 uid: v1CreditedList_PutCreditedUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/Credited/Items/{id}/UserGroups
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Lesch, Johnston and Koss",
-    "ToolTip": "Nisi omnis consequatur quaerat officiis iste tenetur.",
+    "Id": 740,
+    "Name": "Stamm-Wisoky",
+    "ToolTip": "Enim ipsum aliquid.",
     "Deleted": false,
-    "Rank": 649,
-    "Type": "ut",
-    "ColorBlock": 918,
-    "IconHint": "natus",
+    "Rank": 226,
+    "Type": "eum",
+    "ColorBlock": 715,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2000-03-10T03:51:34.6458549+01:00",
+    "LastChanged": "2003-01-21T16:00:48.9614655+01:00",
     "ChildItems": [
       {
-        "Id": 502,
-        "Name": "Durgan-Hyatt",
-        "ToolTip": "Iste dolorem.",
-        "Deleted": false,
-        "Rank": 365,
-        "Type": "eum",
-        "ColorBlock": 117,
-        "IconHint": "aliquam",
+        "Id": 191,
+        "Name": "Nitzsche, Durgan and Hermiston",
+        "ToolTip": "Neque natus dignissimos id.",
+        "Deleted": true,
+        "Rank": 194,
+        "Type": "dolores",
+        "ColorBlock": 198,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "2019-07-15T03:51:34.6458549+02:00",
+        "LastChanged": "2002-05-27T16:00:48.9614655+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
+        "ExtraInfo": "omnis",
         "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Omer Feest"
+        "Hidden": true,
+        "FullName": "Donnell Doyle"
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "dolore",
-    "Hidden": true,
-    "FullName": "Ms. Grover Erin Franecki MD"
+    "ExtraInfo": "omnis",
+    "StyleHint": "voluptatibus",
+    "Hidden": false,
+    "FullName": "Giovanni Bergstrom"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 959,
-    "Name": "Walsh Inc and Sons",
-    "ToolTip": "Aut dolor mollitia.",
+    "Id": 383,
+    "Name": "Pacocha Inc and Sons",
+    "ToolTip": "Dolorem nulla.",
     "Deleted": false,
-    "Rank": 334,
-    "Type": "voluptate",
-    "ColorBlock": 506,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2022-05-15T03:51:34.6458549+02:00",
+    "Rank": 186,
+    "Type": "sit",
+    "ColorBlock": 95,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "1997-02-24T16:00:48.9770869+01:00",
     "ChildItems": [
       {
-        "Id": 289,
-        "Name": "Marvin, Adams and Kirlin",
-        "ToolTip": "Quas ratione consequatur quia modi.",
-        "Deleted": false,
-        "Rank": 426,
-        "Type": "ducimus",
-        "ColorBlock": 213,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2016-02-09T03:51:34.6458549+01:00",
+        "Id": 505,
+        "Name": "Pollich Inc and Sons",
+        "ToolTip": "Ut molestiae doloribus est.",
+        "Deleted": true,
+        "Rank": 715,
+        "Type": "qui",
+        "ColorBlock": 615,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2015-08-01T16:00:48.9770869+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "libero",
-        "Hidden": false,
-        "FullName": "Ibrahim Marks",
+        "ExtraInfo": "et",
+        "StyleHint": "eligendi",
+        "Hidden": true,
+        "FullName": "Ms. Marjory Kertzmann IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 488
+            "FieldType": "System.Int32",
+            "FieldLength": 877
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "tenetur",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Samson Runolfsdottir",
+    "FullName": "Ms. Dario Hoppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldType": "System.String",
+        "FieldLength": 966
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetListItemsForHeading
 uid: v1ListAgent_SetListItemsForHeading
+generated: true
 ---
 
 # POST Agents/List/SetListItemsForHeading
@@ -66,15 +67,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 785,
-  "HeadingId": 61,
+  "UdListDefinitionId": 844,
+  "HeadingId": 975,
   "ListItemIds": [
-    815,
-    259
+    983,
+    263
   ],
   "Enable": false
 }

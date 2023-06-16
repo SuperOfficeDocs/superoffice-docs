@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuoteVersions
 uid: v1QuoteAgent_GetQuoteVersions
+generated: true
 ---
 
 # POST Agents/Quote/GetQuoteVersions
@@ -110,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 341
+  "QuoteId": 270
 }
 ```
 
@@ -126,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 744,
-    "ERPQuoteVersionKey": "aut",
-    "QuoteId": 726,
-    "Description": "Integrated asynchronous forecast",
-    "Number": "1392170",
+    "QuoteVersionId": 392,
+    "ERPQuoteVersionKey": "nulla",
+    "QuoteId": 339,
+    "Description": "Re-engineered 6th generation service-desk",
+    "Number": "782036",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 551,
-    "SentDate": "2022-05-12T03:51:27.9746798+02:00",
-    "FollowupId": 393,
-    "ExpirationDate": "1997-04-08T03:51:27.9746798+02:00",
-    "DeliveryCountryId": 891,
+    "LikelyQuoteAlternativeId": 122,
+    "SentDate": "2023-03-12T16:00:41.6019523+01:00",
+    "FollowupId": 802,
+    "ExpirationDate": "2002-11-09T16:00:41.6019523+01:00",
+    "DeliveryCountryId": 678,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 703,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "enim",
-    "ERPPaymentTypeKey": "quam",
-    "ERPDeliveryTermsKey": "eius",
-    "ERPDeliveryTypeKey": "itaque",
-    "Rank": 481,
-    "ApprovedBy": 854,
-    "ApprovedText": "porro",
-    "ApprovedRegisteredBy": 51,
-    "ApprovedRegisteredDate": "2021-07-30T03:51:27.9746798+02:00",
-    "ExtraField1": "est",
-    "ExtraField2": "maxime",
-    "ExtraField3": "beatae",
-    "ExtraField4": "assumenda",
-    "ExtraField5": "sit",
-    "LastRecalculated": "2020-09-30T03:51:27.9746798+02:00",
-    "Updated": "1997-11-20T03:51:27.9746798+01:00",
-    "UpdatedAssociateId": 386,
-    "Registered": "2022-07-15T03:51:27.9746798+02:00",
-    "RegisteredAssociateId": 983,
-    "RequestAssociateId": 375,
-    "RequestComment": "nostrum",
+    "InvoiceCountryId": 669,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "officia",
+    "ERPPaymentTypeKey": "iusto",
+    "ERPDeliveryTermsKey": "sint",
+    "ERPDeliveryTypeKey": "dolores",
+    "Rank": 201,
+    "ApprovedBy": 392,
+    "ApprovedText": "voluptas",
+    "ApprovedRegisteredBy": 881,
+    "ApprovedRegisteredDate": "2018-02-03T16:00:41.6019523+01:00",
+    "ExtraField1": "aut",
+    "ExtraField2": "iste",
+    "ExtraField3": "eos",
+    "ExtraField4": "quos",
+    "ExtraField5": "perspiciatis",
+    "LastRecalculated": "1998-03-31T16:00:41.6019523+02:00",
+    "Updated": "2002-05-10T16:00:41.6019523+02:00",
+    "UpdatedAssociateId": 935,
+    "Registered": "2010-05-03T16:00:41.6019523+02:00",
+    "RegisteredAssociateId": 514,
+    "RequestAssociateId": 576,
+    "RequestComment": "quis",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 849,
-        "ERPQuoteAlternativeKey": "quam",
-        "QuoteVersionId": 832,
-        "Name": "Weber, Beier and Stanton",
-        "Description": "Horizontal system-worthy moderator",
+        "QuoteAlternativeId": 672,
+        "ERPQuoteAlternativeKey": "aperiam",
+        "QuoteVersionId": 237,
+        "Name": "Auer Group",
+        "Description": "Horizontal global website",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 18587.754,
-        "ERPDiscountAmount": 16773.167999999998,
-        "DiscountPercent": 14077.928,
-        "DiscountAmount": 19882.095999999998,
+        "ERPDiscountPercent": 12727.173999999999,
+        "ERPDiscountAmount": 6308.742,
+        "DiscountPercent": 10351.601999999999,
+        "DiscountAmount": 24523.55,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "illo",
-        "VAT": 2215.738,
-        "EarningPercent": 3701.254,
-        "EarningAmount": 3713.79,
-        "SubTotal": 17500.256,
-        "TotalPrice": 12576.742,
-        "ExtraField1": "omnis",
-        "ExtraField2": "quasi",
-        "ExtraField3": "suscipit",
-        "ExtraField4": "beatae",
-        "ExtraField5": "et",
+        "VATInfo": "aut",
+        "VAT": 20045.064,
+        "EarningPercent": 19797.478,
+        "EarningAmount": 3068.1859999999997,
+        "SubTotal": 4826.36,
+        "TotalPrice": 12695.833999999999,
+        "ExtraField1": "esse",
+        "ExtraField2": "et",
+        "ExtraField3": "ab",
+        "ExtraField4": "consequatur",
+        "ExtraField5": "perferendis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 760
+            "FieldType": "System.Int32",
+            "FieldLength": 624
           }
         }
       }
@@ -204,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 133
       }
     }
   }

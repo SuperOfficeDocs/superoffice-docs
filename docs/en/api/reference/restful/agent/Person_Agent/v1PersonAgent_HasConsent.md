@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/HasConsent
 uid: v1PersonAgent_HasConsent
+generated: true
 ---
 
 # POST Agents/Person/HasConsent
@@ -74,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 853,
-  "Purpose": "eius"
+  "PersonId": 782,
+  "Purpose": "quibusdam"
 }
 ```
 

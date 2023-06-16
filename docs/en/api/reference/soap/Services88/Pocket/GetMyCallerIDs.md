@@ -1,6 +1,6 @@
 ---
 title: Services88.PocketAgent.GetMyCallerIDs SOAP
-generated: 1
+generated: true
 uid: Services88-Pocket-GetMyCallerIDs
 ---
 
@@ -40,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Pocket:GetMyCallerIDs>
     <Pocket:LastHash xsi:type="xsd:string"></Pocket:LastHash>
-    <Pocket:MinDate xsi:type="xsd:dateTime">2023-05-25T11:09:40Z</Pocket:MinDate>
-    <Pocket:MaxDate xsi:type="xsd:dateTime">2023-05-25T11:09:40Z</Pocket:MaxDate>
+    <Pocket:MinDate xsi:type="xsd:dateTime">2023-06-09T13:59:41Z</Pocket:MinDate>
+    <Pocket:MaxDate xsi:type="xsd:dateTime">2023-06-09T13:59:41Z</Pocket:MaxDate>
    </Pocket:GetMyCallerIDs>
 
  </SOAP-ENV:Body>

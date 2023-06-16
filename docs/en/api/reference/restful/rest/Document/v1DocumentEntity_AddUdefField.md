@@ -1,6 +1,7 @@
 ---
 title: POST Document/UdefLayout
 uid: v1DocumentEntity_AddUdefField
+generated: true
 ---
 
 # POST Document/UdefLayout
@@ -107,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 478,
-  "ColumnId": 510,
-  "FieldDefault": "cumque",
-  "FieldHeight": 419,
-  "FieldLabel": "quas",
-  "FieldLeft": 20,
-  "FieldTop": 764,
+  "UDefFieldId": 784,
+  "ColumnId": 74,
+  "FieldDefault": "non",
+  "FieldHeight": 425,
+  "FieldLabel": "omnis",
+  "FieldLeft": 586,
+  "FieldTop": 641,
   "FieldType": "Checkbox",
-  "FieldWidth": 622,
-  "FormatMask": "et",
+  "FieldWidth": 572,
+  "FormatMask": "dolor",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 165,
-  "LabelLeft": 879,
-  "LabelTop": 173,
-  "LabelWidth": 753,
-  "LastVersionId": 400,
-  "ListTableId": 41,
+  "IsIndexed": true,
+  "LabelHeight": 133,
+  "LabelLeft": 800,
+  "LabelTop": 445,
+  "LabelWidth": 504,
+  "LastVersionId": 631,
+  "ListTableId": 949,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 89,
-  "ProgId": "ad",
-  "IsReadOnly": false,
-  "ShortLabel": "doloremque",
-  "TabOrder": 260,
-  "TextLength": 787,
-  "Tooltip": "maiores",
-  "UdefIdentity": 122,
-  "UDListDefinitionId": 479,
+  "Page1LineNo": 316,
+  "ProgId": "molestiae",
+  "IsReadOnly": true,
+  "ShortLabel": "qui",
+  "TabOrder": 196,
+  "TextLength": 618,
+  "Tooltip": "id",
+  "UdefIdentity": 183,
+  "UDListDefinitionId": 54,
   "Justification": "Center",
-  "Version": 371,
-  "TemplateVariableName": "Grady, Wilkinson and Schuppe",
+  "Version": 178,
+  "TemplateVariableName": "West Group",
   "HasBeenPublished": false,
-  "MdoListName": "Beier, Wisoky and Murphy",
+  "MdoListName": "Ryan Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldLength": 45
     }
   }
 }

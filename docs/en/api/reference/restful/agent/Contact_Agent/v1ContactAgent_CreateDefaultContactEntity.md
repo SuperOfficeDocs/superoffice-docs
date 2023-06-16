@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/CreateDefaultContactEntity
 uid: v1ContactAgent_CreateDefaultContactEntity
+generated: true
 ---
 
 # POST Agents/Contact/CreateDefaultContactEntity
@@ -99,7 +100,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,157 +110,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 332,
-  "Name": "Shanahan-Skiles",
+  "ContactId": 215,
+  "Name": "Jenkins Group",
   "Department": "",
-  "OrgNr": "1249273",
-  "Number1": "1204747",
-  "Number2": "1148122",
-  "UpdatedDate": "2017-08-04T03:51:26.803073+02:00",
-  "CreatedDate": "1997-03-20T03:51:26.803073+01:00",
+  "OrgNr": "1363405",
+  "Number1": "405717",
+  "Number2": "1458585",
+  "UpdatedDate": "2019-10-30T16:00:40.3362702+01:00",
+  "CreatedDate": "2021-08-20T16:00:40.3362702+02:00",
   "Emails": [
     {
-      "Value": "autem",
-      "StrippedValue": "quasi",
-      "Description": "Decentralized system-worthy Graphical User Interface",
+      "Value": "ut",
+      "StrippedValue": "neque",
+      "Description": "Decentralized 24/7 open system",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 429
+          "FieldType": "System.Int32",
+          "FieldLength": 388
         }
       }
     },
     {
-      "Value": "autem",
-      "StrippedValue": "quasi",
-      "Description": "Decentralized system-worthy Graphical User Interface",
+      "Value": "ut",
+      "StrippedValue": "neque",
+      "Description": "Decentralized 24/7 open system",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 429
+          "FieldType": "System.Int32",
+          "FieldLength": 388
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 508,
-      "Name": "Turcotte, Von and Becker",
-      "ToolTip": "Quam et sit alias.",
-      "Deleted": false,
-      "Rank": 726,
-      "Type": "amet",
-      "ColorBlock": 80,
-      "IconHint": "nobis",
-      "Selected": true,
-      "LastChanged": "2004-11-05T03:51:26.803073+01:00",
+      "Id": 629,
+      "Name": "Friesen Inc and Sons",
+      "ToolTip": "Aliquam qui ullam laboriosam consequatur et dolore tenetur.",
+      "Deleted": true,
+      "Rank": 706,
+      "Type": "beatae",
+      "ColorBlock": 466,
+      "IconHint": "dicta",
+      "Selected": false,
+      "LastChanged": "1997-05-11T16:00:40.3362702+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "quia",
+      "ExtraInfo": "quaerat",
+      "StyleHint": "voluptatum",
       "Hidden": false,
-      "FullName": "Walter Quigley",
+      "FullName": "Dejah Koss II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldLength": 6
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "harum",
-      "StrippedValue": "officiis",
-      "Description": "Persevering content-based complexity",
+      "Value": "sint",
+      "StrippedValue": "earum",
+      "Description": "Synchronised didactic leverage",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldType": "System.String",
+          "FieldLength": 777
         }
       }
     },
     {
-      "Value": "harum",
-      "StrippedValue": "officiis",
-      "Description": "Persevering content-based complexity",
+      "Value": "sint",
+      "StrippedValue": "earum",
+      "Description": "Synchronised didactic leverage",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldType": "System.String",
+          "FieldLength": 777
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "odit",
-      "StrippedValue": "inventore",
-      "Description": "Reverse-engineered local leverage",
+      "Value": "porro",
+      "StrippedValue": "occaecati",
+      "Description": "Horizontal foreground toolset",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldType": "System.String",
+          "FieldLength": 449
         }
       }
     },
     {
-      "Value": "odit",
-      "StrippedValue": "inventore",
-      "Description": "Reverse-engineered local leverage",
+      "Value": "porro",
+      "StrippedValue": "occaecati",
+      "Description": "Horizontal foreground toolset",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldType": "System.String",
+          "FieldLength": 449
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "consequatur",
-      "StrippedValue": "culpa",
-      "Description": "Cross-platform value-added Graphic Interface",
+      "Value": "et",
+      "StrippedValue": "ea",
+      "Description": "Cross-group mission-critical analyzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 720
+          "FieldType": "System.Int32",
+          "FieldLength": 354
         }
       }
     },
     {
-      "Value": "consequatur",
-      "StrippedValue": "culpa",
-      "Description": "Cross-platform value-added Graphic Interface",
+      "Value": "et",
+      "StrippedValue": "ea",
+      "Description": "Cross-group mission-critical analyzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 720
+          "FieldType": "System.Int32",
+          "FieldLength": 354
         }
       }
     }
   ],
-  "Description": "Mandatory 4th generation emulation",
+  "Description": "Multi-layered client-driven synergy",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -268,100 +269,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "debitis",
-      "PersonId": 41,
-      "Mrmrs": "ut",
-      "Firstname": "Lesly",
-      "Lastname": "Daniel",
-      "MiddleName": "Roob Inc and Sons",
-      "Title": "veniam",
-      "Description": "Synchronised intangible budgetary management",
-      "Email": "alverta_kuvalis@howe.name",
-      "FullName": "Prof. Timothy Jazmin Prohaska",
-      "DirectPhone": "280-674-2461",
-      "FormalName": "Stracke, Gorczany and Donnelly",
-      "CountryId": 456,
-      "ContactId": 359,
-      "ContactName": "Braun Group",
-      "Retired": 701,
-      "Rank": 817,
-      "ActiveInterests": 898,
+      "Position": "reiciendis",
+      "PersonId": 722,
+      "Mrmrs": "aspernatur",
+      "Firstname": "Randal",
+      "Lastname": "Tromp",
+      "MiddleName": "Mosciski, Bartoletti and Adams",
+      "Title": "error",
+      "Description": "Right-sized assymetric frame",
+      "Email": "marietta@hoppe.ca",
+      "FullName": "Miss Reid Carter",
+      "DirectPhone": "675-435-5615 x79842",
+      "FormalName": "Durgan, Schmidt and Oberbrunner",
+      "CountryId": 490,
+      "ContactId": 639,
+      "ContactName": "Price-Mraz",
+      "Retired": 61,
+      "Rank": 51,
+      "ActiveInterests": 448,
       "ContactDepartment": "",
-      "ContactCountryId": 760,
-      "ContactOrgNr": "1005262",
-      "FaxPhone": "(573)349-4330",
-      "MobilePhone": "1-494-938-3240",
-      "ContactPhone": "074-982-4073",
-      "AssociateName": "Wilkinson, Wunsch and Braun",
-      "AssociateId": 468,
+      "ContactCountryId": 604,
+      "ContactOrgNr": "1671638",
+      "FaxPhone": "1-476-048-2679",
+      "MobilePhone": "209-577-8895",
+      "ContactPhone": "380-173-3156",
+      "AssociateName": "Waelchi LLC",
+      "AssociateId": 673,
       "UsePersonAddress": false,
-      "ContactFax": "dolor",
-      "Kanafname": "consectetur",
-      "Kanalname": "error",
-      "Post1": "fuga",
-      "Post2": "vel",
-      "Post3": "dolorum",
-      "EmailName": "vallie@sawayn.co.uk",
-      "ContactFullName": "Dr. Petra Alex Purdy PhD",
-      "ActiveErpLinks": 71,
-      "TicketPriorityId": 325,
-      "SupportLanguageId": 31,
-      "SupportAssociateId": 923,
+      "ContactFax": "necessitatibus",
+      "Kanafname": "voluptas",
+      "Kanalname": "placeat",
+      "Post1": "odio",
+      "Post2": "iusto",
+      "Post3": "et",
+      "EmailName": "colby@tillman.uk",
+      "ContactFullName": "Joshua Keeling",
+      "ActiveErpLinks": 435,
+      "TicketPriorityId": 396,
+      "SupportLanguageId": 899,
+      "SupportAssociateId": 296,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldLength": 336
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "consectetur",
-  "Xstop": false,
-  "ActiveInterests": 163,
-  "GroupId": 834,
-  "ActiveStatusMonitorId": 606,
+  "Kananame": "qui",
+  "Xstop": true,
+  "ActiveInterests": 624,
+  "GroupId": 361,
+  "ActiveStatusMonitorId": 62,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 789,
-  "DbiAgentId": 322,
-  "DbiLastSyncronized": "2005-06-29T03:51:26.803073+02:00",
-  "DbiKey": "vel",
-  "DbiLastModified": "2003-08-19T03:51:26.803073+02:00",
+  "Deleted": 224,
+  "DbiAgentId": 614,
+  "DbiLastSyncronized": "2012-11-17T16:00:40.3362702+01:00",
+  "DbiKey": "quae",
+  "DbiLastModified": "2012-02-26T16:00:40.3362702+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 952,
-  "ActiveErpLinks": 213,
+  "Source": 677,
+  "ActiveErpLinks": 398,
   "BounceEmails": [
-    "jillian_cummings@bailey.us",
-    "nathanial@gutmann.co.uk"
+    "raegan_connelly@vandervort.info",
+    "rosamond@grant.ca"
   ],
   "Domains": [
-    "animi",
-    "quia"
+    "soluta",
+    "rerum"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Gracie Filomena Crooks",
+    "SuperOffice:1": "Arvid Howell",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "deserunt"
+    "ExtraFields1": "cumque",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "quisquam"
+    "CustomFields1": "saepe",
+    "CustomFields2": "dolorem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldType": "System.String",
+      "FieldLength": 744
     }
   }
 }

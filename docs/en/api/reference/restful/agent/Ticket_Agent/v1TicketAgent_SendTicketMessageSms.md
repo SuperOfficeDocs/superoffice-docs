@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/SendTicketMessageSms
 uid: v1TicketAgent_SendTicketMessageSms
+generated: true
 ---
 
 # POST Agents/Ticket/SendTicketMessageSms
@@ -65,15 +66,15 @@ No Content
 POST /api/v1/Agents/Ticket/SendTicketMessageSms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 378,
-  "ReplyTemplateId": 435,
+  "TicketMessageEntityId": 159,
+  "ReplyTemplateId": 180,
   "Sms": [
-    "consequatur",
-    "ut"
+    "accusantium",
+    "est"
   ]
 }
 ```

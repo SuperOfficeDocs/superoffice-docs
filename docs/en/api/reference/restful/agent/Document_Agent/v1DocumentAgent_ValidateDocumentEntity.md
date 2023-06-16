@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/ValidateDocumentEntity
 uid: v1DocumentAgent_ValidateDocumentEntity
+generated: true
 ---
 
 # POST Agents/Document/ValidateDocumentEntity
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/Document/ValidateDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -82,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ad",
-  "2": "eaque"
+  "1": "cumque",
+  "2": "minus"
 }
 ```

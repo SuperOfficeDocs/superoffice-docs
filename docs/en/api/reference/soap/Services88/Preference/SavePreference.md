@@ -1,6 +1,6 @@
 ---
 title: Services88.PreferenceAgent.SavePreference SOAP
-generated: 1
+generated: true
 uid: Services88-Preference-SavePreference
 ---
 

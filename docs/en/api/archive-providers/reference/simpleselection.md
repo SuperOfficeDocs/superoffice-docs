@@ -2,17 +2,10 @@
 uid: SimpleSelection
 title: SimpleSelection
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SimpleSelection"
+keywords: SimpleSelection archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SimpleSelection"
@@ -87,7 +80,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSelection?$select=getAllRows,lastLoadedByFullName,selectionAssociate/contactId
+GET /api/v1/archive/SimpleSelection?$select=lastLoadedByFullName,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

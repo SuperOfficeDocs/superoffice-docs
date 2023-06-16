@@ -2,17 +2,10 @@
 uid: EmailFlowFolders
 title: EmailFlowFolders
 description: Archive of Email flow folders.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "EmailFlowFolders"
+keywords: EmailFlowFolders archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "EmailFlowFolders"
@@ -36,12 +29,13 @@ Lists all email flow folders
 |hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
 |hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
 |hierarchyParentId|int|Hierarchy ID: Foreign key to hierarchy table| x |
+|hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
 |thumbnail| *None* |Thumbnail|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowFolders?$select=hierarchyId,hierarchyFullname
+GET /api/v1/archive/EmailFlowFolders?$select=hierarchyId,hierarchyName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

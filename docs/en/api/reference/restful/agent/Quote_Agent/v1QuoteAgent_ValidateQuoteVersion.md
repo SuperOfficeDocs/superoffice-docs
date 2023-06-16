@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/ValidateQuoteVersion
 uid: v1QuoteAgent_ValidateQuoteVersion
+generated: true
 ---
 
 # POST Agents/Quote/ValidateQuoteVersion
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/Quote/ValidateQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 747,
+  "QuoteVersionId": 791,
   "Action": "Approve"
 }
 ```
@@ -99,16 +100,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "aliquid",
-  "TechExplanation": "aut",
-  "ErrorCode": "sequi",
+  "IsOk": true,
+  "UserExplanation": "ipsa",
+  "TechExplanation": "perferendis",
+  "ErrorCode": "aliquam",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
   "ChangedQuoteAlternatives": [
     {
-      "QuoteLinesHasChanged": true,
+      "QuoteLinesHasChanged": false,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
@@ -116,12 +117,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 798
+          "FieldLength": 899
         }
       }
     },
     {
-      "QuoteLinesHasChanged": true,
+      "QuoteLinesHasChanged": false,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
@@ -129,7 +130,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 798
+          "FieldLength": 899
         }
       }
     }
@@ -140,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 707
     }
   }
 }

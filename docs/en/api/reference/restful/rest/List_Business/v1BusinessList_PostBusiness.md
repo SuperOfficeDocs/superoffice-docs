@@ -1,6 +1,7 @@
 ---
 title: POST List/Business/Items
 uid: v1BusinessList_PostBusiness
+generated: true
 ---
 
 # POST List/Business/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 359,
-  "Name": "Bogisich, Cremin and Dickinson",
-  "Tooltip": "odio",
-  "Deleted": false,
-  "UdListDefinitionId": 880,
-  "Rank": 979
+  "Id": 886,
+  "Name": "Quitzon, Will and Paucek",
+  "Tooltip": "nemo",
+  "Deleted": true,
+  "UdListDefinitionId": 232,
+  "Rank": 830
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 382,
-  "Name": "Jones-Braun",
-  "Tooltip": "odio",
-  "Deleted": false,
-  "UdListDefinitionId": 834,
-  "Rank": 774,
+  "Id": 597,
+  "Name": "Hills, Abbott and Hermann",
+  "Tooltip": "inventore",
+  "Deleted": true,
+  "UdListDefinitionId": 589,
+  "Rank": 404,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldType": "System.String",
+      "FieldLength": 555
     }
   }
 }

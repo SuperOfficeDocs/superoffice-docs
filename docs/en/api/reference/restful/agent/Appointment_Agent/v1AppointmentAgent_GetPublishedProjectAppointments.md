@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetPublishedProjectAppointments
 uid: v1AppointmentAgent_GetPublishedProjectAppointments
+generated: true
 ---
 
 # POST Agents/Appointment/GetPublishedProjectAppointments
@@ -111,6 +112,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -120,11 +124,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 479
+  "ProjectId": 724
 }
 ```
 
@@ -136,61 +140,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 496,
-    "StartDate": "2016-04-04T03:51:26.1313562+02:00",
-    "EndDate": "2018-12-19T03:51:26.1313562+01:00",
+    "AppointmentId": 445,
+    "StartDate": "2009-10-09T16:00:39.6332261+02:00",
+    "EndDate": "2002-08-24T16:00:39.6332261+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aspernatur",
-    "AssociateFullName": "Prof. Lacy Kaylah Ernser II",
-    "ContactName": "Romaguera LLC",
-    "Description": "Synergistic analyzing framework",
-    "PersonFullName": "Rashawn Edison Torp PhD",
-    "PersonId": 476,
-    "ContactId": 440,
-    "ProjectId": 260,
-    "ProjectName": "Satterfield-Hills",
+    "Task": "enim",
+    "AssociateFullName": "Lola Cummings",
+    "ContactName": "Nader, Walter and Williamson",
+    "Description": "Operative interactive analyzer",
+    "PersonFullName": "Jackeline Kulas",
+    "PersonId": 11,
+    "ContactId": 742,
+    "ProjectId": 818,
+    "ProjectName": "Lebsack-Anderson",
     "IsPublished": false,
-    "AssociateId": 949,
-    "ColorIndex": 246,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 762,
+    "ColorIndex": 548,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 428,
-    "PriorityName": "Rutherford Inc and Sons",
+    "PriorityId": 936,
+    "PriorityName": "O'Reilly Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2017-07-24T03:51:26.1313562+02:00",
+    "ActiveDate": "2005-02-18T16:00:39.6332261+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-05-04T03:51:26.1313562+02:00",
-    "RecurringEndDate": "2016-04-10T03:51:26.1313562+02:00",
-    "MotherId": 645,
-    "AssignedBy": 6,
-    "AssignedByFullName": "Grady Haley",
+    "RecurringStartDate": "2007-03-04T16:00:39.6332261+01:00",
+    "RecurringEndDate": "2005-02-21T16:00:39.6332261+01:00",
+    "MotherId": 807,
+    "AssignedBy": 48,
+    "AssignedByFullName": "Emile Grant",
     "RejectReason": "",
-    "Location": "nihil",
-    "AlarmLeadTime": "asperiores",
-    "SaleId": 445,
-    "SaleName": "Franecki Group",
-    "AssociateName": "Fritsch LLC",
-    "CreatedDate": "1997-02-21T03:51:26.1313562+01:00",
-    "CreatedBy": "temporibus",
-    "CreatedByFullName": "Syble Padberg",
-    "CreatedByAssociateId": 715,
+    "Location": "aspernatur",
+    "AlarmLeadTime": "suscipit",
+    "SaleId": 680,
+    "SaleName": "Wintheiser, Bernhard and Braun",
+    "AssociateName": "Kihn-Botsford",
+    "CreatedDate": "2006-07-09T16:00:39.6332261+02:00",
+    "CreatedBy": "magnam",
+    "CreatedByFullName": "Cleveland Davis",
+    "CreatedByAssociateId": 839,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "id",
+    "Agenda": "odio",
+    "InternalNotes": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldLength": 512
       }
     }
   }

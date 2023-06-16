@@ -1,6 +1,7 @@
 ---
 title: GET List/LegalBase/Items
 uid: v1LegalBaseList_GetAllLegalBase
+generated: true
 ---
 
 # GET List/LegalBase/Items
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 612,
-    "Name": "Padberg Inc and Sons",
-    "Tooltip": "incidunt",
-    "Rank": 962,
-    "Key": "accusamus",
+    "LegalBaseId": 639,
+    "Name": "Quitzon, Cronin and Wisozk",
+    "Tooltip": "voluptatem",
+    "Rank": 488,
+    "Key": "voluptatem",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldType": "System.String",
+        "FieldLength": 352
       }
     }
   }

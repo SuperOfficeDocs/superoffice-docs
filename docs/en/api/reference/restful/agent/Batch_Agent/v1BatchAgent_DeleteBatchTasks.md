@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/DeleteBatchTasks
 uid: v1BatchAgent_DeleteBatchTasks
+generated: true
 ---
 
 # POST Agents/Batch/DeleteBatchTasks
@@ -68,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "BatchTaskIds": [
-    451,
-    555
+    462,
+    861
   ]
 }
 ```

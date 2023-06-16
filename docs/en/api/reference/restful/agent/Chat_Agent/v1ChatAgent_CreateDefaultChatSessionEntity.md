@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/CreateDefaultChatSessionEntity
 uid: v1ChatAgent_CreateDefaultChatSessionEntity
+generated: true
 ---
 
 # POST Agents/Chat/CreateDefaultChatSessionEntity
@@ -96,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 859,
-  "TopicId": 973,
+  "ChatSessionId": 370,
+  "TopicId": 183,
   "User": null,
   "Person": null,
-  "CustomerAlias": "blanditiis",
-  "CustomerHost": "modi",
-  "CustomerName": "Gorczany, Kulas and Oberbrunner",
-  "CustomerEmail": "weston@greenholt.ca",
-  "CustomerPhone": "(611)951-2108",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Lakin, Nolan and Lakin",
+  "CustomerAlias": "at",
+  "CustomerHost": "eaque",
+  "CustomerName": "Crona, Hartmann and Waelchi",
+  "CustomerEmail": "destinee.jerde@price.uk",
+  "CustomerPhone": "(815)234-2823 x178",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Conn-Schiller",
   "Status": "Closed",
-  "FirstMessage": "iste",
-  "LastMessage": "et",
-  "WhenRequested": "2005-04-16T03:51:26.6468635+02:00",
-  "WhenStarted": "2019-05-19T03:51:26.6468635+02:00",
-  "WhenEnded": "2001-05-08T03:51:26.6468635+02:00",
-  "WhenIdle": "2007-05-13T03:51:26.6468635+02:00",
-  "WhenFetched": "2017-07-09T03:51:26.6468635+02:00",
-  "SessionKey": "magni",
-  "InitialQueuePos": 459,
-  "AlertLevel": 234,
-  "Rank": 841,
+  "FirstMessage": "vitae",
+  "LastMessage": "nam",
+  "WhenRequested": "2003-10-09T16:00:40.1488166+02:00",
+  "WhenStarted": "2001-06-08T16:00:40.1488166+02:00",
+  "WhenEnded": "2021-03-30T16:00:40.1488166+02:00",
+  "WhenIdle": "1998-06-30T16:00:40.1488166+02:00",
+  "WhenFetched": "1998-10-13T16:00:40.1488166+02:00",
+  "SessionKey": "minus",
+  "InitialQueuePos": 828,
+  "AlertLevel": 657,
+  "Rank": 742,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 136,
+  "ChatbotIsActive": true,
+  "Rating": 49,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 433
+      "FieldLength": 393
     }
   }
 }

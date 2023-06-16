@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/DeleteBatchTask
 uid: v1BatchAgent_DeleteBatchTask
+generated: true
 ---
 
 # POST Agents/Batch/DeleteBatchTask
@@ -67,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 846
+  "BatchTaskId": 299
 }
 ```
 

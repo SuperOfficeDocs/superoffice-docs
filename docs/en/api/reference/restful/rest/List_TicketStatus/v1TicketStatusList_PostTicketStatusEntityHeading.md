@@ -1,6 +1,7 @@
 ---
 title: POST List/TicketStatus/Headings
 uid: v1TicketStatusList_PostTicketStatusEntityHeading
+generated: true
 ---
 
 # POST List/TicketStatus/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 606,
-  "Name": "Spinka, Wiegand and Bashirian",
-  "Tooltip": "quaerat",
-  "Deleted": true,
-  "Rank": 796,
-  "UdListDefinitionId": 895
+  "HeadingId": 218,
+  "Name": "Emmerich, Greenfelder and Monahan",
+  "Tooltip": "id",
+  "Deleted": false,
+  "Rank": 782,
+  "UdListDefinitionId": 442
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 641,
-  "Name": "Thompson Group",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "Rank": 958,
-  "UdListDefinitionId": 694,
+  "HeadingId": 42,
+  "Name": "Bednar Group",
+  "Tooltip": "asperiores",
+  "Deleted": true,
+  "Rank": 436,
+  "UdListDefinitionId": 675,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 551
     }
   }
 }

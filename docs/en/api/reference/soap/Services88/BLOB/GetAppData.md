@@ -1,6 +1,6 @@
 ---
 title: Services88.BLOBAgent.GetAppData SOAP
-generated: 1
+generated: true
 uid: Services88-BLOB-GetAppData
 ---
 

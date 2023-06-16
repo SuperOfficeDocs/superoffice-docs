@@ -1,17 +1,11 @@
 ---
 uid: webpanel
 title: webpanel
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "webpanel"
+keywords: mdoprovider mdo provider webpanel
+description: List of WebPanels visible possible for use with groups and headings.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "webpanel" MDO List

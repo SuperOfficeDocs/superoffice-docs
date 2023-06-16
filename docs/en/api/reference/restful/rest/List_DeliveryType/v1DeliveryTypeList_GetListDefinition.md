@@ -1,6 +1,7 @@
 ---
 title: GET List/DeliveryType
 uid: v1DeliveryTypeList_GetListDefinition
+generated: true
 ---
 
 # GET List/DeliveryType
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 872,
-  "Name": "Klocko, Reichert and Paucek",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "Rank": 617,
+  "Id": 843,
+  "Name": "Nienow Inc and Sons",
+  "Tooltip": "mollitia",
+  "Deleted": false,
+  "Rank": 502,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 675
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

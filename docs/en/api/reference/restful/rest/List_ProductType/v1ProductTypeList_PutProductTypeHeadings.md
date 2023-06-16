@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductType/Headings
 uid: v1ProductTypeList_PutProductTypeHeadings
+generated: true
 ---
 
 # PUT List/ProductType/Headings
@@ -79,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 672,
-    "Name": "Funk-Runolfsson",
-    "Tooltip": "doloremque",
-    "Deleted": false,
-    "Rank": 575,
-    "UdListDefinitionId": 950
+    "HeadingId": 446,
+    "Name": "Fadel-Bartoletti",
+    "Tooltip": "fugit",
+    "Deleted": true,
+    "Rank": 191,
+    "UdListDefinitionId": 595
   },
   {
-    "HeadingId": 672,
-    "Name": "Funk-Runolfsson",
-    "Tooltip": "doloremque",
-    "Deleted": false,
-    "Rank": 575,
-    "UdListDefinitionId": 950
+    "HeadingId": 446,
+    "Name": "Fadel-Bartoletti",
+    "Tooltip": "fugit",
+    "Deleted": true,
+    "Rank": 191,
+    "UdListDefinitionId": 595
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 920,
-    "Name": "Lockman Inc and Sons",
-    "Tooltip": "aliquid",
+    "HeadingId": 622,
+    "Name": "Gottlieb, Senger and Gerlach",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "Rank": 583,
-    "UdListDefinitionId": 825,
+    "Rank": 333,
+    "UdListDefinitionId": 269,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 890
+        "FieldLength": 629
       }
     }
   }

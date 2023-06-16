@@ -1,5 +1,5 @@
 ---
-generated: 1
+generated: true
 uid: wsdl-Services88-Workflow
 title: Services88.WorkflowAgent WSDL
 ---
@@ -49,9 +49,6 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Status" type="tns:WorkflowDefinitionStatus" />
-              <xs:element minOccurs="0" name="VisibleForAll" type="xs:boolean" />
-              <xs:element minOccurs="0" name="VisibleForAssociates" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-              <xs:element minOccurs="0" name="VisibleForGroups" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="JumpToFinish" type="xs:boolean" />
               <xs:element minOccurs="0" name="StartOnlyOnce" type="xs:boolean" />
               <xs:element minOccurs="0" name="OverrideConsentSubscription" type="xs:boolean" />
@@ -73,7 +70,7 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="WorkflowStart" type="xs:dateTime" />
               <xs:element minOccurs="0" name="UseEnrollmentEnd" type="xs:boolean" />
               <xs:element minOccurs="0" name="EnrollmentEnd" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="RemoveFromFlows" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="RemoveFromFlows" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="TzLocation" nillable="true" type="tns:TimeZoneData" />
               <xs:element minOccurs="0" name="Folder" nillable="true" type="tns:HierarchyEntity" />
               <xs:element minOccurs="0" name="Associate" nillable="true" type="tns:Associate" />
@@ -82,7 +79,8 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="Triggers" nillable="true" type="tns:ArrayOfWorkflowTrigger" />
               <xs:element minOccurs="0" name="Goals" nillable="true" type="tns:ArrayOfWorkflowGoal" />
               <xs:element minOccurs="0" name="Filter" nillable="true" type="tns:WorkflowFilter" />
-              <xs:element minOccurs="0" name="BlockLists" nillable="true" type="q4:ArrayOfint" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="BlockLists" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="VisibleFor" nillable="true" type="tns:ArrayOfVisibleFor" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -503,8 +501,9 @@ title: Services88.WorkflowAgent WSDL
           <xs:extension base="tns:WorkflowStepBase">
             <xs:sequence>
               <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Attachments" nillable="true" type="q5:ArrayOfint" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="Attachments" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="EmailMessageId" type="xs:int" />
+              <xs:element minOccurs="0" name="ShipmentId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -668,8 +667,8 @@ title: Services88.WorkflowAgent WSDL
         <xs:sequence>
           <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Operator" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Values" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q7:ArrayOfstring" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="Values" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           <xs:element minOccurs="0" name="ColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
           <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
           <xs:element minOccurs="0" name="SubRestrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
@@ -755,6 +754,32 @@ title: Services88.WorkflowAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WorkflowFilter" nillable="true" type="tns:WorkflowFilter" />
+      <xs:complexType name="ArrayOfVisibleFor">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="VisibleFor" nillable="true" type="tns:VisibleFor" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfVisibleFor" nillable="true" type="tns:ArrayOfVisibleFor" />
+      <xs:complexType name="VisibleFor">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="VisibleId" type="xs:int" />
+              <xs:element minOccurs="0" name="Visibility" type="tns:Visibility" />
+              <xs:element minOccurs="0" name="DisplayValue" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="VisibleFor" nillable="true" type="tns:VisibleFor" />
+      <xs:simpleType name="Visibility">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="All" />
+          <xs:enumeration value="Associate" />
+          <xs:enumeration value="Group" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="Visibility" nillable="true" type="tns:Visibility" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
@@ -976,15 +1001,42 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
-            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q8:ArrayOfint" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="TryAddPersonsToEmailFlowResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q9:ArrayOfboolean" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q7:ArrayOfboolean" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateEmailFlowContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ContentName" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateEmailFlowContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ConnectEmailFlowContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
+            <xs:element minOccurs="0" name="MessageId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ConnectEmailFlowContentResponse">
+        <xs:complexType>
+          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="GetWorkflowGoal">
@@ -1390,6 +1442,40 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CreateEmailFlowContentRequest">
+    <wsdl:part name="parameters" element="tns:CreateEmailFlowContent" />
+  </wsdl:message>
+  <wsdl:message name="CreateEmailFlowContentRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateEmailFlowContentResponse">
+    <wsdl:part name="parameters" element="tns:CreateEmailFlowContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateEmailFlowContentResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ConnectEmailFlowContentRequest">
+    <wsdl:part name="parameters" element="tns:ConnectEmailFlowContent" />
+  </wsdl:message>
+  <wsdl:message name="ConnectEmailFlowContentRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ConnectEmailFlowContentResponse">
+    <wsdl:part name="parameters" element="tns:ConnectEmailFlowContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConnectEmailFlowContentResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetWorkflowGoalRequest">
     <wsdl:part name="parameters" element="tns:GetWorkflowGoal" />
   </wsdl:message>
@@ -1552,6 +1638,14 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:operation name="TryAddPersonsToEmailFlow">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/TryAddPersonsToEmailFlow" name="TryAddPersonsToEmailFlowRequest" message="tns:TryAddPersonsToEmailFlowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/TryAddPersonsToEmailFlowResponse" name="TryAddPersonsToEmailFlowResponse" message="tns:TryAddPersonsToEmailFlowResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateEmailFlowContent">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateEmailFlowContent" name="CreateEmailFlowContentRequest" message="tns:CreateEmailFlowContentRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateEmailFlowContentResponse" name="CreateEmailFlowContentResponse" message="tns:CreateEmailFlowContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ConnectEmailFlowContent">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/ConnectEmailFlowContent" name="ConnectEmailFlowContentRequest" message="tns:ConnectEmailFlowContentRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/ConnectEmailFlowContentResponse" name="ConnectEmailFlowContentResponse" message="tns:ConnectEmailFlowContentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWorkflowGoal">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/GetWorkflowGoal" name="GetWorkflowGoalRequest" message="tns:GetWorkflowGoalRequest" />
@@ -1817,6 +1911,38 @@ title: Services88.WorkflowAgent WSDL
         <soap:header message="tns:TryAddPersonsToEmailFlowResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:TryAddPersonsToEmailFlowResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:TryAddPersonsToEmailFlowResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateEmailFlowContent">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateEmailFlowContent" style="document" />
+      <wsdl:input name="CreateEmailFlowContentRequest">
+        <soap:header message="tns:CreateEmailFlowContentRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateEmailFlowContentRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateEmailFlowContentRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateEmailFlowContentResponse">
+        <soap:header message="tns:CreateEmailFlowContentResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateEmailFlowContentResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateEmailFlowContentResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateEmailFlowContentResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConnectEmailFlowContent">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/ConnectEmailFlowContent" style="document" />
+      <wsdl:input name="ConnectEmailFlowContentRequest">
+        <soap:header message="tns:ConnectEmailFlowContentRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ConnectEmailFlowContentRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ConnectEmailFlowContentRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ConnectEmailFlowContentResponse">
+        <soap:header message="tns:ConnectEmailFlowContentResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ConnectEmailFlowContentResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ConnectEmailFlowContentResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ConnectEmailFlowContentResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

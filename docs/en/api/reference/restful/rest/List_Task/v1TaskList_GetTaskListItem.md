@@ -1,6 +1,7 @@
 ---
 title: GET List/Task/Items/{id}
 uid: v1TaskList_GetTaskListItem
+generated: true
 ---
 
 # GET List/Task/Items/{id}
@@ -73,7 +74,7 @@ OK
 GET /api/v1/List/Task/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,15 +84,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 556,
-  "Value": "ipsa",
+  "TaskListItemId": 910,
+  "Value": "nesciunt",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "IntentId": 585,
-  "Rank": 937,
-  "IsDefaultAlldayEvent": false,
+  "Tooltip": "ipsam",
+  "Deleted": true,
+  "IntentId": 307,
+  "Rank": 54,
+  "IsDefaultAlldayEvent": true,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
@@ -101,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 124
+      "FieldLength": 418
     }
   }
 }

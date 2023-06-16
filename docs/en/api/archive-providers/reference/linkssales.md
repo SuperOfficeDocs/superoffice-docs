@@ -2,17 +2,10 @@
 uid: LinksSales
 title: LinksSales
 description: Link data provider for sales, handles both addressing by source or by destination (not both at the same time!)
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "LinksSales"
+keywords: LinksSales archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "LinksSales"
@@ -128,6 +121,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |person/personRegisteredBy|associate|Registered by: The user who registered the data| x |
 |person/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/portraitThumbnail| *None* |Person image: Person image|  |
 |person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
@@ -228,6 +225,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
@@ -328,6 +329,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |contact/contactFax/description|string|Fax - Description: Phone number description| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
 |contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
@@ -428,6 +433,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
 |contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
@@ -528,6 +537,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |project/projectPublish/publishedBy| *None* |Published by: Published by|  |
@@ -628,6 +641,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/useAsMailingAddress|bool|Stakeholder - Use as postal address: Use as postal address| x |
 |saleStakeholder/person/personSource|listAny|Stakeholder - Source: Source (Contact)| x |
 |saleStakeholder/person/retired|bool|Stakeholder - Former employee: Indicates whether the contact has retired/left the company| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/birthYear|int|Stakeholder - Birth year: Displays contact's birth year| x |
 |saleStakeholder/person/birthMonth|int|Stakeholder - Birth month: Displays contact's birth month| x |
 |saleStakeholder/person/birthDay|int|Stakeholder - Birth day: Displays contact's birth day (day of month)| x |
@@ -728,6 +745,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/personExtra/x\_person\_user\_relation|associate|Stakeholder - Extra user relation: Custom person-user relation field| x |
 |saleStakeholder/person/personExtra/x\_person\_category\_relation|listAny|Stakeholder - Extra category relation: Custom person-category relation| x |
 |saleStakeholder/person/personExtra/x\_person\_priority\_relation|listAny|Stakeholder - Extra priority relation: Custom person-priority relation| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personExtra/x\_person\_request\_relation|stringorPK|Stakeholder - Extra request relation: Request relation on contact| x |
 |saleStakeholder/person/personExtra/x\_person\_appointment\_relation|stringorPK|Stakeholder - Extra appointment relation: Appointment relation on person| x |
 |saleStakeholder/person/personExtra/x\_person\_contact\_relation|stringorPK|Stakeholder - Extra company relation: Company relation on contact| x |
@@ -828,6 +849,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/updatedDate|date|Stakeholder - Updated: The date/time the data was last updated in UTC.| x |
 |saleStakeholder/contact/registeredBy|associate|Stakeholder - Registered by: The user who registered the data| x |
 |saleStakeholder/contact/registeredByFullName|associate|Stakeholder - Registered by - Full name: The user who registered the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/registeredDate|date|Stakeholder - Registered date: The date/time the data was registered in UTC.| x |
 |saleStakeholder/contact/contactSource|listAny|Stakeholder - Source: Source (Company)| x |
 |saleStakeholder/contact/contactDeleted|bool|Stakeholder - Deleted: Deleted| x |
@@ -928,6 +953,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/contactUdef/SuperOffice:8|decimal|Stakeholder - companydecimal| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:9|string|Stakeholder - page1saleonly| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:10|string|Stakeholder - page1marketingonly| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactUdef/SuperOffice:11|string|Stakeholder - page1adminonly| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:12|listAny|Stakeholder - Udlist one: Static tooltip for udlist one| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:13|listAny|Stakeholder - Udlist two: Static tooltip for udlist two| x |
@@ -1028,6 +1057,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |quote/version/alternative/totalPriceIncVAT|decimal|Total incl. VAT: Total of all lines, including VAT| x |
 |quote/version/alternative/vatAmount|decimal|VAT: VAT (amount) for the alternative| x |
 |quote/version/alternative/quoteline/quoteLineId|int|Quote line ID: Database identity of the quote line| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |quote/version/alternative/quoteline/quoteAlternativeId|int|Alternative ID: The database identity of the quote alternative| x |
 |quote/version/alternative/quoteline/erpProductKey|string|Product key: The foreign key of the product the quote line is based on.| x |
 |quote/version/alternative/quoteline/rank|int|Rank: Shows the rank of a product| x |
@@ -1075,7 +1108,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=person/isStakeholder,person/personMobilePhone/formattedNumber,person/correspondingAssociate/role,contact/contactUdef/SuperOffice:11,saleStakeholder/person/personUpdatedByFullName
+GET /api/v1/archive/LinksSales?$select=contact/orgnr,contact/stop,contact/contactAssociate/usergroup,associate/personId,saleStakeholder/person/personNoMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

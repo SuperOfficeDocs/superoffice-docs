@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/CreateDefaultFormEntity
 uid: v1MarketingAgent_CreateDefaultFormEntity
+generated: true
 ---
 
 # POST Agents/Marketing/CreateDefaultFormEntity
@@ -87,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 562,
-  "FormKey": "est",
-  "Name": "Bauch-Padberg",
-  "Description": "Configurable value-added hierarchy",
-  "Config": "unde",
-  "FolderId": 356,
-  "ScriptId": 524,
-  "ResponseShipmentId": 3,
-  "Active": false,
-  "Expires": "2021-09-16T03:51:27.5060342+02:00",
-  "MaxSubmits": 431,
+  "FormId": 399,
+  "FormKey": "nam",
+  "Name": "Reynolds Group",
+  "Description": "Open-source scalable methodology",
+  "Config": "esse",
+  "FolderId": 527,
+  "ScriptId": 156,
+  "ResponseShipmentId": 412,
+  "Active": true,
+  "Expires": "2016-04-06T16:00:41.2580675+02:00",
+  "MaxSubmits": 393,
   "Type": "Normal",
-  "Recipe": "sint",
-  "GroupId": 549,
+  "Recipe": "quis",
+  "GroupId": 591,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2021-03-31T03:51:27.5060342+02:00",
-  "RegisteredAssociateId": 109,
-  "Updated": "2004-11-11T03:51:27.5060342+01:00",
-  "UpdatedAssociateId": 407,
-  "UpdatedCount": 173,
-  "FolderName": "Towne LLC",
+  "Registered": "2017-04-16T16:00:41.2580675+02:00",
+  "RegisteredAssociateId": 202,
+  "Updated": "2011-08-17T16:00:41.2580675+02:00",
+  "UpdatedAssociateId": 358,
+  "UpdatedCount": 498,
+  "FolderName": "Kozey-Bahringer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 139
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

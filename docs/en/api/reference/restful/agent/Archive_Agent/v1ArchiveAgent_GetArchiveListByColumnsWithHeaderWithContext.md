@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 uid: v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
@@ -102,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Farrell-Fritsch",
+  "ProviderName": "Hoppe-Kris",
   "Columns": [
-    "illum",
-    "quia"
+    "eos",
+    "excepturi"
   ],
   "SortOrder": [
     {
-      "Name": "Grady, Parisian and Hudson",
+      "Name": "Halvorson, Wolff and Wilkinson",
       "Direction": "ASC"
     },
     {
-      "Name": "Grady, Parisian and Hudson",
+      "Name": "Halvorson, Wolff and Wilkinson",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Shanahan Group",
-      "Operator": "voluptatem",
+      "Name": "Ullrich, Rodriguez and Erdman",
+      "Operator": "consectetur",
       "Values": [
-        "error",
-        "reiciendis"
+        "quis",
+        "quis"
       ],
       "DisplayValues": [
-        "molestiae",
-        "aut"
+        "perspiciatis",
+        "cum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,19 +140,19 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 740,
+      "InterParenthesis": 127,
       "InterOperator": "And",
-      "UniqueHash": 771
+      "UniqueHash": 396
     }
   ],
   "Entities": [
-    "inventore",
-    "eligendi"
+    "praesentium",
+    "porro"
   ],
-  "Page": 104,
-  "PageSize": 254,
-  "Options": "corrupti",
-  "Context": "quo"
+  "Page": 803,
+  "PageSize": 766,
+  "Options": "occaecati",
+  "Context": "labore"
 }
 ```
 
@@ -162,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 59,
+  "RowCount": 794,
   "Rows": [
     {
-      "EntityName": "Marquardt Group",
-      "PrimaryKey": 357,
+      "EntityName": "Rohan-Pollich",
+      "PrimaryKey": 181,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ea",
-          "TooltipHint": "autem",
-          "LinkHint": "iusto"
+          "DisplayValue": "rerum",
+          "TooltipHint": "repellat",
+          "LinkHint": "quibusdam"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "rerum",
+      "LinkHint": "et",
+      "StyleHint": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldType": "System.String",
+          "FieldLength": 556
         }
       }
     }
@@ -190,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 475
+      "FieldType": "System.Int32",
+      "FieldLength": 365
     }
   }
 }

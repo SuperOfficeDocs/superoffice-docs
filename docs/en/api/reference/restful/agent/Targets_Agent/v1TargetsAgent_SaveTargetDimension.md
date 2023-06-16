@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/SaveTargetDimension
 uid: v1TargetsAgent_SaveTargetDimension
+generated: true
 ---
 
 # POST Agents/Targets/SaveTargetDimension
@@ -82,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 184,
+  "TargetDimensionId": 754,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "totam",
-  "DimensionListName": "Wintheiser Inc and Sons",
-  "DimensionListId": 332,
-  "DimensionListLabel": "veritatis",
+  "DimensionListField": "dolor",
+  "DimensionListName": "Stark Inc and Sons",
+  "DimensionListId": 461,
+  "DimensionListLabel": "qui",
   "SelectedDimensions": [
-    266,
-    773
+    218,
+    993
   ]
 }
 ```
@@ -104,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 741,
+  "TargetDimensionId": 782,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "at",
-  "DimensionListName": "Miller LLC",
-  "DimensionListId": 697,
-  "DimensionListLabel": "atque",
+  "DimensionListField": "repellat",
+  "DimensionListName": "Pfannerstill-Murazik",
+  "DimensionListId": 624,
+  "DimensionListLabel": "amet",
   "SelectedDimensions": [
-    121,
-    150
+    150,
+    955
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 589
     }
   }
 }

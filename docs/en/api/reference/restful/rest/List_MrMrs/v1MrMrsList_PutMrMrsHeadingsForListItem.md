@@ -1,6 +1,7 @@
 ---
 title: PUT List/MrMrs/Items/{id}/Headings
 uid: v1MrMrsList_PutMrMrsHeadingsForListItem
+generated: true
 ---
 
 # PUT List/MrMrs/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Ledner, Boyle and Skiles",
-    "ToolTip": "Vel quas commodi aperiam ab alias dolorem.",
+    "Id": 556,
+    "Name": "Koepp Group",
+    "ToolTip": "Voluptatem enim veniam dolor et assumenda ratione.",
     "Deleted": false,
-    "Rank": 741,
-    "Type": "quia",
-    "ColorBlock": 22,
-    "IconHint": "alias",
+    "Rank": 819,
+    "Type": "consequuntur",
+    "ColorBlock": 274,
+    "IconHint": "magnam",
     "Selected": false,
-    "LastChanged": "1996-02-19T03:51:34.7239677+01:00",
+    "LastChanged": "2018-10-15T16:00:49.0708338+02:00",
     "ChildItems": [
       {
-        "Id": 68,
-        "Name": "Murazik Group",
-        "ToolTip": "Voluptates quod neque natus qui.",
-        "Deleted": true,
-        "Rank": 931,
-        "Type": "in",
-        "ColorBlock": 79,
-        "IconHint": "ad",
-        "Selected": true,
-        "LastChanged": "1998-09-28T03:51:34.7239677+02:00",
+        "Id": 593,
+        "Name": "Balistreri, King and Quitzon",
+        "ToolTip": "Deserunt rerum libero ex quis earum.",
+        "Deleted": false,
+        "Rank": 577,
+        "Type": "cum",
+        "ColorBlock": 972,
+        "IconHint": "impedit",
+        "Selected": false,
+        "LastChanged": "2019-02-08T16:00:49.0708338+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "quos",
-        "Hidden": false,
-        "FullName": "Christine Littel"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Amanda Cole"
       }
     ],
-    "ExtraInfo": "in",
+    "ExtraInfo": "enim",
     "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Skye Julian Tremblay DDS"
+    "FullName": "Avis Thompson Sr."
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Green Group",
-    "ToolTip": "Dolores non reiciendis perspiciatis tempora fugiat quibusdam eum.",
+    "Id": 235,
+    "Name": "Gutmann, Pfeffer and Lueilwitz",
+    "ToolTip": "Nulla quam est.",
     "Deleted": false,
-    "Rank": 928,
-    "Type": "sequi",
-    "ColorBlock": 799,
-    "IconHint": "dolore",
+    "Rank": 794,
+    "Type": "corporis",
+    "ColorBlock": 541,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "2020-07-07T03:51:34.7395889+02:00",
+    "LastChanged": "2018-06-06T16:00:49.0708338+02:00",
     "ChildItems": [
       {
-        "Id": 709,
-        "Name": "Becker-Schultz",
-        "ToolTip": "Nobis rerum quia recusandae.",
-        "Deleted": false,
-        "Rank": 753,
-        "Type": "nihil",
-        "ColorBlock": 806,
-        "IconHint": "aspernatur",
-        "Selected": false,
-        "LastChanged": "2016-04-05T03:51:34.7395889+02:00",
+        "Id": 910,
+        "Name": "Beier Inc and Sons",
+        "ToolTip": "Reiciendis dolor dignissimos cupiditate qui voluptate.",
+        "Deleted": true,
+        "Rank": 591,
+        "Type": "rerum",
+        "ColorBlock": 824,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2012-03-15T16:00:49.0708338+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Kenton Kub",
+        "FullName": "Larissa McDermott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 808
+            "FieldLength": 816
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "inventore",
+    "ExtraInfo": "nemo",
+    "StyleHint": "corrupti",
     "Hidden": true,
-    "FullName": "Clifford Kessler",
+    "FullName": "Francesca Green III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 699
+        "FieldLength": 330
       }
     }
   }

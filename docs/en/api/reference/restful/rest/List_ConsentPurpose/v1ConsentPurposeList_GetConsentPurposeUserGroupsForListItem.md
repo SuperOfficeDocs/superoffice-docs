@@ -1,6 +1,7 @@
 ---
 title: GET List/ConsentPurpose/Items/{id}/UserGroups
 uid: v1ConsentPurposeList_GetConsentPurposeUserGroupsForListItem
+generated: true
 ---
 
 # GET List/ConsentPurpose/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Blanda LLC",
-    "ToolTip": "Dolor dolorum voluptates praesentium ducimus sint.",
-    "Deleted": true,
-    "Rank": 820,
-    "Type": "doloribus",
-    "ColorBlock": 245,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2019-10-12T03:51:34.5989925+02:00",
+    "Id": 63,
+    "Name": "Lakin, Price and Heidenreich",
+    "ToolTip": "Qui beatae aut ex ipsa consequatur laboriosam.",
+    "Deleted": false,
+    "Rank": 836,
+    "Type": "quis",
+    "ColorBlock": 330,
+    "IconHint": "repellendus",
+    "Selected": false,
+    "LastChanged": "2016-12-29T16:00:48.9145965+01:00",
     "ChildItems": [
       {
-        "Id": 788,
-        "Name": "Lang, Yundt and Trantow",
-        "ToolTip": "Quo repellat quidem ut.",
+        "Id": 712,
+        "Name": "McLaughlin-Lockman",
+        "ToolTip": "Voluptate quis ut odio ad voluptatibus eos dolorum.",
         "Deleted": false,
-        "Rank": 187,
-        "Type": "veritatis",
-        "ColorBlock": 835,
-        "IconHint": "dicta",
-        "Selected": true,
-        "LastChanged": "2018-06-09T03:51:34.5989925+02:00",
+        "Rank": 323,
+        "Type": "corporis",
+        "ColorBlock": 385,
+        "IconHint": "quas",
+        "Selected": false,
+        "LastChanged": "2014-01-25T16:00:48.9145965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "quae",
+        "ExtraInfo": "neque",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Mrs. Electa Dejon Kihn",
+        "FullName": "Dr. Cloyd Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 738
+            "FieldLength": 393
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "suscipit",
-    "Hidden": true,
-    "FullName": "Joelle Collins Sr.",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "laboriosam",
+    "Hidden": false,
+    "FullName": "Modesta Kirlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 19
+        "FieldType": "System.Int32",
+        "FieldLength": 688
       }
     }
   }

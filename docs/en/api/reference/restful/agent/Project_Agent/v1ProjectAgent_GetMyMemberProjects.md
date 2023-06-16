@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetMyMemberProjects
 uid: v1ProjectAgent_GetMyMemberProjects
+generated: true
 ---
 
 # POST Agents/Project/GetMyMemberProjects
@@ -81,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 639,
-    "Name": "Smith Inc and Sons",
-    "Description": "Stand-alone empowering concept",
+    "ProjectId": 690,
+    "Name": "Sauer-Jewess",
+    "Description": "Diverse stable hardware",
     "URL": "http://www.example.com/",
-    "Type": "eum",
-    "AssociateId": 482,
-    "AssociateFullName": "Caleb Carter DDS",
-    "TypeId": 356,
-    "Updated": "2012-12-26T03:51:27.943438+01:00",
-    "StatusId": 97,
-    "Status": "molestiae",
-    "TextId": 358,
-    "PublishTo": "2000-06-01T03:51:27.943438+02:00",
-    "PublishFrom": "2004-09-15T03:51:27.943438+02:00",
+    "Type": "consequuntur",
+    "AssociateId": 605,
+    "AssociateFullName": "Twila Riley Friesen MD",
+    "TypeId": 229,
+    "Updated": "2023-05-18T16:00:41.5707037+02:00",
+    "StatusId": 392,
+    "Status": "et",
+    "TextId": 610,
+    "PublishTo": "1997-05-22T16:00:41.5707037+02:00",
+    "PublishFrom": "2005-11-28T16:00:41.5707037+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "774832",
-    "ActiveErpLinks": 449,
+    "ProjectNumber": "945531",
+    "ActiveErpLinks": 215,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldLength": 394
       }
     }
   }

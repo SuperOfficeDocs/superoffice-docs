@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/CalculateDays
 uid: v1AppointmentAgent_CalculateDays
+generated: true
 ---
 
 # POST Agents/Appointment/CalculateDays
@@ -83,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 571,
-  "StartDate": "2015-11-02T03:51:26.2563301+01:00",
-  "EndDate": "2016-12-23T03:51:26.2563301+01:00",
-  "RecurrenceCounter": 258,
+  "RecurrenceId": 610,
+  "StartDate": "2015-10-25T16:00:39.8832222+01:00",
+  "EndDate": "2022-08-25T16:00:39.8832222+02:00",
+  "RecurrenceCounter": 877,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2005-12-01T03:51:26.2563301+01:00",
-      "IsConflict": true,
-      "Description": "Distributed leading edge array",
-      "DescriptionStyleHint": "Reactive needs-based hierarchy",
-      "Tooltip": "asperiores"
+      "Date": "2016-10-19T16:00:39.8832222+02:00",
+      "IsConflict": false,
+      "Description": "Optional leading edge solution",
+      "DescriptionStyleHint": "Proactive multi-state moratorium",
+      "Tooltip": "velit"
     },
     {
-      "Date": "2005-12-01T03:51:26.2563301+01:00",
-      "IsConflict": true,
-      "Description": "Distributed leading edge array",
-      "DescriptionStyleHint": "Reactive needs-based hierarchy",
-      "Tooltip": "asperiores"
+      "Date": "2016-10-19T16:00:39.8832222+02:00",
+      "IsConflict": false,
+      "Description": "Optional leading edge solution",
+      "DescriptionStyleHint": "Proactive multi-state moratorium",
+      "Tooltip": "velit"
     }
   ],
   "IsRecurrence": false

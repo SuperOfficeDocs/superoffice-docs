@@ -1,6 +1,7 @@
 ---
 title: GET List/Currency/Items
 uid: v1CurrencyList_GetAllCurrencyEntity
+generated: true
 ---
 
 # GET List/Currency/Items
@@ -72,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 59,
-    "Name": "Wolff, Carter and O'Hara",
-    "Tooltip": "asperiores",
-    "Rank": 68,
-    "Rate": 28046.165999999997,
-    "Units": 1745.638,
+    "CurrencyId": 56,
+    "Name": "Huels-Hackett",
+    "Tooltip": "aut",
+    "Rank": 803,
+    "Rate": 15071.405999999999,
+    "Units": 28770.12,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldLength": 735
       }
     }
   }

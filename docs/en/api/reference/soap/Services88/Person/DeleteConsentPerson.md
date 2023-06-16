@@ -1,6 +1,6 @@
 ---
 title: Services88.PersonAgent.DeleteConsentPerson SOAP
-generated: 1
+generated: true
 uid: Services88-Person-DeleteConsentPerson
 ---
 

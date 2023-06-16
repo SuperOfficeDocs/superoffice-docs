@@ -1,5 +1,6 @@
 ---
 title: List_ProductCategory
+generated: true
 ---
 
 ```http

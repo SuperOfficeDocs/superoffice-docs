@@ -1,6 +1,7 @@
 ---
 title: GET List/Reason/Items
 uid: v1ReasonList_GetAll
+generated: true
 ---
 
 # GET List/Reason/Items
@@ -24,7 +25,7 @@ Gets all the Reason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Reason/Items?includeDeleted=False
+GET /api/v1/List/Reason/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Mann LLC",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 141,
-    "Rank": 911,
+    "Id": 818,
+    "Name": "Rippin, Hagenes and Kerluke",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "UdListDefinitionId": 749,
+    "Rank": 986,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 436
+        "FieldLength": 21
       }
     }
   }

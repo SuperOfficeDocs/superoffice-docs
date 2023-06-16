@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/SetExternalUserInfo
 uid: v1UserAgent_SetExternalUserInfo
+generated: true
 ---
 
 # POST Agents/User/SetExternalUserInfo
@@ -73,15 +74,15 @@ No Content
 POST /api/v1/Agents/User/SetExternalUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 714,
-  "UserName": "Rau LLC",
-  "Password": "possimus",
+  "AssociateId": 68,
+  "UserName": "Wolf Inc and Sons",
+  "Password": "in",
   "IsActive": true,
-  "RoleId": 128,
+  "RoleId": 763,
   "ExternalUserInfoModification": "Active"
 }
 ```

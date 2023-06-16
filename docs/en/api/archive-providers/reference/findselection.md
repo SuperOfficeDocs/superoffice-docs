@@ -2,17 +2,10 @@
 uid: FindSelection
 title: FindSelection
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "FindSelection"
+keywords: FindSelection archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "FindSelection"

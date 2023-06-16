@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/MoveAllTickets
 uid: v1ListAgent_MoveAllTickets
+generated: true
 ---
 
 # POST Agents/List/MoveAllTickets
@@ -68,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketCategoryId": 762,
-  "ToTicketCategoryId": 348
+  "FromTicketCategoryId": 940,
+  "ToTicketCategoryId": 573
 }
 ```
 

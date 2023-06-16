@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/GenerateFollowUps
 uid: v1SelectionAgent_GenerateFollowUps
+generated: true
 ---
 
 # POST Agents/Selection/GenerateFollowUps
@@ -67,13 +68,13 @@ No Content
 POST /api/v1/Agents/Selection/GenerateFollowUps
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 633,
+  "SelectionId": 201,
   "AppointmentEntity": null,
-  "AssociateId": 746,
+  "AssociateId": 555,
   "SaveOnContactOwner": true,
   "UniqueContact": false
 }

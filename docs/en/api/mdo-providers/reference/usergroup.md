@@ -1,17 +1,13 @@
 ---
 uid: usergroup
 title: usergroup
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "usergroup"
+keywords: mdoprovider mdo provider usergroup
+description: List provider for the UserGroup table. While this table looks like an MDO table,
+it lacks the standardized grouplink and headinglink companion tables (for good reason,
+since it is the group table itself).
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "usergroup" MDO List

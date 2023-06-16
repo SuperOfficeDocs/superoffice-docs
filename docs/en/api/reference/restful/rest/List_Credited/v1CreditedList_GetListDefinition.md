@@ -1,6 +1,7 @@
 ---
 title: GET List/Credited
 uid: v1CreditedList_GetListDefinition
+generated: true
 ---
 
 # GET List/Credited
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 228,
-  "Name": "Rowe, Batz and Hane",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "Rank": 706,
+  "Id": 277,
+  "Name": "Lowe-Grady",
+  "Tooltip": "sunt",
+  "Deleted": true,
+  "Rank": 863,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "autem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 439
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

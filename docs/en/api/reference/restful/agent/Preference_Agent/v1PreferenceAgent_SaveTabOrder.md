@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/SaveTabOrder
 uid: v1PreferenceAgent_SaveTabOrder
+generated: true
 ---
 
 # POST Agents/Preference/SaveTabOrder

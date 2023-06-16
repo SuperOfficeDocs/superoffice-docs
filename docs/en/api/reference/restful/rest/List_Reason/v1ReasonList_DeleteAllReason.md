@@ -1,6 +1,7 @@
 ---
 title: DEL List/Reason/Items
 uid: v1ReasonList_DeleteAllReason
+generated: true
 ---
 
 # DEL List/Reason/Items

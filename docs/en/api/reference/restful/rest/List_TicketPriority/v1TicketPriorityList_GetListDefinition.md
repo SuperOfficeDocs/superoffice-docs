@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketPriority
 uid: v1TicketPriorityList_GetListDefinition
+generated: true
 ---
 
 # GET List/TicketPriority
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 660,
-  "Name": "Metz LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 287,
-  "IsCustomList": false,
+  "Id": 645,
+  "Name": "McLaughlin-Zieme",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "Rank": 107,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "deserunt",
+  "UseGroupsAndHeadings": false,
+  "ListType": "pariatur",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   },
   "_Links": {

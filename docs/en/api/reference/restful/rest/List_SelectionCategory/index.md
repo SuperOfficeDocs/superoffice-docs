@@ -1,5 +1,6 @@
 ---
 title: List_SelectionCategory
+generated: true
 ---
 
 ```http

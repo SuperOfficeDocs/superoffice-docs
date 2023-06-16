@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CanConnectorProvideCapability
 uid: v1QuoteAgent_CanConnectorProvideCapability
+generated: true
 ---
 
 # POST Agents/Quote/CanConnectorProvideCapability
@@ -68,12 +69,12 @@ OK
 POST /api/v1/Agents/Quote/CanConnectorProvideCapability
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 828,
-  "CapabilityName": "Wilkinson LLC"
+  "QuoteConnectionId": 808,
+  "CapabilityName": "Daniel-Pollich"
 }
 ```
 

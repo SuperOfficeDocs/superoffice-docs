@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetProjectEventEntityFromProjectId
 uid: v1ProjectAgent_GetProjectEventEntityFromProjectId
+generated: true
 ---
 
 # POST Agents/Project/GetProjectEventEntityFromProjectId
@@ -101,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 819
+  "ProjectId": 752
 }
 ```
 
@@ -116,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quidem",
-  "SignOffText": "aliquid",
-  "SignOnConfirmationText": "quibusdam",
-  "SignOnText": "animi",
-  "EventDate": "1999-09-10T03:51:27.943438+02:00",
-  "Enabled": false,
-  "CreatedDate": "2010-08-19T03:51:27.943438+02:00",
+  "SignOffConfirmationText": "est",
+  "SignOffText": "dolorum",
+  "SignOnConfirmationText": "saepe",
+  "SignOnText": "accusamus",
+  "EventDate": "1996-03-30T16:00:41.5707037+01:00",
+  "Enabled": true,
+  "CreatedDate": "2005-02-08T16:00:41.5707037+01:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 132,
+  "SignOffTaskId": 216,
   "SignOffTriggersAssign": true,
-  "SignOn": true,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 917,
+  "SignOn": false,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 766,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2006-09-01T03:51:27.943438+02:00",
+  "UpdatedDate": "2016-11-16T16:00:41.5707037+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 512,
-  "Id": 563,
-  "PublishFrom": "2015-02-08T03:51:27.943438+01:00",
+  "ProjectId": 131,
+  "Id": 464,
+  "PublishFrom": "1999-03-03T16:00:41.5707037+01:00",
   "PublishType": "External",
-  "PublishTo": "2014-02-04T03:51:27.943438+01:00",
+  "PublishTo": "2009-07-27T16:00:41.5707037+02:00",
   "VisibleForCategories": [
     {
-      "Id": 196,
-      "Name": "Strosin, Davis and Stracke",
-      "ToolTip": "Nam ut ducimus optio rerum.",
+      "Id": 363,
+      "Name": "Hilll-Corkery",
+      "ToolTip": "Porro accusamus voluptas est dolores non aspernatur.",
       "Deleted": false,
-      "Rank": 22,
-      "Type": "tempora",
+      "Rank": 468,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sed",
-      "ColorBlock": 119,
-      "ExtraInfo": "et",
-      "StyleHint": "ut",
-      "FullName": "Mrs. Kieran Alford Borer PhD",
+      "IconHint": "incidunt",
+      "ColorBlock": 39,
+      "ExtraInfo": "quia",
+      "StyleHint": "eligendi",
+      "FullName": "Issac Stroman DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldLength": 847
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 171,
-      "Name": "Bins-Stroman",
-      "ToolTip": "Et asperiores ut fuga occaecati eum nostrum autem.",
-      "Deleted": true,
-      "Rank": 299,
-      "Type": "rem",
+      "Id": 563,
+      "Name": "Schaden, Paucek and Bergnaum",
+      "ToolTip": "Error vero vel ut.",
+      "Deleted": false,
+      "Rank": 654,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "exercitationem",
-      "ColorBlock": 443,
-      "ExtraInfo": "qui",
-      "StyleHint": "quia",
-      "FullName": "Miss Kip Mckayla Hansen",
+      "IconHint": "autem",
+      "ColorBlock": 676,
+      "ExtraInfo": "id",
+      "StyleHint": "voluptas",
+      "FullName": "Johnson Schmitt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 410
+          "FieldLength": 853
         }
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": true,
-  "IsVisibleForCategories": false,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 64,
+  "ProjectEventId": 9,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 468
     }
   }
 }

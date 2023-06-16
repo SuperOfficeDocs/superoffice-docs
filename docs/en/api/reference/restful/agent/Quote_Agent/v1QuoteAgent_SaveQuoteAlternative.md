@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SaveQuoteAlternative
 uid: v1QuoteAgent_SaveQuoteAlternative
+generated: true
 ---
 
 # POST Agents/Quote/SaveQuoteAlternative
@@ -106,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 150,
-  "ERPQuoteAlternativeKey": "eaque",
-  "QuoteVersionId": 193,
-  "Name": "Ernser, O'Reilly and Ebert",
-  "Description": "User-centric reciprocal ability",
+  "QuoteAlternativeId": 550,
+  "ERPQuoteAlternativeKey": "porro",
+  "QuoteVersionId": 736,
+  "Name": "Kling-Marquardt",
+  "Description": "Phased zero administration artificial intelligence",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 6064.29,
-  "ERPDiscountAmount": 3018.042,
-  "DiscountPercent": 7599.95,
-  "DiscountAmount": 22545.996,
+  "ERPDiscountPercent": 15331.528,
+  "ERPDiscountAmount": 11247.926,
+  "DiscountPercent": 23407.845999999998,
+  "DiscountAmount": 20972.728,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "occaecati",
-  "VAT": 18199.138,
-  "EarningPercent": 13181.604,
-  "EarningAmount": 29895.226,
-  "SubTotal": 8032.442,
-  "TotalPrice": 4171.354,
-  "ExtraField1": "est",
-  "ExtraField2": "vitae",
-  "ExtraField3": "quibusdam",
-  "ExtraField4": "sit",
-  "ExtraField5": "delectus"
+  "VATInfo": "sed",
+  "VAT": 3967.644,
+  "EarningPercent": 31211.505999999998,
+  "EarningAmount": 12786.72,
+  "SubTotal": 26523.041999999998,
+  "TotalPrice": 27315.944,
+  "ExtraField1": "nobis",
+  "ExtraField2": "architecto",
+  "ExtraField3": "ex",
+  "ExtraField4": "dolores",
+  "ExtraField5": "quisquam"
 }
 ```
 
@@ -143,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 996,
-  "ERPQuoteAlternativeKey": "fugit",
-  "QuoteVersionId": 831,
-  "Name": "Williamson LLC",
-  "Description": "Realigned optimizing task-force",
+  "QuoteAlternativeId": 288,
+  "ERPQuoteAlternativeKey": "sed",
+  "QuoteVersionId": 921,
+  "Name": "Sanford, Koepp and Turcotte",
+  "Description": "Grass-roots didactic migration",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 30496.953999999998,
-  "ERPDiscountAmount": 1523.124,
-  "DiscountPercent": 16842.115999999998,
-  "DiscountAmount": 1006.014,
+  "ERPDiscountPercent": 21568.188,
+  "ERPDiscountAmount": 7925.8859999999995,
+  "DiscountPercent": 6120.702,
+  "DiscountAmount": 30694.396,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "iure",
-  "VAT": 20471.288,
-  "EarningPercent": 1460.444,
-  "EarningAmount": 16873.456,
-  "SubTotal": 15804.761999999999,
-  "TotalPrice": 81.484,
-  "ExtraField1": "ullam",
-  "ExtraField2": "nobis",
-  "ExtraField3": "est",
-  "ExtraField4": "qui",
-  "ExtraField5": "molestias",
+  "VATInfo": "amet",
+  "VAT": 17885.738,
+  "EarningPercent": 12626.886,
+  "EarningAmount": 28503.73,
+  "SubTotal": 24921.568,
+  "TotalPrice": 21417.755999999998,
+  "ExtraField1": "ea",
+  "ExtraField2": "laborum",
+  "ExtraField3": "omnis",
+  "ExtraField4": "eveniet",
+  "ExtraField5": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldType": "System.Int32",
+      "FieldLength": 806
     }
   }
 }

@@ -1,17 +1,11 @@
 ---
 uid: emailrecipient
 title: emailrecipient
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "emailrecipient"
+keywords: mdoprovider mdo provider emailrecipient
+description: List of most recent e-mail recipients cached for the current user.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "emailrecipient" MDO List

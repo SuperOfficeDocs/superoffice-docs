@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetUserCandidateByPerson
 uid: v1PersonAgent_GetUserCandidateByPerson
+generated: true
 ---
 
 # POST Agents/Person/GetUserCandidateByPerson
@@ -79,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 776
+  "PersonId": 846
 }
 ```
 
@@ -90,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserCandidateId": 714,
-  "PersonId": 122,
-  "SecretKey": "expedita",
-  "SecretValue": "sed",
+  "UserCandidateId": 578,
+  "PersonId": 249,
+  "SecretKey": "exercitationem",
+  "SecretValue": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldType": "System.String",
+      "FieldLength": 667
     }
   }
 }

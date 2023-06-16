@@ -1,6 +1,7 @@
 ---
 title: DEL List/ReasonStalled/Headings
 uid: v1ReasonStalledList_DeleteReasonStalledHeadings
+generated: true
 ---
 
 # DEL List/ReasonStalled/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

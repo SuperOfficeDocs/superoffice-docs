@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/SaveCredential
 uid: v1UserAgent_SaveCredential
+generated: true
 ---
 
 # POST Agents/User/SaveCredential
@@ -74,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 322,
+  "UserId": 246,
   "Credential": null
 }
 ```
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

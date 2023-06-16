@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetDeliveryTerms
 uid: v1ListAgent_GetDeliveryTerms
+generated: true
 ---
 
 # POST Agents/List/GetDeliveryTerms
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetDeliveryTerms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Value": "facilis",
-    "Tooltip": "dolorem",
+    "Id": 861,
+    "Value": "autem",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 644
+        "FieldType": "System.Int32",
+        "FieldLength": 748
       }
     }
   },
   {
-    "Id": 779,
-    "Value": "facilis",
-    "Tooltip": "dolorem",
+    "Id": 861,
+    "Value": "autem",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 644
+        "FieldType": "System.Int32",
+        "FieldLength": 748
       }
     }
   }

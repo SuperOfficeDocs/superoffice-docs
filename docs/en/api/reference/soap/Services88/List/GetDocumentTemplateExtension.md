@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.GetDocumentTemplateExtension SOAP
-generated: 1
+generated: true
 uid: Services88-List-GetDocumentTemplateExtension
 ---
 

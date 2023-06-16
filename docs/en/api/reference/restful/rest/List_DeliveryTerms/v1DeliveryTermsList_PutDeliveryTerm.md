@@ -1,6 +1,7 @@
 ---
 title: PUT List/DeliveryTerm/Items/{id}
 uid: v1DeliveryTermsList_PutDeliveryTerm
+generated: true
 ---
 
 # PUT List/DeliveryTerm/Items/{id}
@@ -77,16 +78,16 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 307,
-  "Name": "Hoppe, Hoppe and Kozey",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "UdListDefinitionId": 564,
-  "Rank": 61
+  "Id": 965,
+  "Name": "Bode, Schmeler and McLaughlin",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 987,
+  "Rank": 587
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 844,
-  "Name": "Heidenreich, Block and Hamill",
-  "Tooltip": "placeat",
+  "Id": 436,
+  "Name": "Monahan-Simonis",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "UdListDefinitionId": 370,
-  "Rank": 728,
+  "UdListDefinitionId": 910,
+  "Rank": 3,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 719
     }
   }
 }

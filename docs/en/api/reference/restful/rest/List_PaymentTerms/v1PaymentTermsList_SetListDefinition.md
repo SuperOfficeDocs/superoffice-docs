@@ -1,6 +1,7 @@
 ---
 title: PUT List/PaymentTerm
 uid: v1PaymentTermsList_SetListDefinition
+generated: true
 ---
 
 # PUT List/PaymentTerm
@@ -87,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 377,
-  "Name": "Zemlak, Braun and Kovacek",
-  "Tooltip": "consequuntur",
+  "Id": 165,
+  "Name": "Franecki Group",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 332,
+  "Rank": 352,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true
+  "ListType": "iure",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 656,
-  "Name": "Lemke-Swaniawski",
-  "Tooltip": "beatae",
+  "Id": 969,
+  "Name": "Pfeffer, Kuvalis and Dickens",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 446,
-  "IsCustomList": false,
+  "Rank": 699,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sed",
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 154
     }
   }
 }

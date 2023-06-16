@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 uid: v1BatchAgent_GetBatchTaskInfosByAssociatesAndState
+generated: true
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByAssociatesAndState
@@ -94,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    369,
-    73
+    817,
+    868
   ],
   "State": "All"
 }
@@ -114,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Cassin-Wisoky",
-    "AssociateId": 895,
-    "DetailsTable": 187,
-    "DetailsRecord": 759,
-    "IsSystemTask": true,
+    "Id": 987,
+    "Name": "Connelly Inc and Sons",
+    "AssociateId": 464,
+    "DetailsTable": 716,
+    "DetailsRecord": 827,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ipsum",
-      "ParameterObject2": "quas"
+      "ParameterObject1": "voluptatum",
+      "ParameterObject2": "ducimus"
     },
-    "LastStarted": "2010-02-13T03:51:26.6156255+01:00",
-    "Created": "2020-05-01T03:51:26.6156255+02:00",
-    "StartCount": 167,
-    "DatabaseSerialNumber": "1262606",
-    "Context": "qui",
-    "Result": "molestias",
+    "LastStarted": "2009-06-11T16:00:40.1175682+02:00",
+    "Created": "2020-05-27T16:00:40.1175682+02:00",
+    "StartCount": 665,
+    "DatabaseSerialNumber": "1381388",
+    "Context": "doloribus",
+    "Result": "quam",
     "State": "All",
-    "Description": "Devolved secondary ability",
-    "Response": "magni",
-    "Request": "magnam",
-    "ProgressDescription": "Networked static solution",
-    "ProgressPercent": 361,
-    "FileName": "Vandervort-Treutel",
+    "Description": "Digitized fresh-thinking database",
+    "Response": "voluptatem",
+    "Request": "non",
+    "ProgressDescription": "Right-sized context-sensitive paradigm",
+    "ProgressPercent": 716,
+    "FileName": "Wuckert Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldLength": 125
       }
     }
   }

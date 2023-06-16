@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetArchiveConfigurationWithContext
 uid: v1ArchiveAgent_GetArchiveConfigurationWithContext
+generated: true
 ---
 
 # POST Agents/Archive/GetArchiveConfigurationWithContext
@@ -79,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Borer LLC",
-  "ProviderName": "Schumm Group",
-  "Context": "hic"
+  "GuiName": "Watsica, Senger and Conn",
+  "ProviderName": "Beier Inc and Sons",
+  "Context": "sit"
 }
 ```
 
@@ -98,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Fahey, Simonis and Beer",
-      "DisplayTooltip": "sed",
-      "DisplayType": "eaque",
+      "DisplayName": "Quitzon, Parker and Kertzmann",
+      "DisplayTooltip": "et",
+      "DisplayType": "tempore",
       "CanOrderBy": true,
-      "Name": "Beier, Wilkinson and Schowalter",
+      "Name": "Mann LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "eum",
-      "RestrictionListName": "Fritsch Group",
-      "IsVisible": false,
-      "ExtraInfo": "voluptatem",
-      "Width": "dignissimos",
-      "IconHint": "omnis",
-      "HeadingIconHint": "qui"
+      "RestrictionType": "nobis",
+      "RestrictionListName": "Dickens-Marks",
+      "IsVisible": true,
+      "ExtraInfo": "numquam",
+      "Width": "nihil",
+      "IconHint": "laudantium",
+      "HeadingIconHint": "rerum"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 792,
-      "Name": "Padberg, Pollich and Marks",
-      "ToolTip": "Nesciunt praesentium officia explicabo vitae quae ut consequatur.",
+      "Id": 927,
+      "Name": "Moen, Luettgen and Hermann",
+      "ToolTip": "At dolor laborum rem.",
       "Deleted": false,
-      "Rank": 770,
-      "Type": "et",
-      "ColorBlock": 869,
-      "IconHint": "excepturi",
+      "Rank": 334,
+      "Type": "at",
+      "ColorBlock": 526,
+      "IconHint": "facilis",
       "Selected": true,
-      "LastChanged": "2003-02-15T03:51:26.568754+01:00",
+      "LastChanged": "2001-10-17T16:00:40.0550846+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "eos",
-      "Hidden": false,
-      "FullName": "Milton Jakubowski",
+      "ExtraInfo": "sequi",
+      "StyleHint": "ut",
+      "Hidden": true,
+      "FullName": "Leonardo Harris",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 945
+          "FieldLength": 742
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Haley Group",
+      "Name": "Oberbrunner, Stokes and Kerluke",
       "Direction": "ASC"
     },
     {
-      "Name": "Haley Group",
+      "Name": "Oberbrunner, Stokes and Kerluke",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "soluta",
+  "OwnerKeys": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 518
     }
   }
 }

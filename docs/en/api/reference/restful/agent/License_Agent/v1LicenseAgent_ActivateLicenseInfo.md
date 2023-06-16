@@ -1,6 +1,7 @@
 ---
 title: POST Agents/License/ActivateLicenseInfo
 uid: v1LicenseAgent_ActivateLicenseInfo
+generated: true
 ---
 
 # POST Agents/License/ActivateLicenseInfo
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/License/ActivateLicenseInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -88,14 +89,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": true,
+  "Succeeded": false,
   "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 34
     }
   }
 }

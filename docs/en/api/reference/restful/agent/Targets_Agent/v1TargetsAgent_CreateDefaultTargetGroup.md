@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/CreateDefaultTargetGroup
 uid: v1TargetsAgent_CreateDefaultTargetGroup
+generated: true
 ---
 
 # POST Agents/Targets/CreateDefaultTargetGroup
@@ -61,7 +62,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 386,
-  "Year": 869,
+  "TargetGroupId": 412,
+  "Year": 424,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 779,
+      "TargetAssignmentInfoId": 235,
       "Values": [
-        267,
-        507
+        1001,
+        681
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 539,
-      "DimensionListItemDisplayName": "Turcotte LLC",
+      "DimensionListItem": 217,
+      "DimensionListItemDisplayName": "Considine-Herzog",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 426
         }
       }
     }
@@ -104,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldType": "System.Int32",
+      "FieldLength": 832
     }
   }
 }

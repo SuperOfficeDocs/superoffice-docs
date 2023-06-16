@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/ValidateAttachments
 uid: v1TicketAgent_ValidateAttachments
+generated: true
 ---
 
 # POST Agents/Ticket/ValidateAttachments
@@ -72,13 +73,13 @@ OK
 POST /api/v1/Agents/Ticket/ValidateAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentIds": [
-    796,
-    241
+    633,
+    594
   ]
 }
 ```
@@ -91,14 +92,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 242,
+    "AttachmentId": 264,
     "IsValid": false,
-    "ErrorMessage": "minima"
+    "ErrorMessage": "impedit"
   },
   {
-    "AttachmentId": 242,
+    "AttachmentId": 264,
     "IsValid": false,
-    "ErrorMessage": "minima"
+    "ErrorMessage": "impedit"
   }
 ]
 ```

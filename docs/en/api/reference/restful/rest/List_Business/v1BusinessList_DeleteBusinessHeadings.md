@@ -1,6 +1,7 @@
 ---
 title: DEL List/Business/Headings
 uid: v1BusinessList_DeleteBusinessHeadings
+generated: true
 ---
 
 # DEL List/Business/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

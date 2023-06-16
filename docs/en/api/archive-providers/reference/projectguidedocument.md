@@ -2,17 +2,10 @@
 uid: ProjectGuideDocument
 title: ProjectGuideDocument
 description: Specific provider for Project Guide Items of type Appointment
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ProjectGuideDocument"
+keywords: ProjectGuideDocument archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ProjectGuideDocument"
@@ -133,6 +126,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personCategory|listAny|Category| x |
 |documentInstance/person/personBusiness|listAny|Business| x |
 |documentInstance/person/personDeletedDate|datetime|Deleted date: Deleted date|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |documentInstance/person/isProjectMember|bool|Is project member: This person is a project member| x |
 |documentInstance/person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
@@ -233,6 +230,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |documentInstance/person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |documentInstance/person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/person/personAssociate/contactCategory|listAny|Category: Category| x |
 |documentInstance/person/personAssociate/role|listAny|Role : Role| x |
 |documentInstance/person/personAssociate/assocName|associate|User ID : User ID| x |
@@ -333,6 +334,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |documentInstance/contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |documentInstance/contact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/contact/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
 |documentInstance/contact/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
 |documentInstance/contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
@@ -433,6 +438,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/NumberOfActivities|int|Number of activities|  |
 |documentInstance/contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |documentInstance/contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/contact/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |documentInstance/contact/LastActivity|date|Date of last activity|  |
 |documentInstance/contact/LastCompletedActivity|date|Date of last completed activity|  |
@@ -533,6 +542,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |documentInstance/project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
 |documentInstance/project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/project/NumberOfActivities|int|Number of activities|  |
 |documentInstance/project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |documentInstance/project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -633,6 +646,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |documentInstance/sale/saleType|listAny|Sale type: Sale type, from list| x |
 |documentInstance/sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |documentInstance/sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
 |documentInstance/sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
@@ -694,7 +711,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/documentId,documentInstance/person/personUpdatedBy,documentInstance/person/personUdef/SuperOffice:6,documentInstance/contact/contactFax/description,documentInstance/contact/postAddress/line2
+GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/contact/restrictionAddress/line3,documentInstance/contact/LastDoBySale,documentInstance/project/projectAssociate/personId,documentInstance/sale/recordType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

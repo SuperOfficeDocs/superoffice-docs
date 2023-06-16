@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/GetAddress
 uid: v1ContactAgent_GetAddress
+generated: true
 ---
 
 # POST Agents/Contact/GetAddress
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 428
+  "ContactId": 487
 }
 ```
 
@@ -92,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 47.01,
-  "Wgs84Longitude": 29055.314,
+  "Wgs84Latitude": 21959.938,
+  "Wgs84Longitude": 17396.834,
   "LocalizedAddress": [
     [
       {
-        "Name": "Turner, Yundt and Raynor",
-        "Value": "rerum",
-        "Tooltip": "voluptatem",
-        "Label": "sit",
-        "ValueLength": 617,
-        "AddressType": "occaecati",
+        "Name": "Okuneva-Murphy",
+        "Value": "iure",
+        "Tooltip": "voluptas",
+        "Label": "necessitatibus",
+        "ValueLength": 944,
+        "AddressType": "aperiam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 918
+            "FieldLength": 889
           }
         }
       }
     ],
     [
       {
-        "Name": "Daniel, Batz and Johns",
-        "Value": "corrupti",
-        "Tooltip": "dolorum",
-        "Label": "maxime",
-        "ValueLength": 267,
-        "AddressType": "in",
+        "Name": "Kuhic-D'Amore",
+        "Value": "magni",
+        "Tooltip": "repudiandae",
+        "Label": "enim",
+        "ValueLength": 742,
+        "AddressType": "id",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 581
+            "FieldLength": 935
           }
         }
       }
@@ -134,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "maxime",
+  "Formatted": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 480
     }
   }
 }

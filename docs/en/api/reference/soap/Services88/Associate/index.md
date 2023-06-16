@@ -1,7 +1,7 @@
 ---
 title: Services88.AssociateAgent SOAP
 uid: Services88-Associate-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Associate SOAP
@@ -18,6 +18,7 @@ Download [WSDL file for Services88/Associate](../Services88-Associate.md) if you
 * [GetAssociateByPersonId](GetAssociateByPersonId.md)
 * [GetAssociateList](GetAssociateList.md)
 * [GetAssociatesByGroup](GetAssociatesByGroup.md)
+* [GetEncryptionKey](GetEncryptionKey.md)
 * [GetNote](GetNote.md)
 * [LogOffWindowsUsers](LogOffWindowsUsers.md)
 * [SaveNote](SaveNote.md)

@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.GetAppTaskMenus SOAP
-generated: 1
+generated: true
 uid: Services88-List-GetAppTaskMenus
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 uid: v1BatchAgent_GetBatchTaskInfosByNameAndAssociates
+generated: true
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByNameAndAssociates
@@ -94,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Anderson, Harvey and Hand",
+  "Name": "Beahan-Borer",
   "AssociateIds": [
-    597,
-    85
+    538,
+    503
   ]
 }
 ```
@@ -114,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Kihn-Heaney",
-    "AssociateId": 210,
-    "DetailsTable": 459,
-    "DetailsRecord": 835,
+    "Id": 357,
+    "Name": "Gleichner, Gorczany and Lubowitz",
+    "AssociateId": 252,
+    "DetailsTable": 165,
+    "DetailsRecord": 869,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "inventore",
-      "ParameterObject2": "rerum"
+      "ParameterObject1": "ipsum",
+      "ParameterObject2": "natus"
     },
-    "LastStarted": "2014-08-03T03:51:26.6156255+02:00",
-    "Created": "2013-10-12T03:51:26.6156255+02:00",
-    "StartCount": 433,
-    "DatabaseSerialNumber": "695535",
-    "Context": "aut",
-    "Result": "nobis",
+    "LastStarted": "1997-02-12T16:00:40.1175682+01:00",
+    "Created": "2016-11-23T16:00:40.1175682+01:00",
+    "StartCount": 397,
+    "DatabaseSerialNumber": "922911",
+    "Context": "rerum",
+    "Result": "occaecati",
     "State": "All",
-    "Description": "Vision-oriented static encoding",
-    "Response": "perferendis",
-    "Request": "sint",
-    "ProgressDescription": "User-centric national Graphic Interface",
-    "ProgressPercent": 623,
-    "FileName": "Lowe-Wisoky",
+    "Description": "Sharable bifurcated time-frame",
+    "Response": "numquam",
+    "Request": "dolor",
+    "ProgressDescription": "Profound multimedia ability",
+    "ProgressPercent": 558,
+    "FileName": "Armstrong-Prohaska",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldLength": 541
       }
     }
   }

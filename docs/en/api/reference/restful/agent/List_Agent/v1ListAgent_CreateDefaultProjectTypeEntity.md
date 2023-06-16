@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultProjectTypeEntity
 uid: v1ListAgent_CreateDefaultProjectTypeEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultProjectTypeEntity
@@ -75,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 40,
-  "Name": "Kozey, Kertzmann and Hermiston",
-  "Tooltip": "est",
-  "Rank": 651,
+  "ProjTypeId": 346,
+  "Name": "Littel-Skiles",
+  "Tooltip": "nihil",
+  "Rank": 829,
   "DurationUnit": "Century",
-  "ProjectDuration": 327,
-  "Deleted": false,
+  "ProjectDuration": 216,
+  "Deleted": true,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 790,
-      "Name": "McCullough, Howell and Daniel",
-      "ToolTip": "Veniam id aliquam asperiores maxime laudantium excepturi.",
+      "Id": 341,
+      "Name": "Hilll, Rath and Schmidt",
+      "ToolTip": "Molestiae consequatur ex corporis maiores blanditiis ut odio.",
       "Deleted": false,
-      "Rank": 549,
-      "Type": "dolorum",
-      "ColorBlock": 585,
-      "IconHint": "autem",
+      "Rank": 585,
+      "Type": "velit",
+      "ColorBlock": 714,
+      "IconHint": "laudantium",
       "Selected": false,
-      "LastChanged": "2007-11-26T03:51:27.4747952+01:00",
+      "LastChanged": "2005-10-04T16:00:41.2268306+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veritatis",
-      "StyleHint": "non",
+      "ExtraInfo": "quod",
+      "StyleHint": "quaerat",
       "Hidden": false,
-      "FullName": "Mr. Josh Lubowitz",
+      "FullName": "William Denesik",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldLength": 456
         }
       }
     }
@@ -119,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 913
     }
   }
 }

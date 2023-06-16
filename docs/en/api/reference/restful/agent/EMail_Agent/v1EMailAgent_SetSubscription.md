@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/SetSubscription
 uid: v1EMailAgent_SetSubscription
+generated: true
 ---
 
 # POST Agents/EMail/SetSubscription
@@ -73,13 +74,13 @@ Content-Type: application/json; charset=utf-8
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Steuber, Hackett and Runolfsson",
-      "Delimiter": "excepturi",
-      "Flags": "nam",
-      "TotalItems": 276,
-      "UnreadItems": 171,
+      "Name": "Marquardt, Tillman and Fay",
+      "Delimiter": "est",
+      "Flags": "praesentium",
+      "TotalItems": 864,
+      "UnreadItems": 375,
       "Subscribed": true,
-      "EmailFolderId": 960
+      "EmailFolderId": 192
     }
   ]
 }

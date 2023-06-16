@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/CreateDefaultWorkflowTrigger
 uid: v1WorkflowAgent_CreateDefaultWorkflowTrigger
+generated: true
 ---
 
 # POST Agents/Workflow/CreateDefaultWorkflowTrigger
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 115,
-  "WorkflowId": 5,
+  "WorkflowTriggerId": 668,
+  "WorkflowId": 683,
   "TriggerType": "AddToList",
   "RestrictionGroups": [
     {
-      "Name": "Cole-Bergnaum",
-      "Description": "Proactive empowering Graphical User Interface",
-      "Rank": 295,
+      "Name": "Wolf Group",
+      "Description": "Pre-emptive contextually-based productivity",
+      "Rank": 911,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cole-Bergnaum",
-      "Description": "Proactive empowering Graphical User Interface",
-      "Rank": 295,
+      "Name": "Wolf Group",
+      "Description": "Pre-emptive contextually-based productivity",
+      "Rank": 911,
       "Restrictions": [
         {},
         {}
@@ -96,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 420
     }
   }
 }

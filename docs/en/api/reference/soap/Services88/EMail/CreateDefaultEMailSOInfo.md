@@ -1,6 +1,6 @@
 ---
 title: Services88.EMailAgent.CreateDefaultEMailSOInfo SOAP
-generated: 1
+generated: true
 uid: Services88-EMail-CreateDefaultEMailSOInfo
 ---
 
@@ -67,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
     <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
     <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-    <EMail:ArchivedAt xsi:type="xsd:dateTime">2023-05-25T11:08:58Z</EMail:ArchivedAt>
+    <EMail:ArchivedAt xsi:type="xsd:dateTime">2023-06-09T13:59:00Z</EMail:ArchivedAt>
     <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
     <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
    </EMail:Response>

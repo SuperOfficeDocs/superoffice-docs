@@ -1,6 +1,7 @@
 ---
 title: GET List/Source/Items/{id}/UserGroups
 uid: v1SourceList_GetSourceUserGroupsForListItem
+generated: true
 ---
 
 # GET List/Source/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 574,
-    "Name": "Swift Inc and Sons",
-    "ToolTip": "Eum quasi.",
-    "Deleted": true,
-    "Rank": 878,
-    "Type": "voluptatibus",
-    "ColorBlock": 459,
-    "IconHint": "voluptatem",
+    "Id": 723,
+    "Name": "Stroman, Gerhold and Beatty",
+    "ToolTip": "Qui quibusdam aut cumque quasi consequuntur numquam.",
+    "Deleted": false,
+    "Rank": 903,
+    "Type": "atque",
+    "ColorBlock": 106,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2012-09-21T03:51:34.9738936+02:00",
+    "LastChanged": "2015-05-14T16:00:49.3527243+02:00",
     "ChildItems": [
       {
-        "Id": 300,
-        "Name": "Thompson-Gutkowski",
-        "ToolTip": "Omnis et soluta reprehenderit repudiandae sed ex.",
+        "Id": 839,
+        "Name": "Reichel, Bradtke and Nikolaus",
+        "ToolTip": "Voluptatem maxime.",
         "Deleted": false,
-        "Rank": 829,
-        "Type": "aspernatur",
-        "ColorBlock": 751,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2019-04-14T03:51:34.9738936+02:00",
+        "Rank": 849,
+        "Type": "harum",
+        "ColorBlock": 144,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "2008-08-15T16:00:49.3527243+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "facilis",
+        "ExtraInfo": "hic",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Ms. Blanca Russ Littel Jr.",
+        "FullName": "Ms. Henri White",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 137
+            "FieldLength": 627
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "omnis",
+    "ExtraInfo": "repellat",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Miss Mertie Bins",
+    "FullName": "Otis Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 313
       }
     }
   }

@@ -1,7 +1,7 @@
 ---
 title: Services88.ForeignSystemAgent SOAP
 uid: Services88-ForeignSystem-soap
-generated: 1
+generated: true
 ---
 
 # Services88 ForeignSystem SOAP

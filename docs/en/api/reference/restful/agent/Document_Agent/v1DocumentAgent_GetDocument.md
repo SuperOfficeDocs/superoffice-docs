@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetDocument
 uid: v1DocumentAgent_GetDocument
+generated: true
 ---
 
 # POST Agents/Document/GetDocument
@@ -25,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=328
+POST /api/v1/Agents/Document/GetDocument?documentId=217
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -85,7 +86,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 724,
-  "Attention": "dolores",
-  "Header": "facilis",
-  "Name": "Wolf, Dibbert and Kirlin",
-  "OurRef": "earum",
-  "YourRef": "quibusdam",
-  "Description": "Programmable explicit hardware",
-  "DocumentTemplate": "officiis",
-  "IsPublished": true,
-  "PersonId": 952,
-  "PersonFullName": "Boris Block",
-  "AssociateFullName": "Meredith Lakin",
-  "ContactId": 117,
-  "ContactName": "Mayer, Goldner and Kshlerin",
-  "ProjectId": 917,
-  "ProjectName": "Cassin Group",
-  "AssociateId": 599,
-  "Snum": 987,
-  "SaleId": 787,
-  "SaleName": "McClure, Schowalter and Cole",
+  "DocumentId": 938,
+  "Attention": "voluptate",
+  "Header": "omnis",
+  "Name": "McClure LLC",
+  "OurRef": "quasi",
+  "YourRef": "et",
+  "Description": "Cloned tertiary groupware",
+  "DocumentTemplate": "voluptas",
+  "IsPublished": false,
+  "PersonId": 338,
+  "PersonFullName": "Keven Maud Maggio DDS",
+  "AssociateFullName": "Erika Koch",
+  "ContactId": 962,
+  "ContactName": "Koss, Swaniawski and Breitenberg",
+  "ProjectId": 427,
+  "ProjectName": "Lebsack-Donnelly",
+  "AssociateId": 57,
+  "Snum": 399,
+  "SaleId": 852,
+  "SaleName": "Bogisich-Torphy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 254
+      "FieldType": "System.Int32",
+      "FieldLength": 584
     }
   }
 }

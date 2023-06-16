@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dashboard/GetStandardDashboardTileFromChartId
 uid: v1DashboardAgent_GetStandardDashboardTileFromChartId
+generated: true
 ---
 
 # POST Agents/Dashboard/GetStandardDashboardTileFromChartId
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "et"
+  "ChartId": "a"
 }
 ```
 
@@ -100,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 490,
-  "Caption": "ut",
-  "Description": "Digitized coherent throughput",
-  "ChartName": "Bins Group",
-  "ChartId": "est",
+  "DashboardTileId": 452,
+  "Caption": "ipsa",
+  "Description": "Adaptive hybrid monitoring",
+  "ChartName": "Rempel Group",
+  "ChartId": "asperiores",
   "IsDefault": false,
-  "AssociateId": 164,
-  "GroupId": 196,
-  "SelectionId": 94,
-  "Config": "libero",
+  "AssociateId": 357,
+  "GroupId": 775,
+  "SelectionId": 566,
+  "Config": "eum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Dietrich Group",
-      "Description": "Managed national product",
+      "Name": "Simonis, Terry and Prohaska",
+      "Description": "Multi-channelled solution-oriented instruction set",
       "Type": "Boolean",
-      "ListName": "DuBuque, Pouros and Maggio",
+      "ListName": "Dickinson, Moen and Cronin",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptas",
-      "DefaultDataOption": false,
+      "Value": "est",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldLength": 346
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 365,
+      "VisibleId": 818,
       "Visibility": "All",
-      "DisplayValue": "facere",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 420
+          "FieldType": "System.Int32",
+          "FieldLength": 529
         }
       }
     },
     {
-      "VisibleId": 365,
+      "VisibleId": 818,
       "Visibility": "All",
-      "DisplayValue": "facere",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 420
+          "FieldType": "System.Int32",
+          "FieldLength": 529
         }
       }
     }
@@ -167,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 937
     }
   }
 }

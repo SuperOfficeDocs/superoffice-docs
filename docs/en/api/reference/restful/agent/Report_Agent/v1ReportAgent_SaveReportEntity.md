@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Report/SaveReportEntity
 uid: v1ReportAgent_SaveReportEntity
+generated: true
 ---
 
 # POST Agents/Report/SaveReportEntity
@@ -76,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 747,
+  "ReportId": 645,
   "ReportCategory": "All",
-  "Description": "Multi-layered uniform project",
+  "Description": "Cloned cohesive core",
   "ReportLayout": "CalendarMonth",
-  "Name": "Armstrong, Schultz and Hirthe",
-  "AssociateId": 276,
-  "TemplateId": 733,
+  "Name": "Gibson Inc and Sons",
+  "AssociateId": 281,
+  "TemplateId": 999,
   "Published": false
 }
 ```
@@ -98,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 372,
+  "ReportId": 4,
   "ReportCategory": "All",
-  "Description": "Optional mobile groupware",
+  "Description": "Streamlined tangible Graphic Interface",
   "ReportLayout": "CalendarMonth",
-  "Name": "Mueller-Hackett",
-  "AssociateId": 791,
-  "TemplateId": 255,
+  "Name": "Abernathy LLC",
+  "AssociateId": 77,
+  "TemplateId": 156,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldLength": 104
     }
   }
 }

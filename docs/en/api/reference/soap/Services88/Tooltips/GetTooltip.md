@@ -1,6 +1,6 @@
 ---
 title: Services88.TooltipsAgent.GetTooltip SOAP
-generated: 1
+generated: true
 uid: Services88-Tooltips-GetTooltip
 ---
 

@@ -1,5 +1,5 @@
 ---
-generated: 1
+generated: true
 uid: wsdl-Services88-FileManager
 title: Services88.FileManagerAgent WSDL
 ---

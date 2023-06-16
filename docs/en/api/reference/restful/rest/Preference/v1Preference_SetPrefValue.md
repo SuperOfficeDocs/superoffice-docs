@@ -1,6 +1,7 @@
 ---
 title: PUT Preference/{section}/{key}
 uid: v1Preference_SetPrefValue
+generated: true
 ---
 
 # PUT Preference/{section}/{key}
@@ -70,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "harum",
+  "RawValue": "cumque",
   "Specification": null,
-  "DisplayValue": "dolores",
-  "DisplayTooltip": "vero",
+  "DisplayValue": "repellat",
+  "DisplayTooltip": "omnis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 757,
-  "PrefDescId": 352,
-  "TableName": "Considine Inc and Sons",
-  "UserPreferenceId": 558
+  "TargetId": 411,
+  "PrefDescId": 222,
+  "TableName": "Lueilwitz, Adams and Bednar",
+  "UserPreferenceId": 434
 }
 ```
 

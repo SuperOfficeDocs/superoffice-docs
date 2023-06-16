@@ -1,6 +1,7 @@
 ---
 title: DEL List/Currency/Headings
 uid: v1CurrencyList_DeleteCurrencyEntityHeadings
+generated: true
 ---
 
 # DEL List/Currency/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

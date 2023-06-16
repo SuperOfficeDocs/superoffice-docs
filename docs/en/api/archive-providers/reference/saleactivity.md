@@ -2,17 +2,10 @@
 uid: SaleActivity
 title: SaleActivity
 description: Activity archive provider for the Sale card
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SaleActivity"
+keywords: SaleActivity archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SaleActivity"
@@ -129,6 +122,10 @@ Activity archive provider for the Sale card
 |person/personDirectFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |person/personDirectFax/description|string|Fax - Description: Phone number description| x |
 |person/searchPhone/formattedNumber|string|Phone : Displays phone number|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/searchPhone/description|string|Description: Phone number description| x |
 |person/personInfo/textId|int|Text ID| x |
 |person/personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
@@ -229,6 +226,10 @@ Activity archive provider for the Sale card
 |person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAssociate/userName|string|User name: User name| x |
 |person/personAssociate/personEmail|string|E-mail| x |
 |person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
@@ -329,6 +330,10 @@ Activity archive provider for the Sale card
 |contact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
 |contact/streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
 |contact/streetAddress/line3|string|Street address - Address 3: Third line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/streetAddress/county|string|Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |contact/streetAddress/city|string|Street address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/streetAddress/zip|string|Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
@@ -429,6 +434,10 @@ Activity archive provider for the Sale card
 |contact/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |contact/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
 |contact/NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/LastTicket|date|Date of last request|  |
 |contact/LastCompletedTicket|date|Date of last completed request|  |
 |contact/LastDoByTicket|date|Date of last non-completed request|  |
@@ -529,6 +538,10 @@ Activity archive provider for the Sale card
 |project/LastCompletedSale|date|Date of last completed sale|  |
 |project/LastDoBySale|date|Date of last non-completed sale|  |
 |project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/saintSaleStatus|listAny|With status|  |
 |project/saintAmountClass|listAny|Amount class|  |
 |project/saintActivityType|listAny|SAINT type|  |
@@ -629,6 +642,10 @@ Activity archive provider for the Sale card
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
 |sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
 |sale/associate/firstName|string|First name: Displays the contact's first name| x |
@@ -710,7 +727,7 @@ Activity archive provider for the Sale card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=attention,person/personUrl/URLAddress,project/projectPublish/publishedFrom,project/projectEvent/eventDate,associate/assocName
+GET /api/v1/archive/SaleActivity?$select=time,person/personAssociate/ejDisplayName,contact/registeredDate,project/SaintStatus3,appointmentUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

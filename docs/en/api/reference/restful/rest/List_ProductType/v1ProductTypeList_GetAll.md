@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductType/Items
 uid: v1ProductTypeList_GetAll
+generated: true
 ---
 
 # GET List/ProductType/Items
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Fay Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 219,
-    "Rank": 861,
+    "Id": 414,
+    "Name": "Purdy, Hahn and Weissnat",
+    "Tooltip": "cum",
+    "Deleted": true,
+    "UdListDefinitionId": 289,
+    "Rank": 439,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldLength": 805
       }
     }
   }

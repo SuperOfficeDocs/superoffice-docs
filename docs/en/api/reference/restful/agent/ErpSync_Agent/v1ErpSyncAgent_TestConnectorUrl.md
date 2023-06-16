@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/TestConnectorUrl
 uid: v1ErpSyncAgent_TestConnectorUrl
+generated: true
 ---
 
 # POST Agents/ErpSync/TestConnectorUrl
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/ErpSync/TestConnectorUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {

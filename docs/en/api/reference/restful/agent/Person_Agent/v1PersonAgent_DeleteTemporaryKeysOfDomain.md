@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/DeleteTemporaryKeysOfDomain
 uid: v1PersonAgent_DeleteTemporaryKeysOfDomain
+generated: true
 ---
 
 # POST Agents/Person/DeleteTemporaryKeysOfDomain
@@ -69,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "PersonId": 964
+  "PersonId": 393
 }
 ```
 

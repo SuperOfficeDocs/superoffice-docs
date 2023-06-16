@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/GetCriteriaInformation
 uid: v1FindAgent_GetCriteriaInformation
+generated: true
 ---
 
 # POST Agents/Find/GetCriteriaInformation
@@ -80,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolorem",
-  "ProviderName": "Brown-Ebert",
-  "StorageKey": "recusandae",
+  "StorageType": "aperiam",
+  "ProviderName": "Hirthe Inc and Sons",
+  "StorageKey": "cumque",
   "StaticColumns": [
-    "tempora",
-    "a"
+    "in",
+    "reprehenderit"
   ]
 }
 ```
@@ -103,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Torphy-Lueilwitz",
-      "Operator": "quasi",
+      "Name": "Cormier Group",
+      "Operator": "est",
       "Values": [
-        "et",
-        "possimus"
+        "voluptatum",
+        "nulla"
       ],
       "DisplayValues": [
-        "et",
-        "maxime"
+        "distinctio",
+        "laborum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 490,
+      "InterParenthesis": 132,
       "InterOperator": "And",
-      "UniqueHash": 562
+      "UniqueHash": 833
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Will, Deckow and Heller",
-      "DisplayTooltip": "vitae",
-      "DisplayType": "fuga",
+      "DisplayName": "Senger, Bernhard and Gottlieb",
+      "DisplayTooltip": "nobis",
+      "DisplayType": "dolorum",
       "CanOrderBy": false,
-      "Name": "Macejkovic, Renner and Heathcote",
-      "CanRestrictBy": true,
-      "RestrictionType": "iusto",
-      "RestrictionListName": "DuBuque, Runte and Rice",
+      "Name": "Lowe-Becker",
+      "CanRestrictBy": false,
+      "RestrictionType": "voluptatibus",
+      "RestrictionListName": "Farrell LLC",
       "IsVisible": false,
-      "ExtraInfo": "sunt",
-      "Width": "qui",
-      "IconHint": "quasi",
-      "HeadingIconHint": "ullam"
+      "ExtraInfo": "eum",
+      "Width": "sit",
+      "IconHint": "laudantium",
+      "HeadingIconHint": "quia"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Beahan LLC",
-      "PrimaryKey": 674,
+      "EntityName": "Cassin, Jacobi and Windler",
+      "PrimaryKey": 282,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "placeat",
-          "TooltipHint": "necessitatibus",
-          "LinkHint": "ea"
+          "DisplayValue": "incidunt",
+          "TooltipHint": "quo",
+          "LinkHint": "aperiam"
         }
       },
-      "LinkHint": "quibusdam",
-      "StyleHint": "hic",
+      "LinkHint": "sit",
+      "StyleHint": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 917
+          "FieldLength": 45
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Renner-Parisian",
-      "Description": "Right-sized non-volatile flexibility",
-      "Rank": 510,
+      "Name": "Beahan, Lehner and Schiller",
+      "Description": "Visionary reciprocal hub",
+      "Rank": 178,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Renner-Parisian",
-      "Description": "Right-sized non-volatile flexibility",
-      "Rank": 510,
+      "Name": "Beahan, Lehner and Schiller",
+      "Description": "Visionary reciprocal hub",
+      "Rank": 178,
       "Restrictions": [
         {},
         {}
@@ -188,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 421
     }
   }
 }

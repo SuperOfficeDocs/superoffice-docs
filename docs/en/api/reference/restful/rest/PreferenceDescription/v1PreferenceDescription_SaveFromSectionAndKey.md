@@ -1,6 +1,7 @@
 ---
 title: PUT PreferenceDescription/{section}/{key}
 uid: v1PreferenceDescription_SaveFromSectionAndKey
+generated: true
 ---
 
 # PUT PreferenceDescription/{section}/{key}
@@ -101,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 849,
-  "Section": "delectus",
-  "Key": "quia",
-  "Name": "Cruickshank, Green and Lubowitz",
+  "PrefDescId": 923,
+  "Section": "rerum",
+  "Key": "excepturi",
+  "Name": "Murphy Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Re-contextualized bandwidth-monitored benchmark",
-  "IsBuiltin": true,
-  "TableName": "Hills-Wilderman",
-  "UserDefinedListId": 711,
-  "Rank": 113,
-  "SubGroup": "dicta",
-  "MinLevel": 222,
-  "MaxValue": 970,
-  "MinValue": 598,
-  "RequiredLicense": "a"
+  "Description": "Future-proofed mobile protocol",
+  "IsBuiltin": false,
+  "TableName": "Schumm Inc and Sons",
+  "UserDefinedListId": 235,
+  "Rank": 665,
+  "SubGroup": "quod",
+  "MinLevel": 308,
+  "MaxValue": 272,
+  "MinValue": 17,
+  "RequiredLicense": "veniam"
 }
 ```
 
@@ -133,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 267,
-  "Section": "nulla",
-  "Key": "labore",
-  "Name": "Reinger-Blanda",
+  "PrefDescId": 160,
+  "Section": "ea",
+  "Key": "qui",
+  "Name": "Stamm Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergized explicit system engine",
-  "IsBuiltin": true,
-  "TableName": "Dooley Inc and Sons",
-  "UserDefinedListId": 320,
-  "Rank": 130,
-  "SubGroup": "neque",
-  "MinLevel": 465,
-  "MaxValue": 320,
-  "MinValue": 411,
-  "RequiredLicense": "tenetur",
+  "Description": "Fundamental attitude-oriented policy",
+  "IsBuiltin": false,
+  "TableName": "Schowalter LLC",
+  "UserDefinedListId": 94,
+  "Rank": 756,
+  "SubGroup": "est",
+  "MinLevel": 993,
+  "MaxValue": 907,
+  "MinValue": 928,
+  "RequiredLicense": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 932
     }
   }
 }

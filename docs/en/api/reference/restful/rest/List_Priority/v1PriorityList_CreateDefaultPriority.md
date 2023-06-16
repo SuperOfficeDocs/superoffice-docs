@@ -1,6 +1,7 @@
 ---
 title: GET List/Priority/Items/Default
 uid: v1PriorityList_CreateDefaultPriority
+generated: true
 ---
 
 # GET List/Priority/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 911,
-  "Name": "Steuber Inc and Sons",
-  "Tooltip": "incidunt",
+  "Id": 687,
+  "Name": "Schuppe LLC",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "UdListDefinitionId": 404,
-  "Rank": 917,
+  "UdListDefinitionId": 182,
+  "Rank": 712,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldType": "System.Int32",
+      "FieldLength": 583
     }
   }
 }

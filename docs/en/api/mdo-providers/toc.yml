@@ -7,6 +7,8 @@ items:
   href: reference/addressformat.md
 - name: Allpersonsearch
   href: reference/allpersonsearch.md
+- name: AllPersonWithAssociateSearch
+  href: reference/allpersonwithassociatesearch.md
 - name: Allpreferencekeys
   href: reference/allpreferencekeys.md
 - name: Amountclass
@@ -687,6 +689,8 @@ items:
   href: reference/ticketpriorityescalateevent.md
 - name: Ticketread
   href: reference/ticketread.md
+- name: TicketSelectionFreetextSearch
+  href: ticket_selection_freetextsearch.md
 - name: Ticketselectionwithstaticmenu
   href: reference/ticketselectionwithstaticmenu.md
 - name: Ticketslevel

@@ -1,6 +1,7 @@
 ---
 title: PATCH Dash/{id}
 uid: v1Dash_PatchDash
+generated: true
 ---
 
 # PATCH Dash/{id}
@@ -119,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptate",
+    "path": "debitis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptate",
+    "path": "debitis",
     "value": {}
   }
 ]
@@ -143,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 69,
-  "UniqueId": "illo",
-  "Name": "Dicki LLC",
-  "Description": "Exclusive analyzing hardware",
-  "AssociateId": 475,
-  "Columns": 851,
+  "DashboardId": 234,
+  "UniqueId": "sint",
+  "Name": "Hettinger, Corkery and Feil",
+  "Description": "Optimized real-time system engine",
+  "AssociateId": 638,
+  "Columns": 398,
   "Theme": null,
-  "VisibleForAll": 92,
+  "VisibleForAll": 540,
   "VisibleForAssociates": [
-    103,
-    743
+    917,
+    88
   ],
   "VisibleForGroups": [
-    9,
-    500
+    297,
+    610
   ],
-  "PinForAll": 639,
+  "PinForAll": 81,
   "PinForAssociates": [
-    157,
-    13
+    174,
+    923
   ],
   "PinForGroups": [
-    158,
-    650
+    578,
+    599
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 462
     }
   },
   "_Links": {

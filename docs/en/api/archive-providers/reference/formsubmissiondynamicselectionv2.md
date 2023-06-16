@@ -2,17 +2,10 @@
 uid: FormSubmissionDynamicSelectionV2
 title: FormSubmissionDynamicSelectionV2
 description: FormSubmission selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionDynamicProviderSingleCriteriaGroup" />.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "FormSubmissionDynamicSelectionV2"
+keywords: FormSubmissionDynamicSelectionV2 archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "FormSubmissionDynamicSelectionV2"
@@ -128,6 +121,10 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
 |person/personDirectPhone/description|string|Direct - Description: Phone number description| x |
 |person/personMobilePhone/formattedNumber|string|Mobile - Phone: Displays phone number|  |
@@ -228,6 +225,10 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 |person/personAssociate/role|listAny|Role : Role| x |
 |person/personAssociate/assocName|associate|User ID : User ID| x |
 |person/personAssociate/assocTooltip|string|Description : Description|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
@@ -328,6 +329,10 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 |contact/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
 |contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
 |contact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
@@ -428,6 +433,10 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 |contact/LastActivity|date|Date of last activity|  |
 |contact/LastCompletedActivity|date|Date of last completed activity|  |
 |contact/LastDoByActivity|date|Date of last non-completed activity|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/NumberOfSales|int|Number of sales|  |
 |contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
@@ -455,7 +464,7 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=associateId,associate/ejStatus,person/personExtra/y_rental/y_equipment/x_name
+GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=associate/credentialDisplayValue,person/email/emailId,person/personAddress/line2,person/personExtra/x_person_shorttext,person/personAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

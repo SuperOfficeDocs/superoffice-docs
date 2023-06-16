@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetOwnerCompanysCurrency
 uid: v1ListAgent_GetOwnerCompanysCurrency
+generated: true
 ---
 
 # POST Agents/List/GetOwnerCompanysCurrency
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetOwnerCompanysCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 564,
-  "Value": "molestiae",
-  "Tooltip": "dignissimos",
+  "Id": 71,
+  "Value": "ut",
+  "Tooltip": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldType": "System.Int32",
+      "FieldLength": 542
     }
   }
 }

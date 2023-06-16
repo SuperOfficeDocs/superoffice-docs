@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketStatus/Items
 uid: v1TicketStatusList_GetAllTicketStatusEntity
+generated: true
 ---
 
 # GET List/TicketStatus/Items
@@ -73,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 438,
-    "Name": "Yundt, Metz and Kessler",
+    "TicketStatusId": 463,
+    "Name": "Huel-Huels",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
-    "IsDefault": false,
+    "IsDefault": true,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldType": "System.String",
+        "FieldLength": 300
       }
     }
   }

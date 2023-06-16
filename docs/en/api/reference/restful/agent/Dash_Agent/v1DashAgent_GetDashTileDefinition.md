@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/GetDashTileDefinition
 uid: v1DashAgent_GetDashTileDefinition
+generated: true
 ---
 
 # POST Agents/Dash/GetDashTileDefinition
@@ -25,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=2
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=796
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 186,
-  "Name": "Wyman, Powlowski and Krajcik",
-  "Description": "Ameliorated systemic emulation",
-  "DefaultHeight": 686,
-  "DefaultWidth": 2,
+  "DashboardTileDefinitionId": 516,
+  "Name": "Johns Inc and Sons",
+  "Description": "Visionary client-driven migration",
+  "DefaultHeight": 181,
+  "DefaultWidth": 388,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Anderson-Hartmann",
-  "SelectionId": 98,
+  "EntityName": "Turcotte-Walter",
+  "SelectionId": 1002,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ut",
+  "CurrencyCode": "maxime",
   "Measure": "Average",
-  "MeasureField": "ut",
-  "SortBy": "qui",
-  "LayoutConfig": "eius",
-  "SecondarySelectionId": 667,
-  "MeasureByField": "veniam",
+  "MeasureField": "doloribus",
+  "SortBy": "reiciendis",
+  "LayoutConfig": "asperiores",
+  "SecondarySelectionId": 84,
+  "MeasureByField": "aut",
   "Usage": "Dashboard",
-  "ProviderName": "Ankunding-Kshlerin",
+  "ProviderName": "Borer, Robel and Willms",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldType": "System.Int32",
+      "FieldLength": 741
     }
   }
 }

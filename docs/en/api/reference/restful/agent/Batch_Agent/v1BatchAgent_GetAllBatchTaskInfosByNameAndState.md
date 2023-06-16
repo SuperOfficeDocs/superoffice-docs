@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Batch/GetAllBatchTaskInfosByNameAndState
 uid: v1BatchAgent_GetAllBatchTaskInfosByNameAndState
+generated: true
 ---
 
 # POST Agents/Batch/GetAllBatchTaskInfosByNameAndState
@@ -94,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Steuber-Stoltenberg",
+  "TaskName": "Fadel, Halvorson and Kling",
   "State": "All"
 }
 ```
@@ -111,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 82,
-    "Name": "Huel Inc and Sons",
-    "AssociateId": 399,
-    "DetailsTable": 357,
-    "DetailsRecord": 292,
+    "Id": 583,
+    "Name": "Hessel, Stokes and Wolff",
+    "AssociateId": 392,
+    "DetailsTable": 179,
+    "DetailsRecord": 50,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "molestias",
-      "ParameterObject2": "nostrum"
+      "ParameterObject1": "ut",
+      "ParameterObject2": "exercitationem"
     },
-    "LastStarted": "2011-02-24T03:51:26.6156255+01:00",
-    "Created": "1996-12-28T03:51:26.6156255+01:00",
-    "StartCount": 488,
-    "DatabaseSerialNumber": "1026769",
-    "Context": "praesentium",
-    "Result": "eligendi",
+    "LastStarted": "2013-04-20T16:00:40.1175682+02:00",
+    "Created": "1999-08-30T16:00:40.1175682+02:00",
+    "StartCount": 795,
+    "DatabaseSerialNumber": "788814",
+    "Context": "rerum",
+    "Result": "perferendis",
     "State": "All",
-    "Description": "Automated local capacity",
-    "Response": "quia",
-    "Request": "cupiditate",
-    "ProgressDescription": "Digitized optimal intranet",
-    "ProgressPercent": 50,
-    "FileName": "Lang, Roob and Renner",
+    "Description": "Re-engineered directional product",
+    "Response": "similique",
+    "Request": "facere",
+    "ProgressDescription": "Optimized real-time moderator",
+    "ProgressPercent": 379,
+    "FileName": "Rodriguez-Anderson",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 994
+        "FieldLength": 449
       }
     }
   }

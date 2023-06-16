@@ -1,6 +1,7 @@
 ---
 title: DEL List/Currency/Items/{id}
 uid: v1CurrencyList_DeleteCurrencyEntity
+generated: true
 ---
 
 # DEL List/Currency/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

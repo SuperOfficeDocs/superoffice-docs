@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetCurrentAccount
 uid: v1EMailAgent_GetCurrentAccount
+generated: true
 ---
 
 # POST Agents/EMail/GetCurrentAccount
@@ -75,7 +76,7 @@ OK
 POST /api/v1/Agents/EMail/GetCurrentAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 321,
-  "EMailAddress": "nostrum",
-  "AssociateId": 859,
+  "EMailAccountId": 678,
+  "EMailAddress": "repellat",
+  "AssociateId": 277,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 54,
-  "ErrorCount": 957,
+  "AccountStatus": 984,
+  "ErrorCount": 421,
   "ErrorReason": "",
-  "InboxFolder": "quis",
-  "SentFolder": "mollitia",
+  "InboxFolder": "commodi",
+  "SentFolder": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 713
     }
   }
 }

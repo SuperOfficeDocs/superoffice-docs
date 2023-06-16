@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetCreditedList
 uid: v1ListAgent_GetCreditedList
+generated: true
 ---
 
 # POST Agents/List/GetCreditedList
@@ -82,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 214,
-    "Value": "doloribus",
-    "Tooltip": "qui",
+    "Id": 247,
+    "Value": "unde",
+    "Tooltip": "officiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 36
+        "FieldType": "System.Int32",
+        "FieldLength": 296
       }
     }
   },
   {
-    "Id": 214,
-    "Value": "doloribus",
-    "Tooltip": "qui",
+    "Id": 247,
+    "Value": "unde",
+    "Tooltip": "officiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 36
+        "FieldType": "System.Int32",
+        "FieldLength": 296
       }
     }
   }

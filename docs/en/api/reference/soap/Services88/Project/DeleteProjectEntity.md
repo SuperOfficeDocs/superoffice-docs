@@ -1,6 +1,6 @@
 ---
 title: Services88.ProjectAgent.DeleteProjectEntity SOAP
-generated: 1
+generated: true
 uid: Services88-Project-DeleteProjectEntity
 ---
 

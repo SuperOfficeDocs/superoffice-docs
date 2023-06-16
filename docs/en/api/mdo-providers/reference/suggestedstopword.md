@@ -1,17 +1,12 @@
 ---
 uid: suggestedstopword
 title: suggestedstopword
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "suggestedstopword"
+keywords: mdoprovider mdo provider suggestedstopword
+description: Analyze free text records and suggest stop words based on word frequency.
+Return only words with more than 1000 instances.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "suggestedstopword" MDO List

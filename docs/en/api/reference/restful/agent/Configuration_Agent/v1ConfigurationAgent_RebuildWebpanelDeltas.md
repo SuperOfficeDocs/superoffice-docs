@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/RebuildWebpanelDeltas
 uid: v1ConfigurationAgent_RebuildWebpanelDeltas
+generated: true
 ---
 
 # POST Agents/Configuration/RebuildWebpanelDeltas

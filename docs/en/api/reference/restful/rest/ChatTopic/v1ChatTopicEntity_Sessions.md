@@ -1,6 +1,7 @@
 ---
 title: GET ChatTopic/{id}/Sessions
 uid: v1ChatTopicEntity_Sessions
+generated: true
 ---
 
 # GET ChatTopic/{id}/Sessions
@@ -73,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatTopic/{id}/Sessions?$select=name,department,category/id
 GET /api/v1/ChatTopic/{id}/Sessions?$filter=name begins 'S'
 GET /api/v1/ChatTopic/{id}/Sessions?$orderBy=name asc
-GET /api/v1/ChatTopic/{id}/Sessions?$entities=sed
-GET /api/v1/ChatTopic/{id}/Sessions?$top=292
-GET /api/v1/ChatTopic/{id}/Sessions?$skip=620
+GET /api/v1/ChatTopic/{id}/Sessions?$entities=magnam
+GET /api/v1/ChatTopic/{id}/Sessions?$top=269
+GET /api/v1/ChatTopic/{id}/Sessions?$skip=105
 GET /api/v1/ChatTopic/{id}/Sessions?$mode=Full
 GET /api/v1/ChatTopic/{id}/Sessions?$options=GrandTotal=true
 GET /api/v1/ChatTopic/{id}/Sessions?$context=rerum
 GET /api/v1/ChatTopic/{id}/Sessions?$format=JSON
-GET /api/v1/ChatTopic/{id}/Sessions?$jsonSafe=False
+GET /api/v1/ChatTopic/{id}/Sessions?$jsonSafe=True
 GET /api/v1/ChatTopic/{id}/Sessions?$output=Display
 ```
 
@@ -122,7 +123,7 @@ OK
 GET /api/v1/ChatTopic/{id}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "consequuntur",
+  "odata.nextLink": "saepe",
   "value": [
     {
-      "PrimaryKey": 6775,
+      "PrimaryKey": 9344,
       "EntityName": "sale",
-      "saleId": 6775,
-      "contactId": 9460,
-      "name": "Gislason, Beer and Murazik"
+      "saleId": 9344,
+      "contactId": 671,
+      "name": "Botsford, Bailey and Little"
     },
     {
-      "PrimaryKey": 7441,
+      "PrimaryKey": 7179,
       "EntityName": "sale",
-      "saleId": 7441,
-      "contactId": 5596,
-      "name": "Schuppe, Pfannerstill and Little"
+      "saleId": 7179,
+      "contactId": 732,
+      "name": "Johnston Inc and Sons"
     }
   ]
 }

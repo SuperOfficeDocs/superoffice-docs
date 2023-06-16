@@ -2,17 +2,10 @@
 uid: ErpConnector
 title: ErpConnector
 description: Archive of ERP Connectors, used by the ERP Integrator Server
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ErpConnector"
+keywords: ErpConnector archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ErpConnector"

@@ -1,6 +1,7 @@
 ---
 title: PATCH Pricelist/{id}
 uid: v1PriceList_PatchPriceList
+generated: true
 ---
 
 # PATCH Pricelist/{id}
@@ -116,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "porro",
+    "path": "eos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "porro",
+    "path": "eos",
     "value": {}
   }
 ]
@@ -140,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 583,
-  "ERPPriceListKey": "veniam",
-  "QuoteConnectionId": 106,
-  "Name": "McClure LLC",
-  "Description": "Team-oriented composite capacity",
-  "Currency": "non",
-  "CurrencyName": "Mayert LLC",
-  "ValidFrom": "1996-05-27T03:51:34.7708309+02:00",
-  "ValidTo": "2013-02-17T03:51:34.7708309+01:00",
+  "PriceListId": 902,
+  "ERPPriceListKey": "facilis",
+  "QuoteConnectionId": 728,
+  "Name": "Murray-Reichel",
+  "Description": "Re-contextualized mission-critical standardization",
+  "Currency": "voluptate",
+  "CurrencyName": "Bosco LLC",
+  "ValidFrom": "1997-06-03T16:00:49.1177018+02:00",
+  "ValidTo": "2014-03-25T16:00:49.1177018+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 470
+      "FieldLength": 274
     }
   },
   "_Links": {

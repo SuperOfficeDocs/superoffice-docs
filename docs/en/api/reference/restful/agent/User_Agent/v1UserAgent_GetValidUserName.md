@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetValidUserName
 uid: v1UserAgent_GetValidUserName
+generated: true
 ---
 
 # POST Agents/User/GetValidUserName
@@ -72,14 +73,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 839,
+  "AssociateId": 326,
   "Type": "AnonymousAssociate",
-  "PersonId": 355,
-  "UserName": "Dickens, Raynor and Welch"
+  "PersonId": 360,
+  "UserName": "Berge, Collier and Casper"
 }
 ```
 
@@ -89,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Auer-Schultz"
+"Blanda LLC"
 ```

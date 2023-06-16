@@ -1,6 +1,7 @@
 ---
 title: PUT List/SaleType/Items/{id}
 uid: v1SaleTypeList_PutSaleTypeEntity
+generated: true
 ---
 
 # PUT List/SaleType/Items/{id}
@@ -111,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 494,
-  "Name": "Simonis, Ziemann and Morar",
-  "Tooltip": "consequatur",
-  "Rank": 420,
+  "SaleTypeId": 695,
+  "Name": "Brakus LLC",
+  "Tooltip": "blanditiis",
+  "Rank": 301,
   "DurationUnit": "Century",
-  "SaleDuration": 400,
-  "SaleTypeCatId": 430,
+  "SaleDuration": 746,
+  "SaleTypeCatId": 850,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 671,
-  "QuoteLinesTemplate": 141,
-  "ConfirmationLinesTemplate": 985,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 602,
+  "QuoteLinesTemplate": 736,
+  "ConfirmationLinesTemplate": 44,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 225,
-  "MinEarningPercent": 806,
-  "GroupQuoteLinesBy": 122,
-  "SortGroupLinesBy": 540,
+  "MaxDiscountPercent": 184,
+  "MinEarningPercent": 587,
+  "GroupQuoteLinesBy": 695,
+  "SortGroupLinesBy": 15,
   "Stages": [
     {
-      "Id": 942,
-      "Name": "Reinger-Franecki",
-      "ToolTip": "Veniam facere minima quasi.",
+      "Id": 864,
+      "Name": "Predovic-Berge",
+      "ToolTip": "Natus deleniti aut quae.",
       "Deleted": false,
-      "Rank": 910,
-      "Type": "corporis",
-      "ColorBlock": 276,
-      "IconHint": "eum",
-      "Selected": true,
-      "LastChanged": "2007-02-25T03:51:34.9426529+01:00",
+      "Rank": 241,
+      "Type": "dolor",
+      "ColorBlock": 612,
+      "IconHint": "quis",
+      "Selected": false,
+      "LastChanged": "2004-09-03T16:00:49.3051793+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "accusamus",
-      "StyleHint": "rerum",
-      "Hidden": false,
-      "FullName": "Mrs. Bryon Bartoletti III"
+      "ExtraInfo": "recusandae",
+      "StyleHint": "veritatis",
+      "Hidden": true,
+      "FullName": "Napoleon Shields"
     }
   ]
 }
@@ -168,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 77,
-  "Name": "Kris-Marks",
-  "Tooltip": "accusamus",
-  "Rank": 37,
+  "SaleTypeId": 14,
+  "Name": "Marquardt, Hoppe and Medhurst",
+  "Tooltip": "tempore",
+  "Rank": 207,
   "DurationUnit": "Century",
-  "SaleDuration": 104,
-  "SaleTypeCatId": 813,
+  "SaleDuration": 431,
+  "SaleTypeCatId": 14,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 674,
-  "QuoteLinesTemplate": 251,
-  "ConfirmationLinesTemplate": 817,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 113,
+  "QuoteLinesTemplate": 505,
+  "ConfirmationLinesTemplate": 252,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 40,
-  "MinEarningPercent": 766,
-  "GroupQuoteLinesBy": 91,
-  "SortGroupLinesBy": 728,
+  "MaxDiscountPercent": 215,
+  "MinEarningPercent": 947,
+  "GroupQuoteLinesBy": 66,
+  "SortGroupLinesBy": 821,
   "Stages": [
     {
-      "Id": 249,
-      "Name": "Green LLC",
-      "ToolTip": "Et assumenda dolorem.",
+      "Id": 579,
+      "Name": "Mayert LLC",
+      "ToolTip": "Corporis numquam iste error ut.",
       "Deleted": false,
-      "Rank": 739,
-      "Type": "ullam",
-      "ColorBlock": 265,
-      "IconHint": "facilis",
-      "Selected": false,
-      "LastChanged": "1999-09-11T03:51:34.9426529+02:00",
+      "Rank": 6,
+      "Type": "numquam",
+      "ColorBlock": 181,
+      "IconHint": "tempora",
+      "Selected": true,
+      "LastChanged": "2018-01-02T16:00:49.3208058+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "facilis",
+      "ExtraInfo": "laudantium",
+      "StyleHint": "eveniet",
       "Hidden": false,
-      "FullName": "Prof. Gust Bernhard",
+      "FullName": "Mr. Skye Earnestine Simonis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldLength": 225
         }
       }
     }
@@ -224,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldLength": 184
     }
   }
 }

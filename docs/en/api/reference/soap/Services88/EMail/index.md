@@ -1,7 +1,7 @@
 ---
 title: Services88.EMailAgent SOAP
 uid: Services88-EMail-soap
-generated: 1
+generated: true
 ---
 
 # Services88 EMail SOAP

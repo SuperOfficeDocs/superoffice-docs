@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetListItemsForUserGroupFromListName
 uid: v1ListAgent_GetListItemsForUserGroupFromListName
+generated: true
 ---
 
 # POST Agents/List/GetListItemsForUserGroupFromListName
@@ -87,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ullrich Group",
-  "GroupId": 697
+  "UdListDefinitionName": "Hills, Cartwright and Watsica",
+  "GroupId": 472
 }
 ```
 
@@ -104,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Mann Group",
-    "ToolTip": "Enim dolore voluptatem aut animi dolorem.",
+    "Id": 551,
+    "Name": "Herman LLC",
+    "ToolTip": "Ex minima et consequatur eligendi ea.",
     "Deleted": false,
-    "Rank": 958,
-    "Type": "praesentium",
-    "ColorBlock": 147,
-    "IconHint": "nemo",
+    "Rank": 210,
+    "Type": "et",
+    "ColorBlock": 608,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "2015-07-28T03:51:27.4279277+02:00",
+    "LastChanged": "2013-10-21T16:00:41.1487084+02:00",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Stanton-Gaylord",
-        "ToolTip": "Nihil ab rerum autem dolore et consequatur.",
+        "Id": 955,
+        "Name": "Willms, Cruickshank and Fay",
+        "ToolTip": "Reprehenderit reprehenderit minima harum atque libero rerum.",
         "Deleted": false,
-        "Rank": 974,
-        "Type": "itaque",
-        "ColorBlock": 966,
-        "IconHint": "corrupti",
-        "Selected": false,
-        "LastChanged": "2007-06-25T03:51:27.4279277+02:00",
+        "Rank": 82,
+        "Type": "vel",
+        "ColorBlock": 531,
+        "IconHint": "temporibus",
+        "Selected": true,
+        "LastChanged": "2009-03-08T16:00:41.1487084+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "beatae",
+        "ExtraInfo": "nam",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Prof. Alyce Catherine Braun V",
+        "FullName": "Michele Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 505
+            "FieldType": "System.Int32",
+            "FieldLength": 70
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "commodi",
-    "Hidden": false,
-    "FullName": "Alysson Boyle",
+    "ExtraInfo": "dolores",
+    "StyleHint": "nulla",
+    "Hidden": true,
+    "FullName": "Mrs. Myles Mohammed Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 504
+        "FieldLength": 593
       }
     }
   }

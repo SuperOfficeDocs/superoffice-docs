@@ -1,6 +1,7 @@
 ---
 title: PUT List/Source/Items/{id}/Headings
 uid: v1SourceList_PutSourceHeadingsForListItem
+generated: true
 ---
 
 # PUT List/Source/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 497,
-    "Name": "Stamm Group",
-    "ToolTip": "Perferendis id qui ea minima natus deserunt.",
+    "Id": 779,
+    "Name": "Olson, Hodkiewicz and Bode",
+    "ToolTip": "Eos commodi voluptatem laboriosam et numquam.",
     "Deleted": true,
-    "Rank": 778,
-    "Type": "maxime",
-    "ColorBlock": 340,
-    "IconHint": "excepturi",
-    "Selected": false,
-    "LastChanged": "2014-07-18T03:51:34.9738936+02:00",
+    "Rank": 305,
+    "Type": "mollitia",
+    "ColorBlock": 156,
+    "IconHint": "hic",
+    "Selected": true,
+    "LastChanged": "2019-08-24T16:00:49.3527243+02:00",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "Stanton Group",
-        "ToolTip": "Eum amet officia iste reiciendis consequuntur.",
-        "Deleted": false,
-        "Rank": 131,
-        "Type": "quo",
-        "ColorBlock": 672,
-        "IconHint": "ratione",
+        "Id": 782,
+        "Name": "Bayer, Hansen and Grant",
+        "ToolTip": "Laborum eos et recusandae quos.",
+        "Deleted": true,
+        "Rank": 98,
+        "Type": "optio",
+        "ColorBlock": 389,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2015-10-25T03:51:34.9738936+01:00",
+        "LastChanged": "1999-12-06T16:00:49.3527243+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "reiciendis",
-        "Hidden": false,
-        "FullName": "Cletus Kamren Luettgen I"
+        "ExtraInfo": "rem",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Louie Raynor"
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "at",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Lisa Stehr"
+    "FullName": "Mr. Dalton Omer Adams"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 846,
-    "Name": "Bergnaum-Christiansen",
-    "ToolTip": "Natus eius fugiat ullam aut.",
+    "Id": 288,
+    "Name": "Donnelly, Kiehn and Schoen",
+    "ToolTip": "Facere aliquid placeat facilis quia inventore quaerat.",
     "Deleted": false,
-    "Rank": 958,
-    "Type": "maxime",
-    "ColorBlock": 726,
-    "IconHint": "accusantium",
-    "Selected": false,
-    "LastChanged": "2014-03-25T03:51:34.9895221+01:00",
+    "Rank": 366,
+    "Type": "excepturi",
+    "ColorBlock": 201,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2015-04-17T16:00:49.3527243+02:00",
     "ChildItems": [
       {
-        "Id": 450,
-        "Name": "Abbott-Krajcik",
-        "ToolTip": "Numquam architecto quae beatae autem qui facilis.",
+        "Id": 322,
+        "Name": "Orn-Barrows",
+        "ToolTip": "Accusantium et sit quis exercitationem molestias.",
         "Deleted": false,
-        "Rank": 289,
-        "Type": "officiis",
-        "ColorBlock": 904,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "1998-09-18T03:51:34.9895221+02:00",
+        "Rank": 773,
+        "Type": "sit",
+        "ColorBlock": 879,
+        "IconHint": "id",
+        "Selected": false,
+        "LastChanged": "2007-10-18T16:00:49.3527243+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Charity Murazik",
+        "ExtraInfo": "sunt",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Zella Carroll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 882
+            "FieldLength": 92
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Teagan Borer",
+    "FullName": "Dallas Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 827
+        "FieldType": "System.Int32",
+        "FieldLength": 584
       }
     }
   }

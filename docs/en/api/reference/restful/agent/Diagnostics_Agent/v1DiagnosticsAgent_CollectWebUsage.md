@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Diagnostics/CollectWebUsage
 uid: v1DiagnosticsAgent_CollectWebUsage
+generated: true
 ---
 
 # POST Agents/Diagnostics/CollectWebUsage

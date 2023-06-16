@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetCountry
 uid: v1ListAgent_GetCountry
+generated: true
 ---
 
 # POST Agents/List/GetCountry
@@ -25,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=827
+POST /api/v1/Agents/List/GetCountry?countryId=533
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -83,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 380,
-  "Name": "Robel-Pfannerstill",
-  "CurrencyId": 345,
-  "EnglishName": "Senger, Bogan and Gutmann",
+  "CountryId": 949,
+  "Name": "Gibson-Wunsch",
+  "CurrencyId": 339,
+  "EnglishName": "Stamm Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Realigned 5th generation hardware",
-  "OrgNrText": "532275",
-  "InterAreaPrefix": "placeat",
-  "DialInPrefix": "sunt",
-  "ZipPrefix": "inventore",
-  "DomainName": "Schneider, Senger and Watsica",
-  "AddressLayoutId": 635,
-  "DomesticAddressLayoutId": 780,
-  "ForeignAddressLayoutId": 946,
-  "Rank": 55,
-  "Tooltip": "incidunt",
+  "ImageDescription": "Virtual empowering emulation",
+  "OrgNrText": "343460",
+  "InterAreaPrefix": "eaque",
+  "DialInPrefix": "voluptatem",
+  "ZipPrefix": "cumque",
+  "DomainName": "Funk, Ziemann and Conn",
+  "AddressLayoutId": 386,
+  "DomesticAddressLayoutId": 315,
+  "ForeignAddressLayoutId": 798,
+  "Rank": 136,
+  "Tooltip": "quisquam",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldType": "System.String",
+      "FieldLength": 578
     }
   }
 }

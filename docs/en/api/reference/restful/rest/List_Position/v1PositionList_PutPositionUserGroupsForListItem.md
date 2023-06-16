@@ -1,6 +1,7 @@
 ---
 title: PUT List/Position/Items/{id}/UserGroups
 uid: v1PositionList_PutPositionUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/Position/Items/{id}/UserGroups
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "Erdman, Senger and Denesik",
-    "ToolTip": "Sunt voluptas.",
-    "Deleted": false,
-    "Rank": 787,
-    "Type": "repellat",
-    "ColorBlock": 799,
-    "IconHint": "unde",
-    "Selected": false,
-    "LastChanged": "2013-04-22T03:51:34.7708309+02:00",
+    "Id": 383,
+    "Name": "Weber Inc and Sons",
+    "ToolTip": "Porro qui sit et unde amet velit.",
+    "Deleted": true,
+    "Rank": 662,
+    "Type": "recusandae",
+    "ColorBlock": 8,
+    "IconHint": "repellendus",
+    "Selected": true,
+    "LastChanged": "2012-01-25T16:00:49.1177018+01:00",
     "ChildItems": [
       {
-        "Id": 310,
-        "Name": "Gibson-Ernser",
-        "ToolTip": "Rerum illum aut possimus vel excepturi.",
+        "Id": 5,
+        "Name": "Trantow-O'Hara",
+        "ToolTip": "Ut recusandae et minima illum modi consequatur.",
         "Deleted": false,
-        "Rank": 516,
-        "Type": "et",
-        "ColorBlock": 303,
-        "IconHint": "odio",
+        "Rank": 888,
+        "Type": "ipsum",
+        "ColorBlock": 129,
+        "IconHint": "ullam",
         "Selected": true,
-        "LastChanged": "2019-04-21T03:51:34.7708309+02:00",
+        "LastChanged": "2007-05-19T16:00:49.1177018+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "asperiores",
-        "Hidden": false,
-        "FullName": "Camden Hand"
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "tempore",
+        "Hidden": true,
+        "FullName": "Adolphus Tillman"
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "magni",
-    "Hidden": true,
-    "FullName": "Evangeline Runte"
+    "ExtraInfo": "beatae",
+    "StyleHint": "ipsa",
+    "Hidden": false,
+    "FullName": "Ms. Clara Ashlee Greenfelder"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Adams, Beahan and Schimmel",
-    "ToolTip": "Architecto reprehenderit ducimus fugiat quia at vel.",
-    "Deleted": true,
-    "Rank": 550,
-    "Type": "ratione",
-    "ColorBlock": 374,
-    "IconHint": "perferendis",
-    "Selected": false,
-    "LastChanged": "2003-02-19T03:51:34.7708309+01:00",
+    "Id": 918,
+    "Name": "Strosin-Beatty",
+    "ToolTip": "Et at harum ad tempora quis.",
+    "Deleted": false,
+    "Rank": 957,
+    "Type": "sunt",
+    "ColorBlock": 692,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2023-06-07T16:00:49.1177018+02:00",
     "ChildItems": [
       {
-        "Id": 650,
-        "Name": "Wiza-Turcotte",
-        "ToolTip": "Voluptatibus aut.",
-        "Deleted": false,
-        "Rank": 671,
-        "Type": "optio",
-        "ColorBlock": 128,
-        "IconHint": "repellat",
+        "Id": 194,
+        "Name": "Schimmel LLC",
+        "ToolTip": "Quis totam quas consequatur qui ab.",
+        "Deleted": true,
+        "Rank": 940,
+        "Type": "deserunt",
+        "ColorBlock": 344,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2010-05-13T03:51:34.7708309+02:00",
+        "LastChanged": "2019-03-21T16:00:49.1177018+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "aut",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "eligendi",
         "Hidden": false,
-        "FullName": "Ms. Maida Garrison Carroll",
+        "FullName": "Xander Wisozk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 858
+            "FieldLength": 933
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Miss Stefan Helene Koelpin",
+    "ExtraInfo": "id",
+    "StyleHint": "sunt",
+    "Hidden": true,
+    "FullName": "Prof. Bernadette Cordie Haag V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldLength": 619
       }
     }
   }

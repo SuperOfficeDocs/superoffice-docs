@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetSaleStakeholder
 uid: v1SaleAgent_GetSaleStakeholder
+generated: true
 ---
 
 # POST Agents/Sale/GetSaleStakeholder
@@ -25,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=845
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=215
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -94,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Becker LLC",
-  "Comment": "optio",
-  "StakeholderRoleId": 813,
-  "CountryId": 371,
-  "PersonId": 373,
-  "EmailDescription": "kaleigh@towneblock.ca",
-  "EmailId": 626,
-  "EmailAddress": "christopher.ankunding@ferry.name",
-  "PhoneId": 187,
-  "ContactName": "Prosacco, Runolfsson and Collier",
-  "ContactId": 218,
-  "SaleId": 907,
-  "Mrmrs": "ipsam",
-  "Firstname": "Mazie",
-  "MiddleName": "Grimes-Hamill",
-  "Lastname": "Flatley",
-  "SaleStakeholderId": 753,
-  "Rank": 165,
-  "Phone": "1-640-410-1829 x0353",
+  "StakeholderRoleName": "Ferry Group",
+  "Comment": "eum",
+  "StakeholderRoleId": 257,
+  "CountryId": 755,
+  "PersonId": 252,
+  "EmailDescription": "alex@roob.info",
+  "EmailId": 455,
+  "EmailAddress": "hope.watsica@renner.info",
+  "PhoneId": 201,
+  "ContactName": "Gusikowski-Wuckert",
+  "ContactId": 871,
+  "SaleId": 547,
+  "Mrmrs": "aut",
+  "Firstname": "Tate",
+  "MiddleName": "Muller-Prohaska",
+  "Lastname": "Ryan",
+  "SaleStakeholderId": 325,
+  "Rank": 771,
+  "Phone": "(962)493-0502",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 708
     }
   }
 }

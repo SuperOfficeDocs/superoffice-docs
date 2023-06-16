@@ -1,6 +1,7 @@
 ---
 title: POST List/ReasonSold/Items
 uid: v1ReasonSoldList_PostReasonSold
+generated: true
 ---
 
 # POST List/ReasonSold/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 21,
-  "Name": "Cummerata-Torphy",
-  "Tooltip": "a",
-  "Deleted": true,
-  "UdListDefinitionId": 236,
-  "Rank": 565
+  "Id": 212,
+  "Name": "Murray, Pollich and Wunsch",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 255,
+  "Rank": 85
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Daniel, Rogahn and Wilkinson",
-  "Tooltip": "dolore",
+  "Id": 129,
+  "Name": "Breitenberg-Grady",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "UdListDefinitionId": 164,
-  "Rank": 823,
+  "UdListDefinitionId": 451,
+  "Rank": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 938
     }
   }
 }

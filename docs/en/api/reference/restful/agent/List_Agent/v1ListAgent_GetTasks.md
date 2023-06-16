@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetTasks
 uid: v1ListAgent_GetTasks
+generated: true
 ---
 
 # POST Agents/List/GetTasks
@@ -77,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Value": "corrupti",
-    "Tooltip": "veritatis",
+    "Id": 895,
+    "Value": "voluptatem",
+    "Tooltip": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 489
+        "FieldType": "System.Int32",
+        "FieldLength": 893
       }
     }
   },
   {
-    "Id": 671,
-    "Value": "corrupti",
-    "Tooltip": "veritatis",
+    "Id": 895,
+    "Value": "voluptatem",
+    "Tooltip": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 489
+        "FieldType": "System.Int32",
+        "FieldLength": 893
       }
     }
   }

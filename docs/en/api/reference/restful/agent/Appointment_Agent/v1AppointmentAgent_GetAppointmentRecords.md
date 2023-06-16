@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetAppointmentRecords
 uid: v1AppointmentAgent_GetAppointmentRecords
+generated: true
 ---
 
 # POST Agents/Appointment/GetAppointmentRecords
@@ -114,6 +115,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -123,12 +127,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 333,
-  "RecurrenceRuleId": 448
+  "MotherId": 217,
+  "RecurrenceRuleId": 82
 }
 ```
 
@@ -140,61 +144,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 778,
-    "StartDate": "2008-10-31T03:51:26.1469713+01:00",
-    "EndDate": "1996-03-24T03:51:26.1469713+01:00",
+    "AppointmentId": 516,
+    "StartDate": "2007-05-27T16:00:39.6488525+02:00",
+    "EndDate": "2013-05-30T16:00:39.6488525+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ea",
-    "AssociateFullName": "Rhianna Braun",
-    "ContactName": "Schaefer-Zieme",
-    "Description": "Diverse exuding ability",
-    "PersonFullName": "Kenyon Boyer DDS",
-    "PersonId": 589,
-    "ContactId": 807,
-    "ProjectId": 418,
-    "ProjectName": "Kemmer Inc and Sons",
+    "Task": "velit",
+    "AssociateFullName": "Jane Morar",
+    "ContactName": "Collier-Reynolds",
+    "Description": "Cross-platform reciprocal flexibility",
+    "PersonFullName": "Ms. August Mertz III",
+    "PersonId": 172,
+    "ContactId": 32,
+    "ProjectId": 766,
+    "ProjectName": "Barrows-Crona",
     "IsPublished": false,
-    "AssociateId": 937,
-    "ColorIndex": 807,
+    "AssociateId": 938,
+    "ColorIndex": 85,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 625,
-    "PriorityName": "Conroy LLC",
+    "PriorityId": 850,
+    "PriorityName": "Schowalter, Kautzer and Cassin",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1996-11-08T03:51:26.1469713+01:00",
+    "ActiveDate": "2017-11-06T16:00:39.6488525+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-01-20T03:51:26.1469713+01:00",
-    "RecurringEndDate": "2002-03-04T03:51:26.1469713+01:00",
-    "MotherId": 400,
-    "AssignedBy": 518,
-    "AssignedByFullName": "Maximillia Veum",
+    "RecurringStartDate": "2001-07-24T16:00:39.6488525+02:00",
+    "RecurringEndDate": "2001-09-13T16:00:39.6488525+02:00",
+    "MotherId": 468,
+    "AssignedBy": 233,
+    "AssignedByFullName": "Effie Ramiro Pacocha DVM",
     "RejectReason": "",
-    "Location": "illo",
-    "AlarmLeadTime": "laborum",
-    "SaleId": 115,
-    "SaleName": "Padberg Group",
-    "AssociateName": "Feil, Buckridge and Walter",
-    "CreatedDate": "2003-05-16T03:51:26.1469713+02:00",
-    "CreatedBy": "voluptatem",
-    "CreatedByFullName": "Brielle Turner",
-    "CreatedByAssociateId": 801,
+    "Location": "ut",
+    "AlarmLeadTime": "enim",
+    "SaleId": 294,
+    "SaleName": "Dickinson, Kuphal and Zboncak",
+    "AssociateName": "Stiedemann Group",
+    "CreatedDate": "2008-12-06T16:00:39.6488525+01:00",
+    "CreatedBy": "animi",
+    "CreatedByFullName": "Solon Wintheiser",
+    "CreatedByAssociateId": 587,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "eius",
+    "Agenda": "beatae",
+    "InternalNotes": "inventore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 375
       }
     }
   }

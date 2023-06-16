@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Report/DeleteReport
 uid: v1ReportAgent_DeleteReport
+generated: true
 ---
 
 # POST Agents/Report/DeleteReport
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Report/DeleteReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 780
+  "ReportId": 759
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

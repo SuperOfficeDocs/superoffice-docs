@@ -1,6 +1,7 @@
 ---
 title: PATCH Dashboard/{id}
 uid: v1Dashboard_PatchDashboard
+generated: true
 ---
 
 # PATCH Dashboard/{id}
@@ -111,18 +112,18 @@ Dashboard  updated.
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nostrum",
+    "path": "aliquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nostrum",
+    "path": "aliquam",
     "value": {}
   }
 ]
@@ -135,22 +136,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 731,
-  "AssociateId": 585,
-  "Caption": "facilis",
+  "DashboardId": 860,
+  "AssociateId": 590,
+  "Caption": "ea",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 984,
-      "Caption": "reprehenderit",
-      "Description": "Operative solution-oriented emulation",
-      "ChartName": "Heaney-Shanahan",
-      "ChartId": "necessitatibus",
+      "DashboardTileId": 725,
+      "Caption": "ratione",
+      "Description": "Focused mobile service-desk",
+      "ChartName": "Conroy, Waters and Block",
+      "ChartId": "vitae",
       "IsDefault": true,
-      "AssociateId": 326,
-      "GroupId": 476,
-      "SelectionId": 187,
-      "Config": "iusto",
+      "AssociateId": 876,
+      "GroupId": 167,
+      "SelectionId": 469,
+      "Config": "pariatur",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -166,7 +167,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 657
+          "FieldLength": 571
         }
       }
     }
@@ -175,8 +176,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldType": "System.String",
+      "FieldLength": 664
     }
   },
   "_Links": {

@@ -1,17 +1,11 @@
 ---
 uid: relationdefinition
 title: relationdefinition
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "relationdefinition"
+keywords: mdoprovider mdo provider relationdefinition
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "relationdefinition" MDO List

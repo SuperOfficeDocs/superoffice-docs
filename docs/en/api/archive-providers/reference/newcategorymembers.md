@@ -2,17 +2,10 @@
 uid: NewCategoryMembers
 title: NewCategoryMembers
 description: Archive of NewCategoryMember - used by the web api.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "NewCategoryMembers"
+keywords: NewCategoryMembers archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "NewCategoryMembers"

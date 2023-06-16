@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/DeleteUserFromName
 uid: v1UserAgent_DeleteUserFromName
+generated: true
 ---
 
 # POST Agents/User/DeleteUserFromName
@@ -69,7 +70,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Considine-Hoeger"
+  "UserName": "Connelly, Gottlieb and Kovacek"
 }
 ```
 

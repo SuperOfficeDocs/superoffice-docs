@@ -1,6 +1,7 @@
 ---
 title: DEL Appointment/{id}
 uid: v1AppointmentEntity_DeleteAppointmentEntity
+generated: true
 ---
 
 # DEL Appointment/{id}
@@ -52,7 +53,7 @@ AppointmentEntity deleted.
 DELETE /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

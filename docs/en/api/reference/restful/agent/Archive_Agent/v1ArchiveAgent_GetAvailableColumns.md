@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Archive/GetAvailableColumns
 uid: v1ArchiveAgent_GetAvailableColumns
+generated: true
 ---
 
 # POST Agents/Archive/GetAvailableColumns
@@ -85,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Nader Inc and Sons",
-  "Context": "ratione"
+  "ProviderName": "Lind, Johnson and Towne",
+  "Context": "dolorem"
 }
 ```
 
@@ -102,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Buckridge, Orn and Mayert",
-    "DisplayTooltip": "blanditiis",
-    "DisplayType": "consequatur",
-    "CanOrderBy": true,
-    "Name": "Kohler Group",
-    "CanRestrictBy": true,
-    "RestrictionType": "delectus",
-    "RestrictionListName": "Gutmann LLC",
+    "DisplayName": "Harber, Friesen and Reichel",
+    "DisplayTooltip": "iure",
+    "DisplayType": "in",
+    "CanOrderBy": false,
+    "Name": "Casper Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "modi",
+    "RestrictionListName": "Runolfsson-Haley",
     "IsVisible": true,
-    "ExtraInfo": "nam",
-    "Width": "alias",
-    "IconHint": "ut",
-    "HeadingIconHint": "quisquam"
+    "ExtraInfo": "et",
+    "Width": "eveniet",
+    "IconHint": "vitae",
+    "HeadingIconHint": "officia"
   }
 ]
 ```

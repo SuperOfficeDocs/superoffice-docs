@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetExtendedEmailMessageIds
 uid: v1EMailAgent_GetExtendedEmailMessageIds
+generated: true
 ---
 
 # POST Agents/EMail/GetExtendedEmailMessageIds
@@ -84,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "sit",
-  "alias"
+  "sunt",
+  "nam"
 ]
 ```

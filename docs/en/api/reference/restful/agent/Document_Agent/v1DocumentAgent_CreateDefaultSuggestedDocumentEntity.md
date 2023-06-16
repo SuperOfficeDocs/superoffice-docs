@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/CreateDefaultSuggestedDocumentEntity
 uid: v1DocumentAgent_CreateDefaultSuggestedDocumentEntity
+generated: true
 ---
 
 # POST Agents/Document/CreateDefaultSuggestedDocumentEntity
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,14 +77,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 817,
-  "Name": "Muller-Dickinson",
-  "Tooltip": "animi",
-  "Rank": 49,
-  "DoctmplId": 971,
-  "Header": "illum",
-  "OurRef": "ut",
-  "Deleted": false,
+  "SuggestedDocumentId": 778,
+  "Name": "Hoeger-Barrows",
+  "Tooltip": "eos",
+  "Rank": 575,
+  "DoctmplId": 907,
+  "Header": "autem",
+  "OurRef": "dolor",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -92,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldLength": 322
     }
   }
 }

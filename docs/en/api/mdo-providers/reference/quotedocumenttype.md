@@ -1,17 +1,11 @@
 ---
 uid: quotedocumenttype
 title: quotedocumenttype
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "quotedocumenttype"
+keywords: mdoprovider mdo provider quotedocumenttype
+description: List of quote document types - assumes ExtraInfo is the name of RecordType enum value
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "quotedocumenttype" MDO List

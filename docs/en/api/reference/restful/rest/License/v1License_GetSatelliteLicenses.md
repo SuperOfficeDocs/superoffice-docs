@@ -1,6 +1,7 @@
 ---
 title: GET License/Site/{id}
 uid: v1License_GetSatelliteLicenses
+generated: true
 ---
 
 # GET License/Site/{id}
@@ -61,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "White-Schumm",
-    "Description": "Polarised radical orchestration",
+    "Name": "Gaylord, Weber and Cartwright",
+    "Description": "Cross-platform even-keeled superstructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 517,
-        "Tooltip": "tempora",
+        "Unrestricted": false,
+        "Total": 880,
+        "Tooltip": "eos",
         "CanAssign": true,
-        "Free": 858,
-        "InUse": 231,
-        "IsHidden": true,
+        "Free": 284,
+        "InUse": 48,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 278,
-        "Name": "Lemke, Kling and Lehner",
-        "Description": "Reduced needs-based forecast",
-        "PrerequisiteModuleName": "Bruen-Spinka",
-        "SortOrder": 533,
-        "ExtraFlags": 448,
+        "ModuleLicenseId": 17,
+        "Name": "Crona Inc and Sons",
+        "Description": "Enterprise-wide optimizing access",
+        "PrerequisiteModuleName": "Bergstrom LLC",
+        "SortOrder": 913,
+        "ExtraFlags": 462,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 743
+            "FieldLength": 606
           }
         }
       }
@@ -103,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 339,
-        "Tooltip": "non",
+        "Total": 266,
+        "Tooltip": "in",
         "CanAssign": false,
-        "Free": 287,
-        "InUse": 593,
+        "Free": 106,
+        "InUse": 195,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 526,
-        "Name": "Balistreri-Walter",
-        "Description": "Function-based holistic infrastructure",
-        "PrerequisiteModuleName": "Rempel-Ruecker",
-        "SortOrder": 135,
-        "ExtraFlags": 660,
+        "Assigned": true,
+        "ModuleLicenseId": 243,
+        "Name": "Koch, Corkery and Nicolas",
+        "Description": "Fundamental intangible internet solution",
+        "PrerequisiteModuleName": "Harvey LLC",
+        "SortOrder": 775,
+        "ExtraFlags": 903,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 987
+            "FieldLength": 559
           }
         }
       }
@@ -131,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 196
+        "FieldLength": 262
       }
     }
   },
   {
-    "Name": "White-Schumm",
-    "Description": "Polarised radical orchestration",
+    "Name": "Gaylord, Weber and Cartwright",
+    "Description": "Cross-platform even-keeled superstructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 517,
-        "Tooltip": "tempora",
+        "Unrestricted": false,
+        "Total": 880,
+        "Tooltip": "eos",
         "CanAssign": true,
-        "Free": 858,
-        "InUse": 231,
-        "IsHidden": true,
+        "Free": 284,
+        "InUse": 48,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 278,
-        "Name": "Lemke, Kling and Lehner",
-        "Description": "Reduced needs-based forecast",
-        "PrerequisiteModuleName": "Bruen-Spinka",
-        "SortOrder": 533,
-        "ExtraFlags": 448,
+        "ModuleLicenseId": 17,
+        "Name": "Crona Inc and Sons",
+        "Description": "Enterprise-wide optimizing access",
+        "PrerequisiteModuleName": "Bergstrom LLC",
+        "SortOrder": 913,
+        "ExtraFlags": 462,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 743
+            "FieldLength": 606
           }
         }
       }
@@ -167,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 339,
-        "Tooltip": "non",
+        "Total": 266,
+        "Tooltip": "in",
         "CanAssign": false,
-        "Free": 287,
-        "InUse": 593,
+        "Free": 106,
+        "InUse": 195,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 526,
-        "Name": "Balistreri-Walter",
-        "Description": "Function-based holistic infrastructure",
-        "PrerequisiteModuleName": "Rempel-Ruecker",
-        "SortOrder": 135,
-        "ExtraFlags": 660,
+        "Assigned": true,
+        "ModuleLicenseId": 243,
+        "Name": "Koch, Corkery and Nicolas",
+        "Description": "Fundamental intangible internet solution",
+        "PrerequisiteModuleName": "Harvey LLC",
+        "SortOrder": 775,
+        "ExtraFlags": 903,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 987
+            "FieldLength": 559
           }
         }
       }
@@ -195,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 196
+        "FieldLength": 262
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CreateAndSaveQuoteFromSale
 uid: v1QuoteAgent_CreateAndSaveQuoteFromSale
+generated: true
 ---
 
 # POST Agents/Quote/CreateAndSaveQuoteFromSale
@@ -85,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 168,
-  "CopyToSaleId": 87
+  "CopyFromSaleId": 507,
+  "CopyToSaleId": 822
 }
 ```
 
@@ -101,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 535,
-  "SaleId": 692,
-  "QuoteConnectionId": 7,
+  "QuoteId": 758,
+  "SaleId": 975,
+  "QuoteConnectionId": 897,
   "ERPQuoteKey": "et",
-  "ERPOrderKey": "autem",
-  "ActiveQuoteVersionId": 974,
-  "AcceptedQuoteAlternativeId": 143,
-  "UseValuesFromQuote": 417,
-  "DocumentId": 119,
-  "PoNumber": "1003167",
-  "OrderComment": "exercitationem",
-  "PreferredEmailCulture": "ocie@stoltenberg.biz",
+  "ERPOrderKey": "et",
+  "ActiveQuoteVersionId": 191,
+  "AcceptedQuoteAlternativeId": 972,
+  "UseValuesFromQuote": 266,
+  "DocumentId": 263,
+  "PoNumber": "1574370",
+  "OrderComment": "et",
+  "PreferredEmailCulture": "missouri_bednar@mraz.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 471,
-      "ERPQuoteVersionKey": "delectus",
-      "QuoteId": 288,
-      "Description": "Optional reciprocal utilisation",
-      "Number": "1230171",
+      "QuoteVersionId": 313,
+      "ERPQuoteVersionKey": "aperiam",
+      "QuoteId": 755,
+      "Description": "De-engineered directional infrastructure",
+      "Number": "824746",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 252,
-      "SentDate": "2022-07-09T03:51:28.0215395+02:00",
-      "FollowupId": 547,
-      "ExpirationDate": "1997-08-10T03:51:28.0215395+02:00",
-      "DeliveryCountryId": 631,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 441,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "quis",
-      "ERPPaymentTypeKey": "esse",
-      "ERPDeliveryTermsKey": "voluptatem",
-      "ERPDeliveryTypeKey": "voluptatem",
-      "Rank": 576,
-      "ApprovedBy": 1000,
-      "ApprovedText": "quia",
-      "ApprovedRegisteredBy": 547,
-      "ApprovedRegisteredDate": "1996-05-19T03:51:28.0215395+02:00",
-      "ExtraField1": "animi",
-      "ExtraField2": "blanditiis",
-      "ExtraField3": "explicabo",
-      "ExtraField4": "ut",
-      "ExtraField5": "rerum",
-      "LastRecalculated": "2009-01-21T03:51:28.0215395+01:00",
-      "Updated": "1998-04-02T03:51:28.0215395+02:00",
-      "UpdatedAssociateId": 859,
-      "Registered": "1997-12-17T03:51:28.0215395+01:00",
-      "RegisteredAssociateId": 374,
-      "RequestAssociateId": 547,
-      "RequestComment": "consequatur",
+      "LikelyQuoteAlternativeId": 253,
+      "SentDate": "2001-12-11T16:00:41.6644415+01:00",
+      "FollowupId": 572,
+      "ExpirationDate": "2007-04-15T16:00:41.6644415+02:00",
+      "DeliveryCountryId": 668,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 957,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "qui",
+      "ERPPaymentTypeKey": "quia",
+      "ERPDeliveryTermsKey": "qui",
+      "ERPDeliveryTypeKey": "eius",
+      "Rank": 71,
+      "ApprovedBy": 679,
+      "ApprovedText": "omnis",
+      "ApprovedRegisteredBy": 999,
+      "ApprovedRegisteredDate": "2009-05-22T16:00:41.6644415+02:00",
+      "ExtraField1": "repellendus",
+      "ExtraField2": "in",
+      "ExtraField3": "vitae",
+      "ExtraField4": "nam",
+      "ExtraField5": "porro",
+      "LastRecalculated": "2018-09-17T16:00:41.6644415+02:00",
+      "Updated": "2006-10-10T16:00:41.6644415+02:00",
+      "UpdatedAssociateId": 709,
+      "Registered": "2001-05-09T16:00:41.6644415+02:00",
+      "RegisteredAssociateId": 720,
+      "RequestAssociateId": 881,
+      "RequestComment": "vel",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 250
+          "FieldLength": 639
         }
       }
     }
@@ -172,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 300
     }
   }
 }

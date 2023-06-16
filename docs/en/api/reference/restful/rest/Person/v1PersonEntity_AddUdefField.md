@@ -1,6 +1,7 @@
 ---
 title: POST Person/UdefLayout
 uid: v1PersonEntity_AddUdefField
+generated: true
 ---
 
 # POST Person/UdefLayout
@@ -97,7 +98,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 440,
-  "ColumnId": 303,
-  "FieldDefault": "culpa",
-  "FieldHeight": 969,
-  "FieldLabel": "repellat",
-  "FieldLeft": 227,
-  "FieldTop": 285,
+  "UDefFieldId": 890,
+  "ColumnId": 829,
+  "FieldDefault": "non",
+  "FieldHeight": 45,
+  "FieldLabel": "et",
+  "FieldLeft": 863,
+  "FieldTop": 347,
   "FieldType": "Checkbox",
-  "FieldWidth": 624,
-  "FormatMask": "id",
+  "FieldWidth": 179,
+  "FormatMask": "omnis",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 909,
-  "LabelLeft": 866,
-  "LabelTop": 101,
-  "LabelWidth": 841,
-  "LastVersionId": 799,
-  "ListTableId": 35,
-  "IsMandatory": false,
+  "LabelHeight": 723,
+  "LabelLeft": 665,
+  "LabelTop": 984,
+  "LabelWidth": 476,
+  "LastVersionId": 687,
+  "ListTableId": 31,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 743,
-  "ProgId": "qui",
+  "Page1LineNo": 266,
+  "ProgId": "deleniti",
   "IsReadOnly": false,
-  "ShortLabel": "nihil",
-  "TabOrder": 400,
-  "TextLength": 234,
-  "Tooltip": "omnis",
-  "UdefIdentity": 975,
-  "UDListDefinitionId": 144,
+  "ShortLabel": "soluta",
+  "TabOrder": 179,
+  "TextLength": 574,
+  "Tooltip": "accusamus",
+  "UdefIdentity": 785,
+  "UDListDefinitionId": 745,
   "Justification": "Center",
-  "Version": 976,
-  "TemplateVariableName": "Marquardt-Crist",
+  "Version": 241,
+  "TemplateVariableName": "Murray-Langworth",
   "HasBeenPublished": false,
-  "MdoListName": "Raynor Group",
+  "MdoListName": "Schuppe, Cruickshank and Runolfsson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 117
+      "FieldType": "System.Int32",
+      "FieldLength": 624
     }
   }
 }

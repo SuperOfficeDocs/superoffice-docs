@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetAppointment
 uid: v1AppointmentAgent_GetAppointment
+generated: true
 ---
 
 # POST Agents/Appointment/GetAppointment
@@ -25,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=708
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=415
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -105,6 +106,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -114,7 +118,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -124,61 +128,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 350,
-  "StartDate": "2012-02-01T03:51:26.2094622+01:00",
-  "EndDate": "2022-05-23T03:51:26.2094622+02:00",
+  "AppointmentId": 263,
+  "StartDate": "2002-03-09T16:00:39.8363495+01:00",
+  "EndDate": "2009-09-22T16:00:39.8363495+02:00",
   "Type": "BookingForChecklist",
-  "Task": "voluptatem",
-  "AssociateFullName": "Melany Mayert",
-  "ContactName": "Langworth-Davis",
-  "Description": "Devolved systemic protocol",
-  "PersonFullName": "Lolita Kiera Crist II",
-  "PersonId": 947,
-  "ContactId": 445,
-  "ProjectId": 556,
-  "ProjectName": "Ernser, Schmidt and Jerde",
+  "Task": "velit",
+  "AssociateFullName": "Bianka Mitchell",
+  "ContactName": "Padberg, Effertz and Abshire",
+  "Description": "Grass-roots encompassing leverage",
+  "PersonFullName": "Ashlynn Corkery",
+  "PersonId": 147,
+  "ContactId": 52,
+  "ProjectId": 208,
+  "ProjectName": "Gusikowski Inc and Sons",
   "IsPublished": false,
-  "AssociateId": 479,
-  "ColorIndex": 556,
+  "AssociateId": 360,
+  "ColorIndex": 973,
   "IsFree": false,
   "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 459,
-  "PriorityName": "Lehner, Block and Dickinson",
+  "PriorityId": 51,
+  "PriorityName": "Gorczany-Smith",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2018-08-20T03:51:26.2094622+02:00",
+  "ActiveDate": "2014-12-08T16:00:39.8363495+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2019-04-08T03:51:26.2094622+02:00",
-  "RecurringEndDate": "2014-12-18T03:51:26.2094622+01:00",
-  "MotherId": 951,
-  "AssignedBy": 486,
-  "AssignedByFullName": "Felicity Sipes",
+  "RecurringStartDate": "2017-06-08T16:00:39.8363495+02:00",
+  "RecurringEndDate": "2003-11-03T16:00:39.8363495+01:00",
+  "MotherId": 54,
+  "AssignedBy": 368,
+  "AssignedByFullName": "Miss Norberto Fabiola Ferry",
   "RejectReason": "",
-  "Location": "pariatur",
-  "AlarmLeadTime": "error",
-  "SaleId": 228,
-  "SaleName": "Franecki LLC",
-  "AssociateName": "Abshire, Kris and Herzog",
-  "CreatedDate": "2013-04-27T03:51:26.2094622+02:00",
-  "CreatedBy": "aliquid",
-  "CreatedByFullName": "Eldon Baumbach DDS",
-  "CreatedByAssociateId": 174,
+  "Location": "minus",
+  "AlarmLeadTime": "earum",
+  "SaleId": 325,
+  "SaleName": "Tromp Inc and Sons",
+  "AssociateName": "West Inc and Sons",
+  "CreatedDate": "2018-11-01T16:00:39.8363495+01:00",
+  "CreatedBy": "reiciendis",
+  "CreatedByFullName": "Hellen Kovacek",
+  "CreatedByAssociateId": 83,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
+  "Title": "harum",
+  "Agenda": "dicta",
+  "InternalNotes": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldType": "System.String",
+      "FieldLength": 893
     }
   }
 }

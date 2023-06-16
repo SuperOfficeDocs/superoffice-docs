@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/DeleteTargetGroup
 uid: v1TargetsAgent_DeleteTargetGroup
+generated: true
 ---
 
 # POST Agents/Targets/DeleteTargetGroup
@@ -24,7 +25,7 @@ Deletes the TargetGroup
 | TargetGroupId | int32 | **Required** The id of the TargetGroup to be deleted. |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetGroup?TargetGroupId=666
+POST /api/v1/Agents/Targets/DeleteTargetGroup?TargetGroupId=841
 ```
 
 

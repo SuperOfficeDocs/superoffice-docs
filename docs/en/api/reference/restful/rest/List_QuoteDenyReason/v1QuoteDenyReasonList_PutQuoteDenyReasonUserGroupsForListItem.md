@@ -1,6 +1,7 @@
 ---
 title: PUT List/QuoteDenyReason/Items/{id}/UserGroups
 uid: v1QuoteDenyReasonList_PutQuoteDenyReasonUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/QuoteDenyReason/Items/{id}/UserGroups
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Schuppe, Lynch and West",
-    "ToolTip": "Voluptas distinctio illum inventore.",
-    "Deleted": false,
-    "Rank": 276,
-    "Type": "tempore",
-    "ColorBlock": 607,
-    "IconHint": "reiciendis",
+    "Id": 185,
+    "Name": "Hodkiewicz Group",
+    "ToolTip": "Consectetur libero ratione officia porro.",
+    "Deleted": true,
+    "Rank": 83,
+    "Type": "voluptatibus",
+    "ColorBlock": 441,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2019-10-06T03:51:34.8801783+02:00",
+    "LastChanged": "2002-07-21T16:00:49.2426861+02:00",
     "ChildItems": [
       {
-        "Id": 277,
-        "Name": "Green Inc and Sons",
-        "ToolTip": "Blanditiis vel perferendis.",
+        "Id": 358,
+        "Name": "Gottlieb Inc and Sons",
+        "ToolTip": "Ipsum eligendi est quo tenetur veniam doloremque illum.",
         "Deleted": false,
-        "Rank": 160,
-        "Type": "ex",
-        "ColorBlock": 242,
-        "IconHint": "asperiores",
-        "Selected": false,
-        "LastChanged": "2007-06-12T03:51:34.8801783+02:00",
+        "Rank": 107,
+        "Type": "nulla",
+        "ColorBlock": 40,
+        "IconHint": "in",
+        "Selected": true,
+        "LastChanged": "2022-12-07T16:00:49.2426861+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "ea",
+        "ExtraInfo": "rerum",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Bryce Beatty"
+        "FullName": "Ms. Lenora Lemke DVM"
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "maiores",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Dr. Rolando Balistreri IV"
+    "FullName": "Mr. Harvey Watson Ortiz"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Keebler, Davis and Kub",
-    "ToolTip": "Nobis ratione et ut nihil labore aut.",
+    "Id": 918,
+    "Name": "Beier, Stark and Turner",
+    "ToolTip": "Eius expedita eaque illo impedit.",
     "Deleted": false,
-    "Rank": 817,
-    "Type": "maxime",
-    "ColorBlock": 611,
-    "IconHint": "error",
-    "Selected": true,
-    "LastChanged": "2018-08-17T03:51:34.8801783+02:00",
+    "Rank": 586,
+    "Type": "similique",
+    "ColorBlock": 27,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "2001-05-10T16:00:49.2426861+02:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Romaguera-Towne",
-        "ToolTip": "Quo harum neque atque.",
-        "Deleted": true,
-        "Rank": 39,
-        "Type": "amet",
-        "ColorBlock": 663,
-        "IconHint": "quo",
+        "Id": 491,
+        "Name": "Beer-Kozey",
+        "ToolTip": "Ad omnis deserunt temporibus ut delectus aliquam.",
+        "Deleted": false,
+        "Rank": 677,
+        "Type": "sit",
+        "ColorBlock": 2,
+        "IconHint": "quidem",
         "Selected": false,
-        "LastChanged": "2004-07-06T03:51:34.8801783+02:00",
+        "LastChanged": "2000-04-23T16:00:49.2426861+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "at",
+        "ExtraInfo": "vel",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Marcella Joe Bruen MD",
+        "FullName": "Nakia Smith",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 912
+            "FieldLength": 336
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "sed",
+    "ExtraInfo": "ut",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Daisha Hammes PhD",
+    "FullName": "Dr. Darrion Katlynn Kuphal V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 300
+        "FieldType": "System.Int32",
+        "FieldLength": 35
       }
     }
   }

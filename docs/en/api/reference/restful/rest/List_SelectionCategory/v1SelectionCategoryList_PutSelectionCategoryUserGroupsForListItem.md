@@ -1,6 +1,7 @@
 ---
 title: PUT List/SelectionCategory/Items/{id}/UserGroups
 uid: v1SelectionCategoryList_PutSelectionCategoryUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/SelectionCategory/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Wisoky, Mitchell and Keeling",
-    "ToolTip": "Cum tempore tempora error enim voluptas.",
-    "Deleted": true,
-    "Rank": 140,
-    "Type": "omnis",
-    "ColorBlock": 577,
-    "IconHint": "deleniti",
-    "Selected": true,
-    "LastChanged": "1999-06-13T03:51:34.9582718+02:00",
+    "Id": 758,
+    "Name": "Anderson, Schiller and Moore",
+    "ToolTip": "Dolorum a ut qui.",
+    "Deleted": false,
+    "Rank": 653,
+    "Type": "vel",
+    "ColorBlock": 590,
+    "IconHint": "dolore",
+    "Selected": false,
+    "LastChanged": "2017-12-26T16:00:49.3364234+01:00",
     "ChildItems": [
       {
-        "Id": 55,
-        "Name": "Adams-Wisoky",
-        "ToolTip": "Iure quia nobis officiis architecto exercitationem ad quisquam.",
+        "Id": 359,
+        "Name": "Gerlach-Fahey",
+        "ToolTip": "Blanditiis ipsum porro.",
         "Deleted": false,
-        "Rank": 285,
-        "Type": "dolores",
-        "ColorBlock": 997,
-        "IconHint": "nisi",
-        "Selected": false,
-        "LastChanged": "2022-11-23T03:51:34.9582718+01:00",
+        "Rank": 490,
+        "Type": "similique",
+        "ColorBlock": 87,
+        "IconHint": "tempora",
+        "Selected": true,
+        "LastChanged": "2004-02-22T16:00:49.3364234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "at",
+        "StyleHint": "quas",
         "Hidden": true,
-        "FullName": "Alene Fadel"
+        "FullName": "Dr. Blanca Haag I"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Alejandrin Heathcote"
+    "ExtraInfo": "consectetur",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Mrs. Lucio Herzog"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 789,
-    "Name": "Gutkowski, Romaguera and Yost",
-    "ToolTip": "Consectetur voluptatem eligendi.",
+    "Id": 794,
+    "Name": "Moen LLC",
+    "ToolTip": "Eum non aliquid eum.",
     "Deleted": false,
-    "Rank": 328,
-    "Type": "eligendi",
-    "ColorBlock": 860,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "1998-05-08T03:51:34.9738936+02:00",
+    "Rank": 773,
+    "Type": "voluptas",
+    "ColorBlock": 150,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2017-11-09T16:00:49.3364234+01:00",
     "ChildItems": [
       {
-        "Id": 115,
-        "Name": "Yost-Brakus",
-        "ToolTip": "Quia eos dolorem.",
+        "Id": 63,
+        "Name": "Wuckert LLC",
+        "ToolTip": "Voluptas sit.",
         "Deleted": false,
-        "Rank": 240,
-        "Type": "accusamus",
-        "ColorBlock": 675,
-        "IconHint": "aspernatur",
+        "Rank": 296,
+        "Type": "aut",
+        "ColorBlock": 979,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2020-05-11T03:51:34.9738936+02:00",
+        "LastChanged": "2007-12-15T16:00:49.3364234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "praesentium",
-        "Hidden": true,
-        "FullName": "Thaddeus Will",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "delectus",
+        "Hidden": false,
+        "FullName": "Gwendolyn Velva Sanford III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 334
+            "FieldType": "System.String",
+            "FieldLength": 459
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "illum",
-    "Hidden": true,
-    "FullName": "Ms. Domenick Bartoletti",
+    "ExtraInfo": "est",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Nathan Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldLength": 59
       }
     }
   }

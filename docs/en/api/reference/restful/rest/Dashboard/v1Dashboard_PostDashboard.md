@@ -1,6 +1,7 @@
 ---
 title: POST Dashboard
 uid: v1Dashboard_PostDashboard
+generated: true
 ---
 
 # POST Dashboard
@@ -83,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 954,
-  "AssociateId": 542,
-  "Caption": "reprehenderit",
+  "DashboardId": 637,
+  "AssociateId": 675,
+  "Caption": "eos",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 649,
-      "Caption": "unde",
-      "Description": "Integrated 4th generation capability",
-      "ChartName": "Schaefer Group",
-      "ChartId": "atque",
+      "DashboardTileId": 946,
+      "Caption": "odio",
+      "Description": "Upgradable exuding database",
+      "ChartName": "Gaylord, Kris and Anderson",
+      "ChartId": "ad",
       "IsDefault": false,
-      "AssociateId": 133,
-      "GroupId": 993,
-      "SelectionId": 68,
-      "Config": "explicabo",
+      "AssociateId": 679,
+      "GroupId": 297,
+      "SelectionId": 648,
+      "Config": "eos",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -125,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 817,
-  "AssociateId": 897,
-  "Caption": "ut",
+  "DashboardId": 34,
+  "AssociateId": 289,
+  "Caption": "fugiat",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 807,
-      "Caption": "accusamus",
-      "Description": "Adaptive cohesive installation",
-      "ChartName": "Cronin, Pagac and Hansen",
-      "ChartId": "sint",
-      "IsDefault": true,
-      "AssociateId": 994,
-      "GroupId": 113,
-      "SelectionId": 140,
-      "Config": "ut",
+      "DashboardTileId": 144,
+      "Caption": "ipsa",
+      "Description": "Adaptive logistical ability",
+      "ChartName": "Graham Inc and Sons",
+      "ChartId": "architecto",
+      "IsDefault": false,
+      "AssociateId": 283,
+      "GroupId": 242,
+      "SelectionId": 153,
+      "Config": "omnis",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldLength": 891
         }
       }
     }
@@ -166,12 +167,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldLength": 587
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

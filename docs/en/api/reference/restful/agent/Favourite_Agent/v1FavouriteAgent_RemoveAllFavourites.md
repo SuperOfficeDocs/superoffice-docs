@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Favourite/RemoveAllFavourites
 uid: v1FavouriteAgent_RemoveAllFavourites
+generated: true
 ---
 
 # POST Agents/Favourite/RemoveAllFavourites
@@ -64,12 +65,12 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveAllFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Brekke, Ledner and Dare",
-  "AssociateId": 341
+  "TableName": "Maggio-Koepp",
+  "AssociateId": 384
 }
 ```
 

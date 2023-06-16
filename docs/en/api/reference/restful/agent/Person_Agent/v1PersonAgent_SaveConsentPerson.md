@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/SaveConsentPerson
 uid: v1PersonAgent_SaveConsentPerson
+generated: true
 ---
 
 # POST Agents/Person/SaveConsentPerson
@@ -76,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 64,
+  "ConsentPersonId": 791,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 97,
+  "PersonId": 665,
   "ConsentPurpose": null,
-  "Comment": "accusamus"
+  "Comment": "temporibus"
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 533,
+  "ConsentPersonId": 827,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 357,
+  "PersonId": 170,
   "ConsentPurpose": null,
-  "Comment": "architecto",
+  "Comment": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 744
     }
   }
 }

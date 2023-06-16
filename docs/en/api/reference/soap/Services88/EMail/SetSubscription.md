@@ -1,6 +1,6 @@
 ---
 title: Services88.EMailAgent.SetSubscription SOAP
-generated: 1
+generated: true
 uid: Services88-EMail-SetSubscription
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/UpdateAppointment
 uid: v1AppointmentAgent_UpdateAppointment
+generated: true
 ---
 
 # POST Agents/Appointment/UpdateAppointment
@@ -116,6 +117,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -125,16 +129,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 475,
-  "StartTime": "2013-10-06T03:51:26.1469713+02:00",
-  "EndTime": "2021-12-25T03:51:26.1469713+01:00",
-  "Status": 409,
-  "Type": 8,
-  "AssociateId": 299
+  "Id": 187,
+  "StartTime": "2010-01-29T16:00:39.6488525+01:00",
+  "EndTime": "2001-07-18T16:00:39.6488525+02:00",
+  "Status": 129,
+  "Type": 38,
+  "AssociateId": 844
 }
 ```
 
@@ -145,61 +149,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 652,
-  "StartDate": "1998-03-25T03:51:26.1469713+01:00",
-  "EndDate": "2011-10-20T03:51:26.1469713+02:00",
+  "AppointmentId": 580,
+  "StartDate": "2023-01-08T16:00:39.6488525+01:00",
+  "EndDate": "2012-03-26T16:00:39.6488525+02:00",
   "Type": "BookingForChecklist",
-  "Task": "dolorem",
-  "AssociateFullName": "Vanessa Larkin",
-  "ContactName": "Ullrich Group",
-  "Description": "Front-line context-sensitive hierarchy",
-  "PersonFullName": "Lexus Hickle",
-  "PersonId": 196,
-  "ContactId": 784,
-  "ProjectId": 999,
-  "ProjectName": "Mertz Inc and Sons",
-  "IsPublished": false,
-  "AssociateId": 364,
-  "ColorIndex": 535,
-  "IsFree": false,
-  "HasAlarm": false,
+  "Task": "corrupti",
+  "AssociateFullName": "Gonzalo Hettinger",
+  "ContactName": "Kuhn Group",
+  "Description": "Secured dynamic knowledge user",
+  "PersonFullName": "Mr. Van Blanda",
+  "PersonId": 945,
+  "ContactId": 753,
+  "ProjectId": 899,
+  "ProjectName": "Kessler-Muller",
+  "IsPublished": true,
+  "AssociateId": 196,
+  "ColorIndex": 635,
+  "IsFree": true,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 434,
-  "PriorityName": "Davis Group",
+  "PriorityId": 470,
+  "PriorityName": "Yost Inc and Sons",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2012-02-01T03:51:26.1469713+01:00",
+  "ActiveDate": "1997-02-15T16:00:39.6488525+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2013-04-07T03:51:26.1469713+02:00",
-  "RecurringEndDate": "2005-04-01T03:51:26.1469713+02:00",
-  "MotherId": 400,
-  "AssignedBy": 46,
-  "AssignedByFullName": "Immanuel Sipes",
+  "RecurringStartDate": "2020-11-30T16:00:39.6488525+01:00",
+  "RecurringEndDate": "2007-10-16T16:00:39.6488525+02:00",
+  "MotherId": 35,
+  "AssignedBy": 876,
+  "AssignedByFullName": "Mr. Sibyl Dominic Trantow III",
   "RejectReason": "",
-  "Location": "animi",
-  "AlarmLeadTime": "officiis",
-  "SaleId": 623,
-  "SaleName": "Smith, Krajcik and Haag",
-  "AssociateName": "Kautzer, Mitchell and Schimmel",
-  "CreatedDate": "2000-02-03T03:51:26.1469713+01:00",
-  "CreatedBy": "facilis",
-  "CreatedByFullName": "Mrs. Wilhelm Donnelly III",
-  "CreatedByAssociateId": 690,
+  "Location": "eum",
+  "AlarmLeadTime": "ipsam",
+  "SaleId": 134,
+  "SaleName": "Hettinger, Denesik and McGlynn",
+  "AssociateName": "Hagenes Inc and Sons",
+  "CreatedDate": "2013-05-05T16:00:39.6488525+02:00",
+  "CreatedBy": "reiciendis",
+  "CreatedByFullName": "Micah Kohler",
+  "CreatedByAssociateId": 513,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
+  "Title": "et",
+  "Agenda": "enim",
+  "InternalNotes": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 823
     }
   }
 }

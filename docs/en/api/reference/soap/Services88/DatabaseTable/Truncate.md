@@ -1,6 +1,6 @@
 ---
 title: Services88.DatabaseTableAgent.Truncate SOAP
-generated: 1
+generated: true
 uid: Services88-DatabaseTable-Truncate
 ---
 

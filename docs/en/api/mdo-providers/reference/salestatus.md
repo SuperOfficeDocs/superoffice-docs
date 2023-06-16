@@ -1,17 +1,11 @@
 ---
 uid: salestatus
 title: salestatus
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "salestatus"
+keywords: mdoprovider mdo provider salestatus
+description: List for the Sale.Status field: Open, Lost, Sold, Stalled.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "salestatus" MDO List

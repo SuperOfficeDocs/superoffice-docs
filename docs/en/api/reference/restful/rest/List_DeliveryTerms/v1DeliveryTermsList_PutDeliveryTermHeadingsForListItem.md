@@ -1,6 +1,7 @@
 ---
 title: PUT List/DeliveryTerm/Items/{id}/Headings
 uid: v1DeliveryTermsList_PutDeliveryTermHeadingsForListItem
+generated: true
 ---
 
 # PUT List/DeliveryTerm/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Tillman, Stroman and Tillman",
-    "ToolTip": "Dignissimos est eaque ipsum et aspernatur aspernatur.",
+    "Id": 912,
+    "Name": "Mayert Inc and Sons",
+    "ToolTip": "Esse qui nesciunt aliquid incidunt dolore quas eos.",
     "Deleted": false,
-    "Rank": 826,
-    "Type": "pariatur",
-    "ColorBlock": 345,
-    "IconHint": "veniam",
-    "Selected": true,
-    "LastChanged": "2022-10-14T03:51:34.6614813+02:00",
+    "Rank": 33,
+    "Type": "facilis",
+    "ColorBlock": 633,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2004-07-25T16:00:49.0083336+02:00",
     "ChildItems": [
       {
-        "Id": 929,
-        "Name": "Leuschke-Senger",
-        "ToolTip": "Id est distinctio at adipisci.",
-        "Deleted": true,
-        "Rank": 642,
-        "Type": "enim",
-        "ColorBlock": 88,
-        "IconHint": "quae",
-        "Selected": true,
-        "LastChanged": "1999-05-27T03:51:34.6614813+02:00",
+        "Id": 605,
+        "Name": "Stamm, Gusikowski and Gutkowski",
+        "ToolTip": "Libero nulla omnis doloremque corrupti sint et.",
+        "Deleted": false,
+        "Rank": 48,
+        "Type": "aliquam",
+        "ColorBlock": 515,
+        "IconHint": "maxime",
+        "Selected": false,
+        "LastChanged": "2007-11-07T16:00:49.0083336+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Jessie Ondricka"
+        "FullName": "Odie Gabe Towne MD"
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "distinctio",
-    "Hidden": false,
-    "FullName": "Eloise Rice"
+    "ExtraInfo": "quia",
+    "StyleHint": "quisquam",
+    "Hidden": true,
+    "FullName": "Dr. Ona Luettgen MD"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 348,
-    "Name": "Ratke, Krajcik and Marvin",
-    "ToolTip": "Et dolorem eos nam.",
-    "Deleted": true,
-    "Rank": 450,
-    "Type": "ut",
-    "ColorBlock": 843,
-    "IconHint": "nihil",
+    "Id": 153,
+    "Name": "Emard Group",
+    "ToolTip": "Quasi iste.",
+    "Deleted": false,
+    "Rank": 408,
+    "Type": "fuga",
+    "ColorBlock": 503,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2011-03-20T03:51:34.6770975+01:00",
+    "LastChanged": "2004-06-13T16:00:49.0083336+02:00",
     "ChildItems": [
       {
-        "Id": 358,
-        "Name": "Greenholt, Emard and Larkin",
-        "ToolTip": "Nobis voluptate.",
+        "Id": 287,
+        "Name": "Deckow-Langworth",
+        "ToolTip": "Et et dolor deserunt qui.",
         "Deleted": false,
-        "Rank": 42,
-        "Type": "rerum",
-        "ColorBlock": 899,
-        "IconHint": "quibusdam",
+        "Rank": 406,
+        "Type": "sit",
+        "ColorBlock": 566,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2008-10-12T03:51:34.6770975+02:00",
+        "LastChanged": "1999-07-14T16:00:49.0083336+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Madelynn Deckow",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "quae",
+        "Hidden": false,
+        "FullName": "Danial Braden Swift DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 740
+            "FieldType": "System.Int32",
+            "FieldLength": 958
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "iure",
+    "ExtraInfo": "illo",
+    "StyleHint": "tempora",
     "Hidden": false,
-    "FullName": "Judy Runolfsdottir",
+    "FullName": "Miss Kamryn O'Connell V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 417
+        "FieldLength": 717
       }
     }
   }

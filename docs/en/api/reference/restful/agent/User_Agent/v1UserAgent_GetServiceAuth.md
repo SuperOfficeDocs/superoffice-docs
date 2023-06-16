@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetServiceAuth
 uid: v1UserAgent_GetServiceAuth
+generated: true
 ---
 
 # POST Agents/User/GetServiceAuth
@@ -27,7 +28,7 @@ Gets a ServiceAuth object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetServiceAuth?serviceAuthId=628
+POST /api/v1/Agents/User/GetServiceAuth?serviceAuthId=766
 POST /api/v1/Agents/User/GetServiceAuth?$select=name,department,category/id
 ```
 
@@ -83,18 +84,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 109,
-  "Server": "repudiandae",
-  "Port": 470,
-  "AuthType": "aspernatur",
-  "Username": "nostrum",
-  "Password": "qui",
+  "ServiceAuthId": 384,
+  "Server": "ad",
+  "Port": 92,
+  "AuthType": "sed",
+  "Username": "et",
+  "Password": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 161
     }
   }
 }

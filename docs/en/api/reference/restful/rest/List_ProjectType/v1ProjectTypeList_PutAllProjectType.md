@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProjectType/Items
 uid: v1ProjectTypeList_PutAllProjectType
+generated: true
 ---
 
 # PUT List/ProjectType/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "Daugherty-Bruen",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "UdListDefinitionId": 100,
-    "Rank": 516
+    "Id": 717,
+    "Name": "Little Inc and Sons",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "UdListDefinitionId": 69,
+    "Rank": 598
   },
   {
-    "Id": 492,
-    "Name": "Daugherty-Bruen",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "UdListDefinitionId": 100,
-    "Rank": 516
+    "Id": 717,
+    "Name": "Little Inc and Sons",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "UdListDefinitionId": 69,
+    "Rank": 598
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 208,
-    "Name": "Hyatt, Gislason and Greenholt",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "UdListDefinitionId": 469,
-    "Rank": 954,
+    "Id": 973,
+    "Name": "Kiehn Inc and Sons",
+    "Tooltip": "nulla",
+    "Deleted": true,
+    "UdListDefinitionId": 787,
+    "Rank": 52,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldType": "System.String",
+        "FieldLength": 676
       }
     }
   }

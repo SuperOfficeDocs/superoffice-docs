@@ -1,6 +1,7 @@
 ---
 title: GET List/ReasonSold/Headings
 uid: v1ReasonSoldList_GetReasonSoldHeadings
+generated: true
 ---
 
 # GET List/ReasonSold/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 529,
-    "Name": "Olson, Veum and Crooks",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "Rank": 627,
-    "UdListDefinitionId": 195,
+    "HeadingId": 636,
+    "Name": "Cassin Group",
+    "Tooltip": "accusantium",
+    "Deleted": true,
+    "Rank": 354,
+    "UdListDefinitionId": 717,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldType": "System.String",
+        "FieldLength": 815
       }
     }
   }

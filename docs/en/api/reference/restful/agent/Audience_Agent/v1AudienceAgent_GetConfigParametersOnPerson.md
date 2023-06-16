@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetConfigParametersOnPerson
 uid: v1AudienceAgent_GetConfigParametersOnPerson
+generated: true
 ---
 
 # POST Agents/Audience/GetConfigParametersOnPerson
@@ -82,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 455
+  "PersonId": 639
 }
 ```
 
@@ -94,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 201,
-    "Name": "Kuhlman LLC",
-    "Value": "officiis",
-    "CreatedDate": "2017-11-11T03:51:26.5999985+01:00",
-    "UpdatedDate": "2018-12-14T03:51:26.5999985+01:00",
-    "CreatedBy": "nemo",
-    "UpdatedBy": "placeat",
+    "AudienceLayoutId": 72,
+    "Name": "Harber Inc and Sons",
+    "Value": "nesciunt",
+    "CreatedDate": "2011-05-11T16:00:40.1019505+02:00",
+    "UpdatedDate": "1997-09-17T16:00:40.1019505+02:00",
+    "CreatedBy": "et",
+    "UpdatedBy": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 261
+        "FieldLength": 861
       }
     }
   }

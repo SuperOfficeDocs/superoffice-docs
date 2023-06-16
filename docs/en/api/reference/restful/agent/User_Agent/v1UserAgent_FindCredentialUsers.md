@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/FindCredentialUsers
 uid: v1UserAgent_FindCredentialUsers
+generated: true
 ---
 
 # POST Agents/User/FindCredentialUsers
@@ -80,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "commodi",
-  "SearchString": "distinctio"
+  "Type": "id",
+  "SearchString": "deleniti"
 }
 ```
 
@@ -93,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "voluptas",
-    "et"
+    "harum",
+    "quasi"
   ],
   "Users": [
     {
-      "Value": "aperiam",
-      "DisplayValue": "suscipit",
+      "Value": "cumque",
+      "DisplayValue": "aut",
       "Columns": [
-        "aut",
-        "molestias"
+        "aperiam",
+        "dolore"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 171
+          "FieldType": "System.Int32",
+          "FieldLength": 181
         }
       }
     },
     {
-      "Value": "aperiam",
-      "DisplayValue": "suscipit",
+      "Value": "cumque",
+      "DisplayValue": "aut",
       "Columns": [
-        "aut",
-        "molestias"
+        "aperiam",
+        "dolore"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 171
+          "FieldType": "System.Int32",
+          "FieldLength": 181
         }
       }
     }
@@ -136,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldType": "System.Int32",
+      "FieldLength": 355
     }
   }
 }

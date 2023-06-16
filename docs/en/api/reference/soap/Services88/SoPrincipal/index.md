@@ -1,7 +1,7 @@
 ---
 title: Services88.SoPrincipalAgent SOAP
 uid: Services88-SoPrincipal-soap
-generated: 1
+generated: true
 ---
 
 # Services88 SoPrincipal SOAP

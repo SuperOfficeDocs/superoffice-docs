@@ -1,17 +1,11 @@
 ---
 uid: locateperson
 title: locateperson
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "locateperson"
+keywords: mdoprovider mdo provider locateperson
+description: Person list with contact name.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "locateperson" MDO List

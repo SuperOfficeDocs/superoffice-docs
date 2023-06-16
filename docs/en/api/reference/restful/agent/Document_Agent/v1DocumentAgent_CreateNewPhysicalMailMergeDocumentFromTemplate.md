@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 uid: v1DocumentAgent_CreateNewPhysicalMailMergeDocumentFromTemplate
+generated: true
 ---
 
 # POST Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
@@ -108,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 885,
-  "UiCulture": "facere"
+  "DocumentId": 677,
+  "UiCulture": "aut"
 }
 ```
 
@@ -124,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 206,
+  "DocumentId": 215,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "earum",
-  "Header": "perspiciatis",
-  "Name": "Nolan-Mitchell",
-  "OurRef": "quis",
-  "YourRef": "deserunt",
-  "CreatedDate": "2018-01-05T03:51:27.0842582+01:00",
-  "UpdatedDate": "2015-01-08T03:51:27.0842582+01:00",
-  "Description": "Self-enabling user-facing customer loyalty",
+  "Attention": "aspernatur",
+  "Header": "itaque",
+  "Name": "Hoeger-Bashirian",
+  "OurRef": "eum",
+  "YourRef": "et",
+  "CreatedDate": "2022-09-14T16:00:40.7581269+02:00",
+  "UpdatedDate": "2006-07-29T16:00:40.7581269+02:00",
+  "Description": "Future-proofed national infrastructure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-07-29T03:51:27.0842582+02:00",
-  "ExternalRef": "et",
+  "Date": "2009-07-26T16:00:40.7581269+02:00",
+  "ExternalRef": "ab",
   "Completed": "Completed",
-  "ActiveLinks": 698,
+  "ActiveLinks": 594,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ryan Inc and Sons",
-      "Id": 581,
-      "Description": "Switchable zero tolerance migration",
-      "ExtraInfo": "assumenda",
-      "LinkId": 34,
+      "EntityName": "Daugherty, Nienow and D'Amore",
+      "Id": 789,
+      "Description": "Optional even-keeled initiative",
+      "ExtraInfo": "labore",
+      "LinkId": 512,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 807
+          "FieldLength": 656
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 751,
-  "Snum": 845,
+  "SuggestedDocumentId": 882,
+  "Snum": 681,
   "UserDefinedFields": {
-    "SuperOffice:1": "224103980",
-    "SuperOffice:2": "Dovie Crist"
+    "SuperOffice:1": "510727664",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "repellat",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "temporibus",
-    "CustomFields2": "laborum"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "unde"
   },
-  "PublishEventDate": "2019-09-13T03:51:27.0842582+02:00",
-  "PublishTo": "1996-07-14T03:51:27.0842582+02:00",
-  "PublishFrom": "2002-04-10T03:51:27.0842582+02:00",
+  "PublishEventDate": "2008-11-25T16:00:40.7581269+01:00",
+  "PublishTo": "2012-09-25T16:00:40.7581269+02:00",
+  "PublishFrom": "2016-05-27T16:00:40.7581269+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 593,
+      "VisibleId": 730,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldLength": 622
         }
       }
     },
     {
-      "VisibleId": 593,
+      "VisibleId": 730,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldLength": 622
         }
       }
     }
@@ -214,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldType": "System.String",
+      "FieldLength": 780
     }
   }
 }

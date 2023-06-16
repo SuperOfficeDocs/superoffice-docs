@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetQuoteList
 uid: v1QuoteAgent_GetQuoteList
+generated: true
 ---
 
 # POST Agents/Quote/GetQuoteList
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "alias"
+  "QuoteListType": "rerum"
 }
 ```
 
@@ -92,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "ipsam",
-    "DisplayValue": "sunt",
-    "DisplayDescription": "Fully-configurable clear-thinking parallelism",
+    "ERPQuoteListItemKey": "quo",
+    "DisplayValue": "voluptatem",
+    "DisplayDescription": "Mandatory local leverage",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldLength": 726
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "ipsam",
-    "DisplayValue": "sunt",
-    "DisplayDescription": "Fully-configurable clear-thinking parallelism",
+    "ERPQuoteListItemKey": "quo",
+    "DisplayValue": "voluptatem",
+    "DisplayDescription": "Mandatory local leverage",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldLength": 726
       }
     }
   }

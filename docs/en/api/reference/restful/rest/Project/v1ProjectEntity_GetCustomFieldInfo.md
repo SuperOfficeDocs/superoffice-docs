@@ -1,6 +1,7 @@
 ---
 title: GET Project/CustomField/{fieldName}
 uid: v1ProjectEntity_GetCustomFieldInfo
+generated: true
 ---
 
 # GET Project/CustomField/{fieldName}
@@ -81,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Osinski, Waelchi and Kuhlman",
-  "DisplayName": "Crist-Green",
-  "Description": "Multi-layered exuding methodology",
-  "ShortLabel": "est",
-  "HideLabel": false,
-  "HideField": false,
+  "FieldName": "Bosco Group",
+  "DisplayName": "Fisher Group",
+  "Description": "Organized multi-state moratorium",
+  "ShortLabel": "vero",
+  "HideLabel": true,
+  "HideField": true,
   "IsIndexed": true,
   "IsMandatory": true,
-  "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 15,
-  "TemplateVariableName": "Dietrich Inc and Sons"
+  "IsReadOnly": true,
+  "IsExternal": true,
+  "Rank": 72,
+  "TemplateVariableName": "Russel-DuBuque"
 }
 ```

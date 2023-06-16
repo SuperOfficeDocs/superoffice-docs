@@ -1,6 +1,7 @@
 ---
 title: GET License/{ownerName}
 uid: v1License_GetLicenseFromDB
+generated: true
 ---
 
 # GET License/{ownerName}
@@ -61,7 +62,7 @@ OK
 GET /api/v1/License/{ownerName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,21 +73,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 491,
-      "NumberOfLicensesFree": 377,
-      "NumberOfLicensesAdded": 29,
-      "NumberOfLicensesNewTotal": 472,
-      "NumberOfLicensesNewFree": 798,
-      "NumberOfLicensesTotal": 514
+      "NumberOfLicensesInUse": 407,
+      "NumberOfLicensesFree": 826,
+      "NumberOfLicensesAdded": 409,
+      "NumberOfLicensesNewTotal": 587,
+      "NumberOfLicensesNewFree": 924,
+      "NumberOfLicensesTotal": 910
     }
   ],
-  "AccumulatedNextCheckDate": "2003-07-09T03:51:34.2084568+02:00"
+  "AccumulatedNextCheckDate": "2013-09-14T16:00:48.664623+02:00"
 }
 ```

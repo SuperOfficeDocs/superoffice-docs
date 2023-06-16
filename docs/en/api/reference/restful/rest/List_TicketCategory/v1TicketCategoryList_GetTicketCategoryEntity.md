@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketCategory/Items/{id}
 uid: v1TicketCategoryList_GetTicketCategoryEntity
+generated: true
 ---
 
 # GET List/TicketCategory/Items/{id}
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 410,
-  "ParentId": 897,
-  "Name": "Jaskolski LLC",
-  "Fullname": "placeat",
-  "CategoryMaster": 609,
+  "TicketCategoryId": 287,
+  "ParentId": 103,
+  "Name": "Welch, Bogisich and Swift",
+  "Fullname": "at",
+  "CategoryMaster": 229,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Huel Group",
+  "ExternalName": "Wuckert-Hand",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 751,
-  "ReplyTemplate": 489,
-  "NotificationEmail": "hanna@wiza.name",
+  "AssignmentLag": 623,
+  "ReplyTemplate": 488,
+  "NotificationEmail": "skylar.lebsack@lang.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 266,
+  "EffectiveReplyTemplateId": 970,
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "veritatis"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "odio"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "unde"
+    "CustomFields1": "reprehenderit",
+    "CustomFields2": "officiis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldLength": 45
     }
   }
 }

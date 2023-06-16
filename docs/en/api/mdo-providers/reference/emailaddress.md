@@ -1,17 +1,18 @@
 ---
 uid: emailaddress
 title: emailaddress
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "emailaddress"
+keywords: mdoprovider mdo provider emailaddress
+description: List of e-mail addresses matching the search value
+Searches e-mail address, person name, company name.
+<para />
+E-mail address matches: return e-mail addresses + owner name (person or contact name)
+<para />
+Person name matches: return all e-mail addresses for matched persons
+<para />
+Company name matches. return all persons + first e-mail address for matched persons.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "emailaddress" MDO List

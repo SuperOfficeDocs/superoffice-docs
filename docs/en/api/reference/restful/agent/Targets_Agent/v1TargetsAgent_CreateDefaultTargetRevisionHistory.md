@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/CreateDefaultTargetRevisionHistory
 uid: v1TargetsAgent_CreateDefaultTargetRevisionHistory
+generated: true
 ---
 
 # POST Agents/Targets/CreateDefaultTargetRevisionHistory
@@ -68,13 +69,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 965,
-  "Year": 925,
+  "TargetGroupId": 656,
+  "Year": 798,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2011-11-13T03:51:28.2089972+01:00",
+      "When": "2007-12-29T16:00:41.8987907+01:00",
       "Changes": [
         {},
         {}
@@ -84,14 +85,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldLength": 671
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2011-11-13T03:51:28.2089972+01:00",
+      "When": "2007-12-29T16:00:41.8987907+01:00",
       "Changes": [
         {},
         {}
@@ -101,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldLength": 671
         }
       }
     }
@@ -110,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 786
+      "FieldType": "System.Int32",
+      "FieldLength": 50
     }
   }
 }

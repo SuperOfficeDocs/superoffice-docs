@@ -1,7 +1,7 @@
 ---
 title: Services88.ContactAgent SOAP
 uid: Services88-Contact-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Contact SOAP

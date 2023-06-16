@@ -1,6 +1,7 @@
 ---
 title: GET Selection/{id}/Members
 uid: v1SelectionEntity_GetSelectionMembersArchiveRows
+generated: true
 ---
 
 # GET Selection/{id}/Members
@@ -85,21 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "exercitationem",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 8326,
+      "PrimaryKey": 5646,
       "EntityName": "sale",
-      "saleId": 8326,
-      "contactId": 2130,
-      "name": "Johnston-D'Amore"
+      "saleId": 5646,
+      "contactId": 2800,
+      "name": "Ward-Willms"
     },
     {
-      "PrimaryKey": 455,
+      "PrimaryKey": 822,
       "EntityName": "sale",
-      "saleId": 455,
-      "contactId": 8372,
-      "name": "Cruickshank LLC"
+      "saleId": 822,
+      "contactId": 8389,
+      "name": "Beier-Wiegand"
     }
   ]
 }

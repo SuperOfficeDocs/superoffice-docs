@@ -1,6 +1,7 @@
 ---
 title: POST List/ConsentSource/Headings
 uid: v1ConsentSourceList_PostConsentSourceHeading
+generated: true
 ---
 
 # POST List/ConsentSource/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 907,
-  "Name": "Borer-Bechtelar",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "Rank": 77,
-  "UdListDefinitionId": 832
+  "HeadingId": 981,
+  "Name": "VonRueden Group",
+  "Tooltip": "totam",
+  "Deleted": true,
+  "Rank": 860,
+  "UdListDefinitionId": 878
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 734,
-  "Name": "Douglas Group",
-  "Tooltip": "similique",
+  "HeadingId": 74,
+  "Name": "Dach, Stiedemann and Pollich",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "Rank": 801,
-  "UdListDefinitionId": 889,
+  "Rank": 276,
+  "UdListDefinitionId": 982,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldType": "System.String",
+      "FieldLength": 34
     }
   }
 }

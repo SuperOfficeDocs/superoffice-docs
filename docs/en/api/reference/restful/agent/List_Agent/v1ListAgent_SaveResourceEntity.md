@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveResourceEntity
 uid: v1ListAgent_SaveResourceEntity
+generated: true
 ---
 
 # POST Agents/List/SaveResourceEntity
@@ -74,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 923,
-  "Name": "Kshlerin-Hegmann",
-  "Rank": 886,
-  "Tooltip": "dolores",
-  "Deleted": false,
+  "ResourceId": 582,
+  "Name": "Considine LLC",
+  "Rank": 737,
+  "Tooltip": "facilis",
+  "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "in"
+  "LocationAddress": "doloribus"
 }
 ```
 
@@ -95,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 25,
-  "Name": "Botsford Inc and Sons",
-  "Rank": 350,
-  "Tooltip": "exercitationem",
-  "Deleted": true,
+  "ResourceId": 294,
+  "Name": "Bogan Group",
+  "Rank": 80,
+  "Tooltip": "perspiciatis",
+  "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "eveniet",
+  "LocationAddress": "pariatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldLength": 797
     }
   }
 }

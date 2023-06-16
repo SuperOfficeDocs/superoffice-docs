@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/SaveFormEntity
 uid: v1MarketingAgent_SaveFormEntity
+generated: true
 ---
 
 # POST Agents/Marketing/SaveFormEntity
@@ -108,28 +109,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 134,
-  "FormKey": "nulla",
-  "Name": "Pacocha, Wunsch and Effertz",
-  "Description": "Exclusive systematic intranet",
-  "Config": "ducimus",
-  "FolderId": 94,
-  "ScriptId": 101,
-  "ResponseShipmentId": 602,
+  "FormId": 595,
+  "FormKey": "blanditiis",
+  "Name": "Pagac-Gibson",
+  "Description": "Advanced tangible interface",
+  "Config": "qui",
+  "FolderId": 644,
+  "ScriptId": 514,
+  "ResponseShipmentId": 101,
   "Active": false,
-  "Expires": "2003-06-16T03:51:27.5060342+02:00",
-  "MaxSubmits": 312,
+  "Expires": "2005-09-20T16:00:41.2580675+02:00",
+  "MaxSubmits": 746,
   "Type": "Normal",
-  "Recipe": "et",
-  "GroupId": 357,
+  "Recipe": "quis",
+  "GroupId": 762,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2000-07-16T03:51:27.5060342+02:00",
-  "RegisteredAssociateId": 177,
-  "Updated": "2020-07-21T03:51:27.5060342+02:00",
-  "UpdatedAssociateId": 195,
-  "UpdatedCount": 41,
-  "FolderName": "Hessel, Schoen and DuBuque"
+  "Registered": "2000-07-12T16:00:41.2580675+02:00",
+  "RegisteredAssociateId": 52,
+  "Updated": "2019-02-27T16:00:41.2580675+01:00",
+  "UpdatedAssociateId": 99,
+  "UpdatedCount": 807,
+  "FolderName": "Gislason, Auer and Hilpert"
 }
 ```
 
@@ -140,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 904,
-  "FormKey": "illum",
-  "Name": "Murazik Group",
-  "Description": "Customizable mission-critical internet solution",
-  "Config": "ea",
-  "FolderId": 510,
-  "ScriptId": 498,
-  "ResponseShipmentId": 461,
+  "FormId": 898,
+  "FormKey": "iste",
+  "Name": "Berge, Hahn and Schmidt",
+  "Description": "Enhanced modular encoding",
+  "Config": "hic",
+  "FolderId": 450,
+  "ScriptId": 333,
+  "ResponseShipmentId": 184,
   "Active": false,
-  "Expires": "1999-07-29T03:51:27.5060342+02:00",
-  "MaxSubmits": 718,
+  "Expires": "2021-08-07T16:00:41.2580675+02:00",
+  "MaxSubmits": 110,
   "Type": "Normal",
-  "Recipe": "atque",
-  "GroupId": 689,
+  "Recipe": "consequatur",
+  "GroupId": 977,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2016-12-10T03:51:27.5060342+01:00",
-  "RegisteredAssociateId": 945,
-  "Updated": "2015-09-02T03:51:27.5060342+02:00",
-  "UpdatedAssociateId": 436,
-  "UpdatedCount": 620,
-  "FolderName": "Gorczany, Goyette and Kunde",
+  "Registered": "2006-07-19T16:00:41.2580675+02:00",
+  "RegisteredAssociateId": 795,
+  "Updated": "2014-11-28T16:00:41.2580675+01:00",
+  "UpdatedAssociateId": 801,
+  "UpdatedCount": 664,
+  "FolderName": "Ankunding-Marquardt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldLength": 750
     }
   }
 }

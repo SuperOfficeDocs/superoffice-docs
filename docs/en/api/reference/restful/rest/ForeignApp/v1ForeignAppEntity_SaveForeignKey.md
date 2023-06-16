@@ -1,6 +1,7 @@
 ---
 title: PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 uid: v1ForeignAppEntity_SaveForeignKey
+generated: true
 ---
 
 # PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
@@ -86,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "sed",
-  "RecordId": 879,
-  "CreatedDate": "2000-05-26T03:51:33.6928335+02:00",
-  "UpdatedDate": "1999-10-25T03:51:33.6928335+02:00",
-  "UpdatedBy": "rem",
-  "CreatedBy": "sed",
-  "TableName": "O'Conner, Christiansen and Hermann"
+  "Key": "qui",
+  "Value": "aliquam",
+  "RecordId": 911,
+  "CreatedDate": "2021-04-27T16:00:47.9772018+02:00",
+  "UpdatedDate": "2022-07-26T16:00:47.9772018+02:00",
+  "UpdatedBy": "voluptas",
+  "CreatedBy": "rem",
+  "TableName": "Kozey Group"
 }
 ```
 
@@ -104,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "perspiciatis",
-  "Value": "similique",
-  "RecordId": 630,
-  "CreatedDate": "2002-05-10T03:51:33.6928335+02:00",
-  "UpdatedDate": "2022-07-22T03:51:33.6928335+02:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "nulla",
-  "TableName": "Moore Group",
+  "Key": "aut",
+  "Value": "aut",
+  "RecordId": 881,
+  "CreatedDate": "2008-10-02T16:00:47.9772018+02:00",
+  "UpdatedDate": "1997-10-08T16:00:47.9772018+02:00",
+  "UpdatedBy": "quaerat",
+  "CreatedBy": "illo",
+  "TableName": "Kilback, Romaguera and Keebler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldType": "System.Int32",
+      "FieldLength": 576
     }
   }
 }

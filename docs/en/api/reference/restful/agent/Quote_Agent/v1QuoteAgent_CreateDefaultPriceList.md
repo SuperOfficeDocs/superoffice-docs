@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/CreateDefaultPriceList
 uid: v1QuoteAgent_CreateDefaultPriceList
+generated: true
 ---
 
 # POST Agents/Quote/CreateDefaultPriceList
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 786,
-  "ERPPriceListKey": "rerum",
-  "QuoteConnectionId": 412,
-  "Name": "Feest, Bernier and Kohler",
-  "Description": "Open-architected static encryption",
-  "Currency": "deserunt",
-  "CurrencyName": "Labadie-Cormier",
-  "ValidFrom": "2011-09-22T03:51:27.9902963+02:00",
-  "ValidTo": "1998-03-25T03:51:27.9902963+01:00",
+  "PriceListId": 197,
+  "ERPPriceListKey": "illo",
+  "QuoteConnectionId": 176,
+  "Name": "Skiles-Bins",
+  "Description": "Managed heuristic groupware",
+  "Currency": "aspernatur",
+  "CurrencyName": "Pagac Group",
+  "ValidFrom": "2015-08-25T16:00:41.6175709+02:00",
+  "ValidTo": "2021-11-21T16:00:41.6175709+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldType": "System.Int32",
+      "FieldLength": 70
     }
   }
 }

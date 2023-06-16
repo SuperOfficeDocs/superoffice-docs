@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetOrderState
 uid: v1QuoteAgent_GetOrderState
+generated: true
 ---
 
 # POST Agents/Quote/GetOrderState
@@ -84,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 651
+  "QuoteVersionId": 488
 }
 ```
 
@@ -95,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "et",
-  "TechExplanation": "voluptatibus",
-  "ErrorCode": "rerum",
+  "IsOk": false,
+  "UserExplanation": "totam",
+  "TechExplanation": "corrupti",
+  "ErrorCode": "in",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -107,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 53
     }
   }
 }

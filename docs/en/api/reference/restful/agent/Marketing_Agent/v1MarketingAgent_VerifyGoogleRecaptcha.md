@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Marketing/VerifyGoogleRecaptcha
 uid: v1MarketingAgent_VerifyGoogleRecaptcha
+generated: true
 ---
 
 # POST Agents/Marketing/VerifyGoogleRecaptcha
@@ -74,8 +75,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "facilis",
-  "OptionalSecretKey": "aut"
+  "Token": "doloribus",
+  "OptionalSecretKey": "doloribus"
 }
 ```
 

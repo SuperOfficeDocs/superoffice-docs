@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/SaveProjectMember
 uid: v1ProjectAgent_SaveProjectMember
+generated: true
 ---
 
 # POST Agents/Project/SaveProjectMember
@@ -102,31 +103,31 @@ OK
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 596,
-  "ContactId": 554,
-  "ProjectId": 948,
-  "ContactName": "Kris, Barton and Goodwin",
+  "ProjectmemberId": 123,
+  "ContactId": 973,
+  "ProjectId": 984,
+  "ContactName": "Nolan Inc and Sons",
   "ContactDepartment": "",
-  "ProjectName": "Windler-Kihn",
-  "EmailId": 362,
-  "EmailAddress": "jude@boehmjohnson.com",
-  "CountryId": 605,
-  "Firstname": "Jedediah",
-  "MiddleName": "Roberts, Krajcik and Champlin",
-  "Lastname": "Lemke",
-  "PersonId": 848,
-  "Mrmrs": "aut",
-  "ProjectMemberTypeName": "Goodwin, Buckridge and Brown",
-  "Phone": "555.804.0270",
-  "PhoneId": 283,
-  "ProjectMemberTypeId": 246,
-  "EmailAddressName": "meta.roberts@kohler.us",
-  "Comment": "magni",
-  "FullName": "Noel Leuschke"
+  "ProjectName": "Hermann, Douglas and Ruecker",
+  "EmailId": 231,
+  "EmailAddress": "jon@denesiklangworth.uk",
+  "CountryId": 744,
+  "Firstname": "Leonie",
+  "MiddleName": "Kassulke Inc and Sons",
+  "Lastname": "VonRueden",
+  "PersonId": 825,
+  "Mrmrs": "quaerat",
+  "ProjectMemberTypeName": "Daugherty-Friesen",
+  "Phone": "622.802.8580",
+  "PhoneId": 259,
+  "ProjectMemberTypeId": 769,
+  "EmailAddressName": "kurtis@mrazmoore.uk",
+  "Comment": "ipsum",
+  "FullName": "Prof. Maurine Karen Gislason PhD"
 }
 ```
 
@@ -137,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 403,
-  "ContactId": 279,
-  "ProjectId": 356,
-  "ContactName": "Cole-Torp",
+  "ProjectmemberId": 347,
+  "ContactId": 110,
+  "ProjectId": 324,
+  "ContactName": "Robel, Breitenberg and Grant",
   "ContactDepartment": "",
-  "ProjectName": "West, Homenick and Eichmann",
-  "EmailId": 35,
-  "EmailAddress": "nigel@langoshwillms.com",
-  "CountryId": 367,
-  "Firstname": "Garrick",
-  "MiddleName": "Rogahn Inc and Sons",
-  "Lastname": "Stoltenberg",
-  "PersonId": 509,
-  "Mrmrs": "architecto",
-  "ProjectMemberTypeName": "Yost, Beahan and Bartell",
-  "Phone": "466.291.9843",
-  "PhoneId": 986,
-  "ProjectMemberTypeId": 578,
-  "EmailAddressName": "jeramie.maggio@lang.uk",
-  "Comment": "ut",
-  "FullName": "Mr. Jonas Murazik",
+  "ProjectName": "Wolf Group",
+  "EmailId": 57,
+  "EmailAddress": "roslyn.kessler@donnelly.uk",
+  "CountryId": 334,
+  "Firstname": "Bradford",
+  "MiddleName": "Abshire LLC",
+  "Lastname": "Kshlerin",
+  "PersonId": 78,
+  "Mrmrs": "at",
+  "ProjectMemberTypeName": "Simonis-Crist",
+  "Phone": "579.032.3766 x845",
+  "PhoneId": 783,
+  "ProjectMemberTypeId": 268,
+  "EmailAddressName": "norene.wisoky@pfefferauer.biz",
+  "Comment": "accusantium",
+  "FullName": "Margie Muller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldType": "System.Int32",
+      "FieldLength": 712
     }
   }
 }

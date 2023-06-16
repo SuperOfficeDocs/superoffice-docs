@@ -1,17 +1,11 @@
 ---
 uid: visibleinmenu
 title: visibleinmenu
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "visibleinmenu"
+keywords: mdoprovider mdo provider visibleinmenu
+description: Visible in menu list: Toolbox menu, View menu
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "visibleinmenu" MDO List

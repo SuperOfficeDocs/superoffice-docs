@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetConnectionStartupErrors
 uid: v1QuoteAgent_GetConnectionStartupErrors
+generated: true
 ---
 
 # POST Agents/Quote/GetConnectionStartupErrors
@@ -80,10 +81,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "IsOk": false,
-    "UserExplanation": "esse",
-    "TechExplanation": "quae",
-    "ErrorCode": "qui",
+    "IsOk": true,
+    "UserExplanation": "vitae",
+    "TechExplanation": "provident",
+    "ErrorCode": "aut",
     "Changes": null,
     "Status": "Error",
     "TableRight": null,
@@ -91,7 +92,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldLength": 913
       }
     }
   }

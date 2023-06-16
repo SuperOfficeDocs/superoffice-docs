@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/AddSelectionMembers
 uid: v1SelectionAgent_AddSelectionMembers
+generated: true
 ---
 
 # POST Agents/Selection/AddSelectionMembers
@@ -68,14 +69,14 @@ OK
 POST /api/v1/Agents/Selection/AddSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 838,
+  "SelectionId": 481,
   "Ids": [
-    991,
-    85
+    172,
+    500
   ]
 }
 ```
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-753
+469
 ```

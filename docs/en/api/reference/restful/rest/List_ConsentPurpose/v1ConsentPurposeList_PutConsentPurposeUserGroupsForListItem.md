@@ -1,6 +1,7 @@
 ---
 title: PUT List/ConsentPurpose/Items/{id}/UserGroups
 uid: v1ConsentPurposeList_PutConsentPurposeUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/ConsentPurpose/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 182,
-    "Name": "Bahringer-Kovacek",
-    "ToolTip": "Facere id officiis est illum.",
-    "Deleted": false,
-    "Rank": 878,
-    "Type": "et",
-    "ColorBlock": 581,
-    "IconHint": "reprehenderit",
+    "Id": 475,
+    "Name": "Terry-Luettgen",
+    "ToolTip": "Velit esse magni sunt excepturi distinctio dolorum cupiditate.",
+    "Deleted": true,
+    "Rank": 274,
+    "Type": "officia",
+    "ColorBlock": 376,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "1996-10-21T03:51:34.5989925+02:00",
+    "LastChanged": "2000-05-03T16:00:48.9145965+02:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Lueilwitz Group",
-        "ToolTip": "Unde delectus pariatur sed.",
+        "Id": 696,
+        "Name": "Feest-Jones",
+        "ToolTip": "Qui est aliquam dolorem voluptas.",
         "Deleted": false,
-        "Rank": 628,
-        "Type": "autem",
-        "ColorBlock": 527,
+        "Rank": 769,
+        "Type": "saepe",
+        "ColorBlock": 762,
         "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2022-05-16T03:51:34.5989925+02:00",
+        "Selected": true,
+        "LastChanged": "2005-01-21T16:00:48.9145965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "id",
+        "ExtraInfo": "soluta",
+        "StyleHint": "asperiores",
         "Hidden": false,
-        "FullName": "Jeff Goodwin"
+        "FullName": "Mr. Selena Cremin DVM"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "ipsa",
-    "Hidden": true,
-    "FullName": "Ms. Taya McClure"
+    "ExtraInfo": "delectus",
+    "StyleHint": "ducimus",
+    "Hidden": false,
+    "FullName": "Dr. Chris Crooks PhD"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 442,
-    "Name": "Koch-Price",
-    "ToolTip": "Maiores porro ea exercitationem.",
-    "Deleted": true,
-    "Rank": 884,
-    "Type": "illo",
-    "ColorBlock": 960,
-    "IconHint": "quo",
-    "Selected": false,
-    "LastChanged": "1998-07-16T03:51:34.5989925+02:00",
+    "Id": 991,
+    "Name": "Jones LLC",
+    "ToolTip": "Est deleniti exercitationem ut.",
+    "Deleted": false,
+    "Rank": 776,
+    "Type": "omnis",
+    "ColorBlock": 150,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2007-10-19T16:00:48.9145965+02:00",
     "ChildItems": [
       {
-        "Id": 26,
-        "Name": "Prosacco-Block",
-        "ToolTip": "Quo a quae odio.",
+        "Id": 175,
+        "Name": "Windler, Jacobi and Prohaska",
+        "ToolTip": "Autem vel voluptatibus dolores quia nesciunt cum ut.",
         "Deleted": true,
-        "Rank": 246,
-        "Type": "harum",
-        "ColorBlock": 215,
-        "IconHint": "non",
+        "Rank": 18,
+        "Type": "vero",
+        "ColorBlock": 41,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "1999-09-09T03:51:34.5989925+02:00",
+        "LastChanged": "2006-08-08T16:00:48.9145965+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Ricardo Volkman Sr.",
+        "ExtraInfo": "ea",
+        "StyleHint": "esse",
+        "Hidden": true,
+        "FullName": "Prof. Brandy Jacobs",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 807
+            "FieldType": "System.Int32",
+            "FieldLength": 363
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "voluptates",
-    "Hidden": false,
-    "FullName": "Hilbert Greenfelder",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "dolorum",
+    "Hidden": true,
+    "FullName": "Prof. Caleigh Bryce Botsford V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 441
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/SaveRestrictionsWithContext2
 uid: v1FindAgent_SaveRestrictionsWithContext2
+generated: true
 ---
 
 # POST Agents/Find/SaveRestrictionsWithContext2
@@ -71,11 +72,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "amet",
-  "ProviderName": "Parker, Kunde and Veum",
-  "StorageKey": "ipsum",
-  "Restrictions": "eos",
-  "Context": "facere"
+  "StorageType": "quaerat",
+  "ProviderName": "Huel, Hintz and Ziemann",
+  "StorageKey": "aut",
+  "Restrictions": "voluptas",
+  "Context": "repellendus"
 }
 ```
 

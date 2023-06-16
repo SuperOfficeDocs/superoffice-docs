@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailAttachment
 uid: v1EMailAgent_CreateDefaultEMailAttachment
+generated: true
 ---
 
 # POST Agents/EMail/CreateDefaultEMailAttachment
@@ -76,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured maximized extranet",
-  "Filename": "quos",
-  "Size": 349,
-  "Type": "autem",
-  "Encoding": "cum",
-  "Id": "ut",
-  "Disposition": "quia",
+  "Description": "Mandatory incremental initiative",
+  "Filename": "beatae",
+  "Size": 569,
+  "Type": "dolores",
+  "Encoding": "veritatis",
+  "Id": "error",
+  "Disposition": "aut",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldLength": 95
     }
   }
 }

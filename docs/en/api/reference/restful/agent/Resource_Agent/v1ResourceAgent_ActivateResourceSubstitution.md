@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Resource/ActivateResourceSubstitution
 uid: v1ResourceAgent_ActivateResourceSubstitution
+generated: true
 ---
 
 # POST Agents/Resource/ActivateResourceSubstitution
@@ -65,13 +66,13 @@ No Content
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Klein Inc and Sons",
-  "Culture": "rerum",
-  "IsActive": false
+  "ResourceName": "Waelchi, Kling and Morissette",
+  "Culture": "in",
+  "IsActive": true
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/MoveEmailsToTrash
 uid: v1EMailAgent_MoveEmailsToTrash
+generated: true
 ---
 
 # POST Agents/EMail/MoveEmailsToTrash
@@ -65,13 +66,13 @@ No Content
 POST /api/v1/Agents/EMail/MoveEmailsToTrash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    29,
-    142
+    250,
+    411
   ]
 }
 ```

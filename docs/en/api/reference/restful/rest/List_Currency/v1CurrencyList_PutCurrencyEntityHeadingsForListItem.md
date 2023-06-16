@@ -1,6 +1,7 @@
 ---
 title: PUT List/Currency/Items/{id}/Headings
 uid: v1CurrencyList_PutCurrencyEntityHeadingsForListItem
+generated: true
 ---
 
 # PUT List/Currency/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Hauck-Emmerich",
-    "ToolTip": "Omnis repudiandae harum.",
-    "Deleted": true,
-    "Rank": 729,
-    "Type": "ut",
-    "ColorBlock": 188,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2010-09-23T03:51:34.6614813+02:00",
+    "Id": 794,
+    "Name": "Kshlerin-Altenwerth",
+    "ToolTip": "Odio consequatur eos praesentium debitis et fugit.",
+    "Deleted": false,
+    "Rank": 700,
+    "Type": "similique",
+    "ColorBlock": 332,
+    "IconHint": "assumenda",
+    "Selected": true,
+    "LastChanged": "1997-11-25T16:00:48.9927141+01:00",
     "ChildItems": [
       {
-        "Id": 742,
-        "Name": "Witting, Carter and Dare",
-        "ToolTip": "Eaque alias exercitationem totam.",
-        "Deleted": false,
-        "Rank": 124,
-        "Type": "dolores",
-        "ColorBlock": 769,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "1998-02-18T03:51:34.6614813+01:00",
+        "Id": 694,
+        "Name": "Goodwin, Kuhn and Bosco",
+        "ToolTip": "Sed atque fugiat.",
+        "Deleted": true,
+        "Rank": 398,
+        "Type": "eveniet",
+        "ColorBlock": 304,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2008-04-17T16:00:48.9927141+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "consectetur",
-        "Hidden": true,
-        "FullName": "Pinkie Ankunding"
+        "ExtraInfo": "rerum",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Ms. Princess Cummerata PhD"
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "quas",
-    "Hidden": true,
-    "FullName": "Miss Lucile Ondricka"
+    "ExtraInfo": "aperiam",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Josiane Grant"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Goyette-Weimann",
-    "ToolTip": "Et soluta quo dolore itaque amet.",
-    "Deleted": true,
-    "Rank": 599,
-    "Type": "deserunt",
-    "ColorBlock": 838,
-    "IconHint": "officiis",
+    "Id": 843,
+    "Name": "Bashirian, Cronin and Ryan",
+    "ToolTip": "Eos dolorum impedit dolores corporis est magnam.",
+    "Deleted": false,
+    "Rank": 860,
+    "Type": "quaerat",
+    "ColorBlock": 561,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2002-04-30T03:51:34.6614813+02:00",
+    "LastChanged": "2013-12-17T16:00:48.9927141+01:00",
     "ChildItems": [
       {
-        "Id": 445,
-        "Name": "Kassulke Group",
-        "ToolTip": "Distinctio vel eius illo et sequi.",
+        "Id": 681,
+        "Name": "Padberg, Green and Nader",
+        "ToolTip": "Itaque id fugiat inventore ab nisi rem qui.",
         "Deleted": false,
-        "Rank": 348,
-        "Type": "maiores",
-        "ColorBlock": 556,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "1998-09-26T03:51:34.6614813+02:00",
+        "Rank": 590,
+        "Type": "laboriosam",
+        "ColorBlock": 189,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2004-12-22T16:00:48.9927141+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Dayana Jaskolski",
+        "ExtraInfo": "unde",
+        "StyleHint": "eum",
+        "Hidden": false,
+        "FullName": "Christine Gutkowski MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 471
+            "FieldType": "System.String",
+            "FieldLength": 606
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "exercitationem",
-    "Hidden": false,
-    "FullName": "Mrs. Lia Marlin Kassulke",
+    "ExtraInfo": "possimus",
+    "StyleHint": "necessitatibus",
+    "Hidden": true,
+    "FullName": "Alessandro Zemlak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldLength": 442
       }
     }
   }

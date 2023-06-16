@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetWebPanelByProgId
 uid: v1ListAgent_GetWebPanelByProgId
+generated: true
 ---
 
 # POST Agents/List/GetWebPanelByProgId
@@ -92,11 +93,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "eum"
+  "ProgId": "est"
 }
 ```
 
@@ -107,33 +108,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 122,
-  "Name": "Murray-Cronin",
-  "Tooltip": "necessitatibus",
-  "Deleted": true,
-  "Rank": 803,
+  "WebPanelId": 976,
+  "Name": "Kutch LLC",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "Rank": 234,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Fisher Group",
+  "WindowName": "Erdman-Davis",
   "Url": "http://www.example.com/",
-  "ProgId": "deleniti",
-  "Icon": 984,
+  "ProgId": "modi",
+  "Icon": 941,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldLength": 19
     }
   }
 }

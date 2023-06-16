@@ -1,6 +1,7 @@
 ---
 title: GET Document/{id}/Links
 uid: v1DocumentEntity_Links
+generated: true
 ---
 
 # GET Document/{id}/Links
@@ -73,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document/{id}/Links?$select=name,department,category/id
 GET /api/v1/Document/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Document/{id}/Links?$orderBy=name asc
-GET /api/v1/Document/{id}/Links?$entities=assumenda
-GET /api/v1/Document/{id}/Links?$top=258
-GET /api/v1/Document/{id}/Links?$skip=499
+GET /api/v1/Document/{id}/Links?$entities=repellendus
+GET /api/v1/Document/{id}/Links?$top=406
+GET /api/v1/Document/{id}/Links?$skip=602
 GET /api/v1/Document/{id}/Links?$mode=Full
 GET /api/v1/Document/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Document/{id}/Links?$context=soluta
+GET /api/v1/Document/{id}/Links?$context=voluptatibus
 GET /api/v1/Document/{id}/Links?$format=JSON
-GET /api/v1/Document/{id}/Links?$jsonSafe=False
+GET /api/v1/Document/{id}/Links?$jsonSafe=True
 GET /api/v1/Document/{id}/Links?$output=Display
 ```
 
@@ -122,7 +123,7 @@ OK
 GET /api/v1/Document/{id}/Links
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "deleniti",
+  "odata.nextLink": "adipisci",
   "value": [
     {
-      "PrimaryKey": 5081,
+      "PrimaryKey": 9527,
       "EntityName": "sale",
-      "saleId": 5081,
-      "contactId": 3517,
-      "name": "Wisoky LLC"
+      "saleId": 9527,
+      "contactId": 7212,
+      "name": "Maggio, Ruecker and Miller"
     },
     {
-      "PrimaryKey": 8029,
+      "PrimaryKey": 1909,
       "EntityName": "sale",
-      "saleId": 8029,
-      "contactId": 5356,
-      "name": "Kozey, Luettgen and Durgan"
+      "saleId": 1909,
+      "contactId": 438,
+      "name": "Tromp, Smith and Kuvalis"
     }
   ]
 }

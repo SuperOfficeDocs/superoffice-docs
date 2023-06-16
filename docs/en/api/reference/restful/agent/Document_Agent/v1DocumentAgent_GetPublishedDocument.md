@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetPublishedDocument
 uid: v1DocumentAgent_GetPublishedDocument
+generated: true
 ---
 
 # POST Agents/Document/GetPublishedDocument
@@ -91,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 927
+  "DocumentId": 646
 }
 ```
 
@@ -106,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 468,
-  "Attention": "ad",
-  "Header": "molestiae",
-  "Name": "Ward-Williamson",
-  "OurRef": "porro",
-  "YourRef": "quidem",
-  "Description": "Customer-focused zero defect capability",
-  "DocumentTemplate": "omnis",
-  "IsPublished": false,
-  "PersonId": 805,
-  "PersonFullName": "Nels Rogelio Kunde Sr.",
-  "AssociateFullName": "Taylor Bogisich",
-  "ContactId": 976,
-  "ContactName": "Dickinson-Shields",
-  "ProjectId": 960,
-  "ProjectName": "Brekke-Hettinger",
-  "AssociateId": 607,
-  "Snum": 505,
-  "SaleId": 472,
-  "SaleName": "Cormier, Gutmann and Koelpin",
+  "DocumentId": 433,
+  "Attention": "qui",
+  "Header": "qui",
+  "Name": "Kilback-Schaden",
+  "OurRef": "non",
+  "YourRef": "assumenda",
+  "Description": "Managed asynchronous open system",
+  "DocumentTemplate": "at",
+  "IsPublished": true,
+  "PersonId": 114,
+  "PersonFullName": "Terrance Ebert",
+  "AssociateFullName": "Ms. Cordie Green Marks",
+  "ContactId": 76,
+  "ContactName": "Armstrong-Beer",
+  "ProjectId": 768,
+  "ProjectName": "Lindgren-Thiel",
+  "AssociateId": 314,
+  "Snum": 530,
+  "SaleId": 340,
+  "SaleName": "Hagenes Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 418
     }
   }
 }

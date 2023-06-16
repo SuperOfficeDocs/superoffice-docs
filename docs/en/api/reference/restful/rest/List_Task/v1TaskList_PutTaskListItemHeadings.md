@@ -1,6 +1,7 @@
 ---
 title: PUT List/Task/Headings
 uid: v1TaskList_PutTaskListItemHeadings
+generated: true
 ---
 
 # PUT List/Task/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 377,
-    "Name": "Spinka, Frami and Graham",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 998,
-    "UdListDefinitionId": 894
+    "HeadingId": 186,
+    "Name": "Sauer Group",
+    "Tooltip": "soluta",
+    "Deleted": false,
+    "Rank": 295,
+    "UdListDefinitionId": 780
   },
   {
-    "HeadingId": 377,
-    "Name": "Spinka, Frami and Graham",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 998,
-    "UdListDefinitionId": 894
+    "HeadingId": 186,
+    "Name": "Sauer Group",
+    "Tooltip": "soluta",
+    "Deleted": false,
+    "Rank": 295,
+    "UdListDefinitionId": 780
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 930,
-    "Name": "Reichert Inc and Sons",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 330,
-    "UdListDefinitionId": 245,
+    "HeadingId": 892,
+    "Name": "Muller, Nikolaus and Bosco",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 364,
+    "UdListDefinitionId": 315,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldLength": 132
       }
     }
   }

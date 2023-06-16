@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetPublishedPersonDocumentsByDate
 uid: v1DocumentAgent_GetPublishedPersonDocumentsByDate
+generated: true
 ---
 
 # POST Agents/Document/GetPublishedPersonDocumentsByDate
@@ -97,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 138,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2014-04-09T03:51:27.0061522+02:00",
-  "EndTime": "1999-01-01T03:51:27.0061522+01:00",
-  "Count": 601
+  "PersonId": 900,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2017-01-18T16:00:40.5706201+01:00",
+  "EndTime": "1999-08-05T16:00:40.5706201+02:00",
+  "Count": 429
 }
 ```
 
@@ -117,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 198,
-    "Attention": "consequatur",
-    "Header": "sequi",
-    "Name": "Wolff-Collins",
-    "OurRef": "aspernatur",
-    "YourRef": "ut",
-    "Description": "Proactive neutral hardware",
-    "DocumentTemplate": "beatae",
+    "DocumentId": 215,
+    "Attention": "aspernatur",
+    "Header": "cum",
+    "Name": "Kohler-Johnston",
+    "OurRef": "facere",
+    "YourRef": "quo",
+    "Description": "Cross-group background software",
+    "DocumentTemplate": "dolor",
     "IsPublished": false,
-    "PersonId": 426,
-    "PersonFullName": "Mrs. Clarissa Sincere Von",
-    "AssociateFullName": "Aron Orn",
-    "ContactId": 127,
-    "ContactName": "Schinner-Ward",
-    "ProjectId": 705,
-    "ProjectName": "Terry Inc and Sons",
-    "AssociateId": 512,
-    "Snum": 718,
-    "SaleId": 558,
-    "SaleName": "Wehner, Herzog and McCullough",
+    "PersonId": 667,
+    "PersonFullName": "Houston Johnston",
+    "AssociateFullName": "Alejandra Konopelski",
+    "ContactId": 922,
+    "ContactName": "Abbott, Skiles and Lueilwitz",
+    "ProjectId": 386,
+    "ProjectName": "Kling-Jerde",
+    "AssociateId": 292,
+    "Snum": 734,
+    "SaleId": 987,
+    "SaleName": "O'Hara-Dickens",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldLength": 373
       }
     }
   }

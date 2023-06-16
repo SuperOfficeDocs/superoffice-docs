@@ -1,6 +1,7 @@
 ---
 title: POST Agents/PhoneList/SetPreferences
 uid: v1PhoneListAgent_SetPreferences
+generated: true
 ---
 
 # POST Agents/PhoneList/SetPreferences
@@ -63,7 +64,7 @@ No Content
 POST /api/v1/Agents/PhoneList/SetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {

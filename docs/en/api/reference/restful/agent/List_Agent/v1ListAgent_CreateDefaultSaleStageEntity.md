@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultSaleStageEntity
 uid: v1ListAgent_CreateDefaultSaleStageEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultSaleStageEntity
@@ -71,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 110,
-  "Value": "deleniti",
-  "Tooltip": "necessitatibus",
-  "Probability": 734,
-  "Deleted": false,
-  "Rank": 139,
+  "SaleStageId": 108,
+  "Value": "sunt",
+  "Tooltip": "assumenda",
+  "Probability": 229,
+  "Deleted": true,
+  "Rank": 107,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldType": "System.String",
+      "FieldLength": 803
     }
   }
 }

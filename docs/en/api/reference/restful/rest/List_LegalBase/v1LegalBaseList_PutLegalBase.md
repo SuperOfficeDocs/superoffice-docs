@@ -1,6 +1,7 @@
 ---
 title: PUT List/LegalBase/Items/{id}
 uid: v1LegalBaseList_PutLegalBase
+generated: true
 ---
 
 # PUT List/LegalBase/Items/{id}
@@ -79,15 +80,15 @@ OK
 PUT /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 834,
-  "Name": "Hagenes, Kunze and Morissette",
-  "Tooltip": "autem",
-  "Rank": 228,
-  "Key": "maxime",
+  "LegalBaseId": 990,
+  "Name": "Legros-Jacobi",
+  "Tooltip": "doloremque",
+  "Rank": 56,
+  "Key": "nemo",
   "Deleted": false
 }
 ```
@@ -99,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 605,
-  "Name": "Huel-Johns",
-  "Tooltip": "corrupti",
-  "Rank": 5,
-  "Key": "unde",
-  "Deleted": true,
+  "LegalBaseId": 91,
+  "Name": "Davis, Kautzer and Crona",
+  "Tooltip": "quia",
+  "Rank": 232,
+  "Key": "et",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 655
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

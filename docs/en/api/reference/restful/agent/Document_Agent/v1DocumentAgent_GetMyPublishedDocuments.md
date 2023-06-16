@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetMyPublishedDocuments
 uid: v1DocumentAgent_GetMyPublishedDocuments
+generated: true
 ---
 
 # POST Agents/Document/GetMyPublishedDocuments
@@ -83,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 751,
-    "Attention": "veritatis",
-    "Header": "et",
-    "Name": "Bernhard, Gulgowski and McLaughlin",
-    "OurRef": "officia",
-    "YourRef": "consequuntur",
-    "Description": "Front-line real-time encryption",
-    "DocumentTemplate": "accusamus",
-    "IsPublished": false,
-    "PersonId": 211,
-    "PersonFullName": "Erick Connelly",
-    "AssociateFullName": "Miss Price Gorczany DVM",
-    "ContactId": 809,
-    "ContactName": "Kessler Inc and Sons",
-    "ProjectId": 172,
-    "ProjectName": "Klocko Group",
-    "AssociateId": 172,
-    "Snum": 221,
-    "SaleId": 669,
-    "SaleName": "Langworth Inc and Sons",
+    "DocumentId": 116,
+    "Attention": "quidem",
+    "Header": "qui",
+    "Name": "Bartell, McCullough and Ledner",
+    "OurRef": "consequatur",
+    "YourRef": "tenetur",
+    "Description": "Persevering secondary implementation",
+    "DocumentTemplate": "officia",
+    "IsPublished": true,
+    "PersonId": 937,
+    "PersonFullName": "Andreane Macejkovic PhD",
+    "AssociateFullName": "Mrs. Tanya Hugh Dooley",
+    "ContactId": 750,
+    "ContactName": "Kulas LLC",
+    "ProjectId": 834,
+    "ProjectName": "Roberts, Sawayn and Schiller",
+    "AssociateId": 518,
+    "Snum": 225,
+    "SaleId": 27,
+    "SaleName": "McGlynn, Christiansen and Torphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 117
+        "FieldType": "System.Int32",
+        "FieldLength": 699
       }
     }
   }

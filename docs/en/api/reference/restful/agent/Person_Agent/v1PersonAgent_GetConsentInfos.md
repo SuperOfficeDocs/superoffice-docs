@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetConsentInfos
 uid: v1PersonAgent_GetConsentInfos
+generated: true
 ---
 
 # POST Agents/Person/GetConsentInfos
@@ -88,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 996
+  "PersonId": 43
 }
 ```
 
@@ -104,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 198,
-    "Comment": "doloremque",
-    "Registered": "1999-12-16T03:51:27.8340855+01:00",
-    "RegisteredAssociateId": 176,
-    "Updated": "2018-09-02T03:51:27.8340855+02:00",
-    "UpdatedAssociateId": 44,
-    "LegalBaseId": 348,
-    "LegalBaseKey": "placeat",
-    "LegalBaseName": "Hauck, Mohr and McKenzie",
-    "ConsentPurposeId": 959,
-    "ConsentPurposeKey": "magni",
-    "ConsentPurposeName": "Ullrich, Kozey and Larkin",
-    "ConsentSourceId": 264,
-    "ConsentSourceKey": "in",
-    "ConsentSourceName": "Wisoky-Lowe",
+    "ConsentPersonId": 554,
+    "Comment": "eaque",
+    "Registered": "1999-11-05T16:00:41.4300927+01:00",
+    "RegisteredAssociateId": 83,
+    "Updated": "1996-11-04T16:00:41.4300927+01:00",
+    "UpdatedAssociateId": 36,
+    "LegalBaseId": 439,
+    "LegalBaseKey": "dolores",
+    "LegalBaseName": "Romaguera-Ortiz",
+    "ConsentPurposeId": 242,
+    "ConsentPurposeKey": "et",
+    "ConsentPurposeName": "Nicolas-Kunze",
+    "ConsentSourceId": 229,
+    "ConsentSourceKey": "temporibus",
+    "ConsentSourceName": "Johns Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldType": "System.String",
+        "FieldLength": 658
       }
     }
   }

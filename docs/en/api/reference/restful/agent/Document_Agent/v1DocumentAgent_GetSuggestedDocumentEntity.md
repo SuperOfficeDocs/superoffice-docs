@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetSuggestedDocumentEntity
 uid: v1DocumentAgent_GetSuggestedDocumentEntity
+generated: true
 ---
 
 # POST Agents/Document/GetSuggestedDocumentEntity
@@ -25,7 +26,7 @@ Gets a SuggestedDocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=223
+POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=180
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,14 +87,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 926,
-  "Name": "Mohr LLC",
-  "Tooltip": "laudantium",
-  "Rank": 417,
-  "DoctmplId": 766,
-  "Header": "non",
-  "OurRef": "occaecati",
-  "Deleted": false,
+  "SuggestedDocumentId": 385,
+  "Name": "Gislason Inc and Sons",
+  "Tooltip": "doloremque",
+  "Rank": 744,
+  "DoctmplId": 501,
+  "Header": "placeat",
+  "OurRef": "sed",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -101,8 +102,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 630
+      "FieldType": "System.Int32",
+      "FieldLength": 847
     }
   }
 }

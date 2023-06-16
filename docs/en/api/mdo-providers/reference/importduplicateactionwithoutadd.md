@@ -1,17 +1,11 @@
 ---
 uid: importduplicateactionwithoutadd
 title: importduplicateactionwithoutadd
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "importduplicateactionwithoutadd"
+keywords: mdoprovider mdo provider importduplicateactionwithoutadd
+description: Import duplicate; Merge, Replace, Skip
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "importduplicateactionwithoutadd" MDO List

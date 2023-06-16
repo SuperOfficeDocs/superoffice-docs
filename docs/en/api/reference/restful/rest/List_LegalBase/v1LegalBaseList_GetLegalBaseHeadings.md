@@ -1,6 +1,7 @@
 ---
 title: GET List/LegalBase/Headings
 uid: v1LegalBaseList_GetLegalBaseHeadings
+generated: true
 ---
 
 # GET List/LegalBase/Headings
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 984,
-    "Name": "Miller-Maggio",
-    "Tooltip": "quasi",
-    "Deleted": false,
-    "Rank": 390,
-    "UdListDefinitionId": 709,
+    "HeadingId": 718,
+    "Name": "Lang-Runolfsdottir",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "Rank": 795,
+    "UdListDefinitionId": 866,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldLength": 353
       }
     }
   }

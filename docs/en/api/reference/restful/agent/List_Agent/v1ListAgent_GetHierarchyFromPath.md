@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetHierarchyFromPath
 uid: v1ListAgent_GetHierarchyFromPath
+generated: true
 ---
 
 # POST Agents/List/GetHierarchyFromPath
@@ -88,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "mollitia",
-  "Children": false
+  "Path": "unde",
+  "Children": true
 }
 ```
 
@@ -100,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 31,
+  "HierarchyId": 99,
   "Domain": "Dashboards",
-  "Name": "Kautzer Inc and Sons",
-  "Fullname": "in",
-  "ParentId": 974,
+  "Name": "Lockman Inc and Sons",
+  "Fullname": "voluptas",
+  "ParentId": 535,
   "Children": [
     {
-      "HierarchyId": 983,
+      "HierarchyId": 512,
       "Domain": "Dashboards",
-      "Name": "VonRueden-Crona",
-      "Fullname": "quibusdam",
-      "ParentId": 226,
+      "Name": "Anderson, Larson and Kohler",
+      "Fullname": "et",
+      "ParentId": 663,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-05-11T03:51:27.4591714+02:00",
-      "RegisteredAssociateId": 788,
-      "Updated": "2016-09-18T03:51:27.4591714+02:00",
-      "UpdatedAssociateId": 425,
+      "Registered": "2007-11-24T16:00:41.1955783+01:00",
+      "RegisteredAssociateId": 834,
+      "Updated": "2007-05-27T16:00:41.1955783+02:00",
+      "UpdatedAssociateId": 158,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldLength": 189
         }
       }
     }
   ],
-  "Registered": "2019-05-11T03:51:27.4591714+02:00",
-  "RegisteredAssociateId": 584,
-  "Updated": "2011-04-25T03:51:27.4591714+02:00",
-  "UpdatedAssociateId": 836,
+  "Registered": "2014-12-10T16:00:41.1955783+01:00",
+  "RegisteredAssociateId": 651,
+  "Updated": "2005-03-17T16:00:41.1955783+01:00",
+  "UpdatedAssociateId": 334,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldLength": 838
     }
   }
 }

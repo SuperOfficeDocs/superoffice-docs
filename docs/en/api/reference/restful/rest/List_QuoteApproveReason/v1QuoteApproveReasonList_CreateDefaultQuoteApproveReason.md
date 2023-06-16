@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteApproveReason/Items/Default
 uid: v1QuoteApproveReasonList_CreateDefaultQuoteApproveReason
+generated: true
 ---
 
 # GET List/QuoteApproveReason/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 483,
-  "Name": "Bode, Durgan and Konopelski",
-  "Tooltip": "officiis",
+  "Id": 674,
+  "Name": "Morissette, Weimann and Pouros",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "UdListDefinitionId": 54,
-  "Rank": 939,
+  "UdListDefinitionId": 300,
+  "Rank": 578,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 747
     }
   }
 }

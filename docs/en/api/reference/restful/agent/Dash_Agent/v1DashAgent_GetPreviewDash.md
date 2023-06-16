@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/GetPreviewDash
 uid: v1DashAgent_GetPreviewDash
+generated: true
 ---
 
 # POST Agents/Dash/GetPreviewDash
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 632
+  "DashboardId": 99
 }
 ```
 
@@ -91,32 +92,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Beahan-Grady",
-  "Description": "Future-proofed dedicated matrices",
-  "OwnedByFullName": "Cristal Bode",
-  "Registered": "2014-03-23T03:51:26.9749126+01:00",
+  "Name": "Langosh-Mann",
+  "Description": "Profound actuating implementation",
+  "OwnedByFullName": "Candace Langosh",
+  "Registered": "2022-03-12T16:00:40.5393779+01:00",
   "Tiles": [
     {
-      "Name": "Monahan-Blick",
+      "Name": "Rutherford, Mosciski and Cremin",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 503
+          "FieldLength": 422
         }
       }
     },
     {
-      "Name": "Monahan-Blick",
+      "Name": "Rutherford, Mosciski and Cremin",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 503
+          "FieldLength": 422
         }
       }
     }
@@ -126,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 997
+      "FieldLength": 543
     }
   }
 }

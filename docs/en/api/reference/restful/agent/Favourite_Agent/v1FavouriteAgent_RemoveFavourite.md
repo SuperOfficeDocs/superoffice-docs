@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Favourite/RemoveFavourite
 uid: v1FavouriteAgent_RemoveFavourite
+generated: true
 ---
 
 # POST Agents/Favourite/RemoveFavourite
@@ -65,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stroman, Gaylord and Funk",
-  "RecordId": 772,
-  "AssociateId": 549
+  "TableName": "Kunde Inc and Sons",
+  "RecordId": 43,
+  "AssociateId": 48
 }
 ```
 

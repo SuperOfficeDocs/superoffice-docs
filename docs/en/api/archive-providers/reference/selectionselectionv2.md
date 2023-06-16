@@ -2,17 +2,10 @@
 uid: SelectionSelectionV2
 title: SelectionSelectionV2
 description: This is the archive Provider for the Selection selection archive.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SelectionSelectionV2"
+keywords: SelectionSelectionV2 archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SelectionSelectionV2"
@@ -88,7 +81,7 @@ This is the archive Provider for the Selection selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionV2?$select=lastLoadedByFullName,selectionAssociate/fullName
+GET /api/v1/archive/SelectionSelectionV2?$select=selectionAssociate/ejDisplayName,lastLoadedByFullName,selectionAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

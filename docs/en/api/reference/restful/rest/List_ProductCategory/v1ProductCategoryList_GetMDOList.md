@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductCategory/MDOItems
 uid: v1ProductCategoryList_GetMDOList
+generated: true
 ---
 
 # GET List/ProductCategory/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=reprehenderit
+GET /api/v1/List/ProductCategory/MDOItems?query=rem
 ```
 
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 557,
-    "Name": "Becker, Johns and Jones",
-    "ToolTip": "Expedita iusto voluptas.",
+    "Id": 751,
+    "Name": "Corwin-Vandervort",
+    "ToolTip": "Ab nulla saepe dolore occaecati aut.",
     "Deleted": false,
-    "Rank": 639,
-    "Type": "optio",
+    "Rank": 796,
+    "Type": "natus",
     "ChildItems": [
       {
-        "Id": 768,
-        "Name": "Shields Inc and Sons",
-        "ToolTip": "Veritatis adipisci natus illo et voluptate unde eveniet.",
-        "Deleted": true,
-        "Rank": 635,
-        "Type": "sit",
+        "Id": 995,
+        "Name": "Schuster, Lang and Heaney",
+        "ToolTip": "Ea qui et et ut quia.",
+        "Deleted": false,
+        "Rank": 797,
+        "Type": "consectetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 565,
-        "ExtraInfo": "aperiam",
-        "StyleHint": "non",
-        "FullName": "Kiarra Yost",
+        "IconHint": "consequatur",
+        "ColorBlock": 611,
+        "ExtraInfo": "ea",
+        "StyleHint": "eum",
+        "FullName": "Caleigh Hammes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 392
+            "FieldType": "System.String",
+            "FieldLength": 640
           }
         }
       }
     ],
-    "IconHint": "eligendi",
-    "ColorBlock": 446,
-    "ExtraInfo": "eius",
-    "StyleHint": "quo",
-    "FullName": "Dean Goldner",
+    "IconHint": "hic",
+    "ColorBlock": 607,
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "earum",
+    "FullName": "Stewart Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldType": "System.String",
+        "FieldLength": 697
       }
     }
   }

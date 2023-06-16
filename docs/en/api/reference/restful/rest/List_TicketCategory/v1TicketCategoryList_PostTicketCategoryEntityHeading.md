@@ -1,6 +1,7 @@
 ---
 title: POST List/TicketCategory/Headings
 uid: v1TicketCategoryList_PostTicketCategoryEntityHeading
+generated: true
 ---
 
 # POST List/TicketCategory/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 612,
-  "Name": "Bosco, Moore and Jaskolski",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 918,
-  "UdListDefinitionId": 683
+  "HeadingId": 724,
+  "Name": "Hudson LLC",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 108,
+  "UdListDefinitionId": 720
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 582,
-  "Name": "McCullough-Douglas",
-  "Tooltip": "deleniti",
+  "HeadingId": 279,
+  "Name": "Dach, Franecki and Ebert",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 583,
-  "UdListDefinitionId": 89,
+  "Rank": 197,
+  "UdListDefinitionId": 399,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldType": "System.Int32",
+      "FieldLength": 55
     }
   }
 }

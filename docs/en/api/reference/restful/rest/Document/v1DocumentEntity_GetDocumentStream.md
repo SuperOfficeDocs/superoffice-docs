@@ -1,6 +1,7 @@
 ---
 title: GET Document/{id}/Content
 uid: v1DocumentEntity_GetDocumentStream
+generated: true
 ---
 
 # GET Document/{id}/Content

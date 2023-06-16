@@ -1,6 +1,7 @@
 ---
 title: GET List/Position/Headings
 uid: v1PositionList_GetPositionHeadings
+generated: true
 ---
 
 # GET List/Position/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 463,
-    "Name": "Kessler-Emard",
-    "Tooltip": "suscipit",
-    "Deleted": true,
-    "Rank": 140,
-    "UdListDefinitionId": 722,
+    "HeadingId": 988,
+    "Name": "Sporer-Walsh",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "Rank": 776,
+    "UdListDefinitionId": 478,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldLength": 580
       }
     }
   }

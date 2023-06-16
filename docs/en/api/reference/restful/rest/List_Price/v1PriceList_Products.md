@@ -1,6 +1,7 @@
 ---
 title: GET Pricelist/{id}/Products
 uid: v1PriceList_Products
+generated: true
 ---
 
 # GET Pricelist/{id}/Products
@@ -73,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist/{id}/Products?$select=name,department,category/id
 GET /api/v1/Pricelist/{id}/Products?$filter=name begins 'S'
 GET /api/v1/Pricelist/{id}/Products?$orderBy=name asc
-GET /api/v1/Pricelist/{id}/Products?$entities=laboriosam
-GET /api/v1/Pricelist/{id}/Products?$top=396
-GET /api/v1/Pricelist/{id}/Products?$skip=539
+GET /api/v1/Pricelist/{id}/Products?$entities=rem
+GET /api/v1/Pricelist/{id}/Products?$top=924
+GET /api/v1/Pricelist/{id}/Products?$skip=484
 GET /api/v1/Pricelist/{id}/Products?$mode=Full
 GET /api/v1/Pricelist/{id}/Products?$options=GrandTotal=true
-GET /api/v1/Pricelist/{id}/Products?$context=et
+GET /api/v1/Pricelist/{id}/Products?$context=accusantium
 GET /api/v1/Pricelist/{id}/Products?$format=JSON
-GET /api/v1/Pricelist/{id}/Products?$jsonSafe=True
+GET /api/v1/Pricelist/{id}/Products?$jsonSafe=False
 GET /api/v1/Pricelist/{id}/Products?$output=Display
 ```
 
@@ -122,7 +123,7 @@ OK
 GET /api/v1/Pricelist/{id}/Products
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "adipisci",
+  "odata.nextLink": "perspiciatis",
   "value": [
     {
-      "PrimaryKey": 7422,
+      "PrimaryKey": 1710,
       "EntityName": "sale",
-      "saleId": 7422,
-      "contactId": 1261,
-      "name": "Schamberger-Jakubowski"
+      "saleId": 1710,
+      "contactId": 936,
+      "name": "Jacobson Group"
     },
     {
-      "PrimaryKey": 7918,
+      "PrimaryKey": 7751,
       "EntityName": "sale",
-      "saleId": 7918,
-      "contactId": 708,
-      "name": "Rosenbaum-Spinka"
+      "saleId": 7751,
+      "contactId": 5709,
+      "name": "Fritsch Inc and Sons"
     }
   ]
 }

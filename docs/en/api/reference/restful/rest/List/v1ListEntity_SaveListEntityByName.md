@@ -1,6 +1,7 @@
 ---
 title: PUT List/{name}
 uid: v1ListEntity_SaveListEntityByName
+generated: true
 ---
 
 # PUT List/{name}
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 498,
-  "Name": "Casper-Huels",
-  "Tooltip": "dolor",
+  "Id": 578,
+  "Name": "Champlin, Legros and Miller",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "Rank": 625,
+  "Rank": 329,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "a",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 260,
-  "Name": "Ryan-Simonis",
-  "Tooltip": "et",
+  "Id": 141,
+  "Name": "Gibson-Ruecker",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 811,
-  "IsCustomList": false,
+  "Rank": 801,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "soluta",
-  "InUseByUserDefinedFields": false,
+  "ListType": "numquam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldType": "System.String",
+      "FieldLength": 965
     }
   }
 }

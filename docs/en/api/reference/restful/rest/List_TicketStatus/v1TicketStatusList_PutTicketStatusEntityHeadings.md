@@ -1,6 +1,7 @@
 ---
 title: PUT List/TicketStatus/Headings
 uid: v1TicketStatusList_PutTicketStatusEntityHeadings
+generated: true
 ---
 
 # PUT List/TicketStatus/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 348,
-    "Name": "Nader LLC",
-    "Tooltip": "explicabo",
-    "Deleted": true,
-    "Rank": 267,
-    "UdListDefinitionId": 167
+    "HeadingId": 137,
+    "Name": "Torphy Inc and Sons",
+    "Tooltip": "dolor",
+    "Deleted": false,
+    "Rank": 33,
+    "UdListDefinitionId": 55
   },
   {
-    "HeadingId": 348,
-    "Name": "Nader LLC",
-    "Tooltip": "explicabo",
-    "Deleted": true,
-    "Rank": 267,
-    "UdListDefinitionId": 167
+    "HeadingId": 137,
+    "Name": "Torphy Inc and Sons",
+    "Tooltip": "dolor",
+    "Deleted": false,
+    "Rank": 33,
+    "UdListDefinitionId": 55
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 244,
-    "Name": "Pollich Group",
-    "Tooltip": "enim",
+    "HeadingId": 498,
+    "Name": "Leffler-Ward",
+    "Tooltip": "optio",
     "Deleted": false,
-    "Rank": 588,
-    "UdListDefinitionId": 425,
+    "Rank": 399,
+    "UdListDefinitionId": 694,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldType": "System.String",
+        "FieldLength": 801
       }
     }
   }

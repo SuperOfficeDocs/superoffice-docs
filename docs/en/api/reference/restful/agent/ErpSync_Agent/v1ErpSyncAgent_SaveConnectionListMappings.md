@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/SaveConnectionListMappings
 uid: v1ErpSyncAgent_SaveConnectionListMappings
+generated: true
 ---
 
 # POST Agents/ErpSync/SaveConnectionListMappings
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Cartwright Inc and Sons",
+      "ErpListName": "Hane-Quitzon",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Champlin Inc and Sons",
-      "ErpFieldId": 366,
+      "ErpActorTypeName": "Will Inc and Sons",
+      "ErpFieldId": 981,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 329
         }
       }
     }
   ],
-  "ErpConnectionId": 303,
-  "ErpConnectionName": "Hand-Walter",
+  "ErpConnectionId": 297,
+  "ErpConnectionName": "Jacobs Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 402
     }
   }
 }

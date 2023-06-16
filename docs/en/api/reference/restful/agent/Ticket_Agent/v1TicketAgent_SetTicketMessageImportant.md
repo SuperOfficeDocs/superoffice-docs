@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/SetTicketMessageImportant
 uid: v1TicketAgent_SetTicketMessageImportant
+generated: true
 ---
 
 # POST Agents/Ticket/SetTicketMessageImportant
@@ -64,12 +65,12 @@ No Content
 POST /api/v1/Agents/Ticket/SetTicketMessageImportant
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 822,
-  "Important": true
+  "TicketMessageId": 206,
+  "Important": false
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/GetTargetAssignmentForYear
 uid: v1TargetsAgent_GetTargetAssignmentForYear
+generated: true
 ---
 
 # POST Agents/Targets/GetTargetAssignmentForYear
@@ -87,10 +88,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 327,
+  "TargetYear": 900,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 871
+  "Id": 278
 }
 ```
 
@@ -101,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 686,
+  "TargetAssignmentInfoId": 428,
   "Values": [
-    473,
-    313
+    470,
+    201
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 300,
-  "DimensionListItemDisplayName": "Murray-Renner",
+  "DimensionListItem": 181,
+  "DimensionListItemDisplayName": "Fay, Bosco and Keeling",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 59
     }
   }
 }

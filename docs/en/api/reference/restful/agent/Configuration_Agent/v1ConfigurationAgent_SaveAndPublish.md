@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/SaveAndPublish
 uid: v1ConfigurationAgent_SaveAndPublish
+generated: true
 ---
 
 # POST Agents/Configuration/SaveAndPublish
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 614,
-  "Name": "Mitchell-Labadie",
-  "Description": "Organic client-server instruction set",
-  "DeltaJson": "quasi",
+  "ConfigurableScreenDeltaId": 819,
+  "Name": "Johns-Schneider",
+  "Description": "Optimized 5th generation local area network",
+  "DeltaJson": "exercitationem",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ex",
-  "UpdatedDate": "2009-06-06T03:51:26.787455+02:00",
-  "CreatedDate": "2009-07-18T03:51:26.787455+02:00",
+  "RecipeId": "qui",
+  "UpdatedDate": "2014-09-08T16:00:40.320651+02:00",
+  "CreatedDate": "2001-11-02T16:00:40.320651+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    941,
-    445
+    257,
+    233
   ],
-  "AppliesToKey": "incidunt",
+  "AppliesToKey": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldType": "System.Int32",
+      "FieldLength": 401
     }
   }
 }

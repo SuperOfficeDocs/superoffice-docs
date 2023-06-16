@@ -1,6 +1,7 @@
 ---
 title: POST List/ProductFamily/Items
 uid: v1ProductFamilyList_PostProductFamily
+generated: true
 ---
 
 # POST List/ProductFamily/Items
@@ -76,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 224,
-  "Name": "Raynor LLC",
-  "Tooltip": "fugiat",
-  "Deleted": false,
-  "UdListDefinitionId": 11,
-  "Rank": 212
+  "Id": 118,
+  "Name": "Green, Jacobi and Sawayn",
+  "Tooltip": "dicta",
+  "Deleted": true,
+  "UdListDefinitionId": 170,
+  "Rank": 516
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 131,
-  "Name": "Breitenberg-Yost",
-  "Tooltip": "at",
+  "Id": 551,
+  "Name": "Towne, Abernathy and Gerhold",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "UdListDefinitionId": 348,
-  "Rank": 691,
+  "UdListDefinitionId": 665,
+  "Rank": 947,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldType": "System.String",
+      "FieldLength": 327
     }
   }
 }

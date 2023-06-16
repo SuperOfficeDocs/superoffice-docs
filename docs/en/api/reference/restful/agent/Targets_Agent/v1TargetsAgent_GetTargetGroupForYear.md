@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/GetTargetGroupForYear
 uid: v1TargetsAgent_GetTargetGroupForYear
+generated: true
 ---
 
 # POST Agents/Targets/GetTargetGroupForYear
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 737,
+  "TargetYear": 120,
   "EntityType": "None"
 }
 ```
@@ -94,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 845,
-  "Year": 57,
+  "TargetGroupId": 633,
+  "Year": 357,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 91,
+      "TargetAssignmentInfoId": 171,
       "Values": [
-        896,
-        847
+        451,
+        726
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 273,
-      "DimensionListItemDisplayName": "Champlin Inc and Sons",
+      "DimensionListItem": 940,
+      "DimensionListItemDisplayName": "Bogisich-Abernathy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 934
+          "FieldType": "System.String",
+          "FieldLength": 204
         }
       }
     }
@@ -128,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 301
     }
   }
 }

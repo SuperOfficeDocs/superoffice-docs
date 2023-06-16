@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetSaleStakeholders
 uid: v1SaleAgent_GetSaleStakeholders
+generated: true
 ---
 
 # POST Agents/Sale/GetSaleStakeholders
@@ -90,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 638
+  "SaleId": 622
 }
 ```
 
@@ -106,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Renner, Quitzon and Schowalter",
-    "Comment": "dolor",
-    "StakeholderRoleId": 663,
-    "CountryId": 191,
-    "PersonId": 332,
-    "EmailDescription": "mohammed@crooks.info",
-    "EmailId": 570,
-    "EmailAddress": "wilma.west@goodwin.info",
-    "PhoneId": 446,
-    "ContactName": "Torp LLC",
-    "ContactId": 492,
-    "SaleId": 759,
-    "Mrmrs": "cupiditate",
-    "Firstname": "Winifred",
-    "MiddleName": "Hegmann, Boehm and McClure",
-    "Lastname": "Jones",
-    "SaleStakeholderId": 609,
-    "Rank": 708,
-    "Phone": "434.206.4620",
+    "StakeholderRoleName": "Zboncak LLC",
+    "Comment": "sed",
+    "StakeholderRoleId": 360,
+    "CountryId": 908,
+    "PersonId": 653,
+    "EmailDescription": "isabell@macejkovicrenner.info",
+    "EmailId": 882,
+    "EmailAddress": "odell@armstrong.biz",
+    "PhoneId": 83,
+    "ContactName": "Sanford Inc and Sons",
+    "ContactId": 125,
+    "SaleId": 363,
+    "Mrmrs": "sed",
+    "Firstname": "Sallie",
+    "MiddleName": "D'Amore-Hane",
+    "Lastname": "McLaughlin",
+    "SaleStakeholderId": 79,
+    "Rank": 313,
+    "Phone": "308-357-6313 x6431",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 113
+        "FieldLength": 945
       }
     }
   }

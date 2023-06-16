@@ -1,7 +1,7 @@
 ---
 title: Services88.QuoteAgent SOAP
 uid: Services88-Quote-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Quote SOAP

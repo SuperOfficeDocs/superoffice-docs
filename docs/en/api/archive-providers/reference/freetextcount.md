@@ -2,17 +2,10 @@
 uid: FreetextCount
 title: FreetextCount
 description: Archive provider for counts of freetext matches
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "FreetextCount"
+keywords: FreetextCount archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "FreetextCount"

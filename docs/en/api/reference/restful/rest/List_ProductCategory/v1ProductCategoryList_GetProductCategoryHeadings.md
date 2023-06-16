@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductCategory/Headings
 uid: v1ProductCategoryList_GetProductCategoryHeadings
+generated: true
 ---
 
 # GET List/ProductCategory/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 740,
-    "Name": "Weissnat, Rice and Wolf",
-    "Tooltip": "nihil",
+    "HeadingId": 745,
+    "Name": "Roob, Nader and Windler",
+    "Tooltip": "numquam",
     "Deleted": false,
-    "Rank": 901,
-    "UdListDefinitionId": 354,
+    "Rank": 639,
+    "UdListDefinitionId": 569,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldType": "System.String",
+        "FieldLength": 212
       }
     }
   }

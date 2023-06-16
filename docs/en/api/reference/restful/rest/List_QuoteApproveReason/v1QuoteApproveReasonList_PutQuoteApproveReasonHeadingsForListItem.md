@@ -1,6 +1,7 @@
 ---
 title: PUT List/QuoteApproveReason/Items/{id}/Headings
 uid: v1QuoteApproveReasonList_PutQuoteApproveReasonHeadingsForListItem
+generated: true
 ---
 
 # PUT List/QuoteApproveReason/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Ferry, Russel and Haley",
-    "ToolTip": "Excepturi sed.",
+    "Id": 909,
+    "Name": "Lang-Homenick",
+    "ToolTip": "In quis.",
     "Deleted": false,
-    "Rank": 980,
-    "Type": "deserunt",
-    "ColorBlock": 91,
-    "IconHint": "vero",
-    "Selected": true,
-    "LastChanged": "2018-11-18T03:51:34.864573+01:00",
+    "Rank": 772,
+    "Type": "et",
+    "ColorBlock": 661,
+    "IconHint": "quae",
+    "Selected": false,
+    "LastChanged": "1997-11-21T16:00:49.2270591+01:00",
     "ChildItems": [
       {
-        "Id": 446,
-        "Name": "Schimmel Inc and Sons",
-        "ToolTip": "Qui libero itaque voluptatem.",
-        "Deleted": false,
-        "Rank": 575,
-        "Type": "accusantium",
-        "ColorBlock": 231,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2004-09-22T03:51:34.864573+02:00",
+        "Id": 135,
+        "Name": "Jacobi Group",
+        "ToolTip": "Rerum corporis necessitatibus enim asperiores.",
+        "Deleted": true,
+        "Rank": 627,
+        "Type": "nulla",
+        "ColorBlock": 882,
+        "IconHint": "doloremque",
+        "Selected": true,
+        "LastChanged": "2017-01-07T16:00:49.2270591+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "est",
+        "ExtraInfo": "dolor",
+        "StyleHint": "iste",
         "Hidden": true,
-        "FullName": "Jaden Gaylord Hermann I"
+        "FullName": "Jett Schultz"
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "ipsum",
-    "Hidden": true,
-    "FullName": "Wilton Shanahan"
+    "ExtraInfo": "et",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Miss Lilla Tremaine Kutch I"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 412,
-    "Name": "Thompson Inc and Sons",
-    "ToolTip": "Rerum non ut quos repudiandae omnis voluptatibus.",
+    "Id": 618,
+    "Name": "Greenfelder Group",
+    "ToolTip": "Sit nostrum.",
     "Deleted": false,
-    "Rank": 379,
-    "Type": "ratione",
-    "ColorBlock": 289,
-    "IconHint": "ipsam",
+    "Rank": 495,
+    "Type": "cupiditate",
+    "ColorBlock": 950,
+    "IconHint": "dolor",
     "Selected": true,
-    "LastChanged": "2002-07-30T03:51:34.864573+02:00",
+    "LastChanged": "1999-12-13T16:00:49.2270591+01:00",
     "ChildItems": [
       {
-        "Id": 359,
-        "Name": "Emmerich LLC",
-        "ToolTip": "Repellat aut itaque eius.",
+        "Id": 348,
+        "Name": "Dietrich-Kris",
+        "ToolTip": "Voluptas odit suscipit recusandae delectus.",
         "Deleted": false,
-        "Rank": 393,
-        "Type": "fuga",
-        "ColorBlock": 238,
-        "IconHint": "dicta",
-        "Selected": false,
-        "LastChanged": "2015-11-17T03:51:34.864573+01:00",
+        "Rank": 785,
+        "Type": "asperiores",
+        "ColorBlock": 382,
+        "IconHint": "sapiente",
+        "Selected": true,
+        "LastChanged": "2001-10-19T16:00:49.2270591+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Garnett Kaya Bayer Sr.",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Mr. Rebeka Trantow DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 436
+            "FieldType": "System.Int32",
+            "FieldLength": 376
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "omnis",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Braden Gibson",
+    "FullName": "Bridgette Aufderhar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldType": "System.String",
+        "FieldLength": 775
       }
     }
   }

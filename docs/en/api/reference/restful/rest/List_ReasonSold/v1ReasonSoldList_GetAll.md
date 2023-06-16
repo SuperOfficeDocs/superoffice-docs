@@ -1,6 +1,7 @@
 ---
 title: GET List/ReasonSold/Items
 uid: v1ReasonSoldList_GetAll
+generated: true
 ---
 
 # GET List/ReasonSold/Items
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 325,
-    "Name": "Wunsch LLC",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "UdListDefinitionId": 268,
-    "Rank": 263,
+    "Id": 555,
+    "Name": "Koepp, Fahey and Rau",
+    "Tooltip": "non",
+    "Deleted": false,
+    "UdListDefinitionId": 982,
+    "Rank": 592,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 855
+        "FieldLength": 428
       }
     }
   }

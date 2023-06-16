@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/ClearNotify
 uid: v1TicketAgent_ClearNotify
+generated: true
 ---
 
 # POST Agents/Ticket/ClearNotify
@@ -68,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    647,
-    231
+    554,
+    314
   ]
 }
 ```

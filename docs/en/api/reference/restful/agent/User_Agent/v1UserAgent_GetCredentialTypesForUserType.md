@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetCredentialTypesForUserType
 uid: v1UserAgent_GetCredentialTypesForUserType
+generated: true
 ---
 
 # POST Agents/User/GetCredentialTypesForUserType
@@ -95,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "officiis",
-    "Type": "provident",
-    "Description": "Customer-focused mobile throughput",
+    "DisplayType": "in",
+    "Type": "corporis",
+    "Description": "Front-line leading edge core",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
+    "CanCreatePerson": false,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 30
       }
     }
   }

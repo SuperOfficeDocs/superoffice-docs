@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/ChatTopicsForUser
 uid: v1ChatAgent_ChatTopicsForUser
+generated: true
 ---
 
 # POST Agents/Chat/ChatTopicsForUser
@@ -96,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 822,
-    "Name": "Aufderhar-Sauer",
-    "Description": "Robust dedicated support",
-    "WelcomeMessage": "fugiat",
+    "ChatTopicId": 168,
+    "Name": "Greenholt Inc and Sons",
+    "Description": "Sharable content-based moderator",
+    "WelcomeMessage": "quia",
     "Language": null,
-    "LastAccept": "2014-10-20T03:51:26.7562093+02:00",
-    "SecondsPrAccept": 766,
-    "AlertRecipient": "repellat",
+    "LastAccept": "2003-09-15T16:00:40.2738074+02:00",
+    "SecondsPrAccept": 820,
+    "AlertRecipient": "animi",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "minima",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "at",
-    "WarnNewChatMinutes": 569,
-    "WarnManagerNewChatMinutes": 293,
+    "BadgeHeader": "aut",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "laudantium",
+    "WarnNewChatMinutes": 729,
+    "WarnManagerNewChatMinutes": 278,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": true,
+    "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 970,
-    "WarnManagerChatMessageMinutes": 20,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 201,
-    "OfflineFormQueueLength": 234,
-    "WidgetEnableRating": false,
-    "WidgetRatingText": "est",
+    "WarnChatMessageMinutes": 176,
+    "WarnManagerChatMessageMinutes": 368,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 149,
+    "OfflineFormQueueLength": 540,
+    "WidgetEnableRating": true,
+    "WidgetRatingText": "voluptates",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 452
+        "FieldLength": 348
       }
     }
   }

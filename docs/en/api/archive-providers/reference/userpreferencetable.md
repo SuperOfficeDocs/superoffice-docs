@@ -2,17 +2,10 @@
 uid: UserPreferenceTable
 title: UserPreferenceTable
 description: Archive provider for preferences that live in the <b>userpreference</b> table. <see cref="T -SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider" /> for those that
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "UserPreferenceTable"
+keywords: UserPreferenceTable archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "UserPreferenceTable"
@@ -51,7 +44,7 @@ actually live in the Service tables.
 ## Sample
 
 ```http!
-GET /api/v1/archive/UserPreferenceTable?$select=deflevelname,maxlevelname
+GET /api/v1/archive/UserPreferenceTable?$select=getAllRows,deflevelname,maxlevelname
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

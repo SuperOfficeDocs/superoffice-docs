@@ -1,6 +1,7 @@
 ---
 title: POST Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 uid: v1DocumentEntity_ChangeFieldType
+generated: true
 ---
 
 # POST Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -29,7 +30,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -103,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 732,
-  "ColumnId": 31,
+  "UDefFieldId": 910,
+  "ColumnId": 677,
   "FieldDefault": "sed",
-  "FieldHeight": 919,
-  "FieldLabel": "possimus",
-  "FieldLeft": 346,
-  "FieldTop": 570,
+  "FieldHeight": 898,
+  "FieldLabel": "eos",
+  "FieldLeft": 776,
+  "FieldTop": 55,
   "FieldType": "Checkbox",
-  "FieldWidth": 300,
-  "FormatMask": "quaerat",
+  "FieldWidth": 167,
+  "FormatMask": "et",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 25,
-  "LabelLeft": 2,
-  "LabelTop": 328,
-  "LabelWidth": 671,
-  "LastVersionId": 651,
-  "ListTableId": 262,
-  "IsMandatory": false,
+  "LabelHeight": 682,
+  "LabelLeft": 486,
+  "LabelTop": 413,
+  "LabelWidth": 688,
+  "LastVersionId": 825,
+  "ListTableId": 71,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 545,
-  "ProgId": "blanditiis",
+  "Page1LineNo": 523,
+  "ProgId": "temporibus",
   "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 417,
-  "TextLength": 288,
-  "Tooltip": "natus",
-  "UdefIdentity": 735,
-  "UDListDefinitionId": 174,
+  "ShortLabel": "praesentium",
+  "TabOrder": 846,
+  "TextLength": 810,
+  "Tooltip": "quaerat",
+  "UdefIdentity": 227,
+  "UDListDefinitionId": 269,
   "Justification": "Center",
-  "Version": 476,
-  "TemplateVariableName": "Ullrich-Olson",
-  "HasBeenPublished": false,
-  "MdoListName": "Rodriguez, Durgan and Block",
+  "Version": 974,
+  "TemplateVariableName": "Batz-Spinka",
+  "HasBeenPublished": true,
+  "MdoListName": "Satterfield, Reinger and Cole",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 150
     }
   }
 }

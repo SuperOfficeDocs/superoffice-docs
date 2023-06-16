@@ -1,6 +1,7 @@
 ---
 title: POST List/DeliveryType/Items
 uid: v1DeliveryTypeList_PostDeliveryType
+generated: true
 ---
 
 # POST List/DeliveryType/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 593,
-  "Name": "Christiansen-Grady",
-  "Tooltip": "hic",
-  "Deleted": true,
-  "UdListDefinitionId": 545,
-  "Rank": 929
+  "Id": 507,
+  "Name": "Brekke LLC",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "UdListDefinitionId": 301,
+  "Rank": 225
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 43,
-  "Name": "Bosco, Hansen and Kuvalis",
-  "Tooltip": "nisi",
-  "Deleted": true,
-  "UdListDefinitionId": 792,
-  "Rank": 529,
+  "Id": 485,
+  "Name": "Pacocha, Bahringer and Frami",
+  "Tooltip": "ipsa",
+  "Deleted": false,
+  "UdListDefinitionId": 997,
+  "Rank": 458,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldType": "System.String",
+      "FieldLength": 128
     }
   }
 }

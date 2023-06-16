@@ -1,17 +1,11 @@
 ---
 uid: emailflow
 title: emailflow
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "emailflow"
+keywords: mdoprovider mdo provider emailflow
+description: List provider for EmailFlow
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "emailflow" MDO List

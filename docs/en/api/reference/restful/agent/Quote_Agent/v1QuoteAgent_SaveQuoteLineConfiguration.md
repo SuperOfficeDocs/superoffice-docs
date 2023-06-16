@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SaveQuoteLineConfiguration
 uid: v1QuoteAgent_SaveQuoteLineConfiguration
+generated: true
 ---
 
 # POST Agents/Quote/SaveQuoteLineConfiguration
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 141,
-  "FieldName": "Shanahan-Sauer",
+  "QuoteLineConfigurationId": 365,
+  "FieldName": "Bayer, Altenwerth and Kertzmann",
   "Label": "et",
-  "Tooltip": "cupiditate",
-  "Editable": true,
-  "InUse": true,
+  "Tooltip": "qui",
+  "Editable": false,
+  "InUse": false,
   "Mandatory": true,
-  "Rank": 602,
+  "Rank": 606,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldLength": 400
     }
   }
 }

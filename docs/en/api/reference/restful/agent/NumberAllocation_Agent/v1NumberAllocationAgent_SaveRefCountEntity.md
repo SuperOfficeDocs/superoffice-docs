@@ -1,6 +1,7 @@
 ---
 title: POST Agents/NumberAllocation/SaveRefCountEntity
 uid: v1NumberAllocationAgent_SaveRefCountEntity
+generated: true
 ---
 
 # POST Agents/NumberAllocation/SaveRefCountEntity
@@ -82,39 +83,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 774,
-  "Field": "accusamus",
-  "RecordId": 798,
+  "RefCountsId": 667,
+  "Field": "cupiditate",
+  "RecordId": 607,
   "SuggestedRecords": [
     {
-      "Id": 783,
-      "Name": "Blanda, Abshire and Daniel",
-      "ToolTip": "Porro aut deserunt deserunt sit ex cumque.",
+      "Id": 753,
+      "Name": "O'Reilly, Stehr and Fritsch",
+      "ToolTip": "Dolorum voluptatem.",
       "Deleted": false,
-      "Rank": 295,
-      "Type": "assumenda",
+      "Rank": 482,
+      "Type": "quo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quia",
-      "ColorBlock": 590,
-      "ExtraInfo": "optio",
-      "StyleHint": "totam",
-      "FullName": "Mrs. Louisa Nya McKenzie IV"
+      "IconHint": "recusandae",
+      "ColorBlock": 138,
+      "ExtraInfo": "consequuntur",
+      "StyleHint": "eveniet",
+      "FullName": "Vernon Hane"
     }
   ],
-  "CurrentValue": 155,
-  "TravelPrefix": 798,
-  "SatPrefix": 781,
-  "Allocate": true,
-  "Unique": true,
+  "CurrentValue": 243,
+  "TravelPrefix": 396,
+  "SatPrefix": 396,
+  "Allocate": false,
+  "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": false
+  "AllowBlank": true
 }
 ```
 
@@ -125,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 325,
-  "Field": "non",
-  "RecordId": 914,
+  "RefCountsId": 665,
+  "Field": "quos",
+  "RecordId": 388,
   "SuggestedRecords": [
     {
-      "Id": 479,
-      "Name": "Yost, Lebsack and Barrows",
-      "ToolTip": "Omnis nostrum.",
+      "Id": 933,
+      "Name": "McCullough, Altenwerth and Schneider",
+      "ToolTip": "Autem vel perspiciatis maxime earum maiores aliquam qui.",
       "Deleted": false,
-      "Rank": 903,
-      "Type": "ut",
+      "Rank": 419,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eius",
-      "ColorBlock": 450,
-      "ExtraInfo": "blanditiis",
-      "StyleHint": "possimus",
-      "FullName": "Marjorie Windler",
+      "IconHint": "et",
+      "ColorBlock": 119,
+      "ExtraInfo": "suscipit",
+      "StyleHint": "animi",
+      "FullName": "Estrella May Sawayn Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 415
         }
       }
     }
   ],
-  "CurrentValue": 665,
-  "TravelPrefix": 663,
-  "SatPrefix": 682,
-  "Allocate": false,
+  "CurrentValue": 607,
+  "TravelPrefix": 504,
+  "SatPrefix": 931,
+  "Allocate": true,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 528
     }
   }
 }

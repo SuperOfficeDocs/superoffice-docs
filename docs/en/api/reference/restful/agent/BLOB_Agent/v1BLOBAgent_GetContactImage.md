@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/GetContactImage
 uid: v1BLOBAgent_GetContactImage
+generated: true
 ---
 
 # POST Agents/BLOB/GetContactImage
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/BLOB/GetContactImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 274
+  "ContactId": 80
 }
 ```
 

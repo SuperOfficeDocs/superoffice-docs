@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAllFromListDefinition
 uid: v1ListAgent_GetAllFromListDefinition
+generated: true
 ---
 
 # POST Agents/List/GetAllFromListDefinition
@@ -82,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 784,
+  "UdListDefinitionId": 250,
   "IncludeDeleted": false
 }
 ```
@@ -95,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 245,
-    "Name": "Farrell Group",
-    "Tooltip": "possimus",
+    "Id": 893,
+    "Name": "Frami-Dickinson",
+    "Tooltip": "incidunt",
     "Deleted": false,
-    "UdListDefinitionId": 900,
-    "Rank": 371,
+    "UdListDefinitionId": 554,
+    "Rank": 847,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 488
+        "FieldLength": 388
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetRecentSales
 uid: v1SaleAgent_GetRecentSales
+generated: true
 ---
 
 # POST Agents/Sale/GetRecentSales
@@ -99,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 595,
-  "Count": 287
+  "AmountLimit": 367,
+  "Count": 155
 }
 ```
 
@@ -116,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Farrell Group",
-    "SaleDate": "1998-06-19T03:51:28.1152684+02:00",
-    "SaleId": 793,
-    "Probability": 854,
-    "Title": "necessitatibus",
-    "Amount": 30227.43,
-    "Currency": "illo",
-    "ProjectName": "Metz Group",
-    "AssociateFullName": "Mr. Keeley Schimmel DDS",
-    "Description": "Open-architected local knowledge base",
+    "ContactName": "Hirthe, Kautzer and Bashirian",
+    "SaleDate": "2005-12-11T16:00:41.7894273+01:00",
+    "SaleId": 678,
+    "Probability": 305,
+    "Title": "laborum",
+    "Amount": 30415.469999999998,
+    "Currency": "dolorum",
+    "ProjectName": "Upton Group",
+    "AssociateFullName": "Lonny Smith IV",
+    "Description": "Implemented background complexity",
     "Status": "Lost",
-    "WeightedAmount": 21514.91,
-    "ProjectId": 511,
-    "EarningPercent": 16911.064,
-    "Earning": 13347.706,
-    "ContactId": 320,
-    "AssociateId": 626,
-    "PersonId": 550,
-    "SaleTypeId": 182,
-    "SaleTypeName": "Nader Inc and Sons",
-    "PersonFullName": "Prof. Donald Estella Schinner",
+    "WeightedAmount": 31336.865999999998,
+    "ProjectId": 276,
+    "EarningPercent": 739.624,
+    "Earning": 19242.76,
+    "ContactId": 337,
+    "AssociateId": 456,
+    "PersonId": 287,
+    "SaleTypeId": 827,
+    "SaleTypeName": "Borer-Mertz",
+    "PersonFullName": "Lillie D'Amore",
     "Completed": "Completed",
-    "ActiveErpLinks": 643,
-    "NextDueDate": "2013-06-06T03:51:28.1308861+02:00",
-    "Number": "937080",
+    "ActiveErpLinks": 814,
+    "NextDueDate": "2020-01-04T16:00:41.7894273+01:00",
+    "Number": "1249005",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 580
+        "FieldType": "System.Int32",
+        "FieldLength": 814
       }
     }
   }

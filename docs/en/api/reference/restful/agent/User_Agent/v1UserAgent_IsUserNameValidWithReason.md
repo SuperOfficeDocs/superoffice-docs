@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/IsUserNameValidWithReason
 uid: v1UserAgent_IsUserNameValidWithReason
+generated: true
 ---
 
 # POST Agents/User/IsUserNameValidWithReason
@@ -78,14 +79,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 222,
+  "AssociateId": 683,
   "Type": "AnonymousAssociate",
-  "PersonId": 162,
-  "UserName": "Harber Group"
+  "PersonId": 263,
+  "UserName": "Witting-Wolff"
 }
 ```
 
@@ -102,8 +103,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldType": "System.String",
+      "FieldLength": 47
     }
   }
 }

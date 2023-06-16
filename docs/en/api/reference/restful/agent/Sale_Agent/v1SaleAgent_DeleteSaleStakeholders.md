@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/DeleteSaleStakeholders
 uid: v1SaleAgent_DeleteSaleStakeholders
+generated: true
 ---
 
 # POST Agents/Sale/DeleteSaleStakeholders
@@ -63,13 +64,13 @@ No Content
 POST /api/v1/Agents/Sale/DeleteSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    838,
-    768
+    148,
+    654
   ]
 }
 ```

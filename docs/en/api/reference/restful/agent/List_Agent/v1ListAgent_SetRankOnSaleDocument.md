@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SetRankOnSaleDocument
 uid: v1ListAgent_SetRankOnSaleDocument
+generated: true
 ---
 
 # POST Agents/List/SetRankOnSaleDocument
@@ -68,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeStageLinkId": 583,
+  "SaleTypeStageLinkId": 653,
   "ItemsIds": [
-    797,
-    415
+    398,
+    754
   ]
 }
 ```

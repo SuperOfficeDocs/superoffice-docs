@@ -1,6 +1,7 @@
 ---
 title: POST List/QuoteDenyReason/Headings
 uid: v1QuoteDenyReasonList_PostQuoteDenyReasonHeading
+generated: true
 ---
 
 # POST List/QuoteDenyReason/Headings
@@ -78,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 390,
-  "Name": "Douglas, Huel and Collins",
-  "Tooltip": "autem",
+  "HeadingId": 820,
+  "Name": "Beahan Group",
+  "Tooltip": "eaque",
   "Deleted": false,
-  "Rank": 604,
-  "UdListDefinitionId": 799
+  "Rank": 634,
+  "UdListDefinitionId": 708
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 621,
-  "Name": "Tromp-Kunde",
-  "Tooltip": "harum",
-  "Deleted": false,
-  "Rank": 725,
-  "UdListDefinitionId": 503,
+  "HeadingId": 669,
+  "Name": "Oberbrunner-Beatty",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "Rank": 427,
+  "UdListDefinitionId": 116,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 366
     }
   }
 }

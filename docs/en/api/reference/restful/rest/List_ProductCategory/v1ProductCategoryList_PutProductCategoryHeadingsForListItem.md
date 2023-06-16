@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductCategory/Items/{id}/Headings
 uid: v1ProductCategoryList_PutProductCategoryHeadingsForListItem
+generated: true
 ---
 
 # PUT List/ProductCategory/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 314,
-    "Name": "Romaguera Inc and Sons",
-    "ToolTip": "Et architecto suscipit.",
+    "Id": 138,
+    "Name": "Stokes-Lindgren",
+    "ToolTip": "Corrupti dicta.",
     "Deleted": true,
-    "Rank": 881,
-    "Type": "odit",
-    "ColorBlock": 421,
-    "IconHint": "voluptatem",
+    "Rank": 168,
+    "Type": "repellendus",
+    "ColorBlock": 469,
+    "IconHint": "distinctio",
     "Selected": false,
-    "LastChanged": "2005-07-24T03:51:34.8020755+02:00",
+    "LastChanged": "2005-04-14T16:00:49.1489485+02:00",
     "ChildItems": [
       {
-        "Id": 326,
-        "Name": "Casper Group",
-        "ToolTip": "Commodi sed animi ut perferendis.",
+        "Id": 356,
+        "Name": "Hartmann Inc and Sons",
+        "ToolTip": "Ut ducimus neque qui occaecati magni exercitationem ea.",
         "Deleted": false,
-        "Rank": 949,
-        "Type": "dolores",
-        "ColorBlock": 859,
-        "IconHint": "est",
+        "Rank": 724,
+        "Type": "ratione",
+        "ColorBlock": 755,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2020-04-23T03:51:34.8020755+02:00",
+        "LastChanged": "2019-02-15T16:00:49.1489485+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "dolorem",
-        "Hidden": false,
-        "FullName": "Mr. Harry Carroll Jr."
+        "ExtraInfo": "sunt",
+        "StyleHint": "assumenda",
+        "Hidden": true,
+        "FullName": "Morgan Fritsch"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "est",
+    "ExtraInfo": "vel",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mr. Osbaldo Skyla Nader"
+    "FullName": "Thora Koss"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 956,
-    "Name": "Conn LLC",
-    "ToolTip": "Consequatur magni neque amet laborum magnam deleniti voluptatibus.",
-    "Deleted": true,
-    "Rank": 275,
-    "Type": "quaerat",
-    "ColorBlock": 191,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2018-05-28T03:51:34.8020755+02:00",
+    "Id": 960,
+    "Name": "Macejkovic-Hermann",
+    "ToolTip": "Vel assumenda voluptatem eum voluptas delectus sed quia.",
+    "Deleted": false,
+    "Rank": 658,
+    "Type": "ea",
+    "ColorBlock": 635,
+    "IconHint": "possimus",
+    "Selected": false,
+    "LastChanged": "2018-06-23T16:00:49.1489485+02:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "Mertz-Klocko",
-        "ToolTip": "Repudiandae iste.",
-        "Deleted": false,
-        "Rank": 776,
-        "Type": "voluptatem",
-        "ColorBlock": 268,
-        "IconHint": "excepturi",
-        "Selected": false,
-        "LastChanged": "2015-12-16T03:51:34.8020755+01:00",
+        "Id": 655,
+        "Name": "Hills Inc and Sons",
+        "ToolTip": "Eos minima consequatur.",
+        "Deleted": true,
+        "Rank": 394,
+        "Type": "eligendi",
+        "ColorBlock": 262,
+        "IconHint": "quidem",
+        "Selected": true,
+        "LastChanged": "1997-10-31T16:00:49.1489485+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "in",
         "Hidden": true,
-        "FullName": "Mr. Amani Assunta Raynor",
+        "FullName": "June Nolan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 195
+            "FieldLength": 854
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "optio",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Bailee McDermott",
+    "FullName": "Ali Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 26
+        "FieldLength": 547
       }
     }
   }

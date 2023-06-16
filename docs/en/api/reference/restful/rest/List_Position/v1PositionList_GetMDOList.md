@@ -1,6 +1,7 @@
 ---
 title: GET List/Position/MDOItems
 uid: v1PositionList_GetMDOList
+generated: true
 ---
 
 # GET List/Position/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=quos
+GET /api/v1/List/Position/MDOItems?query=molestiae
 ```
 
 
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Williamson LLC",
-    "ToolTip": "Omnis eveniet quia natus eius est suscipit.",
-    "Deleted": true,
-    "Rank": 306,
-    "Type": "aut",
+    "Id": 398,
+    "Name": "Sporer, Predovic and Reichel",
+    "ToolTip": "Quidem officiis odit fuga officiis.",
+    "Deleted": false,
+    "Rank": 88,
+    "Type": "repellat",
     "ChildItems": [
       {
-        "Id": 774,
-        "Name": "Douglas-Koss",
-        "ToolTip": "Dolor perferendis omnis quisquam.",
-        "Deleted": false,
-        "Rank": 711,
-        "Type": "nesciunt",
+        "Id": 814,
+        "Name": "Blanda-Grimes",
+        "ToolTip": "Quia aperiam qui exercitationem voluptatem et harum eum.",
+        "Deleted": true,
+        "Rank": 53,
+        "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 295,
-        "ExtraInfo": "repellendus",
-        "StyleHint": "atque",
-        "FullName": "Birdie Weimann",
+        "IconHint": "voluptatum",
+        "ColorBlock": 983,
+        "ExtraInfo": "et",
+        "StyleHint": "nostrum",
+        "FullName": "Mr. Joshua Gaylord",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 990
+            "FieldType": "System.String",
+            "FieldLength": 59
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 919,
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "repudiandae",
-    "FullName": "Price D'Amore",
+    "IconHint": "iusto",
+    "ColorBlock": 100,
+    "ExtraInfo": "illum",
+    "StyleHint": "et",
+    "FullName": "Florian Borer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 819
+        "FieldLength": 86
       }
     }
   }

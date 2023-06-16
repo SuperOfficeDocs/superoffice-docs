@@ -1,6 +1,7 @@
 ---
 title: POST List/WebPanel/Items
 uid: v1WebPanelEntityList_PostWebPanelEntity
+generated: true
 ---
 
 # POST List/WebPanel/Items
@@ -104,30 +105,30 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 239,
-  "Name": "Lang-Stark",
-  "Tooltip": "maiores",
+  "WebPanelId": 473,
+  "Name": "Casper, Pfannerstill and Hudson",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 734,
+  "Rank": 726,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Gusikowski-Zemlak",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Predovic-Bailey",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 626,
+  "ProgId": "quisquam",
+  "Icon": 329,
   "AlwaysReloadOnShow": true
 }
 ```
@@ -139,33 +140,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 775,
-  "Name": "Price-Moen",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 151,
+  "WebPanelId": 378,
+  "Name": "Pollich-Lockman",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "Rank": 758,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnCentral": true,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Feeney, Frami and Keebler",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Casper-Barrows",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptate",
-  "Icon": 598,
+  "ProgId": "consectetur",
+  "Icon": 642,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldLength": 778
     }
   }
 }

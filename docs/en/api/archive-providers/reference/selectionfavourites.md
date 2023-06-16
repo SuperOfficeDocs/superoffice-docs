@@ -2,17 +2,10 @@
 uid: selectionfavourites
 title: selectionfavourites
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "selectionfavourites"
+keywords: selectionfavourites archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "selectionfavourites"
@@ -89,7 +82,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/selectionfavourites?$select=lastMembershipChange,selectionAssociate/contactCategory,lastMembershipChange
+GET /api/v1/archive/selectionfavourites?$select=lastMembershipChange,selectionAssociate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

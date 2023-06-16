@@ -1,6 +1,6 @@
 ---
 title: Services88.FreeTextAgent.GetSuggestedStopWords SOAP
-generated: 1
+generated: true
 uid: Services88-FreeText-GetSuggestedStopWords
 ---
 

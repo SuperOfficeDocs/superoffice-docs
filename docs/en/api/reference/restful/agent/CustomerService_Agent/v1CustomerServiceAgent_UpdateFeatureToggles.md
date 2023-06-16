@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/UpdateFeatureToggles
 uid: v1CustomerServiceAgent_UpdateFeatureToggles
+generated: true
 ---
 
 # POST Agents/CustomerService/UpdateFeatureToggles
@@ -69,11 +70,11 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Herman-Hartmann",
+      "Name": "Botsford, Hyatt and Gerlach",
       "State": false
     },
     {
-      "Name": "Herman-Hartmann",
+      "Name": "Botsford, Hyatt and Gerlach",
       "State": false
     }
   ]

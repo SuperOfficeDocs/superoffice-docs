@@ -1,6 +1,7 @@
 ---
 title: PUT List/Rating/Headings
 uid: v1RatingList_PutSaleStageEntityHeadings
+generated: true
 ---
 
 # PUT List/Rating/Headings
@@ -74,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 482,
-    "Name": "Nader, Dickens and Marquardt",
-    "Tooltip": "optio",
+    "HeadingId": 190,
+    "Name": "Windler, Kunde and Goyette",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 793,
-    "UdListDefinitionId": 476
+    "Rank": 67,
+    "UdListDefinitionId": 450
   },
   {
-    "HeadingId": 482,
-    "Name": "Nader, Dickens and Marquardt",
-    "Tooltip": "optio",
+    "HeadingId": 190,
+    "Name": "Windler, Kunde and Goyette",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 793,
-    "UdListDefinitionId": 476
+    "Rank": 67,
+    "UdListDefinitionId": 450
   }
 ]
 ```
@@ -105,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 946,
-    "Name": "Bauch, Tillman and Nader",
-    "Tooltip": "et",
+    "HeadingId": 970,
+    "Name": "Stamm-Kautzer",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 845,
-    "UdListDefinitionId": 946,
+    "Rank": 437,
+    "UdListDefinitionId": 840,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 505
+        "FieldLength": 60
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveRelationDefinitionEntity
 uid: v1ListAgent_SaveRelationDefinitionEntity
+generated: true
 ---
 
 # POST Agents/List/SaveRelationDefinitionEntity
@@ -76,16 +77,16 @@ OK
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 278,
-  "Name": "Schamberger, Ryan and Hills",
-  "Tooltip": "id",
-  "PassiveText": "dolorum",
+  "ReldefId": 430,
+  "Name": "Feil Group",
+  "Tooltip": "consequuntur",
+  "PassiveText": "explicabo",
   "Deleted": false,
-  "Rank": 346,
+  "Rank": 471,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -98,12 +99,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 593,
-  "Name": "Bergstrom, Armstrong and Mohr",
-  "Tooltip": "molestiae",
-  "PassiveText": "voluptatum",
+  "ReldefId": 848,
+  "Name": "Murphy, Prohaska and Mraz",
+  "Tooltip": "eaque",
+  "PassiveText": "dolor",
   "Deleted": false,
-  "Rank": 904,
+  "Rank": 757,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -111,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 878
     }
   }
 }

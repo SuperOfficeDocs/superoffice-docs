@@ -1,6 +1,7 @@
 ---
 title: POST CRMScript/{id}/ExecuteAsEvent
 uid: v1CRMScriptEntity_ExecuteScriptAsEventByUniqueId
+generated: true
 ---
 
 # POST CRMScript/{id}/ExecuteAsEvent
@@ -87,26 +88,26 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "error",
-    "InputValues2": "rerum"
+    "InputValues1": "sequi",
+    "InputValues2": "ut"
   },
   "BlockExecution": true,
-  "NavigateTo": "enim",
-  "Message": "voluptatem",
-  "ShowDialog": "et",
+  "NavigateTo": "molestias",
+  "Message": "nam",
+  "ShowDialog": "vero",
   "OutputValues": {
-    "OutputValues1": "veritatis",
-    "OutputValues2": "voluptatem"
+    "OutputValues1": "adipisci",
+    "OutputValues2": "animi"
   },
   "StateValues": {
-    "StateValues1": "saepe",
-    "StateValues2": "qui"
+    "StateValues1": "dolores",
+    "StateValues2": "iure"
   },
   "Exception": "tempore"
 }
@@ -121,28 +122,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "omnis",
-    "InputValues2": "odio"
+    "InputValues1": "quod",
+    "InputValues2": "nesciunt"
   },
   "BlockExecution": false,
-  "NavigateTo": "et",
-  "Message": "voluptas",
-  "ShowDialog": "error",
+  "NavigateTo": "dolorem",
+  "Message": "odio",
+  "ShowDialog": "consequatur",
   "OutputValues": {
-    "OutputValues1": "maiores",
-    "OutputValues2": "consequatur"
+    "OutputValues1": "rerum",
+    "OutputValues2": "non"
   },
   "StateValues": {
-    "StateValues1": "repellendus",
-    "StateValues2": "possimus"
+    "StateValues1": "dolore",
+    "StateValues2": "consectetur"
   },
-  "Exception": "nesciunt",
+  "Exception": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 256
     }
   }
 }

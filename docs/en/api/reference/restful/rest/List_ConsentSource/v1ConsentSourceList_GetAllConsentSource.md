@@ -1,6 +1,7 @@
 ---
 title: GET List/ConsentSource/Items
 uid: v1ConsentSourceList_GetAllConsentSource
+generated: true
 ---
 
 # GET List/ConsentSource/Items
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 330,
-    "Name": "Fritsch Group",
-    "Tooltip": "velit",
-    "Rank": 928,
-    "Key": "eaque",
-    "MailTemplateId": 513,
-    "Deleted": false,
+    "ConsentSourceId": 829,
+    "Name": "Kemmer Group",
+    "Tooltip": "corrupti",
+    "Rank": 715,
+    "Key": "est",
+    "MailTemplateId": 847,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldLength": 20
       }
     }
   }

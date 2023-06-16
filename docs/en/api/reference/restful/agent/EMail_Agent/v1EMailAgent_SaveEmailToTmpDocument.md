@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/SaveEmailToTmpDocument
 uid: v1EMailAgent_SaveEmailToTmpDocument
+generated: true
 ---
 
 # POST Agents/EMail/SaveEmailToTmpDocument
@@ -71,12 +72,12 @@ OK
 POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Email": null,
-  "FolderId": 805,
+  "FolderId": 846,
   "StripAttachments": false
 }
 ```
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dejah@cummerata.biz"
+"tremaine@cronabruen.uk"
 ```

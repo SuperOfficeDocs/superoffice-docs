@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetDocumentTemplateEntity
 uid: v1ListAgent_GetDocumentTemplateEntity
+generated: true
 ---
 
 # POST Agents/List/GetDocumentTemplateEntity
@@ -25,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=280
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=935
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -100,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 291,
-  "Name": "Hackett-Hamill",
-  "Tooltip": "cumque",
-  "SaveInDb": 776,
-  "Filename": "in",
-  "DefaultOref": "sint",
+  "DocumentTemplateId": 760,
+  "Name": "Graham LLC",
+  "Tooltip": "doloribus",
+  "SaveInDb": 947,
+  "Filename": "aliquam",
+  "DefaultOref": "incidunt",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 986,
-  "IntentId": 244,
+  "AutoeventId": 5,
+  "IntentId": 646,
   "IsDefaultPublished": false,
-  "Rank": 876,
-  "LoadTemplateFromPlugin": 781,
-  "MimeType": "culpa",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 93,
+  "Rank": 543,
+  "LoadTemplateFromPlugin": 417,
+  "MimeType": "dignissimos",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 345,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "leonie_bins@beierhaag.co.uk",
-  "IncludeSignature": true,
+  "EmailSubject": "cayla_bayer@bednar.name",
+  "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "otilia@hessel.com",
+  "SenderEmailAddress": "timmothy@williamson.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 230
     }
   }
 }

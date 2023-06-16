@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/SendChangePasswordEMail
 uid: v1UserAgent_SendChangePasswordEMail
+generated: true
 ---
 
 # POST Agents/User/SendChangePasswordEMail
@@ -73,11 +74,11 @@ OK
 POST /api/v1/Agents/User/SendChangePasswordEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 351
+  "AssociateId": 205
 }
 ```
 
@@ -89,6 +90,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "repudiandae"
+  "Message": "maiores"
 }
 ```

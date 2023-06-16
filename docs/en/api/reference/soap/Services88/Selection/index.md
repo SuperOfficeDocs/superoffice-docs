@@ -1,7 +1,7 @@
 ---
 title: Services88.SelectionAgent SOAP
 uid: Services88-Selection-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Selection SOAP

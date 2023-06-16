@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/CalculateMessageRecipients
 uid: v1TicketAgent_CalculateMessageRecipients
+generated: true
 ---
 
 # POST Agents/Ticket/CalculateMessageRecipients
@@ -78,9 +79,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 65,
+  "TicketId": 201,
   "ActionType": "Forward",
-  "MessageId": 314
+  "MessageId": 317
 }
 ```
 
@@ -93,13 +94,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Type": "BCC",
-    "Value": "corporis",
-    "DisplayValue": "rem"
+    "Value": "omnis",
+    "DisplayValue": "soluta"
   },
   {
     "Type": "BCC",
-    "Value": "corporis",
-    "DisplayValue": "rem"
+    "Value": "omnis",
+    "DisplayValue": "soluta"
   }
 ]
 ```

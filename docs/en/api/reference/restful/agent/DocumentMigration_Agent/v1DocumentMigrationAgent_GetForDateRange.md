@@ -1,6 +1,7 @@
 ---
 title: POST Agents/DocumentMigration/GetForDateRange
 uid: v1DocumentMigrationAgent_GetForDateRange
+generated: true
 ---
 
 # POST Agents/DocumentMigration/GetForDateRange
@@ -78,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 320,
-  "MinDate": "1998-07-19T03:51:27.1467458+02:00",
-  "MaxDate": "2012-12-04T03:51:27.1467458+01:00",
+  "DocumentPluginId": 4,
+  "MinDate": "2006-02-04T16:00:40.8362394+01:00",
+  "MaxDate": "2020-07-21T16:00:40.8362394+02:00",
   "IncludeEmails": false
 }
 ```
@@ -96,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 236,
-  "NumDocumentsAlreadyMigrated": 889,
+  "NumDocumentsOmitted": 800,
+  "NumDocumentsAlreadyMigrated": 278,
   "Documents": [
     {
-      "DocumentId": 563,
-      "ContactId": 908,
-      "PersonId": 287,
-      "SaleId": 108,
-      "ProjectId": 998,
-      "DocTmplId": 138,
-      "AssociateId": 394,
-      "UserGroupId": 925,
-      "VisibleForId": 394
+      "DocumentId": 708,
+      "ContactId": 70,
+      "PersonId": 647,
+      "SaleId": 54,
+      "ProjectId": 291,
+      "DocTmplId": 323,
+      "AssociateId": 310,
+      "UserGroupId": 910,
+      "VisibleForId": 977
     }
   ],
   "Associates": [
     {
-      "AssociateId": 827,
-      "EmailAddress": "mona@schowalterlynch.info"
+      "AssociateId": 645,
+      "EmailAddress": "savanah@robertsohara.uk"
     },
     {
-      "AssociateId": 827,
-      "EmailAddress": "mona@schowalterlynch.info"
+      "AssociateId": 645,
+      "EmailAddress": "savanah@robertsohara.uk"
     }
   ]
 }

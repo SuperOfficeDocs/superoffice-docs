@@ -1,5 +1,6 @@
 ---
 title: Sale
+generated: true
 ---
 
 ```http

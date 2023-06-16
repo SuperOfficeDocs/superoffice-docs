@@ -1,7 +1,7 @@
 ---
 title: Services88.ImportAgent SOAP
 uid: Services88-Import-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Import SOAP

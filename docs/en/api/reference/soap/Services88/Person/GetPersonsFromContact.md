@@ -1,6 +1,6 @@
 ---
 title: Services88.PersonAgent.GetPersonsFromContact SOAP
-generated: 1
+generated: true
 uid: Services88-Person-GetPersonsFromContact
 ---
 

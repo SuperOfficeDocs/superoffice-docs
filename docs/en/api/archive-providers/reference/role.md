@@ -2,17 +2,10 @@
 uid: Role
 title: Role
 description: Archive of Roles  - used by the web api.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "Role"
+keywords: Role archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "Role"

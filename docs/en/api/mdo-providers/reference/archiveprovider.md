@@ -1,17 +1,12 @@
 ---
 uid: archiveprovider
 title: archiveprovider
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "archiveprovider"
+keywords: mdoprovider mdo provider archiveprovider
+description: MDO provider for available archive providera.
+The items will be added by scanning ArchiveProviderFactory.KnownArchiveProviders for this pattern;
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "archiveprovider" MDO List
@@ -51,7 +46,9 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |0|Appointment||ConfigurableArchiveAppointment|
 |1|Document||Document|
-|2|Sale||Sale|
+|2|EmailFlowContent||EmailFlowContent|
+|3|externaldocumentfolders||externaldocumentfolders|
+|4|Sale||Sale|
 
 
 ## Related MDO Lists

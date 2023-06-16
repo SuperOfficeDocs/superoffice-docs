@@ -1,6 +1,7 @@
 ---
 title: PUT List/DocumentTemplate/Items/{id}/Content/{languageCode}
 uid: v1DocumentTemplateList_SaveDocumentTemplateStream
+generated: true
 ---
 
 # PUT List/DocumentTemplate/Items/{id}/Content/{languageCode}
@@ -29,7 +30,7 @@ Writes content in stream to document template file
 | pluginId | int32 |  Plugin to use for storing document content. 0 = SOARC. Use -1 to use the plugin specified in the template. |
 
 ```http
-PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=987
+PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=716
 ```
 
 
@@ -76,7 +77,7 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,10 +87,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Luettgen Inc and Sons",
-  "Description": "Re-engineered leading edge database",
-  "ExternalReference": "assumenda",
-  "MimeType": "nisi",
-  "PluginId": 360
+  "Name": "Renner-Kuhlman",
+  "Description": "Visionary mobile ability",
+  "ExternalReference": "odio",
+  "MimeType": "cum",
+  "PluginId": 681
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductCategory
 uid: v1ProductCategoryList_GetListDefinition
+generated: true
 ---
 
 # GET List/ProductCategory
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 333,
-  "Name": "Koch-Farrell",
-  "Tooltip": "repellendus",
+  "Id": 92,
+  "Name": "Wintheiser LLC",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 637,
-  "IsCustomList": true,
+  "Rank": 500,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
+  "UseGroupsAndHeadings": true,
+  "ListType": "amet",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 633
+      "FieldType": "System.Int32",
+      "FieldLength": 60
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

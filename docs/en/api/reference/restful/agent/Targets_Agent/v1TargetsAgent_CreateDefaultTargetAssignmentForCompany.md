@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Targets/CreateDefaultTargetAssignmentForCompany
 uid: v1TargetsAgent_CreateDefaultTargetAssignmentForCompany
+generated: true
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignmentForCompany
@@ -82,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 451,
+  "TargetAssignmentInfoId": 392,
   "Values": [
-    502,
-    48
+    680,
+    42
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 436,
-  "DimensionListItemDisplayName": "Mante Group",
+  "DimensionListItem": 283,
+  "DimensionListItemDisplayName": "Fadel Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 226
+      "FieldType": "System.Int32",
+      "FieldLength": 853
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: PUT List/DeliveryType/Items/{id}
 uid: v1DeliveryTypeList_PutDeliveryType
+generated: true
 ---
 
 # PUT List/DeliveryType/Items/{id}
@@ -81,12 +82,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 448,
-  "Name": "Bogan, Abernathy and Nicolas",
-  "Tooltip": "nobis",
+  "Id": 405,
+  "Name": "Eichmann-Luettgen",
+  "Tooltip": "ad",
   "Deleted": false,
-  "UdListDefinitionId": 181,
-  "Rank": 423
+  "UdListDefinitionId": 25,
+  "Rank": 391
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 100,
-  "Name": "Howell Group",
-  "Tooltip": "nisi",
-  "Deleted": true,
-  "UdListDefinitionId": 707,
-  "Rank": 848,
+  "Id": 260,
+  "Name": "Lesch Inc and Sons",
+  "Tooltip": "aspernatur",
+  "Deleted": false,
+  "UdListDefinitionId": 537,
+  "Rank": 302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldType": "System.Int32",
+      "FieldLength": 947
     }
   }
 }

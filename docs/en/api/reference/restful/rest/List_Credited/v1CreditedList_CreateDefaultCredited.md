@@ -1,6 +1,7 @@
 ---
 title: GET List/Credited/Items/Default
 uid: v1CreditedList_CreateDefaultCredited
+generated: true
 ---
 
 # GET List/Credited/Items/Default
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "Name": "Bednar, Ebert and Howe",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "UdListDefinitionId": 636,
-  "Rank": 489,
+  "Id": 185,
+  "Name": "Prosacco LLC",
+  "Tooltip": "delectus",
+  "Deleted": true,
+  "UdListDefinitionId": 339,
+  "Rank": 249,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldType": "System.String",
+      "FieldLength": 715
     }
   }
 }

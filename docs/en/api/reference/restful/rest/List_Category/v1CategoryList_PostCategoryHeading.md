@@ -1,6 +1,7 @@
 ---
 title: POST List/Category/Headings
 uid: v1CategoryList_PostCategoryHeading
+generated: true
 ---
 
 # POST List/Category/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 584,
-  "Name": "Connelly Group",
-  "Tooltip": "soluta",
-  "Deleted": true,
-  "Rank": 818,
-  "UdListDefinitionId": 86
+  "HeadingId": 179,
+  "Name": "Fadel Inc and Sons",
+  "Tooltip": "nam",
+  "Deleted": false,
+  "Rank": 604,
+  "UdListDefinitionId": 57
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 153,
-  "Name": "Krajcik Inc and Sons",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "Rank": 824,
-  "UdListDefinitionId": 459,
+  "HeadingId": 169,
+  "Name": "Ankunding Inc and Sons",
+  "Tooltip": "iste",
+  "Deleted": false,
+  "Rank": 35,
+  "UdListDefinitionId": 825,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 889
     }
   }
 }

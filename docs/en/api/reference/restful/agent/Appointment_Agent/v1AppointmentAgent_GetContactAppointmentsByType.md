@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetContactAppointmentsByType
 uid: v1AppointmentAgent_GetContactAppointmentsByType
+generated: true
 ---
 
 # POST Agents/Appointment/GetContactAppointmentsByType
@@ -117,6 +118,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -126,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 200,
-  "StartTime": "2003-01-27T03:51:26.0844949+01:00",
-  "EndTime": "1999-06-11T03:51:26.0844949+02:00",
-  "Count": 442,
+  "ContactId": 79,
+  "StartTime": "2002-09-08T16:00:39.5863588+02:00",
+  "EndTime": "2018-08-05T16:00:39.5863588+02:00",
+  "Count": 984,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,61 +150,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 718,
-    "StartDate": "2005-10-20T03:51:26.0844949+02:00",
-    "EndDate": "1999-04-26T03:51:26.0844949+02:00",
+    "AppointmentId": 582,
+    "StartDate": "2020-12-15T16:00:39.5863588+01:00",
+    "EndDate": "1996-06-04T16:00:39.5863588+02:00",
     "Type": "BookingForChecklist",
-    "Task": "beatae",
-    "AssociateFullName": "Pascale Stehr",
-    "ContactName": "Thompson Group",
-    "Description": "Secured assymetric contingency",
-    "PersonFullName": "Blanca Pollich",
-    "PersonId": 980,
-    "ContactId": 860,
-    "ProjectId": 164,
-    "ProjectName": "Swaniawski-Hammes",
-    "IsPublished": false,
-    "AssociateId": 764,
-    "ColorIndex": 86,
+    "Task": "totam",
+    "AssociateFullName": "Boris Stiedemann",
+    "ContactName": "Emmerich, Stamm and Gutmann",
+    "Description": "Organic solution-oriented model",
+    "PersonFullName": "Frank Baumbach",
+    "PersonId": 861,
+    "ContactId": 648,
+    "ProjectId": 975,
+    "ProjectName": "Gleichner, Conn and Champlin",
+    "IsPublished": true,
+    "AssociateId": 849,
+    "ColorIndex": 915,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 283,
-    "PriorityName": "Denesik Group",
+    "PriorityId": 386,
+    "PriorityName": "Boyle-Grimes",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2005-01-23T03:51:26.0844949+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2017-03-01T16:00:39.5863588+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-12-25T03:51:26.0844949+01:00",
-    "RecurringEndDate": "1998-10-20T03:51:26.0844949+02:00",
-    "MotherId": 74,
-    "AssignedBy": 306,
-    "AssignedByFullName": "Dayana O'Conner",
+    "RecurringStartDate": "2006-10-21T16:00:39.5863588+02:00",
+    "RecurringEndDate": "2007-09-20T16:00:39.5863588+02:00",
+    "MotherId": 443,
+    "AssignedBy": 940,
+    "AssignedByFullName": "Mylene Kshlerin",
     "RejectReason": "",
-    "Location": "quis",
-    "AlarmLeadTime": "dolorum",
-    "SaleId": 758,
-    "SaleName": "Jacobson, Goodwin and Turcotte",
-    "AssociateName": "Keeling, Haag and Bayer",
-    "CreatedDate": "2011-03-31T03:51:26.1001041+02:00",
-    "CreatedBy": "distinctio",
-    "CreatedByFullName": "Vaughn O'Hara",
-    "CreatedByAssociateId": 892,
+    "Location": "incidunt",
+    "AlarmLeadTime": "sequi",
+    "SaleId": 730,
+    "SaleName": "Sporer, Bednar and Howell",
+    "AssociateName": "Runolfsdottir, Kshlerin and Dietrich",
+    "CreatedDate": "2015-07-07T16:00:39.5863588+02:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Pearl Wuckert",
+    "CreatedByAssociateId": 994,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "dicta",
+    "Agenda": "perspiciatis",
+    "InternalNotes": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldLength": 449
       }
     }
   }

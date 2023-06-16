@@ -1,6 +1,7 @@
 ---
 title: GET Selection/{id}/ShadowMembers
 uid: v1SelectionEntity_GetSelectionShadowMembersArchiveRows
+generated: true
 ---
 
 # GET Selection/{id}/ShadowMembers
@@ -74,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,21 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "id",
+  "odata.nextLink": "cum",
   "value": [
     {
-      "PrimaryKey": 8338,
+      "PrimaryKey": 5777,
       "EntityName": "sale",
-      "saleId": 8338,
-      "contactId": 6499,
-      "name": "D'Amore, Spinka and Skiles"
+      "saleId": 5777,
+      "contactId": 7850,
+      "name": "Kozey Group"
     },
     {
-      "PrimaryKey": 6073,
+      "PrimaryKey": 3652,
       "EntityName": "sale",
-      "saleId": 6073,
-      "contactId": 958,
-      "name": "Gorczany-Brakus"
+      "saleId": 3652,
+      "contactId": 1245,
+      "name": "Weimann, Bechtelar and Okuneva"
     }
   ]
 }

@@ -1,6 +1,6 @@
 ---
 title: Services88.ReportAgent.DeleteReportLabelLayoutEntity SOAP
-generated: 1
+generated: true
 uid: Services88-Report-DeleteReportLabelLayoutEntity
 ---
 

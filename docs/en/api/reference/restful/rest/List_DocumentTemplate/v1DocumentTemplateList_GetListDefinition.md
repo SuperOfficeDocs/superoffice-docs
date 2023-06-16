@@ -1,6 +1,7 @@
 ---
 title: GET List/DocumentTemplate
 uid: v1DocumentTemplateList_GetListDefinition
+generated: true
 ---
 
 # GET List/DocumentTemplate
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 976,
-  "Name": "Price Group",
-  "Tooltip": "non",
+  "Id": 857,
+  "Name": "Kirlin-Bergnaum",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 266,
+  "Rank": 795,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true,
+  "ListType": "dicta",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldType": "System.Int32",
+      "FieldLength": 833
     }
   },
   "_Links": {

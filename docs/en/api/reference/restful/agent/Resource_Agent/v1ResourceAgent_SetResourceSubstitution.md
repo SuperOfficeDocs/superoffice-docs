@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Resource/SetResourceSubstitution
 uid: v1ResourceAgent_SetResourceSubstitution
+generated: true
 ---
 
 # POST Agents/Resource/SetResourceSubstitution
@@ -66,13 +67,13 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Schmitt-Gusikowski",
-  "ResourceValues": "corporis",
-  "Culture": "sunt",
+  "ResourceName": "Lind LLC",
+  "ResourceValues": "aperiam",
+  "Culture": "sed",
   "IsActive": false
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ViewState/GetCurrent
 uid: v1ViewStateAgent_GetCurrent
+generated: true
 ---
 
 # POST Agents/ViewState/GetCurrent
@@ -80,11 +81,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Jast, Hegmann and Kirlin"
+  "HistoryName": "Kuhlman, Grimes and Reynolds"
 }
 ```
 
@@ -95,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 277,
-  "Id": 632,
-  "HistoryName": "Wintheiser LLC",
-  "HistoryId": 817,
-  "AssociateId": 969,
-  "Name": "Koch Group",
-  "ItemInfo": "eius",
+  "Rank": 759,
+  "Id": 726,
+  "HistoryName": "Connelly, Little and Grant",
+  "HistoryId": 241,
+  "AssociateId": 503,
+  "Name": "Schinner, Feil and Beahan",
+  "ItemInfo": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldLength": 497
     }
   }
 }

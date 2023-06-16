@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SaveQuoteLines
 uid: v1QuoteAgent_SaveQuoteLines
+generated: true
 ---
 
 # POST Agents/Quote/SaveQuoteLines
@@ -120,64 +121,64 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLines": [
     {
-      "QuoteLineId": 393,
-      "ERPQuoteLineKey": "sequi",
-      "QuoteAlternativeId": 19,
-      "ERPProductKey": "et",
+      "QuoteLineId": 758,
+      "ERPQuoteLineKey": "dolores",
+      "QuoteAlternativeId": 850,
+      "ERPProductKey": "ullam",
       "Status": "Error",
-      "Reason": "incubate innovative applications",
-      "Quantity": 14030.918,
-      "DeliveredQuantity": 10530.24,
-      "Rank": 846,
-      "Name": "Christiansen Inc and Sons",
-      "Description": "Compatible exuding success",
-      "Code": "corporis",
-      "QuantityUnit": "hic",
-      "PriceUnit": "aut",
-      "ItemNumber": "1324589",
+      "Reason": "",
+      "Quantity": 24752.332,
+      "DeliveredQuantity": 18274.354,
+      "Rank": 328,
+      "Name": "Cummings Inc and Sons",
+      "Description": "Horizontal empowering function",
+      "Code": "vel",
+      "QuantityUnit": "iste",
+      "PriceUnit": "reprehenderit",
+      "ItemNumber": "1078757",
       "Url": "http://www.example.com/",
       "ProductCategoryKey": "VIP Customer",
-      "ProductFamilyKey": "rerum",
-      "ProductTypeKey": "officia",
-      "Supplier": "voluptas",
-      "SupplierCode": "perspiciatis",
-      "Thumbnail": "accusantium",
-      "VATInfo": "adipisci",
-      "VAT": 27400.561999999998,
-      "UnitCost": 460.698,
-      "UnitMinimumPrice": 25893.108,
-      "UnitListPrice": 17434.442,
+      "ProductFamilyKey": "nesciunt",
+      "ProductTypeKey": "aut",
+      "Supplier": "adipisci",
+      "SupplierCode": "voluptas",
+      "Thumbnail": "dignissimos",
+      "VATInfo": "praesentium",
+      "VAT": 9693.462,
+      "UnitCost": 8596.562,
+      "UnitMinimumPrice": 23997.038,
+      "UnitListPrice": 16860.92,
       "ExtraInfo": [
         {},
         {}
       ],
-      "RawExtraInfo": "enim",
+      "RawExtraInfo": "eum",
       "IsSubscription": false,
-      "SubscriptionUnit": "dolores",
-      "SubscriptionQuantity": 11323.142,
-      "SubscriptionStart": "2004-06-05T03:51:28.0371601+02:00",
-      "ERPDiscountPercent": 14162.546,
-      "ERPDiscountAmount": 17268.34,
-      "DiscountPercent": 26955.534,
-      "DiscountAmount": 13275.624,
+      "SubscriptionUnit": "iusto",
+      "SubscriptionQuantity": 27670.086,
+      "SubscriptionStart": "1998-06-02T16:00:41.6800689+02:00",
+      "ERPDiscountPercent": 12307.217999999999,
+      "ERPDiscountAmount": 14099.866,
+      "DiscountPercent": 22430.038,
+      "DiscountAmount": 2400.644,
       "UserValueOverride": "DiscountAmount",
-      "EarningPercent": 15745.216,
-      "EarningAmount": 26591.989999999998,
-      "SubTotal": 861.85,
-      "TotalPrice": 4036.5919999999996,
-      "Rights": "esse",
-      "Rule": "esse",
-      "ExtraField1": "sequi",
-      "ExtraField2": "molestiae",
-      "ExtraField3": "excepturi",
-      "ExtraField4": "magni",
-      "ExtraField5": "rerum"
+      "EarningPercent": 15441.217999999999,
+      "EarningAmount": 24514.147999999997,
+      "SubTotal": 13454.261999999999,
+      "TotalPrice": 20775.286,
+      "Rights": "dolor",
+      "Rule": "omnis",
+      "ExtraField1": "et",
+      "ExtraField2": "ipsum",
+      "ExtraField3": "itaque",
+      "ExtraField4": "ut",
+      "ExtraField5": "aut"
     }
   ]
 }
@@ -191,88 +192,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 19,
-    "ERPQuoteLineKey": "consequatur",
-    "QuoteAlternativeId": 710,
-    "ERPProductKey": "consequuntur",
+    "QuoteLineId": 603,
+    "ERPQuoteLineKey": "est",
+    "QuoteAlternativeId": 307,
+    "ERPProductKey": "quas",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 28723.11,
-    "DeliveredQuantity": 25758.345999999998,
-    "Rank": 70,
-    "Name": "McClure LLC",
-    "Description": "Extended zero defect migration",
-    "Code": "quasi",
-    "QuantityUnit": "cupiditate",
-    "PriceUnit": "aliquid",
-    "ItemNumber": "1057427",
+    "Quantity": 28594.615999999998,
+    "DeliveredQuantity": 11617.738,
+    "Rank": 173,
+    "Name": "Weimann-Fahey",
+    "Description": "Devolved regional synergy",
+    "Code": "accusamus",
+    "QuantityUnit": "et",
+    "PriceUnit": "qui",
+    "ItemNumber": "1413132",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "iure",
-    "ProductTypeKey": "omnis",
-    "Supplier": "consequatur",
-    "SupplierCode": "labore",
-    "Thumbnail": "qui",
-    "VATInfo": "sunt",
-    "VAT": 1651.618,
-    "UnitCost": 19346.182,
-    "UnitMinimumPrice": 8066.916,
-    "UnitListPrice": 24583.095999999998,
+    "ProductFamilyKey": "nobis",
+    "ProductTypeKey": "est",
+    "Supplier": "dicta",
+    "SupplierCode": "eos",
+    "Thumbnail": "ut",
+    "VATInfo": "dignissimos",
+    "VAT": 14222.091999999999,
+    "UnitCost": 2651.364,
+    "UnitMinimumPrice": 16635.272,
+    "UnitListPrice": 22220.059999999998,
     "ExtraInfo": [
       {
-        "Name": "Kessler-West",
-        "Value": "quod",
+        "Name": "Aufderhar Inc and Sons",
+        "Value": "autem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 191
+            "FieldLength": 170
           }
         }
       },
       {
-        "Name": "Kessler-West",
-        "Value": "quod",
+        "Name": "Aufderhar Inc and Sons",
+        "Value": "autem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 191
+            "FieldLength": 170
           }
         }
       }
     ],
-    "RawExtraInfo": "minus",
+    "RawExtraInfo": "consequatur",
     "IsSubscription": false,
-    "SubscriptionUnit": "tempora",
-    "SubscriptionQuantity": 1093.766,
-    "SubscriptionStart": "2005-06-14T03:51:28.0371601+02:00",
-    "ERPDiscountPercent": 20806.626,
-    "ERPDiscountAmount": 18358.971999999998,
-    "DiscountPercent": 29287.23,
-    "DiscountAmount": 30540.829999999998,
+    "SubscriptionUnit": "consequatur",
+    "SubscriptionQuantity": 15190.498,
+    "SubscriptionStart": "2010-09-18T16:00:41.6800689+02:00",
+    "ERPDiscountPercent": 9392.598,
+    "ERPDiscountAmount": 12385.568,
+    "DiscountPercent": 12934.018,
+    "DiscountAmount": 21301.798,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 8960.106,
-    "EarningAmount": 9486.618,
-    "SubTotal": 8580.892,
-    "TotalPrice": 12103.508,
-    "Rights": "sed",
-    "Rule": "dolor",
-    "ExtraField1": "cupiditate",
-    "ExtraField2": "et",
-    "ExtraField3": "dolor",
-    "ExtraField4": "necessitatibus",
-    "ExtraField5": "totam",
+    "EarningPercent": 13889.887999999999,
+    "EarningAmount": 19988.652,
+    "SubTotal": 23266.816,
+    "TotalPrice": 880.654,
+    "Rights": "autem",
+    "Rule": "adipisci",
+    "ExtraField1": "qui",
+    "ExtraField2": "est",
+    "ExtraField3": "voluptatem",
+    "ExtraField4": "culpa",
+    "ExtraField5": "temporibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldLength": 452
       }
     }
   }

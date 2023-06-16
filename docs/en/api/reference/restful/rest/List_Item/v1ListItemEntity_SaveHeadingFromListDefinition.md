@@ -1,6 +1,7 @@
 ---
 title: POST List/{id}/Headings
 uid: v1ListItemEntity_SaveHeadingFromListDefinition
+generated: true
 ---
 
 # POST List/{id}/Headings
@@ -77,16 +78,16 @@ OK
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 215,
-  "Name": "O'Conner Group",
-  "Tooltip": "officia",
+  "HeadingId": 566,
+  "Name": "Smitham, Wyman and Gutkowski",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 730,
-  "UdListDefinitionId": 866
+  "Rank": 671,
+  "UdListDefinitionId": 457
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 754,
-  "Name": "Denesik, Moore and Koch",
-  "Tooltip": "tenetur",
+  "HeadingId": 367,
+  "Name": "Conn-Howell",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "Rank": 15,
-  "UdListDefinitionId": 674,
+  "Rank": 262,
+  "UdListDefinitionId": 732,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 60
     }
   }
 }

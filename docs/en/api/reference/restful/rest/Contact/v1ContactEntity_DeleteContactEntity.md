@@ -1,6 +1,7 @@
 ---
 title: DEL Contact/{id}
 uid: v1ContactEntity_DeleteContactEntity
+generated: true
 ---
 
 # DEL Contact/{id}

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/CreateDefaultDashTheme
 uid: v1DashAgent_CreateDefaultDashTheme
+generated: true
 ---
 
 # POST Agents/Dash/CreateDefaultDashTheme
@@ -61,7 +62,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 613,
-  "Name": "Lebsack Group",
-  "Config": "inventore",
-  "Rank": 142,
-  "Client": "omnis",
-  "Style": "mollitia",
+  "DashboardThemeId": 318,
+  "Name": "Boyer-Deckow",
+  "Config": "dignissimos",
+  "Rank": 801,
+  "Client": "facere",
+  "Style": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldType": "System.Int32",
+      "FieldLength": 597
     }
   }
 }

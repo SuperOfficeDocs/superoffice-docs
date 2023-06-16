@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetUserInfoList
 uid: v1UserAgent_GetUserInfoList
+generated: true
 ---
 
 # POST Agents/User/GetUserInfoList
@@ -85,7 +86,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Deleted": true,
-    "UserInfoId": 369,
-    "UserName": "Bogisich, Rolfson and Willms",
-    "PersonId": 36,
-    "Rank": 147,
-    "Tooltip": "at",
-    "UserGroupId": 250,
-    "EjUserId": 377,
+    "Deleted": false,
+    "UserInfoId": 405,
+    "UserName": "Huel, Stanton and Lebsack",
+    "PersonId": 216,
+    "Rank": 980,
+    "Tooltip": "tempora",
+    "UserGroupId": 147,
+    "EjUserId": 968,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "id",
-      "qui"
+      "tempore",
+      "atque"
     ],
-    "CanLogon": false,
-    "RoleName": "Rempel Inc and Sons",
-    "RoleTooltip": "praesentium",
-    "UserGroupName": "Price, Roberts and Baumbach",
-    "UserGroupTooltip": "repellat",
+    "CanLogon": true,
+    "RoleName": "Lebsack Group",
+    "RoleTooltip": "nihil",
+    "UserGroupName": "Kiehn, Schumm and Jones",
+    "UserGroupTooltip": "recusandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldLength": 793
       }
     }
   }

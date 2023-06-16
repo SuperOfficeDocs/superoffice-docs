@@ -1,6 +1,7 @@
 ---
 title: GET Webhook
 uid: v1Webhook_GetAllWebhooks
+generated: true
 ---
 
 # GET Webhook
@@ -28,8 +29,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=enim
-GET /api/v1/Webhook?eventFilter=velit
+GET /api/v1/Webhook?nameFilter=laborum
+GET /api/v1/Webhook?eventFilter=consequatur
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -80,7 +81,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 302,
-    "Name": "Feil Inc and Sons",
+    "WebhookId": 131,
+    "Name": "Kuhic LLC",
     "Events": [
-      "non",
-      "aut"
+      "possimus",
+      "esse"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "aut",
+    "Secret": "error",
     "State": "Active",
-    "Type": "in",
+    "Type": "cum",
     "Headers": {
-      "Headers1": "quia",
-      "Headers2": "eius"
+      "Headers1": "perspiciatis",
+      "Headers2": "facere"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2008-08-22T03:51:34.3334209+02:00",
+    "Registered": "2006-09-03T16:00:48.8208679+02:00",
     "RegisteredAssociate": null,
-    "Updated": "1998-04-09T03:51:34.3334209+02:00",
+    "Updated": "2020-10-11T16:00:48.8208679+02:00",
     "UpdatedAssociate": null
   }
 ]

@@ -1,6 +1,7 @@
 ---
 title: GET List/ReasonStalled/Items/Default
 uid: v1ReasonStalledList_CreateDefaultReasonStalled
+generated: true
 ---
 
 # GET List/ReasonStalled/Items/Default
@@ -59,7 +60,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 77,
-  "Name": "Kautzer, Schuster and Mitchell",
-  "Tooltip": "culpa",
+  "Id": 928,
+  "Name": "Schaden Group",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "UdListDefinitionId": 360,
-  "Rank": 432,
+  "UdListDefinitionId": 733,
+  "Rank": 858,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 804
+      "FieldLength": 260
     }
   }
 }

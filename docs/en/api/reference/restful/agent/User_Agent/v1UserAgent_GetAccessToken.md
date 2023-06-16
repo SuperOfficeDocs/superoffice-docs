@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetAccessToken
 uid: v1UserAgent_GetAccessToken
+generated: true
 ---
 
 # POST Agents/User/GetAccessToken
@@ -74,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppToken": "quae",
-  "IncludeCsSession": false
+  "AppToken": "ad",
+  "IncludeCsSession": true
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ipsa"
+"placeat"
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetTaskMenu
 uid: v1ListAgent_GetTaskMenu
+generated: true
 ---
 
 # POST Agents/List/GetTaskMenu
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/List/GetTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,26 +90,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 949,
-  "Name": "Jerde, Graham and Erdman",
-  "Tooltip": "in",
-  "TableName": "Turner-Homenick",
-  "Area": "ullam",
+  "TaskMenuId": 416,
+  "Name": "Weissnat Group",
+  "Tooltip": "est",
+  "TableName": "Steuber, Zulauf and Jones",
+  "Area": "qui",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 36,
+  "CrmScriptId": 932,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 836,
+  "Rank": 559,
   "Encoding": "ANSI",
-  "ProgId": "harum",
-  "Deleted": true,
+  "ProgId": "recusandae",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldType": "System.String",
+      "FieldLength": 539
     }
   }
 }

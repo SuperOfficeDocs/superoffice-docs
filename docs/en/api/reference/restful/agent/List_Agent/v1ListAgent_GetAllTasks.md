@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetAllTasks
 uid: v1ListAgent_GetAllTasks
+generated: true
 ---
 
 # POST Agents/List/GetAllTasks
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/List/GetAllTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -100,14 +101,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 190,
-    "Value": "et",
+    "TaskListItemId": 771,
+    "Value": "officiis",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "et",
+    "Tooltip": "natus",
     "Deleted": false,
-    "IntentId": 685,
-    "Rank": 890,
+    "IntentId": 74,
+    "Rank": 331,
     "IsDefaultAlldayEvent": false,
     "IsDefaultFree": false,
     "IsDefaultPublished": false,
@@ -118,7 +119,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 443
+        "FieldLength": 99
       }
     }
   }

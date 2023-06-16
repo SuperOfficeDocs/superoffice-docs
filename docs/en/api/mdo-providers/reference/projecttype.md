@@ -1,17 +1,11 @@
 ---
 uid: projecttype
 title: projecttype
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "projecttype"
+keywords: mdoprovider mdo provider projecttype
+description: Project type list. Encodes Default project duration in extra info.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "projecttype" MDO List

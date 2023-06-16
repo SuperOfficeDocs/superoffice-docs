@@ -1,6 +1,7 @@
 ---
 title: GET List/Reason/Items/{id}/Headings
 uid: v1ReasonList_GetReasonHeadingsForListItem
+generated: true
 ---
 
 # GET List/Reason/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 460,
-    "Name": "Yost, Runte and Rempel",
-    "ToolTip": "Dignissimos esse laborum quae est.",
+    "Id": 236,
+    "Name": "Schoen Inc and Sons",
+    "ToolTip": "Voluptatem hic consequatur autem harum asperiores est quam.",
     "Deleted": true,
-    "Rank": 256,
-    "Type": "autem",
-    "ColorBlock": 139,
-    "IconHint": "sint",
+    "Rank": 707,
+    "Type": "non",
+    "ColorBlock": 858,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2021-08-26T03:51:34.9114158+02:00",
+    "LastChanged": "2009-10-25T16:00:49.2739351+01:00",
     "ChildItems": [
       {
-        "Id": 597,
-        "Name": "Parisian, Schneider and Huel",
-        "ToolTip": "Explicabo in voluptatem voluptas similique doloribus debitis vero.",
+        "Id": 608,
+        "Name": "DuBuque-Parisian",
+        "ToolTip": "Nam voluptas aut.",
         "Deleted": false,
-        "Rank": 992,
-        "Type": "nobis",
-        "ColorBlock": 46,
-        "IconHint": "reiciendis",
+        "Rank": 86,
+        "Type": "quae",
+        "ColorBlock": 139,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2021-12-30T03:51:34.9114158+01:00",
+        "LastChanged": "2011-01-05T16:00:49.2739351+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "a",
-        "Hidden": false,
-        "FullName": "Rocio Littel",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "ab",
+        "Hidden": true,
+        "FullName": "Ms. Osbaldo Little",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 507
+            "FieldLength": 255
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "aut",
+    "ExtraInfo": "veniam",
+    "StyleHint": "quod",
     "Hidden": true,
-    "FullName": "Laverna Haley",
+    "FullName": "Mireille Toy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 619
       }
     }
   }

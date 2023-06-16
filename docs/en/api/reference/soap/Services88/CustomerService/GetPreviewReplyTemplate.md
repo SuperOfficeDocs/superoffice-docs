@@ -1,6 +1,6 @@
 ---
 title: Services88.CustomerServiceAgent.GetPreviewReplyTemplate SOAP
-generated: 1
+generated: true
 uid: Services88-CustomerService-GetPreviewReplyTemplate
 ---
 
@@ -66,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CustomerService:Name xsi:type="xsd:string"></CustomerService:Name>
     <CustomerService:Description xsi:type="xsd:string"></CustomerService:Description>
     <CustomerService:OwnedByFullName xsi:type="xsd:string"></CustomerService:OwnedByFullName>
-    <CustomerService:Updated xsi:type="xsd:dateTime">2023-05-25T11:08:43Z</CustomerService:Updated>
+    <CustomerService:Updated xsi:type="xsd:dateTime">2023-06-09T13:58:44Z</CustomerService:Updated>
     <CustomerService:Body xsi:type="xsd:string"></CustomerService:Body>
     <CustomerService:IsHtml xsi:type="xsd:boolean">false</CustomerService:IsHtml>
    </CustomerService:Response>

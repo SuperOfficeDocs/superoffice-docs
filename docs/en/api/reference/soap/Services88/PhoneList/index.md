@@ -1,7 +1,7 @@
 ---
 title: Services88.PhoneListAgent SOAP
 uid: Services88-PhoneList-soap
-generated: 1
+generated: true
 ---
 
 # Services88 PhoneList SOAP

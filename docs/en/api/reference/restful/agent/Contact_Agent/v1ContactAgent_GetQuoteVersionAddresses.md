@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/GetQuoteVersionAddresses
 uid: v1ContactAgent_GetQuoteVersionAddresses
+generated: true
 ---
 
 # POST Agents/Contact/GetQuoteVersionAddresses
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 384
+  "QuoteVersionId": 270
 }
 ```
 
@@ -95,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 7994.834,
-    "Wgs84Longitude": 12485.856,
+    "Wgs84Latitude": 10608.59,
+    "Wgs84Longitude": 10633.662,
     "LocalizedAddress": [
       [
         {
-          "Name": "Krajcik-Kulas",
-          "Value": "ab",
-          "Tooltip": "occaecati",
+          "Name": "Dare Group",
+          "Value": "enim",
+          "Tooltip": "aut",
           "Label": "et",
-          "ValueLength": 598,
-          "AddressType": "officia",
+          "ValueLength": 168,
+          "AddressType": "et",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 669
+              "FieldType": "System.Int32",
+              "FieldLength": 274
             }
           }
         }
       ],
       [
         {
-          "Name": "Jenkins-Schmeler",
-          "Value": "omnis",
-          "Tooltip": "consequatur",
-          "Label": "perferendis",
-          "ValueLength": 830,
-          "AddressType": "reiciendis",
+          "Name": "Weimann Inc and Sons",
+          "Value": "repellat",
+          "Tooltip": "qui",
+          "Label": "ipsum",
+          "ValueLength": 198,
+          "AddressType": "nihil",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 583
+              "FieldLength": 280
             }
           }
         }
@@ -137,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "veniam",
+    "Formatted": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 812
+        "FieldLength": 688
       }
     }
   }

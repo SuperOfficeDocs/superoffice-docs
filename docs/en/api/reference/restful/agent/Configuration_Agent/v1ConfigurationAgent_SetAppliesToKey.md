@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/SetAppliesToKey
 uid: v1ConfigurationAgent_SetAppliesToKey
+generated: true
 ---
 
 # POST Agents/Configuration/SetAppliesToKey
@@ -64,12 +65,12 @@ No Content
 POST /api/v1/Agents/Configuration/SetAppliesToKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecipeId": "voluptatem",
-  "AppliesToKey": "quasi"
+  "RecipeId": "beatae",
+  "AppliesToKey": "dignissimos"
 }
 ```
 

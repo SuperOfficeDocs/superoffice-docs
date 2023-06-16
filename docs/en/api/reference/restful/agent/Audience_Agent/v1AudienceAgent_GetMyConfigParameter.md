@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetMyConfigParameter
 uid: v1AudienceAgent_GetMyConfigParameter
+generated: true
 ---
 
 # POST Agents/Audience/GetMyConfigParameter
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Howell-Marks"
+  "ParameterName": "Marquardt, Adams and Gottlieb"
 }
 ```
 
@@ -93,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 853,
-  "Name": "Raynor, Kuhic and Johnston",
-  "Value": "est",
-  "CreatedDate": "2018-09-16T03:51:26.5999985+02:00",
-  "UpdatedDate": "2013-12-23T03:51:26.5999985+01:00",
-  "CreatedBy": "ut",
-  "UpdatedBy": "voluptatum",
+  "AudienceLayoutId": 344,
+  "Name": "Schmidt-Mraz",
+  "Value": "hic",
+  "CreatedDate": "2004-01-30T16:00:40.1019505+01:00",
+  "UpdatedDate": "2008-12-03T16:00:40.1019505+01:00",
+  "CreatedBy": "atque",
+  "UpdatedBy": "similique",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldType": "System.String",
+      "FieldLength": 223
     }
   }
 }

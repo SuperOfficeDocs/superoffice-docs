@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/GetRestrictionGroups
 uid: v1FindAgent_GetRestrictionGroups
+generated: true
 ---
 
 # POST Agents/Find/GetRestrictionGroups
@@ -76,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Williamson, Will and Heidenreich",
-  "StorageKey": "quibusdam",
-  "Context": "velit"
+  "StorageType": "rerum",
+  "ProviderName": "Bailey, Padberg and Emmerich",
+  "StorageKey": "eum",
+  "Context": "vel"
 }
 ```
 
@@ -95,58 +96,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wintheiser, Klein and Goldner",
-    "Description": "User-friendly transitional Graphic Interface",
-    "Rank": 851,
+    "Name": "Borer-Reinger",
+    "Description": "Polarised regional open architecture",
+    "Rank": 363,
     "Restrictions": [
       {
-        "Name": "Padberg Group",
-        "Operator": "ut",
+        "Name": "Koelpin-Sawayn",
+        "Operator": "rerum",
         "Values": [
-          "soluta",
-          "nesciunt"
+          "iusto",
+          "consectetur"
         ],
         "DisplayValues": [
-          "aut",
-          "repellendus"
+          "qui",
+          "a"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 90,
+        "InterParenthesis": 382,
         "InterOperator": "And",
-        "UniqueHash": 749
+        "UniqueHash": 899
       }
     ]
   },
   {
-    "Name": "Wintheiser, Klein and Goldner",
-    "Description": "User-friendly transitional Graphic Interface",
-    "Rank": 851,
+    "Name": "Borer-Reinger",
+    "Description": "Polarised regional open architecture",
+    "Rank": 363,
     "Restrictions": [
       {
-        "Name": "Padberg Group",
-        "Operator": "ut",
+        "Name": "Koelpin-Sawayn",
+        "Operator": "rerum",
         "Values": [
-          "soluta",
-          "nesciunt"
+          "iusto",
+          "consectetur"
         ],
         "DisplayValues": [
-          "aut",
-          "repellendus"
+          "qui",
+          "a"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 90,
+        "InterParenthesis": 382,
         "InterOperator": "And",
-        "UniqueHash": 749
+        "UniqueHash": 899
       }
     ]
   }

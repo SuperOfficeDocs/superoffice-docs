@@ -1,7 +1,7 @@
 ---
 title: Services88.PreviewsAgent SOAP
 uid: Services88-Previews-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Previews SOAP

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetSaleList
 uid: v1SaleAgent_GetSaleList
+generated: true
 ---
 
 # POST Agents/Sale/GetSaleList
@@ -104,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Macejkovic-Heathcote",
-    "SaleDate": "2015-06-30T03:51:28.1152684+02:00",
-    "SaleId": 450,
-    "Probability": 749,
-    "Title": "ipsa",
-    "Amount": 20837.966,
-    "Currency": "cupiditate",
-    "ProjectName": "Hickle Inc and Sons",
-    "AssociateFullName": "Evalyn Wunsch",
-    "Description": "Distributed explicit definition",
+    "ContactName": "Conn Inc and Sons",
+    "SaleDate": "2003-07-09T16:00:41.7738086+02:00",
+    "SaleId": 317,
+    "Probability": 353,
+    "Title": "totam",
+    "Amount": 2353.634,
+    "Currency": "atque",
+    "ProjectName": "Johnston, Schumm and Murray",
+    "AssociateFullName": "Betsy Beatty",
+    "Description": "Streamlined impactful model",
     "Status": "Lost",
-    "WeightedAmount": 18484.332,
-    "ProjectId": 333,
-    "EarningPercent": 10201.17,
-    "Earning": 13078.181999999999,
-    "ContactId": 501,
-    "AssociateId": 907,
-    "PersonId": 348,
-    "SaleTypeId": 373,
-    "SaleTypeName": "Anderson Inc and Sons",
-    "PersonFullName": "Shemar Ferry",
+    "WeightedAmount": 8330.172,
+    "ProjectId": 418,
+    "EarningPercent": 8938.168,
+    "Earning": 13570.22,
+    "ContactId": 68,
+    "AssociateId": 442,
+    "PersonId": 817,
+    "SaleTypeId": 233,
+    "SaleTypeName": "Buckridge-Tremblay",
+    "PersonFullName": "Art Rohan",
     "Completed": "Completed",
-    "ActiveErpLinks": 119,
-    "NextDueDate": "2022-10-17T03:51:28.1152684+02:00",
-    "Number": "434542",
+    "ActiveErpLinks": 153,
+    "NextDueDate": "2010-12-04T16:00:41.7738086+01:00",
+    "Number": "1536129",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 355
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: GET List/LegalBase/MDOItems
 uid: v1LegalBaseList_GetMDOList
+generated: true
 ---
 
 # GET List/LegalBase/MDOItems
@@ -26,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=necessitatibus
+GET /api/v1/List/LegalBase/MDOItems?query=consequatur
 ```
 
 
@@ -88,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Schinner LLC",
-    "ToolTip": "Veniam pariatur repellat accusamus placeat sint iste.",
-    "Deleted": false,
-    "Rank": 740,
-    "Type": "iure",
+    "Id": 831,
+    "Name": "Funk Group",
+    "ToolTip": "Autem illo ratione a.",
+    "Deleted": true,
+    "Rank": 508,
+    "Type": "saepe",
     "ChildItems": [
       {
-        "Id": 823,
-        "Name": "Leannon, Williamson and Gibson",
-        "ToolTip": "Sint minima aut repellat fuga qui sunt.",
+        "Id": 774,
+        "Name": "Hand, Rogahn and Nicolas",
+        "ToolTip": "Commodi sed distinctio.",
         "Deleted": false,
-        "Rank": 366,
-        "Type": "incidunt",
+        "Rank": 170,
+        "Type": "nostrum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "deleniti",
-        "ColorBlock": 372,
-        "ExtraInfo": "et",
-        "StyleHint": "aperiam",
-        "FullName": "Jasmin Schaefer PhD",
+        "IconHint": "laboriosam",
+        "ColorBlock": 215,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "voluptatum",
+        "FullName": "Miss Maybell Smith IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 793
+            "FieldType": "System.Int32",
+            "FieldLength": 688
           }
         }
       }
     ],
-    "IconHint": "autem",
-    "ColorBlock": 186,
-    "ExtraInfo": "nobis",
-    "StyleHint": "ea",
-    "FullName": "Brigitte Wintheiser",
+    "IconHint": "assumenda",
+    "ColorBlock": 416,
+    "ExtraInfo": "qui",
+    "StyleHint": "minima",
+    "FullName": "Terrell Gutkowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldType": "System.Int32",
+        "FieldLength": 914
       }
     }
   }

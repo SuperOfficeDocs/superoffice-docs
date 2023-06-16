@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/CreateDashTileSelectionFromEntity
 uid: v1DashAgent_CreateDashTileSelectionFromEntity
+generated: true
 ---
 
 # POST Agents/Dash/CreateDashTileSelectionFromEntity
@@ -67,11 +68,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDashTileSelectionFromEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Kuhic, Stanton and Hoppe"
+  "EntityName": "Huels-Pfeffer"
 }
 ```
 
@@ -81,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-3
+435
 ```

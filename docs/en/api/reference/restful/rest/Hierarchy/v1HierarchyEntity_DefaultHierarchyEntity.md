@@ -1,6 +1,7 @@
 ---
 title: GET Hierarchy/default
 uid: v1HierarchyEntity_DefaultHierarchyEntity
+generated: true
 ---
 
 # GET Hierarchy/default
@@ -65,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 163,
+  "HierarchyId": 734,
   "Domain": "Dashboards",
-  "Name": "Thompson Inc and Sons",
-  "Fullname": "labore",
-  "ParentId": 928,
+  "Name": "Beatty-Larkin",
+  "Fullname": "et",
+  "ParentId": 531,
   "Children": [
     {
-      "HierarchyId": 991,
+      "HierarchyId": 129,
       "Domain": "Dashboards",
-      "Name": "Jacobi Inc and Sons",
-      "Fullname": "ducimus",
-      "ParentId": 404,
+      "Name": "Mayert, Rolfson and Bartoletti",
+      "Fullname": "alias",
+      "ParentId": 966,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-07-06T03:51:33.6928335+02:00",
-      "RegisteredAssociateId": 447,
-      "Updated": "2008-05-17T03:51:33.6928335+02:00",
-      "UpdatedAssociateId": 37,
+      "Registered": "1998-03-04T16:00:47.9928249+01:00",
+      "RegisteredAssociateId": 591,
+      "Updated": "2012-09-26T16:00:47.9928249+02:00",
+      "UpdatedAssociateId": 347,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 466
+          "FieldLength": 342
         }
       }
     }
   ],
-  "Registered": "2015-06-21T03:51:33.6928335+02:00",
-  "RegisteredAssociateId": 147,
-  "Updated": "2006-02-19T03:51:33.6928335+01:00",
-  "UpdatedAssociateId": 642,
+  "Registered": "2003-01-02T16:00:47.9928249+01:00",
+  "RegisteredAssociateId": 362,
+  "Updated": "2018-01-22T16:00:47.9928249+01:00",
+  "UpdatedAssociateId": 734,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldType": "System.Int32",
+      "FieldLength": 597
     }
   }
 }

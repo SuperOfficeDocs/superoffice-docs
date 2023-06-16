@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/DeleteConfigurableScreenDelta
 uid: v1ConfigurationAgent_DeleteConfigurableScreenDelta
+generated: true
 ---
 
 # POST Agents/Configuration/DeleteConfigurableScreenDelta
@@ -24,7 +25,7 @@ Deletes the ConfigurableScreenDelta
 | ConfigurableScreenDeltaId | int32 | **Required** The id of the ConfigurableScreenDelta to be deleted. |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?ConfigurableScreenDeltaId=166
+POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?ConfigurableScreenDeltaId=205
 ```
 
 
@@ -55,7 +56,7 @@ No Content
 POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

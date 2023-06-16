@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/CreateDefaultMailMergeSettings
 uid: v1SelectionAgent_CreateDefaultMailMergeSettings
+generated: true
 ---
 
 # POST Agents/Selection/CreateDefaultMailMergeSettings
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 967,
-  "DocumentId": 897,
+  "SelectionId": 685,
+  "DocumentId": 628,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "vero",
+  "CustomAttention": "aliquam",
   "AlwaysUseCustomAttention": false,
   "SaveDocument": false,
-  "CustomMailBody": "qui",
+  "CustomMailBody": "non",
   "TaskEntity": null,
-  "AddCompanyInterest": 504,
-  "AddPersonInterest": 212,
-  "RemoveCompanyInterest": 400,
-  "RemovePersonInterest": 83,
-  "IncludeNoMailingsRecipient": false,
+  "AddCompanyInterest": 395,
+  "AddPersonInterest": 644,
+  "RemoveCompanyInterest": 129,
+  "RemovePersonInterest": 888,
+  "IncludeNoMailingsRecipient": true,
   "TestOnly": false,
-  "ProjectId": 686,
-  "IncludeRetiredRecipients": false,
+  "ProjectId": 521,
+  "IncludeRetiredRecipients": true,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "nulla",
-  "ExtraInfo": "sint",
-  "Synchronous": true,
+  "CustomMailSubject": "voluptatem",
+  "ExtraInfo": "qui",
+  "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 921
     }
   }
 }

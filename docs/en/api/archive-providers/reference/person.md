@@ -2,17 +2,10 @@
 uid: Person
 title: Person
 description: This is the archive Provide for the Person Archive of the Contact Panel - or to use GUI terminology, the Contact archive of the Company panel.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "Person"
+keywords: Person archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "Person"
@@ -131,6 +124,10 @@ table data; this will also pull in contact udef and related fields.
 |restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
 |restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personInterestIds|listInterest|Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
 |personUdef/SuperOffice:1|string|contactshorttext: tooltipshorttext| x |
 |personUdef/SuperOffice:2|string|contactlongtext: tooltiplongtext| x |
@@ -231,6 +228,10 @@ table data; this will also pull in contact udef and related fields.
 |personTargetRelation/personNumber|string|Target - Number: Displays the contact's number| x |
 |personTargetRelation/title|string|Target - Title: Displays the contact's job title| x |
 |personTargetRelation/personCountry|listAny|Target - Country: Country| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personTargetRelation/personCountryId|int|Target - Country ID: Country ID| x |
 |personTargetRelation/personNoMail|bool|Target - No Mailings: Displays the contact's No Mailings checkbox| x |
 |personTargetRelation/rank|int|Target - Rank: Displays a contact's current rank| x |
@@ -331,6 +332,10 @@ table data; this will also pull in contact udef and related fields.
 |correspondingAssociate/userName|string|User name: User name| x |
 |correspondingAssociate/personEmail|string|E-mail| x |
 |personContact/contactId|int|Company ID: Database ID of company| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/name|stringorPK|Company name| x |
 |personContact/department|string|Department| x |
 |personContact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
@@ -431,6 +436,10 @@ table data; this will also pull in contact udef and related fields.
 |personContact/contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |personContact/contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |personContact/contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |personContact/contactAssociate/userName|string|User name: User name| x |
 |personContact/contactAssociate/personEmail|string|E-mail| x |
@@ -531,6 +540,10 @@ table data; this will also pull in contact udef and related fields.
 |request/ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |request/ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
 |request/ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/ownedBy/contactCategory|listAny|Owner - Category: Category| x |
 |request/ownedBy/role|listAny|Owner - Role: Role| x |
 |request/ownedBy/assocName|associate|Owner - User ID: User ID| x |
@@ -631,6 +644,10 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |projectMembers/projectUdef/SuperOffice:3|int|projectnumber| x |
 |projectMembers/projectUdef/SuperOffice:4|date|projectdate| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 |projectMembers/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |projectMembers/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
@@ -731,6 +748,10 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/associate/contactCategory|listAny|Category: Category| x |
 |personAppointment/associate/role|listAny|Role : Role| x |
 |personAppointment/associate/assocName|associate|User ID : User ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/associate/assocTooltip|string|Description : Description|  |
 |personAppointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |personAppointment/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
@@ -751,7 +772,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=getNoRows,personDeletedDate,restrictionAddress/state,personTargetRelation/personRegisteredByFullName,personContact/streetAddress/line3
+GET /api/v1/archive/Person?$select=personSourceRelation/supportAssociateFullName,request/projectId,request/ownedBy/ejStatus,projectMembers/description,projectMembers/projectAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

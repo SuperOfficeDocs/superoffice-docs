@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetDataRight
 uid: v1UserAgent_GetDataRight
+generated: true
 ---
 
 # POST Agents/User/GetDataRight
@@ -74,12 +75,12 @@ OK
 POST /api/v1/Agents/User/GetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 81,
-  "TableName": "Beahan-Dicki",
+  "RoleId": 703,
+  "TableName": "Braun-Haag",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -90,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eos"
+"aut"
 ```

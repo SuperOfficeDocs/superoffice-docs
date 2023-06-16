@@ -1,6 +1,6 @@
 ---
 title: Services88.AssociateAgent.GetAssociate SOAP
-generated: 1
+generated: true
 uid: Services88-Associate-GetAssociate
 ---
 

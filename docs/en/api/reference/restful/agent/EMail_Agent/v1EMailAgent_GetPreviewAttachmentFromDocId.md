@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetPreviewAttachmentFromDocId
 uid: v1EMailAgent_GetPreviewAttachmentFromDocId
+generated: true
 ---
 
 # POST Agents/EMail/GetPreviewAttachmentFromDocId
@@ -89,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 975,
-  "AttachmentId": "consequuntur"
+  "DocId": 944,
+  "AttachmentId": "omnis"
 }
 ```
 
@@ -101,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured client-server groupware",
-  "Filename": "eum",
-  "Size": 441,
-  "Type": "et",
-  "Encoding": "libero",
-  "Id": "veniam",
-  "Disposition": "earum",
+  "Description": "Multi-tiered value-added protocol",
+  "Filename": "rerum",
+  "Size": 988,
+  "Type": "distinctio",
+  "Encoding": "hic",
+  "Id": "totam",
+  "Disposition": "maxime",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldType": "System.String",
+      "FieldLength": 701
     }
   }
 }

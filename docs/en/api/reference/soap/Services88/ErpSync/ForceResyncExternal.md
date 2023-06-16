@@ -1,6 +1,6 @@
 ---
 title: Services88.ErpSyncAgent.ForceResyncExternal SOAP
-generated: 1
+generated: true
 uid: Services88-ErpSync-ForceResyncExternal
 ---
 

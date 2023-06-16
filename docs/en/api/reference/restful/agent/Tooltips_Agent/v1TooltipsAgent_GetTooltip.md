@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Tooltips/GetTooltip
 uid: v1TooltipsAgent_GetTooltip
+generated: true
 ---
 
 # POST Agents/Tooltips/GetTooltip
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/Tooltips/GetTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TooltipHint": "quis"
+  "TooltipHint": "cupiditate"
 }
 ```
 
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sunt"
+"et"
 ```

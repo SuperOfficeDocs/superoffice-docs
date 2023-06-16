@@ -1,6 +1,7 @@
 ---
 title: GET List/Category/Items/{id}/UserGroups
 uid: v1CategoryList_GetCategoryUserGroupsForListItem
+generated: true
 ---
 
 # GET List/Category/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 61,
-    "Name": "Schinner Group",
-    "ToolTip": "Autem molestiae blanditiis veritatis beatae officia deserunt.",
-    "Deleted": true,
-    "Rank": 555,
-    "Type": "molestiae",
-    "ColorBlock": 884,
-    "IconHint": "accusantium",
+    "Id": 726,
+    "Name": "Harris, Quitzon and Halvorson",
+    "ToolTip": "Corrupti quo facilis quia.",
+    "Deleted": false,
+    "Rank": 565,
+    "Type": "vel",
+    "ColorBlock": 294,
+    "IconHint": "vero",
     "Selected": false,
-    "LastChanged": "2020-01-07T03:51:34.4896498+01:00",
+    "LastChanged": "2005-12-26T16:00:48.8833485+01:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "Rowe-Walker",
-        "ToolTip": "Molestias recusandae.",
-        "Deleted": false,
-        "Rank": 228,
-        "Type": "sint",
-        "ColorBlock": 14,
-        "IconHint": "debitis",
+        "Id": 219,
+        "Name": "Tremblay Group",
+        "ToolTip": "Quia culpa ut aut accusantium occaecati.",
+        "Deleted": true,
+        "Rank": 568,
+        "Type": "voluptatem",
+        "ColorBlock": 522,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2020-08-01T03:51:34.4896498+02:00",
+        "LastChanged": "2017-04-04T16:00:48.8833485+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "sint",
+        "ExtraInfo": "omnis",
+        "StyleHint": "voluptatem",
         "Hidden": true,
-        "FullName": "Jeff Wehner",
+        "FullName": "Dr. Bernadine Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 471
+            "FieldLength": 773
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
+    "ExtraInfo": "quo",
     "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Saige Ezra Borer MD",
+    "Hidden": false,
+    "FullName": "Cesar Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldType": "System.String",
+        "FieldLength": 432
       }
     }
   }

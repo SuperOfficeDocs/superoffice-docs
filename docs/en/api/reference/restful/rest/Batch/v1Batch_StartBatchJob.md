@@ -1,6 +1,7 @@
 ---
 title: POST BatchTask
 uid: v1Batch_StartBatchJob
+generated: true
 ---
 
 # POST BatchTask
@@ -78,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 453,
-  "Name": "Mayert Inc and Sons",
-  "AssociateId": 512,
-  "DetailsTable": 314,
-  "DetailsRecord": 880,
-  "IsSystemTask": false,
+  "Id": 921,
+  "Name": "Paucek-Walter",
+  "AssociateId": 648,
+  "DetailsTable": 252,
+  "DetailsRecord": 567,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "est",
+    "ParameterObject1": "id",
     "ParameterObject2": "et"
   },
-  "LastStarted": "2000-05-26T03:51:34.1772068+02:00",
-  "Created": "1999-02-25T03:51:34.1772068+01:00",
-  "StartCount": 365,
-  "DatabaseSerialNumber": "1336461",
-  "Context": "aut",
-  "Result": "at",
+  "LastStarted": "2016-02-24T16:00:48.617756+01:00",
+  "Created": "2021-09-14T16:00:48.617756+02:00",
+  "StartCount": 954,
+  "DatabaseSerialNumber": "1117923",
+  "Context": "voluptatem",
+  "Result": "in",
   "State": "All",
-  "Description": "Configurable empowering collaboration",
-  "Response": "non",
-  "Request": "quo",
-  "ProgressDescription": "Phased bi-directional alliance",
-  "ProgressPercent": 84,
-  "FileName": "Fadel, Hahn and Corkery",
+  "Description": "Diverse actuating core",
+  "Response": "consequuntur",
+  "Request": "id",
+  "ProgressDescription": "Re-engineered mission-critical protocol",
+  "ProgressPercent": 878,
+  "FileName": "Lemke-Hane",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -116,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-344
+572
 ```

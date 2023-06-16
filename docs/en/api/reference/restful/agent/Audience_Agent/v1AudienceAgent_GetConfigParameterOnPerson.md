@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Audience/GetConfigParameterOnPerson
 uid: v1AudienceAgent_GetConfigParameterOnPerson
+generated: true
 ---
 
 # POST Agents/Audience/GetConfigParameterOnPerson
@@ -79,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Rodriguez-Gutmann",
-  "PersonId": 576
+  "ParameterName": "Haley-Schamberger",
+  "PersonId": 935
 }
 ```
 
@@ -95,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 384,
-  "Name": "Schneider, Reichert and Kuhn",
-  "Value": "molestiae",
-  "CreatedDate": "2005-02-11T03:51:26.5999985+01:00",
-  "UpdatedDate": "2012-09-09T03:51:26.5999985+02:00",
-  "CreatedBy": "ratione",
-  "UpdatedBy": "excepturi",
+  "AudienceLayoutId": 581,
+  "Name": "Johns Inc and Sons",
+  "Value": "rerum",
+  "CreatedDate": "1996-09-08T16:00:40.1019505+02:00",
+  "UpdatedDate": "2012-04-14T16:00:40.1019505+02:00",
+  "CreatedBy": "voluptas",
+  "UpdatedBy": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 460
     }
   }
 }

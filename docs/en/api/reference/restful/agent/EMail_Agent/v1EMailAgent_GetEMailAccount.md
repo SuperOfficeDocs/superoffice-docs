@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetEMailAccount
 uid: v1EMailAgent_GetEMailAccount
+generated: true
 ---
 
 # POST Agents/EMail/GetEMailAccount
@@ -27,7 +28,7 @@ Gets a EMailAccount object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=599
+POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=296
 POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 ```
 
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 6,
-  "EMailAddress": "inventore",
-  "AssociateId": 949,
+  "EMailAccountId": 910,
+  "EMailAddress": "est",
+  "AssociateId": 580,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 214,
-  "ErrorCount": 771,
-  "ErrorReason": "",
-  "InboxFolder": "esse",
-  "SentFolder": "dolorum",
+  "AccountStatus": 654,
+  "ErrorCount": 293,
+  "ErrorReason": "expedite plug-and-play experiences",
+  "InboxFolder": "unde",
+  "SentFolder": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 334
     }
   }
 }

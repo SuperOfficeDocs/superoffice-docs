@@ -1,6 +1,7 @@
 ---
 title: PUT List/Category/Items/{id}
 uid: v1CategoryList_PutCategory
+generated: true
 ---
 
 # PUT List/Category/Items/{id}
@@ -77,16 +78,16 @@ OK
 PUT /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 781,
-  "Name": "Kuphal-Kutch",
-  "Tooltip": "neque",
+  "Id": 804,
+  "Name": "Batz-Connelly",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 386,
-  "Rank": 745
+  "UdListDefinitionId": 645,
+  "Rank": 512
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 583,
-  "Name": "Hilpert, Berge and Corkery",
-  "Tooltip": "blanditiis",
-  "Deleted": true,
-  "UdListDefinitionId": 227,
-  "Rank": 673,
+  "Id": 650,
+  "Name": "Buckridge Inc and Sons",
+  "Tooltip": "culpa",
+  "Deleted": false,
+  "UdListDefinitionId": 540,
+  "Rank": 309,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldLength": 137
     }
   }
 }

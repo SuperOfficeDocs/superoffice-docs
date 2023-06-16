@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/ChangePersonImage
 uid: v1BLOBAgent_ChangePersonImage
+generated: true
 ---
 
 # POST Agents/BLOB/ChangePersonImage
@@ -68,8 +69,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 696,
-  "BlobId": 428
+  "PersonId": 210,
+  "BlobId": 908
 }
 ```
 

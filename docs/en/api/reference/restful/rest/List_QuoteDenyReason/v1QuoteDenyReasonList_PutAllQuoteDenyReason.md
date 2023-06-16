@@ -1,6 +1,7 @@
 ---
 title: PUT List/QuoteDenyReason/Items
 uid: v1QuoteDenyReasonList_PutAllQuoteDenyReason
+generated: true
 ---
 
 # PUT List/QuoteDenyReason/Items
@@ -72,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Funk Inc and Sons",
-    "Tooltip": "nulla",
+    "Id": 257,
+    "Name": "Simonis, Homenick and Nader",
+    "Tooltip": "tenetur",
     "Deleted": false,
-    "UdListDefinitionId": 882,
-    "Rank": 61
+    "UdListDefinitionId": 976,
+    "Rank": 974
   },
   {
-    "Id": 73,
-    "Name": "Funk Inc and Sons",
-    "Tooltip": "nulla",
+    "Id": 257,
+    "Name": "Simonis, Homenick and Nader",
+    "Tooltip": "tenetur",
     "Deleted": false,
-    "UdListDefinitionId": 882,
-    "Rank": 61
+    "UdListDefinitionId": 976,
+    "Rank": 974
   }
 ]
 ```
@@ -103,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "Cronin, Barton and Hoeger",
-    "Tooltip": "dolore",
+    "Id": 654,
+    "Name": "Raynor-Hermiston",
+    "Tooltip": "quis",
     "Deleted": false,
-    "UdListDefinitionId": 490,
-    "Rank": 474,
+    "UdListDefinitionId": 473,
+    "Rank": 570,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldType": "System.String",
+        "FieldLength": 339
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: GET MDOList/{listname}/selectable
 uid: v1MDOList_GetSelectableList
+generated: true
 ---
 
 # GET MDOList/{listname}/selectable
@@ -29,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=odio
+GET /api/v1/MDOList/{listname}/selectable?additional=omnis
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Hartmann-Okuneva",
-    "ToolTip": "Unde modi laborum.",
+    "Id": 478,
+    "Name": "Beier-Nolan",
+    "ToolTip": "Ipsa non saepe itaque expedita omnis voluptatem.",
     "Deleted": false,
-    "Rank": 222,
-    "Type": "commodi",
-    "ColorBlock": 884,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2001-03-19T03:51:34.7239677+01:00",
+    "Rank": 68,
+    "Type": "similique",
+    "ColorBlock": 918,
+    "IconHint": "quae",
+    "Selected": true,
+    "LastChanged": "1998-01-01T16:00:49.0552074+01:00",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "O'Kon Inc and Sons",
-        "ToolTip": "Vel quo debitis nostrum nihil molestias.",
+        "Id": 317,
+        "Name": "Wunsch-Beer",
+        "ToolTip": "Sunt minima qui qui earum laboriosam.",
         "Deleted": true,
-        "Rank": 25,
-        "Type": "vel",
-        "ColorBlock": 904,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "1998-02-15T03:51:34.7239677+01:00",
+        "Rank": 605,
+        "Type": "natus",
+        "ColorBlock": 651,
+        "IconHint": "ab",
+        "Selected": true,
+        "LastChanged": "2009-10-04T16:00:49.0552074+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Brennon Fritsch",
+        "FullName": "Miss Doyle Howell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 991
+            "FieldType": "System.Int32",
+            "FieldLength": 559
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Mr. Adriel Geraldine Dach I",
+    "ExtraInfo": "architecto",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Amely Heaney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldType": "System.String",
+        "FieldLength": 308
       }
     }
   }

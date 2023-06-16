@@ -1,6 +1,7 @@
 ---
 title: DEL List/Priority/Items/{id}
 uid: v1PriorityList_DeletePriority
+generated: true
 ---
 
 # DEL List/Priority/Items/{id}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

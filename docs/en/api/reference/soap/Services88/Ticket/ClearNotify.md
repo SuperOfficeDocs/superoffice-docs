@@ -1,6 +1,6 @@
 ---
 title: Services88.TicketAgent.ClearNotify SOAP
-generated: 1
+generated: true
 uid: Services88-Ticket-ClearNotify
 ---
 

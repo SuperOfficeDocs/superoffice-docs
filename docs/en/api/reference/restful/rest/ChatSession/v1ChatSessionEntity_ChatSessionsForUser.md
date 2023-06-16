@@ -1,6 +1,7 @@
 ---
 title: GET ChatSession/ForCurrentUser
 uid: v1ChatSessionEntity_ChatSessionsForUser
+generated: true
 ---
 
 # GET ChatSession/ForCurrentUser
@@ -97,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 973,
-    "TopicId": 405,
+    "ChatSessionId": 261,
+    "TopicId": 778,
     "User": null,
     "Person": null,
-    "CustomerAlias": "quisquam",
-    "CustomerHost": "cum",
-    "CustomerName": "Trantow-Jerde",
-    "CustomerEmail": "adolf.bashirian@kunde.us",
-    "CustomerPhone": "766.142.8243",
+    "CustomerAlias": "occaecati",
+    "CustomerHost": "praesentium",
+    "CustomerName": "Kuhic, Brown and Bogan",
+    "CustomerEmail": "tressie@graham.co.uk",
+    "CustomerPhone": "1-200-081-9293 x727",
     "CustomerConsented": false,
-    "CustomerCompanyName": "Schowalter Group",
+    "CustomerCompanyName": "Schaden-Bailey",
     "Status": "Closed",
-    "FirstMessage": "iusto",
-    "LastMessage": "doloribus",
-    "WhenRequested": "2007-04-20T03:51:33.161706+02:00",
-    "WhenStarted": "1995-12-23T03:51:33.161706+01:00",
-    "WhenEnded": "2019-03-31T03:51:33.161706+02:00",
-    "WhenIdle": "2013-06-02T03:51:33.161706+02:00",
-    "WhenFetched": "2022-04-19T03:51:33.161706+02:00",
-    "SessionKey": "quae",
-    "InitialQueuePos": 448,
-    "AlertLevel": 714,
-    "Rank": 367,
+    "FirstMessage": "veritatis",
+    "LastMessage": "commodi",
+    "WhenRequested": "1996-03-21T16:00:47.5866182+01:00",
+    "WhenStarted": "2003-05-26T16:00:47.5866182+02:00",
+    "WhenEnded": "2022-09-07T16:00:47.5866182+02:00",
+    "WhenIdle": "2019-11-23T16:00:47.5866182+01:00",
+    "WhenFetched": "2023-03-10T16:00:47.5866182+01:00",
+    "SessionKey": "eveniet",
+    "InitialQueuePos": 59,
+    "AlertLevel": 199,
+    "Rank": 572,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -127,13 +128,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 41,
+    "Rating": 645,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldLength": 287
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: GET List/Business/Items/{id}
 uid: v1BusinessList_GetBusiness
+generated: true
 ---
 
 # GET List/Business/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 633,
-  "Name": "Dicki-Nolan",
-  "Tooltip": "maiores",
-  "Deleted": true,
-  "UdListDefinitionId": 731,
-  "Rank": 127,
+  "Id": 651,
+  "Name": "Mueller-Ward",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "UdListDefinitionId": 97,
+  "Rank": 125,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 287
+      "FieldType": "System.Int32",
+      "FieldLength": 142
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET License/User/MdoList
 uid: v1License_GetUserLicensesMDOList
+generated: true
 ---
 
 # GET License/User/MdoList
@@ -68,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 339,
-    "Name": "Olson Group",
-    "ToolTip": "Maiores ut doloribus vero deserunt laboriosam.",
-    "Deleted": false,
-    "Rank": 780,
-    "Type": "nihil",
-    "ColorBlock": 264,
-    "IconHint": "soluta",
+    "Id": 104,
+    "Name": "Ernser, Nikolaus and Grimes",
+    "ToolTip": "Et magnam.",
+    "Deleted": true,
+    "Rank": 719,
+    "Type": "atque",
+    "ColorBlock": 417,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2005-07-08T03:51:34.2084568+02:00",
+    "LastChanged": "2006-02-23T16:00:48.664623+01:00",
     "ChildItems": [
       {
-        "Id": 543,
-        "Name": "Turner Group",
-        "ToolTip": "Voluptatibus officiis ut quod rerum ut nihil sint.",
+        "Id": 918,
+        "Name": "Towne-Senger",
+        "ToolTip": "Sit ratione qui assumenda dolorum.",
         "Deleted": true,
-        "Rank": 193,
-        "Type": "fugiat",
-        "ColorBlock": 926,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "2020-09-24T03:51:34.2084568+02:00",
+        "Rank": 377,
+        "Type": "eos",
+        "ColorBlock": 966,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2009-11-22T16:00:48.664623+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "voluptatem",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Ms. Mack Kianna Powlowski",
+        "StyleHint": "tempora",
+        "Hidden": false,
+        "FullName": "Noemy Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 937
+            "FieldType": "System.String",
+            "FieldLength": 973
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "et",
+    "ExtraInfo": "est",
+    "StyleHint": "voluptate",
     "Hidden": true,
-    "FullName": "Callie Marvin",
+    "FullName": "Davin Doyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldType": "System.String",
+        "FieldLength": 901
       }
     }
   }

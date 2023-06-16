@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/GetChatTranscript
 uid: v1ChatAgent_GetChatTranscript
+generated: true
 ---
 
 # POST Agents/Chat/GetChatTranscript
@@ -72,7 +73,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 33,
+  "ChatSessionId": 749,
   "Html": false
 }
 ```
@@ -83,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aut"
+"et"
 ```

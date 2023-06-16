@@ -1,6 +1,7 @@
 ---
 title: GET List/Business/Items
 uid: v1BusinessList_GetAll
+generated: true
 ---
 
 # GET List/Business/Items
@@ -24,7 +25,7 @@ Gets all the Business items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Business/Items?includeDeleted=False
+GET /api/v1/List/Business/Items?includeDeleted=True
 ```
 
 
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Crooks, Lubowitz and Conn",
-    "Tooltip": "vero",
+    "Id": 430,
+    "Name": "Schulist-Kerluke",
+    "Tooltip": "harum",
     "Deleted": false,
-    "UdListDefinitionId": 857,
-    "Rank": 429,
+    "UdListDefinitionId": 246,
+    "Rank": 573,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldLength": 170
       }
     }
   }

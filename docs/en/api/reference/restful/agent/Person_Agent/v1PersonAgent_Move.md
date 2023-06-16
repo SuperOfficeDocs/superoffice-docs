@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/Move
 uid: v1PersonAgent_Move
+generated: true
 ---
 
 # POST Agents/Person/Move
@@ -71,9 +72,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 952,
-  "DestinationContactId": 300,
-  "MoveAfterDate": "2000-12-27T03:51:27.8184683+01:00"
+  "PersonId": 200,
+  "DestinationContactId": 934,
+  "MoveAfterDate": "2022-04-23T16:00:41.4144676+02:00"
 }
 ```
 

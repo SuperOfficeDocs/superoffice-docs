@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/GetContactList
 uid: v1ContactAgent_GetContactList
+generated: true
 ---
 
 # POST Agents/Contact/GetContactList
@@ -103,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 376,
-    "Name": "Wehner LLC",
-    "OrgNr": "1170044",
+    "ContactId": 829,
+    "Name": "Wolf, Gutmann and Armstrong",
+    "OrgNr": "935694",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "similique",
-    "DirectPhone": "777-098-6119",
-    "AssociateId": 973,
-    "CountryId": 324,
-    "EmailAddress": "elmo_dubuque@okon.biz",
-    "Kananame": "aperiam",
-    "EmailAddressName": "florida@wunsch.uk",
+    "City": "voluptatum",
+    "DirectPhone": "(278)301-7348 x34736",
+    "AssociateId": 62,
+    "CountryId": 49,
+    "EmailAddress": "alice@von.com",
+    "Kananame": "accusantium",
+    "EmailAddressName": "kirstin.turcotte@stracke.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Luis Simonis Jr.",
+    "AssociateFullName": "Miss Derick Johnston",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "culpa",
-    "FullName": "Marshall Zieme",
+    "FormattedAddress": "aperiam",
+    "FullName": "Lavon Kovacek",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 278,
-    "Number1": "945283",
-    "Number2": "1045899",
+    "ActiveErpLinks": 720,
+    "Number1": "1288275",
+    "Number2": "1014223",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 524
       }
     }
   }

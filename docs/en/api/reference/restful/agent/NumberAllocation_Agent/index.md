@@ -1,5 +1,6 @@
 ---
 title: NumberAllocation_Agent
+generated: true
 ---
 
 ```http

@@ -1,6 +1,7 @@
 ---
 title: DEL List/WebPanel/Headings
 uid: v1WebPanelEntityList_DeleteWebPanelEntityHeadings
+generated: true
 ---
 
 # DEL List/WebPanel/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

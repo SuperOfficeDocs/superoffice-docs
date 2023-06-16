@@ -1,6 +1,7 @@
 ---
 title: POST Agents/PhoneList/Search
 uid: v1PhoneListAgent_Search
+generated: true
 ---
 
 # POST Agents/PhoneList/Search
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "ut"
+  "SearchString": "voluptatum"
 }
 ```
 
@@ -99,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(718)197-0521",
-    "PersonCellPhone": "009.375.7839 x1036",
-    "PersonPrivatePhone": "953-594-4540 x242",
-    "PersonFaxNumber": "623000",
-    "PersonPagerNumber": "292241",
-    "PersonEmail": "daphnee@murazikhackett.biz",
-    "Id": 808,
-    "Name": "Runolfsdottir Inc and Sons",
-    "Tooltip": "necessitatibus",
-    "UniqueId": "minima",
+    "PersonDirectPhone": "1-512-134-7149 x4679",
+    "PersonCellPhone": "(236)260-1520 x50407",
+    "PersonPrivatePhone": "093-110-1892 x6893",
+    "PersonFaxNumber": "1686654",
+    "PersonPagerNumber": "1328266",
+    "PersonEmail": "edwardo@kirlin.biz",
+    "Id": 124,
+    "Name": "Muller, Swaniawski and Medhurst",
+    "Tooltip": "qui",
+    "UniqueId": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldType": "System.String",
+        "FieldLength": 52
       }
     }
   }

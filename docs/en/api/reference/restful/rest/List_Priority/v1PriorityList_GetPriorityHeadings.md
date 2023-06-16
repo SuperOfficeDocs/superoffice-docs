@@ -1,6 +1,7 @@
 ---
 title: GET List/Priority/Headings
 uid: v1PriorityList_GetPriorityHeadings
+generated: true
 ---
 
 # GET List/Priority/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 541,
-    "Name": "Osinski Inc and Sons",
-    "Tooltip": "accusantium",
+    "HeadingId": 48,
+    "Name": "Roberts, Bradtke and Nader",
+    "Tooltip": "illum",
     "Deleted": true,
-    "Rank": 984,
-    "UdListDefinitionId": 723,
+    "Rank": 846,
+    "UdListDefinitionId": 601,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 667
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetPersonAppointmentsByTaskHeading
 uid: v1AppointmentAgent_GetPersonAppointmentsByTaskHeading
+generated: true
 ---
 
 # POST Agents/Appointment/GetPersonAppointmentsByTaskHeading
@@ -118,6 +119,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -127,16 +131,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 318,
+  "PersonId": 287,
   "IncludeProjectAppointments": false,
-  "StartTime": "2010-04-06T03:51:26.1157305+02:00",
-  "EndTime": "2004-07-18T03:51:26.1157305+02:00",
-  "Count": 30,
-  "TaskHeadingId": 689
+  "StartTime": "2002-09-06T16:00:39.6019823+02:00",
+  "EndTime": "2002-09-07T16:00:39.6019823+02:00",
+  "Count": 569,
+  "TaskHeadingId": 836
 }
 ```
 
@@ -148,61 +152,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 489,
-    "StartDate": "2002-06-20T03:51:26.1157305+02:00",
-    "EndDate": "2007-12-15T03:51:26.1157305+01:00",
+    "AppointmentId": 863,
+    "StartDate": "2020-10-19T16:00:39.6019823+02:00",
+    "EndDate": "2014-10-30T16:00:39.6019823+01:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Camron Aufderhar IV",
-    "ContactName": "Ullrich-Durgan",
-    "Description": "Universal object-oriented synergy",
-    "PersonFullName": "Kaelyn Mann",
-    "PersonId": 416,
-    "ContactId": 740,
-    "ProjectId": 757,
-    "ProjectName": "Bergnaum-Miller",
-    "IsPublished": true,
-    "AssociateId": 632,
-    "ColorIndex": 425,
-    "IsFree": false,
+    "Task": "pariatur",
+    "AssociateFullName": "Dr. Marian Schuster",
+    "ContactName": "Durgan-Von",
+    "Description": "Future-proofed client-server system engine",
+    "PersonFullName": "Dr. Serena Legros I",
+    "PersonId": 411,
+    "ContactId": 956,
+    "ProjectId": 384,
+    "ProjectName": "Konopelski Group",
+    "IsPublished": false,
+    "AssociateId": 487,
+    "ColorIndex": 526,
+    "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 669,
-    "PriorityName": "Schoen Group",
+    "PriorityId": 643,
+    "PriorityName": "Torphy-Hudson",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2018-05-27T03:51:26.1157305+02:00",
+    "ActiveDate": "2002-11-29T16:00:39.6019823+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-10-13T03:51:26.1157305+02:00",
-    "RecurringEndDate": "2002-11-15T03:51:26.1157305+01:00",
-    "MotherId": 383,
-    "AssignedBy": 775,
-    "AssignedByFullName": "Audrey Schneider",
+    "RecurringStartDate": "2010-02-02T16:00:39.6019823+01:00",
+    "RecurringEndDate": "2005-11-20T16:00:39.6019823+01:00",
+    "MotherId": 496,
+    "AssignedBy": 851,
+    "AssignedByFullName": "Tavares Hudson",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "cumque",
-    "SaleId": 514,
-    "SaleName": "Corkery-Fadel",
-    "AssociateName": "Casper Group",
-    "CreatedDate": "2023-03-05T03:51:26.1157305+01:00",
-    "CreatedBy": "a",
-    "CreatedByFullName": "Misael Thompson",
-    "CreatedByAssociateId": 80,
+    "Location": "maxime",
+    "AlarmLeadTime": "est",
+    "SaleId": 945,
+    "SaleName": "Bahringer LLC",
+    "AssociateName": "Bernhard Inc and Sons",
+    "CreatedDate": "1999-02-02T16:00:39.6019823+01:00",
+    "CreatedBy": "neque",
+    "CreatedByFullName": "Jess Armstrong",
+    "CreatedByAssociateId": 754,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "sequi",
+    "Agenda": "debitis",
+    "InternalNotes": "debitis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldType": "System.String",
+        "FieldLength": 360
       }
     }
   }

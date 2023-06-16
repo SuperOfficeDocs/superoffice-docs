@@ -1,6 +1,7 @@
 ---
 title: POST List/LegalBase/Headings
 uid: v1LegalBaseList_PostLegalBaseHeading
+generated: true
 ---
 
 # POST List/LegalBase/Headings
@@ -78,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 559,
-  "Name": "Krajcik Group",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 220,
-  "UdListDefinitionId": 598
+  "HeadingId": 288,
+  "Name": "Kshlerin Inc and Sons",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 861,
+  "UdListDefinitionId": 985
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 681,
-  "Name": "Kunze-Nikolaus",
-  "Tooltip": "aut",
+  "HeadingId": 850,
+  "Name": "Prosacco LLC",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 746,
-  "UdListDefinitionId": 73,
+  "Rank": 764,
+  "UdListDefinitionId": 847,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldType": "System.String",
+      "FieldLength": 460
     }
   }
 }

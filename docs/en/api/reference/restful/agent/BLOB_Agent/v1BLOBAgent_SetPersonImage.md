@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BLOB/SetPersonImage
 uid: v1BLOBAgent_SetPersonImage
+generated: true
 ---
 
 # POST Agents/BLOB/SetPersonImage
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/BLOB/SetPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 702,
+  "PersonId": 336,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: GET List/Source/Items/{id}
 uid: v1SourceList_GetSource
+generated: true
 ---
 
 # GET List/Source/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 574,
-  "Name": "Grady Inc and Sons",
-  "Tooltip": "ab",
+  "Id": 600,
+  "Name": "Williamson, Kutch and Graham",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 696,
-  "Rank": 793,
+  "UdListDefinitionId": 187,
+  "Rank": 329,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldType": "System.String",
+      "FieldLength": 22
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: GET List/ProjectStatus/Items/{id}/Headings
 uid: v1ProjectStatusList_GetProjectStatusHeadingsForListItem
+generated: true
 ---
 
 # GET List/ProjectStatus/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 610,
-    "Name": "Simonis-Kihn",
-    "ToolTip": "Sapiente hic doloremque voluptatum qui aliquam dolorem.",
+    "Id": 471,
+    "Name": "Walker, Littel and White",
+    "ToolTip": "Quia laborum culpa vitae voluptas.",
     "Deleted": false,
-    "Rank": 183,
-    "Type": "eaque",
-    "ColorBlock": 227,
-    "IconHint": "sit",
+    "Rank": 139,
+    "Type": "voluptatibus",
+    "ColorBlock": 41,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2021-03-14T03:51:34.833319+01:00",
+    "LastChanged": "2004-08-06T16:00:49.1958202+02:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Schumm, Farrell and Rempel",
-        "ToolTip": "Cumque animi omnis tenetur quam iure nam et.",
-        "Deleted": false,
-        "Rank": 574,
-        "Type": "illum",
-        "ColorBlock": 731,
-        "IconHint": "sint",
+        "Id": 901,
+        "Name": "Howe-Johnson",
+        "ToolTip": "Enim vel explicabo quas aut.",
+        "Deleted": true,
+        "Rank": 240,
+        "Type": "aut",
+        "ColorBlock": 854,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2019-03-16T03:51:34.833319+01:00",
+        "LastChanged": "2004-07-21T16:00:49.1958202+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Meda Dibbert",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "praesentium",
+        "Hidden": true,
+        "FullName": "Yasmine Aufderhar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 450
+            "FieldType": "System.String",
+            "FieldLength": 296
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "et",
+    "ExtraInfo": "velit",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Gudrun Leannon",
+    "FullName": "Miss Chelsie Alvah Bins DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldType": "System.String",
+        "FieldLength": 199
       }
     }
   }

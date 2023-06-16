@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/SyncEmailAccounts
 uid: v1EMailAgent_SyncEmailAccounts
+generated: true
 ---
 
 # POST Agents/EMail/SyncEmailAccounts
@@ -71,14 +72,14 @@ Content-Type: application/json; charset=utf-8
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 795,
-      "AssociateName": "Barton-Jast",
-      "AssociateId": 879
+      "AccountId": 892,
+      "AssociateName": "Mayer, Hudson and Wuckert",
+      "AssociateId": 2
     },
     {
-      "AccountId": 795,
-      "AssociateName": "Barton-Jast",
-      "AssociateId": 879
+      "AccountId": 892,
+      "AssociateName": "Mayer, Hudson and Wuckert",
+      "AssociateId": 2
     }
   ]
 }

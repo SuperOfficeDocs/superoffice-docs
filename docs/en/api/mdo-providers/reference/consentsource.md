@@ -1,17 +1,11 @@
 ---
 uid: consentsource
 title: consentsource
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "consentsource"
+keywords: mdoprovider mdo provider consentsource
+description: MDO list provider for Consent source
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "consentsource" MDO List

@@ -1,6 +1,7 @@
 ---
 title: POST Person/{id}/MergeTo/{id}
 uid: v1PersonEntity_Merge
+generated: true
 ---
 
 # POST Person/{id}/MergeTo/{id}
@@ -33,8 +34,8 @@ The destination person will remain. You must specify the date after which activi
 | replaceEmptyFieldsOnDestination | bool |  If true, empty fields on destination will be replaced by values from source. |
 
 ```http
-POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?moveAfterDate=11/21/2022 03:51:35
-POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?deleteSource=False
+POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?moveAfterDate=04/16/1996 16:00:49
+POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?deleteSource=True
 POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?replaceEmptyFieldsOnDestination=False
 ```
 

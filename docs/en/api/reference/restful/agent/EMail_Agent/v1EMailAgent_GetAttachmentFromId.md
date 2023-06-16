@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetAttachmentFromId
 uid: v1EMailAgent_GetAttachmentFromId
+generated: true
 ---
 
 # POST Agents/EMail/GetAttachmentFromId
@@ -82,12 +83,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 389,
-  "AttachmentId": "qui"
+  "MailItemId": 834,
+  "AttachmentId": "temporibus"
 }
 ```
 
@@ -98,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Polarised stable project",
-  "Filename": "quia",
-  "Size": 86,
-  "Type": "delectus",
-  "Encoding": "rerum",
-  "Id": "repudiandae",
-  "Disposition": "et",
+  "Description": "Sharable full-range core",
+  "Filename": "velit",
+  "Size": 657,
+  "Type": "voluptatem",
+  "Encoding": "esse",
+  "Id": "ut",
+  "Disposition": "quaerat",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldType": "System.String",
+      "FieldLength": 464
     }
   }
 }

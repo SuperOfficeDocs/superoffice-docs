@@ -1,6 +1,7 @@
 ---
 title: GET List/SelectionCategory/Items/{id}/Headings
 uid: v1SelectionCategoryList_GetSelectionCategoryHeadingsForListItem
+generated: true
 ---
 
 # GET List/SelectionCategory/Items/{id}/Headings
@@ -30,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 550,
-    "Name": "Wintheiser, Boehm and Kovacek",
-    "ToolTip": "Et id non ut molestias quas tenetur eos.",
+    "Id": 544,
+    "Name": "Johns Group",
+    "ToolTip": "Omnis at animi.",
     "Deleted": false,
-    "Rank": 809,
-    "Type": "at",
-    "ColorBlock": 13,
-    "IconHint": "sit",
+    "Rank": 924,
+    "Type": "distinctio",
+    "ColorBlock": 176,
+    "IconHint": "sunt",
     "Selected": true,
-    "LastChanged": "2016-01-13T03:51:34.9738936+01:00",
+    "LastChanged": "2009-05-14T16:00:49.3364234+02:00",
     "ChildItems": [
       {
-        "Id": 120,
-        "Name": "Bechtelar LLC",
-        "ToolTip": "Est rerum sed aut sit non quaerat magni.",
-        "Deleted": true,
-        "Rank": 44,
-        "Type": "sed",
-        "ColorBlock": 777,
-        "IconHint": "hic",
+        "Id": 129,
+        "Name": "Toy Group",
+        "ToolTip": "Voluptatem soluta quos ut voluptatum.",
+        "Deleted": false,
+        "Rank": 904,
+        "Type": "veritatis",
+        "ColorBlock": 516,
+        "IconHint": "perferendis",
         "Selected": false,
-        "LastChanged": "2021-02-22T03:51:34.9738936+01:00",
+        "LastChanged": "2002-11-21T16:00:49.3364234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "eligendi",
-        "Hidden": true,
-        "FullName": "Mr. Karlie Mallory Towne",
+        "ExtraInfo": "iusto",
+        "StyleHint": "mollitia",
+        "Hidden": false,
+        "FullName": "Mr. Friedrich Giovani Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 471
+            "FieldType": "System.String",
+            "FieldLength": 287
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Jessica Wolf",
+    "ExtraInfo": "et",
+    "StyleHint": "mollitia",
+    "Hidden": true,
+    "FullName": "Selmer O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldType": "System.String",
+        "FieldLength": 533
       }
     }
   }

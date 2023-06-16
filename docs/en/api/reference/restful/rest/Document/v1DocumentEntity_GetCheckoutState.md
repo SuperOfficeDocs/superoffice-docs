@@ -1,6 +1,7 @@
 ---
 title: GET Document/{id}/Lock
 uid: v1DocumentEntity_GetCheckoutState
+generated: true
 ---
 
 # GET Document/{id}/Lock
@@ -69,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 663,
-  "Name": "Jenkins, Labadie and Lynch"
+  "AssociateId": 665,
+  "Name": "Oberbrunner Group"
 }
 ```

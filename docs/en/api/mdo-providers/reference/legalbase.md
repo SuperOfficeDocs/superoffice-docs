@@ -1,17 +1,11 @@
 ---
 uid: legalbase
 title: legalbase
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "legalbase"
+keywords: mdoprovider mdo provider legalbase
+description: MDO list provider for Legal base
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "legalbase" MDO List

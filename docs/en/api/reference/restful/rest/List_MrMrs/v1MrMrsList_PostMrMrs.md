@@ -1,6 +1,7 @@
 ---
 title: POST List/MrMrs/Items
 uid: v1MrMrsList_PostMrMrs
+generated: true
 ---
 
 # POST List/MrMrs/Items
@@ -76,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 677,
-  "Name": "Kris Inc and Sons",
-  "Tooltip": "a",
+  "Id": 604,
+  "Name": "Gerlach Inc and Sons",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 190,
-  "Rank": 439
+  "UdListDefinitionId": 836,
+  "Rank": 553
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 832,
-  "Name": "Gleason, McGlynn and Wisoky",
-  "Tooltip": "odit",
+  "Id": 463,
+  "Name": "Tillman-Nolan",
+  "Tooltip": "quos",
   "Deleted": false,
-  "UdListDefinitionId": 439,
-  "Rank": 130,
+  "UdListDefinitionId": 750,
+  "Rank": 229,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldLength": 430
     }
   }
 }

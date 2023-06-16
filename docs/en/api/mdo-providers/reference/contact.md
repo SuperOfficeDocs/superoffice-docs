@@ -1,17 +1,11 @@
 ---
 uid: contact
 title: contact
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "contact"
+keywords: mdoprovider mdo provider contact
+description: Provider for selecting a Contact - without person search
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "contact" MDO List

@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProjectStatus/Items/{id}/UserGroups
 uid: v1ProjectStatusList_PutProjectStatusUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/ProjectStatus/Items/{id}/UserGroups
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 388,
-    "Name": "Weber, Batz and Lubowitz",
-    "ToolTip": "Nihil culpa in rerum fugiat.",
+    "Id": 974,
+    "Name": "Gaylord, Prohaska and Zieme",
+    "ToolTip": "Repudiandae dolorum qui.",
     "Deleted": false,
-    "Rank": 826,
-    "Type": "eos",
-    "ColorBlock": 272,
-    "IconHint": "impedit",
-    "Selected": true,
-    "LastChanged": "2022-07-05T03:51:34.833319+02:00",
+    "Rank": 200,
+    "Type": "qui",
+    "ColorBlock": 373,
+    "IconHint": "sapiente",
+    "Selected": false,
+    "LastChanged": "2000-10-05T16:00:49.1958202+02:00",
     "ChildItems": [
       {
-        "Id": 721,
-        "Name": "Corkery, Roberts and Goodwin",
-        "ToolTip": "Aperiam eveniet sint.",
-        "Deleted": true,
-        "Rank": 318,
-        "Type": "sint",
-        "ColorBlock": 173,
-        "IconHint": "fugit",
+        "Id": 108,
+        "Name": "Ledner-Hoeger",
+        "ToolTip": "Consequatur est blanditiis eius.",
+        "Deleted": false,
+        "Rank": 530,
+        "Type": "autem",
+        "ColorBlock": 819,
+        "IconHint": "nisi",
         "Selected": true,
-        "LastChanged": "2018-03-13T03:51:34.833319+01:00",
+        "LastChanged": "2021-04-03T16:00:49.1958202+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "harum",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "illo",
         "Hidden": false,
-        "FullName": "Erna Stanton"
+        "FullName": "Mr. Carlie Altenwerth III"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "distinctio",
-    "Hidden": false,
-    "FullName": "Prof. Brook Armstrong"
+    "ExtraInfo": "sit",
+    "StyleHint": "explicabo",
+    "Hidden": true,
+    "FullName": "Kaitlin Kozey I"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Cruickshank LLC",
-    "ToolTip": "At dolor.",
-    "Deleted": false,
-    "Rank": 945,
-    "Type": "est",
-    "ColorBlock": 467,
-    "IconHint": "hic",
-    "Selected": true,
-    "LastChanged": "1999-09-08T03:51:34.833319+02:00",
+    "Id": 934,
+    "Name": "Kerluke LLC",
+    "ToolTip": "Natus quod consectetur repellendus temporibus ullam.",
+    "Deleted": true,
+    "Rank": 661,
+    "Type": "velit",
+    "ColorBlock": 451,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2016-04-26T16:00:49.1958202+02:00",
     "ChildItems": [
       {
-        "Id": 655,
-        "Name": "Romaguera Group",
-        "ToolTip": "Dolor labore.",
+        "Id": 556,
+        "Name": "Zulauf-Watsica",
+        "ToolTip": "Beatae possimus eius.",
         "Deleted": true,
-        "Rank": 849,
-        "Type": "et",
-        "ColorBlock": 151,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2015-11-29T03:51:34.833319+01:00",
+        "Rank": 238,
+        "Type": "sunt",
+        "ColorBlock": 829,
+        "IconHint": "aliquam",
+        "Selected": false,
+        "LastChanged": "2019-12-27T16:00:49.1958202+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "earum",
+        "StyleHint": "consectetur",
         "Hidden": false,
-        "FullName": "Aidan Etha Bode I",
+        "FullName": "Ms. Cody Keely Bailey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 618
+            "FieldLength": 388
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "animi",
-    "Hidden": true,
-    "FullName": "Vena Klocko",
+    "ExtraInfo": "ex",
+    "StyleHint": "totam",
+    "Hidden": false,
+    "FullName": "Leone Wilderman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldType": "System.String",
+        "FieldLength": 495
       }
     }
   }

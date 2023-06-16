@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultTicketPriorityEntity
 uid: v1ListAgent_CreateDefaultTicketPriorityEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultTicketPriorityEntity
@@ -93,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 516,
-  "Name": "Schiller, O'Reilly and Jacobs",
+  "TicketPriorityId": 121,
+  "Name": "Mayer-Jacobson",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 279,
+  "SortOrder": 327,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 951,
-  "MonStart": "2013-03-19T03:51:27.4904158+01:00",
-  "MonStop": "2000-03-06T03:51:27.4904158+01:00",
-  "TueStart": "1996-10-13T03:51:27.4904158+02:00",
-  "TueStop": "2009-07-28T03:51:27.4904158+02:00",
-  "WedStart": "2012-08-13T03:51:27.4904158+02:00",
-  "WedStop": "2000-06-19T03:51:27.4904158+02:00",
-  "ThuStart": "2001-12-23T03:51:27.4904158+01:00",
-  "ThuStop": "1997-08-21T03:51:27.4904158+02:00",
-  "FriStart": "2007-12-26T03:51:27.4904158+01:00",
-  "FriStop": "1996-11-12T03:51:27.4904158+01:00",
-  "SatStart": "2005-01-08T03:51:27.4904158+01:00",
-  "SatStop": "2022-06-10T03:51:27.4904158+02:00",
-  "SunStart": "2014-09-12T03:51:27.4904158+02:00",
-  "SunStop": "2019-12-25T03:51:27.4904158+01:00",
+  "Deadline": 858,
+  "MonStart": "2006-10-16T16:00:41.2268306+02:00",
+  "MonStop": "2004-07-25T16:00:41.2268306+02:00",
+  "TueStart": "1996-02-12T16:00:41.2268306+01:00",
+  "TueStop": "1998-07-12T16:00:41.2268306+02:00",
+  "WedStart": "1999-03-22T16:00:41.2268306+01:00",
+  "WedStop": "2018-10-16T16:00:41.2268306+02:00",
+  "ThuStart": "2021-05-15T16:00:41.2268306+02:00",
+  "ThuStop": "2009-02-14T16:00:41.2268306+01:00",
+  "FriStart": "2001-03-25T16:00:41.2268306+02:00",
+  "FriStop": "2014-09-02T16:00:41.2268306+02:00",
+  "SatStart": "2004-08-12T16:00:41.2268306+02:00",
+  "SatStop": "2015-12-27T16:00:41.2268306+01:00",
+  "SunStart": "2009-03-28T16:00:41.2268306+01:00",
+  "SunStop": "2013-07-19T16:00:41.2268306+02:00",
   "NonDates": [
-    "odit",
-    "nisi"
+    "earum",
+    "neque"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 876,
-      "AlertLevel": 862,
-      "AlertTimeout": 283,
-      "Action": 47,
-      "DelegateTo": 558,
-      "ScriptId": 127,
-      "EmailTo": "abe_paucek@towne.com",
-      "SmsTo": "ea",
-      "ReplyTemplateIdCustomer": 23,
-      "ReplyTemplateIdUser": 283,
-      "ReplyTemplateIdCatmast": 271,
-      "ReplyTemplateIdEmail": 486,
-      "RtiCustomerSms": 999,
-      "ReplyTemplateIdUserSms": 429,
-      "ReplyTemplateIdCatmastSms": 194,
-      "ReplyTemplateIdSms": 434,
+      "TicketAlertId": 795,
+      "AlertLevel": 85,
+      "AlertTimeout": 180,
+      "Action": 371,
+      "DelegateTo": 373,
+      "ScriptId": 591,
+      "EmailTo": "cary.hills@stoltenberg.info",
+      "SmsTo": "est",
+      "ReplyTemplateIdCustomer": 732,
+      "ReplyTemplateIdUser": 885,
+      "ReplyTemplateIdCatmast": 682,
+      "ReplyTemplateIdEmail": 367,
+      "RtiCustomerSms": 32,
+      "ReplyTemplateIdUserSms": 646,
+      "ReplyTemplateIdCatmastSms": 517,
+      "ReplyTemplateIdSms": 942,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldType": "System.String",
+          "FieldLength": 566
         }
       }
     }
@@ -156,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 43
     }
   }
 }

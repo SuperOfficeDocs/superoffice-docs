@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/GetUserCommands
 uid: v1UserAgent_GetUserCommands
+generated: true
 ---
 
 # POST Agents/User/GetUserCommands
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -85,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rutherford, Bruen and Blick",
-    "DisplayName": "Cassin-Mitchell",
-    "Description": "Face to face directional encryption",
-    "ToolTip": "Rerum nulla reiciendis quis odio.",
+    "Name": "Stanton-Langosh",
+    "DisplayName": "Collier-Schamberger",
+    "Description": "Secured disintermediate open architecture",
+    "ToolTip": "Et quis sit eveniet quia.",
     "Actions": "Implicit",
-    "ActionData": "impedit",
+    "ActionData": "ullam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 928
+        "FieldType": "System.Int32",
+        "FieldLength": 730
       }
     }
   }

@@ -2,17 +2,10 @@
 uid: ChatConversationDynamicSelectionV2
 title: ChatConversationDynamicSelectionV2
 description: ChatConversation selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderSingleCriteriaGroup" />.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "ChatConversationDynamicSelectionV2"
+keywords: ChatConversationDynamicSelectionV2 archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "ChatConversationDynamicSelectionV2"
@@ -128,6 +121,10 @@ ChatConversation selection archive with OR-able selection groups. Each group is 
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personBusiness|listAny|Business| x |
@@ -228,6 +225,10 @@ ChatConversation selection archive with OR-able selection groups. Each group is 
 |person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/associateDbId|associate|ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -328,6 +329,10 @@ ChatConversation selection archive with OR-able selection groups. Each group is 
 |contact/email/emailDescription|string|Description| x |
 |contact/email/emailId|int|ID| x |
 |contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
@@ -428,6 +433,10 @@ ChatConversation selection archive with OR-able selection groups. Each group is 
 |contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
@@ -463,7 +472,7 @@ ChatConversation selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationDynamicSelectionV2?$select=person/rank,person/personAddress/county,person/correspondingAssociate/portraitThumbnail
+GET /api/v1/archive/ChatConversationDynamicSelectionV2?$select=person/hasInterests,person/personUdef/SuperOffice:7,person/correspondingAssociate/ejDisplayName,person/consentSourceStore,contact/contactAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

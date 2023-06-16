@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/SetPersonImage
 uid: v1PersonAgent_SetPersonImage
+generated: true
 ---
 
 # POST Agents/Person/SetPersonImage
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/Person/SetPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 202,
+  "PersonId": 312,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

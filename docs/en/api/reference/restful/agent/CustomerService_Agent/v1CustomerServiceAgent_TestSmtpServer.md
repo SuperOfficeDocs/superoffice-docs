@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/TestSmtpServer
 uid: v1CustomerServiceAgent_TestSmtpServer
+generated: true
 ---
 
 # POST Agents/CustomerService/TestSmtpServer
@@ -81,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "quisquam",
-  "From": "voluptas",
-  "UseStoredPassword": false
+  "SmtpUri": "doloribus",
+  "From": "voluptatem",
+  "UseStoredPassword": true
 }
 ```
 
@@ -95,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "ErrorMessage": "ullam",
+  "ErrorMessage": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldLength": 493
     }
   }
 }

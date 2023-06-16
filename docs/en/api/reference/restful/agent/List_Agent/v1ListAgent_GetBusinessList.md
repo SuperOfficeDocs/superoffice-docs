@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetBusinessList
 uid: v1ListAgent_GetBusinessList
+generated: true
 ---
 
 # POST Agents/List/GetBusinessList
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetBusinessList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Value": "reprehenderit",
-    "Tooltip": "repudiandae",
+    "Id": 383,
+    "Value": "ea",
+    "Tooltip": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldType": "System.String",
+        "FieldLength": 794
       }
     }
   },
   {
-    "Id": 812,
-    "Value": "reprehenderit",
-    "Tooltip": "repudiandae",
+    "Id": 383,
+    "Value": "ea",
+    "Tooltip": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldType": "System.String",
+        "FieldLength": 794
       }
     }
   }

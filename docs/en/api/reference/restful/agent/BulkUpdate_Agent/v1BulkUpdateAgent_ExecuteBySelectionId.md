@@ -1,6 +1,7 @@
 ---
 title: POST Agents/BulkUpdate/ExecuteBySelectionId
 uid: v1BulkUpdateAgent_ExecuteBySelectionId
+generated: true
 ---
 
 # POST Agents/BulkUpdate/ExecuteBySelectionId
@@ -78,29 +79,29 @@ Content-Type: application/json; charset=utf-8
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": true,
+      "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
       "IsActive": true,
-      "Key": "voluptatem",
+      "Key": "non",
       "ValueType": "labore",
       "Mandatory": false,
-      "EncodedDisplayName": "Doyle, Bernhard and Cremin",
-      "EncodedDisplayDescription": "Virtual secondary toolset",
-      "IconHint": "distinctio",
+      "EncodedDisplayName": "Hayes-Schiller",
+      "EncodedDisplayDescription": "Decentralized attitude-oriented matrices",
+      "IconHint": "ut",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "rerum",
-      "EncodedDataCaptionDescription": "Realigned next generation capability",
-      "CurrentOperationType": "id",
+      "EncodedDataCaption": "ab",
+      "EncodedDataCaptionDescription": "Synergistic disintermediate alliance",
+      "CurrentOperationType": "voluptate",
       "Values": [
-        "et",
-        "aliquam"
+        "omnis",
+        "tempora"
       ],
       "DisplayValues": [
-        "est",
-        "deleniti"
+        "explicabo",
+        "corrupti"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Boyle Group",
-  "Context": "et",
-  "SelectionId": 218,
+  "TableName": "Johnston Group",
+  "Context": "quidem",
+  "SelectionId": 848,
   "IsShadow": false
 }
 ```
@@ -121,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-745
+229
 ```

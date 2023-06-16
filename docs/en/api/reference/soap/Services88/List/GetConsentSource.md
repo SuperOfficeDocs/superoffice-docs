@@ -1,6 +1,6 @@
 ---
 title: Services88.ListAgent.GetConsentSource SOAP
-generated: 1
+generated: true
 uid: Services88-List-GetConsentSource
 ---
 

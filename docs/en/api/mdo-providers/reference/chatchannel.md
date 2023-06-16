@@ -1,17 +1,11 @@
 ---
 uid: chatchannel
 title: chatchannel
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "chatchannel"
+keywords: mdoprovider mdo provider chatchannel
+description: 
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "chatchannel" MDO List

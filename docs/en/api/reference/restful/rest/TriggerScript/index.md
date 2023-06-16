@@ -1,5 +1,6 @@
 ---
 title: TriggerScript
+generated: true
 ---
 
 ```http

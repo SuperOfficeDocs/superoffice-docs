@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetUnsanitizedPreviewDocumentStream
 uid: v1DocumentAgent_GetUnsanitizedPreviewDocumentStream
+generated: true
 ---
 
 # POST Agents/Document/GetUnsanitizedPreviewDocumentStream
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 519
+  "DocumentId": 150
 }
 ```
 
@@ -92,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Donnelly Inc and Sons",
-  "Type": "ut",
-  "Size": 705,
+  "Name": "Jaskolski-Larkin",
+  "Type": "velit",
+  "Size": 578,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 445
     }
   }
 }

@@ -2,17 +2,10 @@
 uid: emailpersonaddress
 title: emailpersonaddress
 description: Person subchannel for special purpose archive provider used to search for email addresses.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "emailpersonaddress"
+keywords: emailpersonaddress archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "emailpersonaddress"
@@ -134,6 +127,10 @@ the email_id.
 |personContact/orgnr|string|VAT No.| x |
 |personContact/stop|bool|Stop| x |
 |personContact/contactNoMail|bool|No mailings (company| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/updatedBy|associate|Updated by: The user who last updated the data| x |
 |personContact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |personContact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -188,7 +185,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailpersonaddress?$select=portraitThumbnail,personAddress/wgs84latitude,personContact/restrictionAddress/state
+GET /api/v1/archive/emailpersonaddress?$select=personAddress/county,supportAssociate,personAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

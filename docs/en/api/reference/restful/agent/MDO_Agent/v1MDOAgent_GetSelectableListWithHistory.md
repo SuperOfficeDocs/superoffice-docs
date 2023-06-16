@@ -1,6 +1,7 @@
 ---
 title: POST Agents/MDO/GetSelectableListWithHistory
 uid: v1MDOAgent_GetSelectableListWithHistory
+generated: true
 ---
 
 # POST Agents/MDO/GetSelectableListWithHistory
@@ -90,18 +91,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bins, Collins and Schneider",
-  "ForceFlatList": true,
-  "AdditionalInfo": "optio",
+  "Name": "Toy-Streich",
+  "ForceFlatList": false,
+  "AdditionalInfo": "animi",
   "HistoryItems": [
-    3,
-    214
+    340,
+    394
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -113,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 989,
-    "Name": "Yost Inc and Sons",
-    "ToolTip": "Eum doloribus deserunt ad eius.",
-    "Deleted": false,
-    "Rank": 779,
-    "Type": "ea",
-    "ColorBlock": 617,
-    "IconHint": "numquam",
-    "Selected": true,
-    "LastChanged": "2012-07-06T03:51:27.5216578+02:00",
+    "Id": 734,
+    "Name": "Ankunding Group",
+    "ToolTip": "Dolor ipsam a voluptas eveniet non a et.",
+    "Deleted": true,
+    "Rank": 834,
+    "Type": "blanditiis",
+    "ColorBlock": 406,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2015-12-01T16:00:41.2736903+01:00",
     "ChildItems": [
       {
-        "Id": 979,
-        "Name": "Welch-Lebsack",
-        "ToolTip": "Sunt rerum.",
+        "Id": 609,
+        "Name": "Greenfelder-Lehner",
+        "ToolTip": "Id illum.",
         "Deleted": false,
-        "Rank": 104,
-        "Type": "occaecati",
-        "ColorBlock": 486,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2020-10-08T03:51:27.5216578+02:00",
+        "Rank": 168,
+        "Type": "praesentium",
+        "ColorBlock": 128,
+        "IconHint": "optio",
+        "Selected": true,
+        "LastChanged": "2017-02-12T16:00:41.2736903+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "quia",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Chet Brakus II",
+        "FullName": "Julius Eichmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 984
+            "FieldLength": 851
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quis",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Louie Weissnat",
+    "FullName": "Dell Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 849
+        "FieldLength": 64
       }
     }
   }

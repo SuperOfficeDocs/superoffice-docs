@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Ticket/UndeleteByIds
 uid: v1TicketAgent_UndeleteByIds
+generated: true
 ---
 
 # POST Agents/Ticket/UndeleteByIds
@@ -70,8 +71,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    781,
-    886
+    946,
+    434
   ]
 }
 ```

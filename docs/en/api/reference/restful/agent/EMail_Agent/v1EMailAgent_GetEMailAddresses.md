@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetEMailAddresses
 uid: v1EMailAgent_GetEMailAddresses
+generated: true
 ---
 
 # POST Agents/EMail/GetEMailAddresses
@@ -82,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    836,
-    414
+    509,
+    940
   ]
 }
 ```
@@ -101,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 98,
-    "ContactName": "Kilback, Homenick and Gutkowski",
-    "PersonId": 830,
-    "PersonName": "Douglas-Kunze",
-    "AssociateId": 559,
-    "Address": "non",
-    "EmailId": 803,
+    "ContactId": 748,
+    "ContactName": "Abbott Inc and Sons",
+    "PersonId": 204,
+    "PersonName": "Schuppe LLC",
+    "AssociateId": 14,
+    "Address": "ex",
+    "EmailId": 261,
     "DuplicatePersonIds": [
-      1000,
-      275
+      536,
+      449
     ],
-    "Name": "Pfeffer, Rutherford and Emard",
+    "Name": "Murphy-Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 472
+        "FieldLength": 386
       }
     }
   }

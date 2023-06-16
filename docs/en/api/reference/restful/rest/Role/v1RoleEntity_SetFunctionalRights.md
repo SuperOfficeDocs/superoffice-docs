@@ -1,6 +1,7 @@
 ---
 title: PUT Role/{id}/FunctionRight
 uid: v1RoleEntity_SetFunctionalRights
+generated: true
 ---
 
 # PUT Role/{id}/FunctionRight

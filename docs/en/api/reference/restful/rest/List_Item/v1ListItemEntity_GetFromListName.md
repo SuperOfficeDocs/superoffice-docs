@@ -1,6 +1,7 @@
 ---
 title: GET List/{udListDefinitionName}/Items/{id}
 uid: v1ListItemEntity_GetFromListName
+generated: true
 ---
 
 # GET List/{udListDefinitionName}/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 310,
-  "Name": "Daugherty LLC",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "UdListDefinitionId": 999,
-  "Rank": 41,
+  "Id": 510,
+  "Name": "Hudson, Klocko and Hilll",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "UdListDefinitionId": 246,
+  "Rank": 63,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 601
     }
   }
 }

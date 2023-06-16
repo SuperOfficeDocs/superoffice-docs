@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductFamily/Items/{id}/Headings
 uid: v1ProductFamilyList_PutProductFamilyHeadingsForListItem
+generated: true
 ---
 
 # PUT List/ProductFamily/Items/{id}/Headings
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 570,
-    "Name": "Emard-Hilll",
-    "ToolTip": "Assumenda adipisci.",
+    "Id": 40,
+    "Name": "Effertz-Marvin",
+    "ToolTip": "Autem laboriosam recusandae odio.",
     "Deleted": false,
-    "Rank": 695,
-    "Type": "ut",
-    "ColorBlock": 805,
-    "IconHint": "et",
+    "Rank": 328,
+    "Type": "sunt",
+    "ColorBlock": 89,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2011-09-07T03:51:34.8176965+02:00",
+    "LastChanged": "2009-09-30T16:00:49.1645684+02:00",
     "ChildItems": [
       {
-        "Id": 950,
-        "Name": "Kautzer Inc and Sons",
-        "ToolTip": "Expedita labore pariatur commodi.",
-        "Deleted": true,
-        "Rank": 972,
-        "Type": "dolorem",
-        "ColorBlock": 766,
-        "IconHint": "minus",
+        "Id": 476,
+        "Name": "Jenkins Inc and Sons",
+        "ToolTip": "Alias pariatur eum numquam ullam.",
+        "Deleted": false,
+        "Rank": 970,
+        "Type": "delectus",
+        "ColorBlock": 737,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2000-11-04T03:51:34.8176965+01:00",
+        "LastChanged": "2009-11-22T16:00:49.1645684+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Sterling Rosenbaum"
+        "ExtraInfo": "velit",
+        "StyleHint": "temporibus",
+        "Hidden": true,
+        "FullName": "Mr. Arvid Bartoletti"
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "libero",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ab",
     "Hidden": true,
-    "FullName": "Ransom Effertz"
+    "FullName": "Nannie Feest"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 554,
-    "Name": "Brakus-Wunsch",
-    "ToolTip": "Vel veniam earum qui.",
+    "Id": 850,
+    "Name": "Green, Douglas and Barrows",
+    "ToolTip": "Sit autem aut.",
     "Deleted": false,
-    "Rank": 859,
-    "Type": "expedita",
-    "ColorBlock": 852,
-    "IconHint": "id",
+    "Rank": 920,
+    "Type": "eligendi",
+    "ColorBlock": 638,
+    "IconHint": "delectus",
     "Selected": false,
-    "LastChanged": "2021-12-08T03:51:34.8176965+01:00",
+    "LastChanged": "2018-09-22T16:00:49.1645684+02:00",
     "ChildItems": [
       {
-        "Id": 787,
-        "Name": "Gutmann Group",
-        "ToolTip": "Molestiae autem placeat.",
-        "Deleted": true,
-        "Rank": 458,
-        "Type": "est",
-        "ColorBlock": 331,
-        "IconHint": "voluptas",
+        "Id": 430,
+        "Name": "West-Hilpert",
+        "ToolTip": "Ut odio ducimus eveniet.",
+        "Deleted": false,
+        "Rank": 853,
+        "Type": "et",
+        "ColorBlock": 892,
+        "IconHint": "sapiente",
         "Selected": true,
-        "LastChanged": "2012-03-25T03:51:34.8176965+02:00",
+        "LastChanged": "2006-11-22T16:00:49.1645684+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Kayla Bergnaum",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "exercitationem",
+        "Hidden": false,
+        "FullName": "Ms. Josephine Nico Jones DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 89
+            "FieldType": "System.Int32",
+            "FieldLength": 718
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "sed",
+    "ExtraInfo": "velit",
+    "StyleHint": "animi",
     "Hidden": false,
-    "FullName": "Anthony Bernhard",
+    "FullName": "Prof. Keara Kariane Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldType": "System.String",
+        "FieldLength": 274
       }
     }
   }

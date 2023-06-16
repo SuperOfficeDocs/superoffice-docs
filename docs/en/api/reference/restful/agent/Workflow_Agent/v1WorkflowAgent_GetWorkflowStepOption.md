@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/GetWorkflowStepOption
 uid: v1WorkflowAgent_GetWorkflowStepOption
+generated: true
 ---
 
 # POST Agents/Workflow/GetWorkflowStepOption
@@ -25,7 +26,7 @@ Gets a WorkflowStepOption object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowStepOption?workflowStepOptionId=426
+POST /api/v1/Agents/Workflow/GetWorkflowStepOption?workflowStepOptionId=755
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption?$select=name,department,category/id
 ```
 
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 205,
-  "WorkflowStepId": 403,
-  "WorkflowId": 239,
-  "Key": "dolorem",
-  "Name": "Johnston Group",
-  "Rank": 65,
+  "WorkflowStepOptionId": 379,
+  "WorkflowStepId": 115,
+  "WorkflowId": 475,
+  "Key": "earum",
+  "Name": "Schuppe-Doyle",
+  "Rank": 27,
   "Steps": [
     {
-      "WorkflowStepId": 770,
-      "WorkflowId": 198,
+      "WorkflowStepId": 790,
+      "WorkflowId": 604,
       "StepType": "AddToList",
-      "Rank": 235
+      "Rank": 109
     },
     {
-      "WorkflowStepId": 770,
-      "WorkflowId": 198,
+      "WorkflowStepId": 790,
+      "WorkflowId": 604,
       "StepType": "AddToList",
-      "Rank": 235
+      "Rank": 109
     }
   ],
   "TableRight": null,
@@ -107,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldLength": 748
     }
   }
 }

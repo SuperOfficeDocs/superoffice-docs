@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetProjectDocumentsByTemplateType
 uid: v1DocumentAgent_GetProjectDocumentsByTemplateType
+generated: true
 ---
 
 # POST Agents/Document/GetProjectDocumentsByTemplateType
@@ -97,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 548,
-  "StartTime": "2017-04-20T03:51:27.0217725+02:00",
-  "EndTime": "2020-04-22T03:51:27.0217725+02:00",
-  "Count": 799,
-  "DocumentTemplateId": 727
+  "ProjectId": 91,
+  "StartTime": "2007-07-07T16:00:40.5706201+02:00",
+  "EndTime": "2003-05-29T16:00:40.5706201+02:00",
+  "Count": 927,
+  "DocumentTemplateId": 292
 }
 ```
 
@@ -117,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 863,
-    "Attention": "aliquam",
-    "Header": "vero",
-    "Name": "Hintz-Schulist",
-    "OurRef": "autem",
-    "YourRef": "dolorem",
-    "Description": "Integrated high-level installation",
-    "DocumentTemplate": "culpa",
-    "IsPublished": true,
-    "PersonId": 556,
-    "PersonFullName": "Elian Watsica",
-    "AssociateFullName": "Lazaro Smitham Jr.",
-    "ContactId": 324,
-    "ContactName": "Oberbrunner, Schowalter and Boyer",
-    "ProjectId": 864,
-    "ProjectName": "Howell LLC",
-    "AssociateId": 629,
-    "Snum": 813,
-    "SaleId": 443,
-    "SaleName": "Leuschke-Hyatt",
+    "DocumentId": 424,
+    "Attention": "iure",
+    "Header": "molestiae",
+    "Name": "Kozey Group",
+    "OurRef": "perferendis",
+    "YourRef": "enim",
+    "Description": "Customizable analyzing solution",
+    "DocumentTemplate": "alias",
+    "IsPublished": false,
+    "PersonId": 935,
+    "PersonFullName": "Jordy Berge PhD",
+    "AssociateFullName": "Justice Jaskolski",
+    "ContactId": 3,
+    "ContactName": "Strosin-Lehner",
+    "ProjectId": 870,
+    "ProjectName": "Zulauf-Cormier",
+    "AssociateId": 565,
+    "Snum": 417,
+    "SaleId": 605,
+    "SaleName": "Jast LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 810
+        "FieldLength": 385
       }
     }
   }

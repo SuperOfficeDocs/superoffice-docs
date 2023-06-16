@@ -1,6 +1,7 @@
 ---
 title: PUT List/DocumentTemplate/Items/{id}
 uid: v1DocumentTemplateList_PutDocumentTemplateEntity
+generated: true
 ---
 
 # PUT List/DocumentTemplate/Items/{id}
@@ -117,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 570,
-  "Name": "Schowalter-Kautzer",
-  "Tooltip": "iste",
-  "SaveInDb": 232,
-  "Filename": "omnis",
-  "DefaultOref": "similique",
+  "DocumentTemplateId": 995,
+  "Name": "Wisozk, Breitenberg and Murazik",
+  "Tooltip": "optio",
+  "SaveInDb": 79,
+  "Filename": "quam",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 447,
-  "IntentId": 227,
+  "AutoeventId": 948,
+  "IntentId": 777,
   "IsDefaultPublished": true,
-  "Rank": 456,
-  "LoadTemplateFromPlugin": 379,
-  "MimeType": "blanditiis",
+  "Rank": 455,
+  "LoadTemplateFromPlugin": 996,
+  "MimeType": "quas",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 571,
+  "DocumentTypeKey": 63,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "leland_heathcote@dickens.name",
+  "EmailSubject": "matt@kiehn.info",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "elijah_hoppe@olsonromaguera.co.uk",
+  "SenderEmailAddress": "alvena@metzjewess.com",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -156,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 560,
-  "Name": "Mante Inc and Sons",
-  "Tooltip": "nam",
-  "SaveInDb": 359,
-  "Filename": "voluptas",
-  "DefaultOref": "nihil",
+  "DocumentTemplateId": 545,
+  "Name": "Pagac Group",
+  "Tooltip": "sit",
+  "SaveInDb": 405,
+  "Filename": "sit",
+  "DefaultOref": "in",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 762,
-  "IntentId": 880,
-  "IsDefaultPublished": true,
-  "Rank": 959,
-  "LoadTemplateFromPlugin": 794,
-  "MimeType": "perferendis",
+  "AutoeventId": 436,
+  "IntentId": 242,
+  "IsDefaultPublished": false,
+  "Rank": 310,
+  "LoadTemplateFromPlugin": 830,
+  "MimeType": "debitis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 934,
+  "DocumentTypeKey": 250,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "geovany@schinner.info",
+  "EmailSubject": "deron@corwinparker.uk",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "abagail_dickinson@streich.name",
+  "SenderEmailAddress": "forrest@jakubowskianderson.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldType": "System.String",
+      "FieldLength": 303
     }
   }
 }

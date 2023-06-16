@@ -1,6 +1,6 @@
 ---
 title: Services88.UserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds SOAP
-generated: 1
+generated: true
 uid: Services88-UserDefinedFieldInfo-GetUserDefinedFieldFromIds
 ---
 

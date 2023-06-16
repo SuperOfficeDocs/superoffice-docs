@@ -1,6 +1,7 @@
 ---
 title: GET List/TicketPriority/Items
 uid: v1TicketPriorityList_GetAllTicketPriorityEntity
+generated: true
 ---
 
 # GET List/TicketPriority/Items
@@ -26,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
 
 
@@ -93,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -104,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 986,
-    "Name": "Feil, Wuckert and Lebsack",
+    "TicketPriorityId": 943,
+    "Name": "Huels Inc and Sons",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 299,
+    "SortOrder": 48,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 349,
-    "MonStart": "2018-03-01T03:51:35.0051461+01:00",
-    "MonStop": "1998-05-29T03:51:35.0051461+02:00",
-    "TueStart": "2001-04-10T03:51:35.0051461+02:00",
-    "TueStop": "2004-04-14T03:51:35.0051461+02:00",
-    "WedStart": "2004-12-20T03:51:35.0051461+01:00",
-    "WedStop": "2008-10-21T03:51:35.0051461+02:00",
-    "ThuStart": "1998-06-02T03:51:35.0051461+02:00",
-    "ThuStop": "2010-11-07T03:51:35.0051461+01:00",
-    "FriStart": "2012-02-05T03:51:35.0051461+01:00",
-    "FriStop": "2022-07-06T03:51:35.0051461+02:00",
-    "SatStart": "2013-06-12T03:51:35.0051461+02:00",
-    "SatStop": "2005-02-19T03:51:35.0051461+01:00",
-    "SunStart": "2010-10-28T03:51:35.0051461+02:00",
-    "SunStop": "2000-04-23T03:51:35.0051461+02:00",
+    "Deadline": 814,
+    "MonStart": "2019-08-06T16:00:49.3834069+02:00",
+    "MonStop": "1998-01-22T16:00:49.3834069+01:00",
+    "TueStart": "2019-02-22T16:00:49.3834069+01:00",
+    "TueStop": "2001-08-14T16:00:49.3834069+02:00",
+    "WedStart": "2002-09-24T16:00:49.3834069+02:00",
+    "WedStop": "2023-02-12T16:00:49.3834069+01:00",
+    "ThuStart": "2006-05-05T16:00:49.3834069+02:00",
+    "ThuStop": "2010-04-01T16:00:49.3834069+02:00",
+    "FriStart": "2000-01-11T16:00:49.3834069+01:00",
+    "FriStop": "2007-10-27T16:00:49.3834069+02:00",
+    "SatStart": "2011-05-29T16:00:49.3834069+02:00",
+    "SatStop": "2015-11-27T16:00:49.3834069+01:00",
+    "SunStart": "2011-12-15T16:00:49.3834069+01:00",
+    "SunStop": "1996-12-08T16:00:49.3834069+01:00",
     "NonDates": [
-      "dolore",
-      "praesentium"
+      "harum",
+      "dolores"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 388,
-        "AlertLevel": 132,
-        "AlertTimeout": 847,
-        "Action": 334,
-        "DelegateTo": 798,
-        "ScriptId": 400,
-        "EmailTo": "scottie@boyle.name",
-        "SmsTo": "voluptatibus",
-        "ReplyTemplateIdCustomer": 572,
-        "ReplyTemplateIdUser": 892,
-        "ReplyTemplateIdCatmast": 182,
-        "ReplyTemplateIdEmail": 262,
-        "RtiCustomerSms": 822,
-        "ReplyTemplateIdUserSms": 267,
-        "ReplyTemplateIdCatmastSms": 245,
-        "ReplyTemplateIdSms": 642,
+        "TicketAlertId": 366,
+        "AlertLevel": 447,
+        "AlertTimeout": 935,
+        "Action": 552,
+        "DelegateTo": 935,
+        "ScriptId": 141,
+        "EmailTo": "ezekiel.johnson@howellstehr.ca",
+        "SmsTo": "recusandae",
+        "ReplyTemplateIdCustomer": 676,
+        "ReplyTemplateIdUser": 837,
+        "ReplyTemplateIdCatmast": 26,
+        "ReplyTemplateIdEmail": 135,
+        "RtiCustomerSms": 936,
+        "ReplyTemplateIdUserSms": 624,
+        "ReplyTemplateIdCatmastSms": 444,
+        "ReplyTemplateIdSms": 654,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 794
+            "FieldLength": 211
           }
         }
       }
@@ -166,8 +167,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldType": "System.String",
+        "FieldLength": 793
       }
     }
   }

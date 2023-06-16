@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 uid: v1CRMScriptAgent_SaveCRMScriptByUniqueIdentifier
+generated: true
 ---
 
 # POST Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quia",
+  "UniqueIdentifier": "dolores",
   "Crmscript": null
 }
 ```
@@ -100,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "iusto",
-  "Name": "Walker Inc and Sons",
-  "Description": "Adaptive local standardization",
-  "IncludeId": "est",
-  "Source": "commodi",
-  "Registered": "2022-08-29T03:51:26.9436626+02:00",
-  "RegisteredBy": "laudantium",
-  "Updated": "2008-10-31T03:51:26.9436626+01:00",
-  "UpdatedBy": "inventore",
-  "Path": "aperiam",
+  "UniqueIdentifier": "delectus",
+  "Name": "Little LLC",
+  "Description": "Synchronised composite pricing structure",
+  "IncludeId": "ratione",
+  "Source": "quis",
+  "Registered": "2004-01-02T16:00:40.4925031+01:00",
+  "RegisteredBy": "dolorem",
+  "Updated": "2004-12-01T16:00:40.4925031+01:00",
+  "UpdatedBy": "earum",
+  "Path": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldType": "System.String",
+      "FieldLength": 940
     }
   }
 }

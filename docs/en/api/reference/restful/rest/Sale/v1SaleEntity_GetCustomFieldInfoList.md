@@ -1,6 +1,7 @@
 ---
 title: GET Sale/CustomField
 uid: v1SaleEntity_GetCustomFieldInfoList
+generated: true
 ---
 
 # GET Sale/CustomField
@@ -66,7 +67,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Blanda Group",
-    "DisplayName": "Schoen, Considine and Kuhn",
-    "Description": "Configurable human-resource knowledge user",
-    "ShortLabel": "et",
-    "HideLabel": true,
+    "FieldName": "Kozey, Zboncak and Wunsch",
+    "DisplayName": "Feil, Dare and O'Conner",
+    "Description": "Devolved responsive artificial intelligence",
+    "ShortLabel": "quisquam",
+    "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 968,
-    "TemplateVariableName": "Rath LLC"
+    "Rank": 77,
+    "TemplateVariableName": "Schowalter Group"
   }
 ]
 ```

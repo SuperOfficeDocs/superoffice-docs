@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Import/SaveImport
 uid: v1ImportAgent_SaveImport
+generated: true
 ---
 
 # POST Agents/Import/SaveImport
@@ -71,39 +72,39 @@ OK
 POST /api/v1/Agents/Import/SaveImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "sint",
-        "aliquam"
+        "eum",
+        "rerum"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "quis"
+      "ExternalKey": "est"
     },
     {
       "Values": [
-        "sint",
-        "aliquam"
+        "eum",
+        "rerum"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "quis"
+      "ExternalKey": "est"
     }
   ],
   "ColumnDefinition": [
-    "autem",
-    "nostrum"
+    "totam",
+    "non"
   ],
   "CreateSelection": false,
-  "Culture": "aliquid",
-  "Context": "magnam"
+  "Culture": "error",
+  "Context": "numquam"
 }
 ```
 
@@ -114,7 +115,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  428,
-  459
+  678,
+  818
 ]
 ```

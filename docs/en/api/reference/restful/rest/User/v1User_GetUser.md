@@ -1,6 +1,7 @@
 ---
 title: GET User/{id}
 uid: v1User_GetUser
+generated: true
 ---
 
 # GET User/{id}
@@ -35,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=False
+GET /api/v1/User/{id}?fk=True
 ```
 
 
@@ -101,7 +102,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -111,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 121,
-  "Name": "Weissnat LLC",
-  "Rank": 2,
-  "Tooltip": "in",
+  "AssociateId": 343,
+  "Name": "Borer, Hermann and Spinka",
+  "Rank": 249,
+  "Tooltip": "tempore",
   "LicenseOwners": [
     {
-      "Name": "Jones, Collins and Runte",
-      "Description": "Switchable 5th generation matrices",
+      "Name": "Hickle, O'Kon and Schamberger",
+      "Description": "Organized background extranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 663
+          "FieldLength": 870
         }
       }
     },
     {
-      "Name": "Jones, Collins and Runte",
-      "Description": "Switchable 5th generation matrices",
+      "Name": "Hickle, O'Kon and Schamberger",
+      "Description": "Organized background extranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -152,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 663
+          "FieldLength": 870
         }
       }
     }
@@ -161,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "asperiores",
-      "Tooltip": "dolores",
-      "Id": 725,
-      "Rank": 328,
+      "Value": "tenetur",
+      "Tooltip": "est",
+      "Id": 815,
+      "Rank": 520,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldLength": 264
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2001-07-03T03:51:34.286557+02:00",
-  "Lastlogout": "2005-08-03T03:51:34.286557+02:00",
-  "EjUserId": 317,
-  "RequestSignature": "tenetur",
+  "Deleted": true,
+  "Lastlogin": "2003-10-01T16:00:48.7583614+02:00",
+  "Lastlogout": "2021-10-15T16:00:48.7583614+02:00",
+  "EjUserId": 857,
+  "RequestSignature": "incidunt",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "voluptatem",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 64
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "et",
-      "DisplayValue": "voluptatem",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 64
-        }
-      }
-    }
-  ],
-  "UserName": "Witting-O'Kon",
-  "TicketCategories": [
-    {
-      "Id": 560,
-      "Name": "Barrows, Koepp and Spinka",
-      "ToolTip": "Rem magni omnis delectus.",
-      "Deleted": false,
-      "Rank": 536,
-      "Type": "atque",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "omnis",
-      "ColorBlock": 787,
-      "ExtraInfo": "sed",
-      "StyleHint": "laborum",
-      "FullName": "Anderson Adams",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 247
-        }
-      }
-    }
-  ],
-  "NickName": "Kris Inc and Sons",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "voluptas"
-  },
-  "CustomFields": {
-    "CustomFields1": "architecto",
-    "CustomFields2": "recusandae"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Mraz, Zboncak and Mraz",
-      "DisplayName": "Vandervort-Rutherford",
-      "Description": "Versatile multimedia projection",
-      "ToolTip": "Officia eveniet.",
-      "Actions": "Implicit",
-      "ActionData": "expedita",
+      "Value": "voluptatem",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 901
+          "FieldLength": 102
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "voluptatem",
+      "DisplayValue": "vel",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 102
+        }
+      }
+    }
+  ],
+  "UserName": "Vandervort, Krajcik and Lebsack",
+  "TicketCategories": [
+    {
+      "Id": 634,
+      "Name": "Stroman LLC",
+      "ToolTip": "Repudiandae minus est sed enim.",
+      "Deleted": false,
+      "Rank": 509,
+      "Type": "voluptates",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "voluptas",
+      "ColorBlock": 709,
+      "ExtraInfo": "excepturi",
+      "StyleHint": "recusandae",
+      "FullName": "Ervin Schmeler",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 433
+        }
+      }
+    }
+  ],
+  "NickName": "Purdy-Kling",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "laborum"
+  },
+  "CustomFields": {
+    "CustomFields1": "dolorum",
+    "CustomFields2": "earum"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "West-Larson",
+      "DisplayName": "Mraz-Reichel",
+      "Description": "Vision-oriented motivating product",
+      "ToolTip": "Perspiciatis fugit eligendi voluptas similique.",
+      "Actions": "Implicit",
+      "ActionData": "non",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 752
         }
       }
     }
@@ -273,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldType": "System.Int32",
+      "FieldLength": 155
     }
   },
   "_Links": {

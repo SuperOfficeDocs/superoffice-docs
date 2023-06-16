@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteDenyReason/Items/{id}/Headings
 uid: v1QuoteDenyReasonList_GetQuoteDenyReasonHeadingsForListItem
+generated: true
 ---
 
 # GET List/QuoteDenyReason/Items/{id}/Headings
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Powlowski, Wiegand and Lubowitz",
-    "ToolTip": "Natus rerum eum sed magnam quibusdam.",
+    "Id": 694,
+    "Name": "Jacobs-Marquardt",
+    "ToolTip": "Sint tenetur similique vel.",
     "Deleted": true,
-    "Rank": 147,
-    "Type": "et",
-    "ColorBlock": 381,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2012-05-19T03:51:34.8801783+02:00",
+    "Rank": 150,
+    "Type": "laboriosam",
+    "ColorBlock": 792,
+    "IconHint": "voluptates",
+    "Selected": true,
+    "LastChanged": "2011-05-17T16:00:49.2426861+02:00",
     "ChildItems": [
       {
-        "Id": 890,
-        "Name": "Carter, Becker and Ledner",
-        "ToolTip": "Incidunt voluptatem quis.",
-        "Deleted": false,
-        "Rank": 938,
-        "Type": "qui",
-        "ColorBlock": 131,
-        "IconHint": "ea",
+        "Id": 710,
+        "Name": "Wolf, Hermiston and Bailey",
+        "ToolTip": "Doloremque corrupti quisquam.",
+        "Deleted": true,
+        "Rank": 955,
+        "Type": "quibusdam",
+        "ColorBlock": 965,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2019-07-19T03:51:34.8801783+02:00",
+        "LastChanged": "2003-01-04T16:00:49.2426861+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "sint",
+        "ExtraInfo": "eum",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Miss Domingo Nils Ledner II",
+        "FullName": "Maryse Stehr MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 445
+            "FieldLength": 13
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "quos",
-    "Hidden": false,
-    "FullName": "Miss Makenna Grant",
+    "ExtraInfo": "aut",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Mrs. Doug Carlie Swift IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 994
+        "FieldType": "System.Int32",
+        "FieldLength": 741
       }
     }
   }

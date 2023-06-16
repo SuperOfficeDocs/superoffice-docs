@@ -1,6 +1,7 @@
 ---
 title: PUT License/{moduleOwner}/{id}
 uid: v1License_AssignThirdPartyLicenses
+generated: true
 ---
 
 # PUT License/{moduleOwner}/{id}
@@ -88,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 377,
-    "Tooltip": "perferendis",
-    "CanAssign": false,
-    "Free": 379,
-    "InUse": 504,
-    "IsHidden": false,
+    "Unrestricted": false,
+    "Total": 311,
+    "Tooltip": "possimus",
+    "CanAssign": true,
+    "Free": 461,
+    "InUse": 784,
+    "IsHidden": true,
     "Assigned": true,
-    "ModuleLicenseId": 469,
-    "Name": "Raynor, Dach and Okuneva",
-    "Description": "Ergonomic holistic task-force",
-    "PrerequisiteModuleName": "Keeling Inc and Sons",
-    "SortOrder": 390,
-    "ExtraFlags": 309,
+    "ModuleLicenseId": 953,
+    "Name": "Collins LLC",
+    "Description": "Secured full-range extranet",
+    "PrerequisiteModuleName": "Renner-Stoltenberg",
+    "SortOrder": 620,
+    "ExtraFlags": 350,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 270
+        "FieldType": "System.Int32",
+        "FieldLength": 212
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SendQuoteVersion
 uid: v1QuoteAgent_SendQuoteVersion
+generated: true
 ---
 
 # POST Agents/Quote/SendQuoteVersion
@@ -84,15 +85,15 @@ OK
 POST /api/v1/Agents/Quote/SendQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 670,
-  "ExpiryDate": "2005-02-19T03:51:27.9746798+01:00",
-  "FollowupDate": "2010-10-01T03:51:27.9746798+02:00",
-  "FollowupText": "eum",
-  "Culture": "sequi"
+  "QuoteVersionId": 287,
+  "ExpiryDate": "2009-02-05T16:00:41.6019523+01:00",
+  "FollowupDate": "1996-01-28T16:00:41.6019523+01:00",
+  "FollowupText": "quam",
+  "Culture": "dicta"
 }
 ```
 
@@ -103,10 +104,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "enim",
-  "TechExplanation": "voluptatum",
-  "ErrorCode": "aut",
+  "IsOk": false,
+  "UserExplanation": "rerum",
+  "TechExplanation": "qui",
+  "ErrorCode": "earum",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -115,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 465
     }
   }
 }

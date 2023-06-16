@@ -1,6 +1,7 @@
 ---
 title: GET Person/UdefLayout/Published/{progidOrLabel}
 uid: v1PersonEntity_GetPublishedUdefFieldInfo
+generated: true
 ---
 
 # GET Person/UdefLayout/Published/{progidOrLabel}
@@ -92,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 712,
-  "ColumnId": 442,
-  "FieldDefault": "repellat",
-  "FieldHeight": 260,
-  "FieldLabel": "qui",
-  "FieldLeft": 81,
-  "FieldTop": 740,
+  "UDefFieldId": 820,
+  "ColumnId": 729,
+  "FieldDefault": "quia",
+  "FieldHeight": 423,
+  "FieldLabel": "perferendis",
+  "FieldLeft": 86,
+  "FieldTop": 175,
   "FieldType": "Checkbox",
-  "FieldWidth": 708,
-  "FormatMask": "itaque",
+  "FieldWidth": 255,
+  "FormatMask": "eos",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 178,
-  "LabelLeft": 376,
-  "LabelTop": 735,
-  "LabelWidth": 64,
-  "LastVersionId": 570,
-  "ListTableId": 270,
+  "IsIndexed": true,
+  "LabelHeight": 558,
+  "LabelLeft": 37,
+  "LabelTop": 231,
+  "LabelWidth": 740,
+  "LastVersionId": 948,
+  "ListTableId": 515,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 864,
-  "ProgId": "sit",
+  "Page1LineNo": 26,
+  "ProgId": "nobis",
   "IsReadOnly": true,
-  "ShortLabel": "consequuntur",
+  "ShortLabel": "illo",
   "TabOrder": 142,
-  "TextLength": 116,
-  "Tooltip": "veritatis",
-  "UdefIdentity": 277,
-  "UDListDefinitionId": 333,
+  "TextLength": 360,
+  "Tooltip": "reprehenderit",
+  "UdefIdentity": 524,
+  "UDListDefinitionId": 330,
   "Justification": "Center",
-  "Version": 578,
-  "TemplateVariableName": "Considine, Skiles and Rogahn",
-  "HasBeenPublished": true,
-  "MdoListName": "Padberg LLC",
+  "Version": 48,
+  "TemplateVariableName": "Osinski, Hane and Powlowski",
+  "HasBeenPublished": false,
+  "MdoListName": "Hansen LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldType": "System.String",
+      "FieldLength": 544
     }
   }
 }

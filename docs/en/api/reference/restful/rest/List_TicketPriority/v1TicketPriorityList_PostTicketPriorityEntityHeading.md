@@ -1,6 +1,7 @@
 ---
 title: POST List/TicketPriority/Headings
 uid: v1TicketPriorityList_PostTicketPriorityEntityHeading
+generated: true
 ---
 
 # POST List/TicketPriority/Headings
@@ -74,16 +75,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 968,
-  "Name": "Price-Haag",
-  "Tooltip": "recusandae",
+  "HeadingId": 437,
+  "Name": "Pollich Inc and Sons",
+  "Tooltip": "ratione",
   "Deleted": false,
-  "Rank": 888,
-  "UdListDefinitionId": 160
+  "Rank": 658,
+  "UdListDefinitionId": 400
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 669,
-  "Name": "Nitzsche, Durgan and Medhurst",
-  "Tooltip": "eveniet",
-  "Deleted": false,
-  "Rank": 267,
-  "UdListDefinitionId": 672,
+  "HeadingId": 587,
+  "Name": "Runolfsson-Ruecker",
+  "Tooltip": "id",
+  "Deleted": true,
+  "Rank": 614,
+  "UdListDefinitionId": 823,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldLength": 132
     }
   }
 }

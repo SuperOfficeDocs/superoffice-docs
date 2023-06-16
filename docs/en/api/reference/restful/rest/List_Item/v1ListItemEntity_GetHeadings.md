@@ -1,6 +1,7 @@
 ---
 title: GET List/{id}/Items/{id}/Headings
 uid: v1ListItemEntity_GetHeadings
+generated: true
 ---
 
 # GET List/{id}/Items/{id}/Headings
@@ -94,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 86,
-    "Name": "Runolfsdottir, Boyle and Rau",
-    "ToolTip": "Reprehenderit magnam.",
+    "Id": 26,
+    "Name": "Heaney LLC",
+    "ToolTip": "Quas sunt non ut ut mollitia labore.",
     "Deleted": false,
-    "Rank": 125,
-    "Type": "nihil",
-    "ColorBlock": 562,
-    "IconHint": "molestiae",
+    "Rank": 182,
+    "Type": "ullam",
+    "ColorBlock": 505,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2020-03-22T03:51:34.3490406+01:00",
+    "LastChanged": "2005-05-09T16:00:48.8364781+02:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "Williamson, Davis and Schaefer",
-        "ToolTip": "Consequuntur sit quae ut sint velit autem.",
+        "Id": 235,
+        "Name": "Okuneva, Rempel and Cormier",
+        "ToolTip": "Earum aut.",
         "Deleted": false,
-        "Rank": 202,
-        "Type": "eligendi",
-        "ColorBlock": 75,
-        "IconHint": "delectus",
+        "Rank": 865,
+        "Type": "optio",
+        "ColorBlock": 391,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2021-12-23T03:51:34.3490406+01:00",
+        "LastChanged": "2004-03-30T16:00:48.8364781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "dolor",
+        "ExtraInfo": "non",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Ewald Kassulke",
+        "FullName": "Anika O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 471
+            "FieldLength": 288
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "est",
+    "ExtraInfo": "ratione",
+    "StyleHint": "suscipit",
     "Hidden": false,
-    "FullName": "Kirsten Runolfsdottir",
+    "FullName": "Mariam Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 407
       }
     }
   }

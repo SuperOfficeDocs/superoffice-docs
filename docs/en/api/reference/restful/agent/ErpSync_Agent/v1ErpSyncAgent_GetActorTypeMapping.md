@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ErpSync/GetActorTypeMapping
 uid: v1ErpSyncAgent_GetActorTypeMapping
+generated: true
 ---
 
 # POST Agents/ErpSync/GetActorTypeMapping
@@ -83,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 187,
+  "ErpConnectionId": 129,
   "ActorType": "Customer"
 }
 ```
@@ -95,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 136,
-  "IsActive": true,
+  "ErpConnectionId": 752,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 652,
-      "CrmFieldKey": "voluptatem",
-      "CrmDisplayName": "Lowe, Orn and Doyle",
-      "CrmDisplayTooltip": "laboriosam",
-      "ErpFieldKey": "quibusdam",
+      "ErpFieldId": 860,
+      "CrmFieldKey": "at",
+      "CrmDisplayName": "Halvorson, Stanton and Gerhold",
+      "CrmDisplayTooltip": "laborum",
+      "ErpFieldKey": "qui",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "O'Connell-Swift",
-      "ErpDisplayTooltip": "et",
+      "ErpDisplayName": "Lind LLC",
+      "ErpDisplayTooltip": "ab",
       "SyncToCrm": false,
       "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
-      "MissingInERP": true,
-      "MissingInCRM": true,
+      "MissingInERP": false,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "accusamus",
+      "ListReference": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldType": "System.String",
+          "FieldLength": 108
         }
       }
     }
@@ -133,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 475
     }
   }
 }

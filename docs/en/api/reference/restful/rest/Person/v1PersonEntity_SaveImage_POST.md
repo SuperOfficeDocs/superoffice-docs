@@ -1,6 +1,7 @@
 ---
 title: POST Person/{id}/Image
 uid: v1PersonEntity_SaveImage_POST
+generated: true
 ---
 
 # POST Person/{id}/Image
@@ -70,5 +71,5 @@ Accept-Language: en
 HTTP/1.1 200 The image blob id
 Content-Type: application/json; charset=utf-8
 
-994
+661
 ```

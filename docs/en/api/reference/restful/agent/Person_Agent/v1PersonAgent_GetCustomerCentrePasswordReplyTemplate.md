@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/GetCustomerCentrePasswordReplyTemplate
 uid: v1PersonAgent_GetCustomerCentrePasswordReplyTemplate
+generated: true
 ---
 
 # POST Agents/Person/GetCustomerCentrePasswordReplyTemplate
@@ -80,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 612
+  "PersonId": 969
 }
 ```
 
@@ -91,35 +92,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 592,
-  "PlainParsed": "ea",
-  "HtmlParsed": "perferendis",
+  "ReplyTemplateId": 127,
+  "PlainParsed": "enim",
+  "HtmlParsed": "autem",
   "Attachments": [
     {
-      "AttachmentId": 757,
-      "Name": "Kovacek LLC",
-      "ContentType": "maxime",
-      "AttSize": 933,
+      "AttachmentId": 991,
+      "Name": "Mante-Bayer",
+      "ContentType": "suscipit",
+      "AttSize": 429,
       "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "modi",
+      "ContentId": "est",
+      "AuthKey": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 498
         }
       }
     }
   ],
-  "Subject": "quia",
+  "Subject": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 735
+      "FieldType": "System.Int32",
+      "FieldLength": 192
     }
   }
 }

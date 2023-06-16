@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/Delete
 uid: v1AppointmentAgent_Delete
+generated: true
 ---
 
 # POST Agents/Appointment/Delete
@@ -71,9 +72,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 964,
+  "AppointmentId": 375,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }

@@ -1,6 +1,6 @@
 ---
 title: Services88.ArchiveAgent.GetArchiveConfiguration SOAP
-generated: 1
+generated: true
 uid: Services88-Archive-GetArchiveConfiguration
 ---
 
@@ -92,7 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
       <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
       <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-      <Archive:LastChanged xsi:type="xsd:dateTime">2023-05-25T11:08:02Z</Archive:LastChanged>
+      <Archive:LastChanged xsi:type="xsd:dateTime">2023-06-09T13:58:04Z</Archive:LastChanged>
       <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
        <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
         <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -104,7 +104,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
         <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
         <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-        <Archive:LastChanged xsi:type="xsd:dateTime">2023-05-25T11:08:02Z</Archive:LastChanged>
+        <Archive:LastChanged xsi:type="xsd:dateTime">2023-06-09T13:58:04Z</Archive:LastChanged>
         <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
          <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
           <Archive:Id xsi:nil="true"></Archive:Id>

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetTicketPriority
 uid: v1ListAgent_GetTicketPriority
+generated: true
 ---
 
 # POST Agents/List/GetTicketPriority
@@ -25,7 +26,7 @@ Gets a TicketPriority object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriority?ticketPriorityId=900
+POST /api/v1/Agents/List/GetTicketPriority?ticketPriorityId=374
 POST /api/v1/Agents/List/GetTicketPriority?$select=name,department,category/id
 ```
 
@@ -78,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Value": "praesentium",
-  "Tooltip": "ea",
+  "Id": 251,
+  "Value": "hic",
+  "Tooltip": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldType": "System.String",
+      "FieldLength": 329
     }
   }
 }

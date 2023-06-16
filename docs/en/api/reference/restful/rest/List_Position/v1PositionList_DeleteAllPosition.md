@@ -1,6 +1,7 @@
 ---
 title: DEL List/Position/Items
 uid: v1PositionList_DeleteAllPosition
+generated: true
 ---
 
 # DEL List/Position/Items
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

@@ -1,6 +1,7 @@
 ---
 title: GET List/Credited/Items
 uid: v1CreditedList_GetAll
+generated: true
 ---
 
 # GET List/Credited/Items
@@ -80,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 916,
-    "Name": "Thompson Group",
-    "Tooltip": "eum",
+    "Id": 30,
+    "Name": "Kilback-Blanda",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 333,
-    "Rank": 968,
+    "UdListDefinitionId": 650,
+    "Rank": 560,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 129
+        "FieldLength": 399
       }
     }
   }

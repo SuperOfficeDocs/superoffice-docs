@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetPreviewDocumentStream
 uid: v1DocumentAgent_GetPreviewDocumentStream
+generated: true
 ---
 
 # POST Agents/Document/GetPreviewDocumentStream
@@ -81,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 70
+  "DocumentId": 75
 }
 ```
 
@@ -92,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gleason Inc and Sons",
-  "Type": "id",
-  "Size": 67,
+  "Name": "Lakin, Monahan and Langworth",
+  "Type": "delectus",
+  "Size": 968,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldType": "System.String",
+      "FieldLength": 741
     }
   }
 }

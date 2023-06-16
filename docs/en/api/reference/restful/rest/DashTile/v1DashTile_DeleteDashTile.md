@@ -1,6 +1,7 @@
 ---
 title: DEL DashTile/{id}
 uid: v1DashTile_DeleteDashTile
+generated: true
 ---
 
 # DEL DashTile/{id}
@@ -51,7 +52,7 @@ DashTile deleted.
 DELETE /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

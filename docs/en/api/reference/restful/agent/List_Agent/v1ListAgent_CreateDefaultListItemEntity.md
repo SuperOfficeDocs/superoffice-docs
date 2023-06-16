@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultListItemEntity
 uid: v1ListAgent_CreateDefaultListItemEntity
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultListItemEntity
@@ -61,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 199,
-  "Name": "Bogan, Harber and Becker",
-  "Tooltip": "et",
+  "Id": 874,
+  "Name": "Kuhlman-Wintheiser",
+  "Tooltip": "quae",
   "Deleted": false,
-  "UdListDefinitionId": 71,
-  "Rank": 302,
+  "UdListDefinitionId": 709,
+  "Rank": 353,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldType": "System.String",
+      "FieldLength": 159
     }
   }
 }

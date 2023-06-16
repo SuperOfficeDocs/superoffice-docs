@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/GetPublishedAppointments
 uid: v1AppointmentAgent_GetPublishedAppointments
+generated: true
 ---
 
 # POST Agents/Appointment/GetPublishedAppointments
@@ -111,6 +112,9 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -120,13 +124,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    509,
-    684
+    378,
+    428
   ]
 }
 ```
@@ -139,61 +143,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 295,
-    "StartDate": "2000-02-22T03:51:26.1313562+01:00",
-    "EndDate": "2018-07-19T03:51:26.1313562+02:00",
+    "AppointmentId": 910,
+    "StartDate": "2012-09-15T16:00:39.6332261+02:00",
+    "EndDate": "2016-10-14T16:00:39.6332261+02:00",
     "Type": "BookingForChecklist",
-    "Task": "pariatur",
-    "AssociateFullName": "Aniyah Schmeler",
-    "ContactName": "Rosenbaum-Upton",
-    "Description": "User-centric needs-based core",
-    "PersonFullName": "Prof. Shanon Turner",
-    "PersonId": 259,
-    "ContactId": 42,
-    "ProjectId": 698,
-    "ProjectName": "Rippin, Thompson and Sanford",
-    "IsPublished": false,
-    "AssociateId": 522,
-    "ColorIndex": 302,
+    "Task": "enim",
+    "AssociateFullName": "Dr. Makayla Abel VonRueden DDS",
+    "ContactName": "Goodwin-Pacocha",
+    "Description": "Digitized didactic project",
+    "PersonFullName": "Mya Shanahan",
+    "PersonId": 466,
+    "ContactId": 150,
+    "ProjectId": 174,
+    "ProjectName": "Funk-King",
+    "IsPublished": true,
+    "AssociateId": 599,
+    "ColorIndex": 549,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 10,
-    "PriorityName": "Reynolds, Hilpert and Spencer",
+    "PriorityId": 489,
+    "PriorityName": "Satterfield, Rowe and Cremin",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2000-06-05T03:51:26.1313562+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2016-08-01T16:00:39.6332261+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-03-02T03:51:26.1313562+01:00",
-    "RecurringEndDate": "2020-03-14T03:51:26.1313562+01:00",
-    "MotherId": 857,
-    "AssignedBy": 413,
-    "AssignedByFullName": "Dr. Ava Buddy Predovic",
+    "RecurringStartDate": "2021-11-15T16:00:39.6332261+01:00",
+    "RecurringEndDate": "2020-08-12T16:00:39.6332261+02:00",
+    "MotherId": 745,
+    "AssignedBy": 174,
+    "AssignedByFullName": "Ashley Altenwerth",
     "RejectReason": "",
-    "Location": "fugit",
-    "AlarmLeadTime": "harum",
-    "SaleId": 577,
-    "SaleName": "Gerlach, McDermott and Stark",
-    "AssociateName": "Rutherford, Nikolaus and Schamberger",
-    "CreatedDate": "2009-02-08T03:51:26.1313562+01:00",
-    "CreatedBy": "sequi",
-    "CreatedByFullName": "Ada Jacobs DDS",
-    "CreatedByAssociateId": 185,
+    "Location": "voluptatem",
+    "AlarmLeadTime": "illum",
+    "SaleId": 187,
+    "SaleName": "Smith Inc and Sons",
+    "AssociateName": "Kautzer-Nolan",
+    "CreatedDate": "1996-12-16T16:00:39.6332261+01:00",
+    "CreatedBy": "in",
+    "CreatedByFullName": "Marilou Schneider",
+    "CreatedByAssociateId": 403,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "Title": "nesciunt",
+    "Agenda": "deserunt",
+    "InternalNotes": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldType": "System.String",
+        "FieldLength": 551
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Person/AddBounceWithDetails
 uid: v1PersonAgent_AddBounceWithDetails
+generated: true
 ---
 
 # POST Agents/Person/AddBounceWithDetails
@@ -66,13 +67,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "michael_runte@bartolettimcdermott.us",
-  "Counts": 519,
-  "Code": 655,
+  "EmailAddress": "alek.hegmann@cummingsborer.name",
+  "Counts": 90,
+  "Code": 302,
   "Reason": ""
 }
 ```

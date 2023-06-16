@@ -1,6 +1,7 @@
 ---
 title: PUT List/LegalBase/Items/{id}/UserGroups
 uid: v1LegalBaseList_PutLegalBaseUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/LegalBase/Items/{id}/UserGroups
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 727,
-    "Name": "Lockman, Schuster and Schaefer",
-    "ToolTip": "Debitis quidem voluptate rerum.",
-    "Deleted": true,
-    "Rank": 678,
-    "Type": "ut",
-    "ColorBlock": 339,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2000-03-30T03:51:34.7083411+02:00",
+    "Id": 521,
+    "Name": "Welch-Sporer",
+    "ToolTip": "Maiores in earum.",
+    "Deleted": false,
+    "Rank": 868,
+    "Type": "est",
+    "ColorBlock": 970,
+    "IconHint": "rem",
+    "Selected": false,
+    "LastChanged": "2022-08-29T16:00:49.0552074+02:00",
     "ChildItems": [
       {
-        "Id": 577,
-        "Name": "Dickinson Group",
-        "ToolTip": "Atque provident et laudantium repudiandae error officia.",
-        "Deleted": false,
-        "Rank": 161,
-        "Type": "ad",
-        "ColorBlock": 941,
-        "IconHint": "ipsum",
-        "Selected": false,
-        "LastChanged": "2002-11-24T03:51:34.7083411+01:00",
+        "Id": 833,
+        "Name": "Kris LLC",
+        "ToolTip": "Assumenda rem sed iure optio.",
+        "Deleted": true,
+        "Rank": 218,
+        "Type": "eaque",
+        "ColorBlock": 386,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "1999-05-18T16:00:49.0552074+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "sequi",
-        "Hidden": true,
-        "FullName": "Dr. Viviane Emely Gottlieb"
+        "ExtraInfo": "non",
+        "StyleHint": "laborum",
+        "Hidden": false,
+        "FullName": "Prof. Orlando Junius Barton"
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "at",
-    "Hidden": true,
-    "FullName": "Ms. Zakary Lemke"
+    "ExtraInfo": "corrupti",
+    "StyleHint": "minus",
+    "Hidden": false,
+    "FullName": "Hanna Mueller DDS"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Boehm-Eichmann",
-    "ToolTip": "Iusto aut.",
-    "Deleted": true,
-    "Rank": 540,
-    "Type": "qui",
-    "ColorBlock": 386,
-    "IconHint": "voluptas",
+    "Id": 71,
+    "Name": "Predovic, Schumm and Emard",
+    "ToolTip": "Minus amet pariatur asperiores quisquam et sed quia.",
+    "Deleted": false,
+    "Rank": 817,
+    "Type": "porro",
+    "ColorBlock": 215,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2015-12-10T03:51:34.7083411+01:00",
+    "LastChanged": "2000-10-16T16:00:49.0552074+02:00",
     "ChildItems": [
       {
-        "Id": 176,
-        "Name": "Tremblay LLC",
-        "ToolTip": "Totam sit ut libero.",
-        "Deleted": true,
-        "Rank": 989,
-        "Type": "reprehenderit",
-        "ColorBlock": 421,
-        "IconHint": "veniam",
-        "Selected": true,
-        "LastChanged": "2019-04-11T03:51:34.7083411+02:00",
+        "Id": 4,
+        "Name": "Walter-Zieme",
+        "ToolTip": "Vel dignissimos iste omnis.",
+        "Deleted": false,
+        "Rank": 419,
+        "Type": "doloribus",
+        "ColorBlock": 112,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "1997-10-29T16:00:49.0552074+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Larue Cruickshank",
+        "FullName": "Beulah Isidro Herman I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 283
+            "FieldLength": 630
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "nulla",
-    "Hidden": false,
-    "FullName": "Price Feil",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "facere",
+    "Hidden": true,
+    "FullName": "Roslyn Legros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldLength": 332
       }
     }
   }

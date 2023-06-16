@@ -1,6 +1,7 @@
 ---
 title: GET List/DocumentTemplate/Items/{id}/UserGroups
 uid: v1DocumentTemplateList_GetDocumentTemplateEntityUserGroupsForListItem
+generated: true
 ---
 
 # GET List/DocumentTemplate/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 296,
-    "Name": "Gleichner Inc and Sons",
-    "ToolTip": "Sint consequuntur molestiae.",
-    "Deleted": true,
-    "Rank": 627,
-    "Type": "iusto",
-    "ColorBlock": 732,
-    "IconHint": "magni",
+    "Id": 289,
+    "Name": "Lehner LLC",
+    "ToolTip": "Odit aut ullam quis necessitatibus quis.",
+    "Deleted": false,
+    "Rank": 961,
+    "Type": "et",
+    "ColorBlock": 264,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "1996-08-15T03:51:34.692727+02:00",
+    "LastChanged": "2006-07-16T16:00:49.0239624+02:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Larkin-Hintz",
-        "ToolTip": "Veritatis aliquam quam nihil qui.",
-        "Deleted": true,
-        "Rank": 226,
-        "Type": "asperiores",
-        "ColorBlock": 625,
-        "IconHint": "ut",
+        "Id": 767,
+        "Name": "Konopelski LLC",
+        "ToolTip": "Vitae eveniet aut ullam voluptatum eum voluptatem.",
+        "Deleted": false,
+        "Rank": 156,
+        "Type": "aperiam",
+        "ColorBlock": 233,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2023-02-25T03:51:34.692727+01:00",
+        "LastChanged": "2015-05-04T16:00:49.0239624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "nihil",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Kyle Danielle Deckow MD",
+        "FullName": "Tito Weimann I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 802
+            "FieldLength": 432
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "odio",
-    "Hidden": false,
-    "FullName": "Perry Littel",
+    "ExtraInfo": "nihil",
+    "StyleHint": "totam",
+    "Hidden": true,
+    "FullName": "Onie Destini Ratke II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldType": "System.String",
+        "FieldLength": 405
       }
     }
   }

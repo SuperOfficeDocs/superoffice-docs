@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetConfigurationFields
 uid: v1QuoteAgent_GetConfigurationFields
+generated: true
 ---
 
 # POST Agents/Quote/GetConfigurationFields
@@ -84,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 848,
-  "ConnectorName": "Jones Inc and Sons"
+  "ConnectionId": 102,
+  "ConnectorName": "Boyle-Pfeffer"
 }
 ```
 
@@ -101,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "natus",
-    "Rank": 708,
-    "DisplayName": "Stroman-Bernier",
-    "DisplayDescription": "Triple-buffered asynchronous encryption",
+    "FieldKey": "et",
+    "Rank": 547,
+    "DisplayName": "Vandervort Inc and Sons",
+    "DisplayDescription": "Integrated attitude-oriented website",
     "FieldType": "Checkbox",
-    "ListName": "Torp-Heller",
-    "DefaultValue": "sint",
-    "MaxLength": 544,
+    "ListName": "Leuschke, McKenzie and Schiller",
+    "DefaultValue": "non",
+    "MaxLength": 524,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -116,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldLength": 215
       }
     }
   }

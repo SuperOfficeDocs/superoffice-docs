@@ -1,6 +1,7 @@
 ---
 title: POST Ticket/{id}/NotifyNewTicket
 uid: v1TicketEntity_NotifyNewTicket
+generated: true
 ---
 
 # POST Ticket/{id}/NotifyNewTicket

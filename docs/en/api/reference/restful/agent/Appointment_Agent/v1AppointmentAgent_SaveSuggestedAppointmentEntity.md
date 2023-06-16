@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Appointment/SaveSuggestedAppointmentEntity
 uid: v1AppointmentAgent_SaveSuggestedAppointmentEntity
+generated: true
 ---
 
 # POST Agents/Appointment/SaveSuggestedAppointmentEntity
@@ -88,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 623,
-  "Name": "Kertzmann, Kuhn and Zieme",
-  "Tooltip": "ut",
-  "Rank": 27,
+  "SuggestedAppointmentId": 41,
+  "Name": "Baumbach, Wilkinson and Bruen",
+  "Tooltip": "quia",
+  "Rank": 304,
   "Deleted": false,
-  "DaysFuture": 968,
-  "Duration": "saepe",
+  "DaysFuture": 112,
+  "Duration": "sit",
   "AutoSuggest": false,
-  "IsMilestone": false,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "eos",
+  "Text": "esse",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -116,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 719,
-  "Name": "Schultz Inc and Sons",
-  "Tooltip": "ipsum",
-  "Rank": 340,
-  "Deleted": true,
-  "DaysFuture": 248,
-  "Duration": "recusandae",
+  "SuggestedAppointmentId": 180,
+  "Name": "Kunze-Satterfield",
+  "Tooltip": "placeat",
+  "Rank": 497,
+  "Deleted": false,
+  "DaysFuture": 237,
+  "Duration": "ipsam",
   "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "cum",
+  "Text": "sit",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 14
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/GetDuplicates
 uid: v1ContactAgent_GetDuplicates
+generated: true
 ---
 
 # POST Agents/Contact/GetDuplicates
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "King LLC"
+  "Name": "Swaniawski, Tromp and Ortiz"
 }
 ```
 
@@ -92,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Klein, Runolfsdottir and Hoeger",
-    "SoPrimaryKey": 959,
-    "EntryName": "Halvorson, Towne and Quitzon",
-    "EntryIdentifier": "quo",
-    "RuleDisplayName": "Tromp LLC",
+    "RuleName": "Collier Group",
+    "SoPrimaryKey": 748,
+    "EntryName": "Hartmann Group",
+    "EntryIdentifier": "similique",
+    "RuleDisplayName": "Bartoletti Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 711
       }
     }
   }

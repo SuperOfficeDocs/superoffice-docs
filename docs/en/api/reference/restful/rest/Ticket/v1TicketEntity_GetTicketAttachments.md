@@ -1,6 +1,7 @@
 ---
 title: GET Ticket/{id}/Attachments
 uid: v1TicketEntity_GetTicketAttachments
+generated: true
 ---
 
 # GET Ticket/{id}/Attachments
@@ -64,7 +65,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 527,
-    "Name": "Stark Inc and Sons",
-    "ContentType": "at",
-    "AttSize": 291,
+    "AttachmentId": 67,
+    "Name": "Hickle, Macejkovic and Tillman",
+    "ContentType": "repudiandae",
+    "AttSize": 774,
     "InlineImage": false,
-    "ContentId": "mollitia",
-    "AuthKey": "quisquam",
+    "ContentId": "et",
+    "AuthKey": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 881
+        "FieldLength": 563
       }
     }
   }

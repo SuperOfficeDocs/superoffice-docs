@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/UpdateSaleStakeholders
 uid: v1SaleAgent_UpdateSaleStakeholders
+generated: true
 ---
 
 # POST Agents/Sale/UpdateSaleStakeholders
@@ -90,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Streich Group",
-      "Comment": "provident",
-      "StakeholderRoleId": 436,
-      "CountryId": 822,
-      "PersonId": 562,
-      "EmailDescription": "alexis_spencer@howe.info",
-      "EmailId": 521,
-      "EmailAddress": "guido@ruecker.info",
-      "PhoneId": 450,
-      "ContactName": "Anderson, Quitzon and Bauch",
-      "ContactId": 654,
-      "SaleId": 991,
-      "Mrmrs": "ea",
-      "Firstname": "Everett",
-      "MiddleName": "Jast-Luettgen",
-      "Lastname": "Buckridge",
-      "SaleStakeholderId": 595,
-      "Rank": 1002,
-      "Phone": "681.443.9428 x51525"
+      "StakeholderRoleName": "Doyle, Bergstrom and Mitchell",
+      "Comment": "ut",
+      "StakeholderRoleId": 112,
+      "CountryId": 86,
+      "PersonId": 754,
+      "EmailDescription": "gudrun@klocko.name",
+      "EmailId": 298,
+      "EmailAddress": "trent@johnston.info",
+      "PhoneId": 160,
+      "ContactName": "Kirlin, Bednar and Tremblay",
+      "ContactId": 648,
+      "SaleId": 345,
+      "Mrmrs": "mollitia",
+      "Firstname": "Stevie",
+      "MiddleName": "Breitenberg, Littel and Gleichner",
+      "Lastname": "Nikolaus",
+      "SaleStakeholderId": 241,
+      "Rank": 881,
+      "Phone": "992.956.7755"
     }
   ]
 }
@@ -128,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Gibson-Ankunding",
-    "Comment": "hic",
-    "StakeholderRoleId": 325,
-    "CountryId": 379,
-    "PersonId": 55,
-    "EmailDescription": "madilyn.oconnell@wymanheaney.info",
-    "EmailId": 941,
-    "EmailAddress": "fiona@hettinger.ca",
-    "PhoneId": 866,
-    "ContactName": "Torp Inc and Sons",
-    "ContactId": 43,
-    "SaleId": 735,
-    "Mrmrs": "porro",
-    "Firstname": "Ora",
-    "MiddleName": "Flatley LLC",
-    "Lastname": "Weimann",
-    "SaleStakeholderId": 96,
-    "Rank": 975,
-    "Phone": "(359)430-1066 x62772",
+    "StakeholderRoleName": "Gutmann-Gulgowski",
+    "Comment": "officiis",
+    "StakeholderRoleId": 615,
+    "CountryId": 291,
+    "PersonId": 628,
+    "EmailDescription": "keegan@kreigerskiles.info",
+    "EmailId": 194,
+    "EmailAddress": "casandra_crooks@feeney.co.uk",
+    "PhoneId": 202,
+    "ContactName": "Nader Group",
+    "ContactId": 449,
+    "SaleId": 948,
+    "Mrmrs": "corporis",
+    "Firstname": "Wilfrid",
+    "MiddleName": "Goyette, Kozey and Romaguera",
+    "Lastname": "Sipes",
+    "SaleStakeholderId": 972,
+    "Rank": 754,
+    "Phone": "231-743-7539 x322",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 150
+        "FieldType": "System.Int32",
+        "FieldLength": 85
       }
     }
   }

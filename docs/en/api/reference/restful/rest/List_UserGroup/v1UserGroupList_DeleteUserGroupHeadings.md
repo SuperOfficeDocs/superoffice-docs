@@ -1,6 +1,7 @@
 ---
 title: DEL List/UserGroup/Headings
 uid: v1UserGroupList_DeleteUserGroupHeadings
+generated: true
 ---
 
 # DEL List/UserGroup/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

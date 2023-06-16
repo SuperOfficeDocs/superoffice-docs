@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetContactDocumentsByTemplateType
 uid: v1DocumentAgent_GetContactDocumentsByTemplateType
+generated: true
 ---
 
 # POST Agents/Document/GetContactDocumentsByTemplateType
@@ -97,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 281,
-  "StartTime": "2012-03-26T03:51:27.0061522+02:00",
-  "EndTime": "1996-09-06T03:51:27.0061522+02:00",
-  "Count": 789,
-  "DocumentTemplateId": 866
+  "ContactId": 339,
+  "StartTime": "2001-07-03T16:00:40.5550049+02:00",
+  "EndTime": "2008-07-09T16:00:40.5550049+02:00",
+  "Count": 186,
+  "DocumentTemplateId": 278
 }
 ```
 
@@ -117,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 106,
-    "Attention": "et",
-    "Header": "distinctio",
-    "Name": "Franecki, Prosacco and Robel",
-    "OurRef": "veniam",
-    "YourRef": "qui",
-    "Description": "Adaptive methodical software",
-    "DocumentTemplate": "voluptatem",
+    "DocumentId": 39,
+    "Attention": "est",
+    "Header": "minus",
+    "Name": "Klein-Wyman",
+    "OurRef": "perferendis",
+    "YourRef": "voluptatem",
+    "Description": "Progressive holistic secured line",
+    "DocumentTemplate": "expedita",
     "IsPublished": false,
-    "PersonId": 662,
-    "PersonFullName": "Mrs. Johan Dashawn Bergnaum Jr.",
-    "AssociateFullName": "Mr. Cloyd Ron Wintheiser I",
-    "ContactId": 232,
-    "ContactName": "Huel Inc and Sons",
-    "ProjectId": 151,
-    "ProjectName": "Heaney-Aufderhar",
-    "AssociateId": 305,
-    "Snum": 352,
-    "SaleId": 825,
-    "SaleName": "Brekke-Hackett",
+    "PersonId": 412,
+    "PersonFullName": "Lula Crona",
+    "AssociateFullName": "Carmine Gottlieb",
+    "ContactId": 138,
+    "ContactName": "Balistreri, Reinger and Okuneva",
+    "ProjectId": 934,
+    "ProjectName": "Hessel Group",
+    "AssociateId": 996,
+    "Snum": 979,
+    "SaleId": 799,
+    "SaleName": "Schulist Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 883
+        "FieldLength": 273
       }
     }
   }

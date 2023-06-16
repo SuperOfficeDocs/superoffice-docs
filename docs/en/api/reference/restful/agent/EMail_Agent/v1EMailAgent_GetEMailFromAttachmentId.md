@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/GetEMailFromAttachmentId
 uid: v1EMailAgent_GetEMailFromAttachmentId
+generated: true
 ---
 
 # POST Agents/EMail/GetEMailFromAttachmentId
@@ -101,16 +102,16 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 581,
+  "EmailId": 207,
   "AttachmentIds": [
-    "ad",
-    "dolorum"
+    "eos",
+    "et"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -123,146 +124,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 357,
-      "ContactName": "DuBuque-Quitzon",
-      "PersonId": 399,
-      "PersonName": "Stark-Tillman",
-      "AssociateId": 648,
-      "Address": "aliquam",
-      "EmailId": 338,
+      "ContactId": 806,
+      "ContactName": "Ebert, Greenholt and Dooley",
+      "PersonId": 107,
+      "PersonName": "Zemlak-Block",
+      "AssociateId": 852,
+      "Address": "recusandae",
+      "EmailId": 504,
       "DuplicatePersonIds": [
-        523,
-        200
+        653,
+        370
       ],
-      "Name": "Conn, Weber and Sauer",
+      "Name": "Keeling-Powlowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 780
+          "FieldType": "System.Int32",
+          "FieldLength": 445
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 3,
-      "ContactName": "Cronin LLC",
-      "PersonId": 791,
-      "PersonName": "Howell Inc and Sons",
-      "AssociateId": 181,
-      "Address": "occaecati",
-      "EmailId": 978,
+      "ContactId": 207,
+      "ContactName": "Sipes-Heller",
+      "PersonId": 196,
+      "PersonName": "Abshire Inc and Sons",
+      "AssociateId": 135,
+      "Address": "autem",
+      "EmailId": 169,
       "DuplicatePersonIds": [
-        326,
-        11
+        392,
+        632
       ],
-      "Name": "Hand, Casper and Simonis",
+      "Name": "Abbott Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 650
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 341,
-      "ContactName": "Carter, Mante and Krajcik",
-      "PersonId": 514,
-      "PersonName": "Gibson LLC",
-      "AssociateId": 166,
-      "Address": "tempora",
-      "EmailId": 295,
+      "ContactId": 863,
+      "ContactName": "Schulist-Cartwright",
+      "PersonId": 925,
+      "PersonName": "Legros Inc and Sons",
+      "AssociateId": 801,
+      "Address": "ut",
+      "EmailId": 2,
       "DuplicatePersonIds": [
-        523,
-        33
+        533,
+        370
       ],
-      "Name": "Kohler LLC",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 415
-        }
-      }
-    }
-  ],
-  "Subject": "dolor",
-  "HTMLBody": "quas",
-  "From": null,
-  "Sent": "1999-07-05T03:51:27.2404741+02:00",
-  "Size": 691,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "qui",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 426,
-  "Attachments": [
-    {
-      "Description": "Decentralized demand-driven model",
-      "Filename": "sequi",
-      "Size": 384,
-      "Type": "temporibus",
-      "Encoding": "facilis",
-      "Id": "necessitatibus",
-      "Disposition": "suscipit",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Padberg-Halvorson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 504
+          "FieldLength": 905
+        }
+      }
+    }
+  ],
+  "Subject": "et",
+  "HTMLBody": "eos",
+  "From": null,
+  "Sent": "2017-08-29T16:00:40.9456053+02:00",
+  "Size": 340,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "ipsum",
+  "PlainBody": "labore",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 992,
+  "Attachments": [
+    {
+      "Description": "Organized object-oriented success",
+      "Filename": "ut",
+      "Size": 932,
+      "Type": "quia",
+      "Encoding": "laudantium",
+      "Id": "quas",
+      "Disposition": "sed",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 886
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gleichner-O'Hara",
+      "Name": "Kiehn-Walsh",
       "Values": [
-        "dolore",
-        "ut"
+        "ut",
+        "itaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 251
+          "FieldType": "System.String",
+          "FieldLength": 50
         }
       }
     },
     {
-      "Name": "Gleichner-O'Hara",
+      "Name": "Kiehn-Walsh",
       "Values": [
-        "dolore",
-        "ut"
+        "ut",
+        "itaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 251
+          "FieldType": "System.String",
+          "FieldLength": 50
         }
       }
     }
   ],
-  "FolderName": "Stehr, Morissette and Kutch",
-  "EmailItemId": 144,
-  "AccountId": 538,
-  "ReceivedAt": "2022-07-27T03:51:27.2404741+02:00",
+  "FolderName": "Kunde-Streich",
+  "EmailItemId": 351,
+  "AccountId": 185,
+  "ReceivedAt": "2016-06-20T16:00:40.9456053+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-03-15T03:51:27.2404741+01:00",
+  "RepliedAt": "2005-07-13T16:00:40.9456053+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,8 +271,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldType": "System.String",
+      "FieldLength": 70
     }
   }
 }

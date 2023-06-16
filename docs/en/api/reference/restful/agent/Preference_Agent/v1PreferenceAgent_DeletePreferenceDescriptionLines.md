@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/DeletePreferenceDescriptionLines
 uid: v1PreferenceAgent_DeletePreferenceDescriptionLines
+generated: true
 ---
 
 # POST Agents/Preference/DeletePreferenceDescriptionLines
@@ -63,13 +64,13 @@ No Content
 POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PrefDescLineIds": [
-    372,
-    565
+    276,
+    960
   ]
 }
 ```

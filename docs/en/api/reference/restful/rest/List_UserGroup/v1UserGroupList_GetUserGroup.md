@@ -1,6 +1,7 @@
 ---
 title: GET List/UserGroup/Items/{id}
 uid: v1UserGroupList_GetUserGroup
+generated: true
 ---
 
 # GET List/UserGroup/Items/{id}
@@ -75,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "aut",
-  "Tooltip": "voluptas",
-  "Id": 447,
-  "Rank": 84,
-  "Deleted": true,
+  "Value": "impedit",
+  "Tooltip": "fuga",
+  "Id": 510,
+  "Rank": 950,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldLength": 749
     }
   }
 }

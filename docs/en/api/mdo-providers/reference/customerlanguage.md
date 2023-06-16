@@ -1,17 +1,11 @@
 ---
 uid: customerlanguage
 title: customerlanguage
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "customerlanguage"
+keywords: mdoprovider mdo provider customerlanguage
+description: Customer Languages list. From the CustLang table.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "customerlanguage" MDO List

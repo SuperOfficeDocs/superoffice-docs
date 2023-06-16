@@ -1,5 +1,6 @@
 ---
 title: TableRecord
+generated: true
 ---
 
 ```http

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/GetVisibleForUserGroups
 uid: v1ListAgent_GetVisibleForUserGroups
+generated: true
 ---
 
 # POST Agents/List/GetVisibleForUserGroups
@@ -87,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 817,
-  "ListItemId": 277
+  "UdListDefinitionId": 31,
+  "ListItemId": 887
 }
 ```
 
@@ -104,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 396,
-    "Name": "Jones, McKenzie and Berge",
-    "ToolTip": "Aut suscipit.",
+    "Id": 111,
+    "Name": "Sporer Group",
+    "ToolTip": "Vel et voluptate voluptatem quae reprehenderit.",
     "Deleted": false,
-    "Rank": 74,
-    "Type": "molestias",
-    "ColorBlock": 391,
-    "IconHint": "suscipit",
-    "Selected": true,
-    "LastChanged": "2001-08-19T03:51:27.4123074+02:00",
+    "Rank": 405,
+    "Type": "necessitatibus",
+    "ColorBlock": 94,
+    "IconHint": "saepe",
+    "Selected": false,
+    "LastChanged": "2011-07-26T16:00:41.1487084+02:00",
     "ChildItems": [
       {
-        "Id": 61,
-        "Name": "Weimann-Nicolas",
-        "ToolTip": "Quidem vel et consequuntur animi placeat.",
+        "Id": 835,
+        "Name": "Gleason-Rohan",
+        "ToolTip": "Explicabo explicabo porro.",
         "Deleted": false,
-        "Rank": 808,
-        "Type": "quis",
-        "ColorBlock": 707,
-        "IconHint": "odit",
-        "Selected": true,
-        "LastChanged": "2005-06-10T03:51:27.4123074+02:00",
+        "Rank": 827,
+        "Type": "velit",
+        "ColorBlock": 670,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2014-05-27T16:00:41.1487084+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Autumn Kris",
+        "ExtraInfo": "eaque",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Kelvin Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 666
+            "FieldLength": 639
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "eaque",
+    "ExtraInfo": "ullam",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Prof. Tamara Heather Grimes DVM",
+    "FullName": "Rodger Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 880
+        "FieldType": "System.Int32",
+        "FieldLength": 93
       }
     }
   }

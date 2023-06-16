@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 uid: v1ForeignSystemAgent_GetKeyOnDeviceIdentifier
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetKeyOnDeviceIdentifier
@@ -86,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hettinger LLC",
-  "DeviceName": "Krajcik, Schroeder and Sipes",
-  "DeviceIdentifier": "voluptatum",
-  "KeyName": "Hettinger-Volkman",
-  "TableName": "Weissnat-Rolfson",
-  "RecordId": 114
+  "ApplicationName": "Stanton, Hauck and Lakin",
+  "DeviceName": "Kuhn-Marquardt",
+  "DeviceIdentifier": "omnis",
+  "KeyName": "Cormier Group",
+  "TableName": "Stracke-Feeney",
+  "RecordId": 843
 }
 ```
 
@@ -106,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "harum",
-  "RecordId": 718,
-  "CreatedDate": "2019-09-09T03:51:27.3498217+02:00",
-  "UpdatedDate": "2004-08-12T03:51:27.3498217+02:00",
-  "UpdatedBy": "sint",
-  "CreatedBy": "perferendis",
-  "TableName": "Dicki, Russel and Tillman",
+  "Key": "sed",
+  "Value": "blanditiis",
+  "RecordId": 117,
+  "CreatedDate": "2002-11-03T16:00:41.0705907+01:00",
+  "UpdatedDate": "2002-04-27T16:00:41.0705907+02:00",
+  "UpdatedBy": "ad",
+  "CreatedBy": "numquam",
+  "TableName": "Steuber Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 907
+      "FieldType": "System.Int32",
+      "FieldLength": 87
     }
   }
 }

@@ -1,17 +1,11 @@
 ---
 uid: mailingsubscriptiontype
 title: mailingsubscriptiontype
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "mailingsubscriptiontype"
+keywords: mdoprovider mdo provider mailingsubscriptiontype
+description: Mailing subscription types; Invitations, news, etc
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "mailingsubscriptiontype" MDO List

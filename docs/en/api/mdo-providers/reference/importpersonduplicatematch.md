@@ -1,17 +1,11 @@
 ---
 uid: importpersonduplicatematch
 title: importpersonduplicatematch
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "importpersonduplicatematch"
+keywords: mdoprovider mdo provider importpersonduplicatematch
+description: Import Person Fields to match on: Name, E-mail, phone, number, id, None
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "importpersonduplicatematch" MDO List

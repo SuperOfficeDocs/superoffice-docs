@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Configuration/GetRecipeAppliesToMappings
 uid: v1ConfigurationAgent_GetRecipeAppliesToMappings
+generated: true
 ---
 
 # POST Agents/Configuration/GetRecipeAppliesToMappings
@@ -69,7 +70,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ducimus",
-  "2": "iusto"
+  "1": "delectus",
+  "2": "aliquam"
 }
 ```

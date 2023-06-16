@@ -1,6 +1,7 @@
 ---
 title: DEL List/ProductCategory/Headings
 uid: v1ProductCategoryList_DeleteProductCategoryHeadings
+generated: true
 ---
 
 # DEL List/ProductCategory/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

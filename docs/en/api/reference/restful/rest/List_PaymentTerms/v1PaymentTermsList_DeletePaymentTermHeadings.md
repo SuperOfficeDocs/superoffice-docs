@@ -1,6 +1,7 @@
 ---
 title: DEL List/PaymentTerm/Headings
 uid: v1PaymentTermsList_DeletePaymentTermHeadings
+generated: true
 ---
 
 # DEL List/PaymentTerm/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

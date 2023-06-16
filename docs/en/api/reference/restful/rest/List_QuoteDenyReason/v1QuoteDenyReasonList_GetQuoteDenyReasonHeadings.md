@@ -1,6 +1,7 @@
 ---
 title: GET List/QuoteDenyReason/Headings
 uid: v1QuoteDenyReasonList_GetQuoteDenyReasonHeadings
+generated: true
 ---
 
 # GET List/QuoteDenyReason/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 156,
-    "Name": "Pouros-Nicolas",
-    "Tooltip": "id",
-    "Deleted": true,
-    "Rank": 45,
-    "UdListDefinitionId": 990,
+    "HeadingId": 409,
+    "Name": "Sawayn, Klocko and Romaguera",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "Rank": 818,
+    "UdListDefinitionId": 544,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldType": "System.String",
+        "FieldLength": 30
       }
     }
   }

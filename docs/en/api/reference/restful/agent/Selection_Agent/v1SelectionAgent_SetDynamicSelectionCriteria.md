@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/SetDynamicSelectionCriteria
 uid: v1SelectionAgent_SetDynamicSelectionCriteria
+generated: true
 ---
 
 # POST Agents/Selection/SetDynamicSelectionCriteria
@@ -86,18 +87,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 825,
+  "SelectionId": 609,
   "Criteria": [
     {
-      "Name": "Hahn Inc and Sons",
-      "Operator": "itaque",
+      "Name": "Wiza, Kerluke and Nitzsche",
+      "Operator": "aut",
       "Values": [
-        "ut",
-        "vel"
+        "eveniet",
+        "quas"
       ],
       "DisplayValues": [
-        "necessitatibus",
-        "officia"
+        "provident",
+        "maxime"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -105,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 798,
+      "InterParenthesis": 696,
       "InterOperator": "And",
-      "UniqueHash": 86
+      "UniqueHash": 904
     }
   ]
 }
@@ -121,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Robel Inc and Sons",
-    "Operator": "non",
+    "Name": "Kihn, Rosenbaum and Hane",
+    "Operator": "aut",
     "Values": [
-      "aut",
-      "et"
+      "vero",
+      "quam"
     ],
     "DisplayValues": [
-      "est",
-      "odio"
+      "ad",
+      "non"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "McLaughlin, Medhurst and Purdy",
-        "Operator": "voluptas",
+        "Name": "Cruickshank, Green and Schneider",
+        "Operator": "nobis",
         "Values": [
-          "repudiandae",
-          "cumque"
+          "repellat",
+          "est"
         ],
         "DisplayValues": [
-          "sunt",
-          "suscipit"
+          "quibusdam",
+          "eaque"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -151,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 737,
+        "InterParenthesis": 457,
         "InterOperator": "And",
-        "UniqueHash": 268
+        "UniqueHash": 366
       }
     ],
-    "InterParenthesis": 315,
+    "InterParenthesis": 133,
     "InterOperator": "And",
-    "UniqueHash": 305
+    "UniqueHash": 740
   }
 ]
 ```

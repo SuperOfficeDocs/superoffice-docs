@@ -1,6 +1,7 @@
 ---
 title: GET List/ProductType/Items/{id}
 uid: v1ProductTypeList_GetProductType
+generated: true
 ---
 
 # GET List/ProductType/Items/{id}
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 512,
-  "Name": "Reichel Inc and Sons",
-  "Tooltip": "quibusdam",
+  "Id": 905,
+  "Name": "Bartoletti, Wilkinson and Rowe",
+  "Tooltip": "numquam",
   "Deleted": true,
-  "UdListDefinitionId": 584,
-  "Rank": 317,
+  "UdListDefinitionId": 277,
+  "Rank": 638,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   }
 }

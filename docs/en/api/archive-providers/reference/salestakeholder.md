@@ -2,17 +2,10 @@
 uid: SaleStakeholder
 title: SaleStakeholder
 description: 
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SaleStakeholder"
+keywords: SaleStakeholder archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SaleStakeholder"
@@ -128,6 +121,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |person/restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |person/restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
 |person/restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
 |person/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
@@ -228,6 +225,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/correspondingAssociate/userName|string|User name: User name| x |
 |person/correspondingAssociate/personEmail|string|E-mail| x |
 |person/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |person/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |person/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -328,6 +329,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/contactAssociate/associateDbId|associate|ID| x |
 |contact/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contact/contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |contact/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contact/contactAssociate/contactCategory|listAny|Category: Category| x |
@@ -411,7 +416,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStakeholder?$select=person/personUdef/SuperOffice:8,person/personAssociate/simultaneousEjUser,contact/restrictionAddress/state
+GET /api/v1/archive/SaleStakeholder?$select=saleStakeholderId,person/personAddress/formattedMultiLineAddress,person/personExtra/x_person_user_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

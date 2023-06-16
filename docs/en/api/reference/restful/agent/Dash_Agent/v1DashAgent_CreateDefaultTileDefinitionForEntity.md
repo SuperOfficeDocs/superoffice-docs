@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Dash/CreateDefaultTileDefinitionForEntity
 uid: v1DashAgent_CreateDefaultTileDefinitionForEntity
+generated: true
 ---
 
 # POST Agents/Dash/CreateDefaultTileDefinitionForEntity
@@ -90,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Rempel-McGlynn"
+  "EntityName": "Hermiston-Rippin"
 }
 ```
 
@@ -105,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 953,
-  "Name": "Trantow Inc and Sons",
-  "Description": "Open-source heuristic leverage",
-  "DefaultHeight": 101,
-  "DefaultWidth": 639,
+  "DashboardTileDefinitionId": 940,
+  "Name": "Rowe LLC",
+  "Description": "Multi-channelled tangible portal",
+  "DefaultHeight": 460,
+  "DefaultWidth": 708,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Glover Group",
-  "SelectionId": 752,
+  "EntityName": "Wiza-Ankunding",
+  "SelectionId": 312,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dolores",
+  "CurrencyCode": "alias",
   "Measure": "Average",
-  "MeasureField": "similique",
-  "SortBy": "explicabo",
-  "LayoutConfig": "perferendis",
-  "SecondarySelectionId": 593,
-  "MeasureByField": "aut",
+  "MeasureField": "laborum",
+  "SortBy": "animi",
+  "LayoutConfig": "sit",
+  "SecondarySelectionId": 842,
+  "MeasureByField": "sed",
   "Usage": "Dashboard",
-  "ProviderName": "Donnelly, Reichel and Schroeder",
+  "ProviderName": "Harris, Swift and Adams",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 452
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST List/ProductCategory/Headings
 uid: v1ProductCategoryList_PostProductCategoryHeading
+generated: true
 ---
 
 # POST List/ProductCategory/Headings
@@ -78,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 578,
-  "Name": "Prohaska Group",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 409,
-  "UdListDefinitionId": 185
+  "HeadingId": 900,
+  "Name": "O'Reilly, Emmerich and Oberbrunner",
+  "Tooltip": "neque",
+  "Deleted": true,
+  "Rank": 476,
+  "UdListDefinitionId": 671
 }
 ```
 
@@ -94,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 749,
-  "Name": "Rowe-Brown",
-  "Tooltip": "architecto",
+  "HeadingId": 287,
+  "Name": "Ankunding Inc and Sons",
+  "Tooltip": "atque",
   "Deleted": false,
-  "Rank": 811,
-  "UdListDefinitionId": 743,
+  "Rank": 30,
+  "UdListDefinitionId": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldLength": 3
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Selection/SetDynamicSelectionCriteriaGroups
 uid: v1SelectionAgent_SetDynamicSelectionCriteriaGroups
+generated: true
 ---
 
 # POST Agents/Selection/SetDynamicSelectionCriteriaGroups
@@ -76,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 327,
+  "SelectionId": 41,
   "Criteria": [
     {
-      "Name": "Grady Group",
-      "Description": "Progressive national product",
-      "Rank": 121,
+      "Name": "Lehner, Hyatt and Williamson",
+      "Description": "Multi-layered fresh-thinking firmware",
+      "Rank": 77,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Grady Group",
-      "Description": "Progressive national product",
-      "Rank": 121,
+      "Name": "Lehner, Hyatt and Williamson",
+      "Description": "Multi-layered fresh-thinking firmware",
+      "Rank": 77,
       "Restrictions": [
         {},
         {}
@@ -112,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nienow, Heller and Bins",
-    "Description": "Managed bifurcated leverage",
-    "Rank": 688,
+    "Name": "Heidenreich-Greenholt",
+    "Description": "Seamless holistic website",
+    "Rank": 484,
     "Restrictions": [
       {
-        "Name": "Stark Group",
-        "Operator": "sit",
+        "Name": "Zemlak-Tromp",
+        "Operator": "voluptatem",
         "Values": [
-          "quam",
-          "aspernatur"
+          "aliquam",
+          "consequatur"
         ],
         "DisplayValues": [
-          "autem",
-          "adipisci"
+          "qui",
+          "a"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -133,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 738,
+        "InterParenthesis": 866,
         "InterOperator": "And",
-        "UniqueHash": 741
+        "UniqueHash": 230
       }
     ]
   },
   {
-    "Name": "Nienow, Heller and Bins",
-    "Description": "Managed bifurcated leverage",
-    "Rank": 688,
+    "Name": "Heidenreich-Greenholt",
+    "Description": "Seamless holistic website",
+    "Rank": 484,
     "Restrictions": [
       {
-        "Name": "Stark Group",
-        "Operator": "sit",
+        "Name": "Zemlak-Tromp",
+        "Operator": "voluptatem",
         "Values": [
-          "quam",
-          "aspernatur"
+          "aliquam",
+          "consequatur"
         ],
         "DisplayValues": [
-          "autem",
-          "adipisci"
+          "qui",
+          "a"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -161,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 738,
+        "InterParenthesis": 866,
         "InterOperator": "And",
-        "UniqueHash": 741
+        "UniqueHash": 230
       }
     ]
   }

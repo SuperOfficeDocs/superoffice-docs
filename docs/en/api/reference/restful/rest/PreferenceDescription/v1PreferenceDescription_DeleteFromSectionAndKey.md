@@ -1,6 +1,7 @@
 ---
 title: DEL PreferenceDescription/{section}/{key}
 uid: v1PreferenceDescription_DeleteFromSectionAndKey
+generated: true
 ---
 
 # DEL PreferenceDescription/{section}/{key}
@@ -50,7 +51,7 @@ No Content
 DELETE /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

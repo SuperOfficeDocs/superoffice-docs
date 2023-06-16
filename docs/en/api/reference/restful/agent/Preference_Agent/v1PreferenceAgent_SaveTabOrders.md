@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/SaveTabOrders
 uid: v1PreferenceAgent_SaveTabOrders
+generated: true
 ---
 
 # POST Agents/Preference/SaveTabOrders
@@ -63,22 +64,22 @@ No Content
 POST /api/v1/Agents/Preference/SaveTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TabOrders": [
     {
-      "TabOrderId": 187,
-      "TabName": "Schuster Inc and Sons",
-      "Order": "rem",
-      "AssociateId": 101
+      "TabOrderId": 248,
+      "TabName": "Davis-Brekke",
+      "Order": "laboriosam",
+      "AssociateId": 607
     },
     {
-      "TabOrderId": 187,
-      "TabName": "Schuster Inc and Sons",
-      "Order": "rem",
-      "AssociateId": 101
+      "TabOrderId": 248,
+      "TabName": "Davis-Brekke",
+      "Order": "laboriosam",
+      "AssociateId": 607
     }
   ]
 }

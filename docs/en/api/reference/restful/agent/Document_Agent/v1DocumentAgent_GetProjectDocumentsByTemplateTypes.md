@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Document/GetProjectDocumentsByTemplateTypes
 uid: v1DocumentAgent_GetProjectDocumentsByTemplateTypes
+generated: true
 ---
 
 # POST Agents/Document/GetProjectDocumentsByTemplateTypes
@@ -101,13 +102,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 600,
-  "StartTime": "2004-10-10T03:51:27.0217725+02:00",
-  "EndTime": "2019-10-12T03:51:27.0217725+02:00",
-  "Count": 23,
+  "ProjectId": 943,
+  "StartTime": "2003-10-26T16:00:40.5706201+01:00",
+  "EndTime": "2021-08-31T16:00:40.5706201+02:00",
+  "Count": 658,
   "DocumentTemplateIds": [
-    735,
-    383
+    502,
+    296
   ]
 }
 ```
@@ -120,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 243,
-    "Attention": "est",
-    "Header": "modi",
-    "Name": "Lueilwitz-Ledner",
-    "OurRef": "at",
-    "YourRef": "consequatur",
-    "Description": "Versatile 24 hour middleware",
-    "DocumentTemplate": "esse",
+    "DocumentId": 207,
+    "Attention": "voluptatem",
+    "Header": "repellat",
+    "Name": "Ankunding-Champlin",
+    "OurRef": "omnis",
+    "YourRef": "magni",
+    "Description": "Universal coherent collaboration",
+    "DocumentTemplate": "in",
     "IsPublished": false,
-    "PersonId": 629,
-    "PersonFullName": "Osborne Bechtelar",
-    "AssociateFullName": "Ms. Will Cleora Ortiz DVM",
-    "ContactId": 781,
-    "ContactName": "Collins, Vandervort and Dietrich",
-    "ProjectId": 804,
-    "ProjectName": "Hayes LLC",
-    "AssociateId": 32,
-    "Snum": 473,
-    "SaleId": 14,
-    "SaleName": "Padberg-Blanda",
+    "PersonId": 129,
+    "PersonFullName": "Laron Skiles",
+    "AssociateFullName": "Reilly Hane MD",
+    "ContactId": 638,
+    "ContactName": "Pouros LLC",
+    "ProjectId": 631,
+    "ProjectName": "Dickens, Ledner and Kuphal",
+    "AssociateId": 382,
+    "Snum": 969,
+    "SaleId": 520,
+    "SaleName": "Parker Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldType": "System.String",
+        "FieldLength": 39
       }
     }
   }

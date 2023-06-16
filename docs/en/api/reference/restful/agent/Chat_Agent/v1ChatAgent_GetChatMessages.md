@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Chat/GetChatMessages
 uid: v1ChatAgent_GetChatMessages
+generated: true
 ---
 
 # POST Agents/Chat/GetChatMessages
@@ -83,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 261,
-  "After": 606
+  "ChatSessionId": 908,
+  "After": 782
 }
 ```
 
@@ -96,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 899,
-    "ChatSessionId": 925,
+    "ChatMessageId": 220,
+    "ChatSessionId": 725,
     "Type": "Invalid",
-    "Message": "recusandae",
-    "Author": "deserunt",
-    "ReadByCustomer": 221,
+    "Message": "sed",
+    "Author": "rerum",
+    "ReadByCustomer": 212,
     "SpecialType": "Block",
-    "SpecialParam": "quasi",
-    "WhenPosted": "2016-04-16T03:51:26.7562093+02:00"
+    "SpecialParam": "eaque",
+    "WhenPosted": "2018-08-09T16:00:40.2581782+02:00"
   }
 ]
 ```

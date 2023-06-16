@@ -1,6 +1,7 @@
 ---
 title: GET Pricelist/{id}
 uid: v1PriceList_GetPriceList
+generated: true
 ---
 
 # GET Pricelist/{id}
@@ -91,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 526,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 36,
-  "Name": "McCullough, Murazik and Sauer",
-  "Description": "Progressive non-volatile process improvement",
-  "Currency": "facere",
-  "CurrencyName": "Rippin-Walter",
-  "ValidFrom": "2018-06-06T03:51:34.7708309+02:00",
-  "ValidTo": "2011-12-01T03:51:34.7708309+01:00",
+  "PriceListId": 562,
+  "ERPPriceListKey": "maxime",
+  "QuoteConnectionId": 271,
+  "Name": "Bahringer LLC",
+  "Description": "Profit-focused 6th generation conglomeration",
+  "Currency": "molestiae",
+  "CurrencyName": "Sauer-Smitham",
+  "ValidFrom": "2020-02-03T16:00:49.1177018+01:00",
+  "ValidTo": "2006-09-03T16:00:49.1177018+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldLength": 503
     }
   },
   "_Links": {

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveCurrencyEntity
 uid: v1ListAgent_SaveCurrencyEntity
+generated: true
 ---
 
 # POST Agents/List/SaveCurrencyEntity
@@ -74,16 +75,16 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 383,
-  "Name": "Bosco-Little",
-  "Tooltip": "esse",
-  "Rank": 456,
-  "Rate": 29713.453999999998,
-  "Units": 11692.954,
+  "CurrencyId": 68,
+  "Name": "Bashirian-Connelly",
+  "Tooltip": "est",
+  "Rank": 282,
+  "Rate": 8681.18,
+  "Units": 13219.212,
   "Deleted": false
 }
 ```
@@ -95,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 800,
-  "Name": "Labadie-O'Keefe",
-  "Tooltip": "amet",
-  "Rank": 153,
-  "Rate": 17089.702,
-  "Units": 501.44,
-  "Deleted": true,
+  "CurrencyId": 377,
+  "Name": "Prohaska-Ward",
+  "Tooltip": "tenetur",
+  "Rank": 21,
+  "Rate": 31089.28,
+  "Units": 7534.1359999999995,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldType": "System.String",
+      "FieldLength": 304
     }
   }
 }

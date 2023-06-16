@@ -1,6 +1,7 @@
 ---
 title: GET List/WebPanel/Items/Default
 uid: v1WebPanelEntityList_CreateDefaultWebPanelEntity
+generated: true
 ---
 
 # GET List/WebPanel/Items/Default
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,11 +85,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 831,
-  "Name": "Kulas-Ward",
-  "Tooltip": "autem",
+  "WebPanelId": 383,
+  "Name": "Grimes-Schmitt",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "Rank": 606,
+  "Rank": 850,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
@@ -97,20 +98,20 @@ Content-Type: application/json; charset=utf-8
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Bednar LLC",
+  "ShowInStatusBar": true,
+  "WindowName": "Monahan, Paucek and McLaughlin",
   "Url": "http://www.example.com/",
-  "ProgId": "id",
-  "Icon": 537,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "eaque",
+  "Icon": 461,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 446
     }
   }
 }

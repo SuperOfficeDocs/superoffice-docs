@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductType
 uid: v1ProductTypeList_SetListDefinition
+generated: true
 ---
 
 # PUT List/ProductType
@@ -83,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 670,
-  "Name": "Hessel, Green and Murphy",
-  "Tooltip": "repudiandae",
+  "Id": 744,
+  "Name": "Crist Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 871,
+  "Rank": 193,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "asperiores",
+  "UseGroupsAndHeadings": false,
+  "ListType": "sint",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 574,
-  "Name": "Goyette, Kling and DuBuque",
-  "Tooltip": "ratione",
+  "Id": 907,
+  "Name": "Kilback Group",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 842,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 470,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "officia",
-  "InUseByUserDefinedFields": false,
+  "ListType": "labore",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldType": "System.String",
+      "FieldLength": 901
     }
   }
 }

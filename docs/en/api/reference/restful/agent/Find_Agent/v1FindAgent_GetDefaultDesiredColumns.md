@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Find/GetDefaultDesiredColumns
 uid: v1FindAgent_GetDefaultDesiredColumns
+generated: true
 ---
 
 # POST Agents/Find/GetDefaultDesiredColumns
@@ -90,9 +91,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vel",
-  "ProviderName": "Walter Group",
-  "StorageKey": "soluta"
+  "StorageType": "quos",
+  "ProviderName": "Trantow LLC",
+  "StorageKey": "rerum"
 }
 ```
 
@@ -104,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Reinger-Wisoky",
-    "DisplayTooltip": "quaerat",
-    "DisplayType": "voluptatem",
+    "DisplayName": "Bergnaum LLC",
+    "DisplayTooltip": "suscipit",
+    "DisplayType": "ea",
     "CanOrderBy": false,
-    "Name": "Greenholt, Wilderman and Miller",
+    "Name": "Ankunding Inc and Sons",
     "CanRestrictBy": false,
-    "RestrictionType": "adipisci",
-    "RestrictionListName": "Schmidt, Thompson and Brown",
-    "IsVisible": true,
-    "ExtraInfo": "quia",
-    "Width": "est",
-    "IconHint": "omnis",
-    "HeadingIconHint": "ut"
+    "RestrictionType": "autem",
+    "RestrictionListName": "Smitham LLC",
+    "IsVisible": false,
+    "ExtraInfo": "corporis",
+    "Width": "dolore",
+    "IconHint": "facilis",
+    "HeadingIconHint": "sit"
   }
 ]
 ```

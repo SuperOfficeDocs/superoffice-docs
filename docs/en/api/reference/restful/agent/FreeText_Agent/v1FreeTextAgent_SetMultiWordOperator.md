@@ -1,6 +1,7 @@
 ---
 title: POST Agents/FreeText/SetMultiWordOperator
 uid: v1FreeTextAgent_SetMultiWordOperator
+generated: true
 ---
 
 # POST Agents/FreeText/SetMultiWordOperator
@@ -63,7 +64,7 @@ No Content
 POST /api/v1/Agents/FreeText/SetMultiWordOperator
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 uid: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromFieldLabel
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
@@ -108,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "ratione",
+  "FieldLabel": "vel",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 228,
-  "ColumnId": 525,
-  "FieldDefault": "incidunt",
-  "FieldHeight": 485,
-  "FieldLabel": "consequuntur",
-  "FieldLeft": 321,
-  "FieldTop": 808,
+  "UDefFieldId": 486,
+  "ColumnId": 426,
+  "FieldDefault": "sed",
+  "FieldHeight": 916,
+  "FieldLabel": "et",
+  "FieldLeft": 337,
+  "FieldTop": 824,
   "FieldType": "Checkbox",
-  "FieldWidth": 664,
-  "FormatMask": "ex",
+  "FieldWidth": 572,
+  "FormatMask": "aliquid",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 274,
-  "LabelLeft": 983,
-  "LabelTop": 825,
-  "LabelWidth": 964,
-  "LastVersionId": 191,
-  "ListTableId": 255,
+  "LabelHeight": 997,
+  "LabelLeft": 547,
+  "LabelTop": 810,
+  "LabelWidth": 342,
+  "LastVersionId": 799,
+  "ListTableId": 683,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 493,
-  "ProgId": "officiis",
+  "Page1LineNo": 251,
+  "ProgId": "hic",
   "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 620,
-  "TextLength": 181,
-  "Tooltip": "minima",
-  "UdefIdentity": 365,
-  "UDListDefinitionId": 544,
+  "ShortLabel": "qui",
+  "TabOrder": 380,
+  "TextLength": 403,
+  "Tooltip": "dolor",
+  "UdefIdentity": 932,
+  "UDListDefinitionId": 699,
   "Justification": "Center",
-  "Version": 506,
-  "TemplateVariableName": "Veum-Berge",
-  "HasBeenPublished": false,
-  "MdoListName": "McCullough-Crona",
+  "Version": 573,
+  "TemplateVariableName": "Boehm LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Lueilwitz, Hills and Cronin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldType": "System.String",
+      "FieldLength": 275
     }
   }
 }

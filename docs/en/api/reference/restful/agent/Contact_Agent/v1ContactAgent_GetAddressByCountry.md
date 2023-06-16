@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Contact/GetAddressByCountry
 uid: v1ContactAgent_GetAddressByCountry
+generated: true
 ---
 
 # POST Agents/Contact/GetAddressByCountry
@@ -78,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 640,
-  "CountryId": 150
+  "ContactId": 442,
+  "CountryId": 838
 }
 ```
 
@@ -94,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 24122.397999999997,
-  "Wgs84Longitude": 2967.8979999999997,
+  "Wgs84Latitude": 17638.152,
+  "Wgs84Longitude": 22122.906,
   "LocalizedAddress": [
     [
       {
-        "Name": "Johnston-Watsica",
-        "Value": "velit",
-        "Tooltip": "minima",
-        "Label": "repellat",
-        "ValueLength": 495,
-        "AddressType": "omnis",
+        "Name": "Bergnaum, Mayer and Larson",
+        "Value": "alias",
+        "Tooltip": "et",
+        "Label": "possimus",
+        "ValueLength": 710,
+        "AddressType": "vitae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 32
+            "FieldLength": 14
           }
         }
       }
     ],
     [
       {
-        "Name": "Price Inc and Sons",
-        "Value": "et",
-        "Tooltip": "eveniet",
-        "Label": "enim",
-        "ValueLength": 10,
-        "AddressType": "in",
+        "Name": "West-Eichmann",
+        "Value": "enim",
+        "Tooltip": "maiores",
+        "Label": "consequuntur",
+        "ValueLength": 431,
+        "AddressType": "fuga",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 867
+            "FieldLength": 521
           }
         }
       }
@@ -136,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "quibusdam",
+  "Formatted": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 849
     }
   }
 }

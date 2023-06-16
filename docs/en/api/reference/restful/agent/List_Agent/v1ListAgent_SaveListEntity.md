@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/SaveListEntity
 uid: v1ListAgent_SaveListEntity
+generated: true
 ---
 
 # POST Agents/List/SaveListEntity
@@ -84,16 +85,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 29,
-  "Name": "Beer-Bergstrom",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 176,
-  "IsCustomList": true,
+  "Id": 542,
+  "Name": "Zemlak Inc and Sons",
+  "Tooltip": "ullam",
+  "Deleted": false,
+  "Rank": 676,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "atque",
-  "InUseByUserDefinedFields": true
+  "ListType": "beatae",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -104,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 323,
-  "Name": "Wunsch, Muller and Predovic",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 874,
+  "Id": 836,
+  "Name": "Fahey, Zemlak and Hansen",
+  "Tooltip": "maxime",
+  "Deleted": false,
+  "Rank": 369,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "ListType": "a",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldLength": 228
     }
   }
 }

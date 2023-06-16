@@ -1,17 +1,11 @@
 ---
 uid: credentialgroup
 title: credentialgroup
-keywords:
-  - "mdo"
-  - "provider"
-  - "mdo provider"
-  - "credentialgroup"
+keywords: mdoprovider mdo provider credentialgroup
+description: List of user groups supported by a named creditial plugin, sorted by group name.
 so.generated: true
-so.date: 05.09.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "credentialgroup" MDO List

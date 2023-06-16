@@ -1,6 +1,7 @@
 ---
 title: GET Appointment/CustomField
 uid: v1AppointmentEntity_GetCustomFieldInfoList
+generated: true
 ---
 
 # GET Appointment/CustomField
@@ -66,7 +67,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Anderson Group",
-    "DisplayName": "Keebler, Sanford and Predovic",
-    "Description": "Switchable empowering infrastructure",
-    "ShortLabel": "repudiandae",
-    "HideLabel": false,
+    "FieldName": "Nader Inc and Sons",
+    "DisplayName": "King LLC",
+    "Description": "Synergized eco-centric standardization",
+    "ShortLabel": "tempore",
+    "HideLabel": true,
     "HideField": true,
-    "IsIndexed": true,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 673,
-    "TemplateVariableName": "Brakus, Heller and Wehner"
+    "IsExternal": false,
+    "Rank": 178,
+    "TemplateVariableName": "Nitzsche, Watsica and O'Hara"
   }
 ]
 ```

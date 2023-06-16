@@ -1,6 +1,7 @@
 ---
 title: GET List/PaymentType/Headings
 uid: v1PaymentTypeList_GetPaymentTypeHeadings
+generated: true
 ---
 
 # GET List/PaymentType/Headings
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 120,
-    "Name": "Carroll Inc and Sons",
-    "Tooltip": "vel",
+    "HeadingId": 620,
+    "Name": "Lynch Inc and Sons",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 30,
-    "UdListDefinitionId": 943,
+    "Rank": 283,
+    "UdListDefinitionId": 499,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 314
+        "FieldType": "System.Int32",
+        "FieldLength": 828
       }
     }
   }

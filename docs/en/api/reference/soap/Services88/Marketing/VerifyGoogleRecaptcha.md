@@ -1,6 +1,6 @@
 ---
 title: Services88.MarketingAgent.VerifyGoogleRecaptcha SOAP
-generated: 1
+generated: true
 uid: Services88-Marketing-VerifyGoogleRecaptcha
 ---
 

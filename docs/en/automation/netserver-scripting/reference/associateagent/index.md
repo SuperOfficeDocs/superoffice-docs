@@ -3,13 +3,9 @@ uid: associateagent-script-events
 title: AssociateAgent script event methods
 description: NetServer script event methods.
 so.generated: true
-keywords:
-  - "netserver"
-  - "scripting"
-so.date: 05.09.2023
+keywords: netserver scripting
 so.topic: reference
-so.envir:
-  - "onsite"
+so.envir: onsite
 ---
 
 # AssociateAgent method listing
@@ -20,6 +16,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAssociateAgent
 * [GetAssociateByPersonId](getassociatebypersonid.md)
 * [GetAssociateList](getassociatelist.md)
 * [GetAssociatesByGroup](getassociatesbygroup.md)
+* [GetEncryptionKey](getencryptionkey.md)
 * [GetNote](getnote.md)
 * [LogOffWindowsUsers](logoffwindowsusers.md)
 * [SaveNote](savenote.md)

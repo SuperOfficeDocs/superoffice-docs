@@ -1,6 +1,7 @@
 ---
 title: POST Selection
 uid: v1SelectionEntity_PostSelectionEntity
+generated: true
 ---
 
 # POST Selection
@@ -159,56 +160,56 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enhanced upward-trending firmware",
-  "Postit": "ut",
+  "Description": "Total 5th generation moderator",
+  "Postit": "aliquid",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 861,
-  "IncludePerson": 433,
-  "MemberCount": 994,
-  "Name": "Stamm LLC",
-  "PostitTextId": 728,
-  "CreatedDate": "2013-04-12T03:51:33.9896399+02:00",
-  "SelectionId": 776,
-  "SoundEx": "libero",
-  "Source": 371,
-  "TextId": 558,
-  "UpdatedDate": "1996-09-23T03:51:33.9896399+02:00",
-  "UpdatedCount": 397,
-  "Visibility": 760,
+  "GroupIdx": 224,
+  "IncludePerson": 772,
+  "MemberCount": 638,
+  "Name": "Auer, Anderson and Hane",
+  "PostitTextId": 29,
+  "CreatedDate": "1999-12-26T16:00:48.4302777+01:00",
+  "SelectionId": 569,
+  "SoundEx": "debitis",
+  "Source": 886,
+  "TextId": 81,
+  "UpdatedDate": "2019-10-14T16:00:48.4302777+02:00",
+  "UpdatedCount": 334,
+  "Visibility": 555,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 653,
-  "TargetTableName": "Sawayn, Yundt and Lowe",
+  "TargetTableNumber": 126,
+  "TargetTableName": "Carroll, Borer and Ratke",
   "Completed": false,
-  "LeftSelectionId": 500,
-  "RightSelectionId": 927,
+  "LeftSelectionId": 983,
+  "RightSelectionId": 628,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Metz-Abbott",
-  "ShadowProviderName": "Kirlin LLC",
-  "ChartKey": "dolorem",
-  "LastLoaded": "2021-01-18T03:51:33.9896399+01:00",
-  "LastLoadedBy": 566,
+  "MainProviderName": "Cremin, Zulauf and Kemmer",
+  "ShadowProviderName": "Wisoky Inc and Sons",
+  "ChartKey": "incidunt",
+  "LastLoaded": "2023-06-08T16:00:48.4302777+02:00",
+  "LastLoadedBy": 954,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-04-20T03:51:33.9896399+02:00",
-  "LastMembershipChangeBy": 46,
+  "LastMembershipChange": "2013-03-23T16:00:48.4302777+01:00",
+  "LastMembershipChangeBy": 25,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ad",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Kertzmann-Skiles",
-  "DashboardTileDefinitionId": 311,
+  "MainHeading": "ut",
+  "MemberTabHeading": "cupiditate",
+  "MailingsProviderName": "Hintz LLC",
+  "DashboardTileDefinitionId": 131,
   "VisibleFor": [
     {
-      "VisibleId": 651,
+      "VisibleId": 721,
       "Visibility": "All",
-      "DisplayValue": "non"
+      "DisplayValue": "quos"
     },
     {
-      "VisibleId": 651,
+      "VisibleId": 721,
       "Visibility": "All",
-      "DisplayValue": "non"
+      "DisplayValue": "quos"
     }
   ]
 }
@@ -221,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergistic systematic solution",
-  "Postit": "sint",
+  "Description": "Optimized background instruction set",
+  "Postit": "rerum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 234,
-  "IncludePerson": 626,
-  "MemberCount": 516,
-  "Name": "Dach LLC",
-  "PostitTextId": 423,
-  "CreatedDate": "2003-08-31T03:51:33.9896399+02:00",
-  "SelectionId": 373,
-  "SoundEx": "officia",
-  "Source": 194,
-  "TextId": 234,
-  "UpdatedDate": "2011-11-18T03:51:33.9896399+01:00",
-  "UpdatedCount": 459,
-  "Visibility": 947,
+  "GroupIdx": 813,
+  "IncludePerson": 548,
+  "MemberCount": 393,
+  "Name": "Carter-Abernathy",
+  "PostitTextId": 605,
+  "CreatedDate": "2015-07-13T16:00:48.4302777+02:00",
+  "SelectionId": 721,
+  "SoundEx": "cum",
+  "Source": 521,
+  "TextId": 45,
+  "UpdatedDate": "2014-06-21T16:00:48.4302777+02:00",
+  "UpdatedCount": 458,
+  "Visibility": 968,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 616,
-  "TargetTableName": "Trantow-Ruecker",
-  "Completed": false,
-  "LeftSelectionId": 516,
-  "RightSelectionId": 780,
+  "TargetTableNumber": 134,
+  "TargetTableName": "Gulgowski, Pacocha and Larson",
+  "Completed": true,
+  "LeftSelectionId": 406,
+  "RightSelectionId": 233,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Howe Inc and Sons",
-  "ShadowProviderName": "Grant, Pfeffer and Turcotte",
-  "ChartKey": "neque",
-  "LastLoaded": "2020-10-18T03:51:33.9896399+02:00",
-  "LastLoadedBy": 314,
+  "MainProviderName": "Mills-Bashirian",
+  "ShadowProviderName": "Bahringer-Donnelly",
+  "ChartKey": "vel",
+  "LastLoaded": "2001-08-26T16:00:48.4302777+02:00",
+  "LastLoadedBy": 556,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-08-06T03:51:33.9896399+02:00",
-  "LastMembershipChangeBy": 297,
+  "LastMembershipChange": "2016-09-15T16:00:48.4302777+02:00",
+  "LastMembershipChangeBy": 601,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fugit",
-  "MemberTabHeading": "itaque",
-  "MailingsProviderName": "Goyette-Hahn",
-  "DashboardTileDefinitionId": 118,
+  "MainHeading": "nulla",
+  "MemberTabHeading": "sed",
+  "MailingsProviderName": "Sanford Group",
+  "DashboardTileDefinitionId": 484,
   "VisibleFor": [
     {
-      "VisibleId": 517,
+      "VisibleId": 382,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldType": "System.Int32",
+          "FieldLength": 141
         }
       }
     },
     {
-      "VisibleId": 517,
+      "VisibleId": 382,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldType": "System.Int32",
+          "FieldLength": 141
         }
       }
     }
@@ -293,8 +294,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldType": "System.String",
+      "FieldLength": 518
     }
   },
   "_Links": {

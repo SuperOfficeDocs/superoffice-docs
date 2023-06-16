@@ -1,6 +1,7 @@
 ---
 title: GET DashTileDefinition/{id}
 uid: v1DashTileDefinition_GetDashTileDefinition
+generated: true
 ---
 
 # GET DashTileDefinition/{id}
@@ -90,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 730,
-  "Name": "Rau, Prohaska and Glover",
-  "Description": "Multi-channelled tangible website",
-  "DefaultHeight": 244,
-  "DefaultWidth": 876,
+  "DashboardTileDefinitionId": 261,
+  "Name": "Wuckert, Hilpert and Jacobson",
+  "Description": "Operative local throughput",
+  "DefaultHeight": 797,
+  "DefaultWidth": 697,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Stamm Inc and Sons",
-  "SelectionId": 732,
+  "EntityName": "Dach-Bernhard",
+  "SelectionId": 594,
   "CurrencyMode": "Base",
-  "CurrencyCode": "laboriosam",
+  "CurrencyCode": "maiores",
   "Measure": "Average",
-  "MeasureField": "necessitatibus",
-  "SortBy": "voluptatem",
-  "LayoutConfig": "sint",
-  "SecondarySelectionId": 728,
-  "MeasureByField": "aut",
+  "MeasureField": "molestias",
+  "SortBy": "fuga",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 38,
+  "MeasureByField": "voluptatum",
   "Usage": "Dashboard",
-  "ProviderName": "Prosacco-Koelpin",
+  "ProviderName": "Farrell LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldLength": 873
     }
   },
   "_Links": {

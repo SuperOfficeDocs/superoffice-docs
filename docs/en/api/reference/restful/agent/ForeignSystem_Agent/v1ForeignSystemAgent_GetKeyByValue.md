@@ -1,6 +1,7 @@
 ---
 title: POST Agents/ForeignSystem/GetKeyByValue
 uid: v1ForeignSystemAgent_GetKeyByValue
+generated: true
 ---
 
 # POST Agents/ForeignSystem/GetKeyByValue
@@ -83,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wiza-O'Keefe",
-  "DeviceName": "Ryan LLC",
-  "KeyName": "Ankunding-Marquardt",
-  "KeyValue": "eos",
-  "TableName": "Osinski-Hammes"
+  "ApplicationName": "Sipes-Dooley",
+  "DeviceName": "Armstrong, Abernathy and Eichmann",
+  "KeyName": "Mante-Maggio",
+  "KeyValue": "voluptatem",
+  "TableName": "Kunde-Stanton"
 }
 ```
 
@@ -102,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aspernatur",
-  "Value": "similique",
-  "RecordId": 228,
-  "CreatedDate": "2002-07-12T03:51:27.3498217+02:00",
-  "UpdatedDate": "2007-11-28T03:51:27.3498217+01:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "sunt",
-  "TableName": "McCullough-Fisher",
+  "Key": "repellendus",
+  "Value": "repellat",
+  "RecordId": 816,
+  "CreatedDate": "2005-08-05T16:00:41.0705907+02:00",
+  "UpdatedDate": "2005-11-29T16:00:41.0705907+01:00",
+  "UpdatedBy": "labore",
+  "CreatedBy": "animi",
+  "TableName": "Mosciski-Rath",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 472
     }
   }
 }

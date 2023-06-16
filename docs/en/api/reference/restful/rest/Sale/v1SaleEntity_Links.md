@@ -1,6 +1,7 @@
 ---
 title: GET Sale/{id}/Links
 uid: v1SaleEntity_Links
+generated: true
 ---
 
 # GET Sale/{id}/Links
@@ -73,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Links?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Links?$orderBy=name asc
-GET /api/v1/Sale/{id}/Links?$entities=non
-GET /api/v1/Sale/{id}/Links?$top=718
-GET /api/v1/Sale/{id}/Links?$skip=585
+GET /api/v1/Sale/{id}/Links?$entities=voluptatum
+GET /api/v1/Sale/{id}/Links?$top=920
+GET /api/v1/Sale/{id}/Links?$skip=434
 GET /api/v1/Sale/{id}/Links?$mode=Full
 GET /api/v1/Sale/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Links?$context=et
+GET /api/v1/Sale/{id}/Links?$context=quos
 GET /api/v1/Sale/{id}/Links?$format=JSON
 GET /api/v1/Sale/{id}/Links?$jsonSafe=False
 GET /api/v1/Sale/{id}/Links?$output=Display
@@ -133,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptas",
+  "odata.nextLink": "sit",
   "value": [
     {
-      "PrimaryKey": 4811,
+      "PrimaryKey": 2730,
       "EntityName": "sale",
-      "saleId": 4811,
-      "contactId": 7028,
-      "name": "Johnson Inc and Sons"
+      "saleId": 2730,
+      "contactId": 9305,
+      "name": "Boyer, Larson and Dietrich"
     },
     {
-      "PrimaryKey": 7235,
+      "PrimaryKey": 8201,
       "EntityName": "sale",
-      "saleId": 7235,
-      "contactId": 8352,
-      "name": "Kunze-Gerhold"
+      "saleId": 8201,
+      "contactId": 4108,
+      "name": "Kihn, Hermann and Koch"
     }
   ]
 }

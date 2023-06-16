@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProjectStatus
 uid: v1ProjectStatusList_SetListDefinition
+generated: true
 ---
 
 # PUT List/ProjectStatus
@@ -87,16 +88,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 702,
-  "Name": "Wintheiser, Schumm and Vandervort",
-  "Tooltip": "quo",
+  "Id": 133,
+  "Name": "Hartmann-Ziemann",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 593,
+  "Rank": 4,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fuga",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "deserunt",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 15,
-  "Name": "Braun-Stehr",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 153,
+  "Id": 638,
+  "Name": "Jacobs Inc and Sons",
+  "Tooltip": "eligendi",
+  "Deleted": true,
+  "Rank": 21,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false,
+  "ListType": "id",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 128
     }
   }
 }

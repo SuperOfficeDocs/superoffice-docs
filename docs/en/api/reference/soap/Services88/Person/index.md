@@ -1,7 +1,7 @@
 ---
 title: Services88.PersonAgent SOAP
 uid: Services88-Person-soap
-generated: 1
+generated: true
 ---
 
 # Services88 Person SOAP

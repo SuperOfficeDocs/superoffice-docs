@@ -1,6 +1,7 @@
 ---
 title: GET Sale/{id}/Simple
 uid: v1SaleEntity_Simple
+generated: true
 ---
 
 # GET Sale/{id}/Simple
@@ -85,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Goodwin LLC",
-  "SaleDate": "2022-02-02T03:51:33.9740156+01:00",
-  "SaleId": 533,
-  "Probability": 956,
-  "Title": "quis",
-  "Amount": 6603.338,
-  "Currency": "dolorem",
-  "ProjectName": "Paucek, Rau and Wolff",
-  "AssociateFullName": "Richard Ruecker",
-  "Description": "Balanced didactic policy",
+  "ContactName": "Gutkowski, Kub and Crona",
+  "SaleDate": "2011-10-15T16:00:48.4146492+02:00",
+  "SaleId": 728,
+  "Probability": 578,
+  "Title": "illo",
+  "Amount": 18264.952,
+  "Currency": "nostrum",
+  "ProjectName": "Metz Group",
+  "AssociateFullName": "Bonnie Jewess",
+  "Description": "Assimilated empowering definition",
   "Status": "Lost",
-  "WeightedAmount": 30753.942,
-  "ProjectId": 522,
-  "EarningPercent": 15021.261999999999,
-  "Earning": 7060.902,
-  "ContactId": 290,
-  "AssociateId": 601,
-  "PersonId": 584,
-  "SaleTypeId": 864,
-  "SaleTypeName": "Harber, Batz and Powlowski",
-  "PersonFullName": "Rickey Lindgren",
+  "WeightedAmount": 4954.854,
+  "ProjectId": 584,
+  "EarningPercent": 30700.664,
+  "Earning": 12307.217999999999,
+  "ContactId": 575,
+  "AssociateId": 580,
+  "PersonId": 661,
+  "SaleTypeId": 669,
+  "SaleTypeName": "Pagac, Dickens and Koss",
+  "PersonFullName": "Dr. Hans Martin Bartell III",
   "Completed": "Completed",
-  "ActiveErpLinks": 711,
-  "NextDueDate": "2006-05-18T03:51:33.9740156+02:00",
-  "Number": "560873",
+  "ActiveErpLinks": 212,
+  "NextDueDate": "2004-06-03T16:00:48.4146492+02:00",
+  "Number": "1658795",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 382
+      "FieldType": "System.Int32",
+      "FieldLength": 353
     }
   }
 }

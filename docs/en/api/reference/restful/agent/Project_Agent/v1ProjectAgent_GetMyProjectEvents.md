@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Project/GetMyProjectEvents
 uid: v1ProjectAgent_GetMyProjectEvents
+generated: true
 ---
 
 # POST Agents/Project/GetMyProjectEvents
@@ -98,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Rachelle Runolfsdottir",
-    "Description": "Profound logistical pricing structure",
-    "ProjectId": 822,
-    "EventName": "Price-Veum",
-    "AssociateId": 828,
+    "AssociateFullName": "Rex Deckow",
+    "Description": "Streamlined zero defect model",
+    "ProjectId": 424,
+    "EventName": "Pfeffer, Trantow and Steuber",
+    "AssociateId": 973,
     "IsSignedOn": true,
-    "SignOffConfirmationText": "sint",
-    "SignOffText": "accusantium",
-    "SignOnConfirmationText": "nesciunt",
-    "SignOnText": "vel",
-    "EventDate": "2012-06-03T03:51:27.943438+02:00",
+    "SignOffConfirmationText": "sunt",
+    "SignOffText": "cumque",
+    "SignOnConfirmationText": "dolores",
+    "SignOnText": "et",
+    "EventDate": "2002-12-28T16:00:41.5707037+01:00",
     "Enabled": true,
     "SignOff": false,
     "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
     "SignOn": false,
-    "SignOffTaskId": 719,
-    "SignOnTaskId": 126,
+    "SignOffTaskId": 560,
+    "SignOnTaskId": 735,
     "SignOffTriggersAssign": true,
-    "SignOnTriggersAssign": true,
-    "SignOnPersonId": 302,
-    "SignOffPersonId": 358,
+    "SignOnTriggersAssign": false,
+    "SignOnPersonId": 152,
+    "SignOffPersonId": 771,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 281
+        "FieldLength": 840
       }
     }
   }

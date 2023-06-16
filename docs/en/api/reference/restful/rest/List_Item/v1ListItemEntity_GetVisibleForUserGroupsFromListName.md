@@ -1,6 +1,7 @@
 ---
 title: GET List/{udListDefinitionName}/Items/{id}/UserGroups
 uid: v1ListItemEntity_GetVisibleForUserGroupsFromListName
+generated: true
 ---
 
 # GET List/{udListDefinitionName}/Items/{id}/UserGroups
@@ -73,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 355,
-    "Name": "Tromp-Mosciski",
-    "ToolTip": "Quibusdam et quod et voluptate.",
-    "Deleted": true,
-    "Rank": 492,
-    "Type": "voluptate",
-    "ColorBlock": 604,
-    "IconHint": "optio",
-    "Selected": false,
-    "LastChanged": "2005-08-13T03:51:34.3490406+02:00",
+    "Id": 938,
+    "Name": "Turcotte-Wolff",
+    "ToolTip": "Et aut et.",
+    "Deleted": false,
+    "Rank": 989,
+    "Type": "ipsum",
+    "ColorBlock": 734,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2016-07-06T16:00:48.8364781+02:00",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Gleichner-Brekke",
-        "ToolTip": "Perferendis delectus est iste maxime accusantium.",
+        "Id": 78,
+        "Name": "Stamm-Kovacek",
+        "ToolTip": "Sapiente culpa incidunt.",
         "Deleted": false,
-        "Rank": 339,
-        "Type": "molestiae",
-        "ColorBlock": 207,
-        "IconHint": "quisquam",
+        "Rank": 69,
+        "Type": "perspiciatis",
+        "ColorBlock": 994,
+        "IconHint": "occaecati",
         "Selected": false,
-        "LastChanged": "1996-09-03T03:51:34.3490406+02:00",
+        "LastChanged": "2006-06-24T16:00:48.8364781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "eaque",
+        "ExtraInfo": "labore",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Marlin Ezequiel Rowe PhD",
+        "FullName": "Alta Prosacco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldType": "System.String",
+            "FieldLength": 987
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "omnis",
+    "ExtraInfo": "amet",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Madelynn Blanda",
+    "FullName": "Easter Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldType": "System.String",
+        "FieldLength": 627
       }
     }
   }

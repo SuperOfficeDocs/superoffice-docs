@@ -1,6 +1,7 @@
 ---
 title: PUT List/ProductFamily/Items/{id}/UserGroups
 uid: v1ProductFamilyList_PutProductFamilyUserGroupsForListItem
+generated: true
 ---
 
 # PUT List/ProductFamily/Items/{id}/UserGroups
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 431,
-    "Name": "Langworth-Dickens",
-    "ToolTip": "Eum molestiae qui blanditiis reiciendis.",
-    "Deleted": true,
-    "Rank": 97,
-    "Type": "magni",
-    "ColorBlock": 695,
-    "IconHint": "expedita",
+    "Id": 126,
+    "Name": "Hilll-Boehm",
+    "ToolTip": "Libero et nostrum voluptatem debitis illum quo.",
+    "Deleted": false,
+    "Rank": 456,
+    "Type": "beatae",
+    "ColorBlock": 248,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "1998-08-22T03:51:34.8176965+02:00",
+    "LastChanged": "2008-02-23T16:00:49.1645684+01:00",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "McGlynn LLC",
-        "ToolTip": "Qui vero veniam.",
+        "Id": 736,
+        "Name": "Hamill Inc and Sons",
+        "ToolTip": "Velit est aperiam ut.",
         "Deleted": false,
-        "Rank": 976,
-        "Type": "cum",
-        "ColorBlock": 960,
-        "IconHint": "impedit",
+        "Rank": 636,
+        "Type": "veritatis",
+        "ColorBlock": 160,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "1996-10-08T03:51:34.8176965+02:00",
+        "LastChanged": "2010-01-05T16:00:49.1645684+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "qui",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Elyssa Erdman"
+        "FullName": "Dr. Ransom Kassulke"
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "ex",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Domingo Crist"
+    "FullName": "Mrs. Houston Samantha Schaefer"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Denesik-Donnelly",
-    "ToolTip": "Sit magni ut id.",
-    "Deleted": false,
-    "Rank": 237,
-    "Type": "amet",
-    "ColorBlock": 506,
-    "IconHint": "accusantium",
+    "Id": 474,
+    "Name": "Kling, Goldner and Watsica",
+    "ToolTip": "Facilis officiis earum animi voluptatem quibusdam consectetur.",
+    "Deleted": true,
+    "Rank": 290,
+    "Type": "natus",
+    "ColorBlock": 81,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2004-05-10T03:51:34.8176965+02:00",
+    "LastChanged": "1998-05-18T16:00:49.1645684+02:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Howe-Marvin",
-        "ToolTip": "Molestiae est rem.",
+        "Id": 780,
+        "Name": "DuBuque, Bins and Cole",
+        "ToolTip": "Qui libero quo ut veritatis.",
         "Deleted": false,
-        "Rank": 408,
-        "Type": "officiis",
-        "ColorBlock": 392,
-        "IconHint": "sed",
+        "Rank": 339,
+        "Type": "amet",
+        "ColorBlock": 937,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2007-10-13T03:51:34.8176965+02:00",
+        "LastChanged": "1999-03-22T16:00:49.1645684+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Verona Littel",
+        "FullName": "Milan Emmerich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 130
+            "FieldType": "System.Int32",
+            "FieldLength": 698
           }
         }
       }
     ],
     "ExtraInfo": "voluptas",
-    "StyleHint": "itaque",
+    "StyleHint": "voluptate",
     "Hidden": false,
-    "FullName": "Miss Rosalee Gorczany",
+    "FullName": "Kelly Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldLength": 336
       }
     }
   }

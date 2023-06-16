@@ -1,6 +1,7 @@
 ---
 title: DEL List/SaleType/Headings
 uid: v1SaleTypeList_DeleteSaleTypeEntityHeadings
+generated: true
 ---
 
 # DEL List/SaleType/Headings
@@ -47,7 +48,7 @@ No Content
 DELETE /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

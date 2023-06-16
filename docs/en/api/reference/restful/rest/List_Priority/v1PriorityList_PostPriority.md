@@ -1,6 +1,7 @@
 ---
 title: POST List/Priority/Items
 uid: v1PriorityList_PostPriority
+generated: true
 ---
 
 # POST List/Priority/Items
@@ -72,16 +73,16 @@ OK
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 836,
-  "Name": "Marks-Nienow",
-  "Tooltip": "dolores",
+  "Id": 739,
+  "Name": "Bechtelar-Boyle",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 814,
-  "Rank": 409
+  "UdListDefinitionId": 65,
+  "Rank": 521
 }
 ```
 
@@ -92,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 506,
-  "Name": "Hoeger LLC",
-  "Tooltip": "magnam",
+  "Id": 797,
+  "Name": "Boehm, Hyatt and Feeney",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "UdListDefinitionId": 368,
-  "Rank": 964,
+  "UdListDefinitionId": 157,
+  "Rank": 605,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldLength": 925
     }
   }
 }

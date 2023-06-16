@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/GetSystemTemplateSettings
 uid: v1CustomerServiceAgent_GetSystemTemplateSettings
+generated: true
 ---
 
 # POST Agents/CustomerService/GetSystemTemplateSettings
@@ -94,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 7,
-  "CustomerCustomerReplyTemplateId": 838,
-  "CustomerPasswordTemplateId": 712,
-  "CustomerConfirmEmailTemplateId": 47,
-  "CustomerChatLogTemplateId": 472,
-  "NewLinkTemplateId": 887,
-  "HotlistNewMessageTemplateId": 203,
-  "HotlistTicketActivatedTemplateId": 948,
-  "UserTicketAlarmTemplateId": 959,
-  "HotlistTicketTakenOverTemplateId": 15,
-  "UserActiveTicketsTemplateId": 551,
-  "UserNewMessageTemplateId": 540,
-  "UserTicketActivatedTemplateId": 382,
-  "UserNewTicketTemplateId": 389,
-  "PublishKbQuestionTemplateId": 454,
-  "PublishKbAnswerTemplateId": 119,
-  "UserTicketTakenOverTemplateId": 791,
-  "PrintTicketTemplateId": 988,
-  "WeekStatTemplateId": 205,
-  "TicketAlarmHotlistTemplateId": 772,
-  "EmailAddresses": "leanne@dach.uk",
+  "CustomerNewCustomerTemplateId": 192,
+  "CustomerCustomerReplyTemplateId": 427,
+  "CustomerPasswordTemplateId": 636,
+  "CustomerConfirmEmailTemplateId": 979,
+  "CustomerChatLogTemplateId": 225,
+  "NewLinkTemplateId": 623,
+  "HotlistNewMessageTemplateId": 470,
+  "HotlistTicketActivatedTemplateId": 527,
+  "UserTicketAlarmTemplateId": 40,
+  "HotlistTicketTakenOverTemplateId": 834,
+  "UserActiveTicketsTemplateId": 313,
+  "UserNewMessageTemplateId": 289,
+  "UserTicketActivatedTemplateId": 795,
+  "UserNewTicketTemplateId": 518,
+  "PublishKbQuestionTemplateId": 751,
+  "PublishKbAnswerTemplateId": 296,
+  "UserTicketTakenOverTemplateId": 618,
+  "PrintTicketTemplateId": 983,
+  "WeekStatTemplateId": 600,
+  "TicketAlarmHotlistTemplateId": 750,
+  "EmailAddresses": "della@mantemoen.ca",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 818
     }
   }
 }

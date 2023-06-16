@@ -1,6 +1,7 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetChangedPageOneFields
 uid: v1UserDefinedFieldInfoAgent_GetChangedPageOneFields
+generated: true
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetChangedPageOneFields
@@ -68,12 +69,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetChangedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 255
+  "UserGroupId": 970
 }
 ```
 
@@ -84,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  true,
+  false,
   true
 ]
 ```

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Workflow/SaveWorkflowStepOption
 uid: v1WorkflowAgent_SaveWorkflowStepOption
+generated: true
 ---
 
 # POST Agents/Workflow/SaveWorkflowStepOption
@@ -74,28 +75,28 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 376,
-  "WorkflowStepId": 844,
-  "WorkflowId": 679,
-  "Key": "facere",
-  "Name": "Marquardt LLC",
-  "Rank": 385,
+  "WorkflowStepOptionId": 758,
+  "WorkflowStepId": 447,
+  "WorkflowId": 145,
+  "Key": "et",
+  "Name": "Hudson, Stokes and Funk",
+  "Rank": 958,
   "Steps": [
     {
-      "WorkflowStepId": 147,
-      "WorkflowId": 451,
+      "WorkflowStepId": 856,
+      "WorkflowId": 270,
       "StepType": "AddToList",
-      "Rank": 260
+      "Rank": 432
     },
     {
-      "WorkflowStepId": 147,
-      "WorkflowId": 451,
+      "WorkflowStepId": 856,
+      "WorkflowId": 270,
       "StepType": "AddToList",
-      "Rank": 260
+      "Rank": 432
     }
   ]
 }
@@ -108,24 +109,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 944,
-  "WorkflowStepId": 714,
-  "WorkflowId": 480,
-  "Key": "quo",
-  "Name": "Koelpin, Durgan and Kassulke",
-  "Rank": 841,
+  "WorkflowStepOptionId": 327,
+  "WorkflowStepId": 162,
+  "WorkflowId": 787,
+  "Key": "nemo",
+  "Name": "Eichmann-Feest",
+  "Rank": 847,
   "Steps": [
     {
-      "WorkflowStepId": 578,
-      "WorkflowId": 974,
+      "WorkflowStepId": 497,
+      "WorkflowId": 909,
       "StepType": "AddToList",
-      "Rank": 196
+      "Rank": 389
     },
     {
-      "WorkflowStepId": 578,
-      "WorkflowId": 974,
+      "WorkflowStepId": 497,
+      "WorkflowId": 909,
       "StepType": "AddToList",
-      "Rank": 196
+      "Rank": 389
     }
   ],
   "TableRight": null,
@@ -133,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 968
+      "FieldLength": 452
     }
   }
 }

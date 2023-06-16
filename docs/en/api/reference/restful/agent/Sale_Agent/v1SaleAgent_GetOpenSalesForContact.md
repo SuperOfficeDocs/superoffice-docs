@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/GetOpenSalesForContact
 uid: v1SaleAgent_GetOpenSalesForContact
+generated: true
 ---
 
 # POST Agents/Sale/GetOpenSalesForContact
@@ -96,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 275
+  "ContactId": 536
 }
 ```
 
@@ -112,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hodkiewicz-Collins",
-    "SaleDate": "2012-09-12T03:51:28.1308861+02:00",
-    "SaleId": 426,
-    "Probability": 711,
-    "Title": "et",
-    "Amount": 12601.814,
-    "Currency": "aliquam",
-    "ProjectName": "Cruickshank Inc and Sons",
-    "AssociateFullName": "Shania Willms",
-    "Description": "Face to face multi-state groupware",
+    "ContactName": "Lemke Group",
+    "SaleDate": "1999-05-07T16:00:41.7894273+02:00",
+    "SaleId": 373,
+    "Probability": 904,
+    "Title": "cumque",
+    "Amount": 17823.058,
+    "Currency": "id",
+    "ProjectName": "O'Kon, Flatley and Witting",
+    "AssociateFullName": "Emelia Breitenberg",
+    "Description": "Grass-roots uniform migration",
     "Status": "Lost",
-    "WeightedAmount": 11696.088,
-    "ProjectId": 321,
-    "EarningPercent": 28343.896,
-    "Earning": 13748.858,
-    "ContactId": 328,
-    "AssociateId": 430,
-    "PersonId": 385,
-    "SaleTypeId": 147,
-    "SaleTypeName": "Runolfsson Inc and Sons",
-    "PersonFullName": "Mrs. Citlalli Michele Spinka PhD",
+    "WeightedAmount": 9583.771999999999,
+    "ProjectId": 937,
+    "EarningPercent": 14225.225999999999,
+    "Earning": 10630.528,
+    "ContactId": 384,
+    "AssociateId": 621,
+    "PersonId": 924,
+    "SaleTypeId": 817,
+    "SaleTypeName": "Spencer-Jerde",
+    "PersonFullName": "Mable Amara Bosco MD",
     "Completed": "Completed",
-    "ActiveErpLinks": 956,
-    "NextDueDate": "2020-11-25T03:51:28.1308861+01:00",
-    "Number": "968045",
+    "ActiveErpLinks": 762,
+    "NextDueDate": "2012-03-05T16:00:41.7894273+01:00",
+    "Number": "612215",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 636
+        "FieldLength": 438
       }
     }
   }

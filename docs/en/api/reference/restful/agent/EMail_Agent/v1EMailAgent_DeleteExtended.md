@@ -1,6 +1,7 @@
 ---
 title: POST Agents/EMail/DeleteExtended
 uid: v1EMailAgent_DeleteExtended
+generated: true
 ---
 
 # POST Agents/EMail/DeleteExtended
@@ -72,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfoExtended": null,
   "MessageIds": [
-    "sit",
-    "enim"
+    "dolores",
+    "et"
   ]
 }
 ```

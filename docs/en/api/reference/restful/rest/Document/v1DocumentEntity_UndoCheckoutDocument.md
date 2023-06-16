@@ -1,6 +1,7 @@
 ---
 title: DEL Document/{id}/Lock
 uid: v1DocumentEntity_UndoCheckoutDocument
+generated: true
 ---
 
 # DEL Document/{id}/Lock
@@ -77,11 +78,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "quo",
-  "VersionId": "dolorem",
+  "ExternalReference": "cumque",
+  "VersionId": "ut",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "consequatur",
-  "AdditionalInfo": "qui"
+  "Value": "animi",
+  "AdditionalInfo": "quia"
 }
 ```

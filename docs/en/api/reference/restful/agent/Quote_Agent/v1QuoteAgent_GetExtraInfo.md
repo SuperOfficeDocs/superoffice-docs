@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/GetExtraInfo
 uid: v1QuoteAgent_GetExtraInfo
+generated: true
 ---
 
 # POST Agents/Quote/GetExtraInfo
@@ -74,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "dolorem"
+  "QuoteLineExtraData": "cumque"
 }
 ```
 
@@ -90,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nienow LLC",
-    "Value": "corporis",
+    "Name": "Heathcote, Maggio and Hammes",
+    "Value": "aut",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldLength": 916
       }
     }
   },
   {
-    "Name": "Nienow LLC",
-    "Value": "corporis",
+    "Name": "Heathcote, Maggio and Hammes",
+    "Value": "aut",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldLength": 916
       }
     }
   }

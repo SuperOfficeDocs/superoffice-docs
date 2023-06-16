@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Quote/SaveProduct
 uid: v1QuoteAgent_SaveProduct
+generated: true
 ---
 
 # POST Agents/Quote/SaveProduct
@@ -132,51 +133,51 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 664,
-  "ERPProductKey": "incidunt",
-  "ERPPriceListKey": "accusamus",
-  "Name": "Bergnaum-Feeney",
-  "Description": "Balanced value-added policy",
-  "Code": "omnis",
-  "PriceUnit": "autem",
-  "QuantityUnit": "perspiciatis",
-  "IsSubscription": true,
-  "SubscriptionUnit": "repellendus",
-  "DefaultSubscriptionQuantity": 2297.2219999999998,
-  "ItemNumber": "838317",
+  "ProductId": 743,
+  "ERPProductKey": "cum",
+  "ERPPriceListKey": "corrupti",
+  "Name": "Johns, Fahey and Mayer",
+  "Description": "Synergistic attitude-oriented policy",
+  "Code": "natus",
+  "PriceUnit": "aut",
+  "QuantityUnit": "sunt",
+  "IsSubscription": false,
+  "SubscriptionUnit": "praesentium",
+  "DefaultSubscriptionQuantity": 5431.222,
+  "ItemNumber": "72268",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nostrum",
-  "ProductTypeKey": "sint",
-  "VAT": 17932.748,
-  "VATInfo": "tenetur",
-  "UnitCost": 9088.6,
-  "UnitMinimumPrice": 22430.038,
-  "UnitListPrice": 19377.522,
+  "ProductFamilyKey": "fugit",
+  "ProductTypeKey": "eaque",
+  "VAT": 21292.396,
+  "VATInfo": "saepe",
+  "UnitCost": 11576.996,
+  "UnitMinimumPrice": 24802.476,
+  "UnitListPrice": 23545.742,
   "InAssortment": false,
-  "Supplier": "voluptatem",
-  "SupplierCode": "voluptatibus",
-  "Rights": "consequatur",
-  "Rule": "quis",
+  "Supplier": "officiis",
+  "SupplierCode": "non",
+  "Rights": "neque",
+  "Rule": "quisquam",
   "ExtraInfo": [
     {
-      "Name": "Fisher, Abernathy and Russel",
-      "Value": "consequatur",
+      "Name": "Ondricka-Kshlerin",
+      "Value": "asperiores",
       "Type": "Image"
     },
     {
-      "Name": "Fisher, Abernathy and Russel",
-      "Value": "consequatur",
+      "Name": "Ondricka-Kshlerin",
+      "Value": "asperiores",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "esse",
-  "ExtraField1": "perspiciatis",
-  "ExtraField2": "ea",
-  "ExtraField3": "et",
-  "ExtraField4": "repellat",
-  "ExtraField5": "quidem",
-  "InStock": 5431.222
+  "RawExtraInfo": "dolorem",
+  "ExtraField1": "error",
+  "ExtraField2": "magni",
+  "ExtraField3": "laboriosam",
+  "ExtraField4": "deleniti",
+  "ExtraField5": "molestiae",
+  "InStock": 8609.098
 }
 ```
 
@@ -187,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 79,
-  "ERPProductKey": "nam",
-  "ERPPriceListKey": "fuga",
-  "Name": "Reinger-Price",
-  "Description": "Customizable upward-trending collaboration",
-  "Code": "velit",
-  "PriceUnit": "impedit",
-  "QuantityUnit": "nihil",
-  "IsSubscription": false,
-  "SubscriptionUnit": "reiciendis",
-  "DefaultSubscriptionQuantity": 106.556,
-  "ItemNumber": "1529919",
+  "ProductId": 950,
+  "ERPProductKey": "quo",
+  "ERPPriceListKey": "aut",
+  "Name": "Jewess, Ferry and Schmitt",
+  "Description": "Visionary static collaboration",
+  "Code": "quia",
+  "PriceUnit": "itaque",
+  "QuantityUnit": "rerum",
+  "IsSubscription": true,
+  "SubscriptionUnit": "rem",
+  "DefaultSubscriptionQuantity": 12470.186,
+  "ItemNumber": "1596114",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quisquam",
-  "ProductTypeKey": "et",
-  "VAT": 5468.83,
-  "VATInfo": "odit",
-  "UnitCost": 9909.708,
-  "UnitMinimumPrice": 18261.818,
-  "UnitListPrice": 11028.546,
-  "InAssortment": true,
-  "Supplier": "et",
-  "SupplierCode": "et",
-  "Rights": "id",
-  "Rule": "deleniti",
+  "ProductFamilyKey": "quis",
+  "ProductTypeKey": "perspiciatis",
+  "VAT": 2748.518,
+  "VATInfo": "asperiores",
+  "UnitCost": 21709.218,
+  "UnitMinimumPrice": 12219.466,
+  "UnitListPrice": 11705.49,
+  "InAssortment": false,
+  "Supplier": "nam",
+  "SupplierCode": "exercitationem",
+  "Rights": "esse",
+  "Rule": "blanditiis",
   "ExtraInfo": [
     {
-      "Name": "Huel Inc and Sons",
-      "Value": "fuga",
+      "Name": "Graham-Kuhic",
+      "Value": "at",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 791
+          "FieldType": "System.Int32",
+          "FieldLength": 331
         }
       }
     },
     {
-      "Name": "Huel Inc and Sons",
-      "Value": "fuga",
+      "Name": "Graham-Kuhic",
+      "Value": "at",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 791
+          "FieldType": "System.Int32",
+          "FieldLength": 331
         }
       }
     }
   ],
-  "RawExtraInfo": "incidunt",
-  "ExtraField1": "omnis",
-  "ExtraField2": "ut",
-  "ExtraField3": "at",
-  "ExtraField4": "explicabo",
-  "ExtraField5": "ad",
-  "InStock": 8505.676,
+  "RawExtraInfo": "laudantium",
+  "ExtraField1": "voluptatum",
+  "ExtraField2": "ea",
+  "ExtraField3": "enim",
+  "ExtraField4": "in",
+  "ExtraField5": "deleniti",
+  "InStock": 642.47,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 543
     }
   }
 }

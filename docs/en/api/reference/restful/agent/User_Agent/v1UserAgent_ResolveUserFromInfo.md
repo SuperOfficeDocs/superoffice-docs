@@ -1,6 +1,7 @@
 ---
 title: POST Agents/User/ResolveUserFromInfo
 uid: v1UserAgent_ResolveUserFromInfo
+generated: true
 ---
 
 # POST Agents/User/ResolveUserFromInfo
@@ -87,15 +88,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 615,
-  "PersonName": "Walker-Champlin",
+  "ContactId": 40,
+  "PersonName": "Cruickshank, Cartwright and Pollich",
   "PhoneNumbers": [
-    "703043",
-    "1391986"
+    "1002605",
+    "1395332"
   ],
   "Emails": [
-    "gerhard@jacobson.name",
-    "damon@pfannerstill.name"
+    "elvis@goldner.info",
+    "matteo@bogisich.com"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -115,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldType": "System.String",
+      "FieldLength": 362
     }
   }
 }

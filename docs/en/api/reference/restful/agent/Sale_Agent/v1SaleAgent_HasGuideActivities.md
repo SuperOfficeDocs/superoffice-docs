@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Sale/HasGuideActivities
 uid: v1SaleAgent_HasGuideActivities
+generated: true
 ---
 
 # POST Agents/Sale/HasGuideActivities
@@ -71,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 725
+  "SaleId": 211
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: POST Agents/List/CreateDefaultCountry
 uid: v1ListAgent_CreateDefaultCountry
+generated: true
 ---
 
 # POST Agents/List/CreateDefaultCountry
@@ -91,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 878,
-  "Name": "Hegmann Group",
-  "CurrencyId": 880,
-  "EnglishName": "Purdy, Wunsch and Fadel",
+  "CountryId": 923,
+  "Name": "VonRueden-Denesik",
+  "CurrencyId": 174,
+  "EnglishName": "Reilly, Ullrich and Stiedemann",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Advanced logistical firmware",
-  "OrgNrText": "843074",
-  "InterAreaPrefix": "iure",
-  "DialInPrefix": "qui",
-  "ZipPrefix": "tenetur",
-  "DomainName": "Bosco Group",
-  "AddressLayoutId": 912,
-  "DomesticAddressLayoutId": 556,
-  "ForeignAddressLayoutId": 639,
-  "Rank": 163,
-  "Tooltip": "quae",
+  "ImageDescription": "Object-based composite core",
+  "OrgNrText": "1258648",
+  "InterAreaPrefix": "dicta",
+  "DialInPrefix": "molestiae",
+  "ZipPrefix": "est",
+  "DomainName": "Aufderhar, Kreiger and Spinka",
+  "AddressLayoutId": 907,
+  "DomesticAddressLayoutId": 375,
+  "ForeignAddressLayoutId": 95,
+  "Rank": 729,
+  "Tooltip": "non",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 822
+      "FieldType": "System.Int32",
+      "FieldLength": 194
     }
   }
 }

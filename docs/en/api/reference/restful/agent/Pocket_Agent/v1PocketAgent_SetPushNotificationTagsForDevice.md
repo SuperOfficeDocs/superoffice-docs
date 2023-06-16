@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Pocket/SetPushNotificationTagsForDevice
 uid: v1PocketAgent_SetPushNotificationTagsForDevice
+generated: true
 ---
 
 # POST Agents/Pocket/SetPushNotificationTagsForDevice
@@ -64,12 +65,12 @@ No Content
 POST /api/v1/Agents/Pocket/SetPushNotificationTagsForDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "minima",
-  "Tags": "velit"
+  "DeviceIdentifier": "et",
+  "Tags": "sequi"
 }
 ```
 

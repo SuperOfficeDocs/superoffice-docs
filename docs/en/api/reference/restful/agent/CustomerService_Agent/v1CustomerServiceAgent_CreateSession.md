@@ -1,6 +1,7 @@
 ---
 title: POST Agents/CustomerService/CreateSession
 uid: v1CustomerServiceAgent_CreateSession
+generated: true
 ---
 
 # POST Agents/CustomerService/CreateSession
@@ -78,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "ut"
+  "RemoteIp": "impedit"
 }
 ```
 
@@ -89,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "consequatur",
-  "LoginId": 762,
-  "UserId": 579,
+  "Key": "eius",
+  "LoginId": 834,
+  "UserId": 698,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldType": "System.Int32",
+      "FieldLength": 192
     }
   }
 }

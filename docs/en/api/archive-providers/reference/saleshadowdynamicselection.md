@@ -2,17 +2,10 @@
 uid: SaleShadowDynamicSelection
 title: SaleShadowDynamicSelection
 description: Shadow contact provider for the dynamic sale provider.
-keywords:
-  - "archive"
-  - "provider"
-  - "archive provider"
-  - "SaleShadowDynamicSelection"
+keywords: SaleShadowDynamicSelection archive provider
 so.generated: true
-so.date: 05.25.2023
 so.topic: reference
-so.envir:
-  - "onsite"
-  - "online"
+so.envir: onsite, online
 ---
 
 # "SaleShadowDynamicSelection"
@@ -128,6 +121,10 @@ Shadow contact provider for the dynamic sale provider.
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personBusiness|listAny|Business| x |
@@ -228,6 +225,10 @@ Shadow contact provider for the dynamic sale provider.
 |person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/associateDbId|associate|ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -328,6 +329,10 @@ Shadow contact provider for the dynamic sale provider.
 |contact/email/emailDescription|string|Description| x |
 |contact/email/emailId|int|ID| x |
 |contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
@@ -428,6 +433,10 @@ Shadow contact provider for the dynamic sale provider.
 |contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
@@ -528,6 +537,10 @@ Shadow contact provider for the dynamic sale provider.
 |appointment/recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
 |appointment/rawType|int|Type: Type field for appointment, not decoded or formatted| x |
 |appointment/rawStatus|int|Status: Status field for the follow-up, not decoded or formatted| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
 |appointment/visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
 |appointment/endTime| *None* |End time: End time of an activity|  |
@@ -628,6 +641,10 @@ Shadow contact provider for the dynamic sale provider.
 |document/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |document/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |document/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |document/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |document/associate/associateDbId|associate|ID| x |
 |document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -728,6 +745,10 @@ Shadow contact provider for the dynamic sale provider.
 |project/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |project/projectUdef/SuperOffice:3|int|projectnumber| x |
 |project/projectUdef/SuperOffice:4|date|projectdate| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 |project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
@@ -828,6 +849,10 @@ Shadow contact provider for the dynamic sale provider.
 |saleStakeholder/person/email/emailProtocol|string|Stakeholder - Protocol: E-mail protocol, such as SMTP| x |
 |saleStakeholder/person/email/emailAddress|string|Stakeholder - E-mail| x |
 |saleStakeholder/person/email/emailDescription|string|Stakeholder - Description| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/email/emailId|int|Stakeholder - ID| x |
 |saleStakeholder/person/email/emailLastSent|datetime|Stakeholder - Last sent: The date and time an e-mail was last sent to this address| x |
 |saleStakeholder/person/email/emailBounceCount|int|Stakeholder - Bounce count: Bounce count for this e-mail address| x |
@@ -928,6 +953,10 @@ Shadow contact provider for the dynamic sale provider.
 |saleStakeholder/person/correspondingAssociate/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
 |saleStakeholder/person/correspondingAssociate/middleName|string|Stakeholder - Middle Name: Displays the contact's middle name.| x |
 |saleStakeholder/person/correspondingAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/correspondingAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
 |saleStakeholder/person/correspondingAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
 |saleStakeholder/person/correspondingAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -1028,6 +1057,10 @@ Shadow contact provider for the dynamic sale provider.
 |saleStakeholder/contact/streetAddress/state|string|Stakeholder - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |saleStakeholder/contact/streetAddress/wgs84latitude|decimal|Stakeholder - Street address - Latitude: Latitude| x |
 |saleStakeholder/contact/streetAddress/wgs84longitude|decimal|Stakeholder - Street address - Longitude: Longitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/streetAddress/formattedAddress| *None* |Stakeholder - Street address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/contact/streetAddress/formattedMultiLineAddress| *None* |Stakeholder - Street address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/contact/restrictionAddress/addressId|int|Stakeholder - Search address - Address ID: Database ID for the address record| x |
@@ -1128,6 +1161,10 @@ Shadow contact provider for the dynamic sale provider.
 |saleStakeholder/contact/SaintStatus1|saintStatus|Stakeholder - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |saleStakeholder/contact/SaintStatus2|saintStatus|Stakeholder - C-company: Kundens navn starter med bokstaven C|  |
 |saleStakeholder/contact/saintSaleStatus|listAny|Stakeholder - With status|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/saintAmountClass|listAny|Stakeholder - Amount class|  |
 |saleStakeholder/contact/saintActivityType|listAny|Stakeholder - SAINT type|  |
 |saleStakeholder/contact/saintDirection|listAny|Stakeholder - Direction|  |
@@ -1231,7 +1268,7 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelection?$select=updatedDate,person/personUdef/SuperOffice:4,person/personExtra/x_person_float,person/correspondingAssociate/portraitThumbnail,person/withdrawnEmarketingConsent
+GET /api/v1/archive/SaleShadowDynamicSelection?$select=person/restrictionAddress/county,person/restrictionAddress/formattedAddress,person/correspondingAssociate/contactFullName,person/correspondingAssociate/credentialDisplayValue,contact/contactSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

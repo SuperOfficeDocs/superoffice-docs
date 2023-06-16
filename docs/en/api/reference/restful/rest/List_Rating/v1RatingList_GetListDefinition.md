@@ -1,6 +1,7 @@
 ---
 title: GET List/Rating
 uid: v1RatingList_GetListDefinition
+generated: true
 ---
 
 # GET List/Rating
@@ -74,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 667,
-  "Name": "Gibson, Collier and Schulist",
-  "Tooltip": "veritatis",
-  "Deleted": true,
-  "Rank": 833,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "vel",
+  "Id": 373,
+  "Name": "Witting, Durgan and Daugherty",
+  "Tooltip": "reprehenderit",
+  "Deleted": false,
+  "Rank": 289,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "earum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldType": "System.String",
+      "FieldLength": 554
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

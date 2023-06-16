@@ -1,6 +1,7 @@
 ---
 title: POST Agents/Preference/GetTabOrder
 uid: v1PreferenceAgent_GetTabOrder
+generated: true
 ---
 
 # POST Agents/Preference/GetTabOrder
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/Preference/GetTabOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Nienow Group"
+  "TabName": "Weimann, Douglas and Hermiston"
 }
 ```
 
@@ -90,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 919,
-  "TabName": "Blick, Collins and Tromp",
-  "Order": "ipsam",
-  "AssociateId": 503,
+  "TabOrderId": 563,
+  "TabName": "Boyle, O'Keefe and Cummings",
+  "Order": "ea",
+  "AssociateId": 343,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldLength": 937
     }
   }
 }
