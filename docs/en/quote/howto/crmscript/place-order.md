@@ -1,9 +1,10 @@
 ---
-uid: crmscript_quote_order
+uid: crmscript-quote-order
 title: Place order
+description: Create order based on quote version
 author: Bergfrid Dias
-so.date: 02.04.2022
-keywords: quote
+so.date: 06.12.2023
+keywords: quote, sale, order, QuoteAgent
 so.topic: howto
 ---
 
@@ -28,10 +29,10 @@ if (order.GetIsOk()) {
 ### Parameters
 
 * ID of the alternative to place the order on
-* should the sale be set to sold? (bool)
-* purchase order number
-* comment
-* culture (for culture-sensitive data, such as dates or multi-language texts)
+* Should the sale be set to sold? (bool)
+* Purchase order number
+* Comment
+* Culture (for culture-sensitive data, such as dates or multi-language texts)
 
 > [!TIP]
 > To place an order for an **archived** version of the quote, call `CreateAndSaveQuoteVersion()` passing the ID of the old version. Then get the quote alternative ID from the newly created copy (which is now the active version).
@@ -53,54 +54,6 @@ This example prints the 1st 20 characters of the stream.
 
 > [!TIP]
 > Learn more about [strings][1] and [documents][2].
-
-## Order-related info you might want to set or check
-
-### Accepted quote alternative
-
-```crmscript!
-NSQuoteAgent qa;
-NSQuoteEntity quote = qa.GetQuoteEntity(11);
-printLine(quote.GetAcceptedQuoteAlternativeId().toString());
-```
-
-### PO number
-
-```crmscript!
-NSQuoteAgent qa;
-NSQuoteEntity quote = qa.GetQuoteEntity(11);
-printLine(quote.GetPoNumber());
-```
-
-### Accepted by customer?
-
-```crmscript!
-NSQuoteAgent qa;
-NSQuoteEntity quote = qa.GetQuoteEntity(11);
-NSQuoteVersion version = qa.GetQuoteVersion(quote.GetActiveQuoteVersionId());
-Integer state = version.GetState();
-
-if (state == 9) {
-  printLine("Accepted by customer");
-}
-else if (state == 8) {
-  printLine("Rejected by customer");
-}
-else {
-  printLine("quote not finalized yet");
-}
-```
-
-### Mark sale as sold
-
-```crmscript
-NSQuoteAgent qa;
-NSQuoteEntity quote = qa.GetQuoteEntity(11);
-
-NSSaleEntity sale = saleAgent.GetSaleEntity(quote.GetSaleId());
-sale.SetStatus(2);
-sale = saleAgent.SaveSaleEntity(sale);
-```
 
 <!-- Referenced links -->
 [1]: ../../../automation/crmscript/datatypes/string-type.md

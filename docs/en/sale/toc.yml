@@ -3,54 +3,50 @@ items:
   href: index.yml
   expanded: true
   items:
-  - name: Introduction
+  - name: Introduction to sales
     href: overview.md
-  - name: Stakeholders
-    href: stakeholders.md
+  - name: Quote management
+    href: ../quote/index.md
   - name: Sales intelligence (SAINT)
     href: saint/index.md
-    items:
-    - name: Counters
-      href: saint/counters.md
-    - name: Values
-      href: saint/values.md
-    - name: Web services
-      href: saint/services/index.md
-      items:
-      - name: Link sale to appointment
-        href: saint/services/link-sale-to-appointment-services.md
-    - name: Entities
-      href: saint/entity/index.md
-      items:
-      - name: Link sale to appointment
-        href: saint/entity/link-sale-to-appointment-entity.md
-    - name: Rows
-      href: saint/row/index.md
-      items:
-      - name: Search SAINT (ContactRow.CustomSearch)
-        href: saint/row/search-saint-contactrow-customsearch.md
-    - name: Raw SQL
-      href: saint/sql/index.md
-      items:
-      - name: Get contact by saint value
-        href: saint/sql/get-contact-by-saint-value-sql.md
-      - name: Search SAINT values
-        href: saint/sql/search-saint-values-sql.md
-  - name: API options
+  - name: API options - sale
     href: howto/index.md
     items:
     - name: CRMScript
       href: howto/crmscript/index.md
       items:
-      - name: Leads
-        href: howto/crmscript/leads.md
+      - name: Create
+        href: howto/crmscript/create.md
+      - name: Get
+        href: howto/crmscript/get.md
+      - name: Update
+        href: howto/crmscript/update.md
       - name: Stakeholders
         href: howto/crmscript/stakeholders.md
-      - name: Pipeline
-        href: howto/crmscript/pipeline.md
       - name: Guides
         href: howto/crmscript/guides.md
       - name: Currency
         href: howto/crmscript/currency.md
       - name: Lost or sold
         href: howto/crmscript/lost-or-sold.md
+      - name: Samples
+        href: howto/crmscript/samples.md
+    - name: Web services
+      href: howto/services/index.md
+      items:
+      - name: Link sale to appointment
+        href: howto/services/link-sale-to-appointment.md
+    - name: Entities (data layer)
+      href: howto/entity/index.md
+      items:
+      - name: Link sale to appointment
+        href: howto/entity/link-sale-to-appointment.md
+    - name: Raw SQL
+      items:
+      - name: Stakeholders
+        href: howto/sql/stakeholders.md
+  - name: API options - SAINT
+    href: saint/howto/toc.yml
+  - name: API options - quote
+    href: ../quote/howto/toc.yml
+    topicHref: ../quote/howto/index.md

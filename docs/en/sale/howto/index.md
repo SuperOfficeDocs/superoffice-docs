@@ -1,9 +1,9 @@
 ---
 title: Sale howto
-uid: sale_howto
-description: You can work with sales at multiple levels of NetServer.
+uid: sale-howto
+description: You can work with sales at multiple levels of NetServer and in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 04.02.2022
+so.date: 06.09.2023
 keywords: sale, API
 so.topic: howto
 ---
@@ -12,21 +12,23 @@ so.topic: howto
 
 ## CRMScript
 
-* [Get sale][1]
-* [Leads][2]
-* [Stakeholders][3]
-* [Pipeline][4]
-* [Guides][5]
-* [Currency][6]
-* [Lost or sold][7]
+* [Record a sale (lead)][1]
+* [Retrieve a sale][2]
+* [Update or delete a sale][3]
+* [Won and lost sales][4]
+* [Stakeholders][5]
+* [Sales guides and stages][6]
+* [Currency][7]
+* [Samples][8]
 
 <!-- Referenced links -->
-[1]: crmscript/index.md
-[2]: crmscript/leads.md
-[3]: crmscript/stakeholders.md
-[4]: crmscript/pipeline.md
-[5]: crmscript/guides.md
-[6]: crmscript/currency.md
-[7]: crmscript/lost-or-sold.md
+[1]: crmscript/create.md
+[2]: crmscript/get.md
+[3]: crmscript/update.md
+[4]: crmscript/lost-or-sold.md
+[5]: crmscript/stakeholders.md
+[6]: crmscript/guides.md
+[7]: crmscript/currency.md
+[8]: crmscript/samples.md
 
 <!-- Referenced images -->

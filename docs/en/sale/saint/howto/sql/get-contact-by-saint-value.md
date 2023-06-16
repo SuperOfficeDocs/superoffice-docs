@@ -1,10 +1,10 @@
 ---
-title: Get contact by vale 
-uid: api_get_contact_by_saint_value
+title: Get contact by value
+uid: saint-sql-get-contact-by-value
 description: How to search for a contact with a given saint value with raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 11.05.2021
-keywords: sale, SAINT, API, countervalue
+so.date: 06.09.2023
+keywords: sale, SAINT, API, SQL, countervalue
 so.topic: howto
 # so.envir:
 # so.client:
@@ -12,12 +12,11 @@ so.topic: howto
 
 # Search for a contact with a given saint value
 
-The following example shows how we can retrieve a contact by using a SAINT value.
+The following example shows how we can retrieve a contact by using a SAINT value. Each `counterValue` row points to the `contact_id` or `project_id` it is linked to.
 
-> [!NOTE]
-> When SAINT is enabled, whenever a contact or a project is created, multiple [counter rows][2] are created and whenever an appointment, document, or a sale is created, the corresponding counter rows are updated. Each `counterValue` row points to the `contact_id` or `project_id` it is linked to. SAINT also requires a separate license.
+[!include[ALT](../../includes/note-req-saint.md)]
 
-Following are some of the counter values for a contact.
+Some of the counter values for a contact:
 
 ```SQL
 SELECT * FROM countervalue WHERE sale_status = 2 AND amountClassId = 0 AND totalReg > 2
@@ -54,6 +53,3 @@ SELECT * FROM CounterValue WHERE contact_id > 0 AND record_type = 5 AND directio
 ```
 
 We must specify `intent_id` for appointments/documents to avoid duplicate IDs in the result. `intent_id` = 0 implies all intents.
-
-<!-- Referenced links -->
-[2]: ../counters.md

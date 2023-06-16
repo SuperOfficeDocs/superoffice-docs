@@ -65,7 +65,7 @@ For a complete list of fields, see the [database reference][7].
 * [Various samples][6]
 
 <!-- Referenced links -->
-[1]: index.md
+[1]: get.md
 [2]: create.md
 [3]: members.md
 [4]: guides.md

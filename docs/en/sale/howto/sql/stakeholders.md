@@ -1,7 +1,7 @@
 ---
 title: Stakeholders
-uid: sale_stakeholders
-description: Sale stakeholders
+uid: sale-stakeholders-sql
+description: How to look up sale stakeholders with raw SQL in SuperOffice.
 author: Bergfrid Dias
 so.date: 11.05.2021
 keywords: sale, stakeholder, hasStakeholders, API, saletype, salestakeholder
@@ -13,17 +13,7 @@ so.version: 7.1
 
 # Sale stakeholders
 
-[!include[License requirement](../../../common/includes/req-sales-prem.md)]
-
-A sale may have one or more stakeholders: a contact or person with an extra interest or role in the sale. This can be turned off using the preference in **SOAdmin - Preferences - Sale - Enable Stakeholders (default yes)**.
-
-With this preference turned on a new archive is presented for sales of type.
-
-![Stakeholders -screenshot][img1]
-
-This will also make the sale visible on more than one company salesarchive if **Enable Stakeholders** is set.
-
-![Enable stakeholders setting -screenshot][img2]
+[!include[License requirement](../../../../../common/includes/req-sales-prem.md)]
 
 Use your favorite query tool and try this query:
 
@@ -49,7 +39,3 @@ SELECT * FROM salestakeholder where sale_id = 4
 | 2 | 4 | 2 | 31 | 0 | 1 | 2021-11-05 10:57:03 | |
 | 3 | 4 | 2 | 22 | 0 | 1 | 2021-11-05 10:57:03 | |
 | 21 | 4 | 34 | 191 | 0 | 1 | 2021-10-01 08:00:00 | |
-
-<!-- Referenced images -->
-[img1]: media/stakeholders.png
-[img2]: media/include-stakeholders.png

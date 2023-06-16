@@ -1,10 +1,10 @@
 ---
 title: How to link a sale to an appointment (data layer)
-uid: link_salerow_to_appointment
+uid: sale-link-appointment-entity
 description: How to link a sale to an appointment using entities
 author: Bergfrid Skaara Dias
 so.date: 11.05.2021
-keywords: sale, SAINT, API, entity, ActivityLinksHelper, appointment
+keywords: sale, API, entity, ActivityLinksHelper, appointment
 so.topic: howto
 # so.envir:
 # so.client:

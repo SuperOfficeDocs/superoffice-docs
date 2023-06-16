@@ -3,8 +3,8 @@ title: SAINT
 uid: saint
 description: Sales intelligence SAINT
 author: Bergfrid Dias
-so.date: 11.05.2021
-keywords: sale, saint, statusvalue, countervalue
+so.date: 06.09.2023
+keywords: sale, saint, counter, statusvalue, countervalue
 so.topic: concept
 # so.envir:
 # so.client:
@@ -12,29 +12,19 @@ so.topic: concept
 
 # SAINT
 
-SAINT **values** are stored in the [statusvalue][1] table. They are simple binary values in either on or off state. These values determine the look and feel of the company and project cards.
-
-The `isSignalled` field determines whether to display an image in the background of the contact card or not. The image displayed in the contact card is defined in the [statusdef][2] table. According to the `StatusDef_id` in the `statusvalue` table, the `statusdef` table is referred and the background image in the contact card varies accordingly. The actual image is found via the blob link table.
-
 SAINT **counters** are used to keep track of certain actions. For example who owns a company, when were they last contacted, when is the next time we are supposed to contact them, what is the last sale date, and when was did the last activity occur.
 
-The [countervalue][3] table maintains SAINT counters. When SAINT is enabled, whenever a contact or project is created, a set of rows are added to the `countervalue` table.
+SAINT counters are stored in the [countervalue][3] table and updated automatically as you do things:
 
-There is always a row in the `countervalue` table corresponding to appointment, document, or sale. The respective counter rows in the `countervalue` table will be updated whenever an appointment, document, or sale is created.
+* When SAINT is enabled, whenever a contact or a project is created, a bunch of counter rows are created.
+* Whenever an appointment, document, or sale is created, then the corresponding counter rows are updated.
 
-> [!NOTE]
-> To use SAINT, a separate license should be obtained. It also requires that the administrator has defined one or more SAINT statuses and generated SAINT status values on the database.
+SAINT **values** are simple binary values (on or off) that determine the look and feel of the company and project cards. These values are stored in the [statusvalue][1] table.
 
-## More information
-
-* [SAINT values][4]
-* [SAINT counters][5]
+[!include[ALT](includes/note-req-saint.md)]
 
 <!-- Referenced links -->
 [1]: ../../database/tables/statusvalue.md
-[2]: ../../database/tables/statusdef.md
 [3]: ../../database/tables/countervalue.md
-[4]: values.md
-[5]: counters.md
 
 <!-- Referenced images -->

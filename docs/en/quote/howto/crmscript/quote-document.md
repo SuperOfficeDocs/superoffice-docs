@@ -1,16 +1,14 @@
 ---
-uid: crmscript_quote_document
+uid: crmscript-quote-document
 title: Quote document
+description: How to work with quote documents in CRMScript.
 author: Bergfrid Dias
-so.date: 02.04.2022
-keywords: quote, document
+so.date: 06.12.2023
+keywords: quote, sale, document
 so.topic: howto
 ---
 
 # Quote document
-
-Quote documents will be saved as **activities on a sale**.
-They're tied to a specific **quote version**.
 
 ## Locate quote document
 
@@ -44,8 +42,8 @@ printLine(doc.GetContact().GetName());
 * ID of the template for the email body
 * should the main quote document be attached to the email? (bool)
 * ID of the template for the quote lines (can be 0)
-* should the attachments specified (in the database) be included? (bool)
-* subject line for the email, in the correct language (can contain template variables)
+* Should the attachments specified (in the database) be included? (bool)
+* Subject line for the email, in the correct language (can contain template variables)
 
 ## Check when a document was sent
 
@@ -62,8 +60,8 @@ if (state == 6 || state == 8 || state == 9) {
 
 ## See also
 
-* [working with documents][1]
-* [template variables][2]
+* [Working with documents][1]
+* [Template variables][2]
 
 <!-- Referenced links -->
 [1]: ../../../document/howto/crmscript/index.md

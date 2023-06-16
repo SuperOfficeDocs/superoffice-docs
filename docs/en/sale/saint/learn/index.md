@@ -70,7 +70,7 @@ SuperOffice SAINT uses visual Status Indicators on a customer, potential custome
 
 SAINT can be fun! You can use any background image, for example:
 
-* A crying baby to symbolize the customers that haven't been followed up,
+* A crying baby to symbolize the customers that have not been followed up,
 * A dollar sign for customers with overdue sales,
 * A lifebuoy for customers with too many service requests.
 

@@ -1,30 +1,19 @@
 ---
-uid: crmscript_currency
+uid: crmscript-currency
 title: Currency
+description: How to get the base currency, list all currencies and their conversion rate, and convert amounts to other currencies with CRMScript in SuperOffice.
 author: Bergfrid Dias
-so.date: 10.27.2021
-keywords: sale, currency
+so.date: 06.09.2023
+keywords: sale, currency, ListAgent
 so.topic: concept
 ---
 
 # Currency
 
-Currency options depend on a couple of things:
-
-* Whether the use of currency has been enabled
-* The base currency setting
-* The local (own) currency setting
-
 > [!NOTE]
 > If the sale has a **quote**, you will not be able to set or change the currency of that sale.
 
-Currency exchange rates are fixed and apply to all sales. You can change them manually in the SuperOffice Admin client (or programmatically).
-
-## Base currency
-
-The **base currency** is the currency with an exchange rate equal to 1. Other exchange rates are expressed relative to this.
-
-### View base currency
+## View base currency
 
 ```crmscript!
 NSListAgent listAgent;

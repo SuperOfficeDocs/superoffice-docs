@@ -1,5 +1,5 @@
 ---
-uid: crmscript_sale-done
+uid: crmscript-sale-done
 title: Lost or sold sales
 author: Bergfrid Dias
 so.date: 10.27.2021
@@ -123,3 +123,8 @@ if (!se.eof()) {
   print(se.executeTextTable());
 }
 ```
+
+## Stalled sales
+
+* `reasonStalled_id`: reference to why the sale is stalled
+* `reopenDate`: when the sale should be reopened
