@@ -94,6 +94,7 @@ To enable toggled features - you need to add two sections manually in your NetSe
  Released in version = Version that have the feaure automatic on, and does not support the FeatureToggle
 
  *1 = The NewServiceRequest feature toggle is dependent on the NewTimezoneHandling feature toggle
+
  *2 = The ConfigurableSale and ConfigurableProject feature toggle is dependent on the SCILHostedArchives feature toggle
 
 ## Look up enabled features
