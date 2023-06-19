@@ -70,11 +70,11 @@ To enable toggled features - you need to add two sections manually in your NetSe
 
 | Feature                 | Toggle name |  Released in version | Available from version |
 |---|---|---|---|
-| New Service              | NewServiceRequests             |  10.2.5  | 10.2.1  |
+| New Service (*1)         | NewServiceRequests             |  10.2.5  | 10.2.1  |
 | New Notifications        | NewNotifications               |  10.2.5  | 10.2.5  |
 | New TimeZone             | NewTimezoneHandling            |  10.2.5  | 10.2.1  |
-| Configurable Screens Sale| ConfigurableSale               |  10.2.5  | 10.2.1  |
-| Configurable Screens Proj| ConfigurableProject            |  10.2.5  | 10.2.1  |
+| Configurable Screens Sale (*2)| ConfigurableSale               |  10.2.5  | 10.2.1  |
+| Configurable Screens Proj (*2)| ConfigurableProject            |  10.2.5  | 10.2.1  |
 | Configurable Archives    | SCILHostedArchives,ConfigurableArchive | 10.1.3  | 10.1.6 |
 | New Search               | NewSearch                      |  10.2.5  | 10.1.8 |
 | Configurable Screens P&C | ConfigurableScreens            |  10.0.2  | 9.2 R12 |
@@ -92,6 +92,9 @@ To enable toggled features - you need to add two sections manually in your NetSe
  Available from version = Version that support the FeatureToggle.
 
  Released in version = Version that have the feaure automatic on, and does not support the FeatureToggle
+
+ *1 = The NewServiceRequest feature toggle is dependent on the NewTimezoneHandling feature toggle
+ *2 = The ConfigurableSale and ConfigurableProject feature toggle is dependent on the SCILHostedArchives feature toggle
 
 ## Look up enabled features
 
