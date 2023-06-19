@@ -1,0 +1,247 @@
+items:
+  - name: Välkommen
+    href: index.md
+  - name: Komma igång
+    href: getting-started/toc.yml
+    topicHref: getting-started/index.md
+  - name: Lär dig grunderna
+    href: basics/toc.yml
+    topicHref: basics/index.md
+  - name: Sökfunktioner
+    href: ../search-options/learn/toc.yml
+    topicHref: ../search-options/learn/index.md
+  - name: Dashboard
+    href: ../dashboard/learn/toc.yml
+    topicHref: ../dashboard/learn/index.md
+  - name: Företag
+    href: ../company/learn/toc.yml
+    topicHref: ../company/learn/index.md
+  - name: Kontakt
+    href: ../contact/learn/toc.yml
+    topicHref: ../contact/learn/index.md
+  - name: Kalender
+    href: ../diary/learn/toc.yml
+    topicHref: ../diary/learn/index.md
+  - name: Dokument
+    href: ../document/learn/toc.yml
+    topicHref: ../document/learn/index.md
+  - name: E-post
+    href: ../email/learn/toc.yml
+    topicHref: ../email/learn/index.md
+  - name: Försäljning
+    href: ../sale/learn/toc.yml
+    topicHref: ../sale/learn/index.md
+  - name: Projekt
+    href: ../project/learn/toc.yml
+    topicHref: ../project/learn/index.md
+  - name: Ärenden
+    href: ../request/learn/toc.yml
+    topicHref: ../request/learn/index.md
+  - name: Urval
+    href: ../search-options/selection/learn/toc.yml
+    topicHref: ../search-options/selection/learn/index.md
+  - name: Chatt
+    href: ../chat/learn/toc.yml
+    topicHref: ../chat/learn/index.md
+  - name: Rapporter
+    href: ../reports/learn/toc.yml
+    topicHref: ../reports/learn/index.md
+  - name: Marknadsföring
+    href: ../marketing/learn/toc.yml
+    topicHref: ../marketing/learn/index.md
+  - name: Formulär
+    href: ../marketing/forms/learn/toc.yml
+    topicHref: ../marketing/forms/learn/index.md
+
+  - name: Kunskapsbas
+    topicHref: ../request/learn/screen/knowledge-base.md
+    items:
+    - name: Översikt
+      href: ../request/learn/screen/knowledge-base.md
+    - name: Svarsmallar
+      href: ../request/reply-templates/learn/toc.yml
+      topicHref: ../request/reply-templates/learn/index.md
+    - name: FAQ
+      href: ../faq/learn/toc.yml
+      topicHref: ../faq/learn/index.md
+    - name: E-postadresser
+      href: ../email/service/learn/kb-aliases/toc.yml
+      topicHref: ../email/service/learn/kb-aliases/index.md
+    - name: Externa dokument
+      href: ../request/learn/external-document.md
+
+  - name: SAINT (försäljningsintelligens)
+    href: ../sale/saint/learn/toc.yml
+    topicHref: ../sale/saint/learn/index.md
+
+  - name: Mobile CRM
+    href: ../mobile/superoffice-mobile/learn/toc.yml
+    topicHref: ../mobile/superoffice-mobile/learn/index.md
+
+  - name: Anpassning
+    href: customization.yml
+    items:
+    - name: Översikt
+      href: customization.yml
+    - name: Listor
+      href: ../admin/lists/learn/toc.yml
+      topicHref: ../admin/lists/learn/index.md
+    - name: Preferenser
+      href: ../admin/preferences/learn/toc.yml
+      topicHref: ../admin/preferences/learn/index.md
+    - name: Integritet
+      href: ../security/privacy/learn/admin/toc.yml
+      topicHref: ../security/privacy/learn/implementation-guide.md
+    - name: Offert/Synk
+      href: ../quote/learn/admin/toc.yml
+      topicHref: ../quote/learn/admin/index.md
+
+    - name: Arbetsflöde
+      topicHref: ../sale/learn/screen/sales-guide-admin.md
+      items:
+      - name: Försäljningsguide
+        href: ../sale/learn/screen/sales-guide-admin.md
+        items:
+        - name: Översikt
+          href: ../sale/learn/screen/sales-guide-admin.md
+        - name: Skapa en ny säljguide
+          href: ../sale/learn/sales-guide/create.md
+        - name: Redigera säljguide
+          href: ../sale/learn/sales-guide/edit.md
+        - name: Inaktivera säljguide
+          href: ../sale/learn/sales-guide/deactivate.md
+      - name: Projektguide
+        href: ../project/learn/screen/project-guide-admin.md
+        items:
+        - name: Översikt
+          href: ../project/learn/screen/project-guide-admin.md
+        - name: Skapa ny projektguide
+          href: ../project/learn/project-guide/create.md
+        - name: Redigera projektguide
+          href: ../project/learn/project-guide/edit.md
+        - name: Inaktivera projektguide
+          href: ../project/learn/project-guide/deactivate.md
+
+    - name: Egendefinierade objekt
+      href: ../custom-objects/learn/toc.yml
+      topicHref: ../custom-objects/learn/index.md
+
+    - name: Användargränssnitt
+      topicHref: ../ui/screen-designer/learn/index.md
+      items:
+      - name: Skärmdesigner
+        href: ../ui/screen-designer/learn/toc.yml
+
+    - name: Alternativ
+      href: ../admin/options/learn/toc.yml
+      topicHref: ../admin/options/learn/index.md
+
+    - name: Chatt
+      href: ../chat/learn/admin/index.md
+      items:
+      - name: Översikt
+        href: ../chat/learn/admin/index.md
+      - name: Skapa en chattkanal
+        href: ../chat/learn/admin/channel-create.md
+      - name: Lägga till JavaScript till webbplatsen
+        href: ../chat/learn/admin/add-javascript.md
+
+    - name: CRMScript
+      href: ../automation/crmscript/learn/toc.yml
+      topicHref: ../automation/crmscript/learn/index.md
+
+    - name: Ärenden
+      topicHref: ../request/learn/admin/index.md
+      items:
+      - name: Översikt
+        href: ../request/learn/admin/index.md
+      - name: Kategorier
+        href: ../request/learn/category/index.md
+        items:
+        - name: Översikt
+          href: ../request/learn/category/index.md
+        - name: Skapa ärendekategori
+          href: ../request/learn/category/create.md
+        - name: Ta bort ärendekategori
+          href: ../request/learn/category/delete.md
+      - name: Prioriteter
+        href: ../request/learn/priority/index.md
+        items:
+        - name: Översikt
+          href: ../request/learn/priority/index.md
+        - name: Skapa prioritet
+          href: ../request/learn/priority/create.md
+        - name: Ta bort prioritet
+          href: ../request/learn/priority/delete.md
+        - name: Skapa eskaleringsnivåer
+          href: ../request/learn/priority/escalation-levels.md
+      - name: Ärendestatus
+        href: ../request/learn/status/index.md
+        items:
+        - name: Översikt
+          href: ../request/learn/status/index.md
+        - name: Skapa ärendestatus
+          href: ../request/learn/status/create.md
+        - name: Ta bort ärendestatus
+          href: ../request/learn/status/delete.md
+        - name: Hämta nästa ärende i kön
+          href: ../request/learn/next-in-queue.md
+      - name: E-post
+        href: ../email/service/learn/toc.yml
+        topicHref: ../email/service/learn/index.md
+      - name: Systemmallar
+        href: ../request/learn/screen/system-templates.md
+
+    - name: Kundcenter
+      href: ../customer-center/learn/toc.yml
+      topicHref: ../customer-center/learn/index.md
+
+    - name: Systemdesign
+      href: ../ui/blogic/learn/toc.yml
+      topicHref: ../ui/blogic/learn/index.md
+
+    - name: SAINT (försäljningsintelligens)
+      href: ../sale/saint/learn/admin/toc.yml
+      topicHref: ../sale/saint/learn/admin/index.md
+
+    - name: Lokalt
+      topicHref: ../automation/crmscript/learn/screen/data-exchange.md
+      items:
+      - name: Data Exchange
+        href: ../automation/crmscript/learn/screen/data-exchange.md
+      - name: SOAP-översikt
+        href: ../admin/learn/screen/soap-config.md
+      - name: Konfigurera SOAP-gränssnitt
+        href: ../admin/learn/configure-soap.md
+
+  - name: Administration och systeminställningar
+    href: administration.yml
+    items:
+    - name: Översikt
+      href: administration.yml
+    - name: Anpassa olika vyer i Inställningar och underhåll
+      href: ../admin/learn/adjusting-views.md
+    - name: Administrering av användare
+      href: ../admin/user-management/learn/toc.yml
+      topicHref: ../admin/user-management/learn/index.md
+    - name: Licenser
+      href: ../admin/license/learn/toc.yml
+      topicHref: ../admin/license/learn/index.md
+    - name: Import
+      href: ../admin/import/learn/toc.yml
+      topicHref: ../admin/import/learn/index.md
+    - name: Systemhändelser
+      topicHref: ../admin/learn/system-events.md
+      items:
+      - name: Översikt
+        href: ../admin/learn/system-events.md
+      - name: Lägga till systemhändelse
+        href: ../admin/learn/add-system-event.md
+
+    - name: AI-tjänster
+      href: ../ai/learn/toc.yml
+      topicHref: ../ai/learn/index.md
+
+  - name: Inställningar för Windows-klient
+    href: ../onsite/win-client/learn/toc.yml
+    topicHref: ../onsite/win-client/learn/index.md

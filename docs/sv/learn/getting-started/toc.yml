@@ -1,0 +1,17 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Layoutobjekten
+  href: main-screen/toc.yml
+  topicHref: main-screen/index.md
+- name: Logga in
+  href: login.md
+- name: Preferenser
+  href: preferences.md
+- name: Koppla e-post och dokument
+  href: connect-email-documents-diary.md
+- name: WebTools
+  href: ../../webtools/learn/toc.yml
+  topicHref: ../../webtools/learn/index.md
+- name: Redigera e-postsignatur
+  href: edit-email-signature.md

@@ -1,0 +1,32 @@
+---
+uid: help-sv-user-update
+title: Redigera användarinformation
+description: Redigera medarbetare
+author: Bergfrid Dias
+so.date: 03.27.2023
+keywords: user, medarbetare
+so.topic: howto
+so.user: admin
+language: sv
+---
+
+# Uppdatera användarinformation
+
+## Redigera medarbetare
+
+1. [!include[Click Users](includes/goto-users.md)]
+
+2. Välj fliken **Medarbetare**.
+
+3. [!include[Select user](includes/select-user.md)]
+
+4. Gör önskade ändringar och klicka på **Spara**.
+
+## Relaterat
+
+* [Redigera anonyma användare eller systemanvändare (lokalt)][1]
+
+<!-- Referenced links -->
+[1]: other-users.md
+
+<!-- Referenced images -->

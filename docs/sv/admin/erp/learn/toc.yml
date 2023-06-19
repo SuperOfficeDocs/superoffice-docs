@@ -1,0 +1,9 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Ansluta
+  href: erp-connect.md
+- name: Skapa aktör i ERP
+  href: erp-create-new-actor.md
+- name: Koppla bort
+  href: erp-sync-disconnect.md

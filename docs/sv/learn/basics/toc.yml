@@ -1,0 +1,26 @@
+items:
+  - name: Översikt
+    href: index.md
+  - name: Favoriter
+    href: fav.md
+  - name: Historiklistan
+    href: history.md
+  - name: Anteckna
+    href: notes.md
+  - name: Duplicera kontroller
+    href: duplicates.md
+  - name: Ta bort och återställa
+    href: deleting-elements.md
+  - name: Massuppdatering
+    href: bulk-update.md
+  - name: Arbeta med detaljkort
+    href: ../section-tabs/toc.yml
+    topicHref: ../section-tabs/index.md
+  - name: Arbeta med aktiviteter
+    href: ../activity/toc.yml
+    topicHref: ../activity/index.md
+  - name: Språk och översättning
+    href: ../../globalization-and-localization/learn/toc.yml
+    topicHref: ../../globalization-and-localization/learn/change-language.md
+  - name: Externa applikationer och webbadresser
+    href: external-applications-and-url-addresses.md

@@ -1,0 +1,13 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Konfiguration
+  href: config.md
+- name: Källfiler
+  href: edit.md
+- name: Skicka lösenord till kontakter
+  href: send-credentials.md
+- name: Aktivera chatt
+  href: enable-chat.md
+- name: Länka ett webbformulär
+  href: link-form.md

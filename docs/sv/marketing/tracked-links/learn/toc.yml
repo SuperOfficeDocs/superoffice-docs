@@ -1,0 +1,17 @@
+items:
+  - name: Översikt
+    href: index.md
+  - name: Skapa spårad länk
+    href: create-links.md
+  - name: Definiera länkningsåtgärder
+    href: define-link-actions.md
+  - name: Lägga till spårad länk i meddelande
+    href: add-tracked-link-to-msg.md
+  - name: Lägga till Google Analytics-taggar
+    href: add-google-analytics-tag.md
+  - name: Exempel på användning
+    href: examples.md
+  - name: Utforska klick efter att ha skickat
+    href: explore-clicks.md
+  - name: Återställa räknare
+    href: reset-counter.md

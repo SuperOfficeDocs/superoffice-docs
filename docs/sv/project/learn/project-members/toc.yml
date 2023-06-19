@@ -1,0 +1,13 @@
+items:
+  - name: Översikt
+    href: index.md
+  - name: Lägga till projektmedlem
+    href: add.md
+  - name: Redigera projektmedlem
+    href: edit.md
+  - name: Bjuda in till möte
+    href: invite-to-meeting.md
+  - name: Skicka e-post till projektdeltagare
+    href: send-email-to.md
+  - name: Skapa ett dokumentutskick till projektdeltagare
+    href: create-mailing.md

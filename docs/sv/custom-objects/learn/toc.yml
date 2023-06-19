@@ -1,0 +1,31 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Arbeta med egendefinierade objekt
+  items:
+  - name: Användardefinierade fält
+    topicHref: udef/index.md
+    items:
+    - name: Översikt
+      href: udef/index.md
+    - name: Lägga till fält
+      href: udef/add.md
+    - name: Flytta fält
+      href: udef/move.md
+    - name: Redigera TAB-ordningen på fält
+      href: udef/change-tab-order.md
+    - name: Redigera fält
+      href: udef/edit.md
+    - name: Sidan 1-fält
+      href: udef/page-1-fields.md
+    - name: Maximalt antal fält
+      href: udef/limitations.md
+  - name: Extratabeller och fält
+    topicHref: extra-table/index.md
+    items:
+    - name: Översikt
+      href: extra-table/index.md
+    - name: Lägga till extratabeller
+      href: extra-table/create.md
+    - name: Lägga till extrafält
+      href: extra-field/create.md

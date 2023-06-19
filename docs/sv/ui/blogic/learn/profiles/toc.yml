@@ -1,0 +1,9 @@
+items:
+  - name: Översikt
+    href: index.md
+  - name: Personliga profiler
+    href: personal.md
+  - name: Delade profiler
+    href: common.md
+  - name: Globala profiler
+    href: global.md

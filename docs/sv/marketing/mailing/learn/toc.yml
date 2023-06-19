@@ -1,0 +1,39 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Skapa nytt utskick
+  topicHref: create/index.md
+  items:
+  - name: Översikt
+    href: create/index.md
+  - name: Nytt utskick - E-post
+    href: create/tutorial-email-mailing.yml
+  - name: Nytt utskick - SMS
+    href: create/tutorial-sms-mailing.yml
+  - name: Nytt utskick - Dokument
+    href: create/tutorial-document-mailing.yml
+  - name: Nytt utskick - Formulärsvar
+    href: create/tutorial-form-mailing.yml
+  - name: Lägga till länk för avregistrering (GDPR)
+    href: create/add-unsubscribe-link.md
+  - name: Skicka testmejl
+    href: create/send-test-email.md
+  - name: Hantera prenumerationer
+    href: manage-email-subscriptions.md
+  - name: Mållista
+    href: create/target-list.md
+- name: Följa upp utskick
+  topicHref: follow-up/index.md
+  items:
+  - name: Översikt
+    href: follow-up/index.md
+  - name: Visa statistik
+    href: follow-up/view-statistics.md
+  - name: Mottagarlista
+    href: follow-up/look-at-recipient-list.md
+  - name: Hantera returer
+    href: follow-up/manage-bounces.md
+  - name: Skicka utskick på nytt
+    href: follow-up/resend.md
+- name: Inställningar för utskick
+  href: admin/define-settings-for-mailings.md

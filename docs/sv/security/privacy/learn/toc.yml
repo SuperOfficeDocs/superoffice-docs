@@ -1,0 +1,9 @@
+items:
+  - name: Översikt
+    href: index.md
+  - name: Redigera integritetsinställningar för en kontakt
+    href: edit-legal-base.md
+  - name: Skicka e-postbekräftelse om personskydd
+    href: send-privacy-confirmation-email.md
+  - name: Generera personuppgiftsrapport
+    href: generate-personal-data-report.md

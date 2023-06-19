@@ -1,0 +1,7 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Konfigurera försäljningsmål
+  href: create.md
+- name: Typ av mål
+  href: target-types.md
