@@ -1,0 +1,42 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Ansicht „Marketing“
+  href: screen/index.md
+- name: Mit Marketing arbeiten
+  topicHref: add-fav.md
+  items:
+  - name: Favoriten hinzufügen
+    href: add-fav.md
+  - name: Ordner erstellen
+    href: create-folder.md
+  - name: Nachrichtenvorlagen
+    href: work-with-messages-and-templates.md
+  - name: Bilder hinzufügen
+    href: add-images.md
+
+- name: Mit Kampagnen arbeiten
+  href: ../mailing/learn/toc.yml
+  topicHref: ../mailing/learn/index.md
+
+- name: Drag-and-Drop-Editor
+  topicHref: editor.md
+  items:
+  - name: Überblick
+    href: editor.md
+  - name: Inhalt hinzufügen
+    href: add-content.md
+  - name: Absatz bearbeiten
+    href: edit-paragraph.md
+  - name: Bilder einfügen
+    href: insert-images-in-message.md
+  - name: Seriendrucktags hinzufügen
+    href: add-merge-tag.md
+  - name: "Einen Link hinzufügen, um die Mitteilung im Browser anzuzeigen"
+    href: add-link-to-display-message-in-browser.md
+  - name: Mitteilung für die Anzeige auf mobilen Geräten anpassen
+    href: customize-for-mobile.md
+
+- name: Mit überwachten Links arbeiten
+  href: ../tracked-links/learn/toc.yml
+  topicHref: ../tracked-links/learn/index.md

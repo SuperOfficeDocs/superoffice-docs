@@ -1,0 +1,7 @@
+items:
+  - name: Überblick
+    href: index.md
+  - name: E-Mail-Adressen erstellen
+    href: add-email-address.md
+  - name: E-Mail-Adressenordner verwalten
+    href: manage-folders.md

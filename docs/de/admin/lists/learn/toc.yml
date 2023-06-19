@@ -1,0 +1,136 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Objekte
+  topicHref: items.md
+  items:
+  - name: Überblick
+    href: items.md
+  - name: Objekte hinzufügen
+    href: adding-items.md
+  - name: Objekte bearbeiten
+    href: editing-items.md
+  - name: Objekte löschen
+    href: deleting-items.md
+  - name: Duplikate
+    href: duplicates.md
+- name: Gruppieren und Filtern
+  topicHref: organize/index.md
+  items:
+  - name: Überblick
+    href: organize/index.md
+  - name: Benutzergruppe filtern
+    href: organize/user-group-filtering.md
+  - name: Überschriften
+    topicHref: organize/headings.md
+    items:
+    - name: Überblick
+      href: organize/headings.md
+    - name: Objekte unter Überschriften gruppieren
+      href: organize/grouping-items-under-headings.md
+    - name: Überschriften hinzufügen
+      href: organize/adding-headings.md
+    - name: Überschriften ändern und löschen
+      href: organize/headings-editing-and-deleting.md
+  - name: Gelöschte Objekte und Überschriften
+    href: organize/deleted-items-and-headings.md
+- name: Spezialisierte Listen
+  topicHref: specialized-lists.md
+  items:
+  - name: Überblick
+    href: specialized-lists.md
+  - name: Dokumentvorlage
+    topicHref: document-template.md
+    items:
+    - name: Überblick
+      href: document-template.md
+    - name: Standardvorlagen bearbeiten
+      href: using-standard-templates.md
+    - name: Eine Dokumentvorlage erstellen
+      href: creating-template-document.md
+    - name: Vorlage hinzufügen
+      href: add-template.md
+    - name: Vorhandene Vorlage ersetzen
+      href: replace-existing-template.md
+    - name: Dokumentvorlagen in mehreren Sprachen
+      href: ../../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+  - name: E-Mail-Vorlage
+    href: email-template.md
+    items:
+    - name: E-Mail-Vorlage hinzufügen
+      href: add-email-template.md
+  - name: Typ der Folgeaufgabe
+    href: follow-up-type.md
+    items:
+    - name: Typ der Folgeaufgabe hinzufügen
+      href: adding-items-to-follow-up-type-list.md
+
+  - name: Verkauf
+    topicHref: ../../../sale/learn/screen/sale-stage.md
+    items:
+    - name: Verkaufsstufe
+      href: ../../../sale/learn/screen/sale-stage.md
+    - name: Verkaufsstufe hinzufügen
+      href: sale-stage.md
+    - name: "Verkaufstyp, Stufen, Angebot"
+      href: ../../../sale/learn/screen/sales-type-for-stages.md
+    - name: Verkaufstyp hinzufügen
+      href: sale-type.md
+    - name: Verkauf - Betragsklasse hinzufügen
+      href: sale-amount-class.md
+
+  - name: Projekt
+    topicHref: ../../../project/learn/screen/project-status-admin.md
+    items:
+    - name: Projektstatus
+      href: ../../../project/learn/screen/project-status-admin.md
+    - name: Projektstatus hinzufügen
+      href: project-status.md
+    - name: Projekttyp
+      href: ../../../project/learn/screen/project-type-admin.md
+    - name: Projekttyp hinzufügen
+      href: project-type.md
+
+  - name: Allgemein
+    topicHref: country.md
+    items:
+    - name: Land
+      href: country.md
+    - name: Land hinzufügen
+      href: add-items-to-country-list.md
+    - name: Währung
+      href: currency.md
+    - name: Währung hinzufügen
+      href: adding-items-to-currency-list.md
+    - name: Kampagnen-Domain
+      href: add-items-to-mailing-domain.md
+    - name: Beziehung
+      href: relation.md
+    - name: Beziehung hinzufügen
+      href: adding-items-to-relation-list.md
+    - name: Ressource
+      href: resource.md
+    - name: Ressource hinzufügen
+      href: adding-items-to-resource-list.md
+    - name: GUI Web-Bildschirm
+      href: web-panel.md
+      items:
+      - name: Web-Bildschirm hinzufügen
+        href: web-panel-add-item.md
+    - name: Menü „Aufgabe“
+      href: add-items-to-task-menu.md
+    - name: GUI-Anwendungsliste
+      href: application.md
+      items:
+      - name: Anwendung hinzufügen
+        href: adding-external-applications-to-application-list.md
+
+- name: Benutzerdefinierte Listen
+  topicHref: adding-user-defined-lists.md
+  items:
+  - name: Benutzerdefinierte Liste hinzufügen
+    href: adding-user-defined-lists.md
+  - name: Bearbeiten Sie Name und Beschreibung der Liste
+    href: editing-lists-name-and-description.md
+  - name: Benutzerdefinierte Liste löschen
+    href: deleting-user-defined-lists.md

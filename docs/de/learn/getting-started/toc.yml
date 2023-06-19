@@ -1,0 +1,17 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Die Layout-Elemente
+  href: main-screen/toc.yml
+  topicHref: main-screen/index.md
+- name: Anmeldung
+  href: login.md
+- name: Einstellungen
+  href: preferences.md
+- name: E-Mails und Dokumente verbinden
+  href: connect-email-documents-diary.md
+- name: WebTools
+  href: ../../webtools/learn/toc.yml
+  topicHref: ../../webtools/learn/index.md
+- name: E-Mail-Signatur bearbeiten
+  href: edit-email-signature.md

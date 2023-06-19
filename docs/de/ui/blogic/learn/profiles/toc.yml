@@ -1,0 +1,9 @@
+items:
+  - name: Überblick
+    href: index.md
+  - name: Persönliche Profile
+    href: personal.md
+  - name: Gemeinsame Profile
+    href: common.md
+  - name: Allgemeine Profile
+    href: global.md

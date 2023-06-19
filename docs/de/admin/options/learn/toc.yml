@@ -1,0 +1,57 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Volltextsuche
+  topicHref: freetext-search/index.md
+  items:
+  - name: Überblick
+    href: freetext-search/index.md
+  - name: Volltextsuche aktivieren
+    href: freetext-search/enable.md
+  - name: Suchkriterien festlegen
+    href: freetext-search/configure.md
+  - name: Stoppwörter
+    href: freetext-search/stopwords.md
+  - name: Volltextsuche neu generieren
+    href: freetext-search/regenerate-index.md
+- name: Zeitzonen
+  topicHref: time-zones/index.md
+  items:
+  - name: Überblick
+    href: time-zones/index.md
+  - name: Verwendung von Zeitzonen aktivieren
+    href: time-zones/enable.md
+  - name: "Wählen Sie aus, welche Zeitzonen angezeigt werden sollen"
+    href: time-zones/select.md
+- name: Nummernzuweisung
+  topicHref: number-allocation/index.md
+  items:
+  - name: Überblick
+    href: number-allocation/index.md
+  - name: Nummernzuweisung festlegen
+    href: number-allocation/configure.md
+  - name: Standardwerte für neue Dokumentvorlagen
+    href: number-allocation/document-template-defaults.md
+- name: Bezeichnungen
+  topicHref: labels/index.md
+  items:
+  - name: Überblick
+    href: labels/index.md
+  - name: Bezeichnungen ändern
+    href: labels/change.md
+  - name: Bezeichnungen zurücksetzen
+    href: labels/reset.md
+    
+- name: Berichte
+  href: reports.md
+- name: Kundensprachen
+  topicHref: custlang/index.md
+  items:
+  - name: Überblick
+    href: custlang/index.md
+  - name: Kundensprachen erstellen und bearbeiten
+    href: custlang/update.md
+  - name: Mit externen Kategorien arbeiten
+    href: custlang/external-categories.md
+  - name: Kundensprache auswählen
+    href: custlang/select-language.md

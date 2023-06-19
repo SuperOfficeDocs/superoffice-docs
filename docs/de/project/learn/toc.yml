@@ -1,0 +1,33 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Bereichsregisterkarten auf Projekt
+  href: screen/toc.yml
+  topicHref: screen/index.md
+- name: Mit Projekten arbeiten
+  topicHref: create.md
+  items:
+  - name: Projekt erstellen
+    href: create.md
+  - name: Projektbild hinzufügen
+    href: add-image.md
+  - name: Links aus dem Projekt hinzufügen
+    href: add-links.md
+  - name: Projekt bearbeiten
+    href: edit.md
+  - name: Projekte zusammenführen
+    href: merge-projects.md
+  - name: Projekt löschen
+    href: delete.md
+- name: Projektmitglieder
+  href: project-members/toc.yml
+  topicHref: project-members/index.md
+- name: Projektleitfaden
+  topicHref: project-guide/index.md
+  items:
+  - name: Überblick
+    href: project-guide/index.md
+  - name: Mit Projektleitfäden arbeiten
+    href: project-guide/working-with.md
+  - name: Folgeaufgaben und Dokumente anzeigen
+    href: project-guide/view-followups-and-documents.md

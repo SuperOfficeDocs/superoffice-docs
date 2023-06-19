@@ -1,0 +1,13 @@
+items:
+  - name: Überblick
+    href: index.md
+  - name: Projektmitglied hinzufügen
+    href: add.md
+  - name: Projektmitglieder bearbeiten
+    href: edit.md
+  - name: Zu Besprechung einladen
+    href: invite-to-meeting.md
+  - name: E-Mail an Projektmitglieder senden
+    href: send-email-to.md
+  - name: Dokumentenkampagne an Projektmitglieder erstellen
+    href: create-mailing.md

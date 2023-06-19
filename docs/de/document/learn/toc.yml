@@ -1,0 +1,29 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Dokumentenansicht
+  href: screen/index.md
+- name: Mit Dokument arbeiten
+  topicHref: create.md
+  items:
+  - name: Neues Dokument erstellen
+    href: create.md
+  - name: Dokument hochladen
+    href: upload.md
+  - name: Dokument öffnen
+    href: open.md
+  - name: Dokument ein-/auschecken
+    href: lock.md
+  - name: Dokument bearbeiten
+    href: edit.md
+  - name: Dokuments als E-Mail senden
+    href: send-as-email.md
+  - name: Dokumente löschen
+    href: delete.md
+  - name: Vorlagenvariablen - Beispiele
+    href: template-variables.md
+#- name: SharePoint document library integration
+#  href: ../cloud/sharepoint-documents/learn/index.md
+#  items:
+#  - name: Set up folders
+#    href: ../cloud/sharepoint-documents/learn/set-up-folders.md

@@ -1,0 +1,7 @@
+items:
+  - name: Überblick
+    href: index.md
+  - name: Textanalyse
+    href: text-analysis.md
+  - name: Kategorisierung
+    href: categorization.md

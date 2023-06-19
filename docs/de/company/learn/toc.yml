@@ -1,0 +1,30 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Bereichsregisterkarten auf Firma
+  href: screen/toc.yml
+  topicHref: screen/index.md
+- name: Mit Firma arbeiten
+  topicHref: create.md
+  items:
+  - name: Neue Firma erstellen
+    href: create.md
+  - name: Firma bearbeiten
+    href: edit.md
+  - name: Firma kopieren
+    href: copy.md
+  - name: Firmen zusammenführen
+    href: merge-companies.md
+  - name: Firma löschen
+    href: delete.md
+  - name: Firmeninformation drucken
+    href: print.md
+  - name: Beziehung hinzufügen
+    href: add-relation.md
+  - name: Beziehung löschen
+    href: delete-relation.md
+- name: Länderspezifische Adressformate
+  href: address-formats.md
+- name: ERP-Verbindung
+  href: ../../admin/erp/learn/toc.yml
+  topicHref: ../../admin/erp/learn/index.md

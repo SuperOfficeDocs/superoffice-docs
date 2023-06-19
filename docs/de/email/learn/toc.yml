@@ -1,0 +1,18 @@
+items:
+- name: Überblick
+  href: index.md
+- name: E-Mail verfassen
+  href: compose.md
+- name: Standard-E-Mail-Client in SuperOffice ändern
+  href: change-default-mail-client.md
+- name: E-Mail
+  href: ../inbox/learn/toc.yml
+  topicHref: ../inbox/learn/index.md
+- name: SuperOffice für Outlook
+  href: ../superoffice-for-outlook/learn/index.md
+- name: Gmail Link
+  href: ../gmail-link/learn/toc.yml
+  topicHref: ../gmail-link/learn/index.md
+- name: Mail-Link
+  href: ../mail-link/learn/toc.yml
+  topicHref: ../mail-link/learn/index.md

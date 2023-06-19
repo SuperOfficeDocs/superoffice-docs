@@ -1,0 +1,247 @@
+items:
+  - name: Willkommen
+    href: index.md
+  - name: Erste Schritte
+    href: getting-started/toc.yml
+    topicHref: getting-started/index.md
+  - name: Lernen Sie die Grundlagen
+    href: basics/toc.yml
+    topicHref: basics/index.md
+  - name: Suchoptionen
+    href: ../search-options/learn/toc.yml
+    topicHref: ../search-options/learn/index.md
+  - name: Dashboard
+    href: ../dashboard/learn/toc.yml
+    topicHref: ../dashboard/learn/index.md
+  - name: Firma
+    href: ../company/learn/toc.yml
+    topicHref: ../company/learn/index.md
+  - name: Person
+    href: ../contact/learn/toc.yml
+    topicHref: ../contact/learn/index.md
+  - name: Kalender
+    href: ../diary/learn/toc.yml
+    topicHref: ../diary/learn/index.md
+  - name: Dokument
+    href: ../document/learn/toc.yml
+    topicHref: ../document/learn/index.md
+  - name: E-Mail
+    href: ../email/learn/toc.yml
+    topicHref: ../email/learn/index.md
+  - name: Verkauf
+    href: ../sale/learn/toc.yml
+    topicHref: ../sale/learn/index.md
+  - name: Projekt
+    href: ../project/learn/toc.yml
+    topicHref: ../project/learn/index.md
+  - name: Anfragen
+    href: ../request/learn/toc.yml
+    topicHref: ../request/learn/index.md
+  - name: Selektion
+    href: ../search-options/selection/learn/toc.yml
+    topicHref: ../search-options/selection/learn/index.md
+  - name: Chat
+    href: ../chat/learn/toc.yml
+    topicHref: ../chat/learn/index.md
+  - name: Berichte
+    href: ../reports/learn/toc.yml
+    topicHref: ../reports/learn/index.md
+  - name: Marketing
+    href: ../marketing/learn/toc.yml
+    topicHref: ../marketing/learn/index.md
+  - name: Formulare
+    href: ../marketing/forms/learn/toc.yml
+    topicHref: ../marketing/forms/learn/index.md
+
+  - name: Wissensdatenbank
+    topicHref: ../request/learn/screen/knowledge-base.md
+    items:
+    - name: Überblick
+      href: ../request/learn/screen/knowledge-base.md
+    - name: Antwortvorlagen
+      href: ../request/reply-templates/learn/toc.yml
+      topicHref: ../request/reply-templates/learn/index.md
+    - name: FAQ
+      href: ../faq/learn/toc.yml
+      topicHref: ../faq/learn/index.md
+    - name: E-Mail-Adressen
+      href: ../email/service/learn/kb-aliases/toc.yml
+      topicHref: ../email/service/learn/kb-aliases/index.md
+    - name: Externe Dokumente
+      href: ../request/learn/external-document.md
+
+  - name: SAINT (Sales Intelligence)
+    href: ../sale/saint/learn/toc.yml
+    topicHref: ../sale/saint/learn/index.md
+
+  - name: Mobile CRM
+    href: ../mobile/superoffice-mobile/learn/toc.yml
+    topicHref: ../mobile/superoffice-mobile/learn/index.md
+
+  - name: Anpassung
+    href: customization.yml
+    items:
+    - name: Überblick
+      href: customization.yml
+    - name: Listen
+      href: ../admin/lists/learn/toc.yml
+      topicHref: ../admin/lists/learn/index.md
+    - name: Einstellungen
+      href: ../admin/preferences/learn/toc.yml
+      topicHref: ../admin/preferences/learn/index.md
+    - name: Datenschutz
+      href: ../security/privacy/learn/admin/toc.yml
+      topicHref: ../security/privacy/learn/implementation-guide.md
+    - name: Angebot/Synchronisierung
+      href: ../quote/learn/admin/toc.yml
+      topicHref: ../quote/learn/admin/index.md
+
+    - name: Workflow
+      topicHref: ../sale/learn/screen/sales-guide-admin.md
+      items:
+      - name: Verkaufsleitfaden
+        href: ../sale/learn/screen/sales-guide-admin.md
+        items:
+        - name: Überblick
+          href: ../sale/learn/screen/sales-guide-admin.md
+        - name: Neuen Verkaufsleitfaden erstellen
+          href: ../sale/learn/sales-guide/create.md
+        - name: Verkaufsleitfaden bearbeiten
+          href: ../sale/learn/sales-guide/edit.md
+        - name: Verkaufsleitfaden deaktivieren
+          href: ../sale/learn/sales-guide/deactivate.md
+      - name: Projektleitfaden
+        href: ../project/learn/screen/project-guide-admin.md
+        items:
+        - name: Überblick
+          href: ../project/learn/screen/project-guide-admin.md
+        - name: Neuen Projektleitfaden erstellen
+          href: ../project/learn/project-guide/create.md
+        - name: Projektleitfaden bearbeiten
+          href: ../project/learn/project-guide/edit.md
+        - name: Projektleitfaden deaktivieren
+          href: ../project/learn/project-guide/deactivate.md
+
+    - name: Benutzerdefinierte Objekte
+      href: ../custom-objects/learn/toc.yml
+      topicHref: ../custom-objects/learn/index.md
+
+    - name: Benutzeroberfläche
+      topicHref: ../ui/screen-designer/learn/index.md
+      items:
+      - name: Ansichtsdesigner
+        href: ../ui/screen-designer/learn/toc.yml
+
+    - name: Optionen
+      href: ../admin/options/learn/toc.yml
+      topicHref: ../admin/options/learn/index.md
+
+    - name: Chat
+      href: ../chat/learn/admin/index.md
+      items:
+      - name: Überblick
+        href: ../chat/learn/admin/index.md
+      - name: Chat-Kanal erstellen
+        href: ../chat/learn/admin/channel-create.md
+      - name: JavaScript zur Website hinzufügen
+        href: ../chat/learn/admin/add-javascript.md
+
+    - name: CRMScript
+      href: ../automation/crmscript/learn/toc.yml
+      topicHref: ../automation/crmscript/learn/index.md
+
+    - name: Anfragen
+      topicHref: ../request/learn/admin/index.md
+      items:
+      - name: Überblick
+        href: ../request/learn/admin/index.md
+      - name: Kategorien
+        href: ../request/learn/category/index.md
+        items:
+        - name: Überblick
+          href: ../request/learn/category/index.md
+        - name: Anfragekategorie erstellen
+          href: ../request/learn/category/create.md
+        - name: Anfragekategorie löschen
+          href: ../request/learn/category/delete.md
+      - name: Prioritäten
+        href: ../request/learn/priority/index.md
+        items:
+        - name: Überblick
+          href: ../request/learn/priority/index.md
+        - name: Priorität erstellen
+          href: ../request/learn/priority/create.md
+        - name: Prioritäten löschen
+          href: ../request/learn/priority/delete.md
+        - name: Eskalationsstufen erstellen
+          href: ../request/learn/priority/escalation-levels.md
+      - name: Anfragestatus
+        href: ../request/learn/status/index.md
+        items:
+        - name: Überblick
+          href: ../request/learn/status/index.md
+        - name: Anfragestatus erstellen
+          href: ../request/learn/status/create.md
+        - name: Anfragestatus löschen
+          href: ../request/learn/status/delete.md
+        - name: Nächste Anfrage in der Warteschlange anzeigen
+          href: ../request/learn/next-in-queue.md
+      - name: E-Mail
+        href: ../email/service/learn/toc.yml
+        topicHref: ../email/service/learn/index.md
+      - name: Systemvorlagen
+        href: ../request/learn/screen/system-templates.md
+
+    - name: Kundenzentrum
+      href: ../customer-center/learn/toc.yml
+      topicHref: ../customer-center/learn/index.md
+
+    - name: Systemdesign
+      href: ../ui/blogic/learn/toc.yml
+      topicHref: ../ui/blogic/learn/index.md
+
+    - name: SAINT (Sales Intelligence)
+      href: ../sale/saint/learn/admin/toc.yml
+      topicHref: ../sale/saint/learn/admin/index.md
+
+    - name: Vor Ort
+      topicHref: ../automation/crmscript/learn/screen/data-exchange.md
+      items:
+      - name: Data Exchange
+        href: ../automation/crmscript/learn/screen/data-exchange.md
+      - name: SOAP-Überblick
+        href: ../admin/learn/screen/soap-config.md
+      - name: SOAP-Schnittstelle konfigurieren
+        href: ../admin/learn/configure-soap.md
+
+  - name: Verwaltung und Systemeinstellungen
+    href: administration.yml
+    items:
+    - name: Überblick
+      href: administration.yml
+    - name: Ansichten in Einstellungen und Verwaltung anpassen
+      href: ../admin/learn/adjusting-views.md
+    - name: Benutzerverwaltung
+      href: ../admin/user-management/learn/toc.yml
+      topicHref: ../admin/user-management/learn/index.md
+    - name: Lizenzen
+      href: ../admin/license/learn/toc.yml
+      topicHref: ../admin/license/learn/index.md
+    - name: Importieren
+      href: ../admin/import/learn/toc.yml
+      topicHref: ../admin/import/learn/index.md
+    - name: Systemereignisse
+      topicHref: ../admin/learn/system-events.md
+      items:
+      - name: Überblick
+        href: ../admin/learn/system-events.md
+      - name: Systemereignis hinzufügen
+        href: ../admin/learn/add-system-event.md
+
+    - name: KI-Services
+      href: ../ai/learn/toc.yml
+      topicHref: ../ai/learn/index.md
+
+  - name: Einstellungen für den Windows-Client
+    href: ../onsite/win-client/learn/toc.yml
+    topicHref: ../onsite/win-client/learn/index.md

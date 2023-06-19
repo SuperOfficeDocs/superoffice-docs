@@ -1,0 +1,13 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Konfiguration
+  href: config.md
+- name: Quelldateien
+  href: edit.md
+- name: Kennwörter an Personen senden
+  href: send-credentials.md
+- name: Chat aktivieren
+  href: enable-chat.md
+- name: Web-Formular verknüpfen
+  href: link-form.md

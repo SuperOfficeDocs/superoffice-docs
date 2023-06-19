@@ -1,0 +1,17 @@
+items:
+  - name: Überblick
+    href: index.md
+  - name: Profile
+    href: profiles/toc.yml
+    topicHref: profiles/index.md
+  - name: ScreenChoosers
+    href: screen-chooser.md
+  - name: Definition der Ansicht
+    href: screen-definition.md
+  - name: Eigenschaften der Ansichten
+    href: screen-properties.md
+  - name: Zusatzmenüs
+    href: extra-menus/toc.yml
+    topicHref: extra-menus/index.md
+  - name: Eigenschaften des Pakets
+    href: ../../../admin/learn/screen/package-properties.md    
