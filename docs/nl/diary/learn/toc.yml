@@ -1,0 +1,89 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Navigeren in het scherm Agenda
+  href: screen/navigate-in-diary.md
+- name: Dialoogvenster voor vervolgactiviteit
+  href: screen/dialog-for-followups.md
+- name: Kalenderweergaven
+  topicHref: screen/day.md
+  items:
+  - name: Dag
+    href: screen/day.md
+  - name: Maand
+    href: screen/month.md
+  - name: Week
+    href: screen/week.md
+  - name: Weergave
+    href: screen/view.md
+  - name: Dialoogvenster groepsweergave
+    href: screen/view-dialog.md
+  - name: "Uw agenda of andere agenda's bekijken"
+    href: open.md
+  - name: Groepsweergave maken
+    href: create-view.md
+- name: Sectietabbladen
+  topicHref: screen/activities-tab.md
+  items:
+  - name: Activiteiten
+    href: screen/activities-tab.md
+  - name: Verkoop
+    href: screen/sales-tab.md
+- name: Werken met vervolgactiviteiten
+  topicHref: appointment.md
+  items:
+  - name: Afspraak
+    topicHref: appointment.md
+    items:
+    - name: Overzicht
+      href: appointment.md
+    - name: Afspraak maken
+      href: create-appointment.md
+  - name: Telefoongesprek
+    topicHref: phone-call/index.md
+    items:
+    - name: Overzicht
+      href: phone-call/index.md
+    - name: Telefoongesprek registreren
+      href: phone-call/add.md
+    - name: Contactpersonen bellen
+      href: phone-call/dial.md
+    - name: Telefoonvoorkeuren
+      href: phone-call/preferences.md
+  - name: Videovergaderingen
+    href: video-meetings.md
+  - name: Taken
+    topicHref: task.md
+    items:
+    - name: Overzicht
+      href: task.md
+    - name: Taak maken
+      href: create-task.md
+  - name: "Vervolgactiviteit (afspraak, taak of telefoongesprek) toevoegen"
+    href: create-follow-up.md
+  - name: Vervolgactiviteit bewerken
+    href: edit-follow-up.md
+  - name: Vervolgactiviteit kopiëren
+    href: copy-follow-up.md
+  - name: Eindtijd wijzigen
+    href: change-end-time.md
+  - name: Vervolgactiviteit verplaatsen
+    href: move-follow-up.md
+  - name: Volledige opvolging
+    href: change-completed-status.md
+  - name: Herhalen
+    href: recurrence/toc.yml
+  - name: Een vervolgactiviteit aan iemand toewijzen
+    href: follow-up-assign.md
+  - name: Alarm instellen voor vervolgactiviteit
+    href: set-alarm.md
+  - name: Een vervolgactiviteit per e-mail verzenden
+    href: send-as-email.md
+  - name: Vervolgactiviteit verwijderen
+    href: delete-follow-up.md
+  - name: Vervolgactiviteiten en scherm Agenda afdrukken
+    href: print.md
+
+- name: Uitnodigingen
+  href: invitation/toc.yml
+  topicHref: invitation/index.md

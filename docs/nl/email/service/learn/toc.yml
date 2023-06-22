@@ -1,0 +1,29 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Postbussen
+  topicHref: screen/index.md
+  items:
+  - name: Overzicht
+    href: screen/index.md
+  - name: Postbussen maken
+    href: create-mailbox.md
+  - name: Postbussen verwijderen
+    href: delete-mailbox.md
+  - name: SMS-postbus maken
+    href: create-sms-mailbox.md
+- name: E-mailfilters
+  topicHref: email-filters/index.md
+  items:
+  - name: Overzicht
+    href: email-filters/index.md
+  - name: E-mailfilter maken
+    href: email-filters/create-email-filter.md
+  - name: E-mailfilter verwijderen
+    href: email-filters/delete-email-filter.md
+- name: Postvak IN voor e-mail
+  href: screen/tab-inbox-for-email.md
+- name: Postvak UIT voor e-mail
+  href: screen/tab-outbox-for-email.md
+- name: Geblokkeerde e-mail
+  href: screen/tab-blocked-email.md

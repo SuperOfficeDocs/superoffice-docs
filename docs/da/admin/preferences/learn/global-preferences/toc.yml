@@ -1,0 +1,11 @@
+items:
+- name: Oversigt
+  href: system.md
+- name: SuperOffice Service-systemindstillinger
+  href: settings.md
+- name: Adgangskodepolitik for Customer Centre
+  href: password.md
+- name: SMS-konfiguration
+  href: sms.md
+- name: SMTP (ONSITE)
+  href: smtp.md

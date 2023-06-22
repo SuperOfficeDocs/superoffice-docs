@@ -1,0 +1,33 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Status van een verkoop (fasen)
+  href: stages.md
+- name: Verkoopgids
+  href: sales-guide/index.md
+- name: Sectietabbladen op verkoop
+  href: screen/toc.yml
+  topicHref: screen/index.md
+- name: Werken met verkoop
+  topicHref: create.md
+  items:
+  - name: Verkoop maken
+    href: create.md
+  - name: Verkoop verwijderen
+    href: delete.md
+  - name: Belanghebbenden toevoegen
+    href: stakeholders/create.md
+  - name: Aandeelhouders bewerken of verwijderen
+    href: stakeholders/edit.md
+  - name: Het zijpaneel gebruiken
+    href: use-side-panel.md
+  - name: Werken met verkoopgids
+    href: sales-guide/working-with-sales-guide.md
+  - name: Prognoses
+    href: forecasting.md
+- name: Offerte
+  href: ../../quote/learn/toc.yml
+  topicHref: ../../quote/learn/index.md
+- name: Verkooptargets
+  href: sales-targets/toc.yml
+  topicHref: sales-targets/index.md

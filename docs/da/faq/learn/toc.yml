@@ -1,0 +1,22 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Arbejd med ofte stillede spørgsmål
+  topicHref: view-entry.md
+  items:
+  - name: Se poster i ofte stillede spørgsmål
+    href: view-entry.md
+  - name: Opret post i ofte stillede spørgsmål
+    href: create.md
+  - name: Rediger poster i ofte stillede spørgsmål
+    href: edit.md
+  - name: Slet poster i ofte stillede spørgsmål
+    href: delete.md
+  - name: Søg efter poster i ofte stillede spørgsmål
+    href: search-for.md
+  - name: Administrer mapper med poster i ofte stillede spørgsmål
+    href: manage-folders.md
+  - name: Udgiv poster i ofte stillede spørgsmål
+    href: publish.md
+  - name: Workflowfaser
+    href: workflow.md

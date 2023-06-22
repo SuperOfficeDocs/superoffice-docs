@@ -1,0 +1,89 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Naviger i skærmbilledet Dagbog
+  href: screen/navigate-in-diary.md
+- name: Dialogboks til opfølgning
+  href: screen/dialog-for-followups.md
+- name: Kalendervisninger
+  topicHref: screen/day.md
+  items:
+  - name: Dag
+    href: screen/day.md
+  - name: Måned
+    href: screen/month.md
+  - name: Uge
+    href: screen/week.md
+  - name: Vis
+    href: screen/view.md
+  - name: Dialogboksen Gruppeoversigt
+    href: screen/view-dialog.md
+  - name: Se dine eller andre dagbøger
+    href: open.md
+  - name: Opret gruppeoversigt
+    href: create-view.md
+- name: Faner for afsnit
+  topicHref: screen/activities-tab.md
+  items:
+  - name: Aktiviteter
+    href: screen/activities-tab.md
+  - name: Salg
+    href: screen/sales-tab.md
+- name: Arbejd med opfølgning
+  topicHref: appointment.md
+  items:
+  - name: Aftale
+    topicHref: appointment.md
+    items:
+    - name: Oversigt
+      href: appointment.md
+    - name: Opret aftale
+      href: create-appointment.md
+  - name: Samtale
+    topicHref: phone-call/index.md
+    items:
+    - name: Oversigt
+      href: phone-call/index.md
+    - name: Registrer samtale
+      href: phone-call/add.md
+    - name: Ring til person
+      href: phone-call/dial.md
+    - name: Telefonegenskaber
+      href: phone-call/preferences.md
+  - name: Videomøder
+    href: video-meetings.md
+  - name: Opgaver
+    topicHref: task.md
+    items:
+    - name: Oversigt
+      href: task.md
+    - name: Opret opgave
+      href: create-task.md
+  - name: "Tilføj opfølgning (aftale, opgave eller telefonopkald)"
+    href: create-follow-up.md
+  - name: Rediger opfølgning
+    href: edit-follow-up.md
+  - name: Kopiér opfølgning
+    href: copy-follow-up.md
+  - name: Skift sluttid
+    href: change-end-time.md
+  - name: Flyt opfølgning
+    href: move-follow-up.md
+  - name: Komplet opfølgning
+    href: change-completed-status.md
+  - name: Gentagelse
+    href: recurrence/toc.yml
+  - name: Tildel en opfølgning til en anden
+    href: follow-up-assign.md
+  - name: Indstil alarm til opfølgning
+    href: set-alarm.md
+  - name: Send en opfølgning som en e-mail
+    href: send-as-email.md
+  - name: Slet opfølgning
+    href: delete-follow-up.md
+  - name: Udskriv opfølgninger og dagbogsskærm
+    href: print.md
+
+- name: Invitationer
+  href: invitation/toc.yml
+  topicHref: invitation/index.md

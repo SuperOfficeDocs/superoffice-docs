@@ -1,0 +1,9 @@
+items:
+  - name: Oversigt
+    href: index.md
+  - name: Knappen Tilføj funktion til menu (Opgave)
+    href: actions.md
+  - name: Tilføj navigatorgruppe og ekstra menu
+    href: navigator.md
+  - name: Menuegenskaber
+    href: properties.md

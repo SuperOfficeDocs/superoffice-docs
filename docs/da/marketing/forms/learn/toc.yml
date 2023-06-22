@@ -1,0 +1,26 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Vis formularer
+  href: view.md
+- name: Arbejd med formularer
+  topicHref: form-templates.md
+  items:
+  - name: Opret ny formular
+    href: create.md
+  - name: Indstillinger for felt
+    href: field-options.md
+  - name: Udgiv formularer
+    href: publish.md
+  - name: Sådan bruger du forudfyldte felter
+    href: form-prefilled.md
+  - name: Eksempler
+    href: examples.md
+- name: Formularindsendelser
+  topicHref: submissions/index.md
+  items:
+  - name: Spor formularindsendelser og vis statistik
+    href: submissions/track.md
+  - name: Behandl formularerindsendelser
+    href: submissions/process.md
+  

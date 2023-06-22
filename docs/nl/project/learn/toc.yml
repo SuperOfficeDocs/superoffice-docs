@@ -1,0 +1,33 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Sectietabbladen op project
+  href: screen/toc.yml
+  topicHref: screen/index.md
+- name: Werken met project
+  topicHref: create.md
+  items:
+  - name: Project maken
+    href: create.md
+  - name: Projectafbeelding toevoegen
+    href: add-image.md
+  - name: Koppelingen toevoegen vanuit project
+    href: add-links.md
+  - name: Project bewerken
+    href: edit.md
+  - name: Projecten samenvoegen
+    href: merge-projects.md
+  - name: Project verwijderen
+    href: delete.md
+- name: Projectleden
+  href: project-members/toc.yml
+  topicHref: project-members/index.md
+- name: Projectgids
+  topicHref: project-guide/index.md
+  items:
+  - name: Overzicht
+    href: project-guide/index.md
+  - name: Werken met projectgidsen
+    href: project-guide/working-with.md
+  - name: Vervolgactiviteiten en documenten weergeven
+    href: project-guide/view-followups-and-documents.md

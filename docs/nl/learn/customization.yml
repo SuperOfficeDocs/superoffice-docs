@@ -1,0 +1,93 @@
+### YamlMime:SubCategory
+
+title: Aanpassing
+summary: "Leer meer over verschillende aanpassingen van al uw lijsten, mogelijkheden om velden en lay-out van de verschillende hoofdkaarten toe te voegen in de schermontwerper, macro's en script in te stellen en alle andere fijnafstemming van uw systeem"
+
+metadata:
+  title: Aanpassing
+  description: "Meer informatie over manieren om SuperOffice aan te passen."
+  so.product: customisation
+  so.topic: landing-page
+  author: Help and Learn
+  so.author: Christine H.
+  so.date: 11.11.2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: "Lijsten, voorkeuren, opties en instellingen"
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Lijsten
+          url: ../admin/lists/learn/index.md
+        - text: Voorkeuren
+          url: ../admin/preferences/learn/index.md
+        - text: Opties
+          url: ../admin/options/learn/index.md
+      - linkListType: reference
+        links:
+        - text: Algemene voorkeuren
+          url: ../admin/preferences/learn/global-preferences/system.md
+
+  # Card
+  - title: Aangepaste objecten
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Door gebruiker gedefinieerde velden
+          url: ../custom-objects/learn/udef/index.md
+        - text: Extra velden
+          url: ../custom-objects/learn/extra-field/create.md
+        - text: Extra tabellen
+          url: ../custom-objects/learn/extra-table/create.md
+      
+  # Card
+  - title: Gebruikersinterface
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Schermontwerper
+          url: ../ui/screen-designer/learn/index.md
+        - text: Extra menu’s
+          url: ../ui/blogic/learn/extra-menus/index.md
+        - text: Webpanelen
+          url: ../ui/web-panels/learn/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Profiel in bedrijf
+          url: ../ui/blogic/learn/profiles/index.md
+
+  # Card
+  - title: "Macro's en CRMScript"
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: "Macro's en scripts"
+          url: ../automation/crmscript/learn/macro-script.md
+        - text: Een macro maken
+          url: ../automation/crmscript/learn/create-macro.md
+        - text: Een script maken
+          url: ../automation/crmscript/learn/create-script.md
+        - text: Foutopsporingssessies
+          url: ../automation/crmscript/learn/debug.md
+        - text: Een geplande taak maken
+          url: ../automation/crmscript/learn/schedule-task.md
+        - text: Traceren
+          url: ../automation/crmscript/learn/tracing.md
+        - text: Triggers
+          url: ../automation/crmscript/learn/trigger.md
+
+  # Card
+  - title: Klantportaal
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Klantportaal-configuratie
+          url: ../customer-center/learn/config.md
+        - text: Klantportaal-bronbestanden
+          url: ../customer-center/learn/edit.md
+        - text: Wachtwoorden naar personen verzenden
+          url: ../customer-center/learn/send-credentials.md

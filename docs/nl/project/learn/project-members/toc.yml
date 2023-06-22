@@ -1,0 +1,13 @@
+items:
+  - name: Overzicht
+    href: index.md
+  - name: Projectlid toevoegen
+    href: add.md
+  - name: Projectlid bewerken
+    href: edit.md
+  - name: Uitnodigen voor een vergadering
+    href: invite-to-meeting.md
+  - name: E-mail versturen naar projectleden
+    href: send-email-to.md
+  - name: Documentmailing aan projectleden maken
+    href: create-mailing.md

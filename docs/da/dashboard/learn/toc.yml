@@ -1,0 +1,31 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Arbejd med dashboard
+  topicHref: create.md
+  items:
+  - name: Opret et nyt dashboard
+    href: create.md
+  - name: Rediger et dashboard
+    href: update.md
+  - name: Dublere et dashboard
+    href: copy.md
+  - name: Slet et dashboard
+    href: delete.md
+- name: Arbejd med ruder
+  topicHref: working-with-tiles.md
+  items:
+  - name: Oversigt
+    href: working-with-tiles.md
+  - name: Tilføj rude/rediger layout
+    href: add-tile.md
+  - name: Rediger en rude
+    href: edit-tile.md
+  - name: Fjern en rude
+    href: remove-tile.md
+  - name: Sådan bruger du salgsmål i ruder
+    href: show-sales-targets.md
+  - name: Sådan bruger du udsendelse og formularer i ruder
+    href: show-marketing.md
+  - name: Sådan bruger du sager i ruder
+    href: show-requests.md

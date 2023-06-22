@@ -1,0 +1,43 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: SuperOffice-produkter
+  href: product/toc.yml
+  topicHref: product/index.md
+- name: Indstillinger
+  href: quotesync-tab-settings.md
+- name: ERP-links
+  topicHref: quotesync-tab-erp-connections.md
+  items:
+  - name: Oversigt
+    href: quotesync-tab-erp-connections.md
+  - name: Tilføj ERP-link
+    href: erp-connection-add.md
+- name: Sync
+  topicHref: sync/index.md
+  items:
+  - name: Oversigt
+    href: sync/index.md
+  - name: Tilføj sync-connector
+    href: sync/sync-connector-add.md
+  - name: Arbejd med ERP-link
+    topicHref: sync/sync-add-erp-connection.md
+    items:
+     - name: Tilføj ERP-link
+       href: sync/sync-add-erp-connection.md
+     - name: Rediger ERP-link
+       href: sync/sync-edit-erp-connection.md
+     - name: Angiv synkroniseringsprioritet
+       href: sync/sync-set-sync-priority.md
+     - name: Konfigurer felttilknytning
+       href: sync/sync-configure-field-allocation.md
+     - name: Konfigurer listemapping
+       href: sync/sync-configure-list-mapping.md
+     - name: Konfigurer standardværdier
+       href: sync/sync-configure-default-values.md
+     - name: Ranger felt vist under fanen ERP
+       href: sync/sync-rank-fields-shown-in-erp-tab.md
+     - name: Importér fra ERP
+       href: sync/sync-import-from-erp.md
+     - name: Gensynkroniser fra CRM
+       href: sync/sync-resync-from-crm.md

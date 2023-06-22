@@ -1,0 +1,9 @@
+items:
+- name: Rediger udvalg
+  href: index.md
+- name: Tilføj og fjern medlemmer (statisk)
+  href: add-remove-members-static.md
+- name: Kopiér medlemmer til et andet udvalg
+  href: copy-members-to.md
+- name: Slet udvalg
+  href: delete.md

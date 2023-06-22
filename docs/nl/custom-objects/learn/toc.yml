@@ -1,0 +1,31 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Werken met aangepaste objecten
+  items:
+  - name: Door gebruiker gedefinieerde velden
+    topicHref: udef/index.md
+    items:
+    - name: Overzicht
+      href: udef/index.md
+    - name: Veld toevoegen
+      href: udef/add.md
+    - name: Veld verplaatsen
+      href: udef/move.md
+    - name: Tabvolgorde van velden bewerken
+      href: udef/change-tab-order.md
+    - name: Veld bewerken
+      href: udef/edit.md
+    - name: Velden pagina 1
+      href: udef/page-1-fields.md
+    - name: Maximumaantal velden
+      href: udef/limitations.md
+  - name: Extra tabellen en velden
+    topicHref: extra-table/index.md
+    items:
+    - name: Overzicht
+      href: extra-table/index.md
+    - name: Extra tabellen toevoegen
+      href: extra-table/create.md
+    - name: Extra velden toevoegen
+      href: extra-field/create.md

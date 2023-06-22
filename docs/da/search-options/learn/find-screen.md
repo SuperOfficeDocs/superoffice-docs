@@ -1,0 +1,341 @@
+---
+uid: help-da-find-screen
+title: Skærmbilledet Find
+description: Skærmbilledet Find
+author: SuperOffice RnD
+so.date: 03.08.2023
+keywords: søge, finde
+so.topic: howto
+language: da
+---
+
+# Skærmbilledet Find
+
+Hvis du vil søge efter poster og data i SuperOffice CRM, skal du bruge skærmbilledet **Find**.
+
+Der er nærmest ingen grænser for, hvad du kan søge efter i SuperOffice CRM. I slutningen af denne sektion har vi medtaget eksempler for at give dig tips om søgning.
+
+> [!NOTE]
+> Hvis du har licens til SuperOffice Integration Server, kan du søge efter produkter i eksisterende tilbud. Hvis du har licens til SuperOffice Service, kan du søge efter sager.
+
+## Søgning efter oplysninger i SuperOffice CRM
+
+1. Klik på knappen **Find** på [toplinjen][1]. ![ikon][img2]
+
+2. Klik på den posttype, du vil søge efter, eller klik på **Typiske søgninger** for at få vist en liste over foruddefinerede søgninger. Fanen **Kriterier** åbnes.
+
+3. Skærmbilledet **Søg** indeholder foruddefinerede søgekriterier eller de søgekriterier, du brugte sidste gang. Gør ét af følgende:
+
+    * Klik på ![ikon][img3] for at fjerne de kriterier, du ikke vil bruge.
+    * Klik på knappen **Tilføj** for at tilføje nye søgekriterier. Der tilføjes en ny linje til kriterielisten.
+
+4. Vælg det felt, du vil søge efter oplysninger i, i den første liste på linjen. Du kan også [indtaste begyndelsen af navnet i det ønskede felt][2]. Der findes [forskellige felttyper][3].
+
+    Vælg for eksempel **Person** og **Efternavn**, hvis du vil søge efter personer, eller **Projekt** og **Arrangementsdato**, hvis du vil søge efter projekter.
+
+5. Vælg værdier for søgekriterierne i de næste felter på linjen.
+
+6. Du kan klikke på **Tilføj** under kriterielisten igen for at angive flere søgekriterier. Derefter tilføjes det til en ny linje på kriterielisten, og du gentager trin 4 og 5.
+
+7. Hvis du vil flytte kriterier, skal du klikke og trække ![ikon][img4].
+
+8. Klik på **Eller** for at tilføje et andet sæt kriterier.
+
+9. Når du har angivet og aktiveret de søgekriterier, du ønsker, klikker du på knappen **Søg**. Fanen **Resultater** åbnes med resultaterne, der matcher søgekriterierne.
+
+> [!TIP]
+> Hvis du for eksempel vil søge efter alle firmaer, kan du bruge procenttegnet (%), når du tilføjer [søgekriterier][3] for **Firma**.
+
+## <a id="or" />Udvid din søgning ved hjælp af QR-funktionen
+
+Funktionen Find gør det muligt for dig at udføre en søgning ved at kombinere søgekriterier med værdioperatoren "ELLER" mellem dem. På denne måde kan du søge efter to sæt uafhængige data og gemme dem i ét udvalg.
+
+Lad os se på nogle praktiske eksempler på, hvordan du kan bruge funktionen ELLER. Du kan søge efter alle kunder, der har købt "Produkt A", og kunder, der ikke har købt "Produkt B", for at øge dit krydssalg. Eller du kan søge efter alle store kunder med base i Liverpool eller Manchester, så du kan kontakte dem om et kommende arrangement i en af disse byer.
+
+Se denne video for at få at vide, hvordan du opretter en søgning ved hjælp af funktionen ELLER (videoens længde – 4:08):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
+
+## Arbejde med søgeresultater
+
+Når du har fulgt fremgangsmåden ovenover, og der vises søgeresultater nederst på fanen **Resultater**, har du flere muligheder:
+
+* **Åbne posten:** Hvis du vil åbne en af posterne, dobbeltklikker du på den. Hvis du for eksempel dobbeltklikker på en person, vises detaljekortet **Personer** med den aktuelle person markeret.
+
+* **Vise en post i sidepanelet:** Brug [sidepanelet][4] til hurtigt at gennemse søgeresultaterne. Hvis du har søgt efter person, skal du vælge **Personer** på listen øverst i sidepanelet. Du kan derefter klikke på hver person under fanen **Resultater** for at få dem vist.
+
+* **Udføre opgaver i søgeresultaterne:** Knappen **Opgave** indeholder opgaver som for eksempel:
+
+  * Sende en udsendelse og oprette aktiviteter
+  * Administrere oplysningerne i dit udvalg
+  * Udskrive eller eksportere dine data
+  * Slette informationen i dit udvalg fra CRM-databasen
+
+    ![En liste over mulige opgaver, du kan bruge dit søgeresultat til -screenshot][img10]
+
+    Hvilke opgaver der vises, afhænger af, hvilken type poster der vises. [Læs mere][7]
+
+* **Føje poster til et udvalg:** Klik på knappen **Gem som udvalg**. Se [Oprettelse af udvalg][8].
+
+* Vælg en eller flere poster, højreklik og vælg **Tilføj til udvalg**. Se [Tilføjelse af medlemmer til statiske udvalg][9].
+
+## <a id="ex1" />Eksempel 1: søgning efter indbringende kunder
+
+Som leder af salgsafdelingen vil du gerne holde en præsentation for resten af ledelsen for at vise, hvad salgsafdelingen har opnået siden sidste møde. Du vil gerne fokusere på indbringende kunder (dvs. kunder, du har solgt meget til i den seneste tid).
+
+1. Klik på knappen **Søg**.
+
+2. Klik på **Find firma**.
+
+3. Hvis fanen **Kriterier** indeholder kriterier, skal du klikke på ![ikon][img3] for at slette dem eller på **Ryd alle** for at rydde kriteriedataene.
+
+4. Klik på **Tilføj**.
+
+5. Vælg det felt, som du vil søge efter oplysninger i, på listen, som vises. Klik først på **ikonet** ![Salg][img5] og derefter på **Beløb**.
+
+6. I rullemenuen til højre for **Beløb** skal du klikke på pilen ![ikon][img1] og vælge **>** (større end).
+
+7. I det sidste felt på linjen skal du indtaster du minimumsbeløbet. For eksempel "100.000".
+
+8. Du har nu angivet, at du vil søge efter firmaer med salg over 100.000 kr., men vi er ikke færdige. Vi vil også angive en periode.
+
+9. Klik på **Tilføj**.
+
+10. Vælg det felt, som du vil søge efter oplysninger i, på listen, som vises. Klik først på **Salg** ![ikon][img5] og derefter på **Registreret dato**.
+
+11. I den anden rullemenu skal du klikke på pilen ![ikon][img1] og derefter vælge **Mellem**.
+
+12. I den tredje rullemenu angiver du startdatoen for den ønskede periode, og i den fjerde rullemenu angiver du slutdatoen for den ønskede periode.
+
+13. Du har nu angivet, at du vil søge efter firmaer med salg over 100.000 inden for den periode, du definerede. Men vi er ikke færdige endnu. Vi vil også begrænse søgningen til salg med statussen **Solgt**.
+
+14. Klik på **Tilføj**.
+
+15. På den liste, der vises, skal du indtaste "Status" for at foretage en hurtigsøgning i feltet.
+
+16. På den liste, der vises, skal du vælge **Salg** - **Status** (med salgsikonet ![ikon][img5] foran).
+
+17. I den anden liste vælger du **Er en af**.
+
+18. Klik i feltet **Vælg elementer** til højre for feltet **Er en af**, og vælg **Solgt**.
+
+19. Du har nu angivet, at du vil søge efter firmaer med salg over et bestemt beløb, inden for et bestemt datointerval og med statussen **Solgt**.
+
+20. Klik på knappen **Find** under fanen **Kriterier**.
+
+21. Alle de resultater, der svarer til de angivne søgekriterier, vises under fanen **Resultater**.
+
+    > [!TIP]
+    > Hvis du får for få eller for mange resultater, kan du justere søgekriterierne ved at vælge andre værdier i de forskellige rullemenuer.
+
+22. Du bestemmer derefter, hvad du vil bruge disse søgeresultater til:
+
+    * Hvis du vil åbne en af posterne, dobbeltklikker du på den. Det vises derefter i skærmbilledet Firma.
+
+    * Få vist et eksempel på hvert firma i [sidepanelet][4]. Vælg **Eksempel** på listen øverst i sidepanelet. Du kan derefter klikke på hvert firma under fanen **Resultater** for at få dem vist.
+
+    * Du kan oprette et udvalg, der indeholder disse kunder, ved at klikke på **Gem som udvalg** og følge proceduren under [Opret udvalg][8].
+
+<!-- markdownlint-disable-next-line MD013 -->
+## <a id="ex2" />Eksempel 2: søgning efter kunder i Danmark, som du har ansvaret for
+
+Lad os sige, at du skal på en konference i Norge. Når du alligevel er der, vil du benytte lejligheden til at besøge nogle kunder samtidig. Du starter planlægningen med at finde alle de kunder i Norge, som du har ansvaret for.
+
+1. Klik på knappen **Søg**.
+
+2. Klik på **Find firma**.
+
+3. Hvis fanen **Kriterier** indeholder kriterier, skal du klikke på ![ikon][img3] for at slette dem eller på **Ryd alle** for at rydde kriteriedataene.
+
+4. Klik på **Tilføj**.
+
+5. Vælg det felt, som du vil søge efter oplysninger i, på listen, som vises: Klik først på **Firma** ![ikon][img6] og derefter på **Land**.
+
+6. I den anden liste vælger du **Er en af**.
+
+7. Klik i feltet **Vælg elementer** til højre for feltet **Er en af**, og vælg **Norge**.
+
+8. Du har nu angivet, at du vil søge efter firmaer i Norge, men vi er ikke færdige. Vi vil begrænse søgningen til de firmaer i Norge, som du har ansvaret for.
+
+9. Klik på **Tilføj**.
+
+10. Vælg det felt, som du vil søge efter oplysninger i, på listen, som vises: Klik først på **Firma** ![ikon][img6] og derefter på **Vores kontakt**.
+
+11. I den anden rullemenu vælger du **Aktuel bruger**. Dit navn vises i det sidste felt på linjen.
+
+12. Du har nu angivet, at du vil søge efter de firmaer i Norge, der har dig som person.
+
+13. Klik på knappen **Find** under fanen **Kriterier**.
+
+14. Alle de resultater, der svarer til de angivne søgekriterier, vises under fanen **Resultater**.
+
+    > [!TIP]
+    > Hvis du får for få eller for mange resultater, kan du justere søgekriterierne ved at vælge andre værdier i de forskellige rullemenuer.
+
+15. Du bestemmer derefter, hvad du vil bruge disse søgeresultater til:
+
+    * Hvis du vil åbne en af posterne, dobbeltklikker du på den. Det vises derefter i skærmbilledet Firma.
+
+    * Få vist et eksempel på hvert firma i [sidepanelet][4]. Vælg **Eksempel** på listen øverst i sidepanelet. Du kan derefter klikke på hvert firma under fanen **Resultater** for at få dem vist.
+
+    * Du kan oprette et udvalg, der indeholder disse kunder, ved at klikke på **Gem som udvalg** og følge proceduren under [Opret udvalg][8].
+
+## <a id="ex3" />Eksempel 3: søgning efter gennemførte salg
+
+Lad os sige, at du er leder af en virksomhed, og du vil finde ud af, hvilken type salg, du har succes med og hvorfor, så du kan lære af det og få succes med mere salg. Du begynder med at søge efter salg med statussen **Solgt**.
+
+1. Klik på knappen **Søg**.
+
+2. Klik på **Find salg**.
+
+3. Hvis fanen **Kriterier** indeholder kriterier, skal du klikke på ![ikon][img3] for at slette dem eller på **Ryd alle** for at rydde kriteriedataene.
+
+4. Klik på **Tilføj**.
+
+5. Vælg det felt, som du vil søge efter oplysninger i, på listen, som vises: Klik først på **Salg** ![ikon][img5] og derefter på **Status**.
+
+6. I den anden liste vælger du **Er en af**.
+
+7. Klik i feltet **Vælg elementer** til højre for feltet **Er en af**, og vælg **Solgt**. Du har nu angivet, at du vil søge efter fuldførte salg.
+
+8. Klik på knappen **Find** under fanen **Kriterier**.
+
+9. Alle de resultater, der svarer til de angivne søgekriterier, vises under fanen **Resultater**.
+
+10. Du bestemmer derefter, hvad du vil bruge disse søgeresultater til:
+    * Hvis du vil åbne en af posterne, dobbeltklikker du på den. Den vises derefter i skærmbilledet Salg.
+
+    * Få vist et eksempel på hvert salg i [sidepanelet][4]. Vælg **Eksempel** på listen øverst i sidepanelet. Du kan derefter klikke på hvert salg under fanen **Resultater** for at få dem vist.
+
+    * Du kan oprette et udvalg, der indeholder disse salg, ved at klikke på **Gem som udvalg** og følge proceduren under [Opret udvalg][8].
+
+<!-- markdownlint-disable-next-line MD013 -->
+## <a id="ex4" />Eksempel 4: søgning efter projekter, som du har deltaget i det seneste år
+
+Lad os sige, at lønforhandlingerne nærmer sig, og at du synes, du fortjener en bedre betaling for din indsats. For at vise din chef, hvor ihærdig og alsidig du er, vil du gerne fortælle ham lidt om de projekter, du har deltaget i det seneste år.
+
+1. Klik på knappen **Søg**.
+
+2. Klik på **Find salg**.
+
+3. Hvis fanen **Kriterier** indeholder kriterier, skal du klikke på ![ikon][img3] for at slette dem eller på **Ryd alle** for at rydde kriteriedataene.
+
+4. Klik på **Tilføj**.
+
+5. Vælg det felt, som du vil søge efter oplysninger i, på listen, som vises: Klik først på **Person** ![ikon][img7] og derefter på **Efternavn**.
+
+6. I den anden rullemenu vælger du **Er lig med**.
+
+7. I det tredje felt indtaster du dit efternavn.
+
+8. Du har nu angivet, at du vil søge efter projekter, du har deltaget i, men vi er ikke færdige. Vi vil også angive en periode.
+
+9. Klik på **Tilføj**.
+
+10. Vælg det felt, som du vil søge efter oplysninger i, på listen, som vises: Klik først på **Projekt** ![ikon][img8] og derefter på **Fra dato**.
+
+11. I den anden rullemenu vælger du **Efter**.
+
+12. I den tredje rullemenu angiver du startdatoen for den ønskede periode.
+
+13. Du har nu angivet, at du vil søge efter de projekter, du har deltaget i fra en bestemt dato og frem til i dag.
+
+14. Klik på knappen **Find** under fanen **Kriterier**.
+
+15. Alle de resultater, der svarer til de angivne søgekriterier, vises under fanen **Resultater**.
+
+    > [!TIP]
+    > Hvis du får for få eller for mange resultater, kan du justere søgekriterierne ved at vælge andre værdier i de forskellige rullemenuer.
+
+16. Du bestemmer derefter, hvad du vil bruge disse søgeresultater til:
+
+    * Hvis du vil åbne en af posterne, dobbeltklikker du på den. Den vises derefter i skærmbilledet Projekt.
+
+    * Få vist et eksempel på hvert projekt i [sidepanelet][4]. Vælg **Eksempel** på listen øverst i sidepanelet. Du kan derefter klikke på hvert projekt under fanen **Resultater** for at få dem vist.
+
+    * Du kan oprette et udvalg, der indeholder disse projekter, ved at klikke på **Gem som udvalg** og følge proceduren under [Opret udvalg][8].
+
+## <a id="ex5" />Eksempel 5: søgning efter gennemførte markedsføringstiltag
+
+Lad os sige, at du er leder af markedsafdelingen, og at I skal have et idéudviklingsmøde om fremtidige markedsføringstiltag. For at have et udgangspunkt vil du gerne skaffe dig et overblik over, hvilke markedsføringsopfølgninger, I har gennemført i forrige kvartal.
+
+1. Klik på knappen **Søg**.
+
+2. Klik på **Find salg**.
+
+3. Hvis fanen **Kriterier** indeholder kriterier, skal du klikke på ![ikon][img3] for at slette dem eller på **Ryd alle** for at rydde kriteriedataene.
+
+4. Klik på **Tilføj**.
+
+5. Vælg det felt, som du vil søge efter oplysninger i, på listen, som vises: Klik først på **Opfølgning** ![ikon][img9] og derefter på **Hensigt**.
+
+6. I den anden liste vælger du **Er en af**.
+
+7. Klik i feltet **Vælg elementer** til højre for feltet **Er en af**, og vælg **Markedsføring**.
+
+8. Du har nu angivet, at du vil søge opfølgninger knyttet til markedsføring, men vi er ikke færdige. Vi vil også angive en periode.
+
+9. Klik på **Tilføj**.
+
+10. Vælg det felt, som du vil søge efter oplysninger i, på listen, som vises. Klik først på **Opfølgning** ![ikon][img9] og derefter på **Slutdato**.
+
+11. I den anden liste vælger du **Forrige**.
+
+12. I den tredje liste skal du skrive 1.
+
+13. Vælg **Kvartal(er)** på den fjerde liste.
+
+14. Du har nu angivet, at du vil søge efter opfølgninger med markedsføring som hensigt i forrige kvartal, men vi er ikke færdige endnu. Vi vil også begrænse søgningen til udførte opfølgninger.
+
+15. Klik på **Tilføj**.
+
+16. Vælg det felt, som du vil søge efter oplysninger i, på listen, som vises. Klik først på **Opfølgning** ![ikon][img9] og derefter på **Udført**.
+
+17. Marker indstillingen **Ja**. Du har nu angivet, at du vil søge efter opfølgninger, der er sat til **Udført**.
+
+18. Klik på knappen **Find** under fanen **Kriterier**.
+
+19. Alle de resultater, der svarer til de angivne søgekriterier, vises under fanen **Resultater**.
+
+    > [!TIP]
+    > Hvis du får for få eller for mange resultater, kan du justere søgekriterierne ved at vælge andre værdier i de forskellige rullemenuer.
+
+20. Du bestemmer derefter, hvad du vil bruge disse søgeresultater til:
+
+    * Hvis du vil åbne en af posterne, dobbeltklikker du på den. Den vises derefter på detaljekortet **Aktiviteter** i skærmbilledet Firma.
+
+    * Få vist et eksempel på hver opfølgning i [sidepanelet][4]. Vælg **Eksempel** på listen øverst i sidepanelet. Du kan derefter klikke på hver opfølgning under fanen **Resultater** for at få dem vist.
+
+    * Du kan oprette et udvalg, der indeholder disse opfølgninger, ved at klikke på **Gem som udvalg** og følge proceduren under [Opret udvalg][8].
+
+## Hvad vil du nu foretage dig?
+
+* [Udføre opgaver][7]
+* [Brug af fritekstsøgning][5]
+* [Brug af hurtigsøgning][2]
+* [Brug af historiklisten][6]
+* [Brug af søgekriterier][3]
+
+<!-- Referenced links -->
+[1]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
+[4]: ../../learn/getting-started/main-screen/side-panel.md
+[2]: using-fastsearcher.md
+[3]: using-search-criteria.md
+[5]: freetext-search.md
+[6]: using-history-list.md
+[7]: ../selection/learn/howto/index.md
+[8]: ../selection/learn/create/index.md
+[9]: ../selection/learn/update/add-remove-members-static.md
+
+<!-- Referenced images -->
+[img1]: ../../../../common/icons/dropdown-icon.png
+[img2]: ../../media/find.png
+[img3]: ../../../../common/icons/delete-circle-red.png
+[img4]: ../../../media/icons/criteria-move.png
+[img5]: ../../../../common/icons/singlecolour/sale.png
+[img6]: ../../../../common/icons/singlecolour/contact.png
+[img7]: ../../../../common/icons/singlecolour/person.png
+[img8]: ../../../../common/icons/singlecolour/project.png
+[img9]: ../../../../common/icons/singlecolour/appointment.png
+[img10]: media/task-menu.png

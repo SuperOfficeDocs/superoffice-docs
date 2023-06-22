@@ -1,0 +1,30 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Sektionsfaner på firma
+  href: screen/toc.yml
+  topicHref: screen/index.md
+- name: Arbejd med firma
+  topicHref: create.md
+  items:
+  - name: Opret nyt firma
+    href: create.md
+  - name: Rediger et firma
+    href: edit.md
+  - name: Kopiér et firma
+    href: copy.md
+  - name: Læg firmaer sammen
+    href: merge-companies.md
+  - name: Slet et firma
+    href: delete.md
+  - name: Udskriv firmainfo
+    href: print.md
+  - name: Tilføje en relation
+    href: add-relation.md
+  - name: Slet en relation
+    href: delete-relation.md
+- name: Adresseformater for lande
+  href: address-formats.md
+- name: ERP-link
+  href: ../../admin/erp/learn/toc.yml
+  topicHref: ../../admin/erp/learn/index.md
