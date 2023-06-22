@@ -134,6 +134,10 @@ Use your own email server for outgoing SuperOffice Service to your customers. Yo
 * You handle the blacklisting of your IP address (email reputation management)
 * Do require you to administer and setup of mail forwarding to Mailgun on your local mail account for incoming emails (for example, bounce) and/or maintenance of "reply to" / "from" in your outgoing emails need to match your setup of how you plan to get your customers response emails back into SuperOffice Service via Mailgun.
 
+> [!WARNING]
+> Be aware of the consequences of running your own SMTP server and not using Mailgun. In this case the automated bounce handling will not work because there is no webhook from your SMTP server to our SuperOffice Online platform. The only way to handle bounces is to import bounce emails back to SuperOffice via inbox. That means the email address from which the emails are sent out needs to be configured as a mailbox in Service.
+
+
 ### How to configure your CRM Online site to use your own SMTP (outgoing) mail server?
 
 Contact our support directly, and they will help you to get it configured.
