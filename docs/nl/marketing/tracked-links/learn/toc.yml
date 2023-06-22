@@ -1,0 +1,17 @@
+items:
+  - name: Overzicht
+    href: index.md
+  - name: Gevolgde koppeling maken
+    href: create-links.md
+  - name: Koppelingacties definiëren
+    href: define-link-actions.md
+  - name: Gevolgde koppelingen aan bericht toevoegen
+    href: add-tracked-link-to-msg.md
+  - name: Google Analytics-tags toevoegen
+    href: add-google-analytics-tag.md
+  - name: Gebruiksvoorbeelden
+    href: examples.md
+  - name: Klikken verkennen na verzenden
+    href: explore-clicks.md
+  - name: Tellers opnieuw instellen
+    href: reset-counter.md

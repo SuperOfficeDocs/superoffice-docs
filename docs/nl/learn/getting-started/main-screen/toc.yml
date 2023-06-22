@@ -1,0 +1,11 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Navigator
+  href: navigator.md
+- name: Knoppen op de bovenste balk
+  href: buttons-in-menu-bar.md
+- name: Zijpanelen
+  href: side-panel.md
+- name: In-app help gebruiken
+  href: in-app-help.md

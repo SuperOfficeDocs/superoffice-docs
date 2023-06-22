@@ -1,0 +1,9 @@
+items:
+  - name: Overzicht
+    href: index.md
+  - name: Privacy-instellingen voor een persoon bewerken
+    href: edit-legal-base.md
+  - name: E-mail met privacybevestiging verzenden
+    href: send-privacy-confirmation-email.md
+  - name: Rapport met persoonlijke gegevens genereren
+    href: generate-personal-data-report.md

@@ -1,0 +1,11 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Nieuwe opmaak toevoegen
+  href: add-new-layout.md
+- name: Opmaak bewerken - Hoofdkaarten
+  href: edit-layout.md
+- name: Opmaak bewerken - Archieven (sectietabbladen)
+  href: edit-layout-archives.md
+- name: Elementen
+  href: elements.md

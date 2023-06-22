@@ -1,0 +1,17 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: De opmaakelementen
+  href: main-screen/toc.yml
+  topicHref: main-screen/index.md
+- name: Aanmelden
+  href: login.md
+- name: Voorkeuren
+  href: preferences.md
+- name: E-mail en documenten verbinden
+  href: connect-email-documents-diary.md
+- name: WebTools
+  href: ../../webtools/learn/toc.yml
+  topicHref: ../../webtools/learn/index.md
+- name: E-mail-handtekening bewerken
+  href: edit-email-signature.md

@@ -1,0 +1,11 @@
+items:
+  - name: Overzicht
+    href: index.md
+  - name: De kolomweergave aanpassen
+    href: configure-columns.md
+  - name: Filters gebruiken
+    href: filter.md
+  - name: Gegroepeerde lijsten
+    href: group.md
+  - name: Exporteren
+    href: export-archives.md

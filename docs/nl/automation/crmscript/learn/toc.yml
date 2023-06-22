@@ -1,0 +1,27 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: "Tabblad Macro's en scripts"
+  href: screen/index.md
+- name: Werken met CRMScript
+  topicHref: macro-script.md
+  items:
+  - name: "Macro's en scripts"
+    topicHref: macro-script.md
+    items:
+    - name: Overzicht
+      href: macro-script.md
+    - name: Een script maken
+      href: create-script.md
+    - name: Een macro maken
+      href: create-macro.md
+    - name: Eigenschappen mappen met macro/script
+      href: create-folder.md
+  - name: Triggers
+    href: trigger.md
+  - name: Geplande taken
+    href: schedule-task.md
+  - name: Foutopsporingssessies
+    href: debug.md
+  - name: Traceren
+    href: tracing.md

@@ -1,0 +1,17 @@
+items:
+  - name: Overzicht
+    href: index.md
+  - name: Profielen
+    href: profiles/toc.yml
+    topicHref: profiles/index.md
+  - name: Schermkiezers
+    href: screen-chooser.md
+  - name: Schermdefinitie
+    href: screen-definition.md
+  - name: Schermeigenschappen
+    href: screen-properties.md
+  - name: Extra menu’s
+    href: extra-menus/toc.yml
+    topicHref: extra-menus/index.md
+  - name: Pakketeigenschappen
+    href: ../../../admin/learn/screen/package-properties.md    
