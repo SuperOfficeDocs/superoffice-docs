@@ -23,7 +23,7 @@ Frequently Asked Questions (FAQs) are an important part of service request handl
 * FAQs speed up the work of support agents, who can quickly add links to FAQ entries when replying to customer inquiries.
 * FAQs is a great way to send your customers precise and quality-assured answers.
 
-## What is the difference between an FAQ entry and a rep1ly template?
+## What is the difference between an FAQ entry and a reply template?
 
 [!include[FAQ vs. reply template](../../learn/includes/faq-vs-reply-template.md)]
 
