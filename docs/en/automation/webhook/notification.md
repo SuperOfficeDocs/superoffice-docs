@@ -56,11 +56,15 @@ Fields names that appear in a notification `Changes` property are the names of t
 | Activity | [Appointment table][1] |
 | Associate | [Associate table][2] |
 | Contact | [Contact table][3] |
+| Chat | [ChatSession table][10] |
+| Document | [Document table][12] |
 | Person | [Person table][4] |
 | Project | [Project table][5] |
 | ProjectMember | [ProjectMember table][6] |
+| Quote | [Quote table][11] |
 | Sale | [Sale table][7] |
 | SaleStakeholder | [SaleStakeholder table][8] |
+| Ticket | [Ticket table][9] |
 
 ## WebhookPayload headers
 
@@ -71,11 +75,21 @@ Fields names that appear in a notification `Changes` property are the names of t
 | X-SuperOffice-Retry | The number of retries this webhook has been tried to be sent. |
 | X-SuperOffice-Signature | The hash/base64 encoded secret. |
 
-## Failed Webhook notification attempts
+## Error Handling for Webhooks
 
-There are 3 attempts to send a webhook payload during a single cycle. If the first one fails, then the next attempt is delayed by 1 second. If the second one fails, then the third attempt is delayed by 4 seconds. If the third attempt fails, it is removed from this cycle and sent to the back of the queue. All active webhook payloads have a total of 9 consecutive attempts before the state is set to TooManyErrors(3). After that, it's up to the receiver to manage the webhook state, reset the state to Active (1), to begin sending webhook payloads again.
+There are three attempts to send a webhook payload during a single cycle. If the first one fails, the next attempt is delayed by 1 second. If the second attempt fails, the third attempt is delayed by 4 seconds. If the third attempt fails, it is removed from this cycle and sent to the back of the queue. All active webhook payloads are given a total of 9 consecutive attempts before the state is changed to `TooManyErrors (3)`.
 
-The EventID is the same for each attempt, however, if the HTTP request fails to receive a 200 response for 3 attempts, then the event is discarded, and the webhook `consecutive_errors` count is incremented. When the next consecutive attempt is sent, it will be a new EventID.
+If the HTTP request fails to receive a 200 response for three attempts, the event associated with those attempts is discarded, and the webhook's `consecutive_errors` count is incremented. The next attempt made will feature a new `EventID`.
+
+### Email Notification on Error
+
+In the event that the `EmailErrors` property is set, when a webhook state is set to `TooManyErrors`, an automatic email will be dispatched to the specified email address. This email will detail the error, the associated `EventID`, `Name` and more details.
+
+The `EventID` remains consistent for each attempt, facilitating accurate tracking and management of webhook events. However, if there are three consecutive failed attempts, the event is discarded, and the next attempt will be associated with a new `EventID`.
+
+Following `TooManyErrors` status, it is the responsibility of the receiver to manage the webhook state. The receiver can reset the state to `Active (1)` to resume the sending of webhook payloads. The `EmailErrors` notification system is designed to promptly inform the receiver of any critical issues that might prevent successful data delivery.
+
+
 
 <!-- Referenced links -->
 [1]: ../../database/tables/appointment.md
@@ -86,3 +100,7 @@ The EventID is the same for each attempt, however, if the HTTP request fails to 
 [6]: ../../database/tables/projectmember.md
 [7]: ../../database/tables/sale.md
 [8]: ../../database/tables/salestakeholder.md
+[9]: ../../database/tables/ticket.md
+[10]: ../../database/tables/chat-session.md
+[11]: ../../database/tables/quote.md
+[12]: ../../database/tables/document.md

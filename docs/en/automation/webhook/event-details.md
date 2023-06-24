@@ -27,6 +27,7 @@ Event name descriptors are a combination of the webhook entity and event type - 
 * [quote][12]
 * [sale][7]
 * [salestakeholder][8]
+* [state][15]
 * [test][13]
 * [ticket][14]
 
@@ -47,6 +48,7 @@ Each entity raises an event when created, changed, or deleted. Therefore, all po
 | | | | quote.approved<br>quote.rejected<br>quote.sent<br>quote.ordered |
 | sale.created | sale.changed | sale.deleted | sale.completed (v8.3 R04)<br>sale.lost (v8.3 R04)<br> sale.sold (v8.3 R04) |
 | salestakeholder.created | salestakeholder.changed | salestakeholder.deleted | |
+| | | | webhook.started<br>webhook.stopped<br>webhook.errors |
 | ticket.created (v8.4) | ticket.changed (v8.4) | | |
 
 <!-- Referenced links -->
@@ -63,3 +65,4 @@ Each entity raises an event when created, changed, or deleted. Therefore, all po
 [12]: reference/quote-events.md
 [13]: reference/test-event.md
 [14]: reference/ticket-events.md
+[15]: reference/state-events.md

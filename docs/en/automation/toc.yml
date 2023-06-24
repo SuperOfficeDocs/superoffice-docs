@@ -61,7 +61,7 @@ items:
       href: webhook/event-details.md
     - name: Subscription
       href: webhook/subscription.md
-    - name: Notifications
+    - name: Notifications and Errors
       href: webhook/notification.md
     - name: Security
       href: webhook/security.md
@@ -81,6 +81,8 @@ items:
         href: webhook/reference/contact-events.md
       - name: Document events
         href: webhook/reference/document-events.md
+      - name: State change events
+        href: webhook/reference/state-events.md
       - name: Person events
         href: webhook/reference/person-events.md
       - name: Project events
