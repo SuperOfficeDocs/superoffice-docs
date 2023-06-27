@@ -21,7 +21,7 @@ When things go awry, and your application doesn't seem to be receiving webhook n
 > changes or errors occur.
 >
 > * Use the `ErrorsEmail` property to receive an email notification.
-> * Subscribe to the `webhook{webhookId}.errors` event. [See details][].
+> * Subscribe to the `webhook{webhookId}.errors` event. [See details][1].
 >
 > It is recommended with the latter method that you use the a different webhook URL than your other webhooks.
 
