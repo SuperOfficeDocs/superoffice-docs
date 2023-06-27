@@ -46,7 +46,6 @@ This will give them access to the document library too.
   >
   > \* The Group type must be Microsoft 365 and not Security.
 
-
 3. Tick off **Send an email invitation**. (There will be a lot of emails that the users will wonder about.)
 
 4. Make sure the permission level is **Edit**.
