@@ -24,7 +24,9 @@ so.client: online
 
 * A SharePoint site with document library for storing documents and document library for storing templates.
 
-* Permissions to your SharePoint document libraries using domain (AAD) groups. This is mandatory if you plan to use *Visible for* in SuperOffice Online and recommended either way.
+* Permissions to your SharePoint document libraries using domain (AAD) groups.
+  * The Group type must be Microsoft 365 and not Security.
+  * This is mandatory if you plan to use *Visible for* in SuperOffice Online and recommended either way.
 
 * If you want to enable group access on SharePoint documents based on *Visible for* settings in SuperOffice.
   * *Global Admin* rights in Microsoft 365 (to be able to authenticate SuperOffice document library as a trusted app in your Microsoft 365 solution)
