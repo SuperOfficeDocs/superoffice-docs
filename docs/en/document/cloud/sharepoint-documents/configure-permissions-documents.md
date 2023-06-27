@@ -42,9 +42,9 @@ This will give them access to the document library too.
 
 2. In **Invite people**, type in and add domain (AAD) groups *. Members of these groups will automatically get access.
 
-> [!WARNING]
->
-> \* The Group type must be Microsoft 365 and not Security.
+  > [!WARNING]
+  >
+  > \* The Group type must be Microsoft 365 and not Security.
 
 
 3. Tick off **Send an email invitation**. (There will be a lot of emails that the users will wonder about.)
