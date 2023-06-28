@@ -15,7 +15,7 @@ items:
     href: deleting-elements.md
   - name: Bulk update
     href: bulk-update.md
-  - name: Work with section tabs
+  - name: Work with section tabs / archives
     href: ../section-tabs/toc.yml
     topicHref: ../section-tabs/index.md
   - name: Work with activities

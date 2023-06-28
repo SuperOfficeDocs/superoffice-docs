@@ -2,8 +2,8 @@
 uid: help-en-ui-top-bar
 title: Buttons in the menu bar
 description: Buttons in the menu bar
-author: SuperOffice RnD
-so.date: 03.02.2023
+author: Kirsti Aakerholt
+so.date: 06.28.2023
 keywords: top bar, button
 so.topic: reference
 language: en
@@ -17,7 +17,7 @@ At the upper left in SuperOffice CRM is the SuperOffice logo with the following 
 
 ![SuperOffice logo][img9]
 
-* If you click the logo, the SuperOffice Community website is displayed.
+* If you click the logo, a link to the SuperOffice Community website is displayed.
 * If you hold down **CTRL** while clicking the logo, you go to the company you yourself are part of. (The main company is a [preference][6] that you can change.)
 
 The items at the top of the screen vary slightly between SuperOffice CRM, Service, and Settings and maintenance. Their significance is however the same. For example, in Settings and maintenance, only Personal settings, Main menu, and Help are shown.
@@ -26,7 +26,7 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 |---|---|---|
 | ![icon][img3] | New | Click this button to quickly create new companies, contacts, sales, projects, selections, activities (appointments, phone calls, tasks, documents and emails), requests, FAQ entries, and mailings. |
 | ![icon][img8] | Find | Click this button to [search for][5] companies, contacts, projects, selections, follow-ups, sales and documents in SuperOffice CRM. NA to Service |
-| ![icon][img4] | No invitations / Notifications | Opens a list of new notifications in SuperOffice CRM, such as [invitations][4] and approved sales/quotes. Click an item in the list to open the relevant record. |
+| ![icon][img4] | No invitations / Notifications | Opens a list of new notifications in SuperOffice CRM, such as [invitations][4], assigned requests and approved sales/quotes. Click an item in the list to open the relevant record. |
 | ![icon][img5] | Unread invitations | |
 | ![icon][img6] | Unanswered invitations | |
 | ![icon][img2] | Personal settings | Used to edit your personal settings, such as preferences, email signature and password. If you added an image in your own contact card, this image will appear on the button. (Options listed below) |
@@ -43,12 +43,13 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 |---|---|
 | Preferences | Lets you edit your [personal preferences][6]. |
 | Edit personal signature | Lets you [edit the signature][7] added to your outgoing emails or to requests in SuperOffice Service. |
-| Email options | Used to edit the settings for email. |
-| Show my Contact info | Opens your contact card. |
-| Local settings | Used to change the language, number/date format and email client in SuperOffice CRM. |
-| Mobile CRM settings | Used to access settings for SuperOffice Mobile CRM. Here you can configure your Mobile CRM app. |
+| Email options | Used to edit the settings for email account for the Inbox. |
+| Your Service status | Change your status from Not present to Normal and add a Not present text. |
+| Show my Contact info | Opens your contact card where you can change your details like phone numbers, title and email address. |
+| Local settings | Used to change the app language, number/date format and email client in SuperOffice CRM. |
+| Get the mobile app | Used to access settings for SuperOffice Mobile CRM. Here you can configure your Mobile CRM app. |
 | Change password | Lets you change your password. |
-| Recycle bin | Used to [restore deleted companies or contacts][3]. |
+| Recycle bin | You can [restore deleted companies, contacts and requests][3]. |
 | Log out | Logs you out of SuperOffice CRM. |
 
 > [!NOTE]
@@ -56,7 +57,7 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 
 ## Options in the Main menu
 
-**Standard CRM:**
+**CRM module:**
 
 | Option | Description |
 |---|---|
@@ -66,29 +67,50 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 | Copy shortcut | [Create shortcuts to entries][15] |
 | Duplicate settings | Used to edit the [duplicate settings][8] for companies, projects and selections. |
 | Filter | Used to edit the [filter settings][2]. |
+| Knowledge base | Opens a list for External documents (files), E-mail addresses, FAQ and Replay templates for your Service licence. |
 | Show Notepad | Opens [the Notepad][9] and creates a new note. |
 | Show confirmation dialog when sending invitations | Used to activate/deactivate the confirmation dialog when sending emails to meeting participants from the **Appointment** dialog. |
 | Targets | Used to add [sales targets][17]. |
 | Edit system signature | Used to edit the default email signature. |
 | Settings and maintenance | Opens Settings and maintenance. This option is only available if you have administrator's rights. |
 
-**Settings and maintenance:**
+**Main menu in Settings and maintenance:**
 
 | Option | Description |
 |---|---|
 | Change serial number | Lets you change the serial number for SuperOffice. |
 | SuperOffice CRM | Opens SuperOffice CRM for Web. |
 
+## Options in the Help menu
+
+**CRM module:**
+
+| Option | Description |
+|---|---|
+| In-app Resource Centre | Opens up the Resource centre with available learn and help guides and other content - ONLINE only. |
+| Community | Direct link to SuperOffice Community. |
+| Contact support | Opens up a form to register a request where you can add your issue. |
+What's new | Opens the splash screen with the latest details. |
+| Help files (F1) | Opens up the Help files for SuperOffice. |
+| About | Shows the details of your software like Version, Company, User, CustomerID, etc. |
+
+## Freetext search field
+
+A search fields opens where you can enter your search words and the result screen will show tabs with the different record types.
+
+Read more about the [Freetext search][10].
+
 <!-- Referenced links -->
 [1]: ../../basics/external-applications-and-url-addresses.md
-[3]: ../../basics/deleting-elements.md#restore
-[8]: ../../basics/duplicates.md
-[9]: ../../basics/notes.md
 [2]: ../../section-tabs/filter.md
-[6]: ../preferences.md
-[7]: ../edit-email-signature.md
+[3]: ../../basics/deleting-elements.md#restore
 [4]: ../../../diary/learn/invitation/receive.md
 [5]: ../../../search-options/learn/find-screen.md
+[6]: ../preferences.md
+[7]: ../edit-email-signature.md
+[8]: ../../basics/duplicates.md
+[9]: ../../basics/notes.md
+[10]: ../../../search-options/learn/freetext-search.md
 [15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md
 
