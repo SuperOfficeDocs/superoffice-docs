@@ -19,6 +19,8 @@ items:
 - name: Form submissions
   topicHref: submissions/index.md
   items:
+  - name: Overview
+    href: submissions/index.md
   - name: Track form submissions and view statistics
     href: submissions/track.md
   - name: Process form submissions

@@ -35,8 +35,6 @@ Gjør ett av følgende:
 
 * Høyreklikk på et klokkeslett i dagboken og velg **Ny**. Dialogboksen for oppfølginger vises med standard varighet for oppfølgingen.
 
-* Dobbeltklikk på en tom linje i detaljkortet **Aktiviteter** nederst i Dagbok-bildet.
-
 * Klikk på **Ny** i toppraden, og velg deretter **Avtale**, **Samtale** eller **Oppgave**.
 
 > [!NOTE]

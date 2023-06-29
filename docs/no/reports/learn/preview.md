@@ -36,6 +36,7 @@ Du kan lagre PDF-filen fra visningsprogrammet for PDF-filer, slik at du kan åpn
 * [Legge til etikettformater][4]
 * [Redigere etikettformater][5]
 * [Fjerne etikettformater][6]
+* [Vise egenskaper for enkeltrapporter][3]
 
 <!-- Referenced links -->
 [1]: index.md

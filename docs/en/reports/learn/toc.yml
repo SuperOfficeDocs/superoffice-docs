@@ -10,16 +10,14 @@ items:
   items:
   - name: Overview
     href: working-with-reports.md
-  - name: View report
-    href: view.md
+  - name: Preview report
+    href: preview.md
   - name: Show report properties
     href: properties.md
   - name: Create report
     href: create.md
   - name: Run report
     href: run.md
-  - name: Preview report
-    href: preview.md
   - name: Print report
     href: print.md
   - name: Save report as file

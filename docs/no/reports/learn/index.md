@@ -52,7 +52,7 @@ Du kommer til **Rapporter**-bildet ved å klikke på ![ikon][img7] **Rapporter**
 [1]: ../../dashboard/learn/index.md
 [2]: properties.md
 [3]: create.md
-[4]: view.md
+[4]: preview.md
 [5]: print.md
 [9]: save.md
 [6]: open-from-archive.md

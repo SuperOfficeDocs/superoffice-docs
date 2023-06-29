@@ -22,7 +22,7 @@ To [save a report as a document][1] (type = Report) in SuperOffice CRM, click th
 
 ## What would you like to do now?
 
-* [View reports][2]
+* [Preview reports][2]
 * [Print reports][3]
 * [Save reports as files][4]
 * [Open reports in the report archive (the Documents section tab)][6]
@@ -31,7 +31,7 @@ To [save a report as a document][1] (type = Report) in SuperOffice CRM, click th
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md
-[2]: view.md
+[2]: preview.md
 [3]: print.md
 [4]: save.md
 [6]: open-from-archive.md

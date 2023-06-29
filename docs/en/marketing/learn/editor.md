@@ -3,7 +3,7 @@ uid: help-en-editor
 title: Drag and drop editor
 description: Drag and drop editor
 author: SuperOffice RnD
-so.date: 02.20.2023
+so.date: 06.29.2023
 keywords: marketing, editor, template variable, merge tag
 so.topic: concept
 language: en
@@ -127,6 +127,8 @@ In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") 
 ### Editor (old)
 
 ![Editor (old) -screenshot][img13]
+
+Go to our [help for SuperOffice version 10.1][2] to get the overview of the old editor.
 
 ## What would you like to do now?
 

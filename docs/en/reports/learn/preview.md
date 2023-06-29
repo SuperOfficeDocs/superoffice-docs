@@ -2,8 +2,8 @@
 uid: help-en-report-preview
 title: Functions in the preview window
 description: Functions in the preview window
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Kirsti Aakerholt
+so.date: 06.29.2023
 keywords: report
 so.topic: concept
 language: en
@@ -36,6 +36,7 @@ You can save the PDF file from the PDF viewer, so you can open it later.
 * [Add label formats][4]
 * [Edit label formats][5]
 * [Remove label formats][6]
+* [Show properties of individual reports][3]
 
 <!-- Referenced links -->
 [1]: index.md
