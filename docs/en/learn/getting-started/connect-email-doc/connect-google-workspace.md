@@ -18,34 +18,34 @@ With Google Workspace as your solution, there are several ways to connect your e
 
 * **[SuperOffice Inbox][1]**
 
-    Not able to use WebTools to set up your email? We'll help you set up your [SuperOffice Inbox][1] without it.
+    Not able to use WebTools to set up your email? We'll help you set up your SuperOffice Inbox without it.
 
 * **[Gmail link integration][2]**
 
-    [Gmail Link][2] connects your Gmail account to SuperOffice CRM and helps you work more productively with emails.
+    Gmail Link connects your Gmail account to SuperOffice CRM and helps you work more productively with emails.
 
 ## Document ![icon][img2]
 
 * **[Google Workspace documents][3]**
 
-    The [Google Workspace integration][3] for documents enables you to work effortlessly with documents from SuperOffice CRM.
+    The Google Workspace integration for documents enables you to work effortlessly with documents from SuperOffice CRM.
 
 ## Diary & invitations ![icon][img3]
 
 * **[SuperOffice Inbox][1]**
 
-    Set up your [SuperOffice Inbox][1] without WebTools to get the invitations sent to your inbox in your SuperOffice Diary.
+    Set up your SuperOffice Inbox without WebTools to get the invitations sent to your inbox in your SuperOffice Diary.
 
 * **[Synchronizer for SuperOffice][4]**
 
-    Keep appointments, tasks, and contacts in sync between Google calendar and SuperOffice using [Synchronizer for SuperOffice][4]. You install it from SuperOffice App Store.
+    Keep appointments, tasks, and contacts in sync between Google calendar and SuperOffice using Synchronizer for SuperOffice. You install it from SuperOffice App Store.
 
 ## Install integrations/applications
 
 * [Set up SuperOffice Inbox][1]
 * [Install Gmail Link][2]
 * [Install Google Workspace][3]
-* [Install Synchronizer for SuperOffice][4]
+* [Install Synchronizer for SuperOffice][4] form SuperOffice App Store
 
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md

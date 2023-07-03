@@ -16,33 +16,33 @@ With Microsoft 365 as your solution, there are several ways to connect your emai
 
 ## Email ![icon][img1]
 
-### SuperOffice Inbox
+* **[SuperOffice Inbox][1]**
 
-Not able to use WebTools? We'll help you set up your [SuperOffice Inbox][1] without it.
+    Not able to use WebTools? We'll help you set up your SuperOffice Inbox.
 
-### SuperOffice for Outlook
+* **[SuperOffice for Outlook][2]**
 
-For you who has Outlook 365 and want to [connect it to SuperOffice][2] to work effortlessly between the two solutions.
+    For you who has Outlook 365 and want to connect it to SuperOffice to work efficiently between the two solutions.
 
 ## Document ![icon][img2]
 
-Your company can [set up the Microsoft Sharepoint document library][5]. Sharepoint is web-based collaborative platform that integrates with Microsoft Office.
+Your company can [set up the Microsoft Sharepoint document library][5]. Sharepoint is a web-based collaborative platform that integrates with Microsoft Office.
 
-### SharePoint document library
+* **[SharePoint document library][3]**
 
-This integration allows you to store all documents and emails in [SharePoint Online][3], where they can be accessed by everyone in the company.
+    This integration allows you to store all documents in SharePoint Online, where they can be accessed by everyone in the company.
 
 ## Diary & invitations ![icon][img3]
 
-### SuperOffice Inbox
+* **[SuperOffice Inbox][1]**
 
-Set up your [SuperOffice Inbox][1] without WebTools to get the invitations sent to your inbox in your SuperOffice Diary.
+    Set up your SuperOffice Inbox without WebTools to get the invitations sent to your inbox to get them in your SuperOffice Diary.
 
-### Synchronizer for SuperOffice
+* **[Synchronizer for SuperOffice][4]**
 
-Keep appointments, tasks, and contacts in sync between Microsoft Outlook and SuperOffice using [Synchronizer for SuperOffice][4].
+    Keep appointments, tasks, and contacts in sync between Microsoft Outlook and SuperOffice using the app: Synchronizer for SuperOffice.
 
-## Related topic
+## Install integrations/applications
 
 * [Set up your Inbox][1]
 * [SuperOffice for Outlook][2]
