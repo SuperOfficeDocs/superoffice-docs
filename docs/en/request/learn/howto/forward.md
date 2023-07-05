@@ -39,7 +39,7 @@ You can forward a complex or problematic request to an external contact in an em
 
 In a request list, you can forward multiple requests at a time.
 
-1. Select the requests you want to forward in the request list.
+1. Select the requests you want to forward in the **request list/selection**.
 
 1. Click the ![icon][img1] **Task** button in the lower left corner of the request list.
 

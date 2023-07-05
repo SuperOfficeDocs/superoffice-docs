@@ -3,8 +3,8 @@ uid: help-en-request-create
 author: Hanne Gunnarsson
 title: Create a request
 description: Create a request
-so.date: 02.20.2023
-keywords: request
+so.date: 07.05.2023
+keywords: request, create, add comment, reply
 so.topic: howto
 so.audience: person
 so.audience.tooltip: SuperOffice Service
@@ -95,6 +95,8 @@ The **Details** tab contains further details on the request. Here you will find 
 * **Sale**: Here you can link the request to an existing sale by searching for the sale you want or selecting it from the list.
 * **Project**: Here you can link the request to an existing project by searching for the project you want or selecting it from the list.
 
+This tab can also contains extra fields defined for requests. These will vary for each company depending on the customisation of [extra tables and fields][6] and the [screen designer][10].
+
 ## Autosave
 
 Whenever you are working on a request and suddenly receive a more urgent request, you will have to leave the request you are working on to solve the prioritised request.
@@ -110,10 +112,6 @@ The autosave feature is activated by default when you view and edit requests and
 * Autosaved data will not be shared between two different browsers.
 * The autosave function is a useful feature, but should not replace saving your work the proper way.
 
-## Details
-
-This tab contains any extra fields defined for requests. These will vary from company to company.
-
 ## What would you like to do now?
 
 * [Edit message][5]
@@ -124,6 +122,8 @@ This tab contains any extra fields defined for requests. These will vary from co
 * [Add reply templates to messages][2]
 * [Create reply template][9]
 * [Create new language version of reply template][7]
+* [Extra tables and fields][6]
+* [Screen designer][10]
 
 <!-- Referenced links -->
 [1]: ../../../learn/getting-started/edit-email-signature.md
@@ -131,9 +131,11 @@ This tab contains any extra fields defined for requests. These will vary from co
 [3]: ../priority/escalation-levels.md
 [4]: ../tags.md
 [5]: edit-message.md
+[6]: ../../../custom-objects/learn/extra-table/index.md
 [7]: ../../reply-templates/learn/new-language.md
 [8]: ../index.md
 [9]: ../../reply-templates/learn/index.md
+[10]: ../../../ui/screen-designer/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/format-font.png

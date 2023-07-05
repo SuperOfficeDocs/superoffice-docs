@@ -2,9 +2,9 @@
 uid: help-en-request-reply
 title: Reply to contact
 description: In this guide you will learn how to reply to all incoming requests in SuperOffice.
-author: Bergfrid Dias
-so.date: 03.14.2023
-keywords: request, reply template
+author: Kirsti Aakerholt
+so.date: 07.05.2023
+keywords: request, reply template, forward, add comment, internal, external
 so.topic: howto
 so.audience: person
 so.audience.tooltip: SuperOffice Service
@@ -19,7 +19,7 @@ When you open a request and select **Reply**, the [email signature][7] you have 
 
 ![Replying to a request -screenshot][img4]
 
-## Reply (add message)
+## Reply
 
 1. [Open the request][1].
 
@@ -50,6 +50,17 @@ When you respond to an contact enquiry, you can save time by using a [reply temp
 
 1. Review the text and make wanted adjustments.
 
+## Add comment
+
+When you transfer a request to another colleague you might want to add a comment to the request about the findings you had or why you are transferring the request.
+
+You can still set the comment to External, so that the linked contact can see it on the request shown in the Customer Centre (if your company is set up to use the [Customer Centre][9]). You can also keep it as an internal comment, so it's only visible for your colleagues.
+
+1. Click the ![icon][img7] **Add comment** button.
+1. Add your comment.
+1. Set the comment to Internal or External in the footer depending of your comment.
+1. Click **Save** to save your comment and changes.
+
 ## Add a message to multiple requests
 
 You can add a message to several requests in a single operation. For example, if you receive several requests regarding the same problem, and would like to answer them all at the same time. The message you enter in this screen are added to the selected requests, and also sent by email to the contacts for the selected external requests.
@@ -77,11 +88,13 @@ You can add a message to several requests in a single operation. For example, if
 ## What would you like to do now?
 
 * [Edit message][6]
+* [Forward request][10]
 * [Close requests][3]
 * [Keep track of messages][4]
 * [Create reply template][8]
 * [Create new language version of reply template][5]
 * [Edit email signature][7]
+* [Customer Centre][9]
 
 <!-- Referenced links -->
 [1]: ../index.md#open
@@ -92,6 +105,8 @@ You can add a message to several requests in a single operation. For example, if
 [6]: edit-message.md
 [7]: ../../../learn/getting-started/edit-email-signature.md
 [8]: ../../reply-templates/learn/index.md
+[9]: ../../../customer-center/learn/index.md
+[10]: forward.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
@@ -100,3 +115,4 @@ You can add a message to several requests in a single operation. For example, if
 [img4]: ../../../../media/loc/en/request/reply-to-a-customer.png
 [img5]: ../../../../../common/icons/reply-icon.png
 [img6]: ../../../../../common/icons/reply-all-icon.png
+[img7]: ../../../../../common/icons/addcomment.png

@@ -26,7 +26,7 @@ Each question and query can be defined as a request. These questions range from 
 
 ## <a id="open" />Where can I access requests?
 
-* Archives in all main cards, like Company, Sale, Project
+* Archives in all main cards, like Company, Contact, Sale, Project
 * [Pre-defined lists][11]
 * [Search][12]
 * [Favourites][8]

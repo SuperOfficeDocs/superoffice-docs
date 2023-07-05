@@ -2,9 +2,9 @@
 uid: help-en-knowledge-base
 title: Knowledge Base
 description: Knowledge Base
-author: SuperOffice RnD
-so.date: 03.24.2023
-keywords: request, knowledge base
+author: Kirsti Aakerholt
+so.date: 07.05.2023
+keywords: request, knowledge base, service, faq, reply template, external documents, email addresses, e-mail
 so.topic: help
 so.audience: person
 so.audience.tooltip: SuperOffice Service
@@ -17,11 +17,11 @@ The **Knowledge base** is accessible from the **Main menu** in the top bar and g
 
 * **FAQ**: This contains a [list of frequently asked questions][2] and their answers. These entries can be made available in a web-based customer centre, where contacts themselves can search for answers, and request handlers can add links to FAQ entries when replying to enquiries.
 
-* **Reply templates**: Here you will find a list of all the [reply templates][3] in the system. A reply template consists of ready-made text that can be pasted into a message you are writing to a contact.
+* **Reply templates**: Here you will find a list of all the [reply templates][3] in the system. A reply template consists of predefined text that can be pasted into a message or a chat session you are writing to a contact.
 
-* **External documents**: Here you can [add documents][1] to make them available to anyone using SuperOffice Service, including unregistered contacts.
+* **External documents**: Here you can [add documents and files][1] to make them available to anyone using SuperOffice Marketing and Service, including unregistered contacts.
 
-* **Email addresses**: Here you can [create a list of email addresses][4] that you use frequently, for example, people who are neither users nor registered as contacts in SuperOffice CRM. These addresses will then be accessible in most places where you may want to send an email.
+* **Email addresses**: Here you can [create a list of email addresses][4] that you use frequently, for example, people who are neither users nor registered as contacts in SuperOffice CRM or is a group e-mail address. These addresses will then be accessible in most places where you may want to send an email.
 
 <!-- Referenced links -->
 [1]: ../external-document.md
