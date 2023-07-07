@@ -93,17 +93,19 @@ Here you can add translated versions of the document template.
 4. Click **Add**. The language is listed in the **Languages** tab.
 5. Repeat the steps above to add additional languages.
 
-## Related
+## Related topics
 
 * [How do I upload and use document templates?][3] - FAQ
 * [Replace existing template][1]
+* [All template variables][6]
 
 <!-- Referenced links -->
-[2]: ../../../document/learn/template-variables.md
-[5]: ../../../document/learn/index.md
 [1]: replace-existing-template.md
-[4]: ../../../sale/saint/learn/index.md
+[2]: ../../../document/learn/template-variables.md
 [3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-upload-and-use-document-templates-in-superoffice-crm/
+[4]: ../../../sale/saint/learn/index.md
+[5]: ../../../document/learn/index.md
+[6]: ../../../document/templates/variables/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-down.png

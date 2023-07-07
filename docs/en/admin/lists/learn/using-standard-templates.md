@@ -1,11 +1,13 @@
 ---
-uid: help-en-using-standard-templates
-title: Using standard templates
-description: Using standard templates
+uid: help-en-use-standard-templates
+title: Use standard templates
+description: Use standard templates
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 07.07.2023
 keywords: Settings and maintenance
 so.topic: help
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -36,12 +38,14 @@ You can edit the standard templates supplied with SuperOffice CRM and save them 
 > [!NOTE]
 > If you save a standard template with a new name, you have created a new template. You must [link this template to SuperOffice CRM][1].
 
-## What would you like to do now?
+## Related topics
 
 * [Create a template document][2]
+* [All template variables][3]
 
 <!-- Referenced links -->
 [1]: add-template.md
 [2]: creating-template-document.md
+[3]: ../../../document/templates/variables/index.md
 
 <!-- Referenced images -->

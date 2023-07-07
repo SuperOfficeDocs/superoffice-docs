@@ -54,6 +54,8 @@ items:
       href: replace-existing-template.md
     - name: Document templates in multiple languages
       href: ../../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+    - name: All template variables
+      topicHref: ../../../document/templates/variables/index.md
   - name: Email template
     href: email-template.md
     items:

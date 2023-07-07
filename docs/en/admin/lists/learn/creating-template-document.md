@@ -6,6 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: help
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -24,8 +26,13 @@ You can also create templates in HTML format, and use the SuperOffice HTML edito
 
 After you define a template and save it in the template folder, you must [link the template to SuperOffice CRM][2] to create documents from it.
 
+## Related topics
+
+* [All template variables][3]
+
 <!-- Referenced links -->
 [1]: ../../../document/learn/template-variables.md
 [2]: add-template.md
+[3]: ../../../document/templates/variables/index.md
 
 <!-- Referenced images -->

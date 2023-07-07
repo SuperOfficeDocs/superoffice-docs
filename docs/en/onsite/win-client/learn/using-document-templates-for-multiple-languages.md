@@ -6,6 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: help
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -64,3 +66,12 @@ You now need to select the correct document languages for the users who are goin
 6. Click **Save**.
 
 7. Repeat steps 2-6 for each user you want to set the document language for.
+
+## Related topics
+
+* [All template variables][1]
+
+<!-- Referenced links -->
+[1]: ../../../document/templates/variables/index.md
+
+<!-- Referenced images -->

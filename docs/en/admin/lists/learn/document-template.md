@@ -6,6 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: help
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -30,6 +32,7 @@ You can also create your own templates in the applications you have chosen to us
 * [Create a template document][4]
 * [Add a document template][6]
 * [Look at template variables][1]
+* [All template variables][7]
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/template-variables.md
@@ -38,5 +41,6 @@ You can also create your own templates in the applications you have chosen to us
 [4]: creating-template-document.md
 [5]: organize/user-group-filtering.md
 [6]: add-template.md
+[7]: ../../../document/templates/variables/index.md
 
 <!-- Referenced images -->

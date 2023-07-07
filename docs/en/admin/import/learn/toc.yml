@@ -1,6 +1,8 @@
 items:
   - name: Overview
     href: index.md
+  - name: Create import file
+    href: create-import-file.md
   - name: Import from Excel
     href: import-from-excel.md
   - name: Import from Outlook
@@ -13,7 +15,5 @@ items:
     href: import-from-erp.md
   - name: Import products from Excel
     href: import-products-from-excel.md
-  - name: Create the import file
-    href: create-import-file.md
   - name: Configure import settings
     href: configure-import-settings.md
