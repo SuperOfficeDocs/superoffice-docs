@@ -7,7 +7,7 @@ so.date: 03.14.2023
 keywords: mobil, Pocket, Visitenkarte
 so.topic: howto
 so.version: 10
-so.lang: en
+language: de
 so.client: mobile
 ---
 

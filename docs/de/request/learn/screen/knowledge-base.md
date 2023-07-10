@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 03.24.2023
 keywords: Anfrage, Wissensdatenbank
 so.topic: help
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: de
 ---
 

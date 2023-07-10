@@ -6,7 +6,8 @@ author: Bergfrid Dias
 so.date: 03.21.2023
 keywords: Volltext, Suchen, Stoppwort
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: de
 ---
 

@@ -6,8 +6,9 @@ author: SuperOffice RnD
 so.date: 02.22.2023
 keywords: Chat
 so.topic: concept
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+
 language: de
 ---
 

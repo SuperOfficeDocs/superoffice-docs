@@ -7,7 +7,7 @@ so.date: 12.14.2022
 keywords: Verkauf, Seitenleiste, Selektion
 so.topic: howto
 so.version: 10
-so.lang: en
+language: de
 ---
 
 # Wie man die Seitenleiste effizient für den Verkauf nutzt

@@ -5,8 +5,8 @@ description: Nachrichten nachverfolgen
 author: Hanne Gunnarsson
 keywords: Anfrage, hinzufügen, Markierung
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: de
 ---
 

@@ -6,8 +6,9 @@ author: Bergfrid Dias
 so.date: 03.20.2023
 keywords: Formular, Kundenzentrum
 so.topic: howto
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+
 language: de
 ---
 

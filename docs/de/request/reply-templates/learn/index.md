@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 03.16.2023
 keywords: Anfrage
 so.topic: concept
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: de
 ---
 

@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Favoriten
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice CRM
+so.audience: person
+so.audience.tooltip: SuperOffice CRM
 language: de
 ---
 

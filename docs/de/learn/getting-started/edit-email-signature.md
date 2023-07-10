@@ -7,10 +7,10 @@ so.date: 03.06.2023
 keywords: E-Mail, Signatur
 so.topic: howto
 so.version: 10
-so.lang: en
+language: de
 so.envir:
-so.user: user
-so.user.tooltip: SuperOffice CRM
+so.audience: person
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # E-Mail-Signatur bearbeiten

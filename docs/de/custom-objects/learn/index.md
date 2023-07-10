@@ -7,8 +7,9 @@ so.date: 02.23.2023
 keywords: benutzerdefiniertes Objekt
 so.topic: concept
 language: de
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+
 ---
 
 # Benutzerdefinierte Objekte

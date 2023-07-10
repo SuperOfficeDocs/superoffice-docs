@@ -8,7 +8,8 @@ keywords: Benutzerverwaltung, Rolle, Anonym
 so.topic: howto
 language: de
 so.envir: onsite
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Rechte für anonyme Benutzer bearbeiten (vor Ort)

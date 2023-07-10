@@ -6,8 +6,8 @@ description: Anfragen zur Favoritenliste hinzufügen
 so.date: 06.29.2022
 keywords: Anfrage, fav
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: de
 ---
 

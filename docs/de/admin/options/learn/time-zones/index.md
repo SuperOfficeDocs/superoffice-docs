@@ -6,7 +6,8 @@ author: Bergfrid Dias
 so.date: 03.24.2023
 keywords: Zeitzone
 so.topic: concept
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: de
 ---
 

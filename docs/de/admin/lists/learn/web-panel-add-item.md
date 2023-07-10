@@ -6,8 +6,9 @@ author: SuperOffice RnD
 so.date: 01.20.2023
 keywords: Liste, Web-Bildschirm
 so.topic: howto
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+
 language: de
 ---
 

@@ -6,8 +6,9 @@ author: SuperOffice RnD
 so.date: 03.27.2023
 keywords: Einstellungen, Einstellungen, Allgemein
 so.topic: help
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+
 language: de
 ---
 

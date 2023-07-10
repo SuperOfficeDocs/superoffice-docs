@@ -5,8 +5,8 @@ description: Wie man eine Mitteilung in einer Anfrage in SuperOffice bearbeitet
 author: Hanne Gunnarsson
 keywords: Anfrage
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: de
 ---
 

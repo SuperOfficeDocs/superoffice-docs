@@ -7,7 +7,7 @@ so.date: 03.06.2023
 keywords: E-Mail, Dokument
 so.topic: howto
 so.version: 10
-so.lang: en
+language: de
 ---
 
 # E-Mail, Dokumente und Kalender verbinden

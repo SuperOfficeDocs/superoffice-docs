@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 03.20.2023
 keywords: Videokonferenz, Einladung
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: de
 ---
 
