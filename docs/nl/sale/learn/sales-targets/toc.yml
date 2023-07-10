@@ -1,7 +1,0 @@
-items:
-- name: Overzicht
-  href: index.md
-- name: Verkooptargets instellen
-  href: create.md
-- name: Targettypes
-  href: target-types.md

@@ -1,9 +1,0 @@
-items:
-- name: Selectie bewerken
-  href: index.md
-- name: Leden toevoegen en verwijderen (statisch)
-  href: add-remove-members-static.md
-- name: Leden naar een andere selectie kopiëren
-  href: copy-members-to.md
-- name: Selectie verwijderen
-  href: delete.md

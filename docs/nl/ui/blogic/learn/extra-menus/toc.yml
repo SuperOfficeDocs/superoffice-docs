@@ -1,9 +1,0 @@
-items:
-  - name: Overzicht
-    href: index.md
-  - name: Functie toevoegen aan menuknop (Taak)
-    href: actions.md
-  - name: Navigatorgroep en extra menu toevoegen
-    href: navigator.md
-  - name: Menu-eigenschappen
-    href: properties.md
