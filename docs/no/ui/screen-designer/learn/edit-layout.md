@@ -121,7 +121,7 @@ En kategori har to kolonner som standard, men du kan bruke alt fra 1–4 kolonne
 * Noen faner, for eksempel **ERP** og **Merk**, har ikke et kolonneoppsett siden de har bestemte funksjoner.
 * Hvis en bruker ikke har en skjermstørrelse som har plass til alle kolonnene, stables de oppå hverandre.
 
-## <a id="tabs" >/Faner
+## <a id="tabs" />Faner
 
 Legg til flere faner for flere felt, eller fjern irrelevante faner.
 
