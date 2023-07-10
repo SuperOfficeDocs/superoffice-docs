@@ -8,7 +8,6 @@ keywords: Skript, Makro
 so.topic: concept
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: de
 ---
 

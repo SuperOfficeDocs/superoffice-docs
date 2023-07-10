@@ -62,6 +62,7 @@ In der Liste rechts können Sie Produktinformationen hinzufügen. Dies kann Folg
 
 * Liste mit Suchoptionen ![Symbol][img1]: Hier können Sie aus Listen oder kürzlich erstellten Datensätzen auswählen, Text zur Suche eingeben oder die Suchschaltfläche ![Symbol][img1] anklicken, um eine erweiterte Suche zu starten.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### Wie man einen Namen und die Reihenfolge ändert und die Bearbeitung von Feldern möglich und/oder obligatorisch macht
 
 Im [Dialogfeld Produkt konfigurieren][3] können Sie die Reihenfolge und den Namen der angezeigten Felder definieren und festlegen, ob die Bearbeitung möglich und/oder obligatorisch ist.

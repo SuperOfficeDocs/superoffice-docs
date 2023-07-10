@@ -49,7 +49,7 @@ Sie können in den verschiedenen Komponenten von SuperOffice CRM Einstellungen f
 * [Vorlagenvariablen][1]
 
 <!-- Referenced links -->
-[1]: ../../document/templates/variables/index.md
+[1]: ../../../en/document/templates/variables/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/pref-defaultvalues-h32.png

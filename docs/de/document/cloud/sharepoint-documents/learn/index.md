@@ -44,9 +44,9 @@ Um SharePoint als Ihre Dokumentbibliothek in SuperOffice einzurichten, benötige
 * [Genießen Sie eine effektive Dokumentkollaboration und Informationsaustausch mit SharePoint und SuperOffice CRM][3] -Blog
 
 <!-- Referenced links -->
-[1]: ../set-up.md
+[1]: ../../../../../en/document/cloud/sharepoint-documents/set-up.md
 [2]: set-up-folders.md
-[3]: https://community.superoffice.com/no/learning/best-practices-tips/standard-crm/sharepoint-integration/
+[3]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/sharepoint-integration/
 [4]: ../../../../admin/preferences/learn/document-library/change-to-sharepoint.md
 
 <!-- Referenced images -->

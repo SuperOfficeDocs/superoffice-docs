@@ -8,7 +8,6 @@ keywords: DSGVO, Einwilligung, E-Mail, Vorlage
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: de
 ---
 

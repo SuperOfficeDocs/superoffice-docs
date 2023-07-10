@@ -43,7 +43,7 @@ Sie können eine Dokumentenkampagne mit einem bestimmten Verkauf verknüpfen. Di
 > Klicken Sie auf die Schaltfläche **Speichern + Schließen**, um die Kampagne zu speichern und zu schließen. Sie können die Arbeit an der Kampagne später wieder fortsetzen.
 
 <!-- Referenced links -->
-[1]: ../../../../../document/templates/variables/index.md
+[1]: ../../../../../../en/document/templates/variables/index.md
 [19]: ../../../../learn/create-folder.md
 
 <!-- Referenced images -->

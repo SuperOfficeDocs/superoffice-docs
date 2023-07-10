@@ -19,6 +19,7 @@ Wenn Sie mehrere Statuskontrollen und unterschiedliche Zeiträume/Zähler einric
 
 Die folgenden Abschnitte enthalten Informationen über das Aktivieren und Deaktivieren von Statuskontrollen und über das Erneuern von Statusangaben und Zählern. [!include[Define counter](../../../learn/includes/def-counter.md)]
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## Allgemeine Informationen zum Aktualisieren und Erneuern von Statusangaben und Zählern
 
 Unten auf der Registerkarte **Statuskontrollen** befinden sich Anzeigen für das Erneuern von Statusangaben und Zählern (Text, der das letzte Erstellungsdatum anzeigt, angibt, ob der ausgewählte Status oder die ausgewählten Zähler überhaupt generiert wurden oder ob der ausgewählte Status aufgrund von Änderungen erneuert werden soll).

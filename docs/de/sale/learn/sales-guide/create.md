@@ -8,7 +8,6 @@ keywords: Verkauf, Leitfaden
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: de
 ---
 
@@ -56,11 +55,11 @@ Nachdem Sie die Stufen erstellt und einen Verkaufstyp für den Verkaufsleitfaden
 
 4. Wählen Sie die gewünschte Stufe in der Liste aus. Die Einzelheiten zu dieser Stufe werden unten in der Ansicht angezeigt.
 
-5. [Einen oder mehrere Folgeaufgaben für die ausgewählte Stufe hinzufügen](#add-a-follow-up-for-a-stage).
+5. [Einen oder mehrere Folgeaufgaben für die ausgewählte Stufe hinzufügen](#add-fo-stage).
 
     Sie müssen für die einzelnen Stufen nicht unbedingt ein Dokument hinzufügen, Sie sollten jedoch mindestens eine Folgeaufgabe pro Stufe hinzufügen.
 
-6. [Ein oder mehrere Dokumente](#add-a-document-for-a-stage) für die ausgewählte Stufe hinzufügen.
+6. [Ein oder mehrere Dokumente](#add-doc-stage) für die ausgewählte Stufe hinzufügen.
 
 7. Wiederholen Sie die Schritte 4 bis 6 für jede Stufe, der Sie Folgeaufgaben und Dokumente hinzufügen möchten.
 
@@ -143,7 +142,7 @@ Agenda für Erstgespräch:
 **Standardbetreff**: Terminbestätigung (Erstgespräch)
 
 <!-- Referenced links -->
-[1]: ../../../document/templates/variables/for-sales.md
+[1]: ../../../../en/document/templates/variables/for-sales.md
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
 [4]: ../../../admin/lists/learn/document-template.md

@@ -83,7 +83,7 @@ In der Fußzeile der Liste können Sie auf das ![Symbol][img1] der Schaltfläche
 
 * **Massenabgleich**: Wenn Sie eine oder mehrere Anfragen in der Liste wählen, können Sie auf diese Option klicken, um einen Vorgang auf allen gewählten Anfragen gleichzeitig auszuführen. Sie können zum Beispiel auswählen, [dass dieselbe Nachricht mehreren Anfragen hinzugefügt werden soll][8], [dass mehrere Anfragen weitergeleitet werden][7] oder dass mehrere Anfragen auf einmal gelöscht werden sollen.
 
-### Vorschau
+### <a id="preview" />Vorschau
 
 In diesem Abschnitt der Ansicht wird der Inhalt der unter **Suchergebnis** ausgewählten Anfrage angezeigt. Sie haben die gleichen Optionen wie bei der [Bearbeitung von Anfragen][6].
 

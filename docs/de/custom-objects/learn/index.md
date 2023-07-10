@@ -9,7 +9,6 @@ so.topic: concept
 language: de
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 ---
 
 # Benutzerdefinierte Objekte

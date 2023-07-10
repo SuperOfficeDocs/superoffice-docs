@@ -121,7 +121,7 @@ Wenn Sie einige nicht korrekte Nummern hinzugefügt haben oder wenn ein Benutzer
 
 Klicken Sie auf die Schaltfläche **Aufgabe**, wenn Sie das Vertriebsziel für das ausgewählte Jahr in eine Excel- oder PDF-Datei exportieren wollen.
 
-## Import
+## <a id="import" />Import
 
 Sie können Zieldaten aus einer Excel-Datei kopieren und in SuperOffice in die Tabelle einfügen.
 

@@ -54,7 +54,7 @@ Mit dem Massenabgleich können Sie Werte in mehreren Datensätzen desselben Typs
 
 10. Klicken Sie auf **Schließen**.
 
-## Suchen und ersetzen
+## <a id="search-and-replace" />Suchen und ersetzen
 
 Mit dem Aktionstyp **Suchen und ersetzen** können Sie eine bestimmte Zeichenfolge in einem Feld suchen und ersetzen.
 

@@ -84,7 +84,7 @@ Kästchen mit gestrichelten Linien im Layout geben an, wo Sie ein Feld positioni
 
 Im Folgenden finden Sie detailliertere Informationen zu den verschiedenen Bereichen und Funktionen.
 
-## Felder
+## <a id="fields" />Felder
 
 Im Bereich **Felder** finden Sie alle verfügbaren Datenfelder für das ausgewählte Ansichtslayout. Suchen Sie bestimmte Felder mithilfe der Filterfunktion.
 
@@ -103,13 +103,13 @@ Im Bereich **Felder** finden Sie alle verfügbaren Datenfelder für das ausgewä
 
 Im Bereich **Elemente** können Sie verschiedene Elemente, die keine Daten enthalten, wie Bezeichnungen, Trennelemente, Links und Schaltflächen hinzufügen.
 
-## Einstellungen
+## <a id="settings"/>Einstellungen
 
 Sie können Felder hervorheben, indem Sie die Schrift in Fettdruck ändern und die Schriftgröße vergrößern. Mit einer kleineren Schrift haben Sie Platz für mehr Felder. Sparen Sie Platz auf der Ansicht, indem Sie Bezeichnungen ausblenden.
 
 Klicken Sie im Layout auf ein Feld oder Element, wenn Sie dessen Einstellungen bearbeiten wollen. Welche Einstellungen verfügbar sind, hängt vom Typ des Feldes bzw. Elements ab.
 
-## Spalten
+<a id="columns"/>## Spalten
 
 Standardmäßig ist eine Registerkarte in 2 Spalten unterteilt, aber Sie können ganz nach Bedarf 1-4 Spalten verwenden. Benutzer mit breiten Anzeigen bevorzugen möglicherweise mehr Spalten, um mehr Daten anzeigen und sortieren zu können.
 
@@ -120,7 +120,7 @@ Standardmäßig ist eine Registerkarte in 2 Spalten unterteilt, aber Sie können
 * Für manche Registerkarten, wie z. B. **ERP** und **Notiz**, gibt es keine Spaltenkonfiguration, weil sie bestimmte Funktionen haben.
 * Wenn ein Benutzer nicht die Anzeigegröße für alle Spalten hat, werden sie übereinandergestapelt.
 
-## Registerkarten
+## <a id="tabs" />Registerkarten
 
 Sie können weitere Registerkarten für zusätzliche Felder hinzufügen oder nicht benötigte Registerkarten entfernen.
 
@@ -145,7 +145,7 @@ Sie können weitere Registerkarten für zusätzliche Felder hinzufügen oder nic
 * Sie können keine Registerkarte entfernen, die obligatorische Felder enthält. Obligatorische Felder müssen zuerst auf eine andere Registerkarte verschoben werden.
 * Wenn nur noch eine Registerkarte übrig ist, können Sie sie nicht löschen.
 
-## Änderungen rückgängig machen
+## <a id="undo-changes" />Änderungen rückgängig machen
 
 Wenn Sie wieder eine frühere Version der Ansicht nutzen möchten, stehen über die Schaltfläche **Aufgabe** folgende Optionen zur Verfügung:
 

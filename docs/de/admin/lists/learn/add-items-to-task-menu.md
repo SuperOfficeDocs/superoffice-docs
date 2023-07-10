@@ -8,7 +8,6 @@ keywords: Einstellungen und Verwaltung
 so.topic: help
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: de
 ---
 
@@ -62,9 +61,9 @@ Füllen Sie wie folgt die Felder im Dialogfeld Listenobjekte bearbeiten für das
 [1]: web-panel-add-item.md
 [2]: adding-items.md
 [3]: specialized-lists.md
-[4]: ../../../ui/web-panels/url-encoding.md
+[4]: ../../../../en/ui/web-panels/url-encoding.md
 [5]: ../../../automation/crmscript/learn/index.md
-[6]: ../../../ui/soprotocol/index.md
-[7]: ../../../ui/web-panels/url-encoding.md
+[6]: ../../../../en/ui/soprotocol/index.md
+[7]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->

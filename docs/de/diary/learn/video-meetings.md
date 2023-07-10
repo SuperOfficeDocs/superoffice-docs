@@ -93,7 +93,7 @@ Klicken Sie auf den Termin in Ihrem SuperOffice-Kalender, um dessen Details in d
 Um über die Anzeige Vorschau an der Videokonferenz teilzunehmen, müssen Sie nur auf die Schaltfläche An Konferenz teilnehmen unten in der Seitenleiste klicken. Nachdem Sie sie angeklickt haben, wird die Videokonferenz automatisch gestartet.
 
 <!-- Referenced links -->
-[1]: ../../video-meeting/howto/connect-provider.md
+[1]: ../../../en/video-meeting/howto/connect-provider.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/videocall-off.png

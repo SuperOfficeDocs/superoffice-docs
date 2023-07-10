@@ -8,7 +8,6 @@ keywords: Projekt, Leitfaden, Workflow
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: de
 ---
 
@@ -156,7 +155,7 @@ Recherche:
 * [Projektleitfaden deaktivieren][6]
 
 <!-- Referenced links -->
-[1]: ../../../document/templates/variables/from-project-card.md
+[1]: ../../../../en/document/templates/variables/from-project-card.md
 [2]: ../../../admin/lists/learn/project-status.md
 [3]: ../../../admin/lists/learn/project-type.md
 [4]: ../../../admin/lists/learn/document-template.md

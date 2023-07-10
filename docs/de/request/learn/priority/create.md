@@ -8,7 +8,6 @@ keywords: Anfrage, Priorität
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: de
 ---
 
@@ -59,7 +58,7 @@ Standardmäßig stehen im System die Prioritäten **Hoch**, **Mittel** und **Nie
 
 1. Klicken Sie auf **Speichern**. Die Priorität wird erstellt. Sie können jetzt zum Beispiel [Eskalationsstufen mit dieser Priorität verknüpfen][1].
 
-## Prioritätseinstellungen
+## <a id="priority-settings"/>Prioritätseinstellungen
 
 | Einstellung | Beschreibung |
 |---|---|
@@ -73,7 +72,7 @@ Standardmäßig stehen im System die Prioritäten **Hoch**, **Mittel** und **Nie
 | Einschließlich Jahr | Wenn Sie diese Option wählen, wird das Jahr bei den Feiertagsterminen einbezogen. |
 | Anfragen gemäß Zeitrahmen eskalieren | Wenn diese Option aktiviert ist, werden Anfragen mit dieser Priorität nur während des definierten Zeitrahmens der Priorität eskaliert. Außerhalb der auf der Registerkarte **Zeitrahmen** festgelegten Zeiträume wird die Eskalation eingefroren.. |
 
-## Eskalationsoptionen
+## <a id="escalation-options"/>Eskalationsoptionen
 
 | Option | Beschreibung |
 |---|---|

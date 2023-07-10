@@ -90,6 +90,7 @@ Jetzt müssen Sie sicherstellen, dass Sie ein Mitglied der Kategorie oder Katego
 
 Wiederholen Sie diesen Vorgang bei Bedarf für andere Kategorien, die verfügbar sein sollten, um aus der Warteschlange abgefragt zu werden. Kategorien, die einer Zuordnungsmethode folgen, wird ein Benutzer zugeordnet, und sie werden daher nicht in die Warteschlange gestellt.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## Definieren Sie einen neuen Status für Anfragen, die aus der Warteschlange abgefragt werden
 
 Wenn Sie eine Anfrage aus der Warteschlange abgefragt haben, muss der Status von **In Warteschlange** zu **Offen** (oder einem anderen aktiven Status, der bedeutet, dass die Anfrage bearbeitet wird) wechseln. Dies geschieht normalerweise automatisch.

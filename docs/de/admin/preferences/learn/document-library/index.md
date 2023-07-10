@@ -31,6 +31,6 @@ Mit dieser Integration können Sie alle Dokumente und E-Mails in SharePoint Onli
 
 <!-- Referenced links -->
 [1]: change-to-sharepoint.md
-[2]: ../../../../document/cloud/overview.md
+[2]: ../../../../../en/document/cloud/overview.md
 
 <!-- Referenced images -->

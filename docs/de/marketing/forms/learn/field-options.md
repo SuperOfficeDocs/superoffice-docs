@@ -81,7 +81,7 @@ Im Folgenden finden Sie eine Übersicht über spezielle Optionen in einigen verf
 * **Bereich**: Fügen Sie einen Bereich zwischen den Feldern ein, damit Sie ein [mehrseitige Formular erstellen][2] können. Dies ist nützlich, wenn das Formular viele Felder enthält und Sie übermäßiges Scrollen vermeiden wollen.
 
 <!-- Referenced links -->
-[1]: ../recaptcha.md
+[1]: ../../../../en/marketing/forms/recaptcha.md
 [2]: create.md#multi-page
 
 <!-- Referenced images -->

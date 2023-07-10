@@ -25,7 +25,7 @@ Bei doppeltem Opt-in müssen die Kunden ihre E-Mail-Adresse verifizieren, indem 
 Mit dieser Option statten Sie das Formular mit einem zusätzlichen Sicherheitsmerkmal aus. Wenn Sie diese Option aktivieren, muss die Person, die das Formular übermittelt, zusätzlich ihre E-Mail-Adresse bestätigen. Zu diesem Zweck erhält die betreffende Person eine E-Mail, sobald sie das Formular übermittelt. Die E-Mail enthält einen Link, auf den die betreffende Person klicken muss, um die Richtigkeit der E-Mail-Adresse zu bestätigen.
 Der Link ist standardmäßig 30 Minuten lang gültig.
 
-## Anmeldung zum Newsletter
+## <a id="newsletter-sign-up" />Anmeldung zum Newsletter
 
 Mit diesem Formular können sich Ihre Kunden für einen oder mehrere Newsletter anmelden. Der Anmeldeprozess umfasst auch doppeltes Opt-In, um fehlerhafte oder gefälschte Abonnements zu eliminieren.
 
@@ -128,7 +128,7 @@ Mit diesem Formular können sich Ihre Kunden für einen oder mehrere Newsletter 
 
 1. Öffnen Sie den Link zum Formular, füllen Sie das Formular aus und überprüfen Sie, ob alles wie erwartet funktioniert.
 
-## Kontakt
+## <a id="contact-me" />Kontakt
 
 Stellen Sie ein „Kontaktieren“-Formular auf die Webseiten Ihrer Firma, um einen einfachen Kommunikationskanal für bestehende oder potenzielle Kunden bereitzustellen.
 

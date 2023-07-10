@@ -8,7 +8,6 @@ keywords: Einstellungen, Einstellungen, Allgemein
 so.topic: help
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: de
 ---
 
