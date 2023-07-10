@@ -46,4 +46,4 @@ Sie müssen Ihr [Chat-Widget einrichten][3], bevor Sie es zu Ihrem Kundenzentrum
 [2]: config.md
 
 <!-- Referenced images -->
-[img1]: media/connecting-widget.png
+[img1]: ../../../media/loc/en/customer-center/connecting-widget.png

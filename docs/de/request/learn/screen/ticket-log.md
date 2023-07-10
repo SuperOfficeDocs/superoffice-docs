@@ -45,4 +45,4 @@ In dieser Ansicht werden die Protokolleinträge für die Anfrage angezeigt. Zu s
 [11]: ../howto/create.md
 
 <!-- Referenced images -->
-[img1]: ../media/request-change-log.png
+[img1]: ../../../../media/loc/en/request/request-change-log.png

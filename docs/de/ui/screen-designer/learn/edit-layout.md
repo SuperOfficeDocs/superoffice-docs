@@ -80,7 +80,7 @@ Sehen Sie sich dieses Video an, um herauszufinden, wie Sie mit dem Ansichtsdesig
 
 Kästchen mit gestrichelten Linien im Layout geben an, wo Sie ein Feld positionieren können:
 
-![Kästchen mit gestrichelten Linien -Screenshot](media/screendesigner-field-place.png)
+![Kästchen mit gestrichelten Linien -screenshot][img6]
 
 Im Folgenden finden Sie detailliertere Informationen zu den verschiedenen Bereichen und Funktionen.
 
@@ -162,4 +162,5 @@ Wenn Sie wieder eine frühere Version der Ansicht nutzen möchten, stehen über 
 [img2]: ../../../../../common/icons/delete-circle-red.png
 [img4]: ../../../../media/icons/criteria-move.png
 [img5]: ../../../../../common/icons/add-icon.png
-[img3]: media/edit-the-screen-layout-of-companies-and-contacts.png
+[img3]: ../../../../media/loc/en/ui/edit-the-screen-layout-of-companies-and-contacts.png
+[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png

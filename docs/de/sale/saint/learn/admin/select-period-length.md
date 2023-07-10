@@ -44,4 +44,4 @@ Sie können bis zu drei unterschiedliche Zeiträume festlegen, so dass Sie zwisc
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->
-[img1]: media/admin-saint-counters.png
+[img1]: ../../../../../media/loc/en/sale/admin-saint-counters.png

@@ -83,6 +83,8 @@ Diese Registerkarte enthält speziell Felder mit Angaben zu den finanziellen Det
 
 ### Die Registerkarte Verknüpfungen
 
+![The More tab (Sale) -screenshot][img6]
+
 Hier können Sie Verknüpfungen hinzufügen, die für den Verkauf, an dem Sie arbeiten, relevant sind, wie URL-Adressen, Projekte, andere Verkäufe, Folgeaufgaben und Dokumente. Wenn Sie beispielsweise eine Besprechung mit einer Firma haben, mit der Sie bereits zuvor in Kontakt waren, können Sie Verknüpfungen zu den Dokumenten hinzufügen, die Sie bereits für diese Firma erstellt haben.
 
 [!include[How to add links](../../learn/includes/howto-add-links.md)]
@@ -127,8 +129,9 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 [9]: stages.md
 
 <!-- Referenced images -->
-[img1]: media/user-diary-sales.png
+[img1]: ../../../media/loc/en/sale/user-diary-sales.png
 [img2]: ../../../media/icons/arrow-left.png
-[img3]: media/55-chap7-sale-new-details.bmp
+[img3]: ../../../media/loc/en/sale/sale-details.png
 [img4]: ../../../media/icons/arrow-right.png
-[img5]: media/54-chap7-sale-new.bmp
+[img5]: ../../../media/loc/en/sale/sale-card.png
+[img6]: ../../../media/loc/en/sale/sale-more.png

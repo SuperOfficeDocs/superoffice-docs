@@ -33,5 +33,5 @@ Wenn Sie unten auf der Bereichsregisterkarte die Option **Beteiligte einschließ
 [4]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->
-[img1]: media/sale-detail.bmp
+[img1]: ../../../../media/loc/en/company/sale-detail.bmp
 [img2]: ../../../../../common/icons/filter-icon.png

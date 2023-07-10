@@ -33,4 +33,4 @@ Doppelklicken Sie auf ein Projekt in der Liste, um die Anzeige Projekt mit Infor
 [2]: ../../../project/learn/create.md
 
 <!-- Referenced images -->
-[img1]: media/projects-detail.bmp
+[img1]: ../../../../media/loc/en/company/projects-detail.bmp

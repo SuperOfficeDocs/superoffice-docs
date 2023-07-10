@@ -65,9 +65,9 @@ In unserer Mobile CRM App haben Sie Zugriff auf alle Anfragen und können die An
 
 ## Zugehörige Inhalte
 
-* [Wie man die Authentifizierung per Fingerabdruck einrichtet][3] \- FAQ
-* [Wie man die Benachrichtigungen in Mobile CRM konfiguriert][4] \- FAQ
-* [Wie man mit der Verwendung der Anrufer-ID für Mobile CRM beginnt][5] \- FAQ
+* [Wie man die Authentifizierung per Fingerabdruck einrichtet][3] - FAQ
+* [Wie man die Benachrichtigungen in Mobile CRM konfiguriert][4] - FAQ
+* [Wie man mit der Verwendung der Anrufer-ID für Mobile CRM beginnt][5] - FAQ
 
 <!-- Referenced links -->
 [1]: ../../../../assets/downloads/quick-guide-for-mobile-crm-2020.pdf
@@ -78,4 +78,4 @@ In unserer Mobile CRM App haben Sie Zugriff auf alle Anfragen und können die An
 [7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
 <!-- Referenced images -->
-[img1]: media/mobile-crm-gif-prev-02.gif
+[img1]: ../../../../media/loc/en/mobile/mobile-crm-gif-prev-02.gif

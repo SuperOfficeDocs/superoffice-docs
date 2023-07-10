@@ -96,5 +96,5 @@ Wenn Sie versuchen, eine Firma einzugeben, die einer Firma ähnelt, die bereits 
 [3]: ../../learn/getting-started/preferences.md
 
 <!-- Referenced images -->
-[img1]: media/new-company.bmp
-[img2]: media/interests.bmp
+[img1]: ../../../media/loc/en/company/new-company.bmp
+[img2]: ../../../media/loc/en/company/interests.bmp

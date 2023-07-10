@@ -37,4 +37,4 @@ Doppelklicken Sie auf eine Beziehungszeile, um das Dialogfeld **Beziehung** zu Ã
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.bmp
-[img2]: media/relations-detail.bmp
+[img2]: ../../../../media/loc/en/company/relations-detail.bmp

@@ -279,4 +279,4 @@ Mit dem Abschluss der drei Schritte haben Sie wichtige Maßnahmen zur Einhaltung
 [6]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
-[img1]: media/privacy.png
+[img1]: ../../../../media/loc/en/security/privacy.png

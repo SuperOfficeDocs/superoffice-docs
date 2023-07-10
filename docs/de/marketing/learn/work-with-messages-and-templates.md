@@ -130,4 +130,4 @@ Zusätzlich zu den Vorlagen, die von Ihnen und Ihren Kollegen erstellt wurden, h
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/btn-add.png
-[img3]: media/work-with-templates.png
+[img3]: ../../../media/loc/en/marketing/work-with-templates.png

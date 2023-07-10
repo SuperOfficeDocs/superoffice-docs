@@ -45,4 +45,4 @@ Dies sind die Schritte, um das Chat-Widget zu konfigurieren und es dann zu Ihrer
 [2]: add-javascript.md
 
 <!-- Referenced images -->
-[img1]: media/crmscript-macros-script-chatbot-bot-folders.png
+[img1]: ../../../../media/loc/en/chat/crmscript-macros-script-chatbot-bot-folders.png

@@ -35,4 +35,4 @@ Die KI kann Ihnen helfen, Ihre vorhandenen Daten sinnvoll zu nutzen und Prozesse
 [3]: ../../chat/learn/admin/channel-create.md#chatbot
 
 <!-- Referenced images -->
-[img1]: media/ai-services.png
+[img1]: ../../../media/loc/en/ai/ai-services.png

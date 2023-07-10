@@ -54,4 +54,4 @@ language: de
 [2]: ../../search-options/learn/using-history-list.md
 
 <!-- Referenced images -->
-[img1]: media/email-document-send-as-email.png
+[img1]: ../../../media/loc/en/document/email-document-send-as-email.png

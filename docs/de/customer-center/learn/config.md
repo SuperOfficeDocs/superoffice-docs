@@ -67,5 +67,5 @@ Wenn Ihr Kundenzentrum mehrsprachig ist, können Sie Optionen (wie Begrüßungst
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-admin-custcenter-active.png
-[img2]: media/customer-centre-chat-with-agents.jpg
-[img3]: media/config-cust-centre.png
+[img2]: ../../../media/loc/en/customer-center/customer-centre-chat-with-agents.jpg
+[img3]: ../../../media/loc/en/customer-center/config-cust-centre.png

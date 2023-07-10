@@ -24,5 +24,5 @@ Klicken Sie auf die Kampagne in der Liste, um sich den [Sendestatus und Statisti
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../media/send-now.png
+[img1]: ../../../../../../media/loc/en/marketing/send-now.png
 [img2]: ../../../../../../media/icons/btn-menu.png

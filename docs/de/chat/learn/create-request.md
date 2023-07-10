@@ -37,4 +37,4 @@ Wenn Sie das Problem nicht über den Chat lösen können, können Sie eine Anfra
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/chat-create-request.png
+[img2]: ../../../media/loc/en/chat/chat-create-request.png

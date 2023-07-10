@@ -87,6 +87,6 @@ Stellen Sie die Voreinstellungen ein, um sie an Ihre Bedürfnisse anzupassen:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/main-menu-small.png
-[img2]: media/webtools-mac-install.jpg
-[img3]: media/webtools-mac-login-items.jpg
-[img4]: media/webtools-mac-preferences.jpg
+[img2]: ../../../media/loc/en/webtools/webtools-mac-install.jpg
+[img3]: ../../../media/loc/en/webtools/webtools-mac-login-items.jpg
+[img4]: ../../../media/loc/en/webtools/webtools-mac-preferences.jpg

@@ -105,5 +105,5 @@ Sie haben auch die Möglichkeit, die gelöschten Firmen und Personen anderer Ben
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
-[img2]: media/recycle-bin.png
-[img3]: media/recycle-bin-personal-settings.png
+[img2]: ../../../media/loc/en/learn/recycle-bin.png
+[img3]: ../../../media/loc/en/learn/recycle-bin-personal-settings.png

@@ -47,4 +47,4 @@ language: de
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/binders.bmp
-[img2]: media/relation.bmp
+[img2]: ../../../media/loc/en/company/relation.bmp

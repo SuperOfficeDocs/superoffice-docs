@@ -81,9 +81,9 @@ Klicken Sie auf **Weiter,** wenn Sie mit der Bearbeitung fertig sind.
 [8]: ../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
-[img1]: media/edit-section.png
+[img1]: ../../../media/loc/en/marketing/edit-section.png
 [img2]: ../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img3]: ../../../media/icons/marketing-and-forms/desktop-2.png
 [img4]: ../../../media/icons/marketing-and-forms/mobile.png
-[img5]: media/toolbar.png
+[img5]: ../../../media/loc/en/marketing/toolbar.png
 [img6]: ../../../media/icons/marketing-and-forms/link.png

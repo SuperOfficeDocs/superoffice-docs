@@ -52,4 +52,4 @@ language: de
 [2]: select-language.md
 
 <!-- Referenced images -->
-[img1]: media/customer-centre-language.png
+[img1]: ../../../../../media/loc/en/admin/customer-centre-language.png

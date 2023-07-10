@@ -49,4 +49,4 @@ Wenn Sie eine Testkampagne verschickt haben, müssen Sie die Zähler für die in
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
-[img2]: media/test-mailing.png
+[img2]: ../../../../../media/loc/en/marketing/test-mailing.png

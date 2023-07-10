@@ -76,5 +76,5 @@ Jedes Mal, wenn eine Person in Ihrer SuperOffice CRM-Datenbank erfasst wird, wir
 [2]: ../../../learn/basics/bulk-update.md
 
 <!-- Referenced images -->
-[img1]: media/legal-basisi.png
-[img2]: media/legal-bases-registered-consent.png
+[img1]: ../../../../media/loc/en/security/legal-basisi.png
+[img2]: ../../../../media/loc/en/security/legal-bases-registered-consent.png

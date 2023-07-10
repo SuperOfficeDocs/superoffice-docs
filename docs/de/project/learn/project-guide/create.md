@@ -164,4 +164,4 @@ Recherche:
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-workflow-active.png
-[img2]: media/create-project-guide.png
+[img2]: ../../../../media/loc/en/project/create-project-guide.png

@@ -84,4 +84,4 @@ Wählen Sie den gewünschten Diagrammtyp und die erforderlichen Einstellungen au
 [5]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
-[img1]: media/dashboard-add-tile-sale.png
+[img1]: ../../../media/loc/en/dashboard/dashboard-add-tile-sale.png

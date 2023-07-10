@@ -134,4 +134,4 @@ Klicken Sie auf **Weiter**, um zu Schritt 5 zu gehen: Bestätigen Sie. Sie kön
 <!-- Referenced images -->
 [img1]: ../../../../../../media/icons/btn-add.png
 [img2]: ../../../../../../../common/icons/salelost.png
-[img3]: media/add-target-list.png
+[img3]: ../../../../../../media/loc/en/marketing/add-target-list.png

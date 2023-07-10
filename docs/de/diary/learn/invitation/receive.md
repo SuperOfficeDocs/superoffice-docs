@@ -93,7 +93,7 @@ Klicken Sie auf die Schaltfläche **Schließen**, um das Dialogfeld zu schließe
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/notice-new.png
-[img2]: media/invitation.bmp
+[img2]: ../../../../media/loc/en/diary/invitation.bmp
 [img3]: ../../../../../common/icons/check-black.png
 [img4]: ../../../../../common/icons/reject-appointment-icon.png
 [img5]: ../../../../media/icons/recurring-booking-assignment.bmp

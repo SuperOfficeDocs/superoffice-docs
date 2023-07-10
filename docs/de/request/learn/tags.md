@@ -54,4 +54,4 @@ Nach Tags können Sie in der [Volltextsuche][2] und mit Kriterien in der normale
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/requests-tag-request-small.png
+[img2]: ../../../media/loc/en/request/requests-tag-request-small.png

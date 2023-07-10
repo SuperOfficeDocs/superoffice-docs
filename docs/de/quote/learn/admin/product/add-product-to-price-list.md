@@ -84,4 +84,4 @@ Gehen Sie zur Registerkarte **Einstellungen** und klicken Sie auf **Produkt konf
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/search-icon-black.png
-[img2]: media/add-products-to-price-list.png
+[img2]: ../../../../../media/loc/en/quote/add-products-to-price-list.png

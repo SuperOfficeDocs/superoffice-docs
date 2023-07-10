@@ -28,6 +28,7 @@ Standardmäßig werden Statistiken für alle verfügbaren Kanäle angezeigt, Sie
 
 Sie können Statistiken aus Chat-Konversationen in einem Dashboard visualisieren, um einen informativen Überblick über die Daten zu erhalten. Nachdem Sie die Option [Dashboard erstellen][2] ausgeführt haben, können Sie [Kacheln hinzufügen und bearbeiten][3].
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### Beispiele: Kacheln, die Sie Ihrem Dashboard für Chat-Unterhaltungen hinzufügen können
 
 * Verwenden Sie die Kachel **Diesen Monat durchschnittlich am besten bewerteter Agent**, um zu sehen, welcher Mitarbeiter in diesem Monat im Durchschnitt am besten abgeschnitten hat. Die Kachel kann zur Motivation oder für den internen Wettbewerb verwendet werden.
@@ -54,5 +55,5 @@ Doppelklicken Sie auf eine Zeile in der Liste **Laufende Chat-Sitzungen**, um ei
 [3]: ../../dashboard/learn/add-tile.md
 
 <!-- Referenced images -->
-[img1]: media/chat-dashboard-statistics.png
-[img2]: media/chat-dashboard.png
+[img1]: ../../../media/loc/en/chat/chat-dashboard-statistics.png
+[img2]: ../../../media/loc/en/chat/chat-dashboard.png

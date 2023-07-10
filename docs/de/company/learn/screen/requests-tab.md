@@ -20,4 +20,4 @@ Sie können auf eine Anfrage doppelklicken, um diese in einem separaten Fenster 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/requests-detail.bmp
+[img1]: ../../../../media/loc/en/company/requests-detail.bmp

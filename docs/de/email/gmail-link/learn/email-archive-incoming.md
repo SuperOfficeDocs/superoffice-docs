@@ -49,4 +49,4 @@ Klicken Sie auf den Link in der Popup-Meldung, um das Dokument in SuperOffice zu
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/soarchive.png
-[img2]: media/email-gmaillink-archive.png
+[img2]: ../../../../media/loc/en/email/email-gmaillink-archive.png

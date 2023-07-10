@@ -67,4 +67,4 @@ In der Bibliothek gibt es eine große Auswahl an Standardkacheln, Sie können ab
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/az.png
-[img2]: media/10-dashboard-create-dashboard_dragdrop.png
+[img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png

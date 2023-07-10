@@ -67,4 +67,4 @@ Wenn Sie keine Lizenz für konfigurierbare Ansichten haben, verwenden Sie die Re
 [5]: ../../ui/screen-designer/learn/index.md
 
 <!-- Referenced images -->
-[img1]: media/create-extra-tables-and-fields.png
+[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

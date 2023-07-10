@@ -64,4 +64,4 @@ Sie können in den verschiedenen Komponenten von SuperOffice CRM Einstellungen f
 [img10]: ../../../../common/icons/pref-system-h32.png
 [img11]: ../../../../common/icons/pref-visualeffects-h32.png
 [img12]: ../../../media/icons/personal-settings-small.png
-[img13]: media/getstarted-personalsettings.png
+[img13]: ../../../media/loc/en/learn/getstarted-personalsettings.png

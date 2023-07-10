@@ -78,4 +78,4 @@ Nachdem Ihre Kampagne fertiggestellt ist, können Sie auf der Registerkarte **Zu
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
-[img2]: media/summary-tab.png
+[img2]: ../../../../../media/loc/en/marketing/summary-tab.png

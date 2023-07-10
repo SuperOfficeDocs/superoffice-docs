@@ -93,4 +93,4 @@ Wenn Sie auf ein Dokument doppelklicken und nichts geschieht, klicken Sie mit de
 [3]: screen/index.md
 
 <!-- Referenced images -->
-[img1]: media/upload.png
+[img1]: ../../../media/loc/en/document/upload.png

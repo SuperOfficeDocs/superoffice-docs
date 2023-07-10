@@ -101,4 +101,4 @@ Bei SuperOffice CRM können Sie sich über einen Browser von jedem PC aus anmeld
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-completed-small.png
-[img2]: media/upload.png
+[img2]: ../../../media/loc/en/document/upload.png

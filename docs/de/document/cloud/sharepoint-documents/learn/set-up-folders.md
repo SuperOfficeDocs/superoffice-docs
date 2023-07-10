@@ -40,4 +40,4 @@ Dokumente innerhalb der Bibliothek erben die Berechtigung von der Bibliothek sel
 [3]: ../../../../../en/document/cloud/sharepoint-documents/set-up.md
 
 <!-- Referenced images -->
-[img1]: media/admin-preferences-documentlibrary-sharepoint-permissions.png
+[img1]: ../../../../../media/loc/en/document/admin-preferences-documentlibrary-sharepoint-permissions.png

@@ -54,6 +54,7 @@ Das Erstellen eines Formulars verläuft im Großen und Ganzen gemäß dem folgen
 4. [Formularübermittlungen überwachen und Statistiken anzeigen][5] – Antwortraten können in Echtzeit angezeigt werden.
 5. [Formularübermittlungen verarbeiten][6] – Angaben in SuperOffice können anhand der übermittelten Daten manuell oder automatisch aktualisiert werden. SuperOffice kann vorhandene Personen anhand von E-Mail-Adressen erkennen oder neue Personen und Firmen erstellen.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## Verwenden Sie Dashboards, um einen Überblick über die Formularübermittlung zu erhalten
 
 Mit einem Dashboard für die Formularübermittlung können Daten auf einfache Weise gemessen und visualisiert werden. Mit dem Dashboard können Sie Leistung, Trends und Produktivität im Auge zu behalten. Weitere Informationen über Dashboards für die Formularübermittlung.
@@ -67,5 +68,5 @@ Mit einem Dashboard für die Formularübermittlung können Daten auf einfache We
 [6]: submissions/process.md
 
 <!-- Referenced images -->
-[img1]: media/edit-form.png
-[img2]: media/find-forms.png
+[img1]: ../../../../media/loc/en/marketing/edit-form.png
+[img2]: ../../../../media/loc/en/marketing/find-forms.png

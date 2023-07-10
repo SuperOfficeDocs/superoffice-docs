@@ -85,4 +85,4 @@ Sie können zum Beispiel auf der Registerkarte Datenrechte entscheiden, ob eine 
 [6]: ../role/set-data-rights-for-role.md
 
 <!-- Referenced images -->
-[img1]: media/manage-user-levels.png
+[img1]: ../../../../../media/loc/en/admin/manage-user-levels.png

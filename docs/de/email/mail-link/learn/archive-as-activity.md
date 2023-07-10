@@ -63,4 +63,4 @@ Wenn Sie eine E-Mail erhalten, in der Sie zu einer Aktion aufgefordert werden, k
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: media/email-maillink-create-activity.png
+[img1]: ../../../../media/loc/en/email/email-maillink-create-activity.png

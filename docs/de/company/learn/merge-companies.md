@@ -69,6 +69,6 @@ Wenn zwei Firmen in Ihrer Kundendatenbank fusioniert wurden oder eine Firma von 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/info-ball.png
 [img3]: ../../../media/icons/btn-menu.png
-[img4]: media/merge-companies.bmp
-[img5]: media/company-merge.png
-[img6]: media/company-merge-info.png
+[img4]: ../../../media/loc/en/company/merge-companies.bmp
+[img5]: ../../../media/loc/en/company/company-merge.png
+[img6]: ../../../media/loc/en/company/company-merge-info.png

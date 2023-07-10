@@ -115,4 +115,4 @@ Auf der Registerkarte **Interessen** stehen folgende Optionen zur Verfügung:
 [8]: add-relation.md
 
 <!-- Referenced images -->
-[img1]: media/add-contact-from-company-card.png
+[img1]: ../../../media/loc/en/contact/add-contact-from-company-card.png

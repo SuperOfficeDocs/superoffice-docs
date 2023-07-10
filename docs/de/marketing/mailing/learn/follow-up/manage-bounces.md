@@ -125,4 +125,4 @@ Mit dieser Option können Sie eine Person als ausgeschiedenen Mitarbeiter festle
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/warning.png
-[img2]: media/handle-bounced-emails.png
+[img2]: ../../../../../media/loc/en/marketing/handle-bounced-emails.png

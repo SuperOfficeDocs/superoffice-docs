@@ -100,4 +100,4 @@ Um über die Anzeige Vorschau an der Videokonferenz teilzunehmen, müssen Sie nu
 [img2]: ../../../../common/icons/videocall.png
 [img3]: ../../../../common/icons/diary-videocall.png
 [img4]: ../../../../common/icons/diary-copy.png
-[img5]: media/appointment-videomeeting-icon.png
+[img5]: ../../../media/loc/en/diary/appointment-videomeeting-icon.png

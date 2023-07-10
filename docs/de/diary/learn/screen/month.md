@@ -23,4 +23,4 @@ Wenn Sie eine bestimmte **Tagesübersicht** einsehen möchten, klicken Sie auf d
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/month-plan.bmp
+[img1]: ../../../../media/loc/en/diary/month-plan.bmp

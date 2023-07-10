@@ -3,4 +3,4 @@ SharePoint: Erstellen Sie ein neues Dokument. Wenn es in Microsoft Office Online
 
 SuperOffice WebTools: Öffnen Sie den Infobereich in der unteren rechten Ecke Ihres Desktops und suchen Sie das SuperOffice-Symbol.
 
-![Symbol](../../../media/webtools-system-tray.png)
+![Symbol](../../../../media/loc/en/webtools/webtools-system-tray.png)

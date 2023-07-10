@@ -109,4 +109,4 @@ Wenn Sie die gewünschte Kachel nicht unter dem vordefinierten Kachelset im Supe
 [img1]: ../../../../common/icons/pinned.png
 [img2]: ../../../../common/icons/favourite-yes.png
 [img3]: ../../../media/icons/dashboard/dashboard-refresh.png
-[img4]: media/dashboard-overview.png
+[img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

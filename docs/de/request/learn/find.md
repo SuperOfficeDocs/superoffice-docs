@@ -114,4 +114,4 @@ Wenn der Vorschaubereich nicht sichtbar ist, klicken Sie unten in der Anzeige au
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
-[img3]: media/find-requests.png
+[img3]: ../../../media/loc/en/request/find-requests.png

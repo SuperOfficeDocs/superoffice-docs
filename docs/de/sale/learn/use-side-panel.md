@@ -31,4 +31,4 @@ Auf die gleiche Weise können Sie eine Selektion von Personen als Anrufliste ver
 [3]: forecasting.md
 
 <!-- Referenced images -->
-[img1]: media/getstarted-sidepanel-saleselection.png
+[img1]: ../../../media/loc/en/sale/getstarted-sidepanel-saleselection.png

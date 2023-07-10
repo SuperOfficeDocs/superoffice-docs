@@ -76,4 +76,4 @@ Listet Anfragen auf, die noch niemandem zugeordnet sind. Wenn Sie die [Verantwor
 [7]: add-tile.md
 
 <!-- Referenced images -->
-[img1]: ../../request/learn/howto/media/service-dashboard.png
+[img1]: ../../../media/loc/en/request/service-dashboard.png

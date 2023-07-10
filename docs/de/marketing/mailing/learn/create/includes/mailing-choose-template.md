@@ -26,4 +26,4 @@ Nachdem Sie das gewünscht Design festgelegt haben, können Sie mit wenigen Klic
 
 <!-- Referenced images -->
 [img1]: ../../../../../../../common/icons/nav-search.png
-[img2]: media/work-with-templates.png
+[img2]: ../../../../../../media/loc/en/marketing/work-with-templates.png

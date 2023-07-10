@@ -46,4 +46,4 @@ Mit dieser Funktion können Sie anhand des Absenders und des Textinhalts in eine
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/gmail-link/btn-archive-more.png
-[img2]: media/email-gmaillink-create-activity.jpg
+[img2]: ../../../../media/loc/en/email/email-gmaillink-create-activity.jpg

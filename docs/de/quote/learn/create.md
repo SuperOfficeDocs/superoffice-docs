@@ -58,4 +58,4 @@ Nachdem Sie eine ERP-Verbindung ausgewählt haben, können Sie mit der Erstellun
 [8]: create-order.md
 
 <!-- Referenced images -->
-[img1]: media/quote-create-send.gif
+[img1]: ../../../media/loc/en/quote/quote-create-send.gif

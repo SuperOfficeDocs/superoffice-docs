@@ -122,5 +122,5 @@ Ihr Administrator kann für Sie [Projektleitfäden hinzufügen und anpassen][1].
 [18]: ../section-tabs/index.md
 
 <!-- Referenced images -->
-[img1]: media/diary.png
-[img2]: media/projects.png
+[img1]: ../../../media/loc/en/learn/diary.png
+[img2]: ../../../media/loc/en/learn/projects.png

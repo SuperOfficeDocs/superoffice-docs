@@ -22,4 +22,4 @@ Wenn eine Person in SuperOffice nicht gefunden wird, können Sie in der Seitenle
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/chat-add-new-to-contact.png
+[img1]: ../../../media/loc/en/chat/chat-add-new-to-contact.png

@@ -45,4 +45,4 @@ Ihr Administrator kann für Sie [Projektleitfäden hinzufügen und anpassen][3].
 [8]: ../../../request/learn/index.md
 
 <!-- Referenced images -->
-[img1]: media/project-guide-create.bmp
+[img1]: ../../../../media/loc/en/project/project-guide-create.bmp

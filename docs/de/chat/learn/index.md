@@ -39,4 +39,4 @@ Die Mitarbeiter können über den Navigator in SuperOffice CRM und SuperOffice S
 [9]: screen/index.md
 
 <!-- Referenced images -->
-[img1]: media/10-chat-mainpage.png
+[img1]: ../../../media/loc/en/chat/10-chat-mainpage.png

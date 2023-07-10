@@ -23,4 +23,4 @@ Wenn Sie die Registerkarte **Tag** eines bestimmten Tags öffnen möchten, klick
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: media/week-plan.bmp
+[img2]: ../../../../media/loc/en/diary/week-plan.bmp
