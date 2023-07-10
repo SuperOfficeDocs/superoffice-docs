@@ -11,7 +11,7 @@ language: de
 
 # Sichtbarkeit
 
-Ob Sie bestimmte Dokumente, Verkäufe, Wiedervorlagen und Selektionen anzeigen können, hängt nicht nur von der Ihnen zugeordneten [Rolle][1] ab. Bestimmte Informationen sind möglicherweise nicht für Sie zugänglich. In den Dialogfeldern **Dokumente** und **Folgeaufgaben** und in den Ansicht **Verkauf** und **Selektion** gibt es ein Listenfeld namens **Sichtbar für**. In der Ansicht **Verkauf** können Sie beispielsweise auswählen, ob der Verkauf für jeden sichtbar ist, nur für die primäre Gruppe, der der Besitzer angehört, oder nur für den Eigentümer.
+Ob Sie bestimmte Dokumente, Verkäufe, Wiedervorlagen und Selektionen anzeigen können, hängt nicht nur von der Ihnen zugeordneten [Rolle][1] ab. Bestimmte Informationen sind möglicherweise nicht für Sie zugänglich. In den Dialogfeldern Dokumente und Folgeaufgaben und in den Ansicht Verkauf und Selektion gibt es ein Listenfeld namens **Sichtbar für**. In der Ansicht Verkauf können Sie beispielsweise auswählen, ob der Verkauf für jeden sichtbar ist, nur für die primäre Gruppe, der der Besitzer angehört, oder nur für den Eigentümer.
 
 Hierfür ist die Lizenz **Vertrauliche Aktivitäten** erforderlich.
 

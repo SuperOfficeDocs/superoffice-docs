@@ -25,7 +25,7 @@ Die Hauptkategorien können zum Beispiel Kundensupport, Entwicklung, Verkäufe u
 Benutzer können individuell oder über die Benutzergruppen, denen sie angehören, als Mitglieder zu Kategorien hinzugefügt werden.
 
 > [!TIP]
-> Suchen Sie nach einer flexibleren Möglichkeit, Ihre Anfrage zu organisieren? Versuchen Sie es mit dem [Verwenden von Tags in Anfragen][1].
+> Suchen Sie nach einer flexibleren Möglichkeit, Ihre Anfrage zu organisieren? Versuchen Sie es mit dem [Verwenden von Tags in Anfragen][6].
 
 ## Wo finde ich die Anfragekategorien?
 
@@ -48,5 +48,6 @@ Die Kategorien sind in einer Baumstruktur angeordnet.
 [3]: ../../../admin/lists/learn/index.md
 [4]: ../priority/index.md
 [5]: ../next-in-queue.md
+[6]: ../tags.md
 
 <!-- Referenced images -->

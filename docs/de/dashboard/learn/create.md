@@ -63,7 +63,7 @@ In der Bibliothek gibt es eine große Auswahl an Standardkacheln, Sie können ab
 [3]: update.md
 [4]: copy.md
 [5]: delete.md
-[6]:
+[6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/az.png

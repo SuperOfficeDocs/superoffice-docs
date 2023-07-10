@@ -11,8 +11,7 @@ language: de
 
 # Allgemeine Profile
 
-> [!NOTE]
-> Vorgenommene Änderungen im **Profil** werden nur im **SuperOffice Service**-Modul und nicht in der Anzeige Anfragen im SuperOffice CRM-Modul angezeigt.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Ein allgemeines Profil wird als Standardprofil verwendet und gilt für alle Personen, die nicht über ein persönliches Profil verfügen oder denen aufgrund ihrer Rolle kein gemeinsames Profil zugewiesen wurde.
 

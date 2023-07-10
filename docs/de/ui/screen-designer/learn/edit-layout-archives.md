@@ -12,7 +12,7 @@ language: de
 
 # Layout in Bereichsregisterkarten/Archiven bearbeiten
 
-Sie können das Layout bearbeiten, indem Sie Bereichsregisterkarten/Archive auf den verschiedenen Hauptkarten für Firma, Person, Verkauf und Projekt hinzufügen oder entfernen.
+Sie können das Layout bearbeiten, indem Sie Bereichsregisterkarten/Archive auf den verschiedenen Hauptkarten für Firma, Person, Verkauf, Projekt, und Anfragen hinzufügen oder entfernen.
 
 ## Begriffsklärung
 
@@ -103,7 +103,7 @@ Wenn Sie ein bestehendes Archiv bearbeiten wollen, wählen Sie es aus und bearbe
 
 Sie können jederzeit auf **Registerkarten wiederherstellen** klicken, um diese Änderung rückgängig zu machen.
 
-## Änderungen rückgängig machen
+## <a id="undo-changes" />Änderungen rückgängig machen
 
 Wenn Sie wieder eine frühere Version der Ansicht nutzen möchten, stehen über die Schaltfläche **Aufgabe** folgende Optionen zur Verfügung:
 
@@ -115,7 +115,7 @@ Wenn Sie wieder eine frühere Version der Ansicht nutzen möchten, stehen über 
 
 ## Verwandt
 
-* [Wie man Felder in der Registerkarte Mehr in den Ansichten Firma und Person nach dem Upgrade auf die SuperOffice Version 10 neu organisiert?][3] \- FAQ
+* [Wie man Felder in der Registerkarte Mehr in den Ansichten Firma und Person nach dem Upgrade auf die SuperOffice Version 10 neu organisiert?][3] - FAQ
 * [Neues Layout erstellen][4]
 
 <!-- Referenced links -->

@@ -97,7 +97,7 @@ Bei SuperOffice CRM können Sie sich über einen Browser von jedem PC aus anmeld
 [2]: screen/index.md
 [3]: ../../webtools/learn/index.md
 [4]: send-as-email.md
-[5]:
+[5]: ../../admin/lists/learn/add-template.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-completed-small.png

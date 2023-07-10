@@ -24,7 +24,7 @@ Die Ansicht **Verkauf** enthält Informationen über Verkäufe, die in SuperOffi
 
 Um zwischen Verkäufen zu wechseln, müssen Sie unten rechts in den Karten auf die Schaltflächen Zurück/Weiter (![Symbol][img2] ![Symbol][img4]) klicken.
 
-Sie können auch in der Ansicht **Verkauf** in der Bereichsregisterkarte **Angebot** ein [Angebot erstellen][1].
+Sie können auch in der Ansicht Verkauf in der Bereichsregisterkarte **Angebot** ein [Angebot erstellen][1].
 
 ## Wo kann man die Verkäufe anzeigen?
 

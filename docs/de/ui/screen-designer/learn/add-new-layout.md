@@ -14,7 +14,7 @@ language: de
 
 Wenn das Standardlayout nicht den Anforderungen einer Benutzergruppe entspricht, können Sie ein neues Layout erstellen, das den eindeutigen Informationsanforderungen der Benutzergruppe entspricht. Ein angepasstes Layout für die Personen- und Firmenkarten und die verschiedenen Archiv-/Bereichsregisterkarten sorgen für eine effizientere Arbeit Ihres Teams und Ihrer Organisation.
 
-Mit benutzerdefinierten Ansichtslayouts für die einzelnen Teams wird das Zugreifen auf Kundendaten einfacher denn je. Die wichtigsten Daten sind immer verfügbar und sichtbar. Entfernen oder verschieben Sie irrelevante oder weniger nützliche Daten oder blenden Sie sie aus, um übersichtliche Firmen-, Personen-, Verkaufs- und Projektansichten zu erhalten. Fügen Sie benutzerdefinierte Archive mit den wichtigsten Daten für Ihre Teams hinzu. Ihren Teams steht folglich für die Arbeit eine ordentlichere und aufgeräumtere Ansicht zur Verfügung.
+Mit benutzerdefinierten Ansichtslayouts für die einzelnen Teams wird das Zugreifen auf Kundendaten einfacher denn je. Die wichtigsten Daten sind immer verfügbar und sichtbar. Entfernen oder verschieben Sie irrelevante oder weniger nützliche Daten oder blenden Sie sie aus, um übersichtliche Firmen-, Personen-, Verkaufs-, Projektansichten- und Anfragen zu erhalten. Fügen Sie benutzerdefinierte Archive mit den wichtigsten Daten für Ihre Teams hinzu. Ihren Teams steht folglich für die Arbeit eine ordentlichere und aufgeräumtere Ansicht zur Verfügung.
 
 ## Hauptkartenlayout
 

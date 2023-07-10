@@ -11,8 +11,7 @@ language: de
 
 # Gemeinsame Profile
 
-> [!NOTE]
-> Vorgenommene Änderungen im **Profil** werden nur im **SuperOffice Service**-Modul und nicht in der Anzeige Anfragen im SuperOffice CRM-Modul angezeigt.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Gemeinsame Profile werden mit einer [Rolle][2] verknüpft und gelten für alle Benutzer, die diese Rolle innehaben. Gemeinsame Profile werden in der Ansicht **Profile anzeigen** konfiguriert.
 

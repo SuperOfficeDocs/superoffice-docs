@@ -11,8 +11,7 @@ language: de
 
 # Persönliche Profile
 
-> [!NOTE]
-> Vorgenommene Änderungen im **Profil** werden nur im **SuperOffice Service**-Modul und nicht in der Anzeige Anfragen im SuperOffice CRM-Modul angezeigt.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Persönliche Profile gelten für einen einzigen Benutzer. Zum Konfigurieren von persönlichen Profilen klicken Sie auf das ![Symbol][img1] (das Werkzeugsymbol), das in verschiedenen Ansichten verfügbar ist, wie zum Beispiel in der Anfrageliste in der Ansicht Person, im Bereich der Anfrageeigenschaften in der Ansicht Anfrage und in der Anzeige mit den Suchergebnissen. Die Funktionsweise wird nachfolgend an einem konkreten Beispiel erläutert. Im Beispiel unten soll ein Feld zur Ansicht Anfrage hinzugefügt werden.
 

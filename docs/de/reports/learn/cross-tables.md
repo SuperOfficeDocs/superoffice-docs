@@ -5,7 +5,7 @@ description: Kreuztabellen anzeigen
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: Bericht
-so.topic: help
+so.topic: concept
 language: de
 ---
 
@@ -20,7 +20,7 @@ Kreuztabellen können auf verschiedene Weise angezeigt und gedruckt werden. Sie 
 
 Um einen Kreuztabellen-Bericht (Dcube-Datei) anzuzeigen, müssen Sie den **CrossTable Viewer** installieren (einmal pro Computer).
 
-1. Klicken Sie auf ![Symbol][img1] **Hauptmenü** und wählen Sie **Herunterladen &gt; CrossTable Viewer herunterladen** aus.
+1. Klicken Sie auf ![Symbol][img1] **Hauptmenü** und wählen Sie **Herunterladen** > **CrossTable Viewer herunterladen** aus.
 1. Klicken Sie auf die heruntergeladene Datei (**SoCrossTableInstaller.exe**), um sie auszuführen.
 1. Wenn eine Sicherheitswarnung angezeigt wird, bestätigen Sie, dass Sie die Datei ausführen möchten.
 1. Folgen Sie zum Installieren des Programms den Anweisungen im Assistenten.

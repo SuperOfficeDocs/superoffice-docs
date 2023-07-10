@@ -11,8 +11,7 @@ language: de
 
 # Funktion zur Schaltfläche Menü hinzufügen
 
-> [!NOTE]
-> Vorgenommene Änderungen in der Registerkarte **Systemdesign** \- Zusätzliche **Menüs** werden nur im **SuperOffice Service**-Modul und nicht in der Anzeige Anfragen im SuperOffice CRM-Modul angezeigt.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Um ein Makro zur Schaltfläche **Aufgabe** in der Ansicht Firma, Person, Anfrage oder auf der Registerkarte **Mitteilung** hinzufügen:
 

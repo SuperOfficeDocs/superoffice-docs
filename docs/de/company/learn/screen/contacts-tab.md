@@ -3,7 +3,7 @@ uid: help-de-company-screen-contacts
 title: Registerkarte Personen
 description: Registerkarte Personen
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.24.2023
 keywords: Firma
 so.topic: reference
 language: de
@@ -58,8 +58,7 @@ Sie werden dann in einer anderen Farbe angezeigt. Auf diese Weise werden sie auc
 * [Personen zusammenführen][5]
 * [Personen löschen][6]
 * [E-Mail an Personen senden][7]
-* [Reihenfolge der Personen ändern][8]
-* [Spalten konfigurieren][9]
+* [Spalten konfigurieren][8]
 
 <!-- Referenced links -->
 [1]: ../../../contact/learn/index.md
@@ -69,8 +68,7 @@ Sie werden dann in einer anderen Farbe angezeigt. Auf diese Weise werden sie auc
 [5]: ../../../contact/learn/merge-contacts.md
 [6]: ../../../contact/learn/delete.md
 [7]: ../../../contact/learn/send-email.md
-[8]: ../change-rank-of-contacts.md
-[9]: ../../../learn/section-tabs/configure-columns.md
+[8]: ../../../learn/section-tabs/configure-columns.md
 
 <!-- Referenced images -->
 [img1]: media/contacts-detail.bmp

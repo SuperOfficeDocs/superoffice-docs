@@ -17,8 +17,7 @@ language: de
 
 Im System werden Profile verwendet, um die Darstellung und das Verhalten von Elementen der Anzeige zu konfigurieren.
 
-> [!NOTE]
-> Vorgenommene Änderungen im **Profil** werden nur im **SuperOffice Service**-Modul und nicht in der Anzeige Anfragen im SuperOffice CRM-Modul angezeigt.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Zum Beispiel:
 

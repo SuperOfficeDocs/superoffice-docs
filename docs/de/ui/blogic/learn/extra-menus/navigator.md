@@ -5,7 +5,7 @@ description: Navigatorgruppe und Zusatzmenü hinzufügen
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Navigatorgruppe
-so.topic: help
+so.topic: howto
 so.user: admin
 so.user.tooltip: Settings and maintenance
 language: de
@@ -13,8 +13,7 @@ language: de
 
 # Navigatorgruppe und Zusatzmenü hinzufügen
 
-> [!NOTE]
-> Vorgenommene Änderungen in der Registerkarte **Systemdesign** - **Zusatzmenüs** werden nur im **SuperOffice Service**-Modul und nicht in der Anzeige Anfragen im SuperOffice CRM-Modul angezeigt.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Um diese Funktion zu veranschaulichen, werden wird eine neue Navigatorgruppe im Navigator links in SuperOffice hinzugefügt. Wir werden ein Zusatzmenü in der neuen Navigatorgruppe hinzufügen. In unserem Beispiel werden wir die Navigatorgruppe „Webseiten“ mit einigen nützlichen Webseiten hinzufügen.
 

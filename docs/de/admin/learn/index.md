@@ -71,7 +71,7 @@ Der beste Weg für die Definition Ihrer eigenen Projekt- oder Verkaufsleitfäden
 * [Dokumentvorlagen verwalten][7]
 * [DSGVO-Datenschutzeinstellungen][8]
 * [Systemvoreinstellungen und Videokonferenzen][9]
-* [Firmen, Personen und Produkte importieren][3]
+* [Firmen, Personen, und Produkte importieren][3]
 
 <!-- Referenced links -->
 [1]: ../user-management/learn/index.md

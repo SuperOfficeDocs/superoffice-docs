@@ -1,4 +1,4 @@
-<!-- markdownlint-disable-file MD041 -->
+<!-- markdownlint-disable-file MD041 MD034-->
 Wenn Sie eine Kampagne erstellen, müssen Sie die Empfänger der Kampagne auswählen. Sie können Empfänger aus mehreren Quellen hinzufügen. Zusätzlich dazu können Sie hier verschiedene Optionen für die Kampagne einstellen und sich eine Vorschau der Kampagne anzeigen lassen.
 
 Ihre Zielliste ist die Gruppe von Personen, von denen Sie glauben, dass sie am besten auf Ihre Mitteilung reagieren werden. Wenn Sie Ihre Marketingmitteilung speziell auf diese Gruppe zuschneiden, haben Sie bessere Erfolgschancen und vermeiden, Zeit und Mühe mit Personen zu verschwenden, die kein Interesse haben.
@@ -65,12 +65,12 @@ Wenn Sie eine Liste mit Namen und E-Mail-Adressen importieren, versucht SuperOff
 
 * Jeder Empfänger (Zeile) besteht aus dem vollständigen Namen und der E-Mail-Adresse.
 
-    Beispiel: "John Smith, <john@company.com>")
+    Beispiel: "John Smith, john@company.com"
 
     > [!NOTE]
     > Außerdem können Sie auch nur die E-Mail-Adresse angeben. Dann ist der Name jedoch nicht als Vorlagenvariable verfügbar.
 
-* Vor Ort: Jeder Empfänger (Zeile) kann auch eine Mobilfunknummer beinhalten (hinter der E-Mail-Adresse), wenn Sie SMS-Kampagnen erstellen. Zum Beispiel: "John Smith, <john@company.com>, 99999999". Erfordert die Marketing-SMS-Lizenz.
+* Vor Ort: Jeder Empfänger (Zeile) kann auch eine Mobilfunknummer beinhalten (hinter der E-Mail-Adresse), wenn Sie SMS-Kampagnen erstellen. Zum Beispiel: "John Smith, john@company.com, 99999999". Erfordert die Marketing-SMS-Lizenz.
 
 > [!NOTE]
 > Wenn Sie nur die Mobilfunknummer haben und eine SMS senden möchten, können Sie Folgendes eingeben: " , , 99887766".

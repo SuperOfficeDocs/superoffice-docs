@@ -5,7 +5,7 @@ description: In-App-Hilfe in SuperOffice CRM for Web verwenden
 author: SuperOffice RnD
 so.date: 01.25.2023
 keywords: Hilfe, In-App, In-App
-so.topic: help
+so.topic: concept
 language: de
 ---
 

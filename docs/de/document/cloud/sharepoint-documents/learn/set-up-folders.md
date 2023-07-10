@@ -31,12 +31,13 @@ Dokumente innerhalb der Bibliothek erben die Berechtigung von der Bibliothek sel
 ## Verwandt
 
 * [Anforderungen][1]
-* Wie man die SharePoint-Dokumentbibliothek konfiguriert
+* [Wie man die SharePoint-Dokumentbibliothek konfiguriert][3]
 * [Dokumentvorlagen verwalten][2]
 
 <!-- Referenced links -->
 [1]: index.md
-[2]:
+[2]: ../../../../admin/lists/learn/add-template.md
+[3]: ../set-up.md
 
 <!-- Referenced images -->
 [img1]: media/admin-preferences-documentlibrary-sharepoint-permissions.png

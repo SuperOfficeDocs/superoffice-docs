@@ -13,7 +13,7 @@ language: de
 
 # Favoriten in SuperOffice CRM
 
-Favoriten erlauben den schnellen Zugriff auf für Sie besonders wichtige Datensätze wie Firmen, Personen, Verkäufe, Selektionen, Projekte, Dokumente, Anfragen und Kampagnen.
+Favoriten erlauben den schnellen Zugriff auf für Sie besonders wichtige Datensätze wie Firmen, Personen, Verkäufe, Selektionen, Projekte, Dokumente, Anfragen, und Kampagnen.
 
 ## Datensatz als Favoriten hinzufügen
 

@@ -18,10 +18,9 @@ Auf der Registerkarte **Woche** wird jede Woche einzeln angezeigt. Es gibt eine 
 Wenn Sie die Registerkarte **Tag** eines bestimmten Tags öffnen möchten, klicken Sie auf die Überschrift, die für den gewünschten Tag steht.
 
 > [!NOTE]
-> Sie können unter ![Symbol][img1] **Persönliche Einstellungen &gt; Einstellungen** festlegen, ob die Woche am Sonntag oder Montag beginnt.
+> Sie können unter **Persönliche Einstellungen** > **Einstellungen** festlegen, ob die Woche am Sonntag oder Montag beginnt.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
 [img2]: media/week-plan.bmp

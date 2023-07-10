@@ -131,7 +131,7 @@ Sie müssen die Rolle *Benutzerebene 0* oder eine andere Rolle haben, die Ihnen 
 4. Klicken Sie auf **OK**.
 
 > [!NOTE]
-> Es stehen mehrere Authentifizierungsmethoden zur Verfügung, daher hängt es davon ab, mit welcher Authentifizierungsmethode Ihr Benutzer eingerichtet wurde und ob Sie das Passwort ändern können. Schauen Sie sich unsere FAQ an, wenn Sie Ihr [Passwort vergessen][8] haben.
+> Es stehen mehrere Authentifizierungsmethoden zur Verfügung, daher hängt es davon ab, mit welcher Authentifizierungsmethode Ihr Benutzer eingerichtet wurde und ob Sie das Passwort ändern können. Schauen Sie sich unsere FAQ an, wenn Sie Ihr [Passwort vergessen][5] haben.
 
 ## Zugehörige Inhalte
 
@@ -147,10 +147,9 @@ Haben Sie Probleme bei der Anmeldung? Sie können [unsere FAQs durchsuchen][1], 
 [2]: ../../admin/user-management/learn/index.md
 [3]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-cannot-login-to-superoffice-crm-online/
 [4]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-a-newly-created-user-cannot-log-in-to-superoffice-crm/
-[5]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
+[5]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 [6]: preferences.md#options
 [7]: ../../identity-management/single-sign-on/index.md
-[8]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

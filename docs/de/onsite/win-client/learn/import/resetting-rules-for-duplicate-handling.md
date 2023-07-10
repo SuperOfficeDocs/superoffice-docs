@@ -18,7 +18,10 @@ so.envir: onsite
 2. Führen Sie einen der folgenden Schritte aus:
 
     * Klicken Sie auf ![Symbol][img1] neben dem Feld **Importbeschreibung laden** und wählen Sie im geöffneten Dialogfeld eine Importbeschreibungsdatei aus. Die Importdatei und alle zuvor vorgenommenen Einstellungen werden automatisch eingefügt.
-    * [!include[Select file](includes/step-select-file.md)] Legen Sie dann die [Feldzuordnung][1] fest. Der Inhalt der Spalte **Tabelle** unter **Schlüsselfelder** basiert auf der festgelegten Feldzuordnung.
+
+    * [!include[Select file](includes/step-select-file.md)]
+
+        Legen Sie dann die [Feldzuordnung][1] fest. Der Inhalt der Spalte **Tabelle** unter **Schlüsselfelder** basiert auf der festgelegten Feldzuordnung.
 
 3. Schließen Sie eine der folgenden Schritte aus:
 

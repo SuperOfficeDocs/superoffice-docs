@@ -13,11 +13,11 @@ language: de
 
 # Verwenden von Tags in Anfragen
 
-Das Taggen ist ein leistungsstarkes Tool zum Organisieren und Suchen von Anfragen in SuperOffice Service. Sie können Tags ohne Vorbereitung erstellen und jede Anfrage mit beliebig vielen Tags versehen. Mit Tags wird das Suchen, Anzeigen und Filtern von Anfragen vereinfacht.
+Das Taggen ist ein leistungsstarkes Tool zum Organisieren und Suchen von Anfragen in SuperOffice. Sie können Tags ohne Vorbereitung erstellen und jede Anfrage mit beliebig vielen Tags versehen. Mit Tags wird das Suchen, Anzeigen und Filtern von Anfragen vereinfacht.
 
 Jede Firma wird ihre eigenen spezifischen Kundenservice-Anfrage-Tags verwenden wollen. Sehen wir uns die zwei Tag-Typen an, die für Ihre Firma nützlich sein könnten:
 
-* Sie können Tags für die verschiedenen Kundenstufen einrichten, die Ihre Firma verwendet, zum Beispiel Kostenlose Testversion, Onboarding, Vorhanden oder Beendigung;
+* Sie können Tags für die verschiedenen Kundenstufen einrichten, die Ihre Firma verwendet, zum Beispiel Kostenlose Testversion, Onboarding, Vorhanden oder Beendigung.
 
 * Sie können Tags erstellen, die sich auf die Abteilung beziehen, die eine bestimmte Art von Anfrage bearbeiten soll, zum Beispiel Finanzen, Marketing oder Vertrieb.
 

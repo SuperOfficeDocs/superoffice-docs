@@ -5,7 +5,7 @@ description: Zusatzmenüs in der SuperOffice-UI
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Zusatzmenüs
-so.topic: help
+so.topic: concept
 so.user: admin
 so.user.tooltip: Settings and maintenance
 language: de
@@ -13,8 +13,7 @@ language: de
 
 # Zusatzmenüs
 
-> [!NOTE]
-> Vorgenommene Änderungen in der Registerkarte **Systemdesign** \- Zusätzliche **Menüs** werden nur im **SuperOffice Service**-Modul und nicht in der Anzeige Anfragen im SuperOffice CRM-Modul angezeigt.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 In der Ansicht **Zusatzmenüs** können Sie Zusatzmenüs (Schaltflächen, Menüs, Links, Shortcuts, Listen usw.) in SuperOffice hinzufügen, sodass die benötigten Funktionen und Informationen immer leicht verfügbar sind.
 

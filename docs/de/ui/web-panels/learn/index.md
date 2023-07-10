@@ -21,7 +21,7 @@ Sie können zu den folgenden Ansichten zusätzliche Browser-Registerkarten hinzu
 
 ## Was kann man als Inhalt hinzufügen?
 
-* URLs: Links zu Webseiten oder bestimmten Datensätzen in SuperOffice Service.
+* URLs: Links zu Webseiten oder bestimmten Datensätzen in SuperOffice.
 * Ansichten: Shortcuts zu bestimmten Ansichten.
 * Skripts/Makros: Schaltflächen oder Menüoptionen, die ein Skript oder Makro auslösen.
 * Selektionen: Shortcut zu eine Selektion.

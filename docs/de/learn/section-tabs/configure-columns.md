@@ -3,7 +3,7 @@ uid: help-de-section-tabs-configure
 title: Spaltenansicht ändern
 description: Spaltenansicht ändern
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: 05.24.2023
 keywords: Bereichsregisterkarte, Archiv, Spalte
 so.topic: howto
 language: de
@@ -52,11 +52,13 @@ Sie können festlegen, dass die Spaltenbreiten automatisch an den Inhalt der Spa
 ## Verwandte Themen
 
 * [Gruppierte Listen][3]
-* [Reihenfolge der Personen ändern][4]
+* [Bereichsregisterkarten filtern][1]
+* [Bereichsregisterkarten exportieren][2]
 
 <!-- Referenced links -->
+[1]: filter.md
+[2]: export-archives.md
 [3]: group.md
-[4]: ../../company/learn/change-rank-of-contacts.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

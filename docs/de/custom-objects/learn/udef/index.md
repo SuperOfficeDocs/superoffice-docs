@@ -1,7 +1,7 @@
 ---
 uid: help-de-udef
-title: Felder Web
-description: Felder Web
+title: Felder
+description: Felder
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: udef, benutzerdefiniertes Feld
@@ -24,6 +24,7 @@ Alle Firmen und Organisationen haben ihre eigenen Anforderungen an die Informati
 
 [!include[List of field types](includes/field-types.md)]
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## Welcher Vorteil ergibt sich für mich aus den Informationen, die ich in diese Felder eingebe?
 
 * Mit Hilfe der **Suchen**-Funktion können Sie nach Informationen suchen, die Sie in diesen Feldern erfassen wollen, und dynamische Selektionen treffen.

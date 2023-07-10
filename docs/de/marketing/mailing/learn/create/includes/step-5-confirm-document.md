@@ -13,7 +13,7 @@ Klicken Sie auf **Jetzt senden** ![Symbol][img1], um ein PDF-Dokument zu erstell
 
 Klicken Sie auf die Kampagne in der Liste, um sich den [Sendestatus und Statistiken anzeigen][1] zu lassen.
 
-## Dokument öffnen und drucken
+## <a id="open-and-print-the-document" />Dokument öffnen und drucken
 
 1. Wählen Sie die Registerkarte **Kampagnen** aus.
 2. Suchen Sie das Dokument, klicken Sie auf ![Symbol][img2] und wählen Sie **Ansicht**.

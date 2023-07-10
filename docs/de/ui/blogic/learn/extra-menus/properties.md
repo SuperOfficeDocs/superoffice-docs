@@ -5,14 +5,13 @@ description: Eigenschaften des Menüs
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
-so.topic: help
+so.topic: howto
 language: de
 ---
 
 # Eigenschaften des Menüs
 
-> [!NOTE]
-> Vorgenommene Änderungen in der Registerkarte **Systemdesign** - **Zusatzmenüs** werden nur im **SuperOffice Service**-Modul und nicht in der Anzeige Anfragen im SuperOffice CRM-Modul angezeigt.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Hier können Sie die Eigenschaften von Optionen auf Zusatzmenüs und Web-Bildschirmen bearbeiten.
 

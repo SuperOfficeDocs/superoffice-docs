@@ -32,7 +32,7 @@ Wenn für einen Projekttyp, den Sie für ein Projekt angeben, ein Projektleitfad
     > [!TIP]
     > Um mehrere Folgeaufgaben desselben Typs zu erstellen, müssen mit der rechten Maustaste auf die Aktivität klicken **Weitere erstellen** auswählen. Das [Dialogfeld Folgeaufgaben][2] wird geöffnet.
     >
-    > ![Symbol][img2]
+    > ![Weitere erstellen -screenshot][img2]
 
 1. Nachdem alle erforderlichen Folgeaufgaben und Dokumente für einen Projektstatus abgeschlossen wurden, können Sie den nächsten Status aufrufen.
 
@@ -161,7 +161,7 @@ Nachdem alle erforderlichen Folgeaufgaben und Dokumente für das Projekt abgesch
 ## Verwandte Themen
 
 * [Dialogfeld Dokument][1]
-* [Dialogfeld 'Folgeaufgabe'][2]
+* [Dialogfeld Folgeaufgabe][2]
 * [Projektleitfaden ist in Einstellungen und Verwaltung hinzufügen und bearbeiten][4]
 
 <!-- Referenced links -->

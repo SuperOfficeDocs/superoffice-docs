@@ -5,7 +5,7 @@ description: "Benachrichtigungen über Einladungen, Nachrichten und Anfragen"
 author: Hanne Gunnarsson
 so.date: 04.03.2023
 keywords: Benachrichtigung, Kern, Einladungen, Anfragen, Nachrichten
-so.topic: help
+so.topic: concept
 so.user: user
 so.user.tooltip: SuperOffice CRM
 language: de
@@ -36,7 +36,8 @@ Dies sind die verschiedenen Anforderungsbenachrichtigungen:
 * **Als Favorit gekennzeichnete Anfrage aktualisiert**: Eine als Favorit gekennzeichnete Anfrage wurde aktualisiert.
 * **Benutzerdefinierte Mitteilung**: Einer Anfrage wurde eine benutzerdefinierte Mitteilung hinzugefügt.
 
-    !Notiz: Die Liste der Anforderungsbenachrichtigungen wird jede Nacht gelöscht, was bedeutet, dass alle Anforderungsbenachrichtigungen, die Sie am Ende des Tages in Ihrer Liste haben, morgen nicht mehr vorhanden sind.
+    > [!NOTE]
+    > Die Liste der Anforderungsbenachrichtigungen wird jede Nacht gelöscht, was bedeutet, dass alle Anforderungsbenachrichtigungen, die Sie am Ende des Tages in Ihrer Liste haben, morgen nicht mehr vorhanden sind.
 
 ## Aktivitätsbenachrichtigungen
 
@@ -50,12 +51,12 @@ Dies sind die verschiedenen Aktivitätsbenachrichtigungen:
 * **Besprechung abgesagt**: Die Besprechung wird abgesagt. Klicken Sie auf den Link, um das Kalenderobjekt zu öffnen, oder klicken Sie auf **Alles klar**, um es aus Ihren Benachrichtigungen zu entfernen.
 * **Einladung abgelehnt**: Ein Besprechungsteilnehmer hat die Einladung abgelehnt. Klicken Sie auf den Link, um das Kalenderobjekt zu öffnen, oder klicken Sie auf **Alles klar**, um es aus Ihren Benachrichtigungen zu entfernen.
 
-    !Notiz: Einladungen und geänderte Aktivitäten werden nicht aus dem Benachrichtigungsbildschirm entfernt, sondern bleiben erhalten, bis Sie die Einladung entweder **Annehmen** oder **Ablehnen** .
+    > [!NOTE]
+    > Einladungen und geänderte Aktivitäten werden nicht aus dem Benachrichtigungsbildschirm entfernt, sondern bleiben erhalten, bis Sie die Einladung entweder **Annehmen** oder **Ablehnen** .
 
 ## Benachrichtigungseinstellungen
 
-Wenn Sie auf das ![Symbol][img2] Symbol klicken, wird der Bildschirm mit den Benachrichtigungseinstellungen angezeigt.
-Hier können Sie auswählen, welche Benachrichtigungen Sie im Benachrichtigungsbildschirm sehen möchten.
+Wenn Sie auf das ![Symbol][img2] Symbol klicken, wird der Bildschirm mit den Benachrichtigungseinstellungen angezeigt. Hier können Sie auswählen, welche Benachrichtigungen Sie im Benachrichtigungsbildschirm sehen möchten.
 
 Dies sind die Benachrichtigungsoptionen:
 

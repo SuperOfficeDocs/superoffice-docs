@@ -1,6 +1,6 @@
 ---
 title: Verkaufshilfe-Seitenleiste
-uid: How to use the side-panel in sales
+uid: help-de-sale-side-panel
 description: Wie man die Seitenleiste effizient für den Verkauf nutzt
 author: Bergfrid Dias
 so.date: 12.14.2022

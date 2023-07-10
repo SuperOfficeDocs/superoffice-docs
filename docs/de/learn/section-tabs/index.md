@@ -3,7 +3,7 @@ uid: help-de-section-tabs
 title: Bereichsregisterkarten
 description: Bereichsregisterkarten
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: 05.24.2023
 keywords: Bereichsregisterkarte, Archiv
 so.topic: concept
 language: de
@@ -42,7 +42,6 @@ Um die Ladezeit zu reduzieren, wird nur eine festgelegte Anzahl von Datensätzen
 
 * [Listen gruppieren][3]
 * [Filter in Bereichsregisterkarten verwenden][4]
-* [Reihenfolge der Personen ändern][16]
 * [Spalten konfigurieren][6]
 * [Bereichsregisterkarten exportieren][7]
 * [Bereichsregisterkarten in der Ansicht Firma][9]
@@ -66,7 +65,6 @@ Um die Ladezeit zu reduzieren, wird nur eine festgelegte Anzahl von Datensätzen
 [13]: ../../project/learn/screen/index.md
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
-[16]: ../../company/learn/change-rank-of-contacts.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

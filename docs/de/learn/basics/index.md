@@ -27,16 +27,14 @@ Und weitere Funktionen, die Ihnen einen Überblick über folgendes geben:
 * [Wie man Schlüssel bearbeitet][16]
 * [Wie man die Massenaktualisierungsfunktion verwendet][17]
 
-## Grundlegende Aufgaben für den Einstieg
-
-### QuickInfo
+## QuickInfo
 
 In SuperOffice CRM wird häufig eine QuickInfo eingeblendet, um weitere Informationen zu einem Thema anzuzeigen. Diese QuickInfos sind besonders bei Listen hilfreich, um neben den Hauptinformationen zu einzelnen Datensätzen weitere Informationen anzuzeigen oder bei schmalen Spalten die abgeschnittenen Einträge vollständig anzuzeigen. Die QuickInfo wird eingeblendet, wenn Sie mit dem Mauszeiger auf ein Objekt zeigen.
 
 > [!NOTE]
 > Wenn Sie auf eine Funktion nicht zugreifen können, wird eine Erläuterung angezeigt, warum Sie die betreffenden Informationen nicht sehen können.
 
-### Daten aktualisieren
+## Daten aktualisieren
 
 Bei jedem Start von SuperOffice CRM wird das Programm vollständig mit allen Änderungen, die andere Personen an der Hauptdatenbank vorgenommen haben, und Änderungen, die in Einstellungen und Verwaltung vorgenommen wurden, aktualisiert.
 
@@ -45,14 +43,14 @@ Sie können die Daten auch während der Verwendung von SuperOffice CRM aktualisi
 > [!NOTE]
 > Manche Änderungen in Einstellungen und Verwaltung machen einen Neustart des SuperOffice CRM-Clients erforderlich, um die Änderungen wirksam werden zu lassen.
 
-### Firmen und Personen verwalten
+## Firmen und Personen verwalten
 
 Die Anzeigen Firma und Person enthalten alle Informationen über Ihre Kunden und geben einen sofortigen Einblick in die Kommunikation, Projekte und Einkäufe, die sie mit Ihnen haben.
 
 > [!TIP]
 > Wussten Sie, dass Sie alle Ihre Firmen und Personen an einem Ort sehen können? Klicken Sie im Navigator-Bildschirm auf Selektion und wählen Sie **Firma aus: Alle** oder **Alle Personen** aus der Liste.
 
-#### Aufgaben
+### Aufgaben - Firmen und Personen
 
 * [Firma hinzufügen][2]
 * [Hinzufügen von Personen][3]
@@ -61,7 +59,7 @@ Die Anzeigen Firma und Person enthalten alle Informationen über Ihre Kunden und
 * [Massenabgleich der Firma und Personeninformation][5]
 * [Selektionen für weitere Aktionen erstellen][6]
 
-### Kalender und Termine
+## Kalender und Termine
 
 Der SuperOffice-Kalender ist das Herzstück Ihres CRM-Systems. Durch die regelmäßige Nutzung des Kalenders können Sie Termine und Aktivitäten, die mit einer Person oder Firma verknüpft sind, automatisch verbinden und teilen, damit Sie und Ihr Team mühelos im Plan bleiben und produktiv arbeiten können. Diese Anleitungen helfen Ihnen, die Arbeit mit dem Kalender zu erlernen.
 
@@ -69,22 +67,22 @@ Der SuperOffice-Kalender ist das Herzstück Ihres CRM-Systems. Durch die regelm�
 
 Neben der regulären Kalenderfunktionalität bietet Ihnen SuperOffice Diary auch die Möglichkeit, Aktivitäten in Projekten und Verkäufen zu verbinden und zu organisieren. Dies hilft Ihnen und Ihrem Team, einen vollständigen Überblick über alle Aktivitäten und die Kommunikation bezüglich eines Projekts oder Verkaufs zu erhalten.
 
-#### Aufgaben
+### Aufgaben - Kalender und Termine
 
 * [Erstellen von Terminen][8]
 * [Person zu einem Termin einladen][10]
 * [Videokonferenz][11]
 
-### Ihre Dokumente verwalten
+## Ihre Dokumente verwalten
 
 Durch die Speicherung aller Dokumente an einem Ort können Sie und Ihr Team leichter auf aktuelle Informationen zugreifen und die Kontrolle über die Kundenbeziehungen behalten.
 
-#### Aufgaben
+### Aufgaben - Dokumente
 
 * Dokument erstellen oder hochladen
 * E-Mail-Anhänge in SuperOffice CRM speichern
 
-### Projekte zum Organisieren von Dateien und Aktivitäten verwenden
+## Projekte zum Organisieren von Dateien und Aktivitäten verwenden
 
 Super Office Project hilft Ihnen, Ihre Arbeit an einem Ort zu organisieren und zu dokumentieren, damit Sie und Ihr Team eine bessere Kontrolle haben und die Zusammenarbeit verbessern können.
 
@@ -100,7 +98,7 @@ SuperOffice Project ist auch mit einem Projektleitfaden versehen, der an Ihre ei
 
 Ihr Administrator kann für Sie [Projektleitfäden hinzufügen und anpassen][1].
 
-#### Aufgaben
+### Aufgaben - Projekte
 
 * [Projekt erstellen][7]
 

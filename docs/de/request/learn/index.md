@@ -42,13 +42,13 @@ Anfragen können mit [Personen][2] verknüpft werden, die zu einer [Firma][3] ge
 
 ### Was möchten Sie als Nächstes tun?
 
-* [Bearbeiten von Anfragen lernen – Schritt für Schritt][7]
+* Bearbeiten von Anfragen lernen – Schritt für Schritt
 * [Anfragen empfangen][6]
 * [Anfragen erstellen][4]
 * [Anfragen suchen][10]
-* [7 Tipps für einen erstklassigen Kundenservice mit SuperOffice Service][20] \- Blog
+* [7 Tipps für einen erstklassigen Kundenservice mit SuperOffice Service][20] - Blog
 
-## Anfragenmanagement
+## <a id="request-mgt" />Anfragenmanagement
 
 Eingehende Anfragen können über viele Kanäle eingehen. Es gibt mehrere Möglichkeit, diese Anfragen zu erfassen und zu beantworten. Die Vorgehensweise bei der Bearbeitung von Anfragen unterscheidet sich von Anfrage zu Anfrage.
 
@@ -72,7 +72,8 @@ Verschiedene Firmen verwenden andere Verfahren für die Bearbeitung von Anfragen
 
 ### Szenario 1: Die Person übermittelt die Anfrage per E-Mail
 
-1. Die Person schreibt eine E-Mail an <support@company.com> oder füllt ein Formular in einem Benutzersupportportal aus.
+<!-- markdownlint-disable-next-line MD034 -->
+1. Die Person schreibt eine E-Mail an support@company.com oder füllt ein Formular in einem Benutzersupportportal aus.
 1. Die Person erhält eine [automatische Eingangsbestätigung][23].
 1. Die Anfrage der Person wird in SuperOffice CRM automatisch als Anfrage erfasst.
 1. Die Anfrage wird an einen Bearbeiter in SuperOffice CRM übermittelt. Siehe [Anfragen zuweisen][6] und [Anfragen suchen][10].
@@ -116,12 +117,11 @@ Verschiedene Firmen verwenden andere Verfahren für die Bearbeitung von Anfragen
 [4]: howto/create.md
 [5]: howto/flag-message.md
 [6]: howto/assign.md
-[7]: index.md#request-management
 [8]: howto/fav.md
 [9]: howto/edit-message.md
 [10]: find.md
 [11]: find.md#list
-[12]: find.md#search
+[12]: ../../search-options/learn/index.md
 [13]: find.md#result
 [14]: howto/create.md
 [15]: ../../learn/getting-started/edit-email-signature.md
