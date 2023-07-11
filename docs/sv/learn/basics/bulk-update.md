@@ -54,7 +54,7 @@ Med hjälp av uppgiften Massuppdatering kan du ändra värden i flera uppgifter 
 
 10. Klicka på **Stäng**.
 
-## Sök och ersätt
+## <a id="search-and-replace" />Sök och ersätt
 
 Med hjälp av åtgärden **Sök och ersätt** kan du hitta en viss text i ett fält och ersätta den.
 

@@ -8,7 +8,6 @@ keywords: arrangemang
 so.topic: concept
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: sv
 ---
 
@@ -45,6 +44,6 @@ På **Status**-fliken på skärmbilden Licenser kan du starta följande typer av
 
 <!-- Referenced links -->
 [1]: add-system-event.md
-[2]: ../license/index.md
+[2]: ../../../en/admin/license/index.md
 
 <!-- Referenced images -->

@@ -9,7 +9,7 @@ I steget **Innehåll** kan du ange SMS:ets innehåll.
 > Antalet tecken (inkl. mellanrum) visas i fältet **Antal tecken**. Teckenbegränsningen för 1 SMS-meddelande är 160 tecken. Om ditt meddelande överskrider 160 tecken skickas det som 2 eller fler meddelanden.
 
 <!-- Referenced links -->
-[1]: ../../../../../document/templates/variables/for-selected-contact.md
+[1]: ../../../../../../en/document/templates/variables/for-selected-contact.md
 [2]: ../../../../learn/editor.md#variables
 
 <!-- Referenced images -->

@@ -36,7 +36,7 @@ Kopplingsfält finns i många former: det kan vara kundens förnamn, deras före
 
 <!-- Referenced links -->
 [1]: ../mailing/learn/create/send-test-email.md
-[2]: ../../document/templates/variables/index.md
+[2]: ../../../en/document/templates/variables/index.md
 
 <!-- Referenced images -->
 [img1]: media/template-variable.png

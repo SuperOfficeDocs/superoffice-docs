@@ -25,7 +25,7 @@ Med dubbel anmälan måste kunden förutom att skicka in formuläret verifiera s
 Alternativet lägger till ett extra säkerhetslager i formuläret. Om du aktiverar alternativet måste personen som lämnar in formuläret även bekräfta sin e-postadress. Detta görs genom att ett e-postmeddelande skickas till personen när formuläret skickas iväg. E-postmeddelandet innehåller en länk som personen måste klicka på för att bekräfta att e-postadressen är rätt.
 Länken är giltig i 30 minuter som standard.
 
-## Nyhetsbrevsprenumeration
+## <a id="newsletter-sign-up" />Nyhetsbrevsprenumeration
 
 Låt kunderna registrera sig för ett eller flera av era nyhetsbrev med detta formulär. Registreringsprocessen inkluderar också dubbel anmälan för att eliminera felaktiga eller falska abonnemang.
 
@@ -128,7 +128,7 @@ Låt kunderna registrera sig för ett eller flera av era nyhetsbrev med detta fo
 
 1. Öppna länken till formuläret, fyll i formuläret och kontrollera att allt fungerar som förväntat.
 
-## Kontakta mig
+## <a id="contact-me" />Kontakta mig
 
 Lägg ett "Kontakta mig"-formulär på företagets webbsidor som en enkel kommunikationskanal för befintliga eller potentiella kunder.
 

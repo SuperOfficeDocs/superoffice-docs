@@ -9,7 +9,6 @@ so.topic: concept
 language: sv
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 ---
 
 # Egendefinierade objekt

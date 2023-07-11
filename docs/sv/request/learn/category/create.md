@@ -8,7 +8,6 @@ keywords: ärende, kategori
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: sv
 ---
 

@@ -8,7 +8,6 @@ keywords: udef, anpassa fält
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: sv
 ---
 

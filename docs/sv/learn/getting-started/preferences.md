@@ -49,7 +49,7 @@ Du kan ange inställningar för olika delar av SuperOffice CRM, till exempel ant
 * [Mallvariabler][1]
 
 <!-- Referenced links -->
-[1]: ../../document/templates/variables/index.md
+[1]: ../../../en/document/templates/variables/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/pref-defaultvalues-h32.png

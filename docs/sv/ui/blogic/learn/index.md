@@ -8,7 +8,6 @@ keywords: Systemdesign
 so.topic: concept
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: sv
 ---
 

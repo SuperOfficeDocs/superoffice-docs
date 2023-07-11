@@ -8,7 +8,6 @@ keywords: försäljning, guide
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: sv
 ---
 
@@ -56,11 +55,11 @@ När du har skapat faser och angett en försäljningstyp för säljguiden, kan d
 
 4. Markera önskad fas i listan. Fasens detaljer visas längst ned på skärmen.
 
-5. [Lägg till en eller flera händelser](#add-a-follow-up-for-a-stage) för den valda fasen.
+5. [Lägg till en eller flera händelser](#add-fo-stage) för den valda fasen.
 
     Du behöver inte lägga till ett dokument för varje fas, men du bör lägga till minst en händelse för varje fas.
 
-6. [Lägg till ett eller flera dokument](#add-a-document-for-a-stage) för vald fas.
+6. [Lägg till ett eller flera dokument](#add-doc-stage) för vald fas.
 
 7. Upprepa steg 4–6 för varje fas som du vill lägga till händelser och dokument för.
 
@@ -143,7 +142,7 @@ Agenda för första mötet:
 **Standardrubrik**: Mötesbekräftelse (första mötet)
 
 <!-- Referenced links -->
-[1]: ../../../document/templates/variables/for-sales.md
+[1]: ../../../../en/document/templates/variables/for-sales.md
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
 [4]: ../../../admin/lists/learn/document-template.md

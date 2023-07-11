@@ -8,7 +8,6 @@ keywords: CRMScript
 so.topic: concept
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: sv
 ---
 
@@ -43,8 +42,8 @@ Utlösare är skript som körs för specifika händelser i systemet, till exempe
 [3]: schedule-task.md
 [4]: debug.md
 [5]: tracing.md
-[6]: ../overview/index.md
-[7]: ../reference/index.md
+[6]: ../../../../en/automation/crmscript/overview/index.md
+[7]: ../../../../en/automation/crmscript/reference/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-crmscript-active.png

@@ -8,7 +8,6 @@ keywords: försäljning, fas
 so.topic: reference
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: sv
 ---
 

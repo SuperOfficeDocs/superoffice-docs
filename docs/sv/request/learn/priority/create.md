@@ -8,7 +8,6 @@ keywords: ärende, prioritet
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: sv
 ---
 
@@ -59,7 +58,7 @@ De standardprioriteter som finns i systemet är **Hög**, **Medel** och **Låg**
 
 1. Klicka på **Spara**. Prioriteten skapas. Nu kan du t.ex. [koppla eskaleringsnivåer till denna prioritet][1].
 
-## Prioriteringsinställningar
+## <a id="priority-settings"/>Prioriteringsinställningar
 
 | Inställning | Beskrivning |
 |---|---|
@@ -73,7 +72,7 @@ De standardprioriteter som finns i systemet är **Hög**, **Medel** och **Låg**
 | Inkludera år | Markeras detta inkluderas året i semesterdatumen. |
 | Eskalera ärenden inom tidsram | Om det här alternativet är markerat, eskaleras ärenden med den här prioriteten endast under prioritetens definierade tidsram. Eskaleringen ”fryses” utanför de tidsramar som har angetts på fliken **Tidsram**. |
 
-## Eskaleringsalternativ
+## <a id="escalation-options"/>Eskaleringsalternativ
 
 | Alternativ | Beskrivning |
 |---|---|

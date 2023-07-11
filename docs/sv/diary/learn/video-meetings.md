@@ -61,7 +61,7 @@ Det finns flera olika sätt att ansluta till ett videomöte i SuperOffice:
 
 * Klicka på **Anslut till möte** i dialogrutan **Händelse** (bokning).
 * Klicka på **Anslut till möte** på sidopanelen.
-* Klicka på en webbläsaravisering (endast tillgängligt om alternativet **Alarm** har aktiverats.
+* Klicka på en webbläsaravisering (endast tillgängligt om alternativet **Alarm** har aktiverats.)
 * Högerklicka på ett videomöte i kalendern och välj **Anslut till möte**.
 
 Titta på den här videon eller följ anvisningarna nedan (filmens längd: 1:11):
@@ -93,7 +93,7 @@ Klicka på bokningen i din SuperOffice-kalender för att se bokningsdetaljerna i
 Om du vill ansluta till videomötet via förhandsgranskningen klickar du på knappen Anslut till möte längst ner på sidopanelen. När du har klickat på den startar videomötet automatiskt.
 
 <!-- Referenced links -->
-[1]: ../../video-meeting/howto/connect-provider.md
+[1]: ../../../en/video-meeting/howto/connect-provider.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/videocall-off.png

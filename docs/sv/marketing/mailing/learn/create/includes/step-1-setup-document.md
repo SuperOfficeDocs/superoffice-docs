@@ -43,7 +43,7 @@ Du kan koppla dokumentutskicket till en specifik försäljning. Det kan vara rel
 > Klicka på knappen **Spara + stäng** om du vill spara och stänga utskicket. Du kan fortsätta att arbeta på utskicket senare.
 
 <!-- Referenced links -->
-[1]: ../../../../../document/templates/variables/index.md
+[1]: ../../../../../../en/document/templates/variables/index.md
 [19]: ../../../../learn/create-folder.md
 
 <!-- Referenced images -->

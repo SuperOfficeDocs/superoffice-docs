@@ -8,7 +8,6 @@ keywords: Tjänst, SOAP
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 so.envir: onsite
 language: sv
 ---
