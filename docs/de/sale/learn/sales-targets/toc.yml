@@ -1,0 +1,7 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Verkaufsziele festlegen
+  href: create.md
+- name: Zieltypen
+  href: target-types.md

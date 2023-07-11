@@ -1,0 +1,11 @@
+items:
+  - name: Überblick
+    href: index.md
+  - name: Allgemeine Einstellungen
+    href: general.md
+  - name: SuperOffice-Konto
+    href: superoffice-account.md
+  - name: Archivoptionen
+    href: default.md
+  - name: Einladungen
+    href: invitations.md

@@ -1,0 +1,30 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Posteingang einrichten
+  href: setup.md
+- name: Optionen für den Posteingang
+  href: inbox-options.md
+- name: E-Mail-Nachricht anzeigen
+  href: preview.md
+- name: Mit E-Mails arbeiten
+  topicHref: compose.md
+  items:
+  - name: E-Mail verfassen
+    href: compose.md
+  - name: Absender verwalten
+    href: manage-senders.md
+  - name: E-Mail in Ordner verschieben
+    href: move-email-to-folder.md
+  - name: E-Mail als gelesen/ungelesen markieren
+    href: mark-as-read.md
+  - name: Einladung annehmen
+    href: invitations.md
+  - name: E-Mail archivieren
+    href: archive.md
+  - name: Aufgabe erstellen
+    href: create-task.md
+  - name: Anfrage erstellen
+    href: create-request.md
+  - name: E-Mail drucken
+    href: print.md

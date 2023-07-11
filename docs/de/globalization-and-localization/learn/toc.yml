@@ -1,0 +1,9 @@
+items:
+- name: Aktive Sprache ändern
+  href: change-language.md
+- name: Übersetzung von Inhalten
+  href: translate-fields.md
+- name: Zeitzonen
+  href: time-zones.md
+- name: Sprachunterstützung in Mobile CRM
+  href: ../../admin/learn/index.md

@@ -1,0 +1,29 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Postfächer
+  topicHref: screen/index.md
+  items:
+  - name: Überblick
+    href: screen/index.md
+  - name: Postfächer erstellen
+    href: create-mailbox.md
+  - name: Postfächer löschen
+    href: delete-mailbox.md
+  - name: SMS-Postfach erstellen
+    href: create-sms-mailbox.md
+- name: E-Mail-Filter
+  topicHref: email-filters/index.md
+  items:
+  - name: Überblick
+    href: email-filters/index.md
+  - name: E-Mail-Filter erstellen
+    href: email-filters/create-email-filter.md
+  - name: E-Mail-Filter löschen
+    href: email-filters/delete-email-filter.md
+- name: Posteingang für E-Mail
+  href: screen/tab-inbox-for-email.md
+- name: Postausgang für E-Mail
+  href: screen/tab-outbox-for-email.md
+- name: Blockierte E-Mails
+  href: screen/tab-blocked-email.md

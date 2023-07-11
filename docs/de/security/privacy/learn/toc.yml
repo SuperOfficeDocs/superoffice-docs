@@ -1,0 +1,9 @@
+items:
+  - name: Überblick
+    href: index.md
+  - name: Datenschutzeinstellungen für eine Person bearbeiten
+    href: edit-legal-base.md
+  - name: E-Mail zur Datenschutzbestätigung senden
+    href: send-privacy-confirmation-email.md
+  - name: Bericht zu personenbezogenen Daten generieren
+    href: generate-personal-data-report.md

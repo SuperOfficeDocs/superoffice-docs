@@ -1,0 +1,93 @@
+### YamlMime:SubCategory
+
+title: Anpassung
+summary: "Erfahren Sie mehr über die verschiedenen Anpassungsmöglichkeiten all Ihrer Listen, über die Möglichkeiten, Felder und das Layout der verschiedenen Hauptkarten im Ansichtsdesigner hinzuzufügen, Makros und Skripte einzurichten und alle anderen Feineinstellungen Ihres Systems vorzunehmen"
+
+metadata:
+  title: Anpassung
+  description: "Erfahren Sie mehr über die Möglichkeiten der Anpassung von SuperOffice."
+  so.product: customisation
+  so.topic: landing-page
+  author: Help and Learn
+  so.author: Christine H.
+  so.date: 11.11.2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: "Listen, Voreinstellungen, Optionen und Einstellungen"
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Listen
+          url: ../admin/lists/learn/index.md
+        - text: Einstellungen
+          url: ../admin/preferences/learn/index.md
+        - text: Optionen
+          url: ../admin/options/learn/index.md
+      - linkListType: reference
+        links:
+        - text: Globale Einstellungen
+          url: ../admin/preferences/learn/global-preferences/system.md
+
+  # Card
+  - title: Benutzerdefinierte Objekte
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Benutzerdefinierte Felder
+          url: ../custom-objects/learn/udef/index.md
+        - text: Zusatzfelder
+          url: ../custom-objects/learn/extra-field/create.md
+        - text: Zusatztabellen
+          url: ../custom-objects/learn/extra-table/create.md
+      
+  # Card
+  - title: Benutzeroberfläche
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Ansichtsdesigner
+          url: ../ui/screen-designer/learn/index.md
+        - text: Zusatzmenüs
+          url: ../ui/blogic/learn/extra-menus/index.md
+        - text: Web-Bildschirme
+          url: ../ui/web-panels/learn/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Profil im Service
+          url: ../ui/blogic/learn/profiles/index.md
+
+  # Card
+  - title: Makros und CRMScript
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Makros und Skripts
+          url: ../automation/crmscript/learn/macro-script.md
+        - text: Ein Makro erstellen
+          url: ../automation/crmscript/learn/create-macro.md
+        - text: Ein Skript erstellen
+          url: ../automation/crmscript/learn/create-script.md
+        - text: Debugsitzungen
+          url: ../automation/crmscript/learn/debug.md
+        - text: Eine geplante Aufgabe erstellen
+          url: ../automation/crmscript/learn/schedule-task.md
+        - text: Ablaufverfolgung
+          url: ../automation/crmscript/learn/tracing.md
+        - text: Auslöser
+          url: ../automation/crmscript/learn/trigger.md
+
+  # Card
+  - title: Kundenzentrum
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Kundenzentrum-Konfiguration
+          url: ../customer-center/learn/config.md
+        - text: Kundenzentrum-Quelldateien
+          url: ../customer-center/learn/edit.md
+        - text: Kennwörter an Personen senden
+          url: ../customer-center/learn/send-credentials.md

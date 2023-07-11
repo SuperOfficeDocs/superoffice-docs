@@ -1,0 +1,11 @@
+items:
+  - name: Überblick
+    href: index.md
+  - name: Spaltenansicht anpassen
+    href: configure-columns.md
+  - name: Filter verwenden
+    href: filter.md
+  - name: Gruppierte Listen
+    href: group.md
+  - name: Exportieren
+    href: export-archives.md

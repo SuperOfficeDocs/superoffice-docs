@@ -1,0 +1,41 @@
+### YamlMime:Tutorial
+uid: help-de-tutorial-sms-mailing
+title: Tutorial - SMS-Kampagne
+metadata:
+  title:  Tutorial - SMS-Kampagne
+  description: "In diesem Tutorial erfahren Sie, wie Sie eine SMS-Kampagne erstellen."
+  audience: User
+  so.topic: tutorial
+  so.date: 09.07.2022
+  level: Intermediate
+items:
+- title: Einstellungen
+  durationInMinutes: 3
+  content: |
+    [!include[Schritt 1 SMS](includes/step-1-setup-sms.md)]
+
+    [!include[Tipp](includes/tip-mailing-save-draft.md)]
+
+- title: Vorlage
+  durationInMinutes: 2
+  content: |
+    [!include[So wählen Sie eine Vorlage aus](includes/mailing-choose-template.md)]
+
+    [!include[Tipp](includes/tip-mailing-save-draft.md)]
+
+- title: Inhalt
+  durationInMinutes: 3
+  content: |
+    [!include[Schritt 3 SMS](includes/step-3-content-sms.md)]
+
+- title: Empfänger
+  durationInMinutes: 3
+  content: |
+    [!include[Schritt 4 Empfänger](includes/step-4-recipients.md)]
+
+    [!include[Tipp](includes/tip-mailing-save-draft.md)]
+
+- title: Bestätigen
+  durationInMinutes: 3
+  content: |
+    [!include[So bestätigen und versenden Sie eine Kampagne](includes/step-5-confirm-and-send-mailing.md)]

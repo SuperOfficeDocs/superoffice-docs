@@ -1,0 +1,31 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Mit benutzerdefinierten Objekten arbeiten
+  items:
+  - name: Benutzerdefinierte Felder
+    topicHref: udef/index.md
+    items:
+    - name: Überblick
+      href: udef/index.md
+    - name: Feld hinzufügen
+      href: udef/add.md
+    - name: Feld verschieben
+      href: udef/move.md
+    - name: Registerkarte Reihenfolge der Felder bearbeiten
+      href: udef/change-tab-order.md
+    - name: Feld bearbeiten
+      href: udef/edit.md
+    - name: Seite 1 Felder
+      href: udef/page-1-fields.md
+    - name: Maximale Feldanzahl
+      href: udef/limitations.md
+  - name: Zusatztabellen und Felder
+    topicHref: extra-table/index.md
+    items:
+    - name: Überblick
+      href: extra-table/index.md
+    - name: Zusatztabellen hinzufügen
+      href: extra-table/create.md
+    - name: Zusatzfelder hinzufügen
+      href: extra-field/create.md

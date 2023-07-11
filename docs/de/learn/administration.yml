@@ -1,0 +1,89 @@
+### YamlMime:SubCategory
+
+title: Benutzerverwaltung und Systemeinstellungen
+summary: "Erfahren Sie mehr über Lizenzen, Rollen und Benutzer, Sprachen und Lokalisierungen, den Import externer Inhalte und die Funktionsweise unserer KI-Dienste."
+
+metadata:
+  title: Benutzerverwaltung und Systemeinstellungen
+  description: "Lizenzen, Benutzerverwaltung, Sprachen und Lokalisierung, Import"
+  so.product: administration
+  so.topic: landing-page
+  author: Help and Learn
+  so.author: Kirsti A.
+  so.date: 11.29.2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Lizenzen
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Überblick über Lizenzen
+          url: ../admin/license/learn/index.md
+        - text: Die Ansicht Lizenzen
+          url: ../admin/license/learn/screen/index.md
+        - text: Lizenz aktivieren
+          url: ../admin/license/learn/activate.md
+
+  # Card
+  - title: Benutzerverwaltung
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Rollen
+          url: ../admin/user-management/learn/role/index.md
+        - text: Rolle erstellen
+          url: ../admin/user-management/learn/role/create-role.md
+        - text: Benutzer
+          url: ../admin/user-management/learn/index.md
+        - text: Benutzer hinzufügen
+          url: ../admin/user-management/learn/add-associate.md
+        - text: Benutzerinformationen aktualisieren
+          url: ../admin/user-management/learn/update-user.md
+        - text: Benutzergruppen verwalten
+          url: ../admin/user-management/learn/user-groups.md
+        - text: „Unsere Firmen“ verwalten
+          url: ../admin/user-management/learn/our-companies.md
+
+  # Card
+  - title: Importieren
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Importeinstellungen konfigurieren
+          url: ../admin/import/learn/configure-import-settings.md
+        - text: Aus Excel importieren
+          url: ../admin/import/learn/import-from-excel.md
+        - text: Produkte aus Excel importieren
+          url: ../admin/import/learn/import-products-from-excel.md
+        - text: Aus Gmail importieren
+          url: ../admin/import/learn/import-from-gmail.md
+        - text: Aus Outlook importieren
+          url: ../admin/import/learn/import-from-outlook.md
+        - text: Aus ERP importieren
+          url: ../admin/import/learn/import-from-erp.md
+
+  # Card
+  - title: AI
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Kategorisierung
+          url: ../ai/learn/categorization.md
+        - text: Textanalyse
+          url: ../ai/learn/text-analysis.md
+
+ # Card
+  - title: ERP
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Mit ERP verbinden
+          url: ../admin/erp/learn/erp-connect.md
+        - text: ERP-Akteur erstellen
+          url: ../admin/erp/learn/erp-create-new-actor.md
+        - text: Synchronisierung deaktivieren
+          url: ../admin/erp/learn/erp-sync-disconnect.md

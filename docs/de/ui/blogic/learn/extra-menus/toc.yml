@@ -1,0 +1,9 @@
+items:
+  - name: Überblick
+    href: index.md
+  - name: Funktion zur Schaltfläche Menü (Aufgabe) hinzufügen
+    href: actions.md
+  - name: Navigatorgruppe und Zusatzmenü hinzufügen
+    href: navigator.md
+  - name: Eigenschaften des Menüs
+    href: properties.md

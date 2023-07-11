@@ -1,0 +1,21 @@
+items:
+  - name: Überblick
+    href: index.md
+  - name: Kampagne erstellen
+    href: create-mailings.md
+  - name: E-Mail an mehrere Empfänger senden
+    href: send-email.md
+  - name: Folgeaufgaben erstellen
+    href: generate-follow-ups.md
+  - name: Selektion als Diagramm anzeigen
+    href: display-as-charts.md
+  - name: Massenabgleich
+    href: bulk-update.md
+  - name: Etiketten drucken
+    href: print-labels.md
+  - name: Firmenberichte drucken
+    href: print-company-reports.md
+  - name: In Excel oder eine Datei exportieren
+    href: export.md
+  - name: Datensätze unwiederbringlich löschen
+    href: mass-delete.md

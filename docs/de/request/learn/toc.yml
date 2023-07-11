@@ -1,0 +1,11 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Anfrageansicht
+  href: screen/index.md
+- name: Anfragen mit AI behandeln
+  href: handle-request-ai.md
+- name: Mit Anfragen arbeiten
+  href: howto/toc.yml
+  topicHref: find.md
+  

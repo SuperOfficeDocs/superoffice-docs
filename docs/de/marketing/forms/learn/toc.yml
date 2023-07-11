@@ -1,0 +1,26 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Formulare anzeigen
+  href: view.md
+- name: Mit Formularen arbeiten
+  topicHref: form-templates.md
+  items:
+  - name: Neues Formular erstellen
+    href: create.md
+  - name: Feldoptionen
+    href: field-options.md
+  - name: Formulare veröffentlichen
+    href: publish.md
+  - name: Verwenden von vorausgefüllten Feldern
+    href: form-prefilled.md
+  - name: Beispiele
+    href: examples.md
+- name: Formularübermittlungen
+  topicHref: submissions/index.md
+  items:
+  - name: Formularübermittlungen überwachen und Statistiken anzeigen
+    href: submissions/track.md
+  - name: Formularübermittlungen verarbeiten
+    href: submissions/process.md
+  
