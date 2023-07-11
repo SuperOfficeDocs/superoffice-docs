@@ -21,7 +21,9 @@ Du måste alltid ange regler för hantering av dubbletter under import.
 
     * Klicka på ![ikonen][img1] bredvid fältet **Importbeskrivningsfil** och välj en importbeskrivningsfil i den dialogruta som öppnas. En importfil och tidigare valda inställningar infogas automatiskt.
 
-    * [!include[Select file](includes/step-select-file.md)] Ange sedan [fälttilldelningen][1].
+    * [!include[Select file](includes/step-select-file.md)]
+
+        Ange sedan [fälttilldelningen][1].
 
 3. Innehållet i kolumnen **Tabell** under **Hantering av dubbletter** baseras på den angivna fälttilldelningen.
 

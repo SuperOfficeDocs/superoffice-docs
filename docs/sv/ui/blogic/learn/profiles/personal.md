@@ -11,8 +11,7 @@ language: sv
 
 # Personliga profiler
 
-> [!NOTE]
-> Ändringar gjorda i **Profil** visas endast i **SuperOffice Service**-modulen, inte in fönstret Ärenden i SuperOffice CRM-modulen.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Personliga profiler gäller för enskilda användare. Du konfigurerar en personlig profil genom att klicka på ![ikon][img1] (skiftnyckelikonen) som visas på olika skärmar, t.ex. i listan över ärenden på skärmen Kontakt, i området med egenskaper för ärenden på skärmen Ärende eller på skärmen med sökresultat. För att förklara hur detta fungerar ger vi ett konkret exempel. I exemplet nedan antar vi att du vill lägga till ett fält på skärmen Ärende.
 

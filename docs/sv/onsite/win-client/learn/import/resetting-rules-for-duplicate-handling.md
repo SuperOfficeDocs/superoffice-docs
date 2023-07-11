@@ -18,7 +18,10 @@ so.envir: onsite
 2. Gör något av följande:
 
     * Klicka på ![ikonen][img1] bredvid fältet **Importbeskrivningsfil** och välj en importbeskrivningsfil i den dialogruta som öppnas. En importfil och tidigare valda inställningar infogas automatiskt.
-    * [!include[Select file](includes/step-select-file.md)] Ange sedan [fälttilldelningen][1]. Innehållet i kolumnen **Tabell** under **Hantering av dubbletter** baseras på den angivna fälttilldelningen.
+
+    * [!include[Select file](includes/step-select-file.md)]
+
+        Ange sedan [fälttilldelningen][1]. Innehållet i kolumnen **Tabell** under **Hantering av dubbletter** baseras på den angivna fälttilldelningen.
 
 3. Välj något av följande alternativ:
 

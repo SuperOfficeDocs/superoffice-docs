@@ -3,7 +3,7 @@ uid: help-sv-section-tabs
 title: Detaljkorten
 description: Detaljkorten
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: 05.24.2023
 keywords: detaljkort, arkiv
 so.topic: concept
 language: sv
@@ -42,7 +42,6 @@ För att minska inläsningstiden visas endast ett angivet antal poster när ett 
 
 * [Gruppering av listor][3]
 * [Använda filter på detaljkort][4]
-* [Ändra standardsortering av kontakter][16]
 * [Konfigurera kolumner][6]
 * [Exportera detaljkort][7]
 * [Detaljkorten i fönstret Företag][9]
@@ -66,7 +65,6 @@ För att minska inläsningstiden visas endast ett angivet antal poster när ett 
 [13]: ../../project/learn/screen/index.md
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
-[16]: ../../company/learn/change-rank-of-contacts.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

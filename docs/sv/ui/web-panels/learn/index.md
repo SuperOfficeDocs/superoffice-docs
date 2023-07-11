@@ -21,7 +21,7 @@ Du kan lägga till extra webbläsarflikar på följande skärmar så att informa
 
 ## Vad kan jag lägga till som innehåll?
 
-* Webbadresser: Länkar till webbsidor eller specifika poster i SuperOffice Service.
+* Webbadresser: Länkar till webbsidor eller specifika poster i SuperOffice.
 * Skärmar: Genvägar till specifika skärmar.
 * Skripter/makron: Knappar eller menyalternativ som utlöser ett skript eller makro.
 * Urval: Genväg till ett urval.

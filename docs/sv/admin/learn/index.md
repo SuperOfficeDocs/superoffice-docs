@@ -71,7 +71,7 @@ Det bästa sättet att definiera egna projekt- eller försäljningsguider är at
 * [Hantera dokumentmallar][7]
 * [Integritetsinställningar enligt GDPR][8]
 * [Systeminställningar och videomöten][9]
-* [Importera företag, kontakter och produkter][3]
+* [Importera företag, kontakter, och produkter][3]
 
 <!-- Referenced links -->
 [1]: ../user-management/learn/index.md

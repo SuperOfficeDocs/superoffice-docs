@@ -83,7 +83,7 @@ I listans sidfot kan du klicka på knappen ![ikon][img1] **Uppgift** för att f�
 
 * **Massuppdatering**: Om du väljer en eller flera ärenden i listan kan du klicka på detta alternativ och välja en åtgärd som du vill utföra på alla valda ärenden samtidigt. Du kan t.ex. välja att [lägga till samma meddelande i flera ärenden][8], [vidarebefordra flera ärenden][7] eller ta bort flera ärenden i en enda åtgärd.
 
-### Förhandsgranskning
+### <a id="preview" />Förhandsgranskning
 
 På denna del av skärmen visas innehållet i det ärende som är markerat under **Sökresultat**. Du har samma alternativ som när du [behandlar ärenden][6].
 
@@ -108,7 +108,7 @@ Om förhandsgranskningsdelen inte visas, klickar du på **Visa förhandsgranskni
 [9]: ../../dashboard/learn/index.md
 [10]: ../../search-options/selection/learn/index.md
 [11]: ../../search-options/learn/find-screen.md
-[12]: ../../learn/getting-started/main-screen/navigator.md#navigator-options
+[12]: ../../learn/getting-started/main-screen/navigator.md#navigator
 [13]: ../../search-options/selection/learn/create/tutorial.yml
 
 <!-- Referenced images -->

@@ -17,8 +17,7 @@ language: sv
 
 Profilerna i systemet används för att konfigurera skärmobjektens utseende och beteende.
 
-> [!NOTE]
-> Ändringar gjorda i **Profil** visas endast i **SuperOffice Service**-modulen, inte in fönstret Ärenden i SuperOffice CRM-modulen.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Till exempel:
 

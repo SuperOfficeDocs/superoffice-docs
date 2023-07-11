@@ -11,8 +11,7 @@ language: sv
 
 # Lägg till funktion i menyknappen
 
-> [!NOTE]
-> Ändringar gjorde i fliken **Systemdesign** - **Extramenyer** visas endast i **SuperOffice Service**-modulen, inte in fönstret Ärenden i SuperOffice CRM-modulen.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 För att lägga till ett makro i knappen **Uppgift** i fönstret Företag, Kontakt eller Ärende eller fliken **Meddelande**:
 

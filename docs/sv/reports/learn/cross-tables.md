@@ -5,7 +5,7 @@ description: Visa korstabeller
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: rapport
-so.topic: help
+so.topic: concept
 language: sv
 ---
 
@@ -20,7 +20,7 @@ Du kan visa och skriva ut korstabeller på olika sätt. Du kan bland annat välj
 
 Om du vill visa en korstabellsrapport (.Dcube-fil) måste du installera **program för visning av korstabeller** (en gång per dator).
 
-1. Klicka på ![ikon][img1] **Huvudmeny** och välj **Hämta &gt; Hämta program för visning av korstabeller**.
+1. Klicka på ![ikon][img1] **Huvudmeny** och välj **Hämta** > **Hämta program för visning av korstabeller**.
 1. Klicka på den nedladdade filen (**SoCrossTableInstaller.exe**) för att köra den.
 1. Om en säkerhetsvarning visas, bekräftar du att du vill köra filen.
 1. Följ instruktionerna i guiden för att installera programmet.

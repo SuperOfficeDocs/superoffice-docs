@@ -11,8 +11,7 @@ language: sv
 
 # Globala profiler
 
-> [!NOTE]
-> Ändringar gjorda i **Profil** visas endast i **SuperOffice Service**-modulen, inte in fönstret Ärenden i SuperOffice CRM-modulen.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 En global profil används som standardprofil och gäller för alla dem som inte har en personlig profil eller inte har tilldelats en delad profil utifrån den roll de tillhör.
 

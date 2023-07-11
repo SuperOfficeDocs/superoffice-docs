@@ -5,7 +5,7 @@ description: Använda hjälp i appen i SuperOffice CRM
 author: SuperOffice RnD
 so.date: 01.25.2023
 keywords: hjälp, i appen, i appen
-so.topic: help
+so.topic: concept
 language: sv
 ---
 

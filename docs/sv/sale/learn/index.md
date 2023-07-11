@@ -24,7 +24,7 @@ Fönstret **Försäljning** innehåller information om de försäljningar som la
 
 Om du vill flytta mellan olika försäljningar, klickar du på knapparna föregående/nästa ( ![ikon][img2] ![ikon][img4] ) längst ned till höger på korten.
 
-Du kan också [skapa offerter][1] på detaljkortet **Offert** i fönstret **Försäljning**.
+Du kan också [skapa offerter][1] på detaljkortet Offert i fönstret **Försäljning**.
 
 ## Var kan jag se försäljning?
 

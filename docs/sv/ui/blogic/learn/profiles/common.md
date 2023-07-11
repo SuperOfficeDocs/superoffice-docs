@@ -11,8 +11,7 @@ language: sv
 
 # Delade profiler
 
-> [!NOTE]
-> Ändringar gjorda i **Profil** visas endast i **SuperOffice Service**-modulen, inte in fönstret Ärenden i SuperOffice CRM-modulen.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Delade profiler är kopplade till en [roll][2] och gäller för alla användare som har den aktuella rollen. Du konfigurerar delade profiler på skärmen **Visa profiler**.
 

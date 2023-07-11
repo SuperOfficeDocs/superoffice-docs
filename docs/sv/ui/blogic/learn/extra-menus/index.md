@@ -5,7 +5,7 @@ description: Extramenyer i SuperOffice-gränssnittet
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: extramenyer
-so.topic: help
+so.topic: concept
 so.user: admin
 so.user.tooltip: Settings and maintenance
 language: sv
@@ -13,8 +13,7 @@ language: sv
 
 # Extramenyer
 
-> [!NOTE]
-> Ändringar gjorde i fliken **Systemdesign** - **Extramenyer** visas endast i **SuperOffice Service**-modulen, inte in fönstret Ärenden i SuperOffice CRM-modulen.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 På skärmen **Extramenyer** kan du lägga till extramenyer (knappar, menyer, länkar, genvägar, listor o.s.v.) i SuperOffice så att de funktioner och den information som du behöver alltid är enkla att komma åt.
 

@@ -42,13 +42,13 @@ När du dubbelklickar på en rad i fönstret [sökresultat][13], kommer du till 
 
 ### Vad vill du göra nu?
 
-* [Ärendehantering steg för steg][7]
+* Ärendehantering steg för steg
 * [Ta emot ärenden][6]
 * [Skapa ärenden][4]
 * [Söka ärenden][10]
 * [7 tips för att ge förstklassig kundservice med SuperOffice Service][20] – blogg
 
-## Hantera ärenden
+## <a id="request-mgt" />Hantera ärenden
 
 Inkommande ärenden kan komma via många olika kanaler, och det finns mer än ett sätt att registrera och svara på dem. Hur ärendehanteringen går till varierar från ett ärende till ett annat.
 
@@ -72,7 +72,8 @@ Olika företag har olika rutiner för ärendehantering och kan använda SuperOff
 
 ### Scenario 1: Kontakten skickar in ärende via e-post
 
-1. Kontakten skriver ett e-postmeddelande till <support@company.com> eller fyller i ett formulär i en portal för användarsupport.
+<!-- markdownlint-disable-next-line MD034 -->
+1. Kontakten skriver ett e-postmeddelande till support@company.com eller fyller i ett formulär i en portal för användarsupport.
 1. Kontakten får ett [automatiskt svar][23] som bekräftar att förfrågan har tagits emot.
 1. Förfrågan från kontakten registreras automatiskt som ett ärende i SuperOffice CRM.
 1. Ärendet hamnar hos en ärendehandläggare i SuperOffice CRM. Se [Tilldela ärenden][6] och [Söka ärenden][10].
@@ -116,12 +117,11 @@ Olika företag har olika rutiner för ärendehantering och kan använda SuperOff
 [4]: howto/create.md
 [5]: howto/flag-message.md
 [6]: howto/assign.md
-[7]: index.md#request-management
 [8]: howto/fav.md
 [9]: howto/edit-message.md
 [10]: find.md
 [11]: find.md#list
-[12]: find.md#search
+[12]: ../../search-options/learn/index.md
 [13]: find.md#result
 [14]: howto/create.md
 [15]: ../../learn/getting-started/edit-email-signature.md

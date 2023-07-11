@@ -5,7 +5,7 @@ description: "Aviseringar om inbjudningar, meddelanden och ärenden"
 author: Hanne Gunnarsson
 so.date: 04.03.2023
 keywords: avisering, Grund, förfrågningar, ärendehantering, meddelanden
-so.topic: help
+so.topic: concept
 so.user: user
 so.user.tooltip: SuperOffice CRM
 language: sv
@@ -36,7 +36,8 @@ Det här är de olika aviseringarna för ärenden:
 * **Ett ärende som du lagt till under favoriter har uppdaterats**: Ett av dina favoritmarkerade ärenden har uppdaterats.
 * **Anpassat meddelande**: Ett anpassat meddelande har lagts till i ett ärende.
 
-    Obs! Listan över ärendemeddelanden rensas varje natt, vilket innebär att eventuella ärenden som du på listan i slutet av dagen inte kommer att finnas där nästa dag.
+    > [!NOTE]
+    > Listan över ärendemeddelanden rensas varje natt, vilket innebär att eventuella ärenden som du på listan i slutet av dagen inte kommer att finnas där nästa dag.
 
 ## Aktivitetsmeddelanden
 
@@ -50,12 +51,12 @@ Det här är de olika aktivitetsmeddelandena:
 * **Mötet har ställts in**: Mötet har ställts in. Klicka på länken för att öppna kalenderobjektet eller klicka på **Jag förstår** om du vill ta bort det från aviseringarna.
 * **Inbjudan avvisades**: En mötesdeltagare har avvisat inbjudan. Klicka på länken för att öppna kalenderobjektet eller klicka på **Jag förstår** om du vill ta bort det från aviseringarna.
 
-    Obs! Inbjudningar och ändrade aktiviteter tas inte bort från meddelandepanelen utan finns kvar tills du antingen **accepterar** eller **avvisar** inbjudan.
+    > [!NOTE]
+    > Inbjudningar och ändrade aktiviteter tas inte bort från meddelandepanelen utan finns kvar tills du antingen **accepterar** eller **avvisar** inbjudan.
 
 ## Aviseringsinställningar
 
-När du klickar på ikonen ![ikon][img2] visas panelen för aviseringsinställningar.
-Här kan du välja vilka aviseringar du vill se i aviseringspanelen.
+När du klickar på ikonen ![ikon][img2] visas panelen för aviseringsinställningar. Här kan du välja vilka aviseringar du vill se i aviseringspanelen.
 
 Det här är aviseringsalternativen:
 

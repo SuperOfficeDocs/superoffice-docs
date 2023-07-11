@@ -25,7 +25,7 @@ Till exempel huvudkategorierna för Användarsupport, Utveckling, Försäljning 
 Användare kan läggas till som kategorimedlemmar individuellt eller via de användargrupper som de tillhör.
 
 > [!TIP]
-> Vill du organisera dina ärenden på ett mer flexibelt sätt? Prova att [använda taggar i ärenden][1].
+> Vill du organisera dina ärenden på ett mer flexibelt sätt? Prova att [använda taggar i ärenden][6].
 
 ## Var hittar jag ärendekategorierna?
 
@@ -48,5 +48,6 @@ Kategorierna är organiserade i en trädstruktur.
 [3]: ../../../admin/lists/learn/index.md
 [4]: ../priority/index.md
 [5]: ../next-in-queue.md
+[6]: ../tags.md
 
 <!-- Referenced images -->

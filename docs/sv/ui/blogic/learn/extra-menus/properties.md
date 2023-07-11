@@ -5,14 +5,13 @@ description: Egenskaper för meny
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Tjänst
-so.topic: help
+so.topic: howto
 language: sv
 ---
 
 # Egenskaper för meny
 
-> [!NOTE]
-> Ändringar gjorde i fliken **Systemdesign** - **Extramenyer** visas endast i **SuperOffice Service**-modulen, inte in fönstret Ärenden i SuperOffice CRM-modulen.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Här kan du redigera egenskaperna för alternativ på extramenyer och webbpaneler.
 

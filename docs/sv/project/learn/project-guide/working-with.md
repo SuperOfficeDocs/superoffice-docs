@@ -32,7 +32,7 @@ Om en projektguide är definierad för en projekttyp som du har angett för ett 
     > [!TIP]
     > För att skapa flera händelser av samma typ kan du högerklicka på händelsen och välja **Skapa en till**. [Dialogrutan för händelser][2] visas.
     >
-    > ![ikon][img2]
+    > ![Skapa en till -screenshot][img2]
 
 1. När alla händelser och dokument i en projektstatus är slutförda, går du till nästa status.
 
@@ -41,7 +41,7 @@ Om en projektguide är definierad för en projekttyp som du har angett för ett 
 
 1. Upprepa stegen ovan för alla händelser/dokument i varje status i projektguiden.
 
-## Gå till nästa status
+## <a id="move-to-next-status" />Gå till nästa status
 
 Du kan flytta projektet till nästa status på två olika sätt:
 

@@ -1,4 +1,4 @@
-<!-- markdownlint-disable-file MD041 -->
+<!-- markdownlint-disable-file MD041 MD034 -->
 När du skapar ett utskick måste du välja mottagare för utskicket. Du kan lägga till mottagare från flera källor. Du kan dessutom ställa in olika utskicksalternativ här och även förhandsgranska utskicket.
 
 Din mållista är den grupp människor du tror kommer att svara bäst på ditt meddelande. Om du skräddarsyr ditt marknadsföringsbudskap specifikt för den gruppen ökar du chanserna att nå framgång och undviker att slösa tid och arbete på människor som inte är intresserade.
@@ -65,12 +65,12 @@ När du importerar en lista med namn och e-postadresser kommer SuperOffice Markn
 
 * Varje mottagare (rad) ska innehålla mottagarens fullständiga namn och e-postadress.
 
-    Exempel: "John Smith, <john@company.com>")
+    Exempel: "John Smith, john@company.com"
 
     > [!NOTE]
     > Du kan även ange endast e-postadressen. Namnet kommer då inte att finnas tillgängligt som mallvariabel.
 
-* Lokalt: Varje mottagare (rad) kan även innehålla ett mobiltelefonnummer (efter e-postadressen) om du skapar SMS-utskick. Till exempel: "John Smith, <john@company.com>, 99999999". Kräver SMS-licens för marknadsföring.
+* Lokalt: Varje mottagare (rad) kan även innehålla ett mobiltelefonnummer (efter e-postadressen) om du skapar SMS-utskick. Till exempel: "John Smith, john@company.com, 99999999". Kräver SMS-licens för marknadsföring.
 
 > [!NOTE]
 > Om du bara har mobiltelefonnumret och vill skicka SMS-utskick kan du skriva så här: " , , 99887766".

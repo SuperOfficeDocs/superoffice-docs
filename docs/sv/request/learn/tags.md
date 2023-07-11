@@ -13,11 +13,11 @@ language: sv
 
 # Använda taggar i ärenden
 
-Taggning är ett kraftfullt verktyg för att organisera och hitta ärenden i SuperOffice Service. Du kan skapa taggar i farten och tagga alla ärenden med så många taggar du vill. Om du använder taggar blir det lättare att söka efter, visa och filtrera ärenden.
+Taggning är ett kraftfullt verktyg för att organisera och hitta ärenden i SuperOffice. Du kan skapa taggar i farten och tagga alla ärenden med så många taggar du vill. Om du använder taggar blir det lättare att söka efter, visa och filtrera ärenden.
 
 Varje företag kommer vilja använda sina egna specifika ärendetaggar för kundservice. Låt oss ta en titt på två typer av taggar som kan vara användbara för ditt företag:
 
-* Du kan konfigurera taggar för de olika kundfaserna som ditt företag använder, till exempel Kostnadsfri provperiod, Onboarding, Befintlig eller Avslutar;
+* Du kan konfigurera taggar för de olika kundfaserna som ditt företag använder, till exempel Kostnadsfri provperiod, Onboarding, Befintlig eller Avslutar.
 
 * Du kan skapa taggar relaterade till avdelningen som ska hantera en viss typ av ärende, till exempel Ekonomi, Marknadsföring eller Försäljning.
 

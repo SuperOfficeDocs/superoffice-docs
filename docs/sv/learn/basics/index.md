@@ -27,16 +27,14 @@ Och andra funktioner som ger dig en översikt över:
 * [Så här hanterar du dubbletter][16]
 * [Så här använder du funktionen för massuppdatering][17]
 
-## Grundläggande uppgifter att komma igång med
-
-### Inforuta
+## Inforuta
 
 På många ställen i SuperOffice CRM används en knappbeskrivning för att visa mer information om ett objekt. Knappbeskrivningar är särskilt användbara med listor om du vill visa mer än huvudinformationen som visas för enskilda poster eller, med smala kolumner, om du vill visa mer än den trunkerade informationen. Hjälptexten visas när du håller muspekaren över ett objekt.
 
 > [!NOTE]
 > Om du inte kan komma åt en funktion visas en text som förklarar varför du inte kan se informationen.
 
-### Uppdatera data
+## Uppdatera data
 
 Varje gång du startar SuperOffice CRM uppdateras programmet helt med alla ändringar som andra har gjort i huvuddatabasen och ändringar som har gjorts i Inställningar och underhåll.
 
@@ -45,14 +43,14 @@ Du kan också uppdatera data medan du använder SuperOffice CRM. Det gör du gen
 > [!NOTE]
 > Vissa ändringar i Inställningar och underhåll kräver en omstart av SuperOffice CRM-klienten för att ändringarna ska börja gälla.
 
-### Hantera företag och kontakter
+## Hantera företag och kontakter
 
 Rutan Företag och Kontakt innehåller all information relaterad till dina kunder och ger omedelbar inblick i kommunikation, projekt och inköp de har med dig.
 
 > [!TIP]
 > Visste du att du kan se alla dina företag eller kontakter på ett ställe? Klicka på ikonen Val i navigatorpanelen och välj **Företag: Alla** eller **Alla kontakter** från listan.
 
-#### Uppgifter
+### Uppgifter - företag och kontakter
 
 * [Lägg till ett företag][2]
 * [Lägga till kontakter][3]
@@ -61,7 +59,7 @@ Rutan Företag och Kontakt innehåller all information relaterad till dina kunde
 * [Massuppdatera företags- och kontaktinformation][5]
 * [Skapa val för vidare åtgärder][6]
 
-### Kalender och bokningar
+## Kalender och bokningar
 
 SuperOffice-kalendern är en central funktion i ditt CRM-system. Regelbunden användning av kalendern hjälper dig att automatiskt koppla och dela bokningar och aktiviteter kopplade till en kontakt eller ett företag så att du och ditt team enkelt kan hålla koll på vad som händer och arbeta produktivt. De här guiderna förklarar hur du använder kalendern.
 
@@ -69,22 +67,22 @@ SuperOffice-kalendern är en central funktion i ditt CRM-system. Regelbunden anv
 
 Förutom den vanliga kalenderfunktionen ger SuperOffice Kalender dig också möjlighet att ansluta och organisera aktiviteter i projekt och försäljning. Det ger dig och teamet en fullständig översikt över alla aktiviteter och all kommunikation med koppling till samtliga projekt eller försäljningar.
 
-#### Uppgifter
+### Uppgifter - kalender och bokningar
 
 * [Skapa bokningar][8]
 * [Bjuda in en kontakt till en bokning][10]
 * [Videomöte][11]
 
-### Hantera dina dokument
+## Hantera dina dokument
 
 Genom att spara alla dokument på ett och samma ställe kommer du och ditt team snabbt åt aktuell information och kan hålla koll på era kundrelationer.
 
-#### Uppgifter
+### Uppgifter - dokument
 
 * Skapa eller ladda upp ett dokument
 * Spara e-postbilagor i SuperOffice CRM
 
-### Använda projekt för att ordna filer och aktiviteter
+## Använda projekt för att ordna filer och aktiviteter
 
 SuperOffice Projekt hjälper dig att organisera och dokumentera arbetet på ett ställe, så att du och ditt team kan få bättre kontroll och förbättra samarbetet.
 
@@ -100,7 +98,7 @@ SuperOffice Projekt levereras också med en projektguide som kan anpassas för a
 
 Administratören kan [lägga till och anpassa projektguider][1] åt dig.
 
-#### Uppgifter
+### Uppgifter - projekt
 
 * [Skapa ett projekt][7]
 

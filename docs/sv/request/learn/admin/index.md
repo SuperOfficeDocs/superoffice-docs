@@ -28,22 +28,22 @@ I detta avsnitt kan du konfigurera inställningarna för Service, så att det pa
 * [Chatt][13]
 * [SOAP][14] (endast LOKALT)
 * [Systemdesign][15]
-* [Profil][1] \- ändringar här visas inte någonstans i SuperOffice CRM-modulen (endast i Service-modulen)
+* [Profil][1] - ändringar här visas inte någonstans i SuperOffice CRM-modulen (endast i Service-modulen)
 
 <!-- Referenced links -->
-[1]: ../../ui/blogic/learn/profiles/index.md
-[2]: ../../admin/user-management/learn/role/index.md
-[3]: ../../admin/user-management/learn/index.md
-[4]: ../../request/learn/category/index.md
-[5]: ../../request/learn/priority/index.md
-[6]: ../../request/learn/status/index.md
-[7]: ../../email/service/learn/index.md
-[8]: ../../request/learn/screen/system-templates.md
-[9]: ../../admin/preferences/learn/global-preferences/system.md
-[10]: ../../admin/options/learn/custlang/index.md
-[11]: ../../customer-center/learn/index.md
-[13]: ../../chat/learn/admin/index.md
-[14]: ../../admin/learn/screen/soap-config.md
-[15]: ../../ui/blogic/learn/index.md
+[1]: ../../../ui/blogic/learn/profiles/index.md
+[2]: ../../../admin/user-management/learn/role/index.md
+[3]: ../../../admin/user-management/learn/index.md
+[4]: ../category/index.md
+[5]: ../priority/index.md
+[6]: ../status/index.md
+[7]: ../../../email/service/learn/index.md
+[8]: ../screen/system-templates.md
+[9]: ../../../admin/preferences/learn/global-preferences/system.md
+[10]: ../../../admin/options/learn/custlang/index.md
+[11]: ../../../customer-center/learn/index.md
+[13]: ../../../chat/learn/admin/index.md
+[14]: ../../../admin/learn/screen/soap-config.md
+[15]: ../../../ui/blogic/learn/index.md
 
 <!-- Referenced images -->

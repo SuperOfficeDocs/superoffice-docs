@@ -1,7 +1,7 @@
 ---
 uid: help-sv-udef
-title: Fält webb
-description: Fält webb
+title: Fält
+description: Fält
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: udef, anpassa fält

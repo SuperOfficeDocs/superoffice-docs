@@ -1,6 +1,6 @@
 ---
-title: hjälp-en-försäljning-sidopanel
-uid: How to use the side-panel in sales
+title: Sidopanel
+uid: help-sv-sale-side-panel
 description: Så här använder du sidopanelen effektivt för försäljning
 author: Bergfrid Dias
 so.date: 12.14.2022

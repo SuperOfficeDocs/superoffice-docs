@@ -12,7 +12,7 @@ language: sv
 
 # Redigera layout för detaljkort/arkiv
 
-Du kan redigera layouten genom att lägga till eller ta bort detaljkort/arkiv på de olika huvudkorten för Företag, Kontakt, Försäljning och Projekt.
+Du kan redigera layouten genom att lägga till eller ta bort detaljkort/arkiv på de olika huvudkorten för Företag, Kontakt, Försäljning, Projekt, och Ärenden.
 
 ## Förtydligande
 
@@ -103,7 +103,7 @@ Om du vill redigera ett befintligt arkiv, markerar du det och redigerar de tillg
 
 Du kan alltid klicka på **Återställ flikar** för att ångra dessa ändringar.
 
-## Ångra ändringar
+## <a id="undo-changes" />Ångra ändringar
 
 Om du behöver återgå till en tidigare version av skärmen, kommer du åt följande alternativ från **Uppgift**-knappen:
 
@@ -115,7 +115,7 @@ Om du behöver återgå till en tidigare version av skärmen, kommer du åt föl
 
 ## Relaterat
 
-* [Hur omorganiserar jag fälten på fliken Mer in fönstret Företag och Kontakt efter uppgraderingen till SuperOffice version 10?][3] \- FAQ
+* [Hur omorganiserar jag fälten på fliken Mer in fönstret Företag och Kontakt efter uppgraderingen till SuperOffice version 10?][3] - FAQ
 * [Skapa ny layout][4]
 
 <!-- Referenced links -->

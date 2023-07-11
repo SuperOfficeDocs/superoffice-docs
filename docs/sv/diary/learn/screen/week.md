@@ -18,10 +18,9 @@ På fliken **Vecka** visas en vecka i taget. Det finns en kolumn för varje veck
 Om du vill öppna fliken **Dag** för en viss dag klickar du på rubriken för denna dag.
 
 > [!NOTE]
-> Du kan definiera om veckan ska inledas på söndag eller måndag under ![ikon][img1] **Personliga inställningar &gt; Inställningar**.
+> Du kan definiera om veckan ska inledas på söndag eller måndag under **Personliga inställningar** > **Inställningar**.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
 [img2]: media/week-plan.bmp

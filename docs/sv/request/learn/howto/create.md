@@ -65,7 +65,7 @@ Ett ärende kan komma in i systemet via ett e-postmeddelande från kunden, eller
 
 1. Klicka på **Skicka** för att skicka och spara ärendet.
 
-## <a id="message" />De flesta mottagare kan läsa meddelanden (till exempel nyhetsbrev) som är formaterade som HTML-text. Budskapet blir ofta tydligare om du skickar meddelandet som HTML eftersom du då kan lägga in bilder och använda färger i texten
+## <a id="message" />Meddelanden
 
 > [!NOTE]
 > För att skicka meddelandet till någon, lägg till mottagare i fältet **Till** under flikarna. För att göra meddelandet tillgängligt för kontakten via SuperOffice Customer Centre, ange åtkomstnivån (för meddelandet) till **Externt**.
@@ -127,7 +127,7 @@ På denna flik finns alla extrafält för ärenden. Detta varierar mellan olika 
 
 <!-- Referenced links -->
 [1]: ../../../learn/getting-started/edit-email-signature.md
-[2]: reply.md#add-reply-templates-to-messages
+[2]: reply.md#reply-templ
 [3]: ../priority/escalation-levels.md
 [4]: ../tags.md
 [5]: edit-message.md

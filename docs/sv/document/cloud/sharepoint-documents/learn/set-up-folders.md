@@ -31,12 +31,13 @@ Dokument i bibliotek ärver automatiskt behörigheten från själva biblioteket.
 ## Relaterat
 
 * [Krav][1]
-* Så konfigurerar du SharePoint dokumentbibliotek
+* [Så konfigurerar du SharePoint dokumentbibliotek][3]
 * [Hantera dina dokumentmallar][2]
 
 <!-- Referenced links -->
 [1]: index.md
-[2]:
+[2]: ../../../../admin/lists/learn/add-template.md
+[3]: ../set-up.md
 
 <!-- Referenced images -->
 [img1]: media/admin-preferences-documentlibrary-sharepoint-permissions.png

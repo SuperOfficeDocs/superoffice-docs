@@ -1,5 +1,5 @@
 ---
-uid: help-sv-webtools-install
+uid: help-sv-mail-link-install
 title: Installera SuperOffice WebTools
 description: Så installerar du Mail Link/WebTools.
 author: Kirsti Aakerholt

@@ -13,7 +13,7 @@ language: sv
 
 # Favoriter i SuperOffice CRM
 
-Funktionen Favoriter ger dig enkel åtkomst till dina favoritposter, till exempel företag, kontakter, försäljning, urval, projekt, dokument, ärenden och utskick.
+Funktionen Favoriter ger dig enkel åtkomst till dina favoritposter, till exempel företag, kontakter, försäljning, urval, projekt, dokument, ärenden, och utskick.
 
 ## Lägg till en post som favorit
 

@@ -3,7 +3,7 @@ uid: help-sv-section-tabs-configure
 title: Ändrar kolumnvisningen
 description: Ändrar kolumnvisningen
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: 05.24.2023
 keywords: detaljkort, arkiv, kolumn
 so.topic: howto
 language: sv
@@ -52,11 +52,13 @@ Du kan ställa in att kolumnernas bredd ska anpassas automatiskt efter innehåll
 ## Relaterade ämnen
 
 * [Lista över grupper][3]
-* [Ändra standardsortering av kontakter][4]
+* [Filtrera detaljkorten][1]
+* [Exportera detaljkort][2]
 
 <!-- Referenced links -->
+[1]: filter.md
+[2]: export-archives.md
 [3]: group.md
-[4]: ../../company/learn/change-rank-of-contacts.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png
