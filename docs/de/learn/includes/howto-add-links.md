@@ -18,4 +18,4 @@
 Ein Punkt in der Registerkartenüberschrift **Link** bedeutet, dass der Verkauf einen Link hat.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-history-list.md
+[1]: ../basics/history.md

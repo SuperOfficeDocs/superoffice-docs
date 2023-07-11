@@ -21,10 +21,10 @@ Wenn Ihnen in SuperOffice Einstellungen und Verwaltung die Berechtigung **Verwal
     Sie können die Ansicht Firma auf verschiedene Weise öffnen:
 
     * Durch Klicken auf die Schaltfläche **Firma** im Navigator.
-    * Verwenden Sie dazu die [Verlaufsliste][1] oder die [Schnellsuche][2].
+    * Verwenden Sie dazu die [Verlaufsliste][1] oder die Navigatorsuche.
     * Doppelklicken Sie auf eine Firma in einem Suchergebnis oder in einer Selektion.
 
-2. Klicken Sie auf ![Symbol][img1] **Aufgabe** &gt; **Externe Benutzer**. Das Dialogfeld **Externe Benutzer** wird geöffnet.
+2. Klicken Sie auf ![Symbol][img1] **Aufgabe** > **Externe Benutzer**. Das Dialogfeld **Externe Benutzer** wird geöffnet.
 
 3. Befolgen Sie eine der folgenden Verfahren.
 
@@ -49,8 +49,7 @@ Wählen Sie die Person, deren Login-Rechte Sie löschen möchten, und klicken Si
 Mit dem Listenfeld **Anzeigen** im unteren Teil rechts im Dialogfeld können Sie die Liste von Personen nach Benutzerstatus filtern.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-history-list.md
-[2]: ../../../search-options/learn/using-fastsearcher.md
+[1]: ../../../learn/basics/history.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

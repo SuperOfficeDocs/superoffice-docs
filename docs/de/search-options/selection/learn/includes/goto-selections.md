@@ -2,9 +2,8 @@
 1. Öffnen Sie die Ansicht Selektion:
 
     * Durch Klicken auf die Schaltfläche **Selektion** im Navigator.
-    * Verwenden Sie dazu die [Verlaufsliste][1] oder die [Schnellsuche][2].
+    * Verwenden Sie dazu die [Verlaufsliste][1] oder die Navigatorsuche.
     * Doppelklicken Sie auf eine Selektion in einem Suchergebnis.
 
 <!-- Referenced links -->
-[1]: ../../../learn/using-history-list.md
-[2]: ../../../learn/using-fastsearcher.md
+[1]: ../../../../learn/basics/history.md

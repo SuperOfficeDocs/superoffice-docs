@@ -23,7 +23,7 @@ Sie können eine Person - einschließlich ihrer Aktivitäten und Mitgliedschafte
     * In der Ansicht Person: Gehen Sie zur gewünschten Person, klicken Sie in der Personenkarte auf das ![Symbol][img2] der Schaltfläche **Aufgabe** und wählen Sie **Personen verwalten** und **Person verschieben** aus.
 
 1. Wählen Sie im Dialogfeld **Person verschieben** unter **Aktion für Person** eine der folgenden Optionen aus:
-    * Wählen Sie **Verschieben in** und dann die Firma, zu der die Person verschoben werden soll. Verwenden Sie die [Schnellsuche][1], die [Verlaufsliste][2] oder das ![Symbol][img3] [Suchen][3].
+    * Wählen Sie **Verschieben in** und dann die Firma, zu der die Person verschoben werden soll.
     * Wählen Sie **Von &lt;company&gt; trennen**.
 
 1. Wählen Sie unter **Aktion für alle vorhandenen Aktivitäten und Verkäufe** eine der folgenden Optionen:
@@ -39,10 +39,6 @@ Sie können eine Person - einschließlich ihrer Aktivitäten und Mitgliedschafte
 > Sie können keine Personen (SuperOffice-Benutzer) innerhalb Ihrer eigenen Firma verschieben.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
-[3]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/icons/btn-menu.png
-[img3]: ../../../../common/icons/search-icon-black.png

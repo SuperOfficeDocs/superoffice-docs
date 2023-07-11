@@ -28,7 +28,7 @@ Die Hauptkomponente enthält die folgenden wichtigen Informationen über das Dok
 
 ### Dokumentvorlage
 
-Wenn Sie oben im Dialogfeld auf den Pfeil ![Symbol][img1] neben dem Feld Typ klicken, wird eine Liste der Dokumentvorlagen eingeblendet, aus der Sie wählen können. [!include[SM](../../../learn/includes/are-defined-sm.md)] Hier können Sie auch die [Schnellsuche][6] verwenden.
+Wenn Sie oben im Dialogfeld auf den Pfeil ![Symbol][img1] neben dem Feld Typ klicken, wird eine Liste der Dokumentvorlagen eingeblendet, aus der Sie wählen können. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
 > [!NOTE]
 > Wenn Sie ein [Dokument erstellen][5], wird die Vorlage im erstellten Programm geöffnet. DOCX-Dateien werden zum Beispiel in Word geöffnet.
@@ -145,7 +145,6 @@ Diese Registerkarte zeigt alle [benutzerdefinierten Felder][3], die in Einstellu
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
-[6]: ../../../search-options/learn/using-fastsearcher.md
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../learn/activity/linking-documents-to-follow-ups.md

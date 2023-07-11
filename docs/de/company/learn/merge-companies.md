@@ -24,7 +24,7 @@ Wenn zwei Firmen in Ihrer Kundendatenbank fusioniert wurden oder eine Firma von 
 1. Wählen Sie von ![Symbol][img3] der Schaltfläche **Aufgabe** die Option **Firmen verwalten** aus und klicken Sie auf **Firmen zusammenführen**.
     Das Dialogfeld **Firmen zusammenführen** wird geöffnet. Die Quellfirma wird unter **Von** angezeigt.
 
-1. Wählen Sie unter **In Firma** die Firma aus, die mit den Informationen der ersten Firma aktualisiert werden soll. Beginnen Sie mit der Eingabe in das Feld [Suche nach einer Firma][1].
+1. Wählen Sie unter **In Firma** die Firma aus, die mit den Informationen der ersten Firma aktualisiert werden soll. Beginnen Sie mit der Eingabe in das Feld Suche nach einer Firma.
 
     > [!TIP]
     > Um **Von** und **In** Firmen zu wechseln, müssen Sie auf die Schaltfläche ![Symbol][img1] klicken.
@@ -63,7 +63,6 @@ Wenn zwei Firmen in Ihrer Kundendatenbank fusioniert wurden oder eine Firma von 
 * [Personen zusammenführen][2]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->

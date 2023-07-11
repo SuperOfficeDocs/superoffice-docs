@@ -31,6 +31,6 @@ Wenn Sie die Suchkriterien eines Standardberichts ändern, werden diese nur temp
 [1]: edit.md
 [3]: ../labels/add-format.md
 [4]: add.md
-[5]: ../../../search-options/learn/using-search-criteria.md
+[5]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

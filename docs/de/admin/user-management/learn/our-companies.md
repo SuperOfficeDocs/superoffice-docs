@@ -84,7 +84,7 @@ Die Felder unten entsprechen den Feldern auf der Firmenkarte.
 * Ebenso: Hier können Sie weitere [Suchkriterien][1] festlegen.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md
 [2]: delete-user.md
 
 <!-- Referenced images -->

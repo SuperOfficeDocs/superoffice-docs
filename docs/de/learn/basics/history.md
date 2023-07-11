@@ -1,9 +1,9 @@
 ---
-uid: help-de-using-history-list
+uid: help-de-history-list
 title: Verlaufsliste verwenden
 description: Verlaufsliste verwenden
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 08.05.2023
 keywords: Suchen, Verlauf
 so.topic: howto
 language: de
@@ -33,10 +33,10 @@ Sie können die Verlaufsliste auf unterschiedliche Weise verwenden:
 3. Klicken Sie auf die gewünschte Firma, die Person, den Verkauf, die Selektion oder das Projekt, um zum entsprechenden Datensatz zu wechseln.
 
 > [!NOTE]
-> Sie können die Zeilenzahl in der Verlaufsliste vergrößern oder einschränken, indem Sie auf ![Symbol][img1] **Persönliche Einstellungen** &gt; **Einstellungen** &gt; **Optische Effekte** &gt; **Größe der Verlaufsliste** auswählen und die gewünschte Nummer eingeben.
+> Sie können die Zeilenzahl in der Verlaufsliste vergrößern oder einschränken, indem Sie auf ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Optische Effekte** > **Größe der Verlaufsliste** auswählen und die gewünschte Nummer eingeben.
 
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/preferences.md
+[1]: ../getting-started/preferences.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

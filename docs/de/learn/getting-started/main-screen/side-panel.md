@@ -132,7 +132,7 @@ Zeigt eine Liste von Mitgliedern der aktuellen Selektion in der Ansicht Selektio
 Sie können in Einstellungen und Verwaltung auch Ihre eigenen Anzeigen für die Seitenleiste definieren.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-history-list.md
+[1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
 [3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md

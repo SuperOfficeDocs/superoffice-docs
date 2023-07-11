@@ -48,7 +48,7 @@ Diese Statusangaben müssen Sie anschließend aktualisieren, indem Sie auf eine 
 | ![Symbol][img2] | Alle Zähler erneuern | Wählen Sie die Option aus, um alle Zähler zu erneuern |
 
 <!-- Referenced links -->
-[1]: ../../../../search-options/learn/using-search-criteria.md
+[1]: ../../../../search-options/learn/search-criteria.md
 [2]: select-status-criteria.md
 
 <!-- Referenced images -->

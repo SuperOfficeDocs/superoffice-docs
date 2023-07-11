@@ -29,7 +29,7 @@ language: de
 
     Wenn das Dialogfeld **E-Mail-Adresse auswählen** angezeigt wird:
 
-    1. Wählen Sie im Firmenfeld die Firma aus, der Sie das Dokument senden möchten. Standardmäßig wird die aktive Firma in der Ansicht Firma angezeigt. Sie können auch die [Schnellsuche][1] oder die [Verlaufsliste][2] verwenden. Nachdem Sie eine Firma ausgewählt haben, wird die betreffende E-Mail-Adresse neben dem Feld Firma angezeigt.
+    1. Wählen Sie im Firmenfeld die Firma aus, der Sie das Dokument senden möchten. Standardmäßig wird die aktive Firma in der Ansicht Firma angezeigt. Nachdem Sie eine Firma ausgewählt haben, wird die betreffende E-Mail-Adresse neben dem Feld Firma angezeigt.
 
     2. Wenn Sie die E-Mail an eine bestimmte Person der Firma senden möchten, wählen Sie eine Person aus dem Listenfeld für Personen aus. Nachdem Sie eine Person gewählt haben, wird die entsprechende E-Mail-Adresse neben dem Listenfeld für Personen eingeblendet.
 
@@ -50,8 +50,6 @@ language: de
 3. Klicken Sie auf **Senden**, um die Nachricht zu senden.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/document/email-document-send-as-email.png

@@ -3,8 +3,8 @@ uid: help-de-search-intro
 title: Suchoptionen in CRM
 description: "Lernen Sie, wie Sie Daten in SuperOffice CRM mit nur wenigen Klicks suchen und finden können."
 author: Bergfrid Dias
-so.date: 12.14.2022
-keywords: Suchen, Suchen
+so.date: 05.25.2023
+keywords: Suchen
 so.topic: concept
 language: de
 ---
@@ -13,19 +13,7 @@ language: de
 
 Die Suche nach Informationen in Ihrer CRM-Datenbank ist eine alltägliche Tätigkeit. Die Suchfunktion hilft Ihnen, die Informationen schneller zu finden, wobei es egal ist, ob Sie nach einer Telefonnummer oder einer Liste aller Ihrer offenen Verkäufe suchen.
 
-Die folgenden Anleitungen hat folgende Aufgaben:
-
-* Sie zeigen Ihnen die verschiedenen Möglichkeiten, um Informationen in der SuperOffice CRM-Datenbank zu suchen.
-* Sie erläutern, wie Sie Ihre Suchanfragen als Selektion speichern können.
-* Sie zeigen, welche Aufgaben Sie mit Ihrer Suche oder Ihren Selektionen ausführen können.
-
-Mit SuperOffice Find können Sie nach einem einzelnen Datenelement suchen, wie eine Telefonnummer, eine Datenliste oder eine Liste von Kampagnen-Empfängern.
-
-SuperOffice CRM enthält verschiedene Suchwerkzeuge:
-
-* [Schnellsuche][3]
-* [Die Schaltfläche „Suchen“][1]
-* [Feld Volltextsuche][2]
+Die folgenden Anleitungen hat folgende Aufgaben: Sie zeigen Ihnen die verschiedenen Möglichkeiten, um Informationen in der SuperOffice CRM-Datenbank zu suchen; Sie erläutern, wie Sie Ihre Suchanfragen als Selektion speichern können; Sie zeigen, welche Aufgaben Sie mit Ihrer Suche oder Ihren Selektionen ausführen können.
 
 ## Wonach kann ich suchen?
 
@@ -42,33 +30,40 @@ SuperOffice CRM enthält verschiedene Suchwerkzeuge:
 * Formularübermittlungen
 * Kampagnen
 
-## Schnellsuche verwenden
+## Suchwerkzeuge
 
-Sie können die [Schnellsuche][3] oder die [Verlaufsliste][5] verwenden, um nach Firmen, Verkäufen, Projekten und Selektionen zu suchen.
+SuperOffice CRM enthält verschiedene Suchwerkzeuge:
 
-Die **Schnellsuche** finden Sie entweder im Menü **Navigator**, indem Sie auf die Firma, die Person, die Verkäufe, das Projekt oder die Selektion klicken, um ein Suchfeld zu öffnen oder in Popup-Dialogen nach Firmen, Personen, Verkäufen, Projekten und Selektionen zu suchen.
+* [Schnellsuche][3]
+* [Die Schaltfläche Suchen][1]
+* [Feld Volltextsuche][2]
 
-Es erstellt Ihnen schnell eine Liste, die Ihren Suchwörtern entspricht. Verwenden Sie es, um Ihre Datenbank auf mögliche Duplikate zu überprüfen, bevor Sie eine neue Firma oder Person hinzufügen.
+Wählen Sie das richtige Werkzeug für Ihre Aufgabe aus:
+
+| Aufgabe | Suchwerkzeuge |
+|---|---|
+| Um zur den gewünschten Verkäufen zu gelangen. | Schnellsuche im Navigator oder die Verlaufsliste |
+| Um Ihre Datenbank auf mögliche Duplikate zu überprüfen, bevor Sie eine neue Firma oder Person hinzufügen. | Schnellsuche im Navigator |
+| Finde alle Daten eines bestimmten Typs basierend auf Kriterien. | Die Schaltfläche Suchen |
+| Suche erstellen und als Selektion speichern | Die Schaltfläche Suchen |
+| Voreingestellten Suchkriterien vervenden | Die Schaltfläche Suchen |
+| Um nach beliebigem Text zu suchen, den Benutzer in SuperOffice CRM eingegeben haben. | Volltextsuche |
+
+Der Hauptunterschied zwischen diesen Werkzeug besteht darin, ob Sie Schlüsselwörter oder Bedingungen angeben.
+
+## <a id="fastsearcher" />Schnellsuche verwenden
+
+Verwenden Sie die **Schnellsuche** im Menü **Navigator** und in Popup-Dialogen. Es erstellt Ihnen schnell eine Liste, die Ihren Suchwörtern entspricht.
 
 ![Verwenden Sie die Schnellsuche, um schnell und einfach im Navigator zu navigieren -screenshot][img1]
 
-### Tipps für die Schnellsuche
+Sie haben verschiedene Möglichkeiten, die Schnellsuche zu verwenden:
 
-Sie können %% verwenden, um alle Datensätze eines bestimmten Typs anzuzeigen, wie zum Beispiel alle Firmen, alle Selektionen, alle Projekte.
+* Sie können [direkt im Navigator suchen][3], um zur gewünschten Firma, Person oder Selektion bzw. zum gewünschten Projekt oder den gewünschten Verkäufen zu gelangen.
 
-Wenn Sie zum Beispiel alle in SuperOffice CRM verfügbaren Dokumentvorlagen sehen möchten, müssen Sie zum Menü **+Neu** gehen und auf **Dokument** klicken. Geben Sie %% in das obere Feld der Ansicht Dokument ein, das die Typen von Dokumentvorlagen angibt. Sie sehen dann eine Dropdown-Liste, welche die vollständige Liste der verfügbaren Dokumentvorlagen enthält.
+* Sie können [in Dialogfeldern][8] mit den relevanten Feldern, wie z. B. den Dialogfeldern **Termin** und **Dokument**, nach Firmen, Personen, Verkäufen, Projekten und Selektionen suchen, um sie mit dem Termin oder Dokument zu verknüpfen.
 
-![Geben Sie zwei Prozentzeichen in die Schnellsuche ein, um alle Datensätze anzuzeigen -screenshot][img4]
-
-## Schaltfläche Suchen verwenden
-
-Wenn Sie in der oberen Leiste auf die Schaltfläche **Suchen** klicken, wird die Ansicht [Suchen][1] geöffnet, in der Sie nach Daten in SuperOffice suchen können.
-
-Mit der Schaltfläche Suchen können Sie Datensätze gemäß beliebigen Kriterien aus Firmen, Personen, Projekten, Selektionen, Verkäufen, Produkten, Folgeaufgaben, Dokumenten und Anfragen suchen.
-
-![Klicken Sie auf die Schaltfläche Suchen in der oberen Leiste, um zur Ansicht Suchen zu gelangen -screenshot][img2]
-
-Wenn Sie die Suchfunktion verwenden, können Sie jede durchgeführte Suche als Selektion speichern.
+* Sie können direkt [im Zeitzonen-Selektor][2] suchen, um die Zeitzone für die betreffende Stadt oder das Land herauszufinden.
 
 ## Volltextsuche verwenden
 
@@ -77,19 +72,25 @@ Verwenden Sie das Suchfeld für die [Volltextsuche][2] in der oberen rechten Eck
 ![Die Volltextsuche finden Sie rechts in der oberen Leiste -screenshot][img3]
 
 > [!TIP]
-> Möchten Sie eine Liste aller Ihrer Personen sehen? Klicken Sie auf das Symbol **Selektionen** im linken Navigator-Bildschirm und suchen Sie nach „Alle Personen“, um eine vorkonfigurierte Auswahl anzuzeigen.
+> Möchten Sie eine Liste aller Ihrer Personen sehen? Klicken Sie auf das Symbol **Selektionen** im linken Navigator-Bildschirm und suchen Sie nach "Alle Personen", um eine vorkonfigurierte Auswahl anzuzeigen.
 
 ## Platzhalter verwenden
 
 Verwenden Sie bei der Suche **%** als Platzhalter. Das Prozentzeichen (%) entspricht jeder Zeichenfolge mit 0 oder mehr Zeichen. Zum Beispiel: J%son entspricht Jackson, Johnson, Jason und Json.
 
-[!include[Use wildcard in search](includes/tip-search-wildcard.md)]
+## Schaltfläche Suchen verwenden
+
+Wenn Sie in der oberen Leiste auf die Schaltfläche **Suchen** klicken, wird die Ansicht [Suchen][1] geöffnet, in der Sie nach Daten in SuperOffice suchen können. Mit der Schaltfläche Suchen können Sie Datensätze [gemäß beliebigen Kriterien][6] aus Firmen, Personen, Projekten, Selektionen, Verkäufen, Produkten, Folgeaufgaben, Dokumenten und Anfragen suchen.
+
+![Klicken Sie auf die Schaltfläche Suchen in der oberen Leiste, um zur Ansicht Suchen zu gelangen -screenshot][img2]
+
+Wenn Sie die Suchfunktion verwenden, können Sie jede durchgeführte Suche als Selektion speichern.
 
 ## <a id="typical" />Verwenden Sie typische Suchanfragen als Ausgangspunkt
 
 Eine typische Suchanfrage ist eine vordefinierte Suche, die wir für Sie eingerichtet haben, damit Sie sehen können, nach was andere Benutzer normalerweise suchen. Jeder Datensatz in der Ansicht Suchen enthält eine Liste typischer Suchanfragen, die verwendet werden können.
 
-Eine typische Suchanfrage ist eine gute Möglichkeit, um mit der Suche nach Daten in SuperOffice CRM zu beginnen. Typische Suchanfragen finden Sie, indem Sie unterhalb der Datengruppe klicken, an der Sie interessiert sind. Typische Suchanfragen mit voreingestellten Suchkriterien können unverändert, modifiziert oder erweitert verwendet werden.
+Typische Suchanfragen finden Sie, indem Sie unterhalb der Datengruppe klicken, an der Sie interessiert sind. Typische Suchanfragen mit voreingestellten Suchkriterien können unverändert, modifiziert oder erweitert verwendet werden.
 
 ### Beispiel: Meine überfälligen Folgeaufgaben
 
@@ -103,8 +104,6 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage 
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-[Weiterlesen][6]
 
 ## <a id="search-to-selection" />Suche erstellen und als Selektion speichern
 
@@ -132,21 +131,22 @@ Sehen Sie sich dieses Video an oder führen Sie die folgenden Schritte aus, um z
 ## Zugehörige Inhalte
 
 * [Favoriten][4]
+* [Die Verlaufsliste][5]
 * [Suche erstellen und als Selektion speichern][7]
-* Erweitern Sie Ihre Suche mit der ODER-Funktion
+* [Erweitern Sie Ihre Suche mit der ODER-Funktion][1]
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: freetext-search.md
-[3]: using-fastsearcher.md
+[3]: in-navigator.md
 [4]: ../../learn/basics/fav.md
-[5]: using-history-list.md
-[6]: using-search-criteria.md
+[5]: ../../learn/basics/history.md
+[6]: search-criteria.md
 [7]: ../selection/learn/create/index.md
+[8]: in-dialogs.md
 
 <!-- Referenced images -->
-[img1]: media/search-find-fastsearcher.png
-[img2]: media/getstarted-search-find-findscreen.png
-[img3]: media/freetext-search-find.png
-[img4]: media/getstarted-document-fastsearcher.png
-[img5]: media/typical-search.png
+[img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png
+[img2]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
+[img3]: ../../../media/loc/en/search-options/freetext-search-find.png
+[img5]: ../../../media/loc/en/search-options/typical-search.png

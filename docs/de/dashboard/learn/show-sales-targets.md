@@ -87,7 +87,7 @@ Wenn Mit Ziel vergleichen überhaupt nicht sichtbar, müssen Sie sicherstellen, 
 
 <!-- Referenced links -->
 [1]: edit-tile.md
-[2]: ../../search-options/learn/using-search-criteria.md
+[2]: ../../search-options/learn/search-criteria.md
 [3]: ../../globalization-and-localization/learn/translate-fields.md
 [4]: ../../sale/learn/sales-targets/index.md
 [5]: create.md

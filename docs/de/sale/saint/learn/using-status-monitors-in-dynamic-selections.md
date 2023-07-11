@@ -16,6 +16,6 @@ Wenn Sie eine Lizenz für SAINT erworben haben, können Sie in Einstellungen und
 [!include[Requirement](includes/req-saint.md)]
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

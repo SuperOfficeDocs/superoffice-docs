@@ -55,7 +55,7 @@ Wenn der Import endet, werden zwei Listen angezeigt:
 > Verwenden Sie die Auswahl, wenn Sie importierte Akteure aus SuperOffice löschen möchten.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md
 [2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->

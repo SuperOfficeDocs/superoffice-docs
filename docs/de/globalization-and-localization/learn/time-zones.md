@@ -14,7 +14,7 @@ language: de
 SuperOffice CRM unterstützt Folgeaufgaben in unterschiedlichen Zeitzonen. Die Zeitzonenfunktion ist aktiviert, wenn im Kalender links unten ein Listenfeld für die Auswahl einer Zeitzone enthalten ist (Flagge und Land).
 
 > [!NOTE]
-> Die Verwendung von Zeitzonen muss in Einstellungen und Verwaltung pro Land aktiviert sein (unter **Optionen** &gt; **Zeitzonen**). Sie können auch zu **Einstellungen** wechseln, um den Zeitzonen-Selektor anzuzeigen und die Standardzeitzone einzustellen. Dort finden Sie weitere Informationen zur Einrichtung von Zeitzonen.
+> Die Verwendung von Zeitzonen muss in Einstellungen und Verwaltung pro Land aktiviert sein (unter **Optionen** > **Zeitzonen**). Sie können auch zu **Einstellungen** wechseln, um den Zeitzonen-Selektor anzuzeigen und die Standardzeitzone einzustellen. Dort finden Sie weitere Informationen zur Einrichtung von Zeitzonen.
 
 ## Wie werden Zeitzonen in SuperOffice CRM verwendet?
 
@@ -31,11 +31,19 @@ Die Zeitzonenfunktion berücksichtigt auch die Umstellung von Winter- und Sommer
 
 Zeitzonen werden im [Kalender][1] in einem Listenfeld und im [Dialogfeld für Folgeaufgaben][3] angezeigt. Dabei steht die Standardzeitzone der SuperOffice-Datenbank an erster Stelle und wird durch folgendes Symbol dargestellt: ![Symbol][img1].
 
-Die Zeitzonenliste ist nach Ländern sortiert. Ganz oben in der Liste stehen der Name des ausgewählten Landes und die zugehörige Flagge. Sie können die Zeitzonenliste auf verschiedene Weise aufrufen:
+Die Zeitzonenliste ist nach Ländern sortiert. Ganz oben in der Liste stehen der Name des ausgewählten Landes und die zugehörige Flagge.
 
-* Durch Verwendung des oberen Felds (mit dem ausgewählten Land und der Flagge) als Suchfeld: Sie können das Zeitzonenfeld auf dieselbe Art und Weise durchsuchen wie die Felder für die [Schnellsuche][2]; außerdem können Sie sowohl nach Ländern als auch nach Städten suchen, sofern die betreffende Stadt in den Zeitzoneninformationen aufgeführt ist. Wenn Sie zum Beispiel nicht die Zeitzone für Canberra wissen, suchen Sie nach Canberra und lassen sich die entsprechende Zeitzone in der Liste anzeigen.
+### Suche nach Land oder Flag
 
-* Durch Suchen nach einer bestimmten Zeitabweichung zur Ermittlung der Zeitzone: Wenn Sie beispielsweise +3 eingeben, werden alle Zeitzonen angezeigt, die drei Stunden nach der in SuperOffice CRM angegebenen Zeitzone liegen.
+Durch Verwendung des oberen Felds (mit dem ausgewählten Land und der Flagge) als Suchfeld: Sie können nach Ländern als auch nach Städten suchen, sofern die betreffende Stadt in den Zeitzoneninformationen aufgeführt ist. Wenn Sie zum Beispiel nicht die Zeitzone für Canberra wissen, suchen Sie nach Canberra und lassen sich die entsprechende Zeitzone in der Liste anzeigen.
+
+1. Positionieren Sie den Mauszeiger im Länderfeld.
+2. Geben Sie den Namen der Stadt oder des Landes ein, deren bzw. dessen Zeitzone Sie benötigen.
+3. Nachdem Sie die gewünschte Stadt oder das Land gefunden haben, klicken Sie auf das Objekt, um die erforderliche Zeitzone auszuwählen.
+
+### Suche nach Zeitabweichung
+
+Durch Suchen nach einer bestimmten Zeitabweichung zur Ermittlung der Zeitzone: Wenn Sie beispielsweise +3 eingeben, werden alle Zeitzonen angezeigt, die drei Stunden nach der in SuperOffice CRM angegebenen Zeitzone liegen.
 
 > [!NOTE]
 > Im Zeitzonen-Selektor werden die Namen von Regionen stets in ihrer englischen Fassung angezeigt; die Anzeige der Ländernamen ist hängt hingegen davon ab, welche Spracheinstellungen für SuperOffice CRM ausgewählt wurden. Vergessen Sie dies nicht, wenn Sie nach Ländern und Regionen suchen.
@@ -48,7 +56,6 @@ Die Zeitzonenliste ist nach Ländern sortiert. Ganz oben in der Liste stehen der
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
-[2]: ../../search-options/learn/using-fastsearcher.md
 [3]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->

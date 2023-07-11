@@ -35,7 +35,7 @@ Wenn Sie eine Option für **Auswählen aus** ausgewählt haben, wird unten ein L
 
 * Wenn Sie **Mitarbeiter** ausgewählt haben, wird eine Liste von Benutzergruppen Ihrer Organisation angezeigt. Sie können auch **Alle** auswählen, um alle Benutzer der Organisation anzuzeigen.
 
-* Wenn Sie **Projekt** ausgewählt haben, wird die Verlaufsliste von Projekten angezeigt. Sie können auch die [Schnellsuche][6] oder die [Verlaufsliste][5] verwenden.
+* Wenn Sie **Projekt** ausgewählt haben, wird die Verlaufsliste von Projekten angezeigt.
 
 * Wenn Sie **Ressource** gewählt haben, wird eine Liste von Ressourcen Ihrer Organisation angezeigt. Diese Liste wurde in Einstellungen und Verwaltung definiert. Wählen Sie **Alle**, um alle Ressourcen Ihrer Organisation anzuzeigen.
 
@@ -70,8 +70,6 @@ Schließt das Dialogfeld, ohne Änderungen zu speichern.
 [1]: ../create-view.md
 [2]: ../open.md
 [4]: ../create-follow-up.md
-[5]: ../../../search-options/learn/using-history-list.md
-[6]: ../../../search-options/learn/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/arrow-right.png

@@ -16,7 +16,7 @@ Auf der Registerkarte **Bild** können Sie ein Bild für das Projekt hinzufügen
 1. Öffnen Sie die Ansicht Projekt. Führen Sie einen der folgenden Schritte aus:
 
     * Klicken Sie auf die Schaltfläche **Projekt** im Navigator.
-    * Verwenden Sie die [Verlaufsliste][1] oder die [Schnellsuche][2].
+    * Verwenden Sie die [Verlaufsliste][1] oder die Navigatorsuche.
     * Doppelklicken Sie auf ein Projekt in einem Suchergebnis oder in der Ansicht Firma auf der Bereichsregisterkarte **Projekte**.
 
 2. Wählen Sie die Registerkarte **Bild** aus.
@@ -38,5 +38,4 @@ Auf der Registerkarte **Bild** können Sie ein Bild für das Projekt hinzufügen
     > Um ein aktives Projektbild zu entfernen, klicken Sie links von der Beschreibung auf **Löschen**.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-history-list.md
-[2]: ../../search-options/learn/using-fastsearcher.md
+[1]: ../../learn/basics/history.md

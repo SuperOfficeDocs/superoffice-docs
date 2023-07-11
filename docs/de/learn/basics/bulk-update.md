@@ -18,12 +18,12 @@ Mit dem Massenabgleich können Sie Werte in mehreren Datensätzen desselben Typs
 2. Selektionen: Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Massenabgleich**.
     oder
     Wählen Sie die abzugleichenden Datensätze aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **Massenabgleich...**.
-    Das Dialogfeld **Massenabgleich** wird geöffnet. Unten in diesem Dialogfeld werden der Datensatztyp und die Anzahl der abzugleichenden Datensätze angezeigt. Beispiel: Anzahl der Personen in Warteschlange für Massenabgleich: 7\.
+    Das Dialogfeld **Massenabgleich** wird geöffnet. Unten in diesem Dialogfeld werden der Datensatztyp und die Anzahl der abzugleichenden Datensätze angezeigt. Beispiel: Anzahl der Personen in Warteschlange für Massenabgleich: 7.
 
     > [!NOTE]
     > Wenn die Selektion Firmen und Personen enthält, gibt es zwei Registerkarten: **Firma** und **Person**.
 
-3. Wählen Sie in der Spalte **Feld** ein Feld aus, das abgeglichen werden soll. Sie können auch den [Namen in das Feld eingeben][1]. Während Sie jeden Buchstaben eingeben, werden in der folgenden Liste alle Übereinstimmungen angezeigt, die für die ausgewählten Datensätze relevant sind.
+3. Wählen Sie in der Spalte **Feld** ein Feld aus, das abgeglichen werden soll. Sie können auch den Namen in das Feld eingeben. Während Sie jeden Buchstaben eingeben, werden in der folgenden Liste alle Übereinstimmungen angezeigt, die für die ausgewählten Datensätze relevant sind.
 
 4. Wählen Sie in der Spalte **Aktion** eine Aktion aus. Welche Aktionen verfügbar sind, hängt vom Typ des Felds ab, das Sie im vorherigen Schritt ausgewählt haben. Beispiele:
 
@@ -91,7 +91,6 @@ Sie haben festgestellt, dass das Feld **Position** für Personen selten verwende
 Sie möchten alle „alten“ Projekte, die nicht als abgeschlossen gekennzeichnet sind, aufräumen. Erstellen Sie eine Selektion mit allen alten Projekten, beispielsweise allen Projekten, die vor mehr als 2 Jahren erstellt und im letzten Jahr nicht abgeglichen wurden. Stellen Sie mit **Massenabgleich** den Status **Abgeschlossen** bei diesen Projekten auf **Ja** ein.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-selected.png

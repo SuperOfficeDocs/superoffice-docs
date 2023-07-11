@@ -17,7 +17,7 @@ Die Arbeit mit statistischer Selektion ermöglicht Ihnen, manuell Selektionsmitg
 
 ## Was möchten Sie jetzt tun?
 
-* [Selektion erstellen][2] \- Lernprogramm
+* [Selektion erstellen][2] - Lernprogramm
 * [Mitglieder zu/von statischen Selektionen hinzufügen und entfernen][3]
 
 <!-- Referenced links -->

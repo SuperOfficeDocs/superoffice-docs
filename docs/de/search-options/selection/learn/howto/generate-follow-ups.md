@@ -28,7 +28,7 @@ Sie können eine Folgeaufgabe erstellen, die beispielsweise in der Aktivitätenl
 7. Wählen Sie im Feld **Projekt** das Projekt aus, das mit der Folgeaufgabe verknüpft werden soll. Führen Sie einen der folgenden Schritte aus:
 
     * Klicken Sie auf den Pfeil und wählen Sie von der Liste ein Projekt aus.
-    * Geben Sie den gesamten oder den Anfang des Projektnamens ein (siehe [Verlaufsliste][2] und [Schnellsuche][3]).
+    * Geben Sie den gesamten oder den Anfang des Projektnamens ein.
 
 8. Geben Sie im Feld **Priorität** an, welche Priorität für die Folgeaufgabe gelten soll. Klicken Sie auf den Pfeil, um eine Standard-Auswahlliste mit den Optionen für hohe, mittlere und niedrige Priorität aufzurufen.
 
@@ -54,7 +54,5 @@ Sie können eine Folgeaufgabe erstellen, die beispielsweise in der Aktivitätenl
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../../../learn/using-history-list.md
-[3]: ../../../learn/using-fastsearcher.md
 
 <!-- Referenced images -->

@@ -27,7 +27,7 @@ Die Hauptkomponente enthält die folgenden wichtigen Informationen über die Fol
 
 ### Typ
 
-Wenn Sie auf den Pfeil neben diesem Feld klicken (![Symbol][img2] ), erhalten Sie eine vordefinierte Liste, in der Sie einen Folgeaufgabentyp wie Besprechung oder ausgehender Anruf wählen können. Sie können auch nach Typen suchen, indem Sie in dieses Feld tippen. Hier können Sie auch die [Schnellsuche][12] verwenden.
+Wenn Sie auf den Pfeil neben diesem Feld klicken (![Symbol][img2] ), erhalten Sie eine vordefinierte Liste, in der Sie einen Folgeaufgabentyp wie Besprechung oder ausgehender Anruf wählen können. Sie können auch nach Typen suchen, indem Sie in dieses Feld tippen.
 
 > [!NOTE]
 > Das Feld **Typ** legt fest, um welchen Folgeaufgabentyp es sich handelt: Termin, Aufgabe oder Anruf.
@@ -169,7 +169,6 @@ Auf dieser Registerkarte finden Sie alle [benutzerdefinierten Felder][14], die i
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md
-[12]: ../../../search-options/learn/using-fastsearcher.md
 [13]: ../../../learn/getting-started/preferences.md
 [14]: ../../../custom-objects/learn/index.md
 

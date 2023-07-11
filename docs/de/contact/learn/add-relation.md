@@ -4,7 +4,7 @@ title: Beziehungen hinzufügen (Ansicht Person)
 description: Beziehungen hinzufügen (Ansicht Person)
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: person, Person
+keywords: Person, Beziehung
 so.topic: howto
 language: de
 ---
@@ -20,7 +20,7 @@ language: de
 
 1. Klicken Sie unter der Bereichsregisterkarte auf die Schaltfläche **Hinzufügen**.
 
-1. Wählen Sie im Dialogfeld **Beziehung** die gewünschten Firmen und Personen unter **Aktiv** und **Passiv** aus. Klicken Sie zu diesem Zweck entweder auf den Pfeil und wählen die gewünschte Firma oder Person im Listenfeld aus, oder geben Sie den vollständigen oder nur den Anfang des Namens ein. (Siehe [Schnellsuche][1] und [Verlaufsliste][2].)
+1. Wählen Sie im Dialogfeld **Beziehung** die gewünschten Firmen und Personen unter **Aktiv** und **Passiv** aus. Klicken Sie zu diesem Zweck entweder auf den Pfeil und wählen die gewünschte Firma oder Person im Listenfeld aus, oder geben Sie den vollständigen oder nur den Anfang des Namens ein.
 
 1. Geben Sie im Listenfeld **Beziehung** an, welche Beziehung zwischen Aktiv und Passiv besteht, wie zum Beispiel „ist Eigentümer von“. [!include[SM](../../learn/includes/are-defined-sm.md)]
 
@@ -38,8 +38,6 @@ language: de
 * [Beziehung löschen][3]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
 [3]: delete-relation.md
 
 <!-- Referenced images -->

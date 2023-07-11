@@ -3,7 +3,7 @@ uid: help-de-find-screen
 title: Ansicht Suchen
 description: Ansicht Suchen
 author: SuperOffice RnD
-so.date: 03.08.2023
+so.date: 05.25.2023
 keywords: Suchen, Suchen
 so.topic: howto
 language: de
@@ -18,9 +18,11 @@ Es gibt keine Einschränkungen dafür, was Sie in SuperOffice CRM suchen. Am End
 > [!NOTE]
 > Wenn Sie über eine Lizenz für den SuperOffice Integration Server verfügen, können Sie in vorhandenen Angeboten nach Produkten suchen. Wenn Sie über eine Lizenz für SuperOffice Service verfügen, können Sie nach Anfragen suchen.
 
-## In SuperOffice CRM nach Informationen suchen
+## Schritte
 
-1. Klicken Sie in der [oberen Leiste][1] ![Symbol][img2] auf die Schaltfläche **Suchen**
+1. Klicken Sie in der [oberen Leiste][1] auf die Schaltfläche **Suchen**.
+
+     ![Suchen][img2]
 
 2. Klicken Sie auf den Datensatztyp, nach dem Sie suchen möchten, oder klicken Sie auf **Typische Suchanfragen**, um eine Liste vordefinierter Suchanfragen anzuzeigen. Die Registerkarte **Kriterien** wird geöffnet.
 
@@ -57,7 +59,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine Suche mit der ODER-Fu
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
 
-## Mit Suchergebnissen arbeiten
+## <a id="results" />Mit Suchergebnissen arbeiten
 
 Nachdem Sie die oben beschriebenen Schritte befolgt haben und die Suchergebnisse auf der Registerkarte **Ergebnisse** angezeigt werden, sind verschiedene Optionen verfügbar:
 
@@ -88,11 +90,11 @@ Als Geschäftsführer der Vertriebsabteilung möchten Sie eine Präsentation fü
 
 2. Klicken Sie auf **Firma suchen**.
 
-3. Wenn die Registerkarte **Kriterien** Kriterien enthält, klicken Sie auf ![Symbol][img3], um einzelne zu löschen, oder klicken Sie auf **Alle löschen**, um sämtliche Kriterien zu löschen.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klicken Sie auf **Hinzufügen**.
 
-5. Wählen Sie in der angezeigten Liste das Feld aus, in dem Sie nach Informationen suchen möchten. Klicken Sie zuerst auf **Verkauf** ![Symbol][img5] und dann auf **Betrag**.
+5. [!include[Select field](includes/select-field.md)]. Klicken Sie zuerst auf **Verkauf** ![Symbol][img5] und dann auf **Betrag**.
 
 6. Klicken Sie im Listenfeld rechts neben **Betrag** auf den Pfeil (![Symbol][img1]) und wählen Sie die Option **>** (größer als) aus.
 
@@ -102,7 +104,7 @@ Als Geschäftsführer der Vertriebsabteilung möchten Sie eine Präsentation fü
 
 9. Klicken Sie auf **Hinzufügen**.
 
-10. Wählen Sie in der angezeigten Liste das Feld aus, in dem Sie nach Informationen suchen möchten. Klicken Sie zuerst auf **Verkauf** (![Symbol][img5]) und dann auf **Erfasstes Datum**.
+10. [!include[Select field](includes/select-field.md)]. Klicken Sie zuerst auf **Verkauf** (![Symbol][img5]) und dann auf **Erfasstes Datum**.
 
 11. Klicken Sie im zweiten Listenfeld auf den Pfeil ![Symbol][img1] und wählen Sie **Zwischen** aus.
 
@@ -122,20 +124,11 @@ Als Geschäftsführer der Vertriebsabteilung möchten Sie eine Präsentation fü
 
 19. Sie haben nun angegeben, dass Sie Firmen mit Verkäufen über einem bestimmten Betrag, innerhalb eines bestimmten Datumsbereichs und mit dem Status **Verkauft** suchen möchten.
 
-20. Klicken Sie auf die Schaltfläche **Suchen** unter der Registerkarte **Kriterien**.
+20. [!include[Click Find](includes/run-search.md)]
 
-21. Alle Ergebnisse, die den angegebenen Suchkriterien entsprechen, werden auf der Registerkarte **Ergebnisse** angezeigt.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > Wenn Sie zu viele oder zu wenig Treffer erzielen, können Sie die Suchkriterien anpassen, indem Sie in den verschiedenen Listenfeldern andere Werte auswählen.
-
-22. Anschließend können Sie entscheiden, für welchen Zweck Sie die Suchergebnisse verwenden möchten:
-
-    * Um einen Datensatz zu öffnen, müssen Sie auf diesen doppelklicken. Der Datensatz wird nun in der Ansicht Firma angezeigt.
-
-    * Zeigen Sie in der [Seitenleiste][4] eine Vorschau zu jeder Firma an. Wählen Sie **Vorschau** in der Liste oben in der Seitenleiste aus. Sie können dann auf jede Firma auf der Registerkarte **Ergebnisse** klicken, um eine Vorschau zu erhalten.
-
-    * Sie können eine Selektion mit diesen Kunden erstellen, indem Sie auf **Als Selektion speichern** klicken und wie unter [Selektionen erstellen][8] beschrieben vorgehen.
+21. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex2" />Beispiel 2: Nach Kunden in Dänemark suchen, für die Sie verantwortlich sind
@@ -146,11 +139,11 @@ Angenommen, Sie nehmen an einer Konferenz in Dänemark teil. Wenn Sie dorthin re
 
 2. Klicken Sie auf **Firma suchen**.
 
-3. Wenn die Registerkarte **Kriterien** Kriterien enthält, klicken Sie auf ![Symbol][img3], um einzelne zu löschen, oder klicken Sie auf **Alle löschen**, um sämtliche Kriterien zu löschen.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klicken Sie auf **Hinzufügen**.
 
-5. Wählen Sie in der angezeigten Liste das Feld aus, in dem Sie nach Informationen suchen möchten: Klicken Sie zuerst auf **Firma** (![Symbol][img6]) und anschließend auf **Land**.
+5. [!include[Select field](includes/select-field.md)]: Klicken Sie zuerst auf **Firma** (![Symbol][img6]) und anschließend auf **Land**.
 
 6. Wählen Sie im zweiten Listenfeld **Ist eines von** aus.
 
@@ -166,20 +159,11 @@ Angenommen, Sie nehmen an einer Konferenz in Dänemark teil. Wenn Sie dorthin re
 
 12. Sie haben nun angegeben, dass Sie Firmen in Dänemark suchen möchten, für die Sie verantwortlich sind.
 
-13. Klicken Sie auf die Schaltfläche **Suchen** unter der Registerkarte **Kriterien**.
+13. [!include[Click Find](includes/run-search.md)]
 
-14. Alle Ergebnisse, die den angegebenen Suchkriterien entsprechen, werden auf der Registerkarte **Ergebnisse** angezeigt.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > Wenn Sie zu viele oder zu wenig Treffer erzielen, können Sie die Suchkriterien anpassen, indem Sie in den verschiedenen Listenfeldern andere Werte auswählen.
-
-15. Anschließend können Sie entscheiden, für welchen Zweck Sie die Suchergebnisse verwenden möchten:
-
-    * Um einen Datensatz zu öffnen, müssen Sie auf diesen doppelklicken. Der Datensatz wird nun in der Ansicht Firma angezeigt.
-
-    * Zeigen Sie in der [Seitenleiste][4] eine Vorschau zu jeder Firma an. Wählen Sie **Vorschau** in der Liste oben in der Seitenleiste aus. Sie können dann auf jede Firma auf der Registerkarte **Ergebnisse** klicken, um eine Vorschau zu erhalten.
-
-    * Sie können eine Selektion mit diesen Kunden erstellen, indem Sie auf **Als Selektion speichern** klicken und wie unter [Selektionen erstellen][8] beschrieben vorgehen.
+14. [!include[Explore results](includes/use-results.md)]
 
 ## <a id="ex3" />Beispiel 3: Nach Verkäufen mit dem Status Verkauft suchen
 
@@ -189,26 +173,19 @@ Angenommen, Sie sind der Manager einer Firma und möchten herausfinden, welche V
 
 2. Klicken Sie auf **Verkauf suchen**.
 
-3. Wenn die Registerkarte **Kriterien** Kriterien enthält, klicken Sie auf ![Symbol][img3], um einzelne zu löschen, oder klicken Sie auf **Alle löschen**, um sämtliche Kriterien zu löschen.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klicken Sie auf **Hinzufügen**.
 
-5. Wählen Sie in der angezeigten Liste das Feld aus, in dem Sie nach Informationen suchen möchten: Klicken Sie zuerst auf **Verkauf** (![Symbol][img5]) und anschließend auf **Status**.
+5. [!include[Select field](includes/select-field.md)]: Klicken Sie zuerst auf **Verkauf** (![Symbol][img5]) und anschließend auf **Status**.
 
 6. Wählen Sie im zweiten Listenfeld **Ist eines von** aus.
 
 7. Klicken Sie auf das Feld **Objekte auswählen** rechts neben dem Feld **Ist eines von** und wählen Sie **Verkauft** aus. Sie haben nun angegeben, dass Sie abgeschlossene Verkäufe suchen möchten.
 
-8. Klicken Sie auf die Schaltfläche **Suchen** unter der Registerkarte **Kriterien**.
+8. [!include[Click Find](includes/run-search.md)]
 
-9. Alle Ergebnisse, die den angegebenen Suchkriterien entsprechen, werden auf der Registerkarte **Ergebnisse** angezeigt.
-
-10. Anschließend können Sie entscheiden, für welchen Zweck Sie die Suchergebnisse verwenden möchten:
-    * Um einen Datensatz zu öffnen, müssen Sie auf diesen doppelklicken. Der Datensatz wird nun in der Ansicht Verkauf angezeigt.
-
-    * Zeigen Sie in der [Seitenleiste][4] eine Vorschau zu jedem Verkauf an. Wählen Sie **Vorschau** in der Liste oben in der Seitenleiste aus. Sie können dann auf jeden Verkauf auf der Registerkarte **Ergebnisse** klicken, um eine Vorschau zu erhalten.
-
-    * Sie können eine Selektion mit diesen Verkäufen erstellen, indem Sie auf **Als Selektion speichern** klicken und wie unter [Selektionen erstellen][8] beschrieben vorgehen.
+9. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex4" />Beispiel 4: Nach Projekten suchen, an denen Sie im letzten Jahr beteiligt waren
@@ -219,11 +196,11 @@ Angenommen, Sie sind mit Ihrem Gehalt nicht mehr zufrieden und wollen um eine Ge
 
 2. Klicken Sie auf **Verkauf suchen**.
 
-3. Wenn die Registerkarte **Kriterien** Kriterien enthält, klicken Sie auf ![Symbol][img3], um einzelne zu löschen, oder klicken Sie auf **Alle löschen**, um sämtliche Kriterien zu löschen.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klicken Sie auf **Hinzufügen**.
 
-5. Wählen Sie in der angezeigten Liste das Feld aus, in dem Sie nach Informationen suchen möchten: Klicken Sie zuerst auf **Person** (![Symbol][img7]) und anschließend auf **Nachname**.
+5. [!include[Select field](includes/select-field.md)]: Klicken Sie zuerst auf **Person** (![Symbol][img7]) und anschließend auf **Nachname**.
 
 6. Wählen Sie im zweiten Listenfeld **Ist gleich** aus.
 
@@ -241,20 +218,11 @@ Angenommen, Sie sind mit Ihrem Gehalt nicht mehr zufrieden und wollen um eine Ge
 
 13. Sie haben nun angegeben, dass Sie Projekte ab einem bestimmten Datum bis heute finden möchten, an denen Sie beteiligt waren.
 
-14. Klicken Sie auf die Schaltfläche **Suchen** unter der Registerkarte **Kriterien**.
+14. [!include[Click Find](includes/run-search.md)]
 
-15. Alle Ergebnisse, die den angegebenen Suchkriterien entsprechen, werden auf der Registerkarte **Ergebnisse** angezeigt.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > Wenn Sie zu viele oder zu wenig Treffer erzielen, können Sie die Suchkriterien anpassen, indem Sie in den verschiedenen Listenfeldern andere Werte auswählen.
-
-16. Anschließend können Sie entscheiden, für welchen Zweck Sie die Suchergebnisse verwenden möchten:
-
-    * Um einen Datensatz zu öffnen, müssen Sie auf diesen doppelklicken. Der Datensatz wird nun in der Ansicht Projekt angezeigt.
-
-    * Zeigen Sie in der [Seitenleiste][4] eine Vorschau zu jedem Projekt an. Wählen Sie **Vorschau** in der Liste oben in der Seitenleiste aus. Sie können dann auf jedes Projekt auf der Registerkarte **Ergebnisse** klicken, um eine Vorschau zu erhalten.
-
-    * Sie können eine Selektion mit diesen Projekten erstellen, indem Sie auf **Als Selektion speichern** klicken und wie unter [Selektionen erstellen][8] beschrieben vorgehen.
+15. [!include[Explore results](includes/use-results.md)]
 
 ## <a id="ex5" />Beispiel 5: Nach ergriffenen Marketing-Initiativen suchen
 
@@ -264,11 +232,11 @@ Angenommen, Sie arbeiten als Geschäftsführer der Marketing-Abteilung, und Sie 
 
 2. Klicken Sie auf **Verkauf suchen**.
 
-3. Wenn die Registerkarte **Kriterien** Kriterien enthält, klicken Sie auf ![Symbol][img3], um einzelne zu löschen, oder klicken Sie auf **Alle löschen**, um sämtliche Kriterien zu löschen.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klicken Sie auf **Hinzufügen**.
 
-5. Wählen Sie in der angezeigten Liste das Feld aus, in dem Sie nach Informationen suchen möchten: Klicken Sie zuerst auf **Folgeaufgabe** (![Symbol][img9]) und anschließend auf **Zweck**.
+5. [!include[Select field](includes/select-field.md)]: Klicken Sie zuerst auf **Folgeaufgabe** (![Symbol][img9]) und anschließend auf **Zweck**.
 
 6. Wählen Sie im zweiten Listenfeld **Ist eines von** aus.
 
@@ -278,7 +246,7 @@ Angenommen, Sie arbeiten als Geschäftsführer der Marketing-Abteilung, und Sie 
 
 9. Klicken Sie auf **Hinzufügen**.
 
-10. Wählen Sie in der angezeigten Liste das Feld aus, in dem Sie nach Informationen suchen möchten. Klicken Sie zuerst auf **Folgeaufgabe** (![Symbol][img9]) und anschließend auf **Enddatum**.
+10. [!include[Select field](includes/select-field.md)]. Klicken Sie zuerst auf **Folgeaufgabe** (![Symbol][img9]) und anschließend auf **Enddatum**.
 
 11. Wählen Sie im zweiten Listenfeld **vorherige/r/s** aus.
 
@@ -290,24 +258,15 @@ Angenommen, Sie arbeiten als Geschäftsführer der Marketing-Abteilung, und Sie 
 
 15. Klicken Sie auf **Hinzufügen**.
 
-16. Wählen Sie in der angezeigten Liste das Feld aus, in dem Sie nach Informationen suchen möchten. Klicken Sie zuerst auf **Folgeaufgabe** (![Symbol][img9]) und anschließend auf **Abgeschlossen**.
+16. [!include[Select field](includes/select-field.md)]. Klicken Sie zuerst auf **Folgeaufgabe** (![Symbol][img9]) und anschließend auf **Abgeschlossen**.
 
 17. Aktivieren Sie das Kontrollkästchen **Ja**. Sie haben nun festgelegt, dass Sie nach Folgeaufgaben suchen möchten, die als **Abgeschlossen** angegeben sind.
 
-18. Klicken Sie auf die Schaltfläche **Suchen** unter der Registerkarte **Kriterien**.
+18. [!include[Click Find](includes/run-search.md)]
 
-19. Alle Ergebnisse, die den angegebenen Suchkriterien entsprechen, werden auf der Registerkarte **Ergebnisse** angezeigt.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > Wenn Sie zu viele oder zu wenig Treffer erzielen, können Sie die Suchkriterien anpassen, indem Sie in den verschiedenen Listenfeldern andere Werte auswählen.
-
-20. Anschließend können Sie entscheiden, für welchen Zweck Sie die Suchergebnisse verwenden möchten:
-
-    * Um einen Datensatz zu öffnen, müssen Sie auf diesen doppelklicken. Der Datensatz wird anschließend in der Ansicht Firma auf der Bereichsregisterkarte **Aktivitäten** angezeigt.
-
-    * Zeigen Sie in der [Seitenleiste][4] eine Vorschau jeder Folgeaufgabe an. Wählen Sie **Vorschau** in der Liste oben in der Seitenleiste aus. Sie können dann auf jede Folgeaufgabe auf der Registerkarte **Ergebnisse** klicken, um eine Vorschau zu erhalten.
-
-    * Sie können eine Selektion mit diesen Folgeaufgaben erstellen, indem Sie auf **Als Selektion speichern** klicken und wie unter [Selektionen erstellen][8] beschrieben vorgehen.
+19. [!include[Explore results](includes/use-results.md)]
 
 ## Was möchten Sie jetzt tun?
 
@@ -320,17 +279,17 @@ Angenommen, Sie arbeiten als Geschäftsführer der Marketing-Abteilung, und Sie 
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/getting-started/main-screen/side-panel.md
-[2]: using-fastsearcher.md
-[3]: using-search-criteria.md
+[2]: in-navigator.md
+[3]: search-criteria.md
 [5]: freetext-search.md
-[6]: using-history-list.md
+[6]: ../../learn/basics/history.md
 [7]: ../selection/learn/howto/index.md
 [8]: ../selection/learn/create/index.md
 [9]: ../selection/learn/update/add-remove-members-static.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../media/find.png
+[img2]: ../../../media/loc/en/learn/find.png
 [img3]: ../../../../common/icons/delete-circle-red.png
 [img4]: ../../../media/icons/criteria-move.png
 [img5]: ../../../../common/icons/singlecolour/sale.png
@@ -338,4 +297,4 @@ Angenommen, Sie arbeiten als Geschäftsführer der Marketing-Abteilung, und Sie 
 [img7]: ../../../../common/icons/singlecolour/person.png
 [img8]: ../../../../common/icons/singlecolour/project.png
 [img9]: ../../../../common/icons/singlecolour/appointment.png
-[img10]: media/task-menu.png
+[img10]: ../../../media/loc/en/search-options/task-menu.png
