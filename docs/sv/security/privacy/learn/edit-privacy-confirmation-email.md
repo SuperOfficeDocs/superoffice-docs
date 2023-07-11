@@ -6,8 +6,9 @@ author: Bergfrid Dias
 so.date: 03.23.2023
 keywords: GDPR, samtycke, e-post, mall
 so.topic: howto
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+
 language: sv
 ---
 

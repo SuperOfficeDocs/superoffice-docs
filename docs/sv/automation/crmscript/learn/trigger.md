@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: CRMScript, utlösare
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: sv
 ---
 

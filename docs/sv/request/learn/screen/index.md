@@ -6,8 +6,8 @@ author: Hanne Gunnarsson
 so.date: 03.29.2023
 keywords: ärende
 so.topic: reference
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: sv
 ---
 

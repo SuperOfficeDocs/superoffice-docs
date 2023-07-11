@@ -6,8 +6,8 @@ author: Bergfrid Dias
 so.date: 03.14.2023
 keywords: ärende, ärende, tjänst
 so.topic: concept
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: sv
 ---
 

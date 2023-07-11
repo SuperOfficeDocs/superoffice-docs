@@ -8,7 +8,8 @@ keywords: administrera användare, roll, anonyma
 so.topic: howto
 language: sv
 so.envir: onsite
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Redigera behörigheter för anonyma användare (lokalt)

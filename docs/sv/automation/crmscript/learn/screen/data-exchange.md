@@ -6,8 +6,9 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Tjänst, Data Exchange
 so.topic: reference
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+
 language: sv
 so.envir: onsite
 ---

@@ -6,8 +6,9 @@ author: SuperOffice RnD
 so.date: 01.11.2023
 keywords: Inställningar och underhåll
 so.topic: help
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+
 language: sv
 ---
 

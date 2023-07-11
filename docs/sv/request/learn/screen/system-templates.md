@@ -6,8 +6,9 @@ author: Hanne Gunnarsson
 so.date: 03.29.2023
 keywords: Inställningar och underhåll
 so.topic: reference
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+
 language: sv
 ---
 

@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 03.02.2023
 keywords: CRM, logga in, logga in, lösenord
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice CRM
+so.audience: person
+so.audience.tooltip: SuperOffice CRM
 language: sv
 ---
 

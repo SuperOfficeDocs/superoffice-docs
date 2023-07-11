@@ -6,7 +6,8 @@ author: Bergfrid
 so.date: 03.15.2023
 keywords: user, våra företag
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: sv
 so.client: web
 ---

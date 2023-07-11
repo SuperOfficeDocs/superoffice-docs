@@ -6,7 +6,8 @@ author: Bergfrid Dias
 so.date: 02.21.2023
 keywords: admin, Inställningar och underhåll
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: sv
 ---
 # Översikt

@@ -7,7 +7,7 @@ so.date: 12.14.2022
 keywords: försäljning, sidopanel, selection
 so.topic: howto
 so.version: 10
-so.lang: en
+language: sv
 ---
 
 # Så här använder du sidopanelen effektivt för försäljning
