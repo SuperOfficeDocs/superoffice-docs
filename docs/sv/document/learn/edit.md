@@ -93,4 +93,4 @@ Om du dubbelklickar på ett dokument och ingenting händer, kan du testa att hö
 [3]: screen/index.md
 
 <!-- Referenced images -->
-[img1]: media/upload.png
+[img1]: ../../../media/loc/en/document/upload.png

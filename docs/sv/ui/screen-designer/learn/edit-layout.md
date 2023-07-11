@@ -80,7 +80,7 @@ Titta på den här videon och ta reda på hur du använder skärmdesignern för 
 
 Rutor med streckade linjer i layouten visar var du kan placera ett fält:
 
-![Rutor med fasta linjer -skärmdump](media/screendesigner-field-place.png)
+![Rutor med fasta linjer -screenshot][img6]
 
 Nedan hittar du mer detaljerade beskrivningar av de olika avsnitten och funktionerna.
 
@@ -103,7 +103,7 @@ I avsnittet **Fält** hittar du alla tillgängliga datafält för den valda skä
 
 I avsnittet **Objekt** kan du lägga till olika icke-data-objekt såsom etiketter, avdelare, länkar och knappar.
 
-## <a id="settings"/>nställningar
+## <a id="settings"/>Inställningar
 
 Gör fälten mer synliga genom att ändra fonten till fetstil och stor text. Gör plats för fler fält genom att använda en mindre font. Spara skärmyta genom att dölja etiketter.
 
@@ -162,4 +162,5 @@ Om du behöver återgå till en tidigare version av skärmen, kommer du åt föl
 [img2]: ../../../../../common/icons/delete-circle-red.png
 [img4]: ../../../../media/icons/criteria-move.png
 [img5]: ../../../../../common/icons/add-icon.png
-[img3]: media/edit-the-screen-layout-of-companies-and-contacts.png
+[img3]: ../../../../media/loc/en/ui/edit-the-screen-layout-of-companies-and-contacts.png
+[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png

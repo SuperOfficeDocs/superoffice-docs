@@ -58,4 +58,4 @@ Du kan förbereda ett e-postmeddelande från både fönstret Kontakt och fönstr
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/email-send-email.png
+[img2]: ../../../media/loc/en/contact/email-send-email.png

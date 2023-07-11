@@ -44,5 +44,5 @@ Om den bifogade filen är den enda delen av e-postmeddelandet som du vill behål
 [7]: manage-senders.md
 
 <!-- Referenced images -->
-[img1]: media/attachment-save.png
+[img1]: ../../../../media/loc/en/email/attachment-save.png
 [img2]: ../../../../media/icons/gmail-link/btn-archive-attachment.png

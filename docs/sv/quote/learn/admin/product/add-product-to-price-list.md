@@ -83,4 +83,4 @@ För att ta reda på vilka fält som visas, gå till fliken **Inställningar** o
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/search-icon-black.png
-[img2]: media/add-products-to-price-list.png
+[img2]: ../../../../../media/loc/en/quote/add-products-to-price-list.png

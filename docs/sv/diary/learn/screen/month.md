@@ -23,4 +23,4 @@ Om du vill öppna fliken **Dag** för en viss dag klickar du på sidhuvudet/datu
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/month-plan.bmp
+[img1]: ../../../../media/loc/en/diary/month-plan.bmp

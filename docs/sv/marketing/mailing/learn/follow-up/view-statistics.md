@@ -78,4 +78,4 @@ När ditt utskick är klart kan du se hur vilket resultat ditt utskick gav på f
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
-[img2]: media/summary-tab.png
+[img2]: ../../../../../media/loc/en/marketing/summary-tab.png

@@ -102,6 +102,6 @@ För att ta bort en måltyp, klicka på Målinställningar och sedan på knappen
 
 <!-- Referenced images -->
 [img5]: ../../../../../common/icons/cog-wheel.png
-[img1]: media/user-targets-new-target-type.png
-[img2]: media/user-targets-add-groups-users.png
-[img3]: media/user-targets-filter-type.png
+[img1]: ../../../../media/loc/en/sale/user-targets-new-target-type.png
+[img2]: ../../../../media/loc/en/sale/user-targets-add-groups-users.png
+[img3]: ../../../../media/loc/en/sale/user-targets-filter-type.png

@@ -37,4 +37,4 @@ Om du inte kan lösa problemet via chatten kan du skapa ett ärende som hanteras
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/chat-create-request.png
+[img2]: ../../../media/loc/en/chat/chat-create-request.png

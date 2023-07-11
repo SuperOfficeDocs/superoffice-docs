@@ -49,4 +49,4 @@ När du har skickat ett testutskick måste du nollställa räknarna för länkar
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
-[img2]: media/test-mailing.png
+[img2]: ../../../../../media/loc/en/marketing/test-mailing.png

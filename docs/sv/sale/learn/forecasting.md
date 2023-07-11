@@ -110,12 +110,12 @@ Du har nu skapat en lista som innehåller all öppen försäljning värd över 5
 [7]:  ../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: media/my-forecast.png
-[img2]: media/big-numbers.png
-[img3]: media/my-upcoming-sales.png
-[img4]: media/my-activity-pace.png
-[img5]: media/sales-ytd.png
-[img6]: media/sales-report.png
-[img7]: media/typical-search.png
-[img8]: media/find-screen.png
-[img9]: media/add-search-criteria.png
+[img1]: ../../../media/loc/en/sale/my-forecast.png
+[img2]: ../../../media/loc/en/sale/big-numbers.png
+[img3]: ../../../media/loc/en/sale/my-upcoming-sales.png
+[img4]: ../../../media/loc/en/sale/my-activity-pace.png
+[img5]: ../../../media/loc/en/sale/sales-ytd.png
+[img6]: ../../../media/loc/en/sale/sales-report.png
+[img7]: ../../../media/loc/en/sale/typical-search.png
+[img8]: ../../../media/loc/en/sale/find-screen.png
+[img9]: ../../../media/loc/en/sale/add-search-criteria.png

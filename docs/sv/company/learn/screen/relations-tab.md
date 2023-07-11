@@ -37,4 +37,4 @@ Dubbelklicka på en relationsrad för att öppna dialogrutan **Relation**, som i
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.bmp
-[img2]: media/relations-detail.bmp
+[img2]: ../../../../media/loc/en/company/relations-detail.bmp

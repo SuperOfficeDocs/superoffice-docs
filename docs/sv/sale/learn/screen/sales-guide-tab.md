@@ -56,10 +56,10 @@ En säljguide där alla händelser och dokument för alla faser visas:
 [1]: ../sales-guide/working-with-sales-guide.md
 
 <!-- Referenced images -->
-[img1]: media/completed-sale-stage.bmp
-[img2]: media/current-sale-stage.bmp
-[img3]: media/future-sale-stage.bmp
-[img4]: media/create-button.bmp
-[img5]: media/right-click.bmp
-[img6]: media/activities-current-stage.bmp
-[img7]: media/activities-all-stages.bmp
+[img1]: ../../../../media/loc/en/sale/completed-sale-stage.bmp
+[img2]: ../../../../media/loc/en/sale/current-sale-stage.bmp
+[img3]: ../../../../media/loc/en/sale/future-sale-stage.bmp
+[img4]: ../../../../media/loc/en/sale/create-button.bmp
+[img5]: ../../../../media/loc/en/sale/right-click.bmp
+[img6]: ../../../../media/loc/en/sale/activities-current-stage.bmp
+[img7]: ../../../../media/loc/en/sale/activities-all-stages.bmp

@@ -22,4 +22,4 @@ Om du inte hittar kontakten i SuperOffice kan du skapa en ny kontakt och nytt f√
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/chat-add-new-to-contact.png
+[img1]: ../../../media/loc/en/chat/chat-add-new-to-contact.png

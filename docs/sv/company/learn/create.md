@@ -96,5 +96,5 @@ Om du försöker lägga in ett företag som liknar ett företag som redan finns 
 [3]: ../../learn/getting-started/preferences.md
 
 <!-- Referenced images -->
-[img1]: media/new-company.bmp
-[img2]: media/interests.bmp
+[img1]: ../../../media/loc/en/company/new-company.bmp
+[img2]: ../../../media/loc/en/company/interests.bmp

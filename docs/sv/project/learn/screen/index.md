@@ -45,4 +45,4 @@ Administratören kan [lägga till och anpassa projektguider][3] åt dig.
 [8]: ../../../request/learn/index.md
 
 <!-- Referenced images -->
-[img1]: media/project-guide-create.bmp
+[img1]: ../../../../media/loc/en/project/project-guide-create.bmp

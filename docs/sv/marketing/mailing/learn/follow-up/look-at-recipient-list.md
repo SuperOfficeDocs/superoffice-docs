@@ -44,7 +44,7 @@ Efter att utskicket skickats samlar SuperOffice Marknadsföring in data om statu
 
 Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice skickar ditt utskick till mottagarna. Status ändras till **Skickat** när det är klart.
 
-## Filter
+## <a id="filters" />Filter
 
 * **Skickat**: Aktivera detta filter om du vill visa alla mottagare som utskicket har skickats till.
 
@@ -67,7 +67,8 @@ Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice s
 
 Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice skickar ditt utskick till mottagarna. Status ändras till **Skickat** när det är klart.
 
-## Lägga till mottagare till urval eller projekt
+<!-- markdownlint-disable-next-line MD013 -->
+## <a id="add-recipients-to-selections-or-projects" />Lägga till mottagare till urval eller projekt
 
 Med hjälp av ![ikon][img2] menyknappen kan du lägga till mottagare och klickare i ett urval eller projekt.
 
@@ -94,4 +95,4 @@ Med hjälp av ![ikon][img2] menyknappen kan du lägga till mottagare och klickar
 [img1]: ../../../../../media/icons/arrow-right.png
 [img2]: ../../../../../media/icons/btn-menu.png
 [img3]: ../../../../../../common/icons/nav-contact.png
-[img4]: media/recipients-tab-status.png
+[img4]: ../../../../../media/loc/en/marketing/recipients-tab-status.png

@@ -32,4 +32,4 @@ Dina kunder kommer åt FAQ-artiklarna via kundcentret (webbportalen) utan att be
 [2]: config.md
 
 <!-- Referenced images -->
-[img1]: media/set-up-a-faq.png
+[img1]: ../../../media/loc/en/customer-center/set-up-a-faq.png

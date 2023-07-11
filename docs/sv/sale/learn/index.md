@@ -83,6 +83,8 @@ Den här fliken innehåller fält som särskilt fokuserar på de finansiella det
 
 ### Fliken Länkar
 
+![The More tab (Sale) -screenshot][img6]
+
 Här kan du lägga till länkar som är relevanta för den försäljning du arbetar med, till exempel URL-adresser, projekt, övrig försäljning, händelser och dokument. Om du till exempel ska ha möte med ett företag som du redan har kommunicerat med, kan du lägga till länkar till dokument som du redan har skapat för företaget.
 
 [!include[How to add links](../../learn/includes/howto-add-links.md)]
@@ -127,8 +129,9 @@ För att ta bort en länk, gå till fliken **Länkar**, klicka på **Redigera**,
 [9]: stages.md
 
 <!-- Referenced images -->
-[img1]: media/user-diary-sales.png
+[img1]: ../../../media/loc/en/sale/user-diary-sales.png
 [img2]: ../../../media/icons/arrow-left.png
-[img3]: media/55-chap7-sale-new-details.bmp
+[img3]: ../../../media/loc/en/sale/sale-details.png
 [img4]: ../../../media/icons/arrow-right.png
-[img5]: media/54-chap7-sale-new.bmp
+[img5]: ../../../media/loc/en/sale/sale-card.png
+[img6]: ../../../media/loc/en/sale/sale-more.png

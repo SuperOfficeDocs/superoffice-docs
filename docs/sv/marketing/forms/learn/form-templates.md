@@ -50,4 +50,4 @@ language: sv
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/btn-add.png
-[img3]: media/form-template-edit-overview.png
+[img3]: ../../../../media/loc/en/marketing/form-template-edit-overview.png

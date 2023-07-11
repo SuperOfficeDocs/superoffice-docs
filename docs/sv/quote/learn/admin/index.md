@@ -62,4 +62,4 @@ I fönstret **Offert/Synk**-kan du administrera kopplingar och inställningar f�
 [8]: product/select-product-image.md
 
 <!-- Referenced images -->
-[img1]: media/quote-management.png
+[img1]: ../../../../media/loc/en/quote/quote-management.png

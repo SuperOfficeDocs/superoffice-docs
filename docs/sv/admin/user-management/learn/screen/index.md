@@ -108,4 +108,4 @@ På fliken **Användargrupper** i fönstret Användare får du en översikt öve
 [11]: ../other-users.md
 
 <!-- Referenced images -->
-[img1]: media/admin-users-overview.png
+[img1]: ../../../../../media/loc/en/admin/admin-users-overview.png

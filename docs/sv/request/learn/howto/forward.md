@@ -60,5 +60,5 @@ I en ärendelista kan du vidarebefordra flera ärenden åt gången.
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../../common/icons/attachments-theme.png
-[img3]: media/forward-a-request.png
+[img3]: ../../../../media/loc/en/request/forward-a-request.png
 [img4]: ../../../../../common/icons/forward-icon.png

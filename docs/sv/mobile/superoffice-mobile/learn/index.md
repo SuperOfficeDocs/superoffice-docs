@@ -78,4 +78,4 @@ I vår Mobile CRM-app har du tillgång till alla ärenden och kan svara eller om
 [7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
 <!-- Referenced images -->
-[img1]: media/mobile-crm-gif-prev-02.gif
+[img1]: ../../../../media/loc/en/mobile/mobile-crm-gif-prev-02.gif

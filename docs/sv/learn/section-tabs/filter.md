@@ -128,7 +128,7 @@ Klicka på ![ikon][img2] och **Återställ** för att återställa filtret.
 [img2]: ../../../../common/icons/filter-icon.png
 [img3]: ../../../media/icons/filter-column.png
 
-[img11]: media/archives-enable-filter.png
-[img12]: media/getstarted-archives-filteron.png
-[img13]: media/getstarted-archives-filter-ownersetting.png
-[img14]: media/getstarted-archives-filter-owner.png
+[img11]: ../../../media/loc/en/learn/archives-enable-filter.png
+[img12]: ../../../media/loc/en/learn/getstarted-archives-filteron.png
+[img13]: ../../../media/loc/en/learn/getstarted-archives-filter-ownersetting.png
+[img14]: ../../../media/loc/en/learn/getstarted-archives-filter-owner.png

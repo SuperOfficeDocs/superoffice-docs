@@ -21,4 +21,4 @@ Om [tidszoner][1] är aktiverade kan du byta tidszon längst ner till vänster.
 [1]: ../../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
-[img1]: media/day-plan.bmp
+[img1]: ../../../../media/loc/en/diary/day-plan.bmp

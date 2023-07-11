@@ -47,4 +47,4 @@ Följande knappar visas i verktygsfältet i Microsoft Outlook eller Lotus Notes:
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/archive-to-superoffice-crm.png
 [img2]: ../../../../media/icons/mail-link/search-for-sender-in-superoffice-crm.png
-[img3]: media/superoffice-button.png
+[img3]: ../../../../media/loc/en/email/superoffice-button.png

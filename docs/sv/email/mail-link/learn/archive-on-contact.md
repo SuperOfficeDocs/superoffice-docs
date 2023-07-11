@@ -59,4 +59,4 @@ Du kan arkivera ett e-postmeddelande (inklusive eventuella bilagor) i inkorgen u
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: media/email-maillink-archive-email.png
+[img1]: ../../../../media/loc/en/email/email-maillink-archive-email.png

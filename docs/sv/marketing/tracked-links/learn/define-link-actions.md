@@ -26,8 +26,8 @@ I SuperOffice Marknadsföring kan du lägga till åtgärder för dina länkar. D
 | Svar | Lägg till landningssida eller återkopplingstext. |
 | Konfigurera fält | Lägg till ett värde till ett extrafält för kundkontakter |
 | Intressen | Uppdatera intressen. |
-| Urval/projekt] | Lägga till eller ta bort kontakt från urval eller projekt. |
-| Uppföljning] | Skapa en uppföljning (uppgift eller bokning) i SuperOffice CRM. |
+| Urval/projekt | Lägga till eller ta bort kontakt från urval eller projekt. |
+| Uppföljning | Skapa en uppföljning (uppgift eller bokning) i SuperOffice CRM. |
 | Ärende | Skapa ett nytt ärende. |
 | Skript | Köra ett skript. |
 
@@ -94,7 +94,7 @@ På fliken **Uppföljning** kan du ange att ett länkklick ska generera uppgifte
 
 ## Ärende
 
-På fliken **Ärende** kan du ange att ett ärende ska skapas i SuperOffice Service för kontakter som klickar på en länk.md)]
+På fliken **Ärende** kan du ange att ett ärende ska skapas i SuperOffice Service för kontakter som klickar på en länk.
 
 1. **Skapa ett nytt ärende**: Kryssa här om du vill registrera ett nytt ärende när kunden klickar på länken.
 2. **Titel**: Ange önskad titel på det nya ärendet.
@@ -135,4 +135,4 @@ Du kan använda den information du har samlat in i detta utskick på flera olika
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png
 [img2]: ../../../../../common/icons/pref-diary.png
-[img3]: media/link-properties-follow-up.png
+[img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png

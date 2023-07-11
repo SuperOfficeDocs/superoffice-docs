@@ -279,4 +279,4 @@ Genom att slutföra de tre stegen har du tagit viktiga steg mot GDPR-efterlevnad
 [6]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
-[img1]: media/privacy.png
+[img1]: ../../../../media/loc/en/security/privacy.png

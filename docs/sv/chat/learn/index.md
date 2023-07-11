@@ -39,4 +39,4 @@ Handläggarna kommer åt chatten via navigatorn i både SuperOffice CRM och Supe
 [9]: screen/index.md
 
 <!-- Referenced images -->
-[img1]: media/10-chat-mainpage.png
+[img1]: ../../../media/loc/en/chat/10-chat-mainpage.png

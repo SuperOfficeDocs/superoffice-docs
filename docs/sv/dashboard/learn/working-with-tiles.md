@@ -74,4 +74,4 @@ Klicka på ![ikon][img1] i sidhuvudet för en figur för att få tillgång till 
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/context-menu.png
-[img2]: media/10-drill-down.gif
+[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif

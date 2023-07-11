@@ -43,4 +43,4 @@ Det kan hända att du vill kopiera ett befintligt företag till ett nytt företa
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img3]: media/copy-company.bmp
+[img3]: ../../../media/loc/en/company/copy-company.bmp

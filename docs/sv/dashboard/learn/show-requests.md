@@ -76,4 +76,4 @@ En lista över ärenden som ingen har tilldelats ansvar för. Om du vill [ta ans
 [7]: add-tile.md
 
 <!-- Referenced images -->
-[img1]: ../../request/learn/howto/media/service-dashboard.png
+[img1]: ../../../media/loc/en/request/service-dashboard.png

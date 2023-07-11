@@ -89,4 +89,4 @@ Google Analytics-funktionen i SuperOffice Marknadsföring identifierar dina utsk
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/btn-add.png
 [img3]: ../../../../../common/icons/folder.png
-[img4]: media/link-properties.png
+[img4]: ../../../../media/loc/en/marketing/link-properties.png

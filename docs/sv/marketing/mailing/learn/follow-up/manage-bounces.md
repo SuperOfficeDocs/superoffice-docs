@@ -125,4 +125,4 @@ Använd det här alternativet för att ange en kontakt som tidigare anställd.
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/warning.png
-[img2]: media/handle-bounced-emails.png
+[img2]: ../../../../../media/loc/en/marketing/handle-bounced-emails.png

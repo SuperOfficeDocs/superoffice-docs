@@ -23,4 +23,4 @@ Om du vill öppna fliken **Dag** för en viss dag klickar du på rubriken för d
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: media/week-plan.bmp
+[img2]: ../../../../media/loc/en/diary/week-plan.bmp

@@ -80,4 +80,4 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 [23]: video-meetings.md
 
 <!-- Referenced images -->
-[img1]: media/diary.png
+[img1]: ../../../media/loc/en/diary/diary.png

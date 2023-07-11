@@ -22,7 +22,7 @@ En roll beskriver två saker:
 
     Tillgänglighet anges med hjälp av behörigheter: inga, läs, skapa, uppdatera och ta bort.
 
-* Vilka **funktioner**) (till exempel administratörsåtkomst under Inställningar och underhåll, tillåta massuppdatering, godkännande, massbrevsmall, exporturval och publicering) som ska vara tillgängliga för användare med den här rollen.
+* Vilka **funktioner** (till exempel administratörsåtkomst under Inställningar och underhåll, tillåta massuppdatering, godkännande, massbrevsmall, exporturval och publicering) som ska vara tillgängliga för användare med den här rollen.
 
 ## Fördefinierade roller
 
@@ -85,4 +85,4 @@ Du kan till exempel bestämma om en person ska kunna ta bort, uppdatera, skapa e
 [6]: ../role/set-data-rights-for-role.md
 
 <!-- Referenced images -->
-[img1]: media/manage-user-levels.png
+[img1]: ../../../../../media/loc/en/admin/manage-user-levels.png

@@ -58,4 +58,4 @@ När du har valt en ERP-koppling, kan du fortsätta att skapa en offert.
 [8]: create-order.md
 
 <!-- Referenced images -->
-[img1]: media/quote-create-send.gif
+[img1]: ../../../media/loc/en/quote/quote-create-send.gif

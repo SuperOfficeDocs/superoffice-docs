@@ -49,4 +49,4 @@ Du kan kontrollera resultatet av dina utskick genom att logga in på ditt Google
 [2]: index.md#google
 
 <!-- Referenced images -->
-[img1]: media/google-analytics-tag.png
+[img1]: ../../../../media/loc/en/marketing/google-analytics-tag.png

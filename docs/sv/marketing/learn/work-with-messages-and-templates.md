@@ -130,4 +130,4 @@ Förutom mallarna som skapats av dig och dina kolleger, har du tillgång till en
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/btn-add.png
-[img3]: media/work-with-templates.png
+[img3]: ../../../media/loc/en/marketing/work-with-templates.png

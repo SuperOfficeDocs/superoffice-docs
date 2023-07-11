@@ -41,4 +41,4 @@ Om du inte hittar kunden i databasen i SuperOffice CRM kan du [skapa en ny konta
 [1]: create-contact.md
 
 <!-- Referenced images -->
-[img1]: media/chat-link-to-contact.png
+[img1]: ../../../media/loc/en/chat/chat-link-to-contact.png

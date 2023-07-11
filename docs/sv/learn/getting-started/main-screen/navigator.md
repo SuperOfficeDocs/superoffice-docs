@@ -112,7 +112,7 @@ Om du håller muspekaren över en post i någon av listorna visas en knappbeskri
 [49]: ../../../sale/saint/learn/index.md
 
 <!-- Referenced images -->
-[img2]: ../media/navigator-preview-sales.png
+[img2]: ../../../../media/loc/en/learn/navigator-preview-sales.png
 [img3]: ../../../../../common/icons/nav-dashboard-h32.png
 [img4]: ../../../../../common/icons/nav-company-h32.png
 [img5]: ../../../../../common/icons/nav-contact-h32.png

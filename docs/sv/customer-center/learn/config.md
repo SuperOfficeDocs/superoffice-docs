@@ -67,5 +67,5 @@ Om kundcentret är flerspråkigt kan du välja alternativ (till exempel välkoms
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-admin-custcenter-active.png
-[img2]: media/customer-centre-chat-with-agents.jpg
-[img3]: media/config-cust-centre.png
+[img2]: ../../../media/loc/en/customer-center/customer-centre-chat-with-agents.jpg
+[img3]: ../../../media/loc/en/customer-center/config-cust-centre.png

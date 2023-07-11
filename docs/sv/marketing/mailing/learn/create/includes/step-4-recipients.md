@@ -134,4 +134,4 @@ Klicka på **Nästa** för att gå till Steg 5: Bekräfta. Du kan fortfarande g�
 <!-- Referenced images -->
 [img1]: ../../../../../../media/icons/btn-add.png
 [img2]: ../../../../../../../common/icons/salelost.png
-[img3]: media/add-target-list.png
+[img3]: ../../../../../../media/loc/en/marketing/add-target-list.png

@@ -59,4 +59,4 @@ Du kan även lägga in vanliga (ospårade) länkar genom att klicka på länkkna
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/link.png
-[img2]: media/tracked-links-in-editor.png
+[img2]: ../../../../media/loc/en/marketing/tracked-links-in-editor.png

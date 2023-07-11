@@ -26,4 +26,4 @@ När du har kommit fram till vilken design du vill använda kan du välja vilken
 
 <!-- Referenced images -->
 [img1]: ../../../../../../../common/icons/nav-search.png
-[img2]: media/work-with-templates.png
+[img2]: ../../../../../../media/loc/en/marketing/work-with-templates.png

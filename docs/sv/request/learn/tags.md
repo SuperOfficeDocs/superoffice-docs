@@ -54,4 +54,4 @@ Taggar kan användas för att söka efter ärenden i [fritextsökning][2] och i 
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/requests-tag-request-small.png
+[img2]: ../../../media/loc/en/request/requests-tag-request-small.png

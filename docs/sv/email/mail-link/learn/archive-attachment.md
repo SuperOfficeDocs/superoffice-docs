@@ -60,4 +60,4 @@ Om bilagan är den enda delen av e-postmeddelandet du vill behålla för framtid
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: media/email-maillink-archive-attachment.png
+[img1]: ../../../../media/loc/en/email/email-maillink-archive-attachment.png

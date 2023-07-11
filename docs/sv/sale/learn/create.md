@@ -53,4 +53,4 @@ Om du vill redigera en befintlig försäljning bläddrar du dig fram till förs�
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/54-chap7-sale-new.bmp
+[img2]: ../../../media/loc/en/sale/sale-card.png

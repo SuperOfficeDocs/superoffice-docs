@@ -31,4 +31,4 @@ På samma sätt kan du använda ett urval av kontakter som en samtalslista för 
 [3]: forecasting.md
 
 <!-- Referenced images -->
-[img1]: media/getstarted-sidepanel-saleselection.png
+[img1]: ../../../media/loc/en/sale/getstarted-sidepanel-saleselection.png

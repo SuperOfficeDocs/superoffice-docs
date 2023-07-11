@@ -35,4 +35,4 @@ AI kan hjälpa dig att förstå de data ni har tillgång till och spara tid geno
 [3]: ../../chat/learn/admin/channel-create.md#chatbot
 
 <!-- Referenced images -->
-[img1]: media/ai-services.png
+[img1]: ../../../media/loc/en/ai/ai-services.png

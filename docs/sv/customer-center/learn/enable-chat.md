@@ -46,4 +46,4 @@ Du måste [konfigurera chattwidgeten][3] innan du lägger till den i ditt Kundce
 [2]: config.md
 
 <!-- Referenced images -->
-[img1]: media/connecting-widget.png
+[img1]: ../../../media/loc/en/customer-center/connecting-widget.png

@@ -116,4 +116,4 @@ Du kan välja graden av överensstämmelse mellan kundens förfrågan och FAQ-po
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/main-menu.png
 [img2]: ../../../../media/icons/main-menu-small.png
-[img3]: media/create-a-new-reply-template.png
+[img3]: ../../../../media/loc/en/request/create-a-new-reply-template.png

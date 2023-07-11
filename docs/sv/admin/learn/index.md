@@ -86,4 +86,4 @@ Det bästa sättet att definiera egna projekt- eller försäljningsguider är at
 [9]: ../preferences/learn/index.md
 
 <!-- Referenced images -->
-[img1]: media/project-guide.png
+[img1]: ../../../media/loc/en/admin/project-guide.png

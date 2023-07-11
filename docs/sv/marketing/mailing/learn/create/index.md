@@ -89,4 +89,4 @@ I det femte och sista steget bekräftar du och skickar eller schemalägger ditt 
 [11]: target-list.md
 
 <!-- Referenced images -->
-[img1]: media/mailing-workflow-all.png
+[img1]: ../../../../../media/loc/en/marketing/mailing-workflow-all.png
