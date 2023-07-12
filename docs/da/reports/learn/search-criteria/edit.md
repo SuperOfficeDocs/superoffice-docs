@@ -64,7 +64,7 @@ Nu vil vi ændre standardrapportkriterierne lidt, så du kan se, hvordan du ænd
 
 <!-- Referenced links -->
 [1]: ../labels/add-format.md
-[2]: ../../../search-options/learn/using-search-criteria.md
+[2]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png

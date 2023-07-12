@@ -28,7 +28,7 @@ Du kan oprette en opfølgning, som for eksempel vises på aktivitetslisten til a
 7. Vælg, hvilket projekt opfølgningen skal knyttes til, i feltet **Projekt**. Gør ét af følgende:
 
     * Klik på pilen, og vælg et projekt på listen.
-    * Indtastning af hele eller begyndelsen af projektnavnet (se [historiklisten][2] og [Hurtigsøgning][3]).
+    * Indtastning af hele eller begyndelsen af projektnavnet.
 
 8. I feltet **Prioritet** angiver du, hvordan du vil prioritere opfølgningen. Hvis du klikker på pilen, vises en liste med standardindstillingerne høj, middel og lav prioritet.
 
@@ -54,7 +54,5 @@ Du kan oprette en opfølgning, som for eksempel vises på aktivitetslisten til a
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../../../learn/using-history-list.md
-[3]: ../../../learn/using-fastsearcher.md
 
 <!-- Referenced images -->

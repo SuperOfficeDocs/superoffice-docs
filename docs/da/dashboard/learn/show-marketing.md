@@ -48,7 +48,7 @@ Tag et kig på eksemplerne nedenfor for at få ideer til ruder, du kan føje til
 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-open-rates/
-[2]: ../../search-options/learn/using-search-criteria.md
+[2]: ../../search-options/learn/search-criteria.md
 [3]: edit-tile.md
 [5]: create.md
 [6]: working-with-tiles.md

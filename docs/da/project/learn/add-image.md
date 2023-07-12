@@ -16,7 +16,7 @@ På fanen **Billede** kan du tilføje et billede til projektet. Projektbilledet 
 1. Åbn skærmbilledet Projekt. Gør ét af følgende:
 
     * Klik på knappen **Projekt** i navigatoren.
-    * Brug [historiklisten][1] eller [FastSearcher][2].
+    * Brug [historiklisten][1] eller navigatorsøg.
     * Dobbeltklik på et projekt i et søgeresultat eller på detaljekortet **Projekter** i skærmbilledet Firma.
 
 2. Vælg fanen **Billede**.
@@ -38,5 +38,4 @@ På fanen **Billede** kan du tilføje et billede til projektet. Projektbilledet 
     > Hvis du vil fjerne et aktivt projektbillede, skal du klikke på **Slet** til venstre for beskrivelsen.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-history-list.md
-[2]: ../../search-options/learn/using-fastsearcher.md
+[1]: ../../learn/basics/history.md

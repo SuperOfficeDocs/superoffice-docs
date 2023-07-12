@@ -20,7 +20,7 @@ language: da
 
 1. Klik på knappen **Tilføj** under detaljekortet.
 
-1. I dialogboksen **Relation** skal du vælge firmaer og personer under **Aktive part** og **Passiv part** som krævet. Angiv dem ved enten at klikke på pilen og vælge ønsket firma eller person på listen som vises, ved at indtaste hele eller begyndelsen af navnet. (Se [Hurtigsøgning][1] og [Historiklisten][2]).
+1. I dialogboksen **Relation** skal du vælge firmaer og personer under **Aktive part** og **Passiv part** som krævet. Angiv dem ved enten at klikke på pilen og vælge ønsket firma eller person på listen som vises, ved at indtaste hele eller begyndelsen af navnet.
 
 1. På rullemenuen **Relation** angiver du, hvilken relation, der er mellem den aktive og den passive part, f.eks. ejer.[!include[SM](../../learn/includes/are-defined-sm.md)]
 
@@ -38,8 +38,6 @@ language: da
 * [Slet relation][3]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
 [3]: delete-relation.md
 
 <!-- Referenced images -->

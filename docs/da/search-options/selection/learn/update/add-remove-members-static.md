@@ -38,7 +38,7 @@ Brug denne indstilling til at føje de valgte poster til et eksisterende statisk
 
 2. Vælg en eller flere poster på listen.
 
-    For at tilføje flere poster skal du bruge **Shift** eller **Ctrl** \+ klik.
+    For at tilføje flere poster skal du bruge **Shift** eller **Ctrl** + klik.
 
 3. Højreklik på posterne, og vælg **Tilføj til markering** i den menu, der vises.
 
@@ -47,9 +47,9 @@ Brug denne indstilling til at føje de valgte poster til et eksisterende statisk
     > [!NOTE]
     > Listen over udvalg er begrænset til:
     >
-    > \* Eksisterende *statiske* udvalg (ikke dynamiske udvalg eller kombinerede udvalg)
+    > * Eksisterende *statiske* udvalg (ikke dynamiske udvalg eller kombinerede udvalg)
     >
-    > \* Udvalg, der matcher de poster, du tilføjer (hvis du har valgt salg, vises kun udvalg af salg)
+    > * Udvalg, der matcher de poster, du tilføjer (hvis du har valgt salg, vises kun udvalg af salg)
     >
     > Hvis listen er tom, er der ingen eksisterende udvalg af denne type.
 
@@ -62,7 +62,7 @@ Brug denne indstilling til at føje de valgte poster til et eksisterende statisk
 2. Vælg en eller flere poster på listen.
 
     > [!NOTE]
-    > For at tilføje flere poster skal du bruge **Shift** eller **Ctrl** \+ klik.
+    > For at tilføje flere poster skal du bruge **Shift** eller **Ctrl** + klik.
 
 3. Højreklik på posterne, og vælg **Tilføj til markering** i den menu, der vises.
 
@@ -107,7 +107,7 @@ Brug denne indstilling til at føje de valgte poster til et eksisterende statisk
 
 <!-- Referenced links -->
 [2]: ../../../learn/find-screen.md
-[5]: ../../../learn/using-search-criteria.md
+[5]: ../../../learn/search-criteria.md
 [3]: copy-members-to.md
 [4]: ../../../../learn/getting-started/index.md
 

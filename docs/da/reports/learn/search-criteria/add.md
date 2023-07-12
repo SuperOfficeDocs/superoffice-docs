@@ -29,6 +29,6 @@ Du kan føje flere søgekriterier til en rapport. Hvis du føjer kriterier til e
 
 <!-- Referenced links -->
 [1]: ../labels/add-format.md
-[2]: ../../../search-options/learn/using-search-criteria.md
+[2]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

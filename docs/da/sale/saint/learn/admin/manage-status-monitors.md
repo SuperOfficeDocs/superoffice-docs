@@ -47,7 +47,7 @@ Du skal derefter genoprette disse statusser ved at klikke på en af disse knappe
 | ![ikon][img2] | Genopret alle tællere | Vælg for at genopret alle tællere |
 
 <!-- Referenced links -->
-[1]: ../../../../search-options/learn/using-search-criteria.md
+[1]: ../../../../search-options/learn/search-criteria.md
 [2]: select-status-criteria.md
 
 <!-- Referenced images -->

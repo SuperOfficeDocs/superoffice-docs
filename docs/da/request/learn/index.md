@@ -121,7 +121,7 @@ Forskellige firmaer har forskellige rutiner for sagsbehandling og kan bruge Supe
 [9]: howto/edit-message.md
 [10]: find.md
 [11]: find.md#list
-[12]: ../../search-options/learn/index.m
+[12]: ../../search-options/learn/index.md
 [13]: find.md#result
 [14]: howto/create.md
 [15]: ../../learn/getting-started/edit-email-signature.md

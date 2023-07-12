@@ -32,7 +32,7 @@ Når du har tilføjet et billede, kan du angive egenskaber som f.eks. en bestemt
 
 2. Vælg **Indhold** (![ikon][img1]) i sidepanelet.
 
-3. Klik på og træk **Billedblokken** (![ikon][img1] hen til det relevante afsnit i meddelelsen. Du skal nu vælge det billede, der skal bruges.
+3. Klik på og træk **Billedblokken** ![ikon][img1] hen til det relevante afsnit i meddelelsen. Du skal nu vælge det billede, der skal bruges.
 
 4. Klik på blokken i meddelelsen.
 
@@ -104,4 +104,4 @@ Det billede, du gerne vil bruge til din mailudsendelse, har måske ikke altid de
 [img4]: ../../../media/loc/en/marketing/add-action-properties.png
 [img5]: ../../../media/loc/en/marketing/apply-effects.png
 [img6]: ../../../media/loc/en/marketing/resize-image.png
-[img7]: ../../../media/loc/en/marketing/change-size-of-your-image.png-size-of-your-image.png
+[img7]: ../../../media/loc/en/marketing/change-size-of-your-image.png

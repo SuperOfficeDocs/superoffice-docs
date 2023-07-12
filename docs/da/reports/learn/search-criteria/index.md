@@ -31,6 +31,6 @@ Hvis du ændrer søgekriterierne i en standardrapport, er dine ændringer kun mi
 [1]: edit.md
 [3]: ../labels/add-format.md
 [4]: add.md
-[5]: ../../../search-options/learn/using-search-criteria.md
+[5]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

@@ -3,7 +3,7 @@ uid: help-da-search-intro
 title: Søgemuligheder i CRM
 description: "Lær, hvordan du søger og finder data i SuperOffice CRM med blot et par klik."
 author: Bergfrid Dias
-so.date: 12.14.2022
+so.date: 05.25.2023
 keywords: søge, finde
 so.topic: concept
 language: da
@@ -13,19 +13,7 @@ language: da
 
 Søgning efter information i din CRM-database er noget, du gør hver dag. Uanset om du leder efter et telefonnummer eller en liste over alle dine åbne salg, hjælper funktionen Find dig med at finde informationen hurtigere.
 
-Følgende vejledninger vil:
-
-* Vise dig de forskellige måder, du kan finde information på i SuperOffice CRM-databasen.
-* Forklare, hvordan du kan gemme dine søgninger som et udvalg.
-* Demonstrere, hvilke opgaver du kan udføre ved hjælp af din søgning eller dine udvalg.
-
-Med SuperOffice Find kan du søge efter et enkelt stykke data, for eksempel et telefonnummer, eller en liste over data, for eksempel en liste over modtagere af en udsendelse.
-
-I SuperOffice CRM har du flere forskellige søgemuligheder:
-
-* [FastSearcher][3]
-* [Søgeknappen][1]
-* [Feltet Fritekstsøgning][2]
+Følgende vejledninger vil: Vise dig de forskellige måder, du kan finde information på i SuperOffice CRM-databasen; Forklare, hvordan du kan gemme dine søgninger som et udvalg; Demonstrere, hvilke opgaver du kan udføre ved hjælp af din søgning eller dine udvalg.
 
 ## Hvad kan jeg søge efter?
 
@@ -42,33 +30,40 @@ I SuperOffice CRM har du flere forskellige søgemuligheder:
 * Formularindsendelser
 * Udsendelser
 
-## Brug af hurtigsøgning
+## Forskellige søgemuligheder
 
-Du kan bruge [Hurtigsøgning][3] eller [historiklisten][5] til at søge efter firmaer, salg, projekter og udvalg.
+I SuperOffice CRM har du flere forskellige søgemuligheder:
 
-**Hurtigsøgning** kan findes enten i menuen **Navigator** ved at trykke på firmaet, personen, salget, projektet eller udvalget og bruges til at åbne et søgefelt eller i pop op-dialogbokse til at søge efter firmaer, personer, salg, projekter og udvalg.
+* [Hurtigsøgning][3]
+* [Søgeknappen][1]
+* [Feltet Fritekstsøgning][2]
 
-Det vil hurtigt give dig en liste, der matcher dine søgeord. Brug den til at kontrollere databasen for mulige dubletter, før du tilføjer et nyt firma eller en ny person.
+Vælg det rigtige værktøj til din opgave:
+
+| Opgave | Værktøj |
+|---|---|
+| Naviger hurtigt og nemt. | Hurtigsøgning i navigatoren eller historiklistan. |
+| Kontrollere databasen for mulige dubletter, før du tilføjer et nyt firma eller en ny person. | Hurtigsøgning i navigatoren |
+| Finde poster baseret på kriterier | Knappen Find |
+| Gemme en søgning som et udvalg | Knappen Find |
+| Bruge en foruddefineret søgning | Knappen Find |
+| Søge efter tekst, som brugere har indtastet i SuperOffice CRM. | Fritekstsøgning |
+
+Den største forskel mellem disse værktøjer er, om du angiver nøgleord eller betingelser.
+
+## <a id="fastsearcher" />Brug af hurtigsøgning
+
+**Hurtigsøgning** kan findes enten i menuen **Navigator** og i pop op-dialogbokse. Det vil hurtigt give dig en liste, der matcher dine søgeord. Brug den til at kontrollere databasen for mulige dubletter, før du tilføjer et nyt firma eller en ny person.
 
 ![Brug Hurtigsøgning til at navigere hurtigt og nemt i Navigator -screenshot][img1]
 
-### Tips til hurtigsøgning
+Hurtigsøgning kan bruges på flere forskellige måder:
 
-Du kan bruge %% til at se alle poster for en bestemt type, for eksempel alle firmaer, alle udvalg, alle projekter.
+* Du kan søge [direkte fra navigatoren][3] for at gå til ønsket firma, person, salg, projekt eller udvalg.
 
-Hvis du for eksempel vil se alle de dokumentskabeloner, der er tilgængelige i SuperOffice CRM, skal du gå til menuen **+Ny** og klikke på **Dokument**. I det øverste felt i skærmbilledet Dokument,der angiver typer af dokumentskabeloner, skal du indtaste %%. Du vil derefter se en rulleliste, der indeholder den fulde liste over tilgængelige dokumentskabeloner.
+* Du kan søge efter firmaer, personer, salg, projekter og udvalg [fra dialogbokse][8], som indeholder de relevante felter, f.eks. dialogboksen **Aftale** og **Dokument**, for at knytte dem til aftalen eller dokumentet.
 
-![Indtast to procenttegn i Hurtigsøgning for at se alle poster -screenshot][img4]
-
-## Klik på knappen Find
-
-Hvis du klikker **på knappen Find** i toplinjen, åbner du [Find skærmbillede][1], hvor du kan søge efter data i SuperOffice.
-
-Knappen Find hjælper dig med at finde poster baseret på kriterier fra firmaer, personer, projekter, udvalg, salg, produkter, opfølgninger, dokumenter og sager.
-
-![Klik på knappen Find på toplinjen for at komme til skærmbilledet Find -screenshot][img2]
-
-Når du bruger funktionen Find, kan du gemme hver søgning, du udfører, som et udvalg.
+* Du kan søge [direkte i tidszonevælgeren][2] for at få tidszonen frem for en ønsket by eller et ønsket land.
 
 ## Brug af fritekstsøgning
 
@@ -83,13 +78,19 @@ Brug søgefeltet [Fritekstsøgning][2] i øverste højre hjørne til at søge ef
 
 Brug **%** som jokertegn, når du søger. Procenttegnet (%) svarer til alle strenge på 0 eller flere tegn. For eksempel: J%son matcher Jackson, Johnson, Jason og Json.
 
-[!include[Use wildcard in search](includes/tip-search-wildcard.md)]
+## Klik på knappen Find
+
+Hvis du klikker **på knappen Find** i toplinjen, åbner du [Find skærmbillede][1], hvor du kan søge efter data i SuperOffice. Knappen Find hjælper dig med at finde poster [baseret på kriterier][6] fra firmaer, personer, projekter, udvalg, salg, produkter, opfølgninger, dokumenter og sager.
+
+![Klik på knappen Find på toplinjen for at komme til skærmbilledet Find -screenshot][img2]
+
+Når du bruger funktionen Find, kan du gemme hver søgning, du udfører, som et udvalg.
 
 ## <a id="typical" />Brug typiske søgninger som udgangspunkt
 
 En typisk søgning er en foruddefineret søgning, som vi har konfigureret for dig, så du kan se, hvad andre brugere typisk søger efter. Hvert datasæt i skærmbilledet Find indeholder en liste over typiske søgninger, der er klar til brug.
 
-En typisk søgning er en god måde at begynde at lede efter data på i SuperOffice CRM. Du kan finde typiske søgninger ved at klikke nedenunder den gruppe data, du er interesseret i. Med forudindstillede søgekriterier kan typiske søgninger bruges, som de er, eller de kan ændres eller udvides.
+Du kan finde typiske søgninger ved at klikke nedenunder den gruppe data, du er interesseret i. Med forudindstillede søgekriterier kan typiske søgninger bruges, som de er, eller de kan ændres eller udvides.
 
 ### Eksempel: Min forsinkede opfølgninger
 
@@ -103,8 +104,6 @@ Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer 
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-[Læs mere][6]
 
 ## <a id="search-to-selection" />Opret en søgning, og gem den som et udvalg
 
@@ -132,21 +131,22 @@ Se denne video, eller følg trinnene nedenunder for at lære, hvordan du kan opr
 ## Relateret indhold
 
 * [Foretrukne][4]
+* [Historiklisten][5]
 * [Opret en søgning, og gem den som et udvalg][7]
-* Udvid din søgning ved hjælp af QR-funktionen
+* [Udvid din søgning ved hjælp af OR-funktionen][1]
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: freetext-search.md
-[3]: using-fastsearcher.md
+[3]: in-navigator.md
 [4]: ../../learn/basics/fav.md
-[5]: using-history-list.md
-[6]: using-search-criteria.md
+[5]: ../../learn/basics/history.md
+[6]: search-criteria.md
 [7]: ../selection/learn/create/index.md
+[8]: in-dialogs.md
 
 <!-- Referenced images -->
-[img1]: media/search-find-fastsearcher.png
-[img2]: media/getstarted-search-find-findscreen.png
-[img3]: media/freetext-search-find.png
-[img4]: media/getstarted-document-fastsearcher.png
-[img5]: media/typical-search.png
+[img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png
+[img2]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
+[img3]: ../../../media/loc/en/search-options/freetext-search-find.png
+[img5]: ../../../media/loc/en/search-options/typical-search.png

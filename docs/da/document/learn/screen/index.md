@@ -28,7 +28,7 @@ Hoveddelen indeholder følgende grundlæggende oplysninger om dokumentet:
 
 ### Dokumentskabelon
 
-Hvis du klikker på pilen ![ikon][img1] ved siden af typefeltet øverst i dialogboksen, åbnes en liste over de dokumentskabeloner, som du kan vælge mellem. [!include[SM](../../../learn/includes/are-defined-sm.md)] Her kan du også bruge [hurtigsøgning][6].
+Hvis du klikker på pilen ![ikon][img1] ved siden af typefeltet øverst i dialogboksen, åbnes en liste over de dokumentskabeloner, som du kan vælge mellem. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
 > [!NOTE]
 > Når du [opretter et dokument][5], åbnes skabelonen i det program, den blev oprettet i. Dette betyder for eksempel, at DOCX-filer bliver åbnet i Word.
@@ -131,7 +131,7 @@ Fanen **Detaljer** indeholder detaljerede oplysninger om dokumentet.
 
 Denne fane indeholder oplysninger om aktiviteter (dokumenter og opfølgninger) og salg, som er tilknyttet til det aktuelle dokument. Hvis der er registreret noget på denne fane, vises der en prik ved siden af **Links**.
 
-Læs mere om, hvordan du tilføjer links][2].
+Læs mere om, hvordan du [tilføjer links][2].
 
 ## Fanen Mere
 
@@ -145,7 +145,6 @@ Denne fane viser alle [brugerdefinerede felter][3], der er konfigureret i Indsti
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
-[6]: ../../../search-options/learn/using-fastsearcher.md
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../learn/activity/linking-documents-to-follow-ups.md

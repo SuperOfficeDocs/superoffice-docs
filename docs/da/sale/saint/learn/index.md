@@ -112,4 +112,4 @@ Når der vises et statusbillede for et firma, en person eller et projekt, har du
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/sale/saint-selection.png
 [img2]: ../../../../media/loc/en/sale/saint-criteria.png
-[img3]: ../../../../media/loc/en/sale/saint-watermark.pngaint-watermark.png
+[img3]: ../../../../media/loc/en/sale/saint-watermark.png

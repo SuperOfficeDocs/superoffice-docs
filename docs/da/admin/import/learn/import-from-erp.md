@@ -55,7 +55,7 @@ Over hver liste er der et link til udvalget, der indeholder de nye/opdaterede ak
 > Hvis du vil slette importerede aktører fra SuperOffice, skal du bruge udvalget.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md
 [2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->

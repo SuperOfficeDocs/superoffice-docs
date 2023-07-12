@@ -3,7 +3,7 @@ uid: help-da-search-criteria
 title: Brug af søgekriterier
 description: Brug af søgekriterier
 author: Bergfrid Dias
-so.date: 03.28.2023
+so.date: 05.25.2023
 keywords: søge, kriterier, finde
 so.topic: howto
 language: da
@@ -33,49 +33,49 @@ Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer 
 
 3. Vælg det felt, som du vil søge efter oplysninger i. Du kan også [indtaste begyndelsen af navnet][2] i det ønskede felt. Der findes forskellige typer af felter:
 
-    * Tekststreng
-    * Ja/nej
-    * Dato
-    * Antal
-    * Liste
-    * Status
-    * Tæller
+    * [Tekststreng](#text)
+    * [Ja/nej](#yes-no)
+    * [Dato](#date)
+    * [Antal](#number)
+    * [Liste](#list)
+    * [Status](#status)
+    * [Tæller](#counter)
 
 4. Vælg værdier for søgekriterierne i de forskellige felter på linjen.
 
 5. Klik på **Tilføj** for at tilføje en ny linje, eller klik på **Eller** for at tilføje et nyt sæt kriterier.
 
-### Typer af felter
+## Typer af felter
 
-#### Tekstfelt
+### <a id="text" />Tekstfelt
 
 Hvis søgefeltet er et tekstfelt (for eksempel et navnefelt), søges der efter den tekst eller de tal, du indtaster. Der vises en liste med følgende indstillinger:
 
-[!include[Search criteria](../../learn/includes/list-search-criteria.md)]
+[!include[Search criteria](includes/list-search-criteria.md)]
 
 Vælg én af disse indstillinger, og indtast derefter søgekriterier i tekstfeltet til højre.
 
-#### Ja/Nej-felt
+### <a id="yes-no" />Ja/Nej-felt
 
 Hvis søgefeltet er et Ja/Nej-felt, for eksempel feltet **Ingen udsendelser** i skærmbilledet Firma, vises der to valgmulighedsknapper. Du kan vælge mellem **Ja** og **Nej**.
 
-#### Datofelt
+### <a id="date" />Datofelt
 
 Hvis søgefeltet er et datofelt, for eksempel feltet **Dato** i dialogboksen **Dokument**, vises der en liste med følgende alternativer:
 
-[!include[Search criteria](../../learn/includes/list-date-criteria.md)]
+[!include[Search criteria](includes/list-date-criteria.md)]
 
 Vælg det ønskede alternativ. Afhængigt af, hvad du vælger, udfyldes feltet automatisk med en dato eller et datointerval, eller du kan angive den ønskede dato. Du kan også vælge en dato i kalenderen, som vises, når du klikker på pileknappen ![ikon][img1].
 
-#### Talfelt
+### <a id="number" />Talfelt
 
 Hvis søgefeltet indeholder talværdier, for eksempel feltet **Beløb** i skærmbilledet Salg, vises der en liste med følgende alternativer:
 
-[!include[Search criteria](../../learn/includes/table-number-criteria.md)]
+[!include[Search criteria](includes/table-number-criteria.md)]
 
 Vælg den ønskede indstilling, og indtast den ønskede talværdi i tekstfeltet til højre.
 
-#### Listefelt
+### <a id="list" />Listefelt
 
 Hvis feltet, du skal søge i, indeholder lister, for eksempel feltet **Branche** i skærmbilledet Firma, vises der en liste med indstillingerne **Er en af** og **Er ikke en af**.
 
@@ -85,7 +85,7 @@ Hvis listen er lang, kan du skrive tekst i felterne **Søgekriterier** for at s�
 
 Klik uden for listen for at lukke den.
 
-#### Statusfelt
+### <a id="status" />Statusfelt
 
 Hvis søgefeltet er et statusfelt, skal du blot vælge den ønskede status.
 
@@ -93,53 +93,43 @@ Statusserne oprettes og vedligeholdes i Indstillinger og vedligeholdelse.
 
 Statusfelter er kun aktuelle, hvis du har købt licens til og aktiveret statusovervågning.
 
-#### Tællerfelt
+### <a id="counter" />Tællerfelt
 
 [Tællere][3] kan for eksempel være antal salg i en periode eller datoen for det sidst gennemførte salg.
 
 Tællerfelter kan findes under **Tællere (SAINT)** på listen over kriterier.
 
-Tællerne oprettes og vedligeholdes i Indstillinger og vedligeholdelse.
+1. Til højre for felterne kan du klikke på linkene for at angive yderligere kriterier for tællerne. De tilgængelige indstillinger afhænger af den type post og tæller, du arbejder med.
 
-Tællerværdier er kun aktuelle, hvis du har købt licens til og aktiveret statusovervågning.
+    * **Saint-type**: Her kan du vælge den aktivitetstype, du vil søge efter.
+    * **Status**: Her kan du vælge status for den post, du vil søge efter.
+    * **Retning**: Her kan du vælge, om aktiviteten er ind- eller udgående.
+    * **Beløbsklasse**: Her vælger du beløbsklassen for salget.
+    * **Hensigt**: Her skal du vælge hensigten med aktiviteten.
 
-Til højre for felterne kan du klikke på linkene for at angive yderligere kriterier for tællerne. De tilgængelige indstillinger afhænger af den type post og tæller, du arbejder med.
+1. Afhængigt af, hvad du har valgt ovenover, vises der en rullemenu for valg af datofelt eller talfelt. Disse rullemenuer fungerer som beskrevet nedenfor. Vælg den ønskede indstilling, og indtast den ønskede talværdi eller dato i tekstfeltet.
 
-* **Saint-type**: Her kan du vælge den aktivitetstype, du vil søge efter.
-* **Status**: Her kan du vælge status for den post, du vil søge efter.
-* **Retning**: Her kan du vælge, om aktiviteten er ind- eller udgående.
-* **Beløbsklasse**: Her vælger du beløbsklassen for salget.
-* **Hensigt**: Her skal du vælge hensigten med aktiviteten.
+Tællerne oprettes og vedligeholdes i Indstillinger og vedligeholdelse. Tællerværdier er kun aktuelle, hvis du har købt licens til og aktiveret statusovervågning.
 
-Afhængigt af, hvad du har valgt ovenover, vises der en rullemenu for valg af datofelt eller talfelt. Disse rullemenuer fungerer som beskrevet nedenfor. Vælg den ønskede indstilling, og indtast den ønskede talværdi eller dato i tekstfeltet.
+## Arbejde med søgekriterier
 
-## Ændring af søgekriterier
-
-Hvis du vil ændre et søgekriterium, skal du klikke på det og vælge et andet på den liste, der vises.
-
-## Flyt søgekriterier
-
-Hvis du vil flytte kriterier (en linje), skal du klikke og trække ![ikon][img2].
-
-## Sletning af søgekriterier
-
-Hvis du vil slette et søgekriterium, skal du klikke på ![icon][img3].
-
-## Aktivering eller deaktivering af søgekriterier
+Kriterielisterne indeholder et sæt standardkriterier, som du kan redigere eller fjerne efter behov.
 
 Når du åbner skærmbilledet **Søg**, indeholder det standardsøgekriterier eller de søgekriterier, du angav, sidst du brugte dialogboksen. Hvis du vil bruge andre søgekriterier end dem, der vises, har du følgende muligheder:
 
-* Du kan slette dem ved at klikke på ![ikon][img3]
-* Du kan deaktivere et eller flere søgekriterier ved at lade værdifeltet være tomt. Et deaktiveret søgekriterium bliver stående på kriterielisten og kan nemt og enkelt aktiveres igen.
-* Du kan deaktivere alle søgekriterierne ved at klikke på **Ryd alle**.
+ Opgave | Trin |
+|---|---|
+| Flytte søgekriterier (en linje) | Klik og træk ![ikon][img2]. |
+| Ændre et søgekriterium | Klik på det og vælg et andet på den liste, der vises. |
+| Deaktivere et eller flere søgekriterier | Lad værdifeltet være tomt. |
+| Deaktivere alle søgekriterierne | Klik **Ryd alle**. |
+| Slette et søgekriterium | Klikke på ![ikon][img3]. |
+| Nulstille kriterielisten til standardkriterierne | Klik **Nulstil til standard**. |
 
-## Flytte søgekriterier op eller ned
-
-Hvis du vil flytte kriterier, skal du klikke og trække ![ikon][img2]. Dette har ingen praktisk effekt på søgningen, men giver dig mulighed for at arrangere kriterierne i din foretrukne rækkefølge. Hvis nogle af kriterierne ikke bruges, men du stadig vil beholde dem, kan du flytte inaktive kriterier til bunden, hvis listen vises.
-
-## Nulstilling til standardsøgekriterier
-
-Kriterielisterne indeholder et sæt standardkriterier, som du kan redigere eller fjerne efter behov. For at nulstille kriterielisten til standardkriterierne, skal du klikke på **Nulstil til standard**.
+> [!NOTE]
+> At flytte søgekriterier op eller ned har ingen praktisk effekt på søgningen, men giver dig mulighed for at arrangere kriterierne i din foretrukne rækkefølge. Hvis nogle af kriterierne ikke bruges, men du stadig vil beholde dem, kan du flytte inaktive kriterier til bunden, hvis listen vises.
+>
+> Et deaktiveret søgekriterium bliver stående på kriterielisten og kan nemt og enkelt aktiveres igen.
 
 ## Hvad vil du foretage dig nu?
 
@@ -147,7 +137,7 @@ Kriterielisterne indeholder et sæt standardkriterier, som du kan redigere eller
 
 <!-- Referenced links -->
 [1]: find-screen.md
-[2]: using-fastsearcher.md
+[2]: in-navigator.md
 [3]: ../../sale/saint/learn/index.md
 
 <!-- Referenced images -->

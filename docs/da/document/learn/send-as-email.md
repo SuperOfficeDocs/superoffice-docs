@@ -29,7 +29,7 @@ language: da
 
     Hvis dialogboksen **Vælg e-mailadresse** vises:
 
-    1. I feltet til firma skal du vælge det firma, du vil sende dokumentet til. Som standard vises det firma, der er aktivt, i skærmbilledet Firma. Her kan du også bruge [hurtigsøgning][1] eller [historiklisten][2]. Når du har valgt et firma, vises firmaets e-mailadresse ved siden af firmafeltet.
+    1. I feltet til firma skal du vælge det firma, du vil sende dokumentet til. Som standard vises det firma, der er aktivt, i skærmbilledet Firma. Når du har valgt et firma, vises firmaets e-mailadresse ved siden af firmafeltet.
 
     2. Hvis du vil sende til en bestemt person i firmaet, vælger du mellem de muligheder, der er tilgængelige i listen over personer. Når du har valgt en person, vises personens e-mailadresse bag rullemenuen for personer.
 
@@ -50,8 +50,6 @@ language: da
 3. Klik på **Send** for at sende meddelelsen.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/document/email-document-send-as-email.png

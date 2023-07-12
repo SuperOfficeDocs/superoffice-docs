@@ -24,7 +24,7 @@ Hvis to firmaer i kundedatabasen beslutter at fusionere, eller et af firmaerne h
 1. Vælg **Vedligehold firmaer** fra knappen ![ikon][img3] **Opgave** og klik på **Læg firmaer sammen**.
     Dialogboksen **Slå firmaer sammen** åbnes. Kildefirmaet er angivet under **Fra**.
 
-1. Under **Til firma** vælger du det firma, som skal opdateres med oplysninger fra kildefirmaet. Begynd at skrive i feltet for at [søge efter et firma][1].
+1. Under **Til firma** vælger du det firma, som skal opdateres med oplysninger fra kildefirmaet. Begynd at skrive i feltet for at søge efter et firma.
 
     > [!TIP]
     > Hvis du vil bytte om på **Fra-** og **Til-**firmaer, skal du klikke på knappen ![ikon][img1].
@@ -63,7 +63,6 @@ Hvis to firmaer i kundedatabasen beslutter at fusionere, eller et af firmaerne h
 * [Flette kontaktpersoner][2]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->

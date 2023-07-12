@@ -23,7 +23,7 @@ Masseredigering giver dig mulighed for at ændre værdier på tværs af flere po
     > [!NOTE]
     > Hvis udvalget indeholder både firmaer og personer, vil der være to faner: **Firma** og **Person**.
 
-3. Vælg et felt, der skal ændres, i kolonnen **Felt**. Du kan også [indtaste navnet i feltet][1]. Når du skriver hvert bogstav, viser listen nedenfor alle forekomster, der er relevante for de valgte poster.
+3. Vælg et felt, der skal ændres, i kolonnen **Felt**. Du kan også indtaste navnet i feltet. Når du skriver hvert bogstav, viser listen nedenfor alle forekomster, der er relevante for de valgte poster.
 
 4. Vælg en handling i kolonnen **Handling**. Hvilke handlinger, der er tilgængelige, afhænger af, hvilken type felt, du valgte i det forrige trin. Eksempler:
 
@@ -91,7 +91,6 @@ Du har opdaget, at feltet **Stilling** for personer sjældent anvendes. For at k
 Du vil rydde op i alle de "gamle" projekter, som ikke er angivet som fuldførte. Opret et udvalg af alle de gamle projekter, for eksempel alle projekter, der går mere end 2 år tilbage i tiden, og som ikke er blevet opdateret gennem det sidste år. Brug **Masseredigering** til at opdatere status **Fuldført** for disse projekter med indholdet **Ja**.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-selected.png

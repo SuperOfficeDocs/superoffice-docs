@@ -84,7 +84,7 @@ Felterne nedenfor svarer til felterne på firmakortet.
 * Opfyld også: Her kan du angive yderligere [søgekriterier][1].
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md
 [2]: delete-user.md
 
 <!-- Referenced images -->

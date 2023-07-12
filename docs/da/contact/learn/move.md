@@ -23,7 +23,7 @@ Du kan flytte en person - herunder dennes aktiviteter og medlemskaber - fra en v
     * I skærmbilledet Person: Gå til den ønskede person, klik på knappen **Opgave** ![ikon][img2] i personkortet, og vælg **Vedligehold personer** og **Flyt person**.
 
 1. I dialogboksen **Flyt person** under **Handling på person** vælger du et af følgende alternativer:
-    * Gå til **Flyt til**, og vælg det firma, du vil flytte personen til. Brug [hurtigsøgning][1], [historiklisten][2] eller [Søg][3] ![ikon][img3].
+    * Gå til **Flyt til**, og vælg det firma, du vil flytte personen til.
     * Vælg **Link fra &lt;company&gt;**.
 
 1. Vælg et af følgende **Handling på alle eksisterende aktiviteter og salg**:
@@ -39,10 +39,6 @@ Du kan flytte en person - herunder dennes aktiviteter og medlemskaber - fra en v
 > Du kan ikke flytte personer (SuperOffice-brugere) i dit eget firma.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
-[3]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/icons/btn-menu.png
-[img3]: ../../../../common/icons/search-icon-black.png

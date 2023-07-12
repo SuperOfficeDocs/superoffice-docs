@@ -1,9 +1,9 @@
 ---
-uid: help-da-using-history-list
+uid: help-da-history-list
 title: Brug af historiklisten
 description: Brug af historiklisten
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 08.05.2023
 keywords: søge, historik
 so.topic: howto
 language: da
@@ -33,10 +33,10 @@ Du kan bruge historiklisten på forskellige måder:
 3. Klik på det ønskede firma, den ønskede person, det ønskede salg, projekt eller udvalg for at tilknytte posten.
 
 > [!NOTE]
-> Du kan øge eller begrænse antallet af linjer på historiklisten ved at gå til ![ikon][img1] **Personlige indstillinger** &gt; **Præferencer** &gt; **Visuelle effekter** &gt; **Antal elementer i historiklisten** og indtaste det ønskede antal.
+> Du kan øge eller begrænse antallet af linjer på historiklisten ved at gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Visuelle effekter** > **Antal elementer i historiklisten** og indtaste det ønskede antal.
 
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/preferences.md
+[1]: ../getting-started/preferences.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

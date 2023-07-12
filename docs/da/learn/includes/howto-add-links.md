@@ -18,4 +18,4 @@
 En prik på faneoverskriften **Links** betyder, at der er tilføjet et link for salget.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-history-list.md
+[1]: ../basics/history.md

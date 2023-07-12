@@ -80,7 +80,7 @@ Dobbeltklik på en udsendelse for at redigere den.
 [1]: ../create/index.md
 [2]: ../update/add-remove-members-static.md
 [5]: ../howto/display-as-charts.md
-[3]: ../../../learn/using-search-criteria.md
+[3]: ../../../learn/search-criteria.md
 [6]: ../../../../dashboard/learn/create.md
 [7]: ../../../../marketing/mailing/learn/create/index.md
 [8]: ../../../../learn/section-tabs/filter.md
@@ -94,4 +94,4 @@ Dobbeltklik på en udsendelse for at redigere den.
 [img4]: ../../../../../media/icons/personal-settings-small.png
 [img5]: ../../../../../media/icons/refresh.png
 [img7]: ../../../../../media/icons/filter-column.png
-[img6]: ../../../../media/task.png
+[img6]: ../../../../../media/loc/en/learn/task.png

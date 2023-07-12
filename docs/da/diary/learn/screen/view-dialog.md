@@ -35,7 +35,7 @@ Når du har valgt en indstilling **Vælg fra**, vises en liste nedenunder. Indho
 
 * Hvis du valgte **Medarbejdere**, vises en oversigt over brugergrupperne i organisationen. Du kan også vælge **Alle**, hvis du vil vise alle brugere i organisationen.
 
-* Hvis du valgte **Projekt**, vises historiklisten over projekter. Her kan du også bruge [hurtigsøgning][6] eller [historiklisten][5].
+* Hvis du valgte **Projekt**, vises historiklisten over projekter.
 
 * Hvis du valgte **Ressource**, vises en liste over ressourcer i din organisation. Denne liste defineres i Indstillinger og vedligeholdelse. Vælg **Alle**, hvis du vil have vist alle ressourcerne i organisationen.
 
@@ -70,8 +70,6 @@ Lukker dialogboksen uden at gemme ændringerne.
 [1]: ../create-view.md
 [2]: ../open.md
 [4]: ../create-follow-up.md
-[5]: ../../../search-options/learn/using-history-list.md
-[6]: ../../../search-options/learn/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/arrow-right.png

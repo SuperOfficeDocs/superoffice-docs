@@ -43,7 +43,7 @@ Brug lidt tid på at konfigurere de korrekte statuskriterier, da du skal sikre, 
 * [Administration af statusovervågning][2]
 
 <!-- Referenced links -->
-[1]: ../../../../search-options/learn/using-search-criteria.md
+[1]: ../../../../search-options/learn/search-criteria.md
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->

@@ -27,7 +27,7 @@ Hoveddelen indeholder følgende grundlæggende oplysninger om opfølgningen:
 
 ### Type
 
-Hvis du klikker på pilen ved siden af dette felt (![ikon][img2] ), får du vist en foruddefineret liste, hvor du kan vælge en opfølgningstype, for eksempel møde eller udgående telefonsamtale. Du kan også søge efter typer ved at skrive i dette felt. Her kan du også bruge [hurtigsøgning][12].
+Hvis du klikker på pilen ved siden af dette felt (![ikon][img2] ), får du vist en foruddefineret liste, hvor du kan vælge en opfølgningstype, for eksempel møde eller udgående telefonsamtale. Du kan også søge efter typer ved at skrive i dette felt.
 
 > [!NOTE]
 > Feltet **Type** bestemmer, hvilken type opfølgning det drejer sig om: aftale, opgave eller samtale.
@@ -169,7 +169,6 @@ Denne fane viser alle [brugerdefinerede felter][14], der er konfigureret i Indst
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md
-[12]: ../../../search-options/learn/using-fastsearcher.md
 [13]: ../../../learn/getting-started/preferences.md
 [14]: ../../../custom-objects/learn/index.md
 

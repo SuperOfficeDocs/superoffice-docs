@@ -53,4 +53,4 @@ Ved visse diagrammer får du muligvis beskeden Ingen tilgængelige data. Det bet
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/maximize-dark.png
 [img2]: ../../../../../../common/icons/refresh-icon.png
-[img3]: media/visualize-selections.gif
+[img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif

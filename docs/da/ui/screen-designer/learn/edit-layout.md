@@ -163,4 +163,4 @@ Hvis du har brug for at vende tilbage til en tidligere version af skærmen, kan 
 [img4]: ../../../../media/icons/criteria-move.png
 [img5]: ../../../../../common/icons/add-icon.png
 [img3]: ../../../../media/loc/en/ui/edit-the-screen-layout-of-companies-and-contacts.png
-[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.pngtacts.png
+[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png

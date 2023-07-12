@@ -21,10 +21,10 @@ Hvis du er tildelt rettigheden **Tillad administration af eksterne brugere** i I
     Du kan gå til skærmbilledet Firma på flere forskellige måder:
 
     * Ved at klikke på knappen **Firma** i navigatoren.
-    * Ved at bruge [historiklisten][1] eller [FastSearcher][2].
+    * Ved at bruge [historiklisten][1] eller navigatorsøg.
     * Ved at dobbeltklikke på et firma i et søgeresultat eller i et udvalg.
 
-2. Klik på ![ikonet][img1] **Opgave** &gt; **Eksterne brugere**. Dialogboksen **Eksterne brugere** vises.
+2. Klik på ![ikonet][img1] **Opgave** > **Eksterne brugere**. Dialogboksen **Eksterne brugere** vises.
 
 3. Følg en af fremgangsmåderne nedenfor.
 
@@ -49,8 +49,7 @@ Marker den person, du vil fjerne logon for, og klik på **Fjern logon**. Brugere
 Med rullemenuen **Vis** nederst til højre i dialogboksen kan du filtrere listen over personer efter brugerstatus.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-history-list.md
-[2]: ../../../search-options/learn/using-fastsearcher.md
+[1]: ../../../learn/basics/history.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

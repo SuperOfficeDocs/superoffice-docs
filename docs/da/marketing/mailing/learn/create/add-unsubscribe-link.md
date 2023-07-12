@@ -66,7 +66,7 @@ Det gør du ved at [oprette et link, der fjerner den relevante interesse][4] hos
 <!-- Referenced links -->
 [1]: ../../../learn/edit-paragraph.md
 [2]: ../../../tracked-links/learn/examples.md
-[4]: ../../../tracked-links/learn/define-link-actions.md#interests
+[4]: ../../../tracked-links/learn/define-link-actions.md#interest
 
 <!-- Referenced images -->
 [img3]: ../../../../../media/icons/marketing-and-forms/link.png
