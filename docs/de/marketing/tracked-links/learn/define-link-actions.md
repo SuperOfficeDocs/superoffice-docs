@@ -26,8 +26,8 @@ In SuperOffice Marketing können Sie Aktionen zu Ihren Links hinzufügen. Diese 
 | Antwort | Zielseite oder benutzerdefinierten Text hinzufügen. |
 | Feld festlegen | Einem Zusatzfeld einen Wert für die Personen des Kunden hinzufügen |
 | Interessen | Interessen aktualisieren. |
-| Selektion/Projekt] | Ansprechpartner zu Selektion/Projekt hinzufügen bzw. daraus entfernen. |
-| Folgeaufgabe] | Erstellt eine Folgeaufgabe (Aufgabe oder Termin) in SuperOffice CRM. |
+| Selektion/Projekt | Ansprechpartner zu Selektion/Projekt hinzufügen bzw. daraus entfernen. |
+| Folgeaufgabe | Erstellt eine Folgeaufgabe (Aufgabe oder Termin) in SuperOffice CRM. |
 | Anfrage | Eine neue Anfrage erstellen. |
 | Skript | Ein Skript ausführen. |
 
@@ -94,7 +94,7 @@ Auf der Registerkarte **Folgeaufgabe** können Sie festlegen, dass beim Klicken 
 
 ## Anfrage
 
-Auf der Registerkarte **Anfrage** können Sie festlegen, dass eine SuperOffice Service-Anfrage für die Personen erstellt werden soll, die auf eine Link.md)] klicken.
+Auf der Registerkarte **Anfrage** können Sie festlegen, dass eine SuperOffice Service-Anfrage für die Personen erstellt werden soll, die auf eine Link klicken.
 
 1. **Neue Anfrage erstellen**: Aktivieren Sie dieses Kontrollkästchen, um eine neue Anfrage zu erfassen, wenn der Kunden auf den Link klickt.
 2. **Titel**: Geben Sie hier den Titel für die neue Anfrage ein.
