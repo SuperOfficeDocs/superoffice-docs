@@ -84,7 +84,7 @@ Bokse med hæftede linjer i layoutet, angiv, hvor du kan placere et felt:
 
 Nedenfor kan du finde mere detaljerede beskrivelser af de forskellige sektioner og funktioner.
 
-## Felter
+## <a id="fields" />Felter
 
 I sektionen **Felter** kan du finde alle tilgængelige datafelter for det valgte skærmlayout. Brug filterfunktionen til at finde bestemte felter.
 
@@ -103,13 +103,13 @@ I sektionen **Felter** kan du finde alle tilgængelige datafelter for det valgte
 
 I sektionen **Elementer** kan du tilføje forskellige elementer, der ikke er data, f.eks. etiketter, skilleelementer, links eller knapper.
 
-## Indstillinger
+## <a id="settings"/>Indstillinger
 
 Gør felter mere synlige ved at ændre skrifttypen til fed og stor tekst. Gør plads til flere felter ved hjælp af en mindre skrifttype. Gem skærmplads ved at skjule etiketter.
 
 Klik på et felt eller element i layoutet for at redigere indstillingerne. Den tilgængelige indstilling varierer afhængigt af felttypen eller elementet.
 
-## Kolonner
+## <a id="columns"/>Kolonner
 
 Som standard har en fane 2 kolonner, men du kan bruge alt fra 1-4 kolonner afhængigt af dine behov. Brugere med brede skærme foretrækker muligvis flere kolonner for at kunne se og sortere flere data.
 
@@ -120,7 +120,7 @@ Som standard har en fane 2 kolonner, men du kan bruge alt fra 1-4 kolonner afhæ
 * Nogle faner, som for eksempel **ERP** og **Bemærkning**, har ikke kolonneopsætning, fordi de har bestemte funktioner.
 * Hvis en bruger ikke har en skærmstørrelse, der passer til alle kolonner, stables de oven på hinanden.
 
-## Faner
+## <a id="tabs" />
 
 Føj flere faner til yderligere felter, eller fjern irrelevante faner.
 
@@ -145,7 +145,7 @@ Føj flere faner til yderligere felter, eller fjern irrelevante faner.
 * Du kan ikke fjerne en fane, der indeholder obligatoriske felter. Obligatoriske felter skal flyttes til en anden fane først.
 * Hvis der kun er én fane tilbage, kan du ikke slette den.
 
-## Fortryd ændringer
+## <a id="undo-changes" />Fortryd ændringer
 
 Hvis du har brug for at vende tilbage til en tidligere version af skærmen, kan du få adgang til følgende indstillinger fra knappen **Opgave**:
 

@@ -58,7 +58,7 @@ Standardprioriteterne, der følger med systemet, er **Høj**, **Middel** og **La
 
 1. Klik på **Gem**. Prioriteten oprettes. Nu kan du f.eks. [knytte eskaleringsniveauer til denne prioritet][1].
 
-## Prioriterede indstillinger
+## <a id="priority-settings"/>Prioriterede indstillinger
 
 | Indstilling | Beskrivelse |
 |---|---|
@@ -68,11 +68,11 @@ Standardprioriteterne, der følger med systemet, er **Høj**, **Middel** og **La
 | Anvend som standard | Hvis du markerer denne, vil denne prioritet blive valgt som standard. |
 | Deadline | Angiv den frist, som sager med denne prioritet bør have. Denne værdi beregnes ud fra tidsrammen for prioriteten og gemmes for hver sag. Resultatværdien angiver, når sagens tidsfrist udløber. |
 | Tidsramme | Tidsintervaller for hver ugedag, der gælder for sagsbehandling. |
-| Helligdage (dag/måned) | Dage, der skal udelukkes fra tidsrammen. Det bruges normalt til feriedage, hvor det ikke er ønskeligt, at sager skal eskaleres. Formatet er en kommasepareret liste med dag/måned. Hvis du f.eks. vil ekskludere 25\. og 26\. december, skal du indtaste følgende: 25/12, 26/12. Du kan også tilføje datoer ved hjælp af datofeltet nedenfor. |
+| Helligdage (dag/måned) | Dage, der skal udelukkes fra tidsrammen. Det bruges normalt til feriedage, hvor det ikke er ønskeligt, at sager skal eskaleres. Formatet er en kommasepareret liste med dag/måned. Hvis du f.eks. vil ekskludere 25. og 26. december, skal du indtaste følgende: 25/12, 26/12. Du kan også tilføje datoer ved hjælp af datofeltet nedenfor. |
 | Medtag år | Hvis du markerer dette, medtages året i feriedatoerne. |
 | Eskaler sager i henhold til tidsramme | Hvis afkrydsningsfeltet er markeret, eskaleres sager med denne prioritet kun inden for prioritetens definerede tidsramme. Eskaleringen 'fryses' i perioder, der er uden for den tidsramme, der er angivet på fanen **Tidsramme**. |
 
-## Indstillinger for eskalering
+## <a id="escalation-options"/>Indstillinger for eskalering
 
 | Mulighed | Beskrivelse |
 |---|---|

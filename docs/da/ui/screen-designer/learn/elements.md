@@ -71,7 +71,7 @@ Knapperne fungerer på samme måde som links. Du kan tilføje links til at slå 
 
 4. I sektionerne **Indstillinger** kan du erstatte teksten **Knap** med det nye knapnavn.
 
-5. Du kan også [add the button name in other languages[2] ved at klikke på ![ikon][img1].
+5. Du kan også [add the button name in other languages][2] ved at klikke på ![ikon][img1].
 
 6. Vælg den handling, der skal udføres på listen **Handlinger**, når der klikkes på knappen:
 
@@ -84,7 +84,7 @@ Knapperne fungerer på samme måde som links. Du kan tilføje links til at slå 
 8. Vælg knappens typografi på listen**Typografi**. Forhåndsvisningen til højre opdateres med den valgte knaptypografi.
 
 <!-- Referenced links -->
-[1]: ../../soprotocol/index.md
+[1]: ../../../../en/ui/soprotocol/index.md
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
 [3]: ../../../document/learn/template-variables.md
 [6]: ../../../automation/crmscript/learn/index.md

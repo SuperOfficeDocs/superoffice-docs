@@ -13,7 +13,7 @@ language: da
 
 # Tilføjelse af forekomster på listen GUI – Webpanel
 
-[!include[Note difference](includes/different-edit-list-item-dialog.md)]v
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 ## Sådan udfyldes felter, når forekomsterne er URL-adresser
 
@@ -92,7 +92,7 @@ language: da
 
 <!-- Referenced links -->
 [1]: add-items-to-task-menu.md
-[2]: ../../../ui/web-panels/url-encoding.md
+[2]: ../../../../en/ui/web-panels/url-encoding.md
 [3]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->

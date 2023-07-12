@@ -55,11 +55,11 @@ Når du har oprettet faser og angivet en salgstype for salgsguiden, kan du desig
 
 4. Vælg den ønskede fase på listen. Fasens detaljer vises nederst i skærmbilledet.
 
-5. [Tilføj en eller flere opfølgninger](#add-a-follow-up-for-a-stage) for den valgte fase.
+5. [Tilføj en eller flere opfølgninger](#add-fo-stage) for den valgte fase.
 
     Du behøver ikke at tilføje et dokument for hver fase, men du bør tilføje mindst én opfølgning for hver fase.
 
-6. [Tilføj et eller flere dokumenter](#add-a-document-for-a-stage) for den valgte fase.
+6. [Tilføj et eller flere dokumenter](#add-doc-stage) for den valgte fase.
 
 7. Gentag trin 4-6 for hver fase, du vil tilføje opfølgninger og dokumenter for.
 
@@ -142,7 +142,7 @@ Dagsorden for første møde:
 **Standardemne**: Mødebekræftelse (første møde)
 
 <!-- Referenced links -->
-[1]: ../../../document/templates/variables/for-sales.md
+[1]: ../../../../en/document/templates/variables/for-sales.md
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
 [4]: ../../../admin/lists/learn/document-template.md

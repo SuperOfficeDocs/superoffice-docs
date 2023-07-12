@@ -21,11 +21,11 @@ language: da
 
 * **Eksterne dokumenter**: Her kan du [tilføje dokumenter][1], der skal være tilgængelige for alle, der bruger SuperOffice Service, herunder ikke-registrerede personer.
 
-* **E-mailadresser**: Hér kan du [oprette en liste over e-mailadresser, som du ofte bruger, for eksempel e-mailadresser på personer, der ikke er bruger eller registreret som personer i SuperOffice CRM. Disse adresser vil derefter være tilgængelige de fleste steder, hvor du har behov for at sende en e-mail.
+* **E-mailadresser**: Hér kan du oprette en liste over e-mailadresser, som du ofte bruger, for eksempel e-mailadresser på personer, der ikke er bruger eller registreret som personer i SuperOffice CRM. Disse adresser vil derefter være tilgængelige de fleste steder, hvor du har behov for at sende en e-mail.
 
 <!-- Referenced links -->
 [1]: ../external-document.md
 [2]: ../../../faq/learn/index.md
-[3]: ../../reply-templates/index.md
+[3]: ../../../../en/request/reply-templates/index.md
 
 <!-- Referenced images -->

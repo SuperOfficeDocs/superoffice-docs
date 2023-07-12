@@ -44,6 +44,6 @@ Du kan starte følgende hændelsestyper fra fanen **Status** på skærmbilledet 
 
 <!-- Referenced links -->
 [1]: add-system-event.md
-[2]: ../license/index.md
+[2]: ../../../en/admin/license/index.md
 
 <!-- Referenced images -->

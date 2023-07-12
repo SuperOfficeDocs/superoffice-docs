@@ -25,7 +25,7 @@ Med dobbelt tilsagn skal kunderne bekræfte deres e-mailadresse ved at klikke p�
 Denne indstilling føjer et ekstra lag af sikkerhed til formularen. Hvis du aktiverer denne indstilling, skal personen, der indsender formularen, også bekræfte sin e-mailadresse. Det gøres ved at sende vedkommende en e-mail, når formularen indsendes. E-mailen indeholder et link, som man skal klikke på for at bekræfte, at e-mailadressen er korrekt.
 Linket er som standard gyldigt i 30 minutter.
 
-## Tilmelding til nyhedsbrev
+## <a id="newsletter-sign-up" />Tilmelding til nyhedsbrev
 
 Med denne formular kan dine kunder tilmelde sig et eller flere nyhedsbreve. Tilmeldingsprocessen inkluderer også dobbelt opt-in for at eliminere fejlagtige eller falske abonnementer.
 
@@ -128,9 +128,9 @@ Med denne formular kan dine kunder tilmelde sig et eller flere nyhedsbreve. Tilm
 
 1. Åbn linket til formularen, udfyld formularen, og kontroller, at alt fungerer som forventet.
 
-## Kontakt mig
+## <a id="contact-me" />Kontakt mig
 
-Læg en “Kontakt mig”-formular på firmaets websider for at give en nem kommunikationskanal til nuværende eller potentielle kunder.
+Læg en "Kontaktmig"-formular på firmaets websider for at give en nem kommunikationskanal til nuværende eller potentielle kunder.
 
 I dette eksempel viser vi, hvordan du opretter en kort formular til kunder, der vil i kontakt med en supportmedarbejder. Indsendelsen af formularen udløser en ny anmodning til din supportafdeling.
 

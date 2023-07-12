@@ -18,7 +18,7 @@ Masseredigering giver dig mulighed for at ændre værdier på tværs af flere po
 2. Udvalg: Klik på knappen **Opgave**, og vælg **Masseopdatering**.
     eller
     Marker de poster, du vil opdatere, højreklik på dem, og vælg **Masseredigering ...**
-    Dialogboksen **Masseredigering** åbnes. Nederst i denne dialogboks kan du se typen post og hvor mange poster, der skal opdateres. Eksempel: Antal personer i kø til masseredigering: 7\.
+    Dialogboksen **Masseredigering** åbnes. Nederst i denne dialogboks kan du se typen post og hvor mange poster, der skal opdateres. Eksempel: Antal personer i kø til masseredigering: 7.
 
     > [!NOTE]
     > Hvis udvalget indeholder både firmaer og personer, vil der være to faner: **Firma** og **Person**.
@@ -54,7 +54,7 @@ Masseredigering giver dig mulighed for at ændre værdier på tværs af flere po
 
 10. Klik på **Luk**.
 
-## Søg og erstat
+## <a id="search-and-replace" />Søg og erstat
 
 Du kan bruge handlingen **Søg og erstat** til at finde en bestemt tekst i et felt og erstatte den.
 

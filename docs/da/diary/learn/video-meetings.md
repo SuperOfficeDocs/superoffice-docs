@@ -46,7 +46,7 @@ Du kan nemt oprette et videomøde, når du opretter en opfølgning. Se denne vid
 
 3. Du kan også konfigurere en alarm, der skal vises via et pop op-vindue, før mødet starter.
 
-4. Inviter deltagere: Gå til fanen **Deltagere** og klik på knappen **\+ Tilføj** for at invitere andre til dette møde.
+4. Inviter deltagere: Gå til fanen **Deltagere** og klik på knappen **+ Tilføj** for at invitere andre til dette møde.
 
     Når du har tilføjet alle, som du ønsker skal deltage i mødet, skal du klikke på **Gem**.
 
@@ -61,7 +61,7 @@ Du kan deltage i et videomøde i SuperOffice på flere måder:
 
 * Klik på **Deltag i møde** i dialogboksen **Opfølgning** (aftale).
 * Klik på **Deltag i møde** i sidepanelet.
-* Klik på en browserbesked (kun tilgængelig, hvis indstillingen **Alarm** er aktiveret.
+* Klik på en browserbesked (kun tilgængelig, hvis indstillingen **Alarm** er aktiveret.)
 * Højreklik på et videomøde i dagbogen, og vælg **Deltag i møde**.
 
 Se denne video, eller følg nedenstående trin (videolængde - 1:11):
@@ -93,7 +93,7 @@ Klik på aftalen i din SuperOffice-dagbog for at se dens detaljer på forhåndsv
 Du deltager i videomødet via forhåndsvisningsskærmen ved at klikke på knappen Deltag i møde nederst i sidepanelet. Når du klikker på linket, starter dit videomøde automatisk.
 
 <!-- Referenced links -->
-[1]: ../../video-meeting/howto/connect-provider.md
+[1]: ../../../en/video-meeting/howto/connect-provider.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/videocall-off.png
