@@ -1,0 +1,26 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Visa formulär
+  href: view.md
+- name: Arbeta med formulär
+  topicHref: form-templates.md
+  items:
+  - name: Skapa nytt formulär
+    href: create.md
+  - name: Fältalternativ
+    href: field-options.md
+  - name: Publicera formulär
+    href: publish.md
+  - name: Använda förifyllda fält
+    href: form-prefilled.md
+  - name: Exempel
+    href: examples.md
+- name: Formulärinlämningar
+  topicHref: submissions/index.md
+  items:
+  - name: Spåra formulärinlämningar och visa statistik
+    href: submissions/track.md
+  - name: Behandla formulärinlämningar
+    href: submissions/process.md
+  

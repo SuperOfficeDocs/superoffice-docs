@@ -1,0 +1,11 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Lägg till ny layout
+  href: add-new-layout.md
+- name: Redigera layout - Huvudkort
+  href: edit-layout.md
+- name: Redigera layout - Arkiv (avsnittsflikar)
+  href: edit-layout-archives.md
+- name: Objekt
+  href: elements.md

@@ -1,0 +1,67 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Fönstret Rapporter
+  href: screen/index.md
+- name: Standardrapporter
+  href: standard-reports.md
+- name: Arbeta med rapporter
+  topicHref: working-with-reports.md
+  items:
+  - name: Översikt
+    href: working-with-reports.md
+  - name: Granska rapport
+    href: view.md
+  - name: Visa rapportegenskaper
+    href: properties.md
+  - name: Skapa rapport
+    href: create.md
+  - name: Köra rapport
+    href: run.md
+  - name: Förhandsgranska rapport
+    href: preview.md
+  - name: Skriva ut rapport
+    href: print.md
+  - name: Spara rapport som fil
+    href: save.md
+  - name: Öppna rapporter i rapportarkiv
+    href: open-from-archive.md
+  - name: Filtrera i rapportarkiv
+    href: filter.md
+  - name: Ta bort rapporter i rapportarkiv
+    href: delete-from-archive.md
+  - name: Korstabeller
+    href: cross-tables.md
+- name: Arbeta med ledtexter
+  topicHref: labels/index.md
+  items:
+  - name: Granska ledtexter
+    href: labels/index.md
+  - name: Lägga till ledtextformat
+    href: labels/add-format.md
+  - name: Redigera ledtextformat
+    href: labels/edit-format.md
+  - name: Ta bort ledtextformat
+    href: labels/remove-format.md
+  - name: Skriva ut ledtexter
+    href: labels/print-labels.md
+- name: Sökkriterier
+  topicHref: search-criteria/index.md
+  items:
+  - name: Översikt
+    href: search-criteria/index.md
+  - name: Lägg till sökkriterier i rapporter
+    href: search-criteria/add.md
+  - name: Redigera sökkriterier i rapporter
+    href: search-criteria/edit.md
+- name: Favoritrapporter
+  topicHref: favorites/index.md
+  items:
+  - name: Översikt
+    href: favorites/index.md
+  - name: Lägga till rapport i favoriter
+    href: favorites/add.md
+  - name: Redigera favoritrapport
+    href: favorites/edit.md
+  - name: Ta bort favoritrapporter
+    href: favorites/delete.md

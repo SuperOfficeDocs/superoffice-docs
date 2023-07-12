@@ -1,0 +1,7 @@
+items:
+  - name: Översikt
+    href: index.md
+  - name: Textanalys
+    href: text-analysis.md
+  - name: Kategorisering
+    href: categorization.md

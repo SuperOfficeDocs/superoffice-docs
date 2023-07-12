@@ -1,0 +1,11 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Ärendeskärm
+  href: screen/index.md
+- name: Hantera ärenden med AI
+  href: handle-request-ai.md
+- name: Arbeta med ärenden
+  href: howto/toc.yml
+  topicHref: find.md
+  

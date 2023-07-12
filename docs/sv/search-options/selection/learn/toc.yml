@@ -1,0 +1,20 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Fönstret urval
+  href: screen/index.md
+- name: Statiska urval
+  href: static-selections.md
+- name: Dynamiska urval
+  href: dynamic-selections.md
+- name: Kombinationsurval
+  href: combined-selections.md
+- name: Skapa urval
+  href: create/toc.yml
+  topicHref: create/index.md
+- name: Uppdatera urval
+  href: update/toc.yml
+  topicHref: update/index.md
+- name: Utföra uppgifter för urval
+  href: howto/toc.yml
+  topicHref: howto/index.md

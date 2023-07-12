@@ -1,0 +1,27 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Fliken Makron och skript
+  href: screen/index.md
+- name: Arbeta med CRMScript
+  topicHref: macro-script.md
+  items:
+  - name: Makron och skript
+    topicHref: macro-script.md
+    items:
+    - name: Översikt
+      href: macro-script.md
+    - name: Skapa ett skript
+      href: create-script.md
+    - name: Skapa ett makro
+      href: create-macro.md
+    - name: Egenskaper för makro- eller skriptmapp
+      href: create-folder.md
+  - name: Utlösare
+    href: trigger.md
+  - name: Planerade uppgifter
+    href: schedule-task.md
+  - name: Felsökningssessioner
+    href: debug.md
+  - name: Spårning
+    href: tracing.md

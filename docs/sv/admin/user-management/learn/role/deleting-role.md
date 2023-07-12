@@ -1,0 +1,42 @@
+---
+uid: help-sv-deleting-role
+title: Ta bort en roll
+description: Ta bort en roll
+author: Bergfrid Dias
+so.date: 03.15.2023
+keywords: administrera användare, roll
+so.topic: howto
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
+language: sv
+---
+
+# Ta bort en roll
+
+[!include[Requirement](../includes/note-anon-req.md)]
+
+När du tar bort en roll måste du flytta de användare som har rollen till en annan roll. Därför måste du se till att användarna har rätt åtkomst i den roll du flyttar dem till.
+
+## Steg
+
+1. [!include[Open Roles](includes/open-roles.md)]
+
+2. Gå till fliken **Medarbetare** eller **Externa**.
+
+    > [!NOTE]
+    > Du kan inte ta bort rollen för anonyma användare.
+
+3. Markera önskad roll i listan **Roller**.
+
+4. Klicka på **Ta bort**.
+
+    Varför är knappen Ta bort inaktiverad (grå)? Rollen du själv tillhör eller rollen systemanvändare (**Användarnivå 0**) kan inte tas bort. Om det bara finns en roll kan du inte ta bort den.
+
+5. Klicka på ![ikon][img3] pilen bredvid fältet **Flytta alla användare med denna roll till** i dialogrutan **Ta bort roll** och välj en annan roll för de användare som tillhör rollen du vill ta bort.
+
+6. Klicka på **Ta bort**. Rollen tas bort från listan. Borttagningen av en roll kan inte ångras.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img3]: ../../../../../media/icons/arrow-down.png

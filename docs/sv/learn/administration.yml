@@ -1,0 +1,89 @@
+### YamlMime:SubCategory
+
+title: Användaradministration och systeminställningar
+summary: "Lär dig mer om licenser, roller och användare, språk och lokaliseringar, hur du importerar externt innehåll och hur våra AI-tjänster fungerar."
+
+metadata:
+  title: Användaradministration och systeminställningar
+  description: "Licenser, administrering av användare, språk och lokalisering, import"
+  so.product: administration
+  so.topic: landing-page
+  author: Help and Learn
+  so.author: Kirsti A.
+  so.date: 11.29.2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Licenser
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Översikt över licens
+          url: ../admin/license/learn/index.md
+        - text: Fönstret Licenser
+          url: ../admin/license/learn/screen/index.md
+        - text: Aktivera licens
+          url: ../admin/license/learn/activate.md
+
+  # Card
+  - title: Administrering av användare
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Roller
+          url: ../admin/user-management/learn/role/index.md
+        - text: Skapa en roll
+          url: ../admin/user-management/learn/role/create-role.md
+        - text: Användare
+          url: ../admin/user-management/learn/index.md
+        - text: Lägga till användare
+          url: ../admin/user-management/learn/add-associate.md
+        - text: Uppdatera användarinformation
+          url: ../admin/user-management/learn/update-user.md
+        - text: Hantera användargrupper
+          url: ../admin/user-management/learn/user-groups.md
+        - text: "Hantera \"Våra företag\""
+          url: ../admin/user-management/learn/our-companies.md
+
+  # Card
+  - title: Import
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Konfigurera importinställningar
+          url: ../admin/import/learn/configure-import-settings.md
+        - text: Importera från Excel
+          url: ../admin/import/learn/import-from-excel.md
+        - text: Importera produkter från Excel
+          url: ../admin/import/learn/import-products-from-excel.md
+        - text: Importera från Gmail
+          url: ../admin/import/learn/import-from-gmail.md
+        - text: Importera från Outlook
+          url: ../admin/import/learn/import-from-outlook.md
+        - text: Importera från ERP
+          url: ../admin/import/learn/import-from-erp.md
+
+  # Card
+  - title: AI
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Kategorisering
+          url: ../ai/learn/categorization.md
+        - text: Textanalys
+          url: ../ai/learn/text-analysis.md
+
+ # Card
+  - title: ERP
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Ansluta till ERP
+          url: ../admin/erp/learn/erp-connect.md
+        - text: Skapa ERP-aktör
+          url: ../admin/erp/learn/erp-create-new-actor.md
+        - text: Inaktivera synkronisering
+          url: ../admin/erp/learn/erp-sync-disconnect.md

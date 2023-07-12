@@ -1,0 +1,21 @@
+items:
+  - name: Översikt
+    href: index.md
+  - name: Skapa utskick
+    href: create-mailings.md
+  - name: Skicka e-post till flera mottagare
+    href: send-email.md
+  - name: Generera händelser
+    href: generate-follow-ups.md
+  - name: Visa urval som diagram
+    href: display-as-charts.md
+  - name: Massuppdatering
+    href: bulk-update.md
+  - name: Skriva ut ledtexter
+    href: print-labels.md
+  - name: Skriva ut företagsrapporter
+    href: print-company-reports.md
+  - name: Exportera till Excel eller fil
+    href: export.md
+  - name: Ta bort poster permanent
+    href: mass-delete.md
