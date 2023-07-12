@@ -60,4 +60,4 @@ Hvis den vedhæftede fil er den eneste del af e-mailen, du gerne vil beholde til
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: media/email-maillink-archive-attachment.png
+[img1]: ../../../../media/loc/en/email/email-maillink-archive-attachment.png

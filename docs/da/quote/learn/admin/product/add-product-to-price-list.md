@@ -83,4 +83,4 @@ Du kan finde ud af, hvilke felter der vises, ved at gå til fanen **Indstillinge
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/search-icon-black.png
-[img2]: media/add-products-to-price-list.png
+[img2]: ../../../../../media/loc/en/quote/add-products-to-price-list.pn

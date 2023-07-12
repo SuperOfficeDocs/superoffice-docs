@@ -47,7 +47,7 @@ Opfølgninger er tæt knyttet til dagbogsskærmen, og nogle funktioner gælder i
 * [Oprettelse af gentagne opfølgning][10]
 * [Invitation af andre medarbejdere til en opfølgning][11]
 * [Link aktiviteter][12]
-* Flyt opfølgninger][19]
+* [Flyt opfølgninger][19]
 * [Ændre sluttidspunktet for opfølgning][20]
 * [Kopiering af opfølgning til Dagbogen][21]
 * [Udskriv][5]
@@ -79,4 +79,4 @@ Opfølgninger er tæt knyttet til dagbogsskærmen, og nogle funktioner gælder i
 [23]: video-meetings.md
 
 <!-- Referenced images -->
-[img1]: media/diary.png
+[img1]: ../../../media/loc/en/diary/diary.png

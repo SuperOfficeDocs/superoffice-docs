@@ -59,4 +59,4 @@ Du kan arkivere en e-mail (inklusive vedhæftede filer) i din e-mailklientindbak
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: media/email-maillink-archive-email.png
+[img1]: ../../../../media/loc/en/email/email-maillink-archive-email.png

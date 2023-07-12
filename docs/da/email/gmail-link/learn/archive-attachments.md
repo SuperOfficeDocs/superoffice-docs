@@ -18,7 +18,7 @@ Hvis den vedhæftede fil er den eneste del af e-mailen, som du vil beholde til s
 2. Hold musemarkøren over den vedhæftede fil, som du vil arkivere.
     ![ikon][img1]
 
-3. Klik på SuperOffice-ikonet ![ikon][img2]).
+3. Klik på SuperOffice-ikonet ![ikon][img2].
 
 4. I dialogboksen **Arkivér vedhæftet fil som SuperOffice-dokument** udfyldes felterne **Firma** og **Person** automatisk, hvis afsenderen er registreret i SuperOffice. Udfyld den relevante information i følgende felter:
 
@@ -43,5 +43,5 @@ Hvis den vedhæftede fil er den eneste del af e-mailen, som du vil beholde til s
 [7]: manage-senders.md
 
 <!-- Referenced images -->
-[img1]: media/attachment-save.png
+[img1]: ../../../../media/loc/en/email/attachment-save.png
 [img2]: ../../../../media/icons/gmail-link/btn-archive-attachment.png

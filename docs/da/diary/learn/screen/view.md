@@ -44,5 +44,5 @@ Hvis du vælger **fanen Vis** på skærmbilledet Dagbog, ![vises ikonet][img2] *
 [5]: ../invitation/add-participant.md
 
 <!-- Referenced images -->
-[img1]: media/view.bmp
+[img1]: ../../../../media/loc/en/diary/view.bmp
 [img2]: ../../../../media/icons/btn-menu.png

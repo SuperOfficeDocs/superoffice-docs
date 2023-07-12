@@ -11,7 +11,7 @@ I skærmbilledet Bekræft får du en oversigt over de forudgående trin, du har 
 
 ## Sende udsendelsen med det samme
 
-Klik på **Send nu** for at afsende udsendelsen med det samme. Workflowet lukker, og du kommer tilbage til fanebladet **Udsendelser**.
+Klik på **Send nu** ![icon][img1] for at afsende udsendelsen med det samme. Workflowet lukker, og du kommer tilbage til fanebladet **Udsendelser**.
 
 Klik på udsendelsen på listen for at se status og statistik for din afsendelse. [Spor udsendelsen og få vist statistik][1].
 
@@ -31,12 +31,13 @@ For ikke at overbelaste serverne i arbejdstiden kan det være en god idé at væ
 
 Klik på udsendelsen på listen for at [se status og statistik for din afsendelse][1].
 
-For at standse udsendelsen eller påbegynde en planlagt udsendelse før planlagt tid, skal du klikke på de respektive **Stop** eller **Start** \- knapper.
+For at standse udsendelsen eller påbegynde en planlagt udsendelse før planlagt tid, skal du klikke på de respektive **Stop** eller **Start** - knapper.
 
 <!-- Referenced links -->
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img2]: ../media/btn-schedule.png
+[img1]: ../../../../../../media/loc/en/marketing/send-now.png
+[img2]: ../../../../../../media/loc/en/marketing/btn-schedule.png
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png
-[img4]: media/send-or-schedule.png
+[img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png

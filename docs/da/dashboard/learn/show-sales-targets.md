@@ -29,10 +29,10 @@ For at kunne visualisere dine mål i et dashboard skal du først tilføje eller 
 
 5. Vælg et af følgende diagrammer på fanen **Bibliotek** :
 
-    * ![ikon][img2] \- Stort nummer
-    * ![ikon][img3] \- Søjlediagram
-    * ![ikon][img4] \- Kolonnediagram
-    * ![ikon][img5] \- Målediagram
+    * ![ikon][img2] - Stort nummer
+    * ![ikon][img3] - Søjlediagram
+    * ![ikon][img4] - Kolonnediagram
+    * ![ikon][img5] - Målediagram
     * Tom salgsrude
 
     > [!TIP]
@@ -101,5 +101,5 @@ Er Sammenlign med mål slet ikke synlig, skal du kontrollere, at du har valgt de
 [img4]: ../../../../common/icons/bar.png
 [img5]: ../../../../common/icons/gauge.png
 [img6]: ../../../../common/icons/edit-pen.png
-[img7]: media/user-dashboard-tile-comparetotarget.png
-[img8]: media/user-dashboard-tile-disabled-comparetotarget.png
+[img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
+[img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png

@@ -84,8 +84,8 @@ Spar tid ved at bruge foruddefinerede tekster, når du besvarer kundeforespørgs
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/chat-tab-dashboard.png
-[img3]: media/chat-status-present.png
-[img4]: media/chat-status-away.png
+[img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
+[img3]: ../../../media/loc/en/chat/chat-status-present.png
+[img4]: ../../../media/loc/en/chat/chat-status-away.png
 [img5]: ../../../../common/icons/smiley-icon.png
-[img6]: media/chat-quickreply.png
+[img6]: ../../../media/loc/en/chat/chat-quickreply.png

@@ -26,4 +26,4 @@ N√•r du har fundet ud af, hvilket design du vil bruge, kan du med et par klik v√
 
 <!-- Referenced images -->
 [img1]: ../../../../../../../common/icons/nav-search.png
-[img2]: media/work-with-templates.png
+[img2]: ../../../../../../media/loc/en/marketing/work-with-templates.png

@@ -85,4 +85,4 @@ Du kan f.eks. bestemme, om en person kan slette, opdatere, oprette eller læse o
 [6]: ../role/set-data-rights-for-role.md
 
 <!-- Referenced images -->
-[img1]: media/manage-user-levels.png
+[img1]: ../../../../../media/loc/en/admin/manage-user-levels.png

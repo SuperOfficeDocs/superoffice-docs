@@ -61,5 +61,5 @@ Fanen **Salgssektion** i dagbogen fungerer som en slags "salgssekretær", der hj
 [img1]: ../../../../media/icons/sale-sold-details.bmp
 [img2]: ../../../../media/icons/sale-lost-details.bmp
 [img3]: ../../../../../common/icons/salestalled.png
-[img4]: media/sales-detail.bmp
+[img4]: ../../../../media/loc/en/diary/sales-detail.bmp
 [img5]: ../../../../media/icons/personal-settings-small.png

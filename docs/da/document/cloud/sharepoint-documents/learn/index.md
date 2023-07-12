@@ -50,4 +50,4 @@ For at konfigurere SharePoint som dit dokumentbibliotek i SuperOffice skal du br
 [4]: ../../../../admin/preferences/learn/document-library/change-to-sharepoint.md
 
 <!-- Referenced images -->
-[img1]: media/admin-preferences-documentlibrary.png
+[img1]: ../../../../../media/loc/en/document/admin-preferences-documentlibrary.png

@@ -47,9 +47,9 @@ Det fulde navn, e-mailadresse og ejerfirma vises øverst. Nederst i dette afsnit
 
 Der er forskellige faner i brugeroversigten:
 
-* **Detaljer** \- hovedoversigt over brugeroplysninger som **Bruger-ID**, **Rolle**, **Brugerplan**, **Primær gruppe** og **Service-kategorier**.
-* **Licenser** \- ekstra licensoplysninger som **Fortrolige aktiviteter**, som vil give brugeren mulighed for at angive **synlig for** på aftaler, dokumenter oh valg.
-* **Mere** \- fanen viser, om der er ekstra felter på personen.
+* **Detaljer** - hovedoversigt over brugeroplysninger som **Bruger-ID**, **Rolle**, **Brugerplan**, **Primær gruppe** og **Service-kategorier**.
+* **Licenser** - ekstra licensoplysninger som **Fortrolige aktiviteter**, som vil give brugeren mulighed for at angive **synlig for** på aftaler, dokumenter oh valg.
+* **Mere** - fanen viser, om der er ekstra felter på personen.
 
 ## Andre brugere (Onsite)
 
@@ -108,4 +108,4 @@ På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik ov
 [11]: ../other-users.md
 
 <!-- Referenced images -->
-[img1]: media/admin-users-overview.png
+[img1]: ../../../../../media/loc/en/admin/admin-users-overview.png

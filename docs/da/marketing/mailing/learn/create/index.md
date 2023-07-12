@@ -89,4 +89,4 @@ I det femte og sidste trin bekræfter du og afsender eller tidsindstiller din ud
 [11]: target-list.md
 
 <!-- Referenced images -->
-[img1]: media/mailing-workflow-all.png
+[img1]: ../../../../../media/loc/en/marketing/mailing-workflow-all.png

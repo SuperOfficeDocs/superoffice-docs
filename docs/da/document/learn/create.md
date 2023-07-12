@@ -101,4 +101,4 @@ Med SuperOffice CRM kan du logge på fra en hvilken som helst pc via en browser,
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-completed-small.png
-[img2]: media/upload.png
+[img2]: ../../../media/loc/en/document/upload.png

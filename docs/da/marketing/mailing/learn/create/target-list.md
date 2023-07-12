@@ -133,4 +133,4 @@ Brug f.eks. dynamiske udvalg, når du har brug for de mest ajourførte data til 
 [9]: ../../../tracked-links/learn/explore-clicks.md
 
 <!-- Referenced images -->
-[img1]: media/abigails-contact-card-interests.png
+[img1]: ../../../../../media/loc/en/marketing/abigails-contact-card-interests.png

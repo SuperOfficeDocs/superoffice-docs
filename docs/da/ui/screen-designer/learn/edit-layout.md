@@ -80,7 +80,7 @@ Se denne video og find ud af, hvordan du bruger skærmdesigneren til at konfigur
 
 Bokse med hæftede linjer i layoutet, angiv, hvor du kan placere et felt:
 
-![Bokse med hæftede linjer – skærmbillede](media/screendesigner-field-place.png)
+![Bokse med hæftede linjer -screenshot][img6]
 
 Nedenfor kan du finde mere detaljerede beskrivelser af de forskellige sektioner og funktioner.
 
@@ -120,7 +120,7 @@ Som standard har en fane 2 kolonner, men du kan bruge alt fra 1-4 kolonner afhæ
 * Nogle faner, som for eksempel **ERP** og **Bemærkning**, har ikke kolonneopsætning, fordi de har bestemte funktioner.
 * Hvis en bruger ikke har en skærmstørrelse, der passer til alle kolonner, stables de oven på hinanden.
 
-## <a id="tabs" />
+## <a id="tabs" />Faner
 
 Føj flere faner til yderligere felter, eller fjern irrelevante faner.
 
@@ -162,4 +162,5 @@ Hvis du har brug for at vende tilbage til en tidligere version af skærmen, kan 
 [img2]: ../../../../../common/icons/delete-circle-red.png
 [img4]: ../../../../media/icons/criteria-move.png
 [img5]: ../../../../../common/icons/add-icon.png
-[img3]: media/edit-the-screen-layout-of-companies-and-contacts.png
+[img3]: ../../../../media/loc/en/ui/edit-the-screen-layout-of-companies-and-contacts.png
+[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.pngtacts.png

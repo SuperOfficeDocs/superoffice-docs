@@ -91,8 +91,8 @@ Under fanen **Arrangement** kan du angive indstillinger for publicering af Arran
 [8]: project-guide/create.md
 
 <!-- Referenced images -->
-[img1]: media/projects.png
+[img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img4]: screen/media/project-more.bmp
+[img4]: ../../../media/loc/en/project/project-more.bmp
 [img5]: ../../../media/icons/select.bmp

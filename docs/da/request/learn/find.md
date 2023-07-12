@@ -114,4 +114,4 @@ Hvis forhåndsvisningssektionen ikke er synlig, skal du klikke på **Vis forhån
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
-[img3]: media/find-requests.png
+[img3]: ../../../media/loc/en/request/find-requests.png

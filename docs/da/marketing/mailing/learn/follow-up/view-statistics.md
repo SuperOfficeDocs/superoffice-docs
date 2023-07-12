@@ -61,7 +61,7 @@ Når din mailing er sendt ud, kan du se i fanen **Oversigt**, hvordan den klared
 
 * **Sporede links**: I dette faneblad kan du se [antal klik på alle de sporede links][3] i udsendelsen. Klik på et link for at åbne skærmbilledet **Se link**. Du vil nu se en liste over de modtagere, der har klikket på linket, og hvornår de klikkede på dem. Brug denne liste til at foretage en udvælgelse eller definere et projekt til videre opfølgning.
 
-* **Administrere afviste udsendelser**: En oversigt over alle afviste e-mails. Brug handlingerne til at rydde op i dine afviste mailadresser][1], enten ved at [sætte kontakterne som tidligere ansatte eller ved at slette mailadresserne.
+* **Administrere afviste udsendelser**: En oversigt over alle afviste e-mails. Brug handlingerne til at [rydde op i dine afviste mailadresser][1], enten ved at sætte kontakterne som tidligere ansatte eller ved at slette mailadresserne.
 
 > [!NOTE]
 > Fanerne **Rapporter** og **Sporede links** kræver brugerlicensen: Marketing. Nogle faner er ikke tilgængelige for SMS-forsendelser og dokumentforsendelser.
@@ -78,4 +78,4 @@ Når din mailing er sendt ud, kan du se i fanen **Oversigt**, hvordan den klared
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
-[img2]: media/summary-tab.png
+[img2]: ../../../../../media/loc/en/marketing/summary-tab.png

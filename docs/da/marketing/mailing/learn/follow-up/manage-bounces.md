@@ -125,4 +125,4 @@ Brug denne indstilling til at angive en person som tidligere medarbejder.
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/warning.png
-[img2]: media/handle-bounced-emails.png
+[img2]: ../../../../../media/loc/en/marketing/handle-bounced-emails.png

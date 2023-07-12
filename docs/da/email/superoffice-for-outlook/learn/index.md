@@ -34,4 +34,4 @@ For at oprette forbindelse til SuperOffice til Outlook skal du gå til vores [Ap
 [2]: ../../../admin/preferences/learn/document-library/index.md
 
 <!-- Referenced images -->
-[img1]: media/user-superoffice-outlook-sidepanel.png
+[img1]: ../../../../media/loc/en/email/user-superoffice-outlook-sidepanel.png

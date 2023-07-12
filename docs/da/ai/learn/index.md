@@ -35,4 +35,4 @@ AI kan hjælpe dig med at få mening ud af de data, du har, og hjælpe dig med a
 [3]: ../../chat/learn/admin/channel-create.md#chatbot
 
 <!-- Referenced images -->
-[img1]: media/ai-services.png
+[img1]: ../../../media/loc/en/ai/ai-services.png

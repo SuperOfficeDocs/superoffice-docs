@@ -86,9 +86,9 @@ Ud over svarskabelonens udseende/formatering skal den indeholde følgende skabel
 ```text
 [[IF:message.bodyHtml!=""]]
 [[message.bodyHtml]]
-\[\[ELSE\]\]
+[[ELSE]]
 [[message.body]]
-\[\[ENDIF\]\]
+[[ENDIF]]
 ```
 
 ## <a id="faq" />Automatisk FAQ-svar
@@ -116,4 +116,4 @@ Du kan vælge graden af sammenhæng mellem sagen fra kunden og FAQ-posterne i fe
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/main-menu.png
 [img2]: ../../../../media/icons/main-menu-small.png
-[img3]: media/create-a-new-reply-template.png
+[img3]: ../../../../media/loc/en/request/create-a-new-reply-template.png

@@ -54,4 +54,4 @@ Tags kan bruges til at søge efter sager i [fritekstsøgning][2] og i den almind
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/requests-tag-request-small.png
+[img2]: ../../../media/loc/en/request/requests-tag-request-small.pngng

@@ -171,5 +171,5 @@ Når alle ønskede opfølgninger og dokumenter for projektet er færdige, kan du
 [4]: create.md
 
 <!-- Referenced images -->
-[img1]: ../screen/media/project-guide-create.bmp
-[img2]: ../screen/media/project-guide-right-click.bmp
+[img1]: ../../../../media/loc/en/project/project-guide-create.bmp
+[img2]: ../../../../media/loc/en/project/project-guide-right-click.bmp

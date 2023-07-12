@@ -129,5 +129,5 @@ Hvis du har brug for at vende tilbage til en tidligere version af skærmen, kan 
 [img2]: ../../../../../common/icons/add-icon.png
 [img3]: ../../../../../common/icons/az.png
 [img4]: ../../../../../common/icons/info-ball.png
-[img1]: media/admin-screendesigner-edit-archive.png
-[img5]: media/admin-screendesigner-edit-archive-add-tab.png
+[img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
+[img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png

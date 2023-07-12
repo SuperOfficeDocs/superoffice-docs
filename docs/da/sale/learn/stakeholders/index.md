@@ -48,4 +48,4 @@ Du skal også angive præferencen **Vis interessenter** i præferencegruppen **S
 [7]: ../../../admin/preferences/learn/update-preferences.md
 
 <!-- Referenced images -->
-[img1]: media/chap7-stakeholders.bmp
+[img1]: ../../../../media/loc/en/sale/chap7-stakeholders.bmp

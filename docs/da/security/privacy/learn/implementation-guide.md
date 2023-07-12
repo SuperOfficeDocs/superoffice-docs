@@ -279,4 +279,4 @@ Ved at gennemføre de tre trin har du taget vigtige skridt i retning af overhold
 [6]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
-[img1]: media/privacy.png
+[img1]: ../../../../media/loc/en/security/privacy.png

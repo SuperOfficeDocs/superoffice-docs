@@ -65,9 +65,9 @@ I vores app Mobile CRM har du adgang til alle dine sager og kan besvare eller ov
 
 ## Relateret indhold
 
-* [Sådan konfigurerer du godkendelse med fingeraftryk][3] \- FAQ
-* [Sådan indstiller du meddelelser på Mobile CRM][4] \- FAQ
-* [Hvordan kommer jeg i gang med at bruge opkalds-id til Mobile CRM][5] \- FAQ
+* [Sådan konfigurerer du godkendelse med fingeraftryk][3] - FAQ
+* [Sådan indstiller du meddelelser på Mobile CRM][4] - FAQ
+* [Hvordan kommer jeg i gang med at bruge opkalds-id til Mobile CRM][5] - FAQ
 
 <!-- Referenced links -->
 [1]: ../../../../assets/downloads/quick-guide-for-mobile-crm-2020.pdf
@@ -78,4 +78,4 @@ I vores app Mobile CRM har du adgang til alle dine sager og kan besvare eller ov
 [7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
 <!-- Referenced images -->
-[img1]: media/mobile-crm-gif-prev-02.gif
+[img1]: ../../../../media/loc/en/mobile/mobile-crm-gif-prev-02.gif

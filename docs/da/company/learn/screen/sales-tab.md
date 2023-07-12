@@ -33,5 +33,5 @@ Hvis du markerer **Medtag interessenter** nederst på detaljekortet, vises også
 [4]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->
-[img1]: media/sale-detail.bmp
+[img1]: ../../../../media/loc/en/company/requests-detail.bmp
 [img2]: ../../../../../common/icons/filter-icon.png

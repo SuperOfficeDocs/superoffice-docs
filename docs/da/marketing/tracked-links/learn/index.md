@@ -73,7 +73,7 @@ Google Analytics-funktionen i SuperOffice Marketing identificerer dine mailudsen
 
 * [Medtage links, du vil spore][3]
 * [Tilføje abonnement-links][4]
-* [Enkel e-mailsporing med Google Analytics][6] \- blog
+* [Enkel e-mailsporing med Google Analytics][6] - blog
 * [Definer linkhandlinger][7]
 
 <!-- Referenced links -->
@@ -89,4 +89,4 @@ Google Analytics-funktionen i SuperOffice Marketing identificerer dine mailudsen
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/btn-add.png
 [img3]: ../../../../../common/icons/folder.png
-[img4]: media/link-properties.png
+[img4]: ../../../../media/loc/en/marketing/link-properties.png

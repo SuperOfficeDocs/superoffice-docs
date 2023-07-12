@@ -105,5 +105,5 @@ Du har også mulighed for at gendanne andre brugeres slettede firmaer og persone
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
-[img2]: media/recycle-bin.png
-[img3]: media/recycle-bin-personal-settings.png
+[img2]: ../../../media/loc/en/learn/recycle-bin.png
+[img3]: ../../../media/loc/en/learn/recycle-bin-personal-settings.png

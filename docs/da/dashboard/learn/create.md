@@ -67,4 +67,4 @@ Der er mange standardruder at vælge imellem i biblioteket, men du kan også opr
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/az.png
-[img2]: media/10-dashboard-create-dashboard_dragdrop.png
+[img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png

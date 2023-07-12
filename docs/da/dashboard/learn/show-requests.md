@@ -76,4 +76,4 @@ Her vises de sager, som ingen er tildelt ansvaret for. Hvis du vil [overtage ans
 [7]: add-tile.md
 
 <!-- Referenced images -->
-[img1]: ../../request/learn/howto/media/service-dashboard.png
+[img1]: ../../../media/loc/en/request/service-dashboard.png

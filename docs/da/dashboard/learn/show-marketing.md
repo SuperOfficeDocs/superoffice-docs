@@ -54,5 +54,5 @@ Tag et kig på eksemplerne nedenfor for at få ideer til ruder, du kan føje til
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
-[img1]: media/user-mailing-dashboard.png
-[img2]: media/user-mailing-dashboard-forms.png
+[img1]: ../../../media/loc/en/dashboard/user-mailing-dashboard.png
+[img2]: ../../../media/loc/en/dashboard/user-mailing-dashboard-forms.png

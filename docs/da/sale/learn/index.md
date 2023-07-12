@@ -83,6 +83,8 @@ Denne fane indeholder felter, der især fokuserer på salgets økonomiske detalj
 
 ### Fanen Links
 
+![The More tab (Sale) -screenshot][img6]
+
 Her kan du tilføje links, der er relevante for det salg, du arbejder på, som for eksempel URL-adresser, projekter, andre salg, opfølgninger og dokumenter. Hvis du for eksempel skal til et møde med et firma, som du allerede har kommunikeret med, kan du føje links til dokumenter, som du allerede har gemt for dette firma.
 
 [!include[How to add links](../../learn/includes/howto-add-links.md)]
@@ -127,8 +129,9 @@ For at fjerne et link skal du gå til fanen **Links**, klikke på **Rediger** og
 [9]: stages.md
 
 <!-- Referenced images -->
-[img1]: media/user-diary-sales.png
+[img1]: ../../../media/loc/en/sale/user-diary-sales.png
 [img2]: ../../../media/icons/arrow-left.png
-[img3]: media/55-chap7-sale-new-details.bmp
+[img3]: ../../../media/loc/en/sale/sale-details.png
 [img4]: ../../../media/icons/arrow-right.png
-[img5]: media/54-chap7-sale-new.bmp
+[img5]: ../../../media/loc/en/sale/sale-card.png
+[img6]: ../../../media/loc/en/sale/sale-more.png

@@ -64,4 +64,4 @@ Du kan specificere indstillinger for forskellige dele af SuperOffice CRM, for ek
 [img10]: ../../../../common/icons/pref-system-h32.png
 [img11]: ../../../../common/icons/pref-visualeffects-h32.png
 [img12]: ../../../media/icons/personal-settings-small.png
-[img13]: media/getstarted-personalsettings.png
+[img13]: ../../../media/loc/en/learn/getstarted-personalsettings.png

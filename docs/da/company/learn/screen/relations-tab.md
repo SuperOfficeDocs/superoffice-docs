@@ -37,4 +37,4 @@ Dobbeltklik på en relationsrække for at åbne dialogboksen **Relation**, der v
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.bmp
-[img2]: media/relations-detail.bmp
+[img2]: ../../../../media/loc/en/company/relations-detail.bmp

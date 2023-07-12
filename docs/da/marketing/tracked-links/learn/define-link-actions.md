@@ -90,7 +90,7 @@ I fanen **Opfølgning** kan du angive, at klik på links skal generere opgaver e
 
 8. **Standardmodtager**: Vælg en standardmodtager, der skal tildeles opgaven/aftalen, eller klik på knappen **Angiv aktiv bruger** ![(ikonet)][img1] for at angive dig selv.
 
-9. **Varighed**: Klik på knappen **Vælg tidsramme** (![ikonet)][img2] ved siden af dette felt for at angive varigheden af opgaven/aftalen.
+9. **Varighed**: Klik på knappen **Vælg tidsramme** ![ikonet)][img2] ved siden af dette felt for at angive varigheden af opgaven/aftalen.
 
 ## Sag
 
@@ -135,4 +135,4 @@ De oplysninger, du har indsamlet i forbindelse med mailudsendelsen, kan du bruge
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png
 [img2]: ../../../../../common/icons/pref-diary.png
-[img3]: media/link-properties-follow-up.png
+[img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png

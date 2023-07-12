@@ -49,7 +49,7 @@ Du kan forberede en e-mail fra både skærmbilledet Person og skærmbilledet Fir
     * **Send:** E-mailen sendes og er tilgængelig i detaljekortet **Aktiviteter**.
     * **Send og arkiver:** E-mailen sendes og gemmes som et dokument.
 
-1. Hvis du har valgt **Send og arkiver**, åbnes skærmen[Dokument][1], når du sender e-mailen. Indtast oplysninger i denne dialogboks efter behov.
+1. Hvis du har valgt **Send og arkiver**, åbnes skærmen [Dokument][1], når du sender e-mailen. Indtast oplysninger i denne dialogboks efter behov.
 
 1. Klik på **Opret** i skærmen Dokument.
 
@@ -58,4 +58,4 @@ Du kan forberede en e-mail fra både skærmbilledet Person og skærmbilledet Fir
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/email-send-email.png
+[img2]: ../../../media/loc/en/contact/email-send-email.png

@@ -72,4 +72,4 @@ Klik på ![ikonet][img1] ![ikon][img2] pile for at vælge feltets placering. Den
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/arrow-down.png
 [img2]: ../../../../../media/icons/arrow-up.png
-[img3]: media/configure-products.png
+[img3]: ../../../../../media/loc/en/quote/configure-products.png

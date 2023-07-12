@@ -64,4 +64,4 @@ Kun brugere med den funktionelle ret **Kan låse og oplåse mål** kan låse og 
 [4]: https://community.superoffice.com/no/learning/best-practices-tips/sales/reach-your-sales-targets-with-dashboard-reports/
 
 <!-- Referenced images -->
-[img6]: media/user-targets-salestargets-collapsed.png
+[img6]: ../../../../media/loc/en/sale/user-targets-salestargets-collapsed.png

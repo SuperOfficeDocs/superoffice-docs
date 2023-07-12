@@ -80,13 +80,13 @@ Indstil præferencerne, så de passer til dine behov:
 
 ## Relateret indhold
 
-* [Hvordan downloader og installerer jeg WebTools til SuperOffice?][1] \- FAQ
+* [Hvordan downloader og installerer jeg WebTools til SuperOffice?][1] - FAQ
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-download-and-install-web-tools-for-superoffice-crm/
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/main-menu-small.png
-[img2]: media/webtools-mac-install.jpg
-[img3]: media/webtools-mac-login-items.jpg
-[img4]: media/webtools-mac-preferences.jpg
+[img2]: ../../../media/loc/en/webtools/webtools-mac-install.jpg
+[img3]: ../../../media/loc/en/webtools/webtools-mac-login-items.jpg
+[img4]: ../../../media/loc/en/webtools/webtools-mac-preferences.jpg

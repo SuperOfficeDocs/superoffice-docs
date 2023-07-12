@@ -45,4 +45,4 @@ Med denne funktion kan du hurtigt tilf√∏je en aktivitet i SuperOffice baseret p√
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/gmail-link/btn-archive-more.png
-[img2]: media/email-gmaillink-create-activity.jpg
+[img2]: ../../../../media/loc/en/email/email-gmaillink-create-activity.jpg

@@ -49,4 +49,4 @@ Når du har afsendt en testudsendelse, skal du nulstille links-tællerne i medde
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
-[img2]: media/test-mailing.png
+[img2]: ../../../../../media/loc/en/marketing/test-mailing.png

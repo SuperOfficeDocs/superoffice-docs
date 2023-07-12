@@ -64,6 +64,6 @@ Den anden kolonnen indeholder ikoner, som angiver aktivitetstype, for eksempel e
 [7]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->
-[img1]: media/project-activities.bmp
+[img1]: ../../../../media/loc/en/project/project-activities.bmp
 [img2]: ../../../../media/icons/check.bmp
 [img3]: ../../../../media/icons/sale-sold-details.bmp

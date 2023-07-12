@@ -37,4 +37,4 @@ Hvis du ikke kan løse problemet via chatten, kan du oprette en anmodning, der s
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/chat-create-request.png
+[img2]: ../../../media/loc/en/chat/chat-create-request.png

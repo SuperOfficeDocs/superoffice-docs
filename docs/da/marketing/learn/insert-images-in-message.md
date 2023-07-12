@@ -100,8 +100,8 @@ Det billede, du gerne vil bruge til din mailudsendelse, har måske ikke altid de
 <!-- Referenced images -->
 [img1]: ../../../media/icons/marketing-and-forms/side-panel-content-small.png
 [img2]: ../../../media/icons/marketing-and-forms/side-panel-images-small.png
-[img3]: media/mailing-image-add-from-onlinelibrary.png
-[img4]: media/add-action-properties.png
-[img5]: media/apply-effects.png
-[img6]: media/resize-image.png
-[img7]: media/change-size-of-your-image.png
+[img3]: ../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
+[img4]: ../../../media/loc/en/marketing/add-action-properties.png
+[img5]: ../../../media/loc/en/marketing/apply-effects.png
+[img6]: ../../../media/loc/en/marketing/resize-image.png
+[img7]: ../../../media/loc/en/marketing/change-size-of-your-image.png-size-of-your-image.png

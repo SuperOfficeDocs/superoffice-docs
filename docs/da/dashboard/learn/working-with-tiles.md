@@ -74,4 +74,4 @@ Klik på ![ikon][img1] i sidehovedet på et felt for at få adgang til følgende
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/context-menu.png
-[img2]: media/10-drill-down.gif
+[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif

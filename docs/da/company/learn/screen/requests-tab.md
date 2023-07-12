@@ -20,4 +20,4 @@ Du kan dobbeltklikke på en anmodning for at åbne den i et separat vindue. Klik
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/requests-detail.bmp
+[img1]: ../../../../media/loc/en/company/requests-detail.bmp

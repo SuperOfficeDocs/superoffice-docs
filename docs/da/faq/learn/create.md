@@ -37,7 +37,7 @@ Hvis du svarer på en henvendelse og tænker, at det samme spørgsmål ofte går
 
 1. Klik på ![ikonet][img1] knappen **Opgave**, og vælg **Udgiv til FAQ**. Du kommer til skærmbilledet **Egenskaber for FAQ-post**.
 
-   Skærmbilledet Egenskaber for FAQ-post
+   ![Skærmbilledet Egenskaber for FAQ-post -screenshot][img5]
 
 1. Rediger sagens navn i feltet **Navn**, det er nødvendigt.
 
@@ -123,5 +123,6 @@ Da muligheden for at oprette FAQ-poster på denne måde kun er tilgængelig for 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/service/msg-toolbar.png
-[img3]: media/create-publish-faq.png
+[img3]: ../../../media/loc/en/faq/create-publish-faq.png
 [img4]: ../../../media/icons/main-menu.png
+[img5]: ../../../media/loc/en/faq/faq-create.png

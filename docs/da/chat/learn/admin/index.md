@@ -45,4 +45,4 @@ Her følger de to trin til at konfigurere chatwidgetten og føje den til din web
 [2]: add-javascript.md
 
 <!-- Referenced images -->
-[img1]: media/crmscript-macros-script-chatbot-bot-folders.png
+[img1]: ../../../../media/loc/en/chat/crmscript-macros-script-chatbot-bot-folders.png

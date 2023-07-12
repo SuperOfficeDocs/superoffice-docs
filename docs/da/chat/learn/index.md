@@ -39,4 +39,4 @@ Dine agenter kan få adgang til chat via Navigator i både SuperOffice CRM and S
 [9]: screen/index.md
 
 <!-- Referenced images -->
-[img1]: media/10-chat-mainpage.png
+[img1]: ../../../media/loc/en/chat/10-chat-mainpage.png

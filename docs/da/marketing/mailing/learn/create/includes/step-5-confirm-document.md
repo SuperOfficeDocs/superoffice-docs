@@ -24,5 +24,5 @@ Klik på udsendelsen på listen for at [se status og statistik for din afsendels
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../media/send-now.png
+[img1]: ../../../../../../media/loc/en/marketing/send-now.png
 [img2]: ../../../../../../media/icons/btn-menu.png

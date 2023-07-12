@@ -51,4 +51,4 @@ Hvis du har to projekter, som er næsten ens, er det nu muligt at lægge dem sam
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img3]: ../../../../common/icons/info-ball.png
-[img2]: media/merge-project.bmp
+[img2]: ../../../media/loc/en/project/merge-project.bmp

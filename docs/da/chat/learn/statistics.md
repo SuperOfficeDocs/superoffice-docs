@@ -54,5 +54,5 @@ Dobbeltklik på en række på listen **Igangværende chatsessioner** for at lytt
 [3]: ../../dashboard/learn/add-tile.md
 
 <!-- Referenced images -->
-[img1]: media/chat-dashboard-statistics.png
-[img2]: media/chat-dashboard.png
+[img1]: ../../../media/loc/en/chat/chat-dashboard-statistics.png
+[img2]: ../../../media/loc/en/chat/chat-dashboard.png

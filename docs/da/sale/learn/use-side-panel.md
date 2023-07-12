@@ -31,4 +31,4 @@ På samme måde kan du bruge et udvalg af personer som en opkaldsliste til at f�
 [3]: forecasting.md
 
 <!-- Referenced images -->
-[img1]: media/getstarted-sidepanel-saleselection.png
+[img1]: ../../../media/loc/en/sale/getstarted-sidepanel-saleselection.png

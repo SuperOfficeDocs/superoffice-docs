@@ -15,7 +15,7 @@ Funktionerne til administration af abonnementer i SuperOffice CRM giver dig muli
 
 Disse funktioner er koblet til **Samtykkeadministration**, fordi du i nogle lande også er forpligtet til at dokumentere en persons samtykke, inden du kan sende dem e-marketing.
 
-Funktionerne i**Abonnementsadministration** hjælper dig med at undgå at sende e-marketingmeddelelser til personer, der ikke har givet deres samtykke.
+Funktionerne i **Abonnementsadministration** hjælper dig med at undgå at sende e-marketingmeddelelser til personer, der ikke har givet deres samtykke.
 
 Denne funktionalitet sikrer, at alle kontaktpersoner i din CRM-database til enhver tid har kontrol over deres e-mail-abonnementer. Fra det øjeblik du tilføjer dem til din SuperOffice-database, kan de fortælle dig, hvilke mailudsendelser de ønsker at modtage. Hver gang dine kontakter modtager dine mailudsendelser, kan de ændre deres abonnementspræferencer ved hjælp af afmeldingslinket i e-mailen.
 
@@ -23,7 +23,7 @@ Det faktum, at dine kunder er i stand til at administrere deres egne abonnemente
 
 ## Din målliste
 
-Når du ][1]opretter din målliste[ til din næste mailudsendelse, kan du foretage et valg baseret på den abonnementstype, du vil anvende. Dermed vil SuperOffice CRM kun tilføje kontakter, der har sagt "ja" til denne type abonnement.
+Når du [opretter din målliste][1] til din næste mailudsendelse, kan du foretage et valg baseret på den abonnementstype, du vil anvende. Dermed vil SuperOffice CRM kun tilføje kontakter, der har sagt "ja" til denne type abonnement.
 
 ## Vælge abonnementstype
 
@@ -81,7 +81,7 @@ Med SuperOffice CRM respekterer du dine kontakters kommunikationspræferencer og
 [4]: https://www.superoffice.com/company/privacy/
 
 <!-- Referenced images -->
-[img1]: media/setup-type-drop-down.png
-[img2]: media/recipients-content-status.png
-[img3]: media/e-marketing-privacy-feature.png
-[img4]: media/subscription-preferences-page.png
+[img1]: ../../../../media/loc/en/marketing/setup-type-drop-down.png
+[img2]: ../../../../media/loc/en/marketing/recipients-content-status.png
+[img3]: ../../../../media/loc/en/marketing/e-marketing-privacy-feature.png
+[img4]: ../../../../media/loc/en/marketing/subscription-preferences-page.png

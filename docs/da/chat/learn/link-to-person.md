@@ -41,4 +41,4 @@ Hvis kunden ikke findes i SuperOffice CRM-database, kan du [oprette en ny person
 [1]: create-contact.md
 
 <!-- Referenced images -->
-[img1]: media/chat-link-to-contact.png
+[img1]: ../../../media/loc/en/chat/chat-link-to-contact.png

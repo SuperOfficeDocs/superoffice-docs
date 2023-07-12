@@ -49,4 +49,4 @@ Klik på linket i popup-meddelelsen for at åbne dokumentet i SuperOffice.
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/soarchive.png
-[img2]: media/email-gmaillink-archive.png
+[img2]: ../../../../media/loc/en/email/email-gmaillink-archive.png

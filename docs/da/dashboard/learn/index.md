@@ -109,4 +109,4 @@ Hvis du ikke finder den rude, du har brug for, blandt det sæt foruddefinerede f
 [img1]: ../../../../common/icons/pinned.png
 [img2]: ../../../../common/icons/favourite-yes.png
 [img3]: ../../../media/icons/dashboard/dashboard-refresh.png
-[img4]: media/dashboard-overview.png
+[img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

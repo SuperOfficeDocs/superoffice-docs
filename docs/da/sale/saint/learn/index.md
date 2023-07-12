@@ -110,6 +110,6 @@ Når der vises et statusbillede for et firma, en person eller et projekt, har du
 [2]: using-status-monitors-in-dynamic-selections.md
 
 <!-- Referenced images -->
-[img1]: media/saint-selection.png
-[img2]: media/saint-criteria.png
-[img3]: media/saint-watermark.png
+[img1]: ../../../../media/loc/en/sale/saint-selection.png
+[img2]: ../../../../media/loc/en/sale/saint-criteria.png
+[img3]: ../../../../media/loc/en/sale/saint-watermark.pngaint-watermark.png

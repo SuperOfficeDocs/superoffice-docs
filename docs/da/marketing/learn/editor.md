@@ -148,7 +148,7 @@ I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og 
 [2]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->
-[img1]: media/edit-template.png
+[img1]: ../../../media/loc/en/marketing/edit-template.png
 [img2]: ../../../media/icons/marketing-and-forms/preview.png
 [img3]: ../../../media/icons/marketing-and-forms/desktop.png
 [img4]: ../../../media/icons/marketing-and-forms/mobile-2.png
@@ -159,4 +159,4 @@ I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og 
 [img9]: ../../../media/icons/marketing-and-forms/save-block.png
 [img11]: ../../../media/icons/marketing-and-forms/undo-redo.png
 [img12]: ../../../media/icons/marketing-and-forms/side-panel-body-small.png
-[img13]: media/template-edit-overview-old.png
+[img13]: ../../../media/loc/en/marketing/template-edit-overview-old.png

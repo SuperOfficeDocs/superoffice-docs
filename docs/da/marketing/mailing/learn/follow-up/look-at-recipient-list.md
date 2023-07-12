@@ -44,7 +44,7 @@ Når mailen er sendt ud, indsamler SuperOffice Marketing data om status for hver
 
 Hvis status er **Klar til at blive sendt**, behøver du ikke gøre noget. SuperOffice sender din e-mail til modtagerne. Status ændres til **Sendt,** når dette er gjort.
 
-## Filtre
+## <a id="filters" />Filtre
 
 * **Sendt**: Aktiver dette filter for at vise alle modtagere, som udsendelsen blev sendt til.
 
@@ -67,7 +67,8 @@ Hvis status er **Klar til at blive sendt**, behøver du ikke gøre noget. SuperO
 
 Hvis status er **Klar til afsendelse**, behøver du ikke gøre noget. SuperOffice sender din e-mail til modtagerne. Status ændres til **Sendt**, når det er gjort.
 
-## Tilføj modtagere til udvalg eller projekter
+<!-- markdownlint-disable-next-line MD013 -->
+## <a id="add-recipients-to-selections-or-projects" />Tilføj modtagere til udvalg eller projekter
 
 Ved at bruge ![ikonet][img2] menuknappen kan du tilføje modtagere og klikkere til et udvalg eller projekt.
 
@@ -94,4 +95,4 @@ Ved at bruge ![ikonet][img2] menuknappen kan du tilføje modtagere og klikkere t
 [img1]: ../../../../../media/icons/arrow-right.png
 [img2]: ../../../../../media/icons/btn-menu.png
 [img3]: ../../../../../../common/icons/nav-contact.png
-[img4]: media/recipients-tab-status.png
+[img4]: ../../../../../media/loc/en/marketing/recipients-tab-status.png

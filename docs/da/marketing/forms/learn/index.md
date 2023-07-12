@@ -49,10 +49,10 @@ Der er flere måder at finde formularer på: Gå enten til fanen Formularer, for
 Oprettelsen af en formular følger i store træk dette workflow:
 
 1. [Opret en ny formular][2].
-2. [Formularsvar - Trin 1: Opsætning][3] \- en e-mail kan sendes automatisk til indsenderen, når dennes formular behandles.
-3. [Udgiv formularer][4] \- brug et link eller JavaScript til at udgive formularen i et nyhedsbrev, på et websted eller i Customer Centre.
-4. [Spor formularindsendelser og vis statistik][5] \- vis svarprocenten i realtid.
-5. [Behandl formularindsendelser][6] \- opdater SuperOffice med de indsendte data, enten manuelt eller automatisk. SuperOffice kan identificere eksisterende personer baseret på e-mailadresser eller oprette nye personer og firmaer.
+2. [Formularsvar - Trin 1: Opsætning][3] - en e-mail kan sendes automatisk til indsenderen, når dennes formular behandles.
+3. [Udgiv formularer][4] - brug et link eller JavaScript til at udgive formularen i et nyhedsbrev, på et websted eller i Customer Centre.
+4. [Spor formularindsendelser og vis statistik][5] - vis svarprocenten i realtid.
+5. [Behandl formularindsendelser][6] - opdater SuperOffice med de indsendte data, enten manuelt eller automatisk. SuperOffice kan identificere eksisterende personer baseret på e-mailadresser eller oprette nye personer og firmaer.
 
 ## Brug dashboards til at få et overblik over formularafsendelse
 
@@ -67,5 +67,5 @@ At have et dashboard til formularindsendelse gør det nemt at måle og visualise
 [6]: submissions/process.md
 
 <!-- Referenced images -->
-[img1]: media/edit-form.png
-[img2]: media/find-forms.png
+[img1]: ../../../../media/loc/en/marketing/edit-form.png
+[img2]: ../../../../media/loc/en/marketing/find-forms.png

@@ -63,4 +63,4 @@ Hvis du modtager en e-mail, hvori du anmodes om at udføre en handling, kan du k
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: media/email-maillink-create-activity.png
+[img1]: ../../../../media/loc/en/email/email-maillink-create-activity.png

@@ -59,4 +59,4 @@ Du kan også tilføje almindelige (ikke-sporede) links ved at klikke på linkkna
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/link.png
-[img2]: media/tracked-links-in-editor.png
+[img2]: ../../../../media/loc/en/marketing/tracked-links-in-editor.png

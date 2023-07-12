@@ -88,7 +88,7 @@ Viser alle dine [foretrukne][8].
 
 Viser en forhåndsvisning af typen aktivitet, projekt, person, projektdeltager eller udvalgsmedlem på sidepanelet. Afhængig af, hvilket element der er valgt, kan vinduet indeholde forbindelser til personer og aktiviteter. Hvis du klikker på et sådant link, åbnes [personkortet][2], [dialogboksen Dokument][5] eller [dialogboksen for opfølgninger][6], hvor du kan åbne og redigere personen eller aktiviteten.
 
-[Hvad skal jeg gøre, når jeg får "Dokument Lukket" på sidepanelet i SuperOffice CRM, når dokumentfremviseren bruges?][11] \- FAQ
+[Hvad skal jeg gøre, når jeg får "Dokument Lukket" på sidepanelet i SuperOffice CRM, når dokumentfremviseren bruges?][11] - FAQ
 
 ## Projekt
 
@@ -152,4 +152,4 @@ I Indstillinger og vedligeholdelse kan du også definere egne oversigter for sid
 [img7]: ../../../../media/icons/mini-card-level.png
 [img8]: ../../../../media/icons/mini-card-today.png
 [img9]: ../../../../media/icons/mini-card-selected.png
-[img10]: media/getstarted-sidepanel-companypreview.png
+[img10]: ../../../../media/loc/en/learn/getstarted-sidepanel-companypreview.png

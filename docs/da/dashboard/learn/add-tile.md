@@ -84,4 +84,4 @@ Vælg den ønskede diagramtype og de nødvendige indstillinger. Rudens output vi
 [5]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
-[img1]: media/dashboard-add-tile-sale.png
+[img1]: ../../../media/loc/en/dashboard/dashboard-add-tile-sale.png
