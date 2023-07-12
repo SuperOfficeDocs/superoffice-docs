@@ -6,7 +6,8 @@ author: Bergfrid Dias
 so.date: 02.22.2023
 keywords: importer, Excel, firma, contact, produkt, regneark
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: da
 ---
 

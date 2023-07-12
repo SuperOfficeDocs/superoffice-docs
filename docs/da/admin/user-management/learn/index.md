@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 02.21.2023
 keywords: user
 so.topic: concept
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: da
 ---
 

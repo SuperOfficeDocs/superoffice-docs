@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 03.24.2023
 keywords: dokument, skabelon
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: da
 ---
 

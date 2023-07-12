@@ -5,8 +5,8 @@ description: Sådan redigerer du en besked i en sag i SuperOffice
 author: Hanne Gunnarsson
 keywords: sag
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: da
 ---
 

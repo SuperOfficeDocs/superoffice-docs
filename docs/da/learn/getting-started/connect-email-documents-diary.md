@@ -7,7 +7,7 @@ so.date: 03.06.2023
 keywords: e-mail, dokument
 so.topic: howto
 so.version: 10
-so.lang: en
+language: da
 ---
 
 # Forbind mail, dokumenter og dagbog

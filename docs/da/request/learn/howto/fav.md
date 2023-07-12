@@ -6,8 +6,8 @@ description: Tilføj sager til listen over foretrukne
 so.date: 06.29.2022
 keywords: sag, foretrukken
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: da
 ---
 

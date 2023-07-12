@@ -5,8 +5,8 @@ description: Flet sager
 author: Hanne Gunnarsson
 keywords: sag
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: da
 ---
 

@@ -7,8 +7,8 @@ so.date: 02.23.2023
 keywords: brugerdefinerede objekter
 so.topic: concept
 language: da
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Brugerdefinerede objekter

@@ -8,7 +8,8 @@ keywords: brugerstyring, rolle, anonym
 so.topic: howto
 language: da
 so.envir: onsite
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Redigering af rettigheder for anonyme brugere (onsite)

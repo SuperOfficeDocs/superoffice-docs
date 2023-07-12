@@ -5,8 +5,8 @@ description: Hold styr på meddelelser
 author: Hanne Gunnarsson
 keywords: sag, meddelelse, flag
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: da
 ---
 

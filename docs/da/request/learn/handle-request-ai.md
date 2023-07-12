@@ -6,8 +6,8 @@ author: Kirsti Aakerholt
 so.date: 04.19.2023
 keywords: sag, ai, effektiv
 so.topic: concept
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: da
 ---
 

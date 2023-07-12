@@ -6,8 +6,8 @@ author: Hanne Gunnarsson
 so.date: 04.03.2023
 keywords: notifikation, Kerne, invitationer, sager, meddelelser
 so.topic: concept
-so.user: user
-so.user.tooltip: SuperOffice CRM
+so.audience: person
+so.audience.tooltip: SuperOffice CRM
 language: da
 ---
 

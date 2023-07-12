@@ -7,7 +7,7 @@ so.date: 12.14.2022
 keywords: salg, side-panel, selection
 so.topic: howto
 so.version: 10
-so.lang: en
+language: da
 ---
 
 # Sådan bruges sidepanelet effektivt til salg

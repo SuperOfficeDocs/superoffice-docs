@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 03.16.2023
 keywords: script, makro
 so.topic: howto
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: da
 ---
 
