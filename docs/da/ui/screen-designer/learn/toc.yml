@@ -1,0 +1,11 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Tilføj nyt layout
+  href: add-new-layout.md
+- name: Rediger layout - Hovedkort
+  href: edit-layout.md
+- name: Rediger layout - Arkiver (detaljekort)
+  href: edit-layout-archives.md
+- name: Elementer
+  href: elements.md

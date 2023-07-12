@@ -1,0 +1,18 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Skriv e-mail
+  href: compose.md
+- name: Skift standardmailklient i SuperOffice
+  href: change-default-mail-client.md
+- name: Indbakke
+  href: ../inbox/learn/toc.yml
+  topicHref: ../inbox/learn/index.md
+- name: SuperOffice til Outlook
+  href: ../superoffice-for-outlook/learn/index.md
+- name: Gmail-link
+  href: ../gmail-link/learn/toc.yml
+  topicHref: ../gmail-link/learn/index.md
+- name: E-mail-link
+  href: ../mail-link/learn/toc.yml
+  topicHref: ../mail-link/learn/index.md

@@ -1,0 +1,11 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Skærmbilledet Sag
+  href: screen/index.md
+- name: Håndter sager med AI
+  href: handle-request-ai.md
+- name: Arbejd med sager
+  href: howto/toc.yml
+  topicHref: find.md
+  

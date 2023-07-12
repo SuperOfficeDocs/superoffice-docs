@@ -1,0 +1,30 @@
+items:
+  - name: Oversigt
+    href: index.md
+  - name: Skærmbilledet Brugere
+    href: screen/index.md
+  - name: Tilføj SuperOffice-bruger
+    href: add-associate.md
+  - name: Importér brugere fra AD
+    href: import-users.md
+  - name: Filtrér og gruppér brugere
+    href: associates-filter-group.md
+  - name: Rediger bruger
+    href: update-user.md
+  - name: Synlig for
+    href: visibility.md
+  - name: Flyt bruger
+    href: move-user.md
+  - name: Slet bruger
+    href: delete-user.md
+  - name: Vedligehold anonyme brugere og systembrugere
+    href: other-users.md
+  - name: Log brugere af
+    href: ../../../onsite/win-client/learn/logging-users-off.md
+  - name: Tilføj/fjern firma i Vores firmaer
+    href: our-companies.md
+  - name: Vedligehold brugergrupper
+    href: user-groups.md
+  - name: Rolle
+    href: role/toc.yml
+    topicHref: role/index.md

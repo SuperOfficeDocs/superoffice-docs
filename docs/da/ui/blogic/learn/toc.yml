@@ -1,0 +1,17 @@
+items:
+  - name: Oversigt
+    href: index.md
+  - name: Profiler
+    href: profiles/toc.yml
+    topicHref: profiles/index.md
+  - name: Skærmvælgere
+    href: screen-chooser.md
+  - name: Definition af skærmbillede
+    href: screen-definition.md
+  - name: Egenskaber for skærmbillede
+    href: screen-properties.md
+  - name: Ekstra menuer
+    href: extra-menus/toc.yml
+    topicHref: extra-menus/index.md
+  - name: Egenskaber for pakke
+    href: ../../../admin/learn/screen/package-properties.md    

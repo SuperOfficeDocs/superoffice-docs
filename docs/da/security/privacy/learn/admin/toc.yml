@@ -1,0 +1,11 @@
+items:
+ - name: Implementeringsguide
+   href: ../implementation-guide.md
+ - name: Tilføj samtykkeformål
+   href: add-consent-purpose.md
+ - name: Tilføj retsgrundlag
+   href: ../../../../admin/lists/learn/privacy-legal-base-add.md
+ - name: Tilføj privacy-kilde
+   href: ../../../../admin/lists/learn/privacy-source-add.md
+ - name: Rediger e-mail til bekræftelse om personbeskyttelse
+   href: ../edit-privacy-confirmation-email.md

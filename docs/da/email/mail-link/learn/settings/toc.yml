@@ -1,0 +1,11 @@
+items:
+  - name: Oversigt
+    href: index.md
+  - name: Generelle indstillinger
+    href: general.md
+  - name: SuperOffice-konto
+    href: superoffice-account.md
+  - name: Muligheder for arkivering
+    href: default.md
+  - name: Invitationer
+    href: invitations.md

@@ -51,7 +51,7 @@ Titta på den här videon för att lära dig hur du gör en vanlig sökning och 
 
 Om fältet som du ska söka i är ett textfält (till exempel namn) söker programmet efter text eller tal som du själv anger. Då visas en lista med följande alternativ:
 
-[!include[Search criteria](../includes/list-search-criteria.md)]
+[!include[Search criteria](includes/list-search-criteria.md)]
 
 Välj ett av dessa alternativ och skriv sedan in sökkriterierna i textfältet till höger.
 
@@ -63,7 +63,7 @@ Om fältet som du ska söka i är ett Ja/Nej-fält, till exempel fältet **Inga 
 
 Om fältet som du ska söka i är ett datumfält, till exempel fältet **Datum** i dialogrutan **Dokument**, visas en listruta med följande alternativ:
 
-[!include[Search criteria](../includes/list-date-criteria.md)]
+[!include[Search criteria](includes/list-date-criteria.md)]
 
 Välj önskat alternativ. Beroende på vad du väljer fylls fältet automatiskt i med ett datum eller datumintervall, eller så kan du ange önskat datum. Du kan också välja ett datum i kalendern som visas när du klickar på pilknappen ![ikon][img1].
 
@@ -71,7 +71,7 @@ Välj önskat alternativ. Beroende på vad du väljer fylls fältet automatiskt 
 
 Om fältet som du ska söka i innehåller siffror, till exempel fältet **Belopp** i fönstret Försäljning, visas en listruta med följande alternativ:
 
-[!include[Search criteria](../includes/table-number-criteria.md)]
+[!include[Search criteria](includes/table-number-criteria.md)]
 
 Välj önskat alternativ och skriv in önskat siffervärde i textfältet till höger.
 

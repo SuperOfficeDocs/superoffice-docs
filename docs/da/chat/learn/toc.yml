@@ -1,0 +1,28 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Skærmbilledet Chat
+  href: screen/index.md
+- name: Se chatstatistik
+  href: statistics.md
+- name: Arbejd med chat
+  topicHref: respond.md
+  items:
+  - name: Svar på en chat
+    href: respond.md
+  - name: Link chat til eksisterende person
+    href: link-to-person.md
+  - name: Opret ny kontakt
+    href: create-contact.md
+  - name: Opret sag i chat
+    href: create-request.md
+  - name: Opret hurtigt svar
+    href: create-quick-reply.md
+  - name: "Send ofte stillede spørgsmål, svarskabelon og hurtigt svar i chat"
+    href: send-faq-or-reply-template.md
+  - name: Send filer i chat
+    href: send-files.md
+  - name: Overfør chat til en anden repræsentant
+    href: transfer-to-agent.md
+  - name: Brug af chatfunktionen fra kundens perspektiv
+    href: as-customer.md

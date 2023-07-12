@@ -1,0 +1,136 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Forekomster
+  topicHref: items.md
+  items:
+  - name: Oversigt
+    href: items.md
+  - name: Tilføj elementer
+    href: adding-items.md
+  - name: Rediger forekomster
+    href: editing-items.md
+  - name: Slet forekomster
+    href: deleting-items.md
+  - name: Dubletter
+    href: duplicates.md
+- name: Gruppering og filtrering
+  topicHref: organize/index.md
+  items:
+  - name: Oversigt
+    href: organize/index.md
+  - name: Filtrering af brugergrupper
+    href: organize/user-group-filtering.md
+  - name: Overskrifter
+    topicHref: organize/headings.md
+    items:
+    - name: Oversigt
+      href: organize/headings.md
+    - name: Gruppér poster under overskrifter
+      href: organize/grouping-items-under-headings.md
+    - name: Tilføj overskrifter
+      href: organize/adding-headings.md
+    - name: Skift og slet overskrifter
+      href: organize/headings-editing-and-deleting.md
+  - name: Slettede forekomster og overskrifter
+    href: organize/deleted-items-and-headings.md
+- name: Specialiserede lister
+  topicHref: specialized-lists.md
+  items:
+  - name: Oversigt
+    href: specialized-lists.md
+  - name: Dokumentskabelon
+    topicHref: document-template.md
+    items:
+    - name: Oversigt
+      href: document-template.md
+    - name: Rediger standardskabeloner
+      href: using-standard-templates.md
+    - name: Opret dokumentskabelon
+      href: creating-template-document.md
+    - name: Tilføj skabelon
+      href: add-template.md
+    - name: Overskriv eksisterende skabelon
+      href: replace-existing-template.md
+    - name: Dokumentskabeloner på flere sprog
+      href: ../../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+  - name: E-mailskabelon
+    href: email-template.md
+    items:
+    - name: Tilføj e-mailskabelon
+      href: add-email-template.md
+  - name: Opfølgningstype
+    href: follow-up-type.md
+    items:
+    - name: Tilføj opfølgningstype
+      href: adding-items-to-follow-up-type-list.md
+
+  - name: Salg
+    topicHref: ../../../sale/learn/screen/sale-stage.md
+    items:
+    - name: Salgsfase
+      href: ../../../sale/learn/screen/sale-stage.md
+    - name: Tilføj salgsfase
+      href: sale-stage.md
+    - name: "Salgstype, faser, tilbud"
+      href: ../../../sale/learn/screen/sales-type-for-stages.md
+    - name: Tilføj salgstype
+      href: sale-type.md
+    - name: Tilføj salgsbeløbsklasse
+      href: sale-amount-class.md
+
+  - name: Projekt
+    topicHref: ../../../project/learn/screen/project-status-admin.md
+    items:
+    - name: Projektstatus
+      href: ../../../project/learn/screen/project-status-admin.md
+    - name: Tilføj projektstatus
+      href: project-status.md
+    - name: Projekttype
+      href: ../../../project/learn/screen/project-type-admin.md
+    - name: Tilføj projekttype
+      href: project-type.md
+
+  - name: Generel
+    topicHref: country.md
+    items:
+    - name: Land
+      href: country.md
+    - name: Tilføj land
+      href: add-items-to-country-list.md
+    - name: Valuta
+      href: currency.md
+    - name: Tilføj valuta
+      href: adding-items-to-currency-list.md
+    - name: Udsendelsesdomæner
+      href: add-items-to-mailing-domain.md
+    - name: Relation
+      href: relation.md
+    - name: Tilføj relation
+      href: adding-items-to-relation-list.md
+    - name: Ressource
+      href: resource.md
+    - name: Tilføj ressource
+      href: adding-items-to-resource-list.md
+    - name: GUI webpanel
+      href: web-panel.md
+      items:
+      - name: Tilføj webpanel
+        href: web-panel-add-item.md
+    - name: Menuen Opgave
+      href: add-items-to-task-menu.md
+    - name: GUI applikationsliste
+      href: application.md
+      items:
+      - name: Tilføj applikation
+        href: adding-external-applications-to-application-list.md
+
+- name: Brugerdefinerede lister
+  topicHref: adding-user-defined-lists.md
+  items:
+  - name: Tilføj brugerdefineret liste
+    href: adding-user-defined-lists.md
+  - name: Rediger listenavn og -beskrivelse
+    href: editing-lists-name-and-description.md
+  - name: Slet brugerdefineret liste
+    href: deleting-user-defined-lists.md

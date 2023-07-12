@@ -1,0 +1,19 @@
+items:
+  - name: Oversigt
+    href: index.md
+  - name: Importér fra Excel
+    href: import-from-excel.md
+  - name: Importér fra Outlook
+    href: import-from-outlook.md
+  - name: Importér fra Mac-adressebog
+    href: import-from-mac-address-book.md
+  - name: Importér fra Gmail
+    href: import-from-gmail.md
+  - name: Importér fra ERP
+    href: import-from-erp.md
+  - name: Importér produkter fra Excel
+    href: import-products-from-excel.md
+  - name: Opret importfilen
+    href: create-import-file.md
+  - name: Konfigurer importindstillinger
+    href: configure-import-settings.md

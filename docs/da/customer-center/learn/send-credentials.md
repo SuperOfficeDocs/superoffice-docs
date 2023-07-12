@@ -1,0 +1,32 @@
+---
+uid: help-da-customer-center-send-credentials
+title: Afsendelse af adgangskode til personer
+description: Afsendelse af adgangskode til personer
+author: SuperOffice RnD
+so.date: 03.16.2023
+keywords: Kundecenter
+so.topic: howto
+language: da
+---
+
+# Afsendelse af adgangskode til personer
+
+En person, der skal have adgang til et kundecenter, har brug for brugernavn og adgangskode for at kunne logge ind på kundecenteret. Sådan sender du disse oplysninger til personen:
+
+1. Åbn skærmbilledet Person.
+
+2. Klik på ![ikonet][img1] **Opgave** og vælg **Send adgangskode**.
+
+3. På skærmbilledet **Send adgangskode til person** skal du bekræfte, at indholdet i felterne **Til** (modtageradresse), **Fra** (afsenderadresse) og **Emne** er korrekt. Du kan også justere de data, der blev indsat automatisk.
+
+4. Klik på **Vis eksempel på tekst** eller **Vis eksempel på tekst**, hvis du ønsker at få vist den meddelelse, der sendes.
+
+5. Klik på **OK**. E-mail-meddelelsen sendes.
+
+> [!TIP]
+> Indholdet i meddelelsen hentes fra en systemskabelon, der er installeret. Du finder den under **Vidensbase** &gt; **Svarskabeloner**.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../common/icons/task.png

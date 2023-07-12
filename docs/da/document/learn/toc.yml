@@ -1,0 +1,29 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Skærmbilledet Dokument
+  href: screen/index.md
+- name: Arbejd med dokument
+  topicHref: create.md
+  items:
+  - name: Opret nyt dokument
+    href: create.md
+  - name: Overfør dokument
+    href: upload.md
+  - name: Åbn dokument
+    href: open.md
+  - name: Tjek dokument ind/ud
+    href: lock.md
+  - name: Rediger dokument
+    href: edit.md
+  - name: Send dokument som e-mail
+    href: send-as-email.md
+  - name: Slet dokumenter
+    href: delete.md
+  - name: Eksempler på skabelonvariabler
+    href: template-variables.md
+#- name: SharePoint document library integration
+#  href: ../cloud/sharepoint-documents/learn/index.md
+#  items:
+#  - name: Set up folders
+#    href: ../cloud/sharepoint-documents/learn/set-up-folders.md

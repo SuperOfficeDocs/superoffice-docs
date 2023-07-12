@@ -1,0 +1,9 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Opret et udvalg
+  href: tutorial.yml
+- name: Kombiner udvalg
+  href: combine.md
+- name: Kopiér udvalg
+  href: copy.md

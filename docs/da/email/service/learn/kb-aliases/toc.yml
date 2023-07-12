@@ -1,0 +1,7 @@
+items:
+  - name: Oversigt
+    href: index.md
+  - name: Opret e-mailadresser
+    href: add-email-address.md
+  - name: Administrer mapper med e-mailadresser
+    href: manage-folders.md

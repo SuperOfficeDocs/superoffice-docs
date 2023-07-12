@@ -1,0 +1,89 @@
+### YamlMime:SubCategory
+
+title: Brugeradministration og systemindstillinger
+summary: "Få mere at vide om licenser, roller og brugere, sprog og lokaliseringer, hvordan du importerer eksternt indhold, og hvordan vores AI-tjenester fungerer."
+
+metadata:
+  title: Brugeradministration og systemindstillinger
+  description: "Licenser, brugerstyring, sprog og lokalisering, import"
+  so.product: administration
+  so.topic: landing-page
+  author: Help and Learn
+  so.author: Kirsti A.
+  so.date: 11.29.2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Licenser
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Licensoversigt
+          url: ../admin/license/learn/index.md
+        - text: Skærmbilledet licenser
+          url: ../admin/license/learn/screen/index.md
+        - text: Aktivér licens
+          url: ../admin/license/learn/activate.md
+
+  # Card
+  - title: Brugerstyring
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Roller
+          url: ../admin/user-management/learn/role/index.md
+        - text: Opret en rolle
+          url: ../admin/user-management/learn/role/create-role.md
+        - text: Brugere
+          url: ../admin/user-management/learn/index.md
+        - text: Tilføj brugere
+          url: ../admin/user-management/learn/add-associate.md
+        - text: Opdater brugerinformation
+          url: ../admin/user-management/learn/update-user.md
+        - text: Vedligehold brugergrupper
+          url: ../admin/user-management/learn/user-groups.md
+        - text: "Vedligehold \"Vores firmaer\""
+          url: ../admin/user-management/learn/our-companies.md
+
+  # Card
+  - title: Import
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Konfigurer importindstillinger
+          url: ../admin/import/learn/configure-import-settings.md
+        - text: Importér fra Excel
+          url: ../admin/import/learn/import-from-excel.md
+        - text: Importér produkter fra Excel
+          url: ../admin/import/learn/import-products-from-excel.md
+        - text: Importér fra Gmail
+          url: ../admin/import/learn/import-from-gmail.md
+        - text: Importér fra Outlook
+          url: ../admin/import/learn/import-from-outlook.md
+        - text: Importér fra ERP
+          url: ../admin/import/learn/import-from-erp.md
+
+  # Card
+  - title: AI
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Kategorisering
+          url: ../ai/learn/categorization.md
+        - text: Tekstanalyse
+          url: ../ai/learn/text-analysis.md
+
+ # Card
+  - title: ERP
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Tilknyt ERP
+          url: ../admin/erp/learn/erp-connect.md
+        - text: Opret ERP-aktør
+          url: ../admin/erp/learn/erp-create-new-actor.md
+        - text: Deaktiver synkronisering
+          url: ../admin/erp/learn/erp-sync-disconnect.md

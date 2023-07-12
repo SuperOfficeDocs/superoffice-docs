@@ -1,0 +1,93 @@
+### YamlMime:SubCategory
+
+title: Tilpasning
+summary: "Få mere at vide om forskellige tilpasninger af alle dine lister, muligheder for at tilføje felter og layout til de forskellige hovedkort i skærmdesigneren, opsætning af makroer og script og al anden finjustering af dit system"
+
+metadata:
+  title: Tilpasning
+  description: "Få mere at vide om, hvordan du kan tilpasse SuperOffice."
+  so.product: customisation
+  so.topic: landing-page
+  author: Help and Learn
+  so.author: Christine H.
+  so.date: 11.11.2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: "Lister, præferencer, muligheder og indstillinger"
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Lister
+          url: ../admin/lists/learn/index.md
+        - text: Præferencer
+          url: ../admin/preferences/learn/index.md
+        - text: Muligheder
+          url: ../admin/options/learn/index.md
+      - linkListType: reference
+        links:
+        - text: Globale præferencer
+          url: ../admin/preferences/learn/global-preferences/system.md
+
+  # Card
+  - title: Brugerdefinerede objekter
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Brugerdefinerede felter
+          url: ../custom-objects/learn/udef/index.md
+        - text: Ekstra felter
+          url: ../custom-objects/learn/extra-field/create.md
+        - text: Ekstra borde
+          url: ../custom-objects/learn/extra-table/create.md
+      
+  # Card
+  - title: Brugergrænseflade
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Skærmdesigner
+          url: ../ui/screen-designer/learn/index.md
+        - text: Ekstra menuer
+          url: ../ui/blogic/learn/extra-menus/index.md
+        - text: Webpaneler
+          url: ../ui/web-panels/learn/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Profil i service
+          url: ../ui/blogic/learn/profiles/index.md
+
+  # Card
+  - title: Makroer og CRMScript
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Makroer og scripts
+          url: ../automation/crmscript/learn/macro-script.md
+        - text: Opret en makro
+          url: ../automation/crmscript/learn/create-macro.md
+        - text: Opret et script
+          url: ../automation/crmscript/learn/create-script.md
+        - text: Fejlfindingssessioner
+          url: ../automation/crmscript/learn/debug.md
+        - text: Opret en planlagt opgave
+          url: ../automation/crmscript/learn/schedule-task.md
+        - text: Sporing
+          url: ../automation/crmscript/learn/tracing.md
+        - text: Udløsere
+          url: ../automation/crmscript/learn/trigger.md
+
+  # Card
+  - title: Kundecenter
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Konfiguration af kundecenter
+          url: ../customer-center/learn/config.md
+        - text: Kundecenter-kildefiler
+          url: ../customer-center/learn/edit.md
+        - text: Send adgangskoder til personer
+          url: ../customer-center/learn/send-credentials.md

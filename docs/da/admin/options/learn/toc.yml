@@ -1,0 +1,57 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Fritekstsøgning
+  topicHref: freetext-search/index.md
+  items:
+  - name: Oversigt
+    href: freetext-search/index.md
+  - name: Gør fritekstsøgning tilgængelig
+    href: freetext-search/enable.md
+  - name: Angiv søgekriterier
+    href: freetext-search/configure.md
+  - name: Stopord
+    href: freetext-search/stopwords.md
+  - name: Gendan fritekstindeks
+    href: freetext-search/regenerate-index.md
+- name: Tidszoner
+  topicHref: time-zones/index.md
+  items:
+  - name: Oversigt
+    href: time-zones/index.md
+  - name: Aktivér brug af tidszoner
+    href: time-zones/enable.md
+  - name: "Vælg, hvilke tidszoner der skal vises"
+    href: time-zones/select.md
+- name: Nummertildeling
+  topicHref: number-allocation/index.md
+  items:
+  - name: Oversigt
+    href: number-allocation/index.md
+  - name: Angiv nummertildeling
+    href: number-allocation/configure.md
+  - name: Standardværdier for nye dokumentskabeloner
+    href: number-allocation/document-template-defaults.md
+- name: etiketter
+  topicHref: labels/index.md
+  items:
+  - name: Oversigt
+    href: labels/index.md
+  - name: Skift etiketter
+    href: labels/change.md
+  - name: Nulstil etiketter
+    href: labels/reset.md
+    
+- name: Rapporter
+  href: reports.md
+- name: Kundesprog
+  topicHref: custlang/index.md
+  items:
+  - name: Oversigt
+    href: custlang/index.md
+  - name: Opret og rediger kundesprog
+    href: custlang/update.md
+  - name: Arbejd med eksterne kategorier
+    href: custlang/external-categories.md
+  - name: Vælg kundesprog
+    href: custlang/select-language.md

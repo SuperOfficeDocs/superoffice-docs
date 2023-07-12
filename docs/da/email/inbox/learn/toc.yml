@@ -1,0 +1,30 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Opsæt indbakke
+  href: setup.md
+- name: Indstillinger for indbakke
+  href: inbox-options.md
+- name: Vis e-mail-meddelelse
+  href: preview.md
+- name: Arbejd med e-mails
+  topicHref: compose.md
+  items:
+  - name: Skriv e-mail
+    href: compose.md
+  - name: Vedligehold afsendere
+    href: manage-senders.md
+  - name: Flyt e-mail til mappe
+    href: move-email-to-folder.md
+  - name: Markér e-mail som læst/ulæst
+    href: mark-as-read.md
+  - name: Acceptér invitation
+    href: invitations.md
+  - name: Arkivér e-mail
+    href: archive.md
+  - name: Opret opgave
+    href: create-task.md
+  - name: Opret sag
+    href: create-request.md
+  - name: Udskriv e-mail
+    href: print.md
