@@ -21,10 +21,10 @@ Om du har tilldelats behörigheten **Tillåt administration av externa användar
     Du kan öppna fönstret Företag på olika sätt:
 
     * Genom att klicka på **Företag**-knappen i navigatorn.
-    * Genom att använda [historiklistan][1] eller [Snabbsökning][2].
+    * Genom att använda [historiklistan][1] eller navigatorsök.
     * Genom att dubbelklicka på ett företag i ett sökresultat eller i ett urval.
 
-2. Klicka på ![ikon][img1] **Uppgift** &gt; **Externa användare**. Dialogrutan **Externa användare** öppnas.
+2. Klicka på ![ikon][img1] **Uppgift** > **Externa användare**. Dialogrutan **Externa användare** öppnas.
 
 3. Använd en av metoderna nedan.
 
@@ -49,8 +49,7 @@ Markera kontakten du vill ta bort inloggningen för och klicka på **Ta bort inl
 I listrutan **Visa** nede till höger i dialogrutan kan du filtrera listan över kontakter efter användarstatus.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-history-list.md
-[2]: ../../../search-options/learn/using-fastsearcher.md
+[1]: ../../../learn/basics/history.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

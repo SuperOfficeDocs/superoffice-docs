@@ -27,7 +27,7 @@ Huvuddelen innehåller följande grundläggande uppgifter om händelsen:
 
 ### Typ
 
-Om du klickar på pilen bredvid det här fältet (![ikon][img2]) visas en fördefinierad lista där du kan välja typ av händelse, till exempel möte eller utgående telefonsamtal. Du kan även söka efter typer genom att skriva i detta fält. Här kan du också använda [snabbsökning][12].
+Om du klickar på pilen bredvid det här fältet (![ikon][img2]) visas en fördefinierad lista där du kan välja typ av händelse, till exempel möte eller utgående telefonsamtal. Du kan även söka efter typer genom att skriva i detta fält.
 
 > [!NOTE]
 > Fältet **Typ** avgör vilken typ av händelse det handlar om: bokning, uppgift eller samtal.
@@ -169,7 +169,6 @@ På den här fliken visas alla [egendefinierade fält][14] som har konfigurerats
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md
-[12]: ../../../search-options/learn/using-fastsearcher.md
 [13]: ../../../learn/getting-started/preferences.md
 [14]: ../../../custom-objects/learn/index.md
 

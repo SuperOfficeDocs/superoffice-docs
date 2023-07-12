@@ -1,9 +1,9 @@
 ---
-uid: help-sv-using-history-list
+uid: help-sv-history-list
 title: Använda historiklistan
 description: Använda historiklistan
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 08.05.2023
 keywords: söka, historik
 so.topic: howto
 language: sv
@@ -33,10 +33,10 @@ Du kan använda historiklistan på olika sätt:
 3. Koppla posten genom att klicka på företaget, kontakten, försäljningen, urvalet eller projektet som du vill koppla den till.
 
 > [!NOTE]
-> Du kan öka eller begränsa antalet rader i historiklistan genom att gå till ![ikon][img1] **Personliga inställningar** &gt; **Inställningar** &gt; **Visuella effekter** &gt; **Antal poster i historiklistan** och ange antalet du behöver.
+> Du kan öka eller begränsa antalet rader i historiklistan genom att gå till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Visuella effekter** > **Antal poster i historiklistan** och ange antalet du behöver.
 
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/preferences.md
+[1]: ../getting-started/preferences.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

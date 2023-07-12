@@ -55,7 +55,7 @@ Ovanför varje lista finns en länk till urvalet som innehåller de nya/uppdater
 > Använd urvalet om du vill radera importerade aktörer från SuperOffice.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md
 [2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->

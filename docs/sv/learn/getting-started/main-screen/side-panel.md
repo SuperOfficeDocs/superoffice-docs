@@ -132,7 +132,7 @@ Visar en lista över deltagarna i det aktuella urvalet i fönstret Urval.
 I Inställningar och underhåll kan du även definiera egna översikter för sidopanelen.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-history-list.md
+[1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
 [3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md

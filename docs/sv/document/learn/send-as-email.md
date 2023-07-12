@@ -29,7 +29,7 @@ language: sv
 
     Om dialogrutan **Välj e-postadress** visas:
 
-    1. I företagsfältet väljer du vilket företag du vill skicka dokumentet till. Som standard visas det företag som är aktivt i fönstret Företag. Här kan du också använd [snabbsökning][1] eller [historiklistan][2]. När du har valt ett företag visas företagets e-postadress bredvid företagsfältet.
+    1. I företagsfältet väljer du vilket företag du vill skicka dokumentet till. Som standard visas det företag som är aktivt i fönstret Företag. När du har valt ett företag visas företagets e-postadress bredvid företagsfältet.
 
     2. Om du vill skicka meddelandet till en viss kontakt på företaget väljer du en person i listrutan för kontakter. När du har valt en kontakt visas kontaktens e-postadress bredvid listrutan för kontakter.
 
@@ -50,8 +50,6 @@ language: sv
 3. Klicka på **Skicka** för att skicka meddelandet.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/document/email-document-send-as-email.png

@@ -23,7 +23,7 @@ Du kan flytta en kontakt, inklusive personens aktiviteter och tillhörigheter, f
     * I fönstret Kontakt: Gå till önskad kontakt, klicka på knappen **Uppgift** ![ikon][img2] på kontaktkortet och välj **Underhåll kontakter** och **Flytta kontakt**.
 
 1. Under **Utför på kontakt** i dialogrutan **Flytta kontakt** väljer du något av följande:
-    * Välj **Flytta till** och ange det företag du vill flytta kontakten till. Använd [Snabbsökning][1], [Historiklistan][2] eller [Sök][3] ![ikon][img3].
+    * Välj **Flytta till** och ange det företag du vill flytta kontakten till.
     * Välj **Koppla från &lt;company&gt;**.
 
 1. Välj något av följande under **Åtgärd för alla befintliga aktiviteter och försäljningar**:
@@ -39,10 +39,6 @@ Du kan flytta en kontakt, inklusive personens aktiviteter och tillhörigheter, f
 > Du kan inte flytta kontakter (SuperOffice-användare) på ditt eget företag.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
-[3]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/icons/btn-menu.png
-[img3]: ../../../../common/icons/search-icon-black.png

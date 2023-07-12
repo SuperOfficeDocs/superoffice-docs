@@ -47,7 +47,7 @@ Du måste då återskapa dessa statusar genom att klicka på någon av dessa kna
 | ![ikon][img2] | Återskapa alla räknare | Välj för att återskapa alla räknare |
 
 <!-- Referenced links -->
-[1]: ../../../../search-options/learn/using-search-criteria.md
+[1]: ../../../../search-options/learn/search-criteria.md
 [2]: select-status-criteria.md
 
 <!-- Referenced images -->

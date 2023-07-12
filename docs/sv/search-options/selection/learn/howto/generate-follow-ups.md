@@ -28,7 +28,7 @@ Du kan skapa en händelse som till exempel visas på aktivitetslistan för alla 
 7. Välj vilka projekt händelsen ska kopplas till i fältet **Projekt**. Gör något av följande:
 
     * Klicka på pilen och välj ett projekt i listan.
-    * Skriv hela eller början av projektnamnet (se [Historiklistan][2] och [Snabbsökning][3]).
+    * Skriv hela eller början av projektnamnet.
 
 8. I fältet **Prioritet** anger du prioritet för händelsen. Om du klickar på pilen visas en lista med standardalternativ för hög, normal och låg prioritet.
 
@@ -54,7 +54,5 @@ Du kan skapa en händelse som till exempel visas på aktivitetslistan för alla 
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../../../learn/using-history-list.md
-[3]: ../../../learn/using-fastsearcher.md
 
 <!-- Referenced images -->

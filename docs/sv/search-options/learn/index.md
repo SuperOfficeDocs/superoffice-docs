@@ -3,7 +3,7 @@ uid: help-sv-search-intro
 title: Sökfunktioner i CRM
 description: Lär dig hur du söker efter och hittar data i SuperOffice CRM med bara några enkla klick.
 author: Bergfrid Dias
-so.date: 12.14.2022
+so.date: 05.25.2023
 keywords: söka, sök
 so.topic: concept
 language: sv
@@ -13,19 +13,7 @@ language: sv
 
 Att söka efter information i din CRM-databas är något du gör varje dag. Oavsett om du letar efter ett telefonnummer eller en lista över alla dina öppna försäljningar, hjälper sökfunktionen dig att hitta informationen snabbare.
 
-Följande guider kommer att:
-
-* Visa dig olika sätt att hitta information i SuperOffice CRM-databasen.
-* Förklara hur du kan spara dina sökningar som ett urval.
-* Visa vilka uppgifter du kan utföra med din sökning eller dina urval.
-
-Med SuperOffice-sökningar kan du söka efter enstaka data, till exempel ett telefonnummer, eller en lista med data, till exempel en lista över mottagare av utskick.
-
-I SuperOffice CRM finns det flera olika sökalternativ:
-
-* [Snabbsökning][3]
-* [Sökning med knappen Sök][1]
-* [Fritextsökningsfält][2]
+Följande guider kommer att: Visa dig olika sätt att hitta information i SuperOffice CRM-databasen; Förklara hur du kan spara dina sökningar som ett urval; Visa vilka uppgifter du kan utföra med din sökning eller dina urval.
 
 ## Vad kan jag söka efter?
 
@@ -42,33 +30,40 @@ I SuperOffice CRM finns det flera olika sökalternativ:
 * Formulärinlämningar
 * Utskick
 
-## Använda snabbsökning
+## Olika sökalternativ
 
-Du kan använda [snabbsökning][3] eller [historiklistan][5] för att söka efter företag, försäljningar, projekt och urval.
+I SuperOffice CRM finns det flera olika sökalternativ:
 
-**Snabbsökning** hittar du antingen i menyn **Navigator** genom att trycka på företaget, kontakten, försäljningen, projektet eller urvalet för att öppna ett sökfält, eller i popup-dialogrutor för att söka efter företag, kontakter, försäljning, projekt och urval.
+* [Snabbsökning][3]
+* [Sökning med knappen Sök][1]
+* [Fritextsökningsfält][2]
 
-Funktionen kommer på kort tid att ge dig en lista som matchar dina sökord. Använd den för att kontrollera din databas för att upptäcka eventuella dubbletter innan du lägger till ett nytt företag eller en ny kontakt.
+Välj rätt verktyg för din uppgift:
+
+| Uppgift | Sökalternativ |
+|---|---|
+| Navigera snabbt och enkelt. | Snabbsökning i navigatoren eller historiklistan. |
+| Upptäcka eventuella dubbletter innan du lägger till ett nytt företag eller en ny kontakt. | Snabbsökning i navigatoren |
+| Hitta poster baserat på eventuella kriterier | Sök-knappen |
+| Spara ett sök som ett urval | Sök-knappen |
+| Hitta vanliga sökningar | Sök-knappen |
+| Um nach beliebigem Text zu suchen, den Benutzer in SuperOffice CRM eingegeben haben. | Fritextsökning |
+
+Den största skillnaden mellan dessa verktyg är om du anger nyckelord eller villkor.
+
+## <a id="fastsearcher" />Använda snabbsökning
+
+Du hittar **Snabbsökning** antingen i menyn **Navigator** och i popup-dialogrutor. Funktionen kommer på kort tid att ge dig en lista som matchar dina sökord.
 
 ![Använd snabbsökning för att navigera snabbt och enkelt i navigatorn -screenshot][img1]
 
-### Tips för snabbsökning
+Snabbsökning kan användas på olika sätt:
 
-Du kan använda %% för att se alla poster av en viss typ, till exempel alla företag, alla urval, alla projekt.
+* Du kan söka [direkt från navigatorn][3] för att gå till företag, kontakt, försäljning, projekt eller urval.
 
-Om du till exempel vill se alla dokumentmallar som finns tillgängliga i SuperOffice CRM går du till menyn **+Ny** och klickar på **Dokument**. I det övre fältet i dokumentfönstret, som anger typer av dokumentmallar, skriver du %%. Du kommer då att se en rullgardinslista som innehåller en fullständig lista över tillgängliga dokumentmallar.
+* Du kan söka efter företag, kontakter, försäljningar och urval [i dialogrutor][8] som innehåller relevanta fält, till exempel dialogrutorna **Bokning** eller **Dokument** om du vill bifoga dem till en bokning eller ett dokument.
 
-![Skriv in två procenttecken i snabbsökningen för att se alla poster -screenshot][img4]
-
-## Använda Sök-knappen
-
-Om du klickar på knappen **Sök** i det övre fältet, öppnas [Fönstret Sök][1], där du kan söka på data i SuperOffice.
-
-Sök-knappen hjälper dig att hitta poster baserat på eventuella kriterier från företag, kontakter, projekt, urval, försäljning, produkter, händelser, dokument och ärenden.
-
-![Klicka på Sök-knappen i det övre fältet för att komma till fönstret Sök -screenshot][img2]
-
-När du använder sökfunktionen kan du spara varje sökning du utför som ett urval.
+* Du kan söka [direkt i tidszonsväljaren][2] och visa en stads eller ett lands tidszon.
 
 ## Använda fritextsökning
 
@@ -77,19 +72,25 @@ Använd sökfältet [fritextsökning][2] i det övre högra hörnet för att sö
 ![Fritextsökningen hittar du till höger i övre raden -screenshot][img3]
 
 > [!TIP]
-> Vill du se en lista över alla dina kontakter? Klicka på ikonen **Urval** i navigatorpanelen till vänster och sök efter ”Alla kontakter” för att se ett förkonfigurerat urval.
+> Vill du se en lista över alla dina kontakter? Klicka på ikonen **Urval** i navigatorpanelen till vänster och sök efter "Alla kontakter" för att se ett förkonfigurerat urval.
 
 ## Använd jokertecken
 
 Använd **%** som en joker när du söker. Procenttecknet (%) matchar alla strängar med 0 eller fler tecken. Till exempel: J%son matchar Jackson, Johnson, Jason och Json.
 
-[!include[Use wildcard in search](includes/tip-search-wildcard.md)]
+## Använda Sök-knappen
+
+Om du klickar på knappen **Sök** i det övre fältet, öppnas [Fönstret Sök][1], där du kan söka på data i SuperOffice. Sök-knappen hjälper dig att hitta poster [baserat på eventuella kriterier][6] från företag, kontakter, projekt, urval, försäljning, produkter, händelser, dokument och ärenden.
+
+![Klicka på Sök-knappen i det övre fältet för att komma till fönstret Sök -screenshot][img2]
+
+När du använder sökfunktionen kan du spara varje sökning du utför som ett urval.
 
 ## <a id="typical" />Använd vanliga sökningar som utgångspunkt
 
 En vanlig sökning är en fördefinierad sökning som vi har ställt in åt dig, så att du kan se vad andra användare vanligtvis söker efter. Varje datauppsättning i fönstret Sök innehåller en lista över vanliga sökningar som är klara att användas.
 
-En vanlig sökning är ett bra sätt att börja leta efter data i SuperOffice CRM. Du kan hitta vanliga sökningar genom att klicka under den grupp med data som du är intresserad av. Vanliga sökningar innehåller förinställda kriterier och kan användas som de är, ändras eller utökas.
+Du kan hitta vanliga sökningar genom att klicka under den grupp med data som du är intresserad av. Vanliga sökningar innehåller förinställda kriterier och kan användas som de är, ändras eller utökas.
 
 ### Exempel: Mina försenade uppföljningar
 
@@ -103,8 +104,6 @@ Titta på den här videon för att lära dig hur du gör en vanlig sökning och 
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-[Läs mer][6]
 
 ## <a id="search-to-selection" />Skapa en sökning och spara den som ett urval
 
@@ -132,21 +131,22 @@ Titta på den här videon eller följ stegen nedan om du vill lära dig hur du s
 ## Relaterat innehåll
 
 * [Favoriter][4]
+* [Historiklistan][5]
 * [Skapa en sökning och spara den som ett urval][7]
-* Bredda din sökning med funktionen ELLER
+* [Bredda din sökning med funktionen ELLER][1]
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: freetext-search.md
-[3]: using-fastsearcher.md
+[3]: in-navigator.md
 [4]: ../../learn/basics/fav.md
-[5]: using-history-list.md
-[6]: using-search-criteria.md
+[5]: ../../learn/basics/history.md
+[6]: search-criteria.md
 [7]: ../selection/learn/create/index.md
+[8]: in-dialogs.md
 
 <!-- Referenced images -->
-[img1]: media/search-find-fastsearcher.png
-[img2]: media/getstarted-search-find-findscreen.png
-[img3]: media/freetext-search-find.png
-[img4]: media/getstarted-document-fastsearcher.png
-[img5]: media/typical-search.png
+[img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png
+[img2]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
+[img3]: ../../../media/loc/en/search-options/freetext-search-find.png
+[img5]: ../../../media/loc/en/search-options/typical-search.png

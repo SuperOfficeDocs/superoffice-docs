@@ -24,10 +24,10 @@ Om två företag i din kunddatabas har beslutat sig för att gå samman, eller o
 1. Välj **Underhåll företag** under ![ikon][img3] knappen **Uppgift** och klicka på **Slå ihop företag**.
     Dialogrutan **Slå ihop företag** öppnas. Källföretaget finns under **Från**.
 
-1. Under **Till företag** väljer du det företag som ska uppdateras med information från källföretaget. Börja skriva i fältet för att [söka efter ett företag][1].
+1. Under **Till företag** väljer du det företag som ska uppdateras med information från källföretaget. Börja skriva i fältet för att söka efter ett företag.
 
     > [!TIP]
-    > Om du vill byta plats på **Från**\- och **Till**-företag klickar du på knappen ![ikon][img1].
+    > Om du vill byta plats på **Från**- och **Till**-företag klickar du på knappen ![ikon][img1].
 
 1. Under **Detaljinformation om företag och kontakter** kan du markera följande:
 
@@ -63,7 +63,6 @@ Om två företag i din kunddatabas har beslutat sig för att gå samman, eller o
 * [Slå ihop kontakter][2]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->

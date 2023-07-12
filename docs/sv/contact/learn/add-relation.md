@@ -20,7 +20,7 @@ language: sv
 
 1. Klicka på **Lägg till**-knappen under detaljkortet.
 
-1. Välj företag och kontakter under **Aktiv** respektive **Passiv** i dialogrutan **Relation**. Ange informationen antingen genom att klicka på pilen och välja ett företag eller en kontakt i listrutan som visas, genom att skriva in hela eller början på namnet. (Se [Snabbsökning][1] och [Historiklistan][2]).
+1. Välj företag och kontakter under **Aktiv** respektive **Passiv** i dialogrutan **Relation**. Ange informationen antingen genom att klicka på pilen och välja ett företag eller en kontakt i listrutan som visas, genom att skriva in hela eller början på namnet.
 
 1. I listrutan **Relation** anger du vilken relation som finns mellan den aktiva och den passiva parten, till exempel "ägare". [!include[SM](../../learn/includes/are-defined-sm.md)]
 
@@ -38,8 +38,6 @@ language: sv
 * [Ta bort relation][3]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
 [3]: delete-relation.md
 
 <!-- Referenced images -->

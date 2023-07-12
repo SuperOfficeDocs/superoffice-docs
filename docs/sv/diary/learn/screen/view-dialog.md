@@ -35,7 +35,7 @@ När du väljer ett alternativ för **Välj från** visas en listruta nedanför.
 
 * Om du har valt **Medarbetare** visas en lista med användargrupper på ditt företag. Du kan också välja **Alla** om du vill visa alla användare på företaget.
 
-* Om du har valt **Projekt** visas historiklistan med projekt. Här kan du också använd [snabbsökning][6] eller [historiklistan][5].
+* Om du har valt **Projekt** visas historiklistan med projekt.
 
 * Om du har valt **Resurs** visas en lista över resurser på ditt företag. Denna lista definieras under Inställningar och underhåll. Välj **Alla** om du vill se alla resurser på ditt företag.
 
@@ -70,8 +70,6 @@ Stänger dialogrutan utan att ändringarna sparas.
 [1]: ../create-view.md
 [2]: ../open.md
 [4]: ../create-follow-up.md
-[5]: ../../../search-options/learn/using-history-list.md
-[6]: ../../../search-options/learn/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/arrow-right.png

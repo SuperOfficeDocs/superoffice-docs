@@ -18,4 +18,4 @@
 En knappnålssymbol vid flikrubriken **Länk** innebär att försäljningen har en länk.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-history-list.md
+[1]: ../basics/history.md

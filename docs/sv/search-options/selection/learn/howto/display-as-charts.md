@@ -53,4 +53,4 @@ Vissa diagram kan visa att inga data är tillgängliga. Detta innebär att ditt 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/maximize-dark.png
 [img2]: ../../../../../../common/icons/refresh-icon.png
-[img3]: media/visualize-selections.gif
+[img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif

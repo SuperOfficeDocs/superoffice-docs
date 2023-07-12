@@ -38,7 +38,7 @@ Använd det här alternativet för att lägga till de valda posterna till ett be
 
 2. Välj en eller flera poster på listan.
 
-    För att lägga till flera poster, använder du **Shift** eller **Ctrl** \+ klick.
+    För att lägga till flera poster, använder du **Shift** eller **Ctrl** + klick.
 
 3. Högerklicka på posterna och välj **Lägg till i urval** i menyn som visas.
 
@@ -47,9 +47,9 @@ Använd det här alternativet för att lägga till de valda posterna till ett be
     > [!NOTE]
     > Listan över urval är begränsad till:
     >
-    > \* Befintliga *statiska* urval (inte dynamiska urval eller kombinerade urval)
+    > * Befintliga *statiska* urval (inte dynamiska urval eller kombinerade urval)
     >
-    > \* Urval som matchar posterna du lägger till (om du väljer försäljning, visas endast urval för försäljning)
+    > * Urval som matchar posterna du lägger till (om du väljer försäljning, visas endast urval för försäljning)
     >
     > Om listan är tom, finns det inga urval av denna typ.
 
@@ -62,7 +62,7 @@ Använd det här alternativet för att lägga till de valda posterna till ett be
 2. Välj en eller flera poster på listan.
 
     > [!NOTE]
-    > För att lägga till flera poster, använder du **Shift** eller **Ctrl** \+ klick.
+    > För att lägga till flera poster, använder du **Shift** eller **Ctrl** + klick.
 
 3. Högerklicka på posterna och välj **Lägg till i urval** i menyn som visas.
 
@@ -107,7 +107,7 @@ Använd det här alternativet för att lägga till de valda posterna till ett be
 
 <!-- Referenced links -->
 [2]: ../../../learn/find-screen.md
-[5]: ../../../learn/using-search-criteria.md
+[5]: ../../../learn/search-criteria.md
 [3]: copy-members-to.md
 [4]: ../../../../learn/getting-started/index.md
 

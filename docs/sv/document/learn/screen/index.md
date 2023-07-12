@@ -28,7 +28,7 @@ Huvuddelen innehåller följande grundläggande information om dokumentet:
 
 ### Dokumentmall
 
-Om du klickar på pilen ![ikon][img1] bredvid fältet för typ högst upp i dialogrutan visas en lista över dokumentmallar du kan välja bland. [!include[SM](../../../learn/includes/are-defined-sm.md)] Här kan du också använda [FastSearcher][6].
+Om du klickar på pilen ![ikon][img1] bredvid fältet för typ högst upp i dialogrutan visas en lista över dokumentmallar du kan välja bland. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
 > [!NOTE]
 > När du [skapar ett dokument][5] öppnas mallen i det program den skapades i. DOCX-filer öppnas till exempel i Word.
@@ -145,7 +145,6 @@ På den här fliken visas alla [användardefinierade fält][3] som har konfigure
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
-[6]: ../../../search-options/learn/using-fastsearcher.md
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../learn/activity/linking-documents-to-follow-ups.md

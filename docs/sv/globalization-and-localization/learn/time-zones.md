@@ -14,7 +14,7 @@ language: sv
 SuperOffice CRM har stöd för händelser i olika tidszoner. Om tidszoner har aktiverats finns det en listruta nederst till vänster i kalendern (flagga och land), där du kan välja önskad tidszon.
 
 > [!NOTE]
-> Användning av tidszoner måste aktiveras per land i Inställningar och underhåll (under **Alternativ** &gt; **Tidszoner**). Dessutom kan du gå till **Inställningar** för att visa tidszonsväljaren och ange standardtidszon. Där finns också mer information om hur du ställer in tidszoner.
+> Användning av tidszoner måste aktiveras per land i Inställningar och underhåll (under **Alternativ** > **Tidszoner**). Dessutom kan du gå till **Inställningar** för att visa tidszonsväljaren och ange standardtidszon. Där finns också mer information om hur du ställer in tidszoner.
 
 ## Hur fungerar tidszoner i SuperOffice CRM?
 
@@ -29,13 +29,21 @@ Funktionen har stöd för sommartid.
 
 ## Hur väljer du tidszoner?
 
-Tidszoner visas i form av en listruta i kalendern (se [Kalender][1]) och i [dialogrutan för händelser][3]. Tidszonen som är standard för din SuperOffice-databas visas överst med denna ikon: ![ikon][img1].
+Tidszoner visas i form av en listruta i [kalenderen][1] och i [dialogrutan för händelser][3]. Tidszonen som är standard för din SuperOffice-databas visas överst med denna ikon: ![ikon][img1].
 
-Tidszonslistan sorteras efter land. Högst upp i tidszonslistan visas det valda landets namn och flagga. Du kan söka i tidszonslistan på olika sätt:
+Tidszonslistan sorteras efter land. Högst upp i tidszonslistan visas det valda landets namn och flagga.
 
-* Använd det översta fältet med det valda landet flagga som ett sökfält. Du kan söka i tidszonsfältet på samma sätt som i [snabbsökningsfälten][2] och du kan söka efter både land och större städer direkt i tidszonsfältet. Om du till exempel inte vet vilken tidszon Canberra befinner sig i söker du efter Canberra, så visas den aktuella tidszonen i Australien i listan.
+### Söka efter land och städer
 
-* Du kan söka på antal timmar och hitta rätt tidszon. Om du till exempel skriver in +3 visas alla tidszoner som ligger tre timmar efter den angivna tidszonen i SuperOffice CRM.
+Använd det översta fältet med det valda landet flagga som ett sökfält. Du kan söka efter både land och större städer direkt i tidszonsfältet. Om du till exempel inte vet vilken tidszon Canberra befinner sig i söker du efter Canberra, så visas den aktuella tidszonen i Australien i listan.
+
+1. Placera muspekaren i landfältet.
+2. Skriv namnet på staden eller landet som du vill visa tidszon för.
+3. När du har hittat staden eller landet visas klickar du på posten, så aktiveras motsvarande tidszon.
+
+### Söka på antal timmar
+
+Du kan söka på antal timmar och hitta rätt tidszon. Om du till exempel skriver in +3 visas alla tidszoner som ligger tre timmar efter den angivna tidszonen i SuperOffice CRM.
 
 > [!NOTE]
 > I listan i tidszonsväljaren är regionnamnen alltid på engelska, medan namnen på länderna beror på språkinställningarna i SuperOffice CRM. Tänk på det när du söker efter länder och regioner.
@@ -48,7 +56,6 @@ Tidszonslistan sorteras efter land. Högst upp i tidszonslistan visas det valda 
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
-[2]: ../../search-options/learn/using-fastsearcher.md
 [3]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->

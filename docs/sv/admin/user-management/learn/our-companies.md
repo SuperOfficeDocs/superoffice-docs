@@ -84,7 +84,7 @@ Fälten nedan motsvarar fälten på företagskortet.
 * Uppfyll även: Här kan du ange ytterligare [sökkriterier][1].
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md
 [2]: delete-user.md
 
 <!-- Referenced images -->

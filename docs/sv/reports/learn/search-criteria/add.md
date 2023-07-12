@@ -29,6 +29,6 @@ Du kan lägga till fler sökkriterier i en rapport. Om du lägger till kriterier
 
 <!-- Referenced links -->
 [1]: ../labels/add-format.md
-[2]: ../../../search-options/learn/using-search-criteria.md
+[2]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

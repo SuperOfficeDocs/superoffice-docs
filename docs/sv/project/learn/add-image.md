@@ -16,7 +16,7 @@ På fliken **Bild** kan du lägga in en bild för projektet. Projektbilden anvä
 1. Öppna projektskärmen. Gör något av följande:
 
     * Klicka på **Projekt**-knappen i navigatorn.
-    * Använd [historiklistan][1] eller [Snabbsökning][2].
+    * Använd [historiklistan][1] eller navigatorsök.
     * Dubbelklicka på ett projekt i ett sökresultat, eller på detaljkortet **Projekt** i fönstret Företag.
 
 2. Välj fliken **Bild**.
@@ -38,5 +38,4 @@ På fliken **Bild** kan du lägga in en bild för projektet. Projektbilden anvä
     > Om du vill ta bort en aktiv projektbild, klickar du på **Ta bort** till vänster om beskrivningen.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-history-list.md
-[2]: ../../search-options/learn/using-fastsearcher.md
+[1]: ../../learn/basics/history.md

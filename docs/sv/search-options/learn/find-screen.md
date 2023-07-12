@@ -3,7 +3,7 @@ uid: help-sv-find-screen
 title: Fönstret Sök
 description: Fönstret Sök
 author: SuperOffice RnD
-so.date: 03.08.2023
+so.date: 05.25.2023
 keywords: söka, sök
 so.topic: howto
 language: sv
@@ -18,9 +18,11 @@ Det finns i princip inga gränser för vad du kan söka efter i SuperOffice CRM.
 > [!NOTE]
 > Om du har licens för SuperOffice Integration Server kan du söka efter produkter i befintliga offerter. Om du har licens för SuperOffice Service kan du söka efter ärenden.
 
-## Söka efter information i SuperOffice CRM
+## Steg
 
-1. Klicka på **Sök**-knappen på [toppraden][1]. ![ikon][img2]
+1. Klicka på **Sök**-knappen på [toppraden][1].
+
+    ![Sök][img2]
 
 2. Klicka på den typ av post du vill söka efter eller klicka på **Vanliga sökningar** för att visa en lista med fördefinierade sökningar. Fliken **Kriterier** öppnas.
 
@@ -57,7 +59,7 @@ Titta på den här videon om du vill lära dig hur du skapar en sökning med fun
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
 
-## Arbeta med sökresultat
+## <a id="results" />Arbeta med sökresultat
 
 När du har följt ovanstående steg, och det visas sökresultat längst ned i fliken **Resultat**, har du flera möjligheter:
 
@@ -88,11 +90,11 @@ Säg att du har ansvar för säljavdelningen och att du ska hålla en presentati
 
 2. Klicka på **Sök företag**.
 
-3. Om fliken **Kriterier** innehåller kriterier, klickar du på ![ikon][img3] för att ta bort dem eller på **Ta bort alla** för att rensa kriterieinformationen.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klicka på **Lägg till**.
 
-5. Välj i vilket fält du vill söka efter information i listan som visas. Klicka först på **Försäljning** ![ikon][img5] och sedan **Belopp**.
+5. [!include[Select field](includes/select-field.md)]. Klicka först på **Försäljning** ![ikon][img5] och sedan **Belopp**.
 
 6. I listrutan till höger om **Belopp** klickar du på pilen ![ikon][img1] och väljer **>** (större än).
 
@@ -102,7 +104,7 @@ Säg att du har ansvar för säljavdelningen och att du ska hålla en presentati
 
 9. Klicka på **Lägg till**.
 
-10. Välj i vilket fält du vill söka efter information i listan som visas. Klicka först på **Försäljning** ![ikon][img5], och sedan **Registreringsdatum**.
+10. [!include[Select field](includes/select-field.md)]. Klicka först på **Försäljning** ![ikon][img5], och sedan **Registreringsdatum**.
 
 11. I den andra listrutan klickar du på pilen ![ikon][img1] och sedan **Mellan**.
 
@@ -122,20 +124,11 @@ Säg att du har ansvar för säljavdelningen och att du ska hålla en presentati
 
 19. Du har nu angett att du vill söka efter företag med en försäljning över ett visst belopp under en viss period och med statusen **Såld**.
 
-20. Klicka på knappen **Sök** under fliken **Kriterier**.
+20. [!include[Click Find](includes/run-search.md)]
 
-21. Alla resultat som motsvarar de sökkriterier du har angett visas i fliken **Resultat**.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > Om du får för få eller för många träffar kan du ändra sökkriterierna genom att välja något annat i de olika listrutorna.
-
-22. Välj vad du vill använda dessa sökresultat till:
-
-    * Om du vill öppna en av posterna dubbelklickar du på den. Den visas då i fönstret Företag.
-
-    * Förhandsgranska varje företag i [sidopanelen][4]. Välj **Förhandsgranska** i listan högst upp i sidopanelen. Därefter kan du klicka på varje företag i fliken **Resultat** för att förhandsgranska dem.
-
-    * Du kan skapa ett urval som innehåller dessa kunder genom att klicka på **Spara som urval** och följ instruktionerna under [Skapa urval][8].
+21. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex2" />Exempel 2: söka efter kunder i Danmark som du har ansvaret för
@@ -146,11 +139,11 @@ Säg nu att du ska på en konferens i Danmark. När du ändå är där vill du p
 
 2. Klicka på **Sök företag**.
 
-3. Om fliken **Kriterier** innehåller kriterier, klickar du på ![ikon][img3] för att ta bort dem eller på **Ta bort alla** för att rensa kriterieinformationen.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klicka på **Lägg till**.
 
-5. Välj i vilket fält du vill söka efter information i listan som visas: Klicka först på **Företag** ![ikon][img6] och sedan **Land**.
+5. [!include[Select field](includes/select-field.md)]: Klicka först på **Företag** ![ikon][img6] och sedan **Land**.
 
 6. I den andra listrutan väljer du **Är en av**.
 
@@ -166,20 +159,11 @@ Säg nu att du ska på en konferens i Danmark. När du ändå är där vill du p
 
 12. Du har nu angett att du vill söka efter företag i Danmark, som har dig som kontakt.
 
-13. Klicka på knappen **Sök** under fliken **Kriterier**.
+13. [!include[Click Find](includes/run-search.md)]
 
-14. Alla resultat som motsvarar de sökkriterier du har angett visas i fliken **Resultat**.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > Om du får för få eller för många träffar kan du ändra sökkriterierna genom att välja något annat i de olika listrutorna.
-
-15. Välj vad du vill använda dessa sökresultat till:
-
-    * Om du vill öppna en av posterna dubbelklickar du på den. Den visas då i fönstret Företag.
-
-    * Förhandsgranska varje företag i [sidopanelen][4]. Välj **Förhandsgranska** i listan högst upp i sidopanelen. Därefter kan du klicka på varje företag i fliken **Resultat** för att förhandsgranska dem.
-
-    * Du kan skapa ett urval som innehåller dessa kunder genom att klicka på **Spara som urval** och följ instruktionerna under [Skapa urval][8].
+14. [!include[Explore results](includes/use-results.md)]
 
 ## <a id="ex3" />Exempel 3: söka efter sålda försäljningar
 
@@ -189,26 +173,19 @@ Säg att du är ansvarig för ett företag och vill ta reda på vilken typ av f�
 
 2. Klicka på **Sök försäljning**.
 
-3. Om fliken **Kriterier** innehåller kriterier, klickar du på ![ikon][img3] för att ta bort dem eller på **Ta bort alla** för att rensa kriterieinformationen.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klicka på **Lägg till**.
 
-5. Välj i vilket fält du vill söka efter information i listan som visas: Klicka först på **Försäljning** ![ion][img5] och sedan **Status**.
+5. [!include[Select field](includes/select-field.md)]: Klicka först på **Försäljning** ![ion][img5] och sedan **Status**.
 
 6. I den andra listrutan väljer du **Är en av**.
 
 7. Klicka i fältet **Välj objekt** till höger om fältet **Är en av** och välj **Såld**. Du har nu angett att du vill söka efter slutförda försäljningar.
 
-8. Klicka på knappen **Sök** under fliken **Kriterier**.
+8. [!include[Click Find](includes/run-search.md)]
 
-9. Alla resultat som motsvarar de sökkriterier du har angett visas i fliken **Resultat**.
-
-10. Välj vad du vill använda dessa sökresultat till:
-    * Om du vill öppna en av posterna dubbelklickar du på den. Den visas då i fönstret Försäljning.
-
-    * Förhandsgranska varje försäljning i [sidopanelen][4]. Välj **Förhandsgranska** i listan högst upp i sidopanelen. Därefter kan du klicka på varje försäljning i fliken **Resultat** för att förhandsgranska dem.
-
-    * Du kan skapa ett urval som innehåller dessa försäljningar genom att klicka på **Spara som urval** och följ instruktionerna under [Skapa urval][8].
+9. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex4" />Exempel 4: söka efter projekt du har deltagit i under det senaste året
@@ -219,11 +196,11 @@ Säg nu att det börjar bli dags för löneförhandlingar och att du anser att d
 
 2. Klicka på **Sök försäljning**.
 
-3. Om fliken **Kriterier** innehåller kriterier, klickar du på ![ikon][img3] för att ta bort dem eller på **Ta bort alla** för att rensa kriterieinformationen.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klicka på **Lägg till**.
 
-5. Välj i vilket fält du vill söka efter information i listan som visas: Klicka först på **Kontakt** ![ikon][img7] och sedan **Efternamn**.
+5. [!include[Select field](includes/select-field.md)]: Klicka först på **Kontakt** ![ikon][img7] och sedan **Efternamn**.
 
 6. I den andra listrutan väljer du **Är lika med**.
 
@@ -233,7 +210,7 @@ Säg nu att det börjar bli dags för löneförhandlingar och att du anser att d
 
 9. Klicka på **Lägg till**.
 
-10. Välj i vilket fält du vill söka efter information i listan som visas: Klicka först på **Projekt** ![ikon][img8] och sedan **Från-datum**.
+10. [!include[Select field](includes/select-field.md)]: Klicka först på **Projekt** ![ikon][img8] och sedan **Från-datum**.
 
 11. I den andra listrutan väljer du **Efter**.
 
@@ -241,20 +218,11 @@ Säg nu att det börjar bli dags för löneförhandlingar och att du anser att d
 
 13. Du har nu angett att du vill söka efter projekt som du har deltagit i från ett visst datum och fram till idag.
 
-14. Klicka på knappen **Sök** under fliken **Kriterier**.
+14. [!include[Click Find](includes/run-search.md)]
 
-15. Alla resultat som motsvarar de sökkriterier du har angett visas i fliken **Resultat**.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > Om du får för få eller för många träffar kan du ändra sökkriterierna genom att välja något annat i de olika listrutorna.
-
-16. Välj vad du vill använda dessa sökresultat till:
-
-    * Om du vill öppna en av posterna dubbelklickar du på den. Den visas då på projektskärmen.
-
-    * Förhandsgranska varje projekt i [sidopanelen][4]. Välj **Förhandsgranska** i listan högst upp i sidopanelen. Därefter kan du klicka på respektive projekt i fliken **Resultat** för att förhandsgranska dem.
-
-    * Du kan skapa ett urval som innehåller dessa projekt genom att klicka på **Spara som urval** och följ instruktionerna under [Skapa urval][8].
+15. [!include[Explore results](includes/use-results.md)]
 
 ## <a id="ex5" />Exempel 5: söka efter genomförda marknadsföringsåtgärder
 
@@ -268,7 +236,7 @@ Säg nu att du är ansvarig för marknadsavdelningen och att ni ska ha en idéda
 
 4. Klicka på **Lägg till**.
 
-5. Välj i vilket fält du vill söka efter information i listan som visas: Klicka först på **Händelse** ![ikon][img9] och sedan **Syfte**.
+5. [!include[Select field](includes/select-field.md)]: Klicka först på **Händelse** ![ikon][img9] och sedan **Syfte**.
 
 6. I den andra listrutan väljer du **Är en av**.
 
@@ -278,7 +246,7 @@ Säg nu att du är ansvarig för marknadsavdelningen och att ni ska ha en idéda
 
 9. Klicka på **Lägg till**.
 
-10. Välj i vilket fält du vill söka efter information i listan som visas. Klicka först på **Händelse** ![ikon][img9], och sedan **Slutdatum**.
+10. [!include[Select field](includes/select-field.md)]. Klicka först på **Händelse** ![ikon][img9], och sedan **Slutdatum**.
 
 11. I den andra listrutan väljer du **Föregående**.
 
@@ -294,20 +262,11 @@ Säg nu att du är ansvarig för marknadsavdelningen och att ni ska ha en idéda
 
 17. Markera **Ja**. Du har nu angett att du vill söka efter händelser som har statusen **Slutförd**.
 
-18. Klicka på knappen **Sök** under fliken **Kriterier**.
+18. [!include[Click Find](includes/run-search.md)]
 
-19. Alla resultat som motsvarar de sökkriterier du har angett visas i fliken **Resultat**.
+    [!include[TIP hits](includes/tip-adjust-criteria.md)]
 
-    > [!TIP]
-    > Om du får för få eller för många träffar kan du ändra sökkriterierna genom att välja något annat i de olika listrutorna.
-
-20. Välj vad du vill använda dessa sökresultat till:
-
-    * Om du vill öppna en av posterna dubbelklickar du på den. Den visas då på detaljkortet **Aktiviteter** i fönstret Företag.
-
-    * Förhandsgranska varje händelse i [sidopanelen][4]. Välj **Förhandsgranska** i listan högst upp i sidopanelen. Därefter kan du klicka på respektive händelse i fliken **Resultat** för att förhandsgranska dem.
-
-    * Du kan skapa ett urval som innehåller dessa händelser genom att klicka på **Spara som urval** och följ instruktionerna under [Skapa urval][8].
+19. [!include[Explore results](includes/use-results.md)]
 
 ## Vad vill du göra nu?
 
@@ -320,17 +279,17 @@ Säg nu att du är ansvarig för marknadsavdelningen och att ni ska ha en idéda
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/getting-started/main-screen/side-panel.md
-[2]: using-fastsearcher.md
-[3]: using-search-criteria.md
+[2]: in-navigator.md
+[3]: search-criteria.md
 [5]: freetext-search.md
-[6]: using-history-list.md
+[6]: ../../learn/basics/history.md
 [7]: ../selection/learn/howto/index.md
 [8]: ../selection/learn/create/index.md
 [9]: ../selection/learn/update/add-remove-members-static.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../media/find.png
+[img2]: ../../../media/loc/en/learn/find.png
 [img3]: ../../../../common/icons/delete-circle-red.png
 [img4]: ../../../media/icons/criteria-move.png
 [img5]: ../../../../common/icons/singlecolour/sale.png
@@ -338,4 +297,4 @@ Säg nu att du är ansvarig för marknadsavdelningen och att ni ska ha en idéda
 [img7]: ../../../../common/icons/singlecolour/person.png
 [img8]: ../../../../common/icons/singlecolour/project.png
 [img9]: ../../../../common/icons/singlecolour/appointment.png
-[img10]: media/task-menu.png
+[img10]: ../../../media/loc/en/search-options/task-menu.png

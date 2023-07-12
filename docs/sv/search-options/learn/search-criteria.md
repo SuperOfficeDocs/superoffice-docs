@@ -3,7 +3,7 @@ uid: help-sv-search-criteria
 title: Använda sökkriterier
 description: Använda sökkriterier
 author: Bergfrid Dias
-so.date: 03.28.2023
+so.date: 05.25.2023
 keywords: söka, kriterier, sök
 so.topic: howto
 language: sv
@@ -11,7 +11,7 @@ language: sv
 
 # Använda sökkriterier
 
-Du använder sökkriterier för att berätta vad du söker efter, till exempel ”företag med adress i Danmark”. Sökkriterier används på flera ställen i SuperOffice CRM, bland annat i fönstret **Sök** och när du ska skapa urval. Oavsett vad du ska använda kriterierna till så arbetar du med dem på samma sätt.
+Du använder sökkriterier för att berätta vad du söker efter, till exempel "företag med adress i Danmark". Sökkriterier används på flera ställen i SuperOffice CRM, bland annat i fönstret **Sök** och när du ska skapa urval. Oavsett vad du ska använda kriterierna till så arbetar du med dem på samma sätt.
 
 Överallt där du kan lägga till sökkriterier hittar du en kriterielista med de valda sökkriterierna.
 
@@ -33,49 +33,49 @@ Titta på den här videon för att lära dig hur du gör en vanlig sökning och 
 
 3. Välj i vilket fält du vill söka efter information. Du kan även [skriva in början på namnet på önskat fält][2]. Det finns flera typer av fält:
 
-    * Textsträng
-    * Ja/Nej
-    * Datum
-    * Nummer
-    * Lista
-    * Status
-    * Räknare
+    * [Textsträng](#text)
+    * [Ja/Nej](#yes-no)
+    * [Datum](#date)
+    * [Nummer](#number)
+    * [Lista](#list)
+    * [Status](#status)
+    * [Räknare](#counter)
 
 4. Välj värden för sökkriterierna i de olika fälten på raden.
 
 5. Klicka på **Lägg till** om du vill lägga till en ny rad eller klicka på **Eller** om du vill lägga till en ny uppsättning kriterier.
 
-### Fälttyper
+## Fälttyper
 
-#### Textfält
+### <a id="text" />Textfält
 
 Om fältet som du ska söka i är ett textfält (till exempel namn) söker programmet efter text eller tal som du själv anger. Då visas en lista med följande alternativ:
 
-[!include[Search criteria](../../learn/includes/list-search-criteria.md)]
+[!include[Search criteria](../includes/list-search-criteria.md)]
 
 Välj ett av dessa alternativ och skriv sedan in sökkriterierna i textfältet till höger.
 
-#### Ja/Nej-fält
+### <a id="yes-no" />Ja/Nej-fält
 
 Om fältet som du ska söka i är ett Ja/Nej-fält, till exempel fältet **Inga utskick** i fönstret Företag, så visas två alternativknappar. Du kan välja mellan **Ja** och **Nej**.
 
-#### Datumfält
+### <a id="date" />Datumfält
 
 Om fältet som du ska söka i är ett datumfält, till exempel fältet **Datum** i dialogrutan **Dokument**, visas en listruta med följande alternativ:
 
-[!include[Search criteria](../../learn/includes/list-date-criteria.md)]
+[!include[Search criteria](../includes/list-date-criteria.md)]
 
 Välj önskat alternativ. Beroende på vad du väljer fylls fältet automatiskt i med ett datum eller datumintervall, eller så kan du ange önskat datum. Du kan också välja ett datum i kalendern som visas när du klickar på pilknappen ![ikon][img1].
 
-#### Sifferfält
+### <a id="number" />Sifferfält
 
 Om fältet som du ska söka i innehåller siffror, till exempel fältet **Belopp** i fönstret Försäljning, visas en listruta med följande alternativ:
 
-[!include[Search criteria](../../learn/includes/table-number-criteria.md)]
+[!include[Search criteria](../includes/table-number-criteria.md)]
 
 Välj önskat alternativ och skriv in önskat siffervärde i textfältet till höger.
 
-#### Listfält
+### <a id="list" />Listfält
 
 Om fältet som du ska söka i är ett fält som innehåller listor, till exempel fältet **Bransch** i fönstret Företag, visas en listruta med alternativen **Är en av** och **Är inte en av**.
 
@@ -85,61 +85,49 @@ Om listan är lång, kan du skriva text i fälten **Sökkriterier** för att sö
 
 Klicka utanför listan för att stänga den.
 
-#### Statusfält
+### <a id="status" />Statusfält
 
 Om fältet som du ska söka i är ett statusfält, välj en status.
 
-Statusarna skapas och administreras i Inställningar och underhåll.
+Statusarna skapas och administreras i Inställningar och underhåll. Statusfält är bara aktuella om du har köpt licens för och aktiverat statusövervakning.
 
-Statusfält är bara aktuella om du har köpt licens för och aktiverat statusövervakning.
-
-#### Räknarfält
+### <a id="counter" />Räknarfält
 
 [Räknare][3] kan till exempel visa antal försäljningar i en period eller datum för den senast slutförda försäljningen.
 
 Räknarfält finns under **Räknare (SAINT)** i listan över kriterier.
 
-Räknarna skapas och administreras i Inställningar och underhåll.
+1. Till höger om fälten kan du klicka på länkarna för att ange ytterligare kriterier för räknarna. Vilka alternativ som är tillgängliga beror på vilken typ av post och räknare som du arbetar med.
 
-Räknarfält är bara aktuella om du har köpt licens för och aktiverat statusövervakning.
+    * **Saint-typ**: Här kan du välja vilken aktivitetstyp du ska söka efter.
+    * **Status**: Här kan du välja vilken status du ska söka efter för posten.
+    * **Riktning**: Här kan du välja om aktiviteten ska vara inkommande eller utgående.
+    * **Beloppsklass**: Här väljer du beloppsklass på försäljningen.
+    * **Syfte**: Här kan du ange syftet med aktiviteten.
 
-Till höger om fälten kan du klicka på länkarna för att ange ytterligare kriterier för räknarna. Vilka alternativ som är tillgängliga beror på vilken typ av post och räknare som du arbetar med.
+1. Beroende på vad du har valt ovan så visas en listruta för datumfält eller sifferfält. Dessa listrutor fungerar som beskrivs ovan. Välj önskat alternativ och skriv ett siffervärde eller datum i textfältet.
 
-* **Saint-typ**: Här kan du välja vilken aktivitetstyp du ska söka efter.
-* **Status**: Här kan du välja vilken status du ska söka efter för posten.
-* **Riktning**: Här kan du välja om aktiviteten ska vara inkommande eller utgående.
-* **Beloppsklass**: Här väljer du beloppsklass på försäljningen.
-* **Syfte**: Här kan du ange syftet med aktiviteten.
+Räknarna skapas och administreras i Inställningar och underhåll. Räknarfält är bara aktuella om du har köpt licens för och aktiverat statusövervakning.
 
-Beroende på vad du har valt ovan så visas en listruta för datumfält eller sifferfält. Dessa listrutor fungerar som beskrivs ovan. Välj önskat alternativ och skriv ett siffervärde eller datum i textfältet.
+## Arbeta med sökkriterier
 
-## Ändra sökkriterier
-
-Om du vill ändra ett sökkriterium, klickar du på det och väljer ett annat i listan som visas.
-
-## Flytta sökkriterier
-
-För att flytta kriterier (en rad), klicka och dra ![ikon][img2].
-
-## Ta bort sökkriterier
-
-Om du vill ta bort ett sökkriterium, klickar du på ![ikon][img3].
-
-## Aktivera eller inaktivera sökkriterier
+Kriterielistorna innehåller ett antal standardkriterier som du kan redigera eller ta bort efter behov.
 
 När du öppnar fönstret **Sök** innehåller den standardsökkriterier eller de sökkriterier som du angav förra gången du använde dialogrutan. För att använda andra sökkriterier än de som visas har du följande möjligheter:
 
-* Du kan ta bort dem genom att klicka på ![ikon][img3]
-* Du kan inaktivera ett eller flera sökkriterier genom att ta lämna värdefältet tomt. Ett inaktiverat sökkriterium finns kvar i kriterielistan och kan enkelt aktiveras igen.
-* Du kan inaktivera alla sökkriterierna genom att klicka på **Ta bort alla**.
+| Uppgift | Steg |
+|---|---|
+| Flytta kriterier (en rad) | Klicka och dra ![Symbol][img2]. |
+| Ändra sökkriterier | Klicka på det och väljer ett annat i listan som visas. |
+| Inaktivera ett eller flera sökkriterier | Lämna värdefältet tomt. |
+| Inaktivera alla sökkriterierna | Klicka **Ta bort alla**. |
+| Ta bort sökkriterier | Klicka på ![Symbol][img3]. |
+| Återställa kriterielistan till standardkriterierna | Klicka **Återställ till standard**. |
 
-## Flytta sökkriterier upp eller ner
-
-Om du vill flytta sökkriterier, klickar du och drar ![ikon][img2]. Detta har ingen praktisk innebörd för sökningen, men gör att du kan ordna kriterierna i den ordning du föredrar. Om några av villkoren inte används men du fortfarande vill behålla dem, kan du flytta inaktiva kriterier längst ned på listan.
-
-## Återställa till standardsökkriterier
-
-Kriterielistorna innehåller ett antal standardkriterier som du kan redigera eller ta bort efter behov. För att återställa kriterielistan till standardkriterierna klickar du på **Återställ till standard**.
+> [!NOTE]
+> Att flytta sökkriterier upp eller ner har ingen praktisk innebörd för sökningen, men gör att du kan ordna kriterierna i den ordning du föredrar. Om några av villkoren inte används men du fortfarande vill behålla dem, kan du flytta inaktiva kriterier längst ned på listan.
+>
+> Ett inaktiverat sökkriterium finns kvar i kriterielistan och kan enkelt aktiveras igen.
 
 ## Vad vill du göra nu?
 
@@ -147,7 +135,7 @@ Kriterielistorna innehåller ett antal standardkriterier som du kan redigera ell
 
 <!-- Referenced links -->
 [1]: find-screen.md
-[2]: using-fastsearcher.md
+[2]: in-navigator.md
 [3]: ../../sale/saint/learn/index.md
 
 <!-- Referenced images -->

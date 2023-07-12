@@ -18,12 +18,12 @@ Med hjälp av uppgiften Massuppdatering kan du ändra värden i flera uppgifter 
 2. Urval: Klicka på **Uppgift**-knappen och välj **Massredigering**.
     eller
     Välj de poster du vill uppdatera, högerklicka på dem och välj **Massredigering...**.
-    Dialogrutan **Massredigering** öppnas. Längst ned i den här dialogrutan kan du se typ av uppgift och hur många uppgifter som ska uppdateras. Exempel: Antal kontakter i kö för massredigering: 7\.
+    Dialogrutan **Massredigering** öppnas. Längst ned i den här dialogrutan kan du se typ av uppgift och hur många uppgifter som ska uppdateras. Exempel: Antal kontakter i kö för massredigering: 7.
 
     > [!NOTE]
     > Om urvalet innehåller både företag och kontakter finns två flikar: **Företag** och **Kontakt**.
 
-3. Välj ett fält som ska uppdateras i kolumnen **Fält**. Du kan även [skriva in namnet i fältet][1]. När du skriver in bokstäver visar listan nedan alla matchningar som är relevanta för de valda posterna.
+3. Välj ett fält som ska uppdateras i kolumnen **Fält**. Du kan även skriva in namnet i fältet. När du skriver in bokstäver visar listan nedan alla matchningar som är relevanta för de valda posterna.
 
 4. Välj en åtgärd i kolumnen **Åtgärd**. Vilka åtgärder som är tillgängliga beror på typen av fält som du valde i föregående steg. Exempel:
 
@@ -91,7 +91,6 @@ Du har upptäckt att fältet **Ställning** för kontakter sällan används. Fö
 Du vill röja upp bland alla ”gamla” projekt som inte har angetts som slutförda. Skapa ett urval av alla dina gamla projekt, till exempel alla projekt som går mer än 2 år bakåt i tiden och som inte har uppdaterats det senaste året. Använd **Massredigering** för att ställa in status **Slutförd** för de här projekten till **Ja**.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-selected.png
