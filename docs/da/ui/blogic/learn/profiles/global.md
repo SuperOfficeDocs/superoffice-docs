@@ -11,8 +11,7 @@ language: da
 
 # Globale profiler
 
-> [!NOTE]
-> Ændringer udført på **Profil** vil kun kunne ses i modulet **SuperOffice Service**, ikke på skærmbilledet Sager i modulet SuperOffice CRM.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 En global profil bruges som standardprofil og gælder for alle, der ikke har en personlig profil, eller er tildelt en fælles profil fra den rolle, de tilhører.
 

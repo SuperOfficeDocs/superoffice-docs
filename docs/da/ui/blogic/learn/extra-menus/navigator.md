@@ -5,7 +5,7 @@ description: Tilføj navigatorgruppe og ekstramenu
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: navigatorgruppe
-so.topic: help
+so.topic: howto
 so.user: admin
 so.user.tooltip: Settings and maintenance
 language: da
@@ -13,8 +13,7 @@ language: da
 
 # Tilføj navigatorgruppe og ekstramenu
 
-> [!NOTE]
-Fanen > Ændringer færdig **Systemdesign** - **Ekstramenuer** vises kun i modulet **SuperOffice Service**, ikke på skærmbilledet Sager i modulet SuperOffice CRM.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 For at illustrere denne funktion vil vi tilføje en ny navigatorgruppe i navigatoren til venstre i SuperOffice. Vi vil tilføje en ekstramenu i den nye navigatorgruppe. I vores eksempel vil vi tilføje navigatorgruppe "Websteder" med nogle nyttige websteder.
 

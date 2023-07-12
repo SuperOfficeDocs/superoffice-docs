@@ -5,7 +5,7 @@ description: Visning af krydstabeller
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: rapport
-so.topic: help
+so.topic: concept
 language: da
 ---
 
@@ -20,7 +20,7 @@ Du kan vise og udskrive krydstabeller på forskellige måder. Du kan bl.a. vælg
 
 Sådan får du vist en krydstabelrapport (. Dcube-fil), skal du installere **CrossTable-fremviseren** (én gang pr. computer).
 
-1. Klik på ![ikonet][img1] **Hovedmenu** og vælg **Download &gt; Download CrossTable-fremviseren**.
+1. Klik på ![ikonet][img1] **Hovedmenu** og vælg **Download** > **Download CrossTable-fremviseren**.
 1. Klik på den downloadede fil (**SoCrossTableInstaller.exe**) for at køre den.
 1. Hvis der vises en sikkerhedsadvarsel, skal du bekræfte, at du vil køre filen.
 1. Følg vejledningen i guiden for at installere programmet.

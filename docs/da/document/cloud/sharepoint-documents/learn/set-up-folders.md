@@ -31,12 +31,13 @@ Dokumenter i biblioteket arver tilladelsen fra selve biblioteket.
 ## Tilknyttet
 
 * [Krav][1]
-* Sådan konfigurer du SharePoint-dokumentbibliotek
+* [Sådan konfigurer du SharePoint-dokumentbibliotek][3]
 * [Vedligehold dine dokumentskabeloner][2]
 
 <!-- Referenced links -->
 [1]: index.md
-[2]:
+[2]: ../../../../admin/lists/learn/add-template.md
+[3]: ../set-up.md
 
 <!-- Referenced images -->
 [img1]: media/admin-preferences-documentlibrary-sharepoint-permissions.png

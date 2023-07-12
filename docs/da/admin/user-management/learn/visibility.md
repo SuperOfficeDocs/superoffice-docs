@@ -11,7 +11,7 @@ language: da
 
 # Synlig for
 
-Hvis du kan se specifikke dokumenter, afhænger salg, opfølgning og valg ikke udelukkende af den [rolle][1] du er tildelt. Visse individuelle oplysninger er muligvis ikke tilgængelige for dig. I **dokumenter** og **opfølgningsdialogerne** og på skærmene **Salg** og **Udvalg** er der et felt ved navn **Synlig for**. På skærmen **Salg** kan du f.eks. vælge at gøre salget synligt for alle, kun synligt for den primære gruppe, som ejeren tilhører, eller kun synligt for ejeren.
+Hvis du kan se specifikke dokumenter, afhænger salg, opfølgning og valg ikke udelukkende af den [rolle][1] du er tildelt. Visse individuelle oplysninger er muligvis ikke tilgængelige for dig. I dokumenter og opfølgningsdialogerne og på skærmene Salg og Udvalg er der et felt ved navn **Synlig for**. På skærmen Salg kan du f.eks. vælge at gøre salget synligt for alle, kun synligt for den primære gruppe, som ejeren tilhører, eller kun synligt for ejeren.
 
 Dette kræver licensen **Fortrolige aktiviteter**.
 

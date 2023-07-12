@@ -13,7 +13,7 @@ language: da
 
 # Favoritter i SuperOffice CRM
 
-Funktionen Favoritter giver nem adgang til dine foretrukne poster, for eksempel firmaer, personer, salg, udvalg, projekter, dokumenter, sager og forsendelser.
+Funktionen Favoritter giver nem adgang til dine foretrukne poster, for eksempel firmaer, personer, salg, udvalg, projekter, dokumenter, sager, og forsendelser.
 
 ## Tilføj post som foretrukken
 

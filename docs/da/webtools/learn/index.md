@@ -21,7 +21,7 @@ WebTools består af et e-mailplugin og et dokumentplugin:
 
 * **Mail Link** forbinder dit Outlook med SuperOffice CRM, så du kan vedhæfte dokumenter fra dit CRM-løsning og arkivere kommunikation i din CRM-løsning via SuperOffice CRM-båndet. Du kan også sende mails fra CRM-grænsefladen ved at højreklikke på en person eller klikke på en mailadresse på et personkort/skærmbillede. Dette åbner automatisk en e-mail i Outlook.
 
-* **Webudvidelser** forbinder dit Windows-dokumentstyringssystem med SuperOffice CRM. Du vil kunne åbne og redigere Microsoft Office-dokumenter direkte i SuperOffice CRM.
+* **Webudvidelser** forbinder dit Windows-dokumentstyringssystem med SuperOffice CRM. Du vil kunne åbne og redigere Microsoft Office-dokumenter direkte i SuperOffice.
 
 Du vil automatisk blive bedt om at opgradere eller installere SuperOffice WebTools, når du logger på SuperOffice CRM via browseren for første gang på din PC.
 
@@ -29,9 +29,9 @@ Hvis dette velkomstskærmbillede ikke vises, eller hvis du vil downloade det ige
 
 **Opgaver:**
 
-* [Forbind dine Microsoft-dokumenter med SuperOffice CRM][2]
-* [Download og installer WebTools][1] \- supportside
-* [Hvad skal jeg gøre, når SuperOffice-arkiveringsknappen er forsvundet fra Outlook?][3] \- FAQ
+* [Forbind dine Microsoft-dokumenter med SuperOffice][2]
+* [Download og installer WebTools][1] - supportside
+* [Hvad skal jeg gøre, når SuperOffice-arkiveringsknappen er forsvundet fra Outlook?][3] - FAQ
 
 ## Mac OS
 
@@ -42,8 +42,8 @@ Installation af WebTools til Mac muliggør en integration mellem Microsoft Offic
 
 ## Relateret indhold
 
-* [Hvad er SuperOffice WebTools, og hvad gør det?][6] \- FAQ
-* [Sådan bruger du SuperOffice Indbakke][7] \- FAQ
+* [Hvad er SuperOffice WebTools, og hvad gør det?][6] - FAQ
+* [Sådan bruger du SuperOffice Indbakke][7] - FAQ
 * [Tilknyt e-mail, dokumenter og dagbog][8]
 * [Gem en e-mail i SuperOffice CRM][4]
 * [Opret et dokument i SuperOffice CRM][5]

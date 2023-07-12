@@ -5,7 +5,7 @@ description: Brug af hjælp i app i SuperOffice CRM
 author: SuperOffice RnD
 so.date: 01.25.2023
 keywords: hjælp, inapp, in-app
-so.topic: help
+so.topic: concept
 language: da
 ---
 

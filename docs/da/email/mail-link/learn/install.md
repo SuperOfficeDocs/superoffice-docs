@@ -1,5 +1,5 @@
 ---
-uid: help-da-webtools-install
+uid: help-da-mail-link-install
 title: Installer SuperOffice WebTools
 description: "Få mere at vide om, hvordan du installerer maillinket/WebTools."
 author: Kirsti Aakerholt

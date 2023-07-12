@@ -21,7 +21,9 @@ Du skal altid angive regler for håndtering af dubletter under import.
 
     * Klik på ![ikonet][img1] ud for feltet **Importbeskrivelsesfil**, og vælg en importbeskrivelsesfil i den dialogboks, der åbnes. En importfil og tidligere valgte indstillinger indsættes automatisk.
 
-    * [!include[Select file](includes/step-select-file.md)] Angiv derefter [felttilknytning][1].
+    * [!include[Select file](includes/step-select-file.md)]
+
+        Angiv derefter [felttilknytning][1].
 
 3. Indholdet af kolonnen **Tabel** under **Dublethåndtering** er baseret på den angivne felttilknytning.
 

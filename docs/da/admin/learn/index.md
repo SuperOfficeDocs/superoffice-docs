@@ -71,7 +71,7 @@ Den bedste måde at definere dine egne projekt- eller salgsguider på er at disk
 * [Administration af dokumentskabeloner][7]
 * [GDPR-personbeskyttelsesindstillinger][8]
 * [Systemindstillinger og videomøder][9]
-* [Import af firmaer, personer og produkter][3]
+* [Import af firmaer, personer, og produkter][3]
 
 <!-- Referenced links -->
 [1]: ../user-management/learn/index.md

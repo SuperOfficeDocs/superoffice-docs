@@ -83,7 +83,7 @@ På sidefoden under listen kan du klikke på menuknappen ![ikon][img1] **Opgave*
 
 * **Masseredigering**: Hvis du markerer en eller flere sager på listen, kan du klikke på denne valgmulighed og vælge en handling, du ønsker at udføre på alle sagerne samtidig. Du kan f.eks. vælge at [tilføje samme meddelelse til flere sager][8], [videresende flere sager][7] eller slette flere sager i én handling.
 
-### Forhåndsvisning
+### <a id="preview" />Forhåndsvisning
 
 I denne del af skærmbilledet vises indholdet i sagen, der er markeret under **Søgeresultat**. Du har de samme muligheder som ved [behandling af sager][6].
 
@@ -108,7 +108,7 @@ Hvis forhåndsvisningssektionen ikke er synlig, skal du klikke på **Vis forhån
 [9]: ../../dashboard/learn/index.md
 [10]: ../../search-options/selection/learn/index.md
 [11]: ../../search-options/learn/find-screen.md
-[12]: ../../learn/getting-started/main-screen/navigator.md#navigator-options
+[12]: ../../learn/getting-started/main-screen/navigator.md#navigator
 [13]: ../../search-options/selection/learn/create/tutorial.yml
 
 <!-- Referenced images -->

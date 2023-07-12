@@ -131,15 +131,15 @@ Du skal tilhøre rollen *Brugerniveau 0* eller en rolle, der giver dig rettighed
 4. Klik på **OK**.
 
 > [!NOTE]
-> Flere godkendelsesmetoder er tilgængelige, så det afhænger af, hvilken godkendelsesmetode din bruger er konfigureret med, og om du kan ændre adgangskoden her. Se vores FAQ, hvis du har [glemt din adgangskode][8].
+> Flere godkendelsesmetoder er tilgængelige, så det afhænger af, hvilken godkendelsesmetode din bruger er konfigureret med, og om du kan ændre adgangskoden her. Se vores FAQ, hvis du har [glemt din adgangskode][5].
 
 ## Relateret indhold
 
 Har du problemer med at logge ind? [Se vores FAQ][1] for forskellige loginproblemer.
 
-* [Hvad skal jeg gøre, når jeg ikke kan logge på SuperOffice CRM Online?][3] \- FAQ
-* [Hvad gør jeg, når en nyoprettet bruger ikke kan logge ind på SuperOffice CRM?][4] \- FAQ
-* [Hvordan ændrer jeg den adgangskode, jeg har glemt i SuperOffice CRM Online?][5] \- FAQ
+* [Hvad skal jeg gøre, når jeg ikke kan logge på SuperOffice CRM Online?][3] - FAQ
+* [Hvad gør jeg, når en nyoprettet bruger ikke kan logge ind på SuperOffice CRM?][4] - FAQ
+* [Hvordan ændrer jeg den adgangskode, jeg har glemt i SuperOffice CRM Online?][5] - FAQ
 * [Valgmuligheder i menuen Personlige indstillinger][6]
 
 <!-- Referenced links -->
@@ -147,10 +147,9 @@ Har du problemer med at logge ind? [Se vores FAQ][1] for forskellige loginproble
 [2]: ../../admin/user-management/learn/index.md
 [3]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-cannot-login-to-superoffice-crm-online/
 [4]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-a-newly-created-user-cannot-log-in-to-superoffice-crm/
-[5]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
+[5]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 [6]: preferences.md#options
 [7]: ../../identity-management/single-sign-on/index.md
-[8]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

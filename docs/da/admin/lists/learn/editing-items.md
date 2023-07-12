@@ -57,6 +57,6 @@ Se denne video for at få mere at vide om, hvordan du kan redigere forekomster i
 [1]: deleting-items.md
 [2]: specialized-lists.md
 [3]: privacy-source-add.md
-[4]:
+[4]: sale-type.md
 
 <!-- Referenced images -->

@@ -24,7 +24,7 @@ Du kan eksportere alle detaljekort med poster i SuperOffice CRM til en Excel-fil
 
 ## Eksport af et detaljekort
 
-1. Marker de poster, du vil eksportere, og klik på knappen ![ikon][img2] **Eksporter**Eksporter. Hvis du ikke markerer nogen poster, eksporteres alle.
+1. Marker de poster, du vil eksportere, og klik på knappen ![ikon][img2] **Eksporter**. Hvis du ikke markerer nogen poster, eksporteres alle.
 2. Microsoft Excel åbnes med de angivne poster lagt ind i et nyt regneark.
 3. Gem regnearket på den ønskede placering.
 

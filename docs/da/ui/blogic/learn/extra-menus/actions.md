@@ -11,8 +11,7 @@ language: da
 
 # Knappen Tilføj funktion til menu
 
-> [!NOTE]
-Fanen > Ændringer færdig **Systemdesign** - **Ekstramenuer** vises kun i modulet **SuperOffice Service**, ikke på skærmbilledet Sager i modulet SuperOffice CRM.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Følg nedenstående fremgangsmåde for at tilføje en makro til knappen **Opgave** på skærmbilledet Firma, skærmbilledet Person, skærmbilledet Sag eller fanen **Meddelelse**:
 

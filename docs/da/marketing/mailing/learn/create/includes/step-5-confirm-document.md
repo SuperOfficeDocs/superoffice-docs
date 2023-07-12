@@ -13,7 +13,7 @@ Klik på ![ikonet][img1] **Send nu** for at generere et PDF-dokument. Der genere
 
 Klik på udsendelsen på listen for at [se status og statistik for din afsendelse][1].
 
-## Åbne og udskrive dokumentet
+## <a id="open-and-print-the-document" />Åbne og udskrive dokumentet
 
 1. Vælg fanen **Udsendelser**.
 2. Find dokumentet, klik på ![ikonet][img2] og vælg **Vis**.

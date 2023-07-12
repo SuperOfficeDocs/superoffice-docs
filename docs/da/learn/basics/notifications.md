@@ -5,7 +5,7 @@ description: "Meddelelser om invitationer, beskeder og sager"
 author: Hanne Gunnarsson
 so.date: 04.03.2023
 keywords: notifikation, Kerne, invitationer, sager, meddelelser
-so.topic: help
+so.topic: concept
 so.user: user
 so.user.tooltip: SuperOffice CRM
 language: da
@@ -36,7 +36,8 @@ Dette er de forskellige sagsnotifikationer:
 * **Foretrukne sager opdateret**: En af dine foretrukne sager er opdateret.
 * **Tilpasset meddelelse**: Der er føjet en brugerdefineret meddelelse til en sag.
 
-    Bemærk! Listen over sagsmeddelelser ryddes hver aften, hvilket betyder, at eventuelle sagsmeddelelser, du har på din liste i slutningen af dagen, ikke vil være der i morgen.
+    > [!NOTE]
+    > Listen over sagsmeddelelser ryddes hver aften, hvilket betyder, at eventuelle sagsmeddelelser, du har på din liste i slutningen af dagen, ikke vil være der i morgen.
 
 ## Meddelelser om aktivitet
 
@@ -50,12 +51,12 @@ Dette er de forskellige aktivitetsmeddelelser:
 * **Møde aflyst**: Mødet er aflyst. Klik på linket for at åbne kalenderelementet, eller klik på **Forstået** for at fjerne det fra dine meddelelser.
 * **Invitation afslået**: En mødedeltager har afvist invitationen. Klik på linket for at åbne kalenderelementet, eller klik på **Forstået** for at fjerne det fra dine meddelelser.
 
-    Bemærk! Invitationer og ændrede aktiviteter fjernes ikke fra meddelelsespanelet, men forbliver, indtil du enten **accepterer** eller **afviser** invitationen.
+    > [!NOTE]
+    > Invitationer og ændrede aktiviteter fjernes ikke fra meddelelsespanelet, men forbliver, indtil du enten **accepterer** eller **afviser** invitationen.
 
 ## Beskedindstillinger
 
-Når du klikker på ikonet ![ikon][img2] vises panelet med meddelelsesindstillinger.
-Her kan du vælge, hvilke meddelelser du gerne vil se i meddelelsespanelet.
+Når du klikker på ikonet ![ikon][img2] vises panelet med meddelelsesindstillinger. Her kan du vælge, hvilke meddelelser du gerne vil se i meddelelsespanelet.
 
 Dette er meddelelsesmulighederne:
 

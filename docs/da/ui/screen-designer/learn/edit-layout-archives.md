@@ -12,7 +12,7 @@ language: da
 
 # Rediger layout på detaljekort/arkiver
 
-Du kan redigere layoutet ved at tilføje eller fjerne detaljekort/arkiver på de forskellige hovedkort for Firma, Person, Salg og Projekt.
+Du kan redigere layoutet ved at tilføje eller fjerne detaljekort/arkiver på de forskellige hovedkort for Firma, Person, Salg, Projekt, og Sag.
 
 ## Entydighed
 
@@ -103,7 +103,7 @@ Hvis du vil redigere et eksisterende arkiv, skal du markere det og redigere de t
 
 Du kan altid klikke på **Gendan faner** for at fortryde disse ændringer.
 
-## Fortryd ændringer
+## <a id="undo-changes" />Fortryd ændringer
 
 Hvis du har brug for at vende tilbage til en tidligere version af skærmen, kan du få adgang til følgende indstillinger fra knappen **Opgave**:
 
@@ -115,7 +115,7 @@ Hvis du har brug for at vende tilbage til en tidligere version af skærmen, kan 
 
 ## Tilknyttet
 
-* [Hvordan omorganiserer jeg felterne under fanen Mere på skærmbillederne Firma og Person efter opgraderingen til SuperOffice version 10?][3] \- FAQ
+* [Hvordan omorganiserer jeg felterne under fanen Mere på skærmbillederne Firma og Person efter opgraderingen til SuperOffice version 10?][3] - FAQ
 * [Opret nyt layout][4]
 
 <!-- Referenced links -->

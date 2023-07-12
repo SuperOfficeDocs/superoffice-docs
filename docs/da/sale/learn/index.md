@@ -24,7 +24,7 @@ Skærmbilledet **Salg** indeholder information om de salg, der er indtastet i Su
 
 Hvis du vil gå frem og tilbage mellem salg, skal du klikke på knapperne forrige/næste (![ikon][img2] ![ikon][img4]) nederst til højre på kortene.
 
-Du kan også [oprette tilbud][1] på detaljekortet **Tilbud** i skærmbilledet **Salg**.
+Du kan også [oprette tilbud][1] på detaljekortet **Tilbud** i skærmbilledet Salg.
 
 ## Hvor kan jeg se salg?
 

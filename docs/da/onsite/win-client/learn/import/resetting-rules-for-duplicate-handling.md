@@ -18,7 +18,10 @@ so.envir: onsite
 2. Gør ét af følgende:
 
     * Klik på ![ikonet][img1] ud for feltet **Importbeskrivelsesfil**, og vælg en importbeskrivelsesfil i den dialogboks, der åbnes. En importfil og tidligere valgte indstillinger indsættes automatisk.
-    * [!include[Select file](includes/step-select-file.md)] Angiv derefter [felttilknytning][1]. Indholdet af kolonnen **Tabel** under **Dublethåndtering** er baseret på den angivne felttilknytning.
+
+    * [!include[Select file](includes/step-select-file.md)]
+
+        Angiv derefter [felttilknytning][1]. Indholdet af kolonnen **Tabel** under **Dublethåndtering** er baseret på den angivne felttilknytning.
 
 3. Vælg en af følgende:
 

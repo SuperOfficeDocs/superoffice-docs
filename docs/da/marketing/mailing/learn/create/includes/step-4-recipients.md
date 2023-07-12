@@ -1,4 +1,4 @@
-<!-- markdownlint-disable-file MD041 -->
+<!-- markdownlint-disable-file MD041 MD034-->
 Når du opretter en mail, skal du vælge modtagerne af udsendelsen. Du kan tilføje modtagere fra flere kilder. Du kan også konfigurere forskellige indstillinger for din udsendelse, og du kan se en forhåndsvisning af den.
 
 Din målliste er den gruppe personer, du tror vil reagere bedst på dit budskab. Hvis du skræddersyr dit marketingbudskab specifikt til den gruppe, får du en bedre chance for succes og undgår at spilde tid og kræfter på folk, der ikke er interesseret.
@@ -24,7 +24,7 @@ Du kan tilføje modtagere fra udvalg (i både SuperOffice CRM og SuperOffice Ser
 5. Gentag trin 1-4 for at tilføje flere udvalg eller projekter.
 
 > [!NOTE]
-> Hvis du har markeret et udvalg under > Arkivere udsendelser</smtx-blockquote/> i [!NOTE]Opsætning</smtx-dnt> (trin 1), er udvalget listet under > Modtagerkilder</smtx-blockquote/>. Du kan om nødvendigt slette dette udvalg.
+> Hvis du har markeret et udvalg under **Arkivere udsendelser** i **Opsætning** (trin 1), er udvalget listet under **Modtagerkilder**. Du kan om nødvendigt slette dette udvalg.
 
 ## Tilføje personer fra SuperOffice
 
@@ -65,12 +65,12 @@ Denne valgmulighed er ikke tilgængelig for dokumentudsendelser.
 
 * Hver enkelt modtager(række) består af det fulde navn og e-mailadressen.
 
-    Eksempel: "John Smith, <john@company.com>")
+    Eksempel: "John Smith, john@company.com"
 
     > [!NOTE]
     > Du kan også nøjes med at angive e-mailadressen. I så fald vil navnet ikke være tilgængeligt som skabelonvariabel.
 
-* Onsite: Den enkelte modtager(række) kan også indeholde et mobiltelefonnummer (efter e-mailadressen), hvis du opsætter sms-udsendelser. For eksempel: "John Smith, <john@company.com>, 99999999". Kræver licens til Marketing SMS.
+* Onsite: Den enkelte modtager(række) kan også indeholde et mobiltelefonnummer (efter e-mailadressen), hvis du opsætter sms-udsendelser. For eksempel: "John Smith, john@company.com, 99999999". Kræver licens til Marketing SMS.
 
 > [!NOTE]
 Hvis du kun har mobiltelefonnummeret og skal sende en SMS, kan du angive følgende:

@@ -14,7 +14,7 @@ language: da
 
 Hvis standardlayout ikke afspejler en brugergruppes behov, kan du oprette et nyt udseende, der passer til brugergruppens unikke informationsbehov. Et tilpasset udseende til person- og firmakortene og de forskellige arkivfaner/detaljekort giver dine teams og din organisation mulighed for at arbejde mere effektivt.
 
-Med tilpassede skærmlayouts til hvert af dine teams vil det være nemmere end nogensinde at finde kundedata. De mest relevante data vil altid være tilgængelige og synlige. Fjern, flyt eller skjul irrelevante eller mindre vigtige data for at fjerne rod i firmaet, personen, salget og projektskærmene. Tilføj tilpassede arkiver med de mest relevante data for dine teams. Resultatet bliver en renere og mere ryddelig skærm, som dine teams kan arbejde i.
+Med tilpassede skærmlayouts til hvert af dine teams vil det være nemmere end nogensinde at finde kundedata. De mest relevante data vil altid være tilgængelige og synlige. Fjern, flyt eller skjul irrelevante eller mindre vigtige data for at fjerne rod i firmaet, personen, salget, projekt, og sagskærmene. Tilføj tilpassede arkiver med de mest relevante data for dine teams. Resultatet bliver en renere og mere ryddelig skærm, som dine teams kan arbejde i.
 
 ## Hovedkort udseende
 

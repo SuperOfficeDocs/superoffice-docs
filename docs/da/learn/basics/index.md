@@ -27,16 +27,14 @@ Og anden funktionalitet, der giver dig overblik over:
 * [Hvordan du håndterer dubletter][16]
 * [Hvordan du bruger funktionen til masseopdatering][17]
 
-## Grundlæggende opgaver at komme i gang med
-
-### Værktøjstip
+## Værktøjstip
 
 Mange steder i SuperOffice CRM bruges et værktøjstip til at vise mere information om en vare. Værktøjstip er især nyttige med lister, der viser mere end de vigtigste oplysninger, der vises for individuelle poster, eller med smalle kolonner til at vise mere end de afkortede oplysninger. Værktøjstippet vises, når du holder musemarkøren over et element.
 
 > [!NOTE]
 > Hvis du ikke kan få adgang til en funktion, vises en tekst, der forklarer, hvorfor du ikke kan se de pågældende oplysninger.
 
-### Opdatering af data
+## Opdatering af data
 
 Hver gang du starter SuperOffice CRM, er programmet helt opdateret med alle de ændringer, andre har foretaget i hoveddatabasen, og ændringer, der er foretaget i Indstillinger og vedligeholdelse.
 
@@ -45,14 +43,14 @@ Du kan også opdatere dataene, mens du bruger SuperOffice CRM. Det gør du ved a
 > [!NOTE]
 > Nogle ændringer i Indstillinger og vedligeholdelse kræver genstart af SuperOffice CRM-klienten, før ændringerne træder i kraft.
 
-### Administrer firmaer og kontaktpersoner
+## Administrer firmaer og kontaktpersoner
 
 Skærmbillederne Firma og Person indeholder alle oplysninger relateret til dine kunder og giver øjeblikkelig indsigt i den kommunikation, projekter og køb, de har med dig.
 
 > [!TIP]
 > Vidste du, at du kan se alle dine firmaer eller personer ét sted? Klik på ikonet Valg i navigatorpanelet, og vælg **Firma: Alle** eller **Alle personer** fra listen.
 
-#### Opgaver
+### Opgaver - firmaer og kontaktpersoner
 
 * [Tilføj et firma][2]
 * [Tilføjelse af personer][3]
@@ -61,7 +59,7 @@ Skærmbillederne Firma og Person indeholder alle oplysninger relateret til dine 
 * [Masseopdater firma- og personoplysninger][5]
 * [Opret valg til yderligere handling][6]
 
-### Dagbog og aftaler
+## Dagbog og aftaler
 
 SuperOffice Dagbog er hjertet i dit CRM-system. Regelmæssig brug af dagbogen hjælper dig med automatisk at forbinde og dele aftaler og aktiviteter, der er knyttet til en kontakt eller en virksomhed, så du og dit team ubesværet kan holde dig på sporet og arbejde produktivt. Disse vejledninger hjælper dig med at lære at arbejde med dagbogen.
 
@@ -69,22 +67,22 @@ SuperOffice Dagbog er hjertet i dit CRM-system. Regelmæssig brug af dagbogen hj
 
 Ud over den almindelige kalenderfunktionalitet giver SuperOffice Dagbog dig også mulighed for at forbinde og organisere aktiviteter i projekter og salg. Dette hjælper dig og dit team med at få et komplet overblik over alle aktiviteter og kommunikation i forbindelse med ethvert projekt eller salg.
 
-#### Opgaver
+### Opgaver - dagbog og aftaler
 
 * [Oprettelse af aftaler][8]
 * [Invitere en kontakt til en aftale][10]
 * [Videomøde][11]
 
-### Vedligeholde dine dokumenter
+## Vedligeholde dine dokumenter
 
 Lagring af alle dokumenter på ét sted hjælper dig og dit team med at få adgang til opdaterede oplysninger og bevare kontrollen over kunderelationer.
 
-#### Opgaver
+### Opgaver - dokumenter
 
 * Oprette eller uploade et dokument
 * Gem vedhæftede filer fra e-mails i SuperOffice CRM
 
-### Brug projekter til at organisere filer og aktiviteter
+## Brug projekter til at organisere filer og aktiviteter
 
 SuperOffice Projekt hjælper dig med at holde styr på dit arbejde og dokumentere på ét sted, så du og dit team kan opleve mere kontrol og forbedret samarbejde.
 
@@ -100,7 +98,7 @@ SuperOffice Projekt leveres også med en projektguide, der kan tilpasses, så de
 
 Din administrator kan [tilføje og tilpasse projektguider][1] for dig.
 
-#### Opgaver
+### Opgaver - projekt
 
 * [Opret et projekt][7]
 

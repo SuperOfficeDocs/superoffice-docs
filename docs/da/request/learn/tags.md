@@ -13,11 +13,11 @@ language: da
 
 # Brug af tags i sager
 
-Tagging er et effektivt værktøj til at organisere og finde sager i SuperOffice Service. Du kan oprette tags, mens du er på farten, og tagge enhver sag med så mange tags, du vil. Brug af tags vil forenkle måden, du søger efter, viser og filtrerer sager.
+Tagging er et effektivt værktøj til at organisere og finde sager i SuperOffice. Du kan oprette tags, mens du er på farten, og tagge enhver sag med så mange tags, du vil. Brug af tags vil forenkle måden, du søger efter, viser og filtrerer sager.
 
 Hvert firma vil gerne bruge deres egne specifikke tags til kundeservicessager. Lad os tage et kig på to typer tags, der kan være nyttige for dit firma:
 
-* Du kan konfigurere tags til de forskellige kundefaser, som dit firma bruger, for eksempel Gratis prøveperiode, Onboarding, Eksisterende eller Opsigelse;
+* Du kan konfigurere tags til de forskellige kundefaser, som dit firma bruger, for eksempel Gratis prøveperiode, Onboarding, Eksisterende eller Opsigelse.
 
 * Du kan oprette tags, der er relateret til den afdeling, der skal håndtere en bestemt type sag, for eksempel Økonomi, Markedsføring eller Salg.
 

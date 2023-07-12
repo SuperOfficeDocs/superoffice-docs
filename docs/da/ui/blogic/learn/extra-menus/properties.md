@@ -5,14 +5,13 @@ description: Egenskaber for menu
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Tjeneste
-so.topic: help
+so.topic: howto
 language: da
 ---
 
 # Egenskaber for menu
 
-> [!NOTE]
-Fanen > Ændringer færdig **Systemdesign** - **Ekstramenuer** vises kun i modulet **SuperOffice Service**, ikke på skærmbilledet Sager i modulet SuperOffice CRM.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Her kan du redigere egenskaberne for punkter i ekstramenuer og browserfaner.
 

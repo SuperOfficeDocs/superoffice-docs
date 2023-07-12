@@ -11,8 +11,7 @@ language: da
 
 # Personlige profiler
 
-> [!NOTE]
-> Ændringer udført på **Profil** vil kun kunne ses i modulet **SuperOffice Service**, ikke på skærmbilledet Sager i modulet SuperOffice CRM.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Personlige profiler gælder for en enkelt bruger. Du konfigurerer personlige profiler ved at klikke på ![ikon][img1] (ikonet med skiftenøglesymbolet), som du finder i forskellige skærmbilleder, for eksempel listen over sager i skærmbilledet Person, området med egenskaber for sager i skærmbilledet Sag eller skærmbilledet med søgeresultater. Dette vil vi forklare nærmere med et konkret eksempel. I det nedenstående eksempel antager vi, at du ønsker at tilføje et felt i skærmbilledet Sag.
 

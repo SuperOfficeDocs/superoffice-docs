@@ -18,10 +18,9 @@ Fanen **Uge** viser en uge ad gangen. Der er en kolonne for hver ugedag og timet
 Hvis du vil åbne fanen **Dag** for en bestemt dag, skal du klikke på overskriften/datoen.
 
 > [!NOTE]
-> Du kan definere, om søndag eller mandag skal betragtes som den første dag i ugen under ![ikonet][img1] **Personlige indstillinger &gt; Indstillinger**.
+> Du kan definere, om søndag eller mandag skal betragtes som den første dag i ugen under **Personlige indstillinger** > **Indstillinger**.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
 [img2]: media/week-plan.bmp

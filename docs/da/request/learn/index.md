@@ -42,13 +42,13 @@ Sager kan knyttes til [personer][2], som igen kan være tilknyttet et [firma][3]
 
 ### Hvad ønsker du at foretage dig nu?
 
-* [Lær om sagsbehandling trin for trin][7]
+* Lær om sagsbehandling trin for trin
 * [Modtagelse af sager][6]
 * [Oprettelse af sager][4]
 * [Find anmodninger][10]
-* [7 tips til at yde den bedste kundeservice med SuperOffice Service][20] \- blog
+* [7 tips til at yde den bedste kundeservice med SuperOffice Service][20] - blog
 
-## Sagshåndtering
+## <a id="request-mgt" />Sagshåndtering
 
 Indgående sager kan ankomme via mange kanaler, og der er mere end én måde at registrere og besvare dem på. Det varierer fra sag til sag, hvordan sagsbehandlingen foregår.
 
@@ -72,7 +72,8 @@ Forskellige firmaer har forskellige rutiner for sagsbehandling og kan bruge Supe
 
 ### Scenarie 1: Personen sender sagen via e-mail
 
-1. Personen skriver en mail til <support@company.com> eller udfylder en formular på en brugersupportportal.
+<!-- markdownlint-disable-next-line MD034 -->
+1. Personen skriver en mail til support@company.com eller udfylder en formular på en brugersupportportal.
 1. Personen modtager et [automatisk svar][23] om, at henvendelsen er modtaget.
 1. Henvendelsen fra personen registreres automatisk som en sag i SuperOffice CRM.
 1. Sagen ender hos en sagsbehandler i SuperOffice CRM. Se [Tildel sager][6] og [Find sager][10].
@@ -116,12 +117,11 @@ Forskellige firmaer har forskellige rutiner for sagsbehandling og kan bruge Supe
 [4]: howto/create.md
 [5]: howto/flag-message.md
 [6]: howto/assign.md
-[7]: index.md#request-management
 [8]: howto/fav.md
 [9]: howto/edit-message.md
 [10]: find.md
 [11]: find.md#list
-[12]: find.md#search
+[12]: ../../search-options/learn/index.m
 [13]: find.md#result
 [14]: howto/create.md
 [15]: ../../learn/getting-started/edit-email-signature.md

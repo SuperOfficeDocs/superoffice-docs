@@ -1,6 +1,6 @@
 ---
-title: hjælp-da-salg-side-panel
-uid: How to use the side-panel in sales
+title: Sådan bruges sidepanelet effektivt til salg
+uid: help-da-sale-side-panel
 description: Sådan bruges sidepanelet effektivt til salg
 author: Bergfrid Dias
 so.date: 12.14.2022
@@ -23,7 +23,7 @@ På samme måde kan du bruge et udvalg af personer som en opkaldsliste til at f�
 ## Relateret indhold
 
 * [Brug udvalg til at forudsige dine salg][3]
-* [Hvad skal jeg gøre, når jeg får "Dokument Lukket" på sidepanelet i SuperOffice CRM, når dokumentfremviseren bruges?][2] \- FAQ
+* [Hvad skal jeg gøre, når jeg får "Dokument Lukket" på sidepanelet i SuperOffice CRM, når dokumentfremviseren bruges?][2] - FAQ
 
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/main-screen/side-panel.md

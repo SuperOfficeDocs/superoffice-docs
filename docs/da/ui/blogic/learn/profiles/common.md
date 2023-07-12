@@ -11,8 +11,7 @@ language: da
 
 # Fællesprofiler
 
-> [!NOTE]
-> Ændringer udført på **Profil** vil kun kunne ses i modulet **SuperOffice Service**, ikke på skærmbilledet Sager i modulet SuperOffice CRM.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Fællesprofiler er knyttet til en [rolle][2] og gælder for alle brugere, der har denne rolle. Du kan konfigurere fællesprofiler i skærmbilledet **Vis profiler**.
 

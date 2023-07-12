@@ -1,7 +1,7 @@
 ---
 uid: help-da-screen-designer
 title: Skærmdesigner
-description: "Få mere at vide om, hvordan du konfigurerer dine firma-, person- og projektkort i denne vejledning."
+description: "Få mere at vide om, hvordan du konfigurerer dine firma-, person-, projekt-, og sagskort i denne vejledning."
 author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: skærmdesigner
@@ -22,7 +22,7 @@ Person- og firmakortene/skærmbillederne i SuperOffice CRM leveres med et standa
 
 Skærmdesigner gør det muligt for dig at fjerne unødvendige felter og/eller oprette nye, mere relevante felter. Du kan også gruppere felterne i faner eller kolonner og tilføje dine egne overskrifter (kaldet "ledetekster"). Hvis du finder nogle af fanerne unødvendige, kan du nemt fjerne dem eller erstatte dem med de faner, der passer bedre til din organisation.
 
-Dit salgsteam, supportteam og ledelsesteam har ikke nødvendigvis samme fokus og krav vedrørende de data, de som oftest skal have adgang i SuperOffice. Løsningen er at oprette brugerdefinerede skærme til hvert team. Din organisation sparer tid ved at give dine teams mulighed for hurtigere at finde relevante oplysninger. Konfigurer layoutet på dine hovedskærme og arkiver (detaljekort), og definer hvilke informationstyper hvert team (brugergruppe) kan få adgang til og se på skærmene for Firma, Person, Salg og Projekt.
+Dit salgsteam, supportteam og ledelsesteam har ikke nødvendigvis samme fokus og krav vedrørende de data, de som oftest skal have adgang i SuperOffice. Løsningen er at oprette brugerdefinerede skærme til hvert team. Din organisation sparer tid ved at give dine teams mulighed for hurtigere at finde relevante oplysninger. Konfigurer layoutet på dine hovedskærme og arkiver (detaljekort), og definer hvilke informationstyper hvert team (brugergruppe) kan få adgang til og se på skærmene for Firma, Person, Salg, Projekt, og Sag.
 
 * Flyt de vigtigste felter til den første fane.
 * Brug kolonner, etiketter/titler og skilleelementer til at organisere oplysninger i logiske grupper.
@@ -32,9 +32,9 @@ Dit salgsteam, supportteam og ledelsesteam har ikke nødvendigvis samme fokus og
 * Tilføj links/knapper til at finde oplysninger på andre websteder eller manuelt udløse en automatiseret proces baseret på CRM Script.
 
 > [!NOTE]
-> Når denne funktion er aktiveret, ændres felterne på din aktuelle fane **Mere** for skærmbillederne Firma, Person, Salg og Projekt, så de danner to kolonner. Du kan redigere disse faner i skærmdesigneren (se [Rediger layout][1]).
+> Når denne funktion er aktiveret, ændres felterne på din aktuelle fane **Mere** for skærmbillederne Firma, Person, Salg, Projekt og Sag, så de danner to kolonner. Du kan redigere disse faner i skærmdesigneren (se [Rediger layout][1]).
 
-Du kan oprette tilpassede skærmlayout til kortene for firma, person, salg og projekt som det ses øverst på skærmen. Listen **Layout** viser alle eksisterende skærmlayout (normalt standardlayoutet) med en forhåndsvisningsskærm til højre.
+Du kan oprette tilpassede skærmlayout til kortene for firma, person, salg, projekt, og sag som det ses øverst på skærmen. Listen **Layout** viser alle eksisterende skærmlayout (normalt standardlayoutet) med en forhåndsvisningsskærm til højre.
 
 Layouterne er markeret med status (udgivet eller kladde) og de tildelte brugergrupper.
 

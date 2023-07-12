@@ -3,7 +3,7 @@ uid: help-da-company-screen-contacts
 title: Fanen Kontaktpersoner
 description: Fanen Kontaktpersoner
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.24.2023
 keywords: firma
 so.topic: reference
 language: da
@@ -58,8 +58,7 @@ De vil derefter blive vist i en anden farve. De vises også på denne måde unde
 * [Flet personer][5]
 * [Sletning af personer][6]
 * [Afsende e-mail til personer][7]
-* [Ændring af personers rangering][8]
-* [Konfiguration af kolonner][9]
+* [Konfiguration af kolonner][8]
 
 <!-- Referenced links -->
 [1]: ../../../contact/learn/index.md
@@ -69,8 +68,7 @@ De vil derefter blive vist i en anden farve. De vises også på denne måde unde
 [5]: ../../../contact/learn/merge-contacts.md
 [6]: ../../../contact/learn/delete.md
 [7]: ../../../contact/learn/send-email.md
-[8]: ../change-rank-of-contacts.md
-[9]: ../../../learn/section-tabs/configure-columns.md
+[8]: ../../../learn/section-tabs/configure-columns.md
 
 <!-- Referenced images -->
 [img1]: media/contacts-detail.bmp

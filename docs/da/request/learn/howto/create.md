@@ -127,7 +127,7 @@ Denne fane indeholder eventuelle ekstrafelter, der er defineret for sager. Dette
 
 <!-- Referenced links -->
 [1]: ../../../learn/getting-started/edit-email-signature.md
-[2]: reply.md#add-reply-templates-to-messages
+[2]: reply.md#reply-templ
 [3]: ../priority/escalation-levels.md
 [4]: ../tags.md
 [5]: edit-message.md

@@ -3,7 +3,7 @@ uid: help-da-section-tabs
 title: Detaljekortene
 description: Detaljekortene
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: so.date: 05.24.2023
 keywords: detaljekort, arkiv
 so.topic: concept
 language: da
@@ -42,7 +42,6 @@ Du kan også justere indstillingerne for detaljekortene i [dine præferencer][1]
 
 * [Gruppering af lister][3]
 * [Brug af filtre i detaljekortene][4]
-* [Ændring af personers rangering][16]
 * [Konfiguration af kolonner][6]
 * [Detaljekortet Eksporter][7]
 * [Detaljekortene i skærmbilledet Firma][9]
@@ -66,7 +65,6 @@ Du kan også justere indstillingerne for detaljekortene i [dine præferencer][1]
 [13]: ../../project/learn/screen/index.md
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
-[16]: ../../company/learn/change-rank-of-contacts.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

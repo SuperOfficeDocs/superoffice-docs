@@ -25,7 +25,7 @@ Et eksempel kunne være at have hovedkategorierne Brugersupport, Udvikling, Salg
 Brugere kan tilføjes som medlemmer af kategorierne på individuel basis eller via den eller de brugergrupper, de tilhører.
 
 > [!TIP]
-> Leder du efter en mere fleksibel måde at holde styr på din sag på? Prøv at [bruge tags i sager][1].
+> Leder du efter en mere fleksibel måde at holde styr på din sag på? Prøv at [bruge tags i sager][6].
 
 ## Hvor kan jeg finde sagskategorierne?
 
@@ -48,5 +48,6 @@ Kategorierne er organiseret i en træstruktur.
 [3]: ../../../admin/lists/learn/index.md
 [4]: ../priority/index.md
 [5]: ../next-in-queue.md
+[6]: ../tags.md
 
 <!-- Referenced images -->

@@ -32,7 +32,7 @@ Hvis der er defineret en projektguide for en projekttype, du har angivet for et 
     > [!TIP]
     > Hvis du vil oprette flere opfølgninger af samme type, kan du højreklikke på opfølgningen og vælge **Opret en til**. [Dialogboksen for opfølgninger][2] åbnes.
     >
-    > ![ikon][img2]
+    > ![Opret en til -screenshot][img2]
 
 1. Når alle opfølgninger og dokumenter i en projektstatus er udført, går du til næste status.
 
@@ -41,7 +41,7 @@ Hvis der er defineret en projektguide for en projekttype, du har angivet for et 
 
 1. Gentag fremgangsmåden ovenfor for alle opfølgninger/dokumenter i hver status i projektguiden.
 
-## Gå til næste status
+## <a id="move-to-next-status" />Gå til næste status
 
 Du kan flytte projektet til næste status på to måder:
 

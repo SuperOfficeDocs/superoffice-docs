@@ -5,7 +5,7 @@ description: Ekstra menuer i brugergrænsefladen til SuperOffice
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: ekstramenuer
-so.topic: help
+so.topic: concept
 so.user: admin
 so.user.tooltip: Settings and maintenance
 language: da
@@ -13,8 +13,7 @@ language: da
 
 # Ekstramenuer
 
-> [!NOTE]
-Fanen > Ændringer færdig **Systemdesign** - **Ekstramenuer** vises kun i modulet **SuperOffice Service**, ikke på skærmbilledet Sager i modulet SuperOffice CRM.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 På skærmbilledet **Ekstramenuer** kan du tilføje ekstramenuer (knapper, menuer, links, genveje, lister m.m. ) i SuperOffice, så der altid er let adgang til de funktioner og informationer, du har brug for.
 

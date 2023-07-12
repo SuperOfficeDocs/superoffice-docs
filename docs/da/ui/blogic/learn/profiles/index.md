@@ -17,8 +17,7 @@ language: da
 
 Profiler i systemet bruges til at konfigurere skærmelementers udseende og adfærd.
 
-> [!NOTE]
-> Ændringer udført på **Profil** vil kun kunne ses i modulet **SuperOffice Service**, ikke på skærmbilledet Sager i modulet SuperOffice CRM.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 For eksempel:
 
