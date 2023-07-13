@@ -36,7 +36,7 @@ language: nl
 10. Klik op **OK**. De klanttaal wordt gemaakt en u hebt de mogelijkheid om [Externe categorieën][1] te maken.
 
     > [!TIP]
-    > Het is mogelijk om klanttaal te gebruiken voor andere doeleinden dan taal, als u slechts in één land activiteiten hebt bijvoorbeeld. U kunt bijvoorbeeld verschillende afdelingen, branches of bedrijfstakken maken, zoals bouw & constructie, badkamers, interieur en tuinen. Vervolgens kunnen het SuperOffice Customer Centre, de hiërarchie van de Veelgestelde vragen en de antwoordsjabloon de sector weerspiegelen die relevant is voor bepaalde klanten. De afkorting die wordt gebruikt voor de afdeling moet dan de naam van de map in de map\\sjablonen weerspiegelen. Bijvoorbeeld: Bouw & Constructie = BC.
+    > Het is mogelijk om klanttaal te gebruiken voor andere doeleinden dan taal, als u slechts in één land activiteiten hebt bijvoorbeeld. U kunt bijvoorbeeld verschillende afdelingen, branches of bedrijfstakken maken, zoals bouw & constructie, badkamers, interieur en tuinen. Vervolgens kunnen het SuperOffice Customer Centre, de hiërarchie van de Veelgestelde vragen en de antwoordsjabloon de sector weerspiegelen die relevant is voor bepaalde klanten. De afkorting die wordt gebruikt voor de afdeling moet dan de naam van de map in de map/sjablonen weerspiegelen. Bijvoorbeeld: Bouw & Constructie = BC.
 
 ## Taalcodes
 
@@ -52,4 +52,4 @@ language: nl
 [2]: select-language.md
 
 <!-- Referenced images -->
-[img1]: media/customer-centre-language.png
+[img1]: ../../../../../media/loc/en/admin/customer-centre-language.png

@@ -123,6 +123,6 @@ Aangezien de optie voor het rechtstreeks maken van items in Veelgestelde vragen 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/service/msg-toolbar.png
-[img3]: media/create-publish-faq.png
+[img3]: ../../../media/loc/en/faq/create-publish-faq.png
 [img4]: ../../../media/icons/main-menu.png
-[img5]: media/faq-create.png
+[img5]: ../../../media/loc/en/faq/faq-create.png

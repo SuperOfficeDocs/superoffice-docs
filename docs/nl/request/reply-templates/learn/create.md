@@ -116,4 +116,4 @@ U kunt de mate van correlatie tussen het verzoek van de klant en de items in Vee
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/main-menu.png
 [img2]: ../../../../media/icons/main-menu-small.png
-[img3]: media/create-a-new-reply-template.png
+[img3]: ../../../../media/loc/en/request/create-a-new-reply-template.png

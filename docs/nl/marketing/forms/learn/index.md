@@ -67,5 +67,5 @@ Met een dashboard voor formulierverzending is het eenvoudig om de bijbehorende g
 [6]: submissions/process.md
 
 <!-- Referenced images -->
-[img1]: media/edit-form.png
-[img2]: media/find-forms.png
+[img1]: ../../../../media/loc/en/marketing/edit-form.png
+[img2]: ../../../../media/loc/en/marketing/find-forms.png

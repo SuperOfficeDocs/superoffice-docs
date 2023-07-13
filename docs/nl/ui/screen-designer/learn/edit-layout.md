@@ -80,7 +80,7 @@ Bekijk deze video en ontdek hoe u de schermontwerper kunt gebruiken om uw scherm
 
 Vakjes met gestreepte lijnen in de opmaak geven aan waar u een veld kunt plaatsen:
 
-![Vakjes met gestreepte lijnen -screenshot](media/screendesigner-field-place.png)
+![Vakjes met gestreepte lijnen -screenshot][img6]
 
 Hieronder vindt u meer gedetailleerde beschrijvingen van de verschillende secties en functies.
 
@@ -162,4 +162,5 @@ Als u moet herstellen naar een eerdere versie van het scherm, kunt u de volgende
 [img2]: ../../../../../common/icons/delete-circle-red.png
 [img4]: ../../../../media/icons/criteria-move.png
 [img5]: ../../../../../common/icons/add-icon.png
-[img3]: media/edit-the-screen-layout-of-companies-and-contacts.png
+[img3]: ../../../../media/loc/en/ui/edit-the-screen-layout-of-companies-and-contacts.png
+[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png

@@ -59,4 +59,4 @@ Het is mogelijk om een e-mail (inclusief eventuele bijlagen) te archiveren op be
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: media/email-maillink-archive-email.png
+[img1]: ../../../../media/loc/en/email/email-maillink-archive-email.png

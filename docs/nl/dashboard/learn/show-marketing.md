@@ -54,5 +54,5 @@ Bestudeer de onderstaande voorbeelden om ideeën op te doen voor tegels die u ku
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
-[img1]: media/user-mailing-dashboard.png
-[img2]: media/user-mailing-dashboard-forms.png
+[img1]: ../../../media/loc/en/dashboard/user-mailing-dashboard.png
+[img2]: ../../../media/loc/en/dashboard/user-mailing-dashboard-forms.png

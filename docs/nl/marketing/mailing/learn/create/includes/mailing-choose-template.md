@@ -26,4 +26,4 @@ Nadat u hebt bedacht welk ontwerp u wilt gebruiken, kunt u met een paar klikken 
 
 <!-- Referenced images -->
 [img1]: ../../../../../../../common/icons/nav-search.png
-[img2]: media/work-with-templates.png
+[img2]: ../../../../../../media/loc/en/marketing/work-with-templates.png

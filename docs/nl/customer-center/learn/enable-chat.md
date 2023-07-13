@@ -46,4 +46,4 @@ U moet [uw chatwidget instellen][3] voordat u deze toevoegt aan uw klantencentru
 [2]: config.md
 
 <!-- Referenced images -->
-[img1]: media/connecting-widget.png
+[img1]: ../../../media/loc/en/customer-center/connecting-widget.png

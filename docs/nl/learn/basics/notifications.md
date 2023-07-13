@@ -84,4 +84,4 @@ Dit zijn de meldingsopties:
 [img2]: ../../../../common/icons/cog-wheel.png
 [img3]: ../../../../common/icons/remove-icon.png
 [img4]: ../../../../common/icons/diary-recurring.png
-[img5]: media/core-notifications.png
+[img5]: ../../../media/loc/en/learn/core-notifications.png

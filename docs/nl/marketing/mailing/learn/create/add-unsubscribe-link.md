@@ -66,10 +66,10 @@ U doet dit door [een koppeling te maken die de desbetreffende interesse][4] verw
 <!-- Referenced links -->
 [1]: ../../../learn/edit-paragraph.md
 [2]: ../../../tracked-links/learn/examples.md
-[4]: ../../../tracked-links/learn/define-link-actions.md#interests
+[4]: ../../../tracked-links/learn/define-link-actions.md#interest
 
 <!-- Referenced images -->
 [img3]: ../../../../../media/icons/marketing-and-forms/link.png
 [img1]: ../../../../../media/icons/marketing-and-forms/new-para.jpg
 [img2]: ../../../../../media/icons/marketing-and-forms/link.png
-[img4]: media/insert-edit-link-unsubscribe-mailing.png
+[img4]: ../../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

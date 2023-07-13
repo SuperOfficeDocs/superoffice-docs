@@ -63,4 +63,4 @@ Als u een e-mail ontvangt waarin u wordt gevraagd actie te ondernemen, kunt u de
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: media/email-maillink-create-activity.png
+[img1]: ../../../../media/loc/en/email/email-maillink-create-activity.png

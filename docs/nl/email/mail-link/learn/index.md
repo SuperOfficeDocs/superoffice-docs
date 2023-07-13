@@ -47,4 +47,4 @@ Deze knoppen worden weergegeven op de werkbalk van Microsoft Outlook of Lotus No
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/archive-to-superoffice-crm.png
 [img2]: ../../../../media/icons/mail-link/search-for-sender-in-superoffice-crm.png
-[img3]: media/superoffice-button.png
+[img3]: ../../../../media/loc/en/email/superoffice-button.png

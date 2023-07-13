@@ -134,4 +134,4 @@ Klik op **Volgende** om naar stap 5 te gaan: Bevestigen. U kunt nog altijd terug
 <!-- Referenced images -->
 [img1]: ../../../../../../media/icons/btn-add.png
 [img2]: ../../../../../../../common/icons/salelost.png
-[img3]: media/add-target-list.png
+[img3]: ../../../../../../media/loc/en/marketing/add-target-list.png

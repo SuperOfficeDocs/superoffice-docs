@@ -53,4 +53,4 @@ Als u een bestaande verkoop wilt bewerken, bladert u naar de verkoop en klikt u 
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: media/54-chap7-sale-new.bmp
+[img2]: ../../../media/loc/en/sale/sale-card.png

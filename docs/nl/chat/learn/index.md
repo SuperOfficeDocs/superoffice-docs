@@ -39,4 +39,4 @@ Uw agents hebben toegang tot de chat via de navigator in zowel SuperOffice CRM a
 [9]: screen/index.md
 
 <!-- Referenced images -->
-[img1]: media/10-chat-mainpage.png
+[img1]: ../../../media/loc/en/chat/chat-link-to-contact.png

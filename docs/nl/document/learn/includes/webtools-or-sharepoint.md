@@ -3,4 +3,4 @@ SharePoint: maak een nieuw document. Als het wordt geopend in Microsoft Office O
 
 SuperOffice WebTools: open het systeemvak in de rechterbenedenhoek van uw bureaublad en zoek naar het SuperOffice-pictogram.
 
-![pictogram](../../../media/webtools-system-tray.png)
+![Pictogram](../../../../media/loc/en/webtools/webtools-system-tray.png)

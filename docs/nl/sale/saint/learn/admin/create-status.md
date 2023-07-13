@@ -81,4 +81,4 @@ Als een bedrijf, persoon of project meerdere actieve statussen heeft, worden de 
 [img4]: ../../../../../media/icons/admin/red-x.bmp
 [img5]: ../../../../../media/icons/arrow-up.png
 [img6]: ../../../../../media/icons/arrow-down.png
-[img1]: media/admin-saint-company.png
+[img1]: ../../../../../media/loc/en/sale/admin-saint-company.png

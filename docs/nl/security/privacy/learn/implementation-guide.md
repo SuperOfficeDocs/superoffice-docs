@@ -279,4 +279,4 @@ Door de drie stappen te doorlopen, hebt u belangrijke stappen gezet richting AVG
 [6]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
-[img1]: media/privacy.png
+[img1]: ../../../../media/loc/en/security/privacy.png

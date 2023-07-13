@@ -24,5 +24,5 @@ Klik op de mailing in de lijst om de [verzendstatus en de statistieken weer te g
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../media/send-now.png
+[img1]: ../../../../../../media/loc/en/marketing/send-now.png
 [img2]: ../../../../../../media/icons/btn-menu.png

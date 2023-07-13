@@ -139,4 +139,4 @@ U kunt activiteiten als volgt verwijderen uit elk scherm waarin activiteiten wor
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.bmp
 [img2]: ../../../../common/icons/plus-black.png
-[img3]: ../../diary/learn/media/activities-detail.bmp
+[img3]: ../../../media/loc/en/diary/activities-detail.bmp

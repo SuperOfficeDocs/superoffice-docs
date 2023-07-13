@@ -49,4 +49,4 @@ U kunt de resultaten van uw mailings controleren door in te loggen op uw Google 
 [2]: index.md#google
 
 <!-- Referenced images -->
-[img1]: media/google-analytics-tag.png
+[img1]: ../../../../media/loc/en/marketing/google-analytics-tag.png

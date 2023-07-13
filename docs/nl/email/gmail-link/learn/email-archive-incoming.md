@@ -49,4 +49,4 @@ Klik op de koppeling in het pop-upbericht om het document te openen in SuperOffi
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/soarchive.png
-[img2]: media/email-gmaillink-archive.png
+[img2]: ../../../../media/loc/en/email/email-gmaillink-archive.png

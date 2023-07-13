@@ -88,8 +88,8 @@ Sommige e-mailproviders, zoals Gmail, zullen pogingen tot aanmelding vanuit onbe
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/personal-settings-small.png
-[img2]: media/getstarted-contact-mycontactcard.png
-[img3]: media/getstarted-inbox-login.png
-[img4]: media/so-inbox-advanced-settings.png
-[img5]: media/email-options-general.png
-[img6]: media/email-options-account.png
+[img2]: ../../../../media/loc/en/email/getstarted-contact-mycontactcard.png
+[img3]: ../../../../media/loc/en/email/getstarted-inbox-login.png
+[img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png
+[img5]: ../../../../media/loc/en/email/email-options-general.png
+[img6]: ../../../../media/loc/en/email/email-options-account.png

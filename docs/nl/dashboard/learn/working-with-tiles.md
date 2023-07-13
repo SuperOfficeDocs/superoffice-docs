@@ -74,4 +74,4 @@ Klik op ![pictogram][img1] in de koptekst van een tegel om de volgende opties te
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/context-menu.png
-[img2]: media/10-drill-down.gif
+[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif

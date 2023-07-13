@@ -41,4 +41,4 @@ Als een klant niet wordt gevonden in de SuperOffice CRM-database, kunt [een nieu
 [1]: create-contact.md
 
 <!-- Referenced images -->
-[img1]: media/chat-link-to-contact.png
+[img1]: ../../../media/loc/en/chat/chat-link-to-contact.png

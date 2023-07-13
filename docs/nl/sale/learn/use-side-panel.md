@@ -31,4 +31,4 @@ Op dezelfde manier kunt u een selectie van personen gebruiken als een bellijst o
 [3]: forecasting.md
 
 <!-- Referenced images -->
-[img1]: media/getstarted-sidepanel-saleselection.png
+[img1]: ../../../media/loc/en/sale/getstarted-sidepanel-saleselection.png

@@ -70,4 +70,4 @@ Het aanpassen van prijslijsten helpt uw verkopers de juiste prijsdetails te gebr
 [4]: ../sync/sync-add-erp-connection.md
 
 <!-- Referenced images -->
-[img1]: media/add-price-list.png
+[img1]: ../../../../../media/loc/en/quote/add-price-list.png

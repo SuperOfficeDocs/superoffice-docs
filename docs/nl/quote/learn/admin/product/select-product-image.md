@@ -47,4 +47,4 @@ Nadat u uw producten hebt toegevoegd, handmatig of door te importeren, kunt u af
 [1]: add-product-to-price-list.md
 
 <!-- Referenced images -->
-[img1]: media/add-edit-product.png
+[img1]: ../../../../../media/loc/en/quote/add-edit-product.png

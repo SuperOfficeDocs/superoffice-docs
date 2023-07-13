@@ -130,4 +130,4 @@ Naast de sjablonen die door u en uw collega's zijn gemaakt, hebt u toegang tot e
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/btn-add.png
-[img3]: media/work-with-templates.png
+[img3]: ../../../media/loc/en/marketing/work-with-templates.png

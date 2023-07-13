@@ -26,8 +26,8 @@ In SuperOffice Marketing kunt u acties toevoegen aan uw links. Deze acties worde
 | Respons | voeg een openingspagina of aangepaste tekst toe. |
 | Veld instellen | voeg een waarde toe aan een extra veld voor personen |
 | Interesses | werk de interesses bij. |
-| Selectie/project] | Persoon toevoegen aan/verwijderen uit een selectie/project. |
-| Vervolg­activiteit] | Maak een vervolgactiviteit (taak of afspraak) in SuperOffice CRM. |
+| Selectie/project | Persoon toevoegen aan/verwijderen uit een selectie/project. |
+| Vervolg­activiteit | Maak een vervolgactiviteit (taak of afspraak) in SuperOffice CRM. |
 | Verzoek | maak een nieuw verzoek. |
 | Script | voer een script uit. |
 
@@ -135,4 +135,4 @@ U kunt de informatie die u in deze mailing hebt verzameld op een aantal manieren
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png
 [img2]: ../../../../../common/icons/pref-diary.png
-[img3]: media/link-properties-follow-up.png
+[img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png

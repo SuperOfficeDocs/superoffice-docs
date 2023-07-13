@@ -47,9 +47,9 @@ Bovenaan staan de volledige naam, het e-mailadres en het bedrijf dat eigenaar is
 
 Er zijn verschillende tabbladen in het gebruikersoverzicht:
 
-* **Details** \- hoofdoverzicht van gebruikersinformatie zoals **Gebruikers-ID,**, **Rol**, **Gebruikersplan**, **Primaire groep** en **Servicecategorieën**.
-* **Licenties** \- extra licentie-informatie zoals **Vertrouwelijke activiteiten** die de gebruiker de mogelijkheid geven om **zichtbaarvoor** in te stellen voor afspraken, documenten en selecties .
-* **Meer** \- het tabblad laat zien of er extra velden op een persoon zijn.
+* **Details** - hoofdoverzicht van gebruikersinformatie zoals **Gebruikers-ID,**, **Rol**, **Gebruikersplan**, **Primaire groep** en **Servicecategorieën**.
+* **Licenties** - extra licentie-informatie zoals **Vertrouwelijke activiteiten** die de gebruiker de mogelijkheid geven om **zichtbaarvoor** in te stellen voor afspraken, documenten en selecties .
+* **Meer** - het tabblad laat zien of er extra velden op een persoon zijn.
 
 ## Andere gebruikers (lokaal)
 
@@ -108,4 +108,4 @@ Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzi
 [11]: ../other-users.md
 
 <!-- Referenced images -->
-[img1]: media/admin-users-overview.png
+[img1]: ../../../../../media/loc/en/admin/admin-users-overview.png

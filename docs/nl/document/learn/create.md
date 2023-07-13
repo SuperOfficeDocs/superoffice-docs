@@ -101,4 +101,4 @@ Met SuperOffice CRMkunt u inloggen vanaf elke computer met een browser, maar uw 
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-completed-small.png
-[img2]: media/upload.png
+[img2]: ../../../media/loc/en/document/upload.png

@@ -37,4 +37,4 @@ Dubbelklik op een relatierij om het dialoogvenster **Relatie** te openen en alle
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.bmp
-[img2]: media/relations-detail.bmp
+[img2]: ../../../../media/loc/en/company/relations-detail.bmp

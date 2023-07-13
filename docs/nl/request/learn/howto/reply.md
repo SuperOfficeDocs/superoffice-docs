@@ -97,6 +97,6 @@ U kunt met één bewerking een bericht toevoegen aan verschillende verzoeken . A
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../../common/icons/attachments-theme.png
 [img3]: ../../../../../common/icons/copy-paste-icon.png
-[img4]: media/reply-to-a-customer.png
+[img4]: ../../../../media/loc/en/request/reply-to-a-customer.png
 [img5]: ../../../../../common/icons/reply-icon.png
 [img6]: ../../../../../common/icons/reply-all-icon.png

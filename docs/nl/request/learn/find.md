@@ -114,4 +114,4 @@ Als het voorbeeldgedeelte niet zichtbaar is, klikt u op **Voorbeeld weergeven** 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
-[img3]: media/find-requests.png
+[img3]: ../../../media/loc/en/request/find-requests.png

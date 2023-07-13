@@ -58,4 +58,4 @@ Nadat u een ERP-verbinding hebt geselecteerd, kunt doorgaan naar Een offerte mak
 [8]: create-order.md
 
 <!-- Referenced images -->
-[img1]: media/quote-create-send.gif
+[img1]: ../../../media/loc/en/quote/quote-create-send.gif

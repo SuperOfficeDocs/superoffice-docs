@@ -83,6 +83,8 @@ Dit tabblad bevat velden met financiële informatie over de verkoop.
 
 ### Het tabblad Koppelingen
 
+![The More tab (Sale) -screenshot][img6]
+
 Hier kunt u koppeling die relevant zijn voor de verkoop, zoals URL-adressen, projecten, andere verkopen, vervolgactiviteiten en documenten toevoegen. Als u bijvoorbeeld naar een vergadering gaat met een bedrijf waarmee u eerder contact hebt gehad, kunt u koppelingen toevoegen naar documenten die u al voor dit bedrijf hebt gemaakt.
 
 [!include[How to add links](../../learn/includes/howto-add-links.md)]
@@ -127,8 +129,9 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 [9]: stages.md
 
 <!-- Referenced images -->
-[img1]: media/user-diary-sales.png
+[img1]: ../../../media/loc/en/sale/user-diary-sales.png
 [img2]: ../../../media/icons/arrow-left.png
-[img3]: media/55-chap7-sale-new-details.bmp
+[img3]: ../../../media/loc/en/sale/sale-details.png
 [img4]: ../../../media/icons/arrow-right.png
-[img5]: media/54-chap7-sale-new.bmp
+[img5]: ../../../media/loc/en/sale/sale-card.png
+[img6]: ../../../media/loc/en/sale/sale-more.png

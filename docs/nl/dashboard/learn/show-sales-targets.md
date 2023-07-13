@@ -29,10 +29,10 @@ Om uw targets in een dashboard te kunnen visualiseren, moet u eerst de tegels in
 
 5. Selecteer op het tabblad **Bibliotheek** een van de volgende grafieken:
 
-    * ![pictogram][img2] \- Groot weergegeven getal
-    * ![pictogram][img3] \- Staafdiagram
-    * ![pictogram][img4] \- Kolomdiagram
-    * ![pictogram][img5] \- Meterdiagram
+    * ![pictogram][img2] - Groot weergegeven getal
+    * ![pictogram][img3] - Staafdiagram
+    * ![pictogram][img4] - Kolomdiagram
+    * ![pictogram][img5] - Meterdiagram
     * Lege verkooptegel
 
     > [!TIP]
@@ -101,5 +101,5 @@ Is Vergelijken met target helemaal niet zichtbaar, controleer dan of u het juist
 [img4]: ../../../../common/icons/bar.png
 [img5]: ../../../../common/icons/gauge.png
 [img6]: ../../../../common/icons/edit-pen.png
-[img7]: media/user-dashboard-tile-comparetotarget.png
-[img8]: media/user-dashboard-tile-disabled-comparetotarget.png
+[img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
+[img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png

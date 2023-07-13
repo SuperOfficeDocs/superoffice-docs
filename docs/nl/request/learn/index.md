@@ -135,6 +135,6 @@ Verschillende bedrijven hebben verschillende routines voor verzoekafhandeling en
 [23]: ../reply-templates/learn/index.md
 
 <!-- Referenced images -->
-[img1]: media/request-list-preview.png
+[img1]: ../../../media/loc/en/request/request-list-preview.png
 [img2]: ../../../../common/icons/nav-cs.png
-[img3]: howto/media/service-dashboard.png
+[img3]: ../../../media/loc/en/request/service-dashboard.png

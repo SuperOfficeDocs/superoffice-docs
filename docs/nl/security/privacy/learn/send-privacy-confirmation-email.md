@@ -71,4 +71,4 @@ De e-mail kan ook een koppeling bevatten naar een Customer Centre waar de persoo
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img2]: media/confirmation-email.png
+[img2]: ../../../../media/loc/en/security/confirmation-email.png

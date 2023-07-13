@@ -55,7 +55,7 @@ Er zijn veel standaardtegels om uit te kiezen in de bibliotheek, maar u kunt ook
 * [Tegels toevoegen/Opmaak bewerken][2]
 * [Een dashboard dupliceren][4]
 * [Een dashboard verwijderen][5]
-* [Een zoekopdracht maken en opslaan als een selectie ][6]
+* [Een zoekopdracht maken en opslaan als een selectie][6]
 
 <!-- Referenced links -->
 [1]: ../../globalization-and-localization/learn/translate-fields.md
@@ -67,4 +67,4 @@ Er zijn veel standaardtegels om uit te kiezen in de bibliotheek, maar u kunt ook
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/az.png
-[img2]: media/10-dashboard-create-dashboard_dragdrop.png
+[img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png

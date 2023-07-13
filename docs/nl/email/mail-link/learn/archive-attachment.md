@@ -60,4 +60,4 @@ Als de bijlage het enige onderdeel van een e-mail is dat u wilt bewaren voor toe
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: media/email-maillink-archive-attachment.png
+[img1]: ../../../../media/loc/en/email/email-maillink-archive-attachment.png

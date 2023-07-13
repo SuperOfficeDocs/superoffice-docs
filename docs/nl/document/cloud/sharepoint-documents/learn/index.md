@@ -50,4 +50,4 @@ Als u SharePoint wilt instellen als uw documentbibliotheek in SuperOffice, hebt 
 [4]: ../../../../admin/preferences/learn/document-library/change-to-sharepoint.md
 
 <!-- Referenced images -->
-[img1]: media/admin-preferences-documentlibrary.png
+[img1]: ../../../../../media/loc/en/document/admin-preferences-documentlibrary.png

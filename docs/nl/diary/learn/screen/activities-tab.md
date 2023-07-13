@@ -92,4 +92,4 @@ Als een activiteit in het rood wordt gemarkeerd, betekent dit dat de datum voor 
 [img1]: ../../../../media/icons/personal-settings-small.png
 [img2]: ../../../../media/icons/check.bmp
 [img3]: ../../../../media/icons/sale-sold-details.bmp
-[img4]: ../media/activities-detail.bmp
+[img4]: ../../../../media/loc/en/diary/activities-detail.bmp

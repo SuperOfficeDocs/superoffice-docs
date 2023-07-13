@@ -35,4 +35,4 @@ AI kan u helpen inzicht te krijgen in de gegevens die u hebt en u helpen process
 [3]: ../../chat/learn/admin/channel-create.md#chatbot
 
 <!-- Referenced images -->
-[img1]: media/ai-services.png
+[img1]: ../../../media/loc/en/ai/ai-services.png

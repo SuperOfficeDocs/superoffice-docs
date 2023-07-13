@@ -46,4 +46,4 @@ Met deze functie kunt u snel een activiteit toevoegen in SuperOffice op basis va
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/gmail-link/btn-archive-more.png
-[img2]: media/email-gmaillink-create-activity.jpg
+[img2]: ../../../../media/loc/en/email/email-gmaillink-create-activity.jpg

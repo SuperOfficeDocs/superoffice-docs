@@ -141,7 +141,7 @@ De ![pictogram][img1] knop **Taak**: klik op deze knop om toegang te krijgen tot
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/personal-settings-small.png
-[img3]: ../media/request-screen.png
+[img3]: ../../../../media/loc/en/request/request-screen.png
 [img4]: ../../../../../common/icons/favourite-yes.png
 [img5]: ../../../../../common/icons/addcomment.png
 [img6]: ../../../../../common/icons/favourite-no.png

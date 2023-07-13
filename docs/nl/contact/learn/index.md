@@ -19,7 +19,7 @@ Een persoonskaart slaat waardevolle informatie op over al je communicatie en int
 
 In het scherm **Persoon** wordt elke record in de database weergegeven als een indexkaart, die alle informatie voor die persoon bevat.
 
-Als u tussen personen wilt schakelen, klikt u op de knoppen vorige/volgende - ![pictogram][img2] ![pictogram][img1] \- rechtsonder op de kaarten.
+Als u tussen personen wilt schakelen, klikt u op de knoppen vorige/volgende - ![pictogram][img2] ![pictogram][img1] - rechtsonder op de kaarten.
 
 U kunt op personen [zoeken][11] aan de hand van criteria die u zelf opgeeft. Ook kunt u documenten maken, vervolgactiviteiten genereren en nieuwe personen maken.
 
@@ -63,4 +63,4 @@ Alles wat u wilt weten over een contactpersoon is beschikbaar vanaf één scherm
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-right.png
 [img2]: ../../../media/icons/arrow-left.png
-[img3]: ../media/edit-person.png
+[img3]: ../../../media/loc/en/contact/edit-person.png

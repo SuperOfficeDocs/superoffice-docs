@@ -152,4 +152,4 @@ In Instellingen en onderhoud kunt u ook uw eigen weergaven voor het zijpaneel de
 [img7]: ../../../../media/icons/mini-card-level.png
 [img8]: ../../../../media/icons/mini-card-today.png
 [img9]: ../../../../media/icons/mini-card-selected.png
-[img10]: media/getstarted-sidepanel-companypreview.png
+[img10]: ../../../../media/loc/en/learn/getstarted-sidepanel-companypreview.png

@@ -67,5 +67,5 @@ Als uw Customer Centre meertalig is, kunt u opties (zoals welkomsttekst, opening
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-admin-custcenter-active.png
-[img2]: media/customer-centre-chat-with-agents.jpg
-[img3]: media/config-cust-centre.png
+[img2]: ../../../media/loc/en/customer-center/customer-centre-chat-with-agents.jpg
+[img3]: ../../../media/loc/en/customer-center/config-cust-centre.png

@@ -61,5 +61,5 @@ Verkopen die niet als voltooid zijn gemarkeerd worden in deze lijst weergegeven.
 [img1]: ../../../../media/icons/sale-sold-details.bmp
 [img2]: ../../../../media/icons/sale-lost-details.bmp
 [img3]: ../../../../../common/icons/salestalled.png
-[img4]: media/sales-detail.bmp
+[img4]: ../../../../media/loc/en/diary/sales-detail.bmp
 [img5]: ../../../../media/icons/personal-settings-small.png

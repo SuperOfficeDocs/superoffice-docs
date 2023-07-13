@@ -65,9 +65,9 @@ In onze Mobile CRM-app hebt u toegang tot alle verzoeken en kunt u de verzoeken 
 
 ## Gerelateerde inhoud
 
-* [Vingerafdrukverificatie instellen][3] \- Veelgestelde vragen
-* [Meldingen configureren op Mobile CRM][4] \- Veelgestelde vragen
-* [Hoe begin ik met het gebruik van beller-ID voor Mobile CRM][5] \- Veelgestelde vragen
+* [Vingerafdrukverificatie instellen][3] - Veelgestelde vragen
+* [Meldingen configureren op Mobile CRM][4] - Veelgestelde vragen
+* [Hoe begin ik met het gebruik van beller-ID voor Mobile CRM][5] - Veelgestelde vragen
 
 <!-- Referenced links -->
 [1]: ../../../../assets/downloads/quick-guide-for-mobile-crm-2020.pdf
@@ -78,4 +78,4 @@ In onze Mobile CRM-app hebt u toegang tot alle verzoeken en kunt u de verzoeken 
 [7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
 <!-- Referenced images -->
-[img1]: media/mobile-crm-gif-prev-02.gif
+[img1]: ../../../../media/loc/en/mobile/mobile-crm-gif-prev-02.gif

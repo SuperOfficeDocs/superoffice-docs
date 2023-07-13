@@ -22,4 +22,4 @@ Als een contactpersoon niet wordt gevonden in SuperOffice, kunt een nieuwe perso
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/chat-add-new-to-contact.png
+[img1]: ../../../media/loc/en/chat/chat-add-new-to-contact.png

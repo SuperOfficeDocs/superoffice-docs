@@ -76,4 +76,4 @@ Toont verzoeken die aan niemand zijn toegewezen. Om [verantwoordelijkheid voor e
 [7]: add-tile.md
 
 <!-- Referenced images -->
-[img1]: ../../request/learn/howto/media/service-dashboard.png
+[img1]: ../../../media/loc/en/request/service-dashboard.png

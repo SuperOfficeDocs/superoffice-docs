@@ -89,4 +89,4 @@ In de vijfde en laatste stap bevestigt en verstuurt of plant u uw mailing. U kun
 [11]: target-list.md
 
 <!-- Referenced images -->
-[img1]: media/mailing-workflow-all.png
+[img1]: ../../../../../media/loc/en/marketing/mailing-workflow-all.png

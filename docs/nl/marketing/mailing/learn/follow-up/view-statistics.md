@@ -78,4 +78,4 @@ Nadat uw mailing is voltooid, kunt u zien hoe uw mailing heeft gepresteerd op he
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
-[img2]: media/summary-tab.png
+[img2]: ../../../../../media/loc/en/marketing/summary-tab.png

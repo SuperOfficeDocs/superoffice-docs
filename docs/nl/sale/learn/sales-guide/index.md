@@ -49,5 +49,5 @@ U kunt een voorbeeld bekijken van documenten en activiteiten via de **Afdrukvoor
 [4]: deactivate.md
 
 <!-- Referenced images -->
-[img1]: media/sales-guide-first-meeting.bmp
-[img2]: media/setup-sales-guide.png
+[img1]: ../../../../media/loc/en/sale/sales-guide-first-meeting.bmp
+[img2]: ../../../../media/loc/en/sale/setup-sales-guide.png

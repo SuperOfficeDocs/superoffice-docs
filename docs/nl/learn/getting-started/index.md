@@ -120,4 +120,4 @@ SuperOffice CRM is compatibel met de nieuwste besturingssystemen en browsers. U 
 [21]: ../../../en/onsite/requirements/index.md
 
 <!-- Referenced images -->
-[img1]: media/getstarted-personalsettings.png
+[img1]: ../../../media/loc/en/learn/getstarted-personalsettings.png

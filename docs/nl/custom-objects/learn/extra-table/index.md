@@ -46,7 +46,7 @@ Via dit scherm kunt u eigenschappen van een nieuwe of bestaande tabelmap wijzige
 [1]: ../../../ui/blogic/learn/index.md
 [2]: create.md
 [3]: ../extra-field/create.md
-[4]: ../../udef/index.md
+[4]: ../udef/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png

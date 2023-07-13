@@ -85,4 +85,4 @@ U kunt bijvoorbeeld bepalen of een persoon informatie kan verwijderen, bijwerken
 [6]: ../role/set-data-rights-for-role.md
 
 <!-- Referenced images -->
-[img1]: media/manage-user-levels.png
+[img1]: ../../../../../media/loc/en/admin/manage-user-levels.png

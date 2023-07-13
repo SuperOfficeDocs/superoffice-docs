@@ -62,4 +62,4 @@ Op het scherm **Offerte/Synchroniseren** kunt u verbindingen en instellingen beh
 [8]: product/select-product-image.md
 
 <!-- Referenced images -->
-[img1]: media/quote-management.png
+[img1]: ../../../../media/loc/en/quote/quote-management.png

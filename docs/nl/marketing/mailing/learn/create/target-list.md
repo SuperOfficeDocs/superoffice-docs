@@ -133,4 +133,4 @@ Gebruik dynamische selecties wanneer u met de meest actuele gegevens moet werken
 [9]: ../../../tracked-links/learn/explore-clicks.md
 
 <!-- Referenced images -->
-[img1]: media/abigails-contact-card-interests.png
+[img1]: ../../../../../media/loc/en/marketing/abigails-contact-card-interests.png

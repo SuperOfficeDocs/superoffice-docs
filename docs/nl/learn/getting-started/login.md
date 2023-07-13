@@ -153,10 +153,10 @@ Problemen met aanmelden? [Bekijk onze veelgestelde vragen][1] voor verschillende
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
-[img3]: media/create-password-strenght-indicator.png
-[img4]: media/login-screen.png
-[img5]: media/activate-now-email.png
-[img6]: media/create-password.png
-[img7]: media/login-screen-google.png
-[img8]: media/login-screen-google-password.png
-[img9]: media/login-screen-microsoft-password.png
+[img3]: ../../../media/loc/en/learn/create-password-strenght-indicator.png
+[img4]: ../../../media/loc/en/learn/login-screen.png
+[img5]: ../../../media/loc/en/learn/activate-now-email.png
+[img6]: ../../../media/loc/en/learn/create-password.png
+[img7]: ../../../media/loc/en/learn/login-screen-google.png
+[img8]: ../../../media/loc/en/learn/login-screen-google-password.png
+[img9]: ../../../media/loc/en/learn/login-screen-microsoft-password.png

@@ -67,4 +67,4 @@ Als u geen licentie hebt voor configureerbare schermen, gebruikt u de rang van d
 [5]: ../../ui/screen-designer/learn/index.md
 
 <!-- Referenced images -->
-[img1]: media/create-extra-tables-and-fields.png
+[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

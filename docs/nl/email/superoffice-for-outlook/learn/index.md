@@ -34,4 +34,4 @@ Als u SuperOffice voor Outlook wilt verbinden, gaat u naar onze [App Store][1] e
 [2]: ../../../admin/preferences/learn/document-library/index.md
 
 <!-- Referenced images -->
-[img1]: media/user-superoffice-outlook-sidepanel.png
+[img1]: ../../../../media/loc/en/email/user-superoffice-outlook-sidepanel.png

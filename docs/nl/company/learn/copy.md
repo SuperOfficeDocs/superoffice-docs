@@ -43,4 +43,4 @@ Mogelijk wilt u op een gegeven moment een bestaand bedrijf kopiëren naar een ni
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img3]: media/copy-company.bmp
+[img3]: ../../../media/loc/en/company/copy-company.bmp

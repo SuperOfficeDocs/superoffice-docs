@@ -125,4 +125,4 @@ Gebruik deze optie om een persoon in te stellen als voormalige werknemer.
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/warning.png
-[img2]: media/handle-bounced-emails.png
+[img2]: ../../../../../media/loc/en/marketing/handle-bounced-emails.png

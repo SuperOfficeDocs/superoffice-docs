@@ -49,4 +49,4 @@ so.audience.tooltip: SuperOffice CRM
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/editor-toolbar-icon.png
 [img3]: ../../../media/icons/sign-editor-variables.png
-[img1]: media/getstarted-preferences-email-signature.png
+[img1]: ../../../media/loc/en/learn/getstarted-preferences-email-signature.png

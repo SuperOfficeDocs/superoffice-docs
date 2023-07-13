@@ -49,4 +49,4 @@ Wanneer u een testmailing hebt verzonden, moet u de tellers voor de koppeling(en
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
-[img2]: media/test-mailing.png
+[img2]: ../../../../../media/loc/en/marketing/test-mailing.png

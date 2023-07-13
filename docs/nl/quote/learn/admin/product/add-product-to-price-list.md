@@ -83,4 +83,4 @@ Om te weten welke velden getoond worden, gaat u naar het tabblad **Instellingen*
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/search-icon-black.png
-[img2]: media/add-products-to-price-list.png
+[img2]: ../../../../../media/loc/en/quote/add-products-to-price-list.png

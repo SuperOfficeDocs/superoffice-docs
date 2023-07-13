@@ -81,7 +81,7 @@ Met SuperOffice CRM respecteert u de communicatievoorkeuren van uw contacten en 
 [4]: https://www.superoffice.com/company/privacy/
 
 <!-- Referenced images -->
-[img1]: media/setup-type-drop-down.png
-[img2]: media/recipients-content-status.png
-[img3]: media/e-marketing-privacy-feature.png
-[img4]: media/subscription-preferences-page.png
+[img1]: ../../../../media/loc/en/marketing/setup-type-drop-down.png
+[img2]: ../../../../media/loc/en/marketing/recipients-content-status.png
+[img3]: ../../../../media/loc/en/marketing/e-marketing-privacy-feature.png
+[img4]: ../../../../media/loc/en/marketing/subscription-preferences-page.png

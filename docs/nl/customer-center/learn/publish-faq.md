@@ -32,4 +32,4 @@ Uw klanten hebben zelfs toegang tot deze veelgestelde vragen via het klantportaa
 [2]: config.md
 
 <!-- Referenced images -->
-[img1]: media/set-up-a-faq.png
+[img1]: ../../../media/loc/en/customer-center/set-up-a-faq.png

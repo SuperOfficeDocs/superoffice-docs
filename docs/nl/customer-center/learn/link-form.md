@@ -54,7 +54,7 @@ Wanneer een klant dit formulier invult, worden de informatie en details automati
 [2]: config.md
 
 <!-- Referenced images -->
-[img1]: media/form-element.png
-[img2]: media/custom-form.png
-[img3]: media/custcenter-choose-form.png
-[img4]: media/web-form-on-the-contact-us-page.jpg
+[img1]: ../../../media/loc/en/customer-center/form-element.png
+[img2]: ../../../media/loc/en/customer-center/custom-form.png
+[img3]: ../../../media/loc/en/customer-center/custcenter-choose-form.png
+[img4]: ../../../media/loc/en/customer-center/web-form-on-the-contact-us-page.jpg

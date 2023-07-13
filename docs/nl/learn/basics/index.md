@@ -122,5 +122,5 @@ Uw systeembeheerder kan [projectgidsen handleidingen voor u toevoegen en aanpass
 [18]: ../section-tabs/index.md
 
 <!-- Referenced images -->
-[img1]: media/diary.png
-[img2]: media/projects.png
+[img1]: ../../../media/loc/en/learn/diary.png
+[img2]: ../../../media/loc/en/learn/projects.png

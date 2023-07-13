@@ -37,7 +37,7 @@ Als u de mailing wilt stoppen of een geplande mailing eerder dan gepland wilt st
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../media/send-now.png
-[img2]: ../media/btn-schedule.png
+[img1]: ../../../../../../media/loc/en/marketing/send-now.png
+[img2]: ../../../../../../media/loc/en/marketing/btn-schedule.png
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png
-[img4]: media/send-or-schedule.png
+[img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png
