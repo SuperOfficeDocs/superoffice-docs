@@ -60,7 +60,7 @@ Du kan tilføje projektdeltagere og interessenter fra personoversigterne på for
 2. Vælg den ønskede person på listen.
 
     > [!NOTE]
-    > Hvis du vil tilføje flere kontakter som interessenter/projektdeltagere, skal du bruge **Shift** eller **Ctrl** \+ klik.
+    > Hvis du vil tilføje flere kontakter som interessenter/projektdeltagere, skal du bruge **Shift** eller **Ctrl** + klik.
 
 3. Højreklik på personerne, og vælg **Tilføj til salg** eller **Tilføj til projekt** i den menu, der vises.
 

@@ -107,10 +107,10 @@ Endringene lagres automatisk. Salgsguiden vises nå i SuperOffice CRM, hvis det 
 
 Agenda for første møte:
 
-- Informasjon om kundens virksomhet og organisasjon
-- Behov, ønsker, problemer
-- Firmapresentasjon
-- Annet
+\- Informasjon om kundens virksomhet og organisasjon
+\- Behov, ønsker, problemer
+\- Firmapresentasjon
+\- Annet
 
 ## <a id="add-doc-stage" />Legge til et dokument for en fase
 

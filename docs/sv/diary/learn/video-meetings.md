@@ -46,7 +46,7 @@ Du kan enkelt konfigurera ett videomöte när du skapar en händelse. Titta på 
 
 3. Om du vill kan du ställa in ett alarm som visar ett popup-meddelande innan mötet startar.
 
-4. Bjud in deltagare: Gå till fliken **Deltagare** och klicka på knappen **\+ Lägg till** för att bjuda in andra personer till mötet.
+4. Bjud in deltagare: Gå till fliken **Deltagare** och klicka på knappen **+ Lägg till** för att bjuda in andra personer till mötet.
 
     När du har lagt till alla som du vill ska delta i mötet klickar du på **Spara**.
 

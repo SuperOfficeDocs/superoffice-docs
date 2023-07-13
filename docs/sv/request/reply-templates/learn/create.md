@@ -86,9 +86,9 @@ Förutom sin layout och formatering måste svarsmallen även innehålla följand
 ```text
 [[IF:message.bodyHtml!=""]]
 [[message.bodyHtml]]
-\[\[ELSE\]\]
+[[ELSE]]
 [[message.body]]
-\[\[ENDIF\]\]
+[[ENDIF]]
 ```
 
 ## <a id="faq" />Automatiskt svar på FAQ

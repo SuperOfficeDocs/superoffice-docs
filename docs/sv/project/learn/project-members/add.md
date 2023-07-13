@@ -60,7 +60,7 @@ Du kan lägga till projektdeltagare och intressenter från kontaktöversikterna 
 2. Välj önskad kontakt från listan.
 
     > [!NOTE]
-    > För att lägga till flera kontakter som intressenter/projektmedlemmar, använder du **Shift** eller **Ctrl** \+ klick.
+    > För att lägga till flera kontakter som intressenter/projektmedlemmar, använder du **Shift** eller **Ctrl** + klick.
 
 3. Högerklicka på kontakter och välj **Lägg till försäljning** eller **Lägg till projekt** i menyn som visas.
 

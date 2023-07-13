@@ -60,7 +60,7 @@ U kunt projectleden en aandeelhouders toevoegen vanuit de personenlijsten op ver
 2. Selecteer de gewenste persoon in de lijst.
 
     > [!NOTE]
-    > Om meerdere personen als belanghebbenden/projectleden toe te voegen, gebruikt u **Shift** of **Ctrl** \+ klikken.
+    > Om meerdere personen als belanghebbenden/projectleden toe te voegen, gebruikt u **Shift** of **Ctrl** + klikken.
 
 3. Klik met de rechtermuisknop op de personen en selecteer **Toevoegen aan verkoop** of **Toevoegen aan project** in het weergegeven menu.
 

@@ -1,7 +1,7 @@
 ---
 uid: help-nl-company-merge
 title: Bedrijven samenvoegen
-description: "Om efficiënt te kunnen werken met klanten en contacten, is het van vitaal belang om een omgeving \"zonder rommel\" te hebben. Dit betekent ongebruikte bedrijven en contacten verwijderen en gedupliceerde bedrijven en personen samenvoegen."
+description: "Om efficiënt te kunnen werken met klanten en contacten, is het van vitaal belang om een omgeving 'zonder rommel' te hebben. Dit betekent ongebruikte bedrijven en contacten verwijderen en gedupliceerde bedrijven en personen samenvoegen."
 author: SuperOffice RnD
 so.date: 12.15.2022
 keywords: bedrijf

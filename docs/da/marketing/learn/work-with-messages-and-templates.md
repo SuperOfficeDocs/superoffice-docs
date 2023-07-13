@@ -1,7 +1,7 @@
 ---
 uid: help-da-work-with-messages-and-templates
 title: Sådan arbejder du med meddelelser og skabeloner
-description: "At udvikle en \"masterskabelon\" (corporate) er den bedste måde til at sikre, at alle dine mailudsendelser ser godt ud, har det samme design og afspejler dit brand."
+description: "At udvikle en 'masterskabelon' (corporate) er den bedste måde til at sikre, at alle dine mailudsendelser ser godt ud, har det samme design og afspejler dit brand."
 author: SuperOffice RnD
 so.date: 02.16.2023
 keywords: marketing

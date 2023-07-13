@@ -107,10 +107,10 @@ The changes are saved automatically. The sales guide will now be displayed in Su
 
 Agenda for first meeting:
 
-- Information about the customer's business and organization
-- Needs, wants, problems
-- Company presentation
-- Other
+\- Information about the customer's business and organization
+\- Needs, wants, problems
+\- Company presentation
+\- Other
 
 ## <a id="add-doc-stage" />Add a document for a stage
 

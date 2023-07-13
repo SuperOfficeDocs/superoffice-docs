@@ -86,9 +86,9 @@ Afgezien van de lay-out/opmaak van de antwoordsjabloon, moet deze de volgende sj
 ```text
 [[IF:message.bodyHtml!=""]]
 [[message.bodyHtml]]
-\[\[ELSE\]\]
+[[ELSE]]
 [[message.body]]
-\[\[ENDIF\]\]
+[[ENDIF]]
 ```
 
 ## <a id="faq" />Automatische beantwoording van Veelgestelde vragen

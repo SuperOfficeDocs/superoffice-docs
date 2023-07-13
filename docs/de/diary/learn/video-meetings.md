@@ -46,7 +46,7 @@ Sie können ganz einfach eine Videokonferenz einrichten, wenn Sie eine Folgeaufg
 
 3. Richten Sie optional einen Alarm ein, um vor Beginn der Besprechung durch ein Popup-Fenster benachrichtigt zu werden.
 
-4. Teilnehmer einladen: Gehen Sie zur Registerkarte **Teilnehmer** und klicken Sie auf die Schaltfläche **\+ Hinzufügen**, um andere Personen zu dieser Besprechung einzuladen.
+4. Teilnehmer einladen: Gehen Sie zur Registerkarte **Teilnehmer** und klicken Sie auf die Schaltfläche **+ Hinzufügen**, um andere Personen zu dieser Besprechung einzuladen.
 
     Wenn Sie alle gewünschten Teilnehmer an der Besprechung hinzugefügt haben, klicken Sie auf **Speichern**.
 

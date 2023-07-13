@@ -46,7 +46,7 @@ U kunt eenvoudig een videovergadering instellen bij het maken van een vervolgact
 
 3. U kunt optioneel een alarm instellen dat wordt gemeld door een pop-up voordat de vergadering begint.
 
-4. Deelnemers uitnodigen: Ga naar het tabblad **Deelnemers** en klik op de knop **\+ Toevoegen** om andere mensen uit te nodigen voor deze vergadering.
+4. Deelnemers uitnodigen: Ga naar het tabblad **Deelnemers** en klik op de knop **+ Toevoegen** om andere mensen uit te nodigen voor deze vergadering.
 
     Wanneer u iedereen hebt toegevoegd die u aan de vergadering wilt laten deelnemen, klikt u op **Opslaan**.
 

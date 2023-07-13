@@ -107,10 +107,10 @@ Når du har oprettet faser og angivet en salgstype for salgsguiden, kan du desig
 
 Dagsorden for første møde:
 
-- Information om kundens branche og organisation
-- Behov, ønsker, problemer
-- Firmapræsentation
-- Andet
+\- Information om kundens branche og organisation
+\- Behov, ønsker, problemer
+\- Firmapræsentation
+\- Andet
 
 ## <a id="add-doc-stage" />Tilføj et dokument til en fase
 

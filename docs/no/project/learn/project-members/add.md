@@ -60,7 +60,7 @@ Du kan legge til prosjektdeltakere og interessenter fra personoversiktene i ulik
 2. Velg ønsket person fra listen.
 
     > [!NOTE]
-    > Hvis du vil legge til flere personer som interessenter/prosjektdeltakere, bruker du **Skift** eller **Ctrl** \+ klikk.
+    > Hvis du vil legge til flere personer som interessenter/prosjektdeltakere, bruker du **Skift** eller **Ctrl** + klikk.
 
 3. Høyreklikk på personene, og velg **Legg til i salg** eller **Legg til i prosjekt** på menyen som vises.
 

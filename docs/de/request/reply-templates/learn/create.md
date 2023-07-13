@@ -86,9 +86,9 @@ Neben dem Layout/Format der Antwortvorlage muss es die folgenden Vorlagenvariabl
 ```text
 [[IF:message.bodyHtml!=""]]
 [[message.bodyHtml]]
-\[\[ELSE\]\]
+[[ELSE]]
 [[message.body]]
-\[\[ENDIF\]\]
+[[ENDIF]]
 ```
 
 ## <a id="faq" />Automatische FAQ-Antwort

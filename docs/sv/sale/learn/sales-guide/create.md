@@ -107,10 +107,10 @@ När du har skapat faser och angett en försäljningstyp för säljguiden, kan d
 
 Agenda för första mötet:
 
-- Information om kundens verksamhet och organisation
-- Behov, önskemål, problem
-- Företagspresentation
-- Annat
+\- Information om kundens verksamhet och organisation
+\- Behov, önskemål, problem
+\- Företagspresentation
+\- Annat
 
 ## <a id="add-doc-stage" />Lägg till ett dokument för en fas
 

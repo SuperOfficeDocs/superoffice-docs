@@ -26,7 +26,7 @@ Varje gång en person registreras i din SuperOffice CRM-databas, registreras äv
 
 * **Samtycke**: Du måste ha fått tillstånd från den aktuella kontakten innan du får spara och behandla kontaktens data.
 
-* **Syfte**: Orsaken till att du sparar och behandlar en kontakts data. Exempel: **Försäljning och tjänster** och \***E-marknadsföring**. Dokumentera följande för varje enskilt syfte:
+* **Syfte**: Orsaken till att du sparar och behandlar en kontakts data. Exempel: **Försäljning och tjänster** och **E-marknadsföring**. Dokumentera följande för varje enskilt syfte:
 
   * **Rättslig grund**: Den juridiska basen för att spara och behandla en kontakts data.
   * **Källa**: Hur och var du erhöll kontaktens samtycke.

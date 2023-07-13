@@ -38,7 +38,7 @@ Bruk dette alternativet til å legge til de valgte postene i et eksisterende sta
 
 2. Velg én eller flere poster i listen.
 
-    Hvis du vil legge til flere poster, bruker du **Skift** eller **Ctrl** \+ klikk.
+    Hvis du vil legge til flere poster, bruker du **Skift** eller **Ctrl** + klikk.
 
 3. Høyreklikk på postene, og velg **Legg til i utvalg** på menyen som vises.
 
@@ -47,9 +47,9 @@ Bruk dette alternativet til å legge til de valgte postene i et eksisterende sta
     > [!NOTE]
     > Listen over utvalg er begrenset til:
     >
-    > \* Eksisterende *statiske* utvalg (ikke dynamiske utvalg eller kombinerte utvalg)
+    > * Eksisterende *statiske* utvalg (ikke dynamiske utvalg eller kombinerte utvalg)
     >
-    > \* Utvalg som samsvarer med postene du legger til (hvis du velger salg, vises bare utvalg av salg)
+    > * Utvalg som samsvarer med postene du legger til (hvis du velger salg, vises bare utvalg av salg)
     >
     > Hvis listen er tom, finnes det ingen eksisterende utvalg av denne typen.
 
@@ -62,7 +62,7 @@ Bruk dette alternativet til å legge til de valgte postene i et eksisterende sta
 2. Velg én eller flere poster i listen.
 
     > [!NOTE]
-    > Hvis du vil legge til flere poster, bruker du**Skift** eller **Ctrl** \+ klikk.
+    > Hvis du vil legge til flere poster, bruker du**Skift** eller **Ctrl** + klikk.
 
 3. Høyreklikk på postene, og velg **Legg til i utvalg** på menyen som vises.
 

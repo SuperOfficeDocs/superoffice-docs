@@ -26,7 +26,7 @@ Hver gang en person registreres i din SuperOffice CRM-database, registreres ogs�
 
 * **Samtykke**: Du skal have tilladelse fra den aktuelle person, før du kan lagre og administrere vedkommendes data.
 
-* **Formål**: Grunden til, at du lagrer og behandler en persons data. Eksempler: **Salg og service** og \***E-markedsføring**. For hvert enkelt formål skal du dokumentere følgende:
+* **Formål**: Grunden til, at du lagrer og behandler en persons data. Eksempler: **Salg og service** og **E-markedsføring**. For hvert enkelt formål skal du dokumentere følgende:
 
   * **Retsgrundlag**: Det juridiske grundlag for lagring og behandling af en persons data.
   * **Kilde**: Hvordan og hvor du har fået personens samtykke.

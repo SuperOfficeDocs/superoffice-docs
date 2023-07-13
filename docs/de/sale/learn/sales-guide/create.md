@@ -107,10 +107,10 @@ Die Änderungen werden automatisch gespeichert. Der betreffende Verkaufsleitfade
 
 Agenda für Erstgespräch:
 
-- Informationen zum Geschäftsfeld und zum Unternehmen des Kunden
-- Bedürfnisse, Wünsche und Probleme
-- Präsentation der Firma
-- Sonstiges
+\- Informationen zum Geschäftsfeld und zum Unternehmen des Kunden
+\- Bedürfnisse, Wünsche und Probleme
+\- Präsentation der Firma
+\- Sonstiges
 
 ## <a id="add-doc-stage" />Dokument für eine Stufe hinzufügen
 

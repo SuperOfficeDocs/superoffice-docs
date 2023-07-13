@@ -45,7 +45,7 @@ landingContent:
           url: ../admin/user-management/learn/update-user.md
         - text: Vedligehold brugergrupper
           url: ../admin/user-management/learn/user-groups.md
-        - text: "Vedligehold \"Vores firmaer\""
+        - text: Vedligehold 'Vores firmaer'
           url: ../admin/user-management/learn/our-companies.md
 
   # Card

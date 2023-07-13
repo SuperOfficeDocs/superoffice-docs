@@ -1,6 +1,6 @@
 ---
 uid: help-sv-our-companies-manage
-title: "Hantera \"Våra företag\""
+title: "Hantera 'Våra företag'"
 description: Så lägger du till och tar bort företag på fliken Våra företag
 author: Bergfrid
 so.date: 03.15.2023
