@@ -42,13 +42,13 @@ Verzoeken kunnen aan [personen][2] worden gekoppeld, die op hun beurt weer tot e
 
 ### Wat wilt u nu doen?
 
-* [Verzoekafhandeling stap voor stap leren][7]
+* Verzoekafhandeling stap voor stap leren
 * [Verzoeken ontvangen][6]
 * [Verzoeken maken][4]
 * [Verzoeken zoeken][10]
-* [7 tips om de beste klantenservice te bieden met SuperOffice Service][20] \- blog
+* [7 tips om de beste klantenservice te bieden met SuperOffice Service][20] - blog
 
-## Verzoekbeheer
+## <a id="request-mgt" />Verzoekbeheer
 
 Binnenkomende verzoeken kunnen via vele kanalen binnenkomen en er is meer dan één manier om ze te registreren en te beantwoorden. De manier waarop verzoekafhandeling plaatsvindt, verschilt per verzoek.
 
@@ -72,7 +72,8 @@ Verschillende bedrijven hebben verschillende routines voor verzoekafhandeling en
 
 ### Scenario 1: De persoon verzendt het verzoek per e-mail
 
-1. De persoon schrijft een e-mail naar <support@company.com> of vult een formulier in in een portal voor gebruikersondersteuning.
+<!-- markdownlint-disable-next-line MD034 -->
+1. De persoon schrijft een e-mail naar support@company.com of vult een formulier in in een portal voor gebruikersondersteuning.
 1. De persoon ontvangt een [automatische ontvangstbevestiging][23] van het verzoek.
 1. De vraag van de persoon wordt automatisch geregistreerd als een verzoek in SuperOffice CRM.
 1. Het verzoek gaat naar een verzoekbehandelaar in SuperOffice CRM. Zie [Verzoeken toewijzen][6] en [Verzoeken zoeken][10].
@@ -116,12 +117,11 @@ Verschillende bedrijven hebben verschillende routines voor verzoekafhandeling en
 [4]: howto/create.md
 [5]: howto/flag-message.md
 [6]: howto/assign.md
-[7]: index.md#request-management
 [8]: howto/fav.md
 [9]: howto/edit-message.md
 [10]: find.md
 [11]: find.md#list
-[12]: find.md#search
+[12]: ../../search-options/learn/index.md
 [13]: find.md#result
 [14]: howto/create.md
 [15]: ../../learn/getting-started/edit-email-signature.md

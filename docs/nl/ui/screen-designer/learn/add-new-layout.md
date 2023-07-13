@@ -14,7 +14,7 @@ language: nl
 
 Als de standaardopmaak niet overeenkomt met de behoeften van een gebruikersgroep, kunt u een nieuwe opmaak maken die voldoet aan de unieke informatiebehoeften van de gebruikersgroep. Met een aangepaste opmaak voor de persoon en bedrijfskaarten en de verschillende archief/sectie tabbladen kunnen uw teams en organisatie efficiënter werken.
 
-Met aangepaste schermopmaken voor elk van uw teams, wordt het zoeken van klantgegevens eenvoudiger dan ooit. De meest relevante gegevens zijn altijd beschikbaar en zichtbaar. Verwijder, verplaats of verberg irrelevante of minder belangrijke gegevens om de bedrijfs-, persoons-, verkoop- en projectschermen overzichtelijk te houden. Voeg aangepaste archieven toe met de meest relevante gegevens voor uw teams. Het resultaat is een schoner en opgeruimder scherm voor uw teams om in te werken.
+Met aangepaste schermopmaken voor elk van uw teams, wordt het zoeken van klantgegevens eenvoudiger dan ooit. De meest relevante gegevens zijn altijd beschikbaar en zichtbaar. Verwijder, verplaats of verberg irrelevante of minder belangrijke gegevens om de bedrijfs-, persoons-, verkoop-, project-, en verzoekenschermen overzichtelijk te houden. Voeg aangepaste archieven toe met de meest relevante gegevens voor uw teams. Het resultaat is een schoner en opgeruimder scherm voor uw teams om in te werken.
 
 ## Opmaak hoofdkaart
 

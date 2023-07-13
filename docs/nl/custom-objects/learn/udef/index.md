@@ -1,7 +1,7 @@
 ---
 uid: help-nl-udef
-title: Velden web
-description: Velden web
+title: Velden
+description: Velden
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: udef, aangepast veld

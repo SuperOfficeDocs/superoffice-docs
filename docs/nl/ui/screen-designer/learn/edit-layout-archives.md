@@ -12,7 +12,7 @@ language: nl
 
 # Opmaak bewerken op sectietabbladen/archieven
 
-U kunt de lay-out bewerken door sectietabbladen/archieven toe te voegen of te verwijderen op de verschillende hoofdkaarten voor bedrijf, contact, verkoop en project.
+U kunt de lay-out bewerken door sectietabbladen/archieven toe te voegen of te verwijderen op de verschillende hoofdkaarten voor bedrijf, contact, verkoop, project, en verzoeken.
 
 ## Verduidelijking
 
@@ -103,7 +103,7 @@ Als u een bestaand archief wilt bewerken, selecteert u het en bewerkt u de besch
 
 U kunt altijd op **Tabbladen herstellen** klikken om deze wijzigingen ongedaan te maken.
 
-## Wijzigingen ongedaan maken
+## <a id="undo-changes" />Wijzigingen ongedaan maken
 
 Als u moet herstellen naar een eerdere versie van het scherm, kunt u de volgende opties openen via de knop **Taak**:
 
@@ -115,7 +115,7 @@ Als u moet herstellen naar een eerdere versie van het scherm, kunt u de volgende
 
 ## Aanverwant
 
-* [Hoe reorganiseer ik de velden op het tabblad Meer in de schermen Bedrijf en Persoon, na de upgrade naar SuperOffice versie 10?][3] \- FAQ
+* [Hoe reorganiseer ik de velden op het tabblad Meer in de schermen Bedrijf en Persoon, na de upgrade naar SuperOffice versie 10?][3] - FAQ
 * [Nieuwe opmaak maken][4]
 
 <!-- Referenced links -->

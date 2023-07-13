@@ -1,4 +1,4 @@
-<!-- markdownlint-disable-file MD041 -->
+<!-- markdownlint-disable-file MD041 MD034-->
 Wanneer u een mailing maakt, moet u de ontvangers van de mailing selecteren. U kunt ontvangers uit meerdere bronnen toevoegen. Daarnaast kunt u hier verschillende mailingopties instellen en een voorbeeld van de mailing bekijken.
 
 Uw doellijst is de groep mensen waarvan u denkt dat ze het beste op uw bericht zullen reageren. Als u uw marketingboodschap specifiek op die groep afstemt, krijgt u een betere kans op succes en voorkomt u dat u tijd en moeite verspilt aan mensen die niet geïnteresseerd zijn.
@@ -65,12 +65,12 @@ Wanneer u een lijst met namen en e-mailadressen importeert, probeert SuperOffice
 
 * Elke ontvanger (rij) bestaat uit de volledige naam en het e-mailadres.
 
-    Bijvoorbeeld: "Henk Jansen. <john@company.com>")
+    Bijvoorbeeld: "Henk Jansen. john@company.com"
 
     > [!NOTE]
     > U kunt ook alleen het e-mailadres opgeven. De naam is dan echter niet beschikbaar als een sjabloonvariabele.
 
-* Lokaal: Elke ontvanger (rij) kan ook een mobiel telefoonnummer bevatten (na het e-mailadres) in het geval u mailings via SMS wilt maken. Bijvoorbeeld: "Henk Jansen, <john@company.com>, 99999999". Vereist de Marketing SMS-licentie.
+* Lokaal: Elke ontvanger (rij) kan ook een mobiel telefoonnummer bevatten (na het e-mailadres) in het geval u mailings via SMS wilt maken. Bijvoorbeeld: "Henk Jansen, john@company.com, 99999999". Vereist de Marketing SMS-licentie.
 
 > [!NOTE]
 > Wanneer u alleen het mobiele telefoonnummer hebt en een SMS wilt sturen, kunt u het volgende invoeren: " , , 99887766".

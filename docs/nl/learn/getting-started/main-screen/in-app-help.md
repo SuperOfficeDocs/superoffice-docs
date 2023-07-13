@@ -5,7 +5,7 @@ description: In-app Help gebruiken in SuperOffice CRM
 author: SuperOffice RnD
 so.date: 01.25.2023
 keywords: help, inapp, in-app
-so.topic: help
+so.topic: concept
 language: nl
 ---
 

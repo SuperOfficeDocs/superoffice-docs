@@ -25,7 +25,7 @@ Bijvoorbeeld hoofdcategorieën voor Gebruikersondersteuning, Ontwikkeling, Verko
 Gebruikers kunnen worden toegevoegd als leden in de categorieën, dit kan afzonderlijk of via de gebruikersgroep(en) waartoe ze behoren.
 
 > [!TIP]
-> Zoekt u een flexibelere manier om uw verzoek te organiseren? Probeer [Codes gebruiken in verzoeken][1].
+> Zoekt u een flexibelere manier om uw verzoek te organiseren? Probeer [Codes gebruiken in verzoeken][6].
 
 ## Waar kan ik de verzoekcategorieën vinden?
 
@@ -48,5 +48,6 @@ De categorieën zijn gerangschikt in een boomstructuur.
 [3]: ../../../admin/lists/learn/index.md
 [4]: ../priority/index.md
 [5]: ../next-in-queue.md
+[6]: ../tags.md
 
 <!-- Referenced images -->

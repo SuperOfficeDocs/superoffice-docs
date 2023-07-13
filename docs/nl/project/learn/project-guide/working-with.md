@@ -32,7 +32,7 @@ Wanneer een projectgids is gedefinieerd voor een projecttype dat u voor een proj
     > [!TIP]
     > Als u meerdere vervolgactiviteiten van hetzelfde type wilt maken, klikt u met rechtermuisknop op de activiteit en selecteert u **Nog een maken**. Het [dialoogvenster activiteiten][2] wordt geopend.
     >
-    > ![pictogram][img2]
+    > ![Nog een maken -screenshot][img2]
 
 1. Nadat alle vereiste vervolgactiviteiten en documenten voor een projectstatus zijn voltooid, kunt u naar de volgende status gaan.
 
@@ -41,7 +41,7 @@ Wanneer een projectgids is gedefinieerd voor een projecttype dat u voor een proj
 
 1. Herhaal de bovenstaande procedure voor alle vervolgactiviteiten/documenten binnen elke status van de projectgids.
 
-## Naar de volgende status gaan
+## <a id="move-to-next-status" />Naar de volgende status gaan
 
 U kunt het project op twee manieren naar de volgende status verplaatsen:
 

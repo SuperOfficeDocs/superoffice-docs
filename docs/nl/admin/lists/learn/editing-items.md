@@ -57,6 +57,6 @@ Bekijk deze video om te leren hoe u lijstitems kunt bewerken in SuperOffice CRM 
 [1]: deleting-items.md
 [2]: specialized-lists.md
 [3]: privacy-source-add.md
-[4]:
+[4]: sale-type.md
 
 <!-- Referenced images -->

@@ -1,5 +1,5 @@
 ### YamlMime:Tutorial
-uid: tutorial-selection-create
+uid: help-nl-tutorial-selection-create
 title: Zelfstudie - Een dynamische of statische selectie maken
 metadata:
   title:  Zelfstudie - Een dynamische of statische selectie maken
@@ -24,8 +24,8 @@ items:
 
     1. Kies in het dialoogvenster **Opslaan als selectie** de volgende opties:
 
-        * **Dynamische selectie** \- dit type selectie wordt altijd bijgewerkt wanneer leden worden toegevoegd die aan de selectiecriteria voldoen.
-        * **Statische selectie** \- dit type selectie bevat alleen de leden die u handmatig hebt toegevoegd.
+        * **Dynamische selectie** - dit type selectie wordt altijd bijgewerkt wanneer leden worden toegevoegd die aan de selectiecriteria voldoen.
+        * **Statische selectie** - dit type selectie bevat alleen de leden die u handmatig hebt toegevoegd.
 
     1. Klik op **Opslaan**.
 

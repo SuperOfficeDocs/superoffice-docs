@@ -5,14 +5,13 @@ description: Menu-eigenschappen
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
-so.topic: help
+so.topic: howto
 language: nl
 ---
 
 # Menu-eigenschappen
 
-> [!NOTE]
-> Wijzigingen aangebracht **Systeemontwerp** \- Het tabblad **Extra menu's** wordt alleen weergegeven in de **SuperOffice Service**-module, niet in het scherm Aanvragen in de SuperOffice CRM-module.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Hier kunt u de eigenschappen van opties van extra menu's en webvensters bewerken.
 

@@ -27,16 +27,14 @@ En andere functionaliteit die u een overzicht geeft van:
 * [Duplicaten verwerken][16]
 * [De functionaliteit voor bulksgewijs bijwerken gebruiken][17]
 
-## Basistaken om mee aan de slag te gaan
-
-### Knopinfo
+## Knopinfo
 
 Op veel plaatsen in SuperOffice CRM wordt knopinfo gebruikt om aanvullende informatie over een item weer te geven. Knopinfo is vooral nuttig in overzichten om naast de belangrijkste gegevens meer gegevens in records zichtbaar te maken of om in kolommen die te smal zijn alle gegevens weer te geven. De knopinfo wordt weergegeven wanneer u de muisaanwijzer op een item plaatst.
 
 > [!NOTE]
 > als u geen toegang hebt tot een functie, wordt tekst weergegeven waarin wordt uitgelegd waarom u de betreffende informatie niet kunt zien.
 
-### Gegevens vernieuwen
+## Gegevens vernieuwen
 
 Telkens wanneer u SuperOffice CRM start, wordt het programma bijgewerkt met alle wijzigingen die andere gebruikers in de hoofddatabase hebben doorgevoerd en met wijzigingen die in Instellingen en onderhoud zijn gemaakt.
 
@@ -45,14 +43,14 @@ U kunt ook gegevens vernieuwen terwijl u SuperOffice CRM gebruikt. Dit doet u do
 > [!NOTE]
 > Sommige wijzigingen in Instellingen en onderhoud vereisen dat u de SuperOffice CRM-cliënt herstart alvorens deze wijzigingen effect hebben.
 
-### Bedrijven en personen beheren
+## Bedrijven en personen beheren
 
 De bedrijfs- en persoonsschermen bevatten alle informatie met betrekking tot uw klanten en geven direct inzicht in de communicatie, projecten en aankopen die ze met u hebben.
 
 > [!TIP]
 > Wist u dat u al uw bedrijven of contactpersonen op één plek kunt zien? Klik op het pictogram Selecties in het navigatievenster en selecteer **Bedrijf: Alle** of **Alle contactpersonen** uit de lijst.
 
-#### Taken
+### Taken - bedrijven en personen
 
 * [Een bedrijf toevoegen][2]
 * [Personen toevoegen][3]
@@ -61,7 +59,7 @@ De bedrijfs- en persoonsschermen bevatten alle informatie met betrekking tot uw 
 * [Bedrijfs- en persoonsgegevens bulksgewijs bijwerken][5]
 * [Selecties maken voor verdere actie][6]
 
-### Agenda en afspraken
+## Agenda en afspraken
 
 De SuperOffice Agenda is het hart van uw CRM-systeem. Regelmatig gebruik van de agenda helpt u om automatisch afspraken en activiteiten te verbinden en te delen die zijn gekoppeld aan een contactpersoon of een bedrijf, zodat u en uw team moeiteloos op schema kunnen blijven en productief kunnen werken. Deze handleidingen helpen u te leren werken met de agenda.
 
@@ -69,22 +67,22 @@ De SuperOffice Agenda is het hart van uw CRM-systeem. Regelmatig gebruik van de 
 
 Naast de reguliere kalenderfunctionaliteit geeft SuperOffice Agenda u ook de mogelijkheid om activiteiten te koppelen en te organiseren in projecten en verkopen. Dit helpt u en uw team om te genieten van een volledig overzicht van alle activiteiten en communicatie die verband houden met een project of verkoop.
 
-#### Taken
+### Taken - agenda en afspraken
 
 * [Afspraken maken][8]
 * [Een persoon uitnodigen voor een afspraak][10]
 * [Videovergadering][11]
 
-### Uw documenten beheren
+## Uw documenten beheren
 
 Door alle documenten op één plek op te slaan, krijgen u en uw team toegang tot actuele informatie en behouden u de controle over klantrelaties.
 
-#### Taken
+### Taken - documenten
 
 * Een document maken of uploaden
 * E-mailbijlagen opslaan in SuperOffice CRM
 
-### Projecten gebruiken om bestanden en activiteiten te ordenen
+## Projecten gebruiken om bestanden en activiteiten te ordenen
 
 SuperOffice Project helpt u uw werk georganiseerd en gedocumenteerd te houden op één plek, zodat u en uw team kunnen genieten van betere controle en betere samenwerking.
 
@@ -100,7 +98,7 @@ SuperOffice Project wordt ook geleverd met een projectgids die kan worden aangep
 
 Uw systeembeheerder kan [projectgidsen handleidingen voor u toevoegen en aanpassen][1].
 
-#### Taken
+### Taken - projecten
 
 * [Een project maken][7]
 

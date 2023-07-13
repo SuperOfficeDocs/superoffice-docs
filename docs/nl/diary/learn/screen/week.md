@@ -18,10 +18,9 @@ In het tabblad **Week** wordt Ã©Ã©n week tegelijk weergegeven. Er is één k
 Als u het tabblad **Dag** voor een bepaalde dag wilt openen, klikt u op de kop van de gewenste dag.
 
 > [!NOTE]
-> U kunt opgeven of zondag dan wel maandag als de eerste dag van de week moet worden beschouwd onder ![pictogram][img1] **Persoonlijke instellingen &gt; Voorkeuren**.
+> U kunt opgeven of zondag dan wel maandag als de eerste dag van de week moet worden beschouwd onder **Persoonlijke instellingen** > **Voorkeuren**.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
 [img2]: media/week-plan.bmp

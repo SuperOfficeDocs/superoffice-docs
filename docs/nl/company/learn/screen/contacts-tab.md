@@ -3,7 +3,7 @@ uid: help-nl-company-screen-contacts
 title: Tabblad Contactpersonen
 description: Tabblad Contactpersonen
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.24.2023
 keywords: bedrijf
 so.topic: reference
 language: nl
@@ -58,8 +58,7 @@ Deze personen worden dan weergegeven in een andere kleur. Zij worden ook op deze
 * [Contactpersonen samenvoegen][5]
 * [Contactpersonen verwijderen][6]
 * [E-mail verzenden naar contactpersonen][7]
-* [Rangorde wijzigen van contactpersonen][8]
-* [Kolommen configureren][9]
+* [Kolommen configureren][8]
 
 <!-- Referenced links -->
 [1]: ../../../contact/learn/index.md
@@ -69,8 +68,7 @@ Deze personen worden dan weergegeven in een andere kleur. Zij worden ook op deze
 [5]: ../../../contact/learn/merge-contacts.md
 [6]: ../../../contact/learn/delete.md
 [7]: ../../../contact/learn/send-email.md
-[8]: ../change-rank-of-contacts.md
-[9]: ../../../learn/section-tabs/configure-columns.md
+[8]: ../../../learn/section-tabs/configure-columns.md
 
 <!-- Referenced images -->
 [img1]: media/contacts-detail.bmp

@@ -1,5 +1,5 @@
 ---
-uid: help-nl-webtools-install
+uid: help-nl-mail-link-install
 title: SuperOffice WebTools installeren
 description: Meer informatie over het installeren van de e-mailkoppeling/WebTools.
 author: Kirsti Aakerholt

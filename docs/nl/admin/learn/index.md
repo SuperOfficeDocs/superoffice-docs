@@ -71,7 +71,7 @@ De beste manier om uw eigen project- of verkoopgidsen te definiëren, is door uw
 * [Documentsjablonen beheren][7]
 * [GDPR-privacy-instellingen][8]
 * [Systeemvoorkeuren en videovergaderingen][9]
-* [Bedrijven, personen en producten importeren][3]
+* [Bedrijven, personen, en producten importeren][3]
 
 <!-- Referenced links -->
 [1]: ../user-management/learn/index.md

@@ -13,9 +13,9 @@ language: nl
 
 # Codes gebruiken in verzoeken
 
-Coderen is een krachtig hulpmiddel voor het organiseren en vinden van verzoeken in SuperOffice Service. U kunt in een oogwenk codes maken en elk verzoek coderen met zoveel codes als u wilt. Het gebruik van codes vereenvoudigt de manier waarop u verzoeken zoekt, weergeeft en filtert.
+Coderen is een krachtig hulpmiddel voor het organiseren en vinden van verzoeken in SuperOffice. U kunt in een oogwenk codes maken en elk verzoek coderen met zoveel codes als u wilt. Het gebruik van codes vereenvoudigt de manier waarop u verzoeken zoekt, weergeeft en filtert.
 
-Elk bedrijf zal zijn eigen specifieke klantenservice-verzoeklabels willen gebruiken. Laten we eens kijken naar twee soorten labels die nuttig kunnen zijn voor uw bedrijf:
+Elk bedrijf zal zijn eigen specifieke klantenservice-verzoeklabels willen gebruiken. Laten we eens kijken naar twee soorten labels die nuttig kunnen zijn voor uw bedrijf.
 
 * U kunt labels instellen voor de verschillende klantfasen die uw bedrijf gebruikt, zoals bijvoorbeeld gratis proefversie, onboarding, bestaand of beëindigend.
 

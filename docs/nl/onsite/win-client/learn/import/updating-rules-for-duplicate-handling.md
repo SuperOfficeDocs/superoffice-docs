@@ -21,7 +21,9 @@ U moet altijd regels opgeven voor de manier waarop duplicaten worden verwerkt ti
 
     * Klik op het ![pictogram][img1] naast het veld **Importbeschrijvingsbestand** en selecteer een importbeschrijvingsbestand in het dialoogvenster dat wordt geopend. Een importbestand en de eerder geselecteerde instellingen worden automatisch ingevoegd.
 
-    * [!include[Select file](includes/step-select-file.md)] Geef vervolgens de [veldtoewijzing][1] op.
+    * [!include[Select file](includes/step-select-file.md)]
+
+        Geef vervolgens de [veldtoewijzing][1] op.
 
 3. De inhoud in de kolom **Tabel** onder **Verwerking van duplicaten** is gebaseerd op de opgegeven veldtoewijzing.
 

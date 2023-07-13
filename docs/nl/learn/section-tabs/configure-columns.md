@@ -3,7 +3,7 @@ uid: help-nl-section-tabs-configure
 title: De kolomweergave wijzigen
 description: De kolomweergave wijzigen
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: 05.24.2023
 keywords: sectietabblad, archief, kolom
 so.topic: howto
 language: nl
@@ -51,12 +51,14 @@ U kunt instellen dat de kolombreedte automatisch wordt aangepast aan de inhoud v
 
 ## Verwante onderwerpen
 
-* [gegroepeerde lijsten][3]
-* [Rangorde wijzigen van contactpersonen][4]
+* [Gegroepeerde lijsten][3]
+* [De sectietabbladen filteren][1]
+* [Sectietabbladen exporteren][2]
 
 <!-- Referenced links -->
 [3]: group.md
-[4]: ../../company/learn/change-rank-of-contacts.md
+[1]: filter.md
+[2]: export-archives.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

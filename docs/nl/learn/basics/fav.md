@@ -13,7 +13,7 @@ language: nl
 
 # Favorieten in SuperOffice CRM
 
-De functie Favorieten geeft eenvoudig toegang tot uw favoriete records, zoals bedrijven, personen, verkopen, selecties, projecten, documenten, verzoeken en mailings.
+De functie Favorieten geeft eenvoudig toegang tot uw favoriete records, zoals bedrijven, personen, verkopen, selecties, projecten, documenten, verzoeken, en mailings.
 
 ## Record toevoegen als een favoriet
 

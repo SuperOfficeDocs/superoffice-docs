@@ -59,7 +59,7 @@ U verplaatst zich tussen de hoofdsecties van SuperOffice met behulp van de navig
 | ![pictogram][img59] | **Systeemontwerp**: hier vindt u verschillende geavanceerde instellingen voor SuperOffice Service. | |
 | ![pictogram][img60] | **App Store**: Hiermee opent u de [SuperOffice App Store][44], waar u standaard-apps en integraties kunt verkennen die SuperOffice CRM Online kunnen uitbreiden. | |
 
-## Navigator-opties
+## <a id="navigator" />Navigator-opties
 
 Wanneer u op een navigatorknop klikt, worden één of meer van de knoppen hieronder weergegeven.
 

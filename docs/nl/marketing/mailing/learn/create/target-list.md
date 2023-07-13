@@ -124,12 +124,9 @@ Gebruik dynamische selecties wanneer u met de meest actuele gegevens moet werken
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-marketing-segmentation-mistake/
 [2]: ../../../../search-options/selection/learn/create/index.md
-[3]: (<https://www.superoffice.co.uk/resources/articles/integrated-web-forms/>
+[3]: https://www.superoffice.co.uk/resources/articles/integrated-web-forms/
 [4]: ../../../forms/learn/create.md
-
-[5]:
-<!-- /en/learning/admin-guide/gdpr-privacy-settings/ -->
-
+[5]: ../../../../admin/lists/learn/privacy-legal-base-add.md
 [6]: ../follow-up/index.md
 [7]: ../follow-up/view-statistics.md
 [8]: ../follow-up/look-at-recipient-list.md

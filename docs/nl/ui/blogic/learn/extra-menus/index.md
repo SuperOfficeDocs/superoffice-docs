@@ -5,7 +5,7 @@ description: "Extra menu's in de SuperOffice UI"
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: extra menu’s
-so.topic: help
+so.topic: concept
 so.user: admin
 so.user.tooltip: Settings and maintenance
 language: nl
@@ -13,8 +13,7 @@ language: nl
 
 # Extra menu’s
 
-> [!NOTE]
-> Wijzigingen aangebracht **Systeemontwerp** \- Het tabblad **Extra menu's** wordt alleen weergegeven in de **SuperOffice Service**-module, niet in het scherm Aanvragen in de SuperOffice CRM-module.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 In het scherm **Extra menu's** kunt u extra menu's (knoppen, menu's, koppelingen, snelkoppelingen, lijsten en dergelijke) toevoegen in SuperOffice Service, zodat de functies en informatie die u nodig hebt, altijd en gemakkelijk beschikbaar zijn.
 

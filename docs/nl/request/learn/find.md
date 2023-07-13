@@ -83,7 +83,7 @@ Onderaan de lijst kunt u klikken op de ![pictogram][img1] knop **Taak**op voor t
 
 * **Bulksgewijs bijwerken**: als u in de lijst een of meer verzoeken hebt geselecteerd, kunt u op deze optie klikken en een actie selecteren die op alle geselecteerde verzoeken tegelijk moet worden uitgevoerd. U kunt er bijvoorbeeld voor kiezen [hetzelfde bericht aan meerdere verzoeken toe te voegen][8], [meerdere verzoeken door te sturen][7] of meerdere verzoeken tegelijk te verwijderen.
 
-### Afdrukvoorbeeld
+### <a id="preview" />Afdrukvoorbeeld
 
 In dit gedeelte van het scherm wordt de inhoud van het verzoek weergegeven dat is geselecteerd onder **Zoekresultaat**. U hebt dezelfde opties als bij [het verwerken van verzoeken][6].
 
@@ -108,7 +108,7 @@ Als het voorbeeldgedeelte niet zichtbaar is, klikt u op **Voorbeeld weergeven** 
 [9]: ../../dashboard/learn/index.md
 [10]: ../../search-options/selection/learn/index.md
 [11]: ../../search-options/learn/find-screen.md
-[12]: ../../learn/getting-started/main-screen/navigator.md#navigator-options
+[12]: ../../learn/getting-started/main-screen/navigator.md#navigator
 [13]: ../../search-options/selection/learn/create/tutorial.yml
 
 <!-- Referenced images -->

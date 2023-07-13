@@ -5,7 +5,7 @@ description: "Meldingen van uitnodigingen, berichten en verzoeken"
 author: Hanne Gunnarsson
 so.date: 04.03.2023
 keywords: melding, Kern, uitnodigingen, verzoeken, berichten
-so.topic: help
+so.topic: concept
 so.user: user
 so.user.tooltip: SuperOffice CRM
 language: nl
@@ -36,7 +36,8 @@ Dit zijn de verschillende verzoekmeldingen:
 * **Favoriete verzoek bijgewerkt**: Een van uw favoriete verzoeken is bijgewerkt.
 * **Aangepast bericht**: Er is een aangepast bericht toegevoegd aan een verzoek.
 
-    Opmerking: De lijst met verzoekmeldingen wordt elke nacht gewist, wat betekent dat eventuele verzoekmeldingen die u aan het einde van de dag in uw lijst hebt, er morgen niet meer zijn.
+    > [!NOTE]
+    > De lijst met verzoekmeldingen wordt elke nacht gewist, wat betekent dat eventuele verzoekmeldingen die u aan het einde van de dag in uw lijst hebt, er morgen niet meer zijn.
 
 ## Activiteitsmeldingen
 
@@ -50,12 +51,12 @@ Dit zijn de verschillende activiteitsmeldingen:
 * **Vergadering geannuleerd**: De vergadering wordt geannuleerd. Klik op de koppeling om het agenda-item te openen of klik op **Duidelijk** om het uit uw meldingen te verwijderen.
 * **Uitnodiging geweigerd**: Een deelnemer aan de vergadering heeft de uitnodiging afgewezen. Klik op de koppeling om het agenda-item te openen of klik op **Duidelijk** om het uit uw meldingen te verwijderen.
 
-    Opmerking: Uitnodigingen en gewijzigde activiteiten worden niet uit het meldingenpaneel verwijderd, maar blijven bestaan totdat u de uitnodiging **accepteert** of **afwijst**.
+    > [!NOTE]
+    > Uitnodigingen en gewijzigde activiteiten worden niet uit het meldingenpaneel verwijderd, maar blijven bestaan totdat u de uitnodiging **accepteert** of **afwijst**.
 
 ## Instellingen voor meldingen
 
-Wanneer u op het ![pictogram][img2] pictogram klikt, wordt het deelvenster met meldingsinstellingen weergegeven.
-Hier kunt u selecteren welke meldingen u wilt zien in het meldingenpaneel.
+Wanneer u op het ![pictogram][img2] pictogram klikt, wordt het deelvenster met meldingsinstellingen weergegeven. Hier kunt u selecteren welke meldingen u wilt zien in het meldingenpaneel.
 
 Dit zijn de meldingsopties:
 

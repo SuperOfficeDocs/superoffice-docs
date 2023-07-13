@@ -5,7 +5,7 @@ description: Navigatorgroep en extra menu toevoegen
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: navigator groep
-so.topic: help
+so.topic: howto
 so.user: admin
 so.user.tooltip: Settings and maintenance
 language: nl
@@ -13,8 +13,7 @@ language: nl
 
 # Navigatorgroep en extra menu toevoegen
 
-> [!NOTE]
-> Wijzigingen aangebracht **Systeemontwerp** \- Het tabblad **Extra menu's** wordt alleen weergegeven in de **SuperOffice Service**-module, niet in het scherm Aanvragen in de SuperOffice CRM-module.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Om deze functionaliteit te illustreren voegen we een nieuwe navigatorgroep toe in de navigator aan de linkerkant in SuperOffice. We voegen een extra menu toe in de nieuwe navigatorgroep. In ons voorbeeld voegen we de navigatorgroep 'Websites' toe met een aantal nuttige websites.
 

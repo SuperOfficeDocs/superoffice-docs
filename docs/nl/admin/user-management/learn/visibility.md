@@ -11,7 +11,7 @@ language: nl
 
 # Zichtbaarheid
 
-Of u bepaalde documenten, verkopen, vervolgactiviteiten en selecties kunt weergeven, is niet uitsluitend afhankelijk van de [rol][1] die aan u is toegewezen. Het kan ook zo zijn dat de relevante informatie voor u niet beschikbaar is. De dialoogvensters voor **documenten** en **vervolgactiviteiten** en de schermen **Verkoop** en **Selectie** bevatten de keuzelijst **Zichtbaar voor**. U kunt bijvoorbeeld in het scherm **Verkoop** ervoor kiezen om de verkoop voor iedereen zichtbaar te maken of alleen voor de primaire groep waartoe de eigenaar behoort, of alleen zichtbaar voor de eigenaar.
+Of u bepaalde documenten, verkopen, vervolgactiviteiten en selecties kunt weergeven, is niet uitsluitend afhankelijk van de [rol][1] die aan u is toegewezen. Het kan ook zo zijn dat de relevante informatie voor u niet beschikbaar is. De dialoogvensters voor documenten en vervolgactiviteiten en de schermen Verkoop en Selectie bevatten de keuzelijst **Zichtbaar voor**. U kunt bijvoorbeeld in het scherm Verkoop ervoor kiezen om de verkoop voor iedereen zichtbaar te maken of alleen voor de primaire groep waartoe de eigenaar behoort, of alleen zichtbaar voor de eigenaar.
 
 Hiervoor is de licentie **Vertrouwelijke activiteiten** vereist.
 

@@ -11,8 +11,7 @@ language: nl
 
 # Functie toevoegen aan menuknop
 
-> [!NOTE]
-> Wijzigingen aangebracht **Systeemontwerp** \- Het tabblad **Extra menu's** wordt alleen weergegeven in de **SuperOffice Service**-module, niet in het scherm Aanvragen in de SuperOffice CRM-module.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Toevoegen van een macro aan de knop **Taak** in het scherm Bedrijf, het scherm Persoon, het scherm Verzoek of het tabblad **Bericht**:
 

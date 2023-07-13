@@ -33,7 +33,7 @@ Wanneer u een verzoek opent en **Beantwoorden** selecteert, verschijnt automatis
 
 1. Klik op **Opslaan**. Het bericht wordt verzonden naar de persoon.
 
-## Antwoordsjablonen toevoegen aan berichten
+## <a id="reply-templ" />Antwoordsjablonen toevoegen aan berichten
 
 Wanneer u een vraag van een persoon beantwoordt, kunt u tijd besparen door een [antwoordsjabloon][8] als basis te gebruiken voor een aangepaste response aan een persoon. Kies welke antwoordsjabloon u aan het berichtveld wilt toevoegen en bewerk vervolgens de tekst. Voeg bijlagen toe of verwijder deze om deze aan te passen aan de actuele situatie.
 

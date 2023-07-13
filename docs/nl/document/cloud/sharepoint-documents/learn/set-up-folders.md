@@ -31,12 +31,13 @@ Documenten in de bibliotheek nemen de machtiging over van de bibliotheek zelf.
 ## Aanverwant
 
 * [Eisen][1]
-* SharePoint-documentbibliotheek configureren
+* [SharePoint-documentbibliotheek configureren][3]
 * [Uw documentsjablonen beheren][2]
 
 <!-- Referenced links -->
 [1]: index.md
-[2]:
+[2]: ../../../../admin/lists/learn/add-template.md
+[3]: ../set-up.md
 
 <!-- Referenced images -->
 [img1]: media/admin-preferences-documentlibrary-sharepoint-permissions.png

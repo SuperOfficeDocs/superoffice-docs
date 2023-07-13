@@ -3,7 +3,7 @@ uid: help-nl-section-tabs
 title: De sectietabbladen
 description: De sectietabbladen
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: 05.24.2023
 keywords: sectietabblad, archief
 so.topic: concept
 language: nl
@@ -42,7 +42,6 @@ Om de laadtijd te verkorten, wordt alleen een opgegeven aantal records weergegev
 
 * [Lijsten groeperen][3]
 * [Filters gebruiken in de sectietabbladen][4]
-* [Rangorde wijzigen van contactpersonen][16]
 * [Kolommen configureren][6]
 * [Sectietabbladen exporteren][7]
 * [Sectietabbladen in het scherm Bedrijf][9]
@@ -66,7 +65,6 @@ Om de laadtijd te verkorten, wordt alleen een opgegeven aantal records weergegev
 [13]: ../../project/learn/screen/index.md
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
-[16]: ../../company/learn/change-rank-of-contacts.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

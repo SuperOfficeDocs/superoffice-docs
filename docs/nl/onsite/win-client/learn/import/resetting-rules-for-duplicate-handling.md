@@ -18,7 +18,10 @@ so.envir: onsite
 2. Voer een van de volgende handelingen uit:
 
     * Klik op het ![pictogram][img1] naast het veld **Importbeschrijvingsbestand** en selecteer een importbeschrijvingsbestand in het dialoogvenster dat wordt geopend. Een importbestand en de eerder geselecteerde instellingen worden automatisch ingevoegd.
-    * [!include[Select file](includes/step-select-file.md)] Geef vervolgens de [veldtoewijzing][1] op. De inhoud in de kolom **Tabel** onder **Verwerking van duplicaten** is gebaseerd op de opgegeven veldtoewijzing.
+
+    * [!include[Select file](includes/step-select-file.md)]
+
+        Geef vervolgens de [veldtoewijzing][1] op. De inhoud in de kolom **Tabel** onder **Verwerking van duplicaten** is gebaseerd op de opgegeven veldtoewijzing.
 
 3. Selecteer een van de volgende handelingen:
 

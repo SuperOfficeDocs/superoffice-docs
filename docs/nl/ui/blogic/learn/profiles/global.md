@@ -11,8 +11,7 @@ language: nl
 
 # Globale profielen
 
-> [!NOTE]
-> Wijzigingen aangebracht in **Profiel** worden alleen weergegeven in de **SuperOffice Service**-module, niet in het scherm Aanvragen in de SuperOffice CRM-module.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Een globaal profiel wordt gebruikt als het standaardprofiel en is van toepassing op iedereen waarvoor nog geen persoonlijk profiel bestaat of waaraan nog geen algemeen profiel is toegewezen op basis van de rol waartoe zij behoren.
 

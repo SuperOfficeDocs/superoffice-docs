@@ -24,7 +24,7 @@ Het scherm **Verkoop** bevat informatie die is geregistreerd over de verkopen di
 
 Als u tussen verkopen wilt schakelen, klikt u op de knoppen vorige/volgende (![pictogram][img2] ![pictogram][img4]) rechtsonder op de kaarten.
 
-U kunt ook [een offerte maken][1] op het sectietabblad **Offerte** op het scherm **Verkoop**.
+U kunt ook [een offerte maken][1] op het sectietabblad **Offerte** op het scherm Verkoop.
 
 ## Waar kan ik de verkoop bekijken?
 

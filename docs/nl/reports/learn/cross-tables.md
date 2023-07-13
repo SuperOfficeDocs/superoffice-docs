@@ -5,7 +5,7 @@ description: Kruistabellen weergeven
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: rapport
-so.topic: help
+so.topic: concept
 language: nl
 ---
 
@@ -20,7 +20,7 @@ Kruistabellen kunnen op verschillende manieren worden weergegeven en afgedrukt. 
 
 Om een kruistabelrapport (.Dcube bestand) te bekijken, moet u de **Kruistabelviewer** installeren (een per computer).
 
-1. Klik op het ![pictogram][img1] **Hoofdmenu** en selecteer **Downloaden &gt; Kruistabelviewer downloaden**.
+1. Klik op het ![pictogram][img1] **Hoofdmenu** en selecteer **Downloaden** > **Kruistabelviewer downloaden**.
 1. Klik op het gedownloade bestand (**SoCrossTableInstaller.exe**) om dit te laten werken.
 1. Als een beveiligingswaarschuwing wordt weergegeven, bevestigt u dat u het bestand wilt uitvoeren.
 1. Volg de instructies van de wizard om het programma te installeren.

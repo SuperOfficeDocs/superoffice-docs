@@ -11,8 +11,7 @@ language: nl
 
 # Persoonlijke profielen
 
-> [!NOTE]
-> Wijzigingen aangebracht in **Profiel** worden alleen weergegeven in de **SuperOffice Service**-module, niet in het scherm Aanvragen in de SuperOffice CRM-module.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Persoonlijke profielen zijn van toepassing op een enkele gebruiker U kunt persoonlijke profielen configureren door te klikken op ![Pictogram][img1] (het pictogram van een steeksleutel) dat in verschillende schermen beschikbaar is, zoals de lijst met verzoeken in het scherm Persoon, het gedeelte met verzoekeigenschappen in het scherm Verzoek of het scherm met zoekresultaten. Hierna wordt een concreet voorbeeld hiervan beschreven. In het onderstaande voorbeeld wordt ervan uitgegaan dat u een veld wilt toevoegen in het scherm Verzoek.
 

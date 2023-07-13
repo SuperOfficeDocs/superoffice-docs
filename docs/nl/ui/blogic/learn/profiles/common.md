@@ -11,8 +11,7 @@ language: nl
 
 # Algemene profielen
 
-> [!NOTE]
-> Wijzigingen aangebracht in **Profiel** worden alleen weergegeven in de **SuperOffice Service**-module, niet in het scherm Aanvragen in de SuperOffice CRM-module.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Algemene profielen zijn gekoppeld aan een [rol][2] en gelden van toepassing voor alle gebruikers die deze rol hebben. U configureert algemene profielen in het scherm **Profielen weergeven**.
 

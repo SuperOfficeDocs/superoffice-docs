@@ -1,6 +1,6 @@
 ---
 title: Zijpaneel help en verkoop
-uid: How to use the side-panel in sales
+uid: help-nl-sale-side-panel
 description: Efficiënt gebruik van het zijpaneel efficiënt voor verkopen
 author: Bergfrid Dias
 so.date: 12.14.2022

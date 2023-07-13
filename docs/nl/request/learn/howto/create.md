@@ -127,7 +127,7 @@ Dit tabblad bevat eventuele extra velden die zijn gedefinieerd voor verzoeken. D
 
 <!-- Referenced links -->
 [1]: ../../../learn/getting-started/edit-email-signature.md
-[2]: reply.md#add-reply-templates-to-messages
+[2]: reply.md#reply-templ
 [3]: ../priority/escalation-levels.md
 [4]: ../tags.md
 [5]: edit-message.md

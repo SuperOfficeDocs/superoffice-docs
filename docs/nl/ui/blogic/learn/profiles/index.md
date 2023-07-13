@@ -17,8 +17,7 @@ language: nl
 
 Profielen in het systeem worden gebruikt om de vormgeving en het gedrag van schermelementen te configureren.
 
-> [!NOTE]
-> Wijzigingen aangebracht in **Profiel** worden alleen weergegeven in de **SuperOffice Service**-module, niet in het scherm Aanvragen in de SuperOffice CRM-module.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Bijvoorbeeld:
 

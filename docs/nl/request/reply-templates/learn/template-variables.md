@@ -62,7 +62,7 @@ Bij het bewerken van antwoordsjablonen en mailings kunt u sjabloonvariabelen inv
 | link.subscription | De koppeling om uw abonnement te annuleren |
 | link.viewShipmentMessage | De koppeling voor de online weergave van bericht |
 
-## Onderhoud
+## <a id="config" />Onderhoud
 
 | Variabele | Beschrijving|
 |---|---|
@@ -83,7 +83,7 @@ Bij het bewerken van antwoordsjablonen en mailings kunt u sjabloonvariabelen inv
 | config.warning | Het pad voor de waarschuwingslogbestanden |
 | config.wwwPath | Het systeempad voor WWW-bestanden |
 
-## Variabelen voor een geselecteerde contactpersoon
+## <a id="customer" />Variabelen voor een geselecteerde contactpersoon
 
 | Variabele | Beschrijving|
 |---|---|
@@ -107,7 +107,7 @@ Bij het bewerken van antwoordsjablonen en mailings kunt u sjabloonvariabelen inv
 | customer.username | Gebruikersnaam in SuperOffice Customer Centre |
 | makeSalutation(customer.id) | Aanhef |
 
-## Variabelen voor aanvragen (alleen SuperOffice Service)
+## <a id="ticket" />Variabelen voor aanvragen (alleen SuperOffice Service)
 
 | Variabele | Beschrijving|
 |---|---|
@@ -150,7 +150,7 @@ Bij het bewerken van antwoordsjablonen en mailings kunt u sjabloonvariabelen inv
 | ticket.urlWithSession | De URL voor toegang tot het verzoek voor gebruikersagenten met de huidige gebruikerssessie |
 | ticket.userUrl | De URL voor toegang tot het verzoek voor gebruikersagenten |
 
-## Variabelen voor geselecteerd bedrijf
+## <a id="company" />Variabelen voor geselecteerd bedrijf
 
 | Variabele | Beschrijving|
 |---|---|
@@ -177,7 +177,8 @@ Bij het bewerken van antwoordsjablonen en mailings kunt u sjabloonvariabelen inv
 | ourContact.email | E-mailadressen van onze personen |
 | ourContact.name | Onze contactpersoon |
 
-## Variabelen voor antwoordsjablonen (gebruiker) (alleen SuperOffice Service)
+<!-- markdownlint-disable-file MD013 -->
+## <a id="user" />Variabelen voor antwoordsjablonen (gebruiker) (alleen SuperOffice Service)
 
 Houd er rekening mee dat deze variabelen niet werken voor geautomatiseerde antwoorden verzonden door het systeem, omdat dergelijke antwoorden niet gekoppeld zijn aan een gebruiker.
 

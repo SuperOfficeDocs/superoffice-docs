@@ -13,7 +13,7 @@ Klik op **Nu verzenden** ![pictogram][img1] om een PDF-document te genereren. Er
 
 Klik op de mailing in de lijst om de [verzendstatus en de statistieken weer te geven][1].
 
-## Het document openen en afdrukken
+## <a id="open-and-print-the-document" />Het document openen en afdrukken
 
 1. Selecteer het tabblad **Mailings**.
 2. Zoek het document, klik op ![pictogram][img2] en selecteer **Weergeven**.
