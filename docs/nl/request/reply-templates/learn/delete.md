@@ -13,7 +13,7 @@ language: nl
 
 # Antwoordsjablonen verwijderen
 
-1. Ga naar ![het pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Antwoordsjablonen**.
+1. Ga naar ![het pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Antwoordsjablonen**.
 1. Ga naar de map waar de antwoordsjabloon zich bevindt.
 1. Klik op de antwoordsjabloon. Het scherm **Antwoordsjablonen weergeven** wordt geopend.
 1. Klik op de knop **Antwoordsjabloon bewerken**. Het scherm **Eigenschappen antwoordsjabloon** wordt geopend.

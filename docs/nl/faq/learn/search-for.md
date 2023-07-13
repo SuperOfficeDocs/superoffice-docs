@@ -15,7 +15,7 @@ language: nl
 
 Als een map veel items in Veelgestelde vragen bevat, kan het lastig zijn het item te vinden dat u zoekt. In dat geval is het raadzaam een zoekopdracht op te geven.
 
-1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Veelgestelde vragen**.
+1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
 2. Klik op de knop **Zoeken**. Het scherm **Criteria** wordt geopend.
 3. Zoekcriteria Voer de tekst in waarnaar u wilt zoeken en optionele andere criteria.
 4. Klik op **Zoek**.

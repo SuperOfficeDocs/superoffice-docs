@@ -12,7 +12,7 @@ language: de
 # E-Mail verfassen
 
 > [!TIP]
-> Das folgende Verfahren beschreibt, wie Sie im Posteingang eine E-Mail-Mitteilung schreiben. Sie können eine E-Mail-Nachricht auch verfassen, indem Sie auf der oberen Leiste auf **Neu** &gt; **E-Mail** klicken.
+> Das folgende Verfahren beschreibt, wie Sie im Posteingang eine E-Mail-Mitteilung schreiben. Sie können eine E-Mail-Nachricht auch verfassen, indem Sie auf der oberen Leiste auf **Neu** > **E-Mail** klicken.
 
 ## E-Mail vom SuperOffice-Posteingang erstellen
 
@@ -44,7 +44,7 @@ Wenn Sie die Nachricht fertiggestellt haben und abschicken möchten, haben Sie f
 > [!TIP]
 > Wenn Sie die E-Mail nicht beim Senden archivieren, können Sie immer noch die Option [Gehe zum Ordner mit den gesendeten E-Mails und die Mitteilung archivieren][2] ausführen.
 >
-> Die Signaturvorlage unten in der Nachricht kann unter ![Symbol][img1] **Persönliche Einstellungen** &gt; **Persönliche Signatur bearbeiten** bearbeitet werden.
+> Die Signaturvorlage unten in der Nachricht kann unter ![Symbol][img1] **Persönliche Einstellungen** > **Persönliche Signatur bearbeiten** bearbeitet werden.
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md

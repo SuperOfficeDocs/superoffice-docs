@@ -34,7 +34,7 @@ Du kan nemt slette en bemærkning ved at slette al teksten i bemærkningen. Prik
 
 Du kan når som helst aktivere eller deaktivere visningen af notesblokken ved at:
 
-* Klikke på ![ikon][img1] **Hovedmenu** &gt; **Vis notesblok**. Hvis menupunktet er markeret, betyder det, at funktionen er aktiveret.
+* Klikke på ![ikon][img1] **Hovedmenu** > **Vis notesblok**. Hvis menupunktet er markeret, betyder det, at funktionen er aktiveret.
 * Du kan vælge **Notesblok** på oversigtslisten i [sidepanelet][1] for at vise notesblokken i sidepanelet.
 
 Når du viser notesblokken på skærmen, kan du tage fat i den øverste del af notesblokvinduet og trække det til en ønsket placering.

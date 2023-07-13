@@ -31,7 +31,7 @@ För att ett ärende ska vara ditt ansvar, måste ditt namn synas i fältet **Ä
 En ärendehandläggare som har behörighet att administrera kategorier kan specificera tilldelningsmetoden för kategorier:
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Välj **Ärenden** &gt; **Kategorier**.
+1. Välj **Ärenden** > **Kategorier**.
 1. Välj önskad kategori.
 1. Välj fliken **Tilldelningsmetod**.
 1. Välj lämpliga alternativ.

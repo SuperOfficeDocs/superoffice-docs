@@ -96,7 +96,7 @@ Als u een bestaand archief wilt bewerken, selecteert u het en bewerkt u de besch
 
 ## Een archief verwijderen
 
-1. Selecteer het archief (of een ander sectietabblad) en klik op **Taak** &gt; **Tabblad verwijderen**.
+1. Selecteer het archief (of een ander sectietabblad) en klik op **Taak** > **Tabblad verwijderen**.
 
 1. Klik op **OK** in het dialoogvenster dat wordt weergegeven. Het tabblad wordt verwijderd (verborgen, maar niet gewist).
 

@@ -15,7 +15,7 @@ Du kan uppdatera standardsidorna i ditt kundcenter genom att redigera källfiler
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
-1. Välj ![ikon][img1] **Systeminställningar** &gt; **Kundcenter – källfiler**.
+1. Välj ![ikon][img1] **Systeminställningar** > **Kundcenter – källfiler**.
 
 2. Klicka på en webbplats i listan.
 

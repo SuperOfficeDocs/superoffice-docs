@@ -45,7 +45,7 @@ Der einfachste Weg, nach Anfragen zu suchen, ist die Verwendung des Suchfeldes, 
 
 ### Nur eigene Kategorien anzeigen
 
-1. Wählen Sie das ![Symbol][img2] **Persönliche Einstellungen** &gt; **Einstellungen** aus.
+1. Wählen Sie das ![Symbol][img2] **Persönliche Einstellungen** > **Einstellungen** aus.
 1. Wählen Sie die **Anfrage**-Gruppe aus.
 1. Setzen Sie die Option **Nur eigene Kategorien anzeigen** auf Ja..
 1. Klicken Sie auf **Speichern**.

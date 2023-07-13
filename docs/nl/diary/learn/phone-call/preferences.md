@@ -32,7 +32,7 @@ Als u de telefoonfuncties in SuperOffice wilt gebruiken, moet u mogelijk TAPI-so
 
 ## Voorkeuren
 
-Als IP-telefoon, Skype of Facetime is geïnstalleerd, kunt u telefoneren vanuit SuperOffice CRM. De voorkeur **Telefoonlinkopmaak** moet correct worden ingesteld, hetzij in **Voorkeuren** &gt; **Standaardwaarden** of in Instellingen en onderhoud. In Instellingen en onderhoud kunnen de telefoonvoorkeuren worden ingesteld voor individuele gebruikers, gebruikersgroepen of het hele systeem.
+Als IP-telefoon, Skype of Facetime is geïnstalleerd, kunt u telefoneren vanuit SuperOffice CRM. De voorkeur **Telefoonlinkopmaak** moet correct worden ingesteld, hetzij in **Voorkeuren** > **Standaardwaarden** of in Instellingen en onderhoud. In Instellingen en onderhoud kunnen de telefoonvoorkeuren worden ingesteld voor individuele gebruikers, gebruikersgroepen of het hele systeem.
 
 ### Beschikbare parameters
 

@@ -15,7 +15,7 @@ language: da
 
 Følg nedenstående fremgangsmåde for at tilføje en makro til knappen **Opgave** på skærmbilledet Firma, skærmbilledet Person, skærmbilledet Sag eller fanen **Meddelelse**:
 
-1. Vælg ![ikon][img3] **Systemdesign** &gt; **Ekstramenuer**.
+1. Vælg ![ikon][img3] **Systemdesign** > **Ekstramenuer**.
 2. Klik på **Topmenu** for at få vist undermapperne.
 3. Hold musemarkøren over en af disse mapper: **Vis sag**,**Vis person**,**Vis firma**eller **Meddelelsesmenuen**. Klik derefter på ![ikon][img1]. Skærmbilledet **Egenskaber for menu** vises.
 4. Indtast navnet på knappen i feltet **Overskrift** . Navnet skal være ret kort, så det passer på knappen.

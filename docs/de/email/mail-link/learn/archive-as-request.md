@@ -40,7 +40,7 @@ Sie können eine E-Mail in Ihrem E-Mail-Client-Posteingang als Anfrage in SuperO
 ## Mitteilung zu einer vorhandenen Anfrage hinzufügen
 
 1. Wählen Sie die zu archivierenden E-Mails aus. Wenn Sie mehrere E-Mails auswählen, werden die folgenden Schritte für jede E-Mail wiederholt.
-2. Wählen Sie in der Werkzeugleiste **E-Mail archivieren** &gt; **Anfrage erstellen** aus.
+2. Wählen Sie in der Werkzeugleiste **E-Mail archivieren** > **Anfrage erstellen** aus.
 3. Wählen Sie im Dialogfeld **Als Anfrage archivieren** die Option **Nachricht zu bestehender Anfrage hinzufügen**.
 4. Geben Sie in das Suchfeld die ID oder den Anfang des Titels der Anfrage ein.
 5. Drücken Sie ENTER oder klicken Sie auf das Vergrößerungsglas, um die Suche zu starten. Die Anfragen, die Ihren Suchkriterien entsprechen, werden im Feld **Anfrage zum Hinzufügen der Nachricht auswählen** angezeigt.

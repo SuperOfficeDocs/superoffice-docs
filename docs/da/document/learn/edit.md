@@ -58,7 +58,7 @@ Hvis du vil ændre dokumentegenskaberne, f.eks. hvilket projekt dokumentet skal 
 2. Klik på **Åbn** i dialogboksen **Dokument**.
 3. Hvis der åbnes en dialogboks, skal du klikke på **Rediger**.
 4. Vælg en af følgende indstillinger i dialogboksen Filoverførsel:
-    * **Aktiv**: Når du vælger indstillingen for at åbne, åbnes dokumentet i tekstbehandlingsprogrammet. Skriv det ønskede indhold i dokumentet, og vælg **Filer** &gt; **Gem** som for at gemme det på det ønskede sted på pc'en.
+    * **Aktiv**: Når du vælger indstillingen for at åbne, åbnes dokumentet i tekstbehandlingsprogrammet. Skriv det ønskede indhold i dokumentet, og vælg **Filer** > **Gem** som for at gemme det på det ønskede sted på pc'en.
     * **Gem**: Når du vælger indstillingen for at gemme, vises dialogboksen **Gem som**. Angiv, hvor på pc'en du vil gemme filen, og gem den. Derefter åbner du dokumentet, skriver det ønskede indhold og gemmer det.
 5. Luk tekstbehandlingsprogrammet.
 6. Gå til dialogboksen **Dokument**.

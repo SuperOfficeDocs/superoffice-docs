@@ -11,7 +11,7 @@ language: nl
 
 # Een taak maken
 
-1. Selecteer **Nieuw** &gt; **Taak** in de [bovenste balk][2].
+1. Selecteer **Nieuw** > **Taak** in de [bovenste balk][2].
 
 2. Geef in het dialoogvenster **Taak** [de taakdetails][1] op.
 

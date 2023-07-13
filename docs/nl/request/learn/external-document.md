@@ -19,7 +19,7 @@ Dit is bijvoorbeeld van toepassing wanneer u via het tabblad **Bericht**[verzoek
 
 ## Document bekijken
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Externe documenten**.
+1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 
 1. Ga naar de gewenste map.
 
@@ -32,7 +32,7 @@ Dit is bijvoorbeeld van toepassing wanneer u via het tabblad **Bericht**[verzoek
 > [!NOTE]
 > U moet het fysieke document zelf maken voordat u het aan SuperOffice kunt toevoegen. Gebruik bijvoorbeeld Microsoft Word of Excel om de inhoud te maken.
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Externe documenten**.
+1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 
 1. Ga naar de map waar u het document wilt opslaan. Als de gewenste map nog niet bestaat, kunt u deze volgens onderstaande beschrijving maken.
 
@@ -58,7 +58,7 @@ Dit is bijvoorbeeld van toepassing wanneer u via het tabblad **Bericht**[verzoek
 
 Bepaalde soorten documenten, zoals html, txt en de programmaspecifieke EJR-indeling, kunnen direct worden bewerkt in het scherm **Documenteigenschappen**. Voor andere typen, zoals PDF moet u de toepassing gebruiken waarin het document werd gemaakt.
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Externe documenten**.
+1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 1. Ga naar de map waar het document zich bevindt.
 1. Klik op het ![pictogram][img1] **Downloaden** om een document te downloaden.
 1. Bewerk en sla het document op met behulp van de toepassing waarin het document werd gemaakt.
@@ -70,7 +70,7 @@ Bepaalde soorten documenten, zoals html, txt en de programmaspecifieke EJR-indel
 
 Wanneer u de eigenschappen van het document bewerkt, kunt u bijvoorbeeld bepalen die toegang tot het document moet hebben.
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Externe documenten**.
+1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 1. Ga naar de map waar het document zich bevindt.
 1. Klik op de naam van het document om naar het scherm **Documenteigenschappen** te gaan.
 1. Breng de gewenste wijzigingen aan (zie hierboven).
@@ -81,7 +81,7 @@ Wanneer u de eigenschappen van het document bewerkt, kunt u bijvoorbeeld bepalen
 
 ## Document verwijderen
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Externe documenten**.
+1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 1. Ga naar de map waar het document zich bevindt.
 1. Klik op de naam van het document om naar het scherm **Documenteigenschappen** te gaan.
 1. Klik op de knop **Verwijderen** onder in het scherm.
@@ -91,7 +91,7 @@ Wanneer u de eigenschappen van het document bewerkt, kunt u bijvoorbeeld bepalen
 
 U kunt een mapstructuur voor documenten maken, zodat deze logisch worden gerangschikt en het voor anderen makkelijker wordt om informatie te vinden. U kunt in alle mappen submappen maken en de documenten in elke gewenste map opnemen.
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Externe documenten**.
+1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 
 1. Ga naar de map waaronder u een submap wilt maken. U kunt deze direct onder de map **Documenten** maken of onder een van de submappen ervan.
 
@@ -109,7 +109,7 @@ U kunt een mapstructuur voor documenten maken, zodat deze logisch worden gerangs
 
 Wanneer u een map verwijdert, worden ook alle documenten in die map verwijderd uit SuperOffice.
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Externe documenten**.
+1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 1. Ga naar de gewenste map.
 1. Klik op **Map bewerken**. Het scherm **Eigenschappen documentmap** wordt geopend.
 1. Klik op **Verwijd.**.

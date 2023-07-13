@@ -15,7 +15,7 @@ Sie können die Standardseiten in Ihrem Kundenzentrum aktualisieren, indem Sie d
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
-1. Wählen Sie ![Symbol][img1] **Systemeinstellungen** &gt; **Kundenzentrum-Quelldateien** aus.
+1. Wählen Sie ![Symbol][img1] **Systemeinstellungen** > **Kundenzentrum-Quelldateien** aus.
 
 2. Klicken Sie auf eine Webseite in der Liste.
 

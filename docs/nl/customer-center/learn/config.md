@@ -26,7 +26,7 @@ Als uw Customer Centre meertalig is, kunt u opties (zoals welkomsttekst, opening
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Selecteer ![pictogram][img1] **Customer Centre** &gt; **Configureren**. Er zijn 2 tabbladen op het scherm van het **Customer Centre**: **Styling** en **opties**. Bovenaan deze pagina staat een link naar een voorbeeldweergave van de pagina Customer Centre.
+1. Selecteer ![pictogram][img1] **Customer Centre** > **Configureren**. Er zijn 2 tabbladen op het scherm van het **Customer Centre**: **Styling** en **opties**. Bovenaan deze pagina staat een link naar een voorbeeldweergave van de pagina Customer Centre.
 
 1. In het tabblad **Styling** kunt u verschillende instellingen bewerken voor de Look & Feel van het Customer Centre: Logo, gewenste breedte, kleuren en lettertypen. De voorbeeldweergave wordt automatisch bijgewerkt.
 

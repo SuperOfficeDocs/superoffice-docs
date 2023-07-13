@@ -82,7 +82,7 @@ Hvis du vil sende e-mails fra SuperOffice CRM, skal du indtaste dine SMTP-server
 Nogle e-mailudbydere, f.eks. Gmail, blokerer fosøg på login fra ukendte apps. Tjek din indbakke for at se, om din e-mailudbyder har sendt dig oplysninger om et uautoriseret forsøg på at logge ind. Følg instruktionerne i e-mailen for at give SuperOffice adgang til din konto.
 
 > [!TIP]
-> Hvis du vil have adgang til e-mailindstillingerne, skal du gå til ![ikon][img1] **Personlige indstillinger** &gt; **E-mailindstillinger**.
+> Hvis du vil have adgang til e-mailindstillingerne, skal du gå til ![ikon][img1] **Personlige indstillinger** > **E-mailindstillinger**.
 
 <!-- Referenced links -->
 

@@ -58,7 +58,7 @@ Als u documenteigenschappen wilt wijzigen, zoals het project waaraan het documen
 2. Klik in het dialoogvenster **Document** op **Openen**.
 3. Als er een dialoogvenster wordt geopend, klikt u op **Bewerken**.
 4. Selecteer in het dialoogvenster voor het downloaden van bestanden een van de volgende opties:
-    * **Openen**: wanneer u klikt op de optie Openen, wordt het document geopend in de tekstbewerkingstoepassing. Typ de inhoud van het document en selecteer **Bestand** &gt; **Opslaan als** om het op te slaan op de gewenste locatie op uw computer.
+    * **Openen**: wanneer u klikt op de optie Openen, wordt het document geopend in de tekstbewerkingstoepassing. Typ de inhoud van het document en selecteer **Bestand** > **Opslaan als** om het op te slaan op de gewenste locatie op uw computer.
     * **Opslaan**: Wanneer u op de optie Opslaan klikt, wordt het dialoogvenster **Opslaan als** weergegeven. Geef aan op welke computer u het bestand wilt opslaan en sla het op. Open vervolgens het document, voer de gewenste tekst in en sla het document op.
 5. Sluit het tekstverwerkingsprogramma.
 6. Ga naar het dialoogvenster **Document**.

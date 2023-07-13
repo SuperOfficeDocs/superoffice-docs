@@ -46,7 +46,7 @@ Beim [Senden des Angebots][3] können Sie entscheiden, nur die bevorzugte Altern
 
 ## Alternativen löschen
 
-Sie können eine Alternative löschen, indem Sie unten auf der Registerkarte ![Symbol][img1] **Aufgabe** &gt; **Löschen\[alternative\]**auswählen.
+Sie können eine Alternative löschen, indem Sie unten auf der Registerkarte ![Symbol][img1] **Aufgabe** > **Löschen\[alternative\]**auswählen.
 
 <!-- Referenced links -->
 [1]: create.md

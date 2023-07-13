@@ -24,7 +24,7 @@ En person, der skal have adgang til et kundecenter, har brug for brugernavn og a
 5. Klik på **OK**. E-mail-meddelelsen sendes.
 
 > [!TIP]
-> Indholdet i meddelelsen hentes fra en systemskabelon, der er installeret. Du finder den under **Vidensbase** &gt; **Svarskabeloner**.
+> Indholdet i meddelelsen hentes fra en systemskabelon, der er installeret. Du finder den under **Vidensbase** > **Svarskabeloner**.
 
 <!-- Referenced links -->
 

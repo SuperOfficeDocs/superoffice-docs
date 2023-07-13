@@ -15,7 +15,7 @@ language: sv
 
 För att lägga till ett makro i knappen **Uppgift** i fönstret Företag, Kontakt eller Ärende eller fliken **Meddelande**:
 
-1. Välj ![ikon][img3] **Systemdesign** &gt; **Extramenyer**.
+1. Välj ![ikon][img3] **Systemdesign** > **Extramenyer**.
 2. Klicka på **Toppmeny** för att visa undermapparna.
 3. Håll muspekaren över någon av dessa mappar: **Visa Ärende**, **Visa kontakt**, **Visa företag** eller **Meddelande-meny**. Klicka sedan på ![ikon][img1]. Skärmen **Egenskaper för meny** visas.
 4. Skriv knappens namn i fältet **Namn**. Namnet ska vara ganska kort för att passa på knappen.

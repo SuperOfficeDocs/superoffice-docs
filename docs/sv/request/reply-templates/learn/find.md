@@ -15,7 +15,7 @@ language: sv
 
 Om det finns många svarsmallar i en mapp kan det vara svårt att hitta en viss svarsmall. Då kan det vara praktiskt att söka efter den.
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **Svarsmallar**.
+1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **Svarsmallar**.
 1. Klicka på knappen **Sök**. Du kommer då till skärmen **Kriterier**.
 1. Ange texten du vill söka efter och eventuellt andra kriterier.
 1. Klicka på **Sök**.

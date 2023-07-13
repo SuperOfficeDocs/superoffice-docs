@@ -17,7 +17,7 @@ Ett ärende kan komma in i systemet via ett e-postmeddelande från kunden, eller
 
 ## Arbetsflöde
 
-1. Välj **Nytt** &gt; **Ärende**.
+1. Välj **Nytt** > **Ärende**.
 
 1. I fältet **Titel** ger du ärendet ett beskrivande namn.
 

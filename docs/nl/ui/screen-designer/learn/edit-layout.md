@@ -126,7 +126,7 @@ Voeg meer tabbladen toe voor extra velden of verwijder irrelevante tabbladen.
 
 **Om een code te verwijderen:**
 
-1. Selecteer het tabblad en klik op **Taak** &gt; **tabblad Verwijderen**.
+1. Selecteer het tabblad en klik op **Taak** > **tabblad Verwijderen**.
 2. Klik op **OK** in het dialoogvenster dat wordt weergegeven.
 
 **U voegt als volgt een nieuw tabblad toe:**

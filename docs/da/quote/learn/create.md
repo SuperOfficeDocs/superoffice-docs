@@ -32,7 +32,7 @@ Hvis dialogboksen **Vælg ERP-kobling** vises, når du skal oprette et tilbud, k
 * Der er ingen tilgængelige prislister for valutaen for salget. Du skal vælge en anden valuta for salget eller oprette en prisliste med ønsket valuta i Indstillinger og vedligeholdelse.
 
     > [!NOTE]
-    > Hvis listen over valutaer ikke vises ud for salgsbeløbet, skal du muligvis aktivere brugen af valuta. Gå til **Præferencer** &gt; **Aktiver brug af valuta** i Indstillinger og vedligeholdelse.
+    > Hvis listen over valutaer ikke vises ud for salgsbeløbet, skal du muligvis aktivere brugen af valuta. Gå til **Præferencer** > **Aktiver brug af valuta** i Indstillinger og vedligeholdelse.
 
 * SuperOffice CRM er tilknyttet et eller flere ERP-systemer, og der kan vælges mellem flere aktuelle ERP-koblinger. ERP-koblingen bestemmer, hvor produktinformation og priser skal hentes fra.
 

@@ -47,7 +47,7 @@ Het tabblad **Berichten** geeft de berichten weer met betrekking tot het verzoek
 
 In ![pictogram][img2] **Persoonlijke instellingen** kunt u wijzigen hoeveel berichten worden weergegeven:
 
-1. Kies het ![pictogram][img2] **Persoonlijke instellingen** &gt; **Voorkeuren**.
+1. Kies het ![pictogram][img2] **Persoonlijke instellingen** > **Voorkeuren**.
 1. Selecteer de groep voor **Verzoek**.
 1. Geef in het veld **Aantal uitgebreide berichten** het aantal berichten op.
 1. Klik op **OK**.

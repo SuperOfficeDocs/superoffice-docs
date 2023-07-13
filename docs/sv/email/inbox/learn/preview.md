@@ -24,7 +24,7 @@ Fliken **Förhandsgranska** innehåller följande fält:
 | Bifogade filer | Här visas filer som har bifogats i meddelandet. |
 
 > [!NOTE]
-> Gå till ![ikon][img1] **Personliga inställningar** &gt; **Alternativ för e-post**. Gå till fliken **Allmänt**. Om du markerar **Visa interna bilder** visas inbyggda bilder i förhandsgranskningsfältet.
+> Gå till ![ikon][img1] **Personliga inställningar** > **Alternativ för e-post**. Gå till fliken **Allmänt**. Om du markerar **Visa interna bilder** visas inbyggda bilder i förhandsgranskningsfältet.
 
 ## Relaterade ämnen
 

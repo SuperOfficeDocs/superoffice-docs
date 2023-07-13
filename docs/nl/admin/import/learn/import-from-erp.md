@@ -18,7 +18,7 @@ Volg de onderstaande stappen om actors (klanten, leveranciers en personen) vanui
 ## Selecteer actors die moeten worden geïmporteerd vanuit het ERP-systeem
 
 > [!NOTE]
-> Als het ERP Sync.-![pictogram][img1] niet actief is, moet u synchronisatie uitschakelen in **Offerte/Synchroniseren** &gt; **Sync**-tabblad.
+> Als het ERP Sync.-![pictogram][img1] niet actief is, moet u synchronisatie uitschakelen in **Offerte/Synchroniseren** > **Sync**-tabblad.
 
 1. [!include[Open Import](includes/open-import.md)]
 2. [!include[Select source](includes/select-source.md)]

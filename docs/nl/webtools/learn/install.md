@@ -32,8 +32,8 @@ Bekijk deze video of volg de onderstaande handleiding om te ontdekken hoe u WebT
 ### Stappen
 
 1. Ga naar het ![pictogram][img1] Hoofdmenu in de bovenste balk.
-2. Selecteer **Downloaden** &gt; **SuperOffice Web Tools**. De wizard SuperOffice WebTools verschijnt.
-3. Selecteer in de wizard **Personal Computer** &gt; **SuperOffice** en klik op **Downloaden** om het installatiebestand te downloaden
+2. Selecteer **Downloaden** > **SuperOffice Web Tools**. De wizard SuperOffice WebTools verschijnt.
+3. Selecteer in de wizard **Personal Computer** > **SuperOffice** en klik op **Downloaden** om het installatiebestand te downloaden
 4. Klik op **Volgende** en **Sluiten** om de wizard WebTools te sluiten.
 5. Klik op het gedownloade bestand **SuperOffice.Web.Tools.exe** in de sectie Downloads in uw browser.
 6. Dubbelklik op het bestand **SuperOffice WebTools Installer.pkg** om de installatie te starten.

@@ -32,8 +32,8 @@ U kunt ook **speciale koppelingen toevoegen** aan uw mailing. Selecteer hiervoor
 
 * U voegt als volgt een gevolgde link toe:
 
-  * Tekst: Klik op ![pictogram][img1] op de werkbalk, selecteer **Speciale koppelingen** &gt; **Gevolgde koppelingen** en selecteer een koppeling.
-  * Afbeelding: Selecteer in het zijpaneel (onder **Actie**), **Speciale links** &gt; **Gevolgde links** en selecteer een link.
+  * Tekst: Klik op ![pictogram][img1] op de werkbalk, selecteer **Speciale koppelingen** > **Gevolgde koppelingen** en selecteer een koppeling.
+  * Afbeelding: Selecteer in het zijpaneel (onder **Actie**), **Speciale links** > **Gevolgde links** en selecteer een link.
 
 * Als u [een nieuwe gevolgde link wilt maken][5], klikt u onder in het scherm op **Een nieuwe gevolgde link** maken. Het dialoogvenster **Link-eigenschappen** wordt geopend.
 

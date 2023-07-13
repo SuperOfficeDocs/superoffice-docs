@@ -17,7 +17,7 @@ Du kan ange inställningar för olika delar av SuperOffice CRM, till exempel ant
 
 ## Steg
 
-1. Gå till ![ikon][img12] **Personliga inställningar** &gt; **Inställningar**.
+1. Gå till ![ikon][img12] **Personliga inställningar** > **Inställningar**.
 
 2. I dialogrutan **Inställningar** markerar du ett alternativ i listan till vänster.
 

@@ -21,7 +21,7 @@ Gå till ![ikon][img2] **Inställningar** i navigatorn och välj fliken **Global
 
 * **Standardteckengrovlek**: Vikt (tjocklek) på standardtypsnittet i ärenderedigeraren.
 
-* **Skicka e-post om aktiva ärenden**: Anger om e-post om aktiva ärenden ska skickas till användarna. Om du väljer **Ärendehandläggare kan välja** kan användarna aktivera eller inaktivera e-postavisering från ![ikon][img1] **Personliga inställningar** &gt; **Inställningar** &gt; **Avisering via e-post och SMS**.
+* **Skicka e-post om aktiva ärenden**: Anger om e-post om aktiva ärenden ska skickas till användarna. Om du väljer **Ärendehandläggare kan välja** kan användarna aktivera eller inaktivera e-postavisering från ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Avisering via e-post och SMS**.
 
 * **Ny status vid övertagande av ärende**: Välj vilken status som ska användas när ett ärende övertas av en användare.
 

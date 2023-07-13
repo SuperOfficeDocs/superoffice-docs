@@ -46,7 +46,7 @@ Bij het[verzenden van de offerte][3], kunt u ervoor kiezen om uitsluitend het al
 
 ## Alternatieven verwijderen
 
-U kunt een alternatief verwijderen door het ![pictogram][img1] **Taak** &gt; **Verwijderen\[alternative\]** te selecteren onder aan het tabblad.
+U kunt een alternatief verwijderen door het ![pictogram][img1] **Taak** > **Verwijderen\[alternative\]** te selecteren onder aan het tabblad.
 
 <!-- Referenced links -->
 [1]: create.md

@@ -15,7 +15,7 @@ language: sv
 
 I fönstret Inställningar kan du välja inställningar för hela systemet (globalt), en databas, en användargrupp eller en enskild användare. Inställningar som bara kan göras globalt (på systemnivå) finns på fliken **[Globala inställningar][1]**.
 
-Under **Personliga inställningar** &gt; **Inställningar** i det övre fältet kan användarna ändra de [individuella inställningarna][4] efter egna önskemål. Vilka inställningar som är tillgängliga för användarna beror på valen under Inställningar och underhåll.
+Under **Personliga inställningar** > **Inställningar** i det övre fältet kan användarna ändra de [individuella inställningarna][4] efter egna önskemål. Vilka inställningar som är tillgängliga för användarna beror på valen under Inställningar och underhåll.
 
 Du kan också konfigurera videomöten på fliken [Videomöten][8] och dokumentbiblioteket på fliken [Dokumentbibliotek][9].
 

@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-1. Selecteer **Nieuw** &gt; **e-mail**.
+1. Selecteer **Nieuw** > **e-mail**.
 
 2. Klik in het dialoogvenster **E-mail** in het veld **Aan** en typ de naam van de persoon naar wie u het bericht wilt verzenden.
 

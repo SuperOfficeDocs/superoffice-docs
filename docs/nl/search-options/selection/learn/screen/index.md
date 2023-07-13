@@ -56,7 +56,7 @@ Gebruik de knop **Taak** om tegelijkertijd verschillende taken uit te voeren voo
 * **Alles weergeven**. Gebruikt om alle selectieleden weer te geven.
 
     > [!NOTE]
-    > Standaard geeft de lijst alleen de eerste 100 records in de selectie weer. Om deze waarde te wijzigen, gaat u naar ![pictogram][img4] **Persoonlijke instellingen** &gt; **Voorkeuren** &gt; **Functies** &gt; **Paginagrootte archief**.
+    > Standaard geeft de lijst alleen de eerste 100 records in de selectie weer. Om deze waarde te wijzigen, gaat u naar ![pictogram][img4] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** > **Paginagrootte archief**.
 
 * ![pictogram][img5]: Ververst de gegevens in de lijst.
 

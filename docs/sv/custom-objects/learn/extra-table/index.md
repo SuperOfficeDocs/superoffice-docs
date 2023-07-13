@@ -19,7 +19,7 @@ Skärmen **Tabeller** visar de tabeller som finns konfigurerade i systemet. Du k
 
 ## Fönstret Tabeller
 
-I fönstret **Tabeller** finns en lista över databastabellerna i SuperOffice. Datastrukturerna konfigureras under ![ikon][img1] **Systemdesign** &gt; **Tabeller**, där du kan visa och redigera datainnehållet i [tabellerna][1].
+I fönstret **Tabeller** finns en lista över databastabellerna i SuperOffice. Datastrukturerna konfigureras under ![ikon][img1] **Systemdesign** > **Tabeller**, där du kan visa och redigera datainnehållet i [tabellerna][1].
 
 I det här fönstret visas både standardtabeller (som är fördefinierade i systemet och utgör grunden för olika fönster) och extratabeller (som du skapar själv med valfritt innehåll).
 

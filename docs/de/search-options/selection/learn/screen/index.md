@@ -56,7 +56,7 @@ Verwenden Sie die Schaltfläche **Aufgabe**, um verschiedene Aufgaben für alle 
 * **Alle anzeigen**. Wird verwendet, um alle Selektionsmitglieder anzuzeigen.
 
     > [!NOTE]
-    > Standardmäßig zeigt die Liste nur die ersten 100 Datensätze in der Selektion. Gehen Sie zu ![Symbol][img4] **Persönliche Einstellungen** &gt; **Einstellungen** &gt; **Funktionen** &gt; **Größe der Archivseite**, um diesen Wert zu ändern.
+    > Standardmäßig zeigt die Liste nur die ersten 100 Datensätze in der Selektion. Gehen Sie zu ![Symbol][img4] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** > **Größe der Archivseite**, um diesen Wert zu ändern.
 
 * ![Symbol][img5]: Aktualisiert die Daten in der Liste.
 

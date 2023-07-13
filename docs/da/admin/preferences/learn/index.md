@@ -15,7 +15,7 @@ language: da
 
 På skærmbilledet Præferencer kan du angive præferencer for hele systemet (globalt), én database, én brugergruppe eller en individuel bruger. Præferencer, der kun kan angives på globalt (system)niveau, findes under fanen **[Globale præferencer][1]**.
 
-Brugerne kan redigere indstillingerne for [individuelle præferencer][4] for at tilpasse dem til egen brug ved at gå til **Personlige indstillinger** &gt; **Præferencer** i toplinjen. Hvilke præferencer der vises for brugeren, afhænger af, hvad der er angivet i Indstillinger og vedligeholdelse.
+Brugerne kan redigere indstillingerne for [individuelle præferencer][4] for at tilpasse dem til egen brug ved at gå til **Personlige indstillinger** > **Præferencer** i toplinjen. Hvilke præferencer der vises for brugeren, afhænger af, hvad der er angivet i Indstillinger og vedligeholdelse.
 
 Derudover kan du konfigurere videomøder under fanen [Videomøder][8] og dokumentbiblioteket under fanen [Dokumentbibliotek][9].
 

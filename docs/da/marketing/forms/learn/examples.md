@@ -145,10 +145,10 @@ I dette eksempel viser vi, hvordan du opretter en kort formular til kunder, der 
 1. Klik på **Felter** i kategorien, klik på ![ikon][img1], og tilføj følgende felter:
 
     * For-og efternavn. Fjern feltet **Person - navn**.
-    * **Få vist elementer** &gt; **Tekstblok**: Indtast teksten i “Sådan kan vi kontakte dig?” med fed skrift.
+    * **Få vist elementer** > **Tekstblok**: Indtast teksten i “Sådan kan vi kontakte dig?” med fed skrift.
     * **Person - Mobil**: Indtast et eksempel på et korrekt formateret telefonnummer for dit land (medtage landekoden) i feltet **Pladsholder** (eksempel +45 20131188).
     * **Person - E-mail**
-    * **Formularelementer** &gt; **Tekstområde**: Ændr navnet på feltet til "Kommenter (valgfrit)", og skriv "Hvad kan vi hjælpe med i dag?” i feltet **Pladsholder**.
+    * **Formularelementer** > **Tekstområde**: Ændr navnet på feltet til "Kommenter (valgfrit)", og skriv "Hvad kan vi hjælpe med i dag?” i feltet **Pladsholder**.
 
 1. Vælg feltet**OK**, og ændr navnet til “Send” og rediger skrifttypen/baggrundsfarven og placeringen.
 

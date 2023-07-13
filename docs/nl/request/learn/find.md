@@ -45,7 +45,7 @@ De eenvoudigste manier om naar verzoeken te zoeken, is door het zoekveld te gebr
 
 ### Alleen eigen categorieën tonen
 
-1. Kies het ![pictogram][img2] **Persoonlijke instellingen** &gt; **Voorkeuren**.
+1. Kies het ![pictogram][img2] **Persoonlijke instellingen** > **Voorkeuren**.
 1. Selecteer het tabblad **Verzoekgroep**.
 1. Zet **Alleen eigen categorieën weergeven** op Ja.
 1. Klik op **Opslaan**.

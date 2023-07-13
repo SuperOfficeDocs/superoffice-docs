@@ -147,7 +147,7 @@ När du importerar personer måste du också ange rättslig grund och samtyckesk
 Importkällan kan exempelvis innehålla branscher som inte är registrerade i SuperOffice. Då måste du välja hur nya kategorier, branscher, befattningar och anpassade listvärden och intressen ska hanteras. I listrutorna under **Listor** har du följande val:
 
 * **Lägg till nytt objekt i listan**: Nya värden läggs till i SuperOffice.
-* **Ignorera – använd standardvärde**: Nya värden importeras inte och standardvärdet för kategori eller bransch används. Du anger standardvärdet under **Inställningar** &gt; **Standardvärden**.
+* **Ignorera – använd standardvärde**: Nya värden importeras inte och standardvärdet för kategori eller bransch används. Du anger standardvärdet under **Inställningar** > **Standardvärden**.
 
     > [!NOTE]
     > **Position** har inget standardvärde.

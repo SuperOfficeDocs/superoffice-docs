@@ -24,7 +24,7 @@ Du kan også få adgang til disse indstillinger fra hovedmenuikonet ![ikon][img1
 ## Deaktiver dubletkontrol
 
 1. Gå til Indstillinger og vedligeholdelse.
-1. Vælg **Præferencer** &gt; **Funktioner**.
+1. Vælg **Præferencer** > **Funktioner**.
 
 <!-- Referenced links -->
 

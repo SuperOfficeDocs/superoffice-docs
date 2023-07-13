@@ -147,7 +147,7 @@ Wanneer u personen importeert, moet u ook de rechtsgrondslag en de toestemmingsb
 De importbron kan bijvoorbeeld branches bevatten die niet bestaan in SuperOffice. Vervolgens moet u kiezen hoe nieuwe categorieën, branches, posities, aangepaste lijstwaarden en interesses beheerd moeten worden. In de keuzelijsten onder **Lijsten** vindt u de volgende opties:
 
 * **Nieuw item aan lijst toevoegen**: Nieuwe waarden worden toegevoegd aan SuperOffice.
-* **Negeren, standaardwaarde gebruiken**: Nieuwe waarden worden niet geïmporteerd, en de standaardwaarden voor categorie of branche worden gebruikt. U specificeert de standaardwaarde onder **Voorkeuren** &gt; **Standaardwaarden**.
+* **Negeren, standaardwaarde gebruiken**: Nieuwe waarden worden niet geïmporteerd, en de standaardwaarden voor categorie of branche worden gebruikt. U specificeert de standaardwaarde onder **Voorkeuren** > **Standaardwaarden**.
 
     > [!NOTE]
     > **Positie** heeft geen standaardwaarde.

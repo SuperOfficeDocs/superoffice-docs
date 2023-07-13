@@ -126,7 +126,7 @@ Sie können weitere Registerkarten für zusätzliche Felder hinzufügen oder nic
 
 **So entfernen Sie eine Registerkarte:**
 
-1. Wählen Sie die Registerkarte aus und klicken Sie auf **Aufgabe** &gt; **Registerkarte entfernen**.
+1. Wählen Sie die Registerkarte aus und klicken Sie auf **Aufgabe** > **Registerkarte entfernen**.
 2. Klicken Sie im angezeigten Dialogfeld auf **OK**.
 
 **So fügen Sie eine neue Registerkarte hinzu:**

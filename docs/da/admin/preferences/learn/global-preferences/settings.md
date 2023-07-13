@@ -21,7 +21,7 @@ Gå til ![icon][img2] **Præferencer** i navigatoren, og vælg fanen **Globale p
 
 * **Standardskrifttypevægt**: Vægten (tykkelse) af standardskrifttypen i sagseditoren.
 
-* **Send e-mailbesked om aktive sager**: Angiver, om der udsendes e-mails om åbne sager til brugerne. Hvis du vælger **Bruger kan vælge**, kan brugerne aktivere eller deaktivere e-mailbesked fra ![icon][img1] **Personlige indstillinger** &gt; **Præferencer** &gt; **Notifikation via e-mail og SMS**.
+* **Send e-mailbesked om aktive sager**: Angiver, om der udsendes e-mails om åbne sager til brugerne. Hvis du vælger **Bruger kan vælge**, kan brugerne aktivere eller deaktivere e-mailbesked fra ![icon][img1] **Personlige indstillinger** > **Præferencer** > **Notifikation via e-mail og SMS**.
 
 * **Ny status ved accept af en sag**: Vælg, hvilken status der skal bruges, når en sag accepteres af en bruger.
 

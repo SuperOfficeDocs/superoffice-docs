@@ -24,7 +24,7 @@ Du kan också komma åt dessa inställningar från huvudmenyn ![ikon][img1].
 ## Inaktivera dubblettkontroll
 
 1. Gå till Inställningar och underhåll.
-1. Välj **Inställningar** &gt; **Funktioner**.
+1. Välj **Inställningar** > **Funktioner**.
 
 <!-- Referenced links -->
 

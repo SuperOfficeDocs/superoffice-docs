@@ -27,9 +27,9 @@ Optionen im Bereich **Archivoptionen** des Dialogfeldes **SuperOffice CRM-Option
 
 ## Senden als E-Mail
 
-* Sie können einen Termin als E-Mail senden, indem Sie **Aufgabe** &gt; **Senden als E-Mail** im Dialogfeld **Termin** anklicken. Es öffnet sich dann ein neues E-Mail-Fenster mit dem Termin in Ihrem E-Mail-Client.
+* Sie können einen Termin als E-Mail senden, indem Sie **Aufgabe** > **Senden als E-Mail** im Dialogfeld **Termin** anklicken. Es öffnet sich dann ein neues E-Mail-Fenster mit dem Termin in Ihrem E-Mail-Client.
 
-* Sie können ein Dokument als E-Mail senden, indem Sie mit der rechten Maustaste die Registerkarte **Aktivitäten** in SuperOffice CRM anklicken und **Senden als E-Mail** auswählen oder in der Anzeige Dokument **Aufgabe** &gt; **Senden als E-Mail** anklicken. Es öffnet sich dann ein neues E-Mail-Fenster mit dem Dokument in Ihrem E-Mail-Client.
+* Sie können ein Dokument als E-Mail senden, indem Sie mit der rechten Maustaste die Registerkarte **Aktivitäten** in SuperOffice CRM anklicken und **Senden als E-Mail** auswählen oder in der Anzeige Dokument **Aufgabe** > **Senden als E-Mail** anklicken. Es öffnet sich dann ein neues E-Mail-Fenster mit dem Dokument in Ihrem E-Mail-Client.
 
 <!-- Referenced links -->
 [2]: ../index.md

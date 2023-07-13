@@ -31,7 +31,7 @@ Hvis en sag skal være dit ansvar, skal dit navn fremgå i sagens **Ejer**-felt.
 En sagsbehander med kategoriadministrationsrettigheder kan angive fordelingsmetode for kategorier:
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Vælg **Sager** &gt; **Kategorier**.
+1. Vælg **Sager** > **Kategorier**.
 1. Vælg den ønskede kategori.
 1. Vælg fanen **Fordelingsmetode**.
 1. Vælg de relevante indstillinger.

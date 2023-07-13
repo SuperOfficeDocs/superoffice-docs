@@ -18,13 +18,13 @@ Algemene profielen zijn gekoppeld aan een [rol][2] en gelden van toepassing voor
 ## Profieltypen
 
 * **Systeem**: deze profielen kunt u configureren door de onderstaande procedure te volgen.
-* **Systeemschermen**: Een lijst met schermen die zijn gemaakt via de module [Systeemontwerp][1] in SuperOffice Service. U kunt deze veranderen als u toegang hebt tot **Systeemontwerp** &gt; **Schermen**.
+* **Systeemschermen**: Een lijst met schermen die zijn gemaakt via de module [Systeemontwerp][1] in SuperOffice Service. U kunt deze veranderen als u toegang hebt tot **Systeemontwerp** > **Schermen**.
 
 ## <a id="create" />Algemene profielen maken
 
 In de volgende stappen ziet u bijvoorbeeld hoe u een veld toevoegt in het scherm **Verzoeken zoeken**.
 
-1. Selecteer ![het pictogram][img1] **Systeeminstellingen** &gt; **Profiel**. Het scherm **Profielen weergeven** wordt geopend.
+1. Selecteer ![het pictogram][img1] **Systeeminstellingen** > **Profiel**. Het scherm **Profielen weergeven** wordt geopend.
 2. Klik op **Systeem**. Er wordt een hiërarchische lijst met alle profielen in het systeem weergegeven.
 3. Klik op **Zoek**.
 4. Plaats de cursor op **Verzoeken zoeken** en klik op ![pictogram][img2] (**Nieuw algemeen profiel**) rechts van de naam. Het scherm **Elementprofiel bewerken** wordt geopend.
@@ -38,7 +38,7 @@ In de volgende stappen ziet u bijvoorbeeld hoe u een veld toevoegt in het scherm
 
 ## Informatie in een gemeenschappelijk profiel bewerken
 
-1. Selecteer ![het pictogram][img1] **Systeeminstellingen** &gt; **Profiel**. Het scherm **Profielen weergeven** wordt geopend.
+1. Selecteer ![het pictogram][img1] **Systeeminstellingen** > **Profiel**. Het scherm **Profielen weergeven** wordt geopend.
 2. Klik op **Systeem**. Er wordt een hiërarchische lijst met alle profielen in het systeem weergegeven.
 3. Ga naar een gedetailleerder niveau in de hiërarchie totdat u het gewenste profiel hebt gevonden.
 4. Klik op de profielnaam. Het scherm **Elementprofiel bewerken** wordt geopend.
@@ -47,7 +47,7 @@ In de volgende stappen ziet u bijvoorbeeld hoe u een veld toevoegt in het scherm
 
 ## Eem gemeenschappelijk profiel verwijderen
 
-1. Selecteer ![het pictogram][img1] **Systeeminstellingen** &gt; **Profiel**. Het scherm **Profielen weergeven** wordt geopend.
+1. Selecteer ![het pictogram][img1] **Systeeminstellingen** > **Profiel**. Het scherm **Profielen weergeven** wordt geopend.
 2. Klik op **Systeem**. Er wordt een hiërarchische lijst met alle profielen in het systeem weergegeven.
 3. Ga naar een gedetailleerder niveau in de hiërarchie totdat u het gewenste profiel hebt gevonden.
 4. Klik op de profielnaam. Het scherm **Elementprofiel bewerken** wordt geopend.

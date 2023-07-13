@@ -14,7 +14,7 @@ language: nl
 Om vervolgactiviteiten te maken in SuperOffice CRM, klikt u op de knop **Nieuw** op de bovenste balk.
 
 > [!TIP]
-> u kunt ook vervolgactiviteiten toevoegen door te dubbelklikken op een lege regel op het sectietabblad **Activiteiten**. Het dialoogvenster **Afspraak** wordt standaard geopend. Als u wilt opgeven welk dialoogvenster moet worden geopend, selecteert u ![pictogram][img1] **Persoonlijke instellingen** &gt; **Voorkeuren** &gt; **Functies** &gt; **Type vanuit sectietabblad Activiteiten**.
+> u kunt ook vervolgactiviteiten toevoegen door te dubbelklikken op een lege regel op het sectietabblad **Activiteiten**. Het dialoogvenster **Afspraak** wordt standaard geopend. Als u wilt opgeven welk dialoogvenster moet worden geopend, selecteert u ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** > **Type vanuit sectietabblad Activiteiten**.
 
 ## Vervolgactiviteiten maken in de activiteitenlijst
 
@@ -42,7 +42,7 @@ Wanneer u de agenda van een medewerker opent, kunt u zelf afspraken voor deze pe
 4. Het dialoogvenster **Afspraak** wordt geopend. [Kies de gewenste deelnemers][5] als deze niet automatisch worden opgenomen.
 
     > [!NOTE]
-    > Als u **Deelnemers in groepsweergave** hebt geselecteerd onder **Voorkeuren**, worden alle leden van de weergave automatisch toegevoegd als deelnemers aan de afspraak. Als u deze voorkeur wilt veranderen, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** &gt; **Voorkeuren** &gt; **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
+    > Als u **Deelnemers in groepsweergave** hebt geselecteerd onder **Voorkeuren**, worden alle leden van de weergave automatisch toegevoegd als deelnemers aan de afspraak. Als u deze voorkeur wilt veranderen, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
 
 5. [Geef de juiste gegevens op in de velden.][6]
 

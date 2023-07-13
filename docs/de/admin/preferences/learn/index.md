@@ -15,7 +15,7 @@ language: de
 
 In der Ansicht Einstellungen können Sie Einstellungen für das gesamte System (global), eine Datenbank, eine Benutzergruppe oder einen einzelnen Benutzer festlegen. Einstellungen, die nur auf globaler (System) Ebene vorgenommen werden können, befinden sich in der Registerkarte **[Globale Einstellungen][1]**.
 
-Im Menü [Individuelle Einstellungen][4] in der oberen Leiste in **Persönliche Einstellungen** &gt; **Einstellungen** können Benutzer die Optionen für die einzelnen Einstellungen bearbeitet werden. Die für den Benutzer verfügbaren Einstellungen hängen von den Einstellungen in Einstellungen und Verwaltung ab.
+Im Menü [Individuelle Einstellungen][4] in der oberen Leiste in **Persönliche Einstellungen** > **Einstellungen** können Benutzer die Optionen für die einzelnen Einstellungen bearbeitet werden. Die für den Benutzer verfügbaren Einstellungen hängen von den Einstellungen in Einstellungen und Verwaltung ab.
 
 Zudem können Sie Videokonferenzen auf der Registerkarte [Videokonferenzen][8] und die Dokumentbibliothek auf der Registerkarte [Dokumentbibliothek][9] konfigurieren.
 

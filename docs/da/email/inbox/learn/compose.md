@@ -12,7 +12,7 @@ language: da
 # Sammensæt en e-mail
 
 > [!TIP]
-> Fremgangsmåden nedenfor beskriver, hvordan du opretter en e-mail fra indbakken. Du kan også oprette en e-mail ved at klikke på **Ny** &gt; **E-mail** på toplinjen.
+> Fremgangsmåden nedenfor beskriver, hvordan du opretter en e-mail fra indbakken. Du kan også oprette en e-mail ved at klikke på **Ny** > **E-mail** på toplinjen.
 
 ## Opret e-mail fra SuperOffice-indbakken
 
@@ -44,7 +44,7 @@ Når du har fuldført meddelelsen og vil sende den, har du følgende alternative
 > [!TIP]
 > Hvis du ikke arkiverer meddelelsen, når du sender den, kan du stadig [gå til mappen Sendt og arkivere meddelelsen][2].
 >
-> Du kan redigere signaturskabelonen nederst i meddelelsen i ![ikon][img1] **Personlige indstillinger** &gt; **Rediger personlige e-mailsignatur**.
+> Du kan redigere signaturskabelonen nederst i meddelelsen i ![ikon][img1] **Personlige indstillinger** > **Rediger personlige e-mailsignatur**.
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md

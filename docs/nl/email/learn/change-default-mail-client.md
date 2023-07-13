@@ -12,7 +12,7 @@ so.topic: howto
 # Standaard-e-mailclient wijzigen in SuperOffice
 
 1. Open SuperOffice CRM.
-2. Kies ![pictogram][img1] **Persoonlijke instellingen** &gt; **Voorkeuren**.
+2. Kies ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren**.
 3. Selecteer **E-mail**.
 4. Selecteer in het veld **E-mailclient** de gewenste e-mailclient .
 5. Klik op **Opslaan**.

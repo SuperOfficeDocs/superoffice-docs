@@ -2,6 +2,6 @@ items:
 - name: Översikt
   href: index.md
 - name: Fönstret Licenser
-  href: screen\index.md
+  href: screen/index.md
 - name: Aktivera licens
   href: activate.md

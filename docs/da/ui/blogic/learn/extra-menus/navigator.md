@@ -17,7 +17,7 @@ language: da
 
 For at illustrere denne funktion vil vi tilføje en ny navigatorgruppe i navigatoren til venstre i SuperOffice. Vi vil tilføje en ekstramenu i den nye navigatorgruppe. I vores eksempel vil vi tilføje navigatorgruppe "Websteder" med nogle nyttige websteder.
 
-1. Vælg ![ikon][img2] **Systemindstillinger** &gt; **Systemdesign** &gt; **Ekstramenuer**.
+1. Vælg ![ikon][img2] **Systemindstillinger** > **Systemdesign** > **Ekstramenuer**.
 
 2. Hold musemarkøren over mappen **Navigator**, og klik på ![ikon][img1].
 

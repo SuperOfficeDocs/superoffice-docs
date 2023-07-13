@@ -13,7 +13,7 @@ so.envir: onsite
 # Gendannelse af fritekstindeks (onsite)
 
 > [!NOTE]
-> Denne fane er kun tilgængelig, hvis din SuperOffice-installation er på stedet. Hvis du bruger onlineløsningen, kan du ikke foretage ændringer i disse indstillinger. For SuperOffice Online regenereres fritekstindekset som standard hver 7\. dag.
+> Denne fane er kun tilgængelig, hvis din SuperOffice-installation er på stedet. Hvis du bruger onlineløsningen, kan du ikke foretage ændringer i disse indstillinger. For SuperOffice Online regenereres fritekstindekset som standard hver 7. dag.
 
 Når du [tilføjer eller sletter nye stopord][1], har dine ændringer ikke tilbagevirkende kraft. Det betyder, at hvis du indtaster *and* som stopord og allerede har mange forekomster af *og* i databasen, fjernes de ikke automatisk fra fritekstindekset. Ændringen gælder kun for eventuelle forekomster af *and*, som du tilføjer fra da af. I nogle tilfælde kan det være hensigtsmæssigt at opdatere fritekstindekset, så alle stopord fjernes fra det.
 

@@ -45,8 +45,8 @@ Om een kruistabelrapport (.Dcube bestand) te bekijken, moet u de **Kruistabelvie
 
 1. Nadat u klaar bent met het bewerken van de inhoud van de kruistabel, kunt u een van de volgende opties selecteren:
 
-    * Selecteer **Bestand** &gt; **Afdrukvoorbeeld** om een voorbeeld van het rapport te bekijken.
-    * Selecteer **Bestand** &gt; **Afdrukken** om het rapport af te drukken.
+    * Selecteer **Bestand** > **Afdrukvoorbeeld** om een voorbeeld van het rapport te bekijken.
+    * Selecteer **Bestand** > **Afdrukken** om het rapport af te drukken.
     * Klik op **Exporteren** om het rapport op te slaan in Excel-indeling.
 
 1. Klik op **OK** om de kruistabelviewer te sluiten.

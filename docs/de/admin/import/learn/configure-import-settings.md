@@ -147,7 +147,7 @@ Beim Import von Personen müssen Sie zudem die Rechtsgrundlage und den Einwillig
 Die Importquelle kann unter Umständen beispielsweise Branchen enthalten, die in SuperOffice nicht registriert sind. In diesem Fall müssen Sie auswählen, wie neue Kategorien, Geschäfte, benutzerdefinierte Listenwerte und Interessen gehandhabt werden sollen. In den Listenfeldern unter **Listen** stehen folgende Optionen zur Verfügung:
 
 * **Neues Objekte zu Liste hinzufügen**: In SuperOffice werden neue Werte hinzugefügt.
-* **Ignorieren – Standard verwenden**: Es werden keine neuen Werte importiert, sondern der Standardwert für Kategorie oder Geschäft verwendet. Sie legen den Standardwert unter **Einstellungen** &gt; **Standardwerte** fest.
+* **Ignorieren – Standard verwenden**: Es werden keine neuen Werte importiert, sondern der Standardwert für Kategorie oder Geschäft verwendet. Sie legen den Standardwert unter **Einstellungen** > **Standardwerte** fest.
 
     > [!NOTE]
     > **Position** hat keinen Standardwert.

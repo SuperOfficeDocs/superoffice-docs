@@ -16,7 +16,7 @@ language: sv
 På flikarna i fönstret Försäljning i SuperOffice CRM anger du försäljningsbelopp, kostnader och bruttovinst för försäljningen. Vilken valuta beloppen anges i beror på vad du har angett under [inställningarna][2], där du väljer din egen valuta och en basvaluta från en lista som definieras i fönstret Listor.
 
 > [!NOTE]
-> Om du vill aktivera användning av valuta går du till **Inställningar** &gt; **Aktivera användning av valuta**.
+> Om du vill aktivera användning av valuta går du till **Inställningar** > **Aktivera användning av valuta**.
 
 ## Vad vill du göra nu?
 

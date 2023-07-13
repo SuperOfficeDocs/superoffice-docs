@@ -13,7 +13,7 @@ language: sv
 
 # Redigera FAQ-poster
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **FAQ**.
+1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
 1. Gå till den mapp som FAQ-posten ligger i.
 1. Klicka på önskad FAQ-post.
 1. På skärmen **FAQ** klickar du på **Redigera post**.

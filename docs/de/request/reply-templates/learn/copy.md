@@ -15,7 +15,7 @@ language: de
 
 Um eine neue Antwortvorlage anhand einer vorhandenen Antwortvorlage zu erstellen, können Sie diese kopieren.
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Antwortvorlagen** aus.
+1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Antwortvorlagen** aus.
 1. Wechseln Sie zu dem Ordner, in dem die Antwortvorlage gespeichert ist.
 1. Klicken Sie auf die Antwortvorlage. Sie gelangen zur Ansicht **Antwortvorlagen anzeigen**.
 1. Klicken Sie auf die Schaltfläche **Kopieren**. Eine Kopie der Antwortvorlage wird im Bearbeitungsmodus geöffnet.

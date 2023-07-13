@@ -16,7 +16,7 @@ language: sv
 Genom att skapa FAQ-poster kan ditt företag bygga upp en omfattande samling frågor och svar som både kunder och medarbetare kan använda för att hitta användbar information. FAQ-poster kan skapas på två sätt:
 
 * En användare kan skapa en FAQ-post baserat på kommunikation med en kund i ärendefönstret.
-* En administratör kan skapa en FAQ-post direkt i **Kunskapsbas** &gt; **FAQ**.
+* En administratör kan skapa en FAQ-post direkt i **Kunskapsbas** > **FAQ**.
 
 Titta på den här filmen eller följ anvisningarna nedan om du vill skapa och publicera FAQ-artiklar i kundcentret (filmens längd: 3:01):
 
@@ -94,7 +94,7 @@ Om du svarar på en förfrågan och tänker att samma fråga antagligen kommer a
 
 ## Skapa ny FAQ
 
-1. Gå till ![ikonen][img4] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **Vanliga frågor**.
+1. Gå till ![ikonen][img4] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **Vanliga frågor**.
 
 1. Gå till mappen som du vill lägga in FAQ-posten i. Om den inte finns än kan du [skapa en ny mapp][2].
 

@@ -25,7 +25,7 @@ WebTools består av ett e-postplugin och ett dokumentplugin:
 
 Du kommer automatiskt att bli ombedd att uppgradera eller installera SuperOffice Web Tools när du loggar in på SuperOffice CRM via din webbläsare för första gången på din dator.
 
-Om detta välkomstfönster inte visas, eller om du vill ladda ned det på nytt, kan du starta guiden för nedladdning av SuperOffice Web Tools manuellt ( ![ikon][img1]) **Huvudmeny** &gt; **Hämta** &gt; **SuperOffice WebTools**.
+Om detta välkomstfönster inte visas, eller om du vill ladda ned det på nytt, kan du starta guiden för nedladdning av SuperOffice Web Tools manuellt ( ![ikon][img1]) **Huvudmeny** > **Hämta** > **SuperOffice WebTools**.
 
 **Uppgifter:**
 

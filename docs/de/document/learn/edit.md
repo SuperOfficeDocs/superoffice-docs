@@ -58,7 +58,7 @@ Verwenden Sie die Ansicht Dokument, um die Dokumenteigenschaften zu ändern, wie
 2. Klicken Sie im Dialogfeld **Dokument** auf **Öffnen**.
 3. Klicken Sie auf **Bearbeiten**, wenn ein Dialogfeld geöffnet wird.
 4. Wählen Sie eine der folgenden Optionen im Dialogfeld Datei herunterladen aus:
-    * **Öffnen**: Wenn Sie auf die Option zum Öffnen klicken, wird das Dokument im Textbearbeitungsprogramm geöffnet. Geben Sie den Inhalt des Dokuments ein und wählen Sie **Datei** &gt; **Speichern unter**, um die Datei am gewünschten Ort auf Ihrem PC zu speichern.
+    * **Öffnen**: Wenn Sie auf die Option zum Öffnen klicken, wird das Dokument im Textbearbeitungsprogramm geöffnet. Geben Sie den Inhalt des Dokuments ein und wählen Sie **Datei** > **Speichern unter**, um die Datei am gewünschten Ort auf Ihrem PC zu speichern.
     * **Speichern**: Wenn Sie auf die Option zum Speichern klicken, wird das Dialogfeld **Speichern unter** angezeigt. Geben Sie an, wo auf dem PC die Datei gespeichert werden soll, und speichern Sie sie. Öffnen Sie anschließend das Dokument, geben Sie den erforderlichen Text ein und speichern Sie das Dokument.
 5. Schließen Sie das Textbearbeitungsprogramm.
 6. Wechseln Sie zum Dialogfeld **Dokument**.

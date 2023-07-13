@@ -13,9 +13,9 @@ language: nl
 
 # E-mailadres maken
 
-Wanneer u e-mailadressen registreert via **Kennisdatabase** &gt; **E-mailadressen**, zijn deze beschikbaar in functies waar u e-mailberichten verzendt, zoals in de schermen **Nieuwe verzoek** en **Bericht toevoegen**. Op die manier kunnen verzoeken sneller worden verwerkt.
+Wanneer u e-mailadressen registreert via **Kennisdatabase** > **E-mailadressen**, zijn deze beschikbaar in functies waar u e-mailberichten verzendt, zoals in de schermen **Nieuwe verzoek** en **Bericht toevoegen**. Op die manier kunnen verzoeken sneller worden verwerkt.
 
-1. Ga naar ![pictogram][img2] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **E-mailadressen**.
+1. Ga naar ![pictogram][img2] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **E-mailadressen**.
 
 1. Ga naar de map waar u het e-mailadres wilt opslaan. Als deze nog niet bestaat, kunt u [een nieuwe map maken][1].
 

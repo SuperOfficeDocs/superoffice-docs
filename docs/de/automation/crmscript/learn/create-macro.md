@@ -32,7 +32,7 @@ Wir werden jetzt ein Makro basierend auf dem Beispiel oben erstellen.
 
 1. Aktivieren Sie die Option **Neues Menü**, damit das Makro über die Schaltfläche **Aufgabe** in der Ansicht Firma, Person oder Anfrage oder auf der Registerkarte **Mitteilung** zur Verfügung steht.
 
-1. Gehen Sie zur Registerkarte **Aktionen** und wählen Sie **Aktionstyp ändern** &gt; **Anfrage ändern** aus.
+1. Gehen Sie zur Registerkarte **Aktionen** und wählen Sie **Aktionstyp ändern** > **Anfrage ändern** aus.
 
 1. Aktivieren Sie **Kategorie** und wählen Sie eine Kategorie in der Liste (z. B. *Buchhaltung*).
 

@@ -44,10 +44,10 @@ Wir werden jetzt eine Reihe von Aktionen basierend auf dem Beispiel oben erstell
 1. Klicken Sie auf **Neue Aktion**, und wählen Sie **E-Mail oder SMS** senden aus. Wir passen nun die E-Mail an, die an den Kunden gesendet wird.
 1. Aktivieren Sie **Betreff**.
 1. Klicken Sie auf das ![Symbol][img1] für den Symbolparameter auf der rechten Seite, und klicken Sie dann auf das Feld **Parameter auswählen**.
-1. Wählen Sie **Anfrage ändern** &gt; **Titel**. Dadurch wird der Anforderungstitel in den Betreff der E-Mail eingefügt.
-1. Markieren Sie das Kontrollkästchen **Von** und wählen Sie **Anfrage ändern** &gt; **Eigentümer**.
-1. Markieren Sie das Kontrollkästchen **An** und wählen Sie **Anfrage ändern** &gt; **Person: E-Mail-Adresse**.
-1. Markieren Sie das Kontrollkästchen **HTML-Nachricht** und wählen Sie **Antwort-Vorlage für Zusammenführung laden** &gt; **HTML-Text**.
+1. Wählen Sie **Anfrage ändern** > **Titel**. Dadurch wird der Anforderungstitel in den Betreff der E-Mail eingefügt.
+1. Markieren Sie das Kontrollkästchen **Von** und wählen Sie **Anfrage ändern** > **Eigentümer**.
+1. Markieren Sie das Kontrollkästchen **An** und wählen Sie **Anfrage ändern** > **Person: E-Mail-Adresse**.
+1. Markieren Sie das Kontrollkästchen **HTML-Nachricht** und wählen Sie **Antwort-Vorlage für Zusammenführung laden** > **HTML-Text**.
 1. Klicken Sie auf **Übernehmen**.
 
 Sie haben nun ein Makro erstellt, das eine E-Mail mit "Anfrage geschlossen" an den Kunden sendet, wenn eine Anfrage geschlossen wird. Dieser Auslöser ist sofort aktiv, wenn Sie oben die Option **Aktiviert** aktiviert haben.

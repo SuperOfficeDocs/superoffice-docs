@@ -45,7 +45,7 @@ Det enklaste sättet att söka efter ärenden är att använda sökfältet som f
 
 ### Visa bara egna kategorier
 
-1. Välj ![ikon][img2] **Personliga inställningar** &gt; **Inställningar**.
+1. Välj ![ikon][img2] **Personliga inställningar** > **Inställningar**.
 1. Välj gruppen **Ärende**.
 1. Ställ in **Visa bara egna kategorier** på ja.
 1. Klicka på **Spara**.

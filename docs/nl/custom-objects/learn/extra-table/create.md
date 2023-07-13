@@ -13,7 +13,7 @@ language: nl
 
 # Extra tabellen toevoegen
 
-U kunt extra tabellen maken in SuperOffice om verschillende soorten gegevens te registreren. Nadat u de tabel hebt gemaakt en er [extra velden][1] in hebt gemaakt, kunt u de tabel openen om er inhoud aan toe te voegen door naar **Systeemontwerp** &gt; **Tabellen** te gaan, de tabel aan te wijzen en op de knop ![pictogram][img1] te klikken.
+U kunt extra tabellen maken in SuperOffice om verschillende soorten gegevens te registreren. Nadat u de tabel hebt gemaakt en er [extra velden][1] in hebt gemaakt, kunt u de tabel openen om er inhoud aan toe te voegen door naar **Systeemontwerp** > **Tabellen** te gaan, de tabel aan te wijzen en op de knop ![pictogram][img1] te klikken.
 
 > [!NOTE]
 > In SuperOffice CRM kunt u webvensters maken die tabelinformatie bevatten. Als u de relevante toegangsrechten wilt instellen, moet de gebruiker deel uitmaken van een rol met de functionele rechten**Tabellen weergeven** en **Tabellen bewerken**.
@@ -46,7 +46,7 @@ U kunt extra tabellen maken in SuperOffice om verschillende soorten gegevens te 
 | Bovenliggend veld | dit veld wordt gebruikt in samenhang met hiërarchische tabellen. |
 | Volledige naam |  Wanneer dit een hiërarchische tabel betreft, kunt u in dit veld een veld opgeven dat automatisch wordt bijgewerkt met de volledige naam van het item, op basis van het naamveld voor dit item en alle bovenliggende items. |
 | Veld ID verbergen | Wanneer deze optie is ingeschakeld, wordt het veld ID niet weergegeven wanneer een gebruiker de items in de tabel bekijkt. |
-| De tabel verbergen | Als deze optie is ingeschakeld, is de tabel niet zichtbaar via ![pictogram][img3] **Systeemontwerp** &gt; **Tabellen**. |
+| De tabel verbergen | Als deze optie is ingeschakeld, is de tabel niet zichtbaar via ![pictogram][img3] **Systeemontwerp** > **Tabellen**. |
 
 ## Wat wilt u nu doen?
 

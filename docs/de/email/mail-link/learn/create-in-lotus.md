@@ -13,7 +13,7 @@ language: de
 
 Führen Sie die folgenden Schritte aus, um eine E-Mail von Lotus Notes zu erstellen:
 
-1. Klicken Sie oberhalb der Mitteilungsleiste auf **Neu** &gt; **Mitteilung**, um das Formular **Neue Mitteilung** zu öffnen.
+1. Klicken Sie oberhalb der Mitteilungsleiste auf **Neu** > **Mitteilung**, um das Formular **Neue Mitteilung** zu öffnen.
 
 2. Geben Sie im E-Mail-Fenster im Feld **An** die E-Mail-Adressen der Empfänger ein. Sie können auch das Dialogfeld **Empfänger auswählen** verwenden (siehe [Empfänger auswählen][1]).
 

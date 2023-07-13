@@ -19,7 +19,7 @@ Der er mange måder at oprette en aftale på. I alle tilfælde skal du angive [a
 
 Gør ét af følgende:
 
-* Vælg **Ny** &gt; **Aftale** på [toplinjen][3].
+* Vælg **Ny** > **Aftale** på [toplinjen][3].
 * Klik på ![ikonet][img1] knappen **Opgave** på personkortet, og vælg **Anmod om møde**.
 * Klik på knappen **Tilføj** i detaljekortet **Aktiviteter**.
 
@@ -40,7 +40,7 @@ Gør ét af følgende:
 * Klik på **Ny** i toplinjen, og vælg **Aftale**, **Telefonopkald** eller **Opgave**.
 
 > [!NOTE]
-> Hvis du opretter aftalen fra fanen [**Oversigt**][1], kan du vælge at få dialogboksen **Deltagere** automatisk udfyldt med medlemmerne i oversigten. Hvis du vil angive denne indstilling, kan du gå til ![ikon][img2] **Personlige indstillinger** &gt; **Præferencer** &gt; **Funktioner** og angive præferencen **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
+> Hvis du opretter aftalen fra fanen [**Oversigt**][1], kan du vælge at få dialogboksen **Deltagere** automatisk udfyldt med medlemmerne i oversigten. Hvis du vil angive denne indstilling, kan du gå til ![ikon][img2] **Personlige indstillinger** > **Præferencer** > **Funktioner** og angive præferencen **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
 
 ## Relateret indhold
 

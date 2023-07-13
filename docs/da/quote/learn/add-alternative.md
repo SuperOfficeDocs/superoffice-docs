@@ -46,7 +46,7 @@ Når [du sender tilbuddet][3], kan du vælge kun at medtage favoritalternativet.
 
 ## Slet alternativer
 
-Du kan slette et alternativ ved at vælge ![ikonet][img1] **Opgave** &gt; **Slet \[alternative\]** nederst på fanen.
+Du kan slette et alternativ ved at vælge ![ikonet][img1] **Opgave** > **Slet \[alternative\]** nederst på fanen.
 
 <!-- Referenced links -->
 [1]: create.md

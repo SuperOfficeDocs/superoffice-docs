@@ -30,7 +30,7 @@ Tilpasning af prislister hjælper dine sælgere med at bruge de korrekte prisopl
     * **Prislistenavn**: Giv prislisten et beskrivende navn for at gøre den lettere at skelne fra andre prislister.
 
     > [!NOTE]
-    > Du kan ikke ændre valutaen, når du har oprettet prislisten. Hvis du vil aktivere valuta, skal du gå til **Præferencer** &gt; **System** &gt; **Aktivér brug af valuta**.
+    > Du kan ikke ændre valutaen, når du har oprettet prislisten. Hvis du vil aktivere valuta, skal du gå til **Præferencer** > **System** > **Aktivér brug af valuta**.
 
     * **Beskrivelse**: Angiv en beskrivelse af prislisten.
 

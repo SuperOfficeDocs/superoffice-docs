@@ -15,7 +15,7 @@ U kunt de standaardpagina's in uw klantportaal bijwerken door de bronbestanden t
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
-1. Selecteer ![pictogram][img1] **Systeeminstellingen** &gt; **Klantportaal-bronbestanden**.
+1. Selecteer ![pictogram][img1] **Systeeminstellingen** > **Klantportaal-bronbestanden**.
 
 2. Klik op een webpagina in de lijst.
 

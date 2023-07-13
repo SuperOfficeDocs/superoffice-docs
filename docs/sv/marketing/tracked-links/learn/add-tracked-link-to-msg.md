@@ -32,8 +32,8 @@ Du kan också **lägga till speciallänkar** i ditt utskick. Det gör du genom a
 
 * Lägga till en befintlig spårad länk:
 
-  * Text: Klicka på ![ikon][img1] i verktygsfältet, välj **Speciallänkar** &gt; **Spårade länkar** och välj en länk.
-  * Bild: I sidopanelen (under **Åtgärd**), väljer du **Speciallänkar** &gt; **Spårade länkar** och väljer en länk.
+  * Text: Klicka på ![ikon][img1] i verktygsfältet, välj **Speciallänkar** > **Spårade länkar** och välj en länk.
+  * Bild: I sidopanelen (under **Åtgärd**), väljer du **Speciallänkar** > **Spårade länkar** och väljer en länk.
 
 * För att [skapa en ny spårad länk][5] klickar du på **Skapa ny spårad länk** längst ner i fönstret. Dialogrutan **Länkegenskaper** öppnas.
 

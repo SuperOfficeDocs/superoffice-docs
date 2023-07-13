@@ -17,7 +17,7 @@ language: nl
 
 Om deze functionaliteit te illustreren voegen we een nieuwe navigatorgroep toe in de navigator aan de linkerkant in SuperOffice. We voegen een extra menu toe in de nieuwe navigatorgroep. In ons voorbeeld voegen we de navigatorgroep 'Websites' toe met een aantal nuttige websites.
 
-1. Selecteer ![pictogram][img2] **Systeeminstellingen** &gt; **Systeemontwerp** &gt; **Extra menu's**.
+1. Selecteer ![pictogram][img2] **Systeeminstellingen** > **Systeemontwerp** > **Extra menu's**.
 
 2. Plaats de muisaanwijzer op de map **Navigator** en klik op ![pictogram][img1].
 

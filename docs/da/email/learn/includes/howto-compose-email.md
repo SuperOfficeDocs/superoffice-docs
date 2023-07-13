@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-1. Vælg **Ny** &gt; **E-mail**.
+1. Vælg **Ny** > **E-mail**.
 
 2. Gå til dialogboksen **E-mail**, klik i feltet **Til**, og begynd at skrive navnet på den person, du vil sende meddelelsen til.
 

@@ -26,7 +26,7 @@ Om kundcentret är flerspråkigt kan du välja alternativ (till exempel välkoms
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Välj ![ikon][img1] **Kundcenter** &gt; **Konfigurera**. Det finns 2 flikar i fönstret **Kundcenter**: **Stilmall** och **Systemval**. Högst upp på den här sidan finns en länk till en förhandsgranskning av Kundcenter-sidan.
+1. Välj ![ikon][img1] **Kundcenter** > **Konfigurera**. Det finns 2 flikar i fönstret **Kundcenter**: **Stilmall** och **Systemval**. Högst upp på den här sidan finns en länk till en förhandsgranskning av Kundcenter-sidan.
 
 1. På fliken **Stilmall** kan du redigera olika inställningar för hur du vill att kundcentret ska se ut och upplevas: Logotyp, önskad bredd, färger och typsnitt. Förhandsgranskningen uppdateras automatiskt.
 

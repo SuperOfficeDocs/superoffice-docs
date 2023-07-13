@@ -18,13 +18,13 @@ Fællesprofiler er knyttet til en [rolle][2] og gælder for alle brugere, der ha
 ## Profiltyper
 
 * **System**: Du kan konfigurere disse profiler ved at følge fremgangsmåden nedenfor.
-* **System screens**: En liste over skærmbilleder, der er oprettet ved hjælp af [systemdesignere][1] i SuperOffice Service. Disse kan du ændre, hvis du har adgang til **Systemdesign** &gt; **Billeder**.
+* **System screens**: En liste over skærmbilleder, der er oprettet ved hjælp af [systemdesignere][1] i SuperOffice Service. Disse kan du ændre, hvis du har adgang til **Systemdesign** > **Billeder**.
 
 ## <a id="create" />Oprettelse af fællesprofiler
 
 Følgende trin viser for eksempel, hvordan du tilføjer et felt på skærmbilledet **Find anmodninger** .
 
-1. Vælg ![ikon][img1] **Systemindstillinger** &gt; **Profil**. Skærmbilledet **Vis profiler** vises.
+1. Vælg ![ikon][img1] **Systemindstillinger** > **Profil**. Skærmbilledet **Vis profiler** vises.
 2. Vælg **System**. Der vises en hierarkisk oversigt over alle profilerne i systemet.
 3. Klik på **Søg**.
 4. Peg på **Find anmodninger**, og klik på ![ikon][img2] (**Ny fælles profil**) til højre for navnet. Skærmbilledet **Rediger elementprofil** vises.
@@ -38,7 +38,7 @@ Følgende trin viser for eksempel, hvordan du tilføjer et felt på skærmbilled
 
 ## Rediger oplysninger i en fælles profil
 
-1. Vælg ![ikon][img1] **Systemindstillinger** &gt; **Profil**. Skærmbilledet **Vis profiler** vises.
+1. Vælg ![ikon][img1] **Systemindstillinger** > **Profil**. Skærmbilledet **Vis profiler** vises.
 2. Vælg **System**. Der vises en hierarkisk oversigt over alle profilerne i systemet.
 3. Bladr ned gennem hierarkiet, til du kommer til den ønskede profil.
 4. Klik på profilnavnet. Skærmbilledet **Rediger elementprofil** vises.
@@ -47,7 +47,7 @@ Følgende trin viser for eksempel, hvordan du tilføjer et felt på skærmbilled
 
 ## Slet en fællesprofil
 
-1. Vælg ![ikon][img1] **Systemindstillinger** &gt; **Profil**. Skærmbilledet **Vis profiler** vises.
+1. Vælg ![ikon][img1] **Systemindstillinger** > **Profil**. Skærmbilledet **Vis profiler** vises.
 2. Vælg **System**. Der vises en hierarkisk oversigt over alle profilerne i systemet.
 3. Bladr ned gennem hierarkiet, til du kommer til den ønskede profil.
 4. Klik på profilnavnet. Skærmbilledet **Rediger elementprofil** vises.

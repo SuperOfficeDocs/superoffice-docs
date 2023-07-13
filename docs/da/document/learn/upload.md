@@ -11,7 +11,7 @@ language: da
 
 # Upload af dokumenter
 
-1. Klik på **Ny** &gt; **Dokument** på toplinjen.
+1. Klik på **Ny** > **Dokument** på toplinjen.
 
 2. Træk og slip dokumentet fra Windows Stifinder til dialogboksen **Dokument**.
 

@@ -126,7 +126,7 @@ Føj flere faner til yderligere felter, eller fjern irrelevante faner.
 
 **Tilføj/fjern en fane:**
 
-1. Vælg fanen, og klik på **Opgave** &gt; **fanen Fjern**.
+1. Vælg fanen, og klik på **Opgave** > **fanen Fjern**.
 2. Klik på **OK** i den dialogboks, der vises.
 
 **Sådan tilføjes en ny fane:**

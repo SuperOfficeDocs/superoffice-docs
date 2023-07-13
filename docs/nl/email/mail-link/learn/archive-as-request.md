@@ -40,7 +40,7 @@ U kunt een e-mail in het Postvak IN van uw e-mailclient archiveren als een verzo
 ## Een bericht toevoegen aan een bestaand verzoek
 
 1. Selecteer de e-mails die u wilt archiveren. Als u meer dan één e-mail selecteert, worden de onderstaande stappen voor elke e-mail herhaald.
-2. Selecteer **E-mail archiveren** &gt; **Verzoek maken** op de werkbalk.
+2. Selecteer **E-mail archiveren** > **Verzoek maken** op de werkbalk.
 3. In het dialoogvenster **Archiveren als verzoek** selecteert u **Een bericht toevoegen aan een bestaand verzoek**.
 4. Typ in het zoekveld de ID of het begin van de titel van het verzoek.
 5. Druk op ENTER of klik op de knop met het vergrootglas om het zoeken te starten. De verzoeken die overeenkomen met uw zoekcriteria worden weergegeven in het veld **Selecteer verzoek om dit bericht aan toe te voegen**.

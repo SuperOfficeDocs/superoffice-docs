@@ -11,7 +11,7 @@ language: de
 
 # Aufgabe erstellen
 
-1. Wählen Sie auf der [oberen Leiste][2] die Befehlsfolge **Neu** &gt; **Aufgabe** aus.
+1. Wählen Sie auf der [oberen Leiste][2] die Befehlsfolge **Neu** > **Aufgabe** aus.
 
 2. Geben Sie im Dialogfeld **Aufgabe**[Aufgabendetails angeben][1] ein.
 

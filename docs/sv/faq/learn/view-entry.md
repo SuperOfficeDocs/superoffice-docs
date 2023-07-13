@@ -13,7 +13,7 @@ language: sv
 
 # Visa FAQ-poster (i SuperOffice)
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **FAQ**. Du kommer då till skärmen FAQ som visar FAQ-poster i en [mappstruktur][1] som du kan skapa och redigera själv.
+1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**. Du kommer då till skärmen FAQ som visar FAQ-poster i en [mappstruktur][1] som du kan skapa och redigera själv.
 
 2. Om listan innehåller flera undermappar går du till önskad undermapp.
 

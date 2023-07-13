@@ -19,7 +19,7 @@ In het scherm **Tabellen** worden de tabellen weergegeven die in het systeem zij
 
 ## Scherm Tabellen
 
-In de **tabellen** staat een lijst met de databasetabellen in SuperOffice. De gegevensstructuren worden geconfigureerd in ![pictogram][img1] **Systeemontwerp** &gt; **Tabellen**, waar u gegevensinhoud in de [tabellen][1] kunt weergeven en bewerken.
+In de **tabellen** staat een lijst met de databasetabellen in SuperOffice. De gegevensstructuren worden geconfigureerd in ![pictogram][img1] **Systeemontwerp** > **Tabellen**, waar u gegevensinhoud in de [tabellen][1] kunt weergeven en bewerken.
 
 Dit scherm toont zowel standaardtabellen, d.w.z. tabellen die vooraf gedefinieerd zijn in het systeem en die de basis vormen van de verschillende schermen, als extra tabellen (tabellen die u zelf maakt met optionele inhoud).
 

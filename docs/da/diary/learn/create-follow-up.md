@@ -14,7 +14,7 @@ language: da
 Hvis du vil oprette opfølgninger i SuperOffice CRM, skal du klikke på knappen **Ny** på toplinjen.
 
 > [!TIP]
-Du kan også tilføje opfølgninger ved at dobbeltklikke på en tom linje på detaljekortet **Aktiviteter**. Derefter åbnes som standard dialogboksen **Aftale**. Du kan angive, hvilken dialogboks der skal åbnes, under ![ikon][img1] **Personlige indstillinger** &gt; **Præferencer** &gt; **Funktioner** &gt; **Type fra detaljekortet Aktiviteter**.
+Du kan også tilføje opfølgninger ved at dobbeltklikke på en tom linje på detaljekortet **Aktiviteter**. Derefter åbnes som standard dialogboksen **Aftale**. Du kan angive, hvilken dialogboks der skal åbnes, under ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner** > **Type fra detaljekortet Aktiviteter**.
 
 ## Oprettelse af opfølgninger på aktivitetslisten
 
@@ -42,7 +42,7 @@ Når du åbner en medarbejders dagbog, kan du selv oprette aftaler for denne per
 4. Dialogboksen **Aftale** vises. [Vælg de deltagere, der skal inkluderes, hvis de ikke automatisk inkluderes][5], .
 
     > [!NOTE]
-    > Hvis du har markeret **Deltagere fra gruppevisning** under **Præferencer**, tilføjes alle medlemmer af oversigten automatisk som deltagere i aftalen. Hvis du vil angive denne indstilling, kan du gå til ![ikon][img1] **Personlige indstillinger** &gt; **Præferencer** &gt; **Funktioner** og angive præferencen til **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
+    > Hvis du har markeret **Deltagere fra gruppevisning** under **Præferencer**, tilføjes alle medlemmer af oversigten automatisk som deltagere i aftalen. Hvis du vil angive denne indstilling, kan du gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner** og angive præferencen til **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
 
 5. [Indtast de ønskede oplysninger i felterne.][6]
 

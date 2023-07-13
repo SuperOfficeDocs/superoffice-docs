@@ -22,7 +22,7 @@ Antwoordsjablonen kunnen ook een bijlage betreffen die met de sjabloon aan het b
 
 ## Stappen
 
-1. Ga naar ![het pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Antwoordsjablonen**.
+1. Ga naar ![het pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Antwoordsjablonen**.
 
 1. Ga naar de map waarin u de antwoordsjabloon wilt opslaan. Als deze nog niet bestaat, kunt u [een nieuwe map maken][2].
 
@@ -97,7 +97,7 @@ SuperOffice Service wordt geleverd met een set antwoordsjablonen. Onder deze ant
 
 Gebaseerd op het verzoek van de klant, zoekt het systeem naar overeenkomstige woorden (inclusief de belangrijkste woorden) in items in Veelgestelde vragen in SuperOffice Service. Gebaseerd op de mate van correlatie tussen deze items, worden Veelgestelde vragen die de klant verder kunnen helpen, opgenomen in de antwoordsjabloon die automatisch naar de klant wordt gestuurd als ontvangstbevestiging van het verzoek.
 
-U kunt de mate van correlatie tussen het verzoek van de klant en de items in Veelgestelde vragen in het veld **Minimumscore voor zoekresultaten Veelgestelde vragen (percentage)** in ![pictogram][img2] **Systeeminstellingen** &gt; **Systeem** &gt; **Instellingen** selecteren.
+U kunt de mate van correlatie tussen het verzoek van de klant en de items in Veelgestelde vragen in het veld **Minimumscore voor zoekresultaten Veelgestelde vragen (percentage)** in ![pictogram][img2] **Systeeminstellingen** > **Systeem** > **Instellingen** selecteren.
 
 ## Wat wilt u nu doen?
 

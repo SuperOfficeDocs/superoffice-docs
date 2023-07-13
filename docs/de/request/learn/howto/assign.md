@@ -31,7 +31,7 @@ Damit für eine Anfrage zuständig zu sein, muss Ihr Name im Feld **Eigentümer*
 Ein Bearbeiter, der über Rechte für die Verwaltung von Kategorien verfügt, kann die Zuordnungsmethode für die Kategorien festlegen:
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Wählen Sie **Anfragen** &gt; **Kategorien** aus.
+1. Wählen Sie **Anfragen** > **Kategorien** aus.
 1. Wählen Sie die gewünschte Kategorie aus.
 1. Wählen Sie die Registerkarte **Zuordnungsmethode**.
 1. Wählen Sie die entsprechenden Optionen aus.

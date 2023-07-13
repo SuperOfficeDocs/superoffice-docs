@@ -15,7 +15,7 @@ language: da
 
 For at oprette en ny svarskabelon baseret på en eksisterende svarskabelon kan du kopiere den.
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Svarskabeloner**.
+1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Svarskabeloner**.
 1. Gå til den mappe, som svarskabelonen ligger i.
 1. Klik på svarskabelonen. Du kommer til skærmbilledet **Vis svarskabeloner**.
 1. Klik på knappen **Kopier**. Der åbnes en kopi af svarskabelon i redigeringstilstand.

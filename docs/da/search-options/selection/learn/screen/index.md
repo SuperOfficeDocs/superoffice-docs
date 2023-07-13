@@ -56,7 +56,7 @@ Brug knappen **Opgave** for at udføre forskellige opgaver for medlemmerne eller
 * **Vis alle**. Bruges til at vise alle udvalgsmedlemmer.
 
     > [!NOTE]
-    > Som standard viser listen kun de første 100 poster i udvalget. For at ændre denne værdi skal du gå til ![ikon][img4] **Personlige indstillinger** &gt; **Præferencer** &gt; **Funktioner** &gt; **Arkivsidestørrelse**.
+    > Som standard viser listen kun de første 100 poster i udvalget. For at ændre denne værdi skal du gå til ![ikon][img4] **Personlige indstillinger** > **Præferencer** > **Funktioner** > **Arkivsidestørrelse**.
 
 * ![ikon][img5]: Opdaterer dataene på listen.
 

@@ -53,7 +53,7 @@ Kun brugere med den funktionelle ret **Kan låse og oplåse mål** kan låse og 
 
 Før du begynder at bruge funktionen Salgsmål, skal du konfigurere nogle få ting i Indstillinger og vedligeholdelse:
 
-* Salgsmålene er som standard opdelt i måneder, men du kan ændre dette til kvartalsmål. I Indstillinger og vedligeholdelse skal du gå til **Præferencer** &gt; **Globale systempræferencer** &gt; **Mål** for at foretage ændringer.
+* Salgsmålene er som standard opdelt i måneder, men du kan ændre dette til kvartalsmål. I Indstillinger og vedligeholdelse skal du gå til **Præferencer** > **Globale systempræferencer** > **Mål** for at foretage ændringer.
 
 * Låsning og oplåsning af salgsmål er kun tilgængelig for brugere med den funktionelle ret kaldet **Kan låse og låse op for mål**. Dette kan ændres i **Roller** i Indstillinger og vedligeholdelse.
 

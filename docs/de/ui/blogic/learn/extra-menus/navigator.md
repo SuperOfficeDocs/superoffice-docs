@@ -17,7 +17,7 @@ language: de
 
 Um diese Funktion zu veranschaulichen, werden wird eine neue Navigatorgruppe im Navigator links in SuperOffice hinzugefügt. Wir werden ein Zusatzmenü in der neuen Navigatorgruppe hinzufügen. In unserem Beispiel werden wir die Navigatorgruppe „Webseiten“ mit einigen nützlichen Webseiten hinzufügen.
 
-1. Wählen Sie das ![Symbol][img2] **Systemeinstellungen** &gt; **Systemdesign** &gt; **Zusatzmenüs** aus.
+1. Wählen Sie das ![Symbol][img2] **Systemeinstellungen** > **Systemdesign** > **Zusatzmenüs** aus.
 
 2. Zeigen Sie mit dem Mauszeiger auf den Ordner **Navigator** und klicken Sie auf ![Symbol][img1].
 

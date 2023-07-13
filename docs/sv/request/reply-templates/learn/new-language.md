@@ -17,7 +17,7 @@ Det kan vara lämpligt att ha samma svarsmall tillgänglig på flera språk, t.e
 
 ## Lägg till språk i svarsmall
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **Svarsmallar**.
+1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **Svarsmallar**.
 
 2. Gå till mappen där svarsmallen ligger.
 

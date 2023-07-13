@@ -40,7 +40,7 @@ We maken eerst een nieuwe verzoekstatus: **In wachtrij**. Aan nieuwe verzoeken w
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Selecteer **Verzoeken** &gt; **Verzoekstatus**.
+1. Selecteer **Verzoeken** > **Verzoekstatus**.
 
 1. Klik op de knop **Toevoegen**.
 
@@ -68,13 +68,13 @@ De nieuwe verzoekstatus wordt weergegeven in de lijst en er staat een vinkje in 
 Nu moet u ervoor zorgen dat u een lid van de categorie of categorieën bent die u gaat beheren. Verzoeken die tot deze categorieën behoren, moeten niet worden toegewezen volgens de toewijzingsmethode.
 
 > [!NOTE]
-> Het lidmaatschap in categorieën kan ook worden gedefinieerd op groepsniveau. In Instellingen en onderhoud (**Gebruikers** &gt; **Gebruikersgroepen** kunt u categorieën voor de verschillende gebruikersgroepen vermelden.
+> Het lidmaatschap in categorieën kan ook worden gedefinieerd op groepsniveau. In Instellingen en onderhoud (**Gebruikers** > **Gebruikersgroepen** kunt u categorieën voor de verschillende gebruikersgroepen vermelden.
 
 **Stappen:**
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Selecteer **Verzoeken** &gt; **Categorieën**.
+1. Selecteer **Verzoeken** > **Categorieën**.
 
 1. Klik op de gewenste categorienaam. Het scherm **Categorie-eigenschappen** wordt geopend.
 
@@ -96,7 +96,7 @@ Wanneer u een verzoek uit de wachtrij hebt gehaald, moet de status veranderd wor
 
 ## Controleer of de wachtrij werkt
 
-Maak een nieuw verzoek, stel de **Eigenaar** in op **Niet-toegewezen**, selecteer de categorie waarvan u lid bent en stel **Status** in op **In wachtrij**. Probeer vervolgens te klikken op **Verzoeken** &gt; **Volgend verzoek in wachtrij ophalen**.
+Maak een nieuw verzoek, stel de **Eigenaar** in op **Niet-toegewezen**, selecteer de categorie waarvan u lid bent en stel **Status** in op **In wachtrij**. Probeer vervolgens te klikken op **Verzoeken** > **Volgend verzoek in wachtrij ophalen**.
 
 <!-- Referenced links -->
 [2]: category/index.md

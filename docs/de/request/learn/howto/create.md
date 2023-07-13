@@ -17,7 +17,7 @@ Eine Anfrage kann per E-Mail vom Kunden im System eingehen, alternativ können S
 
 ## Workflow
 
-1. Wählen Sie **Neu** &gt; **Anfrage** aus.
+1. Wählen Sie **Neu** > **Anfrage** aus.
 
 1. Geben Sie im Feld **Titel** einen aussagekräftigen Namen für die Anfrage ein.
 

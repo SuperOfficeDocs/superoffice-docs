@@ -82,7 +82,7 @@ Geben Sie die Details Ihres SMTP-Servers ein, um E-Mails von SuperOffice CRM zu 
 Manche E-Mail-Anbieter wie Gmail blockieren Anmeldeversuche von unbekannten Apps. Überprüfen Sie in Ihrem Posteingang, um zu sehen, ob Ihr E-Mail-Anbieter Informationen über einen nicht autorisierten Anmeldeversuch gesendet hat. Befolgen Sie die Anweisungen in der E-Mail, um SuperOffice Zugriff auf Ihr Konto zu gewähren.
 
 > [!TIP]
-> Um auf die E-Mail-Optionen zuzugreifen, müssen Sie auf ![Symbol][img1] **Persönliche Einstellungen** &gt; **E-Mail-Optionen** gehen.
+> Um auf die E-Mail-Optionen zuzugreifen, müssen Sie auf ![Symbol][img1] **Persönliche Einstellungen** > **E-Mail-Optionen** gehen.
 
 <!-- Referenced links -->
 

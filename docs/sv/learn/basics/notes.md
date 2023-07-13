@@ -34,7 +34,7 @@ Du kan enkelt ta bort en anteckning genom att radera all text i anteckningen. Kn
 
 Du kan när som helst aktivera eller inaktivera visningen av anteckningsblocket genom att:
 
-* Klicka på ![ikon][img1] **Huvudmeny** &gt; **Visa anteckningsblock**. När funktionen är aktiverad visas en bock vid menyalternativet.
+* Klicka på ![ikon][img1] **Huvudmeny** > **Visa anteckningsblock**. När funktionen är aktiverad visas en bock vid menyalternativet.
 * Du kan välja **Anteckningsblock** i översiktslistan på ett [sidopanelen][1] för att visa anteckningsblocket på sidopanelen.
 
 När du visar anteckningsblocket på skärmen kan du ta tag i den övre delen av anteckningsfönstret och dra det dit du vill.

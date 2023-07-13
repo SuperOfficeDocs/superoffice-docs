@@ -53,7 +53,7 @@ Nur Benutzer mit dem funktionellen Recht **Kann Ziele sperren und entsperren** k
 
 Vor der Nutzung der Vertriebsziele-Funktion müssen Sie in Einstellungen und Verwaltung einige Dinge konfigurieren:
 
-* Standardmäßig sind die Vertriebsziele in Monate unterteilt, aber Sie können dies in vierteljährliche Ziele ändern. Gehen Sie in Einstellungen und Verwaltung zu **Einstellungen** &gt; **Globale Systemeinstellungen** &gt; **Ziele**, um Änderungen vorzunehmen.
+* Standardmäßig sind die Vertriebsziele in Monate unterteilt, aber Sie können dies in vierteljährliche Ziele ändern. Gehen Sie in Einstellungen und Verwaltung zu **Einstellungen** > **Globale Systemeinstellungen** > **Ziele**, um Änderungen vorzunehmen.
 
 * Das Sperren und Entsperren von Vertriebszielen steht nur Benutzern mit dem funktionellen Recht **Kann Ziele sperren und entsperren** zur Verfügung. Dies kann unter **Rollen** in Einstellungen und Verwaltung geändert werden.
 

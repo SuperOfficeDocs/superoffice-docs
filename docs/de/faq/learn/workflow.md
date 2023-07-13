@@ -17,7 +17,7 @@ In einer neuen Installation enthält der Workflow zwei Standardstufen: **Unverö
 
 ## Neue Stufe erstellen
 
-1. Gehen Sie zum ![Symbol][img4] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **FAQ** aus.
+1. Gehen Sie zum ![Symbol][img4] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
 1. Klicken Sie auf die Schaltfläche **Workflow**. Sie gelangen zur Ansicht **Workflow anzeigen**.
 1. Klicken Sie auf die Schaltfläche **Neue Stufe**. Sie gelangen zur Ansicht **Neue Stufe**.
 1. Geben Sie einen aussagekräftigen Namen für die Stufe in das Feld **Name** ein.
@@ -36,7 +36,7 @@ In einer neuen Installation enthält der Workflow zwei Standardstufen: **Unverö
 
 Sie können sowohl den Namen einer Stufe ändern als auch die Einstellung, welche Benutzer Zugriff darauf haben sollen.
 
-1. Gehen Sie zum ![Symbol][img4] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **FAQ** aus.
+1. Gehen Sie zum ![Symbol][img4] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
 1. Klicken Sie auf die Schaltfläche **Workflow**.
 1. Klicken Sie auf den Namen der Stufe. Sie gelangen zur Ansicht **Stufe bearbeiten**.
 1. Bearbeiten Sie den Namen nach Bedarf.
@@ -47,7 +47,7 @@ Sie können sowohl den Namen einer Stufe ändern als auch die Einstellung, welch
 
 ## Stufe löschen
 
-1. Gehen Sie zum ![Symbol][img4] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **FAQ** aus.
+1. Gehen Sie zum ![Symbol][img4] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
 1. Klicken Sie auf das ![Symbol][img2] der Schaltfläche **Workflow**.
 1. Klicken Sie auf den Namen der Stufe. Sie gelangen zur Ansicht **Stufe bearbeiten**.
 1. Klicken Sie auf **Löschen**. Wenn diese Stufe keinem FAQ-Eintrag zugeordnet ist, wird sie sofort gelöscht.

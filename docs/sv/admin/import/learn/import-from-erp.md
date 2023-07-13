@@ -18,7 +18,7 @@ Så här importerar du aktörer (kunder, leverantörer och personer) från ett E
 ## Välj vilka aktörer som ska importeras från ERP-systemet
 
 > [!NOTE]
-> Om ![ikonen][img1] ERP Sync är inaktiv måste du stänga av synkronisering på fliken **Offert/Synk** &gt; **Synk**.
+> Om ![ikonen][img1] ERP Sync är inaktiv måste du stänga av synkronisering på fliken **Offert/Synk** > **Synk**.
 
 1. [!include[Open Import](includes/open-import.md)]
 2. [!include[Select source](includes/select-source.md)]

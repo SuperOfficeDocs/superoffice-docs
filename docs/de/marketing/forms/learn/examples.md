@@ -145,10 +145,10 @@ In diesem Beispiel wird erläutert, wie Sie ein kurzes Formular für Kunden erst
 1. Klicken Sie in der Kategorie **Felder** auf ![Symbol][img1] und fügen Sie die folgenden Felder hinzu:
 
     * Vor- und Nachname. Entfernen Sie das Feld **Person - Name**.
-    * **Ansichtselemente** &gt; **Textblock**: Geben Sie „Wie können wir Sie kontaktieren?“ in Fettdruck ein.
+    * **Ansichtselemente** > **Textblock**: Geben Sie „Wie können wir Sie kontaktieren?“ in Fettdruck ein.
     * **Person - Mobiltelefon**: Geben Sie in das Feld **Platzhalter** ein Beispiel für eine korrekt formatierte Telefonnummer für Ihr Land (einschließlich Ländervorwahl) ein (Beispiel: +49 999 88 777).
     * **Person - Email**
-    * **Formularelemente** &gt; **Textbereich**: Ändern Sie den Namen des Feldes in „Kommentar (optional)“ und geben Sie „Wie können wir Ihnen weiterhelfen?“ in das Feld **Platzhalter** ein.
+    * **Formularelemente** > **Textbereich**: Ändern Sie den Namen des Feldes in „Kommentar (optional)“ und geben Sie „Wie können wir Ihnen weiterhelfen?“ in das Feld **Platzhalter** ein.
 
 1. Wählen Sie das Feld **OK**, ändern Sie den Namen in „Übermitteln“ und bearbeiten Sie Vorder-/Hintergrundfarbe und Position.
 

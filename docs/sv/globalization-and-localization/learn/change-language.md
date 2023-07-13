@@ -13,7 +13,7 @@ language: sv
 
 Så här använder du Inställningar och underhåll på ett annat språk:
 
-1. Gå till ![ikon][img1] **Personliga inställningar** &gt; **Lokala inställningar**.
+1. Gå till ![ikon][img1] **Personliga inställningar** > **Lokala inställningar**.
 2. Välj önskat språk i listan **Aktivt språk**.
 3. Klicka på **OK**.
 

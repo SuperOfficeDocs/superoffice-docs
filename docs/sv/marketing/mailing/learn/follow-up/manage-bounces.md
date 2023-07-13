@@ -65,25 +65,25 @@ Om du vill hantera flera e-postadresser, kan du välja alternativ under knappen 
 ### Exportera
 
 1. Markera de e-postadresser som du vill exportera.
-2. Välj **Åtgärder** &gt; **Exportera**.
+2. Välj **Åtgärder** > **Exportera**.
 3. Välj ett exportformat. Exportfiltret visas längst ner i din webbläsare. Du hittar den även i mappen Hämtningar.
 
 ### Lägg till nytt urval
 
 1. Markera de e-postadresser som du vill lägga till i ett nytt urval.
-2. Välj **Åtgärder** &gt; **Lägg till nytt urval**.
+2. Välj **Åtgärder** > **Lägg till nytt urval**.
 3. Skriv namnet på det nya urvalet och klicka på **OK**. Ett nytt statiskt urval skapas med de valda e-postadresserna.
 
 ### Lägg till nytt projekt
 
 1. Markera de e-postadresser som du vill lägga till i ett nytt projekt.
-2. Välj **Åtgärder** &gt; **Lägg till nytt projekt**.
+2. Välj **Åtgärder** > **Lägg till nytt projekt**.
 3. Ange namnet på det nya projektet och klicka på **OK**. Ett nytt projekt skapas med de valda e-postadresserna.
 
 ### Lägg till befintligt urval
 
 1. Markera de e-postadresser som du vill lägga till i ett befintligt urval.
-2. Välj **Åtgärder** &gt; **Lägg till befintligt urval**.
+2. Välj **Åtgärder** > **Lägg till befintligt urval**.
 3. Börja skriva i sökfältet för att hitta det relevanta urvalet.
 4. I resultatlistan klickar du på det urval som du vill använda.
 5. Klicka på **OK**. De valda e-postadresserna läggs till i urvalet.
@@ -91,7 +91,7 @@ Om du vill hantera flera e-postadresser, kan du välja alternativ under knappen 
 ### Lägg till befintligt projekt
 
 1. Markera de e-postadresser som du vill lägga till i ett befintligt projekt.
-2. Välj **Åtgärder** &gt; **Lägg till befintligt projekt**.
+2. Välj **Åtgärder** > **Lägg till befintligt projekt**.
 3. Börja skriva i sökfältet för att hitta det relevanta projektet.
 4. I resultatlistan klickar du på det projekt som du vill använda.
 5. Klicka på **OK**. De valda e-postadresserna läggs till i projektet
@@ -101,7 +101,7 @@ Om du vill hantera flera e-postadresser, kan du välja alternativ under knappen 
 Använd detta alternativ för att ta bort e-postadresser permanent från databasen.
 
 1. Markera de e-postadresser som du vill ta bort.
-2. Välj **Åtgärder** &gt; **Ta bort markerade e-postadresser**.
+2. Välj **Åtgärder** > **Ta bort markerade e-postadresser**.
 3. Bekräfta genom att klicka på **OK**.
 
 ### Ta bort returflagga
@@ -109,7 +109,7 @@ Använd detta alternativ för att ta bort e-postadresser permanent från databas
 Använd det här alternativet för att ta bort e-postadresser från listan, så att de kan användas i utskick. Detta kan vara relevant om returerna beror på en felaktig konfiguration eller tillfälliga tekniska orsaker, eller om du vet att de aktuella e-postadresserna är korrekta och vill försöka skicka en gång till.
 
 1. Skicka e-postadresserna som du vill ta bort returflaggorna för.
-2. Välj **Åtgärder** &gt; **Ta bort returflagga**.
+2. Välj **Åtgärder** > **Ta bort returflagga**.
 3. Bekräfta genom att klicka på **OK**.
 
 ### Ange som tidigare anställd
@@ -117,7 +117,7 @@ Använd det här alternativet för att ta bort e-postadresser från listan, så 
 Använd det här alternativet för att ange en kontakt som tidigare anställd.
 
 1. Markera de e-postadresser som du vill ta bort.
-2. Välj **Åtgärder** &gt; **Ange som tidigare anställd**.
+2. Välj **Åtgärder** > **Ange som tidigare anställd**.
 3. Bekräfta genom att klicka på **OK**.
 
 <!-- Referenced links -->

@@ -56,7 +56,7 @@ Använd **Uppgift**-knappen för att utföra olika uppgifter för alla eller nå
 * **Visa alla**. Används för att visa alla medlemmar i urvalet.
 
     > [!NOTE]
-    > Som standard visar listan endast de första 100 posterna i urvalet. För att ändra detta värde, gå till ![ikon][img4] **Personliga inställningar** &gt; **Inställningar** &gt; **Funktioner** &gt; **Arkivsidstorlek**.
+    > Som standard visar listan endast de första 100 posterna i urvalet. För att ändra detta värde, gå till ![ikon][img4] **Personliga inställningar** > **Inställningar** > **Funktioner** > **Arkivsidstorlek**.
 
 * ![ikon][img5]: Uppdaterar data i listan.
 

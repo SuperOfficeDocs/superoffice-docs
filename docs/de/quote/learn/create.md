@@ -32,7 +32,7 @@ Wenn das Dialogfeld **ERP-Verbindung auswählen** angezeigt wird, wenn Sie ein A
 * Es sind keine Preislisten für die Währung des Verkaufs verfügbar. Sie müssen eine andere Währung für den Verkauf wählen oder eine Preisliste mit der gewünschten Währung in Einstellungen und Verwaltung erstellen.
 
     > [!NOTE]
-    > Wenn die Liste der Währungen nicht neben dem Verkaufspreis angezeigt wird, müssen Sie vielleicht unterschiedliche Währungen zulassen aktivieren. Gehen Sie zu **Einstellungen** &gt; **Unterschiedliche Währungen zulassen** in Einstellungen und Verwaltung.
+    > Wenn die Liste der Währungen nicht neben dem Verkaufspreis angezeigt wird, müssen Sie vielleicht unterschiedliche Währungen zulassen aktivieren. Gehen Sie zu **Einstellungen** > **Unterschiedliche Währungen zulassen** in Einstellungen und Verwaltung.
 
 * SuperOffice CRM ist mit einem oder mehreren ERP-Systemen verbunden und es gibt mehrere relevante ERP-Verbindungen, aus denen gewählt werden kann. Die ERP-Verbindung bestimmt, von wo die Produktinformationen und die Preise bezogen werden.
 

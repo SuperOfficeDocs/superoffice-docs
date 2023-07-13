@@ -16,7 +16,7 @@ language: da
 Ved at oprette FAQ-poster kan organisationen opbygge en omfattende samling spørgsmål og svar, som både kunder og interne sagsbehandlere kan bruge til at tilegne sig nyttige oplysninger. FAQ-poster kan oprettes på to forskellige måder:
 
 * En sagsbehandler tager initiativ til, at der oprettes en FAQ-post baseret på kommunikation med en kunde i skærmbilledet Sager.
-* En administrator kan oprette en FAQ-post direkte i **Vidensbase** &gt; **FAQ**.
+* En administrator kan oprette en FAQ-post direkte i **Vidensbase** > **FAQ**.
 
 Se denne video, og find ud af, hvordan du opretter og udgiver ofte stillede spørgsmål i kundecenteret, eller følg den trinvise vejledning nedenfor (videoens længde - 3:01):
 
@@ -94,7 +94,7 @@ Hvis du svarer på en henvendelse og tænker, at det samme spørgsmål ofte går
 
 ## Oprettelse af ny FAQ
 
-1. Gå til ![ikonet][img4] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **FAQ**.
+1. Gå til ![ikonet][img4] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
 
 1. Gå til den mappe, du vil placere FAQ-posten i. Hvis den endnu ikke findes, kan du [oprette en ny mappe][2].
 

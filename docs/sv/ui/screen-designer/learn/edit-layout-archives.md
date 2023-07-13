@@ -96,7 +96,7 @@ Om du vill redigera ett befintligt arkiv, markerar du det och redigerar de tillg
 
 ## Ta bort ett arkiv
 
-1. Välj arkivet (eller någon annan avsnittsflik) och klicka på **Uppgift** &gt; **Ta bort flik**.
+1. Välj arkivet (eller någon annan avsnittsflik) och klicka på **Uppgift** > **Ta bort flik**.
 
 1. Klicka på **OK** i dialogrutan som visas. Fliken tas bort (dold men inte raderad).
 

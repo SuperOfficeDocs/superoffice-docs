@@ -46,7 +46,7 @@ När du [skickar offerten][3], kan du välja att endast inkludera favoritalterna
 
 ## Ta bort alternativ
 
-Du kan ta bort ett alternativ genom att välja ![ikon][img1] **Uppgift** &gt; **Ta bort \[alternative\]** nederst på fliken.
+Du kan ta bort ett alternativ genom att välja ![ikon][img1] **Uppgift** > **Ta bort \[alternative\]** nederst på fliken.
 
 <!-- Referenced links -->
 [1]: create.md

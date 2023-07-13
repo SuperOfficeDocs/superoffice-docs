@@ -17,7 +17,7 @@ Een verzoek kan in het systeem worden ontvangen via een e-mailbericht van de kla
 
 ## Workflow
 
-1. Selecteer **Nieuw** &gt; **Verzoek**.
+1. Selecteer **Nieuw** > **Verzoek**.
 
 1. Geef in het veld **Titel** een beschrijvende naam aan het verzoek.
 

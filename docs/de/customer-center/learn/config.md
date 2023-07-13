@@ -26,7 +26,7 @@ Wenn Ihr Kundenzentrum mehrsprachig ist, können Sie Optionen (wie Begrüßungst
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Wählen Sie ![Symbol][img1] **Kundenzentrum** &gt; **Konfigurieren** aus. Auf der Ansicht **Kundenzentrum** gibt es 2 Registerkarten: **Design** und **Optionen**. Oben auf dieser Seite finden Sie einen Link zu einer Vorschau der Kundenzentrum-Seite.
+1. Wählen Sie ![Symbol][img1] **Kundenzentrum** > **Konfigurieren** aus. Auf der Ansicht **Kundenzentrum** gibt es 2 Registerkarten: **Design** und **Optionen**. Oben auf dieser Seite finden Sie einen Link zu einer Vorschau der Kundenzentrum-Seite.
 
 1. Auf der Registerkarte **Design** können Sie verschiedene Einstellungen für Erscheinungsbild und Funktionsweise des Kundenzentrums bearbeiten: Logo, bevorzugte Breite, Farben und Schriften. Die Vorschau wird automatisch aktualisiert.
 

@@ -13,9 +13,9 @@ language: da
 
 # Oprettelse af e-mailadresse
 
-Når du registrerer e-mailadresser under **Vidensbase** &gt; **E-mailadresser**, bliver de tilgængelige de fleste steder, du har brug for at sende e-mails, f.eks. i skærmbillederne **Ny sag** og **Tilføj meddelelse**. Dette gør sagsbehandlingen hurtigere.
+Når du registrerer e-mailadresser under **Vidensbase** > **E-mailadresser**, bliver de tilgængelige de fleste steder, du har brug for at sende e-mails, f.eks. i skærmbillederne **Ny sag** og **Tilføj meddelelse**. Dette gør sagsbehandlingen hurtigere.
 
-1. Gå til ![ikonet][img2] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **E-mailadresser**.
+1. Gå til ![ikonet][img2] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **E-mailadresser**.
 
 1. Gå til den mappe, du vil placere e-mailadressen i. Hvis den endnu ikke findes, kan du [oprette en ny mappe][1].
 

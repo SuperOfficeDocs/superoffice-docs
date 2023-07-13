@@ -15,7 +15,7 @@ Opgaver er opfølgninger, som normalt ikke har noget fastlagt klokkeslæt eller 
 
 ![ikon][img1]
 
-Uanset hvor du er i SuperOffice CRM, kan du oprette en ny aftale ved at klikke på knappen **Ny** &gt; **Opgave** på toplinjen.
+Uanset hvor du er i SuperOffice CRM, kan du oprette en ny aftale ved at klikke på knappen **Ny** > **Opgave** på toplinjen.
 
 Opgaver kan vises følgende steder i SuperOffice CRM:
 

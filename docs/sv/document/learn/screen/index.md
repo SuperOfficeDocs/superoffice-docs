@@ -13,7 +13,7 @@ language: sv
 
 Många dokumentfunktioner hanteras via dialogrutan **Dokument**, som du kan öppna på flera olika sätt:
 
-* Genom att välja **Nytt** &gt; **Dokument**.
+* Genom att välja **Nytt** > **Dokument**.
 * Genom att öppna ett [befintligt dokument][1].
 
 Dialogrutan består av en huvuddel med allmän information om dokumentet samt följande flikar med tilläggsinformation:

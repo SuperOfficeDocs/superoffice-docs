@@ -17,7 +17,7 @@ Sie können in den verschiedenen Komponenten von SuperOffice CRM Einstellungen f
 
 ## Schritte
 
-1. Wählen Sie das ![Symbol][img12] **Persönliche Einstellungen** &gt; **Einstellungen** aus.
+1. Wählen Sie das ![Symbol][img12] **Persönliche Einstellungen** > **Einstellungen** aus.
 
 2. Wählen Sie in der Dialogseite **Einstellungen** die gewünschte Einstellung in der Liste auf der linken Seite aus.
 

@@ -13,8 +13,8 @@ language: nl
 
 1. Voer een van de volgende handelingen uit:
 
-    * Kies **Nieuw** &gt; **Telefoongesprek** in de [bovenste balk][2].
-    * Klik op ![pictogram][img1] **Taak** &gt; **Bellen** op een persoonskaart.
+    * Kies **Nieuw** > **Telefoongesprek** in de [bovenste balk][2].
+    * Klik op ![pictogram][img1] **Taak** > **Bellen** op een persoonskaart.
 
 1. Geef in het dialoogvenster **Telefoongesprek** [de details van het telefoongesprek op][1].
 

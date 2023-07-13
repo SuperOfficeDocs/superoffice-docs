@@ -23,7 +23,7 @@ Eine Antwortvorlage kann z. B. ein bestimmtes Layout sein, das bei den Antworte
 
 Auf der Ansicht Antwortvorlagen finden Sie die verfügbaren Antwortvorlagen. Die [Ordnerhierarchie][10] der Antwortvorlagen können Sie selbst erstellen.
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Antwortvorlagen** aus.
+1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Antwortvorlagen** aus.
 1. Wechseln Sie zum gewünschten Ordner.
 1. Klicken Sie auf die gewünschte Antwortvorlage. Die Ansicht **Antwortvorlagen anzeigen** mit Informationen zu Zugriffsebene, Sprache und Eigentümer wird geöffnet. Auf den Registerkarten darunter werden der eigentliche Text der Antwortvorlage und alle Anlagen angezeigt.
 

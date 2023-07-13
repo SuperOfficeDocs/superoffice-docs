@@ -57,7 +57,7 @@ Verwijderde bedrijven en personen blijven standaard 14 dagen in de prullenbak. D
 
 U hebt ook een optie om de verwijderde bedrijven en personen van andere gebruikers te herstellen, vink gewoon Verwijderde bedrijven voor alle gebruikers weergeven AAN aan.
 
-1. Kies ![pictogram][img1] **Persoonlijke instellingen** &gt; **Prullenbak**.
+1. Kies ![pictogram][img1] **Persoonlijke instellingen** > **Prullenbak**.
 
 2. Selecteer in het dialoogvenster het tabblad **Bedrijf** of **Persoon**. De bedrijven en personen die u hebt verwijderd, worden weergegeven.
 
@@ -81,7 +81,7 @@ U hebt ook een optie om de verwijderde bedrijven en personen van andere gebruike
 | Annuleren | Hiermee annuleert u het verwijderen van alle geselecteerde elementen. Het dialoogvenster wordt gesloten zonder dat er iets wordt verwijderd. |
 
 * U kunt dit dialoogvenster als volgt uitschakelen: Schakel het selectievakje **Dit dialoogvenster voortaan niet meer weergeven** onder in het dialoogvenster voor verwijderen uit.
-* U kunt dit dialoogvenster als volgt weer inschakelen: Ga naar ![pictogram][img1] **Persoonlijke instellingen** &gt; **Voorkeuren** &gt; **Functies** en zet de optie **Bevestigingsvenster weergeven** op **Nee**.
+* U kunt dit dialoogvenster als volgt weer inschakelen: Ga naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en zet de optie **Bevestigingsvenster weergeven** op **Nee**.
 
 > [!NOTE]
 > wanneer u een bedrijf, selectie of project wilt verwijderen, wordt u altijd gevraagd of u zeker weet dat u het item wilt verwijderen. Voor dit soort verwijderingen is de optie **Dit dialoogvenster voortaan niet meer weergeven** dan ook niet beschikbaar.

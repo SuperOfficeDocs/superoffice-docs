@@ -13,7 +13,7 @@ language: nl
 
 Volg deze stappen om een e-mail te maken vanuit Lotus Notes:
 
-1. Klik boven de berichtenlijst op **Nieuw** &gt; **Bericht** om het formulier **Nieuw bericht** te openen.
+1. Klik boven de berichtenlijst op **Nieuw** > **Bericht** om het formulier **Nieuw bericht** te openen.
 
 2. Voer in het e-mailvenster in het veld **Aan** de e-mailadressen van de ontvangers in. U kunt ook het dialoogvenster **Ontvangers selecteren** gebruiken (zie [Ontvangers selecteren][1]).
 

@@ -17,7 +17,7 @@ Sie können eine Ordnerstruktur für FAQs erstellen, um diesen einen logische Au
 
 ## Ordner erstellen
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **FAQ** aus.
+1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
 
 1. Klicken Sie auf die Schaltfläche **Neuer Ordner**. Sie gelangen zur Ansicht **Eigenschaften des FAQ-Ordners**.
 

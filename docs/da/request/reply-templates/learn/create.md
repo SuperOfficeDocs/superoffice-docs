@@ -22,7 +22,7 @@ Svarskabeloner kan også indeholde en vedhæftet fil, som derefter bliver tilfø
 
 ## Trin
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Svarskabeloner**.
+1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Svarskabeloner**.
 
 1. Gå til den mappe, du vil placere svarskabelonen i. Hvis den endnu ikke findes, kan du [oprette en ny mappe][2].
 
@@ -97,7 +97,7 @@ SuperOffice Service leveres med et sæt af svarskabeloner. Blandt disse svarskab
 
 Ud fra kundens sag søger systemet efter tilsvarende ord (inklusive nøgleord) i FAQ-posterne i SuperOffice Service. Ud fra graden af sammenhæng mellem disse, medtages foreslåede FAQ'er, der kan hjælpe kunden, i svarskabelonen, der automatisk sendes til kunden for at bekræfte modtagelse af sagen.
 
-Du kan vælge graden af sammenhæng mellem sagen fra kunden og FAQ-posterne i feltet **Minimumscore for søgeresultater i ofte stillede spørgsmål (i procent)** i ![ikonet][img2] **Systemindstillinger** &gt; **System** &gt; **Indstillinger**.
+Du kan vælge graden af sammenhæng mellem sagen fra kunden og FAQ-posterne i feltet **Minimumscore for søgeresultater i ofte stillede spørgsmål (i procent)** i ![ikonet][img2] **Systemindstillinger** > **System** > **Indstillinger**.
 
 ## Hvad vil du foretage dig nu?
 

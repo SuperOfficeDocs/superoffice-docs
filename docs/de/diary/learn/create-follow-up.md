@@ -14,7 +14,7 @@ language: de
 Zum Erstellen von Folgeaufgaben in SuperOffice CRM müssen Sie die Schaltfläche **Neu** in der oberen Leiste anklicken.
 
 > [!TIP]
-> Sie können auch Folgeaufgaben hinzufügen, indem Sie auf eine leere Zeile in der Bereichsregisterkarte **Aktivitäten** doppelklicken. Standardmäßig wird dann das Dialogfeld **Termin** geöffnet. Um festzulegen, welches Dialogfeld geöffnet werden soll, müssen Sie das ![Symbol][img1] **Persönliche Einstellungen** &gt; **Einstellungen** &gt; **Funktionen** &gt; **Typ von Bereichsregisterkarte 'Aktivitäten'** auswählen.
+> Sie können auch Folgeaufgaben hinzufügen, indem Sie auf eine leere Zeile in der Bereichsregisterkarte **Aktivitäten** doppelklicken. Standardmäßig wird dann das Dialogfeld **Termin** geöffnet. Um festzulegen, welches Dialogfeld geöffnet werden soll, müssen Sie das ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** > **Typ von Bereichsregisterkarte 'Aktivitäten'** auswählen.
 
 ## Folgeaufgaben in der Aktivitätenliste erstellen
 
@@ -42,7 +42,7 @@ Wenn Sie den Kalender eines Mitarbeiters öffnen, können Sie selbst Termine fü
 4. Das Dialogfeld **Termin** wird geöffnet. Führen Sie die Option [Einzubeziehende Teilnehmer auswählen][5] aus, wenn sie nicht bereits automatisch einbezogen wurden.
 
     > [!NOTE]
-    > Wenn Sie die Option **Teilnehmer aus Gruppenansicht** unter **Einstellungen** aktivieren, werden alle Mitglieder der Ansicht automatisch als Teilnehmer am Termin hinzugefügt. Wenn Sie diese Einstellung ändern möchten, müssen Sie zum ![Symbol][img1] **Persönliche Einstellungen** &gt; **Einstellungen** &gt; **Funktionen** gehen und die **Teilnehmer aus Gruppenansicht** auf **Ja** setzen. Klicken Sie auf **Speichern**.
+    > Wenn Sie die Option **Teilnehmer aus Gruppenansicht** unter **Einstellungen** aktivieren, werden alle Mitglieder der Ansicht automatisch als Teilnehmer am Termin hinzugefügt. Wenn Sie diese Einstellung ändern möchten, müssen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** gehen und die **Teilnehmer aus Gruppenansicht** auf **Ja** setzen. Klicken Sie auf **Speichern**.
 
 5. [Geben Sie die erforderlichen Informationen in das Feld ein.][6]
 

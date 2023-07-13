@@ -72,7 +72,7 @@ I dialogrutan **Säljguide** har du tre möjligheter:
 * Markera **Skapa alltid händelse? Visa inte den här dialogrutan igen** om du i framtiden alltid vill skapa den föreslagna händelsen. Då öppnas dialogrutan för händelser automatiskt nästa gång.
 
 > [!TIP]
-> För att återställa det här alternativet, så att dialogrutan **Säljguide** öppnas, gå till ![ikon][img1] **Personliga inställningar** &gt; **Inställningar** &gt; **Försäljning** och välj **Ja** för alternativet **Bekräfta skapande av föreslagen händelse**.
+> För att återställa det här alternativet, så att dialogrutan **Säljguide** öppnas, gå till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Försäljning** och välj **Ja** för alternativet **Bekräfta skapande av föreslagen händelse**.
 
 ## Exempel
 

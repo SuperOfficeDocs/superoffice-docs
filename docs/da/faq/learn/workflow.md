@@ -17,7 +17,7 @@ I en ny installation har du to standardtrin i workflowet: **Ikke-udgivet** og **
 
 ## Oprettelse af nye trin
 
-1. Gå til ![ikonet][img4] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **FAQ**.
+1. Gå til ![ikonet][img4] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
 1. Klik på knappen **Workflow**. Du kommer til skærmbilledet **Vis workflow**.
 1. Klik på knappen **Nyt trin**. Du kommer til skærmbilledet **Nyt trin**.
 1. Angiv et beskrivende navn på trinnet i feltet **Navn**.
@@ -36,7 +36,7 @@ I en ny installation har du to standardtrin i workflowet: **Ikke-udgivet** og **
 
 Du kan både ændre navnet på et trin og justere, hvilke brugere der skal have adgang til det.
 
-1. Gå til ![ikonet][img4] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **FAQ**.
+1. Gå til ![ikonet][img4] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
 1. Klik på knappen **Workflow**.
 1. Klik på selve trinnavnet. Du kommer til skærmbilledet **Rediger trin**.
 1. Rediger navnet, hvis der er behov for det.
@@ -47,7 +47,7 @@ Du kan både ændre navnet på et trin og justere, hvilke brugere der skal have 
 
 ## Sletning af trin
 
-1. Gå til ![ikonet][img4] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **FAQ**.
+1. Gå til ![ikonet][img4] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
 1. Klik på knappen ![ikon][img2] **Workflow**.
 1. Klik på selve trinnavnet. Du kommer til skærmbilledet **Rediger trin**.
 1. Klik på **Slet**. Hvis trinnet ikke har nogen tilknyttede FAQ-poster, slettes det med det samme.

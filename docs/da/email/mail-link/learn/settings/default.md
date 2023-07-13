@@ -27,9 +27,9 @@ Indstillinger i ruden **Arkivindstillinger** i dialogboksen **SuperOffice CRM in
 
 ## Send som e-mail
 
-* Du kan sende en aftale som en e-mail ved at klikke på **Opgave** &gt; **Send som e-mail** i dialogboksen **Aftale**. Herefter åbnes et nyt e-mailvindue, der indeholder aftalen, i din e-mailklient.
+* Du kan sende en aftale som en e-mail ved at klikke på **Opgave** > **Send som e-mail** i dialogboksen **Aftale**. Herefter åbnes et nyt e-mailvindue, der indeholder aftalen, i din e-mailklient.
 
-* Du kan sende et dokument som en e-mail ved at højreklikke på det i fanebladet **Aktiviteter** i SuperOffice CRM og vælge **Send som e-mail** eller ved at klikke på **Opgave** &gt; **Send som e-mail** på skærmbilledet Dokument. Herefter åbnes et nyt e-mailvindue, der indeholder dokumentet, i din e-mailklient.
+* Du kan sende et dokument som en e-mail ved at højreklikke på det i fanebladet **Aktiviteter** i SuperOffice CRM og vælge **Send som e-mail** eller ved at klikke på **Opgave** > **Send som e-mail** på skærmbilledet Dokument. Herefter åbnes et nyt e-mailvindue, der indeholder dokumentet, i din e-mailklient.
 
 <!-- Referenced links -->
 [2]: ../index.md

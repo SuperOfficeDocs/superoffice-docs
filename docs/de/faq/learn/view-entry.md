@@ -13,7 +13,7 @@ language: de
 
 # FAQ-Einträge anzeigen (in SuperOffice)
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **FAQ** aus. Sie gelangen zur Ansicht FAQ, die FAQ-Einträge in einer [Ordnerstruktur][1], die Sie selbst erstellen und bearbeiten können.
+1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus. Sie gelangen zur Ansicht FAQ, die FAQ-Einträge in einer [Ordnerstruktur][1], die Sie selbst erstellen und bearbeiten können.
 
 2. Falls die Liste mehrere Unterordner enthält, wählen Sie den gewünschten Unterordner aus.
 

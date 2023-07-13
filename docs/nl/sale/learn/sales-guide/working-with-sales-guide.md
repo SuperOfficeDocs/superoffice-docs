@@ -59,6 +59,7 @@ U kunt het project op twee manieren naar de volgende status verplaatsen:
 3. Selecteer de gewenste fase in de lijst die wordt weergegeven. Met uitzondering van de statussen **Verkocht** en **Verloren** worden de opties in de lijst gedefinieerd in Instellingen en onderhoud.
 4. Klik op **Opslaan**.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## Waarom wordt het dialoogvenster Verkoopgids geopend wanneer ik een vervolgactiviteit markeer als voltooid?
 
 In Instellingen en onderhoud kunt u opgeven dat een vervolgactiviteit in een verkoophandleiding automatisch moet worden voorgesteld wanneer de voorgaande vervolgactiviteit is gemarkeerd als voltooid. In dat geval wordt het dialoogvenster **Verkoophandleiding** geopend wanneer u de voorgaande vervolgactiviteit markeert als voltooid.
@@ -72,7 +73,7 @@ Het dialoogvenster **Verkoophandleiding** bevat drie opties:
 * Selecteer **Altijd vervolgactiviteit maken? Dit dialoogvenster voortaan niet meer weergeven** als u altijd de voorgestelde vervolgactiviteit wilt maken. De volgende keer wordt het dialoogvenster Vervolgactiviteiten dan automatisch geopend.
 
 > [!TIP]
-> Om deze optie te resetten, zodat het dialoogvenster **Verkoopgids** opent, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** &gt; **Voorkeuren** &gt; **Verkoop** en selecteert u **Ja** voor de optie **Maken van aanbevolen vervolgactiviteit bevestigen**.
+> Om deze optie te resetten, zodat het dialoogvenster **Verkoopgids** opent, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Verkoop** en selecteert u **Ja** voor de optie **Maken van aanbevolen vervolgactiviteit bevestigen**.
 
 ## Voorbeeld
 

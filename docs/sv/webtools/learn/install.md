@@ -32,8 +32,8 @@ Titta på den här videon eller följ guiden nedan för att lära dig hur du ins
 ### Steg
 
 1. Gå till ![ikon][img1] huvudmenyn i det övre fältet.
-2. Välj **Hämta** &gt; **SuperOffice WebTools**. Hjälpen för SuperOffice WebTools wizard visas.
-3. I hjälpen väljer du **Persondator** &gt; **SuperOffice**, och klickar på **Hämta** för att ladda ner installationsfilen
+2. Välj **Hämta** > **SuperOffice WebTools**. Hjälpen för SuperOffice WebTools wizard visas.
+3. I hjälpen väljer du **Persondator** > **SuperOffice**, och klickar på **Hämta** för att ladda ner installationsfilen
 4. Klicka på **Nästa** och **Stäng** för att stänga guiden för WebTools.
 5. Klicka på den hämtade **SuperOffice.Web.Tools.exe**-filen i avsnittet Hämtningar i din webbläsare.
 6. Dubbelklicka på filen **SuperOffice WebTools Installer.pkg** för att starta installationen.

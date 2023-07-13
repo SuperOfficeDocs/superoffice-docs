@@ -24,7 +24,7 @@ En kontakt som ska ha åtkomst till ett kundcenter måste ha ett användarnamn o
 5. Klicka på **OK**. E-postmeddelandet skickas.
 
 > [!TIP]
-> Meddelandets innehåll hämtas från en installerad systemmall. Du hittar den under **Kunskapsbas** &gt; **Svarsmallar**.
+> Meddelandets innehåll hämtas från en installerad systemmall. Du hittar den under **Kunskapsbas** > **Svarsmallar**.
 
 <!-- Referenced links -->
 

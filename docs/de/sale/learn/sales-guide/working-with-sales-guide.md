@@ -59,6 +59,7 @@ Sie haben zwei Möglichkeiten, das Projekt in den nächsten Status zu verschiebe
 3. Wählen Sie die gewünschte Stufe aus der angezeigten Liste aus. Mit Ausnahme der Status **Verkauft** und **Verloren** werden die Optionen in der Liste in Einstellungen und Verwaltung definiert.
 4. Klicken Sie auf **Speichern**.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## Warum öffnet sich das Dialogfeld Verkaufsleitfaden, wenn ich eine Folgeaufgabe als abgeschlossen kennzeichne?
 
 In Einstellungen und Verwaltung können Sie festlegen, dass eine Folgeaufgabe in einem Verkaufsleitfaden automatisch vorgeschlagen wird, wenn die vorherige Folgeaufgabe als abgeschlossen gekennzeichnet wird. In diesem Fall öffnet sich das Dialogfeld **Verkaufsleitfaden**, wenn Sie die vorherige Folgeaufgabe als abgeschlossen kennzeichnen.
@@ -72,7 +73,7 @@ Das Dialogfeld **Verkaufsleitfaden** bietet drei Optionen:
 * Aktivieren Sie **Immer Folgeaufgabe erstellen? Diesen Dialog nicht mehr anzeigen**, wenn Sie die vorgeschlagene Folgeaufgabe zukünftig immer erstellen möchten. Das Dialogfeld für Folgeaufgaben wird damit zukünftig automatisch geöffnet.
 
 > [!TIP]
-> Um diese Option zurücksetzen, sodass das Dialogfeld **Verkaufsleitfaden** angezeigt wird, müssen Sie zu ![Symbol][img1] **Persönliche Einstellungen** &gt; **Einstellungen** &gt; **Verkauf** gehen und **Ja** für die Option **Erstellung der vorgeschlagenen Folgeaufgabe bestätigen** auswählen.
+> Um diese Option zurücksetzen, sodass das Dialogfeld **Verkaufsleitfaden** angezeigt wird, müssen Sie zu ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Verkauf** gehen und **Ja** für die Option **Erstellung der vorgeschlagenen Folgeaufgabe bestätigen** auswählen.
 
 ## Beispiel
 

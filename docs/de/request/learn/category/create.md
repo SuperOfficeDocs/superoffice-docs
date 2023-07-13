@@ -60,7 +60,7 @@ language: de
            Beispiel: Wenn Person A die Gewichtung 1, Person B die Gewichtung 2 und Person C die Gewichtung 5 hat, werden diesen drei Personen bei acht Anfragen jeweils die durch die Gewichtung angegebene Anzahl von Anfragen zugeordnet.
 
         * **An Benutzer mit den wenigsten unbearbeiteten Anfragen**: Neue Anfragen werden dem Mitglied der Kategorie zugeteilt, das die wenigsten unbearbeiteten Anfragen hat.
-        * **Keine Zuordnung**: Die Anfragen werden keinen bestimmten Benutzern zugeordnet, sondern standardmäßig in eine Warteschlange gestellt. Sie können dies unter **Anfragen** &gt; **Nicht zugeordnete Anfragen** (Standard) oder im Warteschlangensystem **Nächste Anfrage in der Warteschlange** anzeigen (siehe [Wie man Nächste Anfrage in der Warteschlange anzeigen einrichtet][3]).
+        * **Keine Zuordnung**: Die Anfragen werden keinen bestimmten Benutzern zugeordnet, sondern standardmäßig in eine Warteschlange gestellt. Sie können dies unter **Anfragen** > **Nicht zugeordnete Anfragen** (Standard) oder im Warteschlangensystem **Nächste Anfrage in der Warteschlange** anzeigen (siehe [Wie man Nächste Anfrage in der Warteschlange anzeigen einrichtet][3]).
 
     * **Zuordnung nur an angemeldete Benutzer**: Anfragen werden nur Benutzern zugewiesen, die in SuperOffice Service eingeloggt sind.
 

@@ -32,8 +32,8 @@ Du kan også **tilføje særlige links** til din mailudsendelse. For at gøre de
 
 * Sådan tilføjes et eksisterende sporet link:
 
-  * Tekst: Klik på ![ikonet][img1] i værktøjslinjen, vælg **Særlige links** &gt; **Sporede links** og vælg et link.
-  * Billede: I sidepanelet (under **Handling**) skal du vælge **Særlige link** &gt; **Sporede links** og vælge et link.
+  * Tekst: Klik på ![ikonet][img1] i værktøjslinjen, vælg **Særlige links** > **Sporede links** og vælg et link.
+  * Billede: I sidepanelet (under **Handling**) skal du vælge **Særlige link** > **Sporede links** og vælge et link.
 
 * Hvis du vil [oprette et nyt sporet link][5], skal du klikke på **Opret nyt sporet link** nederst på skærmen. Dialogboksen **Linkegenskaber** åbner.
 

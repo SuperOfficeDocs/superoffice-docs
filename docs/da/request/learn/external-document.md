@@ -19,7 +19,7 @@ Dette gælder f.eks., når du bruger fanen **Meddelelse**, når du [besvarer sag
 
 ## Vis dokument
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Eksterne dokumenter**.
+1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 
 1. Gå til den ønskede mappe.
 
@@ -32,7 +32,7 @@ Dette gælder f.eks., når du bruger fanen **Meddelelse**, når du [besvarer sag
 > [!NOTE]
 > Du skal oprette selve det fysiske dokument, før du kan føje det til SuperOffice. Hvis du f.eks. skal oprette en prisliste, kan du bruge Microsoft Word eller Excel til at skrive indholdet.
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Eksterne dokumenter**.
+1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 
 1. Gå til den mappe, du vil placere dokumentet i. Hvis den endnu ikke findes, kan du oprette en ny mappe som beskrevet nedenfor.
 
@@ -58,7 +58,7 @@ Dette gælder f.eks., når du bruger fanen **Meddelelse**, når du [besvarer sag
 
 Visse dokumenttyper, f.eks. html, txt og det lokale ejr-format, kan redigeres direkte i skærmbilledet **Egenskaber for dokument**. For andre typer, f.eks. PDF, skal du bruge det program, som dokumentet oprindeligt blev oprettet i.
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Eksterne dokumenter**.
+1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 1. Gå til den mappe, som dokumentet ligger i.
 1. Klik på ![ikon][img1] **Download** for at downloade et dokument.
 1. Rediger og gem dokumentet ved hjælp af det program, som dokumentet oprindeligt blev oprettet i.
@@ -70,7 +70,7 @@ Visse dokumenttyper, f.eks. html, txt og det lokale ejr-format, kan redigeres di
 
 Ved at redigere dokumentegenskaberne kan du f.eks. justere, hvem der skal have adgang til dokumentet.
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Eksterne dokumenter**.
+1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 1. Gå til den mappe, som dokumentet ligger i.
 1. Klik på dokumentets navn for at gå til skærmbilledet **Egenskaber for dokument**.
 1. Foretag de nødvendige ændringer (se ovenfor).
@@ -81,7 +81,7 @@ Ved at redigere dokumentegenskaberne kan du f.eks. justere, hvem der skal have a
 
 ## Slet dokument
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Eksterne dokumenter**.
+1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 1. Gå til den mappe, som dokumentet ligger i.
 1. Klik på dokumentets navn for at gå til skærmbilledet **Egenskaber for dokument**.
 1. Klik på knappen **Slet** nederst i skærmbilledet.
@@ -91,7 +91,7 @@ Ved at redigere dokumentegenskaberne kan du f.eks. justere, hvem der skal have a
 
 Du kan oprette en mappestruktur til dokumenter, så du får en logisk struktur, der gør det let for andre at finde oplysningerne. Du kan oprette undermapper i alle mapper, og i hver af disse mapper kan du tilføje de dokumenter, der hører hjemme der.
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Eksterne dokumenter**.
+1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 
 1. Gå til den mappe, som du vil oprette undermappen under. Du kan vælge at oprette den lige under **Dokumenter** eller i en vilkårlig undermappe under denne.
 
@@ -109,7 +109,7 @@ Du kan oprette en mappestruktur til dokumenter, så du får en logisk struktur, 
 
 Når du sletter en mappe, slettes alle dokumenterne i den også fra SuperOffice.
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Eksterne dokumenter**.
+1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 1. Gå til den ønskede mappe.
 1. Klik på **Rediger mappe**. Du kommer til skærmbilledet **Egenskaber for dokumentmappe**.
 1. Klik på **Slet**.

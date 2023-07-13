@@ -17,7 +17,7 @@ I en ny installation har du två standardsteg i arbetsflödet: **Inte publicerad
 
 ## Skapa nya steg
 
-1. Gå till ![ikon][img4] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **FAQ**.
+1. Gå till ![ikon][img4] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
 1. Klicka på knappen **Arbetsflöde**. Du kommer då till skärmen **Visa arbetsflöde**.
 1. Klicka på knappen **Nytt steg**. Du kommer då till skärmen **Nytt steg**.
 1. Ange ett beskrivande namn på steget i fältet **Namn**.
@@ -36,7 +36,7 @@ I en ny installation har du två standardsteg i arbetsflödet: **Inte publicerad
 
 Du kan både ändra namnet på ett steg och justera vilka användare som ska ha åtkomst till det.
 
-1. Gå till ![ikon][img4] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **FAQ**.
+1. Gå till ![ikon][img4] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
 1. Klicka på knappen **Arbetsflöde**.
 1. Klicka på stegets namn. Du kommer då till skärmen **Redigera steg**.
 1. Ändra namnet vid behov.
@@ -47,7 +47,7 @@ Du kan både ändra namnet på ett steg och justera vilka användare som ska ha 
 
 ## Ta bort steg
 
-1. Gå till ![ikon][img4] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **FAQ**.
+1. Gå till ![ikon][img4] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
 1. Klicka på ![ikon][img2] knappen **Arbetsflöde**.
 1. Klicka på stegets namn. Du kommer då till skärmen **Redigera steg**.
 1. Klicka på **Ta bort**. Om steget inte har några tillhörande FAQ-poster raderas det omedelbart.

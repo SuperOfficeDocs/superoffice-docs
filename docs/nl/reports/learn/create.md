@@ -15,7 +15,7 @@ In het scherm **Rapporten** kunt u alleen [eerder gedefinieerde rapporten draaie
 
 Als u een [rapport als document wilt opslaan][4] (type = Report) in SuperOffice CRM, klikt u op de knop **Opslaan** in scherm **Rapporten**.
 
-U kunt nieuwe rapporten definiëren in SuperOffice Reporter Studio en ze importeren in Instellingen en onderhoud (**Opties** &gt; **Rapporten**).
+U kunt nieuwe rapporten definiëren in SuperOffice Reporter Studio en ze importeren in Instellingen en onderhoud (**Opties** > **Rapporten**).
 
 ## Een afzonderlijk rapport maken
 

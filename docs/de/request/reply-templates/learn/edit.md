@@ -20,7 +20,7 @@ Die Bearbeitung von Antwortvorlagen kann sich folgendermaßen gestalten:
 
 ## Schritte
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Antwortvorlagen** aus.
+1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Antwortvorlagen** aus.
 1. Wechseln Sie zu dem Ordner, in dem die Antwortvorlage gespeichert ist.
 1. Klicken Sie auf die Antwortvorlage. Sie gelangen zur Ansicht **Antwortvorlagen anzeigen**.
 1. Klicken Sie auf die Schaltfläche **Antwortvorlage bearbeiten**. Sie gelangen zur Ansicht **Eigenschaften der Antwortvorlage**.

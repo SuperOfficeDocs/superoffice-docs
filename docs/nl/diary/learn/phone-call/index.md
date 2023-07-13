@@ -14,11 +14,11 @@ language: nl
 Telefoongesprekken zijn vervolgactiviteiten met een standaardduur van 15 minuten. De standaardbegintijd is de huidige tijd en de datum is de huidige datum. U kunt een vervolgactiviteit in de vorm van een gesprek instellen om bijvoorbeeld een uitgaand gesprek te registreren.
 
 > [!TIP]
-> u kunt de standaardduur wijzigen in iets anders dan 15 minuten. Selecteer ![pictogram][img1] **Persoonlijke instellingen** &gt; **Voorkeuren** &gt; **Standaardwaarden** &gt; **Duur van nieuw gesprek** en [voer de gewenste waarde in][4].
+> u kunt de standaardduur wijzigen in iets anders dan 15 minuten. Selecteer ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Standaardwaarden** > **Duur van nieuw gesprek** en [voer de gewenste waarde in][4].
 
 ![pictogram][img2]
 
-Ongeacht waar u zich bevindt in SuperOffice CRM kunt u een nieuw telefoongesprek maken door op de bovenste balk **Nieuw** &gt; **Gesprek** te selecteren.
+Ongeacht waar u zich bevindt in SuperOffice CRM kunt u een nieuw telefoongesprek maken door op de bovenste balk **Nieuw** > **Gesprek** te selecteren.
 
 U kunt gesprekken op de volgende plaatsen weergeven in SuperOffice CRM:
 

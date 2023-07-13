@@ -72,7 +72,7 @@ I dialogboksen **Salgsguide** har du tre muligheder:
 * Markér **Altid oprette opfølgning? Vis ikke denne dialogboks igen**, hvis du fremover altid vil oprette den foreslåede aktivitet. Så åbnes dialogboksen for opfølgninger automatisk næste gang.
 
 > [!TIP]
-> For at nulstille denne indstilling, så dialogboksen **Salgsuide** åbnes, skal du gå til ![ikonet][img1] **Personlige indstillinger** &gt; **Præferencer** &gt; **Salg** og vælge **Ja** for indstillingen **Bekræft oprettelse af foreslået opfølgning**.
+> For at nulstille denne indstilling, så dialogboksen **Salgsuide** åbnes, skal du gå til ![ikonet][img1] **Personlige indstillinger** > **Præferencer** > **Salg** og vælge **Ja** for indstillingen **Bekræft oprettelse af foreslået opfølgning**.
 
 ## Eksempel
 

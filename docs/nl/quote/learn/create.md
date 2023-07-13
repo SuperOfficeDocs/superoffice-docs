@@ -32,7 +32,7 @@ Als het dialoogvenster **ERP-verbinding selecteren** wordt weergegeven terwijl u
 * het ontbreken van prijslijsten in de valuta van de verkoop. U moet een andere valuta selecteren voor de verkoop of een prijslijst maken met de gewenste valuta in Instellingen en onderhoud.
 
     > [!NOTE]
-    > Als de lijst met valuta's niet naast het verkoopbedrag wordt weergegeven, moet u mogelijk het gebruik van valuta inschakelen. Ga naar **Voorkeuren** &gt; **Gebruik van valuta** inschakelen in Instellingen en onderhoud.
+    > Als de lijst met valuta's niet naast het verkoopbedrag wordt weergegeven, moet u mogelijk het gebruik van valuta inschakelen. Ga naar **Voorkeuren** > **Gebruik van valuta** inschakelen in Instellingen en onderhoud.
 
 * SuperOffice CRM is verbonden met een of meer ERP-systemen en er zijn verschillende, relevante ERP-verbindingen waaruit u moet kiezen. De ERP-verbinding bepaalt waar de productinformatie en prijzen worden opgehaald.
 

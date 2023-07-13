@@ -13,7 +13,7 @@ language: da
 
 # Tilføj ekstra tabeller
 
-Du kan oprette ekstratabeller i SuperOffice for at registrere forskellige typer af data. Når du har oprettet tabellen og [oprettet ekstra felter][1] i den, kan du åbne tabellen for at føje indhold til den ved at gå til **Systemdesign** &gt; **Tabeller**, pege på tabellen og klikke på knappen ![ikon][img1].
+Du kan oprette ekstratabeller i SuperOffice for at registrere forskellige typer af data. Når du har oprettet tabellen og [oprettet ekstra felter][1] i den, kan du åbne tabellen for at føje indhold til den ved at gå til **Systemdesign** > **Tabeller**, pege på tabellen og klikke på knappen ![ikon][img1].
 
 > [!NOTE]
 > SuperOffice kan du oprette webpaneler, der kan indeholde tabelinformation. Hvis du vil angive de relevante adgangsrettigheder, skal brugeren tilhøre en rolle, der har de funktionelle rettigheder **Visning af tabeller** og **Rediger tabeller**.
@@ -46,7 +46,7 @@ Du kan oprette ekstratabeller i SuperOffice for at registrere forskellige typer 
 | Overordnet felt | Dette felt bruges i forbindelse med hierarkisk organiserede tabeller. |
 | Fuldt navn |  Hvis dette er en hierarkisk organiseret tabel, kan dette felt angive et felt, der automatisk opdateres med postens fuldstændige navn baseret på navnefeltet for denne post og alle overordnede poster. |
 | Skjul id-felt | Hvis denne valgmulighed er markeret, vil id-feltet ikke være synligt ved visning af tabeller eller underposter. |
-| Skjul tabellen | Hvis afkrydsningsfeltet er markeret, vil tabellen ikke være synlig fra ![ikonet][img3] **Systemdesign** &gt; **Tabeller**. |
+| Skjul tabellen | Hvis afkrydsningsfeltet er markeret, vil tabellen ikke være synlig fra ![ikonet][img3] **Systemdesign** > **Tabeller**. |
 
 ## Hvad vil du foretage dig nu?
 

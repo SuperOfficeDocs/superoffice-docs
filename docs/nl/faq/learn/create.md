@@ -16,7 +16,7 @@ language: nl
 Door items in Veelgestelde vragen te maken, kan uw organisatie een uitgebreide verzameling vragen en antwoorden samenstellen, die kan worden geraadpleegd door zowel klanten als medewerkers om nuttige informatie te vinden. Items in Veelgestelde vragen kunnen op twee manieren worden gemaakt:
 
 * Een gebruiker kan een item in Veelgestelde vragen maken op basis van communicatie met een klant in het scherm Verzoeken.
-* Een beheerder maakt een item in Veelgestelde vragen rechtstreeks in **Kennisdatabase** &gt; **Veelgestelde vragen**.
+* Een beheerder maakt een item in Veelgestelde vragen rechtstreeks in **Kennisdatabase** > **Veelgestelde vragen**.
 
 Bekijk deze video en ontdek hoe u veelgestelde vragen kunt maken en publiceren in het klantportaal of volg de stapsgewijze handleiding hieronder (videolengte - 3:01):
 
@@ -94,7 +94,7 @@ Wanneer u een verzoek beantwoordt en denkt dat dezelfde vraag mogelijk vaker zal
 
 ## Nieuwe Veelgestelde vraag maken
 
-1. Ga naar ![pictogram][img4] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Veelgestelde vragen**.
+1. Ga naar ![pictogram][img4] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
 
 1. Ga naar de map waar u het item in Veelgestelde vragen wilt opslaan. Als deze nog niet bestaat, kunt u [een nieuwe map maken][2].
 

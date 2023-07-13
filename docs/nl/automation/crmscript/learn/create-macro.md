@@ -32,7 +32,7 @@ We maken nu een macro gebaseerd op het bovenstaande voorbeeld.
 
 1. Schakel de optie **Nieuw menu** in om de macro beschikbaar te maken voor de knop **Taak** in het scherm Bedrijf, het scherm Persoon, het scherm Verzoek of het tabblad **Bericht**.
 
-1. Ga naar het tabblad **Acties** en selecteer **Actietype kiezen** &gt; **Een verzoek wijzigen**.
+1. Ga naar het tabblad **Acties** en selecteer **Actietype kiezen** > **Een verzoek wijzigen**.
 
 1. Schakel **Categorie** in en selecteer een categorie in de lijst (bijvoorbeeld *Boekhouding*).
 

@@ -17,7 +17,7 @@ Det kan være aktuelt at have samme svarskabelon tilgængelig på flere sprog, h
 
 ## Tilføj sprog til svarskabelon
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Svarskabeloner**.
+1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Svarskabeloner**.
 
 2. Gå til den mappe, som svarskabelonen ligger i.
 

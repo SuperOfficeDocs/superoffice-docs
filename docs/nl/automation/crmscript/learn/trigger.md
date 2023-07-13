@@ -44,10 +44,10 @@ We maken nu een actiereeks gebaseerd op het bovenstaande voorbeeld.
 1. Klik op **Nieuwe actie** en selecteer **E-mail of SMS verzenden**. We passen nu de e-mail aan die naar de klant wordt gestuurd.
 1. Selecteer **Onderwerp**.
 1. Klik op het ![pictogram][img1] parameterpictogram rechts en klik vervolgens op het veld **Parameter kiezen**.
-1. Selecteer **Een verzoek wijzigen** &gt; **Titel**. Hiermee zet u de verzoektitel in het onderwerp van de e-mail.
-1. Selecteer **Van** en selecteer **Een verzoek wijzigen** &gt; **Eigenaar**.
-1. Selecteer **Aan** en selecteer **Een verzoek wijzigen** &gt; **Persoon: E-mailadres**.
-1. Selecteer **HTML-bericht** en selecteer **Een antwoordsjabloon voor samenvoeging laden** &gt; **HTML-tekst**.
+1. Selecteer **Een verzoek wijzigen** > **Titel**. Hiermee zet u de verzoektitel in het onderwerp van de e-mail.
+1. Selecteer **Van** en selecteer **Een verzoek wijzigen** > **Eigenaar**.
+1. Selecteer **Aan** en selecteer **Een verzoek wijzigen** > **Persoon: E-mailadres**.
+1. Selecteer **HTML-bericht** en selecteer **Een antwoordsjabloon voor samenvoeging laden** > **HTML-tekst**.
 1. Klik op **Toepassen**.
 
 U hebt nu een macro gemaakt die een e-mail naar de klant stuurt met 'Verzoek gesloten' wanneer een verzoek wordt gesloten. Deze trigger is direct actief als u bovenaan **Ingeschakeld** hebt ingeschakeld.

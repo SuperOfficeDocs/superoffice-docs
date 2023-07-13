@@ -26,7 +26,7 @@ Hvis dit kundecenter er flersproget, kan du angive indstillinger (f.eks. velkoms
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Vælg ![ikon][img1] **Kundecenter** &gt; **Konfigurer**. Der er 2 faner på skærmen Kundecenter **Kundecenter**: **Styling** og **Indstillinger**. Øverst på denne side finder du et link til forhåndsvisning af kundecenterets webside.
+1. Vælg ![ikon][img1] **Kundecenter** > **Konfigurer**. Der er 2 faner på skærmen Kundecenter **Kundecenter**: **Styling** og **Indstillinger**. Øverst på denne side finder du et link til forhåndsvisning af kundecenterets webside.
 
 1. Under fanen **Styling** kan du redigere forskellige indstillinger for kundecentrets udseende og funktionalitet: Logo, foretrukken bredde, farver og skrifttyper. Eksemplet opdateres automatisk.
 

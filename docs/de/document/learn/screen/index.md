@@ -13,7 +13,7 @@ language: de
 
 Ein zentraler Bestandteil der Dokumentfunktion ist das Dialogfeld **Dokument**, das Sie auf unterschiedliche Weise öffnen können:
 
-* Durch Auswählen von **Neu** &gt; **Dokument**.
+* Durch Auswählen von **Neu** > **Dokument**.
 * Indem Sie ein [vorhandenes Dokument][1] öffnen.
 
 Das Dialogfeld besteht aus einer Hauptkomponente mit allgemeinen Informationen über das Dokument und den folgenden Registerkarten mit zusätzlichen Informationen:

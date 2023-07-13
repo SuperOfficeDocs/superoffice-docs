@@ -13,7 +13,7 @@ language: da
 
 # Rediger FAQ-poster
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **FAQ**.
+1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
 1. Gå til den mappe, som FAQ-posten ligger i.
 1. Klik på den ønskede FAQ-post.
 1. På skærmbilledet med **ofte** stillede spørgsmål skal du klikke på **Rediger post**.

@@ -24,7 +24,7 @@ Het tabblad **Voorbeeld** bevat de volgende velden:
 | Bijlagen | Hier worden eventuele bijlagen weergegeven. |
 
 > [!NOTE]
-> Ga naar ![pictogram][img1] **Persoonlijke instellingen** &gt; **E-mailopties**. Selecteer het tabblad **Algemeen**. Als u de optie **Inline afbeeldingen weergeven** inschakelt, worden inline-afbeeldingen weergegeven in het de voorbeeldweergave.
+> Ga naar ![pictogram][img1] **Persoonlijke instellingen** > **E-mailopties**. Selecteer het tabblad **Algemeen**. Als u de optie **Inline afbeeldingen weergeven** inschakelt, worden inline-afbeeldingen weergegeven in het de voorbeeldweergave.
 
 ## Verwante onderwerpen
 

@@ -32,8 +32,8 @@ Sie können Ihrer Kampagne auch **spezielle Links hinzufügen**. Wählen Sie hie
 
 * So fügen Sie einen bestehenden überwachten Link hinzu:
 
-  * Text: Klicken Sie auf ![Symbol][img1] in der Werkzeugleiste, wählen Sie **Spezielle Links** &gt; **Überwachte Links** und einen Link aus.
-  * Bild: In der Seitenleiste (unter **Aktion**) wählen Sie **Besondere Links** &gt; **Überwachte Links** und einen Link aus.
+  * Text: Klicken Sie auf ![Symbol][img1] in der Werkzeugleiste, wählen Sie **Spezielle Links** > **Überwachte Links** und einen Link aus.
+  * Bild: In der Seitenleiste (unter **Aktion**) wählen Sie **Besondere Links** > **Überwachte Links** und einen Link aus.
 
 * Klicken Sie unten in der Ansicht auf [Neuen überwachten Link erstellen][5], damit Sie einen **neuen überwachten Link erstellen** können. Das Dialogfeld **Linkeigenschaften** wird geöffnet.
 

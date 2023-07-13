@@ -15,7 +15,7 @@ Du kan opdatere standardsiderne i dit kundecenter ved at redigere kildefilerne.
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
-1. Vælg ![ikon][img1] **Systemindstillinger** &gt; **Kundecenter-kildefiler**.
+1. Vælg ![ikon][img1] **Systemindstillinger** > **Kundecenter-kildefiler**.
 
 2. Klik på en webside på listen.
 

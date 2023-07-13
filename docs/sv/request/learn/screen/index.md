@@ -47,7 +47,7 @@ Fliken **Meddelanden** visar de meddelanden som är kopplade till ärendet.
 
 Du kan ändra hur många meddelanden som visas i ![ikon][img2] **Personliga inställningar**:
 
-1. Välj ![ikon][img2] **Personliga inställningar** &gt; **Inställningar**.
+1. Välj ![ikon][img2] **Personliga inställningar** > **Inställningar**.
 1. Välj gruppen för **Ärende**.
 1. Ange antalet meddelanden i fältet **Antal expanderade meddelanden**.
 1. Klicka på **OK**.

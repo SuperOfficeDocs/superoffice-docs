@@ -25,7 +25,7 @@ WebTools bestaat uit een e-mail plugin en een document plugin:
 
 U wordt automatisch gevraagd om SuperOffice Web Tools te upgraden of te installeren wanneer u zich voor de eerste keer op uw pc aanmeldt bij SuperOffice CRM.
 
-Als dit welkomstscherm niet verschijnt of u het opnieuw wilt downloaden, kunt u de downloadwizard voor SuperOffice Web Tools handmatig starten (![pictogram][img1]) **Hoofdmenu** &gt; **Downloaden** &gt; **SuperOffice Web Tools**.
+Als dit welkomstscherm niet verschijnt of u het opnieuw wilt downloaden, kunt u de downloadwizard voor SuperOffice Web Tools handmatig starten (![pictogram][img1]) **Hoofdmenu** > **Downloaden** > **SuperOffice Web Tools**.
 
 **Taken:**
 

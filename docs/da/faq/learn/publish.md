@@ -16,7 +16,7 @@ language: da
 Når en sagsbehandler [opretter et forslag til en FAQ-post][1], vil det være ikke-udgivet og vil ikke være tilgængelig i SuperOffice Customer Centre. For at gøre det tilgængeligt skal en person med administratorrettigheder til ofte stillede spørgsmål offentliggøre den.
 
 1. Når du logger på systemet, vises eventuelle ikke-udgivne FAQ-poster i ruden **Status** i dashboardet under **Ikke-udgivne FAQ-poster**.
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **FAQ**.
+1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
 1. Klik på den ønskede post.
 1. På skærmbilledet med **ofte** stillede spørgsmål skal du klikke på **Rediger post**.
 1. På skærmbilledet **Egenskaber for FAQ-post** skal du vælge fanerne **Spørgsmål** og **Svar** og gennemlæse spørgsmål og svar.

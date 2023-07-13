@@ -17,7 +17,7 @@ Het kan nuttig zijn dezelfde antwoordsjabloon in meerdere talen op te stellen, b
 
 ## Talen toevoegen aan antwoordsjabloon
 
-1. Ga naar ![het pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Antwoordsjablonen**.
+1. Ga naar ![het pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Antwoordsjablonen**.
 
 2. Ga naar de map waar de antwoordsjabloon zich bevindt.
 

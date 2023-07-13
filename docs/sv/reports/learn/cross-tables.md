@@ -45,8 +45,8 @@ Om du vill visa en korstabellsrapport (.Dcube-fil) måste du installera **progra
 
 1. Efter att ha redigerat färdigt innehållet i korstabellen kan du göra ett av följande:
 
-    * Välj **Arkiv** &gt; **Förhandsgranska** för att förhandsgranska rapporten.
-    * Välj **Arkiv** &gt; **Skriv ut** för att skriva ut rapporten.
+    * Välj **Arkiv** > **Förhandsgranska** för att förhandsgranska rapporten.
+    * Välj **Arkiv** > **Skriv ut** för att skriva ut rapporten.
     * Klicka på **Exportera** för att spara rapporten i Excel-format.
 
 1. Klicka på **OK** om du vill stänga programmet för granskning av korstabeller.

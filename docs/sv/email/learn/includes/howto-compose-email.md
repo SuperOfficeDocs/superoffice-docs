@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-1. Välj **Nytt** &gt; **E-post**.
+1. Välj **Nytt** > **E-post**.
 
 2. Klicka i fältet **Till** i dialogrutan **E-post** och börja skriva in namnet på kontakten du vill skicka meddelandet till.
 

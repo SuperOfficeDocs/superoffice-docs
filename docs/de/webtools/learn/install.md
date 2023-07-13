@@ -32,8 +32,8 @@ Sehen Sie sich dieses Video an oder folgen Sie der folgenden Anleitung, um zu le
 ### Schritte
 
 1. Gehen Sie zum ![Symbol][img1] Hauptmenü in der oberen Leiste.
-2. Wählen Sie **Download** &gt; **SuperOffice WebTools** aus. Es wird der Assistent für SuperOffice WebTools angezeigt.
-3. Wählen Sie im Assistenten **Personal Computer** &gt; **SuperOffice** und klicken Sie auf **Download**, um die Installationsdatei herunterzuladen.
+2. Wählen Sie **Download** > **SuperOffice WebTools** aus. Es wird der Assistent für SuperOffice WebTools angezeigt.
+3. Wählen Sie im Assistenten **Personal Computer** > **SuperOffice** und klicken Sie auf **Download**, um die Installationsdatei herunterzuladen.
 4. Klicken Sie auf **Weiter** und **Schließen**, um den WebTools-Assistenten zu schließen.
 5. Klicken Sie im Download-Bereich des Browsers auf die heruntergeladene Datei **SuperOffice.Web.Tools.exe**.
 6. Doppelklicken Sie zum Starten der Installation auf die Datei **SuperOffice WebTools Installer.pkg**.

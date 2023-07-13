@@ -21,7 +21,7 @@ Ga naar ![pictogram][img2] **Voorkeuren** in de navigator en selecteer het tabbl
 
 * **Standaardlettertypegewicht**: Gewicht (dikte) van het standaardlettertype in de Verzoekeditor.
 
-* **E-mailmelding sturen voor openstaande verzoeken**: Geeft aan of een e-mailbericht over openstaande verzoeken wordt verzonden naar de gebruikers. Als u **Gebruiker mag kiezen** selecteert, kunnen gebruikers de e-mailmelding inschakelen en uitschakelen in ![pictogram][img1] **Persoonlijke instellingen** &gt; **Voorkeuren** &gt; **Melding via e-mail & SMS**.
+* **E-mailmelding sturen voor openstaande verzoeken**: Geeft aan of een e-mailbericht over openstaande verzoeken wordt verzonden naar de gebruikers. Als u **Gebruiker mag kiezen** selecteert, kunnen gebruikers de e-mailmelding inschakelen en uitschakelen in ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Melding via e-mail & SMS**.
 
 * **Nieuwe status bij acceptatie verzoek**: Selecteer welke status wordt gebruikt wanneer een verzoek wordt geaccepteerd door een gebruiker.
 

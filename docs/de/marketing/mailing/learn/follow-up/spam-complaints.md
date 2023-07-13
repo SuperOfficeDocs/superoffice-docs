@@ -36,7 +36,7 @@ Wenn ein Empfänger Mailgun verwendet, werden alle als Spam gemeldeten E-Mails z
 Sie können die Liste zur weiteren Verarbeitung exportieren.
 
 1. Wählen Sie die E-Mail-Adressen aus, die Sie exportieren möchten.
-2. Wählen Sie **Aktionen** &gt; **Exportieren**.
+2. Wählen Sie **Aktionen** > **Exportieren**.
 3. Wählen Sie ein Exportformat aus. Die Exportdatei wird unten im Browser angezeigt. Sie kann auch in Ihrem Download-Ordner gefunden werden.
 
 <!-- Referenced links -->

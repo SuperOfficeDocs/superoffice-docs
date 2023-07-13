@@ -17,7 +17,7 @@ Du kan skapa en mappstruktur för FAQ-posterna så att de får en logisk struktu
 
 ## Skapa mappar
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **FAQ**.
+1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
 
 1. Klicka på knappen **Ny mapp**. Du kommer då till skärmen **Egenskaper för FAQ-mapp**.
 

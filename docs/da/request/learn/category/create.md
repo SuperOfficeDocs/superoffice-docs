@@ -60,7 +60,7 @@ language: da
            Eksempel: Hvis person A har vægt 1, person B har vægt 2, og person C har vægt 5, vil hver af disse kontakter i løbet af otte sager få fordelt lige så mange sager, som deres vægtede tal angiver.
 
         * **Til sagsbehandleren med færrest aktive sager**: Fordeler nye sager til det kategorimedlem, der har færrest aktive sager.
-        * **Fordel ikke**: Fordeler ikke sager til bestemte brugere, men sætter som standard alle sager i kø. Enten under **Sager** &gt; **Ikke-tildelte sager** (standard) eller i køsystemet **Få næste sag i køen** (se [Sådan konfigureres Få næste sag i køen][3]).
+        * **Fordel ikke**: Fordeler ikke sager til bestemte brugere, men sætter som standard alle sager i kø. Enten under **Sager** > **Ikke-tildelte sager** (standard) eller i køsystemet **Få næste sag i køen** (se [Sådan konfigureres Få næste sag i køen][3]).
 
     * **Fordel kun til sagsbehandlere, der er logget ind**: Fordeler kun sager til brugere, der er logget ind i SuperOffice Service.
 

@@ -19,7 +19,7 @@ Sie haben viele Möglichkeiten, einen Termin zu erstellen. Geben Sie in allen F�
 
 Führen Sie einen der folgenden Schritte aus:
 
-* Wählen Sie auf der [oberen Leiste][3] die Befehlsfolge **Neu** &gt; **Termin**.
+* Wählen Sie auf der [oberen Leiste][3] die Befehlsfolge **Neu** > **Termin**.
 * Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Aufgabe** in der Personenkarte und wählen Sie **Besprechung anfordern**.
 * Klicken Sie auf der Registerkarte **Aktivitäten** auf die Schaltfläche **Hinzufügen**.
 
@@ -40,7 +40,7 @@ Führen Sie einen der folgenden Schritte aus:
 * Klicken Sie auf **Neu** auf der oberen Leiste und wählen Sie **Termin**, **Anruf** oder **Aufgabe** aus.
 
 > [!NOTE]
-> Wenn Sie den Termin von [der Registerkarte **Ansicht**][1] erstellen, können Sie wählen, ob das Dialogfeld **Teilnehmer** automatisch mit den Mitgliedern der Ansicht befüllt werden soll. Wenn Sie diese Option einstellen möchten, gehen Sie zum ![Symbol][img2] **Persönliche Einstellungen** &gt; **Einstellungen** &gt; **Funktionen** und stellen Sie die Einstellung **Teilnehmer aus Gruppenansicht** auf **Ja**. Klicken Sie auf **Speichern**.
+> Wenn Sie den Termin von [der Registerkarte **Ansicht**][1] erstellen, können Sie wählen, ob das Dialogfeld **Teilnehmer** automatisch mit den Mitgliedern der Ansicht befüllt werden soll. Wenn Sie diese Option einstellen möchten, gehen Sie zum ![Symbol][img2] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** und stellen Sie die Einstellung **Teilnehmer aus Gruppenansicht** auf **Ja**. Klicken Sie auf **Speichern**.
 
 ## Zugehörige Inhalte
 

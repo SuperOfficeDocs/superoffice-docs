@@ -60,7 +60,7 @@ language: sv
            Exempel: Om kontakt A har vikt 1, B har vikt 2 och C har vikt 5 så kommer, under ett lopp av 8 ärenden, var och en av dessa kontakter att tilldelas lika många ärenden som deras vikttal anger.
 
         * **Till användare med minst aktiva ärenden**: Nya ärenden tilldelas till den kategorimedlem som har minst antal aktiva ärenden.
-        * **Tilldela inte**: Ärenden tilldelas inte till specifika användare, utan alla ärenden placeras i en kö som standard. Antingen under **Ärenden** &gt; **Otilldelade ärenden** (standard) eller i kösystemet **Hämta nästa ärende i kön** (se [Hur du konfigurerar Hämta nästa ärende i kön][3]).
+        * **Tilldela inte**: Ärenden tilldelas inte till specifika användare, utan alla ärenden placeras i en kö som standard. Antingen under **Ärenden** > **Otilldelade ärenden** (standard) eller i kösystemet **Hämta nästa ärende i kön** (se [Hur du konfigurerar Hämta nästa ärende i kön][3]).
 
     * **Tilldela bara till inloggade användare**: Tilldelar bara ärenden till användare som är inloggade i SuperOffice Service.
 

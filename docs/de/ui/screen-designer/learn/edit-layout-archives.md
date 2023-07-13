@@ -96,7 +96,7 @@ Wenn Sie ein bestehendes Archiv bearbeiten wollen, wählen Sie es aus und bearbe
 
 ## Archive entfernen
 
-1. Wählen Sie das Archiv (oder eine andere Bereichsregisterkarte) aus und klicken Sie auf **Aufgabe** &gt; **Registerkarte entfernen**.
+1. Wählen Sie das Archiv (oder eine andere Bereichsregisterkarte) aus und klicken Sie auf **Aufgabe** > **Registerkarte entfernen**.
 
 1. Klicken Sie in dem angezeigten Dialogfeld auf **OK**. Die Registerkarte wird entfernt (ausgeblendet, aber nicht gelöscht).
 

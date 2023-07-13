@@ -15,7 +15,7 @@ Taken zijn vervolgactiviteiten die meestal geen vaste tijd of duur hebben. Een t
 
 ![pictogram][img1]
 
-Ongeacht waar u zich bevindt in SuperOffice CRM kunt u een nieuwe taak maken door te klikken op **Nieuw** &gt; **Taak** op de bovenste balk.
+Ongeacht waar u zich bevindt in SuperOffice CRM kunt u een nieuwe taak maken door te klikken op **Nieuw** > **Taak** op de bovenste balk.
 
 Taken kunnen op de volgende plaatsen in SuperOffice CRM worden weergegeven:
 
