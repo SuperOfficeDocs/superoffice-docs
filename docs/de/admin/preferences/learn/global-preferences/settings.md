@@ -45,7 +45,7 @@ Gehen Sie im Navigator zum ![Symbol][img2] **Einstellungen** und wählen Sie die
 
 * **Grenzwert für Benutzerinaktivität (in Stunden)**: Nach der festgelegten Anzahl von Stunden ohne Benutzeraktivität gilt der Benutzer als inaktiv (standardmäßig 2 Stunden). Dies wird beispielsweise bei der Aufteilung von Anfragen genutzt.
 
-* **Zugriffsstufe ’Extern’ ist voreingestellt**: Wenn diese Option aktiviert ist, wird neuen Anfragen und Nachrichten standardmäßig die Zugriffsstufe Extern zugewiesen. Andernfalls wird die Zugriffsstufe Intern als Standard verwendet.
+* **Zugriffsstufe 'Extern' ist voreingestellt**: Wenn diese Option aktiviert ist, wird neuen Anfragen und Nachrichten standardmäßig die Zugriffsstufe Extern zugewiesen. Andernfalls wird die Zugriffsstufe Intern als Standard verwendet.
 
 * **Keine E-Mail an neue Personen senden**: Wenn Sie diese Option aktivieren, werden keine E-Mails an neu erfasste Personen gesendet.
 

@@ -165,7 +165,7 @@ Stellen Sie sich während dieses Bereinigungsprozesses folgende Fragen:
 
 Nachdem Sie nun wissen, welche Informationen Sie aufbewahren und wie Sie Ihre vorhandenen Kundeninformationen aktualisieren möchten, müssen Sie prüfen, wie Sie auch in Zukunft DSGVO-konform bleiben können.
 
-Dafür müssen Sie sich zunächst fragen: „Wie werden Personen normalerweise in meine SuperOffice-Datenbank aufgenommen?“
+Dafür müssen Sie sich zunächst fragen: "Wie werden Personen normalerweise in meine SuperOffice-Datenbank aufgenommen?"
 
 Es gibt drei Möglichkeiten, wie Personen zu Ihrer Datenbank hinzugefügt werden:
 
@@ -266,7 +266,7 @@ Mit dem Abschluss der drei Schritte haben Sie wichtige Maßnahmen zur Einhaltung
 
 ## Verwandt
 
-* [Unsere Vorlage „Vorbereitung auf die DSGVO“ herunterladen][3]
+* [Unsere Vorlage "Vorbereitung auf die DSGVO" herunterladen][3]
 * [Vertiefung, wie SuperOffice CRM Ihnen hilft, alle 8 grundlegenden DSGVO-Rechte zu befolgen und einzuhalten][5]
 * [E-Mail zur Datenschutzbestätigung bearbeiten][6]
 

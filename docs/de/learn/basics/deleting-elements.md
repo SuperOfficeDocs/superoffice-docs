@@ -11,7 +11,7 @@ language: de
 
 # Objekte löschen und wiederherstellen
 
-Um mit Kunden und Personen effizient arbeiten zu können, ist es wichtig, eine „aufgeräumte“ Umgebung zu haben. Wenn Sie neue Firmen und Personen hinzufügen, müssen Sie überprüfen, dass diese nicht zuvor hinzugefügt wurden. Natürliche müssen sie auch sicherstellen, dass Sie korrekte Informationen zu Firmen und Personen hinzufügen. Löschen Sie also unbenutzte Firmen und Personen und führen Sie doppelte Firmen und Personen zusammenführen.
+Um mit Kunden und Personen effizient arbeiten zu können, ist es wichtig, eine "aufgeräumte" Umgebung zu haben. Wenn Sie neue Firmen und Personen hinzufügen, müssen Sie überprüfen, dass diese nicht zuvor hinzugefügt wurden. Natürliche müssen sie auch sicherstellen, dass Sie korrekte Informationen zu Firmen und Personen hinzufügen. Löschen Sie also unbenutzte Firmen und Personen und führen Sie doppelte Firmen und Personen zusammenführen.
 
 ## Firmen und Personen zusammenführen
 

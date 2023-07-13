@@ -23,7 +23,7 @@ Du kan ange perioden (varaktighet i dagar) för följande räknare:
 
 [!include[Define counter](../../../learn/includes/def-counter.md)]
 
-Du kan ange upp till tre olika perioder, så att du kan välja mellan kortare eller längre perioder för de olika SAINT-kriterierna. Till exempel: Om du ställer in **Period 1** på 30 dagar och **Period 2** på 90 dagar, kan du till exempel välja mellan SAINT-kriteriet ”Antal försäljningar under de senaste 30 dagarna” OCH ”Antal försäljningar under de senaste 90 dagarna”.
+Du kan ange upp till tre olika perioder, så att du kan välja mellan kortare eller längre perioder för de olika SAINT-kriterierna. Till exempel: Om du ställer in **Period 1** på 30 dagar och **Period 2** på 90 dagar, kan du till exempel välja mellan SAINT-kriteriet "Antal försäljningar under de senaste 30 dagarna" OCH "Antal försäljningar under de senaste 90 dagarna".
 
 ## Steg
 

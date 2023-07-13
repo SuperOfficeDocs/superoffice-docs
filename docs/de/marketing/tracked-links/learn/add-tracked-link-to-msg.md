@@ -17,7 +17,7 @@ Durch das Einrichten von Links, die Leser zu verschiedenen Inhalten auf Ihrer We
 
 ![Fügen Sie Ihrer Kampagne einen Link hinzu, indem Sie einen Teil des zu verknüpfenden Textes auswählen und am Texteditor auf das Symbol Link einfügen klicken -screenshot][img2]
 
-Sie können Ihrer Kampagne auch **spezielle Links hinzufügen**. Wählen Sie hierzu das Dropdown-Menü „Spezielle Links aus. Je nachdem, was Sie erreichen möchten, können Sie zwischen folgendem wählen:
+Sie können Ihrer Kampagne auch **spezielle Links hinzufügen**. Wählen Sie hierzu das Dropdown-Menü "Spezielle Links aus. Je nachdem, was Sie erreichen möchten, können Sie zwischen folgendem wählen:
 
 * Link zur Online-Anzeige der Mitteilung
 * Abonnements verwalten

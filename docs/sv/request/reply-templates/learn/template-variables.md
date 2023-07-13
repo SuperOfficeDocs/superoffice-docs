@@ -58,7 +58,7 @@ När du redigerar svarsmallar och utskick kan du infoga mallvariabler genom att 
 
 | Variabel | Beskrivning|
 |---|---|
-| Länk för att visa meddelande online | URL för att visa utskicksmeddelandet online i en webbläsare, t.ex. ”Klicka här om meddelandet ser konstigt ut” |
+| Länk för att visa meddelande online | URL för att visa utskicksmeddelandet online i en webbläsare, t.ex. "Klicka här om meddelandet ser konstigt ut" |
 | link.subscription | Länk för att avsluta din prenumeration |
 | link.viewShipmentMessage | Länk för att visa utskicksmeddelandet online |
 
@@ -78,7 +78,7 @@ När du redigerar svarsmallar och utskick kan du infoga mallvariabler genom att 
 | config.panicMail | E-postadressen som felmeddelanden ska skickas till |
 | config.smtpHost | Värdnamn för utgående SMTP |
 | config.smtpPort | Port för utgående SMTP |
-| config.tag | Prefix före ärendenumret i ämnesraden för e-post. Till exempel ”ejTag:” |
+| config.tag | Prefix före ärendenumret i ämnesraden för e-post. Till exempel "ejTag:" |
 | config.uniqueId | Unikt ID för denna installation |
 | config.warning | Sökväg för varningsloggfilerna |
 | config.wwwPath | Systemsökväg för WWW-filer |

@@ -53,7 +53,7 @@ Urval är ett mycket flexibelt och kraftfullt verktyg, efter att du har behärsk
 
 Du kan också använda SAINT för att identifiera möjliga kontakter som behöver raderas.
 
-SAINT står för ”SAles INTelligence" och fungerar genom att bidra med några smarta algoritmer i dina CRM-data.
+SAINT står för "SAles INTelligence" och fungerar genom att bidra med några smarta algoritmer i dina CRM-data.
 
 Enkelt uttryckt övervakar SuperOffice SAINT de data du har lagrat i din CRM-lösning och varnar dig om olika statusar eller åtgärdsärenden som du har definierat som viktiga. Det kan vara allt från åtgärder som ännu inte har hänt under en viss tid, till värden som uppfylls eller inte uppfylls, och som du vill bli varnad om, så att du kan vidta de åtgärder som krävs.
 

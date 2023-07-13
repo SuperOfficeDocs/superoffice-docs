@@ -34,7 +34,7 @@ language: sv
 
 ## Inkommande chattsamtal när inga agenter är på plats (utanför arbetstid)
 
-Om ingen agent är tillgänglig (vanligtvis utanför arbetstid) visas ett kort meddelande i chattfönstret. Exempel: ”Tyvärr. Vi har stängt. Första tiden är ...”
+Om ingen agent är tillgänglig (vanligtvis utanför arbetstid) visas ett kort meddelande i chattfönstret. Exempel: "Tyvärr. Vi har stängt. Första tiden är ..."
 
 Om insändning av ärende har aktiverats för chattkanalen kan kunden ange namn, e-postadress och en fråga. Ärende-ID visas i chattfönstret.
 

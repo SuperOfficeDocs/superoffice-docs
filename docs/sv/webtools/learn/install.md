@@ -40,7 +40,7 @@ Titta på den här videon eller följ guiden nedan för att lära dig hur du ins
 7. Klicka på **Fortsätt**.
 8. Klicka på **Installera**.
 9. Om du blir ombedd att ange ditt användarnamn och lösenord för att installera, anger du detta och klickar sedan på **Installera programvara**.
-10. När meddelandet ”Installationen lyckades” visas, stäng dialogrutan.
+10. När meddelandet "Installationen lyckades" visas, stäng dialogrutan.
 11. Slutligen loggar du ut från SuperOffice CRM, stänger webbläsarfönstret och öppnar webbläsarfönstret igen för att logga in på nytt.
 
 Med WebTools installerat kan du börja skapa dokument i SuperOffice
@@ -57,7 +57,7 @@ Med WebTools installerat kan du börja skapa dokument i SuperOffice
 
 ## Valfri inställning för standardstart
 
-Lägg till ”SuperOffice WebTools” till din användares "Startobjekt”, så att det startas tillsammans med din Mac.
+Lägg till "SuperOffice WebTools" till din användares "Startobjekt", så att det startas tillsammans med din Mac.
 
 ![Lägg till SuperOffice WebTools i dina startobjekt så att programmet startas automatiskt -screenshot][img3]
 

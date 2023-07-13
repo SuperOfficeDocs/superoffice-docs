@@ -53,7 +53,7 @@ Die Selektion ist ein sehr flexibles und mächtiges Tool, nachdem Sie gelernt ha
 
 Sie können SAINT auch verwenden, um mögliche Personen zu identifizieren, die gelöscht werden müssen.
 
-SAINT steht für „SAles INTelligence“ und funktioniert, indem es Ihren CRM-Daten einige intelligente Algorithmen hinzufügt.
+SAINT steht für "SAles INTelligence" und funktioniert, indem es Ihren CRM-Daten einige intelligente Algorithmen hinzufügt.
 
 Einfach ausgedrückt überwacht SuperOffice SAINT die Daten, die Sie in Ihrer CRM-Lösung gespeichert haben, und benachrichtigt Sie über verschiedene Status oder Aktionsanfragen, die Sie als wichtig definiert haben. Dies kann alles sein, was mit Aktionen verbunden ist, die in einem bestimmten Zeitraum noch nicht stattgefunden haben. Dazu gehören auch Werte, die erfüllt oder nicht erfüllt werden und über die Sie benachrichtigt werden möchten, damit Sie entsprechend handeln können.
 

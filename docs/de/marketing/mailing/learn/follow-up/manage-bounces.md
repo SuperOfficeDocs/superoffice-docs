@@ -104,12 +104,12 @@ Verwenden Sie diese Option, um E-Mail-Adressen dauerhaft aus der Datenbank zu l�
 2. Wählen Sie **Aktionen** > **Ausgewählte E-Mail-Adressen löschen**.
 3. Klicken Sie zur Bestätigung auf **OK**.
 
-### Kennzeichnung “Zustellung nicht möglich” aufheben
+### Kennzeichnung "Zustellung nicht möglich" aufheben
 
 Verwenden Sie diese Option, um E-Mail-Adressen aus der Liste zu entfernen, damit sie in Kampagnen verwendet werden können. Dies kann relevant sein, wenn Unzustellbarkeiten aufgrund einer falschen Konfiguration oder aus temporären technischen Gründen auftreten, oder wenn Sie wissen, dass diese E-Mail-Adressen korrekt sind und einen zweiten Sendeversuch unternehmen möchten.
 
 1. Wählen Sie die E-Mail-Adressen aus, deren Kennzeichnung Zustellung nicht möglich entfernt werden soll.
-2. Wählen Sie **Aktionen** > **Kennzeichnung “Zustellung nicht möglich” aufheben**.
+2. Wählen Sie **Aktionen** > **Kennzeichnung "Zustellung nicht möglich" aufheben**.
 3. Klicken Sie zur Bestätigung auf **OK**.
 
 ### Als ausgeschiedenen Mitarbeiter festlegen

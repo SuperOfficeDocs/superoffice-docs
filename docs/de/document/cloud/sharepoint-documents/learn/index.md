@@ -26,8 +26,8 @@ Um SharePoint als Ihre Dokumentbibliothek in SuperOffice einzurichten, benötige
 * Microsoft 365 für Business-Abonnement
   * Wenn Sie kein Microsoft 365-Abonnement haben, müssen Sie sich dafür bei Microsoft anmelden
 * Eine SharePoint-Dokumentbibliothek (zum Speichern von Dokumenten)
-* Wenn sie einen Gruppenzugriff auf SharePoint-Dokumente gemäß den Einstellungen „Sichtbar für“ in SuperOffice aktivieren möchten
-  * Sie benötigen Zugriff auf „Global Admin“-Rechte in Microsoft 365 (um SuperOffice als vertrauenswürdige App in Ihrer Microsoft 365-Lösung authentifizieren zu können). Diesen können Sie entweder während der Einrichtung beantragen odereinen Link an jemanden senden, der es ist.
+* Wenn sie einen Gruppenzugriff auf SharePoint-Dokumente gemäß den Einstellungen "Sichtbar für" in SuperOffice aktivieren möchten
+  * Sie benötigen Zugriff auf "Global Admin"-Rechte in Microsoft 365 (um SuperOffice als vertrauenswürdige App in Ihrer Microsoft 365-Lösung authentifizieren zu können). Diesen können Sie entweder während der Einrichtung beantragen odereinen Link an jemanden senden, der es ist.
 
 > [!NOTE]
 > Wenn Sie kein Microsoft 365-Abonnement haben und sich nicht für eines anmelden können, können Sie die standardmäßige SuperOffice-Dokumentbibliothek verwenden. Jeder Benutzer muss WebTools für Windows OS oder Mac OS installiert haben.

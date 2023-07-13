@@ -17,7 +17,7 @@ Im Dialogfeld **SuperOffice Gmail Link - Einstellungen** können Sie Archiv-, Ko
 
 ## Archivdialogfeld immer anzeigen
 
-Wenn diese Option deaktiviert ist, wird das Dialogfeld **E-Mail in SuperOffice archivieren** nicht angezeigt, wenn Sie durch Klicken auf die Schaltfläche **Archiv** eine E-Mail archivieren. Bei dieser „Schnellarchivierung“ werden für die Einstellungen alle Standardwerte verwendet, auch wenn das Archivierungsdialogfeld nicht angezeigt wird. Nach der Archivierung der E-Mail-Mitteilung wird eine Popup-Mitteilung angezeigt.
+Wenn diese Option deaktiviert ist, wird das Dialogfeld **E-Mail in SuperOffice archivieren** nicht angezeigt, wenn Sie durch Klicken auf die Schaltfläche **Archiv** eine E-Mail archivieren. Bei dieser "Schnellarchivierung" werden für die Einstellungen alle Standardwerte verwendet, auch wenn das Archivierungsdialogfeld nicht angezeigt wird. Nach der Archivierung der E-Mail-Mitteilung wird eine Popup-Mitteilung angezeigt.
 
 Manchmal wird immer das Dialogfeld **E-Mail archivieren in SuperOffice** angezeigt:
 

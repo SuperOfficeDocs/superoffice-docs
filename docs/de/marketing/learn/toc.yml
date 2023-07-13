@@ -1,7 +1,7 @@
 items:
 - name: Überblick
   href: index.md
-- name: Ansicht „Marketing“
+- name: Ansicht "Marketing"
   href: screen/index.md
 - name: Mit Marketing arbeiten
   topicHref: add-fav.md

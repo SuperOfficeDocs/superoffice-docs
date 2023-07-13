@@ -133,7 +133,7 @@ Diese Registerkarte enthält Informationen zu Aktivitäten (Dokumente und Folgea
 
 [Weitere Infos über das Hinzufügen von Links][2].
 
-## Registerkarte „Mehr“
+## Registerkarte "Mehr"
 
 Diese Registerkarte zeigt alle [benutzerdefinierten Felder][3], die in Einstellungen und Verwaltung konfiguriert sind.
 

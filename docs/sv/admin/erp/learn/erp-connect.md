@@ -29,7 +29,7 @@ Du kan koppla ett SuperOffice-företag till en kund/leverantör i ERP-systemet. 
     > [!TIP]
     > Om du söker med tomt sökfält visas alla poster i ERP-systemet.
 
-1. Markera en av träffarna i listan. Om du inte får någon träff kan du [skapa en ny ”aktör” i ERP-systemet][2] baserat på data från SuperOffice CRM.
+1. Markera en av träffarna i listan. Om du inte får någon träff kan du [skapa en ny "aktör" i ERP-systemet][2] baserat på data från SuperOffice CRM.
 1. Klicka på **Koppla**. En dialogruta visas med de data som synkroniseras mellan SuperOffice CRM och ERP-systemet. Vilka data som ska visas här anger du i SuperOffice Inställningar och underhåll.
 1. Om data skiljer sig åt mellan de två systemen markerar du de data som är korrekta.
     Exempel: Om gatuadresserna är olika väljer du den som är rätt. Övriga data skrivs över.

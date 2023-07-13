@@ -23,7 +23,7 @@ Auf die gleiche Weise können Sie eine Selektion von Personen als Anrufliste ver
 ## Zugehörige Inhalte
 
 * [Selektionen für die Prognose von Verkäufen verwenden][3]
-* [Was kann man tun, wenn in der Seitenleiste von SuperOffice CRM „Dokument geschlossen“ angezeigt wird, wenn der Dokument-Viewer verwendet wird?][2] - FAQ
+* [Was kann man tun, wenn in der Seitenleiste von SuperOffice CRM "Dokument geschlossen" angezeigt wird, wenn der Dokument-Viewer verwendet wird?][2] - FAQ
 
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/main-screen/side-panel.md

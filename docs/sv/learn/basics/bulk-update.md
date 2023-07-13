@@ -76,7 +76,7 @@ Med åtgärden **Regex** kan du använda reguljära uttryck för att uppdatera e
 
 ## Uppdatera företagskategorier
 
-Du vill kategorisera kunderna efter försäljningsbelopp. Skapa företagskategorier kallade ”Kund A”, ”Kund B” och ”Kund C” i SuperOffice CRM. För ”Kund A” kan du skapa ett urval av företag som hade ett försäljningsbelopp på över 50 000 EUR i fjol. Använd **Massredigering** för att uppdatera kategorin för de här kunderna till ”Kund A”. Upprepa detta för de andra företagen.
+Du vill kategorisera kunderna efter försäljningsbelopp. Skapa företagskategorier kallade "Kund A", "Kund B" och "Kund C" i SuperOffice CRM. För "Kund A" kan du skapa ett urval av företag som hade ett försäljningsbelopp på över 50 000 EUR i fjol. Använd **Massredigering** för att uppdatera kategorin för de här kunderna till "Kund A". Upprepa detta för de andra företagen.
 
 ## Uppdatera postnummer och ort för företag
 
@@ -84,11 +84,11 @@ Postnummer och postorter i Norge har förändrats. Använd **Massredigering** f�
 
 ## Uppdatera kontakt
 
-Du har upptäckt att fältet **Ställning** för kontakter sällan används. För att komma igång med uppgiften att fylla i det här fältet för alla kontakter vill du söka efter alla kontakter som har direktör i titeln. Skapa ett urval av alla kontakter som innehåller ordet ”direktör” i **Titel**-fältet. Använd **Massredigering** för att ange **Ledning** för fältet **Ställning**.
+Du har upptäckt att fältet **Ställning** för kontakter sällan används. För att komma igång med uppgiften att fylla i det här fältet för alla kontakter vill du söka efter alla kontakter som har direktör i titeln. Skapa ett urval av alla kontakter som innehåller ordet "direktör" i **Titel**-fältet. Använd **Massredigering** för att ange **Ledning** för fältet **Ställning**.
 
 ## Uppdatera projekt
 
-Du vill röja upp bland alla ”gamla” projekt som inte har angetts som slutförda. Skapa ett urval av alla dina gamla projekt, till exempel alla projekt som går mer än 2 år bakåt i tiden och som inte har uppdaterats det senaste året. Använd **Massredigering** för att ställa in status **Slutförd** för de här projekten till **Ja**.
+Du vill röja upp bland alla "gamla" projekt som inte har angetts som slutförda. Skapa ett urval av alla dina gamla projekt, till exempel alla projekt som går mer än 2 år bakåt i tiden och som inte har uppdaterats det senaste året. Använd **Massredigering** för att ställa in status **Slutförd** för de här projekten till **Ja**.
 
 <!-- Referenced links -->
 

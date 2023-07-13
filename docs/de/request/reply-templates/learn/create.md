@@ -93,7 +93,7 @@ Neben dem Layout/Format der Antwortvorlage muss es die folgenden Vorlagenvariabl
 
 ## <a id="faq" />Automatische FAQ-Antwort
 
-SuperOffice Service stellt eine Reihe Nachrichtenvorlagen bereit. Unter diesen Antwortvorlagen werden Sie „Beispiel einer automatischen FAQ-Antwort“ finden. Diese Antwortvorlage enthält ein Beispiel für eine Automatisierung von Antworten an den Kunden auf der Registerkarte **HTML-Text**.
+SuperOffice Service stellt eine Reihe Nachrichtenvorlagen bereit. Unter diesen Antwortvorlagen werden Sie "Beispiel einer automatischen FAQ-Antwort" finden. Diese Antwortvorlage enthält ein Beispiel für eine Automatisierung von Antworten an den Kunden auf der Registerkarte **HTML-Text**.
 
 Basierend auf der Anfrage des Kunden sucht das System nach den entsprechenden Wörtern (darunter Schlüsselwörter) in FAQ-Einträgen in SuperOffice Service. Basierend auf deren Korrelationsgrad werden FAQs, die dem Kunden hilfreich sein könnten, in der Antwortvorlage, die dem Kunden automatisch zur Bestätigung des Empfangs der Anfrage gesendet wird, einbezogen.
 

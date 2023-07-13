@@ -34,7 +34,7 @@ Om du får ett meddelande på ett språk du inte kan läsa, kan du klicka på **
 * Neutral ![ikon][img3]
 * Positiv ![ikon][img4]
 
-Om den här funktionen är aktiverad, analyseras inkommande e-postförfrågningar för att avgöra kontaktens ”sinnesstämning”. En emoticon under meddelandet visar det sentiment som har identifierats (glad, ledsen eller neutral).
+Om den här funktionen är aktiverad, analyseras inkommande e-postförfrågningar för att avgöra kontaktens "sinnesstämning". En emoticon under meddelandet visar det sentiment som har identifierats (glad, ledsen eller neutral).
 
 ### Automatisk kategorisering
 

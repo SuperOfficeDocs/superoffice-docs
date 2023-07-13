@@ -13,7 +13,7 @@ language: de
 
 Mit der leistungsstarken Funktion Formulare können Sie Daten aus einem Formular ohne viel Aufwand in SuperOffice einbinden. Formulare erleichtern die Interaktion mit Kunden und Interessenten über Ihre Website oder Ihr Kundenzentrum. Eine Vielzahl unterschiedlichster Daten können in ein Formular aufgenommen werden (einschließlich das Hochladen von Dateien). Zudem können Sie automatisierte Aktionen festlegen, die bei Übermittlung und Verarbeitung des Formulars ausgeführt werden sollen.
 
-Sie können problemlos ein Formular erstellen und auf jeder gewünschten Webseite posten (z. B. „Kontaktieren“-Formulare) und all die neuen Interessenten in SuperOffice zu Personen umwandeln.
+Sie können problemlos ein Formular erstellen und auf jeder gewünschten Webseite posten (z. B. "Kontaktieren"-Formulare) und all die neuen Interessenten in SuperOffice zu Personen umwandeln.
 
 ![Sie können ein Web-Formular verwenden, um Personen zu bitten, sich für Ihr nächstes Webinar oder Seminar anzumelden oder sich mit ihren Fragen an Ihre Firma zu wenden -screenshot][img1]
 

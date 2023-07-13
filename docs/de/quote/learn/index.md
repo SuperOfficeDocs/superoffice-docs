@@ -21,7 +21,7 @@ Wenn der Kunde das Angebot akzeptiert hat, können Sie einen Auftrag erstellen u
 
 1. Sie müssen einen Verkauf öffnen und das [Angebot erstellen][1].
 2. [Produkte zum Angebot hinzufügen][2].
-3. [Angebotsdokument erstellen][3]. Dies wird der „Brief“ sein, der zusammen mit der Liste der angebotenen Produkte gesendet wird.
+3. [Angebotsdokument erstellen][3]. Dies wird der "Brief" sein, der zusammen mit der Liste der angebotenen Produkte gesendet wird.
 4. [Angebot senden][4].
 5. Wenn der Kunde das Angebot akzeptiert, können Sie den [Auftrag erteilen][5].
 

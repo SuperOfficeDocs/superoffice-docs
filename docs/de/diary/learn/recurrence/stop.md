@@ -23,7 +23,7 @@ language: de
 
 5. Klicken Sie auf **Speichern**, um die Änderungen zu speichern, oder klicken Sie auf **Abbrechen**, um das Dialogfeld zu schließen, ohne die Änderungen zu speichern.
 
-Wenn Sie eine regelmäßige Folgeaufgabe stoppen, werden alle Instanzen der Folgeaufgabe *nach* der von Ihnen bearbeiteten Folgeaufgabe gelöscht. Ist die Folgeaufgabe die erste einer Serie regelmäßiger Folgeaufgaben, werden die regelmäßigen Muster gelöscht und sie wird zu einer „normalen“ Folgeaufgabe.
+Wenn Sie eine regelmäßige Folgeaufgabe stoppen, werden alle Instanzen der Folgeaufgabe *nach* der von Ihnen bearbeiteten Folgeaufgabe gelöscht. Ist die Folgeaufgabe die erste einer Serie regelmäßiger Folgeaufgaben, werden die regelmäßigen Muster gelöscht und sie wird zu einer "normalen" Folgeaufgabe.
 
 > [!NOTE]
 > Sie können eine regelmäßige Folgeaufgabe auch stoppen, indem Sie sie im Kalender markieren und löschen. Wenn Sie eine regelmäßige Folgeaufgabe löschen, wird das Dialogfeld **Löschen** mit zwei Optionen angezeigt: Wählen Sie **Nur diese Instanz löschen** aus, wenn Sie die Folgeaufgabe nur für diesen Zeitfenster löschen möchten, oder wählen Sie **Alle zukünftigen Instanzen einschließlich dieser löschen**, um diese und alle nachfolgenden Folgeaufgaben zu löschen.

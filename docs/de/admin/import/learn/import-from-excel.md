@@ -20,9 +20,9 @@ Die Excel-Tabellenkalkulation kann beispielsweise die folgenden Informationen en
 * Eine Liste möglicher Kunden/Interessenten, die Sie in SuperOffice importieren möchten.
 
     > [!TIP]
-    > Fügen Sie beispielsweise allen Personen eine Spalte mit dem Text „Interessent“ hinzu, um sie ganz einfach mit der richtigen Kategorie in SuperOffice CRM zu verknüpfen.
+    > Fügen Sie beispielsweise allen Personen eine Spalte mit dem Text "Interessent" hinzu, um sie ganz einfach mit der richtigen Kategorie in SuperOffice CRM zu verknüpfen.
 
-* Eine Firmen-/Personenliste mit „bereinigten“ Daten (exportiert und auf Qualität geprüft und wird wieder importiert).
+* Eine Firmen-/Personenliste mit "bereinigten" Daten (exportiert und auf Qualität geprüft und wird wieder importiert).
 
 * Firmen und Personen aus anderen Anwendungen und Formaten, wie beispielsweise Buchhaltungssystemen, anderen CRM-Clients, E-Mail-Clients (anderen als Gmail und Outlook) und Windows-Installationen von SuperOffice CRM.
 

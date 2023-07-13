@@ -15,7 +15,7 @@ language: de
 
 In vielen Fällen ist es nicht wünschenswert oder möglich, interne Kategorienamen in SuperOffice Kundenzentrum zu verwenden. In solchen Fällen können Sie externe Kategorien erstellen, die für Kunden angezeigt werden. Eine externe Kategorie ist eine Kategorie, die für eine [bestimmte Kundensprache][1] definiert ist. Dies bedeutet, sie ist verfügbar, wenn Sie über SuperOffice Customer Centre eine neue Anfrage in dieser Sprache erfassen.
 
-Beispiel: Die interne Kategorie „Support“ kann dann eine externe Kategorie für alle relevanten Kundensprachen aufweisen.
+Beispiel: Die interne Kategorie "Support" kann dann eine externe Kategorie für alle relevanten Kundensprachen aufweisen.
 
 ## Externe Kategorien erstellen
 
@@ -29,7 +29,7 @@ Beispiel: Die interne Kategorie „Support“ kann dann eine externe Kategorie f
 
 5. Klicken Sie in der Ansicht **Externe Kategorie bearbeiten** auf das Feld **Kategorie** und wählen Sie den internen Kategorienamen aus (den für die SuperOffice-Benutzern sichtbaren Namen) aus.
 
-6. Geben Sie in das Feld **Externer Name** den Namen ein, mit dem die Kategorie den Kunden in dieser Sprache in SuperOffice Kundenzentrum angezeigt werden soll. So können Sie einen internen Namen verwenden, der in der einen Sprache standardisiert ist, während Sie einen externen „Alias“ in einer anderen Sprache erstellen können.
+6. Geben Sie in das Feld **Externer Name** den Namen ein, mit dem die Kategorie den Kunden in dieser Sprache in SuperOffice Kundenzentrum angezeigt werden soll. So können Sie einen internen Namen verwenden, der in der einen Sprache standardisiert ist, während Sie einen externen "Alias" in einer anderen Sprache erstellen können.
 
 7. Klicken Sie optional auf **Unterelement von** und wählen Sie den Namen einer übergeordneten Kategorie aus, um eine Hierarchie von Kategorien in der betreffenden Sprache zu erstellen.
 

@@ -34,7 +34,7 @@ Sie können eine Ordnerstruktur für FAQs erstellen, um diesen einen logische Au
 
 1. Geben Sie im Feld **Beschreibung** eine kurze Beschreibung des Ordnerinhalts ein.
 
-1. Im Feld **Zugriffskontrolle** können Sie ein Skript zur Kontrolle des Zugriffs externer Benutzer auf diesen Ordner eingeben. Wenn ein Skript vorhanden ist, wird es ausgewertet. Der Zugriff wird dann nur gestattet, wenn das Skript den Wert „1“ zurückgibt.
+1. Im Feld **Zugriffskontrolle** können Sie ein Skript zur Kontrolle des Zugriffs externer Benutzer auf diesen Ordner eingeben. Wenn ein Skript vorhanden ist, wird es ausgewertet. Der Zugriff wird dann nur gestattet, wenn das Skript den Wert "1" zurückgibt.
 
 1. Klicken Sie auf **OK**. Der neue Ordner wird erstellt. Sie sind jetzt bereit, zum neuen Ordner [FAQ-Einträge hinzufügen][3].
 

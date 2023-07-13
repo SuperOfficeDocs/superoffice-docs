@@ -23,7 +23,7 @@ Sie können den Zeitraum (Dauer in Tagen) für die folgenden Zähler festlegen:
 
 [!include[Define counter](../../../learn/includes/def-counter.md)]
 
-Sie können bis zu drei unterschiedliche Zeiträume festlegen, so dass Sie zwischen kürzeren bzw. längeren Zeiträumen für die verschiedenen SAINT-Kriterien wählen können. Zum Beispiel: Wenn Sie den **Zeitraum 1** auf 30 Tage und den **Zeitraum 2** auf 90 Tage festlegen, können Sie zum Beispiel zwischen den SAINT-Kriterien „Anzahl von Verkäufen in den letzten 30 Tagen“ UND „Anzahl von Verkäufen in den letzten 90 Tagen“ auswählen.
+Sie können bis zu drei unterschiedliche Zeiträume festlegen, so dass Sie zwischen kürzeren bzw. längeren Zeiträumen für die verschiedenen SAINT-Kriterien wählen können. Zum Beispiel: Wenn Sie den **Zeitraum 1** auf 30 Tage und den **Zeitraum 2** auf 90 Tage festlegen, können Sie zum Beispiel zwischen den SAINT-Kriterien "Anzahl von Verkäufen in den letzten 30 Tagen" UND "Anzahl von Verkäufen in den letzten 90 Tagen" auswählen.
 
 ## Schritte
 

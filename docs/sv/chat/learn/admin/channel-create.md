@@ -104,7 +104,7 @@ På fliken **Frånkopplat formulär** kan du skriva ett meddelande som ska visas
 | Fält | Beskrivning |
 |---|---|
 | Sidhuvud | Skriv en kort text som talar om för kunden varför ingen agent är tillgänglig. |
-| Meddelande | Skriv in ett meddelande. Exempel: ”Vi har öppet mellan 08:00 och 18:00” eller ”Fyll i fältet nedan, så kontaktar vi dig så snart som möjligt”. |
+| Meddelande | Skriv in ett meddelande. Exempel: "Vi har öppet mellan 08:00 och 18:00" eller "Fyll i fältet nedan, så kontaktar vi dig så snart som möjligt". |
 | Aktivera ärenderegistrering | Välj det här alternativet om du vill att kunden ska kunna skicka in ett ärende om chattfunktionen inte är tillgänglig. |
 | Ärendekategori | Välj kategorin som ska tilldelas ärendena. |
 | Ärendeprioritet | Välj prioritet som ska tilldelas ärendena. |
@@ -121,7 +121,7 @@ På fliken **Startformulär för chatt** kan du definiera hur kunderna ska ident
 | Aktivera FAQ-förslag för chatt | Om du aktiverar FAQ-förslag kommer de tre översta FAQ-artiklarna som överensstämmer med kundens meddelande att visas i chattfönstret för chattsamtalet. Kunden kan klicka på FAQ-länkarna för att visa hela FAQ-artiklarna i SuperOffice Kundcenter. Om ingen av de föreslagna FAQerna ger dem svar på frågorna kan de välja att starta chattsamtalet. |
 | FAQ-mapp | Välj mappen som innehåller de FAQ-artiklar (och undermappar med FAQ-artiklar) som ska visas för kunderna. Bara FAQ-artiklar som har varit publicerade och är tillgängliga för alla (ingen inloggning krävs) visas för kunderna. |
 | Aktivera startformulär för chatt för anonyma användare | Välj det här alternativet om kunderna måste identifiera sig innan de startar chattsamtalet. Det här alternativet ska vara omarkerat om kunderna ska kunna starta chattsamtalet direkt. |
-| Meddelande | Skriv ett meddelande till kunden. Exempel: ”Hej! Tack för att du kontaktar oss. Vad kan vi hjälpa dig med?” |
+| Meddelande | Skriv ett meddelande till kunden. Exempel: "Hej! Tack för att du kontaktar oss. Vad kan vi hjälpa dig med?" |
 | Obligatoriska fält för att starta chatt | Välj information som kunden måste ange för att starta chattsamtalet. |
 
 Förhandsgranskningen till höger visar chattfönstret med de aktuella inställningarna.

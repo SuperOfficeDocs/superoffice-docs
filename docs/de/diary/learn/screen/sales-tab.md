@@ -34,7 +34,7 @@ Darin werden die folgenden Daten angezeigt:
 
 * Das Datum des Verkaufs (voraussichtlich, verkauft oder verloren)
 
-* Ein [Symbol für den Verkaufsstatus][4] zeigt an, ob der Status verkauft ![Symbol][img1], verloren ![Symbol][img2] oder ![aufgeschoben][img3] ist (wenn ein Symbol vorhanden ist, ist der Verkauf „offen“)
+* Ein [Symbol für den Verkaufsstatus][4] zeigt an, ob der Status verkauft ![Symbol][img1], verloren ![Symbol][img2] oder ![aufgeschoben][img3] ist (wenn ein Symbol vorhanden ist, ist der Verkauf "offen")
 
 Verkäufe, die nicht als abgeschlossen gekennzeichnet sind, werden in dieser Liste angezeigt.
 

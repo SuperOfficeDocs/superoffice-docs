@@ -15,13 +15,13 @@ language: de
 
 [!include[Legacy](../includes/legacy-extra-menus.md)]
 
-Um diese Funktion zu veranschaulichen, werden wird eine neue Navigatorgruppe im Navigator links in SuperOffice hinzugefügt. Wir werden ein Zusatzmenü in der neuen Navigatorgruppe hinzufügen. In unserem Beispiel werden wir die Navigatorgruppe „Webseiten“ mit einigen nützlichen Webseiten hinzufügen.
+Um diese Funktion zu veranschaulichen, werden wird eine neue Navigatorgruppe im Navigator links in SuperOffice hinzugefügt. Wir werden ein Zusatzmenü in der neuen Navigatorgruppe hinzufügen. In unserem Beispiel werden wir die Navigatorgruppe "Webseiten" mit einigen nützlichen Webseiten hinzufügen.
 
 1. Wählen Sie das ![Symbol][img2] **Systemeinstellungen** > **Systemdesign** > **Zusatzmenüs** aus.
 
 2. Zeigen Sie mit dem Mauszeiger auf den Ordner **Navigator** und klicken Sie auf ![Symbol][img1].
 
-3. Geben Sie „Webseiten“ in das Feld **Bezeichnung** ein (maximal 14 Zeichen).
+3. Geben Sie "Webseiten" in das Feld **Bezeichnung** ein (maximal 14 Zeichen).
 
 4. Optional: Klicken Sie auf die Schaltfläche **Auswählen** rechts neben dem Feld **Symbol-URL**, um ein Symbol für die Navigatorgruppe auszuwählen. Sie können entweder ein Bild wählen, das bereits in der Datenbank vorhanden ist, oder ein Bild hochladen. Das Bild sollte eine Größe von 36x36 Pixeln aufweisen, sodass es im Navigator richtig dargestellt wird. Sie wählen das Bild und ändern die Größe im selben Dialogfeld.
 
@@ -31,15 +31,15 @@ Um diese Funktion zu veranschaulichen, werden wird eine neue Navigatorgruppe im 
 
 7. Zeigen Sie mit dem Mauszeiger auf die Navigatorgruppe, die Sie gerade erstellt haben, und klicken Sie auf ![Symbol][img1]. Die Ansicht **Eigenschaften des Menüs** wird geöffnet.
 
-8. Geben Sie „Google“ in das Feld **Bezeichnung** ein (maximal 20 Zeichen).
+8. Geben Sie "Google" in das Feld **Bezeichnung** ein (maximal 20 Zeichen).
 
-9. Aktivieren Sie die Option **URL verwenden** und geben Sie „<http://www.google.com“> in das Feld **URL** ein.
+9. Aktivieren Sie die Option **URL verwenden** und geben Sie "<http://www.google.com"> in das Feld **URL** ein.
 
 10. Aktivieren Sie NICHT **ID anhängen** oder **&lt;usec&gt; anhängen**, damit keine Werte hinter der definierten URL hinzugefügt werden.
 
 11. Aktivieren Sie NICHT **Zur selben Ansicht zurückkehren**. Wenn diese Option aktiviert ist, funktionieren externe URLs nicht. Siehe [Eigenschaften des Menüs][1].
 
-12. Geben Sie im Feld **Ziel** „_blank“ ein, damit sich die Webseite in einer neuen Registerkarte im Browser öffnet.
+12. Geben Sie im Feld **Ziel** "_blank" ein, damit sich die Webseite in einer neuen Registerkarte im Browser öffnet.
 
 13. Klicken Sie auf **OK**.
 

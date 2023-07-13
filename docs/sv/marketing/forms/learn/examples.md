@@ -94,7 +94,7 @@ Låt kunderna registrera sig för ett eller flera av era nyhetsbrev med detta fo
 
 1. Klicka på **Visa/dölj verktygsfält** ![ikon][img3] och sedan på **Lägg in bekräftelselänk** ![ikon][img4]. Bekräftelselänken infogas i brödtexten.
 
-1. Klicka på bekräftelselänken, välj **Redigera länk** ![ikon][img5] och ändra länktexten till ”Klicka här för att bekräfta din e-postadress”. Länken är giltig i 30 minuter som standard.
+1. Klicka på bekräftelselänken, välj **Redigera länk** ![ikon][img5] och ändra länktexten till "Klicka här för att bekräfta din e-postadress". Länken är giltig i 30 minuter som standard.
 
 1. Klicka på **Använd nu** för att spara formuläret och fortsätta redigera.
 

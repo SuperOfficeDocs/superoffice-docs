@@ -17,7 +17,7 @@ Ett dynamiskt urval kan liknas vid en sparad sökning som utförs varje gång du
 
 ### Företag
 
-Du kan skapa ett dynamiskt urval som innehåller alla företag i kategorin ”Leverantör” med huvudkontor i Tyskland, om du planerar att utöka verksamheten i Tyskland.
+Du kan skapa ett dynamiskt urval som innehåller alla företag i kategorin "Leverantör" med huvudkontor i Tyskland, om du planerar att utöka verksamheten i Tyskland.
 
 ### Försäljning
 
@@ -39,7 +39,7 @@ Du kan även skapa ett urval som innehåller alla aktuella händelser för den a
 
 ### Produkter
 
-Du kan skapa ett urval som innehåller alla produkter som har sålts i år baserat på försäljningar som innehåller offerter och har statusen ”Såld”. Urvalet kan begränsas till vissa produktkategorier, produktfamiljer och så vidare beroende på vad för slags statistik du har behov av.
+Du kan skapa ett urval som innehåller alla produkter som har sålts i år baserat på försäljningar som innehåller offerter och har statusen "Såld". Urvalet kan begränsas till vissa produktkategorier, produktfamiljer och så vidare beroende på vad för slags statistik du har behov av.
 
 Om ni tänker uppgradera en av produkterna ni säljer från version 2 till 3 kan du skapa ett urval av alla kunder som köpt version 2 och använda urvalet som underlag för en kampanj.
 

@@ -35,7 +35,7 @@ Vi skal nå lage en serie med handlinger basert på eksemplet ovenfor.
 1. Velg **Aktivert**.
 1. Velg **Endre en sak** under **Velg handlingstype** nedenfor. Du kommer til fanen **Endre en sak**.
     Dette er den første handlingen i makroen. Den henter saken, slik at de forskjellige verdiene (ID, tittel, navn på person og så videre) kan brukes i de neste handlingene vi lager.
-1. Valgfritt: Merk av for **Intern melding**, og skriv for eksempel: “Sak avsluttet, og bekreftelse sendt til kunde."
+1. Valgfritt: Merk av for **Intern melding**, og skriv for eksempel: "Sak avsluttet, og bekreftelse sendt til kunde."
 1. Klikk på **Bruk**.
 1. Klikk på **Ny handling** ved siden av fanen **Endre en sak**.
 1. Velg **Last inn en svarmal for fletting**. Vi skal nå hente inn svarmalen som skal brukes.

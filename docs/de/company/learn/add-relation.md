@@ -32,14 +32,14 @@ language: de
 
 1. Legen Sie im Listenfeld **Person** unter **Passiv** ggf. eine Person als passive Partei fest. Gehen Sie dabei wie unter **Aktiv** beschrieben vor.
 
-1. Geben Sie im Listenfeld **Beziehung** an, welche Beziehung zwischen Aktiv und Passiv besteht, wie zum Beispiel „ist Eigentümer von“. [!include[SM](../../learn/includes/are-defined-sm.md)]
+1. Geben Sie im Listenfeld **Beziehung** an, welche Beziehung zwischen Aktiv und Passiv besteht, wie zum Beispiel "ist Eigentümer von". [!include[SM](../../learn/includes/are-defined-sm.md)]
 
     > [!NOTE]
     > Welche Alternativen in diesem Listenfeld angezeigt werden, hängt auch davon ab, ob es sich um eine Beziehung zwischen zwei Firmen, zwischen einer Firma und einer Person oder zwischen zwei Personen handelt.
 
 1. In das Feld **Beschreibung** können Sie formlos zusätzliche Informationen eingeben. Wenn Sie hier etwas eingeben, wird ein ![Symbol][img1] für Büroklammern in der entsprechenden Linie auf der Bereichsregisterkarte **Beziehungen** angezeigt.
 
-1. Das Feld **Ergebnis** wird automatisch mit den Änderungen im Feld **Beziehung** aktualisiert. Beispiel: Wenn Sie für eine Beziehung „ist Eigentümer von“ eingeben, werden im Ergebnis die Besitzverhältnisse angezeigt.
+1. Das Feld **Ergebnis** wird automatisch mit den Änderungen im Feld **Beziehung** aktualisiert. Beispiel: Wenn Sie für eine Beziehung "ist Eigentümer von" eingeben, werden im Ergebnis die Besitzverhältnisse angezeigt.
 
 1. Wenn Sie fertig sind, klicken Sie auf **Speichern**, um das Dialogfeld zu schließen und die eingegebenen Informationen zu speichern.
 

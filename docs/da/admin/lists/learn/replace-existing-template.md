@@ -12,7 +12,7 @@ language: da
 # Erstat nuværende skabelon
 
 1. Download og rediger dokumentskabelonen, og gem den på harddisken.
-2. Omdøb eller slet den “gamle” dokumentskabelon i SuperOffice.
+2. Omdøb eller slet den "gamle" dokumentskabelon i SuperOffice.
 3. Upload den reviderede dokumentskabelon til SuperOffice.
 
 > [!NOTE]

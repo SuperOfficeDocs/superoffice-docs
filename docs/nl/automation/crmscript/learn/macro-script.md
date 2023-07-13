@@ -13,13 +13,13 @@ language: nl
 
 # Macro's en scripts
 
-Op het tabblad **Macro’s en scripts** op ![pictogram][img2] **CRMScript** ziet u een lijst met de scripts en macro’s in het systeem, gegroepeerd in mappen. Klik op een script of macro in de lijst voor [weergave, bewerking of uitvoering][1].
+Op het tabblad **Macro's en scripts** op ![pictogram][img2] **CRMScript** ziet u een lijst met de scripts en macro's in het systeem, gegroepeerd in mappen. Klik op een script of macro in de lijst voor [weergave, bewerking of uitvoering][1].
 
-## Over macro’s
+## Over macro's
 
-Macro’s zijn de gebruiksvriendelijke versie van scripts: U hebt geen uitgebreide kennis over scriptverwerking of CRMScript nodig om macro’s te kunnen maken.
+Macro's zijn de gebruiksvriendelijke versie van scripts: U hebt geen uitgebreide kennis over scriptverwerking of CRMScript nodig om macro's te kunnen maken.
 
-Met macro’s kunt u acties binnen SuperOffice aanpassen en automatiseren. De functie beschikt over een gebruiksvriendelijke wizard die u helpt bij de instelling van uw macro.
+Met macro's kunt u acties binnen SuperOffice aanpassen en automatiseren. De functie beschikt over een gebruiksvriendelijke wizard die u helpt bij de instelling van uw macro.
 
 Macro's hebben meerdere functies in SuperOffice. Ze kunnen worden gekoppeld aan specifieke [triggers][1] in het systeem (zoals escalaties of een nieuw bericht op verzoek in SuperOffice) of worden toegewezen aan knoppen in gedefinieerde schermen, zodat gebruikers op een knop kunnen klikken om een serie acties uit te voeren die vaak wordt herhaald. Dit maakt verzoekbeheer sneller en vermijdt dat gebruikers onnodig klikken.
 

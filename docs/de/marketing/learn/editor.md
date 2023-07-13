@@ -108,15 +108,15 @@ Es stehen mehrere Arten von Seriendrucktags zur Verfügung:
 
 Anstelle des folgenden Textes:
 
-„Sehr geehrte Kundin, sehr geehrter Kunde, möchten Sie gerne mehr darüber erfahren, wie unser Produkt Ihre Firma bei der Gewinnung von Neukunden unterstützen kann? Dann kontaktieren Sie uns bei SuperShop.“
+"Sehr geehrte Kundin, sehr geehrter Kunde, möchten Sie gerne mehr darüber erfahren, wie unser Produkt Ihre Firma bei der Gewinnung von Neukunden unterstützen kann? Dann kontaktieren Sie uns bei SuperShop."
 
 Sie können diesen senden:
 
-„Sehr geehrte(r) Christian, möchten Sie gerne mehr darüber erfahren, wie unser Produkt AutoPflege GmbH bei der Gewinnung von Neukunden unterstützen kann? Dann kontaktieren Sie Richard Weber bei SuperShop.“
+"Sehr geehrte(r) Christian, möchten Sie gerne mehr darüber erfahren, wie unser Produkt AutoPflege GmbH bei der Gewinnung von Neukunden unterstützen kann? Dann kontaktieren Sie Richard Weber bei SuperShop."
 
 Der Text, den Sie eingeben, sieht folgendermaßen aus:
 
-„Sehr geehrte(r) **\[\[customer.firstname\]\]**, möchten Sie gerne mehr darüber erfahren, wie unser Produkt **\[\[company.name\]\]** bei der Gewinnung von Neukunden unterstützen kann? Dann kontaktieren Sie **\[\[company.ourSalesContact.name\]\]** bei SuperShop.“
+"Sehr geehrte(r) **\[\[customer.firstname\]\]**, möchten Sie gerne mehr darüber erfahren, wie unser Produkt **\[\[company.name\]\]** bei der Gewinnung von Neukunden unterstützen kann? Dann kontaktieren Sie **\[\[company.ourSalesContact.name\]\]** bei SuperShop."
 
 ## Zwei verschiedene Editoren
 

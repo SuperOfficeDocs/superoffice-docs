@@ -16,7 +16,7 @@ Sie können eine Dokumentenkampagne mit einem bestimmten Verkauf verknüpfen. Di
 
 3. Im Feld **Verteiler** müssen Sie auswählen, an wen die Kampagne gerichtet werden soll. Wählen Sie eine der folgenden Optionen:
 
-    * **Wenn leer**: Wählen Sie diese Option, wenn standardmäßig die Empfängernamen verwendet werden sollen. Wenn kein Empfängername vorhanden ist, wird der Empfänger verwendet, den Sie in das Textfeld eingeben. Wenn Sie eine Kampagne erstellen, die an IT-Fachkräfte in einer Firma gerichtet ist, können Sie „IT-Abteilung“ oder Ähnliches eingeben.
+    * **Wenn leer**: Wählen Sie diese Option, wenn standardmäßig die Empfängernamen verwendet werden sollen. Wenn kein Empfängername vorhanden ist, wird der Empfänger verwendet, den Sie in das Textfeld eingeben. Wenn Sie eine Kampagne erstellen, die an IT-Fachkräfte in einer Firma gerichtet ist, können Sie "IT-Abteilung" oder Ähnliches eingeben.
 
     * **Immer verwenden**: Wählen Sie diese Option, wenn Sie die Empfängernamen außer Acht lassen wollen und stattdessen der Empfänger verwendet werden soll, den Sie in das Textfeld eingeben.
 
@@ -24,7 +24,7 @@ Sie können eine Dokumentenkampagne mit einem bestimmten Verkauf verknüpfen. Di
 
 5. Optional: Beginnen Sie mit der Eingabe im Feld **Verkauf**, um nach einem SuperOffice CRM-Verkauf zu suchen.
 
-6. Geben Sie im Feld **Unser Zeichen** den Namen ein, der im Dokument bei „Unser Zeichen“ erscheinen soll. In diesem Feld können Sie [Vorlagenvariablen][1] von SuperOffice CRM verwenden.
+6. Geben Sie im Feld **Unser Zeichen** den Namen ein, der im Dokument bei "Unser Zeichen" erscheinen soll. In diesem Feld können Sie [Vorlagenvariablen][1] von SuperOffice CRM verwenden.
 
     > [!NOTE]
     > Damit Variablen wie Verkaufs-ID oder Projekt-ID funktionieren, müssen Sie die Dokumentenkampagne mit einem Verkauf oder Dokument verknüpfen.

@@ -16,7 +16,7 @@ language: de
 > [!NOTE]
 > Diese Funktion ist nicht verfügbar, wenn Ihre Organisation benutzerdefinierte Anzeigenlayouts verwendet.
 
-Unter den benutzerdefinierten Feldern, die in den Registerkarten **Mehr** in SuperOffice CRM angezeigt werden, können *Sie drei* auswählen, die als Felder auf Seite 1 fungieren (so genannt, weil sie auf der „ersten Seite“ in ihren jeweiligen Ansichten angezeigt werden).
+Unter den benutzerdefinierten Feldern, die in den Registerkarten **Mehr** in SuperOffice CRM angezeigt werden, können *Sie drei* auswählen, die als Felder auf Seite 1 fungieren (so genannt, weil sie auf der "ersten Seite" in ihren jeweiligen Ansichten angezeigt werden).
 
 ## Wo kann ich Seite 1-Felder anzeigen?
 

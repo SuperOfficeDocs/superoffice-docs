@@ -17,7 +17,7 @@ Om mottagaren har problem med att visa meddelandet i e-postprogrammet (t.ex. pro
 
 1. Gå till meddelandets innehåll och klicka på avsnittet där du vill infoga länken.
 
-2. Skriv och markera den text som mottagaren måste klicka på, t.ex. "Klicka här för att visa meddelandet i en webbläsare”.
+2. Skriv och markera den text som mottagaren måste klicka på, t.ex. "Klicka här för att visa meddelandet i en webbläsare".
 
 3. Klicka på knappen **infoga/redigera länk** (![ikon][img1]) i verktygsfältet.
 

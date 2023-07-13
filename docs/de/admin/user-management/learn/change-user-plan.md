@@ -32,7 +32,7 @@ Benutzereinstellungen in SuperOffice CRM, in denen Sie Benutzerpläne ändern
 
 3. Wählen Sie im Feld Benutzerplan den gewünschten Benutzerplan aus.
 
-4. Klicken Sie auf „Speichern“. Wenn sich der Benutzer das nächste Mal bei SuperOffice CRM einloggt, wird er über die verfügbaren neuen Funktionen und Features auf informiert.
+4. Klicken Sie auf "Speichern". Wenn sich der Benutzer das nächste Mal bei SuperOffice CRM einloggt, wird er über die verfügbaren neuen Funktionen und Features auf informiert.
 
 ## Verwandt
 

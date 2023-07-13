@@ -87,7 +87,7 @@ language: de
 
 ## Verwandte Themen
 
-* [Menüpunkt „Aufgabe“ hinzufügen][1]
+* [Menüpunkt "Aufgabe" hinzufügen][1]
 * [Übersetzung hinzufügen][3]
 
 <!-- Referenced links -->

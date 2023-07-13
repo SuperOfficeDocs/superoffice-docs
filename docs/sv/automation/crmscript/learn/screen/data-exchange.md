@@ -82,7 +82,7 @@ På denna skärm kan du ändra egenskaperna för ett fält kopplat till en agent
 
 | Objekt | Beskrivning |
 |---|---|
-| Fältnamn | En lista med namn på databasfält som är skrivskyddade i gränssnittet, till exempel ”cust_company.name”. |
+| Fältnamn | En lista med namn på databasfält som är skrivskyddade i gränssnittet, till exempel "cust_company.name". |
 
 <!-- Referenced links -->
 

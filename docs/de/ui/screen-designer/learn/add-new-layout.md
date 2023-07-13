@@ -19,7 +19,7 @@ Mit benutzerdefinierten Ansichtslayouts für die einzelnen Teams wird das Zugrei
 
 ## Hauptkartenlayout
 
-Ein benutzerdefiniertes Layout für die Anzeigen Person und Firma sorgt für eine effizientere Arbeitsweise Ihres Teams und Ihrer Organisation, da es den ablenkende „Informationslärm“ eliminiert.
+Ein benutzerdefiniertes Layout für die Anzeigen Person und Firma sorgt für eine effizientere Arbeitsweise Ihres Teams und Ihrer Organisation, da es den ablenkende "Informationslärm" eliminiert.
 
 Wenn Ihr Support-Team zum Beispiel bei der Kommunikation mit Firmen und Personen selten die Adresse der Firma verwendet, sollten Sie Platz für andere Felder schaffen, die auf der ersten Seite (Registerkarte Firma) wichtiger sind. Verschieben Sie das Feld, indem Sie auf die Balken links vom Feld klicken, und ziehen Sie es in die Registerkarte **Mehr**.
 

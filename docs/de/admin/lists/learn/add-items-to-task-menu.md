@@ -1,7 +1,7 @@
 ---
 uid: help-de-task-menu-add
-title: Objekte zur Liste Menü „Aufgabe“ hinzufügen
-description: Objekte zur Liste Menü „Aufgabe“ hinzufügen
+title: Objekte zur Liste Menü "Aufgabe" hinzufügen
+description: Objekte zur Liste Menü "Aufgabe" hinzufügen
 author: SuperOffice RnD
 so.date: 01.11.2023
 keywords: Einstellungen und Verwaltung
@@ -11,7 +11,7 @@ so.audience.tooltip: Settings and maintenance
 language: de
 ---
 
-# Objekte zur Liste Menü „Aufgabe“ hinzufügen
+# Objekte zur Liste Menü "Aufgabe" hinzufügen
 
 Wenn Sie ein Objekt zur Liste **Aufgabenmenü** in Einstellungen und Verwaltung hinzufügen, ist das Dialogfeld Listenobjekt bearbeiten nicht dasselbe, das unter [Objekte hinzufügen][2] beschrieben ist.
 
@@ -25,9 +25,9 @@ Füllen Sie wie folgt die Felder im Dialogfeld Listenobjekte bearbeiten für das
 
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-1. Wählen Sie das Menü „Aufgabe“ aus, das Sie mit dem Objekt verbinden möchten.
+1. Wählen Sie das Menü "Aufgabe" aus, das Sie mit dem Objekt verbinden möchten.
 
-1. Wählen Sie zwischen URL, CRMScript oder SOProtocol den gewünschten Menütyp „Aufgabe“ aus.
+1. Wählen Sie zwischen URL, CRMScript oder SOProtocol den gewünschten Menütyp "Aufgabe" aus.
     * URL
         * Geben Sie die **URL-Adresse** in das URL-Feld ein.
         * Wählen Sie den gewünschten Typ der **Verschlüsselung** aus.
@@ -39,7 +39,7 @@ Füllen Sie wie folgt die Felder im Dialogfeld Listenobjekte bearbeiten für das
         * Geben Sie die **SOProtocol** URL ein, zu der das Listenelement navigieren soll.
         Wünschen Sie mehr Infos über das [SOProtocol][6]?
 
-1. Wählen Sie die Kontrollkästchen für die Stelle an, an welcher im Menüpunkt „Aufgabe“ angezeigt werden soll.
+1. Wählen Sie die Kontrollkästchen für die Stelle an, an welcher im Menüpunkt "Aufgabe" angezeigt werden soll.
 
 1. Geben Sie optional in das Feld **Beschreibung** eine Beschreibung für das Objekt ein. Lesen Sie mehr über die [Übersetzung][7].
 

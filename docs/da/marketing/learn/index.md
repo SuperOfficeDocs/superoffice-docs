@@ -11,7 +11,7 @@ language: da
 
 # SuperOffice Marketing
 
-SuperOffice Marketing har udelukkende med udgående kommunikation og formularer at gøre. Brug udsendelser til at informere kunder om for eksempel opgraderinger og produktnyheder. Brug formularer til tilmelding til produkt-/nyhedsbreve, samtykkeadministration, dataopdateringer og “Kontakt mig”-formularer.
+SuperOffice Marketing har udelukkende med udgående kommunikation og formularer at gøre. Brug udsendelser til at informere kunder om for eksempel opgraderinger og produktnyheder. Brug formularer til tilmelding til produkt-/nyhedsbreve, samtykkeadministration, dataopdateringer og "Kontakt mig"-formularer.
 
 For at åbne SuperOffice Marketing skal du klikke på **Marketing**-![ikonet][img2] i browseren.
 

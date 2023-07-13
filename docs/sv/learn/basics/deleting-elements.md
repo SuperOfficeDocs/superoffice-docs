@@ -11,7 +11,7 @@ language: sv
 
 # Ta bort och återställa objekt
 
-För att du ska kunna vara effektiv när du arbetar med kunder och kontakter är det viktigt att du har en välorganiserad och ”skräpfri” miljö. När du lägger till nya företag och kontakter ska du dubbelkolla att de inte har lagts till tidigare. Och naturligtvis, se till att du lägger till korrekt information om företag och kontakter. Ta även bort företag och kontakter som inte används och slå ihop dubbletter.
+För att du ska kunna vara effektiv när du arbetar med kunder och kontakter är det viktigt att du har en välorganiserad och "skräpfri" miljö. När du lägger till nya företag och kontakter ska du dubbelkolla att de inte har lagts till tidigare. Och naturligtvis, se till att du lägger till korrekt information om företag och kontakter. Ta även bort företag och kontakter som inte används och slå ihop dubbletter.
 
 ## Slå ihop företag och kontakter
 

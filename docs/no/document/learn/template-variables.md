@@ -32,7 +32,7 @@ Kan du sende denne:
 
 Teksten du skriver inn vil se slik ut:
 
-"Hei **{atfn}**. Vil du vite mer om hvordan vårt produkt kan hjelpe **{name}** til å vinne nye kunder? Ring **{cont}** på **{onam}**stedet.”
+"Hei **{atfn}**. Vil du vite mer om hvordan vårt produkt kan hjelpe **{name}** til å vinne nye kunder? Ring **{cont}** på **{onam}**stedet."
 
 ### Signaturer
 

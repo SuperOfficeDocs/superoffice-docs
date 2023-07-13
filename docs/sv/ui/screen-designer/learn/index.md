@@ -20,7 +20,7 @@ Med skärmdesignerfunktionen kan du konfigurera dina huvudskärmar i SuperOffice
 
 Kontakt- och företagskorten/-skärmarna i SuperOffice CRM har en standardlayout, men du kan redigera dem eller skapa egna layouter. Eftersom olika användargrupper ofta använder kontakt- och företagskorten på olika sätt, kan det vara en bra idé att skapa olika layouter för varje användargrupp.
 
-Med skärmdesignern kan du ta bort onödiga fält och/eller skapa nya, mer relevanta fält. Du kan också gruppera fälten i flikar eller kolumner och lägga till egna rubriker (kallas ”etiketter”). Om du tycker att några av flikarna är onödiga, kan du enkelt ta bort dem eller ersätta dem med de flikar som är mer lämpliga för din organisation.
+Med skärmdesignern kan du ta bort onödiga fält och/eller skapa nya, mer relevanta fält. Du kan också gruppera fälten i flikar eller kolumner och lägga till egna rubriker (kallas "etiketter"). Om du tycker att några av flikarna är onödiga, kan du enkelt ta bort dem eller ersätta dem med de flikar som är mer lämpliga för din organisation.
 
 Ditt säljteam, supportteam och ledningsteam har inte nödvändigtvis samma fokus och krav på de data som behöver komma åt oftast i SuperOffice. Lösningen är att skapa anpassade skärmar för varje team. Din organisation kommer att spara tid genom att teamen hittar relevant information snabbare. Konfigurera layouten på dina huvudskärmar och arkiv (avsnittsflikar), och definiera vilken typ av information som respektive team (användargrupp) kan komma åt och se på skärmarna Företag, Kontakt, Försäljning, Projekt, och Ärenden.
 

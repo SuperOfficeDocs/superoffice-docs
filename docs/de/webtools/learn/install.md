@@ -40,7 +40,7 @@ Sehen Sie sich dieses Video an oder folgen Sie der folgenden Anleitung, um zu le
 7. Klicken Sie auf **Weiter**.
 8. Klicken Sie auf **Installieren**.
 9. Wenn Sie für die Installation nach Ihrem Benutzernamen und Passwort gefragt werden, geben Sie diese ein und klicken Sie auf **Software-Installation**.
-10. Schließen Sie das Dialogfeld, wenn die Meldung „Installationsvorgang abgeschlossen“ angezeigt wird.
+10. Schließen Sie das Dialogfeld, wenn die Meldung "Installationsvorgang abgeschlossen" angezeigt wird.
 11. Melden Sie sich abschließend von SuperOffice CRM ab, schließen Sie das Fenster des Webbrowsers und öffnen Sie das Browserfenster wieder, um sich erneut anzumelden.
 
 Wenn WebTools installiert ist, können Sie Dokumente von SuperOffice erstellen
@@ -57,7 +57,7 @@ Wenn WebTools installiert ist, können Sie Dokumente von SuperOffice erstellen
 
 ## Optionale Einstellung für den Standardstart
 
-Fügen Sie „SuperOffice WebTools“ zu den „Login-Objekten“ Ihrer Benutzer hinzu, damit es zusammen mit Ihrem Mac gestartet werden kann.
+Fügen Sie "SuperOffice WebTools" zu den "Login-Objekten" Ihrer Benutzer hinzu, damit es zusammen mit Ihrem Mac gestartet werden kann.
 
 ![Fügen Sie SuperOffice WebTools zu Ihren Login-Objekten hinzu, damit die Anwendung automatisch angezeigt wird -screenshot][img3]
 

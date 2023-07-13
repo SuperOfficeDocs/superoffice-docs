@@ -34,7 +34,7 @@ language: de
 
 ## Eingehende Chats, wenn keine Mitarbeiter anwesend sind (außerhalb der Geschäftszeiten)
 
-Wenn keine Mitarbeiter verfügbar sind (in der Regel außerhalb der Geschäftszeiten), wird eine kurze Nachricht im Chat-Fenster angezeigt. Beispiel: „Wir haben leider geschlossen. Unsere Geschäftszeiten sind ...“
+Wenn keine Mitarbeiter verfügbar sind (in der Regel außerhalb der Geschäftszeiten), wird eine kurze Nachricht im Chat-Fenster angezeigt. Beispiel: "Wir haben leider geschlossen. Unsere Geschäftszeiten sind ..."
 
 Wenn die Anfrageübermittlung für diesen Chatkanal aktiv ist, können die Kunden ihren Namen, ihre E-Mail-Adresse und eine Frage eingeben. Die Anfrage-ID wird im Chat-Fenster angezeigt.
 

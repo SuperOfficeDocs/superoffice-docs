@@ -33,7 +33,7 @@ Hier staan alle geavanceerde opties in SuperOffice Service.
 | [Schermen][8] | |
 | [Schermkiezers][9] | |
 | Systeemscripts | Toont de systeemscripts die belangrijke onderdelen van het systeem aansturen. Klik op een script in de lijst om het scherm **Systeemscript bewerken** te openen. |
-| [Extra menu’s][11] | |
+| [Extra menu's][11] | |
 | [Webpanelen][12] | |
 | [Pakketten][13] | Toont alle pakketten in het systeem; u kunt hier een nieuwe pakketten maken en uploaden. |
 | [Gegevensuitwisseling][14] | |

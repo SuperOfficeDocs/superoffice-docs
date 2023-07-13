@@ -43,7 +43,7 @@ language: de
 
 ## Zugehörige Inhalte
 
-* [So richten Sie „Nächste Anfrage in der Warteschlange anzeigen“ ein][1]
+* [So richten Sie "Nächste Anfrage in der Warteschlange anzeigen" ein][1]
 
 <!-- Referenced links -->
 [1]: ../next-in-queue.md

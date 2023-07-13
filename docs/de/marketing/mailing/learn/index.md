@@ -44,7 +44,7 @@ Die Kampagnen sind in der Bereichsregisterkarte **Kampagnen** unter **Selektione
 > [!NOTE]
 > Wenn Sie eine Selektion oder ein Projekt hinzufügen, werden alle Personen aus der Selektion bzw. dem Projekt als Empfänger zur Kampagne hinzugefügt. Wenn Sie eine Selektion und ein Projekt hinzufügen, werden nur die Personen aus der Selektion als Empfänger hinzugefügt.
 
-Beispiel: Wenn Sie mehrere Kampagnen zur Bewerbung eines Events versenden, können Sie diese Kampagnen zu einer sogenannten „Event 2015“-Selektion hinzufügen, um eine vollständige Liste aller Kampagnen für dieses Event zu erhalten.
+Beispiel: Wenn Sie mehrere Kampagnen zur Bewerbung eines Events versenden, können Sie diese Kampagnen zu einer sogenannten "Event 2015"-Selektion hinzufügen, um eine vollständige Liste aller Kampagnen für dieses Event zu erhalten.
 
 Analog dazu können Sie, wenn Sie ein Projekt für Ihr Event erstellt haben, eine Liste aller mit dem Projekt in Zusammenhang stehenden Kampagnen unter der Bereichsregisterkarte **Aktivitäten** pflegen.
 

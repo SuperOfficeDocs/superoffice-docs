@@ -65,7 +65,7 @@ Wenn Sie in Ihrer Kampagne einen Link zu Ihrer Website ohne Tag einfügen, könn
 
 Die Google Analytics-Funktion in SuperOffice Marketing identifiziert Ihre Kampagnen in den Berichten. Durch das Hinzufügen eines eindeutigen Tags zu allen Links, die Sie in Ihrer Kampagne verwenden, erkennt Google Analytics Ihre Kampagne als die Quelle an, von der die Website-Besucher kommen. Google Analytics gibt Ihnen auch einen Einblick über den Pfad, den die Besucher durch Ihre Website einschlagen.
 
-**Medium**: „E-Mail“ ist das vordefinierte Medium in automatisierten UTM-Tags. Dies bedeutet, dass nachverfolgte Links in Kampagnen, die von SuperOffice gesendet werden, in Google Channel-Berichten unter „E-Mails“ (im Gegensatz zu „anderen“) zu finden sind.
+**Medium**: "E-Mail" ist das vordefinierte Medium in automatisierten UTM-Tags. Dies bedeutet, dass nachverfolgte Links in Kampagnen, die von SuperOffice gesendet werden, in Google Channel-Berichten unter "E-Mails" (im Gegensatz zu "anderen") zu finden sind.
 
 **Quelle** und **Kampagne**: Diese Felder identifizieren diese spezifische Kampagne als Quelle und ermöglichen eine genauere Überwachung und Berichterstattung in Google.
 

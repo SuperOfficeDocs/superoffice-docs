@@ -1,7 +1,7 @@
 ---
 uid: help-de-company-merge
 title: Firmen zusammenführen
-description: "Um mit Kunden und Personen effizient arbeiten zu können, ist es wichtig, eine „aufgeräumte“ Umgebung zu haben. Das bedeutet, dass Sie unbenutzte Firmen und Personen löschen und doppelte Firmen und Personen zusammenführen."
+description: "Um mit Kunden und Personen effizient arbeiten zu können, ist es wichtig, eine aufgeräumte Umgebung zu haben. Das bedeutet, dass Sie unbenutzte Firmen und Personen löschen und doppelte Firmen und Personen zusammenführen."
 author: SuperOffice RnD
 so.date: 12.15.2022
 keywords: Firma

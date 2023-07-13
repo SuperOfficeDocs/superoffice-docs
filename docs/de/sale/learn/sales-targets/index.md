@@ -36,7 +36,7 @@ Der Zugriff auf Ziele wird von Ihrem Administrator unter Einstellungen und Verwa
 | Benutzergruppenziel | Ziel für die Benutzergruppe (kann von der Summe aller Benutzer abweichen). |
 | Benutzerziel | Ziel für den individuellen Benutzer. |
 | Summe aller Ziele für eine Benutzergruppe (nicht bearbeitbar)) | Zeigt die Summe für alle Benutzer in einer Benutzergruppe an. Dies ist eine Richtlinie, um das Einrichten des Ziels für die gesamte Benutzergruppe zu erleichtern. |
-| Zieltyp | Dimensionen, um ein präziseres Zielmanagement zu ermöglichen. **Alle Verkäufe - Betrag** ist der häufigste Zieltyp. Verwenden Sie zum Beispiel „Verkaufstyp“ oder „Unternehmen - Kategorie“ als Dimension für eine spezifischere Art der Segmentierung und der Erreichung verschiedener Ziele. |
+| Zieltyp | Dimensionen, um ein präziseres Zielmanagement zu ermöglichen. **Alle Verkäufe - Betrag** ist der häufigste Zieltyp. Verwenden Sie zum Beispiel "Verkaufstyp" oder "Unternehmen - Kategorie" als Dimension für eine spezifischere Art der Segmentierung und der Erreichung verschiedener Ziele. |
 | Maßeinheit | Numerische Wert, mit dem das Ziel gemessen werden soll, z.B. Betrag, Anzahl oder Gewinn. |
 | Separate Ziele| Fügt gewünschte Listenelemente hinzu, die von der ausgewählten Liste im Zieltyp abhängt. |
 

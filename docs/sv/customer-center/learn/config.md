@@ -60,7 +60,7 @@ Om kundcentret är flerspråkigt kan du välja alternativ (till exempel välkoms
 | Aktivera sidfot | Välj det här alternativet om du vill visa en sidfot längst ned på sidan. Klicka på **Redigera** för att skriva text. |
 | Aktivera chatt | Välj det här alternativet om du vill aktivera chattfönstret i det nedre högra hörnet av sidan. Välj **Alltid** om du vill att chattfönstret ska vara tillgängligt för alla som besöker kundcentret. Annars väljer du **Inloggade kunder** för att kräva att användarna loggar in för att komma åt chattfönstret. |
 | Chattkanal | Välj den chattkanal du vill använda. Om ingen chattkanal väljs kommer chattfönstret inte att vara tillgängligt. |
-| Använd det anpassade formuläret ”Kontakta oss” | Välj det här alternativet om du vill använda ett anpassat formulär i stället för standardformuläret. Välj ett formulär i listan.|
+| Använd det anpassade formuläret "Kontakta oss" | Välj det här alternativet om du vill använda ett anpassat formulär i stället för standardformuläret. Välj ett formulär i listan.|
 
 <!-- Referenced links -->
 [1]: edit.md

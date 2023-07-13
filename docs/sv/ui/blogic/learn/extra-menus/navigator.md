@@ -33,7 +33,7 @@ Som ett exempel på denna funktionalitet ska vi lägga till en ny navigeringsgru
 
 8. Skriv "Google" i fältet **Namn** (max. 20 tecken).
 
-9. Markera **Använd URL** och ange ”<http://www.google.com”> i **URL**-fältet.
+9. Markera **Använd URL** och ange "<http://www.google.com"> i **URL**-fältet.
 
 10. Markera INTE **Lägg till ID** eller **Lägg till &lt;usec&gt;** – om du gör det läggs värden till i slutet av den URL du definierade.
 

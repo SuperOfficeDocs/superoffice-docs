@@ -27,7 +27,7 @@ För att konfigurera SharePoint som ditt dokumentbibliotek i SuperOffice behöve
   * Om du inte har en Microsoft 365-prenumeration måste du teckna en hos Microsoft
 * Ett SharePoint dokumentbibliotek (för lagring av dokument)
 * Om du vill aktivera gruppåtkomst för SharePoint-dokument baserat på "Synlig för"-inställningarna i SuperOffice
-  * Du behöver ”global administratörsbehörighet” i Microsoft 365 (för att kunna autentisera SuperOffice som betrodd app i din Microsoft 365-lösning). Antingen under installationen eller skicka en länk till någon som är.
+  * Du behöver "global administratörsbehörighet" i Microsoft 365 (för att kunna autentisera SuperOffice som betrodd app i din Microsoft 365-lösning). Antingen under installationen eller skicka en länk till någon som är.
 
 > [!NOTE]
 > Om du inte har en Microsoft 365-prenumeration och inte kan teckna en kan du använda SuperOffice dokumentbibliotek och varje användare måste installera WebTools för Windows OS eller Mac OS.

@@ -117,7 +117,7 @@ items:
       items:
       - name: Web-Bildschirm hinzufügen
         href: web-panel-add-item.md
-    - name: Menü „Aufgabe“
+    - name: Menü "Aufgabe"
       href: add-items-to-task-menu.md
     - name: GUI-Anwendungsliste
       href: application.md

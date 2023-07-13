@@ -66,9 +66,9 @@ Klicken Sie zum Fortfahren auf **Nächster Schritt**.
 
 ## Schritt 3 - Gruppen und Zugriff
 
-In diesem Schritt können Sie den Gruppenzugriff auf SharePoint-Dokumente je nach den Einstellungen „Sichtbar für“ in SuperOffice aktivieren.
+In diesem Schritt können Sie den Gruppenzugriff auf SharePoint-Dokumente je nach den Einstellungen "Sichtbar für" in SuperOffice aktivieren.
 
-Wenn Sie „Sichtbar für“ nicht verwenden wollen, deaktivieren Sie diese Option.
+Wenn Sie "Sichtbar für" nicht verwenden wollen, deaktivieren Sie diese Option.
 
 1. Wählen Sie **Gruppenzugriff auf SharePoint-Dokumente basierend auf den SuperOffice-Einstellungen "Sichtbar für" aktivieren** aus.
 

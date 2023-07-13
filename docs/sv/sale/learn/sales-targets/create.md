@@ -104,7 +104,7 @@ Innan du börjar använda funktionen försäljningsmål måste du ställa in nå
 
 ## Funktionen lås/lås upp
 
-Beroende på din användarroll (funktionsrättigheten ”Kan låsa/låsa upp mål”) kan du låsa och låsa upp ett försäljningsmål. När försäljningsmålet har godkänts, kan du välja raden för att låsa den och då inaktiveras raden för redigering. Om försäljningsmålet godkändes och låstes, ska det inte låsas upp om det inte finns särskilda skäl att ändra det.
+Beroende på din användarroll (funktionsrättigheten "Kan låsa/låsa upp mål") kan du låsa och låsa upp ett försäljningsmål. När försäljningsmålet har godkänts, kan du välja raden för att låsa den och då inaktiveras raden för redigering. Om försäljningsmålet godkändes och låstes, ska det inte låsas upp om det inte finns särskilda skäl att ändra det.
 
 ## Kopiera siffror från en annan användares mål
 

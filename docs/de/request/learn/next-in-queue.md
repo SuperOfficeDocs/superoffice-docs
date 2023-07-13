@@ -11,7 +11,7 @@ so.audience.tooltip: SuperOffice Service
 language: de
 ---
 
-# So richten Sie „Nächste Anfrage in der Warteschlange anzeigen“ ein
+# So richten Sie "Nächste Anfrage in der Warteschlange anzeigen" ein
 
 In SuperOffice werden Anfragen normalerweise gemäß einer Zuordnungsmethode den Benutzern zugeordnet. Eine weitere Möglichkeit, Anfragen einzelnen Bearbeitern zuzuordnen, besteht darin, neue Anfragen in **Anfragen** > **Nicht zugeordnete Anfragen** zu stellen. Die Bearbeiter müssen die Anfragen dann manuell akzeptieren.
 
@@ -34,7 +34,7 @@ Die folgenden Faktoren entscheiden darüber, welche Anfragen ein Bearbeiter aus 
 * Die Anfragen müssen eine Kategorie aufweisen, in der der Bearbeiter Mitglied ist.
 * Der Eigentümer der Anfrage muss **Nicht zugeordnet** sein.
 
-## Neuen Anfragestatus „in Warteschlange“ erstellen
+## Neuen Anfragestatus "in Warteschlange" erstellen
 
 Zuerst werden wir einen neuen Anfragestatus erstellen: **In Warteschlange**. Neuen Anfragen sollte automatisch dieser Anfragestatus zugewiesen werden.
 
@@ -44,7 +44,7 @@ Zuerst werden wir einen neuen Anfragestatus erstellen: **In Warteschlange**. Neu
 
 1. Klicken Sie auf die Schaltfläche **Hinzufügen**.
 
-1. Geben Sie in das Feld **Name** einen aussagekräftigen Namen für den Anfragestatus ein. Zum Beispiel „In Warteschlange“.
+1. Geben Sie in das Feld **Name** einen aussagekräftigen Namen für den Anfragestatus ein. Zum Beispiel "In Warteschlange".
 
 1. Wählen Sie im Listenfeld **Interner Status** **Offen**.
 

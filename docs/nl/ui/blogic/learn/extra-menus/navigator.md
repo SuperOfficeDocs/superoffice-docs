@@ -37,7 +37,7 @@ Om deze functionaliteit te illustreren voegen we een nieuwe navigatorgroep toe i
 
 10. Selecteer **ID toevoegen** of **&lt;usec&gt; toevoegen** NIET, anders worden waarden toegevoegd achter de URL die u hebt opgegeven.
 
-11. Schakel NIET **Terug naar hetzelfde scherm** in. Als u dit inschakelt, zullen externe URL’s niet werken. Zie [Menu-eigenschappen][1].
+11. Schakel NIET **Terug naar hetzelfde scherm** in. Als u dit inschakelt, zullen externe URL's niet werken. Zie [Menu-eigenschappen][1].
 
 12. In het veld **Doel** voert u '_blanco' in, zodat de website wordt geopend in een nieuw tabblad in de browser.
 

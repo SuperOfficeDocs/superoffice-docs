@@ -25,7 +25,7 @@ Um die [Google Analytics-Funktion][2] nutzen zu können, benötigen Sie ein Goog
 
     ![Aktivieren Sie das Kontrollkästchen für Google Analytics und verfolgen Sie alle Links -screenshot][img1]
 
-2. In den Feldern **Google Analytics Tracking** ist „E-Mail“ als Mittel voreingestellt. Dies bedeutet, dass nachverfolgte Kampagnen , die von SuperOffice gesendet werden, in Google Channel-Berichten unter **E-Mails** anstatt **Andere** zu suchen sind.
+2. In den Feldern **Google Analytics Tracking** ist "E-Mail" als Mittel voreingestellt. Dies bedeutet, dass nachverfolgte Kampagnen , die von SuperOffice gesendet werden, in Google Channel-Berichten unter **E-Mails** anstatt **Andere** zu suchen sind.
 
 3. Um eine bestimmte Kampagne als Quelle zu identifizieren, müssen auch die Felder für Quelle und Kampagne ausgefüllt werden.
 

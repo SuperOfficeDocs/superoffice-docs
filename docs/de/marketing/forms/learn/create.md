@@ -156,9 +156,9 @@ Wenn eine Person ein Formular ausgefüllt und übermittelt hat, sollten Sie dies
 
 Neben dem Dankeschön können Sie diese Seite nutzen, um Ihre Besucher über andere Produkte oder Ereignisse zu informieren. Fügen Sie einfach Ihre inspirierende Kopie zur Seite hinzu und verknüpfen Sie sie mit bestimmten Stellen auf Ihrer Website. Auf diese Weise kann der Kunde nach Übermittlung seiner Daten Ihre Website weiter erkunden.
 
-Das wird eine positive Auswirkung haben – eine „Dankeschön“- Seite wird nicht nur das Kundenerlebnis verbessern sondern auch Ihre Kundenbindung stärken.
+Das wird eine positive Auswirkung haben – eine "Dankeschön"- Seite wird nicht nur das Kundenerlebnis verbessern sondern auch Ihre Kundenbindung stärken.
 
-Sehen Sie sich dieses Video an, um zu lernen, wie man die „Dankeschön“-Seite zu Ihrem Web-Formular hinzufügt, (Videolänge – 1:48) oder befolgen Sie folgende Schritte.
+Sehen Sie sich dieses Video an, um zu lernen, wie man die "Dankeschön"-Seite zu Ihrem Web-Formular hinzufügt, (Videolänge – 1:48) oder befolgen Sie folgende Schritte.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]

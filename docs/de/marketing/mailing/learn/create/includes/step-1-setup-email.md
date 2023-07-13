@@ -9,7 +9,7 @@ Der erste Schritt beim Erstellen einer E-Mail-Kampagne wird als **Setup** bezeic
 
     [!include[Note](spf-look-up.md)]
 
-1. In der Liste **Antwort an** haben Sie die gleichen Optionen wie oben. Zusätzlich dazu können Sie **„Von“ als Antwortadresse verwenden** auswählen. Sämtliche Antworten werden dann an den Absender gesendet.
+1. In der Liste **Antwort an** haben Sie die gleichen Optionen wie oben. Zusätzlich dazu können Sie **"Von" als Antwortadresse verwenden** auswählen. Sämtliche Antworten werden dann an den Absender gesendet.
 
 1. Wählen Sie einen **Order** aus, in dem Sie die Kampagne platzieren wollen.
 

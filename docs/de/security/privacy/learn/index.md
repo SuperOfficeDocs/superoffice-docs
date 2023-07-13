@@ -25,7 +25,7 @@ Für jeden Zweck müssen eine Rechtsgrundlage und ein Zustimmungsnachweis dokume
 
 Sie müssen die Rechtsgrundlage für jeden für eine Person registrierten Zweck dokumentieren. In dieser Liste können Sie Rechtsgrundlagen hinzufügen und pflegen, die beim Bearbeiten der Datenschutzeinstellungen für Ihre Personen verwendet werden.
 
-Beispiel: Eine Person sendet Ihnen über ein Web-Formular eine Anfrage und klickt auf die Option „Newsletter abonnieren“ (oder Ähnliches). Damit hat die betreffende Person die Einwilligung zum Empfang von E-Marketing von Ihrer Firma gegeben. Die Rechtsgrundlage ist daher die **Einwilligung** für den Zweck „E-Marketing“.
+Beispiel: Eine Person sendet Ihnen über ein Web-Formular eine Anfrage und klickt auf die Option "Newsletter abonnieren" (oder Ähnliches). Damit hat die betreffende Person die Einwilligung zum Empfang von E-Marketing von Ihrer Firma gegeben. Die Rechtsgrundlage ist daher die **Einwilligung** für den Zweck "E-Marketing".
 
 ## <a id="source" />Quelle
 

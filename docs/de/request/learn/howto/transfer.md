@@ -22,7 +22,7 @@ Als Bearbeiter können Sie die Anfrage nicht immer alleine beantworten. Es kann 
     ![Einem anderen Service-Benutzer eine Anfrage zuordnen -screenshot][img1]
 
     > [!NOTE]
-    > Wenn Sie nicht wissen, wer die Anfrage übernehmen soll, können Sie **(Automatisch zugeteilt)** im Feld **Eigentümer** und die entsprechende [Kategorie][3] im Feld **Kategorie** wählen. Wenn die Anfrage zum Beispiel eine Zahlungsfrage betrifft, können Sie die Kategorie zu „Rechnung“ ändern. Die Anfrage wird dann den Zuweisungsregeln entsprechend automatisch einem Bearbeiter in der Rechnungsstellungsabteilung zugewiesen.
+    > Wenn Sie nicht wissen, wer die Anfrage übernehmen soll, können Sie **(Automatisch zugeteilt)** im Feld **Eigentümer** und die entsprechende [Kategorie][3] im Feld **Kategorie** wählen. Wenn die Anfrage zum Beispiel eine Zahlungsfrage betrifft, können Sie die Kategorie zu "Rechnung" ändern. Die Anfrage wird dann den Zuweisungsregeln entsprechend automatisch einem Bearbeiter in der Rechnungsstellungsabteilung zugewiesen.
 
 1. Wählen Sie die Registerkarte **Nachrichten** aus.
 

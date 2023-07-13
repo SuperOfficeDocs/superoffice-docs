@@ -147,11 +147,11 @@ Schakel deze optie in als u de vervolgactiviteit zichtbaar wilt maken voor exter
 
 Dit tabblad bevat een [lijst van deelnemers][6] aan de vervolgactiviteit. Geregistreerde deelnemers worden gemarkeerd met een punt.
 
-Wanneer u op de knop **Weergeven als groep** ![pictogram][img7] klikt rechtsonder op het tabblad **Deelnemers**, wordt het tabblad **Weergave** in de agenda geopend. Hier ziet u een overzicht van de [agenda’s van de uitgenodigde gebruikers][7] (SuperOffice-gebruikers).
+Wanneer u op de knop **Weergeven als groep** ![pictogram][img7] klikt rechtsonder op het tabblad **Deelnemers**, wordt het tabblad **Weergave** in de agenda geopend. Hier ziet u een overzicht van de [agenda's van de uitgenodigde gebruikers][7] (SuperOffice-gebruikers).
 
 ## Het tabblad Koppelingen
 
-Dit tabblad bevat informatie over URL’s, activiteiten (documenten en vervolgactiviteiten), projecten en verkopen die aan de bewuste [vervolgactiviteit zijn gekoppeld][8]. Als iets op dit tabblad wordt geregistreerd, wordt een stip weergegeven naast **Koppelingen**.
+Dit tabblad bevat informatie over URL's, activiteiten (documenten en vervolgactiviteiten), projecten en verkopen die aan de bewuste [vervolgactiviteit zijn gekoppeld][8]. Als iets op dit tabblad wordt geregistreerd, wordt een stip weergegeven naast **Koppelingen**.
 
 ## Het tabblad Meer
 

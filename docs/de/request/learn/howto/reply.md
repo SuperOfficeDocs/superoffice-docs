@@ -61,7 +61,7 @@ Sie können mehreren Anfragen gleichzeitig eine Nachricht hinzufügen. Dies ist 
 1. Wählen Sie **Antwort an Kunden** aus.
 
     * **Kopie an die Kunden senden (nur externe Anfragen)**: Wenn Sie diese Option aktivieren, wird die Mitteilung zusätzlich per E-Mail an die Personen für die verknüpften externen Anfragen gesendet.
-    * **Anfrage abschließen**: Aktivieren Sie dieses Kontrollkästchen, wenn Sie allen ausgewählten Anfragen in einem Arbeitsgang den Status „Bearbeitet“ zuweisen möchten.
+    * **Anfrage abschließen**: Aktivieren Sie dieses Kontrollkästchen, wenn Sie allen ausgewählten Anfragen in einem Arbeitsgang den Status "Bearbeitet" zuweisen möchten.
     * **Zugriffsstufe**: Die Zugriffsstufe der hinzuzufügenden Nachricht. Wenn Sie **Extern** auswählen, ist die Mitteilung im SuperOffice Kundenzentrum zu den ausgewählten Anfragen sichtbar.
     * Schreiben Sie Ihre Nachricht im Textbereich in der Mitte der Ansicht.
     * **Einfügen**: Klicken Sie auf die Listenschaltfläche ![Symbol][img3] und wählen Sie aus, was in der Mitteilung eingefügt werden soll. Sie können eine Antwortvorlage, einen FAQ-Eintrag, eine frühere Nachricht oder eine Anlage hinzufügen. Optional: Sie können [Antwortvorlagen in anderen Sprachen hinzufügen][5]. Wählen Sie eine Sprache aus der Sprachliste aus. Sofern verfügbar, wird der Text in der ausgewählten Sprache eingefügt. Andernfalls wird die Standardsprache verwendet.

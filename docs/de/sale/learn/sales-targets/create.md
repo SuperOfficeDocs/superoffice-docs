@@ -104,7 +104,7 @@ Vor der Nutzung der Vertriebsziele-Funktion müssen Sie in Einstellungen und Ver
 
 ## Sperr-/Entriegelungsfunktion
 
-Je nach Ihrer Benutzerrolle (Funktionsrecht „Kann Ziele sperren/entsperren“) können Sie ein Verkaufsziel sperren und entsperren. Wenn das Verkaufsziel genehmigt wurde, können Sie die Zeile auswählen, um die Verkaufsziele zu sperren, wonach die Zeile für die Bearbeitung deaktiviert wird. Wenn das Verkaufsziel genehmigt und gesperrt wurde, sollte es nicht entsperrt werden, sofern es keine bestimmte Gründe für seine Änderung gibt.
+Je nach Ihrer Benutzerrolle (Funktionsrecht "Kann Ziele sperren/entsperren") können Sie ein Verkaufsziel sperren und entsperren. Wenn das Verkaufsziel genehmigt wurde, können Sie die Zeile auswählen, um die Verkaufsziele zu sperren, wonach die Zeile für die Bearbeitung deaktiviert wird. Wenn das Verkaufsziel genehmigt und gesperrt wurde, sollte es nicht entsperrt werden, sofern es keine bestimmte Gründe für seine Änderung gibt.
 
 ## Nummern vom Ziel eines anderen Benutzers kopieren
 

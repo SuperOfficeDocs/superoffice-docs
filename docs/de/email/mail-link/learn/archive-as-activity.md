@@ -21,7 +21,7 @@ Wenn Sie eine E-Mail erhalten, in der Sie zu einer Aktion aufgefordert werden, k
 
 2. Klicken Sie in der Symbolleiste auf die Schaltfläche **E-Mail archivieren** und wählen Sie im Dropdown-Menü **Aktivität erstellen** aus. Das Dialogfeld **Aktivität erstellen** wird angezeigt.
 
-3. Wenn der Absender der E-Mail nicht in SuperOffice CRM aufgelistet wird, wird oben im Dialogfeld eine Warnung angezeigt: „Die E-Mail-Adresse dieses Absenders wurde nicht erkannt. Klicken Sie hier, um SuperOffice mit dieser E-Mail-Adresse zu aktualisieren.“ [Wie man nicht gelistete Absender hantiert][1]
+3. Wenn der Absender der E-Mail nicht in SuperOffice CRM aufgelistet wird, wird oben im Dialogfeld eine Warnung angezeigt: "Die E-Mail-Adresse dieses Absenders wurde nicht erkannt. Klicken Sie hier, um SuperOffice mit dieser E-Mail-Adresse zu aktualisieren." [Wie man nicht gelistete Absender hantiert][1]
 
 4. Im Feld **Firma** können Sie nach einer Firma suchen, indem Sie beginnen, den Firmennamen einzugeben und dann aus den angezeigten Übereinstimmungen auswählen.
 

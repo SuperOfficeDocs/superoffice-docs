@@ -11,7 +11,7 @@ language: sv
 
 # Skicka e-postbekräftelse om personskydd
 
-I den nya GDPR-världen, har individer ”rätt att informeras”. Det innebär att de har rätt att få veta, antingen i förväg eller inom 30 dagar efter att deras personuppgifter har samlats in. GDPR föreskriver att individer har rätt att bli informerade (a) om att en organisation avser att lagra deras personuppgifter och (b) vad organisationen avser att använda deras uppgifter till.
+I den nya GDPR-världen, har individer "rätt att informeras". Det innebär att de har rätt att få veta, antingen i förväg eller inom 30 dagar efter att deras personuppgifter har samlats in. GDPR föreskriver att individer har rätt att bli informerade (a) om att en organisation avser att lagra deras personuppgifter och (b) vad organisationen avser att använda deras uppgifter till.
 
 ## Inhämta deras samtycke i förväg via formulär
 

@@ -45,7 +45,7 @@ Gå till nästa procedur för att länka statusarna till en projekttyp.
 
 En projektguide måste vara länkad till en projekttyp. [Så skapar du en projekttyp][3].
 
-Exempel på projekttyper: ”Konferens”, ”Kampanj”, ”Internt”.
+Exempel på projekttyper: "Konferens", "Kampanj", "Internt".
 
 1. Markera **Denna projekttyp har en anknuten guide**.
 1. Välj minst två statusar.
@@ -123,10 +123,10 @@ När du har skapat statusar och angett en projekttyp för projektguiden, kan du 
 
 Planeringsmöte:
 
-- Vad ska konferensen handla om?
-- Deltagare?
-- Talare?
-- Var?
+\- Vad ska konferensen handla om?
+\- Deltagare?
+\- Talare?
+\- Var?
 
 ## <a id="add-doc-status" />Lägg till ett dokument för en status
 

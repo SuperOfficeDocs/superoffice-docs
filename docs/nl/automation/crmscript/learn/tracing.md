@@ -25,7 +25,7 @@ Het tabblad **Traceren** bevat een lijst met alle traceringen. Klik op een trace
 
 * Ga naar **CRMScript** > **Foutopsporingssessies** en klik op ![pictogram][img1] **Traceringsscripts starten** om de tracering van de scripts in de lijst te starten.
 * Open een script of macro in **Foutopsporing** en klik op ![pictogram][img2] **Script traceren**.
-* Open een script of macro in het tabblad **Macro’s en scripts** en klik op ![Pictogram][img2] **Script traceren**.
+* Open een script of macro in het tabblad **Macro's en scripts** en klik op ![Pictogram][img2] **Script traceren**.
 
 ## Traceringen bewerken
 

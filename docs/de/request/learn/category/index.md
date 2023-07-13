@@ -39,7 +39,7 @@ Die Kategorien sind in einer Baumstruktur angeordnet.
 
 * [Kategorien erstellen][1]
 * [Kategorien löschen][2]
-* [So richten Sie „Nächste Anfrage in der Warteschlange anzeigen“ ein][5]
+* [So richten Sie "Nächste Anfrage in der Warteschlange anzeigen" ein][5]
 * [Prioritäten][4]
 
 <!-- Referenced links -->

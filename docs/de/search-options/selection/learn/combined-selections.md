@@ -32,13 +32,13 @@ Sie können auswählen, welche Einträge in der kombinierten Selektion enthalten
 
 ### Firmen und Verkäufe
 
-1. Erstellen Sie eine kombinierte Selektion mit Firmen/Personen auf Grundlage von zwei vorhandenen Selektionen: „Kunden in Schweden“ (Selektion 1) und „Verkäufe im letzten Jahr“ (Selektion 2).
+1. Erstellen Sie eine kombinierte Selektion mit Firmen/Personen auf Grundlage von zwei vorhandenen Selektionen: "Kunden in Schweden" (Selektion 1) und "Verkäufe im letzten Jahr" (Selektion 2).
 2. Wählen Sie den Kombinationstyp **Nur in Selektion 1**. Als Ergebnis werden Kunden in Schweden angezeigt, für die im letzten Jahr keine Verkäufe stattgefunden haben.
-3. Speichern Sie das Ergebnis als statische Selektion unter dem Namen „Kunden in Schweden ohne Verkäufe“, und beauftragen Sie einen Ihrer Vertriebsmitarbeiter damit, diese Kunden zu betreuen.
+3. Speichern Sie das Ergebnis als statische Selektion unter dem Namen "Kunden in Schweden ohne Verkäufe", und beauftragen Sie einen Ihrer Vertriebsmitarbeiter damit, diese Kunden zu betreuen.
 
 ### Folgeaufgaben
 
-1. Erstellen Sie eine kombinierte Selektion mit Folgeaufgaben auf Grundlage von zwei vorhandenen Selektionen: „Folgeaufgaben, die mit meinen Kunden verknüpft sind“ (Selektion 1) und „Geplante Folgeaufgaben im nächsten Monat“ (Selektion 2).
+1. Erstellen Sie eine kombinierte Selektion mit Folgeaufgaben auf Grundlage von zwei vorhandenen Selektionen: "Folgeaufgaben, die mit meinen Kunden verknüpft sind" (Selektion 1) und "Geplante Folgeaufgaben im nächsten Monat" (Selektion 2).
 2. Wählen Sie den Kombinationstyp **Schnittmenge**. Als Ergebnis wird eine Liste der Folgeaufgaben angezeigt, die im nächsten Monat anstehen. Sie können dieses Ergebnis nun über die Aufgabe **Export in Datei** in eine Datei exportieren.
 
 > [!NOTE]

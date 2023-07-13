@@ -14,7 +14,7 @@ language: da
 Lad os se på to brugerdefinerede formularer, der kan være relevante for din virksomhed:
 
 * [Tilmelding til nyhedsbrev](#newsletter-sign-up): Lad kunderne tilmelde sig et eller flere af dine nyhedsbreve.
-* [Kontakt mig](#contact-me): Brug en “Kontakt mig”-formular til åbning af en anden kommunikationskanal med dine kunder eller kundeemner. Brug denne formular til generering af supportanmodninger eller til generering af kundeemner til dit salgsteam.
+* [Kontakt mig](#contact-me): Brug en "Kontakt mig"-formular til åbning af en anden kommunikationskanal med dine kunder eller kundeemner. Brug denne formular til generering af supportanmodninger eller til generering af kundeemner til dit salgsteam.
 
 Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede instruktion i [Opret ny formular.][1]
 
@@ -35,7 +35,7 @@ Med denne formular kan dine kunder tilmelde sig et eller flere nyhedsbreve. Tilm
 
 1. Vælg **Form** under **Opret ny** i højre side af skærmen. Skærmbilledet **Rediger formular** vises.
 
-1. Skriv “Tilmelding til nyhedsbrev i feltet **formularnavne.**
+1. Skriv "Tilmelding til nyhedsbrev i feltet **formularnavne.**
 
 1. Udfyld indstillingerne/felterne i kategorien **Egenskaber**, hvis relevant. Du må IKKE aktivere indstillingerne under **Deaktiver formular automatisk.**
 
@@ -50,7 +50,7 @@ Med denne formular kan dine kunder tilmelde sig et eller flere nyhedsbreve. Tilm
         * Angiv feltet som **Obligatorisk**.
         * Ændr navnet på feltet til "Vælg dine abonnementer".
 
-1. Vælg feltet**OK**, og ændr navnet til “Send” og rediger skrifttypen/baggrundsfarven og placeringen.
+1. Vælg feltet**OK**, og ændr navnet til "Send" og rediger skrifttypen/baggrundsfarven og placeringen.
 
 1. Rediger navnene på de andre felter ved behov. **Tip**: Fjern "Person -".
 
@@ -98,7 +98,7 @@ Med denne formular kan dine kunder tilmelde sig et eller flere nyhedsbreve. Tilm
 
 1. Klik på **Anvend ny** for at gemme formularen og fortsætte med at redigere.
 
-1. I kategorien **Tak-side** kan du enten omdirigere kunden til en webside eller vise en meddelelse (som f.eks. “Tak, fordi du abonnerer”.) Dette vises, når kunden har bekræftet sin e-mailadresse.
+1. I kategorien **Tak-side** kan du enten omdirigere kunden til en webside eller vise en meddelelse (som f.eks. "Tak, fordi du abonnerer".) Dette vises, når kunden har bekræftet sin e-mailadresse.
 
 1. Klik på **Anvend ny** for at gemme formularen og fortsætte med at redigere.
 
@@ -145,12 +145,12 @@ I dette eksempel viser vi, hvordan du opretter en kort formular til kunder, der 
 1. Klik på **Felter** i kategorien, klik på ![ikon][img1], og tilføj følgende felter:
 
     * For-og efternavn. Fjern feltet **Person - navn**.
-    * **Få vist elementer** > **Tekstblok**: Indtast teksten i “Sådan kan vi kontakte dig?” med fed skrift.
+    * **Få vist elementer** > **Tekstblok**: Indtast teksten i "Sådan kan vi kontakte dig?" med fed skrift.
     * **Person - Mobil**: Indtast et eksempel på et korrekt formateret telefonnummer for dit land (medtage landekoden) i feltet **Pladsholder** (eksempel +45 20131188).
     * **Person - E-mail**
-    * **Formularelementer** > **Tekstområde**: Ændr navnet på feltet til "Kommenter (valgfrit)", og skriv "Hvad kan vi hjælpe med i dag?” i feltet **Pladsholder**.
+    * **Formularelementer** > **Tekstområde**: Ændr navnet på feltet til "Kommenter (valgfrit)", og skriv "Hvad kan vi hjælpe med i dag?" i feltet **Pladsholder**.
 
-1. Vælg feltet**OK**, og ændr navnet til “Send” og rediger skrifttypen/baggrundsfarven og placeringen.
+1. Vælg feltet**OK**, og ændr navnet til "Send" og rediger skrifttypen/baggrundsfarven og placeringen.
 
 1. Rediger navnene på de andre felter ved behov. **Tip**: Fjern "Person -".
 
@@ -164,7 +164,7 @@ I dette eksempel viser vi, hvordan du opretter en kort formular til kunder, der 
 
 1. Valgfrit: Hvis du vil aktivere dobbelt tilmelding, skal du også **indstille feltet E-mail** til **Obligatorisk**.
 
-1. I kategorien **Tak-side** kan du enten omdirigere kunden til en webside eller vise en meddelelse (som f.eks. “Tak, fordi du abonnerer”. “Vi kontakter dig så hurtigt som muligt.”) Det vises, når kunden har sendt formularen.
+1. I kategorien **Tak-side** kan du enten omdirigere kunden til en webside eller vise en meddelelse (som f.eks. "Tak, fordi du abonnerer". "Vi kontakter dig så hurtigt som muligt.") Det vises, når kunden har sendt formularen.
 
 1. I kategorien **Side til inaktiv formular** indtastes en URL-adresse eller en meddelelse. Det er relevant, hvis en kunde får adgang til formularen, når den er indstillet til inaktiv.
 
@@ -172,7 +172,7 @@ I dette eksempel viser vi, hvordan du opretter en kort formular til kunder, der 
 
     * Vælg **Opret sag**, og gør følgende:
         1. Indtast en beskrivende titel på sagen, der skal genereres fra denne formular.
-        2. Vælg den relevante sagskategori, f.eks. “Support”, eller en underkategori med navnet “Formularindsendelser”.
+        2. Vælg den relevante sagskategori, f.eks. "Support", eller en underkategori med navnet "Formularindsendelser".
         3. Indstil sagsprioriteten **til**Mellem.
 
     * Vælg **Manuelt, hvis indsenderen er ukendt. Automatisk, hvis indsenderen er kendt**: Hvis e-mailadressen, der indsendes i formularen matcher en e-mailadresse i SuperOffice, behandles den indsendte formular automatisk. Ellers skal den behandles manuelt.

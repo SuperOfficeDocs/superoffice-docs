@@ -45,7 +45,7 @@ Workflow-Leitfäden, wie der [Verkaufsleitfaden][4] und der [Projektleitfaden][5
 
 Wenn Sie Ihren Benutzern helfen, die Kontrolle über alle Schritte im Prozess zu behalten, stellen Sie sicher, dass alle Projekte pünktlich geliefert und alle Verkaufschancen nachverfolgt werden. Ohne einen vordefinierten Workflow-Leitfaden verliert man leicht die Kontrolle, insbesondere wenn man gleichzeitig an mehreren Projekten oder Verkäufen arbeitet. Es kann sein, dass Sie die während jeder Stufe Ihres Projekts oder ihrer Verkäufe zu erledigenden Dinge aus den Augen verlieren und infolgedessen Ihre Bearbeitungsfrist verpassen.
 
-Jedes Projekt und jede Verkaufschance hat einen Status, der angibt, an welchem Punkt Sie sich in Ihrem Prozess befinden. Ein Projektstatus kann zum Beispiel „Geplant“, „In Bearbeitung“ und „Abgeschlossen“ sein. Ein Verkauf kann hingegen folgende Stufe haben: „Lead“, „Interessephase“, „Angebot“ oder „Mündliche Zusage“.
+Jedes Projekt und jede Verkaufschance hat einen Status, der angibt, an welchem Punkt Sie sich in Ihrem Prozess befinden. Ein Projektstatus kann zum Beispiel "Geplant", "In Bearbeitung" und "Abgeschlossen" sein. Ein Verkauf kann hingegen folgende Stufe haben: "Lead", "Interessephase", "Angebot" oder "Mündliche Zusage".
 
 Jeder Status in Ihrem Workflow-Leitfaden enthält die notwendigen Folgeaufgabe-Aktivitäten und Dokumente, um den Benutzer durch den gesamten Prozess zu führen.
 

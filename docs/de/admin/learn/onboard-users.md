@@ -40,7 +40,7 @@ Stellen Sie sicher, dass Sie diesen Routineleitfaden stets aktualisieren, um Än
 
 ### Mitarbeiter schulen
 
-Legen Sie genügend Zeit für die Schulung Ihrer Mitarbeiter fest. In SuperOffice CRM ist ein kostenloses gamifiziertes eLearning-Tool verfügbar. Gehen Sie einfach zum Hilfe-Menü, klicken Sie auf „Was ist neu“, gehen Sie dann zur zweiten Seite und klicken Sie auf „Jetzt starten“.
+Legen Sie genügend Zeit für die Schulung Ihrer Mitarbeiter fest. In SuperOffice CRM ist ein kostenloses gamifiziertes eLearning-Tool verfügbar. Gehen Sie einfach zum Hilfe-Menü, klicken Sie auf "Was ist neu", gehen Sie dann zur zweiten Seite und klicken Sie auf "Jetzt starten".
 
 Sie können sich auch an unsere erfahrenen Berater wenden, die Sie bei der Schulung Ihrer Benutzer unterstützen. Wenden Sie sich an uns, um mehr zu erfahren.
 

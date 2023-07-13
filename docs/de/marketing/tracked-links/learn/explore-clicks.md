@@ -23,7 +23,7 @@ Sie können Links (URLs) in eine E-Mail-Kampagne oder Formularantwort aufnehmen 
 * Um sich die Links für alle Kampagnen anzeigen zu lassen, klicken Sie in der Hauptansicht von SuperOffice Marketing auf die Registerkarte **Überwachte Links**. Wenn Sie den Link, mit dem arbeiten möchten, nicht finden, klicken Sie auf **Alle Links**. Klicken Sie auf den Link, mit dem Sie arbeiten möchten.
 
     > [!NOTE]
-    > Hier werden ausschließlich [erfasste Links][2] angezeigt. Wenn Sie „reguläre“ Links zur Kampagne hinzugefügt haben, müssen Sie die Option **Alle Links überwachen** im Schritt 1 auswählen: Einstellungen.
+    > Hier werden ausschließlich [erfasste Links][2] angezeigt. Wenn Sie "reguläre" Links zur Kampagne hinzugefügt haben, müssen Sie die Option **Alle Links überwachen** im Schritt 1 auswählen: Einstellungen.
 
 ## Klicks durchsuchen
 

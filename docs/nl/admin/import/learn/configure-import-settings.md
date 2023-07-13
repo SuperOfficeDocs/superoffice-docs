@@ -156,7 +156,7 @@ De importbron kan bijvoorbeeld branches bevatten die niet bestaan in SuperOffice
 
 ## Nieuwe telefoonnummers, koppelingen en e-mailadressen beheren
 
-De importbron kan bijvoorbeeld telefoonnummers, koppelingen en e-mailadressen bevatten die niet zijn geregistreerd in SuperOffice. Aangezien het mogelijk is diverse telefoonnummers, koppelingen en e-mailadressen te registreren voor één bedrijf/persoon, moet u opgeven hoe nieuwe waarden moeten worden beheerd. In de lijsten **Telefoonnummer** en **URL’s + e-mail** onder **Lijsten**, heeft u de volgende opties:
+De importbron kan bijvoorbeeld telefoonnummers, koppelingen en e-mailadressen bevatten die niet zijn geregistreerd in SuperOffice. Aangezien het mogelijk is diverse telefoonnummers, koppelingen en e-mailadressen te registreren voor één bedrijf/persoon, moet u opgeven hoe nieuwe waarden moeten worden beheerd. In de lijsten **Telefoonnummer** en **URL's + e-mail** onder **Lijsten**, heeft u de volgende opties:
 
 * **Nieuw item toevoegen, bestaand item behouden**: Nieuwe waarden worden toegevoegd aan SuperOffice en bestaande waarden worden behouden.
 * **Vervangen - bestaande overschrijven**: Bestaande waarden in SuperOffice worden overgeschreven door de bestaande waarden.

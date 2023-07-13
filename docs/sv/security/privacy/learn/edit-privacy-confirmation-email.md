@@ -13,7 +13,7 @@ language: sv
 
 # Redigera e-postbekräftelse om personskydd
 
-Enligt GDPR har individer ”rätt att informeras”. Det innebär att de har rätt att bli meddelade antingen i förväg eller inom 30 dagar efter att deras personuppgifter har samlats in. GDPR föreskriver att individer har rätt att bli informerade (a) om att en organisation avser att lagra deras personuppgifter och (b) vad organisationen avser att använda deras uppgifter till.
+Enligt GDPR har individer "rätt att informeras". Det innebär att de har rätt att bli meddelade antingen i förväg eller inom 30 dagar efter att deras personuppgifter har samlats in. GDPR föreskriver att individer har rätt att bli informerade (a) om att en organisation avser att lagra deras personuppgifter och (b) vad organisationen avser att använda deras uppgifter till.
 
 Du kan skapa och lägga till så många e-postbekräftelser om personskydd som du behöver. Du kan också lägga till samma e-postmall på så många språk som du behöver.
 
@@ -23,7 +23,7 @@ Mallen för e-postbekräftelse om personskydd är en **e-postmall** som skapas o
 
 1. Gå till Inställningar och underhåll.
 
-1. Klicka på **Listor**. Leta reda på listan **E-postmall** och mallen för ”E-postbekräftelse om personskydd”.
+1. Klicka på **Listor**. Leta reda på listan **E-postmall** och mallen för "E-postbekräftelse om personskydd".
 
 1. Dubbelklicka för att öppna dialogrutan **Redigera post** där du kan ändra namn, beskrivning och så vidare.
 

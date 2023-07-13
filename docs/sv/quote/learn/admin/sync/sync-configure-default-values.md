@@ -13,7 +13,7 @@ language: sv
 
 # Konfigurera standardvärden för synkronisering
 
-Genom att definiera standardvärden för fält som vanligtvis bara har ett relevant värde, sparar du användarna mycket tid. Det innebär att de inte behöver markera en ruta som alltid ska vara markerad eller att ange en siffra i ett fält som alltid ska innehålla ”30”. Detta är särskilt användbart när man måste ange stora mängder data.
+Genom att definiera standardvärden för fält som vanligtvis bara har ett relevant värde, sparar du användarna mycket tid. Det innebär att de inte behöver markera en ruta som alltid ska vara markerad eller att ange en siffra i ett fält som alltid ska innehålla "30". Detta är särskilt användbart när man måste ange stora mängder data.
 
 1. [!include[Go to sync](../includes/goto-sync.md)]
 

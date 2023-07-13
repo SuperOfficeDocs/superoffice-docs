@@ -59,7 +59,7 @@ Wählen Sie im Listenfeld **Zusatzfeld festlegen** ein Feld aus und geben im Fel
 
 ## <a id="interest" />Interessen
 
-Hier können Sie festlegen, dass beim Klicken auf den Link Interessen für eine Person hinzugefügt oder entfernt werden sollen. Sie könnten beispielsweise das Interesse „Neuigkeiten zu Produkten“ hinzufügen, wenn der Empfänger auf den Link „Ja, ich möchte über neue Produkte informiert werden“ klickt. Alternativ könnten Sie das Interesse „Neuigkeiten zu Produkten“ entfernen, wenn der Benutzer in einem Newsletter auf den Link „Abmelden“ klickt.
+Hier können Sie festlegen, dass beim Klicken auf den Link Interessen für eine Person hinzugefügt oder entfernt werden sollen. Sie könnten beispielsweise das Interesse "Neuigkeiten zu Produkten" hinzufügen, wenn der Empfänger auf den Link "Ja, ich möchte über neue Produkte informiert werden" klickt. Alternativ könnten Sie das Interesse "Neuigkeiten zu Produkten" entfernen, wenn der Benutzer in einem Newsletter auf den Link "Abmelden" klickt.
 
 * Im Listenfeld **Interessen festlegen** können Sie auswählen, ob bestimmte Interessen beim Klicken auf den Link zu den Personen hinzugefügt werden sollen.
 * Im Listenfeld **Interesse löschen** können Sie auswählen, ob bestimmte Interessen beim Klicken auf den Link von den Personen entfernt werden sollen.

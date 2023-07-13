@@ -97,7 +97,7 @@ The **Details** tab contains further details on the request. Here you will find 
 
 ## Autosave
 
-Whenever you are working on a request and suddenly receive a more urgent request, you’ll have to leave the request you are working on to solve the prioritised request.
+Whenever you are working on a request and suddenly receive a more urgent request, you will have to leave the request you are working on to solve the prioritised request.
 
 The autosave function will automatically save your changes until you click **Send** or cancel the changes to your request.
 Autosaved information is placed in the local storage of your browser, so your data will even survive a browser crash, reboot, logout and login.

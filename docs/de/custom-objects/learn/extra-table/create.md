@@ -36,7 +36,7 @@ Sie können Zusatztabellen in SuperOffice Service erstellen, um unterschiedliche
 |---|---|
 | Ordner | Um die Tabelle in einen vorhandenen Ordner zu kopieren, wählen Sie einen Ordner von der Liste aus. |
 | Name | Der Name der Tabelle. |
-| Datenbanktabelle Der Name der Datenbanktabelle. Kann nur bei der Erstellung festgelegt und nicht mehr geändert werden. Der Tabellenname kann Unterstriche, die Buchstaben a-z und Zahlen enthalten, und der Name muss mit „y_“ beginnen. Ein logischer Name ist am besten, weil er es einfacher macht, zu sehen, was die Datenbank enthält. |
+| Datenbanktabelle Der Name der Datenbanktabelle. Kann nur bei der Erstellung festgelegt und nicht mehr geändert werden. Der Tabellenname kann Unterstriche, die Buchstaben a-z und Zahlen enthalten, und der Name muss mit "y_" beginnen. Ein logischer Name ist am besten, weil er es einfacher macht, zu sehen, was die Datenbank enthält. |
 | Kopfzeile für Suche | Die Kopfzeile wird für diese Tabelle in der Ansicht Suchen verwendet. |
 | Kopfzeile für Datenanzeige | Die Kopfzeile wird zur Anzeige eines Eintrags in dieser Tabelle verwendet. |
 | Kopfzeile für neuen Eintrag | Die Kopfzeile wird zum Erstellen eines neuen Eintrags in dieser Tabelle verwendet. |

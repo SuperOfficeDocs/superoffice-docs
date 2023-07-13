@@ -88,7 +88,7 @@ Jetzt befindet sich hinter allen Spalten in Ihrem Archiv ein Trichtersymbol.
 
 1. Wählen Sie im Dialogfeld die gesuchten Informationen aus. Je nach dem Typ der Daten in der Spalte wählen Sie eins der folgenden Verfahren:
 
-    * Geben Sie Text ein und drücken Sie die EINGABETASTE. Der Standardfiltertyp ist „Beginnt mit“.
+    * Geben Sie Text ein und drücken Sie die EINGABETASTE. Der Standardfiltertyp ist "Beginnt mit".
     * Wählen Sie ein Element aus der Liste.
     * Wählen Sie einen Datumsbereich.
 

@@ -17,7 +17,7 @@ Wenn der Empfänger Probleme mit der Anzeige der Mitteilung in seinem E-Mail-Pro
 
 1. Gehen Sie zu den Inhalten der Mitteilung, und klicken Sie auf den Bereich, in dem Sie den Link einfügen möchten.
 
-2. Geben Sie den Text ein oder wählen Sie einen Text, worauf der Empfänger klicken soll, z. B. „Klicken Sie hier, um diese Nachricht in einem Browser anzuzeigen“.
+2. Geben Sie den Text ein oder wählen Sie einen Text, worauf der Empfänger klicken soll, z. B. "Klicken Sie hier, um diese Nachricht in einem Browser anzuzeigen".
 
 3. Klicken Sie in der Werkzeugleiste auf die Schaltfläche **Link einfügen/bearbeiten** (![Symbol][img1]).
 
