@@ -38,7 +38,7 @@ Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte, um zu l
 * [Projekte löschen][9]
 * [Mit Projektleitfäden arbeiten][1]
 * [Aktivitäten][3]
-* [Sehen Sie, wofür unsere Kunden Projekte verwenden][2] \- Blog
+* [Sehen Sie, wofür unsere Kunden Projekte verwenden][2] - Blog
 
 <!-- Referenced links -->
 [5]: project-members/add.md

@@ -40,7 +40,7 @@ Sehen Sie sich die folgenden Beispiele an, um Ideen für Kacheln zu erhalten, di
 
 ## Verwandt
 
-* [Die Wissenschaft hinter den E-Mail-Öffnungsraten][1] \- Blog
+* [Die Wissenschaft hinter den E-Mail-Öffnungsraten][1] - Blog
 * [Neues Dashboard hinzufügen][5]
 * [Kacheln bearbeiten oder erstellen][3]
 * [Arbeiten mit Kacheln][6]

@@ -31,7 +31,7 @@ For at begynde at bruge integrationen skal du tage 2 opsætningstrin:
 ## Tilknyttet
 
 * [Installer Gmail Link][1]
-* [Google Workspace Integration][2] \- App Store
+* [Google Workspace Integration][2] - App Store
 * [Bestil Google Workspace Integration-app][3]
 * [Google Workspace-dokumentintegration][4] – teknisk oversigt
 

@@ -55,7 +55,7 @@ Du vil overvåke firmaer som du har svært få aktiviteter med, for å unngå mi
 
 Et firma, en person eller et prosjekt kan oppfylle kriteriene til flere ulike statuser, men det er kun mulig å vise ett statusbilde på firma-, person- eller prosjektkortet i SuperOffice CRM. Derfor må det angis en prioritert rekkefølge for visning av statuser i SuperOffice CRM. Hvis et firma, en person eller et prosjekt ikke oppfyller kriteriene til statusen med høyest prioritet, vises statusen med nest høyest prioritet. Hvis firmaet, personen eller prosjektet heller ikke oppfyller disse kriteriene, vises neste status, og så videre.
 
-Hvis et firma, en person eller et prosjekt har flere aktive statuser, vises statusene som ikke har høyest prioritet, som koblinger i dialogboksen for status. Denne dialogboksen vises når brukeren klikker på statusbildet i SuperOffice CRM eller velger **Vis statusinformasjon** på **Firma**-, **Person**\- eller **Prosjekt**-menyen for et firma, en person eller et prosjekt med aktiv status.
+Hvis et firma, en person eller et prosjekt har flere aktive statuser, vises statusene som ikke har høyest prioritet, som koblinger i dialogboksen for status. Denne dialogboksen vises når brukeren klikker på statusbildet i SuperOffice CRM eller velger **Vis statusinformasjon** på **Firma**-, **Person**- eller **Prosjekt**-menyen for et firma, en person eller et prosjekt med aktiv status.
 
 ## Hva vil du gjøre nå?
 

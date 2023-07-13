@@ -88,7 +88,7 @@ Zeigt alle Ihre [Favoriten][8] an.
 
 Zeigt eine Vorschau einer ausgewählten Aktivität oder Person, eines Projekts, Projektmitglieds oder Selektionsmitglieds auf der Seitenleiste an. Je nach ausgewähltem Element kann das Fenster Verknüpfungen zu Personen und Aktivitäten enthalten. Wenn Sie auf eine dieser Verknüpfungen klicken, wird die [Personenkarte][2], das [Dialogfeld Dokument][5] oder das [Dialogfeld Folgeaufgaben][6] angezeigt, wo Sie die Informationen zur Person oder Aktivität anzeigen und bearbeiten können.
 
-[Was kann man tun, wenn in der Seitenleiste von SuperOffice CRM „Dokument geschlossen“ angezeigt wird, wenn der Dokument-Viewer verwendet wird?][11] \- FAQ
+[Was kann man tun, wenn in der Seitenleiste von SuperOffice CRM „Dokument geschlossen“ angezeigt wird, wenn der Dokument-Viewer verwendet wird?][11] - FAQ
 
 ## Projekt
 

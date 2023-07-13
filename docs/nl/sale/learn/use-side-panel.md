@@ -23,7 +23,7 @@ Op dezelfde manier kunt u een selectie van personen gebruiken als een bellijst o
 ## Gerelateerde inhoud
 
 * [Selecties gebruiken om uw verkopen te voorspellen][3]
-* [Wat moet ik doen als ik "Document gesloten" krijg in het zijpaneel van SuperOffice CRM wanneer Document Viewer wordt gebruikt?][2] \- FAQ
+* [Wat moet ik doen als ik "Document gesloten" krijg in het zijpaneel van SuperOffice CRM wanneer Document Viewer wordt gebruikt?][2] - FAQ
 
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/main-screen/side-panel.md

@@ -29,10 +29,10 @@ Um Ihre Ziele in einem Dashboard visualisieren zu können, müssen Sie zunächst
 
 5. Wählen Sie auf der Registerkarte **Bibliothek** eines der folgenden Diagramme aus:
 
-    * ![Symbol][img2] \- Diagramm mit großen Zahlen
-    * ![Symbol][img3] \- Balkendiagramm
-    * ![Symbol][img4] \- Säulendiagramm
-    * ![Symbol][img5] \- Messdiagramm
+    * ![Symbol][img2] - Diagramm mit großen Zahlen
+    * ![Symbol][img3] - Balkendiagramm
+    * ![Symbol][img4] - Säulendiagramm
+    * ![Symbol][img5] - Messdiagramm
     * Leere Verkaufskachel
 
     > [!TIP]

@@ -20,7 +20,7 @@ language: no
 Bildet Sak har følgende deler:
 
 * Øverst i bildet inneholder **toppteksten for saken** grunnleggende informasjon om saken, som ID, tittel, person og tidsfrist.
-* Sidestolpen **Egenskaper for sak** inneholder felt for Eier, Status, Kategori, Prioritet, Tilgangsnivå og Emneknagger, alle felt kan redigeres med **Lagre**\- og **Avbryt**-knappene.
+* Sidestolpen **Egenskaper for sak** inneholder felt for Eier, Status, Kategori, Prioritet, Tilgangsnivå og Emneknagger, alle felt kan redigeres med **Lagre**- og **Avbryt**-knappene.
 * Under toppteksten er det en rad med knapper til oppgaver knyttet til saker, for eksempel Svar, Svar til alle, Videresend og Legg til kommentar.
 * Fanen **Meldinger** viser meldingene som er knyttet til saken.
 * Fanen **Detaljer** inneholder en oversikt over informasjonen som er registrert for saken.

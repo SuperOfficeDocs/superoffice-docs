@@ -43,7 +43,7 @@ Hvis du forsøger at sende fra et domæne, der ikke har en gyldig SPF-registreri
 
 ## Relaterede emner
 
-* [Maksimér din succes med e-mailmarkedsføring med disse tips om levering][1] \- blog
+* [Maksimér din succes med e-mailmarkedsføring med disse tips om levering][1] - blog
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/email-deliverability-tips/

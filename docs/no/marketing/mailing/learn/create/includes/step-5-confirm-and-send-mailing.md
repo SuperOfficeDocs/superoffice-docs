@@ -31,7 +31,7 @@ For ikke å overbelaste serverne i arbeidstiden kan det være hensiktsmessig å 
 
 Du kan klikke på utsendelsen i listen for å [vise sendestatus og statistikk][1].
 
-Hvis du vil stoppe utsendelsen eller starte en planlagt utsendelse før planen, klikker du på henholdsvis **Stopp**\- eller **Start**-knappen.
+Hvis du vil stoppe utsendelsen eller starte en planlagt utsendelse før planen, klikker du på henholdsvis **Stopp**- eller **Start**-knappen.
 
 <!-- Referenced links -->
 [1]: ../../follow-up/view-statistics.md

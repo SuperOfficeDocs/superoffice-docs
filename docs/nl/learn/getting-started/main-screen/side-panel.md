@@ -88,7 +88,7 @@ Hiermee wordt [Kladblok][9] in het zijpaneel geopend.
 
 Er wordt een afdrukvoorbeeld van de geselecteerde activiteit, het geselecteerde project, de geselecteerde persoon, het geselecteerde projectlid of het geselecteerde selectielid in het zijpaneel weergegeven. Afhankelijk van het geselecteerde item kan het venster koppelingen naar contactpersonen en activiteiten bevatten. Als u op een van deze koppelingen klikt, wordt het [persoonskaart][2], het [dialoogvenster Document][5] of het [Dialoogvenster Vervolgactiviteiten][6] geopend, waar u de persoon of activiteit kunt weergeven en bewerken.
 
-[Wat moet ik doen als ik "Document gesloten" krijg in het zijpaneel van SuperOffice CRM wanneer Document Viewer wordt gebruikt?][11] \- FAQ
+[Wat moet ik doen als ik "Document gesloten" krijg in het zijpaneel van SuperOffice CRM wanneer Document Viewer wordt gebruikt?][11] - FAQ
 
 ## Project
 

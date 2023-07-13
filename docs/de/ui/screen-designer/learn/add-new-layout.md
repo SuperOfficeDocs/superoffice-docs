@@ -81,8 +81,8 @@ Erstellen Sie ein neues Layout für eine bestimmte Benutzergruppe, indem Sie Ber
 
 ## Zugehörige Inhalte
 
-* [Wie man konfiguriert, auf welche Informationen die Benutzer unserer Firma in SuperOffice CRM zugreifen können?][3] \- FAQ
-* [Wie man eine neue Benutzergruppe in SuperOffice CRM erstellt?][4] \- FAQ
+* [Wie man konfiguriert, auf welche Informationen die Benutzer unserer Firma in SuperOffice CRM zugreifen können?][3] - FAQ
+* [Wie man eine neue Benutzergruppe in SuperOffice CRM erstellt?][4] - FAQ
 * [Benutzer verwalten][5]
 
 <!-- Referenced links -->

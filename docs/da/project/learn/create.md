@@ -38,7 +38,7 @@ Se denne video, eller følg nedenstående trin for at lære, hvordan du opretter
 * [Sletning af projekter][9]
 * [Arbejde med projektguide][1]
 * [Aktiviteter][3]
-* [Se, hvad vores kunder i forskellige brancher bruger Projekt til][2] \- blog
+* [Se, hvad vores kunder i forskellige brancher bruger Projekt til][2] - blog
 
 <!-- Referenced links -->
 [5]: project-members/add.md

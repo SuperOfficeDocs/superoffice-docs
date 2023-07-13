@@ -30,8 +30,8 @@ Wenn dieser Willkommensbildschirm nicht angezeigt wird oder falls Sie die Kompon
 **Aufgaben:**
 
 * [Microsoft-Dokumente mit SuperOffice CRM verbinden][2]
-* [WebTools herunterladen und installieren][1] \- Support-Seite
-* [Wie man vorgeht, wenn die Schaltfläche SuperOffice-Archivierung aus Outlook verschwunden ist?][3] \- FAQ
+* [WebTools herunterladen und installieren][1] - Support-Seite
+* [Wie man vorgeht, wenn die Schaltfläche SuperOffice-Archivierung aus Outlook verschwunden ist?][3] - FAQ
 
 ## Mac-Betriebssystem
 
@@ -42,8 +42,8 @@ Durch die Installation von WebTools für Mac ist eine Integration zwischen Micro
 
 ## Zugehörige Inhalte
 
-* [Was ist das SuperOffice WebTools und was macht es?][6] \- FAQ
-* [Wie man den SuperOffice Posteingang verwendet][7] \- FAQ
+* [Was ist das SuperOffice WebTools und was macht es?][6] - FAQ
+* [Wie man den SuperOffice Posteingang verwendet][7] - FAQ
 * [E-Mail, Dokumente und Kalender verbinden][8]
 * [E-Mail in SuperOffice CRM speichern][4]
 * [Dokument in SuperOffice CRM speichern][5]

@@ -123,10 +123,10 @@ När du har skapat statusar och angett en projekttyp för projektguiden, kan du 
 
 Planeringsmöte:
 
-\- Vad ska konferensen handla om?
-\- Deltagare?
-\- Talare?
-\- Var?
+- Vad ska konferensen handla om?
+- Deltagare?
+- Talare?
+- Var?
 
 ## <a id="add-doc-status" />Lägg till ett dokument för en status
 

@@ -35,7 +35,7 @@ Sehen Sie sich das Video an oder befolgen Sie die folgenden Schritte, um zu lern
 
 ## Verwandter Info
 
-* [Wie fülle ich die Felder „Rechtsgrundlage“, „Einwilligungsnachweis“ und „Zweck“ für viele Personen in SuperOffice CRM gleichzeitig aus?][3] \- FAQ
+* [Wie fülle ich die Felder „Rechtsgrundlage“, „Einwilligungsnachweis“ und „Zweck“ für viele Personen in SuperOffice CRM gleichzeitig aus?][3] - FAQ
 * [Massenlöschung von Personen und Firmen aus der Selektion][1]
 
 <!-- Referenced links -->

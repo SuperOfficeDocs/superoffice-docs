@@ -96,7 +96,7 @@ Olika företag har olika rutiner för ärendehantering och kan använda SuperOff
 
 ## Relaterade ämnen
 
-* [Varför massuppdatering bör vara din favoritfunktion][17] \- blogg
+* [Varför massuppdatering bör vara din favoritfunktion][17] - blogg
 * [Redigera e-postsignatur][15]
 * [Skapa ärende][14]
 * [Sök][10]

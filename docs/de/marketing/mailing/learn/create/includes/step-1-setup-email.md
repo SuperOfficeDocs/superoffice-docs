@@ -43,7 +43,7 @@ Wenn Sie versuchen, von einer Domain zu senden, die keinen gültigen SPF-Eintrag
 
 ## Verwandte Themen
 
-* [Maximieren Sie Ihren E-Mail-Marketing-Erfolg mit diesen Zustellbarkeitstipps][1] \- Blog
+* [Maximieren Sie Ihren E-Mail-Marketing-Erfolg mit diesen Zustellbarkeitstipps][1] - Blog
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/email-deliverability-tips/

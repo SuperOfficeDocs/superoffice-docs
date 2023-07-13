@@ -80,7 +80,7 @@ Stellen Sie die Voreinstellungen ein, um sie an Ihre Bedürfnisse anzupassen:
 
 ## Zugehörige Inhalte
 
-* [Wie man WebTools für SuperOffice herunterlädt und installiert?][1] \- FAQ
+* [Wie man WebTools für SuperOffice herunterlädt und installiert?][1] - FAQ
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-download-and-install-web-tools-for-superoffice-crm/

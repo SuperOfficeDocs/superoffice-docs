@@ -31,7 +31,7 @@ Hvis dette velkomstskjermbildet ikke vises, eller hvis du vil laste det ned på 
 
 * [Koble Microsoft-dokumentene dine til SuperOffice CRM][2]
 * [Last ned og installer WebTools][1] – brukerstøtteside
-* [Hva skal jeg gjøre når arkiveringsknappen for SuperOffice har forsvunnet fra Outlook?][3] \- FAQ
+* [Hva skal jeg gjøre når arkiveringsknappen for SuperOffice har forsvunnet fra Outlook?][3] - FAQ
 
 ## Mac OS
 
@@ -42,8 +42,8 @@ Når du installerer WebTools for Mac muliggjøres en integrasjon mellom Microsof
 
 ## Aktuelt innhold
 
-* [Hva er SuperOffice WebTools, og hva gjør det?][6] \- FAQ
-* [Slik bruker du SuperOffice-innboksen][7] \- FAQ
+* [Hva er SuperOffice WebTools, og hva gjør det?][6] - FAQ
+* [Slik bruker du SuperOffice-innboksen][7] - FAQ
 * [Koble til e-post, dokumenter og dagbok][8]
 * [Lagre en e-post i SuperOffice CRM][4]
 * [Opprett et dokument i SuperOffice CRM][5]

@@ -73,7 +73,7 @@ Die Google Analytics-Funktion in SuperOffice Marketing identifiziert Ihre Kampag
 
 * [Links einfügen, die Sie überwachen möchten][3]
 * [Links für Abonnement hinzufügen][4]
-* [Einfache E-Mail-Überwachung mit Google Analytics][6] \- Blog
+* [Einfache E-Mail-Überwachung mit Google Analytics][6] - Blog
 * [Verknüpfungsaktionen definieren][7]
 
 <!-- Referenced links -->

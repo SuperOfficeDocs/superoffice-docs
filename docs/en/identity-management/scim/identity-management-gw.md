@@ -50,7 +50,7 @@ The Identity Manager is a clean, web-based user interface for SCIM identity mana
 
 To access the Identity Manager, you will need:
 
-* **Tenant** configured with **SuperID** \- register to [get a developer account in SOD][1]
+* **Tenant** configured with **SuperID** - register to [get a developer account in SOD][1]
 * A SuperOffice admin account for that tenant linked to an Azure AD account (AAD admin not required)
 
 <!-- Referenced links -->

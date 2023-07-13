@@ -43,7 +43,7 @@ Sie möchten Firmen überwachen, mit denen Sie nur sehr wenige Aktivitäten habe
 
 ### Was ist in der Statusliste enthalten?
 
-![Symbol][img3] \- das **Anzeigen**-Symbol gibt an, ob für Firmen-, Personen- oder Projektkarten die Option [Statusbild anzeigen][3] ausgeführt oder ob Projektkarten, welche die Statuskriterien erfüllen, angezeigt werden sollen. Das Symbol wird nur angezeigt, wenn Sie für den betreffenden Status **anzeigen** in der Registerkarte **Bild** aktiviert haben.
+![Symbol][img3] - das **Anzeigen**-Symbol gibt an, ob für Firmen-, Personen- oder Projektkarten die Option [Statusbild anzeigen][3] ausgeführt oder ob Projektkarten, welche die Statuskriterien erfüllen, angezeigt werden sollen. Das Symbol wird nur angezeigt, wenn Sie für den betreffenden Status **anzeigen** in der Registerkarte **Bild** aktiviert haben.
 
 ![Symbol][img4] – ein rotes Kreuz weist darauf hin, dass der Status neu erstellt werden muss. Der [Status muss erneuert werden][4], wenn Sie ein Kriterium hinzugefügt, bearbeitet oder gelöscht oder wenn Sie zum Beispiel den Zweck für eine Aufgabe geändert haben. Statusangaben mit einem roten Kreuz werden nicht aktualisiert und geben beim Verwenden von SuperOffice CRM keine aktuellen Daten zurück.
 

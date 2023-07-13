@@ -33,7 +33,7 @@ With a [federated ID][1], you sign in once with this ID, and as long as the sess
 
 2. You get a hall-pass in your browser's cookie jar.
 
-3. You navigate to **SuperOffice** \- and boom - you're in!
+3. You navigate to **SuperOffice** - and boom - you're in!
 
 Note that this is not the same as using the same username and password to sign in to different services! (Which is actually bad password hygiene.)
 

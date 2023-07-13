@@ -29,7 +29,7 @@ Når den globale preferansen **Bruk bare godkjente domener for sending av e-post
 1. Hvis domenet består SPF-oppslaget, legges det til i listen over godkjente domener, og brukere kan sende utsendelser fra dette domenet.
 
 > [!NOTE]
-> Du kan konfigurere en SPF-oppføring for domenet for å sikre at organisasjonen kan sende utsendelser som blir levert (BARE PÅ NETT). Hvis miljøet ditt er ONSITE, utføres ikke et SPF-oppslag. Du kan imidlertid fortsatt bruke listen til å gi brukerne forhåndsinnstilte domener for **Fra**\- og **Svar til**-adresser.
+> Du kan konfigurere en SPF-oppføring for domenet for å sikre at organisasjonen kan sende utsendelser som blir levert (BARE PÅ NETT). Hvis miljøet ditt er ONSITE, utføres ikke et SPF-oppslag. Du kan imidlertid fortsatt bruke listen til å gi brukerne forhåndsinnstilte domener for **Fra**- og **Svar til**-adresser.
 
 <!-- Referenced links -->
 [1]: ../../../../en/email/mailgun/spf/index.md

@@ -35,7 +35,7 @@ Se videoen, eller følg trinnene nedenfor for å finne ut hvordan du utfører en
 
 ## Relatert informasjon
 
-* [Hvordan fyller jeg ut feltene "Hjemmel", "Samtykkekilde" og "Formål" for mange personer i SuperOffice CRM samtidig?][3] \- FAQ
+* [Hvordan fyller jeg ut feltene "Hjemmel", "Samtykkekilde" og "Formål" for mange personer i SuperOffice CRM samtidig?][3] - FAQ
 * [Massesletting av personer og firmaer fra utvalg][1]
 
 <!-- Referenced links -->

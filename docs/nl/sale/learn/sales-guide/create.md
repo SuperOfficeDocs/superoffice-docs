@@ -107,10 +107,10 @@ De wijzigingen worden automatisch opgeslagen. De verkoopgids wordt nu weergegeve
 
 Agenda voor eerste gesprek:
 
-\- Informatie over het bedrijf en de organisatie van de klant
-\- Behoeften, wensen, problemen
-\- Bedrijfspresentatie
-\- Wvttk
+- Informatie over het bedrijf en de organisatie van de klant
+- Behoeften, wensen, problemen
+- Bedrijfspresentatie
+- Wvttk
 
 ## <a id="add-doc-stage" />Een document toevoegen voor een fase
 

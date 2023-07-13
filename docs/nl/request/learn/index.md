@@ -96,7 +96,7 @@ Verschillende bedrijven hebben verschillende routines voor verzoekafhandeling en
 
 ## Verwante onderwerpen
 
-* [Waarom bulkupdates uw favoriete functie zouden moeten zijn][17] \- blog
+* [Waarom bulkupdates uw favoriete functie zouden moeten zijn][17] - blog
 * [E-mail-handtekening bewerken][15]
 * [Verzoek maken][14]
 * [Zoeken][10]

@@ -27,7 +27,7 @@ Hvis to firmaer i kundedatabasen velger å slå seg sammen, eller ett av firmaen
 1. Under **Til firma** velger du firmaet som skal oppdateres med informasjon fra kildefirmaet. Begynn å skrive i feltet for å søke etter et firma.
 
     > [!TIP]
-    > Hvis du vil bytte **Fra**\- og **Til**-firmaene, klikker du på ![ikon][img1] knappen.
+    > Hvis du vil bytte **Fra**- og **Til**-firmaene, klikker du på ![ikon][img1] knappen.
 
 1. Under **Detaljinformasjon om firma og personer** kan du merke av for følgende:
 

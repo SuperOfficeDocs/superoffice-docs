@@ -66,7 +66,7 @@ Durch die Installation von WebTools sind Ihre E-Mails und Dokumente mit SuperOff
 
 ## Verwandt
 
-* [Was ist das SuperOffice WebTools und was macht es?][1] \- FAQ
+* [Was ist das SuperOffice WebTools und was macht es?][1] - FAQ
 * [Wie man WebTools installiert][2]
 * [Mehr über die Integration von E-Mails und Dokumenten lesen][3]
 

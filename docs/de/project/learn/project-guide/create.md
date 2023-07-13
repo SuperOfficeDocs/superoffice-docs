@@ -123,10 +123,10 @@ Die Änderungen werden automatisch gespeichert. Der betreffende Projektleitfaden
 
 Recherche:
 
-\- Was soll die Konferenz abdecken?
-\- Teilnehmer?
-\- Redner?
-\- Wo?
+- Was soll die Konferenz abdecken?
+- Teilnehmer?
+- Redner?
+- Wo?
 
 ## <a id="add-doc-status" />Dokument für einen Status hinzufügen
 

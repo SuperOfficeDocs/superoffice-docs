@@ -12,7 +12,7 @@ language: no
 # Legg til funksjon på meny-knappen
 
 > [!NOTE]
-> Endringer utført **Systemdesign** \- fanen **Ekstramenyer** vises bare i modulen **SuperOffice-tjeneste**, ikke i skjermbildet Forespørsler i SuperOffice CRM-modulen .
+> Endringer utført **Systemdesign** - fanen **Ekstramenyer** vises bare i modulen **SuperOffice-tjeneste**, ikke i skjermbildet Forespørsler i SuperOffice CRM-modulen .
 
 Slik legger du til en makro på **Oppgave**-knappen i skjermbildet Firma, Person, Sak eller **Melding**:
 

@@ -17,7 +17,7 @@ Creating an Azure enterprise application is the 1st step to integrate the SuperO
 
 * An Azure AD admin account.
 
-* Access to Azure AD portal with permissions to create an enterprise application of type **non-gallery application** \- **Azure Active Directory Premium** (P1 or P2) required.
+* Access to Azure AD portal with permissions to create an enterprise application of type **non-gallery application** - **Azure Active Directory Premium** (P1 or P2) required.
 
 For testing, you can do a [30-day free trial of AAD Premium][1]. If you obtain a new license to AAD, you might need to sign out and back in to activate the license.
 

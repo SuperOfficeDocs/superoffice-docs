@@ -40,7 +40,7 @@ Se denne videoen for å lære hvordan du kan opprette et webskjema (videolengde 
 
 ## <a id="multi-page" />Opprette skjemaer med flere sider
 
-Hvis du oppretter et skjema med mange felt, kan det være nyttig å dele inn skjemaet i flere sider. Dette gjør skjemaet mer brukervennlig og enklere å lese. Brukeren kan navigere ved hjelp av **Neste**\- og **Forrige**-knappene, og du kan også legge til en fremdriftsindikator for å angi hvor mye som er igjen å fylle ut.
+Hvis du oppretter et skjema med mange felt, kan det være nyttig å dele inn skjemaet i flere sider. Dette gjør skjemaet mer brukervennlig og enklere å lese. Brukeren kan navigere ved hjelp av **Neste**- og **Forrige**-knappene, og du kan også legge til en fremdriftsindikator for å angi hvor mye som er igjen å fylle ut.
 
 1. Opprett et skjema som beskrevet ovenfor.
 2. Gå til kategorien **Felt**.

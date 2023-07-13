@@ -45,7 +45,7 @@ U wilt bedrijven bewaken waar u heel weinig activiteiten mee hebt, om ontevreden
 
 ![pictogram][img3] – het pictogram **Visualiseren** geeft aan of een [statusafbeelding][3] moet worden weergegeven voor bedrijven, personen of projectkaarten die aan de statuscriteria voldoen. Het pictogram wordt alleen weergegeven als u **Visualiseren** hebt aangevinkt op het tabblad **Afbeelding** voor de betreffende status.
 
-![pictogram][img4] \- een rood kruis geeft aan dat de status opnieuw moet worden gegenereerd. Telkens wanneer u een criterium toevoegt, bewerkt of verwijdert, of bijvoorbeeld een intentie voor een taak wijzigt, moet de [status opnieuw worden gegenereerd][4]. Statussen met rode kruizen worden niet bijgewerkt en leveren geen actuele gegevens op bij gebruik van SuperOffice CRM.
+![pictogram][img4] - een rood kruis geeft aan dat de status opnieuw moet worden gegenereerd. Telkens wanneer u een criterium toevoegt, bewerkt of verwijdert, of bijvoorbeeld een intentie voor een taak wijzigt, moet de [status opnieuw worden gegenereerd][4]. Statussen met rode kruizen worden niet bijgewerkt en leveren geen actuele gegevens op bij gebruik van SuperOffice CRM.
 
 **Naam** – de naam van de statussen. Verwijderde statussen worden in rood weergegeven als u **Verwijderde items weergeven** hebt ingeschakeld.
 

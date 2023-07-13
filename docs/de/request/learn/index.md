@@ -96,7 +96,7 @@ Verschiedene Firmen verwenden andere Verfahren für die Bearbeitung von Anfragen
 
 ## Verwandte Themen
 
-* [Warum ein Massenabgleich Ihre Lieblingsfunktion sein sollte][17] \- Blog
+* [Warum ein Massenabgleich Ihre Lieblingsfunktion sein sollte][17] - Blog
 * [E-Mail-Signatur][15]
 * [Anfrage erstellen][14]
 * [Suchen][10]

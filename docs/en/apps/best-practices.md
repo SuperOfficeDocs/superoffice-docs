@@ -324,7 +324,7 @@ Both you and SuperOffice are required to log network communications. Your applic
 
 * Use **buttons** to indicate actions.
 
-* In dialogs, place buttons along the bottom ordered like this: **Task** \- **OK** \- **Cancel**.
+* In dialogs, place buttons along the bottom ordered like this: **Task** - **OK** - **Cancel**.
 
 * Deactivate buttons that have no effect.
   * Example: the **Save** button cannot be clicked until the user has changed something.

@@ -81,8 +81,8 @@ Maak een nieuwe opmaak voor een specifieke gebruikersgroep door sectietabbladen 
 
 ## Gerelateerde inhoud
 
-* [Hoe configureer ik tot welke informatie de gebruikers van ons bedrijf toegang hebben in SuperOffice CRM?][3] \- FAQ
-* [Hoe maak ik een nieuwe gebruikersgroep aan in SuperOffice CRM?][4] \- FAQ
+* [Hoe configureer ik tot welke informatie de gebruikers van ons bedrijf toegang hebben in SuperOffice CRM?][3] - FAQ
+* [Hoe maak ik een nieuwe gebruikersgroep aan in SuperOffice CRM?][4] - FAQ
 * [Gebruikersbeheer][5]
 
 <!-- Referenced links -->

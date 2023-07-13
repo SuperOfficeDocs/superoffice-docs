@@ -88,7 +88,7 @@ Viser alle dine [favoritter][8].
 
 Viser en forhåndsvisning av utvalgt aktivitet, prosjekt, person, prosjektdeltaker eller utvalgsmedlem i sidepanelet. Avhengig av hvilket element som er valgt, kan vinduet inneholde koblinger til personer og aktiviteter. Ved å klikke på en av disse koblingene åpnes [Personkortet][2], dialogboksen [Dokument][5], eller dialogboksen [Oppfølginger][6], hvor du kan se og redigere kontakten eller aktiviteten.
 
-[Hva gjør jeg når jeg får "Dokument lukket" i sidepanelet i SuperOffice CRM når jeg bruker Document Viewer?][11] \- FAQ
+[Hva gjør jeg når jeg får "Dokument lukket" i sidepanelet i SuperOffice CRM når jeg bruker Document Viewer?][11] - FAQ
 
 ## Prosjekt
 

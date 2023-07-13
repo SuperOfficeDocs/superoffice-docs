@@ -73,7 +73,7 @@ De Google Analytics-functie in SuperOffice Marketing identificeert uw mailings i
 
 * [Links opnemen die u wilt traceren][3]
 * [Links voor abonnement toevoegen][4]
-* [Eenvoudige e-mailtracering van Google Analytics][6] \- blog
+* [Eenvoudige e-mailtracering van Google Analytics][6] - blog
 * [Linkacties definiëren][7]
 
 <!-- Referenced links -->

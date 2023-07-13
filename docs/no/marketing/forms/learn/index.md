@@ -49,7 +49,7 @@ Det er flere måter å finne skjemaer på. Gå til fanen Skjemaer, Skjemamaler e
 Oppretting av et skjema følger en slik arbeidsflyt:
 
 1. [Opprett et nytt skjema][2].
-2. [Skjemasvar – Trinn 1: Oppsett][3] \- en e-post kan automatisk sendes til en innsender når skjemaet er behandlet.
+2. [Skjemasvar – Trinn 1: Oppsett][3] - en e-post kan automatisk sendes til en innsender når skjemaet er behandlet.
 3. [Publisere skjemaer][4] – bruk en kobling eller JavaScript til å publisere skjemaet i et nyhetsbrev, på en webside eller i kundesenteret.
 4. [Spore skjemainnsendinger og vise statistikk][5] – se svarrate i sanntid.
 5. [Behandle skjemainnsendinger][6] – oppdater SuperOffice med de innsendte dataene, enten manuelt eller automatisk. SuperOffice kan identifisere eksisterende personer basert på e-postadresser eller opprette nye personer og firmaer.

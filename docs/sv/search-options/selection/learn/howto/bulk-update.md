@@ -35,7 +35,7 @@ Titta på videon eller följ stegen nedan för att lära dig hur du massuppdater
 
 ## Relaterad info
 
-* [Hur fyller jag i fälten ”Rättslig grund”, ”Samtyckeskälla” och ”Syfte” för flera kontakter samtidigt i SuperOffice CRM?][3] \- FAQ
+* [Hur fyller jag i fälten ”Rättslig grund”, ”Samtyckeskälla” och ”Syfte” för flera kontakter samtidigt i SuperOffice CRM?][3] - FAQ
 * [Ta bort flera kontakter och företag samtidigt från ett urval][1]
 
 <!-- Referenced links -->

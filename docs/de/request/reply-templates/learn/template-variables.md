@@ -231,11 +231,11 @@ Variable erniedrigen:
 
 Datum formatieren:
 
-\[\[FORMAT\-DATE:"date","YY4 MM2 DD2 HH24:MI2:SS2"\]\]
+\[\[FORMAT-DATE:"date","YY4 MM2 DD2 HH24:MI2:SS2"\]\]
 
 Uhrzeit formatieren:
 
-\[\[SEC\-TO\-TIME:"seconds","h:m:s"\]\]
+\[\[SEC-TO-TIME:"seconds","h:m:s"\]\]
 
 <!-- Referenced links -->
 

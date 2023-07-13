@@ -47,9 +47,9 @@ Der vollständige Name, die E-Mail-Adresse und die Zugehörigkeit: Firma werden 
 
 In der Übersicht Benutzer gibt es verschiedene Registerkarten:
 
-* **Details** \- Hauptübersicht der Benutzerinformationen wie **Benutzer-ID**, **Rolle**, **Benutzerplan**, **Primärgruppe** und **Servicekategorien**.
-* **Lizenzen** \- Zusatzinformationen zur Lizenz wie **Konfigurierbare Aktivitäten**, die dem Benutzer die Option geben, Termine, Dokumente und Selektionen **sichtbar zu machen**.
-* **Mehr** \- Die Registerkarte zeigt an, ob Zusatzfelder für Personen vorhanden sind.
+* **Details** - Hauptübersicht der Benutzerinformationen wie **Benutzer-ID**, **Rolle**, **Benutzerplan**, **Primärgruppe** und **Servicekategorien**.
+* **Lizenzen** - Zusatzinformationen zur Lizenz wie **Konfigurierbare Aktivitäten**, die dem Benutzer die Option geben, Termine, Dokumente und Selektionen **sichtbar zu machen**.
+* **Mehr** - Die Registerkarte zeigt an, ob Zusatzfelder für Personen vorhanden sind.
 
 ## Andere Benutzer (vor Ort)
 
